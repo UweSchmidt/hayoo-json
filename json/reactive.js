@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "reactive"
+        "phrase": "reactive",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAdd bounds to an ordered type\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "Data.AddBounds",
           "name": "AddBounds",
           "package": "reactive",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Add bounds to an ordered type",
           "hierarchy": "Data AddBounds",
+          "indexed": "2014-03-11T19:49:09",
           "module": "Data.AddBounds",
           "name": "AddBounds",
           "package": "reactive",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a type into one having new least and greatest elements,\n preserving the existing ordering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "Data.AddBounds",
           "name": "AddBounds",
           "package": "reactive",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Wrap type into one having new least and greatest elements preserving the existing ordering",
           "hierarchy": "Data AddBounds",
+          "indexed": "2014-03-11T19:49:09",
           "module": "Data.AddBounds",
           "name": "AddBounds",
           "package": "reactive",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "Data.AddBounds",
           "name": "MaxBound",
           "package": "reactive",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data AddBounds",
+          "indexed": "2014-03-11T19:49:09",
           "module": "Data.AddBounds",
           "name": "MaxBound",
           "package": "reactive",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "Data.AddBounds",
           "name": "MinBound",
           "package": "reactive",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data AddBounds",
+          "indexed": "2014-03-11T19:49:09",
           "module": "Data.AddBounds",
           "name": "MinBound",
           "package": "reactive",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "Data.AddBounds",
           "name": "NoBound",
           "package": "reactive",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data AddBounds",
+          "indexed": "2014-03-11T19:49:09",
           "module": "Data.AddBounds",
           "name": "NoBound",
           "package": "reactive",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMax monoid\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "Data.Max",
           "name": "Max",
           "package": "reactive",
@@ -140,6 +151,7 @@
         "index": {
           "description": "Max monoid",
           "hierarchy": "Data Max",
+          "indexed": "2014-03-11T19:49:09",
           "module": "Data.Max",
           "name": "Max",
           "package": "reactive",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdered monoid under \u003ccode\u003e\u003ca\u003emax\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "Data.Max",
           "name": "Max",
           "package": "reactive",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Ordered monoid under max",
           "hierarchy": "Data Max",
+          "indexed": "2014-03-11T19:49:09",
           "module": "Data.Max",
           "name": "Max",
           "package": "reactive",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "Data.Max",
           "name": "Max",
           "package": "reactive",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Data Max",
+          "indexed": "2014-03-11T19:49:09",
           "module": "Data.Max",
           "name": "Max",
           "package": "reactive",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "Data.Max",
           "name": "getMax",
           "package": "reactive",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Data Max",
+          "indexed": "2014-03-11T19:49:09",
           "module": "Data.Max",
           "name": "getMax",
           "package": "reactive",
@@ -221,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMin monoid\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "Data.Min",
           "name": "Min",
           "package": "reactive",
@@ -230,6 +249,7 @@
         "index": {
           "description": "Min monoid",
           "hierarchy": "Data Min",
+          "indexed": "2014-03-11T19:49:09",
           "module": "Data.Min",
           "name": "Min",
           "package": "reactive",
@@ -244,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdered monoid under \u003ccode\u003e\u003ca\u003emin\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "Data.Min",
           "name": "Min",
           "package": "reactive",
@@ -253,6 +274,7 @@
         "index": {
           "description": "Ordered monoid under min",
           "hierarchy": "Data Min",
+          "indexed": "2014-03-11T19:49:09",
           "module": "Data.Min",
           "name": "Min",
           "package": "reactive",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "Data.Min",
           "name": "Min",
           "package": "reactive",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Data Min",
+          "indexed": "2014-03-11T19:49:09",
           "module": "Data.Min",
           "name": "Min",
           "package": "reactive",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "Data.Min",
           "name": "getMin",
           "package": "reactive",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Data Min",
+          "indexed": "2014-03-11T19:49:09",
           "module": "Data.Min",
           "name": "getMin",
           "package": "reactive",
@@ -311,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWriter monad as a pair.  Until it's in Control.Monad.Instances.\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003eimport Data.PairMonad ()\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "Data.PairMonad",
           "name": "PairMonad",
           "package": "reactive",
@@ -320,6 +347,7 @@
         "index": {
           "description": "Writer monad as pair Until it in Control.Monad.Instances Use import Data.PairMonad",
           "hierarchy": "Data PairMonad",
+          "indexed": "2014-03-11T19:49:09",
           "module": "Data.PairMonad",
           "name": "PairMonad",
           "package": "reactive",
@@ -334,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReactive behaviors (continuous time)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Behavior",
           "name": "Behavior",
           "package": "reactive",
@@ -343,6 +372,7 @@
         "index": {
           "description": "Reactive behaviors continuous time",
           "hierarchy": "FRP Reactive Behavior",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Behavior",
           "name": "Behavior",
           "package": "reactive",
@@ -357,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime-specialized behaviors.\n Note: The signatures of all of the behavior functions can be generalized.  Is\n the interface generality worth the complexity?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Behavior",
           "name": "Behavior",
           "package": "reactive",
@@ -366,6 +397,7 @@
         "index": {
           "description": "Time-specialized behaviors Note The signatures of all of the behavior functions can be generalized Is the interface generality worth the complexity",
           "hierarchy": "FRP Reactive Behavior",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Behavior",
           "name": "Behavior",
           "package": "reactive",
@@ -380,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReactive behaviors.  They can be understood in terms of a simple\n model (denotational semantics) as functions of time, namely \u003ccode\u003eat ::\n BehaviorG t a -\u003e (t -\u003e a)\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe semantics of \u003ccode\u003e\u003ca\u003eBehaviorG\u003c/a\u003e\u003c/code\u003e instances are given by corresponding\n instances for the semantic model (functions).  See\n \u003ca\u003ehttp://conal.net/blog/posts/simplifying-semantics-with-type-class-morphisms/\u003c/a\u003e.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003eat (fmap f r) == fmap f (at r)\u003c/code\u003e, i.e., \u003ccode\u003efmap f r \u003ccode\u003eat\u003c/code\u003e\n   t == f (r \u003ccode\u003eat\u003c/code\u003e t)\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003eat (pure a) == pure a\u003c/code\u003e, and \u003ccode\u003eat (s \u003c*\u003e r) == at s\n   \u003c*\u003e at t\u003c/code\u003e.  That is, \u003ccode\u003epure a \u003ccode\u003eat\u003c/code\u003e t == a\u003c/code\u003e, and \u003ccode\u003e(s \u003c*\u003e r) \u003ccode\u003eat\u003c/code\u003e t\n   == (s \u003ccode\u003eat\u003c/code\u003e t) (r \u003ccode\u003eat\u003c/code\u003e t)\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003eat (return a) == return a\u003c/code\u003e, and \u003ccode\u003eat (join rr) == join (at\n   . at rr)\u003c/code\u003e.  That is, \u003ccode\u003ereturn a \u003ccode\u003eat\u003c/code\u003e t == a\u003c/code\u003e, and \u003ccode\u003ejoin rr \u003ccode\u003eat\u003c/code\u003e t ==\n   (rr \u003ccode\u003eat\u003c/code\u003e t) \u003ccode\u003eat\u003c/code\u003e t\u003c/code\u003e.  As always, \u003ccode\u003e(r \u003e\u003e= f) == join (fmap f r)\u003c/code\u003e.\n   \u003ccode\u003eat (r \u003e\u003e= f) == at r \u003e\u003e= at . f\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e: a typical lifted monoid.  If \u003ccode\u003eo\u003c/code\u003e is a monoid, then\n   \u003ccode\u003eReactive o\u003c/code\u003e is a monoid, with \u003ccode\u003emempty == pure mempty\u003c/code\u003e, and \u003ccode\u003emappend\n   == liftA2 mappend\u003c/code\u003e.  That is, \u003ccode\u003emempty \u003ccode\u003eat\u003c/code\u003e t == mempty\u003c/code\u003e, and \u003ccode\u003e(r\n   \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e s) \u003ccode\u003eat\u003c/code\u003e t == (r \u003ccode\u003eat\u003c/code\u003e t) \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e (s \u003ccode\u003eat\u003c/code\u003e t).\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Behavior",
           "name": "BehaviorG",
           "package": "reactive",
@@ -389,6 +422,7 @@
         "index": {
           "description": "Reactive behaviors They can be understood in terms of simple model denotational semantics as functions of time namely at BehaviorG The semantics of BehaviorG instances are given by corresponding instances for the semantic model functions See http conal.net blog posts simplifying-semantics-with-type-class-morphisms Functor at fmap fmap at i.e fmap at at Applicative at pure pure and at at at That is pure at and at at at Monad at return return and at join rr join at at rr That is return at and join rr at rr at at As always join fmap at at at Monoid typical lifted monoid If is monoid then Reactive is monoid with mempty pure mempty and mappend liftA2 mappend That is mempty at mempty and mappend at at mappend at",
           "hierarchy": "FRP Reactive Behavior",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Behavior",
           "name": "BehaviorG",
           "package": "reactive",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Behavior",
           "name": "Behaviour",
           "package": "reactive",
@@ -410,6 +445,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Behavior",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Behavior",
           "name": "Behaviour",
           "package": "reactive",
@@ -814,6 +850,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions, with constant functions optimized, with instances for many\n standard classes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Fun",
           "name": "Fun",
           "package": "reactive",
@@ -823,6 +860,7 @@
         "index": {
           "description": "Functions with constant functions optimized with instances for many standard classes",
           "hierarchy": "FRP Reactive Fun",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Fun",
           "name": "Fun",
           "package": "reactive",
@@ -837,6 +875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant-optimized functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Fun",
           "name": "Fun",
           "package": "reactive",
@@ -846,6 +885,7 @@
         "index": {
           "description": "Constant-optimized functions",
           "hierarchy": "FRP Reactive Fun",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Fun",
           "name": "Fun",
           "package": "reactive",
@@ -860,6 +900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFun\u003c/a\u003e\u003c/code\u003e as a function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Fun",
           "name": "apply",
           "package": "reactive",
@@ -870,6 +911,7 @@
         "index": {
           "description": "Fun as function",
           "hierarchy": "FRP Reactive Fun",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Fun",
           "name": "apply",
           "normalized": "Fun a b-\u003ea-\u003eb",
@@ -884,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Fun",
           "name": "batch",
           "package": "reactive",
@@ -893,6 +936,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Fun",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Fun",
           "name": "batch",
           "package": "reactive",
@@ -905,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Fun",
           "name": "fun",
           "package": "reactive",
@@ -914,6 +959,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Fun",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Fun",
           "name": "fun",
           "normalized": "(a-\u003eb)-\u003eFun a b",
@@ -929,6 +975,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple formulation of functional \u003cem\u003efutures\u003c/em\u003e, roughly as\n described at \u003ca\u003ehttp://en.wikipedia.org/wiki/Futures_and_promises\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eA \u003cem\u003efuture\u003c/em\u003e is a value with an associated time of \u003cem\u003earrival\u003c/em\u003e.  Typically,\n neither the time nor the value can be known until the arrival time.\n\u003c/p\u003e\u003cp\u003ePrimitive futures can be things like /the value of the next key you\n press\u003cem\u003e, or \u003c/em\u003ethe value of LambdaPix stock at noon next Monday/.\n\u003c/p\u003e\u003cp\u003eComposition is via standard type classes: \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003eApplicative\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e.  Some comments on the \u003ccode\u003e\u003ca\u003eFuture\u003c/a\u003e\u003c/code\u003e instances of\n these classes:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Monoid: \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e is a future that never arrives (infinite time and\n   undefined value), and \u003ccode\u003ea \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e b\u003c/code\u003e is the earlier of \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e,\n   preferring \u003ccode\u003ea\u003c/code\u003e when simultaneous.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e: apply a function to a future argument.  The (future)\n result arrives simultaneously with the argument.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eApplicative\u003c/code\u003e: \u003ccode\u003epure\u003c/code\u003e gives value arriving negative infinity.\n '(\u003c*\u003e)' applies a future function to a future argument, yielding a\n future result that arrives once \u003cem\u003eboth\u003c/em\u003e function and argument have\n arrived (coinciding with the later of the two times).\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e is the same as \u003ccode\u003epure\u003c/code\u003e (as usual).  \u003ccode\u003e(\u003e\u003e=)\u003c/code\u003e cascades\n futures.  \u003ccode\u003ejoin\u003c/code\u003e resolves a future future value into a future value.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eFutures are parametric over \u003cem\u003etime\u003c/em\u003e as well as \u003cem\u003evalue\u003c/em\u003e types.  The time\n parameter can be any ordered type and is particularly useful with time\n types that have rich partial information structure, such as /improving\n values/.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Future",
           "name": "Future",
           "package": "reactive",
@@ -938,6 +985,7 @@
         "index": {
           "description": "simple formulation of functional futures roughly as described at http en.wikipedia.org wiki Futures and promises future is value with an associated time of arrival Typically neither the time nor the value can be known until the arrival time Primitive futures can be things like the value of the next key you press or the value of LambdaPix stock at noon next Monday Composition is via standard type classes Functor Applicative Monad and Monoid Some comments on the Future instances of these classes Monoid mempty is future that never arrives infinite time and undefined value and mappend is the earlier of and preferring when simultaneous Functor apply function to future argument The future result arrives simultaneously with the argument Applicative pure gives value arriving negative infinity applies future function to future argument yielding future result that arrives once both function and argument have arrived coinciding with the later of the two times Monad return is the same as pure as usual cascades futures join resolves future future value into future value Futures are parametric over time as well as value types The time parameter can be any ordered type and is particularly useful with time types that have rich partial information structure such as improving values",
           "hierarchy": "FRP Reactive Future",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Future",
           "name": "Future",
           "package": "reactive",
@@ -952,6 +1000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA future value of type \u003ccode\u003ea\u003c/code\u003e with time type \u003ccode\u003et\u003c/code\u003e.  Simply a\n time/value pair.  Particularly useful with time types that have\n non-flat structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Future",
           "name": "FutureG",
           "package": "reactive",
@@ -961,6 +1010,7 @@
         "index": {
           "description": "future value of type with time type Simply time value pair Particularly useful with time types that have non-flat structure",
           "hierarchy": "FRP Reactive Future",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Future",
           "name": "FutureG",
           "package": "reactive",
@@ -975,6 +1025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime used in futures.  The parameter \u003ccode\u003et\u003c/code\u003e can be any \u003ccode\u003eOrd\u003c/code\u003e and\n \u003ccode\u003eBounded\u003c/code\u003e type.  Pure values have time \u003ccode\u003e\u003ca\u003eminBound\u003c/a\u003e\u003c/code\u003e, while\n never-occurring futures have time 'maxBound.'\n type Time t = Max (AddBounds t)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Future",
           "name": "Time",
           "package": "reactive",
@@ -984,6 +1035,7 @@
         "index": {
           "description": "Time used in futures The parameter can be any Ord and Bounded type Pure values have time minBound while never-occurring futures have time maxBound type Time Max AddBounds",
           "hierarchy": "FRP Reactive Future",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Future",
           "name": "Time",
           "package": "reactive",
@@ -1020,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Future",
           "name": "batch",
           "package": "reactive",
@@ -1029,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Future",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Future",
           "name": "batch",
           "package": "reactive",
@@ -1042,6 +1096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a finite time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Future",
           "name": "ftime",
           "package": "reactive",
@@ -1052,6 +1107,7 @@
         "index": {
           "description": "Make finite time",
           "hierarchy": "FRP Reactive Future",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Future",
           "name": "ftime",
           "normalized": "a-\u003eTime a",
@@ -1067,6 +1123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA future's time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Future",
           "name": "futTime",
           "package": "reactive",
@@ -1077,6 +1134,7 @@
         "index": {
           "description": "future time",
           "hierarchy": "FRP Reactive Future",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Future",
           "name": "futTime",
           "normalized": "FutureG a b-\u003eTime a",
@@ -1093,6 +1151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA future's value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Future",
           "name": "futVal",
           "package": "reactive",
@@ -1103,6 +1162,7 @@
         "index": {
           "description": "future value",
           "hierarchy": "FRP Reactive Future",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Future",
           "name": "futVal",
           "normalized": "FutureG a b-\u003eb",
@@ -1119,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA future value with given time & value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Future",
           "name": "future",
           "package": "reactive",
@@ -1129,6 +1190,7 @@
         "index": {
           "description": "future value with given time value",
           "hierarchy": "FRP Reactive Future",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Future",
           "name": "future",
           "normalized": "a-\u003eb-\u003eFutureG a b",
@@ -1248,6 +1310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess time of future\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Future",
           "name": "withTimeF",
           "package": "reactive",
@@ -1258,6 +1321,7 @@
         "index": {
           "description": "Access time of future",
           "hierarchy": "FRP Reactive Future",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Future",
           "name": "withTimeF",
           "normalized": "FutureG a b-\u003eFutureG a(Time a,b)",
@@ -1274,6 +1338,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImproving values -- efficient version\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Improving",
           "name": "Improving",
           "package": "reactive",
@@ -1283,6 +1348,7 @@
         "index": {
           "description": "Improving values efficient version",
           "hierarchy": "FRP Reactive Improving",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Improving",
           "name": "Improving",
           "package": "reactive",
@@ -1297,6 +1363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn improving value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Improving",
           "name": "Improving",
           "package": "reactive",
@@ -1306,6 +1373,7 @@
         "index": {
           "description": "An improving value",
           "hierarchy": "FRP Reactive Improving",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Improving",
           "name": "Improving",
           "package": "reactive",
@@ -1319,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Improving",
           "name": "Imp",
           "package": "reactive",
@@ -1328,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Improving",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Improving",
           "name": "Imp",
           "package": "reactive",
@@ -1342,6 +1412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value known to be \u003ccode\u003e\u003e x\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Improving",
           "name": "after",
           "package": "reactive",
@@ -1352,6 +1423,7 @@
         "index": {
           "description": "value known to be",
           "hierarchy": "FRP Reactive Improving",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Improving",
           "name": "after",
           "normalized": "a-\u003eImproving a",
@@ -1366,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Improving",
           "name": "batch",
           "package": "reactive",
@@ -1375,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Improving",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Improving",
           "name": "batch",
           "package": "reactive",
@@ -1388,6 +1462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value known to be \u003ccode\u003e\u003c x\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Improving",
           "name": "before",
           "package": "reactive",
@@ -1398,6 +1473,7 @@
         "index": {
           "description": "value known to be",
           "hierarchy": "FRP Reactive Improving",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Improving",
           "name": "before",
           "normalized": "a-\u003eImproving a",
@@ -1412,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Improving",
           "name": "compareI",
           "package": "reactive",
@@ -1421,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Improving",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Improving",
           "name": "compareI",
           "normalized": "a-\u003eOrdering",
@@ -1435,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Improving",
           "name": "exact",
           "package": "reactive",
@@ -1444,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Improving",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Improving",
           "name": "exact",
           "package": "reactive",
@@ -1457,6 +1537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA known improving value (which doesn't really improve)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Improving",
           "name": "exactly",
           "package": "reactive",
@@ -1467,6 +1548,7 @@
         "index": {
           "description": "known improving value which doesn really improve",
           "hierarchy": "FRP Reactive Improving",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Improving",
           "name": "exactly",
           "normalized": "a-\u003eImproving a",
@@ -1482,6 +1564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficient combination of \u003ccode\u003e\u003ca\u003emax\u003c/a\u003e\u003c/code\u003e and '(\u003e=)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Improving",
           "name": "maxI",
           "package": "reactive",
@@ -1492,6 +1575,7 @@
         "index": {
           "description": "Efficient combination of max and",
           "hierarchy": "FRP Reactive Improving",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Improving",
           "name": "maxI",
           "normalized": "Improving a-\u003eImproving a-\u003e(Improving a,Bool)",
@@ -1507,6 +1591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficient combination of \u003ccode\u003e\u003ca\u003emin\u003c/a\u003e\u003c/code\u003e and '(\u003c=)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Improving",
           "name": "minI",
           "package": "reactive",
@@ -1517,6 +1602,7 @@
         "index": {
           "description": "Efficient combination of min and",
           "hierarchy": "FRP Reactive Improving",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Improving",
           "name": "minI",
           "normalized": "Improving a-\u003eImproving a-\u003e(Improving a,Bool)",
@@ -1532,6 +1618,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresentation of reactive behaviors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Behavior",
           "name": "Behavior",
           "package": "reactive",
@@ -1541,6 +1628,7 @@
         "index": {
           "description": "Representation of reactive behaviors",
           "hierarchy": "FRP Reactive Internal Behavior",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Behavior",
           "name": "Behavior",
           "package": "reactive",
@@ -1555,6 +1643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReactive behaviors.  They can be understood in terms of a simple\n model (denotational semantics) as functions of time, namely \u003ccode\u003eat ::\n BehaviorG t a -\u003e (t -\u003e a)\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe semantics of \u003ccode\u003e\u003ca\u003eBehaviorG\u003c/a\u003e\u003c/code\u003e instances are given by corresponding\n instances for the semantic model (functions).  See\n \u003ca\u003ehttp://conal.net/blog/posts/simplifying-semantics-with-type-class-morphisms/\u003c/a\u003e.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003eat (fmap f r) == fmap f (at r)\u003c/code\u003e, i.e., \u003ccode\u003efmap f r \u003ccode\u003eat\u003c/code\u003e\n   t == f (r \u003ccode\u003eat\u003c/code\u003e t)\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003eat (pure a) == pure a\u003c/code\u003e, and \u003ccode\u003eat (s \u003c*\u003e r) == at s\n   \u003c*\u003e at t\u003c/code\u003e.  That is, \u003ccode\u003epure a \u003ccode\u003eat\u003c/code\u003e t == a\u003c/code\u003e, and \u003ccode\u003e(s \u003c*\u003e r) \u003ccode\u003eat\u003c/code\u003e t\n   == (s \u003ccode\u003eat\u003c/code\u003e t) (r \u003ccode\u003eat\u003c/code\u003e t)\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003eat (return a) == return a\u003c/code\u003e, and \u003ccode\u003eat (join rr) == join (at\n   . at rr)\u003c/code\u003e.  That is, \u003ccode\u003ereturn a \u003ccode\u003eat\u003c/code\u003e t == a\u003c/code\u003e, and \u003ccode\u003ejoin rr \u003ccode\u003eat\u003c/code\u003e t ==\n   (rr \u003ccode\u003eat\u003c/code\u003e t) \u003ccode\u003eat\u003c/code\u003e t\u003c/code\u003e.  As always, \u003ccode\u003e(r \u003e\u003e= f) == join (fmap f r)\u003c/code\u003e.\n   \u003ccode\u003eat (r \u003e\u003e= f) == at r \u003e\u003e= at . f\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e: a typical lifted monoid.  If \u003ccode\u003eo\u003c/code\u003e is a monoid, then\n   \u003ccode\u003eReactive o\u003c/code\u003e is a monoid, with \u003ccode\u003emempty == pure mempty\u003c/code\u003e, and \u003ccode\u003emappend\n   == liftA2 mappend\u003c/code\u003e.  That is, \u003ccode\u003emempty \u003ccode\u003eat\u003c/code\u003e t == mempty\u003c/code\u003e, and \u003ccode\u003e(r\n   \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e s) \u003ccode\u003eat\u003c/code\u003e t == (r \u003ccode\u003eat\u003c/code\u003e t) \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e (s \u003ccode\u003eat\u003c/code\u003e t).\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Behavior",
           "name": "BehaviorG",
           "package": "reactive",
@@ -1564,6 +1653,7 @@
         "index": {
           "description": "Reactive behaviors They can be understood in terms of simple model denotational semantics as functions of time namely at BehaviorG The semantics of BehaviorG instances are given by corresponding instances for the semantic model functions See http conal.net blog posts simplifying-semantics-with-type-class-morphisms Functor at fmap fmap at i.e fmap at at Applicative at pure pure and at at at That is pure at and at at at Monad at return return and at join rr join at at rr That is return at and join rr at rr at at As always join fmap at at at Monoid typical lifted monoid If is monoid then Reactive is monoid with mempty pure mempty and mappend liftA2 mappend That is mempty at mempty and mappend at at mappend at",
           "hierarchy": "FRP Reactive Internal Behavior",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Behavior",
           "name": "BehaviorG",
           "package": "reactive",
@@ -1577,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Behavior",
           "name": "Beh",
           "package": "reactive",
@@ -1586,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Internal Behavior",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Behavior",
           "name": "Beh",
           "package": "reactive",
@@ -1600,6 +1692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a reactive time fun as a behavior.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Behavior",
           "name": "beh",
           "package": "reactive",
@@ -1610,6 +1703,7 @@
         "index": {
           "description": "Wrap reactive time fun as behavior",
           "hierarchy": "FRP Reactive Internal Behavior",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Behavior",
           "name": "beh",
           "normalized": "ReactiveG a(Fun b c)-\u003eBehaviorG a b c",
@@ -1624,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Behavior",
           "name": "unBeh",
           "package": "reactive",
@@ -1633,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Internal Behavior",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Behavior",
           "name": "unBeh",
           "package": "reactive",
@@ -1647,6 +1743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrap a behavior.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Behavior",
           "name": "unb",
           "package": "reactive",
@@ -1657,6 +1754,7 @@
         "index": {
           "description": "Unwrap behavior",
           "hierarchy": "FRP Reactive Internal Behavior",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Behavior",
           "name": "unb",
           "normalized": "BehaviorG a b c-\u003eReactiveG a(Fun b c)",
@@ -1672,6 +1770,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnbounded channels.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Chan",
           "name": "Chan",
           "package": "reactive",
@@ -1681,6 +1780,7 @@
         "index": {
           "description": "Unbounded channels",
           "hierarchy": "FRP Reactive Internal Chan",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Chan",
           "name": "Chan",
           "package": "reactive",
@@ -1695,6 +1795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e is an abstract type representing an unbounded FIFO channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Chan",
           "name": "Chan",
           "package": "reactive",
@@ -1704,6 +1805,7 @@
         "index": {
           "description": "Chan is an abstract type representing an unbounded FIFO channel",
           "hierarchy": "FRP Reactive Internal Chan",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Chan",
           "name": "Chan",
           "package": "reactive",
@@ -1718,6 +1820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDuplicate a \u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e: the duplicate channel begins empty, but data written to\n either channel from then on will be available from both.  Hence this creates\n a kind of broadcast channel, where data written by anyone is seen by\n everyone else.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Chan",
           "name": "dupChan",
           "package": "reactive",
@@ -1728,6 +1831,7 @@
         "index": {
           "description": "Duplicate Chan the duplicate channel begins empty but data written to either channel from then on will be available from both Hence this creates kind of broadcast channel where data written by anyone is seen by everyone else",
           "hierarchy": "FRP Reactive Internal Chan",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Chan",
           "name": "dupChan",
           "normalized": "Chan a-\u003eIO(Chan a)",
@@ -1744,6 +1848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a lazy list representing the contents of the supplied\n \u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e, much like \u003ccode\u003eSystem.IO.hGetContents\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Chan",
           "name": "getChanContents",
           "package": "reactive",
@@ -1754,6 +1859,7 @@
         "index": {
           "description": "Return lazy list representing the contents of the supplied Chan much like System.IO.hGetContents",
           "hierarchy": "FRP Reactive Internal Chan",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Chan",
           "name": "getChanContents",
           "normalized": "Chan a-\u003eIO[a]",
@@ -1770,6 +1876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the supplied \u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Chan",
           "name": "isEmptyChan",
           "package": "reactive",
@@ -1780,6 +1887,7 @@
         "index": {
           "description": "Returns True if the supplied Chan is empty",
           "hierarchy": "FRP Reactive Internal Chan",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Chan",
           "name": "isEmptyChan",
           "normalized": "Chan a-\u003eIO Bool",
@@ -1796,6 +1904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild and returns a new instance of \u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Chan",
           "name": "newChan",
           "package": "reactive",
@@ -1806,6 +1915,7 @@
         "index": {
           "description": "Build and returns new instance of Chan",
           "hierarchy": "FRP Reactive Internal Chan",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Chan",
           "name": "newChan",
           "package": "reactive",
@@ -1820,6 +1930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the next value from the \u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Chan",
           "name": "readChan",
           "package": "reactive",
@@ -1830,6 +1941,7 @@
         "index": {
           "description": "Read the next value from the Chan",
           "hierarchy": "FRP Reactive Internal Chan",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Chan",
           "name": "readChan",
           "normalized": "Chan a-\u003eIO a",
@@ -1846,6 +1958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut a data item back onto a channel, where it will be the next item read.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Chan",
           "name": "unGetChan",
           "package": "reactive",
@@ -1856,6 +1969,7 @@
         "index": {
           "description": "Put data item back onto channel where it will be the next item read",
           "hierarchy": "FRP Reactive Internal Chan",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Chan",
           "name": "unGetChan",
           "normalized": "Chan a-\u003ea-\u003eIO()",
@@ -1872,6 +1986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA weak channel writer.  Sustained by the read head.  Thus channel\n consumers keep channel producers alive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Chan",
           "name": "weakChanWriter",
           "package": "reactive",
@@ -1882,6 +1997,7 @@
         "index": {
           "description": "weak channel writer Sustained by the read head Thus channel consumers keep channel producers alive",
           "hierarchy": "FRP Reactive Internal Chan",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Chan",
           "name": "weakChanWriter",
           "normalized": "Chan a-\u003eIO(IO(Maybe(a-\u003eIO())))",
@@ -1898,6 +2014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a value to a \u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Chan",
           "name": "writeChan",
           "package": "reactive",
@@ -1908,6 +2025,7 @@
         "index": {
           "description": "Write value to Chan",
           "hierarchy": "FRP Reactive Internal Chan",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Chan",
           "name": "writeChan",
           "normalized": "Chan a-\u003ea-\u003eIO()",
@@ -1924,6 +2042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an entire list of items to a \u003ccode\u003e\u003ca\u003eChan\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Chan",
           "name": "writeList2Chan",
           "package": "reactive",
@@ -1934,6 +2053,7 @@
         "index": {
           "description": "Write an entire list of items to Chan",
           "hierarchy": "FRP Reactive Internal Chan",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Chan",
           "name": "writeList2Chan",
           "normalized": "Chan a-\u003e[a]-\u003eIO()",
@@ -1950,6 +2070,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSerializing clocks\n\u003c/p\u003e\u003cp\u003eThanks to Luke Palmer for help with this module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Clock",
           "name": "Clock",
           "package": "reactive",
@@ -1959,6 +2080,7 @@
         "index": {
           "description": "Serializing clocks Thanks to Luke Palmer for help with this module",
           "hierarchy": "FRP Reactive Internal Clock",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Clock",
           "name": "Clock",
           "package": "reactive",
@@ -1973,6 +2095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWaits a specified duration and then execute an action\n type Delay t = t -\u003e forall a. IO a -\u003e IO a\n\u003c/p\u003e\u003cp\u003eWaits until just after a specified time and then execute an action,\n passing in the actual time.\n type Schedule t = t -\u003e Sink (Sink t)\n\u003c/p\u003e\u003cp\u003eA serializing clock.  Can (a) produce a time and (b) serialize an\n action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Clock",
           "name": "Clock",
           "package": "reactive",
@@ -1982,6 +2105,7 @@
         "index": {
           "description": "Waits specified duration and then execute an action type Delay forall IO IO Waits until just after specified time and then execute an action passing in the actual time type Schedule Sink Sink serializing clock Can produce time and serialize an action",
           "hierarchy": "FRP Reactive Internal Clock",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Clock",
           "name": "Clock",
           "package": "reactive",
@@ -1995,6 +2119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Clock",
           "name": "Clock",
           "package": "reactive",
@@ -2004,6 +2129,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Internal Clock",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Clock",
           "name": "Clock",
           "package": "reactive",
@@ -2017,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Clock",
           "name": "cGetTime",
           "package": "reactive",
@@ -2026,6 +2153,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Internal Clock",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Clock",
           "name": "cGetTime",
           "package": "reactive",
@@ -2039,6 +2167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Clock",
           "name": "cSerialize",
           "package": "reactive",
@@ -2048,6 +2177,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Internal Clock",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Clock",
           "name": "cSerialize",
           "package": "reactive",
@@ -2087,6 +2217,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConstant-optimized representation of functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Fun",
           "name": "Fun",
           "package": "reactive",
@@ -2096,6 +2227,7 @@
         "index": {
           "description": "Constant-optimized representation of functions",
           "hierarchy": "FRP Reactive Internal Fun",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Fun",
           "name": "Fun",
           "package": "reactive",
@@ -2110,6 +2242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant-optimized functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Fun",
           "name": "Fun",
           "package": "reactive",
@@ -2119,6 +2252,7 @@
         "index": {
           "description": "Constant-optimized functions",
           "hierarchy": "FRP Reactive Internal Fun",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Fun",
           "name": "Fun",
           "package": "reactive",
@@ -2133,6 +2267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enon-constant function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Fun",
           "name": "Fun",
           "package": "reactive",
@@ -2143,6 +2278,7 @@
         "index": {
           "description": "non-constant function",
           "hierarchy": "FRP Reactive Internal Fun",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Fun",
           "name": "Fun",
           "normalized": "Fun(a-\u003eb)",
@@ -2159,6 +2295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Fun",
           "name": "K",
           "package": "reactive",
@@ -2169,6 +2306,7 @@
         "index": {
           "description": "constant function",
           "hierarchy": "FRP Reactive Internal Fun",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Fun",
           "name": "K",
           "package": "reactive",
@@ -2182,6 +2320,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresentation of future values\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Future",
           "name": "Future",
           "package": "reactive",
@@ -2191,6 +2330,7 @@
         "index": {
           "description": "Representation of future values",
           "hierarchy": "FRP Reactive Internal Future",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Future",
           "name": "Future",
           "package": "reactive",
@@ -2205,6 +2345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA future value of type \u003ccode\u003ea\u003c/code\u003e with time type \u003ccode\u003et\u003c/code\u003e.  Simply a\n time/value pair.  Particularly useful with time types that have\n non-flat structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Future",
           "name": "FutureG",
           "package": "reactive",
@@ -2214,6 +2355,7 @@
         "index": {
           "description": "future value of type with time type Simply time value pair Particularly useful with time types that have non-flat structure",
           "hierarchy": "FRP Reactive Internal Future",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Future",
           "name": "FutureG",
           "package": "reactive",
@@ -2228,6 +2370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime used in futures.  The parameter \u003ccode\u003et\u003c/code\u003e can be any \u003ccode\u003eOrd\u003c/code\u003e and\n \u003ccode\u003eBounded\u003c/code\u003e type.  Pure values have time \u003ccode\u003e\u003ca\u003eminBound\u003c/a\u003e\u003c/code\u003e, while\n never-occurring futures have time 'maxBound.'\n type Time t = Max (AddBounds t)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Future",
           "name": "Time",
           "package": "reactive",
@@ -2237,6 +2380,7 @@
         "index": {
           "description": "Time used in futures The parameter can be any Ord and Bounded type Pure values have time minBound while never-occurring futures have time maxBound type Time Max AddBounds",
           "hierarchy": "FRP Reactive Internal Future",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Future",
           "name": "Time",
           "package": "reactive",
@@ -2251,6 +2395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a future in the current thread.  Use the given time sink to sync\n time, i.e., to wait for an output time before performing the action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Future",
           "name": "runF",
           "package": "reactive",
@@ -2261,6 +2406,7 @@
         "index": {
           "description": "Run future in the current thread Use the given time sink to sync time i.e to wait for an output time before performing the action",
           "hierarchy": "FRP Reactive Internal Future",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Future",
           "name": "runF",
           "normalized": "Sink a-\u003eFutureG a(IO b)-\u003eIO b",
@@ -2276,6 +2422,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWrite-once variables.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.IVar",
           "name": "IVar",
           "package": "reactive",
@@ -2285,6 +2432,7 @@
         "index": {
           "description": "Write-once variables",
           "hierarchy": "FRP Reactive Internal IVar",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.IVar",
           "name": "IVar",
           "package": "reactive",
@@ -2298,6 +2446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.IVar",
           "name": "IVar",
           "package": "reactive",
@@ -2306,6 +2455,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Internal IVar",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.IVar",
           "name": "IVar",
           "package": "reactive",
@@ -2319,6 +2469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.IVar",
           "name": "newIVar",
           "package": "reactive",
@@ -2328,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Internal IVar",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.IVar",
           "name": "newIVar",
           "package": "reactive",
@@ -2342,6 +2494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the value in the IVar.  The *value* will block\n until the variable becomes filled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.IVar",
           "name": "readIVar",
           "package": "reactive",
@@ -2352,6 +2505,7 @@
         "index": {
           "description": "Returns the value in the IVar The value will block until the variable becomes filled",
           "hierarchy": "FRP Reactive Internal IVar",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.IVar",
           "name": "readIVar",
           "normalized": "IVar a-\u003ea",
@@ -2368,6 +2522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns Nothing if the IVar has no value yet, otherwise\n returns the value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.IVar",
           "name": "tryReadIVar",
           "package": "reactive",
@@ -2378,6 +2533,7 @@
         "index": {
           "description": "Returns Nothing if the IVar has no value yet otherwise returns the value",
           "hierarchy": "FRP Reactive Internal IVar",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.IVar",
           "name": "tryReadIVar",
           "normalized": "IVar a-\u003eIO(Maybe a)",
@@ -2394,6 +2550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePuts the value of the IVar.  If it already has a value,\n block forever.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.IVar",
           "name": "writeIVar",
           "package": "reactive",
@@ -2404,6 +2561,7 @@
         "index": {
           "description": "Puts the value of the IVar If it already has value block forever",
           "hierarchy": "FRP Reactive Internal IVar",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.IVar",
           "name": "writeIVar",
           "normalized": "IVar a-\u003ea-\u003eIO()",
@@ -2420,6 +2578,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMisc Reactive internal defs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Misc",
           "name": "Misc",
           "package": "reactive",
@@ -2429,6 +2588,7 @@
         "index": {
           "description": "Misc Reactive internal defs",
           "hierarchy": "FRP Reactive Internal Misc",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Misc",
           "name": "Misc",
           "package": "reactive",
@@ -2443,6 +2603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient alias for dropping parentheses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Misc",
           "name": "Action",
           "package": "reactive",
@@ -2452,6 +2613,7 @@
         "index": {
           "description": "Convenient alias for dropping parentheses",
           "hierarchy": "FRP Reactive Internal Misc",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Misc",
           "name": "Action",
           "package": "reactive",
@@ -2466,6 +2628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue consumer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Misc",
           "name": "Sink",
           "package": "reactive",
@@ -2475,6 +2638,7 @@
         "index": {
           "description": "Value consumer",
           "hierarchy": "FRP Reactive Internal Misc",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Misc",
           "name": "Sink",
           "package": "reactive",
@@ -2489,6 +2653,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresentation for \u003ccode\u003eReactive\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e types.  Combined here,\n because they're mutually recursive.\n\u003c/p\u003e\u003cp\u003eThe representation used in this module is based on a close connection\n between these two types.  A reactive value is defined by an initial\n value and an event that yields future values; while an event is given\n as a future reactive value.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "Reactive",
           "package": "reactive",
@@ -2498,6 +2663,7 @@
         "index": {
           "description": "Representation for Reactive and Event types Combined here because they re mutually recursive The representation used in this module is based on close connection between these two types reactive value is defined by an initial value and an event that yields future values while an event is given as future reactive value",
           "hierarchy": "FRP Reactive Internal Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "Reactive",
           "package": "reactive",
@@ -2512,6 +2678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvents.  Semantically: time-ordered list of future values.\n Instances: \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eMonoid\u003c/code\u003e: \u003ccode\u003emempty\u003c/code\u003e is the event that never occurs, and \u003ccode\u003ee \u003ccode\u003emappend\u003c/code\u003e\n   e'\u003c/code\u003e is the event that combines occurrences from \u003ccode\u003ee\u003c/code\u003e and \u003ccode\u003ee'\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003efmap f e\u003c/code\u003e is the event that occurs whenever \u003ccode\u003ee\u003c/code\u003e occurs,\n   and whose occurrence values come from applying \u003ccode\u003ef\u003c/code\u003e to the values from\n   \u003ccode\u003ee\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eApplicative\u003c/code\u003e: \u003ccode\u003epure a\u003c/code\u003e is an event with a single occurrence at time\n   -Infinity.  \u003ccode\u003eef \u003c*\u003e ex\u003c/code\u003e is an event whose occurrences are made from\n   the \u003cem\u003eproduct\u003c/em\u003e of the occurrences of \u003ccode\u003eef\u003c/code\u003e and \u003ccode\u003eex\u003c/code\u003e.  For every occurrence\n   \u003ccode\u003ef\u003c/code\u003e at time \u003ccode\u003etf\u003c/code\u003e of \u003ccode\u003eef\u003c/code\u003e and occurrence \u003ccode\u003ex\u003c/code\u003e at time \u003ccode\u003etx\u003c/code\u003e of \u003ccode\u003eex\u003c/code\u003e, \u003ccode\u003eef\n   \u003c*\u003e ex\u003c/code\u003e has an occurrence \u003ccode\u003ef x\u003c/code\u003e at time \u003ccode\u003etf \u003ccode\u003e\u003ca\u003emax\u003c/a\u003e\u003c/code\u003e tx\u003c/code\u003e.  N.B.: I\n   don't expect this instance to be very useful.  If \u003ccode\u003eef\u003c/code\u003e has \u003ccode\u003enf\u003c/code\u003e\n   instances and \u003ccode\u003eex\u003c/code\u003e has \u003ccode\u003enx\u003c/code\u003e instances, then \u003ccode\u003eef \u003c*\u003e ex\u003c/code\u003e has \u003ccode\u003enf*nx\u003c/code\u003e\n   instances.  However, there are only \u003ccode\u003enf+nx\u003c/code\u003e possibilities for \u003ccode\u003etf\n   \u003ccode\u003e\u003ca\u003emax\u003c/a\u003e\u003c/code\u003e tx\u003c/code\u003e, so many of the occurrences are simultaneous.  If you think\n   you want to use this instance, consider using \u003ccode\u003eReactive\u003c/code\u003e instead.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003ereturn a\u003c/code\u003e is the same as \u003ccode\u003epure a\u003c/code\u003e (as usual).  In \u003ccode\u003ee \u003e\u003e= f\u003c/code\u003e,\n   each occurrence of \u003ccode\u003ee\u003c/code\u003e leads, through \u003ccode\u003ef\u003c/code\u003e, to a new event.  Similarly\n   for \u003ccode\u003ejoin ee\u003c/code\u003e, which is somehow simpler for me to think about.  The\n   occurrences of \u003ccode\u003ee \u003e\u003e= f\u003c/code\u003e (or \u003ccode\u003ejoin ee\u003c/code\u003e) correspond to the union of the\n   occurrences (temporal interleaving) of all such events.  For example,\n   suppose we're playing Asteroids and tracking collisions.  Each collision\n   can break an asteroid into more of them, each of which has to be tracked\n   for more collisions.  Another example: A chat room has an \u003cem\u003eenter\u003c/em\u003e event,\n   whose occurrences contain new events like \u003cem\u003espeak\u003c/em\u003e.  An especially useful\n   monad-based function is \u003ccode\u003ejoinMaybes\u003c/code\u003e, which filters a Maybe-valued\n   event.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "EventG",
           "package": "reactive",
@@ -2521,6 +2688,7 @@
         "index": {
           "description": "Events Semantically time-ordered list of future values Instances Monoid mempty is the event that never occurs and mappend is the event that combines occurrences from and Functor fmap is the event that occurs whenever occurs and whose occurrence values come from applying to the values from Applicative pure is an event with single occurrence at time Infinity ef ex is an event whose occurrences are made from the product of the occurrences of ef and ex For every occurrence at time tf of ef and occurrence at time tx of ex ef ex has an occurrence at time tf max tx N.B don expect this instance to be very useful If ef has nf instances and ex has nx instances then ef ex has nf nx instances However there are only nf nx possibilities for tf max tx so many of the occurrences are simultaneous If you think you want to use this instance consider using Reactive instead Monad return is the same as pure as usual In each occurrence of leads through to new event Similarly for join ee which is somehow simpler for me to think about The occurrences of or join ee correspond to the union of the occurrences temporal interleaving of all such events For example suppose we re playing Asteroids and tracking collisions Each collision can break an asteroid into more of them each of which has to be tracked for more collisions Another example chat room has an enter event whose occurrences contain new events like speak An especially useful monad-based function is joinMaybes which filters Maybe-valued event",
           "hierarchy": "FRP Reactive Internal Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "EventG",
           "package": "reactive",
@@ -2535,6 +2703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReactive value: a discretely changing value.  Reactive values can be\n understood in terms of (a) a simple denotational semantics of reactive\n values as functions of time, and (b) the corresponding instances for\n functions.  The semantics is given by the function \u003ccode\u003eat :: ReactiveG t a -\u003e\n (t -\u003e a)\u003c/code\u003e.  A reactive value may also be thought of (and in this module\n is implemented as) a current value and an event (stream of future values).\n\u003c/p\u003e\u003cp\u003eThe semantics of \u003ccode\u003e\u003ca\u003eReactiveG\u003c/a\u003e\u003c/code\u003e instances are given by corresponding\n instances for the semantic model (functions):\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003eat (fmap f r) == fmap f (at r)\u003c/code\u003e, i.e., \u003ccode\u003efmap f r \u003ccode\u003eat\u003c/code\u003e\n   t == f (r \u003ccode\u003eat\u003c/code\u003e t)\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eApplicative\u003c/code\u003e: \u003ccode\u003eat (pure a) == pure a\u003c/code\u003e, and \u003ccode\u003eat (s \u003c*\u003e r) == at s\n   \u003c*\u003e at t\u003c/code\u003e.  That is, \u003ccode\u003epure a \u003ccode\u003eat\u003c/code\u003e t == a\u003c/code\u003e, and \u003ccode\u003e(s \u003c*\u003e r) \u003ccode\u003eat\u003c/code\u003e t\n   == (s \u003ccode\u003eat\u003c/code\u003e t) (r \u003ccode\u003eat\u003c/code\u003e t)\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003eat (return a) == return a\u003c/code\u003e, and \u003ccode\u003eat (join rr) == join (at\n   . at rr)\u003c/code\u003e.  That is, \u003ccode\u003ereturn a \u003ccode\u003eat\u003c/code\u003e t == a\u003c/code\u003e, and \u003ccode\u003ejoin rr \u003ccode\u003eat\u003c/code\u003e t ==\n   (rr \u003ccode\u003eat\u003c/code\u003e t) \u003ccode\u003eat\u003c/code\u003e t\u003c/code\u003e.  As always, \u003ccode\u003e(r \u003e\u003e= f) == join (fmap f r)\u003c/code\u003e.\n   \u003ccode\u003eat (r \u003e\u003e= f) == at r \u003e\u003e= at . f\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eMonoid\u003c/code\u003e: a typical lifted monoid.  If \u003ccode\u003eo\u003c/code\u003e is a monoid, then\n   \u003ccode\u003eReactive o\u003c/code\u003e is a monoid, with \u003ccode\u003emempty == pure mempty\u003c/code\u003e, and \u003ccode\u003emappend\n   == liftA2 mappend\u003c/code\u003e.  That is, \u003ccode\u003emempty \u003ccode\u003eat\u003c/code\u003e t == mempty\u003c/code\u003e, and \u003ccode\u003e(r\n   \u003ccode\u003emappend\u003c/code\u003e s) \u003ccode\u003eat\u003c/code\u003e t == (r \u003ccode\u003eat\u003c/code\u003e t) \u003ccode\u003emappend\u003c/code\u003e (s \u003ccode\u003eat\u003c/code\u003e t).\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "ReactiveG",
           "package": "reactive",
@@ -2544,6 +2713,7 @@
         "index": {
           "description": "Reactive value discretely changing value Reactive values can be understood in terms of simple denotational semantics of reactive values as functions of time and the corresponding instances for functions The semantics is given by the function at ReactiveG reactive value may also be thought of and in this module is implemented as current value and an event stream of future values The semantics of ReactiveG instances are given by corresponding instances for the semantic model functions Functor at fmap fmap at i.e fmap at at Applicative at pure pure and at at at That is pure at and at at at Monad at return return and at join rr join at at rr That is return at and join rr at rr at at As always join fmap at at at Monoid typical lifted monoid If is monoid then Reactive is monoid with mempty pure mempty and mappend liftA2 mappend That is mempty at mempty and mappend at at mappend at",
           "hierarchy": "FRP Reactive Internal Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "ReactiveG",
           "package": "reactive",
@@ -2557,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "Event",
           "package": "reactive",
@@ -2566,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Internal Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "Event",
           "package": "reactive",
@@ -2579,6 +2751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "Stepper",
           "package": "reactive",
@@ -2588,6 +2761,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Internal Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "Stepper",
           "package": "reactive",
@@ -2601,6 +2775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "eFuture",
           "package": "reactive",
@@ -2610,6 +2785,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Internal Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "eFuture",
           "package": "reactive",
@@ -2624,6 +2800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake the event into a list of futures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "eFutures",
           "package": "reactive",
@@ -2634,6 +2811,7 @@
         "index": {
           "description": "Make the event into list of futures",
           "hierarchy": "FRP Reactive Internal Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "eFutures",
           "normalized": "EventG a b-\u003e[FutureG a b]",
@@ -2650,6 +2828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an event in a new thread, using the given time sink to sync time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "forkE",
           "package": "reactive",
@@ -2660,6 +2839,7 @@
         "index": {
           "description": "Run an event in new thread using the given time sink to sync time",
           "hierarchy": "FRP Reactive Internal Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "forkE",
           "normalized": "Sink a-\u003eEventG a Action-\u003eIO ThreadId",
@@ -2675,6 +2855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a reactive value in a new thread, using the given time sink to\n sync time.  The initial action happens in the current thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "forkR",
           "package": "reactive",
@@ -2685,6 +2866,7 @@
         "index": {
           "description": "Run reactive value in new thread using the given time sink to sync time The initial action happens in the current thread",
           "hierarchy": "FRP Reactive Internal Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "forkR",
           "normalized": "Sink a-\u003eReactiveG a Action-\u003eIO ThreadId",
@@ -2700,6 +2882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a unary function inside an \u003ccode\u003e\u003ca\u003eEventG\u003c/a\u003e\u003c/code\u003e representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "inEvent",
           "package": "reactive",
@@ -2710,6 +2893,7 @@
         "index": {
           "description": "Apply unary function inside an EventG representation",
           "hierarchy": "FRP Reactive Internal Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "inEvent",
           "normalized": "(FutureG a(ReactiveG a b)-\u003eFutureG c(ReactiveG c d))-\u003eEventG a b-\u003eEventG c d",
@@ -2726,6 +2910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a binary function inside an \u003ccode\u003e\u003ca\u003eEventG\u003c/a\u003e\u003c/code\u003e representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "inEvent2",
           "package": "reactive",
@@ -2736,6 +2921,7 @@
         "index": {
           "description": "Apply binary function inside an EventG representation",
           "hierarchy": "FRP Reactive Internal Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "inEvent2",
           "normalized": "(FutureG a(ReactiveG a b)-\u003eFutureG a(ReactiveG a c)-\u003eFutureG a(ReactiveG a d))-\u003eEventG a b-\u003eEventG a c-\u003eEventG a d",
@@ -2752,6 +2938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a unary function inside the future reactive inside a \u003ccode\u003eReactive\u003c/code\u003e\n representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "inFutR",
           "package": "reactive",
@@ -2762,6 +2949,7 @@
         "index": {
           "description": "Apply unary function inside the future reactive inside Reactive representation",
           "hierarchy": "FRP Reactive Internal Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "inFutR",
           "normalized": "(FutureG a(ReactiveG a b)-\u003eFutureG c(ReactiveG c b))-\u003eReactiveG a b-\u003eReactiveG c b",
@@ -2778,6 +2966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a unary function inside the \u003ccode\u003erEvent\u003c/code\u003e part of a \u003ccode\u003eReactive\u003c/code\u003e\n representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "inREvent",
           "package": "reactive",
@@ -2788,6 +2977,7 @@
         "index": {
           "description": "Apply unary function inside the rEvent part of Reactive representation",
           "hierarchy": "FRP Reactive Internal Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "inREvent",
           "normalized": "(EventG a b-\u003eEventG c b)-\u003eReactiveG a b-\u003eReactiveG c b",
@@ -2803,6 +2993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "isNeverE",
           "package": "reactive",
@@ -2812,6 +3003,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Internal Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "isNeverE",
           "normalized": "EventG a b-\u003eBool",
@@ -2828,6 +3020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an event in the current thread.  Use the given time sink to sync\n time, i.e., to wait for an output time before performing the action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "runE",
           "package": "reactive",
@@ -2838,6 +3031,7 @@
         "index": {
           "description": "Run an event in the current thread Use the given time sink to sync time i.e to wait for an output time before performing the action",
           "hierarchy": "FRP Reactive Internal Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "runE",
           "normalized": "Sink a-\u003eSink(EventG a Action)",
@@ -2853,6 +3047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a reactive value in the current thread, using the given time sink\n to sync time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "runR",
           "package": "reactive",
@@ -2863,6 +3058,7 @@
         "index": {
           "description": "Run reactive value in the current thread using the given time sink to sync time",
           "hierarchy": "FRP Reactive Internal Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Reactive",
           "name": "runR",
           "normalized": "Sink a-\u003eSink(ReactiveG a Action)",
@@ -2878,6 +3074,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSerialize actions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Serial",
           "name": "Serial",
           "package": "reactive",
@@ -2887,6 +3084,7 @@
         "index": {
           "description": "Serialize actions",
           "hierarchy": "FRP Reactive Internal Serial",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Serial",
           "name": "Serial",
           "package": "reactive",
@@ -2901,6 +3099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerializer.  Turns actions into equivalent but serialized actions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Serial",
           "name": "Serial",
           "package": "reactive",
@@ -2910,6 +3109,7 @@
         "index": {
           "description": "Serializer Turns actions into equivalent but serialized actions",
           "hierarchy": "FRP Reactive Internal Serial",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Serial",
           "name": "Serial",
           "package": "reactive",
@@ -2924,6 +3124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a locking serializer with a given lock\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Serial",
           "name": "locking",
           "package": "reactive",
@@ -2934,6 +3135,7 @@
         "index": {
           "description": "Make locking serializer with given lock",
           "hierarchy": "FRP Reactive Internal Serial",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Serial",
           "name": "locking",
           "normalized": "MVar()-\u003eSerial",
@@ -2949,6 +3151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a locking serializer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Serial",
           "name": "makeSerial",
           "package": "reactive",
@@ -2959,6 +3162,7 @@
         "index": {
           "description": "Make locking serializer",
           "hierarchy": "FRP Reactive Internal Serial",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Serial",
           "name": "makeSerial",
           "package": "reactive",
@@ -2973,6 +3177,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTimed values.  A primitive interface for futures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.TVal",
           "name": "TVal",
           "package": "reactive",
@@ -2982,6 +3187,7 @@
         "index": {
           "description": "Timed values primitive interface for futures",
           "hierarchy": "FRP Reactive Internal TVal",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.TVal",
           "name": "TVal",
           "package": "reactive",
@@ -2996,6 +3202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a '(:--\u003e)'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.TVal",
           "name": ":+-\u003e",
           "package": "reactive",
@@ -3005,6 +3212,7 @@
         "index": {
           "description": "Make",
           "hierarchy": "FRP Reactive Internal TVal",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.TVal",
           "name": ":+-\u003e",
           "package": "reactive",
@@ -3018,6 +3226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003ea\u003c/code\u003e that's fed by a \u003ccode\u003eb\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.TVal",
           "name": ":--\u003e",
           "package": "reactive",
@@ -3027,6 +3236,7 @@
         "index": {
           "description": "An that fed by",
           "hierarchy": "FRP Reactive Internal TVal",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.TVal",
           "name": ":--\u003e",
           "package": "reactive",
@@ -3040,6 +3250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a new event and a sink that writes to it.  Uses the given\n clock to serialize and time-stamp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.TVal",
           "name": "makeEvent",
           "package": "reactive",
@@ -3050,6 +3261,7 @@
         "index": {
           "description": "Make new event and sink that writes to it Uses the given clock to serialize and time-stamp",
           "hierarchy": "FRP Reactive Internal TVal",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.TVal",
           "name": "makeEvent",
           "normalized": "a-\u003eEvent a",
@@ -3065,6 +3277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Timing",
           "name": "Timing",
           "package": "reactive",
@@ -3073,6 +3286,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Internal Timing",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Timing",
           "name": "Timing",
           "package": "reactive",
@@ -3138,6 +3352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSleep past a given time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Internal.Timing",
           "name": "sleepPast",
           "package": "reactive",
@@ -3148,6 +3363,7 @@
         "index": {
           "description": "Sleep past given time",
           "hierarchy": "FRP Reactive Internal Timing",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Internal.Timing",
           "name": "sleepPast",
           "normalized": "IO TimeT-\u003eSink TimeT",
@@ -3164,6 +3380,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTools for making Reactive adapters for imperative (\"legacy\")\n libraries.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.LegacyAdapters",
           "name": "LegacyAdapters",
           "package": "reactive",
@@ -3173,6 +3390,7 @@
         "index": {
           "description": "Tools for making Reactive adapters for imperative legacy libraries",
           "hierarchy": "FRP Reactive LegacyAdapters",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.LegacyAdapters",
           "name": "LegacyAdapters",
           "package": "reactive",
@@ -3187,6 +3405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient alias for dropping parentheses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.LegacyAdapters",
           "name": "Action",
           "package": "reactive",
@@ -3196,6 +3415,7 @@
         "index": {
           "description": "Convenient alias for dropping parentheses",
           "hierarchy": "FRP Reactive LegacyAdapters",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.LegacyAdapters",
           "name": "Action",
           "package": "reactive",
@@ -3210,6 +3430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWaits a specified duration and then execute an action\n type Delay t = t -\u003e forall a. IO a -\u003e IO a\n\u003c/p\u003e\u003cp\u003eWaits until just after a specified time and then execute an action,\n passing in the actual time.\n type Schedule t = t -\u003e Sink (Sink t)\n\u003c/p\u003e\u003cp\u003eA serializing clock.  Can (a) produce a time and (b) serialize an\n action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.LegacyAdapters",
           "name": "Clock",
           "package": "reactive",
@@ -3219,6 +3440,7 @@
         "index": {
           "description": "Waits specified duration and then execute an action type Delay forall IO IO Waits until just after specified time and then execute an action passing in the actual time type Schedule Sink Sink serializing clock Can produce time and serialize an action",
           "hierarchy": "FRP Reactive LegacyAdapters",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.LegacyAdapters",
           "name": "Clock",
           "package": "reactive",
@@ -3233,6 +3455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue consumer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.LegacyAdapters",
           "name": "Sink",
           "package": "reactive",
@@ -3242,6 +3465,7 @@
         "index": {
           "description": "Value consumer",
           "hierarchy": "FRP Reactive LegacyAdapters",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.LegacyAdapters",
           "name": "Sink",
           "package": "reactive",
@@ -3255,6 +3479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.LegacyAdapters",
           "name": "cGetTime",
           "package": "reactive",
@@ -3264,6 +3489,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive LegacyAdapters",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.LegacyAdapters",
           "name": "cGetTime",
           "normalized": "Clock a-\u003eIO a",
@@ -3280,6 +3506,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNumeric class instances for behaviors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Num",
           "name": "Num",
           "package": "reactive",
@@ -3289,6 +3516,7 @@
         "index": {
           "description": "Numeric class instances for behaviors",
           "hierarchy": "FRP Reactive Num",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Num",
           "name": "Num",
           "package": "reactive",
@@ -3303,6 +3531,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctional \u003cem\u003eevents\u003c/em\u003e and \u003cem\u003ereactive values\u003c/em\u003e.  Semantically, an \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e is\n stream of future values in time order.  A \u003ccode\u003eReactive\u003c/code\u003e value is a\n discretly time-varying value.\n\u003c/p\u003e\u003cp\u003eMany of the operations on events and reactive values are packaged as\n instances of the standard type classes \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis module focuses on representation and primitives defined in terms\n of the representation.  See also \u003ca\u003eFRP.Reactive.Reactive\u003c/a\u003e, which\n re-exports this module, plus extras that do not exploit the\n representation.  My intention for this separation is to ease\n experimentation with alternative representations.\n\u003c/p\u003e\u003cp\u003eAlthough the basic \u003ccode\u003eReactive\u003c/code\u003e type describes \u003cem\u003ediscretely\u003c/em\u003e-changing\n values, \u003cem\u003econtinuously\u003c/em\u003e-changing values can be modeled simply as\n reactive functions.  See \u003ca\u003eFRP.Reactive.Behavior\u003c/a\u003e for a convenient type\n composition of \u003ccode\u003eReactive\u003c/code\u003e and a constant-optimized representation of\n functions of time.  The exact packaging of discrete vs continuous will\n probably change with more experience.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.PrimReactive",
           "name": "PrimReactive",
           "package": "reactive",
@@ -3312,6 +3541,7 @@
         "index": {
           "description": "Functional events and reactive values Semantically an Event is stream of future values in time order Reactive value is discretly time-varying value Many of the operations on events and reactive values are packaged as instances of the standard type classes Monoid Functor Applicative and Monad This module focuses on representation and primitives defined in terms of the representation See also FRP.Reactive.Reactive which re-exports this module plus extras that do not exploit the representation My intention for this separation is to ease experimentation with alternative representations Although the basic Reactive type describes discretely changing values continuously changing values can be modeled simply as reactive functions See FRP.Reactive.Behavior for convenient type composition of Reactive and constant-optimized representation of functions of time The exact packaging of discrete vs continuous will probably change with more experience",
           "hierarchy": "FRP Reactive PrimReactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.PrimReactive",
           "name": "PrimReactive",
           "package": "reactive",
@@ -3326,6 +3556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvents.  Semantically: time-ordered list of future values.\n Instances: \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eMonoid\u003c/code\u003e: \u003ccode\u003emempty\u003c/code\u003e is the event that never occurs, and \u003ccode\u003ee \u003ccode\u003emappend\u003c/code\u003e\n   e'\u003c/code\u003e is the event that combines occurrences from \u003ccode\u003ee\u003c/code\u003e and \u003ccode\u003ee'\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003efmap f e\u003c/code\u003e is the event that occurs whenever \u003ccode\u003ee\u003c/code\u003e occurs,\n   and whose occurrence values come from applying \u003ccode\u003ef\u003c/code\u003e to the values from\n   \u003ccode\u003ee\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eApplicative\u003c/code\u003e: \u003ccode\u003epure a\u003c/code\u003e is an event with a single occurrence at time\n   -Infinity.  \u003ccode\u003eef \u003c*\u003e ex\u003c/code\u003e is an event whose occurrences are made from\n   the \u003cem\u003eproduct\u003c/em\u003e of the occurrences of \u003ccode\u003eef\u003c/code\u003e and \u003ccode\u003eex\u003c/code\u003e.  For every occurrence\n   \u003ccode\u003ef\u003c/code\u003e at time \u003ccode\u003etf\u003c/code\u003e of \u003ccode\u003eef\u003c/code\u003e and occurrence \u003ccode\u003ex\u003c/code\u003e at time \u003ccode\u003etx\u003c/code\u003e of \u003ccode\u003eex\u003c/code\u003e, \u003ccode\u003eef\n   \u003c*\u003e ex\u003c/code\u003e has an occurrence \u003ccode\u003ef x\u003c/code\u003e at time \u003ccode\u003etf \u003ccode\u003e\u003ca\u003emax\u003c/a\u003e\u003c/code\u003e tx\u003c/code\u003e.  N.B.: I\n   don't expect this instance to be very useful.  If \u003ccode\u003eef\u003c/code\u003e has \u003ccode\u003enf\u003c/code\u003e\n   instances and \u003ccode\u003eex\u003c/code\u003e has \u003ccode\u003enx\u003c/code\u003e instances, then \u003ccode\u003eef \u003c*\u003e ex\u003c/code\u003e has \u003ccode\u003enf*nx\u003c/code\u003e\n   instances.  However, there are only \u003ccode\u003enf+nx\u003c/code\u003e possibilities for \u003ccode\u003etf\n   \u003ccode\u003e\u003ca\u003emax\u003c/a\u003e\u003c/code\u003e tx\u003c/code\u003e, so many of the occurrences are simultaneous.  If you think\n   you want to use this instance, consider using \u003ccode\u003eReactive\u003c/code\u003e instead.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003ereturn a\u003c/code\u003e is the same as \u003ccode\u003epure a\u003c/code\u003e (as usual).  In \u003ccode\u003ee \u003e\u003e= f\u003c/code\u003e,\n   each occurrence of \u003ccode\u003ee\u003c/code\u003e leads, through \u003ccode\u003ef\u003c/code\u003e, to a new event.  Similarly\n   for \u003ccode\u003ejoin ee\u003c/code\u003e, which is somehow simpler for me to think about.  The\n   occurrences of \u003ccode\u003ee \u003e\u003e= f\u003c/code\u003e (or \u003ccode\u003ejoin ee\u003c/code\u003e) correspond to the union of the\n   occurrences (temporal interleaving) of all such events.  For example,\n   suppose we're playing Asteroids and tracking collisions.  Each collision\n   can break an asteroid into more of them, each of which has to be tracked\n   for more collisions.  Another example: A chat room has an \u003cem\u003eenter\u003c/em\u003e event,\n   whose occurrences contain new events like \u003cem\u003espeak\u003c/em\u003e.  An especially useful\n   monad-based function is \u003ccode\u003ejoinMaybes\u003c/code\u003e, which filters a Maybe-valued\n   event.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.PrimReactive",
           "name": "EventG",
           "package": "reactive",
@@ -3335,6 +3566,7 @@
         "index": {
           "description": "Events Semantically time-ordered list of future values Instances Monoid mempty is the event that never occurs and mappend is the event that combines occurrences from and Functor fmap is the event that occurs whenever occurs and whose occurrence values come from applying to the values from Applicative pure is an event with single occurrence at time Infinity ef ex is an event whose occurrences are made from the product of the occurrences of ef and ex For every occurrence at time tf of ef and occurrence at time tx of ex ef ex has an occurrence at time tf max tx N.B don expect this instance to be very useful If ef has nf instances and ex has nx instances then ef ex has nf nx instances However there are only nf nx possibilities for tf max tx so many of the occurrences are simultaneous If you think you want to use this instance consider using Reactive instead Monad return is the same as pure as usual In each occurrence of leads through to new event Similarly for join ee which is somehow simpler for me to think about The occurrences of or join ee correspond to the union of the occurrences temporal interleaving of all such events For example suppose we re playing Asteroids and tracking collisions Each collision can break an asteroid into more of them each of which has to be tracked for more collisions Another example chat room has an enter event whose occurrences contain new events like speak An especially useful monad-based function is joinMaybes which filters Maybe-valued event",
           "hierarchy": "FRP Reactive PrimReactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.PrimReactive",
           "name": "EventG",
           "package": "reactive",
@@ -3349,6 +3581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReactive value: a discretely changing value.  Reactive values can be\n understood in terms of (a) a simple denotational semantics of reactive\n values as functions of time, and (b) the corresponding instances for\n functions.  The semantics is given by the function \u003ccode\u003eat :: ReactiveG t a -\u003e\n (t -\u003e a)\u003c/code\u003e.  A reactive value may also be thought of (and in this module\n is implemented as) a current value and an event (stream of future values).\n\u003c/p\u003e\u003cp\u003eThe semantics of \u003ccode\u003e\u003ca\u003eReactiveG\u003c/a\u003e\u003c/code\u003e instances are given by corresponding\n instances for the semantic model (functions):\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003eat (fmap f r) == fmap f (at r)\u003c/code\u003e, i.e., \u003ccode\u003efmap f r \u003ccode\u003eat\u003c/code\u003e\n   t == f (r \u003ccode\u003eat\u003c/code\u003e t)\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eApplicative\u003c/code\u003e: \u003ccode\u003eat (pure a) == pure a\u003c/code\u003e, and \u003ccode\u003eat (s \u003c*\u003e r) == at s\n   \u003c*\u003e at t\u003c/code\u003e.  That is, \u003ccode\u003epure a \u003ccode\u003eat\u003c/code\u003e t == a\u003c/code\u003e, and \u003ccode\u003e(s \u003c*\u003e r) \u003ccode\u003eat\u003c/code\u003e t\n   == (s \u003ccode\u003eat\u003c/code\u003e t) (r \u003ccode\u003eat\u003c/code\u003e t)\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003eat (return a) == return a\u003c/code\u003e, and \u003ccode\u003eat (join rr) == join (at\n   . at rr)\u003c/code\u003e.  That is, \u003ccode\u003ereturn a \u003ccode\u003eat\u003c/code\u003e t == a\u003c/code\u003e, and \u003ccode\u003ejoin rr \u003ccode\u003eat\u003c/code\u003e t ==\n   (rr \u003ccode\u003eat\u003c/code\u003e t) \u003ccode\u003eat\u003c/code\u003e t\u003c/code\u003e.  As always, \u003ccode\u003e(r \u003e\u003e= f) == join (fmap f r)\u003c/code\u003e.\n   \u003ccode\u003eat (r \u003e\u003e= f) == at r \u003e\u003e= at . f\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eMonoid\u003c/code\u003e: a typical lifted monoid.  If \u003ccode\u003eo\u003c/code\u003e is a monoid, then\n   \u003ccode\u003eReactive o\u003c/code\u003e is a monoid, with \u003ccode\u003emempty == pure mempty\u003c/code\u003e, and \u003ccode\u003emappend\n   == liftA2 mappend\u003c/code\u003e.  That is, \u003ccode\u003emempty \u003ccode\u003eat\u003c/code\u003e t == mempty\u003c/code\u003e, and \u003ccode\u003e(r\n   \u003ccode\u003emappend\u003c/code\u003e s) \u003ccode\u003eat\u003c/code\u003e t == (r \u003ccode\u003eat\u003c/code\u003e t) \u003ccode\u003emappend\u003c/code\u003e (s \u003ccode\u003eat\u003c/code\u003e t).\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.PrimReactive",
           "name": "ReactiveG",
           "package": "reactive",
@@ -3358,6 +3591,7 @@
         "index": {
           "description": "Reactive value discretely changing value Reactive values can be understood in terms of simple denotational semantics of reactive values as functions of time and the corresponding instances for functions The semantics is given by the function at ReactiveG reactive value may also be thought of and in this module is implemented as current value and an event stream of future values The semantics of ReactiveG instances are given by corresponding instances for the semantic model functions Functor at fmap fmap at i.e fmap at at Applicative at pure pure and at at at That is pure at and at at at Monad at return return and at join rr join at at rr That is return at and join rr at rr at at As always join fmap at at at Monoid typical lifted monoid If is monoid then Reactive is monoid with mempty pure mempty and mappend liftA2 mappend That is mempty at mempty and mappend at at mappend at",
           "hierarchy": "FRP Reactive PrimReactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.PrimReactive",
           "name": "ReactiveG",
           "package": "reactive",
@@ -3398,6 +3632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReactive value from an initial value and an updater event.  See also\n \u003ccode\u003e\u003ca\u003eaccumE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.PrimReactive",
           "name": "accumR",
           "package": "reactive",
@@ -3408,6 +3643,7 @@
         "index": {
           "description": "Reactive value from an initial value and an updater event See also accumE",
           "hierarchy": "FRP Reactive PrimReactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.PrimReactive",
           "name": "accumR",
           "normalized": "a-\u003eEventG b(a-\u003ea)-\u003eReactiveG b a",
@@ -3423,6 +3659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle-occurrence event at given time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.PrimReactive",
           "name": "atTimeG",
           "package": "reactive",
@@ -3433,6 +3670,7 @@
         "index": {
           "description": "Single-occurrence event at given time",
           "hierarchy": "FRP Reactive PrimReactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.PrimReactive",
           "name": "atTimeG",
           "normalized": "a-\u003eEventG a()",
@@ -3449,6 +3687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent at given times.  See also \u003ccode\u003e\u003ca\u003eatTimeG\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.PrimReactive",
           "name": "atTimesG",
           "package": "reactive",
@@ -3459,6 +3698,7 @@
         "index": {
           "description": "Event at given times See also atTimeG",
           "hierarchy": "FRP Reactive PrimReactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.PrimReactive",
           "name": "atTimesG",
           "normalized": "[a]-\u003eEventG a()",
@@ -3474,6 +3714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.PrimReactive",
           "name": "batch",
           "package": "reactive",
@@ -3483,6 +3724,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive PrimReactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.PrimReactive",
           "name": "batch",
           "package": "reactive",
@@ -3496,6 +3738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a future representing the first occurrence of the event together\n with the event of all occurrences after that one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.PrimReactive",
           "name": "eventOcc",
           "package": "reactive",
@@ -3506,6 +3749,7 @@
         "index": {
           "description": "Extract future representing the first occurrence of the event together with the event of all occurrences after that one",
           "hierarchy": "FRP Reactive PrimReactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.PrimReactive",
           "name": "eventOcc",
           "normalized": "EventG a b-\u003eFutureG a(b,EventG a b)",
@@ -3575,6 +3819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a temporally monotonic stream of futures to an event.  Like\n \u003ccode\u003e\u003ca\u003efuturesE\u003c/a\u003e\u003c/code\u003e but it can be lazier, because there's not empty case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.PrimReactive",
           "name": "futureStreamE",
           "package": "reactive",
@@ -3585,6 +3830,7 @@
         "index": {
           "description": "Convert temporally monotonic stream of futures to an event Like futuresE but it can be lazier because there not empty case",
           "hierarchy": "FRP Reactive PrimReactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.PrimReactive",
           "name": "futureStreamE",
           "normalized": "Stream(FutureG a b)-\u003eEventG a b",
@@ -3601,6 +3847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a temporally monotonic list of futures to an event\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.PrimReactive",
           "name": "futuresE",
           "package": "reactive",
@@ -3611,6 +3858,7 @@
         "index": {
           "description": "Convert temporally monotonic list of futures to an event",
           "hierarchy": "FRP Reactive PrimReactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.PrimReactive",
           "name": "futuresE",
           "normalized": "[FutureG a b]-\u003eEventG a b",
@@ -3625,6 +3873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.PrimReactive",
           "name": "infE",
           "package": "reactive",
@@ -3634,6 +3883,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive PrimReactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.PrimReactive",
           "name": "infE",
           "package": "reactive",
@@ -3646,6 +3896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.PrimReactive",
           "name": "isMonotoneR",
           "package": "reactive",
@@ -3655,6 +3906,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive PrimReactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.PrimReactive",
           "name": "isMonotoneR",
           "normalized": "ReactiveG a b-\u003eBool",
@@ -3724,6 +3976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a temporally monotonic list of futures to an event.  See also\n the specialization \u003ccode\u003elistE\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.PrimReactive",
           "name": "listEG",
           "package": "reactive",
@@ -3734,6 +3987,7 @@
         "index": {
           "description": "Convert temporally monotonic list of futures to an event See also the specialization listE",
           "hierarchy": "FRP Reactive PrimReactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.PrimReactive",
           "name": "listEG",
           "normalized": "[(a,b)]-\u003eEventG a b",
@@ -3749,6 +4003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.PrimReactive",
           "name": "monoid_E",
           "package": "reactive",
@@ -3758,6 +4013,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive PrimReactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.PrimReactive",
           "name": "monoid_E",
           "package": "reactive",
@@ -3797,6 +4053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a given function inside the results of other functions.\n Equivalent to '(.)', but has a nicer reading when composed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.PrimReactive",
           "name": "result",
           "package": "reactive",
@@ -3807,6 +4064,7 @@
         "index": {
           "description": "Apply given function inside the results of other functions Equivalent to but has nicer reading when composed",
           "hierarchy": "FRP Reactive PrimReactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.PrimReactive",
           "name": "result",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ea)-\u003ec-\u003eb",
@@ -3822,6 +4080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSnapshot a reactive value whenever an event occurs and apply a\n combining function to the event and reactive's values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.PrimReactive",
           "name": "snapshotWith",
           "package": "reactive",
@@ -3832,6 +4091,7 @@
         "index": {
           "description": "Snapshot reactive value whenever an event occurs and apply combining function to the event and reactive values",
           "hierarchy": "FRP Reactive PrimReactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.PrimReactive",
           "name": "snapshotWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eReactiveG d b-\u003eEventG d a-\u003eEventG d c",
@@ -3848,6 +4108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReactive value from an initial value and a new-value event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.PrimReactive",
           "name": "stepper",
           "package": "reactive",
@@ -3858,6 +4119,7 @@
         "index": {
           "description": "Reactive value from an initial value and new-value event",
           "hierarchy": "FRP Reactive PrimReactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.PrimReactive",
           "name": "stepper",
           "normalized": "a-\u003eEventG b a-\u003eReactiveG b a",
@@ -3873,6 +4135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwitch between reactive values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.PrimReactive",
           "name": "switcher",
           "package": "reactive",
@@ -3883,6 +4146,7 @@
         "index": {
           "description": "Switch between reactive values",
           "hierarchy": "FRP Reactive PrimReactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.PrimReactive",
           "name": "switcher",
           "normalized": "ReactiveG a b-\u003eEventG a(ReactiveG a b)-\u003eReactiveG a b",
@@ -3951,6 +4215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess occurrence times in an event.  See also \u003ccode\u003e\u003ca\u003ewithTimeGR\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.PrimReactive",
           "name": "withTimeGE",
           "package": "reactive",
@@ -3961,6 +4226,7 @@
         "index": {
           "description": "Access occurrence times in an event See also withTimeGR",
           "hierarchy": "FRP Reactive PrimReactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.PrimReactive",
           "name": "withTimeGE",
           "normalized": "EventG a b-\u003eEventG a(b,Time a)",
@@ -3977,6 +4243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess occurrence times in a reactive value.  See also \u003ccode\u003e\u003ca\u003ewithTimeGE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.PrimReactive",
           "name": "withTimeGR",
           "package": "reactive",
@@ -3987,6 +4254,7 @@
         "index": {
           "description": "Access occurrence times in reactive value See also withTimeGE",
           "hierarchy": "FRP Reactive PrimReactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.PrimReactive",
           "name": "withTimeGR",
           "normalized": "Time a-\u003eReactiveG a b-\u003eReactiveG a(b,Time a)",
@@ -4003,6 +4271,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple reactive values.  Adds some extra functionality on top of\n \u003ca\u003eFRP.Reactive.PrimReactive\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "Reactive",
           "package": "reactive",
@@ -4012,6 +4281,7 @@
         "index": {
           "description": "Simple reactive values Adds some extra functionality on top of FRP.Reactive.PrimReactive",
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "Reactive",
           "package": "reactive",
@@ -4026,6 +4296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvents, specialized to improving doubles for time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "Event",
           "package": "reactive",
@@ -4035,6 +4306,7 @@
         "index": {
           "description": "Events specialized to improving doubles for time",
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "Event",
           "package": "reactive",
@@ -4049,6 +4321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of future values.  Specializes \u003ccode\u003e\u003ca\u003eFutureG\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "Future",
           "package": "reactive",
@@ -4058,6 +4331,7 @@
         "index": {
           "description": "Type of future values Specializes FutureG",
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "Future",
           "package": "reactive",
@@ -4072,6 +4346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImproving times, as used for time values in \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eReactive\u003c/a\u003e\u003c/code\u003e,\n and \u003ccode\u003eReactiveB\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "ITime",
           "package": "reactive",
@@ -4081,6 +4356,7 @@
         "index": {
           "description": "Improving times as used for time values in Event Reactive and ReactiveB",
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "ITime",
           "package": "reactive",
@@ -4094,6 +4370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "ImpBounds",
           "package": "reactive",
@@ -4102,6 +4379,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "ImpBounds",
           "package": "reactive",
@@ -4116,6 +4394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReactive values, specialized to improving doubles for time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "Reactive",
           "package": "reactive",
@@ -4125,6 +4404,7 @@
         "index": {
           "description": "Reactive values specialized to improving doubles for time",
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "Reactive",
           "package": "reactive",
@@ -4139,6 +4419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of time values with additional min & max elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "TimeT",
           "package": "reactive",
@@ -4148,6 +4429,7 @@
         "index": {
           "description": "The type of time values with additional min max elements",
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "TimeT",
           "package": "reactive",
@@ -4215,6 +4497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "batch",
           "package": "reactive",
@@ -4224,6 +4507,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "batch",
           "package": "reactive",
@@ -4289,6 +4573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount occurrences of an event.  See also \u003ccode\u003e\u003ca\u003ecountE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "countR",
           "package": "reactive",
@@ -4299,6 +4584,7 @@
         "index": {
           "description": "Count occurrences of an event See also countE",
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "countR",
           "normalized": "EventG a b-\u003eReactiveG a c",
@@ -4365,6 +4651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "exact",
           "package": "reactive",
@@ -4374,6 +4661,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "exact",
           "normalized": "Improving a-\u003ea",
@@ -4389,6 +4677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExact & finite content of an \u003ccode\u003e\u003ca\u003eImpBounds\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "exactNB",
           "package": "reactive",
@@ -4399,6 +4688,7 @@
         "index": {
           "description": "Exact finite content of an ImpBounds",
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "exactNB",
           "normalized": "ImpBounds a-\u003ea",
@@ -4468,6 +4758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlip-flopping reactive value.  Turns true when \u003ccode\u003eea\u003c/code\u003e occurs and false\n when \u003ccode\u003eeb\u003c/code\u003e occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "flipFlop",
           "package": "reactive",
@@ -4478,6 +4769,7 @@
         "index": {
           "description": "Flip-flopping reactive value Turns true when ea occurs and false when eb occurs",
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "flipFlop",
           "normalized": "EventG a b-\u003eEventG a c-\u003eReactiveG a Bool",
@@ -4494,6 +4786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEuler integral.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "integral",
           "package": "reactive",
@@ -4504,6 +4797,7 @@
         "index": {
           "description": "Euler integral",
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "integral",
           "normalized": "a-\u003eEvent a-\u003eReactive b-\u003eReactive b",
@@ -4545,6 +4839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart out blank (\u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e), latching onto each new \u003ccode\u003ea\u003c/code\u003e, and blanking\n on each \u003ccode\u003eb\u003c/code\u003e.  If you just want to latch and not blank, then use\n \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003elose\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "maybeR",
           "package": "reactive",
@@ -4555,6 +4850,7 @@
         "index": {
           "description": "Start out blank Nothing latching onto each new and blanking on each If you just want to latch and not blank then use mempty for lose",
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "maybeR",
           "normalized": "EventG a b-\u003eEventG a c-\u003eReactiveG a(Maybe b)",
@@ -4648,6 +4944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccumulate values from a monoid-valued event.  Specialization of\n \u003ccode\u003e\u003ca\u003escanlE\u003c/a\u003e\u003c/code\u003e, using \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e.  See also \u003ccode\u003e\u003ca\u003emonoidE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "monoidR",
           "package": "reactive",
@@ -4658,6 +4955,7 @@
         "index": {
           "description": "Accumulate values from monoid-valued event Specialization of scanlE using mappend and mempty See also monoidE",
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "monoidR",
           "normalized": "EventG a b-\u003eReactiveG a b",
@@ -4673,6 +4971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an event into a single-occurrence event, whose occurrence\n contains the remainder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "onceRestE",
           "package": "reactive",
@@ -4683,6 +4982,7 @@
         "index": {
           "description": "Convert an event into single-occurrence event whose occurrence contains the remainder",
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "onceRestE",
           "normalized": "EventG a b-\u003eEventG a(b,EventG a b)",
@@ -4699,6 +4999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemaining part of an event.  See also \u003ccode\u003e\u003ca\u003ewithRestE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "remainderR",
           "package": "reactive",
@@ -4709,6 +5010,7 @@
         "index": {
           "description": "Remaining part of an event See also withRestE",
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "remainderR",
           "normalized": "EventG a b-\u003eReactiveG a(EventG a b)",
@@ -4776,6 +5078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003escanl\u003c/a\u003e\u003c/code\u003e for reactive values.  See also \u003ccode\u003e\u003ca\u003escanlE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "scanlR",
           "package": "reactive",
@@ -4786,6 +5089,7 @@
         "index": {
           "description": "Like scanl for reactive values See also scanlE",
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "scanlR",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eEventG c b-\u003eReactiveG c a",
@@ -4828,6 +5132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSnapshot a reactive value whenever an event occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "snapshot",
           "package": "reactive",
@@ -4838,6 +5143,7 @@
         "index": {
           "description": "Snapshot reactive value whenever an event occurs",
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "snapshot",
           "normalized": "ReactiveG a b-\u003eEventG a c-\u003eEventG a(c,b)",
@@ -4853,6 +5159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003esnapshot\u003c/a\u003e\u003c/code\u003e but discarding event data (often \u003ccode\u003ea\u003c/code\u003e is '()').\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "snapshot_",
           "package": "reactive",
@@ -4863,6 +5170,7 @@
         "index": {
           "description": "Like snapshot but discarding event data often is",
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "snapshot_",
           "normalized": "ReactiveG a b-\u003eEventG a c-\u003eEventG a b",
@@ -4903,6 +5211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "sumR",
           "package": "reactive",
@@ -4912,6 +5221,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "sumR",
           "normalized": "EventG a b-\u003eReactiveG a b",
@@ -4953,6 +5263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrace the elements of a functor type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "traceF",
           "package": "reactive",
@@ -4963,6 +5274,7 @@
         "index": {
           "description": "Trace the elements of functor type",
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "traceF",
           "normalized": "(a-\u003eString)-\u003eb a-\u003eb a",
@@ -4978,6 +5290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter an event according to whether a reactive boolean is true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "whenE",
           "package": "reactive",
@@ -4988,6 +5301,7 @@
         "index": {
           "description": "Filter an event according to whether reactive boolean is true",
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "whenE",
           "normalized": "EventG a b-\u003eReactiveG a Bool-\u003eEventG a b",
@@ -5003,6 +5317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePair each event value with the next one one.  The second result is\n the next one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "withNextE",
           "package": "reactive",
@@ -5013,6 +5328,7 @@
         "index": {
           "description": "Pair each event value with the next one one The second result is the next one",
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "withNextE",
           "normalized": "EventG a b-\u003eEventG a(b,b)",
@@ -5029,6 +5345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ewithNextE\u003c/a\u003e\u003c/code\u003e, but allow a function to combine the values.\n Provided for convenience.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.Reactive",
           "name": "withNextEWith",
           "package": "reactive",
@@ -5039,6 +5356,7 @@
         "index": {
           "description": "Same as withNextE but allow function to combine the values Provided for convenience",
           "hierarchy": "FRP Reactive Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.Reactive",
           "name": "withNextEWith",
           "normalized": "(a-\u003ea-\u003eb)-\u003eEventG c a-\u003eEventG c b",
@@ -5188,6 +5506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive.VectorSpace",
           "name": "VectorSpace",
           "package": "reactive",
@@ -5196,6 +5515,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive VectorSpace",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive.VectorSpace",
           "name": "VectorSpace",
           "package": "reactive",
@@ -5210,6 +5530,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA library for programming with functional reactive behaviors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive",
           "name": "Reactive",
           "package": "reactive",
@@ -5219,6 +5540,7 @@
         "index": {
           "description": "library for programming with functional reactive behaviors",
           "hierarchy": "FRP Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive",
           "name": "Reactive",
           "package": "reactive",
@@ -5233,6 +5555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime-specialized behaviors.\n Note: The signatures of all of the behavior functions can be generalized.  Is\n the interface generality worth the complexity?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive",
           "name": "Behavior",
           "package": "reactive",
@@ -5242,6 +5565,7 @@
         "index": {
           "description": "Time-specialized behaviors Note The signatures of all of the behavior functions can be generalized Is the interface generality worth the complexity",
           "hierarchy": "FRP Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive",
           "name": "Behavior",
           "package": "reactive",
@@ -5256,6 +5580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReactive behaviors.  They can be understood in terms of a simple\n model (denotational semantics) as functions of time, namely \u003ccode\u003eat ::\n BehaviorG t a -\u003e (t -\u003e a)\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe semantics of \u003ccode\u003e\u003ca\u003eBehaviorG\u003c/a\u003e\u003c/code\u003e instances are given by corresponding\n instances for the semantic model (functions).  See\n \u003ca\u003ehttp://conal.net/blog/posts/simplifying-semantics-with-type-class-morphisms/\u003c/a\u003e.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003eat (fmap f r) == fmap f (at r)\u003c/code\u003e, i.e., \u003ccode\u003efmap f r \u003ccode\u003eat\u003c/code\u003e\n   t == f (r \u003ccode\u003eat\u003c/code\u003e t)\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003eat (pure a) == pure a\u003c/code\u003e, and \u003ccode\u003eat (s \u003c*\u003e r) == at s\n   \u003c*\u003e at t\u003c/code\u003e.  That is, \u003ccode\u003epure a \u003ccode\u003eat\u003c/code\u003e t == a\u003c/code\u003e, and \u003ccode\u003e(s \u003c*\u003e r) \u003ccode\u003eat\u003c/code\u003e t\n   == (s \u003ccode\u003eat\u003c/code\u003e t) (r \u003ccode\u003eat\u003c/code\u003e t)\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003eat (return a) == return a\u003c/code\u003e, and \u003ccode\u003eat (join rr) == join (at\n   . at rr)\u003c/code\u003e.  That is, \u003ccode\u003ereturn a \u003ccode\u003eat\u003c/code\u003e t == a\u003c/code\u003e, and \u003ccode\u003ejoin rr \u003ccode\u003eat\u003c/code\u003e t ==\n   (rr \u003ccode\u003eat\u003c/code\u003e t) \u003ccode\u003eat\u003c/code\u003e t\u003c/code\u003e.  As always, \u003ccode\u003e(r \u003e\u003e= f) == join (fmap f r)\u003c/code\u003e.\n   \u003ccode\u003eat (r \u003e\u003e= f) == at r \u003e\u003e= at . f\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e: a typical lifted monoid.  If \u003ccode\u003eo\u003c/code\u003e is a monoid, then\n   \u003ccode\u003eReactive o\u003c/code\u003e is a monoid, with \u003ccode\u003emempty == pure mempty\u003c/code\u003e, and \u003ccode\u003emappend\n   == liftA2 mappend\u003c/code\u003e.  That is, \u003ccode\u003emempty \u003ccode\u003eat\u003c/code\u003e t == mempty\u003c/code\u003e, and \u003ccode\u003e(r\n   \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e s) \u003ccode\u003eat\u003c/code\u003e t == (r \u003ccode\u003eat\u003c/code\u003e t) \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e (s \u003ccode\u003eat\u003c/code\u003e t).\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive",
           "name": "BehaviorG",
           "package": "reactive",
@@ -5265,6 +5590,7 @@
         "index": {
           "description": "Reactive behaviors They can be understood in terms of simple model denotational semantics as functions of time namely at BehaviorG The semantics of BehaviorG instances are given by corresponding instances for the semantic model functions See http conal.net blog posts simplifying-semantics-with-type-class-morphisms Functor at fmap fmap at i.e fmap at at Applicative at pure pure and at at at That is pure at and at at at Monad at return return and at join rr join at at rr That is return at and join rr at rr at at As always join fmap at at at Monoid typical lifted monoid If is monoid then Reactive is monoid with mempty pure mempty and mappend liftA2 mappend That is mempty at mempty and mappend at at mappend at",
           "hierarchy": "FRP Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive",
           "name": "BehaviorG",
           "package": "reactive",
@@ -5278,6 +5604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive",
           "name": "Behaviour",
           "package": "reactive",
@@ -5286,6 +5613,7 @@
         },
         "index": {
           "hierarchy": "FRP Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive",
           "name": "Behaviour",
           "package": "reactive",
@@ -5300,6 +5628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvents, specialized to improving doubles for time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive",
           "name": "Event",
           "package": "reactive",
@@ -5309,6 +5638,7 @@
         "index": {
           "description": "Events specialized to improving doubles for time",
           "hierarchy": "FRP Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive",
           "name": "Event",
           "package": "reactive",
@@ -5323,6 +5653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvents.  Semantically: time-ordered list of future values.\n Instances: \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eMonoid\u003c/code\u003e: \u003ccode\u003emempty\u003c/code\u003e is the event that never occurs, and \u003ccode\u003ee \u003ccode\u003emappend\u003c/code\u003e\n   e'\u003c/code\u003e is the event that combines occurrences from \u003ccode\u003ee\u003c/code\u003e and \u003ccode\u003ee'\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003efmap f e\u003c/code\u003e is the event that occurs whenever \u003ccode\u003ee\u003c/code\u003e occurs,\n   and whose occurrence values come from applying \u003ccode\u003ef\u003c/code\u003e to the values from\n   \u003ccode\u003ee\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eApplicative\u003c/code\u003e: \u003ccode\u003epure a\u003c/code\u003e is an event with a single occurrence at time\n   -Infinity.  \u003ccode\u003eef \u003c*\u003e ex\u003c/code\u003e is an event whose occurrences are made from\n   the \u003cem\u003eproduct\u003c/em\u003e of the occurrences of \u003ccode\u003eef\u003c/code\u003e and \u003ccode\u003eex\u003c/code\u003e.  For every occurrence\n   \u003ccode\u003ef\u003c/code\u003e at time \u003ccode\u003etf\u003c/code\u003e of \u003ccode\u003eef\u003c/code\u003e and occurrence \u003ccode\u003ex\u003c/code\u003e at time \u003ccode\u003etx\u003c/code\u003e of \u003ccode\u003eex\u003c/code\u003e, \u003ccode\u003eef\n   \u003c*\u003e ex\u003c/code\u003e has an occurrence \u003ccode\u003ef x\u003c/code\u003e at time \u003ccode\u003etf \u003ccode\u003e\u003ca\u003emax\u003c/a\u003e\u003c/code\u003e tx\u003c/code\u003e.  N.B.: I\n   don't expect this instance to be very useful.  If \u003ccode\u003eef\u003c/code\u003e has \u003ccode\u003enf\u003c/code\u003e\n   instances and \u003ccode\u003eex\u003c/code\u003e has \u003ccode\u003enx\u003c/code\u003e instances, then \u003ccode\u003eef \u003c*\u003e ex\u003c/code\u003e has \u003ccode\u003enf*nx\u003c/code\u003e\n   instances.  However, there are only \u003ccode\u003enf+nx\u003c/code\u003e possibilities for \u003ccode\u003etf\n   \u003ccode\u003e\u003ca\u003emax\u003c/a\u003e\u003c/code\u003e tx\u003c/code\u003e, so many of the occurrences are simultaneous.  If you think\n   you want to use this instance, consider using \u003ccode\u003eReactive\u003c/code\u003e instead.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003ereturn a\u003c/code\u003e is the same as \u003ccode\u003epure a\u003c/code\u003e (as usual).  In \u003ccode\u003ee \u003e\u003e= f\u003c/code\u003e,\n   each occurrence of \u003ccode\u003ee\u003c/code\u003e leads, through \u003ccode\u003ef\u003c/code\u003e, to a new event.  Similarly\n   for \u003ccode\u003ejoin ee\u003c/code\u003e, which is somehow simpler for me to think about.  The\n   occurrences of \u003ccode\u003ee \u003e\u003e= f\u003c/code\u003e (or \u003ccode\u003ejoin ee\u003c/code\u003e) correspond to the union of the\n   occurrences (temporal interleaving) of all such events.  For example,\n   suppose we're playing Asteroids and tracking collisions.  Each collision\n   can break an asteroid into more of them, each of which has to be tracked\n   for more collisions.  Another example: A chat room has an \u003cem\u003eenter\u003c/em\u003e event,\n   whose occurrences contain new events like \u003cem\u003espeak\u003c/em\u003e.  An especially useful\n   monad-based function is \u003ccode\u003ejoinMaybes\u003c/code\u003e, which filters a Maybe-valued\n   event.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive",
           "name": "EventG",
           "package": "reactive",
@@ -5332,6 +5663,7 @@
         "index": {
           "description": "Events Semantically time-ordered list of future values Instances Monoid mempty is the event that never occurs and mappend is the event that combines occurrences from and Functor fmap is the event that occurs whenever occurs and whose occurrence values come from applying to the values from Applicative pure is an event with single occurrence at time Infinity ef ex is an event whose occurrences are made from the product of the occurrences of ef and ex For every occurrence at time tf of ef and occurrence at time tx of ex ef ex has an occurrence at time tf max tx N.B don expect this instance to be very useful If ef has nf instances and ex has nx instances then ef ex has nf nx instances However there are only nf nx possibilities for tf max tx so many of the occurrences are simultaneous If you think you want to use this instance consider using Reactive instead Monad return is the same as pure as usual In each occurrence of leads through to new event Similarly for join ee which is somehow simpler for me to think about The occurrences of or join ee correspond to the union of the occurrences temporal interleaving of all such events For example suppose we re playing Asteroids and tracking collisions Each collision can break an asteroid into more of them each of which has to be tracked for more collisions Another example chat room has an enter event whose occurrences contain new events like speak An especially useful monad-based function is joinMaybes which filters Maybe-valued event",
           "hierarchy": "FRP Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive",
           "name": "EventG",
           "package": "reactive",
@@ -5346,6 +5678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImproving times, as used for time values in \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eReactive\u003c/a\u003e\u003c/code\u003e,\n and \u003ccode\u003eReactiveB\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive",
           "name": "ITime",
           "package": "reactive",
@@ -5355,6 +5688,7 @@
         "index": {
           "description": "Improving times as used for time values in Event Reactive and ReactiveB",
           "hierarchy": "FRP Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive",
           "name": "ITime",
           "package": "reactive",
@@ -5369,6 +5703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of time values with additional min & max elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:09 UTC 2014",
           "module": "FRP.Reactive",
           "name": "TimeT",
           "package": "reactive",
@@ -5378,6 +5713,7 @@
         "index": {
           "description": "The type of time values with additional min max elements",
           "hierarchy": "FRP Reactive",
+          "indexed": "2014-03-11T19:49:09",
           "module": "FRP.Reactive",
           "name": "TimeT",
           "package": "reactive",

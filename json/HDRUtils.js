@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HDRUtils"
+        "phrase": "HDRUtils",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "Array",
           "package": "HDRUtils",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "Array",
           "package": "HDRUtils",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "ArrayH",
           "package": "HDRUtils",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "ArrayH",
           "package": "HDRUtils",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "Channel",
           "package": "HDRUtils",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "Channel",
           "package": "HDRUtils",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "ChannelH",
           "package": "HDRUtils",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "ChannelH",
           "package": "HDRUtils",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "ChannelIterator",
           "package": "HDRUtils",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "ChannelIterator",
           "package": "HDRUtils",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "ChannelIteratorH",
           "package": "HDRUtils",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "ChannelIteratorH",
           "package": "HDRUtils",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "DOMIO",
           "package": "HDRUtils",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "DOMIO",
           "package": "HDRUtils",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "DOMIOH",
           "package": "HDRUtils",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "DOMIOH",
           "package": "HDRUtils",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "FILE",
           "package": "HDRUtils",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "FILE",
           "package": "HDRUtils",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "FILEH",
           "package": "HDRUtils",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "FILEH",
           "package": "HDRUtils",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "Frame",
           "package": "HDRUtils",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "Frame",
           "package": "HDRUtils",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "FrameFile",
           "package": "HDRUtils",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "FrameFile",
           "package": "HDRUtils",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "FrameFileH",
           "package": "HDRUtils",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "FrameFileH",
           "package": "HDRUtils",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "FrameFileIterator",
           "package": "HDRUtils",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "FrameFileIterator",
           "package": "HDRUtils",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "FrameFileIteratorH",
           "package": "HDRUtils",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "FrameFileIteratorH",
           "package": "HDRUtils",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "FrameH",
           "package": "HDRUtils",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "FrameH",
           "package": "HDRUtils",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "TagContainer",
           "package": "HDRUtils",
@@ -362,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "TagContainer",
           "package": "HDRUtils",
@@ -375,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "TagContainerH",
           "package": "HDRUtils",
@@ -383,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "TagContainerH",
           "package": "HDRUtils",
@@ -396,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "TagIterator",
           "package": "HDRUtils",
@@ -404,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "TagIterator",
           "package": "HDRUtils",
@@ -417,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "TagIteratorH",
           "package": "HDRUtils",
@@ -425,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "TagIteratorH",
           "package": "HDRUtils",
@@ -438,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "fclose",
           "package": "HDRUtils",
@@ -447,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "fclose",
           "normalized": "FILEH-\u003eIO()",
@@ -461,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "fdopen",
           "package": "HDRUtils",
@@ -470,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "fdopen",
           "normalized": "CInt-\u003eCString-\u003eIO FILEH",
@@ -484,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "fopen",
           "package": "HDRUtils",
@@ -493,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "fopen",
           "normalized": "CString-\u003eCString-\u003eIO FILEH",
@@ -507,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfsFrameFileGetFileName",
           "package": "HDRUtils",
@@ -516,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfsFrameFileGetFileName",
           "normalized": "FrameFileH-\u003eCString",
@@ -531,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_Array1DGet",
           "package": "HDRUtils",
@@ -540,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_Array1DGet",
           "normalized": "ArrayH-\u003eCInt-\u003eCFloat",
@@ -555,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_Array1DSet",
           "package": "HDRUtils",
@@ -564,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_Array1DSet",
           "normalized": "ArrayH-\u003eCInt-\u003eCFloat-\u003eIO CFloat",
@@ -579,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_Array2DGet",
           "package": "HDRUtils",
@@ -588,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_Array2DGet",
           "normalized": "ArrayH-\u003eCInt-\u003eCInt-\u003eCFloat",
@@ -603,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_Array2DGetCols",
           "package": "HDRUtils",
@@ -612,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_Array2DGetCols",
           "normalized": "ArrayH-\u003eCInt",
@@ -627,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_Array2DGetRows",
           "package": "HDRUtils",
@@ -636,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_Array2DGetRows",
           "normalized": "ArrayH-\u003eCInt",
@@ -651,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_Array2DSet",
           "package": "HDRUtils",
@@ -660,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_Array2DSet",
           "normalized": "ArrayH-\u003eCInt-\u003eCInt-\u003eCFloat-\u003eIO CFloat",
@@ -675,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_ChannelGetHeight",
           "package": "HDRUtils",
@@ -684,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_ChannelGetHeight",
           "normalized": "ChannelH-\u003eCInt",
@@ -699,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_ChannelGetName",
           "package": "HDRUtils",
@@ -708,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_ChannelGetName",
           "normalized": "ChannelH-\u003eCString",
@@ -723,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_ChannelGetRawData",
           "package": "HDRUtils",
@@ -732,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_ChannelGetRawData",
           "normalized": "ChannelH-\u003eIO(Ptr CFloat)",
@@ -747,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_ChannelGetTags",
           "package": "HDRUtils",
@@ -756,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_ChannelGetTags",
           "normalized": "ChannelH-\u003eIO TagContainerH",
@@ -771,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_ChannelGetWidth",
           "package": "HDRUtils",
@@ -780,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_ChannelGetWidth",
           "normalized": "ChannelH-\u003eCInt",
@@ -795,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_ChannelIteratorGetNext",
           "package": "HDRUtils",
@@ -804,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_ChannelIteratorGetNext",
           "normalized": "ChannelIteratorH-\u003eIO ChannelH",
@@ -819,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_ChannelIteratorHasNext",
           "package": "HDRUtils",
@@ -828,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_ChannelIteratorHasNext",
           "normalized": "ChannelIteratorH-\u003eIO CInt",
@@ -843,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_DOMIOCreateFrame",
           "package": "HDRUtils",
@@ -852,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_DOMIOCreateFrame",
           "normalized": "DOMIOH-\u003eCInt-\u003eCInt-\u003eIO FrameH",
@@ -867,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_DOMIOFreeFrame",
           "package": "HDRUtils",
@@ -876,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_DOMIOFreeFrame",
           "normalized": "DOMIOH-\u003eFrameH-\u003eIO()",
@@ -891,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_DOMIOReadFrame",
           "package": "HDRUtils",
@@ -900,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_DOMIOReadFrame",
           "normalized": "DOMIOH-\u003eFILEH-\u003eIO FrameH",
@@ -915,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_DOMIOWriteFrame",
           "package": "HDRUtils",
@@ -924,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_DOMIOWriteFrame",
           "normalized": "DOMIOH-\u003eFrameH-\u003eFILEH-\u003eIO()",
@@ -939,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameCreateChannel",
           "package": "HDRUtils",
@@ -948,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameCreateChannel",
           "normalized": "FrameH-\u003eCString-\u003eIO ChannelH",
@@ -963,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameCreateXYZChannels",
           "package": "HDRUtils",
@@ -972,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameCreateXYZChannels",
           "normalized": "FrameH-\u003ePtr ChannelH-\u003ePtr ChannelH-\u003ePtr ChannelH-\u003eIO()",
@@ -987,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameFileGetFileHandle",
           "package": "HDRUtils",
@@ -996,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameFileGetFileHandle",
           "normalized": "FrameFileH-\u003eFILEH",
@@ -1011,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameFileIteratorCloseFrameFile",
           "package": "HDRUtils",
@@ -1020,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameFileIteratorCloseFrameFile",
           "normalized": "FrameFileH-\u003eIO()",
@@ -1035,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameFileIteratorGetNextFrameFile",
           "package": "HDRUtils",
@@ -1044,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameFileIteratorGetNextFrameFile",
           "normalized": "FrameFileIteratorH-\u003eIO FrameFileH",
@@ -1059,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameGetChannel",
           "package": "HDRUtils",
@@ -1068,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameGetChannel",
           "normalized": "FrameH-\u003eCString-\u003eIO ChannelH",
@@ -1083,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameGetChannelIterator",
           "package": "HDRUtils",
@@ -1092,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameGetChannelIterator",
           "normalized": "FrameH-\u003eIO ChannelIteratorH",
@@ -1107,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameGetHeight",
           "package": "HDRUtils",
@@ -1116,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameGetHeight",
           "normalized": "FrameH-\u003eCInt",
@@ -1131,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameGetTags",
           "package": "HDRUtils",
@@ -1140,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameGetTags",
           "normalized": "FrameH-\u003eIO TagContainerH",
@@ -1155,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameGetWidth",
           "package": "HDRUtils",
@@ -1164,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameGetWidth",
           "normalized": "FrameH-\u003eCInt",
@@ -1179,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameGetXYZChannels",
           "package": "HDRUtils",
@@ -1188,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameGetXYZChannels",
           "normalized": "FrameH-\u003ePtr ChannelH-\u003ePtr ChannelH-\u003ePtr ChannelH-\u003eIO()",
@@ -1203,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameRemoveChannel",
           "package": "HDRUtils",
@@ -1212,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_FrameRemoveChannel",
           "normalized": "FrameH-\u003eChannelH-\u003eIO()",
@@ -1227,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_TagContainerGetIterator",
           "package": "HDRUtils",
@@ -1236,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_TagContainerGetIterator",
           "normalized": "TagContainerH-\u003eIO TagIteratorH",
@@ -1251,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_TagContainerGetString",
           "package": "HDRUtils",
@@ -1260,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_TagContainerGetString",
           "normalized": "TagContainerH-\u003eCString-\u003eIO CString",
@@ -1275,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_TagContainerRemoveTag",
           "package": "HDRUtils",
@@ -1284,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_TagContainerRemoveTag",
           "normalized": "TagContainerH-\u003eCString-\u003eIO()",
@@ -1299,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_TagContainerSetString",
           "package": "HDRUtils",
@@ -1308,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_TagContainerSetString",
           "normalized": "TagContainerH-\u003eCString-\u003eCString-\u003eIO()",
@@ -1323,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_TagIteratorGetNext",
           "package": "HDRUtils",
@@ -1332,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_TagIteratorGetNext",
           "normalized": "TagIteratorH-\u003eIO CString",
@@ -1347,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_TagIteratorHasNext",
           "package": "HDRUtils",
@@ -1356,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_TagIteratorHasNext",
           "normalized": "TagIteratorH-\u003eCInt",
@@ -1371,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_deleteDOMIO",
           "package": "HDRUtils",
@@ -1380,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_deleteDOMIO",
           "normalized": "DOMIOH-\u003eIO()",
@@ -1395,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_freeChannelIterator",
           "package": "HDRUtils",
@@ -1404,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_freeChannelIterator",
           "normalized": "ChannelIteratorH-\u003eIO()",
@@ -1419,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_freeTagIterator",
           "package": "HDRUtils",
@@ -1428,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_freeTagIterator",
           "normalized": "TagIteratorH-\u003eIO()",
@@ -1443,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_newDOMIO",
           "package": "HDRUtils",
@@ -1452,6 +1577,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_newDOMIO",
           "package": "HDRUtils",
@@ -1465,6 +1591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_newFrameFile",
           "package": "HDRUtils",
@@ -1474,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_newFrameFile",
           "normalized": "FILEH-\u003eCString-\u003eIO FrameFileH",
@@ -1489,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_newFrameFileIterator",
           "package": "HDRUtils",
@@ -1498,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS Internal",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS.Internal",
           "name": "pfs_newFrameFileIterator",
           "normalized": "Ptr CInt-\u003ePtr CString-\u003eCString-\u003eCString-\u003eFILEH-\u003eCString-\u003ePtr()-\u003eIO FrameFileIteratorH",
@@ -1513,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS",
           "name": "FPFrame",
           "package": "HDRUtils",
@@ -1521,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS",
           "name": "FPFrame",
           "package": "HDRUtils",
@@ -1535,6 +1667,7 @@
       "document": {
         "description": {
           "description": "get a frame from stdin\n",
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS",
           "name": "getFrame",
           "package": "HDRUtils",
@@ -1545,6 +1678,7 @@
         "index": {
           "description": "get frame from stdin",
           "hierarchy": "Graphics Image PFS",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS",
           "name": "getFrame",
           "package": "HDRUtils",
@@ -1559,6 +1693,7 @@
       "document": {
         "description": {
           "description": "Read a frame from a handle\n",
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS",
           "name": "hReadFrame",
           "package": "HDRUtils",
@@ -1569,6 +1704,7 @@
         "index": {
           "description": "Read frame from handle",
           "hierarchy": "Graphics Image PFS",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS",
           "name": "hReadFrame",
           "normalized": "Handle-\u003eIO FPFrame",
@@ -1585,6 +1721,7 @@
       "document": {
         "description": {
           "description": "Write a frame to a Handle\n",
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS",
           "name": "hWriteFrame",
           "package": "HDRUtils",
@@ -1595,6 +1732,7 @@
         "index": {
           "description": "Write frame to Handle",
           "hierarchy": "Graphics Image PFS",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS",
           "name": "hWriteFrame",
           "normalized": "Handle-\u003eFPFrame-\u003eIO()",
@@ -1611,6 +1749,7 @@
       "document": {
         "description": {
           "description": "put a frame to stdout\n",
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS",
           "name": "putFrame",
           "package": "HDRUtils",
@@ -1621,6 +1760,7 @@
         "index": {
           "description": "put frame to stdout",
           "hierarchy": "Graphics Image PFS",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS",
           "name": "putFrame",
           "normalized": "FPFrame-\u003eIO()",
@@ -1636,6 +1776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS",
           "name": "readFrameFromFile",
           "package": "HDRUtils",
@@ -1645,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PFS",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS",
           "name": "readFrameFromFile",
           "normalized": "FilePath-\u003eIO FPFrame",
@@ -1661,6 +1803,7 @@
       "document": {
         "description": {
           "description": "Write a frame to a PFS file\n",
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PFS",
           "name": "writeFrameToFile",
           "package": "HDRUtils",
@@ -1671,6 +1814,7 @@
         "index": {
           "description": "Write frame to PFS file",
           "hierarchy": "Graphics Image PFS",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PFS",
           "name": "writeFrameToFile",
           "normalized": "FilePath-\u003eFPFrame-\u003eIO()",
@@ -1687,6 +1831,7 @@
       "document": {
         "description": {
           "description": "type of channels\n",
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PixelMap",
           "name": "Channel",
           "package": "HDRUtils",
@@ -1696,6 +1841,7 @@
         "index": {
           "description": "type of channels",
           "hierarchy": "Graphics Image PixelMap",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PixelMap",
           "name": "Channel",
           "package": "HDRUtils",
@@ -1709,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PixelMap",
           "name": "ColourSpace",
           "package": "HDRUtils",
@@ -1717,6 +1864,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PixelMap",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PixelMap",
           "name": "ColourSpace",
           "package": "HDRUtils",
@@ -1730,6 +1878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PixelMap",
           "name": "PixelMap",
           "package": "HDRUtils",
@@ -1738,6 +1887,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PixelMap",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PixelMap",
           "name": "PixelMap",
           "package": "HDRUtils",
@@ -1752,6 +1902,7 @@
       "document": {
         "description": {
           "description": "Read an arbitrary pixel\n",
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PixelMap",
           "name": "!!",
           "package": "HDRUtils",
@@ -1762,6 +1913,7 @@
         "index": {
           "description": "Read an arbitrary pixel",
           "hierarchy": "Graphics Image PixelMap",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PixelMap",
           "name": "!!",
           "normalized": "PixelMap-\u003e(Int,Int)-\u003eIO(AlphaColour CFloat)",
@@ -1777,6 +1929,7 @@
       "document": {
         "description": {
           "description": "Read one channel from an arbitrary pixel\n",
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PixelMap",
           "name": "!/",
           "package": "HDRUtils",
@@ -1787,6 +1940,7 @@
         "index": {
           "description": "Read one channel from an arbitrary pixel",
           "hierarchy": "Graphics Image PixelMap",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PixelMap",
           "name": "!/",
           "normalized": "PixelMap-\u003e(Int,Int,String)-\u003eIO CFloat",
@@ -1802,6 +1956,7 @@
       "document": {
         "description": {
           "description": "Write one channel of an arbitrary pixel\n",
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PixelMap",
           "name": "!/=",
           "package": "HDRUtils",
@@ -1812,6 +1967,7 @@
         "index": {
           "description": "Write one channel of an arbitrary pixel",
           "hierarchy": "Graphics Image PixelMap",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PixelMap",
           "name": "!/=",
           "normalized": "(CFloat-\u003eIO())-\u003eCFloat-\u003eIO()",
@@ -1827,6 +1983,7 @@
       "document": {
         "description": {
           "description": "Write a colour to an arbitrary pixel\n",
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PixelMap",
           "name": "!=",
           "package": "HDRUtils",
@@ -1837,6 +1994,7 @@
         "index": {
           "description": "Write colour to an arbitrary pixel",
           "hierarchy": "Graphics Image PixelMap",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PixelMap",
           "name": "!=",
           "normalized": "(AlphaColour CFloat-\u003eIO())-\u003eAlphaColour CFloat-\u003eIO()",
@@ -1851,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PixelMap",
           "name": "ImageData",
           "package": "HDRUtils",
@@ -1859,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "Graphics Image PixelMap",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PixelMap",
           "name": "ImageData",
           "package": "HDRUtils",
@@ -1873,6 +2033,7 @@
       "document": {
         "description": {
           "description": "Go from a pixel map to an arbitrary type.\n",
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PixelMap",
           "name": "fromPixelMap",
           "package": "HDRUtils",
@@ -1883,6 +2044,7 @@
         "index": {
           "description": "Go from pixel map to an arbitrary type",
           "hierarchy": "Graphics Image PixelMap",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PixelMap",
           "name": "fromPixelMap",
           "normalized": "PixelMap-\u003ea",
@@ -1899,6 +2061,7 @@
       "document": {
         "description": {
           "description": "Usage: refChan image (0,0) \"R\" !/= 1.0\n",
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PixelMap",
           "name": "refChan",
           "package": "HDRUtils",
@@ -1909,6 +2072,7 @@
         "index": {
           "description": "Usage refChan image",
           "hierarchy": "Graphics Image PixelMap",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PixelMap",
           "name": "refChan",
           "normalized": "PixelMap-\u003e(Int,Int)-\u003eString-\u003eCFloat-\u003eIO()",
@@ -1925,6 +2089,7 @@
       "document": {
         "description": {
           "description": "Usage: refPixel image (0,0) != opaque black\n",
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PixelMap",
           "name": "refPixel",
           "package": "HDRUtils",
@@ -1935,6 +2100,7 @@
         "index": {
           "description": "Usage refPixel image opaque black",
           "hierarchy": "Graphics Image PixelMap",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PixelMap",
           "name": "refPixel",
           "normalized": "PixelMap-\u003e(Int,Int)-\u003eAlphaColour CFloat-\u003eIO()",
@@ -1951,6 +2117,7 @@
       "document": {
         "description": {
           "description": "Go to a pixel map from an arbitrary type.\n",
+          "indexed": "Tue Mar 11 16:44:45 UTC 2014",
           "module": "Graphics.Image.PixelMap",
           "name": "toPixelMap",
           "package": "HDRUtils",
@@ -1961,6 +2128,7 @@
         "index": {
           "description": "Go to pixel map from an arbitrary type",
           "hierarchy": "Graphics Image PixelMap",
+          "indexed": "2014-03-11T16:44:45",
           "module": "Graphics.Image.PixelMap",
           "name": "toPixelMap",
           "normalized": "a-\u003ePixelMap",

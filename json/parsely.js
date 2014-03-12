@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "parsely"
+        "phrase": "parsely",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3AalphaNum",
           "package": "parsely",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Char",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3AalphaNum",
           "package": "parsely",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3AanyChar",
           "package": "parsely",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Char",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3AanyChar",
           "package": "parsely",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3Achar",
           "package": "parsely",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Char",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3Achar",
           "normalized": "Char-\u003ea Char",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3Adigit",
           "package": "parsely",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Char",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3Adigit",
           "package": "parsely",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3AhexDigit",
           "package": "parsely",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Char",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3AhexDigit",
           "package": "parsely",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3Aletter",
           "package": "parsely",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Char",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3Aletter",
           "package": "parsely",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3Alower",
           "package": "parsely",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Char",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3Alower",
           "package": "parsely",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3Anewline",
           "package": "parsely",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Char",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3Anewline",
           "package": "parsely",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3AnoneOf",
           "package": "parsely",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Char",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3AnoneOf",
           "normalized": "[Char]-\u003ea Char",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3AoctDigit",
           "package": "parsely",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Char",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3AoctDigit",
           "package": "parsely",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3AoneOf",
           "package": "parsely",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Char",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3AoneOf",
           "normalized": "[Char]-\u003ea Char",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3Asatisfy",
           "package": "parsely",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Char",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3Asatisfy",
           "normalized": "(Char-\u003eBool)-\u003ea Char",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3Aspace",
           "package": "parsely",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Char",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3Aspace",
           "package": "parsely",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3Aspaces",
           "package": "parsely",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Char",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3Aspaces",
           "normalized": "a()",
@@ -322,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3Astring",
           "package": "parsely",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Char",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3Astring",
           "normalized": "String-\u003ea String",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3Atab",
           "package": "parsely",
@@ -353,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Char",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3Atab",
           "package": "parsely",
@@ -366,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3Aupper",
           "package": "parsely",
@@ -374,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Char",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Char",
           "name": "3Aupper",
           "package": "parsely",
@@ -388,6 +422,7 @@
       "document": {
         "description": {
           "description": "Give a name to a parser (used in error messages, hopefully)\n",
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3A\u003c?\u003e",
           "package": "parsely",
@@ -397,6 +432,7 @@
         "index": {
           "description": "Give name to parser used in error messages hopefully",
           "hierarchy": "Text ParserCombinators Parsely Class",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3A\u003c?\u003e",
           "normalized": "a b-\u003eString-\u003ea b",
@@ -412,6 +448,7 @@
       "document": {
         "description": {
           "description": "This is just a type-restricted version of \u003ctt\u003e\u003ca\u003emplus\u003c/a\u003e\u003c/tt\u003e (as in Parsec)\n",
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3A\u003c|\u003e",
           "package": "parsely",
@@ -421,6 +458,7 @@
         "index": {
           "description": "This is just type-restricted version of mplus as in Parsec",
           "hierarchy": "Text ParserCombinators Parsely Class",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3A\u003c|\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3AMonadParsec",
           "package": "parsely",
@@ -442,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Class",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3AMonadParsec",
           "package": "parsely",
@@ -455,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3AParsely",
           "package": "parsely",
@@ -462,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Class",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3AParsely",
           "package": "parsely",
@@ -475,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3AParselyTry",
           "package": "parsely",
@@ -482,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Class",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3AParselyTry",
           "package": "parsely",
@@ -520,6 +564,7 @@
       "document": {
         "description": {
           "description": "Run given parser as many times as possible, returning\n results. In the typeclass because Parsec needs them as\n primitives to avoid stack overflow. (XXX how will we preserve\n space properties with monad transformers?)\n",
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3Amany",
           "package": "parsely",
@@ -529,6 +574,7 @@
         "index": {
           "description": "Run given parser as many times as possible returning results In the typeclass because Parsec needs them as primitives to avoid stack overflow XXX how will we preserve space properties with monad transformers",
           "hierarchy": "Text ParserCombinators Parsely Class",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3Amany",
           "normalized": "a b-\u003ea[b]",
@@ -545,6 +591,7 @@
       "document": {
         "description": {
           "description": "Run given parser as many times as possible, discarding\n results. Here for the same reason as \u003ctt\u003e\u003ca\u003emany\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3AskipMany",
           "package": "parsely",
@@ -554,6 +601,7 @@
         "index": {
           "description": "Run given parser as many times as possible discarding results Here for the same reason as many",
           "hierarchy": "Text ParserCombinators Parsely Class",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3AskipMany",
           "normalized": "a b-\u003ea()",
@@ -569,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3Atoken",
           "package": "parsely",
@@ -577,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Class",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3Atoken",
           "normalized": "(a-\u003eString)-\u003e(a-\u003eb)-\u003e(a-\u003eMaybe c)-\u003ed c",
@@ -592,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3AtokenPrim",
           "package": "parsely",
@@ -600,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Class",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3AtokenPrim",
           "normalized": "(a-\u003eString)-\u003e(b-\u003ea-\u003e[a]-\u003eb)-\u003e(a-\u003eMaybe c)-\u003ed c",
@@ -615,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3Atokens",
           "package": "parsely",
@@ -623,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Class",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3Atokens",
           "normalized": "([a]-\u003eString)-\u003e(b-\u003e[a]-\u003eb)-\u003e[a]-\u003ec[a]",
@@ -639,6 +693,7 @@
       "document": {
         "description": {
           "description": "If argument fails consuming input, act as if it wasn't consumed. (I.e. put\n it back)\n",
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3Atry",
           "package": "parsely",
@@ -648,6 +703,7 @@
         "index": {
           "description": "If argument fails consuming input act as if it wasn consumed I.e put it back",
           "hierarchy": "Text ParserCombinators Parsely Class",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3Atry",
           "normalized": "a b-\u003ea b",
@@ -664,6 +720,7 @@
       "document": {
         "description": {
           "description": "This parser didn't expect that input. Try other branch of\n \u003ctt\u003e\u003ca\u003e\u003c|\u003e\u003c/a\u003e\u003c/tt\u003e? Nearly the same as \u003ctt\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/tt\u003e, but \u003ctt\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/tt\u003e may produce a\n less informative message in case of error.\n",
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3Aunexpected",
           "package": "parsely",
@@ -673,6 +730,7 @@
         "index": {
           "description": "This parser didn expect that input Try other branch of Nearly the same as mzero but mzero may produce less informative message in case of error",
           "hierarchy": "Text ParserCombinators Parsely Class",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Class",
           "name": "3Aunexpected",
           "normalized": "String-\u003ea b",
@@ -688,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3AanyToken",
           "package": "parsely",
@@ -696,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Combinator",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3AanyToken",
           "package": "parsely",
@@ -709,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3Abetween",
           "package": "parsely",
@@ -717,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Combinator",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3Abetween",
           "normalized": "a b-\u003ea c-\u003ea d-\u003ea d",
@@ -732,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3Achainl",
           "package": "parsely",
@@ -740,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Combinator",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3Achainl",
           "normalized": "a b-\u003ea(b-\u003eb-\u003eb)-\u003eb-\u003ea b",
@@ -755,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3Achainl1",
           "package": "parsely",
@@ -763,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Combinator",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3Achainl1",
           "normalized": "a b-\u003ea(b-\u003eb-\u003eb)-\u003ea b",
@@ -778,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3Achainr",
           "package": "parsely",
@@ -786,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Combinator",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3Achainr",
           "normalized": "a b-\u003ea(b-\u003eb-\u003eb)-\u003eb-\u003ea b",
@@ -801,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3Achainr1",
           "package": "parsely",
@@ -809,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Combinator",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3Achainr1",
           "normalized": "a b-\u003ea(b-\u003eb-\u003eb)-\u003ea b",
@@ -824,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3Achoice",
           "package": "parsely",
@@ -832,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Combinator",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3Achoice",
           "normalized": "[a b]-\u003ea b",
@@ -847,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3Acount",
           "package": "parsely",
@@ -855,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Combinator",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3Acount",
           "normalized": "Int-\u003ea b-\u003ea[b]",
@@ -870,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3AendBy",
           "package": "parsely",
@@ -878,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Combinator",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3AendBy",
           "normalized": "a b-\u003ea c-\u003ea[b]",
@@ -893,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3AendBy1",
           "package": "parsely",
@@ -901,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Combinator",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3AendBy1",
           "normalized": "a b-\u003ea c-\u003ea[b]",
@@ -916,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3Aeof",
           "package": "parsely",
@@ -924,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Combinator",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3Aeof",
           "normalized": "a()",
@@ -939,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3Amany1",
           "package": "parsely",
@@ -947,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Combinator",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3Amany1",
           "normalized": "a b-\u003ea[b]",
@@ -962,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3AmanyTill",
           "package": "parsely",
@@ -970,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Combinator",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3AmanyTill",
           "normalized": "a b-\u003ea c-\u003ea[b]",
@@ -985,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3AnotFollowedBy",
           "package": "parsely",
@@ -993,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Combinator",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3AnotFollowedBy",
           "normalized": "a b-\u003ea()",
@@ -1008,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3Aoption",
           "package": "parsely",
@@ -1016,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Combinator",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3Aoption",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -1031,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3Aoptional",
           "package": "parsely",
@@ -1039,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Combinator",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3Aoptional",
           "normalized": "a b-\u003ea()",
@@ -1054,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3AsepBy",
           "package": "parsely",
@@ -1062,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Combinator",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3AsepBy",
           "normalized": "a b-\u003ea c-\u003ea[b]",
@@ -1077,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3AsepBy1",
           "package": "parsely",
@@ -1085,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Combinator",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3AsepBy1",
           "normalized": "a b-\u003ea c-\u003ea[b]",
@@ -1100,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3AsepEndBy",
           "package": "parsely",
@@ -1108,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Combinator",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3AsepEndBy",
           "normalized": "a b-\u003ea c-\u003ea[b]",
@@ -1123,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3AsepEndBy1",
           "package": "parsely",
@@ -1131,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Combinator",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3AsepEndBy1",
           "normalized": "a b-\u003ea c-\u003ea[b]",
@@ -1146,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3AskipMany1",
           "package": "parsely",
@@ -1154,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsely Combinator",
+          "indexed": "2014-03-11T19:35:20",
           "module": "Text.ParserCombinators.Parsely.Combinator",
           "name": "3AskipMany1",
           "normalized": "a b-\u003ea()",
@@ -1170,11 +1270,13 @@
       "document": {
         "description": {
           "description": "This module provides instances for ReaderT, WriterT, and StateT\n",
+          "indexed": "Tue Mar 11 19:35:20 UTC 2014",
           "source": "http://hackage.haskell.org/package/parsely/docs/Text-ParserCombinators-Parsely-Instances.html",
           "type": "unknown"
         },
         "index": {
           "description": "This module provides instances for ReaderT WriterT and StateT",
+          "indexed": "2014-03-11T19:35:20",
           "type": "unknown"
         },
         "uri": "http://hackage.haskell.org/package/parsely/docs/Text-ParserCombinators-Parsely-Instances.html"

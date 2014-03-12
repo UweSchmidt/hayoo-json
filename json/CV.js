@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "CV"
+        "phrase": "CV",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides QuickCheck generators for images.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Arbitrary",
           "name": "Arbitrary",
           "package": "CV",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides QuickCheck generators for images",
           "hierarchy": "CV Arbitrary",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Arbitrary",
           "name": "Arbitrary",
           "package": "CV",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a (10m x 10m) sized noisy image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Arbitrary",
           "name": "blockNoise",
           "package": "CV",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Generate sized noisy image",
           "hierarchy": "CV Arbitrary",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Arbitrary",
           "name": "blockNoise",
           "normalized": "Int-\u003eGen(Image GrayScale D)",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate 10x10 constant image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Arbitrary",
           "name": "constImage",
           "package": "CV",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Generate x10 constant image",
           "hierarchy": "CV Arbitrary",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Arbitrary",
           "name": "constImage",
           "package": "CV",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate 10x10 noisy image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Arbitrary",
           "name": "noisyImage",
           "package": "CV",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Generate x10 noisy image",
           "hierarchy": "CV Arbitrary",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Arbitrary",
           "name": "noisyImage",
           "package": "CV",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Generate a random small image, that might be constant, noisy or smoothly varying\n   Range of values is [0,1]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Arbitrary",
           "name": "smallImage",
           "package": "CV",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Generate random small image that might be constant noisy or smoothly varying Range of values is",
           "hierarchy": "CV Arbitrary",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Arbitrary",
           "name": "smallImage",
           "package": "CV",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Generate 10x10 smoothly varying image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Arbitrary",
           "name": "smoothImage",
           "package": "CV",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Generate x10 smoothly varying image",
           "hierarchy": "CV Arbitrary",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Arbitrary",
           "name": "smoothImage",
           "package": "CV",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBinary instances for images. Currently it only supports the type \n `Image Grayscale D32`.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Binary",
           "name": "Binary",
           "package": "CV",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Binary instances for images Currently it only supports the type Image Grayscale D32",
           "hierarchy": "CV Binary",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Binary",
           "name": "Binary",
           "package": "CV",
@@ -186,6 +200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "Types",
           "package": "CV",
@@ -194,6 +209,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "Types",
           "package": "CV",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvArr",
           "package": "CV",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvArr",
           "package": "CV",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvBox2D",
           "package": "CV",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvBox2D",
           "package": "CV",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvConnectedComp",
           "package": "CV",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvConnectedComp",
           "package": "CV",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvContour",
           "package": "CV",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvContour",
           "package": "CV",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvConvexityDefect",
           "package": "CV",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvConvexityDefect",
           "package": "CV",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvHistogram",
           "package": "CV",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvHistogram",
           "package": "CV",
@@ -334,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHu invariants\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvHuMoments",
           "package": "CV",
@@ -343,6 +372,7 @@
         "index": {
           "description": "Hu invariants",
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvHuMoments",
           "package": "CV",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvMemStorage",
           "package": "CV",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvMemStorage",
           "package": "CV",
@@ -378,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003espatial moments\n\u003c/p\u003e\u003cp\u003ecentral moments\n\u003c/p\u003e\u003cpre\u003em00 != 0 ? 1/sqrt(m00) : 0\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvMoments",
           "package": "CV",
@@ -387,6 +420,7 @@
         "index": {
           "description": "spatial moments central moments m00 sqrt m00",
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvMoments",
           "package": "CV",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvPoint",
           "package": "CV",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvPoint",
           "package": "CV",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvPoint2D32f",
           "package": "CV",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvPoint2D32f",
           "package": "CV",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvRect",
           "package": "CV",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvRect",
           "package": "CV",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvSURFPoint",
           "package": "CV",
@@ -471,6 +512,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvSURFPoint",
           "package": "CV",
@@ -484,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvScalar",
           "package": "CV",
@@ -492,6 +535,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvScalar",
           "package": "CV",
@@ -505,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvSeq",
           "package": "CV",
@@ -513,6 +558,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvSeq",
           "package": "CV",
@@ -526,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvSeqBlock",
           "package": "CV",
@@ -534,6 +581,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvSeqBlock",
           "package": "CV",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvSize",
           "package": "CV",
@@ -555,6 +604,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvSize",
           "package": "CV",
@@ -568,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvSize2D32f",
           "package": "CV",
@@ -576,6 +627,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvSize2D32f",
           "package": "CV",
@@ -589,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvTermCriteria",
           "package": "CV",
@@ -597,6 +650,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvTermCriteria",
           "package": "CV",
@@ -610,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'IplImage",
           "package": "CV",
@@ -618,6 +673,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'IplImage",
           "package": "CV",
@@ -631,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "TermCriteria",
           "package": "CV",
@@ -639,6 +696,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "TermCriteria",
           "package": "CV",
@@ -652,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvArr",
           "package": "CV",
@@ -661,6 +720,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvArr",
           "package": "CV",
@@ -674,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvBox2D",
           "package": "CV",
@@ -683,6 +744,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvBox2D",
           "package": "CV",
@@ -696,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvConnectedComp",
           "package": "CV",
@@ -705,6 +768,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvConnectedComp",
           "package": "CV",
@@ -718,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvContour",
           "package": "CV",
@@ -727,6 +792,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvContour",
           "package": "CV",
@@ -740,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvConvexityDefect",
           "package": "CV",
@@ -749,6 +816,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvConvexityDefect",
           "package": "CV",
@@ -762,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvHistogram",
           "package": "CV",
@@ -771,6 +840,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvHistogram",
           "package": "CV",
@@ -784,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvHuMoments",
           "package": "CV",
@@ -793,6 +864,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvHuMoments",
           "package": "CV",
@@ -806,6 +878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvMemStorage",
           "package": "CV",
@@ -815,6 +888,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvMemStorage",
           "package": "CV",
@@ -828,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvMoments",
           "package": "CV",
@@ -837,6 +912,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvMoments",
           "package": "CV",
@@ -850,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvPoint",
           "package": "CV",
@@ -859,6 +936,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvPoint",
           "package": "CV",
@@ -872,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvPoint2D32f",
           "package": "CV",
@@ -881,6 +960,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvPoint2D32f",
           "package": "CV",
@@ -894,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvRect",
           "package": "CV",
@@ -903,6 +984,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvRect",
           "package": "CV",
@@ -916,6 +998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvSURFPoint",
           "package": "CV",
@@ -925,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvSURFPoint",
           "package": "CV",
@@ -938,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvScalar",
           "package": "CV",
@@ -947,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvScalar",
           "package": "CV",
@@ -960,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvSeq",
           "package": "CV",
@@ -969,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvSeq",
           "package": "CV",
@@ -982,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvSeqBlock",
           "package": "CV",
@@ -991,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvSeqBlock",
           "package": "CV",
@@ -1004,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvSize",
           "package": "CV",
@@ -1013,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvSize",
           "package": "CV",
@@ -1026,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvSize2D32f",
           "package": "CV",
@@ -1035,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvSize2D32f",
           "package": "CV",
@@ -1048,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'CvTermCriteria",
           "package": "CV",
@@ -1057,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'CvTermCriteria",
           "package": "CV",
@@ -1070,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "C'IplImage",
           "package": "CV",
@@ -1079,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "C'IplImage",
           "package": "CV",
@@ -1092,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "EPS",
           "package": "CV",
@@ -1101,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "EPS",
           "package": "CV",
@@ -1114,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "ITER",
           "package": "CV",
@@ -1123,6 +1224,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "ITER",
           "package": "CV",
@@ -1136,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_16SC1",
           "package": "CV",
@@ -1145,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_16SC1",
           "package": "CV",
@@ -1158,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_16SC2",
           "package": "CV",
@@ -1167,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_16SC2",
           "package": "CV",
@@ -1180,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_16SC3",
           "package": "CV",
@@ -1189,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_16SC3",
           "package": "CV",
@@ -1202,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_16SC4",
           "package": "CV",
@@ -1211,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_16SC4",
           "package": "CV",
@@ -1224,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_16UC1",
           "package": "CV",
@@ -1233,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_16UC1",
           "package": "CV",
@@ -1246,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_16UC2",
           "package": "CV",
@@ -1255,6 +1368,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_16UC2",
           "package": "CV",
@@ -1268,6 +1382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_16UC3",
           "package": "CV",
@@ -1277,6 +1392,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_16UC3",
           "package": "CV",
@@ -1290,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_16UC4",
           "package": "CV",
@@ -1299,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_16UC4",
           "package": "CV",
@@ -1312,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_32FC1",
           "package": "CV",
@@ -1321,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_32FC1",
           "package": "CV",
@@ -1334,6 +1454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_32FC2",
           "package": "CV",
@@ -1343,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_32FC2",
           "package": "CV",
@@ -1356,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_32FC3",
           "package": "CV",
@@ -1365,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_32FC3",
           "package": "CV",
@@ -1378,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_32FC4",
           "package": "CV",
@@ -1387,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_32FC4",
           "package": "CV",
@@ -1400,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_32SC1",
           "package": "CV",
@@ -1409,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_32SC1",
           "package": "CV",
@@ -1422,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_32SC2",
           "package": "CV",
@@ -1431,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_32SC2",
           "package": "CV",
@@ -1444,6 +1574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_32SC3",
           "package": "CV",
@@ -1453,6 +1584,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_32SC3",
           "package": "CV",
@@ -1466,6 +1598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_32SC4",
           "package": "CV",
@@ -1475,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_32SC4",
           "package": "CV",
@@ -1488,6 +1622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_64FC1",
           "package": "CV",
@@ -1497,6 +1632,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_64FC1",
           "package": "CV",
@@ -1510,6 +1646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_64FC2",
           "package": "CV",
@@ -1519,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_64FC2",
           "package": "CV",
@@ -1532,6 +1670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_64FC3",
           "package": "CV",
@@ -1541,6 +1680,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_64FC3",
           "package": "CV",
@@ -1554,6 +1694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_64FC4",
           "package": "CV",
@@ -1563,6 +1704,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_64FC4",
           "package": "CV",
@@ -1576,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_8SC1",
           "package": "CV",
@@ -1585,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_8SC1",
           "package": "CV",
@@ -1598,6 +1742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_8SC2",
           "package": "CV",
@@ -1607,6 +1752,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_8SC2",
           "package": "CV",
@@ -1620,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_8SC3",
           "package": "CV",
@@ -1629,6 +1776,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_8SC3",
           "package": "CV",
@@ -1642,6 +1790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_8SC4",
           "package": "CV",
@@ -1651,6 +1800,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_8SC4",
           "package": "CV",
@@ -1664,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_8UC1",
           "package": "CV",
@@ -1673,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_8UC1",
           "package": "CV",
@@ -1686,6 +1838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_8UC2",
           "package": "CV",
@@ -1695,6 +1848,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_8UC2",
           "package": "CV",
@@ -1708,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_8UC3",
           "package": "CV",
@@ -1717,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_8UC3",
           "package": "CV",
@@ -1730,6 +1886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_8UC4",
           "package": "CV",
@@ -1739,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_8UC4",
           "package": "CV",
@@ -1752,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_CLOCKWISE",
           "package": "CV",
@@ -1761,6 +1920,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_CLOCKWISE",
           "package": "CV",
@@ -1774,6 +1934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_COUNTER_CLOCKWISE",
           "package": "CV",
@@ -1783,6 +1944,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_COUNTER_CLOCKWISE",
           "package": "CV",
@@ -1796,6 +1958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_TERMCRIT_EPS",
           "package": "CV",
@@ -1805,6 +1968,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_TERMCRIT_EPS",
           "package": "CV",
@@ -1818,6 +1982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_TERMCRIT_ITER",
           "package": "CV",
@@ -1827,6 +1992,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_TERMCRIT_ITER",
           "package": "CV",
@@ -1840,6 +2006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CV_TERMCRIT_NUMBER",
           "package": "CV",
@@ -1849,6 +2016,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CV_TERMCRIT_NUMBER",
           "package": "CV",
@@ -1862,6 +2030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvBox2D'angle",
           "package": "CV",
@@ -1871,6 +2040,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvBox2D'angle",
           "package": "CV",
@@ -1884,6 +2054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvBox2D'center",
           "package": "CV",
@@ -1893,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvBox2D'center",
           "package": "CV",
@@ -1906,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvBox2D'size",
           "package": "CV",
@@ -1915,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvBox2D'size",
           "package": "CV",
@@ -1928,6 +2102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvConnectedComp'area",
           "package": "CV",
@@ -1937,6 +2112,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvConnectedComp'area",
           "package": "CV",
@@ -1950,6 +2126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvConnectedComp'contour",
           "package": "CV",
@@ -1959,6 +2136,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvConnectedComp'contour",
           "package": "CV",
@@ -1972,6 +2150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvConnectedComp'rect",
           "package": "CV",
@@ -1981,6 +2160,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvConnectedComp'rect",
           "package": "CV",
@@ -1994,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvConnectedComp'value",
           "package": "CV",
@@ -2003,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvConnectedComp'value",
           "package": "CV",
@@ -2016,6 +2198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'block_max",
           "package": "CV",
@@ -2025,6 +2208,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'block_max",
           "package": "CV",
@@ -2038,6 +2222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'color",
           "package": "CV",
@@ -2047,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'color",
           "package": "CV",
@@ -2060,6 +2246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'delta_elems",
           "package": "CV",
@@ -2069,6 +2256,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'delta_elems",
           "package": "CV",
@@ -2082,6 +2270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'elem_size",
           "package": "CV",
@@ -2091,6 +2280,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'elem_size",
           "package": "CV",
@@ -2104,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'first",
           "package": "CV",
@@ -2113,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'first",
           "package": "CV",
@@ -2126,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'flags",
           "package": "CV",
@@ -2135,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'flags",
           "package": "CV",
@@ -2148,6 +2342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'free_blocks",
           "package": "CV",
@@ -2157,6 +2352,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'free_blocks",
           "package": "CV",
@@ -2170,6 +2366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'h_next",
           "package": "CV",
@@ -2179,6 +2376,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'h_next",
           "package": "CV",
@@ -2192,6 +2390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'h_prev",
           "package": "CV",
@@ -2201,6 +2400,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'h_prev",
           "package": "CV",
@@ -2214,6 +2414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'header_size",
           "package": "CV",
@@ -2223,6 +2424,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'header_size",
           "package": "CV",
@@ -2236,6 +2438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'ptr",
           "package": "CV",
@@ -2245,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'ptr",
           "package": "CV",
@@ -2258,6 +2462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'rect",
           "package": "CV",
@@ -2267,6 +2472,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'rect",
           "package": "CV",
@@ -2280,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'reserved_0_",
           "package": "CV",
@@ -2289,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'reserved_0_",
           "package": "CV",
@@ -2302,6 +2510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'reserved_1_",
           "package": "CV",
@@ -2311,6 +2520,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'reserved_1_",
           "package": "CV",
@@ -2324,6 +2534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'reserved_2_",
           "package": "CV",
@@ -2333,6 +2544,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'reserved_2_",
           "package": "CV",
@@ -2346,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'total",
           "package": "CV",
@@ -2355,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'total",
           "package": "CV",
@@ -2368,6 +2582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'v_next",
           "package": "CV",
@@ -2377,6 +2592,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'v_next",
           "package": "CV",
@@ -2390,6 +2606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'v_prev",
           "package": "CV",
@@ -2399,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvContour'v_prev",
           "package": "CV",
@@ -2412,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvConvexityDefect'depth",
           "package": "CV",
@@ -2421,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvConvexityDefect'depth",
           "package": "CV",
@@ -2434,6 +2654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvConvexityDefect'depth_point",
           "package": "CV",
@@ -2443,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvConvexityDefect'depth_point",
           "package": "CV",
@@ -2456,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvConvexityDefect'end",
           "package": "CV",
@@ -2465,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvConvexityDefect'end",
           "package": "CV",
@@ -2478,6 +2702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvConvexityDefect'start",
           "package": "CV",
@@ -2487,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvConvexityDefect'start",
           "package": "CV",
@@ -2500,6 +2726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvHuMoments'hu1",
           "package": "CV",
@@ -2509,6 +2736,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvHuMoments'hu1",
           "package": "CV",
@@ -2522,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvHuMoments'hu2",
           "package": "CV",
@@ -2531,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvHuMoments'hu2",
           "package": "CV",
@@ -2544,6 +2774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvHuMoments'hu3",
           "package": "CV",
@@ -2553,6 +2784,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvHuMoments'hu3",
           "package": "CV",
@@ -2566,6 +2798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvHuMoments'hu4",
           "package": "CV",
@@ -2575,6 +2808,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvHuMoments'hu4",
           "package": "CV",
@@ -2588,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvHuMoments'hu5",
           "package": "CV",
@@ -2597,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvHuMoments'hu5",
           "package": "CV",
@@ -2610,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvHuMoments'hu6",
           "package": "CV",
@@ -2619,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvHuMoments'hu6",
           "package": "CV",
@@ -2632,6 +2870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvHuMoments'hu7",
           "package": "CV",
@@ -2641,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvHuMoments'hu7",
           "package": "CV",
@@ -2654,6 +2894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'inv_sqrt_m00",
           "package": "CV",
@@ -2663,6 +2904,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'inv_sqrt_m00",
           "package": "CV",
@@ -2676,6 +2918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'm00",
           "package": "CV",
@@ -2685,6 +2928,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'm00",
           "package": "CV",
@@ -2698,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'm01",
           "package": "CV",
@@ -2707,6 +2952,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'm01",
           "package": "CV",
@@ -2720,6 +2966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'm02",
           "package": "CV",
@@ -2729,6 +2976,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'm02",
           "package": "CV",
@@ -2742,6 +2990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'm03",
           "package": "CV",
@@ -2751,6 +3000,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'm03",
           "package": "CV",
@@ -2764,6 +3014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'm10",
           "package": "CV",
@@ -2773,6 +3024,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'm10",
           "package": "CV",
@@ -2786,6 +3038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'm11",
           "package": "CV",
@@ -2795,6 +3048,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'm11",
           "package": "CV",
@@ -2808,6 +3062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'm12",
           "package": "CV",
@@ -2817,6 +3072,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'm12",
           "package": "CV",
@@ -2830,6 +3086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'm20",
           "package": "CV",
@@ -2839,6 +3096,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'm20",
           "package": "CV",
@@ -2852,6 +3110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'm21",
           "package": "CV",
@@ -2861,6 +3120,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'm21",
           "package": "CV",
@@ -2874,6 +3134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'm30",
           "package": "CV",
@@ -2883,6 +3144,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'm30",
           "package": "CV",
@@ -2896,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'mu02",
           "package": "CV",
@@ -2905,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'mu02",
           "package": "CV",
@@ -2918,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'mu03",
           "package": "CV",
@@ -2927,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'mu03",
           "package": "CV",
@@ -2940,6 +3206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'mu11",
           "package": "CV",
@@ -2949,6 +3216,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'mu11",
           "package": "CV",
@@ -2962,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'mu12",
           "package": "CV",
@@ -2971,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'mu12",
           "package": "CV",
@@ -2984,6 +3254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'mu20",
           "package": "CV",
@@ -2993,6 +3264,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'mu20",
           "package": "CV",
@@ -3006,6 +3278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'mu21",
           "package": "CV",
@@ -3015,6 +3288,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'mu21",
           "package": "CV",
@@ -3028,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'mu30",
           "package": "CV",
@@ -3037,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvMoments'mu30",
           "package": "CV",
@@ -3050,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvPoint'x",
           "package": "CV",
@@ -3059,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvPoint'x",
           "package": "CV",
@@ -3072,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvPoint'y",
           "package": "CV",
@@ -3081,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvPoint'y",
           "package": "CV",
@@ -3094,6 +3374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvPoint2D32f'x",
           "package": "CV",
@@ -3103,6 +3384,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvPoint2D32f'x",
           "package": "CV",
@@ -3116,6 +3398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvPoint2D32f'y",
           "package": "CV",
@@ -3125,6 +3408,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvPoint2D32f'y",
           "package": "CV",
@@ -3138,6 +3422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvRect'height",
           "package": "CV",
@@ -3147,6 +3432,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvRect'height",
           "package": "CV",
@@ -3160,6 +3446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvRect'width",
           "package": "CV",
@@ -3169,6 +3456,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvRect'width",
           "package": "CV",
@@ -3182,6 +3470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvRect'x",
           "package": "CV",
@@ -3191,6 +3480,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvRect'x",
           "package": "CV",
@@ -3204,6 +3494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvRect'y",
           "package": "CV",
@@ -3213,6 +3504,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvRect'y",
           "package": "CV",
@@ -3226,6 +3518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvSURFPoint'dir",
           "package": "CV",
@@ -3235,6 +3528,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvSURFPoint'dir",
           "package": "CV",
@@ -3248,6 +3542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvSURFPoint'hessian",
           "package": "CV",
@@ -3257,6 +3552,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvSURFPoint'hessian",
           "package": "CV",
@@ -3270,6 +3566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvSURFPoint'laplacian",
           "package": "CV",
@@ -3279,6 +3576,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvSURFPoint'laplacian",
           "package": "CV",
@@ -3292,6 +3590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvSURFPoint'pt",
           "package": "CV",
@@ -3301,6 +3600,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvSURFPoint'pt",
           "package": "CV",
@@ -3314,6 +3614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvSURFPoint'size",
           "package": "CV",
@@ -3323,6 +3624,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvSURFPoint'size",
           "package": "CV",
@@ -3336,6 +3638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvScalar'val_0_",
           "package": "CV",
@@ -3345,6 +3648,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvScalar'val_0_",
           "package": "CV",
@@ -3358,6 +3662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvScalar'val_1_",
           "package": "CV",
@@ -3367,6 +3672,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvScalar'val_1_",
           "package": "CV",
@@ -3380,6 +3686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvScalar'val_2_",
           "package": "CV",
@@ -3389,6 +3696,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvScalar'val_2_",
           "package": "CV",
@@ -3402,6 +3710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvScalar'val_3_",
           "package": "CV",
@@ -3411,6 +3720,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvScalar'val_3_",
           "package": "CV",
@@ -3424,6 +3734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'block_max",
           "package": "CV",
@@ -3433,6 +3744,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'block_max",
           "package": "CV",
@@ -3446,6 +3758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'delta_elems",
           "package": "CV",
@@ -3455,6 +3768,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'delta_elems",
           "package": "CV",
@@ -3468,6 +3782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'elem_size",
           "package": "CV",
@@ -3477,6 +3792,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'elem_size",
           "package": "CV",
@@ -3490,6 +3806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'first",
           "package": "CV",
@@ -3499,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'first",
           "package": "CV",
@@ -3512,6 +3830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'flags",
           "package": "CV",
@@ -3521,6 +3840,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'flags",
           "package": "CV",
@@ -3534,6 +3854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'free_blocks",
           "package": "CV",
@@ -3543,6 +3864,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'free_blocks",
           "package": "CV",
@@ -3556,6 +3878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'h_next",
           "package": "CV",
@@ -3565,6 +3888,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'h_next",
           "package": "CV",
@@ -3578,6 +3902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'h_prev",
           "package": "CV",
@@ -3587,6 +3912,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'h_prev",
           "package": "CV",
@@ -3600,6 +3926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'header_size",
           "package": "CV",
@@ -3609,6 +3936,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'header_size",
           "package": "CV",
@@ -3622,6 +3950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'ptr",
           "package": "CV",
@@ -3631,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'ptr",
           "package": "CV",
@@ -3644,6 +3974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'total",
           "package": "CV",
@@ -3653,6 +3984,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'total",
           "package": "CV",
@@ -3666,6 +3998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'v_next",
           "package": "CV",
@@ -3675,6 +4008,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'v_next",
           "package": "CV",
@@ -3688,6 +4022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'v_prev",
           "package": "CV",
@@ -3697,6 +4032,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvSeq'v_prev",
           "package": "CV",
@@ -3710,6 +4046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvSize'height",
           "package": "CV",
@@ -3719,6 +4056,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvSize'height",
           "package": "CV",
@@ -3732,6 +4070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvSize'width",
           "package": "CV",
@@ -3741,6 +4080,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvSize'width",
           "package": "CV",
@@ -3754,6 +4094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvSize2D32f'height",
           "package": "CV",
@@ -3763,6 +4104,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvSize2D32f'height",
           "package": "CV",
@@ -3776,6 +4118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvSize2D32f'width",
           "package": "CV",
@@ -3785,6 +4128,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvSize2D32f'width",
           "package": "CV",
@@ -3798,6 +4142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvTermCriteria'epsilon",
           "package": "CV",
@@ -3807,6 +4152,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvTermCriteria'epsilon",
           "package": "CV",
@@ -3820,6 +4166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvTermCriteria'max_iter",
           "package": "CV",
@@ -3829,6 +4176,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvTermCriteria'max_iter",
           "package": "CV",
@@ -3842,6 +4190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'CvTermCriteria'type",
           "package": "CV",
@@ -3851,6 +4200,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'CvTermCriteria'type",
           "package": "CV",
@@ -3864,6 +4214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'IPL_BORDER_CONSTANT",
           "package": "CV",
@@ -3873,6 +4224,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'IPL_BORDER_CONSTANT",
           "package": "CV",
@@ -3886,6 +4238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'IPL_BORDER_REFLECT",
           "package": "CV",
@@ -3895,6 +4248,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'IPL_BORDER_REFLECT",
           "package": "CV",
@@ -3908,6 +4262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'IPL_BORDER_REPLICATE",
           "package": "CV",
@@ -3917,6 +4272,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'IPL_BORDER_REPLICATE",
           "package": "CV",
@@ -3930,6 +4286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'IPL_BORDER_WRAP",
           "package": "CV",
@@ -3939,6 +4296,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'IPL_BORDER_WRAP",
           "package": "CV",
@@ -3952,6 +4310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'IPL_DEPTH_16S",
           "package": "CV",
@@ -3961,6 +4320,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'IPL_DEPTH_16S",
           "package": "CV",
@@ -3974,6 +4334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'IPL_DEPTH_16U",
           "package": "CV",
@@ -3983,6 +4344,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'IPL_DEPTH_16U",
           "package": "CV",
@@ -3996,6 +4358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'IPL_DEPTH_1U",
           "package": "CV",
@@ -4005,6 +4368,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'IPL_DEPTH_1U",
           "package": "CV",
@@ -4018,6 +4382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'IPL_DEPTH_32F",
           "package": "CV",
@@ -4027,6 +4392,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'IPL_DEPTH_32F",
           "package": "CV",
@@ -4040,6 +4406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'IPL_DEPTH_32S",
           "package": "CV",
@@ -4049,6 +4416,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'IPL_DEPTH_32S",
           "package": "CV",
@@ -4062,6 +4430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'IPL_DEPTH_8S",
           "package": "CV",
@@ -4071,6 +4440,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'IPL_DEPTH_8S",
           "package": "CV",
@@ -4084,6 +4454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'IPL_DEPTH_8U",
           "package": "CV",
@@ -4093,6 +4464,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'IPL_DEPTH_8U",
           "package": "CV",
@@ -4106,6 +4478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'cvCreateMemStorage",
           "package": "CV",
@@ -4115,6 +4488,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'cvCreateMemStorage",
           "normalized": "Int-\u003eIO(Ptr C'CvMemStorage)",
@@ -4130,6 +4504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'cvGetSeqElem",
           "package": "CV",
@@ -4139,6 +4514,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'cvGetSeqElem",
           "normalized": "Ptr C'CvSeq-\u003eCInt-\u003eIO(Ptr CChar)",
@@ -4154,6 +4530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'cvReleaseMemStorage",
           "package": "CV",
@@ -4163,6 +4540,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'cvReleaseMemStorage",
           "normalized": "Ptr(Ptr C'CvMemStorage)-\u003eIO()",
@@ -4178,6 +4556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'extractCVSeq",
           "package": "CV",
@@ -4187,6 +4566,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'extractCVSeq",
           "normalized": "Ptr C'CvSeq-\u003ePtr()-\u003eIO()",
@@ -4202,6 +4582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "c'printSeq",
           "package": "CV",
@@ -4211,6 +4592,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "c'printSeq",
           "normalized": "Ptr C'CvSeq-\u003eIO()",
@@ -4226,6 +4608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "cvSeqToList",
           "package": "CV",
@@ -4235,6 +4618,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "cvSeqToList",
           "normalized": "Ptr C'CvSeq-\u003eIO[a]",
@@ -4250,6 +4634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "cvSeqToVector",
           "package": "CV",
@@ -4259,6 +4644,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "cvSeqToVector",
           "normalized": "Ptr C'CvSeq-\u003eIO(Vector a)",
@@ -4274,6 +4660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "mkCvPoint2D32F",
           "package": "CV",
@@ -4283,6 +4670,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "mkCvPoint2D32F",
           "normalized": "(CFloat,CFloat)-\u003eC'CvPoint D a",
@@ -4298,6 +4686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvBox2D'angle",
           "package": "CV",
@@ -4307,6 +4696,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvBox2D'angle",
           "normalized": "Ptr C'CvBox D-\u003ePtr CFloat",
@@ -4322,6 +4712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvBox2D'center",
           "package": "CV",
@@ -4331,6 +4722,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvBox2D'center",
           "normalized": "Ptr C'CvBox D-\u003ePtr C'CvPoint D a",
@@ -4346,6 +4738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvBox2D'size",
           "package": "CV",
@@ -4355,6 +4748,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvBox2D'size",
           "normalized": "Ptr C'CvBox D-\u003ePtr C'CvSize D a",
@@ -4370,6 +4764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvConnectedComp'area",
           "package": "CV",
@@ -4379,6 +4774,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvConnectedComp'area",
           "normalized": "Ptr C'CvConnectedComp-\u003ePtr CDouble",
@@ -4394,6 +4790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvConnectedComp'contour",
           "package": "CV",
@@ -4403,6 +4800,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvConnectedComp'contour",
           "normalized": "Ptr C'CvConnectedComp-\u003ePtr(Ptr C'CvSeq)",
@@ -4418,6 +4816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvConnectedComp'rect",
           "package": "CV",
@@ -4427,6 +4826,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvConnectedComp'rect",
           "normalized": "Ptr C'CvConnectedComp-\u003ePtr C'CvRect",
@@ -4442,6 +4842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvConnectedComp'value",
           "package": "CV",
@@ -4451,6 +4852,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvConnectedComp'value",
           "normalized": "Ptr C'CvConnectedComp-\u003ePtr C'CvScalar",
@@ -4466,6 +4868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'block_max",
           "package": "CV",
@@ -4475,6 +4878,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'block_max",
           "normalized": "Ptr C'CvContour-\u003ePtr(Ptr Char)",
@@ -4490,6 +4894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'color",
           "package": "CV",
@@ -4499,6 +4904,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'color",
           "normalized": "Ptr C'CvContour-\u003ePtr CInt",
@@ -4514,6 +4920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'delta_elems",
           "package": "CV",
@@ -4523,6 +4930,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'delta_elems",
           "normalized": "Ptr C'CvContour-\u003ePtr CInt",
@@ -4539,6 +4947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003ecvSeqToList\u003c/a\u003e\u003c/code\u003e that returns a vector instead. All the warnings of \u003ccode\u003eCvSeqToList\u003c/code\u003e apply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'elem_size",
           "package": "CV",
@@ -4549,6 +4958,7 @@
         "index": {
           "description": "version of cvSeqToList that returns vector instead All the warnings of CvSeqToList apply",
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'elem_size",
           "normalized": "Ptr C'CvContour-\u003ePtr CInt",
@@ -4564,6 +4974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'first",
           "package": "CV",
@@ -4573,6 +4984,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'first",
           "normalized": "Ptr C'CvContour-\u003ePtr(Ptr C'CvSeqBlock)",
@@ -4588,6 +5000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'flags",
           "package": "CV",
@@ -4597,6 +5010,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'flags",
           "normalized": "Ptr C'CvContour-\u003ePtr CInt",
@@ -4612,6 +5026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'free_blocks",
           "package": "CV",
@@ -4621,6 +5036,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'free_blocks",
           "normalized": "Ptr C'CvContour-\u003ePtr(Ptr C'CvSeqBlock)",
@@ -4636,6 +5052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'h_next",
           "package": "CV",
@@ -4645,6 +5062,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'h_next",
           "normalized": "Ptr C'CvContour-\u003ePtr(Ptr C'CvSeq)",
@@ -4660,6 +5078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'h_prev",
           "package": "CV",
@@ -4669,6 +5088,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'h_prev",
           "normalized": "Ptr C'CvContour-\u003ePtr(Ptr C'CvSeq)",
@@ -4685,6 +5105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a CvSeq object into list of its contents. Note that\n since CvSeq can be approximately anything, including a crazy man from the moon,\n this is pretty unsafe and you must make sure that \u003ccode\u003ea\u003c/code\u003e is actually the element\n in the seq, and the seq is something that remotely represents a sequence of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'header_size",
           "package": "CV",
@@ -4695,6 +5116,7 @@
         "index": {
           "description": "Convert CvSeq object into list of its contents Note that since CvSeq can be approximately anything including crazy man from the moon this is pretty unsafe and you must make sure that is actually the element in the seq and the seq is something that remotely represents sequence of elements",
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'header_size",
           "normalized": "Ptr C'CvContour-\u003ePtr CInt",
@@ -4710,6 +5132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'ptr",
           "package": "CV",
@@ -4719,6 +5142,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'ptr",
           "normalized": "Ptr C'CvContour-\u003ePtr(Ptr Char)",
@@ -4734,6 +5158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'rect",
           "package": "CV",
@@ -4743,6 +5168,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'rect",
           "normalized": "Ptr C'CvContour-\u003ePtr C'CvRect",
@@ -4758,6 +5184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'reserved_0_",
           "package": "CV",
@@ -4767,6 +5194,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'reserved_0_",
           "normalized": "Ptr C'CvContour-\u003ePtr CInt",
@@ -4782,6 +5210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'reserved_1_",
           "package": "CV",
@@ -4791,6 +5220,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'reserved_1_",
           "normalized": "Ptr C'CvContour-\u003ePtr CInt",
@@ -4806,6 +5236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'reserved_2_",
           "package": "CV",
@@ -4815,6 +5246,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'reserved_2_",
           "normalized": "Ptr C'CvContour-\u003ePtr CInt",
@@ -4830,6 +5262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'total",
           "package": "CV",
@@ -4839,6 +5272,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'total",
           "normalized": "Ptr C'CvContour-\u003ePtr CInt",
@@ -4854,6 +5288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'v_next",
           "package": "CV",
@@ -4863,6 +5298,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'v_next",
           "normalized": "Ptr C'CvContour-\u003ePtr(Ptr C'CvSeq)",
@@ -4878,6 +5314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'v_prev",
           "package": "CV",
@@ -4887,6 +5324,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvContour'v_prev",
           "normalized": "Ptr C'CvContour-\u003ePtr(Ptr C'CvSeq)",
@@ -4902,6 +5340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvConvexityDefect'depth",
           "package": "CV",
@@ -4911,6 +5350,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvConvexityDefect'depth",
           "normalized": "Ptr C'CvConvexityDefect-\u003ePtr CFloat",
@@ -4926,6 +5366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvConvexityDefect'depth_point",
           "package": "CV",
@@ -4935,6 +5376,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvConvexityDefect'depth_point",
           "normalized": "Ptr C'CvConvexityDefect-\u003ePtr(Ptr C'CvPoint)",
@@ -4950,6 +5392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvConvexityDefect'end",
           "package": "CV",
@@ -4959,6 +5402,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvConvexityDefect'end",
           "normalized": "Ptr C'CvConvexityDefect-\u003ePtr(Ptr C'CvPoint)",
@@ -4974,6 +5418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvConvexityDefect'start",
           "package": "CV",
@@ -4983,6 +5428,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvConvexityDefect'start",
           "normalized": "Ptr C'CvConvexityDefect-\u003ePtr(Ptr C'CvPoint)",
@@ -4998,6 +5444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvHuMoments'hu1",
           "package": "CV",
@@ -5007,6 +5454,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvHuMoments'hu1",
           "normalized": "Ptr C'CvHuMoments-\u003ePtr CDouble",
@@ -5022,6 +5470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvHuMoments'hu2",
           "package": "CV",
@@ -5031,6 +5480,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvHuMoments'hu2",
           "normalized": "Ptr C'CvHuMoments-\u003ePtr CDouble",
@@ -5046,6 +5496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvHuMoments'hu3",
           "package": "CV",
@@ -5055,6 +5506,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvHuMoments'hu3",
           "normalized": "Ptr C'CvHuMoments-\u003ePtr CDouble",
@@ -5070,6 +5522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvHuMoments'hu4",
           "package": "CV",
@@ -5079,6 +5532,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvHuMoments'hu4",
           "normalized": "Ptr C'CvHuMoments-\u003ePtr CDouble",
@@ -5094,6 +5548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvHuMoments'hu5",
           "package": "CV",
@@ -5103,6 +5558,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvHuMoments'hu5",
           "normalized": "Ptr C'CvHuMoments-\u003ePtr CDouble",
@@ -5118,6 +5574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvHuMoments'hu6",
           "package": "CV",
@@ -5127,6 +5584,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvHuMoments'hu6",
           "normalized": "Ptr C'CvHuMoments-\u003ePtr CDouble",
@@ -5142,6 +5600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvHuMoments'hu7",
           "package": "CV",
@@ -5151,6 +5610,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvHuMoments'hu7",
           "normalized": "Ptr C'CvHuMoments-\u003ePtr CDouble",
@@ -5166,6 +5626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'inv_sqrt_m00",
           "package": "CV",
@@ -5175,6 +5636,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'inv_sqrt_m00",
           "normalized": "Ptr C'CvMoments-\u003ePtr CDouble",
@@ -5190,6 +5652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'm00",
           "package": "CV",
@@ -5199,6 +5662,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'm00",
           "normalized": "Ptr C'CvMoments-\u003ePtr CDouble",
@@ -5214,6 +5678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'm01",
           "package": "CV",
@@ -5223,6 +5688,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'm01",
           "normalized": "Ptr C'CvMoments-\u003ePtr CDouble",
@@ -5238,6 +5704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'm02",
           "package": "CV",
@@ -5247,6 +5714,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'm02",
           "normalized": "Ptr C'CvMoments-\u003ePtr CDouble",
@@ -5262,6 +5730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'm03",
           "package": "CV",
@@ -5271,6 +5740,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'm03",
           "normalized": "Ptr C'CvMoments-\u003ePtr CDouble",
@@ -5286,6 +5756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'm10",
           "package": "CV",
@@ -5295,6 +5766,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'm10",
           "normalized": "Ptr C'CvMoments-\u003ePtr CDouble",
@@ -5310,6 +5782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'm11",
           "package": "CV",
@@ -5319,6 +5792,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'm11",
           "normalized": "Ptr C'CvMoments-\u003ePtr CDouble",
@@ -5334,6 +5808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'm12",
           "package": "CV",
@@ -5343,6 +5818,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'm12",
           "normalized": "Ptr C'CvMoments-\u003ePtr CDouble",
@@ -5358,6 +5834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'm20",
           "package": "CV",
@@ -5367,6 +5844,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'm20",
           "normalized": "Ptr C'CvMoments-\u003ePtr CDouble",
@@ -5382,6 +5860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'm21",
           "package": "CV",
@@ -5391,6 +5870,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'm21",
           "normalized": "Ptr C'CvMoments-\u003ePtr CDouble",
@@ -5406,6 +5886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'm30",
           "package": "CV",
@@ -5415,6 +5896,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'm30",
           "normalized": "Ptr C'CvMoments-\u003ePtr CDouble",
@@ -5430,6 +5912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'mu02",
           "package": "CV",
@@ -5439,6 +5922,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'mu02",
           "normalized": "Ptr C'CvMoments-\u003ePtr CDouble",
@@ -5454,6 +5938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'mu03",
           "package": "CV",
@@ -5463,6 +5948,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'mu03",
           "normalized": "Ptr C'CvMoments-\u003ePtr CDouble",
@@ -5478,6 +5964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'mu11",
           "package": "CV",
@@ -5487,6 +5974,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'mu11",
           "normalized": "Ptr C'CvMoments-\u003ePtr CDouble",
@@ -5502,6 +5990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'mu12",
           "package": "CV",
@@ -5511,6 +6000,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'mu12",
           "normalized": "Ptr C'CvMoments-\u003ePtr CDouble",
@@ -5526,6 +6016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'mu20",
           "package": "CV",
@@ -5535,6 +6026,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'mu20",
           "normalized": "Ptr C'CvMoments-\u003ePtr CDouble",
@@ -5550,6 +6042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'mu21",
           "package": "CV",
@@ -5559,6 +6052,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'mu21",
           "normalized": "Ptr C'CvMoments-\u003ePtr CDouble",
@@ -5574,6 +6068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'mu30",
           "package": "CV",
@@ -5583,6 +6078,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvMoments'mu30",
           "normalized": "Ptr C'CvMoments-\u003ePtr CDouble",
@@ -5598,6 +6094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvPoint'x",
           "package": "CV",
@@ -5607,6 +6104,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvPoint'x",
           "normalized": "Ptr C'CvPoint-\u003ePtr CInt",
@@ -5622,6 +6120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvPoint'y",
           "package": "CV",
@@ -5631,6 +6130,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvPoint'y",
           "normalized": "Ptr C'CvPoint-\u003ePtr CInt",
@@ -5646,6 +6146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvPoint2D32f'x",
           "package": "CV",
@@ -5655,6 +6156,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvPoint2D32f'x",
           "normalized": "Ptr C'CvPoint D a-\u003ePtr CFloat",
@@ -5670,6 +6172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvPoint2D32f'y",
           "package": "CV",
@@ -5679,6 +6182,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvPoint2D32f'y",
           "normalized": "Ptr C'CvPoint D a-\u003ePtr CFloat",
@@ -5694,6 +6198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvRect'height",
           "package": "CV",
@@ -5703,6 +6208,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvRect'height",
           "normalized": "Ptr C'CvRect-\u003ePtr CInt",
@@ -5718,6 +6224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvRect'width",
           "package": "CV",
@@ -5727,6 +6234,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvRect'width",
           "normalized": "Ptr C'CvRect-\u003ePtr CInt",
@@ -5742,6 +6250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvRect'x",
           "package": "CV",
@@ -5751,6 +6260,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvRect'x",
           "normalized": "Ptr C'CvRect-\u003ePtr CInt",
@@ -5766,6 +6276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvRect'y",
           "package": "CV",
@@ -5775,6 +6286,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvRect'y",
           "normalized": "Ptr C'CvRect-\u003ePtr CInt",
@@ -5790,6 +6302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvSURFPoint'dir",
           "package": "CV",
@@ -5799,6 +6312,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvSURFPoint'dir",
           "normalized": "Ptr C'CvSURFPoint-\u003ePtr CFloat",
@@ -5814,6 +6328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvSURFPoint'hessian",
           "package": "CV",
@@ -5823,6 +6338,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvSURFPoint'hessian",
           "normalized": "Ptr C'CvSURFPoint-\u003ePtr CFloat",
@@ -5838,6 +6354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvSURFPoint'laplacian",
           "package": "CV",
@@ -5847,6 +6364,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvSURFPoint'laplacian",
           "normalized": "Ptr C'CvSURFPoint-\u003ePtr CInt",
@@ -5862,6 +6380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvSURFPoint'pt",
           "package": "CV",
@@ -5871,6 +6390,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvSURFPoint'pt",
           "normalized": "Ptr C'CvSURFPoint-\u003ePtr C'CvPoint D a",
@@ -5886,6 +6406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvSURFPoint'size",
           "package": "CV",
@@ -5895,6 +6416,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvSURFPoint'size",
           "normalized": "Ptr C'CvSURFPoint-\u003ePtr CInt",
@@ -5910,6 +6432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvScalar'val_0_",
           "package": "CV",
@@ -5919,6 +6442,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvScalar'val_0_",
           "normalized": "Ptr C'CvScalar-\u003ePtr CDouble",
@@ -5934,6 +6458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvScalar'val_1_",
           "package": "CV",
@@ -5943,6 +6468,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvScalar'val_1_",
           "normalized": "Ptr C'CvScalar-\u003ePtr CDouble",
@@ -5958,6 +6484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvScalar'val_2_",
           "package": "CV",
@@ -5967,6 +6494,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvScalar'val_2_",
           "normalized": "Ptr C'CvScalar-\u003ePtr CDouble",
@@ -5982,6 +6510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvScalar'val_3_",
           "package": "CV",
@@ -5991,6 +6520,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvScalar'val_3_",
           "normalized": "Ptr C'CvScalar-\u003ePtr CDouble",
@@ -6006,6 +6536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'block_max",
           "package": "CV",
@@ -6015,6 +6546,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'block_max",
           "normalized": "Ptr C'CvSeq-\u003ePtr(Ptr Char)",
@@ -6030,6 +6562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'delta_elems",
           "package": "CV",
@@ -6039,6 +6572,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'delta_elems",
           "normalized": "Ptr C'CvSeq-\u003ePtr CInt",
@@ -6054,6 +6588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'elem_size",
           "package": "CV",
@@ -6063,6 +6598,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'elem_size",
           "normalized": "Ptr C'CvSeq-\u003ePtr CInt",
@@ -6078,6 +6614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'first",
           "package": "CV",
@@ -6087,6 +6624,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'first",
           "normalized": "Ptr C'CvSeq-\u003ePtr(Ptr C'CvSeqBlock)",
@@ -6102,6 +6640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'flags",
           "package": "CV",
@@ -6111,6 +6650,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'flags",
           "normalized": "Ptr C'CvSeq-\u003ePtr CInt",
@@ -6126,6 +6666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'free_blocks",
           "package": "CV",
@@ -6135,6 +6676,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'free_blocks",
           "normalized": "Ptr C'CvSeq-\u003ePtr(Ptr C'CvSeqBlock)",
@@ -6150,6 +6692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'h_next",
           "package": "CV",
@@ -6159,6 +6702,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'h_next",
           "normalized": "Ptr C'CvSeq-\u003ePtr(Ptr C'CvSeq)",
@@ -6174,6 +6718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'h_prev",
           "package": "CV",
@@ -6183,6 +6728,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'h_prev",
           "normalized": "Ptr C'CvSeq-\u003ePtr(Ptr C'CvSeq)",
@@ -6198,6 +6744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'header_size",
           "package": "CV",
@@ -6207,6 +6754,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'header_size",
           "normalized": "Ptr C'CvSeq-\u003ePtr CInt",
@@ -6222,6 +6770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'ptr",
           "package": "CV",
@@ -6231,6 +6780,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'ptr",
           "normalized": "Ptr C'CvSeq-\u003ePtr(Ptr Char)",
@@ -6246,6 +6796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'total",
           "package": "CV",
@@ -6255,6 +6806,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'total",
           "normalized": "Ptr C'CvSeq-\u003ePtr CInt",
@@ -6270,6 +6822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'v_next",
           "package": "CV",
@@ -6279,6 +6832,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'v_next",
           "normalized": "Ptr C'CvSeq-\u003ePtr(Ptr C'CvSeq)",
@@ -6294,6 +6848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'v_prev",
           "package": "CV",
@@ -6303,6 +6858,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvSeq'v_prev",
           "normalized": "Ptr C'CvSeq-\u003ePtr(Ptr C'CvSeq)",
@@ -6318,6 +6874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvSize'height",
           "package": "CV",
@@ -6327,6 +6884,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvSize'height",
           "normalized": "Ptr C'CvSize-\u003ePtr CInt",
@@ -6342,6 +6900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvSize'width",
           "package": "CV",
@@ -6351,6 +6910,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvSize'width",
           "normalized": "Ptr C'CvSize-\u003ePtr CInt",
@@ -6366,6 +6926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvSize2D32f'height",
           "package": "CV",
@@ -6375,6 +6936,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvSize2D32f'height",
           "normalized": "Ptr C'CvSize D a-\u003ePtr CFloat",
@@ -6390,6 +6952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvSize2D32f'width",
           "package": "CV",
@@ -6399,6 +6962,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvSize2D32f'width",
           "normalized": "Ptr C'CvSize D a-\u003ePtr CFloat",
@@ -6414,6 +6978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvTermCriteria'epsilon",
           "package": "CV",
@@ -6423,6 +6988,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvTermCriteria'epsilon",
           "normalized": "Ptr C'CvTermCriteria-\u003ePtr Double",
@@ -6438,6 +7004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvTermCriteria'max_iter",
           "package": "CV",
@@ -6447,6 +7014,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvTermCriteria'max_iter",
           "normalized": "Ptr C'CvTermCriteria-\u003ePtr CInt",
@@ -6462,6 +7030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'CvTermCriteria'type",
           "package": "CV",
@@ -6471,6 +7040,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'CvTermCriteria'type",
           "normalized": "Ptr C'CvTermCriteria-\u003ePtr CInt",
@@ -6486,6 +7056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'cvCreateMemStorage",
           "package": "CV",
@@ -6495,6 +7066,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'cvCreateMemStorage",
           "normalized": "FunPtr(Int-\u003eIO(Ptr C'CvMemStorage))",
@@ -6510,6 +7082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'cvGetSeqElem",
           "package": "CV",
@@ -6519,6 +7092,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'cvGetSeqElem",
           "normalized": "FunPtr(Ptr C'CvSeq-\u003eCInt-\u003eIO(Ptr CChar))",
@@ -6534,6 +7108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'cvReleaseMemStorage",
           "package": "CV",
@@ -6543,6 +7118,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'cvReleaseMemStorage",
           "normalized": "FunPtr(Ptr(Ptr C'CvMemStorage)-\u003eIO())",
@@ -6558,6 +7134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'extractCVSeq",
           "package": "CV",
@@ -6567,6 +7144,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'extractCVSeq",
           "normalized": "FunPtr(Ptr C'CvSeq-\u003ePtr()-\u003eIO())",
@@ -6582,6 +7160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "p'printSeq",
           "package": "CV",
@@ -6591,6 +7170,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "p'printSeq",
           "normalized": "FunPtr(Ptr C'CvSeq-\u003eIO())",
@@ -6606,6 +7186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "toCvTCrit",
           "package": "CV",
@@ -6615,6 +7196,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "toCvTCrit",
           "normalized": "TermCriteria-\u003eC'CvTermCriteria",
@@ -6630,6 +7212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Bindings.Types",
           "name": "withNewMemory",
           "package": "CV",
@@ -6639,6 +7222,7 @@
         },
         "index": {
           "hierarchy": "CV Bindings Types",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Bindings.Types",
           "name": "withNewMemory",
           "normalized": "(Ptr C'CvMemStorage-\u003eIO a)-\u003eIO a",
@@ -6655,6 +7239,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exposes opencv functions for camera calibration using a chessboard rig. This module follows opencv quite closely and the best documentation\n   is probably found there. As quick example however, the following program detects and draws chessboard corners from an image.\n\u003c/p\u003e\u003cpre\u003e\n module Main where\n import CV.Image\n import CV.Calibration\n\nmain = do\n     Just i \u003c- loadColorImage \"chess.png\"\n     let corners = findChessboardCorners (unsafeImageTo8Bit i) (4,5) (FastCheck:defaultFlags)\n     let y = drawChessboardCorners (unsafeImageTo8Bit i) (4,5) corners\n     mapM_ print (corners)\n     saveImage \"found_chessboard.png\" y\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Calibration",
           "name": "Calibration",
           "package": "CV",
@@ -6664,6 +7249,7 @@
         "index": {
           "description": "This module exposes opencv functions for camera calibration using chessboard rig This module follows opencv quite closely and the best documentation is probably found there As quick example however the following program detects and draws chessboard corners from an image module Main where import CV.Image import CV.Calibration main do Just loadColorImage chess.png let corners findChessboardCorners unsafeImageTo8Bit FastCheck defaultFlags let drawChessboardCorners unsafeImageTo8Bit corners mapM print corners saveImage found chessboard.png",
           "hierarchy": "CV Calibration",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Calibration",
           "name": "Calibration",
           "package": "CV",
@@ -6678,6 +7264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Flags for the chessboard corner detector. See opencv documentation for cvFindChessboardCorners.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Calibration",
           "name": "FindFlags",
           "package": "CV",
@@ -6687,6 +7274,7 @@
         "index": {
           "description": "Flags for the chessboard corner detector See opencv documentation for cvFindChessboardCorners",
           "hierarchy": "CV Calibration",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Calibration",
           "name": "FindFlags",
           "package": "CV",
@@ -6700,6 +7288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Calibration",
           "name": "AdaptiveThresh",
           "package": "CV",
@@ -6709,6 +7298,7 @@
         },
         "index": {
           "hierarchy": "CV Calibration",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Calibration",
           "name": "AdaptiveThresh",
           "package": "CV",
@@ -6722,6 +7312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Calibration",
           "name": "FastCheck",
           "package": "CV",
@@ -6731,6 +7322,7 @@
         },
         "index": {
           "hierarchy": "CV Calibration",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Calibration",
           "name": "FastCheck",
           "package": "CV",
@@ -6744,6 +7336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Calibration",
           "name": "FilterQuads",
           "package": "CV",
@@ -6753,6 +7346,7 @@
         },
         "index": {
           "hierarchy": "CV Calibration",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Calibration",
           "name": "FilterQuads",
           "package": "CV",
@@ -6766,6 +7360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Calibration",
           "name": "NormalizeImage",
           "package": "CV",
@@ -6775,6 +7370,7 @@
         },
         "index": {
           "hierarchy": "CV Calibration",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Calibration",
           "name": "NormalizeImage",
           "package": "CV",
@@ -6789,6 +7385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;See opencv function cvCalibrateCamera2. This function takes a list of world-screen coordinate pairs acquired with find-chessboard corners\n   and attempts to find the camera parameters for the system. It returns the fitting error, the camera matrix, list of distortion co-efficients\n   and rotation and translation vectors for each coordinate pair. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Calibration",
           "name": "calibrateCamera2",
           "package": "CV",
@@ -6799,6 +7396,7 @@
         "index": {
           "description": "See opencv function cvCalibrateCamera2 This function takes list of world-screen coordinate pairs acquired with find-chessboard corners and attempts to find the camera parameters for the system It returns the fitting error the camera matrix list of distortion co-efficients and rotation and translation vectors for each coordinate pair",
           "hierarchy": "CV Calibration",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Calibration",
           "name": "calibrateCamera2",
           "normalized": "[[((Float,Float,Float),(Float,Float))]]-\u003e(Int,Int)-\u003eIO(Double,Matrix Float,[[Float]],[[Float]],[[Float]])",
@@ -6815,6 +7413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault flags for finding corners\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Calibration",
           "name": "defaultFlags",
           "package": "CV",
@@ -6825,6 +7424,7 @@
         "index": {
           "description": "Default flags for finding corners",
           "hierarchy": "CV Calibration",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Calibration",
           "name": "defaultFlags",
           "normalized": "[FindFlags]",
@@ -6841,6 +7441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Draw the found chessboard corners to an image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Calibration",
           "name": "drawChessboardCorners",
           "package": "CV",
@@ -6851,6 +7452,7 @@
         "index": {
           "description": "Draw the found chessboard corners to an image",
           "hierarchy": "CV Calibration",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Calibration",
           "name": "drawChessboardCorners",
           "normalized": "Image RGB D-\u003e(Int,Int)-\u003e[(Float,Float)]-\u003eImage RGB D",
@@ -6867,6 +7469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the inner corners of a chessboard in a given image. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Calibration",
           "name": "findChessboardCorners",
           "package": "CV",
@@ -6877,6 +7480,7 @@
         "index": {
           "description": "Find the inner corners of chessboard in given image",
           "hierarchy": "CV Calibration",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Calibration",
           "name": "findChessboardCorners",
           "normalized": "Image RGB D-\u003e(Int,Int)-\u003e[FindFlags]-\u003e[(Float,Float)]",
@@ -6893,6 +7497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an estimate of chessboard corners, provide a subpixel estimation of actual corners.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Calibration",
           "name": "refineChessboardCorners",
           "package": "CV",
@@ -6903,6 +7508,7 @@
         "index": {
           "description": "Given an estimate of chessboard corners provide subpixel estimation of actual corners",
           "hierarchy": "CV Calibration",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Calibration",
           "name": "refineChessboardCorners",
           "normalized": "Image GrayScale D-\u003e[(Float,Float)]-\u003e(Int,Int)-\u003e(Int,Int)-\u003e[(Float,Float)]",
@@ -6919,6 +7525,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions for simple histogram manipulation. Use this\n to scale the image for viewing or to perform simple light-level normalization\n accross multiple images.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ColourUtils",
           "name": "ColourUtils",
           "package": "CV",
@@ -6928,6 +7535,7 @@
         "index": {
           "description": "This module contains functions for simple histogram manipulation Use this to scale the image for viewing or to perform simple light-level normalization accross multiple images",
           "hierarchy": "CV ColourUtils",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ColourUtils",
           "name": "ColourUtils",
           "package": "CV",
@@ -6942,6 +7550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdjust the image histogram to have fixed mean and standard deviation. This can\n  be used for simple light level normalization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ColourUtils",
           "name": "balance",
           "package": "CV",
@@ -6952,6 +7561,7 @@
         "index": {
           "description": "Adjust the image histogram to have fixed mean and standard deviation This can be used for simple light level normalization",
           "hierarchy": "CV ColourUtils",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ColourUtils",
           "name": "balance",
           "normalized": "(D,D)-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -6967,6 +7577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEqualize contrast of the image. This is good for visualizing \n   images with backgrounds and foregrounds that are both bright or both dark.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ColourUtils",
           "name": "equalizeHistogram",
           "package": "CV",
@@ -6977,6 +7588,7 @@
         "index": {
           "description": "Equalize contrast of the image This is good for visualizing images with backgrounds and foregrounds that are both bright or both dark",
           "hierarchy": "CV ColourUtils",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ColourUtils",
           "name": "equalizeHistogram",
           "normalized": "Image GrayScale D-\u003eImage GrayScale D",
@@ -6993,6 +7605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform logarithmic compression on the image. This will enhance dark features\n  and suppress bright features. Use this to visualize images with high dynamic range. \n  (FFT results, for example)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ColourUtils",
           "name": "logarithmicCompression",
           "package": "CV",
@@ -7003,6 +7616,7 @@
         "index": {
           "description": "Perform logarithmic compression on the image This will enhance dark features and suppress bright features Use this to visualize images with high dynamic range FFT results for example",
           "hierarchy": "CV ColourUtils",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ColourUtils",
           "name": "logarithmicCompression",
           "normalized": "Image GrayScale D-\u003eImage GrayScale D",
@@ -7019,6 +7633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHistogram stretch scales the image to fit the range [0,1]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ColourUtils",
           "name": "stretchHistogram",
           "package": "CV",
@@ -7029,6 +7644,7 @@
         "index": {
           "description": "Histogram stretch scales the image to fit the range",
           "hierarchy": "CV ColourUtils",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ColourUtils",
           "name": "stretchHistogram",
           "normalized": "Image GrayScale D-\u003eImage GrayScale D",
@@ -7045,6 +7661,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions for extracting features from connected components\n   of black and white images as well as extracting other shape related features. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ConnectedComponents",
           "name": "ConnectedComponents",
           "package": "CV",
@@ -7054,6 +7671,7 @@
         "index": {
           "description": "This module contains functions for extracting features from connected components of black and white images as well as extracting other shape related features",
           "hierarchy": "CV ConnectedComponents",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ConnectedComponents",
           "name": "ConnectedComponents",
           "package": "CV",
@@ -7068,6 +7686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStructure that contains the opencv sequence holding the contour data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ConnectedComponents",
           "name": "Contours",
           "package": "CV",
@@ -7077,6 +7696,7 @@
         "index": {
           "description": "Structure that contains the opencv sequence holding the contour data",
           "hierarchy": "CV ConnectedComponents",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ConnectedComponents",
           "name": "Contours",
           "package": "CV",
@@ -7091,6 +7711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract central moments of the image. These are useful for describing the\n   object shape for a classifier system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ConnectedComponents",
           "name": "centralMoments",
           "package": "CV",
@@ -7101,6 +7722,7 @@
         "index": {
           "description": "Extract central moments of the image These are useful for describing the object shape for classifier system",
           "hierarchy": "CV ConnectedComponents",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ConnectedComponents",
           "name": "centralMoments",
           "normalized": "Image GrayScale D-\u003eBool-\u003e[Double]",
@@ -7117,6 +7739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe area of a contour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ConnectedComponents",
           "name": "contourArea",
           "package": "CV",
@@ -7127,6 +7750,7 @@
         "index": {
           "description": "The area of contour",
           "hierarchy": "CV ConnectedComponents",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ConnectedComponents",
           "name": "contourArea",
           "package": "CV",
@@ -7141,6 +7765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Operation for extracting Hu-moments from a contour\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ConnectedComponents",
           "name": "contourHuMoments",
           "package": "CV",
@@ -7151,6 +7776,7 @@
         "index": {
           "description": "Operation for extracting Hu-moments from contour",
           "hierarchy": "CV ConnectedComponents",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ConnectedComponents",
           "name": "contourHuMoments",
           "normalized": "ContourFunctionUS[Double]",
@@ -7167,6 +7793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the perimeter of a contour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ConnectedComponents",
           "name": "contourPerimeter",
           "package": "CV",
@@ -7177,6 +7804,7 @@
         "index": {
           "description": "Get the perimeter of contour",
           "hierarchy": "CV ConnectedComponents",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ConnectedComponents",
           "name": "contourPerimeter",
           "package": "CV",
@@ -7191,6 +7819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of the points in the contour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ConnectedComponents",
           "name": "contourPoints",
           "package": "CV",
@@ -7201,6 +7830,7 @@
         "index": {
           "description": "Get list of the points in the contour",
           "hierarchy": "CV ConnectedComponents",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ConnectedComponents",
           "name": "contourPoints",
           "normalized": "ContourFunctionUS[(Double,Double)]",
@@ -7217,6 +7847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount the number of connected components in the image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ConnectedComponents",
           "name": "countBlobs",
           "package": "CV",
@@ -7227,6 +7858,7 @@
         "index": {
           "description": "Count the number of connected components in the image",
           "hierarchy": "CV ConnectedComponents",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ConnectedComponents",
           "name": "countBlobs",
           "normalized": "Image GrayScale D-\u003eInt",
@@ -7242,6 +7874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ConnectedComponents",
           "name": "fillConnectedComponents",
           "package": "CV",
@@ -7251,6 +7884,7 @@
         },
         "index": {
           "hierarchy": "CV ConnectedComponents",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ConnectedComponents",
           "name": "fillConnectedComponents",
           "normalized": "Image GrayScale D-\u003e(Image GrayScale D,Int)",
@@ -7267,6 +7901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract contours of connected components of the image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ConnectedComponents",
           "name": "getContours",
           "package": "CV",
@@ -7277,6 +7912,7 @@
         "index": {
           "description": "Extract contours of connected components of the image",
           "hierarchy": "CV ConnectedComponents",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ConnectedComponents",
           "name": "getContours",
           "normalized": "Image GrayScale D-\u003eContours",
@@ -7293,6 +7929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract Hu-moments of the image. These features are rotation invariant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ConnectedComponents",
           "name": "huMoments",
           "package": "CV",
@@ -7303,6 +7940,7 @@
         "index": {
           "description": "Extract Hu-moments of the image These features are rotation invariant",
           "hierarchy": "CV ConnectedComponents",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ConnectedComponents",
           "name": "huMoments",
           "normalized": "Image GrayScale D-\u003eBool-\u003e[Double]",
@@ -7319,6 +7957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function maps an opencv contour calculation over all\n   contours of the image. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ConnectedComponents",
           "name": "mapContours",
           "package": "CV",
@@ -7329,6 +7968,7 @@
         "index": {
           "description": "This function maps an opencv contour calculation over all contours of the image",
           "hierarchy": "CV ConnectedComponents",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ConnectedComponents",
           "name": "mapContours",
           "normalized": "ContourFunctionUS a-\u003eContours-\u003e[a]",
@@ -7344,6 +7984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ConnectedComponents",
           "name": "maskConnectedComponent",
           "package": "CV",
@@ -7353,6 +7994,7 @@
         },
         "index": {
           "hierarchy": "CV ConnectedComponents",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ConnectedComponents",
           "name": "maskConnectedComponent",
           "normalized": "Image GrayScale D-\u003eInt-\u003eImage GrayScale D",
@@ -7369,6 +8011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract normalized central moments of the image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ConnectedComponents",
           "name": "normalizedCentralMoments",
           "package": "CV",
@@ -7379,6 +8022,7 @@
         "index": {
           "description": "Extract normalized central moments of the image",
           "hierarchy": "CV ConnectedComponents",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ConnectedComponents",
           "name": "normalizedCentralMoments",
           "normalized": "Image GrayScale D-\u003eBool-\u003e[Double]",
@@ -7395,6 +8039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all connected components that fall outside of given size range from the image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ConnectedComponents",
           "name": "selectSizedComponents",
           "package": "CV",
@@ -7405,6 +8050,7 @@
         "index": {
           "description": "Remove all connected components that fall outside of given size range from the image",
           "hierarchy": "CV ConnectedComponents",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ConnectedComponents",
           "name": "selectSizedComponents",
           "normalized": "Double-\u003eDouble-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -7421,6 +8067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract raw spatial moments of the image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ConnectedComponents",
           "name": "spatialMoments",
           "package": "CV",
@@ -7431,6 +8078,7 @@
         "index": {
           "description": "Extract raw spatial moments of the image",
           "hierarchy": "CV ConnectedComponents",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ConnectedComponents",
           "name": "spatialMoments",
           "normalized": "Image GrayScale D-\u003eBool-\u003e[Double]",
@@ -7447,6 +8095,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis  module provides slow but functional means for exporting images from and to\n  CArrays, which can easily be passed into foreign functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Conversions",
           "name": "Conversions",
           "package": "CV",
@@ -7456,6 +8105,7 @@
         "index": {
           "description": "This module provides slow but functional means for exporting images from and to CArrays which can easily be passed into foreign functions",
           "hierarchy": "CV Conversions",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Conversions",
           "name": "Conversions",
           "package": "CV",
@@ -7469,6 +8119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Conversions",
           "name": "acquireImageSlow'",
           "package": "CV",
@@ -7478,6 +8129,7 @@
         },
         "index": {
           "hierarchy": "CV Conversions",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Conversions",
           "name": "acquireImageSlow'",
           "normalized": "Int-\u003eInt-\u003ePtr Double-\u003eIO(Ptr BareImage)",
@@ -7493,6 +8145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Conversions",
           "name": "acquireImageSlow8URGB'",
           "package": "CV",
@@ -7502,6 +8155,7 @@
         },
         "index": {
           "hierarchy": "CV Conversions",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Conversions",
           "name": "acquireImageSlow8URGB'",
           "normalized": "Int-\u003eInt-\u003ePtr Word-\u003eIO(Ptr BareImage)",
@@ -7517,6 +8171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Conversions",
           "name": "acquireImageSlowF'",
           "package": "CV",
@@ -7526,6 +8181,7 @@
         },
         "index": {
           "hierarchy": "CV Conversions",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Conversions",
           "name": "acquireImageSlowF'",
           "normalized": "Int-\u003eInt-\u003ePtr Float-\u003eIO(Ptr BareImage)",
@@ -7542,6 +8198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the contents of a CArray into CV.Image type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Conversions",
           "name": "copy8UCArrayToImage",
           "package": "CV",
@@ -7552,6 +8209,7 @@
         "index": {
           "description": "Copy the contents of CArray into CV.Image type",
           "hierarchy": "CV Conversions",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Conversions",
           "name": "copy8UCArrayToImage",
           "normalized": "CArray(Int,Int)Word-\u003eImage GrayScale D",
@@ -7568,6 +8226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the contents of a CArray into CV.Image type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Conversions",
           "name": "copyCArrayToImage",
           "package": "CV",
@@ -7578,6 +8237,7 @@
         "index": {
           "description": "Copy the contents of CArray into CV.Image type",
           "hierarchy": "CV Conversions",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Conversions",
           "name": "copyCArrayToImage",
           "normalized": "CArray(Int,Int)Double-\u003eImage GrayScale D",
@@ -7594,6 +8254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the real part of an array to image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Conversions",
           "name": "copyComplexCArrayToImage",
           "package": "CV",
@@ -7604,6 +8265,7 @@
         "index": {
           "description": "Copy the real part of an array to image",
           "hierarchy": "CV Conversions",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Conversions",
           "name": "copyComplexCArrayToImage",
           "normalized": "CArray(Int,Int)(Complex Double)-\u003eImage GrayScale D",
@@ -7620,6 +8282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy CArray of floats to image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Conversions",
           "name": "copyFCArrayToImage",
           "package": "CV",
@@ -7630,6 +8293,7 @@
         "index": {
           "description": "Copy CArray of floats to image",
           "hierarchy": "CV Conversions",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Conversions",
           "name": "copyFCArrayToImage",
           "normalized": "CArray(Int,Int)Float-\u003eImage GrayScale D",
@@ -7646,6 +8310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the contents of a CV.Image into a CArray.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Conversions",
           "name": "copyImageToCArray",
           "package": "CV",
@@ -7656,6 +8321,7 @@
         "index": {
           "description": "Copy the contents of CV.Image into CArray",
           "hierarchy": "CV Conversions",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Conversions",
           "name": "copyImageToCArray",
           "normalized": "Image GrayScale D-\u003eCArray(Int,Int)Double",
@@ -7672,6 +8338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy image as a real part of a complex CArray\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Conversions",
           "name": "copyImageToComplexCArray",
           "package": "CV",
@@ -7682,6 +8349,7 @@
         "index": {
           "description": "Copy image as real part of complex CArray",
           "hierarchy": "CV Conversions",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Conversions",
           "name": "copyImageToComplexCArray",
           "normalized": "Image GrayScale D-\u003eCArray(Int,Int)(Complex Double)",
@@ -7698,6 +8366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the contents of CV.Image into a pre-existing CArray.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Conversions",
           "name": "copyImageToExistingCArray",
           "package": "CV",
@@ -7708,6 +8377,7 @@
         "index": {
           "description": "Copy the contents of CV.Image into pre-existing CArray",
           "hierarchy": "CV Conversions",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Conversions",
           "name": "copyImageToExistingCArray",
           "normalized": "Image a a-\u003eCArray b Double-\u003eIO()",
@@ -7724,6 +8394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy D32 grayscale image to CArray\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Conversions",
           "name": "copyImageToFCArray",
           "package": "CV",
@@ -7734,6 +8405,7 @@
         "index": {
           "description": "Copy D32 grayscale image to CArray",
           "hierarchy": "CV Conversions",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Conversions",
           "name": "copyImageToFCArray",
           "normalized": "Image GrayScale D-\u003eCArray(Int,Int)Float",
@@ -7749,6 +8421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Conversions",
           "name": "unsafe8UC_BGRFromPtr",
           "package": "CV",
@@ -7758,6 +8431,7 @@
         },
         "index": {
           "hierarchy": "CV Conversions",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Conversions",
           "name": "unsafe8UC_BGRFromPtr",
           "normalized": "(Int,Int)-\u003ePtr Word-\u003eIO(Image RGB D)",
@@ -7773,6 +8447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Conversions",
           "name": "unsafe8UC_RGBFromPtr",
           "package": "CV",
@@ -7782,6 +8457,7 @@
         },
         "index": {
           "hierarchy": "CV Conversions",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Conversions",
           "name": "unsafe8UC_RGBFromPtr",
           "normalized": "(Int,Int)-\u003ePtr Word-\u003eIO(Image RGB D)",
@@ -7797,6 +8473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Corners",
           "name": "Corners",
           "package": "CV",
@@ -7805,6 +8482,7 @@
         },
         "index": {
           "hierarchy": "CV Corners",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Corners",
           "name": "Corners",
           "package": "CV",
@@ -7818,6 +8496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Corners",
           "name": "Corner",
           "package": "CV",
@@ -7826,6 +8505,7 @@
         },
         "index": {
           "hierarchy": "CV Corners",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Corners",
           "name": "Corner",
           "package": "CV",
@@ -7839,6 +8519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Corners",
           "name": "HarrisDesc",
           "package": "CV",
@@ -7847,6 +8528,7 @@
         },
         "index": {
           "hierarchy": "CV Corners",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Corners",
           "name": "HarrisDesc",
           "package": "CV",
@@ -7860,6 +8542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Corners",
           "name": "ImageWithCorners",
           "package": "CV",
@@ -7868,6 +8551,7 @@
         },
         "index": {
           "hierarchy": "CV Corners",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Corners",
           "name": "ImageWithCorners",
           "package": "CV",
@@ -7881,6 +8565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Corners",
           "name": "Corner",
           "package": "CV",
@@ -7890,6 +8575,7 @@
         },
         "index": {
           "hierarchy": "CV Corners",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Corners",
           "name": "Corner",
           "package": "CV",
@@ -7903,6 +8589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Corners",
           "name": "ImageWithCorners",
           "package": "CV",
@@ -7912,6 +8599,7 @@
         },
         "index": {
           "hierarchy": "CV Corners",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Corners",
           "name": "ImageWithCorners",
           "package": "CV",
@@ -7925,6 +8613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Corners",
           "name": "corners",
           "package": "CV",
@@ -7934,6 +8623,7 @@
         },
         "index": {
           "hierarchy": "CV Corners",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Corners",
           "name": "corners",
           "normalized": "[Corner a]",
@@ -7948,6 +8638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Corners",
           "name": "desc",
           "package": "CV",
@@ -7957,6 +8648,7 @@
         },
         "index": {
           "hierarchy": "CV Corners",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Corners",
           "name": "desc",
           "package": "CV",
@@ -7969,6 +8661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Corners",
           "name": "harris",
           "package": "CV",
@@ -7978,6 +8671,7 @@
         },
         "index": {
           "hierarchy": "CV Corners",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Corners",
           "name": "harris",
           "normalized": "Int-\u003eInt-\u003eDouble-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -7992,6 +8686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Corners",
           "name": "harrisCorners",
           "package": "CV",
@@ -8001,6 +8696,7 @@
         },
         "index": {
           "hierarchy": "CV Corners",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Corners",
           "name": "harrisCorners",
           "normalized": "Float-\u003eImage GrayScale D-\u003eImageWithCorners HarrisDesc",
@@ -8016,6 +8712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Corners",
           "name": "image",
           "package": "CV",
@@ -8025,6 +8722,7 @@
         },
         "index": {
           "hierarchy": "CV Corners",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Corners",
           "name": "image",
           "package": "CV",
@@ -8037,6 +8735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Corners",
           "name": "pos",
           "package": "CV",
@@ -8046,6 +8745,7 @@
         },
         "index": {
           "hierarchy": "CV Corners",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Corners",
           "name": "pos",
           "normalized": "(Int,Int)",
@@ -8060,6 +8760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.DFT",
           "name": "DFT",
           "package": "CV",
@@ -8068,6 +8769,7 @@
         },
         "index": {
           "hierarchy": "CV DFT",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.DFT",
           "name": "DFT",
           "package": "CV",
@@ -8081,6 +8783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.DFT",
           "name": "complexSplit",
           "package": "CV",
@@ -8090,6 +8793,7 @@
         },
         "index": {
           "hierarchy": "CV DFT",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.DFT",
           "name": "complexSplit",
           "normalized": "Image Complex D-\u003e(Image GrayScale D,Image GrayScale D)",
@@ -8105,6 +8809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.DFT",
           "name": "complexToMagnitude",
           "package": "CV",
@@ -8114,6 +8819,7 @@
         },
         "index": {
           "hierarchy": "CV DFT",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.DFT",
           "name": "complexToMagnitude",
           "normalized": "Image Complex D-\u003eImage GrayScale D",
@@ -8129,6 +8835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.DFT",
           "name": "dft",
           "package": "CV",
@@ -8138,6 +8845,7 @@
         },
         "index": {
           "hierarchy": "CV DFT",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.DFT",
           "name": "dft",
           "normalized": "Image GrayScale a-\u003eImage Complex D",
@@ -8152,6 +8860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.DFT",
           "name": "idft",
           "package": "CV",
@@ -8161,6 +8870,7 @@
         },
         "index": {
           "hierarchy": "CV DFT",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.DFT",
           "name": "idft",
           "normalized": "Image Complex D-\u003eImage GrayScale D",
@@ -8175,6 +8885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.DrawableInstances",
           "name": "DrawableInstances",
           "package": "CV",
@@ -8183,6 +8894,7 @@
         },
         "index": {
           "hierarchy": "CV DrawableInstances",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.DrawableInstances",
           "name": "DrawableInstances",
           "package": "CV",
@@ -8197,6 +8909,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for exposing opencv drawing functions. These are meant for quick and dirty marking\n   and not for anything presentable. For any real drawing\n   you should figure out how to use cairo or related package, such as diagrams. They are\n   way better.\n\u003c/p\u003e\u003cp\u003eConsult the \u003ca\u003eCV.ImageOp\u003c/a\u003e module for functions to apply the operations in this module to images.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Drawing",
           "name": "Drawing",
           "package": "CV",
@@ -8206,6 +8919,7 @@
         "index": {
           "description": "Module for exposing opencv drawing functions These are meant for quick and dirty marking and not for anything presentable For any real drawing you should figure out how to use cairo or related package such as diagrams They are way better Consult the CV.ImageOp module for functions to apply the operations in this module to images",
           "hierarchy": "CV Drawing",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Drawing",
           "name": "Drawing",
           "package": "CV",
@@ -8220,6 +8934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypeclass for images that support elementary drawing operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Drawing",
           "name": "Drawable",
           "package": "CV",
@@ -8229,6 +8944,7 @@
         "index": {
           "description": "Typeclass for images that support elementary drawing operations",
           "hierarchy": "CV Drawing",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Drawing",
           "name": "Drawable",
           "package": "CV",
@@ -8243,6 +8959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the shape filled or just a boundary?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Drawing",
           "name": "ShapeStyle",
           "package": "CV",
@@ -8252,6 +8969,7 @@
         "index": {
           "description": "Is the shape filled or just boundary",
           "hierarchy": "CV Drawing",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Drawing",
           "name": "ShapeStyle",
           "package": "CV",
@@ -8265,6 +8983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Drawing",
           "name": "Filled",
           "package": "CV",
@@ -8274,6 +8993,7 @@
         },
         "index": {
           "hierarchy": "CV Drawing",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Drawing",
           "name": "Filled",
           "package": "CV",
@@ -8287,6 +9007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Drawing",
           "name": "Stroked",
           "package": "CV",
@@ -8296,6 +9017,7 @@
         },
         "index": {
           "hierarchy": "CV Drawing",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Drawing",
           "name": "Stroked",
           "package": "CV",
@@ -8310,6 +9032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply circleOp to an image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Drawing",
           "name": "circle",
           "package": "CV",
@@ -8320,6 +9043,7 @@
         "index": {
           "description": "Apply circleOp to an image",
           "hierarchy": "CV Drawing",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Drawing",
           "name": "circle",
           "normalized": "(Int,Int)-\u003eInt-\u003eColor a b-\u003eShapeStyle-\u003eImage a b-\u003eImage a b",
@@ -8335,6 +9059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Draw a Circle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Drawing",
           "name": "circleOp",
           "package": "CV",
@@ -8345,6 +9070,7 @@
         "index": {
           "description": "Draw Circle",
           "hierarchy": "CV Drawing",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Drawing",
           "name": "circleOp",
           "normalized": "Color a b-\u003e(Int,Int)-\u003eInt-\u003eShapeStyle-\u003eImageOperation a b",
@@ -8361,6 +9087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Draw C'CvBox2D\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Drawing",
           "name": "drawBox2Dop",
           "package": "CV",
@@ -8371,6 +9098,7 @@
         "index": {
           "description": "Draw CvBox2D",
           "hierarchy": "CV Drawing",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Drawing",
           "name": "drawBox2Dop",
           "normalized": "Color a b-\u003eC'CvBox D-\u003eImageOperation a b",
@@ -8387,6 +9115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Apply drawLinesOp to an image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Drawing",
           "name": "drawLines",
           "package": "CV",
@@ -8397,6 +9126,7 @@
         "index": {
           "description": "Apply drawLinesOp to an image",
           "hierarchy": "CV Drawing",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Drawing",
           "name": "drawLines",
           "normalized": "Image a b-\u003eColor a b-\u003eInt-\u003e[((Int,Int),(Int,Int))]-\u003eIO(Image a b)",
@@ -8413,6 +9143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a line segments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Drawing",
           "name": "drawLinesOp",
           "package": "CV",
@@ -8423,6 +9154,7 @@
         "index": {
           "description": "Draw line segments",
           "hierarchy": "CV Drawing",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Drawing",
           "name": "drawLinesOp",
           "normalized": "Color a b-\u003eInt-\u003e[((Int,Int),(Int,Int))]-\u003eImageOperation a b",
@@ -8439,6 +9171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a polyline\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Drawing",
           "name": "drawPolyLineOp",
           "package": "CV",
@@ -8449,6 +9182,7 @@
         "index": {
           "description": "Draw polyline",
           "hierarchy": "CV Drawing",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Drawing",
           "name": "drawPolyLineOp",
           "normalized": "Color a b-\u003eInt-\u003e[(Int,Int)]-\u003eImageOperation a b",
@@ -8464,6 +9198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Drawing",
           "name": "ellipseBoxOp",
           "package": "CV",
@@ -8473,6 +9208,7 @@
         },
         "index": {
           "hierarchy": "CV Drawing",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Drawing",
           "name": "ellipseBoxOp",
           "normalized": "Color a b-\u003eC'CvBox D-\u003eInt-\u003eInt-\u003eImageOperation a b",
@@ -8489,6 +9225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw an ellipse or elliptic arc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Drawing",
           "name": "ellipseOp",
           "package": "CV",
@@ -8499,6 +9236,7 @@
         "index": {
           "description": "Draw an ellipse or elliptic arc",
           "hierarchy": "CV Drawing",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Drawing",
           "name": "ellipseOp",
           "normalized": "Color a b-\u003eInt-\u003e(Int,Int)-\u003e(Int,Int)-\u003eFloat-\u003e(Float,Float)-\u003eImageOperation a b",
@@ -8515,6 +9253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlood fill a region of the image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Drawing",
           "name": "fillOp",
           "package": "CV",
@@ -8525,6 +9264,7 @@
         "index": {
           "description": "Flood fill region of the image",
           "hierarchy": "CV Drawing",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Drawing",
           "name": "fillOp",
           "normalized": "(Int,Int)-\u003eD-\u003eD-\u003eD-\u003eBool-\u003eImageOperation GrayScale D",
@@ -8541,6 +9281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply fillPolyOp to an image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Drawing",
           "name": "fillPoly",
           "package": "CV",
@@ -8551,6 +9292,7 @@
         "index": {
           "description": "Apply fillPolyOp to an image",
           "hierarchy": "CV Drawing",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Drawing",
           "name": "fillPoly",
           "normalized": "Color a b-\u003e[(Int,Int)]-\u003eImage a b-\u003eIO(Image a b)",
@@ -8567,6 +9309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Draw a filled polygon\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Drawing",
           "name": "fillPolyOp",
           "package": "CV",
@@ -8577,6 +9320,7 @@
         "index": {
           "description": "Draw filled polygon",
           "hierarchy": "CV Drawing",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Drawing",
           "name": "fillPolyOp",
           "normalized": "Color a b-\u003e[(Int,Int)]-\u003eImageOperation a b",
@@ -8593,6 +9337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Apply fillOp to an image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Drawing",
           "name": "floodfill",
           "package": "CV",
@@ -8603,6 +9348,7 @@
         "index": {
           "description": "Apply fillOp to an image",
           "hierarchy": "CV Drawing",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Drawing",
           "name": "floodfill",
           "normalized": "(Int,Int)-\u003eD-\u003eD-\u003eD-\u003eBool-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -8618,6 +9364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Draw a line between two points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Drawing",
           "name": "lineOp",
           "package": "CV",
@@ -8628,6 +9375,7 @@
         "index": {
           "description": "Draw line between two points",
           "hierarchy": "CV Drawing",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Drawing",
           "name": "lineOp",
           "normalized": "Color a b-\u003eInt-\u003e(Int,Int)-\u003e(Int,Int)-\u003eImageOperation a b",
@@ -8644,6 +9392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Put text of certain color to given coordinates. Good size seems to be around 0.5-1.5.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Drawing",
           "name": "putTextOp",
           "package": "CV",
@@ -8654,6 +9403,7 @@
         "index": {
           "description": "Put text of certain color to given coordinates Good size seems to be around",
           "hierarchy": "CV Drawing",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Drawing",
           "name": "putTextOp",
           "normalized": "Color a b-\u003eFloat-\u003eString-\u003e(Int,Int)-\u003eImageOperation a b",
@@ -8670,6 +9420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a Rectangle by supplying two corners\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Drawing",
           "name": "rectOp",
           "package": "CV",
@@ -8680,6 +9431,7 @@
         "index": {
           "description": "Draw Rectangle by supplying two corners",
           "hierarchy": "CV Drawing",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Drawing",
           "name": "rectOp",
           "normalized": "Color a b-\u003eInt-\u003ec-\u003eImageOperation a b",
@@ -8696,6 +9448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply rectOp to an image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Drawing",
           "name": "rectangle",
           "package": "CV",
@@ -8706,6 +9459,7 @@
         "index": {
           "description": "Apply rectOp to an image",
           "hierarchy": "CV Drawing",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Drawing",
           "name": "rectangle",
           "normalized": "Color a b-\u003eInt-\u003ec-\u003eImage a b-\u003eIO(Image a b)",
@@ -8721,6 +9475,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e&#160;This module is a collection of simple edge detectors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Edges",
           "name": "Edges",
           "package": "CV",
@@ -8730,6 +9485,7 @@
         "index": {
           "description": "This module is collection of simple edge detectors",
           "hierarchy": "CV Edges",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Edges",
           "name": "Edges",
           "package": "CV",
@@ -8744,6 +9500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAperture sizes for laplacian operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Edges",
           "name": "LaplacianAperture",
           "package": "CV",
@@ -8753,6 +9510,7 @@
         "index": {
           "description": "Aperture sizes for laplacian operator",
           "hierarchy": "CV Edges",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Edges",
           "name": "LaplacianAperture",
           "package": "CV",
@@ -8767,6 +9525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAperture sizes for sobel operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Edges",
           "name": "SobelAperture",
           "package": "CV",
@@ -8776,6 +9535,7 @@
         "index": {
           "description": "Aperture sizes for sobel operator",
           "hierarchy": "CV Edges",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Edges",
           "name": "SobelAperture",
           "package": "CV",
@@ -8790,6 +9550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform canny thresholding using two threshold values and given aperture\n  Works only on 8-bit images\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Edges",
           "name": "canny",
           "package": "CV",
@@ -8800,6 +9561,7 @@
         "index": {
           "description": "Perform canny thresholding using two threshold values and given aperture Works only on bit images",
           "hierarchy": "CV Edges",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Edges",
           "name": "canny",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -8814,6 +9576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Edges",
           "name": "l1",
           "package": "CV",
@@ -8823,6 +9586,7 @@
         },
         "index": {
           "hierarchy": "CV Edges",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Edges",
           "name": "l1",
           "package": "CV",
@@ -8835,6 +9599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Edges",
           "name": "l3",
           "package": "CV",
@@ -8844,6 +9609,7 @@
         },
         "index": {
           "hierarchy": "CV Edges",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Edges",
           "name": "l3",
           "package": "CV",
@@ -8856,6 +9622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Edges",
           "name": "l5",
           "package": "CV",
@@ -8865,6 +9632,7 @@
         },
         "index": {
           "hierarchy": "CV Edges",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Edges",
           "name": "l5",
           "package": "CV",
@@ -8877,6 +9645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Edges",
           "name": "l7",
           "package": "CV",
@@ -8886,6 +9655,7 @@
         },
         "index": {
           "hierarchy": "CV Edges",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Edges",
           "name": "l7",
           "package": "CV",
@@ -8898,6 +9668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Edges",
           "name": "laplace",
           "package": "CV",
@@ -8907,6 +9678,7 @@
         },
         "index": {
           "hierarchy": "CV Edges",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Edges",
           "name": "laplace",
           "normalized": "LaplacianAperture-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -8922,6 +9694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform laplacian filtering of given aperture to image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Edges",
           "name": "laplaceOp",
           "package": "CV",
@@ -8932,6 +9705,7 @@
         "index": {
           "description": "Perform laplacian filtering of given aperture to image",
           "hierarchy": "CV Edges",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Edges",
           "name": "laplaceOp",
           "normalized": "LaplacianAperture-\u003eImageOperation GrayScale D",
@@ -8947,6 +9721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Edges",
           "name": "s1",
           "package": "CV",
@@ -8956,6 +9731,7 @@
         },
         "index": {
           "hierarchy": "CV Edges",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Edges",
           "name": "s1",
           "package": "CV",
@@ -8968,6 +9744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Edges",
           "name": "s3",
           "package": "CV",
@@ -8977,6 +9754,7 @@
         },
         "index": {
           "hierarchy": "CV Edges",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Edges",
           "name": "s3",
           "package": "CV",
@@ -8989,6 +9767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Edges",
           "name": "s5",
           "package": "CV",
@@ -8998,6 +9777,7 @@
         },
         "index": {
           "hierarchy": "CV Edges",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Edges",
           "name": "s5",
           "package": "CV",
@@ -9010,6 +9790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Edges",
           "name": "s7",
           "package": "CV",
@@ -9019,6 +9800,7 @@
         },
         "index": {
           "hierarchy": "CV Edges",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Edges",
           "name": "s7",
           "package": "CV",
@@ -9032,6 +9814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Use Scharr mask instead\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Edges",
           "name": "sScharr",
           "package": "CV",
@@ -9042,6 +9825,7 @@
         "index": {
           "description": "Use Scharr mask instead",
           "hierarchy": "CV Edges",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Edges",
           "name": "sScharr",
           "package": "CV",
@@ -9055,6 +9839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Edges",
           "name": "sobel",
           "package": "CV",
@@ -9064,6 +9849,7 @@
         },
         "index": {
           "hierarchy": "CV Edges",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Edges",
           "name": "sobel",
           "normalized": "(Int,Int)-\u003eSobelAperture-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -9079,6 +9865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform Sobel filtering on image. First argument gives order of horizontal and vertical\n   derivative estimates and second one is the aperture. This function can also calculate\n   Scharr filter with aperture specification of sScharr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Edges",
           "name": "sobelOp",
           "package": "CV",
@@ -9089,6 +9876,7 @@
         "index": {
           "description": "Perform Sobel filtering on image First argument gives order of horizontal and vertical derivative estimates and second one is the aperture This function can also calculate Scharr filter with aperture specification of sScharr",
           "hierarchy": "CV Edges",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Edges",
           "name": "sobelOp",
           "normalized": "(Int,Int)-\u003eSobelAperture-\u003eImageOperation GrayScale D",
@@ -9105,6 +9893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSUSAN edge detection filter, see \u003ca\u003ehttp://users.fmrib.ox.ac.uk/~steve/susan/susan/susan.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Edges",
           "name": "susan",
           "package": "CV",
@@ -9115,6 +9904,7 @@
         "index": {
           "description": "SUSAN edge detection filter see http users.fmrib.ox.ac.uk steve susan susan susan.html",
           "hierarchy": "CV Edges",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Edges",
           "name": "susan",
           "normalized": "(Int,Int)-\u003eD-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -9129,6 +9919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Features",
           "name": "Features",
           "package": "CV",
@@ -9137,6 +9928,7 @@
         },
         "index": {
           "hierarchy": "CV Features",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Features",
           "name": "Features",
           "package": "CV",
@@ -9150,6 +9942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Features",
           "name": "MSERParams",
           "package": "CV",
@@ -9158,6 +9951,7 @@
         },
         "index": {
           "hierarchy": "CV Features",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Features",
           "name": "MSERParams",
           "package": "CV",
@@ -9171,6 +9965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Features",
           "name": "Moments",
           "package": "CV",
@@ -9179,6 +9974,7 @@
         },
         "index": {
           "hierarchy": "CV Features",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Features",
           "name": "Moments",
           "package": "CV",
@@ -9193,6 +9989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameters for SURF feature extraction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Features",
           "name": "SURFParams",
           "package": "CV",
@@ -9202,6 +9999,7 @@
         "index": {
           "description": "Parameters for SURF feature extraction",
           "hierarchy": "CV Features",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Features",
           "name": "SURFParams",
           "package": "CV",
@@ -9215,6 +10013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Features",
           "name": "defaultMSERParams",
           "package": "CV",
@@ -9224,6 +10023,7 @@
         },
         "index": {
           "hierarchy": "CV Features",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Features",
           "name": "defaultMSERParams",
           "package": "CV",
@@ -9238,6 +10038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault parameters for getSURF\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Features",
           "name": "defaultSURFParams",
           "package": "CV",
@@ -9248,6 +10049,7 @@
         "index": {
           "description": "Default parameters for getSURF",
           "hierarchy": "CV Features",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Features",
           "name": "defaultSURFParams",
           "package": "CV",
@@ -9261,6 +10063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Features",
           "name": "getCentralMoment",
           "package": "CV",
@@ -9270,6 +10073,7 @@
         },
         "index": {
           "hierarchy": "CV Features",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Features",
           "name": "getCentralMoment",
           "normalized": "(Int,Int)-\u003eMoments-\u003eDouble",
@@ -9286,6 +10090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function encapsulates all the parameters of the MSER extraction algorithm (see\n   \u003ca\u003ehttp://en.wikipedia.org/wiki/Maximally_stable_extremal_regions\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Features",
           "name": "getMSER",
           "package": "CV",
@@ -9296,6 +10101,7 @@
         "index": {
           "description": "The function encapsulates all the parameters of the MSER extraction algorithm see http en.wikipedia.org wiki Maximally stable extremal regions",
           "hierarchy": "CV Features",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Features",
           "name": "getMSER",
           "normalized": "Image GrayScale D-\u003eMaybe(Image GrayScale D)-\u003eMSERParams-\u003e[[a]]",
@@ -9311,6 +10117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Features",
           "name": "getNormalizedCentralMoment",
           "package": "CV",
@@ -9320,6 +10127,7 @@
         },
         "index": {
           "hierarchy": "CV Features",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Features",
           "name": "getNormalizedCentralMoment",
           "normalized": "(Int,Int)-\u003eMoments-\u003eDouble",
@@ -9336,6 +10144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract Speeded Up Robust Features from an image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Features",
           "name": "getSURF",
           "package": "CV",
@@ -9345,6 +10154,7 @@
         "index": {
           "description": "Extract Speeded Up Robust Features from an image",
           "hierarchy": "CV Features",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Features",
           "name": "getSURF",
           "normalized": "SURFParams-\u003eImage GrayScale D-\u003eMaybe(Image GrayScale D)-\u003e[(C'CvSURFPoint,[Float])]",
@@ -9360,6 +10170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Features",
           "name": "getSpatialMoment",
           "package": "CV",
@@ -9369,6 +10180,7 @@
         },
         "index": {
           "hierarchy": "CV Features",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Features",
           "name": "getSpatialMoment",
           "normalized": "(Int,Int)-\u003eMoments-\u003eDouble",
@@ -9385,6 +10197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate parameters for getMSER.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Features",
           "name": "mkMSERParams",
           "package": "CV",
@@ -9394,6 +10207,7 @@
         "index": {
           "description": "Create parameters for getMSER",
           "hierarchy": "CV Features",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Features",
           "name": "mkMSERParams",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eFloat-\u003eFloat-\u003eInt-\u003eDouble-\u003eDouble-\u003eInt-\u003eMSERParams",
@@ -9409,6 +10223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Features",
           "name": "mkSURFParams",
           "package": "CV",
@@ -9417,6 +10232,7 @@
         },
         "index": {
           "hierarchy": "CV Features",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Features",
           "name": "mkSURFParams",
           "normalized": "Double-\u003eInt-\u003eInt-\u003eBool-\u003eSURFParams",
@@ -9432,6 +10248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Features",
           "name": "moments",
           "package": "CV",
@@ -9441,6 +10258,7 @@
         },
         "index": {
           "hierarchy": "CV Features",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Features",
           "name": "moments",
           "normalized": "Image GrayScale D-\u003eMoments",
@@ -9455,6 +10273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Files",
           "name": "Files",
           "package": "CV",
@@ -9463,6 +10282,7 @@
         },
         "index": {
           "hierarchy": "CV Files",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Files",
           "name": "Files",
           "package": "CV",
@@ -9476,6 +10296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Files",
           "name": "calcDerivativeDirection",
           "package": "CV",
@@ -9485,6 +10306,7 @@
         },
         "index": {
           "hierarchy": "CV Files",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Files",
           "name": "calcDerivativeDirection",
           "normalized": "Image GrayScale D-\u003eImage GrayScale D",
@@ -9500,6 +10322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Files",
           "name": "readFromTcr",
           "package": "CV",
@@ -9509,6 +10332,7 @@
         },
         "index": {
           "hierarchy": "CV Files",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Files",
           "name": "readFromTcr",
           "normalized": "String-\u003eImage GrayScale D",
@@ -9524,6 +10348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Files",
           "name": "readFromTcrMag",
           "package": "CV",
@@ -9533,6 +10358,7 @@
         },
         "index": {
           "hierarchy": "CV Files",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Files",
           "name": "readFromTcrMag",
           "normalized": "String-\u003eImage GrayScale D",
@@ -9548,6 +10374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Files",
           "name": "readFromTcrRectified",
           "package": "CV",
@@ -9557,6 +10384,7 @@
         },
         "index": {
           "hierarchy": "CV Files",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Files",
           "name": "readFromTcrRectified",
           "normalized": "String-\u003eImage GrayScale D",
@@ -9573,6 +10401,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is a collection of various image filters\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "Filters",
           "package": "CV",
@@ -9582,6 +10411,7 @@
         "index": {
           "description": "This module is collection of various image filters",
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "Filters",
           "package": "CV",
@@ -9595,6 +10425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "HasMedianFiltering",
           "package": "CV",
@@ -9603,6 +10434,7 @@
         },
         "index": {
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "HasMedianFiltering",
           "package": "CV",
@@ -9617,6 +10449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;A type for storing integral images. Integral image stores for every pixel the sum of pixels\n   above and left of it. Such images are used for significantly accelerating the calculation of\n   area averages. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "IntegralImage",
           "package": "CV",
@@ -9626,6 +10459,7 @@
         "index": {
           "description": "type for storing integral images Integral image stores for every pixel the sum of pixels above and left of it Such images are used for significantly accelerating the calculation of area averages",
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "IntegralImage",
           "package": "CV",
@@ -9640,6 +10474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply bilateral filtering \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "bilateral",
           "package": "CV",
@@ -9650,6 +10485,7 @@
         "index": {
           "description": "Apply bilateral filtering",
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "bilateral",
           "normalized": "(Int,Int)-\u003e(Int,Int)-\u003eImage a D-\u003eImage a D",
@@ -9665,6 +10501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new image by applying gaussian, or uniform smoothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "blur",
           "package": "CV",
@@ -9675,6 +10512,7 @@
         "index": {
           "description": "Create new image by applying gaussian or uniform smoothing",
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "blur",
           "normalized": "(Int,Int)-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -9690,6 +10528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new image by applying gaussian, or uniform smoothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "blurNS",
           "package": "CV",
@@ -9700,6 +10539,7 @@
         "index": {
           "description": "Create new image by applying gaussian or uniform smoothing",
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "blurNS",
           "normalized": "(Int,Int)-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -9716,6 +10556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage operation which applies gaussian or unifarm smoothing with a given window size to the image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "blurOp",
           "package": "CV",
@@ -9726,6 +10567,7 @@
         "index": {
           "description": "Image operation which applies gaussian or unifarm smoothing with given window size to the image",
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "blurOp",
           "normalized": "(Int,Int)-\u003eImageOperation GrayScale D",
@@ -9741,6 +10583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "convolve2D",
           "package": "CV",
@@ -9750,6 +10593,7 @@
         },
         "index": {
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "convolve2D",
           "normalized": "Matrix D-\u003ea-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -9764,6 +10608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "convolve2DI",
           "package": "CV",
@@ -9773,6 +10618,7 @@
         },
         "index": {
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "convolve2DI",
           "normalized": "(CInt,CInt)-\u003eImage a b-\u003eImage a b-\u003eImage c d",
@@ -9789,6 +10635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new image by applying gaussian, or uniform smoothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "gaussian",
           "package": "CV",
@@ -9799,6 +10646,7 @@
         "index": {
           "description": "Create new image by applying gaussian or uniform smoothing",
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "gaussian",
           "normalized": "(Int,Int)-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -9814,6 +10662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage operation which applies gaussian or unifarm smoothing with a given window size to the image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "gaussianOp",
           "package": "CV",
@@ -9824,6 +10673,7 @@
         "index": {
           "description": "Image operation which applies gaussian or unifarm smoothing with given window size to the image",
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "gaussianOp",
           "normalized": "(Int,Int)-\u003eImageOperation GrayScale D",
@@ -9839,6 +10689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "getAbsCentralMoment",
           "package": "CV",
@@ -9848,6 +10699,7 @@
         },
         "index": {
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "getAbsCentralMoment",
           "normalized": "CInt-\u003e(CInt,CInt)-\u003eImage a b-\u003eImage c d",
@@ -9863,6 +10715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "getCentralMoment",
           "package": "CV",
@@ -9872,6 +10725,7 @@
         },
         "index": {
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "getCentralMoment",
           "normalized": "CInt-\u003e(CInt,CInt)-\u003eImage a b-\u003eImage c d",
@@ -9887,6 +10741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "getMoment",
           "package": "CV",
@@ -9896,6 +10751,7 @@
         },
         "index": {
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "getMoment",
           "normalized": "CInt-\u003e(CInt,CInt)-\u003eImage a b-\u003eImage c d",
@@ -9912,6 +10768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter the image with box shaped averaging mask.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "haar",
           "package": "CV",
@@ -9922,6 +10779,7 @@
         "index": {
           "description": "Filter the image with box shaped averaging mask",
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "haar",
           "normalized": "IntegralImage-\u003e(Int,Int,Int,Int)-\u003eImage GrayScale D",
@@ -9937,6 +10795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet an average of a given region.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "haarAt",
           "package": "CV",
@@ -9947,6 +10806,7 @@
         "index": {
           "description": "Get an average of given region",
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "haarAt",
           "normalized": "IntegralImage-\u003e(Int,Int,Int,Int)-\u003eDouble",
@@ -9963,6 +10823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Calculate the integral image from the given image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "integralImage",
           "package": "CV",
@@ -9973,6 +10834,7 @@
         "index": {
           "description": "Calculate the integral image from the given image",
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "integralImage",
           "normalized": "Image GrayScale D-\u003eIntegralImage",
@@ -9988,6 +10850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "median",
           "package": "CV",
@@ -9997,6 +10860,7 @@
         },
         "index": {
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "median",
           "normalized": "(Int,Int)-\u003ea-\u003ea",
@@ -10011,6 +10875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "secondMomentAdaptiveBinarize",
           "package": "CV",
@@ -10020,6 +10885,7 @@
         },
         "index": {
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "secondMomentAdaptiveBinarize",
           "normalized": "CInt-\u003eCInt-\u003eCDouble-\u003eImage a b-\u003eImage a b",
@@ -10035,6 +10901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "secondMomentAdaptiveBinarizeOp",
           "package": "CV",
@@ -10044,6 +10911,7 @@
         },
         "index": {
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "secondMomentAdaptiveBinarizeOp",
           "normalized": "CInt-\u003eCInt-\u003eCDouble-\u003eImageOperation a b",
@@ -10059,6 +10927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "secondMomentBinarize",
           "package": "CV",
@@ -10068,6 +10937,7 @@
         },
         "index": {
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "secondMomentBinarize",
           "normalized": "CDouble-\u003eImage a b-\u003eImage a b",
@@ -10083,6 +10953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "secondMomentBinarizeOp",
           "package": "CV",
@@ -10092,6 +10963,7 @@
         },
         "index": {
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "secondMomentBinarizeOp",
           "normalized": "CDouble-\u003eImageOperation a b",
@@ -10108,6 +10980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA selective average filter is an edge preserving noise reduction filter.\n   It is a standard gaussian filter which ignores pixel values\n   that are more than a given threshold away from the filtered pixel value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "selectiveAvg",
           "package": "CV",
@@ -10118,6 +10991,7 @@
         "index": {
           "description": "selective average filter is an edge preserving noise reduction filter It is standard gaussian filter which ignores pixel values that are more than given threshold away from the filtered pixel value",
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "selectiveAvg",
           "normalized": "(Int,Int)-\u003eDouble-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -10134,6 +11008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSUSAN adaptive smoothing filter, see \u003ca\u003ehttp://users.fmrib.ox.ac.uk/~steve/susan/susan/susan.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "susan",
           "package": "CV",
@@ -10144,6 +11019,7 @@
         "index": {
           "description": "SUSAN adaptive smoothing filter see http users.fmrib.ox.ac.uk steve susan susan susan.html",
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "susan",
           "normalized": "(Int,Int)-\u003eDouble-\u003eDouble-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -10159,6 +11035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace pixel values by the average of the row. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Filters",
           "name": "verticalAverage",
           "package": "CV",
@@ -10169,6 +11046,7 @@
         "index": {
           "description": "Replace pixel values by the average of the row",
           "hierarchy": "CV Filters",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Filters",
           "name": "verticalAverage",
           "normalized": "Image GrayScale D-\u003eImage GrayScale D",
@@ -10184,6 +11062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Fitting",
           "name": "Fitting",
           "package": "CV",
@@ -10192,6 +11071,7 @@
         },
         "index": {
           "hierarchy": "CV Fitting",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Fitting",
           "name": "Fitting",
           "package": "CV",
@@ -10205,6 +11085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Fitting",
           "name": "Ellipse",
           "package": "CV",
@@ -10213,6 +11094,7 @@
         },
         "index": {
           "hierarchy": "CV Fitting",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Fitting",
           "name": "Ellipse",
           "package": "CV",
@@ -10226,6 +11108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Fitting",
           "name": "Ellipse",
           "package": "CV",
@@ -10235,6 +11118,7 @@
         },
         "index": {
           "hierarchy": "CV Fitting",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Fitting",
           "name": "Ellipse",
           "package": "CV",
@@ -10248,6 +11132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Fitting",
           "name": "angle",
           "package": "CV",
@@ -10257,6 +11142,7 @@
         },
         "index": {
           "hierarchy": "CV Fitting",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Fitting",
           "name": "angle",
           "package": "CV",
@@ -10270,6 +11156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the minimum enclosing circle of a point set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Fitting",
           "name": "boundingCircle",
           "package": "CV",
@@ -10280,6 +11167,7 @@
         "index": {
           "description": "Calculate the minimum enclosing circle of point set",
           "hierarchy": "CV Fitting",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Fitting",
           "name": "boundingCircle",
           "normalized": "Matrix(Float,Float)-\u003e(a,Double)",
@@ -10296,6 +11184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Calculate the minimum axis-aligned bounding rectangle of given points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Fitting",
           "name": "boundingRect",
           "package": "CV",
@@ -10306,6 +11195,7 @@
         "index": {
           "description": "Calculate the minimum axis-aligned bounding rectangle of given points",
           "hierarchy": "CV Fitting",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Fitting",
           "name": "boundingRect",
           "normalized": "Matrix(Float,Float)-\u003eC'CvRect",
@@ -10321,6 +11211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Fitting",
           "name": "center",
           "package": "CV",
@@ -10330,6 +11221,7 @@
         },
         "index": {
           "hierarchy": "CV Fitting",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Fitting",
           "name": "center",
           "normalized": "(Float,Float)",
@@ -10345,6 +11237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculcate the clockwise convex hull of a point set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Fitting",
           "name": "convexHull",
           "package": "CV",
@@ -10355,6 +11248,7 @@
         "index": {
           "description": "Calculcate the clockwise convex hull of point set",
           "hierarchy": "CV Fitting",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Fitting",
           "name": "convexHull",
           "normalized": "Matrix(Float,Float)-\u003eMatrix(Float,Float)",
@@ -10371,6 +11265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate convexity defects of a contour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Fitting",
           "name": "convexityDefects",
           "package": "CV",
@@ -10381,6 +11276,7 @@
         "index": {
           "description": "Calculate convexity defects of contour",
           "hierarchy": "CV Fitting",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Fitting",
           "name": "convexityDefects",
           "normalized": "Matrix(Int,Int)-\u003e[(C'CvPoint,C'CvPoint,C'CvPoint,CFloat)]",
@@ -10397,6 +11293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a (1,n) or (n,1) matrix of points, calculate\n (in the least squares sense) the best ellipse around the\n points\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Fitting",
           "name": "fitEllipse",
           "package": "CV",
@@ -10407,6 +11304,7 @@
         "index": {
           "description": "Given or matrix of points calculate in the least squares sense the best ellipse around the points",
           "hierarchy": "CV Fitting",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Fitting",
           "name": "fitEllipse",
           "normalized": "Matrix(Float,Float)-\u003eEllipse",
@@ -10423,6 +11321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFit a line to set of points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Fitting",
           "name": "fitLine2D",
           "package": "CV",
@@ -10433,6 +11332,7 @@
         "index": {
           "description": "Fit line to set of points",
           "hierarchy": "CV Fitting",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Fitting",
           "name": "fitLine2D",
           "normalized": "Dist-\u003eDouble-\u003eDouble-\u003eDouble-\u003eMatrix(Float,Float)-\u003e((Float,Float),(Float,Float))",
@@ -10448,6 +11348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Fitting",
           "name": "height",
           "package": "CV",
@@ -10457,6 +11358,7 @@
         },
         "index": {
           "hierarchy": "CV Fitting",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Fitting",
           "name": "height",
           "package": "CV",
@@ -10470,6 +11372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Fit a minimum area rectangle over a set of points\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Fitting",
           "name": "minAreaRect",
           "package": "CV",
@@ -10480,6 +11383,7 @@
         "index": {
           "description": "Fit minimum area rectangle over set of points",
           "hierarchy": "CV Fitting",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Fitting",
           "name": "minAreaRect",
           "normalized": "Matrix(Float,Float)-\u003eC'CvBox D",
@@ -10495,6 +11399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Fitting",
           "name": "width",
           "package": "CV",
@@ -10504,6 +11409,7 @@
         },
         "index": {
           "hierarchy": "CV Fitting",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Fitting",
           "name": "width",
           "package": "CV",
@@ -10516,6 +11422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.FunnyStatistics",
           "name": "FunnyStatistics",
           "package": "CV",
@@ -10524,6 +11431,7 @@
         },
         "index": {
           "hierarchy": "CV FunnyStatistics",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.FunnyStatistics",
           "name": "FunnyStatistics",
           "package": "CV",
@@ -10537,6 +11445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.FunnyStatistics",
           "name": "pearsonSkewness1",
           "package": "CV",
@@ -10546,6 +11455,7 @@
         },
         "index": {
           "hierarchy": "CV FunnyStatistics",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.FunnyStatistics",
           "name": "pearsonSkewness1",
           "normalized": "(Int,Int)-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -10561,6 +11471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.FunnyStatistics",
           "name": "r_stdDev",
           "package": "CV",
@@ -10570,6 +11481,7 @@
         },
         "index": {
           "hierarchy": "CV FunnyStatistics",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.FunnyStatistics",
           "name": "r_stdDev",
           "normalized": "(Int,Int)-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -10585,6 +11497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.FunnyStatistics",
           "name": "r_variance",
           "package": "CV",
@@ -10594,6 +11507,7 @@
         },
         "index": {
           "hierarchy": "CV FunnyStatistics",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.FunnyStatistics",
           "name": "r_variance",
           "normalized": "(Int,Int)-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -10608,6 +11522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.FunnyStatistics",
           "name": "stdDev",
           "package": "CV",
@@ -10617,6 +11532,7 @@
         },
         "index": {
           "hierarchy": "CV FunnyStatistics",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.FunnyStatistics",
           "name": "stdDev",
           "normalized": "(Int,Int)-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -10632,6 +11548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.FunnyStatistics",
           "name": "variance",
           "package": "CV",
@@ -10641,6 +11558,7 @@
         },
         "index": {
           "hierarchy": "CV FunnyStatistics",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.FunnyStatistics",
           "name": "variance",
           "normalized": "(Int,Int)-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -10655,6 +11573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Gabor",
           "name": "Gabor",
           "package": "CV",
@@ -10663,6 +11582,7 @@
         },
         "index": {
           "hierarchy": "CV Gabor",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Gabor",
           "name": "Gabor",
           "package": "CV",
@@ -10676,6 +11596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Gabor",
           "name": "GaborMask",
           "package": "CV",
@@ -10684,6 +11605,7 @@
         },
         "index": {
           "hierarchy": "CV Gabor",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Gabor",
           "name": "GaborMask",
           "package": "CV",
@@ -10697,6 +11619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Gabor",
           "name": "GaborMask",
           "package": "CV",
@@ -10706,6 +11629,7 @@
         },
         "index": {
           "hierarchy": "CV Gabor",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Gabor",
           "name": "GaborMask",
           "normalized": "GaborMask(CInt,CInt,CDouble,CDouble,CDouble,CDouble,CDouble)",
@@ -10721,6 +11645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Gabor",
           "name": "gaborFilter",
           "package": "CV",
@@ -10730,6 +11655,7 @@
         },
         "index": {
           "hierarchy": "CV Gabor",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Gabor",
           "name": "gaborFilter",
           "normalized": "Ptr()-\u003ePtr()-\u003eCInt-\u003eCInt-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eIO()",
@@ -10745,6 +11671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Gabor",
           "name": "gaborFiltering",
           "package": "CV",
@@ -10754,6 +11681,7 @@
         },
         "index": {
           "hierarchy": "CV Gabor",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Gabor",
           "name": "gaborFiltering",
           "normalized": "GaborMask-\u003eImage a b-\u003eImage a b",
@@ -10769,6 +11697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Gabor",
           "name": "gaborImage",
           "package": "CV",
@@ -10778,6 +11707,7 @@
         },
         "index": {
           "hierarchy": "CV Gabor",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Gabor",
           "name": "gaborImage",
           "normalized": "(Int,Int,CDouble,CDouble,CDouble,CDouble,CDouble,CDouble,CDouble)-\u003eImage GrayScale D",
@@ -10793,6 +11723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Gabor",
           "name": "radialGaborFilter",
           "package": "CV",
@@ -10802,6 +11733,7 @@
         },
         "index": {
           "hierarchy": "CV Gabor",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Gabor",
           "name": "radialGaborFilter",
           "normalized": "Ptr()-\u003ePtr()-\u003eCInt-\u003eCInt-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eIO()",
@@ -10817,6 +11749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Gabor",
           "name": "radialGaborFiltering",
           "package": "CV",
@@ -10826,6 +11759,7 @@
         },
         "index": {
           "hierarchy": "CV Gabor",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Gabor",
           "name": "radialGaborFiltering",
           "normalized": "(CInt,CInt,CDouble,CDouble,CDouble,CDouble)-\u003eImage a b-\u003eImage a b",
@@ -10841,6 +11775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Gabor",
           "name": "radialGaborImage",
           "package": "CV",
@@ -10850,6 +11785,7 @@
         },
         "index": {
           "hierarchy": "CV Gabor",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Gabor",
           "name": "radialGaborImage",
           "normalized": "(Int,Int,CDouble,CDouble,CDouble,CDouble)-\u003eImage GrayScale D",
@@ -10865,6 +11801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Gabor",
           "name": "renderGabor",
           "package": "CV",
@@ -10874,6 +11811,7 @@
         },
         "index": {
           "hierarchy": "CV Gabor",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Gabor",
           "name": "renderGabor",
           "normalized": "Ptr()-\u003eCInt-\u003eCInt-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eIO()",
@@ -10889,6 +11827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Gabor",
           "name": "renderRadialGabor",
           "package": "CV",
@@ -10898,6 +11837,7 @@
         },
         "index": {
           "hierarchy": "CV Gabor",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Gabor",
           "name": "renderRadialGabor",
           "normalized": "Ptr()-\u003eCInt-\u003eCInt-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eIO()",
@@ -10913,6 +11853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HighGUI",
           "name": "HighGUI",
           "package": "CV",
@@ -10921,6 +11862,7 @@
         },
         "index": {
           "hierarchy": "CV HighGUI",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HighGUI",
           "name": "HighGUI",
           "package": "CV",
@@ -10934,6 +11876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HighGUI",
           "name": "cvCreateTrackbar",
           "package": "CV",
@@ -10943,6 +11886,7 @@
         },
         "index": {
           "hierarchy": "CV HighGUI",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HighGUI",
           "name": "cvCreateTrackbar",
           "normalized": "Ptr CChar-\u003ePtr CChar-\u003ePtr CInt-\u003eCInt-\u003eFunPtr(CInt-\u003eIO())-\u003eIO CInt",
@@ -10958,6 +11902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HighGUI",
           "name": "cvDestroyWindow",
           "package": "CV",
@@ -10967,6 +11912,7 @@
         },
         "index": {
           "hierarchy": "CV HighGUI",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HighGUI",
           "name": "cvDestroyWindow",
           "normalized": "Ptr CChar-\u003eIO()",
@@ -10982,6 +11928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HighGUI",
           "name": "cvWaitKey",
           "package": "CV",
@@ -10991,6 +11938,7 @@
         },
         "index": {
           "hierarchy": "CV HighGUI",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HighGUI",
           "name": "cvWaitKey",
           "normalized": "CInt-\u003eIO CInt",
@@ -11006,6 +11954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HighGUI",
           "name": "destroyWindow",
           "package": "CV",
@@ -11015,6 +11964,7 @@
         },
         "index": {
           "hierarchy": "CV HighGUI",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HighGUI",
           "name": "destroyWindow",
           "normalized": "String-\u003eIO()",
@@ -11030,6 +11980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HighGUI",
           "name": "display",
           "package": "CV",
@@ -11039,6 +11990,7 @@
         },
         "index": {
           "hierarchy": "CV HighGUI",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HighGUI",
           "name": "display",
           "normalized": "Image a b-\u003eIO()",
@@ -11053,6 +12005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HighGUI",
           "name": "makeWindow",
           "package": "CV",
@@ -11062,6 +12015,7 @@
         },
         "index": {
           "hierarchy": "CV HighGUI",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HighGUI",
           "name": "makeWindow",
           "normalized": "String-\u003eIO()",
@@ -11077,6 +12031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HighGUI",
           "name": "mkTrackbar",
           "package": "CV",
@@ -11086,6 +12041,7 @@
         },
         "index": {
           "hierarchy": "CV HighGUI",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HighGUI",
           "name": "mkTrackbar",
           "normalized": "a-\u003eb-\u003eString-\u003eString-\u003e(CInt-\u003eIO())-\u003eIO CInt",
@@ -11101,6 +12057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HighGUI",
           "name": "mkWin",
           "package": "CV",
@@ -11110,6 +12067,7 @@
         },
         "index": {
           "hierarchy": "CV HighGUI",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HighGUI",
           "name": "mkWin",
           "normalized": "String-\u003eInt-\u003eIO()",
@@ -11125,6 +12083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HighGUI",
           "name": "mkWin'_",
           "package": "CV",
@@ -11134,6 +12093,7 @@
         },
         "index": {
           "hierarchy": "CV HighGUI",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HighGUI",
           "name": "mkWin'_",
           "normalized": "Ptr CChar-\u003eCInt-\u003eIO CInt",
@@ -11149,6 +12109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HighGUI",
           "name": "showImage",
           "package": "CV",
@@ -11158,6 +12119,7 @@
         },
         "index": {
           "hierarchy": "CV HighGUI",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HighGUI",
           "name": "showImage",
           "normalized": "String-\u003eImage a b-\u003eIO()",
@@ -11173,6 +12135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HighGUI",
           "name": "showImage'_",
           "package": "CV",
@@ -11182,6 +12145,7 @@
         },
         "index": {
           "hierarchy": "CV HighGUI",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HighGUI",
           "name": "showImage'_",
           "normalized": "Ptr CChar-\u003ePtr()-\u003eIO()",
@@ -11197,6 +12161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HighGUI",
           "name": "trackbarCallback",
           "package": "CV",
@@ -11206,6 +12171,7 @@
         },
         "index": {
           "hierarchy": "CV HighGUI",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HighGUI",
           "name": "trackbarCallback",
           "normalized": "(CInt-\u003eIO())-\u003eIO(FunPtr(CInt-\u003eIO()))",
@@ -11221,6 +12187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HighGUI",
           "name": "waitKey",
           "package": "CV",
@@ -11230,6 +12197,7 @@
         },
         "index": {
           "hierarchy": "CV HighGUI",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HighGUI",
           "name": "waitKey",
           "normalized": "CInt-\u003eIO CInt",
@@ -11245,6 +12213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Histogram",
           "name": "Histogram",
           "package": "CV",
@@ -11253,6 +12222,7 @@
         },
         "index": {
           "hierarchy": "CV Histogram",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Histogram",
           "name": "Histogram",
           "package": "CV",
@@ -11266,6 +12236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Histogram",
           "name": "HistogramData",
           "package": "CV",
@@ -11274,6 +12245,7 @@
         },
         "index": {
           "hierarchy": "CV Histogram",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Histogram",
           "name": "HistogramData",
           "package": "CV",
@@ -11287,6 +12259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Histogram",
           "name": "HGD",
           "package": "CV",
@@ -11296,6 +12269,7 @@
         },
         "index": {
           "hierarchy": "CV Histogram",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Histogram",
           "name": "HGD",
           "normalized": "HGD[(a,a)]",
@@ -11312,6 +12286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a set of images, such as the color channels of color image, and\n   a histogram with corresponding number of channels, replace the pixels of\n   the image with the likelihoods from the histogram\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Histogram",
           "name": "backProjectHistogram",
           "package": "CV",
@@ -11322,6 +12297,7 @@
         "index": {
           "description": "Given set of images such as the color channels of color image and histogram with corresponding number of channels replace the pixels of the image with the likelihoods from the histogram",
           "hierarchy": "CV Histogram",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Histogram",
           "name": "backProjectHistogram",
           "normalized": "[Image GrayScale D]-\u003eHistogram-\u003eImage GrayScale D",
@@ -11337,6 +12313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Histogram",
           "name": "chiSqr",
           "package": "CV",
@@ -11346,6 +12323,7 @@
         },
         "index": {
           "hierarchy": "CV Histogram",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Histogram",
           "name": "chiSqr",
           "normalized": "[a]-\u003e[a]-\u003ea",
@@ -11361,6 +12339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Histogram",
           "name": "chiSqrHG",
           "package": "CV",
@@ -11370,6 +12349,7 @@
         },
         "index": {
           "hierarchy": "CV Histogram",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Histogram",
           "name": "chiSqrHG",
           "normalized": "HistogramData a-\u003eHistogramData a-\u003ea",
@@ -11385,6 +12365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Histogram",
           "name": "cmpAbs",
           "package": "CV",
@@ -11394,6 +12375,7 @@
         },
         "index": {
           "hierarchy": "CV Histogram",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Histogram",
           "name": "cmpAbs",
           "normalized": "[a]-\u003e[a]-\u003ea",
@@ -11409,6 +12391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Histogram",
           "name": "cmpEuclidian",
           "package": "CV",
@@ -11418,6 +12401,7 @@
         },
         "index": {
           "hierarchy": "CV Histogram",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Histogram",
           "name": "cmpEuclidian",
           "normalized": "[a]-\u003e[a]-\u003ea",
@@ -11433,6 +12417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Histogram",
           "name": "cmpIntersect",
           "package": "CV",
@@ -11442,6 +12427,7 @@
         },
         "index": {
           "hierarchy": "CV Histogram",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Histogram",
           "name": "cmpIntersect",
           "normalized": "[a]-\u003e[a]-\u003ea",
@@ -11457,6 +12443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Histogram",
           "name": "cmpUnion",
           "package": "CV",
@@ -11466,6 +12453,7 @@
         },
         "index": {
           "hierarchy": "CV Histogram",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Histogram",
           "name": "cmpUnion",
           "normalized": "[a]-\u003e[a]-\u003ea",
@@ -11481,6 +12469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Histogram",
           "name": "getPositivePart",
           "package": "CV",
@@ -11490,6 +12479,7 @@
         },
         "index": {
           "hierarchy": "CV Histogram",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Histogram",
           "name": "getPositivePart",
           "normalized": "HistogramData a-\u003eHistogramData a",
@@ -11505,6 +12495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Histogram",
           "name": "get_histogram",
           "package": "CV",
@@ -11514,6 +12505,7 @@
         },
         "index": {
           "hierarchy": "CV Histogram",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Histogram",
           "name": "get_histogram",
           "normalized": "Ptr BareImage-\u003ePtr BareImage-\u003eCFloat-\u003eCFloat-\u003eCInt-\u003eCInt-\u003ePtr CDouble-\u003eIO()",
@@ -11528,6 +12520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Histogram",
           "name": "get_weighted_histogram",
           "package": "CV",
@@ -11537,6 +12530,7 @@
         },
         "index": {
           "hierarchy": "CV Histogram",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Histogram",
           "name": "get_weighted_histogram",
           "normalized": "Ptr BareImage-\u003ePtr BareImage-\u003eCDouble-\u003eCDouble-\u003eCInt-\u003ePtr CDouble-\u003eIO()",
@@ -11552,6 +12546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Calculate an opencv histogram object from set of images, each with it's\n own number of bins.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Histogram",
           "name": "histogram",
           "package": "CV",
@@ -11562,6 +12557,7 @@
         "index": {
           "description": "Calculate an opencv histogram object from set of images each with it own number of bins",
           "hierarchy": "CV Histogram",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Histogram",
           "name": "histogram",
           "normalized": "[(Image GrayScale D,Int)]-\u003eBool-\u003eMaybe(Image GrayScale D)-\u003eHistogram",
@@ -11576,6 +12572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Histogram",
           "name": "liftBins",
           "package": "CV",
@@ -11585,6 +12582,7 @@
         },
         "index": {
           "hierarchy": "CV Histogram",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Histogram",
           "name": "liftBins",
           "normalized": "([a]-\u003e[b])-\u003eHistogramData a-\u003e[(b,a)]",
@@ -11600,6 +12598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Histogram",
           "name": "liftValues",
           "package": "CV",
@@ -11609,6 +12608,7 @@
         },
         "index": {
           "hierarchy": "CV Histogram",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Histogram",
           "name": "liftValues",
           "normalized": "([a]-\u003e[b])-\u003eHistogramData a-\u003e[(a,b)]",
@@ -11624,6 +12624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Histogram",
           "name": "noBins",
           "package": "CV",
@@ -11633,6 +12634,7 @@
         },
         "index": {
           "hierarchy": "CV Histogram",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Histogram",
           "name": "noBins",
           "normalized": "HistogramData a-\u003eInt",
@@ -11648,6 +12650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Histogram",
           "name": "simpleGetHistogram",
           "package": "CV",
@@ -11657,6 +12660,7 @@
         },
         "index": {
           "hierarchy": "CV Histogram",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Histogram",
           "name": "simpleGetHistogram",
           "normalized": "Image GrayScale D-\u003eMaybe(Image GrayScale D)-\u003eD-\u003eD-\u003eInt-\u003eBool-\u003e[D]",
@@ -11672,6 +12676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Histogram",
           "name": "sub",
           "package": "CV",
@@ -11681,6 +12686,7 @@
         },
         "index": {
           "hierarchy": "CV Histogram",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Histogram",
           "name": "sub",
           "normalized": "HistogramData a-\u003eHistogramData a-\u003eHistogramData a",
@@ -11695,6 +12701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Histogram",
           "name": "tcumulate",
           "package": "CV",
@@ -11704,6 +12711,7 @@
         },
         "index": {
           "hierarchy": "CV Histogram",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Histogram",
           "name": "tcumulate",
           "normalized": "[a]-\u003e[a]",
@@ -11718,6 +12726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Histogram",
           "name": "values",
           "package": "CV",
@@ -11727,6 +12736,7 @@
         },
         "index": {
           "hierarchy": "CV Histogram",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Histogram",
           "name": "values",
           "normalized": "HistogramData a-\u003e[a]",
@@ -11741,6 +12751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Histogram",
           "name": "weightedHistogram",
           "package": "CV",
@@ -11750,6 +12761,7 @@
         },
         "index": {
           "hierarchy": "CV Histogram",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Histogram",
           "name": "weightedHistogram",
           "normalized": "Image a b-\u003eImage a b-\u003ec-\u003ec-\u003eInt-\u003e[d]",
@@ -11765,6 +12777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "HoughTransform",
           "package": "CV",
@@ -11773,6 +12786,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "HoughTransform",
           "package": "CV",
@@ -11786,6 +12800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "HoughDesc",
           "package": "CV",
@@ -11794,6 +12809,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "HoughDesc",
           "package": "CV",
@@ -11807,6 +12823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "ImageWithLines",
           "package": "CV",
@@ -11815,6 +12832,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "ImageWithLines",
           "package": "CV",
@@ -11828,6 +12846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "ImageWithSegments",
           "package": "CV",
@@ -11836,6 +12855,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "ImageWithSegments",
           "package": "CV",
@@ -11849,6 +12869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "Line",
           "package": "CV",
@@ -11857,6 +12878,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "Line",
           "package": "CV",
@@ -11870,6 +12892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "Segment",
           "package": "CV",
@@ -11878,6 +12901,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "Segment",
           "package": "CV",
@@ -11891,6 +12915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "With",
           "package": "CV",
@@ -11899,6 +12924,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "With",
           "package": "CV",
@@ -11912,6 +12938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "θ",
           "package": "CV",
@@ -11921,6 +12948,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "θ",
           "package": "CV",
@@ -11933,6 +12961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "Line",
           "package": "CV",
@@ -11942,6 +12971,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "Line",
           "package": "CV",
@@ -11955,6 +12985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "Segment",
           "package": "CV",
@@ -11964,6 +12995,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "Segment",
           "package": "CV",
@@ -11977,6 +13009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "With",
           "package": "CV",
@@ -11986,6 +13019,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "With",
           "package": "CV",
@@ -11999,6 +13033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "bias",
           "package": "CV",
@@ -12008,6 +13043,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "bias",
           "package": "CV",
@@ -12020,6 +13056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "end",
           "package": "CV",
@@ -12029,6 +13066,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "end",
           "normalized": "(Int,Int)",
@@ -12043,6 +13081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "houghCirclesGradient",
           "package": "CV",
@@ -12052,6 +13091,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "houghCirclesGradient",
           "normalized": "Image GrayScale D-\u003eInt-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eInt-\u003eInt-\u003e[(CFloat,CFloat,CFloat)]",
@@ -12067,6 +13107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "houghLinesMultiscale",
           "package": "CV",
@@ -12076,6 +13117,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "houghLinesMultiscale",
           "normalized": "Image GrayScale D-\u003eInt-\u003eDouble-\u003eDouble-\u003eInt-\u003eDouble-\u003eDouble-\u003e[(CFloat,CFloat)]",
@@ -12091,6 +13133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "houghLinesProbabilistic",
           "package": "CV",
@@ -12100,6 +13143,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "houghLinesProbabilistic",
           "normalized": "Image GrayScale D-\u003eInt-\u003eDouble-\u003eDouble-\u003eInt-\u003eDouble-\u003eDouble-\u003e[(CInt,CInt,CInt,CInt)]",
@@ -12115,6 +13159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "houghLinesStandard",
           "package": "CV",
@@ -12124,6 +13169,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "houghLinesStandard",
           "normalized": "Image GrayScale D-\u003eInt-\u003eDouble-\u003eDouble-\u003eInt-\u003e[(CFloat,CFloat)]",
@@ -12139,6 +13185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "houghProbabilisticToLine",
           "package": "CV",
@@ -12148,6 +13195,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "houghProbabilisticToLine",
           "normalized": "a-\u003e(Int,Int)-\u003e(Int,Int)-\u003eSegment",
@@ -12163,6 +13211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "image",
           "package": "CV",
@@ -12172,6 +13221,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "image",
           "normalized": "(Image a b With c)-\u003eImage a b",
@@ -12186,6 +13236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "imageHoughLinesMultiScale",
           "package": "CV",
@@ -12195,6 +13246,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "imageHoughLinesMultiScale",
           "normalized": "Int-\u003eDouble-\u003eDouble-\u003eInt-\u003eDouble-\u003eDouble-\u003eImage GrayScale D-\u003eImageWithLines",
@@ -12210,6 +13262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "imageHoughLinesProbabilistic",
           "package": "CV",
@@ -12219,6 +13272,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "imageHoughLinesProbabilistic",
           "normalized": "Int-\u003eDouble-\u003eDouble-\u003eInt-\u003eDouble-\u003eDouble-\u003eImage GrayScale D-\u003eImageWithSegments",
@@ -12234,6 +13288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "imageHoughLinesStandard",
           "package": "CV",
@@ -12243,6 +13298,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "imageHoughLinesStandard",
           "normalized": "Int-\u003eDouble-\u003eDouble-\u003eInt-\u003eImage GrayScale D-\u003eImageWithLines",
@@ -12258,6 +13314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "lineToSegment",
           "package": "CV",
@@ -12267,6 +13324,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "lineToSegment",
           "normalized": "(Int,a)-\u003eLine-\u003eSegment",
@@ -12282,6 +13340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "lines",
           "package": "CV",
@@ -12291,6 +13350,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "lines",
           "normalized": "(a With[Line])-\u003e[Line]",
@@ -12305,6 +13365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "rho1pix",
           "package": "CV",
@@ -12314,6 +13375,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "rho1pix",
           "package": "CV",
@@ -12326,6 +13388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "rho5pix",
           "package": "CV",
@@ -12335,6 +13398,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "rho5pix",
           "package": "CV",
@@ -12347,6 +13411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "segments",
           "package": "CV",
@@ -12356,6 +13421,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "segments",
           "normalized": "(a With[Segment])-\u003e[Segment]",
@@ -12370,6 +13436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "start",
           "package": "CV",
@@ -12379,6 +13446,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "start",
           "normalized": "(Int,Int)",
@@ -12393,6 +13461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "theta1deg",
           "package": "CV",
@@ -12402,6 +13471,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "theta1deg",
           "package": "CV",
@@ -12414,6 +13484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.HoughTransform",
           "name": "theta2deg",
           "package": "CV",
@@ -12423,6 +13494,7 @@
         },
         "index": {
           "hierarchy": "CV HoughTransform",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.HoughTransform",
           "name": "theta2deg",
           "package": "CV",
@@ -12435,6 +13507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "Image",
           "package": "CV",
@@ -12443,6 +13516,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "Image",
           "package": "CV",
@@ -12456,6 +13530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "BareImage",
           "package": "CV",
@@ -12464,6 +13539,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "BareImage",
           "package": "CV",
@@ -12478,6 +13554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType family for expressing which channels a colorspace contains. This needs to be fixed wrt. the BGR color space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "ChannelOf",
           "package": "CV",
@@ -12487,6 +13564,7 @@
         "index": {
           "description": "Type family for expressing which channels colorspace contains This needs to be fixed wrt the BGR color space",
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "ChannelOf",
           "package": "CV",
@@ -12500,6 +13578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "Complex",
           "package": "CV",
@@ -12508,6 +13587,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "Complex",
           "package": "CV",
@@ -12522,6 +13602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Class for images that exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "CreateImage",
           "package": "CV",
@@ -12531,6 +13612,7 @@
         "index": {
           "description": "Class for images that exist",
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "CreateImage",
           "package": "CV",
@@ -12544,6 +13626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "CvException",
           "package": "CV",
@@ -12552,6 +13635,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "CvException",
           "package": "CV",
@@ -12565,6 +13649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "CvIOError",
           "package": "CV",
@@ -12573,6 +13658,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "CvIOError",
           "package": "CV",
@@ -12586,6 +13672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "CvSizeError",
           "package": "CV",
@@ -12594,6 +13681,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "CvSizeError",
           "package": "CV",
@@ -12607,6 +13695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "D32",
           "package": "CV",
@@ -12615,6 +13704,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "D32",
           "package": "CV",
@@ -12627,6 +13717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "D64",
           "package": "CV",
@@ -12635,6 +13726,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "D64",
           "package": "CV",
@@ -12647,6 +13739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "D8",
           "package": "CV",
@@ -12655,6 +13748,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "D8",
           "package": "CV",
@@ -12667,6 +13761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "GetPixel",
           "package": "CV",
@@ -12675,6 +13770,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "GetPixel",
           "package": "CV",
@@ -12689,6 +13785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle channel grayscale image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "GrayScale",
           "package": "CV",
@@ -12698,6 +13795,7 @@
         "index": {
           "description": "Single channel grayscale image",
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "GrayScale",
           "package": "CV",
@@ -12712,6 +13810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type for Images\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "Image",
           "package": "CV",
@@ -12721,6 +13820,7 @@
         "index": {
           "description": "The type for Images",
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "Image",
           "package": "CV",
@@ -12734,6 +13834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "ImageDepth",
           "package": "CV",
@@ -12742,6 +13843,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "ImageDepth",
           "package": "CV",
@@ -12755,6 +13857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "LAB",
           "package": "CV",
@@ -12763,6 +13866,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "LAB",
           "package": "CV",
@@ -12776,6 +13880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "LAB_Channel",
           "package": "CV",
@@ -12784,6 +13889,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "LAB_Channel",
           "package": "CV",
@@ -12798,6 +13904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypeclass for CV items that can be read from file. Mainly images at this point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "Loadable",
           "package": "CV",
@@ -12807,6 +13914,7 @@
         "index": {
           "description": "Typeclass for CV items that can be read from file Mainly images at this point",
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "Loadable",
           "package": "CV",
@@ -12820,6 +13928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "RGB",
           "package": "CV",
@@ -12828,6 +13937,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "RGB",
           "package": "CV",
@@ -12841,6 +13951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "RGBA",
           "package": "CV",
@@ -12849,6 +13960,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "RGBA",
           "package": "CV",
@@ -12862,6 +13974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "RGB_Channel",
           "package": "CV",
@@ -12870,6 +13983,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "RGB_Channel",
           "package": "CV",
@@ -12883,6 +13997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "SetPixel",
           "package": "CV",
@@ -12891,6 +14006,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "SetPixel",
           "package": "CV",
@@ -12905,6 +14021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypeclass for elements with a size, such as images and matrices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "Sized",
           "package": "CV",
@@ -12914,6 +14031,7 @@
         "index": {
           "description": "Typeclass for elements with size such as images and matrices",
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "Sized",
           "package": "CV",
@@ -12927,6 +14045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "Tag",
           "package": "CV",
@@ -12935,6 +14054,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "Tag",
           "package": "CV",
@@ -12948,6 +14068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "BareImage",
           "package": "CV",
@@ -12957,6 +14078,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "BareImage",
           "package": "CV",
@@ -12970,6 +14092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "Blue",
           "package": "CV",
@@ -12979,6 +14102,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "Blue",
           "package": "CV",
@@ -12992,6 +14116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "CvIOError",
           "package": "CV",
@@ -13001,6 +14126,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "CvIOError",
           "package": "CV",
@@ -13014,6 +14140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "CvSizeError",
           "package": "CV",
@@ -13023,6 +14150,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "CvSizeError",
           "package": "CV",
@@ -13036,6 +14164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "Green",
           "package": "CV",
@@ -13045,6 +14174,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "Green",
           "package": "CV",
@@ -13058,6 +14188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "LAB_A",
           "package": "CV",
@@ -13067,6 +14198,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "LAB_A",
           "package": "CV",
@@ -13080,6 +14212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "LAB_B",
           "package": "CV",
@@ -13089,6 +14222,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "LAB_B",
           "package": "CV",
@@ -13102,6 +14236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "LAB_L",
           "package": "CV",
@@ -13111,6 +14246,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "LAB_L",
           "package": "CV",
@@ -13124,6 +14260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "Red",
           "package": "CV",
@@ -13133,6 +14270,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "Red",
           "package": "CV",
@@ -13146,6 +14284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "S",
           "package": "CV",
@@ -13155,6 +14294,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "S",
           "package": "CV",
@@ -13167,6 +14307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "bgrToRgb",
           "package": "CV",
@@ -13176,6 +14317,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "bgrToRgb",
           "normalized": "Image BGR D-\u003eImage RGB D",
@@ -13217,6 +14359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlit image2 onto image1.\n   This uses an alpha channel bitmap for determining the regions where the image should be \u003ca\u003eblended\u003c/a\u003e with\n   the base image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "blendBlit",
           "package": "CV",
@@ -13227,6 +14370,7 @@
         "index": {
           "description": "Blit image2 onto image1 This uses an alpha channel bitmap for determining the regions where the image should be blended with the base image",
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "blendBlit",
           "normalized": "Image a b-\u003eImage a b-\u003eImage a b-\u003eImage a b-\u003e(CInt,CInt)-\u003eIO()",
@@ -13242,6 +14386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "blit",
           "package": "CV",
@@ -13251,6 +14396,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "blit",
           "normalized": "Image GrayScale D-\u003eImage GrayScale D-\u003e(Int,Int)-\u003eIO()",
@@ -13265,6 +14411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "blitM",
           "package": "CV",
@@ -13274,6 +14421,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "blitM",
           "normalized": "(a,a)-\u003e[((a,a),Image GrayScale D)]-\u003eImage GrayScale D",
@@ -13289,6 +14437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a copy of an image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "cloneImage",
           "package": "CV",
@@ -13299,6 +14448,7 @@
         "index": {
           "description": "Create copy of an image",
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "cloneImage",
           "normalized": "Image a b-\u003eIO(Image a b)",
@@ -13314,6 +14464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "cloneTo64F",
           "package": "CV",
@@ -13323,6 +14474,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "cloneTo64F",
           "normalized": "Image a b-\u003eIO(Image a D)",
@@ -13338,6 +14490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "compose",
           "package": "CV",
@@ -13347,6 +14500,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "compose",
           "normalized": "Source a-\u003ea",
@@ -13362,6 +14516,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: This is unsafe. Use compose instead\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "composeMultichannelImage",
           "package": "CV",
@@ -13372,6 +14527,7 @@
         "index": {
           "description": "Deprecated This is unsafe Use compose instead",
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "composeMultichannelImage",
           "normalized": "Maybe(Image GrayScale a)-\u003eMaybe(Image GrayScale a)-\u003eMaybe(Image GrayScale a)-\u003eMaybe(Image GrayScale a)-\u003eTag b-\u003eImage b a",
@@ -13388,6 +14544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an image from size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "create",
           "package": "CV",
@@ -13398,6 +14555,7 @@
         "index": {
           "description": "Create an image from size",
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "create",
           "normalized": "(Int,Int)-\u003eIO a",
@@ -13412,6 +14570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "creatingBareImage",
           "package": "CV",
@@ -13421,6 +14580,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "creatingBareImage",
           "normalized": "IO(Ptr BareImage)-\u003eIO BareImage",
@@ -13436,6 +14596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "creatingImage",
           "package": "CV",
@@ -13445,6 +14606,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "creatingImage",
           "normalized": "IO(Ptr BareImage)-\u003eIO(Image a b)",
@@ -13461,6 +14623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate a new empty image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "empty",
           "package": "CV",
@@ -13471,6 +14634,7 @@
         "index": {
           "description": "Allocate new empty image",
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "empty",
           "normalized": "(Int,Int)-\u003eImage a b",
@@ -13486,6 +14650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Allocate a new image that of the same size and type as the exemplar image given.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "emptyCopy",
           "package": "CV",
@@ -13496,6 +14661,7 @@
         "index": {
           "description": "Allocate new image that of the same size and type as the exemplar image given",
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "emptyCopy",
           "normalized": "Image a b-\u003eImage a b",
@@ -13511,6 +14677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "emptyCopy'",
           "package": "CV",
@@ -13520,6 +14687,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "emptyCopy'",
           "normalized": "Image a b-\u003eIO(Image a b)",
@@ -13535,6 +14703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "ensure32F",
           "package": "CV",
@@ -13544,6 +14713,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "ensure32F",
           "normalized": "Ptr BareImage-\u003eIO(Ptr BareImage)",
@@ -13558,6 +14728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "getAllPixels",
           "package": "CV",
@@ -13567,6 +14738,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "getAllPixels",
           "normalized": "a-\u003e[P a]",
@@ -13582,6 +14754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "getAllPixelsRowMajor",
           "package": "CV",
@@ -13591,6 +14764,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "getAllPixelsRowMajor",
           "normalized": "a-\u003e[P a]",
@@ -13606,6 +14780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "getArea",
           "package": "CV",
@@ -13615,6 +14790,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "getArea",
           "normalized": "a-\u003eb",
@@ -13630,6 +14806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "getChannel",
           "package": "CV",
@@ -13639,6 +14816,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "getChannel",
           "normalized": "a-\u003eImage(ChannelOf a)b-\u003eImage GrayScale b",
@@ -13654,6 +14832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "getImageChannels",
           "package": "CV",
@@ -13663,6 +14842,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "getImageChannels",
           "normalized": "Image a b-\u003eIO CInt",
@@ -13678,6 +14858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "getImageDepth",
           "package": "CV",
@@ -13687,6 +14868,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "getImageDepth",
           "normalized": "Image a b-\u003eIO ImageDepth",
@@ -13702,6 +14884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "getImageInfo",
           "package": "CV",
@@ -13711,6 +14894,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "getImageInfo",
           "normalized": "Image a b-\u003eIO((Int,Int),ImageDepth,CInt)",
@@ -13726,6 +14910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "getPixel",
           "package": "CV",
@@ -13735,6 +14920,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "getPixel",
           "normalized": "(Int,Int)-\u003ea-\u003eP a",
@@ -13750,6 +14936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "getRegion",
           "package": "CV",
@@ -13759,6 +14946,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "getRegion",
           "normalized": "(Int,Int)-\u003e(Int,Int)-\u003eImage a b-\u003eImage a b",
@@ -13774,6 +14962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "getSize",
           "package": "CV",
@@ -13783,6 +14972,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "getSize",
           "normalized": "a-\u003eSize a",
@@ -13798,6 +14988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "grayToRGB",
           "package": "CV",
@@ -13807,6 +14998,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "grayToRGB",
           "normalized": "Image GrayScale D-\u003eImage RGB D",
@@ -13822,6 +15014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "imageFPTR",
           "package": "CV",
@@ -13831,6 +15024,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "imageFPTR",
           "normalized": "Image a b-\u003eForeignPtr BareImage",
@@ -13846,6 +15040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "lab",
           "package": "CV",
@@ -13855,6 +15050,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "lab",
           "package": "CV",
@@ -13867,6 +15063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "loadColorImage",
           "package": "CV",
@@ -13876,6 +15073,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "loadColorImage",
           "normalized": "FilePath-\u003eIO(Maybe(Image BGR D))",
@@ -13891,6 +15089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "loadImage",
           "package": "CV",
@@ -13900,6 +15099,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "loadImage",
           "normalized": "FilePath-\u003eIO(Maybe(Image GrayScale D))",
@@ -13916,6 +15116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform (a destructive) inplace map of the image. This should be wrapped inside\n withClone or an image operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "mapImageInplace",
           "package": "CV",
@@ -13926,6 +15127,7 @@
         "index": {
           "description": "Perform destructive inplace map of the image This should be wrapped inside withClone or an image operation",
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "mapImageInplace",
           "normalized": "(P(Image GrayScale D)-\u003eP(Image GrayScale D))-\u003eImage GrayScale D-\u003eIO()",
@@ -13942,6 +15144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a montage form given images (u,v) determines the layout and space the spacing\n  between images. Images are assumed to be the same size (determined by the first image)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "montage",
           "package": "CV",
@@ -13952,6 +15155,7 @@
         "index": {
           "description": "Create montage form given images determines the layout and space the spacing between images Images are assumed to be the same size determined by the first image",
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "montage",
           "normalized": "(Int,Int)-\u003eInt-\u003e[Image GrayScale D]-\u003eImage GrayScale D",
@@ -13966,6 +15170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "readFromFile",
           "package": "CV",
@@ -13975,6 +15180,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "readFromFile",
           "normalized": "FilePath-\u003eIO a",
@@ -13990,6 +15196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "resetROI",
           "package": "CV",
@@ -13999,6 +15206,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "resetROI",
           "normalized": "Image a b-\u003eIO()",
@@ -14014,6 +15222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "rgb",
           "package": "CV",
@@ -14023,6 +15232,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "rgb",
           "package": "CV",
@@ -14035,6 +15245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "rgbToBgr",
           "package": "CV",
@@ -14044,6 +15255,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "rgbToBgr",
           "normalized": "Image RGB D-\u003eImage BGR D",
@@ -14059,6 +15271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "rgbToGray",
           "package": "CV",
@@ -14068,6 +15281,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "rgbToGray",
           "normalized": "Image RGB D-\u003eImage GrayScale D",
@@ -14083,6 +15297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "rgbToLab",
           "package": "CV",
@@ -14092,6 +15307,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "rgbToLab",
           "normalized": "Image RGB D-\u003eImage LAB D",
@@ -14107,6 +15323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "rgba",
           "package": "CV",
@@ -14116,6 +15333,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "rgba",
           "package": "CV",
@@ -14128,6 +15346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "safeBlit",
           "package": "CV",
@@ -14137,6 +15356,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "safeBlit",
           "normalized": "Image GrayScale D-\u003eImage GrayScale D-\u003e(Int,Int)-\u003eImage GrayScale D",
@@ -14152,6 +15372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "saveImage",
           "package": "CV",
@@ -14161,6 +15382,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "saveImage",
           "normalized": "FilePath-\u003eImage a b-\u003eIO()",
@@ -14176,6 +15398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "setCOI",
           "package": "CV",
@@ -14185,6 +15408,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "setCOI",
           "normalized": "a-\u003eImage b c-\u003eIO()",
@@ -14200,6 +15424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "setCatch",
           "package": "CV",
@@ -14209,6 +15434,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "setCatch",
           "package": "CV",
@@ -14222,6 +15448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "setPixel",
           "package": "CV",
@@ -14231,6 +15458,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "setPixel",
           "normalized": "(Int,Int)-\u003eSP a-\u003ea-\u003eIO()",
@@ -14246,6 +15474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "setROI",
           "package": "CV",
@@ -14255,6 +15484,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "setROI",
           "normalized": "(a,a)-\u003e(a,a)-\u003eImage b c-\u003eIO()",
@@ -14270,6 +15500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "subPixelBlit",
           "package": "CV",
@@ -14279,6 +15510,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "subPixelBlit",
           "normalized": "Image a b-\u003eImage a b-\u003e(CDouble,CDouble)-\u003eIO()",
@@ -14295,6 +15527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTile images by overlapping them on a black canvas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "tileImages",
           "package": "CV",
@@ -14305,6 +15538,7 @@
         "index": {
           "description": "Tile images by overlapping them on black canvas",
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "tileImages",
           "normalized": "Image a b-\u003eImage a b-\u003e(CInt,CInt)-\u003eImage c d",
@@ -14320,6 +15554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "unImage",
           "package": "CV",
@@ -14329,6 +15564,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "unImage",
           "normalized": "Image a a-\u003eForeignPtr BareImage",
@@ -14345,6 +15581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Remove typing info from an image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "unS",
           "package": "CV",
@@ -14355,6 +15592,7 @@
         "index": {
           "description": "Remove typing info from an image",
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "unS",
           "normalized": "Image a a-\u003eBareImage",
@@ -14369,6 +15607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "unsafeImageTo32F",
           "package": "CV",
@@ -14378,6 +15617,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "unsafeImageTo32F",
           "normalized": "Image a b-\u003eImage a D",
@@ -14393,6 +15633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "unsafeImageTo64F",
           "package": "CV",
@@ -14402,6 +15643,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "unsafeImageTo64F",
           "normalized": "Image a b-\u003eImage a D",
@@ -14417,6 +15659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "unsafeImageTo8Bit",
           "package": "CV",
@@ -14426,6 +15669,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "unsafeImageTo8Bit",
           "normalized": "Image a b-\u003eImage a D",
@@ -14441,6 +15685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "withBareImage",
           "package": "CV",
@@ -14450,6 +15695,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "withBareImage",
           "normalized": "BareImage-\u003e(Ptr BareImage-\u003eIO a)-\u003eIO a",
@@ -14465,6 +15711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "withClone",
           "package": "CV",
@@ -14474,6 +15721,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "withClone",
           "normalized": "Image a b-\u003e(Image a b-\u003eIO())-\u003eIO(Image a b)",
@@ -14489,6 +15737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "withCloneValue",
           "package": "CV",
@@ -14498,6 +15747,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "withCloneValue",
           "normalized": "Image a b-\u003e(Image a b-\u003eIO c)-\u003eIO c",
@@ -14513,6 +15763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "withGenBareImage",
           "package": "CV",
@@ -14522,6 +15773,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "withGenBareImage",
           "normalized": "BareImage-\u003e(Ptr a-\u003eIO a)-\u003eIO a",
@@ -14537,6 +15789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "withGenImage",
           "package": "CV",
@@ -14546,6 +15799,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "withGenImage",
           "normalized": "Image a b-\u003e(Ptr c-\u003eIO d)-\u003eIO d",
@@ -14561,6 +15815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "withIOROI",
           "package": "CV",
@@ -14570,6 +15825,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "withIOROI",
           "normalized": "(a,a)-\u003e(a,a)-\u003eImage b c-\u003eIO d-\u003eIO d",
@@ -14585,6 +15841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "withImage",
           "package": "CV",
@@ -14594,6 +15851,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "withImage",
           "normalized": "Image a b-\u003e(Ptr BareImage-\u003eIO c)-\u003eIO c",
@@ -14609,6 +15867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Image",
           "name": "withROI",
           "package": "CV",
@@ -14618,6 +15877,7 @@
         },
         "index": {
           "hierarchy": "CV Image",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Image",
           "name": "withROI",
           "normalized": "(Int,Int)-\u003e(Int,Int)-\u003eImage a b-\u003e(Image a b-\u003ec)-\u003ec",
@@ -14634,6 +15894,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMathematical and statistical operations for images. See also module\n   \u003ca\u003eCV.ImageMathOp\u003c/a\u003e which contains handy operators for some of these.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "ImageMath",
           "package": "CV",
@@ -14643,6 +15904,7 @@
         "index": {
           "description": "Mathematical and statistical operations for images See also module CV.ImageMathOp which contains handy operators for some of these",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "ImageMath",
           "package": "CV",
@@ -14657,6 +15919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the absolute value of every pixel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "abs",
           "package": "CV",
@@ -14667,6 +15930,7 @@
         "index": {
           "description": "Calculates the absolute value of every pixel",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "abs",
           "normalized": "Image a b-\u003eImage a b",
@@ -14682,6 +15946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the per-pixel absolute difference of two images.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "absDiff",
           "package": "CV",
@@ -14692,6 +15957,7 @@
         "index": {
           "description": "Calculates the per-pixel absolute difference of two images",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "absDiff",
           "normalized": "Image a b-\u003eImage a b-\u003eImage a b",
@@ -14708,6 +15974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the per-pixel sum of two images.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "add",
           "package": "CV",
@@ -14718,6 +15985,7 @@
         "index": {
           "description": "Calculates the per-pixel sum of two images",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "add",
           "normalized": "Image a b-\u003eImage a b-\u003eImage a b",
@@ -14733,6 +16001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a scalar to every pixel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "addS",
           "package": "CV",
@@ -14743,6 +16012,7 @@
         "index": {
           "description": "Adds scalar to every pixel",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "addS",
           "normalized": "D-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -14758,6 +16028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the atan of every pixel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "atan",
           "package": "CV",
@@ -14768,6 +16039,7 @@
         "index": {
           "description": "Calculates the atan of every pixel",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "atan",
           "normalized": "Image GrayScale D-\u003eImage GrayScale D",
@@ -14783,6 +16055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the atan2 of pixel values in two images.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "atan2",
           "package": "CV",
@@ -14793,6 +16066,7 @@
         "index": {
           "description": "Calculates the atan2 of pixel values in two images",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "atan2",
           "normalized": "Image GrayScale D-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -14808,6 +16082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the average pixel value in whole image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "average",
           "package": "CV",
@@ -14818,6 +16093,7 @@
         "index": {
           "description": "Calculates the average pixel value in whole image",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "average",
           "normalized": "Image GrayScale D-\u003eD",
@@ -14833,6 +16109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the average of multiple images by adding the pixel values and\n   dividing the resulting values by number of images.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "averageImages",
           "package": "CV",
@@ -14843,6 +16120,7 @@
         "index": {
           "description": "Calculates the average of multiple images by adding the pixel values and dividing the resulting values by number of images",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "averageImages",
           "normalized": "[Image GrayScale D]-\u003eImage GrayScale D",
@@ -14859,6 +16137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the average value for pixels that have non-zero mask value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "averageMask",
           "package": "CV",
@@ -14869,6 +16148,7 @@
         "index": {
           "description": "Calculates the average value for pixels that have non-zero mask value",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "averageMask",
           "normalized": "Image GrayScale D-\u003eImage GrayScale D-\u003eD",
@@ -14885,6 +16165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the per-pixel division of two images.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "div",
           "package": "CV",
@@ -14895,6 +16176,7 @@
         "index": {
           "description": "Calculates the per-pixel division of two images",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "div",
           "normalized": "Image a b-\u003eImage a b-\u003eImage a b",
@@ -14910,6 +16192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce image where pixel is coloured according to distance from the edge.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "fadeToCenter",
           "package": "CV",
@@ -14920,6 +16203,7 @@
         "index": {
           "description": "Produce image where pixel is coloured according to distance from the edge",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "fadeToCenter",
           "normalized": "(CInt,CInt)-\u003eImage a b",
@@ -14936,6 +16220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce white image with \u003ccode\u003eedgeW\u003c/code\u003e amount of edges fading to black.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "fadedEdgeImage",
           "package": "CV",
@@ -14946,6 +16231,7 @@
         "index": {
           "description": "Produce white image with edgeW amount of edges fading to black",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "fadedEdgeImage",
           "normalized": "(CInt,CInt)-\u003eCInt-\u003eImage a b",
@@ -14962,6 +16248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds the minimum and maximum pixel value in the image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "findMinMax",
           "package": "CV",
@@ -14972,6 +16259,7 @@
         "index": {
           "description": "Finds the minimum and maximum pixel value in the image",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "findMinMax",
           "normalized": "Image a a-\u003e(D,D)",
@@ -14988,6 +16276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds the minimum and maximum pixel value in the image and the locations\n   where these values were found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "findMinMaxLoc",
           "package": "CV",
@@ -14998,6 +16287,7 @@
         "index": {
           "description": "Finds the minimum and maximum pixel value in the image and the locations where these values were found",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "findMinMaxLoc",
           "normalized": "Image a b-\u003e(((c,c),c),((c,c),c))",
@@ -15014,6 +16304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds the minimum and maximum value for pixels with non-zero mask value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "findMinMaxMask",
           "package": "CV",
@@ -15024,6 +16315,7 @@
         "index": {
           "description": "Finds the minimum and maximum value for pixels with non-zero mask value",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "findMinMaxMask",
           "normalized": "BareImage-\u003eBareImage-\u003e(D,D)",
@@ -15040,6 +16332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender image of 2D gaussian curve with standard deviation of (stdX,stdY) to image size (w,h)\n   The origin/center of curve is in center of the image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "gaussianImage",
           "package": "CV",
@@ -15050,6 +16343,7 @@
         "index": {
           "description": "Render image of gaussian curve with standard deviation of stdX stdY to image size The origin center of curve is in center of the image",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "gaussianImage",
           "normalized": "(Int,Int)-\u003e(Double,Double)-\u003eImage GrayScale D",
@@ -15066,6 +16360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the average and standard deviation of pixel values in the image\n   in one operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "imageAvgSdv",
           "package": "CV",
@@ -15076,6 +16371,7 @@
         "index": {
           "description": "Calculates the average and standard deviation of pixel values in the image in one operation",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "imageAvgSdv",
           "normalized": "Image GrayScale a-\u003e(a,a)",
@@ -15092,6 +16388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds the minimum and maximum pixel value in the image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "imageMinMax",
           "package": "CV",
@@ -15102,6 +16399,7 @@
         "index": {
           "description": "Finds the minimum and maximum pixel value in the image",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "imageMinMax",
           "normalized": "Image GrayScale a-\u003e(a,a)",
@@ -15118,6 +16416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical inversion of image (ie. invert, but stay on [0..1] range;\n   multiply by \u003ccode\u003e-1\u003c/code\u003e and add \u003ccode\u003e1\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "invert",
           "package": "CV",
@@ -15128,6 +16427,7 @@
         "index": {
           "description": "Logical inversion of image ie invert but stay on range multiply by and add",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "invert",
           "normalized": "Image GrayScale D-\u003eImage GrayScale D",
@@ -15143,6 +16443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompares two images and produces a binary image that has white pixels in\n   those positions where the comparison is true. For example,\n   \u003ccode\u003e(less2Than A B)\u003c/code\u003e has white pixels where value of A is less than value of\n   B. Notice that these functions follow the intuitive order of operands,\n   unlike \u003ccode\u003e\u003ca\u003elessThan\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emoreThan\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "less2Than",
           "package": "CV",
@@ -15153,6 +16454,7 @@
         "index": {
           "description": "Compares two images and produces binary image that has white pixels in those positions where the comparison is true For example less2Than has white pixels where value of is less than value of Notice that these functions follow the intuitive order of operands unlike lessThan and moreThan",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "less2Than",
           "normalized": "Image GrayScale a-\u003eImage GrayScale a-\u003eImage GrayScale D",
@@ -15169,6 +16471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompares each pixel to a scalar, and produces a binary image where the\n   pixel value is less than the scalar. For example, \u003ccode\u003e(lessThan s I)\u003c/code\u003e has\n   white pixels where value of I is less than s. Notice that the order of\n   operands is opposite to the intuitive interpretation of \u003ccode\u003es `\u003ccode\u003e\u003ca\u003elessThan\u003c/a\u003e\u003c/code\u003e` I\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "lessThan",
           "package": "CV",
@@ -15179,6 +16482,7 @@
         "index": {
           "description": "Compares each pixel to scalar and produces binary image where the pixel value is less than the scalar For example lessThan has white pixels where value of is less than Notice that the order of operands is opposite to the intuitive interpretation of lessThan",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "lessThan",
           "normalized": "D-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -15195,6 +16499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperation to limit image with another image; same as \u003ccode\u003e\u003ca\u003emin\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "limitToOp",
           "package": "CV",
@@ -15205,6 +16510,7 @@
         "index": {
           "description": "Operation to limit image with another image same as min",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "limitToOp",
           "normalized": "Image a b-\u003eImageOperation a b",
@@ -15221,6 +16527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the natural logarithm of every pixel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "log",
           "package": "CV",
@@ -15231,6 +16538,7 @@
         "index": {
           "description": "Calculates the natural logarithm of every pixel",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "log",
           "normalized": "Image GrayScale D-\u003eImage GrayScale D",
@@ -15246,6 +16554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two images according to a mask. Result is \u003ccode\u003eR = A*m + B*(m-1)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "maskedMerge",
           "package": "CV",
@@ -15256,6 +16565,7 @@
         "index": {
           "description": "Merge two images according to mask Result is m-1",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "maskedMerge",
           "normalized": "Image GrayScale D-\u003eImage GrayScale D-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -15272,6 +16582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the per-pixel maximum of two images.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "max",
           "package": "CV",
@@ -15282,6 +16593,7 @@
         "index": {
           "description": "Calculates the per-pixel maximum of two images",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "max",
           "normalized": "Image a b-\u003eImage a b-\u003eImage a b",
@@ -15297,6 +16609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the per-pixel maximum between an image and a scalar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "maxS",
           "package": "CV",
@@ -15307,6 +16620,7 @@
         "index": {
           "description": "Calculates the per-pixel maximum between an image and scalar",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "maxS",
           "normalized": "Float-\u003eImage a b-\u003eImage a b",
@@ -15322,6 +16636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUtility functions for getting the maximum or minimum pixel value of the \n   image; equal to \u003ccode\u003esnd . findMinMax\u003c/code\u003e and \u003ccode\u003efst . findMinMax\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "maxValue",
           "package": "CV",
@@ -15332,6 +16647,7 @@
         "index": {
           "description": "Utility functions for getting the maximum or minimum pixel value of the image equal to snd findMinMax and fst findMinMax",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "maxValue",
           "normalized": "Image GrayScale D-\u003eD",
@@ -15348,6 +16664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a distance map and a circle, return the biggest circle with radius less\n   than given in the distance map that fully covers the previous one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "maximalCoveringCircle",
           "package": "CV",
@@ -15358,6 +16675,7 @@
         "index": {
           "description": "Given distance map and circle return the biggest circle with radius less than given in the distance map that fully covers the previous one",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "maximalCoveringCircle",
           "normalized": "Image a b-\u003e(CInt,CInt,CDouble)-\u003e(c,c,c)",
@@ -15374,6 +16692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the per-pixel minimum of two images.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "min",
           "package": "CV",
@@ -15384,6 +16703,7 @@
         "index": {
           "description": "Calculates the per-pixel minimum of two images",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "min",
           "normalized": "Image a b-\u003eImage a b-\u003eImage a b",
@@ -15399,6 +16719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the per-pixel minimum between an image and a scalar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "minS",
           "package": "CV",
@@ -15409,6 +16730,7 @@
         "index": {
           "description": "Calculates the per-pixel minimum between an image and scalar",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "minS",
           "normalized": "Float-\u003eImage a b-\u003eImage a b",
@@ -15424,6 +16746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUtility functions for getting the maximum or minimum pixel value of the \n   image; equal to \u003ccode\u003esnd . findMinMax\u003c/code\u003e and \u003ccode\u003efst . findMinMax\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "minValue",
           "package": "CV",
@@ -15434,6 +16757,7 @@
         "index": {
           "description": "Utility functions for getting the maximum or minimum pixel value of the image equal to snd findMinMax and fst findMinMax",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "minValue",
           "normalized": "Image GrayScale D-\u003eD",
@@ -15450,6 +16774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompares two images and produces a binary image that has white pixels in\n   those positions where the comparison is true. For example,\n   \u003ccode\u003e(less2Than A B)\u003c/code\u003e has white pixels where value of A is less than value of\n   B. Notice that these functions follow the intuitive order of operands,\n   unlike \u003ccode\u003e\u003ca\u003elessThan\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emoreThan\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "more2Than",
           "package": "CV",
@@ -15460,6 +16785,7 @@
         "index": {
           "description": "Compares two images and produces binary image that has white pixels in those positions where the comparison is true For example less2Than has white pixels where value of is less than value of Notice that these functions follow the intuitive order of operands unlike lessThan and moreThan",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "more2Than",
           "normalized": "Image GrayScale a-\u003eImage GrayScale a-\u003eImage GrayScale D",
@@ -15476,6 +16802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompares each pixel to a scalar, and produces a binary image where the\n   pixel value is greater than the scalar. For example, \u003ccode\u003e(moreThan s I)\u003c/code\u003e has\n   white pixels where value of I is greater than s. Notice that the order of\n   operands is opposite to the intuitive interpretation of \u003ccode\u003es `\u003ccode\u003e\u003ca\u003emoreThan\u003c/a\u003e\u003c/code\u003e` I\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "moreThan",
           "package": "CV",
@@ -15486,6 +16813,7 @@
         "index": {
           "description": "Compares each pixel to scalar and produces binary image where the pixel value is greater than the scalar For example moreThan has white pixels where value of is greater than Notice that the order of operands is opposite to the intuitive interpretation of moreThan",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "moreThan",
           "normalized": "D-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -15502,6 +16830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the per-pixel product of two images.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "mul",
           "package": "CV",
@@ -15512,6 +16841,7 @@
         "index": {
           "description": "Calculates the per-pixel product of two images",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "mul",
           "normalized": "Image a b-\u003eImage a b-\u003eImage a b",
@@ -15527,6 +16857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplies every pixel by a scalar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "mulS",
           "package": "CV",
@@ -15537,6 +16868,7 @@
         "index": {
           "description": "Multiplies every pixel by scalar",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "mulS",
           "normalized": "D-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -15552,6 +16884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the square root of every pixel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "sqrt",
           "package": "CV",
@@ -15562,6 +16895,7 @@
         "index": {
           "description": "Calculates the square root of every pixel",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "sqrt",
           "normalized": "Image GrayScale D-\u003eImage GrayScale D",
@@ -15577,6 +16911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the standard deviation of pixel values in whole image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "stdDeviation",
           "package": "CV",
@@ -15587,6 +16922,7 @@
         "index": {
           "description": "Calculates the standard deviation of pixel values in whole image",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "stdDeviation",
           "normalized": "Image GrayScale D-\u003eD",
@@ -15603,6 +16939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the standard deviation of values for pixels that have non-zero\n   mask value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "stdDeviationMask",
           "package": "CV",
@@ -15613,6 +16950,7 @@
         "index": {
           "description": "Calculates the standard deviation of values for pixels that have non-zero mask value",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "stdDeviationMask",
           "normalized": "Image a b-\u003eImage a b-\u003eCDouble",
@@ -15629,6 +16967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the per-pixel difference of two images.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "sub",
           "package": "CV",
@@ -15639,6 +16978,7 @@
         "index": {
           "description": "Calculates the per-pixel difference of two images",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "sub",
           "normalized": "Image a b-\u003eImage a b-\u003eImage a b",
@@ -15654,6 +16994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the (non-absolute) difference of every pixel to image mean.\n   See also \u003ccode\u003e\u003ca\u003esubMeanAbs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "subMean",
           "package": "CV",
@@ -15664,6 +17005,7 @@
         "index": {
           "description": "Calculates the non-absolute difference of every pixel to image mean See also subMeanAbs",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "subMean",
           "normalized": "Image GrayScale D-\u003eImage GrayScale D",
@@ -15680,6 +17022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the absolute difference of every pixel to image mean.\n   See also \u003ccode\u003e\u003ca\u003esubMean\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "subMeanAbs",
           "package": "CV",
@@ -15690,6 +17033,7 @@
         "index": {
           "description": "Calculates the absolute difference of every pixel to image mean See also subMean",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "subMeanAbs",
           "normalized": "Image GrayScale D-\u003eImage GrayScale D",
@@ -15706,6 +17050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtracts a scalar from every pixel, scalar on right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "subRS",
           "package": "CV",
@@ -15716,6 +17061,7 @@
         "index": {
           "description": "Subtracts scalar from every pixel scalar on right",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "subRS",
           "normalized": "D-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -15732,6 +17078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtracts a scalar from every pixel, scalar on left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "subS",
           "package": "CV",
@@ -15742,6 +17089,7 @@
         "index": {
           "description": "Subtracts scalar from every pixel scalar on left",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "subS",
           "normalized": "Image a b-\u003ec-\u003eImage a b",
@@ -15757,6 +17105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the sum of pixel values in whole image\n   (notice that OpenCV automatically casts the result to double).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMath",
           "name": "sum",
           "package": "CV",
@@ -15767,6 +17116,7 @@
         "index": {
           "description": "Calculates the sum of pixel values in whole image notice that OpenCV automatically casts the result to double",
           "hierarchy": "CV ImageMath",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMath",
           "name": "sum",
           "normalized": "Image GrayScale D-\u003eD",
@@ -15782,6 +17132,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMathematical operators for images; see also module \u003ca\u003eImageMath\u003c/a\u003e for the\n   functions these operators are based on.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMathOp",
           "name": "ImageMathOp",
           "package": "CV",
@@ -15791,6 +17142,7 @@
         "index": {
           "description": "Mathematical operators for images see also module ImageMath for the functions these operators are based on",
           "hierarchy": "CV ImageMathOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMathOp",
           "name": "ImageMathOp",
           "package": "CV",
@@ -15805,6 +17157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScalar multiplication, addition, and subtraction (scalar on left) operators;\n   same as \u003ccode\u003e\u003ca\u003emulS\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eaddS\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003esubRS\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMathOp",
           "name": "(|*)",
           "package": "CV",
@@ -15815,6 +17168,7 @@
         "index": {
           "description": "Scalar multiplication addition and subtraction scalar on left operators same as mulS addS and subRS",
           "hierarchy": "CV ImageMathOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMathOp",
           "name": "(|*) |*",
           "normalized": "D-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -15830,6 +17184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScalar multiplication, addition, and subtraction (scalar on left) operators;\n   same as \u003ccode\u003e\u003ca\u003emulS\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eaddS\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003esubRS\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMathOp",
           "name": "(|+)",
           "package": "CV",
@@ -15840,6 +17195,7 @@
         "index": {
           "description": "Scalar multiplication addition and subtraction scalar on left operators same as mulS addS and subRS",
           "hierarchy": "CV ImageMathOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMathOp",
           "name": "(|+) |+",
           "normalized": "D-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -15855,6 +17211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScalar subtraction operator (scalar on right); same as \u003ccode\u003e\u003ca\u003esubS\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMathOp",
           "name": "(|-)",
           "package": "CV",
@@ -15865,6 +17222,7 @@
         "index": {
           "description": "Scalar subtraction operator scalar on right same as subS",
           "hierarchy": "CV ImageMathOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMathOp",
           "name": "(|-) |-",
           "normalized": "Image GrayScale D-\u003eD-\u003eImage GrayScale D",
@@ -15880,6 +17238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScalar comparison operators; same as \u003ccode\u003e\u003ca\u003emoreThan\u003c/a\u003e\u003c/code\u003e and\n   \u003ccode\u003e\u003ca\u003elessThan\u003c/a\u003e\u003c/code\u003e. Example: \u003ccode\u003es |\u003e I\u003c/code\u003e produces a binary image that has\n   white pixels in those positions where the value of I is larger than s.\n   Notice that this is opposite to the intuitive interpretation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMathOp",
           "name": "(|\u003c)",
           "package": "CV",
@@ -15890,6 +17249,7 @@
         "index": {
           "description": "Scalar comparison operators same as moreThan and lessThan Example produces binary image that has white pixels in those positions where the value of is larger than Notice that this is opposite to the intuitive interpretation",
           "hierarchy": "CV ImageMathOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMathOp",
           "name": "(|\u003c) |\u003c",
           "normalized": "D-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -15905,6 +17265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScalar comparison operators; same as \u003ccode\u003e\u003ca\u003emoreThan\u003c/a\u003e\u003c/code\u003e and\n   \u003ccode\u003e\u003ca\u003elessThan\u003c/a\u003e\u003c/code\u003e. Example: \u003ccode\u003es |\u003e I\u003c/code\u003e produces a binary image that has\n   white pixels in those positions where the value of I is larger than s.\n   Notice that this is opposite to the intuitive interpretation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMathOp",
           "name": "(|\u003e)",
           "package": "CV",
@@ -15915,6 +17276,7 @@
         "index": {
           "description": "Scalar comparison operators same as moreThan and lessThan Example produces binary image that has white pixels in those positions where the value of is larger than Notice that this is opposite to the intuitive interpretation",
           "hierarchy": "CV ImageMathOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMathOp",
           "name": "(|\u003e) |\u003e",
           "normalized": "D-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -15930,6 +17292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage addition, subtraction, and multiplication operator; same as \n   \u003ccode\u003e\u003ca\u003eadd\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esub\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003emul\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMathOp",
           "name": "(#*)",
           "package": "CV",
@@ -15940,6 +17303,7 @@
         "index": {
           "description": "Image addition subtraction and multiplication operator same as add sub and mul",
           "hierarchy": "CV ImageMathOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMathOp",
           "name": "(#*) #*",
           "normalized": "Image a b-\u003eImage a b-\u003eImage a b",
@@ -15955,6 +17319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage addition, subtraction, and multiplication operator; same as \n   \u003ccode\u003e\u003ca\u003eadd\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esub\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003emul\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMathOp",
           "name": "(#+)",
           "package": "CV",
@@ -15965,6 +17330,7 @@
         "index": {
           "description": "Image addition subtraction and multiplication operator same as add sub and mul",
           "hierarchy": "CV ImageMathOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMathOp",
           "name": "(#+) #+",
           "normalized": "Image a b-\u003eImage a b-\u003eImage a b",
@@ -15980,6 +17346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage addition, subtraction, and multiplication operator; same as \n   \u003ccode\u003e\u003ca\u003eadd\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esub\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003emul\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMathOp",
           "name": "(#-)",
           "package": "CV",
@@ -15990,6 +17357,7 @@
         "index": {
           "description": "Image addition subtraction and multiplication operator same as add sub and mul",
           "hierarchy": "CV ImageMathOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMathOp",
           "name": "(#-) #-",
           "normalized": "Image a b-\u003eImage a b-\u003eImage a b",
@@ -16005,6 +17373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage comparison operators; same as \u003ccode\u003e\u003ca\u003eless2Than\u003c/a\u003e\u003c/code\u003e and\n   \u003ccode\u003e\u003ca\u003emore2Than\u003c/a\u003e\u003c/code\u003e. Example: \u003ccode\u003eA #\u003c B\u003c/code\u003e produces a binary image that has \n   white pixels in those positions where value of A is less than value of B.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMathOp",
           "name": "(#\u003c)",
           "package": "CV",
@@ -16015,6 +17384,7 @@
         "index": {
           "description": "Image comparison operators same as less2Than and more2Than Example produces binary image that has white pixels in those positions where value of is less than value of",
           "hierarchy": "CV ImageMathOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMathOp",
           "name": "(#\u003c) #\u003c",
           "normalized": "Image GrayScale a-\u003eImage GrayScale a-\u003eImage GrayScale D",
@@ -16030,6 +17400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage comparison operators; same as \u003ccode\u003e\u003ca\u003eless2Than\u003c/a\u003e\u003c/code\u003e and\n   \u003ccode\u003e\u003ca\u003emore2Than\u003c/a\u003e\u003c/code\u003e. Example: \u003ccode\u003eA #\u003c B\u003c/code\u003e produces a binary image that has \n   white pixels in those positions where value of A is less than value of B.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMathOp",
           "name": "(#\u003e)",
           "package": "CV",
@@ -16040,6 +17411,7 @@
         "index": {
           "description": "Image comparison operators same as less2Than and more2Than Example produces binary image that has white pixels in those positions where value of is less than value of",
           "hierarchy": "CV ImageMathOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMathOp",
           "name": "(#\u003e) #\u003e",
           "normalized": "Image GrayScale a-\u003eImage GrayScale a-\u003eImage GrayScale D",
@@ -16055,6 +17427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScalar multiplication, addition, and subtraction (scalar on left) operators;\n   same as \u003ccode\u003e\u003ca\u003emulS\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eaddS\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003esubRS\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageMathOp",
           "name": "(-|)",
           "package": "CV",
@@ -16065,6 +17438,7 @@
         "index": {
           "description": "Scalar multiplication addition and subtraction scalar on left operators same as mulS addS and subRS",
           "hierarchy": "CV ImageMathOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageMathOp",
           "name": "(-|) -|",
           "normalized": "D-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -16079,6 +17453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageOp",
           "name": "ImageOp",
           "package": "CV",
@@ -16087,6 +17462,7 @@
         },
         "index": {
           "hierarchy": "CV ImageOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageOp",
           "name": "ImageOp",
           "package": "CV",
@@ -16100,6 +17476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageOp",
           "name": "IOP",
           "package": "CV",
@@ -16108,6 +17485,7 @@
         },
         "index": {
           "hierarchy": "CV ImageOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageOp",
           "name": "IOP",
           "package": "CV",
@@ -16122,6 +17500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImageOperation is a name for unary operators that mutate images inplace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageOp",
           "name": "ImageOperation",
           "package": "CV",
@@ -16131,6 +17510,7 @@
         "index": {
           "description": "ImageOperation is name for unary operators that mutate images inplace",
           "hierarchy": "CV ImageOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageOp",
           "name": "ImageOperation",
           "package": "CV",
@@ -16145,6 +17525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose two image operations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageOp",
           "name": "(#\u003e)",
           "package": "CV",
@@ -16155,6 +17536,7 @@
         "index": {
           "description": "Compose two image operations",
           "hierarchy": "CV ImageOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageOp",
           "name": "(#\u003e) #\u003e",
           "normalized": "ImageOperation a b-\u003eImageOperation a b-\u003eImageOperation a b",
@@ -16169,6 +17551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageOp",
           "name": "(&#&)",
           "package": "CV",
@@ -16178,6 +17561,7 @@
         },
         "index": {
           "hierarchy": "CV ImageOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageOp",
           "name": "(&#&) &#&",
           "normalized": "IOP(Image a b)c-\u003eIOP(Image a b)d-\u003eIOP(Image a b)(Image a b,Image a b)",
@@ -16193,6 +17577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply image operation to a Copy of an image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageOp",
           "name": "(\u003c#)",
           "package": "CV",
@@ -16203,6 +17588,7 @@
         "index": {
           "description": "Apply image operation to Copy of an image",
           "hierarchy": "CV ImageOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageOp",
           "name": "(\u003c#) \u003c#",
           "normalized": "Image a b-\u003eImageOperation a b-\u003eImage a b",
@@ -16218,6 +17604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply list of image operations to a Copy of an image. (Makes a single copy and is\n faster than folding over (\u003c#)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageOp",
           "name": "(\u003c##)",
           "package": "CV",
@@ -16228,6 +17615,7 @@
         "index": {
           "description": "Apply list of image operations to Copy of an image Makes single copy and is faster than folding over",
           "hierarchy": "CV ImageOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageOp",
           "name": "(\u003c##) \u003c##",
           "normalized": "Image a b-\u003e[ImageOperation a b]-\u003eImage a b",
@@ -16242,6 +17630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageOp",
           "name": "IOP",
           "package": "CV",
@@ -16251,6 +17640,7 @@
         },
         "index": {
           "hierarchy": "CV ImageOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageOp",
           "name": "IOP",
           "normalized": "IOP(a-\u003eIO b)",
@@ -16266,6 +17656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageOp",
           "name": "ImgOp",
           "package": "CV",
@@ -16275,6 +17666,7 @@
         },
         "index": {
           "hierarchy": "CV ImageOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageOp",
           "name": "ImgOp",
           "normalized": "ImgOp(Image a b-\u003eIO())",
@@ -16290,6 +17682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageOp",
           "name": "blitOp",
           "package": "CV",
@@ -16299,6 +17692,7 @@
         },
         "index": {
           "hierarchy": "CV ImageOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageOp",
           "name": "blitOp",
           "normalized": "Image GrayScale D-\u003e(Int,Int)-\u003eImageOperation GrayScale D",
@@ -16314,6 +17708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageOp",
           "name": "directOp",
           "package": "CV",
@@ -16323,6 +17718,7 @@
         },
         "index": {
           "hierarchy": "CV ImageOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageOp",
           "name": "directOp",
           "normalized": "Image a a-\u003eImageOperation a a-\u003eIO()",
@@ -16338,6 +17734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageOp",
           "name": "fromImageOp",
           "package": "CV",
@@ -16347,6 +17744,7 @@
         },
         "index": {
           "hierarchy": "CV ImageOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageOp",
           "name": "fromImageOp",
           "normalized": "ImageOperation a a-\u003eIOP(Image a a)(Image a a)",
@@ -16363,6 +17761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unit operation for compose\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageOp",
           "name": "nonOp",
           "package": "CV",
@@ -16373,6 +17772,7 @@
         "index": {
           "description": "An unit operation for compose",
           "hierarchy": "CV ImageOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageOp",
           "name": "nonOp",
           "package": "CV",
@@ -16386,6 +17786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageOp",
           "name": "operate",
           "package": "CV",
@@ -16395,6 +17796,7 @@
         },
         "index": {
           "hierarchy": "CV ImageOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageOp",
           "name": "operate",
           "normalized": "ImageOperation a b-\u003eImage a b-\u003eIO(Image a b)",
@@ -16409,6 +17811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageOp",
           "name": "operateInPlace",
           "package": "CV",
@@ -16418,6 +17821,7 @@
         },
         "index": {
           "hierarchy": "CV ImageOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageOp",
           "name": "operateInPlace",
           "normalized": "ImageOperation a a-\u003eImage a a-\u003eIO()",
@@ -16433,6 +17837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageOp",
           "name": "operateOn",
           "package": "CV",
@@ -16442,6 +17847,7 @@
         },
         "index": {
           "hierarchy": "CV ImageOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageOp",
           "name": "operateOn",
           "normalized": "Image a b-\u003eImageOperation a b-\u003eIO(Image a b)",
@@ -16457,6 +17863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageOp",
           "name": "operateWithROI",
           "package": "CV",
@@ -16466,6 +17873,7 @@
         },
         "index": {
           "hierarchy": "CV ImageOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageOp",
           "name": "operateWithROI",
           "normalized": "(a,a)-\u003e(a,a)-\u003eImageOperation a a-\u003eImage a a-\u003eIO(Image a a)",
@@ -16481,6 +17889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageOp",
           "name": "runIOP",
           "package": "CV",
@@ -16490,6 +17899,7 @@
         },
         "index": {
           "hierarchy": "CV ImageOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageOp",
           "name": "runIOP",
           "normalized": "IOP(Image a b)c-\u003eImage a b-\u003eIO c",
@@ -16505,6 +17915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageOp",
           "name": "setPixelOp",
           "package": "CV",
@@ -16514,6 +17925,7 @@
         },
         "index": {
           "hierarchy": "CV ImageOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageOp",
           "name": "setPixelOp",
           "normalized": "(Int,Int)-\u003eSP(Image a b)-\u003eImageOperation a b",
@@ -16530,6 +17942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIterate an operation N times\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageOp",
           "name": "times",
           "package": "CV",
@@ -16540,6 +17953,7 @@
         "index": {
           "description": "Iterate an operation times",
           "hierarchy": "CV ImageOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageOp",
           "name": "times",
           "normalized": "Int-\u003eImageOperation a b-\u003eImageOperation a b",
@@ -16554,6 +17968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageOp",
           "name": "unsafeOperate",
           "package": "CV",
@@ -16563,6 +17978,7 @@
         },
         "index": {
           "hierarchy": "CV ImageOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageOp",
           "name": "unsafeOperate",
           "normalized": "ImageOperation a b-\u003eImage a b-\u003eImage a b",
@@ -16578,6 +17994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.ImageOp",
           "name": "unsafeOperateOn",
           "package": "CV",
@@ -16587,6 +18004,7 @@
         },
         "index": {
           "hierarchy": "CV ImageOp",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.ImageOp",
           "name": "unsafeOperateOn",
           "normalized": "Image a b-\u003eImageOperation a b-\u003eImage a b",
@@ -16602,6 +18020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Iterators",
           "name": "Iterators",
           "package": "CV",
@@ -16610,6 +18029,7 @@
         },
         "index": {
           "hierarchy": "CV Iterators",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Iterators",
           "name": "Iterators",
           "package": "CV",
@@ -16623,6 +18043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Iterators",
           "name": "F32I",
           "package": "CV",
@@ -16631,6 +18052,7 @@
         },
         "index": {
           "hierarchy": "CV Iterators",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Iterators",
           "name": "F32I",
           "package": "CV",
@@ -16643,6 +18065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Iterators",
           "name": "ImageContext",
           "package": "CV",
@@ -16651,6 +18074,7 @@
         },
         "index": {
           "hierarchy": "CV Iterators",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Iterators",
           "name": "ImageContext",
           "package": "CV",
@@ -16664,6 +18088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Iterators",
           "name": "evolve",
           "package": "CV",
@@ -16673,6 +18098,7 @@
         },
         "index": {
           "hierarchy": "CV Iterators",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Iterators",
           "name": "evolve",
           "normalized": "a-\u003ea",
@@ -16687,6 +18113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Iterators",
           "name": "filterPixels",
           "package": "CV",
@@ -16696,6 +18123,7 @@
         },
         "index": {
           "hierarchy": "CV Iterators",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Iterators",
           "name": "filterPixels",
           "normalized": "(Float-\u003eBool)-\u003eImage GrayScale D-\u003e[((Int,Int),Float)]",
@@ -16711,6 +18139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Iterators",
           "name": "filterPixelsSlow",
           "package": "CV",
@@ -16720,6 +18149,7 @@
         },
         "index": {
           "hierarchy": "CV Iterators",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Iterators",
           "name": "filterPixelsSlow",
           "normalized": "(Float-\u003eBool)-\u003eImage GrayScale D-\u003e[((Int,Int),Float)]",
@@ -16735,6 +18165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Iterators",
           "name": "getPos",
           "package": "CV",
@@ -16744,6 +18175,7 @@
         },
         "index": {
           "hierarchy": "CV Iterators",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Iterators",
           "name": "getPos",
           "normalized": "a-\u003e(Int,Int)",
@@ -16759,6 +18191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Iterators",
           "name": "getVal",
           "package": "CV",
@@ -16768,6 +18201,7 @@
         },
         "index": {
           "hierarchy": "CV Iterators",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Iterators",
           "name": "getVal",
           "normalized": "a-\u003eMaybe(V a)",
@@ -16783,6 +18217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.LightBalance",
           "name": "LightBalance",
           "package": "CV",
@@ -16791,6 +18226,7 @@
         },
         "index": {
           "hierarchy": "CV LightBalance",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.LightBalance",
           "name": "LightBalance",
           "package": "CV",
@@ -16804,6 +18240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.LightBalance",
           "name": "cos4cylinder",
           "package": "CV",
@@ -16813,6 +18250,7 @@
         },
         "index": {
           "hierarchy": "CV LightBalance",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.LightBalance",
           "name": "cos4cylinder",
           "normalized": "(Int,Int)-\u003eImage a b",
@@ -16827,6 +18265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.LightBalance",
           "name": "cos4vignetting",
           "package": "CV",
@@ -16836,6 +18275,7 @@
         },
         "index": {
           "hierarchy": "CV LightBalance",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.LightBalance",
           "name": "cos4vignetting",
           "normalized": "(Int,Int)-\u003eImage a b",
@@ -16850,6 +18290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.LightBalance",
           "name": "f",
           "package": "CV",
@@ -16859,6 +18300,7 @@
         },
         "index": {
           "hierarchy": "CV LightBalance",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.LightBalance",
           "name": "f",
           "normalized": "Int-\u003eCInt",
@@ -16873,6 +18315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.LightBalance",
           "name": "threeB",
           "package": "CV",
@@ -16882,6 +18325,7 @@
         },
         "index": {
           "hierarchy": "CV LightBalance",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.LightBalance",
           "name": "threeB",
           "normalized": "(Int,Int)-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eImage a b",
@@ -16896,6 +18340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.LightBalance",
           "name": "twoPar",
           "package": "CV",
@@ -16905,6 +18350,7 @@
         },
         "index": {
           "hierarchy": "CV LightBalance",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.LightBalance",
           "name": "twoPar",
           "normalized": "(Int,Int)-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eImage a b",
@@ -16920,6 +18366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.LightBalance",
           "name": "vignettingModelB3",
           "package": "CV",
@@ -16929,6 +18376,7 @@
         },
         "index": {
           "hierarchy": "CV LightBalance",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.LightBalance",
           "name": "vignettingModelB3",
           "normalized": "CInt-\u003eCInt-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eIO(Ptr BareImage)",
@@ -16944,6 +18392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.LightBalance",
           "name": "vignettingModelCos4",
           "package": "CV",
@@ -16953,6 +18402,7 @@
         },
         "index": {
           "hierarchy": "CV LightBalance",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.LightBalance",
           "name": "vignettingModelCos4",
           "normalized": "CInt-\u003eCInt-\u003eIO(Ptr BareImage)",
@@ -16968,6 +18418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.LightBalance",
           "name": "vignettingModelCos4XCyl",
           "package": "CV",
@@ -16977,6 +18428,7 @@
         },
         "index": {
           "hierarchy": "CV LightBalance",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.LightBalance",
           "name": "vignettingModelCos4XCyl",
           "normalized": "CInt-\u003eCInt-\u003eIO(Ptr BareImage)",
@@ -16992,6 +18444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.LightBalance",
           "name": "vignettingModelP",
           "package": "CV",
@@ -17001,6 +18454,7 @@
         },
         "index": {
           "hierarchy": "CV LightBalance",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.LightBalance",
           "name": "vignettingModelP",
           "normalized": "CInt-\u003eCInt-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eIO(Ptr BareImage)",
@@ -17016,6 +18470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.LightBalance",
           "name": "vignettingModelX2Cyl",
           "package": "CV",
@@ -17025,6 +18480,7 @@
         },
         "index": {
           "hierarchy": "CV LightBalance",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.LightBalance",
           "name": "vignettingModelX2Cyl",
           "normalized": "CInt-\u003eCInt-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eIO(Ptr BareImage)",
@@ -17040,6 +18496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.LightBalance",
           "name": "x2cylinder",
           "package": "CV",
@@ -17049,6 +18506,7 @@
         },
         "index": {
           "hierarchy": "CV LightBalance",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.LightBalance",
           "name": "x2cylinder",
           "normalized": "(Int,Int)-\u003ea-\u003ea-\u003ea-\u003eImage b c",
@@ -17063,6 +18521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Marking",
           "name": "Marking",
           "package": "CV",
@@ -17071,6 +18530,7 @@
         },
         "index": {
           "hierarchy": "CV Marking",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Marking",
           "name": "Marking",
           "package": "CV",
@@ -17084,6 +18544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Marking",
           "name": "Marker",
           "package": "CV",
@@ -17092,6 +18553,7 @@
         },
         "index": {
           "hierarchy": "CV Marking",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Marking",
           "name": "Marker",
           "package": "CV",
@@ -17105,6 +18567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Marking",
           "name": "boxFlaws",
           "package": "CV",
@@ -17114,6 +18577,7 @@
         },
         "index": {
           "hierarchy": "CV Marking",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Marking",
           "name": "boxFlaws",
           "normalized": "Image GrayScale D-\u003eImage GrayScale D",
@@ -17129,6 +18593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Marking",
           "name": "condMarker",
           "package": "CV",
@@ -17138,6 +18603,7 @@
         },
         "index": {
           "hierarchy": "CV Marking",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Marking",
           "name": "condMarker",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003ea-\u003ea-\u003eImageOperation b c)-\u003ea-\u003ea-\u003ea-\u003eImageOperation b c",
@@ -17153,6 +18619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Marking",
           "name": "cuteCircle",
           "package": "CV",
@@ -17162,6 +18629,7 @@
         },
         "index": {
           "hierarchy": "CV Marking",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Marking",
           "name": "cuteCircle",
           "package": "CV",
@@ -17175,6 +18643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Marking",
           "name": "cuteCircle1",
           "package": "CV",
@@ -17184,6 +18653,7 @@
         },
         "index": {
           "hierarchy": "CV Marking",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Marking",
           "name": "cuteCircle1",
           "normalized": "(Int,Int)-\u003eImageOperation a b",
@@ -17199,6 +18669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Marking",
           "name": "cuteDot",
           "package": "CV",
@@ -17208,6 +18679,7 @@
         },
         "index": {
           "hierarchy": "CV Marking",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Marking",
           "name": "cuteDot",
           "normalized": "(Int,Int)-\u003eImageOperation a b",
@@ -17223,6 +18695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Marking",
           "name": "cuteRect",
           "package": "CV",
@@ -17232,6 +18705,7 @@
         },
         "index": {
           "hierarchy": "CV Marking",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Marking",
           "name": "cuteRect",
           "normalized": "(a,a)-\u003e(a,a)-\u003eImageOperation b c",
@@ -17247,6 +18721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Marking",
           "name": "displayFlaws",
           "package": "CV",
@@ -17256,6 +18731,7 @@
         },
         "index": {
           "hierarchy": "CV Marking",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Marking",
           "name": "displayFlaws",
           "normalized": "Image GrayScale D-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -17271,6 +18747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Marking",
           "name": "displayLargeFlaws",
           "package": "CV",
@@ -17280,6 +18757,7 @@
         },
         "index": {
           "hierarchy": "CV Marking",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Marking",
           "name": "displayLargeFlaws",
           "normalized": "Image GrayScale D-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -17295,6 +18773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Marking",
           "name": "getCoordsForMarkedTiles",
           "package": "CV",
@@ -17304,6 +18783,7 @@
         },
         "index": {
           "hierarchy": "CV Marking",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Marking",
           "name": "getCoordsForMarkedTiles",
           "normalized": "(a,a)-\u003e(a,a)-\u003e[Bool]-\u003eb-\u003e[(a,a)]",
@@ -17319,6 +18799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Marking",
           "name": "highLightFlaws",
           "package": "CV",
@@ -17328,6 +18809,7 @@
         },
         "index": {
           "hierarchy": "CV Marking",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Marking",
           "name": "highLightFlaws",
           "normalized": "Image GrayScale D-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -17343,6 +18825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Marking",
           "name": "markTiles",
           "package": "CV",
@@ -17352,6 +18835,7 @@
         },
         "index": {
           "hierarchy": "CV Marking",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Marking",
           "name": "markTiles",
           "normalized": "Image a b-\u003e(Int,Int)-\u003e(c,c)-\u003e((Int,Int)-\u003ec-\u003e(Int,Int)-\u003eImageOperation a b)-\u003e[c]-\u003eImage a b",
@@ -17368,6 +18852,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides wrappers for CvMat type. This is still preliminary as the type of the\n   matrix isn't coded in the haskell type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Matrix",
           "name": "Matrix",
           "package": "CV",
@@ -17377,6 +18862,7 @@
         "index": {
           "description": "This module provides wrappers for CvMat type This is still preliminary as the type of the matrix isn coded in the haskell type",
           "hierarchy": "CV Matrix",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Matrix",
           "name": "Matrix",
           "package": "CV",
@@ -17390,6 +18876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Matrix",
           "name": "Exists",
           "package": "CV",
@@ -17398,6 +18885,7 @@
         },
         "index": {
           "hierarchy": "CV Matrix",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Matrix",
           "name": "Exists",
           "package": "CV",
@@ -17411,6 +18899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Matrix",
           "name": "Matrix",
           "package": "CV",
@@ -17419,6 +18908,7 @@
         },
         "index": {
           "hierarchy": "CV Matrix",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Matrix",
           "name": "Matrix",
           "package": "CV",
@@ -17432,6 +18922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Matrix",
           "name": "create",
           "package": "CV",
@@ -17441,6 +18932,7 @@
         },
         "index": {
           "hierarchy": "CV Matrix",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Matrix",
           "name": "create",
           "normalized": "Args a-\u003eIO a",
@@ -17456,6 +18948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an empty matrix of given dimensions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Matrix",
           "name": "emptyMatrix",
           "package": "CV",
@@ -17466,6 +18959,7 @@
         "index": {
           "description": "Create an empty matrix of given dimensions",
           "hierarchy": "CV Matrix",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Matrix",
           "name": "emptyMatrix",
           "normalized": "Args(Matrix a)-\u003eMatrix a",
@@ -17482,6 +18976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a matrix from a index function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Matrix",
           "name": "fromFunction",
           "package": "CV",
@@ -17492,6 +18987,7 @@
         "index": {
           "description": "Generate matrix from index function",
           "hierarchy": "CV Matrix",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Matrix",
           "name": "fromFunction",
           "normalized": "(Int,Int)-\u003e((Int,Int)-\u003ea)-\u003eMatrix a",
@@ -17507,6 +19003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Matrix",
           "name": "fromList",
           "package": "CV",
@@ -17516,6 +19013,7 @@
         },
         "index": {
           "hierarchy": "CV Matrix",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Matrix",
           "name": "fromList",
           "normalized": "(Int,Int)-\u003e[a]-\u003eMatrix a",
@@ -17532,6 +19030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Get an element of the matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Matrix",
           "name": "get",
           "package": "CV",
@@ -17542,6 +19041,7 @@
         "index": {
           "description": "Get an element of the matrix",
           "hierarchy": "CV Matrix",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Matrix",
           "name": "get",
           "normalized": "Matrix a-\u003eInt-\u003eInt-\u003eIO a",
@@ -17557,6 +19057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Create an identity matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Matrix",
           "name": "identity",
           "package": "CV",
@@ -17567,6 +19068,7 @@
         "index": {
           "description": "Create an identity matrix",
           "hierarchy": "CV Matrix",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Matrix",
           "name": "identity",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -17582,6 +19084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix inversion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Matrix",
           "name": "invert",
           "package": "CV",
@@ -17592,6 +19095,7 @@
         "index": {
           "description": "Matrix inversion",
           "hierarchy": "CV Matrix",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Matrix",
           "name": "invert",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -17607,6 +19111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Ordinary matrix multiplication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Matrix",
           "name": "mxm",
           "package": "CV",
@@ -17617,6 +19122,7 @@
         "index": {
           "description": "Ordinary matrix multiplication",
           "hierarchy": "CV Matrix",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Matrix",
           "name": "mxm",
           "normalized": "Matrix a-\u003eMatrix a-\u003eMatrix a",
@@ -17632,6 +19138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Write an element to a matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Matrix",
           "name": "put",
           "package": "CV",
@@ -17642,6 +19149,7 @@
         "index": {
           "description": "Write an element to matrix",
           "hierarchy": "CV Matrix",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Matrix",
           "name": "put",
           "normalized": "Matrix a-\u003eInt-\u003eInt-\u003ea-\u003eIO()",
@@ -17657,6 +19165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a rotation vector to a rotation matrix (1x3 -\u003e 3x3)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Matrix",
           "name": "rodrigues2",
           "package": "CV",
@@ -17667,6 +19176,7 @@
         "index": {
           "description": "Convert rotation vector to rotation matrix x3 x3",
           "hierarchy": "CV Matrix",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Matrix",
           "name": "rodrigues2",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -17682,6 +19192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert matrix to cols represented as nested lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Matrix",
           "name": "toCols",
           "package": "CV",
@@ -17692,6 +19203,7 @@
         "index": {
           "description": "Convert matrix to cols represented as nested lists",
           "hierarchy": "CV Matrix",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Matrix",
           "name": "toCols",
           "normalized": "Matrix a-\u003e[[a]]",
@@ -17708,6 +19220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Convert a matrix to flat list (row major order)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Matrix",
           "name": "toList",
           "package": "CV",
@@ -17718,6 +19231,7 @@
         "index": {
           "description": "Convert matrix to flat list row major order",
           "hierarchy": "CV Matrix",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Matrix",
           "name": "toList",
           "normalized": "Matrix a-\u003e[a]",
@@ -17734,6 +19248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert matrix to rows represented as nested lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Matrix",
           "name": "toRows",
           "package": "CV",
@@ -17744,6 +19259,7 @@
         "index": {
           "description": "Convert matrix to rows represented as nested lists",
           "hierarchy": "CV Matrix",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Matrix",
           "name": "toRows",
           "normalized": "Matrix a-\u003e[[a]]",
@@ -17760,6 +19276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranspose a matrix. Does not do complex conjugation for complex matrices\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Matrix",
           "name": "transpose",
           "package": "CV",
@@ -17770,6 +19287,7 @@
         "index": {
           "description": "Transpose matrix Does not do complex conjugation for complex matrices",
           "hierarchy": "CV Matrix",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Matrix",
           "name": "transpose",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -17784,6 +19302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Matrix",
           "name": "withMatPtr",
           "package": "CV",
@@ -17793,6 +19312,7 @@
         },
         "index": {
           "hierarchy": "CV Matrix",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Matrix",
           "name": "withMatPtr",
           "normalized": "Matrix a-\u003e(Ptr C'CvMat-\u003eIO b)-\u003eIO b",
@@ -17808,6 +19328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Morphology",
           "name": "Morphology",
           "package": "CV",
@@ -17816,6 +19337,7 @@
         },
         "index": {
           "hierarchy": "CV Morphology",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Morphology",
           "name": "Morphology",
           "package": "CV",
@@ -17829,6 +19351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Morphology",
           "name": "KernelShape",
           "package": "CV",
@@ -17837,6 +19360,7 @@
         },
         "index": {
           "hierarchy": "CV Morphology",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Morphology",
           "name": "KernelShape",
           "package": "CV",
@@ -17850,6 +19374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Morphology",
           "name": "StructuringElement",
           "package": "CV",
@@ -17858,6 +19383,7 @@
         },
         "index": {
           "hierarchy": "CV Morphology",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Morphology",
           "name": "StructuringElement",
           "package": "CV",
@@ -17871,6 +19397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Morphology",
           "name": "CrossShape",
           "package": "CV",
@@ -17880,6 +19407,7 @@
         },
         "index": {
           "hierarchy": "CV Morphology",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Morphology",
           "name": "CrossShape",
           "package": "CV",
@@ -17893,6 +19421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Morphology",
           "name": "EllipseShape",
           "package": "CV",
@@ -17902,6 +19431,7 @@
         },
         "index": {
           "hierarchy": "CV Morphology",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Morphology",
           "name": "EllipseShape",
           "package": "CV",
@@ -17915,6 +19445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Morphology",
           "name": "RectShape",
           "package": "CV",
@@ -17924,6 +19455,7 @@
         },
         "index": {
           "hierarchy": "CV Morphology",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Morphology",
           "name": "RectShape",
           "package": "CV",
@@ -17937,6 +19469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Morphology",
           "name": "basicSE",
           "package": "CV",
@@ -17946,6 +19479,7 @@
         },
         "index": {
           "hierarchy": "CV Morphology",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Morphology",
           "name": "basicSE",
           "package": "CV",
@@ -17959,6 +19493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Morphology",
           "name": "bigSE",
           "package": "CV",
@@ -17968,6 +19503,7 @@
         },
         "index": {
           "hierarchy": "CV Morphology",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Morphology",
           "name": "bigSE",
           "package": "CV",
@@ -17982,6 +19518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a black tophat filtering of size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Morphology",
           "name": "blackTopHat",
           "package": "CV",
@@ -17992,6 +19529,7 @@
         "index": {
           "description": "Perform black tophat filtering of size",
           "hierarchy": "CV Morphology",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Morphology",
           "name": "blackTopHat",
           "normalized": "CInt-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -18007,6 +19545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Morphology",
           "name": "close",
           "package": "CV",
@@ -18016,6 +19555,7 @@
         },
         "index": {
           "hierarchy": "CV Morphology",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Morphology",
           "name": "close",
           "normalized": "StructuringElement-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -18030,6 +19570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Morphology",
           "name": "closeOp",
           "package": "CV",
@@ -18039,6 +19580,7 @@
         },
         "index": {
           "hierarchy": "CV Morphology",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Morphology",
           "name": "closeOp",
           "normalized": "StructuringElement-\u003eImageOperation GrayScale D",
@@ -18054,6 +19596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Morphology",
           "name": "customSE",
           "package": "CV",
@@ -18063,6 +19606,7 @@
         },
         "index": {
           "hierarchy": "CV Morphology",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Morphology",
           "name": "customSE",
           "normalized": "(CInt,CInt)-\u003e(CInt,CInt)-\u003e[CInt]-\u003eConvKernel",
@@ -18078,6 +19622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Morphology",
           "name": "dilate",
           "package": "CV",
@@ -18087,6 +19632,7 @@
         },
         "index": {
           "hierarchy": "CV Morphology",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Morphology",
           "name": "dilate",
           "normalized": "ConvKernel-\u003eInt-\u003eImage a b-\u003eImage a b",
@@ -18101,6 +19647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Morphology",
           "name": "dilateOp",
           "package": "CV",
@@ -18110,6 +19657,7 @@
         },
         "index": {
           "hierarchy": "CV Morphology",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Morphology",
           "name": "dilateOp",
           "normalized": "ConvKernel-\u003eInt-\u003eImageOperation a b",
@@ -18125,6 +19673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Morphology",
           "name": "erode",
           "package": "CV",
@@ -18134,6 +19683,7 @@
         },
         "index": {
           "hierarchy": "CV Morphology",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Morphology",
           "name": "erode",
           "normalized": "ConvKernel-\u003eInt-\u003eImage a b-\u003eImage a b",
@@ -18148,6 +19698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Morphology",
           "name": "erodeOp",
           "package": "CV",
@@ -18157,6 +19708,7 @@
         },
         "index": {
           "hierarchy": "CV Morphology",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Morphology",
           "name": "erodeOp",
           "normalized": "ConvKernel-\u003eInt-\u003eImageOperation a b",
@@ -18172,6 +19724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Morphology",
           "name": "geodesic",
           "package": "CV",
@@ -18181,6 +19734,7 @@
         },
         "index": {
           "hierarchy": "CV Morphology",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Morphology",
           "name": "geodesic",
           "normalized": "Image GrayScale D-\u003eImageOperation GrayScale D-\u003eImageOperation GrayScale D",
@@ -18195,6 +19749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Morphology",
           "name": "open",
           "package": "CV",
@@ -18204,6 +19759,7 @@
         },
         "index": {
           "hierarchy": "CV Morphology",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Morphology",
           "name": "open",
           "normalized": "StructuringElement-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -18218,6 +19774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Morphology",
           "name": "openOp",
           "package": "CV",
@@ -18227,6 +19784,7 @@
         },
         "index": {
           "hierarchy": "CV Morphology",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Morphology",
           "name": "openOp",
           "normalized": "StructuringElement-\u003eImageOperation GrayScale D",
@@ -18242,6 +19800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Morphology",
           "name": "structuringElement",
           "package": "CV",
@@ -18251,6 +19810,7 @@
         },
         "index": {
           "hierarchy": "CV Morphology",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Morphology",
           "name": "structuringElement",
           "normalized": "(CInt,CInt)-\u003e(CInt,CInt)-\u003ea-\u003eConvKernel",
@@ -18267,6 +19827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a white tophat filtering of size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Morphology",
           "name": "whiteTopHat",
           "package": "CV",
@@ -18277,6 +19838,7 @@
         "index": {
           "description": "Perform white tophat filtering of size",
           "hierarchy": "CV Morphology",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Morphology",
           "name": "whiteTopHat",
           "normalized": "CInt-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -18293,6 +19855,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e&#160;This module provides the elementary image splining (seamless merging) using the burt-adelson multiresolution splines\n introduced in \u003ca\u003eA multiresolution spline with application to image mosaics\u003c/a\u003e, Burt, P.J. and Adelson, E.H., ACM Transactions on Graphics,1983.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.MultiresolutionSpline",
           "name": "MultiresolutionSpline",
           "package": "CV",
@@ -18302,6 +19865,7 @@
         "index": {
           "description": "This module provides the elementary image splining seamless merging using the burt-adelson multiresolution splines introduced in multiresolution spline with application to image mosaics Burt P.J and Adelson E.H ACM Transactions on Graphics",
           "hierarchy": "CV MultiresolutionSpline",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.MultiresolutionSpline",
           "name": "MultiresolutionSpline",
           "package": "CV",
@@ -18316,6 +19880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function merges two images based on given mask, the first image dominates on areas where the mask\n   is 1 and the second where the mask is 0. The merging should be relatively seamless and is controlled by\n   the \u003ccode\u003elevels\u003c/code\u003e parameter, which adjusts the accuracy. Usually, decent results can be obtained with 4 pyramid \n   levels.\n\u003c/p\u003e\u003cp\u003eNote that the mask should contain a tiny blurred region between images for optimal result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.MultiresolutionSpline",
           "name": "burtAdelsonMerge",
           "package": "CV",
@@ -18326,6 +19891,7 @@
         "index": {
           "description": "This function merges two images based on given mask the first image dominates on areas where the mask is and the second where the mask is The merging should be relatively seamless and is controlled by the levels parameter which adjusts the accuracy Usually decent results can be obtained with pyramid levels Note that the mask should contain tiny blurred region between images for optimal result",
           "hierarchy": "CV MultiresolutionSpline",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.MultiresolutionSpline",
           "name": "burtAdelsonMerge",
           "normalized": "Int-\u003eImage GrayScale D-\u003eImage GrayScale D-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -18341,6 +19907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "Operations",
           "package": "CV",
@@ -18349,6 +19916,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "Operations",
           "package": "CV",
@@ -18362,6 +19930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "NormType",
           "package": "CV",
@@ -18370,6 +19939,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "NormType",
           "package": "CV",
@@ -18383,6 +19953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "NormC",
           "package": "CV",
@@ -18392,6 +19963,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "NormC",
           "package": "CV",
@@ -18405,6 +19977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "NormDiff",
           "package": "CV",
@@ -18414,6 +19987,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "NormDiff",
           "package": "CV",
@@ -18427,6 +20001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "NormDiffC",
           "package": "CV",
@@ -18436,6 +20011,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "NormDiffC",
           "package": "CV",
@@ -18449,6 +20025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "NormDiffL1",
           "package": "CV",
@@ -18458,6 +20035,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "NormDiffL1",
           "package": "CV",
@@ -18471,6 +20049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "NormDiffL2",
           "package": "CV",
@@ -18480,6 +20059,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "NormDiffL2",
           "package": "CV",
@@ -18493,6 +20073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "NormDiffRelativeC",
           "package": "CV",
@@ -18502,6 +20083,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "NormDiffRelativeC",
           "package": "CV",
@@ -18515,6 +20097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "NormDiffRelativeL1",
           "package": "CV",
@@ -18524,6 +20107,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "NormDiffRelativeL1",
           "package": "CV",
@@ -18537,6 +20121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "NormDiffRelativeL2",
           "package": "CV",
@@ -18546,6 +20131,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "NormDiffRelativeL2",
           "package": "CV",
@@ -18559,6 +20145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "NormL1",
           "package": "CV",
@@ -18568,6 +20155,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "NormL1",
           "package": "CV",
@@ -18581,6 +20169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "NormL2",
           "package": "CV",
@@ -18590,6 +20179,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "NormL2",
           "package": "CV",
@@ -18603,6 +20193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "NormMask",
           "package": "CV",
@@ -18612,6 +20203,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "NormMask",
           "package": "CV",
@@ -18625,6 +20217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "NormMinMax",
           "package": "CV",
@@ -18634,6 +20227,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "NormMinMax",
           "package": "CV",
@@ -18647,6 +20241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "NormRelative",
           "package": "CV",
@@ -18656,6 +20251,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "NormRelative",
           "package": "CV",
@@ -18669,6 +20265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "cartToPolar",
           "package": "CV",
@@ -18678,6 +20275,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "cartToPolar",
           "normalized": "(Image GrayScale D,Image GrayScale D)-\u003e(Image GrayScale D,Image GrayScale D)",
@@ -18693,6 +20291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "clear",
           "package": "CV",
@@ -18702,6 +20301,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "clear",
           "normalized": "Image a b-\u003eImage a b",
@@ -18716,6 +20316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "expand",
           "package": "CV",
@@ -18725,6 +20326,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "expand",
           "normalized": "(Int,Int,Int,Int)-\u003eImage a b-\u003eImage a b",
@@ -18739,6 +20341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "logNormalize",
           "package": "CV",
@@ -18748,6 +20351,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "logNormalize",
           "normalized": "Image GrayScale D-\u003eImage GrayScale D",
@@ -18763,6 +20367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "normalize",
           "package": "CV",
@@ -18772,6 +20377,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "normalize",
           "normalized": "Double-\u003eDouble-\u003eNormType-\u003eImage a b-\u003eImage a b",
@@ -18786,6 +20392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "set",
           "package": "CV",
@@ -18795,6 +20402,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "set",
           "normalized": "Double-\u003eImage a b-\u003eImage a b",
@@ -18809,6 +20417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "unitNormalize",
           "package": "CV",
@@ -18818,6 +20427,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "unitNormalize",
           "normalized": "Image GrayScale a-\u003eImage GrayScale a",
@@ -18833,6 +20443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Operations",
           "name": "unitStretch",
           "package": "CV",
@@ -18842,6 +20453,7 @@
         },
         "index": {
           "hierarchy": "CV Operations",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Operations",
           "name": "unitStretch",
           "normalized": "Image a b-\u003eImage a b",
@@ -18858,6 +20470,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e&#160;This module is an applicative wrapper for images. It introduces Pixelwise type that\n   can be converted from and to grayscale images and which has an applicative and functor\n   instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Pixelwise",
           "name": "Pixelwise",
           "package": "CV",
@@ -18867,6 +20480,7 @@
         "index": {
           "description": "This module is an applicative wrapper for images It introduces Pixelwise type that can be converted from and to grayscale images and which has an applicative and functor instances",
           "hierarchy": "CV Pixelwise",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Pixelwise",
           "name": "Pixelwise",
           "package": "CV",
@@ -18881,6 +20495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper for allowing functor and applicative instances for non-polymorphic image types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Pixelwise",
           "name": "Pixelwise",
           "package": "CV",
@@ -18890,6 +20505,7 @@
         "index": {
           "description": "wrapper for allowing functor and applicative instances for non-polymorphic image types",
           "hierarchy": "CV Pixelwise",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Pixelwise",
           "name": "Pixelwise",
           "package": "CV",
@@ -18904,6 +20520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for `a \u003ca\u003e$\u003c/a\u003e fromImage b`\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Pixelwise",
           "name": "(\u003c$$\u003e)",
           "package": "CV",
@@ -18914,6 +20531,7 @@
         "index": {
           "description": "Shorthand for fromImage",
           "hierarchy": "CV Pixelwise",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Pixelwise",
           "name": "(\u003c$$\u003e) \u003c$$\u003e",
           "normalized": "(P a-\u003ea)-\u003ea-\u003ePixelwise a",
@@ -18929,6 +20547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for `a \u003ca\u003e*\u003c/a\u003e fromImage b`\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Pixelwise",
           "name": "(\u003c+\u003e)",
           "package": "CV",
@@ -18939,6 +20558,7 @@
         "index": {
           "description": "Shorthand for fromImage",
           "hierarchy": "CV Pixelwise",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Pixelwise",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "Pixelwise(P a-\u003ea)-\u003ea-\u003ePixelwise a",
@@ -18953,6 +20573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Pixelwise",
           "name": "MkP",
           "package": "CV",
@@ -18962,6 +20583,7 @@
         },
         "index": {
           "hierarchy": "CV Pixelwise",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Pixelwise",
           "name": "MkP",
           "package": "CV",
@@ -18975,6 +20597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Pixelwise",
           "name": "eltOf",
           "package": "CV",
@@ -18984,6 +20607,7 @@
         },
         "index": {
           "hierarchy": "CV Pixelwise",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Pixelwise",
           "name": "eltOf",
           "normalized": "(Int,Int)-\u003ea",
@@ -19000,6 +20624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a function into construct into a Pixelwise construct\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Pixelwise",
           "name": "fromFunction",
           "package": "CV",
@@ -19010,6 +20635,7 @@
         "index": {
           "description": "Convert function into construct into Pixelwise construct",
           "hierarchy": "CV Pixelwise",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Pixelwise",
           "name": "fromFunction",
           "normalized": "(Int,Int)-\u003e((Int,Int)-\u003ea)-\u003ePixelwise a",
@@ -19025,6 +20651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Pixelwise",
           "name": "fromImage",
           "package": "CV",
@@ -19034,6 +20661,7 @@
         },
         "index": {
           "hierarchy": "CV Pixelwise",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Pixelwise",
           "name": "fromImage",
           "normalized": "a-\u003ePixelwise(P a)",
@@ -19049,6 +20677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Pixelwise",
           "name": "imageFromFunction",
           "package": "CV",
@@ -19058,6 +20687,7 @@
         },
         "index": {
           "hierarchy": "CV Pixelwise",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Pixelwise",
           "name": "imageFromFunction",
           "normalized": "(Int,Int)-\u003e((Int,Int)-\u003eSP(Image a b))-\u003eImage a b",
@@ -19074,6 +20704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert image to a function, which returns pixel values in the domain of\n the image and zero elsewhere\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Pixelwise",
           "name": "imageToFunction",
           "package": "CV",
@@ -19084,6 +20715,7 @@
         "index": {
           "description": "Convert image to function which returns pixel values in the domain of the image and zero elsewhere",
           "hierarchy": "CV Pixelwise",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Pixelwise",
           "name": "imageToFunction",
           "normalized": "Image a b-\u003e(Int,Int)-\u003eP(Image a b)",
@@ -19099,6 +20731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Pixelwise",
           "name": "mapImage",
           "package": "CV",
@@ -19108,6 +20741,7 @@
         },
         "index": {
           "hierarchy": "CV Pixelwise",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Pixelwise",
           "name": "mapImage",
           "normalized": "(P(Image a b)-\u003eSP(Image c d))-\u003eImage a b-\u003eImage c d",
@@ -19123,6 +20757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Pixelwise",
           "name": "mapPixels",
           "package": "CV",
@@ -19132,6 +20767,7 @@
         },
         "index": {
           "hierarchy": "CV Pixelwise",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Pixelwise",
           "name": "mapPixels",
           "normalized": "(a-\u003eb)-\u003ePixelwise a-\u003ePixelwise b",
@@ -19148,6 +20784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRe-arrange pixel positions and values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Pixelwise",
           "name": "remap",
           "package": "CV",
@@ -19158,6 +20795,7 @@
         "index": {
           "description": "Re-arrange pixel positions and values",
           "hierarchy": "CV Pixelwise",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Pixelwise",
           "name": "remap",
           "normalized": "(((Int,Int)-\u003ea)-\u003e(Int,Int)-\u003eb)-\u003ePixelwise a-\u003ePixelwise b",
@@ -19172,6 +20810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Pixelwise",
           "name": "remapImage",
           "package": "CV",
@@ -19181,6 +20820,7 @@
         },
         "index": {
           "hierarchy": "CV Pixelwise",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Pixelwise",
           "name": "remapImage",
           "normalized": "(((Int,Int)-\u003eP(Image a b))-\u003e(Int,Int)-\u003eSP(Image a b))-\u003eImage a b-\u003eImage a b",
@@ -19196,6 +20836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Pixelwise",
           "name": "sizeOf",
           "package": "CV",
@@ -19205,6 +20846,7 @@
         },
         "index": {
           "hierarchy": "CV Pixelwise",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Pixelwise",
           "name": "sizeOf",
           "normalized": "(Int,Int)",
@@ -19221,6 +20863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a pixelwise construct to image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Pixelwise",
           "name": "toImage",
           "package": "CV",
@@ -19231,6 +20874,7 @@
         "index": {
           "description": "Convert pixelwise construct to image",
           "hierarchy": "CV Pixelwise",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Pixelwise",
           "name": "toImage",
           "normalized": "Pixelwise(SP(Image a b))-\u003eImage a b",
@@ -19247,6 +20891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a pixelwise construct to image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Pixelwise",
           "name": "toImagePar",
           "package": "CV",
@@ -19257,6 +20902,7 @@
         "index": {
           "description": "Convert pixelwise construct to image",
           "hierarchy": "CV Pixelwise",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Pixelwise",
           "name": "toImagePar",
           "normalized": "Int-\u003ePixelwise(SP(Image a b))-\u003eImage a b",
@@ -19272,6 +20918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Projection",
           "name": "Projection",
           "package": "CV",
@@ -19280,6 +20927,7 @@
         },
         "index": {
           "hierarchy": "CV Projection",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Projection",
           "name": "Projection",
           "package": "CV",
@@ -19293,6 +20941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Projection",
           "name": "projectPolar",
           "package": "CV",
@@ -19302,6 +20951,7 @@
         },
         "index": {
           "hierarchy": "CV Projection",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Projection",
           "name": "projectPolar",
           "normalized": "Image a b-\u003eImage GrayScale D",
@@ -19317,6 +20967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Sampling",
           "name": "Sampling",
           "package": "CV",
@@ -19325,6 +20976,7 @@
         },
         "index": {
           "hierarchy": "CV Sampling",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Sampling",
           "name": "Sampling",
           "package": "CV",
@@ -19338,6 +20990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Sampling",
           "name": "allButLast",
           "package": "CV",
@@ -19347,6 +21000,7 @@
         },
         "index": {
           "hierarchy": "CV Sampling",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Sampling",
           "name": "allButLast",
           "normalized": "[a]-\u003e[a]",
@@ -19362,6 +21016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Sampling",
           "name": "allPatches",
           "package": "CV",
@@ -19371,6 +21026,7 @@
         },
         "index": {
           "hierarchy": "CV Sampling",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Sampling",
           "name": "allPatches",
           "normalized": "(Int,Int)-\u003eImage a b-\u003e[Image a b]",
@@ -19386,6 +21042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Sampling",
           "name": "both",
           "package": "CV",
@@ -19395,6 +21052,7 @@
         },
         "index": {
           "hierarchy": "CV Sampling",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Sampling",
           "name": "both",
           "normalized": "(a-\u003ea)-\u003e(a,a)-\u003e(a,a)",
@@ -19409,6 +21067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Sampling",
           "name": "discardAroundEdges",
           "package": "CV",
@@ -19418,6 +21077,7 @@
         },
         "index": {
           "hierarchy": "CV Sampling",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Sampling",
           "name": "discardAroundEdges",
           "normalized": "(a,a)-\u003e(a,a)-\u003e[(a,a)]-\u003e[(a,a)]",
@@ -19433,6 +21093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Sampling",
           "name": "getCenteredPatches",
           "package": "CV",
@@ -19442,6 +21103,7 @@
         },
         "index": {
           "hierarchy": "CV Sampling",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Sampling",
           "name": "getCenteredPatches",
           "normalized": "(Int,Int)-\u003e[(Int,Int)]-\u003eImage a b-\u003e[Image a b]",
@@ -19457,6 +21119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Sampling",
           "name": "getCoordsFromMarks",
           "package": "CV",
@@ -19466,6 +21129,7 @@
         },
         "index": {
           "hierarchy": "CV Sampling",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Sampling",
           "name": "getCoordsFromMarks",
           "normalized": "a-\u003e[(Int,Int)]",
@@ -19481,6 +21145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Sampling",
           "name": "getMarkedAndUnmarkedTiles",
           "package": "CV",
@@ -19490,6 +21155,7 @@
         },
         "index": {
           "hierarchy": "CV Sampling",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Sampling",
           "name": "getMarkedAndUnmarkedTiles",
           "normalized": "(Int,Int)-\u003e(CDouble,CDouble)-\u003eImage a b-\u003eImage GrayScale Float-\u003e([Image a b],[Image a b])",
@@ -19505,6 +21171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Sampling",
           "name": "getMarkedPatches",
           "package": "CV",
@@ -19514,6 +21181,7 @@
         },
         "index": {
           "hierarchy": "CV Sampling",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Sampling",
           "name": "getMarkedPatches",
           "normalized": "(Int,Int)-\u003eImage a b-\u003ec-\u003e[Image a b]",
@@ -19529,6 +21197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Sampling",
           "name": "getOverlappedTileCoords",
           "package": "CV",
@@ -19538,6 +21207,7 @@
         },
         "index": {
           "hierarchy": "CV Sampling",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Sampling",
           "name": "getOverlappedTileCoords",
           "normalized": "(a,a)-\u003e(a,a)-\u003eb-\u003e[(a,a)]",
@@ -19553,6 +21223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Sampling",
           "name": "getOverlappedTiles",
           "package": "CV",
@@ -19562,6 +21233,7 @@
         },
         "index": {
           "hierarchy": "CV Sampling",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Sampling",
           "name": "getOverlappedTiles",
           "normalized": "(Int,Int)-\u003e(CDouble,CDouble)-\u003eImage a b-\u003e[Image a b]",
@@ -19577,6 +21249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Sampling",
           "name": "getOverlappedTilesC",
           "package": "CV",
@@ -19586,6 +21259,7 @@
         },
         "index": {
           "hierarchy": "CV Sampling",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Sampling",
           "name": "getOverlappedTilesC",
           "normalized": "(Int,Int)-\u003e(CDouble,CDouble)-\u003eImage a b-\u003e[((Int,Int),Image a b)]",
@@ -19601,6 +21275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Sampling",
           "name": "getPatches",
           "package": "CV",
@@ -19610,6 +21285,7 @@
         },
         "index": {
           "hierarchy": "CV Sampling",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Sampling",
           "name": "getPatches",
           "normalized": "(Int,Int)-\u003e[(Int,Int)]-\u003eImage a b-\u003e[Image a b]",
@@ -19625,6 +21301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Sampling",
           "name": "getTiles",
           "package": "CV",
@@ -19634,6 +21311,7 @@
         },
         "index": {
           "hierarchy": "CV Sampling",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Sampling",
           "name": "getTiles",
           "normalized": "(Int,Int)-\u003eImage a b-\u003e[Image a b]",
@@ -19649,6 +21327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Sampling",
           "name": "getTilesC",
           "package": "CV",
@@ -19658,6 +21337,7 @@
         },
         "index": {
           "hierarchy": "CV Sampling",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Sampling",
           "name": "getTilesC",
           "normalized": "(Int,Int)-\u003eImage a b-\u003e[((Int,Int),Image a b)]",
@@ -19673,6 +21353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Sampling",
           "name": "randomCoord",
           "package": "CV",
@@ -19682,6 +21363,7 @@
         },
         "index": {
           "hierarchy": "CV Sampling",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Sampling",
           "name": "randomCoord",
           "normalized": "(Int,Int)-\u003eGen(PrimState a)-\u003ea(Int,Int)",
@@ -19697,6 +21379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Sampling",
           "name": "randomPatches",
           "package": "CV",
@@ -19706,6 +21389,7 @@
         },
         "index": {
           "hierarchy": "CV Sampling",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Sampling",
           "name": "randomPatches",
           "normalized": "(Int,Int)-\u003eInt-\u003eImage a b-\u003eGen(PrimState c)-\u003ec[Image a b]",
@@ -19721,6 +21405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.TemplateMatching",
           "name": "TemplateMatching",
           "package": "CV",
@@ -19729,6 +21414,7 @@
         },
         "index": {
           "hierarchy": "CV TemplateMatching",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.TemplateMatching",
           "name": "TemplateMatching",
           "package": "CV",
@@ -19742,6 +21428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.TemplateMatching",
           "name": "MatchType",
           "package": "CV",
@@ -19750,6 +21437,7 @@
         },
         "index": {
           "hierarchy": "CV TemplateMatching",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.TemplateMatching",
           "name": "MatchType",
           "package": "CV",
@@ -19763,6 +21451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.TemplateMatching",
           "name": "ShapeMatchMethod",
           "package": "CV",
@@ -19771,6 +21460,7 @@
         },
         "index": {
           "hierarchy": "CV TemplateMatching",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.TemplateMatching",
           "name": "ShapeMatchMethod",
           "package": "CV",
@@ -19784,6 +21474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.TemplateMatching",
           "name": "CCOEFF",
           "package": "CV",
@@ -19793,6 +21484,7 @@
         },
         "index": {
           "hierarchy": "CV TemplateMatching",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.TemplateMatching",
           "name": "CCOEFF",
           "package": "CV",
@@ -19806,6 +21498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.TemplateMatching",
           "name": "CCOEFF_NORMED",
           "package": "CV",
@@ -19815,6 +21508,7 @@
         },
         "index": {
           "hierarchy": "CV TemplateMatching",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.TemplateMatching",
           "name": "CCOEFF_NORMED",
           "package": "CV",
@@ -19828,6 +21522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.TemplateMatching",
           "name": "CCORR",
           "package": "CV",
@@ -19837,6 +21532,7 @@
         },
         "index": {
           "hierarchy": "CV TemplateMatching",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.TemplateMatching",
           "name": "CCORR",
           "package": "CV",
@@ -19850,6 +21546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.TemplateMatching",
           "name": "CCORR_NORMED",
           "package": "CV",
@@ -19859,6 +21556,7 @@
         },
         "index": {
           "hierarchy": "CV TemplateMatching",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.TemplateMatching",
           "name": "CCORR_NORMED",
           "package": "CV",
@@ -19872,6 +21570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.TemplateMatching",
           "name": "Method1",
           "package": "CV",
@@ -19881,6 +21580,7 @@
         },
         "index": {
           "hierarchy": "CV TemplateMatching",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.TemplateMatching",
           "name": "Method1",
           "package": "CV",
@@ -19894,6 +21594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.TemplateMatching",
           "name": "Method2",
           "package": "CV",
@@ -19903,6 +21604,7 @@
         },
         "index": {
           "hierarchy": "CV TemplateMatching",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.TemplateMatching",
           "name": "Method2",
           "package": "CV",
@@ -19916,6 +21618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.TemplateMatching",
           "name": "Method3",
           "package": "CV",
@@ -19925,6 +21628,7 @@
         },
         "index": {
           "hierarchy": "CV TemplateMatching",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.TemplateMatching",
           "name": "Method3",
           "package": "CV",
@@ -19938,6 +21642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.TemplateMatching",
           "name": "SQDIFF",
           "package": "CV",
@@ -19947,6 +21652,7 @@
         },
         "index": {
           "hierarchy": "CV TemplateMatching",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.TemplateMatching",
           "name": "SQDIFF",
           "package": "CV",
@@ -19960,6 +21666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.TemplateMatching",
           "name": "SQDIFF_NORMED",
           "package": "CV",
@@ -19969,6 +21676,7 @@
         },
         "index": {
           "hierarchy": "CV TemplateMatching",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.TemplateMatching",
           "name": "SQDIFF_NORMED",
           "package": "CV",
@@ -19982,6 +21690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.TemplateMatching",
           "name": "cvMatchShapes",
           "package": "CV",
@@ -19991,6 +21700,7 @@
         },
         "index": {
           "hierarchy": "CV TemplateMatching",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.TemplateMatching",
           "name": "cvMatchShapes",
           "normalized": "Ptr()-\u003ePtr()-\u003eCInt-\u003eCDouble-\u003eIO CDouble",
@@ -20006,6 +21716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.TemplateMatching",
           "name": "cvMatchTemplate",
           "package": "CV",
@@ -20015,6 +21726,7 @@
         },
         "index": {
           "hierarchy": "CV TemplateMatching",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.TemplateMatching",
           "name": "cvMatchTemplate",
           "normalized": "Ptr()-\u003ePtr()-\u003ePtr()-\u003eCInt-\u003eIO()",
@@ -20030,6 +21742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.TemplateMatching",
           "name": "getTemplateMap",
           "package": "CV",
@@ -20039,6 +21752,7 @@
         },
         "index": {
           "hierarchy": "CV TemplateMatching",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.TemplateMatching",
           "name": "getTemplateMap",
           "normalized": "Image a b-\u003eImage a b-\u003eImage c d",
@@ -20054,6 +21768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.TemplateMatching",
           "name": "matchShapes",
           "package": "CV",
@@ -20063,6 +21778,7 @@
         },
         "index": {
           "hierarchy": "CV TemplateMatching",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.TemplateMatching",
           "name": "matchShapes",
           "normalized": "ShapeMatchMethod-\u003eImage GrayScale D-\u003eImage GrayScale D-\u003eDouble",
@@ -20078,6 +21794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.TemplateMatching",
           "name": "matchTemplate",
           "package": "CV",
@@ -20087,6 +21804,7 @@
         },
         "index": {
           "hierarchy": "CV TemplateMatching",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.TemplateMatching",
           "name": "matchTemplate",
           "normalized": "MatchType-\u003eImage GrayScale D-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -20102,6 +21820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.TemplateMatching",
           "name": "regionToInt",
           "package": "CV",
@@ -20111,6 +21830,7 @@
         },
         "index": {
           "hierarchy": "CV TemplateMatching",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.TemplateMatching",
           "name": "regionToInt",
           "normalized": "Rectangle a-\u003eRectangle a",
@@ -20126,6 +21846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.TemplateMatching",
           "name": "simpleMatchTemplate",
           "package": "CV",
@@ -20135,6 +21856,7 @@
         },
         "index": {
           "hierarchy": "CV TemplateMatching",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.TemplateMatching",
           "name": "simpleMatchTemplate",
           "normalized": "Ptr BareImage-\u003ePtr BareImage-\u003ePtr CInt-\u003ePtr CInt-\u003ePtr CDouble-\u003eCInt-\u003eIO()",
@@ -20150,6 +21872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.TemplateMatching",
           "name": "simpleTemplateMatch",
           "package": "CV",
@@ -20159,6 +21882,7 @@
         },
         "index": {
           "hierarchy": "CV TemplateMatching",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.TemplateMatching",
           "name": "simpleTemplateMatch",
           "normalized": "MatchType-\u003eImage GrayScale D-\u003eImage GrayScale D-\u003e((Int,Int),Double)",
@@ -20175,6 +21899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform subpixel template matching using intensity interpolation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.TemplateMatching",
           "name": "subPixelTemplateMatch",
           "package": "CV",
@@ -20185,6 +21910,7 @@
         "index": {
           "description": "Perform subpixel template matching using intensity interpolation",
           "hierarchy": "CV TemplateMatching",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.TemplateMatching",
           "name": "subPixelTemplateMatch",
           "normalized": "MatchType-\u003eImage GrayScale D-\u003eImage GrayScale D-\u003eDouble-\u003e(Double,Double)",
@@ -20200,6 +21926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.TemplateMatching",
           "name": "templateImage",
           "package": "CV",
@@ -20209,6 +21936,7 @@
         },
         "index": {
           "hierarchy": "CV TemplateMatching",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.TemplateMatching",
           "name": "templateImage",
           "normalized": "Ptr BareImage-\u003ePtr BareImage-\u003eIO(Ptr BareImage)",
@@ -20225,6 +21953,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides implementations for basic versions of Local Binary Pattern texture features introduced in\n T. Ojala, M. Pietik&#228;inen, and D. Harwood (1994), \u003ca\u003ePerformance evaluation of texture measures with classification\n  based on Kullback discrimination of distributions\u003c/a\u003e, Proceedings of the 12th IAPR International Conference on Pattern Recognition (ICPR 1994).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Textures",
           "name": "Textures",
           "package": "CV",
@@ -20234,6 +21963,7 @@
         "index": {
           "description": "This module provides implementations for basic versions of Local Binary Pattern texture features introduced in Ojala Pietik inen and Harwood Performance evaluation of texture measures with classification based on Kullback discrimination of distributions Proceedings of the th IAPR International Conference on Pattern Recognition ICPR",
           "hierarchy": "CV Textures",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Textures",
           "name": "Textures",
           "package": "CV",
@@ -20248,6 +21978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;The most basic 3x3 lbp operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Textures",
           "name": "lbp",
           "package": "CV",
@@ -20258,6 +21989,7 @@
         "index": {
           "description": "The most basic x3 lbp operator",
           "hierarchy": "CV Textures",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Textures",
           "name": "lbp",
           "normalized": "Image GrayScale D-\u003e[Double]",
@@ -20273,6 +22005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;The larger radius basic 5x5 lbp operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Textures",
           "name": "lbp5",
           "package": "CV",
@@ -20283,6 +22016,7 @@
         "index": {
           "description": "The larger radius basic x5 lbp operator",
           "hierarchy": "CV Textures",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Textures",
           "name": "lbp5",
           "normalized": "Image GrayScale D-\u003e[Double]",
@@ -20298,6 +22032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an LBP histogram into rotation invariant form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Textures",
           "name": "rotationInvariant",
           "package": "CV",
@@ -20308,6 +22043,7 @@
         "index": {
           "description": "Convert an LBP histogram into rotation invariant form",
           "hierarchy": "CV Textures",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Textures",
           "name": "rotationInvariant",
           "normalized": "[Double]-\u003eVector Double",
@@ -20324,6 +22060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of LBP which is weighted. This can be used to select only parts of the\n image by using binary masks, or to give higher weight for some areas of the image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Textures",
           "name": "weightedLBP",
           "package": "CV",
@@ -20334,6 +22071,7 @@
         "index": {
           "description": "variant of LBP which is weighted This can be used to select only parts of the image by using binary masks or to give higher weight for some areas of the image",
           "hierarchy": "CV Textures",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Textures",
           "name": "weightedLBP",
           "normalized": "a-\u003ea-\u003eImage GrayScale D-\u003eImage GrayScale D-\u003e[Double]",
@@ -20350,6 +22088,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImage thresholding operations\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Thresholding",
           "name": "Thresholding",
           "package": "CV",
@@ -20359,6 +22098,7 @@
         "index": {
           "description": "Image thresholding operations",
           "hierarchy": "CV Thresholding",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Thresholding",
           "name": "Thresholding",
           "package": "CV",
@@ -20373,6 +22113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMethod used for selecting the adaptive threshold value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Thresholding",
           "name": "AdaptiveType",
           "package": "CV",
@@ -20382,6 +22123,7 @@
         "index": {
           "description": "Method used for selecting the adaptive threshold value",
           "hierarchy": "CV Thresholding",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Thresholding",
           "name": "AdaptiveType",
           "package": "CV",
@@ -20396,6 +22138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThresholding behavior for values larger and smaller than threshold\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Thresholding",
           "name": "ThresholdType",
           "package": "CV",
@@ -20405,6 +22148,7 @@
         "index": {
           "description": "Thresholding behavior for values larger and smaller than threshold",
           "hierarchy": "CV Thresholding",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Thresholding",
           "name": "ThresholdType",
           "package": "CV",
@@ -20419,6 +22163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThreshold using the gaussian weighted mean of pixel neighborhood\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Thresholding",
           "name": "ByGaussian",
           "package": "CV",
@@ -20429,6 +22174,7 @@
         "index": {
           "description": "Threshold using the gaussian weighted mean of pixel neighborhood",
           "hierarchy": "CV Thresholding",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Thresholding",
           "name": "ByGaussian",
           "package": "CV",
@@ -20443,6 +22189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThreshold using the arithmetic mean of pixel neighborhood\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Thresholding",
           "name": "ByMean",
           "package": "CV",
@@ -20453,6 +22200,7 @@
         "index": {
           "description": "Threshold using the arithmetic mean of pixel neighborhood",
           "hierarchy": "CV Thresholding",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Thresholding",
           "name": "ByMean",
           "package": "CV",
@@ -20467,6 +22215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues larger than threshold are set to max, smaller to zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Thresholding",
           "name": "MaxAndZero",
           "package": "CV",
@@ -20477,6 +22226,7 @@
         "index": {
           "description": "Values larger than threshold are set to max smaller to zero",
           "hierarchy": "CV Thresholding",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Thresholding",
           "name": "MaxAndZero",
           "package": "CV",
@@ -20491,6 +22241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues larger than threshold are truncated to threshold, smaller are not touched\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Thresholding",
           "name": "ThreshAndValue",
           "package": "CV",
@@ -20501,6 +22252,7 @@
         "index": {
           "description": "Values larger than threshold are truncated to threshold smaller are not touched",
           "hierarchy": "CV Thresholding",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Thresholding",
           "name": "ThreshAndValue",
           "package": "CV",
@@ -20515,6 +22267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues larger than threshold are not touched, smaller are set to zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Thresholding",
           "name": "ValueAndZero",
           "package": "CV",
@@ -20525,6 +22278,7 @@
         "index": {
           "description": "Values larger than threshold are not touched smaller are set to zero",
           "hierarchy": "CV Thresholding",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Thresholding",
           "name": "ValueAndZero",
           "package": "CV",
@@ -20539,6 +22293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues larger than threshold are set to zero, smaller to max\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Thresholding",
           "name": "ZeroAndMax",
           "package": "CV",
@@ -20549,6 +22304,7 @@
         "index": {
           "description": "Values larger than threshold are set to zero smaller to max",
           "hierarchy": "CV Thresholding",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Thresholding",
           "name": "ZeroAndMax",
           "package": "CV",
@@ -20563,6 +22319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues larger than threshold are set to zero, smaller are not touched\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Thresholding",
           "name": "ZeroAndValue",
           "package": "CV",
@@ -20573,6 +22330,7 @@
         "index": {
           "description": "Values larger than threshold are set to zero smaller are not touched",
           "hierarchy": "CV Thresholding",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Thresholding",
           "name": "ZeroAndValue",
           "package": "CV",
@@ -20587,6 +22345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies adaptive thresholding by selecting the optimal threshold value for\n   each pixel. The threshold is selected by calculating the arithmetic or\n   gaussian-weighted mean of a pixel neighborhood, and applying a bias term to\n   the obtained value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Thresholding",
           "name": "adaptiveThreshold",
           "package": "CV",
@@ -20597,6 +22356,7 @@
         "index": {
           "description": "Applies adaptive thresholding by selecting the optimal threshold value for each pixel The threshold is selected by calculating the arithmetic or gaussian-weighted mean of pixel neighborhood and applying bias term to the obtained value",
           "hierarchy": "CV Thresholding",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Thresholding",
           "name": "adaptiveThreshold",
           "normalized": "AdaptiveType-\u003eThresholdType-\u003eInt-\u003eDouble-\u003eImage GrayScale a-\u003eImage GrayScale a",
@@ -20612,6 +22372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Thresholding",
           "name": "bernsen",
           "package": "CV",
@@ -20621,6 +22382,7 @@
         },
         "index": {
           "hierarchy": "CV Thresholding",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Thresholding",
           "name": "bernsen",
           "normalized": "(CInt,CInt)-\u003eFloat-\u003eImage GrayScale Float-\u003eImage GrayScale D",
@@ -20635,6 +22397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Thresholding",
           "name": "betweenClassVariance",
           "package": "CV",
@@ -20644,6 +22407,7 @@
         },
         "index": {
           "hierarchy": "CV Thresholding",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Thresholding",
           "name": "betweenClassVariance",
           "normalized": "[a]-\u003e[a]-\u003ea",
@@ -20659,6 +22423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Thresholding",
           "name": "kittler",
           "package": "CV",
@@ -20668,6 +22433,7 @@
         },
         "index": {
           "hierarchy": "CV Thresholding",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Thresholding",
           "name": "kittler",
           "normalized": "Float-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -20682,6 +22448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Thresholding",
           "name": "kittlerMeasure",
           "package": "CV",
@@ -20691,6 +22458,7 @@
         },
         "index": {
           "hierarchy": "CV Thresholding",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Thresholding",
           "name": "kittlerMeasure",
           "normalized": "Image GrayScale D-\u003eFloat-\u003eD",
@@ -20706,6 +22474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Thresholding",
           "name": "nibbly",
           "package": "CV",
@@ -20715,6 +22484,7 @@
         },
         "index": {
           "hierarchy": "CV Thresholding",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Thresholding",
           "name": "nibbly",
           "normalized": "D-\u003eD-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -20729,6 +22499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Thresholding",
           "name": "nibblyr",
           "package": "CV",
@@ -20738,6 +22509,7 @@
         },
         "index": {
           "hierarchy": "CV Thresholding",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Thresholding",
           "name": "nibblyr",
           "normalized": "(Int,Int)-\u003eFloat-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -20753,6 +22525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThresholds a grayscale image according to the selected type, using the\n   given threshold value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Thresholding",
           "name": "threshold",
           "package": "CV",
@@ -20763,6 +22536,7 @@
         "index": {
           "description": "Thresholds grayscale image according to the selected type using the given threshold value",
           "hierarchy": "CV Thresholding",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Thresholding",
           "name": "threshold",
           "normalized": "ThresholdType-\u003eDouble-\u003eImage GrayScale a-\u003eImage GrayScale a",
@@ -20777,6 +22551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Thresholding",
           "name": "thresholdInPlace",
           "package": "CV",
@@ -20786,6 +22561,7 @@
         },
         "index": {
           "hierarchy": "CV Thresholding",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Thresholding",
           "name": "thresholdInPlace",
           "normalized": "ThresholdType-\u003eDouble-\u003eImage GrayScale a-\u003eIO(Image GrayScale D)",
@@ -20802,6 +22578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThresholds a grayscale image using the otsu method according to the\n   selected type. Threshold value is selected automatically, and only 8-bit\n   images are supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Thresholding",
           "name": "thresholdOtsu",
           "package": "CV",
@@ -20812,6 +22589,7 @@
         "index": {
           "description": "Thresholds grayscale image using the otsu method according to the selected type Threshold value is selected automatically and only bit images are supported",
           "hierarchy": "CV Thresholding",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Thresholding",
           "name": "thresholdOtsu",
           "normalized": "ThresholdType-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -20827,6 +22605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Tracking",
           "name": "Tracking",
           "package": "CV",
@@ -20835,6 +22614,7 @@
         },
         "index": {
           "hierarchy": "CV Tracking",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Tracking",
           "name": "Tracking",
           "package": "CV",
@@ -20848,6 +22628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Tracking",
           "name": "meanShift",
           "package": "CV",
@@ -20857,6 +22638,7 @@
         },
         "index": {
           "hierarchy": "CV Tracking",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Tracking",
           "name": "meanShift",
           "normalized": "Image GrayScale D-\u003ea-\u003eTermCriteria-\u003e(Double,Rectangle Int)",
@@ -20872,6 +22654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Tracking",
           "name": "snake",
           "package": "CV",
@@ -20881,6 +22664,7 @@
         },
         "index": {
           "hierarchy": "CV Tracking",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Tracking",
           "name": "snake",
           "normalized": "Image a b-\u003e[(Int,Int)]-\u003eFloat-\u003eFloat-\u003eFloat-\u003e(CInt,CInt)-\u003eC'CvTermCriteria-\u003eBool-\u003eIO[C'CvPoint]",
@@ -20896,6 +22680,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious image transformations from opencv and other sources.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "Transforms",
           "package": "CV",
@@ -20905,6 +22690,7 @@
         "index": {
           "description": "Various image transformations from opencv and other sources",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "Transforms",
           "package": "CV",
@@ -20918,6 +22704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "DistanceType",
           "package": "CV",
@@ -20926,6 +22713,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "DistanceType",
           "package": "CV",
@@ -20939,6 +22727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "HomographyMethod",
           "package": "CV",
@@ -20947,6 +22736,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "HomographyMethod",
           "package": "CV",
@@ -20960,6 +22750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "Interpolation",
           "package": "CV",
@@ -20968,6 +22759,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "Interpolation",
           "package": "CV",
@@ -20982,6 +22774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMask sizes accepted by distanceTransform\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "MaskSize",
           "package": "CV",
@@ -20991,6 +22784,7 @@
         "index": {
           "description": "Mask sizes accepted by distanceTransform",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "MaskSize",
           "package": "CV",
@@ -21004,6 +22798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "MirrorAxis",
           "package": "CV",
@@ -21012,6 +22807,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "MirrorAxis",
           "package": "CV",
@@ -21025,6 +22821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "Area",
           "package": "CV",
@@ -21034,6 +22831,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "Area",
           "package": "CV",
@@ -21047,6 +22845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "C",
           "package": "CV",
@@ -21056,6 +22855,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "C",
           "package": "CV",
@@ -21068,6 +22868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "Cubic",
           "package": "CV",
@@ -21077,6 +22878,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "Cubic",
           "package": "CV",
@@ -21090,6 +22892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "Default",
           "package": "CV",
@@ -21099,6 +22902,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "Default",
           "package": "CV",
@@ -21112,6 +22916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "Horizontal",
           "package": "CV",
@@ -21121,6 +22926,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "Horizontal",
           "package": "CV",
@@ -21134,6 +22940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "L1",
           "package": "CV",
@@ -21143,6 +22950,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "L1",
           "package": "CV",
@@ -21155,6 +22963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "L2",
           "package": "CV",
@@ -21164,6 +22973,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "L2",
           "package": "CV",
@@ -21176,6 +22986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "LMeds",
           "package": "CV",
@@ -21185,6 +22996,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "LMeds",
           "package": "CV",
@@ -21198,6 +23010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "Linear",
           "package": "CV",
@@ -21207,6 +23020,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "Linear",
           "package": "CV",
@@ -21220,6 +23034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "M3",
           "package": "CV",
@@ -21229,6 +23044,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "M3",
           "package": "CV",
@@ -21241,6 +23057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "M5",
           "package": "CV",
@@ -21250,6 +23067,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "M5",
           "package": "CV",
@@ -21262,6 +23080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "NearestNeighbour",
           "package": "CV",
@@ -21271,6 +23090,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "NearestNeighbour",
           "package": "CV",
@@ -21284,6 +23104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "Ransac",
           "package": "CV",
@@ -21293,6 +23114,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "Ransac",
           "package": "CV",
@@ -21306,6 +23128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "Vertical",
           "package": "CV",
@@ -21315,6 +23138,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "Vertical",
           "package": "CV",
@@ -21328,6 +23152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "blitShadow",
           "package": "CV",
@@ -21337,6 +23162,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "blitShadow",
           "normalized": "Ptr BareImage-\u003ePtr BareImage-\u003eIO()",
@@ -21352,6 +23178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "cvDCT",
           "package": "CV",
@@ -21361,6 +23188,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "cvDCT",
           "normalized": "Ptr()-\u003ePtr()-\u003eCInt-\u003eIO()",
@@ -21376,6 +23204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "cvDistTransform",
           "package": "CV",
@@ -21385,6 +23214,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "cvDistTransform",
           "normalized": "Ptr()-\u003ePtr()-\u003eCInt-\u003eCInt-\u003ePtr CFloat-\u003ePtr()-\u003eIO()",
@@ -21400,6 +23230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "cvFindHomography",
           "package": "CV",
@@ -21409,6 +23240,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "cvFindHomography",
           "normalized": "Ptr()-\u003ePtr()-\u003ePtr()-\u003eCInt-\u003eCDouble-\u003ePtr()-\u003eIO CInt",
@@ -21424,6 +23256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "cvFlip",
           "package": "CV",
@@ -21433,6 +23266,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "cvFlip",
           "normalized": "Ptr()-\u003ePtr()-\u003eCInt-\u003eIO()",
@@ -21448,6 +23282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "cvPyrDown",
           "package": "CV",
@@ -21457,6 +23292,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "cvPyrDown",
           "normalized": "Ptr()-\u003ePtr()-\u003eCInt-\u003eIO()",
@@ -21472,6 +23308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "cvPyrUp",
           "package": "CV",
@@ -21481,6 +23318,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "cvPyrUp",
           "normalized": "Ptr()-\u003ePtr()-\u003eCInt-\u003eIO()",
@@ -21496,6 +23334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "cvResize",
           "package": "CV",
@@ -21505,6 +23344,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "cvResize",
           "normalized": "Ptr()-\u003ePtr()-\u003eCInt-\u003eIO()",
@@ -21520,6 +23360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "cv_Gaussian",
           "package": "CV",
@@ -21529,6 +23370,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "cv_Gaussian",
           "package": "CV",
@@ -21543,6 +23385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform Discrete Cosine Transform\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "dct",
           "package": "CV",
@@ -21553,6 +23396,7 @@
         "index": {
           "description": "Perform Discrete Cosine Transform",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "dct",
           "normalized": "Image GrayScale a-\u003eImage GrayScale a",
@@ -21567,6 +23411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "distanceTransform",
           "package": "CV",
@@ -21576,6 +23421,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "distanceTransform",
           "normalized": "DistanceType-\u003eMaskSize-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -21592,6 +23438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnlargen the image so that its size is divisible by 2^n. Fill the area\n  outside the image with black.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "enlarge",
           "package": "CV",
@@ -21602,6 +23449,7 @@
         "index": {
           "description": "Enlargen the image so that its size is divisible by Fill the area outside the image with black",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "enlarge",
           "normalized": "Int-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -21617,6 +23465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Enlargen the image so that its size is is divisible by 2^n. Replicate\n   the border of the image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "enlargeShadow",
           "package": "CV",
@@ -21627,6 +23476,7 @@
         "index": {
           "description": "Enlargen the image so that its size is is divisible by Replicate the border of the image",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "enlargeShadow",
           "normalized": "Int-\u003eImage GrayScale D-\u003eImage GrayScale D",
@@ -21643,6 +23493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a copy of an image with an even size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "evenize",
           "package": "CV",
@@ -21653,6 +23504,7 @@
         "index": {
           "description": "Return copy of an image with an even size",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "evenize",
           "normalized": "Image a b-\u003eImage a b",
@@ -21667,6 +23519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "findHomography",
           "package": "CV",
@@ -21676,6 +23529,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "findHomography",
           "normalized": "Ptr CDouble-\u003ePtr CDouble-\u003eCInt-\u003ePtr CDouble-\u003eIO()",
@@ -21692,6 +23546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMirror an image over a cardinal axis\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "flip",
           "package": "CV",
@@ -21702,6 +23557,7 @@
         "index": {
           "description": "Mirror an image over cardinal axis",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "flip",
           "normalized": "MirrorAxis-\u003eImage a b-\u003eImage a b",
@@ -21717,6 +23573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate an infinite gaussian pyramid of an image while keeping track of\n   various corner cases and gotchas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "gaussianPyramid",
           "package": "CV",
@@ -21727,6 +23584,7 @@
         "index": {
           "description": "Calculate an infinite gaussian pyramid of an image while keeping track of various corner cases and gotchas",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "gaussianPyramid",
           "normalized": "Image GrayScale D-\u003e[Image GrayScale D]",
@@ -21743,6 +23601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a homography between two sets of points in. The resulting 3x3 matrix is returned as a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "getHomography",
           "package": "CV",
@@ -21753,6 +23612,7 @@
         "index": {
           "description": "Find homography between two sets of points in The resulting x3 matrix is returned as list",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "getHomography",
           "normalized": "[(a,a)]-\u003e[(a,a)]-\u003e[CDouble]",
@@ -21768,6 +23628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "getHomography'",
           "package": "CV",
@@ -21777,6 +23638,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "getHomography'",
           "normalized": "Matrix Float-\u003eMatrix Float-\u003eHomographyMethod-\u003eFloat-\u003eMatrix Float",
@@ -21793,6 +23655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform Inverse Discrete Cosine Transform\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "idct",
           "package": "CV",
@@ -21803,6 +23666,7 @@
         "index": {
           "description": "Perform Inverse Discrete Cosine Transform",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "idct",
           "normalized": "Image GrayScale a-\u003eImage GrayScale a",
@@ -21818,6 +23682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the laplacian pyramid of an image up to the nth level.\n  Notice that the image size must be divisible by 2^n or opencv \n  will abort (TODO!)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "laplacianPyramid",
           "package": "CV",
@@ -21828,6 +23693,7 @@
         "index": {
           "description": "Calculate the laplacian pyramid of an image up to the nth level Notice that the image size must be divisible by or opencv will abort TODO",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "laplacianPyramid",
           "normalized": "Int-\u003eImage GrayScale D-\u003e[Image GrayScale D]",
@@ -21843,6 +23709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "makeEvenUp",
           "package": "CV",
@@ -21852,6 +23719,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "makeEvenUp",
           "normalized": "Ptr BareImage-\u003eIO(Ptr BareImage)",
@@ -21868,6 +23736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnlargen the image so that its size is a power of two.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "minEnlarge",
           "package": "CV",
@@ -21878,6 +23747,7 @@
         "index": {
           "description": "Enlargen the image so that its size is power of two",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "minEnlarge",
           "normalized": "Image GrayScale D-\u003eImage GrayScale D",
@@ -21894,6 +23764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a copy of an image with an odd size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "oddize",
           "package": "CV",
@@ -21904,6 +23775,7 @@
         "index": {
           "description": "Return copy of an image with an odd size",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "oddize",
           "normalized": "Image a b-\u003eImage a b",
@@ -21918,6 +23790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "padUp",
           "package": "CV",
@@ -21927,6 +23800,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "padUp",
           "normalized": "Ptr BareImage-\u003eCInt-\u003eCInt-\u003eIO(Ptr BareImage)",
@@ -21943,6 +23817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a perspective transform to the image. The transformation 3x3 matrix is supplied as\n  a row ordered, flat, list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "perspectiveTransform",
           "package": "CV",
@@ -21953,6 +23828,7 @@
         "index": {
           "description": "Apply perspective transform to the image The transformation x3 matrix is supplied as row ordered flat list",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "perspectiveTransform",
           "normalized": "Image a b-\u003e[c]-\u003eImage a b",
@@ -21968,6 +23844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "perspectiveTransform'",
           "package": "CV",
@@ -21977,6 +23854,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "perspectiveTransform'",
           "normalized": "Matrix Float-\u003eImage a b-\u003e(Int,Int)-\u003eImage a b",
@@ -21993,6 +23871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDownsize image by 50% efficiently. Image dimensions must be even.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "pyrDown",
           "package": "CV",
@@ -22003,6 +23882,7 @@
         "index": {
           "description": "Downsize image by efficiently Image dimensions must be even",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "pyrDown",
           "normalized": "Image GrayScale a-\u003eImage GrayScale a",
@@ -22018,6 +23898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "pyrUp",
           "package": "CV",
@@ -22027,6 +23908,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "pyrUp",
           "normalized": "Image GrayScale a-\u003eImage GrayScale a",
@@ -22043,6 +23925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimulate a radial distortion over an image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "radialDistort",
           "package": "CV",
@@ -22053,6 +23936,7 @@
         "index": {
           "description": "Simulate radial distortion over an image",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "radialDistort",
           "normalized": "Image GrayScale D-\u003eDouble-\u003eImage GrayScale D",
@@ -22068,6 +23952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "radialRemap",
           "package": "CV",
@@ -22077,6 +23962,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "radialRemap",
           "normalized": "Ptr BareImage-\u003ePtr BareImage-\u003eCDouble-\u003eIO()",
@@ -22093,6 +23979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReconstruct an image from a laplacian pyramid\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "reconstructFromLaplacian",
           "package": "CV",
@@ -22103,6 +23990,7 @@
         "index": {
           "description": "Reconstruct an image from laplacian pyramid",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "reconstructFromLaplacian",
           "normalized": "[Image GrayScale D]-\u003eImage GrayScale D",
@@ -22119,6 +24007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotate \u003ccode\u003eimg\u003c/code\u003e \u003ccode\u003eangle\u003c/code\u003e radians.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "rotate",
           "package": "CV",
@@ -22129,6 +24018,7 @@
         "index": {
           "description": "Rotate img angle radians",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "rotate",
           "normalized": "Double-\u003eImage a b-\u003eImage a b",
@@ -22143,6 +24033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "rotateImage",
           "package": "CV",
@@ -22152,6 +24043,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "rotateImage",
           "normalized": "Ptr BareImage-\u003eCDouble-\u003eCDouble-\u003eIO(Ptr BareImage)",
@@ -22167,6 +24059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "safePyrDown",
           "package": "CV",
@@ -22176,6 +24069,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "safePyrDown",
           "normalized": "Image GrayScale a-\u003eImage GrayScale a",
@@ -22192,6 +24086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePad images to same size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "sameSizePad",
           "package": "CV",
@@ -22202,6 +24097,7 @@
         "index": {
           "description": "Pad images to same size",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "sameSizePad",
           "normalized": "Image a b-\u003eImage c d-\u003eImage a b",
@@ -22218,6 +24114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale an image with different ratios for axes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "scale",
           "package": "CV",
@@ -22228,6 +24125,7 @@
         "index": {
           "description": "Scale an image with different ratios for axes",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "scale",
           "normalized": "Interpolation-\u003e(a,a)-\u003eImage b D-\u003eImage b D",
@@ -22243,6 +24141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale image by one ratio on both of the axes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "scaleSingleRatio",
           "package": "CV",
@@ -22253,6 +24152,7 @@
         "index": {
           "description": "Scale image by one ratio on both of the axes",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "scaleSingleRatio",
           "normalized": "Interpolation-\u003ea-\u003eImage b D-\u003eImage b D",
@@ -22269,6 +24169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale an image to a given size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "scaleToSize",
           "package": "CV",
@@ -22279,6 +24180,7 @@
         "index": {
           "description": "Scale an image to given size",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "scaleToSize",
           "normalized": "Interpolation-\u003eBool-\u003e(Int,Int)-\u003eImage a D-\u003eImage a D",
@@ -22295,6 +24197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince DCT is valid only for even sized images, we provide a\n function to crop images to even sizes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "takeEvenSized",
           "package": "CV",
@@ -22305,6 +24208,7 @@
         "index": {
           "description": "Since DCT is valid only for even sized images we provide function to crop images to even sizes",
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "takeEvenSized",
           "normalized": "Image a b-\u003eImage a b",
@@ -22320,6 +24224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "wrapPerspective",
           "package": "CV",
@@ -22329,6 +24234,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "wrapPerspective",
           "normalized": "Ptr BareImage-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eCDouble-\u003eIO(Ptr BareImage)",
@@ -22344,6 +24250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Transforms",
           "name": "wrapWarpPerspective",
           "package": "CV",
@@ -22353,6 +24260,7 @@
         },
         "index": {
           "hierarchy": "CV Transforms",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Transforms",
           "name": "wrapWarpPerspective",
           "normalized": "Ptr()-\u003ePtr()-\u003ePtr()-\u003eIO()",
@@ -22368,6 +24276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "Video",
           "package": "CV",
@@ -22376,6 +24285,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "Video",
           "package": "CV",
@@ -22389,6 +24299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "CapProp",
           "package": "CV",
@@ -22397,6 +24308,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "CapProp",
           "package": "CV",
@@ -22410,6 +24322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "Capture",
           "package": "CV",
@@ -22418,6 +24331,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "Capture",
           "package": "CV",
@@ -22431,6 +24345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "Codec",
           "package": "CV",
@@ -22439,6 +24354,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "Codec",
           "package": "CV",
@@ -22452,6 +24368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "VideoStream",
           "package": "CV",
@@ -22460,6 +24377,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "VideoStream",
           "package": "CV",
@@ -22473,6 +24391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "VideoWriter",
           "package": "CV",
@@ -22481,6 +24400,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "VideoWriter",
           "package": "CV",
@@ -22494,6 +24414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "CAP_PROP_BRIGHTNESS",
           "package": "CV",
@@ -22503,6 +24424,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "CAP_PROP_BRIGHTNESS",
           "package": "CV",
@@ -22516,6 +24438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "CAP_PROP_CONTRAST",
           "package": "CV",
@@ -22525,6 +24448,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "CAP_PROP_CONTRAST",
           "package": "CV",
@@ -22538,6 +24462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "CAP_PROP_CONVERT_RGB",
           "package": "CV",
@@ -22547,6 +24472,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "CAP_PROP_CONVERT_RGB",
           "package": "CV",
@@ -22560,6 +24486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "CAP_PROP_EXPOSURE",
           "package": "CV",
@@ -22569,6 +24496,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "CAP_PROP_EXPOSURE",
           "package": "CV",
@@ -22582,6 +24510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "CAP_PROP_FORMAT",
           "package": "CV",
@@ -22591,6 +24520,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "CAP_PROP_FORMAT",
           "package": "CV",
@@ -22604,6 +24534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "CAP_PROP_FOURCC",
           "package": "CV",
@@ -22613,6 +24544,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "CAP_PROP_FOURCC",
           "package": "CV",
@@ -22626,6 +24558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "CAP_PROP_FPS",
           "package": "CV",
@@ -22635,6 +24568,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "CAP_PROP_FPS",
           "package": "CV",
@@ -22648,6 +24582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "CAP_PROP_FRAME_COUNT",
           "package": "CV",
@@ -22657,6 +24592,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "CAP_PROP_FRAME_COUNT",
           "package": "CV",
@@ -22670,6 +24606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "CAP_PROP_FRAME_HEIGHT",
           "package": "CV",
@@ -22679,6 +24616,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "CAP_PROP_FRAME_HEIGHT",
           "package": "CV",
@@ -22692,6 +24630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "CAP_PROP_FRAME_WIDTH",
           "package": "CV",
@@ -22701,6 +24640,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "CAP_PROP_FRAME_WIDTH",
           "package": "CV",
@@ -22714,6 +24654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "CAP_PROP_GAIN",
           "package": "CV",
@@ -22723,6 +24664,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "CAP_PROP_GAIN",
           "package": "CV",
@@ -22736,6 +24678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "CAP_PROP_HUE",
           "package": "CV",
@@ -22745,6 +24688,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "CAP_PROP_HUE",
           "package": "CV",
@@ -22758,6 +24702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "CAP_PROP_MODE",
           "package": "CV",
@@ -22767,6 +24712,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "CAP_PROP_MODE",
           "package": "CV",
@@ -22780,6 +24726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "CAP_PROP_MONOCROME",
           "package": "CV",
@@ -22789,6 +24736,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "CAP_PROP_MONOCROME",
           "package": "CV",
@@ -22802,6 +24750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "CAP_PROP_POS_AVI_RATIO",
           "package": "CV",
@@ -22811,6 +24760,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "CAP_PROP_POS_AVI_RATIO",
           "package": "CV",
@@ -22824,6 +24774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "CAP_PROP_POS_FRAMES",
           "package": "CV",
@@ -22833,6 +24784,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "CAP_PROP_POS_FRAMES",
           "package": "CV",
@@ -22846,6 +24798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "CAP_PROP_POS_MSEC",
           "package": "CV",
@@ -22855,6 +24808,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "CAP_PROP_POS_MSEC",
           "package": "CV",
@@ -22868,6 +24822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "CAP_PROP_RECTIFICATION",
           "package": "CV",
@@ -22877,6 +24832,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "CAP_PROP_RECTIFICATION",
           "package": "CV",
@@ -22890,6 +24846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "CAP_PROP_SATURATION",
           "package": "CV",
@@ -22899,6 +24856,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "CAP_PROP_SATURATION",
           "package": "CV",
@@ -22912,6 +24870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "CAP_PROP_WHITE_BALANCE_BLUE_U",
           "package": "CV",
@@ -22921,6 +24880,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "CAP_PROP_WHITE_BALANCE_BLUE_U",
           "package": "CV",
@@ -22934,6 +24894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "CAP_PROP_WHITE_BALANCE_RED_V",
           "package": "CV",
@@ -22943,6 +24904,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "CAP_PROP_WHITE_BALANCE_RED_V",
           "package": "CV",
@@ -22956,6 +24918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "Capture",
           "package": "CV",
@@ -22965,6 +24928,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "Capture",
           "package": "CV",
@@ -22978,6 +24942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "MPG4",
           "package": "CV",
@@ -22987,6 +24952,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "MPG4",
           "package": "CV",
@@ -23000,6 +24966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "VideoWriter",
           "package": "CV",
@@ -23009,6 +24976,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "VideoWriter",
           "package": "CV",
@@ -23022,6 +24990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "captureFromCam",
           "package": "CV",
@@ -23031,6 +25000,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "captureFromCam",
           "normalized": "a-\u003eIO(Maybe Capture)",
@@ -23046,6 +25016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "captureFromFile",
           "package": "CV",
@@ -23055,6 +25026,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "captureFromFile",
           "normalized": "String-\u003eIO Capture",
@@ -23070,6 +25042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "createVideoWriter",
           "package": "CV",
@@ -23079,6 +25052,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "createVideoWriter",
           "normalized": "String-\u003eCodec-\u003eCDouble-\u003e(a,a)-\u003eIO VideoWriter",
@@ -23094,6 +25068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "cvCreateCameraCapture",
           "package": "CV",
@@ -23103,6 +25078,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "cvCreateCameraCapture",
           "normalized": "CInt-\u003eIO(Ptr Capture)",
@@ -23118,6 +25094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "cvCreateFileCapture",
           "package": "CV",
@@ -23127,6 +25104,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "cvCreateFileCapture",
           "normalized": "Ptr CChar-\u003eIO(Ptr Capture)",
@@ -23142,6 +25120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "cvGetCaptureProperty",
           "package": "CV",
@@ -23151,6 +25130,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "cvGetCaptureProperty",
           "normalized": "Ptr Capture-\u003eCInt-\u003eIO CDouble",
@@ -23166,6 +25146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "cvGrabFrame",
           "package": "CV",
@@ -23175,6 +25156,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "cvGrabFrame",
           "normalized": "Ptr Capture-\u003eIO CInt",
@@ -23190,6 +25172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "cvQueryFrame",
           "package": "CV",
@@ -23199,6 +25182,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "cvQueryFrame",
           "normalized": "Ptr Capture-\u003eIO(Ptr BareImage)",
@@ -23214,6 +25198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "cvSetCaptureProperty",
           "package": "CV",
@@ -23223,6 +25208,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "cvSetCaptureProperty",
           "normalized": "Ptr Capture-\u003eCInt-\u003eCDouble-\u003eIO CInt",
@@ -23238,6 +25224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "cvWriteFrame",
           "package": "CV",
@@ -23247,6 +25234,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "cvWriteFrame",
           "normalized": "Ptr VideoWriter-\u003ePtr BareImage-\u003eIO CInt",
@@ -23262,6 +25250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "dropFrame",
           "package": "CV",
@@ -23271,6 +25260,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "dropFrame",
           "normalized": "Capture-\u003eIO()",
@@ -23286,6 +25276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "frameNumber",
           "package": "CV",
@@ -23295,6 +25286,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "frameNumber",
           "normalized": "Capture-\u003ea",
@@ -23310,6 +25302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "fromProp",
           "package": "CV",
@@ -23319,6 +25312,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "fromProp",
           "normalized": "CapProp-\u003eCInt",
@@ -23334,6 +25328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "getCapProp",
           "package": "CV",
@@ -23343,6 +25338,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "getCapProp",
           "normalized": "Capture-\u003eCapProp-\u003eIO a",
@@ -23358,6 +25354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "getFrame",
           "package": "CV",
@@ -23367,6 +25364,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "getFrame",
           "normalized": "Capture-\u003eIO(Maybe(Image RGB D))",
@@ -23382,6 +25380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "getFrameRate",
           "package": "CV",
@@ -23391,6 +25390,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "getFrameRate",
           "normalized": "Capture-\u003ea",
@@ -23406,6 +25406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "getFrameSize",
           "package": "CV",
@@ -23415,6 +25416,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "getFrameSize",
           "normalized": "Capture-\u003e(a,a)",
@@ -23430,6 +25432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "numberOfFrames",
           "package": "CV",
@@ -23439,6 +25442,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "numberOfFrames",
           "normalized": "Capture-\u003ea",
@@ -23454,6 +25458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "releaseCapture",
           "package": "CV",
@@ -23463,6 +25468,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "releaseCapture",
           "package": "CV",
@@ -23476,6 +25482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "releaseVideoWriter",
           "package": "CV",
@@ -23485,6 +25492,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "releaseVideoWriter",
           "package": "CV",
@@ -23498,6 +25506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "setCapProp",
           "package": "CV",
@@ -23507,6 +25516,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "setCapProp",
           "normalized": "Capture-\u003eCapProp-\u003ea-\u003eIO CInt",
@@ -23522,6 +25532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "streamFromVideo",
           "package": "CV",
@@ -23531,6 +25542,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "streamFromVideo",
           "normalized": "Capture-\u003eStream IO(Image RGB D)",
@@ -23546,6 +25558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "streamFromVideo'",
           "package": "CV",
@@ -23555,6 +25568,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "streamFromVideo'",
           "normalized": "Image RGB D-\u003eCapture-\u003eStream IO(Image RGB D)",
@@ -23570,6 +25584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "withCapture",
           "package": "CV",
@@ -23579,6 +25594,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "withCapture",
           "normalized": "Capture-\u003e(Ptr Capture-\u003eIO a)-\u003eIO a",
@@ -23594,6 +25610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "withVideoWriter",
           "package": "CV",
@@ -23603,6 +25620,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "withVideoWriter",
           "normalized": "VideoWriter-\u003e(Ptr VideoWriter-\u003eIO a)-\u003eIO a",
@@ -23618,6 +25636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "wrapCreateVideoWriter",
           "package": "CV",
@@ -23627,6 +25646,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "wrapCreateVideoWriter",
           "normalized": "Ptr CChar-\u003eCInt-\u003eCDouble-\u003eCInt-\u003eCInt-\u003eCInt-\u003eIO(Ptr VideoWriter)",
@@ -23642,6 +25662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "CV.Video",
           "name": "writeFrame",
           "package": "CV",
@@ -23651,6 +25672,7 @@
         },
         "index": {
           "hierarchy": "CV Video",
+          "indexed": "2014-03-11T16:36:01",
           "module": "CV.Video",
           "name": "writeFrame",
           "normalized": "VideoWriter-\u003eImage RGB D-\u003eIO()",
@@ -23666,6 +25688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.DrawingClass",
           "name": "DrawingClass",
           "package": "CV",
@@ -23674,6 +25697,7 @@
         },
         "index": {
           "hierarchy": "Utils DrawingClass",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.DrawingClass",
           "name": "DrawingClass",
           "package": "CV",
@@ -23687,6 +25711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.DrawingClass",
           "name": "Draws",
           "package": "CV",
@@ -23695,6 +25720,7 @@
         },
         "index": {
           "hierarchy": "Utils DrawingClass",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.DrawingClass",
           "name": "Draws",
           "package": "CV",
@@ -23708,6 +25734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.DrawingClass",
           "name": "draw",
           "package": "CV",
@@ -23717,6 +25744,7 @@
         },
         "index": {
           "hierarchy": "Utils DrawingClass",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.DrawingClass",
           "name": "draw",
           "normalized": "a-\u003eb",
@@ -23731,6 +25759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Function",
           "name": "Function",
           "package": "CV",
@@ -23739,6 +25768,7 @@
         },
         "index": {
           "hierarchy": "Utils Function",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Function",
           "name": "Function",
           "package": "CV",
@@ -23752,6 +25782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Function",
           "name": "affine1d",
           "package": "CV",
@@ -23761,6 +25792,7 @@
         },
         "index": {
           "hierarchy": "Utils Function",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Function",
           "name": "affine1d",
           "normalized": "(a,a)-\u003e(a,a)-\u003ea-\u003ea",
@@ -23775,6 +25807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Function",
           "name": "both",
           "package": "CV",
@@ -23784,6 +25817,7 @@
         },
         "index": {
           "hierarchy": "Utils Function",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Function",
           "name": "both",
           "normalized": "(a-\u003ea)-\u003e(a,a)-\u003e(a,a)",
@@ -23798,6 +25832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Function",
           "name": "maxBy",
           "package": "CV",
@@ -23807,6 +25842,7 @@
         },
         "index": {
           "hierarchy": "Utils Function",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Function",
           "name": "maxBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003ea-\u003ea-\u003ea",
@@ -23822,6 +25858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Function",
           "name": "minBy",
           "package": "CV",
@@ -23831,6 +25868,7 @@
         },
         "index": {
           "hierarchy": "Utils Function",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Function",
           "name": "minBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003ea-\u003ea-\u003ea",
@@ -23846,6 +25884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Function",
           "name": "mkFst",
           "package": "CV",
@@ -23855,6 +25894,7 @@
         },
         "index": {
           "hierarchy": "Utils Function",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Function",
           "name": "mkFst",
           "normalized": "(a-\u003ea)-\u003ea-\u003e(a,a)",
@@ -23870,6 +25910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Function",
           "name": "mkSnd",
           "package": "CV",
@@ -23879,6 +25920,7 @@
         },
         "index": {
           "hierarchy": "Utils Function",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Function",
           "name": "mkSnd",
           "normalized": "(a-\u003ea)-\u003ea-\u003e(a,a)",
@@ -23894,6 +25936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Function",
           "name": "under",
           "package": "CV",
@@ -23903,6 +25946,7 @@
         },
         "index": {
           "hierarchy": "Utils Function",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Function",
           "name": "under",
           "normalized": "(a-\u003ea)-\u003e(a-\u003ea-\u003ea)-\u003ea-\u003ea-\u003ea",
@@ -23917,6 +25961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Function",
           "name": "with",
           "package": "CV",
@@ -23926,6 +25971,7 @@
         },
         "index": {
           "hierarchy": "Utils Function",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Function",
           "name": "with",
           "normalized": "(a-\u003ea)-\u003ea-\u003e(a,a)",
@@ -23940,6 +25986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.GeometryClass",
           "name": "GeometryClass",
           "package": "CV",
@@ -23948,6 +25995,7 @@
         },
         "index": {
           "hierarchy": "Utils GeometryClass",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.GeometryClass",
           "name": "GeometryClass",
           "package": "CV",
@@ -23961,6 +26009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.GeometryClass",
           "name": "BoundingBox",
           "package": "CV",
@@ -23969,6 +26018,7 @@
         },
         "index": {
           "hierarchy": "Utils GeometryClass",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.GeometryClass",
           "name": "BoundingBox",
           "package": "CV",
@@ -23982,6 +26032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.GeometryClass",
           "name": "FromBounds",
           "package": "CV",
@@ -23990,6 +26041,7 @@
         },
         "index": {
           "hierarchy": "Utils GeometryClass",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.GeometryClass",
           "name": "FromBounds",
           "package": "CV",
@@ -24003,6 +26055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.GeometryClass",
           "name": "Line2D",
           "package": "CV",
@@ -24011,6 +26064,7 @@
         },
         "index": {
           "hierarchy": "Utils GeometryClass",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.GeometryClass",
           "name": "Line2D",
           "package": "CV",
@@ -24024,6 +26078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.GeometryClass",
           "name": "LineSegment",
           "package": "CV",
@@ -24032,6 +26087,7 @@
         },
         "index": {
           "hierarchy": "Utils GeometryClass",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.GeometryClass",
           "name": "LineSegment",
           "package": "CV",
@@ -24045,6 +26101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.GeometryClass",
           "name": "Point2D",
           "package": "CV",
@@ -24053,6 +26110,7 @@
         },
         "index": {
           "hierarchy": "Utils GeometryClass",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.GeometryClass",
           "name": "Point2D",
           "package": "CV",
@@ -24067,6 +26125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypeclass for elements with a size, such as images and matrices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.GeometryClass",
           "name": "Sized",
           "package": "CV",
@@ -24076,6 +26135,7 @@
         "index": {
           "description": "Typeclass for elements with size such as images and matrices",
           "hierarchy": "Utils GeometryClass",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.GeometryClass",
           "name": "Sized",
           "package": "CV",
@@ -24089,6 +26149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.GeometryClass",
           "name": "bounds",
           "package": "CV",
@@ -24098,6 +26159,7 @@
         },
         "index": {
           "hierarchy": "Utils GeometryClass",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.GeometryClass",
           "name": "bounds",
           "normalized": "a-\u003eRectangle(ELBB a)",
@@ -24112,6 +26174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.GeometryClass",
           "name": "convertBounds",
           "package": "CV",
@@ -24121,6 +26184,7 @@
         },
         "index": {
           "hierarchy": "Utils GeometryClass",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.GeometryClass",
           "name": "convertBounds",
           "normalized": "a-\u003eb",
@@ -24136,6 +26200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.GeometryClass",
           "name": "convertPt",
           "package": "CV",
@@ -24145,6 +26210,7 @@
         },
         "index": {
           "hierarchy": "Utils GeometryClass",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.GeometryClass",
           "name": "convertPt",
           "normalized": "a-\u003eb",
@@ -24160,6 +26226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.GeometryClass",
           "name": "fromBounds",
           "package": "CV",
@@ -24169,6 +26236,7 @@
         },
         "index": {
           "hierarchy": "Utils GeometryClass",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.GeometryClass",
           "name": "fromBounds",
           "normalized": "Rectangle(ELFB a)-\u003ea",
@@ -24184,6 +26252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.GeometryClass",
           "name": "getSize",
           "package": "CV",
@@ -24193,6 +26262,7 @@
         },
         "index": {
           "hierarchy": "Utils GeometryClass",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.GeometryClass",
           "name": "getSize",
           "normalized": "a-\u003eSize a",
@@ -24209,6 +26279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract integer coordinates of a point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.GeometryClass",
           "name": "ipt",
           "package": "CV",
@@ -24219,6 +26290,7 @@
         "index": {
           "description": "Extract integer coordinates of point",
           "hierarchy": "Utils GeometryClass",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.GeometryClass",
           "name": "ipt",
           "normalized": "a-\u003e(Int,Int)",
@@ -24233,6 +26305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.GeometryClass",
           "name": "offsetAngle",
           "package": "CV",
@@ -24242,6 +26315,7 @@
         },
         "index": {
           "hierarchy": "Utils GeometryClass",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.GeometryClass",
           "name": "offsetAngle",
           "normalized": "a-\u003e(ELL a,Double)",
@@ -24257,6 +26331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.GeometryClass",
           "name": "pt",
           "package": "CV",
@@ -24266,6 +26341,7 @@
         },
         "index": {
           "hierarchy": "Utils GeometryClass",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.GeometryClass",
           "name": "pt",
           "normalized": "a-\u003e(ELP a,ELP a)",
@@ -24280,6 +26356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.GeometryClass",
           "name": "startEnd",
           "package": "CV",
@@ -24289,6 +26366,7 @@
         },
         "index": {
           "hierarchy": "Utils GeometryClass",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.GeometryClass",
           "name": "startEnd",
           "normalized": "a-\u003e((ELS a,ELS a),(ELS a,ELS a))",
@@ -24304,6 +26382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.GeometryClass",
           "name": "toPt",
           "package": "CV",
@@ -24313,6 +26392,7 @@
         },
         "index": {
           "hierarchy": "Utils GeometryClass",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.GeometryClass",
           "name": "toPt",
           "normalized": "(ELP a,ELP a)-\u003ea",
@@ -24328,6 +26408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "List",
           "package": "CV",
@@ -24336,6 +26417,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "List",
           "package": "CV",
@@ -24349,6 +26431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "applyMap",
           "package": "CV",
@@ -24358,6 +26441,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "applyMap",
           "normalized": "a-\u003e[a-\u003eb]-\u003e[b]",
@@ -24373,6 +26457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "applyMapM",
           "package": "CV",
@@ -24382,6 +26467,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "applyMapM",
           "normalized": "a-\u003e[a-\u003eb c]-\u003eb[c]",
@@ -24397,6 +26483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "average",
           "package": "CV",
@@ -24406,6 +26493,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "average",
           "normalized": "[a]-\u003ea",
@@ -24420,6 +26508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "binList",
           "package": "CV",
@@ -24429,6 +26518,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "binList",
           "normalized": "a-\u003e([b]-\u003eb)-\u003e[(a,b)]-\u003e[(a,b)]",
@@ -24444,6 +26534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "changesM",
           "package": "CV",
@@ -24453,6 +26544,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "changesM",
           "normalized": "[a-\u003eb c]-\u003ea-\u003eb[c]",
@@ -24467,6 +26559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "clusterBy",
           "package": "CV",
@@ -24476,6 +26569,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "clusterBy",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[[a]]",
@@ -24491,6 +26585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "comparing",
           "package": "CV",
@@ -24500,6 +26595,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "comparing",
           "normalized": "(a-\u003eb)-\u003ea-\u003ea-\u003eOrdering",
@@ -24514,6 +26610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "concatZipNub",
           "package": "CV",
@@ -24523,6 +26620,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "concatZipNub",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -24538,6 +26636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "count",
           "package": "CV",
@@ -24547,6 +26646,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "count",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003eb",
@@ -24561,6 +26661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "crease",
           "package": "CV",
@@ -24570,6 +26671,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "crease",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003e[a]",
@@ -24584,6 +26686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "creaseM",
           "package": "CV",
@@ -24593,6 +26696,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "creaseM",
           "normalized": "(a-\u003ea-\u003eb c)-\u003e[a]-\u003eb[c]",
@@ -24607,6 +26711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "cumulate",
           "package": "CV",
@@ -24616,6 +26721,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "cumulate",
           "normalized": "[a]-\u003e[a]",
@@ -24630,6 +26736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "cycles",
           "package": "CV",
@@ -24639,6 +26746,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "cycles",
           "normalized": "[a]-\u003e[[a]]",
@@ -24653,6 +26761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "editingMap",
           "package": "CV",
@@ -24662,6 +26771,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "editingMap",
           "normalized": "([a]-\u003ea-\u003ea)-\u003e[a]-\u003e[a]",
@@ -24677,6 +26787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "editingTrav",
           "package": "CV",
@@ -24686,6 +26797,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "editingTrav",
           "normalized": "([a]-\u003ea-\u003ea)-\u003e[a]-\u003e[a]-\u003e[a]",
@@ -24701,6 +26813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "forEach",
           "package": "CV",
@@ -24710,6 +26823,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "forEach",
           "normalized": "(a-\u003ea)-\u003e[a]-\u003e[[a]]",
@@ -24725,6 +26839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "forPairs",
           "package": "CV",
@@ -24734,6 +26849,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "forPairs",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003e[a]-\u003e[[a]]",
@@ -24749,6 +26865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "frequencies",
           "package": "CV",
@@ -24758,6 +26875,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "frequencies",
           "normalized": "[a]-\u003e[(a,b)]",
@@ -24773,6 +26891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUndo pairs function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "fromPairs",
           "package": "CV",
@@ -24783,6 +26902,7 @@
         "index": {
           "description": "Undo pairs function",
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "fromPairs",
           "normalized": "[(a,a)]-\u003e[a]",
@@ -24799,6 +26919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUndo pairs1 function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "fromPairs1",
           "package": "CV",
@@ -24809,6 +26930,7 @@
         "index": {
           "description": "Undo pairs1 function",
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "fromPairs1",
           "normalized": "[(a,a)]-\u003e[a]",
@@ -24824,6 +26946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "getKNeighbourhoods",
           "package": "CV",
@@ -24833,6 +26956,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "getKNeighbourhoods",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -24848,6 +26972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "groupItems",
           "package": "CV",
@@ -24857,6 +26982,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "groupItems",
           "normalized": "(a-\u003ea)-\u003e(a-\u003eb)-\u003e[a]-\u003e[(a,[b])]",
@@ -24872,6 +26998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "histogram",
           "package": "CV",
@@ -24881,6 +27008,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "histogram",
           "normalized": "a-\u003e[a]-\u003e[(a,b)]",
@@ -24895,6 +27023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "lookupDef",
           "package": "CV",
@@ -24904,6 +27033,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "lookupDef",
           "normalized": "a-\u003ea-\u003e[(a,a)]-\u003ea",
@@ -24919,6 +27049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "majority",
           "package": "CV",
@@ -24928,6 +27059,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "majority",
           "normalized": "[a]-\u003ea",
@@ -24942,6 +27074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "median",
           "package": "CV",
@@ -24951,6 +27084,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "median",
           "normalized": "[a]-\u003ea",
@@ -24965,6 +27099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "mergeList",
           "package": "CV",
@@ -24974,6 +27109,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "mergeList",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -24989,6 +27125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "normalizeFrequencies",
           "package": "CV",
@@ -24998,6 +27135,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "normalizeFrequencies",
           "normalized": "[(a,a)]-\u003e[(a,a)]",
@@ -25013,6 +27151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "pairings",
           "package": "CV",
@@ -25022,6 +27161,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "pairings",
           "normalized": "[a]-\u003e[(a,a)]",
@@ -25037,6 +27177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Group list into indevidual pairs: [1,2,3,4] =\u003e [(1,2),(3,4)]. \n   Works only with even number of elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "pairs",
           "package": "CV",
@@ -25047,6 +27188,7 @@
         "index": {
           "description": "Group list into indevidual pairs Works only with even number of elements",
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "pairs",
           "normalized": "[a]-\u003e[(a,a)]",
@@ -25062,6 +27204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Group list into pairs: [1,2,3] =\u003e [(1,2),(2,3)]. \n   Works with non null lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "pairs1",
           "package": "CV",
@@ -25072,6 +27215,7 @@
         "index": {
           "description": "Group list into pairs Works with non null lists",
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "pairs1",
           "normalized": "[a]-\u003e[(a,a)]",
@@ -25086,6 +27230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "prop_headIdentical_KN",
           "package": "CV",
@@ -25095,6 +27240,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "prop_headIdentical_KN",
           "normalized": "Int-\u003e[a]-\u003eProperty",
@@ -25110,6 +27256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "prop_pairsFromTo",
           "package": "CV",
@@ -25119,6 +27266,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "prop_pairsFromTo",
           "normalized": "[a]-\u003eProperty",
@@ -25134,6 +27282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "prop_pairsFromTo1",
           "package": "CV",
@@ -25143,6 +27292,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "prop_pairsFromTo1",
           "normalized": "[a]-\u003eProperty",
@@ -25158,6 +27308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "prop_splitEq",
           "package": "CV",
@@ -25167,6 +27318,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "prop_splitEq",
           "normalized": "Int-\u003e[a]-\u003eProperty",
@@ -25182,6 +27334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "prop_splitLen",
           "package": "CV",
@@ -25191,6 +27344,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "prop_splitLen",
           "normalized": "Int-\u003e[a]-\u003eProperty",
@@ -25206,6 +27360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "prop_takeLen",
           "package": "CV",
@@ -25215,6 +27370,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "prop_takeLen",
           "normalized": "[Int]-\u003e[a]-\u003eProperty",
@@ -25230,6 +27386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "prop_takeLens",
           "package": "CV",
@@ -25239,6 +27396,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "prop_takeLens",
           "normalized": "[Int]-\u003e[a]-\u003eProperty",
@@ -25254,6 +27412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "rankBy",
           "package": "CV",
@@ -25263,6 +27422,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "rankBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003e[a]-\u003e[(b,a)]",
@@ -25278,6 +27438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "ranks",
           "package": "CV",
@@ -25287,6 +27448,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "ranks",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003e[a]-\u003e[a]",
@@ -25301,6 +27463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "replicateList",
           "package": "CV",
@@ -25310,6 +27473,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "replicateList",
           "normalized": "Int-\u003e[a]-\u003e[a]",
@@ -25325,6 +27489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "roll",
           "package": "CV",
@@ -25334,6 +27499,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "roll",
           "normalized": "[a]-\u003e[a]",
@@ -25348,6 +27514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "rollList",
           "package": "CV",
@@ -25357,6 +27524,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "rollList",
           "normalized": "[a]-\u003e[a]",
@@ -25372,6 +27540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "rotate",
           "package": "CV",
@@ -25381,6 +27550,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "rotate",
           "normalized": "[a]-\u003e[a]",
@@ -25395,6 +27565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "schwartzianTransform",
           "package": "CV",
@@ -25404,6 +27575,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "schwartzianTransform",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[a]",
@@ -25419,6 +27591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "select",
           "package": "CV",
@@ -25428,6 +27601,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "select",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003e[a]-\u003e[a]",
@@ -25442,6 +27616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "smallestBy",
           "package": "CV",
@@ -25451,6 +27626,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "smallestBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eInt-\u003e[a]-\u003e[a]",
@@ -25466,6 +27642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "smallestBy'",
           "package": "CV",
@@ -25475,6 +27652,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "smallestBy'",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eInt-\u003e[a]-\u003e[a]-\u003e[a]",
@@ -25490,6 +27668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "sortVia",
           "package": "CV",
@@ -25499,6 +27678,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "sortVia",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[a]",
@@ -25514,6 +27694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "splitBetween",
           "package": "CV",
@@ -25523,6 +27704,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "splitBetween",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003e[a]-\u003e[[a]]",
@@ -25538,6 +27720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "splitBy",
           "package": "CV",
@@ -25547,6 +27730,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "splitBy",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -25562,6 +27746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "splitToLength",
           "package": "CV",
@@ -25571,6 +27756,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "splitToLength",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -25586,6 +27772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "splitToNParts",
           "package": "CV",
@@ -25595,6 +27782,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "splitToNParts",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -25610,6 +27798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "stdDev",
           "package": "CV",
@@ -25619,6 +27808,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "stdDev",
           "normalized": "[a]-\u003ea",
@@ -25634,6 +27824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "swapEverywhere",
           "package": "CV",
@@ -25643,6 +27834,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "swapEverywhere",
           "normalized": "[a]-\u003e[a]-\u003e[[a]]",
@@ -25658,6 +27850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "takeHalf",
           "package": "CV",
@@ -25667,6 +27860,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "takeHalf",
           "normalized": "[a]-\u003e[a]",
@@ -25682,6 +27876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "takeLengths",
           "package": "CV",
@@ -25691,6 +27886,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "takeLengths",
           "normalized": "[Int]-\u003e[a]-\u003e[[a]]",
@@ -25706,6 +27902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "takeNAccordingTo",
           "package": "CV",
@@ -25715,6 +27912,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "takeNAccordingTo",
           "normalized": "Int-\u003e([a],[b])-\u003e[(a,b)]",
@@ -25730,6 +27928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "takeTail",
           "package": "CV",
@@ -25739,6 +27938,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "takeTail",
           "normalized": "Int-\u003e[a]-\u003e[a]",
@@ -25754,6 +27954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "takeWhile1",
           "package": "CV",
@@ -25763,6 +27964,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "takeWhile1",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -25778,6 +27980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "takeWhile2",
           "package": "CV",
@@ -25787,6 +27990,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "takeWhile2",
           "normalized": "(a-\u003ea-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -25802,6 +28006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "tear",
           "package": "CV",
@@ -25811,6 +28016,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "tear",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e([a],[a])",
@@ -25825,6 +28031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.List",
           "name": "zeroMean",
           "package": "CV",
@@ -25834,6 +28041,7 @@
         },
         "index": {
           "hierarchy": "Utils List",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.List",
           "name": "zeroMean",
           "normalized": "[a]-\u003e[a]",
@@ -25849,6 +28057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Point",
           "name": "Point",
           "package": "CV",
@@ -25857,6 +28066,7 @@
         },
         "index": {
           "hierarchy": "Utils Point",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Point",
           "name": "Point",
           "package": "CV",
@@ -25870,6 +28080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Point",
           "name": "Pt",
           "package": "CV",
@@ -25878,6 +28089,7 @@
         },
         "index": {
           "hierarchy": "Utils Point",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Point",
           "name": "Pt",
           "package": "CV",
@@ -25891,6 +28103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Point",
           "name": "(\u003e/)",
           "package": "CV",
@@ -25900,6 +28113,7 @@
         },
         "index": {
           "hierarchy": "Utils Point",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Point",
           "name": "(\u003e/) \u003e/",
           "normalized": "(a,a)-\u003e(a,a)-\u003e(a,a)",
@@ -25914,6 +28128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Point",
           "name": "norm",
           "package": "CV",
@@ -25923,6 +28138,7 @@
         },
         "index": {
           "hierarchy": "Utils Point",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Point",
           "name": "norm",
           "normalized": "Pt Double-\u003eDouble",
@@ -25937,6 +28153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Point",
           "name": "norm2",
           "package": "CV",
@@ -25946,6 +28163,7 @@
         },
         "index": {
           "hierarchy": "Utils Point",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Point",
           "name": "norm2",
           "normalized": "Pt a-\u003ea",
@@ -25960,6 +28178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Pointer",
           "name": "Pointer",
           "package": "CV",
@@ -25968,6 +28187,7 @@
         },
         "index": {
           "hierarchy": "Utils Pointer",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Pointer",
           "name": "Pointer",
           "package": "CV",
@@ -25981,6 +28201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Pointer",
           "name": "withPtrList",
           "package": "CV",
@@ -25990,6 +28211,7 @@
         },
         "index": {
           "hierarchy": "Utils Pointer",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Pointer",
           "name": "withPtrList",
           "normalized": "[ForeignPtr a]-\u003e(Ptr(Ptr a)-\u003eIO b)-\u003eIO b",
@@ -26005,6 +28227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "Rectangle",
           "package": "CV",
@@ -26013,6 +28236,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "Rectangle",
           "package": "CV",
@@ -26026,6 +28250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "Rectangle",
           "package": "CV",
@@ -26034,6 +28259,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "Rectangle",
           "package": "CV",
@@ -26047,6 +28273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "Rectangle",
           "package": "CV",
@@ -26056,6 +28283,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "Rectangle",
           "package": "CV",
@@ -26070,6 +28298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate rectangle around point (x,y)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "around",
           "package": "CV",
@@ -26080,6 +28309,7 @@
         "index": {
           "description": "Create rectangle around point",
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "around",
           "normalized": "(a,a)-\u003e(a,a)-\u003eRectangle a",
@@ -26094,6 +28324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "bottom",
           "package": "CV",
@@ -26103,6 +28334,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "bottom",
           "normalized": "Rectangle a-\u003ea",
@@ -26117,6 +28349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "bottomLeft",
           "package": "CV",
@@ -26126,6 +28359,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "bottomLeft",
           "normalized": "Rectangle a-\u003e(a,a)",
@@ -26141,6 +28375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "bottomRight",
           "package": "CV",
@@ -26150,6 +28385,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "bottomRight",
           "normalized": "Rectangle a-\u003e(a,a)",
@@ -26165,6 +28401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "center",
           "package": "CV",
@@ -26174,6 +28411,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "center",
           "normalized": "Rectangle a-\u003e(a,a)",
@@ -26188,6 +28426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "centerI",
           "package": "CV",
@@ -26197,6 +28436,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "centerI",
           "normalized": "Rectangle a-\u003e(a,a)",
@@ -26211,6 +28451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "contains",
           "package": "CV",
@@ -26220,6 +28461,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "contains",
           "normalized": "Rectangle a-\u003eRectangle a-\u003eBool",
@@ -26235,6 +28477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;Adjust the size of the rectangle to be divisible by 2^n.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "enlargeToNthPower",
           "package": "CV",
@@ -26245,6 +28488,7 @@
         "index": {
           "description": "Adjust the size of the rectangle to be divisible by",
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "enlargeToNthPower",
           "normalized": "a-\u003eRectangle b-\u003eRectangle b",
@@ -26260,6 +28504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "fromInt",
           "package": "CV",
@@ -26269,6 +28514,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "fromInt",
           "normalized": "Rectangle a-\u003eRectangle a",
@@ -26284,6 +28530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "fromPtSize",
           "package": "CV",
@@ -26293,6 +28540,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "fromPtSize",
           "normalized": "(a,a)-\u003e(a,a)-\u003eRectangle a",
@@ -26309,6 +28557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn rectangle r2 in coordinate system defined by r1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "inCoords",
           "package": "CV",
@@ -26319,6 +28568,7 @@
         "index": {
           "description": "Return rectangle r2 in coordinate system defined by r1",
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "inCoords",
           "normalized": "Rectangle a-\u003eRectangle a-\u003e((a,a),(a,a))-\u003eRectangle(a,a)",
@@ -26335,6 +28585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a point in coordinates of given rectangle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "inCoords'",
           "package": "CV",
@@ -26345,6 +28596,7 @@
         "index": {
           "description": "Return point in coordinates of given rectangle",
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "inCoords'",
           "normalized": "Rectangle a-\u003e(a,a)-\u003e(a,a)",
@@ -26360,6 +28612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "intersect1D",
           "package": "CV",
@@ -26369,6 +28622,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "intersect1D",
           "normalized": "(a,a)-\u003e(a,a)-\u003eBool",
@@ -26383,6 +28637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "intersection",
           "package": "CV",
@@ -26392,6 +28647,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "intersection",
           "normalized": "Rectangle a-\u003eRectangle a-\u003eRectangle a",
@@ -26406,6 +28662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "intersects",
           "package": "CV",
@@ -26415,6 +28672,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "intersects",
           "normalized": "Rectangle a-\u003eRectangle a-\u003eBool",
@@ -26429,6 +28687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "left",
           "package": "CV",
@@ -26438,6 +28697,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "left",
           "normalized": "Rectangle a-\u003ea",
@@ -26452,6 +28712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "mkRec",
           "package": "CV",
@@ -26461,6 +28722,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "mkRec",
           "normalized": "((Integer,Integer),(Integer,Integer))-\u003eRectangle Integer",
@@ -26476,6 +28738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "mkRectCorners",
           "package": "CV",
@@ -26485,6 +28748,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "mkRectCorners",
           "normalized": "(a,a)-\u003e(a,a)-\u003eRectangle a",
@@ -26500,6 +28764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "mkRectangle",
           "package": "CV",
@@ -26509,6 +28774,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "mkRectangle",
           "normalized": "(a,a)-\u003e(a,a)-\u003eRectangle a",
@@ -26524,6 +28790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "propIntersectionArea",
           "package": "CV",
@@ -26533,6 +28800,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "propIntersectionArea",
           "normalized": "Rectangle a-\u003eRectangle a-\u003eBool",
@@ -26548,6 +28816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "propIntersectionCommutes",
           "package": "CV",
@@ -26557,6 +28826,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "propIntersectionCommutes",
           "normalized": "Rectangle a-\u003eRectangle a-\u003eBool",
@@ -26572,6 +28842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "prop_Corners",
           "package": "CV",
@@ -26581,6 +28852,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "prop_Corners",
           "normalized": "(Int,Int)-\u003e(Int,Int)-\u003eBool",
@@ -26596,6 +28868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "prop_intersect1DCommutes",
           "package": "CV",
@@ -26605,6 +28878,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "prop_intersect1DCommutes",
           "normalized": "(a,a)-\u003e(a,a)-\u003eBool",
@@ -26620,6 +28894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "prop_intersectsCommutes",
           "package": "CV",
@@ -26629,6 +28904,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "prop_intersectsCommutes",
           "normalized": "((Integer,Integer),(Integer,Integer))-\u003e((Integer,Integer),(Integer,Integer))-\u003eBool",
@@ -26644,6 +28920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "rArea",
           "package": "CV",
@@ -26653,6 +28930,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "rArea",
           "normalized": "Rectangle a-\u003ea",
@@ -26668,6 +28946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "rSize",
           "package": "CV",
@@ -26677,6 +28956,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "rSize",
           "normalized": "Rectangle a-\u003e(a,a)",
@@ -26692,6 +28972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "right",
           "package": "CV",
@@ -26701,6 +28982,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "right",
           "normalized": "Rectangle a-\u003ea",
@@ -26715,6 +28997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "roundR",
           "package": "CV",
@@ -26724,6 +29007,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "roundR",
           "normalized": "Rectangle a-\u003eRectangle a",
@@ -26738,6 +29022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "s",
           "package": "CV",
@@ -26747,6 +29032,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "s",
           "normalized": "a-\u003eb-\u003eb",
@@ -26762,6 +29048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale a rectangle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "scale",
           "package": "CV",
@@ -26772,6 +29059,7 @@
         "index": {
           "description": "Scale rectangle",
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "scale",
           "normalized": "(a,a)-\u003eRectangle a-\u003eRectangle a",
@@ -26787,6 +29075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a tiling of a rectangles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "tile",
           "package": "CV",
@@ -26797,6 +29086,7 @@
         "index": {
           "description": "Create tiling of rectangles",
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "tile",
           "normalized": "(a,a)-\u003e(a,a)-\u003eRectangle a-\u003e[Rectangle a]",
@@ -26811,6 +29101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "top",
           "package": "CV",
@@ -26820,6 +29111,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "top",
           "normalized": "Rectangle a-\u003ea",
@@ -26834,6 +29126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "topLeft",
           "package": "CV",
@@ -26843,6 +29136,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "topLeft",
           "normalized": "Rectangle a-\u003e(a,a)",
@@ -26858,6 +29152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "topRight",
           "package": "CV",
@@ -26867,6 +29162,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "topRight",
           "normalized": "Rectangle a-\u003e(a,a)",
@@ -26882,6 +29178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Rectangle",
           "name": "vertices",
           "package": "CV",
@@ -26891,6 +29188,7 @@
         },
         "index": {
           "hierarchy": "Utils Rectangle",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Rectangle",
           "name": "vertices",
           "normalized": "Rectangle a-\u003e[(a,a)]",
@@ -26905,6 +29203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "Stream",
           "package": "CV",
@@ -26913,6 +29212,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "Stream",
           "package": "CV",
@@ -26926,6 +29226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "LRB",
           "package": "CV",
@@ -26934,6 +29235,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "LRB",
           "package": "CV",
@@ -26948,6 +29250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream of monadic values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "Stream",
           "package": "CV",
@@ -26957,6 +29260,7 @@
         "index": {
           "description": "Stream of monadic values",
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "Stream",
           "package": "CV",
@@ -26970,6 +29274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "B",
           "package": "CV",
@@ -26979,6 +29284,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "B",
           "package": "CV",
@@ -26991,6 +29297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "L",
           "package": "CV",
@@ -27000,6 +29307,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "L",
           "package": "CV",
@@ -27012,6 +29320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "R",
           "package": "CV",
@@ -27021,6 +29330,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "R",
           "package": "CV",
@@ -27033,6 +29343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "Terminated",
           "package": "CV",
@@ -27042,6 +29353,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "Terminated",
           "package": "CV",
@@ -27055,6 +29367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "Value",
           "package": "CV",
@@ -27064,6 +29377,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "Value",
           "normalized": "Value(a(b,Stream a b))",
@@ -27079,6 +29393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "consS",
           "package": "CV",
@@ -27088,6 +29403,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "consS",
           "normalized": "a-\u003eStream b a-\u003eStream b a",
@@ -27103,6 +29419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop elements from the stream. Due to stream structure, this operation cannot\n  fail gracefully when dropping more elements than what is found in the stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "dropS",
           "package": "CV",
@@ -27113,6 +29430,7 @@
         "index": {
           "description": "Drop elements from the stream Due to stream structure this operation cannot fail gracefully when dropping more elements than what is found in the stream",
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "dropS",
           "normalized": "Int-\u003eStream a b-\u003eStream a b",
@@ -27128,6 +29446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePure and monadic left fold over a stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "foldS",
           "package": "CV",
@@ -27138,6 +29457,7 @@
         "index": {
           "description": "Pure and monadic left fold over stream",
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "foldS",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eStream c b-\u003ec a",
@@ -27152,6 +29472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "foldSM",
           "package": "CV",
@@ -27161,6 +29482,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "foldSM",
           "normalized": "(a-\u003eb-\u003ec a)-\u003ea-\u003eStream c b-\u003ec a",
@@ -27177,6 +29499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a stream by iterating a monadic action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "iterateS",
           "package": "CV",
@@ -27187,6 +29510,7 @@
         "index": {
           "description": "Create stream by iterating monadic action",
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "iterateS",
           "normalized": "(a-\u003eb a)-\u003ea-\u003eStream b a",
@@ -27202,6 +29526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeating stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "listToStream",
           "package": "CV",
@@ -27212,6 +29537,7 @@
         "index": {
           "description": "Repeating stream",
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "listToStream",
           "normalized": "[a]-\u003eStream b a",
@@ -27227,6 +29553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "mapMS",
           "package": "CV",
@@ -27236,6 +29563,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "mapMS",
           "normalized": "(a-\u003eb c)-\u003eStream b a-\u003eStream b c",
@@ -27251,6 +29579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "mergeE",
           "package": "CV",
@@ -27260,6 +29589,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "mergeE",
           "normalized": "(a,a)-\u003eStream b(LRB(a,a)(a,(a,a))(a,a))-\u003eStream b(a,(a,a))",
@@ -27274,6 +29604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "mergeManyW",
           "package": "CV",
@@ -27283,6 +29614,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "mergeManyW",
           "normalized": "[a]-\u003e(a-\u003ea-\u003ea)-\u003e[Stream b(a,a)]-\u003eStream b(a,a)",
@@ -27298,6 +29630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "mergeS",
           "package": "CV",
@@ -27307,6 +29640,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "mergeS",
           "normalized": "Stream a(b,c)-\u003eStream a(b,c)-\u003eStream a(LRB(b,c)(b,(c,c))(b,c))",
@@ -27321,6 +29655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "mergeTimeStreams",
           "package": "CV",
@@ -27330,6 +29665,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "mergeTimeStreams",
           "normalized": "a-\u003ea-\u003eStream b(a,a)-\u003eStream b(a,a)-\u003eStream b(a,(a,a))",
@@ -27345,6 +29681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "mergeTimeStreamsWith",
           "package": "CV",
@@ -27354,6 +29691,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "mergeTimeStreamsWith",
           "normalized": "a-\u003ea-\u003e(a-\u003ea-\u003ea)-\u003eStream b(a,a)-\u003eStream b(a,a)-\u003eStream b(a,a)",
@@ -27369,6 +29707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "pairS",
           "package": "CV",
@@ -27378,6 +29717,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "pairS",
           "normalized": "Stream a b-\u003eStream a(b,b)",
@@ -27392,6 +29732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "push",
           "package": "CV",
@@ -27401,6 +29742,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "push",
           "normalized": "a-\u003eStream b a-\u003eStream b a",
@@ -27415,6 +29757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "repeatS",
           "package": "CV",
@@ -27424,6 +29767,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "repeatS",
           "normalized": "a-\u003eStream b a",
@@ -27438,6 +29782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "repeatSM",
           "package": "CV",
@@ -27447,6 +29792,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "repeatSM",
           "normalized": "a b-\u003eStream a b",
@@ -27462,6 +29808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "runLast",
           "package": "CV",
@@ -27471,6 +29818,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "runLast",
           "normalized": "a-\u003eStream b a-\u003eb a",
@@ -27486,6 +29834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "runLast1",
           "package": "CV",
@@ -27495,6 +29844,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "runLast1",
           "normalized": "Stream a b-\u003ea b",
@@ -27510,6 +29860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "runStream",
           "package": "CV",
@@ -27519,6 +29870,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "runStream",
           "normalized": "Stream a b-\u003ea[b]",
@@ -27534,6 +29886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "runStream_",
           "package": "CV",
@@ -27543,6 +29896,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "runStream_",
           "normalized": "Stream a b-\u003ea()",
@@ -27558,6 +29912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "sequenceS",
           "package": "CV",
@@ -27567,6 +29922,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "sequenceS",
           "normalized": "Stream a(a b)-\u003eStream a b",
@@ -27582,6 +29938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttaching side effects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "sideEffect",
           "package": "CV",
@@ -27592,6 +29949,7 @@
         "index": {
           "description": "Attaching side effects",
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "sideEffect",
           "normalized": "(a-\u003eb())-\u003eStream b a-\u003eStream b a",
@@ -27607,6 +29965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "takeS",
           "package": "CV",
@@ -27616,6 +29975,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "takeS",
           "normalized": "Int-\u003eStream a b-\u003eStream a b",
@@ -27630,6 +29990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "takeWhileS",
           "package": "CV",
@@ -27639,6 +30000,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "takeWhileS",
           "normalized": "(a-\u003eBool)-\u003eStream b a-\u003eStream b a",
@@ -27654,6 +30016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "terminateOn",
           "package": "CV",
@@ -27663,6 +30026,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "terminateOn",
           "normalized": "(a-\u003eBool)-\u003eStream b a-\u003eStream b a",
@@ -27679,6 +30043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two (time)streams\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "time",
           "package": "CV",
@@ -27689,6 +30054,7 @@
         "index": {
           "description": "Merge two time streams",
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "time",
           "normalized": "(a,a)-\u003ea",
@@ -27703,6 +30069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "value",
           "package": "CV",
@@ -27712,6 +30079,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "value",
           "normalized": "(a,a)-\u003ea",
@@ -27726,6 +30094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:01 UTC 2014",
           "module": "Utils.Stream",
           "name": "zipS",
           "package": "CV",
@@ -27735,6 +30104,7 @@
         },
         "index": {
           "hierarchy": "Utils Stream",
+          "indexed": "2014-03-11T16:36:01",
           "module": "Utils.Stream",
           "name": "zipS",
           "normalized": "a b-\u003ea b-\u003ea(b,b)",

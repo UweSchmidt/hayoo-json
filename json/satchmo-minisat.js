@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "satchmo-minisat"
+        "phrase": "satchmo-minisat",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:34 UTC 2014",
           "module": "Satchmo.Solver.Minisat",
           "name": "solve",
           "package": "satchmo-minisat",
@@ -27,6 +28,7 @@
         },
         "index": {
           "hierarchy": "Satchmo Solver Minisat",
+          "indexed": "2014-03-11T19:57:34",
           "module": "Satchmo.Solver.Minisat",
           "name": "solve",
           "normalized": "SAT(Decoder a)-\u003eIO(Maybe a)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cabal-uninstall"
+        "phrase": "cabal-uninstall",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "semigroupoids"
+        "phrase": "semigroupoids",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Alt",
           "name": "Alt",
           "package": "semigroupoids",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Alt",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Alt",
           "name": "Alt",
           "package": "semigroupoids",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLaws:\n\u003c/p\u003e\u003cpre\u003e \u003c!\u003e is associative:             (a \u003c!\u003e b) \u003c!\u003e c = a \u003c!\u003e (b \u003c!\u003e c)\n \u003c$\u003e left-distributes over \u003c!\u003e:  f \u003c$\u003e (a \u003c!\u003e b) = (f \u003c$\u003e a) \u003c!\u003e (f \u003c$\u003e b)\n\u003c/pre\u003e\u003cp\u003eIf extended to an \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e then \u003ccode\u003e\u003ca\u003e\u003c!\u003e\u003c/a\u003e\u003c/code\u003e should equal \u003ccode\u003e\u003ca\u003e\u003c|\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIdeally, an instance of \u003ccode\u003e\u003ca\u003eAlt\u003c/a\u003e\u003c/code\u003e also satisfies the \"left distributon\" law of\n MonadPlus with respect to \u003ca\u003e.\u003c/a\u003e:\n\u003c/p\u003e\u003cpre\u003e \u003c.\u003e right-distributes over \u003c!\u003e: (a \u003c!\u003e b) \u003c.\u003e c = (a \u003c.\u003e c) \u003c!\u003e (b \u003c.\u003e c)\n\u003c/pre\u003e\u003cp\u003eBut \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003eErrorT\u003c/code\u003e e m\u003c/code\u003e, and \u003ccode\u003eSTM\u003c/code\u003e satisfy the alternative\n \"left catch\" law instead:\n\u003c/p\u003e\u003cpre\u003e pure a \u003c!\u003e b = pure a\n\u003c/pre\u003e\u003cp\u003eHowever, this variation cannot be stated purely in terms of the dependencies of \u003ccode\u003e\u003ca\u003eAlt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWhen and if MonadPlus is successfully refactored, this class should also\n be refactored to remove these instances.\n\u003c/p\u003e\u003cp\u003eThe right distributive law should extend in the cases where the a \u003ccode\u003e\u003ca\u003eBind\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e is\n provided to yield variations of the right distributive law:\n\u003c/p\u003e\u003cpre\u003e (m \u003c!\u003e n) \u003e\u003e- f = (m \u003e\u003e- f) \u003c!\u003e (m \u003e\u003e- f)\n (m \u003c!\u003e n) \u003e\u003e= f = (m \u003e\u003e= f) \u003c!\u003e (m \u003e\u003e= f)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Alt",
           "name": "Alt",
           "package": "semigroupoids",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Laws is associative left-distributes over If extended to an Alternative then should equal Ideally an instance of Alt also satisfies the left distributon law of MonadPlus with respect to right-distributes over But Maybe IO Either ErrorT and STM satisfy the alternative left catch law instead pure pure However this variation cannot be stated purely in terms of the dependencies of Alt When and if MonadPlus is successfully refactored this class should also be refactored to remove these instances The right distributive law should extend in the cases where the Bind or Monad is provided to yield variations of the right distributive law",
           "hierarchy": "Data Functor Alt",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Alt",
           "name": "Alt",
           "package": "semigroupoids",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(\u003ca\u003e|\u003c/a\u003e)\u003c/code\u003e without a required \u003ccode\u003eempty\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Alt",
           "name": "(\u003c!\u003e)",
           "package": "semigroupoids",
@@ -73,6 +78,7 @@
         "index": {
           "description": "without required empty",
           "hierarchy": "Data Functor Alt",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Alt",
           "name": "(\u003c!\u003e) \u003c!\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Alt",
           "name": "many",
           "package": "semigroupoids",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Alt",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Alt",
           "name": "many",
           "normalized": "a b-\u003ea[b]",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Alt",
           "name": "some",
           "package": "semigroupoids",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Alt",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Alt",
           "name": "some",
           "normalized": "a b-\u003ea[b]",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Apply",
           "name": "Apply",
           "package": "semigroupoids",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Apply",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Apply",
           "name": "Apply",
           "package": "semigroupoids",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strong lax semi-monoidal endofunctor.\n This is equivalent to an \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e without \u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eLaws:\n\u003c/p\u003e\u003cpre\u003e associative composition: (.) \u003c$\u003e u \u003c.\u003e v \u003c.\u003e w = u \u003c.\u003e (v \u003c.\u003e w)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Apply",
           "name": "Apply",
           "package": "semigroupoids",
@@ -164,6 +177,7 @@
         "index": {
           "description": "strong lax semi-monoidal endofunctor This is equivalent to an Applicative without pure Laws associative composition",
           "hierarchy": "Data Functor Apply",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Apply",
           "name": "Apply",
           "package": "semigroupoids",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e class is used for types that can be mapped over.\nInstances of \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e should satisfy the following laws:\n\u003c/p\u003e\u003cpre\u003e fmap id  ==  id\n fmap (f . g)  ==  fmap f . fmap g\n\u003c/pre\u003e\u003cp\u003eThe instances of \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e for lists, \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\nsatisfy these laws.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Apply",
           "name": "Functor",
           "package": "semigroupoids",
@@ -186,6 +201,7 @@
         "index": {
           "description": "The Functor class is used for types that can be mapped over Instances of Functor should satisfy the following laws fmap id id fmap fmap fmap The instances of Functor for lists Maybe and IO satisfy these laws",
           "hierarchy": "Data Functor Apply",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Apply",
           "name": "Functor",
           "package": "semigroupoids",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a Apply into an Applicative by adding a unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Apply",
           "name": "MaybeApply",
           "package": "semigroupoids",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Transform Apply into an Applicative by adding unit",
           "hierarchy": "Data Functor Apply",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Apply",
           "name": "MaybeApply",
           "package": "semigroupoids",
@@ -223,6 +241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap an \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e to be used as a member of \u003ccode\u003e\u003ca\u003eApply\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Apply",
           "name": "WrappedApplicative",
           "package": "semigroupoids",
@@ -232,6 +251,7 @@
         "index": {
           "description": "Wrap an Applicative to be used as member of Apply",
           "hierarchy": "Data Functor Apply",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Apply",
           "name": "WrappedApplicative",
           "package": "semigroupoids",
@@ -271,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace all locations in the input with the same value.\n The default definition is \u003ccode\u003e\u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003econst\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, but this may be\n overridden with a more efficient version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Apply",
           "name": "(\u003c$)",
           "package": "semigroupoids",
@@ -280,6 +301,7 @@
         "index": {
           "description": "Replace all locations in the input with the same value The default definition is fmap const but this may be overridden with more efficient version",
           "hierarchy": "Data Functor Apply",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Apply",
           "name": "(\u003c$) \u003c$",
           "normalized": "a-\u003eb c-\u003eb a",
@@ -320,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e a \u003c. b = const \u003c$\u003e a \u003c.\u003e b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Apply",
           "name": "(\u003c.)",
           "package": "semigroupoids",
@@ -330,6 +353,7 @@
         "index": {
           "description": "const",
           "hierarchy": "Data Functor Apply",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Apply",
           "name": "(\u003c.) \u003c.",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -344,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Apply",
           "name": "(\u003c.\u003e)",
           "package": "semigroupoids",
@@ -353,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Apply",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Apply",
           "name": "(\u003c.\u003e) \u003c.\u003e",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -394,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e a  .\u003e b = const id \u003c$\u003e a \u003c.\u003e b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Apply",
           "name": "(.\u003e)",
           "package": "semigroupoids",
@@ -404,6 +431,7 @@
         "index": {
           "description": "const id",
           "hierarchy": "Data Functor Apply",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Apply",
           "name": "(.\u003e) .\u003e",
           "normalized": "a b-\u003ea c-\u003ea c",
@@ -464,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Apply",
           "name": "fmap",
           "package": "semigroupoids",
@@ -472,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Apply",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Apply",
           "name": "fmap",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -584,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Bind.Trans",
           "name": "Trans",
           "package": "semigroupoids",
@@ -592,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Bind Trans",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Bind.Trans",
           "name": "Trans",
           "package": "semigroupoids",
@@ -606,6 +638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA subset of monad transformers can transform any \u003ccode\u003e\u003ca\u003eBind\u003c/a\u003e\u003c/code\u003e as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Bind.Trans",
           "name": "BindTrans",
           "package": "semigroupoids",
@@ -615,6 +648,7 @@
         "index": {
           "description": "subset of monad transformers can transform any Bind as well",
           "hierarchy": "Data Functor Bind Trans",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Bind.Trans",
           "name": "BindTrans",
           "package": "semigroupoids",
@@ -628,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Bind.Trans",
           "name": "liftB",
           "package": "semigroupoids",
@@ -637,6 +672,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Bind Trans",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Bind.Trans",
           "name": "liftB",
           "normalized": "a b-\u003ec a b",
@@ -652,6 +688,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNB: The definitions exported through \u003ca\u003eData.Functor.Apply\u003c/a\u003e need to be\n included here because otherwise the instances for the transformers package\n have orphaned heads.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Bind",
           "name": "Bind",
           "package": "semigroupoids",
@@ -661,6 +698,7 @@
         "index": {
           "description": "NB The definitions exported through Data.Functor.Apply need to be included here because otherwise the instances for the transformers package have orphaned heads",
           "hierarchy": "Data Functor Bind",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Bind",
           "name": "Bind",
           "package": "semigroupoids",
@@ -675,6 +713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strong lax semi-monoidal endofunctor.\n This is equivalent to an \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e without \u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eLaws:\n\u003c/p\u003e\u003cpre\u003e associative composition: (.) \u003c$\u003e u \u003c.\u003e v \u003c.\u003e w = u \u003c.\u003e (v \u003c.\u003e w)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Bind",
           "name": "Apply",
           "package": "semigroupoids",
@@ -684,6 +723,7 @@
         "index": {
           "description": "strong lax semi-monoidal endofunctor This is equivalent to an Applicative without pure Laws associative composition",
           "hierarchy": "Data Functor Bind",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Bind",
           "name": "Apply",
           "package": "semigroupoids",
@@ -698,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e sans \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eMinimal definition: Either \u003ccode\u003e\u003ca\u003ejoin\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003e\u003e\u003e-\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eIf defining both, then the following laws (the default definitions) must hold:\n\u003c/p\u003e\u003cpre\u003e join = (\u003e\u003e- id)\n m \u003e\u003e- f = join (fmap f m)\n\u003c/pre\u003e\u003cp\u003eLaws:\n\u003c/p\u003e\u003cpre\u003e induced definition of \u003c.\u003e: f \u003c.\u003e x = f \u003e\u003e- (\u003c$\u003e x)\n\u003c/pre\u003e\u003cp\u003eFinally, there are two associativity conditions:\n\u003c/p\u003e\u003cpre\u003e associativity of (\u003e\u003e-):    (m \u003e\u003e- f) \u003e\u003e- g == m \u003e\u003e- (\\x -\u003e f x \u003e\u003e- g)\n associativity of join:     join . join = join . fmap join\n\u003c/pre\u003e\u003cp\u003eThese can both be seen as special cases of the constraint that\n\u003c/p\u003e\u003cpre\u003e associativity of (-\u003e-): (f -\u003e- g) -\u003e- h = f -\u003e- (g -\u003e- h)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Bind",
           "name": "Bind",
           "package": "semigroupoids",
@@ -707,6 +748,7 @@
         "index": {
           "description": "Monad sans return Minimal definition Either join or If defining both then the following laws the default definitions must hold join id join fmap Laws induced definition of Finally there are two associativity conditions associativity of associativity of join join join join fmap join These can both be seen as special cases of the constraint that associativity of",
           "hierarchy": "Data Functor Bind",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Bind",
           "name": "Bind",
           "package": "semigroupoids",
@@ -721,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e class is used for types that can be mapped over.\nInstances of \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e should satisfy the following laws:\n\u003c/p\u003e\u003cpre\u003e fmap id  ==  id\n fmap (f . g)  ==  fmap f . fmap g\n\u003c/pre\u003e\u003cp\u003eThe instances of \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e for lists, \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\nsatisfy these laws.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Bind",
           "name": "Functor",
           "package": "semigroupoids",
@@ -729,6 +772,7 @@
         "index": {
           "description": "The Functor class is used for types that can be mapped over Instances of Functor should satisfy the following laws fmap id id fmap fmap fmap The instances of Functor for lists Maybe and IO satisfy these laws",
           "hierarchy": "Data Functor Bind",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Bind",
           "name": "Functor",
           "package": "semigroupoids",
@@ -743,6 +787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a Apply into an Applicative by adding a unit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Bind",
           "name": "MaybeApply",
           "package": "semigroupoids",
@@ -752,6 +797,7 @@
         "index": {
           "description": "Transform Apply into an Applicative by adding unit",
           "hierarchy": "Data Functor Bind",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Bind",
           "name": "MaybeApply",
           "package": "semigroupoids",
@@ -766,6 +812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap an \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e to be used as a member of \u003ccode\u003e\u003ca\u003eApply\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Bind",
           "name": "WrappedApplicative",
           "package": "semigroupoids",
@@ -775,6 +822,7 @@
         "index": {
           "description": "Wrap an Applicative to be used as member of Apply",
           "hierarchy": "Data Functor Bind",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Bind",
           "name": "WrappedApplicative",
           "package": "semigroupoids",
@@ -788,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Bind",
           "name": "(-\u003c-)",
           "package": "semigroupoids",
@@ -797,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Bind",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Bind",
           "name": "(-\u003c-) -\u003c-",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb a)-\u003ed-\u003eb c",
@@ -811,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Bind",
           "name": "(-\u003c\u003c)",
           "package": "semigroupoids",
@@ -820,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Bind",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Bind",
           "name": "(-\u003c\u003c) -\u003c\u003c",
           "normalized": "(a-\u003eb c)-\u003eb a-\u003eb c",
@@ -834,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Bind",
           "name": "(-\u003e-)",
           "package": "semigroupoids",
@@ -843,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Bind",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Bind",
           "name": "(-\u003e-) -\u003e-",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003eb d)-\u003ea-\u003eb d",
@@ -858,6 +912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace all locations in the input with the same value.\n The default definition is \u003ccode\u003e\u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003econst\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, but this may be\n overridden with a more efficient version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Bind",
           "name": "(\u003c$)",
           "package": "semigroupoids",
@@ -867,6 +922,7 @@
         "index": {
           "description": "Replace all locations in the input with the same value The default definition is fmap const but this may be overridden with more efficient version",
           "hierarchy": "Data Functor Bind",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Bind",
           "name": "(\u003c$) \u003c$",
           "normalized": "a-\u003eb c-\u003eb a",
@@ -882,6 +938,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e a \u003c. b = const \u003c$\u003e a \u003c.\u003e b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Bind",
           "name": "(\u003c.)",
           "package": "semigroupoids",
@@ -892,6 +949,7 @@
         "index": {
           "description": "const",
           "hierarchy": "Data Functor Bind",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Bind",
           "name": "(\u003c.) \u003c.",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -906,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Bind",
           "name": "(\u003c.\u003e)",
           "package": "semigroupoids",
@@ -915,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Bind",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Bind",
           "name": "(\u003c.\u003e) \u003c.\u003e",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -929,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Bind",
           "name": "(\u003e\u003e-)",
           "package": "semigroupoids",
@@ -938,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Bind",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Bind",
           "name": "(\u003e\u003e-) \u003e\u003e-",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003ea c",
@@ -953,6 +1015,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e a  .\u003e b = const id \u003c$\u003e a \u003c.\u003e b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Bind",
           "name": "(.\u003e)",
           "package": "semigroupoids",
@@ -963,6 +1026,7 @@
         "index": {
           "description": "const id",
           "hierarchy": "Data Functor Bind",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Bind",
           "name": "(.\u003e) .\u003e",
           "normalized": "a b-\u003ea c-\u003ea c",
@@ -977,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Bind",
           "name": "apDefault",
           "package": "semigroupoids",
@@ -986,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Bind",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Bind",
           "name": "apDefault",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -1001,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Bind",
           "name": "fmap",
           "package": "semigroupoids",
@@ -1009,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Bind",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Bind",
           "name": "fmap",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -1023,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Bind",
           "name": "join",
           "package": "semigroupoids",
@@ -1032,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Bind",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Bind",
           "name": "join",
           "normalized": "a(a b)-\u003ea b",
@@ -1046,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Bind",
           "name": "returning",
           "package": "semigroupoids",
@@ -1055,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Bind",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Bind",
           "name": "returning",
           "normalized": "a b-\u003e(b-\u003ec)-\u003ea c",
@@ -1069,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Extend",
           "name": "Extend",
           "package": "semigroupoids",
@@ -1077,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Extend",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Extend",
           "name": "Extend",
           "package": "semigroupoids",
@@ -1090,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Extend",
           "name": "Extend",
           "package": "semigroupoids",
@@ -1098,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Extend",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Extend",
           "name": "Extend",
           "package": "semigroupoids",
@@ -1112,6 +1188,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e duplicated = extended id\n fmap (fmap f) . duplicated = duplicated . fmap f\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Extend",
           "name": "duplicated",
           "package": "semigroupoids",
@@ -1122,6 +1199,7 @@
         "index": {
           "description": "duplicated extended id fmap fmap duplicated duplicated fmap",
           "hierarchy": "Data Functor Extend",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Extend",
           "name": "duplicated",
           "normalized": "a b-\u003ea(a b)",
@@ -1137,6 +1215,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e extended f  = fmap f . duplicated\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Extend",
           "name": "extended",
           "package": "semigroupoids",
@@ -1147,6 +1226,7 @@
         "index": {
           "description": "extended fmap duplicated",
           "hierarchy": "Data Functor Extend",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Extend",
           "name": "extended",
           "normalized": "(a b-\u003ec)-\u003ea b-\u003ea c",
@@ -1161,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Plus",
           "name": "Plus",
           "package": "semigroupoids",
@@ -1169,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Plus",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Plus",
           "name": "Plus",
           "package": "semigroupoids",
@@ -1183,6 +1265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLaws:\n\u003c/p\u003e\u003cpre\u003e zero \u003c!\u003e m = m\n m \u003c!\u003e zero = m\n\u003c/pre\u003e\u003cp\u003eIf extended to an \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e then \u003ccode\u003e\u003ca\u003ezero\u003c/a\u003e\u003c/code\u003e should equal \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Plus",
           "name": "Plus",
           "package": "semigroupoids",
@@ -1192,6 +1275,7 @@
         "index": {
           "description": "Laws zero zero If extended to an Alternative then zero should equal empty",
           "hierarchy": "Data Functor Plus",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Plus",
           "name": "Plus",
           "package": "semigroupoids",
@@ -1205,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Functor.Plus",
           "name": "zero",
           "package": "semigroupoids",
@@ -1214,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Plus",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Functor.Plus",
           "name": "zero",
           "package": "semigroupoids",
@@ -1226,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Groupoid",
           "name": "Groupoid",
           "package": "semigroupoids",
@@ -1234,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "Data Groupoid",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Groupoid",
           "name": "Groupoid",
           "package": "semigroupoids",
@@ -1248,6 +1336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esemigroupoid with inverses. This technically should be a category with inverses, except we need to use Ob to define the valid objects for the category\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Groupoid",
           "name": "Groupoid",
           "package": "semigroupoids",
@@ -1257,6 +1346,7 @@
         "index": {
           "description": "semigroupoid with inverses This technically should be category with inverses except we need to use Ob to define the valid objects for the category",
           "hierarchy": "Data Groupoid",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Groupoid",
           "name": "Groupoid",
           "package": "semigroupoids",
@@ -1270,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Groupoid",
           "name": "inv",
           "package": "semigroupoids",
@@ -1279,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Data Groupoid",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Groupoid",
           "name": "inv",
           "normalized": "a b c-\u003ea c b",
@@ -1293,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Isomorphism",
           "name": "Isomorphism",
           "package": "semigroupoids",
@@ -1301,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Data Isomorphism",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Isomorphism",
           "name": "Isomorphism",
           "package": "semigroupoids",
@@ -1314,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Isomorphism",
           "name": "Iso",
           "package": "semigroupoids",
@@ -1322,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Data Isomorphism",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Isomorphism",
           "name": "Iso",
           "package": "semigroupoids",
@@ -1335,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Isomorphism",
           "name": "Iso",
           "package": "semigroupoids",
@@ -1344,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "Data Isomorphism",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Isomorphism",
           "name": "Iso",
           "package": "semigroupoids",
@@ -1357,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Isomorphism",
           "name": "embed",
           "package": "semigroupoids",
@@ -1366,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Data Isomorphism",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Isomorphism",
           "name": "embed",
           "package": "semigroupoids",
@@ -1378,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Isomorphism",
           "name": "project",
           "package": "semigroupoids",
@@ -1387,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "Data Isomorphism",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Isomorphism",
           "name": "project",
           "package": "semigroupoids",
@@ -1399,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor.Associative",
           "name": "Associative",
           "package": "semigroupoids",
@@ -1407,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor Associative",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor.Associative",
           "name": "Associative",
           "package": "semigroupoids",
@@ -1420,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor.Associative",
           "name": "Associative",
           "package": "semigroupoids",
@@ -1428,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor Associative",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor.Associative",
           "name": "Associative",
           "package": "semigroupoids",
@@ -1441,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor.Associative",
           "name": "Disassociative",
           "package": "semigroupoids",
@@ -1449,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor Associative",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor.Associative",
           "name": "Disassociative",
           "package": "semigroupoids",
@@ -1462,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor.Associative",
           "name": "associate",
           "package": "semigroupoids",
@@ -1471,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor Associative",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor.Associative",
           "name": "associate",
           "normalized": "a(b(b(c,d),e))(b(c,b(d,e)))",
@@ -1485,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor.Associative",
           "name": "cokleisliAssociate",
           "package": "semigroupoids",
@@ -1494,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor Associative",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor.Associative",
           "name": "cokleisliAssociate",
           "normalized": "Cokleisli a(b(b(c,d),e))(b(c,b(d,e)))",
@@ -1509,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor.Associative",
           "name": "cokleisliDisassociate",
           "package": "semigroupoids",
@@ -1518,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor Associative",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor.Associative",
           "name": "cokleisliDisassociate",
           "normalized": "Cokleisli a(b(c,b(d,e)))(b(b(c,d),e))",
@@ -1533,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor.Associative",
           "name": "disassociate",
           "package": "semigroupoids",
@@ -1542,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor Associative",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor.Associative",
           "name": "disassociate",
           "normalized": "a(b(c,b(d,e)))(b(b(c,d),e))",
@@ -1556,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor.Associative",
           "name": "kleisliAssociate",
           "package": "semigroupoids",
@@ -1565,6 +1682,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor Associative",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor.Associative",
           "name": "kleisliAssociate",
           "normalized": "Kleisli a(b(b(c,d),e))(b(c,b(d,e)))",
@@ -1580,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor.Associative",
           "name": "kleisliDisassociate",
           "package": "semigroupoids",
@@ -1589,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor Associative",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor.Associative",
           "name": "kleisliDisassociate",
           "normalized": "Kleisli a(b(c,b(d,e)))(b(b(c,d),e))",
@@ -1604,6 +1724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor.Braided",
           "name": "Braided",
           "package": "semigroupoids",
@@ -1612,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor Braided",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor.Braided",
           "name": "Braided",
           "package": "semigroupoids",
@@ -1625,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor.Braided",
           "name": "Braided",
           "package": "semigroupoids",
@@ -1633,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor Braided",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor.Braided",
           "name": "Braided",
           "package": "semigroupoids",
@@ -1646,6 +1770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor.Braided",
           "name": "Symmetric",
           "package": "semigroupoids",
@@ -1654,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor Braided",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor.Braided",
           "name": "Symmetric",
           "package": "semigroupoids",
@@ -1667,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor.Braided",
           "name": "braid",
           "package": "semigroupoids",
@@ -1676,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor Braided",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor.Braided",
           "name": "braid",
           "normalized": "a(b(c,d))(b(d,c))",
@@ -1690,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor.Braided",
           "name": "cokleisliBraid",
           "package": "semigroupoids",
@@ -1699,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor Braided",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor.Braided",
           "name": "cokleisliBraid",
           "normalized": "Cokleisli a(b(c,d))(b(d,c))",
@@ -1714,6 +1844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor.Braided",
           "name": "kleisliBraid",
           "package": "semigroupoids",
@@ -1723,6 +1854,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor Braided",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor.Braided",
           "name": "kleisliBraid",
           "normalized": "Kleisli a(b(c,d))(b(d,c))",
@@ -1738,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor.Braided",
           "name": "swap",
           "package": "semigroupoids",
@@ -1747,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor Braided",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor.Braided",
           "name": "swap",
           "normalized": "a(b(c,d))(b(d,c))",
@@ -1761,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor",
           "name": "Semifunctor",
           "package": "semigroupoids",
@@ -1769,6 +1904,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor",
           "name": "Semifunctor",
           "package": "semigroupoids",
@@ -1783,6 +1919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to map a more traditional bifunctor into a semifunctor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor",
           "name": "Bi",
           "package": "semigroupoids",
@@ -1792,6 +1929,7 @@
         "index": {
           "description": "Used to map more traditional bifunctor into semifunctor",
           "hierarchy": "Data Semifunctor",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor",
           "name": "Bi",
           "package": "semigroupoids",
@@ -1806,6 +1944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSemifunctors map objects to objects, and arrows to arrows preserving connectivity\n as normal functors, but do not purport to preserve identity arrows. We apply them\n to semigroupoids, because those don't even claim to offer identity arrows!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor",
           "name": "Semifunctor",
           "package": "semigroupoids",
@@ -1815,6 +1954,7 @@
         "index": {
           "description": "Semifunctors map objects to objects and arrows to arrows preserving connectivity as normal functors but do not purport to preserve identity arrows We apply them to semigroupoids because those don even claim to offer identity arrows",
           "hierarchy": "Data Semifunctor",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor",
           "name": "Semifunctor",
           "package": "semigroupoids",
@@ -1828,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor",
           "name": "WrappedFunctor",
           "package": "semigroupoids",
@@ -1836,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor",
           "name": "WrappedFunctor",
           "package": "semigroupoids",
@@ -1849,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor",
           "name": "WrappedTraversable1",
           "package": "semigroupoids",
@@ -1857,6 +2000,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor",
           "name": "WrappedTraversable1",
           "package": "semigroupoids",
@@ -1870,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor",
           "name": "(#)",
           "package": "semigroupoids",
@@ -1879,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor",
           "name": "(#) #",
           "normalized": "a-\u003eb-\u003eBi(,)(a,b)",
@@ -1893,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor",
           "name": "Bi",
           "package": "semigroupoids",
@@ -1902,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor",
           "name": "Bi",
           "normalized": "a b c-\u003eBi a(b,c)",
@@ -1917,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor",
           "name": "WrapFunctor",
           "package": "semigroupoids",
@@ -1926,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor",
           "name": "WrapFunctor",
           "package": "semigroupoids",
@@ -1939,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor",
           "name": "WrapTraversable1",
           "package": "semigroupoids",
@@ -1948,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor",
           "name": "WrapTraversable1",
           "package": "semigroupoids",
@@ -1961,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor",
           "name": "first",
           "package": "semigroupoids",
@@ -1970,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor",
           "name": "first",
           "normalized": "a b c-\u003ed(e(b,f))(e(c,f))",
@@ -1984,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor",
           "name": "second",
           "package": "semigroupoids",
@@ -1993,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor",
           "name": "second",
           "normalized": "a b c-\u003ed(e(f,b))(e(f,c))",
@@ -2007,6 +2163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor",
           "name": "semibimap",
           "package": "semigroupoids",
@@ -2016,6 +2173,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor",
           "name": "semibimap",
           "normalized": "a b c-\u003ed e f-\u003eg(h(b,e))(h(c,f))",
@@ -2030,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor",
           "name": "semifirst",
           "package": "semigroupoids",
@@ -2039,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor",
           "name": "semifirst",
           "normalized": "a b c-\u003ed(e(b,f))(e(c,f))",
@@ -2053,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor",
           "name": "semimap",
           "package": "semigroupoids",
@@ -2062,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor",
           "name": "semimap",
           "normalized": "a b c-\u003ed(e b)(e c)",
@@ -2076,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor",
           "name": "semisecond",
           "package": "semigroupoids",
@@ -2085,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor",
           "name": "semisecond",
           "normalized": "a b c-\u003ed(e(f,b))(e(f,c))",
@@ -2099,6 +2263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor",
           "name": "unwrapFunctor",
           "package": "semigroupoids",
@@ -2108,6 +2273,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor",
           "name": "unwrapFunctor",
           "package": "semigroupoids",
@@ -2121,6 +2287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semifunctor",
           "name": "unwrapTraversable1",
           "package": "semigroupoids",
@@ -2130,6 +2297,7 @@
         },
         "index": {
           "hierarchy": "Data Semifunctor",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semifunctor",
           "name": "unwrapTraversable1",
           "package": "semigroupoids",
@@ -2143,6 +2311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroup.Foldable",
           "name": "Foldable",
           "package": "semigroupoids",
@@ -2151,6 +2320,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Foldable",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroup.Foldable",
           "name": "Foldable",
           "package": "semigroupoids",
@@ -2164,6 +2334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroup.Foldable",
           "name": "Foldable1",
           "package": "semigroupoids",
@@ -2172,6 +2343,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Foldable",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroup.Foldable",
           "name": "Foldable1",
           "package": "semigroupoids",
@@ -2185,6 +2357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroup.Foldable",
           "name": "fold1",
           "package": "semigroupoids",
@@ -2194,6 +2367,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Foldable",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroup.Foldable",
           "name": "fold1",
           "normalized": "a b-\u003eb",
@@ -2208,6 +2382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroup.Foldable",
           "name": "foldMap1",
           "package": "semigroupoids",
@@ -2217,6 +2392,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Foldable",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroup.Foldable",
           "name": "foldMap1",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -2233,6 +2409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsable default for foldMap, but only if you define foldMap1 yourself\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroup.Foldable",
           "name": "foldMapDefault1",
           "package": "semigroupoids",
@@ -2243,6 +2420,7 @@
         "index": {
           "description": "Usable default for foldMap but only if you define foldMap1 yourself",
           "hierarchy": "Data Semigroup Foldable",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroup.Foldable",
           "name": "foldMapDefault1",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -2258,6 +2436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroup.Foldable",
           "name": "for1_",
           "package": "semigroupoids",
@@ -2267,6 +2446,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Foldable",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroup.Foldable",
           "name": "for1_",
           "normalized": "a b-\u003e(b-\u003ec d)-\u003ec()",
@@ -2281,6 +2461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroup.Foldable",
           "name": "sequenceA1_",
           "package": "semigroupoids",
@@ -2290,6 +2471,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Foldable",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroup.Foldable",
           "name": "sequenceA1_",
           "normalized": "a(b c)-\u003eb()",
@@ -2304,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroup.Foldable",
           "name": "traverse1_",
           "package": "semigroupoids",
@@ -2313,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Foldable",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroup.Foldable",
           "name": "traverse1_",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb()",
@@ -2327,6 +2511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroup.Traversable",
           "name": "Traversable",
           "package": "semigroupoids",
@@ -2335,6 +2520,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Traversable",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroup.Traversable",
           "name": "Traversable",
           "package": "semigroupoids",
@@ -2348,6 +2534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroup.Traversable",
           "name": "Traversable1",
           "package": "semigroupoids",
@@ -2356,6 +2543,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Traversable",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroup.Traversable",
           "name": "Traversable1",
           "package": "semigroupoids",
@@ -2369,6 +2557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroup.Traversable",
           "name": "foldMap1Default",
           "package": "semigroupoids",
@@ -2378,6 +2567,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Traversable",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroup.Traversable",
           "name": "foldMap1Default",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -2393,6 +2583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroup.Traversable",
           "name": "sequence1",
           "package": "semigroupoids",
@@ -2402,6 +2593,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Traversable",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroup.Traversable",
           "name": "sequence1",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -2416,6 +2608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroup.Traversable",
           "name": "traverse1",
           "package": "semigroupoids",
@@ -2425,6 +2618,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup Traversable",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroup.Traversable",
           "name": "traverse1",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb(d c)",
@@ -2439,6 +2633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Coproduct",
           "name": "Coproduct",
           "package": "semigroupoids",
@@ -2447,6 +2642,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Coproduct",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Coproduct",
           "name": "Coproduct",
           "package": "semigroupoids",
@@ -2460,6 +2656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Coproduct",
           "name": "Coproduct",
           "package": "semigroupoids",
@@ -2468,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Coproduct",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Coproduct",
           "name": "Coproduct",
           "package": "semigroupoids",
@@ -2481,6 +2679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Coproduct",
           "name": "L",
           "package": "semigroupoids",
@@ -2489,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Coproduct",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Coproduct",
           "name": "L",
           "package": "semigroupoids",
@@ -2501,6 +2701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Coproduct",
           "name": "R",
           "package": "semigroupoids",
@@ -2509,6 +2710,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Coproduct",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Coproduct",
           "name": "R",
           "package": "semigroupoids",
@@ -2521,6 +2723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Coproduct",
           "name": "L",
           "package": "semigroupoids",
@@ -2530,6 +2733,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Coproduct",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Coproduct",
           "name": "L",
           "normalized": "a b c-\u003eCoproduct a d(L b)(L c)",
@@ -2544,6 +2748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Coproduct",
           "name": "R",
           "package": "semigroupoids",
@@ -2553,6 +2758,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Coproduct",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Coproduct",
           "name": "R",
           "normalized": "a b c-\u003eCoproduct d a(R b)(R c)",
@@ -2567,6 +2773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Coproduct",
           "name": "distributeDualCoproduct",
           "package": "semigroupoids",
@@ -2576,6 +2783,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Coproduct",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Coproduct",
           "name": "distributeDualCoproduct",
           "normalized": "Dual(Coproduct a b)c d-\u003eCoproduct(Dual a)(Dual b)c d",
@@ -2591,6 +2799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Coproduct",
           "name": "factorDualCoproduct",
           "package": "semigroupoids",
@@ -2600,6 +2809,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Coproduct",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Coproduct",
           "name": "factorDualCoproduct",
           "normalized": "Coproduct(Dual a)(Dual b)c d-\u003eDual(Coproduct a b)c d",
@@ -2616,6 +2826,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA semigroupoid satisfies all of the requirements to be a Category except\n for the existence of identity arrows.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Dual",
           "name": "Dual",
           "package": "semigroupoids",
@@ -2625,6 +2836,7 @@
         "index": {
           "description": "semigroupoid satisfies all of the requirements to be Category except for the existence of identity arrows",
           "hierarchy": "Data Semigroupoid Dual",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Dual",
           "name": "Dual",
           "package": "semigroupoids",
@@ -2638,6 +2850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Dual",
           "name": "Dual",
           "package": "semigroupoids",
@@ -2646,6 +2859,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Dual",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Dual",
           "name": "Dual",
           "package": "semigroupoids",
@@ -2659,6 +2873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Dual",
           "name": "Dual",
           "package": "semigroupoids",
@@ -2668,6 +2883,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Dual",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Dual",
           "name": "Dual",
           "package": "semigroupoids",
@@ -2681,6 +2897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Dual",
           "name": "getDual",
           "package": "semigroupoids",
@@ -2690,6 +2907,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Dual",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Dual",
           "name": "getDual",
           "package": "semigroupoids",
@@ -2703,6 +2921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Ob",
           "name": "Ob",
           "package": "semigroupoids",
@@ -2711,6 +2930,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Ob",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Ob",
           "name": "Ob",
           "package": "semigroupoids",
@@ -2724,6 +2944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Ob",
           "name": "Ob",
           "package": "semigroupoids",
@@ -2732,6 +2953,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Ob",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Ob",
           "name": "Ob",
           "package": "semigroupoids",
@@ -2745,6 +2967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Ob",
           "name": "semiid",
           "package": "semigroupoids",
@@ -2754,6 +2977,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Ob",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Ob",
           "name": "semiid",
           "package": "semigroupoids",
@@ -2766,6 +2990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Product",
           "name": "Product",
           "package": "semigroupoids",
@@ -2774,6 +2999,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Product",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Product",
           "name": "Product",
           "package": "semigroupoids",
@@ -2787,6 +3013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Product",
           "name": "Product",
           "package": "semigroupoids",
@@ -2795,6 +3022,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Product",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Product",
           "name": "Product",
           "package": "semigroupoids",
@@ -2808,6 +3036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Product",
           "name": "Pair",
           "package": "semigroupoids",
@@ -2817,6 +3046,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Product",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Product",
           "name": "Pair",
           "normalized": "a b c-\u003ed e f-\u003eProduct a d(b,e)(c,f)",
@@ -2832,6 +3062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Product",
           "name": "distributeDualProduct",
           "package": "semigroupoids",
@@ -2841,6 +3072,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Product",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Product",
           "name": "distributeDualProduct",
           "normalized": "Dual(Product a b)c d-\u003eProduct(Dual a)(Dual b)c d",
@@ -2856,6 +3088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Product",
           "name": "factorDualProduct",
           "package": "semigroupoids",
@@ -2865,6 +3098,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Product",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Product",
           "name": "factorDualProduct",
           "normalized": "Product(Dual a)(Dual b)c d-\u003eDual(Product a b)c d",
@@ -2880,6 +3114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Static",
           "name": "Static",
           "package": "semigroupoids",
@@ -2888,6 +3123,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Static",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Static",
           "name": "Static",
           "package": "semigroupoids",
@@ -2901,6 +3137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Static",
           "name": "Static",
           "package": "semigroupoids",
@@ -2909,6 +3146,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Static",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Static",
           "name": "Static",
           "package": "semigroupoids",
@@ -2922,6 +3160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Static",
           "name": "Static",
           "package": "semigroupoids",
@@ -2931,6 +3170,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Static",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Static",
           "name": "Static",
           "package": "semigroupoids",
@@ -2944,6 +3184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid.Static",
           "name": "runStatic",
           "package": "semigroupoids",
@@ -2953,6 +3194,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid Static",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid.Static",
           "name": "runStatic",
           "normalized": "a(b-\u003ec)",
@@ -2969,6 +3211,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA semigroupoid satisfies all of the requirements to be a Category except\n for the existence of identity arrows.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid",
           "name": "Semigroupoid",
           "package": "semigroupoids",
@@ -2978,6 +3221,7 @@
         "index": {
           "description": "semigroupoid satisfies all of the requirements to be Category except for the existence of identity arrows",
           "hierarchy": "Data Semigroupoid",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid",
           "name": "Semigroupoid",
           "package": "semigroupoids",
@@ -2991,6 +3235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid",
           "name": "Semi",
           "package": "semigroupoids",
@@ -2999,6 +3244,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid",
           "name": "Semi",
           "package": "semigroupoids",
@@ -3013,6 +3259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCategory\u003c/a\u003e\u003c/code\u003e sans \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid",
           "name": "Semigroupoid",
           "package": "semigroupoids",
@@ -3022,6 +3269,7 @@
         "index": {
           "description": "Category sans id",
           "hierarchy": "Data Semigroupoid",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid",
           "name": "Semigroupoid",
           "package": "semigroupoids",
@@ -3035,6 +3283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid",
           "name": "WrappedCategory",
           "package": "semigroupoids",
@@ -3043,6 +3292,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid",
           "name": "WrappedCategory",
           "package": "semigroupoids",
@@ -3056,6 +3306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid",
           "name": "Semi",
           "package": "semigroupoids",
@@ -3065,6 +3316,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid",
           "name": "Semi",
           "package": "semigroupoids",
@@ -3078,6 +3330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid",
           "name": "WrapCategory",
           "package": "semigroupoids",
@@ -3087,6 +3340,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid",
           "name": "WrapCategory",
           "package": "semigroupoids",
@@ -3100,6 +3354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid",
           "name": "getSemi",
           "package": "semigroupoids",
@@ -3109,6 +3364,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid",
           "name": "getSemi",
           "package": "semigroupoids",
@@ -3122,6 +3378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid",
           "name": "o",
           "package": "semigroupoids",
@@ -3131,6 +3388,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid",
           "name": "o",
           "normalized": "a b c-\u003ea d b-\u003ea d c",
@@ -3145,6 +3403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Semigroupoid",
           "name": "unwrapCategory",
           "package": "semigroupoids",
@@ -3154,6 +3413,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroupoid",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Semigroupoid",
           "name": "unwrapCategory",
           "package": "semigroupoids",
@@ -3168,6 +3428,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePlaceholders for missing instances of Traversable, until base catches up and adds them\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:59:32 UTC 2014",
           "module": "Data.Traversable.Instances",
           "name": "Instances",
           "package": "semigroupoids",
@@ -3177,6 +3438,7 @@
         "index": {
           "description": "Placeholders for missing instances of Traversable until base catches up and adds them",
           "hierarchy": "Data Traversable Instances",
+          "indexed": "2014-03-11T19:59:32",
           "module": "Data.Traversable.Instances",
           "name": "Instances",
           "package": "semigroupoids",

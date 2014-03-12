@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hactors"
+        "phrase": "hactors",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module reimplement some functions from the \u003ccode\u003eControl.Concurrent.Actor\u003c/code\u003e\n module with debug features.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor.Debug",
           "name": "Debug",
           "package": "hactors",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module reimplement some functions from the Control.Concurrent.Actor module with debug features",
           "hierarchy": "Control Concurrent Actor Debug",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor.Debug",
           "name": "Debug",
           "package": "hactors",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003ereceive\u003c/code\u003e with the test printing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor.Debug",
           "name": "receive",
           "package": "hactors",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Variant of receive with the test printing",
           "hierarchy": "Control Concurrent Actor Debug",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor.Debug",
           "name": "receive",
           "normalized": "MBox a-\u003e(a-\u003eIO b)-\u003eIO c",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003espawn_receive\u003c/code\u003e with the test printing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor.Debug",
           "name": "spawn_receive",
           "package": "hactors",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Variant of spawn receive with the test printing",
           "hierarchy": "Control Concurrent Actor Debug",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor.Debug",
           "name": "spawn_receive",
           "normalized": "(a-\u003eIO b)-\u003eIO(Actor a)",
@@ -91,6 +97,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor.Examples",
           "name": "Examples",
           "package": "hactors",
@@ -99,6 +106,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Actor Examples",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor.Examples",
           "name": "Examples",
           "package": "hactors",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an initial argument type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor.Examples",
           "name": "Child",
           "package": "hactors",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Make an initial argument type",
           "hierarchy": "Control Concurrent Actor Examples",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor.Examples",
           "name": "Child",
           "package": "hactors",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor.Examples",
           "name": "Child",
           "package": "hactors",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Actor Examples",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor.Examples",
           "name": "Child",
           "package": "hactors",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsing \u003ccode\u003eactor\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor.Examples",
           "name": "actor_1",
           "package": "hactors",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Using actor",
           "hierarchy": "Control Concurrent Actor Examples",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor.Examples",
           "name": "actor_1",
           "normalized": "IO()",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere is some Erlang code from the \"Learn You Some Erlang\" book:\n\u003c/p\u003e\u003cpre\u003e\n dolphin() -\u003e\n   receive\n     do_a_flip -\u003e\n       io:format(\"How about no?~n\");\n     fish -\u003e\n       io:format(\"So long and thanks for all the fish!~n\");\n     _ -\u003e\n       io:format(\"Heh, we're smarter than you humans.~n\")\n   end\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor.Examples",
           "name": "dolphin",
           "package": "hactors",
@@ -193,6 +208,7 @@
         "index": {
           "description": "There is some Erlang code from the Learn You Some Erlang book dolphin receive do flip io format How about no fish io format So long and thanks for all the fish io format Heh we re smarter than you humans end",
           "hierarchy": "Control Concurrent Actor Examples",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor.Examples",
           "name": "dolphin",
           "normalized": "String-\u003eIO()",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsing \u003ccode\u003espawn\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor.Examples",
           "name": "spawn_1",
           "package": "hactors",
@@ -218,6 +235,7 @@
         "index": {
           "description": "Using spawn",
           "hierarchy": "Control Concurrent Actor Examples",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor.Examples",
           "name": "spawn_1",
           "normalized": "IO()",
@@ -232,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor.Examples",
           "name": "test_dolphin",
           "package": "hactors",
@@ -241,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Actor Examples",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor.Examples",
           "name": "test_dolphin",
           "normalized": "IO()",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor.Tests",
           "name": "Tests",
           "package": "hactors",
@@ -263,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Actor Tests",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor.Tests",
           "name": "Tests",
           "package": "hactors",
@@ -276,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor.Tests",
           "name": "test_receive_1",
           "package": "hactors",
@@ -285,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Actor Tests",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor.Tests",
           "name": "test_receive_1",
           "normalized": "IO()",
@@ -299,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor.Tests",
           "name": "test_tolerant_1",
           "package": "hactors",
@@ -308,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Actor Tests",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor.Tests",
           "name": "test_tolerant_1",
           "normalized": "IO()",
@@ -323,6 +349,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementation of the actor model on top of the GHC's concurrency.\n\u003c/p\u003e\u003cp\u003eThe API mimics Erlang's concurrency primitives, with slight differences.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "Actor",
           "package": "hactors",
@@ -332,6 +359,7 @@
         "index": {
           "description": "Implementation of the actor model on top of the GHC concurrency The API mimics Erlang concurrency primitives with slight differences",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "Actor",
           "package": "hactors",
@@ -346,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe actor is a process associated with the message box.\n\u003c/p\u003e\u003cp\u003eNote that the actor is parameterized by the type of message that it can\n accept.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "Actor",
           "package": "hactors",
@@ -355,6 +384,7 @@
         "index": {
           "description": "The actor is process associated with the message box Note that the actor is parameterized by the type of message that it can accept",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "Actor",
           "package": "hactors",
@@ -369,6 +399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe message box is represented by the STM's channel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "MBox",
           "package": "hactors",
@@ -378,6 +409,7 @@
         "index": {
           "description": "The message box is represented by the STM channel",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "MBox",
           "package": "hactors",
@@ -392,6 +424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe process is a VM's thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "Process",
           "package": "hactors",
@@ -401,6 +434,7 @@
         "index": {
           "description": "The process is VM thread",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "Process",
           "package": "hactors",
@@ -415,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix variant of \u003ccode\u003esend\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "(!)",
           "package": "hactors",
@@ -425,6 +460,7 @@
         "index": {
           "description": "Infix variant of send",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "(!) !",
           "normalized": "Actor a-\u003ea-\u003eIO a",
@@ -440,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of (!) with the message inside the IO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "(!\u003e)",
           "package": "hactors",
@@ -450,6 +487,7 @@
         "index": {
           "description": "Variant of with the message inside the IO",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "(!\u003e) !\u003e",
           "normalized": "Actor a-\u003eIO a-\u003eIO a",
@@ -465,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of (!) with the actor inside the IO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "(\u003c!)",
           "package": "hactors",
@@ -475,6 +514,7 @@
         "index": {
           "description": "Variant of with the actor inside the IO",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "(\u003c!) \u003c!",
           "normalized": "IO(Actor a)-\u003ea-\u003eIO a",
@@ -490,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of (!) with the actor and the message inside the IO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "(\u003c!\u003e)",
           "package": "hactors",
@@ -500,6 +541,7 @@
         "index": {
           "description": "Variant of with the actor and the message inside the IO",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "(\u003c!\u003e) \u003c!\u003e",
           "normalized": "IO(Actor a)-\u003eIO a-\u003eIO a",
@@ -515,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of (?) with the message box inside the IO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "(\u003c?)",
           "package": "hactors",
@@ -525,6 +568,7 @@
         "index": {
           "description": "Variant of with the message box inside the IO",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "(\u003c?) \u003c?",
           "normalized": "IO(MBox a)-\u003e(a-\u003eIO b)-\u003eIO c",
@@ -540,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix variant of \u003ccode\u003ereceive\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "(?)",
           "package": "hactors",
@@ -550,6 +595,7 @@
         "index": {
           "description": "Infix variant of receive",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "(?) ?",
           "normalized": "MBox a-\u003e(a-\u003eIO b)-\u003eIO c",
@@ -564,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "Actor",
           "package": "hactors",
@@ -573,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "Actor",
           "package": "hactors",
@@ -587,6 +635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new actor from a function, send the initial argument and the\n message box to this actor via function arguments.\n\u003c/p\u003e\u003cp\u003eThis function calls \u003ccode\u003eforkIO\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "actor",
           "package": "hactors",
@@ -597,6 +646,7 @@
         "index": {
           "description": "Create new actor from function send the initial argument and the message box to this actor via function arguments This function calls forkIO",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "actor",
           "normalized": "a-\u003e(a-\u003eMBox b-\u003eIO c)-\u003eIO(Actor b)",
@@ -612,6 +662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinish the current process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "exit",
           "package": "hactors",
@@ -622,6 +673,7 @@
         "index": {
           "description": "Finish the current process",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "exit",
           "normalized": "IO()",
@@ -637,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform an action, do \u003ccode\u003eexit\u003c/code\u003e on exceptions.\n\u003c/p\u003e\u003cp\u003eXXX Bad name?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "faultable",
           "package": "hactors",
@@ -647,6 +700,7 @@
         "index": {
           "description": "Perform an action do exit on exceptions XXX Bad name",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "faultable",
           "normalized": "IO()-\u003eIO()",
@@ -662,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKill the process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "kill",
           "package": "hactors",
@@ -672,6 +727,7 @@
         "index": {
           "description": "Kill the process",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "kill",
           "normalized": "IO Process-\u003eIO()",
@@ -687,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActor's message box (a channel).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "mbox",
           "package": "hactors",
@@ -697,6 +754,7 @@
         "index": {
           "description": "Actor message box channel",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "mbox",
           "package": "hactors",
@@ -710,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform an action, on exceptions perform a given action \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "on_exception",
           "package": "hactors",
@@ -720,6 +779,7 @@
         "index": {
           "description": "Perform an action on exceptions perform given action",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "on_exception",
           "normalized": "IO a-\u003eIO a-\u003eIO a",
@@ -735,6 +795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActor's process (a thread).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "proc",
           "package": "hactors",
@@ -745,6 +806,7 @@
         "index": {
           "description": "Actor process thread",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "proc",
           "package": "hactors",
@@ -758,6 +820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for an asynchronous message in the message box.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "receive",
           "package": "hactors",
@@ -768,6 +831,7 @@
         "index": {
           "description": "Wait for an asynchronous message in the message box",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "receive",
           "normalized": "MBox a-\u003e(a-\u003eIO b)-\u003eIO c",
@@ -783,6 +847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint string to \u003ccode\u003estdout\u003c/code\u003e with the current process ID prefix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "say",
           "package": "hactors",
@@ -793,6 +858,7 @@
         "index": {
           "description": "Print string to stdout with the current process ID prefix",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "say",
           "normalized": "String-\u003eIO()",
@@ -808,6 +874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "self",
           "package": "hactors",
@@ -818,6 +885,7 @@
         "index": {
           "description": "Get the current process",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "self",
           "package": "hactors",
@@ -831,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a message to the actor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "send",
           "package": "hactors",
@@ -841,6 +910,7 @@
         "index": {
           "description": "Send message to the actor",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "send",
           "normalized": "Actor a-\u003ea-\u003eIO a",
@@ -856,6 +926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform non busy waiting for a given number of microseconds in the current\n process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "sleep",
           "package": "hactors",
@@ -866,6 +937,7 @@
         "index": {
           "description": "Perform non busy waiting for given number of microseconds in the current process",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "sleep",
           "normalized": "Int-\u003eIO()",
@@ -881,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new actor from a function, send the message box to this actor via\n function argument.\n\u003c/p\u003e\u003cp\u003eThis function calls \u003ccode\u003eforkIO\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "spawn",
           "package": "hactors",
@@ -891,6 +964,7 @@
         "index": {
           "description": "Create new actor from function send the message box to this actor via function argument This function calls forkIO",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "spawn",
           "normalized": "(MBox a-\u003eIO b)-\u003eIO(Actor a)",
@@ -906,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new receiving actor.\n\u003c/p\u003e\u003cp\u003eThis function calls \u003ccode\u003eforkIO\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "spawn_receive",
           "package": "hactors",
@@ -916,6 +991,7 @@
         "index": {
           "description": "Create new receiving actor This function calls forkIO",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "spawn_receive",
           "normalized": "(a-\u003eIO b)-\u003eIO(Actor a)",
@@ -931,6 +1007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform an action ignoring any exceptions in it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "tolerant",
           "package": "hactors",
@@ -941,6 +1018,7 @@
         "index": {
           "description": "Perform an action ignoring any exceptions in it",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "tolerant",
           "normalized": "IO a-\u003eIO a",
@@ -956,6 +1034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform an infinite non busy waiting in the current process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:26:35 UTC 2014",
           "module": "Control.Concurrent.Actor",
           "name": "wait",
           "package": "hactors",
@@ -966,6 +1045,7 @@
         "index": {
           "description": "Perform an infinite non busy waiting in the current process",
           "hierarchy": "Control Concurrent Actor",
+          "indexed": "2014-03-11T18:26:35",
           "module": "Control.Concurrent.Actor",
           "name": "wait",
           "normalized": "IO()",

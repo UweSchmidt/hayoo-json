@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GoogleChart"
+        "phrase": "GoogleChart",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is for generating web-based charts using Google's Chart API:\n\u003ca\u003ehttp://code.google.com/apis/chart/\u003c/a\u003e.  Its output is URLs that will resolve\nto a PNG image of the resulting chart.\n\u003c/p\u003e\u003cp\u003eMost of the functions in this module, with names like \u003ccode\u003esetFoo\u003c/code\u003e, take a \u003ccode\u003e\u003ca\u003eChart\u003c/a\u003e\u003c/code\u003e\nas an argument and produce a new \u003ccode\u003e\u003ca\u003eChart\u003c/a\u003e\u003c/code\u003e with the specified attribute added.\nThese calls are designed to be chained together.  See the example below.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eChart\u003c/a\u003e\u003c/code\u003es are represented as a hierarchy of type classes so that parameters\nthat only affect a specific chart type are only available to that chart type.\n\u003c/p\u003e\u003cpre\u003e\nputStrLn \"URL for your chart:\"\nputStrLn $ \u003ccode\u003e\u003ca\u003echartURL\u003c/a\u003e\u003c/code\u003e $\n  \u003ccode\u003e\u003ca\u003esetSize\u003c/a\u003e\u003c/code\u003e 400 257 $\n  \u003ccode\u003e\u003ca\u003esetTitle\u003c/a\u003e\u003c/code\u003e \"My Chart\" $\n  \u003ccode\u003e\u003ca\u003esetData\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eencodeDataSimple\u003c/a\u003e\u003c/code\u003e [[1..20]]) $\n  \u003ccode\u003e\u003ca\u003esetLegend\u003c/a\u003e\u003c/code\u003e [\"1 to 20\"] $\n  \u003ccode\u003e\u003ca\u003enewLineChart\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eThis produces:\n\u003ca\u003ehttp://chart.apis.google.com/chart?chs=400x257&chtt=My+Chart&chd=s%3aBCDEFGHIJKLMNOPQRSTU&chdl=1+to+20&cht=lc\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eRemaining features to implement:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e lxy line charts\n\u003c/li\u003e\u003cli\u003e chbh bar charts\n\u003c/li\u003e\u003cli\u003e scatter plots\n\u003c/li\u003e\u003cli\u003e background/fill colors\n\u003c/li\u003e\u003cli\u003e all style attributes\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "Chart",
           "package": "GoogleChart",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module is for generating web-based charts using Google Chart API http code.google.com apis chart Its output is URLs that will resolve to PNG image of the resulting chart Most of the functions in this module with names like setFoo take Chart as an argument and produce new Chart with the specified attribute added These calls are designed to be chained together See the example below Chart are represented as hierarchy of type classes so that parameters that only affect specific chart type are only available to that chart type putStrLn URL for your chart putStrLn chartURL setSize setTitle My Chart setData encodeDataSimple setLegend to newLineChart This produces http chart.apis.google.com chart chs x257 chtt My Chart chd aBCDEFGHIJKLMNOPQRSTU chdl to cht lc Remaining features to implement lxy line charts chbh bar charts scatter plots background fill colors all style attributes",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "Chart",
           "package": "GoogleChart",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText alignment for labels on an axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "AxisAlignment",
           "package": "GoogleChart",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Text alignment for labels on an axis",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "AxisAlignment",
           "package": "GoogleChart",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAxisLabelChart represents charts that can display axis labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "AxisLabelChart",
           "package": "GoogleChart",
@@ -74,6 +79,7 @@
         "index": {
           "description": "AxisLabelChart represents charts that can display axis labels",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "AxisLabelChart",
           "package": "GoogleChart",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhere to display an axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "AxisType",
           "package": "GoogleChart",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Where to display an axis",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "AxisType",
           "package": "GoogleChart",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "BarChart",
           "package": "GoogleChart",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "BarChart",
           "package": "GoogleChart",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "BarStyle",
           "package": "GoogleChart",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "BarStyle",
           "package": "GoogleChart",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type class underneath all Charts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "Chart",
           "package": "GoogleChart",
@@ -162,6 +175,7 @@
         "index": {
           "description": "The type class underneath all Charts",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "Chart",
           "package": "GoogleChart",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the encoding methods produce \u003ccode\u003e\u003ca\u003eChartData\u003c/a\u003e\u003c/code\u003e, which is usable by \u003ccode\u003e\u003ca\u003esetData\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "ChartData",
           "package": "GoogleChart",
@@ -185,6 +200,7 @@
         "index": {
           "description": "All the encoding methods produce ChartData which is usable by setData",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "ChartData",
           "package": "GoogleChart",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLegendChart represents charts that can display legends with \u003ccode\u003e\u003ca\u003esetLegend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "LegendChart",
           "package": "GoogleChart",
@@ -208,6 +225,7 @@
         "index": {
           "description": "LegendChart represents charts that can display legends with setLegend",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "LegendChart",
           "package": "GoogleChart",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "LineChart",
           "package": "GoogleChart",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "LineChart",
           "package": "GoogleChart",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "Orientation",
           "package": "GoogleChart",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "Orientation",
           "package": "GoogleChart",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "PieChart",
           "package": "GoogleChart",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "PieChart",
           "package": "GoogleChart",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "PieStyle",
           "package": "GoogleChart",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "PieStyle",
           "package": "GoogleChart",
@@ -306,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVenn diagram data is specified in a particular format.  There should be\n exactly seven data values, which represent, in order:\n   circle A size, circle B size, circle C size,\n   A/B overlap, A/C overlap, B/C overlap,\n   A/B/C overlap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "VennDiagram",
           "package": "GoogleChart",
@@ -315,6 +342,7 @@
         "index": {
           "description": "Venn diagram data is specified in particular format There should be exactly seven data values which represent in order circle size circle size circle size overlap overlap overlap overlap",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "VennDiagram",
           "package": "GoogleChart",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "AlignCenter",
           "package": "GoogleChart",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "AlignCenter",
           "package": "GoogleChart",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "AlignLeft",
           "package": "GoogleChart",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "AlignLeft",
           "package": "GoogleChart",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "AlignRight",
           "package": "GoogleChart",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "AlignRight",
           "package": "GoogleChart",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "AxisBottom",
           "package": "GoogleChart",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "AxisBottom",
           "package": "GoogleChart",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "AxisLeft",
           "package": "GoogleChart",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "AxisLeft",
           "package": "GoogleChart",
@@ -438,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "AxisRight",
           "package": "GoogleChart",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "AxisRight",
           "package": "GoogleChart",
@@ -460,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "AxisTop",
           "package": "GoogleChart",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "AxisTop",
           "package": "GoogleChart",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "Grouped",
           "package": "GoogleChart",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "Grouped",
           "package": "GoogleChart",
@@ -504,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "Horizontal",
           "package": "GoogleChart",
@@ -513,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "Horizontal",
           "package": "GoogleChart",
@@ -526,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "Pie2D",
           "package": "GoogleChart",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "Pie2D",
           "package": "GoogleChart",
@@ -548,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "Pie3D",
           "package": "GoogleChart",
@@ -557,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "Pie3D",
           "package": "GoogleChart",
@@ -570,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "Stacked",
           "package": "GoogleChart",
@@ -579,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "Stacked",
           "package": "GoogleChart",
@@ -592,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "Vertical",
           "package": "GoogleChart",
@@ -601,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "Vertical",
           "package": "GoogleChart",
@@ -615,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct the URL used to show the chart.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "chartURL",
           "package": "GoogleChart",
@@ -625,6 +680,7 @@
         "index": {
           "description": "Construct the URL used to show the chart",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "chartURL",
           "normalized": "a-\u003eString",
@@ -641,6 +697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode data using the \"extended\" encoding, which maps each input value\n to a two-character pair in base 64.  This has more resolution than text\n encoding and is more compact.  Input values must be in the range \u003ccode\u003e0 \u003c= x \u003c=\n 4095\u003c/code\u003e.  Values outside the valid input range will be considered missing\n data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "encodeDataExtended",
           "package": "GoogleChart",
@@ -651,6 +708,7 @@
         "index": {
           "description": "Encode data using the extended encoding which maps each input value to two-character pair in base This has more resolution than text encoding and is more compact Input values must be in the range Values outside the valid input range will be considered missing data",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "encodeDataExtended",
           "normalized": "[[Int]]-\u003eChartData",
@@ -667,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode data using the \"simple\" encoding, which maps each input value\n to a single letter in the URL.  This produces minimal URLs but doesn't have\n as lot of resolution.  Input values must be in the range \u003ccode\u003e0 \u003c= x \u003c= 61\u003c/code\u003e.\n Values outside the valid input range will be considered missing data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "encodeDataSimple",
           "package": "GoogleChart",
@@ -677,6 +736,7 @@
         "index": {
           "description": "Encode data using the simple encoding which maps each input value to single letter in the URL This produces minimal URLs but doesn have as lot of resolution Input values must be in the range Values outside the valid input range will be considered missing data",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "encodeDataSimple",
           "normalized": "[[Int]]-\u003eChartData",
@@ -693,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode data using the \"text\" encoding, which maps each input value to\n its string representation (e.g. \"3.4\") in the URL.  This has more\n resolution than simple encoding but produces larger URLs.  Input values must\n be in the range \u003ccode\u003e0 \u003c= x \u003c= 100\u003c/code\u003e.  Values outside the valid input range will\n be considered missing data.  Values with more than one decimal place of\n resolution will be rounded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "encodeDataText",
           "package": "GoogleChart",
@@ -703,6 +764,7 @@
         "index": {
           "description": "Encode data using the text encoding which maps each input value to its string representation e.g in the URL This has more resolution than simple encoding but produces larger URLs Input values must be in the range Values outside the valid input range will be considered missing data Values with more than one decimal place of resolution will be rounded",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "encodeDataText",
           "normalized": "[[a]]-\u003eChartData",
@@ -718,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "newBarChart",
           "package": "GoogleChart",
@@ -727,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "newBarChart",
           "normalized": "Orientation-\u003eBarStyle-\u003eBarChart",
@@ -742,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "newLineChart",
           "package": "GoogleChart",
@@ -751,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "newLineChart",
           "package": "GoogleChart",
@@ -764,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "newPieChart",
           "package": "GoogleChart",
@@ -773,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "newPieChart",
           "normalized": "PieStyle-\u003ePieChart",
@@ -788,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "newVennDiagram",
           "package": "GoogleChart",
@@ -797,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "newVennDiagram",
           "package": "GoogleChart",
@@ -811,6 +881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet axis label positions.  The nth list of Ints in the argument sets the\n positions for the nth axis specified with \u003ccode\u003e\u003ca\u003esetAxisTypes\u003c/a\u003e\u003c/code\u003e.  An empty list\n skips setting position for the corresponding axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "setAxisLabelPositions",
           "package": "GoogleChart",
@@ -821,6 +892,7 @@
         "index": {
           "description": "Set axis label positions The nth list of Ints in the argument sets the positions for the nth axis specified with setAxisTypes An empty list skips setting position for the corresponding axis",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "setAxisLabelPositions",
           "normalized": "[[Int]]-\u003ea-\u003ea",
@@ -837,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet axis labels.  The nth list of strings in the argument sets the labels\n for the nth axis specified with \u003ccode\u003e\u003ca\u003esetAxisTypes\u003c/a\u003e\u003c/code\u003e.  An empty list of strings\n skips labelling the corresponding axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "setAxisLabels",
           "package": "GoogleChart",
@@ -847,6 +920,7 @@
         "index": {
           "description": "Set axis labels The nth list of strings in the argument sets the labels for the nth axis specified with setAxisTypes An empty list of strings skips labelling the corresponding axis",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "setAxisLabels",
           "normalized": "[[String]]-\u003ea-\u003ea",
@@ -863,6 +937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet axis ranges.  The nth pair of Ints in the argument sets the range\n for the nth axis specified with \u003ccode\u003e\u003ca\u003esetAxisTypes\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "setAxisRanges",
           "package": "GoogleChart",
@@ -873,6 +948,7 @@
         "index": {
           "description": "Set axis ranges The nth pair of Ints in the argument sets the range for the nth axis specified with setAxisTypes",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "setAxisRanges",
           "normalized": "[(Int,Int)]-\u003ea-\u003ea",
@@ -889,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet axis styles.  The nth element in the argument sets the style for the\n nth axis specified with \u003ccode\u003e\u003ca\u003esetAxisTypes\u003c/a\u003e\u003c/code\u003e.  Each style is a tuple of\n (color, font size, text alignment).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "setAxisStyles",
           "package": "GoogleChart",
@@ -899,6 +976,7 @@
         "index": {
           "description": "Set axis styles The nth element in the argument sets the style for the nth axis specified with setAxisTypes Each style is tuple of color font size text alignment",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "setAxisStyles",
           "normalized": "[(String,Int,AxisAlignment)]-\u003ea-\u003ea",
@@ -915,6 +993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet which axes to display.  Repeating an \u003ccode\u003e\u003ca\u003eAxisType\u003c/a\u003e\u003c/code\u003e produces multiple\n sets of labels on that axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "setAxisTypes",
           "package": "GoogleChart",
@@ -925,6 +1004,7 @@
         "index": {
           "description": "Set which axes to display Repeating an AxisType produces multiple sets of labels on that axis",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "setAxisTypes",
           "normalized": "[AxisType]-\u003ea-\u003ea",
@@ -941,6 +1021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the data displayed by the chart.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "setData",
           "package": "GoogleChart",
@@ -951,6 +1032,7 @@
         "index": {
           "description": "Set the data displayed by the chart",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "setData",
           "normalized": "ChartData-\u003ea-\u003ea",
@@ -967,6 +1049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet data set colors.  The nth color specified here colors the nth data\n set in the \u003ccode\u003e\u003ca\u003eChartData\u003c/a\u003e\u003c/code\u003e passed to \u003ccode\u003e\u003ca\u003esetData\u003c/a\u003e\u003c/code\u003e.  See\n \u003ca\u003ehttp://code.google.com/apis/chart/#line_bar_pie_colors\u003c/a\u003e for more\n information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "setDataColors",
           "package": "GoogleChart",
@@ -977,6 +1060,7 @@
         "index": {
           "description": "Set data set colors The nth color specified here colors the nth data set in the ChartData passed to setData See http code.google.com apis chart line bar pie colors for more information",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "setDataColors",
           "normalized": "[String]-\u003ea-\u003ea",
@@ -993,6 +1077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet labels for the different data points on the chart.\n Specify missing values by passing an empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "setLabels",
           "package": "GoogleChart",
@@ -1003,6 +1088,7 @@
         "index": {
           "description": "Set labels for the different data points on the chart Specify missing values by passing an empty string",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "setLabels",
           "normalized": "[String]-\u003ePieChart-\u003ePieChart",
@@ -1019,6 +1105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the legend for the corresponding data sets.  The colors are taken\n from the data set colors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "setLegend",
           "package": "GoogleChart",
@@ -1029,6 +1116,7 @@
         "index": {
           "description": "Set the legend for the corresponding data sets The colors are taken from the data set colors",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "setLegend",
           "normalized": "[String]-\u003ea-\u003ea",
@@ -1045,6 +1133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the width and height, in pixels, of the resulting image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "setSize",
           "package": "GoogleChart",
@@ -1055,6 +1144,7 @@
         "index": {
           "description": "Set the width and height in pixels of the resulting image",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "setSize",
           "normalized": "Int-\u003eInt-\u003ea-\u003ea",
@@ -1071,6 +1161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the title of the chart.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "setTitle",
           "package": "GoogleChart",
@@ -1081,6 +1172,7 @@
         "index": {
           "description": "Set the title of the chart",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "setTitle",
           "normalized": "String-\u003ea-\u003ea",
@@ -1097,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet options for the display of the title of the chart.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:23 UTC 2014",
           "module": "Graphics.Google.Chart",
           "name": "setTitleOpts",
           "package": "GoogleChart",
@@ -1106,6 +1199,7 @@
         "index": {
           "description": "Set options for the display of the title of the chart",
           "hierarchy": "Graphics Google Chart",
+          "indexed": "2014-03-11T16:43:23",
           "module": "Graphics.Google.Chart",
           "name": "setTitleOpts",
           "normalized": "String-\u003eInt-\u003ea-\u003ea",

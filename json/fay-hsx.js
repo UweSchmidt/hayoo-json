@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fay-hsx"
+        "phrase": "fay-hsx",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple library for client-side HTML generation. Compatible with hsx2hs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:49 UTC 2014",
           "module": "HTML",
           "name": "HTML",
           "package": "fay-hsx",
@@ -28,6 +29,7 @@
         "index": {
           "description": "simple library for client-side HTML generation Compatible with hsx2hs",
           "hierarchy": "HTML",
+          "indexed": "2014-03-11T18:06:49",
           "module": "HTML",
           "name": "HTML",
           "package": "fay-hsx",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:49 UTC 2014",
           "module": "HTML",
           "name": "AsAttr",
           "package": "fay-hsx",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "HTML",
+          "indexed": "2014-03-11T18:06:49",
           "module": "HTML",
           "name": "AsAttr",
           "package": "fay-hsx",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype class for embedding values as HTML children\n\u003c/p\u003e\u003cp\u003esince Fay does not yet support type-class methods we have to fake it via the ffi\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:49 UTC 2014",
           "module": "HTML",
           "name": "AsChild",
           "package": "fay-hsx",
@@ -72,6 +77,7 @@
         "index": {
           "description": "type class for embedding values as HTML children since Fay does not yet support type-class methods we have to fake it via the ffi",
           "hierarchy": "HTML",
+          "indexed": "2014-03-11T18:06:49",
           "module": "HTML",
           "name": "AsChild",
           "package": "fay-hsx",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:49 UTC 2014",
           "module": "HTML",
           "name": "Attr",
           "package": "fay-hsx",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "HTML",
+          "indexed": "2014-03-11T18:06:49",
           "module": "HTML",
           "name": "Attr",
           "package": "fay-hsx",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eADT for \u003ccode\u003e\u003ca\u003eHTML\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:49 UTC 2014",
           "module": "HTML",
           "name": "HTML",
           "package": "fay-hsx",
@@ -116,6 +125,7 @@
         "index": {
           "description": "ADT for HTML",
           "hierarchy": "HTML",
+          "indexed": "2014-03-11T18:06:49",
           "module": "HTML",
           "name": "HTML",
           "package": "fay-hsx",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:49 UTC 2014",
           "module": "HTML",
           "name": ":=",
           "package": "fay-hsx",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "HTML",
+          "indexed": "2014-03-11T18:06:49",
           "module": "HTML",
           "name": ":=",
           "package": "fay-hsx",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCDATA needEscaping value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:49 UTC 2014",
           "module": "HTML",
           "name": "CDATA",
           "package": "fay-hsx",
@@ -161,6 +174,7 @@
         "index": {
           "description": "CDATA needEscaping value",
           "hierarchy": "HTML",
+          "indexed": "2014-03-11T18:06:49",
           "module": "HTML",
           "name": "CDATA",
           "package": "fay-hsx",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement name attributes children\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:49 UTC 2014",
           "module": "HTML",
           "name": "Element",
           "package": "fay-hsx",
@@ -185,6 +200,7 @@
         "index": {
           "description": "Element name attributes children",
           "hierarchy": "HTML",
+          "indexed": "2014-03-11T18:06:49",
           "module": "HTML",
           "name": "Element",
           "normalized": "Element String[(String,String)][HTML]",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlert using window.alert.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:49 UTC 2014",
           "module": "HTML",
           "name": "alert",
           "package": "fay-hsx",
@@ -211,6 +228,7 @@
         "index": {
           "description": "Alert using window.alert",
           "hierarchy": "HTML",
+          "indexed": "2014-03-11T18:06:49",
           "module": "HTML",
           "name": "alert",
           "normalized": "String-\u003eFay()",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:49 UTC 2014",
           "module": "HTML",
           "name": "asAttr",
           "package": "fay-hsx",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "HTML",
+          "indexed": "2014-03-11T18:06:49",
           "module": "HTML",
           "name": "asAttr",
           "normalized": "Attr String String-\u003eFay(String,String)",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:49 UTC 2014",
           "module": "HTML",
           "name": "asChild",
           "package": "fay-hsx",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "HTML",
+          "indexed": "2014-03-11T18:06:49",
           "module": "HTML",
           "name": "asChild",
           "normalized": "a-\u003eFay HTML",
@@ -274,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a new \u003ccode\u003e\u003ca\u003eElement\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:49 UTC 2014",
           "module": "HTML",
           "name": "createElement",
           "package": "fay-hsx",
@@ -283,6 +306,7 @@
         "index": {
           "description": "create new Element",
           "hierarchy": "HTML",
+          "indexed": "2014-03-11T18:06:49",
           "module": "HTML",
           "name": "createElement",
           "normalized": "String-\u003eFay Element",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a new text node\n\u003c/p\u003e\u003cp\u003eNOTE: this doesn't really return an Element. It returns a TextNode\n or something. But fay-jquery only supports the Element type...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:49 UTC 2014",
           "module": "HTML",
           "name": "createTextNode",
           "package": "fay-hsx",
@@ -308,6 +333,7 @@
         "index": {
           "description": "create new text node NOTE this doesn really return an Element It returns TextNode or something But fay-jquery only supports the Element type",
           "hierarchy": "HTML",
+          "indexed": "2014-03-11T18:06:49",
           "module": "HTML",
           "name": "createTextNode",
           "normalized": "String-\u003eFay Element",
@@ -323,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:49 UTC 2014",
           "module": "HTML",
           "name": "fromStringLit",
           "package": "fay-hsx",
@@ -332,6 +359,7 @@
         },
         "index": {
           "hierarchy": "HTML",
+          "indexed": "2014-03-11T18:06:49",
           "module": "HTML",
           "name": "fromStringLit",
           "normalized": "String-\u003eString",
@@ -348,6 +376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate an HTML element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:49 UTC 2014",
           "module": "HTML",
           "name": "genElement",
           "package": "fay-hsx",
@@ -357,6 +386,7 @@
         "index": {
           "description": "generate an HTML element",
           "hierarchy": "HTML",
+          "indexed": "2014-03-11T18:06:49",
           "module": "HTML",
           "name": "genElement",
           "normalized": "(Maybe String,String)-\u003e[Fay(String,String)]-\u003e[Fay HTML]-\u003eFay HTML",
@@ -373,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a text node from the \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e will be\n automatically escaped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:49 UTC 2014",
           "module": "HTML",
           "name": "pcdata",
           "package": "fay-hsx",
@@ -383,6 +414,7 @@
         "index": {
           "description": "create text node from the String The String will be automatically escaped",
           "hierarchy": "HTML",
+          "indexed": "2014-03-11T18:06:49",
           "module": "HTML",
           "name": "pcdata",
           "normalized": "String-\u003eFay HTML",
@@ -398,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erender the \u003ccode\u003e\u003ca\u003eHTML\u003c/a\u003e\u003c/code\u003e into a JQuery DOM tree. You still need to\n append the result somewhere.\n\u003c/p\u003e\u003cp\u003eNOTE: This function requires \u003ccode\u003ejQuery\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:49 UTC 2014",
           "module": "HTML",
           "name": "renderHTML",
           "package": "fay-hsx",
@@ -408,6 +441,7 @@
         "index": {
           "description": "render the HTML into JQuery DOM tree You still need to append the result somewhere NOTE This function requires jQuery",
           "hierarchy": "HTML",
+          "indexed": "2014-03-11T18:06:49",
           "module": "HTML",
           "name": "renderHTML",
           "normalized": "HTML-\u003eFay JQuery",
@@ -424,6 +458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cspan\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:49 UTC 2014",
           "module": "HTML",
           "name": "span_",
           "package": "fay-hsx",
@@ -433,6 +468,7 @@
         "index": {
           "description": "span",
           "hierarchy": "HTML",
+          "indexed": "2014-03-11T18:06:49",
           "module": "HTML",
           "name": "span_",
           "normalized": "[Fay(String,String)]-\u003e[Fay HTML]-\u003eFay HTML",
@@ -448,6 +484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ctd\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:49 UTC 2014",
           "module": "HTML",
           "name": "td",
           "package": "fay-hsx",
@@ -457,6 +494,7 @@
         "index": {
           "description": "td",
           "hierarchy": "HTML",
+          "indexed": "2014-03-11T18:06:49",
           "module": "HTML",
           "name": "td",
           "normalized": "[Fay(String,String)]-\u003e[Fay HTML]-\u003eFay HTML",
@@ -472,6 +510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ctr\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:49 UTC 2014",
           "module": "HTML",
           "name": "tr",
           "package": "fay-hsx",
@@ -481,6 +520,7 @@
         "index": {
           "description": "tr",
           "hierarchy": "HTML",
+          "indexed": "2014-03-11T18:06:49",
           "module": "HTML",
           "name": "tr",
           "normalized": "[Fay(String,String)]-\u003e[Fay HTML]-\u003eFay HTML",

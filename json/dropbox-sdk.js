@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dropbox-sdk"
+        "phrase": "dropbox-sdk",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eQuasi quoters for parsing PEM files and PEM encoded X509 Certificates.\n\u003c/p\u003e\u003cp\u003eWhem using hardcoded certificates, be aware that a certificate may be revoked\n at any time before it expires.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox.Certificates.TH",
           "name": "TH",
           "package": "dropbox-sdk",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Quasi quoters for parsing PEM files and PEM encoded X509 Certificates Whem using hardcoded certificates be aware that certificate may be revoked at any time before it expires",
           "hierarchy": "Dropbox Certificates TH",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox.Certificates.TH",
           "name": "TH",
           "package": "dropbox-sdk",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox.Certificates.TH",
           "name": "pem",
           "package": "dropbox-sdk",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Dropbox Certificates TH",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox.Certificates.TH",
           "name": "pem",
           "package": "dropbox-sdk",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox.Certificates.TH",
           "name": "pemFile",
           "package": "dropbox-sdk",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Dropbox Certificates TH",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox.Certificates.TH",
           "name": "pemFile",
           "package": "dropbox-sdk",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox.Certificates.TH",
           "name": "x509",
           "package": "dropbox-sdk",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Dropbox Certificates TH",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox.Certificates.TH",
           "name": "x509",
           "package": "dropbox-sdk",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox.Certificates.TH",
           "name": "x509File",
           "package": "dropbox-sdk",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Dropbox Certificates TH",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox.Certificates.TH",
           "name": "x509File",
           "package": "dropbox-sdk",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox.Certificates",
           "name": "Certificates",
           "package": "dropbox-sdk",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Dropbox Certificates",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox.Certificates",
           "name": "Certificates",
           "package": "dropbox-sdk",
@@ -149,6 +161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow the server's SSL certificate will be verified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox.Certificates",
           "name": "CertVerifier",
           "package": "dropbox-sdk",
@@ -158,6 +171,7 @@
         "index": {
           "description": "How the server SSL certificate will be verified",
           "hierarchy": "Dropbox Certificates",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox.Certificates",
           "name": "CertVerifier",
           "package": "dropbox-sdk",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox.Certificates",
           "name": "CertVerifierFunc",
           "package": "dropbox-sdk",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Dropbox Certificates",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox.Certificates",
           "name": "CertVerifierFunc",
           "package": "dropbox-sdk",
@@ -216,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the buildin Dropbox certificates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox.Certificates",
           "name": "certVerifierFromDbX509s",
           "package": "dropbox-sdk",
@@ -226,6 +243,7 @@
         "index": {
           "description": "Use the buildin Dropbox certificates",
           "hierarchy": "Dropbox Certificates",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox.Certificates",
           "name": "certVerifierFromDbX509s",
           "package": "dropbox-sdk",
@@ -367,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "Dropbox",
           "package": "dropbox-sdk",
@@ -375,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "Dropbox",
           "package": "dropbox-sdk",
@@ -389,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn OAuth request token (returned by \u003ccode\u003e\u003ca\u003eauthFinish\u003c/a\u003e\u003c/code\u003e, used to construct a \u003ccode\u003e\u003ca\u003eSession\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "AccessToken",
           "package": "dropbox-sdk",
@@ -398,6 +419,7 @@
         "index": {
           "description": "An OAuth request token returned by authFinish used to construct Session",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "AccessToken",
           "package": "dropbox-sdk",
@@ -412,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of folder access your Dropbox application uses (\u003ca\u003ehttps://www.dropbox.com/developers/start/core\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "AccessType",
           "package": "dropbox-sdk",
@@ -421,6 +444,7 @@
         "index": {
           "description": "The type of folder access your Dropbox application uses https www.dropbox.com developers start core",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "AccessType",
           "package": "dropbox-sdk",
@@ -435,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about a user account.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "AccountInfo",
           "package": "dropbox-sdk",
@@ -444,6 +469,7 @@
         "index": {
           "description": "Information about user account",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "AccountInfo",
           "package": "dropbox-sdk",
@@ -458,6 +484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYour application's Dropbox \"app key\" and \"app secret\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "AppId",
           "package": "dropbox-sdk",
@@ -467,6 +494,7 @@
         "index": {
           "description": "Your application Dropbox app key and app secret",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "AppId",
           "package": "dropbox-sdk",
@@ -481,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow the server's SSL certificate will be verified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "CertVerifier",
           "package": "dropbox-sdk",
@@ -490,6 +519,7 @@
         "index": {
           "description": "How the server SSL certificate will be verified",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "CertVerifier",
           "package": "dropbox-sdk",
@@ -504,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe configuration used to make API calls.  You typically create\n one of these via the \u003ccode\u003econfig\u003c/code\u003e helper function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "Config",
           "package": "dropbox-sdk",
@@ -513,6 +544,7 @@
         "index": {
           "description": "The configuration used to make API calls You typically create one of these via the config helper function",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "Config",
           "package": "dropbox-sdk",
@@ -526,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "ErrorMessage",
           "package": "dropbox-sdk",
@@ -534,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "ErrorMessage",
           "package": "dropbox-sdk",
@@ -548,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtra metadata specific to files (and not folders)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "FileExtra",
           "package": "dropbox-sdk",
@@ -557,6 +592,7 @@
         "index": {
           "description": "Extra metadata specific to files and not folders",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "FileExtra",
           "package": "dropbox-sdk",
@@ -571,6 +607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a file's revision (\u003ccode\u003e\u003ca\u003efileRevision\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "FileRevision",
           "package": "dropbox-sdk",
@@ -580,6 +617,7 @@
         "index": {
           "description": "Represents file revision fileRevision",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "FileRevision",
           "package": "dropbox-sdk",
@@ -594,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe metadata for the immediate children of a folder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "FolderContents",
           "package": "dropbox-sdk",
@@ -603,6 +642,7 @@
         "index": {
           "description": "The metadata for the immediate children of folder",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "FolderContents",
           "package": "dropbox-sdk",
@@ -617,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an identifier for a folder's metadata and children's metadata.  Can be used with\n \u003ccode\u003e\u003ca\u003egetMetadataWithChildrenIfChanged\u003c/a\u003e\u003c/code\u003e to avoid downloading a folder's metadata and children's metadata\n if it hasn't changed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "FolderHash",
           "package": "dropbox-sdk",
@@ -626,6 +667,7 @@
         "index": {
           "description": "Represents an identifier for folder metadata and children metadata Can be used with getMetadataWithChildrenIfChanged to avoid downloading folder metadata and children metadata if it hasn changed",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "FolderHash",
           "package": "dropbox-sdk",
@@ -640,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe set of hosts that serve the Dropbox API.  Just use \u003ccode\u003e\u003ca\u003ehostsDefault\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "Hosts",
           "package": "dropbox-sdk",
@@ -649,6 +692,7 @@
         "index": {
           "description": "The set of hosts that serve the Dropbox API Just use hostsDefault",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "Hosts",
           "package": "dropbox-sdk",
@@ -663,6 +707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies a locale (the string is a two-letter locale code)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "Locale",
           "package": "dropbox-sdk",
@@ -672,6 +717,7 @@
         "index": {
           "description": "Specifies locale the string is two-letter locale code",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "Locale",
           "package": "dropbox-sdk",
@@ -686,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe HTTP connection manager.  Using the same \u003ccode\u003e\u003ca\u003eManager\u003c/a\u003e\u003c/code\u003e instance across\n multiple API calls \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "Manager",
           "package": "dropbox-sdk",
@@ -695,6 +742,7 @@
         "index": {
           "description": "The HTTP connection manager Using the same Manager instance across multiple API calls",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "Manager",
           "package": "dropbox-sdk",
@@ -709,6 +757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe metadata for a file or folder.  \u003ccode\u003e\u003ca\u003eMetaBase\u003c/a\u003e\u003c/code\u003e contains the metadata common to\n files and folders.  \u003ccode\u003e\u003ca\u003eMetaExtra\u003c/a\u003e\u003c/code\u003e contains the file-specific or folder-specific data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "Meta",
           "package": "dropbox-sdk",
@@ -718,6 +767,7 @@
         "index": {
           "description": "The metadata for file or folder MetaBase contains the metadata common to files and folders MetaExtra contains the file-specific or folder-specific data",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "Meta",
           "package": "dropbox-sdk",
@@ -732,6 +782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetadata common to both files and folders.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "MetaBase",
           "package": "dropbox-sdk",
@@ -741,6 +792,7 @@
         "index": {
           "description": "Metadata common to both files and folders",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "MetaBase",
           "package": "dropbox-sdk",
@@ -755,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtra metadata (in addition to the stuff that's common to files and folders).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "MetaExtra",
           "package": "dropbox-sdk",
@@ -764,6 +817,7 @@
         "index": {
           "description": "Extra metadata in addition to the stuff that common to files and folders",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "MetaExtra",
           "package": "dropbox-sdk",
@@ -778,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDropbox file and folder paths.  Should always start with \u003ca\u003e/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "Path",
           "package": "dropbox-sdk",
@@ -787,6 +842,7 @@
         "index": {
           "description": "Dropbox file and folder paths Should always start with",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "Path",
           "package": "dropbox-sdk",
@@ -801,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn HTTP request body: an \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e for the length and a \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e\n that yields the actual data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "RequestBody",
           "package": "dropbox-sdk",
@@ -810,6 +867,7 @@
         "index": {
           "description": "An HTTP request body an Int64 for the length and Source that yields the actual data",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "RequestBody",
           "package": "dropbox-sdk",
@@ -824,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn OAuth request token (returned by \u003ccode\u003e\u003ca\u003eauthStart\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "RequestToken",
           "package": "dropbox-sdk",
@@ -833,6 +892,7 @@
         "index": {
           "description": "An OAuth request token returned by authStart",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "RequestToken",
           "package": "dropbox-sdk",
@@ -847,6 +907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains a \u003ccode\u003e\u003ca\u003eConfig\u003c/a\u003e\u003c/code\u003e and an \u003ccode\u003e\u003ca\u003eAccessToken\u003c/a\u003e\u003c/code\u003e.  Every API call (after OAuth is complete)\n requires this as an argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "Session",
           "package": "dropbox-sdk",
@@ -856,6 +917,7 @@
         "index": {
           "description": "Contains Config and an AccessToken Every API call after OAuth is complete requires this as an argument",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "Session",
           "package": "dropbox-sdk",
@@ -869,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "URL",
           "package": "dropbox-sdk",
@@ -877,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "URL",
           "package": "dropbox-sdk",
@@ -890,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "WriteMode",
           "package": "dropbox-sdk",
@@ -898,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "WriteMode",
           "package": "dropbox-sdk",
@@ -911,6 +977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "AccessToken",
           "package": "dropbox-sdk",
@@ -920,6 +987,7 @@
         },
         "index": {
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "AccessToken",
           "package": "dropbox-sdk",
@@ -934,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess to an application-specific \"app folder\" within the user's Dropbox\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "AccessTypeAppFolder",
           "package": "dropbox-sdk",
@@ -944,6 +1013,7 @@
         "index": {
           "description": "Access to an application-specific app folder within the user Dropbox",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "AccessTypeAppFolder",
           "package": "dropbox-sdk",
@@ -958,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFull access to the user's entire Dropbox\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "AccessTypeDropbox",
           "package": "dropbox-sdk",
@@ -968,6 +1039,7 @@
         "index": {
           "description": "Full access to the user entire Dropbox",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "AccessTypeDropbox",
           "package": "dropbox-sdk",
@@ -981,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "AccountInfo",
           "package": "dropbox-sdk",
@@ -990,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "AccountInfo",
           "package": "dropbox-sdk",
@@ -1003,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "AppId",
           "package": "dropbox-sdk",
@@ -1012,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "AppId",
           "package": "dropbox-sdk",
@@ -1025,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "Config",
           "package": "dropbox-sdk",
@@ -1034,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "Config",
           "package": "dropbox-sdk",
@@ -1048,6 +1126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFiles have additional metadata\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "File",
           "package": "dropbox-sdk",
@@ -1058,6 +1137,7 @@
         "index": {
           "description": "Files have additional metadata",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "File",
           "package": "dropbox-sdk",
@@ -1071,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "FileExtra",
           "package": "dropbox-sdk",
@@ -1080,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "FileExtra",
           "package": "dropbox-sdk",
@@ -1093,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "FileRevision",
           "package": "dropbox-sdk",
@@ -1102,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "FileRevision",
           "package": "dropbox-sdk",
@@ -1116,6 +1200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFolders do not have any additional metadata\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "Folder",
           "package": "dropbox-sdk",
@@ -1126,6 +1211,7 @@
         "index": {
           "description": "Folders do not have any additional metadata",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "Folder",
           "package": "dropbox-sdk",
@@ -1139,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "FolderContents",
           "package": "dropbox-sdk",
@@ -1148,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "FolderContents",
           "package": "dropbox-sdk",
@@ -1161,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "FolderHash",
           "package": "dropbox-sdk",
@@ -1170,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "FolderHash",
           "package": "dropbox-sdk",
@@ -1183,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "Hosts",
           "package": "dropbox-sdk",
@@ -1192,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "Hosts",
           "package": "dropbox-sdk",
@@ -1205,6 +1297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "Meta",
           "package": "dropbox-sdk",
@@ -1214,6 +1307,7 @@
         },
         "index": {
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "Meta",
           "package": "dropbox-sdk",
@@ -1227,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "MetaBase",
           "package": "dropbox-sdk",
@@ -1236,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "MetaBase",
           "package": "dropbox-sdk",
@@ -1249,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "RequestBody",
           "package": "dropbox-sdk",
@@ -1258,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "RequestBody",
           "package": "dropbox-sdk",
@@ -1271,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "RequestToken",
           "package": "dropbox-sdk",
@@ -1280,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "RequestToken",
           "package": "dropbox-sdk",
@@ -1293,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "Session",
           "package": "dropbox-sdk",
@@ -1302,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "Session",
           "package": "dropbox-sdk",
@@ -1316,6 +1418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf there is already a file at the specified path, rename the new file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "WriteModeAdd",
           "package": "dropbox-sdk",
@@ -1326,6 +1429,7 @@
         "index": {
           "description": "If there is already file at the specified path rename the new file",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "WriteModeAdd",
           "package": "dropbox-sdk",
@@ -1340,6 +1444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf there is already a file at the specified path, overwrite it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "WriteModeForce",
           "package": "dropbox-sdk",
@@ -1350,6 +1455,7 @@
         "index": {
           "description": "If there is already file at the specified path overwrite it",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "WriteModeForce",
           "package": "dropbox-sdk",
@@ -1364,6 +1470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck that there is a file there with the given revision.  If so, overwrite\n it.  If not, rename the new file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "WriteModeUpdate",
           "package": "dropbox-sdk",
@@ -1374,6 +1481,7 @@
         "index": {
           "description": "Check that there is file there with the given revision If so overwrite it If not rename the new file",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "WriteModeUpdate",
           "package": "dropbox-sdk",
@@ -1388,6 +1496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo-letter country code, if available\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "accountInfoCountry",
           "package": "dropbox-sdk",
@@ -1398,6 +1507,7 @@
         "index": {
           "description": "Two-letter country code if available",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "accountInfoCountry",
           "package": "dropbox-sdk",
@@ -1412,6 +1522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFull name (when displayed as a single string)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "accountInfoDisplayName",
           "package": "dropbox-sdk",
@@ -1422,6 +1533,7 @@
         "index": {
           "description": "Full name when displayed as single string",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "accountInfoDisplayName",
           "package": "dropbox-sdk",
@@ -1436,6 +1548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about the storage quota\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "accountInfoQuota",
           "package": "dropbox-sdk",
@@ -1446,6 +1559,7 @@
         "index": {
           "description": "Information about the storage quota",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "accountInfoQuota",
           "package": "dropbox-sdk",
@@ -1460,6 +1574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDropbox referral link\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "accountInfoReferralUrl",
           "package": "dropbox-sdk",
@@ -1470,6 +1585,7 @@
         "index": {
           "description": "Dropbox referral link",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "accountInfoReferralUrl",
           "package": "dropbox-sdk",
@@ -1484,6 +1600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDropbox user ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "accountInfoUid",
           "package": "dropbox-sdk",
@@ -1494,6 +1611,7 @@
         "index": {
           "description": "Dropbox user ID",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "accountInfoUid",
           "package": "dropbox-sdk",
@@ -1508,6 +1626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOAuth step 3.  Once you've directed the user to the authorization URL from \u003ccode\u003e\u003ca\u003eauthStart\u003c/a\u003e\u003c/code\u003e\n and the user has authorized your app, call this function to get a \u003ccode\u003e\u003ca\u003eRequestToken\u003c/a\u003e\u003c/code\u003e, which\n is used to make Dropbox API calls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "authFinish",
           "package": "dropbox-sdk",
@@ -1517,6 +1636,7 @@
         "index": {
           "description": "OAuth step Once you ve directed the user to the authorization URL from authStart and the user has authorized your app call this function to get RequestToken which is used to make Dropbox API calls",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "authFinish",
           "normalized": "Manager-\u003eConfig-\u003eRequestToken-\u003eIO(Either ErrorMessage(AccessToken,String))",
@@ -1533,6 +1653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOAuth step 1.  If successful, returns a \u003ccode\u003e\u003ca\u003eRequestToken\u003c/a\u003e\u003c/code\u003e (to be used with\n \u003ccode\u003e\u003ca\u003eauthFinish\u003c/a\u003e\u003c/code\u003e eventually) and an authorization URL that you should redirect the user\n to next.  If you provide a callback URL (optional), then the authorization URL you\n send the user to will redirect to your callback URL after the user authorizes your\n application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "authStart",
           "package": "dropbox-sdk",
@@ -1542,6 +1663,7 @@
         "index": {
           "description": "OAuth step If successful returns RequestToken to be used with authFinish eventually and an authorization URL that you should redirect the user to next If you provide callback URL optional then the authorization URL you send the user to will redirect to your callback URL after the user authorizes your application",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "authStart",
           "normalized": "Manager-\u003eConfig-\u003eMaybe URL-\u003eIO(Either ErrorMessage(RequestToken,URL))",
@@ -1558,6 +1680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eRequestBody\u003c/a\u003e\u003c/code\u003e from a single \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "bsRequestBody",
           "package": "dropbox-sdk",
@@ -1568,6 +1691,7 @@
         "index": {
           "description": "Create RequestBody from single ByteString",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "bsRequestBody",
           "normalized": "ByteString-\u003eRequestBody a",
@@ -1584,6 +1708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSink\u003c/a\u003e\u003c/code\u003e that reads in \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e chunks and constructs one concatenated \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "bsSink",
           "package": "dropbox-sdk",
@@ -1594,6 +1719,7 @@
         "index": {
           "description": "Sink that reads in ByteString chunks and constructs one concatenated ByteString",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "bsSink",
           "package": "dropbox-sdk",
@@ -1608,6 +1734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of folder access your Dropbox application uses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "configAccessType",
           "package": "dropbox-sdk",
@@ -1618,6 +1745,7 @@
         "index": {
           "description": "The type of folder access your Dropbox application uses",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "configAccessType",
           "package": "dropbox-sdk",
@@ -1632,6 +1760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYour app's key/secret\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "configAppId",
           "package": "dropbox-sdk",
@@ -1642,6 +1771,7 @@
         "index": {
           "description": "Your app key secret",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "configAppId",
           "package": "dropbox-sdk",
@@ -1656,6 +1786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hosts to connect to (just use \u003ccode\u003e\u003ca\u003ehostsDefault\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "configHosts",
           "package": "dropbox-sdk",
@@ -1666,6 +1797,7 @@
         "index": {
           "description": "The hosts to connect to just use hostsDefault",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "configHosts",
           "package": "dropbox-sdk",
@@ -1680,6 +1812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe locale that the Dropbox service should use when returning user-visible strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "configUserLocale",
           "package": "dropbox-sdk",
@@ -1690,6 +1823,7 @@
         "index": {
           "description": "The locale that the Dropbox service should use when returning user-visible strings",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "configUserLocale",
           "package": "dropbox-sdk",
@@ -1704,6 +1838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe file size (bytes)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "fileBytes",
           "package": "dropbox-sdk",
@@ -1714,6 +1849,7 @@
         "index": {
           "description": "The file size bytes",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "fileBytes",
           "package": "dropbox-sdk",
@@ -1728,6 +1864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA human-readable representation of the file size, for example \u003ca\u003e15 bytes\u003c/a\u003e (localized according to \u003ccode\u003e\u003ca\u003eLocale\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003e\u003ca\u003eConfig\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "fileHumanSize",
           "package": "dropbox-sdk",
@@ -1738,6 +1875,7 @@
         "index": {
           "description": "human-readable representation of the file size for example bytes localized according to Locale in Config",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "fileHumanSize",
           "package": "dropbox-sdk",
@@ -1752,6 +1890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen this file was added or last updated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "fileModified",
           "package": "dropbox-sdk",
@@ -1762,6 +1901,7 @@
         "index": {
           "description": "When this file was added or last updated",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "fileModified",
           "package": "dropbox-sdk",
@@ -1776,6 +1916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe revision of the file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "fileRevision",
           "package": "dropbox-sdk",
@@ -1786,6 +1927,7 @@
         "index": {
           "description": "The revision of the file",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "fileRevision",
           "package": "dropbox-sdk",
@@ -1799,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "fileRevisionToString",
           "package": "dropbox-sdk",
@@ -1808,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "fileRevisionToString",
           "normalized": "FileRevision-\u003eString",
@@ -1824,6 +1968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe metadata for the immediate children of a folder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "folderChildren",
           "package": "dropbox-sdk",
@@ -1834,6 +1979,7 @@
         "index": {
           "description": "The metadata for the immediate children of folder",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "folderChildren",
           "normalized": "[Meta]",
@@ -1850,6 +1996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn identifier for the folder's metadata and children's metadata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "folderHash",
           "package": "dropbox-sdk",
@@ -1860,6 +2007,7 @@
         "index": {
           "description": "An identifier for the folder metadata and children metadata",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "folderHash",
           "package": "dropbox-sdk",
@@ -1873,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "folderHashToString",
           "package": "dropbox-sdk",
@@ -1882,6 +2031,7 @@
         },
         "index": {
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "folderHashToString",
           "normalized": "FolderHash-\u003eString",
@@ -1898,6 +2048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve information about the user account your \u003ccode\u003e\u003ca\u003eAccessToken\u003c/a\u003e\u003c/code\u003e is connected to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "getAccountInfo",
           "package": "dropbox-sdk",
@@ -1907,6 +2058,7 @@
         "index": {
           "description": "Retrieve information about the user account your AccessToken is connected to",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "getAccountInfo",
           "normalized": "Manager-\u003eSession-\u003eIO(Either ErrorMessage AccountInfo)",
@@ -1923,6 +2075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets a file's contents and metadata.  If you just want the entire contents of\n a file as a single \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e, use \u003ccode\u003e\u003ca\u003egetFileBs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "getFile",
           "package": "dropbox-sdk",
@@ -1932,6 +2085,7 @@
         "index": {
           "description": "Gets file contents and metadata If you just want the entire contents of file as single ByteString use getFileBs",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "getFile",
           "normalized": "Manager-\u003eSession-\u003ePath-\u003eMaybe FileRevision-\u003e(Meta-\u003eSink ByteString(ResourceT a)b)-\u003ea(Either ErrorMessage(Meta,b))",
@@ -1948,6 +2102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003egetFile\u003c/a\u003e\u003c/code\u003e that just returns a strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e (instead of having\n you pass in a \u003ccode\u003e\u003ca\u003eSink\u003c/a\u003e\u003c/code\u003e to process the body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "getFileBs",
           "package": "dropbox-sdk",
@@ -1957,6 +2112,7 @@
         "index": {
           "description": "variant of getFile that just returns strict ByteString instead of having you pass in Sink to process the body",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "getFileBs",
           "normalized": "Manager-\u003eSession-\u003ePath-\u003eMaybe FileRevision-\u003ea(Either ErrorMessage(Meta,ByteString))",
@@ -1973,6 +2129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the metadata for the file or folder at the given path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "getMetadata",
           "package": "dropbox-sdk",
@@ -1982,6 +2139,7 @@
         "index": {
           "description": "Get the metadata for the file or folder at the given path",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "getMetadata",
           "normalized": "Manager-\u003eSession-\u003ePath-\u003ea(Either ErrorMessage Meta)",
@@ -1998,6 +2156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the metadata for the file or folder at the given path.  If it's a folder,\n return the metadata for the folder's immediate children as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "getMetadataWithChildren",
           "package": "dropbox-sdk",
@@ -2007,6 +2166,7 @@
         "index": {
           "description": "Get the metadata for the file or folder at the given path If it folder return the metadata for the folder immediate children as well",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "getMetadataWithChildren",
           "normalized": "Manager-\u003eSession-\u003ePath-\u003eMaybe Integer-\u003ea(Either ErrorMessage(Meta,Maybe FolderContents))",
@@ -2023,6 +2183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003egetMetadataWithChildren\u003c/a\u003e\u003c/code\u003e except it'll return \u003ccode\u003eNothing\u003c/code\u003e if the \u003ccode\u003e\u003ca\u003eFolderHash\u003c/a\u003e\u003c/code\u003e\n of the folder on Dropbox is the same as the \u003ccode\u003e\u003ca\u003eFolderHash\u003c/a\u003e\u003c/code\u003e passed in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "getMetadataWithChildrenIfChanged",
           "package": "dropbox-sdk",
@@ -2032,6 +2193,7 @@
         "index": {
           "description": "Same as getMetadataWithChildren except it ll return Nothing if the FolderHash of the folder on Dropbox is the same as the FolderHash passed in",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "getMetadataWithChildrenIfChanged",
           "normalized": "Manager-\u003eSession-\u003ePath-\u003eMaybe Integer-\u003eFolderHash-\u003ea(Either ErrorMessage(Maybe(Meta,Maybe FolderContents)))",
@@ -2048,6 +2210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Dropbox API endpoint for most non-content-transferring calls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "hostsApi",
           "package": "dropbox-sdk",
@@ -2058,6 +2221,7 @@
         "index": {
           "description": "The Dropbox API endpoint for most non-content-transferring calls",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "hostsApi",
           "package": "dropbox-sdk",
@@ -2072,6 +2236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Dropbox API endpoint for most content-transferring calls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "hostsApiContent",
           "package": "dropbox-sdk",
@@ -2082,6 +2247,7 @@
         "index": {
           "description": "The Dropbox API endpoint for most content-transferring calls",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "hostsApiContent",
           "package": "dropbox-sdk",
@@ -2096,6 +2262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe standard set of hosts that serve the Dropbox API.  Used to create a \u003ccode\u003e\u003ca\u003eConfig\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "hostsDefault",
           "package": "dropbox-sdk",
@@ -2106,6 +2273,7 @@
         "index": {
           "description": "The standard set of hosts that serve the Dropbox API Used to create Config",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "hostsDefault",
           "package": "dropbox-sdk",
@@ -2120,6 +2288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Dropbox API web host (for OAuth step 2)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "hostsWeb",
           "package": "dropbox-sdk",
@@ -2130,6 +2299,7 @@
         "index": {
           "description": "The Dropbox API web host for OAuth step",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "hostsWeb",
           "package": "dropbox-sdk",
@@ -2144,6 +2314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGerman (\"de\").\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "localeDe",
           "package": "dropbox-sdk",
@@ -2154,6 +2325,7 @@
         "index": {
           "description": "German de",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "localeDe",
           "package": "dropbox-sdk",
@@ -2168,6 +2340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnglish (American) (\"en\").\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "localeEn",
           "package": "dropbox-sdk",
@@ -2178,6 +2351,7 @@
         "index": {
           "description": "English American en",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "localeEn",
           "package": "dropbox-sdk",
@@ -2192,6 +2366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpanish (\"es\").\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "localeEs",
           "package": "dropbox-sdk",
@@ -2202,6 +2377,7 @@
         "index": {
           "description": "Spanish es",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "localeEs",
           "package": "dropbox-sdk",
@@ -2216,6 +2392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrench (\"fr\").\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "localeFr",
           "package": "dropbox-sdk",
@@ -2226,6 +2403,7 @@
         "index": {
           "description": "French fr",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "localeFr",
           "package": "dropbox-sdk",
@@ -2240,6 +2418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJapanese (\"jp\").\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "localeJp",
           "package": "dropbox-sdk",
@@ -2250,6 +2429,7 @@
         "index": {
           "description": "Japanese jp",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "localeJp",
           "package": "dropbox-sdk",
@@ -2264,6 +2444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the icon used to illustrate this file type in Dropbox's icon library (\u003ca\u003ehttps://www.dropbox.com/static/images/dropbox-api-icons.zip\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "metaIcon",
           "package": "dropbox-sdk",
@@ -2274,6 +2455,7 @@
         "index": {
           "description": "The name of the icon used to illustrate this file type in Dropbox icon library https www.dropbox.com static images dropbox-api-icons.zip",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "metaIcon",
           "package": "dropbox-sdk",
@@ -2288,6 +2470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether this metadata entry refers to a file that had been deleted when the entry was retrieved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "metaIsDeleted",
           "package": "dropbox-sdk",
@@ -2298,6 +2481,7 @@
         "index": {
           "description": "Whether this metadata entry refers to file that had been deleted when the entry was retrieved",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "metaIsDeleted",
           "package": "dropbox-sdk",
@@ -2312,6 +2496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe full path (starting with a \"/\") of the file or folder, relative to \u003ccode\u003e\u003ca\u003emetaRoot\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "metaPath",
           "package": "dropbox-sdk",
@@ -2322,6 +2507,7 @@
         "index": {
           "description": "The full path starting with of the file or folder relative to metaRoot",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "metaPath",
           "package": "dropbox-sdk",
@@ -2336,6 +2522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches the \u003ccode\u003e\u003ca\u003eAccessType\u003c/a\u003e\u003c/code\u003e of the app that retrieved the metadata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "metaRoot",
           "package": "dropbox-sdk",
@@ -2346,6 +2533,7 @@
         "index": {
           "description": "Matches the AccessType of the app that retrieved the metadata",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "metaRoot",
           "package": "dropbox-sdk",
@@ -2360,6 +2548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWill be \u003ccode\u003eTrue\u003c/code\u003e if this file might have a thumbnail, and \u003ccode\u003eFalse\u003c/code\u003e if it definitely doesn't.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "metaThumbnail",
           "package": "dropbox-sdk",
@@ -2370,6 +2559,7 @@
         "index": {
           "description": "Will be True if this file might have thumbnail and False if it definitely doesn",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "metaThumbnail",
           "package": "dropbox-sdk",
@@ -2384,6 +2574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenience function that constructs a \u003ccode\u003e\u003ca\u003eConfig\u003c/a\u003e\u003c/code\u003e.  It's in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad because we read from\n a file to get the list of trusted SSL certificates, which is used to verify the server over SSL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "mkConfig",
           "package": "dropbox-sdk",
@@ -2393,6 +2584,7 @@
         "index": {
           "description": "convenience function that constructs Config It in the IO monad because we read from file to get the list of trusted SSL certificates which is used to verify the server over SSL",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "mkConfig",
           "normalized": "Locale-\u003eString-\u003eString-\u003eAccessType-\u003eIO Config",
@@ -2408,6 +2600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "putFile",
           "package": "dropbox-sdk",
@@ -2416,6 +2609,7 @@
         },
         "index": {
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "putFile",
           "normalized": "Manager-\u003eSession-\u003ePath-\u003eWriteMode-\u003eRequestBody a-\u003ea(Either ErrorMessage Meta)",
@@ -2432,6 +2626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eAccessToken\u003c/a\u003e\u003c/code\u003e obtained from \u003ccode\u003e\u003ca\u003eauthFinish\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "sessionAccessToken",
           "package": "dropbox-sdk",
@@ -2442,6 +2637,7 @@
         "index": {
           "description": "The AccessToken obtained from authFinish",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "sessionAccessToken",
           "package": "dropbox-sdk",
@@ -2455,6 +2651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "sessionConfig",
           "package": "dropbox-sdk",
@@ -2464,6 +2661,7 @@
         },
         "index": {
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "sessionConfig",
           "package": "dropbox-sdk",
@@ -2478,6 +2676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bracket around an HTTP connection manager.\n Uses default \u003ccode\u003eManagerSettings\u003c/code\u003e as computed by \u003ccode\u003emanagerSettings\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:03 UTC 2014",
           "module": "Dropbox",
           "name": "withManager",
           "package": "dropbox-sdk",
@@ -2488,6 +2687,7 @@
         "index": {
           "description": "bracket around an HTTP connection manager Uses default ManagerSettings as computed by managerSettings",
           "hierarchy": "Dropbox",
+          "indexed": "2014-03-11T17:59:03",
           "module": "Dropbox",
           "name": "withManager",
           "normalized": "(Manager-\u003eResourceT a b)-\u003ea b",

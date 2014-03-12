@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hatt"
+        "phrase": "hatt",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe functions exposed by this module convert expressions of type \u003ccode\u003e\u003ca\u003eExpr\u003c/a\u003e\u003c/code\u003e\n into different normal forms: negation normal form via \u003ccode\u003e\u003ca\u003etoNNF\u003c/a\u003e\u003c/code\u003e, conjunctive\n normal form via \u003ccode\u003e\u003ca\u003etoCNF\u003c/a\u003e\u003c/code\u003e and disjunctive normal form via \u003ccode\u003e\u003ca\u003etoDNF\u003c/a\u003e\u003c/code\u003e. All these\n functions are total.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional.NormalForms",
           "name": "NormalForms",
           "package": "hatt",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The functions exposed by this module convert expressions of type Expr into different normal forms negation normal form via toNNF conjunctive normal form via toCNF and disjunctive normal form via toDNF All these functions are total",
           "hierarchy": "Data Logic Propositional NormalForms",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional.NormalForms",
           "name": "NormalForms",
           "package": "hatt",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003etoCNF\u003c/a\u003e\u003c/code\u003e function converts expressions to conjunctive normal form: a\n conjunction of clauses, where a clause is a disjunction of literals\n (variables and negated variables).\n\u003c/p\u003e\u003cp\u003eThe conversion is carried out by first converting the expression into\n negation normal form, and then applying the distributive law.\n\u003c/p\u003e\u003cp\u003eBecause it first applies \u003ccode\u003e\u003ca\u003etoNNF\u003c/a\u003e\u003c/code\u003e, it is a total function and can handle\n expressions which include conditionals and biconditionals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional.NormalForms",
           "name": "toCNF",
           "package": "hatt",
@@ -52,6 +55,7 @@
         "index": {
           "description": "The toCNF function converts expressions to conjunctive normal form conjunction of clauses where clause is disjunction of literals variables and negated variables The conversion is carried out by first converting the expression into negation normal form and then applying the distributive law Because it first applies toNNF it is total function and can handle expressions which include conditionals and biconditionals",
           "hierarchy": "Data Logic Propositional NormalForms",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional.NormalForms",
           "name": "toCNF",
           "normalized": "Expr-\u003eExpr",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003etoDNF\u003c/a\u003e\u003c/code\u003e function converts expressions to disjunctive normal form: a\n disjunction of clauses, where a clause is a conjunction of literals\n (variables and negated variables).\n\u003c/p\u003e\u003cp\u003eThe conversion is carried out by first converting the expression into\n negation normal form, and then applying the distributive law.\n\u003c/p\u003e\u003cp\u003eBecause it first applies \u003ccode\u003e\u003ca\u003etoNNF\u003c/a\u003e\u003c/code\u003e, it is a total function and can handle\n expressions which include conditionals and biconditionals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional.NormalForms",
           "name": "toDNF",
           "package": "hatt",
@@ -78,6 +83,7 @@
         "index": {
           "description": "The toDNF function converts expressions to disjunctive normal form disjunction of clauses where clause is conjunction of literals variables and negated variables The conversion is carried out by first converting the expression into negation normal form and then applying the distributive law Because it first applies toNNF it is total function and can handle expressions which include conditionals and biconditionals",
           "hierarchy": "Data Logic Propositional NormalForms",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional.NormalForms",
           "name": "toDNF",
           "normalized": "Expr-\u003eExpr",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003etoNNF\u003c/a\u003e\u003c/code\u003e function converts expressions to negation normal form. This\n function is total: it's defined for all expressions, not just those which\n only use negation, conjunction and disjunction, although all expressions in\n negation normal form do in fact only use those connectives.\n\u003c/p\u003e\u003cp\u003eThe conversion is carried out by replacing any condtitionals or\n biconditionals with equivalent expressions using only negation, conjunction\n and disjunction. Then de Morgan's laws are applied to convert negated\n conjunctions and disjunctions into the conjunction or disjunction of the\n negation of their conjuncts: \u003ccode\u003e&#172;(&#966; &#8743; &#968;)\u003c/code\u003e is converted to \u003ccode\u003e(&#172;&#966; &#8744; &#172;&#968;)\u003c/code\u003e\n while \u003ccode\u003e&#172;(&#966; &#8744; &#968;)\u003c/code\u003e becomes \u003ccode\u003e(&#172;&#966; &#8743; &#172;&#968;)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional.NormalForms",
           "name": "toNNF",
           "package": "hatt",
@@ -104,6 +111,7 @@
         "index": {
           "description": "The toNNF function converts expressions to negation normal form This function is total it defined for all expressions not just those which only use negation conjunction and disjunction although all expressions in negation normal form do in fact only use those connectives The conversion is carried out by replacing any condtitionals or biconditionals with equivalent expressions using only negation conjunction and disjunction Then de Morgan laws are applied to convert negated conjunctions and disjunctions into the conjunction or disjunction of the negation of their conjuncts is converted to while becomes",
           "hierarchy": "Data Logic Propositional NormalForms",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional.NormalForms",
           "name": "toNNF",
           "normalized": "Expr-\u003eExpr",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the truth table generating functionality of Hatt. The\n core function it exports is \u003ccode\u003e\u003ca\u003etruthTable\u003c/a\u003e\u003c/code\u003e which prints the truth table of the\n given expression. \u003ccode\u003e\u003ca\u003etruthTableP\u003c/a\u003e\u003c/code\u003e is a configurable version which allows one to\n select how to print expressions and truth values. This gives one the option\n of, for example, colouring outputs and changing the symbols used to represent\n the logical connectives.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional.Tables",
           "name": "Tables",
           "package": "hatt",
@@ -129,6 +138,7 @@
         "index": {
           "description": "This module contains the truth table generating functionality of Hatt The core function it exports is truthTable which prints the truth table of the given expression truthTableP is configurable version which allows one to select how to print expressions and truth values This gives one the option of for example colouring outputs and changing the symbols used to represent the logical connectives",
           "hierarchy": "Data Logic Propositional Tables",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional.Tables",
           "name": "Tables",
           "package": "hatt",
@@ -142,6 +152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional.Tables",
           "name": "Printer",
           "package": "hatt",
@@ -150,6 +161,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Propositional Tables",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional.Tables",
           "name": "Printer",
           "package": "hatt",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrints a green \u003ccode\u003eT\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e and a red \u003ccode\u003eF\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e. This is used when\n producing a string representation of a truth table with \u003ccode\u003e\u003ca\u003etruthTable\u003c/a\u003e\u003c/code\u003e. It can\n also be used as (as the second component of a \u003ccode\u003e\u003ca\u003ePrinter\u003c/a\u003e\u003c/code\u003e pair) as an argument\n to the configurable \u003ccode\u003e\u003ca\u003etruthTableP\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional.Tables",
           "name": "colourBool",
           "package": "hatt",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Prints green for True and red for False This is used when producing string representation of truth table with truthTable It can also be used as as the second component of Printer pair as an argument to the configurable truthTableP function",
           "hierarchy": "Data Logic Propositional Tables",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional.Tables",
           "name": "colourBool",
           "normalized": "Bool-\u003eString",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrints \u003ccode\u003eT\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003eF\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional.Tables",
           "name": "showBool",
           "package": "hatt",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Prints for True and for False",
           "hierarchy": "Data Logic Propositional Tables",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional.Tables",
           "name": "showBool",
           "normalized": "Bool-\u003eString",
@@ -270,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ca\u003eData.Logic.Propositional\u003c/a\u003e module provides a set of functions for\n parsing, manipulating and generating truth tables for expressions in\n classical propositional logic.\n\u003c/p\u003e\u003cp\u003eThe core of the API is the \u003ccode\u003e\u003ca\u003eExpr\u003c/a\u003e\u003c/code\u003e data type, which has constructors for all\n the usual expression forms: variables, standing for atomic propositions;\n negation, the only unary connective; and the binary connectives of\n conjunction, disjunction, material implication and logical equivalence.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional",
           "name": "Propositional",
           "package": "hatt",
@@ -279,6 +296,7 @@
         "index": {
           "description": "The Data.Logic.Propositional module provides set of functions for parsing manipulating and generating truth tables for expressions in classical propositional logic The core of the API is the Expr data type which has constructors for all the usual expression forms variables standing for atomic propositions negation the only unary connective and the binary connectives of conjunction disjunction material implication and logical equivalence",
           "hierarchy": "Data Logic Propositional",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional",
           "name": "Propositional",
           "package": "hatt",
@@ -292,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional",
           "name": "Expr",
           "package": "hatt",
@@ -300,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Propositional",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional",
           "name": "Expr",
           "package": "hatt",
@@ -313,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional",
           "name": "Mapping",
           "package": "hatt",
@@ -321,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Propositional",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional",
           "name": "Mapping",
           "package": "hatt",
@@ -334,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional",
           "name": "Var",
           "package": "hatt",
@@ -342,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Propositional",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional",
           "name": "Var",
           "package": "hatt",
@@ -355,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional",
           "name": "Biconditional",
           "package": "hatt",
@@ -364,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Propositional",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional",
           "name": "Biconditional",
           "package": "hatt",
@@ -377,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional",
           "name": "Conditional",
           "package": "hatt",
@@ -386,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Propositional",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional",
           "name": "Conditional",
           "package": "hatt",
@@ -399,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional",
           "name": "Conjunction",
           "package": "hatt",
@@ -408,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Propositional",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional",
           "name": "Conjunction",
           "package": "hatt",
@@ -421,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional",
           "name": "Disjunction",
           "package": "hatt",
@@ -430,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Propositional",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional",
           "name": "Disjunction",
           "package": "hatt",
@@ -443,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional",
           "name": "Negation",
           "package": "hatt",
@@ -452,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Propositional",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional",
           "name": "Negation",
           "package": "hatt",
@@ -465,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional",
           "name": "Var",
           "package": "hatt",
@@ -474,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Propositional",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional",
           "name": "Var",
           "package": "hatt",
@@ -487,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional",
           "name": "Variable",
           "package": "hatt",
@@ -496,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Data Logic Propositional",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional",
           "name": "Variable",
           "package": "hatt",
@@ -510,6 +548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates the possible assignments of variables in an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional",
           "name": "assignments",
           "package": "hatt",
@@ -520,6 +559,7 @@
         "index": {
           "description": "Generates the possible assignments of variables in an expression",
           "hierarchy": "Data Logic Propositional",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional",
           "name": "assignments",
           "normalized": "Expr-\u003e[Mapping]",
@@ -535,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines whether two expressions are extensionally equivalent (that is,\n have the same values under all interpretations).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional",
           "name": "equivalent",
           "package": "hatt",
@@ -545,6 +586,7 @@
         "index": {
           "description": "Determines whether two expressions are extensionally equivalent that is have the same values under all interpretations",
           "hierarchy": "Data Logic Propositional",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional",
           "name": "equivalent",
           "normalized": "Expr-\u003eExpr-\u003eBool",
@@ -560,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn order to interpret an expression, a mapping from variables to truth\n values needs to be provided. Truth values are compositional; that's to say,\n the value of a composite expression (any expression which is not atomic)\n depends on the truth values of its component parts. For example, the Haskell\n expression below would evaluate to \u003ccode\u003eFalse\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e interpret\n     (Conjunction (Variable \"A\") (Variable \"B\"))\n     (fromList [(\"A\", True), (\"B\", False)])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional",
           "name": "interpret",
           "package": "hatt",
@@ -570,6 +613,7 @@
         "index": {
           "description": "In order to interpret an expression mapping from variables to truth values needs to be provided Truth values are compositional that to say the value of composite expression any expression which is not atomic depends on the truth values of its component parts For example the Haskell expression below would evaluate to False interpret Conjunction Variable Variable fromList True False",
           "hierarchy": "Data Logic Propositional",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional",
           "name": "interpret",
           "normalized": "Expr-\u003eMapping-\u003eBool",
@@ -585,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines whether an expression is contingent (that is, true in at least\n one interpretation and false in at least one interpretation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional",
           "name": "isContingent",
           "package": "hatt",
@@ -595,6 +640,7 @@
         "index": {
           "description": "Determines whether an expression is contingent that is true in at least one interpretation and false in at least one interpretation",
           "hierarchy": "Data Logic Propositional",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional",
           "name": "isContingent",
           "normalized": "Expr-\u003eBool",
@@ -611,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines whether an expression is contradictory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional",
           "name": "isContradiction",
           "package": "hatt",
@@ -621,6 +668,7 @@
         "index": {
           "description": "Determines whether an expression is contradictory",
           "hierarchy": "Data Logic Propositional",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional",
           "name": "isContradiction",
           "normalized": "Expr-\u003eBool",
@@ -637,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines whether an expression is tautological.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional",
           "name": "isTautology",
           "package": "hatt",
@@ -647,6 +696,7 @@
         "index": {
           "description": "Determines whether an expression is tautological",
           "hierarchy": "Data Logic Propositional",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional",
           "name": "isTautology",
           "normalized": "Expr-\u003eBool",
@@ -663,6 +713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eparseExpr\u003c/a\u003e\u003c/code\u003e function accepts the name of a source, and a string to be\n parsed, and attempts to parse the string as a logical expression of the\n following forms, where \u003ccode\u003e&#966;\u003c/code\u003e and \u003ccode\u003e&#968;\u003c/code\u003e are metalinguistic variables\n standing for any valid expression.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Variables: \u003ccode\u003e\"P\"\u003c/code\u003e, \u003ccode\u003e\"Q\"\u003c/code\u003e, \u003ccode\u003e\"a\"\u003c/code\u003e, \u003ccode\u003e\"b\"\u003c/code\u003e etc.; basically anything in\n   the character class \u003ccode\u003e[a-zA-Z]\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Negation: \u003ccode\u003e\"~&#966;\"\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Conjunction: \u003ccode\u003e\"(&#966; & &#968;)\"\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Disjunction: \u003ccode\u003e\"(&#966; | &#968;)\"\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Conditional: \u003ccode\u003e\"(&#966; -\u003e &#968;)\"\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Biconditional: \u003ccode\u003e\"(&#966; \u003c-\u003e &#968;)\"\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eTop-level expressions where the primary connective is a binary one do not\n need to be parenthesised. For example, \u003ccode\u003e\"p -\u003e (q & r)\"\u003c/code\u003e is a valid\n expression, although \u003ccode\u003e\"(p -\u003e (q & r))\"\u003c/code\u003e is also fine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional",
           "name": "parseExpr",
           "package": "hatt",
@@ -673,6 +724,7 @@
         "index": {
           "description": "The parseExpr function accepts the name of source and string to be parsed and attempts to parse the string as logical expression of the following forms where and are metalinguistic variables standing for any valid expression Variables etc basically anything in the character class a-zA-Z Negation Conjunction Disjunction Conditional Biconditional Top-level expressions where the primary connective is binary one do not need to be parenthesised For example is valid expression although is also fine",
           "hierarchy": "Data Logic Propositional",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional",
           "name": "parseExpr",
           "normalized": "SourceName-\u003eString-\u003eEither ParseError Expr",
@@ -689,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specialised variant of \u003ccode\u003e\u003ca\u003eshowsPrec\u003c/a\u003e\u003c/code\u003e, using precedence context\n zero, and returning an ordinary \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional",
           "name": "show",
           "package": "hatt",
@@ -698,6 +751,7 @@
         "index": {
           "description": "specialised variant of showsPrec using precedence context zero and returning an ordinary String",
           "hierarchy": "Data Logic Propositional",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional",
           "name": "show",
           "normalized": "a-\u003eString",
@@ -713,6 +767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents expressions using only ASCII characters (the \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e function\n pretty-prints expressions using logical symbols only present in extended\n character sets).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional",
           "name": "showAscii",
           "package": "hatt",
@@ -723,6 +778,7 @@
         "index": {
           "description": "Represents expressions using only ASCII characters the show function pretty-prints expressions using logical symbols only present in extended character sets",
           "hierarchy": "Data Logic Propositional",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional",
           "name": "showAscii",
           "normalized": "Expr-\u003eString",
@@ -739,6 +795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLists the values of an expression under all interpretations (that is, all\n assignments of values to variables).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional",
           "name": "values",
           "package": "hatt",
@@ -749,6 +806,7 @@
         "index": {
           "description": "Lists the values of an expression under all interpretations that is all assignments of values to variables",
           "hierarchy": "Data Logic Propositional",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional",
           "name": "values",
           "normalized": "Expr-\u003e[Bool]",
@@ -764,6 +822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLists the names of variables present in an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:24 UTC 2014",
           "module": "Data.Logic.Propositional",
           "name": "variables",
           "package": "hatt",
@@ -774,6 +833,7 @@
         "index": {
           "description": "Lists the names of variables present in an expression",
           "hierarchy": "Data Logic Propositional",
+          "indexed": "2014-03-11T18:34:24",
           "module": "Data.Logic.Propositional",
           "name": "variables",
           "normalized": "Expr-\u003e[Var]",

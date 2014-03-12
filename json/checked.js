@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "checked"
+        "phrase": "checked",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA drop-in replacements for the Data.Int types.\n Exceptions are thrown whenever an operation would over-flow.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:56 UTC 2014",
           "module": "Data.Int.Checked",
           "name": "Checked",
           "package": "checked",
@@ -28,6 +29,7 @@
         "index": {
           "description": "drop-in replacements for the Data.Int types Exceptions are thrown whenever an operation would over-flow",
           "hierarchy": "Data Int Checked",
+          "indexed": "2014-03-11T17:31:56",
           "module": "Data.Int.Checked",
           "name": "Checked",
           "package": "checked",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:56 UTC 2014",
           "module": "Data.Int.Checked",
           "name": "Int",
           "package": "checked",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Int Checked",
+          "indexed": "2014-03-11T17:31:56",
           "module": "Data.Int.Checked",
           "name": "Int",
           "package": "checked",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:56 UTC 2014",
           "module": "Data.Int.Checked",
           "name": "Int16",
           "package": "checked",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Int Checked",
+          "indexed": "2014-03-11T17:31:56",
           "module": "Data.Int.Checked",
           "name": "Int16",
           "package": "checked",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:56 UTC 2014",
           "module": "Data.Int.Checked",
           "name": "Int32",
           "package": "checked",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Int Checked",
+          "indexed": "2014-03-11T17:31:56",
           "module": "Data.Int.Checked",
           "name": "Int32",
           "package": "checked",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:56 UTC 2014",
           "module": "Data.Int.Checked",
           "name": "Int64",
           "package": "checked",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Int Checked",
+          "indexed": "2014-03-11T17:31:56",
           "module": "Data.Int.Checked",
           "name": "Int64",
           "package": "checked",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:56 UTC 2014",
           "module": "Data.Int.Checked",
           "name": "Int8",
           "package": "checked",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data Int Checked",
+          "indexed": "2014-03-11T17:31:56",
           "module": "Data.Int.Checked",
           "name": "Int8",
           "package": "checked",
@@ -147,6 +159,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA drop-in replacements for the Data.Word types.\n Exceptions are thrown whenever an operation would over-flow.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:56 UTC 2014",
           "module": "Data.Word.Checked",
           "name": "Checked",
           "package": "checked",
@@ -156,6 +169,7 @@
         "index": {
           "description": "drop-in replacements for the Data.Word types Exceptions are thrown whenever an operation would over-flow",
           "hierarchy": "Data Word Checked",
+          "indexed": "2014-03-11T17:31:56",
           "module": "Data.Word.Checked",
           "name": "Checked",
           "package": "checked",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:56 UTC 2014",
           "module": "Data.Word.Checked",
           "name": "Word",
           "package": "checked",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Data Word Checked",
+          "indexed": "2014-03-11T17:31:56",
           "module": "Data.Word.Checked",
           "name": "Word",
           "package": "checked",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:56 UTC 2014",
           "module": "Data.Word.Checked",
           "name": "Word16",
           "package": "checked",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Data Word Checked",
+          "indexed": "2014-03-11T17:31:56",
           "module": "Data.Word.Checked",
           "name": "Word16",
           "package": "checked",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:56 UTC 2014",
           "module": "Data.Word.Checked",
           "name": "Word32",
           "package": "checked",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Data Word Checked",
+          "indexed": "2014-03-11T17:31:56",
           "module": "Data.Word.Checked",
           "name": "Word32",
           "package": "checked",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:56 UTC 2014",
           "module": "Data.Word.Checked",
           "name": "Word64",
           "package": "checked",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Data Word Checked",
+          "indexed": "2014-03-11T17:31:56",
           "module": "Data.Word.Checked",
           "name": "Word64",
           "package": "checked",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:56 UTC 2014",
           "module": "Data.Word.Checked",
           "name": "Word8",
           "package": "checked",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Data Word Checked",
+          "indexed": "2014-03-11T17:31:56",
           "module": "Data.Word.Checked",
           "name": "Word8",
           "package": "checked",

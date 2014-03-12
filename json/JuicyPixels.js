@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "JuicyPixels"
+        "phrase": "JuicyPixels",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModules used for Bitmap file (.bmp) file loading and writing\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Bitmap",
           "name": "Bitmap",
           "package": "JuicyPixels",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Modules used for Bitmap file bmp file loading and writing",
           "hierarchy": "Codec Picture Bitmap",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Bitmap",
           "name": "Bitmap",
           "package": "JuicyPixels",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the instance of this class can be written as a bitmap file\n using this library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Bitmap",
           "name": "BmpEncodable",
           "package": "JuicyPixels",
@@ -51,6 +54,7 @@
         "index": {
           "description": "All the instance of this class can be written as bitmap file using this library",
           "hierarchy": "Codec Picture Bitmap",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Bitmap",
           "name": "BmpEncodable",
           "package": "JuicyPixels",
@@ -200,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provide some color quantisation algorithm\n in order to help in the creation of paletted images.\n The most important function is \u003ccode\u003e\u003ca\u003epalettize\u003c/a\u003e\u003c/code\u003e which will\n make everything to create a nice color indexed image\n with its palette.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.ColorQuant",
           "name": "ColorQuant",
           "package": "JuicyPixels",
@@ -209,6 +214,7 @@
         "index": {
           "description": "This module provide some color quantisation algorithm in order to help in the creation of paletted images The most important function is palettize which will make everything to create nice color indexed image with its palette",
           "hierarchy": "Codec Picture ColorQuant",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.ColorQuant",
           "name": "ColorQuant",
           "package": "JuicyPixels",
@@ -223,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine which palette creation method is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.ColorQuant",
           "name": "PaletteCreationMethod",
           "package": "JuicyPixels",
@@ -232,6 +239,7 @@
         "index": {
           "description": "Define which palette creation method is used",
           "hierarchy": "Codec Picture ColorQuant",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.ColorQuant",
           "name": "PaletteCreationMethod",
           "package": "JuicyPixels",
@@ -246,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo specify how the palette will be created.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.ColorQuant",
           "name": "PaletteOptions",
           "package": "JuicyPixels",
@@ -255,6 +264,7 @@
         "index": {
           "description": "To specify how the palette will be created",
           "hierarchy": "Codec Picture ColorQuant",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.ColorQuant",
           "name": "PaletteOptions",
           "package": "JuicyPixels",
@@ -342,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault palette option, which aim at the best quality\n and maximum possible colors (256)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.ColorQuant",
           "name": "defaultPaletteOptions",
           "package": "JuicyPixels",
@@ -352,6 +363,7 @@
         "index": {
           "description": "Default palette option which aim at the best quality and maximum possible colors",
           "hierarchy": "Codec Picture ColorQuant",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.ColorQuant",
           "name": "defaultPaletteOptions",
           "package": "JuicyPixels",
@@ -467,6 +479,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule implementing GIF decoding.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Gif",
           "name": "Gif",
           "package": "JuicyPixels",
@@ -476,6 +489,7 @@
         "index": {
           "description": "Module implementing GIF decoding",
           "hierarchy": "Codec Picture Gif",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Gif",
           "name": "Gif",
           "package": "JuicyPixels",
@@ -490,6 +504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelay to wait before showing the next Gif image.\n The delay is expressed in 100th of seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Gif",
           "name": "GifDelay",
           "package": "JuicyPixels",
@@ -499,6 +514,7 @@
         "index": {
           "description": "Delay to wait before showing the next Gif image The delay is expressed in th of seconds",
           "hierarchy": "Codec Picture Gif",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Gif",
           "name": "GifDelay",
           "package": "JuicyPixels",
@@ -513,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelp to control the behaviour of GIF animation looping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Gif",
           "name": "GifLooping",
           "package": "JuicyPixels",
@@ -522,6 +539,7 @@
         "index": {
           "description": "Help to control the behaviour of GIF animation looping",
           "hierarchy": "Codec Picture Gif",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Gif",
           "name": "GifLooping",
           "package": "JuicyPixels",
@@ -746,6 +764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault palette to produce greyscale images.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Gif",
           "name": "greyPalette",
           "package": "JuicyPixels",
@@ -756,6 +775,7 @@
         "index": {
           "description": "Default palette to produce greyscale images",
           "hierarchy": "Codec Picture Gif",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Gif",
           "name": "greyPalette",
           "package": "JuicyPixels",
@@ -851,6 +871,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule dedicated of Radiance file decompression (.hdr or .pic) file.\n Radiance file format is used for High dynamic range imaging.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.HDR",
           "name": "HDR",
           "package": "JuicyPixels",
@@ -860,6 +881,7 @@
         "index": {
           "description": "Module dedicated of Radiance file decompression hdr or pic file Radiance file format is used for High dynamic range imaging",
           "hierarchy": "Codec Picture HDR",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.HDR",
           "name": "HDR",
           "package": "JuicyPixels",
@@ -955,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule used for JPEG file loading and writing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Jpg",
           "name": "Jpg",
           "package": "JuicyPixels",
@@ -964,6 +987,7 @@
         "index": {
           "description": "Module used for JPEG file loading and writing",
           "hierarchy": "Codec Picture Jpg",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Jpg",
           "name": "Jpg",
           "package": "JuicyPixels",
@@ -1058,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis pseudo interpreter interpret the Jpg frame for the huffman,\n quant table and restart interval parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Jpg",
           "name": "jpgMachineStep",
           "package": "JuicyPixels",
@@ -1068,6 +1093,7 @@
         "index": {
           "description": "This pseudo interpreter interpret the Jpg frame for the huffman quant table and restart interval parameters",
           "hierarchy": "Codec Picture Jpg",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Jpg",
           "name": "jpgMachineStep",
           "normalized": "JpgFrame-\u003eJpgScripter a()",
@@ -1084,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule used for loading & writing 'Portable Network Graphics' (PNG)\n files. The API has two layers, the high level, which load the image without\n looking deeply about it and the low level, allowing access to data chunks contained\n in the PNG image.\n\u003c/p\u003e\u003cp\u003eFor general use, please use \u003ccode\u003e\u003ca\u003edecodePng\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e\u003cp\u003eThe loader has been validated against the pngsuite (http:\u003cem/\u003ewww.libpng.org\u003cem\u003epub\u003c/em\u003epng/pngsuite.html)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Png",
           "name": "Png",
           "package": "JuicyPixels",
@@ -1093,6 +1120,7 @@
         "index": {
           "description": "Module used for loading writing Portable Network Graphics PNG files The API has two layers the high level which load the image without looking deeply about it and the low level allowing access to data chunks contained in the PNG image For general use please use decodePng function The loader has been validated against the pngsuite http www.libpng.org pub png pngsuite.html",
           "hierarchy": "Codec Picture Png",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Png",
           "name": "Png",
           "package": "JuicyPixels",
@@ -1107,6 +1135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an image into a png if possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Png",
           "name": "PngSavable",
           "package": "JuicyPixels",
@@ -1116,6 +1145,7 @@
         "index": {
           "description": "Encode an image into png if possible",
           "hierarchy": "Codec Picture Png",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Png",
           "name": "PngSavable",
           "package": "JuicyPixels",
@@ -1211,6 +1241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform an image into a png encoded bytestring, ready\n to be written as a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Png",
           "name": "encodePng",
           "package": "JuicyPixels",
@@ -1221,6 +1252,7 @@
         "index": {
           "description": "Transform an image into png encoded bytestring ready to be written as file",
           "hierarchy": "Codec Picture Png",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Png",
           "name": "encodePng",
           "normalized": "Image a-\u003eByteString",
@@ -1291,6 +1323,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHelper functions to save dynamic images to other file format\n with automatic color space/sample format conversion done automatically.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Saving",
           "name": "Saving",
           "package": "JuicyPixels",
@@ -1300,6 +1333,7 @@
         "index": {
           "description": "Helper functions to save dynamic images to other file format with automatic color space sample format conversion done automatically",
           "hierarchy": "Codec Picture Saving",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Saving",
           "name": "Saving",
           "package": "JuicyPixels",
@@ -1314,6 +1348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function will try to do anything to encode an image\n as bitmap, make all color conversion and such. Equivalent\n of \u003ccode\u003edecodeImage\u003c/code\u003e for Bitmap encoding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Saving",
           "name": "imageToBitmap",
           "package": "JuicyPixels",
@@ -1324,6 +1359,7 @@
         "index": {
           "description": "This function will try to do anything to encode an image as bitmap make all color conversion and such Equivalent of decodeImage for Bitmap encoding",
           "hierarchy": "Codec Picture Saving",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Saving",
           "name": "imageToBitmap",
           "normalized": "DynamicImage-\u003eByteString",
@@ -1340,6 +1376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function will try to do anything to encode an image\n as a gif, make all color conversion and quantization. Equivalent\n of \u003ccode\u003edecodeImage\u003c/code\u003e for gif encoding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Saving",
           "name": "imageToGif",
           "package": "JuicyPixels",
@@ -1350,6 +1387,7 @@
         "index": {
           "description": "This function will try to do anything to encode an image as gif make all color conversion and quantization Equivalent of decodeImage for gif encoding",
           "hierarchy": "Codec Picture Saving",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Saving",
           "name": "imageToGif",
           "normalized": "DynamicImage-\u003eEither String ByteString",
@@ -1366,6 +1404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function will try to do anything to encode an image\n as JPEG, make all color conversion and such. Equivalent\n of \u003ccode\u003edecodeImage\u003c/code\u003e for jpeg encoding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Saving",
           "name": "imageToJpg",
           "package": "JuicyPixels",
@@ -1376,6 +1415,7 @@
         "index": {
           "description": "This function will try to do anything to encode an image as JPEG make all color conversion and such Equivalent of decodeImage for jpeg encoding",
           "hierarchy": "Codec Picture Saving",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Saving",
           "name": "imageToJpg",
           "normalized": "Int-\u003eDynamicImage-\u003eByteString",
@@ -1392,6 +1432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function will try to do anything to encode an image\n as PNG, make all color conversion and such. Equivalent\n of \u003ccode\u003edecodeImage\u003c/code\u003e for PNG encoding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Saving",
           "name": "imageToPng",
           "package": "JuicyPixels",
@@ -1402,6 +1443,7 @@
         "index": {
           "description": "This function will try to do anything to encode an image as PNG make all color conversion and such Equivalent of decodeImage for PNG encoding",
           "hierarchy": "Codec Picture Saving",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Saving",
           "name": "imageToPng",
           "normalized": "DynamicImage-\u003eByteString",
@@ -1418,6 +1460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function will try to do anything to encode an image\n as RADIANCE, make all color conversion and such. Equivalent\n of \u003ccode\u003edecodeImage\u003c/code\u003e for radiance encoding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Saving",
           "name": "imageToRadiance",
           "package": "JuicyPixels",
@@ -1428,6 +1471,7 @@
         "index": {
           "description": "This function will try to do anything to encode an image as RADIANCE make all color conversion and such Equivalent of decodeImage for radiance encoding",
           "hierarchy": "Codec Picture Saving",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Saving",
           "name": "imageToRadiance",
           "normalized": "DynamicImage-\u003eByteString",
@@ -1444,6 +1488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function will try to do anything to encode an image\n as a Tiff, make all color conversion and such. Equivalent\n of \u003ccode\u003edecodeImage\u003c/code\u003e for Tiff encoding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Saving",
           "name": "imageToTiff",
           "package": "JuicyPixels",
@@ -1454,6 +1499,7 @@
         "index": {
           "description": "This function will try to do anything to encode an image as Tiff make all color conversion and such Equivalent of decodeImage for Tiff encoding",
           "hierarchy": "Codec Picture Saving",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Saving",
           "name": "imageToTiff",
           "normalized": "DynamicImage-\u003eByteString",
@@ -1470,6 +1516,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule implementing TIFF decoding.\n\u003c/p\u003e\u003cp\u003eSupported compression schemes :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Uncompressed\n\u003c/li\u003e\u003cli\u003e PackBits\n\u003c/li\u003e\u003cli\u003e LZW\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eSupported bit depth :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 2 bits\n\u003c/li\u003e\u003cli\u003e 4 bits\n\u003c/li\u003e\u003cli\u003e 8 bits\n\u003c/li\u003e\u003cli\u003e 16 bits\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Tiff",
           "name": "Tiff",
           "package": "JuicyPixels",
@@ -1479,6 +1526,7 @@
         "index": {
           "description": "Module implementing TIFF decoding Supported compression schemes Uncompressed PackBits LZW Supported bit depth bits bits bits bits",
           "hierarchy": "Codec Picture Tiff",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Tiff",
           "name": "Tiff",
           "package": "JuicyPixels",
@@ -1493,6 +1541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass defining which pixel types can be serialized in a\n Tiff file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Tiff",
           "name": "TiffSaveable",
           "package": "JuicyPixels",
@@ -1502,6 +1551,7 @@
         "index": {
           "description": "Class defining which pixel types can be serialized in Tiff file",
           "hierarchy": "Codec Picture Tiff",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Tiff",
           "name": "TiffSaveable",
           "package": "JuicyPixels",
@@ -1597,6 +1647,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule providing the basic types for image manipulation in the library.\n Defining the types used to store all those _Juicy Pixels_\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "Types",
           "package": "JuicyPixels",
@@ -1606,6 +1657,7 @@
         "index": {
           "description": "Module providing the basic types for image manipulation in the library Defining the types used to store all those Juicy Pixels",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "Types",
           "package": "JuicyPixels",
@@ -1620,6 +1672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplement upcasting for pixel types.\n Minimal declaration of \u003ccode\u003e\u003ca\u003epromotePixel\u003c/a\u003e\u003c/code\u003e.\n It is strongly recommended to overload promoteImage to keep\n performance acceptable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "ColorConvertible",
           "package": "JuicyPixels",
@@ -1629,6 +1682,7 @@
         "index": {
           "description": "Implement upcasting for pixel types Minimal declaration of promotePixel It is strongly recommended to overload promoteImage to keep performance acceptable",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "ColorConvertible",
           "package": "JuicyPixels",
@@ -1643,6 +1697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass used to describle plane present in the pixel\n type. If a pixel has a plane description associated,\n you can use the plane name to extract planes independently.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "ColorPlane",
           "package": "JuicyPixels",
@@ -1652,6 +1707,7 @@
         "index": {
           "description": "Class used to describle plane present in the pixel type If pixel has plane description associated you can use the plane name to extract planes independently",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "ColorPlane",
           "package": "JuicyPixels",
@@ -1666,6 +1722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class abstract colorspace conversion. This\n conversion can be lossy, which ColorConvertible cannot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "ColorSpaceConvertible",
           "package": "JuicyPixels",
@@ -1675,6 +1732,7 @@
         "index": {
           "description": "This class abstract colorspace conversion This conversion can be lossy which ColorConvertible cannot",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "ColorSpaceConvertible",
           "package": "JuicyPixels",
@@ -1689,6 +1747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType allowing the loading of an image with different pixel\n structures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "DynamicImage",
           "package": "JuicyPixels",
@@ -1698,6 +1757,7 @@
         "index": {
           "description": "Type allowing the loading of an image with different pixel structures",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "DynamicImage",
           "package": "JuicyPixels",
@@ -1712,6 +1772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage or pixel buffer, the coordinates are assumed to start\n from the upper-left corner of the image, with the horizontal\n position first, then the vertical one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "Image",
           "package": "JuicyPixels",
@@ -1721,6 +1782,7 @@
         "index": {
           "description": "Image or pixel buffer the coordinates are assumed to start from the upper-left corner of the image with the horizontal position first then the vertical one",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "Image",
           "package": "JuicyPixels",
@@ -1735,6 +1797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper class to help extract a luma plane out\n of an image or a pixel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "LumaPlaneExtractable",
           "package": "JuicyPixels",
@@ -1744,6 +1807,7 @@
         "index": {
           "description": "Helper class to help extract luma plane out of an image or pixel",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "LumaPlaneExtractable",
           "package": "JuicyPixels",
@@ -1758,6 +1822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage or pixel buffer, the coordinates are assumed to start\n from the upper-left corner of the image, with the horizontal\n position first, then the vertical one. The image can be transformed in place.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "MutableImage",
           "package": "JuicyPixels",
@@ -1767,6 +1832,7 @@
         "index": {
           "description": "Image or pixel buffer the coordinates are assumed to start from the upper-left corner of the image with the horizontal position first then the vertical one The image can be transformed in place",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "MutableImage",
           "package": "JuicyPixels",
@@ -1781,6 +1847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for the palette used in Gif & PNG files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "Palette",
           "package": "JuicyPixels",
@@ -1790,6 +1857,7 @@
         "index": {
           "description": "Type for the palette used in Gif PNG files",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "Palette",
           "package": "JuicyPixels",
@@ -1804,6 +1872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of pixels used in images. Each pixel has a color space, and a representative\n component (Word8 or Float).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "Pixel",
           "package": "JuicyPixels",
@@ -1813,6 +1882,7 @@
         "index": {
           "description": "Definition of pixels used in images Each pixel has color space and representative component Word8 or Float",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "Pixel",
           "package": "JuicyPixels",
@@ -1827,6 +1897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType alias for 16bit greyscale pixels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "Pixel16",
           "package": "JuicyPixels",
@@ -1836,6 +1907,7 @@
         "index": {
           "description": "Type alias for bit greyscale pixels",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "Pixel16",
           "package": "JuicyPixels",
@@ -1850,6 +1922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType alias for 32bit greyscale pixels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "Pixel32",
           "package": "JuicyPixels",
@@ -1859,6 +1932,7 @@
         "index": {
           "description": "Type alias for bit greyscale pixels",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "Pixel32",
           "package": "JuicyPixels",
@@ -1873,6 +1947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType alias for 8bit greyscale pixels. For simplicity,\n greyscale pixels use plain numbers instead of a separate type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "Pixel8",
           "package": "JuicyPixels",
@@ -1882,6 +1957,7 @@
         "index": {
           "description": "Type alias for bit greyscale pixels For simplicity greyscale pixels use plain numbers instead of separate type",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "Pixel8",
           "package": "JuicyPixels",
@@ -1896,6 +1972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePixel storing data in the CMYK colorspace. Values\n are stored in the following order :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Cyan\n\u003c/li\u003e\u003cli\u003e Magenta\n\u003c/li\u003e\u003cli\u003e Yellow\n\u003c/li\u003e\u003cli\u003e Black\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PixelCMYK16",
           "package": "JuicyPixels",
@@ -1905,6 +1982,7 @@
         "index": {
           "description": "Pixel storing data in the CMYK colorspace Values are stored in the following order Cyan Magenta Yellow Black",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PixelCMYK16",
           "package": "JuicyPixels",
@@ -1919,6 +1997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePixel storing data in the CMYK colorspace. Values\n are stored in the following order :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Cyan\n\u003c/li\u003e\u003cli\u003e Magenta\n\u003c/li\u003e\u003cli\u003e Yellow\n\u003c/li\u003e\u003cli\u003e Black\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PixelCMYK8",
           "package": "JuicyPixels",
@@ -1928,6 +2007,7 @@
         "index": {
           "description": "Pixel storing data in the CMYK colorspace Values are stored in the following order Cyan Magenta Yellow Black",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PixelCMYK8",
           "package": "JuicyPixels",
@@ -1942,6 +2022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType alias for 32bit floating point greyscale pixels. The standard\n bounded value range is mapped to the closed interval [0,1] i.e.\n\u003c/p\u003e\u003cpre\u003e map promotePixel [0, 1 .. 255 :: Pixel8] == [0/255, 1/255 .. 1.0 :: PixelF]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PixelF",
           "package": "JuicyPixels",
@@ -1951,6 +2032,7 @@
         "index": {
           "description": "Type alias for bit floating point greyscale pixels The standard bounded value range is mapped to the closed interval i.e map promotePixel Pixel8 PixelF",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PixelF",
           "package": "JuicyPixels",
@@ -1965,6 +2047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePixel type storing pixels on 16 bits\n Value are stored in the following order :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Red\n\u003c/li\u003e\u003cli\u003e Green\n\u003c/li\u003e\u003cli\u003e Blue\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PixelRGB16",
           "package": "JuicyPixels",
@@ -1974,6 +2057,7 @@
         "index": {
           "description": "Pixel type storing pixels on bits Value are stored in the following order Red Green Blue",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PixelRGB16",
           "package": "JuicyPixels",
@@ -1988,6 +2072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePixel type storing classic pixel on 8 bits\n Value are stored in the following order :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Red\n\u003c/li\u003e\u003cli\u003e Green\n\u003c/li\u003e\u003cli\u003e Blue\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PixelRGB8",
           "package": "JuicyPixels",
@@ -1997,6 +2082,7 @@
         "index": {
           "description": "Pixel type storing classic pixel on bits Value are stored in the following order Red Green Blue",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PixelRGB8",
           "package": "JuicyPixels",
@@ -2011,6 +2097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePixel type storing a RGB information with an alpha\n channel on 16 bits.\n Values are stored in the following order\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Red\n\u003c/li\u003e\u003cli\u003e Green\n\u003c/li\u003e\u003cli\u003e Blue\n\u003c/li\u003e\u003cli\u003e Alpha\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PixelRGBA16",
           "package": "JuicyPixels",
@@ -2020,6 +2107,7 @@
         "index": {
           "description": "Pixel type storing RGB information with an alpha channel on bits Values are stored in the following order Red Green Blue Alpha",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PixelRGBA16",
           "package": "JuicyPixels",
@@ -2034,6 +2122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePixel type storing a classic pixel, with an alpha component.\n Values are stored in the following order\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Red\n\u003c/li\u003e\u003cli\u003e Green\n\u003c/li\u003e\u003cli\u003e Blue\n\u003c/li\u003e\u003cli\u003e Alpha\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PixelRGBA8",
           "package": "JuicyPixels",
@@ -2043,6 +2132,7 @@
         "index": {
           "description": "Pixel type storing classic pixel with an alpha component Values are stored in the following order Red Green Blue Alpha",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PixelRGBA8",
           "package": "JuicyPixels",
@@ -2057,6 +2147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePixel type storing HDR pixel on 32 bits float\n Values are stored in the following order :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Red\n\u003c/li\u003e\u003cli\u003e Green\n\u003c/li\u003e\u003cli\u003e Blue\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PixelRGBF",
           "package": "JuicyPixels",
@@ -2066,6 +2157,7 @@
         "index": {
           "description": "Pixel type storing HDR pixel on bits float Values are stored in the following order Red Green Blue",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PixelRGBF",
           "package": "JuicyPixels",
@@ -2080,6 +2172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePixel type storing Luminance (Y) and alpha information\n on 16 bits.\n Value are stored in the following order :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Luminance\n\u003c/li\u003e\u003cli\u003e Alpha\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PixelYA16",
           "package": "JuicyPixels",
@@ -2089,6 +2182,7 @@
         "index": {
           "description": "Pixel type storing Luminance and alpha information on bits Value are stored in the following order Luminance Alpha",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PixelYA16",
           "package": "JuicyPixels",
@@ -2103,6 +2197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePixel type storing Luminance (Y) and alpha information\n on 8 bits.\n Value are stored in the following order :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Luminance\n\u003c/li\u003e\u003cli\u003e Alpha\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PixelYA8",
           "package": "JuicyPixels",
@@ -2112,6 +2207,7 @@
         "index": {
           "description": "Pixel type storing Luminance and alpha information on bits Value are stored in the following order Luminance Alpha",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PixelYA8",
           "package": "JuicyPixels",
@@ -2126,6 +2222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePixel storing data in the YCbCr colorspace,\n values are stored in the following order :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Y (luminance)\n\u003c/li\u003e\u003cli\u003e Cr\n\u003c/li\u003e\u003cli\u003e Cb\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PixelYCbCr8",
           "package": "JuicyPixels",
@@ -2135,6 +2232,7 @@
         "index": {
           "description": "Pixel storing data in the YCbCr colorspace values are stored in the following order luminance Cr Cb",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PixelYCbCr8",
           "package": "JuicyPixels",
@@ -2149,6 +2247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine the plane for the alpha (transparency) component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PlaneAlpha",
           "package": "JuicyPixels",
@@ -2158,6 +2257,7 @@
         "index": {
           "description": "Define the plane for the alpha transparency component",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PlaneAlpha",
           "package": "JuicyPixels",
@@ -2172,6 +2272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine plane for the black component of\n the CMYK color space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PlaneBlack",
           "package": "JuicyPixels",
@@ -2181,6 +2282,7 @@
         "index": {
           "description": "Define plane for the black component of the CMYK color space",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PlaneBlack",
           "package": "JuicyPixels",
@@ -2195,6 +2297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine the plane for the blue color component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PlaneBlue",
           "package": "JuicyPixels",
@@ -2204,6 +2307,7 @@
         "index": {
           "description": "Define the plane for the blue color component",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PlaneBlue",
           "package": "JuicyPixels",
@@ -2218,6 +2322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine the plane for the Cb component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PlaneCb",
           "package": "JuicyPixels",
@@ -2227,6 +2332,7 @@
         "index": {
           "description": "Define the plane for the Cb component",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PlaneCb",
           "package": "JuicyPixels",
@@ -2241,6 +2347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine the plane for the Cr component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PlaneCr",
           "package": "JuicyPixels",
@@ -2250,6 +2357,7 @@
         "index": {
           "description": "Define the plane for the Cr component",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PlaneCr",
           "package": "JuicyPixels",
@@ -2264,6 +2372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine plane for the cyan component of the\n CMYK color space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PlaneCyan",
           "package": "JuicyPixels",
@@ -2273,6 +2382,7 @@
         "index": {
           "description": "Define plane for the cyan component of the CMYK color space",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PlaneCyan",
           "package": "JuicyPixels",
@@ -2287,6 +2397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine the plane for the green color component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PlaneGreen",
           "package": "JuicyPixels",
@@ -2296,6 +2407,7 @@
         "index": {
           "description": "Define the plane for the green color component",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PlaneGreen",
           "package": "JuicyPixels",
@@ -2310,6 +2422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine the plane for the luma component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PlaneLuma",
           "package": "JuicyPixels",
@@ -2319,6 +2432,7 @@
         "index": {
           "description": "Define the plane for the luma component",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PlaneLuma",
           "package": "JuicyPixels",
@@ -2333,6 +2447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine plane for the magenta component of the\n CMYK color space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PlaneMagenta",
           "package": "JuicyPixels",
@@ -2342,6 +2457,7 @@
         "index": {
           "description": "Define plane for the magenta component of the CMYK color space",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PlaneMagenta",
           "package": "JuicyPixels",
@@ -2356,6 +2472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine the plane for the red color component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PlaneRed",
           "package": "JuicyPixels",
@@ -2365,6 +2482,7 @@
         "index": {
           "description": "Define the plane for the red color component",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PlaneRed",
           "package": "JuicyPixels",
@@ -2379,6 +2497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine plane for the yellow component of the\n CMYK color space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PlaneYellow",
           "package": "JuicyPixels",
@@ -2388,6 +2507,7 @@
         "index": {
           "description": "Define plane for the yellow component of the CMYK color space",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PlaneYellow",
           "package": "JuicyPixels",
@@ -2402,6 +2522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass modeling transparent pixel, should provide a method\n to combine transparent pixels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "TransparentPixel",
           "package": "JuicyPixels",
@@ -2411,6 +2532,7 @@
         "index": {
           "description": "Class modeling transparent pixel should provide method to combine transparent pixels",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "TransparentPixel",
           "package": "JuicyPixels",
@@ -2772,6 +2894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "MutableImage",
           "package": "JuicyPixels",
@@ -2781,6 +2904,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "MutableImage",
           "package": "JuicyPixels",
@@ -3024,6 +3148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PlaneAlpha",
           "package": "JuicyPixels",
@@ -3033,6 +3158,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PlaneAlpha",
           "package": "JuicyPixels",
@@ -3046,6 +3172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PlaneBlack",
           "package": "JuicyPixels",
@@ -3055,6 +3182,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PlaneBlack",
           "package": "JuicyPixels",
@@ -3068,6 +3196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PlaneBlue",
           "package": "JuicyPixels",
@@ -3077,6 +3206,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PlaneBlue",
           "package": "JuicyPixels",
@@ -3090,6 +3220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PlaneCb",
           "package": "JuicyPixels",
@@ -3099,6 +3230,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PlaneCb",
           "package": "JuicyPixels",
@@ -3112,6 +3244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PlaneCr",
           "package": "JuicyPixels",
@@ -3121,6 +3254,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PlaneCr",
           "package": "JuicyPixels",
@@ -3134,6 +3268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PlaneCyan",
           "package": "JuicyPixels",
@@ -3143,6 +3278,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PlaneCyan",
           "package": "JuicyPixels",
@@ -3156,6 +3292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PlaneGreen",
           "package": "JuicyPixels",
@@ -3165,6 +3302,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PlaneGreen",
           "package": "JuicyPixels",
@@ -3178,6 +3316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PlaneLuma",
           "package": "JuicyPixels",
@@ -3187,6 +3326,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PlaneLuma",
           "package": "JuicyPixels",
@@ -3200,6 +3340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PlaneMagenta",
           "package": "JuicyPixels",
@@ -3209,6 +3350,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PlaneMagenta",
           "package": "JuicyPixels",
@@ -3222,6 +3364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PlaneRed",
           "package": "JuicyPixels",
@@ -3231,6 +3374,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PlaneRed",
           "package": "JuicyPixels",
@@ -3244,6 +3388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "PlaneYellow",
           "package": "JuicyPixels",
@@ -3253,6 +3398,7 @@
         },
         "index": {
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "PlaneYellow",
           "package": "JuicyPixels",
@@ -3267,6 +3413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to all color component of a pixel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "colorMap",
           "package": "JuicyPixels",
@@ -3277,6 +3424,7 @@
         "index": {
           "description": "Apply function to all color component of pixel",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "colorMap",
           "normalized": "(PixelBaseComponent a-\u003ePixelBaseComponent a)-\u003ea-\u003ea",
@@ -3293,6 +3441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the number of component of the pixel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "componentCount",
           "package": "JuicyPixels",
@@ -3303,6 +3452,7 @@
         "index": {
           "description": "Return the number of component of the pixel",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "componentCount",
           "normalized": "a-\u003eInt",
@@ -3319,6 +3469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the luminance part of a pixel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "computeLuma",
           "package": "JuicyPixels",
@@ -3329,6 +3480,7 @@
         "index": {
           "description": "Compute the luminance part of pixel",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "computeLuma",
           "normalized": "a-\u003ePixelBaseComponent a",
@@ -3345,6 +3497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to convert a whole image by taking a\n copy it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "convertImage",
           "package": "JuicyPixels",
@@ -3355,6 +3508,7 @@
         "index": {
           "description": "Helper function to convert whole image by taking copy it",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "convertImage",
           "normalized": "Image a-\u003eImage b",
@@ -3371,6 +3525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass a pixel from a colorspace (say RGB) to the second one\n (say YCbCr)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "convertPixel",
           "package": "JuicyPixels",
@@ -3381,6 +3536,7 @@
         "index": {
           "description": "Pass pixel from colorspace say RGB to the second one say YCbCr",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "convertPixel",
           "normalized": "a-\u003eb",
@@ -3397,6 +3553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a mutable image, filled with the given background color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "createMutableImage",
           "package": "JuicyPixels",
@@ -3406,6 +3563,7 @@
         "index": {
           "description": "Create mutable image filled with the given background color",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "createMutableImage",
           "normalized": "Int-\u003eInt-\u003ea-\u003eb(MutableImage(PrimState b)a)",
@@ -3422,6 +3580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor any image with an alpha component (transparency),\n drop it, returning a pure opaque image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "dropAlphaLayer",
           "package": "JuicyPixels",
@@ -3432,6 +3591,7 @@
         "index": {
           "description": "For any image with an alpha component transparency drop it returning pure opaque image",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "dropAlphaLayer",
           "normalized": "Image a-\u003eImage b",
@@ -3448,6 +3608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust return the opaque pixel value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "dropTransparency",
           "package": "JuicyPixels",
@@ -3458,6 +3619,7 @@
         "index": {
           "description": "Just return the opaque pixel value",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "dropTransparency",
           "normalized": "a-\u003eb",
@@ -3474,6 +3636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to help extract information from dynamic\n image. To get the width of a dynamic image, you can use\n the following snippet :\n\u003c/p\u003e\u003cpre\u003e dynWidth :: DynamicImage -\u003e Int\n dynWidth img = dynamicMap imageWidth img\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "dynamicMap",
           "package": "JuicyPixels",
@@ -3484,6 +3647,7 @@
         "index": {
           "description": "Helper function to help extract information from dynamic image To get the width of dynamic image you can use the following snippet dynWidth DynamicImage Int dynWidth img dynamicMap imageWidth img",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "dynamicMap",
           "normalized": "Image a-\u003eb)-\u003eDynamicImage-\u003eb",
@@ -3500,6 +3664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent of the \u003ccode\u003e\u003ca\u003epixelMap\u003c/a\u003e\u003c/code\u003e function for the dynamic images.\n You can perform pixel colorspace independant operations with this\n function.\n\u003c/p\u003e\u003cp\u003eFor instance, if you want to extract a square crop of any image,\n without caring about colorspace, you can use the following snippet.\n\u003c/p\u003e\u003cpre\u003e dynSquare :: DynamicImage -\u003e DynamicImage\n dynSquare = dynMap squareImage\n\n squareImage :: Pixel a =\u003e Image a -\u003e Image a\n squareImage img = generateImage (\\x y -\u003e pixelAt img x y) edge edge\n    where edge = min (imageWidth img) (imageHeight img)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "dynamicPixelMap",
           "package": "JuicyPixels",
@@ -3510,6 +3675,7 @@
         "index": {
           "description": "Equivalent of the pixelMap function for the dynamic images You can perform pixel colorspace independant operations with this function For instance if you want to extract square crop of any image without caring about colorspace you can use the following snippet dynSquare DynamicImage DynamicImage dynSquare dynMap squareImage squareImage Pixel Image Image squareImage img generateImage pixelAt img edge edge where edge min imageWidth img imageHeight img",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "dynamicPixelMap",
           "normalized": "Image a-\u003eImage a)-\u003eDynamicImage-\u003eDynamicImage",
@@ -3526,6 +3692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a color plane from an image given a present plane in the image\n examples :\n\u003c/p\u003e\u003cpre\u003e\n  extractRedPlane :: Image PixelRGB8-\u003e Image Pixel8\n  extractRedPlane = extractComponent PlaneRed\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "extractComponent",
           "package": "JuicyPixels",
@@ -3536,6 +3703,7 @@
         "index": {
           "description": "Extract color plane from an image given present plane in the image examples extractRedPlane Image PixelRGB8 Image Pixel8 extractRedPlane extractComponent PlaneRed",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "extractComponent",
           "normalized": "a-\u003eImage b-\u003eImage(PixelBaseComponent b)",
@@ -3552,6 +3720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a luma plane out of an image. This\n method is in the typeclass to help performant\n implementation.\n\u003c/p\u003e\u003cpre\u003e jpegToGrayScale :: FilePath -\u003e FilePath -\u003e IO ()\n jpegToGrayScale source dest\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "extractLumaPlane",
           "package": "JuicyPixels",
@@ -3562,6 +3731,7 @@
         "index": {
           "description": "Extract luma plane out of an image This method is in the typeclass to help performant implementation jpegToGrayScale FilePath FilePath IO jpegToGrayScale source dest",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "extractLumaPlane",
           "normalized": "Image a-\u003eImage(PixelBaseComponent a)",
@@ -3578,6 +3748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e`O(n)` Yield an immutable copy of an image by making a copy of it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "freezeImage",
           "package": "JuicyPixels",
@@ -3588,6 +3759,7 @@
         "index": {
           "description": "Yield an immutable copy of an image by making copy of it",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "freezeImage",
           "normalized": "MutableImage(PrimState a)b-\u003ea(Image b)",
@@ -3604,6 +3776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a gamma correction for an image with HDR pixels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "gammaCorrection",
           "package": "JuicyPixels",
@@ -3613,6 +3786,7 @@
         "index": {
           "description": "Perform gamma correction for an image with HDR pixels",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "gammaCorrection",
           "normalized": "PixelF-\u003eImage PixelRGBF-\u003eImage PixelRGBF",
@@ -3681,6 +3855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaccess the transparency (alpha layer) of a given\n transparent pixel type.\n DEPRECATED, you should use \u003ccode\u003e\u003ca\u003epixelOpacity\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "getTransparency",
           "package": "JuicyPixels",
@@ -3691,6 +3866,7 @@
         "index": {
           "description": "access the transparency alpha layer of given transparent pixel type DEPRECATED you should use pixelOpacity",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "getTransparency",
           "normalized": "a-\u003ePixelBaseComponent a",
@@ -3782,6 +3958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall the function for every component of the pixels.\n For example for RGB pixels mixWith is declared like this :\n\u003c/p\u003e\u003cpre\u003e mixWith f (PixelRGB8 ra ga ba) (PixelRGB8 rb gb bb) =\n    PixelRGB8 (f 0 ra rb) (f 1 ga gb) (f 2 ba bb)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "mixWith",
           "package": "JuicyPixels",
@@ -3792,6 +3969,7 @@
         "index": {
           "description": "Call the function for every component of the pixels For example for RGB pixels mixWith is declared like this mixWith PixelRGB8 ra ga ba PixelRGB8 rb gb bb PixelRGB8 ra rb ga gb ba bb",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "mixWith",
           "normalized": "(Int-\u003ePixelBaseComponent a-\u003ePixelBaseComponent a-\u003ePixelBaseComponent a)-\u003ea-\u003ea-\u003ea",
@@ -3808,6 +3986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe real image, to extract pixels at some position\n you should use the helpers functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "mutableImageData",
           "package": "JuicyPixels",
@@ -3818,6 +3997,7 @@
         "index": {
           "description": "The real image to extract pixels at some position you should use the helpers functions",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "mutableImageData",
           "package": "JuicyPixels",
@@ -3832,6 +4012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeight of the image in pixels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "mutableImageHeight",
           "package": "JuicyPixels",
@@ -3842,6 +4023,7 @@
         "index": {
           "description": "Height of the image in pixels",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "mutableImageHeight",
           "package": "JuicyPixels",
@@ -3856,6 +4038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidth of the image in pixels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "mutableImageWidth",
           "package": "JuicyPixels",
@@ -3866,6 +4049,7 @@
         "index": {
           "description": "Width of the image in pixels",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "mutableImageWidth",
           "package": "JuicyPixels",
@@ -3880,6 +4064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate theindex for the begining of the pixel at position x y\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "mutablePixelBaseIndex",
           "package": "JuicyPixels",
@@ -3890,6 +4075,7 @@
         "index": {
           "description": "Calculate theindex for the begining of the pixel at position",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "mutablePixelBaseIndex",
           "normalized": "MutableImage a b-\u003eInt-\u003eInt-\u003eInt",
@@ -3906,6 +4092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a pixel at a given position, (x, y), the origin\n is assumed to be at the corner top left, positive y to the\n bottom of the image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "pixelAt",
           "package": "JuicyPixels",
@@ -3916,6 +4103,7 @@
         "index": {
           "description": "Extract pixel at given position the origin is assumed to be at the corner top left positive to the bottom of the image",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "pixelAt",
           "normalized": "Image a-\u003eInt-\u003eInt-\u003ea",
@@ -3932,6 +4120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the index for the begining of the pixel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "pixelBaseIndex",
           "package": "JuicyPixels",
@@ -3942,6 +4131,7 @@
         "index": {
           "description": "Calculate the index for the begining of the pixel",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "pixelBaseIndex",
           "normalized": "Image a-\u003eInt-\u003eInt-\u003eInt",
@@ -3958,6 +4148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold over the pixel of an image with a raster scan order :\n from top to bottom, left to right\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "pixelFold",
           "package": "JuicyPixels",
@@ -3968,6 +4159,7 @@
         "index": {
           "description": "Fold over the pixel of an image with raster scan order from top to bottom left to right",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "pixelFold",
           "normalized": "(a-\u003eInt-\u003eInt-\u003eb-\u003ea)-\u003ea-\u003eImage b-\u003ea",
@@ -4011,6 +4203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust like \u003ccode\u003e\u003ca\u003epixelMap\u003c/a\u003e\u003c/code\u003e only the function takes the pixel coordinates as\n   additional parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "pixelMapXY",
           "package": "JuicyPixels",
@@ -4021,6 +4214,7 @@
         "index": {
           "description": "Just like pixelMap only the function takes the pixel coordinates as additional parameters",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "pixelMapXY",
           "normalized": "(Int-\u003eInt-\u003ea-\u003eb)-\u003eImage a-\u003eImage b",
@@ -4037,6 +4231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the opacity of a pixel, if the pixel has an\n alpha layer, return the alpha value. If the pixel\n doesn't have an alpha value, return a value\n representing the opaqueness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "pixelOpacity",
           "package": "JuicyPixels",
@@ -4047,6 +4242,7 @@
         "index": {
           "description": "Return the opacity of pixel if the pixel has an alpha layer return the alpha value If the pixel doesn have an alpha value return value representing the opaqueness",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "pixelOpacity",
           "normalized": "a-\u003ePixelBaseComponent a",
@@ -4063,6 +4259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the underlying pixel type of an image by performing a full copy\n of it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "promoteImage",
           "package": "JuicyPixels",
@@ -4073,6 +4270,7 @@
         "index": {
           "description": "Change the underlying pixel type of an image by performing full copy of it",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "promoteImage",
           "normalized": "Image a-\u003eImage b",
@@ -4089,6 +4287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a pixel type to another pixel type. This\n operation should never lose any data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "promotePixel",
           "package": "JuicyPixels",
@@ -4099,6 +4298,7 @@
         "index": {
           "description": "Convert pixel type to another pixel type This operation should never lose any data",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "promotePixel",
           "normalized": "a-\u003eb",
@@ -4115,6 +4315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as pixelAt but for mutable images.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "readPixel",
           "package": "JuicyPixels",
@@ -4125,6 +4326,7 @@
         "index": {
           "description": "Same as pixelAt but for mutable images",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "readPixel",
           "normalized": "MutableImage(PrimState a)b-\u003eInt-\u003eInt-\u003ea b",
@@ -4141,6 +4343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e`O(n)` Yield a mutable copy of an image by making a copy of it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "thawImage",
           "package": "JuicyPixels",
@@ -4151,6 +4354,7 @@
         "index": {
           "description": "Yield mutable copy of an image by making copy of it",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "thawImage",
           "normalized": "Image a-\u003eb(MutableImage(PrimState b)a)",
@@ -4167,6 +4371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a tone mapping operation on an High dynamic range image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "toneMapping",
           "package": "JuicyPixels",
@@ -4176,6 +4381,7 @@
         "index": {
           "description": "Perform tone mapping operation on an High dynamic range image",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "toneMapping",
           "normalized": "PixelF-\u003eImage PixelRGBF-\u003eImage PixelRGBF",
@@ -4192,6 +4398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract an image plane of an image, returning an image which\n can be represented by a gray scale image.\n If you ask a component out of bound, the \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e function will\n be called\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "unsafeExtractComponent",
           "package": "JuicyPixels",
@@ -4201,6 +4408,7 @@
         "index": {
           "description": "Extract an image plane of an image returning an image which can be represented by gray scale image If you ask component out of bound the error function will be called",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "unsafeExtractComponent",
           "normalized": "Int-\u003eImage a-\u003eImage(PixelBaseComponent a)",
@@ -4217,6 +4425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e`O(1)` Unsafe convert a mutable image to an immutable one without copying.\n The mutable image may not be used after this operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "unsafeFreezeImage",
           "package": "JuicyPixels",
@@ -4227,6 +4436,7 @@
         "index": {
           "description": "Unsafe convert mutable image to an immutable one without copying The mutable image may not be used after this operation",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "unsafeFreezeImage",
           "normalized": "MutableImage(PrimState a)b-\u003ea(Image b)",
@@ -4243,6 +4453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafe version of pixelAt, read a pixel at the given\n index without bound checking (if possible).\n The index is expressed in number (PixelBaseComponent a)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "unsafePixelAt",
           "package": "JuicyPixels",
@@ -4253,6 +4464,7 @@
         "index": {
           "description": "Unsafe version of pixelAt read pixel at the given index without bound checking if possible The index is expressed in number PixelBaseComponent",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "unsafePixelAt",
           "normalized": "Vector(PixelBaseComponent a)-\u003eInt-\u003ea",
@@ -4269,6 +4481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafe version of readPixel,  read a pixel at the given\n position without bound checking (if possible). The index\n is expressed in number (PixelBaseComponent a)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "unsafeReadPixel",
           "package": "JuicyPixels",
@@ -4279,6 +4492,7 @@
         "index": {
           "description": "Unsafe version of readPixel read pixel at the given position without bound checking if possible The index is expressed in number PixelBaseComponent",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "unsafeReadPixel",
           "normalized": "STVector(PrimState a)(PixelBaseComponent b)-\u003eInt-\u003ea b",
@@ -4295,6 +4509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e`O(1)` Unsafe convert an imutable image to an mutable one without copying.\n The source image shouldn't be used after this operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "unsafeThawImage",
           "package": "JuicyPixels",
@@ -4305,6 +4520,7 @@
         "index": {
           "description": "Unsafe convert an imutable image to an mutable one without copying The source image shouldn be used after this operation",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "unsafeThawImage",
           "normalized": "Image a-\u003eb(MutableImage(PrimState b)a)",
@@ -4321,6 +4537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafe version of writePixel, write a pixel at the\n given position without bound checking. This can be _really_ unsafe.\n The index is expressed in number (PixelBaseComponent a)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "unsafeWritePixel",
           "package": "JuicyPixels",
@@ -4331,6 +4548,7 @@
         "index": {
           "description": "Unsafe version of writePixel write pixel at the given position without bound checking This can be really unsafe The index is expressed in number PixelBaseComponent",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "unsafeWritePixel",
           "normalized": "STVector(PrimState a)(PixelBaseComponent b)-\u003eInt-\u003eb-\u003ea()",
@@ -4373,6 +4591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a pixel in a mutable image at position x y\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "writePixel",
           "package": "JuicyPixels",
@@ -4383,6 +4602,7 @@
         "index": {
           "description": "Write pixel in mutable image at position",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "writePixel",
           "normalized": "MutableImage(PrimState a)b-\u003eInt-\u003eInt-\u003eb-\u003ea()",
@@ -4399,6 +4619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine, pixel by pixel and component by component\n the values of 3 different images. Usage example:\n\u003c/p\u003e\u003cpre\u003e averageBrightNess c1 c2 c3 = clamp $ toInt c1 + toInt c2 + toInt c3\n   where clamp = fromIntegral . min 0 . max 255\n         toInt :: a -\u003e Int\n         toInt = fromIntegral\n ziPixelComponent3 averageBrightNess img1 img2 img3\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture.Types",
           "name": "zipPixelComponent3",
           "package": "JuicyPixels",
@@ -4409,6 +4630,7 @@
         "index": {
           "description": "Combine pixel by pixel and component by component the values of different images Usage example averageBrightNess c1 c2 c3 clamp toInt c1 toInt c2 toInt c3 where clamp fromIntegral min max toInt Int toInt fromIntegral ziPixelComponent3 averageBrightNess img1 img2 img3",
           "hierarchy": "Codec Picture Types",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture.Types",
           "name": "zipPixelComponent3",
           "normalized": "(PixelBaseComponent a-\u003ePixelBaseComponent a-\u003ePixelBaseComponent a-\u003ePixelBaseComponent a)-\u003eImage a-\u003eImage a-\u003eImage a-\u003eImage a",
@@ -4425,6 +4647,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMain module for image import/export into various image formats.\n\u003c/p\u003e\u003cp\u003eTo use the library without thinking about it, look after \u003ccode\u003e\u003ca\u003edecodeImage\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003ereadImage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eGenerally, the read* functions read the images from a file and try to decode\n it, and the decode* functions try to decode a bytestring.\n\u003c/p\u003e\u003cp\u003eFor an easy image writing use the \u003ccode\u003e\u003ca\u003esaveBmpImage\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esaveJpgImage\u003c/a\u003e\u003c/code\u003e & \u003ccode\u003e\u003ca\u003esavePngImage\u003c/a\u003e\u003c/code\u003e\n functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "Picture",
           "package": "JuicyPixels",
@@ -4434,6 +4657,7 @@
         "index": {
           "description": "Main module for image import export into various image formats To use the library without thinking about it look after decodeImage and readImage Generally the read functions read the images from file and try to decode it and the decode functions try to decode bytestring For an easy image writing use the saveBmpImage saveJpgImage savePngImage functions",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "Picture",
           "package": "JuicyPixels",
@@ -4448,6 +4672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the instance of this class can be written as a bitmap file\n using this library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "BmpEncodable",
           "package": "JuicyPixels",
@@ -4457,6 +4682,7 @@
         "index": {
           "description": "All the instance of this class can be written as bitmap file using this library",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "BmpEncodable",
           "package": "JuicyPixels",
@@ -4471,6 +4697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType allowing the loading of an image with different pixel\n structures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "DynamicImage",
           "package": "JuicyPixels",
@@ -4480,6 +4707,7 @@
         "index": {
           "description": "Type allowing the loading of an image with different pixel structures",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "DynamicImage",
           "package": "JuicyPixels",
@@ -4494,6 +4722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelay to wait before showing the next Gif image.\n The delay is expressed in 100th of seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "GifDelay",
           "package": "JuicyPixels",
@@ -4503,6 +4732,7 @@
         "index": {
           "description": "Delay to wait before showing the next Gif image The delay is expressed in th of seconds",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "GifDelay",
           "package": "JuicyPixels",
@@ -4517,6 +4747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelp to control the behaviour of GIF animation looping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "GifLooping",
           "package": "JuicyPixels",
@@ -4526,6 +4757,7 @@
         "index": {
           "description": "Help to control the behaviour of GIF animation looping",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "GifLooping",
           "package": "JuicyPixels",
@@ -4540,6 +4772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage or pixel buffer, the coordinates are assumed to start\n from the upper-left corner of the image, with the horizontal\n position first, then the vertical one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "Image",
           "package": "JuicyPixels",
@@ -4549,6 +4782,7 @@
         "index": {
           "description": "Image or pixel buffer the coordinates are assumed to start from the upper-left corner of the image with the horizontal position first then the vertical one",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "Image",
           "package": "JuicyPixels",
@@ -4563,6 +4797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for the palette used in Gif & PNG files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "Palette",
           "package": "JuicyPixels",
@@ -4572,6 +4807,7 @@
         "index": {
           "description": "Type for the palette used in Gif PNG files",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "Palette",
           "package": "JuicyPixels",
@@ -4586,6 +4822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine which palette creation method is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "PaletteCreationMethod",
           "package": "JuicyPixels",
@@ -4595,6 +4832,7 @@
         "index": {
           "description": "Define which palette creation method is used",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "PaletteCreationMethod",
           "package": "JuicyPixels",
@@ -4609,6 +4847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo specify how the palette will be created.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "PaletteOptions",
           "package": "JuicyPixels",
@@ -4618,6 +4857,7 @@
         "index": {
           "description": "To specify how the palette will be created",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "PaletteOptions",
           "package": "JuicyPixels",
@@ -4632,6 +4872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of pixels used in images. Each pixel has a color space, and a representative\n component (Word8 or Float).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "Pixel",
           "package": "JuicyPixels",
@@ -4641,6 +4882,7 @@
         "index": {
           "description": "Definition of pixels used in images Each pixel has color space and representative component Word8 or Float",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "Pixel",
           "package": "JuicyPixels",
@@ -4655,6 +4897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType alias for 16bit greyscale pixels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "Pixel16",
           "package": "JuicyPixels",
@@ -4664,6 +4907,7 @@
         "index": {
           "description": "Type alias for bit greyscale pixels",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "Pixel16",
           "package": "JuicyPixels",
@@ -4678,6 +4922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType alias for 8bit greyscale pixels. For simplicity,\n greyscale pixels use plain numbers instead of a separate type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "Pixel8",
           "package": "JuicyPixels",
@@ -4687,6 +4932,7 @@
         "index": {
           "description": "Type alias for bit greyscale pixels For simplicity greyscale pixels use plain numbers instead of separate type",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "Pixel8",
           "package": "JuicyPixels",
@@ -4701,6 +4947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePixel storing data in the CMYK colorspace. Values\n are stored in the following order :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Cyan\n\u003c/li\u003e\u003cli\u003e Magenta\n\u003c/li\u003e\u003cli\u003e Yellow\n\u003c/li\u003e\u003cli\u003e Black\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "PixelCMYK16",
           "package": "JuicyPixels",
@@ -4710,6 +4957,7 @@
         "index": {
           "description": "Pixel storing data in the CMYK colorspace Values are stored in the following order Cyan Magenta Yellow Black",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "PixelCMYK16",
           "package": "JuicyPixels",
@@ -4724,6 +4972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePixel storing data in the CMYK colorspace. Values\n are stored in the following order :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Cyan\n\u003c/li\u003e\u003cli\u003e Magenta\n\u003c/li\u003e\u003cli\u003e Yellow\n\u003c/li\u003e\u003cli\u003e Black\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "PixelCMYK8",
           "package": "JuicyPixels",
@@ -4733,6 +4982,7 @@
         "index": {
           "description": "Pixel storing data in the CMYK colorspace Values are stored in the following order Cyan Magenta Yellow Black",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "PixelCMYK8",
           "package": "JuicyPixels",
@@ -4747,6 +4997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType alias for 32bit floating point greyscale pixels. The standard\n bounded value range is mapped to the closed interval [0,1] i.e.\n\u003c/p\u003e\u003cpre\u003e map promotePixel [0, 1 .. 255 :: Pixel8] == [0/255, 1/255 .. 1.0 :: PixelF]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "PixelF",
           "package": "JuicyPixels",
@@ -4756,6 +5007,7 @@
         "index": {
           "description": "Type alias for bit floating point greyscale pixels The standard bounded value range is mapped to the closed interval i.e map promotePixel Pixel8 PixelF",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "PixelF",
           "package": "JuicyPixels",
@@ -4770,6 +5022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePixel type storing pixels on 16 bits\n Value are stored in the following order :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Red\n\u003c/li\u003e\u003cli\u003e Green\n\u003c/li\u003e\u003cli\u003e Blue\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "PixelRGB16",
           "package": "JuicyPixels",
@@ -4779,6 +5032,7 @@
         "index": {
           "description": "Pixel type storing pixels on bits Value are stored in the following order Red Green Blue",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "PixelRGB16",
           "package": "JuicyPixels",
@@ -4793,6 +5047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePixel type storing classic pixel on 8 bits\n Value are stored in the following order :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Red\n\u003c/li\u003e\u003cli\u003e Green\n\u003c/li\u003e\u003cli\u003e Blue\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "PixelRGB8",
           "package": "JuicyPixels",
@@ -4802,6 +5057,7 @@
         "index": {
           "description": "Pixel type storing classic pixel on bits Value are stored in the following order Red Green Blue",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "PixelRGB8",
           "package": "JuicyPixels",
@@ -4816,6 +5072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePixel type storing a RGB information with an alpha\n channel on 16 bits.\n Values are stored in the following order\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Red\n\u003c/li\u003e\u003cli\u003e Green\n\u003c/li\u003e\u003cli\u003e Blue\n\u003c/li\u003e\u003cli\u003e Alpha\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "PixelRGBA16",
           "package": "JuicyPixels",
@@ -4825,6 +5082,7 @@
         "index": {
           "description": "Pixel type storing RGB information with an alpha channel on bits Values are stored in the following order Red Green Blue Alpha",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "PixelRGBA16",
           "package": "JuicyPixels",
@@ -4839,6 +5097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePixel type storing a classic pixel, with an alpha component.\n Values are stored in the following order\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Red\n\u003c/li\u003e\u003cli\u003e Green\n\u003c/li\u003e\u003cli\u003e Blue\n\u003c/li\u003e\u003cli\u003e Alpha\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "PixelRGBA8",
           "package": "JuicyPixels",
@@ -4848,6 +5107,7 @@
         "index": {
           "description": "Pixel type storing classic pixel with an alpha component Values are stored in the following order Red Green Blue Alpha",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "PixelRGBA8",
           "package": "JuicyPixels",
@@ -4862,6 +5122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePixel type storing HDR pixel on 32 bits float\n Values are stored in the following order :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Red\n\u003c/li\u003e\u003cli\u003e Green\n\u003c/li\u003e\u003cli\u003e Blue\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "PixelRGBF",
           "package": "JuicyPixels",
@@ -4871,6 +5132,7 @@
         "index": {
           "description": "Pixel type storing HDR pixel on bits float Values are stored in the following order Red Green Blue",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "PixelRGBF",
           "package": "JuicyPixels",
@@ -4885,6 +5147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePixel type storing Luminance (Y) and alpha information\n on 16 bits.\n Value are stored in the following order :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Luminance\n\u003c/li\u003e\u003cli\u003e Alpha\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "PixelYA16",
           "package": "JuicyPixels",
@@ -4894,6 +5157,7 @@
         "index": {
           "description": "Pixel type storing Luminance and alpha information on bits Value are stored in the following order Luminance Alpha",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "PixelYA16",
           "package": "JuicyPixels",
@@ -4908,6 +5172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePixel type storing Luminance (Y) and alpha information\n on 8 bits.\n Value are stored in the following order :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Luminance\n\u003c/li\u003e\u003cli\u003e Alpha\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "PixelYA8",
           "package": "JuicyPixels",
@@ -4917,6 +5182,7 @@
         "index": {
           "description": "Pixel type storing Luminance and alpha information on bits Value are stored in the following order Luminance Alpha",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "PixelYA8",
           "package": "JuicyPixels",
@@ -4931,6 +5197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePixel storing data in the YCbCr colorspace,\n values are stored in the following order :\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Y (luminance)\n\u003c/li\u003e\u003cli\u003e Cr\n\u003c/li\u003e\u003cli\u003e Cb\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "PixelYCbCr8",
           "package": "JuicyPixels",
@@ -4940,6 +5207,7 @@
         "index": {
           "description": "Pixel storing data in the YCbCr colorspace values are stored in the following order luminance Cr Cb",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "PixelYCbCr8",
           "package": "JuicyPixels",
@@ -4954,6 +5222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an image into a png if possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "PngSavable",
           "package": "JuicyPixels",
@@ -4963,6 +5232,7 @@
         "index": {
           "description": "Encode an image into png if possible",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "PngSavable",
           "package": "JuicyPixels",
@@ -4977,6 +5247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass defining which pixel types can be serialized in a\n Tiff file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "TiffSaveable",
           "package": "JuicyPixels",
@@ -4986,6 +5257,7 @@
         "index": {
           "description": "Class defining which pixel types can be serialized in Tiff file",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "TiffSaveable",
           "package": "JuicyPixels",
@@ -5000,6 +5272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to all color component of a pixel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "colorMap",
           "package": "JuicyPixels",
@@ -5010,6 +5283,7 @@
         "index": {
           "description": "Apply function to all color component of pixel",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "colorMap",
           "normalized": "(PixelBaseComponent a-\u003ePixelBaseComponent a)-\u003ea-\u003ea",
@@ -5026,6 +5300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the number of component of the pixel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "componentCount",
           "package": "JuicyPixels",
@@ -5036,6 +5311,7 @@
         "index": {
           "description": "Return the number of component of the pixel",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "componentCount",
           "normalized": "a-\u003eInt",
@@ -5052,6 +5328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf you want to decode an image in a bytestring without even thinking\n in term of format or whatever, this is the function to use. It will try\n to decode in each known format and if one decoding succeed will return\n the decoded image in it's own colorspace\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "decodeImage",
           "package": "JuicyPixels",
@@ -5062,6 +5339,7 @@
         "index": {
           "description": "If you want to decode an image in bytestring without even thinking in term of format or whatever this is the function to use It will try to decode in each known format and if one decoding succeed will return the decoded image in it own colorspace",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "decodeImage",
           "normalized": "ByteString-\u003eEither String DynamicImage",
@@ -5078,6 +5356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a full color image to a gif by applying a color quantization\n algorithm on it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "encodeColorReducedGifImage",
           "package": "JuicyPixels",
@@ -5088,6 +5367,7 @@
         "index": {
           "description": "Encode full color image to gif by applying color quantization algorithm on it",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "encodeColorReducedGifImage",
           "normalized": "Image PixelRGB-\u003eEither String ByteString",
@@ -5104,6 +5384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to create a gif animation.\n All the images of the animation are separated\n by the same delay.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "encodeGifAnimation",
           "package": "JuicyPixels",
@@ -5114,6 +5395,7 @@
         "index": {
           "description": "Helper function to create gif animation All the images of the animation are separated by the same delay",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "encodeGifAnimation",
           "normalized": "GifDelay-\u003eGifLooping-\u003e[Image PixelRGB]-\u003eEither String ByteString",
@@ -5130,6 +5412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform an image into a png encoded bytestring, ready\n to be written as a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "encodePng",
           "package": "JuicyPixels",
@@ -5140,6 +5423,7 @@
         "index": {
           "description": "Transform an image into png encoded bytestring ready to be written as file",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "encodePng",
           "normalized": "Image a-\u003eByteString",
@@ -5156,6 +5440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImport a image from an unsafe pointer\n The pointer must have a size of width * height * componentCount px\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "imageFromUnsafePtr",
           "package": "JuicyPixels",
@@ -5165,6 +5450,7 @@
         "index": {
           "description": "Import image from an unsafe pointer The pointer must have size of width height componentCount px",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "imageFromUnsafePtr",
           "normalized": "Int-\u003eInt-\u003eForeignPtr Word-\u003eImage a",
@@ -5181,6 +5467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall the function for every component of the pixels.\n For example for RGB pixels mixWith is declared like this :\n\u003c/p\u003e\u003cpre\u003e mixWith f (PixelRGB8 ra ga ba) (PixelRGB8 rb gb bb) =\n    PixelRGB8 (f 0 ra rb) (f 1 ga gb) (f 2 ba bb)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "mixWith",
           "package": "JuicyPixels",
@@ -5191,6 +5478,7 @@
         "index": {
           "description": "Call the function for every component of the pixels For example for RGB pixels mixWith is declared like this mixWith PixelRGB8 ra ga ba PixelRGB8 rb gb bb PixelRGB8 ra rb ga gb ba bb",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "mixWith",
           "normalized": "(Int-\u003ePixelBaseComponent a-\u003ePixelBaseComponent a-\u003ePixelBaseComponent a)-\u003ea-\u003ea-\u003ea",
@@ -5207,6 +5495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate theindex for the begining of the pixel at position x y\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "mutablePixelBaseIndex",
           "package": "JuicyPixels",
@@ -5217,6 +5506,7 @@
         "index": {
           "description": "Calculate theindex for the begining of the pixel at position",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "mutablePixelBaseIndex",
           "normalized": "MutableImage a b-\u003eInt-\u003eInt-\u003eInt",
@@ -5233,6 +5523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a pixel at a given position, (x, y), the origin\n is assumed to be at the corner top left, positive y to the\n bottom of the image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "pixelAt",
           "package": "JuicyPixels",
@@ -5243,6 +5534,7 @@
         "index": {
           "description": "Extract pixel at given position the origin is assumed to be at the corner top left positive to the bottom of the image",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "pixelAt",
           "normalized": "Image a-\u003eInt-\u003eInt-\u003ea",
@@ -5259,6 +5551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the index for the begining of the pixel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "pixelBaseIndex",
           "package": "JuicyPixels",
@@ -5269,6 +5562,7 @@
         "index": {
           "description": "Calculate the index for the begining of the pixel",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "pixelBaseIndex",
           "normalized": "Image a-\u003eInt-\u003eInt-\u003eInt",
@@ -5285,6 +5579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the opacity of a pixel, if the pixel has an\n alpha layer, return the alpha value. If the pixel\n doesn't have an alpha value, return a value\n representing the opaqueness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "pixelOpacity",
           "package": "JuicyPixels",
@@ -5295,6 +5590,7 @@
         "index": {
           "description": "Return the opacity of pixel if the pixel has an alpha layer return the alpha value If the pixel doesn have an alpha value return value representing the opaqueness",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "pixelOpacity",
           "normalized": "a-\u003ePixelBaseComponent a",
@@ -5311,6 +5607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to load a .bmp file. The colorspace would be RGB or Y.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "readBitmap",
           "package": "JuicyPixels",
@@ -5321,6 +5618,7 @@
         "index": {
           "description": "Try to load bmp file The colorspace would be RGB or",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "readBitmap",
           "normalized": "FilePath-\u003eIO(Either String DynamicImage)",
@@ -5337,6 +5635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function trying to load a gif file from a file on disk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "readGif",
           "package": "JuicyPixels",
@@ -5347,6 +5646,7 @@
         "index": {
           "description": "Helper function trying to load gif file from file on disk",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "readGif",
           "normalized": "FilePath-\u003eIO(Either String DynamicImage)",
@@ -5363,6 +5663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function trying to load all the images of an animated\n gif file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "readGifImages",
           "package": "JuicyPixels",
@@ -5373,6 +5674,7 @@
         "index": {
           "description": "Helper function trying to load all the images of an animated gif file",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "readGifImages",
           "normalized": "FilePath-\u003eIO(Either String[Image PixelRGB])",
@@ -5389,6 +5691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to load a .pic file. The colorspace can only be\n RGB with floating point precision.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "readHDR",
           "package": "JuicyPixels",
@@ -5399,6 +5702,7 @@
         "index": {
           "description": "Try to load pic file The colorspace can only be RGB with floating point precision",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "readHDR",
           "normalized": "FilePath-\u003eIO(Either String DynamicImage)",
@@ -5415,6 +5719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad an image file without even thinking about it, it does everything\n as \u003ccode\u003e\u003ca\u003edecodeImage\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "readImage",
           "package": "JuicyPixels",
@@ -5425,6 +5730,7 @@
         "index": {
           "description": "Load an image file without even thinking about it it does everything as decodeImage",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "readImage",
           "normalized": "FilePath-\u003eIO(Either String DynamicImage)",
@@ -5441,6 +5747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to load a jpeg file and decompress. The colorspace is still\n YCbCr if you want to perform computation on the luma part. You can\n convert it to RGB using \u003ccode\u003ecolorSpaceConversion\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "readJpeg",
           "package": "JuicyPixels",
@@ -5451,6 +5758,7 @@
         "index": {
           "description": "Try to load jpeg file and decompress The colorspace is still YCbCr if you want to perform computation on the luma part You can convert it to RGB using colorSpaceConversion",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "readJpeg",
           "normalized": "FilePath-\u003eIO(Either String DynamicImage)",
@@ -5467,6 +5775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as pixelAt but for mutable images.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "readPixel",
           "package": "JuicyPixels",
@@ -5477,6 +5786,7 @@
         "index": {
           "description": "Same as pixelAt but for mutable images",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "readPixel",
           "normalized": "MutableImage(PrimState a)b-\u003eInt-\u003eInt-\u003ea b",
@@ -5493,6 +5803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function trying to load a png file from a file on disk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "readPng",
           "package": "JuicyPixels",
@@ -5503,6 +5814,7 @@
         "index": {
           "description": "Helper function trying to load png file from file on disk",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "readPng",
           "normalized": "FilePath-\u003eIO(Either String DynamicImage)",
@@ -5519,6 +5831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function trying to load tiff file from a file on disk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "readTiff",
           "package": "JuicyPixels",
@@ -5529,6 +5842,7 @@
         "index": {
           "description": "Helper function trying to load tiff file from file on disk",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "readTiff",
           "normalized": "FilePath-\u003eIO(Either String DynamicImage)",
@@ -5545,6 +5859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave an image to a '.bmp' file, will do everything it can to save an image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "saveBmpImage",
           "package": "JuicyPixels",
@@ -5555,6 +5870,7 @@
         "index": {
           "description": "Save an image to bmp file will do everything it can to save an image",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "saveBmpImage",
           "normalized": "FilePath-\u003eDynamicImage-\u003eIO()",
@@ -5571,6 +5887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave an image to a '.gif' file, will do everything it can to save it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "saveGifImage",
           "package": "JuicyPixels",
@@ -5581,6 +5898,7 @@
         "index": {
           "description": "Save an image to gif file will do everything it can to save it",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "saveGifImage",
           "normalized": "FilePath-\u003eDynamicImage-\u003eEither String(IO())",
@@ -5597,6 +5915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave an image to a '.jpg' file, will do everything it can to save an image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "saveJpgImage",
           "package": "JuicyPixels",
@@ -5607,6 +5926,7 @@
         "index": {
           "description": "Save an image to jpg file will do everything it can to save an image",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "saveJpgImage",
           "normalized": "Int-\u003eFilePath-\u003eDynamicImage-\u003eIO()",
@@ -5623,6 +5943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave an image to a '.png' file, will do everything it can to save an image.\n For example, a simple transcoder to png\n\u003c/p\u003e\u003cpre\u003e transcodeToPng :: FilePath -\u003e FilePath -\u003e IO ()\n transcodeToPng pathIn pathOut = do\n    eitherImg \u003c- readImage pathIn\n    case eitherImg of\n        Left _ -\u003e return ()\n        Right img -\u003e savePngImage pathOut img\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "savePngImage",
           "package": "JuicyPixels",
@@ -5633,6 +5954,7 @@
         "index": {
           "description": "Save an image to png file will do everything it can to save an image For example simple transcoder to png transcodeToPng FilePath FilePath IO transcodeToPng pathIn pathOut do eitherImg readImage pathIn case eitherImg of Left return Right img savePngImage pathOut img",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "savePngImage",
           "normalized": "FilePath-\u003eDynamicImage-\u003eIO()",
@@ -5649,6 +5971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave an image to a '.hdr' file, will do everything it can to save an image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "saveRadianceImage",
           "package": "JuicyPixels",
@@ -5659,6 +5982,7 @@
         "index": {
           "description": "Save an image to hdr file will do everything it can to save an image",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "saveRadianceImage",
           "normalized": "FilePath-\u003eDynamicImage-\u003eIO()",
@@ -5675,6 +5999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave an image to a '.tiff' file, will do everything it can to save an image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "saveTiffImage",
           "package": "JuicyPixels",
@@ -5685,6 +6010,7 @@
         "index": {
           "description": "Save an image to tiff file will do everything it can to save an image",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "saveTiffImage",
           "normalized": "FilePath-\u003eDynamicImage-\u003eIO()",
@@ -5701,6 +6027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafe version of pixelAt, read a pixel at the given\n index without bound checking (if possible).\n The index is expressed in number (PixelBaseComponent a)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "unsafePixelAt",
           "package": "JuicyPixels",
@@ -5711,6 +6038,7 @@
         "index": {
           "description": "Unsafe version of pixelAt read pixel at the given index without bound checking if possible The index is expressed in number PixelBaseComponent",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "unsafePixelAt",
           "normalized": "Vector(PixelBaseComponent a)-\u003eInt-\u003ea",
@@ -5727,6 +6055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafe version of readPixel,  read a pixel at the given\n position without bound checking (if possible). The index\n is expressed in number (PixelBaseComponent a)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "unsafeReadPixel",
           "package": "JuicyPixels",
@@ -5737,6 +6066,7 @@
         "index": {
           "description": "Unsafe version of readPixel read pixel at the given position without bound checking if possible The index is expressed in number PixelBaseComponent",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "unsafeReadPixel",
           "normalized": "STVector(PrimState a)(PixelBaseComponent b)-\u003eInt-\u003ea b",
@@ -5753,6 +6083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafe version of writePixel, write a pixel at the\n given position without bound checking. This can be _really_ unsafe.\n The index is expressed in number (PixelBaseComponent a)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "unsafeWritePixel",
           "package": "JuicyPixels",
@@ -5763,6 +6094,7 @@
         "index": {
           "description": "Unsafe version of writePixel write pixel at the given position without bound checking This can be really unsafe The index is expressed in number PixelBaseComponent",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "unsafeWritePixel",
           "normalized": "STVector(PrimState a)(PixelBaseComponent b)-\u003eInt-\u003eb-\u003ea()",
@@ -5779,6 +6111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a full color image to a gif by applying a color quantization\n algorithm on it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "writeColorReducedGifImage",
           "package": "JuicyPixels",
@@ -5789,6 +6122,7 @@
         "index": {
           "description": "Write full color image to gif by applying color quantization algorithm on it",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "writeColorReducedGifImage",
           "normalized": "FilePath-\u003eImage PixelRGB-\u003eEither String(IO())",
@@ -5805,6 +6139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to write a gif animtion on disk.\n See encodeGifAnimation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "writeGifAnimation",
           "package": "JuicyPixels",
@@ -5815,6 +6150,7 @@
         "index": {
           "description": "Helper function to write gif animtion on disk See encodeGifAnimation",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "writeGifAnimation",
           "normalized": "FilePath-\u003eGifDelay-\u003eGifLooping-\u003e[Image PixelRGB]-\u003eEither String(IO())",
@@ -5831,6 +6167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a pixel in a mutable image at position x y\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:28 UTC 2014",
           "module": "Codec.Picture",
           "name": "writePixel",
           "package": "JuicyPixels",
@@ -5841,6 +6178,7 @@
         "index": {
           "description": "Write pixel in mutable image at position",
           "hierarchy": "Codec Picture",
+          "indexed": "2014-03-11T16:50:28",
           "module": "Codec.Picture",
           "name": "writePixel",
           "normalized": "MutableImage(PrimState a)b-\u003eInt-\u003eInt-\u003eb-\u003ea()",

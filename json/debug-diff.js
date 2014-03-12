@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "debug-diff"
+        "phrase": "debug-diff",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDisplay the difference between two Haskell values,\n with control over the diff parameters.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:16 UTC 2014",
           "module": "Debug.Diff.Config",
           "name": "Config",
           "package": "debug-diff",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Display the difference between two Haskell values with control over the diff parameters",
           "hierarchy": "Debug Diff Config",
+          "indexed": "2014-03-11T17:52:16",
           "module": "Debug.Diff.Config",
           "name": "Config",
           "package": "debug-diff",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration of the diff command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:16 UTC 2014",
           "module": "Debug.Diff.Config",
           "name": "Config",
           "package": "debug-diff",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Configuration of the diff command",
           "hierarchy": "Debug Diff Config",
+          "indexed": "2014-03-11T17:52:16",
           "module": "Debug.Diff.Config",
           "name": "Config",
           "package": "debug-diff",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:16 UTC 2014",
           "module": "Debug.Diff.Config",
           "name": "Config",
           "package": "debug-diff",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Debug Diff Config",
+          "indexed": "2014-03-11T17:52:16",
           "module": "Debug.Diff.Config",
           "name": "Config",
           "package": "debug-diff",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtra arguments to the diff command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:16 UTC 2014",
           "module": "Debug.Diff.Config",
           "name": "args",
           "package": "debug-diff",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Extra arguments to the diff command",
           "hierarchy": "Debug Diff Config",
+          "indexed": "2014-03-11T17:52:16",
           "module": "Debug.Diff.Config",
           "name": "args",
           "normalized": "[String]",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiff command; \u003ccode\u003ecolordiff\u003c/code\u003e by default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:16 UTC 2014",
           "module": "Debug.Diff.Config",
           "name": "command",
           "package": "debug-diff",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Diff command colordiff by default",
           "hierarchy": "Debug Diff Config",
+          "indexed": "2014-03-11T17:52:16",
           "module": "Debug.Diff.Config",
           "name": "command",
           "package": "debug-diff",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLines of context, for a unified diff.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:16 UTC 2014",
           "module": "Debug.Diff.Config",
           "name": "context",
           "package": "debug-diff",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Lines of context for unified diff",
           "hierarchy": "Debug Diff Config",
+          "indexed": "2014-03-11T17:52:16",
           "module": "Debug.Diff.Config",
           "name": "context",
           "package": "debug-diff",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:16 UTC 2014",
           "module": "Debug.Diff.Config",
           "name": "defConfig",
           "package": "debug-diff",
@@ -168,6 +181,7 @@
         "index": {
           "description": "default configuration",
           "hierarchy": "Debug Diff Config",
+          "indexed": "2014-03-11T17:52:16",
           "module": "Debug.Diff.Config",
           "name": "defConfig",
           "package": "debug-diff",
@@ -208,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay the difference between two Haskell values,\n with control over the diff parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:16 UTC 2014",
           "module": "Debug.Diff.Config",
           "name": "diffWith",
           "package": "debug-diff",
@@ -218,6 +233,7 @@
         "index": {
           "description": "Display the difference between two Haskell values with control over the diff parameters",
           "hierarchy": "Debug Diff Config",
+          "indexed": "2014-03-11T17:52:16",
           "module": "Debug.Diff.Config",
           "name": "diffWith",
           "normalized": "Config-\u003ea-\u003eb-\u003eIO()",
@@ -234,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDisplay a colorized diff between two Haskell values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:16 UTC 2014",
           "module": "Debug.Diff",
           "name": "Diff",
           "package": "debug-diff",
@@ -243,6 +260,7 @@
         "index": {
           "description": "Display colorized diff between two Haskell values",
           "hierarchy": "Debug Diff",
+          "indexed": "2014-03-11T17:52:16",
           "module": "Debug.Diff",
           "name": "Diff",
           "package": "debug-diff",

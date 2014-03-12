@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hyahtzee"
+        "phrase": "hyahtzee",
+        "type": "phrase"
       },
       "type": "context"
     }

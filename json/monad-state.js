@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-state"
+        "phrase": "monad-state",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Abort.Class",
           "name": "Class",
           "package": "monad-state",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort Class",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Abort.Class",
           "name": "Class",
           "package": "monad-state",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abort monad, parametrized by the type \u003ccode\u003er\u003c/code\u003e of the value to return.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Abort.Class",
           "name": "Abort",
           "package": "monad-state",
@@ -48,6 +51,7 @@
         "index": {
           "description": "An abort monad parametrized by the type of the value to return",
           "hierarchy": "Control Monad Abort Class",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Abort.Class",
           "name": "Abort",
           "package": "monad-state",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abort monad transformer parametrized by\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003er\u003c/code\u003e - the value that will ultimately be returned; and\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003em\u003c/code\u003e - the inner monad.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eAbortT\u003c/a\u003e\u003c/code\u003e type wraps a monadic value that is either\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e \u003ccode\u003er\u003c/code\u003e, which indicates that the monadic computation has\n     terminated with result \u003ccode\u003er\u003c/code\u003e and so all further steps in the computation\n     should be ignored; or\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ea\u003c/code\u003e, which indicates that the computation is proceding normally\n     and that its current value is \u003ccode\u003ea\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Abort.Class",
           "name": "AbortT",
           "package": "monad-state",
@@ -70,6 +75,7 @@
         "index": {
           "description": "An abort monad transformer parametrized by the value that will ultimately be returned and the inner monad The AbortT type wraps monadic value that is either Left which indicates that the monadic computation has terminated with result and so all further steps in the computation should be ignored or Right which indicates that the computation is proceding normally and that its current value is",
           "hierarchy": "Control Monad Abort Class",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Abort.Class",
           "name": "AbortT",
           "package": "monad-state",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Abort.Class",
           "name": "MonadAbort",
           "package": "monad-state",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort Class",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Abort.Class",
           "name": "MonadAbort",
           "package": "monad-state",
@@ -126,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Abort.Class",
           "name": "abort",
           "package": "monad-state",
@@ -135,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort Class",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Abort.Class",
           "name": "abort",
           "normalized": "AbortResultType a-\u003ea b",
@@ -171,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Abort.Instances",
           "name": "Instances",
           "package": "monad-state",
@@ -179,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort Instances",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Abort.Instances",
           "name": "Instances",
           "package": "monad-state",
@@ -217,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Abort",
           "name": "Abort",
           "package": "monad-state",
@@ -225,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Abort",
           "name": "Abort",
           "package": "monad-state",
@@ -239,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abort monad, parametrized by the type \u003ccode\u003er\u003c/code\u003e of the value to return.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Abort",
           "name": "Abort",
           "package": "monad-state",
@@ -247,6 +262,7 @@
         "index": {
           "description": "An abort monad parametrized by the type of the value to return",
           "hierarchy": "Control Monad Abort",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Abort",
           "name": "Abort",
           "package": "monad-state",
@@ -261,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abort monad transformer parametrized by\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003er\u003c/code\u003e - the value that will ultimately be returned; and\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003em\u003c/code\u003e - the inner monad.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eAbortT\u003c/a\u003e\u003c/code\u003e type wraps a monadic value that is either\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e \u003ccode\u003er\u003c/code\u003e, which indicates that the monadic computation has\n     terminated with result \u003ccode\u003er\u003c/code\u003e and so all further steps in the computation\n     should be ignored; or\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ea\u003c/code\u003e, which indicates that the computation is proceding normally\n     and that its current value is \u003ccode\u003ea\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Abort",
           "name": "AbortT",
           "package": "monad-state",
@@ -269,6 +286,7 @@
         "index": {
           "description": "An abort monad transformer parametrized by the value that will ultimately be returned and the inner monad The AbortT type wraps monadic value that is either Left which indicates that the monadic computation has terminated with result and so all further steps in the computation should be ignored or Right which indicates that the computation is proceding normally and that its current value is",
           "hierarchy": "Control Monad Abort",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Abort",
           "name": "AbortT",
           "package": "monad-state",
@@ -282,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Abort",
           "name": "MonadAbort",
           "package": "monad-state",
@@ -290,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Abort",
           "name": "MonadAbort",
           "package": "monad-state",
@@ -303,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Abort",
           "name": "abort",
           "package": "monad-state",
@@ -312,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Abort",
           "name": "abort",
           "normalized": "AbortResultType a-\u003ea b",
@@ -327,6 +349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the abort monad computation and return the resulting value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Abort",
           "name": "runAbort",
           "package": "monad-state",
@@ -336,6 +359,7 @@
         "index": {
           "description": "Execute the abort monad computation and return the resulting value",
           "hierarchy": "Control Monad Abort",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Abort",
           "name": "runAbort",
           "normalized": "Abort a a-\u003ea",
@@ -352,6 +376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the abort monad computation and return the resulting\n   (monadic) value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Abort",
           "name": "runAbortT",
           "package": "monad-state",
@@ -361,6 +386,7 @@
         "index": {
           "description": "Execute the abort monad computation and return the resulting monadic value",
           "hierarchy": "Control Monad Abort",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Abort",
           "name": "runAbortT",
           "normalized": "AbortT a b a-\u003eb a",
@@ -376,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "Record",
           "package": "monad-state",
@@ -384,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "Record",
           "package": "monad-state",
@@ -397,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": ":--\u003e",
           "package": "monad-state",
@@ -405,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": ":--\u003e",
           "package": "monad-state",
@@ -417,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "MLens",
           "package": "monad-state",
@@ -425,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "MLens",
           "package": "monad-state",
@@ -439,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emodL\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "($:)",
           "package": "monad-state",
@@ -449,6 +482,7 @@
         "index": {
           "description": "modL",
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "($:) $:",
           "normalized": "(a-\u003eb)-\u003e(b-\u003eb)-\u003ea-\u003ea",
@@ -464,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emodM\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "($::)",
           "package": "monad-state",
@@ -474,6 +509,7 @@
         "index": {
           "description": "modM",
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "($::) $::",
           "normalized": "(StateType a-\u003eb)-\u003e(b-\u003eb)-\u003ea()",
@@ -489,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emodMAbort\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "(\u003c$:)",
           "package": "monad-state",
@@ -499,6 +536,7 @@
         "index": {
           "description": "modMAbort",
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "(\u003c$:) \u003c$:",
           "normalized": "a(StateType b)c-\u003e(MLensA a c-\u003ed)-\u003e(d-\u003ed)-\u003eb()",
@@ -513,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "(\u003c-\u003e)",
           "package": "monad-state",
@@ -522,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "(\u003c-\u003e) \u003c-\u003e",
           "normalized": "a(MLensA b c)d-\u003eb e c-\u003ee-\u003eMLensA a d",
@@ -537,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egetMAbort\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "(\u003c\u003c:)",
           "package": "monad-state",
@@ -547,6 +588,7 @@
         "index": {
           "description": "getMAbort",
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "(\u003c\u003c:) \u003c\u003c:",
           "normalized": "a-\u003eb(StateType(AbortT a c))d-\u003e(MLensA b d-\u003ee)-\u003eAbortT a c e",
@@ -562,6 +604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egetMAbort\u003c/a\u003e\u003c/code\u003e ()\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "(\u003c\u003c::)",
           "package": "monad-state",
@@ -572,6 +615,7 @@
         "index": {
           "description": "getMAbort",
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "(\u003c\u003c::) \u003c\u003c::",
           "normalized": "a(StateType(AbortT b c))d-\u003e(MLensA a d-\u003ee)-\u003eAbortT()c e",
@@ -587,6 +631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esetMAbort\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "(\u003c=:)",
           "package": "monad-state",
@@ -597,6 +642,7 @@
         "index": {
           "description": "setMAbort",
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "(\u003c=:) \u003c=:",
           "normalized": "a(StateType b)c-\u003e(MLensA a c-\u003ed)-\u003ed-\u003eb()",
@@ -612,6 +658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egetL\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "(\u003c:)",
           "package": "monad-state",
@@ -622,6 +669,7 @@
         "index": {
           "description": "getL",
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "(\u003c:) \u003c:",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -637,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003easkM\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "(\u003c:\u003c)",
           "package": "monad-state",
@@ -647,6 +696,7 @@
         "index": {
           "description": "askM",
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "(\u003c:\u003c) \u003c:\u003c",
           "normalized": "(EnvType a-\u003eb)-\u003ea b",
@@ -662,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egetM\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "(\u003c::)",
           "package": "monad-state",
@@ -672,6 +723,7 @@
         "index": {
           "description": "getM",
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "(\u003c::) \u003c::",
           "normalized": "(StateType a-\u003eb)-\u003ea b",
@@ -687,6 +739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esetL\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "(=:)",
           "package": "monad-state",
@@ -697,6 +750,7 @@
         "index": {
           "description": "setL",
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "(=:) =:",
           "normalized": "(a-\u003eb)-\u003eb-\u003ea-\u003ea",
@@ -712,6 +766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esetM\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "(=::)",
           "package": "monad-state",
@@ -722,6 +777,7 @@
         "index": {
           "description": "setM",
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "(=::) =::",
           "normalized": "(StateType a-\u003eb)-\u003eb-\u003ea()",
@@ -737,6 +793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eliftSubMaybeState\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "(\u003e$$\u003e)",
           "package": "monad-state",
@@ -747,6 +804,7 @@
         "index": {
           "description": "liftSubMaybeState",
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "(\u003e$$\u003e) \u003e$$\u003e",
           "normalized": "a b c-\u003eStateT(MLensA a c)d c-\u003eMaybeT(StateT b d)c",
@@ -762,6 +820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eliftState\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "(\u003e$\u003c)",
           "package": "monad-state",
@@ -772,6 +831,7 @@
         "index": {
           "description": "liftState",
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "(\u003e$\u003c) \u003e$\u003c",
           "normalized": "(StateType a-\u003eb)-\u003eStateT b a c-\u003ea c",
@@ -787,6 +847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eliftSubState\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "(\u003e$\u003e)",
           "package": "monad-state",
@@ -797,6 +858,7 @@
         "index": {
           "description": "liftSubState",
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "(\u003e$\u003e) \u003e$\u003e",
           "normalized": "(a-\u003eb)-\u003eStateT b c d-\u003eStateT a c d",
@@ -811,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "MaybeLens",
           "package": "monad-state",
@@ -820,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "MaybeLens",
           "package": "monad-state",
@@ -833,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "askM",
           "package": "monad-state",
@@ -842,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "askM",
           "normalized": "(EnvType a-\u003eb)-\u003ea b",
@@ -856,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "getM",
           "package": "monad-state",
@@ -865,6 +932,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "getM",
           "normalized": "(StateType a-\u003eb)-\u003ea b",
@@ -879,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "getMAbort",
           "package": "monad-state",
@@ -888,6 +957,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "getMAbort",
           "normalized": "a-\u003eb(StateType(AbortT a c))d-\u003e(MLensA b d-\u003ee)-\u003eAbortT a c e",
@@ -903,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "liftState",
           "package": "monad-state",
@@ -912,6 +983,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "liftState",
           "normalized": "(StateType a-\u003eb)-\u003eStateT b a c-\u003ea c",
@@ -927,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "liftSubMaybeState",
           "package": "monad-state",
@@ -936,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "liftSubMaybeState",
           "normalized": "a(StateType(b c))d-\u003eStateT(MLensA a d)c d-\u003eMaybeT(b c)d",
@@ -951,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "liftSubState",
           "package": "monad-state",
@@ -960,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "liftSubState",
           "normalized": "(StateType(a b)-\u003ec)-\u003eStateT c b d-\u003ea b d",
@@ -975,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "maybeAbort",
           "package": "monad-state",
@@ -984,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "maybeAbort",
           "normalized": "a-\u003eMaybe b-\u003eAbortT a c b",
@@ -999,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "maybeAbortM",
           "package": "monad-state",
@@ -1008,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "maybeAbortM",
           "normalized": "AbortResultType(a b)-\u003eMaybeT b c-\u003ea b c",
@@ -1023,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "modM",
           "package": "monad-state",
@@ -1032,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "modM",
           "normalized": "(StateType a-\u003eb)-\u003e(b-\u003eb)-\u003ea()",
@@ -1046,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "modMAbort",
           "package": "monad-state",
@@ -1055,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "modMAbort",
           "normalized": "a(StateType b)c-\u003e(MLensA a c-\u003ed)-\u003e(d-\u003ed)-\u003eb()",
@@ -1070,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "setM",
           "package": "monad-state",
@@ -1079,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "setM",
           "normalized": "(StateType a-\u003eb)-\u003eb-\u003ea()",
@@ -1093,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "setMAbort",
           "package": "monad-state",
@@ -1102,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "setMAbort",
           "normalized": "a(StateType b)c-\u003e(MLensA a c-\u003ed)-\u003ed-\u003eb()",
@@ -1117,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "toLens",
           "package": "monad-state",
@@ -1126,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "toLens",
           "normalized": "a b c-\u003eb-\u003eMaybe(MLensA a c)",
@@ -1141,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Record",
           "name": "unMaybeLens",
           "package": "monad-state",
@@ -1150,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Record",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Record",
           "name": "unMaybeLens",
           "normalized": "a-\u003eMaybe b",
@@ -1165,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Runnable",
           "name": "Runnable",
           "package": "monad-state",
@@ -1173,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Runnable",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Runnable",
           "name": "Runnable",
           "package": "monad-state",
@@ -1187,6 +1281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonads that can be run in the IO monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Runnable",
           "name": "MonadRunnable",
           "package": "monad-state",
@@ -1196,6 +1291,7 @@
         "index": {
           "description": "Monads that can be run in the IO monad",
           "hierarchy": "Control Monad Runnable",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Runnable",
           "name": "MonadRunnable",
           "package": "monad-state",
@@ -1209,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Runnable",
           "name": "RunnableContainer",
           "package": "monad-state",
@@ -1217,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Runnable",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Runnable",
           "name": "RunnableContainer",
           "package": "monad-state",
@@ -1230,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Runnable",
           "name": "construct",
           "package": "monad-state",
@@ -1239,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Runnable",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Runnable",
           "name": "construct",
           "normalized": "ConstructType a b-\u003ea b",
@@ -1253,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Runnable",
           "name": "rcToIO",
           "package": "monad-state",
@@ -1262,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Runnable",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Runnable",
           "name": "rcToIO",
           "normalized": "a b-\u003eIO b",
@@ -1277,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Runnable",
           "name": "run",
           "package": "monad-state",
@@ -1286,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Runnable",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Runnable",
           "name": "run",
           "normalized": "a b-\u003eRunData a-\u003eRunContainer a(ConstructType a b)",
@@ -1300,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Runnable",
           "name": "runData",
           "package": "monad-state",
@@ -1309,6 +1414,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Runnable",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Runnable",
           "name": "runData",
           "package": "monad-state",
@@ -1322,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Short",
           "name": "Short",
           "package": "monad-state",
@@ -1330,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Short",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Short",
           "name": "Short",
           "package": "monad-state",
@@ -1343,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Short",
           "name": "MonadErrorShortable",
           "package": "monad-state",
@@ -1351,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Short",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Short",
           "name": "MonadErrorShortable",
           "package": "monad-state",
@@ -1365,6 +1475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal complete definition: unError\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Short",
           "name": "MonadShort",
           "package": "monad-state",
@@ -1374,6 +1485,7 @@
         "index": {
           "description": "Minimal complete definition unError",
           "hierarchy": "Control Monad Short",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Short",
           "name": "MonadShort",
           "package": "monad-state",
@@ -1387,6 +1499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Short",
           "name": "MonadShortable",
           "package": "monad-state",
@@ -1395,6 +1508,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Short",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Short",
           "name": "MonadShortable",
           "package": "monad-state",
@@ -1408,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Short",
           "name": "short",
           "package": "monad-state",
@@ -1417,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Short",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Short",
           "name": "short",
           "normalized": "a b-\u003eMonadShortable c a b",
@@ -1431,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Short",
           "name": "unError",
           "package": "monad-state",
@@ -1440,6 +1557,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Short",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Short",
           "name": "unError",
           "normalized": "a-\u003eMonadErrorShortable b c-\u003eMonadShortable a b c",
@@ -1455,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Short",
           "name": "unErrorShort",
           "package": "monad-state",
@@ -1464,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Short",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Short",
           "name": "unErrorShort",
           "normalized": "a-\u003eMonadErrorShortable b a-\u003eb a",
@@ -1479,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Short",
           "name": "unErrorShort_",
           "package": "monad-state",
@@ -1488,6 +1609,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Short",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Short",
           "name": "unErrorShort_",
           "normalized": "MonadErrorShortable a()-\u003ea()",
@@ -1503,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Short",
           "name": "unError_",
           "package": "monad-state",
@@ -1512,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Short",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Short",
           "name": "unError_",
           "normalized": "MonadErrorShortable a b-\u003eMonadShortable()a b",
@@ -1527,6 +1651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "Control.Monad.Short",
           "name": "unShort",
           "package": "monad-state",
@@ -1536,6 +1661,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Short",
+          "indexed": "2014-03-11T19:20:40",
           "module": "Control.Monad.Short",
           "name": "unShort",
           "normalized": "MonadShortable a b a-\u003eb a",
@@ -1551,6 +1677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "System.Timeout.Monad",
           "name": "Monad",
           "package": "monad-state",
@@ -1559,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "System Timeout Monad",
+          "indexed": "2014-03-11T19:20:40",
           "module": "System.Timeout.Monad",
           "name": "Monad",
           "package": "monad-state",
@@ -1573,6 +1701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003etimeoutM\u003c/a\u003e\u003c/code\u003e, but the result is the same monad, making passing the data needed to run the monad unnecessary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "System.Timeout.Monad",
           "name": "timeoutM",
           "package": "monad-state",
@@ -1583,6 +1712,7 @@
         "index": {
           "description": "Equivalent to timeoutM but the result is the same monad making passing the data needed to run the monad unnecessary",
           "hierarchy": "System Timeout Monad",
+          "indexed": "2014-03-11T19:20:40",
           "module": "System.Timeout.Monad",
           "name": "timeoutM",
           "normalized": "a-\u003eb c-\u003eb(Maybe(b c))",
@@ -1598,6 +1728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an action that is runnable in the IO monad within a time limit\n\u003c/p\u003e\u003cp\u003eThe time limit is specified in microseconds, and is subject to the same sas \u003ccode\u003e\u003ca\u003etimeout\u003c/a\u003e\u003c/code\u003e.  \n Finally, the action to be run itself is passed.  The result is an IO action, which is\n normally lifted with \u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e to be run in the same IO (see \u003ccode\u003e\u003ca\u003etimeoutM\u003c/a\u003e\u003c/code\u003e).  The action,\n when run, returns the resulting monadic value if it was run in time.  Conceptually,\n one can think of this as running a local monad, perhaps a copy, in the IO monad;\n the effects of running in the IO monad are unavoidably irreversible, but the resulting monadic\n value can be optionally ignored, in which case it is not evaluated in the parent monad\n and no effects are present in the outer layers of the monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "System.Timeout.Monad",
           "name": "timeoutR",
           "package": "monad-state",
@@ -1608,6 +1739,7 @@
         "index": {
           "description": "Run an action that is runnable in the IO monad within time limit The time limit is specified in microseconds and is subject to the same sas timeout Finally the action to be run itself is passed The result is an IO action which is normally lifted with liftIO to be run in the same IO see timeoutM The action when run returns the resulting monadic value if it was run in time Conceptually one can think of this as running local monad perhaps copy in the IO monad the effects of running in the IO monad are unavoidably irreversible but the resulting monadic value can be optionally ignored in which case it is not evaluated in the parent monad and no effects are present in the outer layers of the monad",
           "hierarchy": "System Timeout Monad",
+          "indexed": "2014-03-11T19:20:40",
           "module": "System.Timeout.Monad",
           "name": "timeoutR",
           "normalized": "a-\u003eb c-\u003eRunData b-\u003eIO(Maybe(b c))",
@@ -1623,6 +1755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the void action runs in time, it is run and \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e is returned; otherwise \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e is returned when running the action in time does not succeed\n\u003c/p\u003e\u003cp\u003eFor example, to run a void action within one second,\n one might write\n\u003c/p\u003e\u003cpre\u003e succeeded \u003c- timeoutVoid\n\u003c/pre\u003e\u003cp\u003eThe effects of \u003ca\u003eaction\u003c/a\u003e will be fully executed if succeeded\n is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e; if succeeded is \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e, the action could not run\n in time, and only global IO actions that were performed while\n the local monad was being evaluated will be run.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:40 UTC 2014",
           "module": "System.Timeout.Monad",
           "name": "timeoutVoid",
           "package": "monad-state",
@@ -1633,6 +1766,7 @@
         "index": {
           "description": "If the void action runs in time it is run and True is returned otherwise False is returned when running the action in time does not succeed For example to run void action within one second one might write succeeded timeoutVoid The effects of action will be fully executed if succeeded is True if succeeded is False the action could not run in time and only global IO actions that were performed while the local monad was being evaluated will be run",
           "hierarchy": "System Timeout Monad",
+          "indexed": "2014-03-11T19:20:40",
           "module": "System.Timeout.Monad",
           "name": "timeoutVoid",
           "normalized": "a-\u003eb()-\u003eb Bool",

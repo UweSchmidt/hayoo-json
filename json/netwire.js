@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "netwire"
+        "phrase": "netwire",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "Core",
           "package": "netwire",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "Core",
           "package": "netwire",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wire is a signal function.  It maps a reactive value to another\n reactive value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "Wire",
           "package": "netwire",
@@ -49,6 +52,7 @@
         "index": {
           "description": "wire is signal function It maps reactive value to another reactive value",
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "Wire",
           "package": "netwire",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-strict version of \u003ccode\u003e\u003ca\u003e&&&\u003c/a\u003e\u003c/code\u003e for functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "(&&&!)",
           "package": "netwire",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Left-strict version of for functions",
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "(&&&!) &&&!",
           "normalized": "(a-\u003eb)-\u003e(a-\u003ec)-\u003ea-\u003e(b,c)",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-strict version of \u003ccode\u003e\u003ca\u003e***\u003c/a\u003e\u003c/code\u003e for functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "(***!)",
           "package": "netwire",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Left-strict version of for functions",
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "(***!) ***!",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003e(a,c)-\u003e(b,d)",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "WArr",
           "package": "netwire",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "WArr",
           "normalized": "(Either a b-\u003eEither a c)-\u003eWire d a e b c",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "WConst",
           "package": "netwire",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "WConst",
           "normalized": "Either a b-\u003eWire c a d e b",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "WGen",
           "package": "netwire",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "WGen",
           "normalized": "(a-\u003eEither b c-\u003ed(Either b e,Wire a b d c e))-\u003eWire a b d c e",
@@ -184,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "WId",
           "package": "netwire",
@@ -193,6 +208,7 @@
         },
         "index": {
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "WId",
           "package": "netwire",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "WPure",
           "package": "netwire",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "WPure",
           "normalized": "(a-\u003eEither b c-\u003e(Either b d,Wire a b e c d))-\u003eWire a b e c d",
@@ -333,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-strict tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "lstrict",
           "package": "netwire",
@@ -343,6 +362,7 @@
         "index": {
           "description": "Left-strict tuple",
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "lstrict",
           "normalized": "(a,b)-\u003e(a,b)",
@@ -358,6 +378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the given monad morphism to the wire's underlying monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "mapWire",
           "package": "netwire",
@@ -368,6 +389,7 @@
         "index": {
           "description": "Apply the given monad morphism to the wire underlying monad",
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "mapWire",
           "normalized": "(a b c d-\u003ee d)-\u003eWire f g c d h-\u003eWire f g e d h",
@@ -384,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a stateless wire from the given signal mapping function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "mkConst",
           "package": "netwire",
@@ -394,6 +417,7 @@
         "index": {
           "description": "Construct stateless wire from the given signal mapping function",
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "mkConst",
           "normalized": "Either a b-\u003eWire c a d e b",
@@ -410,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct the empty wire, which inhibits forever.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "mkEmpty",
           "package": "netwire",
@@ -420,6 +445,7 @@
         "index": {
           "description": "Construct the empty wire which inhibits forever",
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "mkEmpty",
           "package": "netwire",
@@ -434,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a stateful wire from the given transition function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "mkGen",
           "package": "netwire",
@@ -444,6 +471,7 @@
         "index": {
           "description": "Construct stateful wire from the given transition function",
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "mkGen",
           "normalized": "(a-\u003eb-\u003ec(Either d e,Wire a d c b e))-\u003eWire a d c b e",
@@ -460,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a stateful wire from the given transition function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "mkGenN",
           "package": "netwire",
@@ -470,6 +499,7 @@
         "index": {
           "description": "Construct stateful wire from the given transition function",
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "mkGenN",
           "normalized": "(a-\u003eb(Either c d,Wire e c b a d))-\u003eWire e c b a d",
@@ -486,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a stateless wire from the given transition function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "mkGen_",
           "package": "netwire",
@@ -496,6 +527,7 @@
         "index": {
           "description": "Construct stateless wire from the given transition function",
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "mkGen_",
           "normalized": "(a-\u003eb(Either c d))-\u003eWire e c b a d",
@@ -512,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct the identity wire.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "mkId",
           "package": "netwire",
@@ -522,6 +555,7 @@
         "index": {
           "description": "Construct the identity wire",
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "mkId",
           "package": "netwire",
@@ -536,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a pure stateful wire from the given transition function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "mkPure",
           "package": "netwire",
@@ -546,6 +581,7 @@
         "index": {
           "description": "Construct pure stateful wire from the given transition function",
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "mkPure",
           "normalized": "(a-\u003eb-\u003e(Either c d,Wire a c e b d))-\u003eWire a c e b d",
@@ -562,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a pure stateful wire from the given transition function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "mkPureN",
           "package": "netwire",
@@ -572,6 +609,7 @@
         "index": {
           "description": "Construct pure stateful wire from the given transition function",
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "mkPureN",
           "normalized": "(a-\u003e(Either b c,Wire d b e a c))-\u003eWire d b e a c",
@@ -588,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a pure stateless wire from the given transition function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "mkPure_",
           "package": "netwire",
@@ -598,6 +637,7 @@
         "index": {
           "description": "Construct pure stateless wire from the given transition function",
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "mkPure_",
           "normalized": "(a-\u003eEither b c)-\u003eWire d b e a c",
@@ -614,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a pure stateful wire from the given signal function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "mkSF",
           "package": "netwire",
@@ -624,6 +665,7 @@
         "index": {
           "description": "Construct pure stateful wire from the given signal function",
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "mkSF",
           "normalized": "(a-\u003eb-\u003e(c,Wire a d e b c))-\u003eWire a d e b c",
@@ -640,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a pure stateful wire from the given signal function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "mkSFN",
           "package": "netwire",
@@ -650,6 +693,7 @@
         "index": {
           "description": "Construct pure stateful wire from the given signal function",
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "mkSFN",
           "normalized": "(a-\u003e(b,Wire c d e a b))-\u003eWire c d e a b",
@@ -666,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a pure stateless wire from the given function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "mkSF_",
           "package": "netwire",
@@ -676,6 +721,7 @@
         "index": {
           "description": "Construct pure stateless wire from the given function",
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "mkSF_",
           "normalized": "(a-\u003eb)-\u003eWire c d e a b",
@@ -692,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform one step of the given wire.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Core",
           "name": "stepWire",
           "package": "netwire",
@@ -702,6 +749,7 @@
         "index": {
           "description": "Perform one step of the given wire",
           "hierarchy": "Control Wire Core",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Core",
           "name": "stepWire",
           "normalized": "Wire a b c d e-\u003ea-\u003eEither b d-\u003ec(Either b e,Wire a b c d e)",
@@ -717,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "Event",
           "package": "netwire",
@@ -725,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "Event",
           "package": "netwire",
@@ -739,6 +789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDenotes a stream of values, each together with time of occurrence.\n Since \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e is commonly used for functional reactive programming it\n does not define most of the usual instances to protect continuous\n time and discrete event occurrence semantics.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "Event",
           "package": "netwire",
@@ -748,6 +799,7 @@
         "index": {
           "description": "Denotes stream of values each together with time of occurrence Since Event is commonly used for functional reactive programming it does not define most of the usual instances to protect continuous time and discrete event occurrence semantics",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "Event",
           "package": "netwire",
@@ -762,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge events with the rightmost event taking precedence.\n Equivalent to using the monoid interface with \u003ccode\u003eLast\u003c/code\u003e.  Infixl 5.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now on both.\n\u003c/li\u003e\u003cli\u003e Inhibits: when any of the two wires inhibit.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "(&\u003e)",
           "package": "netwire",
@@ -772,6 +825,7 @@
         "index": {
           "description": "Merge events with the rightmost event taking precedence Equivalent to using the monoid interface with Last Infixl Depends now on both Inhibits when any of the two wires inhibit",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "(&\u003e) &\u003e",
           "normalized": "Wire a b c d(Event e)-\u003eWire a b c d(Event e)-\u003eWire a b c d(Event e)",
@@ -787,6 +841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge events with the leftmost event taking precedence.  Equivalent\n to using the monoid interface with \u003ccode\u003eFirst\u003c/code\u003e.  Infixl 5.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now on both.\n\u003c/li\u003e\u003cli\u003e Inhibits: when any of the two wires inhibit.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "(\u003c&)",
           "package": "netwire",
@@ -797,6 +852,7 @@
         "index": {
           "description": "Merge events with the leftmost event taking precedence Equivalent to using the monoid interface with First Infixl Depends now on both Inhibits when any of the two wires inhibit",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "(\u003c&) \u003c&",
           "normalized": "Wire a b c d(Event e)-\u003eWire a b c d(Event e)-\u003eWire a b c d(Event e)",
@@ -812,6 +868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft scan for events with no initial value.  Each time an event\n occurs, apply the given function.  The first event is produced\n unchanged.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "accum1E",
           "package": "netwire",
@@ -821,6 +878,7 @@
         "index": {
           "description": "Left scan for events with no initial value Each time an event occurs apply the given function The first event is produced unchanged Depends now",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "accum1E",
           "normalized": "(a-\u003ea-\u003ea)-\u003eWire b c d(Event a)(Event a)",
@@ -836,6 +894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft scan for events.  Each time an event occurs, apply the given\n function.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "accumE",
           "package": "netwire",
@@ -845,6 +904,7 @@
         "index": {
           "description": "Left scan for events Each time an event occurs apply the given function Depends now",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "accumE",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eWire c d e(Event b)(Event a)",
@@ -860,6 +920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAt the given point in time.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now when occurring.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "at",
           "package": "netwire",
@@ -869,6 +930,7 @@
         "index": {
           "description": "At the given point in time Depends now when occurring",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "at",
           "normalized": "a-\u003eWire b c d e(Event e)",
@@ -884,6 +946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOccurs each time the predicate becomes true for the input signal,\n for example each time a given threshold is reached.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "became",
           "package": "netwire",
@@ -894,6 +957,7 @@
         "index": {
           "description": "Occurs each time the predicate becomes true for the input signal for example each time given threshold is reached Depends now",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "became",
           "normalized": "(a-\u003eBool)-\u003eWire b c d a(Event a)",
@@ -909,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForget the first given number of occurrences.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "dropE",
           "package": "netwire",
@@ -919,6 +984,7 @@
         "index": {
           "description": "Forget the first given number of occurrences Depends now",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "dropE",
           "normalized": "Int-\u003eWire a b c(Event d)(Event d)",
@@ -934,6 +1000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForget all initial occurrences until the given predicate becomes\n false.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "dropWhileE",
           "package": "netwire",
@@ -944,6 +1011,7 @@
         "index": {
           "description": "Forget all initial occurrences until the given predicate becomes false Depends now",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "dropWhileE",
           "normalized": "(a-\u003eBool)-\u003eWire b c d(Event a)(Event a)",
@@ -960,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForget all occurrences for which the given predicate is false.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "filterE",
           "package": "netwire",
@@ -970,6 +1039,7 @@
         "index": {
           "description": "Forget all occurrences for which the given predicate is false Depends now",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "filterE",
           "normalized": "(a-\u003eBool)-\u003eWire b c d(Event a)(Event a)",
@@ -985,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOn each occurrence, apply the function the event carries.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "iterateE",
           "package": "netwire",
@@ -995,6 +1066,7 @@
         "index": {
           "description": "On each occurrence apply the function the event carries Depends now",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "iterateE",
           "normalized": "a-\u003eWire b c d(Event(a-\u003ea))(Event a)",
@@ -1010,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum of all events.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "maximumE",
           "package": "netwire",
@@ -1020,6 +1093,7 @@
         "index": {
           "description": "Maximum of all events Depends now",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "maximumE",
           "package": "netwire",
@@ -1059,6 +1133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-biased event merge.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "mergeL",
           "package": "netwire",
@@ -1069,6 +1144,7 @@
         "index": {
           "description": "Left-biased event merge",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "mergeL",
           "normalized": "Event a-\u003eEvent a-\u003eEvent a",
@@ -1084,6 +1160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight-biased event merge.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "mergeR",
           "package": "netwire",
@@ -1094,6 +1171,7 @@
         "index": {
           "description": "Right-biased event merge",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "mergeR",
           "normalized": "Event a-\u003eEvent a-\u003eEvent a",
@@ -1109,6 +1187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimum of all events.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "minimumE",
           "package": "netwire",
@@ -1119,6 +1198,7 @@
         "index": {
           "description": "Minimum of all events Depends now",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "minimumE",
           "package": "netwire",
@@ -1132,6 +1212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNever occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "never",
           "package": "netwire",
@@ -1142,6 +1223,7 @@
         "index": {
           "description": "Never occurs",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "never",
           "package": "netwire",
@@ -1155,6 +1237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOccurs each time the predicate becomes false for the input signal,\n for example each time a given threshold is no longer exceeded.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "noLonger",
           "package": "netwire",
@@ -1165,6 +1248,7 @@
         "index": {
           "description": "Occurs each time the predicate becomes false for the input signal for example each time given threshold is no longer exceeded Depends now",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "noLonger",
           "normalized": "(a-\u003eBool)-\u003eWire b c d a(Event a)",
@@ -1181,6 +1265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForget the first occurrence.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "notYet",
           "package": "netwire",
@@ -1191,6 +1276,7 @@
         "index": {
           "description": "Forget the first occurrence Depends now",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "notYet",
           "package": "netwire",
@@ -1205,6 +1291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOccurs once immediately.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now when occurring.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "now",
           "package": "netwire",
@@ -1215,6 +1302,7 @@
         "index": {
           "description": "Occurs once immediately Depends now when occurring",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "now",
           "package": "netwire",
@@ -1228,6 +1316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForget all occurrences except the first.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now when occurring.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "once",
           "package": "netwire",
@@ -1238,6 +1327,7 @@
         "index": {
           "description": "Forget all occurrences except the first Depends now when occurring",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "once",
           "package": "netwire",
@@ -1251,6 +1341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePeriodic occurrence with the given time period.  First occurrence\n is now.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now when occurring.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "periodic",
           "package": "netwire",
@@ -1261,6 +1352,7 @@
         "index": {
           "description": "Periodic occurrence with the given time period First occurrence is now Depends now when occurring",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "periodic",
           "normalized": "a-\u003eWire b c d e(Event e)",
@@ -1276,6 +1368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePeriodic occurrence with the given time period.  First occurrence\n is now.  The event values are picked one by one from the given list.\n When the list is exhausted, the event does not occur again.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "periodicList",
           "package": "netwire",
@@ -1286,6 +1379,7 @@
         "index": {
           "description": "Periodic occurrence with the given time period First occurrence is now The event values are picked one by one from the given list When the list is exhausted the event does not occur again",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "periodicList",
           "normalized": "a-\u003e[b]-\u003eWire c d e f(Event b)",
@@ -1302,6 +1396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduct of all events.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "productE",
           "package": "netwire",
@@ -1312,6 +1407,7 @@
         "index": {
           "description": "Product of all events Depends now",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "productE",
           "package": "netwire",
@@ -1325,6 +1421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum of all events.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "sumE",
           "package": "netwire",
@@ -1335,6 +1432,7 @@
         "index": {
           "description": "Sum of all events Depends now",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "sumE",
           "package": "netwire",
@@ -1348,6 +1446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForget all but the first given number of occurrences.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "takeE",
           "package": "netwire",
@@ -1358,6 +1457,7 @@
         "index": {
           "description": "Forget all but the first given number of occurrences Depends now",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "takeE",
           "normalized": "Int-\u003eWire a b c(Event d)(Event d)",
@@ -1373,6 +1473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForget all but the initial occurrences for which the given\n predicate is true.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Event",
           "name": "takeWhileE",
           "package": "netwire",
@@ -1383,6 +1484,7 @@
         "index": {
           "description": "Forget all but the initial occurrences for which the given predicate is true Depends now",
           "hierarchy": "Control Wire Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Event",
           "name": "takeWhileE",
           "normalized": "(a-\u003eBool)-\u003eWire b c d(Event a)(Event a)",
@@ -1398,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Interval",
           "name": "Interval",
           "package": "netwire",
@@ -1406,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "Control Wire Interval",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Interval",
           "name": "Interval",
           "package": "netwire",
@@ -1420,6 +1524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAfter the given time period.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now after the given time period.\n\u003c/li\u003e\u003cli\u003e Inhibits: for the given time period.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Interval",
           "name": "after",
           "package": "netwire",
@@ -1430,6 +1535,7 @@
         "index": {
           "description": "After the given time period Depends now after the given time period Inhibits for the given time period",
           "hierarchy": "Control Wire Interval",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Interval",
           "name": "after",
           "normalized": "a-\u003eWire b c d e e",
@@ -1445,6 +1551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003ehold\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Interval",
           "name": "asSoonAs",
           "package": "netwire",
@@ -1455,6 +1562,7 @@
         "index": {
           "description": "Alias for hold",
           "hierarchy": "Control Wire Interval",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Interval",
           "name": "asSoonAs",
           "package": "netwire",
@@ -1469,6 +1577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart each time the left event occurs, stop each time the right\n event occurs.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now when active.\n\u003c/li\u003e\u003cli\u003e Inhibits: after the right event occurred, before the left event\n occurs.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Interval",
           "name": "between",
           "package": "netwire",
@@ -1479,6 +1588,7 @@
         "index": {
           "description": "Start each time the left event occurs stop each time the right event occurs Depends now when active Inhibits after the right event occurred before the left event occurs",
           "hierarchy": "Control Wire Interval",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Interval",
           "name": "between",
           "normalized": "Wire a b c(d,Event e,Event f)d",
@@ -1494,6 +1604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor the given time period.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now for the given time period.\n\u003c/li\u003e\u003cli\u003e Inhibits: after the given time period.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Interval",
           "name": "for",
           "package": "netwire",
@@ -1504,6 +1615,7 @@
         "index": {
           "description": "For the given time period Depends now for the given time period Inhibits after the given time period",
           "hierarchy": "Control Wire Interval",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Interval",
           "name": "for",
           "normalized": "a-\u003eWire b c d e e",
@@ -1519,6 +1631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart when the event occurs for the first time reflecting its\n latest value.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003cli\u003e Inhibits: until the event occurs for the first time.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Interval",
           "name": "hold",
           "package": "netwire",
@@ -1529,6 +1642,7 @@
         "index": {
           "description": "Start when the event occurs for the first time reflecting its latest value Depends now Inhibits until the event occurs for the first time",
           "hierarchy": "Control Wire Interval",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Interval",
           "name": "hold",
           "package": "netwire",
@@ -1542,6 +1656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHold each event occurrence for the given time period.  Inhibits\n when no event occurred for the given amount of time.  New occurrences\n override old occurrences, even when they are still held.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003cli\u003e Inhibits: when no event occurred for the given amount of time.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Interval",
           "name": "holdFor",
           "package": "netwire",
@@ -1552,6 +1667,7 @@
         "index": {
           "description": "Hold each event occurrence for the given time period Inhibits when no event occurred for the given amount of time New occurrences override old occurrences even when they are still held Depends now Inhibits when no event occurred for the given amount of time",
           "hierarchy": "Control Wire Interval",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Interval",
           "name": "holdFor",
           "normalized": "a-\u003eWire b c d(Event e)e",
@@ -1568,6 +1684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInhibit forever with the given value.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Inhibits: always.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Interval",
           "name": "inhibit",
           "package": "netwire",
@@ -1578,6 +1695,7 @@
         "index": {
           "description": "Inhibit forever with the given value Inhibits always",
           "hierarchy": "Control Wire Interval",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Interval",
           "name": "inhibit",
           "normalized": "a-\u003eWire b a c d e",
@@ -1593,6 +1711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen the given predicate is false for the input signal.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003cli\u003e Inhibits: unless the predicate is false.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Interval",
           "name": "unless",
           "package": "netwire",
@@ -1603,6 +1722,7 @@
         "index": {
           "description": "When the given predicate is false for the input signal Depends now Inhibits unless the predicate is false",
           "hierarchy": "Control Wire Interval",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Interval",
           "name": "unless",
           "normalized": "(a-\u003eBool)-\u003eWire b c d a a",
@@ -1618,6 +1738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce until the given event occurs.  When it occurs, inhibit with\n its value forever.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now until event occurs.\n\u003c/li\u003e\u003cli\u003e Inhibits: forever after event occurs.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Interval",
           "name": "until",
           "package": "netwire",
@@ -1628,6 +1749,7 @@
         "index": {
           "description": "Produce until the given event occurs When it occurs inhibit with its value forever Depends now until event occurs Inhibits forever after event occurs",
           "hierarchy": "Control Wire Interval",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Interval",
           "name": "until",
           "normalized": "Wire a b c(d,Event e)d",
@@ -1643,6 +1765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen the given predicate is true for the input signal.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003cli\u003e Inhibits: when the predicate is false.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Interval",
           "name": "when",
           "package": "netwire",
@@ -1653,6 +1776,7 @@
         "index": {
           "description": "When the given predicate is true for the input signal Depends now Inhibits when the predicate is false",
           "hierarchy": "Control Wire Interval",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Interval",
           "name": "when",
           "normalized": "(a-\u003eBool)-\u003eWire b c d a a",
@@ -1667,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Run",
           "name": "Run",
           "package": "netwire",
@@ -1675,6 +1800,7 @@
         },
         "index": {
           "hierarchy": "Control Wire Run",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Run",
           "name": "Run",
           "package": "netwire",
@@ -1689,6 +1815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function runs the given wire using the given state delta\n generator.  It constantly shows the output of the wire on one line on\n stdout.  Press Ctrl-C to abort.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Run",
           "name": "testWire",
           "package": "netwire",
@@ -1699,6 +1826,7 @@
         "index": {
           "description": "This function runs the given wire using the given state delta generator It constantly shows the output of the wire on one line on stdout Press Ctrl-C to abort",
           "hierarchy": "Control Wire Run",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Run",
           "name": "testWire",
           "normalized": "Session a b-\u003e(c d Wire b e Identity f g)-\u003ea h",
@@ -1715,6 +1843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function runs the given wire using the given state delta\n generator.  It constantly shows the output of the wire on one line on\n stdout.  Press Ctrl-C to abort.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Run",
           "name": "testWireM",
           "package": "netwire",
@@ -1725,6 +1854,7 @@
         "index": {
           "description": "This function runs the given wire using the given state delta generator It constantly shows the output of the wire on one line on stdout Press Ctrl-C to abort",
           "hierarchy": "Control Wire Run",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Run",
           "name": "testWireM",
           "normalized": "(a b c d-\u003ee d)-\u003eSession e f-\u003e(a b Wire f g c d h)-\u003ee i",
@@ -1740,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Session",
           "name": "Session",
           "package": "netwire",
@@ -1748,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Control Wire Session",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Session",
           "name": "Session",
           "package": "netwire",
@@ -1762,6 +1894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState delta types with time deltas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Session",
           "name": "HasTime",
           "package": "netwire",
@@ -1771,6 +1904,7 @@
         "index": {
           "description": "State delta types with time deltas",
           "hierarchy": "Control Wire Session",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Session",
           "name": "HasTime",
           "package": "netwire",
@@ -1785,6 +1919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState delta generators as required for wire sessions, most notably\n to generate time deltas.  These are mini-wires with the sole purpose\n of generating these deltas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Session",
           "name": "Session",
           "package": "netwire",
@@ -1794,6 +1929,7 @@
         "index": {
           "description": "State delta generators as required for wire sessions most notably to generate time deltas These are mini-wires with the sole purpose of generating these deltas",
           "hierarchy": "Control Wire Session",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Session",
           "name": "Session",
           "package": "netwire",
@@ -1808,6 +1944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis state delta type denotes time deltas.  This is necessary for\n most FRP applications.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Session",
           "name": "Timed",
           "package": "netwire",
@@ -1817,6 +1954,7 @@
         "index": {
           "description": "This state delta type denotes time deltas This is necessary for most FRP applications",
           "hierarchy": "Control Wire Session",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Session",
           "name": "Timed",
           "package": "netwire",
@@ -1830,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Session",
           "name": "Session",
           "package": "netwire",
@@ -1839,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Control Wire Session",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Session",
           "name": "Session",
           "package": "netwire",
@@ -1852,6 +1992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Session",
           "name": "Timed",
           "package": "netwire",
@@ -1861,6 +2002,7 @@
         },
         "index": {
           "hierarchy": "Control Wire Session",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Session",
           "name": "Timed",
           "package": "netwire",
@@ -1875,6 +2017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState delta generator for a real time clock.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Session",
           "name": "clockSession",
           "package": "netwire",
@@ -1885,6 +2028,7 @@
         "index": {
           "description": "State delta generator for real time clock",
           "hierarchy": "Control Wire Session",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Session",
           "name": "clockSession",
           "normalized": "Session a(b-\u003eTimed NominalDiffTime b)",
@@ -1901,6 +2045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-extending version of \u003ccode\u003e\u003ca\u003eclockSession\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Session",
           "name": "clockSession_",
           "package": "netwire",
@@ -1911,6 +2056,7 @@
         "index": {
           "description": "Non-extending version of clockSession",
           "hierarchy": "Control Wire Session",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Session",
           "name": "clockSession_",
           "normalized": "Session a(Timed NominalDiffTime())",
@@ -1927,6 +2073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState delta generator for a simple counting clock.  Denotes a fixed\n framerate.  This is likely more useful than \u003ccode\u003e\u003ca\u003eclockSession\u003c/a\u003e\u003c/code\u003e for\n simulations and real-time games.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Session",
           "name": "countSession",
           "package": "netwire",
@@ -1936,6 +2083,7 @@
         "index": {
           "description": "State delta generator for simple counting clock Denotes fixed framerate This is likely more useful than clockSession for simulations and real-time games",
           "hierarchy": "Control Wire Session",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Session",
           "name": "countSession",
           "normalized": "a-\u003eSession b(c-\u003eTimed a c)",
@@ -1952,6 +2100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-extending version of \u003ccode\u003e\u003ca\u003ecountSession\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Session",
           "name": "countSession_",
           "package": "netwire",
@@ -1962,6 +2111,7 @@
         "index": {
           "description": "Non-extending version of countSession",
           "hierarchy": "Control Wire Session",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Session",
           "name": "countSession_",
           "normalized": "a-\u003eSession b(Timed a())",
@@ -1978,6 +2128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the current time delta.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Session",
           "name": "dtime",
           "package": "netwire",
@@ -1988,6 +2139,7 @@
         "index": {
           "description": "Extract the current time delta",
           "hierarchy": "Control Wire Session",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Session",
           "name": "dtime",
           "normalized": "a-\u003eb",
@@ -2002,6 +2154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Session",
           "name": "stepSession",
           "package": "netwire",
@@ -2011,6 +2164,7 @@
         },
         "index": {
           "hierarchy": "Control Wire Session",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Session",
           "name": "stepSession",
           "normalized": "a(b,Session a b)",
@@ -2026,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Switch",
           "name": "Switch",
           "package": "netwire",
@@ -2034,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Control Wire Switch",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Switch",
           "name": "Switch",
           "package": "netwire",
@@ -2048,6 +2204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActs like the first wire until it inhibits, then switches to the\n second wire.  Infixr 1.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: like current wire.\n\u003c/li\u003e\u003cli\u003e Inhibits: after switching like the second wire.\n\u003c/li\u003e\u003cli\u003e Switch: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Switch",
           "name": "(--\u003e)",
           "package": "netwire",
@@ -2058,6 +2215,7 @@
         "index": {
           "description": "Acts like the first wire until it inhibits then switches to the second wire Infixr Depends like current wire Inhibits after switching like the second wire Switch now",
           "hierarchy": "Control Wire Switch",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Switch",
           "name": "(--\u003e) --\u003e",
           "normalized": "Wire a b c d e-\u003eWire a b c d e-\u003eWire a b c d e",
@@ -2073,6 +2231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntrinsic switch:  Delayed version of \u003ccode\u003e\u003ca\u003eswitch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Inhibits: like argument wire until switch, then like the new wire.\n\u003c/li\u003e\u003cli\u003e Switch: once, after now, restart state.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Switch",
           "name": "dSwitch",
           "package": "netwire",
@@ -2083,6 +2242,7 @@
         "index": {
           "description": "Intrinsic switch Delayed version of switch Inhibits like argument wire until switch then like the new wire Switch once after now restart state",
           "hierarchy": "Control Wire Switch",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Switch",
           "name": "dSwitch",
           "normalized": "Wire a b c d(e,Event(Wire a b c d e))-\u003eWire a b c d e",
@@ -2099,6 +2259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntrinsic continuable switch:  Delayed version of \u003ccode\u003e\u003ca\u003ekSwitch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Inhibits: like the first argument wire, like the new wire after\n   switch.  Inhibition of the second argument wire is ignored.\n\u003c/li\u003e\u003cli\u003e Switch: once, after now, restart state.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Switch",
           "name": "dkSwitch",
           "package": "netwire",
@@ -2109,6 +2270,7 @@
         "index": {
           "description": "Intrinsic continuable switch Delayed version of kSwitch Inhibits like the first argument wire like the new wire after switch Inhibition of the second argument wire is ignored Switch once after now restart state",
           "hierarchy": "Control Wire Switch",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Switch",
           "name": "dkSwitch",
           "normalized": "Wire a b c d e-\u003eWire a b c(d,e)(Event(Wire a b c d e-\u003eWire a b c d e))-\u003eWire a b c d e",
@@ -2125,6 +2287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtrinsic continuable switch.  Delayed version of \u003ccode\u003e\u003ca\u003ekrSwitch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Inhibits: like the current wire.\n\u003c/li\u003e\u003cli\u003e Switch: recurrent, after now, restart state.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Switch",
           "name": "dkrSwitch",
           "package": "netwire",
@@ -2135,6 +2298,7 @@
         "index": {
           "description": "Extrinsic continuable switch Delayed version of krSwitch Inhibits like the current wire Switch recurrent after now restart state",
           "hierarchy": "Control Wire Switch",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Switch",
           "name": "dkrSwitch",
           "normalized": "Wire a b c d e-\u003eWire a b c(d,Event(Wire a b c d e-\u003eWire a b c d e))e",
@@ -2151,6 +2315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtrinsic switch:  Delayed version of \u003ccode\u003e\u003ca\u003erSwitch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Inhibits: like the current wire.\n\u003c/li\u003e\u003cli\u003e Switch: recurrent, after now, restart state.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Switch",
           "name": "drSwitch",
           "package": "netwire",
@@ -2161,6 +2326,7 @@
         "index": {
           "description": "Extrinsic switch Delayed version of rSwitch Inhibits like the current wire Switch recurrent after now restart state",
           "hierarchy": "Control Wire Switch",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Switch",
           "name": "drSwitch",
           "normalized": "Wire a b c d e-\u003eWire a b c(d,Event(Wire a b c d e))e",
@@ -2177,6 +2343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntrinsic continuable switch:  \u003ccode\u003ekSwitch w1 w2\u003c/code\u003e starts with \u003ccode\u003ew1\u003c/code\u003e.\n Its signal is received by \u003ccode\u003ew2\u003c/code\u003e, which may choose to switch to a new\n wire.  Passes the wire we are switching away from to the new wire,\n such that it may be reused in it.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Inhibits: like the first argument wire, like the new wire after\n   switch.  Inhibition of the second argument wire is ignored.\n\u003c/li\u003e\u003cli\u003e Switch: once, now, restart state.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Switch",
           "name": "kSwitch",
           "package": "netwire",
@@ -2187,6 +2354,7 @@
         "index": {
           "description": "Intrinsic continuable switch kSwitch w1 w2 starts with w1 Its signal is received by w2 which may choose to switch to new wire Passes the wire we are switching away from to the new wire such that it may be reused in it Inhibits like the first argument wire like the new wire after switch Inhibition of the second argument wire is ignored Switch once now restart state",
           "hierarchy": "Control Wire Switch",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Switch",
           "name": "kSwitch",
           "normalized": "Wire a b c d e-\u003eWire a b c(d,e)(Event(Wire a b c d e-\u003eWire a b c d e))-\u003eWire a b c d e",
@@ -2203,6 +2371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtrinsic continuable switch.  This switch works like \u003ccode\u003e\u003ca\u003erSwitch\u003c/a\u003e\u003c/code\u003e,\n except that it passes the wire we are switching away from to the new\n wire.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Inhibits: like the current wire.\n\u003c/li\u003e\u003cli\u003e Switch: recurrent, now, restart state.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Switch",
           "name": "krSwitch",
           "package": "netwire",
@@ -2213,6 +2382,7 @@
         "index": {
           "description": "Extrinsic continuable switch This switch works like rSwitch except that it passes the wire we are switching away from to the new wire Inhibits like the current wire Switch recurrent now restart state",
           "hierarchy": "Control Wire Switch",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Switch",
           "name": "krSwitch",
           "normalized": "Wire a b c d e-\u003eWire a b c(d,Event(Wire a b c d e-\u003eWire a b c d e))e",
@@ -2229,6 +2399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoute the left input signal based on the current mode.  The right\n input signal can be used to change the current mode.  When switching\n away from a mode and then switching back to it, it will be resumed.\n Freezes time during inactivity.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Complexity: O(n * log n) space, O(log n) lookup time on switch wrt\n   number of started, inactive modes.\n\u003c/li\u003e\u003cli\u003e Depends: like currently active wire (left), now (right).\n\u003c/li\u003e\u003cli\u003e Inhibits: when active wire inhibits.\n\u003c/li\u003e\u003cli\u003e Switch: now on mode change.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Switch",
           "name": "modes",
           "package": "netwire",
@@ -2238,6 +2409,7 @@
         "index": {
           "description": "Route the left input signal based on the current mode The right input signal can be used to change the current mode When switching away from mode and then switching back to it it will be resumed Freezes time during inactivity Complexity log space log lookup time on switch wrt number of started inactive modes Depends like currently active wire left now right Inhibits when active wire inhibits Switch now on mode change",
           "hierarchy": "Control Wire Switch",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Switch",
           "name": "modes",
           "normalized": "a-\u003e(a-\u003eWire b c d e f)-\u003eWire b c d(e,Event a)f",
@@ -2253,6 +2425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtrinsic switch:  Start with the given wire.  Each time the input\n event occurs, switch to the wire it carries.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Inhibits: like the current wire.\n\u003c/li\u003e\u003cli\u003e Switch: recurrent, now, restart state.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Switch",
           "name": "rSwitch",
           "package": "netwire",
@@ -2263,6 +2436,7 @@
         "index": {
           "description": "Extrinsic switch Start with the given wire Each time the input event occurs switch to the wire it carries Inhibits like the current wire Switch recurrent now restart state",
           "hierarchy": "Control Wire Switch",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Switch",
           "name": "rSwitch",
           "normalized": "Wire a b c d e-\u003eWire a b c(d,Event(Wire a b c d e))e",
@@ -2279,6 +2453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntrinsic switch:  Start with the given wire.  As soon as its event\n occurs, switch to the wire in the event's value.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Inhibits: like argument wire until switch, then like the new wire.\n\u003c/li\u003e\u003cli\u003e Switch: once, now, restart state.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Switch",
           "name": "switch",
           "package": "netwire",
@@ -2289,6 +2464,7 @@
         "index": {
           "description": "Intrinsic switch Start with the given wire As soon as its event occurs switch to the wire in the event value Inhibits like argument wire until switch then like the new wire Switch once now restart state",
           "hierarchy": "Control Wire Switch",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Switch",
           "name": "switch",
           "normalized": "Wire a b c d(e,Event(Wire a b c d e))-\u003eWire a b c d e",
@@ -2303,6 +2479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Time",
           "name": "Time",
           "package": "netwire",
@@ -2311,6 +2488,7 @@
         },
         "index": {
           "hierarchy": "Control Wire Time",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Time",
           "name": "Time",
           "package": "netwire",
@@ -2325,6 +2503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal time starting from zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Time",
           "name": "time",
           "package": "netwire",
@@ -2335,6 +2514,7 @@
         "index": {
           "description": "Local time starting from zero",
           "hierarchy": "Control Wire Time",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Time",
           "name": "time",
           "package": "netwire",
@@ -2348,6 +2528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal time starting from zero, converted to your favorite\n fractional type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Time",
           "name": "timeF",
           "package": "netwire",
@@ -2358,6 +2539,7 @@
         "index": {
           "description": "Local time starting from zero converted to your favorite fractional type",
           "hierarchy": "Control Wire Time",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Time",
           "name": "timeF",
           "package": "netwire",
@@ -2371,6 +2553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal time starting from the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Time",
           "name": "timeFrom",
           "package": "netwire",
@@ -2381,6 +2564,7 @@
         "index": {
           "description": "Local time starting from the given value",
           "hierarchy": "Control Wire Time",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Time",
           "name": "timeFrom",
           "normalized": "a-\u003eWire b c d e a",
@@ -2396,6 +2580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Unsafe.Event",
           "name": "Event",
           "package": "netwire",
@@ -2404,6 +2589,7 @@
         },
         "index": {
           "hierarchy": "Control Wire Unsafe Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Unsafe.Event",
           "name": "Event",
           "package": "netwire",
@@ -2418,6 +2604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDenotes a stream of values, each together with time of occurrence.\n Since \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e is commonly used for functional reactive programming it\n does not define most of the usual instances to protect continuous\n time and discrete event occurrence semantics.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Unsafe.Event",
           "name": "Event",
           "package": "netwire",
@@ -2427,6 +2614,7 @@
         "index": {
           "description": "Denotes stream of values each together with time of occurrence Since Event is commonly used for functional reactive programming it does not define most of the usual instances to protect continuous time and discrete event occurrence semantics",
           "hierarchy": "Control Wire Unsafe Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Unsafe.Event",
           "name": "Event",
           "package": "netwire",
@@ -2440,6 +2628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Unsafe.Event",
           "name": "Event",
           "package": "netwire",
@@ -2449,6 +2638,7 @@
         },
         "index": {
           "hierarchy": "Control Wire Unsafe Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Unsafe.Event",
           "name": "Event",
           "package": "netwire",
@@ -2462,6 +2652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Unsafe.Event",
           "name": "NoEvent",
           "package": "netwire",
@@ -2471,6 +2662,7 @@
         },
         "index": {
           "hierarchy": "Control Wire Unsafe Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Unsafe.Event",
           "name": "NoEvent",
           "package": "netwire",
@@ -2485,6 +2677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold the given event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Unsafe.Event",
           "name": "event",
           "package": "netwire",
@@ -2495,6 +2688,7 @@
         "index": {
           "description": "Fold the given event",
           "hierarchy": "Control Wire Unsafe Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Unsafe.Event",
           "name": "event",
           "normalized": "a-\u003e(b-\u003ea)-\u003eEvent b-\u003ea",
@@ -2510,6 +2704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDid the given event occur?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Unsafe.Event",
           "name": "occurred",
           "package": "netwire",
@@ -2520,6 +2715,7 @@
         "index": {
           "description": "Did the given event occur",
           "hierarchy": "Control Wire Unsafe Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Unsafe.Event",
           "name": "occurred",
           "normalized": "Event a-\u003eBool",
@@ -2535,6 +2731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach time the given event occurs, perform the given action with the\n value the event carries.  The resulting event carries the result of\n the action.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire.Unsafe.Event",
           "name": "onEventM",
           "package": "netwire",
@@ -2545,6 +2742,7 @@
         "index": {
           "description": "Each time the given event occurs perform the given action with the value the event carries The resulting event carries the result of the action Depends now",
           "hierarchy": "Control Wire Unsafe Event",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire.Unsafe.Event",
           "name": "onEventM",
           "normalized": "(a-\u003eb c)-\u003eWire d e b(Event a)(Event c)",
@@ -2560,6 +2758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire",
           "name": "Wire",
           "package": "netwire",
@@ -2568,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "Control Wire",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire",
           "name": "Wire",
           "package": "netwire",
@@ -2581,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire",
           "name": "Identity",
           "package": "netwire",
@@ -2588,6 +2789,7 @@
         },
         "index": {
           "hierarchy": "Control Wire",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire",
           "name": "Identity",
           "package": "netwire",
@@ -2602,6 +2804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a length of time, as measured by UTC.\n Conversion functions will treat it as seconds.\n It has a precision of 10^-12 s.\n It ignores leap-seconds, so it's not necessarily a fixed amount of clock time.\n For instance, 23:00 UTC + 2 hours of NominalDiffTime = 01:00 UTC (+ 1 day),\n regardless of whether a leap-second intervened.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire",
           "name": "NominalDiffTime",
           "package": "netwire",
@@ -2610,6 +2813,7 @@
         "index": {
           "description": "This is length of time as measured by UTC Conversion functions will treat it as seconds It has precision of It ignores leap-seconds so it not necessarily fixed amount of clock time For instance UTC hours of NominalDiffTime UTC day regardless of whether leap-second intervened",
           "hierarchy": "Control Wire",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire",
           "name": "NominalDiffTime",
           "package": "netwire",
@@ -2624,6 +2828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple wires with time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire",
           "name": "SimpleWire",
           "package": "netwire",
@@ -2633,6 +2838,7 @@
         "index": {
           "description": "Simple wires with time",
           "hierarchy": "Control Wire",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire",
           "name": "SimpleWire",
           "package": "netwire",
@@ -2647,6 +2853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePure wires.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire",
           "name": "WireP",
           "package": "netwire",
@@ -2656,6 +2863,7 @@
         "index": {
           "description": "Pure wires",
           "hierarchy": "Control Wire",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire",
           "name": "WireP",
           "package": "netwire",
@@ -2669,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire",
           "name": "Identity",
           "package": "netwire",
@@ -2677,6 +2886,7 @@
         },
         "index": {
           "hierarchy": "Control Wire",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire",
           "name": "Identity",
           "package": "netwire",
@@ -2690,6 +2900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "Control.Wire",
           "name": "runIdentity",
           "package": "netwire",
@@ -2698,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "Control Wire",
+          "indexed": "2014-03-11T19:27:18",
           "module": "Control.Wire",
           "name": "runIdentity",
           "package": "netwire",
@@ -2711,6 +2923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Analyze",
           "name": "Analyze",
           "package": "netwire",
@@ -2719,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "FRP Netwire Analyze",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Analyze",
           "name": "Analyze",
           "package": "netwire",
@@ -2733,6 +2947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAverage framerate over the last given number of samples.  One\n important thing to note is that the value of this wire will generally\n disagree with \u003ccode\u003e\u003ca\u003esAvg\u003c/a\u003e\u003c/code\u003e composed with \u003ccode\u003e\u003ca\u003eframerate\u003c/a\u003e\u003c/code\u003e.  This is expected,\n because this wire simply calculates the arithmetic mean, whereas\n \u003ccode\u003e\u003ca\u003esAvg\u003c/a\u003e\u003c/code\u003e will actually integrate the framerate graph.\n\u003c/p\u003e\u003cp\u003eNote:  This wire is for debugging purposes only, because it exposes\n discrete time.  Do not taint your application with discrete time.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Complexity: O(n) time and space wrt number of samples.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Analyze",
           "name": "avgFps",
           "package": "netwire",
@@ -2742,6 +2957,7 @@
         "index": {
           "description": "Average framerate over the last given number of samples One important thing to note is that the value of this wire will generally disagree with sAvg composed with framerate This is expected because this wire simply calculates the arithmetic mean whereas sAvg will actually integrate the framerate graph Note This wire is for debugging purposes only because it exposes discrete time Do not taint your application with discrete time Complexity time and space wrt number of samples",
           "hierarchy": "FRP Netwire Analyze",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Analyze",
           "name": "avgFps",
           "normalized": "Int-\u003eWire a b c d e",
@@ -2758,6 +2974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent framerate.\n\u003c/p\u003e\u003cp\u003eNote:  This wire is for debugging purposes only, because it exposes\n discrete time.  Do not taint your application with discrete time.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Inhibits: when the clock stopped ticking.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Analyze",
           "name": "framerate",
           "package": "netwire",
@@ -2768,6 +2985,7 @@
         "index": {
           "description": "Current framerate Note This wire is for debugging purposes only because it exposes discrete time Do not taint your application with discrete time Inhibits when the clock stopped ticking",
           "hierarchy": "FRP Netwire Analyze",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Analyze",
           "name": "framerate",
           "package": "netwire",
@@ -2781,6 +2999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHigh peak.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Analyze",
           "name": "highPeak",
           "package": "netwire",
@@ -2791,6 +3010,7 @@
         "index": {
           "description": "High peak Depends now",
           "hierarchy": "FRP Netwire Analyze",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Analyze",
           "name": "highPeak",
           "package": "netwire",
@@ -2805,6 +3025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHigh peak with respect to the given comparison function.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Analyze",
           "name": "highPeakBy",
           "package": "netwire",
@@ -2815,6 +3036,7 @@
         "index": {
           "description": "High peak with respect to the given comparison function Depends now",
           "hierarchy": "FRP Netwire Analyze",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Analyze",
           "name": "highPeakBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eWire b c d a a",
@@ -2831,6 +3053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the average of the signal over the given interval (from\n now).  This is done by calculating the integral of the corresponding\n linearly interpolated graph and dividing it by the interval length.\n See \u003ccode\u003e\u003ca\u003elinAvg\u003c/a\u003e\u003c/code\u003e for details.\n\u003c/p\u003e\u003cp\u003eLinear interpolation can be slow.  If you don't need it, you can use\n the staircase variant \u003ccode\u003e\u003ca\u003esAvg\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExample: \u003ccode\u003elAvg 2\u003c/code\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Complexity: O(s) space, O(s) time wrt number of samples in the\n   interval.\n\u003c/li\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Analyze",
           "name": "lAvg",
           "package": "netwire",
@@ -2840,6 +3063,7 @@
         "index": {
           "description": "Calculate the average of the signal over the given interval from now This is done by calculating the integral of the corresponding linearly interpolated graph and dividing it by the interval length See linAvg for details Linear interpolation can be slow If you don need it you can use the staircase variant sAvg Example lAvg Complexity space time wrt number of samples in the interval Depends now",
           "hierarchy": "FRP Netwire Analyze",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Analyze",
           "name": "lAvg",
           "normalized": "a-\u003eWire b c d e e",
@@ -2856,6 +3080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a linearly interpolated graph for the given points in time,\n where the magnitudes of the points are distances from \u003cem\u003enow\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eLinear interpolation can be slow.  If you don't need it, you can use\n the faster staircase variant \u003ccode\u003e\u003ca\u003esGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExample: \u003ccode\u003elGraph [0, 1, 2]\u003c/code\u003e will output the interpolated inputs at\n \u003cem\u003enow\u003c/em\u003e, one second before now and two seconds before now.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Complexity: O(s) space, O(n * log s) time, where s = number of\n   samples in the interval, n = number of requested data points.\n\u003c/li\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Analyze",
           "name": "lGraph",
           "package": "netwire",
@@ -2865,6 +3090,7 @@
         "index": {
           "description": "Produce linearly interpolated graph for the given points in time where the magnitudes of the points are distances from now Linear interpolation can be slow If you don need it you can use the faster staircase variant sGraph Example lGraph will output the interpolated inputs at now one second before now and two seconds before now Complexity space log time where number of samples in the interval number of requested data points Depends now",
           "hierarchy": "FRP Netwire Analyze",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Analyze",
           "name": "lGraph",
           "normalized": "[a]-\u003eWire b c d e[e]",
@@ -2881,6 +3107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraph the given interval from now with the given number of evenly\n distributed points in time.  Convenience interface to \u003ccode\u003e\u003ca\u003elGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eLinear interpolation can be slow.  If you don't need it, you can use\n the faster staircase variant \u003ccode\u003e\u003ca\u003esGraphN\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Complexity: O(s) space, O(n * log s) time, where s = number of\n   samples in the interval, n = number of requested data points.\n\u003c/li\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Analyze",
           "name": "lGraphN",
           "package": "netwire",
@@ -2890,6 +3117,7 @@
         "index": {
           "description": "Graph the given interval from now with the given number of evenly distributed points in time Convenience interface to lGraph Linear interpolation can be slow If you don need it you can use the faster staircase variant sGraphN Complexity space log time where number of samples in the interval number of requested data points Depends now",
           "hierarchy": "FRP Netwire Analyze",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Analyze",
           "name": "lGraphN",
           "normalized": "a-\u003eInt-\u003eWire b c d e[e]",
@@ -2906,6 +3134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow peak.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Analyze",
           "name": "lowPeak",
           "package": "netwire",
@@ -2916,6 +3145,7 @@
         "index": {
           "description": "Low peak Depends now",
           "hierarchy": "FRP Netwire Analyze",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Analyze",
           "name": "lowPeak",
           "package": "netwire",
@@ -2930,6 +3160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow peak with respect to the given comparison function.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Analyze",
           "name": "lowPeakBy",
           "package": "netwire",
@@ -2940,6 +3171,7 @@
         "index": {
           "description": "Low peak with respect to the given comparison function Depends now",
           "hierarchy": "FRP Netwire Analyze",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Analyze",
           "name": "lowPeakBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eWire b c d a a",
@@ -2956,6 +3188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the average of the signal over the given interval (from\n now).  This is done by calculating the integral of the corresponding\n staircase graph and dividing it by the interval length.  See\n \u003ccode\u003e\u003ca\u003escAvg\u003c/a\u003e\u003c/code\u003e for details.\n\u003c/p\u003e\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003elAvg\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExample: \u003ccode\u003esAvg 2\u003c/code\u003e\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Complexity: O(s) space, O(s) time wrt number of samples in the\n   interval.\n\u003c/li\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Analyze",
           "name": "sAvg",
           "package": "netwire",
@@ -2965,6 +3198,7 @@
         "index": {
           "description": "Calculate the average of the signal over the given interval from now This is done by calculating the integral of the corresponding staircase graph and dividing it by the interval length See scAvg for details See also lAvg Example sAvg Complexity space time wrt number of samples in the interval Depends now",
           "hierarchy": "FRP Netwire Analyze",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Analyze",
           "name": "sAvg",
           "normalized": "a-\u003eWire b c d e e",
@@ -2981,6 +3215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a staircase graph for the given points in time, where the\n magnitudes of the points are distances from \u003cem\u003enow\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003elGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExample: \u003ccode\u003esGraph [0, 1, 2]\u003c/code\u003e will output the inputs at \u003cem\u003enow\u003c/em\u003e, one\n second before now and two seconds before now.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Complexity: O(s) space, O(n * log s) time, where s = number of\n   samples in the interval, n = number of requested data points.\n\u003c/li\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Analyze",
           "name": "sGraph",
           "package": "netwire",
@@ -2990,6 +3225,7 @@
         "index": {
           "description": "Produce staircase graph for the given points in time where the magnitudes of the points are distances from now See also lGraph Example sGraph will output the inputs at now one second before now and two seconds before now Complexity space log time where number of samples in the interval number of requested data points Depends now",
           "hierarchy": "FRP Netwire Analyze",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Analyze",
           "name": "sGraph",
           "normalized": "[a]-\u003eWire b c d e[e]",
@@ -3006,6 +3242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraph the given interval from now with the given number of evenly\n distributed points in time.  Convenience interface to \u003ccode\u003e\u003ca\u003esGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003elGraphN\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Complexity: O(s) space, O(n * log s) time, where s = number of\n   samples in the interval, n = number of requested data points.\n\u003c/li\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Analyze",
           "name": "sGraphN",
           "package": "netwire",
@@ -3015,6 +3252,7 @@
         "index": {
           "description": "Graph the given interval from now with the given number of evenly distributed points in time Convenience interface to sGraph See also lGraphN Complexity space log time where number of samples in the interval number of requested data points Depends now",
           "hierarchy": "FRP Netwire Analyze",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Analyze",
           "name": "sGraphN",
           "normalized": "a-\u003eInt-\u003eWire b c d e[e]",
@@ -3030,6 +3268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Move",
           "name": "Move",
           "package": "netwire",
@@ -3038,6 +3277,7 @@
         },
         "index": {
           "hierarchy": "FRP Netwire Move",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Move",
           "name": "Move",
           "package": "netwire",
@@ -3052,6 +3292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime derivative of the input signal.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003cli\u003e Inhibits: at singularities.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Move",
           "name": "derivative",
           "package": "netwire",
@@ -3062,6 +3303,7 @@
         "index": {
           "description": "Time derivative of the input signal Depends now Inhibits at singularities",
           "hierarchy": "FRP Netwire Move",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Move",
           "name": "derivative",
           "package": "netwire",
@@ -3075,6 +3317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntegrate the input signal over time.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: before now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Move",
           "name": "integral",
           "package": "netwire",
@@ -3084,6 +3327,7 @@
         "index": {
           "description": "Integrate the input signal over time Depends before now",
           "hierarchy": "FRP Netwire Move",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Move",
           "name": "integral",
           "normalized": "a-\u003eWire b c d a a",
@@ -3099,6 +3343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntegrate the left input signal over time, but apply the given\n correction function to it.  This can be used to implement collision\n detection/reaction.\n\u003c/p\u003e\u003cp\u003eThe right signal of type \u003ccode\u003ew\u003c/code\u003e is the \u003cem\u003eworld value\u003c/em\u003e.  It is just passed\n to the correction function for reference and is not used otherwise.\n\u003c/p\u003e\u003cp\u003eThe correction function must be idempotent with respect to the world\n value: \u003ccode\u003ef w (f w x) = f w x\u003c/code\u003e.  This is necessary and sufficient to\n protect time continuity.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: before now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Move",
           "name": "integralWith",
           "package": "netwire",
@@ -3108,6 +3353,7 @@
         "index": {
           "description": "Integrate the left input signal over time but apply the given correction function to it This can be used to implement collision detection reaction The right signal of type is the world value It is just passed to the correction function for reference and is not used otherwise The correction function must be idempotent with respect to the world value This is necessary and sufficient to protect time continuity Depends before now",
           "hierarchy": "FRP Netwire Move",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Move",
           "name": "integralWith",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eWire c d e(b,a)b",
@@ -3123,6 +3369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Noise",
           "name": "Noise",
           "package": "netwire",
@@ -3131,6 +3378,7 @@
         },
         "index": {
           "hierarchy": "FRP Netwire Noise",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Noise",
           "name": "Noise",
           "package": "netwire",
@@ -3145,6 +3393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNoise events with the given distance between events.  Use \u003ccode\u003e\u003ca\u003ehold\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003eholdFor\u003c/a\u003e\u003c/code\u003e to generate a staircase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Noise",
           "name": "noise",
           "package": "netwire",
@@ -3154,6 +3403,7 @@
         "index": {
           "description": "Noise events with the given distance between events Use hold or holdFor to generate staircase",
           "hierarchy": "FRP Netwire Noise",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Noise",
           "name": "noise",
           "normalized": "a-\u003eb-\u003eWire c d e f(Event g)",
@@ -3169,6 +3419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNoise events with the given distance between events.  Noise will be\n in the given range.  Use \u003ccode\u003e\u003ca\u003ehold\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eholdFor\u003c/a\u003e\u003c/code\u003e to generate a staircase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Noise",
           "name": "noiseR",
           "package": "netwire",
@@ -3178,6 +3429,7 @@
         "index": {
           "description": "Noise events with the given distance between events Noise will be in the given range Use hold or holdFor to generate staircase",
           "hierarchy": "FRP Netwire Noise",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Noise",
           "name": "noiseR",
           "normalized": "a-\u003e(b,b)-\u003ec-\u003eWire d e f g(Event b)",
@@ -3193,6 +3445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience interface to \u003ccode\u003e\u003ca\u003enoise\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003eStdGen\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Noise",
           "name": "stdNoise",
           "package": "netwire",
@@ -3202,6 +3455,7 @@
         "index": {
           "description": "Convenience interface to noise for StdGen",
           "hierarchy": "FRP Netwire Noise",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Noise",
           "name": "stdNoise",
           "normalized": "a-\u003eInt-\u003eWire b c d e(Event f)",
@@ -3218,6 +3472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience interface to \u003ccode\u003e\u003ca\u003enoiseR\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003eStdGen\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Noise",
           "name": "stdNoiseR",
           "package": "netwire",
@@ -3227,6 +3482,7 @@
         "index": {
           "description": "Convenience interface to noiseR for StdGen",
           "hierarchy": "FRP Netwire Noise",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Noise",
           "name": "stdNoiseR",
           "normalized": "a-\u003e(b,b)-\u003eInt-\u003eWire c d e f(Event b)",
@@ -3243,6 +3499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience interface to \u003ccode\u003e\u003ca\u003ewackelkontakt\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003eStdGen\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Noise",
           "name": "stdWackelkontakt",
           "package": "netwire",
@@ -3252,6 +3509,7 @@
         "index": {
           "description": "Convenience interface to wackelkontakt for StdGen",
           "hierarchy": "FRP Netwire Noise",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Noise",
           "name": "stdWackelkontakt",
           "normalized": "a-\u003eDouble-\u003eInt-\u003eWire b c d e e",
@@ -3268,6 +3526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomly produce or inhibit with the given probability, each time\n for the given duration.\n\u003c/p\u003e\u003cp\u003eThe name \u003cem\u003eWackelkontakt\u003c/em\u003e (German for \u003cem\u003eslack joint\u003c/em\u003e) is a Netwire\n running gag.  It makes sure that you revisit the documentation from\n time to time. =)\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Depends: now.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Noise",
           "name": "wackelkontakt",
           "package": "netwire",
@@ -3277,6 +3536,7 @@
         "index": {
           "description": "Randomly produce or inhibit with the given probability each time for the given duration The name Wackelkontakt German for slack joint is Netwire running gag It makes sure that you revisit the documentation from time to time Depends now",
           "hierarchy": "FRP Netwire Noise",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Noise",
           "name": "wackelkontakt",
           "normalized": "a-\u003eDouble-\u003eb-\u003eWire c d e f f",
@@ -3291,6 +3551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "Timeline",
           "package": "netwire",
@@ -3299,6 +3560,7 @@
         },
         "index": {
           "hierarchy": "FRP Netwire Utils Timeline",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "Timeline",
           "package": "netwire",
@@ -3313,6 +3575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA time line is a non-empty set of samples together with time\n information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "Timeline",
           "package": "netwire",
@@ -3322,6 +3585,7 @@
         "index": {
           "description": "time line is non-empty set of samples together with time information",
           "hierarchy": "FRP Netwire Utils Timeline",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "Timeline",
           "package": "netwire",
@@ -3336,6 +3600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert the given data point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "insert",
           "package": "netwire",
@@ -3346,6 +3611,7 @@
         "index": {
           "description": "Insert the given data point",
           "hierarchy": "FRP Netwire Utils Timeline",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eTimeline a b-\u003eTimeline a b",
@@ -3361,6 +3627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinearly interpolate the points in the time line, integrate the\n given time interval of the graph, divide by the interval length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "linAvg",
           "package": "netwire",
@@ -3371,6 +3638,7 @@
         "index": {
           "description": "Linearly interpolate the points in the time line integrate the given time interval of the graph divide by the interval length",
           "hierarchy": "FRP Netwire Utils Timeline",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "linAvg",
           "normalized": "a-\u003ea-\u003eTimeline a b-\u003eb",
@@ -3387,6 +3655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCut the timeline at the given point in time \u003ccode\u003et\u003c/code\u003e, such that all\n samples up to but not including \u003ccode\u003et\u003c/code\u003e are forgotten.  The most recent\n sample before \u003ccode\u003et\u003c/code\u003e is moved and interpolated accordingly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "linCutL",
           "package": "netwire",
@@ -3397,6 +3666,7 @@
         "index": {
           "description": "Cut the timeline at the given point in time such that all samples up to but not including are forgotten The most recent sample before is moved and interpolated accordingly",
           "hierarchy": "FRP Netwire Utils Timeline",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "linCutL",
           "normalized": "a-\u003eTimeline a b-\u003eTimeline a b",
@@ -3413,6 +3683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCut the timeline at the given point in time \u003ccode\u003et\u003c/code\u003e, such that all\n samples later than \u003ccode\u003et\u003c/code\u003e are forgotten.  The most recent sample after\n \u003ccode\u003et\u003c/code\u003e is moved and interpolated accordingly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "linCutR",
           "package": "netwire",
@@ -3423,6 +3694,7 @@
         "index": {
           "description": "Cut the timeline at the given point in time such that all samples later than are forgotten The most recent sample after is moved and interpolated accordingly",
           "hierarchy": "FRP Netwire Utils Timeline",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "linCutR",
           "normalized": "a-\u003eTimeline a b-\u003eTimeline a b",
@@ -3439,6 +3711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up with linear sampling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "linLookup",
           "package": "netwire",
@@ -3449,6 +3722,7 @@
         "index": {
           "description": "Look up with linear sampling",
           "hierarchy": "FRP Netwire Utils Timeline",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "linLookup",
           "normalized": "a-\u003eTimeline a b-\u003eb",
@@ -3465,6 +3739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntegrate the given time interval of the staircase, divide by the\n interval length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "scAvg",
           "package": "netwire",
@@ -3475,6 +3750,7 @@
         "index": {
           "description": "Integrate the given time interval of the staircase divide by the interval length",
           "hierarchy": "FRP Netwire Utils Timeline",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "scAvg",
           "normalized": "a-\u003ea-\u003eTimeline a b-\u003eb",
@@ -3491,6 +3767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCut the timeline at the given point in time \u003ccode\u003et\u003c/code\u003e, such that all\n samples up to but not including \u003ccode\u003et\u003c/code\u003e are forgotten.  The most recent\n sample before \u003ccode\u003et\u003c/code\u003e is moved accordingly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "scCutL",
           "package": "netwire",
@@ -3501,6 +3778,7 @@
         "index": {
           "description": "Cut the timeline at the given point in time such that all samples up to but not including are forgotten The most recent sample before is moved accordingly",
           "hierarchy": "FRP Netwire Utils Timeline",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "scCutL",
           "normalized": "a-\u003eTimeline a b-\u003eTimeline a b",
@@ -3517,6 +3795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCut the timeline at the given point in time \u003ccode\u003et\u003c/code\u003e, such that all\n samples later than \u003ccode\u003et\u003c/code\u003e are forgotten.  The earliest sample after \u003ccode\u003et\u003c/code\u003e\n is moved accordingly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "scCutR",
           "package": "netwire",
@@ -3527,6 +3806,7 @@
         "index": {
           "description": "Cut the timeline at the given point in time such that all samples later than are forgotten The earliest sample after is moved accordingly",
           "hierarchy": "FRP Netwire Utils Timeline",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "scCutR",
           "normalized": "a-\u003eTimeline a b-\u003eTimeline a b",
@@ -3543,6 +3823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up on staircase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "scLookup",
           "package": "netwire",
@@ -3553,6 +3834,7 @@
         "index": {
           "description": "Look up on staircase",
           "hierarchy": "FRP Netwire Utils Timeline",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "scLookup",
           "normalized": "a-\u003eTimeline a b-\u003eb",
@@ -3569,6 +3851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingleton timeline with the given point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "singleton",
           "package": "netwire",
@@ -3579,6 +3862,7 @@
         "index": {
           "description": "Singleton timeline with the given point",
           "hierarchy": "FRP Netwire Utils Timeline",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "singleton",
           "normalized": "a-\u003eb-\u003eTimeline a b",
@@ -3594,6 +3878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion of two time lines.  Right-biased.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "union",
           "package": "netwire",
@@ -3604,6 +3889,7 @@
         "index": {
           "description": "Union of two time lines Right-biased",
           "hierarchy": "FRP Netwire Utils Timeline",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire.Utils.Timeline",
           "name": "union",
           "normalized": "Timeline a b-\u003eTimeline a b-\u003eTimeline a b",
@@ -3618,6 +3904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire",
           "name": "Netwire",
           "package": "netwire",
@@ -3626,6 +3913,7 @@
         },
         "index": {
           "hierarchy": "FRP Netwire",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire",
           "name": "Netwire",
           "package": "netwire",
@@ -3640,6 +3928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple wires with time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire",
           "name": "SimpleWire",
           "package": "netwire",
@@ -3649,6 +3938,7 @@
         "index": {
           "description": "Simple wires with time",
           "hierarchy": "FRP Netwire",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire",
           "name": "SimpleWire",
           "package": "netwire",
@@ -3663,6 +3953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wire is a signal function.  It maps a reactive value to another\n reactive value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire",
           "name": "Wire",
           "package": "netwire",
@@ -3672,6 +3963,7 @@
         "index": {
           "description": "wire is signal function It maps reactive value to another reactive value",
           "hierarchy": "FRP Netwire",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire",
           "name": "Wire",
           "package": "netwire",
@@ -3686,6 +3978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePure wires.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:18 UTC 2014",
           "module": "FRP.Netwire",
           "name": "WireP",
           "package": "netwire",
@@ -3695,6 +3988,7 @@
         "index": {
           "description": "Pure wires",
           "hierarchy": "FRP Netwire",
+          "indexed": "2014-03-11T19:27:18",
           "module": "FRP.Netwire",
           "name": "WireP",
           "package": "netwire",

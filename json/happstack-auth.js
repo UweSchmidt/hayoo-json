@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "happstack-auth"
+        "phrase": "happstack-auth",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal representation of state data types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "Data",
           "package": "happstack-auth",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Internal representation of state data types",
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "Data",
           "package": "happstack-auth",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd this to your Dependency-List of your application state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "AuthState",
           "package": "happstack-auth",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Add this to your Dependency-List of your application state",
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "AuthState",
           "package": "happstack-auth",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "SaltedHash",
           "package": "happstack-auth",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "SaltedHash",
           "package": "happstack-auth",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "SessionData",
           "package": "happstack-auth",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "SessionData",
           "package": "happstack-auth",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract session identification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "SessionKey",
           "package": "happstack-auth",
@@ -116,6 +125,7 @@
         "index": {
           "description": "Abstract session identification",
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "SessionKey",
           "package": "happstack-auth",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "Sessions",
           "package": "happstack-auth",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "Sessions",
           "package": "happstack-auth",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "User",
           "package": "happstack-auth",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "User",
           "package": "happstack-auth",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "UserDB",
           "package": "happstack-auth",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "UserDB",
           "package": "happstack-auth",
@@ -193,6 +209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract user identification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "UserId",
           "package": "happstack-auth",
@@ -202,6 +219,7 @@
         "index": {
           "description": "Abstract user identification",
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "UserId",
           "package": "happstack-auth",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "Username",
           "package": "happstack-auth",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "Username",
           "package": "happstack-auth",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "AuthState",
           "package": "happstack-auth",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "AuthState",
           "package": "happstack-auth",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "SaltedHash",
           "package": "happstack-auth",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "SaltedHash",
           "normalized": "SaltedHash[Octet]",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "SessionData",
           "package": "happstack-auth",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "SessionData",
           "package": "happstack-auth",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "SessionKey",
           "package": "happstack-auth",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "SessionKey",
           "package": "happstack-auth",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "Sessions",
           "package": "happstack-auth",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "Sessions",
           "package": "happstack-auth",
@@ -348,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "User",
           "package": "happstack-auth",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "User",
           "package": "happstack-auth",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "UserId",
           "package": "happstack-auth",
@@ -379,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "UserId",
           "package": "happstack-auth",
@@ -392,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "Username",
           "package": "happstack-auth",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "Username",
           "package": "happstack-auth",
@@ -414,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "nextUid",
           "package": "happstack-auth",
@@ -423,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "nextUid",
           "package": "happstack-auth",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "sesFingerprint",
           "package": "happstack-auth",
@@ -445,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "sesFingerprint",
           "normalized": "(Either String ByteString,Maybe ByteString)",
@@ -460,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "sesTimeout",
           "package": "happstack-auth",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "sesTimeout",
           "package": "happstack-auth",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "sesUid",
           "package": "happstack-auth",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "sesUid",
           "package": "happstack-auth",
@@ -504,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "sesUsername",
           "package": "happstack-auth",
@@ -513,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "sesUsername",
           "package": "happstack-auth",
@@ -526,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "sessions",
           "package": "happstack-auth",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "sessions",
           "package": "happstack-auth",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "unUid",
           "package": "happstack-auth",
@@ -556,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "unUid",
           "package": "happstack-auth",
@@ -569,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "unUser",
           "package": "happstack-auth",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "unUser",
           "package": "happstack-auth",
@@ -591,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "unsession",
           "package": "happstack-auth",
@@ -600,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "unsession",
           "package": "happstack-auth",
@@ -612,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "userid",
           "package": "happstack-auth",
@@ -621,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "userid",
           "package": "happstack-auth",
@@ -633,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "username",
           "package": "happstack-auth",
@@ -642,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "username",
           "package": "happstack-auth",
@@ -654,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "userpass",
           "package": "happstack-auth",
@@ -663,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "userpass",
           "package": "happstack-auth",
@@ -675,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal.Data",
           "name": "users",
           "package": "happstack-auth",
@@ -684,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal Data",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal.Data",
           "name": "users",
           "package": "happstack-auth",
@@ -697,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal representation of state functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "Internal",
           "package": "happstack-auth",
@@ -706,6 +769,7 @@
         "index": {
           "description": "Internal representation of state functions",
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "Internal",
           "package": "happstack-auth",
@@ -719,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "AddUser",
           "package": "happstack-auth",
@@ -727,6 +792,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "AddUser",
           "package": "happstack-auth",
@@ -740,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "AskUsers",
           "package": "happstack-auth",
@@ -748,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "AskUsers",
           "package": "happstack-auth",
@@ -761,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "AuthUser",
           "package": "happstack-auth",
@@ -769,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "AuthUser",
           "package": "happstack-auth",
@@ -782,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "ChangePassword",
           "package": "happstack-auth",
@@ -790,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "ChangePassword",
           "package": "happstack-auth",
@@ -803,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "ClearAllSessions",
           "package": "happstack-auth",
@@ -811,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "ClearAllSessions",
           "package": "happstack-auth",
@@ -824,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "ClearExpiredSessions",
           "package": "happstack-auth",
@@ -832,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "ClearExpiredSessions",
           "package": "happstack-auth",
@@ -845,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "DelSession",
           "package": "happstack-auth",
@@ -853,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "DelSession",
           "package": "happstack-auth",
@@ -866,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "DelUser",
           "package": "happstack-auth",
@@ -874,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "DelUser",
           "package": "happstack-auth",
@@ -887,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "GetSession",
           "package": "happstack-auth",
@@ -895,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "GetSession",
           "package": "happstack-auth",
@@ -908,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "GetSessions",
           "package": "happstack-auth",
@@ -916,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "GetSessions",
           "package": "happstack-auth",
@@ -929,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "GetUser",
           "package": "happstack-auth",
@@ -937,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "GetUser",
           "package": "happstack-auth",
@@ -950,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "GetUserById",
           "package": "happstack-auth",
@@ -958,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "GetUserById",
           "package": "happstack-auth",
@@ -971,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "IsUser",
           "package": "happstack-auth",
@@ -979,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "IsUser",
           "package": "happstack-auth",
@@ -992,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "ListUsers",
           "package": "happstack-auth",
@@ -1000,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "ListUsers",
           "package": "happstack-auth",
@@ -1013,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "NewSession",
           "package": "happstack-auth",
@@ -1021,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "NewSession",
           "package": "happstack-auth",
@@ -1034,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "NumSessions",
           "package": "happstack-auth",
@@ -1042,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "NumSessions",
           "package": "happstack-auth",
@@ -1055,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "NumUsers",
           "package": "happstack-auth",
@@ -1063,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "NumUsers",
           "package": "happstack-auth",
@@ -1076,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "SetPassword",
           "package": "happstack-auth",
@@ -1084,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "SetPassword",
           "package": "happstack-auth",
@@ -1097,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "SetSession",
           "package": "happstack-auth",
@@ -1105,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "SetSession",
           "package": "happstack-auth",
@@ -1118,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "UpdateTimeout",
           "package": "happstack-auth",
@@ -1126,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "UpdateTimeout",
           "package": "happstack-auth",
@@ -1139,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "UpdateUser",
           "package": "happstack-auth",
@@ -1147,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "UpdateUser",
           "package": "happstack-auth",
@@ -1160,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "AddUser",
           "package": "happstack-auth",
@@ -1169,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "AddUser",
           "package": "happstack-auth",
@@ -1182,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "AskUsers",
           "package": "happstack-auth",
@@ -1191,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "AskUsers",
           "package": "happstack-auth",
@@ -1204,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "AuthUser",
           "package": "happstack-auth",
@@ -1213,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "AuthUser",
           "package": "happstack-auth",
@@ -1226,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "ChangePassword",
           "package": "happstack-auth",
@@ -1235,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "ChangePassword",
           "package": "happstack-auth",
@@ -1248,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "ClearAllSessions",
           "package": "happstack-auth",
@@ -1257,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "ClearAllSessions",
           "package": "happstack-auth",
@@ -1270,6 +1386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "ClearExpiredSessions",
           "package": "happstack-auth",
@@ -1279,6 +1396,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "ClearExpiredSessions",
           "package": "happstack-auth",
@@ -1292,6 +1410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "DelSession",
           "package": "happstack-auth",
@@ -1301,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "DelSession",
           "package": "happstack-auth",
@@ -1314,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "DelUser",
           "package": "happstack-auth",
@@ -1323,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "DelUser",
           "package": "happstack-auth",
@@ -1336,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "GetSession",
           "package": "happstack-auth",
@@ -1345,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "GetSession",
           "package": "happstack-auth",
@@ -1358,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "GetSessions",
           "package": "happstack-auth",
@@ -1367,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "GetSessions",
           "package": "happstack-auth",
@@ -1380,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "GetUser",
           "package": "happstack-auth",
@@ -1389,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "GetUser",
           "package": "happstack-auth",
@@ -1402,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "GetUserById",
           "package": "happstack-auth",
@@ -1411,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "GetUserById",
           "package": "happstack-auth",
@@ -1424,6 +1554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "IsUser",
           "package": "happstack-auth",
@@ -1433,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "IsUser",
           "package": "happstack-auth",
@@ -1446,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "ListUsers",
           "package": "happstack-auth",
@@ -1455,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "ListUsers",
           "package": "happstack-auth",
@@ -1468,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "NewSession",
           "package": "happstack-auth",
@@ -1477,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "NewSession",
           "package": "happstack-auth",
@@ -1490,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "NumSessions",
           "package": "happstack-auth",
@@ -1499,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "NumSessions",
           "package": "happstack-auth",
@@ -1512,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "NumUsers",
           "package": "happstack-auth",
@@ -1521,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "NumUsers",
           "package": "happstack-auth",
@@ -1534,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "SetPassword",
           "package": "happstack-auth",
@@ -1543,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "SetPassword",
           "package": "happstack-auth",
@@ -1556,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "SetSession",
           "package": "happstack-auth",
@@ -1565,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "SetSession",
           "package": "happstack-auth",
@@ -1578,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "UpdateTimeout",
           "package": "happstack-auth",
@@ -1587,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "UpdateTimeout",
           "package": "happstack-auth",
@@ -1600,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "UpdateUser",
           "package": "happstack-auth",
@@ -1609,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "UpdateUser",
           "package": "happstack-auth",
@@ -1622,6 +1770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth.Internal",
           "name": "buildSaltAndHash",
           "package": "happstack-auth",
@@ -1631,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth Internal",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth.Internal",
           "name": "buildSaltAndHash",
           "normalized": "String-\u003eIO(Maybe SaltedHash)",
@@ -1647,6 +1797,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHappstack.Auth offers an easy way to implement user authentication for\n Happstack web applications. It uses \u003ca\u003eHappstack.State\u003c/a\u003e as database back-end\n and SHA512 for password encryption. Session safety is ensured by a HTTP\n header fingerprint (client ip & user-agent) and a configurable session\n timeout.\n\u003c/p\u003e\u003cp\u003eTo use this module, add the \u003ccode\u003e\u003ca\u003eAuthState\u003c/a\u003e\u003c/code\u003e to your state dependencies, for\n example:\n\u003c/p\u003e\u003cpre\u003e import Happstack.Auth\n\n instance Component MyState where\n     type Dependencies MyState = AuthState :+: End\n     initialValue = ...\n\u003c/pre\u003e\u003cp\u003eOne of the first things in your response monad should be \u003ccode\u003e\u003ca\u003eupdateTimeout\u003c/a\u003e\u003c/code\u003e to\n make sure session timeouts are updated correctly.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "Auth",
           "package": "happstack-auth",
@@ -1656,6 +1807,7 @@
         "index": {
           "description": "Happstack.Auth offers an easy way to implement user authentication for Happstack web applications It uses Happstack.State as database back-end and SHA512 for password encryption Session safety is ensured by HTTP header fingerprint client ip user-agent and configurable session timeout To use this module add the AuthState to your state dependencies for example import Happstack.Auth instance Component MyState where type Dependencies MyState AuthState End initialValue One of the first things in your response monad should be updateTimeout to make sure session timeouts are updated correctly",
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "Auth",
           "package": "happstack-auth",
@@ -1670,6 +1822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd this to your Dependency-List of your application state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "AuthState",
           "package": "happstack-auth",
@@ -1679,6 +1832,7 @@
         "index": {
           "description": "Add this to your Dependency-List of your application state",
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "AuthState",
           "package": "happstack-auth",
@@ -1692,6 +1846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "Minutes",
           "package": "happstack-auth",
@@ -1700,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "Minutes",
           "package": "happstack-auth",
@@ -1713,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "Password",
           "package": "happstack-auth",
@@ -1721,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "Password",
           "package": "happstack-auth",
@@ -1734,6 +1892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "SessionData",
           "package": "happstack-auth",
@@ -1742,6 +1901,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "SessionData",
           "package": "happstack-auth",
@@ -1756,6 +1916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract session identification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "SessionKey",
           "package": "happstack-auth",
@@ -1765,6 +1926,7 @@
         "index": {
           "description": "Abstract session identification",
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "SessionKey",
           "package": "happstack-auth",
@@ -1778,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "User",
           "package": "happstack-auth",
@@ -1786,6 +1949,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "User",
           "package": "happstack-auth",
@@ -1800,6 +1964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract user identification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "UserId",
           "package": "happstack-auth",
@@ -1809,6 +1974,7 @@
         "index": {
           "description": "Abstract user identification",
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "UserId",
           "package": "happstack-auth",
@@ -1822,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "Username",
           "package": "happstack-auth",
@@ -1830,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "Username",
           "package": "happstack-auth",
@@ -1843,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "SessionData",
           "package": "happstack-auth",
@@ -1852,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "SessionData",
           "package": "happstack-auth",
@@ -1865,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "addUser",
           "package": "happstack-auth",
@@ -1874,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "addUser",
           "normalized": "Username-\u003ePassword-\u003ea(Maybe User)",
@@ -1890,6 +2062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWarning: This \u003ccode\u003e\u003ca\u003eUserDB\u003c/a\u003e\u003c/code\u003e uses the internal types from\n \u003ca\u003eHappstack.Auth.Data.Internal\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "askUsers",
           "package": "happstack-auth",
@@ -1900,6 +2073,7 @@
         "index": {
           "description": "Warning This UserDB uses the internal types from Happstack.Auth.Data.Internal",
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "askUsers",
           "package": "happstack-auth",
@@ -1913,6 +2087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "authProxy",
           "package": "happstack-auth",
@@ -1922,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "authProxy",
           "package": "happstack-auth",
@@ -1935,6 +2111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "authUser",
           "package": "happstack-auth",
@@ -1944,6 +2121,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "authUser",
           "normalized": "Username-\u003ePassword-\u003ea(Maybe User)",
@@ -1959,6 +2137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "changePassword",
           "package": "happstack-auth",
@@ -1967,6 +2146,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "changePassword",
           "normalized": "Username-\u003ePassword-\u003ePassword-\u003ea Bool",
@@ -1982,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "clearAllSessions",
           "package": "happstack-auth",
@@ -1991,6 +2172,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "clearAllSessions",
           "normalized": "a()",
@@ -2006,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "clearExpiredSessions",
           "package": "happstack-auth",
@@ -2015,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "clearExpiredSessions",
           "normalized": "a()",
@@ -2030,6 +2214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "clearSessionCookie",
           "package": "happstack-auth",
@@ -2039,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "clearSessionCookie",
           "normalized": "a()",
@@ -2054,6 +2240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "delSession",
           "package": "happstack-auth",
@@ -2063,6 +2250,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "delSession",
           "normalized": "SessionKey-\u003ea()",
@@ -2078,6 +2266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "delUser",
           "package": "happstack-auth",
@@ -2087,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "delUser",
           "normalized": "Username-\u003ea()",
@@ -2102,6 +2292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "getSession",
           "package": "happstack-auth",
@@ -2111,6 +2302,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "getSession",
           "normalized": "SessionKey-\u003ea(Maybe SessionData)",
@@ -2127,6 +2319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the \u003ccode\u003e\u003ca\u003eSessionData\u003c/a\u003e\u003c/code\u003e of the currently logged in user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "getSessionData",
           "package": "happstack-auth",
@@ -2137,6 +2330,7 @@
         "index": {
           "description": "Get the SessionData of the currently logged in user",
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "getSessionData",
           "package": "happstack-auth",
@@ -2151,6 +2345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the identifier for the current session\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "getSessionKey",
           "package": "happstack-auth",
@@ -2161,6 +2356,7 @@
         "index": {
           "description": "Get the identifier for the current session",
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "getSessionKey",
           "package": "happstack-auth",
@@ -2175,6 +2371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWarning: This \u003ccode\u003e\u003ca\u003eSessions\u003c/a\u003e\u003c/code\u003e uses the internal types from\n \u003ca\u003eHappstack.Auth.Data.Internal\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "getSessions",
           "package": "happstack-auth",
@@ -2185,6 +2382,7 @@
         "index": {
           "description": "Warning This Sessions uses the internal types from Happstack.Auth.Data.Internal",
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "getSessions",
           "package": "happstack-auth",
@@ -2198,6 +2396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "getUser",
           "package": "happstack-auth",
@@ -2207,6 +2406,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "getUser",
           "normalized": "Username-\u003ea(Maybe User)",
@@ -2222,6 +2422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "getUserById",
           "package": "happstack-auth",
@@ -2231,6 +2432,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "getUserById",
           "normalized": "UserId-\u003ea(Maybe User)",
@@ -2246,6 +2448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "isUser",
           "package": "happstack-auth",
@@ -2255,6 +2458,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "isUser",
           "normalized": "Username-\u003ea Bool",
@@ -2270,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "listUsers",
           "package": "happstack-auth",
@@ -2279,6 +2484,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "listUsers",
           "normalized": "a[Username]",
@@ -2295,6 +2501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequire a login\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "loginGate",
           "package": "happstack-auth",
@@ -2304,6 +2511,7 @@
         "index": {
           "description": "Require login",
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "loginGate",
           "normalized": "ServerPartT a b-\u003eServerPartT a b-\u003eServerPartT a b",
@@ -2320,6 +2528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandles data from a login form to log the user in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "loginHandler",
           "package": "happstack-auth",
@@ -2329,6 +2538,7 @@
         "index": {
           "description": "Handles data from login form to log the user in",
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "loginHandler",
           "normalized": "Minutes-\u003eMaybe String-\u003eMaybe String-\u003ea b-\u003e(Maybe Username-\u003eMaybe Password-\u003ea b)-\u003ea b",
@@ -2344,6 +2554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "logoutHandler",
           "package": "happstack-auth",
@@ -2352,6 +2563,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "logoutHandler",
           "normalized": "a b-\u003ea b",
@@ -2367,6 +2579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "newSession",
           "package": "happstack-auth",
@@ -2376,6 +2589,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "newSession",
           "normalized": "SessionData-\u003ea SessionKey",
@@ -2391,6 +2605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "numSessions",
           "package": "happstack-auth",
@@ -2400,6 +2615,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "numSessions",
           "package": "happstack-auth",
@@ -2413,6 +2629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "numUsers",
           "package": "happstack-auth",
@@ -2422,6 +2639,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "numUsers",
           "package": "happstack-auth",
@@ -2435,6 +2653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "performLogin",
           "package": "happstack-auth",
@@ -2443,6 +2662,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "performLogin",
           "normalized": "Minutes-\u003eUser-\u003ea b-\u003ea b",
@@ -2458,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "performLogout",
           "package": "happstack-auth",
@@ -2467,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "performLogout",
           "normalized": "SessionKey-\u003ea()",
@@ -2483,6 +2705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister a new user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "register",
           "package": "happstack-auth",
@@ -2492,6 +2715,7 @@
         "index": {
           "description": "Register new user",
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "register",
           "normalized": "Minutes-\u003eUsername-\u003ePassword-\u003ea b-\u003ea b-\u003ea b",
@@ -2507,6 +2731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeither IP or \"x-forwarded-for\" header & user-agent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "sessionFingerprint",
           "package": "happstack-auth",
@@ -2517,6 +2742,7 @@
         "index": {
           "description": "either IP or x-forwarded-for header user-agent",
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "sessionFingerprint",
           "normalized": "(Either String ByteString,Maybe ByteString)",
@@ -2532,6 +2758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "sessionTimeout",
           "package": "happstack-auth",
@@ -2541,6 +2768,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "sessionTimeout",
           "package": "happstack-auth",
@@ -2554,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "sessionUserId",
           "package": "happstack-auth",
@@ -2563,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "sessionUserId",
           "package": "happstack-auth",
@@ -2576,6 +2806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "sessionUsername",
           "package": "happstack-auth",
@@ -2585,6 +2816,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "sessionUsername",
           "package": "happstack-auth",
@@ -2598,6 +2830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "setPassword",
           "package": "happstack-auth",
@@ -2607,6 +2840,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "setPassword",
           "normalized": "Username-\u003ePassword-\u003ea Bool",
@@ -2622,6 +2856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "setSession",
           "package": "happstack-auth",
@@ -2631,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "setSession",
           "normalized": "SessionKey-\u003eSessionData-\u003ea()",
@@ -2647,6 +2883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the session timeout of logged in users. Add this to the top of your\n application route, for example:\n\u003c/p\u003e\u003cpre\u003e appRoute :: ServerPart Response\n appRoute = updateTimeout 5 \u003e\u003e msum\n     [ {- your routing here -}\n     ]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "updateTimeout",
           "package": "happstack-auth",
@@ -2657,6 +2894,7 @@
         "index": {
           "description": "Update the session timeout of logged in users Add this to the top of your application route for example appRoute ServerPart Response appRoute updateTimeout msum your routing here",
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "updateTimeout",
           "normalized": "Minutes-\u003ea()",
@@ -2673,6 +2911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate (replace) a user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "updateUser",
           "package": "happstack-auth",
@@ -2683,6 +2922,7 @@
         "index": {
           "description": "Update replace user",
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "updateUser",
           "normalized": "User-\u003ea()",
@@ -2698,6 +2938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "userId",
           "package": "happstack-auth",
@@ -2707,6 +2948,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "userId",
           "normalized": "User-\u003eUserId",
@@ -2722,6 +2964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "userName",
           "package": "happstack-auth",
@@ -2731,6 +2974,7 @@
         },
         "index": {
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "userName",
           "normalized": "User-\u003eUsername",
@@ -2747,6 +2991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eServerPartT\u003c/a\u003e\u003c/code\u003e with the \u003ccode\u003e\u003ca\u003eSessionData\u003c/a\u003e\u003c/code\u003e of the currently logged in user\n (if available)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:07 UTC 2014",
           "module": "Happstack.Auth",
           "name": "withSession",
           "package": "happstack-auth",
@@ -2756,6 +3001,7 @@
         "index": {
           "description": "Run ServerPartT with the SessionData of the currently logged in user if available",
           "hierarchy": "Happstack Auth",
+          "indexed": "2014-03-11T18:28:07",
           "module": "Happstack.Auth",
           "name": "withSession",
           "normalized": "(SessionData-\u003eServerPartT a b)-\u003eServerPartT a b-\u003eServerPartT a b",

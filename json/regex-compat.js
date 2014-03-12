@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "regex-compat"
+        "phrase": "regex-compat",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRegular expression matching.  Uses the POSIX regular expression\n interface in \u003ca\u003eText.Regex.Posix\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:50:58 UTC 2014",
           "module": "Text.Regex",
           "name": "Regex",
           "package": "regex-compat",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Regular expression matching Uses the POSIX regular expression interface in Text.Regex.Posix",
           "hierarchy": "Text Regex",
+          "indexed": "2014-03-11T19:50:58",
           "module": "Text.Regex",
           "name": "Regex",
           "package": "regex-compat",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA compiled regular expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:58 UTC 2014",
           "module": "Text.Regex",
           "name": "Regex",
           "package": "regex-compat",
@@ -50,6 +53,7 @@
         "index": {
           "description": "compiled regular expression",
           "hierarchy": "Text Regex",
+          "indexed": "2014-03-11T19:50:58",
           "module": "Text.Regex",
           "name": "Regex",
           "package": "regex-compat",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a regular expression against a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:58 UTC 2014",
           "module": "Text.Regex",
           "name": "matchRegex",
           "package": "regex-compat",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Match regular expression against string",
           "hierarchy": "Text Regex",
+          "indexed": "2014-03-11T19:50:58",
           "module": "Text.Regex",
           "name": "matchRegex",
           "normalized": "Regex-\u003eString-\u003eMaybe[String]",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a regular expression against a string, returning more information\n about the match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:58 UTC 2014",
           "module": "Text.Regex",
           "name": "matchRegexAll",
           "package": "regex-compat",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Match regular expression against string returning more information about the match",
           "hierarchy": "Text Regex",
+          "indexed": "2014-03-11T19:50:58",
           "module": "Text.Regex",
           "name": "matchRegexAll",
           "normalized": "Regex-\u003eString-\u003eMaybe(String,String,String,[String])",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a regular expression with the default options (multi-line,\n case-sensitive).  The syntax of regular expressions is\n otherwise that of \u003ccode\u003eegrep\u003c/code\u003e (i.e. POSIX \"extended\" regular\n expressions).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:58 UTC 2014",
           "module": "Text.Regex",
           "name": "mkRegex",
           "package": "regex-compat",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Makes regular expression with the default options multi-line case-sensitive The syntax of regular expressions is otherwise that of egrep i.e POSIX extended regular expressions",
           "hierarchy": "Text Regex",
+          "indexed": "2014-03-11T19:50:58",
           "module": "Text.Regex",
           "name": "mkRegex",
           "normalized": "String-\u003eRegex",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a regular expression, where the multi-line and\n case-sensitive options can be changed from the default settings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:58 UTC 2014",
           "module": "Text.Regex",
           "name": "mkRegexWithOpts",
           "package": "regex-compat",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Makes regular expression where the multi-line and case-sensitive options can be changed from the default settings",
           "hierarchy": "Text Regex",
+          "indexed": "2014-03-11T19:50:58",
           "module": "Text.Regex",
           "name": "mkRegexWithOpts",
           "normalized": "String-\u003eBool-\u003eBool-\u003eRegex",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplits a string based on a regular expression.  The regular expression\nshould identify one delimiter.\n\u003c/p\u003e\u003cp\u003eThis does not advance and produces an infinite list of [] if the regex\nmatches an empty string.  This misfeature is here to match the\nbehavior of the the original Text.Regex API.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:58 UTC 2014",
           "module": "Text.Regex",
           "name": "splitRegex",
           "package": "regex-compat",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Splits string based on regular expression The regular expression should identify one delimiter This does not advance and produces an infinite list of if the regex matches an empty string This misfeature is here to match the behavior of the the original Text.Regex API",
           "hierarchy": "Text Regex",
+          "indexed": "2014-03-11T19:50:58",
           "module": "Text.Regex",
           "name": "splitRegex",
           "normalized": "Regex-\u003eString-\u003e[String]",
@@ -191,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplaces every occurance of the given regexp with the replacement string.\n\u003c/p\u003e\u003cp\u003eIn the replacement string, \u003ccode\u003e\"\\1\"\u003c/code\u003e refers to the first substring;\n\u003ccode\u003e\"\\2\"\u003c/code\u003e to the second, etc; and \u003ccode\u003e\"\\0\"\u003c/code\u003e to the entire match.\n\u003ccode\u003e\"\\\\\\\\\"\u003c/code\u003e will insert a literal backslash.\n\u003c/p\u003e\u003cp\u003eThis does not advance if the regex matches an empty string.  This\nmisfeature is here to match the behavior of the the original\nText.Regex API.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:58 UTC 2014",
           "module": "Text.Regex",
           "name": "subRegex",
           "package": "regex-compat",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Replaces every occurance of the given regexp with the replacement string In the replacement string refers to the first substring to the second etc and to the entire match will insert literal backslash This does not advance if the regex matches an empty string This misfeature is here to match the behavior of the the original Text.Regex API",
           "hierarchy": "Text Regex",
+          "indexed": "2014-03-11T19:50:58",
           "module": "Text.Regex",
           "name": "subRegex",
           "normalized": "Regex-\u003eString-\u003eString-\u003eString",

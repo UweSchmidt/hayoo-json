@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "jspath"
+        "phrase": "jspath",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtract substructures from JSON structures by following a path.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:02:25 UTC 2014",
           "module": "Text.JSONb.Path",
           "name": "Path",
           "package": "jspath",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Extract substructures from JSON structures by following path",
           "hierarchy": "Text JSONb Path",
+          "indexed": "2014-03-11T19:02:25",
           "module": "Text.JSONb.Path",
           "name": "Path",
           "package": "jspath",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e is used to traverse a \u003ccode\u003eJSON\u003c/code\u003e structure and yield\n zero or more substructures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:25 UTC 2014",
           "module": "Text.JSONb.Path",
           "name": "Path",
           "package": "jspath",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Path is used to traverse JSON structure and yield zero or more substructures",
           "hierarchy": "Text JSONb Path",
+          "indexed": "2014-03-11T19:02:25",
           "module": "Text.JSONb.Path",
           "name": "Path",
           "package": "jspath",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects an element from a collection. Abstract.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:25 UTC 2014",
           "module": "Text.JSONb.Path",
           "name": "Selector",
           "package": "jspath",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Selects an element from collection Abstract",
           "hierarchy": "Text JSONb Path",
+          "indexed": "2014-03-11T19:02:25",
           "module": "Text.JSONb.Path",
           "name": "Selector",
           "package": "jspath",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect an element and continue on some path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:25 UTC 2014",
           "module": "Text.JSONb.Path",
           "name": ":=\u003e",
           "package": "jspath",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Select an element and continue on some path",
           "hierarchy": "Text JSONb Path",
+          "indexed": "2014-03-11T19:02:25",
           "module": "Text.JSONb.Path",
           "name": ":=\u003e",
           "package": "jspath",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFollow a path for each \u003ccode\u003eArray\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:25 UTC 2014",
           "module": "Text.JSONb.Path",
           "name": "All",
           "package": "jspath",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Follow path for each Array element",
           "hierarchy": "Text JSONb Path",
+          "indexed": "2014-03-11T19:02:25",
           "module": "Text.JSONb.Path",
           "name": "All",
           "package": "jspath",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoose a path programmatically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:25 UTC 2014",
           "module": "Text.JSONb.Path",
           "name": "Compute",
           "package": "jspath",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Choose path programmatically",
           "hierarchy": "Text JSONb Path",
+          "indexed": "2014-03-11T19:02:25",
           "module": "Text.JSONb.Path",
           "name": "Compute",
           "normalized": "Compute(JSON-\u003ePath)",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:25 UTC 2014",
           "module": "Text.JSONb.Path",
           "name": "Fail",
           "package": "jspath",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Yield nothing",
           "hierarchy": "Text JSONb Path",
+          "indexed": "2014-03-11T19:02:25",
           "module": "Text.JSONb.Path",
           "name": "Fail",
           "package": "jspath",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield this structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:25 UTC 2014",
           "module": "Text.JSONb.Path",
           "name": "Yield",
           "package": "jspath",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Yield this structure",
           "hierarchy": "Text JSONb Path",
+          "indexed": "2014-03-11T19:02:25",
           "module": "Text.JSONb.Path",
           "name": "Yield",
           "package": "jspath",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFollow a path to get all matching substructures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:25 UTC 2014",
           "module": "Text.JSONb.Path",
           "name": "get",
           "package": "jspath",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Follow path to get all matching substructures",
           "hierarchy": "Text JSONb Path",
+          "indexed": "2014-03-11T19:02:25",
           "module": "Text.JSONb.Path",
           "name": "get",
           "normalized": "Path-\u003eJSON-\u003e[JSON]",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFollow a path to get the first matching substructure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:25 UTC 2014",
           "module": "Text.JSONb.Path",
           "name": "getOne",
           "package": "jspath",
@@ -244,6 +263,7 @@
         "index": {
           "description": "Follow path to get the first matching substructure",
           "hierarchy": "Text JSONb Path",
+          "indexed": "2014-03-11T19:02:25",
           "module": "Text.JSONb.Path",
           "name": "getOne",
           "normalized": "Path-\u003eJSON-\u003eMaybe JSON",
@@ -260,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect from an \u003ccode\u003eArray\u003c/code\u003e by index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:25 UTC 2014",
           "module": "Text.JSONb.Path",
           "name": "idx",
           "package": "jspath",
@@ -270,6 +291,7 @@
         "index": {
           "description": "Select from an Array by index",
           "hierarchy": "Text JSONb Path",
+          "indexed": "2014-03-11T19:02:25",
           "module": "Text.JSONb.Path",
           "name": "idx",
           "normalized": "Int-\u003eSelector",
@@ -285,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect from an \u003ccode\u003eObject\u003c/code\u003e by key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:25 UTC 2014",
           "module": "Text.JSONb.Path",
           "name": "key",
           "package": "jspath",
@@ -295,6 +318,7 @@
         "index": {
           "description": "Select from an Object by key",
           "hierarchy": "Text JSONb Path",
+          "indexed": "2014-03-11T19:02:25",
           "module": "Text.JSONb.Path",
           "name": "key",
           "normalized": "String-\u003eSelector",

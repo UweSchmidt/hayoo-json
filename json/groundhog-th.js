@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "groundhog-th"
+        "phrase": "groundhog-th",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "CodeGen",
           "package": "groundhog-th",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH CodeGen",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "CodeGen",
           "package": "groundhog-th",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkAutoKeyPersistFieldInstance",
           "package": "groundhog-th",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH CodeGen",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkAutoKeyPersistFieldInstance",
           "normalized": "THEntityDef-\u003eQ[Dec]",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkAutoKeyPrimitivePersistFieldInstance",
           "package": "groundhog-th",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH CodeGen",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkAutoKeyPrimitivePersistFieldInstance",
           "normalized": "THEntityDef-\u003eQ[Dec]",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkEmbeddedInstance",
           "package": "groundhog-th",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH CodeGen",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkEmbeddedInstance",
           "normalized": "THEmbeddedDef-\u003eQ[Dec]",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkEmbeddedPersistFieldInstance",
           "package": "groundhog-th",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH CodeGen",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkEmbeddedPersistFieldInstance",
           "normalized": "THEmbeddedDef-\u003eQ[Dec]",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkEmbeddedPurePersistFieldInstance",
           "package": "groundhog-th",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH CodeGen",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkEmbeddedPurePersistFieldInstance",
           "normalized": "THEmbeddedDef-\u003eQ[Dec]",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkEntityNeverNullInstance",
           "package": "groundhog-th",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH CodeGen",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkEntityNeverNullInstance",
           "normalized": "THEntityDef-\u003eQ[Dec]",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkEntityPersistFieldInstance",
           "package": "groundhog-th",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH CodeGen",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkEntityPersistFieldInstance",
           "normalized": "THEntityDef-\u003eQ[Dec]",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkEntityPhantomConstructorInstances",
           "package": "groundhog-th",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH CodeGen",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkEntityPhantomConstructorInstances",
           "normalized": "THEntityDef-\u003eQ[Dec]",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkEntityPhantomConstructors",
           "package": "groundhog-th",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH CodeGen",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkEntityPhantomConstructors",
           "normalized": "THEntityDef-\u003eQ[Dec]",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkEntitySinglePersistFieldInstance",
           "package": "groundhog-th",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH CodeGen",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkEntitySinglePersistFieldInstance",
           "normalized": "THEntityDef-\u003eQ[Dec]",
@@ -279,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkEntityUniqueKeysPhantoms",
           "package": "groundhog-th",
@@ -288,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH CodeGen",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkEntityUniqueKeysPhantoms",
           "normalized": "THEntityDef-\u003eQ[Dec]",
@@ -303,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkKeyEqShowInstances",
           "package": "groundhog-th",
@@ -312,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH CodeGen",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkKeyEqShowInstances",
           "normalized": "THEntityDef-\u003eQ[Dec]",
@@ -327,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkMigrateFunction",
           "package": "groundhog-th",
@@ -336,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH CodeGen",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkMigrateFunction",
           "normalized": "String-\u003e[THEntityDef]-\u003eQ[Dec]",
@@ -351,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkPersistEntityInstance",
           "package": "groundhog-th",
@@ -360,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH CodeGen",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkPersistEntityInstance",
           "normalized": "THEntityDef-\u003eQ[Dec]",
@@ -375,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkPrimitivePersistFieldInstance",
           "package": "groundhog-th",
@@ -384,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH CodeGen",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkPrimitivePersistFieldInstance",
           "normalized": "THPrimitiveDef-\u003eQ[Dec]",
@@ -399,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkPrimitivePrimitivePersistFieldInstance",
           "package": "groundhog-th",
@@ -408,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH CodeGen",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkPrimitivePrimitivePersistFieldInstance",
           "normalized": "THPrimitiveDef-\u003eQ[Dec]",
@@ -423,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkUniqueKeysEmbeddedInstances",
           "package": "groundhog-th",
@@ -432,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH CodeGen",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkUniqueKeysEmbeddedInstances",
           "normalized": "THEntityDef-\u003eQ[Dec]",
@@ -447,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkUniqueKeysIsUniqueInstances",
           "package": "groundhog-th",
@@ -456,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH CodeGen",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkUniqueKeysIsUniqueInstances",
           "normalized": "THEntityDef-\u003eQ[Dec]",
@@ -471,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkUniqueKeysPersistFieldInstances",
           "package": "groundhog-th",
@@ -480,6 +519,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH CodeGen",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkUniqueKeysPersistFieldInstances",
           "normalized": "THEntityDef-\u003eQ[Dec]",
@@ -495,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkUniqueKeysPrimitiveOrPurePersistFieldInstances",
           "package": "groundhog-th",
@@ -504,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH CodeGen",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.CodeGen",
           "name": "mkUniqueKeysPrimitiveOrPurePersistFieldInstances",
           "normalized": "THEntityDef-\u003eQ[Dec]",
@@ -519,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "Settings",
           "package": "groundhog-th",
@@ -527,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "Settings",
           "package": "groundhog-th",
@@ -540,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSAutoKeyDef",
           "package": "groundhog-th",
@@ -548,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSAutoKeyDef",
           "package": "groundhog-th",
@@ -561,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSConstructorDef",
           "package": "groundhog-th",
@@ -569,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSConstructorDef",
           "package": "groundhog-th",
@@ -582,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSEmbeddedDef",
           "package": "groundhog-th",
@@ -590,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSEmbeddedDef",
           "package": "groundhog-th",
@@ -603,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSEntityDef",
           "package": "groundhog-th",
@@ -611,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSEntityDef",
           "package": "groundhog-th",
@@ -624,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSFieldDef",
           "package": "groundhog-th",
@@ -631,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSFieldDef",
           "package": "groundhog-th",
@@ -644,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSPrimitiveDef",
           "package": "groundhog-th",
@@ -652,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSPrimitiveDef",
           "package": "groundhog-th",
@@ -665,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSUniqueDef",
           "package": "groundhog-th",
@@ -673,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSUniqueDef",
           "package": "groundhog-th",
@@ -686,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSUniqueKeyDef",
           "package": "groundhog-th",
@@ -694,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSUniqueKeyDef",
           "package": "groundhog-th",
@@ -707,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PersistDefinition",
           "package": "groundhog-th",
@@ -715,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PersistDefinition",
           "package": "groundhog-th",
@@ -728,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PersistDefinitions",
           "package": "groundhog-th",
@@ -736,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PersistDefinitions",
           "package": "groundhog-th",
@@ -749,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THAutoKeyDef",
           "package": "groundhog-th",
@@ -757,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THAutoKeyDef",
           "package": "groundhog-th",
@@ -770,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THConstructorDef",
           "package": "groundhog-th",
@@ -778,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THConstructorDef",
           "package": "groundhog-th",
@@ -791,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THEmbeddedDef",
           "package": "groundhog-th",
@@ -799,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THEmbeddedDef",
           "package": "groundhog-th",
@@ -812,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THEntityDef",
           "package": "groundhog-th",
@@ -820,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THEntityDef",
           "package": "groundhog-th",
@@ -833,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THFieldDef",
           "package": "groundhog-th",
@@ -841,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THFieldDef",
           "package": "groundhog-th",
@@ -854,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THPrimitiveDef",
           "package": "groundhog-th",
@@ -862,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THPrimitiveDef",
           "package": "groundhog-th",
@@ -875,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THUniqueDef",
           "package": "groundhog-th",
@@ -883,6 +960,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THUniqueDef",
           "package": "groundhog-th",
@@ -896,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THUniqueKeyDef",
           "package": "groundhog-th",
@@ -904,6 +983,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THUniqueKeyDef",
           "package": "groundhog-th",
@@ -917,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSAutoKeyDef",
           "package": "groundhog-th",
@@ -926,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSAutoKeyDef",
           "package": "groundhog-th",
@@ -939,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSConstructorDef",
           "package": "groundhog-th",
@@ -948,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSConstructorDef",
           "package": "groundhog-th",
@@ -961,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSEmbeddedDef",
           "package": "groundhog-th",
@@ -970,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSEmbeddedDef",
           "package": "groundhog-th",
@@ -983,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSEmbeddedDef'",
           "package": "groundhog-th",
@@ -992,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSEmbeddedDef'",
           "package": "groundhog-th",
@@ -1005,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSEntityDef",
           "package": "groundhog-th",
@@ -1014,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSEntityDef",
           "package": "groundhog-th",
@@ -1027,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSEntityDef'",
           "package": "groundhog-th",
@@ -1036,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSEntityDef'",
           "package": "groundhog-th",
@@ -1049,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSFieldDef",
           "package": "groundhog-th",
@@ -1057,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSFieldDef",
           "package": "groundhog-th",
@@ -1070,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSPrimitiveDef",
           "package": "groundhog-th",
@@ -1079,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSPrimitiveDef",
           "package": "groundhog-th",
@@ -1092,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSPrimitiveDef'",
           "package": "groundhog-th",
@@ -1101,6 +1198,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSPrimitiveDef'",
           "package": "groundhog-th",
@@ -1114,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSUniqueDef",
           "package": "groundhog-th",
@@ -1123,6 +1222,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSUniqueDef",
           "package": "groundhog-th",
@@ -1136,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSUniqueKeyDef",
           "package": "groundhog-th",
@@ -1145,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PSUniqueKeyDef",
           "package": "groundhog-th",
@@ -1158,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PersistDefinitions",
           "package": "groundhog-th",
@@ -1167,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "PersistDefinitions",
           "package": "groundhog-th",
@@ -1180,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THAutoKeyDef",
           "package": "groundhog-th",
@@ -1189,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THAutoKeyDef",
           "package": "groundhog-th",
@@ -1202,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THConstructorDef",
           "package": "groundhog-th",
@@ -1211,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THConstructorDef",
           "package": "groundhog-th",
@@ -1224,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THEmbeddedDef",
           "package": "groundhog-th",
@@ -1233,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THEmbeddedDef",
           "package": "groundhog-th",
@@ -1246,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THEntityDef",
           "package": "groundhog-th",
@@ -1255,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THEntityDef",
           "package": "groundhog-th",
@@ -1268,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THFieldDef",
           "package": "groundhog-th",
@@ -1277,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THFieldDef",
           "package": "groundhog-th",
@@ -1290,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THPrimitiveDef",
           "package": "groundhog-th",
@@ -1299,6 +1414,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THPrimitiveDef",
           "package": "groundhog-th",
@@ -1312,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THUniqueDef",
           "package": "groundhog-th",
@@ -1321,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THUniqueDef",
           "package": "groundhog-th",
@@ -1334,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THUniqueKeyDef",
           "package": "groundhog-th",
@@ -1343,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "THUniqueKeyDef",
           "package": "groundhog-th",
@@ -1356,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "definitions",
           "package": "groundhog-th",
@@ -1365,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "definitions",
           "normalized": "[PersistDefinition]",
@@ -1379,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psAutoKey",
           "package": "groundhog-th",
@@ -1388,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psAutoKey",
           "package": "groundhog-th",
@@ -1401,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psAutoKeyConstrName",
           "package": "groundhog-th",
@@ -1410,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psAutoKeyConstrName",
           "package": "groundhog-th",
@@ -1423,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psAutoKeyIsDef",
           "package": "groundhog-th",
@@ -1432,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psAutoKeyIsDef",
           "package": "groundhog-th",
@@ -1445,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psConstrFields",
           "package": "groundhog-th",
@@ -1454,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psConstrFields",
           "normalized": "Maybe[PSFieldDef]",
@@ -1469,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psConstrName",
           "package": "groundhog-th",
@@ -1478,6 +1609,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psConstrName",
           "package": "groundhog-th",
@@ -1491,6 +1623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psConstrUniques",
           "package": "groundhog-th",
@@ -1500,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psConstrUniques",
           "normalized": "Maybe[PSUniqueDef]",
@@ -1515,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psConstructors",
           "package": "groundhog-th",
@@ -1524,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psConstructors",
           "normalized": "Maybe[PSConstructorDef]",
@@ -1539,6 +1675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psDataName",
           "package": "groundhog-th",
@@ -1548,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psDataName",
           "package": "groundhog-th",
@@ -1561,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psDbAutoKeyName",
           "package": "groundhog-th",
@@ -1570,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psDbAutoKeyName",
           "package": "groundhog-th",
@@ -1583,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psDbConstrName",
           "package": "groundhog-th",
@@ -1592,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psDbConstrName",
           "package": "groundhog-th",
@@ -1605,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psDbEmbeddedName",
           "package": "groundhog-th",
@@ -1614,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psDbEmbeddedName",
           "package": "groundhog-th",
@@ -1627,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psDbEntityName",
           "package": "groundhog-th",
@@ -1636,6 +1781,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psDbEntityName",
           "package": "groundhog-th",
@@ -1649,6 +1795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psDbFieldName",
           "package": "groundhog-th",
@@ -1657,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psDbFieldName",
           "package": "groundhog-th",
@@ -1670,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psDbTypeName",
           "package": "groundhog-th",
@@ -1678,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psDbTypeName",
           "package": "groundhog-th",
@@ -1691,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psDefaultValue",
           "package": "groundhog-th",
@@ -1699,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psDefaultValue",
           "package": "groundhog-th",
@@ -1712,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psEmbeddedDef",
           "package": "groundhog-th",
@@ -1720,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psEmbeddedDef",
           "normalized": "Maybe[PSFieldDef]",
@@ -1735,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psEmbeddedFields",
           "package": "groundhog-th",
@@ -1744,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psEmbeddedFields",
           "normalized": "Maybe[PSFieldDef]",
@@ -1759,6 +1915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psEmbeddedName",
           "package": "groundhog-th",
@@ -1768,6 +1925,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psEmbeddedName",
           "package": "groundhog-th",
@@ -1781,6 +1939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psEntitySchema",
           "package": "groundhog-th",
@@ -1790,6 +1949,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psEntitySchema",
           "package": "groundhog-th",
@@ -1803,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psExprName",
           "package": "groundhog-th",
@@ -1811,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psExprName",
           "package": "groundhog-th",
@@ -1824,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psFieldName",
           "package": "groundhog-th",
@@ -1832,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psFieldName",
           "package": "groundhog-th",
@@ -1845,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psPhantomConstrName",
           "package": "groundhog-th",
@@ -1854,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psPhantomConstrName",
           "package": "groundhog-th",
@@ -1867,6 +2033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psPrimitiveDbName",
           "package": "groundhog-th",
@@ -1876,6 +2043,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psPrimitiveDbName",
           "package": "groundhog-th",
@@ -1889,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psPrimitiveName",
           "package": "groundhog-th",
@@ -1898,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psPrimitiveName",
           "package": "groundhog-th",
@@ -1911,6 +2081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psPrimitiveStringRepresentation",
           "package": "groundhog-th",
@@ -1920,6 +2091,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psPrimitiveStringRepresentation",
           "package": "groundhog-th",
@@ -1933,6 +2105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psReferenceParent",
           "package": "groundhog-th",
@@ -1941,6 +2114,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psReferenceParent",
           "normalized": "Maybe(Maybe(Maybe String,String,[String]),Maybe ReferenceActionType,Maybe ReferenceActionType)",
@@ -1956,6 +2130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psUniqueFields",
           "package": "groundhog-th",
@@ -1965,6 +2140,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psUniqueFields",
           "normalized": "[String]",
@@ -1980,6 +2156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psUniqueKeyConstrName",
           "package": "groundhog-th",
@@ -1989,6 +2166,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psUniqueKeyConstrName",
           "package": "groundhog-th",
@@ -2002,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psUniqueKeyDbName",
           "package": "groundhog-th",
@@ -2011,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psUniqueKeyDbName",
           "package": "groundhog-th",
@@ -2024,6 +2204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psUniqueKeyFields",
           "package": "groundhog-th",
@@ -2033,6 +2214,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psUniqueKeyFields",
           "normalized": "Maybe[PSFieldDef]",
@@ -2048,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psUniqueKeyIsDef",
           "package": "groundhog-th",
@@ -2057,6 +2240,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psUniqueKeyIsDef",
           "package": "groundhog-th",
@@ -2070,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psUniqueKeyMakeEmbedded",
           "package": "groundhog-th",
@@ -2079,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psUniqueKeyMakeEmbedded",
           "package": "groundhog-th",
@@ -2092,6 +2278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psUniqueKeyName",
           "package": "groundhog-th",
@@ -2101,6 +2288,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psUniqueKeyName",
           "package": "groundhog-th",
@@ -2114,6 +2302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psUniqueKeyPhantomName",
           "package": "groundhog-th",
@@ -2123,6 +2312,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psUniqueKeyPhantomName",
           "package": "groundhog-th",
@@ -2136,6 +2326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psUniqueKeys",
           "package": "groundhog-th",
@@ -2145,6 +2336,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psUniqueKeys",
           "normalized": "Maybe[PSUniqueKeyDef]",
@@ -2160,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psUniqueName",
           "package": "groundhog-th",
@@ -2169,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psUniqueName",
           "package": "groundhog-th",
@@ -2182,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psUniqueType",
           "package": "groundhog-th",
@@ -2191,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "psUniqueType",
           "package": "groundhog-th",
@@ -2204,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thAutoKey",
           "package": "groundhog-th",
@@ -2213,6 +2410,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thAutoKey",
           "package": "groundhog-th",
@@ -2226,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thAutoKeyConstrName",
           "package": "groundhog-th",
@@ -2235,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thAutoKeyConstrName",
           "package": "groundhog-th",
@@ -2248,6 +2448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thAutoKeyIsDef",
           "package": "groundhog-th",
@@ -2257,6 +2458,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thAutoKeyIsDef",
           "package": "groundhog-th",
@@ -2270,6 +2472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thConstrFields",
           "package": "groundhog-th",
@@ -2279,6 +2482,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thConstrFields",
           "normalized": "[THFieldDef]",
@@ -2294,6 +2498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thConstrName",
           "package": "groundhog-th",
@@ -2303,6 +2508,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thConstrName",
           "package": "groundhog-th",
@@ -2316,6 +2522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thConstrUniques",
           "package": "groundhog-th",
@@ -2325,6 +2532,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thConstrUniques",
           "normalized": "[THUniqueDef]",
@@ -2340,6 +2548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thConstructors",
           "package": "groundhog-th",
@@ -2349,6 +2558,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thConstructors",
           "normalized": "[THConstructorDef]",
@@ -2364,6 +2574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thDataName",
           "package": "groundhog-th",
@@ -2373,6 +2584,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thDataName",
           "package": "groundhog-th",
@@ -2386,6 +2598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thDbAutoKeyName",
           "package": "groundhog-th",
@@ -2395,6 +2608,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thDbAutoKeyName",
           "package": "groundhog-th",
@@ -2408,6 +2622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thDbConstrName",
           "package": "groundhog-th",
@@ -2417,6 +2632,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thDbConstrName",
           "package": "groundhog-th",
@@ -2430,6 +2646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thDbEmbeddedName",
           "package": "groundhog-th",
@@ -2439,6 +2656,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thDbEmbeddedName",
           "package": "groundhog-th",
@@ -2452,6 +2670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thDbEntityName",
           "package": "groundhog-th",
@@ -2461,6 +2680,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thDbEntityName",
           "package": "groundhog-th",
@@ -2474,6 +2694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thDbFieldName",
           "package": "groundhog-th",
@@ -2483,6 +2704,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thDbFieldName",
           "package": "groundhog-th",
@@ -2496,6 +2718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thDbTypeName",
           "package": "groundhog-th",
@@ -2505,6 +2728,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thDbTypeName",
           "package": "groundhog-th",
@@ -2518,6 +2742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thDefaultValue",
           "package": "groundhog-th",
@@ -2527,6 +2752,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thDefaultValue",
           "package": "groundhog-th",
@@ -2540,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thEmbeddedConstructorName",
           "package": "groundhog-th",
@@ -2549,6 +2776,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thEmbeddedConstructorName",
           "package": "groundhog-th",
@@ -2562,6 +2790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thEmbeddedDef",
           "package": "groundhog-th",
@@ -2571,6 +2800,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thEmbeddedDef",
           "normalized": "Maybe[PSFieldDef]",
@@ -2586,6 +2816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thEmbeddedFields",
           "package": "groundhog-th",
@@ -2595,6 +2826,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thEmbeddedFields",
           "normalized": "[THFieldDef]",
@@ -2610,6 +2842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thEmbeddedName",
           "package": "groundhog-th",
@@ -2619,6 +2852,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thEmbeddedName",
           "package": "groundhog-th",
@@ -2632,6 +2866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thEmbeddedTypeParams",
           "package": "groundhog-th",
@@ -2641,6 +2876,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thEmbeddedTypeParams",
           "normalized": "[TyVarBndr]",
@@ -2656,6 +2892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thEntitySchema",
           "package": "groundhog-th",
@@ -2665,6 +2902,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thEntitySchema",
           "package": "groundhog-th",
@@ -2678,6 +2916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thExprName",
           "package": "groundhog-th",
@@ -2687,6 +2926,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thExprName",
           "package": "groundhog-th",
@@ -2700,6 +2940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thFieldName",
           "package": "groundhog-th",
@@ -2709,6 +2950,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thFieldName",
           "package": "groundhog-th",
@@ -2722,6 +2964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thFieldType",
           "package": "groundhog-th",
@@ -2731,6 +2974,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thFieldType",
           "package": "groundhog-th",
@@ -2744,6 +2988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thPhantomConstrName",
           "package": "groundhog-th",
@@ -2753,6 +2998,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thPhantomConstrName",
           "package": "groundhog-th",
@@ -2766,6 +3012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thPrimitiveDbName",
           "package": "groundhog-th",
@@ -2775,6 +3022,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thPrimitiveDbName",
           "package": "groundhog-th",
@@ -2788,6 +3036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thPrimitiveName",
           "package": "groundhog-th",
@@ -2797,6 +3046,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thPrimitiveName",
           "package": "groundhog-th",
@@ -2810,6 +3060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thPrimitiveStringRepresentation",
           "package": "groundhog-th",
@@ -2819,6 +3070,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thPrimitiveStringRepresentation",
           "package": "groundhog-th",
@@ -2832,6 +3084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thReferenceParent",
           "package": "groundhog-th",
@@ -2841,6 +3094,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thReferenceParent",
           "normalized": "Maybe(Maybe(Maybe String,String,[String]),Maybe ReferenceActionType,Maybe ReferenceActionType)",
@@ -2856,6 +3110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thTypeParams",
           "package": "groundhog-th",
@@ -2865,6 +3120,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thTypeParams",
           "normalized": "[TyVarBndr]",
@@ -2880,6 +3136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thUniqueFields",
           "package": "groundhog-th",
@@ -2889,6 +3146,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thUniqueFields",
           "normalized": "[String]",
@@ -2904,6 +3162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thUniqueKeyConstrName",
           "package": "groundhog-th",
@@ -2913,6 +3172,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thUniqueKeyConstrName",
           "package": "groundhog-th",
@@ -2926,6 +3186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thUniqueKeyDbName",
           "package": "groundhog-th",
@@ -2935,6 +3196,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thUniqueKeyDbName",
           "package": "groundhog-th",
@@ -2948,6 +3210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thUniqueKeyFields",
           "package": "groundhog-th",
@@ -2957,6 +3220,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thUniqueKeyFields",
           "normalized": "[THFieldDef]",
@@ -2972,6 +3236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thUniqueKeyIsDef",
           "package": "groundhog-th",
@@ -2981,6 +3246,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thUniqueKeyIsDef",
           "package": "groundhog-th",
@@ -2994,6 +3260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thUniqueKeyMakeEmbedded",
           "package": "groundhog-th",
@@ -3003,6 +3270,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thUniqueKeyMakeEmbedded",
           "package": "groundhog-th",
@@ -3016,6 +3284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thUniqueKeyName",
           "package": "groundhog-th",
@@ -3025,6 +3294,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thUniqueKeyName",
           "package": "groundhog-th",
@@ -3038,6 +3308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thUniqueKeyPhantomName",
           "package": "groundhog-th",
@@ -3047,6 +3318,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thUniqueKeyPhantomName",
           "package": "groundhog-th",
@@ -3060,6 +3332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thUniqueKeys",
           "package": "groundhog-th",
@@ -3069,6 +3342,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thUniqueKeys",
           "normalized": "[THUniqueKeyDef]",
@@ -3084,6 +3358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thUniqueName",
           "package": "groundhog-th",
@@ -3093,6 +3368,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thUniqueName",
           "package": "groundhog-th",
@@ -3106,6 +3382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thUniqueType",
           "package": "groundhog-th",
@@ -3115,6 +3392,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH Settings",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH.Settings",
           "name": "thUniqueType",
           "package": "groundhog-th",
@@ -3129,6 +3407,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions to generate the auxiliary structures for the user data type\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "TH",
           "package": "groundhog-th",
@@ -3138,6 +3417,7 @@
         "index": {
           "description": "This module provides functions to generate the auxiliary structures for the user data type",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "TH",
           "package": "groundhog-th",
@@ -3151,6 +3431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "CodegenConfig",
           "package": "groundhog-th",
@@ -3159,6 +3440,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "CodegenConfig",
           "package": "groundhog-th",
@@ -3173,6 +3455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines how the names are created. The mk* functions correspond to the set* functions.\n Functions mkNormal* define names of non-record constructor Field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "NamingStyle",
           "package": "groundhog-th",
@@ -3182,6 +3465,7 @@
         "index": {
           "description": "Defines how the names are created The mk functions correspond to the set functions Functions mkNormal define names of non-record constructor Field",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "NamingStyle",
           "package": "groundhog-th",
@@ -3195,6 +3479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "CodegenConfig",
           "package": "groundhog-th",
@@ -3204,6 +3489,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "CodegenConfig",
           "package": "groundhog-th",
@@ -3217,6 +3503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "NamingStyle",
           "package": "groundhog-th",
@@ -3226,6 +3513,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "NamingStyle",
           "package": "groundhog-th",
@@ -3240,6 +3528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates the shortest field names. It is more likely to lead in name conflicts than other naming styles.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e data SomeData a = Normal Int | Record { bar :: Maybe String, asc :: a}\n -- Generated code\n data NormalConstructor\n data RecordConstructor\n instance PersistEntity where\n   data Field (SomeData a) where\n     Normal0 :: Field NormalConstructor Int\n     Bar :: Field RecordConstructor (Maybe String)\n     Asc :: Field RecordConstructor a\n ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "conciseNamingStyle",
           "package": "groundhog-th",
@@ -3250,6 +3539,7 @@
         "index": {
           "description": "Creates the shortest field names It is more likely to lead in name conflicts than other naming styles Example data SomeData Normal Int Record bar Maybe String asc Generated code data NormalConstructor data RecordConstructor instance PersistEntity where data Field SomeData where Normal0 Field NormalConstructor Int Bar Field RecordConstructor Maybe String Asc Field RecordConstructor",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "conciseNamingStyle",
           "package": "groundhog-th",
@@ -3263,6 +3553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "defaultCodegenConfig",
           "package": "groundhog-th",
@@ -3272,6 +3563,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "defaultCodegenConfig",
           "package": "groundhog-th",
@@ -3286,6 +3578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts quasiquoted settings into the datatype used by mkPersist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "groundhog",
           "package": "groundhog-th",
@@ -3296,6 +3589,7 @@
         "index": {
           "description": "Converts quasiquoted settings into the datatype used by mkPersist",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "groundhog",
           "package": "groundhog-th",
@@ -3309,6 +3603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses configuration stored in the file\n\u003c/p\u003e\u003cpre\u003e mkPersist defaultCodegenConfig [groundhogFile|../groundhog.yaml|]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "groundhogFile",
           "package": "groundhog-th",
@@ -3319,6 +3614,7 @@
         "index": {
           "description": "Parses configuration stored in the file mkPersist defaultCodegenConfig groundhogFile groundhog.yaml",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "groundhogFile",
           "package": "groundhog-th",
@@ -3333,6 +3629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe generated Haskell names of phantom types (constructors, fields, etc.) are the same as with suffixNamingStyle. But the table names and columns are converted from camelCase to underscore_lower_case with \u003ccode\u003e\u003ca\u003etoUnderscore\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "lowerCaseSuffixNamingStyle",
           "package": "groundhog-th",
@@ -3343,6 +3640,7 @@
         "index": {
           "description": "The generated Haskell names of phantom types constructors fields etc are the same as with suffixNamingStyle But the table names and columns are converted from camelCase to underscore lower case with toUnderscore",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "lowerCaseSuffixNamingStyle",
           "package": "groundhog-th",
@@ -3357,6 +3655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCodegenerator will create a function with this name that will run \u003ccode\u003emigrate\u003c/code\u003e for each non-polymorphic entity in definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "migrationFunction",
           "package": "groundhog-th",
@@ -3367,6 +3666,7 @@
         "index": {
           "description": "Codegenerator will create function with this name that will run migrate for each non-polymorphic entity in definition",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "migrationFunction",
           "package": "groundhog-th",
@@ -3381,6 +3681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate name of the db field for autokey. Parameters: data name, constructor name, constructor position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "mkDbConstrAutoKeyName",
           "package": "groundhog-th",
@@ -3391,6 +3692,7 @@
         "index": {
           "description": "Create name of the db field for autokey Parameters data name constructor name constructor position",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "mkDbConstrAutoKeyName",
           "normalized": "String-\u003eString-\u003eInt-\u003eString",
@@ -3407,6 +3709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate name of the constructor specific table. Parameters: data name, constructor name, constructor position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "mkDbConstrName",
           "package": "groundhog-th",
@@ -3417,6 +3720,7 @@
         "index": {
           "description": "Create name of the constructor specific table Parameters data name constructor name constructor position",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "mkDbConstrName",
           "normalized": "String-\u003eString-\u003eInt-\u003eString",
@@ -3433,6 +3737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate name of the table for the datatype. Parameters: data name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "mkDbEntityName",
           "package": "groundhog-th",
@@ -3443,6 +3748,7 @@
         "index": {
           "description": "Create name of the table for the datatype Parameters data name",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "mkDbEntityName",
           "normalized": "String-\u003eString",
@@ -3459,6 +3765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate name of the field column in a database. Parameters: data name, constructor name, constructor position, field record name, field position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "mkDbFieldName",
           "package": "groundhog-th",
@@ -3469,6 +3776,7 @@
         "index": {
           "description": "Create name of the field column in database Parameters data name constructor name constructor position field record name field position",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "mkDbFieldName",
           "normalized": "String-\u003eString-\u003eInt-\u003eString-\u003eInt-\u003eString",
@@ -3485,6 +3793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate name of the backend-specific key constructor for the datatype. Parameters: data name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "mkEntityKeyName",
           "package": "groundhog-th",
@@ -3495,6 +3804,7 @@
         "index": {
           "description": "Create name of the backend-specific key constructor for the datatype Parameters data name",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "mkEntityKeyName",
           "normalized": "String-\u003eString",
@@ -3511,6 +3821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate name of field constructor used in expressions. Parameters: data name, constructor name, constructor position, field record name, field position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "mkExprFieldName",
           "package": "groundhog-th",
@@ -3521,6 +3832,7 @@
         "index": {
           "description": "Create name of field constructor used in expressions Parameters data name constructor name constructor position field record name field position",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "mkExprFieldName",
           "normalized": "String-\u003eString-\u003eInt-\u003eString-\u003eInt-\u003eString",
@@ -3537,6 +3849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate name of selector (see \u003ccode\u003eEmbedded\u003c/code\u003e) constructor used in expressions. Parameters: data name, constructor name, field record name, field position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "mkExprSelectorName",
           "package": "groundhog-th",
@@ -3547,6 +3860,7 @@
         "index": {
           "description": "Create name of selector see Embedded constructor used in expressions Parameters data name constructor name field record name field position",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "mkExprSelectorName",
           "normalized": "String-\u003eString-\u003eString-\u003eInt-\u003eString",
@@ -3563,6 +3877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate name of the field column in a database. Parameters: data name, constructor name, constructor position, field position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "mkNormalDbFieldName",
           "package": "groundhog-th",
@@ -3573,6 +3888,7 @@
         "index": {
           "description": "Create name of the field column in database Parameters data name constructor name constructor position field position",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "mkNormalDbFieldName",
           "normalized": "String-\u003eString-\u003eInt-\u003eInt-\u003eString",
@@ -3589,6 +3905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate name of field constructor used in expressions. Parameters: data name, constructor name, constructor position, field position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "mkNormalExprFieldName",
           "package": "groundhog-th",
@@ -3599,6 +3916,7 @@
         "index": {
           "description": "Create name of field constructor used in expressions Parameters data name constructor name constructor position field position",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "mkNormalExprFieldName",
           "normalized": "String-\u003eString-\u003eInt-\u003eInt-\u003eString",
@@ -3615,6 +3933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate name of selector (see \u003ccode\u003eEmbedded\u003c/code\u003e) constructor used in expressions. Parameters: data name, constructor name, field position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "mkNormalExprSelectorName",
           "package": "groundhog-th",
@@ -3625,6 +3944,7 @@
         "index": {
           "description": "Create name of selector see Embedded constructor used in expressions Parameters data name constructor name field position",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "mkNormalExprSelectorName",
           "normalized": "String-\u003eString-\u003eInt-\u003eString",
@@ -3641,6 +3961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate field name used to refer to the it in settings for non-record constructors. Parameters: data name, constructor name, constructor position, field position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "mkNormalFieldName",
           "package": "groundhog-th",
@@ -3651,6 +3972,7 @@
         "index": {
           "description": "Create field name used to refer to the it in settings for non-record constructors Parameters data name constructor name constructor position field position",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "mkNormalFieldName",
           "normalized": "String-\u003eString-\u003eInt-\u003eInt-\u003eString",
@@ -3667,6 +3989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates the auxiliary structures. \n Particularly, it creates GADT \u003ccode\u003eField\u003c/code\u003e data instance for referring to the fields in expressions and phantom types for data constructors.\n The default names of auxiliary datatypes and names used in database are generated using the naming style and can be changed via configuration.\n The datatypes and their generation options are defined via YAML configuration parsed by quasiquoter \u003ccode\u003e\u003ca\u003egroundhog\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "mkPersist",
           "package": "groundhog-th",
@@ -3677,6 +4000,7 @@
         "index": {
           "description": "Creates the auxiliary structures Particularly it creates GADT Field data instance for referring to the fields in expressions and phantom types for data constructors The default names of auxiliary datatypes and names used in database are generated using the naming style and can be changed via configuration The datatypes and their generation options are defined via YAML configuration parsed by quasiquoter groundhog",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "mkPersist",
           "normalized": "CodegenConfig-\u003ePersistDefinitions-\u003eQ[Dec]",
@@ -3693,6 +4017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate name for phantom constructor used to parametrise \u003ccode\u003eField\u003c/code\u003e. Parameters: data name, constructor name, constructor position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "mkPhantomName",
           "package": "groundhog-th",
@@ -3703,6 +4028,7 @@
         "index": {
           "description": "Create name for phantom constructor used to parametrise Field Parameters data name constructor name constructor position",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "mkPhantomName",
           "normalized": "String-\u003eString-\u003eInt-\u003eString",
@@ -3719,6 +4045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate name of constructor for the unique key. Parameters: data name, constructor name, unique constraint name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "mkUniqueKeyConstrName",
           "package": "groundhog-th",
@@ -3729,6 +4056,7 @@
         "index": {
           "description": "Create name of constructor for the unique key Parameters data name constructor name unique constraint name",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "mkUniqueKeyConstrName",
           "normalized": "String-\u003eString-\u003eString-\u003eString",
@@ -3745,6 +4073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate name used by \u003ccode\u003epersistName\u003c/code\u003e for the unique key. Parameters: data name, constructor name, unique constraint name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "mkUniqueKeyDbName",
           "package": "groundhog-th",
@@ -3755,6 +4084,7 @@
         "index": {
           "description": "Create name used by persistName for the unique key Parameters data name constructor name unique constraint name",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "mkUniqueKeyDbName",
           "normalized": "String-\u003eString-\u003eString-\u003eString",
@@ -3771,6 +4101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate name for phantom unique key used to parametrise \u003ccode\u003eKey\u003c/code\u003e. Parameters: data name, constructor name, unique constraint name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "mkUniqueKeyPhantomName",
           "package": "groundhog-th",
@@ -3781,6 +4112,7 @@
         "index": {
           "description": "Create name for phantom unique key used to parametrise Key Parameters data name constructor name unique constraint name",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "mkUniqueKeyPhantomName",
           "normalized": "String-\u003eString-\u003eString-\u003eString",
@@ -3797,6 +4129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNaming style that is applied for all definitions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "namingStyle",
           "package": "groundhog-th",
@@ -3807,6 +4140,7 @@
         "index": {
           "description": "Naming style that is applied for all definitions",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "namingStyle",
           "package": "groundhog-th",
@@ -3821,6 +4155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates field names in Persistent fashion prepending constructor names to the fields.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e data SomeData a = Normal Int | Record { bar :: Maybe String, asc :: a}\n -- Generated code\n data NormalConstructor\n data RecordConstructor\n instance PersistEntity where\n   data Field (SomeData a) where\n     Normal0 :: Field NormalConstructor Int\n     RecordBar :: Field RecordConstructor (Maybe String)\n     RecordAsc :: Field RecordConstructor a\n ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "persistentNamingStyle",
           "package": "groundhog-th",
@@ -3831,6 +4166,7 @@
         "index": {
           "description": "Creates field names in Persistent fashion prepending constructor names to the fields Example data SomeData Normal Int Record bar Maybe String asc Generated code data NormalConstructor data RecordConstructor instance PersistEntity where data Field SomeData where Normal0 Field NormalConstructor Int RecordBar Field RecordConstructor Maybe String RecordAsc Field RecordConstructor",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "persistentNamingStyle",
           "package": "groundhog-th",
@@ -3845,6 +4181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault style. Adds \"Field\" to each record field name.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e data SomeData a = Normal Int | Record { bar :: Maybe String, asc :: a}\n -- Generated code\n data NormalConstructor\n data RecordConstructor\n instance PersistEntity where\n   data Field (SomeData a) where\n     Normal0Field :: Field NormalConstructor Int\n     BarField :: Field RecordConstructor (Maybe String)\n     AscField :: Field RecordConstructor a\n ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "suffixNamingStyle",
           "package": "groundhog-th",
@@ -3855,6 +4192,7 @@
         "index": {
           "description": "Default style Adds Field to each record field name Example data SomeData Normal Int Record bar Maybe String asc Generated code data NormalConstructor data RecordConstructor instance PersistEntity where data Field SomeData where Normal0Field Field NormalConstructor Int BarField Field RecordConstructor Maybe String AscField Field RecordConstructor",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "suffixNamingStyle",
           "package": "groundhog-th",
@@ -3869,6 +4207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms string from camelCase to lower_case_underscore naming convention.\n ColumnName -\u003e column_name, parseURL -\u003e parse_url, FieldIEEE754Floating -\u003e field_ieee754_floating\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:42 UTC 2014",
           "module": "Database.Groundhog.TH",
           "name": "toUnderscore",
           "package": "groundhog-th",
@@ -3879,6 +4218,7 @@
         "index": {
           "description": "Transforms string from camelCase to lower case underscore naming convention ColumnName column name parseURL parse url FieldIEEE754Floating field ieee754 floating",
           "hierarchy": "Database Groundhog TH",
+          "indexed": "2014-03-11T18:21:42",
           "module": "Database.Groundhog.TH",
           "name": "toUnderscore",
           "normalized": "String-\u003eString",

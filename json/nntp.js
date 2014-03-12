@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nntp"
+        "phrase": "nntp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the common features and common interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Common",
           "name": "Common",
           "package": "nntp",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module contains the common features and common interface",
           "hierarchy": "Network NNTP Common",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Common",
           "name": "Common",
           "package": "nntp",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Common",
           "name": "xhdr",
           "package": "nntp",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Network NNTP Common",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Common",
           "name": "xhdr",
           "normalized": "(Article-\u003ea b)-\u003eNntpT a[b]",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the common features and common interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Core",
           "name": "Core",
           "package": "nntp",
@@ -74,6 +79,7 @@
         "index": {
           "description": "This module contains the common features and common interface",
           "hierarchy": "Network NNTP Core",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Core",
           "name": "Core",
           "package": "nntp",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Core",
           "name": "article",
           "package": "nntp",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Network NNTP Core",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Core",
           "name": "article",
           "normalized": "ByteString-\u003eNntpT a(Maybe Article)",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Core",
           "name": "body",
           "package": "nntp",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Network NNTP Core",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Core",
           "name": "body",
           "normalized": "ByteString-\u003eNntpT a(Maybe Article)",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Core",
           "name": "group",
           "package": "nntp",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Network NNTP Core",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Core",
           "name": "group",
           "normalized": "ByteString-\u003eNntpT a(Maybe Group)",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Core",
           "name": "head",
           "package": "nntp",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Network NNTP Core",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Core",
           "name": "head",
           "normalized": "ByteString-\u003eNntpT a(Maybe Article)",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Core",
           "name": "last",
           "package": "nntp",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Network NNTP Core",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Core",
           "name": "last",
           "package": "nntp",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Core",
           "name": "list",
           "package": "nntp",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Network NNTP Core",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Core",
           "name": "list",
           "normalized": "(Group-\u003ea b)-\u003eNntpT a[b]",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Core",
           "name": "newgroups",
           "package": "nntp",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Network NNTP Core",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Core",
           "name": "newgroups",
           "normalized": "UTCTime-\u003e(Group-\u003ea b)-\u003eNntpT a[b]",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Core",
           "name": "newnews",
           "package": "nntp",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Network NNTP Core",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Core",
           "name": "newnews",
           "normalized": "UTCTime-\u003eGroup-\u003e(Article-\u003ea b)-\u003eNntpT a[b]",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Core",
           "name": "next",
           "package": "nntp",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Network NNTP Core",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Core",
           "name": "next",
           "package": "nntp",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Core",
           "name": "post",
           "package": "nntp",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Network NNTP Core",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Core",
           "name": "post",
           "normalized": "ByteString-\u003eNntpT a()",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Core",
           "name": "stat",
           "package": "nntp",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Network NNTP Core",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Core",
           "name": "stat",
           "normalized": "ByteString-\u003eNntpT a(Maybe Article)",
@@ -337,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains definition of article\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Internal.Article",
           "name": "Article",
           "package": "nntp",
@@ -346,6 +375,7 @@
         "index": {
           "description": "This module contains definition of article",
           "hierarchy": "Network NNTP Internal Article",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Internal.Article",
           "name": "Article",
           "package": "nntp",
@@ -360,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a single article. Please note that except the splitting into header\nand body no parsing is done.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Internal.Article",
           "name": "Article",
           "package": "nntp",
@@ -369,6 +400,7 @@
         "index": {
           "description": "Represents single article Please note that except the splitting into header and body no parsing is done",
           "hierarchy": "Network NNTP Internal Article",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Internal.Article",
           "name": "Article",
           "package": "nntp",
@@ -481,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains definition of Group\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Internal.Group",
           "name": "Group",
           "package": "nntp",
@@ -490,6 +523,7 @@
         "index": {
           "description": "This module contains definition of Group",
           "hierarchy": "Network NNTP Internal Group",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Internal.Group",
           "name": "Group",
           "package": "nntp",
@@ -504,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a single group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Internal.Group",
           "name": "Group",
           "package": "nntp",
@@ -513,6 +548,7 @@
         "index": {
           "description": "Represents single group",
           "hierarchy": "Network NNTP Internal Group",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Internal.Group",
           "name": "Group",
           "package": "nntp",
@@ -625,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains internalities of NNTP library\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Internal",
           "name": "Internal",
           "package": "nntp",
@@ -634,6 +671,7 @@
         "index": {
           "description": "This module contains internalities of NNTP library",
           "hierarchy": "Network NNTP Internal",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Internal",
           "name": "Internal",
           "package": "nntp",
@@ -648,6 +686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNntpConnection represents a connection in a NntpT monad.\n\u003c/p\u003e\u003cp\u003ePlease note that for \u003ccode\u003erunNntpWithConnection\u003c/code\u003e you need to supply both \u003ccode\u003e\u003ca\u003einput\u003c/a\u003e\u003c/code\u003e\nand \u003ccode\u003e\u003ca\u003eoutput\u003c/a\u003e\u003c/code\u003e functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Internal",
           "name": "NntpConnection",
           "package": "nntp",
@@ -657,6 +696,7 @@
         "index": {
           "description": "NntpConnection represents connection in NntpT monad Please note that for runNntpWithConnection you need to supply both input and output functions",
           "hierarchy": "Network NNTP Internal",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Internal",
           "name": "NntpConnection",
           "package": "nntp",
@@ -671,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates an error of handling NNTP connection. Please note that this should\nindicate client errors only (with the exception of \u003ccode\u003e\u003ca\u003eServiceDiscontinued\u003c/a\u003e\u003c/code\u003e, \nin some cases \u003ccode\u003e\u003ca\u003ePostingFailed\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eNoSuchCommand\u003c/a\u003e\u003c/code\u003e. The last one if propagated\noutside NNTP module indicates a bug in library or server.).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Internal",
           "name": "NntpError",
           "package": "nntp",
@@ -680,6 +721,7 @@
         "index": {
           "description": "Indicates an error of handling NNTP connection Please note that this should indicate client errors only with the exception of ServiceDiscontinued in some cases PostingFailed and NoSuchCommand The last one if propagated outside NNTP module indicates bug in library or server",
           "hierarchy": "Network NNTP Internal",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Internal",
           "name": "NntpError",
           "package": "nntp",
@@ -693,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Internal",
           "name": "NntpParser",
           "package": "nntp",
@@ -701,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Network NNTP Internal",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Internal",
           "name": "NntpParser",
           "package": "nntp",
@@ -715,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNntpState represents a state at given moment. Please note that this type is not\na part of stable API (when we will have one).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Internal",
           "name": "NntpState",
           "package": "nntp",
@@ -724,6 +769,7 @@
         "index": {
           "description": "NntpState represents state at given moment Please note that this type is not part of stable API when we will have one",
           "hierarchy": "Network NNTP Internal",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Internal",
           "name": "NntpState",
           "package": "nntp",
@@ -738,6 +784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNntpT represents a connection. Since some servers have short timeouts it is\nrecommended to keep the connections short.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Internal",
           "name": "NntpT",
           "package": "nntp",
@@ -747,6 +794,7 @@
         "index": {
           "description": "NntpT represents connection Since some servers have short timeouts it is recommended to keep the connections short",
           "hierarchy": "Network NNTP Internal",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Internal",
           "name": "NntpT",
           "package": "nntp",
@@ -1002,6 +1050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts from postable form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Internal",
           "name": "depostize",
           "package": "nntp",
@@ -1012,6 +1061,7 @@
         "index": {
           "description": "Converts from postable form",
           "hierarchy": "Network NNTP Internal",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Internal",
           "name": "depostize",
           "normalized": "ByteString-\u003eByteString",
@@ -1051,6 +1101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Internal",
           "name": "nntpPSendCommand",
           "package": "nntp",
@@ -1060,6 +1111,7 @@
         "index": {
           "description": "Sends command",
           "hierarchy": "Network NNTP Internal",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Internal",
           "name": "nntpPSendCommand",
           "normalized": "String-\u003eByteString-\u003e[(Int,NntpParser a b)]-\u003eNntpParser a b",
@@ -1076,6 +1128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Internal",
           "name": "nntpPSendText",
           "package": "nntp",
@@ -1085,6 +1138,7 @@
         "index": {
           "description": "Sends text",
           "hierarchy": "Network NNTP Internal",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Internal",
           "name": "nntpPSendText",
           "normalized": "ByteString-\u003e[(Int,NntpParser a b)]-\u003eNntpParser a b",
@@ -1101,6 +1155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePuts an argument to output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Internal",
           "name": "nntpPutStr",
           "package": "nntp",
@@ -1111,6 +1166,7 @@
         "index": {
           "description": "Puts an argument to output",
           "hierarchy": "Network NNTP Internal",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Internal",
           "name": "nntpPutStr",
           "normalized": "ByteString-\u003eNntpT a()",
@@ -1127,6 +1183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePuts an argument to output followed by end-of-line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Internal",
           "name": "nntpPutStrLn",
           "package": "nntp",
@@ -1137,6 +1194,7 @@
         "index": {
           "description": "Puts an argument to output followed by end-of-line",
           "hierarchy": "Network NNTP Internal",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Internal",
           "name": "nntpPutStrLn",
           "normalized": "ByteString-\u003eNntpT a()",
@@ -1153,6 +1211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Internal",
           "name": "nntpSendCommand",
           "package": "nntp",
@@ -1162,6 +1221,7 @@
         "index": {
           "description": "Sends command",
           "hierarchy": "Network NNTP Internal",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Internal",
           "name": "nntpSendCommand",
           "normalized": "String-\u003eByteString-\u003e[(Int,NntpParser a b)]-\u003eNntpT a b",
@@ -1178,6 +1238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Internal",
           "name": "nntpSendText",
           "package": "nntp",
@@ -1187,6 +1248,7 @@
         "index": {
           "description": "Sends text",
           "hierarchy": "Network NNTP Internal",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Internal",
           "name": "nntpSendText",
           "normalized": "ByteString-\u003e[(Int,NntpParser a b)]-\u003eNntpT a b",
@@ -1229,6 +1291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts into postable form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Internal",
           "name": "postize",
           "package": "nntp",
@@ -1239,6 +1302,7 @@
         "index": {
           "description": "Converts into postable form",
           "hierarchy": "Network NNTP Internal",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Internal",
           "name": "postize",
           "normalized": "ByteString-\u003eByteString",
@@ -1254,6 +1318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms \u003ca\u003eNntpParser\u003c/a\u003e into \u003ca\u003eNntpT\u003c/a\u003e monad taking care about input\n position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Internal",
           "name": "runNntpParser",
           "package": "nntp",
@@ -1264,6 +1329,7 @@
         "index": {
           "description": "Transforms NntpParser into NntpT monad taking care about input position",
           "hierarchy": "Network NNTP Internal",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Internal",
           "name": "runNntpParser",
           "normalized": "NntpParser a b-\u003eNntpT a b",
@@ -1305,6 +1371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry commands one by one to check for existing command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.Internal",
           "name": "tryCommands",
           "package": "nntp",
@@ -1314,6 +1381,7 @@
         "index": {
           "description": "Try commands one by one to check for existing command",
           "hierarchy": "Network NNTP Internal",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.Internal",
           "name": "tryCommands",
           "normalized": "[NntpT a b]-\u003eNntpT a b",
@@ -1330,6 +1398,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the parser helpers\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.ParserHelpers",
           "name": "ParserHelpers",
           "package": "nntp",
@@ -1339,6 +1408,7 @@
         "index": {
           "description": "This module contains the parser helpers",
           "hierarchy": "Network NNTP ParserHelpers",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.ParserHelpers",
           "name": "ParserHelpers",
           "package": "nntp",
@@ -1353,6 +1423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsers 3-digit response code. In some cases it may throw errors such as\n \u003ca\u003eServiceDiscontinued\u003c/a\u003e and \u003ca\u003eNoSuchCommand\u003c/a\u003e. It skip to the end of line\n automatically in sych case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.ParserHelpers",
           "name": "code",
           "package": "nntp",
@@ -1363,6 +1434,7 @@
         "index": {
           "description": "Parsers digit response code In some cases it may throw errors such as ServiceDiscontinued and NoSuchCommand It skip to the end of line automatically in sych case",
           "hierarchy": "Network NNTP ParserHelpers",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.ParserHelpers",
           "name": "code",
           "package": "nntp",
@@ -1376,6 +1448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses an group name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.ParserHelpers",
           "name": "groupName",
           "package": "nntp",
@@ -1386,6 +1459,7 @@
         "index": {
           "description": "Parses an group name",
           "hierarchy": "Network NNTP ParserHelpers",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.ParserHelpers",
           "name": "groupName",
           "package": "nntp",
@@ -1400,6 +1474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses an article ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.ParserHelpers",
           "name": "iD",
           "package": "nntp",
@@ -1410,6 +1485,7 @@
         "index": {
           "description": "Parses an article ID",
           "hierarchy": "Network NNTP ParserHelpers",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.ParserHelpers",
           "name": "iD",
           "package": "nntp",
@@ -1423,6 +1499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses an integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.ParserHelpers",
           "name": "integer",
           "package": "nntp",
@@ -1433,6 +1510,7 @@
         "index": {
           "description": "Parses an integer",
           "hierarchy": "Network NNTP ParserHelpers",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.ParserHelpers",
           "name": "integer",
           "package": "nntp",
@@ -1446,6 +1524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets rest of line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.ParserHelpers",
           "name": "line",
           "package": "nntp",
@@ -1456,6 +1535,7 @@
         "index": {
           "description": "Gets rest of line",
           "hierarchy": "Network NNTP ParserHelpers",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.ParserHelpers",
           "name": "line",
           "package": "nntp",
@@ -1469,6 +1549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets a multiline output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP.ParserHelpers",
           "name": "text",
           "package": "nntp",
@@ -1479,6 +1560,7 @@
         "index": {
           "description": "Gets multiline output",
           "hierarchy": "Network NNTP ParserHelpers",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP.ParserHelpers",
           "name": "text",
           "package": "nntp",
@@ -1492,6 +1574,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the common features and common interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "NNTP",
           "package": "nntp",
@@ -1501,6 +1584,7 @@
         "index": {
           "description": "This module contains the common features and common interface",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "NNTP",
           "package": "nntp",
@@ -1515,6 +1599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a single article. Please note that except the splitting into header\nand body no parsing is done.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "Article",
           "package": "nntp",
@@ -1524,6 +1609,7 @@
         "index": {
           "description": "Represents single article Please note that except the splitting into header and body no parsing is done",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "Article",
           "package": "nntp",
@@ -1538,6 +1624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a single group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "Group",
           "package": "nntp",
@@ -1547,6 +1634,7 @@
         "index": {
           "description": "Represents single group",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "Group",
           "package": "nntp",
@@ -1561,6 +1649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNntpConnection represents a connection in a NntpT monad.\n\u003c/p\u003e\u003cp\u003ePlease note that for \u003ccode\u003erunNntpWithConnection\u003c/code\u003e you need to supply both \u003ccode\u003e\u003ca\u003einput\u003c/a\u003e\u003c/code\u003e\nand \u003ccode\u003e\u003ca\u003eoutput\u003c/a\u003e\u003c/code\u003e functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "NntpConnection",
           "package": "nntp",
@@ -1570,6 +1659,7 @@
         "index": {
           "description": "NntpConnection represents connection in NntpT monad Please note that for runNntpWithConnection you need to supply both input and output functions",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "NntpConnection",
           "package": "nntp",
@@ -1584,6 +1674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates an error of handling NNTP connection. Please note that this should\nindicate client errors only (with the exception of \u003ccode\u003e\u003ca\u003eServiceDiscontinued\u003c/a\u003e\u003c/code\u003e, \nin some cases \u003ccode\u003e\u003ca\u003ePostingFailed\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eNoSuchCommand\u003c/a\u003e\u003c/code\u003e. The last one if propagated\noutside NNTP module indicates a bug in library or server.).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "NntpError",
           "package": "nntp",
@@ -1593,6 +1684,7 @@
         "index": {
           "description": "Indicates an error of handling NNTP connection Please note that this should indicate client errors only with the exception of ServiceDiscontinued in some cases PostingFailed and NoSuchCommand The last one if propagated outside NNTP module indicates bug in library or server",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "NntpError",
           "package": "nntp",
@@ -1607,6 +1699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNntpState represents a state at given moment. Please note that this type is not\na part of stable API (when we will have one).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "NntpState",
           "package": "nntp",
@@ -1616,6 +1709,7 @@
         "index": {
           "description": "NntpState represents state at given moment Please note that this type is not part of stable API when we will have one",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "NntpState",
           "package": "nntp",
@@ -1630,6 +1724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNntpT represents a connection. Since some servers have short timeouts it is\nrecommended to keep the connections short.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "NntpT",
           "package": "nntp",
@@ -1639,6 +1734,7 @@
         "index": {
           "description": "NntpT represents connection Since some servers have short timeouts it is recommended to keep the connections short",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "NntpT",
           "package": "nntp",
@@ -1653,6 +1749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the Article for given ID. Please note that it may or may not\n fetch the header and body. Preferred is lazy loading.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "articleFromID",
           "package": "nntp",
@@ -1662,6 +1759,7 @@
         "index": {
           "description": "Returns the Article for given ID Please note that it may or may not fetch the header and body Preferred is lazy loading",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "articleFromID",
           "normalized": "String-\u003eNntpT a(Maybe Article)",
@@ -1678,6 +1776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the Article of given number from given Group. Please note that\n it may or may not fetch the header and body. Preferred is lazy loading.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "articleFromNo",
           "package": "nntp",
@@ -1687,6 +1786,7 @@
         "index": {
           "description": "Returns the Article of given number from given Group Please note that it may or may not fetch the header and body Preferred is lazy loading",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "articleFromNo",
           "normalized": "Group-\u003eInteger-\u003eNntpT a(Maybe Article)",
@@ -1703,6 +1803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch the article.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "fetchArticle",
           "package": "nntp",
@@ -1712,6 +1813,7 @@
         "index": {
           "description": "Fetch the article",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "fetchArticle",
           "normalized": "Article-\u003eNntpT a Article",
@@ -1728,6 +1830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch the article header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "fetchArticleBody",
           "package": "nntp",
@@ -1737,6 +1840,7 @@
         "index": {
           "description": "Fetch the article header",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "fetchArticleBody",
           "normalized": "Article-\u003eNntpT a Article",
@@ -1753,6 +1857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetchs the article body if it is not fetched.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "fetchArticleBodyLazy",
           "package": "nntp",
@@ -1762,6 +1867,7 @@
         "index": {
           "description": "Fetchs the article body if it is not fetched",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "fetchArticleBodyLazy",
           "normalized": "Article-\u003eNntpT a Article",
@@ -1778,6 +1884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch the article header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "fetchArticleHeader",
           "package": "nntp",
@@ -1787,6 +1894,7 @@
         "index": {
           "description": "Fetch the article header",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "fetchArticleHeader",
           "normalized": "Article-\u003eNntpT a Article",
@@ -1803,6 +1911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetchs the article header if it is not fetched.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "fetchArticleHeaderLazy",
           "package": "nntp",
@@ -1812,6 +1921,7 @@
         "index": {
           "description": "Fetchs the article header if it is not fetched",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "fetchArticleHeaderLazy",
           "normalized": "Article-\u003eNntpT a Article",
@@ -1828,6 +1938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetchs the article only if it is not fetched.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "fetchArticleLazy",
           "package": "nntp",
@@ -1837,6 +1948,7 @@
         "index": {
           "description": "Fetchs the article only if it is not fetched",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "fetchArticleLazy",
           "normalized": "Article-\u003eNntpT a Article",
@@ -1853,6 +1965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "fetchGroup",
           "package": "nntp",
@@ -1862,6 +1975,7 @@
         "index": {
           "description": "Updates group",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "fetchGroup",
           "normalized": "Group-\u003eNntpT a Group",
@@ -1878,6 +1992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIterates over the articles in group collecting values. Please note\n that the function may be called before all I/O operations finished and\n the implementation may or may not allaw to call other NNTP functions\n during the call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "forArticles",
           "package": "nntp",
@@ -1887,6 +2002,7 @@
         "index": {
           "description": "Iterates over the articles in group collecting values Please note that the function may be called before all operations finished and the implementation may or may not allaw to call other NNTP functions during the call",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "forArticles",
           "normalized": "Group-\u003e(Article-\u003ea b)-\u003eNntpT a[b]",
@@ -1903,6 +2019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIterates over every group on server collecting values. Please note\n that the function may be called before all I/O operations finished and\n the implementation may or may not allaw to call other NNTP functions\n during the call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "forGroups",
           "package": "nntp",
@@ -1912,6 +2029,7 @@
         "index": {
           "description": "Iterates over every group on server collecting values Please note that the function may be called before all operations finished and the implementation may or may not allaw to call other NNTP functions during the call",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "forGroups",
           "normalized": "(Group-\u003ea b)-\u003eNntpT a[b]",
@@ -1928,6 +2046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIterates over the new articles in group collecting values. Please note\n that the function may be called before all I/O operations finished and\n the implementation may or may not allaw to call other NNTP functions\n during the call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "forNewArticles",
           "package": "nntp",
@@ -1937,6 +2056,7 @@
         "index": {
           "description": "Iterates over the new articles in group collecting values Please note that the function may be called before all operations finished and the implementation may or may not allaw to call other NNTP functions during the call",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "forNewArticles",
           "normalized": "UTCTime-\u003eGroup-\u003e(Article-\u003ea b)-\u003eNntpT a[b]",
@@ -1953,6 +2073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIterates over new group on server collecting values. Please note\n that the function may be called before all I/O operations finished and\n the implementation may or may not allaw to call other NNTP functions\n during the call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "forNewGroups",
           "package": "nntp",
@@ -1962,6 +2083,7 @@
         "index": {
           "description": "Iterates over new group on server collecting values Please note that the function may be called before all operations finished and the implementation may or may not allaw to call other NNTP functions during the call",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "forNewGroups",
           "normalized": "UTCTime-\u003e(Group-\u003ea b)-\u003eNntpT a[b]",
@@ -1978,6 +2100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the Group of given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "groupFromName",
           "package": "nntp",
@@ -1987,6 +2110,7 @@
         "index": {
           "description": "Returns the Group of given name",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "groupFromName",
           "normalized": "String-\u003eNntpT a(Maybe Group)",
@@ -2003,6 +2127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosts an article.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "post",
           "package": "nntp",
@@ -2012,6 +2137,7 @@
         "index": {
           "description": "Posts an article",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "post",
           "normalized": "ByteString-\u003eNntpT a()",
@@ -2027,6 +2153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns Nntp with given connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "runNntpWithConnection",
           "package": "nntp",
@@ -2036,6 +2163,7 @@
         "index": {
           "description": "Runs Nntp with given connection",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "runNntpWithConnection",
           "normalized": "NntpConnection a-\u003e(Bool-\u003eNntpT a b)-\u003ea(Either NntpError b)",
@@ -2052,6 +2180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is utility function which connects to a host, creates \u003ccode\u003e\u003ca\u003eNntpState\u003c/a\u003e\u003c/code\u003e and\n supplies it to \u003ccode\u003erunNntpWithState\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:31 UTC 2014",
           "module": "Network.NNTP",
           "name": "runNntpWithHost",
           "package": "nntp",
@@ -2061,6 +2190,7 @@
         "index": {
           "description": "This is utility function which connects to host creates NntpState and supplies it to runNntpWithState",
           "hierarchy": "Network NNTP",
+          "indexed": "2014-03-11T19:29:31",
           "module": "Network.NNTP",
           "name": "runNntpWithHost",
           "normalized": "String-\u003eMaybe Word-\u003e(Bool-\u003eNntpT a b)-\u003ea(Either NntpError b)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "carray"
+        "phrase": "carray",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides both the immutable \u003ccode\u003e\u003ca\u003eCArray\u003c/a\u003e\u003c/code\u003e and mutable \u003ccode\u003e\u003ca\u003eIOCArray\u003c/a\u003e\u003c/code\u003e.  The\n underlying storage is exactly the same - pinned memory on the GC'd heap.\n Elements are stored according to the class \u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003e.  You can obtain a\n pointer to the array contents to manipulate elements from languages like C.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eCArray\u003c/a\u003e\u003c/code\u003e is 16-byte aligned by default.  If you create a \u003ccode\u003e\u003ca\u003eCArray\u003c/a\u003e\u003c/code\u003e with\n \u003ccode\u003e\u003ca\u003eunsafeForeignPtrToCArray\u003c/a\u003e\u003c/code\u003e then it may not be aligned.  This will be an issue\n if you intend to use SIMD instructions.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eCArray\u003c/a\u003e\u003c/code\u003e is similar to \u003ccode\u003e\u003ca\u003eUArray\u003c/a\u003e\u003c/code\u003e but slower if you stay\n within Haskell.  \u003ccode\u003e\u003ca\u003eCArray\u003c/a\u003e\u003c/code\u003e can handle more types and can be used by external\n libraries.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eIOCArray\u003c/a\u003e\u003c/code\u003e is equivalent to \u003ccode\u003e\u003ca\u003eStorableArray\u003c/a\u003e\u003c/code\u003e and similar\n to \u003ccode\u003e\u003ca\u003eIOUArray\u003c/a\u003e\u003c/code\u003e but slower.  \u003ccode\u003e\u003ca\u003eIOCArray\u003c/a\u003e\u003c/code\u003e has O(1) versions of\n \u003ccode\u003e\u003ca\u003eunsafeFreeze\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eunsafeThaw\u003c/a\u003e\u003c/code\u003e when converting to/from \u003ccode\u003e\u003ca\u003eCArray\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "Base",
           "package": "carray",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides both the immutable CArray and mutable IOCArray The underlying storage is exactly the same pinned memory on the GC heap Elements are stored according to the class Storable You can obtain pointer to the array contents to manipulate elements from languages like CArray is byte aligned by default If you create CArray with unsafeForeignPtrToCArray then it may not be aligned This will be an issue if you intend to use SIMD instructions CArray is similar to UArray but slower if you stay within Haskell CArray can handle more types and can be used by external libraries IOCArray is equivalent to StorableArray and similar to IOUArray but slower IOCArray has versions of unsafeFreeze and unsafeThaw when converting to from CArray",
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "Base",
           "package": "carray",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHack so that norms have a sensible type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "Abs",
           "package": "carray",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Hack so that norms have sensible type",
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "Abs",
           "package": "carray",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe immutable array type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "CArray",
           "package": "carray",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The immutable array type",
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "CArray",
           "package": "carray",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbsolutely equivalent representation, but used for the mutable interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "IOCArray",
           "package": "carray",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Absolutely equivalent representation but used for the mutable interface",
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "IOCArray",
           "package": "carray",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "CArray",
           "package": "carray",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "CArray",
           "package": "carray",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "IOCArray",
           "package": "carray",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "IOCArray",
           "package": "carray",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "abs_",
           "package": "carray",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "abs_",
           "normalized": "a-\u003eb",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "cmpCArray",
           "package": "carray",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "cmpCArray",
           "normalized": "CArray a b-\u003eCArray a b-\u003eOrdering",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "cmpIntCArray",
           "package": "carray",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "cmpIntCArray",
           "normalized": "CArray Int a-\u003eCArray Int a-\u003eOrdering",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "copy",
           "package": "carray",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "copy",
           "normalized": "CArray a b-\u003eIO(CArray a b)",
@@ -275,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "eqCArray",
           "package": "carray",
@@ -284,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "eqCArray",
           "normalized": "CArray a b-\u003eCArray a b-\u003eBool",
@@ -325,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "freezeIOCArray",
           "package": "carray",
@@ -334,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "freezeIOCArray",
           "normalized": "IOCArray a b-\u003eIO(CArray a b)",
@@ -349,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "indexes",
           "package": "carray",
@@ -358,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "indexes",
           "normalized": "a b c-\u003eb-\u003e[Int]",
@@ -669,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate an array which is 16-byte aligned.  Essential for SIMD instructions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "mallocForeignPtrArrayAligned",
           "package": "carray",
@@ -679,6 +706,7 @@
         "index": {
           "description": "Allocate an array which is byte aligned Essential for SIMD instructions",
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "mallocForeignPtrArrayAligned",
           "normalized": "Int-\u003eIO(ForeignPtr a)",
@@ -695,6 +723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate memory which is 16-byte aligned.  This is essential for SIMD\n instructions.  We know that mallocPlainForeignPtrBytes will give word-aligned\n memory, so we pad enough to be able to return the desired amount of memory\n after aligning our pointer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "mallocForeignPtrBytesAligned",
           "package": "carray",
@@ -705,6 +734,7 @@
         "index": {
           "description": "Allocate memory which is byte aligned This is essential for SIMD instructions We know that mallocPlainForeignPtrBytes will give word-aligned memory so we pad enough to be able to return the desired amount of memory after aligning our pointer",
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "mallocForeignPtrBytesAligned",
           "normalized": "Int-\u003eIO(ForeignPtr a)",
@@ -721,6 +751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn-place map on CArray.  Note that this is \u003cem\u003eIN PLACE\u003c/em\u003e so you should not\n retain any reference to the original.  It flagrantly breaks referential\n transparency!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "mapCArrayInPlace",
           "package": "carray",
@@ -731,6 +762,7 @@
         "index": {
           "description": "In-place map on CArray Note that this is IN PLACE so you should not retain any reference to the original It flagrantly breaks referential transparency",
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "mapCArrayInPlace",
           "normalized": "(a-\u003ea)-\u003eCArray b a-\u003eCArray b a",
@@ -825,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "offsetShapeFromThenTo",
           "package": "carray",
@@ -834,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "offsetShapeFromThenTo",
           "normalized": "[Int]-\u003e[Int]-\u003e[Int]-\u003e[Int]-\u003e[Int]",
@@ -849,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "offsetShapeFromTo",
           "package": "carray",
@@ -858,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "offsetShapeFromTo",
           "normalized": "[Int]-\u003e[Int]-\u003e[Int]-\u003e[Int]",
@@ -873,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "offsetShapeFromTo'",
           "package": "carray",
@@ -882,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "offsetShapeFromTo'",
           "normalized": "([[Int]]-\u003e[[Int]])-\u003e[Int]-\u003e[Int]-\u003e[Int]-\u003e[Int]",
@@ -897,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "offsets",
           "package": "carray",
@@ -906,6 +945,7 @@
         },
         "index": {
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "offsets",
           "normalized": "(a,a)-\u003ea-\u003e[Int]",
@@ -1160,6 +1200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "thawIOCArray",
           "package": "carray",
@@ -1169,6 +1210,7 @@
         },
         "index": {
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "thawIOCArray",
           "normalized": "CArray a b-\u003eIO(IOCArray a b)",
@@ -1238,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "unsafeAccumArrayCArray",
           "package": "carray",
@@ -1247,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "unsafeAccumArrayCArray",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003e(c,c)-\u003e[(Int,b)]-\u003eIO(CArray c a)",
@@ -1262,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "unsafeAccumCArray",
           "package": "carray",
@@ -1271,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "unsafeAccumCArray",
           "normalized": "(a-\u003eb-\u003ea)-\u003eCArray c a-\u003e[(Int,b)]-\u003eIO(CArray c a)",
@@ -1286,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "unsafeArrayCArray",
           "package": "carray",
@@ -1295,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "unsafeArrayCArray",
           "normalized": "(a,a)-\u003e[(Int,b)]-\u003eb-\u003eIO(CArray a b)",
@@ -1364,6 +1412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "unsafeCreateCArray",
           "package": "carray",
@@ -1373,6 +1422,7 @@
         },
         "index": {
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "unsafeCreateCArray",
           "normalized": "(a,a)-\u003e(Ptr b-\u003eIO())-\u003eCArray a b",
@@ -1442,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "unsafeFreezeIOCArray",
           "package": "carray",
@@ -1451,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "unsafeFreezeIOCArray",
           "normalized": "IOCArray a b-\u003eIO(CArray a b)",
@@ -1466,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "unsafeReplaceCArray",
           "package": "carray",
@@ -1475,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "unsafeReplaceCArray",
           "normalized": "CArray a b-\u003e[(Int,b)]-\u003eIO(CArray a b)",
@@ -1490,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "unsafeThawIOCArray",
           "package": "carray",
@@ -1499,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "unsafeThawIOCArray",
           "normalized": "CArray a b-\u003eIO(IOCArray a b)",
@@ -1567,6 +1623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHackish way to get the zero element for a Storable type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray.Base",
           "name": "zeroElem",
           "package": "carray",
@@ -1577,6 +1634,7 @@
         "index": {
           "description": "Hackish way to get the zero element for Storable type",
           "hierarchy": "Data Array CArray Base",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray.Base",
           "name": "zeroElem",
           "normalized": "a-\u003ea",
@@ -1593,6 +1651,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the immutable \u003ccode\u003e\u003ca\u003eCArray\u003c/a\u003e\u003c/code\u003e which uses pinned memory on the\n GC'd heap.  Elements are stored according to the class \u003ccode\u003eStorable\u003c/code\u003e.  You can\n obtain a pointer to the array contents to manipulate elements from\n languages like C.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eCArray\u003c/a\u003e\u003c/code\u003e is 16-byte aligned by default.  If you create a \u003ccode\u003e\u003ca\u003eCArray\u003c/a\u003e\u003c/code\u003e with\n \u003ccode\u003e\u003ca\u003eunsafeForeignPtrToCArray\u003c/a\u003e\u003c/code\u003e then it may not be aligned.  This will be an issue\n if you intend to use SIMD instructions.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eCArray\u003c/a\u003e\u003c/code\u003e is similar to \u003ccode\u003e\u003ca\u003eUArray\u003c/a\u003e\u003c/code\u003e but slower if you stay\n within Haskell.  \u003ccode\u003e\u003ca\u003eCArray\u003c/a\u003e\u003c/code\u003e can handle more types and can be used by external\n libraries.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eCArray\u003c/a\u003e\u003c/code\u003e has an instance of \u003ccode\u003eBinary\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray",
           "name": "CArray",
           "package": "carray",
@@ -1602,6 +1661,7 @@
         "index": {
           "description": "This module provides the immutable CArray which uses pinned memory on the GC heap Elements are stored according to the class Storable You can obtain pointer to the array contents to manipulate elements from languages like CArray is byte aligned by default If you create CArray with unsafeForeignPtrToCArray then it may not be aligned This will be an issue if you intend to use SIMD instructions CArray is similar to UArray but slower if you stay within Haskell CArray can handle more types and can be used by external libraries CArray has an instance of Binary",
           "hierarchy": "Data Array CArray",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray",
           "name": "CArray",
           "package": "carray",
@@ -1616,6 +1676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHack so that norms have a sensible type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray",
           "name": "Abs",
           "package": "carray",
@@ -1625,6 +1686,7 @@
         "index": {
           "description": "Hack so that norms have sensible type",
           "hierarchy": "Data Array CArray",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray",
           "name": "Abs",
           "package": "carray",
@@ -1639,6 +1701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe immutable array type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray",
           "name": "CArray",
           "package": "carray",
@@ -1648,6 +1711,7 @@
         "index": {
           "description": "The immutable array type",
           "hierarchy": "Data Array CArray",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray",
           "name": "CArray",
           "package": "carray",
@@ -1662,6 +1726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe need this type class to distinguish between different tuples of Ix.\n There are Shapable instances for homogenous Int tuples, but may Haddock\n doesn't see them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray",
           "name": "Shapable",
           "package": "carray",
@@ -1670,6 +1735,7 @@
         "index": {
           "description": "We need this type class to distinguish between different tuples of Ix There are Shapable instances for homogenous Int tuples but may Haddock doesn see them",
           "hierarchy": "Data Array CArray",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray",
           "name": "Shapable",
           "package": "carray",
@@ -1684,6 +1750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the rank of an array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray",
           "name": "rank",
           "package": "carray",
@@ -1693,6 +1760,7 @@
         "index": {
           "description": "Determine the rank of an array",
           "hierarchy": "Data Array CArray",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray",
           "name": "rank",
           "normalized": "a b c-\u003eInt",
@@ -1708,6 +1776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCanonical representation of the shape.\n The following properties hold:\n     'length . shape = rank'\n     'product . shape = size'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray",
           "name": "shape",
           "package": "carray",
@@ -1717,6 +1786,7 @@
         "index": {
           "description": "Canonical representation of the shape The following properties hold length shape rank product shape size",
           "hierarchy": "Data Array CArray",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray",
           "name": "shape",
           "normalized": "a b c-\u003e[Int]",
@@ -1732,6 +1802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of elements in the Array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.CArray",
           "name": "size",
           "package": "carray",
@@ -1741,6 +1812,7 @@
         "index": {
           "description": "Number of elements in the Array",
           "hierarchy": "Data Array CArray",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.CArray",
           "name": "size",
           "normalized": "a b c-\u003eInt",
@@ -1756,6 +1828,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides both the mutable \u003ccode\u003e\u003ca\u003eIOCArray\u003c/a\u003e\u003c/code\u003e which uses pinned memory on\n the GC'd heap.  Elements are stored according to the class \u003ccode\u003eStorable\u003c/code\u003e.  You\n can obtain a pointer to the array contents to manipulate elements from\n languages like C.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eIOCArray\u003c/a\u003e\u003c/code\u003e is 16-byte aligned by default.  If you create a \u003ccode\u003e\u003ca\u003eIOCArray\u003c/a\u003e\u003c/code\u003e with\n \u003ccode\u003e\u003ca\u003eunsafeForeignPtrToIOCArray\u003c/a\u003e\u003c/code\u003e then it may not be aligned.  This will be an\n issue if you intend to use SIMD instructions.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eIOCArray\u003c/a\u003e\u003c/code\u003e is equivalent to \u003ccode\u003e\u003ca\u003eStorableArray\u003c/a\u003e\u003c/code\u003e and similar\n to \u003ccode\u003e\u003ca\u003eIOUArray\u003c/a\u003e\u003c/code\u003e but slower.  \u003ccode\u003e\u003ca\u003eIOCArray\u003c/a\u003e\u003c/code\u003e has O(1) versions of\n \u003ccode\u003e\u003ca\u003eunsafeFreeze\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eunsafeThaw\u003c/a\u003e\u003c/code\u003e when converting to/from \u003ccode\u003e\u003ca\u003eCArray\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.IOCArray",
           "name": "IOCArray",
           "package": "carray",
@@ -1765,6 +1838,7 @@
         "index": {
           "description": "This module provides both the mutable IOCArray which uses pinned memory on the GC heap Elements are stored according to the class Storable You can obtain pointer to the array contents to manipulate elements from languages like IOCArray is byte aligned by default If you create IOCArray with unsafeForeignPtrToIOCArray then it may not be aligned This will be an issue if you intend to use SIMD instructions IOCArray is equivalent to StorableArray and similar to IOUArray but slower IOCArray has versions of unsafeFreeze and unsafeThaw when converting to from CArray",
           "hierarchy": "Data Array IOCArray",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.IOCArray",
           "name": "IOCArray",
           "package": "carray",
@@ -1779,6 +1853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbsolutely equivalent representation, but used for the mutable interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:29:54 UTC 2014",
           "module": "Data.Array.IOCArray",
           "name": "IOCArray",
           "package": "carray",
@@ -1788,6 +1863,7 @@
         "index": {
           "description": "Absolutely equivalent representation but used for the mutable interface",
           "hierarchy": "Data Array IOCArray",
+          "indexed": "2014-03-11T17:29:54",
           "module": "Data.Array.IOCArray",
           "name": "IOCArray",
           "package": "carray",

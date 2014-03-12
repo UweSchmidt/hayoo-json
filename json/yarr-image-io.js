@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yarr-image-io"
+        "phrase": "yarr-image-io",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:49 UTC 2014",
           "module": "Data.Yarr.IO.Image",
           "name": "Image",
           "package": "yarr-image-io",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Yarr IO Image",
+          "indexed": "2014-03-11T20:44:49",
           "module": "Data.Yarr.IO.Image",
           "name": "Image",
           "package": "yarr-image-io",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:49 UTC 2014",
           "module": "Data.Yarr.IO.Image",
           "name": "Image",
           "package": "yarr-image-io",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Yarr IO Image",
+          "indexed": "2014-03-11T20:44:49",
           "module": "Data.Yarr.IO.Image",
           "name": "Image",
           "package": "yarr-image-io",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e8-bit unsigned integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:49 UTC 2014",
           "module": "Data.Yarr.IO.Image",
           "name": "Word8",
           "package": "yarr-image-io",
@@ -69,6 +74,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "Data Yarr IO Image",
+          "indexed": "2014-03-11T20:44:49",
           "module": "Data.Yarr.IO.Image",
           "name": "Word8",
           "package": "yarr-image-io",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:49 UTC 2014",
           "module": "Data.Yarr.IO.Image",
           "name": "BGR",
           "package": "yarr-image-io",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Yarr IO Image",
+          "indexed": "2014-03-11T20:44:49",
           "module": "Data.Yarr.IO.Image",
           "name": "BGR",
           "package": "yarr-image-io",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:49 UTC 2014",
           "module": "Data.Yarr.IO.Image",
           "name": "BGRA",
           "package": "yarr-image-io",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data Yarr IO Image",
+          "indexed": "2014-03-11T20:44:49",
           "module": "Data.Yarr.IO.Image",
           "name": "BGRA",
           "package": "yarr-image-io",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:49 UTC 2014",
           "module": "Data.Yarr.IO.Image",
           "name": "Grey",
           "package": "yarr-image-io",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Yarr IO Image",
+          "indexed": "2014-03-11T20:44:49",
           "module": "Data.Yarr.IO.Image",
           "name": "Grey",
           "package": "yarr-image-io",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:49 UTC 2014",
           "module": "Data.Yarr.IO.Image",
           "name": "RGB",
           "package": "yarr-image-io",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data Yarr IO Image",
+          "indexed": "2014-03-11T20:44:49",
           "module": "Data.Yarr.IO.Image",
           "name": "RGB",
           "package": "yarr-image-io",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:49 UTC 2014",
           "module": "Data.Yarr.IO.Image",
           "name": "RGBA",
           "package": "yarr-image-io",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data Yarr IO Image",
+          "indexed": "2014-03-11T20:44:49",
           "module": "Data.Yarr.IO.Image",
           "name": "RGBA",
           "package": "yarr-image-io",
@@ -193,6 +209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads \u003ccode\u003e\u003ca\u003eImage\u003c/a\u003e\u003c/code\u003e from file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:49 UTC 2014",
           "module": "Data.Yarr.IO.Image",
           "name": "readImage",
           "package": "yarr-image-io",
@@ -203,6 +220,7 @@
         "index": {
           "description": "Reads Image from file",
           "hierarchy": "Data Yarr IO Image",
+          "indexed": "2014-03-11T20:44:49",
           "module": "Data.Yarr.IO.Image",
           "name": "readImage",
           "normalized": "FilePath-\u003eIO Image",
@@ -219,6 +237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFuction to uniformly import images of any type.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e\n anyImage \u003c- \u003ccode\u003e\u003ca\u003ereadImage\u003c/a\u003e\u003c/code\u003e \"lena.png\"\n let image = readRGB (\\r g b -\u003e ...) anyImage\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:44:49 UTC 2014",
           "module": "Data.Yarr.IO.Image",
           "name": "readRGB",
           "package": "yarr-image-io",
@@ -228,6 +247,7 @@
         "index": {
           "description": "Fuction to uniformly import images of any type Example anyImage readImage lena.png let image readRGB anyImage",
           "hierarchy": "Data Yarr IO Image",
+          "indexed": "2014-03-11T20:44:49",
           "module": "Data.Yarr.IO.Image",
           "name": "readRGB",
           "normalized": "Fun N Word a-\u003eImage-\u003eUArray D L Dim a",
@@ -244,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003ereadRGBVectors = \u003ccode\u003e\u003ca\u003ereadRGB\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003econstruct\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:44:49 UTC 2014",
           "module": "Data.Yarr.IO.Image",
           "name": "readRGBVectors",
           "package": "yarr-image-io",
@@ -254,6 +275,7 @@
         "index": {
           "description": "readRGBVectors readRGB construct",
           "hierarchy": "Data Yarr IO Image",
+          "indexed": "2014-03-11T20:44:49",
           "module": "Data.Yarr.IO.Image",
           "name": "readRGBVectors",
           "normalized": "Image-\u003eUArray D L Dim(a Word)",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites \u003ccode\u003e\u003ca\u003eImage\u003c/a\u003e\u003c/code\u003e to file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:49 UTC 2014",
           "module": "Data.Yarr.IO.Image",
           "name": "writeImage",
           "package": "yarr-image-io",
@@ -280,6 +303,7 @@
         "index": {
           "description": "Writes Image to file",
           "hierarchy": "Data Yarr IO Image",
+          "indexed": "2014-03-11T20:44:49",
           "module": "Data.Yarr.IO.Image",
           "name": "writeImage",
           "normalized": "FilePath-\u003eImage-\u003eIO()",

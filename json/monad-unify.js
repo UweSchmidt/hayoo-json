@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-unify"
+        "phrase": "monad-unify",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "Unify",
           "package": "monad-unify",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "Unify",
           "package": "monad-unify",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type which can contain unification variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "Partial",
           "package": "monad-unify",
@@ -49,6 +52,7 @@
         "index": {
           "description": "type which can contain unification variables",
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "Partial",
           "package": "monad-unify",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA substitution maintains a mapping from unification variables to their values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "Substitution",
           "package": "monad-unify",
@@ -72,6 +77,7 @@
         "index": {
           "description": "substitution maintains mapping from unification variables to their values",
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "Substitution",
           "package": "monad-unify",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies types which support unification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "Unifiable",
           "package": "monad-unify",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Identifies types which support unification",
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "Unifiable",
           "package": "monad-unify",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState required for type checking\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "UnifyState",
           "package": "monad-unify",
@@ -118,6 +127,7 @@
         "index": {
           "description": "State required for type checking",
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "UnifyState",
           "package": "monad-unify",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type checking monad, which provides the state of the type checker, and error reporting capabilities\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "UnifyT",
           "package": "monad-unify",
@@ -141,6 +152,7 @@
         "index": {
           "description": "The type checking monad which provides the state of the type checker and error reporting capabilities",
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "UnifyT",
           "package": "monad-unify",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUntyped unification variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "Unknown",
           "package": "monad-unify",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Untyped unification variables",
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "Unknown",
           "package": "monad-unify",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a substitution to a value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "($?)",
           "package": "monad-unify",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Apply substitution to value",
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "($?) $?",
           "normalized": "Substitution a-\u003ea-\u003ea",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "(=?=)",
           "package": "monad-unify",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "(=?=) =?=",
           "normalized": "a-\u003ea-\u003eUnifyT a b()",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace a unification variable with the specified value in the current substitution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "(=:=)",
           "package": "monad-unify",
@@ -236,6 +255,7 @@
         "index": {
           "description": "Replace unification variable with the specified value in the current substitution",
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "(=:=) =:=",
           "normalized": "Unknown-\u003ea-\u003eUnifyT a b()",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "Substitution",
           "package": "monad-unify",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "Substitution",
           "package": "monad-unify",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "UnifyState",
           "package": "monad-unify",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "UnifyState",
           "package": "monad-unify",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "UnifyT",
           "package": "monad-unify",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "UnifyT",
           "package": "monad-unify",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "Unknown",
           "package": "monad-unify",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "Unknown",
           "package": "monad-unify",
@@ -339,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty \u003ccode\u003eUnifyState\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "defaultUnifyState",
           "package": "monad-unify",
@@ -349,6 +378,7 @@
         "index": {
           "description": "An empty UnifyState",
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "defaultUnifyState",
           "package": "monad-unify",
@@ -363,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a fresh unification variable at a specific type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "fresh",
           "package": "monad-unify",
@@ -373,6 +404,7 @@
         "index": {
           "description": "Generate fresh unification variable at specific type",
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "fresh",
           "package": "monad-unify",
@@ -386,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a fresh untyped unification variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "fresh'",
           "package": "monad-unify",
@@ -396,6 +429,7 @@
         "index": {
           "description": "Generate fresh untyped unification variable",
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "fresh'",
           "package": "monad-unify",
@@ -408,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "isUnknown",
           "package": "monad-unify",
@@ -417,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "isUnknown",
           "normalized": "a-\u003eMaybe Unknown",
@@ -433,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform the occurs check, to make sure a unification variable does not occur inside a value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "occursCheck",
           "package": "monad-unify",
@@ -443,6 +480,7 @@
         "index": {
           "description": "Perform the occurs check to make sure unification variable does not occur inside value",
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "occursCheck",
           "normalized": "Unknown-\u003ea-\u003eUnifyT a b()",
@@ -458,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "runSubstitution",
           "package": "monad-unify",
@@ -467,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "runSubstitution",
           "package": "monad-unify",
@@ -481,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a computation in the Unify monad, failing with an error, or succeeding with a return value and the new next unification variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "runUnify",
           "package": "monad-unify",
@@ -491,6 +532,7 @@
         "index": {
           "description": "Run computation in the Unify monad failing with an error or succeeding with return value and the new next unification variable",
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "runUnify",
           "normalized": "UnifyState a-\u003eUnifyT a b c-\u003eb(Either String(c,UnifyState a))",
@@ -507,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe underlying integer representing the unification variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "runUnknown",
           "package": "monad-unify",
@@ -517,6 +560,7 @@
         "index": {
           "description": "The underlying integer representing the unification variable",
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "runUnknown",
           "package": "monad-unify",
@@ -531,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitute a single unification variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "substituteOne",
           "package": "monad-unify",
@@ -541,6 +586,7 @@
         "index": {
           "description": "Substitute single unification variable",
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "substituteOne",
           "normalized": "Unknown-\u003ea-\u003eSubstitution a",
@@ -556,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "unUnify",
           "package": "monad-unify",
@@ -565,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "unUnify",
           "package": "monad-unify",
@@ -579,6 +627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current substitution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "unifyCurrentSubstitution",
           "package": "monad-unify",
@@ -589,6 +638,7 @@
         "index": {
           "description": "The current substitution",
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "unifyCurrentSubstitution",
           "package": "monad-unify",
@@ -603,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe next fresh unification variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "unifyNextVar",
           "package": "monad-unify",
@@ -613,6 +664,7 @@
         "index": {
           "description": "The next fresh unification variable",
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "unifyNextVar",
           "package": "monad-unify",
@@ -626,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "unknown",
           "package": "monad-unify",
@@ -635,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "unknown",
           "normalized": "Unknown-\u003ea",
@@ -650,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect all unknowns occurring inside a value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:59 UTC 2014",
           "module": "Control.Monad.Unify",
           "name": "unknowns",
           "package": "monad-unify",
@@ -660,6 +715,7 @@
         "index": {
           "description": "Collect all unknowns occurring inside value",
           "hierarchy": "Control Monad Unify",
+          "indexed": "2014-03-11T19:20:59",
           "module": "Control.Monad.Unify",
           "name": "unknowns",
           "normalized": "a-\u003e[Unknown]",

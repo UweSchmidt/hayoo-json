@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gnutls"
+        "phrase": "gnutls",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "GNU",
           "package": "gnutls",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "GNU",
           "package": "gnutls",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "CertificateType",
           "package": "gnutls",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "CertificateType",
           "package": "gnutls",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "Credentials",
           "package": "gnutls",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "Credentials",
           "package": "gnutls",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "Error",
           "package": "gnutls",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "Error",
           "package": "gnutls",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "Prioritised",
           "package": "gnutls",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "Prioritised",
           "package": "gnutls",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "Session",
           "package": "gnutls",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "Session",
           "package": "gnutls",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "TLS",
           "package": "gnutls",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "TLS",
           "package": "gnutls",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "Transport",
           "package": "gnutls",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "Transport",
           "package": "gnutls",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "Error",
           "package": "gnutls",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "Error",
           "package": "gnutls",
@@ -208,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "OpenPGP",
           "package": "gnutls",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "OpenPGP",
           "package": "gnutls",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "Transport",
           "package": "gnutls",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "Transport",
           "package": "gnutls",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "X509",
           "package": "gnutls",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "X509",
           "package": "gnutls",
@@ -273,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "certificateCredentials",
           "package": "gnutls",
@@ -282,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "certificateCredentials",
           "package": "gnutls",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "checkPending",
           "package": "gnutls",
@@ -304,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "checkPending",
           "package": "gnutls",
@@ -317,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "getBytes",
           "package": "gnutls",
@@ -326,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "getBytes",
           "normalized": "Integer-\u003eTLS ByteString",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "getSession",
           "package": "gnutls",
@@ -350,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "getSession",
           "package": "gnutls",
@@ -363,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "handleTransport",
           "package": "gnutls",
@@ -372,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "handleTransport",
           "normalized": "Handle-\u003eTransport",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "handshake",
           "package": "gnutls",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "handshake",
           "normalized": "TLS()",
@@ -410,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "putBytes",
           "package": "gnutls",
@@ -419,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "putBytes",
           "normalized": "ByteString-\u003eTLS()",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "rehandshake",
           "package": "gnutls",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "rehandshake",
           "normalized": "TLS()",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "runClient",
           "package": "gnutls",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "runClient",
           "normalized": "Transport-\u003eTLS a-\u003eIO(Either Error a)",
@@ -481,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "runTLS",
           "package": "gnutls",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "runTLS",
           "normalized": "Session-\u003eTLS a-\u003eIO(Either Error a)",
@@ -505,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "setCredentials",
           "package": "gnutls",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "setCredentials",
           "normalized": "Credentials-\u003eTLS()",
@@ -529,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "setPriority",
           "package": "gnutls",
@@ -538,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "setPriority",
           "normalized": "[a]-\u003eTLS()",
@@ -553,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "transportPull",
           "package": "gnutls",
@@ -562,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "transportPull",
           "normalized": "Integer-\u003eIO ByteString",
@@ -577,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:56 UTC 2014",
           "module": "Network.Protocol.TLS.GNU",
           "name": "transportPush",
           "package": "gnutls",
@@ -586,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol TLS GNU",
+          "indexed": "2014-03-11T18:18:56",
           "module": "Network.Protocol.TLS.GNU",
           "name": "transportPush",
           "normalized": "ByteString-\u003eIO()",

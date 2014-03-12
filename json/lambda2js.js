@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lambda2js"
+        "phrase": "lambda2js",
+        "type": "phrase"
       },
       "type": "context"
     }

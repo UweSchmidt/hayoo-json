@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "txt-sushi"
+        "phrase": "txt-sushi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome functions for parsing command line args (TODO: evaluate what you're\n doing here against the arg parsing libraries on hackage)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "CommandLineArgument",
           "package": "txt-sushi",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Some functions for parsing command line args TODO evaluate what you re doing here against the arg parsing libraries on hackage",
           "hierarchy": "Database TxtSushi CommandLineArgument",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "CommandLineArgument",
           "package": "txt-sushi",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "CommandLineDescription",
           "package": "txt-sushi",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi CommandLineArgument",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "CommandLineDescription",
           "package": "txt-sushi",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea data structure for describing command line arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "OptionDescription",
           "package": "txt-sushi",
@@ -72,6 +77,7 @@
         "index": {
           "description": "data structure for describing command line arguments",
           "hierarchy": "Database TxtSushi CommandLineArgument",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "OptionDescription",
           "package": "txt-sushi",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "CommandLineDescription",
           "package": "txt-sushi",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi CommandLineArgument",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "CommandLineDescription",
           "package": "txt-sushi",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "OptionDescription",
           "package": "txt-sushi",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi CommandLineArgument",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "OptionDescription",
           "package": "txt-sushi",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif true then \u003ccode\u003e\u003ca\u003eminArgumentCount\u003c/a\u003e\u003c/code\u003e is the upper threshold\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "argumentCountIsFixed",
           "package": "txt-sushi",
@@ -140,6 +151,7 @@
         "index": {
           "description": "if true then minArgumentCount is the upper threshold",
           "hierarchy": "Database TxtSushi CommandLineArgument",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "argumentCountIsFixed",
           "package": "txt-sushi",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name(s) to use for the argument(s).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "argumentNames",
           "package": "txt-sushi",
@@ -164,6 +177,7 @@
         "index": {
           "description": "The name to use for the argument",
           "hierarchy": "Database TxtSushi CommandLineArgument",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "argumentNames",
           "normalized": "[String]",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "extractCommandLineArguments",
           "package": "txt-sushi",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi CommandLineArgument",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "extractCommandLineArguments",
           "normalized": "CommandLineDescription-\u003e[String]-\u003e(Map OptionDescription[[String]],[String])",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econverts a command line description into a string version that\n   you can show the user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "formatCommandLine",
           "package": "txt-sushi",
@@ -214,6 +231,7 @@
         "index": {
           "description": "converts command line description into string version that you can show the user",
           "hierarchy": "Database TxtSushi CommandLineArgument",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "formatCommandLine",
           "normalized": "CommandLineDescription-\u003eString",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edetermines if this is a required option or not\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "isRequired",
           "package": "txt-sushi",
@@ -240,6 +259,7 @@
         "index": {
           "description": "determines if this is required option or not",
           "hierarchy": "Database TxtSushi CommandLineArgument",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "isRequired",
           "package": "txt-sushi",
@@ -254,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe minimum number of args allowed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "minArgumentCount",
           "package": "txt-sushi",
@@ -264,6 +285,7 @@
         "index": {
           "description": "the minimum number of args allowed",
           "hierarchy": "Database TxtSushi CommandLineArgument",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "minArgumentCount",
           "package": "txt-sushi",
@@ -277,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "minTailArgumentCount",
           "package": "txt-sushi",
@@ -286,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi CommandLineArgument",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "minTailArgumentCount",
           "package": "txt-sushi",
@@ -300,6 +324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat flag should we use. Eg: \u003ca\u003e-pretty-output\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "optionFlag",
           "package": "txt-sushi",
@@ -310,6 +335,7 @@
         "index": {
           "description": "What flag should we use Eg pretty-output",
           "hierarchy": "Database TxtSushi CommandLineArgument",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "optionFlag",
           "package": "txt-sushi",
@@ -323,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "options",
           "package": "txt-sushi",
@@ -332,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi CommandLineArgument",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "options",
           "normalized": "[OptionDescription]",
@@ -346,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "tailArgumentCountIsFixed",
           "package": "txt-sushi",
@@ -355,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi CommandLineArgument",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "tailArgumentCountIsFixed",
           "package": "txt-sushi",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "tailArgumentNames",
           "package": "txt-sushi",
@@ -377,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi CommandLineArgument",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.CommandLineArgument",
           "name": "tailArgumentNames",
           "normalized": "[String]",
@@ -393,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEvaluatedExpression data type along with supporting functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "EvaluatedExpression",
           "package": "txt-sushi",
@@ -402,6 +435,7 @@
         "index": {
           "description": "EvaluatedExpression data type along with supporting functions",
           "hierarchy": "Database TxtSushi EvaluatedExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "EvaluatedExpression",
           "package": "txt-sushi",
@@ -415,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "EvaluatedExpression",
           "package": "txt-sushi",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi EvaluatedExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "EvaluatedExpression",
           "package": "txt-sushi",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "BoolExpression",
           "package": "txt-sushi",
@@ -445,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi EvaluatedExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "BoolExpression",
           "package": "txt-sushi",
@@ -458,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "IntExpression",
           "package": "txt-sushi",
@@ -467,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi EvaluatedExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "IntExpression",
           "package": "txt-sushi",
@@ -480,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "RealExpression",
           "package": "txt-sushi",
@@ -489,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi EvaluatedExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "RealExpression",
           "package": "txt-sushi",
@@ -502,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "StringExpression",
           "package": "txt-sushi",
@@ -511,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi EvaluatedExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "StringExpression",
           "package": "txt-sushi",
@@ -524,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "boolCompare",
           "package": "txt-sushi",
@@ -533,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi EvaluatedExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "boolCompare",
           "normalized": "EvaluatedExpression-\u003eEvaluatedExpression-\u003eOrdering",
@@ -548,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "coerceBool",
           "package": "txt-sushi",
@@ -557,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi EvaluatedExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "coerceBool",
           "normalized": "EvaluatedExpression-\u003eBool",
@@ -572,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "coerceInt",
           "package": "txt-sushi",
@@ -581,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi EvaluatedExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "coerceInt",
           "normalized": "EvaluatedExpression-\u003eInt",
@@ -596,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "coerceReal",
           "package": "txt-sushi",
@@ -605,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi EvaluatedExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "coerceReal",
           "normalized": "EvaluatedExpression-\u003eDouble",
@@ -620,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "coerceString",
           "package": "txt-sushi",
@@ -629,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi EvaluatedExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "coerceString",
           "normalized": "EvaluatedExpression-\u003eString",
@@ -644,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "intCompare",
           "package": "txt-sushi",
@@ -653,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi EvaluatedExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "intCompare",
           "normalized": "EvaluatedExpression-\u003eEvaluatedExpression-\u003eOrdering",
@@ -668,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "maybeCoerceBool",
           "package": "txt-sushi",
@@ -677,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi EvaluatedExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "maybeCoerceBool",
           "normalized": "EvaluatedExpression-\u003eMaybe Bool",
@@ -692,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "maybeCoerceInt",
           "package": "txt-sushi",
@@ -701,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi EvaluatedExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "maybeCoerceInt",
           "normalized": "EvaluatedExpression-\u003eMaybe Int",
@@ -716,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "maybeCoerceReal",
           "package": "txt-sushi",
@@ -725,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi EvaluatedExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "maybeCoerceReal",
           "normalized": "EvaluatedExpression-\u003eMaybe Double",
@@ -740,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "maybeReadBool",
           "package": "txt-sushi",
@@ -749,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi EvaluatedExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "maybeReadBool",
           "normalized": "String-\u003eMaybe Bool",
@@ -764,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "realCompare",
           "package": "txt-sushi",
@@ -773,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi EvaluatedExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "realCompare",
           "normalized": "EvaluatedExpression-\u003eEvaluatedExpression-\u003eOrdering",
@@ -788,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "stringCompare",
           "package": "txt-sushi",
@@ -797,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi EvaluatedExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.EvaluatedExpression",
           "name": "stringCompare",
           "normalized": "EvaluatedExpression-\u003eEvaluatedExpression-\u003eOrdering",
@@ -813,6 +881,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFor sorting huge lists on disk\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ExternalSort",
           "name": "ExternalSort",
           "package": "txt-sushi",
@@ -822,6 +891,7 @@
         "index": {
           "description": "For sorting huge lists on disk",
           "hierarchy": "Database TxtSushi ExternalSort",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ExternalSort",
           "name": "ExternalSort",
           "package": "txt-sushi",
@@ -836,6 +906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrently 16 MB. Don't rely on this value staying the same in future\n   releases!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ExternalSort",
           "name": "defaultByteQuota",
           "package": "txt-sushi",
@@ -846,6 +917,7 @@
         "index": {
           "description": "Currently MB Don rely on this value staying the same in future releases",
           "hierarchy": "Database TxtSushi ExternalSort",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ExternalSort",
           "name": "defaultByteQuota",
           "package": "txt-sushi",
@@ -860,6 +932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrently 17 files. Don't rely on this value staying the same in future\n   releases!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ExternalSort",
           "name": "defaultMaxOpenFiles",
           "package": "txt-sushi",
@@ -870,6 +943,7 @@
         "index": {
           "description": "Currently files Don rely on this value staying the same in future releases",
           "hierarchy": "Database TxtSushi ExternalSort",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ExternalSort",
           "name": "defaultMaxOpenFiles",
           "package": "txt-sushi",
@@ -884,6 +958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperforms an external sort on the given list using the default resource\n   constraints\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ExternalSort",
           "name": "externalSort",
           "package": "txt-sushi",
@@ -894,6 +969,7 @@
         "index": {
           "description": "performs an external sort on the given list using the default resource constraints",
           "hierarchy": "Database TxtSushi ExternalSort",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ExternalSort",
           "name": "externalSort",
           "normalized": "[a]-\u003e[a]",
@@ -910,6 +986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperforms an external sort on the given list using the given comparison\n   function and the default resource constraints\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ExternalSort",
           "name": "externalSortBy",
           "package": "txt-sushi",
@@ -920,6 +997,7 @@
         "index": {
           "description": "performs an external sort on the given list using the given comparison function and the default resource constraints",
           "hierarchy": "Database TxtSushi ExternalSort",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ExternalSort",
           "name": "externalSortBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003e[a]-\u003e[a]",
@@ -936,6 +1014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperforms an external sort on the given list using the given resource\n   constraints\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ExternalSort",
           "name": "externalSortByConstrained",
           "package": "txt-sushi",
@@ -946,6 +1025,7 @@
         "index": {
           "description": "performs an external sort on the given list using the given resource constraints",
           "hierarchy": "Database TxtSushi ExternalSort",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ExternalSort",
           "name": "externalSortByConstrained",
           "normalized": "a-\u003ea-\u003e(b-\u003eb-\u003eOrdering)-\u003e[b]-\u003e[b]",
@@ -962,6 +1042,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for reading/writing flat files\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.FlatFile",
           "name": "FlatFile",
           "package": "txt-sushi",
@@ -971,6 +1052,7 @@
         "index": {
           "description": "Functions for reading writing flat files",
           "hierarchy": "Database TxtSushi FlatFile",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.FlatFile",
           "name": "FlatFile",
           "package": "txt-sushi",
@@ -985,6 +1067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFormat\u003c/a\u003e\u003c/code\u003e allows you to specify different flat-file formats so that you\ncan use \u003ccode\u003e\u003ca\u003eparseTable\u003c/a\u003e\u003c/code\u003e for CSV, tab-delimited etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.FlatFile",
           "name": "Format",
           "package": "txt-sushi",
@@ -994,6 +1077,7 @@
         "index": {
           "description": "Format allows you to specify different flat-file formats so that you can use parseTable for CSV tab-delimited etc",
           "hierarchy": "Database TxtSushi FlatFile",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.FlatFile",
           "name": "Format",
           "package": "txt-sushi",
@@ -1007,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.FlatFile",
           "name": "Format",
           "package": "txt-sushi",
@@ -1016,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi FlatFile",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.FlatFile",
           "name": "Format",
           "normalized": "Format String String[String]",
@@ -1031,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.FlatFile",
           "name": "csvFormat",
           "package": "txt-sushi",
@@ -1040,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi FlatFile",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.FlatFile",
           "name": "csvFormat",
           "package": "txt-sushi",
@@ -1054,6 +1142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget a quote escape sequence for the given \u003ccode\u003e\u003ca\u003eFormat\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.FlatFile",
           "name": "doubleQuote",
           "package": "txt-sushi",
@@ -1064,6 +1153,7 @@
         "index": {
           "description": "get quote escape sequence for the given Format",
           "hierarchy": "Database TxtSushi FlatFile",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.FlatFile",
           "name": "doubleQuote",
           "normalized": "Format-\u003eString",
@@ -1080,6 +1170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat the given table (the 2D String array) into a flat-file string using\nthe given \u003ccode\u003e\u003ca\u003eFormat\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.FlatFile",
           "name": "formatTable",
           "package": "txt-sushi",
@@ -1090,6 +1181,7 @@
         "index": {
           "description": "Format the given table the String array into flat-file string using the given Format",
           "hierarchy": "Database TxtSushi FlatFile",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.FlatFile",
           "name": "formatTable",
           "normalized": "Format-\u003e[[String]]-\u003eString",
@@ -1105,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.FlatFile",
           "name": "formatTableWithWidths",
           "package": "txt-sushi",
@@ -1114,6 +1207,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi FlatFile",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.FlatFile",
           "name": "formatTableWithWidths",
           "normalized": "String-\u003e[Int]-\u003e[[String]]-\u003eString",
@@ -1130,6 +1224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor a table, calculate the max width in characters for each column\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.FlatFile",
           "name": "maxTableColumnWidths",
           "package": "txt-sushi",
@@ -1140,6 +1235,7 @@
         "index": {
           "description": "for table calculate the max width in characters for each column",
           "hierarchy": "Database TxtSushi FlatFile",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.FlatFile",
           "name": "maxTableColumnWidths",
           "normalized": "[[String]]-\u003e[Int]",
@@ -1156,6 +1252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the given text using the given flat file \u003ccode\u003e\u003ca\u003eFormat\u003c/a\u003e\u003c/code\u003e. The result\nis a list of list of strings. The strings are fields and the string\nlists are rows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.FlatFile",
           "name": "parseTable",
           "package": "txt-sushi",
@@ -1166,6 +1263,7 @@
         "index": {
           "description": "Parse the given text using the given flat file Format The result is list of list of strings The strings are fields and the string lists are rows",
           "hierarchy": "Database TxtSushi FlatFile",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.FlatFile",
           "name": "parseTable",
           "normalized": "Format-\u003eString-\u003e[[String]]",
@@ -1181,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.FlatFile",
           "name": "tabDelimitedFormat",
           "package": "txt-sushi",
@@ -1190,6 +1289,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi FlatFile",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.FlatFile",
           "name": "tabDelimitedFormat",
           "package": "txt-sushi",
@@ -1204,6 +1304,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA couple of util functions for txt-sushi\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.IOUtil",
           "name": "IOUtil",
           "package": "txt-sushi",
@@ -1213,6 +1314,7 @@
         "index": {
           "description": "couple of util functions for txt-sushi",
           "hierarchy": "Database TxtSushi IOUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.IOUtil",
           "name": "IOUtil",
           "package": "txt-sushi",
@@ -1227,6 +1329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebuffers standard input to a temp file and returns a path to that file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.IOUtil",
           "name": "bufferStdioToTempFile",
           "package": "txt-sushi",
@@ -1237,6 +1340,7 @@
         "index": {
           "description": "buffers standard input to temp file and returns path to that file",
           "hierarchy": "Database TxtSushi IOUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.IOUtil",
           "name": "bufferStdioToTempFile",
           "package": "txt-sushi",
@@ -1251,6 +1355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif given \u003ca\u003e-\u003c/a\u003e this file reads from stdin otherwise it reads from the named\n   file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.IOUtil",
           "name": "getContentsFromFileOrStdin",
           "package": "txt-sushi",
@@ -1261,6 +1366,7 @@
         "index": {
           "description": "if given this file reads from stdin otherwise it reads from the named file",
           "hierarchy": "Database TxtSushi IOUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.IOUtil",
           "name": "getContentsFromFileOrStdin",
           "normalized": "String-\u003eIO String",
@@ -1277,6 +1383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprint a cookie-cutter usage message for the command line utilities\n   that take a single file name or \u003ca\u003e-\u003c/a\u003e as input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.IOUtil",
           "name": "printSingleFileUsage",
           "package": "txt-sushi",
@@ -1287,6 +1394,7 @@
         "index": {
           "description": "print cookie-cutter usage message for the command line utilities that take single file name or as input",
           "hierarchy": "Database TxtSushi IOUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.IOUtil",
           "name": "printSingleFileUsage",
           "normalized": "IO()",
@@ -1302,6 +1410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.IOUtil",
           "name": "versionStr",
           "package": "txt-sushi",
@@ -1311,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi IOUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.IOUtil",
           "name": "versionStr",
           "package": "txt-sushi",
@@ -1325,6 +1435,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParse utility functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "ParseUtil",
           "package": "txt-sushi",
@@ -1334,6 +1445,7 @@
         "index": {
           "description": "Parse utility functions",
           "hierarchy": "Database TxtSushi ParseUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "ParseUtil",
           "package": "txt-sushi",
@@ -1348,6 +1460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike the lexeme function, this function eats all spaces after the given\n   parser, but this one works for me and lexeme doesn't\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "eatSpacesAfter",
           "package": "txt-sushi",
@@ -1358,6 +1471,7 @@
         "index": {
           "description": "like the lexeme function this function eats all spaces after the given parser but this one works for me and lexeme doesn",
           "hierarchy": "Database TxtSushi ParseUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "eatSpacesAfter",
           "normalized": "GenParser Char a b-\u003eGenParser Char a b",
@@ -1373,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "escapedQuote",
           "package": "txt-sushi",
@@ -1382,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi ParseUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "escapedQuote",
           "normalized": "Char-\u003eGenParser Char a Char",
@@ -1398,6 +1514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaccepst the same input as the given parser except and input that matches\n   theException parser\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "genExcept",
           "package": "txt-sushi",
@@ -1408,6 +1525,7 @@
         "index": {
           "description": "accepst the same input as the given parser except and input that matches theException parser",
           "hierarchy": "Database TxtSushi ParseUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "genExcept",
           "normalized": "GenParser a b c-\u003eGenParser a b d-\u003eGenParser a b c",
@@ -1424,6 +1542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea generic version of the notFollowedBy library function. We require\n   Show types so that we can better report failures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "genNotFollowedBy",
           "package": "txt-sushi",
@@ -1434,6 +1553,7 @@
         "index": {
           "description": "generic version of the notFollowedBy library function We require Show types so that we can better report failures",
           "hierarchy": "Database TxtSushi ParseUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "genNotFollowedBy",
           "normalized": "GenParser a b c-\u003eGenParser a b()",
@@ -1450,6 +1570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif the ifParse parser succeeds return the result of thenParse, else\n   return Nothing without parsing any input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "ifParseThen",
           "package": "txt-sushi",
@@ -1460,6 +1581,7 @@
         "index": {
           "description": "if the ifParse parser succeeds return the result of thenParse else return Nothing without parsing any input",
           "hierarchy": "Database TxtSushi ParseUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "ifParseThen",
           "normalized": "GenParser a b c-\u003eGenParser a b d-\u003eGenParser a b(Maybe d)",
@@ -1476,6 +1598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif ifParse succeeds then parse thenPart otherwise parse elsePart\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "ifParseThenElse",
           "package": "txt-sushi",
@@ -1486,6 +1609,7 @@
         "index": {
           "description": "if ifParse succeeds then parse thenPart otherwise parse elsePart",
           "hierarchy": "Database TxtSushi ParseUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "ifParseThenElse",
           "normalized": "GenParser a b c-\u003eGenParser a b d-\u003eGenParser a b d-\u003eGenParser a b d",
@@ -1502,6 +1626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns Just parseResult if the parse succeeds and Nothing if it fails\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "maybeParse",
           "package": "txt-sushi",
@@ -1512,6 +1637,7 @@
         "index": {
           "description": "returns Just parseResult if the parse succeeds and Nothing if it fails",
           "hierarchy": "Database TxtSushi ParseUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "maybeParse",
           "normalized": "GenParser a b c-\u003eGenParser a b(Maybe c)",
@@ -1528,6 +1654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns an int if it can be read from the string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "maybeReadInt",
           "package": "txt-sushi",
@@ -1538,6 +1665,7 @@
         "index": {
           "description": "returns an int if it can be read from the string",
           "hierarchy": "Database TxtSushi ParseUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "maybeReadInt",
           "normalized": "String-\u003eMaybe Int",
@@ -1554,6 +1682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns a real if it can be read from the string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "maybeReadReal",
           "package": "txt-sushi",
@@ -1564,6 +1693,7 @@
         "index": {
           "description": "returns real if it can be read from the string",
           "hierarchy": "Database TxtSushi ParseUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "maybeReadReal",
           "normalized": "String-\u003eMaybe Double",
@@ -1579,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "parseInt",
           "package": "txt-sushi",
@@ -1588,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi ParseUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "parseInt",
           "package": "txt-sushi",
@@ -1601,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "parseReal",
           "package": "txt-sushi",
@@ -1610,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi ParseUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "parseReal",
           "package": "txt-sushi",
@@ -1624,6 +1758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif the preservingIfParseThen is basically the same as ifParse except that\n   the if result is preserved in the first part of the tuple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "preservingIfParseThen",
           "package": "txt-sushi",
@@ -1634,6 +1769,7 @@
         "index": {
           "description": "if the preservingIfParseThen is basically the same as ifParse except that the if result is preserved in the first part of the tuple",
           "hierarchy": "Database TxtSushi ParseUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "preservingIfParseThen",
           "normalized": "GenParser a b c-\u003eGenParser a b d-\u003eGenParser a b(Maybe(c,d))",
@@ -1650,6 +1786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equoted text which allows escaping by doubling the quote char\n   like \"escaped quote char here:\"\"\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "quotedText",
           "package": "txt-sushi",
@@ -1660,6 +1797,7 @@
         "index": {
           "description": "quoted text which allows escaping by doubling the quote char like escaped quote char here",
           "hierarchy": "Database TxtSushi ParseUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "quotedText",
           "normalized": "Bool-\u003eChar-\u003eGenParser Char a String",
@@ -1676,6 +1814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse \u003ccode\u003eitemParser\u003c/code\u003es seperated by at least \u003ccode\u003eminCount\u003c/code\u003e \u003ccode\u003esepParser\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "sepByAtLeast",
           "package": "txt-sushi",
@@ -1686,6 +1825,7 @@
         "index": {
           "description": "parse itemParser seperated by at least minCount sepParser",
           "hierarchy": "Database TxtSushi ParseUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "sepByAtLeast",
           "normalized": "Int-\u003eGenParser a b c-\u003eGenParser a b d-\u003eGenParser a b[c]",
@@ -1702,6 +1842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse \u003ccode\u003eitemParser\u003c/code\u003es seperated by exactly \u003ccode\u003eminCount\u003c/code\u003e \u003ccode\u003esepParser\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "sepByExactly",
           "package": "txt-sushi",
@@ -1712,6 +1853,7 @@
         "index": {
           "description": "parse itemParser seperated by exactly minCount sepParser",
           "hierarchy": "Database TxtSushi ParseUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "sepByExactly",
           "normalized": "Int-\u003eGenParser a b c-\u003eGenParser a b d-\u003eGenParser a b[c]",
@@ -1727,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "withTrailing",
           "package": "txt-sushi",
@@ -1736,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi ParseUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "withTrailing",
           "normalized": "a b-\u003ea c-\u003ea c",
@@ -1751,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "withoutTrailing",
           "package": "txt-sushi",
@@ -1760,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi ParseUtil",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.ParseUtil",
           "name": "withoutTrailing",
           "normalized": "GenParser a b c-\u003eGenParser a b d-\u003eGenParser a b d",
@@ -1776,6 +1922,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome functions for joining lists\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.Relational",
           "name": "Relational",
           "package": "txt-sushi",
@@ -1785,6 +1932,7 @@
         "index": {
           "description": "Some functions for joining lists",
           "hierarchy": "Database TxtSushi Relational",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.Relational",
           "name": "Relational",
           "package": "txt-sushi",
@@ -1798,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.Relational",
           "name": "crossJoinTables",
           "package": "txt-sushi",
@@ -1807,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi Relational",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.Relational",
           "name": "crossJoinTables",
           "normalized": "[a]-\u003e[b]-\u003e[(a,b)]",
@@ -1823,6 +1973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ejoin together two tables that are presorted on the given column index pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.Relational",
           "name": "joinPresortedTables",
           "package": "txt-sushi",
@@ -1833,6 +1984,7 @@
         "index": {
           "description": "join together two tables that are presorted on the given column index pairs",
           "hierarchy": "Database TxtSushi Relational",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.Relational",
           "name": "joinPresortedTables",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003eMaybe a-\u003e(c-\u003eb)-\u003e[c]-\u003eMaybe c-\u003e[(a,c)]",
@@ -1849,6 +2001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ejoin together two tables on the given column index pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.Relational",
           "name": "joinTables",
           "package": "txt-sushi",
@@ -1859,6 +2012,7 @@
         "index": {
           "description": "join together two tables on the given column index pairs",
           "hierarchy": "Database TxtSushi Relational",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.Relational",
           "name": "joinTables",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e(c-\u003eb)-\u003e[c]-\u003e[(a,c)]",
@@ -1875,6 +2029,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for executing a SQL statement\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExecution",
           "name": "SQLExecution",
           "package": "txt-sushi",
@@ -1884,6 +2039,7 @@
         "index": {
           "description": "Module for executing SQL statement",
           "hierarchy": "Database TxtSushi SQLExecution",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExecution",
           "name": "SQLExecution",
           "package": "txt-sushi",
@@ -1898,6 +2054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe will use the sort configuration to determine whether tables should\n   be sorted external or in memory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExecution",
           "name": "SortConfiguration",
           "package": "txt-sushi",
@@ -1907,6 +2064,7 @@
         "index": {
           "description": "We will use the sort configuration to determine whether tables should be sorted external or in memory",
           "hierarchy": "Database TxtSushi SQLExecution",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExecution",
           "name": "SortConfiguration",
           "package": "txt-sushi",
@@ -1920,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExecution",
           "name": "UseExternalSort",
           "package": "txt-sushi",
@@ -1929,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLExecution",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExecution",
           "name": "UseExternalSort",
           "package": "txt-sushi",
@@ -1942,6 +2102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExecution",
           "name": "UseInMemorySort",
           "package": "txt-sushi",
@@ -1951,6 +2112,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLExecution",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExecution",
           "name": "UseInMemorySort",
           "package": "txt-sushi",
@@ -1964,6 +2126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExecution",
           "name": "databaseTableToTextTable",
           "package": "txt-sushi",
@@ -1973,6 +2136,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLExecution",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExecution",
           "name": "databaseTableToTextTable",
           "normalized": "BoxedTable-\u003e[[String]]",
@@ -1989,6 +2153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperform a SQL select with the given select statement on the\n   given table map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExecution",
           "name": "select",
           "package": "txt-sushi",
@@ -1999,6 +2164,7 @@
         "index": {
           "description": "perform SQL select with the given select statement on the given table map",
           "hierarchy": "Database TxtSushi SQLExecution",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExecution",
           "name": "select",
           "normalized": "SortConfiguration-\u003eSelectStatement-\u003eMap String BoxedTable-\u003eBoxedTable",
@@ -2013,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExecution",
           "name": "textTableToDatabaseTable",
           "package": "txt-sushi",
@@ -2022,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLExecution",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExecution",
           "name": "textTableToDatabaseTable",
           "normalized": "String-\u003e[[String]]-\u003eBoxedTable",
@@ -2038,6 +2206,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSQL Expressions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "SQLExpression",
           "package": "txt-sushi",
@@ -2047,6 +2216,7 @@
         "index": {
           "description": "SQL Expressions",
           "hierarchy": "Database TxtSushi SQLExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "SQLExpression",
           "package": "txt-sushi",
@@ -2060,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "ColumnIdentifier",
           "package": "txt-sushi",
@@ -2068,6 +2239,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "ColumnIdentifier",
           "package": "txt-sushi",
@@ -2081,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "ColumnRange",
           "package": "txt-sushi",
@@ -2089,6 +2262,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "ColumnRange",
           "package": "txt-sushi",
@@ -2102,6 +2276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "ColumnSelection",
           "package": "txt-sushi",
@@ -2110,6 +2285,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "ColumnSelection",
           "package": "txt-sushi",
@@ -2123,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "Expression",
           "package": "txt-sushi",
@@ -2131,6 +2308,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "Expression",
           "package": "txt-sushi",
@@ -2144,6 +2322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "OrderByItem",
           "package": "txt-sushi",
@@ -2152,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "OrderByItem",
           "package": "txt-sushi",
@@ -2165,6 +2345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "SQLFunction",
           "package": "txt-sushi",
@@ -2173,6 +2354,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "SQLFunction",
           "package": "txt-sushi",
@@ -2187,6 +2369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresents a select statement\n   TODO this should be moved inside the TableExpression type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "SelectStatement",
           "package": "txt-sushi",
@@ -2196,6 +2379,7 @@
         "index": {
           "description": "represents select statement TODO this should be moved inside the TableExpression type",
           "hierarchy": "Database TxtSushi SQLExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "SelectStatement",
           "package": "txt-sushi",
@@ -2209,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "TableExpression",
           "package": "txt-sushi",
@@ -2217,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "TableExpression",
           "package": "txt-sushi",
@@ -2345,6 +2531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "ColumnRange",
           "package": "txt-sushi",
@@ -2354,6 +2541,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "ColumnRange",
           "package": "txt-sushi",
@@ -2879,6 +3067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "columnToString",
           "package": "txt-sushi",
@@ -2888,6 +3077,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "columnToString",
           "normalized": "ColumnIdentifier-\u003eString",
@@ -2925,6 +3115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "expressionToString",
           "package": "txt-sushi",
@@ -2934,6 +3125,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "expressionToString",
           "normalized": "Expression-\u003eString",
@@ -3067,6 +3259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean aggregate function is one whose min function count is 1 and whose\n   arg count is not fixed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "isAggregate",
           "package": "txt-sushi",
@@ -3077,6 +3270,7 @@
         "index": {
           "description": "an aggregate function is one whose min function count is and whose arg count is not fixed",
           "hierarchy": "Database TxtSushi SQLExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "isAggregate",
           "normalized": "SQLFunction-\u003eBool",
@@ -3138,6 +3332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "maybeEnd",
           "package": "txt-sushi",
@@ -3147,6 +3342,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "maybeEnd",
           "package": "txt-sushi",
@@ -3208,6 +3404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "maybeStart",
           "package": "txt-sushi",
@@ -3217,6 +3414,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "maybeStart",
           "package": "txt-sushi",
@@ -3507,6 +3705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "selectStatementContainsAggregates",
           "package": "txt-sushi",
@@ -3516,6 +3715,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLExpression",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLExpression",
           "name": "selectStatementContainsAggregates",
           "normalized": "SelectStatement-\u003eBool",
@@ -3647,6 +3847,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSQL Function definitions. This is where you can extend TxtSushi by adding\n new function definitions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLFunctionDefinitions",
           "name": "SQLFunctionDefinitions",
           "package": "txt-sushi",
@@ -3656,6 +3857,7 @@
         "index": {
           "description": "SQL Function definitions This is where you can extend TxtSushi by adding new function definitions",
           "hierarchy": "Database TxtSushi SQLFunctionDefinitions",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLFunctionDefinitions",
           "name": "SQLFunctionDefinitions",
           "package": "txt-sushi",
@@ -3669,6 +3871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLFunctionDefinitions",
           "name": "SQLFunction",
           "package": "txt-sushi",
@@ -3677,6 +3880,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLFunctionDefinitions",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLFunctionDefinitions",
           "name": "SQLFunction",
           "package": "txt-sushi",
@@ -3690,6 +3894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLFunctionDefinitions",
           "name": "countFunction",
           "package": "txt-sushi",
@@ -3699,6 +3904,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLFunctionDefinitions",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLFunctionDefinitions",
           "name": "countFunction",
           "package": "txt-sushi",
@@ -3712,6 +3918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLFunctionDefinitions",
           "name": "infixFunctions",
           "package": "txt-sushi",
@@ -3721,6 +3928,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLFunctionDefinitions",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLFunctionDefinitions",
           "name": "infixFunctions",
           "normalized": "[[SQLFunction]]",
@@ -3736,6 +3944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLFunctionDefinitions",
           "name": "negateFunction",
           "package": "txt-sushi",
@@ -3745,6 +3954,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLFunctionDefinitions",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLFunctionDefinitions",
           "name": "negateFunction",
           "package": "txt-sushi",
@@ -3758,6 +3968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLFunctionDefinitions",
           "name": "normalSyntaxFunctions",
           "package": "txt-sushi",
@@ -3767,6 +3978,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLFunctionDefinitions",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLFunctionDefinitions",
           "name": "normalSyntaxFunctions",
           "normalized": "[SQLFunction]",
@@ -3782,6 +3994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLFunctionDefinitions",
           "name": "notFunction",
           "package": "txt-sushi",
@@ -3791,6 +4004,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLFunctionDefinitions",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLFunctionDefinitions",
           "name": "notFunction",
           "package": "txt-sushi",
@@ -3804,6 +4018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLFunctionDefinitions",
           "name": "specialFunctions",
           "package": "txt-sushi",
@@ -3813,6 +4028,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLFunctionDefinitions",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLFunctionDefinitions",
           "name": "specialFunctions",
           "normalized": "[SQLFunction]",
@@ -3829,6 +4045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSUBSTRING(extraction_string FROM starting_position [FOR length]\n             [COLLATE collation_name])\n   TODO implement COLLATE part\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLFunctionDefinitions",
           "name": "substringFromFunction",
           "package": "txt-sushi",
@@ -3839,6 +4056,7 @@
         "index": {
           "description": "SUBSTRING extraction string FROM starting position FOR length COLLATE collation name TODO implement COLLATE part",
           "hierarchy": "Database TxtSushi SQLFunctionDefinitions",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLFunctionDefinitions",
           "name": "substringFromFunction",
           "package": "txt-sushi",
@@ -3852,6 +4070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLFunctionDefinitions",
           "name": "substringFromToFunction",
           "package": "txt-sushi",
@@ -3861,6 +4080,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLFunctionDefinitions",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLFunctionDefinitions",
           "name": "substringFromToFunction",
           "package": "txt-sushi",
@@ -3875,6 +4095,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for parsing SQL\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLParser",
           "name": "SQLParser",
           "package": "txt-sushi",
@@ -3884,6 +4105,7 @@
         "index": {
           "description": "Module for parsing SQL",
           "hierarchy": "Database TxtSushi SQLParser",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLParser",
           "name": "SQLParser",
           "package": "txt-sushi",
@@ -3897,6 +4119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLParser",
           "name": "ColumnIdentifier",
           "package": "txt-sushi",
@@ -3905,6 +4128,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLParser",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLParser",
           "name": "ColumnIdentifier",
           "package": "txt-sushi",
@@ -3918,6 +4142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLParser",
           "name": "ColumnSelection",
           "package": "txt-sushi",
@@ -3926,6 +4151,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLParser",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLParser",
           "name": "ColumnSelection",
           "package": "txt-sushi",
@@ -3939,6 +4165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLParser",
           "name": "Expression",
           "package": "txt-sushi",
@@ -3947,6 +4174,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLParser",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLParser",
           "name": "Expression",
           "package": "txt-sushi",
@@ -3960,6 +4188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLParser",
           "name": "OrderByItem",
           "package": "txt-sushi",
@@ -3968,6 +4197,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLParser",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLParser",
           "name": "OrderByItem",
           "package": "txt-sushi",
@@ -3981,6 +4211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLParser",
           "name": "SQLFunction",
           "package": "txt-sushi",
@@ -3989,6 +4220,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLParser",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLParser",
           "name": "SQLFunction",
           "package": "txt-sushi",
@@ -4003,6 +4235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresents a select statement\n   TODO this should be moved inside the TableExpression type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLParser",
           "name": "SelectStatement",
           "package": "txt-sushi",
@@ -4012,6 +4245,7 @@
         "index": {
           "description": "represents select statement TODO this should be moved inside the TableExpression type",
           "hierarchy": "Database TxtSushi SQLParser",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLParser",
           "name": "SelectStatement",
           "package": "txt-sushi",
@@ -4025,6 +4259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLParser",
           "name": "TableExpression",
           "package": "txt-sushi",
@@ -4033,6 +4268,7 @@
         },
         "index": {
           "hierarchy": "Database TxtSushi SQLParser",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLParser",
           "name": "TableExpression",
           "package": "txt-sushi",
@@ -4047,6 +4283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a SQL select statement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:48 UTC 2014",
           "module": "Database.TxtSushi.SQLParser",
           "name": "parseSelectStatement",
           "package": "txt-sushi",
@@ -4057,6 +4294,7 @@
         "index": {
           "description": "Parses SQL select statement",
           "hierarchy": "Database TxtSushi SQLParser",
+          "indexed": "2014-03-11T20:26:48",
           "module": "Database.TxtSushi.SQLParser",
           "name": "parseSelectStatement",
           "package": "txt-sushi",

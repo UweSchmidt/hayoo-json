@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "netlist"
+        "phrase": "netlist",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn abstract syntax tree (AST) for a generic netlist, kind of like a\n high-level subset of Verilog and VHDL that is compatible with both languages.\n\u003c/p\u003e\u003cp\u003eThere are no definitive semantics assigned to this AST.\n\u003c/p\u003e\u003cp\u003eFor example, the user may choose to treat the bindings as recursive, so that\n expressions can reference variables before their declaration, like in\n Haskell, which is not supported in Verilog and VHDL.  in this case, the user\n must fix the bindings when converting to an HDL.\n\u003c/p\u003e\u003cp\u003eAlso, the user may treat module instantiations and processes as having an\n implict clock/reset, so that they are not explicitly named in those\n constructs in this AST.  Then, the clock and reset can be inserted when\n generating HDL.\n\u003c/p\u003e\u003cp\u003eWhen you instantiate a module but information about that module is missing\n (e.g. the clock/reset are implicit and you need to know what they are called\n in that module), you can use ExternDecl (TODO) to declare a module's\n interface so that you know how to instantiate it, or retrieve the interface\n from a user-maintained database or by parsing and extracting from an HDL\n file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "AST",
           "package": "netlist",
@@ -28,6 +29,7 @@
         "index": {
           "description": "An abstract syntax tree AST for generic netlist kind of like high-level subset of Verilog and VHDL that is compatible with both languages There are no definitive semantics assigned to this AST For example the user may choose to treat the bindings as recursive so that expressions can reference variables before their declaration like in Haskell which is not supported in Verilog and VHDL in this case the user must fix the bindings when converting to an HDL Also the user may treat module instantiations and processes as having an implict clock reset so that they are not explicitly named in those constructs in this AST Then the clock and reset can be inserted when generating HDL When you instantiate module but information about that module is missing e.g the clock reset are implicit and you need to know what they are called in that module you can use ExternDecl TODO to declare module interface so that you know how to instantiate it or retrieve the interface from user-maintained database or by parsing and extracting from an HDL file",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "AST",
           "package": "netlist",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary operators.\n\u003c/p\u003e\u003cp\u003eThese operators include almost all VHDL and Verilog operators.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e precedence and pretty-printing are language specific, and defined elsewhere.\n\u003c/li\u003e\u003cli\u003e exponentation operators were introduced in Verilog-2001.\n\u003c/li\u003e\u003cli\u003e some operators are not prefix/infix, such as verilog concatenation and the\n    conditional (\u003ccode\u003ex ? y : z\u003c/code\u003e) operator.  those operators are defined in\n    \u003ccode\u003e\u003ca\u003eExpr\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e VHDL has both \"logical\" and \"barithmetic\" shift operators, which we\n    don't yet distinguish between here.\n\u003c/li\u003e\u003cli\u003e VHDL has both a \u003ccode\u003emod\u003c/code\u003e and a \u003ccode\u003erem\u003c/code\u003e operator, but so far we only define\n    \u003ccode\u003e\u003ca\u003eModulo\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e VHDL has a concat operator (\u003ccode\u003e&\u003c/code\u003e) that isn't yet supported here.  Use\n    \u003ccode\u003e\u003ca\u003eExprConcat\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/li\u003e\u003cli\u003e VHDL has an \u003ccode\u003eabs\u003c/code\u003e operator that isn't yet supported here.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "BinaryOp",
           "package": "netlist",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Binary operators These operators include almost all VHDL and Verilog operators precedence and pretty-printing are language specific and defined elsewhere exponentation operators were introduced in Verilog-2001 some operators are not prefix infix such as verilog concatenation and the conditional operator those operators are defined in Expr VHDL has both logical and barithmetic shift operators which we don yet distinguish between here VHDL has both mod and rem operator but so far we only define Modulo VHDL has concat operator that isn yet supported here Use ExprConcat instead VHDL has an abs operator that isn yet supported here",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "BinaryOp",
           "package": "netlist",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Bit",
           "package": "netlist",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Bit",
           "package": "netlist",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA constant expression is simply an expression that must be a constant\n (i.e. the only free variables are static parameters).  This restriction is\n not made in the AST.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "ConstExpr",
           "package": "netlist",
@@ -95,6 +102,7 @@
         "index": {
           "description": "constant expression is simply an expression that must be constant i.e the only free variables are static parameters This restriction is not made in the AST",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "ConstExpr",
           "package": "netlist",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA declaration, analogous to an \"item\" in the Verilog formal syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Decl",
           "package": "netlist",
@@ -118,6 +127,7 @@
         "index": {
           "description": "declaration analogous to an item in the Verilog formal syntax",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Decl",
           "package": "netlist",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn event can be triggered by the rising edge (\u003ccode\u003e\u003ca\u003ePosEdge\u003c/a\u003e\u003c/code\u003e) or falling edge\n (\u003ccode\u003e\u003ca\u003eNegEdge\u003c/a\u003e\u003c/code\u003e) of a signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Edge",
           "package": "netlist",
@@ -141,6 +152,7 @@
         "index": {
           "description": "An event can be triggered by the rising edge PosEdge or falling edge NegEdge of signal",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Edge",
           "package": "netlist",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Event",
           "package": "netlist",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Event",
           "package": "netlist",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpr is a combination of VHDL and Verilog expressions.\n\u003c/p\u003e\u003cp\u003eIn VHDL, concatenation is a binary operator, but in Verilog it takes any\n number of arguments.  In this AST, we define it like the Verilog operator.\n If we translate to VHDL, we have to convert it to the VHDL binary operator.\n\u003c/p\u003e\u003cp\u003eThere are some HDL operators that we don't represent here.  For example, in\n Verilog there is a multiple concatenation (a.k.a. replication) operator,\n which we don't bother to support.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Expr",
           "package": "netlist",
@@ -185,6 +200,7 @@
         "index": {
           "description": "Expr is combination of VHDL and Verilog expressions In VHDL concatenation is binary operator but in Verilog it takes any number of arguments In this AST we define it like the Verilog operator If we translate to VHDL we have to convert it to the VHDL binary operator There are some HDL operators that we don represent here For example in Verilog there is multiple concatenation a.k.a replication operator which we don bother to support",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Expr",
           "package": "netlist",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "ExprLit",
           "package": "netlist",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "ExprLit",
           "package": "netlist",
@@ -220,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn identifier name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Ident",
           "package": "netlist",
@@ -229,6 +248,7 @@
         "index": {
           "description": "An identifier name",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Ident",
           "package": "netlist",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eLValue\u003c/a\u003e\u003c/code\u003e is something that can appear on the left-hand side of an\n assignment.  We're lazy and do not enforce any restriction, and define this\n simply to be \u003ccode\u003e\u003ca\u003eExpr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "LValue",
           "package": "netlist",
@@ -252,6 +273,7 @@
         "index": {
           "description": "An LValue is something that can appear on the left-hand side of an assignment We re lazy and do not enforce any restriction and define this simply to be Expr",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "LValue",
           "package": "netlist",
@@ -266,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Module corresponds to a \"module\" in Verilog or an \"entity\" in VHDL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Module",
           "package": "netlist",
@@ -275,6 +298,7 @@
         "index": {
           "description": "Module corresponds to module in Verilog or an entity in VHDL",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Module",
           "package": "netlist",
@@ -289,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eRange\u003c/a\u003e\u003c/code\u003e tells us the type of a bit vector.  It can count up or down.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Range",
           "package": "netlist",
@@ -298,6 +323,7 @@
         "index": {
           "description": "Range tells us the type of bit vector It can count up or down",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Range",
           "package": "netlist",
@@ -312,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe size of a wire.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Size",
           "package": "netlist",
@@ -321,6 +348,7 @@
         "index": {
           "description": "The size of wire",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Size",
           "package": "netlist",
@@ -335,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBehavioral sequential statement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Stmt",
           "package": "netlist",
@@ -344,6 +373,7 @@
         "index": {
           "description": "Behavioral sequential statement",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Stmt",
           "package": "netlist",
@@ -358,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnary operators\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eLNeg\u003c/a\u003e\u003c/code\u003e is logical negation, \u003ccode\u003e\u003ca\u003eNeg\u003c/a\u003e\u003c/code\u003e is bitwise negation.  \u003ccode\u003e\u003ca\u003eUAnd\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eUNand\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eUOr\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eUNor\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eUXor\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eUXnor\u003c/a\u003e\u003c/code\u003e are sometimes called \"reduction\n operators\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "UnaryOp",
           "package": "netlist",
@@ -367,6 +398,7 @@
         "index": {
           "description": "Unary operators LNeg is logical negation Neg is bitwise negation UAnd UNand UOr UNor UXor and UXnor are sometimes called reduction operators",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "UnaryOp",
           "package": "netlist",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "And",
           "package": "netlist",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "And",
           "package": "netlist",
@@ -403,6 +437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enon-blocking assignment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Assign",
           "package": "netlist",
@@ -413,6 +448,7 @@
         "index": {
           "description": "non-blocking assignment",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Assign",
           "package": "netlist",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "CEquals",
           "package": "netlist",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "CEquals",
           "package": "netlist",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "CNotEquals",
           "package": "netlist",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "CNotEquals",
           "package": "netlist",
@@ -471,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecase statement, with optional default case\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Case",
           "package": "netlist",
@@ -481,6 +522,7 @@
         "index": {
           "description": "case statement with optional default case",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Case",
           "normalized": "Case Expr[([Expr],Stmt)](Maybe Stmt)",
@@ -497,6 +539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA basic comment (typically is placed above a decl of interest).\n Newlines are allowed, and generate new single line comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "CommentDecl",
           "package": "netlist",
@@ -507,6 +550,7 @@
         "index": {
           "description": "basic comment typically is placed above decl of interest Newlines are allowed and generate new single line comments",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "CommentDecl",
           "package": "netlist",
@@ -520,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Divide",
           "package": "netlist",
@@ -529,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Divide",
           "package": "netlist",
@@ -542,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Equals",
           "package": "netlist",
@@ -551,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Equals",
           "package": "netlist",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Event",
           "package": "netlist",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Event",
           "package": "netlist",
@@ -587,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapplication of a binary operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "ExprBinary",
           "package": "netlist",
@@ -597,6 +648,7 @@
         "index": {
           "description": "application of binary operator",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "ExprBinary",
           "package": "netlist",
@@ -611,6 +663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea single bit.  in vhdl, bits are different than 1-bit bitvectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "ExprBit",
           "package": "netlist",
@@ -621,6 +674,7 @@
         "index": {
           "description": "single bit in vhdl bits are different than bit bitvectors",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "ExprBit",
           "package": "netlist",
@@ -634,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "ExprBitVector",
           "package": "netlist",
@@ -643,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "ExprBitVector",
           "normalized": "ExprBitVector[Bit]",
@@ -659,6 +715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecase expression.  supports multiple matches\n per result value, and an optional default value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "ExprCase",
           "package": "netlist",
@@ -669,6 +726,7 @@
         "index": {
           "description": "case expression supports multiple matches per result value and an optional default value",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "ExprCase",
           "normalized": "ExprCase Expr[([ConstExpr],Expr)](Maybe Expr)",
@@ -685,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econcatenation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "ExprConcat",
           "package": "netlist",
@@ -695,6 +754,7 @@
         "index": {
           "description": "concatenation",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "ExprConcat",
           "normalized": "ExprConcat[Expr]",
@@ -711,6 +771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econditional expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "ExprCond",
           "package": "netlist",
@@ -721,6 +782,7 @@
         "index": {
           "description": "conditional expression",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "ExprCond",
           "package": "netlist",
@@ -735,6 +797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea function application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "ExprFunCall",
           "package": "netlist",
@@ -745,6 +808,7 @@
         "index": {
           "description": "function application",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "ExprFunCall",
           "normalized": "ExprFunCall Ident[Expr]",
@@ -761,6 +825,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003ex[e]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "ExprIndex",
           "package": "netlist",
@@ -770,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "ExprIndex",
           "package": "netlist",
@@ -784,6 +850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea sized or unsized literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "ExprLit",
           "package": "netlist",
@@ -794,6 +861,7 @@
         "index": {
           "description": "sized or unsized literal",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "ExprLit",
           "package": "netlist",
@@ -808,6 +876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "ExprNum",
           "package": "netlist",
@@ -818,6 +887,7 @@
         "index": {
           "description": "number",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "ExprNum",
           "package": "netlist",
@@ -832,6 +902,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003ex[e1 : e2]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "ExprSlice",
           "package": "netlist",
@@ -842,6 +913,7 @@
         "index": {
           "description": "e1 e2",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "ExprSlice",
           "package": "netlist",
@@ -856,6 +928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ex[e : e+i]\u003c/code\u003e, where \u003ccode\u003ei\u003c/code\u003e can be negative\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "ExprSliceOff",
           "package": "netlist",
@@ -866,6 +939,7 @@
         "index": {
           "description": "where can be negative",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "ExprSliceOff",
           "package": "netlist",
@@ -880,6 +954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea quoted string (useful for parameters)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "ExprString",
           "package": "netlist",
@@ -890,6 +965,7 @@
         "index": {
           "description": "quoted string useful for parameters",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "ExprString",
           "package": "netlist",
@@ -904,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapplication of a unary operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "ExprUnary",
           "package": "netlist",
@@ -914,6 +991,7 @@
         "index": {
           "description": "application of unary operator",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "ExprUnary",
           "package": "netlist",
@@ -928,6 +1006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea variable ference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "ExprVar",
           "package": "netlist",
@@ -938,6 +1017,7 @@
         "index": {
           "description": "variable ference",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "ExprVar",
           "package": "netlist",
@@ -951,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "F",
           "package": "netlist",
@@ -960,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "F",
           "package": "netlist",
@@ -973,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea function call that can appear as a statement,\n useful for calling Verilog tasks (e.g. $readmem).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "FunCallStmt",
           "package": "netlist",
@@ -983,6 +1066,7 @@
         "index": {
           "description": "function call that can appear as statement useful for calling Verilog tasks e.g readmem",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "FunCallStmt",
           "normalized": "FunCallStmt Ident[Expr]",
@@ -998,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "GreaterEqual",
           "package": "netlist",
@@ -1007,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "GreaterEqual",
           "package": "netlist",
@@ -1020,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "GreaterThan",
           "package": "netlist",
@@ -1029,6 +1116,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "GreaterThan",
           "package": "netlist",
@@ -1043,6 +1131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eif\u003c/code\u003e statement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "If",
           "package": "netlist",
@@ -1053,6 +1142,7 @@
         "index": {
           "description": "if statement",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "If",
           "package": "netlist",
@@ -1067,6 +1157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA statement that executes once at the beginning of simulation.\n Equivalent to Verilog \"initial\" statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "InitProcessDecl",
           "package": "netlist",
@@ -1077,6 +1168,7 @@
         "index": {
           "description": "statement that executes once at the beginning of simulation Equivalent to Verilog initial statement",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "InitProcessDecl",
           "package": "netlist",
@@ -1091,6 +1183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA module/entity instantiation.  The arguments are the name of the module,\n the name of the instance, the parameter assignments, the input port\n connections, and the output port connections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "InstDecl",
           "package": "netlist",
@@ -1101,6 +1194,7 @@
         "index": {
           "description": "module entity instantiation The arguments are the name of the module the name of the instance the parameter assignments the input port connections and the output port connections",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "InstDecl",
           "normalized": "InstDecl Ident Ident[(Ident,Expr)][(Ident,Expr)][(Ident,Expr)]",
@@ -1116,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "LAnd",
           "package": "netlist",
@@ -1125,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "LAnd",
           "package": "netlist",
@@ -1138,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "LNeg",
           "package": "netlist",
@@ -1147,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "LNeg",
           "package": "netlist",
@@ -1160,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "LOr",
           "package": "netlist",
@@ -1169,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "LOr",
           "package": "netlist",
@@ -1182,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "LessEqual",
           "package": "netlist",
@@ -1191,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "LessEqual",
           "package": "netlist",
@@ -1204,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "LessThan",
           "package": "netlist",
@@ -1213,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "LessThan",
           "package": "netlist",
@@ -1227,6 +1331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese are permanent assignments to memory locations,\n of the form mem[addr] = val\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "MemAssign",
           "package": "netlist",
@@ -1237,6 +1342,7 @@
         "index": {
           "description": "These are permanent assignments to memory locations of the form mem addr val",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "MemAssign",
           "package": "netlist",
@@ -1251,6 +1357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mem (\u003ccode\u003ereg\u003c/code\u003e in Verilog) is stateful.  It can be assigned by a\n non-blocking assignment (or blocking, but we don't support those yet)\n within a process.  TODO: support optional initial value\n\u003c/p\u003e\u003cp\u003eThe first range is the most significant dimension.\n So, \u003ccode\u003eMemDecl x (0, 31) (7, 0)\u003c/code\u003e corresponds to the following in Verilog:\n \u003ccode\u003ereg [7:0] x [0:31]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "MemDecl",
           "package": "netlist",
@@ -1261,6 +1368,7 @@
         "index": {
           "description": "mem reg in Verilog is stateful It can be assigned by non-blocking assignment or blocking but we don support those yet within process TODO support optional initial value The first range is the most significant dimension So MemDecl corresponds to the following in Verilog reg",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "MemDecl",
           "normalized": "MemDecl Ident(Maybe Range)(Maybe Range)(Maybe[Expr])",
@@ -1276,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Minus",
           "package": "netlist",
@@ -1285,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Minus",
           "package": "netlist",
@@ -1298,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Module",
           "package": "netlist",
@@ -1307,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Module",
           "package": "netlist",
@@ -1320,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Modulo",
           "package": "netlist",
@@ -1329,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Modulo",
           "package": "netlist",
@@ -1342,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Nand",
           "package": "netlist",
@@ -1351,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Nand",
           "package": "netlist",
@@ -1364,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Neg",
           "package": "netlist",
@@ -1373,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Neg",
           "package": "netlist",
@@ -1386,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "NegEdge",
           "package": "netlist",
@@ -1395,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "NegEdge",
           "package": "netlist",
@@ -1408,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "NetAssign",
           "package": "netlist",
@@ -1417,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "NetAssign",
           "package": "netlist",
@@ -1431,6 +1553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA net (\u003ccode\u003ewire\u003c/code\u003e in Verilog) has a continuously assigned value.  The net can\n be declared and assigned at the same time (\u003ccode\u003eJust Expr\u003c/code\u003e), or separately\n (\u003ccode\u003eNothing\u003c/code\u003e) in a \u003ccode\u003eNetAssign\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "NetDecl",
           "package": "netlist",
@@ -1441,6 +1564,7 @@
         "index": {
           "description": "net wire in Verilog has continuously assigned value The net can be declared and assigned at the same time Just Expr or separately Nothing in NetAssign",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "NetDecl",
           "package": "netlist",
@@ -1454,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Nor",
           "package": "netlist",
@@ -1463,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Nor",
           "package": "netlist",
@@ -1476,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "NotEquals",
           "package": "netlist",
@@ -1485,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "NotEquals",
           "package": "netlist",
@@ -1498,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Or",
           "package": "netlist",
@@ -1507,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Or",
           "package": "netlist",
@@ -1520,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Plus",
           "package": "netlist",
@@ -1529,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Plus",
           "package": "netlist",
@@ -1542,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "PosEdge",
           "package": "netlist",
@@ -1551,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "PosEdge",
           "package": "netlist",
@@ -1564,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Pow",
           "package": "netlist",
@@ -1573,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Pow",
           "package": "netlist",
@@ -1587,6 +1723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sequential process with clock and (optional) asynchronous reset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "ProcessDecl",
           "package": "netlist",
@@ -1597,6 +1734,7 @@
         "index": {
           "description": "sequential process with clock and optional asynchronous reset",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "ProcessDecl",
           "normalized": "ProcessDecl Event(Maybe(Event,Stmt))Stmt",
@@ -1612,6 +1750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Range",
           "package": "netlist",
@@ -1621,6 +1760,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Range",
           "package": "netlist",
@@ -1634,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "RotateLeft",
           "package": "netlist",
@@ -1643,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "RotateLeft",
           "package": "netlist",
@@ -1656,6 +1798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "RotateRight",
           "package": "netlist",
@@ -1665,6 +1808,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "RotateRight",
           "package": "netlist",
@@ -1679,6 +1823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emultiple statements in sequence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Seq",
           "package": "netlist",
@@ -1689,6 +1834,7 @@
         "index": {
           "description": "multiple statements in sequence",
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Seq",
           "normalized": "Seq[Stmt]",
@@ -1704,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "ShiftLeft",
           "package": "netlist",
@@ -1713,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "ShiftLeft",
           "package": "netlist",
@@ -1726,6 +1874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "ShiftLeftArith",
           "package": "netlist",
@@ -1735,6 +1884,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "ShiftLeftArith",
           "package": "netlist",
@@ -1748,6 +1898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "ShiftRight",
           "package": "netlist",
@@ -1757,6 +1908,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "ShiftRight",
           "package": "netlist",
@@ -1770,6 +1922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "ShiftRightArith",
           "package": "netlist",
@@ -1779,6 +1932,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "ShiftRightArith",
           "package": "netlist",
@@ -1792,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "T",
           "package": "netlist",
@@ -1801,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "T",
           "package": "netlist",
@@ -1813,6 +1969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Times",
           "package": "netlist",
@@ -1822,6 +1979,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Times",
           "package": "netlist",
@@ -1835,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "U",
           "package": "netlist",
@@ -1844,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "U",
           "package": "netlist",
@@ -1856,6 +2016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "UAnd",
           "package": "netlist",
@@ -1865,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "UAnd",
           "package": "netlist",
@@ -1878,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "UMinus",
           "package": "netlist",
@@ -1887,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "UMinus",
           "package": "netlist",
@@ -1900,6 +2064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "UNand",
           "package": "netlist",
@@ -1909,6 +2074,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "UNand",
           "package": "netlist",
@@ -1922,6 +2088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "UNor",
           "package": "netlist",
@@ -1931,6 +2098,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "UNor",
           "package": "netlist",
@@ -1944,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "UOr",
           "package": "netlist",
@@ -1953,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "UOr",
           "package": "netlist",
@@ -1966,6 +2136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "UPlus",
           "package": "netlist",
@@ -1975,6 +2146,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "UPlus",
           "package": "netlist",
@@ -1988,6 +2160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "UXnor",
           "package": "netlist",
@@ -1997,6 +2170,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "UXnor",
           "package": "netlist",
@@ -2010,6 +2184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "UXor",
           "package": "netlist",
@@ -2019,6 +2194,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "UXor",
           "package": "netlist",
@@ -2032,6 +2208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Xnor",
           "package": "netlist",
@@ -2041,6 +2218,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Xnor",
           "package": "netlist",
@@ -2054,6 +2232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Xor",
           "package": "netlist",
@@ -2063,6 +2242,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Xor",
           "package": "netlist",
@@ -2076,6 +2256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "Z",
           "package": "netlist",
@@ -2085,6 +2266,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "Z",
           "package": "netlist",
@@ -2097,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "module_decls",
           "package": "netlist",
@@ -2106,6 +2289,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "module_decls",
           "normalized": "[Decl]",
@@ -2120,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "module_inputs",
           "package": "netlist",
@@ -2129,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "module_inputs",
           "normalized": "[(Ident,Maybe Range)]",
@@ -2143,6 +2329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "module_name",
           "package": "netlist",
@@ -2152,6 +2339,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "module_name",
           "package": "netlist",
@@ -2164,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "module_outputs",
           "package": "netlist",
@@ -2173,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "module_outputs",
           "normalized": "[(Ident,Maybe Range)]",
@@ -2187,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.AST",
           "name": "module_statics",
           "package": "netlist",
@@ -2196,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist AST",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.AST",
           "name": "module_statics",
           "normalized": "[(Ident,ConstExpr)]",
@@ -2211,6 +2403,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple inliner for a Netlist AST (\u003ccode\u003eLanguage.Netlist.AST\u003c/code\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.Inline",
           "name": "Inline",
           "package": "netlist",
@@ -2220,6 +2413,7 @@
         "index": {
           "description": "simple inliner for Netlist AST Language.Netlist.AST",
           "hierarchy": "Language Netlist Inline",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.Inline",
           "name": "Inline",
           "package": "netlist",
@@ -2234,6 +2428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a new module in which some variables have been inlined.  An\n expression is inlined (and it's declaration removed) if it only used in one\n place in the entire module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.Inline",
           "name": "inlineModule",
           "package": "netlist",
@@ -2244,6 +2439,7 @@
         "index": {
           "description": "Produce new module in which some variables have been inlined An expression is inlined and it declaration removed if it only used in one place in the entire module",
           "hierarchy": "Language Netlist Inline",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.Inline",
           "name": "inlineModule",
           "normalized": "Module-\u003eModule",
@@ -2260,6 +2456,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtility functions for constructing Netlist AST elements.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.Util",
           "name": "Util",
           "package": "netlist",
@@ -2269,6 +2466,7 @@
         "index": {
           "description": "Utility functions for constructing Netlist AST elements",
           "hierarchy": "Language Netlist Util",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.Util",
           "name": "Util",
           "package": "netlist",
@@ -2282,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.Util",
           "name": "Direction",
           "package": "netlist",
@@ -2290,6 +2489,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist Util",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.Util",
           "name": "Direction",
           "package": "netlist",
@@ -2303,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.Util",
           "name": "Down",
           "package": "netlist",
@@ -2312,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist Util",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.Util",
           "name": "Down",
           "package": "netlist",
@@ -2325,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.Util",
           "name": "Up",
           "package": "netlist",
@@ -2334,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist Util",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.Util",
           "name": "Up",
           "package": "netlist",
@@ -2348,6 +2552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate a list of expressions, unless there is just one expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.Util",
           "name": "exprConcat",
           "package": "netlist",
@@ -2358,6 +2563,7 @@
         "index": {
           "description": "Concatenate list of expressions unless there is just one expression",
           "hierarchy": "Language Netlist Util",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.Util",
           "name": "exprConcat",
           "normalized": "[Expr]-\u003eExpr",
@@ -2374,6 +2580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate a process declaration for a generic register based on the following:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e the register name (as an expression)\n\u003c/li\u003e\u003cli\u003e clock expression\n\u003c/li\u003e\u003cli\u003e width of the register\n\u003c/li\u003e\u003cli\u003e optional asynchronous reset and initial value\n\u003c/li\u003e\u003cli\u003e optional clock enable\n\u003c/li\u003e\u003cli\u003e optional synchronous restart and initial value\n\u003c/li\u003e\u003cli\u003e optional load enable\n\u003c/li\u003e\u003cli\u003e when enabled, the expression to assign to the identifier\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eYou can implement a shift register by passing in a concatenation for the\n register expression and the input expression, though that is not compatible\n with VHDL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.Util",
           "name": "generateReg",
           "package": "netlist",
@@ -2384,6 +2591,7 @@
         "index": {
           "description": "generate process declaration for generic register based on the following the register name as an expression clock expression width of the register optional asynchronous reset and initial value optional clock enable optional synchronous restart and initial value optional load enable when enabled the expression to assign to the identifier You can implement shift register by passing in concatenation for the register expression and the input expression though that is not compatible with VHDL",
           "hierarchy": "Language Netlist Util",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.Util",
           "name": "generateReg",
           "normalized": "Expr-\u003eExpr-\u003eMaybe(Expr,Expr)-\u003eMaybe(Expr,Expr)-\u003eMaybe Expr-\u003eExpr-\u003eDecl",
@@ -2400,6 +2608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a direction and size, maybe generate a \u003ccode\u003e\u003ca\u003eRange\u003c/a\u003e\u003c/code\u003e, where a size of 1\n yields \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.Util",
           "name": "makeRange",
           "package": "netlist",
@@ -2410,6 +2619,7 @@
         "index": {
           "description": "Given direction and size maybe generate Range where size of yields Nothing",
           "hierarchy": "Language Netlist Util",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.Util",
           "name": "makeRange",
           "normalized": "Direction-\u003eSize-\u003eMaybe Range",
@@ -2425,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.Util",
           "name": "sizedInteger",
           "package": "netlist",
@@ -2434,6 +2645,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist Util",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.Util",
           "name": "sizedInteger",
           "normalized": "Int-\u003eInteger-\u003eExpr",
@@ -2449,6 +2661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.Util",
           "name": "sizedIntegral",
           "package": "netlist",
@@ -2458,6 +2671,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist Util",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.Util",
           "name": "sizedIntegral",
           "normalized": "Int-\u003ea-\u003eExpr",
@@ -2474,6 +2688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a \u003ccode\u003e\u003ca\u003eSeq\u003c/a\u003e\u003c/code\u003e statement from a list of statements, unless there is just one\n statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.Util",
           "name": "statements",
           "package": "netlist",
@@ -2484,6 +2699,7 @@
         "index": {
           "description": "Make Seq statement from list of statements unless there is just one statement",
           "hierarchy": "Language Netlist Util",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.Util",
           "name": "statements",
           "normalized": "[Stmt]-\u003eStmt",
@@ -2498,6 +2714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.Util",
           "name": "unsizedInteger",
           "package": "netlist",
@@ -2507,6 +2724,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist Util",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.Util",
           "name": "unsizedInteger",
           "normalized": "Integer-\u003eExpr",
@@ -2522,6 +2740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:54 UTC 2014",
           "module": "Language.Netlist.Util",
           "name": "unsizedIntegral",
           "package": "netlist",
@@ -2531,6 +2750,7 @@
         },
         "index": {
           "hierarchy": "Language Netlist Util",
+          "indexed": "2014-03-11T19:26:54",
           "module": "Language.Netlist.Util",
           "name": "unsizedIntegral",
           "normalized": "a-\u003eExpr",

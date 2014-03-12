@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "freesect"
+        "phrase": "freesect",
+        "type": "phrase"
       },
       "type": "context"
     }

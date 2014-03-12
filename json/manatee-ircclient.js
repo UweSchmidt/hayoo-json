@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "manatee-ircclient"
+        "phrase": "manatee-ircclient",
+        "type": "phrase"
       },
       "type": "context"
     }

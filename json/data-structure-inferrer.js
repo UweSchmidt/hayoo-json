@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-structure-inferrer"
+        "phrase": "data-structure-inferrer",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cpuid"
+        "phrase": "cpuid",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the function \u003ccode\u003e\u003ca\u003ecpuid\u003c/a\u003e\u003c/code\u003e for accessing the cpuid\n instruction on modern IA-32 processors.  Additionally, some convenience\n functions are provided, which perform some of the (really complicated and\n obstruse) decoding.\n\u003c/p\u003e\u003cp\u003eAs an example, you may use the following program to determine some\n characteristics of your machine:\n\u003c/p\u003e\u003cpre\u003e module Main(main) where\n\n import Text.Printf (printf, )\n import System.Cpuid\n\n main :: IO ()\n main = do\n    (a, b, c, d) \u003c- cpuid 0\n    _ \u003c- printf \"Basic CPUID usage: EAX=0: %8x %8x %8x %8x\\n\\n\" a b c d\n    _ \u003c- printf \"Vendor string: %s\\n\\n\" =\u003c\u003c vendorString\n    _ \u003c- printf \"Brand string: %s\\n\\n\" =\u003c\u003c brandString\n    putStrLn \"Cache information:\"\n    putStrLn . unlines .\n       map (\\ v -\u003e \"  \" ++ show v) =\u003c\u003c cacheInfo\n    p \u003c- processorInfo\n    _ \u003c- printf \"Processor info: family: %d, model: %d, stepping: %d, processor type: %d\\n\"\n       (piFamily p) (piModel p) (piStepping p) (piType p)\n    return ()\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "Cpuid",
           "package": "cpuid",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides the function cpuid for accessing the cpuid instruction on modern IA-32 processors Additionally some convenience functions are provided which perform some of the really complicated and obstruse decoding As an example you may use the following program to determine some characteristics of your machine module Main main where import Text.Printf printf import System.Cpuid main IO main do cpuid printf Basic CPUID usage EAX printf Vendor string vendorString printf Brand string brandString putStrLn Cache information putStrLn unlines map show cacheInfo processorInfo printf Processor info family model stepping processor type piFamily piModel piStepping piType return",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "Cpuid",
           "package": "cpuid",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCache associativity.  For some entries, this is not specified in\n the manual.  We report these as \u003ccode\u003e\u003ca\u003eDirectMapped\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "Associativity",
           "package": "cpuid",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Cache associativity For some entries this is not specified in the manual We report these as DirectMapped",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "Associativity",
           "package": "cpuid",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBytes per sector in a cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "BytesPerSector",
           "package": "cpuid",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Bytes per sector in cache",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "BytesPerSector",
           "package": "cpuid",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation for caches and TLBs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "CacheInfo",
           "package": "cpuid",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Information for caches and TLBs",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "CacheInfo",
           "package": "cpuid",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCache size. Some entries can have alternative cache sizes,\n therefore the complicated type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "CacheSize",
           "package": "cpuid",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Cache size Some entries can have alternative cache sizes therefore the complicated type",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "CacheSize",
           "package": "cpuid",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of entries in a TLB.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "Entries",
           "package": "cpuid",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Number of entries in TLB",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "Entries",
           "package": "cpuid",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efeatures as found in page 1, register C\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "Feature1C",
           "package": "cpuid",
@@ -166,6 +179,7 @@
         "index": {
           "description": "features as found in page register",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "Feature1C",
           "package": "cpuid",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efeatures as found in page 1, register D\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "Feature1D",
           "package": "cpuid",
@@ -189,6 +204,7 @@
         "index": {
           "description": "features as found in page register",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "Feature1D",
           "package": "cpuid",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "FlagSet",
           "package": "cpuid",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "FlagSet",
           "package": "cpuid",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine size in a cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "LineSize",
           "package": "cpuid",
@@ -233,6 +252,7 @@
         "index": {
           "description": "Line size in cache",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "LineSize",
           "package": "cpuid",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMuOps in a processors trace cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "MuOps",
           "package": "cpuid",
@@ -256,6 +277,7 @@
         "index": {
           "description": "MuOps in processors trace cache",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "MuOps",
           "package": "cpuid",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePage size. Some entries can have alternative page sizes,\n therefore the complicated type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "PageSize",
           "package": "cpuid",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Page size Some entries can have alternative page sizes therefore the complicated type",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "PageSize",
           "package": "cpuid",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcessor information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "ProcessorInfo",
           "package": "cpuid",
@@ -302,6 +327,7 @@
         "index": {
           "description": "Processor information",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "ProcessorInfo",
           "package": "cpuid",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociativity in a set-associative cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "Ways",
           "package": "cpuid",
@@ -325,6 +352,7 @@
         "index": {
           "description": "Associativity in set-associative cache",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "Ways",
           "package": "cpuid",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "BytesPerSector",
           "package": "cpuid",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "BytesPerSector",
           "package": "cpuid",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "CacheSize",
           "package": "cpuid",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "CacheSize",
           "package": "cpuid",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "CacheSizeOr",
           "package": "cpuid",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "CacheSizeOr",
           "package": "cpuid",
@@ -405,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration of data TLB.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "DataTLB",
           "package": "cpuid",
@@ -415,6 +450,7 @@
         "index": {
           "description": "Configuration of data TLB",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "DataTLB",
           "package": "cpuid",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "DirectMapped",
           "package": "cpuid",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "DirectMapped",
           "package": "cpuid",
@@ -450,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "Entries",
           "package": "cpuid",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "Entries",
           "package": "cpuid",
@@ -473,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFirst-level code cache configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "FirstLevelDCache",
           "package": "cpuid",
@@ -483,6 +524,7 @@
         "index": {
           "description": "First-level code cache configuration",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "FirstLevelDCache",
           "package": "cpuid",
@@ -497,6 +539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFirst-level code cache configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "FirstLevelICache",
           "package": "cpuid",
@@ -507,6 +550,7 @@
         "index": {
           "description": "First-level code cache configuration",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "FirstLevelICache",
           "package": "cpuid",
@@ -521,6 +565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration of code TLB.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "InstructionTLB",
           "package": "cpuid",
@@ -531,6 +576,7 @@
         "index": {
           "description": "Configuration of code TLB",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "InstructionTLB",
           "package": "cpuid",
@@ -544,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "LineSize",
           "package": "cpuid",
@@ -553,6 +600,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "LineSize",
           "package": "cpuid",
@@ -566,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "MuOps",
           "package": "cpuid",
@@ -575,6 +624,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "MuOps",
           "package": "cpuid",
@@ -589,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo second level support.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "NoSecondLevelCache",
           "package": "cpuid",
@@ -599,6 +650,7 @@
         "index": {
           "description": "No second level support",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "NoSecondLevelCache",
           "package": "cpuid",
@@ -613,6 +665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal use only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "NoSecondOrThirdLevelCache",
           "package": "cpuid",
@@ -623,6 +676,7 @@
         "index": {
           "description": "Internal use only",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "NoSecondOrThirdLevelCache",
           "package": "cpuid",
@@ -637,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo third level support.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "NoThirdLevelCache",
           "package": "cpuid",
@@ -647,6 +702,7 @@
         "index": {
           "description": "No third level support",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "NoThirdLevelCache",
           "package": "cpuid",
@@ -660,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "PageSize",
           "package": "cpuid",
@@ -669,6 +726,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "PageSize",
           "package": "cpuid",
@@ -682,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "PageSizeOr",
           "package": "cpuid",
@@ -691,6 +750,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "PageSizeOr",
           "package": "cpuid",
@@ -705,6 +765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefetching information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "Prefetching",
           "package": "cpuid",
@@ -715,6 +776,7 @@
         "index": {
           "description": "Prefetching information",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "Prefetching",
           "package": "cpuid",
@@ -728,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "ProcessorInfo",
           "package": "cpuid",
@@ -737,6 +800,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "ProcessorInfo",
           "package": "cpuid",
@@ -751,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecond-level cache configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "SecondLevelCache",
           "package": "cpuid",
@@ -761,6 +826,7 @@
         "index": {
           "description": "Second-level cache configuration",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "SecondLevelCache",
           "package": "cpuid",
@@ -774,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "SetAssociative",
           "package": "cpuid",
@@ -783,6 +850,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "SetAssociative",
           "package": "cpuid",
@@ -797,6 +865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecond-level cache configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "ThirdLevelCache",
           "package": "cpuid",
@@ -807,6 +876,7 @@
         "index": {
           "description": "Second-level cache configuration",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "ThirdLevelCache",
           "package": "cpuid",
@@ -821,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrace cache (1st-level code cache) configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "TraceCache",
           "package": "cpuid",
@@ -831,6 +902,7 @@
         "index": {
           "description": "Trace cache st-level code cache configuration",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "TraceCache",
           "package": "cpuid",
@@ -844,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "Ways",
           "package": "cpuid",
@@ -853,6 +926,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "Ways",
           "package": "cpuid",
@@ -866,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "acpi",
           "package": "cpuid",
@@ -875,6 +950,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "acpi",
           "package": "cpuid",
@@ -887,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "aes",
           "package": "cpuid",
@@ -896,6 +973,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "aes",
           "package": "cpuid",
@@ -908,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "apic",
           "package": "cpuid",
@@ -917,6 +996,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "apic",
           "package": "cpuid",
@@ -929,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "avx",
           "package": "cpuid",
@@ -938,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "avx",
           "package": "cpuid",
@@ -951,6 +1033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the \u003ccode\u003ecpuid\u003c/code\u003e instruction and return the brand string\n (processor name and maximum frequency) reported by that\n instruction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "brandString",
           "package": "cpuid",
@@ -961,6 +1044,7 @@
         "index": {
           "description": "Execute the cpuid instruction and return the brand string processor name and maximum frequency reported by that instruction",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "brandString",
           "package": "cpuid",
@@ -975,6 +1059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch all available cache information from the processor, using\n the \u003ccode\u003ecpuid\u003c/code\u003e instruction.  The list is not ordered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "cacheInfo",
           "package": "cpuid",
@@ -985,6 +1070,7 @@
         "index": {
           "description": "Fetch all available cache information from the processor using the cpuid instruction The list is not ordered",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "cacheInfo",
           "normalized": "IO[CacheInfo]",
@@ -1000,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "clfsh",
           "package": "cpuid",
@@ -1009,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "clfsh",
           "package": "cpuid",
@@ -1021,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "cmov",
           "package": "cpuid",
@@ -1030,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "cmov",
           "package": "cpuid",
@@ -1042,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "cmpxchg16b",
           "package": "cpuid",
@@ -1051,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "cmpxchg16b",
           "package": "cpuid",
@@ -1063,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "cnxtid",
           "package": "cpuid",
@@ -1072,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "cnxtid",
           "package": "cpuid",
@@ -1085,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the \u003ccode\u003ecpuid\u003c/code\u003e instructions with the given argument\n in the EAX register.  Return the values of the registers\n EAX, EBX, ECX and EDX in that order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "cpuid",
           "package": "cpuid",
@@ -1095,6 +1190,7 @@
         "index": {
           "description": "Execute the cpuid instructions with the given argument in the EAX register Return the values of the registers EAX EBX ECX and EDX in that order",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "cpuid",
           "normalized": "Word-\u003eIO(Word,Word,Word,Word)",
@@ -1109,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "cx8",
           "package": "cpuid",
@@ -1118,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "cx8",
           "package": "cpuid",
@@ -1130,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "dca",
           "package": "cpuid",
@@ -1139,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "dca",
           "package": "cpuid",
@@ -1151,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "de",
           "package": "cpuid",
@@ -1160,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "de",
           "package": "cpuid",
@@ -1172,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "deadline",
           "package": "cpuid",
@@ -1181,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "deadline",
           "package": "cpuid",
@@ -1193,6 +1297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "ds",
           "package": "cpuid",
@@ -1202,6 +1307,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "ds",
           "package": "cpuid",
@@ -1214,6 +1320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "dscpl",
           "package": "cpuid",
@@ -1223,6 +1330,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "dscpl",
           "package": "cpuid",
@@ -1235,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "dtes64",
           "package": "cpuid",
@@ -1244,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "dtes64",
           "package": "cpuid",
@@ -1256,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "est",
           "package": "cpuid",
@@ -1265,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "est",
           "package": "cpuid",
@@ -1277,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "f16c",
           "package": "cpuid",
@@ -1286,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "f16c",
           "package": "cpuid",
@@ -1298,6 +1412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "features",
           "package": "cpuid",
@@ -1307,6 +1422,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "features",
           "normalized": "IO(FlagSet Feature C,FlagSet Feature D)",
@@ -1321,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "fma",
           "package": "cpuid",
@@ -1330,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "fma",
           "package": "cpuid",
@@ -1342,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "fpu",
           "package": "cpuid",
@@ -1351,6 +1470,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "fpu",
           "package": "cpuid",
@@ -1363,6 +1483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "fxsr",
           "package": "cpuid",
@@ -1372,6 +1493,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "fxsr",
           "package": "cpuid",
@@ -1384,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "htt",
           "package": "cpuid",
@@ -1393,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "htt",
           "package": "cpuid",
@@ -1405,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "hypervisor",
           "package": "cpuid",
@@ -1414,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "hypervisor",
           "package": "cpuid",
@@ -1426,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "ia64",
           "package": "cpuid",
@@ -1435,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "ia64",
           "package": "cpuid",
@@ -1447,6 +1575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "mca",
           "package": "cpuid",
@@ -1456,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "mca",
           "package": "cpuid",
@@ -1468,6 +1598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "mce",
           "package": "cpuid",
@@ -1477,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "mce",
           "package": "cpuid",
@@ -1489,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "mmx",
           "package": "cpuid",
@@ -1498,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "mmx",
           "package": "cpuid",
@@ -1510,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "monitor",
           "package": "cpuid",
@@ -1519,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "monitor",
           "package": "cpuid",
@@ -1531,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "movbe",
           "package": "cpuid",
@@ -1540,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "movbe",
           "package": "cpuid",
@@ -1552,6 +1690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "msr",
           "package": "cpuid",
@@ -1561,6 +1700,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "msr",
           "package": "cpuid",
@@ -1573,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "mtrr",
           "package": "cpuid",
@@ -1582,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "mtrr",
           "package": "cpuid",
@@ -1594,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "osxsave",
           "package": "cpuid",
@@ -1603,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "osxsave",
           "package": "cpuid",
@@ -1615,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "pae",
           "package": "cpuid",
@@ -1624,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "pae",
           "package": "cpuid",
@@ -1636,6 +1782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "pat",
           "package": "cpuid",
@@ -1645,6 +1792,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "pat",
           "package": "cpuid",
@@ -1657,6 +1805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "pbe",
           "package": "cpuid",
@@ -1666,6 +1815,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "pbe",
           "package": "cpuid",
@@ -1678,6 +1828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "pcid",
           "package": "cpuid",
@@ -1687,6 +1838,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "pcid",
           "package": "cpuid",
@@ -1699,6 +1851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "pclmulqdq",
           "package": "cpuid",
@@ -1708,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "pclmulqdq",
           "package": "cpuid",
@@ -1720,6 +1874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "pdcm",
           "package": "cpuid",
@@ -1729,6 +1884,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "pdcm",
           "package": "cpuid",
@@ -1741,6 +1897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "pge",
           "package": "cpuid",
@@ -1750,6 +1907,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "pge",
           "package": "cpuid",
@@ -1763,6 +1921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcessor family.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "piFamily",
           "package": "cpuid",
@@ -1773,6 +1932,7 @@
         "index": {
           "description": "Processor family",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "piFamily",
           "package": "cpuid",
@@ -1787,6 +1947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcessor model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "piModel",
           "package": "cpuid",
@@ -1797,6 +1958,7 @@
         "index": {
           "description": "Processor model",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "piModel",
           "package": "cpuid",
@@ -1811,6 +1973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcessor stepping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "piStepping",
           "package": "cpuid",
@@ -1821,6 +1984,7 @@
         "index": {
           "description": "Processor stepping",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "piStepping",
           "package": "cpuid",
@@ -1834,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "piType",
           "package": "cpuid",
@@ -1843,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "piType",
           "package": "cpuid",
@@ -1856,6 +2022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "popcnt",
           "package": "cpuid",
@@ -1865,6 +2032,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "popcnt",
           "package": "cpuid",
@@ -1878,6 +2046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve basic processor information from the processor using the\n \u003ccode\u003ecpuid\u003c/code\u003e instruction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "processorInfo",
           "package": "cpuid",
@@ -1888,6 +2057,7 @@
         "index": {
           "description": "Retrieve basic processor information from the processor using the cpuid instruction",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "processorInfo",
           "package": "cpuid",
@@ -1901,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "pse",
           "package": "cpuid",
@@ -1910,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "pse",
           "package": "cpuid",
@@ -1922,6 +2094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "pse36",
           "package": "cpuid",
@@ -1931,6 +2104,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "pse36",
           "package": "cpuid",
@@ -1943,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "psn",
           "package": "cpuid",
@@ -1952,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "psn",
           "package": "cpuid",
@@ -1964,6 +2140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "rdrand",
           "package": "cpuid",
@@ -1973,6 +2150,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "rdrand",
           "package": "cpuid",
@@ -1985,6 +2163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "sep",
           "package": "cpuid",
@@ -1994,6 +2173,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "sep",
           "package": "cpuid",
@@ -2006,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "smx",
           "package": "cpuid",
@@ -2015,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "smx",
           "package": "cpuid",
@@ -2027,6 +2209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "ss",
           "package": "cpuid",
@@ -2036,6 +2219,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "ss",
           "package": "cpuid",
@@ -2048,6 +2232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "sse",
           "package": "cpuid",
@@ -2057,6 +2242,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "sse",
           "package": "cpuid",
@@ -2069,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "sse2",
           "package": "cpuid",
@@ -2078,6 +2265,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "sse2",
           "package": "cpuid",
@@ -2090,6 +2278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "sse3",
           "package": "cpuid",
@@ -2099,6 +2288,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "sse3",
           "package": "cpuid",
@@ -2111,6 +2301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "sse4_1",
           "package": "cpuid",
@@ -2120,6 +2311,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "sse4_1",
           "package": "cpuid",
@@ -2132,6 +2324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "sse4_2",
           "package": "cpuid",
@@ -2141,6 +2334,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "sse4_2",
           "package": "cpuid",
@@ -2153,6 +2347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "ssse3",
           "package": "cpuid",
@@ -2162,6 +2357,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "ssse3",
           "package": "cpuid",
@@ -2174,6 +2370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "testFlag",
           "package": "cpuid",
@@ -2183,6 +2380,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "testFlag",
           "normalized": "a-\u003eFlagSet a-\u003eBool",
@@ -2198,6 +2396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "tm",
           "package": "cpuid",
@@ -2207,6 +2406,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "tm",
           "package": "cpuid",
@@ -2219,6 +2419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "tm2",
           "package": "cpuid",
@@ -2228,6 +2429,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "tm2",
           "package": "cpuid",
@@ -2240,6 +2442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "tsc",
           "package": "cpuid",
@@ -2249,6 +2452,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "tsc",
           "package": "cpuid",
@@ -2262,6 +2466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the \u003ccode\u003ecpuid\u003c/code\u003e instruction and return the vendor\n string reported by that instruction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "vendorString",
           "package": "cpuid",
@@ -2272,6 +2477,7 @@
         "index": {
           "description": "Execute the cpuid instruction and return the vendor string reported by that instruction",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "vendorString",
           "package": "cpuid",
@@ -2285,6 +2491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "vme",
           "package": "cpuid",
@@ -2294,6 +2501,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "vme",
           "package": "cpuid",
@@ -2306,6 +2514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "vmx",
           "package": "cpuid",
@@ -2315,6 +2524,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "vmx",
           "package": "cpuid",
@@ -2327,6 +2537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "x2apic",
           "package": "cpuid",
@@ -2336,6 +2547,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "x2apic",
           "package": "cpuid",
@@ -2348,6 +2560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "xsave",
           "package": "cpuid",
@@ -2357,6 +2570,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "xsave",
           "package": "cpuid",
@@ -2369,6 +2583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:05 UTC 2014",
           "module": "System.Cpuid",
           "name": "xtpr",
           "package": "cpuid",
@@ -2378,6 +2593,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:05",
           "module": "System.Cpuid",
           "name": "xtpr",
           "package": "cpuid",

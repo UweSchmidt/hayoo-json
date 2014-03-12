@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cv-combinators"
+        "phrase": "cv-combinators",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImageProcessors is a functional (Processor-based) interface to computer vision using OpenCV.\n\u003c/p\u003e\u003cp\u003eThe Processor interface allows the primitives in this library to take care of all the allocation / deallocation\n of resources and other setup/teardown requirements, and to appropriately nest them when combining primitives.\n\u003c/p\u003e\u003cp\u003eSimple example:\n\u003c/p\u003e\u003cpre\u003e win = window 0        -- The number is essentially a label for the window\n cam = camera 0        -- Autodetect camera\n edge = canny 30 190 3 -- Edge detecting processor using canny operator\n\n test = cam \u003e\u003e\u003e edge \u003e\u003e\u003e win   \n\u003c/pre\u003e\u003cp\u003eThe last expression is a processor that captures frames from camera and displays edge-detected version in the window.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:45:58 UTC 2014",
           "module": "AI.CV.ImageProcessors",
           "name": "ImageProcessors",
           "package": "cv-combinators",
@@ -28,6 +29,7 @@
         "index": {
           "description": "ImageProcessors is functional Processor-based interface to computer vision using OpenCV The Processor interface allows the primitives in this library to take care of all the allocation deallocation of resources and other setup teardown requirements and to appropriately nest them when combining primitives Simple example win window The number is essentially label for the window cam camera Autodetect camera edge canny Edge detecting processor using canny operator test cam edge win The last expression is processor that captures frames from camera and displays edge-detected version in the window",
           "hierarchy": "AI CV ImageProcessors",
+          "indexed": "2014-03-11T17:45:58",
           "module": "AI.CV.ImageProcessors",
           "name": "ImageProcessors",
           "package": "cv-combinators",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:58 UTC 2014",
           "module": "AI.CV.ImageProcessors",
           "name": "Image",
           "package": "cv-combinators",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "AI CV ImageProcessors",
+          "indexed": "2014-03-11T17:45:58",
           "module": "AI.CV.ImageProcessors",
           "name": "Image",
           "package": "cv-combinators",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:58 UTC 2014",
           "module": "AI.CV.ImageProcessors",
           "name": "ImageProcessor",
           "package": "cv-combinators",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "AI CV ImageProcessors",
+          "indexed": "2014-03-11T17:45:58",
           "module": "AI.CV.ImageProcessors",
           "name": "ImageProcessor",
           "package": "cv-combinators",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:58 UTC 2014",
           "module": "AI.CV.ImageProcessors",
           "name": "ImageSink",
           "package": "cv-combinators",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "AI CV ImageProcessors",
+          "indexed": "2014-03-11T17:45:58",
           "module": "AI.CV.ImageProcessors",
           "name": "ImageSink",
           "package": "cv-combinators",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:58 UTC 2014",
           "module": "AI.CV.ImageProcessors",
           "name": "ImageSource",
           "package": "cv-combinators",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "AI CV ImageProcessors",
+          "indexed": "2014-03-11T17:45:58",
           "module": "AI.CV.ImageProcessors",
           "name": "ImageSource",
           "package": "cv-combinators",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA capture device, using OpenCV's HighGui lib's cvCreateCameraCapture\n should work with most webcames. See OpenCV's docs for information.\n This processor outputs the latest image from the camera at each invocation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:58 UTC 2014",
           "module": "AI.CV.ImageProcessors",
           "name": "camera",
           "package": "cv-combinators",
@@ -136,6 +147,7 @@
         "index": {
           "description": "capture device using OpenCV HighGui lib cvCreateCameraCapture should work with most webcames See OpenCV docs for information This processor outputs the latest image from the camera at each invocation",
           "hierarchy": "AI CV ImageProcessors",
+          "indexed": "2014-03-11T17:45:58",
           "module": "AI.CV.ImageProcessors",
           "name": "camera",
           "normalized": "Int-\u003eImageSource",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpenCV's cvCanny            \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:58 UTC 2014",
           "module": "AI.CV.ImageProcessors",
           "name": "canny",
           "package": "cv-combinators",
@@ -160,6 +173,7 @@
         "index": {
           "description": "OpenCV cvCanny",
           "hierarchy": "AI CV ImageProcessors",
+          "indexed": "2014-03-11T17:45:58",
           "module": "AI.CV.ImageProcessors",
           "name": "canny",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eImageProcessor",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpenCV's cvDilate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:58 UTC 2014",
           "module": "AI.CV.ImageProcessors",
           "name": "dilate",
           "package": "cv-combinators",
@@ -185,6 +200,7 @@
         "index": {
           "description": "OpenCV cvDilate",
           "hierarchy": "AI CV ImageProcessors",
+          "indexed": "2014-03-11T17:45:58",
           "module": "AI.CV.ImageProcessors",
           "name": "dilate",
           "normalized": "Int-\u003eImageProcessor",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpenCV's cvRectangle, currently without width, color or line type control\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:58 UTC 2014",
           "module": "AI.CV.ImageProcessors",
           "name": "drawRects",
           "package": "cv-combinators",
@@ -210,6 +227,7 @@
         "index": {
           "description": "OpenCV cvRectangle currently without width color or line type control",
           "hierarchy": "AI CV ImageProcessors",
+          "indexed": "2014-03-11T17:45:58",
           "module": "AI.CV.ImageProcessors",
           "name": "drawRects",
           "normalized": "IOProcessor(Image,[CvRect])Image",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for OpenCV's cvHaarDetectObjects and the surrounding required things (mem storage, cascade loading, etc).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:58 UTC 2014",
           "module": "AI.CV.ImageProcessors",
           "name": "haarDetect",
           "package": "cv-combinators",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Wrapper for OpenCV cvHaarDetectObjects and the surrounding required things mem storage cascade loading etc",
           "hierarchy": "AI CV ImageProcessors",
+          "indexed": "2014-03-11T17:45:58",
           "module": "AI.CV.ImageProcessors",
           "name": "haarDetect",
           "normalized": "String-\u003eDouble-\u003eInt-\u003eHaarDetectFlag-\u003eCvSize-\u003eIOProcessor Image[CvRect]",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome general utility functions for use with Processors and OpenCV\n\u003c/p\u003e\u003cp\u003ePredicate for pressed keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:58 UTC 2014",
           "module": "AI.CV.ImageProcessors",
           "name": "keyPressed",
           "package": "cv-combinators",
@@ -261,6 +282,7 @@
         "index": {
           "description": "Some general utility functions for use with Processors and OpenCV Predicate for pressed keys",
           "hierarchy": "AI CV ImageProcessors",
+          "indexed": "2014-03-11T17:45:58",
           "module": "AI.CV.ImageProcessors",
           "name": "keyPressed",
           "normalized": "a-\u003eIO Bool",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpenCV's cvResize\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:58 UTC 2014",
           "module": "AI.CV.ImageProcessors",
           "name": "resize",
           "package": "cv-combinators",
@@ -287,6 +310,7 @@
         "index": {
           "description": "OpenCV cvResize",
           "hierarchy": "AI CV ImageProcessors",
+          "indexed": "2014-03-11T17:45:58",
           "module": "AI.CV.ImageProcessors",
           "name": "resize",
           "normalized": "Int-\u003eInt-\u003eInterpolationMethod-\u003eImageProcessor",
@@ -302,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the processor until a predicate is true, for predicates, and processors that take () as input\n (such as chains that start with a camera).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:58 UTC 2014",
           "module": "AI.CV.ImageProcessors",
           "name": "runTill",
           "package": "cv-combinators",
@@ -312,6 +337,7 @@
         "index": {
           "description": "Runs the processor until predicate is true for predicates and processors that take as input such as chains that start with camera",
           "hierarchy": "AI CV ImageProcessors",
+          "indexed": "2014-03-11T17:45:58",
           "module": "AI.CV.ImageProcessors",
           "name": "runTill",
           "normalized": "IOProcessor()a-\u003e(a-\u003eIO Bool)-\u003eIO a",
@@ -328,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName (and type) says it all.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:58 UTC 2014",
           "module": "AI.CV.ImageProcessors",
           "name": "runTillKeyPressed",
           "package": "cv-combinators",
@@ -338,6 +365,7 @@
         "index": {
           "description": "Name and type says it all",
           "hierarchy": "AI CV ImageProcessors",
+          "indexed": "2014-03-11T17:45:58",
           "module": "AI.CV.ImageProcessors",
           "name": "runTillKeyPressed",
           "normalized": "IOProcessor()a-\u003eIO()",
@@ -353,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:58 UTC 2014",
           "module": "AI.CV.ImageProcessors",
           "name": "videoFile",
           "package": "cv-combinators",
@@ -362,6 +391,7 @@
         },
         "index": {
           "hierarchy": "AI CV ImageProcessors",
+          "indexed": "2014-03-11T17:45:58",
           "module": "AI.CV.ImageProcessors",
           "name": "videoFile",
           "normalized": "String-\u003eImageSource",
@@ -378,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA window that displays images.\n Note: windows with the same index will be the same window....is this ok?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:58 UTC 2014",
           "module": "AI.CV.ImageProcessors",
           "name": "window",
           "package": "cv-combinators",
@@ -388,6 +419,7 @@
         "index": {
           "description": "window that displays images Note windows with the same index will be the same window....is this ok",
           "hierarchy": "AI CV ImageProcessors",
+          "indexed": "2014-03-11T17:45:58",
           "module": "AI.CV.ImageProcessors",
           "name": "window",
           "normalized": "Int-\u003eImageSink",

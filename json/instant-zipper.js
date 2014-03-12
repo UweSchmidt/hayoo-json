@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "instant-zipper"
+        "phrase": "instant-zipper",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Dept",
           "package": "instant-zipper",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Dept",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Dept",
           "package": "instant-zipper",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Dept",
           "package": "instant-zipper",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Dept",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Dept",
           "package": "instant-zipper",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFamily\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "DeptFam",
           "package": "instant-zipper",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Family",
           "hierarchy": "Generics Instant Zipper Example Dept",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "DeptFam",
           "package": "instant-zipper",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Dept_D_",
           "package": "instant-zipper",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Dept",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Dept_D_",
           "package": "instant-zipper",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Employee",
           "package": "instant-zipper",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Dept",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Employee",
           "package": "instant-zipper",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Employee_E_",
           "package": "instant-zipper",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Dept",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Employee_E_",
           "package": "instant-zipper",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Manager",
           "package": "instant-zipper",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Dept",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Manager",
           "package": "instant-zipper",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Name",
           "package": "instant-zipper",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Dept",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Name",
           "package": "instant-zipper",
@@ -189,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "RepDept_",
           "package": "instant-zipper",
@@ -198,6 +215,7 @@
         "index": {
           "description": "Representation",
           "hierarchy": "Generics Instant Zipper Example Dept",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "RepDept_",
           "package": "instant-zipper",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "RepEmployee_",
           "package": "instant-zipper",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Dept",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "RepEmployee_",
           "package": "instant-zipper",
@@ -233,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Salary",
           "package": "instant-zipper",
@@ -242,6 +263,7 @@
         "index": {
           "description": "Datatype",
           "hierarchy": "Generics Instant Zipper Example Dept",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Salary",
           "package": "instant-zipper",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "D",
           "package": "instant-zipper",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Dept",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "D",
           "normalized": "D Manager[Employee]",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Dept",
           "package": "instant-zipper",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Dept",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Dept",
           "package": "instant-zipper",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "E",
           "package": "instant-zipper",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Dept",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "E",
           "package": "instant-zipper",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Employee",
           "package": "instant-zipper",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Dept",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Employee",
           "package": "instant-zipper",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Name",
           "package": "instant-zipper",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Dept",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Name",
           "package": "instant-zipper",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Salary",
           "package": "instant-zipper",
@@ -374,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Dept",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "Salary",
           "package": "instant-zipper",
@@ -388,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExample\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "dept",
           "package": "instant-zipper",
@@ -398,6 +433,7 @@
         "index": {
           "description": "Example",
           "hierarchy": "Generics Instant Zipper Example Dept",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "dept",
           "package": "instant-zipper",
@@ -410,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "fixDept",
           "package": "instant-zipper",
@@ -419,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Dept",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Dept",
           "name": "fixDept",
           "package": "instant-zipper",
@@ -432,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "Term",
           "package": "instant-zipper",
@@ -440,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Term",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "Term",
           "package": "instant-zipper",
@@ -454,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "RepTerm_",
           "package": "instant-zipper",
@@ -463,6 +504,7 @@
         "index": {
           "description": "Representation",
           "hierarchy": "Generics Instant Zipper Example Term",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "RepTerm_",
           "package": "instant-zipper",
@@ -477,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "Term",
           "package": "instant-zipper",
@@ -486,6 +529,7 @@
         "index": {
           "description": "Datatype",
           "hierarchy": "Generics Instant Zipper Example Term",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "Term",
           "package": "instant-zipper",
@@ -500,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFamily\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "TermFam",
           "package": "instant-zipper",
@@ -509,6 +554,7 @@
         "index": {
           "description": "Family",
           "hierarchy": "Generics Instant Zipper Example Term",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "TermFam",
           "package": "instant-zipper",
@@ -522,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "Term_App_",
           "package": "instant-zipper",
@@ -530,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Term",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "Term_App_",
           "package": "instant-zipper",
@@ -543,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "Term_If_",
           "package": "instant-zipper",
@@ -551,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Term",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "Term_If_",
           "package": "instant-zipper",
@@ -564,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "Term_Lambda_",
           "package": "instant-zipper",
@@ -572,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Term",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "Term_Lambda_",
           "package": "instant-zipper",
@@ -585,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "Term_Var'_",
           "package": "instant-zipper",
@@ -593,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Term",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "Term_Var'_",
           "package": "instant-zipper",
@@ -606,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "App",
           "package": "instant-zipper",
@@ -615,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Term",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "App",
           "package": "instant-zipper",
@@ -628,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "If",
           "package": "instant-zipper",
@@ -637,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Term",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "If",
           "package": "instant-zipper",
@@ -650,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "Lambda",
           "package": "instant-zipper",
@@ -659,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Term",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "Lambda",
           "package": "instant-zipper",
@@ -672,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "String",
           "package": "instant-zipper",
@@ -681,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Term",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "String",
           "package": "instant-zipper",
@@ -694,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "Term",
           "package": "instant-zipper",
@@ -703,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Term",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "Term",
           "package": "instant-zipper",
@@ -716,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "Var'",
           "package": "instant-zipper",
@@ -725,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper Example Term",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "Var'",
           "package": "instant-zipper",
@@ -739,6 +805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efac\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "fixFac",
           "package": "instant-zipper",
@@ -749,6 +816,7 @@
         "index": {
           "description": "fac",
           "hierarchy": "Generics Instant Zipper Example Term",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper.Example.Term",
           "name": "fixFac",
           "package": "instant-zipper",
@@ -762,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper",
           "name": "Zipper",
           "package": "instant-zipper",
@@ -770,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper",
           "name": "Zipper",
           "package": "instant-zipper",
@@ -784,6 +854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFamilies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper",
           "name": "Family",
           "package": "instant-zipper",
@@ -793,6 +864,7 @@
         "index": {
           "description": "Families",
           "hierarchy": "Generics Instant Zipper",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper",
           "name": "Family",
           "package": "instant-zipper",
@@ -806,6 +878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper",
           "name": "PrimFam",
           "package": "instant-zipper",
@@ -814,6 +887,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper",
           "name": "PrimFam",
           "package": "instant-zipper",
@@ -828,6 +902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZipper\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper",
           "name": "Zipper",
           "package": "instant-zipper",
@@ -837,6 +912,7 @@
         "index": {
           "description": "Zipper",
           "hierarchy": "Generics Instant Zipper",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper",
           "name": "Zipper",
           "package": "instant-zipper",
@@ -850,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper",
           "name": "ZipperR",
           "package": "instant-zipper",
@@ -858,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper",
           "name": "ZipperR",
           "package": "instant-zipper",
@@ -871,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper",
           "name": "Char",
           "package": "instant-zipper",
@@ -880,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper",
           "name": "Char",
           "package": "instant-zipper",
@@ -893,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper",
           "name": "Float",
           "package": "instant-zipper",
@@ -902,6 +983,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper",
           "name": "Float",
           "package": "instant-zipper",
@@ -915,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper",
           "name": "Int",
           "package": "instant-zipper",
@@ -924,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper",
           "name": "Int",
           "package": "instant-zipper",
@@ -937,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper",
           "name": "List",
           "package": "instant-zipper",
@@ -946,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper",
           "name": "List",
           "normalized": "a b-\u003ePrimFam[b]",
@@ -961,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper",
           "name": "down",
           "package": "instant-zipper",
@@ -970,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper",
           "name": "down",
           "normalized": "a b-\u003eLoc c d e-\u003eZipperR(Loc b d(c e))",
@@ -985,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDown \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper",
           "name": "down'",
           "package": "instant-zipper",
@@ -995,6 +1084,7 @@
         "index": {
           "description": "Down",
           "hierarchy": "Generics Instant Zipper",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper",
           "name": "down'",
           "normalized": "a-\u003eLoc b c d-\u003eZipperR(Loc a c(b d))",
@@ -1009,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper",
           "name": "downR",
           "package": "instant-zipper",
@@ -1018,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper",
           "name": "downR",
           "normalized": "a b-\u003eLoc c d e-\u003eZipperR(Loc b d(c e))",
@@ -1032,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper",
           "name": "downR'",
           "package": "instant-zipper",
@@ -1041,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper",
           "name": "downR'",
           "normalized": "a-\u003eLoc b c d-\u003eZipperR(Loc a c(b d))",
@@ -1056,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper",
           "name": "enter",
           "package": "instant-zipper",
@@ -1065,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper",
           "name": "enter",
           "normalized": "a-\u003eLoc a a Epsilon",
@@ -1080,6 +1176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNavigation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper",
           "name": "get",
           "package": "instant-zipper",
@@ -1090,6 +1187,7 @@
         "index": {
           "description": "Navigation",
           "hierarchy": "Generics Instant Zipper",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper",
           "name": "get",
           "normalized": "Loc a b c-\u003ea",
@@ -1104,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper",
           "name": "leave",
           "package": "instant-zipper",
@@ -1113,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper",
           "name": "leave",
           "normalized": "Loc a b c-\u003eb",
@@ -1127,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper",
           "name": "left",
           "package": "instant-zipper",
@@ -1136,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper",
           "name": "left",
           "normalized": "a b-\u003eLoc c d(e f)-\u003eZipperR(Loc b d(e f))",
@@ -1150,6 +1252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper",
           "name": "left'",
           "package": "instant-zipper",
@@ -1159,6 +1262,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper",
           "name": "left'",
           "normalized": "a-\u003eLoc b c(d e)-\u003eZipperR(Loc a c(d e))",
@@ -1173,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper",
           "name": "right",
           "package": "instant-zipper",
@@ -1182,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper",
           "name": "right",
           "normalized": "a b-\u003eLoc c d(e f)-\u003eZipperR(Loc b d(e f))",
@@ -1196,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper",
           "name": "right'",
           "package": "instant-zipper",
@@ -1205,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper",
           "name": "right'",
           "normalized": "a-\u003eLoc b c(d e)-\u003eZipperR(Loc a c(d e))",
@@ -1219,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper",
           "name": "set",
           "package": "instant-zipper",
@@ -1228,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper",
           "name": "set",
           "normalized": "a-\u003eLoc a b c-\u003eLoc a b c",
@@ -1242,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:07 UTC 2014",
           "module": "Generics.Instant.Zipper",
           "name": "up",
           "package": "instant-zipper",
@@ -1251,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Generics Instant Zipper",
+          "indexed": "2014-03-11T18:58:07",
           "module": "Generics.Instant.Zipper",
           "name": "up",
           "normalized": "Loc a b(c d)-\u003eLoc c b d",

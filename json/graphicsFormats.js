@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "graphicsFormats"
+        "phrase": "graphicsFormats",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:44 UTC 2014",
           "module": "Graphics.Formats",
           "name": "Formats",
           "package": "graphicsFormats",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats",
+          "indexed": "2014-03-11T18:20:44",
           "module": "Graphics.Formats",
           "name": "Formats",
           "package": "graphicsFormats",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:44 UTC 2014",
           "module": "Graphics.Formats",
           "name": "Renderable",
           "package": "graphicsFormats",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats",
+          "indexed": "2014-03-11T18:20:44",
           "module": "Graphics.Formats",
           "name": "Renderable",
           "package": "graphicsFormats",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:44 UTC 2014",
           "module": "Graphics.Formats",
           "name": "displayListR",
           "package": "graphicsFormats",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Graphics Formats",
+          "indexed": "2014-03-11T18:20:44",
           "module": "Graphics.Formats",
           "name": "displayListR",
           "normalized": "a-\u003eIO DisplayList",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform the relevant OpenGL calls to render your object.\n     This function should leave the graphics state identical.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:44 UTC 2014",
           "module": "Graphics.Formats",
           "name": "render",
           "package": "graphicsFormats",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Perform the relevant OpenGL calls to render your object This function should leave the graphics state identical",
           "hierarchy": "Graphics Formats",
+          "indexed": "2014-03-11T18:20:44",
           "module": "Graphics.Formats",
           "name": "render",
           "normalized": "a-\u003eIO()",

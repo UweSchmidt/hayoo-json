@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hasparql-client"
+        "phrase": "hasparql-client",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions to access remote endpoints.\n     \u003ccode\u003e\u003ca\u003erunSelectQuery\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003erunAskQuery\u003c/a\u003e\u003c/code\u003e may not work if you try to override the output format. See also about \u003ccode\u003e\u003ca\u003eHGET\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eHPOST\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Queries",
           "name": "Queries",
           "package": "hasparql-client",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides functions to access remote endpoints runSelectQuery and runAskQuery may not work if you try to override the output format See also about HGET and HPOST",
           "hierarchy": "Database HaSparqlClient Queries",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Queries",
           "name": "Queries",
           "package": "hasparql-client",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn Right True or Right False for a query of type ASK. If it fails returns an error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Queries",
           "name": "runAskQuery",
           "package": "hasparql-client",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Return Right True or Right False for query of type ASK If it fails returns an error message",
           "hierarchy": "Database HaSparqlClient Queries",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Queries",
           "name": "runAskQuery",
           "normalized": "Service-\u003eMethod-\u003eIO(Either String Bool)",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a service. On success returns a string created from the service. By default, the string is a representation in XML, other formats such as Turtle and N3 could be returned by adding the output format from the list of optional parameters. Returns an error message on failure. SPARUL and SPARQL can be performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Queries",
           "name": "runQuery",
           "package": "hasparql-client",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Execute service On success returns string created from the service By default the string is representation in XML other formats such as Turtle and N3 could be returned by adding the output format from the list of optional parameters Returns an error message on failure SPARUL and SPARQL can be performed",
           "hierarchy": "Database HaSparqlClient Queries",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Queries",
           "name": "runQuery",
           "normalized": "Service-\u003eMethod-\u003eIO(Either String String)",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all possible values for a query of type SELECT and may return several lists of \u003ccode\u003e\u003ca\u003eBindingValue\u003c/a\u003e\u003c/code\u003e. URI, Literal and Blank Nodes are now types in Haskell. If it fails returns an error message. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Queries",
           "name": "runSelectQuery",
           "package": "hasparql-client",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Find all possible values for query of type SELECT and may return several lists of BindingValue URI Literal and Blank Nodes are now types in Haskell If it fails returns an error message",
           "hierarchy": "Database HaSparqlClient Queries",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Queries",
           "name": "runSelectQuery",
           "normalized": "Service-\u003eMethod-\u003eIO(Either String[[BindingValue]])",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType definitions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "Types",
           "package": "hasparql-client",
@@ -129,6 +138,7 @@
         "index": {
           "description": "Type definitions",
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "Types",
           "package": "hasparql-client",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation for SELECT query result format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "BindingValue",
           "package": "hasparql-client",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Representation for SELECT query result format",
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "BindingValue",
           "package": "hasparql-client",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a default graph URI. Overrides the default graph from SPARQL queries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "DefaultGraph",
           "package": "hasparql-client",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Add default graph URI Overrides the default graph from SPARQL queries",
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "DefaultGraph",
           "package": "hasparql-client",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a SPARQL endpoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "Endpoint",
           "package": "hasparql-client",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Represents SPARQL endpoint",
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "Endpoint",
           "package": "hasparql-client",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome SPARQL endpoints require extra key value pairs. E.g., in Virtuoso Server, one would add should-sponge=soft to the query forcing virtuoso to retrieve graphs that are not stored in its local database. Can be for example, used to try others output formats in \u003ccode\u003eRunQuery\u003c/code\u003e depending on the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "ExtraParameters",
           "package": "hasparql-client",
@@ -221,6 +238,7 @@
         "index": {
           "description": "Some SPARQL endpoints require extra key value pairs E.g in Virtuoso Server one would add should-sponge soft to the query forcing virtuoso to retrieve graphs that are not stored in its local database Can be for example used to try others output formats in RunQuery depending on the server",
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "ExtraParameters",
           "package": "hasparql-client",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ekey of the query part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "Key",
           "package": "hasparql-client",
@@ -244,6 +263,7 @@
         "index": {
           "description": "key of the query part",
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "Key",
           "package": "hasparql-client",
@@ -258,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet to HTTP GET or POST request, according to the SPARQL protocol, some endpoints do not yet support POST requests. Some SPARQL queries, perhaps machine generated, may be longer than can be reliably conveyed by way of the HTTP GET. In those cases the POST may be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "Method",
           "package": "hasparql-client",
@@ -267,6 +288,7 @@
         "index": {
           "description": "Set to HTTP GET or POST request according to the SPARQL protocol some endpoints do not yet support POST requests Some SPARQL queries perhaps machine generated may be longer than can be reliably conveyed by way of the HTTP GET In those cases the POST may be used",
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "Method",
           "package": "hasparql-client",
@@ -281,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a named graph URI. Overrides named graphs from SPARQL queries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "NamedGraph",
           "package": "hasparql-client",
@@ -290,6 +313,7 @@
         "index": {
           "description": "Add named graph URI Overrides named graphs from SPARQL queries",
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "NamedGraph",
           "package": "hasparql-client",
@@ -304,6 +328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSPARQL query \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "Query",
           "package": "hasparql-client",
@@ -313,6 +338,7 @@
         "index": {
           "description": "SPARQL query String",
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "Query",
           "package": "hasparql-client",
@@ -327,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal representation for a SPARQL service.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "Service",
           "package": "hasparql-client",
@@ -336,6 +363,7 @@
         "index": {
           "description": "Local representation for SPARQL service",
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "Service",
           "package": "hasparql-client",
@@ -350,6 +378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue of the query part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "Value",
           "package": "hasparql-client",
@@ -359,6 +388,7 @@
         "index": {
           "description": "value of the query part",
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "Value",
           "package": "hasparql-client",
@@ -373,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlank Node with label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "BNode",
           "package": "hasparql-client",
@@ -383,6 +414,7 @@
         "index": {
           "description": "Blank Node with label",
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "BNode",
           "package": "hasparql-client",
@@ -396,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "HGET",
           "package": "hasparql-client",
@@ -405,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "HGET",
           "package": "hasparql-client",
@@ -418,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "HPOST",
           "package": "hasparql-client",
@@ -427,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "HPOST",
           "package": "hasparql-client",
@@ -441,6 +477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral with language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "LangLiteral",
           "package": "hasparql-client",
@@ -451,6 +488,7 @@
         "index": {
           "description": "Literal with language",
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "LangLiteral",
           "package": "hasparql-client",
@@ -465,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral string without datatype or lang.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "Literal",
           "package": "hasparql-client",
@@ -475,6 +514,7 @@
         "index": {
           "description": "Literal string without datatype or lang",
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "Literal",
           "package": "hasparql-client",
@@ -488,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "Sparql",
           "package": "hasparql-client",
@@ -497,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "Sparql",
           "package": "hasparql-client",
@@ -511,6 +553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral with datatype URI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "TypedLiteral",
           "package": "hasparql-client",
@@ -521,6 +564,7 @@
         "index": {
           "description": "Literal with datatype URI",
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "TypedLiteral",
           "package": "hasparql-client",
@@ -535,6 +579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURI reference to remote resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "URI",
           "package": "hasparql-client",
@@ -545,6 +590,7 @@
         "index": {
           "description": "URI reference to remote resource",
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "URI",
           "package": "hasparql-client",
@@ -559,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnbound result value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "Unbound",
           "package": "hasparql-client",
@@ -569,6 +616,7 @@
         "index": {
           "description": "Unbound result value",
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "Unbound",
           "package": "hasparql-client",
@@ -582,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "defaultService",
           "package": "hasparql-client",
@@ -591,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "defaultService",
           "package": "hasparql-client",
@@ -604,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "defaultgraph",
           "package": "hasparql-client",
@@ -613,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "defaultgraph",
           "package": "hasparql-client",
@@ -625,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "endpoint",
           "package": "hasparql-client",
@@ -634,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "endpoint",
           "package": "hasparql-client",
@@ -646,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "namedgraph",
           "package": "hasparql-client",
@@ -655,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "namedgraph",
           "normalized": "[NamedGraph]",
@@ -669,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "optionalparameters",
           "package": "hasparql-client",
@@ -678,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "optionalparameters",
           "normalized": "[ExtraParameters]",
@@ -692,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Types",
           "name": "query",
           "package": "hasparql-client",
@@ -701,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Database HaSparqlClient Types",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Types",
           "name": "query",
           "package": "hasparql-client",
@@ -714,6 +774,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides some convenience functions to get values from BindingValue. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Values",
           "name": "Values",
           "package": "hasparql-client",
@@ -723,6 +784,7 @@
         "index": {
           "description": "This module provides some convenience functions to get values from BindingValue",
           "hierarchy": "Database HaSparqlClient Values",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Values",
           "name": "Values",
           "package": "hasparql-client",
@@ -737,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the \u003ccode\u003e\u003ca\u003eBNode\u003c/a\u003e\u003c/code\u003e value for a \u003ccode\u003e\u003ca\u003eBindingValue\u003c/a\u003e\u003c/code\u003e. Return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003e\u003ca\u003eBindingValue\u003c/a\u003e\u003c/code\u003e is not \u003ccode\u003e\u003ca\u003eBNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Values",
           "name": "bnodeValue",
           "package": "hasparql-client",
@@ -747,6 +810,7 @@
         "index": {
           "description": "Get the BNode value for BindingValue Return Nothing if BindingValue is not BNode",
           "hierarchy": "Database HaSparqlClient Values",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Values",
           "name": "bnodeValue",
           "normalized": "BindingValue-\u003eMaybe String",
@@ -763,6 +827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the datatype value for a \u003ccode\u003e\u003ca\u003eBindingValue\u003c/a\u003e\u003c/code\u003e. Return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003e\u003ca\u003eBindingValue\u003c/a\u003e\u003c/code\u003e is not \u003ccode\u003e\u003ca\u003eTypedLiteral\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Values",
           "name": "datatypeValue",
           "package": "hasparql-client",
@@ -773,6 +838,7 @@
         "index": {
           "description": "Get the datatype value for BindingValue Return Nothing if BindingValue is not TypedLiteral",
           "hierarchy": "Database HaSparqlClient Values",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Values",
           "name": "datatypeValue",
           "normalized": "BindingValue-\u003eMaybe String",
@@ -789,6 +855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the language value for a \u003ccode\u003e\u003ca\u003eBindingValue\u003c/a\u003e\u003c/code\u003e. Return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003e\u003ca\u003eBindingValue\u003c/a\u003e\u003c/code\u003e is not \u003ccode\u003e\u003ca\u003eLangLiteral\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Values",
           "name": "languageValue",
           "package": "hasparql-client",
@@ -799,6 +866,7 @@
         "index": {
           "description": "Get the language value for BindingValue Return Nothing if BindingValue is not LangLiteral",
           "hierarchy": "Database HaSparqlClient Values",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Values",
           "name": "languageValue",
           "normalized": "BindingValue-\u003eMaybe String",
@@ -815,6 +883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the literal value for a \u003ccode\u003e\u003ca\u003eBindingValue\u003c/a\u003e\u003c/code\u003e. Return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if not is of the any literal type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Values",
           "name": "literalValue",
           "package": "hasparql-client",
@@ -825,6 +894,7 @@
         "index": {
           "description": "Get the literal value for BindingValue Return Nothing if not is of the any literal type",
           "hierarchy": "Database HaSparqlClient Values",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Values",
           "name": "literalValue",
           "normalized": "BindingValue-\u003eMaybe String",
@@ -840,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Values",
           "name": "showsparql",
           "package": "hasparql-client",
@@ -849,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Database HaSparqlClient Values",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Values",
           "name": "showsparql",
           "normalized": "a-\u003eString",
@@ -864,6 +936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the \u003ccode\u003e\u003ca\u003eURI\u003c/a\u003e\u003c/code\u003e value for a BindingValue. Return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003e\u003ca\u003eBindingValue\u003c/a\u003e\u003c/code\u003e is not \u003ccode\u003e\u003ca\u003eURI\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Values",
           "name": "uriValue",
           "package": "hasparql-client",
@@ -874,6 +947,7 @@
         "index": {
           "description": "Get the URI value for BindingValue Return Nothing if BindingValue is not URI",
           "hierarchy": "Database HaSparqlClient Values",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Values",
           "name": "uriValue",
           "normalized": "BindingValue-\u003eMaybe String",
@@ -890,6 +964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the value for a \u003ccode\u003e\u003ca\u003eBindingValue\u003c/a\u003e\u003c/code\u003e. Return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if BindingValue is \u003ccode\u003e\u003ca\u003eUnbound\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient.Values",
           "name": "value",
           "package": "hasparql-client",
@@ -900,6 +975,7 @@
         "index": {
           "description": "Get the value for BindingValue Return Nothing if BindingValue is Unbound",
           "hierarchy": "Database HaSparqlClient Values",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient.Values",
           "name": "value",
           "normalized": "BindingValue-\u003eMaybe String",
@@ -915,6 +991,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMain module\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:04 UTC 2014",
           "module": "Database.HaSparqlClient",
           "name": "HaSparqlClient",
           "package": "hasparql-client",
@@ -924,6 +1001,7 @@
         "index": {
           "description": "Main module",
           "hierarchy": "Database HaSparqlClient",
+          "indexed": "2014-03-11T18:34:04",
           "module": "Database.HaSparqlClient",
           "name": "HaSparqlClient",
           "package": "hasparql-client",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Konf"
+        "phrase": "Konf",
+        "type": "phrase"
       },
       "type": "context"
     }

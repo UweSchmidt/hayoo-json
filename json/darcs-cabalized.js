@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "darcs-cabalized"
+        "phrase": "darcs-cabalized",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tftp"
+        "phrase": "tftp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEncapsulates parsing and generation of TFTP Messages\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Message",
           "name": "Message",
           "package": "tftp",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Encapsulates parsing and generation of TFTP Messages",
           "hierarchy": "Network TFTP Message",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Message",
           "name": "Message",
           "package": "tftp",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTFTP message type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Message",
           "name": "Message",
           "package": "tftp",
@@ -51,6 +54,7 @@
         "index": {
           "description": "TFTP message type",
           "hierarchy": "Network TFTP Message",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Message",
           "name": "Message",
           "package": "tftp",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data mode to encode the data with\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Message",
           "name": "Mode",
           "package": "tftp",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The data mode to encode the data with",
           "hierarchy": "Network TFTP Message",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Message",
           "name": "Mode",
           "package": "tftp",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe error codes as defined in the RFC 1350\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Message",
           "name": "TFTPError",
           "package": "tftp",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The error codes as defined in the RFC",
           "hierarchy": "Network TFTP Message",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Message",
           "name": "TFTPError",
           "package": "tftp",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAcknowledge message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Message",
           "name": "ACK",
           "package": "tftp",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Acknowledge message",
           "hierarchy": "Network TFTP Message",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Message",
           "name": "ACK",
           "package": "tftp",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Message",
           "name": "AccessViolation",
           "package": "tftp",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Network TFTP Message",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Message",
           "name": "AccessViolation",
           "package": "tftp",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData block with a raw bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Message",
           "name": "DATA",
           "package": "tftp",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Data block with raw bytestring",
           "hierarchy": "Network TFTP Message",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Message",
           "name": "DATA",
           "package": "tftp",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Message",
           "name": "DiskFull",
           "package": "tftp",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Network TFTP Message",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Message",
           "name": "DiskFull",
           "package": "tftp",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Message",
           "name": "Error",
           "package": "tftp",
@@ -213,6 +230,7 @@
         "index": {
           "description": "Error message",
           "hierarchy": "Network TFTP Message",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Message",
           "name": "Error",
           "package": "tftp",
@@ -227,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncapsulates a custom message for a non-standard error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Message",
           "name": "ErrorMessage",
           "package": "tftp",
@@ -237,6 +256,7 @@
         "index": {
           "description": "Encapsulates custom message for non-standard error",
           "hierarchy": "Network TFTP Message",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Message",
           "name": "ErrorMessage",
           "package": "tftp",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Message",
           "name": "FileAlreadyExists",
           "package": "tftp",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Network TFTP Message",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Message",
           "name": "FileAlreadyExists",
           "package": "tftp",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Message",
           "name": "FileNotFound",
           "package": "tftp",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Network TFTP Message",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Message",
           "name": "FileNotFound",
           "package": "tftp",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Message",
           "name": "IllegalTFTPOperation",
           "package": "tftp",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Network TFTP Message",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Message",
           "name": "IllegalTFTPOperation",
           "package": "tftp",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003enetascii\u003c/a\u003e mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Message",
           "name": "NetASCII",
           "package": "tftp",
@@ -327,6 +354,7 @@
         "index": {
           "description": "netascii mode",
           "hierarchy": "Network TFTP Message",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Message",
           "name": "NetASCII",
           "package": "tftp",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Message",
           "name": "NoSuchUser",
           "package": "tftp",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Network TFTP Message",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Message",
           "name": "NoSuchUser",
           "package": "tftp",
@@ -363,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003eoctet\u003c/a\u003e mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Message",
           "name": "Octet",
           "package": "tftp",
@@ -373,6 +404,7 @@
         "index": {
           "description": "octet mode",
           "hierarchy": "Network TFTP Message",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Message",
           "name": "Octet",
           "package": "tftp",
@@ -387,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Message",
           "name": "RRQ",
           "package": "tftp",
@@ -397,6 +430,7 @@
         "index": {
           "description": "Read request",
           "hierarchy": "Network TFTP Message",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Message",
           "name": "RRQ",
           "package": "tftp",
@@ -410,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Message",
           "name": "UnknownTransferID",
           "package": "tftp",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Network TFTP Message",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Message",
           "name": "UnknownTransferID",
           "package": "tftp",
@@ -433,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Message",
           "name": "WRQ",
           "package": "tftp",
@@ -443,6 +480,7 @@
         "index": {
           "description": "Write request",
           "hierarchy": "Network TFTP Message",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Message",
           "name": "WRQ",
           "package": "tftp",
@@ -457,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e encoded in \u003ccode\u003efromMode\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e encoded in\n \u003ccode\u003etoMode\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Message",
           "name": "convertMode",
           "package": "tftp",
@@ -467,6 +506,7 @@
         "index": {
           "description": "Convert ByteString encoded in fromMode to ByteString encoded in toMode",
           "hierarchy": "Network TFTP Message",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Message",
           "name": "convertMode",
           "normalized": "Mode-\u003eMode-\u003eByteString-\u003eByteString",
@@ -483,6 +523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a value from a lazy ByteString, reconstructing the original structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Message",
           "name": "decode",
           "package": "tftp",
@@ -492,6 +533,7 @@
         "index": {
           "description": "Decode value from lazy ByteString reconstructing the original structure",
           "hierarchy": "Network TFTP Message",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Message",
           "name": "decode",
           "normalized": "ByteString-\u003ea",
@@ -507,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a value using binary serialisation to a lazy ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Message",
           "name": "encode",
           "package": "tftp",
@@ -516,6 +559,7 @@
         "index": {
           "description": "Encode value using binary serialisation to lazy ByteString",
           "hierarchy": "Network TFTP Message",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Message",
           "name": "encode",
           "normalized": "a-\u003eByteString",
@@ -531,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTransmission of data via TFTP. This implements the stop-and-wait style data\n transmission protocol.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "Protocol",
           "package": "tftp",
@@ -540,6 +585,7 @@
         "index": {
           "description": "Transmission of data via TFTP This implements the stop-and-wait style data transmission protocol",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "Protocol",
           "package": "tftp",
@@ -554,6 +600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal state record for a transfer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "XFerState",
           "package": "tftp",
@@ -563,6 +610,7 @@
         "index": {
           "description": "Internal state record for transfer",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "XFerState",
           "package": "tftp",
@@ -577,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXFer monad parameterised over a (MessageIO) monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "XFerT",
           "package": "tftp",
@@ -586,6 +635,7 @@
         "index": {
           "description": "XFer monad parameterised over MessageIO monad",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "XFerT",
           "package": "tftp",
@@ -599,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "XFerState",
           "package": "tftp",
@@ -608,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "XFerState",
           "package": "tftp",
@@ -622,6 +674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default time \u003ccode\u003e\u003ca\u003econtinueAfterACK\u003c/a\u003e\u003c/code\u003e waits for an ACK.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "ackTimeOut",
           "package": "tftp",
@@ -632,6 +685,7 @@
         "index": {
           "description": "The default time continueAfterACK waits for an ACK",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "ackTimeOut",
           "package": "tftp",
@@ -646,6 +700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceive the next message from the client, if the client anserws with the\n correct ack call \u003ccode\u003esuccess\u003c/code\u003e. If there was a timeout or the ack was for an\n invalid index call \u003ccode\u003eretry\u003c/code\u003e, if an error occured call 'error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "continueAfterACK",
           "package": "tftp",
@@ -656,6 +711,7 @@
         "index": {
           "description": "Receive the next message from the client if the client anserws with the correct ack call success If there was timeout or the ack was for an invalid index call retry if an error occured call error",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "continueAfterACK",
           "normalized": "StateT(XFerState a)b c-\u003eStateT(XFerState a)b c-\u003eStateT(XFerState a)b c-\u003eStateT(XFerState a)b c",
@@ -672,6 +728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the current block index for an ongoing transfer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "getBlockIndex",
           "package": "tftp",
@@ -682,6 +739,7 @@
         "index": {
           "description": "Read the current block index for an ongoing transfer",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "getBlockIndex",
           "package": "tftp",
@@ -696,6 +754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the origin(\u003ccode\u003eAddress\u003c/code\u003e) of the message last received, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "getLastPeer",
           "package": "tftp",
@@ -706,6 +765,7 @@
         "index": {
           "description": "Return the origin Address of the message last received or Nothing",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "getLastPeer",
           "package": "tftp",
@@ -720,6 +780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement the current block index for an ongoing transfer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "incBlockIndex",
           "package": "tftp",
@@ -730,6 +791,7 @@
         "index": {
           "description": "Increment the current block index for an ongoing transfer",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "incBlockIndex",
           "package": "tftp",
@@ -744,6 +806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLog message with custom priority\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "logWith",
           "package": "tftp",
@@ -754,6 +817,7 @@
         "index": {
           "description": "Log message with custom priority",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "logWith",
           "normalized": "(String-\u003eString-\u003eIO())-\u003eString-\u003eXFerT a b()",
@@ -770,6 +834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default number of re-transmits during \u003ccode\u003e\u003ca\u003ewriteData\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "maxRetries",
           "package": "tftp",
@@ -780,6 +845,7 @@
         "index": {
           "description": "The default number of re-transmits during writeData",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "maxRetries",
           "package": "tftp",
@@ -794,6 +860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple server action that will wait for a RRQ for its file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "offerSingleFile",
           "package": "tftp",
@@ -804,6 +871,7 @@
         "index": {
           "description": "simple server action that will wait for RRQ for its file",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "offerSingleFile",
           "normalized": "Maybe Int-\u003eString-\u003eByteString-\u003eXFerT a b Bool",
@@ -820,6 +888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLog error message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "printErr",
           "package": "tftp",
@@ -830,6 +899,7 @@
         "index": {
           "description": "Log error message",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "printErr",
           "normalized": "String-\u003eXFerT a b()",
@@ -846,6 +916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLog debug message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "printInfo",
           "package": "tftp",
@@ -856,6 +927,7 @@
         "index": {
           "description": "Log debug message",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "printInfo",
           "normalized": "String-\u003eXFerT a b()",
@@ -872,6 +944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLog warning message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "printWarn",
           "package": "tftp",
@@ -882,6 +955,7 @@
         "index": {
           "description": "Log warning message",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "printWarn",
           "normalized": "String-\u003eXFerT a b()",
@@ -898,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereceive a message and remeber the sender for \u003ccode\u003e\u003ca\u003egetLastPeer\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "receive",
           "package": "tftp",
@@ -908,6 +983,7 @@
         "index": {
           "description": "receive message and remeber the sender for getLastPeer",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "receive",
           "normalized": "Maybe Int-\u003eXFerT a b(Maybe Message)",
@@ -923,6 +999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend any \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e to the address to where the last message received from\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "reply",
           "package": "tftp",
@@ -933,6 +1010,7 @@
         "index": {
           "description": "Send any Message to the address to where the last message received from",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "reply",
           "normalized": "Message-\u003eXFerT a b()",
@@ -948,6 +1026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a \u003ccode\u003e\u003ca\u003eDATA\u003c/a\u003e\u003c/code\u003e packet to the origin(\u003ccode\u003eAddress\u003c/code\u003e) of the message last received with the current block index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "replyData",
           "package": "tftp",
@@ -958,6 +1037,7 @@
         "index": {
           "description": "Send DATA packet to the origin Address of the message last received with the current block index",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "replyData",
           "normalized": "ByteString-\u003eXFerT a b()",
@@ -974,6 +1054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset the current block index for an ongoing transfer to 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "resetBlockIndex",
           "package": "tftp",
@@ -984,6 +1065,7 @@
         "index": {
           "description": "Reset the current block index for an ongoing transfer to",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "resetBlockIndex",
           "normalized": "XFerT a b()",
@@ -1000,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a transfer action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "runTFTP",
           "package": "tftp",
@@ -1010,6 +1093,7 @@
         "index": {
           "description": "Execute transfer action",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "runTFTP",
           "normalized": "XFerT a b c-\u003ea c",
@@ -1026,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend any \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e to an \u003ccode\u003eAddress\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "send",
           "package": "tftp",
@@ -1036,6 +1121,7 @@
         "index": {
           "description": "Send any Message to an Address",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "send",
           "normalized": "a-\u003eMessage-\u003eXFerT b a()",
@@ -1051,6 +1137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverwrite the origin(\u003ccode\u003eAddress\u003c/code\u003e) of the message last received\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "setLastPeer",
           "package": "tftp",
@@ -1061,6 +1148,7 @@
         "index": {
           "description": "Overwrite the origin Address of the message last received",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "setLastPeer",
           "normalized": "Maybe a-\u003eXFerT b a()",
@@ -1077,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA transfer action that sends a large chunk of data via TFTP DATA messages\n to a destination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "writeData",
           "package": "tftp",
@@ -1087,6 +1176,7 @@
         "index": {
           "description": "transfer action that sends large chunk of data via TFTP DATA messages to destination",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "writeData",
           "normalized": "ByteString-\u003eXFerT a b Bool",
@@ -1103,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe block index of an ongoing transfer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "xsBlockIndex",
           "package": "tftp",
@@ -1113,6 +1204,7 @@
         "index": {
           "description": "The block index of an ongoing transfer",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "xsBlockIndex",
           "package": "tftp",
@@ -1127,6 +1219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrigin of the last message received\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Protocol",
           "name": "xsFrom",
           "package": "tftp",
@@ -1137,6 +1230,7 @@
         "index": {
           "description": "Origin of the last message received",
           "hierarchy": "Network TFTP Protocol",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Protocol",
           "name": "xsFrom",
           "package": "tftp",
@@ -1151,6 +1245,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHigh-level API for building simple TFTP Servers, currently restricted to answering read requests.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Server",
           "name": "Server",
           "package": "tftp",
@@ -1160,6 +1255,7 @@
         "index": {
           "description": "High-level API for building simple TFTP Servers currently restricted to answering read requests",
           "hierarchy": "Network TFTP Server",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Server",
           "name": "Server",
           "package": "tftp",
@@ -1174,6 +1270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a simple server that answers a single read request from a single client for\n a file, and return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e when the transfer was successfully completed,\n or 'Just \u003ca\u003emessage\u003c/a\u003e'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Server",
           "name": "singleBinary",
           "package": "tftp",
@@ -1184,6 +1281,7 @@
         "index": {
           "description": "Create simple server that answers single read request from single client for file and return Nothing when the transfer was successfully completed or Just message",
           "hierarchy": "Network TFTP Server",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Server",
           "name": "singleBinary",
           "normalized": "Maybe Int-\u003eFilePath-\u003eString-\u003eMaybe String-\u003eMaybe String-\u003eIO(Maybe String)",
@@ -1200,6 +1298,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon types used internally. Re-exports the \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e type to use as well as some monad transformer stuff, exceptions, logging, \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e and printf.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Types",
           "name": "Types",
           "package": "tftp",
@@ -1209,6 +1308,7 @@
         "index": {
           "description": "Common types used internally Re-exports the ByteString type to use as well as some monad transformer stuff exceptions logging Word and printf",
           "hierarchy": "Network TFTP Types",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Types",
           "name": "Types",
           "package": "tftp",
@@ -1223,6 +1323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for the Lazy ByteString that is used internally\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Types",
           "name": "ByteString",
           "package": "tftp",
@@ -1232,6 +1333,7 @@
         "index": {
           "description": "Alias for the Lazy ByteString that is used internally",
           "hierarchy": "Network TFTP Types",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Types",
           "name": "ByteString",
           "package": "tftp",
@@ -1246,6 +1348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for monads that can send/receive messages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Types",
           "name": "MessageIO",
           "package": "tftp",
@@ -1255,6 +1358,7 @@
         "index": {
           "description": "Type class for monads that can send receive messages",
           "hierarchy": "Network TFTP Types",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Types",
           "name": "MessageIO",
           "package": "tftp",
@@ -1269,6 +1373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCandy for ByteString.pack to not interfere with Prelude(drop)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Types",
           "name": "bdrop",
           "package": "tftp",
@@ -1279,6 +1384,7 @@
         "index": {
           "description": "Candy for ByteString.pack to not interfere with Prelude drop",
           "hierarchy": "Network TFTP Types",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Types",
           "name": "bdrop",
           "normalized": "Int-\u003eByteString-\u003eByteString",
@@ -1294,6 +1400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCandy for ByteString.length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Types",
           "name": "blength",
           "package": "tftp",
@@ -1304,6 +1411,7 @@
         "index": {
           "description": "Candy for ByteString.length",
           "hierarchy": "Network TFTP Types",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Types",
           "name": "blength",
           "normalized": "ByteString-\u003eInt",
@@ -1319,6 +1427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCandy for ByteString.take\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Types",
           "name": "btake",
           "package": "tftp",
@@ -1329,6 +1438,7 @@
         "index": {
           "description": "Candy for ByteString.take",
           "hierarchy": "Network TFTP Types",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Types",
           "name": "btake",
           "normalized": "Int-\u003eByteString-\u003eByteString",
@@ -1344,6 +1454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the address that \u003ccode\u003e\u003ca\u003ereceiveFrom\u003c/a\u003e\u003c/code\u003e receives on\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Types",
           "name": "localAddress",
           "package": "tftp",
@@ -1354,6 +1465,7 @@
         "index": {
           "description": "Return the address that receiveFrom receives on",
           "hierarchy": "Network TFTP Types",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Types",
           "name": "localAddress",
           "package": "tftp",
@@ -1368,6 +1480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a '[Word8]' into a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Types",
           "name": "pack",
           "package": "tftp",
@@ -1377,6 +1490,7 @@
         "index": {
           "description": "Convert Word8 into ByteString",
           "hierarchy": "Network TFTP Types",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Types",
           "name": "pack",
           "normalized": "[Word]-\u003eByteString",
@@ -1392,6 +1506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an entire file \u003cem\u003elazily\u003c/em\u003e into a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n The Handle will be held open until EOF is encountered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Types",
           "name": "readFile",
           "package": "tftp",
@@ -1401,6 +1516,7 @@
         "index": {
           "description": "Read an entire file lazily into ByteString The Handle will be held open until EOF is encountered",
           "hierarchy": "Network TFTP Types",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Types",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO ByteString",
@@ -1417,6 +1533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceive a message, failing if no message was receive after a timeout\n (measured in seconds)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Types",
           "name": "receiveFrom",
           "package": "tftp",
@@ -1427,6 +1544,7 @@
         "index": {
           "description": "Receive message failing if no message was receive after timeout measured in seconds",
           "hierarchy": "Network TFTP Types",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Types",
           "name": "receiveFrom",
           "normalized": "Maybe Int-\u003ea(Maybe(b,ByteString))",
@@ -1443,6 +1561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a message or return \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e when there was an error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Types",
           "name": "sendTo",
           "package": "tftp",
@@ -1453,6 +1572,7 @@
         "index": {
           "description": "Send message or return False when there was an error",
           "hierarchy": "Network TFTP Types",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Types",
           "name": "sendTo",
           "normalized": "a-\u003eByteString-\u003eb Bool",
@@ -1469,6 +1589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Converts a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to a '[Word8]'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.Types",
           "name": "unpack",
           "package": "tftp",
@@ -1478,6 +1599,7 @@
         "index": {
           "description": "Converts ByteString to Word8",
           "hierarchy": "Network TFTP Types",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.Types",
           "name": "unpack",
           "normalized": "ByteString-\u003e[Word]",
@@ -1493,6 +1615,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBuffered UDP IO utility module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.UDPIO",
           "name": "UDPIO",
           "package": "tftp",
@@ -1502,6 +1625,7 @@
         "index": {
           "description": "Buffered UDP IO utility module",
           "hierarchy": "Network TFTP UDPIO",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.UDPIO",
           "name": "UDPIO",
           "package": "tftp",
@@ -1516,6 +1640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNetwork address of a UDP sender/receiver\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.UDPIO",
           "name": "Address",
           "package": "tftp",
@@ -1525,6 +1650,7 @@
         "index": {
           "description": "Network address of UDP sender receiver",
           "hierarchy": "Network TFTP UDPIO",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.UDPIO",
           "name": "Address",
           "package": "tftp",
@@ -1539,6 +1665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad for UDP IO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.UDPIO",
           "name": "UDPIO",
           "package": "tftp",
@@ -1548,6 +1675,7 @@
         "index": {
           "description": "monad for UDP IO",
           "hierarchy": "Network TFTP UDPIO",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.UDPIO",
           "name": "UDPIO",
           "package": "tftp",
@@ -1561,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.UDPIO",
           "name": "UDPIO",
           "package": "tftp",
@@ -1570,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Network TFTP UDPIO",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.UDPIO",
           "name": "UDPIO",
           "package": "tftp",
@@ -1583,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.UDPIO",
           "name": "runUDPIO",
           "package": "tftp",
@@ -1592,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Network TFTP UDPIO",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.UDPIO",
           "name": "runUDPIO",
           "package": "tftp",
@@ -1606,6 +1738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute an action on a bound UDP port providing access to UDP IO via\n two functions that read and write data to/from UDP sockets.\n When the action returns, the socket is closed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:53 UTC 2014",
           "module": "Network.TFTP.UDPIO",
           "name": "udpIO",
           "package": "tftp",
@@ -1615,6 +1748,7 @@
         "index": {
           "description": "Execute an action on bound UDP port providing access to UDP IO via two functions that read and write data to from UDP sockets When the action returns the socket is closed",
           "hierarchy": "Network TFTP UDPIO",
+          "indexed": "2014-03-11T20:20:53",
           "module": "Network.TFTP.UDPIO",
           "name": "udpIO",
           "normalized": "Maybe String-\u003eMaybe String-\u003eUDPIO a-\u003eIO a",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "NumLazyByteString"
+        "phrase": "NumLazyByteString",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:37 UTC 2014",
           "module": "Data.ByteString.Lazy.Num",
           "name": "Num",
           "package": "NumLazyByteString",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Lazy Num",
+          "indexed": "2014-03-11T16:54:37",
           "module": "Data.ByteString.Lazy.Num",
           "name": "Num",
           "package": "NumLazyByteString",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:37 UTC 2014",
           "module": "Data.ByteString.Lazy.Num",
           "name": "NumBS",
           "package": "NumLazyByteString",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Lazy Num",
+          "indexed": "2014-03-11T16:54:37",
           "module": "Data.ByteString.Lazy.Num",
           "name": "NumBS",
           "package": "NumLazyByteString",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:37 UTC 2014",
           "module": "Data.ByteString.Lazy.Num",
           "name": "NBS",
           "package": "NumLazyByteString",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Lazy Num",
+          "indexed": "2014-03-11T16:54:37",
           "module": "Data.ByteString.Lazy.Num",
           "name": "NBS",
           "package": "NumLazyByteString",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:37 UTC 2014",
           "module": "Data.ByteString.Lazy.Num",
           "name": "numCompare",
           "package": "NumLazyByteString",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Lazy Num",
+          "indexed": "2014-03-11T16:54:37",
           "module": "Data.ByteString.Lazy.Num",
           "name": "numCompare",
           "normalized": "NumBS-\u003eNumBS-\u003eOrdering",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:37 UTC 2014",
           "module": "Data.ByteString.Lazy.Num",
           "name": "unNBS",
           "package": "NumLazyByteString",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Lazy Num",
+          "indexed": "2014-03-11T16:54:37",
           "module": "Data.ByteString.Lazy.Num",
           "name": "unNBS",
           "package": "NumLazyByteString",

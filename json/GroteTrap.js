@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GroteTrap"
+        "phrase": "GroteTrap",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Language type that is the core of GroteTrap.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "Language",
           "package": "GroteTrap",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The Language type that is the core of GroteTrap",
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "Language",
           "package": "GroteTrap",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFixity for unary operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "Fixity1",
           "package": "GroteTrap",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Fixity for unary operators",
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "Fixity1",
           "package": "GroteTrap",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFixity for infix binary operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "Fixity2",
           "package": "GroteTrap",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Fixity for infix binary operators",
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "Fixity2",
           "package": "GroteTrap",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of a function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "Function",
           "package": "GroteTrap",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Representation of function",
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "Function",
           "package": "GroteTrap",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage connects the syntax of identifiers, numbers, operators and functions with their semantics. GroteTrap is able to derive a parser and evaluator from a Language, as well as convert between source text selections and tree selections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "Language",
           "package": "GroteTrap",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Language connects the syntax of identifiers numbers operators and functions with their semantics GroteTrap is able to derive parser and evaluator from Language as well as convert between source text selections and tree selections",
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "Language",
           "package": "GroteTrap",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of an operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "Operator",
           "package": "GroteTrap",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Representation of an operator",
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "Operator",
           "package": "GroteTrap",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix associative operator that chains together many operands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "Assoc",
           "package": "GroteTrap",
@@ -167,6 +180,7 @@
         "index": {
           "description": "An infix associative operator that chains together many operands",
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "Assoc",
           "package": "GroteTrap",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA non-associative operator expecting two operands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "Binary",
           "package": "GroteTrap",
@@ -191,6 +206,7 @@
         "index": {
           "description": "non-associative operator expecting two operands",
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "Binary",
           "package": "GroteTrap",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "Function",
           "package": "GroteTrap",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "Function",
           "package": "GroteTrap",
@@ -227,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe operator associates to the left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "InfixL",
           "package": "GroteTrap",
@@ -237,6 +256,7 @@
         "index": {
           "description": "The operator associates to the left",
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "InfixL",
           "package": "GroteTrap",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe operator associates to the right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "InfixR",
           "package": "GroteTrap",
@@ -261,6 +282,7 @@
         "index": {
           "description": "The operator associates to the right",
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "InfixR",
           "package": "GroteTrap",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "Language",
           "package": "GroteTrap",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "Language",
           "package": "GroteTrap",
@@ -297,6 +321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe operator is written after its operand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "Postfix",
           "package": "GroteTrap",
@@ -307,6 +332,7 @@
         "index": {
           "description": "The operator is written after its operand",
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "Postfix",
           "package": "GroteTrap",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe operator is written before its operand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "Prefix",
           "package": "GroteTrap",
@@ -331,6 +358,7 @@
         "index": {
           "description": "The operator is written before its operand",
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "Prefix",
           "package": "GroteTrap",
@@ -345,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn operator expecting one operand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "Unary",
           "package": "GroteTrap",
@@ -355,6 +384,7 @@
         "index": {
           "description": "An operator expecting one operand",
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "Unary",
           "package": "GroteTrap",
@@ -369,6 +399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYelds the function with the specified name. Fails if there are no or several matching functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "findFunction",
           "package": "GroteTrap",
@@ -379,6 +410,7 @@
         "index": {
           "description": "Yelds the function with the specified name Fails if there are no or several matching functions",
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "findFunction",
           "normalized": "String-\u003e[Function a]-\u003eb(Function a)",
@@ -395,6 +427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efindOperator name p os\u003c/code\u003e yields the operator from \u003ccode\u003eos\u003c/code\u003e that matches the predicate \u003ccode\u003ep\u003c/code\u003e and has token \u003ccode\u003ename\u003c/code\u003e. Fails if there are no or several matching operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "findOperator",
           "package": "GroteTrap",
@@ -405,6 +438,7 @@
         "index": {
           "description": "findOperator name os yields the operator from os that matches the predicate and has token name Fails if there are no or several matching operators",
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "findOperator",
           "normalized": "String-\u003e(Operator a-\u003eBool)-\u003e[Operator a]-\u003eb(Operator a)",
@@ -420,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "fnName",
           "package": "GroteTrap",
@@ -429,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "fnName",
           "package": "GroteTrap",
@@ -442,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "fnSem",
           "package": "GroteTrap",
@@ -451,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "fnSem",
           "normalized": "[a]-\u003ea",
@@ -467,6 +505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts a unary function to a \u003ccode\u003e\u003ca\u003eFunction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "function1",
           "package": "GroteTrap",
@@ -477,6 +516,7 @@
         "index": {
           "description": "Lifts unary function to Function",
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "function1",
           "normalized": "(a-\u003ea)-\u003eString-\u003eFunction a",
@@ -492,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts a binary function to a \u003ccode\u003e\u003ca\u003eFunction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "function2",
           "package": "GroteTrap",
@@ -502,6 +543,7 @@
         "index": {
           "description": "Lifts binary function to Function",
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "function2",
           "normalized": "(a-\u003ea-\u003ea)-\u003eString-\u003eFunction a",
@@ -516,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "functions",
           "package": "GroteTrap",
@@ -525,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "functions",
           "normalized": "[Function a]",
@@ -539,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "isAssoc",
           "package": "GroteTrap",
@@ -548,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "isAssoc",
           "normalized": "Operator a-\u003eBool",
@@ -563,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "isBinary",
           "package": "GroteTrap",
@@ -572,6 +619,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "isBinary",
           "normalized": "Operator a-\u003eBool",
@@ -587,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "isUnary",
           "package": "GroteTrap",
@@ -596,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "isUnary",
           "normalized": "Operator a-\u003eBool",
@@ -612,6 +662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty language. Use this as the starting base of your languages, setting only those fields that are of importance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "language",
           "package": "GroteTrap",
@@ -622,6 +673,7 @@
         "index": {
           "description": "An empty language Use this as the starting base of your languages setting only those fields that are of importance",
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "language",
           "package": "GroteTrap",
@@ -634,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "number",
           "package": "GroteTrap",
@@ -643,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "number",
           "normalized": "Int-\u003ea",
@@ -657,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "opFixity1",
           "package": "GroteTrap",
@@ -666,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "opFixity1",
           "package": "GroteTrap",
@@ -679,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "opFixity2",
           "package": "GroteTrap",
@@ -688,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "opFixity2",
           "package": "GroteTrap",
@@ -701,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "opPrio",
           "package": "GroteTrap",
@@ -710,6 +769,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "opPrio",
           "package": "GroteTrap",
@@ -723,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "opSem1",
           "package": "GroteTrap",
@@ -732,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "opSem1",
           "normalized": "a-\u003ea",
@@ -747,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "opSem2",
           "package": "GroteTrap",
@@ -756,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "opSem2",
           "normalized": "a-\u003ea-\u003ea",
@@ -771,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "opSemN",
           "package": "GroteTrap",
@@ -780,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "opSemN",
           "normalized": "[a]-\u003ea",
@@ -795,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "opToken",
           "package": "GroteTrap",
@@ -804,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "opToken",
           "package": "GroteTrap",
@@ -817,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "operators",
           "package": "GroteTrap",
@@ -826,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "operators",
           "normalized": "[Operator a]",
@@ -840,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Language",
           "name": "variable",
           "package": "GroteTrap",
@@ -849,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Language",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Language",
           "name": "variable",
           "normalized": "String-\u003ea",
@@ -864,6 +936,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDeriving a lexer from a \u003ccode\u003e\u003ca\u003eLanguage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Lexer",
           "name": "Lexer",
           "package": "GroteTrap",
@@ -873,6 +946,7 @@
         "index": {
           "description": "Deriving lexer from Language",
           "hierarchy": "Language GroteTrap Lexer",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Lexer",
           "name": "Lexer",
           "package": "GroteTrap",
@@ -887,6 +961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tokenizer produces a list of tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Lexer",
           "name": "Token",
           "package": "GroteTrap",
@@ -896,6 +971,7 @@
         "index": {
           "description": "The tokenizer produces list of tokens",
           "hierarchy": "Language GroteTrap Lexer",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Lexer",
           "name": "Token",
           "package": "GroteTrap",
@@ -909,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Lexer",
           "name": "TokenPos",
           "package": "GroteTrap",
@@ -917,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Lexer",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Lexer",
           "name": "TokenPos",
           "package": "GroteTrap",
@@ -930,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Lexer",
           "name": "TClose",
           "package": "GroteTrap",
@@ -939,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Lexer",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Lexer",
           "name": "TClose",
           "package": "GroteTrap",
@@ -952,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Lexer",
           "name": "TComma",
           "package": "GroteTrap",
@@ -961,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Lexer",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Lexer",
           "name": "TComma",
           "package": "GroteTrap",
@@ -974,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Lexer",
           "name": "TFunction",
           "package": "GroteTrap",
@@ -983,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Lexer",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Lexer",
           "name": "TFunction",
           "package": "GroteTrap",
@@ -996,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Lexer",
           "name": "TId",
           "package": "GroteTrap",
@@ -1005,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Lexer",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Lexer",
           "name": "TId",
           "package": "GroteTrap",
@@ -1018,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Lexer",
           "name": "TInt",
           "package": "GroteTrap",
@@ -1027,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Lexer",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Lexer",
           "name": "TInt",
           "package": "GroteTrap",
@@ -1040,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Lexer",
           "name": "TOpen",
           "package": "GroteTrap",
@@ -1049,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Lexer",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Lexer",
           "name": "TOpen",
           "package": "GroteTrap",
@@ -1062,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Lexer",
           "name": "TOperator",
           "package": "GroteTrap",
@@ -1071,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Lexer",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Lexer",
           "name": "TOperator",
           "package": "GroteTrap",
@@ -1084,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Lexer",
           "name": "TWhite",
           "package": "GroteTrap",
@@ -1093,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Lexer",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Lexer",
           "name": "TWhite",
           "package": "GroteTrap",
@@ -1107,6 +1201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the token is whitespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Lexer",
           "name": "isWhite",
           "package": "GroteTrap",
@@ -1117,6 +1212,7 @@
         "index": {
           "description": "Whether the token is whitespace",
           "hierarchy": "Language GroteTrap Lexer",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Lexer",
           "name": "isWhite",
           "normalized": "Token-\u003eBool",
@@ -1159,6 +1255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen given a language, transforms a list of characters into a list of tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Lexer",
           "name": "tokenize",
           "package": "GroteTrap",
@@ -1169,6 +1266,7 @@
         "index": {
           "description": "When given language transforms list of characters into list of tokens",
           "hierarchy": "Language GroteTrap Lexer",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Lexer",
           "name": "tokenize",
           "normalized": "Language a-\u003eString-\u003eb[TokenPos]",
@@ -1183,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Range",
           "name": "Range",
           "package": "GroteTrap",
@@ -1191,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Range",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Range",
           "name": "Range",
           "package": "GroteTrap",
@@ -1205,6 +1305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003ePos\u003c/code\u003e is a position in between two elements in a list. For example, position \u003ccode\u003e0\u003c/code\u003e marks the beginning of the list, and position \u003ccode\u003elength list\u003c/code\u003e marks the end of the list. There are \u003ccode\u003en + 1\u003c/code\u003e valid positions for a list of length \u003ccode\u003en\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Range",
           "name": "Pos",
           "package": "GroteTrap",
@@ -1214,6 +1315,7 @@
         "index": {
           "description": "Pos is position in between two elements in list For example position marks the beginning of the list and position length list marks the end of the list There are valid positions for list of length",
           "hierarchy": "Language GroteTrap Range",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Range",
           "name": "Pos",
           "package": "GroteTrap",
@@ -1228,6 +1330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA range's positions mark the begin and end of a sublist, respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Range",
           "name": "Range",
           "package": "GroteTrap",
@@ -1237,6 +1340,7 @@
         "index": {
           "description": "range positions mark the begin and end of sublist respectively",
           "hierarchy": "Language GroteTrap Range",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Range",
           "name": "Range",
           "package": "GroteTrap",
@@ -1251,6 +1355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSomething that knows its range as sublist in a larger list. Minimal complete definition: either \u003ccode\u003e\u003ca\u003erange\u003c/a\u003e\u003c/code\u003e or both \u003ccode\u003e\u003ca\u003ebegin\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Range",
           "name": "Ranged",
           "package": "GroteTrap",
@@ -1260,6 +1365,7 @@
         "index": {
           "description": "Something that knows its range as sublist in larger list Minimal complete definition either range or both begin and end",
           "hierarchy": "Language GroteTrap Range",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Range",
           "name": "Ranged",
           "package": "GroteTrap",
@@ -1274,6 +1380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields the element's begin position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Range",
           "name": "begin",
           "package": "GroteTrap",
@@ -1284,6 +1391,7 @@
         "index": {
           "description": "Yields the element begin position",
           "hierarchy": "Language GroteTrap Range",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Range",
           "name": "begin",
           "normalized": "a-\u003ePos",
@@ -1299,6 +1407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edistRange (b1, e1) (b2, e2)\u003c/code\u003e is defined as \u003ccode\u003e|b1 - b2| + |e1 - e2|\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Range",
           "name": "distRange",
           "package": "GroteTrap",
@@ -1309,6 +1418,7 @@
         "index": {
           "description": "distRange b1 e1 b2 e2 is defined as b1 b2 e1 e2",
           "hierarchy": "Language GroteTrap Range",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Range",
           "name": "distRange",
           "normalized": "Range-\u003eRange-\u003eInt",
@@ -1325,6 +1435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields the element's end position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Range",
           "name": "end",
           "package": "GroteTrap",
@@ -1335,6 +1446,7 @@
         "index": {
           "description": "Yields the element end position",
           "hierarchy": "Language GroteTrap Range",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Range",
           "name": "end",
           "normalized": "a-\u003ePos",
@@ -1350,6 +1462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether a position falls within a range, including the range's edges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Range",
           "name": "inRange",
           "package": "GroteTrap",
@@ -1360,6 +1473,7 @@
         "index": {
           "description": "Whether position falls within range including the range edges",
           "hierarchy": "Language GroteTrap Range",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Range",
           "name": "inRange",
           "normalized": "Pos-\u003eRange-\u003eBool",
@@ -1376,6 +1490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields whether the second argument completely falls within the first argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Range",
           "name": "includes",
           "package": "GroteTrap",
@@ -1386,6 +1501,7 @@
         "index": {
           "description": "Yields whether the second argument completely falls within the first argument",
           "hierarchy": "Language GroteTrap Range",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Range",
           "name": "includes",
           "normalized": "Range-\u003eRange-\u003eBool",
@@ -1401,6 +1517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields the element's range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Range",
           "name": "range",
           "package": "GroteTrap",
@@ -1411,6 +1528,7 @@
         "index": {
           "description": "Yields the element range",
           "hierarchy": "Language GroteTrap Range",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Range",
           "name": "range",
           "normalized": "a-\u003eRange",
@@ -1426,6 +1544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA range's size is the number of elements it contains.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Range",
           "name": "size",
           "package": "GroteTrap",
@@ -1436,6 +1555,7 @@
         "index": {
           "description": "range size is the number of elements it contains",
           "hierarchy": "Language GroteTrap Range",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Range",
           "name": "size",
           "normalized": "Range-\u003eInt",
@@ -1451,6 +1571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eunionRange x y\u003c/code\u003e yields the smallest range z such that \u003ccode\u003ex `\u003ccode\u003e\u003ca\u003eincludes\u003c/a\u003e\u003c/code\u003e` z\u003c/code\u003e and \u003ccode\u003ey `\u003ccode\u003e\u003ca\u003eincludes\u003c/a\u003e\u003c/code\u003e` z\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Range",
           "name": "unionRange",
           "package": "GroteTrap",
@@ -1461,6 +1582,7 @@
         "index": {
           "description": "unionRange yields the smallest range such that includes and includes",
           "hierarchy": "Language GroteTrap Range",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Range",
           "name": "unionRange",
           "normalized": "Range-\u003eRange-\u003eRange",
@@ -1477,6 +1599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA range is valid if its positions are nonnegative and begin \u003c end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Range",
           "name": "validRange",
           "package": "GroteTrap",
@@ -1487,6 +1610,7 @@
         "index": {
           "description": "range is valid if its positions are nonnegative and begin end",
           "hierarchy": "Language GroteTrap Range",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Range",
           "name": "validRange",
           "normalized": "Range-\u003eBool",
@@ -1502,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.ShowTree",
           "name": "ShowTree",
           "package": "GroteTrap",
@@ -1510,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap ShowTree",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.ShowTree",
           "name": "ShowTree",
           "package": "GroteTrap",
@@ -1524,6 +1650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites showTree's result to stdout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.ShowTree",
           "name": "printTree",
           "package": "GroteTrap",
@@ -1534,6 +1661,7 @@
         "index": {
           "description": "Writes showTree result to stdout",
           "hierarchy": "Language GroteTrap ShowTree",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.ShowTree",
           "name": "printTree",
           "normalized": "a-\u003eIO()",
@@ -1550,6 +1678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnparses a selectable tree type to a pretty tree representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.ShowTree",
           "name": "showTree",
           "package": "GroteTrap",
@@ -1560,6 +1689,7 @@
         "index": {
           "description": "Unparses selectable tree type to pretty tree representation",
           "hierarchy": "Language GroteTrap ShowTree",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.ShowTree",
           "name": "showTree",
           "normalized": "a-\u003eString",
@@ -1576,6 +1706,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA class for tree types and representations of selections on tree types, as well as functions for converting between text and tree selections.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "Trees",
           "package": "GroteTrap",
@@ -1585,6 +1716,7 @@
         "index": {
           "description": "class for tree types and representations of selections on tree types as well as functions for converting between text and tree selections",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "Trees",
           "package": "GroteTrap",
@@ -1599,6 +1731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNavigation transforms one path to another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "Nav",
           "package": "GroteTrap",
@@ -1608,6 +1741,7 @@
         "index": {
           "description": "Navigation transforms one path to another",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "Nav",
           "package": "GroteTrap",
@@ -1622,6 +1756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA path in a tree. Each integer denotes the selection of a child; these indices are 0-relative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "Path",
           "package": "GroteTrap",
@@ -1631,6 +1766,7 @@
         "index": {
           "description": "path in tree Each integer denotes the selection of child these indices are relative",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "Path",
           "package": "GroteTrap",
@@ -1645,6 +1781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelectable trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "Selectable",
           "package": "GroteTrap",
@@ -1654,6 +1791,7 @@
         "index": {
           "description": "Selectable trees",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "Selectable",
           "package": "GroteTrap",
@@ -1668,6 +1806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTree types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "Tree",
           "package": "GroteTrap",
@@ -1677,6 +1816,7 @@
         "index": {
           "description": "Tree types",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "Tree",
           "package": "GroteTrap",
@@ -1691,6 +1831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelection in a tree. The path indicates the left side of the selection; the int tells how many siblings to the right are included in the selection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "TreeSelection",
           "package": "GroteTrap",
@@ -1700,6 +1841,7 @@
         "index": {
           "description": "Selection in tree The path indicates the left side of the selection the int tells how many siblings to the right are included in the selection",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "TreeSelection",
           "package": "GroteTrap",
@@ -1714,6 +1856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerates all possible selections of a tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "allSelections",
           "package": "GroteTrap",
@@ -1724,6 +1867,7 @@
         "index": {
           "description": "Enumerates all possible selections of tree",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "allSelections",
           "normalized": "a-\u003e[TreeSelection]",
@@ -1740,6 +1884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTells whether complete subranges of children may be selected in this tree node. If not, valid TreeSelections in this tree always have a second element \u003ccode\u003e0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "allowSubranges",
           "package": "GroteTrap",
@@ -1750,6 +1895,7 @@
         "index": {
           "description": "Tells whether complete subranges of children may be selected in this tree node If not valid TreeSelections in this tree always have second element",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "allowSubranges",
           "normalized": "a-\u003eBool",
@@ -1766,6 +1912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMoves down into a child.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "child",
           "package": "GroteTrap",
@@ -1776,6 +1923,7 @@
         "index": {
           "description": "Moves down into child",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "child",
           "normalized": "a-\u003eInt-\u003eb a",
@@ -1791,6 +1939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields this tree's subtrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "children",
           "package": "GroteTrap",
@@ -1801,6 +1950,7 @@
         "index": {
           "description": "Yields this tree subtrees",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "children",
           "normalized": "a-\u003e[a]",
@@ -1816,6 +1966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields the depth of the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "depth",
           "package": "GroteTrap",
@@ -1826,6 +1977,7 @@
         "index": {
           "description": "Yields the depth of the tree",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "depth",
           "normalized": "a-\u003eInt",
@@ -1841,6 +1993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove down into first child node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "down",
           "package": "GroteTrap",
@@ -1851,6 +2004,7 @@
         "index": {
           "description": "Move down into first child node",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "down",
           "package": "GroteTrap",
@@ -1864,6 +2018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePre-order depth-first traversal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "flatten",
           "package": "GroteTrap",
@@ -1874,6 +2029,7 @@
         "index": {
           "description": "Pre-order depth-first traversal",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "flatten",
           "normalized": "a-\u003e[a]",
@@ -1889,6 +2045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFollows a path in a tree, returning the result in a monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "follow",
           "package": "GroteTrap",
@@ -1899,6 +2056,7 @@
         "index": {
           "description": "Follows path in tree returning the result in monad",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "follow",
           "normalized": "a-\u003ePath-\u003eb a",
@@ -1914,6 +2072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove down into the nth child node. If \u003ccode\u003en\u003c/code\u003e is negative, the leftmost child is selected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "into",
           "package": "GroteTrap",
@@ -1924,6 +2083,7 @@
         "index": {
           "description": "Move down into the nth child node If is negative the leftmost child is selected",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "into",
           "normalized": "Int-\u003eNav",
@@ -1939,6 +2099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTells whether the text selection corresponds to a tree selection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "isValidRange",
           "package": "GroteTrap",
@@ -1949,6 +2110,7 @@
         "index": {
           "description": "Tells whether the text selection corresponds to tree selection",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "isValidRange",
           "normalized": "a-\u003eRange-\u003eBool",
@@ -1965,6 +2127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove left one sibling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "left",
           "package": "GroteTrap",
@@ -1975,6 +2138,7 @@
         "index": {
           "description": "Move left one sibling",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "left",
           "package": "GroteTrap",
@@ -1988,6 +2152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the path to the deepest descendant whose range contains the specified position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "posToPath",
           "package": "GroteTrap",
@@ -1998,6 +2163,7 @@
         "index": {
           "description": "Returns the path to the deepest descendant whose range contains the specified position",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "posToPath",
           "normalized": "a-\u003ePos-\u003eb Path",
@@ -2014,6 +2180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a specified range to a corresponding selection and returns it in a monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "rangeToSelection",
           "package": "GroteTrap",
@@ -2024,6 +2191,7 @@
         "index": {
           "description": "Converts specified range to corresponding selection and returns it in monad",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "rangeToSelection",
           "normalized": "a-\u003eRange-\u003eb TreeSelection",
@@ -2040,6 +2208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erepair\u003c/code\u003e uses \u003ccode\u003e\u003ca\u003edistRange\u003c/a\u003e\u003c/code\u003e as cost function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "repair",
           "package": "GroteTrap",
@@ -2050,6 +2219,7 @@
         "index": {
           "description": "repair uses distRange as cost function",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "repair",
           "normalized": "a-\u003eRange-\u003eRange",
@@ -2065,6 +2235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes \u003ccode\u003esuggestBy\u003c/code\u003e's first suggestion and yields its range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "repairBy",
           "package": "GroteTrap",
@@ -2075,6 +2246,7 @@
         "index": {
           "description": "Takes suggestBy first suggestion and yields its range",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "repairBy",
           "normalized": "(Range-\u003eRange-\u003eInt)-\u003ea-\u003eRange-\u003eRange",
@@ -2091,6 +2263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove right one sibling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "right",
           "package": "GroteTrap",
@@ -2101,6 +2274,7 @@
         "index": {
           "description": "Move right one sibling",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "right",
           "package": "GroteTrap",
@@ -2114,6 +2288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eroot\u003c/code\u003e is the empty path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "root",
           "package": "GroteTrap",
@@ -2124,6 +2299,7 @@
         "index": {
           "description": "root is the empty path",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "root",
           "package": "GroteTrap",
@@ -2137,6 +2313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects part of a tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "select",
           "package": "GroteTrap",
@@ -2147,6 +2324,7 @@
         "index": {
           "description": "Selects part of tree",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "select",
           "normalized": "a-\u003eTreeSelection-\u003eb[a]",
@@ -2162,6 +2340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields all ancestors at the specified depth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "selectDepth",
           "package": "GroteTrap",
@@ -2172,6 +2351,7 @@
         "index": {
           "description": "Yields all ancestors at the specified depth",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "selectDepth",
           "normalized": "Int-\u003ea-\u003e[a]",
@@ -2188,6 +2368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the range of a valid selection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "selectionToRange",
           "package": "GroteTrap",
@@ -2198,6 +2379,7 @@
         "index": {
           "description": "Computes the range of valid selection",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "selectionToRange",
           "normalized": "a-\u003eTreeSelection-\u003eb Range",
@@ -2214,6 +2396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove \u003ccode\u003en\u003c/code\u003e siblings to the right. \u003ccode\u003en\u003c/code\u003e can be negative. If the new child index becomes negative, the leftmost child is selected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "sibling",
           "package": "GroteTrap",
@@ -2224,6 +2407,7 @@
         "index": {
           "description": "Move siblings to the right can be negative If the new child index becomes negative the leftmost child is selected",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "sibling",
           "normalized": "Int-\u003eNav",
@@ -2239,6 +2423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esuggest\u003c/code\u003e uses \u003ccode\u003e\u003ca\u003edistRange\u003c/a\u003e\u003c/code\u003e as cost function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "suggest",
           "package": "GroteTrap",
@@ -2249,6 +2434,7 @@
         "index": {
           "description": "suggest uses distRange as cost function",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "suggest",
           "normalized": "a-\u003eRange-\u003e[TreeSelection]",
@@ -2264,6 +2450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields all possible selections, ordered by distance to the specified range, closest first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "suggestBy",
           "package": "GroteTrap",
@@ -2274,6 +2461,7 @@
         "index": {
           "description": "Yields all possible selections ordered by distance to the specified range closest first",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "suggestBy",
           "normalized": "(Range-\u003eRange-\u003eInt)-\u003ea-\u003eRange-\u003e[TreeSelection]",
@@ -2290,6 +2478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove up to parent node. Moving up from root has no effect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Trees",
           "name": "up",
           "package": "GroteTrap",
@@ -2300,6 +2489,7 @@
         "index": {
           "description": "Move up to parent node Moving up from root has no effect",
           "hierarchy": "Language GroteTrap Trees",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Trees",
           "name": "up",
           "package": "GroteTrap",
@@ -2313,6 +2503,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Unparse type class and its \u003ccode\u003e\u003ca\u003eParseTree\u003c/a\u003e\u003c/code\u003e instance, as well as some text manipulation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Unparse",
           "name": "Unparse",
           "package": "GroteTrap",
@@ -2322,6 +2513,7 @@
         "index": {
           "description": "The Unparse type class and its ParseTree instance as well as some text manipulation",
           "hierarchy": "Language GroteTrap Unparse",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Unparse",
           "name": "Unparse",
           "package": "GroteTrap",
@@ -2336,6 +2528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes that are unparsable. Unparsing is like prettyprinting, except that instead of pretty source the original source code is retrieved. This means unparsing is only possible for values that were the result of an earlier parse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Unparse",
           "name": "Unparse",
           "package": "GroteTrap",
@@ -2345,6 +2538,7 @@
         "index": {
           "description": "Types that are unparsable Unparsing is like prettyprinting except that instead of pretty source the original source code is retrieved This means unparsing is only possible for values that were the result of an earlier parse",
           "hierarchy": "Language GroteTrap Unparse",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Unparse",
           "name": "Unparse",
           "package": "GroteTrap",
@@ -2359,6 +2553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge folds many strings \u003ccode\u003e\u003ca\u003eover\u003c/a\u003e\u003c/code\u003e each other.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Unparse",
           "name": "merge",
           "package": "GroteTrap",
@@ -2369,6 +2564,7 @@
         "index": {
           "description": "Merge folds many strings over each other",
           "hierarchy": "Language GroteTrap Unparse",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Unparse",
           "name": "merge",
           "normalized": "[String]-\u003eString",
@@ -2384,6 +2580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eover upper lower\u003c/code\u003e places \u003ccode\u003eupper\u003c/code\u003e over \u003ccode\u003elower\u003c/code\u003e. The resulting string has the same characters as \u003ccode\u003eupper\u003c/code\u003e does, except where \u003ccode\u003eupper\u003c/code\u003e contains spaces; at those positions, the character from \u003ccode\u003elower\u003c/code\u003e shows. If \u003ccode\u003elower\u003c/code\u003e is longer than \u003ccode\u003eupper\u003c/code\u003e, \u003ccode\u003eupper\u003c/code\u003e is padded with enough spaces to show all rest of \u003ccode\u003elower\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Unparse",
           "name": "over",
           "package": "GroteTrap",
@@ -2394,6 +2591,7 @@
         "index": {
           "description": "over upper lower places upper over lower The resulting string has the same characters as upper does except where upper contains spaces at those positions the character from lower shows If lower is longer than upper upper is padded with enough spaces to show all rest of lower",
           "hierarchy": "Language GroteTrap Unparse",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Unparse",
           "name": "over",
           "normalized": "String-\u003eString-\u003eString",
@@ -2408,6 +2606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Unparse",
           "name": "unparse",
           "package": "GroteTrap",
@@ -2417,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap Unparse",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Unparse",
           "name": "unparse",
           "normalized": "a-\u003eString",
@@ -2432,6 +2632,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtility functions.\n\u003c/p\u003e\u003cp\u003eThis module re-exports module Control.Monad.Error so that \u003ccode\u003e\u003ca\u003efromError\u003c/a\u003e\u003c/code\u003e can be used as \u003ccode\u003eMonad m =\u003e m a -\u003e a\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Util",
           "name": "Util",
           "package": "GroteTrap",
@@ -2441,6 +2642,7 @@
         "index": {
           "description": "Utility functions This module re-exports module Control.Monad.Error so that fromError can be used as Monad",
           "hierarchy": "Language GroteTrap Util",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Util",
           "name": "Util",
           "package": "GroteTrap",
@@ -2455,6 +2657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither returns the value or throws an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap.Util",
           "name": "fromError",
           "package": "GroteTrap",
@@ -2465,6 +2668,7 @@
         "index": {
           "description": "Either returns the value or throws an exception",
           "hierarchy": "Language GroteTrap Util",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap.Util",
           "name": "fromError",
           "normalized": "Either String a-\u003ea",
@@ -2480,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap",
           "name": "GroteTrap",
           "package": "GroteTrap",
@@ -2488,6 +2693,7 @@
         },
         "index": {
           "hierarchy": "Language GroteTrap",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap",
           "name": "GroteTrap",
           "package": "GroteTrap",
@@ -2502,6 +2708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic parse tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap",
           "name": "ParseTree",
           "package": "GroteTrap",
@@ -2511,6 +2718,7 @@
         "index": {
           "description": "generic parse tree",
           "hierarchy": "Language GroteTrap",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap",
           "name": "ParseTree",
           "package": "GroteTrap",
@@ -2525,6 +2733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates part of a parse tree. The relevant part is indicated by the range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap",
           "name": "evalRange",
           "package": "GroteTrap",
@@ -2535,6 +2744,7 @@
         "index": {
           "description": "Evaluates part of parse tree The relevant part is indicated by the range",
           "hierarchy": "Language GroteTrap",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap",
           "name": "evalRange",
           "normalized": "Language a-\u003eParseTree-\u003eRange-\u003eb[a]",
@@ -2551,6 +2761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates a parse tree from a language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap",
           "name": "evaluate",
           "package": "GroteTrap",
@@ -2561,6 +2772,7 @@
         "index": {
           "description": "Evaluates parse tree from language",
           "hierarchy": "Language GroteTrap",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap",
           "name": "evaluate",
           "normalized": "Language a-\u003eParseTree-\u003ea",
@@ -2576,6 +2788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a language and a string, yields the parse tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap",
           "name": "parseSentence",
           "package": "GroteTrap",
@@ -2586,6 +2799,7 @@
         "index": {
           "description": "Given language and string yields the parse tree",
           "hierarchy": "Language GroteTrap",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap",
           "name": "parseSentence",
           "normalized": "Language a-\u003eString-\u003eb ParseTree",
@@ -2602,6 +2816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a language and a string, parses and evaluates the string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap",
           "name": "readExpression",
           "package": "GroteTrap",
@@ -2612,6 +2827,7 @@
         "index": {
           "description": "Given language and string parses and evaluates the string",
           "hierarchy": "Language GroteTrap",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap",
           "name": "readExpression",
           "normalized": "Language a-\u003eString-\u003ea",
@@ -2628,6 +2844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a language and a string, yields the parse tree or throws an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:55 UTC 2014",
           "module": "Language.GroteTrap",
           "name": "readParseTree",
           "package": "GroteTrap",
@@ -2638,6 +2855,7 @@
         "index": {
           "description": "Given language and string yields the parse tree or throws an exception",
           "hierarchy": "Language GroteTrap",
+          "indexed": "2014-03-11T16:43:55",
           "module": "Language.GroteTrap",
           "name": "readParseTree",
           "normalized": "Language a-\u003eString-\u003eParseTree",

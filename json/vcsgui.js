@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vcsgui"
+        "phrase": "vcsgui",
+        "type": "phrase"
       },
       "type": "context"
     }

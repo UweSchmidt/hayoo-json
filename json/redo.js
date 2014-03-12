@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "redo"
+        "phrase": "redo",
+        "type": "phrase"
       },
       "type": "context"
     }

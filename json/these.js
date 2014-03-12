@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "these"
+        "phrase": "these",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHybrid error/writer monad class that allows both accumulating outputs and \n aborting computation with a final output.\n\u003c/p\u003e\u003cp\u003eThe expected use case is for computations with a notion of fatal vs. \n non-fatal errors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Chronicle.Class",
           "name": "Class",
           "package": "these",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Hybrid error writer monad class that allows both accumulating outputs and aborting computation with final output The expected use case is for computations with notion of fatal vs non-fatal errors",
           "hierarchy": "Control Monad Chronicle Class",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Chronicle.Class",
           "name": "Class",
           "package": "these",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eChronicleT\u003c/a\u003e\u003c/code\u003e monad transformer.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function produces a computation with no output, and \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e\n   combines multiple outputs with \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Chronicle.Class",
           "name": "ChronicleT",
           "package": "these",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The ChronicleT monad transformer The return function produces computation with no output and combines multiple outputs with mappend",
           "hierarchy": "Control Monad Chronicle Class",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Chronicle.Class",
           "name": "ChronicleT",
           "package": "these",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Chronicle.Class",
           "name": "MonadChronicle",
           "package": "these",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Chronicle Class",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Chronicle.Class",
           "name": "MonadChronicle",
           "package": "these",
@@ -109,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eabsolve\u003c/a\u003e\u003c/code\u003e x m\u003c/code\u003e is an action that executes the action \u003ccode\u003em\u003c/code\u003e and discards any\n   record it had. The default value \u003ccode\u003ex\u003c/code\u003e will be used if \u003ccode\u003em\u003c/code\u003e ended via \n   \u003ccode\u003e\u003ca\u003econfess\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Chronicle.Class",
           "name": "absolve",
           "package": "these",
@@ -119,6 +126,7 @@
         "index": {
           "description": "absolve is an action that executes the action and discards any record it had The default value will be used if ended via confess",
           "hierarchy": "Control Monad Chronicle Class",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Chronicle.Class",
           "name": "absolve",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -134,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003echronicle\u003c/a\u003e\u003c/code\u003e m\u003c/code\u003e lifts a plain 'These c a' value into a \u003ccode\u003e\u003ca\u003eMonadChronicle\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Chronicle.Class",
           "name": "chronicle",
           "package": "these",
@@ -144,6 +153,7 @@
         "index": {
           "description": "chronicle lifts plain These value into MonadChronicle instance",
           "hierarchy": "Control Monad Chronicle Class",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Chronicle.Class",
           "name": "chronicle",
           "normalized": "These a b-\u003ec b",
@@ -159,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003econdemn\u003c/a\u003e\u003c/code\u003e m\u003c/code\u003e is an action that executes the action \u003ccode\u003em\u003c/code\u003e and keeps its value\n   only if it had no record. Otherwise, the value (if any) will be discarded\n   and only the record kept.\n\u003c/p\u003e\u003cp\u003eThis can be seen as converting non-fatal errors into fatal ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Chronicle.Class",
           "name": "condemn",
           "package": "these",
@@ -169,6 +180,7 @@
         "index": {
           "description": "condemn is an action that executes the action and keeps its value only if it had no record Otherwise the value if any will be discarded and only the record kept This can be seen as converting non-fatal errors into fatal ones",
           "hierarchy": "Control Monad Chronicle Class",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Chronicle.Class",
           "name": "condemn",
           "normalized": "a b-\u003ea b",
@@ -184,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003econfess\u003c/a\u003e\u003c/code\u003e c\u003c/code\u003e is an action that ends with a final output \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003ethrowError\u003c/a\u003e\u003c/code\u003e for the \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Chronicle.Class",
           "name": "confess",
           "package": "these",
@@ -194,6 +207,7 @@
         "index": {
           "description": "confess is an action that ends with final output Equivalent to throwError for the Error monad",
           "hierarchy": "Control Monad Chronicle Class",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Chronicle.Class",
           "name": "confess",
           "normalized": "a-\u003eb c",
@@ -209,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003edictate\u003c/a\u003e\u003c/code\u003e c\u003c/code\u003e is an action that records the output \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003etell\u003c/a\u003e\u003c/code\u003e for the \u003ccode\u003e\u003ca\u003eWriter\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Chronicle.Class",
           "name": "dictate",
           "package": "these",
@@ -219,6 +234,7 @@
         "index": {
           "description": "dictate is an action that records the output Equivalent to tell for the Writer monad",
           "hierarchy": "Control Monad Chronicle Class",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Chronicle.Class",
           "name": "dictate",
           "normalized": "a-\u003eb()",
@@ -234,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ememento\u003c/a\u003e\u003c/code\u003e m\u003c/code\u003e is an action that executes the action \u003ccode\u003em\u003c/code\u003e, returning either\n   its record if it ended with \u003ccode\u003e\u003ca\u003econfess\u003c/a\u003e\u003c/code\u003e, or its final value otherwise, with\n   any record added to the current record.\n\u003c/p\u003e\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003ecatchError\u003c/a\u003e\u003c/code\u003e in the \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e monad, but with a notion of \n   non-fatal errors (which are accumulated) vs. fatal errors (which are caught\n   without accumulating).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Chronicle.Class",
           "name": "memento",
           "package": "these",
@@ -244,6 +261,7 @@
         "index": {
           "description": "memento is an action that executes the action returning either its record if it ended with confess or its final value otherwise with any record added to the current record Similar to catchError in the Error monad but with notion of non-fatal errors which are accumulated vs fatal errors which are caught without accumulating",
           "hierarchy": "Control Monad Chronicle Class",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Chronicle.Class",
           "name": "memento",
           "normalized": "a b-\u003ea(Either c b)",
@@ -259,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eretcon\u003c/a\u003e\u003c/code\u003e f m\u003c/code\u003e is an action that executes the action \u003ccode\u003em\u003c/code\u003e and applies the\n   function \u003ccode\u003ef\u003c/code\u003e to its output, leaving the return value unchanged.\n\u003c/p\u003e\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003ecensor\u003c/a\u003e\u003c/code\u003e for the \u003ccode\u003e\u003ca\u003eWriter\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Chronicle.Class",
           "name": "retcon",
           "package": "these",
@@ -269,6 +288,7 @@
         "index": {
           "description": "retcon is an action that executes the action and applies the function to its output leaving the return value unchanged Equivalent to censor for the Writer monad",
           "hierarchy": "Control Monad Chronicle Class",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Chronicle.Class",
           "name": "retcon",
           "normalized": "(a-\u003ea)-\u003eb c-\u003eb c",
@@ -331,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Chronicle",
           "name": "Chronicle",
           "package": "these",
@@ -339,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Chronicle",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Chronicle",
           "name": "Chronicle",
           "package": "these",
@@ -353,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA chronicle monad parameterized by the output type \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function produces a computation with no output, and \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e\n   combines multiple outputs with \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Chronicle",
           "name": "Chronicle",
           "package": "these",
@@ -362,6 +385,7 @@
         "index": {
           "description": "chronicle monad parameterized by the output type The return function produces computation with no output and combines multiple outputs with mappend",
           "hierarchy": "Control Monad Chronicle",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Chronicle",
           "name": "Chronicle",
           "package": "these",
@@ -376,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eChronicleT\u003c/a\u003e\u003c/code\u003e monad transformer.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function produces a computation with no output, and \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e\n   combines multiple outputs with \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Chronicle",
           "name": "ChronicleT",
           "package": "these",
@@ -385,6 +410,7 @@
         "index": {
           "description": "The ChronicleT monad transformer The return function produces computation with no output and combines multiple outputs with mappend",
           "hierarchy": "Control Monad Chronicle",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Chronicle",
           "name": "ChronicleT",
           "package": "these",
@@ -398,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Chronicle",
           "name": "MonadChronicle",
           "package": "these",
@@ -406,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Chronicle",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Chronicle",
           "name": "MonadChronicle",
           "package": "these",
@@ -420,6 +448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eabsolve\u003c/a\u003e\u003c/code\u003e x m\u003c/code\u003e is an action that executes the action \u003ccode\u003em\u003c/code\u003e and discards any\n   record it had. The default value \u003ccode\u003ex\u003c/code\u003e will be used if \u003ccode\u003em\u003c/code\u003e ended via \n   \u003ccode\u003e\u003ca\u003econfess\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Chronicle",
           "name": "absolve",
           "package": "these",
@@ -430,6 +459,7 @@
         "index": {
           "description": "absolve is an action that executes the action and discards any record it had The default value will be used if ended via confess",
           "hierarchy": "Control Monad Chronicle",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Chronicle",
           "name": "absolve",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -445,6 +475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003echronicle\u003c/a\u003e\u003c/code\u003e m\u003c/code\u003e lifts a plain 'These c a' value into a \u003ccode\u003e\u003ca\u003eMonadChronicle\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Chronicle",
           "name": "chronicle",
           "package": "these",
@@ -455,6 +486,7 @@
         "index": {
           "description": "chronicle lifts plain These value into MonadChronicle instance",
           "hierarchy": "Control Monad Chronicle",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Chronicle",
           "name": "chronicle",
           "normalized": "These a b-\u003ec b",
@@ -470,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003econdemn\u003c/a\u003e\u003c/code\u003e m\u003c/code\u003e is an action that executes the action \u003ccode\u003em\u003c/code\u003e and keeps its value\n   only if it had no record. Otherwise, the value (if any) will be discarded\n   and only the record kept.\n\u003c/p\u003e\u003cp\u003eThis can be seen as converting non-fatal errors into fatal ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Chronicle",
           "name": "condemn",
           "package": "these",
@@ -480,6 +513,7 @@
         "index": {
           "description": "condemn is an action that executes the action and keeps its value only if it had no record Otherwise the value if any will be discarded and only the record kept This can be seen as converting non-fatal errors into fatal ones",
           "hierarchy": "Control Monad Chronicle",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Chronicle",
           "name": "condemn",
           "normalized": "a b-\u003ea b",
@@ -495,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003econfess\u003c/a\u003e\u003c/code\u003e c\u003c/code\u003e is an action that ends with a final output \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003ethrowError\u003c/a\u003e\u003c/code\u003e for the \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Chronicle",
           "name": "confess",
           "package": "these",
@@ -505,6 +540,7 @@
         "index": {
           "description": "confess is an action that ends with final output Equivalent to throwError for the Error monad",
           "hierarchy": "Control Monad Chronicle",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Chronicle",
           "name": "confess",
           "normalized": "a-\u003eb c",
@@ -520,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003edictate\u003c/a\u003e\u003c/code\u003e c\u003c/code\u003e is an action that records the output \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003etell\u003c/a\u003e\u003c/code\u003e for the \u003ccode\u003e\u003ca\u003eWriter\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Chronicle",
           "name": "dictate",
           "package": "these",
@@ -530,6 +567,7 @@
         "index": {
           "description": "dictate is an action that records the output Equivalent to tell for the Writer monad",
           "hierarchy": "Control Monad Chronicle",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Chronicle",
           "name": "dictate",
           "normalized": "a-\u003eb()",
@@ -545,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ememento\u003c/a\u003e\u003c/code\u003e m\u003c/code\u003e is an action that executes the action \u003ccode\u003em\u003c/code\u003e, returning either\n   its record if it ended with \u003ccode\u003e\u003ca\u003econfess\u003c/a\u003e\u003c/code\u003e, or its final value otherwise, with\n   any record added to the current record.\n\u003c/p\u003e\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003ecatchError\u003c/a\u003e\u003c/code\u003e in the \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e monad, but with a notion of \n   non-fatal errors (which are accumulated) vs. fatal errors (which are caught\n   without accumulating).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Chronicle",
           "name": "memento",
           "package": "these",
@@ -555,6 +594,7 @@
         "index": {
           "description": "memento is an action that executes the action returning either its record if it ended with confess or its final value otherwise with any record added to the current record Similar to catchError in the Error monad but with notion of non-fatal errors which are accumulated vs fatal errors which are caught without accumulating",
           "hierarchy": "Control Monad Chronicle",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Chronicle",
           "name": "memento",
           "normalized": "a b-\u003ea(Either c b)",
@@ -570,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eretcon\u003c/a\u003e\u003c/code\u003e f m\u003c/code\u003e is an action that executes the action \u003ccode\u003em\u003c/code\u003e and applies the\n   function \u003ccode\u003ef\u003c/code\u003e to its output, leaving the return value unchanged.\n\u003c/p\u003e\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003ecensor\u003c/a\u003e\u003c/code\u003e for the \u003ccode\u003e\u003ca\u003eWriter\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Chronicle",
           "name": "retcon",
           "package": "these",
@@ -580,6 +621,7 @@
         "index": {
           "description": "retcon is an action that executes the action and applies the function to its output leaving the return value unchanged Equivalent to censor for the Writer monad",
           "hierarchy": "Control Monad Chronicle",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Chronicle",
           "name": "retcon",
           "normalized": "(a-\u003ea)-\u003eb c-\u003eb c",
@@ -595,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eChronicleT\u003c/a\u003e\u003c/code\u003e monad, a hybrid error/writer monad that allows\n both accumulating outputs and aborting computation with a final\n output.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Trans.Chronicle",
           "name": "Chronicle",
           "package": "these",
@@ -604,6 +647,7 @@
         "index": {
           "description": "The ChronicleT monad hybrid error writer monad that allows both accumulating outputs and aborting computation with final output",
           "hierarchy": "Control Monad Trans Chronicle",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Trans.Chronicle",
           "name": "Chronicle",
           "package": "these",
@@ -618,6 +662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA chronicle monad parameterized by the output type \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function produces a computation with no output, and \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e\n   combines multiple outputs with \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Trans.Chronicle",
           "name": "Chronicle",
           "package": "these",
@@ -627,6 +672,7 @@
         "index": {
           "description": "chronicle monad parameterized by the output type The return function produces computation with no output and combines multiple outputs with mappend",
           "hierarchy": "Control Monad Trans Chronicle",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Trans.Chronicle",
           "name": "Chronicle",
           "package": "these",
@@ -641,6 +687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eChronicleT\u003c/a\u003e\u003c/code\u003e monad transformer.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function produces a computation with no output, and \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e\n   combines multiple outputs with \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Trans.Chronicle",
           "name": "ChronicleT",
           "package": "these",
@@ -650,6 +697,7 @@
         "index": {
           "description": "The ChronicleT monad transformer The return function produces computation with no output and combines multiple outputs with mappend",
           "hierarchy": "Control Monad Trans Chronicle",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Trans.Chronicle",
           "name": "ChronicleT",
           "package": "these",
@@ -664,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eabsolve\u003c/a\u003e\u003c/code\u003e x m\u003c/code\u003e is an action that executes the action \u003ccode\u003em\u003c/code\u003e and discards any\n   record it had. The default value \u003ccode\u003ex\u003c/code\u003e will be used if \u003ccode\u003em\u003c/code\u003e ended via \n   \u003ccode\u003e\u003ca\u003econfess\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Trans.Chronicle",
           "name": "absolve",
           "package": "these",
@@ -674,6 +723,7 @@
         "index": {
           "description": "absolve is an action that executes the action and discards any record it had The default value will be used if ended via confess",
           "hierarchy": "Control Monad Trans Chronicle",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Trans.Chronicle",
           "name": "absolve",
           "normalized": "a-\u003eChronicleT b c a-\u003eChronicleT b c a",
@@ -688,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Trans.Chronicle",
           "name": "chronicle",
           "package": "these",
@@ -697,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Chronicle",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Trans.Chronicle",
           "name": "chronicle",
           "normalized": "These a b-\u003eChronicle a b",
@@ -712,6 +764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003econdemn\u003c/a\u003e\u003c/code\u003e m\u003c/code\u003e is an action that executes the action \u003ccode\u003em\u003c/code\u003e and keeps its value\n   only if it had no record. Otherwise, the value (if any) will be discarded\n   and only the record kept.\n\u003c/p\u003e\u003cp\u003eThis can be seen as converting non-fatal errors into fatal ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Trans.Chronicle",
           "name": "condemn",
           "package": "these",
@@ -722,6 +775,7 @@
         "index": {
           "description": "condemn is an action that executes the action and keeps its value only if it had no record Otherwise the value if any will be discarded and only the record kept This can be seen as converting non-fatal errors into fatal ones",
           "hierarchy": "Control Monad Trans Chronicle",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Trans.Chronicle",
           "name": "condemn",
           "normalized": "ChronicleT a b c-\u003eChronicleT a b c",
@@ -737,6 +791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003econfess\u003c/a\u003e\u003c/code\u003e c\u003c/code\u003e is an action that ends with a final output \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003ethrowError\u003c/a\u003e\u003c/code\u003e for the \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Trans.Chronicle",
           "name": "confess",
           "package": "these",
@@ -747,6 +802,7 @@
         "index": {
           "description": "confess is an action that ends with final output Equivalent to throwError for the Error monad",
           "hierarchy": "Control Monad Trans Chronicle",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Trans.Chronicle",
           "name": "confess",
           "normalized": "a-\u003eChronicleT a b c",
@@ -762,6 +818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003edictate\u003c/a\u003e\u003c/code\u003e c\u003c/code\u003e is an action that records the output \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003etell\u003c/a\u003e\u003c/code\u003e for the \u003ccode\u003eWriter\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Trans.Chronicle",
           "name": "dictate",
           "package": "these",
@@ -772,6 +829,7 @@
         "index": {
           "description": "dictate is an action that records the output Equivalent to tell for the Writer monad",
           "hierarchy": "Control Monad Trans Chronicle",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Trans.Chronicle",
           "name": "dictate",
           "normalized": "a-\u003eChronicleT a b()",
@@ -787,6 +845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ememento\u003c/a\u003e\u003c/code\u003e m\u003c/code\u003e is an action that executes the action \u003ccode\u003em\u003c/code\u003e, returning either\n   its record if it ended with \u003ccode\u003e\u003ca\u003econfess\u003c/a\u003e\u003c/code\u003e, or its final value otherwise, with\n   any record added to the current record.\n\u003c/p\u003e\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003ecatchError\u003c/a\u003e\u003c/code\u003e in the \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e monad, but with a notion of \n   non-fatal errors (which are accumulated) vs. fatal errors (which are caught\n   without accumulating).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Trans.Chronicle",
           "name": "memento",
           "package": "these",
@@ -797,6 +856,7 @@
         "index": {
           "description": "memento is an action that executes the action returning either its record if it ended with confess or its final value otherwise with any record added to the current record Similar to catchError in the Error monad but with notion of non-fatal errors which are accumulated vs fatal errors which are caught without accumulating",
           "hierarchy": "Control Monad Trans Chronicle",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Trans.Chronicle",
           "name": "memento",
           "normalized": "ChronicleT a b c-\u003eChronicleT a b(Either a c)",
@@ -812,6 +872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eretcon\u003c/a\u003e\u003c/code\u003e f m\u003c/code\u003e is an action that executes the action \u003ccode\u003em\u003c/code\u003e and applies the\n   function \u003ccode\u003ef\u003c/code\u003e to its output, leaving the return value unchanged.\n\u003c/p\u003e\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003ecensor\u003c/a\u003e\u003c/code\u003e for the \u003ccode\u003eWriter\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Control.Monad.Trans.Chronicle",
           "name": "retcon",
           "package": "these",
@@ -822,6 +883,7 @@
         "index": {
           "description": "retcon is an action that executes the action and applies the function to its output leaving the return value unchanged Equivalent to censor for the Writer monad",
           "hierarchy": "Control Monad Trans Chronicle",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Control.Monad.Trans.Chronicle",
           "name": "retcon",
           "normalized": "(a-\u003ea)-\u003eChronicleT a b c-\u003eChronicleT a b c",
@@ -837,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eThese\u003c/a\u003e\u003c/code\u003e-based zipping and unzipping of functors with non-uniform\n shapes, plus traversal of (bi)foldable (bi)functors through said\n functors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.Align",
           "name": "Align",
           "package": "these",
@@ -846,6 +909,7 @@
         "index": {
           "description": "These based zipping and unzipping of functors with non-uniform shapes plus traversal of bi foldable bi functors through said functors",
           "hierarchy": "Data Align",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.Align",
           "name": "Align",
           "package": "these",
@@ -860,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctors supporting a zip operation that takes the union of\n   non-uniform shapes.\n\u003c/p\u003e\u003cp\u003eIf your functor is actually a functor from \u003ccode\u003eKleisli Maybe\u003c/code\u003e to\n   \u003ccode\u003eHask\u003c/code\u003e (so it supports \u003ccode\u003emaybeMap :: (a -\u003e Maybe b) -\u003e f a -\u003e f\n   b\u003c/code\u003e), then an \u003ccode\u003eAlign\u003c/code\u003e instance is making your functor lax monoidal\n   w.r.t. the cartesian monoidal structure on \u003ccode\u003eKleisli Maybe\u003c/code\u003e,\n   because \u003ccode\u003eThese\u003c/code\u003e is the cartesian product in that category \u003ccode\u003e(a -\u003e\n   Maybe (These b c) ~ (a -\u003e Maybe b, a -\u003e Maybe c))\u003c/code\u003e. This insight\n   is due to rwbarton.\n\u003c/p\u003e\u003cp\u003eMinimal definition: \u003ccode\u003enil\u003c/code\u003e and either \u003ccode\u003ealign\u003c/code\u003e or \u003ccode\u003ealignWith\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eLaws:\n\u003c/p\u003e\u003cpre\u003e\n (`align` nil) = fmap This\n (nil `align`) = fmap That\n join align = fmap (join These)\n align (f \u003c$\u003e x) (g \u003c$\u003e y) = bimap f g \u003c$\u003e align x y\n alignWith f a b = f \u003c$\u003e align a b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.Align",
           "name": "Align",
           "package": "these",
@@ -869,6 +934,7 @@
         "index": {
           "description": "Functors supporting zip operation that takes the union of non-uniform shapes If your functor is actually functor from Kleisli Maybe to Hask so it supports maybeMap Maybe then an Align instance is making your functor lax monoidal w.r.t the cartesian monoidal structure on Kleisli Maybe because These is the cartesian product in that category Maybe These Maybe Maybe This insight is due to rwbarton Minimal definition nil and either align or alignWith Laws align nil fmap This nil align fmap That join align fmap join These align bimap align alignWith align",
           "hierarchy": "Data Align",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.Align",
           "name": "Align",
           "package": "these",
@@ -883,6 +949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBifoldable bifunctors supporting traversal through an alignable\n   functor.\n\u003c/p\u003e\u003cp\u003eMinimal definition: \u003ccode\u003ebicrosswalk\u003c/code\u003e or \u003ccode\u003ebisequenceL\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eLaws:\n\u003c/p\u003e\u003cpre\u003e\n bicrosswalk (const empty) (const empty) = const empty\n bicrosswalk f g = bisequenceL . bimap f g\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.Align",
           "name": "Bicrosswalk",
           "package": "these",
@@ -892,6 +959,7 @@
         "index": {
           "description": "Bifoldable bifunctors supporting traversal through an alignable functor Minimal definition bicrosswalk or bisequenceL Laws bicrosswalk const empty const empty const empty bicrosswalk bisequenceL bimap",
           "hierarchy": "Data Align",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.Align",
           "name": "Bicrosswalk",
           "package": "these",
@@ -906,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFoldable functors supporting traversal through an alignable\n   functor.\n\u003c/p\u003e\u003cp\u003eMinimal definition: \u003ccode\u003ecrosswalk\u003c/code\u003e or \u003ccode\u003esequenceL\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eLaws:\n\u003c/p\u003e\u003cpre\u003e\n crosswalk (const nil) = const nil\n crosswalk f = sequenceL . fmap f\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.Align",
           "name": "Crosswalk",
           "package": "these",
@@ -915,6 +984,7 @@
         "index": {
           "description": "Foldable functors supporting traversal through an alignable functor Minimal definition crosswalk or sequenceL Laws crosswalk const nil const nil crosswalk sequenceL fmap",
           "hierarchy": "Data Align",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.Align",
           "name": "Crosswalk",
           "package": "these",
@@ -929,6 +999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlignable functors supporting an \"inverse\" to \u003ccode\u003e\u003ca\u003ealign\u003c/a\u003e\u003c/code\u003e: splitting\n   a union shape into its component parts.\n\u003c/p\u003e\u003cp\u003eMinimal definition: nothing; a default definition is provided,\n   but it may not have the desired definition for all functors. See\n   the source for more information.\n\u003c/p\u003e\u003cp\u003eLaws:\n\u003c/p\u003e\u003cpre\u003e\n unalign nil                 = (nil,           nil)\n unalign (This        \u003c$\u003e x) = (Just    \u003c$\u003e x, Nothing \u003c$  x)\n unalign (That        \u003c$\u003e y) = (Nothing \u003c$  y, Just    \u003c$\u003e y)\n unalign (join These  \u003c$\u003e x) = (Just    \u003c$\u003e x, Just    \u003c$\u003e x)\n unalign ((x `These`) \u003c$\u003e y) = (Just x  \u003c$  y, Just    \u003c$\u003e y)\n unalign ((`These` y) \u003c$\u003e x) = (Just    \u003c$\u003e x, Just y  \u003c$  x)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.Align",
           "name": "Unalign",
           "package": "these",
@@ -938,6 +1009,7 @@
         "index": {
           "description": "Alignable functors supporting an inverse to align splitting union shape into its component parts Minimal definition nothing default definition is provided but it may not have the desired definition for all functors See the source for more information Laws unalign nil nil nil unalign This Just Nothing unalign That Nothing Just unalign join These Just Just unalign These Just Just unalign These Just Just",
           "hierarchy": "Data Align",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.Align",
           "name": "Unalign",
           "package": "these",
@@ -951,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.Align",
           "name": "align",
           "package": "these",
@@ -960,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Data Align",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.Align",
           "name": "align",
           "normalized": "a b-\u003ea c-\u003ea(These b c)",
@@ -974,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.Align",
           "name": "alignVectorWith",
           "package": "these",
@@ -983,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Data Align",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.Align",
           "name": "alignVectorWith",
           "normalized": "(These a b-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -998,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.Align",
           "name": "alignWith",
           "package": "these",
@@ -1007,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Data Align",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.Align",
           "name": "alignWith",
           "normalized": "(These a b-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -1022,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.Align",
           "name": "bicrosswalk",
           "package": "these",
@@ -1031,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Data Align",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.Align",
           "name": "bicrosswalk",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003ef a d-\u003eb(f c e)",
@@ -1045,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.Align",
           "name": "bisequenceL",
           "package": "these",
@@ -1054,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Data Align",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.Align",
           "name": "bisequenceL",
           "normalized": "a(b c)(b d)-\u003eb(a c d)",
@@ -1068,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.Align",
           "name": "crosswalk",
           "package": "these",
@@ -1077,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "Data Align",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.Align",
           "name": "crosswalk",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb(d c)",
@@ -1092,6 +1176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-padded \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.Align",
           "name": "lpadZip",
           "package": "these",
@@ -1102,6 +1187,7 @@
         "index": {
           "description": "Left-padded zip",
           "hierarchy": "Data Align",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.Align",
           "name": "lpadZip",
           "normalized": "[a]-\u003e[b]-\u003e[(Maybe a,b)]",
@@ -1118,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-padded \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.Align",
           "name": "lpadZipWith",
           "package": "these",
@@ -1128,6 +1215,7 @@
         "index": {
           "description": "Left-padded zipWith",
           "hierarchy": "Data Align",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.Align",
           "name": "lpadZipWith",
           "normalized": "(Maybe a-\u003eb-\u003ec)-\u003e[a]-\u003e[b]-\u003e[c]",
@@ -1144,6 +1232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlign two structures and combine with \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.Align",
           "name": "malign",
           "package": "these",
@@ -1154,6 +1243,7 @@
         "index": {
           "description": "Align two structures and combine with mappend",
           "hierarchy": "Data Align",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.Align",
           "name": "malign",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -1168,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.Align",
           "name": "nil",
           "package": "these",
@@ -1177,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Data Align",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.Align",
           "name": "nil",
           "package": "these",
@@ -1190,6 +1282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlign two structures as in \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e, but filling in blanks with \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.Align",
           "name": "padZip",
           "package": "these",
@@ -1200,6 +1293,7 @@
         "index": {
           "description": "Align two structures as in zip but filling in blanks with Nothing",
           "hierarchy": "Data Align",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.Align",
           "name": "padZip",
           "normalized": "a b-\u003ea c-\u003ea(Maybe b,Maybe c)",
@@ -1216,6 +1310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlign two structures as in \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e, but filling in blanks with \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.Align",
           "name": "padZipWith",
           "package": "these",
@@ -1226,6 +1321,7 @@
         "index": {
           "description": "Align two structures as in zipWith but filling in blanks with Nothing",
           "hierarchy": "Data Align",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.Align",
           "name": "padZipWith",
           "normalized": "(Maybe a-\u003eMaybe b-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -1242,6 +1338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight-padded \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.Align",
           "name": "rpadZip",
           "package": "these",
@@ -1252,6 +1349,7 @@
         "index": {
           "description": "Right-padded zip",
           "hierarchy": "Data Align",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.Align",
           "name": "rpadZip",
           "normalized": "[a]-\u003e[b]-\u003e[(a,Maybe b)]",
@@ -1268,6 +1366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight-padded \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.Align",
           "name": "rpadZipWith",
           "package": "these",
@@ -1278,6 +1377,7 @@
         "index": {
           "description": "Right-padded zipWith",
           "hierarchy": "Data Align",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.Align",
           "name": "rpadZipWith",
           "normalized": "(a-\u003eMaybe b-\u003ec)-\u003e[a]-\u003e[b]-\u003e[c]",
@@ -1293,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.Align",
           "name": "sequenceL",
           "package": "these",
@@ -1302,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Data Align",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.Align",
           "name": "sequenceL",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -1316,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.Align",
           "name": "unalign",
           "package": "these",
@@ -1325,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Data Align",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.Align",
           "name": "unalign",
           "normalized": "a(These b c)-\u003e(a(Maybe b),a(Maybe c))",
@@ -1340,6 +1444,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eThese\u003c/a\u003e\u003c/code\u003e type and associated operations. Now enhanced with \u003ccode\u003eControl.Lens\u003c/code\u003e magic!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "These",
           "package": "these",
@@ -1349,6 +1454,7 @@
         "index": {
           "description": "The These type and associated operations Now enhanced with Control.Lens magic",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "These",
           "package": "these",
@@ -1363,6 +1469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eThese\u003c/a\u003e\u003c/code\u003e type represents values with two non-exclusive possibilities.\n\u003c/p\u003e\u003cp\u003eThis can be useful to represent combinations of two values, where the \n   combination is defined if either input is. Algebraically, the type \n   \u003ccode\u003eThese A B\u003c/code\u003e represents \u003ccode\u003e(A + B + AB)\u003c/code\u003e, which doesn't factor easily into\n   sums and products--a type like \u003ccode\u003eEither A (B, Maybe A)\u003c/code\u003e is unclear and\n   awkward to use.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eThese\u003c/a\u003e\u003c/code\u003e has straightforward instances of \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e, &c., and \n   behaves like a hybrid error/writer monad, as would be expected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "These",
           "package": "these",
@@ -1372,6 +1479,7 @@
         "index": {
           "description": "The These type represents values with two non-exclusive possibilities This can be useful to represent combinations of two values where the combination is defined if either input is Algebraically the type These represents AB which doesn factor easily into sums and products--a type like Either Maybe is unclear and awkward to use These has straightforward instances of Functor Monad and behaves like hybrid error writer monad as would be expected",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "These",
           "package": "these",
@@ -1385,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "That",
           "package": "these",
@@ -1394,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "That",
           "package": "these",
@@ -1407,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "These",
           "package": "these",
@@ -1416,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "These",
           "package": "these",
@@ -1429,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "This",
           "package": "these",
@@ -1438,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "This",
           "package": "these",
@@ -1452,6 +1566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003ePrism\u003c/code\u003e selecting the \u003ccode\u003e\u003ca\u003eThat\u003c/a\u003e\u003c/code\u003e constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "_That",
           "package": "these",
@@ -1462,6 +1577,7 @@
         "index": {
           "description": "Prism selecting the That constructor",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "_That",
           "normalized": "a b(c b)-\u003ea(These d b)(c(These d b))",
@@ -1478,6 +1594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003ePrism\u003c/code\u003e selecting the \u003ccode\u003e\u003ca\u003eThese\u003c/a\u003e\u003c/code\u003e constructor. \u003ccode\u003e\u003ca\u003eThese\u003c/a\u003e\u003c/code\u003e names are ridiculous!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "_These",
           "package": "these",
@@ -1488,6 +1605,7 @@
         "index": {
           "description": "Prism selecting the These constructor These names are ridiculous",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "_These",
           "normalized": "a(b,c)(d(b,c))-\u003ea(These b c)(d(These b c))",
@@ -1504,6 +1622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003ePrism\u003c/code\u003e selecting the \u003ccode\u003e\u003ca\u003eThis\u003c/a\u003e\u003c/code\u003e constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "_This",
           "package": "these",
@@ -1514,6 +1633,7 @@
         "index": {
           "description": "Prism selecting the This constructor",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "_This",
           "normalized": "a b(c b)-\u003ea(These b d)(c(These b d))",
@@ -1530,6 +1650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect all \u003ccode\u003e\u003ca\u003eThat\u003c/a\u003e\u003c/code\u003e constructors from a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "catThat",
           "package": "these",
@@ -1540,6 +1661,7 @@
         "index": {
           "description": "Select all That constructors from list",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "catThat",
           "normalized": "[These a b]-\u003e[b]",
@@ -1556,6 +1678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect all \u003ccode\u003e\u003ca\u003eThese\u003c/a\u003e\u003c/code\u003e constructors from a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "catThese",
           "package": "these",
@@ -1566,6 +1689,7 @@
         "index": {
           "description": "Select all These constructors from list",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "catThese",
           "normalized": "[These a b]-\u003e[(a,b)]",
@@ -1582,6 +1706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect all \u003ccode\u003e\u003ca\u003eThis\u003c/a\u003e\u003c/code\u003e constructors from a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "catThis",
           "package": "these",
@@ -1592,6 +1717,7 @@
         "index": {
           "description": "Select all This constructors from list",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "catThis",
           "normalized": "[These a b]-\u003e[a]",
@@ -1608,6 +1734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes two default values and produces a tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "fromThese",
           "package": "these",
@@ -1618,6 +1745,7 @@
         "index": {
           "description": "Takes two default values and produces tuple",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "fromThese",
           "normalized": "a-\u003eb-\u003eThese a b-\u003e(a,b)",
@@ -1634,6 +1762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eTraversal\u003c/code\u003e of the first half of a \u003ccode\u003e\u003ca\u003eThese\u003c/a\u003e\u003c/code\u003e, suitable for use with \u003ccode\u003eControl.Lens\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "here",
           "package": "these",
@@ -1644,6 +1773,7 @@
         "index": {
           "description": "Traversal of the first half of These suitable for use with Control.Lens",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "here",
           "normalized": "(a-\u003eb c)-\u003eThese a d-\u003eb(These c d)",
@@ -1659,6 +1789,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003eisThat\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eisJust\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003ejustThat\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "isThat",
           "package": "these",
@@ -1669,6 +1800,7 @@
         "index": {
           "description": "isThat isJust justThat",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "isThat",
           "normalized": "These a b-\u003eBool",
@@ -1685,6 +1817,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003eisThese\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eisJust\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003ejustThese\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "isThese",
           "package": "these",
@@ -1695,6 +1828,7 @@
         "index": {
           "description": "isThese isJust justThese",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "isThese",
           "normalized": "These a b-\u003eBool",
@@ -1711,6 +1845,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003eisThis\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eisJust\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003ejustThis\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "isThis",
           "package": "these",
@@ -1721,6 +1856,7 @@
         "index": {
           "description": "isThis isJust justThis",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "isThis",
           "normalized": "These a b-\u003eBool",
@@ -1737,6 +1873,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003ejustThat\u003c/a\u003e\u003c/code\u003e = preview \u003ccode\u003e\u003ca\u003e_That\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "justThat",
           "package": "these",
@@ -1747,6 +1884,7 @@
         "index": {
           "description": "justThat preview That",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "justThat",
           "normalized": "These a b-\u003eMaybe b",
@@ -1763,6 +1901,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003ejustThese\u003c/a\u003e\u003c/code\u003e = preview \u003ccode\u003e\u003ca\u003e_These\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "justThese",
           "package": "these",
@@ -1773,6 +1912,7 @@
         "index": {
           "description": "justThese preview These",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "justThese",
           "normalized": "These a b-\u003eMaybe(a,b)",
@@ -1789,6 +1929,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003ejustThis\u003c/a\u003e\u003c/code\u003e = preview \u003ccode\u003e\u003ca\u003e_This\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "justThis",
           "package": "these",
@@ -1799,6 +1940,7 @@
         "index": {
           "description": "justThis preview This",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "justThis",
           "normalized": "These a b-\u003eMaybe a",
@@ -1815,6 +1957,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003emapThat\u003c/a\u003e\u003c/code\u003e = over \u003ccode\u003e\u003ca\u003ethere\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "mapThat",
           "package": "these",
@@ -1825,6 +1968,7 @@
         "index": {
           "description": "mapThat over there",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "mapThat",
           "normalized": "(a-\u003eb)-\u003eThese c a-\u003eThese c b",
@@ -1841,6 +1985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eBifunctor\u003c/a\u003e\u003c/code\u003e map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "mapThese",
           "package": "these",
@@ -1851,6 +1996,7 @@
         "index": {
           "description": "Bifunctor map",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "mapThese",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003eThese a c-\u003eThese b d",
@@ -1867,6 +2013,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003emapThis\u003c/a\u003e\u003c/code\u003e = over \u003ccode\u003e\u003ca\u003ehere\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "mapThis",
           "package": "these",
@@ -1877,6 +2024,7 @@
         "index": {
           "description": "mapThis over here",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "mapThis",
           "normalized": "(a-\u003eb)-\u003eThese a c-\u003eThese b c",
@@ -1893,6 +2041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoalesce with the provided operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "mergeThese",
           "package": "these",
@@ -1903,6 +2052,7 @@
         "index": {
           "description": "Coalesce with the provided operation",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "mergeThese",
           "normalized": "(a-\u003ea-\u003ea)-\u003eThese a a-\u003ea",
@@ -1919,6 +2069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect each constructor and partition them into separate lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "partitionThese",
           "package": "these",
@@ -1929,6 +2080,7 @@
         "index": {
           "description": "Select each constructor and partition them into separate lists",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "partitionThese",
           "normalized": "[These a b]-\u003e([(a,b)],([a],[b]))",
@@ -1945,6 +2097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eTraversal\u003c/code\u003e of the second half of a \u003ccode\u003e\u003ca\u003eThese\u003c/a\u003e\u003c/code\u003e, suitable for use with \u003ccode\u003eControl.Lens\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "there",
           "package": "these",
@@ -1955,6 +2108,7 @@
         "index": {
           "description": "Traversal of the second half of These suitable for use with Control.Lens",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "there",
           "normalized": "(a-\u003eb c)-\u003eThese d a-\u003eb(These d c)",
@@ -1970,6 +2124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase analysis for the \u003ccode\u003e\u003ca\u003eThese\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:21:32 UTC 2014",
           "module": "Data.These",
           "name": "these",
           "package": "these",
@@ -1980,6 +2135,7 @@
         "index": {
           "description": "Case analysis for the These type",
           "hierarchy": "Data These",
+          "indexed": "2014-03-11T20:21:32",
           "module": "Data.These",
           "name": "these",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003e(a-\u003ec-\u003eb)-\u003eThese a c-\u003eb",

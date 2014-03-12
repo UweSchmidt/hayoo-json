@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-platform-test"
+        "phrase": "haskell-platform-test",
+        "type": "phrase"
       },
       "type": "context"
     }

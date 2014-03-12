@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "list-mux"
+        "phrase": "list-mux",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library provides functions for list multiplexing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:46 UTC 2014",
           "module": "Data.List.Mux",
           "name": "Mux",
           "package": "list-mux",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This library provides functions for list multiplexing",
           "hierarchy": "Data List Mux",
+          "indexed": "2014-03-11T19:10:46",
           "module": "Data.List.Mux",
           "name": "Mux",
           "package": "list-mux",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo examples follow below:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emux [1,2,3] [4,5,6]\n\u003c/code\u003e\u003c/strong\u003e[1,4,2,5,3,6]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emux' [1,2,3] [4,5,6]\n\u003c/code\u003e\u003c/strong\u003e[4,1,5,2,6,3]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:10:46 UTC 2014",
           "module": "Data.List.Mux",
           "name": "mux",
           "package": "list-mux",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Two examples follow below mux mux",
           "hierarchy": "Data List Mux",
+          "indexed": "2014-03-11T19:10:46",
           "module": "Data.List.Mux",
           "name": "mux",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -66,6 +70,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:46 UTC 2014",
           "module": "Data.List.Mux",
           "name": "mux'",
           "package": "list-mux",
@@ -75,6 +80,7 @@
         },
         "index": {
           "hierarchy": "Data List Mux",
+          "indexed": "2014-03-11T19:10:46",
           "module": "Data.List.Mux",
           "name": "mux'",
           "normalized": "[a]-\u003e[a]-\u003e[a]",

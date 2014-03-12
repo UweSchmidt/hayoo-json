@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "manatee-mplayer"
+        "phrase": "manatee-mplayer",
+        "type": "phrase"
       },
       "type": "context"
     }

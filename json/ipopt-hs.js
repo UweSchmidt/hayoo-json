@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ipopt-hs"
+        "phrase": "ipopt-hs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eAnyRF\u003c/a\u003e\u003c/code\u003e wrapper holds functions that can be used\nfor the objective (\u003ccode\u003ef\u003c/code\u003e) or for constraints (\u003ccode\u003eg\u003c/code\u003e). Many functions\nin the instances provided are partial: this seems to be unavoidable\nbecause the input variables haven't been decided yet, so you should\nnot be allowed to use \u003ccode\u003e\u003ca\u003ecompare\u003c/a\u003e\u003c/code\u003e on these. But for now just use the\nstandard Prelude classes, and unimplementable functions (which\nwould not produce an \u003ccode\u003e\u003ca\u003eAnyRF\u003c/a\u003e\u003c/code\u003e) are calls to \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eValues of type \u003ccode\u003eAnyRF Identity\u003c/code\u003e can be generated using functions \ndefined in \u003ca\u003eIpopt.NLP\u003c/a\u003e (also exported by \u003ca\u003eIpopt\u003c/a\u003e). Directly using the\nconstructor is another option: \u003ccode\u003eAnyRF $ Identity . V.sum\u003c/code\u003e, calculates\nthe sum of all variables in the problem.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.AnyRF",
           "name": "AnyRF",
           "package": "ipopt-hs",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The AnyRF wrapper holds functions that can be used for the objective or for constraints Many functions in the instances provided are partial this seems to be unavoidable because the input variables haven been decided yet so you should not be allowed to use compare on these But for now just use the standard Prelude classes and unimplementable functions which would not produce an AnyRF are calls to error Values of type AnyRF Identity can be generated using functions defined in Ipopt.NLP also exported by Ipopt Directly using the constructor is another option AnyRF Identity V.sum calculates the sum of all variables in the problem",
           "hierarchy": "Ipopt AnyRF",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.AnyRF",
           "name": "AnyRF",
           "package": "ipopt-hs",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eAnyRF cb\u003c/code\u003e is a function that uses variables from the nonlinear\n program in a way supported by \u003ccode\u003e\u003ca\u003eAnyRFCxt\u003c/a\u003e\u003c/code\u003e. The \u003ccode\u003ecb\u003c/code\u003e is\n usually \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.AnyRF",
           "name": "AnyRF",
           "package": "ipopt-hs",
@@ -51,6 +54,7 @@
         "index": {
           "description": "AnyRF cb is function that uses variables from the nonlinear program in way supported by AnyRFCxt The cb is usually Identity",
           "hierarchy": "Ipopt AnyRF",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.AnyRF",
           "name": "AnyRF",
           "package": "ipopt-hs",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRealFloat gives most numerical operations,\n \u003ccode\u003e\u003ca\u003eVectorSpace\u003c/a\u003e\u003c/code\u003e is involved to allow using definitions from the\n \u003ca\u003esplines\u003c/a\u003e package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.AnyRF",
           "name": "AnyRFCxt",
           "package": "ipopt-hs",
@@ -74,6 +79,7 @@
         "index": {
           "description": "RealFloat gives most numerical operations VectorSpace is involved to allow using definitions from the splines package",
           "hierarchy": "Ipopt AnyRF",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.AnyRF",
           "name": "AnyRFCxt",
           "package": "ipopt-hs",
@@ -112,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.AnyRF",
           "name": "liftOp0",
           "package": "ipopt-hs",
@@ -121,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Ipopt AnyRF",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.AnyRF",
           "name": "liftOp0",
           "normalized": "a)-\u003eAnyRF Identity",
@@ -136,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.AnyRF",
           "name": "liftOp1",
           "package": "ipopt-hs",
@@ -145,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Ipopt AnyRF",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.AnyRF",
           "name": "liftOp1",
           "normalized": "a-\u003ea)-\u003eAnyRF Identity-\u003eAnyRF Identity",
@@ -160,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.AnyRF",
           "name": "liftOp2",
           "package": "ipopt-hs",
@@ -169,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Ipopt AnyRF",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.AnyRF",
           "name": "liftOp2",
           "normalized": "a-\u003ea-\u003ea)-\u003eAnyRF Identity-\u003eAnyRF Identity-\u003eAnyRF Identity",
@@ -185,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003esee usage in \u003ccode\u003eexamples/Test3.hs\u003c/code\u003e (and other examples)\n\u003c/p\u003e\u003cp\u003eIPOPT does support naming variables if you use c++\n (by overriding a \u003ccode\u003evirtual void finalize_metadata\u003c/code\u003e), but\n it's not clear that we can set that from c/haskell\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "NLP",
           "package": "ipopt-hs",
@@ -194,6 +207,7 @@
         "index": {
           "description": "see usage in examples Test3.hs and other examples IPOPT does support naming variables if you use by overriding virtual void finalize metadata but it not clear that we can set that from haskell",
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "NLP",
           "package": "ipopt-hs",
@@ -208,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe solver deals with arrays. This type is for indexes into the array\n for the current variables that the solver is trying to find.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "Ix",
           "package": "ipopt-hs",
@@ -217,6 +232,7 @@
         "index": {
           "description": "the solver deals with arrays This type is for indexes into the array for the current variables that the solver is trying to find",
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "Ix",
           "package": "ipopt-hs",
@@ -230,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "IxMap",
           "package": "ipopt-hs",
@@ -238,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "IxMap",
           "package": "ipopt-hs",
@@ -251,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "NLP",
           "package": "ipopt-hs",
@@ -259,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "NLP",
           "package": "ipopt-hs",
@@ -272,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "NLPFun",
           "package": "ipopt-hs",
@@ -280,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "NLPFun",
           "package": "ipopt-hs",
@@ -293,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "NLPState",
           "package": "ipopt-hs",
@@ -301,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "NLPState",
           "package": "ipopt-hs",
@@ -314,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "NLPT",
           "package": "ipopt-hs",
@@ -322,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "NLPT",
           "package": "ipopt-hs",
@@ -335,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "Ix",
           "package": "ipopt-hs",
@@ -344,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "Ix",
           "package": "ipopt-hs",
@@ -357,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "IxMap",
           "package": "ipopt-hs",
@@ -366,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "IxMap",
           "package": "ipopt-hs",
@@ -379,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "NLPFun",
           "package": "ipopt-hs",
@@ -388,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "NLPFun",
           "package": "ipopt-hs",
@@ -401,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "NLPState",
           "package": "ipopt-hs",
@@ -410,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "NLPState",
           "package": "ipopt-hs",
@@ -423,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "_boundG",
           "package": "ipopt-hs",
@@ -432,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "_boundG",
           "normalized": "Seq(Double,Double)",
@@ -446,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "_boundX",
           "package": "ipopt-hs",
@@ -455,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "_boundX",
           "normalized": "Seq(Double,Double)",
@@ -469,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "_constraintEnv",
           "package": "ipopt-hs",
@@ -478,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "_constraintEnv",
           "normalized": "IntMap[String]",
@@ -494,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehuman-readable descriptions for the constraint, objective and\n variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "_constraintLabels",
           "package": "ipopt-hs",
@@ -504,6 +545,7 @@
         "index": {
           "description": "human-readable descriptions for the constraint objective and variables",
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "_constraintLabels",
           "package": "ipopt-hs",
@@ -517,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "_constraintTol",
           "package": "ipopt-hs",
@@ -526,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "_constraintTol",
           "normalized": "Seq(Double,Double)",
@@ -542,6 +586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhat namespace are we currently in (see \u003ccode\u003e\u003ca\u003einEnv\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "_currentEnv",
           "package": "ipopt-hs",
@@ -552,6 +597,7 @@
         "index": {
           "description": "what namespace are we currently in see inEnv",
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "_currentEnv",
           "normalized": "[String]",
@@ -568,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe default \u003ccode\u003e(xL,xU)\u003c/code\u003e for \u003ccode\u003exL \u003c x \u003c xU\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "_defaultBounds",
           "package": "ipopt-hs",
@@ -578,6 +625,7 @@
         "index": {
           "description": "the default xL xU for xL xU",
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "_defaultBounds",
           "normalized": "(Double,Double)",
@@ -594,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor nlopt (lower/upper)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "_defaultConstraintTol",
           "package": "ipopt-hs",
@@ -604,6 +653,7 @@
         "index": {
           "description": "for nlopt lower upper",
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "_defaultConstraintTol",
           "normalized": "(Double,Double)",
@@ -619,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "_funF",
           "package": "ipopt-hs",
@@ -628,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "_funF",
           "package": "ipopt-hs",
@@ -640,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "_funG",
           "package": "ipopt-hs",
@@ -649,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "_funG",
           "package": "ipopt-hs",
@@ -662,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einital state variable for the solver\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "_initX",
           "package": "ipopt-hs",
@@ -672,6 +727,7 @@
         "index": {
           "description": "inital state variable for the solver",
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "_initX",
           "package": "ipopt-hs",
@@ -685,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecurrent maximum index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "_nMax",
           "package": "ipopt-hs",
@@ -695,6 +752,7 @@
         "index": {
           "description": "current maximum index",
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "_nMax",
           "package": "ipopt-hs",
@@ -708,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "_nlpfun",
           "package": "ipopt-hs",
@@ -717,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "_nlpfun",
           "package": "ipopt-hs",
@@ -729,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "_objEnv",
           "package": "ipopt-hs",
@@ -738,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "_objEnv",
           "normalized": "IntMap[String]",
@@ -754,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehuman-readable descriptions for the constraint, objective and\n variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "_objLabels",
           "package": "ipopt-hs",
@@ -764,6 +827,7 @@
         "index": {
           "description": "human-readable descriptions for the constraint objective and variables",
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "_objLabels",
           "package": "ipopt-hs",
@@ -778,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ein what environments is a given var used?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "_varEnv",
           "package": "ipopt-hs",
@@ -788,6 +853,7 @@
         "index": {
           "description": "in what environments is given var used",
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "_varEnv",
           "normalized": "IxMap(Set[String])",
@@ -803,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "_varIx",
           "package": "ipopt-hs",
@@ -812,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "_varIx",
           "package": "ipopt-hs",
@@ -825,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "_varLabels",
           "package": "ipopt-hs",
@@ -834,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "_varLabels",
           "package": "ipopt-hs",
@@ -848,6 +918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efully qualified (see \u003ccode\u003e\u003ca\u003einEnv\u003c/a\u003e\u003c/code\u003e) name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "_variables",
           "package": "ipopt-hs",
@@ -858,6 +929,7 @@
         "index": {
           "description": "fully qualified see inEnv name",
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "_variables",
           "package": "ipopt-hs",
@@ -871,6 +943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einvert _variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "_variablesInv",
           "package": "ipopt-hs",
@@ -881,6 +954,7 @@
         "index": {
           "description": "invert variables",
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "_variablesInv",
           "package": "ipopt-hs",
@@ -895,6 +969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eto\u003c/code\u003e should be \u003ccode\u003e\u003ca\u003econstraintLabels\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eobjLabels\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003evarLabels\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "addDesc",
           "package": "ipopt-hs",
@@ -905,6 +980,7 @@
         "index": {
           "description": "to should be constraintLabels objLabels varLabels",
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "addDesc",
           "normalized": "Setting(-\u003e)a a(IntMap b)(IntMap b)-\u003eMaybe b-\u003eKey-\u003ec()",
@@ -970,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "at_",
           "package": "ipopt-hs",
@@ -979,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "at_",
           "normalized": "Ix-\u003e(Maybe a-\u003eb(Maybe a))-\u003eIxMap a-\u003eb(IxMap a)",
@@ -993,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "boundG",
           "package": "ipopt-hs",
@@ -1002,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "boundG",
           "normalized": "Lens' NLPFun(Seq(Double,Double))",
@@ -1016,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "boundX",
           "package": "ipopt-hs",
@@ -1025,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "boundX",
           "normalized": "Lens' NLPFun(Seq(Double,Double))",
@@ -1039,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "constraintEnv",
           "package": "ipopt-hs",
@@ -1048,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "constraintEnv",
           "normalized": "Lens' NLPState(IntMap[String])",
@@ -1063,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "constraintLabels",
           "package": "ipopt-hs",
@@ -1072,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "constraintLabels",
           "package": "ipopt-hs",
@@ -1085,6 +1171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "constraintTol",
           "package": "ipopt-hs",
@@ -1094,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "constraintTol",
           "normalized": "Lens' NLPState(Seq(Double,Double))",
@@ -1110,6 +1198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eto\u003c/code\u003e is one of \u003ccode\u003e\u003ca\u003evarEnv\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003econstraintEnv\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eobjEnv\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "copyEnv",
           "package": "ipopt-hs",
@@ -1120,6 +1209,7 @@
         "index": {
           "description": "to is one of varEnv constraintEnv objEnv",
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "copyEnv",
           "normalized": "ALens NLPState NLPState(IntMap[String])(IntMap[String])-\u003eKey-\u003ea()",
@@ -1135,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "currentEnv",
           "package": "ipopt-hs",
@@ -1144,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "currentEnv",
           "normalized": "Lens' NLPState[String]",
@@ -1159,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "defaultBounds",
           "package": "ipopt-hs",
@@ -1168,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "defaultBounds",
           "normalized": "Lens' NLPState(Double,Double)",
@@ -1183,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "defaultConstraintTol",
           "package": "ipopt-hs",
@@ -1192,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "defaultConstraintTol",
           "normalized": "Lens' NLPState(Double,Double)",
@@ -1207,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "funF",
           "package": "ipopt-hs",
@@ -1216,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "funF",
           "package": "ipopt-hs",
@@ -1228,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "funG",
           "package": "ipopt-hs",
@@ -1237,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "funG",
           "package": "ipopt-hs",
@@ -1250,6 +1350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecombination of \u003ccode\u003e\u003ca\u003epushEnv\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003epopEnv\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "inEnv",
           "package": "ipopt-hs",
@@ -1260,6 +1361,7 @@
         "index": {
           "description": "combination of pushEnv and popEnv",
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "inEnv",
           "normalized": "String-\u003eNLPT a b-\u003eNLPT a b",
@@ -1275,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "initX",
           "package": "ipopt-hs",
@@ -1284,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "initX",
           "package": "ipopt-hs",
@@ -1296,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "ixMap",
           "package": "ipopt-hs",
@@ -1305,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "ixMap",
           "package": "ipopt-hs",
@@ -1318,6 +1424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "ixToVar",
           "package": "ipopt-hs",
@@ -1327,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "ixToVar",
           "normalized": "Ix-\u003eAnyRF Identity",
@@ -1343,6 +1451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshould be a way to write an instance of At that'll make the normal\n at\u003cem\u003eix work with the IxMap \u003c/em\u003e Ix (as opposed to IntMap/Int)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "ix_",
           "package": "ipopt-hs",
@@ -1353,6 +1462,7 @@
         "index": {
           "description": "should be way to write an instance of At that ll make the normal at ix work with the IxMap Ix as opposed to IntMap Int",
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "ix_",
           "normalized": "Ix-\u003e(a-\u003eb a)-\u003eIxMap a-\u003eb(IxMap a)",
@@ -1367,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "nMax",
           "package": "ipopt-hs",
@@ -1376,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "nMax",
           "package": "ipopt-hs",
@@ -1390,6 +1502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshrink the interval in which that variable is allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "narrowBounds",
           "package": "ipopt-hs",
@@ -1400,6 +1513,7 @@
         "index": {
           "description": "shrink the interval in which that variable is allowed",
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "narrowBounds",
           "normalized": "Ix-\u003e(Double,Double)-\u003eNLPT a()",
@@ -1415,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "nlpfun",
           "package": "ipopt-hs",
@@ -1424,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "nlpfun",
           "package": "ipopt-hs",
@@ -1460,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "objEnv",
           "package": "ipopt-hs",
@@ -1469,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "objEnv",
           "normalized": "Lens' NLPState(IntMap[String])",
@@ -1484,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "objLabels",
           "package": "ipopt-hs",
@@ -1493,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "objLabels",
           "package": "ipopt-hs",
@@ -1506,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "popEnv",
           "package": "ipopt-hs",
@@ -1515,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "popEnv",
           "package": "ipopt-hs",
@@ -1528,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "pushEnv",
           "package": "ipopt-hs",
@@ -1537,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "pushEnv",
           "normalized": "String-\u003eNLPT a()",
@@ -1552,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "seqToVecs",
           "package": "ipopt-hs",
@@ -1561,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "seqToVecs",
           "normalized": "Seq(Double,Double)-\u003ea(Vec,Vec)",
@@ -1577,6 +1703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoverride bounds. Should be unnecessary given \u003ccode\u003e\u003ca\u003evar\u003c/a\u003e\u003c/code\u003e takes bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "setBounds",
           "package": "ipopt-hs",
@@ -1587,6 +1714,7 @@
         "index": {
           "description": "override bounds Should be unnecessary given var takes bounds",
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "setBounds",
           "normalized": "Ix-\u003e(Double,Double)-\u003eNLPT a()",
@@ -1629,6 +1757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esplits a variable \u003ccode\u003ex\u003c/code\u003e into two positive variables such that\n\u003ccode\u003ex = x^+ - x^-\u003c/code\u003e the new variables represent the positive and negative\nparts of \u003ccode\u003ex - b\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e (xMinus, xPlus) \u003c- splitVar b x\n\u003c/pre\u003e\u003cp\u003eUsing \u003ccode\u003emax (x-b) 0\u003c/code\u003e instead of xPlus (ie. not telling the solver that \u003ccode\u003eb\u003c/code\u003e is\na special point) seems to work just as well\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "splitVar",
           "package": "ipopt-hs",
@@ -1638,6 +1767,7 @@
         "index": {
           "description": "splits variable into two positive variables such that the new variables represent the positive and negative parts of xMinus xPlus splitVar Using max x-b instead of xPlus ie not telling the solver that is special point seems to work just as well",
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "splitVar",
           "normalized": "Double-\u003eIx-\u003eNLPT a(AnyRF Identity,AnyRF Identity)",
@@ -1704,6 +1834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "varEnv",
           "package": "ipopt-hs",
@@ -1713,6 +1844,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "varEnv",
           "normalized": "Lens' NLPState(IxMap(Set[String]))",
@@ -1782,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "varIx",
           "package": "ipopt-hs",
@@ -1791,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "varIx",
           "package": "ipopt-hs",
@@ -1804,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "varLabels",
           "package": "ipopt-hs",
@@ -1813,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "varLabels",
           "package": "ipopt-hs",
@@ -1826,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "variables",
           "package": "ipopt-hs",
@@ -1835,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "variables",
           "package": "ipopt-hs",
@@ -1847,6 +1985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.NLP",
           "name": "variablesInv",
           "package": "ipopt-hs",
@@ -1856,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "Ipopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.NLP",
           "name": "variablesInv",
           "package": "ipopt-hs",
@@ -1869,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Options",
           "name": "Options",
           "package": "ipopt-hs",
@@ -1877,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Options",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Options",
           "name": "Options",
           "package": "ipopt-hs",
@@ -1890,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Options",
           "name": "OptionType",
           "package": "ipopt-hs",
@@ -1898,6 +2041,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Options",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Options",
           "name": "OptionType",
           "package": "ipopt-hs",
@@ -1911,6 +2055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Options",
           "name": "OptionVal",
           "package": "ipopt-hs",
@@ -1919,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Options",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Options",
           "name": "OptionVal",
           "package": "ipopt-hs",
@@ -1932,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Options",
           "name": "AInt",
           "package": "ipopt-hs",
@@ -1941,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Options",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Options",
           "name": "AInt",
           "package": "ipopt-hs",
@@ -1954,6 +2102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Options",
           "name": "ANum",
           "package": "ipopt-hs",
@@ -1963,6 +2112,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Options",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Options",
           "name": "ANum",
           "package": "ipopt-hs",
@@ -1976,6 +2126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Options",
           "name": "AStr",
           "package": "ipopt-hs",
@@ -1985,6 +2136,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Options",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Options",
           "name": "AStr",
           "package": "ipopt-hs",
@@ -1999,6 +2151,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e$x\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Options",
           "name": "AVar",
           "package": "ipopt-hs",
@@ -2008,6 +2161,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Options",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Options",
           "name": "AVar",
           "package": "ipopt-hs",
@@ -2022,6 +2176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eactually string yes or string no\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Options",
           "name": "OptionBool",
           "package": "ipopt-hs",
@@ -2032,6 +2187,7 @@
         "index": {
           "description": "actually string yes or string no",
           "hierarchy": "Ipopt Options",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Options",
           "name": "OptionBool",
           "package": "ipopt-hs",
@@ -2045,6 +2201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Options",
           "name": "OptionInt",
           "package": "ipopt-hs",
@@ -2054,6 +2211,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Options",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Options",
           "name": "OptionInt",
           "package": "ipopt-hs",
@@ -2067,6 +2225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Options",
           "name": "OptionNum",
           "package": "ipopt-hs",
@@ -2076,6 +2235,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Options",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Options",
           "name": "OptionNum",
           "package": "ipopt-hs",
@@ -2089,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Options",
           "name": "OptionStr",
           "package": "ipopt-hs",
@@ -2098,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Options",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Options",
           "name": "OptionStr",
           "package": "ipopt-hs",
@@ -2111,6 +2273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Options",
           "name": "addIpoptOpt",
           "package": "ipopt-hs",
@@ -2120,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Options",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Options",
           "name": "addIpoptOpt",
           "normalized": "Name-\u003eString-\u003eOptionVal-\u003eExpQ",
@@ -2136,6 +2300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea list of all the options in\n \u003ca\u003ehttp://www.coin-or.org/Ipopt/documentation/node39.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Options",
           "name": "ipoptOptions",
           "package": "ipopt-hs",
@@ -2146,6 +2311,7 @@
         "index": {
           "description": "list of all the options in http www.coin-or.org Ipopt documentation node39.html",
           "hierarchy": "Ipopt Options",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Options",
           "name": "ipoptOptions",
           "package": "ipopt-hs",
@@ -2184,6 +2350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhat \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e should do for Double\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Options",
           "name": "liftDouble",
           "package": "ipopt-hs",
@@ -2194,6 +2361,7 @@
         "index": {
           "description": "what lift should do for Double",
           "hierarchy": "Ipopt Options",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Options",
           "name": "liftDouble",
           "normalized": "Double-\u003eExpQ",
@@ -2209,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Options",
           "name": "parseOpt",
           "package": "ipopt-hs",
@@ -2218,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Options",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Options",
           "name": "parseOpt",
           "normalized": "P(Str Char String LineColPos)(String,OptionVal)",
@@ -2233,6 +2403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Options",
           "name": "parseOpts",
           "package": "ipopt-hs",
@@ -2242,6 +2413,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Options",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Options",
           "name": "parseOpts",
           "normalized": "P(Str Char String LineColPos)[(String,OptionVal)]",
@@ -2257,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Options",
           "name": "uuParseTest",
           "package": "ipopt-hs",
@@ -2266,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Options",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Options",
           "name": "uuParseTest",
           "normalized": "P(Str a b LineColPos)a-\u003eb-\u003e(a,[Error LineColPos])",
@@ -2281,6 +2455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.PP",
           "name": "PP",
           "package": "ipopt-hs",
@@ -2289,6 +2464,7 @@
         },
         "index": {
           "hierarchy": "Ipopt PP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.PP",
           "name": "PP",
           "package": "ipopt-hs",
@@ -2302,6 +2478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.PP",
           "name": "br",
           "package": "ipopt-hs",
@@ -2311,6 +2488,7 @@
         },
         "index": {
           "hierarchy": "Ipopt PP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.PP",
           "name": "br",
           "normalized": "a()",
@@ -2325,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.PP",
           "name": "colorStatus",
           "package": "ipopt-hs",
@@ -2334,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "Ipopt PP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.PP",
           "name": "colorStatus",
           "normalized": "ApplicationReturnStatus-\u003eDoc",
@@ -2349,6 +2529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.PP",
           "name": "g",
           "package": "ipopt-hs",
@@ -2358,6 +2539,7 @@
         },
         "index": {
           "hierarchy": "Ipopt PP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.PP",
           "name": "g",
           "package": "ipopt-hs",
@@ -2370,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.PP",
           "name": "mult_g",
           "package": "ipopt-hs",
@@ -2379,6 +2562,7 @@
         },
         "index": {
           "hierarchy": "Ipopt PP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.PP",
           "name": "mult_g",
           "package": "ipopt-hs",
@@ -2391,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.PP",
           "name": "mult_x_L",
           "package": "ipopt-hs",
@@ -2400,6 +2585,7 @@
         },
         "index": {
           "hierarchy": "Ipopt PP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.PP",
           "name": "mult_x_L",
           "package": "ipopt-hs",
@@ -2412,6 +2598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.PP",
           "name": "mult_x_U",
           "package": "ipopt-hs",
@@ -2421,6 +2608,7 @@
         },
         "index": {
           "hierarchy": "Ipopt PP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.PP",
           "name": "mult_x_U",
           "package": "ipopt-hs",
@@ -2433,6 +2621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.PP",
           "name": "objective",
           "package": "ipopt-hs",
@@ -2442,6 +2631,7 @@
         },
         "index": {
           "hierarchy": "Ipopt PP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.PP",
           "name": "objective",
           "package": "ipopt-hs",
@@ -2479,6 +2669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.PP",
           "name": "status",
           "package": "ipopt-hs",
@@ -2488,6 +2679,7 @@
         },
         "index": {
           "hierarchy": "Ipopt PP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.PP",
           "name": "status",
           "package": "ipopt-hs",
@@ -2500,6 +2692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.PP",
           "name": "statusOk",
           "package": "ipopt-hs",
@@ -2509,6 +2702,7 @@
         },
         "index": {
           "hierarchy": "Ipopt PP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.PP",
           "name": "statusOk",
           "normalized": "ApplicationReturnStatus-\u003eBool",
@@ -2524,6 +2718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.PP",
           "name": "x",
           "package": "ipopt-hs",
@@ -2533,6 +2728,7 @@
         },
         "index": {
           "hierarchy": "Ipopt PP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.PP",
           "name": "x",
           "package": "ipopt-hs",
@@ -2546,6 +2742,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDescription: lowest-level parts of the binding\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "Raw",
           "package": "ipopt-hs",
@@ -2555,6 +2752,7 @@
         "index": {
           "description": "Description lowest-level parts of the binding",
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "Raw",
           "package": "ipopt-hs",
@@ -2568,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "ApplicationReturnStatus",
           "package": "ipopt-hs",
@@ -2576,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "ApplicationReturnStatus",
           "package": "ipopt-hs",
@@ -2589,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "IpBool",
           "package": "ipopt-hs",
@@ -2597,6 +2798,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "IpBool",
           "package": "ipopt-hs",
@@ -2610,6 +2812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "IpF",
           "package": "ipopt-hs",
@@ -2618,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "IpF",
           "package": "ipopt-hs",
@@ -2631,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "IpG",
           "package": "ipopt-hs",
@@ -2639,6 +2844,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "IpG",
           "package": "ipopt-hs",
@@ -2652,6 +2858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "IpGradF",
           "package": "ipopt-hs",
@@ -2660,6 +2867,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "IpGradF",
           "package": "ipopt-hs",
@@ -2673,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "IpH",
           "package": "ipopt-hs",
@@ -2681,6 +2890,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "IpH",
           "package": "ipopt-hs",
@@ -2694,6 +2904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "IpIndex",
           "package": "ipopt-hs",
@@ -2702,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "IpIndex",
           "package": "ipopt-hs",
@@ -2715,6 +2927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "IpInt",
           "package": "ipopt-hs",
@@ -2723,6 +2936,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "IpInt",
           "package": "ipopt-hs",
@@ -2736,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "IpJacG",
           "package": "ipopt-hs",
@@ -2744,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "IpJacG",
           "package": "ipopt-hs",
@@ -2757,6 +2973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "IpNumber",
           "package": "ipopt-hs",
@@ -2765,6 +2982,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "IpNumber",
           "package": "ipopt-hs",
@@ -2779,6 +2997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elenses are in \u003ca\u003eIpopt.PP\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "IpOptSolved",
           "package": "ipopt-hs",
@@ -2788,6 +3007,7 @@
         "index": {
           "description": "lenses are in Ipopt.PP",
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "IpOptSolved",
           "package": "ipopt-hs",
@@ -2801,6 +3021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "IpProblem",
           "package": "ipopt-hs",
@@ -2809,6 +3030,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "IpProblem",
           "package": "ipopt-hs",
@@ -2823,6 +3045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector of numbers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "Vec",
           "package": "ipopt-hs",
@@ -2832,6 +3055,7 @@
         "index": {
           "description": "Vector of numbers",
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "Vec",
           "package": "ipopt-hs",
@@ -3075,6 +3299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "IpProblem",
           "package": "ipopt-hs",
@@ -3084,6 +3309,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "IpProblem",
           "package": "ipopt-hs",
@@ -3488,6 +3714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "addIpoptIntOption",
           "package": "ipopt-hs",
@@ -3497,6 +3724,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "addIpoptIntOption",
           "normalized": "IpProblem-\u003eString-\u003eInt-\u003eIO Bool",
@@ -3512,6 +3740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "addIpoptNumOption",
           "package": "ipopt-hs",
@@ -3521,6 +3750,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "addIpoptNumOption",
           "normalized": "IpProblem-\u003eString-\u003eDouble-\u003eIO Bool",
@@ -3536,6 +3766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "addIpoptStrOption",
           "package": "ipopt-hs",
@@ -3545,6 +3776,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "addIpoptStrOption",
           "normalized": "IpProblem-\u003eString-\u003eString-\u003eIO Bool",
@@ -3560,6 +3792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "createIpoptProblem",
           "package": "ipopt-hs",
@@ -3569,6 +3802,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "createIpoptProblem",
           "normalized": "Vec-\u003eVec-\u003eVec-\u003eVec-\u003eInt-\u003eInt-\u003eIpF-\u003eIpG-\u003eIpGradF-\u003eIpJacG-\u003eIpH-\u003eIO IpProblem",
@@ -3585,6 +3819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet-up an \u003ccode\u003e\u003ca\u003eIpProblem\u003c/a\u003e\u003c/code\u003e to be solved later. Only objective function (\u003ccode\u003ef\u003c/code\u003e)\nand constraint functions (\u003ccode\u003eg\u003c/code\u003e) need to be specified. Derivatives needed by ipopt\nare computed by \u003ca\u003eNumeric.AD\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eTo solve the optimization problem:\n\u003c/p\u003e\u003cpre\u003e              min f(x)\n   such that\n           xL \u003c=  x     \u003c= xU\n           gL \u003c=  g(x)  \u003c= gU\n\u003c/pre\u003e\u003cp\u003eFirst create an opaque \u003ccode\u003e\u003ca\u003eIpProblem\u003c/a\u003e\u003c/code\u003e object (nlp):\n\u003c/p\u003e\u003cpre\u003e nlp \u003c- createIpOptProblemAD xL xU gL gU f g\n\u003c/pre\u003e\u003cp\u003eThen pass it off to \u003ccode\u003e\u003ca\u003eipoptSolve\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e ipoptSolve nlp x0\n\u003c/pre\u003e\u003cp\u003eRefer to the example \u003ccode\u003eTest2.hs\u003c/code\u003e for details of setting up the vectors supplied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "createIpoptProblemAD",
           "package": "ipopt-hs",
@@ -3594,6 +3829,7 @@
         "index": {
           "description": "Set-up an IpProblem to be solved later Only objective function and constraint functions need to be specified Derivatives needed by ipopt are computed by Numeric.AD To solve the optimization problem min such that xL xU gL gU First create an opaque IpProblem object nlp nlp createIpOptProblemAD xL xU gL gU Then pass it off to ipoptSolve ipoptSolve nlp x0 Refer to the example Test2.hs for details of setting up the vectors supplied",
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "createIpoptProblemAD",
           "normalized": "Vector a-\u003eVector a)-\u003eIO IpProblem",
@@ -3609,6 +3845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "freeIpoptProblem",
           "package": "ipopt-hs",
@@ -3618,6 +3855,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "freeIpoptProblem",
           "normalized": "FunPtr(Ptr()-\u003eIO())",
@@ -3633,6 +3871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "ipoptSolve",
           "package": "ipopt-hs",
@@ -3641,6 +3880,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "ipoptSolve",
           "normalized": "IpProblem-\u003eVec-\u003eIO(IpOptSolved a)",
@@ -3706,6 +3946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "wrapIpF",
           "package": "ipopt-hs",
@@ -3715,6 +3956,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "wrapIpF",
           "normalized": "(MVector a CDouble-\u003eIO CDouble)-\u003eIO IpF",
@@ -3730,6 +3972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "wrapIpF1",
           "package": "ipopt-hs",
@@ -3739,6 +3982,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "wrapIpF1",
           "normalized": "UnFunPtr IpF-\u003eIO IpF",
@@ -3754,6 +3998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "wrapIpF2",
           "package": "ipopt-hs",
@@ -3763,6 +4008,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "wrapIpF2",
           "normalized": "(MVector a b-\u003eIO b)-\u003eb-\u003ePtr b-\u003ec-\u003ePtr b-\u003ec-\u003eIO IpBool",
@@ -3778,6 +4024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "wrapIpG",
           "package": "ipopt-hs",
@@ -3787,6 +4034,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "wrapIpG",
           "normalized": "(MVector a CDouble-\u003eIO(MVector RealWorld CDouble))-\u003eIO IpG",
@@ -3802,6 +4050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "wrapIpG1",
           "package": "ipopt-hs",
@@ -3811,6 +4060,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "wrapIpG1",
           "normalized": "UnFunPtr IpG-\u003eIO IpG",
@@ -3826,6 +4076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "wrapIpG2",
           "package": "ipopt-hs",
@@ -3835,6 +4086,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "wrapIpG2",
           "normalized": "(MVector a b-\u003eIO(MVector RealWorld b))-\u003eb-\u003ePtr b-\u003ec-\u003eb-\u003ePtr b-\u003ec-\u003eIO IpBool",
@@ -3850,6 +4102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "wrapIpGradF",
           "package": "ipopt-hs",
@@ -3859,6 +4112,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "wrapIpGradF",
           "normalized": "(MVector a CDouble-\u003eIO(MVector RealWorld CDouble))-\u003eIO IpGradF",
@@ -3874,6 +4128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "wrapIpGradF1",
           "package": "ipopt-hs",
@@ -3883,6 +4138,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "wrapIpGradF1",
           "normalized": "UnFunPtr IpGradF-\u003eIO IpGradF",
@@ -3898,6 +4154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "wrapIpGradF2",
           "package": "ipopt-hs",
@@ -3907,6 +4164,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "wrapIpGradF2",
           "normalized": "(MVector a b-\u003eIO(MVector RealWorld b))-\u003eb-\u003ePtr b-\u003ec-\u003ePtr b-\u003ec-\u003eIO IpBool",
@@ -3922,6 +4180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "wrapIpH",
           "package": "ipopt-hs",
@@ -3931,6 +4190,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "wrapIpH",
           "normalized": "(MVector a CInt-\u003eMVector a CInt-\u003eIO b)-\u003e(CDouble-\u003eMVector a CDouble-\u003eMVector a CDouble-\u003eMVector a CDouble-\u003eIO b)-\u003eIO IpH",
@@ -3946,6 +4206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "wrapIpH1",
           "package": "ipopt-hs",
@@ -3955,6 +4216,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "wrapIpH1",
           "normalized": "UnFunPtr IpH-\u003eIO IpH",
@@ -3970,6 +4232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "wrapIpH2",
           "package": "ipopt-hs",
@@ -3979,6 +4242,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "wrapIpH2",
           "normalized": "(MVector a b-\u003eMVector a b-\u003eIO c)-\u003e(d-\u003eMVector a b-\u003eMVector a b-\u003eMVector a b-\u003eIO c)-\u003eb-\u003ePtr b-\u003ed-\u003ed-\u003eb-\u003ePtr b-\u003ed-\u003eb-\u003ePtr b-\u003ePtr b-\u003ePtr b-\u003ed-\u003eIO IpBool",
@@ -3994,6 +4258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "wrapIpJacG",
           "package": "ipopt-hs",
@@ -4003,6 +4268,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "wrapIpJacG",
           "normalized": "(MVector a CInt-\u003eMVector a CInt-\u003eIO b)-\u003e(MVector a CDouble-\u003eMVector a CDouble-\u003eIO b)-\u003eIO IpJacG",
@@ -4018,6 +4284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "wrapIpJacG1",
           "package": "ipopt-hs",
@@ -4027,6 +4294,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "wrapIpJacG1",
           "normalized": "UnFunPtr IpJacG-\u003eIO IpJacG",
@@ -4042,6 +4310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Raw",
           "name": "wrapIpJacG2",
           "package": "ipopt-hs",
@@ -4051,6 +4320,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Raw",
           "name": "wrapIpJacG2",
           "normalized": "(MVector a b-\u003eMVector a b-\u003eIO c)-\u003e(MVector a b-\u003eMVector a b-\u003eIO c)-\u003eb-\u003ePtr b-\u003ed-\u003ed-\u003eb-\u003ePtr b-\u003ePtr b-\u003ePtr b-\u003ed-\u003eIO IpBool",
@@ -4067,6 +4337,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003egradients and hessians tend to be sparse. This can be probed by\ncalculating these with NaNs as inputs. http:\u003cem/\u003ewww.gpops2.com/ uses this\nstrategy, but perhaps there are relatively common cases (calls to\nblas/lapack for example) that do not propagate NaNs correctly: perhaps\nIpopt.NLP provides some information about the structure of the problem,\nprovided that all variables used are lexically scoped?\n\u003c/p\u003e\u003cp\u003eAll functions provide indices that are affected (and should thus be included)\n\u003c/p\u003e\u003cp\u003efunctions ending in 1 set one variable at a time to NaN, and additionally\nprovide a hint as to which variable to change.\n\u003c/p\u003e\u003cp\u003efunctions not ending in 1 set all input variables to NaN\n\u003c/p\u003e\u003cp\u003eit seems that adding a 1 achieves the same thing as doing one more derivative.\nIn other words, nanPropagateG1 tells the same thing as nanPropagateH.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Sparsity",
           "name": "Sparsity",
           "package": "ipopt-hs",
@@ -4076,6 +4347,7 @@
         "index": {
           "description": "gradients and hessians tend to be sparse This can be probed by calculating these with NaNs as inputs http www.gpops2.com uses this strategy but perhaps there are relatively common cases calls to blas lapack for example that do not propagate NaNs correctly perhaps Ipopt.NLP provides some information about the structure of the problem provided that all variables used are lexically scoped All functions provide indices that are affected and should thus be included functions ending in set one variable at time to NaN and additionally provide hint as to which variable to change functions not ending in set all input variables to NaN it seems that adding achieves the same thing as doing one more derivative In other words nanPropagateG1 tells the same thing as nanPropagateH",
           "hierarchy": "Ipopt Sparsity",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Sparsity",
           "name": "Sparsity",
           "package": "ipopt-hs",
@@ -4089,6 +4361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Sparsity",
           "name": "jacobianSS",
           "package": "ipopt-hs",
@@ -4098,6 +4371,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Sparsity",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Sparsity",
           "name": "jacobianSS",
           "normalized": "Vector a-\u003eVector a)-\u003eVector a-\u003eVector a",
@@ -4114,6 +4388,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003enanPropagate1 4 g\n\u003c/code\u003e\u003c/strong\u003e[0,1,2]\n\u003c/pre\u003e\u003cp\u003evariable 3 isn't even used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Sparsity",
           "name": "nanPropagate1",
           "package": "ipopt-hs",
@@ -4123,6 +4398,7 @@
         "index": {
           "description": "nanPropagate1 variable isn even used",
           "hierarchy": "Ipopt Sparsity",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Sparsity",
           "name": "nanPropagate1",
           "normalized": "Vector a-\u003ea)-\u003e[Int]",
@@ -4139,6 +4415,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003enanPropagateG 4 g\n\u003c/code\u003e\u003c/strong\u003efromList [0,1,2]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Sparsity",
           "name": "nanPropagateG",
           "package": "ipopt-hs",
@@ -4148,6 +4425,7 @@
         "index": {
           "description": "nanPropagateG fromList",
           "hierarchy": "Ipopt Sparsity",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Sparsity",
           "name": "nanPropagateG",
           "normalized": "Vector a-\u003ea)-\u003eVector Int",
@@ -4164,6 +4442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea nonzero gradient when inputs are NaN ==\u003e no need to include\nthat row/column in the hessian, since it will be zero\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003enanPropagateG1 4 g\n\u003c/code\u003e\u003c/strong\u003e[(1,fromList [1,2]),(2,fromList [1])]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Sparsity",
           "name": "nanPropagateG1",
           "package": "ipopt-hs",
@@ -4173,6 +4452,7 @@
         "index": {
           "description": "nonzero gradient when inputs are NaN no need to include that row column in the hessian since it will be zero nanPropagateG1 fromList fromList",
           "hierarchy": "Ipopt Sparsity",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Sparsity",
           "name": "nanPropagateG1",
           "normalized": "Vector a-\u003ea)-\u003e[(Int,Vector Int)]",
@@ -4189,6 +4469,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003enanPropagateH 4 g\n\u003c/code\u003e\u003c/strong\u003efromList [(1,1),(1,2),(2,1)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Sparsity",
           "name": "nanPropagateH",
           "package": "ipopt-hs",
@@ -4198,6 +4479,7 @@
         "index": {
           "description": "nanPropagateH fromList",
           "hierarchy": "Ipopt Sparsity",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Sparsity",
           "name": "nanPropagateH",
           "normalized": "Vector a-\u003ea)-\u003eVector(Int,Int)",
@@ -4213,6 +4495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Sparsity",
           "name": "nanPropagateHF",
           "package": "ipopt-hs",
@@ -4222,6 +4505,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Sparsity",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Sparsity",
           "name": "nanPropagateHF",
           "normalized": "Vector a-\u003eVector a)-\u003eVector(Vector(Int,Int))",
@@ -4237,6 +4521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt.Sparsity",
           "name": "nanPropagateJ",
           "package": "ipopt-hs",
@@ -4246,6 +4531,7 @@
         },
         "index": {
           "hierarchy": "Ipopt Sparsity",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt.Sparsity",
           "name": "nanPropagateJ",
           "normalized": "Vector a-\u003eVector a)-\u003eVector(Int,Int)",
@@ -4262,6 +4548,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports most things you should need.\n Also take a look at \u003ca\u003eIpopt.NLP\u003c/a\u003e and \u003ca\u003eIpopt.Raw\u003c/a\u003e and \u003ccode\u003eexamples/\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt",
           "name": "Ipopt",
           "package": "ipopt-hs",
@@ -4271,6 +4558,7 @@
         "index": {
           "description": "This module exports most things you should need Also take look at Ipopt.NLP and Ipopt.Raw and examples",
           "hierarchy": "Ipopt",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt",
           "name": "Ipopt",
           "package": "ipopt-hs",
@@ -4285,6 +4573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eAnyRF cb\u003c/code\u003e is a function that uses variables from the nonlinear\n program in a way supported by \u003ccode\u003e\u003ca\u003eAnyRFCxt\u003c/a\u003e\u003c/code\u003e. The \u003ccode\u003ecb\u003c/code\u003e is\n usually \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt",
           "name": "AnyRF",
           "package": "ipopt-hs",
@@ -4294,6 +4583,7 @@
         "index": {
           "description": "AnyRF cb is function that uses variables from the nonlinear program in way supported by AnyRFCxt The cb is usually Identity",
           "hierarchy": "Ipopt",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt",
           "name": "AnyRF",
           "package": "ipopt-hs",
@@ -4307,6 +4597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt",
           "name": "ApplicationReturnStatus",
           "package": "ipopt-hs",
@@ -4315,6 +4606,7 @@
         },
         "index": {
           "hierarchy": "Ipopt",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt",
           "name": "ApplicationReturnStatus",
           "package": "ipopt-hs",
@@ -4329,6 +4621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity functor and monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt",
           "name": "Identity",
           "package": "ipopt-hs",
@@ -4337,6 +4630,7 @@
         "index": {
           "description": "Identity functor and monad",
           "hierarchy": "Ipopt",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt",
           "name": "Identity",
           "package": "ipopt-hs",
@@ -4350,6 +4644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt",
           "name": "IpNumber",
           "package": "ipopt-hs",
@@ -4358,6 +4653,7 @@
         },
         "index": {
           "hierarchy": "Ipopt",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt",
           "name": "IpNumber",
           "package": "ipopt-hs",
@@ -4372,6 +4668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elenses are in \u003ca\u003eIpopt.PP\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt",
           "name": "IpOptSolved",
           "package": "ipopt-hs",
@@ -4381,6 +4678,7 @@
         "index": {
           "description": "lenses are in Ipopt.PP",
           "hierarchy": "Ipopt",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt",
           "name": "IpOptSolved",
           "package": "ipopt-hs",
@@ -4394,6 +4692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt",
           "name": "NLPT",
           "package": "ipopt-hs",
@@ -4402,6 +4701,7 @@
         },
         "index": {
           "hierarchy": "Ipopt",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt",
           "name": "NLPT",
           "package": "ipopt-hs",
@@ -4416,6 +4716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVector of numbers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt",
           "name": "Vec",
           "package": "ipopt-hs",
@@ -4425,6 +4726,7 @@
         "index": {
           "description": "Vector of numbers",
           "hierarchy": "Ipopt",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt",
           "name": "Vec",
           "package": "ipopt-hs",
@@ -4438,6 +4740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt",
           "name": "Identity",
           "package": "ipopt-hs",
@@ -4446,6 +4749,7 @@
         },
         "index": {
           "hierarchy": "Ipopt",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt",
           "name": "Identity",
           "package": "ipopt-hs",
@@ -4459,6 +4763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Ipopt",
           "name": "runIdentity",
           "package": "ipopt-hs",
@@ -4467,6 +4772,7 @@
         },
         "index": {
           "hierarchy": "Ipopt",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Ipopt",
           "name": "runIdentity",
           "package": "ipopt-hs",
@@ -4480,6 +4786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.NLP",
           "name": "NLP",
           "package": "ipopt-hs",
@@ -4488,6 +4795,7 @@
         },
         "index": {
           "hierarchy": "Nlopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.NLP",
           "name": "NLP",
           "package": "ipopt-hs",
@@ -4501,6 +4809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.NLP",
           "name": "solveNlopt",
           "package": "ipopt-hs",
@@ -4509,6 +4818,7 @@
         },
         "index": {
           "hierarchy": "Nlopt NLP",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.NLP",
           "name": "solveNlopt",
           "normalized": "NloptAlgorithm-\u003e(NLOpt-\u003eIO a)-\u003eNLPT b(c Double,Double,NloptResult)",
@@ -4524,6 +4834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "Raw",
           "package": "ipopt-hs",
@@ -4532,6 +4843,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "Raw",
           "package": "ipopt-hs",
@@ -4545,6 +4857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "FunPtrFunc",
           "package": "ipopt-hs",
@@ -4553,6 +4866,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "FunPtrFunc",
           "package": "ipopt-hs",
@@ -4566,6 +4880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "FunPtrMFunc",
           "package": "ipopt-hs",
@@ -4574,6 +4889,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "FunPtrMFunc",
           "package": "ipopt-hs",
@@ -4587,6 +4903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "FunPtrPrecond",
           "package": "ipopt-hs",
@@ -4595,6 +4912,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "FunPtrPrecond",
           "package": "ipopt-hs",
@@ -4608,6 +4926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "Func",
           "package": "ipopt-hs",
@@ -4616,6 +4935,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "Func",
           "package": "ipopt-hs",
@@ -4629,6 +4949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "MFunc",
           "package": "ipopt-hs",
@@ -4637,6 +4958,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "MFunc",
           "package": "ipopt-hs",
@@ -4650,6 +4972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOpt",
           "package": "ipopt-hs",
@@ -4658,6 +4981,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOpt",
           "package": "ipopt-hs",
@@ -4671,6 +4995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NloptAlgorithm",
           "package": "ipopt-hs",
@@ -4679,6 +5004,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NloptAlgorithm",
           "package": "ipopt-hs",
@@ -4693,6 +5019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enegative (above NLOPT_SUCCESS) values of these are thrown as exceptions. The positive ones are\n return values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NloptResult",
           "package": "ipopt-hs",
@@ -4702,6 +5029,7 @@
         "index": {
           "description": "negative above NLOPT SUCCESS values of these are thrown as exceptions The positive ones are return values",
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NloptResult",
           "package": "ipopt-hs",
@@ -4715,6 +5043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "Precond",
           "package": "ipopt-hs",
@@ -4723,6 +5052,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "Precond",
           "package": "ipopt-hs",
@@ -4736,6 +5066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "UnFunPtr",
           "package": "ipopt-hs",
@@ -4744,6 +5075,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "UnFunPtr",
           "package": "ipopt-hs",
@@ -4757,6 +5089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "Vec",
           "package": "ipopt-hs",
@@ -4765,6 +5098,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "Vec",
           "package": "ipopt-hs",
@@ -4778,6 +5112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_AUGLAG",
           "package": "ipopt-hs",
@@ -4787,6 +5122,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_AUGLAG",
           "package": "ipopt-hs",
@@ -4800,6 +5136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_AUGLAG_EQ",
           "package": "ipopt-hs",
@@ -4809,6 +5146,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_AUGLAG_EQ",
           "package": "ipopt-hs",
@@ -4822,6 +5160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_FAILURE",
           "package": "ipopt-hs",
@@ -4831,6 +5170,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_FAILURE",
           "package": "ipopt-hs",
@@ -4844,6 +5184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_FORCED_STOP",
           "package": "ipopt-hs",
@@ -4853,6 +5194,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_FORCED_STOP",
           "package": "ipopt-hs",
@@ -4866,6 +5208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_FTOL_REACHED",
           "package": "ipopt-hs",
@@ -4875,6 +5218,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_FTOL_REACHED",
           "package": "ipopt-hs",
@@ -4888,6 +5232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GD_MLSL",
           "package": "ipopt-hs",
@@ -4897,6 +5242,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GD_MLSL",
           "package": "ipopt-hs",
@@ -4910,6 +5256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GD_MLSL_LDS",
           "package": "ipopt-hs",
@@ -4919,6 +5266,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GD_MLSL_LDS",
           "package": "ipopt-hs",
@@ -4932,6 +5280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GD_STOGO",
           "package": "ipopt-hs",
@@ -4941,6 +5290,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GD_STOGO",
           "package": "ipopt-hs",
@@ -4954,6 +5304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GD_STOGO_RAND",
           "package": "ipopt-hs",
@@ -4963,6 +5314,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GD_STOGO_RAND",
           "package": "ipopt-hs",
@@ -4976,6 +5328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_CRS2_LM",
           "package": "ipopt-hs",
@@ -4985,6 +5338,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_CRS2_LM",
           "package": "ipopt-hs",
@@ -4998,6 +5352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_DIRECT",
           "package": "ipopt-hs",
@@ -5007,6 +5362,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_DIRECT",
           "package": "ipopt-hs",
@@ -5020,6 +5376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_DIRECT_L",
           "package": "ipopt-hs",
@@ -5029,6 +5386,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_DIRECT_L",
           "package": "ipopt-hs",
@@ -5042,6 +5400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_DIRECT_L_NOSCAL",
           "package": "ipopt-hs",
@@ -5051,6 +5410,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_DIRECT_L_NOSCAL",
           "package": "ipopt-hs",
@@ -5064,6 +5424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_DIRECT_L_RAND",
           "package": "ipopt-hs",
@@ -5073,6 +5434,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_DIRECT_L_RAND",
           "package": "ipopt-hs",
@@ -5086,6 +5448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_DIRECT_L_RAND_NOSCAL",
           "package": "ipopt-hs",
@@ -5095,6 +5458,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_DIRECT_L_RAND_NOSCAL",
           "package": "ipopt-hs",
@@ -5108,6 +5472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_DIRECT_NOSCAL",
           "package": "ipopt-hs",
@@ -5117,6 +5482,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_DIRECT_NOSCAL",
           "package": "ipopt-hs",
@@ -5130,6 +5496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_ESCH",
           "package": "ipopt-hs",
@@ -5139,6 +5506,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_ESCH",
           "package": "ipopt-hs",
@@ -5152,6 +5520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_ISRES",
           "package": "ipopt-hs",
@@ -5161,6 +5530,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_ISRES",
           "package": "ipopt-hs",
@@ -5174,6 +5544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_MLSL",
           "package": "ipopt-hs",
@@ -5183,6 +5554,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_MLSL",
           "package": "ipopt-hs",
@@ -5196,6 +5568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_MLSL_LDS",
           "package": "ipopt-hs",
@@ -5205,6 +5578,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_MLSL_LDS",
           "package": "ipopt-hs",
@@ -5218,6 +5592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_ORIG_DIRECT",
           "package": "ipopt-hs",
@@ -5227,6 +5602,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_ORIG_DIRECT",
           "package": "ipopt-hs",
@@ -5240,6 +5616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_ORIG_DIRECT_L",
           "package": "ipopt-hs",
@@ -5249,6 +5626,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_GN_ORIG_DIRECT_L",
           "package": "ipopt-hs",
@@ -5262,6 +5640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_G_MLSL",
           "package": "ipopt-hs",
@@ -5271,6 +5650,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_G_MLSL",
           "package": "ipopt-hs",
@@ -5284,6 +5664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_G_MLSL_LDS",
           "package": "ipopt-hs",
@@ -5293,6 +5674,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_G_MLSL_LDS",
           "package": "ipopt-hs",
@@ -5306,6 +5688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_INVALID_ARGS",
           "package": "ipopt-hs",
@@ -5315,6 +5698,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_INVALID_ARGS",
           "package": "ipopt-hs",
@@ -5328,6 +5712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_AUGLAG",
           "package": "ipopt-hs",
@@ -5337,6 +5722,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_AUGLAG",
           "package": "ipopt-hs",
@@ -5350,6 +5736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_AUGLAG_EQ",
           "package": "ipopt-hs",
@@ -5359,6 +5746,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_AUGLAG_EQ",
           "package": "ipopt-hs",
@@ -5372,6 +5760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_CCSAQ",
           "package": "ipopt-hs",
@@ -5381,6 +5770,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_CCSAQ",
           "package": "ipopt-hs",
@@ -5394,6 +5784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_LBFGS",
           "package": "ipopt-hs",
@@ -5403,6 +5794,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_LBFGS",
           "package": "ipopt-hs",
@@ -5416,6 +5808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_LBFGS_NOCEDAL",
           "package": "ipopt-hs",
@@ -5425,6 +5818,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_LBFGS_NOCEDAL",
           "package": "ipopt-hs",
@@ -5438,6 +5832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_MMA",
           "package": "ipopt-hs",
@@ -5447,6 +5842,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_MMA",
           "package": "ipopt-hs",
@@ -5460,6 +5856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_SLSQP",
           "package": "ipopt-hs",
@@ -5469,6 +5866,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_SLSQP",
           "package": "ipopt-hs",
@@ -5482,6 +5880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_TNEWTON",
           "package": "ipopt-hs",
@@ -5491,6 +5890,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_TNEWTON",
           "package": "ipopt-hs",
@@ -5504,6 +5904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_TNEWTON_PRECOND",
           "package": "ipopt-hs",
@@ -5513,6 +5914,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_TNEWTON_PRECOND",
           "package": "ipopt-hs",
@@ -5526,6 +5928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_TNEWTON_PRECOND_RESTART",
           "package": "ipopt-hs",
@@ -5535,6 +5938,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_TNEWTON_PRECOND_RESTART",
           "package": "ipopt-hs",
@@ -5548,6 +5952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_TNEWTON_RESTART",
           "package": "ipopt-hs",
@@ -5557,6 +5962,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_TNEWTON_RESTART",
           "package": "ipopt-hs",
@@ -5570,6 +5976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_VAR1",
           "package": "ipopt-hs",
@@ -5579,6 +5986,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_VAR1",
           "package": "ipopt-hs",
@@ -5592,6 +6000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_VAR2",
           "package": "ipopt-hs",
@@ -5601,6 +6010,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LD_VAR2",
           "package": "ipopt-hs",
@@ -5614,6 +6024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LN_AUGLAG",
           "package": "ipopt-hs",
@@ -5623,6 +6034,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LN_AUGLAG",
           "package": "ipopt-hs",
@@ -5636,6 +6048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LN_AUGLAG_EQ",
           "package": "ipopt-hs",
@@ -5645,6 +6058,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LN_AUGLAG_EQ",
           "package": "ipopt-hs",
@@ -5658,6 +6072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LN_BOBYQA",
           "package": "ipopt-hs",
@@ -5667,6 +6082,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LN_BOBYQA",
           "package": "ipopt-hs",
@@ -5680,6 +6096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LN_COBYLA",
           "package": "ipopt-hs",
@@ -5689,6 +6106,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LN_COBYLA",
           "package": "ipopt-hs",
@@ -5702,6 +6120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LN_NELDERMEAD",
           "package": "ipopt-hs",
@@ -5711,6 +6130,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LN_NELDERMEAD",
           "package": "ipopt-hs",
@@ -5724,6 +6144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LN_NEWUOA",
           "package": "ipopt-hs",
@@ -5733,6 +6154,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LN_NEWUOA",
           "package": "ipopt-hs",
@@ -5746,6 +6168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LN_NEWUOA_BOUND",
           "package": "ipopt-hs",
@@ -5755,6 +6178,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LN_NEWUOA_BOUND",
           "package": "ipopt-hs",
@@ -5768,6 +6192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LN_PRAXIS",
           "package": "ipopt-hs",
@@ -5777,6 +6202,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LN_PRAXIS",
           "package": "ipopt-hs",
@@ -5790,6 +6216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LN_SBPLX",
           "package": "ipopt-hs",
@@ -5799,6 +6226,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_LN_SBPLX",
           "package": "ipopt-hs",
@@ -5812,6 +6240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_MAXEVAL_REACHED",
           "package": "ipopt-hs",
@@ -5821,6 +6250,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_MAXEVAL_REACHED",
           "package": "ipopt-hs",
@@ -5834,6 +6264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_MAXTIME_REACHED",
           "package": "ipopt-hs",
@@ -5843,6 +6274,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_MAXTIME_REACHED",
           "package": "ipopt-hs",
@@ -5856,6 +6288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_NUM_ALGORITHMS",
           "package": "ipopt-hs",
@@ -5865,6 +6298,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_NUM_ALGORITHMS",
           "package": "ipopt-hs",
@@ -5878,6 +6312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_OUT_OF_MEMORY",
           "package": "ipopt-hs",
@@ -5887,6 +6322,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_OUT_OF_MEMORY",
           "package": "ipopt-hs",
@@ -5900,6 +6336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_ROUNDOFF_LIMITED",
           "package": "ipopt-hs",
@@ -5909,6 +6346,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_ROUNDOFF_LIMITED",
           "package": "ipopt-hs",
@@ -5922,6 +6360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_STOPVAL_REACHED",
           "package": "ipopt-hs",
@@ -5931,6 +6370,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_STOPVAL_REACHED",
           "package": "ipopt-hs",
@@ -5944,6 +6384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_SUCCESS",
           "package": "ipopt-hs",
@@ -5953,6 +6394,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_SUCCESS",
           "package": "ipopt-hs",
@@ -5966,6 +6408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOPT_XTOL_REACHED",
           "package": "ipopt-hs",
@@ -5975,6 +6418,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOPT_XTOL_REACHED",
           "package": "ipopt-hs",
@@ -5988,6 +6432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "NLOpt",
           "package": "ipopt-hs",
@@ -5997,6 +6442,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "NLOpt",
           "package": "ipopt-hs",
@@ -6010,6 +6456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "checkEC",
           "package": "ipopt-hs",
@@ -6019,6 +6466,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "checkEC",
           "normalized": "CInt-\u003eIO NloptResult",
@@ -6034,6 +6482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "copyInto",
           "package": "ipopt-hs",
@@ -6043,6 +6492,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "copyInto",
           "normalized": "a-\u003ePtr CDouble-\u003eb Double-\u003eIO()",
@@ -6058,6 +6508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "fromCInt",
           "package": "ipopt-hs",
@@ -6067,6 +6518,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "fromCInt",
           "normalized": "a-\u003ea",
@@ -6083,6 +6535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enaive matrix &#215; vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "mXv",
           "package": "ipopt-hs",
@@ -6093,6 +6546,7 @@
         "index": {
           "description": "naive matrix vector",
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "mXv",
           "normalized": "Vector(Vector a)-\u003eVector a-\u003eVector a",
@@ -6108,6 +6562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "mkFunc",
           "package": "ipopt-hs",
@@ -6117,6 +6572,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "mkFunc",
           "normalized": "Func-\u003eIO(FunPtr Func)",
@@ -6132,6 +6588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "mkMFunc",
           "package": "ipopt-hs",
@@ -6141,6 +6598,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "mkMFunc",
           "normalized": "MFunc-\u003eIO(FunPtr MFunc)",
@@ -6156,6 +6614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "mkNloptFinalizer",
           "package": "ipopt-hs",
@@ -6165,6 +6624,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "mkNloptFinalizer",
           "normalized": "(Ptr()-\u003eIO())-\u003eIO(FunPtr(Ptr()-\u003eIO()))",
@@ -6180,6 +6640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "mkPrecond",
           "package": "ipopt-hs",
@@ -6189,6 +6650,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "mkPrecond",
           "normalized": "Precond-\u003eIO(FunPtr Precond)",
@@ -6204,6 +6666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptAddEqualityConstraint",
           "package": "ipopt-hs",
@@ -6213,6 +6676,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptAddEqualityConstraint",
           "normalized": "NLOpt-\u003eFunc-\u003eDouble-\u003eIO NloptResult",
@@ -6228,6 +6692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptAddEqualityConstraint'_",
           "package": "ipopt-hs",
@@ -6237,6 +6702,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptAddEqualityConstraint'_",
           "normalized": "Ptr()-\u003eFunPtr(CUInt-\u003ePtr CDouble-\u003ePtr CDouble-\u003ePtr()-\u003eIO CDouble)-\u003ePtr()-\u003eCDouble-\u003eIO CInt",
@@ -6252,6 +6718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptAddEqualityMconstraint",
           "package": "ipopt-hs",
@@ -6261,6 +6728,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptAddEqualityMconstraint",
           "normalized": "NLOpt-\u003eInt-\u003eMFunc-\u003eVec-\u003eIO NloptResult",
@@ -6276,6 +6744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptAddEqualityMconstraint'_",
           "package": "ipopt-hs",
@@ -6285,6 +6754,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptAddEqualityMconstraint'_",
           "normalized": "Ptr()-\u003eCUInt-\u003eFunPtr(CUInt-\u003ePtr CDouble-\u003eCUInt-\u003ePtr CDouble-\u003ePtr CDouble-\u003ePtr()-\u003eIO())-\u003ePtr()-\u003ePtr CDouble-\u003eIO CInt",
@@ -6300,6 +6770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptAddInequalityConstraint",
           "package": "ipopt-hs",
@@ -6309,6 +6780,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptAddInequalityConstraint",
           "normalized": "NLOpt-\u003eFunc-\u003eDouble-\u003eIO NloptResult",
@@ -6324,6 +6796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptAddInequalityConstraint'_",
           "package": "ipopt-hs",
@@ -6333,6 +6806,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptAddInequalityConstraint'_",
           "normalized": "Ptr()-\u003eFunPtr(CUInt-\u003ePtr CDouble-\u003ePtr CDouble-\u003ePtr()-\u003eIO CDouble)-\u003ePtr()-\u003eCDouble-\u003eIO CInt",
@@ -6348,6 +6822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptAddInequalityMconstraint",
           "package": "ipopt-hs",
@@ -6357,6 +6832,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptAddInequalityMconstraint",
           "normalized": "NLOpt-\u003eInt-\u003eMFunc-\u003eVec-\u003eIO NloptResult",
@@ -6372,6 +6848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptAddInequalityMconstraint'_",
           "package": "ipopt-hs",
@@ -6381,6 +6858,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptAddInequalityMconstraint'_",
           "normalized": "Ptr()-\u003eCUInt-\u003eFunPtr(CUInt-\u003ePtr CDouble-\u003eCUInt-\u003ePtr CDouble-\u003ePtr CDouble-\u003ePtr()-\u003eIO())-\u003ePtr()-\u003ePtr CDouble-\u003eIO CInt",
@@ -6396,6 +6874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptAddPrecondEqualityConstraint",
           "package": "ipopt-hs",
@@ -6405,6 +6884,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptAddPrecondEqualityConstraint",
           "normalized": "NLOpt-\u003eFunc-\u003ePrecond-\u003eDouble-\u003eIO NloptResult",
@@ -6420,6 +6900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptAddPrecondEqualityConstraint'_",
           "package": "ipopt-hs",
@@ -6429,6 +6910,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptAddPrecondEqualityConstraint'_",
           "normalized": "Ptr()-\u003eFunPtr(CUInt-\u003ePtr CDouble-\u003ePtr CDouble-\u003ePtr()-\u003eIO CDouble)-\u003eFunPtr(CUInt-\u003ePtr CDouble-\u003ePtr CDouble-\u003ePtr CDouble-\u003ePtr()-\u003eIO())-\u003ePtr()-\u003eCDouble-\u003eIO CInt",
@@ -6444,6 +6926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptAddPrecondInequalityConstraint",
           "package": "ipopt-hs",
@@ -6453,6 +6936,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptAddPrecondInequalityConstraint",
           "normalized": "NLOpt-\u003eFunc-\u003ePrecond-\u003eDouble-\u003eIO NloptResult",
@@ -6468,6 +6952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptAddPrecondInequalityConstraint'_",
           "package": "ipopt-hs",
@@ -6477,6 +6962,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptAddPrecondInequalityConstraint'_",
           "normalized": "Ptr()-\u003eFunPtr(CUInt-\u003ePtr CDouble-\u003ePtr CDouble-\u003ePtr()-\u003eIO CDouble)-\u003eFunPtr(CUInt-\u003ePtr CDouble-\u003ePtr CDouble-\u003ePtr CDouble-\u003ePtr()-\u003eIO())-\u003ePtr()-\u003eCDouble-\u003eIO CInt",
@@ -6492,6 +6978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptCopy",
           "package": "ipopt-hs",
@@ -6501,6 +6988,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptCopy",
           "normalized": "NLOpt-\u003eIO NLOpt",
@@ -6516,6 +7004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptCopy'_",
           "package": "ipopt-hs",
@@ -6525,6 +7014,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptCopy'_",
           "normalized": "Ptr()-\u003eIO(Ptr())",
@@ -6540,6 +7030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptCreate",
           "package": "ipopt-hs",
@@ -6549,6 +7040,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptCreate",
           "normalized": "NloptAlgorithm-\u003eInt-\u003eIO NLOpt",
@@ -6564,6 +7056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptCreate'_",
           "package": "ipopt-hs",
@@ -6573,6 +7066,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptCreate'_",
           "normalized": "CInt-\u003eCUInt-\u003eIO(Ptr())",
@@ -6589,6 +7083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshould not need to be called manually\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptDestroy",
           "package": "ipopt-hs",
@@ -6599,6 +7094,7 @@
         "index": {
           "description": "should not need to be called manually",
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptDestroy",
           "normalized": "Ptr()-\u003eIO()",
@@ -6614,6 +7110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptDestroy'_",
           "package": "ipopt-hs",
@@ -6623,6 +7120,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptDestroy'_",
           "normalized": "Ptr()-\u003eIO()",
@@ -6638,6 +7136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptDestroyFP",
           "package": "ipopt-hs",
@@ -6647,6 +7146,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptDestroyFP",
           "normalized": "FunPtr(Ptr()-\u003eIO())",
@@ -6662,6 +7162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptForceStop",
           "package": "ipopt-hs",
@@ -6671,6 +7172,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptForceStop",
           "normalized": "NLOpt-\u003eIO NloptResult",
@@ -6686,6 +7188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptForceStop'_",
           "package": "ipopt-hs",
@@ -6695,6 +7198,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptForceStop'_",
           "normalized": "Ptr()-\u003eIO CInt",
@@ -6710,6 +7214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetAlgorithm",
           "package": "ipopt-hs",
@@ -6719,6 +7224,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetAlgorithm",
           "normalized": "NLOpt-\u003eIO NloptAlgorithm",
@@ -6734,6 +7240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetAlgorithm'_",
           "package": "ipopt-hs",
@@ -6743,6 +7250,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetAlgorithm'_",
           "normalized": "Ptr()-\u003eIO CInt",
@@ -6758,6 +7266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetDimension",
           "package": "ipopt-hs",
@@ -6767,6 +7276,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetDimension",
           "normalized": "NLOpt-\u003eIO Int",
@@ -6782,6 +7292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetDimension'_",
           "package": "ipopt-hs",
@@ -6791,6 +7302,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetDimension'_",
           "normalized": "Ptr()-\u003eIO CUInt",
@@ -6806,6 +7318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetForceStop",
           "package": "ipopt-hs",
@@ -6815,6 +7328,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetForceStop",
           "normalized": "NLOpt-\u003eIO Int",
@@ -6830,6 +7344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetForceStop'_",
           "package": "ipopt-hs",
@@ -6839,6 +7354,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetForceStop'_",
           "normalized": "Ptr()-\u003eIO CInt",
@@ -6854,6 +7370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetFtolAbs",
           "package": "ipopt-hs",
@@ -6863,6 +7380,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetFtolAbs",
           "normalized": "NLOpt-\u003eIO Double",
@@ -6878,6 +7396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetFtolAbs'_",
           "package": "ipopt-hs",
@@ -6887,6 +7406,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetFtolAbs'_",
           "normalized": "Ptr()-\u003eIO CDouble",
@@ -6902,6 +7422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetFtolRel",
           "package": "ipopt-hs",
@@ -6911,6 +7432,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetFtolRel",
           "normalized": "NLOpt-\u003eIO Double",
@@ -6926,6 +7448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetFtolRel'_",
           "package": "ipopt-hs",
@@ -6935,6 +7458,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetFtolRel'_",
           "normalized": "Ptr()-\u003eIO CDouble",
@@ -6950,6 +7474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetInitialStep",
           "package": "ipopt-hs",
@@ -6959,6 +7484,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetInitialStep",
           "normalized": "NLOpt-\u003eVec-\u003eVec-\u003eIO NloptResult",
@@ -6974,6 +7500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetInitialStep'_",
           "package": "ipopt-hs",
@@ -6983,6 +7510,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetInitialStep'_",
           "normalized": "Ptr()-\u003ePtr CDouble-\u003ePtr CDouble-\u003eIO CInt",
@@ -6998,6 +7526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetLowerBounds",
           "package": "ipopt-hs",
@@ -7007,6 +7536,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetLowerBounds",
           "normalized": "NLOpt-\u003eVec-\u003eIO NloptResult",
@@ -7022,6 +7552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetLowerBounds'_",
           "package": "ipopt-hs",
@@ -7031,6 +7562,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetLowerBounds'_",
           "normalized": "Ptr()-\u003ePtr CDouble-\u003eIO CInt",
@@ -7046,6 +7578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetMaxeval",
           "package": "ipopt-hs",
@@ -7055,6 +7588,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetMaxeval",
           "normalized": "NLOpt-\u003eIO Int",
@@ -7070,6 +7604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetMaxeval'_",
           "package": "ipopt-hs",
@@ -7079,6 +7614,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetMaxeval'_",
           "normalized": "Ptr()-\u003eIO CInt",
@@ -7094,6 +7630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetMaxtime",
           "package": "ipopt-hs",
@@ -7103,6 +7640,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetMaxtime",
           "normalized": "NLOpt-\u003eIO Double",
@@ -7118,6 +7656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetMaxtime'_",
           "package": "ipopt-hs",
@@ -7127,6 +7666,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetMaxtime'_",
           "normalized": "Ptr()-\u003eIO CDouble",
@@ -7142,6 +7682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetPopulation",
           "package": "ipopt-hs",
@@ -7151,6 +7692,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetPopulation",
           "normalized": "NLOpt-\u003eIO Int",
@@ -7166,6 +7708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetPopulation'_",
           "package": "ipopt-hs",
@@ -7175,6 +7718,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetPopulation'_",
           "normalized": "Ptr()-\u003eIO CUInt",
@@ -7190,6 +7734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetStopval",
           "package": "ipopt-hs",
@@ -7199,6 +7744,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetStopval",
           "normalized": "NLOpt-\u003eIO Double",
@@ -7214,6 +7760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetStopval'_",
           "package": "ipopt-hs",
@@ -7223,6 +7770,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetStopval'_",
           "normalized": "Ptr()-\u003eIO CDouble",
@@ -7238,6 +7786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetUpperBounds",
           "package": "ipopt-hs",
@@ -7247,6 +7796,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetUpperBounds",
           "normalized": "NLOpt-\u003eVec-\u003eIO NloptResult",
@@ -7262,6 +7812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetUpperBounds'_",
           "package": "ipopt-hs",
@@ -7271,6 +7822,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetUpperBounds'_",
           "normalized": "Ptr()-\u003ePtr CDouble-\u003eIO CInt",
@@ -7286,6 +7838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetVectorStorage",
           "package": "ipopt-hs",
@@ -7295,6 +7848,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetVectorStorage",
           "normalized": "NLOpt-\u003eIO Int",
@@ -7310,6 +7864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetVectorStorage'_",
           "package": "ipopt-hs",
@@ -7319,6 +7874,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetVectorStorage'_",
           "normalized": "Ptr()-\u003eIO CUInt",
@@ -7334,6 +7890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetXtolAbs",
           "package": "ipopt-hs",
@@ -7343,6 +7900,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetXtolAbs",
           "normalized": "NLOpt-\u003eVec-\u003eIO NloptResult",
@@ -7358,6 +7916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetXtolAbs'_",
           "package": "ipopt-hs",
@@ -7367,6 +7926,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetXtolAbs'_",
           "normalized": "Ptr()-\u003ePtr CDouble-\u003eIO CInt",
@@ -7382,6 +7942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetXtolRel",
           "package": "ipopt-hs",
@@ -7391,6 +7952,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetXtolRel",
           "normalized": "NLOpt-\u003eIO Double",
@@ -7406,6 +7968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptGetXtolRel'_",
           "package": "ipopt-hs",
@@ -7415,6 +7978,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptGetXtolRel'_",
           "normalized": "Ptr()-\u003eIO CDouble",
@@ -7430,6 +7994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptOptimize",
           "package": "ipopt-hs",
@@ -7439,6 +8004,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptOptimize",
           "normalized": "NLOpt-\u003eVec-\u003eIO(NloptResult,Double)",
@@ -7454,6 +8020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptOptimize'_",
           "package": "ipopt-hs",
@@ -7463,6 +8030,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptOptimize'_",
           "normalized": "Ptr()-\u003ePtr CDouble-\u003ePtr CDouble-\u003eIO CInt",
@@ -7478,6 +8046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptRemoveEqualityConstraints",
           "package": "ipopt-hs",
@@ -7487,6 +8056,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptRemoveEqualityConstraints",
           "normalized": "NLOpt-\u003eIO NloptResult",
@@ -7502,6 +8072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptRemoveEqualityConstraints'_",
           "package": "ipopt-hs",
@@ -7511,6 +8082,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptRemoveEqualityConstraints'_",
           "normalized": "Ptr()-\u003eIO CInt",
@@ -7526,6 +8098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptRemoveInequalityConstraints",
           "package": "ipopt-hs",
@@ -7535,6 +8108,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptRemoveInequalityConstraints",
           "normalized": "NLOpt-\u003eIO NloptResult",
@@ -7550,6 +8124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptRemoveInequalityConstraints'_",
           "package": "ipopt-hs",
@@ -7559,6 +8134,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptRemoveInequalityConstraints'_",
           "normalized": "Ptr()-\u003eIO CInt",
@@ -7574,6 +8150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetForceStop",
           "package": "ipopt-hs",
@@ -7583,6 +8160,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetForceStop",
           "normalized": "NLOpt-\u003eInt-\u003eIO NloptResult",
@@ -7598,6 +8176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetForceStop'_",
           "package": "ipopt-hs",
@@ -7607,6 +8186,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetForceStop'_",
           "normalized": "Ptr()-\u003eCInt-\u003eIO CInt",
@@ -7622,6 +8202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetFtolAbs",
           "package": "ipopt-hs",
@@ -7631,6 +8212,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetFtolAbs",
           "normalized": "NLOpt-\u003eDouble-\u003eIO NloptResult",
@@ -7646,6 +8228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetFtolAbs'_",
           "package": "ipopt-hs",
@@ -7655,6 +8238,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetFtolAbs'_",
           "normalized": "Ptr()-\u003eCDouble-\u003eIO CInt",
@@ -7670,6 +8254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetFtolRel",
           "package": "ipopt-hs",
@@ -7679,6 +8264,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetFtolRel",
           "normalized": "NLOpt-\u003eDouble-\u003eIO NloptResult",
@@ -7694,6 +8280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetFtolRel'_",
           "package": "ipopt-hs",
@@ -7703,6 +8290,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetFtolRel'_",
           "normalized": "Ptr()-\u003eCDouble-\u003eIO CInt",
@@ -7718,6 +8306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetInitialStep",
           "package": "ipopt-hs",
@@ -7727,6 +8316,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetInitialStep",
           "normalized": "NLOpt-\u003eVec-\u003eIO NloptResult",
@@ -7742,6 +8332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetInitialStep'_",
           "package": "ipopt-hs",
@@ -7751,6 +8342,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetInitialStep'_",
           "normalized": "Ptr()-\u003ePtr CDouble-\u003eIO CInt",
@@ -7766,6 +8358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetInitialStep1",
           "package": "ipopt-hs",
@@ -7775,6 +8368,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetInitialStep1",
           "normalized": "NLOpt-\u003eDouble-\u003eIO NloptResult",
@@ -7790,6 +8384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetInitialStep1'_",
           "package": "ipopt-hs",
@@ -7799,6 +8394,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetInitialStep1'_",
           "normalized": "Ptr()-\u003eCDouble-\u003eIO CInt",
@@ -7814,6 +8410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetLocalOptimizer",
           "package": "ipopt-hs",
@@ -7823,6 +8420,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetLocalOptimizer",
           "normalized": "NLOpt-\u003eNLOpt-\u003eIO NloptResult",
@@ -7838,6 +8436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetLocalOptimizer'_",
           "package": "ipopt-hs",
@@ -7847,6 +8446,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetLocalOptimizer'_",
           "normalized": "Ptr()-\u003ePtr()-\u003eIO CInt",
@@ -7862,6 +8462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetLowerBounds",
           "package": "ipopt-hs",
@@ -7871,6 +8472,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetLowerBounds",
           "normalized": "NLOpt-\u003eVec-\u003eIO NloptResult",
@@ -7886,6 +8488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetLowerBounds'_",
           "package": "ipopt-hs",
@@ -7895,6 +8498,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetLowerBounds'_",
           "normalized": "Ptr()-\u003ePtr CDouble-\u003eIO CInt",
@@ -7910,6 +8514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetLowerBounds1",
           "package": "ipopt-hs",
@@ -7919,6 +8524,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetLowerBounds1",
           "normalized": "NLOpt-\u003eDouble-\u003eIO NloptResult",
@@ -7934,6 +8540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetLowerBounds1'_",
           "package": "ipopt-hs",
@@ -7943,6 +8550,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetLowerBounds1'_",
           "normalized": "Ptr()-\u003eCDouble-\u003eIO CInt",
@@ -7958,6 +8566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetMaxObjective",
           "package": "ipopt-hs",
@@ -7967,6 +8576,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetMaxObjective",
           "normalized": "NLOpt-\u003eFunc-\u003eIO NloptResult",
@@ -7982,6 +8592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetMaxObjective'_",
           "package": "ipopt-hs",
@@ -7991,6 +8602,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetMaxObjective'_",
           "normalized": "Ptr()-\u003eFunPtr(CUInt-\u003ePtr CDouble-\u003ePtr CDouble-\u003ePtr()-\u003eIO CDouble)-\u003ePtr()-\u003eIO CInt",
@@ -8006,6 +8618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetMaxeval",
           "package": "ipopt-hs",
@@ -8015,6 +8628,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetMaxeval",
           "normalized": "NLOpt-\u003eInt-\u003eIO NloptResult",
@@ -8030,6 +8644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetMaxeval'_",
           "package": "ipopt-hs",
@@ -8039,6 +8654,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetMaxeval'_",
           "normalized": "Ptr()-\u003eCInt-\u003eIO CInt",
@@ -8054,6 +8670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetMaxtime",
           "package": "ipopt-hs",
@@ -8063,6 +8680,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetMaxtime",
           "normalized": "NLOpt-\u003eDouble-\u003eIO NloptResult",
@@ -8078,6 +8696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetMaxtime'_",
           "package": "ipopt-hs",
@@ -8087,6 +8706,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetMaxtime'_",
           "normalized": "Ptr()-\u003eCDouble-\u003eIO CInt",
@@ -8102,6 +8722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetMinObjective",
           "package": "ipopt-hs",
@@ -8111,6 +8732,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetMinObjective",
           "normalized": "NLOpt-\u003eFunc-\u003eIO NloptResult",
@@ -8126,6 +8748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetMinObjective'_",
           "package": "ipopt-hs",
@@ -8135,6 +8758,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetMinObjective'_",
           "normalized": "Ptr()-\u003eFunPtr(CUInt-\u003ePtr CDouble-\u003ePtr CDouble-\u003ePtr()-\u003eIO CDouble)-\u003ePtr()-\u003eIO CInt",
@@ -8150,6 +8774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetPopulation",
           "package": "ipopt-hs",
@@ -8159,6 +8784,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetPopulation",
           "normalized": "NLOpt-\u003eInt-\u003eIO NloptResult",
@@ -8174,6 +8800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetPopulation'_",
           "package": "ipopt-hs",
@@ -8183,6 +8810,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetPopulation'_",
           "normalized": "Ptr()-\u003eCUInt-\u003eIO CInt",
@@ -8198,6 +8826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetPrecondMaxObjective",
           "package": "ipopt-hs",
@@ -8207,6 +8836,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetPrecondMaxObjective",
           "normalized": "NLOpt-\u003eFunc-\u003ePrecond-\u003eIO NloptResult",
@@ -8222,6 +8852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetPrecondMaxObjective'_",
           "package": "ipopt-hs",
@@ -8231,6 +8862,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetPrecondMaxObjective'_",
           "normalized": "Ptr()-\u003eFunPtr(CUInt-\u003ePtr CDouble-\u003ePtr CDouble-\u003ePtr()-\u003eIO CDouble)-\u003eFunPtr(CUInt-\u003ePtr CDouble-\u003ePtr CDouble-\u003ePtr CDouble-\u003ePtr()-\u003eIO())-\u003ePtr()-\u003eIO CInt",
@@ -8246,6 +8878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetPrecondMinObjective",
           "package": "ipopt-hs",
@@ -8255,6 +8888,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetPrecondMinObjective",
           "normalized": "NLOpt-\u003eFunc-\u003ePrecond-\u003eIO NloptResult",
@@ -8270,6 +8904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetPrecondMinObjective'_",
           "package": "ipopt-hs",
@@ -8279,6 +8914,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetPrecondMinObjective'_",
           "normalized": "Ptr()-\u003eFunPtr(CUInt-\u003ePtr CDouble-\u003ePtr CDouble-\u003ePtr()-\u003eIO CDouble)-\u003eFunPtr(CUInt-\u003ePtr CDouble-\u003ePtr CDouble-\u003ePtr CDouble-\u003ePtr()-\u003eIO())-\u003ePtr()-\u003eIO CInt",
@@ -8294,6 +8930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetStopval",
           "package": "ipopt-hs",
@@ -8303,6 +8940,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetStopval",
           "normalized": "NLOpt-\u003eDouble-\u003eIO NloptResult",
@@ -8318,6 +8956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetStopval'_",
           "package": "ipopt-hs",
@@ -8327,6 +8966,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetStopval'_",
           "normalized": "Ptr()-\u003eCDouble-\u003eIO CInt",
@@ -8342,6 +8982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetUpperBounds",
           "package": "ipopt-hs",
@@ -8351,6 +8992,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetUpperBounds",
           "normalized": "NLOpt-\u003eVec-\u003eIO NloptResult",
@@ -8366,6 +9008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetUpperBounds'_",
           "package": "ipopt-hs",
@@ -8375,6 +9018,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetUpperBounds'_",
           "normalized": "Ptr()-\u003ePtr CDouble-\u003eIO CInt",
@@ -8390,6 +9034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetUpperBounds1",
           "package": "ipopt-hs",
@@ -8399,6 +9044,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetUpperBounds1",
           "normalized": "NLOpt-\u003eDouble-\u003eIO NloptResult",
@@ -8414,6 +9060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetUpperBounds1'_",
           "package": "ipopt-hs",
@@ -8423,6 +9070,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetUpperBounds1'_",
           "normalized": "Ptr()-\u003eCDouble-\u003eIO CInt",
@@ -8438,6 +9086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetVectorStorage",
           "package": "ipopt-hs",
@@ -8447,6 +9096,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetVectorStorage",
           "normalized": "NLOpt-\u003eInt-\u003eIO NloptResult",
@@ -8462,6 +9112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetVectorStorage'_",
           "package": "ipopt-hs",
@@ -8471,6 +9122,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetVectorStorage'_",
           "normalized": "Ptr()-\u003eCUInt-\u003eIO CInt",
@@ -8486,6 +9138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetXtolAbs",
           "package": "ipopt-hs",
@@ -8495,6 +9148,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetXtolAbs",
           "normalized": "NLOpt-\u003eVec-\u003eIO NloptResult",
@@ -8510,6 +9164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetXtolAbs'_",
           "package": "ipopt-hs",
@@ -8519,6 +9174,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetXtolAbs'_",
           "normalized": "Ptr()-\u003ePtr CDouble-\u003eIO CInt",
@@ -8534,6 +9190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetXtolAbs1",
           "package": "ipopt-hs",
@@ -8543,6 +9200,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetXtolAbs1",
           "normalized": "NLOpt-\u003eDouble-\u003eIO NloptResult",
@@ -8558,6 +9216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetXtolAbs1'_",
           "package": "ipopt-hs",
@@ -8567,6 +9226,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetXtolAbs1'_",
           "normalized": "Ptr()-\u003eCDouble-\u003eIO CInt",
@@ -8582,6 +9242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetXtolRel",
           "package": "ipopt-hs",
@@ -8591,6 +9252,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetXtolRel",
           "normalized": "NLOpt-\u003eDouble-\u003eIO NloptResult",
@@ -8606,6 +9268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSetXtolRel'_",
           "package": "ipopt-hs",
@@ -8615,6 +9278,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSetXtolRel'_",
           "normalized": "Ptr()-\u003eCDouble-\u003eIO CInt",
@@ -8630,6 +9294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSrand",
           "package": "ipopt-hs",
@@ -8639,6 +9304,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSrand",
           "normalized": "Int-\u003eIO()",
@@ -8654,6 +9320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSrand'_",
           "package": "ipopt-hs",
@@ -8663,6 +9330,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSrand'_",
           "normalized": "CULong-\u003eIO()",
@@ -8678,6 +9346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSrandTime",
           "package": "ipopt-hs",
@@ -8687,6 +9356,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSrandTime",
           "normalized": "IO()",
@@ -8702,6 +9372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptSrandTime'_",
           "package": "ipopt-hs",
@@ -8711,6 +9382,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptSrandTime'_",
           "normalized": "IO()",
@@ -8726,6 +9398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptVersion",
           "package": "ipopt-hs",
@@ -8735,6 +9408,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptVersion",
           "normalized": "IO(Int,Int,Int)",
@@ -8750,6 +9424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "nloptVersion'_",
           "package": "ipopt-hs",
@@ -8759,6 +9434,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "nloptVersion'_",
           "normalized": "Ptr CInt-\u003ePtr CInt-\u003ePtr CInt-\u003eIO()",
@@ -8775,6 +9451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ec2hs generates CDouble peek a Double instead\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "peekDouble",
           "package": "ipopt-hs",
@@ -8785,6 +9462,7 @@
         "index": {
           "description": "c2hs generates CDouble peek Double instead",
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "peekDouble",
           "normalized": "Ptr CDouble-\u003eIO Double",
@@ -8800,6 +9478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "peekInt",
           "package": "ipopt-hs",
@@ -8809,6 +9488,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "peekInt",
           "normalized": "Ptr a-\u003eIO b",
@@ -8824,6 +9504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "ptrToNLOpt",
           "package": "ipopt-hs",
@@ -8833,6 +9514,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "ptrToNLOpt",
           "normalized": "Ptr()-\u003eIO NLOpt",
@@ -8848,6 +9530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "ptrToV",
           "package": "ipopt-hs",
@@ -8857,6 +9540,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "ptrToV",
           "normalized": "a-\u003ePtr CDouble-\u003eIO(b Double)",
@@ -8872,6 +9556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "ptrToVS",
           "package": "ipopt-hs",
@@ -8881,6 +9566,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "ptrToVS",
           "normalized": "a-\u003ePtr CDouble-\u003eIO Vec",
@@ -8896,6 +9582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "toCInt",
           "package": "ipopt-hs",
@@ -8905,6 +9592,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "toCInt",
           "normalized": "a-\u003eb",
@@ -8920,6 +9608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "toFunc",
           "package": "ipopt-hs",
@@ -8929,6 +9618,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "toFunc",
           "normalized": "(a Double-\u003eIO Double)-\u003eFunc",
@@ -8945,6 +9635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhere the gradient happens via AD\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "toFuncAD",
           "package": "ipopt-hs",
@@ -8955,6 +9646,7 @@
         "index": {
           "description": "where the gradient happens via AD",
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "toFuncAD",
           "normalized": "Vector a-\u003ea)-\u003eFunc",
@@ -8970,6 +9662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "toFuncG",
           "package": "ipopt-hs",
@@ -8978,6 +9671,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "toFuncG",
           "normalized": "(a Double-\u003eIO Double)-\u003e(a Double-\u003eIO(a Double))-\u003eFunc",
@@ -8993,6 +9687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "toFuncM",
           "package": "ipopt-hs",
@@ -9002,6 +9697,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "toFuncM",
           "normalized": "(a Double-\u003eIO(a Double))-\u003eMFunc",
@@ -9017,6 +9713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "toFuncMAD",
           "package": "ipopt-hs",
@@ -9026,6 +9723,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "toFuncMAD",
           "normalized": "Vector a-\u003eVector a)-\u003eMFunc",
@@ -9042,6 +9740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003en\u003c/code\u003e and \u003ccode\u003em\u003c/code\u003e type variables indicate the vector size as\n number of inputs and number of outputs respectively\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "toFuncMG",
           "package": "ipopt-hs",
@@ -9052,6 +9751,7 @@
         "index": {
           "description": "and type variables indicate the vector size as number of inputs and number of outputs respectively",
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "toFuncMG",
           "normalized": "(a Double-\u003eIO(b Double))-\u003e(a Double-\u003eIO(a(b Double)))-\u003eMFunc",
@@ -9068,6 +9768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean exact hessian calculated with AD. See \u003ccode\u003e\u003ca\u003etoPrecondG\u003c/a\u003e\u003c/code\u003e\n XXX BFGS approx could also be done...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "toPrecondAD",
           "package": "ipopt-hs",
@@ -9078,6 +9779,7 @@
         "index": {
           "description": "an exact hessian calculated with AD See toPrecondG XXX BFGS approx could also be done",
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "toPrecondAD",
           "normalized": "Vector a-\u003ea)-\u003ePrecond",
@@ -9094,6 +9796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ca\u003ehttp://ab-initio.mit.edu/wiki/index.php/NLopt_Reference#Preconditioning_with_approximate_Hessians\u003c/a\u003e\n only applies to \u003ccode\u003e\u003ca\u003eNLOPT_LD_CCSAQ\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "toPrecondG",
           "package": "ipopt-hs",
@@ -9103,6 +9806,7 @@
         "index": {
           "description": "see http ab-initio.mit.edu wiki index.php NLopt Reference Preconditioning with approximate Hessians only applies to NLOPT LD CCSAQ",
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "toPrecondG",
           "normalized": "(a-\u003ea-\u003eIO a)-\u003ePrecond",
@@ -9118,6 +9822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "vmUnsafeWith",
           "package": "ipopt-hs",
@@ -9127,6 +9832,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "vmUnsafeWith",
           "normalized": "IOVector Double-\u003e(Ptr CDouble-\u003eIO a)-\u003eIO a",
@@ -9142,6 +9848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "withFunc",
           "package": "ipopt-hs",
@@ -9151,6 +9858,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "withFunc",
           "normalized": "Func-\u003e(FunPtr Func-\u003eIO a)-\u003eIO a",
@@ -9166,6 +9874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "withMFunc",
           "package": "ipopt-hs",
@@ -9175,6 +9884,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "withMFunc",
           "normalized": "MFunc-\u003e(FunPtr MFunc-\u003eIO a)-\u003eIO a",
@@ -9190,6 +9900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "withNLOpt",
           "package": "ipopt-hs",
@@ -9199,6 +9910,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "withNLOpt",
           "normalized": "NLOpt-\u003e(Ptr NLOpt-\u003eIO a)-\u003eIO a",
@@ -9214,6 +9926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "withNLOpt_",
           "package": "ipopt-hs",
@@ -9223,6 +9936,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "withNLOpt_",
           "normalized": "NLOpt-\u003e(Ptr a-\u003eIO a)-\u003eIO a",
@@ -9238,6 +9952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "withNull",
           "package": "ipopt-hs",
@@ -9247,6 +9962,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "withNull",
           "normalized": "(Ptr a-\u003eb)-\u003eb",
@@ -9262,6 +9978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:26 UTC 2014",
           "module": "Nlopt.Raw",
           "name": "withPrecond",
           "package": "ipopt-hs",
@@ -9271,6 +9988,7 @@
         },
         "index": {
           "hierarchy": "Nlopt Raw",
+          "indexed": "2014-03-11T18:59:26",
           "module": "Nlopt.Raw",
           "name": "withPrecond",
           "normalized": "Precond-\u003e(FunPtr Precond-\u003eIO a)-\u003eIO a",

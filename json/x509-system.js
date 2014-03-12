@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "x509-system"
+        "phrase": "x509-system",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:52 UTC 2014",
           "module": "System.X509.MacOS",
           "name": "MacOS",
           "package": "x509-system",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System X509 MacOS",
+          "indexed": "2014-03-11T20:40:52",
           "module": "System.X509.MacOS",
           "name": "MacOS",
           "package": "x509-system",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:52 UTC 2014",
           "module": "System.X509.MacOS",
           "name": "getSystemCertificateStore",
           "package": "x509-system",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "System X509 MacOS",
+          "indexed": "2014-03-11T20:40:52",
           "module": "System.X509.MacOS",
           "name": "getSystemCertificateStore",
           "package": "x509-system",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ethis module is portable to unix system where there is usually\n a \u003cem\u003eetc\u003c/em\u003essl/certs with system X509 certificates.\n\u003c/p\u003e\u003cp\u003ethe path can be dynamically override using the environment variable\n defined by envPathOverride in the module, which by\n default is SYSTEM_CERTIFICATE_PATH\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:52 UTC 2014",
           "module": "System.X509.Unix",
           "name": "Unix",
           "package": "x509-system",
@@ -71,6 +76,7 @@
         "index": {
           "description": "this module is portable to unix system where there is usually etc ssl certs with system X509 certificates the path can be dynamically override using the environment variable defined by envPathOverride in the module which by default is SYSTEM CERTIFICATE PATH",
           "hierarchy": "System X509 Unix",
+          "indexed": "2014-03-11T20:40:52",
           "module": "System.X509.Unix",
           "name": "Unix",
           "package": "x509-system",
@@ -107,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:52 UTC 2014",
           "module": "System.X509",
           "name": "X509",
           "package": "x509-system",
@@ -115,6 +122,7 @@
         },
         "index": {
           "hierarchy": "System X509",
+          "indexed": "2014-03-11T20:40:52",
           "module": "System.X509",
           "name": "X509",
           "package": "x509-system",

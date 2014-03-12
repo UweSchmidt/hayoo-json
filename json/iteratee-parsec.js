@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "iteratee-parsec"
+        "phrase": "iteratee-parsec",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule providing simple implementation based on accumulating chunks.\nIt is optimised for short parsers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:00:24 UTC 2014",
           "module": "Text.Parsec.Iteratee.Chunk",
           "name": "Chunk",
           "package": "iteratee-parsec",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Module providing simple implementation based on accumulating chunks It is optimised for short parsers",
           "hierarchy": "Text Parsec Iteratee Chunk",
+          "indexed": "2014-03-11T19:00:24",
           "module": "Text.Parsec.Iteratee.Chunk",
           "name": "Chunk",
           "package": "iteratee-parsec",
@@ -69,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule providing simple implementation based on mutable linked list.\nIt is optimised for longer parsers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:00:24 UTC 2014",
           "module": "Text.Parsec.Iteratee.LinkedList",
           "name": "LinkedList",
           "package": "iteratee-parsec",
@@ -78,6 +81,7 @@
         "index": {
           "description": "Module providing simple implementation based on mutable linked list It is optimised for longer parsers",
           "hierarchy": "Text Parsec Iteratee LinkedList",
+          "indexed": "2014-03-11T19:00:24",
           "module": "Text.Parsec.Iteratee.LinkedList",
           "name": "LinkedList",
           "package": "iteratee-parsec",
@@ -92,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCursor holds current value and reference to possible next cursor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:24 UTC 2014",
           "module": "Text.Parsec.Iteratee.LinkedList",
           "name": "Cursor",
           "package": "iteratee-parsec",
@@ -101,6 +106,7 @@
         "index": {
           "description": "Cursor holds current value and reference to possible next cursor",
           "hierarchy": "Text Parsec Iteratee LinkedList",
+          "indexed": "2014-03-11T19:00:24",
           "module": "Text.Parsec.Iteratee.LinkedList",
           "name": "Cursor",
           "package": "iteratee-parsec",
@@ -115,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify the 3 possible states of next cursor - existence, non-existence\n and not being evaluated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:24 UTC 2014",
           "module": "Text.Parsec.Iteratee.LinkedList",
           "name": "NextCursor",
           "package": "iteratee-parsec",
@@ -124,6 +131,7 @@
         "index": {
           "description": "Specify the possible states of next cursor existence non-existence and not being evaluated",
           "hierarchy": "Text Parsec Iteratee LinkedList",
+          "indexed": "2014-03-11T19:00:24",
           "module": "Text.Parsec.Iteratee.LinkedList",
           "name": "NextCursor",
           "package": "iteratee-parsec",
@@ -138,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass connecting mutable variable and monad it exists in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:24 UTC 2014",
           "module": "Text.Parsec.Iteratee.LinkedList",
           "name": "Reference",
           "package": "iteratee-parsec",
@@ -146,6 +155,7 @@
         "index": {
           "description": "Class connecting mutable variable and monad it exists in",
           "hierarchy": "Text Parsec Iteratee LinkedList",
+          "indexed": "2014-03-11T19:00:24",
           "module": "Text.Parsec.Iteratee.LinkedList",
           "name": "Reference",
           "package": "iteratee-parsec",
@@ -160,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates new cursor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:24 UTC 2014",
           "module": "Text.Parsec.Iteratee.LinkedList",
           "name": "mkCursor",
           "package": "iteratee-parsec",
@@ -170,6 +181,7 @@
         "index": {
           "description": "Creates new cursor",
           "hierarchy": "Text Parsec Iteratee LinkedList",
+          "indexed": "2014-03-11T19:00:24",
           "module": "Text.Parsec.Iteratee.LinkedList",
           "name": "mkCursor",
           "package": "iteratee-parsec",
@@ -184,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the reference. Default implementation is provided but it MUST\n be overloaded if the reference is atomic to provide an atomic write.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:24 UTC 2014",
           "module": "Text.Parsec.Iteratee.LinkedList",
           "name": "modifyRef",
           "package": "iteratee-parsec",
@@ -193,6 +206,7 @@
         "index": {
           "description": "Modify the reference Default implementation is provided but it MUST be overloaded if the reference is atomic to provide an atomic write",
           "hierarchy": "Text Parsec Iteratee LinkedList",
+          "indexed": "2014-03-11T19:00:24",
           "module": "Text.Parsec.Iteratee.LinkedList",
           "name": "modifyRef",
           "package": "iteratee-parsec",
@@ -207,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate new reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:24 UTC 2014",
           "module": "Text.Parsec.Iteratee.LinkedList",
           "name": "newRef",
           "package": "iteratee-parsec",
@@ -216,6 +231,7 @@
         "index": {
           "description": "Create new reference",
           "hierarchy": "Text Parsec Iteratee LinkedList",
+          "indexed": "2014-03-11T19:00:24",
           "module": "Text.Parsec.Iteratee.LinkedList",
           "name": "newRef",
           "package": "iteratee-parsec",
@@ -256,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:24 UTC 2014",
           "module": "Text.Parsec.Iteratee.LinkedList",
           "name": "readRef",
           "package": "iteratee-parsec",
@@ -265,6 +282,7 @@
         "index": {
           "description": "Reads reference",
           "hierarchy": "Text Parsec Iteratee LinkedList",
+          "indexed": "2014-03-11T19:00:24",
           "module": "Text.Parsec.Iteratee.LinkedList",
           "name": "readRef",
           "package": "iteratee-parsec",
@@ -305,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite to reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:24 UTC 2014",
           "module": "Text.Parsec.Iteratee.LinkedList",
           "name": "writeRef",
           "package": "iteratee-parsec",
@@ -314,6 +333,7 @@
         "index": {
           "description": "Write to reference",
           "hierarchy": "Text Parsec Iteratee LinkedList",
+          "indexed": "2014-03-11T19:00:24",
           "module": "Text.Parsec.Iteratee.LinkedList",
           "name": "writeRef",
           "package": "iteratee-parsec",
@@ -327,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:24 UTC 2014",
           "module": "Text.Parsec.Iteratee",
           "name": "Iteratee",
           "package": "iteratee-parsec",
@@ -335,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Text Parsec Iteratee",
+          "indexed": "2014-03-11T19:00:24",
           "module": "Text.Parsec.Iteratee",
           "name": "Iteratee",
           "package": "iteratee-parsec",

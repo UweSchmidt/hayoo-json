@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bitvec"
+        "phrase": "bitvec",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Bit",
           "name": "Bit",
           "package": "bitvec",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Bit",
           "name": "Bit",
           "package": "bitvec",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Bit",
           "name": "Bit",
           "package": "bitvec",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Bit",
           "name": "Bit",
           "package": "bitvec",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Bit",
           "name": "fromBool",
           "package": "bitvec",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Bit",
           "name": "fromBool",
           "normalized": "Bool-\u003eBit",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Bit",
           "name": "toBool",
           "package": "bitvec",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Bit",
           "name": "toBool",
           "normalized": "Bit-\u003eBool",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "Bit",
           "package": "bitvec",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "Bit",
           "package": "bitvec",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "all",
           "package": "bitvec",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "all",
           "normalized": "(a-\u003eBool)-\u003eVector Bit-\u003eBool",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "allBits",
           "package": "bitvec",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "allBits",
           "normalized": "Bit-\u003eVector Bit-\u003eBool",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if all bits in the vector are set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "and",
           "package": "bitvec",
@@ -187,6 +202,7 @@
         "index": {
           "description": "True if all bits in the vector are set",
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "and",
           "normalized": "Vector Bit-\u003eBool",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "any",
           "package": "bitvec",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "any",
           "normalized": "(a-\u003eBool)-\u003eVector Bit-\u003eBool",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "anyBits",
           "package": "bitvec",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "anyBits",
           "normalized": "Bit-\u003eVector Bit-\u003eBool",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the number of ones in a bit vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "countBits",
           "package": "bitvec",
@@ -259,6 +280,7 @@
         "index": {
           "description": "return the number of ones in bit vector",
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "countBits",
           "normalized": "Vector Bit-\u003eInt",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "difference",
           "package": "bitvec",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "difference",
           "normalized": "Vector Bit-\u003eVector Bit-\u003eVector Bit",
@@ -298,6 +322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a vector of bits and a vector of things, extract those things for which the corresponding bit is unset.\n\u003c/p\u003e\u003cp\u003eFor example, \u003ccode\u003eexclude (V.map (fromBool . p) x) x == V.filter (not . p) x\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "exclude",
           "package": "bitvec",
@@ -308,6 +333,7 @@
         "index": {
           "description": "Given vector of bits and vector of things extract those things for which the corresponding bit is unset For example exclude V.map fromBool V.filter not",
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "exclude",
           "normalized": "a Bit-\u003ea b-\u003e[b]",
@@ -322,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "excludeBits",
           "package": "bitvec",
@@ -331,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "excludeBits",
           "normalized": "Vector Bit-\u003eVector Bit-\u003eVector Bit",
@@ -346,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "findIndex",
           "package": "bitvec",
@@ -355,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "findIndex",
           "normalized": "(a-\u003eBool)-\u003eVector Bit-\u003eMaybe Int",
@@ -371,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the address of the first bit in the vector with the specified value, if any\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "first",
           "package": "bitvec",
@@ -381,6 +412,7 @@
         "index": {
           "description": "Return the address of the first bit in the vector with the specified value if any",
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "first",
           "normalized": "Bit-\u003eVector Bit-\u003eMaybe Int",
@@ -396,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a number of bits and a vector of words, concatenate them to a vector of bits (interpreting the words in little-endian order, as described at \u003ccode\u003e\u003ca\u003eindexWord\u003c/a\u003e\u003c/code\u003e).  If there are not enough words for the number of bits requested, the vector will be zero-padded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "fromWords",
           "package": "bitvec",
@@ -406,6 +439,7 @@
         "index": {
           "description": "Given number of bits and vector of words concatenate them to vector of bits interpreting the words in little-endian order as described at indexWord If there are not enough words for the number of bits requested the vector will be zero-padded",
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "fromWords",
           "normalized": "Int-\u003eVector Word-\u003eVector Bit",
@@ -422,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread a word at the given bit offset in little-endian order (i.e., the LSB will correspond to the bit at the given address, the 2's bit will correspond to the address + 1, etc.).  If the offset is such that the word extends past the end of the vector, the result is zero-padded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "indexWord",
           "package": "bitvec",
@@ -432,6 +467,7 @@
         "index": {
           "description": "read word at the given bit offset in little-endian order i.e the LSB will correspond to the bit at the given address the bit will correspond to the address etc If the offset is such that the word extends past the end of the vector the result is zero-padded",
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "indexWord",
           "normalized": "Vector Bit-\u003eInt-\u003eWord",
@@ -447,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "intersection",
           "package": "bitvec",
@@ -456,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "intersection",
           "normalized": "Vector Bit-\u003eVector Bit-\u003eVector Bit",
@@ -470,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "intersections",
           "package": "bitvec",
@@ -479,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "intersections",
           "normalized": "Int-\u003e[Vector Bit]-\u003eVector Bit",
@@ -494,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlip every bit in the given vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "invert",
           "package": "bitvec",
@@ -504,6 +545,7 @@
         "index": {
           "description": "Flip every bit in the given vector",
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "invert",
           "normalized": "Vector Bit-\u003eVector Bit",
@@ -518,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "listBits",
           "package": "bitvec",
@@ -527,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "listBits",
           "normalized": "Vector Bit-\u003e[Int]",
@@ -543,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if any bit in the vector is set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "or",
           "package": "bitvec",
@@ -553,6 +598,7 @@
         "index": {
           "description": "True if any bit in the vector is set",
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "or",
           "normalized": "Vector Bit-\u003eBool",
@@ -567,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "pad",
           "package": "bitvec",
@@ -576,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "pad",
           "normalized": "Int-\u003eVector Bit-\u003eVector Bit",
@@ -590,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "padWith",
           "package": "bitvec",
@@ -599,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "padWith",
           "normalized": "Bit-\u003eInt-\u003eVector Bit-\u003eVector Bit",
@@ -614,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "reverse",
           "package": "bitvec",
@@ -623,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "reverse",
           "normalized": "Vector Bit-\u003eVector Bit",
@@ -638,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a vector of bits and a vector of things, extract those things for which the corresponding bit is set.\n\u003c/p\u003e\u003cp\u003eFor example, \u003ccode\u003eselect (V.map (fromBool . p) x) x == V.filter p x\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "select",
           "package": "bitvec",
@@ -648,6 +701,7 @@
         "index": {
           "description": "Given vector of bits and vector of things extract those things for which the corresponding bit is set For example select V.map fromBool V.filter",
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "select",
           "normalized": "a Bit-\u003ea b-\u003e[b]",
@@ -662,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "selectBits",
           "package": "bitvec",
@@ -671,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "selectBits",
           "normalized": "Vector Bit-\u003eVector Bit-\u003eVector Bit",
@@ -686,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "symDiff",
           "package": "bitvec",
@@ -695,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "symDiff",
           "normalized": "Vector Bit-\u003eVector Bit-\u003eVector Bit",
@@ -711,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a vector of bits, extract an unboxed vector of words.  If the bits don't completely fill the words, the last word will be zero-padded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "toWords",
           "package": "bitvec",
@@ -721,6 +780,7 @@
         "index": {
           "description": "Given vector of bits extract an unboxed vector of words If the bits don completely fill the words the last word will be zero-padded",
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "toWords",
           "normalized": "Vector Bit-\u003eVector Word",
@@ -736,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "union",
           "package": "bitvec",
@@ -745,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "union",
           "normalized": "Vector Bit-\u003eVector Bit-\u003eVector Bit",
@@ -759,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "unions",
           "package": "bitvec",
@@ -768,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "unions",
           "normalized": "Int-\u003e[Vector Bit]-\u003eVector Bit",
@@ -782,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "wordLength",
           "package": "bitvec",
@@ -791,6 +856,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "wordLength",
           "normalized": "Vector Bit-\u003eInt",
@@ -832,6 +898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ezipWords f xs ys\u003c/code\u003e = \u003ccode\u003efromWords (min (length xs) (length ys)) (zipWith f (toWords xs) (toWords ys))\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "zipWords",
           "package": "bitvec",
@@ -842,6 +909,7 @@
         "index": {
           "description": "zipWords xs ys fromWords min length xs length ys zipWith toWords xs toWords ys",
           "hierarchy": "Data Vector Unboxed Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Bit",
           "name": "zipWords",
           "normalized": "(Word-\u003eWord-\u003eWord)-\u003eVector Bit-\u003eVector Bit-\u003eVector Bit",
@@ -857,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "Bit",
           "package": "bitvec",
@@ -865,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "Bit",
           "package": "bitvec",
@@ -878,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "all",
           "package": "bitvec",
@@ -887,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "all",
           "normalized": "(Bit-\u003eBool)-\u003eMVector(PrimState a)Bit-\u003ea Bool",
@@ -901,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "allBits",
           "package": "bitvec",
@@ -910,6 +983,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "allBits",
           "normalized": "Bit-\u003eMVector(PrimState a)Bit-\u003ea Bool",
@@ -926,6 +1000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if all bits in the vector are set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "and",
           "package": "bitvec",
@@ -936,6 +1011,7 @@
         "index": {
           "description": "Returns True if all bits in the vector are set",
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "and",
           "normalized": "MVector(PrimState a)Bit-\u003ea Bool",
@@ -950,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "any",
           "package": "bitvec",
@@ -959,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "any",
           "normalized": "(Bit-\u003eBool)-\u003eMVector(PrimState a)Bit-\u003ea Bool",
@@ -973,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "anyBits",
           "package": "bitvec",
@@ -982,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "anyBits",
           "normalized": "Bit-\u003eMVector(PrimState a)Bit-\u003ea Bool",
@@ -998,6 +1078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClone a specified number of bits from a vector of words into a new vector of bits (interpreting the words in little-endian order, as described at \u003ccode\u003e\u003ca\u003eindexWord\u003c/a\u003e\u003c/code\u003e).  If there are not enough words for the number of bits requested, the vector will be zero-padded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "cloneFromWords",
           "package": "bitvec",
@@ -1008,6 +1089,7 @@
         "index": {
           "description": "Clone specified number of bits from vector of words into new vector of bits interpreting the words in little-endian order as described at indexWord If there are not enough words for the number of bits requested the vector will be zero-padded",
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "cloneFromWords",
           "normalized": "Int-\u003eMVector(PrimState a)Word-\u003ea(MVector(PrimState a)Bit)",
@@ -1024,6 +1106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclone a vector of bits to a new unboxed vector of words.  If the bits don't completely fill the words, the last word will be zero-padded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "cloneToWords",
           "package": "bitvec",
@@ -1034,6 +1117,7 @@
         "index": {
           "description": "clone vector of bits to new unboxed vector of words If the bits don completely fill the words the last word will be zero-padded",
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "cloneToWords",
           "normalized": "MVector(PrimState a)Bit-\u003ea(MVector(PrimState a)Word)",
@@ -1050,6 +1134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the number of ones in a bit vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "countBits",
           "package": "bitvec",
@@ -1060,6 +1145,7 @@
         "index": {
           "description": "return the number of ones in bit vector",
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "countBits",
           "normalized": "MVector(PrimState a)Bit-\u003ea Int",
@@ -1075,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "differenceInPlace",
           "package": "bitvec",
@@ -1084,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "differenceInPlace",
           "normalized": "MVector(PrimState a)Bit-\u003eVector Bit-\u003ea()",
@@ -1099,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "excludeBitsInPlace",
           "package": "bitvec",
@@ -1108,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "excludeBitsInPlace",
           "normalized": "Vector Bit-\u003eMVector(PrimState a)Bit-\u003ea Int",
@@ -1123,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "intersectionInPlace",
           "package": "bitvec",
@@ -1132,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "intersectionInPlace",
           "normalized": "MVector(PrimState a)Bit-\u003eVector Bit-\u003ea()",
@@ -1148,6 +1240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlip every bit in the given vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "invertInPlace",
           "package": "bitvec",
@@ -1158,6 +1251,7 @@
         "index": {
           "description": "Flip every bit in the given vector",
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "invertInPlace",
           "normalized": "MVector(PrimState a)Bit-\u003ea()",
@@ -1173,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "listBits",
           "package": "bitvec",
@@ -1182,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "listBits",
           "normalized": "MVector(PrimState a)Bit-\u003ea[Int]",
@@ -1197,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "mapInPlace",
           "package": "bitvec",
@@ -1206,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "mapInPlace",
           "normalized": "(Word-\u003eWord)-\u003eMVector(PrimState a)Bit-\u003ea()",
@@ -1221,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "mapInPlaceWithIndex",
           "package": "bitvec",
@@ -1230,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "mapInPlaceWithIndex",
           "normalized": "(Int-\u003eWord-\u003eWord)-\u003eMVector(PrimState a)Bit-\u003ea()",
@@ -1246,6 +1346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003emapMInPlaceWithIndex\u003c/a\u003e\u003c/code\u003e but without the index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "mapMInPlace",
           "package": "bitvec",
@@ -1256,6 +1357,7 @@
         "index": {
           "description": "Same as mapMInPlaceWithIndex but without the index",
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "mapMInPlace",
           "normalized": "(Word-\u003ea Word)-\u003eMVector(PrimState a)Bit-\u003ea()",
@@ -1272,6 +1374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over a bit vector one \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e at a time (\u003ccode\u003e\u003ca\u003ewordSize\u003c/a\u003e\u003c/code\u003e bits at a time).  The function will be passed the bit index (which will always be \u003ccode\u003e\u003ca\u003ewordSize\u003c/a\u003e\u003c/code\u003e-aligned) and the current value of the corresponding word.  The returned word will be written back to the vector.  If there is a partial word at the end of the vector, it will be zero-padded when passed to the function and truncated when the result is written back to the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "mapMInPlaceWithIndex",
           "package": "bitvec",
@@ -1282,6 +1385,7 @@
         "index": {
           "description": "Map function over bit vector one Word at time wordSize bits at time The function will be passed the bit index which will always be wordSize aligned and the current value of the corresponding word The returned word will be written back to the vector If there is partial word at the end of the vector it will be zero-padded when passed to the function and truncated when the result is written back to the array",
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "mapMInPlaceWithIndex",
           "normalized": "(Int-\u003eWord-\u003ea Word)-\u003eMVector(PrimState a)Bit-\u003ea()",
@@ -1298,6 +1402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if any bit in the vector is set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "or",
           "package": "bitvec",
@@ -1308,6 +1413,7 @@
         "index": {
           "description": "Returns True if any bit in the vector is set",
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "or",
           "normalized": "MVector(PrimState a)Bit-\u003ea Bool",
@@ -1323,6 +1429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread a word at the given bit offset in little-endian order (i.e., the LSB will correspond to the bit at the given address, the 2's bit will correspond to the address + 1, etc.).  If the offset is such that the word extends past the end of the vector, the result is zero-padded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "readWord",
           "package": "bitvec",
@@ -1333,6 +1440,7 @@
         "index": {
           "description": "read word at the given bit offset in little-endian order i.e the LSB will correspond to the bit at the given address the bit will correspond to the address etc If the offset is such that the word extends past the end of the vector the result is zero-padded",
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "readWord",
           "normalized": "MVector(PrimState a)Bit-\u003eInt-\u003ea Word",
@@ -1348,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "reverseInPlace",
           "package": "bitvec",
@@ -1357,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "reverseInPlace",
           "normalized": "MVector(PrimState a)Bit-\u003ea()",
@@ -1372,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "selectBitsInPlace",
           "package": "bitvec",
@@ -1381,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "selectBitsInPlace",
           "normalized": "Vector Bit-\u003eMVector(PrimState a)Bit-\u003ea Int",
@@ -1396,6 +1508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "symDiffInPlace",
           "package": "bitvec",
@@ -1405,6 +1518,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "symDiffInPlace",
           "normalized": "MVector(PrimState a)Bit-\u003eVector Bit-\u003ea()",
@@ -1420,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "unionInPlace",
           "package": "bitvec",
@@ -1429,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "unionInPlace",
           "normalized": "MVector(PrimState a)Bit-\u003eVector Bit-\u003ea()",
@@ -1445,6 +1561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the length of the vector that would be created by \u003ccode\u003e\u003ca\u003ecloneToWords\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "wordLength",
           "package": "bitvec",
@@ -1455,6 +1572,7 @@
         "index": {
           "description": "Get the length of the vector that would be created by cloneToWords",
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "wordLength",
           "normalized": "MVector a Bit-\u003eInt",
@@ -1471,6 +1589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrite a word at the given bit offset in little-endian order (i.e., the LSB will correspond to the bit at the given address, the 2's bit will correspond to the address + 1, etc.).  If the offset is such that the word extends past the end of the vector, the word is truncated and as many low-order bits as possible are written.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "writeWord",
           "package": "bitvec",
@@ -1481,6 +1600,7 @@
         "index": {
           "description": "write word at the given bit offset in little-endian order i.e the LSB will correspond to the bit at the given address the bit will correspond to the address etc If the offset is such that the word extends past the end of the vector the word is truncated and as many low-order bits as possible are written",
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "writeWord",
           "normalized": "MVector(PrimState a)Bit-\u003eInt-\u003eWord-\u003ea()",
@@ -1496,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:13 UTC 2014",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "zipInPlace",
           "package": "bitvec",
@@ -1505,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Mutable Bit",
+          "indexed": "2014-03-11T17:23:13",
           "module": "Data.Vector.Unboxed.Mutable.Bit",
           "name": "zipInPlace",
           "normalized": "(Word-\u003eWord-\u003eWord)-\u003eMVector(PrimState a)Bit-\u003eVector Bit-\u003ea()",

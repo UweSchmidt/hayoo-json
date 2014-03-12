@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "random-shuffle"
+        "phrase": "random-shuffle",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ehttp:\u003cem/\u003eokmij.org\u003cem\u003eftp\u003c/em\u003eHaskell/perfect-shuffle.txt\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:12 UTC 2014",
           "module": "System.Random.Shuffle",
           "name": "Shuffle",
           "package": "random-shuffle",
@@ -28,6 +29,7 @@
         "index": {
           "description": "http okmij.org ftp Haskell perfect-shuffle.txt",
           "hierarchy": "System Random Shuffle",
+          "indexed": "2014-03-11T19:48:12",
           "module": "System.Random.Shuffle",
           "name": "Shuffle",
           "package": "random-shuffle",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a sequence (e1,...en) to shuffle, and a sequence\n (r1,...r[n-1]) of numbers such that r[i] is an independent sample\n from a uniform random distribution [0..n-i], compute the\n corresponding permutation of the input sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:12 UTC 2014",
           "module": "System.Random.Shuffle",
           "name": "shuffle",
           "package": "random-shuffle",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Given sequence e1 en to shuffle and sequence r1 n-1 of numbers such that is an independent sample from uniform random distribution n-i compute the corresponding permutation of the input sequence",
           "hierarchy": "System Random Shuffle",
+          "indexed": "2014-03-11T19:48:12",
           "module": "System.Random.Shuffle",
           "name": "shuffle",
           "normalized": "[a]-\u003e[Int]-\u003e[a]",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a sequence (e1,...en) to shuffle, its length, and a random\n generator, compute the corresponding permutation of the input\n sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:12 UTC 2014",
           "module": "System.Random.Shuffle",
           "name": "shuffle'",
           "package": "random-shuffle",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Given sequence e1 en to shuffle its length and random generator compute the corresponding permutation of the input sequence",
           "hierarchy": "System Random Shuffle",
+          "indexed": "2014-03-11T19:48:12",
           "module": "System.Random.Shuffle",
           "name": "shuffle'",
           "normalized": "[a]-\u003eInt-\u003eb-\u003e[a]",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshuffle' wrapped in a random monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:12 UTC 2014",
           "module": "System.Random.Shuffle",
           "name": "shuffleM",
           "package": "random-shuffle",
@@ -102,6 +109,7 @@
         "index": {
           "description": "shuffle wrapped in random monad",
           "hierarchy": "System Random Shuffle",
+          "indexed": "2014-03-11T19:48:12",
           "module": "System.Random.Shuffle",
           "name": "shuffleM",
           "normalized": "[a]-\u003eb[a]",

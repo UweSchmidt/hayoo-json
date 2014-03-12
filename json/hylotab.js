@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hylotab"
+        "phrase": "hylotab",
+        "type": "phrase"
       },
       "type": "context"
     }

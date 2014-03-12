@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "htsn"
+        "phrase": "htsn",
+        "type": "phrase"
       },
       "type": "context"
     }

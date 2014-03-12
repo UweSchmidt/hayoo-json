@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SHA2"
+        "phrase": "SHA2",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA primitive interface to SHA-2\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:59:36 UTC 2014",
           "module": "Codec.Digest.SHA.IO",
           "name": "IO",
           "package": "SHA2",
@@ -28,6 +29,7 @@
         "index": {
           "description": "primitive interface to SHA-2",
           "hierarchy": "Codec Digest SHA IO",
+          "indexed": "2014-03-11T16:59:36",
           "module": "Codec.Digest.SHA.IO",
           "name": "IO",
           "package": "SHA2",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:36 UTC 2014",
           "module": "Codec.Digest.SHA.IO",
           "name": "Length",
           "package": "SHA2",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Codec Digest SHA IO",
+          "indexed": "2014-03-11T16:59:36",
           "module": "Codec.Digest.SHA.IO",
           "name": "Length",
           "package": "SHA2",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:36 UTC 2014",
           "module": "Codec.Digest.SHA.IO",
           "name": "SHACtx",
           "package": "SHA2",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Codec Digest SHA IO",
+          "indexed": "2014-03-11T16:59:36",
           "module": "Codec.Digest.SHA.IO",
           "name": "SHACtx",
           "package": "SHA2",
@@ -152,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:36 UTC 2014",
           "module": "Codec.Digest.SHA.IO",
           "name": "newCtx",
           "package": "SHA2",
@@ -161,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Codec Digest SHA IO",
+          "indexed": "2014-03-11T16:59:36",
           "module": "Codec.Digest.SHA.IO",
           "name": "newCtx",
           "normalized": "Length-\u003eIO SHACtx",
@@ -204,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAfter calling this, you must not call either unsafeUpdateCtx or\n unsafeFinalizeCtx again. (On the same context)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:36 UTC 2014",
           "module": "Codec.Digest.SHA.IO",
           "name": "unsafeFinalizeCtx",
           "package": "SHA2",
@@ -214,6 +223,7 @@
         "index": {
           "description": "After calling this you must not call either unsafeUpdateCtx or unsafeFinalizeCtx again On the same context",
           "hierarchy": "Codec Digest SHA IO",
+          "indexed": "2014-03-11T16:59:36",
           "module": "Codec.Digest.SHA.IO",
           "name": "unsafeFinalizeCtx",
           "normalized": "SHACtx-\u003eIO ByteString",
@@ -230,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeads up: Calling this function after calling finalizeCtx is\n likely to result in crashes, therefore unsafe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:36 UTC 2014",
           "module": "Codec.Digest.SHA.IO",
           "name": "unsafeUpdateCtx",
           "package": "SHA2",
@@ -240,6 +251,7 @@
         "index": {
           "description": "Heads up Calling this function after calling finalizeCtx is likely to result in crashes therefore unsafe",
           "hierarchy": "Codec Digest SHA IO",
+          "indexed": "2014-03-11T16:59:36",
           "module": "Codec.Digest.SHA.IO",
           "name": "unsafeUpdateCtx",
           "normalized": "SHACtx-\u003eByteString-\u003eIO()",
@@ -255,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:36 UTC 2014",
           "module": "Codec.Digest.SHA.Misc",
           "name": "Misc",
           "package": "SHA2",
@@ -263,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Codec Digest SHA Misc",
+          "indexed": "2014-03-11T16:59:36",
           "module": "Codec.Digest.SHA.Misc",
           "name": "Misc",
           "package": "SHA2",
@@ -276,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:36 UTC 2014",
           "module": "Codec.Digest.SHA.Misc",
           "name": "showHex",
           "package": "SHA2",
@@ -285,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Codec Digest SHA Misc",
+          "indexed": "2014-03-11T16:59:36",
           "module": "Codec.Digest.SHA.Misc",
           "name": "showHex",
           "normalized": "Word-\u003eString-\u003eString",
@@ -301,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA safe interface to SHA that still lets you digest incrementally\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:59:36 UTC 2014",
           "module": "Codec.Digest.SHA.Monad",
           "name": "Monad",
           "package": "SHA2",
@@ -310,6 +327,7 @@
         "index": {
           "description": "safe interface to SHA that still lets you digest incrementally",
           "hierarchy": "Codec Digest SHA Monad",
+          "indexed": "2014-03-11T16:59:36",
           "module": "Codec.Digest.SHA.Monad",
           "name": "Monad",
           "package": "SHA2",
@@ -324,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash some data, combining it with everything already hashed in\n this context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:36 UTC 2014",
           "module": "Codec.Digest.SHA.Monad",
           "name": "Hashable",
           "package": "SHA2",
@@ -333,6 +352,7 @@
         "index": {
           "description": "Hash some data combining it with everything already hashed in this context",
           "hierarchy": "Codec Digest SHA Monad",
+          "indexed": "2014-03-11T16:59:36",
           "module": "Codec.Digest.SHA.Monad",
           "name": "Hashable",
           "package": "SHA2",
@@ -346,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:36 UTC 2014",
           "module": "Codec.Digest.SHA.Monad",
           "name": "Length",
           "package": "SHA2",
@@ -354,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Codec Digest SHA Monad",
+          "indexed": "2014-03-11T16:59:36",
           "module": "Codec.Digest.SHA.Monad",
           "name": "Length",
           "package": "SHA2",
@@ -367,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:36 UTC 2014",
           "module": "Codec.Digest.SHA.Monad",
           "name": "SHA",
           "package": "SHA2",
@@ -375,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Codec Digest SHA Monad",
+          "indexed": "2014-03-11T16:59:36",
           "module": "Codec.Digest.SHA.Monad",
           "name": "SHA",
           "package": "SHA2",
@@ -388,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:36 UTC 2014",
           "module": "Codec.Digest.SHA.Monad",
           "name": "SHAT",
           "package": "SHA2",
@@ -396,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Codec Digest SHA Monad",
+          "indexed": "2014-03-11T16:59:36",
           "module": "Codec.Digest.SHA.Monad",
           "name": "SHAT",
           "package": "SHA2",
@@ -409,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:36 UTC 2014",
           "module": "Codec.Digest.SHA.Monad",
           "name": "runSHA",
           "package": "SHA2",
@@ -418,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Codec Digest SHA Monad",
+          "indexed": "2014-03-11T16:59:36",
           "module": "Codec.Digest.SHA.Monad",
           "name": "runSHA",
           "normalized": "Length-\u003e(a b SHA c d)-\u003e(d,ByteString)",
@@ -433,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:36 UTC 2014",
           "module": "Codec.Digest.SHA.Monad",
           "name": "runSHAT",
           "package": "SHA2",
@@ -442,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Codec Digest SHA Monad",
+          "indexed": "2014-03-11T16:59:36",
           "module": "Codec.Digest.SHA.Monad",
           "name": "runSHAT",
           "normalized": "Length-\u003eSHAT a b-\u003ea(b,ByteString)",
@@ -457,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:36 UTC 2014",
           "module": "Codec.Digest.SHA.Monad",
           "name": "update",
           "package": "SHA2",
@@ -466,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Codec Digest SHA Monad",
+          "indexed": "2014-03-11T16:59:36",
           "module": "Codec.Digest.SHA.Monad",
           "name": "update",
           "normalized": "a-\u003eSHAT b()",
@@ -481,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA pure interface to SHA2\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:59:36 UTC 2014",
           "module": "Codec.Digest.SHA",
           "name": "SHA",
           "package": "SHA2",
@@ -490,6 +523,7 @@
         "index": {
           "description": "pure interface to SHA2",
           "hierarchy": "Codec Digest SHA",
+          "indexed": "2014-03-11T16:59:36",
           "module": "Codec.Digest.SHA",
           "name": "SHA",
           "package": "SHA2",
@@ -503,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:59:36 UTC 2014",
           "module": "Codec.Digest.SHA",
           "name": "Length",
           "package": "SHA2",
@@ -511,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Codec Digest SHA",
+          "indexed": "2014-03-11T16:59:36",
           "module": "Codec.Digest.SHA",
           "name": "Length",
           "package": "SHA2",
@@ -525,6 +561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlain SHA2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:36 UTC 2014",
           "module": "Codec.Digest.SHA",
           "name": "hash",
           "package": "SHA2",
@@ -535,6 +572,7 @@
         "index": {
           "description": "Plain SHA2",
           "hierarchy": "Codec Digest SHA",
+          "indexed": "2014-03-11T16:59:36",
           "module": "Codec.Digest.SHA",
           "name": "hash",
           "normalized": "Length-\u003ea-\u003eByteString",
@@ -550,6 +588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSHA2-based HMAC, see http:\u003cem/\u003een.wikipedia.org\u003cem\u003ewiki\u003c/em\u003eHMAC\n\u003c/p\u003e\u003cp\u003eIf you're doing encryption and want to prevent attackers from\n changing your messages, you probably want this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:59:36 UTC 2014",
           "module": "Codec.Digest.SHA",
           "name": "hmac",
           "package": "SHA2",
@@ -559,6 +598,7 @@
         "index": {
           "description": "SHA2-based HMAC see http en.wikipedia.org wiki HMAC If you re doing encryption and want to prevent attackers from changing your messages you probably want this",
           "hierarchy": "Codec Digest SHA",
+          "indexed": "2014-03-11T16:59:36",
           "module": "Codec.Digest.SHA",
           "name": "hmac",
           "normalized": "Length-\u003eByteString-\u003ea-\u003eByteString",

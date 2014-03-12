@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "flat-mcmc"
+        "phrase": "flat-mcmc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:18 UTC 2014",
           "module": "Numeric.MCMC.Flat",
           "name": "Flat",
           "package": "flat-mcmc",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Numeric MCMC Flat",
+          "indexed": "2014-03-11T18:10:18",
           "module": "Numeric.MCMC.Flat",
           "name": "Flat",
           "package": "flat-mcmc",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn ensemble of particles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:18 UTC 2014",
           "module": "Numeric.MCMC.Flat",
           "name": "Ensemble",
           "package": "flat-mcmc",
@@ -49,6 +52,7 @@
         "index": {
           "description": "An ensemble of particles",
           "hierarchy": "Numeric MCMC Flat",
+          "indexed": "2014-03-11T18:10:18",
           "module": "Numeric.MCMC.Flat",
           "name": "Ensemble",
           "package": "flat-mcmc",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState of the Markov chain.  Current ensemble position is held in \u003ccode\u003etheta\u003c/code\u003e,\n   while \u003ccode\u003e\u003ca\u003eaccepts\u003c/a\u003e\u003c/code\u003e counts the number of proposals accepted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:18 UTC 2014",
           "module": "Numeric.MCMC.Flat",
           "name": "MarkovChain",
           "package": "flat-mcmc",
@@ -72,6 +77,7 @@
         "index": {
           "description": "State of the Markov chain Current ensemble position is held in theta while accepts counts the number of proposals accepted",
           "hierarchy": "Numeric MCMC Flat",
+          "indexed": "2014-03-11T18:10:18",
           "module": "Numeric.MCMC.Flat",
           "name": "MarkovChain",
           "package": "flat-mcmc",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for the chain.  The target (expected to be a log density), as\n   well as the size of the ensemble.  The size should be an even number.  Also\n   holds the specified parallel granularity as \u003ccode\u003ecsize\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:18 UTC 2014",
           "module": "Numeric.MCMC.Flat",
           "name": "Options",
           "package": "flat-mcmc",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Options for the chain The target expected to be log density as well as the size of the ensemble The size should be an even number Also holds the specified parallel granularity as csize",
           "hierarchy": "Numeric MCMC Flat",
+          "indexed": "2014-03-11T18:10:18",
           "module": "Numeric.MCMC.Flat",
           "name": "Options",
           "package": "flat-mcmc",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:18 UTC 2014",
           "module": "Numeric.MCMC.Flat",
           "name": "MarkovChain",
           "package": "flat-mcmc",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Numeric MCMC Flat",
+          "indexed": "2014-03-11T18:10:18",
           "module": "Numeric.MCMC.Flat",
           "name": "MarkovChain",
           "package": "flat-mcmc",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:18 UTC 2014",
           "module": "Numeric.MCMC.Flat",
           "name": "Options",
           "package": "flat-mcmc",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Numeric MCMC Flat",
+          "indexed": "2014-03-11T18:10:18",
           "module": "Numeric.MCMC.Flat",
           "name": "Options",
           "package": "flat-mcmc",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:18 UTC 2014",
           "module": "Numeric.MCMC.Flat",
           "name": "_csize",
           "package": "flat-mcmc",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Numeric MCMC Flat",
+          "indexed": "2014-03-11T18:10:18",
           "module": "Numeric.MCMC.Flat",
           "name": "_csize",
           "package": "flat-mcmc",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:18 UTC 2014",
           "module": "Numeric.MCMC.Flat",
           "name": "_size",
           "package": "flat-mcmc",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Numeric MCMC Flat",
+          "indexed": "2014-03-11T18:10:18",
           "module": "Numeric.MCMC.Flat",
           "name": "_size",
           "package": "flat-mcmc",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:18 UTC 2014",
           "module": "Numeric.MCMC.Flat",
           "name": "_target",
           "package": "flat-mcmc",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Numeric MCMC Flat",
+          "indexed": "2014-03-11T18:10:18",
           "module": "Numeric.MCMC.Flat",
           "name": "_target",
           "normalized": "[Double]-\u003eDouble",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:18 UTC 2014",
           "module": "Numeric.MCMC.Flat",
           "name": "accepts",
           "package": "flat-mcmc",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Numeric MCMC Flat",
+          "indexed": "2014-03-11T18:10:18",
           "module": "Numeric.MCMC.Flat",
           "name": "accepts",
           "package": "flat-mcmc",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:18 UTC 2014",
           "module": "Numeric.MCMC.Flat",
           "name": "ensemble",
           "package": "flat-mcmc",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Numeric MCMC Flat",
+          "indexed": "2014-03-11T18:10:18",
           "module": "Numeric.MCMC.Flat",
           "name": "ensemble",
           "package": "flat-mcmc",
@@ -260,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenience function to read and parse ensemble inits from disk.  \n   Assumes a text file with one particle per line, where each particle\n   element is separated by whitespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:18 UTC 2014",
           "module": "Numeric.MCMC.Flat",
           "name": "readInits",
           "package": "flat-mcmc",
@@ -270,6 +293,7 @@
         "index": {
           "description": "convenience function to read and parse ensemble inits from disk Assumes text file with one particle per line where each particle element is separated by whitespace",
           "hierarchy": "Numeric MCMC Flat",
+          "indexed": "2014-03-11T18:10:18",
           "module": "Numeric.MCMC.Flat",
           "name": "readInits",
           "normalized": "FilePath-\u003eIO Ensemble",
@@ -286,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiffuse through states.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:18 UTC 2014",
           "module": "Numeric.MCMC.Flat",
           "name": "runChain",
           "package": "flat-mcmc",
@@ -296,6 +321,7 @@
         "index": {
           "description": "Diffuse through states",
           "hierarchy": "Numeric MCMC Flat",
+          "indexed": "2014-03-11T18:10:18",
           "module": "Numeric.MCMC.Flat",
           "name": "runChain",
           "normalized": "Options-\u003eInt-\u003eInt-\u003eMarkovChain-\u003eGen RealWorld-\u003eIO MarkovChain",

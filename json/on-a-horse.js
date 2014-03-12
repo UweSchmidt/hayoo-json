@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "on-a-horse"
+        "phrase": "on-a-horse",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Maybe",
           "name": "Maybe",
           "package": "on-a-horse",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Maybe",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Maybe",
           "name": "Maybe",
           "package": "on-a-horse",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Maybe",
           "name": "MaybeAutomaton",
           "package": "on-a-horse",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Maybe",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Maybe",
           "name": "MaybeAutomaton",
           "package": "on-a-horse",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Maybe",
           "name": "MaybeAutomaton",
           "package": "on-a-horse",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Maybe",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Maybe",
           "name": "MaybeAutomaton",
           "normalized": "MaybeAutomaton(a b(c,Maybe(Automaton a b c)))",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Maybe",
           "name": "automatonFromMaybe",
           "package": "on-a-horse",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Maybe",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Maybe",
           "name": "automatonFromMaybe",
           "normalized": "MaybeAutomaton a b c-\u003eAutomaton a b c",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Maybe",
           "name": "mAut",
           "package": "on-a-horse",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Maybe",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Maybe",
           "name": "mAut",
           "normalized": "MaybeAutomaton a a a-\u003ea a(a,Maybe(Automaton a a a))",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Maybe",
           "name": "maybeFromAutomaton",
           "package": "on-a-horse",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Maybe",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Maybe",
           "name": "maybeFromAutomaton",
           "normalized": "Automaton a b c-\u003eMaybeAutomaton a b c",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "Monad",
           "package": "on-a-horse",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Monad",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "Monad",
           "package": "on-a-horse",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "ArrowAddAutomaton",
           "package": "on-a-horse",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Monad",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "ArrowAddAutomaton",
           "package": "on-a-horse",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "autoToMonad",
           "package": "on-a-horse",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Monad",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "autoToMonad",
           "normalized": "a b(Either c d)-\u003eb-\u003eContT(c,a b c)(ArrowMonad e)d",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "co",
           "package": "on-a-horse",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Monad",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "co",
           "normalized": "a-\u003eContT(a,b c a)(ArrowMonad d)c",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "constantAutomaton",
           "package": "on-a-horse",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Monad",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "constantAutomaton",
           "normalized": "a b c-\u003ed b c",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "dispatch",
           "package": "on-a-horse",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Monad",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "dispatch",
           "normalized": "(a-\u003eb c d)-\u003eb(c,a)d",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "elimAutomaton",
           "package": "on-a-horse",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Monad",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "elimAutomaton",
           "normalized": "a b c-\u003ed b(c,a b c)",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "elimMaybeAutomaton",
           "package": "on-a-horse",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Monad",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "elimMaybeAutomaton",
           "normalized": "a b c-\u003ed b(c,Maybe(e b c))",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "fromMaybeAutomaton",
           "package": "on-a-horse",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Monad",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "fromMaybeAutomaton",
           "normalized": "a b c-\u003ed b c",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "liftAutomaton",
           "package": "on-a-horse",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Monad",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "liftAutomaton",
           "normalized": "a b(c,d b c)-\u003ed b c",
@@ -388,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "liftMaybeAutomaton",
           "package": "on-a-horse",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Monad",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "liftMaybeAutomaton",
           "normalized": "a b(c,Maybe(d b c))-\u003ee b c",
@@ -412,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "monadToAuto",
           "package": "on-a-horse",
@@ -421,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Monad",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "monadToAuto",
           "normalized": "(a-\u003eContT(b,c a b)(ArrowMonad d)e)-\u003ec a b",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "popError",
           "package": "on-a-horse",
@@ -445,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Monad",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "popError",
           "normalized": "ErrorArrow a b c d-\u003eb c(Either a d)",
@@ -460,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "pushError",
           "package": "on-a-horse",
@@ -469,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Monad",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "pushError",
           "normalized": "a b(Either c d)-\u003eErrorArrow c a b d",
@@ -484,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "readerArrow",
           "package": "on-a-horse",
@@ -493,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Monad",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "readerArrow",
           "normalized": "a(b,c)d-\u003eReaderArrow c a b d",
@@ -508,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "rstrength",
           "package": "on-a-horse",
@@ -517,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Monad",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "rstrength",
           "normalized": "(Either a b,c)-\u003eEither a(b,c)",
@@ -531,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "swapsnd",
           "package": "on-a-horse",
@@ -540,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Monad",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "swapsnd",
           "normalized": "((a,b),c)-\u003e((a,c),b)",
@@ -554,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "toMaybeAutomaton",
           "package": "on-a-horse",
@@ -563,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Automaton Monad",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.Automaton.Monad",
           "name": "toMaybeAutomaton",
           "normalized": "a b c-\u003ed b c",
@@ -578,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "LabeledArrow",
           "package": "on-a-horse",
@@ -586,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer LabeledArrow",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "LabeledArrow",
           "package": "on-a-horse",
@@ -599,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "ArrowAddLabel",
           "package": "on-a-horse",
@@ -607,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer LabeledArrow",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "ArrowAddLabel",
           "package": "on-a-horse",
@@ -620,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "Label",
           "package": "on-a-horse",
@@ -628,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer LabeledArrow",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "Label",
           "package": "on-a-horse",
@@ -641,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "LabeledArrow",
           "package": "on-a-horse",
@@ -649,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer LabeledArrow",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "LabeledArrow",
           "package": "on-a-horse",
@@ -662,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "Label",
           "package": "on-a-horse",
@@ -671,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer LabeledArrow",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "Label",
           "package": "on-a-horse",
@@ -684,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "LabeledArrow",
           "package": "on-a-horse",
@@ -693,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer LabeledArrow",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "LabeledArrow",
           "package": "on-a-horse",
@@ -706,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "alterReader",
           "package": "on-a-horse",
@@ -715,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer LabeledArrow",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "alterReader",
           "normalized": "(a-\u003ea)-\u003ea b a-\u003ea b a",
@@ -730,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "base64",
           "package": "on-a-horse",
@@ -739,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer LabeledArrow",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "base64",
           "normalized": "[Char]",
@@ -753,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "foo",
           "package": "on-a-horse",
@@ -762,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer LabeledArrow",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "foo",
           "normalized": "IO()",
@@ -776,6 +842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "pushId",
           "package": "on-a-horse",
@@ -785,6 +852,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer LabeledArrow",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "pushId",
           "normalized": "Integer-\u003ea b a-\u003ea b a",
@@ -800,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "read64",
           "package": "on-a-horse",
@@ -809,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer LabeledArrow",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "read64",
           "normalized": "[Char]-\u003eMaybe a",
@@ -823,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "runArrowLabel",
           "package": "on-a-horse",
@@ -832,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer LabeledArrow",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "runArrowLabel",
           "normalized": "a(b,Label)c-\u003eLabeledArrow a b c",
@@ -847,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "runLabel",
           "package": "on-a-horse",
@@ -856,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer LabeledArrow",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "runLabel",
           "normalized": "a(b,Label)c-\u003ed b c",
@@ -871,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "runLabeledArrow",
           "package": "on-a-horse",
@@ -880,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer LabeledArrow",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "runLabeledArrow",
           "normalized": "LabeledArrow a b a-\u003ea b a",
@@ -895,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "unLA",
           "package": "on-a-horse",
@@ -904,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer LabeledArrow",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "unLA",
           "normalized": "LabeledArrow a a a-\u003eReaderArrow Label a a a",
@@ -919,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "writeState",
           "package": "on-a-horse",
@@ -928,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer LabeledArrow",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Control.Arrow.Transformer.LabeledArrow",
           "name": "writeState",
           "normalized": "a-\u003eLabeledArrow(Kleisli IO)b()",
@@ -943,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "Horse",
           "package": "on-a-horse",
@@ -951,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "Horse",
           "package": "on-a-horse",
@@ -964,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "FormIn",
           "package": "on-a-horse",
@@ -972,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "FormIn",
           "package": "on-a-horse",
@@ -985,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "FormOut",
           "package": "on-a-horse",
@@ -993,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "FormOut",
           "package": "on-a-horse",
@@ -1006,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "HasFormOut",
           "package": "on-a-horse",
@@ -1014,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "HasFormOut",
           "package": "on-a-horse",
@@ -1027,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "HoH",
           "package": "on-a-horse",
@@ -1035,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "HoH",
           "package": "on-a-horse",
@@ -1048,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "HoHErr",
           "package": "on-a-horse",
@@ -1056,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "HoHErr",
           "package": "on-a-horse",
@@ -1069,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "HoHErrMay",
           "package": "on-a-horse",
@@ -1077,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "HoHErrMay",
           "package": "on-a-horse",
@@ -1090,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "HoHMay",
           "package": "on-a-horse",
@@ -1098,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "HoHMay",
           "package": "on-a-horse",
@@ -1111,6 +1207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "Url",
           "package": "on-a-horse",
@@ -1119,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "Url",
           "package": "on-a-horse",
@@ -1132,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "FormIn",
           "package": "on-a-horse",
@@ -1141,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "FormIn",
           "normalized": "FormIn[(String,String)]",
@@ -1156,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "asResponse",
           "package": "on-a-horse",
@@ -1165,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "asResponse",
           "normalized": "String-\u003e[(String,String)]-\u003eResponse",
@@ -1180,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "auto",
           "package": "on-a-horse",
@@ -1189,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "auto",
           "normalized": "Automaton a a a-\u003ea a(a,Automaton a a a)",
@@ -1203,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "catchAuto",
           "package": "on-a-horse",
@@ -1212,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "catchAuto",
           "normalized": "LabeledArrow(ErrorArrow(LabeledArrow a b c)a)b c-\u003eLabeledArrow a b c",
@@ -1227,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "catchMayAuto",
           "package": "on-a-horse",
@@ -1236,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "catchMayAuto",
           "normalized": "LabeledArrow(ErrorArrow(LabeledArrow a b c)d)b c-\u003eLabeledArrow d b c",
@@ -1251,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "compact",
           "package": "on-a-horse",
@@ -1260,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "compact",
           "normalized": "MVar[(a,a)]-\u003eIO()",
@@ -1274,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "enumForm",
           "package": "on-a-horse",
@@ -1283,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "enumForm",
           "normalized": "String-\u003e[(String,a)]-\u003eb()(String,Maybe a)",
@@ -1298,6 +1410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "extractFormInputs",
           "package": "on-a-horse",
@@ -1307,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "extractFormInputs",
           "normalized": "Request-\u003eResourceT IO([String],FormIn)",
@@ -1322,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "filterDiffs",
           "package": "on-a-horse",
@@ -1331,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "filterDiffs",
           "package": "on-a-horse",
@@ -1344,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "filterPrefix",
           "package": "on-a-horse",
@@ -1353,6 +1470,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "filterPrefix",
           "normalized": "String-\u003eFormIn-\u003eFormIn",
@@ -1368,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "formSum",
           "package": "on-a-horse",
@@ -1377,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "formSum",
           "normalized": "String-\u003e[(String,LabeledArrow a b c)]-\u003ec-\u003eLabeledArrow a b c",
@@ -1392,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "getFormOut",
           "package": "on-a-horse",
@@ -1401,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "getFormOut",
           "normalized": "a-\u003eFormOut",
@@ -1416,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "getRequestCookies",
           "package": "on-a-horse",
@@ -1425,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "getRequestCookies",
           "normalized": "Request-\u003e[(String,String)]",
@@ -1440,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "getSessionMVar",
           "package": "on-a-horse",
@@ -1449,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "getSessionMVar",
           "normalized": "MVar[(String,MVar(Automaton(Kleisli IO)(Url,FormIn)String))]-\u003eRequest-\u003eIO(Maybe(MVar(Automaton(Kleisli IO)(Url,FormIn)String)))",
@@ -1464,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "getSingle",
           "package": "on-a-horse",
@@ -1473,6 +1600,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "getSingle",
           "normalized": "FormIn-\u003eMaybe String",
@@ -1488,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "keepState",
           "package": "on-a-horse",
@@ -1497,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "keepState",
           "normalized": "a-\u003eb(Maybe a)a",
@@ -1512,6 +1642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "link",
           "package": "on-a-horse",
@@ -1521,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "link",
           "normalized": "String-\u003eString-\u003eString",
@@ -1535,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "linkForm",
           "package": "on-a-horse",
@@ -1544,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "linkForm",
           "normalized": "String-\u003ea b c-\u003ed()String",
@@ -1559,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "noInput",
           "package": "on-a-horse",
@@ -1568,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "noInput",
           "package": "on-a-horse",
@@ -1581,6 +1717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "once",
           "package": "on-a-horse",
@@ -1590,6 +1727,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "once",
           "normalized": "a-\u003ea a(Maybe a)",
@@ -1604,6 +1742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "readForm",
           "package": "on-a-horse",
@@ -1613,6 +1752,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "readForm",
           "normalized": "String-\u003ea()(String,Maybe a)",
@@ -1628,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "replaceSecond",
           "package": "on-a-horse",
@@ -1637,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "replaceSecond",
           "normalized": "a b c-\u003ea(b,Maybe(a b c))c",
@@ -1652,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "restify",
           "package": "on-a-horse",
@@ -1661,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "restify",
           "normalized": "a(b,b,Maybe b)c-\u003ed(b,b,Maybe b)c",
@@ -1675,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "runHorse",
           "package": "on-a-horse",
@@ -1684,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "runHorse",
           "normalized": "LabeledArrow(ReaderArrow FormIn(MaybeAutomaton(Kleisli IO)))Url String-\u003eIO Application",
@@ -1699,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "runHorse1",
           "package": "on-a-horse",
@@ -1708,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "runHorse1",
           "normalized": "MaybeAutomaton(Kleisli IO)(Url,FormIn)String-\u003eIO Application",
@@ -1723,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "runSubStream",
           "package": "on-a-horse",
@@ -1732,6 +1881,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "runSubStream",
           "normalized": "a b c-\u003ea(Maybe b)(Maybe c)",
@@ -1747,6 +1897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "runWeb",
           "package": "on-a-horse",
@@ -1756,6 +1907,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "runWeb",
           "normalized": "MVar[(String,MVar(Automaton(Kleisli IO)(Url,FormIn)String))]-\u003eMaybeAutomaton(Kleisli IO)(Url,FormIn)String-\u003eApplication",
@@ -1771,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "select",
           "package": "on-a-horse",
@@ -1780,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "select",
           "normalized": "String-\u003e[String]-\u003eInt-\u003eString-\u003eString",
@@ -1794,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "sessionName",
           "package": "on-a-horse",
@@ -1803,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "sessionName",
           "normalized": "[Char]",
@@ -1818,6 +1974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "sessionTarget",
           "package": "on-a-horse",
@@ -1827,6 +1984,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "sessionTarget",
           "package": "on-a-horse",
@@ -1840,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "setFormOut",
           "package": "on-a-horse",
@@ -1849,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "setFormOut",
           "normalized": "FormOut-\u003ea-\u003ea",
@@ -1864,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "staticUrls",
           "package": "on-a-horse",
@@ -1873,6 +2034,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "staticUrls",
           "normalized": "a-\u003e[(String,a)]-\u003e[String]-\u003ea",
@@ -1888,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "stringForm",
           "package": "on-a-horse",
@@ -1897,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "stringForm",
           "normalized": "String-\u003ea()(String,Maybe String)",
@@ -1912,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "textField",
           "package": "on-a-horse",
@@ -1921,6 +2086,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "textField",
           "normalized": "String-\u003eMaybe String-\u003eString-\u003eString-\u003eString",
@@ -1936,6 +2102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "throwAuto",
           "package": "on-a-horse",
@@ -1945,6 +2112,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "throwAuto",
           "package": "on-a-horse",
@@ -1958,6 +2126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "throwMayAuto",
           "package": "on-a-horse",
@@ -1967,6 +2136,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "throwMayAuto",
           "package": "on-a-horse",
@@ -1980,6 +2150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "valForm",
           "package": "on-a-horse",
@@ -1989,6 +2160,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "valForm",
           "normalized": "String-\u003ea String(Either String a)-\u003eString-\u003ea()(String,Maybe a)",
@@ -2004,6 +2176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "withInput",
           "package": "on-a-horse",
@@ -2013,6 +2186,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "withInput",
           "normalized": "a(b,String,Maybe String)c-\u003ea b c",
@@ -2028,6 +2202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "withInput0",
           "package": "on-a-horse",
@@ -2037,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "withInput0",
           "normalized": "a(b,String,Maybe String)c-\u003ed b c",
@@ -2052,6 +2228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:39 UTC 2014",
           "module": "Web.Horse",
           "name": "wrapForm",
           "package": "on-a-horse",
@@ -2061,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "Web Horse",
+          "indexed": "2014-03-11T19:31:39",
           "module": "Web.Horse",
           "name": "wrapForm",
           "normalized": "String-\u003eString",

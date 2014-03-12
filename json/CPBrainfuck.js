@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "CPBrainfuck"
+        "phrase": "CPBrainfuck",
+        "type": "phrase"
       },
       "type": "context"
     }

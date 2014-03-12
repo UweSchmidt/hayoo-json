@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "shortcircuit"
+        "phrase": "shortcircuit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eShort-circuit evaluation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:47 UTC 2014",
           "module": "Control.Shortcircuit",
           "name": "Shortcircuit",
           "package": "shortcircuit",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Short-circuit evaluation",
           "hierarchy": "Control Shortcircuit",
+          "indexed": "2014-03-11T20:01:47",
           "module": "Control.Shortcircuit",
           "name": "Shortcircuit",
           "package": "shortcircuit",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes with a defined false value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:47 UTC 2014",
           "module": "Control.Shortcircuit",
           "name": "HasFalse",
           "package": "shortcircuit",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Types with defined false value",
           "hierarchy": "Control Shortcircuit",
+          "indexed": "2014-03-11T20:01:47",
           "module": "Control.Shortcircuit",
           "name": "HasFalse",
           "package": "shortcircuit",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes with a defined true value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:47 UTC 2014",
           "module": "Control.Shortcircuit",
           "name": "HasTrue",
           "package": "shortcircuit",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Types with defined true value",
           "hierarchy": "Control Shortcircuit",
+          "indexed": "2014-03-11T20:01:47",
           "module": "Control.Shortcircuit",
           "name": "HasTrue",
           "package": "shortcircuit",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes that support short circuits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:47 UTC 2014",
           "module": "Control.Shortcircuit",
           "name": "Shortcircuit",
           "package": "shortcircuit",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Types that support short circuits",
           "hierarchy": "Control Shortcircuit",
+          "indexed": "2014-03-11T20:01:47",
           "module": "Control.Shortcircuit",
           "name": "Shortcircuit",
           "package": "shortcircuit",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ePrelude.||\u003c/code\u003e generalised to \u003ccode\u003e\u003ca\u003eShortcircuit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:47 UTC 2014",
           "module": "Control.Shortcircuit",
           "name": "(||)",
           "package": "shortcircuit",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Prelude generalised to Shortcircuit",
           "hierarchy": "Control Shortcircuit",
+          "indexed": "2014-03-11T20:01:47",
           "module": "Control.Shortcircuit",
           "name": "(||) ||",
           "normalized": "a-\u003ea-\u003ea",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ePrelude.&&\u003c/code\u003e generalised to \u003ccode\u003e\u003ca\u003eShortcircuit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:47 UTC 2014",
           "module": "Control.Shortcircuit",
           "name": "(&&)",
           "package": "shortcircuit",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Prelude generalised to Shortcircuit",
           "hierarchy": "Control Shortcircuit",
+          "indexed": "2014-03-11T20:01:47",
           "module": "Control.Shortcircuit",
           "name": "(&&) &&",
           "normalized": "a-\u003ea-\u003ea",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eif'\u003c/a\u003e\u003c/code\u003e, but with different argument order, allowing infix use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:47 UTC 2014",
           "module": "Control.Shortcircuit",
           "name": "(??)",
           "package": "shortcircuit",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Like if but with different argument order allowing infix use",
           "hierarchy": "Control Shortcircuit",
+          "indexed": "2014-03-11T20:01:47",
           "module": "Control.Shortcircuit",
           "name": "(??) ??",
           "normalized": "a-\u003ea-\u003eb-\u003ea",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-circuit two actions, performing the second only if the first returned a true-ish value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:47 UTC 2014",
           "module": "Control.Shortcircuit",
           "name": "andM",
           "package": "shortcircuit",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Short-circuit two actions performing the second only if the first returned true-ish value",
           "hierarchy": "Control Shortcircuit",
+          "indexed": "2014-03-11T20:01:47",
           "module": "Control.Shortcircuit",
           "name": "andM",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA false value for this type. \n If \u003ccode\u003e\u003ca\u003eShortcircuit\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ea\u003c/code\u003e holds, \u003ccode\u003eisTrue false == False\u003c/code\u003e must hold.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:47 UTC 2014",
           "module": "Control.Shortcircuit",
           "name": "false",
           "package": "shortcircuit",
@@ -221,6 +238,7 @@
         "index": {
           "description": "false value for this type If Shortcircuit holds isTrue false False must hold",
           "hierarchy": "Control Shortcircuit",
+          "indexed": "2014-03-11T20:01:47",
           "module": "Control.Shortcircuit",
           "name": "false",
           "package": "shortcircuit",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the first true-ish value from a list, or \u003ccode\u003e\u003ca\u003efalse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:47 UTC 2014",
           "module": "Control.Shortcircuit",
           "name": "firstTrueOf",
           "package": "shortcircuit",
@@ -244,6 +263,7 @@
         "index": {
           "description": "Returns the first true-ish value from list or false",
           "hierarchy": "Control Shortcircuit",
+          "indexed": "2014-03-11T20:01:47",
           "module": "Control.Shortcircuit",
           "name": "firstTrueOf",
           "normalized": "[a]-\u003ea",
@@ -260,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-circuit a list of actions, performing only until a true-ish value is found, or the list exhausted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:47 UTC 2014",
           "module": "Control.Shortcircuit",
           "name": "firstTrueOfM",
           "package": "shortcircuit",
@@ -270,6 +291,7 @@
         "index": {
           "description": "Short-circuit list of actions performing only until true-ish value is found or the list exhausted",
           "hierarchy": "Control Shortcircuit",
+          "indexed": "2014-03-11T20:01:47",
           "module": "Control.Shortcircuit",
           "name": "firstTrueOfM",
           "normalized": "[a b]-\u003ea b",
@@ -286,6 +308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eif then else\u003c/code\u003e generalised to \u003ccode\u003e\u003ca\u003eShortcircuit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:47 UTC 2014",
           "module": "Control.Shortcircuit",
           "name": "if'",
           "package": "shortcircuit",
@@ -296,6 +319,7 @@
         "index": {
           "description": "if then else generalised to Shortcircuit",
           "hierarchy": "Control Shortcircuit",
+          "indexed": "2014-03-11T20:01:47",
           "module": "Control.Shortcircuit",
           "name": "if'",
           "normalized": "a-\u003eb-\u003eb-\u003eb",
@@ -311,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the value is false-like (i.e. not true-like).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:47 UTC 2014",
           "module": "Control.Shortcircuit",
           "name": "isFalse",
           "package": "shortcircuit",
@@ -321,6 +346,7 @@
         "index": {
           "description": "Whether the value is false-like i.e not true-like",
           "hierarchy": "Control Shortcircuit",
+          "indexed": "2014-03-11T20:01:47",
           "module": "Control.Shortcircuit",
           "name": "isFalse",
           "normalized": "a-\u003eBool",
@@ -337,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the value is true-like (i.e. not false-like).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:47 UTC 2014",
           "module": "Control.Shortcircuit",
           "name": "isTrue",
           "package": "shortcircuit",
@@ -347,6 +374,7 @@
         "index": {
           "description": "Whether the value is true-like i.e not false-like",
           "hierarchy": "Control Shortcircuit",
+          "indexed": "2014-03-11T20:01:47",
           "module": "Control.Shortcircuit",
           "name": "isTrue",
           "normalized": "a-\u003eBool",
@@ -363,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the last false-ish value from a list, or \u003ccode\u003e\u003ca\u003etrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:47 UTC 2014",
           "module": "Control.Shortcircuit",
           "name": "lastFalseOf",
           "package": "shortcircuit",
@@ -373,6 +402,7 @@
         "index": {
           "description": "Returns the last false-ish value from list or true",
           "hierarchy": "Control Shortcircuit",
+          "indexed": "2014-03-11T20:01:47",
           "module": "Control.Shortcircuit",
           "name": "lastFalseOf",
           "normalized": "[a]-\u003ea",
@@ -389,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-circuit a list of actions, performing only until a false-ish value is found, or the list exhausted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:47 UTC 2014",
           "module": "Control.Shortcircuit",
           "name": "lastFalseOfM",
           "package": "shortcircuit",
@@ -399,6 +430,7 @@
         "index": {
           "description": "Short-circuit list of actions performing only until false-ish value is found or the list exhausted",
           "hierarchy": "Control Shortcircuit",
+          "indexed": "2014-03-11T20:01:47",
           "module": "Control.Shortcircuit",
           "name": "lastFalseOfM",
           "normalized": "[a b]-\u003ea b",
@@ -415,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort-circuit two actions, performing the second only if the first returned a false-ish value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:47 UTC 2014",
           "module": "Control.Shortcircuit",
           "name": "orM",
           "package": "shortcircuit",
@@ -425,6 +458,7 @@
         "index": {
           "description": "Short-circuit two actions performing the second only if the first returned false-ish value",
           "hierarchy": "Control Shortcircuit",
+          "indexed": "2014-03-11T20:01:47",
           "module": "Control.Shortcircuit",
           "name": "orM",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -440,6 +474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA true value for this type.\n If \u003ccode\u003e\u003ca\u003eShortcircuit\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ea\u003c/code\u003e holds, \u003ccode\u003eisTrue true == True\u003c/code\u003e must hold.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:47 UTC 2014",
           "module": "Control.Shortcircuit",
           "name": "true",
           "package": "shortcircuit",
@@ -450,6 +485,7 @@
         "index": {
           "description": "true value for this type If Shortcircuit holds isTrue true True must hold",
           "hierarchy": "Control Shortcircuit",
+          "indexed": "2014-03-11T20:01:47",
           "module": "Control.Shortcircuit",
           "name": "true",
           "package": "shortcircuit",
@@ -463,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe opposite of \u003ccode\u003e\u003ca\u003eif'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:47 UTC 2014",
           "module": "Control.Shortcircuit",
           "name": "unless'",
           "package": "shortcircuit",
@@ -473,6 +510,7 @@
         "index": {
           "description": "The opposite of if",
           "hierarchy": "Control Shortcircuit",
+          "indexed": "2014-03-11T20:01:47",
           "module": "Control.Shortcircuit",
           "name": "unless'",
           "normalized": "a-\u003eb-\u003eb-\u003eb",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "io-manager"
+        "phrase": "io-manager",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA skeleton library to help learners of Haskell concentrate on the\npure-functional aspect and let the IO be handled by the library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:59:02 UTC 2014",
           "module": "Training.MM.IOManager",
           "name": "IOManager",
           "package": "io-manager",
@@ -28,6 +29,7 @@
         "index": {
           "description": "skeleton library to help learners of Haskell concentrate on the pure-functional aspect and let the IO be handled by the library",
           "hierarchy": "Training MM IOManager",
+          "indexed": "2014-03-11T18:59:02",
           "module": "Training.MM.IOManager",
           "name": "IOManager",
           "package": "io-manager",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of filenames.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:02 UTC 2014",
           "module": "Training.MM.IOManager",
           "name": "Filename",
           "package": "io-manager",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Type of filenames",
           "hierarchy": "Training MM IOManager",
+          "indexed": "2014-03-11T18:59:02",
           "module": "Training.MM.IOManager",
           "name": "Filename",
           "package": "io-manager",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of values holding inputs to the program, grouped by input source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:02 UTC 2014",
           "module": "Training.MM.IOManager",
           "name": "Input",
           "package": "io-manager",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Type of values holding inputs to the program grouped by input source",
           "hierarchy": "Training MM IOManager",
+          "indexed": "2014-03-11T18:59:02",
           "module": "Training.MM.IOManager",
           "name": "Input",
           "package": "io-manager",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of values holding outputs of the program, grouped by output source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:02 UTC 2014",
           "module": "Training.MM.IOManager",
           "name": "Output",
           "package": "io-manager",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Type of values holding outputs of the program grouped by output source",
           "hierarchy": "Training MM IOManager",
+          "indexed": "2014-03-11T18:59:02",
           "module": "Training.MM.IOManager",
           "name": "Output",
           "package": "io-manager",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtains the contents of an input file. Returns a String containing the\n input without any modification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:02 UTC 2014",
           "module": "Training.MM.IOManager",
           "name": "getInputFile",
           "package": "io-manager",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Obtains the contents of an input file Returns String containing the input without any modification",
           "hierarchy": "Training MM IOManager",
+          "indexed": "2014-03-11T18:59:02",
           "module": "Training.MM.IOManager",
           "name": "getInputFile",
           "normalized": "Input-\u003eFilename-\u003eString",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtains the contents of the standard input as given to the program.\n Returns a String containing the input without any modification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:02 UTC 2014",
           "module": "Training.MM.IOManager",
           "name": "getStdIn",
           "package": "io-manager",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Obtains the contents of the standard input as given to the program Returns String containing the input without any modification",
           "hierarchy": "Training MM IOManager",
+          "indexed": "2014-03-11T18:59:02",
           "module": "Training.MM.IOManager",
           "name": "getStdIn",
           "normalized": "Input-\u003eString",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps a simple function \u003ccode\u003eInput\u003c/code\u003e -\u003e \u003ccode\u003eOutput\u003c/code\u003e -\u003e \u003ccode\u003eOutput\u003c/code\u003e in\n order to simplify student's usage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:02 UTC 2014",
           "module": "Training.MM.IOManager",
           "name": "wrapIO",
           "package": "io-manager",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Wraps simple function Input Output Output in order to simplify student usage",
           "hierarchy": "Training MM IOManager",
+          "indexed": "2014-03-11T18:59:02",
           "module": "Training.MM.IOManager",
           "name": "wrapIO",
           "normalized": "(Input-\u003eOutput-\u003eOutput)-\u003eIO()",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppends to an output file. If the file does not exist in the \u003ccode\u003eOutput\u003c/code\u003e\n value (this program didn't yet write in it), it is created as a new one.\n Returns a new \u003ccode\u003eOutput\u003c/code\u003e value, containing the appended text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:02 UTC 2014",
           "module": "Training.MM.IOManager",
           "name": "writeOutputFile",
           "package": "io-manager",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Appends to an output file If the file does not exist in the Output value this program didn yet write in it it is created as new one Returns new Output value containing the appended text",
           "hierarchy": "Training MM IOManager",
+          "indexed": "2014-03-11T18:59:02",
           "module": "Training.MM.IOManager",
           "name": "writeOutputFile",
           "normalized": "Output-\u003eFilename-\u003eString-\u003eOutput",
@@ -215,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppends text to the standard error. No newline is printed at the end, the\n caller must handle it. Returns a new \u003ccode\u003eOutput\u003c/code\u003e value, containing the\n appended text.\n\u003c/p\u003e\u003cp\u003eNote: When running the program, the standard error text is displayed\n after the entire text from the standard input is displayed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:02 UTC 2014",
           "module": "Training.MM.IOManager",
           "name": "writeStdErr",
           "package": "io-manager",
@@ -225,6 +242,7 @@
         "index": {
           "description": "Appends text to the standard error No newline is printed at the end the caller must handle it Returns new Output value containing the appended text Note When running the program the standard error text is displayed after the entire text from the standard input is displayed",
           "hierarchy": "Training MM IOManager",
+          "indexed": "2014-03-11T18:59:02",
           "module": "Training.MM.IOManager",
           "name": "writeStdErr",
           "normalized": "Output-\u003eString-\u003eOutput",
@@ -241,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppends text to the standard output. No newline is printed at the end,\n the caller must handle it. Returns a new \u003ccode\u003eOutput\u003c/code\u003e value, containing the\n appended text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:02 UTC 2014",
           "module": "Training.MM.IOManager",
           "name": "writeStdOut",
           "package": "io-manager",
@@ -251,6 +270,7 @@
         "index": {
           "description": "Appends text to the standard output No newline is printed at the end the caller must handle it Returns new Output value containing the appended text",
           "hierarchy": "Training MM IOManager",
+          "indexed": "2014-03-11T18:59:02",
           "module": "Training.MM.IOManager",
           "name": "writeStdOut",
           "normalized": "Output-\u003eString-\u003eOutput",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "netpbm"
+        "phrase": "netpbm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing the netpbm image formates (PBM, PGM and PPM, both ASCII and binary) from \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eAll netpbm image formats are implemented (P1 - P6).\n\u003c/p\u003e\u003cp\u003eTo parse one of these formats, use \u003ccode\u003e\u003ca\u003eparsePPM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSee also: \u003ca\u003ehttp://www.imagemagick.org/Usage/formats/#netpbm\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "Netpbm",
           "package": "netpbm",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Parsing the netpbm image formates PBM PGM and PPM both ASCII and binary from ByteString All netpbm image formats are implemented P1 P6 To parse one of these formats use parsePPM See also http www.imagemagick.org Usage formats netpbm",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "Netpbm",
           "package": "netpbm",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA PPM file with type, dimensions, and image data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "PPM",
           "package": "netpbm",
@@ -51,6 +54,7 @@
         "index": {
           "description": "PPM file with type dimensions and image data",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "PPM",
           "package": "netpbm",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMeta information about the image: The exact PPM format and dimensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "PPMHeader",
           "package": "netpbm",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Meta information about the image The exact PPM format and dimensions",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "PPMHeader",
           "package": "netpbm",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe netpbm image type of an image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "PPMType",
           "package": "netpbm",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The netpbm image type of an image",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "PPMType",
           "package": "netpbm",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pixel containing black or white.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "PbmPixel",
           "package": "netpbm",
@@ -120,6 +129,7 @@
         "index": {
           "description": "pixel containing black or white",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "PbmPixel",
           "package": "netpbm",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pixel containing a 16-bit greyscale value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "PgmPixel16",
           "package": "netpbm",
@@ -143,6 +154,7 @@
         "index": {
           "description": "pixel containing bit greyscale value",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "PgmPixel16",
           "package": "netpbm",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pixel containing an 8-bit greyscale value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "PgmPixel8",
           "package": "netpbm",
@@ -166,6 +179,7 @@
         "index": {
           "description": "pixel containing an bit greyscale value",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "PgmPixel8",
           "package": "netpbm",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a PPM parse.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eparsePPM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "PpmParseResult",
           "package": "netpbm",
@@ -189,6 +204,7 @@
         "index": {
           "description": "The result of PPM parse See parsePPM",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "PpmParseResult",
           "package": "netpbm",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage data, either 8 or 16 bits.\n TODO rename to PNM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "PpmPixelData",
           "package": "netpbm",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Image data either or bits TODO rename to PNM",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "PpmPixelData",
           "package": "netpbm",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pixel containing three 16-bit color components, RGB.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "PpmPixelRGB16",
           "package": "netpbm",
@@ -235,6 +254,7 @@
         "index": {
           "description": "pixel containing three bit color components RGB",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "PpmPixelRGB16",
           "package": "netpbm",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pixel containing three 8-bit color components, RGB.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "PpmPixelRGB8",
           "package": "netpbm",
@@ -258,6 +279,7 @@
         "index": {
           "description": "pixel containing three bit color components RGB",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "PpmPixelRGB8",
           "package": "netpbm",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eASCII bitmap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "P1",
           "package": "netpbm",
@@ -282,6 +305,7 @@
         "index": {
           "description": "ASCII bitmap",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "P1",
           "package": "netpbm",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eASCII greymap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "P2",
           "package": "netpbm",
@@ -305,6 +330,7 @@
         "index": {
           "description": "ASCII greymap",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "P2",
           "package": "netpbm",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eASCII pixmap (color)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "P3",
           "package": "netpbm",
@@ -328,6 +355,7 @@
         "index": {
           "description": "ASCII pixmap color",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "P3",
           "package": "netpbm",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebinary bitmap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "P4",
           "package": "netpbm",
@@ -351,6 +380,7 @@
         "index": {
           "description": "binary bitmap",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "P4",
           "package": "netpbm",
@@ -364,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebinary greymap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "P5",
           "package": "netpbm",
@@ -374,6 +405,7 @@
         "index": {
           "description": "binary greymap",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "P5",
           "package": "netpbm",
@@ -387,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebinary pixmap (color)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "P6",
           "package": "netpbm",
@@ -397,6 +430,7 @@
         "index": {
           "description": "binary pixmap color",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "P6",
           "package": "netpbm",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "PPM",
           "package": "netpbm",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "PPM",
           "package": "netpbm",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "PPMHeader",
           "package": "netpbm",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "PPMHeader",
           "package": "netpbm",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "PbmPixel",
           "package": "netpbm",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "PbmPixel",
           "package": "netpbm",
@@ -476,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor 1-bit PBMs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "PbmPixelData",
           "package": "netpbm",
@@ -486,6 +527,7 @@
         "index": {
           "description": "For bit PBMs",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "PbmPixelData",
           "package": "netpbm",
@@ -499,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "PgmPixel16",
           "package": "netpbm",
@@ -508,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "PgmPixel16",
           "package": "netpbm",
@@ -521,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "PgmPixel8",
           "package": "netpbm",
@@ -530,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "PgmPixel8",
           "package": "netpbm",
@@ -544,6 +590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor 16-bit PGMs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "PgmPixelData16",
           "package": "netpbm",
@@ -554,6 +601,7 @@
         "index": {
           "description": "For bit PGMs",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "PgmPixelData16",
           "package": "netpbm",
@@ -568,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor 8-bit PGMs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "PgmPixelData8",
           "package": "netpbm",
@@ -578,6 +627,7 @@
         "index": {
           "description": "For bit PGMs",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "PgmPixelData8",
           "package": "netpbm",
@@ -592,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor 16-bit PPMs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "PpmPixelDataRGB16",
           "package": "netpbm",
@@ -602,6 +653,7 @@
         "index": {
           "description": "For bit PPMs",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "PpmPixelDataRGB16",
           "package": "netpbm",
@@ -616,6 +668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor 8-bit PPMs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "PpmPixelDataRGB8",
           "package": "netpbm",
@@ -626,6 +679,7 @@
         "index": {
           "description": "For bit PPMs",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "PpmPixelDataRGB8",
           "package": "netpbm",
@@ -639,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "PpmPixelRGB16",
           "package": "netpbm",
@@ -648,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "PpmPixelRGB16",
           "package": "netpbm",
@@ -661,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "PpmPixelRGB8",
           "package": "netpbm",
@@ -670,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "PpmPixelRGB8",
           "package": "netpbm",
@@ -684,6 +742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a PPM file from the given \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n On failure, \u003ccode\u003eLeft error\u003c/code\u003e contains the error message.\n On success, \u003ccode\u003eRight (images, Maybe rest)\u003c/code\u003e contains the parsed images\n and potentially an unparsable rest input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "parsePPM",
           "package": "netpbm",
@@ -694,6 +753,7 @@
         "index": {
           "description": "Parses PPM file from the given ByteString On failure Left error contains the error message On success Right images Maybe rest contains the parsed images and potentially an unparsable rest input",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "parsePPM",
           "normalized": "ByteString-\u003ePpmParseResult",
@@ -710,6 +770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts pixel data to a list of positive \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cp\u003eHow big they can become depends on the bit depth of the pixel data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "pixelDataToIntList",
           "package": "netpbm",
@@ -720,6 +781,7 @@
         "index": {
           "description": "Converts pixel data to list of positive Int How big they can become depends on the bit depth of the pixel data",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "pixelDataToIntList",
           "normalized": "PpmPixelData-\u003e[Int]",
@@ -736,6 +798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a vector of pixels to a list for convenience.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "pixelVectorToList",
           "package": "netpbm",
@@ -746,6 +809,7 @@
         "index": {
           "description": "Converts vector of pixels to list for convenience",
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "pixelVectorToList",
           "normalized": "Vector a-\u003e[a]",
@@ -761,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "ppmData",
           "package": "netpbm",
@@ -770,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "ppmData",
           "package": "netpbm",
@@ -783,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "ppmHeader",
           "package": "netpbm",
@@ -792,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "ppmHeader",
           "package": "netpbm",
@@ -805,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "ppmHeight",
           "package": "netpbm",
@@ -814,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "ppmHeight",
           "package": "netpbm",
@@ -827,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "ppmType",
           "package": "netpbm",
@@ -836,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "ppmType",
           "package": "netpbm",
@@ -849,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:59 UTC 2014",
           "module": "Graphics.Netpbm",
           "name": "ppmWidth",
           "package": "netpbm",
@@ -858,6 +931,7 @@
         },
         "index": {
           "hierarchy": "Graphics Netpbm",
+          "indexed": "2014-03-11T19:26:59",
           "module": "Graphics.Netpbm",
           "name": "ppmWidth",
           "package": "netpbm",

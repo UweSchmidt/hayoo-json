@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "setops"
+        "phrase": "setops",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "SetOps",
           "package": "setops",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "SetOps",
           "package": "setops",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "Empty",
           "package": "setops",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "Empty",
           "package": "setops",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "Insert",
           "package": "setops",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "Insert",
           "package": "setops",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "Intersection",
           "package": "setops",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "Intersection",
           "package": "setops",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "Member",
           "package": "setops",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "Member",
           "package": "setops",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "ProperSubsetOf",
           "package": "setops",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "ProperSubsetOf",
           "package": "setops",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "Singleton",
           "package": "setops",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "Singleton",
           "package": "setops",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "SubsetOf",
           "package": "setops",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "SubsetOf",
           "package": "setops",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "Union",
           "package": "setops",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "Union",
           "package": "setops",
@@ -208,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "(∅)",
           "package": "setops",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "(∅) ∅",
           "package": "setops",
@@ -229,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "(∈)",
           "package": "setops",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "(∈) ∈",
           "normalized": "a-\u003eb-\u003eBool",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "(∉)",
           "package": "setops",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "(∉) ∉",
           "normalized": "a-\u003eb-\u003eBool",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "(∋)",
           "package": "setops",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "(∋) ∋",
           "normalized": "a-\u003eb-\u003eBool",
@@ -298,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "(∌)",
           "package": "setops",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "(∌) ∌",
           "normalized": "a-\u003eb-\u003eBool",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "(∩)",
           "package": "setops",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "(∩) ∩",
           "normalized": "a-\u003ea-\u003ea",
@@ -344,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "(∪)",
           "package": "setops",
@@ -353,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "(∪) ∪",
           "normalized": "a-\u003ea-\u003ea",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "(⊂)",
           "package": "setops",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "(⊂) ⊂",
           "normalized": "a-\u003ea-\u003eBool",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "(⊃)",
           "package": "setops",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "(⊃) ⊃",
           "normalized": "a-\u003ea-\u003eBool",
@@ -413,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "(⊄)",
           "package": "setops",
@@ -422,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "(⊄) ⊄",
           "normalized": "a-\u003ea-\u003eBool",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "(⊅)",
           "package": "setops",
@@ -445,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "(⊅) ⊅",
           "normalized": "a-\u003ea-\u003eBool",
@@ -459,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "(⊆)",
           "package": "setops",
@@ -468,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "(⊆) ⊆",
           "normalized": "a-\u003ea-\u003eBool",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "(⊇)",
           "package": "setops",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "(⊇) ⊇",
           "normalized": "a-\u003ea-\u003eBool",
@@ -505,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "(⊈)",
           "package": "setops",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "(⊈) ⊈",
           "normalized": "a-\u003ea-\u003eBool",
@@ -528,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "(⊉)",
           "package": "setops",
@@ -537,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "(⊉) ⊉",
           "normalized": "a-\u003ea-\u003eBool",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "empty",
           "package": "setops",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "empty",
           "package": "setops",
@@ -572,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "insert",
           "package": "setops",
@@ -581,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eb",
@@ -595,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "intersection",
           "package": "setops",
@@ -604,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "intersection",
           "normalized": "a-\u003ea-\u003ea",
@@ -618,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "isProperSubsetOf",
           "package": "setops",
@@ -627,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "isProperSubsetOf",
           "normalized": "a-\u003ea-\u003eBool",
@@ -642,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "isSubsetOf",
           "package": "setops",
@@ -651,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "isSubsetOf",
           "normalized": "a-\u003ea-\u003eBool",
@@ -666,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "member",
           "package": "setops",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "member",
           "normalized": "a-\u003eb-\u003eBool",
@@ -689,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "singleton",
           "package": "setops",
@@ -698,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "singleton",
           "normalized": "a-\u003eb",
@@ -712,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:22 UTC 2014",
           "module": "Data.SetOps",
           "name": "union",
           "package": "setops",
@@ -721,6 +784,7 @@
         },
         "index": {
           "hierarchy": "Data SetOps",
+          "indexed": "2014-03-11T20:00:22",
           "module": "Data.SetOps",
           "name": "union",
           "normalized": "a-\u003ea-\u003ea",

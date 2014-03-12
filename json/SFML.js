@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SFML"
+        "phrase": "SFML",
+        "type": "phrase"
       },
       "type": "context"
     }

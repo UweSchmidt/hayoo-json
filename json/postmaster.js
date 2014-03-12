@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "postmaster"
+        "phrase": "postmaster",
+        "type": "phrase"
       },
       "type": "context"
     }

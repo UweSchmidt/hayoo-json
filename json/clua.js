@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "clua"
+        "phrase": "clua",
+        "type": "phrase"
       },
       "type": "context"
     }

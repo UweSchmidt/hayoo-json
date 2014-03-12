@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hunp"
+        "phrase": "hunp",
+        "type": "phrase"
       },
       "type": "context"
     }

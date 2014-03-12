@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "happstack-hsp"
+        "phrase": "happstack-hsp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:45 UTC 2014",
           "module": "HSP.Google.Analytics",
           "name": "Analytics",
           "package": "happstack-hsp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HSP Google Analytics",
+          "indexed": "2014-03-11T18:28:45",
           "module": "HSP.Google.Analytics",
           "name": "Analytics",
           "package": "happstack-hsp",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:45 UTC 2014",
           "module": "HSP.Google.Analytics",
           "name": "UACCT",
           "package": "happstack-hsp",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "HSP Google Analytics",
+          "indexed": "2014-03-11T18:28:45",
           "module": "HSP.Google.Analytics",
           "name": "UACCT",
           "package": "happstack-hsp",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe UACCT provided to you by Google (looks like: \u003ccode\u003eUA-XXXXX-X\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:45 UTC 2014",
           "module": "HSP.Google.Analytics",
           "name": "UACCT",
           "package": "happstack-hsp",
@@ -71,6 +76,7 @@
         "index": {
           "description": "The UACCT provided to you by Google looks like UA-XXXXX-X",
           "hierarchy": "HSP Google Analytics",
+          "indexed": "2014-03-11T18:28:45",
           "module": "HSP.Google.Analytics",
           "name": "UACCT",
           "package": "happstack-hsp",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate the (even older) google analytics script tags\n\u003c/p\u003e\u003cp\u003eNOTE: you must put the \u003ca\u003eanalytics yourUACCT %\u003c/a\u003e immediately before the \u003ca\u003e/body\u003c/a\u003e tag\n\u003c/p\u003e\u003cp\u003eYou probably want to use \u003ccode\u003e\u003ca\u003eanalyticsAsync\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e\u003cp\u003eSee also: \u003ccode\u003eaddAnalytics\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eanalyticsAsync\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003euniversalAnalytics\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:45 UTC 2014",
           "module": "HSP.Google.Analytics",
           "name": "analytics",
           "package": "happstack-hsp",
@@ -95,6 +102,7 @@
         "index": {
           "description": "create the even older google analytics script tags NOTE you must put the analytics yourUACCT immediately before the body tag You probably want to use analyticsAsync instead See also addAnalytics analyticsAsync universalAnalytics",
           "hierarchy": "HSP Google Analytics",
+          "indexed": "2014-03-11T18:28:45",
           "module": "HSP.Google.Analytics",
           "name": "analytics",
           "normalized": "UACCT-\u003eGenXMLList a",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate the google analytics asynchronous tracking script tag\n\u003c/p\u003e\u003cp\u003eThis uses the now dubbed 'classic google analytics'\n\u003c/p\u003e\u003cp\u003eNOTE: you must put this right before the \u003c/head\u003e tag\n see also: universalAnalytics\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:28:45 UTC 2014",
           "module": "HSP.Google.Analytics",
           "name": "analyticsAsync",
           "package": "happstack-hsp",
@@ -119,6 +128,7 @@
         "index": {
           "description": "create the google analytics asynchronous tracking script tag This uses the now dubbed classic google analytics NOTE you must put this right before the head tag see also universalAnalytics",
           "hierarchy": "HSP Google Analytics",
+          "indexed": "2014-03-11T18:28:45",
           "module": "HSP.Google.Analytics",
           "name": "analyticsAsync",
           "normalized": "UACCT-\u003eGenXML a",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:45 UTC 2014",
           "module": "HSP.Google.Analytics",
           "name": "universalAnalytics",
           "package": "happstack-hsp",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "HSP Google Analytics",
+          "indexed": "2014-03-11T18:28:45",
           "module": "HSP.Google.Analytics",
           "name": "universalAnalytics",
           "normalized": "UACCT-\u003eGenXML a",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides, \u003ccode\u003einstance \u003ccode\u003e\u003ca\u003eXMLGenerator\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eServerPartT\u003c/a\u003e\u003c/code\u003e m)\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:28:45 UTC 2014",
           "module": "HSP.ServerPartT",
           "name": "ServerPartT",
           "package": "happstack-hsp",
@@ -167,6 +180,7 @@
         "index": {
           "description": "This module provides instance XMLGenerator ServerPartT",
           "hierarchy": "HSP ServerPartT",
+          "indexed": "2014-03-11T18:28:45",
           "module": "HSP.ServerPartT",
           "name": "ServerPartT",
           "package": "happstack-hsp",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:45 UTC 2014",
           "module": "Happstack.Server.HSP.HTML",
           "name": "HTML",
           "package": "happstack-hsp",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server HSP HTML",
+          "indexed": "2014-03-11T18:28:45",
           "module": "Happstack.Server.HSP.HTML",
           "name": "HTML",
           "package": "happstack-hsp",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:28:45 UTC 2014",
           "module": "Happstack.Server.HSP.HTML",
           "name": "defaultTemplate",
           "package": "happstack-hsp",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Happstack Server HSP HTML",
+          "indexed": "2014-03-11T18:28:45",
           "module": "Happstack.Server.HSP.HTML",
           "name": "defaultTemplate",
           "normalized": "Text-\u003ea-\u003eb-\u003ec(XMLType c)",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains orphan \u003ccode\u003e\u003ca\u003eXMLGenT\u003c/a\u003e\u003c/code\u003e instances for \u003ccode\u003e\u003ca\u003eServerMonad\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFilterMonad\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eWebMonad\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eHasRqData\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eHappstack\u003c/a\u003e\u003c/code\u003e. It does not export any functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:28:45 UTC 2014",
           "module": "Happstack.Server.XMLGenT",
           "name": "XMLGenT",
           "package": "happstack-hsp",
@@ -235,6 +254,7 @@
         "index": {
           "description": "This module contains orphan XMLGenT instances for ServerMonad FilterMonad WebMonad HasRqData and Happstack It does not export any functions",
           "hierarchy": "Happstack Server XMLGenT",
+          "indexed": "2014-03-11T18:28:45",
           "module": "Happstack.Server.XMLGenT",
           "name": "XMLGenT",
           "package": "happstack-hsp",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hgal"
+        "phrase": "hgal",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eimplementation of the canonic labeling of graphs + automorphism group.\n\u003c/p\u003e\u003cp\u003eThe implementation is based on:\n  Brendan D. McKay, PRACTICAL GRAPH ISOMORPHISM,\n  in Congressus Numerantium,\n  Vol. 30 (1981), pp. 45-87.\n\u003c/p\u003e\u003cp\u003eNOTE: Usage of implicit automorphisms, as described on page 62, is not implemented here.\n\u003c/p\u003e\u003cp\u003eTODO:\n  - as GHC 6.6, use Sequence instead of appends at end.\n  - skip first automorphism found; it is identity.\n  - try not relabeling the graphs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Automorphism",
           "name": "Automorphism",
           "package": "hgal",
@@ -28,6 +29,7 @@
         "index": {
           "description": "implementation of the canonic labeling of graphs automorphism group The implementation is based on Brendan McKay PRACTICAL GRAPH ISOMORPHISM in Congressus Numerantium Vol pp NOTE Usage of implicit automorphisms as described on page is not implemented here TODO as GHC use Sequence instead of appends at end skip first automorphism found it is identity try not relabeling the graphs",
           "hierarchy": "Data Graph Automorphism",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Automorphism",
           "name": "Automorphism",
           "package": "hgal",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns generators of the automorphism group\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Automorphism",
           "name": "autGenerators",
           "package": "hgal",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Returns generators of the automorphism group",
           "hierarchy": "Data Graph Automorphism",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Automorphism",
           "name": "autGenerators",
           "normalized": "Partition-\u003eGraph-\u003e[Permutation]",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a graph, return generators of its automorphism group, and its canonic labeling\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Automorphism",
           "name": "automorphisms",
           "package": "hgal",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Given graph return generators of its automorphism group and its canonic labeling",
           "hierarchy": "Data Graph Automorphism",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Automorphism",
           "name": "automorphisms",
           "normalized": "Partition-\u003eGraph-\u003e([Permutation],Graph)",
@@ -93,6 +99,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the canonic version of a graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Automorphism",
           "name": "canonicGraph",
           "package": "hgal",
@@ -103,6 +110,7 @@
         "index": {
           "description": "Return the canonic version of graph",
           "hierarchy": "Data Graph Automorphism",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Automorphism",
           "name": "canonicGraph",
           "normalized": "Partition-\u003eGraph-\u003eGraph",
@@ -119,6 +127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a canonic labeling of the graph (slow -- but dead simple implementation).\n This implementation serves documentation and debugging purposes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Automorphism",
           "name": "canonicGraph0",
           "package": "hgal",
@@ -129,6 +138,7 @@
         "index": {
           "description": "Returns canonic labeling of the graph slow but dead simple implementation This implementation serves documentation and debugging purposes",
           "hierarchy": "Data Graph Automorphism",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Automorphism",
           "name": "canonicGraph0",
           "normalized": "Partition-\u003eGraph-\u003eGraph",
@@ -144,6 +154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Automorphism",
           "name": "debugTree",
           "package": "hgal",
@@ -153,6 +164,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Automorphism",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Automorphism",
           "name": "debugTree",
           "normalized": "Partition-\u003eGraph-\u003eIO()",
@@ -169,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTells whether two graphs are isomorphic\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Automorphism",
           "name": "isIsomorphic",
           "package": "hgal",
@@ -179,6 +192,7 @@
         "index": {
           "description": "Tells whether two graphs are isomorphic",
           "hierarchy": "Data Graph Automorphism",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Automorphism",
           "name": "isIsomorphic",
           "normalized": "Graph-\u003eGraph-\u003eBool",
@@ -194,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Automorphism",
           "name": "withUnitPartition",
           "package": "hgal",
@@ -203,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Automorphism",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Automorphism",
           "name": "withUnitPartition",
           "normalized": "(Partition-\u003eArray Vertex a-\u003eb)-\u003eArray Vertex a-\u003eb",
@@ -219,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious functions to build graphs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Construction",
           "name": "Construction",
           "package": "hgal",
@@ -228,6 +245,7 @@
         "index": {
           "description": "Various functions to build graphs",
           "hierarchy": "Data Graph Construction",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Construction",
           "name": "Construction",
           "package": "hgal",
@@ -241,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Construction",
           "name": "arcG",
           "package": "hgal",
@@ -250,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Construction",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Construction",
           "name": "arcG",
           "package": "hgal",
@@ -262,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Construction",
           "name": "cliqueG",
           "package": "hgal",
@@ -271,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Construction",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Construction",
           "name": "cliqueG",
           "normalized": "(Vertex,Vertex)-\u003eGraph",
@@ -285,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Construction",
           "name": "cycleG",
           "package": "hgal",
@@ -294,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Construction",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Construction",
           "name": "cycleG",
           "normalized": "Int-\u003eGraph",
@@ -308,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Construction",
           "name": "emptyG",
           "package": "hgal",
@@ -317,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Construction",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Construction",
           "name": "emptyG",
           "normalized": "Int-\u003eGraph",
@@ -331,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Construction",
           "name": "hCubeG",
           "package": "hgal",
@@ -340,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Construction",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Construction",
           "name": "hCubeG",
           "normalized": "Int-\u003eGraph",
@@ -355,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Construction",
           "name": "kG",
           "package": "hgal",
@@ -364,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Construction",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Construction",
           "name": "kG",
           "normalized": "Int-\u003eInt-\u003eGraph",
@@ -378,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Construction",
           "name": "linearG",
           "package": "hgal",
@@ -387,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Construction",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Construction",
           "name": "linearG",
           "normalized": "Int-\u003eGraph",
@@ -401,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Construction",
           "name": "prismG",
           "package": "hgal",
@@ -410,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Construction",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Construction",
           "name": "prismG",
           "normalized": "Int-\u003eGraph",
@@ -424,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Construction",
           "name": "productG",
           "package": "hgal",
@@ -433,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Construction",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Construction",
           "name": "productG",
           "normalized": "Graph-\u003eGraph-\u003eGraph",
@@ -447,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Construction",
           "name": "starG",
           "package": "hgal",
@@ -456,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Construction",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Construction",
           "name": "starG",
           "normalized": "(Vertex,Vertex)-\u003eGraph",
@@ -470,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Construction",
           "name": "tensorG",
           "package": "hgal",
@@ -479,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Construction",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Construction",
           "name": "tensorG",
           "normalized": "[Int]-\u003eGraph",
@@ -493,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Construction",
           "name": "undirG",
           "package": "hgal",
@@ -502,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Construction",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Construction",
           "name": "undirG",
           "normalized": "Graph-\u003eGraph",
@@ -516,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Construction",
           "name": "unionG",
           "package": "hgal",
@@ -525,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Construction",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Construction",
           "name": "unionG",
           "normalized": "Graph-\u003eGraph-\u003eGraph",
@@ -539,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Partition",
           "name": "Partition",
           "package": "hgal",
@@ -547,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Partition",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Partition",
           "name": "Partition",
           "package": "hgal",
@@ -561,6 +607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cell is represented by its list of vertices,\n with the invariant that the list is sorted\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Partition",
           "name": "Cell",
           "package": "hgal",
@@ -570,6 +617,7 @@
         "index": {
           "description": "cell is represented by its list of vertices with the invariant that the list is sorted",
           "hierarchy": "Data Graph Partition",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Partition",
           "name": "Cell",
           "package": "hgal",
@@ -583,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Partition",
           "name": "Indicator",
           "package": "hgal",
@@ -591,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Partition",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Partition",
           "name": "Indicator",
           "package": "hgal",
@@ -605,6 +655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA partition is its list of cells\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Partition",
           "name": "Partition",
           "package": "hgal",
@@ -614,6 +665,7 @@
         "index": {
           "description": "partition is its list of cells",
           "hierarchy": "Data Graph Partition",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Partition",
           "name": "Partition",
           "package": "hgal",
@@ -628,6 +680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns vertices fixes in the given orbits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Partition",
           "name": "fixedInOrbits",
           "package": "hgal",
@@ -638,6 +691,7 @@
         "index": {
           "description": "Returns vertices fixes in the given orbits",
           "hierarchy": "Data Graph Partition",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Partition",
           "name": "fixedInOrbits",
           "normalized": "Partition-\u003e[Vertex]",
@@ -654,6 +708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the partition discrete ?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Partition",
           "name": "isDiscrete",
           "package": "hgal",
@@ -664,6 +719,7 @@
         "index": {
           "description": "Is the partition discrete",
           "hierarchy": "Data Graph Partition",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Partition",
           "name": "isDiscrete",
           "normalized": "Partition-\u003eBool",
@@ -679,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Partition",
           "name": "isSingleton",
           "package": "hgal",
@@ -688,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Partition",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Partition",
           "name": "isSingleton",
           "normalized": "[a]-\u003eBool",
@@ -704,6 +762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn indicator function.\n \u003ccode\u003elambda\u003c/code\u003e must be insensitive to automorphisms relabeling of the graph for the Automorphism module to work.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Partition",
           "name": "lambda",
           "package": "hgal",
@@ -714,6 +773,7 @@
         "index": {
           "description": "An indicator function lambda must be insensitive to automorphisms relabeling of the graph for the Automorphism module to work",
           "hierarchy": "Data Graph Partition",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Partition",
           "name": "lambda",
           "normalized": "Graph-\u003ePartition-\u003eIndicator",
@@ -728,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Partition",
           "name": "lambda_",
           "package": "hgal",
@@ -737,6 +798,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Partition",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Partition",
           "name": "lambda_",
           "normalized": "Graph-\u003e[Partition]-\u003e[Indicator]",
@@ -751,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Partition",
           "name": "mcr",
           "package": "hgal",
@@ -760,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Partition",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Partition",
           "name": "mcr",
           "normalized": "Partition-\u003e[Vertex]",
@@ -775,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRefines a Partition wrt to another Partition, given a graph.\n (explained on pages 50-52)\n This is equivalent to partition the graph's DFA in equivalent states.\n \u003ccode\u003erefine gr p q\u003c/code\u003e refines \u003ccode\u003ep\u003c/code\u003e wrt. \u003ccode\u003eq\u003c/code\u003e in \u003ccode\u003egr\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Partition",
           "name": "refine",
           "package": "hgal",
@@ -785,6 +850,7 @@
         "index": {
           "description": "Refines Partition wrt to another Partition given graph explained on pages This is equivalent to partition the graph DFA in equivalent states refine gr refines wrt in gr",
           "hierarchy": "Data Graph Partition",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Partition",
           "name": "refine",
           "normalized": "Graph-\u003ePartition-\u003ePartition-\u003ePartition",
@@ -800,6 +866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unit partition of a range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Partition",
           "name": "unitPartition",
           "package": "hgal",
@@ -810,6 +877,7 @@
         "index": {
           "description": "The unit partition of range",
           "hierarchy": "Data Graph Partition",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Partition",
           "name": "unitPartition",
           "normalized": "(Vertex,Vertex)-\u003ePartition",
@@ -826,6 +894,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis modules manages permutations between nodes of a graph. Permutations are represented as arrays.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Permutation",
           "name": "Permutation",
           "package": "hgal",
@@ -835,6 +904,7 @@
         "index": {
           "description": "This modules manages permutations between nodes of graph Permutations are represented as arrays",
           "hierarchy": "Data Graph Permutation",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Permutation",
           "name": "Permutation",
           "package": "hgal",
@@ -849,6 +919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA permutations maps a range of Vertices to itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Permutation",
           "name": "Permutation",
           "package": "hgal",
@@ -858,6 +929,7 @@
         "index": {
           "description": "permutations maps range of Vertices to itself",
           "hierarchy": "Data Graph Permutation",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Permutation",
           "name": "Permutation",
           "package": "hgal",
@@ -872,6 +944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelabel a graph using a permutation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Permutation",
           "name": "applyPerm",
           "package": "hgal",
@@ -882,6 +955,7 @@
         "index": {
           "description": "Relabel graph using permutation",
           "hierarchy": "Data Graph Permutation",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Permutation",
           "name": "applyPerm",
           "normalized": "Permutation-\u003eGraph-\u003eGraph",
@@ -898,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFixed vertices of a given permutation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Permutation",
           "name": "fixed",
           "package": "hgal",
@@ -908,6 +983,7 @@
         "index": {
           "description": "Fixed vertices of given permutation",
           "hierarchy": "Data Graph Permutation",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Permutation",
           "name": "fixed",
           "normalized": "Permutation-\u003e[Vertex]",
@@ -923,6 +999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge the orbits of two permutations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Permutation",
           "name": "mergePerms",
           "package": "hgal",
@@ -933,6 +1010,7 @@
         "index": {
           "description": "Merge the orbits of two permutations",
           "hierarchy": "Data Graph Permutation",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Permutation",
           "name": "mergePerms",
           "normalized": "Permutation-\u003ePermutation-\u003ePermutation",
@@ -949,6 +1027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the orbits of a permutation, as a partition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Permutation",
           "name": "orbitsFromPerm",
           "package": "hgal",
@@ -959,6 +1038,7 @@
         "index": {
           "description": "Returns the orbits of permutation as partition",
           "hierarchy": "Data Graph Permutation",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Permutation",
           "name": "orbitsFromPerm",
           "normalized": "Permutation-\u003ePartition",
@@ -975,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilds the permutation taking l1 on l2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:19 UTC 2014",
           "module": "Data.Graph.Permutation",
           "name": "permBetween",
           "package": "hgal",
@@ -985,6 +1066,7 @@
         "index": {
           "description": "Builds the permutation taking l1 on l2",
           "hierarchy": "Data Graph Permutation",
+          "indexed": "2014-03-11T18:38:19",
           "module": "Data.Graph.Permutation",
           "name": "permBetween",
           "normalized": "Bounds-\u003e[Vertex]-\u003e[Vertex]-\u003ePermutation",

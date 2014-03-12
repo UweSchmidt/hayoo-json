@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "categories"
+        "phrase": "categories",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA more categorical definition of \u003ccode\u003e\u003ca\u003eBifunctor\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Categorical.Bifunctor",
           "name": "Bifunctor",
           "package": "categories",
@@ -28,6 +29,7 @@
         "index": {
           "description": "more categorical definition of Bifunctor",
           "hierarchy": "Control Categorical Bifunctor",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Categorical.Bifunctor",
           "name": "Bifunctor",
           "package": "categories",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal definition: \u003ccode\u003ebimap\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Categorical.Bifunctor",
           "name": "Bifunctor",
           "package": "categories",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Minimal definition bimap",
           "hierarchy": "Control Categorical Bifunctor",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Categorical.Bifunctor",
           "name": "Bifunctor",
           "package": "categories",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Categorical.Bifunctor",
           "name": "PFunctor",
           "package": "categories",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Control Categorical Bifunctor",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Categorical.Bifunctor",
           "name": "PFunctor",
           "package": "categories",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Categorical.Bifunctor",
           "name": "QFunctor",
           "package": "categories",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Control Categorical Bifunctor",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Categorical.Bifunctor",
           "name": "QFunctor",
           "package": "categories",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Categorical.Bifunctor",
           "name": "bimap",
           "package": "categories",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Control Categorical Bifunctor",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Categorical.Bifunctor",
           "name": "bimap",
           "normalized": "a b c-\u003ed e f-\u003eg(h b e)(h c f)",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Categorical.Bifunctor",
           "name": "difirst",
           "package": "categories",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Control Categorical Bifunctor",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Categorical.Bifunctor",
           "name": "difirst",
           "normalized": "a b c-\u003ed(e c f)(e b f)",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Categorical.Bifunctor",
           "name": "dimap",
           "package": "categories",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Control Categorical Bifunctor",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Categorical.Bifunctor",
           "name": "dimap",
           "normalized": "a b c-\u003ed e f-\u003eg(h c e)(h b f)",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Categorical.Bifunctor",
           "name": "first",
           "package": "categories",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Control Categorical Bifunctor",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Categorical.Bifunctor",
           "name": "first",
           "normalized": "a b c-\u003ed(e b f)(e c f)",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Categorical.Bifunctor",
           "name": "second",
           "package": "categories",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Control Categorical Bifunctor",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Categorical.Bifunctor",
           "name": "second",
           "normalized": "a b c-\u003ed(e f b)(e f c)",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA more categorical definition of \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Categorical.Functor",
           "name": "Functor",
           "package": "categories",
@@ -231,6 +250,7 @@
         "index": {
           "description": "more categorical definition of Functor",
           "hierarchy": "Control Categorical Functor",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Categorical.Functor",
           "name": "Functor",
           "package": "categories",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Categorical.Functor",
           "name": "Endofunctor",
           "package": "categories",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Control Categorical Functor",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Categorical.Functor",
           "name": "Endofunctor",
           "package": "categories",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Categorical.Functor",
           "name": "Functor",
           "package": "categories",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Control Categorical Functor",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Categorical.Functor",
           "name": "Functor",
           "package": "categories",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Categorical.Functor",
           "name": "LiftedFunctor",
           "package": "categories",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Control Categorical Functor",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Categorical.Functor",
           "name": "LiftedFunctor",
           "package": "categories",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Categorical.Functor",
           "name": "LoweredFunctor",
           "package": "categories",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Control Categorical Functor",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Categorical.Functor",
           "name": "LoweredFunctor",
           "package": "categories",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Categorical.Functor",
           "name": "LiftedFunctor",
           "package": "categories",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Control Categorical Functor",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Categorical.Functor",
           "name": "LiftedFunctor",
           "package": "categories",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Categorical.Functor",
           "name": "LoweredFunctor",
           "package": "categories",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Control Categorical Functor",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Categorical.Functor",
           "name": "LoweredFunctor",
           "package": "categories",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Categorical.Functor",
           "name": "fmap",
           "package": "categories",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Control Categorical Functor",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Categorical.Functor",
           "name": "fmap",
           "normalized": "a b c-\u003ed(e b)(e c)",
@@ -396,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module declares the \u003ccode\u003e\u003ca\u003eHasTerminalObject\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eHasInitialObject\u003c/a\u003e\u003c/code\u003e classes.\n\u003c/p\u003e\u003cp\u003eThese are both special cases of the idea of a (co)limit.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Categorical.Object",
           "name": "Object",
           "package": "categories",
@@ -405,6 +440,7 @@
         "index": {
           "description": "This module declares the HasTerminalObject and HasInitialObject classes These are both special cases of the idea of co limit",
           "hierarchy": "Control Categorical Object",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Categorical.Object",
           "name": "Object",
           "package": "categories",
@@ -419,6 +455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eCategory (~\u003e)\u003c/code\u003e has an initial (coterminal) object \u003ccode\u003eInitial (~\u003e)\u003c/code\u003e such that for all objects\n \u003ccode\u003ea\u003c/code\u003e in \u003ccode\u003e(~\u003e)\u003c/code\u003e, there exists a unique morphism from \u003ccode\u003eInitial (~\u003e) \u003c/code\u003e to \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Categorical.Object",
           "name": "HasInitialObject",
           "package": "categories",
@@ -428,6 +465,7 @@
         "index": {
           "description": "The Category has an initial coterminal object Initial such that for all objects in there exists unique morphism from Initial to",
           "hierarchy": "Control Categorical Object",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Categorical.Object",
           "name": "HasInitialObject",
           "package": "categories",
@@ -442,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eCategory (~\u003e)\u003c/code\u003e has a terminal object \u003ccode\u003eTerminal (~\u003e)\u003c/code\u003e such that for all objects \u003ccode\u003ea\u003c/code\u003e in \u003ccode\u003e(~\u003e)\u003c/code\u003e,\n there exists a unique morphism from \u003ccode\u003ea\u003c/code\u003e to \u003ccode\u003eTerminal (~\u003e)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Categorical.Object",
           "name": "HasTerminalObject",
           "package": "categories",
@@ -451,6 +490,7 @@
         "index": {
           "description": "The Category has terminal object Terminal such that for all objects in there exists unique morphism from to Terminal",
           "hierarchy": "Control Categorical Object",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Categorical.Object",
           "name": "HasTerminalObject",
           "package": "categories",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Categorical.Object",
           "name": "initiate",
           "package": "categories",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Control Categorical Object",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Categorical.Object",
           "name": "initiate",
           "package": "categories",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Categorical.Object",
           "name": "terminate",
           "package": "categories",
@@ -494,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Control Categorical Object",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Categorical.Object",
           "name": "terminate",
           "package": "categories",
@@ -507,6 +551,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNB: this contradicts another common meaning for an \u003ccode\u003e\u003ca\u003eAssociative\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eCategory\u003c/code\u003e, which is one\n where the pentagonal condition does not hold, but for which there is an identity.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Associative",
           "name": "Associative",
           "package": "categories",
@@ -516,6 +561,7 @@
         "index": {
           "description": "NB this contradicts another common meaning for an Associative Category which is one where the pentagonal condition does not hold but for which there is an identity",
           "hierarchy": "Control Category Associative",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Associative",
           "name": "Associative",
           "package": "categories",
@@ -530,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA category with an associative bifunctor satisfying Mac Lane's pentagonal coherence identity law:\n\u003c/p\u003e\u003cpre\u003e bimap id associate . associate . bimap associate id = associate . associate\n bimap disassociate id . disassociate . bimap id disassociate = disassociate . disassociate\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Associative",
           "name": "Associative",
           "package": "categories",
@@ -539,6 +586,7 @@
         "index": {
           "description": "category with an associative bifunctor satisfying Mac Lane pentagonal coherence identity law bimap id associate associate bimap associate id associate associate bimap disassociate id disassociate bimap id disassociate disassociate disassociate",
           "hierarchy": "Control Category Associative",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Associative",
           "name": "Associative",
           "package": "categories",
@@ -552,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Associative",
           "name": "associate",
           "package": "categories",
@@ -561,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Control Category Associative",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Associative",
           "name": "associate",
           "package": "categories",
@@ -573,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Associative",
           "name": "disassociate",
           "package": "categories",
@@ -582,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Control Category Associative",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Associative",
           "name": "disassociate",
           "package": "categories",
@@ -594,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Braided",
           "name": "Braided",
           "package": "categories",
@@ -602,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Control Category Braided",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Braided",
           "name": "Braided",
           "package": "categories",
@@ -616,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA braided (co)(monoidal or associative) category can commute the arguments of its bi-endofunctor. Obeys the laws:\n\u003c/p\u003e\u003cpre\u003e associate . braid . associate = second braid . associate . first braid\n disassociate . braid . disassociate = first braid . disassociate . second braid\n\u003c/pre\u003e\u003cp\u003eIf the category is Monoidal the following laws should be satisfied\n\u003c/p\u003e\u003cpre\u003e idr . braid = idl\n idl . braid = idr\n\u003c/pre\u003e\u003cp\u003eIf the category is Comonoidal the following laws should be satisfied\n\u003c/p\u003e\u003cpre\u003e braid . coidr = coidl\n braid . coidl = coidr\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Braided",
           "name": "Braided",
           "package": "categories",
@@ -625,6 +680,7 @@
         "index": {
           "description": "braided co monoidal or associative category can commute the arguments of its bi-endofunctor Obeys the laws associate braid associate second braid associate first braid disassociate braid disassociate first braid disassociate second braid If the category is Monoidal the following laws should be satisfied idr braid idl idl braid idr If the category is Comonoidal the following laws should be satisfied braid coidr coidl braid coidl coidr",
           "hierarchy": "Control Category Braided",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Braided",
           "name": "Braided",
           "package": "categories",
@@ -639,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf we have a symmetric (co)\u003ccode\u003eMonoidal\u003c/code\u003e category, you get the additional law:\n\u003c/p\u003e\u003cpre\u003e swap . swap = id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Braided",
           "name": "Symmetric",
           "package": "categories",
@@ -648,6 +705,7 @@
         "index": {
           "description": "If we have symmetric co Monoidal category you get the additional law swap swap id",
           "hierarchy": "Control Category Braided",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Braided",
           "name": "Symmetric",
           "package": "categories",
@@ -661,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Braided",
           "name": "braid",
           "package": "categories",
@@ -670,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Control Category Braided",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Braided",
           "name": "braid",
           "package": "categories",
@@ -682,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Braided",
           "name": "swap",
           "package": "categories",
@@ -691,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Control Category Braided",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Braided",
           "name": "swap",
           "package": "categories",
@@ -703,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian.Closed",
           "name": "Closed",
           "package": "categories",
@@ -711,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Control Category Cartesian Closed",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian.Closed",
           "name": "Closed",
           "package": "categories",
@@ -725,6 +789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eCCC\u003c/a\u003e\u003c/code\u003e has full-fledged monoidal finite products and exponentials\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian.Closed",
           "name": "CCC",
           "package": "categories",
@@ -734,6 +799,7 @@
         "index": {
           "description": "CCC has full-fledged monoidal finite products and exponentials",
           "hierarchy": "Control Category Cartesian Closed",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian.Closed",
           "name": "CCC",
           "package": "categories",
@@ -748,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Co-CCC has full-fledged comonoidal finite coproducts and coexponentials\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian.Closed",
           "name": "CoCCC",
           "package": "categories",
@@ -757,6 +824,7 @@
         "index": {
           "description": "Co-CCC has full-fledged comonoidal finite coproducts and coexponentials",
           "hierarchy": "Control Category Cartesian Closed",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian.Closed",
           "name": "CoCCC",
           "package": "categories",
@@ -770,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian.Closed",
           "name": "apply",
           "package": "categories",
@@ -779,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Control Category Cartesian Closed",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian.Closed",
           "name": "apply",
           "package": "categories",
@@ -791,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian.Closed",
           "name": "coapply",
           "package": "categories",
@@ -800,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Control Category Cartesian Closed",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian.Closed",
           "name": "coapply",
           "package": "categories",
@@ -812,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian.Closed",
           "name": "cocurry",
           "package": "categories",
@@ -821,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Control Category Cartesian Closed",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian.Closed",
           "name": "cocurry",
           "normalized": "(a b Sum b c d)-\u003eCoexp b d a b c",
@@ -835,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian.Closed",
           "name": "counitCCC",
           "package": "categories",
@@ -844,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Control Category Cartesian Closed",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian.Closed",
           "name": "counitCCC",
           "package": "categories",
@@ -857,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian.Closed",
           "name": "counitCoCCC",
           "package": "categories",
@@ -866,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Control Category Cartesian Closed",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian.Closed",
           "name": "counitCoCCC",
           "package": "categories",
@@ -879,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian.Closed",
           "name": "curry",
           "package": "categories",
@@ -888,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Control Category Cartesian Closed",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian.Closed",
           "name": "curry",
           "normalized": "(Product a b c a d)-\u003eb a Exp a c d",
@@ -902,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian.Closed",
           "name": "uncocurry",
           "package": "categories",
@@ -911,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Control Category Cartesian Closed",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian.Closed",
           "name": "uncocurry",
           "normalized": "(Coexp a b c a d)-\u003ec a Sum a d b",
@@ -925,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian.Closed",
           "name": "uncurry",
           "package": "categories",
@@ -934,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Control Category Cartesian Closed",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian.Closed",
           "name": "uncurry",
           "normalized": "(a b Exp b c d)-\u003eProduct b a c b d",
@@ -948,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian.Closed",
           "name": "unitCCC",
           "package": "categories",
@@ -957,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Control Category Cartesian Closed",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian.Closed",
           "name": "unitCCC",
           "package": "categories",
@@ -970,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian.Closed",
           "name": "unitCoCCC",
           "package": "categories",
@@ -979,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Control Category Cartesian Closed",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian.Closed",
           "name": "unitCoCCC",
           "package": "categories",
@@ -992,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian",
           "name": "Cartesian",
           "package": "categories",
@@ -1000,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Control Category Cartesian",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian",
           "name": "Cartesian",
           "package": "categories",
@@ -1014,6 +1104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimum definition:\n\u003c/p\u003e\u003cpre\u003e fst, snd, diag\n fst, snd, (&&&)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian",
           "name": "Cartesian",
           "package": "categories",
@@ -1023,6 +1114,7 @@
         "index": {
           "description": "Minimum definition fst snd diag fst snd",
           "hierarchy": "Control Category Cartesian",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian",
           "name": "Cartesian",
           "package": "categories",
@@ -1036,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian",
           "name": "CoCartesian",
           "package": "categories",
@@ -1044,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Control Category Cartesian",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian",
           "name": "CoCartesian",
           "package": "categories",
@@ -1057,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian",
           "name": "(|||)",
           "package": "categories",
@@ -1066,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Control Category Cartesian",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian",
           "name": "(|||) |||",
           "normalized": "a b c-\u003ea d c-\u003eSum a b d a c",
@@ -1080,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian",
           "name": "(&&&)",
           "package": "categories",
@@ -1089,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "Control Category Cartesian",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian",
           "name": "(&&&) &&&",
           "normalized": "(a b c)-\u003e(a b d)-\u003ea b Product b c d",
@@ -1104,6 +1202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efree construction of \u003ccode\u003eAssociative\u003c/code\u003e for the product \u003ccode\u003e\u003ca\u003eBifunctor\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eProduct k\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian",
           "name": "associateProduct",
           "package": "categories",
@@ -1114,6 +1213,7 @@
         "index": {
           "description": "free construction of Associative for the product Bifunctor Product",
           "hierarchy": "Control Category Cartesian",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian",
           "name": "associateProduct",
           "package": "categories",
@@ -1128,6 +1228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efree construction of \u003ccode\u003eAssociative\u003c/code\u003e for the coproduct \u003ccode\u003e\u003ca\u003eBifunctor\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eSum k\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian",
           "name": "associateSum",
           "package": "categories",
@@ -1138,6 +1239,7 @@
         "index": {
           "description": "free construction of Associative for the coproduct Bifunctor Sum",
           "hierarchy": "Control Category Cartesian",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian",
           "name": "associateSum",
           "package": "categories",
@@ -1152,6 +1254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efree construction of \u003ccode\u003e\u003ca\u003eBifunctor\u003c/a\u003e\u003c/code\u003e for the product \u003ccode\u003e\u003ca\u003eBifunctor\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eProduct k\u003c/code\u003e if \u003ccode\u003e(&&&)\u003c/code\u003e is known\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian",
           "name": "bimapProduct",
           "package": "categories",
@@ -1162,6 +1265,7 @@
         "index": {
           "description": "free construction of Bifunctor for the product Bifunctor Product if is known",
           "hierarchy": "Control Category Cartesian",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian",
           "name": "bimapProduct",
           "normalized": "a b c-\u003ea d e-\u003eProduct a b d a Product a c e",
@@ -1178,6 +1282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efree construction of \u003ccode\u003e\u003ca\u003eBifunctor\u003c/a\u003e\u003c/code\u003e for the coproduct \u003ccode\u003e\u003ca\u003eBifunctor\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eSum k\u003c/code\u003e if \u003ccode\u003e(|||)\u003c/code\u003e is known\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian",
           "name": "bimapSum",
           "package": "categories",
@@ -1188,6 +1293,7 @@
         "index": {
           "description": "free construction of Bifunctor for the coproduct Bifunctor Sum if is known",
           "hierarchy": "Control Category Cartesian",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian",
           "name": "bimapSum",
           "normalized": "a b c-\u003ea d e-\u003eSum a b d a Sum a c e",
@@ -1204,6 +1310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efree construction of \u003ccode\u003e\u003ca\u003eBraided\u003c/a\u003e\u003c/code\u003e for the product \u003ccode\u003e\u003ca\u003eBifunctor\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eProduct k\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian",
           "name": "braidProduct",
           "package": "categories",
@@ -1214,6 +1321,7 @@
         "index": {
           "description": "free construction of Braided for the product Bifunctor Product",
           "hierarchy": "Control Category Cartesian",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian",
           "name": "braidProduct",
           "package": "categories",
@@ -1228,6 +1336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efree construction of \u003ccode\u003e\u003ca\u003eBraided\u003c/a\u003e\u003c/code\u003e for the coproduct \u003ccode\u003e\u003ca\u003eBifunctor\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eSum k\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian",
           "name": "braidSum",
           "package": "categories",
@@ -1238,6 +1347,7 @@
         "index": {
           "description": "free construction of Braided for the coproduct Bifunctor Sum",
           "hierarchy": "Control Category Cartesian",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian",
           "name": "braidSum",
           "package": "categories",
@@ -1251,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian",
           "name": "codiag",
           "package": "categories",
@@ -1260,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Control Category Cartesian",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian",
           "name": "codiag",
           "package": "categories",
@@ -1272,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian",
           "name": "diag",
           "package": "categories",
@@ -1281,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Control Category Cartesian",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian",
           "name": "diag",
           "package": "categories",
@@ -1294,6 +1408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efree construction of \u003ccode\u003eDisassociative\u003c/code\u003e for the product \u003ccode\u003e\u003ca\u003eBifunctor\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eProduct k\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian",
           "name": "disassociateProduct",
           "package": "categories",
@@ -1304,6 +1419,7 @@
         "index": {
           "description": "free construction of Disassociative for the product Bifunctor Product",
           "hierarchy": "Control Category Cartesian",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian",
           "name": "disassociateProduct",
           "package": "categories",
@@ -1318,6 +1434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efree construction of \u003ccode\u003eDisassociative\u003c/code\u003e for the coproduct \u003ccode\u003e\u003ca\u003eBifunctor\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eSum k\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian",
           "name": "disassociateSum",
           "package": "categories",
@@ -1328,6 +1445,7 @@
         "index": {
           "description": "free construction of Disassociative for the coproduct Bifunctor Sum",
           "hierarchy": "Control Category Cartesian",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian",
           "name": "disassociateSum",
           "package": "categories",
@@ -1341,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian",
           "name": "fst",
           "package": "categories",
@@ -1350,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Control Category Cartesian",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian",
           "name": "fst",
           "package": "categories",
@@ -1362,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian",
           "name": "inl",
           "package": "categories",
@@ -1371,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "Control Category Cartesian",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian",
           "name": "inl",
           "package": "categories",
@@ -1383,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian",
           "name": "inr",
           "package": "categories",
@@ -1392,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Control Category Cartesian",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian",
           "name": "inr",
           "package": "categories",
@@ -1404,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Cartesian",
           "name": "snd",
           "package": "categories",
@@ -1413,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Control Category Cartesian",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Cartesian",
           "name": "snd",
           "package": "categories",
@@ -1425,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Discrete",
           "name": "Discrete",
           "package": "categories",
@@ -1433,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Control Category Discrete",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Discrete",
           "name": "Discrete",
           "package": "categories",
@@ -1447,6 +1575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCategory of discrete objects. The only arrows are identity arrows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Discrete",
           "name": "Discrete",
           "package": "categories",
@@ -1456,6 +1585,7 @@
         "index": {
           "description": "Category of discrete objects The only arrows are identity arrows",
           "hierarchy": "Control Category Discrete",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Discrete",
           "name": "Discrete",
           "package": "categories",
@@ -1469,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Discrete",
           "name": "Refl",
           "package": "categories",
@@ -1478,6 +1609,7 @@
         },
         "index": {
           "hierarchy": "Control Category Discrete",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Discrete",
           "name": "Refl",
           "package": "categories",
@@ -1492,6 +1624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower the proof that a ~ b to an arbitrary category.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Discrete",
           "name": "cast",
           "package": "categories",
@@ -1502,6 +1635,7 @@
         "index": {
           "description": "Lower the proof that to an arbitrary category",
           "hierarchy": "Control Category Discrete",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Discrete",
           "name": "cast",
           "normalized": "Discrete a b-\u003ec a b",
@@ -1516,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Discrete",
           "name": "inverse",
           "package": "categories",
@@ -1525,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Control Category Discrete",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Discrete",
           "name": "inverse",
           "normalized": "Discrete a b-\u003eDiscrete b a",
@@ -1540,6 +1676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscrete a b acts as a proof that a = b, lift that proof into something of kind * -\u003e *\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Discrete",
           "name": "liftDiscrete",
           "package": "categories",
@@ -1550,6 +1687,7 @@
         "index": {
           "description": "Discrete acts as proof that lift that proof into something of kind",
           "hierarchy": "Control Category Discrete",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Discrete",
           "name": "liftDiscrete",
           "normalized": "Discrete a b-\u003eDiscrete(c a)(c b)",
@@ -1565,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Distributive",
           "name": "Distributive",
           "package": "categories",
@@ -1573,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "Control Category Distributive",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Distributive",
           "name": "Distributive",
           "package": "categories",
@@ -1587,6 +1727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA category in which \u003ccode\u003e\u003ca\u003efactor\u003c/a\u003e\u003c/code\u003e is an isomorphism\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Distributive",
           "name": "Distributive",
           "package": "categories",
@@ -1596,6 +1737,7 @@
         "index": {
           "description": "category in which factor is an isomorphism",
           "hierarchy": "Control Category Distributive",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Distributive",
           "name": "Distributive",
           "package": "categories",
@@ -1609,6 +1751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Distributive",
           "name": "distribute",
           "package": "categories",
@@ -1618,6 +1761,7 @@
         },
         "index": {
           "hierarchy": "Control Category Distributive",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Distributive",
           "name": "distribute",
           "package": "categories",
@@ -1631,6 +1775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe canonical factoring morphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Distributive",
           "name": "factor",
           "package": "categories",
@@ -1641,6 +1786,7 @@
         "index": {
           "description": "The canonical factoring morphism",
           "hierarchy": "Control Category Distributive",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Distributive",
           "name": "factor",
           "package": "categories",
@@ -1653,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Dual",
           "name": "Dual",
           "package": "categories",
@@ -1661,6 +1808,7 @@
         },
         "index": {
           "hierarchy": "Control Category Dual",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Dual",
           "name": "Dual",
           "package": "categories",
@@ -1674,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Dual",
           "name": "Dual",
           "package": "categories",
@@ -1682,6 +1831,7 @@
         },
         "index": {
           "hierarchy": "Control Category Dual",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Dual",
           "name": "Dual",
           "package": "categories",
@@ -1695,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Dual",
           "name": "Dual",
           "package": "categories",
@@ -1704,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Control Category Dual",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Dual",
           "name": "Dual",
           "package": "categories",
@@ -1717,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Dual",
           "name": "runDual",
           "package": "categories",
@@ -1726,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Control Category Dual",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Dual",
           "name": "runDual",
           "package": "categories",
@@ -1740,6 +1894,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eMonoidal\u003c/a\u003e\u003c/code\u003e category is a category with an associated biendofunctor that has an identity,\n which satisfies Mac Lane''s pentagonal and triangular coherence conditions\n Technically we usually say that category is \u003ccode\u003e\u003ca\u003eMonoidal\u003c/a\u003e\u003c/code\u003e, but since\n most interesting categories in our world have multiple candidate bifunctors that you can\n use to enrich their structure, we choose here to think of the bifunctor as being\n monoidal. This lets us reuse the same \u003ccode\u003eBifunctor\u003c/code\u003e over different categories without\n painful newtype wrapping.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Monoidal",
           "name": "Monoidal",
           "package": "categories",
@@ -1749,6 +1904,7 @@
         "index": {
           "description": "Monoidal category is category with an associated biendofunctor that has an identity which satisfies Mac Lane pentagonal and triangular coherence conditions Technically we usually say that category is Monoidal but since most interesting categories in our world have multiple candidate bifunctors that you can use to enrich their structure we choose here to think of the bifunctor as being monoidal This lets us reuse the same Bifunctor over different categories without painful newtype wrapping",
           "hierarchy": "Control Category Monoidal",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Monoidal",
           "name": "Monoidal",
           "package": "categories",
@@ -1763,6 +1919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDenotes that we have some reasonable notion of \u003ccode\u003eIdentity\u003c/code\u003e for a particular \u003ccode\u003eBifunctor\u003c/code\u003e in this \u003ccode\u003eCategory\u003c/code\u003e. This\n notion is currently used by both \u003ccode\u003e\u003ca\u003eMonoidal\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003eComonoidal\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eA monoidal category. \u003ccode\u003e\u003ca\u003eidl\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eidr\u003c/a\u003e\u003c/code\u003e are traditionally denoted lambda and rho\n the triangle identities hold:\n\u003c/p\u003e\u003cpre\u003e first idr = second idl . associate\n second idl = first idr . associate\n first idr = disassociate . second idl\n second idl = disassociate . first idr\n idr . coidr = id\n idl . coidl = id\n coidl . idl = id\n coidr . idr = id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Monoidal",
           "name": "Monoidal",
           "package": "categories",
@@ -1772,6 +1929,7 @@
         "index": {
           "description": "Denotes that we have some reasonable notion of Identity for particular Bifunctor in this Category This notion is currently used by both Monoidal and Comonoidal monoidal category idl and idr are traditionally denoted lambda and rho the triangle identities hold first idr second idl associate second idl first idr associate first idr disassociate second idl second idl disassociate first idr idr coidr id idl coidl id coidl idl id coidr idr id",
           "hierarchy": "Control Category Monoidal",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Monoidal",
           "name": "Monoidal",
           "package": "categories",
@@ -1785,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Monoidal",
           "name": "coidl",
           "package": "categories",
@@ -1794,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Control Category Monoidal",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Monoidal",
           "name": "coidl",
           "package": "categories",
@@ -1806,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Monoidal",
           "name": "coidr",
           "package": "categories",
@@ -1815,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "Control Category Monoidal",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Monoidal",
           "name": "coidr",
           "package": "categories",
@@ -1827,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Monoidal",
           "name": "idl",
           "package": "categories",
@@ -1836,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "Control Category Monoidal",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Monoidal",
           "name": "idl",
           "package": "categories",
@@ -1848,6 +2012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:31 UTC 2014",
           "module": "Control.Category.Monoidal",
           "name": "idr",
           "package": "categories",
@@ -1857,6 +2022,7 @@
         },
         "index": {
           "hierarchy": "Control Category Monoidal",
+          "indexed": "2014-03-11T17:30:31",
           "module": "Control.Category.Monoidal",
           "name": "idr",
           "package": "categories",

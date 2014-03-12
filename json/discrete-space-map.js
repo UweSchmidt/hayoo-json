@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "discrete-space-map"
+        "phrase": "discrete-space-map",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:49 UTC 2014",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "Internal",
           "package": "discrete-space-map",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data DiscreteSpaceMap Internal",
+          "indexed": "2014-03-11T17:56:49",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "Internal",
           "package": "discrete-space-map",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:49 UTC 2014",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "MapD",
           "package": "discrete-space-map",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data DiscreteSpaceMap Internal",
+          "indexed": "2014-03-11T17:56:49",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "MapD",
           "package": "discrete-space-map",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo be a key in the map, a position needs to be convertible to and from a stream of bits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:49 UTC 2014",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "Pos",
           "package": "discrete-space-map",
@@ -70,6 +75,7 @@
         "index": {
           "description": "To be key in the map position needs to be convertible to and from stream of bits",
           "hierarchy": "Data DiscreteSpaceMap Internal",
+          "indexed": "2014-03-11T17:56:49",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "Pos",
           "package": "discrete-space-map",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:49 UTC 2014",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "MapD",
           "package": "discrete-space-map",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data DiscreteSpaceMap Internal",
+          "indexed": "2014-03-11T17:56:49",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "MapD",
           "normalized": "MapD a(MapD(a,a))",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e cons . uncons == id \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:56:49 UTC 2014",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "cons",
           "package": "discrete-space-map",
@@ -118,6 +127,7 @@
         "index": {
           "description": "cons uncons id",
           "hierarchy": "Data DiscreteSpaceMap Internal",
+          "indexed": "2014-03-11T17:56:49",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "cons",
           "normalized": "(a,Bool)-\u003ea",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:49 UTC 2014",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "cotraverseD",
           "package": "discrete-space-map",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data DiscreteSpaceMap Internal",
+          "indexed": "2014-03-11T17:56:49",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "cotraverseD",
           "normalized": "(a b-\u003ec)-\u003ea(MapD b)-\u003eMapD c",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:49 UTC 2014",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "gotoD",
           "package": "discrete-space-map",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Data DiscreteSpaceMap Internal",
+          "indexed": "2014-03-11T17:56:49",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "gotoD",
           "normalized": "a-\u003ea-\u003e(b,MapD b)-\u003e(b,MapD b)",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:49 UTC 2014",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "tabulateD",
           "package": "discrete-space-map",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Data DiscreteSpaceMap Internal",
+          "indexed": "2014-03-11T17:56:49",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "tabulateD",
           "normalized": "(a-\u003eb)-\u003eMapD b",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:49 UTC 2014",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "traverseWithKey1D",
           "package": "discrete-space-map",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Data DiscreteSpaceMap Internal",
+          "indexed": "2014-03-11T17:56:49",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "traverseWithKey1D",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ea-\u003eMapD b-\u003ec(MapD d)",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:49 UTC 2014",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "uncons",
           "package": "discrete-space-map",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Data DiscreteSpaceMap Internal",
+          "indexed": "2014-03-11T17:56:49",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "uncons",
           "normalized": "a-\u003e(a,Bool)",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e uncons zero == (zero, False)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:56:49 UTC 2014",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "zero",
           "package": "discrete-space-map",
@@ -259,6 +280,7 @@
         "index": {
           "description": "uncons zero zero False",
           "hierarchy": "Data DiscreteSpaceMap Internal",
+          "indexed": "2014-03-11T17:56:49",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "zero",
           "package": "discrete-space-map",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:49 UTC 2014",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "zipWithKeyD",
           "package": "discrete-space-map",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Data DiscreteSpaceMap Internal",
+          "indexed": "2014-03-11T17:56:49",
           "module": "Data.DiscreteSpaceMap.Internal",
           "name": "zipWithKeyD",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003ea-\u003eMapD b-\u003eMapD c-\u003eMapD d",
@@ -295,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:49 UTC 2014",
           "module": "Data.DiscreteSpaceMap",
           "name": "DiscreteSpaceMap",
           "package": "discrete-space-map",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Data DiscreteSpaceMap",
+          "indexed": "2014-03-11T17:56:49",
           "module": "Data.DiscreteSpaceMap",
           "name": "DiscreteSpaceMap",
           "package": "discrete-space-map",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e is a zipper on an infinite perfect binary tree.\n   It contains the position and value of the focus.\n   The other values are stored in the derivative of a perfect binary tree.\n\u003c/p\u003e\u003cp\u003eFunctions that combine 2 maps like \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ezipWithKey\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e\u003c@\u003e\u003c/a\u003e\u003c/code\u003e preserve the focus position of the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:49 UTC 2014",
           "module": "Data.DiscreteSpaceMap",
           "name": "Map",
           "package": "discrete-space-map",
@@ -326,6 +353,7 @@
         "index": {
           "description": "Map is zipper on an infinite perfect binary tree It contains the position and value of the focus The other values are stored in the derivative of perfect binary tree Functions that combine maps like zipWith zipWithKey and preserve the focus position of the second argument",
           "hierarchy": "Data DiscreteSpaceMap",
+          "indexed": "2014-03-11T17:56:49",
           "module": "Data.DiscreteSpaceMap",
           "name": "Map",
           "package": "discrete-space-map",
@@ -340,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo be a key in the map, a position needs to be convertible to and from a stream of bits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:49 UTC 2014",
           "module": "Data.DiscreteSpaceMap",
           "name": "Pos",
           "package": "discrete-space-map",
@@ -349,6 +378,7 @@
         "index": {
           "description": "To be key in the map position needs to be convertible to and from stream of bits",
           "hierarchy": "Data DiscreteSpaceMap",
+          "indexed": "2014-03-11T17:56:49",
           "module": "Data.DiscreteSpaceMap",
           "name": "Pos",
           "package": "discrete-space-map",
@@ -362,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:49 UTC 2014",
           "module": "Data.DiscreteSpaceMap",
           "name": "Map",
           "package": "discrete-space-map",
@@ -371,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Data DiscreteSpaceMap",
+          "indexed": "2014-03-11T17:56:49",
           "module": "Data.DiscreteSpaceMap",
           "name": "Map",
           "package": "discrete-space-map",
@@ -385,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e cons . uncons == id \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:56:49 UTC 2014",
           "module": "Data.DiscreteSpaceMap",
           "name": "cons",
           "package": "discrete-space-map",
@@ -395,6 +428,7 @@
         "index": {
           "description": "cons uncons id",
           "hierarchy": "Data DiscreteSpaceMap",
+          "indexed": "2014-03-11T17:56:49",
           "module": "Data.DiscreteSpaceMap",
           "name": "cons",
           "normalized": "(a,Bool)-\u003ea",
@@ -410,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the value of the focus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:49 UTC 2014",
           "module": "Data.DiscreteSpaceMap",
           "name": "modify",
           "package": "discrete-space-map",
@@ -420,6 +455,7 @@
         "index": {
           "description": "Modify the value of the focus",
           "hierarchy": "Data DiscreteSpaceMap",
+          "indexed": "2014-03-11T17:56:49",
           "module": "Data.DiscreteSpaceMap",
           "name": "modify",
           "normalized": "(a-\u003ea)-\u003eMap b a-\u003eMap b a",
@@ -434,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:49 UTC 2014",
           "module": "Data.DiscreteSpaceMap",
           "name": "uncons",
           "package": "discrete-space-map",
@@ -443,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Data DiscreteSpaceMap",
+          "indexed": "2014-03-11T17:56:49",
           "module": "Data.DiscreteSpaceMap",
           "name": "uncons",
           "normalized": "a-\u003e(a,Bool)",
@@ -458,6 +496,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e uncons zero == (zero, False)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:56:49 UTC 2014",
           "module": "Data.DiscreteSpaceMap",
           "name": "zero",
           "package": "discrete-space-map",
@@ -468,6 +507,7 @@
         "index": {
           "description": "uncons zero zero False",
           "hierarchy": "Data DiscreteSpaceMap",
+          "indexed": "2014-03-11T17:56:49",
           "module": "Data.DiscreteSpaceMap",
           "name": "zero",
           "package": "discrete-space-map",

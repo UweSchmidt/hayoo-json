@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "simple-vec3"
+        "phrase": "simple-vec3",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Class",
           "name": "Class",
           "package": "simple-vec3",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Vec3 Class",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Class",
           "name": "Class",
           "package": "simple-vec3",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThree-dimensional vector, with an associated matrix type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Class",
           "name": "Vec3",
           "package": "simple-vec3",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Three-dimensional vector with an associated matrix type",
           "hierarchy": "Data Vec3 Class",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Class",
           "name": "Vec3",
           "package": "simple-vec3",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd two vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Class",
           "name": "(\u003c+\u003e)",
           "package": "simple-vec3",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Add two vectors",
           "hierarchy": "Data Vec3 Class",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Class",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtract two vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Class",
           "name": "(\u003c-\u003e)",
           "package": "simple-vec3",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Subtract two vectors",
           "hierarchy": "Data Vec3 Class",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Class",
           "name": "(\u003c-\u003e) \u003c-\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCross product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Class",
           "name": "(\u003e\u003c)",
           "package": "simple-vec3",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Cross product",
           "hierarchy": "Data Vec3 Class",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Class",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "a-\u003ea-\u003ea",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDot product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Class",
           "name": "(.*)",
           "package": "simple-vec3",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Dot product",
           "hierarchy": "Data Vec3 Class",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Class",
           "name": "(.*) .*",
           "normalized": "a-\u003ea-\u003eDouble",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Class",
           "name": "(.^)",
           "package": "simple-vec3",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Scale vector",
           "hierarchy": "Data Vec3 Class",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Class",
           "name": "(.^) .^",
           "normalized": "a-\u003eDouble-\u003ea",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd two matrices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Class",
           "name": "addM",
           "package": "simple-vec3",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Add two matrices",
           "hierarchy": "Data Vec3 Class",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Class",
           "name": "addM",
           "normalized": "Matrix a-\u003eMatrix a-\u003eMatrix a",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a diagonal matrix from a number \u003ccode\u003ed\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n [ d  0  0 ]\n [         ]\n [ 0  d  0 ]\n [         ]\n [ 0  0  d ]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Class",
           "name": "diag",
           "package": "simple-vec3",
@@ -223,6 +240,7 @@
         "index": {
           "description": "Build diagonal matrix from number",
           "hierarchy": "Data Vec3 Class",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Class",
           "name": "diag",
           "normalized": "Double-\u003eMatrix a",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistance between two points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Class",
           "name": "distance",
           "package": "simple-vec3",
@@ -248,6 +267,7 @@
         "index": {
           "description": "Distance between two points",
           "hierarchy": "Data Vec3 Class",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Class",
           "name": "distance",
           "normalized": "a-\u003ea-\u003eDouble",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric vector dot product.\n\u003c/p\u003e\u003cp\u003eMultiply the transpose of the first vector by the given matrix,\n then multiply the result by the second vector.\n\u003c/p\u003e\u003cpre\u003e\n                     [ a11  a12  a13 ]   [ v2x ]\n                     [               ]   [     ]\n [ v1x  v1y  v1z ] . [ a21  a22  a23 ] . [ v2y ] = s\n                     [               ]   [     ]\n                     [ a31  a32  a33 ]   [ v2z ]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Class",
           "name": "dotM",
           "package": "simple-vec3",
@@ -273,6 +294,7 @@
         "index": {
           "description": "Generic vector dot product Multiply the transpose of the first vector by the given matrix then multiply the result by the second vector a11 a12 a13 v2x v1x v1y v1z a21 a22 a23 v2y a31 a32 a33 v2z",
           "hierarchy": "Data Vec3 Class",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Class",
           "name": "dotM",
           "normalized": "a-\u003ea-\u003eMatrix a-\u003eDouble",
@@ -288,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new matrix from rows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Class",
           "name": "fromRows",
           "package": "simple-vec3",
@@ -298,6 +321,7 @@
         "index": {
           "description": "Construct new matrix from rows",
           "hierarchy": "Data Vec3 Class",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Class",
           "name": "fromRows",
           "normalized": "(a,a,a)-\u003eMatrix a",
@@ -314,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new vector from components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Class",
           "name": "fromXYZ",
           "package": "simple-vec3",
@@ -324,6 +349,7 @@
         "index": {
           "description": "Construct new vector from components",
           "hierarchy": "Data Vec3 Class",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Class",
           "name": "fromXYZ",
           "normalized": "(Double,Double,Double)-\u003ea",
@@ -340,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvert the direction of a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Class",
           "name": "invert",
           "package": "simple-vec3",
@@ -350,6 +377,7 @@
         "index": {
           "description": "Invert the direction of vector",
           "hierarchy": "Data Vec3 Class",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Class",
           "name": "invert",
           "normalized": "a-\u003ea",
@@ -365,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply a matrix and a vector.\n\u003c/p\u003e\u003cpre\u003e\n [ a11  a12  a13 ]   [ v2x ]   [ rx ]\n [               ]   [     ]   [    ]\n [ a21  a22  a23 ] . [ v2y ] = [ ry ]\n [               ]   [     ]   [    ]\n [ a31  a32  a33 ]   [ v2z ]   [ rz ]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Class",
           "name": "mxv",
           "package": "simple-vec3",
@@ -375,6 +404,7 @@
         "index": {
           "description": "Multiply matrix and vector a11 a12 a13 v2x rx a21 a22 a23 v2y ry a31 a32 a33 v2z rz",
           "hierarchy": "Data Vec3 Class",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Class",
           "name": "mxv",
           "normalized": "Matrix a-\u003ea-\u003ea",
@@ -390,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEuclidean norm of a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Class",
           "name": "norm",
           "package": "simple-vec3",
@@ -400,6 +431,7 @@
         "index": {
           "description": "Euclidean norm of vector",
           "hierarchy": "Data Vec3 Class",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Class",
           "name": "norm",
           "normalized": "a-\u003eDouble",
@@ -415,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce unit vector with the same direction as the original\n one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Class",
           "name": "normalize",
           "package": "simple-vec3",
@@ -425,6 +458,7 @@
         "index": {
           "description": "Produce unit vector with the same direction as the original one",
           "hierarchy": "Data Vec3 Class",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Class",
           "name": "normalize",
           "normalized": "a-\u003ea",
@@ -440,6 +474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrigin point \u003ccode\u003e(0, 0, 0)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Class",
           "name": "origin",
           "package": "simple-vec3",
@@ -450,6 +485,7 @@
         "index": {
           "description": "Origin point",
           "hierarchy": "Data Vec3 Class",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Class",
           "name": "origin",
           "package": "simple-vec3",
@@ -463,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeconstruct a matrix into rows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Class",
           "name": "toRows",
           "package": "simple-vec3",
@@ -473,6 +510,7 @@
         "index": {
           "description": "Deconstruct matrix into rows",
           "hierarchy": "Data Vec3 Class",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Class",
           "name": "toRows",
           "normalized": "Matrix a-\u003e(a,a,a)",
@@ -489,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeconstruct a vector into components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Class",
           "name": "toXYZ",
           "package": "simple-vec3",
@@ -499,6 +538,7 @@
         "index": {
           "description": "Deconstruct vector into components",
           "hierarchy": "Data Vec3 Class",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Class",
           "name": "toXYZ",
           "normalized": "a-\u003e(Double,Double,Double)",
@@ -515,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranspose a vector and multiply it by another vector,\n producing a matrix.\n\u003c/p\u003e\u003cpre\u003e\n [ v1x ]                       [ r11  r12  r13 ]\n [     ]                       [               ]\n [ v1y ] . [ v2x  v2y  v2z ] = [ r21  r22  r23 ]\n [     ]                       [               ]\n [ v1z ]                       [ r31  r32  r33 ]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Class",
           "name": "vxv",
           "package": "simple-vec3",
@@ -525,6 +566,7 @@
         "index": {
           "description": "Transpose vector and multiply it by another vector producing matrix v1x r11 r12 r13 v1y v2x v2y v2z r21 r22 r23 v1z r31 r32 r33",
           "hierarchy": "Data Vec3 Class",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Class",
           "name": "vxv",
           "normalized": "a-\u003ea-\u003eMatrix a",
@@ -540,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip two vectors elementwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Class",
           "name": "zipWith",
           "package": "simple-vec3",
@@ -550,6 +593,7 @@
         "index": {
           "description": "Zip two vectors elementwise",
           "hierarchy": "Data Vec3 Class",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Class",
           "name": "zipWith",
           "normalized": "(Double-\u003eDouble-\u003eDouble)-\u003ea-\u003ea-\u003ea",
@@ -565,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Storable",
           "name": "Storable",
           "package": "simple-vec3",
@@ -573,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Data Vec3 Storable",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Storable",
           "name": "Storable",
           "package": "simple-vec3",
@@ -587,6 +633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eVec3\u003c/a\u003e\u003c/code\u003e implementation with \u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003e instance,\n suitable for use with \u003ca\u003eData.Vector.Storable\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Storable",
           "name": "SVec3",
           "package": "simple-vec3",
@@ -596,6 +643,7 @@
         "index": {
           "description": "Vec3 implementation with Storable instance suitable for use with Data.Vector.Storable",
           "hierarchy": "Data Vec3 Storable",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Storable",
           "name": "SVec3",
           "package": "simple-vec3",
@@ -632,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.TUnboxed",
           "name": "TUnboxed",
           "package": "simple-vec3",
@@ -640,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Data Vec3 TUnboxed",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.TUnboxed",
           "name": "TUnboxed",
           "package": "simple-vec3",
@@ -654,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eVec3\u003c/a\u003e\u003c/code\u003e implementation with \u003ccode\u003e\u003ca\u003eUnbox\u003c/a\u003e\u003c/code\u003e instance\n based on tuples, suitable for use with \u003ca\u003eData.Vector.Unboxed\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThis represents 3-vector as a triple of doubles, using the default\n Unbox instance for tuples as provided by \u003ca\u003eData.Vector.Unboxed\u003c/a\u003e,\n which wraps a vector of tuples as a tuple of vectors.\n\u003c/p\u003e\u003cpre\u003e\n interface:  [d1 (x, y, z); d2 (x, y, z) ...], length = N\n                  |  |  |       |  |  |\n storage(x): [d1x-+  |  | ; d2x-+  |  |  ...], length = N\n storage(y): [d1y----+  | ; d2y----+  |  ...], length = N\n storage(z): [d1z-------+ ; d2z-------+  ...], length = N\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.TUnboxed",
           "name": "TUVec3",
           "package": "simple-vec3",
@@ -663,6 +714,7 @@
         "index": {
           "description": "Vec3 implementation with Unbox instance based on tuples suitable for use with Data.Vector.Unboxed This represents vector as triple of doubles using the default Unbox instance for tuples as provided by Data.Vector.Unboxed which wraps vector of tuples as tuple of vectors interface d1 d2 length storage d1x d2x length storage d1y d2y length storage d1z d2z length",
           "hierarchy": "Data Vec3 TUnboxed",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.TUnboxed",
           "name": "TUVec3",
           "package": "simple-vec3",
@@ -701,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Unboxed",
           "name": "Unboxed",
           "package": "simple-vec3",
@@ -709,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Data Vec3 Unboxed",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Unboxed",
           "name": "Unboxed",
           "package": "simple-vec3",
@@ -723,6 +777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eVec3\u003c/a\u003e\u003c/code\u003e implementation with \u003ccode\u003e\u003ca\u003eUnbox\u003c/a\u003e\u003c/code\u003e instance\n based on a single contiguous array storage scheme, suitable for use\n with \u003ca\u003eData.Vector.Unboxed\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eUnbox\u003c/a\u003e\u003c/code\u003e instance provides the required index transformations.\n\u003c/p\u003e\u003cpre\u003e\n interface: [d1 x   y   z  ; d2 x   y   z  ...], length = N = M / 3\n                |   |   |       |   |   |\n storage:   [  d1x d2y d2z ;   d2x d2y d2z ...], length = M\n\u003c/pre\u003e\u003cp\u003eThanks to dense packing scheme the performance of this\n implementation should generally be on par with \u003ccode\u003eStorable\u003c/code\u003e-based\n \u003ccode\u003e\u003ca\u003eSVec3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3.Unboxed",
           "name": "UVec3",
           "package": "simple-vec3",
@@ -732,6 +787,7 @@
         "index": {
           "description": "Vec3 implementation with Unbox instance based on single contiguous array storage scheme suitable for use with Data.Vector.Unboxed Unbox instance provides the required index transformations interface d1 d2 length storage d1x d2y d2z d2x d2y d2z length Thanks to dense packing scheme the performance of this implementation should generally be on par with Storable based SVec3",
           "hierarchy": "Data Vec3 Unboxed",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3.Unboxed",
           "name": "UVec3",
           "package": "simple-vec3",
@@ -768,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "Vec3",
           "package": "simple-vec3",
@@ -776,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "Vec3",
           "package": "simple-vec3",
@@ -790,6 +848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eVec3\u003c/a\u003e\u003c/code\u003e implementation with \u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003e instance,\n suitable for use with \u003ca\u003eData.Vector.Storable\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "SVec3",
           "package": "simple-vec3",
@@ -799,6 +858,7 @@
         "index": {
           "description": "Vec3 implementation with Storable instance suitable for use with Data.Vector.Storable",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "SVec3",
           "package": "simple-vec3",
@@ -813,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eVec3\u003c/a\u003e\u003c/code\u003e implementation with \u003ccode\u003e\u003ca\u003eUnbox\u003c/a\u003e\u003c/code\u003e instance\n based on tuples, suitable for use with \u003ca\u003eData.Vector.Unboxed\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThis represents 3-vector as a triple of doubles, using the default\n Unbox instance for tuples as provided by \u003ca\u003eData.Vector.Unboxed\u003c/a\u003e,\n which wraps a vector of tuples as a tuple of vectors.\n\u003c/p\u003e\u003cpre\u003e\n interface:  [d1 (x, y, z); d2 (x, y, z) ...], length = N\n                  |  |  |       |  |  |\n storage(x): [d1x-+  |  | ; d2x-+  |  |  ...], length = N\n storage(y): [d1y----+  | ; d2y----+  |  ...], length = N\n storage(z): [d1z-------+ ; d2z-------+  ...], length = N\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "TUVec3",
           "package": "simple-vec3",
@@ -822,6 +883,7 @@
         "index": {
           "description": "Vec3 implementation with Unbox instance based on tuples suitable for use with Data.Vector.Unboxed This represents vector as triple of doubles using the default Unbox instance for tuples as provided by Data.Vector.Unboxed which wraps vector of tuples as tuple of vectors interface d1 d2 length storage d1x d2x length storage d1y d2y length storage d1z d2z length",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "TUVec3",
           "package": "simple-vec3",
@@ -836,6 +898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eVec3\u003c/a\u003e\u003c/code\u003e implementation with \u003ccode\u003e\u003ca\u003eUnbox\u003c/a\u003e\u003c/code\u003e instance\n based on a single contiguous array storage scheme, suitable for use\n with \u003ca\u003eData.Vector.Unboxed\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eUnbox\u003c/a\u003e\u003c/code\u003e instance provides the required index transformations.\n\u003c/p\u003e\u003cpre\u003e\n interface: [d1 x   y   z  ; d2 x   y   z  ...], length = N = M / 3\n                |   |   |       |   |   |\n storage:   [  d1x d2y d2z ;   d2x d2y d2z ...], length = M\n\u003c/pre\u003e\u003cp\u003eThanks to dense packing scheme the performance of this\n implementation should generally be on par with \u003ccode\u003eStorable\u003c/code\u003e-based\n \u003ccode\u003e\u003ca\u003eSVec3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "UVec3",
           "package": "simple-vec3",
@@ -845,6 +908,7 @@
         "index": {
           "description": "Vec3 implementation with Unbox instance based on single contiguous array storage scheme suitable for use with Data.Vector.Unboxed Unbox instance provides the required index transformations interface d1 d2 length storage d1x d2y d2z d2x d2y d2z length Thanks to dense packing scheme the performance of this implementation should generally be on par with Storable based SVec3",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "UVec3",
           "package": "simple-vec3",
@@ -859,6 +923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThree-dimensional vector, with an associated matrix type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "Vec3",
           "package": "simple-vec3",
@@ -868,6 +933,7 @@
         "index": {
           "description": "Three-dimensional vector with an associated matrix type",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "Vec3",
           "package": "simple-vec3",
@@ -882,6 +948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd two vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "(\u003c+\u003e)",
           "package": "simple-vec3",
@@ -892,6 +959,7 @@
         "index": {
           "description": "Add two vectors",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -907,6 +975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtract two vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "(\u003c-\u003e)",
           "package": "simple-vec3",
@@ -917,6 +986,7 @@
         "index": {
           "description": "Subtract two vectors",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "(\u003c-\u003e) \u003c-\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -932,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCross product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "(\u003e\u003c)",
           "package": "simple-vec3",
@@ -942,6 +1013,7 @@
         "index": {
           "description": "Cross product",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "a-\u003ea-\u003ea",
@@ -957,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDot product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "(.*)",
           "package": "simple-vec3",
@@ -967,6 +1040,7 @@
         "index": {
           "description": "Dot product",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "(.*) .*",
           "normalized": "a-\u003ea-\u003eDouble",
@@ -982,6 +1056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "(.^)",
           "package": "simple-vec3",
@@ -992,6 +1067,7 @@
         "index": {
           "description": "Scale vector",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "(.^) .^",
           "normalized": "a-\u003eDouble-\u003ea",
@@ -1007,6 +1083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd two matrices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "addM",
           "package": "simple-vec3",
@@ -1017,6 +1094,7 @@
         "index": {
           "description": "Add two matrices",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "addM",
           "normalized": "Matrix a-\u003eMatrix a-\u003eMatrix a",
@@ -1032,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a diagonal matrix from a number \u003ccode\u003ed\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n [ d  0  0 ]\n [         ]\n [ 0  d  0 ]\n [         ]\n [ 0  0  d ]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "diag",
           "package": "simple-vec3",
@@ -1042,6 +1121,7 @@
         "index": {
           "description": "Build diagonal matrix from number",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "diag",
           "normalized": "Double-\u003eMatrix a",
@@ -1057,6 +1137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistance between two points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "distance",
           "package": "simple-vec3",
@@ -1067,6 +1148,7 @@
         "index": {
           "description": "Distance between two points",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "distance",
           "normalized": "a-\u003ea-\u003eDouble",
@@ -1082,6 +1164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric vector dot product.\n\u003c/p\u003e\u003cp\u003eMultiply the transpose of the first vector by the given matrix,\n then multiply the result by the second vector.\n\u003c/p\u003e\u003cpre\u003e\n                     [ a11  a12  a13 ]   [ v2x ]\n                     [               ]   [     ]\n [ v1x  v1y  v1z ] . [ a21  a22  a23 ] . [ v2y ] = s\n                     [               ]   [     ]\n                     [ a31  a32  a33 ]   [ v2z ]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "dotM",
           "package": "simple-vec3",
@@ -1092,6 +1175,7 @@
         "index": {
           "description": "Generic vector dot product Multiply the transpose of the first vector by the given matrix then multiply the result by the second vector a11 a12 a13 v2x v1x v1y v1z a21 a22 a23 v2y a31 a32 a33 v2z",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "dotM",
           "normalized": "a-\u003ea-\u003eMatrix a-\u003eDouble",
@@ -1107,6 +1191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new matrix from rows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "fromRows",
           "package": "simple-vec3",
@@ -1117,6 +1202,7 @@
         "index": {
           "description": "Construct new matrix from rows",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "fromRows",
           "normalized": "(a,a,a)-\u003eMatrix a",
@@ -1133,6 +1219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new vector from components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "fromXYZ",
           "package": "simple-vec3",
@@ -1143,6 +1230,7 @@
         "index": {
           "description": "Construct new vector from components",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "fromXYZ",
           "normalized": "(Double,Double,Double)-\u003ea",
@@ -1159,6 +1247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvert the direction of a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "invert",
           "package": "simple-vec3",
@@ -1169,6 +1258,7 @@
         "index": {
           "description": "Invert the direction of vector",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "invert",
           "normalized": "a-\u003ea",
@@ -1184,6 +1274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply a matrix and a vector.\n\u003c/p\u003e\u003cpre\u003e\n [ a11  a12  a13 ]   [ v2x ]   [ rx ]\n [               ]   [     ]   [    ]\n [ a21  a22  a23 ] . [ v2y ] = [ ry ]\n [               ]   [     ]   [    ]\n [ a31  a32  a33 ]   [ v2z ]   [ rz ]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "mxv",
           "package": "simple-vec3",
@@ -1194,6 +1285,7 @@
         "index": {
           "description": "Multiply matrix and vector a11 a12 a13 v2x rx a21 a22 a23 v2y ry a31 a32 a33 v2z rz",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "mxv",
           "normalized": "Matrix a-\u003ea-\u003ea",
@@ -1209,6 +1301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEuclidean norm of a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "norm",
           "package": "simple-vec3",
@@ -1219,6 +1312,7 @@
         "index": {
           "description": "Euclidean norm of vector",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "norm",
           "normalized": "a-\u003eDouble",
@@ -1234,6 +1328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce unit vector with the same direction as the original\n one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "normalize",
           "package": "simple-vec3",
@@ -1244,6 +1339,7 @@
         "index": {
           "description": "Produce unit vector with the same direction as the original one",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "normalize",
           "normalized": "a-\u003ea",
@@ -1259,6 +1355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrigin point \u003ccode\u003e(0, 0, 0)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "origin",
           "package": "simple-vec3",
@@ -1269,6 +1366,7 @@
         "index": {
           "description": "Origin point",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "origin",
           "package": "simple-vec3",
@@ -1282,6 +1380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeconstruct a matrix into rows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "toRows",
           "package": "simple-vec3",
@@ -1292,6 +1391,7 @@
         "index": {
           "description": "Deconstruct matrix into rows",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "toRows",
           "normalized": "Matrix a-\u003e(a,a,a)",
@@ -1308,6 +1408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeconstruct a vector into components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "toXYZ",
           "package": "simple-vec3",
@@ -1318,6 +1419,7 @@
         "index": {
           "description": "Deconstruct vector into components",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "toXYZ",
           "normalized": "a-\u003e(Double,Double,Double)",
@@ -1334,6 +1436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranspose a vector and multiply it by another vector,\n producing a matrix.\n\u003c/p\u003e\u003cpre\u003e\n [ v1x ]                       [ r11  r12  r13 ]\n [     ]                       [               ]\n [ v1y ] . [ v2x  v2y  v2z ] = [ r21  r22  r23 ]\n [     ]                       [               ]\n [ v1z ]                       [ r31  r32  r33 ]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "vxv",
           "package": "simple-vec3",
@@ -1344,6 +1447,7 @@
         "index": {
           "description": "Transpose vector and multiply it by another vector producing matrix v1x r11 r12 r13 v1y v2x v2y v2z r21 r22 r23 v1z r31 r32 r33",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "vxv",
           "normalized": "a-\u003ea-\u003eMatrix a",
@@ -1359,6 +1463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip two vectors elementwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:03:24 UTC 2014",
           "module": "Data.Vec3",
           "name": "zipWith",
           "package": "simple-vec3",
@@ -1369,6 +1474,7 @@
         "index": {
           "description": "Zip two vectors elementwise",
           "hierarchy": "Data Vec3",
+          "indexed": "2014-03-11T20:03:24",
           "module": "Data.Vec3",
           "name": "zipWith",
           "normalized": "(Double-\u003eDouble-\u003eDouble)-\u003ea-\u003ea-\u003ea",

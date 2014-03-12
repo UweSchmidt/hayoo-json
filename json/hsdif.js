@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsdif"
+        "phrase": "hsdif",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eByte level SDIF frame data structure.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.Frame",
           "name": "Frame",
           "package": "hsdif",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Byte level SDIF frame data structure",
           "hierarchy": "Sound SDIF Byte Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.Frame",
           "name": "Frame",
           "package": "hsdif",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract frame data segment from SDIF frame byte stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.Frame",
           "name": "frame_b_data",
           "package": "hsdif",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Extract frame data segment from SDIF frame byte stream",
           "hierarchy": "Sound SDIF Byte Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.Frame",
           "name": "frame_b_data",
           "normalized": "ByteString-\u003eByteString",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract identifier from SDIF frame byte stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.Frame",
           "name": "frame_b_id",
           "package": "hsdif",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Extract identifier from SDIF frame byte stream",
           "hierarchy": "Sound SDIF Byte Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.Frame",
           "name": "frame_b_id",
           "normalized": "ByteString-\u003eInt",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract matrix count from SDIF frame byte stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.Frame",
           "name": "frame_b_matrices",
           "package": "hsdif",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Extract matrix count from SDIF frame byte stream",
           "hierarchy": "Sound SDIF Byte Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.Frame",
           "name": "frame_b_matrices",
           "normalized": "ByteString-\u003eInt",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract frame matrix \u003cem\u003e(start,end)\u003c/em\u003e indices from SDIF frame byte stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.Frame",
           "name": "frame_b_matrix_i",
           "package": "hsdif",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Extract frame matrix start end indices from SDIF frame byte stream",
           "hierarchy": "Sound SDIF Byte Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.Frame",
           "name": "frame_b_matrix_i",
           "normalized": "ByteString-\u003e[(Int,Int)]",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract size from SDIF frame byte stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.Frame",
           "name": "frame_b_size",
           "package": "hsdif",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Extract size from SDIF frame byte stream",
           "hierarchy": "Sound SDIF Byte Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.Frame",
           "name": "frame_b_size",
           "normalized": "ByteString-\u003eInt",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract time stamp from SDIF frame byte stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.Frame",
           "name": "frame_b_time",
           "package": "hsdif",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Extract time stamp from SDIF frame byte stream",
           "hierarchy": "Sound SDIF Byte Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.Frame",
           "name": "frame_b_time",
           "normalized": "ByteString-\u003eFloat",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract type string from SDIF frame byte stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.Frame",
           "name": "frame_b_type",
           "package": "hsdif",
@@ -202,6 +217,7 @@
         "index": {
           "description": "Extract type string from SDIF frame byte stream",
           "hierarchy": "Sound SDIF Byte Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.Frame",
           "name": "frame_b_type",
           "normalized": "ByteString-\u003eString",
@@ -217,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData integrity check for SDIF frame data stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.Frame",
           "name": "is_frame_b",
           "package": "hsdif",
@@ -227,6 +244,7 @@
         "index": {
           "description": "Data integrity check for SDIF frame data stream",
           "hierarchy": "Sound SDIF Byte Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.Frame",
           "name": "is_frame_b",
           "normalized": "ByteString-\u003eBool",
@@ -242,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eByte level SDIF frame data structure.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "Matrix",
           "package": "hsdif",
@@ -251,6 +270,7 @@
         "index": {
           "description": "Byte level SDIF frame data structure",
           "hierarchy": "Sound SDIF Byte Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "Matrix",
           "package": "hsdif",
@@ -265,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData integrity check for SDIF matix byte stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "is_matrix_b",
           "package": "hsdif",
@@ -275,6 +296,7 @@
         "index": {
           "description": "Data integrity check for SDIF matix byte stream",
           "hierarchy": "Sound SDIF Byte Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "is_matrix_b",
           "normalized": "ByteString-\u003eBool",
@@ -290,6 +312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract matrix column count.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "matrix_b_columns",
           "package": "hsdif",
@@ -300,6 +323,7 @@
         "index": {
           "description": "Extract matrix column count",
           "hierarchy": "Sound SDIF Byte Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "matrix_b_columns",
           "normalized": "ByteString-\u003eInt",
@@ -315,6 +339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate size of matrix data store (ie. elements by \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e size).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "matrix_b_data_size",
           "package": "hsdif",
@@ -325,6 +350,7 @@
         "index": {
           "description": "Calculate size of matrix data store ie elements by Type size",
           "hierarchy": "Sound SDIF Byte Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "matrix_b_data_size",
           "normalized": "ByteString-\u003eInt",
@@ -340,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract matrix element data \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "matrix_b_data_type",
           "package": "hsdif",
@@ -350,6 +377,7 @@
         "index": {
           "description": "Extract matrix element data Type",
           "hierarchy": "Sound SDIF Byte Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "matrix_b_data_type",
           "normalized": "ByteString-\u003eType",
@@ -365,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract matrix element count (ie. rows by columns).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "matrix_b_elements",
           "package": "hsdif",
@@ -375,6 +404,7 @@
         "index": {
           "description": "Extract matrix element count ie rows by columns",
           "hierarchy": "Sound SDIF Byte Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "matrix_b_elements",
           "normalized": "ByteString-\u003eInt",
@@ -390,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract matrix header byte stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "matrix_b_header",
           "package": "hsdif",
@@ -400,6 +431,7 @@
         "index": {
           "description": "Extract matrix header byte stream",
           "hierarchy": "Sound SDIF Byte Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "matrix_b_header",
           "normalized": "ByteString-\u003eByteString",
@@ -415,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix header size (constant).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "matrix_b_header_size",
           "package": "hsdif",
@@ -425,6 +458,7 @@
         "index": {
           "description": "Matrix header size constant",
           "hierarchy": "Sound SDIF Byte Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "matrix_b_header_size",
           "package": "hsdif",
@@ -438,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract matrix row count.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "matrix_b_rows",
           "package": "hsdif",
@@ -448,6 +483,7 @@
         "index": {
           "description": "Extract matrix row count",
           "hierarchy": "Sound SDIF Byte Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "matrix_b_rows",
           "normalized": "ByteString-\u003eInt",
@@ -463,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003ematrix_b_data_size\u003c/a\u003e\u003c/code\u003e taking into account required padding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "matrix_b_storage_size",
           "package": "hsdif",
@@ -473,6 +510,7 @@
         "index": {
           "description": "Variant of matrix data size taking into account required padding",
           "hierarchy": "Sound SDIF Byte Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "matrix_b_storage_size",
           "normalized": "ByteString-\u003eInt",
@@ -488,6 +526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract matrix data from byte stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "matrix_b_to_matrix_v",
           "package": "hsdif",
@@ -498,6 +537,7 @@
         "index": {
           "description": "Extract matrix data from byte stream",
           "hierarchy": "Sound SDIF Byte Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "matrix_b_to_matrix_v",
           "normalized": "ByteString-\u003e[Datum]",
@@ -513,6 +553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract matrix type string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "matrix_b_type",
           "package": "hsdif",
@@ -523,6 +564,7 @@
         "index": {
           "description": "Extract matrix type string",
           "hierarchy": "Sound SDIF Byte Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.Matrix",
           "name": "matrix_b_type",
           "normalized": "ByteString-\u003eString",
@@ -538,6 +580,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eByte level SDIF data structure.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.SDIF",
           "name": "SDIF",
           "package": "hsdif",
@@ -547,6 +590,7 @@
         "index": {
           "description": "Byte level SDIF data structure",
           "hierarchy": "Sound SDIF Byte SDIF",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.SDIF",
           "name": "SDIF",
           "package": "hsdif",
@@ -561,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck signature of SDIF byte stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.SDIF",
           "name": "is_sdif_b",
           "package": "hsdif",
@@ -571,6 +616,7 @@
         "index": {
           "description": "Check signature of SDIF byte stream",
           "hierarchy": "Sound SDIF Byte SDIF",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.SDIF",
           "name": "is_sdif_b",
           "normalized": "ByteString-\u003eBool",
@@ -586,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract start and end indices for \u003cem\u003en\u003c/em\u003e frames at SDIF byte stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.SDIF",
           "name": "sdif_b_frame_i",
           "package": "hsdif",
@@ -596,6 +643,7 @@
         "index": {
           "description": "Extract start and end indices for frames at SDIF byte stream",
           "hierarchy": "Sound SDIF Byte SDIF",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.SDIF",
           "name": "sdif_b_frame_i",
           "normalized": "ByteString-\u003eInt-\u003e[(Int,Int)]",
@@ -611,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount number of frames at SDIF byte stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Byte.SDIF",
           "name": "sdif_b_frames",
           "package": "hsdif",
@@ -621,6 +670,7 @@
         "index": {
           "description": "Count number of frames at SDIF byte stream",
           "hierarchy": "Sound SDIF Byte SDIF",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Byte.SDIF",
           "name": "sdif_b_frames",
           "normalized": "ByteString-\u003eInt",
@@ -636,6 +686,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSDIF frame functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Frame",
           "name": "Frame",
           "package": "hsdif",
@@ -645,6 +696,7 @@
         "index": {
           "description": "SDIF frame functions",
           "hierarchy": "Sound SDIF Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Frame",
           "name": "Frame",
           "package": "hsdif",
@@ -659,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSDIF frame data store\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Frame",
           "name": "Frame",
           "package": "hsdif",
@@ -668,6 +721,7 @@
         "index": {
           "description": "SDIF frame data store",
           "hierarchy": "Sound SDIF Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Frame",
           "name": "Frame",
           "package": "hsdif",
@@ -681,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Frame",
           "name": "Frame",
           "package": "hsdif",
@@ -690,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Frame",
           "name": "Frame",
           "package": "hsdif",
@@ -704,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode SDIF \u003ccode\u003e\u003ca\u003eFrame\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Frame",
           "name": "decode_frame",
           "package": "hsdif",
@@ -714,6 +771,7 @@
         "index": {
           "description": "Decode SDIF Frame",
           "hierarchy": "Sound SDIF Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Frame",
           "name": "decode_frame",
           "normalized": "ByteString-\u003eFrame",
@@ -728,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Frame",
           "name": "frame_b",
           "package": "hsdif",
@@ -737,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Frame",
           "name": "frame_b",
           "package": "hsdif",
@@ -749,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Frame",
           "name": "frame_id",
           "package": "hsdif",
@@ -758,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Frame",
           "name": "frame_id",
           "package": "hsdif",
@@ -770,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Frame",
           "name": "frame_matrices",
           "package": "hsdif",
@@ -779,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Frame",
           "name": "frame_matrices",
           "package": "hsdif",
@@ -792,6 +856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract and decode \u003cem\u003en\u003c/em\u003eth matrix of \u003ccode\u003e\u003ca\u003eFrame\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Frame",
           "name": "frame_matrix",
           "package": "hsdif",
@@ -802,6 +867,7 @@
         "index": {
           "description": "Extract and decode th matrix of Frame",
           "hierarchy": "Sound SDIF Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Frame",
           "name": "frame_matrix",
           "normalized": "Frame-\u003eInt-\u003eMatrix",
@@ -817,6 +883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract \u003cem\u003en\u003c/em\u003eth matrix of \u003ccode\u003e\u003ca\u003eFrame\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Frame",
           "name": "frame_matrix_b",
           "package": "hsdif",
@@ -827,6 +894,7 @@
         "index": {
           "description": "Extract th matrix of Frame",
           "hierarchy": "Sound SDIF Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Frame",
           "name": "frame_matrix_b",
           "normalized": "Frame-\u003eInt-\u003eByteString",
@@ -841,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Frame",
           "name": "frame_matrix_c",
           "package": "hsdif",
@@ -850,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Frame",
           "name": "frame_matrix_c",
           "normalized": "[Matrix]",
@@ -864,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Frame",
           "name": "frame_matrix_i",
           "package": "hsdif",
@@ -873,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Frame",
           "name": "frame_matrix_i",
           "normalized": "[(Int,Int)]",
@@ -887,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Frame",
           "name": "frame_size",
           "package": "hsdif",
@@ -896,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Frame",
           "name": "frame_size",
           "package": "hsdif",
@@ -908,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Frame",
           "name": "frame_time",
           "package": "hsdif",
@@ -917,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Frame",
           "name": "frame_time",
           "package": "hsdif",
@@ -929,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Frame",
           "name": "frame_type",
           "package": "hsdif",
@@ -938,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Frame",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Frame",
           "name": "frame_type",
           "package": "hsdif",
@@ -951,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSDIF matrix functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Matrix",
           "name": "Matrix",
           "package": "hsdif",
@@ -960,6 +1039,7 @@
         "index": {
           "description": "SDIF matrix functions",
           "hierarchy": "Sound SDIF Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Matrix",
           "name": "Matrix",
           "package": "hsdif",
@@ -974,6 +1054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSDIF matrix data store.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Matrix",
           "name": "Matrix",
           "package": "hsdif",
@@ -983,6 +1064,7 @@
         "index": {
           "description": "SDIF matrix data store",
           "hierarchy": "Sound SDIF Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Matrix",
           "name": "Matrix",
           "package": "hsdif",
@@ -996,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Matrix",
           "name": "Matrix",
           "package": "hsdif",
@@ -1005,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Matrix",
           "name": "Matrix",
           "package": "hsdif",
@@ -1019,6 +1103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode \u003ccode\u003e\u003ca\u003eMatrix\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Matrix",
           "name": "decode_matrix",
           "package": "hsdif",
@@ -1029,6 +1114,7 @@
         "index": {
           "description": "Decode Matrix",
           "hierarchy": "Sound SDIF Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Matrix",
           "name": "decode_matrix",
           "normalized": "ByteString-\u003eMatrix",
@@ -1044,6 +1130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSection of list from \u003cem\u003ei\u003c/em\u003eth to \u003cem\u003ej\u003c/em\u003eth indices.\n\u003c/p\u003e\u003cpre\u003e list_section [1..9] 4 6 == [5,6]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Matrix",
           "name": "list_section",
           "package": "hsdif",
@@ -1054,6 +1141,7 @@
         "index": {
           "description": "Section of list from th to th indices list section",
           "hierarchy": "Sound SDIF Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Matrix",
           "name": "list_section",
           "normalized": "[a]-\u003eInt-\u003eInt-\u003e[a]",
@@ -1068,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Matrix",
           "name": "matrix_b",
           "package": "hsdif",
@@ -1077,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Matrix",
           "name": "matrix_b",
           "package": "hsdif",
@@ -1090,6 +1180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract \u003cem\u003en\u003c/em\u003eth column of \u003ccode\u003e\u003ca\u003eMatrix\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Matrix",
           "name": "matrix_column",
           "package": "hsdif",
@@ -1100,6 +1191,7 @@
         "index": {
           "description": "Extract th column of Matrix",
           "hierarchy": "Sound SDIF Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Matrix",
           "name": "matrix_column",
           "normalized": "Matrix-\u003eInt-\u003e[Datum]",
@@ -1114,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Matrix",
           "name": "matrix_columns",
           "package": "hsdif",
@@ -1123,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Matrix",
           "name": "matrix_columns",
           "package": "hsdif",
@@ -1135,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Matrix",
           "name": "matrix_data_size",
           "package": "hsdif",
@@ -1144,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Matrix",
           "name": "matrix_data_size",
           "package": "hsdif",
@@ -1156,6 +1252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Matrix",
           "name": "matrix_data_type",
           "package": "hsdif",
@@ -1165,6 +1262,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Matrix",
           "name": "matrix_data_type",
           "package": "hsdif",
@@ -1177,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Matrix",
           "name": "matrix_elements",
           "package": "hsdif",
@@ -1186,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Matrix",
           "name": "matrix_elements",
           "package": "hsdif",
@@ -1199,6 +1299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract \u003cem\u003en\u003c/em\u003eth row of \u003ccode\u003e\u003ca\u003eMatrix\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Matrix",
           "name": "matrix_row",
           "package": "hsdif",
@@ -1209,6 +1310,7 @@
         "index": {
           "description": "Extract th row of Matrix",
           "hierarchy": "Sound SDIF Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Matrix",
           "name": "matrix_row",
           "normalized": "Matrix-\u003eInt-\u003e[Datum]",
@@ -1223,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Matrix",
           "name": "matrix_rows",
           "package": "hsdif",
@@ -1232,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Matrix",
           "name": "matrix_rows",
           "package": "hsdif",
@@ -1244,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Matrix",
           "name": "matrix_storage_size",
           "package": "hsdif",
@@ -1253,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Matrix",
           "name": "matrix_storage_size",
           "package": "hsdif",
@@ -1265,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Matrix",
           "name": "matrix_type",
           "package": "hsdif",
@@ -1274,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Matrix",
           "name": "matrix_type",
           "package": "hsdif",
@@ -1286,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Matrix",
           "name": "matrix_v",
           "package": "hsdif",
@@ -1295,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Matrix",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Matrix",
           "name": "matrix_v",
           "normalized": "[Datum]",
@@ -1310,6 +1420,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSDIF related data types\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Type",
           "name": "Type",
           "package": "hsdif",
@@ -1319,6 +1430,7 @@
         "index": {
           "description": "SDIF related data types",
           "hierarchy": "Sound SDIF Type",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Type",
           "name": "Type",
           "package": "hsdif",
@@ -1333,6 +1445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniversal type for element data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Type",
           "name": "Datum",
           "package": "hsdif",
@@ -1342,6 +1455,7 @@
         "index": {
           "description": "Universal type for element data",
           "hierarchy": "Sound SDIF Type",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Type",
           "name": "Datum",
           "package": "hsdif",
@@ -1356,6 +1470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData element type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Type",
           "name": "Type",
           "package": "hsdif",
@@ -1365,6 +1480,7 @@
         "index": {
           "description": "Data element type",
           "hierarchy": "Sound SDIF Type",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Type",
           "name": "Type",
           "package": "hsdif",
@@ -1378,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Type",
           "name": "F32",
           "package": "hsdif",
@@ -1387,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Type",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Type",
           "name": "F32",
           "package": "hsdif",
@@ -1399,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Type",
           "name": "F64",
           "package": "hsdif",
@@ -1408,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Type",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Type",
           "name": "F64",
           "package": "hsdif",
@@ -1420,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Type",
           "name": "I16",
           "package": "hsdif",
@@ -1429,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Type",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Type",
           "name": "I16",
           "package": "hsdif",
@@ -1441,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Type",
           "name": "I32",
           "package": "hsdif",
@@ -1450,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Type",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Type",
           "name": "I32",
           "package": "hsdif",
@@ -1462,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Type",
           "name": "I64",
           "package": "hsdif",
@@ -1471,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Type",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Type",
           "name": "I64",
           "package": "hsdif",
@@ -1483,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Type",
           "name": "I8",
           "package": "hsdif",
@@ -1492,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Type",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Type",
           "name": "I8",
           "package": "hsdif",
@@ -1504,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Type",
           "name": "U32",
           "package": "hsdif",
@@ -1513,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Type",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Type",
           "name": "U32",
           "package": "hsdif",
@@ -1525,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Type",
           "name": "U64",
           "package": "hsdif",
@@ -1534,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Type",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Type",
           "name": "U64",
           "package": "hsdif",
@@ -1546,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Type",
           "name": "U8",
           "package": "hsdif",
@@ -1555,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF Type",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Type",
           "name": "U8",
           "package": "hsdif",
@@ -1568,6 +1702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecoder for indicated data element type to \u003ccode\u003e\u003ca\u003eDatum\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Type",
           "name": "data_type_decoder",
           "package": "hsdif",
@@ -1578,6 +1713,7 @@
         "index": {
           "description": "Decoder for indicated data element type to Datum",
           "hierarchy": "Sound SDIF Type",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Type",
           "name": "data_type_decoder",
           "normalized": "Type-\u003eByteString-\u003eDatum",
@@ -1593,6 +1729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSDIF encoder for \u003ccode\u003e\u003ca\u003eDatum\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Type",
           "name": "data_type_encoder",
           "package": "hsdif",
@@ -1603,6 +1740,7 @@
         "index": {
           "description": "SDIF encoder for Datum",
           "hierarchy": "Sound SDIF Type",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Type",
           "name": "data_type_encoder",
           "normalized": "Datum-\u003eByteString",
@@ -1618,6 +1756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize (in bytes) of data element type.\n\u003c/p\u003e\u003cpre\u003e data_type_size 0x008 == 8\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Type",
           "name": "data_type_size",
           "package": "hsdif",
@@ -1628,6 +1767,7 @@
         "index": {
           "description": "Size in bytes of data element type data type size x008",
           "hierarchy": "Sound SDIF Type",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Type",
           "name": "data_type_size",
           "normalized": "Type-\u003eInt",
@@ -1643,6 +1783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs data element type standard.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Type",
           "name": "data_type_standard_p",
           "package": "hsdif",
@@ -1653,6 +1794,7 @@
         "index": {
           "description": "Is data element type standard",
           "hierarchy": "Sound SDIF Type",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Type",
           "name": "data_type_standard_p",
           "normalized": "Type-\u003eBool",
@@ -1668,6 +1810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString describing indicated data element type.\n\u003c/p\u003e\u003cpre\u003e data_type_string 0x008 == \"real number\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Type",
           "name": "data_type_string",
           "package": "hsdif",
@@ -1678,6 +1821,7 @@
         "index": {
           "description": "String describing indicated data element type data type string x008 real number",
           "hierarchy": "Sound SDIF Type",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Type",
           "name": "data_type_string",
           "normalized": "Type-\u003eString",
@@ -1693,6 +1837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSection of \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e from \u003cem\u003ei\u003c/em\u003eth to \u003cem\u003ej\u003c/em\u003eth indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Type",
           "name": "section",
           "package": "hsdif",
@@ -1703,6 +1848,7 @@
         "index": {
           "description": "Section of ByteString from th to th indices",
           "hierarchy": "Sound SDIF Type",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Type",
           "name": "section",
           "normalized": "ByteString-\u003eInt-\u003eInt-\u003eByteString",
@@ -1718,6 +1864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e based variant of \u003ccode\u003e\u003ca\u003esection\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF.Type",
           "name": "section'",
           "package": "hsdif",
@@ -1728,6 +1875,7 @@
         "index": {
           "description": "Int based variant of section",
           "hierarchy": "Sound SDIF Type",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF.Type",
           "name": "section'",
           "normalized": "ByteString-\u003eInt-\u003eInt-\u003eByteString",
@@ -1743,6 +1891,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSDIF (Sound Description Interchange Format)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF",
           "name": "SDIF",
           "package": "hsdif",
@@ -1752,6 +1901,7 @@
         "index": {
           "description": "SDIF Sound Description Interchange Format",
           "hierarchy": "Sound SDIF",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF",
           "name": "SDIF",
           "package": "hsdif",
@@ -1766,6 +1916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSDIF data store.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF",
           "name": "SDIF",
           "package": "hsdif",
@@ -1775,6 +1926,7 @@
         "index": {
           "description": "SDIF data store",
           "hierarchy": "Sound SDIF",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF",
           "name": "SDIF",
           "package": "hsdif",
@@ -1788,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF",
           "name": "SDIF",
           "package": "hsdif",
@@ -1797,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF",
           "name": "SDIF",
           "package": "hsdif",
@@ -1811,6 +1965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode \u003ccode\u003e\u003ca\u003eSDIF\u003c/a\u003e\u003c/code\u003e data stream.\n\u003c/p\u003e\u003cpre\u003e b \u003c- B.readFile \"/home/rohan/sw/hsdif/Help/crotale.sdif\"\n sdif_frames (decode_sdif b) == 2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF",
           "name": "decode_sdif",
           "package": "hsdif",
@@ -1821,6 +1976,7 @@
         "index": {
           "description": "Decode SDIF data stream B.readFile home rohan sw hsdif Help crotale.sdif sdif frames decode sdif",
           "hierarchy": "Sound SDIF",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF",
           "name": "decode_sdif",
           "normalized": "ByteString-\u003eSDIF",
@@ -1835,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF",
           "name": "sdif_b",
           "package": "hsdif",
@@ -1844,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF",
           "name": "sdif_b",
           "package": "hsdif",
@@ -1857,6 +2015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract and decode \u003cem\u003en\u003c/em\u003eth frame from \u003ccode\u003e\u003ca\u003eSDIF\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e frame_type (sdif_frame s 0) == \"SDIF\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF",
           "name": "sdif_frame",
           "package": "hsdif",
@@ -1867,6 +2026,7 @@
         "index": {
           "description": "Extract and decode th frame from SDIF frame type sdif frame SDIF",
           "hierarchy": "Sound SDIF",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF",
           "name": "sdif_frame",
           "normalized": "SDIF-\u003eInt-\u003eFrame",
@@ -1882,6 +2042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract \u003cem\u003en\u003c/em\u003eth frame data from \u003ccode\u003e\u003ca\u003eSDIF\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF",
           "name": "sdif_frame_b",
           "package": "hsdif",
@@ -1892,6 +2053,7 @@
         "index": {
           "description": "Extract th frame data from SDIF",
           "hierarchy": "Sound SDIF",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF",
           "name": "sdif_frame_b",
           "normalized": "SDIF-\u003eInt-\u003eByteString",
@@ -1906,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF",
           "name": "sdif_frame_c",
           "package": "hsdif",
@@ -1915,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF",
           "name": "sdif_frame_c",
           "normalized": "[Frame]",
@@ -1929,6 +2093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF",
           "name": "sdif_frame_i",
           "package": "hsdif",
@@ -1938,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF",
           "name": "sdif_frame_i",
           "normalized": "[(Int,Int)]",
@@ -1952,6 +2118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF",
           "name": "sdif_frames",
           "package": "hsdif",
@@ -1961,6 +2128,7 @@
         },
         "index": {
           "hierarchy": "Sound SDIF",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF",
           "name": "sdif_frames",
           "package": "hsdif",
@@ -1974,6 +2142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract and decode \u003cem\u003ej\u003c/em\u003eth matrix from \u003cem\u003ei\u003c/em\u003eth frame from \u003ccode\u003e\u003ca\u003eSDIF\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e matrix_type (sdif_matrix s 1 0) == \"1RES\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF",
           "name": "sdif_matrix",
           "package": "hsdif",
@@ -1984,6 +2153,7 @@
         "index": {
           "description": "Extract and decode th matrix from th frame from SDIF matrix type sdif matrix RES",
           "hierarchy": "Sound SDIF",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF",
           "name": "sdif_matrix",
           "normalized": "SDIF-\u003eInt-\u003eInt-\u003eMatrix",
@@ -1999,6 +2169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun \u003ccode\u003e\u003ca\u003ematrix_v\u003c/a\u003e\u003c/code\u003e on result of \u003ccode\u003e\u003ca\u003esdif_matrix\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e length (sdif_matrix_v s 1 0) == 200\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF",
           "name": "sdif_matrix_v",
           "package": "hsdif",
@@ -2009,6 +2180,7 @@
         "index": {
           "description": "Run matrix on result of sdif matrix length sdif matrix",
           "hierarchy": "Sound SDIF",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF",
           "name": "sdif_matrix_v",
           "normalized": "SDIF-\u003eInt-\u003eInt-\u003e[Datum]",
@@ -2024,6 +2196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead and decode \u003ccode\u003e\u003ca\u003eSDIF\u003c/a\u003e\u003c/code\u003e from named file.\n\u003c/p\u003e\u003cpre\u003e s \u003c- sdif_read_file \"/home/rohan/sw/hsdif/Help/crotale.sdif\"\n sdif_frame_i s == [(0,16),(16,856)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:48:06 UTC 2014",
           "module": "Sound.SDIF",
           "name": "sdif_read_file",
           "package": "hsdif",
@@ -2034,6 +2207,7 @@
         "index": {
           "description": "Read and decode SDIF from named file sdif read file home rohan sw hsdif Help crotale.sdif sdif frame",
           "hierarchy": "Sound SDIF",
+          "indexed": "2014-03-11T18:48:06",
           "module": "Sound.SDIF",
           "name": "sdif_read_file",
           "normalized": "FilePath-\u003eIO SDIF",

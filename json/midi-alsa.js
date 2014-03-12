@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "midi-alsa"
+        "phrase": "midi-alsa",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Check",
           "name": "Check",
           "package": "midi-alsa",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Check",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Check",
           "name": "Check",
           "package": "midi-alsa",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll methods have default implementations that return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\nThis helps implementing event data types\nthat support only a subset of types of events.\n\u003c/p\u003e\u003cp\u003eMaybe a better approach is to provide type classes\nfor every type of event\nand make \u003ccode\u003e\u003ca\u003eC\u003c/a\u003e\u003c/code\u003e a subclass of all of them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Check",
           "name": "C",
           "package": "midi-alsa",
@@ -48,6 +51,7 @@
         "index": {
           "description": "All methods have default implementations that return Nothing This helps implementing event data types that support only subset of types of events Maybe better approach is to provide type classes for every type of event and make subclass of all of them",
           "hierarchy": "Sound MIDI ALSA Check",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Check",
           "name": "C",
           "package": "midi-alsa",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Check",
           "name": "anyController",
           "package": "midi-alsa",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Check",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Check",
           "name": "anyController",
           "normalized": "Channel-\u003ea-\u003eMaybe(Controller,Int)",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Check",
           "name": "channelPressure",
           "package": "midi-alsa",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Check",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Check",
           "name": "channelPressure",
           "normalized": "Channel-\u003ea-\u003eMaybe Int",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Check",
           "name": "controller",
           "package": "midi-alsa",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Check",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Check",
           "name": "controller",
           "normalized": "Channel-\u003eController-\u003ea-\u003eMaybe Int",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Check",
           "name": "mode",
           "package": "midi-alsa",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Check",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Check",
           "name": "mode",
           "normalized": "Channel-\u003ea-\u003eMaybe T",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWarning: This returns note events as they are,\n   that is, a \u003ccode\u003eNoteOff p 64\u003c/code\u003e might be encoded as such or as \u003ccode\u003eNoteOn p 0\u003c/code\u003e\n   depending on the content of \u003ccode\u003eevent\u003c/code\u003e.\n   For normalized results you may use \u003ccode\u003e\u003ca\u003enoteExplicitOff\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Check",
           "name": "note",
           "package": "midi-alsa",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Warning This returns note events as they are that is NoteOff might be encoded as such or as NoteOn depending on the content of event For normalized results you may use noteExplicitOff",
           "hierarchy": "Sound MIDI ALSA Check",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Check",
           "name": "note",
           "normalized": "Channel-\u003ea-\u003eMaybe(Velocity,Pitch,Bool)",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003enote\u003c/a\u003e\u003c/code\u003e, but converts \u003ccode\u003eNoteOn p 0\u003c/code\u003e to \u003ccode\u003eNoteOff p 64\u003c/code\u003e.\nSee \u003ccode\u003e\u003ca\u003eexplicitNoteOff\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Check",
           "name": "noteExplicitOff",
           "package": "midi-alsa",
@@ -184,6 +199,7 @@
         "index": {
           "description": "Like note but converts NoteOn to NoteOff See explicitNoteOff",
           "hierarchy": "Sound MIDI ALSA Check",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Check",
           "name": "noteExplicitOff",
           "normalized": "Channel-\u003ea-\u003eMaybe(Velocity,Pitch,Bool)",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003enote\u003c/a\u003e\u003c/code\u003e, but converts \u003ccode\u003eNoteOff p 64\u003c/code\u003e to \u003ccode\u003eNoteOn p 0\u003c/code\u003e.\nSee \u003ccode\u003e\u003ca\u003eimplicitNoteOff\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Check",
           "name": "noteImplicitOff",
           "package": "midi-alsa",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Like note but converts NoteOff to NoteOn See implicitNoteOff",
           "hierarchy": "Sound MIDI ALSA Check",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Check",
           "name": "noteImplicitOff",
           "normalized": "Channel-\u003ea-\u003eMaybe(Velocity,Pitch,Bool)",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Check",
           "name": "pitchBend",
           "package": "midi-alsa",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Check",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Check",
           "name": "pitchBend",
           "normalized": "Channel-\u003ea-\u003eMaybe Int",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Check",
           "name": "program",
           "package": "midi-alsa",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Check",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Check",
           "name": "program",
           "normalized": "Channel-\u003ea-\u003eMaybe Program",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Construct",
           "name": "Construct",
           "package": "midi-alsa",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Construct",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Construct",
           "name": "Construct",
           "package": "midi-alsa",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Construct",
           "name": "C",
           "package": "midi-alsa",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Construct",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Construct",
           "name": "C",
           "package": "midi-alsa",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Construct",
           "name": "anyController",
           "package": "midi-alsa",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Construct",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Construct",
           "name": "anyController",
           "normalized": "Channel-\u003e(Controller,Int)-\u003ea",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Construct",
           "name": "channelPressure",
           "package": "midi-alsa",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Construct",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Construct",
           "name": "channelPressure",
           "normalized": "Channel-\u003eInt-\u003ea",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Construct",
           "name": "mode",
           "package": "midi-alsa",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Construct",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Construct",
           "name": "mode",
           "normalized": "Channel-\u003eT-\u003ea",
@@ -378,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWarning: This constructs a note events as is,\n   that is, a \u003ccode\u003eNoteOff p 64\u003c/code\u003e is encoded as such\n   and will not be converted to \u003ccode\u003eNoteOn p 0\u003c/code\u003e.\n   If you want such a conversion, you may use \u003ccode\u003e\u003ca\u003enoteImplicitOff\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Construct",
           "name": "note",
           "package": "midi-alsa",
@@ -387,6 +420,7 @@
         "index": {
           "description": "Warning This constructs note events as is that is NoteOff is encoded as such and will not be converted to NoteOn If you want such conversion you may use noteImplicitOff",
           "hierarchy": "Sound MIDI ALSA Construct",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Construct",
           "name": "note",
           "normalized": "Channel-\u003e(Velocity,Pitch,Bool)-\u003ea",
@@ -402,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003enote\u003c/a\u003e\u003c/code\u003e, but converts \u003ccode\u003eNoteOn p 0\u003c/code\u003e to \u003ccode\u003eNoteOff p 64\u003c/code\u003e.\nSee \u003ccode\u003e\u003ca\u003eexplicitNoteOff\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Construct",
           "name": "noteExplicitOff",
           "package": "midi-alsa",
@@ -411,6 +446,7 @@
         "index": {
           "description": "Like note but converts NoteOn to NoteOff See explicitNoteOff",
           "hierarchy": "Sound MIDI ALSA Construct",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Construct",
           "name": "noteExplicitOff",
           "normalized": "Channel-\u003e(Velocity,Pitch,Bool)-\u003ea",
@@ -427,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003enote\u003c/a\u003e\u003c/code\u003e, but converts \u003ccode\u003eNoteOff p 64\u003c/code\u003e to \u003ccode\u003eNoteOn p 0\u003c/code\u003e.\nSee \u003ccode\u003e\u003ca\u003eimplicitNoteOff\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Construct",
           "name": "noteImplicitOff",
           "package": "midi-alsa",
@@ -436,6 +473,7 @@
         "index": {
           "description": "Like note but converts NoteOff to NoteOn See implicitNoteOff",
           "hierarchy": "Sound MIDI ALSA Construct",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Construct",
           "name": "noteImplicitOff",
           "normalized": "Channel-\u003e(Velocity,Pitch,Bool)-\u003ea",
@@ -451,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Construct",
           "name": "pitchBend",
           "package": "midi-alsa",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Construct",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Construct",
           "name": "pitchBend",
           "normalized": "Channel-\u003eInt-\u003ea",
@@ -474,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Construct",
           "name": "program",
           "package": "midi-alsa",
@@ -482,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Construct",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Construct",
           "name": "program",
           "normalized": "Channel-\u003eProgram-\u003ea",
@@ -496,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Query",
           "name": "Query",
           "package": "midi-alsa",
@@ -504,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Query",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Query",
           "name": "Query",
           "package": "midi-alsa",
@@ -518,6 +562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll methods have default implementations that return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\nThis helps implementing event data types\nthat support only a subset of types of events.\n\u003c/p\u003e\u003cp\u003eMaybe a better approach is to provide type classes\nfor every type of event\nand make \u003ccode\u003e\u003ca\u003eC\u003c/a\u003e\u003c/code\u003e a subclass of all of them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Query",
           "name": "C",
           "package": "midi-alsa",
@@ -526,6 +571,7 @@
         "index": {
           "description": "All methods have default implementations that return Nothing This helps implementing event data types that support only subset of types of events Maybe better approach is to provide type classes for every type of event and make subclass of all of them",
           "hierarchy": "Sound MIDI ALSA Query",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Query",
           "name": "C",
           "package": "midi-alsa",
@@ -538,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Query",
           "name": "anyController",
           "package": "midi-alsa",
@@ -546,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Query",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Query",
           "name": "anyController",
           "normalized": "a-\u003eMaybe(Channel,(Controller,Int))",
@@ -561,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Query",
           "name": "channelPressure",
           "package": "midi-alsa",
@@ -569,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Query",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Query",
           "name": "channelPressure",
           "normalized": "a-\u003eMaybe(Channel,Int)",
@@ -584,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Query",
           "name": "mode",
           "package": "midi-alsa",
@@ -592,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Query",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Query",
           "name": "mode",
           "normalized": "a-\u003eMaybe(Channel,T)",
@@ -607,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWarning: This returns note events as they are,\n   that is, a \u003ccode\u003eNoteOff p 64\u003c/code\u003e might be encoded as such or as \u003ccode\u003eNoteOn p 0\u003c/code\u003e\n   depending on the content of \u003ccode\u003eevent\u003c/code\u003e.\n   For normalized results you may use \u003ccode\u003e\u003ca\u003enoteExplicitOff\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Query",
           "name": "note",
           "package": "midi-alsa",
@@ -616,6 +669,7 @@
         "index": {
           "description": "Warning This returns note events as they are that is NoteOff might be encoded as such or as NoteOn depending on the content of event For normalized results you may use noteExplicitOff",
           "hierarchy": "Sound MIDI ALSA Query",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Query",
           "name": "note",
           "normalized": "a-\u003eMaybe(Channel,(Velocity,Pitch,Bool))",
@@ -631,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003enote\u003c/a\u003e\u003c/code\u003e, but converts \u003ccode\u003eNoteOn p 0\u003c/code\u003e to \u003ccode\u003eNoteOff p 64\u003c/code\u003e.\nSee \u003ccode\u003e\u003ca\u003eexplicitNoteOff\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Query",
           "name": "noteExplicitOff",
           "package": "midi-alsa",
@@ -640,6 +695,7 @@
         "index": {
           "description": "Like note but converts NoteOn to NoteOff See explicitNoteOff",
           "hierarchy": "Sound MIDI ALSA Query",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Query",
           "name": "noteExplicitOff",
           "normalized": "a-\u003eMaybe(Channel,(Velocity,Pitch,Bool))",
@@ -656,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003enote\u003c/a\u003e\u003c/code\u003e, but converts \u003ccode\u003eNoteOff p 64\u003c/code\u003e to \u003ccode\u003eNoteOn p 0\u003c/code\u003e.\nSee \u003ccode\u003e\u003ca\u003eimplicitNoteOff\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Query",
           "name": "noteImplicitOff",
           "package": "midi-alsa",
@@ -665,6 +722,7 @@
         "index": {
           "description": "Like note but converts NoteOff to NoteOn See implicitNoteOff",
           "hierarchy": "Sound MIDI ALSA Query",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Query",
           "name": "noteImplicitOff",
           "normalized": "a-\u003eMaybe(Channel,(Velocity,Pitch,Bool))",
@@ -680,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Query",
           "name": "pitchBend",
           "package": "midi-alsa",
@@ -688,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Query",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Query",
           "name": "pitchBend",
           "normalized": "a-\u003eMaybe(Channel,Int)",
@@ -703,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA.Query",
           "name": "program",
           "package": "midi-alsa",
@@ -711,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Query",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA.Query",
           "name": "program",
           "normalized": "a-\u003eMaybe(Channel,Program)",
@@ -725,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "ALSA",
           "package": "midi-alsa",
@@ -733,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "ALSA",
           "package": "midi-alsa",
@@ -746,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "ControllerMode",
           "package": "midi-alsa",
@@ -754,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "ControllerMode",
           "package": "midi-alsa",
@@ -767,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "Controller",
           "package": "midi-alsa",
@@ -776,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "Controller",
           "package": "midi-alsa",
@@ -789,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "Mode",
           "package": "midi-alsa",
@@ -798,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "Mode",
           "package": "midi-alsa",
@@ -811,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "controllerEvent",
           "package": "midi-alsa",
@@ -820,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "controllerEvent",
           "normalized": "Channel-\u003eController-\u003eInt-\u003eCtrl",
@@ -835,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "ctrlChannel",
           "package": "midi-alsa",
@@ -844,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "ctrlChannel",
           "package": "midi-alsa",
@@ -858,6 +932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is undefined, if the controller is no regular controller\nbut a channel mode message.\nBetter use \u003ccode\u003e\u003ca\u003ectrlControllerMode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "ctrlController",
           "package": "midi-alsa",
@@ -868,6 +943,7 @@
         "index": {
           "description": "This is undefined if the controller is no regular controller but channel mode message Better use ctrlControllerMode",
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "ctrlController",
           "package": "midi-alsa",
@@ -881,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "ctrlControllerMode",
           "package": "midi-alsa",
@@ -890,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "ctrlControllerMode",
           "package": "midi-alsa",
@@ -903,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "ctrlProgram",
           "package": "midi-alsa",
@@ -912,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "ctrlProgram",
           "package": "midi-alsa",
@@ -925,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "ctrlValue",
           "package": "midi-alsa",
@@ -934,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "ctrlValue",
           "package": "midi-alsa",
@@ -947,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "fromChannel",
           "package": "midi-alsa",
@@ -956,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "fromChannel",
           "normalized": "Channel-\u003eChannel",
@@ -971,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "fromController",
           "package": "midi-alsa",
@@ -980,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "fromController",
           "normalized": "Controller-\u003eParameter",
@@ -995,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "fromPitch",
           "package": "midi-alsa",
@@ -1004,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "fromPitch",
           "normalized": "Pitch-\u003ePitch",
@@ -1019,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "fromProgram",
           "package": "midi-alsa",
@@ -1028,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "fromProgram",
           "normalized": "Program-\u003eValue",
@@ -1043,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "fromVelocity",
           "package": "midi-alsa",
@@ -1052,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "fromVelocity",
           "normalized": "Velocity-\u003eVelocity",
@@ -1067,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "modeEvent",
           "package": "midi-alsa",
@@ -1076,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "modeEvent",
           "normalized": "Channel-\u003eT-\u003eCtrl",
@@ -1091,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "normalNoteFromEvent",
           "package": "midi-alsa",
@@ -1100,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "normalNoteFromEvent",
           "normalized": "NoteEv-\u003eNote-\u003e(NoteEv,Velocity)",
@@ -1116,6 +1212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a \u003ccode\u003eNoteOff\u003c/code\u003e if input is a \u003ccode\u003eNoteOn\u003c/code\u003e with velocity zero.\nThis is a trick of the MIDI standard\nin order to allow compression of a series of note events.\nAfter normalization you can safely match on \u003ccode\u003eNoteOn\u003c/code\u003e and \u003ccode\u003eNoteOff\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "normalizeNote",
           "package": "midi-alsa",
@@ -1126,6 +1223,7 @@
         "index": {
           "description": "Return NoteOff if input is NoteOn with velocity zero This is trick of the MIDI standard in order to allow compression of series of note events After normalization you can safely match on NoteOn and NoteOff",
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "normalizeNote",
           "normalized": "(NoteEv,Velocity)-\u003e(NoteEv,Velocity)",
@@ -1141,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "noteChannel",
           "package": "midi-alsa",
@@ -1150,6 +1249,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "noteChannel",
           "package": "midi-alsa",
@@ -1163,6 +1263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "noteEvent",
           "package": "midi-alsa",
@@ -1172,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "noteEvent",
           "normalized": "Channel-\u003ePitch-\u003eVelocity-\u003eVelocity-\u003eInt-\u003eNote",
@@ -1187,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "notePitch",
           "package": "midi-alsa",
@@ -1196,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "notePitch",
           "package": "midi-alsa",
@@ -1210,6 +1314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis may not yield what you expect.\nSee \u003ccode\u003e\u003ca\u003enormalizeNote\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "noteVelocity",
           "package": "midi-alsa",
@@ -1220,6 +1325,7 @@
         "index": {
           "description": "This may not yield what you expect See normalizeNote",
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "noteVelocity",
           "package": "midi-alsa",
@@ -1233,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "programChangeEvent",
           "package": "midi-alsa",
@@ -1242,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "programChangeEvent",
           "normalized": "Channel-\u003eProgram-\u003eCtrl",
@@ -1257,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "toChannel",
           "package": "midi-alsa",
@@ -1266,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "toChannel",
           "normalized": "Channel-\u003eChannel",
@@ -1282,6 +1392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControllers from \u003ccode\u003e0x78\u003c/code\u003e to \u003ccode\u003e0x7F\u003c/code\u003e are special,\nyou must assert that the controller number is in the range \u003ccode\u003e0\u003c/code\u003e to \u003ccode\u003e0x77\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "toController",
           "package": "midi-alsa",
@@ -1292,6 +1403,7 @@
         "index": {
           "description": "Controllers from x78 to x7F are special you must assert that the controller number is in the range to x77",
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "toController",
           "normalized": "Parameter-\u003eController",
@@ -1307,6 +1419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "toPitch",
           "package": "midi-alsa",
@@ -1316,6 +1429,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "toPitch",
           "normalized": "Pitch-\u003ePitch",
@@ -1331,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "toProgram",
           "package": "midi-alsa",
@@ -1340,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "toProgram",
           "normalized": "Value-\u003eProgram",
@@ -1355,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:31 UTC 2014",
           "module": "Sound.MIDI.ALSA",
           "name": "toVelocity",
           "package": "midi-alsa",
@@ -1364,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA",
+          "indexed": "2014-03-11T19:17:31",
           "module": "Sound.MIDI.ALSA",
           "name": "toVelocity",
           "normalized": "Velocity-\u003eVelocity",

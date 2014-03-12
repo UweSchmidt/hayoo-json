@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hskeleton"
+        "phrase": "hskeleton",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:48 UTC 2014",
           "module": "System.Console.GetOpt.Skeleton",
           "name": "Skeleton",
           "package": "hskeleton",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Console GetOpt Skeleton",
+          "indexed": "2014-03-11T18:48:48",
           "module": "System.Console.GetOpt.Skeleton",
           "name": "Skeleton",
           "package": "hskeleton",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial version of parseArgs for monoids\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:48 UTC 2014",
           "module": "System.Console.GetOpt.Skeleton",
           "name": "mParseArgs",
           "package": "hskeleton",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Special version of parseArgs for monoids",
           "hierarchy": "System Console GetOpt Skeleton",
+          "indexed": "2014-03-11T18:48:48",
           "module": "System.Console.GetOpt.Skeleton",
           "name": "mParseArgs",
           "normalized": "Version-\u003e[OptDescr(a-\u003ea)]-\u003e(a-\u003eLast StandardFlag)-\u003e[String]-\u003eIO a",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003ebasic* command-line argument parsing - you may wish to write your own parseArgs, based on\n the source code of this one.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:48:48 UTC 2014",
           "module": "System.Console.GetOpt.Skeleton",
           "name": "parseArgs",
           "package": "hskeleton",
@@ -76,6 +81,7 @@
         "index": {
           "description": "basic command-line argument parsing you may wish to write your own parseArgs based on the source code of this one",
           "hierarchy": "System Console GetOpt Skeleton",
+          "indexed": "2014-03-11T18:48:48",
           "module": "System.Console.GetOpt.Skeleton",
           "name": "parseArgs",
           "normalized": "Version-\u003e[OptDescr a]-\u003e([a]-\u003eb)-\u003e(b-\u003eMaybe StandardFlag)-\u003e[String]-\u003eIO b",
@@ -91,6 +97,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:48 UTC 2014",
           "module": "System.Console.GetOpt.StandardOpts",
           "name": "StandardOpts",
           "package": "hskeleton",
@@ -99,6 +106,7 @@
         },
         "index": {
           "hierarchy": "System Console GetOpt StandardOpts",
+          "indexed": "2014-03-11T18:48:48",
           "module": "System.Console.GetOpt.StandardOpts",
           "name": "StandardOpts",
           "package": "hskeleton",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:48 UTC 2014",
           "module": "System.Console.GetOpt.StandardOpts",
           "name": "StandardFlag",
           "package": "hskeleton",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "System Console GetOpt StandardOpts",
+          "indexed": "2014-03-11T18:48:48",
           "module": "System.Console.GetOpt.StandardOpts",
           "name": "StandardFlag",
           "package": "hskeleton",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:48 UTC 2014",
           "module": "System.Console.GetOpt.StandardOpts",
           "name": "HelpFlag",
           "package": "hskeleton",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "System Console GetOpt StandardOpts",
+          "indexed": "2014-03-11T18:48:48",
           "module": "System.Console.GetOpt.StandardOpts",
           "name": "HelpFlag",
           "package": "hskeleton",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:48 UTC 2014",
           "module": "System.Console.GetOpt.StandardOpts",
           "name": "VersionFlag",
           "package": "hskeleton",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "System Console GetOpt StandardOpts",
+          "indexed": "2014-03-11T18:48:48",
           "module": "System.Console.GetOpt.StandardOpts",
           "name": "VersionFlag",
           "package": "hskeleton",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:48 UTC 2014",
           "module": "System.Console.GetOpt.StandardOpts",
           "name": "printHelp",
           "package": "hskeleton",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "System Console GetOpt StandardOpts",
+          "indexed": "2014-03-11T18:48:48",
           "module": "System.Console.GetOpt.StandardOpts",
           "name": "printHelp",
           "normalized": "String-\u003e[OptDescr a]-\u003eIO()",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:48 UTC 2014",
           "module": "System.Console.GetOpt.StandardOpts",
           "name": "printVersion",
           "package": "hskeleton",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "System Console GetOpt StandardOpts",
+          "indexed": "2014-03-11T18:48:48",
           "module": "System.Console.GetOpt.StandardOpts",
           "name": "printVersion",
           "normalized": "String-\u003eVersion-\u003eIO()",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:48 UTC 2014",
           "module": "System.Console.GetOpt.StandardOpts",
           "name": "standardOptions",
           "package": "hskeleton",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "System Console GetOpt StandardOpts",
+          "indexed": "2014-03-11T18:48:48",
           "module": "System.Console.GetOpt.StandardOpts",
           "name": "standardOptions",
           "normalized": "[OptDescr StandardFlag]",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:48 UTC 2014",
           "module": "System.Console.GetOpt.StandardOpts",
           "name": "stdOpts",
           "package": "hskeleton",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "System Console GetOpt StandardOpts",
+          "indexed": "2014-03-11T18:48:48",
           "module": "System.Console.GetOpt.StandardOpts",
           "name": "stdOpts",
           "normalized": "(StandardFlag-\u003ea)-\u003e[OptDescr a]",

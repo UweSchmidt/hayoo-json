@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rfc5051"
+        "phrase": "rfc5051",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:23 UTC 2014",
           "module": "Data.RFC5051",
           "name": "RFC5051",
           "package": "rfc5051",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data RFC5051",
+          "indexed": "2014-03-11T19:54:23",
           "module": "Data.RFC5051",
           "name": "RFC5051",
           "package": "rfc5051",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare two strings using \u003ccode\u003ei;unicode-casemap\u003c/code\u003e,\n the simple unicode collation algorithm described in RFC 5051.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:23 UTC 2014",
           "module": "Data.RFC5051",
           "name": "compareUnicode",
           "package": "rfc5051",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Compare two strings using unicode-casemap the simple unicode collation algorithm described in RFC",
           "hierarchy": "Data RFC5051",
+          "indexed": "2014-03-11T19:54:23",
           "module": "Data.RFC5051",
           "name": "compareUnicode",
           "normalized": "String-\u003eString-\u003eOrdering",

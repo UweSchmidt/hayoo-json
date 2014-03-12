@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lhe"
+        "phrase": "lhe",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a pure haskell implementation of a parser and writer for\nthe Les-Houches event file format, as described in hep-ph/0609017. (Note that\nthe writer doesn't actually exist yet.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:07 UTC 2014",
           "module": "Data.LHE",
           "name": "LHE",
           "package": "lhe",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides pure haskell implementation of parser and writer for the Les-Houches event file format as described in hep-ph Note that the writer doesn actually exist yet",
           "hierarchy": "Data LHE",
+          "indexed": "2014-03-11T19:08:07",
           "module": "Data.LHE",
           "name": "LHE",
           "package": "lhe",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:07 UTC 2014",
           "module": "Data.LHE",
           "name": "parse",
           "package": "lhe",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Data LHE",
+          "indexed": "2014-03-11T19:08:07",
           "module": "Data.LHE",
           "name": "parse",
           "normalized": "String-\u003eByteString-\u003e(Run,[Event])",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:07 UTC 2014",
           "module": "Data.LHE",
           "name": "parseFile",
           "package": "lhe",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data LHE",
+          "indexed": "2014-03-11T19:08:07",
           "module": "Data.LHE",
           "name": "parseFile",
           "normalized": "String-\u003eIO(Run,[Event])",

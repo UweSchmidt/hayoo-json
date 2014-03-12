@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lazysplines"
+        "phrase": "lazysplines",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines.Examples",
           "name": "Examples",
           "package": "lazysplines",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines Examples",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines.Examples",
           "name": "Examples",
           "package": "lazysplines",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines.Examples",
           "name": "flame",
           "package": "lazysplines",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines Examples",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines.Examples",
           "name": "flame",
           "package": "lazysplines",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines.Examples",
           "name": "flame2",
           "package": "lazysplines",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines Examples",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines.Examples",
           "name": "flame2",
           "package": "lazysplines",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines.Examples",
           "name": "flame3",
           "package": "lazysplines",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines Examples",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines.Examples",
           "name": "flame3",
           "package": "lazysplines",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines.Examples",
           "name": "flame4",
           "package": "lazysplines",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines Examples",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines.Examples",
           "name": "flame4",
           "package": "lazysplines",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines.Examples",
           "name": "flame5",
           "package": "lazysplines",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines Examples",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines.Examples",
           "name": "flame5",
           "package": "lazysplines",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines.Examples",
           "name": "flamePred",
           "package": "lazysplines",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines Examples",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines.Examples",
           "name": "flamePred",
           "package": "lazysplines",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines.Examples",
           "name": "spring",
           "package": "lazysplines",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines Examples",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines.Examples",
           "name": "spring",
           "package": "lazysplines",
@@ -187,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines.Examples",
           "name": "survival",
           "package": "lazysplines",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines Examples",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines.Examples",
           "name": "survival",
           "package": "lazysplines",
@@ -208,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "LazySplines",
           "package": "lazysplines",
@@ -216,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "LazySplines",
           "package": "lazysplines",
@@ -229,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "Poly",
           "package": "lazysplines",
@@ -237,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "Poly",
           "package": "lazysplines",
@@ -250,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "PolySegment",
           "package": "lazysplines",
@@ -258,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "PolySegment",
           "package": "lazysplines",
@@ -272,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSomething that can be sampled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "Sampleable",
           "package": "lazysplines",
@@ -281,6 +306,7 @@
         "index": {
           "description": "Something that can be sampled",
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "Sampleable",
           "package": "lazysplines",
@@ -294,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "Spline",
           "package": "lazysplines",
@@ -302,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "Spline",
           "package": "lazysplines",
@@ -315,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "SplinePredicate",
           "package": "lazysplines",
@@ -323,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "SplinePredicate",
           "package": "lazysplines",
@@ -336,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "at",
           "package": "lazysplines",
@@ -345,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "at",
           "normalized": "a-\u003eDouble-\u003eDouble",
@@ -359,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "deriveSpline",
           "package": "lazysplines",
@@ -368,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "deriveSpline",
           "normalized": "Spline-\u003eSpline",
@@ -383,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "duration",
           "package": "lazysplines",
@@ -392,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "duration",
           "normalized": "Spline-\u003eDouble",
@@ -406,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "extendWhen",
           "package": "lazysplines",
@@ -415,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "extendWhen",
           "normalized": "Spline-\u003e(Double,Double,SplinePredicate)-\u003eSpline",
@@ -430,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "extrapForward",
           "package": "lazysplines",
@@ -439,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "extrapForward",
           "normalized": "Spline-\u003eDouble-\u003eSpline",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "findValue",
           "package": "lazysplines",
@@ -463,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "findValue",
           "normalized": "Double-\u003e(a-\u003eDouble)-\u003e(Double-\u003ea)-\u003ea",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "inSpline2",
           "package": "lazysplines",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "inSpline2",
           "normalized": "(Poly-\u003ePoly-\u003ePoly)-\u003eSpline-\u003eSpline-\u003eSpline",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "integrateSpline",
           "package": "lazysplines",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "integrateSpline",
           "normalized": "Spline-\u003eSpline",
@@ -526,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "liftS",
           "package": "lazysplines",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "liftS",
           "normalized": "Double-\u003eSpline",
@@ -549,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "mapSpline",
           "package": "lazysplines",
@@ -558,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "mapSpline",
           "normalized": "Bool-\u003e(Double-\u003eDouble-\u003ePoly-\u003ePoly)-\u003eSpline-\u003eSpline",
@@ -573,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "newton",
           "package": "lazysplines",
@@ -582,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "newton",
           "normalized": "Double-\u003e(Double-\u003eDouble)-\u003e[Double]",
@@ -596,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "pickValue",
           "package": "lazysplines",
@@ -605,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "pickValue",
           "normalized": "Double-\u003e(a-\u003eDouble)-\u003e[a]-\u003ea",
@@ -620,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "satisfying",
           "package": "lazysplines",
@@ -629,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "satisfying",
           "normalized": "Spline-\u003e(Double,SplinePredicate)-\u003eSpline",
@@ -643,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "scaleRest",
           "package": "lazysplines",
@@ -652,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "scaleRest",
           "normalized": "Poly-\u003eDouble-\u003ePoly",
@@ -667,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "shiftBy",
           "package": "lazysplines",
@@ -676,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "shiftBy",
           "normalized": "Double-\u003ePoly-\u003ePoly",
@@ -691,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "splitWhen",
           "package": "lazysplines",
@@ -700,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "splitWhen",
           "normalized": "Spline-\u003e(Double,Double,SplinePredicate)-\u003eSpline",
@@ -715,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "trimSmart",
           "package": "lazysplines",
@@ -724,6 +787,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "trimSmart",
           "normalized": "Spline-\u003eSplinePredicate-\u003eSpline",
@@ -739,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:53 UTC 2014",
           "module": "Numeric.LazySplines",
           "name": "trimmingTo",
           "package": "lazysplines",
@@ -748,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Numeric LazySplines",
+          "indexed": "2014-03-11T19:06:53",
           "module": "Numeric.LazySplines",
           "name": "trimmingTo",
           "normalized": "Spline-\u003eInt-\u003eSpline",

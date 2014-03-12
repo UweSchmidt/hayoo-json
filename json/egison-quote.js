@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "egison-quote"
+        "phrase": "egison-quote",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe quasi quotes for egison expression\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:01:22 UTC 2014",
           "module": "Language.Egison.Quote",
           "name": "Quote",
           "package": "egison-quote",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The quasi quotes for egison expression",
           "hierarchy": "Language Egison Quote",
+          "indexed": "2014-03-11T18:01:22",
           "module": "Language.Egison.Quote",
           "name": "Quote",
           "package": "egison-quote",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuasiQuoter for egison expression\n\u003c/p\u003e\u003cp\u003eThe format is:\n\u003c/p\u003e\u003cpre\u003e expr := [egison | \u003cegison-expression\u003e :: \u003ctype-signature\u003e |]\n\u003c/pre\u003e\u003cp\u003eFor example, with Egison pattern matching, \u003cem\u003epowerset function\u003c/em\u003e can be expressed easily as follows.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e[egison|(lambda [$l] (match-all l (Multiset Integer) [\u003cjoin $l _\u003e l])) :: [Int] -\u003e [[Int]]|] [1..3]\n\u003c/code\u003e\u003c/strong\u003e[[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]\n\u003c/pre\u003e\u003cp\u003eType signature is defined as follows\n\u003c/p\u003e\u003cpre\u003e \u003cTyp\u003e = Bool | Int | Double | Float | Char | String | [\u003cTyp\u003e] | (\u003cTyp\u003e, \u003cTyp\u003e, ..., \u003cTyp\u003e) | \u003cTyp\u003e -\u003e \u003cTyp\u003e -\u003e ... \u003cTyp\u003e\n\u003c/pre\u003e\u003cp\u003eEmbedded Egison expression is run-time evaluated by using \u003ccode\u003e\u003ca\u003eeval\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eunsafePerformIO\u003c/a\u003e\u003c/code\u003e.\n For more detailed usage, please refer to \u003ca\u003ehttps://github.com/xenophobia/Egison-Quote\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:22 UTC 2014",
           "module": "Language.Egison.Quote",
           "name": "egison",
           "package": "egison-quote",
@@ -52,6 +55,7 @@
         "index": {
           "description": "QuasiQuoter for egison expression The format is expr egison egison-expression type-signature For example with Egison pattern matching powerset function can be expressed easily as follows egison lambda match-all Multiset Integer join Int Int Type signature is defined as follows Typ Bool Int Double Float Char String Typ Typ Typ Typ Typ Typ Typ Embedded Egison expression is run-time evaluated by using eval and unsafePerformIO For more detailed usage please refer to https github.com xenophobia Egison-Quote",
           "hierarchy": "Language Egison Quote",
+          "indexed": "2014-03-11T18:01:22",
           "module": "Language.Egison.Quote",
           "name": "egison",
           "package": "egison-quote",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:22 UTC 2014",
           "module": "Language.Egison.Quote",
           "name": "evalEgisonTopLevel",
           "package": "egison-quote",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Quote",
+          "indexed": "2014-03-11T18:01:22",
           "module": "Language.Egison.Quote",
           "name": "evalEgisonTopLevel",
           "normalized": "EgisonExpr-\u003e[String]-\u003e[ExpQ]-\u003eExpQ",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for \u003ccode\u003e\u003ca\u003epickupAntiquote\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:22 UTC 2014",
           "module": "Language.Egison.Quote",
           "name": "parseAntiquote",
           "package": "egison-quote",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Parser for pickupAntiquote",
           "hierarchy": "Language Egison Quote",
+          "indexed": "2014-03-11T18:01:22",
           "module": "Language.Egison.Quote",
           "name": "parseAntiquote",
           "normalized": "Parser([String],String)",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for egison-quote\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:22 UTC 2014",
           "module": "Language.Egison.Quote",
           "name": "parseQuote",
           "package": "egison-quote",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Parser for egison-quote",
           "hierarchy": "Language Egison Quote",
+          "indexed": "2014-03-11T18:01:22",
           "module": "Language.Egison.Quote",
           "name": "parseQuote",
           "normalized": "Parser(EgisonExpr,Type)",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for TypeSignature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:22 UTC 2014",
           "module": "Language.Egison.Quote",
           "name": "parseType",
           "package": "egison-quote",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Parser for TypeSignature",
           "hierarchy": "Language Egison Quote",
+          "indexed": "2014-03-11T18:01:22",
           "module": "Language.Egison.Quote",
           "name": "parseType",
           "package": "egison-quote",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePick up antiquoted variables and delete notation \u003ccode\u003e#{~}\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e \"(+ #{x} y)\"  ---\u003e ([x], \"(+ x y)\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:01:22 UTC 2014",
           "module": "Language.Egison.Quote",
           "name": "pickupAntiquote",
           "package": "egison-quote",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Pick up antiquoted variables and delete notation",
           "hierarchy": "Language Egison Quote",
+          "indexed": "2014-03-11T18:01:22",
           "module": "Language.Egison.Quote",
           "name": "pickupAntiquote",
           "normalized": "String-\u003e([String],String)",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead function for egison-quote\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:22 UTC 2014",
           "module": "Language.Egison.Quote",
           "name": "readQuote",
           "package": "egison-quote",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Read function for egison-quote",
           "hierarchy": "Language Egison Quote",
+          "indexed": "2014-03-11T18:01:22",
           "module": "Language.Egison.Quote",
           "name": "readQuote",
           "normalized": "String-\u003eThrowsError(EgisonExpr,Type)",
@@ -216,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstruct Exp from Egison-expression and type signature\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:22 UTC 2014",
           "module": "Language.Egison.Quote",
           "name": "toHaskellExp",
           "package": "egison-quote",
@@ -226,6 +243,7 @@
         "index": {
           "description": "construct Exp from Egison-expression and type signature",
           "hierarchy": "Language Egison Quote",
+          "indexed": "2014-03-11T18:01:22",
           "module": "Language.Egison.Quote",
           "name": "toHaskellExp",
           "normalized": "EgisonExpr-\u003e[String]-\u003eType-\u003eExpQ",

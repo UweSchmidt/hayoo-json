@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SimpleH"
+        "phrase": "SimpleH",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module describing applicative functors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "Applicative",
           "package": "SimpleH",
@@ -28,6 +29,7 @@
         "index": {
           "description": "module describing applicative functors",
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "Applicative",
           "package": "SimpleH",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "Applicative",
           "package": "SimpleH",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "Applicative",
           "package": "SimpleH",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper for applicative functors with actions executed in the reverse order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "Backwards",
           "package": "SimpleH",
@@ -72,6 +77,7 @@
         "index": {
           "description": "wrapper for applicative functors with actions executed in the reverse order",
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "Backwards",
           "package": "SimpleH",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper type for lists with zipping Applicative instances, such that\n\u003ccode\u003eZipList [f1,...,fn] \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e ZipList [x1,...,xn] == ZipList [f1 x1,...,fn xn]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "ZipList",
           "package": "SimpleH",
@@ -95,6 +102,7 @@
         "index": {
           "description": "wrapper type for lists with zipping Applicative instances such that ZipList f1 fn ZipList x1 xn ZipList f1 x1 fn xn",
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "ZipList",
           "package": "SimpleH",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Tree equivalent to ZipList\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "ZipTree",
           "package": "SimpleH",
@@ -118,6 +127,7 @@
         "index": {
           "description": "The Tree equivalent to ZipList",
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "ZipTree",
           "package": "SimpleH",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "(*\u003e)",
           "package": "SimpleH",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "(*\u003e) *\u003e",
           "normalized": "a b-\u003ea c-\u003ea c",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "(\u003c*)",
           "package": "SimpleH",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "(\u003c*) \u003c*",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "(\u003c**\u003e)",
           "package": "SimpleH",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "(\u003c**\u003e) \u003c**\u003e",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "(\u003c*\u003e)",
           "package": "SimpleH",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "(\u003c*\u003e) \u003c*\u003e",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "Backwards",
           "package": "SimpleH",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "Backwards",
           "package": "SimpleH",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "ZipList",
           "package": "SimpleH",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "ZipList",
           "package": "SimpleH",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "ZipTree",
           "package": "SimpleH",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "ZipTree",
           "package": "SimpleH",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "ap",
           "package": "SimpleH",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "ap",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "between",
           "package": "SimpleH",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "between",
           "normalized": "a b-\u003ea c-\u003ea d-\u003ea d",
@@ -359,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "for_",
           "package": "SimpleH",
@@ -368,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "for_",
           "normalized": "a b-\u003e(b-\u003ec d)-\u003ec()",
@@ -382,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "forever",
           "package": "SimpleH",
@@ -391,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "forever",
           "normalized": "a b-\u003ea c",
@@ -405,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "forwards",
           "package": "SimpleH",
@@ -414,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "forwards",
           "package": "SimpleH",
@@ -426,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "getZipList",
           "package": "SimpleH",
@@ -435,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "getZipList",
           "normalized": "[a]",
@@ -450,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "liftA",
           "package": "SimpleH",
@@ -459,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "liftA",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -473,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "liftA2",
           "package": "SimpleH",
@@ -482,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "liftA2",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -496,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "liftA3",
           "package": "SimpleH",
@@ -505,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "liftA3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003ee a-\u003ee b-\u003ee c-\u003ee d",
@@ -519,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "liftA4",
           "package": "SimpleH",
@@ -528,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "liftA4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003ef a-\u003ef b-\u003ef c-\u003ef d-\u003ef e",
@@ -542,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "plusA",
           "package": "SimpleH",
@@ -551,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "plusA",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -565,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "sequence_",
           "package": "SimpleH",
@@ -574,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "sequence_",
           "normalized": "a(b c)-\u003eb()",
@@ -588,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "traverse_",
           "package": "SimpleH",
@@ -597,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "traverse_",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb()",
@@ -611,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Applicative",
           "name": "zeroA",
           "package": "SimpleH",
@@ -620,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Algebra Applicative",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Applicative",
           "name": "zeroA",
           "package": "SimpleH",
@@ -632,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Arrow",
           "name": "Arrow",
           "package": "SimpleH",
@@ -640,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Algebra Arrow",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Arrow",
           "name": "Arrow",
           "package": "SimpleH",
@@ -653,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Arrow",
           "name": "Apply",
           "package": "SimpleH",
@@ -661,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Algebra Arrow",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Arrow",
           "name": "Apply",
           "package": "SimpleH",
@@ -674,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Arrow",
           "name": "Arrow",
           "package": "SimpleH",
@@ -682,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Algebra Arrow",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Arrow",
           "name": "Arrow",
           "package": "SimpleH",
@@ -695,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Arrow",
           "name": "Kleisli",
           "package": "SimpleH",
@@ -703,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Algebra Arrow",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Arrow",
           "name": "Kleisli",
           "package": "SimpleH",
@@ -716,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Arrow",
           "name": "ListA",
           "package": "SimpleH",
@@ -724,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Algebra Arrow",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Arrow",
           "name": "ListA",
           "package": "SimpleH",
@@ -737,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Arrow",
           "name": "(\u003e\u003e^)",
           "package": "SimpleH",
@@ -746,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Algebra Arrow",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Arrow",
           "name": "(\u003e\u003e^) \u003e\u003e^",
           "normalized": "a b-\u003e(b-\u003ec)-\u003ea c",
@@ -760,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Arrow",
           "name": "(^\u003e\u003e)",
           "package": "SimpleH",
@@ -769,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Algebra Arrow",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Arrow",
           "name": "(^\u003e\u003e) ^\u003e\u003e",
           "normalized": "(a-\u003eb)-\u003ec b d-\u003ec a d",
@@ -806,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Arrow",
           "name": "ListA",
           "package": "SimpleH",
@@ -815,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Algebra Arrow",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Arrow",
           "name": "ListA",
           "package": "SimpleH",
@@ -828,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Arrow",
           "name": "app",
           "package": "SimpleH",
@@ -837,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Algebra Arrow",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Arrow",
           "name": "app",
           "normalized": "a b c-\u003ea b c",
@@ -851,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Arrow",
           "name": "apply",
           "package": "SimpleH",
@@ -860,6 +931,7 @@
         },
         "index": {
           "hierarchy": "Algebra Arrow",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Arrow",
           "name": "apply",
           "normalized": "a(a b c,b)c",
@@ -874,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Arrow",
           "name": "arr",
           "package": "SimpleH",
@@ -883,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Algebra Arrow",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Arrow",
           "name": "arr",
           "normalized": "(a-\u003eb)-\u003ec a b",
@@ -897,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Arrow",
           "name": "comapA",
           "package": "SimpleH",
@@ -906,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Algebra Arrow",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Arrow",
           "name": "comapA",
           "normalized": "(a-\u003eb)-\u003eFlip c d b-\u003eFlip c d a",
@@ -920,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Arrow",
           "name": "dup",
           "package": "SimpleH",
@@ -929,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Algebra Arrow",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Arrow",
           "name": "dup",
           "normalized": "a b(b,b)",
@@ -968,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Arrow",
           "name": "runListA",
           "package": "SimpleH",
@@ -977,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Algebra Arrow",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Arrow",
           "name": "runListA",
           "normalized": "a[b][c]",
@@ -992,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Core",
           "package": "SimpleH",
@@ -1000,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Core",
           "package": "SimpleH",
@@ -1013,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": ":*:",
           "package": "SimpleH",
@@ -1021,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": ":*:",
           "package": "SimpleH",
@@ -1033,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": ":+:",
           "package": "SimpleH",
@@ -1041,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": ":+:",
           "package": "SimpleH",
@@ -1054,6 +1140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monoid on Maybes, where the sum is the leftmost non-Nothing value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Accum",
           "package": "SimpleH",
@@ -1063,6 +1150,7 @@
         "index": {
           "description": "monoid on Maybes where the sum is the leftmost non-Nothing value",
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Accum",
           "package": "SimpleH",
@@ -1077,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space-efficient representation of a Word8 vector, supporting many\n efficient operations.  A \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e contains 8-bit characters only.\n\u003c/p\u003e\u003cp\u003eInstances of Eq, Ord, Read, Show, Data, Typeable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "ByteString",
           "package": "SimpleH",
@@ -1085,6 +1174,7 @@
         "index": {
           "description": "space-efficient representation of Word8 vector supporting many efficient operations ByteString contains bit characters only Instances of Eq Ord Read Show Data Typeable",
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "ByteString",
           "package": "SimpleH",
@@ -1098,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Category",
           "package": "SimpleH",
@@ -1106,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Category",
           "package": "SimpleH",
@@ -1119,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Choice",
           "package": "SimpleH",
@@ -1127,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Choice",
           "package": "SimpleH",
@@ -1141,6 +1235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dual of a monoid is the same as the original, with arguments reversed \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Dual",
           "package": "SimpleH",
@@ -1150,6 +1245,7 @@
         "index": {
           "description": "The dual of monoid is the same as the original with arguments reversed",
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Dual",
           "package": "SimpleH",
@@ -1164,6 +1260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monoid on category endomorphisms under composition \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Endo",
           "package": "SimpleH",
@@ -1173,6 +1270,7 @@
         "index": {
           "description": "monoid on category endomorphisms under composition",
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Endo",
           "package": "SimpleH",
@@ -1187,6 +1285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Identity Functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Id",
           "package": "SimpleH",
@@ -1196,6 +1295,7 @@
         "index": {
           "description": "The Identity Functor",
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Id",
           "package": "SimpleH",
@@ -1209,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Interleave",
           "package": "SimpleH",
@@ -1217,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Interleave",
           "package": "SimpleH",
@@ -1231,6 +1333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Max monoid, where \u003ccode\u003e(+) =~ max\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Max",
           "package": "SimpleH",
@@ -1240,6 +1343,7 @@
         "index": {
           "description": "The Max monoid where max",
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Max",
           "package": "SimpleH",
@@ -1254,6 +1358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monoid is a semigroup with a null element such that \u003ccode\u003ezero + a == a + zero == a\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Monoid",
           "package": "SimpleH",
@@ -1263,6 +1368,7 @@
         "index": {
           "description": "monoid is semigroup with null element such that zero zero",
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Monoid",
           "package": "SimpleH",
@@ -1277,6 +1383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn ordered list. The semigroup instance merges two lists so that\n the result remains in ascending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "OrdList",
           "package": "SimpleH",
@@ -1286,6 +1393,7 @@
         "index": {
           "description": "An ordered list The semigroup instance merges two lists so that the result remains in ascending order",
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "OrdList",
           "package": "SimpleH",
@@ -1299,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Orderable",
           "package": "SimpleH",
@@ -1307,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Orderable",
           "package": "SimpleH",
@@ -1321,6 +1431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Product monoid \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Product",
           "package": "SimpleH",
@@ -1330,6 +1441,7 @@
         "index": {
           "description": "The Product monoid",
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Product",
           "package": "SimpleH",
@@ -1343,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Ring",
           "package": "SimpleH",
@@ -1351,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Ring",
           "package": "SimpleH",
@@ -1365,6 +1479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of all types that have a binary operation. Note that the operation\nisn't necesarily commutative (in the case of lists, for example)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Semigroup",
           "package": "SimpleH",
@@ -1374,6 +1489,7 @@
         "index": {
           "description": "The class of all types that have binary operation Note that the operation isn necesarily commutative in the case of lists for example",
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Semigroup",
           "package": "SimpleH",
@@ -1387,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Split",
           "package": "SimpleH",
@@ -1395,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Split",
           "package": "SimpleH",
@@ -1408,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "StrictEndo",
           "package": "SimpleH",
@@ -1416,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "StrictEndo",
           "package": "SimpleH",
@@ -1429,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "SubSemi",
           "package": "SimpleH",
@@ -1437,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "SubSemi",
           "package": "SimpleH",
@@ -1450,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Unit",
           "package": "SimpleH",
@@ -1458,6 +1581,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Unit",
           "package": "SimpleH",
@@ -1471,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Void",
           "package": "SimpleH",
@@ -1479,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Void",
           "package": "SimpleH",
@@ -1492,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "(&)",
           "package": "SimpleH",
@@ -1501,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "(&) &",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",
@@ -1515,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "(*)",
           "package": "SimpleH",
@@ -1524,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "(*) *",
           "normalized": "a-\u003ea-\u003ea",
@@ -1538,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "(+)",
           "package": "SimpleH",
@@ -1547,6 +1678,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "(+) +",
           "normalized": "a-\u003ea-\u003ea",
@@ -1561,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "(+++)",
           "package": "SimpleH",
@@ -1570,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "(+++) +++",
           "normalized": "(a-\u003eb c c)-\u003e(d-\u003eb e e)-\u003e(a d)-\u003eb(c,e)(c,e)",
@@ -1584,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "(\u003c|\u003e)",
           "package": "SimpleH",
@@ -1593,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "a b c-\u003ea d c-\u003ea(b d)c",
@@ -1607,6 +1743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "(\u003c#\u003e)",
           "package": "SimpleH",
@@ -1616,6 +1753,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "(\u003c#\u003e) \u003c#\u003e",
           "normalized": "a b c-\u003ea d e-\u003ea(b,d)(c,e)",
@@ -1630,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "(\u003c\u003c\u003c)",
           "package": "SimpleH",
@@ -1639,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "(\u003c\u003c\u003c) \u003c\u003c\u003c",
           "normalized": "a b c-\u003ea d b-\u003ea d c",
@@ -1653,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "(\u003e\u003e\u003e)",
           "package": "SimpleH",
@@ -1662,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "(\u003e\u003e\u003e) \u003e\u003e\u003e",
           "normalized": "a b c-\u003ea c d-\u003ea b d",
@@ -1676,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "(.)",
           "package": "SimpleH",
@@ -1685,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "(.) .",
           "normalized": "a b c-\u003ea d b-\u003ea d c",
@@ -1699,6 +1843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Accum",
           "package": "SimpleH",
@@ -1708,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Accum",
           "package": "SimpleH",
@@ -1721,6 +1867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Dual",
           "package": "SimpleH",
@@ -1730,6 +1877,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Dual",
           "package": "SimpleH",
@@ -1743,6 +1891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Endo",
           "package": "SimpleH",
@@ -1752,6 +1901,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Endo",
           "package": "SimpleH",
@@ -1788,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Interleave",
           "package": "SimpleH",
@@ -1797,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Interleave",
           "package": "SimpleH",
@@ -1810,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Max",
           "package": "SimpleH",
@@ -1819,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Max",
           "package": "SimpleH",
@@ -1832,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "OrdList",
           "package": "SimpleH",
@@ -1841,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "OrdList",
           "package": "SimpleH",
@@ -1854,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "Product",
           "package": "SimpleH",
@@ -1863,6 +2020,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "Product",
           "package": "SimpleH",
@@ -1876,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "StrictEndo",
           "package": "SimpleH",
@@ -1885,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "StrictEndo",
           "package": "SimpleH",
@@ -1898,6 +2058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "bool",
           "package": "SimpleH",
@@ -1907,6 +2068,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "bool",
           "normalized": "a-\u003ea-\u003eBool-\u003ea",
@@ -1921,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "cast",
           "package": "SimpleH",
@@ -1930,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "cast",
           "normalized": "a-\u003eb",
@@ -1945,6 +2109,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e comparing p x y = compare (p x) (p y)\n\u003c/pre\u003e\u003cp\u003eUseful combinator for use in conjunction with the \u003ccode\u003exxxBy\u003c/code\u003e family\n of functions from \u003ca\u003eData.List\u003c/a\u003e, for example:\n\u003c/p\u003e\u003cpre\u003e   ... sortBy (comparing fst) ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "comparing",
           "package": "SimpleH",
@@ -1954,6 +2119,7 @@
         "index": {
           "description": "comparing compare Useful combinator for use in conjunction with the xxxBy family of functions from Data.List for example sortBy comparing fst",
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "comparing",
           "normalized": "(a-\u003eb)-\u003ea-\u003ea-\u003eOrdering",
@@ -1968,6 +2134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "const",
           "package": "SimpleH",
@@ -1977,6 +2144,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "const",
           "normalized": "a-\u003eb a",
@@ -1991,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "fail",
           "package": "SimpleH",
@@ -2000,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "fail",
           "normalized": "String-\u003ea",
@@ -2014,6 +2184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "first",
           "package": "SimpleH",
@@ -2023,6 +2194,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "first",
           "normalized": "a b c-\u003ea(b,d)(c,d)",
@@ -2037,6 +2209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "fix",
           "package": "SimpleH",
@@ -2046,6 +2219,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "fix",
           "normalized": "(a-\u003ea)-\u003ea",
@@ -2060,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "getAccum",
           "package": "SimpleH",
@@ -2069,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "getAccum",
           "package": "SimpleH",
@@ -2082,6 +2258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "getDual",
           "package": "SimpleH",
@@ -2091,6 +2268,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "getDual",
           "package": "SimpleH",
@@ -2127,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "getMax",
           "package": "SimpleH",
@@ -2136,6 +2315,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "getMax",
           "package": "SimpleH",
@@ -2149,6 +2329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "getOrdList",
           "package": "SimpleH",
@@ -2158,6 +2339,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "getOrdList",
           "normalized": "[a]",
@@ -2173,6 +2355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "getProduct",
           "package": "SimpleH",
@@ -2182,6 +2365,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "getProduct",
           "package": "SimpleH",
@@ -2195,6 +2379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "guard",
           "package": "SimpleH",
@@ -2204,6 +2389,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "guard",
           "normalized": "Bool-\u003ea()",
@@ -2219,6 +2405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead entire handle contents strictly into a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis function reads chunks at a time, doubling the chunksize on each\n read. The final buffer is then realloced to the appropriate size. For\n files \u003e half of available memory, this may lead to memory exhaustion.\n Consider using \u003ccode\u003e\u003ca\u003ereadFile\u003c/a\u003e\u003c/code\u003e in this case.\n\u003c/p\u003e\u003cp\u003eAs with \u003ccode\u003e\u003ca\u003ehGet\u003c/a\u003e\u003c/code\u003e, the string representation in the file is assumed to\n be ISO-8859-1.\n\u003c/p\u003e\u003cp\u003eThe Handle is closed once the contents have been read,\n or if an exception is thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "hGetContents",
           "package": "SimpleH",
@@ -2228,6 +2415,7 @@
         "index": {
           "description": "Read entire handle contents strictly into ByteString This function reads chunks at time doubling the chunksize on each read The final buffer is then realloced to the appropriate size For files half of available memory this may lead to memory exhaustion Consider using readFile in this case As with hGet the string representation in the file is assumed to be ISO-8859-1 The Handle is closed once the contents have been read or if an exception is thrown",
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "hGetContents",
           "normalized": "Handle-\u003eIO ByteString",
@@ -2243,6 +2431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "headDef",
           "package": "SimpleH",
@@ -2252,6 +2441,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "headDef",
           "normalized": "a-\u003e[a]-\u003ea",
@@ -2267,6 +2457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "id",
           "package": "SimpleH",
@@ -2276,6 +2467,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "id",
           "package": "SimpleH",
@@ -2288,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "ifThenElse",
           "package": "SimpleH",
@@ -2297,6 +2490,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "ifThenElse",
           "normalized": "Bool-\u003ea-\u003ea-\u003ea",
@@ -2312,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "inOrder",
           "package": "SimpleH",
@@ -2321,6 +2516,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "inOrder",
           "normalized": "a-\u003ea-\u003e(a,a,Bool)",
@@ -2336,6 +2532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "insertOrd",
           "package": "SimpleH",
@@ -2345,6 +2542,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "insertOrd",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -2360,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "inside",
           "package": "SimpleH",
@@ -2369,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "inside",
           "normalized": "a-\u003ea-\u003ea-\u003eBool",
@@ -2383,6 +2583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "interleave",
           "package": "SimpleH",
@@ -2392,6 +2593,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "interleave",
           "normalized": "[a]",
@@ -2406,6 +2608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "invertOrd",
           "package": "SimpleH",
@@ -2415,6 +2618,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "invertOrd",
           "normalized": "Ordering-\u003eOrdering",
@@ -2430,6 +2634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "is",
           "package": "SimpleH",
@@ -2439,6 +2644,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "is",
           "normalized": "a-\u003e(a-\u003eBool)-\u003eBool",
@@ -2453,6 +2659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "one",
           "package": "SimpleH",
@@ -2462,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "one",
           "package": "SimpleH",
@@ -2474,6 +2682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "pure",
           "package": "SimpleH",
@@ -2483,6 +2692,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "pure",
           "normalized": "a-\u003eb a",
@@ -2498,6 +2708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an entire file strictly into a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.  This is far more\n efficient than reading the characters into a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e and then using\n \u003ccode\u003e\u003ca\u003epack\u003c/a\u003e\u003c/code\u003e.  It also may be more efficient than opening the file and\n reading it using \u003ccode\u003e\u003ca\u003ehGet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "readFile",
           "package": "SimpleH",
@@ -2507,6 +2718,7 @@
         "index": {
           "description": "Read an entire file strictly into ByteString This is far more efficient than reading the characters into String and then using pack It also may be more efficient than opening the file and reading it using hGet",
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO ByteString",
@@ -2522,6 +2734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "rmod",
           "package": "SimpleH",
@@ -2531,6 +2744,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "rmod",
           "normalized": "a-\u003ea-\u003ea",
@@ -2545,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "runEndo",
           "package": "SimpleH",
@@ -2554,6 +2769,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "runEndo",
           "package": "SimpleH",
@@ -2567,6 +2783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "runStrictEndo",
           "package": "SimpleH",
@@ -2576,6 +2793,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "runStrictEndo",
           "normalized": "a-\u003ea",
@@ -2591,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "second",
           "package": "SimpleH",
@@ -2600,6 +2819,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "second",
           "normalized": "a b c-\u003ea(d,b)(d,c)",
@@ -2614,6 +2834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "swap",
           "package": "SimpleH",
@@ -2623,6 +2844,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "swap",
           "normalized": "(a,b)-\u003e(b,a)",
@@ -2637,6 +2859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "tailSafe",
           "package": "SimpleH",
@@ -2646,6 +2869,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "tailSafe",
           "normalized": "[a]-\u003e[a]",
@@ -2661,6 +2885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "unit",
           "package": "SimpleH",
@@ -2670,6 +2895,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "unit",
           "normalized": "a()",
@@ -2684,6 +2910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "unless",
           "package": "SimpleH",
@@ -2693,6 +2920,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "unless",
           "normalized": "Bool-\u003ea()-\u003ea()",
@@ -2707,6 +2935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "when",
           "package": "SimpleH",
@@ -2716,6 +2945,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "when",
           "normalized": "Bool-\u003ea()-\u003ea()",
@@ -2731,6 +2961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "writeFile",
           "package": "SimpleH",
@@ -2740,6 +2971,7 @@
         "index": {
           "description": "Write ByteString to file",
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "writeFile",
           "normalized": "FilePath-\u003eByteString-\u003eIO()",
@@ -2755,6 +2987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Core",
           "name": "zero",
           "package": "SimpleH",
@@ -2764,6 +2997,7 @@
         },
         "index": {
           "hierarchy": "Algebra Core",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Core",
           "name": "zero",
           "package": "SimpleH",
@@ -2776,6 +3010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "Foldable",
           "package": "SimpleH",
@@ -2784,6 +3019,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "Foldable",
           "package": "SimpleH",
@@ -2797,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "Foldable",
           "package": "SimpleH",
@@ -2805,6 +3042,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "Foldable",
           "package": "SimpleH",
@@ -2818,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "Sized",
           "package": "SimpleH",
@@ -2826,6 +3065,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "Sized",
           "package": "SimpleH",
@@ -2839,6 +3079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "Sized",
           "package": "SimpleH",
@@ -2848,6 +3089,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "Sized",
           "package": "SimpleH",
@@ -2861,6 +3103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "all",
           "package": "SimpleH",
@@ -2870,6 +3113,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "all",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eBool",
@@ -2884,6 +3128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "and",
           "package": "SimpleH",
@@ -2893,6 +3138,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "and",
           "normalized": "a Bool-\u003eBool",
@@ -2907,6 +3153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "any",
           "package": "SimpleH",
@@ -2916,6 +3163,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "any",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eBool",
@@ -2930,6 +3178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "compose",
           "package": "SimpleH",
@@ -2939,6 +3188,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "compose",
           "normalized": "a(b c c)-\u003eb c c",
@@ -2953,6 +3203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "concat",
           "package": "SimpleH",
@@ -2962,6 +3213,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "concat",
           "normalized": "a b-\u003eb",
@@ -2976,6 +3228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "convert",
           "package": "SimpleH",
@@ -2985,6 +3238,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "convert",
           "normalized": "a b-\u003ec b",
@@ -2999,6 +3253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "count",
           "package": "SimpleH",
@@ -3008,6 +3263,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "count",
           "normalized": "a b-\u003ec",
@@ -3022,6 +3278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "elem",
           "package": "SimpleH",
@@ -3031,6 +3288,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "elem",
           "normalized": "a-\u003eb a-\u003eBool",
@@ -3045,6 +3303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "empty",
           "package": "SimpleH",
@@ -3054,6 +3313,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "empty",
           "normalized": "a b-\u003eBool",
@@ -3068,6 +3328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "find",
           "package": "SimpleH",
@@ -3077,6 +3338,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "find",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eMaybe a",
@@ -3091,6 +3353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "fold",
           "package": "SimpleH",
@@ -3100,6 +3363,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "fold",
           "normalized": "a b-\u003eb",
@@ -3114,6 +3378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "foldMap",
           "package": "SimpleH",
@@ -3123,6 +3388,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "foldMap",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -3138,6 +3404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "foldl'",
           "package": "SimpleH",
@@ -3147,6 +3414,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "foldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec b-\u003ea",
@@ -3161,6 +3429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "foldl1'",
           "package": "SimpleH",
@@ -3170,6 +3439,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "foldl1'",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003ea",
@@ -3184,6 +3454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "foldr",
           "package": "SimpleH",
@@ -3193,6 +3464,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec a-\u003eb",
@@ -3207,6 +3479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "foldr1",
           "package": "SimpleH",
@@ -3216,6 +3489,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "foldr1",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003ea",
@@ -3230,6 +3504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "getSized",
           "package": "SimpleH",
@@ -3239,6 +3514,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "getSized",
           "package": "SimpleH",
@@ -3252,6 +3528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "length",
           "package": "SimpleH",
@@ -3261,6 +3538,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "length",
           "normalized": "[a]-\u003eb",
@@ -3275,6 +3553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "or",
           "package": "SimpleH",
@@ -3284,6 +3563,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "or",
           "normalized": "a Bool-\u003eBool",
@@ -3298,6 +3578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "partition",
           "package": "SimpleH",
@@ -3307,6 +3588,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "partition",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003e(c a,c a)",
@@ -3321,6 +3603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "partitionEithers",
           "package": "SimpleH",
@@ -3330,6 +3613,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "partitionEithers",
           "normalized": "a(b c)-\u003e(a b,a c)",
@@ -3345,6 +3629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "refuse",
           "package": "SimpleH",
@@ -3354,6 +3639,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "refuse",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003ec a",
@@ -3368,6 +3654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "select",
           "package": "SimpleH",
@@ -3377,6 +3664,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "select",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003ec a",
@@ -3391,6 +3679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "size",
           "package": "SimpleH",
@@ -3400,6 +3689,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "size",
           "normalized": "a b-\u003ec",
@@ -3414,6 +3704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "split",
           "package": "SimpleH",
@@ -3423,6 +3714,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "split",
           "normalized": "a(b c)-\u003e(b,c)",
@@ -3437,6 +3729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "sum",
           "package": "SimpleH",
@@ -3446,6 +3739,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "sum",
           "normalized": "a b-\u003eb",
@@ -3460,6 +3754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Foldable",
           "name": "toList",
           "package": "SimpleH",
@@ -3469,6 +3764,7 @@
         },
         "index": {
           "hierarchy": "Algebra Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Foldable",
           "name": "toList",
           "normalized": "a b-\u003e[b]",
@@ -3485,6 +3781,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module for functors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "Functor",
           "package": "SimpleH",
@@ -3494,6 +3791,7 @@
         "index": {
           "description": "module for functors",
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "Functor",
           "package": "SimpleH",
@@ -3507,6 +3805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": ":**:",
           "package": "SimpleH",
@@ -3515,6 +3814,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": ":**:",
           "package": "SimpleH",
@@ -3527,6 +3827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": ":++:",
           "package": "SimpleH",
@@ -3535,6 +3836,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": ":++:",
           "package": "SimpleH",
@@ -3548,6 +3850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Composition functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": ":.:",
           "package": "SimpleH",
@@ -3557,6 +3860,7 @@
         "index": {
           "description": "The Composition functor",
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": ":.:",
           "package": "SimpleH",
@@ -3569,6 +3873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "Bifunctor",
           "package": "SimpleH",
@@ -3577,6 +3882,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "Bifunctor",
           "package": "SimpleH",
@@ -3590,6 +3896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "Cofunctor",
           "package": "SimpleH",
@@ -3598,6 +3905,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "Cofunctor",
           "package": "SimpleH",
@@ -3612,6 +3920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Constant Functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "Const",
           "package": "SimpleH",
@@ -3621,6 +3930,7 @@
         "index": {
           "description": "The Constant Functor",
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "Const",
           "package": "SimpleH",
@@ -3635,6 +3945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA motherflippin' functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "Flip",
           "package": "SimpleH",
@@ -3644,6 +3955,7 @@
         "index": {
           "description": "motherflippin functor",
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "Flip",
           "package": "SimpleH",
@@ -3657,6 +3969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "Functor",
           "package": "SimpleH",
@@ -3665,6 +3978,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "Functor",
           "package": "SimpleH",
@@ -3679,6 +3993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Identity Functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "Id",
           "package": "SimpleH",
@@ -3688,6 +4003,7 @@
         "index": {
           "description": "The Identity Functor",
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "Id",
           "package": "SimpleH",
@@ -3701,6 +4017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "(|||)",
           "package": "SimpleH",
@@ -3710,6 +4027,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "(|||) |||",
           "normalized": "a b c-\u003ea d e-\u003ea(b d)(c e)",
@@ -3724,6 +4042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "(\u003c$)",
           "package": "SimpleH",
@@ -3733,6 +4052,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "(\u003c$) \u003c$",
           "normalized": "a-\u003eb c-\u003eb a",
@@ -3747,6 +4067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "(\u003c$\u003e)",
           "package": "SimpleH",
@@ -3756,6 +4077,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "(\u003c$\u003e) \u003c$\u003e",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -3770,6 +4092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "(\u003c&\u003e)",
           "package": "SimpleH",
@@ -3779,6 +4102,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "(\u003c&\u003e) \u003c&\u003e",
           "normalized": "a b-\u003e(b-\u003ec)-\u003ea c",
@@ -3793,6 +4117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": ":**:",
           "package": "SimpleH",
@@ -3802,6 +4127,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": ":**:",
           "package": "SimpleH",
@@ -3814,6 +4140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "Compose",
           "package": "SimpleH",
@@ -3823,6 +4150,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "Compose",
           "package": "SimpleH",
@@ -3836,6 +4164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "Const",
           "package": "SimpleH",
@@ -3845,6 +4174,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "Const",
           "package": "SimpleH",
@@ -3858,6 +4188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "Flip",
           "package": "SimpleH",
@@ -3867,6 +4198,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "Flip",
           "package": "SimpleH",
@@ -3880,6 +4212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "Sum",
           "package": "SimpleH",
@@ -3889,6 +4222,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "Sum",
           "package": "SimpleH",
@@ -3902,6 +4236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "comap",
           "package": "SimpleH",
@@ -3911,6 +4246,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "comap",
           "normalized": "(a-\u003eb)-\u003ec b-\u003ec a",
@@ -3925,6 +4261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "dimap",
           "package": "SimpleH",
@@ -3934,6 +4271,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "dimap",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003ee b c-\u003ee a d",
@@ -3948,6 +4286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "getCompose",
           "package": "SimpleH",
@@ -3957,6 +4296,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "getCompose",
           "package": "SimpleH",
@@ -3970,6 +4310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "getConst",
           "package": "SimpleH",
@@ -3979,6 +4320,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "getConst",
           "package": "SimpleH",
@@ -3992,6 +4334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "getSum",
           "package": "SimpleH",
@@ -4001,6 +4344,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "getSum",
           "package": "SimpleH",
@@ -4014,6 +4358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "left",
           "package": "SimpleH",
@@ -4023,6 +4368,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "left",
           "normalized": "a b c-\u003ea(b d)(c d)",
@@ -4037,6 +4383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "map",
           "package": "SimpleH",
@@ -4046,6 +4393,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -4060,6 +4408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "map2",
           "package": "SimpleH",
@@ -4069,6 +4418,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "map2",
           "normalized": "(a-\u003eb)-\u003ec(d a)-\u003ec(d b)",
@@ -4083,6 +4433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "map3",
           "package": "SimpleH",
@@ -4092,6 +4443,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "map3",
           "normalized": "(a-\u003eb)-\u003ec(d(e a))-\u003ec(d(e b))",
@@ -4106,6 +4458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "promap",
           "package": "SimpleH",
@@ -4115,6 +4468,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "promap",
           "normalized": "(a-\u003eb)-\u003ec b d-\u003ec a d",
@@ -4129,6 +4483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "right",
           "package": "SimpleH",
@@ -4138,6 +4493,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "right",
           "normalized": "a b c-\u003ea(d b)(d c)",
@@ -4152,6 +4508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "unFlip",
           "package": "SimpleH",
@@ -4161,6 +4518,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "unFlip",
           "package": "SimpleH",
@@ -4174,6 +4532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Functor",
           "name": "void",
           "package": "SimpleH",
@@ -4183,6 +4542,7 @@
         },
         "index": {
           "hierarchy": "Algebra Functor",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Functor",
           "name": "void",
           "normalized": "a b-\u003ea()",
@@ -4197,6 +4557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Cont",
           "name": "Cont",
           "package": "SimpleH",
@@ -4205,6 +4566,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Cont",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Cont",
           "name": "Cont",
           "package": "SimpleH",
@@ -4218,6 +4580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Cont",
           "name": "Cont",
           "package": "SimpleH",
@@ -4226,6 +4589,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Cont",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Cont",
           "name": "Cont",
           "package": "SimpleH",
@@ -4240,6 +4604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple continuation monad implementation  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Cont",
           "name": "ContT",
           "package": "SimpleH",
@@ -4249,6 +4614,7 @@
         "index": {
           "description": "simple continuation monad implementation",
           "hierarchy": "Algebra Monad Cont",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Cont",
           "name": "ContT",
           "package": "SimpleH",
@@ -4262,6 +4628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Cont",
           "name": "MonadCont",
           "package": "SimpleH",
@@ -4270,6 +4637,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Cont",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Cont",
           "name": "MonadCont",
           "package": "SimpleH",
@@ -4283,6 +4651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Cont",
           "name": "ContT",
           "package": "SimpleH",
@@ -4292,6 +4661,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Cont",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Cont",
           "name": "ContT",
           "package": "SimpleH",
@@ -4305,6 +4675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Cont",
           "name": "callCC",
           "package": "SimpleH",
@@ -4314,6 +4685,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Cont",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Cont",
           "name": "callCC",
           "normalized": "((a-\u003eb c)-\u003eb a)-\u003eb a",
@@ -4329,6 +4701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Cont",
           "name": "evalCont",
           "package": "SimpleH",
@@ -4338,6 +4711,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Cont",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Cont",
           "name": "evalCont",
           "normalized": "Cont a a-\u003ea",
@@ -4353,6 +4727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Cont",
           "name": "evalContT",
           "package": "SimpleH",
@@ -4362,6 +4737,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Cont",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Cont",
           "name": "evalContT",
           "normalized": "ContT a b a-\u003eb a",
@@ -4377,6 +4753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Cont",
           "name": "runContT",
           "package": "SimpleH",
@@ -4386,6 +4763,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Cont",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Cont",
           "name": "runContT",
           "normalized": "(a-\u003eb c)-\u003eb c",
@@ -4401,6 +4779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Error",
           "name": "Error",
           "package": "SimpleH",
@@ -4409,6 +4788,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Error",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Error",
           "name": "Error",
           "package": "SimpleH",
@@ -4422,6 +4802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Error",
           "name": "EitherT",
           "package": "SimpleH",
@@ -4430,6 +4811,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Error",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Error",
           "name": "EitherT",
           "package": "SimpleH",
@@ -4443,6 +4825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Error",
           "name": "MonadError",
           "package": "SimpleH",
@@ -4451,6 +4834,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Error",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Error",
           "name": "MonadError",
           "package": "SimpleH",
@@ -4464,6 +4848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Error",
           "name": "_eitherT",
           "package": "SimpleH",
@@ -4473,6 +4858,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Error",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Error",
           "name": "_eitherT",
           "package": "SimpleH",
@@ -4485,6 +4871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Error",
           "name": "catch",
           "package": "SimpleH",
@@ -4494,6 +4881,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Error",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Error",
           "name": "catch",
           "normalized": "(a-\u003eb c)-\u003eb c-\u003eb c",
@@ -4508,6 +4896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Error",
           "name": "throw",
           "package": "SimpleH",
@@ -4517,6 +4906,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Error",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Error",
           "name": "throw",
           "normalized": "a-\u003eb c",
@@ -4531,6 +4921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Error",
           "name": "throwIO",
           "package": "SimpleH",
@@ -4540,6 +4931,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Error",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Error",
           "name": "throwIO",
           "normalized": "a-\u003eIO()",
@@ -4555,6 +4947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Error",
           "name": "try",
           "package": "SimpleH",
@@ -4564,6 +4957,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Error",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Error",
           "name": "try",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -4578,6 +4972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Error",
           "name": "tryMay",
           "package": "SimpleH",
@@ -4587,6 +4982,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Error",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Error",
           "name": "tryMay",
           "normalized": "a b-\u003ea(Maybe b)",
@@ -4602,6 +4998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Foldable",
           "name": "Foldable",
           "package": "SimpleH",
@@ -4610,6 +5007,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Foldable",
           "name": "Foldable",
           "package": "SimpleH",
@@ -4623,6 +5021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Foldable",
           "name": "ListT",
           "package": "SimpleH",
@@ -4631,6 +5030,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Foldable",
           "name": "ListT",
           "package": "SimpleH",
@@ -4644,6 +5044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Foldable",
           "name": "MaybeT",
           "package": "SimpleH",
@@ -4652,6 +5053,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Foldable",
           "name": "MaybeT",
           "package": "SimpleH",
@@ -4665,6 +5067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Foldable",
           "name": "MonadList",
           "package": "SimpleH",
@@ -4673,6 +5076,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Foldable",
           "name": "MonadList",
           "package": "SimpleH",
@@ -4686,6 +5090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Foldable",
           "name": "TreeT",
           "package": "SimpleH",
@@ -4694,6 +5099,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Foldable",
           "name": "TreeT",
           "package": "SimpleH",
@@ -4707,6 +5113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Foldable",
           "name": "MaybeT",
           "package": "SimpleH",
@@ -4716,6 +5123,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Foldable",
           "name": "MaybeT",
           "package": "SimpleH",
@@ -4729,6 +5137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Foldable",
           "name": "TreeT",
           "package": "SimpleH",
@@ -4738,6 +5147,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Foldable",
           "name": "TreeT",
           "package": "SimpleH",
@@ -4751,6 +5161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Foldable",
           "name": "_MaybeT",
           "package": "SimpleH",
@@ -4760,6 +5171,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Foldable",
           "name": "_MaybeT",
           "package": "SimpleH",
@@ -4773,6 +5185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Foldable",
           "name": "_TreeT",
           "package": "SimpleH",
@@ -4782,6 +5195,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Foldable",
           "name": "_TreeT",
           "package": "SimpleH",
@@ -4795,6 +5209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Foldable",
           "name": "_listT",
           "package": "SimpleH",
@@ -4804,6 +5219,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Foldable",
           "name": "_listT",
           "normalized": "Iso(ListT a b)(ListT c d)(a[b])(c[d])",
@@ -4818,6 +5234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Foldable",
           "name": "fork",
           "package": "SimpleH",
@@ -4827,6 +5244,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Foldable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Foldable",
           "name": "fork",
           "normalized": "[a]-\u003eb a",
@@ -4841,6 +5259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.RWS",
           "name": "RWS",
           "package": "SimpleH",
@@ -4849,6 +5268,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad RWS",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.RWS",
           "name": "RWS",
           "package": "SimpleH",
@@ -4862,6 +5282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.RWS",
           "name": "MonadInternal",
           "package": "SimpleH",
@@ -4870,6 +5291,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad RWS",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.RWS",
           "name": "MonadInternal",
           "package": "SimpleH",
@@ -4883,6 +5305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.RWS",
           "name": "RWS",
           "package": "SimpleH",
@@ -4891,6 +5314,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad RWS",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.RWS",
           "name": "RWS",
           "package": "SimpleH",
@@ -4904,6 +5328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.RWS",
           "name": "RWST",
           "package": "SimpleH",
@@ -4912,6 +5337,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad RWS",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.RWS",
           "name": "RWST",
           "package": "SimpleH",
@@ -4925,6 +5351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.RWS",
           "name": "RWST",
           "package": "SimpleH",
@@ -4934,6 +5361,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad RWS",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.RWS",
           "name": "RWST",
           "package": "SimpleH",
@@ -4947,6 +5375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.RWS",
           "name": "_RWST",
           "package": "SimpleH",
@@ -4956,6 +5385,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad RWS",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.RWS",
           "name": "_RWST",
           "normalized": "Iso(RWST a b c d e)(RWST f g h i j)((a,c)-\u003ed(e,c,b))((f,h)-\u003ei(j,h,g))",
@@ -4971,6 +5401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.RWS",
           "name": "ask_",
           "package": "SimpleH",
@@ -4980,6 +5411,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad RWS",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.RWS",
           "name": "ask_",
           "package": "SimpleH",
@@ -4992,6 +5424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.RWS",
           "name": "censor_",
           "package": "SimpleH",
@@ -5001,6 +5434,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad RWS",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.RWS",
           "name": "censor_",
           "normalized": "a b(c,d-\u003ed)-\u003ea b c",
@@ -5015,6 +5449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.RWS",
           "name": "get_",
           "package": "SimpleH",
@@ -5024,6 +5459,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad RWS",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.RWS",
           "name": "get_",
           "package": "SimpleH",
@@ -5036,6 +5472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.RWS",
           "name": "internal",
           "package": "SimpleH",
@@ -5045,6 +5482,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad RWS",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.RWS",
           "name": "internal",
           "normalized": "(a b c(d,e)-\u003ec(d,f))-\u003eg c e-\u003eg c f",
@@ -5059,6 +5497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.RWS",
           "name": "listen_",
           "package": "SimpleH",
@@ -5068,6 +5507,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad RWS",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.RWS",
           "name": "listen_",
           "normalized": "a b c-\u003ea b(d,c)",
@@ -5082,6 +5522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.RWS",
           "name": "local_",
           "package": "SimpleH",
@@ -5091,6 +5532,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad RWS",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.RWS",
           "name": "local_",
           "normalized": "(a-\u003ea)-\u003eb c d-\u003eb c d",
@@ -5105,6 +5547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.RWS",
           "name": "modify_",
           "package": "SimpleH",
@@ -5114,6 +5557,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad RWS",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.RWS",
           "name": "modify_",
           "normalized": "(a-\u003ea)-\u003eb c()",
@@ -5128,6 +5572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.RWS",
           "name": "put_",
           "package": "SimpleH",
@@ -5137,6 +5582,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad RWS",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.RWS",
           "name": "put_",
           "normalized": "a-\u003eb c()",
@@ -5151,6 +5597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.RWS",
           "name": "runRWST",
           "package": "SimpleH",
@@ -5160,6 +5607,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad RWS",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.RWS",
           "name": "runRWST",
           "normalized": "(a,b)-\u003ec(d,b,e)",
@@ -5175,6 +5623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.RWS",
           "name": "tell_",
           "package": "SimpleH",
@@ -5184,6 +5633,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad RWS",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.RWS",
           "name": "tell_",
           "normalized": "a-\u003eb c()",
@@ -5198,6 +5648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Reader",
           "name": "Reader",
           "package": "SimpleH",
@@ -5206,6 +5657,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Reader",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Reader",
           "name": "Reader",
           "package": "SimpleH",
@@ -5219,6 +5671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Reader",
           "name": "MonadReader",
           "package": "SimpleH",
@@ -5227,6 +5680,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Reader",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Reader",
           "name": "MonadReader",
           "package": "SimpleH",
@@ -5240,6 +5694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Reader",
           "name": "Reader",
           "package": "SimpleH",
@@ -5248,6 +5703,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Reader",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Reader",
           "name": "Reader",
           "package": "SimpleH",
@@ -5262,6 +5718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple Reader monad \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Reader",
           "name": "ReaderT",
           "package": "SimpleH",
@@ -5271,6 +5728,7 @@
         "index": {
           "description": "simple Reader monad",
           "hierarchy": "Algebra Monad Reader",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Reader",
           "name": "ReaderT",
           "package": "SimpleH",
@@ -5284,6 +5742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Reader",
           "name": "_reader",
           "package": "SimpleH",
@@ -5293,6 +5752,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Reader",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Reader",
           "name": "_reader",
           "normalized": "Iso(Reader a b)(Reader c d)(a-\u003eb)(c-\u003ed)",
@@ -5307,6 +5767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Reader",
           "name": "_readerT",
           "package": "SimpleH",
@@ -5316,6 +5777,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Reader",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Reader",
           "name": "_readerT",
           "normalized": "Iso(ReaderT a b c)(ReaderT d e f)(a-\u003eb c)(d-\u003ee f)",
@@ -5330,6 +5792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Reader",
           "name": "ask",
           "package": "SimpleH",
@@ -5339,6 +5802,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Reader",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Reader",
           "name": "ask",
           "package": "SimpleH",
@@ -5351,6 +5815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Reader",
           "name": "local",
           "package": "SimpleH",
@@ -5360,6 +5825,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Reader",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Reader",
           "name": "local",
           "normalized": "(a-\u003ea)-\u003eb c-\u003eb c",
@@ -5374,6 +5840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "State",
           "package": "SimpleH",
@@ -5382,6 +5849,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "State",
           "package": "SimpleH",
@@ -5395,6 +5863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "MonadState",
           "package": "SimpleH",
@@ -5403,6 +5872,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "MonadState",
           "package": "SimpleH",
@@ -5416,6 +5886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "Next",
           "package": "SimpleH",
@@ -5424,6 +5895,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "Next",
           "package": "SimpleH",
@@ -5437,6 +5909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "Prev",
           "package": "SimpleH",
@@ -5445,6 +5918,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "Prev",
           "package": "SimpleH",
@@ -5458,6 +5932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "State",
           "package": "SimpleH",
@@ -5466,6 +5941,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "State",
           "package": "SimpleH",
@@ -5479,6 +5955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "StateA",
           "package": "SimpleH",
@@ -5487,6 +5964,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "StateA",
           "package": "SimpleH",
@@ -5500,6 +5978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "StateT",
           "package": "SimpleH",
@@ -5508,6 +5987,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "StateT",
           "package": "SimpleH",
@@ -5521,6 +6001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "(=~)",
           "package": "SimpleH",
@@ -5530,6 +6011,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "(=~) =~",
           "normalized": "Lens' a b-\u003e(b-\u003eb)-\u003ec()",
@@ -5544,6 +6026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "(=-)",
           "package": "SimpleH",
@@ -5553,6 +6036,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "(=-) =-",
           "normalized": "Lens' a b-\u003eb-\u003ec()",
@@ -5567,6 +6051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "StateA",
           "package": "SimpleH",
@@ -5576,6 +6061,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "StateA",
           "package": "SimpleH",
@@ -5589,6 +6075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "eval",
           "package": "SimpleH",
@@ -5598,6 +6085,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "eval",
           "normalized": "a(b(c,d))-\u003ea(b d)",
@@ -5612,6 +6100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "exec",
           "package": "SimpleH",
@@ -5621,6 +6110,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "exec",
           "normalized": "a(b(c,d))-\u003ea(b c)",
@@ -5635,6 +6125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "get",
           "package": "SimpleH",
@@ -5644,6 +6135,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "get",
           "package": "SimpleH",
@@ -5656,6 +6148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "gets",
           "package": "SimpleH",
@@ -5665,6 +6158,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "gets",
           "normalized": "Lens' a b-\u003ec b",
@@ -5679,6 +6173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "mapAccum",
           "package": "SimpleH",
@@ -5688,6 +6183,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "mapAccum",
           "normalized": "(a-\u003eb-\u003e(b,c))-\u003ed a-\u003eb-\u003e(b,d c)",
@@ -5703,6 +6199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "mapAccumR",
           "package": "SimpleH",
@@ -5712,6 +6209,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "mapAccumR",
           "normalized": "(a-\u003eb-\u003e(b,c))-\u003ed a-\u003eb-\u003e(b,d c)",
@@ -5727,6 +6225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "mapAccumR_",
           "package": "SimpleH",
@@ -5736,6 +6235,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "mapAccumR_",
           "normalized": "(a-\u003eb-\u003e(b,c))-\u003ed a-\u003eb-\u003ed c",
@@ -5751,6 +6251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "mapAccum_",
           "package": "SimpleH",
@@ -5760,6 +6261,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "mapAccum_",
           "normalized": "(a-\u003eb-\u003e(b,c))-\u003ed a-\u003eb-\u003ed c",
@@ -5775,6 +6277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "modify",
           "package": "SimpleH",
@@ -5784,6 +6287,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "modify",
           "normalized": "(a-\u003ea)-\u003eb()",
@@ -5798,6 +6302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "pop",
           "package": "SimpleH",
@@ -5807,6 +6312,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "pop",
           "normalized": "a b-\u003eb-\u003ea b",
@@ -5821,6 +6327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "push",
           "package": "SimpleH",
@@ -5830,6 +6337,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "push",
           "normalized": "a b-\u003eb-\u003ea b",
@@ -5844,6 +6352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "put",
           "package": "SimpleH",
@@ -5853,6 +6362,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "put",
           "normalized": "a-\u003eb()",
@@ -5867,6 +6377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "saving",
           "package": "SimpleH",
@@ -5876,6 +6387,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "saving",
           "normalized": "Lens' a b-\u003ec d-\u003ec d",
@@ -5890,6 +6402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "state",
           "package": "SimpleH",
@@ -5899,6 +6412,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "state",
           "normalized": "Iso(State a b)(State c d)(a-\u003e(a,b))(c-\u003e(c,d))",
@@ -5913,6 +6427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "stateA",
           "package": "SimpleH",
@@ -5922,6 +6437,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "stateA",
           "package": "SimpleH",
@@ -5934,6 +6450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "stateT",
           "package": "SimpleH",
@@ -5943,6 +6460,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "stateT",
           "normalized": "Iso(StateT a b c)(StateT d e f)(a-\u003eb(a,c))(d-\u003ee(d,f))",
@@ -5957,6 +6475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "withNext",
           "package": "SimpleH",
@@ -5966,6 +6485,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "withNext",
           "normalized": "a b-\u003eb-\u003ea(b,Next b)",
@@ -5981,6 +6501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.State",
           "name": "withPrev",
           "package": "SimpleH",
@@ -5990,6 +6511,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad State",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.State",
           "name": "withPrev",
           "normalized": "a-\u003eb a-\u003eb(Prev a,a)",
@@ -6005,6 +6527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Writer",
           "name": "Writer",
           "package": "SimpleH",
@@ -6013,6 +6536,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Writer",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Writer",
           "name": "Writer",
           "package": "SimpleH",
@@ -6026,6 +6550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Writer",
           "name": "MonadWriter",
           "package": "SimpleH",
@@ -6034,6 +6559,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Writer",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Writer",
           "name": "MonadWriter",
           "package": "SimpleH",
@@ -6047,6 +6573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Writer",
           "name": "Writer",
           "package": "SimpleH",
@@ -6055,6 +6582,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Writer",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Writer",
           "name": "Writer",
           "package": "SimpleH",
@@ -6069,6 +6597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple Writer monad \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Writer",
           "name": "WriterT",
           "package": "SimpleH",
@@ -6078,6 +6607,7 @@
         "index": {
           "description": "simple Writer monad",
           "hierarchy": "Algebra Monad Writer",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Writer",
           "name": "WriterT",
           "package": "SimpleH",
@@ -6091,6 +6621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Writer",
           "name": "_writer",
           "package": "SimpleH",
@@ -6100,6 +6631,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Writer",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Writer",
           "name": "_writer",
           "normalized": "Iso(Writer a b)(Writer c d)(a,b)(c,d)",
@@ -6114,6 +6646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Writer",
           "name": "_writerT",
           "package": "SimpleH",
@@ -6123,6 +6656,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Writer",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Writer",
           "name": "_writerT",
           "normalized": "Iso(WriterT a b c)(WriterT d e f)(b(a,c))(e(d,f))",
@@ -6137,6 +6671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Writer",
           "name": "censor",
           "package": "SimpleH",
@@ -6146,6 +6681,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Writer",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Writer",
           "name": "censor",
           "normalized": "a(b,c-\u003ec)-\u003ea b",
@@ -6160,6 +6696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Writer",
           "name": "intercept",
           "package": "SimpleH",
@@ -6169,6 +6706,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Writer",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Writer",
           "name": "intercept",
           "normalized": "a b-\u003ea(c,b)",
@@ -6183,6 +6721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Writer",
           "name": "listen",
           "package": "SimpleH",
@@ -6192,6 +6731,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Writer",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Writer",
           "name": "listen",
           "normalized": "a b-\u003ea(c,b)",
@@ -6206,6 +6746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Writer",
           "name": "mute",
           "package": "SimpleH",
@@ -6215,6 +6756,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Writer",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Writer",
           "name": "mute",
           "normalized": "a b-\u003ea b",
@@ -6229,6 +6771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad.Writer",
           "name": "tell",
           "package": "SimpleH",
@@ -6238,6 +6781,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad Writer",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad.Writer",
           "name": "tell",
           "normalized": "a-\u003eb()",
@@ -6252,6 +6796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "Monad",
           "package": "SimpleH",
@@ -6260,6 +6805,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "Monad",
           "package": "SimpleH",
@@ -6273,6 +6819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "Applicative",
           "package": "SimpleH",
@@ -6281,6 +6828,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "Applicative",
           "package": "SimpleH",
@@ -6294,6 +6842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "Compose'",
           "package": "SimpleH",
@@ -6302,6 +6851,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "Compose'",
           "package": "SimpleH",
@@ -6315,6 +6865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "Functor",
           "package": "SimpleH",
@@ -6323,6 +6874,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "Functor",
           "package": "SimpleH",
@@ -6336,6 +6888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "Kleisli",
           "package": "SimpleH",
@@ -6344,6 +6897,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "Kleisli",
           "package": "SimpleH",
@@ -6357,6 +6911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "Monad",
           "package": "SimpleH",
@@ -6365,6 +6920,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "Monad",
           "package": "SimpleH",
@@ -6378,6 +6934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "MonadCont",
           "package": "SimpleH",
@@ -6386,6 +6943,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "MonadCont",
           "package": "SimpleH",
@@ -6399,6 +6957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "MonadError",
           "package": "SimpleH",
@@ -6407,6 +6966,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "MonadError",
           "package": "SimpleH",
@@ -6421,6 +6981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of all monads that have a fixpoint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "MonadFix",
           "package": "SimpleH",
@@ -6430,6 +6991,7 @@
         "index": {
           "description": "The class of all monads that have fixpoint",
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "MonadFix",
           "package": "SimpleH",
@@ -6443,6 +7005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "MonadList",
           "package": "SimpleH",
@@ -6451,6 +7014,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "MonadList",
           "package": "SimpleH",
@@ -6464,6 +7028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "MonadReader",
           "package": "SimpleH",
@@ -6472,6 +7037,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "MonadReader",
           "package": "SimpleH",
@@ -6485,6 +7051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "MonadState",
           "package": "SimpleH",
@@ -6493,6 +7060,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "MonadState",
           "package": "SimpleH",
@@ -6506,6 +7074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "MonadTrans",
           "package": "SimpleH",
@@ -6514,6 +7083,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "MonadTrans",
           "package": "SimpleH",
@@ -6527,6 +7097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "MonadWriter",
           "package": "SimpleH",
@@ -6535,6 +7106,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "MonadWriter",
           "package": "SimpleH",
@@ -6548,6 +7120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "(\u003c*=)",
           "package": "SimpleH",
@@ -6557,6 +7130,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "(\u003c*=) \u003c*=",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003ea b",
@@ -6571,6 +7145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "(\u003c*\u003e)",
           "package": "SimpleH",
@@ -6580,6 +7155,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "(\u003c*\u003e) \u003c*\u003e",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -6594,6 +7170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "(\u003c=\u003c)",
           "package": "SimpleH",
@@ -6603,6 +7180,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "(\u003c=\u003c) \u003c=\u003c",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb a)-\u003ed-\u003eb c",
@@ -6617,6 +7195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "(=\u003c\u003c)",
           "package": "SimpleH",
@@ -6626,6 +7205,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "(=\u003c\u003c) =\u003c\u003c",
           "normalized": "(a-\u003eb c)-\u003eb a-\u003eb c",
@@ -6640,6 +7220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "(\u003e=\u003e)",
           "package": "SimpleH",
@@ -6649,6 +7230,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "(\u003e=\u003e) \u003e=\u003e",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003eb d)-\u003ea-\u003eb d",
@@ -6663,6 +7245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "(\u003e\u003e)",
           "package": "SimpleH",
@@ -6672,6 +7255,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "(\u003e\u003e) \u003e\u003e",
           "normalized": "a b-\u003ea c-\u003ea c",
@@ -6686,6 +7270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "(\u003e\u003e=)",
           "package": "SimpleH",
@@ -6695,6 +7280,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "(\u003e\u003e=) \u003e\u003e=",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003ea c",
@@ -6709,6 +7295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "(\u003e\u003e\u003e=)",
           "package": "SimpleH",
@@ -6718,6 +7305,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "(\u003e\u003e\u003e=) \u003e\u003e\u003e=",
           "normalized": "(a b,a c)-\u003e(b-\u003ec-\u003ea d)-\u003ea d",
@@ -6732,6 +7320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "(\u003e\u003e\u003e\u003e=)",
           "package": "SimpleH",
@@ -6741,6 +7330,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "(\u003e\u003e\u003e\u003e=) \u003e\u003e\u003e\u003e=",
           "normalized": "(a b,a c,a d)-\u003e(b-\u003ec-\u003ed-\u003ea e)-\u003ea e",
@@ -6755,6 +7345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "Compose'",
           "package": "SimpleH",
@@ -6764,6 +7355,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "Compose'",
           "package": "SimpleH",
@@ -6777,6 +7369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "_Compose'",
           "package": "SimpleH",
@@ -6786,6 +7379,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "_Compose'",
           "package": "SimpleH",
@@ -6799,6 +7393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "_Kleisli",
           "package": "SimpleH",
@@ -6808,6 +7403,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "_Kleisli",
           "normalized": "Iso(Kleisli a b c)(Kleisli d e f)(b-\u003ea c)(e-\u003ed f)",
@@ -6823,6 +7419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "ask",
           "package": "SimpleH",
@@ -6832,6 +7429,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "ask",
           "package": "SimpleH",
@@ -6844,6 +7442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "bind2",
           "package": "SimpleH",
@@ -6853,6 +7452,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "bind2",
           "normalized": "(a-\u003eb-\u003ec d)-\u003ec a-\u003ec b-\u003ec d",
@@ -6867,6 +7467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "bind3",
           "package": "SimpleH",
@@ -6876,6 +7477,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "bind3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed e)-\u003ed a-\u003ed b-\u003ed c-\u003ed e",
@@ -6890,6 +7492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "callCC",
           "package": "SimpleH",
@@ -6899,6 +7502,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "callCC",
           "normalized": "((a-\u003eb c)-\u003eb a)-\u003eb a",
@@ -6914,6 +7518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "catch",
           "package": "SimpleH",
@@ -6923,6 +7528,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "catch",
           "normalized": "(a-\u003eb c)-\u003eb c-\u003eb c",
@@ -6937,6 +7543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "censor",
           "package": "SimpleH",
@@ -6946,6 +7553,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "censor",
           "normalized": "a(b,c-\u003ec)-\u003ea b",
@@ -6960,6 +7568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "findM",
           "package": "SimpleH",
@@ -6969,6 +7578,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "findM",
           "normalized": "(a-\u003eb(Maybe c))-\u003ed a-\u003eb(Maybe c)",
@@ -6983,6 +7593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "foldlM",
           "package": "SimpleH",
@@ -6992,6 +7603,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "foldlM",
           "normalized": "(a-\u003eb-\u003ec b)-\u003eb-\u003ed a-\u003ec b",
@@ -7006,6 +7618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "foldrM",
           "package": "SimpleH",
@@ -7015,6 +7628,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "foldrM",
           "normalized": "(a-\u003eb-\u003ec b)-\u003eb-\u003ed a-\u003ec b",
@@ -7029,6 +7643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "fork",
           "package": "SimpleH",
@@ -7038,6 +7653,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "fork",
           "normalized": "[a]-\u003eb a",
@@ -7052,6 +7668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "generalize",
           "package": "SimpleH",
@@ -7061,6 +7678,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "generalize",
           "normalized": "a Id b-\u003ea c b",
@@ -7075,6 +7693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "get",
           "package": "SimpleH",
@@ -7084,6 +7703,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "get",
           "package": "SimpleH",
@@ -7096,6 +7716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "join",
           "package": "SimpleH",
@@ -7105,6 +7726,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "join",
           "normalized": "a(a b)-\u003ea b",
@@ -7119,6 +7741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "joinMap",
           "package": "SimpleH",
@@ -7128,6 +7751,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "joinMap",
           "normalized": "(a-\u003eb c)-\u003eb a-\u003eb c",
@@ -7143,6 +7767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "lift",
           "package": "SimpleH",
@@ -7152,6 +7777,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "lift",
           "normalized": "a b-\u003ec a b",
@@ -7166,6 +7792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "listen",
           "package": "SimpleH",
@@ -7175,6 +7802,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "listen",
           "normalized": "a b-\u003ea(c,b)",
@@ -7189,6 +7817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "local",
           "package": "SimpleH",
@@ -7198,6 +7827,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "local",
           "normalized": "(a-\u003ea)-\u003eb c-\u003eb c",
@@ -7212,6 +7842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "map",
           "package": "SimpleH",
@@ -7221,6 +7852,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -7235,6 +7867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "mfix",
           "package": "SimpleH",
@@ -7244,6 +7877,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "mfix",
           "normalized": "(a-\u003eb a)-\u003eb a",
@@ -7258,6 +7892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "modify",
           "package": "SimpleH",
@@ -7267,6 +7902,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "modify",
           "normalized": "(a-\u003ea)-\u003eb()",
@@ -7281,6 +7917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "only",
           "package": "SimpleH",
@@ -7290,6 +7927,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "only",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eb a",
@@ -7304,6 +7942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "put",
           "package": "SimpleH",
@@ -7313,6 +7952,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "put",
           "normalized": "a-\u003eb()",
@@ -7327,6 +7967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "return",
           "package": "SimpleH",
@@ -7336,6 +7977,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "return",
           "normalized": "a-\u003eb a",
@@ -7350,6 +7992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "tell",
           "package": "SimpleH",
@@ -7359,6 +8002,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "tell",
           "normalized": "a-\u003eb()",
@@ -7373,6 +8017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "throw",
           "package": "SimpleH",
@@ -7382,6 +8027,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "throw",
           "normalized": "a-\u003eb c",
@@ -7396,6 +8042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "until",
           "package": "SimpleH",
@@ -7405,6 +8052,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "until",
           "normalized": "a(Maybe b)-\u003ea b",
@@ -7419,6 +8067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Monad",
           "name": "while",
           "package": "SimpleH",
@@ -7428,6 +8077,7 @@
         },
         "index": {
           "hierarchy": "Algebra Monad",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Monad",
           "name": "while",
           "normalized": "a Bool-\u003ea()",
@@ -7442,6 +8092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Traversable",
           "name": "Traversable",
           "package": "SimpleH",
@@ -7450,6 +8101,7 @@
         },
         "index": {
           "hierarchy": "Algebra Traversable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Traversable",
           "name": "Traversable",
           "package": "SimpleH",
@@ -7463,6 +8115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Traversable",
           "name": "Contravariant",
           "package": "SimpleH",
@@ -7471,6 +8124,7 @@
         },
         "index": {
           "hierarchy": "Algebra Traversable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Traversable",
           "name": "Contravariant",
           "package": "SimpleH",
@@ -7484,6 +8138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Traversable",
           "name": "Traversable",
           "package": "SimpleH",
@@ -7492,6 +8147,7 @@
         },
         "index": {
           "hierarchy": "Algebra Traversable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Traversable",
           "name": "Traversable",
           "package": "SimpleH",
@@ -7505,6 +8161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Traversable",
           "name": "collect",
           "package": "SimpleH",
@@ -7514,6 +8171,7 @@
         },
         "index": {
           "hierarchy": "Algebra Traversable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Traversable",
           "name": "collect",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -7528,6 +8186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Traversable",
           "name": "flip",
           "package": "SimpleH",
@@ -7537,6 +8196,7 @@
         },
         "index": {
           "hierarchy": "Algebra Traversable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Traversable",
           "name": "flip",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -7551,6 +8211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Traversable",
           "name": "foreach",
           "package": "SimpleH",
@@ -7560,6 +8221,7 @@
         },
         "index": {
           "hierarchy": "Algebra Traversable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Traversable",
           "name": "foreach",
           "normalized": "a b-\u003e(b-\u003ec d)-\u003ec(a d)",
@@ -7574,6 +8236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Traversable",
           "name": "sequence",
           "package": "SimpleH",
@@ -7583,6 +8246,7 @@
         },
         "index": {
           "hierarchy": "Algebra Traversable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Traversable",
           "name": "sequence",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -7597,6 +8261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Traversable",
           "name": "transpose",
           "package": "SimpleH",
@@ -7606,6 +8271,7 @@
         },
         "index": {
           "hierarchy": "Algebra Traversable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Traversable",
           "name": "transpose",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -7620,6 +8286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Algebra.Traversable",
           "name": "traverse",
           "package": "SimpleH",
@@ -7629,6 +8296,7 @@
         },
         "index": {
           "hierarchy": "Algebra Traversable",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Algebra.Traversable",
           "name": "traverse",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb(d c)",
@@ -7644,6 +8312,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module providing simple Lens functionality.\n\u003c/p\u003e\u003cp\u003eLenses are a Haskell abstraction that allows you to access and modify\npart of a structure, compensating for and improving upon Haskell's\nhorrendous record syntax and giving Haskell a first-class record system.\n\u003c/p\u003e\u003cp\u003eThis module defines three kinds of Lenses : Lenses that allow you to\naccess part of a structure; Traversals that allow you to modify part\nof a structure; and Isos which may be reversed. Lenses of any kind can\nbe composed with \u003ccode\u003e(.)\u003c/code\u003e, yielding a Lens of the most general kind, so\nthat composing a Lens with a Traversal or Iso yields a Lens, and a\nTraversal with an Iso yields a Traversal.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "Lens",
           "package": "SimpleH",
@@ -7653,6 +8322,7 @@
         "index": {
           "description": "module providing simple Lens functionality Lenses are Haskell abstraction that allows you to access and modify part of structure compensating for and improving upon Haskell horrendous record syntax and giving Haskell first-class record system This module defines three kinds of Lenses Lenses that allow you to access part of structure Traversals that allow you to modify part of structure and Isos which may be reversed Lenses of any kind can be composed with yielding Lens of the most general kind so that composing Lens with Traversal or Iso yields Lens and Traversal with an Iso yields Traversal",
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "Lens",
           "package": "SimpleH",
@@ -7666,6 +8336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": ":\u003c-\u003e:",
           "package": "SimpleH",
@@ -7674,6 +8345,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": ":\u003c-\u003e:",
           "package": "SimpleH",
@@ -7686,6 +8358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "Compound",
           "package": "SimpleH",
@@ -7694,6 +8367,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "Compound",
           "package": "SimpleH",
@@ -7707,6 +8381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "Fold",
           "package": "SimpleH",
@@ -7715,6 +8390,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "Fold",
           "package": "SimpleH",
@@ -7728,6 +8404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "Fold'",
           "package": "SimpleH",
@@ -7736,6 +8413,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "Fold'",
           "package": "SimpleH",
@@ -7749,6 +8427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "Getter",
           "package": "SimpleH",
@@ -7757,6 +8436,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "Getter",
           "package": "SimpleH",
@@ -7770,6 +8450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "Getter'",
           "package": "SimpleH",
@@ -7778,6 +8459,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "Getter'",
           "package": "SimpleH",
@@ -7791,6 +8473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "Iso",
           "package": "SimpleH",
@@ -7799,6 +8482,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "Iso",
           "package": "SimpleH",
@@ -7812,6 +8496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "Iso'",
           "package": "SimpleH",
@@ -7820,6 +8505,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "Iso'",
           "package": "SimpleH",
@@ -7833,6 +8519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "IsoFunctor",
           "package": "SimpleH",
@@ -7841,6 +8528,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "IsoFunctor",
           "package": "SimpleH",
@@ -7854,6 +8542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "IsoFunctor2",
           "package": "SimpleH",
@@ -7862,6 +8551,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "IsoFunctor2",
           "package": "SimpleH",
@@ -7875,6 +8565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "Isomorphic",
           "package": "SimpleH",
@@ -7883,6 +8574,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "Isomorphic",
           "package": "SimpleH",
@@ -7896,6 +8588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "Lens",
           "package": "SimpleH",
@@ -7904,6 +8597,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "Lens",
           "package": "SimpleH",
@@ -7917,6 +8611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "Lens'",
           "package": "SimpleH",
@@ -7925,6 +8620,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "Lens'",
           "package": "SimpleH",
@@ -7938,6 +8634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "Lens1",
           "package": "SimpleH",
@@ -7946,6 +8643,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "Lens1",
           "package": "SimpleH",
@@ -7959,6 +8657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "Lens2",
           "package": "SimpleH",
@@ -7967,6 +8666,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "Lens2",
           "package": "SimpleH",
@@ -7980,6 +8680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "Lens3",
           "package": "SimpleH",
@@ -7988,6 +8689,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "Lens3",
           "package": "SimpleH",
@@ -8001,6 +8703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "Lens4",
           "package": "SimpleH",
@@ -8009,6 +8712,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "Lens4",
           "package": "SimpleH",
@@ -8022,6 +8726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "LensLike",
           "package": "SimpleH",
@@ -8030,6 +8735,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "LensLike",
           "package": "SimpleH",
@@ -8043,6 +8749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "LensLike'",
           "package": "SimpleH",
@@ -8051,6 +8758,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "LensLike'",
           "package": "SimpleH",
@@ -8064,6 +8772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "Trav1",
           "package": "SimpleH",
@@ -8072,6 +8781,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "Trav1",
           "package": "SimpleH",
@@ -8085,6 +8795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "Trav2",
           "package": "SimpleH",
@@ -8093,6 +8804,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "Trav2",
           "package": "SimpleH",
@@ -8106,6 +8818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "Traversal",
           "package": "SimpleH",
@@ -8114,6 +8827,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "Traversal",
           "package": "SimpleH",
@@ -8127,6 +8841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "Traversal'",
           "package": "SimpleH",
@@ -8135,6 +8850,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "Traversal'",
           "package": "SimpleH",
@@ -8148,6 +8864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "(%~)",
           "package": "SimpleH",
@@ -8157,6 +8874,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "(%~) %~",
           "normalized": "Traversal a b c d-\u003e(a-\u003eb)-\u003ec-\u003ed",
@@ -8171,6 +8889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "(%%~)",
           "package": "SimpleH",
@@ -8180,6 +8899,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "(%%~) %%~",
           "normalized": "Iso a b c d-\u003e(d-\u003ec)-\u003eb-\u003ea",
@@ -8194,6 +8914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "(%%-)",
           "package": "SimpleH",
@@ -8203,6 +8924,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "(%%-) %%-",
           "normalized": "Iso a b c d-\u003ec-\u003eb-\u003ea",
@@ -8217,6 +8939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "(%-)",
           "package": "SimpleH",
@@ -8226,6 +8949,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "(%-) %-",
           "normalized": "Traversal a b c d-\u003eb-\u003ec-\u003ed",
@@ -8240,6 +8964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "(-.)",
           "package": "SimpleH",
@@ -8249,6 +8974,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "(-.) -.",
           "normalized": "Getter a b c d-\u003e(e-\u003ec)-\u003ee-\u003ea",
@@ -8264,6 +8990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix synonym for \u003ccode\u003e\u003ca\u003emapIso2\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "(\u003c.\u003e)",
           "package": "SimpleH",
@@ -8274,6 +9001,7 @@
         "index": {
           "description": "An infix synonym for mapIso2",
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "(\u003c.\u003e) \u003c.\u003e",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003ee a c-\u003ee b d",
@@ -8288,6 +9016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "(^?)",
           "package": "SimpleH",
@@ -8297,6 +9026,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "(^?) ^?",
           "normalized": "a-\u003eFold' a b-\u003ec b",
@@ -8311,6 +9041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "(^??)",
           "package": "SimpleH",
@@ -8320,6 +9051,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "(^??) ^??",
           "normalized": "a-\u003e((b-\u003eConst[b]b)-\u003ea-\u003eConst[b]a)-\u003e[b]",
@@ -8335,6 +9067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a value from a structure using a \u003ccode\u003e\u003ca\u003eLens\u003c/a\u003e\u003c/code\u003e (or \u003ccode\u003e\u003ca\u003eIso\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "(^.)",
           "package": "SimpleH",
@@ -8345,6 +9078,7 @@
         "index": {
           "description": "Retrieve value from structure using Lens or Iso",
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "(^.) ^.",
           "normalized": "a-\u003eGetter b b a a-\u003eb",
@@ -8359,6 +9093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "(^..)",
           "package": "SimpleH",
@@ -8368,6 +9103,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "(^..) ^..",
           "normalized": "a-\u003eIso a a b b-\u003eb",
@@ -8382,6 +9118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "(.+)",
           "package": "SimpleH",
@@ -8391,6 +9128,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "(.+) .+",
           "normalized": "Fold a b c d-\u003eFold a b c d-\u003eFold a b c d",
@@ -8405,6 +9143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "(.-)",
           "package": "SimpleH",
@@ -8414,6 +9153,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "(.-) .-",
           "normalized": "(a-\u003eb)-\u003eIso c c a a-\u003ec-\u003eb",
@@ -8428,6 +9168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_1",
           "package": "SimpleH",
@@ -8437,6 +9178,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_1",
           "package": "SimpleH",
@@ -8449,6 +9191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_2",
           "package": "SimpleH",
@@ -8458,6 +9201,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_2",
           "package": "SimpleH",
@@ -8470,6 +9214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_3",
           "package": "SimpleH",
@@ -8479,6 +9224,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_3",
           "package": "SimpleH",
@@ -8491,6 +9237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_4",
           "package": "SimpleH",
@@ -8500,6 +9247,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_4",
           "package": "SimpleH",
@@ -8512,6 +9260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_Backwards",
           "package": "SimpleH",
@@ -8521,6 +9270,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_Backwards",
           "package": "SimpleH",
@@ -8534,6 +9284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_Compose",
           "package": "SimpleH",
@@ -8543,6 +9294,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_Compose",
           "package": "SimpleH",
@@ -8556,6 +9308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_Const",
           "package": "SimpleH",
@@ -8565,6 +9318,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_Const",
           "package": "SimpleH",
@@ -8578,6 +9332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_Dual",
           "package": "SimpleH",
@@ -8587,6 +9342,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_Dual",
           "package": "SimpleH",
@@ -8600,6 +9356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_Endo",
           "package": "SimpleH",
@@ -8609,6 +9366,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_Endo",
           "package": "SimpleH",
@@ -8622,6 +9380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_Flip",
           "package": "SimpleH",
@@ -8631,6 +9390,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_Flip",
           "package": "SimpleH",
@@ -8644,6 +9404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_Id",
           "package": "SimpleH",
@@ -8653,6 +9414,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_Id",
           "package": "SimpleH",
@@ -8666,6 +9428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_Max",
           "package": "SimpleH",
@@ -8675,6 +9438,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_Max",
           "package": "SimpleH",
@@ -8688,6 +9452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_OrdList",
           "package": "SimpleH",
@@ -8697,6 +9462,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_OrdList",
           "normalized": "Iso(OrdList a)(OrdList b)[a][b]",
@@ -8712,6 +9478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_each",
           "package": "SimpleH",
@@ -8721,6 +9488,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_each",
           "package": "SimpleH",
@@ -8733,6 +9501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_head",
           "package": "SimpleH",
@@ -8742,6 +9511,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_head",
           "normalized": "Traversal'[a]a",
@@ -8756,6 +9526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_iso",
           "package": "SimpleH",
@@ -8765,6 +9536,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_iso",
           "package": "SimpleH",
@@ -8777,6 +9549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_l",
           "package": "SimpleH",
@@ -8786,6 +9559,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_l",
           "package": "SimpleH",
@@ -8798,6 +9572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_list",
           "package": "SimpleH",
@@ -8807,6 +9582,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_list",
           "normalized": "[a]-\u003e(()(a*[a]))",
@@ -8821,6 +9597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_mapping",
           "package": "SimpleH",
@@ -8830,6 +9607,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_mapping",
           "normalized": "Iso a b c d-\u003eIso(e a)(f b)(e c)(f d)",
@@ -8844,6 +9622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_mapping'",
           "package": "SimpleH",
@@ -8853,6 +9632,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_mapping'",
           "normalized": "Iso a b c d-\u003eIso(e a)(e b)(e c)(e d)",
@@ -8867,6 +9647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_maybe",
           "package": "SimpleH",
@@ -8876,6 +9657,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_maybe",
           "package": "SimpleH",
@@ -8889,6 +9671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e_promapping :: Bifunctor f =\u003e Iso' a b -\u003e Iso' (f a c) (f b c)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_promapping",
           "package": "SimpleH",
@@ -8899,6 +9682,7 @@
         "index": {
           "description": "promapping Bifunctor Iso Iso",
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_promapping",
           "normalized": "Iso a b c d-\u003eIso(e b f)(e a g)(e d f)(e c g)",
@@ -8913,6 +9697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_r",
           "package": "SimpleH",
@@ -8922,6 +9707,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_r",
           "package": "SimpleH",
@@ -8934,6 +9720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_swapped",
           "package": "SimpleH",
@@ -8943,6 +9730,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_swapped",
           "normalized": "Iso(a,b)(c,d)(b,a)(d,c)",
@@ -8957,6 +9745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_tail",
           "package": "SimpleH",
@@ -8966,6 +9755,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_tail",
           "normalized": "Traversal'[a][a]",
@@ -8980,6 +9770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "_thunk",
           "package": "SimpleH",
@@ -8989,6 +9780,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "_thunk",
           "package": "SimpleH",
@@ -9001,6 +9793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "adding",
           "package": "SimpleH",
@@ -9010,6 +9803,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "adding",
           "normalized": "a-\u003eIso' a a",
@@ -9024,6 +9818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "by",
           "package": "SimpleH",
@@ -9033,6 +9828,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "by",
           "normalized": "Getter a b c d-\u003ec-\u003ea",
@@ -9048,6 +9844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse an \u003ccode\u003e\u003ca\u003eIso\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e\n from :: \u003ccode\u003e\u003ca\u003eIso'\u003c/a\u003e\u003c/code\u003e a b -\u003e \u003ccode\u003e\u003ca\u003eIso'\u003c/a\u003e\u003c/code\u003e b a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "from",
           "package": "SimpleH",
@@ -9058,6 +9855,7 @@
         "index": {
           "description": "Reverse an Iso from Iso Iso",
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "from",
           "normalized": "Iso a b c d-\u003eIso d c b a",
@@ -9072,6 +9870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "getter",
           "package": "SimpleH",
@@ -9081,6 +9880,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "getter",
           "normalized": "(a-\u003eb)-\u003eTraversal' a b",
@@ -9095,6 +9895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "has",
           "package": "SimpleH",
@@ -9104,6 +9905,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "has",
           "normalized": "Fold' a b-\u003ea-\u003eBool",
@@ -9119,6 +9921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003ca\u003eIso\u003c/a\u003e\u003c/code\u003e from two inverse functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "iso",
           "package": "SimpleH",
@@ -9129,6 +9932,7 @@
         "index": {
           "description": "Create an Iso from two inverse functions",
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "iso",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003eIso b c a d",
@@ -9144,6 +9948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eLens\u003c/a\u003e\u003c/code\u003e from a getter and setter function.\n\u003c/p\u003e\u003cpre\u003e\n lens :: (a -\u003e b) -\u003e (a -\u003e b -\u003e a) -\u003e \u003ccode\u003e\u003ca\u003eLens'\u003c/a\u003e\u003c/code\u003e a b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "lens",
           "package": "SimpleH",
@@ -9154,6 +9959,7 @@
         "index": {
           "description": "Create Lens from getter and setter function lens Lens",
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "lens",
           "normalized": "(a-\u003eb)-\u003e(a-\u003ec-\u003ed)-\u003eLens b c a d",
@@ -9168,6 +9974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "mapIso",
           "package": "SimpleH",
@@ -9177,6 +9984,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "mapIso",
           "normalized": "Iso a b c d-\u003eIso(e a)(e b)(e c)(e d)",
@@ -9192,6 +10000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "mapIso2",
           "package": "SimpleH",
@@ -9201,6 +10010,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "mapIso2",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003ee a c-\u003ee b d",
@@ -9217,6 +10027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eTraversal\u003c/a\u003e\u003c/code\u003e from a maybe getter and setter function.\n\u003c/p\u003e\u003cpre\u003e\n prism :: (a -\u003e (a:+:b)) -\u003e (a -\u003e b -\u003e a) -\u003e \u003ccode\u003e\u003ca\u003eTraversal'\u003c/a\u003e\u003c/code\u003e a b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "prism",
           "package": "SimpleH",
@@ -9227,6 +10038,7 @@
         "index": {
           "description": "Create Traversal from maybe getter and setter function prism Traversal",
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "prism",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ed-\u003eb)-\u003eTraversal c d a b",
@@ -9241,6 +10053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "sat",
           "package": "SimpleH",
@@ -9250,6 +10063,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "sat",
           "normalized": "(a-\u003eBool)-\u003eTraversal' a a",
@@ -9264,6 +10078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "set",
           "package": "SimpleH",
@@ -9273,6 +10088,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "set",
           "normalized": "Traversal a b c d-\u003eb-\u003ec-\u003ed",
@@ -9287,6 +10103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "simple",
           "package": "SimpleH",
@@ -9296,6 +10113,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "simple",
           "normalized": "Iso' a b-\u003eIso' a b",
@@ -9310,6 +10128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "warp",
           "package": "SimpleH",
@@ -9319,6 +10138,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "warp",
           "normalized": "Traversal a b c d-\u003e(a-\u003eb)-\u003ec-\u003ed",
@@ -9333,6 +10153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "warp2",
           "package": "SimpleH",
@@ -9342,6 +10163,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "warp2",
           "normalized": "Iso a b c d-\u003e(a-\u003ea-\u003eb)-\u003ec-\u003ec-\u003ed",
@@ -9356,6 +10178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Lens",
           "name": "yb",
           "package": "SimpleH",
@@ -9365,6 +10188,7 @@
         },
         "index": {
           "hierarchy": "Control Lens",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Lens",
           "name": "yb",
           "normalized": "Iso a b c d-\u003eb-\u003ed",
@@ -9379,6 +10203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.CmdArgs",
           "name": "CmdArgs",
           "package": "SimpleH",
@@ -9387,6 +10212,7 @@
         },
         "index": {
           "hierarchy": "Control Parser CmdArgs",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.CmdArgs",
           "name": "CmdArgs",
           "package": "SimpleH",
@@ -9401,6 +10227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes whether an option takes an argument or not, and if so\n how the argument is injected into a value of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.CmdArgs",
           "name": "ArgDescr",
           "package": "SimpleH",
@@ -9409,6 +10236,7 @@
         "index": {
           "description": "Describes whether an option takes an argument or not and if so how the argument is injected into value of type",
           "hierarchy": "Control Parser CmdArgs",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.CmdArgs",
           "name": "ArgDescr",
           "package": "SimpleH",
@@ -9423,6 +10251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach \u003ccode\u003e\u003ca\u003eOptDescr\u003c/a\u003e\u003c/code\u003e describes a single option.\n\u003c/p\u003e\u003cp\u003eThe arguments to \u003ccode\u003e\u003ca\u003eOption\u003c/a\u003e\u003c/code\u003e are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e list of short option characters\n\u003c/li\u003e\u003cli\u003e list of long option strings (without \"--\")\n\u003c/li\u003e\u003cli\u003e argument descriptor\n\u003c/li\u003e\u003cli\u003e explanation of option for user\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.CmdArgs",
           "name": "OptDescr",
           "package": "SimpleH",
@@ -9431,6 +10260,7 @@
         "index": {
           "description": "Each OptDescr describes single option The arguments to Option are list of short option characters list of long option strings without argument descriptor explanation of option for user",
           "hierarchy": "Control Parser CmdArgs",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.CmdArgs",
           "name": "OptDescr",
           "package": "SimpleH",
@@ -9445,6 +10275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eno argument expected\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.CmdArgs",
           "name": "NoArg",
           "package": "SimpleH",
@@ -9454,6 +10285,7 @@
         "index": {
           "description": "no argument expected",
           "hierarchy": "Control Parser CmdArgs",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.CmdArgs",
           "name": "NoArg",
           "package": "SimpleH",
@@ -9468,6 +10300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoptional argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.CmdArgs",
           "name": "OptArg",
           "package": "SimpleH",
@@ -9477,6 +10310,7 @@
         "index": {
           "description": "optional argument",
           "hierarchy": "Control Parser CmdArgs",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.CmdArgs",
           "name": "OptArg",
           "normalized": "OptArg(Maybe String-\u003ea)String",
@@ -9492,6 +10326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.CmdArgs",
           "name": "Option",
           "package": "SimpleH",
@@ -9500,6 +10335,7 @@
         },
         "index": {
           "hierarchy": "Control Parser CmdArgs",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.CmdArgs",
           "name": "Option",
           "normalized": "Option[Char][String](ArgDescr a)String",
@@ -9516,6 +10352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoption requires argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.CmdArgs",
           "name": "ReqArg",
           "package": "SimpleH",
@@ -9525,6 +10362,7 @@
         "index": {
           "description": "option requires argument",
           "hierarchy": "Control Parser CmdArgs",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.CmdArgs",
           "name": "ReqArg",
           "normalized": "ReqArg(String-\u003ea)String",
@@ -9541,6 +10379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Parser that preprocesses the command-line arguments,\n splitting options and their arguments into a user-defined data\n type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.CmdArgs",
           "name": "tokenize",
           "package": "SimpleH",
@@ -9551,6 +10390,7 @@
         "index": {
           "description": "Create Parser that preprocesses the command-line arguments splitting options and their arguments into user-defined data type",
           "hierarchy": "Control Parser CmdArgs",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.CmdArgs",
           "name": "tokenize",
           "normalized": "[OptDescr a]-\u003e(String-\u003ea)-\u003eParser String[String][a]",
@@ -9566,6 +10406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a string describing the usage of a command, derived from\n the header (first argument) and the options described by the \n second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.CmdArgs",
           "name": "usageInfo",
           "package": "SimpleH",
@@ -9575,6 +10416,7 @@
         "index": {
           "description": "Return string describing the usage of command derived from the header first argument and the options described by the second argument",
           "hierarchy": "Control Parser CmdArgs",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.CmdArgs",
           "name": "usageInfo",
           "normalized": "String-\u003e[OptDescr a]-\u003eString",
@@ -9590,6 +10432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "HTTP",
           "package": "SimpleH",
@@ -9598,6 +10441,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "HTTP",
           "package": "SimpleH",
@@ -9611,6 +10455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "Header",
           "package": "SimpleH",
@@ -9619,6 +10464,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "Header",
           "package": "SimpleH",
@@ -9632,6 +10478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "Host",
           "package": "SimpleH",
@@ -9640,6 +10487,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "Host",
           "package": "SimpleH",
@@ -9653,6 +10501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "ReqType",
           "package": "SimpleH",
@@ -9661,6 +10510,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "ReqType",
           "package": "SimpleH",
@@ -9674,6 +10524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "Request",
           "package": "SimpleH",
@@ -9682,6 +10533,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "Request",
           "package": "SimpleH",
@@ -9695,6 +10547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "Response",
           "package": "SimpleH",
@@ -9703,6 +10556,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "Response",
           "package": "SimpleH",
@@ -9716,6 +10570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "Status",
           "package": "SimpleH",
@@ -9724,6 +10579,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "Status",
           "package": "SimpleH",
@@ -9737,6 +10593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "URI",
           "package": "SimpleH",
@@ -9745,6 +10602,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "URI",
           "package": "SimpleH",
@@ -9758,6 +10616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "GET",
           "package": "SimpleH",
@@ -9767,6 +10626,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "GET",
           "package": "SimpleH",
@@ -9780,6 +10640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "HEAD",
           "package": "SimpleH",
@@ -9789,6 +10650,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "HEAD",
           "package": "SimpleH",
@@ -9802,6 +10664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "Header",
           "package": "SimpleH",
@@ -9811,6 +10674,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "Header",
           "package": "SimpleH",
@@ -9824,6 +10688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "NotFound",
           "package": "SimpleH",
@@ -9833,6 +10698,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "NotFound",
           "package": "SimpleH",
@@ -9846,6 +10712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "OK",
           "package": "SimpleH",
@@ -9855,6 +10722,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "OK",
           "package": "SimpleH",
@@ -9868,6 +10736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "POST",
           "package": "SimpleH",
@@ -9877,6 +10746,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "POST",
           "package": "SimpleH",
@@ -9890,6 +10760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "Request",
           "package": "SimpleH",
@@ -9899,6 +10770,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "Request",
           "normalized": "Request ReqType[Header]Host FilePath",
@@ -9914,6 +10786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "Response",
           "package": "SimpleH",
@@ -9923,6 +10796,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "Response",
           "normalized": "Response Status[Header]ByteString",
@@ -9938,6 +10812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "URI",
           "package": "SimpleH",
@@ -9947,6 +10822,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "URI",
           "package": "SimpleH",
@@ -9960,6 +10836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "reqLine",
           "package": "SimpleH",
@@ -9969,6 +10846,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "reqLine",
           "normalized": "ParserT a String b[String]",
@@ -9984,6 +10862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "request",
           "package": "SimpleH",
@@ -9993,6 +10872,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "request",
           "normalized": "ParserT a String b[String]",
@@ -10007,6 +10887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "uri",
           "package": "SimpleH",
@@ -10016,6 +10897,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "uri",
           "package": "SimpleH",
@@ -10028,6 +10910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "uriFragment",
           "package": "SimpleH",
@@ -10037,6 +10920,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "uriFragment",
           "package": "SimpleH",
@@ -10050,6 +10934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "uriHost",
           "package": "SimpleH",
@@ -10059,6 +10944,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "uriHost",
           "package": "SimpleH",
@@ -10072,6 +10958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "uriId",
           "package": "SimpleH",
@@ -10081,6 +10968,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "uriId",
           "package": "SimpleH",
@@ -10094,6 +10982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "uriPath",
           "package": "SimpleH",
@@ -10103,6 +10992,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "uriPath",
           "normalized": "[String]",
@@ -10118,6 +11008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "uriPort",
           "package": "SimpleH",
@@ -10127,6 +11018,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "uriPort",
           "package": "SimpleH",
@@ -10140,6 +11032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "uriRequest",
           "package": "SimpleH",
@@ -10149,6 +11042,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "uriRequest",
           "package": "SimpleH",
@@ -10162,6 +11056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "uriScheme",
           "package": "SimpleH",
@@ -10171,6 +11066,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "uriScheme",
           "package": "SimpleH",
@@ -10184,6 +11080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser.HTTP",
           "name": "uriUser",
           "package": "SimpleH",
@@ -10193,6 +11090,7 @@
         },
         "index": {
           "hierarchy": "Control Parser HTTP",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser.HTTP",
           "name": "uriUser",
           "package": "SimpleH",
@@ -10207,6 +11105,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module providing simple Parser combinator functionality. Useful\n for small parsing tasks such as identifier parsing or command-line\n argument parsing\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "Parser",
           "package": "SimpleH",
@@ -10216,6 +11115,7 @@
         "index": {
           "description": "module providing simple Parser combinator functionality Useful for small parsing tasks such as identifier parsing or command-line argument parsing",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "Parser",
           "package": "SimpleH",
@@ -10229,6 +11129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "Parser",
           "package": "SimpleH",
@@ -10237,6 +11138,7 @@
         },
         "index": {
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "Parser",
           "package": "SimpleH",
@@ -10250,6 +11152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "ParserA",
           "package": "SimpleH",
@@ -10258,6 +11161,7 @@
         },
         "index": {
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "ParserA",
           "package": "SimpleH",
@@ -10271,6 +11175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "ParserT",
           "package": "SimpleH",
@@ -10279,6 +11184,7 @@
         },
         "index": {
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "ParserT",
           "package": "SimpleH",
@@ -10292,6 +11198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "Stream",
           "package": "SimpleH",
@@ -10300,6 +11207,7 @@
         },
         "index": {
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "Stream",
           "package": "SimpleH",
@@ -10313,6 +11221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "(\u003c*\u003c)",
           "package": "SimpleH",
@@ -10322,6 +11231,7 @@
         },
         "index": {
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "(\u003c*\u003c) \u003c*\u003c",
           "normalized": "ParserT a b c d-\u003eParserT a e c b-\u003eParserT a e c d",
@@ -10337,6 +11247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e(+)\u003c/code\u003e operator with lower priority\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "(\u003c+\u003e)",
           "package": "SimpleH",
@@ -10347,6 +11258,7 @@
         "index": {
           "description": "The operator with lower priority",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -10361,6 +11273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "(\u003e*\u003e)",
           "package": "SimpleH",
@@ -10370,6 +11283,7 @@
         },
         "index": {
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "(\u003e*\u003e) \u003e*\u003e",
           "normalized": "ParserT a b c d-\u003eParserT a d c e-\u003eParserT a b c e",
@@ -10384,6 +11298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "ParserA",
           "package": "SimpleH",
@@ -10393,6 +11308,7 @@
         },
         "index": {
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "ParserA",
           "package": "SimpleH",
@@ -10406,6 +11322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "ParserT",
           "package": "SimpleH",
@@ -10415,6 +11332,7 @@
         },
         "index": {
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "ParserT",
           "package": "SimpleH",
@@ -10428,6 +11346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "_ParserA",
           "package": "SimpleH",
@@ -10437,6 +11356,7 @@
         },
         "index": {
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "_ParserA",
           "package": "SimpleH",
@@ -10450,6 +11370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "alNum",
           "package": "SimpleH",
@@ -10459,6 +11380,7 @@
         },
         "index": {
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "alNum",
           "package": "SimpleH",
@@ -10473,6 +11395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChain an operator with an initial value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "chainl",
           "package": "SimpleH",
@@ -10483,6 +11406,7 @@
         "index": {
           "description": "Chain an operator with an initial value",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "chainl",
           "normalized": "ParserT a b c d-\u003eParserT a b c(d-\u003ee-\u003ed)-\u003eParserT a b c e-\u003eParserT a b c d",
@@ -10498,6 +11422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChain an operator with an initial value and several tail values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "chainr",
           "package": "SimpleH",
@@ -10508,6 +11433,7 @@
         "index": {
           "description": "Chain an operator with an initial value and several tail values",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "chainr",
           "normalized": "ParserT a b c d-\u003eParserT a b c(e-\u003ed-\u003ed)-\u003eParserT a b c e-\u003eParserT a b c d",
@@ -10522,6 +11448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "cons",
           "package": "SimpleH",
@@ -10531,6 +11458,7 @@
         },
         "index": {
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "cons",
           "normalized": "a-\u003eb-\u003eb",
@@ -10546,6 +11474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a single decimal digit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "digit",
           "package": "SimpleH",
@@ -10556,6 +11485,7 @@
         "index": {
           "description": "Parse single decimal digit",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "digit",
           "package": "SimpleH",
@@ -10568,6 +11498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "eitherParser",
           "package": "SimpleH",
@@ -10577,6 +11508,7 @@
         },
         "index": {
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "eitherParser",
           "normalized": "(a-\u003eEither b c)-\u003eParser b a c",
@@ -10593,6 +11525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a Stream is empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "emptyStream",
           "package": "SimpleH",
@@ -10603,6 +11536,7 @@
         "index": {
           "description": "Test if Stream is empty",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "emptyStream",
           "normalized": "a-\u003eBool",
@@ -10619,6 +11553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSucceed only if we are by the End Of Input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "eoi",
           "package": "SimpleH",
@@ -10629,6 +11564,7 @@
         "index": {
           "description": "Succeed only if we are by the End Of Input",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "eoi",
           "normalized": "ParserT a b c()",
@@ -10644,6 +11580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe end of line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "eol",
           "package": "SimpleH",
@@ -10654,6 +11591,7 @@
         "index": {
           "description": "The end of line",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "eol",
           "normalized": "ParserT a b c()",
@@ -10668,6 +11606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "letter",
           "package": "SimpleH",
@@ -10677,6 +11616,7 @@
         },
         "index": {
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "letter",
           "package": "SimpleH",
@@ -10690,6 +11630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse zero, one or more successive occurences of a parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "many",
           "package": "SimpleH",
@@ -10700,6 +11641,7 @@
         "index": {
           "description": "Parse zero one or more successive occurences of parser",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "many",
           "normalized": "ParserT a b c d-\u003eParserT a b c[d]",
@@ -10715,6 +11657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse one or more successive&#233; occurences of a parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "many1",
           "package": "SimpleH",
@@ -10725,6 +11668,7 @@
         "index": {
           "description": "Parse one or more successive occurences of parser",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "many1",
           "normalized": "ParserT a b c d-\u003eParserT a b c[d]",
@@ -10740,6 +11684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse anything but a member of a set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "noneOf",
           "package": "SimpleH",
@@ -10750,6 +11695,7 @@
         "index": {
           "description": "Parse anything but member of set",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "noneOf",
           "normalized": "a b-\u003eParserT c d e b",
@@ -10766,6 +11712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a litteral decimal number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "number",
           "package": "SimpleH",
@@ -10776,6 +11723,7 @@
         "index": {
           "description": "Parse litteral decimal number",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "number",
           "package": "SimpleH",
@@ -10789,6 +11737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a member of a set of values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "oneOf",
           "package": "SimpleH",
@@ -10799,6 +11748,7 @@
         "index": {
           "description": "Parse member of set of values",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "oneOf",
           "normalized": "a b-\u003eParserT c d e b",
@@ -10814,6 +11764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "parser",
           "package": "SimpleH",
@@ -10823,6 +11774,7 @@
         },
         "index": {
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "parser",
           "normalized": "Iso(Parser a b c)(Parser d e f)(b-\u003e(a,[(b,c)]))(e-\u003e(d,[(e,f)]))",
@@ -10837,6 +11789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "parserT",
           "package": "SimpleH",
@@ -10846,6 +11799,7 @@
         },
         "index": {
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "parserT",
           "normalized": "Iso(ParserT a b c d)(ParserT e f g h)(b-\u003ec(a,[(b,d)]))(f-\u003eg(e,[(f,h)]))",
@@ -10860,6 +11814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "pureParser",
           "package": "SimpleH",
@@ -10869,6 +11824,7 @@
         },
         "index": {
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "pureParser",
           "normalized": "(a-\u003e[b])-\u003eParserT c a d b",
@@ -10885,6 +11841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a delimited string, unsing \u003ccode\u003e\\\\\u003c/code\u003e as the quoting character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "quotedString",
           "package": "SimpleH",
@@ -10895,6 +11852,7 @@
         "index": {
           "description": "Parse delimited string unsing as the quoting character",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "quotedString",
           "normalized": "Char-\u003eParserT a b c String",
@@ -10910,6 +11868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "readable",
           "package": "SimpleH",
@@ -10919,6 +11878,7 @@
         },
         "index": {
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "readable",
           "package": "SimpleH",
@@ -10932,6 +11892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe remaining Stream to parse\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "remaining",
           "package": "SimpleH",
@@ -10942,6 +11903,7 @@
         "index": {
           "description": "The remaining Stream to parse",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "remaining",
           "package": "SimpleH",
@@ -10954,6 +11916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "runParser",
           "package": "SimpleH",
@@ -10963,6 +11926,7 @@
         },
         "index": {
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "runParser",
           "normalized": "Parser Void a b-\u003ea-\u003e[(a,b)]",
@@ -10978,6 +11942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "runParserT",
           "package": "SimpleH",
@@ -10987,6 +11952,7 @@
         },
         "index": {
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "runParserT",
           "normalized": "ParserT Void a b c-\u003ea-\u003eb[(a,c)]",
@@ -11003,6 +11969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume a token and succeed if it verifies a predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "satisfy",
           "package": "SimpleH",
@@ -11013,6 +11980,7 @@
         "index": {
           "description": "Consume token and succeed if it verifies predicate",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "satisfy",
           "normalized": "(a-\u003eBool)-\u003eParserT b c d a",
@@ -11028,6 +11996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse zero or more successive occurences of a parser separated by\n occurences of a second parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "sepBy",
           "package": "SimpleH",
@@ -11038,6 +12007,7 @@
         "index": {
           "description": "Parse zero or more successive occurences of parser separated by occurences of second parser",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "sepBy",
           "normalized": "ParserT a b c d-\u003eParserT a b c e-\u003eParserT a b c[d]",
@@ -11054,6 +12024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse one or more successive occurences of a parser separated by\n occurences of a second parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "sepBy1",
           "package": "SimpleH",
@@ -11064,6 +12035,7 @@
         "index": {
           "description": "Parse one or more successive occurences of parser separated by occurences of second parser",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "sepBy1",
           "normalized": "ParserT a b c d-\u003eParserT a b c e-\u003eParserT a b c[d]",
@@ -11080,6 +12052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume a structure of characters or fail\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "several",
           "package": "SimpleH",
@@ -11090,6 +12063,7 @@
         "index": {
           "description": "Consume structure of characters or fail",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "several",
           "normalized": "a b-\u003eParserT c d e()",
@@ -11105,6 +12079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume a single fixed token or fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "single",
           "package": "SimpleH",
@@ -11115,6 +12090,7 @@
         "index": {
           "description": "Consume single fixed token or fail",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "single",
           "normalized": "a-\u003eParserT b c d()",
@@ -11130,6 +12106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "space",
           "package": "SimpleH",
@@ -11140,6 +12117,7 @@
         "index": {
           "description": "single space",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "space",
           "package": "SimpleH",
@@ -11153,6 +12131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMany spaces\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "spaces",
           "package": "SimpleH",
@@ -11163,6 +12142,7 @@
         "index": {
           "description": "Many spaces",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "spaces",
           "package": "SimpleH",
@@ -11176,6 +12156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume a token from the Stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "token",
           "package": "SimpleH",
@@ -11186,6 +12167,7 @@
         "index": {
           "description": "Consume token from the Stream",
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "token",
           "package": "SimpleH",
@@ -11198,6 +12180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Parser",
           "name": "uncons",
           "package": "SimpleH",
@@ -11207,6 +12190,7 @@
         },
         "index": {
           "hierarchy": "Control Parser",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Parser",
           "name": "uncons",
           "normalized": "a-\u003eMaybe(b,a)",
@@ -11221,6 +12205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive.Time",
           "name": "Time",
           "package": "SimpleH",
@@ -11229,6 +12214,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive Time",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive.Time",
           "name": "Time",
           "package": "SimpleH",
@@ -11242,6 +12228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive.Time",
           "name": "Seconds",
           "package": "SimpleH",
@@ -11250,6 +12237,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive Time",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive.Time",
           "name": "Seconds",
           "package": "SimpleH",
@@ -11264,6 +12252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type wrappers for timestamps that can be compared unambiguously\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive.Time",
           "name": "Time",
           "package": "SimpleH",
@@ -11273,6 +12262,7 @@
         "index": {
           "description": "type wrappers for timestamps that can be compared unambiguously",
           "hierarchy": "Control Reactive Time",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive.Time",
           "name": "Time",
           "package": "SimpleH",
@@ -11286,6 +12276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive.Time",
           "name": "currentTime",
           "package": "SimpleH",
@@ -11295,6 +12286,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive Time",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive.Time",
           "name": "currentTime",
           "package": "SimpleH",
@@ -11309,6 +12301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a Time representing the time by which the argument terminates.\n\u003c/p\u003e\u003cp\u003eWarning: This function executes its argument, ignoring its\n value. Thus, it would be wise to use it on idempotent blocking\n actions, such as \u003ccode\u003ereadMVar\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive.Time",
           "name": "timeIO",
           "package": "SimpleH",
@@ -11319,6 +12312,7 @@
         "index": {
           "description": "Constructs Time representing the time by which the argument terminates Warning This function executes its argument ignoring its value Thus it would be wise to use it on idempotent blocking actions such as readMVar",
           "hierarchy": "Control Reactive Time",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive.Time",
           "name": "timeIO",
           "normalized": "IO a-\u003eIO(Time Seconds)",
@@ -11334,6 +12328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive.Time",
           "name": "timeOrigin",
           "package": "SimpleH",
@@ -11343,6 +12338,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive Time",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive.Time",
           "name": "timeOrigin",
           "normalized": "IO a)-\u003eIO a",
@@ -11359,6 +12355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Time's pure value. May not be defined immediately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive.Time",
           "name": "timeVal",
           "package": "SimpleH",
@@ -11369,6 +12366,7 @@
         "index": {
           "description": "Time pure value May not be defined immediately",
           "hierarchy": "Control Reactive Time",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive.Time",
           "name": "timeVal",
           "normalized": "Time a-\u003eTimeVal a",
@@ -11384,6 +12382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive.Time",
           "name": "waitTill",
           "package": "SimpleH",
@@ -11393,6 +12392,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive Time",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive.Time",
           "name": "waitTill",
           "normalized": "Seconds-\u003eIO()",
@@ -11408,6 +12408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive.TimeVal",
           "name": "TimeVal",
           "package": "SimpleH",
@@ -11416,6 +12417,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive TimeVal",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive.TimeVal",
           "name": "TimeVal",
           "package": "SimpleH",
@@ -11430,6 +12432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type wrapper that adds a Bounded instance for types that don't possess one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive.TimeVal",
           "name": "TimeVal",
           "package": "SimpleH",
@@ -11439,6 +12442,7 @@
         "index": {
           "description": "type wrapper that adds Bounded instance for types that don possess one",
           "hierarchy": "Control Reactive TimeVal",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive.TimeVal",
           "name": "TimeVal",
           "package": "SimpleH",
@@ -11452,6 +12456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive.TimeVal",
           "name": "Always",
           "package": "SimpleH",
@@ -11461,6 +12466,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive TimeVal",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive.TimeVal",
           "name": "Always",
           "package": "SimpleH",
@@ -11474,6 +12480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive.TimeVal",
           "name": "Never",
           "package": "SimpleH",
@@ -11483,6 +12490,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive TimeVal",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive.TimeVal",
           "name": "Never",
           "package": "SimpleH",
@@ -11496,6 +12504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive.TimeVal",
           "name": "Since",
           "package": "SimpleH",
@@ -11505,6 +12514,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive TimeVal",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive.TimeVal",
           "name": "Since",
           "package": "SimpleH",
@@ -11518,6 +12528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "Reactive",
           "package": "SimpleH",
@@ -11526,6 +12537,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "Reactive",
           "package": "SimpleH",
@@ -11540,6 +12552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn event (a list of time-value pairs of increasing times)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "Event",
           "package": "SimpleH",
@@ -11549,6 +12562,7 @@
         "index": {
           "description": "An event list of time-value pairs of increasing times",
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "Event",
           "package": "SimpleH",
@@ -11563,6 +12577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Future value (a value with a timestamp)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "Future",
           "package": "SimpleH",
@@ -11572,6 +12587,7 @@
         "index": {
           "description": "Future value value with timestamp",
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "Future",
           "package": "SimpleH",
@@ -11585,6 +12601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "Reactive",
           "package": "SimpleH",
@@ -11593,6 +12610,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "Reactive",
           "package": "SimpleH",
@@ -11607,6 +12625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe 'splice' operator. Occurs when \u003ccode\u003ea\u003c/code\u003e occurs.\n\u003c/p\u003e\u003cpre\u003e by t: a // b = (a,before t: b)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "(//)",
           "package": "SimpleH",
@@ -11617,6 +12636,7 @@
         "index": {
           "description": "The splice operator Occurs when occurs by before",
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "(//) //",
           "normalized": "Event a b-\u003eEvent a c-\u003eEvent a(b,Event a c)",
@@ -11631,6 +12651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "(\u003c|*\u003e)",
           "package": "SimpleH",
@@ -11640,6 +12661,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "(\u003c|*\u003e) \u003c|*\u003e",
           "normalized": "Reactive a(b-\u003ec)-\u003eEvent a b-\u003eEvent a c",
@@ -11655,6 +12677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe 'over' operator. Occurs only when \u003ccode\u003ea\u003c/code\u003e occurs.\n\u003c/p\u003e\u003cpre\u003e by t: a \u003c|*\u003e (bi,b) = a \u003c*\u003e (minBound,bi):b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "(\u003c*|\u003e)",
           "package": "SimpleH",
@@ -11665,6 +12688,7 @@
         "index": {
           "description": "The over operator Occurs only when occurs by bi minBound bi",
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "(\u003c*|\u003e) \u003c*|\u003e",
           "normalized": "Event a(b-\u003ec)-\u003eReactive a b-\u003eEvent a c",
@@ -11679,6 +12703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "Reactive",
           "package": "SimpleH",
@@ -11688,6 +12713,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "Reactive",
           "package": "SimpleH",
@@ -11701,6 +12727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "_event",
           "package": "SimpleH",
@@ -11710,6 +12737,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "_event",
           "normalized": "Iso(Event a b)(Event c d)[Future a b][Future c d]",
@@ -11724,6 +12752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "_future",
           "package": "SimpleH",
@@ -11733,6 +12762,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "_future",
           "normalized": "Iso(Future a b)(Future c d)(Time a,b)(Time c,d)",
@@ -11747,6 +12777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "_time",
           "package": "SimpleH",
@@ -11756,6 +12787,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "_time",
           "package": "SimpleH",
@@ -11768,6 +12800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "_value",
           "package": "SimpleH",
@@ -11777,6 +12810,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "_value",
           "package": "SimpleH",
@@ -11789,6 +12823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "atTimes",
           "package": "SimpleH",
@@ -11798,6 +12833,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "atTimes",
           "normalized": "[a]-\u003eEvent a()",
@@ -11813,6 +12849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "event",
           "package": "SimpleH",
@@ -11822,6 +12859,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "event",
           "normalized": "IO a-\u003eIO(Event Seconds a)",
@@ -11836,6 +12874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "eventMay",
           "package": "SimpleH",
@@ -11845,6 +12884,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "eventMay",
           "normalized": "IO(Maybe a)-\u003eIO(Event Seconds a)",
@@ -11860,6 +12900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "futureIO",
           "package": "SimpleH",
@@ -11869,6 +12910,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "futureIO",
           "normalized": "IO a-\u003eIO(Future Seconds a)",
@@ -11885,6 +12927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroup the occurences of an event by equality. Occurs when the first occurence of a group occurs. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "groupE",
           "package": "SimpleH",
@@ -11895,6 +12938,7 @@
         "index": {
           "description": "Group the occurences of an event by equality Occurs when the first occurence of group occurs",
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "groupE",
           "normalized": "Event a b-\u003eEvent a(Event a b)",
@@ -11909,6 +12953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "headE",
           "package": "SimpleH",
@@ -11918,6 +12963,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "headE",
           "normalized": "Event a b-\u003eb",
@@ -11932,6 +12978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "mapFutures",
           "package": "SimpleH",
@@ -11941,6 +12988,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "mapFutures",
           "normalized": "(Future a b-\u003eFuture c d)-\u003eEvent a b-\u003eEvent c d",
@@ -11956,6 +13004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "mask",
           "package": "SimpleH",
@@ -11965,6 +13014,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "mask",
           "normalized": "Event a Bool-\u003eEvent a b-\u003eEvent a b",
@@ -11979,6 +13029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "mkEvent",
           "package": "SimpleH",
@@ -11988,6 +13039,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "mkEvent",
           "normalized": "[(a,b)]-\u003eEvent a b",
@@ -12003,6 +13055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "react",
           "package": "SimpleH",
@@ -12012,6 +13065,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "react",
           "normalized": "IO a-\u003e(Event Seconds a-\u003eIO(Event Seconds(IO())))-\u003eIO()",
@@ -12026,6 +13080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "react2",
           "package": "SimpleH",
@@ -12035,6 +13090,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "react2",
           "normalized": "IO a-\u003eIO b-\u003e(Event Seconds a-\u003eEvent Seconds b-\u003eIO(Event Seconds(IO())))-\u003eIO()",
@@ -12049,6 +13105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "react3",
           "package": "SimpleH",
@@ -12058,6 +13115,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "react3",
           "normalized": "IO a-\u003eIO b-\u003eIO c-\u003e(Event Seconds a-\u003eEvent Seconds b-\u003eEvent Seconds c-\u003eIO(Event Seconds(IO())))-\u003eIO()",
@@ -12073,6 +13131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSinks an action event into the Real World. Actions are evaluated\n as closely to their specified time as possible. However, they are\n all executed in order, even if it means delaying the next action\n further than its required time. For real-time realization of\n events, see the \u003ccode\u003e\u003ca\u003erealizeRT\u003c/a\u003e\u003c/code\u003e function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "realize",
           "package": "SimpleH",
@@ -12083,6 +13142,7 @@
         "index": {
           "description": "Sinks an action event into the Real World Actions are evaluated as closely to their specified time as possible However they are all executed in order even if it means delaying the next action further than its required time For real-time realization of events see the realizeRT function",
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "realize",
           "normalized": "Event Seconds(IO())-\u003eIO()",
@@ -12098,6 +13158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSinks a frame event into the real-world, skipping frames if they come\n too late, thus always performing the frame closest to the current time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "realizeRT",
           "package": "SimpleH",
@@ -12108,6 +13169,7 @@
         "index": {
           "description": "Sinks frame event into the real-world skipping frames if they come too late thus always performing the frame closest to the current time",
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "realizeRT",
           "normalized": "Event Seconds(IO())-\u003eIO()",
@@ -12123,6 +13185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "times",
           "package": "SimpleH",
@@ -12132,6 +13195,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "times",
           "normalized": "Event a b-\u003eEvent a(Time a)",
@@ -12146,6 +13210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "times'",
           "package": "SimpleH",
@@ -12155,6 +13220,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "times'",
           "normalized": "Event a b-\u003eEvent a a",
@@ -12169,6 +13235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Control.Reactive",
           "name": "withTime",
           "package": "SimpleH",
@@ -12178,6 +13245,7 @@
         },
         "index": {
           "hierarchy": "Control Reactive",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Control.Reactive",
           "name": "withTime",
           "normalized": "Event a b-\u003eEvent a(Time a,b)",
@@ -12193,6 +13261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Data.Containers",
           "name": "Containers",
           "package": "SimpleH",
@@ -12201,6 +13270,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Data.Containers",
           "name": "Containers",
           "package": "SimpleH",
@@ -12214,6 +13284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Data.Containers",
           "name": "DataMap",
           "package": "SimpleH",
@@ -12222,6 +13293,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Data.Containers",
           "name": "DataMap",
           "package": "SimpleH",
@@ -12236,6 +13308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Map from keys \u003ccode\u003ek\u003c/code\u003e to values \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Data.Containers",
           "name": "Map",
           "package": "SimpleH",
@@ -12244,6 +13317,7 @@
         "index": {
           "description": "Map from keys to values",
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Data.Containers",
           "name": "Map",
           "package": "SimpleH",
@@ -12258,6 +13332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of values \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Data.Containers",
           "name": "Set",
           "package": "SimpleH",
@@ -12266,6 +13341,7 @@
         "index": {
           "description": "set of values",
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Data.Containers",
           "name": "Set",
           "package": "SimpleH",
@@ -12279,6 +13355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Data.Containers",
           "name": "ascList",
           "package": "SimpleH",
@@ -12288,6 +13365,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Data.Containers",
           "name": "ascList",
           "normalized": "Iso[(a,b)][(c,d)](Map a b)(Map c d)",
@@ -12303,6 +13381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Data.Containers",
           "name": "at",
           "package": "SimpleH",
@@ -12312,6 +13391,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Data.Containers",
           "name": "at",
           "normalized": "a-\u003eLens' b(Maybe c)",
@@ -12326,6 +13406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Data.Containers",
           "name": "delete",
           "package": "SimpleH",
@@ -12335,6 +13416,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Data.Containers",
           "name": "delete",
           "normalized": "a-\u003eb-\u003eb",
@@ -12349,6 +13431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Data.Containers",
           "name": "fromList",
           "package": "SimpleH",
@@ -12358,6 +13441,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Data.Containers",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003ec",
@@ -12373,6 +13457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Data.Containers",
           "name": "insert",
           "package": "SimpleH",
@@ -12382,6 +13467,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Data.Containers",
           "name": "insert",
           "normalized": "a-\u003eb-\u003ec-\u003ec",
@@ -12396,6 +13482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Data.Containers",
           "name": "member",
           "package": "SimpleH",
@@ -12405,6 +13492,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Data.Containers",
           "name": "member",
           "normalized": "a-\u003eb-\u003eBool",
@@ -12419,6 +13507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Data.Containers",
           "name": "singleton",
           "package": "SimpleH",
@@ -12428,6 +13517,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Data.Containers",
           "name": "singleton",
           "normalized": "a-\u003eb-\u003ec",
@@ -12442,6 +13532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Data.Containers",
           "name": "touch",
           "package": "SimpleH",
@@ -12451,6 +13542,7 @@
         },
         "index": {
           "hierarchy": "Data Containers",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Data.Containers",
           "name": "touch",
           "normalized": "a-\u003eb-\u003eb",
@@ -12465,6 +13557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Data.Serialize",
           "name": "Serialize",
           "package": "SimpleH",
@@ -12473,6 +13566,7 @@
         },
         "index": {
           "hierarchy": "Data Serialize",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Data.Serialize",
           "name": "Serialize",
           "package": "SimpleH",
@@ -12486,6 +13580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Data.Serialize",
           "name": "Serializable",
           "package": "SimpleH",
@@ -12494,6 +13589,7 @@
         },
         "index": {
           "hierarchy": "Data Serialize",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Data.Serialize",
           "name": "Serializable",
           "package": "SimpleH",
@@ -12507,6 +13603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Data.Serialize",
           "name": "encode",
           "package": "SimpleH",
@@ -12516,6 +13613,7 @@
         },
         "index": {
           "hierarchy": "Data Serialize",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Data.Serialize",
           "name": "encode",
           "normalized": "a-\u003eBuilder",
@@ -12530,6 +13628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "Data.Serialize",
           "name": "serializable",
           "package": "SimpleH",
@@ -12539,6 +13638,7 @@
         },
         "index": {
           "hierarchy": "Data Serialize",
+          "indexed": "2014-03-11T17:00:48",
           "module": "Data.Serialize",
           "name": "serializable",
           "package": "SimpleH",
@@ -12551,6 +13651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "SimpleH",
           "name": "SimpleH",
           "package": "SimpleH",
@@ -12559,6 +13660,7 @@
         },
         "index": {
           "hierarchy": "SimpleH",
+          "indexed": "2014-03-11T17:00:48",
           "module": "SimpleH",
           "name": "SimpleH",
           "package": "SimpleH",
@@ -12572,6 +13674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "File",
           "package": "SimpleH",
@@ -12580,6 +13683,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "File",
           "package": "SimpleH",
@@ -12593,6 +13697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "DirEntry",
           "package": "SimpleH",
@@ -12601,6 +13706,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "DirEntry",
           "package": "SimpleH",
@@ -12614,6 +13720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "File",
           "package": "SimpleH",
@@ -12622,6 +13729,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "File",
           "package": "SimpleH",
@@ -12635,6 +13743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "Location",
           "package": "SimpleH",
@@ -12643,6 +13752,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "Location",
           "package": "SimpleH",
@@ -12656,6 +13766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "DirEntry",
           "package": "SimpleH",
@@ -12665,6 +13776,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "DirEntry",
           "package": "SimpleH",
@@ -12678,6 +13790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "Directory",
           "package": "SimpleH",
@@ -12687,6 +13800,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "Directory",
           "package": "SimpleH",
@@ -12700,6 +13814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "File",
           "package": "SimpleH",
@@ -12709,6 +13824,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "File",
           "package": "SimpleH",
@@ -12722,6 +13838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "Here",
           "package": "SimpleH",
@@ -12731,6 +13848,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "Here",
           "package": "SimpleH",
@@ -12744,6 +13862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "Owner",
           "package": "SimpleH",
@@ -12753,6 +13872,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "Owner",
           "package": "SimpleH",
@@ -12766,6 +13886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "Self",
           "package": "SimpleH",
@@ -12775,6 +13896,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "Self",
           "package": "SimpleH",
@@ -12788,6 +13910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "System",
           "package": "SimpleH",
@@ -12797,6 +13920,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "System",
           "package": "SimpleH",
@@ -12810,6 +13934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "child",
           "package": "SimpleH",
@@ -12819,6 +13944,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "child",
           "package": "SimpleH",
@@ -12831,6 +13957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "contents",
           "package": "SimpleH",
@@ -12840,6 +13967,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "contents",
           "package": "SimpleH",
@@ -12852,6 +13980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "descendant",
           "package": "SimpleH",
@@ -12861,6 +13990,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "descendant",
           "package": "SimpleH",
@@ -12873,6 +14003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "entry",
           "package": "SimpleH",
@@ -12882,6 +14013,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "entry",
           "package": "SimpleH",
@@ -12894,6 +14026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "file",
           "package": "SimpleH",
@@ -12903,6 +14036,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "file",
           "normalized": "Traversal' File(Maybe String,Maybe ByteString)",
@@ -12917,6 +14051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "fileData",
           "package": "SimpleH",
@@ -12926,6 +14061,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "fileData",
           "package": "SimpleH",
@@ -12939,6 +14075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "fileName",
           "package": "SimpleH",
@@ -12948,6 +14085,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "fileName",
           "package": "SimpleH",
@@ -12961,6 +14099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "getFile",
           "package": "SimpleH",
@@ -12970,6 +14109,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "getFile",
           "normalized": "FilePath-\u003eIO File",
@@ -12985,6 +14125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "modTime",
           "package": "SimpleH",
@@ -12994,6 +14135,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "modTime",
           "normalized": "FilePath-\u003eIO Seconds",
@@ -13009,6 +14151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "named",
           "package": "SimpleH",
@@ -13018,6 +14161,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "named",
           "normalized": "(String-\u003eBool)-\u003eTraversal' DirEntry DirEntry",
@@ -13032,6 +14176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "pathTo",
           "package": "SimpleH",
@@ -13041,6 +14186,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "pathTo",
           "normalized": "Location-\u003eFilePath",
@@ -13056,6 +14202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "text",
           "package": "SimpleH",
@@ -13065,6 +14212,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "text",
           "package": "SimpleH",
@@ -13077,6 +14225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "withExtension",
           "package": "SimpleH",
@@ -13086,6 +14235,7 @@
         },
         "index": {
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "withExtension",
           "normalized": "String-\u003eTraversal' DirEntry DirEntry",
@@ -13102,6 +14252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe working directory, as a DirEntry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.File",
           "name": "workingDirectory",
           "package": "SimpleH",
@@ -13112,6 +14263,7 @@
         "index": {
           "description": "The working directory as DirEntry",
           "hierarchy": "System Simple File",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.File",
           "name": "workingDirectory",
           "package": "SimpleH",
@@ -13125,6 +14277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.Network",
           "name": "Network",
           "package": "SimpleH",
@@ -13133,6 +14286,7 @@
         },
         "index": {
           "hierarchy": "System Simple Network",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.Network",
           "name": "Network",
           "package": "SimpleH",
@@ -13146,6 +14300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.Network",
           "name": "PortNumber",
           "package": "SimpleH",
@@ -13154,6 +14309,7 @@
         },
         "index": {
           "hierarchy": "System Simple Network",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.Network",
           "name": "PortNumber",
           "package": "SimpleH",
@@ -13167,6 +14323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.Network",
           "name": "Socket",
           "package": "SimpleH",
@@ -13174,6 +14331,7 @@
         },
         "index": {
           "hierarchy": "System Simple Network",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.Network",
           "name": "Socket",
           "package": "SimpleH",
@@ -13187,6 +14345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.Network",
           "name": "accept",
           "package": "SimpleH",
@@ -13196,6 +14355,7 @@
         },
         "index": {
           "hierarchy": "System Simple Network",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.Network",
           "name": "accept",
           "normalized": "Socket-\u003eIO Handle",
@@ -13210,6 +14370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple.Network",
           "name": "listenOn",
           "package": "SimpleH",
@@ -13219,6 +14380,7 @@
         },
         "index": {
           "hierarchy": "System Simple Network",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple.Network",
           "name": "listenOn",
           "normalized": "PortNumber-\u003eIO Socket",
@@ -13234,6 +14396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:00:48 UTC 2014",
           "module": "System.Simple",
           "name": "Simple",
           "package": "SimpleH",
@@ -13242,6 +14405,7 @@
         },
         "index": {
           "hierarchy": "System Simple",
+          "indexed": "2014-03-11T17:00:48",
           "module": "System.Simple",
           "name": "Simple",
           "package": "SimpleH",

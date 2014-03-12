@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ariadne"
+        "phrase": "ariadne",
+        "type": "phrase"
       },
       "type": "context"
     }

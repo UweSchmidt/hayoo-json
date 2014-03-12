@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hledger-interest"
+        "phrase": "hledger-interest",
+        "type": "phrase"
       },
       "type": "context"
     }

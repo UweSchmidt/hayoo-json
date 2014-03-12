@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tardis"
+        "phrase": "tardis",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe class definition of a Tardis,\n as well as a few straightforward combinators\n based on its primitives.\n\u003c/p\u003e\u003cp\u003eSee Control.Monad.Tardis for the general explanation\n of what a Tardis is and how to use it.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Tardis.Class",
           "name": "Class",
           "package": "tardis",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The class definition of Tardis as well as few straightforward combinators based on its primitives See Control.Monad.Tardis for the general explanation of what Tardis is and how to use it",
           "hierarchy": "Control Monad Tardis Class",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Tardis.Class",
           "name": "Class",
           "package": "tardis",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Tardis is parameterized by two state streams:\n a 'backwards-traveling' state and a 'forwards-traveling' state.\n This library consistently puts the backwards-traveling state first\n whenever the two are seen together.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition:\n (\u003ca\u003etardis\u003c/a\u003e) or\n (\u003ca\u003egetPast\u003c/a\u003e, \u003ca\u003egetFuture\u003c/a\u003e, \u003ca\u003esendPast\u003c/a\u003e, and \u003ca\u003esendFuture\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Tardis.Class",
           "name": "MonadTardis",
           "package": "tardis",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Tardis is parameterized by two state streams backwards-traveling state and forwards-traveling state This library consistently puts the backwards-traveling state first whenever the two are seen together Minimal complete definition tardis or getPast getFuture sendPast and sendFuture",
           "hierarchy": "Control Monad Tardis Class",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Tardis.Class",
           "name": "MonadTardis",
           "package": "tardis",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the current value of the 'backwards-traveling' state,\n which therefore came backwards from the future.\n You can think of backwards-traveling state as traveling\n \u003ccode\u003eupwards\u003c/code\u003e through your code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Tardis.Class",
           "name": "getFuture",
           "package": "tardis",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Retrieve the current value of the backwards-traveling state which therefore came backwards from the future You can think of backwards-traveling state as traveling upwards through your code",
           "hierarchy": "Control Monad Tardis Class",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Tardis.Class",
           "name": "getFuture",
           "package": "tardis",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the current value of the 'forwards-traveling' state,\n which therefore came forwards from the past.\n You can think of forwards-traveling state as traveling\n \u003ccode\u003edownwards\u003c/code\u003e through your code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Tardis.Class",
           "name": "getPast",
           "package": "tardis",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Retrieve the current value of the forwards-traveling state which therefore came forwards from the past You can think of forwards-traveling state as traveling downwards through your code",
           "hierarchy": "Control Monad Tardis Class",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Tardis.Class",
           "name": "getPast",
           "package": "tardis",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a specific view of the backwards-traveling state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Tardis.Class",
           "name": "getsFuture",
           "package": "tardis",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Retrieve specific view of the backwards-traveling state",
           "hierarchy": "Control Monad Tardis Class",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Tardis.Class",
           "name": "getsFuture",
           "normalized": "(a-\u003eb)-\u003ec b",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a specific view of the forwards-traveling state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Tardis.Class",
           "name": "getsPast",
           "package": "tardis",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Retrieve specific view of the forwards-traveling state",
           "hierarchy": "Control Monad Tardis Class",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Tardis.Class",
           "name": "getsPast",
           "normalized": "(a-\u003eb)-\u003ec b",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the backwards-traveling state\n as it passes through from future to past.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Tardis.Class",
           "name": "modifyBackwards",
           "package": "tardis",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Modify the backwards-traveling state as it passes through from future to past",
           "hierarchy": "Control Monad Tardis Class",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Tardis.Class",
           "name": "modifyBackwards",
           "normalized": "(a-\u003ea)-\u003eb()",
@@ -191,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the forwards-traveling state\n as it passes through from past to future.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Tardis.Class",
           "name": "modifyForwards",
           "package": "tardis",
@@ -201,6 +216,7 @@
         "index": {
           "description": "Modify the forwards-traveling state as it passes through from past to future",
           "hierarchy": "Control Monad Tardis Class",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Tardis.Class",
           "name": "modifyForwards",
           "normalized": "(a-\u003ea)-\u003eb()",
@@ -217,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the current value of the 'forwards-traveling' state,\n which will therefore be sent forwards to the future.\n This value can be retrieved by calls to \u003ca\u003egetPast\u003c/a\u003e\n located \u003ccode\u003ebelow\u003c/code\u003e the current location,\n unless it is overwritten by an intervening \u003ca\u003esendFuture\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Tardis.Class",
           "name": "sendFuture",
           "package": "tardis",
@@ -227,6 +244,7 @@
         "index": {
           "description": "Set the current value of the forwards-traveling state which will therefore be sent forwards to the future This value can be retrieved by calls to getPast located below the current location unless it is overwritten by an intervening sendFuture",
           "hierarchy": "Control Monad Tardis Class",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Tardis.Class",
           "name": "sendFuture",
           "normalized": "a-\u003eb()",
@@ -243,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the current value of the 'backwards-traveling' state,\n which will therefore be sent backwards to the past.\n This value can be retrieved by calls to \u003ca\u003egetFuture\u003c/a\u003e\n located \u003ccode\u003eabove\u003c/code\u003e the current location,\n unless it is overwritten by an intervening \u003ca\u003esendPast\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Tardis.Class",
           "name": "sendPast",
           "package": "tardis",
@@ -253,6 +272,7 @@
         "index": {
           "description": "Set the current value of the backwards-traveling state which will therefore be sent backwards to the past This value can be retrieved by calls to getFuture located above the current location unless it is overwritten by an intervening sendPast",
           "hierarchy": "Control Monad Tardis Class",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Tardis.Class",
           "name": "sendPast",
           "normalized": "a-\u003eb()",
@@ -269,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Tardis is merely a pure state transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Tardis.Class",
           "name": "tardis",
           "package": "tardis",
@@ -279,6 +300,7 @@
         "index": {
           "description": "Tardis is merely pure state transformation",
           "hierarchy": "Control Monad Tardis Class",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Tardis.Class",
           "name": "tardis",
           "normalized": "((a,b)-\u003e(c,(a,b)))-\u003ed c",
@@ -294,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module re-exports both \u003ccode\u003e\u003ca\u003eMonadTardis\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eTardisT\u003c/a\u003e\u003c/code\u003e\n (Wherever there is overlap, the \u003ccode\u003e\u003ca\u003eMonadTardis\u003c/a\u003e\u003c/code\u003e version is preferred.),\n as well as the \u003ccode\u003e\u003ca\u003eTardisT\u003c/a\u003e\u003c/code\u003e instance of \u003ccode\u003e\u003ca\u003eMonadTardis\u003c/a\u003e\u003c/code\u003e.\n If you installed this library with the use-undecidable-instances flag,\n then another instance was also exported:\n any \u003ccode\u003eMonadTrans\u003c/code\u003e on top of any \u003ccode\u003e\u003ca\u003eMonadTardis\u003c/a\u003e\u003c/code\u003e\n is also a \u003ccode\u003e\u003ca\u003eMonadTardis\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe recommended usage of a Tardis is to import this module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Tardis",
           "name": "Tardis",
           "package": "tardis",
@@ -303,6 +326,7 @@
         "index": {
           "description": "This module re-exports both MonadTardis and TardisT Wherever there is overlap the MonadTardis version is preferred as well as the TardisT instance of MonadTardis If you installed this library with the use-undecidable-instances flag then another instance was also exported any MonadTrans on top of any MonadTardis is also MonadTardis The recommended usage of Tardis is to import this module",
           "hierarchy": "Control Monad Tardis",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Tardis",
           "name": "Tardis",
           "package": "tardis",
@@ -317,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe data definition of a \u003ca\u003eTardisT\u003c/a\u003e\n as well as its primitive operations,\n and straightforward combinators based on the primitives.\n\u003c/p\u003e\u003cp\u003eSee Control.Monad.Tardis for the general explanation\n of what a Tardis is and how to use it.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Trans.Tardis",
           "name": "Tardis",
           "package": "tardis",
@@ -326,6 +351,7 @@
         "index": {
           "description": "The data definition of TardisT as well as its primitive operations and straightforward combinators based on the primitives See Control.Monad.Tardis for the general explanation of what Tardis is and how to use it",
           "hierarchy": "Control Monad Trans Tardis",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Trans.Tardis",
           "name": "Tardis",
           "package": "tardis",
@@ -340,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsing a Tardis with no monad underneath\n will prove to be most common use case.\n Practical uses of a TardisT require that the\n underlying monad be an instance of MonadFix,\n but note that the IO instance of MonadFix\n is almost certainly unsuitable for use with\n Tardis code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Trans.Tardis",
           "name": "Tardis",
           "package": "tardis",
@@ -349,6 +376,7 @@
         "index": {
           "description": "Using Tardis with no monad underneath will prove to be most common use case Practical uses of TardisT require that the underlying monad be an instance of MonadFix but note that the IO instance of MonadFix is almost certainly unsuitable for use with Tardis code",
           "hierarchy": "Control Monad Trans Tardis",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Trans.Tardis",
           "name": "Tardis",
           "package": "tardis",
@@ -363,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA TardisT is parameterized by two state streams:\n a 'backwards-traveling' state and a 'forwards-traveling' state.\n This library consistently puts the backwards-traveling state first\n whenever the two are seen together.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Trans.Tardis",
           "name": "TardisT",
           "package": "tardis",
@@ -372,6 +401,7 @@
         "index": {
           "description": "TardisT is parameterized by two state streams backwards-traveling state and forwards-traveling state This library consistently puts the backwards-traveling state first whenever the two are seen together",
           "hierarchy": "Control Monad Trans Tardis",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Trans.Tardis",
           "name": "TardisT",
           "package": "tardis",
@@ -386,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a Tardis, and discard the final state,\n observing only the resultant value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Trans.Tardis",
           "name": "evalTardis",
           "package": "tardis",
@@ -396,6 +427,7 @@
         "index": {
           "description": "Run Tardis and discard the final state observing only the resultant value",
           "hierarchy": "Control Monad Trans Tardis",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Trans.Tardis",
           "name": "evalTardis",
           "normalized": "Tardis a b c-\u003e(a,b)-\u003ec",
@@ -412,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a Tardis, and discard the final state,\n observing only the resultant value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Trans.Tardis",
           "name": "evalTardisT",
           "package": "tardis",
@@ -422,6 +455,7 @@
         "index": {
           "description": "Run Tardis and discard the final state observing only the resultant value",
           "hierarchy": "Control Monad Trans Tardis",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Trans.Tardis",
           "name": "evalTardisT",
           "normalized": "TardisT a b c d-\u003e(a,b)-\u003ec d",
@@ -438,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a Tardis, and discard the resultant value,\n observing only the final state (of both streams).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Trans.Tardis",
           "name": "execTardis",
           "package": "tardis",
@@ -448,6 +483,7 @@
         "index": {
           "description": "Run Tardis and discard the resultant value observing only the final state of both streams",
           "hierarchy": "Control Monad Trans Tardis",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Trans.Tardis",
           "name": "execTardis",
           "normalized": "Tardis a b c-\u003e(a,b)-\u003e(a,b)",
@@ -464,6 +500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a Tardis, and discard the resultant value,\n observing only the final state (of both streams).\n Note that the \u003ccode\u003efinal\u003c/code\u003e state of the backwards-traveling state\n is the state it reaches by traveling from the \u003ccode\u003ebottom\u003c/code\u003e\n of your code to the \u003ccode\u003etop\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Trans.Tardis",
           "name": "execTardisT",
           "package": "tardis",
@@ -474,6 +511,7 @@
         "index": {
           "description": "Run Tardis and discard the resultant value observing only the final state of both streams Note that the final state of the backwards-traveling state is the state it reaches by traveling from the bottom of your code to the top",
           "hierarchy": "Control Monad Trans Tardis",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Trans.Tardis",
           "name": "execTardisT",
           "normalized": "TardisT a b c d-\u003e(a,b)-\u003ec(a,b)",
@@ -490,6 +528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the current value of the 'backwards-traveling' state,\n which therefore came backwards from the future.\n You can think of backwards-traveling state as traveling\n \u003ccode\u003eupwards\u003c/code\u003e through your code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Trans.Tardis",
           "name": "getFuture",
           "package": "tardis",
@@ -500,6 +539,7 @@
         "index": {
           "description": "Retrieve the current value of the backwards-traveling state which therefore came backwards from the future You can think of backwards-traveling state as traveling upwards through your code",
           "hierarchy": "Control Monad Trans Tardis",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Trans.Tardis",
           "name": "getFuture",
           "package": "tardis",
@@ -514,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the current value of the 'forwards-traveling' state,\n which therefore came forwards from the past.\n You can think of forwards-traveling state as traveling\n \u003ccode\u003edownwards\u003c/code\u003e through your code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Trans.Tardis",
           "name": "getPast",
           "package": "tardis",
@@ -524,6 +565,7 @@
         "index": {
           "description": "Retrieve the current value of the forwards-traveling state which therefore came forwards from the past You can think of forwards-traveling state as traveling downwards through your code",
           "hierarchy": "Control Monad Trans Tardis",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Trans.Tardis",
           "name": "getPast",
           "package": "tardis",
@@ -538,6 +580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a specific view of the backwards-traveling state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Trans.Tardis",
           "name": "getsFuture",
           "package": "tardis",
@@ -548,6 +591,7 @@
         "index": {
           "description": "Retrieve specific view of the backwards-traveling state",
           "hierarchy": "Control Monad Trans Tardis",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Trans.Tardis",
           "name": "getsFuture",
           "normalized": "(a-\u003eb)-\u003eTardisT a c d b",
@@ -564,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a specific view of the forwards-traveling state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Trans.Tardis",
           "name": "getsPast",
           "package": "tardis",
@@ -574,6 +619,7 @@
         "index": {
           "description": "Retrieve specific view of the forwards-traveling state",
           "hierarchy": "Control Monad Trans Tardis",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Trans.Tardis",
           "name": "getsPast",
           "normalized": "(a-\u003eb)-\u003eTardisT c a d b",
@@ -590,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the backwards-traveling state\n as it passes through from future to past.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Trans.Tardis",
           "name": "modifyBackwards",
           "package": "tardis",
@@ -600,6 +647,7 @@
         "index": {
           "description": "Modify the backwards-traveling state as it passes through from future to past",
           "hierarchy": "Control Monad Trans Tardis",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Trans.Tardis",
           "name": "modifyBackwards",
           "normalized": "(a-\u003ea)-\u003eTardisT a b c()",
@@ -616,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the forwards-traveling state\n as it passes through from past to future.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Trans.Tardis",
           "name": "modifyForwards",
           "package": "tardis",
@@ -626,6 +675,7 @@
         "index": {
           "description": "Modify the forwards-traveling state as it passes through from past to future",
           "hierarchy": "Control Monad Trans Tardis",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Trans.Tardis",
           "name": "modifyForwards",
           "normalized": "(a-\u003ea)-\u003eTardisT b a c()",
@@ -642,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome Tardises never observe the \u003ccode\u003einitial\u003c/code\u003e state\n of either state stream, so it is convenient\n to simply hand dummy values to such Tardises.\n\u003c/p\u003e\u003cpre\u003e noState = (undefined, undefined)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Trans.Tardis",
           "name": "noState",
           "package": "tardis",
@@ -652,6 +703,7 @@
         "index": {
           "description": "Some Tardises never observe the initial state of either state stream so it is convenient to simply hand dummy values to such Tardises noState undefined undefined",
           "hierarchy": "Control Monad Trans Tardis",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Trans.Tardis",
           "name": "noState",
           "normalized": "(a,b)",
@@ -668,6 +720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Tardis is merely a pure state transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Trans.Tardis",
           "name": "runTardis",
           "package": "tardis",
@@ -678,6 +731,7 @@
         "index": {
           "description": "Tardis is merely pure state transformation",
           "hierarchy": "Control Monad Trans Tardis",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Trans.Tardis",
           "name": "runTardis",
           "normalized": "Tardis a b c-\u003e(a,b)-\u003e(c,(a,b))",
@@ -694,6 +748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA TardisT is merely an effectful state transformation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Trans.Tardis",
           "name": "runTardisT",
           "package": "tardis",
@@ -704,6 +759,7 @@
         "index": {
           "description": "TardisT is merely an effectful state transformation",
           "hierarchy": "Control Monad Trans Tardis",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Trans.Tardis",
           "name": "runTardisT",
           "normalized": "TardisT a b c d-\u003e(a,b)-\u003ec(d,(a,b))",
@@ -720,6 +776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the current value of the 'forwards-traveling' state,\n which will therefore be sent forwards to the future.\n This value can be retrieved by calls to \u003ca\u003egetPast\u003c/a\u003e\n located \u003ccode\u003ebelow\u003c/code\u003e the current location,\n unless it is overwritten by an intervening \u003ca\u003esendFuture\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Trans.Tardis",
           "name": "sendFuture",
           "package": "tardis",
@@ -730,6 +787,7 @@
         "index": {
           "description": "Set the current value of the forwards-traveling state which will therefore be sent forwards to the future This value can be retrieved by calls to getPast located below the current location unless it is overwritten by an intervening sendFuture",
           "hierarchy": "Control Monad Trans Tardis",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Trans.Tardis",
           "name": "sendFuture",
           "normalized": "a-\u003eTardisT b a c()",
@@ -746,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the current value of the 'backwards-traveling' state,\n which will therefore be sent backwards to the past.\n This value can be retrieved by calls to \u003ca\u003egetFuture\u003c/a\u003e\n located \u003ccode\u003eabove\u003c/code\u003e the current location,\n unless it is overwritten by an intervening \u003ca\u003esendPast\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Trans.Tardis",
           "name": "sendPast",
           "package": "tardis",
@@ -756,6 +815,7 @@
         "index": {
           "description": "Set the current value of the backwards-traveling state which will therefore be sent backwards to the past This value can be retrieved by calls to getFuture located above the current location unless it is overwritten by an intervening sendPast",
           "hierarchy": "Control Monad Trans Tardis",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Trans.Tardis",
           "name": "sendPast",
           "normalized": "a-\u003eTardisT a b c()",
@@ -772,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom a stateful computation, construct a Tardis.\n This is the pure parallel to the constructor \u003ca\u003eTardisT\u003c/a\u003e,\n and is polymorphic in the transformed monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:16 UTC 2014",
           "module": "Control.Monad.Trans.Tardis",
           "name": "tardis",
           "package": "tardis",
@@ -782,6 +843,7 @@
         "index": {
           "description": "From stateful computation construct Tardis This is the pure parallel to the constructor TardisT and is polymorphic in the transformed monad",
           "hierarchy": "Control Monad Trans Tardis",
+          "indexed": "2014-03-11T20:17:16",
           "module": "Control.Monad.Trans.Tardis",
           "name": "tardis",
           "normalized": "((a,b)-\u003e(c,(a,b)))-\u003eTardisT a b d c",

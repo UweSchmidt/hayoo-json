@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hubris"
+        "phrase": "hubris",
+        "type": "phrase"
       },
       "type": "context"
     }

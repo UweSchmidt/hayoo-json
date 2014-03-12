@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ebeats"
+        "phrase": "ebeats",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:26 UTC 2014",
           "module": "Data.Time.Ebeats",
           "name": "Ebeats",
           "package": "ebeats",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Time Ebeats",
+          "indexed": "2014-03-11T18:00:26",
           "module": "Data.Time.Ebeats",
           "name": "Ebeats",
           "package": "ebeats",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:26 UTC 2014",
           "module": "Data.Time.Ebeats",
           "name": "Ebeats",
           "package": "ebeats",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Time Ebeats",
+          "indexed": "2014-03-11T18:00:26",
           "module": "Data.Time.Ebeats",
           "name": "Ebeats",
           "package": "ebeats",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:26 UTC 2014",
           "module": "Data.Time.Ebeats",
           "name": "EbeatsTime",
           "package": "ebeats",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Time Ebeats",
+          "indexed": "2014-03-11T18:00:26",
           "module": "Data.Time.Ebeats",
           "name": "EbeatsTime",
           "package": "ebeats",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:26 UTC 2014",
           "module": "Data.Time.Ebeats",
           "name": "Ebeats",
           "package": "ebeats",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Time Ebeats",
+          "indexed": "2014-03-11T18:00:26",
           "module": "Data.Time.Ebeats",
           "name": "Ebeats",
           "package": "ebeats",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:26 UTC 2014",
           "module": "Data.Time.Ebeats",
           "name": "EbeatsTime",
           "package": "ebeats",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Time Ebeats",
+          "indexed": "2014-03-11T18:00:26",
           "module": "Data.Time.Ebeats",
           "name": "EbeatsTime",
           "package": "ebeats",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaddEbeatsTime a b = a + b -- Like addUTCTime.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:26 UTC 2014",
           "module": "Data.Time.Ebeats",
           "name": "addEbeatsTime",
           "package": "ebeats",
@@ -135,6 +146,7 @@
         "index": {
           "description": "addEbeatsTime Like addUTCTime",
           "hierarchy": "Data Time Ebeats",
+          "indexed": "2014-03-11T18:00:26",
           "module": "Data.Time.Ebeats",
           "name": "addEbeatsTime",
           "normalized": "Ebeats-\u003eEbeatsTime-\u003eEbeatsTime",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModified Julian Day, but not typed as such so that we can define a different \u003ca\u003eshow\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:26 UTC 2014",
           "module": "Data.Time.Ebeats",
           "name": "days",
           "package": "ebeats",
@@ -161,6 +174,7 @@
         "index": {
           "description": "Modified Julian Day but not typed as such so that we can define different show",
           "hierarchy": "Data Time Ebeats",
+          "indexed": "2014-03-11T18:00:26",
           "module": "Data.Time.Ebeats",
           "name": "days",
           "package": "ebeats",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:26 UTC 2014",
           "module": "Data.Time.Ebeats",
           "name": "diffEbeatsTime",
           "package": "ebeats",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Data Time Ebeats",
+          "indexed": "2014-03-11T18:00:26",
           "module": "Data.Time.Ebeats",
           "name": "diffEbeatsTime",
           "normalized": "EbeatsTime-\u003eEbeatsTime-\u003eEbeats",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:26 UTC 2014",
           "module": "Data.Time.Ebeats",
           "name": "ebeats",
           "package": "ebeats",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Data Time Ebeats",
+          "indexed": "2014-03-11T18:00:26",
           "module": "Data.Time.Ebeats",
           "name": "ebeats",
           "package": "ebeats",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:26 UTC 2014",
           "module": "Data.Time.Ebeats",
           "name": "ebeatsTimeValue",
           "package": "ebeats",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Data Time Ebeats",
+          "indexed": "2014-03-11T18:00:26",
           "module": "Data.Time.Ebeats",
           "name": "ebeatsTimeValue",
           "package": "ebeats",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:26 UTC 2014",
           "module": "Data.Time.Ebeats",
           "name": "ebeatsToSeconds",
           "package": "ebeats",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Data Time Ebeats",
+          "indexed": "2014-03-11T18:00:26",
           "module": "Data.Time.Ebeats",
           "name": "ebeatsToSeconds",
           "normalized": "Ebeats-\u003eFixed E",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:26 UTC 2014",
           "module": "Data.Time.Ebeats",
           "name": "getEbeats",
           "package": "ebeats",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Data Time Ebeats",
+          "indexed": "2014-03-11T18:00:26",
           "module": "Data.Time.Ebeats",
           "name": "getEbeats",
           "package": "ebeats",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:26 UTC 2014",
           "module": "Data.Time.Ebeats",
           "name": "getEbeatsTime",
           "package": "ebeats",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Data Time Ebeats",
+          "indexed": "2014-03-11T18:00:26",
           "module": "Data.Time.Ebeats",
           "name": "getEbeatsTime",
           "package": "ebeats",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:26 UTC 2014",
           "module": "Data.Time.Ebeats",
           "name": "secondsToEbeats",
           "package": "ebeats",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Data Time Ebeats",
+          "indexed": "2014-03-11T18:00:26",
           "module": "Data.Time.Ebeats",
           "name": "secondsToEbeats",
           "normalized": "Fixed E-\u003eEbeats",
@@ -329,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:26 UTC 2014",
           "module": "Data.Time.Ebeats",
           "name": "toEbeats",
           "package": "ebeats",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Data Time Ebeats",
+          "indexed": "2014-03-11T18:00:26",
           "module": "Data.Time.Ebeats",
           "name": "toEbeats",
           "normalized": "UTCTime-\u003eEbeats",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:26 UTC 2014",
           "module": "Data.Time.Ebeats",
           "name": "toEbeatsTime",
           "package": "ebeats",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Data Time Ebeats",
+          "indexed": "2014-03-11T18:00:26",
           "module": "Data.Time.Ebeats",
           "name": "toEbeatsTime",
           "normalized": "UTCTime-\u003eEbeatsTime",

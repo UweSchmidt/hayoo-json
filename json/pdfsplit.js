@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pdfsplit"
+        "phrase": "pdfsplit",
+        "type": "phrase"
       },
       "type": "context"
     }

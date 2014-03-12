@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "github-backup"
+        "phrase": "github-backup",
+        "type": "phrase"
       },
       "type": "context"
     }

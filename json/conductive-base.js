@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "conductive-base"
+        "phrase": "conductive-base",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "ConductiveBaseData",
           "package": "conductive-base",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "ConductiveBaseData",
           "package": "conductive-base",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlayers, TempoClocks, etc. are stored here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "MusicalEnvironment",
           "package": "conductive-base",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Players TempoClocks etc are stored here",
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "MusicalEnvironment",
           "package": "conductive-base",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea data type for traditional musical time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "MusicalTime",
           "package": "conductive-base",
@@ -72,6 +77,7 @@
         "index": {
           "description": "data type for traditional musical time",
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "MusicalTime",
           "package": "conductive-base",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlayers are played using the play functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "Player",
           "package": "conductive-base",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Players are played using the play functions",
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "Player",
           "package": "conductive-base",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea data type used by the play function and useful when displaying running players\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "PlayerStatus",
           "package": "conductive-base",
@@ -118,6 +127,7 @@
         "index": {
           "description": "data type used by the play function and useful when displaying running players",
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "PlayerStatus",
           "package": "conductive-base",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea data type for describing a tempo and when it began\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "TempoChange",
           "package": "conductive-base",
@@ -141,6 +152,7 @@
         "index": {
           "description": "data type for describing tempo and when it began",
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "TempoChange",
           "package": "conductive-base",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor Players, the key time-related data type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "TempoClock",
           "package": "conductive-base",
@@ -164,6 +177,7 @@
         "index": {
           "description": "for Players the key time-related data type",
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "TempoClock",
           "package": "conductive-base",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea data type describing a time signature and when it began. A time signature is specified as number of beats per measure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "TimeSignature",
           "package": "conductive-base",
@@ -187,6 +202,7 @@
         "index": {
           "description": "data type describing time signature and when it began time signature is specified as number of beats per measure",
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "TimeSignature",
           "package": "conductive-base",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "MusicalEnvironment",
           "package": "conductive-base",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "MusicalEnvironment",
           "package": "conductive-base",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "MusicalTime",
           "package": "conductive-base",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "MusicalTime",
           "package": "conductive-base",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "Paused",
           "package": "conductive-base",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "Paused",
           "package": "conductive-base",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "Pausing",
           "package": "conductive-base",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "Pausing",
           "package": "conductive-base",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "Player",
           "package": "conductive-base",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "Player",
           "package": "conductive-base",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "Playing",
           "package": "conductive-base",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "Playing",
           "package": "conductive-base",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "Resetting",
           "package": "conductive-base",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "Resetting",
           "package": "conductive-base",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "Stopped",
           "package": "conductive-base",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "Stopped",
           "package": "conductive-base",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "Stopping",
           "package": "conductive-base",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "Stopping",
           "package": "conductive-base",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "TempoChange",
           "package": "conductive-base",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "TempoChange",
           "package": "conductive-base",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "TempoClock",
           "package": "conductive-base",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "TempoClock",
           "package": "conductive-base",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "TimeSignature",
           "package": "conductive-base",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "TimeSignature",
           "package": "conductive-base",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "actionStore",
           "package": "conductive-base",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "actionStore",
           "normalized": "MutableMap String(MusicalEnvironment-\u003ePlayer-\u003eDouble-\u003eDouble-\u003eIO())",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "beat",
           "package": "conductive-base",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "beat",
           "package": "conductive-base",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "beatOfTempoChange",
           "package": "conductive-base",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "beatOfTempoChange",
           "package": "conductive-base",
@@ -531,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "environmentName",
           "package": "conductive-base",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "environmentName",
           "package": "conductive-base",
@@ -553,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "iOIStore",
           "package": "conductive-base",
@@ -562,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "iOIStore",
           "normalized": "MutableMap String(MusicalEnvironment-\u003ePlayer-\u003eDouble-\u003eDouble-\u003eIO Double)",
@@ -577,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "interruptStore",
           "package": "conductive-base",
@@ -586,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "interruptStore",
           "normalized": "MutableMap String[IO()]",
@@ -601,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "measure",
           "package": "conductive-base",
@@ -610,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "measure",
           "package": "conductive-base",
@@ -622,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "newTempo",
           "package": "conductive-base",
@@ -631,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "newTempo",
           "package": "conductive-base",
@@ -644,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "playerAction",
           "package": "conductive-base",
@@ -653,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "playerAction",
           "package": "conductive-base",
@@ -666,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "playerBeat",
           "package": "conductive-base",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "playerBeat",
           "package": "conductive-base",
@@ -688,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "playerClock",
           "package": "conductive-base",
@@ -697,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "playerClock",
           "package": "conductive-base",
@@ -710,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "playerCounter",
           "package": "conductive-base",
@@ -719,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "playerCounter",
           "package": "conductive-base",
@@ -732,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "playerIOI",
           "package": "conductive-base",
@@ -741,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "playerIOI",
           "package": "conductive-base",
@@ -754,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "playerInterrupt",
           "package": "conductive-base",
@@ -763,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "playerInterrupt",
           "package": "conductive-base",
@@ -776,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "playerName",
           "package": "conductive-base",
@@ -785,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "playerName",
           "package": "conductive-base",
@@ -798,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "playerPauseTime",
           "package": "conductive-base",
@@ -807,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "playerPauseTime",
           "package": "conductive-base",
@@ -820,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "playerStartingBeat",
           "package": "conductive-base",
@@ -829,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "playerStartingBeat",
           "package": "conductive-base",
@@ -842,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "playerStatus",
           "package": "conductive-base",
@@ -851,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "playerStatus",
           "package": "conductive-base",
@@ -864,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "playerStore",
           "package": "conductive-base",
@@ -873,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "playerStore",
           "package": "conductive-base",
@@ -886,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "startTime",
           "package": "conductive-base",
@@ -895,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "startTime",
           "package": "conductive-base",
@@ -908,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "startingBeat",
           "package": "conductive-base",
@@ -917,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "startingBeat",
           "package": "conductive-base",
@@ -930,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "startingMeasure",
           "package": "conductive-base",
@@ -939,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "startingMeasure",
           "package": "conductive-base",
@@ -952,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "tempoChanges",
           "package": "conductive-base",
@@ -961,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "tempoChanges",
           "normalized": "[TempoChange]",
@@ -976,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "tempoClockStore",
           "package": "conductive-base",
@@ -985,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "tempoClockStore",
           "package": "conductive-base",
@@ -998,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "timeOfTempoChange",
           "package": "conductive-base",
@@ -1007,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "timeOfTempoChange",
           "package": "conductive-base",
@@ -1020,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "timeSignature",
           "package": "conductive-base",
@@ -1029,6 +1120,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "timeSignature",
           "package": "conductive-base",
@@ -1042,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "timeSignatureChanges",
           "package": "conductive-base",
@@ -1051,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveBaseData",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveBaseData",
           "name": "timeSignatureChanges",
           "normalized": "[TimeSignature]",
@@ -1066,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveDefaults",
           "name": "ConductiveDefaults",
           "package": "conductive-base",
@@ -1074,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveDefaults",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveDefaults",
           "name": "ConductiveDefaults",
           "package": "conductive-base",
@@ -1087,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveDefaults",
           "name": "defaultActionStore",
           "package": "conductive-base",
@@ -1096,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveDefaults",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveDefaults",
           "name": "defaultActionStore",
           "normalized": "IO(TVar(Map[Char](a-\u003ea-\u003ea-\u003ea-\u003eIO())))",
@@ -1111,6 +1209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveDefaults",
           "name": "defaultIOIStore",
           "package": "conductive-base",
@@ -1120,6 +1219,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveDefaults",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveDefaults",
           "name": "defaultIOIStore",
           "normalized": "IO(TVar(Map[Char]a))",
@@ -1135,6 +1235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveDefaults",
           "name": "defaultInterruptStore",
           "package": "conductive-base",
@@ -1144,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveDefaults",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveDefaults",
           "name": "defaultInterruptStore",
           "normalized": "IO(TVar(Map[Char][IO()]))",
@@ -1159,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveDefaults",
           "name": "defaultMusicalEnvironment",
           "package": "conductive-base",
@@ -1168,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveDefaults",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveDefaults",
           "name": "defaultMusicalEnvironment",
           "package": "conductive-base",
@@ -1181,6 +1285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveDefaults",
           "name": "defaultPlayerStore",
           "package": "conductive-base",
@@ -1190,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveDefaults",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveDefaults",
           "name": "defaultPlayerStore",
           "package": "conductive-base",
@@ -1203,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveDefaults",
           "name": "defaultTempoClock",
           "package": "conductive-base",
@@ -1212,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveDefaults",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveDefaults",
           "name": "defaultTempoClock",
           "package": "conductive-base",
@@ -1225,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.ConductiveDefaults",
           "name": "defaultTempoClockStore",
           "package": "conductive-base",
@@ -1234,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive ConductiveDefaults",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.ConductiveDefaults",
           "name": "defaultTempoClockStore",
           "normalized": "IO(TVar(Map[Char]TempoClock))",
@@ -1249,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "MiscListUtils",
           "package": "conductive-base",
@@ -1257,6 +1368,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "MiscListUtils",
           "package": "conductive-base",
@@ -1270,6 +1382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "coin",
           "package": "conductive-base",
@@ -1279,6 +1392,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "coin",
           "package": "conductive-base",
@@ -1291,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "diff_select",
           "package": "conductive-base",
@@ -1300,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "diff_select",
           "normalized": "Int-\u003eInt-\u003eIO[Int]",
@@ -1314,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "diff_select'",
           "package": "conductive-base",
@@ -1323,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "diff_select'",
           "normalized": "a-\u003e[a]-\u003eIO[a]",
@@ -1337,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "getSeed",
           "package": "conductive-base",
@@ -1346,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "getSeed",
           "package": "conductive-base",
@@ -1359,6 +1479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "joinVals",
           "package": "conductive-base",
@@ -1368,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "joinVals",
           "normalized": "Int-\u003eInt-\u003e[a]-\u003e[a]",
@@ -1383,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "lace",
           "package": "conductive-base",
@@ -1392,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "lace",
           "normalized": "[[a]]-\u003eInt-\u003e[a]",
@@ -1406,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "lerp",
           "package": "conductive-base",
@@ -1415,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "lerp",
           "normalized": "(a,a)-\u003e(a,a)-\u003ea-\u003ea",
@@ -1429,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "normalize",
           "package": "conductive-base",
@@ -1438,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "normalize",
           "normalized": "[a]-\u003e[a]",
@@ -1452,6 +1580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "normalizeTo",
           "package": "conductive-base",
@@ -1461,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "normalizeTo",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -1476,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "npletAt",
           "package": "conductive-base",
@@ -1485,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "npletAt",
           "normalized": "Int-\u003eInt-\u003e[a]-\u003e[a]",
@@ -1500,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "odds",
           "package": "conductive-base",
@@ -1509,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "odds",
           "normalized": "Int-\u003eInt-\u003eIO Bool",
@@ -1523,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "pick",
           "package": "conductive-base",
@@ -1532,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "pick",
           "normalized": "[a]-\u003eIO a",
@@ -1546,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "pick'",
           "package": "conductive-base",
@@ -1555,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "pick'",
           "normalized": "a-\u003e[a]-\u003eb-\u003eIO a",
@@ -1569,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "pickN",
           "package": "conductive-base",
@@ -1578,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "pickN",
           "normalized": "a-\u003e[b]-\u003eIO[b]",
@@ -1592,6 +1732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "rList",
           "package": "conductive-base",
@@ -1601,6 +1742,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "rList",
           "normalized": "Int-\u003eIO[Int]",
@@ -1616,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "randomList",
           "package": "conductive-base",
@@ -1625,6 +1768,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "randomList",
           "normalized": "Int-\u003eStdGen-\u003e[Int]",
@@ -1640,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "randomSubset",
           "package": "conductive-base",
@@ -1649,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "randomSubset",
           "normalized": "[a]-\u003eInt-\u003eIO[a]",
@@ -1664,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "replaceAt",
           "package": "conductive-base",
@@ -1673,6 +1820,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "replaceAt",
           "normalized": "Int-\u003e[a]-\u003e[a]-\u003e[a]",
@@ -1688,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "replicator",
           "package": "conductive-base",
@@ -1697,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "replicator",
           "normalized": "[(Int,a)]-\u003e[a]",
@@ -1711,6 +1861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "rotate",
           "package": "conductive-base",
@@ -1720,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "rotate",
           "normalized": "[a]-\u003eInt-\u003e[a]",
@@ -1734,6 +1886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "shuffle",
           "package": "conductive-base",
@@ -1743,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "shuffle",
           "normalized": "[a]-\u003eIO[a]",
@@ -1758,6 +1912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomly shuffle a list without the IO Monad\n   \u003cem\u003eO(N)\u003c/em\u003e\n ??? -- where did I get this function from? I didn't write it...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "shuffle'",
           "package": "conductive-base",
@@ -1768,6 +1923,7 @@
         "index": {
           "description": "Randomly shuffle list without the IO Monad where did get this function from didn write it",
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "shuffle'",
           "normalized": "[a]-\u003eStdGen-\u003e([a],StdGen)",
@@ -1782,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "slice",
           "package": "conductive-base",
@@ -1791,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "slice",
           "normalized": "[a]-\u003e[Int]-\u003e[a]",
@@ -1805,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "stutter",
           "package": "conductive-base",
@@ -1814,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "stutter",
           "normalized": "Int-\u003eInt-\u003eInt-\u003e[a]-\u003e[a]",
@@ -1828,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "takeToValue",
           "package": "conductive-base",
@@ -1837,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "takeToValue",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -1852,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "takeToValue'",
           "package": "conductive-base",
@@ -1861,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "takeToValue'",
           "normalized": "[a]-\u003ea-\u003ea-\u003e[a]-\u003e[a]",
@@ -1876,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "unconcat",
           "package": "conductive-base",
@@ -1885,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "unconcat",
           "normalized": "[a]-\u003e[[a]]",
@@ -1899,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "weightedList",
           "package": "conductive-base",
@@ -1908,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MiscListUtils",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MiscListUtils",
           "name": "weightedList",
           "normalized": "[(Int,a)]-\u003e[a]",
@@ -1923,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "MusicalEnvironment",
           "package": "conductive-base",
@@ -1931,6 +2100,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MusicalEnvironment",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "MusicalEnvironment",
           "package": "conductive-base",
@@ -1945,6 +2115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns a list of the names of all action functions stored in a MusicalEnvironment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "actions",
           "package": "conductive-base",
@@ -1955,6 +2126,7 @@
         "index": {
           "description": "returns list of the names of all action functions stored in MusicalEnvironment",
           "hierarchy": "Sound Conductive MusicalEnvironment",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "actions",
           "normalized": "MusicalEnvironment-\u003eIO[String]",
@@ -1969,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "eChangeTempo",
           "package": "conductive-base",
@@ -1978,6 +2151,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MusicalEnvironment",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "eChangeTempo",
           "normalized": "MusicalEnvironment-\u003eString-\u003eDouble-\u003eIO()",
@@ -1993,6 +2167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "eChangeTimeSignature",
           "package": "conductive-base",
@@ -2002,6 +2177,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MusicalEnvironment",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "eChangeTimeSignature",
           "normalized": "MusicalEnvironment-\u003eString-\u003eInt-\u003eIO()",
@@ -2018,6 +2194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns a list of the names of all IOI functions stored in a MusicalEnvironment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "iOIs",
           "package": "conductive-base",
@@ -2028,6 +2205,7 @@
         "index": {
           "description": "returns list of the names of all IOI functions stored in MusicalEnvironment",
           "hierarchy": "Sound Conductive MusicalEnvironment",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "iOIs",
           "normalized": "MusicalEnvironment-\u003eIO[String]",
@@ -2044,6 +2222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns a list of the names of all interrupt functions stored in a MusicalEnvironment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "interrupts",
           "package": "conductive-base",
@@ -2054,6 +2233,7 @@
         "index": {
           "description": "returns list of the names of all interrupt functions stored in MusicalEnvironment",
           "hierarchy": "Sound Conductive MusicalEnvironment",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "interrupts",
           "normalized": "MusicalEnvironment-\u003eIO[String]",
@@ -2069,6 +2249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns a list of the names of all Players stored in a MusicalEnvironment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "players",
           "package": "conductive-base",
@@ -2079,6 +2260,7 @@
         "index": {
           "description": "returns list of the names of all Players stored in MusicalEnvironment",
           "hierarchy": "Sound Conductive MusicalEnvironment",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "players",
           "normalized": "MusicalEnvironment-\u003eIO[String]",
@@ -2094,6 +2276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns a list of the names of all TempoClocks stored in a MusicalEnvironment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "tempoClocks",
           "package": "conductive-base",
@@ -2104,6 +2287,7 @@
         "index": {
           "description": "returns list of the names of all TempoClocks stored in MusicalEnvironment",
           "hierarchy": "Sound Conductive MusicalEnvironment",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "tempoClocks",
           "normalized": "MusicalEnvironment-\u003eIO[String]",
@@ -2119,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "withAction",
           "package": "conductive-base",
@@ -2128,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MusicalEnvironment",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "withAction",
           "normalized": "MusicalEnvironment-\u003e((MusicalEnvironment-\u003ePlayer-\u003eDouble-\u003eDouble-\u003eIO())-\u003ea)-\u003eString-\u003eIO(Maybe a)",
@@ -2143,6 +2329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "withIOI",
           "package": "conductive-base",
@@ -2152,6 +2339,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MusicalEnvironment",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "withIOI",
           "normalized": "MusicalEnvironment-\u003e((MusicalEnvironment-\u003ePlayer-\u003eDouble-\u003eDouble-\u003eIO Double)-\u003ea)-\u003eString-\u003eIO(Maybe a)",
@@ -2167,6 +2355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "withInterrupt",
           "package": "conductive-base",
@@ -2176,6 +2365,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MusicalEnvironment",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "withInterrupt",
           "normalized": "MusicalEnvironment-\u003e([IO()]-\u003ea)-\u003eString-\u003eIO(Maybe a)",
@@ -2191,6 +2381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "withPlayer",
           "package": "conductive-base",
@@ -2200,6 +2391,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MusicalEnvironment",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "withPlayer",
           "normalized": "MusicalEnvironment-\u003e(Player-\u003ea)-\u003eString-\u003eIO(Maybe a)",
@@ -2215,6 +2407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "withTempoClock",
           "package": "conductive-base",
@@ -2224,6 +2417,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MusicalEnvironment",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalEnvironment",
           "name": "withTempoClock",
           "normalized": "MusicalEnvironment-\u003e(TempoClock-\u003ea)-\u003eString-\u003eIO(Maybe a)",
@@ -2240,6 +2434,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a module for functions concerned with time and its use in music.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "MusicalTime",
           "package": "conductive-base",
@@ -2249,6 +2444,7 @@
         "index": {
           "description": "This is module for functions concerned with time and its use in music",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "MusicalTime",
           "package": "conductive-base",
@@ -2263,6 +2459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econverts a list of relative time deltas to a list of absolute times\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "absolutesToDeltas",
           "package": "conductive-base",
@@ -2273,6 +2470,7 @@
         "index": {
           "description": "converts list of relative time deltas to list of absolute times",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "absolutesToDeltas",
           "normalized": "[a]-\u003e[a]",
@@ -2289,6 +2487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econverts a time delta specified in beats (second argument) to one in seconds based on the given clock (first argument)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "beatsToDelta",
           "package": "conductive-base",
@@ -2299,6 +2498,7 @@
         "index": {
           "description": "converts time delta specified in beats second argument to one in seconds based on the given clock first argument",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "beatsToDelta",
           "normalized": "TempoClock-\u003eDouble-\u003eDouble",
@@ -2314,6 +2514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "beatsToDelta'",
           "package": "conductive-base",
@@ -2323,6 +2524,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "beatsToDelta'",
           "normalized": "a-\u003ea-\u003ea",
@@ -2339,6 +2541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egiven a TempoClock and a new tempo, adds a TempoChange to it and returns a new clock\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "changeTempo",
           "package": "conductive-base",
@@ -2349,6 +2552,7 @@
         "index": {
           "description": "given TempoClock and new tempo adds TempoChange to it and returns new clock",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "changeTempo",
           "normalized": "TempoClock-\u003eDouble-\u003eIO TempoClock",
@@ -2365,6 +2569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egiven a TempoClock and a new time signature, adds a TimeSignatureChange and returns a new TempoClock. Changing the time signature takes effect in the next measure after the current one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "changeTimeSignature",
           "package": "conductive-base",
@@ -2375,6 +2580,7 @@
         "index": {
           "description": "given TempoClock and new time signature adds TimeSignatureChange and returns new TempoClock Changing the time signature takes effect in the next measure after the current one",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "changeTimeSignature",
           "normalized": "TempoClock-\u003eInt-\u003eIO TempoClock",
@@ -2391,6 +2597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhen given a clock, returns the current beat\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "currentBeat",
           "package": "conductive-base",
@@ -2401,6 +2608,7 @@
         "index": {
           "description": "when given clock returns the current beat",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "currentBeat",
           "normalized": "TempoClock-\u003eIO Double",
@@ -2417,6 +2625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhen given a clock, returns the current measure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "currentMeasure",
           "package": "conductive-base",
@@ -2427,6 +2636,7 @@
         "index": {
           "description": "when given clock returns the current measure",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "currentMeasure",
           "normalized": "TempoClock-\u003eIO Int",
@@ -2443,6 +2653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhen given a clock, returns the current MusicalTime\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "currentMusicalTime",
           "package": "conductive-base",
@@ -2453,6 +2664,7 @@
         "index": {
           "description": "when given clock returns the current MusicalTime",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "currentMusicalTime",
           "normalized": "TempoClock-\u003eIO MusicalTime",
@@ -2469,6 +2681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the time as a more human-readable string version of MusicalTime\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "currentMusicalTime2",
           "package": "conductive-base",
@@ -2479,6 +2692,7 @@
         "index": {
           "description": "returns the time as more human-readable string version of MusicalTime",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "currentMusicalTime2",
           "normalized": "TempoClock-\u003eIO[Char]",
@@ -2495,6 +2709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the latest (current) tempo of a clock\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "currentTempo",
           "package": "conductive-base",
@@ -2505,6 +2720,7 @@
         "index": {
           "description": "returns the latest current tempo of clock",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "currentTempo",
           "normalized": "TempoClock-\u003eDouble",
@@ -2521,6 +2737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea cast from POSIX time to a Double\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "currentTime",
           "package": "conductive-base",
@@ -2531,6 +2748,7 @@
         "index": {
           "description": "cast from POSIX time to Double",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "currentTime",
           "package": "conductive-base",
@@ -2545,6 +2763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the current time signature of a clock\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "currentTimeSignature",
           "package": "conductive-base",
@@ -2555,6 +2774,7 @@
         "index": {
           "description": "returns the current time signature of clock",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "currentTimeSignature",
           "normalized": "TempoClock-\u003eIO Int",
@@ -2571,6 +2791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the current (may not be latest) time signature change of a clock\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "currentTimeSignatureChange",
           "package": "conductive-base",
@@ -2581,6 +2802,7 @@
         "index": {
           "description": "returns the current may not be latest time signature change of clock",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "currentTimeSignatureChange",
           "normalized": "TempoClock-\u003eIO TimeSignature",
@@ -2597,6 +2819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econverts a time delta (first argument) to a length specified in beats based on the given tempo (second argument)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "deltaToBeats",
           "package": "conductive-base",
@@ -2607,6 +2830,7 @@
         "index": {
           "description": "converts time delta first argument to length specified in beats based on the given tempo second argument",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "deltaToBeats",
           "normalized": "a-\u003ea-\u003ea",
@@ -2623,6 +2847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econverts a list of relative time deltas to a list of absolute times starting from the given time (first argument)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "deltasToAbsolutes",
           "package": "conductive-base",
@@ -2633,6 +2858,7 @@
         "index": {
           "description": "converts list of relative time deltas to list of absolute times starting from the given time first argument",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "deltasToAbsolutes",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -2649,6 +2875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea function which displays a musical time with beats to three decimal places, as it's more readable that way...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "displayMusicalTime",
           "package": "conductive-base",
@@ -2659,6 +2886,7 @@
         "index": {
           "description": "function which displays musical time with beats to three decimal places as it more readable that way",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "displayMusicalTime",
           "normalized": "MusicalTime-\u003e[Char]",
@@ -2675,6 +2903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean alias for currentBeat\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "elapsedBeats",
           "package": "conductive-base",
@@ -2685,6 +2914,7 @@
         "index": {
           "description": "an alias for currentBeat",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "elapsedBeats",
           "normalized": "TempoClock-\u003eIO Double",
@@ -2701,6 +2931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshows the elapsed time in terms of a MusicalTime\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "elapsedMusicalTime",
           "package": "conductive-base",
@@ -2711,6 +2942,7 @@
         "index": {
           "description": "shows the elapsed time in terms of MusicalTime",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "elapsedMusicalTime",
           "normalized": "TempoClock-\u003eIO MusicalTime",
@@ -2727,6 +2959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the time elapsed since the start time of a given clock\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "elapsedTime",
           "package": "conductive-base",
@@ -2737,6 +2970,7 @@
         "index": {
           "description": "returns the time elapsed since the start time of given clock",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "elapsedTime",
           "normalized": "TempoClock-\u003eIO Double",
@@ -2753,6 +2987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the latest (current) tempo change (not tempo) of a clock\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "lastTempoChange",
           "package": "conductive-base",
@@ -2763,6 +2998,7 @@
         "index": {
           "description": "returns the latest current tempo change not tempo of clock",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "lastTempoChange",
           "normalized": "TempoClock-\u003eTempoChange",
@@ -2779,6 +3015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the latest (may not be current) time signature change (not timesignature) of a clock\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "lastTimeSignatureChange",
           "package": "conductive-base",
@@ -2789,6 +3026,7 @@
         "index": {
           "description": "returns the latest may not be current time signature change not timesignature of clock",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "lastTimeSignatureChange",
           "normalized": "TempoClock-\u003eTimeSignature",
@@ -2805,6 +3043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea cast from MusicalTime to beats\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "musicalTimeToBeats",
           "package": "conductive-base",
@@ -2815,6 +3054,7 @@
         "index": {
           "description": "cast from MusicalTime to beats",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "musicalTimeToBeats",
           "normalized": "TempoClock-\u003eMusicalTime-\u003eDouble",
@@ -2831,6 +3071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the time elapsed since the last tempo change\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "timeSinceTempoChange",
           "package": "conductive-base",
@@ -2841,6 +3082,7 @@
         "index": {
           "description": "returns the time elapsed since the last tempo change",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "timeSinceTempoChange",
           "normalized": "TempoClock-\u003eIO Double",
@@ -2857,6 +3099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econverts a string with the time, written as \u003ca\u003emeasure.beat.decimalFractionOfABeat\u003c/a\u003e, to a MusicalTime. \n\u003c/p\u003e\u003cp\u003eFor example, \u003ca\u003e2.2.5\u003c/a\u003e converts to MusicalTime { measure = 2, beat = 2.5 }.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MusicalTime",
           "name": "timeStringToMusicalTime",
           "package": "conductive-base",
@@ -2867,6 +3110,7 @@
         "index": {
           "description": "converts string with the time written as measure.beat.decimalFractionOfABeat to MusicalTime For example converts to MusicalTime measure beat",
           "hierarchy": "Sound Conductive MusicalTime",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MusicalTime",
           "name": "timeStringToMusicalTime",
           "normalized": "[Char]-\u003eMusicalTime",
@@ -2882,6 +3126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MutableMap",
           "name": "MutableMap",
           "package": "conductive-base",
@@ -2890,6 +3135,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MutableMap",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MutableMap",
           "name": "MutableMap",
           "package": "conductive-base",
@@ -2903,6 +3149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MutableMap",
           "name": "MutableMap",
           "package": "conductive-base",
@@ -2911,6 +3158,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MutableMap",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MutableMap",
           "name": "MutableMap",
           "package": "conductive-base",
@@ -2924,6 +3172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MutableMap",
           "name": "(+@)",
           "package": "conductive-base",
@@ -2933,6 +3182,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MutableMap",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MutableMap",
           "name": "(+@) +@",
           "normalized": "TVar(Map a b)-\u003e(a,b)-\u003eIO()",
@@ -2947,6 +3197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MutableMap",
           "name": "(-@)",
           "package": "conductive-base",
@@ -2956,6 +3207,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MutableMap",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MutableMap",
           "name": "(-@) -@",
           "normalized": "TVar(Map a b)-\u003ea-\u003eIO()",
@@ -2970,6 +3222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MutableMap",
           "name": "(?@)",
           "package": "conductive-base",
@@ -2979,6 +3232,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MutableMap",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MutableMap",
           "name": "(?@) ?@",
           "normalized": "TVar(Map a b)-\u003ea-\u003eIO(Maybe b)",
@@ -2993,6 +3247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MutableMap",
           "name": "addVal",
           "package": "conductive-base",
@@ -3002,6 +3257,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MutableMap",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MutableMap",
           "name": "addVal",
           "normalized": "TVar(Map a b)-\u003e(a,b)-\u003eIO()",
@@ -3017,6 +3273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MutableMap",
           "name": "addVals",
           "package": "conductive-base",
@@ -3026,6 +3283,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MutableMap",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MutableMap",
           "name": "addVals",
           "normalized": "TVar(Map a b)-\u003e[(a,b)]-\u003eIO()",
@@ -3041,6 +3299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MutableMap",
           "name": "changeKey",
           "package": "conductive-base",
@@ -3050,6 +3309,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MutableMap",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MutableMap",
           "name": "changeKey",
           "normalized": "TVar(Map a b)-\u003ea-\u003ea-\u003eIO()",
@@ -3065,6 +3325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MutableMap",
           "name": "changeVal",
           "package": "conductive-base",
@@ -3074,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MutableMap",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MutableMap",
           "name": "changeVal",
           "normalized": "TVar(Map a b)-\u003e(a,b)-\u003eIO()",
@@ -3089,6 +3351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MutableMap",
           "name": "copyVal",
           "package": "conductive-base",
@@ -3098,6 +3361,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MutableMap",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MutableMap",
           "name": "copyVal",
           "normalized": "TVar(Map a b)-\u003ea-\u003ea-\u003eIO()",
@@ -3113,6 +3377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MutableMap",
           "name": "deleteVal",
           "package": "conductive-base",
@@ -3122,6 +3387,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MutableMap",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MutableMap",
           "name": "deleteVal",
           "normalized": "TVar(Map a b)-\u003ea-\u003eIO()",
@@ -3137,6 +3403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MutableMap",
           "name": "elems",
           "package": "conductive-base",
@@ -3146,6 +3413,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MutableMap",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MutableMap",
           "name": "elems",
           "normalized": "TVar(Map a b)-\u003eIO[b]",
@@ -3160,6 +3428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MutableMap",
           "name": "keys",
           "package": "conductive-base",
@@ -3169,6 +3438,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MutableMap",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MutableMap",
           "name": "keys",
           "normalized": "TVar(Map a b)-\u003eIO[a]",
@@ -3183,6 +3453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MutableMap",
           "name": "mapMMapIO_",
           "package": "conductive-base",
@@ -3192,6 +3463,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MutableMap",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MutableMap",
           "name": "mapMMapIO_",
           "normalized": "TVar(Map a b)-\u003e((a,b)-\u003eIO c)-\u003eIO()",
@@ -3207,6 +3479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MutableMap",
           "name": "modifyMMap",
           "package": "conductive-base",
@@ -3216,6 +3489,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MutableMap",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MutableMap",
           "name": "modifyMMap",
           "normalized": "TVar a-\u003e(a-\u003ea)-\u003eIO()",
@@ -3231,6 +3505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MutableMap",
           "name": "newMMap",
           "package": "conductive-base",
@@ -3240,6 +3515,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MutableMap",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MutableMap",
           "name": "newMMap",
           "normalized": "[(a,b)]-\u003eIO(TVar(Map a b))",
@@ -3255,6 +3531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MutableMap",
           "name": "newMMapSingleton",
           "package": "conductive-base",
@@ -3264,6 +3541,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MutableMap",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MutableMap",
           "name": "newMMapSingleton",
           "normalized": "(a,b)-\u003eIO(TVar(Map a b))",
@@ -3279,6 +3557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MutableMap",
           "name": "toMap",
           "package": "conductive-base",
@@ -3288,6 +3567,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MutableMap",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MutableMap",
           "name": "toMap",
           "normalized": "TVar a-\u003eIO a",
@@ -3303,6 +3583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MutableMap",
           "name": "withKey",
           "package": "conductive-base",
@@ -3312,6 +3593,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MutableMap",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MutableMap",
           "name": "withKey",
           "normalized": "TVar(Map a b)-\u003e(b-\u003ec)-\u003ea-\u003eIO(Maybe c)",
@@ -3327,6 +3609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MutableMap",
           "name": "withKeys",
           "package": "conductive-base",
@@ -3336,6 +3619,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MutableMap",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MutableMap",
           "name": "withKeys",
           "normalized": "TVar(Map a b)-\u003e(b-\u003ea)-\u003e[a]-\u003eIO[Maybe a]",
@@ -3351,6 +3635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MutableMap",
           "name": "withKeys_",
           "package": "conductive-base",
@@ -3360,6 +3645,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MutableMap",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MutableMap",
           "name": "withKeys_",
           "normalized": "TVar(Map a b)-\u003e(b-\u003ea)-\u003e[a]-\u003eIO()",
@@ -3375,6 +3661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.MutableMap",
           "name": "withMMap",
           "package": "conductive-base",
@@ -3384,6 +3671,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive MutableMap",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.MutableMap",
           "name": "withMMap",
           "normalized": "TVar a-\u003e(a-\u003eb)-\u003eIO b",
@@ -3400,6 +3688,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a collection of functions which are useful for dealing with Players. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "Player",
           "package": "conductive-base",
@@ -3409,6 +3698,7 @@
         "index": {
           "description": "This is collection of functions which are useful for dealing with Players",
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "Player",
           "package": "conductive-base",
@@ -3423,6 +3713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new player from the given arguments and adds it to the MusicalEnvironment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "addNewPlayer",
           "package": "conductive-base",
@@ -3433,6 +3724,7 @@
         "index": {
           "description": "Creates new player from the given arguments and adds it to the MusicalEnvironment",
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "addNewPlayer",
           "normalized": "MusicalEnvironment-\u003e(String,(String,String,String,Double))-\u003eIO()",
@@ -3448,6 +3740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "basicPlay",
           "package": "conductive-base",
@@ -3457,6 +3750,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "basicPlay",
           "normalized": "MusicalEnvironment-\u003eString-\u003ePlayerStatus-\u003eIO()",
@@ -3473,6 +3767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplays information about a single player.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "displayPlayer",
           "package": "conductive-base",
@@ -3483,6 +3778,7 @@
         "index": {
           "description": "Displays information about single player",
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "displayPlayer",
           "normalized": "MusicalEnvironment-\u003eString-\u003eIO()",
@@ -3499,6 +3795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to change a player stored in a MusicalEnvironment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "modifyPlayer",
           "package": "conductive-base",
@@ -3509,6 +3806,7 @@
         "index": {
           "description": "Used to change player stored in MusicalEnvironment",
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "modifyPlayer",
           "normalized": "MusicalEnvironment-\u003eString-\u003e(Player-\u003ePlayer)-\u003eIO()",
@@ -3525,6 +3823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new player.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "newPlayer",
           "package": "conductive-base",
@@ -3534,6 +3833,7 @@
         "index": {
           "description": "Creates new player",
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "newPlayer",
           "normalized": "String-\u003eString-\u003eString-\u003eString-\u003eDouble-\u003ePlayer",
@@ -3550,6 +3850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed for setting up the playerStore of a MusicalEnvironment. It automatically creates one player according to the arguments it is given.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "newPlayerStore",
           "package": "conductive-base",
@@ -3560,6 +3861,7 @@
         "index": {
           "description": "Used for setting up the playerStore of MusicalEnvironment It automatically creates one player according to the arguments it is given",
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "newPlayerStore",
           "normalized": "(String,(String,String,String,Double))-\u003eIO(TVar(Map String Player))",
@@ -3576,6 +3878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePauses the specified player.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "pause",
           "package": "conductive-base",
@@ -3586,6 +3889,7 @@
         "index": {
           "description": "Pauses the specified player",
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "pause",
           "normalized": "MusicalEnvironment-\u003eString-\u003eIO()",
@@ -3600,6 +3904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "pauseAll",
           "package": "conductive-base",
@@ -3609,6 +3914,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "pauseAll",
           "normalized": "MusicalEnvironment-\u003eIO()",
@@ -3624,6 +3930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "pauseN",
           "package": "conductive-base",
@@ -3633,6 +3940,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "pauseN",
           "normalized": "MusicalEnvironment-\u003e[String]-\u003eIO()",
@@ -3648,6 +3956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlays a player, specified by the string, from a MusicalEnvironment. The start time is determined by the playerBeat field of the player.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "play",
           "package": "conductive-base",
@@ -3658,6 +3967,7 @@
         "index": {
           "description": "Plays player specified by the string from MusicalEnvironment The start time is determined by the playerBeat field of the player",
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "play",
           "normalized": "MusicalEnvironment-\u003eString-\u003eIO()",
@@ -3672,6 +3982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "playAll",
           "package": "conductive-base",
@@ -3681,6 +3992,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "playAll",
           "normalized": "MusicalEnvironment-\u003eIO()",
@@ -3697,6 +4009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlays a player, specified by the string, from a MusicalEnvironment. The start time is given in beats as the first argument (the Double), from which the player automatically adjusts the playerBeat record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "playAt",
           "package": "conductive-base",
@@ -3707,6 +4020,7 @@
         "index": {
           "description": "Plays player specified by the string from MusicalEnvironment The start time is given in beats as the first argument the Double from which the player automatically adjusts the playerBeat record",
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "playAt",
           "normalized": "Double-\u003eMusicalEnvironment-\u003eString-\u003eIO()",
@@ -3722,6 +4036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "playAtStartOfNMeasure",
           "package": "conductive-base",
@@ -3731,6 +4046,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "playAtStartOfNMeasure",
           "normalized": "MusicalEnvironment-\u003eInt-\u003eString-\u003eIO()",
@@ -3747,6 +4063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlays a player, specified by the string, from a MusicalEnvironment. The start time is given as a time string as the first argument (the Double), from which the player automatically adjusts the playerBeat record. Time strings are specified in the MusicalTime module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "playAtTimeString",
           "package": "conductive-base",
@@ -3757,6 +4074,7 @@
         "index": {
           "description": "Plays player specified by the string from MusicalEnvironment The start time is given as time string as the first argument the Double from which the player automatically adjusts the playerBeat record Time strings are specified in the MusicalTime module",
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "playAtTimeString",
           "normalized": "[Char]-\u003eMusicalEnvironment-\u003eString-\u003eIO()",
@@ -3772,6 +4090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "playN",
           "package": "conductive-base",
@@ -3781,6 +4100,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "playN",
           "normalized": "MusicalEnvironment-\u003e[String]-\u003eIO()",
@@ -3795,6 +4115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "playNow",
           "package": "conductive-base",
@@ -3804,6 +4125,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "playNow",
           "normalized": "MusicalEnvironment-\u003eString-\u003eIO()",
@@ -3820,6 +4142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResets a paused player. Resetting means setting the playerBeat and playerCounter to 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "reset",
           "package": "conductive-base",
@@ -3830,6 +4153,7 @@
         "index": {
           "description": "Resets paused player Resetting means setting the playerBeat and playerCounter to",
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "reset",
           "normalized": "MusicalEnvironment-\u003eString-\u003eIO()",
@@ -3844,6 +4168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "resetAll",
           "package": "conductive-base",
@@ -3853,6 +4178,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "resetAll",
           "normalized": "MusicalEnvironment-\u003eIO()",
@@ -3868,6 +4194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "resetN",
           "package": "conductive-base",
@@ -3877,6 +4204,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "resetN",
           "normalized": "MusicalEnvironment-\u003e[String]-\u003eIO()",
@@ -3892,6 +4220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a thread delay specified in seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "sleep",
           "package": "conductive-base",
@@ -3902,6 +4231,7 @@
         "index": {
           "description": "Creates thread delay specified in seconds",
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "sleep",
           "normalized": "a-\u003eIO()",
@@ -3917,6 +4247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStops the specified player. Doing so resets both the playerBeat and playerCounter to 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "stop",
           "package": "conductive-base",
@@ -3927,6 +4258,7 @@
         "index": {
           "description": "Stops the specified player Doing so resets both the playerBeat and playerCounter to",
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "stop",
           "normalized": "MusicalEnvironment-\u003eString-\u003eIO()",
@@ -3941,6 +4273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "stopAll",
           "package": "conductive-base",
@@ -3950,6 +4283,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "stopAll",
           "normalized": "MusicalEnvironment-\u003eIO()",
@@ -3965,6 +4299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "stopN",
           "package": "conductive-base",
@@ -3974,6 +4309,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "stopN",
           "normalized": "MusicalEnvironment-\u003e[String]-\u003eIO()",
@@ -3989,6 +4325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the action function of a player from old (second argument) to new (third argument).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "swapActions",
           "package": "conductive-base",
@@ -3999,6 +4336,7 @@
         "index": {
           "description": "Change the action function of player from old second argument to new third argument",
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "swapActions",
           "normalized": "MusicalEnvironment-\u003eString-\u003eString-\u003eIO()",
@@ -4015,6 +4353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the beat of the next event of a player.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "swapBeat",
           "package": "conductive-base",
@@ -4025,6 +4364,7 @@
         "index": {
           "description": "Change the beat of the next event of player",
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "swapBeat",
           "normalized": "MusicalEnvironment-\u003eString-\u003eDouble-\u003eIO()",
@@ -4041,6 +4381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the clock a player is following from old (second argument) to new (third argument).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "swapClock",
           "package": "conductive-base",
@@ -4051,6 +4392,7 @@
         "index": {
           "description": "Change the clock player is following from old second argument to new third argument",
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "swapClock",
           "normalized": "MusicalEnvironment-\u003eString-\u003eString-\u003eIO()",
@@ -4067,6 +4409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the counter value of a player.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "swapCounter",
           "package": "conductive-base",
@@ -4077,6 +4420,7 @@
         "index": {
           "description": "Change the counter value of player",
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "swapCounter",
           "normalized": "MusicalEnvironment-\u003eString-\u003eInteger-\u003eIO()",
@@ -4093,6 +4437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the IOI function of a player (second argument) from old IOI function to new one (third argument).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "swapIOI",
           "package": "conductive-base",
@@ -4103,6 +4448,7 @@
         "index": {
           "description": "Change the IOI function of player second argument from old IOI function to new one third argument",
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "swapIOI",
           "normalized": "MusicalEnvironment-\u003eString-\u003eString-\u003eIO()",
@@ -4119,6 +4465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the interrupt function of a player from old (second argument) to new (third argument).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "swapInterrupt",
           "package": "conductive-base",
@@ -4129,6 +4476,7 @@
         "index": {
           "description": "Change the interrupt function of player from old second argument to new third argument",
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "swapInterrupt",
           "normalized": "MusicalEnvironment-\u003eString-\u003eString-\u003eIO()",
@@ -4145,6 +4493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the name of a player from old (second argument) to new (third argument).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "swapName",
           "package": "conductive-base",
@@ -4155,6 +4504,7 @@
         "index": {
           "description": "Change the name of player from old second argument to new third argument",
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "swapName",
           "normalized": "MusicalEnvironment-\u003eString-\u003eString-\u003eIO()",
@@ -4171,6 +4521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the time of the last pause of a player.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "swapPauseTime",
           "package": "conductive-base",
@@ -4181,6 +4532,7 @@
         "index": {
           "description": "Change the time of the last pause of player",
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "swapPauseTime",
           "normalized": "MusicalEnvironment-\u003eString-\u003eDouble-\u003eIO()",
@@ -4197,6 +4549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the status of a player.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "swapStatus",
           "package": "conductive-base",
@@ -4207,6 +4560,7 @@
         "index": {
           "description": "Change the status of player",
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "swapStatus",
           "normalized": "MusicalEnvironment-\u003eString-\u003ePlayerStatus-\u003eIO()",
@@ -4222,6 +4576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Player",
           "name": "withPlayers",
           "package": "conductive-base",
@@ -4231,6 +4586,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Player",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Player",
           "name": "withPlayers",
           "normalized": "MusicalEnvironment-\u003e(Player-\u003ea)-\u003e[String]-\u003eIO[Maybe a]",
@@ -4246,6 +4602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Table",
           "name": "Table",
           "package": "conductive-base",
@@ -4254,6 +4611,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Table",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Table",
           "name": "Table",
           "package": "conductive-base",
@@ -4267,6 +4625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Table",
           "name": "asciiTable",
           "package": "conductive-base",
@@ -4275,6 +4634,7 @@
         },
         "index": {
           "hierarchy": "Sound Conductive Table",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Table",
           "name": "asciiTable",
           "normalized": "[[Char]]-\u003e[Char]-\u003e[[[Char]]]-\u003e[Char]-\u003eIO()",
@@ -4291,6 +4651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses the asciiTablefunction to create a five-column table of information about players in a MusicalEnvironment. That information is the player name, its status, the clock it follows, and the action and IOI function it uses when played.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:33 UTC 2014",
           "module": "Sound.Conductive.Table",
           "name": "displayPlayers",
           "package": "conductive-base",
@@ -4301,6 +4662,7 @@
         "index": {
           "description": "Uses the asciiTablefunction to create five-column table of information about players in MusicalEnvironment That information is the player name its status the clock it follows and the action and IOI function it uses when played",
           "hierarchy": "Sound Conductive Table",
+          "indexed": "2014-03-11T17:38:33",
           "module": "Sound.Conductive.Table",
           "name": "displayPlayers",
           "normalized": "MusicalEnvironment-\u003eIO()",

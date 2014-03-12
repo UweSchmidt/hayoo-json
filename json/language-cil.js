@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "language-cil"
+        "phrase": "language-cil",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAnalysis functions over the Cil AST.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Analysis",
           "name": "Analysis",
           "package": "language-cil",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Analysis functions over the Cil AST",
           "hierarchy": "Language Cil Analysis",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Analysis",
           "name": "Analysis",
           "package": "language-cil",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Analysis",
           "name": "instructions",
           "package": "language-cil",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Analysis",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Analysis",
           "name": "instructions",
           "normalized": "a-\u003e[Instr]",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCombinators for building abstract syntax.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "Build",
           "package": "language-cil",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Combinators for building abstract syntax",
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "Build",
           "package": "language-cil",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "add",
           "package": "language-cil",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "add",
           "package": "language-cil",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "add_ovf",
           "package": "language-cil",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "add_ovf",
           "package": "language-cil",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "add_ovf_un",
           "package": "language-cil",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "add_ovf_un",
           "package": "language-cil",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "and",
           "package": "language-cil",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "and",
           "package": "language-cil",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "assemblyRef",
           "package": "language-cil",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "assemblyRef",
           "normalized": "AssemblyName-\u003eVersion-\u003ePublicKeyToken-\u003eAssemblyRef",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "beq",
           "package": "language-cil",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "beq",
           "normalized": "Label-\u003eMethodDecl",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "bge",
           "package": "language-cil",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "bge",
           "normalized": "Label-\u003eMethodDecl",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "bgt",
           "package": "language-cil",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "bgt",
           "normalized": "Label-\u003eMethodDecl",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ble",
           "package": "language-cil",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ble",
           "normalized": "Label-\u003eMethodDecl",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "blt",
           "package": "language-cil",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "blt",
           "normalized": "Label-\u003eMethodDecl",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "box",
           "package": "language-cil",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "box",
           "normalized": "PrimitiveType-\u003eMethodDecl",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "br",
           "package": "language-cil",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "br",
           "normalized": "Label-\u003eMethodDecl",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "break",
           "package": "language-cil",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "break",
           "package": "language-cil",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "brfalse",
           "package": "language-cil",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "brfalse",
           "normalized": "Label-\u003eMethodDecl",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "brtrue",
           "package": "language-cil",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "brtrue",
           "normalized": "Label-\u003eMethodDecl",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "call",
           "package": "language-cil",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "call",
           "normalized": "[CallConv]-\u003ePrimitiveType-\u003eAssemblyName-\u003eTypeName-\u003eMethodName-\u003e[PrimitiveType]-\u003eMethodDecl",
@@ -446,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "callvirt",
           "package": "language-cil",
@@ -455,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "callvirt",
           "normalized": "PrimitiveType-\u003eAssemblyName-\u003eTypeName-\u003eMethodName-\u003e[PrimitiveType]-\u003eMethodDecl",
@@ -469,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ceq",
           "package": "language-cil",
@@ -478,6 +519,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ceq",
           "package": "language-cil",
@@ -490,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "cgt",
           "package": "language-cil",
@@ -499,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "cgt",
           "package": "language-cil",
@@ -511,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ckfinite",
           "package": "language-cil",
@@ -520,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ckfinite",
           "package": "language-cil",
@@ -532,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "classDef",
           "package": "language-cil",
@@ -541,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "classDef",
           "normalized": "[ClassAttr]-\u003eTypeName-\u003eMaybe TypeSpec-\u003e[TypeSpec]-\u003e[FieldDef]-\u003e[MethodDef]-\u003e[TypeDef]-\u003eTypeDef",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "clt",
           "package": "language-cil",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "clt",
           "package": "language-cil",
@@ -577,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "comment",
           "package": "language-cil",
@@ -586,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "comment",
           "normalized": "String-\u003eMethodDecl",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "defaultCtor",
           "package": "language-cil",
@@ -609,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "defaultCtor",
           "normalized": "[Parameter]-\u003eMethodDef",
@@ -624,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "div",
           "package": "language-cil",
@@ -633,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "div",
           "package": "language-cil",
@@ -645,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "div_un",
           "package": "language-cil",
@@ -654,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "div_un",
           "package": "language-cil",
@@ -666,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "dup",
           "package": "language-cil",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "dup",
           "package": "language-cil",
@@ -687,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "entryPoint",
           "package": "language-cil",
@@ -696,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "entryPoint",
           "package": "language-cil",
@@ -709,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "extends",
           "package": "language-cil",
@@ -718,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "extends",
           "normalized": "TypeName-\u003eMaybe TypeSpec",
@@ -732,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "extendsCtor",
           "package": "language-cil",
@@ -741,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "extendsCtor",
           "normalized": "AssemblyName-\u003eTypeName-\u003e[Parameter]-\u003eMethodDef",
@@ -756,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "isinst",
           "package": "language-cil",
@@ -765,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "isinst",
           "normalized": "TypeName-\u003eMethodDecl",
@@ -780,6 +848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelabel a labelled mdecl with a new label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "label",
           "package": "language-cil",
@@ -790,6 +859,7 @@
         "index": {
           "description": "Relabel labelled mdecl with new label",
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "label",
           "normalized": "Label-\u003eMethodDecl-\u003eMethodDecl",
@@ -804,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldarg",
           "package": "language-cil",
@@ -813,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldarg",
           "normalized": "Offset-\u003eMethodDecl",
@@ -827,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldargN",
           "package": "language-cil",
@@ -836,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldargN",
           "normalized": "DottedName-\u003eMethodDecl",
@@ -850,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldc_i4",
           "package": "language-cil",
@@ -859,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldc_i4",
           "normalized": "Integer-\u003eMethodDecl",
@@ -873,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldc_i8",
           "package": "language-cil",
@@ -882,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldc_i8",
           "normalized": "Integer-\u003eMethodDecl",
@@ -896,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldc_r4",
           "package": "language-cil",
@@ -905,6 +984,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldc_r4",
           "normalized": "Float-\u003eMethodDecl",
@@ -919,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldc_r8",
           "package": "language-cil",
@@ -928,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldc_r8",
           "normalized": "Double-\u003eMethodDecl",
@@ -942,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldchar",
           "package": "language-cil",
@@ -951,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldchar",
           "normalized": "Char-\u003eMethodDecl",
@@ -965,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldelem_i",
           "package": "language-cil",
@@ -974,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldelem_i",
           "package": "language-cil",
@@ -986,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldelem_i1",
           "package": "language-cil",
@@ -995,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldelem_i1",
           "package": "language-cil",
@@ -1007,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldelem_i2",
           "package": "language-cil",
@@ -1016,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldelem_i2",
           "package": "language-cil",
@@ -1028,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldelem_i4",
           "package": "language-cil",
@@ -1037,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldelem_i4",
           "package": "language-cil",
@@ -1049,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldelem_i8",
           "package": "language-cil",
@@ -1058,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldelem_i8",
           "package": "language-cil",
@@ -1070,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldelem_r4",
           "package": "language-cil",
@@ -1079,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldelem_r4",
           "package": "language-cil",
@@ -1091,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldelem_r8",
           "package": "language-cil",
@@ -1100,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldelem_r8",
           "package": "language-cil",
@@ -1112,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldelem_ref",
           "package": "language-cil",
@@ -1121,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldelem_ref",
           "package": "language-cil",
@@ -1133,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldelem_u1",
           "package": "language-cil",
@@ -1142,6 +1243,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldelem_u1",
           "package": "language-cil",
@@ -1154,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldelem_u2",
           "package": "language-cil",
@@ -1163,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldelem_u2",
           "package": "language-cil",
@@ -1175,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldelem_u4",
           "package": "language-cil",
@@ -1184,6 +1289,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldelem_u4",
           "package": "language-cil",
@@ -1196,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldelem_u8",
           "package": "language-cil",
@@ -1205,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldelem_u8",
           "package": "language-cil",
@@ -1217,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldelema",
           "package": "language-cil",
@@ -1226,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldelema",
           "package": "language-cil",
@@ -1238,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldfld",
           "package": "language-cil",
@@ -1247,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldfld",
           "normalized": "PrimitiveType-\u003eAssemblyName-\u003eTypeName-\u003eFieldName-\u003eMethodDecl",
@@ -1261,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldflda",
           "package": "language-cil",
@@ -1270,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldflda",
           "normalized": "PrimitiveType-\u003eAssemblyName-\u003eTypeName-\u003eFieldName-\u003eMethodDecl",
@@ -1284,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldftn",
           "package": "language-cil",
@@ -1293,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldftn",
           "normalized": "PrimitiveType-\u003eAssemblyName-\u003eTypeName-\u003eMethodName-\u003e[PrimitiveType]-\u003eMethodDecl",
@@ -1307,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldind_i",
           "package": "language-cil",
@@ -1316,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldind_i",
           "package": "language-cil",
@@ -1328,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldind_i1",
           "package": "language-cil",
@@ -1337,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldind_i1",
           "package": "language-cil",
@@ -1349,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldind_i2",
           "package": "language-cil",
@@ -1358,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldind_i2",
           "package": "language-cil",
@@ -1370,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldind_i4",
           "package": "language-cil",
@@ -1379,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldind_i4",
           "package": "language-cil",
@@ -1391,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldind_i8",
           "package": "language-cil",
@@ -1400,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldind_i8",
           "package": "language-cil",
@@ -1412,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldind_r4",
           "package": "language-cil",
@@ -1421,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldind_r4",
           "package": "language-cil",
@@ -1433,6 +1561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldind_r8",
           "package": "language-cil",
@@ -1442,6 +1571,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldind_r8",
           "package": "language-cil",
@@ -1454,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldind_ref",
           "package": "language-cil",
@@ -1463,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldind_ref",
           "package": "language-cil",
@@ -1475,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldind_u1",
           "package": "language-cil",
@@ -1484,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldind_u1",
           "package": "language-cil",
@@ -1496,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldind_u2",
           "package": "language-cil",
@@ -1505,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldind_u2",
           "package": "language-cil",
@@ -1517,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldind_u4",
           "package": "language-cil",
@@ -1526,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldind_u4",
           "package": "language-cil",
@@ -1538,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldlen",
           "package": "language-cil",
@@ -1547,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldlen",
           "package": "language-cil",
@@ -1559,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldloc",
           "package": "language-cil",
@@ -1568,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldloc",
           "normalized": "Offset-\u003eMethodDecl",
@@ -1582,6 +1724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldlocN",
           "package": "language-cil",
@@ -1591,6 +1734,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldlocN",
           "normalized": "LocalName-\u003eMethodDecl",
@@ -1605,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldloca",
           "package": "language-cil",
@@ -1614,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldloca",
           "normalized": "Offset-\u003eMethodDecl",
@@ -1628,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldlocaN",
           "package": "language-cil",
@@ -1637,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldlocaN",
           "normalized": "LocalName-\u003eMethodDecl",
@@ -1651,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldnull",
           "package": "language-cil",
@@ -1660,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldnull",
           "package": "language-cil",
@@ -1672,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldsfld",
           "package": "language-cil",
@@ -1681,6 +1832,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldsfld",
           "normalized": "PrimitiveType-\u003eAssemblyName-\u003eTypeName-\u003eFieldName-\u003eMethodDecl",
@@ -1695,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldsflda",
           "package": "language-cil",
@@ -1704,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldsflda",
           "normalized": "PrimitiveType-\u003eAssemblyName-\u003eTypeName-\u003eFieldName-\u003eMethodDecl",
@@ -1718,6 +1872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ldstr",
           "package": "language-cil",
@@ -1727,6 +1882,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ldstr",
           "normalized": "String-\u003eMethodDecl",
@@ -1741,6 +1897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "localsInit",
           "package": "language-cil",
@@ -1750,6 +1907,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "localsInit",
           "normalized": "[Local]-\u003eMethodDecl",
@@ -1765,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "maxStack",
           "package": "language-cil",
@@ -1774,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "maxStack",
           "normalized": "Int-\u003eMethodDecl",
@@ -1789,6 +1949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "mscorlibRef",
           "package": "language-cil",
@@ -1798,6 +1959,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "mscorlibRef",
           "package": "language-cil",
@@ -1811,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "mul",
           "package": "language-cil",
@@ -1820,6 +1983,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "mul",
           "package": "language-cil",
@@ -1832,6 +1996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "mul_ovf",
           "package": "language-cil",
@@ -1841,6 +2006,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "mul_ovf",
           "package": "language-cil",
@@ -1853,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "mul_ovf_un",
           "package": "language-cil",
@@ -1862,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "mul_ovf_un",
           "package": "language-cil",
@@ -1874,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "neg",
           "package": "language-cil",
@@ -1883,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "neg",
           "package": "language-cil",
@@ -1895,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "newarr",
           "package": "language-cil",
@@ -1904,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "newarr",
           "normalized": "PrimitiveType-\u003eMethodDecl",
@@ -1919,6 +2091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new object.\n Note that this function assumes the constructor returns Void.\n If this is not the case, call the Newobj constructor manually.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "newobj",
           "package": "language-cil",
@@ -1929,6 +2102,7 @@
         "index": {
           "description": "Creates new object Note that this function assumes the constructor returns Void If this is not the case call the Newobj constructor manually",
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "newobj",
           "normalized": "AssemblyName-\u003eTypeName-\u003e[PrimitiveType]-\u003eMethodDecl",
@@ -1943,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "noExtends",
           "package": "language-cil",
@@ -1952,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "noExtends",
           "package": "language-cil",
@@ -1965,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "noImplements",
           "package": "language-cil",
@@ -1974,6 +2151,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "noImplements",
           "normalized": "[TypeSpec]",
@@ -1989,6 +2167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "nop",
           "package": "language-cil",
@@ -1998,6 +2177,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "nop",
           "package": "language-cil",
@@ -2010,6 +2190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "not",
           "package": "language-cil",
@@ -2019,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "not",
           "package": "language-cil",
@@ -2031,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "or",
           "package": "language-cil",
@@ -2040,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "or",
           "package": "language-cil",
@@ -2052,6 +2236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "pop",
           "package": "language-cil",
@@ -2061,6 +2246,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "pop",
           "package": "language-cil",
@@ -2073,6 +2259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "rem",
           "package": "language-cil",
@@ -2082,6 +2269,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "rem",
           "package": "language-cil",
@@ -2094,6 +2282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "rem_un",
           "package": "language-cil",
@@ -2103,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "rem_un",
           "package": "language-cil",
@@ -2115,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "ret",
           "package": "language-cil",
@@ -2124,6 +2315,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "ret",
           "package": "language-cil",
@@ -2136,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "shl",
           "package": "language-cil",
@@ -2145,6 +2338,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "shl",
           "package": "language-cil",
@@ -2157,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "shr",
           "package": "language-cil",
@@ -2166,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "shr",
           "package": "language-cil",
@@ -2178,6 +2374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "shr_un",
           "package": "language-cil",
@@ -2187,6 +2384,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "shr_un",
           "package": "language-cil",
@@ -2200,6 +2398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a simple Assembly with one method containing the provided MethodDecls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "simpleAssembly",
           "package": "language-cil",
@@ -2210,6 +2409,7 @@
         "index": {
           "description": "Create simple Assembly with one method containing the provided MethodDecls",
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "simpleAssembly",
           "normalized": "[MethodDecl]-\u003eAssembly",
@@ -2225,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "stelem_i",
           "package": "language-cil",
@@ -2234,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "stelem_i",
           "package": "language-cil",
@@ -2246,6 +2448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "stelem_i1",
           "package": "language-cil",
@@ -2255,6 +2458,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "stelem_i1",
           "package": "language-cil",
@@ -2267,6 +2471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "stelem_i2",
           "package": "language-cil",
@@ -2276,6 +2481,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "stelem_i2",
           "package": "language-cil",
@@ -2288,6 +2494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "stelem_i4",
           "package": "language-cil",
@@ -2297,6 +2504,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "stelem_i4",
           "package": "language-cil",
@@ -2309,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "stelem_i8",
           "package": "language-cil",
@@ -2318,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "stelem_i8",
           "package": "language-cil",
@@ -2330,6 +2540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "stelem_r4",
           "package": "language-cil",
@@ -2339,6 +2550,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "stelem_r4",
           "package": "language-cil",
@@ -2351,6 +2563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "stelem_r8",
           "package": "language-cil",
@@ -2360,6 +2573,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "stelem_r8",
           "package": "language-cil",
@@ -2372,6 +2586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "stelem_ref",
           "package": "language-cil",
@@ -2381,6 +2596,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "stelem_ref",
           "package": "language-cil",
@@ -2393,6 +2609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "stfld",
           "package": "language-cil",
@@ -2402,6 +2619,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "stfld",
           "normalized": "PrimitiveType-\u003eAssemblyName-\u003eTypeName-\u003eFieldName-\u003eMethodDecl",
@@ -2416,6 +2634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "stind_i",
           "package": "language-cil",
@@ -2425,6 +2644,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "stind_i",
           "package": "language-cil",
@@ -2437,6 +2657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "stind_i1",
           "package": "language-cil",
@@ -2446,6 +2667,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "stind_i1",
           "package": "language-cil",
@@ -2458,6 +2680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "stind_i2",
           "package": "language-cil",
@@ -2467,6 +2690,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "stind_i2",
           "package": "language-cil",
@@ -2479,6 +2703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "stind_i4",
           "package": "language-cil",
@@ -2488,6 +2713,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "stind_i4",
           "package": "language-cil",
@@ -2500,6 +2726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "stind_i8",
           "package": "language-cil",
@@ -2509,6 +2736,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "stind_i8",
           "package": "language-cil",
@@ -2521,6 +2749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "stind_r4",
           "package": "language-cil",
@@ -2530,6 +2759,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "stind_r4",
           "package": "language-cil",
@@ -2542,6 +2772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "stind_r8",
           "package": "language-cil",
@@ -2551,6 +2782,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "stind_r8",
           "package": "language-cil",
@@ -2563,6 +2795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "stind_ref",
           "package": "language-cil",
@@ -2572,6 +2805,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "stind_ref",
           "package": "language-cil",
@@ -2584,6 +2818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "stloc",
           "package": "language-cil",
@@ -2593,6 +2828,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "stloc",
           "normalized": "Offset-\u003eMethodDecl",
@@ -2607,6 +2843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "stlocN",
           "package": "language-cil",
@@ -2616,6 +2853,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "stlocN",
           "normalized": "LocalName-\u003eMethodDecl",
@@ -2630,6 +2868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "stsfld",
           "package": "language-cil",
@@ -2639,6 +2878,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "stsfld",
           "normalized": "PrimitiveType-\u003eAssemblyName-\u003eTypeName-\u003eFieldName-\u003eMethodDecl",
@@ -2653,6 +2893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "sub",
           "package": "language-cil",
@@ -2662,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "sub",
           "package": "language-cil",
@@ -2674,6 +2916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "sub_ovf",
           "package": "language-cil",
@@ -2683,6 +2926,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "sub_ovf",
           "package": "language-cil",
@@ -2695,6 +2939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "sub_ovf_un",
           "package": "language-cil",
@@ -2704,6 +2949,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "sub_ovf_un",
           "package": "language-cil",
@@ -2716,6 +2962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "tail",
           "package": "language-cil",
@@ -2725,6 +2972,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "tail",
           "package": "language-cil",
@@ -2737,6 +2985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "tailcall",
           "package": "language-cil",
@@ -2746,6 +2995,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "tailcall",
           "normalized": "MethodDecl-\u003eMethodDecl",
@@ -2760,6 +3010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "throw",
           "package": "language-cil",
@@ -2769,6 +3020,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "throw",
           "package": "language-cil",
@@ -2781,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "unaligned",
           "package": "language-cil",
@@ -2790,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "unaligned",
           "normalized": "Alignment-\u003eMethodDecl",
@@ -2804,6 +3058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "unalignedPtr",
           "package": "language-cil",
@@ -2813,6 +3068,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "unalignedPtr",
           "normalized": "Alignment-\u003eMethodDecl-\u003eMethodDecl",
@@ -2828,6 +3084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "unbox",
           "package": "language-cil",
@@ -2837,6 +3094,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "unbox",
           "normalized": "PrimitiveType-\u003eMethodDecl",
@@ -2851,6 +3109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "volatile",
           "package": "language-cil",
@@ -2860,6 +3119,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "volatile",
           "package": "language-cil",
@@ -2872,6 +3132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "volatilePtr",
           "package": "language-cil",
@@ -2881,6 +3142,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "volatilePtr",
           "normalized": "MethodDecl-\u003eMethodDecl",
@@ -2896,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Build",
           "name": "xor",
           "package": "language-cil",
@@ -2905,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Build",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Build",
           "name": "xor",
           "package": "language-cil",
@@ -2918,6 +3182,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty-printer for the abstract syntax.\n Currenty uses ShowS, maybe should use some PP combinator library?\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Pretty",
           "name": "Pretty",
           "package": "language-cil",
@@ -2927,6 +3192,7 @@
         "index": {
           "description": "Pretty-printer for the abstract syntax Currenty uses ShowS maybe should use some PP combinator library",
           "hierarchy": "Language Cil Pretty",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Pretty",
           "name": "Pretty",
           "package": "language-cil",
@@ -2940,6 +3206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Pretty",
           "name": "Pretty",
           "package": "language-cil",
@@ -2948,6 +3215,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Pretty",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Pretty",
           "name": "Pretty",
           "package": "language-cil",
@@ -2962,6 +3230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerializes a Cil data structure to a String.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Pretty",
           "name": "pr",
           "package": "language-cil",
@@ -2972,6 +3241,7 @@
         "index": {
           "description": "Serializes Cil data structure to String",
           "hierarchy": "Language Cil Pretty",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Pretty",
           "name": "pr",
           "normalized": "a-\u003eShowS",
@@ -2987,6 +3257,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAbstract Syntax Tree for the Common Intermediate Language.\n Note; currently this is just a subset of CIL.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Syntax",
           "package": "language-cil",
@@ -2996,6 +3267,7 @@
         "index": {
           "description": "Abstract Syntax Tree for the Common Intermediate Language Note currently this is just subset of CIL",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Syntax",
           "package": "language-cil",
@@ -3010,6 +3282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specification of pointer alignment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Alignment",
           "package": "language-cil",
@@ -3019,6 +3292,7 @@
         "index": {
           "description": "specification of pointer alignment",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Alignment",
           "package": "language-cil",
@@ -3033,6 +3307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe top level Assembly.\n This is the root of a CIL program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Assembly",
           "package": "language-cil",
@@ -3042,6 +3317,7 @@
         "index": {
           "description": "The top level Assembly This is the root of CIL program",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Assembly",
           "package": "language-cil",
@@ -3055,6 +3331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "AssemblyName",
           "package": "language-cil",
@@ -3063,6 +3340,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "AssemblyName",
           "package": "language-cil",
@@ -3077,6 +3355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssembly reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "AssemblyRef",
           "package": "language-cil",
@@ -3086,6 +3365,7 @@
         "index": {
           "description": "Assembly reference",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "AssemblyRef",
           "package": "language-cil",
@@ -3100,6 +3380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalling convention for method calls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "CallConv",
           "package": "language-cil",
@@ -3109,6 +3390,7 @@
         "index": {
           "description": "Calling convention for method calls",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "CallConv",
           "package": "language-cil",
@@ -3123,6 +3405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttribures to class definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "ClassAttr",
           "package": "language-cil",
@@ -3132,6 +3415,7 @@
         "index": {
           "description": "Attribures to class definitions",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "ClassAttr",
           "package": "language-cil",
@@ -3146,6 +3430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass declarations, i.e. the body of a class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "ClassDecl",
           "package": "language-cil",
@@ -3155,6 +3440,7 @@
         "index": {
           "description": "Class declarations i.e the body of class",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "ClassDecl",
           "package": "language-cil",
@@ -3169,6 +3455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirective meta data for method definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Directive",
           "package": "language-cil",
@@ -3178,6 +3465,7 @@
         "index": {
           "description": "Directive meta data for method definitions",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Directive",
           "package": "language-cil",
@@ -3192,6 +3480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA name in the CIL world.\n These need to confirm to certain restrictions, altough these aren't\n currently checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "DottedName",
           "package": "language-cil",
@@ -3201,6 +3490,7 @@
         "index": {
           "description": "name in the CIL world These need to confirm to certain restrictions altough these aren currently checked",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "DottedName",
           "package": "language-cil",
@@ -3215,6 +3505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttributes to field definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "FieldAttr",
           "package": "language-cil",
@@ -3224,6 +3515,7 @@
         "index": {
           "description": "Attributes to field definitions",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "FieldAttr",
           "package": "language-cil",
@@ -3238,6 +3530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eField definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "FieldDef",
           "package": "language-cil",
@@ -3247,6 +3540,7 @@
         "index": {
           "description": "Field definition",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "FieldDef",
           "package": "language-cil",
@@ -3260,6 +3554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "FieldName",
           "package": "language-cil",
@@ -3268,6 +3563,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "FieldName",
           "package": "language-cil",
@@ -3282,6 +3578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parameter to a generic class.\n Not fully implemented yet, constraints aren't supported.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "GenParam",
           "package": "language-cil",
@@ -3291,6 +3588,7 @@
         "index": {
           "description": "parameter to generic class Not fully implemented yet constraints aren supported",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "GenParam",
           "package": "language-cil",
@@ -3304,6 +3602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "GenParamName",
           "package": "language-cil",
@@ -3312,6 +3611,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "GenParamName",
           "package": "language-cil",
@@ -3326,6 +3626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle instruction in method definition.\n Either an OpCode or a labelled OpCode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Instr",
           "package": "language-cil",
@@ -3335,6 +3636,7 @@
         "index": {
           "description": "Single instruction in method definition Either an OpCode or labelled OpCode",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Instr",
           "package": "language-cil",
@@ -3349,6 +3651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Label in CIL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Label",
           "package": "language-cil",
@@ -3358,6 +3661,7 @@
         "index": {
           "description": "Label in CIL",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Label",
           "package": "language-cil",
@@ -3372,6 +3676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal variables used inside a method definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Local",
           "package": "language-cil",
@@ -3381,6 +3686,7 @@
         "index": {
           "description": "Local variables used inside method definition",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Local",
           "package": "language-cil",
@@ -3394,6 +3700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "LocalName",
           "package": "language-cil",
@@ -3402,6 +3709,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "LocalName",
           "package": "language-cil",
@@ -3416,6 +3724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttributes to method definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "MethAttr",
           "package": "language-cil",
@@ -3425,6 +3734,7 @@
         "index": {
           "description": "Attributes to method definitions",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "MethAttr",
           "package": "language-cil",
@@ -3439,6 +3749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMethod declarations, i.e. the body of a method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "MethodDecl",
           "package": "language-cil",
@@ -3448,6 +3759,7 @@
         "index": {
           "description": "Method declarations i.e the body of method",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "MethodDecl",
           "package": "language-cil",
@@ -3462,6 +3774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Method definition in CIL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "MethodDef",
           "package": "language-cil",
@@ -3471,6 +3784,7 @@
         "index": {
           "description": "Method definition in CIL",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "MethodDef",
           "package": "language-cil",
@@ -3484,6 +3798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "MethodName",
           "package": "language-cil",
@@ -3492,6 +3807,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "MethodName",
           "package": "language-cil",
@@ -3506,6 +3822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn offset, e.g. for local variables or arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Offset",
           "package": "language-cil",
@@ -3515,6 +3832,7 @@
         "index": {
           "description": "An offset e.g for local variables or arguments",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Offset",
           "package": "language-cil",
@@ -3529,6 +3847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCIL OpCodes inside a method definition.\n See \u003ca\u003ehttp://msdn.microsoft.com/en-us/library/system.reflection.emit.opcodes_fields.aspx\u003c/a\u003e\n for a more complete list with documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "OpCode",
           "package": "language-cil",
@@ -3538,6 +3857,7 @@
         "index": {
           "description": "CIL OpCodes inside method definition See http msdn.microsoft.com en-us library system.reflection.emit.opcodes fields.aspx for more complete list with documentation",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "OpCode",
           "package": "language-cil",
@@ -3552,6 +3872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttributes to parameter definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "ParamAttr",
           "package": "language-cil",
@@ -3561,6 +3882,7 @@
         "index": {
           "description": "Attributes to parameter definitions",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "ParamAttr",
           "package": "language-cil",
@@ -3574,6 +3896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "ParamName",
           "package": "language-cil",
@@ -3582,6 +3905,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "ParamName",
           "package": "language-cil",
@@ -3596,6 +3920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA formal parameter to a method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Parameter",
           "package": "language-cil",
@@ -3605,6 +3930,7 @@
         "index": {
           "description": "formal parameter to method",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Parameter",
           "package": "language-cil",
@@ -3619,6 +3945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive types in CIL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "PrimitiveType",
           "package": "language-cil",
@@ -3628,6 +3955,7 @@
         "index": {
           "description": "Primitive types in CIL",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "PrimitiveType",
           "package": "language-cil",
@@ -3642,6 +3970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA public key token\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "PublicKeyToken",
           "package": "language-cil",
@@ -3651,6 +3980,7 @@
         "index": {
           "description": "public key token",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "PublicKeyToken",
           "package": "language-cil",
@@ -3665,6 +3995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Type definition in CIL, either a class or a value type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "TypeDef",
           "package": "language-cil",
@@ -3674,6 +4005,7 @@
         "index": {
           "description": "Type definition in CIL either class or value type",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "TypeDef",
           "package": "language-cil",
@@ -3687,6 +4019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "TypeName",
           "package": "language-cil",
@@ -3695,6 +4028,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "TypeName",
           "package": "language-cil",
@@ -3709,6 +4043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "TypeSpec",
           "package": "language-cil",
@@ -3718,6 +4053,7 @@
         "index": {
           "description": "Type specification",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "TypeSpec",
           "package": "language-cil",
@@ -3732,6 +4068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Version number in CIL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Version",
           "package": "language-cil",
@@ -3741,6 +4078,7 @@
         "index": {
           "description": "Version number in CIL",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Version",
           "package": "language-cil",
@@ -3755,6 +4093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, adds the values, pushes result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Add",
           "package": "language-cil",
@@ -3765,6 +4104,7 @@
         "index": {
           "description": "Pops values adds the values pushes result",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Add",
           "package": "language-cil",
@@ -3779,6 +4119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, adds the values with a signed overflow check, pushes result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Add_ovf",
           "package": "language-cil",
@@ -3789,6 +4130,7 @@
         "index": {
           "description": "Pops values adds the values with signed overflow check pushes result",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Add_ovf",
           "package": "language-cil",
@@ -3803,6 +4145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, adds the values with an unsigned overflow check, pushes result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Add_ovf_un",
           "package": "language-cil",
@@ -3813,6 +4156,7 @@
         "index": {
           "description": "Pops values adds the values with an unsigned overflow check pushes result",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Add_ovf_un",
           "package": "language-cil",
@@ -3827,6 +4171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, do bitwise AND between the values, pushes result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "And",
           "package": "language-cil",
@@ -3837,6 +4182,7 @@
         "index": {
           "description": "Pops values do bitwise AND between the values pushes result",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "And",
           "package": "language-cil",
@@ -3850,6 +4196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Assembly",
           "package": "language-cil",
@@ -3859,6 +4206,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Assembly",
           "normalized": "Assembly[AssemblyRef]AssemblyName[TypeDef]",
@@ -3874,6 +4222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "AssemblyRef",
           "package": "language-cil",
@@ -3883,6 +4232,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "AssemblyRef",
           "package": "language-cil",
@@ -3897,6 +4247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, if first value is equal to second value, jump to specified label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Beq",
           "package": "language-cil",
@@ -3907,6 +4258,7 @@
         "index": {
           "description": "Pops values if first value is equal to second value jump to specified label",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Beq",
           "package": "language-cil",
@@ -3921,6 +4273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, if first value is greater or equal to second value, jump to specified label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Bge",
           "package": "language-cil",
@@ -3931,6 +4284,7 @@
         "index": {
           "description": "Pops values if first value is greater or equal to second value jump to specified label",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Bge",
           "package": "language-cil",
@@ -3945,6 +4299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, if first value is greater than second value, jump to specified label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Bgt",
           "package": "language-cil",
@@ -3955,6 +4310,7 @@
         "index": {
           "description": "Pops values if first value is greater than second value jump to specified label",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Bgt",
           "package": "language-cil",
@@ -3969,6 +4325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, if first value is less or equal to second value, jump to specified label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ble",
           "package": "language-cil",
@@ -3979,6 +4336,7 @@
         "index": {
           "description": "Pops values if first value is less or equal to second value jump to specified label",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ble",
           "package": "language-cil",
@@ -3993,6 +4351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, if first value is less than second value, jump to specified label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Blt",
           "package": "language-cil",
@@ -4003,6 +4362,7 @@
         "index": {
           "description": "Pops values if first value is less than second value jump to specified label",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Blt",
           "package": "language-cil",
@@ -4016,6 +4376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Bool",
           "package": "language-cil",
@@ -4025,6 +4386,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Bool",
           "package": "language-cil",
@@ -4039,6 +4401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 1 value, boxes value type, pushes object reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Box",
           "package": "language-cil",
@@ -4049,6 +4412,7 @@
         "index": {
           "description": "Pops value boxes value type pushes object reference",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Box",
           "package": "language-cil",
@@ -4063,6 +4427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnconditionally jump to specified label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Br",
           "package": "language-cil",
@@ -4073,6 +4438,7 @@
         "index": {
           "description": "Unconditionally jump to specified label",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Br",
           "package": "language-cil",
@@ -4087,6 +4453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInform a debugger that a breakpoint has been reached.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Break",
           "package": "language-cil",
@@ -4097,6 +4464,7 @@
         "index": {
           "description": "Inform debugger that breakpoint has been reached",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Break",
           "package": "language-cil",
@@ -4111,6 +4479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 1 value, if value is false, null reference or zero, jump to specified label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Brfalse",
           "package": "language-cil",
@@ -4121,6 +4490,7 @@
         "index": {
           "description": "Pops value if value is false null reference or zero jump to specified label",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Brfalse",
           "package": "language-cil",
@@ -4135,6 +4505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 1 value, if value is true, not null or non-zero, jump to specified label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Brtrue",
           "package": "language-cil",
@@ -4145,6 +4516,7 @@
         "index": {
           "description": "Pops value if value is true not null or non-zero jump to specified label",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Brtrue",
           "package": "language-cil",
@@ -4158,6 +4530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "ByRef",
           "package": "language-cil",
@@ -4167,6 +4540,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "ByRef",
           "package": "language-cil",
@@ -4180,6 +4554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Byte",
           "package": "language-cil",
@@ -4189,6 +4564,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Byte",
           "package": "language-cil",
@@ -4202,6 +4578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "ByteAligned",
           "package": "language-cil",
@@ -4211,6 +4588,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "ByteAligned",
           "package": "language-cil",
@@ -4224,6 +4602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "CaNestedPrivate",
           "package": "language-cil",
@@ -4233,6 +4612,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "CaNestedPrivate",
           "package": "language-cil",
@@ -4246,6 +4626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "CaNestedPublic",
           "package": "language-cil",
@@ -4255,6 +4636,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "CaNestedPublic",
           "package": "language-cil",
@@ -4268,6 +4650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "CaPrivate",
           "package": "language-cil",
@@ -4277,6 +4660,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "CaPrivate",
           "package": "language-cil",
@@ -4290,6 +4674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "CaPublic",
           "package": "language-cil",
@@ -4299,6 +4684,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "CaPublic",
           "package": "language-cil",
@@ -4313,6 +4699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops \u003cem\u003en\u003c/em\u003e values, calls specified method, pushes return value. (where \u003cem\u003en\u003c/em\u003e is the number of formal parameters of the method).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Call",
           "package": "language-cil",
@@ -4323,6 +4710,7 @@
         "index": {
           "description": "Pops values calls specified method pushes return value where is the number of formal parameters of the method",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Call",
           "package": "language-cil",
@@ -4337,6 +4725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops \u003cem\u003en\u003c/em\u003e values, calls specified virtual method, pushes return value. (where \u003cem\u003en\u003c/em\u003e is the number of formal parameters of the method).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "CallVirt",
           "package": "language-cil",
@@ -4347,6 +4736,7 @@
         "index": {
           "description": "Pops values calls specified virtual method pushes return value where is the number of formal parameters of the method",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "CallVirt",
           "package": "language-cil",
@@ -4360,6 +4750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "CcInstance",
           "package": "language-cil",
@@ -4369,6 +4760,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "CcInstance",
           "package": "language-cil",
@@ -4383,6 +4775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, if they are equal, pushes 1 to stack; otherwise, pushes 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ceq",
           "package": "language-cil",
@@ -4393,6 +4786,7 @@
         "index": {
           "description": "Pops values if they are equal pushes to stack otherwise pushes",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ceq",
           "package": "language-cil",
@@ -4407,6 +4801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values and compares them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Cgt",
           "package": "language-cil",
@@ -4417,6 +4812,7 @@
         "index": {
           "description": "Pops values and compares them",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Cgt",
           "package": "language-cil",
@@ -4430,6 +4826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Char",
           "package": "language-cil",
@@ -4439,6 +4836,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Char",
           "package": "language-cil",
@@ -4453,6 +4851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops a float or double. Throws an ArithmeticException if the popped value is NaN or +/- infinity. Pushes the popped value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ckfinite",
           "package": "language-cil",
@@ -4463,6 +4862,7 @@
         "index": {
           "description": "Pops float or double Throws an ArithmeticException if the popped value is NaN or infinity Pushes the popped value",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ckfinite",
           "package": "language-cil",
@@ -4476,6 +4876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Class",
           "package": "language-cil",
@@ -4485,6 +4886,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Class",
           "normalized": "Class[ClassAttr]TypeName(Maybe TypeSpec)[TypeSpec][ClassDecl]",
@@ -4501,6 +4903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values and compares them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Clt",
           "package": "language-cil",
@@ -4511,6 +4914,7 @@
         "index": {
           "description": "Pops values and compares them",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Clt",
           "package": "language-cil",
@@ -4524,6 +4928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Comment",
           "package": "language-cil",
@@ -4533,6 +4938,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Comment",
           "package": "language-cil",
@@ -4546,6 +4952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Constructor",
           "package": "language-cil",
@@ -4555,6 +4962,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Constructor",
           "normalized": "Constructor[MethAttr]PrimitiveType[Parameter][MethodDecl]",
@@ -4570,6 +4978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Directive",
           "package": "language-cil",
@@ -4579,6 +4988,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Directive",
           "package": "language-cil",
@@ -4593,6 +5003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, divides the first by the second, pushes the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Div",
           "package": "language-cil",
@@ -4603,6 +5014,7 @@
         "index": {
           "description": "Pops values divides the first by the second pushes the result",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Div",
           "package": "language-cil",
@@ -4617,6 +5029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 integers, divides the first by the second when consider as unsigned integers, pushes the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Div_un",
           "package": "language-cil",
@@ -4627,6 +5040,7 @@
         "index": {
           "description": "Pops integers divides the first by the second when consider as unsigned integers pushes the result",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Div_un",
           "package": "language-cil",
@@ -4640,6 +5054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Double64",
           "package": "language-cil",
@@ -4649,6 +5064,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Double64",
           "package": "language-cil",
@@ -4662,6 +5078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "DoubleByteAligned",
           "package": "language-cil",
@@ -4671,6 +5088,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "DoubleByteAligned",
           "package": "language-cil",
@@ -4685,6 +5103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 1 value, copies it, pushes the same value twise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Dup",
           "package": "language-cil",
@@ -4695,6 +5114,7 @@
         "index": {
           "description": "Pops value copies it pushes the same value twise",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Dup",
           "package": "language-cil",
@@ -4708,6 +5128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "EntryPoint",
           "package": "language-cil",
@@ -4717,6 +5138,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "EntryPoint",
           "package": "language-cil",
@@ -4730,6 +5152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "FaAssembly",
           "package": "language-cil",
@@ -4739,6 +5162,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "FaAssembly",
           "package": "language-cil",
@@ -4752,6 +5176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "FaPrivate",
           "package": "language-cil",
@@ -4761,6 +5186,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "FaPrivate",
           "package": "language-cil",
@@ -4774,6 +5200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "FaPublic",
           "package": "language-cil",
@@ -4783,6 +5210,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "FaPublic",
           "package": "language-cil",
@@ -4796,6 +5224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "FaStatic",
           "package": "language-cil",
@@ -4805,6 +5234,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "FaStatic",
           "package": "language-cil",
@@ -4818,6 +5248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Field",
           "package": "language-cil",
@@ -4827,6 +5258,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Field",
           "normalized": "Field[FieldAttr]PrimitiveType FieldName",
@@ -4842,6 +5274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "FieldDef",
           "package": "language-cil",
@@ -4851,6 +5284,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "FieldDef",
           "package": "language-cil",
@@ -4864,6 +5298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Float32",
           "package": "language-cil",
@@ -4873,6 +5308,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Float32",
           "package": "language-cil",
@@ -4886,6 +5322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "GenParam",
           "package": "language-cil",
@@ -4895,6 +5332,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "GenParam",
           "package": "language-cil",
@@ -4908,6 +5346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "GenericClass",
           "package": "language-cil",
@@ -4917,6 +5356,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "GenericClass",
           "normalized": "GenericClass[ClassAttr]TypeName[GenParam][ClassDecl]",
@@ -4932,6 +5372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "GenericReferenceType",
           "package": "language-cil",
@@ -4941,6 +5382,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "GenericReferenceType",
           "normalized": "GenericReferenceType AssemblyName TypeName[GenParamName]",
@@ -4956,6 +5398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "GenericType",
           "package": "language-cil",
@@ -4965,6 +5408,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "GenericType",
           "package": "language-cil",
@@ -4978,6 +5422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Instr",
           "package": "language-cil",
@@ -4987,6 +5432,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Instr",
           "package": "language-cil",
@@ -5000,6 +5446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Int32",
           "package": "language-cil",
@@ -5009,6 +5456,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Int32",
           "package": "language-cil",
@@ -5022,6 +5470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Int64",
           "package": "language-cil",
@@ -5031,6 +5480,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Int64",
           "package": "language-cil",
@@ -5044,6 +5494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "IntPtr",
           "package": "language-cil",
@@ -5053,6 +5504,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "IntPtr",
           "package": "language-cil",
@@ -5067,6 +5519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests if an object reference is an instance of class, returning either a null reference or an instance of that class or interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Isinst",
           "package": "language-cil",
@@ -5077,6 +5530,7 @@
         "index": {
           "description": "Tests if an object reference is an instance of class returning either null reference or an instance of that class or interface",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Isinst",
           "package": "language-cil",
@@ -5090,6 +5544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "LabOpCode",
           "package": "language-cil",
@@ -5099,6 +5554,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "LabOpCode",
           "package": "language-cil",
@@ -5113,6 +5569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads \u003cem\u003en\u003c/em\u003e-th argument to current method onto stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldarg",
           "package": "language-cil",
@@ -5123,6 +5580,7 @@
         "index": {
           "description": "Loads th argument to current method onto stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldarg",
           "package": "language-cil",
@@ -5137,6 +5595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads named argument to current method onto stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "LdargN",
           "package": "language-cil",
@@ -5147,6 +5606,7 @@
         "index": {
           "description": "Loads named argument to current method onto stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "LdargN",
           "package": "language-cil",
@@ -5161,6 +5621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads 0th argument to current method onto stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldarg_0",
           "package": "language-cil",
@@ -5171,6 +5632,7 @@
         "index": {
           "description": "Loads th argument to current method onto stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldarg_0",
           "package": "language-cil",
@@ -5185,6 +5647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads 1th argument to current method onto stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldarg_1",
           "package": "language-cil",
@@ -5195,6 +5658,7 @@
         "index": {
           "description": "Loads th argument to current method onto stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldarg_1",
           "package": "language-cil",
@@ -5209,6 +5673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads 2th argument to current method onto stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldarg_2",
           "package": "language-cil",
@@ -5219,6 +5684,7 @@
         "index": {
           "description": "Loads th argument to current method onto stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldarg_2",
           "package": "language-cil",
@@ -5233,6 +5699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads 3th argument to current method onto stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldarg_3",
           "package": "language-cil",
@@ -5243,6 +5710,7 @@
         "index": {
           "description": "Loads th argument to current method onto stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldarg_3",
           "package": "language-cil",
@@ -5257,6 +5725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads the supplied 32-bit integer onto the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4",
           "package": "language-cil",
@@ -5267,6 +5736,7 @@
         "index": {
           "description": "Loads the supplied bit integer onto the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4",
           "package": "language-cil",
@@ -5281,6 +5751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads the value 0 onto the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4_0",
           "package": "language-cil",
@@ -5291,6 +5762,7 @@
         "index": {
           "description": "Loads the value onto the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4_0",
           "package": "language-cil",
@@ -5305,6 +5777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads the value 1 onto the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4_1",
           "package": "language-cil",
@@ -5315,6 +5788,7 @@
         "index": {
           "description": "Loads the value onto the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4_1",
           "package": "language-cil",
@@ -5329,6 +5803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads the value 2 onto the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4_2",
           "package": "language-cil",
@@ -5339,6 +5814,7 @@
         "index": {
           "description": "Loads the value onto the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4_2",
           "package": "language-cil",
@@ -5353,6 +5829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads the value 3 onto the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4_3",
           "package": "language-cil",
@@ -5363,6 +5840,7 @@
         "index": {
           "description": "Loads the value onto the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4_3",
           "package": "language-cil",
@@ -5377,6 +5855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads the value 4 onto the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4_4",
           "package": "language-cil",
@@ -5387,6 +5866,7 @@
         "index": {
           "description": "Loads the value onto the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4_4",
           "package": "language-cil",
@@ -5401,6 +5881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads the value 5 onto the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4_5",
           "package": "language-cil",
@@ -5411,6 +5892,7 @@
         "index": {
           "description": "Loads the value onto the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4_5",
           "package": "language-cil",
@@ -5425,6 +5907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads the value 6 onto the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4_6",
           "package": "language-cil",
@@ -5435,6 +5918,7 @@
         "index": {
           "description": "Loads the value onto the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4_6",
           "package": "language-cil",
@@ -5449,6 +5933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads the value 7 onto the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4_7",
           "package": "language-cil",
@@ -5459,6 +5944,7 @@
         "index": {
           "description": "Loads the value onto the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4_7",
           "package": "language-cil",
@@ -5473,6 +5959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads the value 8 onto the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4_8",
           "package": "language-cil",
@@ -5483,6 +5970,7 @@
         "index": {
           "description": "Loads the value onto the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4_8",
           "package": "language-cil",
@@ -5497,6 +5985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads the value -1 onto the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4_m1",
           "package": "language-cil",
@@ -5507,6 +5996,7 @@
         "index": {
           "description": "Loads the value onto the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4_m1",
           "package": "language-cil",
@@ -5521,6 +6011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads the supplied 8-bit integer onto the stack as 32-bit integer (short form).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4_s",
           "package": "language-cil",
@@ -5531,6 +6022,7 @@
         "index": {
           "description": "Loads the supplied bit integer onto the stack as bit integer short form",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i4_s",
           "package": "language-cil",
@@ -5545,6 +6037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads the supplied 64-bit integer onto the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i8",
           "package": "language-cil",
@@ -5555,6 +6048,7 @@
         "index": {
           "description": "Loads the supplied bit integer onto the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_i8",
           "package": "language-cil",
@@ -5569,6 +6063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads the supplied 32-bit float onto the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_r4",
           "package": "language-cil",
@@ -5579,6 +6074,7 @@
         "index": {
           "description": "Loads the supplied bit float onto the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_r4",
           "package": "language-cil",
@@ -5593,6 +6089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads the supplied 64-bit double onto the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_r8",
           "package": "language-cil",
@@ -5603,6 +6100,7 @@
         "index": {
           "description": "Loads the supplied bit double onto the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldc_r8",
           "package": "language-cil",
@@ -5617,6 +6115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an array reference and an index. Pushes the native integer in the specified slot of the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_i",
           "package": "language-cil",
@@ -5627,6 +6126,7 @@
         "index": {
           "description": "Pops an array reference and an index Pushes the native integer in the specified slot of the array",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_i",
           "package": "language-cil",
@@ -5641,6 +6141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an array reference and an index. Pushes the 8-bit integer in the specified slot of the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_i1",
           "package": "language-cil",
@@ -5651,6 +6152,7 @@
         "index": {
           "description": "Pops an array reference and an index Pushes the bit integer in the specified slot of the array",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_i1",
           "package": "language-cil",
@@ -5665,6 +6167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an array reference and an index. Pushes the 16-bit integer in the specified slot of the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_i2",
           "package": "language-cil",
@@ -5675,6 +6178,7 @@
         "index": {
           "description": "Pops an array reference and an index Pushes the bit integer in the specified slot of the array",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_i2",
           "package": "language-cil",
@@ -5689,6 +6193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an array reference and an index. Pushes the 32-bit integer in the specified slot of the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_i4",
           "package": "language-cil",
@@ -5699,6 +6204,7 @@
         "index": {
           "description": "Pops an array reference and an index Pushes the bit integer in the specified slot of the array",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_i4",
           "package": "language-cil",
@@ -5713,6 +6219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an array reference and an index. Pushes the 64-bit integer in the specified slot of the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_i8",
           "package": "language-cil",
@@ -5723,6 +6230,7 @@
         "index": {
           "description": "Pops an array reference and an index Pushes the bit integer in the specified slot of the array",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_i8",
           "package": "language-cil",
@@ -5737,6 +6245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an array reference and an index. Pushes the float in the specified slot of the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_r4",
           "package": "language-cil",
@@ -5747,6 +6256,7 @@
         "index": {
           "description": "Pops an array reference and an index Pushes the float in the specified slot of the array",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_r4",
           "package": "language-cil",
@@ -5761,6 +6271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an array reference and an index. Pushes the double in the specified slot of the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_r8",
           "package": "language-cil",
@@ -5771,6 +6282,7 @@
         "index": {
           "description": "Pops an array reference and an index Pushes the double in the specified slot of the array",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_r8",
           "package": "language-cil",
@@ -5785,6 +6297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an array reference and an index. Pushes the object reference in the specified slot of the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_ref",
           "package": "language-cil",
@@ -5795,6 +6308,7 @@
         "index": {
           "description": "Pops an array reference and an index Pushes the object reference in the specified slot of the array",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_ref",
           "package": "language-cil",
@@ -5809,6 +6323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an array reference and an index. Pushes the unsigned 8-bit integer in the specified slot of the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_u1",
           "package": "language-cil",
@@ -5819,6 +6334,7 @@
         "index": {
           "description": "Pops an array reference and an index Pushes the unsigned bit integer in the specified slot of the array",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_u1",
           "package": "language-cil",
@@ -5833,6 +6349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an array reference and an index. Pushes the unsigned 16-bit integer in the specified slot of the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_u2",
           "package": "language-cil",
@@ -5843,6 +6360,7 @@
         "index": {
           "description": "Pops an array reference and an index Pushes the unsigned bit integer in the specified slot of the array",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_u2",
           "package": "language-cil",
@@ -5857,6 +6375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an array reference and an index. Pushes the unsigned 32-bit integer in the specified slot of the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_u4",
           "package": "language-cil",
@@ -5867,6 +6386,7 @@
         "index": {
           "description": "Pops an array reference and an index Pushes the unsigned bit integer in the specified slot of the array",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_u4",
           "package": "language-cil",
@@ -5881,6 +6401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an array reference and an index. Pushes the unsigned 64-bit integer in the specified slot of the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_u8",
           "package": "language-cil",
@@ -5891,6 +6412,7 @@
         "index": {
           "description": "Pops an array reference and an index Pushes the unsigned bit integer in the specified slot of the array",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldelem_u8",
           "package": "language-cil",
@@ -5905,6 +6427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an array reference and an index. Pushes the address of the specified slot of the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldelema",
           "package": "language-cil",
@@ -5915,6 +6438,7 @@
         "index": {
           "description": "Pops an array reference and an index Pushes the address of the specified slot of the array",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldelema",
           "package": "language-cil",
@@ -5929,6 +6453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops object reference, find value of specified field on object, pushes value to the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldfld",
           "package": "language-cil",
@@ -5939,6 +6464,7 @@
         "index": {
           "description": "Pops object reference find value of specified field on object pushes value to the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldfld",
           "package": "language-cil",
@@ -5953,6 +6479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops object reference, find address of specified field on the object, pushes address to the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldflda",
           "package": "language-cil",
@@ -5963,6 +6490,7 @@
         "index": {
           "description": "Pops object reference find address of specified field on the object pushes address to the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldflda",
           "package": "language-cil",
@@ -5977,6 +6505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops object reference, finds address of specified method, pushes address as native int to the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldftn",
           "package": "language-cil",
@@ -5987,6 +6516,7 @@
         "index": {
           "description": "Pops object reference finds address of specified method pushes address as native int to the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldftn",
           "package": "language-cil",
@@ -6001,6 +6531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an address, pushes the native integer stored at the address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldind_i",
           "package": "language-cil",
@@ -6011,6 +6542,7 @@
         "index": {
           "description": "Pops an address pushes the native integer stored at the address",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldind_i",
           "package": "language-cil",
@@ -6025,6 +6557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an address, pushes the 8-bit integer stored at the address as a 32-bit integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldind_i1",
           "package": "language-cil",
@@ -6035,6 +6568,7 @@
         "index": {
           "description": "Pops an address pushes the bit integer stored at the address as bit integer",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldind_i1",
           "package": "language-cil",
@@ -6049,6 +6583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an address, pushes the 16-bit integer stored at the address as a 32-bit integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldind_i2",
           "package": "language-cil",
@@ -6059,6 +6594,7 @@
         "index": {
           "description": "Pops an address pushes the bit integer stored at the address as bit integer",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldind_i2",
           "package": "language-cil",
@@ -6073,6 +6609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an address, pushes the 32-bit integer stored at the address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldind_i4",
           "package": "language-cil",
@@ -6083,6 +6620,7 @@
         "index": {
           "description": "Pops an address pushes the bit integer stored at the address",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldind_i4",
           "package": "language-cil",
@@ -6097,6 +6635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an address, pushes the 64-bit integer stored at the address as a 64-bit integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldind_i8",
           "package": "language-cil",
@@ -6107,6 +6646,7 @@
         "index": {
           "description": "Pops an address pushes the bit integer stored at the address as bit integer",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldind_i8",
           "package": "language-cil",
@@ -6121,6 +6661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an address, pushes the 32-bit float stored at the address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldind_r4",
           "package": "language-cil",
@@ -6131,6 +6672,7 @@
         "index": {
           "description": "Pops an address pushes the bit float stored at the address",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldind_r4",
           "package": "language-cil",
@@ -6145,6 +6687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an address, pushes the 64-bit double stored at the address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldind_r8",
           "package": "language-cil",
@@ -6155,6 +6698,7 @@
         "index": {
           "description": "Pops an address pushes the bit double stored at the address",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldind_r8",
           "package": "language-cil",
@@ -6169,6 +6713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an address, pushes the object reference specified at the address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldind_ref",
           "package": "language-cil",
@@ -6179,6 +6724,7 @@
         "index": {
           "description": "Pops an address pushes the object reference specified at the address",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldind_ref",
           "package": "language-cil",
@@ -6193,6 +6739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an address, pushes the 8-bit unsigned integer stored at the address as a 32-bit integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldind_u1",
           "package": "language-cil",
@@ -6203,6 +6750,7 @@
         "index": {
           "description": "Pops an address pushes the bit unsigned integer stored at the address as bit integer",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldind_u1",
           "package": "language-cil",
@@ -6217,6 +6765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an address, pushes the 16-bit unsigned integer stored at the address as a 32-bit integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldind_u2",
           "package": "language-cil",
@@ -6227,6 +6776,7 @@
         "index": {
           "description": "Pops an address pushes the bit unsigned integer stored at the address as bit integer",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldind_u2",
           "package": "language-cil",
@@ -6241,6 +6791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an address, pushes the 32-bit unsigned integer stored at the address as a 32-bit integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldind_u4",
           "package": "language-cil",
@@ -6251,6 +6802,7 @@
         "index": {
           "description": "Pops an address pushes the bit unsigned integer stored at the address as bit integer",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldind_u4",
           "package": "language-cil",
@@ -6265,6 +6817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an array reference, pushes the native unsigned integer length of the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldlen",
           "package": "language-cil",
@@ -6275,6 +6828,7 @@
         "index": {
           "description": "Pops an array reference pushes the native unsigned integer length of the array",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldlen",
           "package": "language-cil",
@@ -6289,6 +6843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePushes value of local variable, specified by index, to the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldloc",
           "package": "language-cil",
@@ -6299,6 +6854,7 @@
         "index": {
           "description": "Pushes value of local variable specified by index to the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldloc",
           "package": "language-cil",
@@ -6313,6 +6869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePushes value of local variable, specified by name, to the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "LdlocN",
           "package": "language-cil",
@@ -6323,6 +6880,7 @@
         "index": {
           "description": "Pushes value of local variable specified by name to the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "LdlocN",
           "package": "language-cil",
@@ -6337,6 +6895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePushes 0th local variable to the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldloc_0",
           "package": "language-cil",
@@ -6347,6 +6906,7 @@
         "index": {
           "description": "Pushes th local variable to the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldloc_0",
           "package": "language-cil",
@@ -6361,6 +6921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePushes 1th local variable to the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldloc_1",
           "package": "language-cil",
@@ -6371,6 +6932,7 @@
         "index": {
           "description": "Pushes th local variable to the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldloc_1",
           "package": "language-cil",
@@ -6385,6 +6947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePushes 2th local variable to the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldloc_2",
           "package": "language-cil",
@@ -6395,6 +6958,7 @@
         "index": {
           "description": "Pushes th local variable to the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldloc_2",
           "package": "language-cil",
@@ -6409,6 +6973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePushes 3th local variable to the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldloc_3",
           "package": "language-cil",
@@ -6419,6 +6984,7 @@
         "index": {
           "description": "Pushes th local variable to the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldloc_3",
           "package": "language-cil",
@@ -6433,6 +6999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePushes address of local variable, specified by index, to the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldloca",
           "package": "language-cil",
@@ -6443,6 +7010,7 @@
         "index": {
           "description": "Pushes address of local variable specified by index to the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldloca",
           "package": "language-cil",
@@ -6457,6 +7025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePushes address of local variable, specified by name, to the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "LdlocaN",
           "package": "language-cil",
@@ -6467,6 +7036,7 @@
         "index": {
           "description": "Pushes address of local variable specified by name to the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "LdlocaN",
           "package": "language-cil",
@@ -6481,6 +7051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePushes a size-agnostic null reference on the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldnull",
           "package": "language-cil",
@@ -6491,6 +7062,7 @@
         "index": {
           "description": "Pushes size-agnostic null reference on the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldnull",
           "package": "language-cil",
@@ -6505,6 +7077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops type reference, find value of specified field on the type, pushes value to the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldsfld",
           "package": "language-cil",
@@ -6515,6 +7088,7 @@
         "index": {
           "description": "Pops type reference find value of specified field on the type pushes value to the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldsfld",
           "package": "language-cil",
@@ -6529,6 +7103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops type reference, find address of specified field on the type, pushes address to the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldsflda",
           "package": "language-cil",
@@ -6539,6 +7114,7 @@
         "index": {
           "description": "Pops type reference find address of specified field on the type pushes address to the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldsflda",
           "package": "language-cil",
@@ -6553,6 +7129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePushes an object reference to the specified string constant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ldstr",
           "package": "language-cil",
@@ -6563,6 +7140,7 @@
         "index": {
           "description": "Pushes an object reference to the specified string constant",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ldstr",
           "package": "language-cil",
@@ -6576,6 +7154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Local",
           "package": "language-cil",
@@ -6585,6 +7164,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Local",
           "package": "language-cil",
@@ -6598,6 +7178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "LocalsInit",
           "package": "language-cil",
@@ -6607,6 +7188,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "LocalsInit",
           "normalized": "LocalsInit[Local]",
@@ -6622,6 +7204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "MaAssembly",
           "package": "language-cil",
@@ -6631,6 +7214,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "MaAssembly",
           "package": "language-cil",
@@ -6644,6 +7228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "MaHidebysig",
           "package": "language-cil",
@@ -6653,6 +7238,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "MaHidebysig",
           "package": "language-cil",
@@ -6666,6 +7252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "MaPrivate",
           "package": "language-cil",
@@ -6675,6 +7262,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "MaPrivate",
           "package": "language-cil",
@@ -6688,6 +7276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "MaPublic",
           "package": "language-cil",
@@ -6697,6 +7286,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "MaPublic",
           "package": "language-cil",
@@ -6710,6 +7300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "MaStatic",
           "package": "language-cil",
@@ -6719,6 +7310,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "MaStatic",
           "package": "language-cil",
@@ -6732,6 +7324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "MaVirtual",
           "package": "language-cil",
@@ -6741,6 +7334,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "MaVirtual",
           "package": "language-cil",
@@ -6754,6 +7348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "MaxStack",
           "package": "language-cil",
@@ -6763,6 +7358,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "MaxStack",
           "package": "language-cil",
@@ -6776,6 +7372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Method",
           "package": "language-cil",
@@ -6785,6 +7382,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Method",
           "normalized": "Method[MethAttr]PrimitiveType MethodName[Parameter][MethodDecl]",
@@ -6800,6 +7398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "MethodDef",
           "package": "language-cil",
@@ -6809,6 +7408,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "MethodDef",
           "package": "language-cil",
@@ -6823,6 +7423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, multiplies the values, pushes result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Mul",
           "package": "language-cil",
@@ -6833,6 +7434,7 @@
         "index": {
           "description": "Pops values multiplies the values pushes result",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Mul",
           "package": "language-cil",
@@ -6847,6 +7449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, multiplies the values with a signed overflow check, pushes result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Mul_ovf",
           "package": "language-cil",
@@ -6857,6 +7460,7 @@
         "index": {
           "description": "Pops values multiplies the values with signed overflow check pushes result",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Mul_ovf",
           "package": "language-cil",
@@ -6871,6 +7475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, multiplies the values with an unsigned overflow check, pushes result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Mul_ovf_un",
           "package": "language-cil",
@@ -6881,6 +7486,7 @@
         "index": {
           "description": "Pops values multiplies the values with an unsigned overflow check pushes result",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Mul_ovf_un",
           "package": "language-cil",
@@ -6895,6 +7501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 1 value, negates the value, pushes the value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Neg",
           "package": "language-cil",
@@ -6905,6 +7512,7 @@
         "index": {
           "description": "Pops value negates the value pushes the value",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Neg",
           "package": "language-cil",
@@ -6919,6 +7527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new one-dimensional array. Pops a native int or int32, pushes a new array with that length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Newarr",
           "package": "language-cil",
@@ -6929,6 +7538,7 @@
         "index": {
           "description": "Creates new one-dimensional array Pops native int or int32 pushes new array with that length",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Newarr",
           "package": "language-cil",
@@ -6943,6 +7553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new object or instance of a value type. Pops \u003cem\u003en\u003c/em\u003e values, calls the specified constructor, pushes a new object reference onto the stack (where \u003cem\u003en\u003c/em\u003e is the number of formal parameters of the constructor).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Newobj",
           "package": "language-cil",
@@ -6953,6 +7564,7 @@
         "index": {
           "description": "Creates new object or instance of value type Pops values calls the specified constructor pushes new object reference onto the stack where is the number of formal parameters of the constructor",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Newobj",
           "package": "language-cil",
@@ -6967,6 +7579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo operation is performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Nop",
           "package": "language-cil",
@@ -6977,6 +7590,7 @@
         "index": {
           "description": "No operation is performed",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Nop",
           "package": "language-cil",
@@ -6991,6 +7605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 1 value, does a bitwise complement, pushes result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Not",
           "package": "language-cil",
@@ -7001,6 +7616,7 @@
         "index": {
           "description": "Pops value does bitwise complement pushes result",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Not",
           "package": "language-cil",
@@ -7014,6 +7630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Object",
           "package": "language-cil",
@@ -7023,6 +7640,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Object",
           "package": "language-cil",
@@ -7036,6 +7654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "OpCode",
           "package": "language-cil",
@@ -7045,6 +7664,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "OpCode",
           "package": "language-cil",
@@ -7059,6 +7679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, do bitwise OR between the values, pushes result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Or",
           "package": "language-cil",
@@ -7069,6 +7690,7 @@
         "index": {
           "description": "Pops values do bitwise OR between the values pushes result",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Or",
           "package": "language-cil",
@@ -7082,6 +7704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "PaIn",
           "package": "language-cil",
@@ -7091,6 +7714,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "PaIn",
           "package": "language-cil",
@@ -7104,6 +7728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "PaOpt",
           "package": "language-cil",
@@ -7113,6 +7738,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "PaOpt",
           "package": "language-cil",
@@ -7126,6 +7752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "PaOut",
           "package": "language-cil",
@@ -7135,6 +7762,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "PaOut",
           "package": "language-cil",
@@ -7148,6 +7776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Param",
           "package": "language-cil",
@@ -7157,6 +7786,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Param",
           "package": "language-cil",
@@ -7171,6 +7801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops the top of the stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Pop",
           "package": "language-cil",
@@ -7181,6 +7812,7 @@
         "index": {
           "description": "Pops the top of the stack",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Pop",
           "package": "language-cil",
@@ -7194,6 +7826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "QuadByteAligned",
           "package": "language-cil",
@@ -7203,6 +7836,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "QuadByteAligned",
           "package": "language-cil",
@@ -7216,6 +7850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "ReferenceType",
           "package": "language-cil",
@@ -7225,6 +7860,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "ReferenceType",
           "package": "language-cil",
@@ -7239,6 +7875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, divides the first value by the second value, pushes the remainder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Rem",
           "package": "language-cil",
@@ -7249,6 +7886,7 @@
         "index": {
           "description": "Pops values divides the first value by the second value pushes the remainder",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Rem",
           "package": "language-cil",
@@ -7263,6 +7901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 integers, divides the first by the second when considered as unsigned integers, pushes the remainder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Rem_un",
           "package": "language-cil",
@@ -7273,6 +7912,7 @@
         "index": {
           "description": "Pops integers divides the first by the second when considered as unsigned integers pushes the remainder",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Rem_un",
           "package": "language-cil",
@@ -7287,6 +7927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns from the current method. Pushes top of the stack to the top of the callers stack (if stack is not empty).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Ret",
           "package": "language-cil",
@@ -7297,6 +7938,7 @@
         "index": {
           "description": "Returns from the current method Pushes top of the stack to the top of the callers stack if stack is not empty",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Ret",
           "package": "language-cil",
@@ -7311,6 +7953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, shifts the first to the left by the number of bits specified by the second, pushes the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Shl",
           "package": "language-cil",
@@ -7321,6 +7964,7 @@
         "index": {
           "description": "Pops values shifts the first to the left by the number of bits specified by the second pushes the result",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Shl",
           "package": "language-cil",
@@ -7335,6 +7979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, shifts the first to the right by the number of bits specified by the second (with sign extension), pushes the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Shr",
           "package": "language-cil",
@@ -7345,6 +7990,7 @@
         "index": {
           "description": "Pops values shifts the first to the right by the number of bits specified by the second with sign extension pushes the result",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Shr",
           "package": "language-cil",
@@ -7359,6 +8005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, shifts the first to the right by the number of bits specified by the second (without sign extension), pushes the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Shr_un",
           "package": "language-cil",
@@ -7369,6 +8016,7 @@
         "index": {
           "description": "Pops values shifts the first to the right by the number of bits specified by the second without sign extension pushes the result",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Shr_un",
           "package": "language-cil",
@@ -7383,6 +8031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an array reference, an index, and a native integer. Stores the integer in the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stelem_i",
           "package": "language-cil",
@@ -7393,6 +8042,7 @@
         "index": {
           "description": "Pops an array reference an index and native integer Stores the integer in the array",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stelem_i",
           "package": "language-cil",
@@ -7407,6 +8057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an array reference, an index, and an 8-bit integer. Stores the integer in the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stelem_i1",
           "package": "language-cil",
@@ -7417,6 +8068,7 @@
         "index": {
           "description": "Pops an array reference an index and an bit integer Stores the integer in the array",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stelem_i1",
           "package": "language-cil",
@@ -7431,6 +8083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an array reference, an index, and a 16-bit integer. Stores the integer in the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stelem_i2",
           "package": "language-cil",
@@ -7441,6 +8094,7 @@
         "index": {
           "description": "Pops an array reference an index and bit integer Stores the integer in the array",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stelem_i2",
           "package": "language-cil",
@@ -7455,6 +8109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an array reference, an index, and a 32-bit integer. Stores the integer in the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stelem_i4",
           "package": "language-cil",
@@ -7465,6 +8120,7 @@
         "index": {
           "description": "Pops an array reference an index and bit integer Stores the integer in the array",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stelem_i4",
           "package": "language-cil",
@@ -7479,6 +8135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an array reference, an index, and a 64-bit integer. Stores the integer in the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stelem_i8",
           "package": "language-cil",
@@ -7489,6 +8146,7 @@
         "index": {
           "description": "Pops an array reference an index and bit integer Stores the integer in the array",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stelem_i8",
           "package": "language-cil",
@@ -7503,6 +8161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an array reference, an index, and a float. Stores the float in the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stelem_r4",
           "package": "language-cil",
@@ -7513,6 +8172,7 @@
         "index": {
           "description": "Pops an array reference an index and float Stores the float in the array",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stelem_r4",
           "package": "language-cil",
@@ -7527,6 +8187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an array reference, an index, and a double integer. Stores the double in the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stelem_r8",
           "package": "language-cil",
@@ -7537,6 +8198,7 @@
         "index": {
           "description": "Pops an array reference an index and double integer Stores the double in the array",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stelem_r8",
           "package": "language-cil",
@@ -7551,6 +8213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an array reference, an index, and an object reference. Stores the object reference in the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stelem_ref",
           "package": "language-cil",
@@ -7561,6 +8224,7 @@
         "index": {
           "description": "Pops an array reference an index and an object reference Stores the object reference in the array",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stelem_ref",
           "package": "language-cil",
@@ -7575,6 +8239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplaces the value stored in the field of an object reference or pointer with a new value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stfld",
           "package": "language-cil",
@@ -7585,6 +8250,7 @@
         "index": {
           "description": "Replaces the value stored in the field of an object reference or pointer with new value",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stfld",
           "package": "language-cil",
@@ -7599,6 +8265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an address and a native integer, stores the integer at the address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stind_i",
           "package": "language-cil",
@@ -7609,6 +8276,7 @@
         "index": {
           "description": "Pops an address and native integer stores the integer at the address",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stind_i",
           "package": "language-cil",
@@ -7623,6 +8291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an address and a 8-bit integer, stores the integer at the address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stind_i1",
           "package": "language-cil",
@@ -7633,6 +8302,7 @@
         "index": {
           "description": "Pops an address and bit integer stores the integer at the address",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stind_i1",
           "package": "language-cil",
@@ -7647,6 +8317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an address and a 16-bit integer, stores the integer at the address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stind_i2",
           "package": "language-cil",
@@ -7657,6 +8328,7 @@
         "index": {
           "description": "Pops an address and bit integer stores the integer at the address",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stind_i2",
           "package": "language-cil",
@@ -7671,6 +8343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an address and a 32-bit integer, stores the integer at the address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stind_i4",
           "package": "language-cil",
@@ -7681,6 +8354,7 @@
         "index": {
           "description": "Pops an address and bit integer stores the integer at the address",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stind_i4",
           "package": "language-cil",
@@ -7695,6 +8369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an address and a 64-bit integer, stores the integer at the address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stind_i8",
           "package": "language-cil",
@@ -7705,6 +8380,7 @@
         "index": {
           "description": "Pops an address and bit integer stores the integer at the address",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stind_i8",
           "package": "language-cil",
@@ -7719,6 +8395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an address and a 32-bit float, stores the float at the address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stind_r4",
           "package": "language-cil",
@@ -7729,6 +8406,7 @@
         "index": {
           "description": "Pops an address and bit float stores the float at the address",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stind_r4",
           "package": "language-cil",
@@ -7743,6 +8421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an address and a 64-bit double, stores the double at the address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stind_r8",
           "package": "language-cil",
@@ -7753,6 +8432,7 @@
         "index": {
           "description": "Pops an address and bit double stores the double at the address",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stind_r8",
           "package": "language-cil",
@@ -7767,6 +8447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an address and an object reference, stores the object reference at the address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stind_ref",
           "package": "language-cil",
@@ -7777,6 +8458,7 @@
         "index": {
           "description": "Pops an address and an object reference stores the object reference at the address",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stind_ref",
           "package": "language-cil",
@@ -7791,6 +8473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 1 value, stores it in the local variable specified by index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stloc",
           "package": "language-cil",
@@ -7801,6 +8484,7 @@
         "index": {
           "description": "Pops value stores it in the local variable specified by index",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stloc",
           "package": "language-cil",
@@ -7815,6 +8499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 1 value, stores it in the local variable specified by name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "StlocN",
           "package": "language-cil",
@@ -7825,6 +8510,7 @@
         "index": {
           "description": "Pops value stores it in the local variable specified by name",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "StlocN",
           "package": "language-cil",
@@ -7839,6 +8525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 1 value, stores it in the 0th local variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stloc_0",
           "package": "language-cil",
@@ -7849,6 +8536,7 @@
         "index": {
           "description": "Pops value stores it in the th local variable",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stloc_0",
           "package": "language-cil",
@@ -7863,6 +8551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 1 value, stores it in the 1th local variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stloc_1",
           "package": "language-cil",
@@ -7873,6 +8562,7 @@
         "index": {
           "description": "Pops value stores it in the th local variable",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stloc_1",
           "package": "language-cil",
@@ -7887,6 +8577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 1 value, stores it in the 2th local variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stloc_2",
           "package": "language-cil",
@@ -7897,6 +8588,7 @@
         "index": {
           "description": "Pops value stores it in the th local variable",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stloc_2",
           "package": "language-cil",
@@ -7911,6 +8603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 1 value, stores it in the 3th local variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stloc_3",
           "package": "language-cil",
@@ -7921,6 +8614,7 @@
         "index": {
           "description": "Pops value stores it in the th local variable",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stloc_3",
           "package": "language-cil",
@@ -7934,6 +8628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "String",
           "package": "language-cil",
@@ -7943,6 +8638,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "String",
           "package": "language-cil",
@@ -7957,6 +8653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplaces the value stored in the static field of a type with a new value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Stsfld",
           "package": "language-cil",
@@ -7967,6 +8664,7 @@
         "index": {
           "description": "Replaces the value stored in the static field of type with new value",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Stsfld",
           "package": "language-cil",
@@ -7981,6 +8679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, subtracts second value from the first value, pushes result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Sub",
           "package": "language-cil",
@@ -7991,6 +8690,7 @@
         "index": {
           "description": "Pops values subtracts second value from the first value pushes result",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Sub",
           "package": "language-cil",
@@ -8005,6 +8705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, subtracts second value from the first value with a signed overflow check, pushes result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Sub_ovf",
           "package": "language-cil",
@@ -8015,6 +8716,7 @@
         "index": {
           "description": "Pops values subtracts second value from the first value with signed overflow check pushes result",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Sub_ovf",
           "package": "language-cil",
@@ -8029,6 +8731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, subtracts second value from the first value with an unsigned overflow check, pushes result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Sub_ovf_un",
           "package": "language-cil",
@@ -8039,6 +8742,7 @@
         "index": {
           "description": "Pops values subtracts second value from the first value with an unsigned overflow check pushes result",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Sub_ovf_un",
           "package": "language-cil",
@@ -8053,6 +8757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms subsequent call as a tail call, by replacing current stack frame with callee stack frame.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Tail",
           "package": "language-cil",
@@ -8063,6 +8768,7 @@
         "index": {
           "description": "Performs subsequent call as tail call by replacing current stack frame with callee stack frame",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Tail",
           "package": "language-cil",
@@ -8077,6 +8783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms provided call as a tail call, by replacing current stack frame with callee stack frame.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Tailcall",
           "package": "language-cil",
@@ -8087,6 +8794,7 @@
         "index": {
           "description": "Performs provided call as tail call by replacing current stack frame with callee stack frame",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Tailcall",
           "package": "language-cil",
@@ -8101,6 +8809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops an object reference from the stack and throws it as an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Throw",
           "package": "language-cil",
@@ -8111,6 +8820,7 @@
         "index": {
           "description": "Pops an object reference from the stack and throws it as an exception",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Throw",
           "package": "language-cil",
@@ -8124,6 +8834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "TypeDef",
           "package": "language-cil",
@@ -8133,6 +8844,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "TypeDef",
           "package": "language-cil",
@@ -8146,6 +8858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "TypeSpec",
           "package": "language-cil",
@@ -8155,6 +8868,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "TypeSpec",
           "package": "language-cil",
@@ -8169,6 +8883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms subsequent load or store operation under a weaker-than-usual alignment precondition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Unaligned",
           "package": "language-cil",
@@ -8179,6 +8894,7 @@
         "index": {
           "description": "Performs subsequent load or store operation under weaker-than-usual alignment precondition",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Unaligned",
           "package": "language-cil",
@@ -8193,6 +8909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms provided load or store operation under a weaker-than-usual alignment precondition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "UnalignedPtr",
           "package": "language-cil",
@@ -8203,6 +8920,7 @@
         "index": {
           "description": "Performs provided load or store operation under weaker-than-usual alignment precondition",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "UnalignedPtr",
           "package": "language-cil",
@@ -8217,6 +8935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 1 value, unboxes object reference, pushes value type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Unbox",
           "package": "language-cil",
@@ -8227,6 +8946,7 @@
         "index": {
           "description": "Pops value unboxes object reference pushes value type",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Unbox",
           "package": "language-cil",
@@ -8240,6 +8960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "ValueType",
           "package": "language-cil",
@@ -8249,6 +8970,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "ValueType",
           "package": "language-cil",
@@ -8262,6 +8984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Void",
           "package": "language-cil",
@@ -8271,6 +8994,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Void",
           "package": "language-cil",
@@ -8285,6 +9009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarks subsequent pointer reference as volatile, i.e. the value it points at can be modified from another thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Volatile",
           "package": "language-cil",
@@ -8295,6 +9020,7 @@
         "index": {
           "description": "Marks subsequent pointer reference as volatile i.e the value it points at can be modified from another thread",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Volatile",
           "package": "language-cil",
@@ -8309,6 +9035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarks provided pointer reference as volatile, i.e. the value it points at can be modified from another thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "VolatilePtr",
           "package": "language-cil",
@@ -8319,6 +9046,7 @@
         "index": {
           "description": "Marks provided pointer reference as volatile i.e the value it points at can be modified from another thread",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "VolatilePtr",
           "package": "language-cil",
@@ -8333,6 +9061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePops 2 values, do bitwise XOR between the values, pushes result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "Xor",
           "package": "language-cil",
@@ -8343,6 +9072,7 @@
         "index": {
           "description": "Pops values do bitwise XOR between the values pushes result",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "Xor",
           "package": "language-cil",
@@ -8357,6 +9087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the assembly where the method resides.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "assemblyName",
           "package": "language-cil",
@@ -8367,6 +9098,7 @@
         "index": {
           "description": "Name of the assembly where the method resides",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "assemblyName",
           "package": "language-cil",
@@ -8381,6 +9113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMethod is associated with class or instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "callConv",
           "package": "language-cil",
@@ -8391,6 +9124,7 @@
         "index": {
           "description": "Method is associated with class or instance",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "callConv",
           "normalized": "[CallConv]",
@@ -8407,6 +9141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "fieldName",
           "package": "language-cil",
@@ -8417,6 +9152,7 @@
         "index": {
           "description": "Name of the field",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "fieldName",
           "package": "language-cil",
@@ -8431,6 +9167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of the field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "fieldType",
           "package": "language-cil",
@@ -8441,6 +9178,7 @@
         "index": {
           "description": "Type of the field",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "fieldType",
           "package": "language-cil",
@@ -8454,6 +9192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "keywords",
           "package": "language-cil",
@@ -8463,6 +9202,7 @@
         },
         "index": {
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "keywords",
           "normalized": "[String]",
@@ -8478,6 +9218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "methodName",
           "package": "language-cil",
@@ -8488,6 +9229,7 @@
         "index": {
           "description": "Name of the method",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "methodName",
           "package": "language-cil",
@@ -8502,6 +9244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes of the formal parameters of the method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "paramTypes",
           "package": "language-cil",
@@ -8512,6 +9255,7 @@
         "index": {
           "description": "Types of the formal parameters of the method",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "paramTypes",
           "normalized": "[PrimitiveType]",
@@ -8528,6 +9272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn type of the method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "returnType",
           "package": "language-cil",
@@ -8538,6 +9283,7 @@
         "index": {
           "description": "Return type of the method",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "returnType",
           "package": "language-cil",
@@ -8552,6 +9298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the type of which the method is a member.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil.Syntax",
           "name": "typeName",
           "package": "language-cil",
@@ -8562,6 +9309,7 @@
         "index": {
           "description": "Name of the type of which the method is member",
           "hierarchy": "Language Cil Syntax",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil.Syntax",
           "name": "typeName",
           "package": "language-cil",
@@ -8576,6 +9324,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple abstraction over the Common Intermediate Language (also known as\n MSIL - Microsoft Intermediate Language).\n Currently, it only exposes a small subset of CIL.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil",
           "name": "Cil",
           "package": "language-cil",
@@ -8585,6 +9334,7 @@
         "index": {
           "description": "simple abstraction over the Common Intermediate Language also known as MSIL Microsoft Intermediate Language Currently it only exposes small subset of CIL",
           "hierarchy": "Language Cil",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil",
           "name": "Cil",
           "package": "language-cil",
@@ -8598,6 +9348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:08 UTC 2014",
           "module": "Language.Cil",
           "name": "writeAssembly",
           "package": "language-cil",
@@ -8607,6 +9358,7 @@
         },
         "index": {
           "hierarchy": "Language Cil",
+          "indexed": "2014-03-11T19:05:08",
           "module": "Language.Cil",
           "name": "writeAssembly",
           "normalized": "FilePath-\u003eAssembly-\u003eIO()",

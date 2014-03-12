@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "libffi"
+        "phrase": "libffi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the basic libffi machinery. You will need this to create support for new ffi types. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Base",
           "name": "Base",
           "package": "libffi",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module defines the basic libffi machinery You will need this to create support for new ffi types",
           "hierarchy": "Foreign LibFFI Base",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Base",
           "name": "Base",
           "package": "libffi",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Base",
           "name": "Arg",
           "package": "libffi",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Base",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Base",
           "name": "Arg",
           "package": "libffi",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Base",
           "name": "RetType",
           "package": "libffi",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Base",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Base",
           "name": "RetType",
           "package": "libffi",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Base",
           "name": "Arg",
           "package": "libffi",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Base",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Base",
           "name": "Arg",
           "package": "libffi",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Base",
           "name": "RetType",
           "package": "libffi",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Base",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Base",
           "name": "RetType",
           "normalized": "RetType(Ptr CType)((Ptr CValue-\u003eIO())-\u003eIO a)",
@@ -154,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Base",
           "name": "customPointerArg",
           "package": "libffi",
@@ -163,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Base",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Base",
           "name": "customPointerArg",
           "normalized": "(a-\u003eIO(Ptr b))-\u003e(Ptr b-\u003eIO())-\u003ea-\u003eArg",
@@ -178,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Base",
           "name": "mkStorableArg",
           "package": "libffi",
@@ -187,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Base",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Base",
           "name": "mkStorableArg",
           "normalized": "Ptr CType-\u003ea-\u003eArg",
@@ -202,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Base",
           "name": "mkStorableRetType",
           "package": "libffi",
@@ -211,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Base",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Base",
           "name": "mkStorableRetType",
           "normalized": "Ptr CType-\u003eRetType a",
@@ -226,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Base",
           "name": "newStorableStructArgRet",
           "package": "libffi",
@@ -235,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Base",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Base",
           "name": "newStorableStructArgRet",
           "normalized": "[Ptr CType]-\u003eIO(a-\u003eArg,RetType a,IO())",
@@ -250,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Base",
           "name": "newStructCType",
           "package": "libffi",
@@ -259,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Base",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Base",
           "name": "newStructCType",
           "normalized": "[Ptr CType]-\u003eIO(Ptr CType,IO())",
@@ -274,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Base",
           "name": "unArg",
           "package": "libffi",
@@ -283,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Base",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Base",
           "name": "unArg",
           "normalized": "IO(Ptr CType,Ptr CValue,IO())",
@@ -324,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe pointers exported and used by the C libffi describing basic ffi types. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "FFITypes",
           "package": "libffi",
@@ -333,6 +356,7 @@
         "index": {
           "description": "The pointers exported and used by the libffi describing basic ffi types",
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "FFITypes",
           "package": "libffi",
@@ -346,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_double",
           "package": "libffi",
@@ -355,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_double",
           "package": "libffi",
@@ -367,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_float",
           "package": "libffi",
@@ -376,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_float",
           "package": "libffi",
@@ -388,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_hs_int",
           "package": "libffi",
@@ -397,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_hs_int",
           "package": "libffi",
@@ -409,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_hs_word",
           "package": "libffi",
@@ -418,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_hs_word",
           "package": "libffi",
@@ -430,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_pointer",
           "package": "libffi",
@@ -439,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_pointer",
           "package": "libffi",
@@ -451,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_schar",
           "package": "libffi",
@@ -460,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_schar",
           "package": "libffi",
@@ -472,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_sint",
           "package": "libffi",
@@ -481,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_sint",
           "package": "libffi",
@@ -493,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_sint16",
           "package": "libffi",
@@ -502,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_sint16",
           "package": "libffi",
@@ -514,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_sint32",
           "package": "libffi",
@@ -523,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_sint32",
           "package": "libffi",
@@ -535,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_sint64",
           "package": "libffi",
@@ -544,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_sint64",
           "package": "libffi",
@@ -556,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_sint8",
           "package": "libffi",
@@ -565,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_sint8",
           "package": "libffi",
@@ -577,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_size",
           "package": "libffi",
@@ -586,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_size",
           "package": "libffi",
@@ -598,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_slong",
           "package": "libffi",
@@ -607,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_slong",
           "package": "libffi",
@@ -619,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_time",
           "package": "libffi",
@@ -628,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_time",
           "package": "libffi",
@@ -640,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_uchar",
           "package": "libffi",
@@ -649,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_uchar",
           "package": "libffi",
@@ -661,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_uint",
           "package": "libffi",
@@ -670,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_uint",
           "package": "libffi",
@@ -682,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_uint16",
           "package": "libffi",
@@ -691,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_uint16",
           "package": "libffi",
@@ -703,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_uint32",
           "package": "libffi",
@@ -712,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_uint32",
           "package": "libffi",
@@ -724,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_uint64",
           "package": "libffi",
@@ -733,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_uint64",
           "package": "libffi",
@@ -745,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_uint8",
           "package": "libffi",
@@ -754,6 +817,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_uint8",
           "package": "libffi",
@@ -766,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_ulong",
           "package": "libffi",
@@ -775,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_ulong",
           "package": "libffi",
@@ -787,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_void",
           "package": "libffi",
@@ -796,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_void",
           "package": "libffi",
@@ -808,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_wchar",
           "package": "libffi",
@@ -817,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI FFITypes",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.FFITypes",
           "name": "ffi_type_wchar",
           "package": "libffi",
@@ -830,6 +900,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe internals of the C library libffi \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Internal",
           "name": "Internal",
           "package": "libffi",
@@ -839,6 +910,7 @@
         "index": {
           "description": "The internals of the library libffi",
           "hierarchy": "Foreign LibFFI Internal",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Internal",
           "name": "Internal",
           "package": "libffi",
@@ -852,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Internal",
           "name": "CIF",
           "package": "libffi",
@@ -860,6 +933,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Internal",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Internal",
           "name": "CIF",
           "package": "libffi",
@@ -873,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Internal",
           "name": "CType",
           "package": "libffi",
@@ -881,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Internal",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Internal",
           "name": "CType",
           "package": "libffi",
@@ -894,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Internal",
           "name": "CValue",
           "package": "libffi",
@@ -902,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Internal",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Internal",
           "name": "CValue",
           "package": "libffi",
@@ -915,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Internal",
           "name": "C_ffi_abi",
           "package": "libffi",
@@ -923,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Internal",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Internal",
           "name": "C_ffi_abi",
           "package": "libffi",
@@ -935,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Internal",
           "name": "C_ffi_status",
           "package": "libffi",
@@ -943,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Internal",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Internal",
           "name": "C_ffi_status",
           "package": "libffi",
@@ -955,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Internal",
           "name": "ffi_call",
           "package": "libffi",
@@ -964,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Internal",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Internal",
           "name": "ffi_call",
           "normalized": "Ptr CIF-\u003eFunPtr a-\u003ePtr CValue-\u003ePtr(Ptr CValue)-\u003eIO()",
@@ -978,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Internal",
           "name": "ffi_default_abi",
           "package": "libffi",
@@ -987,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Internal",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Internal",
           "name": "ffi_default_abi",
           "package": "libffi",
@@ -999,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Internal",
           "name": "ffi_ok",
           "package": "libffi",
@@ -1008,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Internal",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Internal",
           "name": "ffi_ok",
           "package": "libffi",
@@ -1020,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Internal",
           "name": "ffi_prep_cif",
           "package": "libffi",
@@ -1029,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Internal",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Internal",
           "name": "ffi_prep_cif",
           "normalized": "Ptr CIF-\u003eC_ffi_abi-\u003eCUInt-\u003ePtr CType-\u003ePtr(Ptr CType)-\u003eIO C_ffi_status",
@@ -1043,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Internal",
           "name": "init_ffi_type",
           "package": "libffi",
@@ -1052,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Internal",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Internal",
           "name": "init_ffi_type",
           "normalized": "Ptr CType-\u003ePtr(Ptr CType)-\u003eIO()",
@@ -1066,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Internal",
           "name": "sizeOf_cif",
           "package": "libffi",
@@ -1075,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Internal",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Internal",
           "name": "sizeOf_cif",
           "package": "libffi",
@@ -1088,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Internal",
           "name": "sizeOf_ffi_type",
           "package": "libffi",
@@ -1097,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Internal",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Internal",
           "name": "sizeOf_ffi_type",
           "package": "libffi",
@@ -1111,6 +1207,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eArguments and return types\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "Types",
           "package": "libffi",
@@ -1120,6 +1217,7 @@
         "index": {
           "description": "Arguments and return types",
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "Types",
           "package": "libffi",
@@ -1134,6 +1232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike argString, but for ByteString's.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argByteString",
           "package": "libffi",
@@ -1144,6 +1243,7 @@
         "index": {
           "description": "Like argString but for ByteString",
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argByteString",
           "normalized": "ByteString-\u003eArg",
@@ -1159,6 +1259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argCChar",
           "package": "libffi",
@@ -1168,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argCChar",
           "normalized": "CChar-\u003eArg",
@@ -1183,6 +1285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argCDouble",
           "package": "libffi",
@@ -1192,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argCDouble",
           "normalized": "CDouble-\u003eArg",
@@ -1207,6 +1311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argCFloat",
           "package": "libffi",
@@ -1216,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argCFloat",
           "normalized": "CFloat-\u003eArg",
@@ -1231,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argCInt",
           "package": "libffi",
@@ -1240,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argCInt",
           "normalized": "CInt-\u003eArg",
@@ -1255,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argCLong",
           "package": "libffi",
@@ -1264,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argCLong",
           "normalized": "CLong-\u003eArg",
@@ -1279,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argCSize",
           "package": "libffi",
@@ -1288,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argCSize",
           "normalized": "CSize-\u003eArg",
@@ -1303,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argCTime",
           "package": "libffi",
@@ -1312,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argCTime",
           "normalized": "CTime-\u003eArg",
@@ -1327,6 +1441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argCUChar",
           "package": "libffi",
@@ -1336,6 +1451,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argCUChar",
           "normalized": "CUChar-\u003eArg",
@@ -1351,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argCUInt",
           "package": "libffi",
@@ -1360,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argCUInt",
           "normalized": "CUInt-\u003eArg",
@@ -1375,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argCULong",
           "package": "libffi",
@@ -1384,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argCULong",
           "normalized": "CULong-\u003eArg",
@@ -1399,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argCWchar",
           "package": "libffi",
@@ -1408,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argCWchar",
           "normalized": "CWchar-\u003eArg",
@@ -1424,6 +1546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike argByteString, but changing the string from C breaks referential transparency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argConstByteString",
           "package": "libffi",
@@ -1434,6 +1557,7 @@
         "index": {
           "description": "Like argByteString but changing the string from breaks referential transparency",
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argConstByteString",
           "normalized": "ByteString-\u003eArg",
@@ -1449,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argFunPtr",
           "package": "libffi",
@@ -1458,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argFunPtr",
           "normalized": "FunPtr a-\u003eArg",
@@ -1474,6 +1600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote that on e.g. x86_64, Int /= CInt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argInt",
           "package": "libffi",
@@ -1484,6 +1611,7 @@
         "index": {
           "description": "Note that on e.g x86 Int CInt",
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argInt",
           "normalized": "Int-\u003eArg",
@@ -1499,6 +1627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argInt16",
           "package": "libffi",
@@ -1508,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argInt16",
           "normalized": "Int-\u003eArg",
@@ -1523,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argInt32",
           "package": "libffi",
@@ -1532,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argInt32",
           "normalized": "Int-\u003eArg",
@@ -1547,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argInt64",
           "package": "libffi",
@@ -1556,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argInt64",
           "normalized": "Int-\u003eArg",
@@ -1571,6 +1705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argInt8",
           "package": "libffi",
@@ -1580,6 +1715,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argInt8",
           "normalized": "Int-\u003eArg",
@@ -1595,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argPtr",
           "package": "libffi",
@@ -1604,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argPtr",
           "normalized": "Ptr a-\u003eArg",
@@ -1620,6 +1758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe string argument is passed to C as a char * pointer, which is freed afterwards.\n     The argument should not contain zero-bytes. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argString",
           "package": "libffi",
@@ -1630,6 +1769,7 @@
         "index": {
           "description": "The string argument is passed to as char pointer which is freed afterwards The argument should not contain zero-bytes",
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argString",
           "normalized": "String-\u003eArg",
@@ -1645,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argWord",
           "package": "libffi",
@@ -1654,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argWord",
           "normalized": "Word-\u003eArg",
@@ -1669,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argWord16",
           "package": "libffi",
@@ -1678,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argWord16",
           "normalized": "Word-\u003eArg",
@@ -1693,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argWord32",
           "package": "libffi",
@@ -1702,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argWord32",
           "normalized": "Word-\u003eArg",
@@ -1717,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argWord64",
           "package": "libffi",
@@ -1726,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argWord64",
           "normalized": "Word-\u003eArg",
@@ -1741,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "argWord8",
           "package": "libffi",
@@ -1750,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "argWord8",
           "normalized": "Word-\u003eArg",
@@ -1766,6 +1916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike retString, but for ByteString's \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retByteString",
           "package": "libffi",
@@ -1776,6 +1927,7 @@
         "index": {
           "description": "Like retString but for ByteString",
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retByteString",
           "package": "libffi",
@@ -1789,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retCChar",
           "package": "libffi",
@@ -1798,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retCChar",
           "package": "libffi",
@@ -1811,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retCDouble",
           "package": "libffi",
@@ -1820,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retCDouble",
           "package": "libffi",
@@ -1833,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retCFloat",
           "package": "libffi",
@@ -1842,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retCFloat",
           "package": "libffi",
@@ -1855,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retCInt",
           "package": "libffi",
@@ -1864,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retCInt",
           "package": "libffi",
@@ -1877,6 +2037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retCLong",
           "package": "libffi",
@@ -1886,6 +2047,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retCLong",
           "package": "libffi",
@@ -1899,6 +2061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retCSize",
           "package": "libffi",
@@ -1908,6 +2071,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retCSize",
           "package": "libffi",
@@ -1921,6 +2085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retCString",
           "package": "libffi",
@@ -1930,6 +2095,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retCString",
           "package": "libffi",
@@ -1943,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retCTime",
           "package": "libffi",
@@ -1952,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retCTime",
           "package": "libffi",
@@ -1965,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retCUChar",
           "package": "libffi",
@@ -1974,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retCUChar",
           "package": "libffi",
@@ -1987,6 +2157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retCUInt",
           "package": "libffi",
@@ -1996,6 +2167,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retCUInt",
           "package": "libffi",
@@ -2009,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retCULong",
           "package": "libffi",
@@ -2018,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retCULong",
           "package": "libffi",
@@ -2031,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retCWchar",
           "package": "libffi",
@@ -2040,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retCWchar",
           "package": "libffi",
@@ -2053,6 +2229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retFunPtr",
           "package": "libffi",
@@ -2062,6 +2239,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retFunPtr",
           "normalized": "RetType a-\u003eRetType(FunPtr a)",
@@ -2077,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retInt",
           "package": "libffi",
@@ -2086,6 +2265,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retInt",
           "package": "libffi",
@@ -2099,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retInt16",
           "package": "libffi",
@@ -2108,6 +2289,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retInt16",
           "package": "libffi",
@@ -2121,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retInt32",
           "package": "libffi",
@@ -2130,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retInt32",
           "package": "libffi",
@@ -2143,6 +2327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retInt64",
           "package": "libffi",
@@ -2152,6 +2337,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retInt64",
           "package": "libffi",
@@ -2165,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retInt8",
           "package": "libffi",
@@ -2174,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retInt8",
           "package": "libffi",
@@ -2188,6 +2376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a ByteString out of the returned char *.\n     The char * will be free(3)ed when the ByteString is garbage collected. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retMallocByteString",
           "package": "libffi",
@@ -2198,6 +2387,7 @@
         "index": {
           "description": "Make ByteString out of the returned char The char will be free ed when the ByteString is garbage collected",
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retMallocByteString",
           "package": "libffi",
@@ -2211,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retPtr",
           "package": "libffi",
@@ -2220,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retPtr",
           "normalized": "RetType a-\u003eRetType(Ptr a)",
@@ -2236,6 +2428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePeek a String out of the returned char *. The char * is not freed. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retString",
           "package": "libffi",
@@ -2246,6 +2439,7 @@
         "index": {
           "description": "Peek String out of the returned char The char is not freed",
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retString",
           "package": "libffi",
@@ -2259,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retVoid",
           "package": "libffi",
@@ -2268,6 +2463,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retVoid",
           "normalized": "RetType()",
@@ -2283,6 +2479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retWord",
           "package": "libffi",
@@ -2292,6 +2489,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retWord",
           "package": "libffi",
@@ -2305,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retWord16",
           "package": "libffi",
@@ -2314,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retWord16",
           "package": "libffi",
@@ -2327,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retWord32",
           "package": "libffi",
@@ -2336,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retWord32",
           "package": "libffi",
@@ -2349,6 +2551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retWord64",
           "package": "libffi",
@@ -2358,6 +2561,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retWord64",
           "package": "libffi",
@@ -2371,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI.Types",
           "name": "retWord8",
           "package": "libffi",
@@ -2380,6 +2585,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI Types",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI.Types",
           "name": "retWord8",
           "package": "libffi",
@@ -2394,6 +2600,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the only module that normal users should need to import.\n\u003c/p\u003e\u003cp\u003eAs an example, allocate 1GB of memory, zero it, and crash:\n\u003c/p\u003e\u003cpre\u003e\nimport System.Posix.DynamicLinker\nimport Foreign.Ptr\nimport Foreign.LibFFI\n\nmain = do\n    malloc \u003c- dlsym Default \"malloc\"\n    memset \u003c- dlsym Default \"memset\"\n    p \u003c- callFFI malloc (retPtr retVoid) [argCSize (2^30)]\n    callFFI memset (retPtr retVoid) [argPtr p, argCInt 0, argCSize (2^30)]\n    callFFI memset (retPtr retVoid) [argPtr nullPtr, argCInt 0, argCSize 1]\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI",
           "name": "LibFFI",
           "package": "libffi",
@@ -2403,6 +2610,7 @@
         "index": {
           "description": "This is the only module that normal users should need to import As an example allocate GB of memory zero it and crash import System.Posix.DynamicLinker import Foreign.Ptr import Foreign.LibFFI main do malloc dlsym Default malloc memset dlsym Default memset callFFI malloc retPtr retVoid argCSize callFFI memset retPtr retVoid argPtr argCInt argCSize callFFI memset retPtr retVoid argPtr nullPtr argCInt argCSize",
           "hierarchy": "Foreign LibFFI",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI",
           "name": "LibFFI",
           "package": "libffi",
@@ -2416,6 +2624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI",
           "name": "Arg",
           "package": "libffi",
@@ -2424,6 +2633,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI",
           "name": "Arg",
           "package": "libffi",
@@ -2437,6 +2647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:24 UTC 2014",
           "module": "Foreign.LibFFI",
           "name": "RetType",
           "package": "libffi",
@@ -2445,6 +2656,7 @@
         },
         "index": {
           "hierarchy": "Foreign LibFFI",
+          "indexed": "2014-03-11T19:08:24",
           "module": "Foreign.LibFFI",
           "name": "RetType",
           "package": "libffi",

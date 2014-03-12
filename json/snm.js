@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snm"
+        "phrase": "snm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimpler yaml interface\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Data.Yaml.Simple",
           "name": "Simple",
           "package": "snm",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Simpler yaml interface",
           "hierarchy": "Data Yaml Simple",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Data.Yaml.Simple",
           "name": "Simple",
           "package": "snm",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYaml\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Data.Yaml.Simple",
           "name": "Yaml",
           "package": "snm",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Yaml",
           "hierarchy": "Data Yaml Simple",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Data.Yaml.Simple",
           "name": "Yaml",
           "package": "snm",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThings that can be encoded as YAML\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Data.Yaml.Simple",
           "name": "Yamlable",
           "package": "snm",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Things that can be encoded as YAML",
           "hierarchy": "Data Yaml Simple",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Data.Yaml.Simple",
           "name": "Yamlable",
           "package": "snm",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Data.Yaml.Simple",
           "name": "YMap",
           "package": "snm",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Simple",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Data.Yaml.Simple",
           "name": "YMap",
           "package": "snm",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Data.Yaml.Simple",
           "name": "YNil",
           "package": "snm",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Simple",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Data.Yaml.Simple",
           "name": "YNil",
           "package": "snm",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Data.Yaml.Simple",
           "name": "YSeq",
           "package": "snm",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Simple",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Data.Yaml.Simple",
           "name": "YSeq",
           "normalized": "YSeq[Yaml]",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Data.Yaml.Simple",
           "name": "YStr",
           "package": "snm",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Simple",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Data.Yaml.Simple",
           "name": "YStr",
           "package": "snm",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Data.Yaml.Simple",
           "name": "from_yaml",
           "package": "snm",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Simple",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Data.Yaml.Simple",
           "name": "from_yaml",
           "normalized": "Yaml-\u003eIO a",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse yaml\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Data.Yaml.Simple",
           "name": "parse_yaml",
           "package": "snm",
@@ -211,6 +228,7 @@
         "index": {
           "description": "Parse yaml",
           "hierarchy": "Data Yaml Simple",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Data.Yaml.Simple",
           "name": "parse_yaml",
           "normalized": "String-\u003eIO Yaml",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse yaml file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Data.Yaml.Simple",
           "name": "parse_yaml_file",
           "package": "snm",
@@ -236,6 +255,7 @@
         "index": {
           "description": "Parse yaml file",
           "hierarchy": "Data Yaml Simple",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Data.Yaml.Simple",
           "name": "parse_yaml_file",
           "normalized": "FilePath-\u003eIO Yaml",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplify Syck's yaml type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Data.Yaml.Simple",
           "name": "simplify",
           "package": "snm",
@@ -261,6 +282,7 @@
         "index": {
           "description": "Simplify Syck yaml type",
           "hierarchy": "Data Yaml Simple",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Data.Yaml.Simple",
           "name": "simplify",
           "normalized": "YamlNode-\u003eYaml",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up a yaml element referenced by a string in a yaml map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Data.Yaml.Simple",
           "name": "yookup",
           "package": "snm",
@@ -286,6 +309,7 @@
         "index": {
           "description": "Look up yaml element referenced by string in yaml map",
           "hierarchy": "Data Yaml Simple",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Data.Yaml.Simple",
           "name": "yookup",
           "normalized": "String-\u003eYaml-\u003eMaybe Yaml",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRead and output manuals\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Easy",
           "name": "Easy",
           "package": "snm",
@@ -310,6 +335,7 @@
         "index": {
           "description": "Read and output manuals",
           "hierarchy": "Manual Easy",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Easy",
           "name": "Easy",
           "package": "snm",
@@ -324,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe output types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Easy",
           "name": "OutputType",
           "package": "snm",
@@ -333,6 +360,7 @@
         "index": {
           "description": "The output types",
           "hierarchy": "Manual Easy",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Easy",
           "name": "OutputType",
           "package": "snm",
@@ -346,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Easy",
           "name": "Text",
           "package": "snm",
@@ -355,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Manual Easy",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Easy",
           "name": "Text",
           "package": "snm",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Easy",
           "name": "XHtml",
           "package": "snm",
@@ -377,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Manual Easy",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Easy",
           "name": "XHtml",
           "package": "snm",
@@ -391,6 +423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite in a number of formats\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Easy",
           "name": "formats",
           "package": "snm",
@@ -401,6 +434,7 @@
         "index": {
           "description": "Write in number of formats",
           "hierarchy": "Manual Easy",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Easy",
           "name": "formats",
           "normalized": "Map OutputType(Manual-\u003eString,String)",
@@ -441,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Easy",
           "name": "text_format",
           "package": "snm",
@@ -450,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Manual Easy",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Easy",
           "name": "text_format",
           "normalized": "(Manual-\u003eString,String)",
@@ -465,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite out a manual\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Easy",
           "name": "write_manual",
           "package": "snm",
@@ -475,6 +512,7 @@
         "index": {
           "description": "Write out manual",
           "hierarchy": "Manual Easy",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Easy",
           "name": "write_manual",
           "normalized": "(Manual-\u003eString)-\u003eString-\u003eManual-\u003eFilePath-\u003eIO()",
@@ -489,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Easy",
           "name": "xhtml_format",
           "package": "snm",
@@ -498,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Manual Easy",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Easy",
           "name": "xhtml_format",
           "normalized": "(Manual-\u003eString,String)",
@@ -512,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Emit.XHTML",
           "name": "XHTML",
           "package": "snm",
@@ -520,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Manual Emit XHTML",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Emit.XHTML",
           "name": "XHTML",
           "package": "snm",
@@ -534,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the manual as XHTML and show as a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Emit.XHTML",
           "name": "render_manual_xhtml",
           "package": "snm",
@@ -544,6 +587,7 @@
         "index": {
           "description": "Render the manual as XHTML and show as string",
           "hierarchy": "Manual Emit XHTML",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Emit.XHTML",
           "name": "render_manual_xhtml",
           "normalized": "Manual-\u003eString",
@@ -559,6 +603,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEmit manuals\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Emit",
           "name": "Emit",
           "package": "snm",
@@ -568,6 +613,7 @@
         "index": {
           "description": "Emit manuals",
           "hierarchy": "Manual Emit",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Emit",
           "name": "Emit",
           "package": "snm",
@@ -582,6 +628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmit a manual as text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Emit",
           "name": "emit_text",
           "package": "snm",
@@ -592,6 +639,7 @@
         "index": {
           "description": "Emit manual as text",
           "hierarchy": "Manual Emit",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Emit",
           "name": "emit_text",
           "normalized": "Manual-\u003eString",
@@ -607,6 +655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmit a manual as rendered xhtml\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Emit",
           "name": "emit_xhtml",
           "package": "snm",
@@ -617,6 +666,7 @@
         "index": {
           "description": "Emit manual as rendered xhtml",
           "hierarchy": "Manual Emit",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Emit",
           "name": "emit_xhtml",
           "normalized": "Manual-\u003eString",
@@ -632,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRead a manual from its source files\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Reader",
           "name": "Reader",
           "package": "snm",
@@ -641,6 +692,7 @@
         "index": {
           "description": "Read manual from its source files",
           "hierarchy": "Manual Reader",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Reader",
           "name": "Reader",
           "package": "snm",
@@ -655,6 +707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a section and all associated subsections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Reader",
           "name": "load_section",
           "package": "snm",
@@ -665,6 +718,7 @@
         "index": {
           "description": "Load section and all associated subsections",
           "hierarchy": "Manual Reader",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Reader",
           "name": "load_section",
           "normalized": "FilePath-\u003eIO Section",
@@ -680,6 +734,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe structure of a manual\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "Structure",
           "package": "snm",
@@ -689,6 +744,7 @@
         "index": {
           "description": "The structure of manual",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "Structure",
           "package": "snm",
@@ -703,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA banner for the top of the document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "Banner",
           "package": "snm",
@@ -712,6 +769,7 @@
         "index": {
           "description": "banner for the top of the document",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "Banner",
           "package": "snm",
@@ -726,6 +784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContents listing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "Contents",
           "package": "snm",
@@ -735,6 +794,7 @@
         "index": {
           "description": "Contents listing",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "Contents",
           "package": "snm",
@@ -749,6 +809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA manual's header file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "Header",
           "package": "snm",
@@ -758,6 +819,7 @@
         "index": {
           "description": "manual header file",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "Header",
           "package": "snm",
@@ -772,6 +834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInline document elements may be...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "Inline",
           "package": "snm",
@@ -781,6 +844,7 @@
         "index": {
           "description": "Inline document elements may be",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "Inline",
           "package": "snm",
@@ -795,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA manual\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "Manual",
           "package": "snm",
@@ -804,6 +869,7 @@
         "index": {
           "description": "manual",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "Manual",
           "package": "snm",
@@ -818,6 +884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA text paragraph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "Paragraph",
           "package": "snm",
@@ -827,6 +894,7 @@
         "index": {
           "description": "text paragraph",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "Paragraph",
           "package": "snm",
@@ -841,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSections, subsections\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "Section",
           "package": "snm",
@@ -850,6 +919,7 @@
         "index": {
           "description": "Sections subsections",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "Section",
           "package": "snm",
@@ -863,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "Banner",
           "package": "snm",
@@ -872,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "Banner",
           "package": "snm",
@@ -885,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "Contents",
           "package": "snm",
@@ -894,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "Contents",
           "normalized": "Contents[Contents]",
@@ -909,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "Entry",
           "package": "snm",
@@ -918,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "Entry",
           "normalized": "Entry[Int]String String",
@@ -933,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "Header",
           "package": "snm",
@@ -942,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "Header",
           "package": "snm",
@@ -956,6 +1034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn external link.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "IExternLink",
           "package": "snm",
@@ -966,6 +1045,7 @@
         "index": {
           "description": "An external link",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "IExternLink",
           "package": "snm",
@@ -980,6 +1060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiteral text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "ILiteral",
           "package": "snm",
@@ -990,6 +1071,7 @@
         "index": {
           "description": "Literal text",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "ILiteral",
           "package": "snm",
@@ -1004,6 +1086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA link to another section\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "ISectionLink",
           "package": "snm",
@@ -1014,6 +1097,7 @@
         "index": {
           "description": "link to another section",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "ISectionLink",
           "package": "snm",
@@ -1028,6 +1112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA text string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "IText",
           "package": "snm",
@@ -1038,6 +1123,7 @@
         "index": {
           "description": "text string",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "IText",
           "package": "snm",
@@ -1051,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "Manual",
           "package": "snm",
@@ -1060,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "Manual",
           "package": "snm",
@@ -1073,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "Paragraph",
           "package": "snm",
@@ -1082,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "Paragraph",
           "package": "snm",
@@ -1095,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "Section",
           "package": "snm",
@@ -1104,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "Section",
           "package": "snm",
@@ -1118,6 +1210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBanners\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "banners",
           "package": "snm",
@@ -1128,6 +1221,7 @@
         "index": {
           "description": "Banners",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "banners",
           "normalized": "[Banner]",
@@ -1142,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "bclass",
           "package": "snm",
@@ -1151,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "bclass",
           "package": "snm",
@@ -1163,6 +1259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "btext",
           "package": "snm",
@@ -1172,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "btext",
           "normalized": "[Inline]",
@@ -1187,6 +1285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate the manual's contents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "contents",
           "package": "snm",
@@ -1197,6 +1296,7 @@
         "index": {
           "description": "Create the manual contents",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "contents",
           "normalized": "[Section]-\u003eContents",
@@ -1212,6 +1312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe manual's header file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "header",
           "package": "snm",
@@ -1222,6 +1323,7 @@
         "index": {
           "description": "The manual header file",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "header",
           "package": "snm",
@@ -1235,6 +1337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe section number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "ldest",
           "package": "snm",
@@ -1245,6 +1348,7 @@
         "index": {
           "description": "The section number",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "ldest",
           "package": "snm",
@@ -1258,6 +1362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe link text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "ltext",
           "package": "snm",
@@ -1268,6 +1373,7 @@
         "index": {
           "description": "The link text",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "ltext",
           "package": "snm",
@@ -1281,6 +1387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe manual's contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "mcontents",
           "package": "snm",
@@ -1291,6 +1398,7 @@
         "index": {
           "description": "The manual contents",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "mcontents",
           "package": "snm",
@@ -1304,6 +1412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the manual\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "mtitle",
           "package": "snm",
@@ -1314,6 +1423,7 @@
         "index": {
           "description": "The name of the manual",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "mtitle",
           "package": "snm",
@@ -1327,6 +1437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe section's number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "number",
           "package": "snm",
@@ -1337,6 +1448,7 @@
         "index": {
           "description": "The section number",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "number",
           "normalized": "[Int]",
@@ -1352,6 +1464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe paragraph's class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "pclass",
           "package": "snm",
@@ -1362,6 +1475,7 @@
         "index": {
           "description": "The paragraph class",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "pclass",
           "package": "snm",
@@ -1375,6 +1489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePreamble, not linked in the manual's contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "preamble",
           "package": "snm",
@@ -1385,6 +1500,7 @@
         "index": {
           "description": "Preamble not linked in the manual contents",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "preamble",
           "normalized": "[Paragraph]",
@@ -1399,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "pretty_nums",
           "package": "snm",
@@ -1408,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "pretty_nums",
           "normalized": "[Int]-\u003eShowS",
@@ -1423,6 +1541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe paragraph text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "ptext",
           "package": "snm",
@@ -1433,6 +1552,7 @@
         "index": {
           "description": "The paragraph text",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "ptext",
           "normalized": "[Inline]",
@@ -1448,6 +1568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sections of a manual.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "sections",
           "package": "snm",
@@ -1458,6 +1579,7 @@
         "index": {
           "description": "The sections of manual",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "sections",
           "normalized": "[Section]",
@@ -1473,6 +1595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe section text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "stext",
           "package": "snm",
@@ -1483,6 +1606,7 @@
         "index": {
           "description": "The section text",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "stext",
           "normalized": "[Paragraph]",
@@ -1498,6 +1622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe style used in the manual.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "style",
           "package": "snm",
@@ -1508,6 +1633,7 @@
         "index": {
           "description": "The style used in the manual",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "style",
           "package": "snm",
@@ -1521,6 +1647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubsections\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "subsections",
           "package": "snm",
@@ -1531,6 +1658,7 @@
         "index": {
           "description": "Subsections",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "subsections",
           "normalized": "[Section]",
@@ -1546,6 +1674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe title of the section\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "title",
           "package": "snm",
@@ -1556,6 +1685,7 @@
         "index": {
           "description": "The title of the section",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "title",
           "package": "snm",
@@ -1569,6 +1699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique name for this section\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "unique",
           "package": "snm",
@@ -1579,6 +1710,7 @@
         "index": {
           "description": "Unique name for this section",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "unique",
           "package": "snm",
@@ -1592,6 +1724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap the text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:06:41 UTC 2014",
           "module": "Manual.Structure",
           "name": "wrap",
           "package": "snm",
@@ -1602,6 +1735,7 @@
         "index": {
           "description": "Wrap the text",
           "hierarchy": "Manual Structure",
+          "indexed": "2014-03-11T20:06:41",
           "module": "Manual.Structure",
           "name": "wrap",
           "package": "snm",

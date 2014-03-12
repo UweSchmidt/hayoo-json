@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mucipher"
+        "phrase": "mucipher",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:35 UTC 2014",
           "module": "Codec.MuCipher",
           "name": "MuCipher",
           "package": "mucipher",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Codec MuCipher",
+          "indexed": "2014-03-11T19:23:35",
           "module": "Codec.MuCipher",
           "name": "MuCipher",
           "package": "mucipher",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:35 UTC 2014",
           "module": "Codec.MuCipher",
           "name": "decodeList",
           "package": "mucipher",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Codec MuCipher",
+          "indexed": "2014-03-11T19:23:35",
           "module": "Codec.MuCipher",
           "name": "decodeList",
           "normalized": "Integer-\u003eInteger-\u003e[Integer]",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:35 UTC 2014",
           "module": "Codec.MuCipher",
           "name": "encodeList",
           "package": "mucipher",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Codec MuCipher",
+          "indexed": "2014-03-11T19:23:35",
           "module": "Codec.MuCipher",
           "name": "encodeList",
           "normalized": "Integer-\u003e[Integer]-\u003eInteger",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:35 UTC 2014",
           "module": "Codec.MuCipher",
           "name": "getIntegerWith",
           "package": "mucipher",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Codec MuCipher",
+          "indexed": "2014-03-11T19:23:35",
           "module": "Codec.MuCipher",
           "name": "getIntegerWith",
           "normalized": "String-\u003eString-\u003eInteger",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:35 UTC 2014",
           "module": "Codec.MuCipher",
           "name": "getList",
           "package": "mucipher",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Codec MuCipher",
+          "indexed": "2014-03-11T19:23:35",
           "module": "Codec.MuCipher",
           "name": "getList",
           "normalized": "String-\u003e[Integer]",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:35 UTC 2014",
           "module": "Codec.MuCipher",
           "name": "getListWith",
           "package": "mucipher",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Codec MuCipher",
+          "indexed": "2014-03-11T19:23:35",
           "module": "Codec.MuCipher",
           "name": "getListWith",
           "normalized": "String-\u003eString-\u003e[Integer]",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:35 UTC 2014",
           "module": "Codec.MuCipher",
           "name": "getString",
           "package": "mucipher",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Codec MuCipher",
+          "indexed": "2014-03-11T19:23:35",
           "module": "Codec.MuCipher",
           "name": "getString",
           "normalized": "String-\u003eInteger-\u003eString",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:35 UTC 2014",
           "module": "Codec.MuCipher",
           "name": "getTable",
           "package": "mucipher",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Codec MuCipher",
+          "indexed": "2014-03-11T19:23:35",
           "module": "Codec.MuCipher",
           "name": "getTable",
           "normalized": "String-\u003eString",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:35 UTC 2014",
           "module": "Codec.MuCipher",
           "name": "printCipher",
           "package": "mucipher",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Codec MuCipher",
+          "indexed": "2014-03-11T19:23:35",
           "module": "Codec.MuCipher",
           "name": "printCipher",
           "normalized": "String-\u003eIO()",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:35 UTC 2014",
           "module": "Codec.MuCipher",
           "name": "showCipher",
           "package": "mucipher",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Codec MuCipher",
+          "indexed": "2014-03-11T19:23:35",
           "module": "Codec.MuCipher",
           "name": "showCipher",
           "normalized": "String-\u003eString",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:35 UTC 2014",
           "module": "Codec.MuCipher",
           "name": "showCipherString",
           "package": "mucipher",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Codec MuCipher",
+          "indexed": "2014-03-11T19:23:35",
           "module": "Codec.MuCipher",
           "name": "showCipherString",
           "normalized": "String-\u003eString-\u003eString-\u003eString",
@@ -279,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:35 UTC 2014",
           "module": "Codec.MuCipher",
           "name": "showCipherWith",
           "package": "mucipher",
@@ -288,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Codec MuCipher",
+          "indexed": "2014-03-11T19:23:35",
           "module": "Codec.MuCipher",
           "name": "showCipherWith",
           "normalized": "String-\u003eString-\u003eString",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "unicode"
+        "phrase": "unicode",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Block",
           "name": "Block",
           "package": "unicode",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Char Block",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Block",
           "name": "Block",
           "package": "unicode",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Block",
           "name": "Block",
           "package": "unicode",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Char Block",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Block",
           "name": "Block",
           "package": "unicode",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Block",
           "name": "Row",
           "package": "unicode",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Char Block",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Block",
           "name": "Row",
           "package": "unicode",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Block",
           "name": "Block",
           "package": "unicode",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Char Block",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Block",
           "name": "Block",
           "package": "unicode",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Block",
           "name": "Row",
           "package": "unicode",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Char Block",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Block",
           "name": "Row",
           "package": "unicode",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Block",
           "name": "filled",
           "package": "unicode",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Data Char Block",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Block",
           "name": "filled",
           "normalized": "Block Bool-\u003eChar",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Block",
           "name": "left",
           "package": "unicode",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data Char Block",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Block",
           "name": "left",
           "package": "unicode",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Block",
           "name": "lower",
           "package": "unicode",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Data Char Block",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Block",
           "name": "lower",
           "package": "unicode",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Block",
           "name": "right",
           "package": "unicode",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Data Char Block",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Block",
           "name": "right",
           "package": "unicode",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Block",
           "name": "upper",
           "package": "unicode",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Data Char Block",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Block",
           "name": "upper",
           "package": "unicode",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "Frame",
           "package": "unicode",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "Frame",
           "package": "unicode",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "Directions",
           "package": "unicode",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "Directions",
           "package": "unicode",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "Horizontal",
           "package": "unicode",
@@ -282,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "Horizontal",
           "package": "unicode",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "Parts",
           "package": "unicode",
@@ -303,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "Parts",
           "package": "unicode",
@@ -316,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "Vertical",
           "package": "unicode",
@@ -324,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "Vertical",
           "package": "unicode",
@@ -337,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "Weight",
           "package": "unicode",
@@ -345,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "Weight",
           "package": "unicode",
@@ -358,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "Directions",
           "package": "unicode",
@@ -367,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "Directions",
           "package": "unicode",
@@ -380,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "Empty",
           "package": "unicode",
@@ -389,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "Empty",
           "package": "unicode",
@@ -402,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "Heavy",
           "package": "unicode",
@@ -411,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "Heavy",
           "package": "unicode",
@@ -424,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "Horizontal",
           "package": "unicode",
@@ -433,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "Horizontal",
           "package": "unicode",
@@ -446,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "Light",
           "package": "unicode",
@@ -455,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "Light",
           "package": "unicode",
@@ -468,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "Parts",
           "package": "unicode",
@@ -477,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "Parts",
           "package": "unicode",
@@ -490,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "Vertical",
           "package": "unicode",
@@ -499,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "Vertical",
           "package": "unicode",
@@ -513,6 +559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is not total because half-width and half-height double bars are missing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "double",
           "package": "unicode",
@@ -523,6 +570,7 @@
         "index": {
           "description": "This function is not total because half-width and half-height double bars are missing",
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "double",
           "normalized": "Directions Bool-\u003eParts Bool-\u003eChar",
@@ -537,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "doubleMaybe",
           "package": "unicode",
@@ -546,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "doubleMaybe",
           "normalized": "Directions Bool-\u003eParts Bool-\u003eMaybe Char",
@@ -561,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "down",
           "package": "unicode",
@@ -570,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "down",
           "package": "unicode",
@@ -582,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "horizontal",
           "package": "unicode",
@@ -591,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "horizontal",
           "package": "unicode",
@@ -603,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "left",
           "package": "unicode",
@@ -612,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "left",
           "package": "unicode",
@@ -624,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "right",
           "package": "unicode",
@@ -633,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "right",
           "package": "unicode",
@@ -645,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "simple",
           "package": "unicode",
@@ -654,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "simple",
           "normalized": "Parts Bool-\u003eChar",
@@ -668,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "up",
           "package": "unicode",
@@ -677,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "up",
           "package": "unicode",
@@ -689,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "vertical",
           "package": "unicode",
@@ -698,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "vertical",
           "package": "unicode",
@@ -710,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Frame",
           "name": "weighted",
           "package": "unicode",
@@ -719,6 +784,7 @@
         },
         "index": {
           "hierarchy": "Data Char Frame",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Frame",
           "name": "weighted",
           "normalized": "Parts Weight-\u003eChar",
@@ -733,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Number",
           "name": "Number",
           "package": "unicode",
@@ -741,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Data Char Number",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Number",
           "name": "Number",
           "package": "unicode",
@@ -754,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Number",
           "name": "fractionMap",
           "package": "unicode",
@@ -763,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Data Char Number",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Number",
           "name": "fractionMap",
           "package": "unicode",
@@ -776,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Small",
           "name": "Small",
           "package": "unicode",
@@ -784,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Data Char Small",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Small",
           "name": "Small",
           "package": "unicode",
@@ -798,6 +870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enon-total function \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Small",
           "name": "subscript",
           "package": "unicode",
@@ -808,6 +881,7 @@
         "index": {
           "description": "non-total function",
           "hierarchy": "Data Char Small",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Small",
           "name": "subscript",
           "normalized": "Char-\u003eChar",
@@ -822,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Small",
           "name": "subscriptMaybe",
           "package": "unicode",
@@ -831,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Data Char Small",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Small",
           "name": "subscriptMaybe",
           "normalized": "Char-\u003eMaybe Char",
@@ -847,6 +923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enon-total function \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Small",
           "name": "superscript",
           "package": "unicode",
@@ -857,6 +934,7 @@
         "index": {
           "description": "non-total function",
           "hierarchy": "Data Char Small",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Small",
           "name": "superscript",
           "normalized": "Char-\u003eChar",
@@ -871,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:40 UTC 2014",
           "module": "Data.Char.Small",
           "name": "superscriptMaybe",
           "package": "unicode",
@@ -880,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Data Char Small",
+          "indexed": "2014-03-11T20:29:40",
           "module": "Data.Char.Small",
           "name": "superscriptMaybe",
           "normalized": "Char-\u003eMaybe Char",

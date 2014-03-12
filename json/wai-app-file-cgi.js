@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wai-app-file-cgi"
+        "phrase": "wai-app-file-cgi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWAI (Web Application Interface) Application for static files and CGI.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "Classic",
           "package": "wai-app-file-cgi",
@@ -28,6 +29,7 @@
         "index": {
           "description": "WAI Web Application Interface Application for static files and CGI",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "Classic",
           "package": "wai-app-file-cgi",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "CgiAppSpec",
           "package": "wai-app-file-cgi",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "CgiAppSpec",
           "package": "wai-app-file-cgi",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "CgiRoute",
           "package": "wai-app-file-cgi",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "CgiRoute",
           "package": "wai-app-file-cgi",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "ClassicAppSpec",
           "package": "wai-app-file-cgi",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "ClassicAppSpec",
           "package": "wai-app-file-cgi",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "FileAppSpec",
           "package": "wai-app-file-cgi",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "FileAppSpec",
           "package": "wai-app-file-cgi",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "FileInfo",
           "package": "wai-app-file-cgi",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "FileInfo",
           "package": "wai-app-file-cgi",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "FileRoute",
           "package": "wai-app-file-cgi",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "FileRoute",
           "package": "wai-app-file-cgi",
@@ -168,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart file path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "Path",
           "package": "wai-app-file-cgi",
@@ -177,6 +192,7 @@
         "index": {
           "description": "Smart file path",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "Path",
           "package": "wai-app-file-cgi",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "RedirectRoute",
           "package": "wai-app-file-cgi",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "RedirectRoute",
           "package": "wai-app-file-cgi",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "RevProxyAppSpec",
           "package": "wai-app-file-cgi",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "RevProxyAppSpec",
           "package": "wai-app-file-cgi",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "RevProxyRoute",
           "package": "wai-app-file-cgi",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "RevProxyRoute",
           "package": "wai-app-file-cgi",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "StatusInfo",
           "package": "wai-app-file-cgi",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "StatusInfo",
           "package": "wai-app-file-cgi",
@@ -275,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppending.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "(+++)",
           "package": "wai-app-file-cgi",
@@ -285,6 +310,7 @@
         "index": {
           "description": "Appending",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "(+++) +++",
           "normalized": "Path-\u003ePath-\u003ePath",
@@ -300,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppending with the file separator.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"/foo\" \u003c/\u003e \"bar\"\n\u003c/code\u003e\u003c/strong\u003e\"/foo/bar\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"/foo/\" \u003c/\u003e \"bar\"\n\u003c/code\u003e\u003c/strong\u003e\"/foo/bar\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"/foo\" \u003c/\u003e \"/bar\"\n\u003c/code\u003e\u003c/strong\u003e\"/foo/bar\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"/foo/\" \u003c/\u003e \"/bar\"\n\u003c/code\u003e\u003c/strong\u003e\"/foo/bar\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "(\u003c/\u003e)",
           "package": "wai-app-file-cgi",
@@ -310,6 +337,7 @@
         "index": {
           "description": "Appending with the file separator foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "(\u003c/\u003e) \u003c/\u003e",
           "normalized": "Path-\u003ePath-\u003ePath",
@@ -325,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoving prefix. The prefix of the second argument is removed\n  from the first argument.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"foobar\" \u003c\\\u003e \"foo\"\n\u003c/code\u003e\u003c/strong\u003e\"bar\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"foo\" \u003c\\\u003e \"foobar\"\n\u003c/code\u003e\u003c/strong\u003e\"\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"foobar\" \u003c\\\u003e \"baz\"\n\u003c/code\u003e\u003c/strong\u003e\"bar\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "(\u003c\\\u003e)",
           "package": "wai-app-file-cgi",
@@ -335,6 +364,7 @@
         "index": {
           "description": "Removing prefix The prefix of the second argument is removed from the first argument foobar foo bar foo foobar foobar baz bar",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "(\u003c\\\u003e) \u003c\\\u003e",
           "normalized": "Path-\u003ePath-\u003ePath",
@@ -350,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdding suffix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "(\u003c.\u003e)",
           "package": "wai-app-file-cgi",
@@ -360,6 +391,7 @@
         "index": {
           "description": "Adding suffix",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "(\u003c.\u003e) \u003c.\u003e",
           "normalized": "Path-\u003ePath-\u003ePath",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "CgiAppSpec",
           "package": "wai-app-file-cgi",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "CgiAppSpec",
           "package": "wai-app-file-cgi",
@@ -396,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "CgiRoute",
           "package": "wai-app-file-cgi",
@@ -405,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "CgiRoute",
           "package": "wai-app-file-cgi",
@@ -418,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "ClassicAppSpec",
           "package": "wai-app-file-cgi",
@@ -427,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "ClassicAppSpec",
           "package": "wai-app-file-cgi",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "FileAppSpec",
           "package": "wai-app-file-cgi",
@@ -449,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "FileAppSpec",
           "package": "wai-app-file-cgi",
@@ -462,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "FileInfo",
           "package": "wai-app-file-cgi",
@@ -471,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "FileInfo",
           "package": "wai-app-file-cgi",
@@ -484,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "FileRoute",
           "package": "wai-app-file-cgi",
@@ -493,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "FileRoute",
           "package": "wai-app-file-cgi",
@@ -506,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "Path",
           "package": "wai-app-file-cgi",
@@ -515,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "Path",
           "package": "wai-app-file-cgi",
@@ -528,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "RedirectRoute",
           "package": "wai-app-file-cgi",
@@ -537,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "RedirectRoute",
           "package": "wai-app-file-cgi",
@@ -550,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "RevProxyAppSpec",
           "package": "wai-app-file-cgi",
@@ -559,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "RevProxyAppSpec",
           "package": "wai-app-file-cgi",
@@ -572,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "RevProxyRoute",
           "package": "wai-app-file-cgi",
@@ -581,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "RevProxyRoute",
           "package": "wai-app-file-cgi",
@@ -595,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP status body is created from \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "StatusByteString",
           "package": "wai-app-file-cgi",
@@ -605,6 +658,7 @@
         "index": {
           "description": "HTTP status body is created from ByteString",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "StatusByteString",
           "package": "wai-app-file-cgi",
@@ -619,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP status body is created from \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "StatusFile",
           "package": "wai-app-file-cgi",
@@ -629,6 +684,7 @@
         "index": {
           "description": "HTTP status body is created from FilePath",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "StatusFile",
           "package": "wai-app-file-cgi",
@@ -643,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo HTTP status body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "StatusNone",
           "package": "wai-app-file-cgi",
@@ -653,6 +710,7 @@
         "index": {
           "description": "No HTTP status body",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "StatusNone",
           "package": "wai-app-file-cgi",
@@ -667,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreaking at the first path separator.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ebreakAtSeparator \"/foo/bar/baz\"\n\u003c/code\u003e\u003c/strong\u003e(\"\",\"/foo/bar/baz\")\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ebreakAtSeparator \"foo/bar/baz\"\n\u003c/code\u003e\u003c/strong\u003e(\"foo\",\"/bar/baz\")\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ebreakAtSeparator \"foo\"\n\u003c/code\u003e\u003c/strong\u003e(\"foo\",\"\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "breakAtSeparator",
           "package": "wai-app-file-cgi",
@@ -677,6 +736,7 @@
         "index": {
           "description": "Breaking at the first path separator breakAtSeparator foo bar baz foo bar baz breakAtSeparator foo bar baz foo bar baz breakAtSeparator foo foo",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "breakAtSeparator",
           "normalized": "Path-\u003e(Path,Path)",
@@ -693,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle GET and POST for CGI.\n\u003c/p\u003e\u003cp\u003eThe program to link this library must ignore SIGCHLD as follows:\n\u003c/p\u003e\u003cpre\u003e   installHandler sigCHLD Ignore Nothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "cgiApp",
           "package": "wai-app-file-cgi",
@@ -703,6 +764,7 @@
         "index": {
           "description": "Handle GET and POST for CGI The program to link this library must ignore SIGCHLD as follows installHandler sigCHLD Ignore Nothing",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "cgiApp",
           "normalized": "ClassicAppSpec-\u003eCgiAppSpec-\u003eCgiRoute-\u003eApplication",
@@ -719,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath prefix to an actual file system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "cgiDst",
           "package": "wai-app-file-cgi",
@@ -729,6 +792,7 @@
         "index": {
           "description": "Path prefix to an actual file system",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "cgiDst",
           "package": "wai-app-file-cgi",
@@ -743,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath prefix to be matched to \u003ccode\u003e\u003ca\u003erawPathInfo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "cgiSrc",
           "package": "wai-app-file-cgi",
@@ -753,6 +818,7 @@
         "index": {
           "description": "Path prefix to be matched to rawPathInfo",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "cgiSrc",
           "package": "wai-app-file-cgi",
@@ -767,6 +833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault value for \u003ccode\u003e\u003ca\u003edefaultCgiAppSpec\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003e\u003ca\u003eindexCgi\u003c/a\u003e\u003c/code\u003e is \"index.cgi\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "defaultCgiAppSpec",
           "package": "wai-app-file-cgi",
@@ -777,6 +844,7 @@
         "index": {
           "description": "Default value for defaultCgiAppSpec indexCgi is index.cgi",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "defaultCgiAppSpec",
           "package": "wai-app-file-cgi",
@@ -791,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault value for  \u003ccode\u003e\u003ca\u003eClassicAppSpec\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003e\u003ca\u003esoftwareName\u003c/a\u003e\u003c/code\u003e is \"Classic\". \u003ccode\u003e\u003ca\u003elogger\u003c/a\u003e\u003c/code\u003e does not log at all. \u003ccode\u003edater\u003c/code\u003e calls \u003ccode\u003e\u003ca\u003eepochTime\u003c/a\u003e\u003c/code\u003e for every request. \u003ccode\u003e\u003ca\u003estatusFileDir\u003c/a\u003e\u003c/code\u003e is \"/usr/local/share/html/status/\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "defaultClassicAppSpec",
           "package": "wai-app-file-cgi",
@@ -801,6 +870,7 @@
         "index": {
           "description": "Default value for ClassicAppSpec softwareName is Classic logger does not log at all dater calls epochTime for every request statusFileDir is usr local share html status",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "defaultClassicAppSpec",
           "package": "wai-app-file-cgi",
@@ -815,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault value for \u003ccode\u003e\u003ca\u003edefaultFileAppSpec\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003e\u003ca\u003eindexFile\u003c/a\u003e\u003c/code\u003e is \"index.html\". \u003ccode\u003e\u003ca\u003eisHTML\u003c/a\u003e\u003c/code\u003e matches \"*.html\" and \"*.html\". \u003ccode\u003e\u003ca\u003egetFileInfo\u003c/a\u003e\u003c/code\u003e calls \u003ccode\u003e\u003ca\u003egetFileStatus\u003c/a\u003e\u003c/code\u003e for every request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "defaultFileAppSpec",
           "package": "wai-app-file-cgi",
@@ -825,6 +896,7 @@
         "index": {
           "description": "Default value for defaultFileAppSpec indexFile is index.html isHTML matches html and html getFileInfo calls getFileStatus for every request",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "defaultFileAppSpec",
           "package": "wai-app-file-cgi",
@@ -839,6 +911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle GET and HEAD for a static file.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003e\u003ca\u003epathInfo\u003c/a\u003e\u003c/code\u003e ends with '/', \u003ccode\u003e\u003ca\u003eindexFile\u003c/a\u003e\u003c/code\u003e is automatically\nadded. In this case, \u003ca\u003eAcceptable-Language:\u003c/a\u003e is also handled.  Suppose\n\u003ccode\u003e\u003ca\u003eindexFile\u003c/a\u003e\u003c/code\u003e is \u003ca\u003eindex.html\u003c/a\u003e and if the value is \u003ca\u003eja,en\u003c/a\u003e, then\n\"index.html.ja\", \"index.html.en\", and \"index.html\" are tried to be\nopened in order.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003e\u003ca\u003epathInfo\u003c/a\u003e\u003c/code\u003e does not end with '/' and a corresponding index file\nexist, redirection is specified in HTTP response.\n\u003c/p\u003e\u003cp\u003eDirectory contents are NOT automatically listed. To list directory\ncontents, an index file must be created beforehand.\n\u003c/p\u003e\u003cp\u003eThe following HTTP headers are handled: Acceptable-Language:,\nIf-Modified-Since:, Range:, If-Range:, If-Unmodified-Since:.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "fileApp",
           "package": "wai-app-file-cgi",
@@ -849,6 +922,7 @@
         "index": {
           "description": "Handle GET and HEAD for static file If pathInfo ends with indexFile is automatically added In this case Acceptable-Language is also handled Suppose indexFile is index.html and if the value is ja en then index.html.ja index.html.en and index.html are tried to be opened in order If pathInfo does not end with and corresponding index file exist redirection is specified in HTTP response Directory contents are NOT automatically listed To list directory contents an index file must be created beforehand The following HTTP headers are handled Acceptable-Language If-Modified-Since Range If-Range If-Unmodified-Since",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "fileApp",
           "normalized": "ClassicAppSpec-\u003eFileAppSpec-\u003eFileRoute-\u003eApplication",
@@ -865,6 +939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath prefix to an actual file system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "fileDst",
           "package": "wai-app-file-cgi",
@@ -875,6 +950,7 @@
         "index": {
           "description": "Path prefix to an actual file system",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "fileDst",
           "package": "wai-app-file-cgi",
@@ -888,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "fileInfoDate",
           "package": "wai-app-file-cgi",
@@ -897,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "fileInfoDate",
           "package": "wai-app-file-cgi",
@@ -910,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "fileInfoName",
           "package": "wai-app-file-cgi",
@@ -919,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "fileInfoName",
           "package": "wai-app-file-cgi",
@@ -932,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "fileInfoSize",
           "package": "wai-app-file-cgi",
@@ -941,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "fileInfoSize",
           "package": "wai-app-file-cgi",
@@ -954,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "fileInfoTime",
           "package": "wai-app-file-cgi",
@@ -963,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "fileInfoTime",
           "package": "wai-app-file-cgi",
@@ -977,6 +1061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath prefix to be matched to \u003ccode\u003e\u003ca\u003erawPathInfo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "fileSrc",
           "package": "wai-app-file-cgi",
@@ -987,6 +1072,7 @@
         "index": {
           "description": "Path prefix to be matched to rawPathInfo",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "fileSrc",
           "package": "wai-app-file-cgi",
@@ -1000,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "fromByteString",
           "package": "wai-app-file-cgi",
@@ -1009,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "fromByteString",
           "normalized": "ByteString-\u003ePath",
@@ -1024,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "fromString",
           "package": "wai-app-file-cgi",
@@ -1032,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "fromString",
           "normalized": "String-\u003ea",
@@ -1048,6 +1138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function to obtain information about a file.\n   If information is not obtained, an IO exception should be raised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "getFileInfo",
           "package": "wai-app-file-cgi",
@@ -1058,6 +1149,7 @@
         "index": {
           "description": "function to obtain information about file If information is not obtained an IO exception should be raised",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "getFileInfo",
           "normalized": "Path-\u003eIO FileInfo",
@@ -1074,6 +1166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecking if the path ends with the path separator.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ehasLeadingPathSeparator \"/foo/bar\"\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ehasLeadingPathSeparator \"foo/bar\"\n\u003c/code\u003e\u003c/strong\u003eFalse\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "hasLeadingPathSeparator",
           "package": "wai-app-file-cgi",
@@ -1084,6 +1177,7 @@
         "index": {
           "description": "Checking if the path ends with the path separator hasLeadingPathSeparator foo bar True hasLeadingPathSeparator foo bar False",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "hasLeadingPathSeparator",
           "normalized": "Path-\u003eBool",
@@ -1100,6 +1194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecking if the path ends with the path separator.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ehasTrailingPathSeparator \"/foo/bar/\"\n\u003c/code\u003e\u003c/strong\u003eTrue\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ehasTrailingPathSeparator \"/foo/bar\"\n\u003c/code\u003e\u003c/strong\u003eFalse\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "hasTrailingPathSeparator",
           "package": "wai-app-file-cgi",
@@ -1110,6 +1205,7 @@
         "index": {
           "description": "Checking if the path ends with the path separator hasTrailingPathSeparator foo bar True hasTrailingPathSeparator foo bar False",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "hasTrailingPathSeparator",
           "normalized": "Path-\u003eBool",
@@ -1125,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "hostPort",
           "package": "wai-app-file-cgi",
@@ -1134,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "hostPort",
           "normalized": "Request-\u003e(ByteString,ByteString)",
@@ -1150,6 +1248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file name of the default CGI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "indexCgi",
           "package": "wai-app-file-cgi",
@@ -1160,6 +1259,7 @@
         "index": {
           "description": "file name of the default CGI",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "indexCgi",
           "package": "wai-app-file-cgi",
@@ -1174,6 +1274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file name of an index file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "indexFile",
           "package": "wai-app-file-cgi",
@@ -1184,6 +1285,7 @@
         "index": {
           "description": "file name of an index file",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "indexFile",
           "package": "wai-app-file-cgi",
@@ -1198,6 +1300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether this is an HTML or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "isHTML",
           "package": "wai-app-file-cgi",
@@ -1208,6 +1311,7 @@
         "index": {
           "description": "Whether this is an HTML or not",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "isHTML",
           "normalized": "Path-\u003eBool",
@@ -1223,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "isSuffixOf",
           "package": "wai-app-file-cgi",
@@ -1232,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "isSuffixOf",
           "normalized": "Path-\u003ePath-\u003eBool",
@@ -1248,6 +1354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function for logging. The third argument is a body size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "logger",
           "package": "wai-app-file-cgi",
@@ -1258,6 +1365,7 @@
         "index": {
           "description": "function for logging The third argument is body size",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "logger",
           "normalized": "Request-\u003eStatus-\u003eMaybe Integer-\u003eIO()",
@@ -1272,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "pathByteString",
           "package": "wai-app-file-cgi",
@@ -1281,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "pathByteString",
           "package": "wai-app-file-cgi",
@@ -1294,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "pathString",
           "package": "wai-app-file-cgi",
@@ -1303,6 +1414,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "pathString",
           "package": "wai-app-file-cgi",
@@ -1316,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "redirectApp",
           "package": "wai-app-file-cgi",
@@ -1325,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "redirectApp",
           "normalized": "ClassicAppSpec-\u003eRedirectRoute-\u003eApplication",
@@ -1341,6 +1455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath prefix to an actual file system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "redirectDst",
           "package": "wai-app-file-cgi",
@@ -1351,6 +1466,7 @@
         "index": {
           "description": "Path prefix to an actual file system",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "redirectDst",
           "package": "wai-app-file-cgi",
@@ -1364,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "redirectHeader",
           "package": "wai-app-file-cgi",
@@ -1373,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "redirectHeader",
           "normalized": "Request-\u003eResponseHeaders",
@@ -1389,6 +1507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath prefix to be matched to \u003ccode\u003e\u003ca\u003erawPathInfo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "redirectSrc",
           "package": "wai-app-file-cgi",
@@ -1399,6 +1518,7 @@
         "index": {
           "description": "Path prefix to be matched to rawPathInfo",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "redirectSrc",
           "package": "wai-app-file-cgi",
@@ -1413,6 +1533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelaying any requests as reverse proxy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "revProxyApp",
           "package": "wai-app-file-cgi",
@@ -1423,6 +1544,7 @@
         "index": {
           "description": "Relaying any requests as reverse proxy",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "revProxyApp",
           "normalized": "ClassicAppSpec-\u003eRevProxyAppSpec-\u003eRevProxyRoute-\u003eApplication",
@@ -1439,6 +1561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestination domain name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "revProxyDomain",
           "package": "wai-app-file-cgi",
@@ -1449,6 +1572,7 @@
         "index": {
           "description": "Destination domain name",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "revProxyDomain",
           "package": "wai-app-file-cgi",
@@ -1463,6 +1587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestination path prefix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "revProxyDst",
           "package": "wai-app-file-cgi",
@@ -1473,6 +1598,7 @@
         "index": {
           "description": "Destination path prefix",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "revProxyDst",
           "package": "wai-app-file-cgi",
@@ -1487,6 +1613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnection manager\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "revProxyManager",
           "package": "wai-app-file-cgi",
@@ -1497,6 +1624,7 @@
         "index": {
           "description": "Connection manager",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "revProxyManager",
           "package": "wai-app-file-cgi",
@@ -1511,6 +1639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestination port number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "revProxyPort",
           "package": "wai-app-file-cgi",
@@ -1521,6 +1650,7 @@
         "index": {
           "description": "Destination port number",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "revProxyPort",
           "package": "wai-app-file-cgi",
@@ -1535,6 +1665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath prefix to be matched to \u003ccode\u003e\u003ca\u003erawPathInfo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "revProxySrc",
           "package": "wai-app-file-cgi",
@@ -1545,6 +1676,7 @@
         "index": {
           "description": "Path prefix to be matched to rawPathInfo",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "revProxySrc",
           "package": "wai-app-file-cgi",
@@ -1559,6 +1691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName specified to Server: in HTTP response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "softwareName",
           "package": "wai-app-file-cgi",
@@ -1569,6 +1702,7 @@
         "index": {
           "description": "Name specified to Server in HTTP response",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "softwareName",
           "package": "wai-app-file-cgi",
@@ -1583,6 +1717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function to get HTTP's GMT Date.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:47 UTC 2014",
           "module": "Network.Wai.Application.Classic",
           "name": "statusFileDir",
           "package": "wai-app-file-cgi",
@@ -1593,6 +1728,7 @@
         "index": {
           "description": "function to get HTTP GMT Date",
           "hierarchy": "Network Wai Application Classic",
+          "indexed": "2014-03-11T20:35:47",
           "module": "Network.Wai.Application.Classic",
           "name": "statusFileDir",
           "package": "wai-app-file-cgi",

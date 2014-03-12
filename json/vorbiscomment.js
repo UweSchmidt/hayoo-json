@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vorbiscomment"
+        "phrase": "vorbiscomment",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:27 UTC 2014",
           "module": "Codec.Audio.Vorbis",
           "name": "Vorbis",
           "package": "vorbiscomment",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis",
+          "indexed": "2014-03-11T20:35:27",
           "module": "Codec.Audio.Vorbis",
           "name": "Vorbis",
           "package": "vorbiscomment",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:27 UTC 2014",
           "module": "Codec.Audio.Vorbis",
           "name": "AudioInfo",
           "package": "vorbiscomment",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis",
+          "indexed": "2014-03-11T20:35:27",
           "module": "Codec.Audio.Vorbis",
           "name": "AudioInfo",
           "package": "vorbiscomment",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:27 UTC 2014",
           "module": "Codec.Audio.Vorbis",
           "name": "AudioInfo",
           "package": "vorbiscomment",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis",
+          "indexed": "2014-03-11T20:35:27",
           "module": "Codec.Audio.Vorbis",
           "name": "AudioInfo",
           "package": "vorbiscomment",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:27 UTC 2014",
           "module": "Codec.Audio.Vorbis",
           "name": "channels",
           "package": "vorbiscomment",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis",
+          "indexed": "2014-03-11T20:35:27",
           "module": "Codec.Audio.Vorbis",
           "name": "channels",
           "package": "vorbiscomment",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:27 UTC 2014",
           "module": "Codec.Audio.Vorbis",
           "name": "maxBitrate",
           "package": "vorbiscomment",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis",
+          "indexed": "2014-03-11T20:35:27",
           "module": "Codec.Audio.Vorbis",
           "name": "maxBitrate",
           "package": "vorbiscomment",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:27 UTC 2014",
           "module": "Codec.Audio.Vorbis",
           "name": "minBitrate",
           "package": "vorbiscomment",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis",
+          "indexed": "2014-03-11T20:35:27",
           "module": "Codec.Audio.Vorbis",
           "name": "minBitrate",
           "package": "vorbiscomment",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:27 UTC 2014",
           "module": "Codec.Audio.Vorbis",
           "name": "nominalBitrate",
           "package": "vorbiscomment",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis",
+          "indexed": "2014-03-11T20:35:27",
           "module": "Codec.Audio.Vorbis",
           "name": "nominalBitrate",
           "package": "vorbiscomment",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:27 UTC 2014",
           "module": "Codec.Audio.Vorbis",
           "name": "playtime",
           "package": "vorbiscomment",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis",
+          "indexed": "2014-03-11T20:35:27",
           "module": "Codec.Audio.Vorbis",
           "name": "playtime",
           "package": "vorbiscomment",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:27 UTC 2014",
           "module": "Codec.Audio.Vorbis",
           "name": "readAudioInfoAndComment",
           "package": "vorbiscomment",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis",
+          "indexed": "2014-03-11T20:35:27",
           "module": "Codec.Audio.Vorbis",
           "name": "readAudioInfoAndComment",
           "normalized": "FilePath-\u003eIO(Either String(AudioInfo,[(String,String)]))",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:27 UTC 2014",
           "module": "Codec.Audio.Vorbis",
           "name": "sampleRate",
           "package": "vorbiscomment",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis",
+          "indexed": "2014-03-11T20:35:27",
           "module": "Codec.Audio.Vorbis",
           "name": "sampleRate",
           "package": "vorbiscomment",

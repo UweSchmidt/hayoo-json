@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hs-gizapp"
+        "phrase": "hs-gizapp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus.Parsec",
           "name": "Parsec",
           "package": "hs-gizapp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus Parsec",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus.Parsec",
           "name": "Parsec",
           "package": "hs-gizapp",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus.Parsec",
           "name": "OneToManyPair",
           "package": "hs-gizapp",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus Parsec",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus.Parsec",
           "name": "OneToManyPair",
           "package": "hs-gizapp",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus.Parsec",
           "name": "alignFile",
           "package": "hs-gizapp",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus Parsec",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus.Parsec",
           "name": "alignFile",
           "normalized": "CharParser()[([String],[OneToManyPair])]",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus.Parsec",
           "name": "alignSentencePair",
           "package": "hs-gizapp",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus Parsec",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus.Parsec",
           "name": "alignSentencePair",
           "normalized": "CharParser()([String],[OneToManyPair])",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus.Parsec",
           "name": "alignWord",
           "package": "hs-gizapp",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus Parsec",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus.Parsec",
           "name": "alignWord",
           "normalized": "CharParser()String",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus.Parsec",
           "name": "alignWordPair",
           "package": "hs-gizapp",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus Parsec",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus.Parsec",
           "name": "alignWordPair",
           "normalized": "CharParser()OneToManyPair",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus.Parsec",
           "name": "justSpace",
           "package": "hs-gizapp",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus Parsec",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus.Parsec",
           "name": "justSpace",
           "normalized": "CharParser()Char",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus.Parsec",
           "name": "natural",
           "package": "hs-gizapp",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus Parsec",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus.Parsec",
           "name": "natural",
           "normalized": "CharParser()Integer",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus.Parsec",
           "name": "readM",
           "package": "hs-gizapp",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus Parsec",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus.Parsec",
           "name": "readM",
           "normalized": "String-\u003ea b",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "GizaPlusPlus",
           "package": "hs-gizapp",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "GizaPlusPlus",
           "package": "hs-gizapp",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "Align",
           "package": "hs-gizapp",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "Align",
           "package": "hs-gizapp",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "Alignment",
           "package": "hs-gizapp",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "Alignment",
           "package": "hs-gizapp",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "GizaCfg",
           "package": "hs-gizapp",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "GizaCfg",
           "package": "hs-gizapp",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "OneToManyPair",
           "package": "hs-gizapp",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "OneToManyPair",
           "package": "hs-gizapp",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "WordPos",
           "package": "hs-gizapp",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "WordPos",
           "package": "hs-gizapp",
@@ -352,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "Align",
           "package": "hs-gizapp",
@@ -361,6 +392,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "Align",
           "package": "hs-gizapp",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "GizaCfg",
           "package": "hs-gizapp",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "GizaCfg",
           "package": "hs-gizapp",
@@ -396,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "WordPos",
           "package": "hs-gizapp",
@@ -405,6 +440,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "WordPos",
           "package": "hs-gizapp",
@@ -418,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "_dev_null",
           "package": "hs-gizapp",
@@ -427,6 +464,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "_dev_null",
           "package": "hs-gizapp",
@@ -440,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun GIZA++ and extract a list of word alignments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "align",
           "package": "hs-gizapp",
@@ -449,6 +488,7 @@
         "index": {
           "description": "Run GIZA and extract list of word alignments",
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "align",
           "normalized": "GizaCfg-\u003e[(String,String)]-\u003eIO[Alignment]",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "count",
           "package": "hs-gizapp",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "count",
           "normalized": "[a]-\u003e[(a,Int)]",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "defaultGizaCfg",
           "package": "hs-gizapp",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "defaultGizaCfg",
           "package": "hs-gizapp",
@@ -509,6 +553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eGizaCfg\u003c/a\u003e\u003c/code\u003e into a (fragment of a) GIZA++ configuration\n   file (when we call giza, we will append other entries)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "fromGizaCfg",
           "package": "hs-gizapp",
@@ -519,6 +564,7 @@
         "index": {
           "description": "Convert GizaCfg into fragment of GIZA configuration file when we call giza we will append other entries",
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "fromGizaCfg",
           "normalized": "GizaCfg-\u003eString",
@@ -534,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "gizaCompactTable",
           "package": "hs-gizapp",
@@ -543,6 +590,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "gizaCompactTable",
           "package": "hs-gizapp",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "gizaHmmiterations",
           "package": "hs-gizapp",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "gizaHmmiterations",
           "package": "hs-gizapp",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "gizaModel1iterations",
           "package": "hs-gizapp",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "gizaModel1iterations",
           "package": "hs-gizapp",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "gizaModel2iterations",
           "package": "hs-gizapp",
@@ -609,6 +662,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "gizaModel2iterations",
           "package": "hs-gizapp",
@@ -622,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "gizaModel3iterations",
           "package": "hs-gizapp",
@@ -631,6 +686,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "gizaModel3iterations",
           "package": "hs-gizapp",
@@ -644,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "gizaModel4iterations",
           "package": "hs-gizapp",
@@ -653,6 +710,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "gizaModel4iterations",
           "package": "hs-gizapp",
@@ -666,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "gizaModel5iterations",
           "package": "hs-gizapp",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "gizaModel5iterations",
           "package": "hs-gizapp",
@@ -688,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "gizaNBestAlignments",
           "package": "hs-gizapp",
@@ -697,6 +758,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "gizaNBestAlignments",
           "package": "hs-gizapp",
@@ -710,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "gizaPegging",
           "package": "hs-gizapp",
@@ -719,6 +782,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "gizaPegging",
           "package": "hs-gizapp",
@@ -732,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "gizaVerbose",
           "package": "hs-gizapp",
@@ -741,6 +806,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "gizaVerbose",
           "package": "hs-gizapp",
@@ -754,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "toAlignment",
           "package": "hs-gizapp",
@@ -763,6 +830,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "toAlignment",
           "normalized": "([String],[OneToManyPair])-\u003eAlignment",
@@ -778,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:00 UTC 2014",
           "module": "NLP.GizaPlusPlus",
           "name": "withTempFile",
           "package": "hs-gizapp",
@@ -787,6 +856,7 @@
         },
         "index": {
           "hierarchy": "NLP GizaPlusPlus",
+          "indexed": "2014-03-11T18:46:00",
           "module": "NLP.GizaPlusPlus",
           "name": "withTempFile",
           "normalized": "FilePath-\u003eString-\u003e((FilePath,Handle)-\u003eIO a)-\u003eIO a",

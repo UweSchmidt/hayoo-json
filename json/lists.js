@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lists"
+        "phrase": "lists",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for dealing with lists.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "Lists",
           "package": "lists",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Functions for dealing with lists",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "Lists",
           "package": "lists",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds the specified (key, value) pair to the given list, removing any\nexisting pair with the same key already present. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "addToAL",
           "package": "lists",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Adds the specified key value pair to the given list removing any existing pair with the same key already present",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "addToAL",
           "normalized": "[(a,b)]-\u003ea-\u003eb-\u003e[(a,b)]",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike elemRIndex, but returns -1 if there is nothing\nfound. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "alwaysElemRIndex",
           "package": "lists",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Like elemRIndex but returns if there is nothing found",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "alwaysElemRIndex",
           "normalized": "a-\u003e[a]-\u003eInt",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to Data.List.break, but performs the test on the entire remaining\nlist instead of just one element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "breakList",
           "package": "lists",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Similar to Data.List.break but performs the test on the entire remaining list instead of just one element",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "breakList",
           "normalized": "([a]-\u003eBool)-\u003e[a]-\u003e([a],[a])",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a count of the number of times the given element occured in the\ngiven list. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "countElem",
           "package": "lists",
@@ -130,6 +139,7 @@
         "index": {
           "description": "Returns count of the number of times the given element occured in the given list",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "countElem",
           "normalized": "a-\u003e[a]-\u003eInt",
@@ -146,6 +156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves all (key, value) pairs from the given list where the key\nmatches the given one. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "delFromAL",
           "package": "lists",
@@ -156,6 +167,7 @@
         "index": {
           "description": "Removes all key value pairs from the given list where the key matches the given one",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "delFromAL",
           "normalized": "[(a,b)]-\u003ea-\u003e[(a,b)]",
@@ -172,6 +184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to Data.List.dropWhile, drops elements while the func is true.\nThe function is given the remainder of the list to examine. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "dropWhileList",
           "package": "lists",
@@ -182,6 +195,7 @@
         "index": {
           "description": "Similar to Data.List.dropWhile drops elements while the func is true The function is given the remainder of the list to examine",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "dropWhileList",
           "normalized": "([a]-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -198,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the rightmost index of the given element in the\ngiven list. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "elemRIndex",
           "package": "lists",
@@ -208,6 +223,7 @@
         "index": {
           "description": "Returns the rightmost index of the given element in the given list",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "elemRIndex",
           "normalized": "a-\u003e[a]-\u003eMaybe Int",
@@ -224,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the first item of a list or something else.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "firstOr",
           "package": "lists",
@@ -234,6 +251,7 @@
         "index": {
           "description": "Return the first item of list or something else",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "firstOr",
           "normalized": "a-\u003e[a]-\u003ea",
@@ -250,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlips an association list.  Converts (key1, val), (key2, val) pairs\nto (val, [key1, key2]). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "flipAL",
           "package": "lists",
@@ -260,6 +279,7 @@
         "index": {
           "description": "Flips an association list Converts key1 val key2 val pairs to val key1 key2",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "flipAL",
           "normalized": "[(a,b)]-\u003e[(b,[a])]",
@@ -276,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpposite of map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "for",
           "package": "lists",
@@ -286,6 +307,7 @@
         "index": {
           "description": "Opposite of map",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "for",
           "normalized": "[a]-\u003e(a-\u003eb)-\u003e[b]",
@@ -301,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eintercalate\u003c/a\u003e\u003c/code\u003e, but works with a list of anything showable, converting\nit to a String.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e genericJoin \", \" [1, 2, 3, 4] -\u003e \"1, 2, 3, 4\"\n genericJoin \"|\" [\"foo\", \"bar\", \"baz\"] -\u003e \"\\\"foo\\\"|\\\"bar\\\"|\\\"baz\\\"\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "genericJoin",
           "package": "lists",
@@ -311,6 +334,7 @@
         "index": {
           "description": "Like intercalate but works with list of anything showable converting it to String Examples genericJoin genericJoin foo bar baz foo bar baz",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "genericJoin",
           "normalized": "String-\u003e[a]-\u003eString",
@@ -327,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the given list contains any of the elements in the search\nlist. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "hasAny",
           "package": "lists",
@@ -336,6 +361,7 @@
         "index": {
           "description": "Returns true if the given list contains any of the elements in the search list",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "hasAny",
           "normalized": "[a]-\u003e[a]-\u003eBool",
@@ -352,6 +378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates whether or not the given key is in the AL. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "hasKeyAL",
           "package": "lists",
@@ -362,6 +389,7 @@
         "index": {
           "description": "Indicates whether or not the given key is in the AL",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "hasKeyAL",
           "normalized": "a-\u003e[(a,b)]-\u003eBool",
@@ -378,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the keys that comprise the (key, value) pairs of the given AL.\n\u003c/p\u003e\u003cp\u003eSame as:\n\u003c/p\u003e\u003cpre\u003emap fst\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "keysAL",
           "package": "lists",
@@ -388,6 +417,7 @@
         "index": {
           "description": "Returns the keys that comprise the key value pairs of the given AL Same as map fst",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "keysAL",
           "normalized": "[(a,b)]-\u003e[a]",
@@ -404,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaybe get the last element in the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "lastToMaybe",
           "package": "lists",
@@ -414,6 +445,7 @@
         "index": {
           "description": "Maybe get the last element in the list",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "lastToMaybe",
           "normalized": "[a]-\u003eMaybe a",
@@ -430,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen a list is non-null, pass it to a function, otherwise use the\n default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "list",
           "package": "lists",
@@ -440,6 +473,7 @@
         "index": {
           "description": "When list is non-null pass it to function otherwise use the default",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "list",
           "normalized": "a-\u003e([b]-\u003ea)-\u003e[b]-\u003ea",
@@ -455,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the maximum of a list or return zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "maxList",
           "package": "lists",
@@ -465,6 +500,7 @@
         "index": {
           "description": "Get the maximum of list or return zero",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "maxList",
           "normalized": "[a]-\u003ea",
@@ -481,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two sorted lists into a single, sorted whole.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e merge [1,3,5] [1,2,4,6] -\u003e [1,1,2,3,4,5,6]\n\u003c/pre\u003e\u003cp\u003eQuickCheck test property:\n\u003c/p\u003e\u003cp\u003eprop_merge xs ys =\n    merge (sort xs) (sort ys) == sort (xs ++ ys)\n          where types = xs :: [Int]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "merge",
           "package": "lists",
@@ -491,6 +528,7 @@
         "index": {
           "description": "Merge two sorted lists into single sorted whole Example merge QuickCheck test property prop merge xs ys merge sort xs sort ys sort xs ys where types xs Int",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "merge",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -506,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two sorted lists using into a single, sorted whole,\nallowing the programmer to specify the comparison function.\n\u003c/p\u003e\u003cp\u003eQuickCheck test property:\n\u003c/p\u003e\u003cp\u003eprop_mergeBy xs ys =\n    mergeBy cmp (sortBy cmp xs) (sortBy cmp ys) == sortBy cmp (xs ++ ys)\n          where types = xs :: [ (Int, Int) ]\n                cmp (x1,_) (x2,_) = compare x1 x2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "mergeBy",
           "package": "lists",
@@ -516,6 +555,7 @@
         "index": {
           "description": "Merge two sorted lists using into single sorted whole allowing the programmer to specify the comparison function QuickCheck test property prop mergeBy xs ys mergeBy cmp sortBy cmp xs sortBy cmp ys sortBy cmp xs ys where types xs Int Int cmp x1 x2 compare x1 x2",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "mergeBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003e[a]-\u003e[a]-\u003e[a]",
@@ -532,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEssentially a powerset but retaining contiguously ordererd subsets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "powerslice",
           "package": "lists",
@@ -542,6 +583,7 @@
         "index": {
           "description": "Essentially powerset but retaining contiguously ordererd subsets",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "powerslice",
           "normalized": "[a]-\u003e[[a]]",
@@ -557,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list and a replacement list, replaces each occurance of the search\nlist with the replacement list in the operation list.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003ereplace \",\" \".\" \"127,0,0,1\" -\u003e \"127.0.0.1\"\n\u003c/pre\u003e\u003cp\u003eThis could logically be thought of as:\n\u003c/p\u003e\u003cpre\u003ereplace old new l = join new . split old $ l\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "replace",
           "package": "lists",
@@ -567,6 +610,7 @@
         "index": {
           "description": "Given list and replacement list replaces each occurance of the search list with the replacement list in the operation list Example replace This could logically be thought of as replace old new join new split old",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "replace",
           "normalized": "[a]-\u003e[a]-\u003e[a]-\u003e[a]",
@@ -582,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForces the evaluation of the entire list. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "seqList",
           "package": "lists",
@@ -592,6 +637,7 @@
         "index": {
           "description": "Forces the evaluation of the entire list",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "seqList",
           "normalized": "[a]-\u003e[a]",
@@ -608,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to Data.List.span, but performs the test on the entire remaining\nlist instead of just one element.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003espanList p xs\u003c/code\u003e is the same as \u003ccode\u003e(takeWhileList p xs, dropWhileList p xs)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "spanList",
           "package": "lists",
@@ -618,6 +665,7 @@
         "index": {
           "description": "Similar to Data.List.span but performs the test on the entire remaining list instead of just one element spanList xs is the same as takeWhileList xs dropWhileList xs",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "spanList",
           "normalized": "([a]-\u003eBool)-\u003e[a]-\u003e([a],[a])",
@@ -634,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an association list to a string.  The string will have\none pair per line, with the key and value both represented as a Haskell string.\n\u003c/p\u003e\u003cp\u003eThis function is designed to work with [(String, String)] association lists,\nbut may work with other types as well. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "strFromAL",
           "package": "lists",
@@ -644,6 +693,7 @@
         "index": {
           "description": "Converts an association list to string The string will have one pair per line with the key and value both represented as Haskell string This function is designed to work with String String association lists but may work with other types as well",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "strFromAL",
           "normalized": "[(a,b)]-\u003eString",
@@ -660,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe inverse of \u003ccode\u003e\u003ca\u003estrFromAL\u003c/a\u003e\u003c/code\u003e, this function reads a string and outputs the\nappropriate association list.\n\u003c/p\u003e\u003cp\u003eLike \u003ccode\u003e\u003ca\u003estrFromAL\u003c/a\u003e\u003c/code\u003e, this is designed to work with [(String, String)] association\nlists but may also work with other objects with simple representations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "strToAL",
           "package": "lists",
@@ -670,6 +721,7 @@
         "index": {
           "description": "The inverse of strFromAL this function reads string and outputs the appropriate association list Like strFromAL this is designed to work with String String association lists but may also work with other objects with simple representations",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "strToAL",
           "normalized": "String-\u003e[(a,b)]",
@@ -686,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to Data.List.takeWhile, takes elements while the func is true.\nThe function is given the remainder of the list to examine. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "takeWhileList",
           "package": "lists",
@@ -696,6 +749,7 @@
         "index": {
           "description": "Similar to Data.List.takeWhile takes elements while the func is true The function is given the remainder of the list to examine",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "takeWhileList",
           "normalized": "([a]-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -712,6 +766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the union of the given lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "unionOf",
           "package": "lists",
@@ -722,6 +777,7 @@
         "index": {
           "description": "Get the union of the given lists",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "unionOf",
           "normalized": "[[a]]-\u003e[a]",
@@ -738,6 +794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the values the comprise the (key, value) pairs of the given\nAL.\n\u003c/p\u003e\u003cp\u003eSame as:\n\u003c/p\u003e\u003cpre\u003emap snd\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:10:54 UTC 2014",
           "module": "Data.Lists",
           "name": "valuesAL",
           "package": "lists",
@@ -748,6 +805,7 @@
         "index": {
           "description": "Returns the values the comprise the key value pairs of the given AL Same as map snd",
           "hierarchy": "Data Lists",
+          "indexed": "2014-03-11T19:10:54",
           "module": "Data.Lists",
           "name": "valuesAL",
           "normalized": "[(a,b)]-\u003e[b]",

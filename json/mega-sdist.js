@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mega-sdist"
+        "phrase": "mega-sdist",
+        "type": "phrase"
       },
       "type": "context"
     }

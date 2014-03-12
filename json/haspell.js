@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haspell"
+        "phrase": "haspell",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "Options",
           "package": "haspell",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "Options",
           "package": "haspell",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "ACOption",
           "package": "haspell",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "ACOption",
           "package": "haspell",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "Encoding",
           "package": "haspell",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "Encoding",
           "package": "haspell",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "NormalizeForm",
           "package": "haspell",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "NormalizeForm",
           "package": "haspell",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "SuggestMode",
           "package": "haspell",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "SuggestMode",
           "package": "haspell",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "WordListSize",
           "package": "haspell",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "WordListSize",
           "package": "haspell",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "BadSpellers",
           "package": "haspell",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "BadSpellers",
           "package": "haspell",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "Composed",
           "package": "haspell",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "Composed",
           "package": "haspell",
@@ -189,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwitches the context which should be visible to Aspell. Per default the initial context is assumed to be invisible as one would expect when spell checking source files of programs where relevant parts are contained in string constants and comments but not in the remaining code. If set to true the initial context is visible while the delimited ones are hidden. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "ContextVisibleFirst",
           "package": "haspell",
@@ -199,6 +216,7 @@
         "index": {
           "description": "Switches the context which should be visible to Aspell Per default the initial context is assumed to be invisible as one would expect when spell checking source files of programs where relevant parts are contained in string constants and comments but not in the remaining code If set to true the initial context is visible while the delimited ones are hidden",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "ContextVisibleFirst",
           "package": "haspell",
@@ -213,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocation of language data files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "DataDir",
           "package": "haspell",
@@ -223,6 +242,7 @@
         "index": {
           "description": "Location of language data files",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "DataDir",
           "package": "haspell",
@@ -237,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase name of the dictionary to use. If this option is specified then Aspell will either use this dictionary or die. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "Dictionary",
           "package": "haspell",
@@ -247,6 +268,7 @@
         "index": {
           "description": "Base name of the dictionary to use If this option is specified then Aspell will either use this dictionary or die",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "Dictionary",
           "package": "haspell",
@@ -261,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of characters that can appear before the quote character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "EmailMargin",
           "package": "haspell",
@@ -271,6 +294,7 @@
         "index": {
           "description": "The number of characters that can appear before the quote character",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "EmailMargin",
           "package": "haspell",
@@ -285,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe encoding the input text is in. When using the Aspell utility the default encoding is based on the current locale. Thus if your locale currently uses the \u003ccode\u003eutf-8\u003c/code\u003e encoding than everything will be in UTF-8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "Encoding",
           "package": "haspell",
@@ -295,6 +320,7 @@
         "index": {
           "description": "The encoding the input text is in When using the Aspell utility the default encoding is based on the current locale Thus if your locale currently uses the utf-8 encoding than everything will be in UTF-8",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "Encoding",
           "package": "haspell",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "Fast",
           "package": "haspell",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "Fast",
           "package": "haspell",
@@ -331,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the filter mode. Possible values include, but not limited to, \u003ccode\u003enone\u003c/code\u003e, \u003ccode\u003eurl\u003c/code\u003e, \u003ccode\u003eemail\u003c/code\u003e, \u003ccode\u003esgml\u003c/code\u003e, or \u003ccode\u003etex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "FilterMode",
           "package": "haspell",
@@ -341,6 +370,7 @@
         "index": {
           "description": "Sets the filter mode Possible values include but not limited to none url email sgml or tex",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "FilterMode",
           "package": "haspell",
@@ -355,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocation for personal files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "HomeDir",
           "package": "haspell",
@@ -365,6 +396,7 @@
         "index": {
           "description": "Location for personal files",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "HomeDir",
           "package": "haspell",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "Huge",
           "package": "haspell",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "Huge",
           "package": "haspell",
@@ -401,6 +435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnore words with N characters or less.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "Ignore",
           "package": "haspell",
@@ -411,6 +446,7 @@
         "index": {
           "description": "Ignore words with characters or less",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "Ignore",
           "package": "haspell",
@@ -425,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnore accents when checking words (currently ignored).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "IgnoreAccents",
           "package": "haspell",
@@ -435,6 +472,7 @@
         "index": {
           "description": "Ignore accents when checking words currently ignored",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "IgnoreAccents",
           "package": "haspell",
@@ -449,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnore case when checking words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "IgnoreCase",
           "package": "haspell",
@@ -459,6 +498,7 @@
         "index": {
           "description": "Ignore case when checking words",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "IgnoreCase",
           "package": "haspell",
@@ -473,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnore commands to store replacement pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "IgnoreReplace",
           "package": "haspell",
@@ -483,6 +524,7 @@
         "index": {
           "description": "Ignore commands to store replacement pairs",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "IgnoreReplace",
           "package": "haspell",
@@ -496,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "Insane",
           "package": "haspell",
@@ -505,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "Insane",
           "package": "haspell",
@@ -519,6 +563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe base name of the keyboard definition file to use (see \u003ca\u003ehttp://aspell.net/man-html/Notes-on-Typo_002dAnalysis.html#Notes-on-Typo_002dAnalysis\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "KeyboardDef",
           "package": "haspell",
@@ -529,6 +574,7 @@
         "index": {
           "description": "The base name of the keyboard definition file to use see http aspell.net man-html Notes-on-Typo dAnalysis.html Notes-on-Typo dAnalysis",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "KeyboardDef",
           "package": "haspell",
@@ -543,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage to use. It follows the same format of the LANG environment variable on most systems. It consists of the two letter ISO 639 language code and an optional two letter ISO 3166 country code after a dash or underscore. The default value is based on the value of the \u003ccode\u003eLC_MESSAGES\u003c/code\u003e locale. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "Lang",
           "package": "haspell",
@@ -553,6 +600,7 @@
         "index": {
           "description": "Language to use It follows the same format of the LANG environment variable on most systems It consists of the two letter ISO language code and an optional two letter ISO country code after dash or underscore The default value is based on the value of the LC MESSAGES locale",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "Lang",
           "package": "haspell",
@@ -566,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "Large",
           "package": "haspell",
@@ -575,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "Large",
           "package": "haspell",
@@ -588,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "Latin1",
           "package": "haspell",
@@ -597,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "Latin1",
           "package": "haspell",
@@ -611,6 +663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this keyboard layout for suggesting possible words. These spelling errors happen if a user accidently presses a key next to the intended correct key. The default is keyboard standard. If you are creating documents, you may want to set it according to your particular type of keyboard. If spellchecking documents created elsewhere, you might want to set this to the keyboard type for that locale. If you are not sure, just leave this as standard.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "Layout",
           "package": "haspell",
@@ -621,6 +674,7 @@
         "index": {
           "description": "Use this keyboard layout for suggesting possible words These spelling errors happen if user accidently presses key next to the intended correct key The default is keyboard standard If you are creating documents you may want to set it according to your particular type of keyboard If spellchecking documents created elsewhere you might want to set this to the keyboard type for that locale If you are not sure just leave this as standard",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "Layout",
           "package": "haspell",
@@ -635,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlternative location of language data files. This directory is searched before \u003ccode\u003e\u003ca\u003eDataDir\u003c/a\u003e\u003c/code\u003e. It defaults to the same directory the actual main word list is in (which is not necessary \u003ccode\u003e\u003ca\u003eDictionary\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "LocalDataDir",
           "package": "haspell",
@@ -645,6 +700,7 @@
         "index": {
           "description": "Alternative location of language data files This directory is searched before DataDir It defaults to the same directory the actual main word list is in which is not necessary Dictionary",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "LocalDataDir",
           "package": "haspell",
@@ -659,6 +715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMain configuration file. This file overrides Aspell's global defaults.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "MainConfig",
           "package": "haspell",
@@ -669,6 +726,7 @@
         "index": {
           "description": "Main configuration file This file overrides Aspell global defaults",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "MainConfig",
           "package": "haspell",
@@ -683,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocation of main configuration file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "MainConfigDir",
           "package": "haspell",
@@ -693,6 +752,7 @@
         "index": {
           "description": "Location of main configuration file",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "MainConfigDir",
           "package": "haspell",
@@ -706,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "Medium",
           "package": "haspell",
@@ -715,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "Medium",
           "package": "haspell",
@@ -728,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "MediumLarge",
           "package": "haspell",
@@ -737,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "MediumLarge",
           "package": "haspell",
@@ -750,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "MediumSmall",
           "package": "haspell",
@@ -759,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "MediumSmall",
           "package": "haspell",
@@ -772,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "NFC",
           "package": "haspell",
@@ -781,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "NFC",
           "package": "haspell",
@@ -794,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "NFD",
           "package": "haspell",
@@ -803,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "NFD",
           "package": "haspell",
@@ -816,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "None",
           "package": "haspell",
@@ -825,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "None",
           "package": "haspell",
@@ -838,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "Normal",
           "package": "haspell",
@@ -847,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "Normal",
           "package": "haspell",
@@ -861,6 +935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform Unicode normalization. Enabled by default. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "Normalize",
           "package": "haspell",
@@ -871,6 +946,7 @@
         "index": {
           "description": "Perform Unicode normalization Enabled by default",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "Normalize",
           "package": "haspell",
@@ -885,6 +961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe normalization form the output should be in. This option primarily effects the normalization form of the suggestions as when spell checkering as the actual text is unchanged unless there is an error. Valid values are \u003ccode\u003e\u003ca\u003eNone\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eNFD\u003c/a\u003e\u003c/code\u003e for full decomposition (Normalization Form D), \u003ccode\u003e\u003ca\u003eNFC\u003c/a\u003e\u003c/code\u003e for Normalization Form C, or \u003ccode\u003e\u003ca\u003eComposed\u003c/a\u003e\u003c/code\u003e for fully composed. \u003ccode\u003e\u003ca\u003eComposed\u003c/a\u003e\u003c/code\u003e is like \u003ccode\u003e\u003ca\u003eNFC\u003c/a\u003e\u003c/code\u003e except that full composition is used rather than canonical composition. The normalize option must be enabled for this option to be used. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "NormalizeForm",
           "package": "haspell",
@@ -895,6 +972,7 @@
         "index": {
           "description": "The normalization form the output should be in This option primarily effects the normalization form of the suggestions as when spell checkering as the actual text is unchanged unless there is an error Valid values are None NFD for full decomposition Normalization Form NFC for Normalization Form or Composed for fully composed Composed is like NFC except that full composition is used rather than canonical composition The normalize option must be enabled for this option to be used",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "NormalizeForm",
           "package": "haspell",
@@ -909,6 +987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet to true when the current language requires Unicode normalization. This is generally the case when private use characters are used internally by Aspell or when Normalization Form C is not the same as full composition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "NormalizeRequired",
           "package": "haspell",
@@ -919,6 +998,7 @@
         "index": {
           "description": "Set to true when the current language requires Unicode normalization This is generally the case when private use characters are used internally by Aspell or when Normalization Form is not the same as full composition",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "NormalizeRequired",
           "package": "haspell",
@@ -933,6 +1013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAvoid lossy conversions when normalizing. Lossy conversions includes compatibility mappings such as splitting the letter \u003ccode\u003eOE\u003c/code\u003e (U+152) into \u003ccode\u003eO\u003c/code\u003e and \u003ccode\u003eE\u003c/code\u003e (when the combined letter is not available), and mappings which will remove accents. Disabled by default except when creating dictionaries. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "NormalizeStrict",
           "package": "haspell",
@@ -943,6 +1024,7 @@
         "index": {
           "description": "Avoid lossy conversions when normalizing Lossy conversions includes compatibility mappings such as splitting the letter OE into and when the combined letter is not available and mappings which will remove accents Disabled by default except when creating dictionaries",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "NormalizeStrict",
           "package": "haspell",
@@ -957,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePersonal configuration file. This file overrides options found in the global \u003ccode\u003e\u003ca\u003eMainConfig\u003c/a\u003e\u003c/code\u003e file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "PersonalConfig",
           "package": "haspell",
@@ -967,6 +1050,7 @@
         "index": {
           "description": "Personal configuration file This file overrides options found in the global MainConfig file",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "PersonalConfig",
           "package": "haspell",
@@ -981,6 +1065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePersonal word list file name. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "PersonalWordList",
           "package": "haspell",
@@ -991,6 +1076,7 @@
         "index": {
           "description": "Personal word list file name",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "PersonalWordList",
           "package": "haspell",
@@ -1005,6 +1091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "Prefix",
           "package": "haspell",
@@ -1015,6 +1102,7 @@
         "index": {
           "description": "Prefix directory",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "Prefix",
           "package": "haspell",
@@ -1028,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "ReallySmall",
           "package": "haspell",
@@ -1037,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "ReallySmall",
           "package": "haspell",
@@ -1051,6 +1141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplacements list file name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "ReplacementsList",
           "package": "haspell",
@@ -1061,6 +1152,7 @@
         "index": {
           "description": "Replacements list file name",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "ReplacementsList",
           "package": "haspell",
@@ -1075,6 +1167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsider run-together words valid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "RunTogether",
           "package": "haspell",
@@ -1085,6 +1178,7 @@
         "index": {
           "description": "Consider run-together words valid",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "RunTogether",
           "package": "haspell",
@@ -1099,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum number of words that can be strung together.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "RunTogetherLimit",
           "package": "haspell",
@@ -1109,6 +1204,7 @@
         "index": {
           "description": "Maximum number of words that can be strung together",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "RunTogetherLimit",
           "package": "haspell",
@@ -1123,6 +1219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal length of interior words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "RunTogetherMin",
           "package": "haspell",
@@ -1133,6 +1230,7 @@
         "index": {
           "description": "Minimal length of interior words",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "RunTogetherMin",
           "package": "haspell",
@@ -1147,6 +1245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave the replacement word list on save all.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "SaveReplace",
           "package": "haspell",
@@ -1157,6 +1256,7 @@
         "index": {
           "description": "Save the replacement word list on save all",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "SaveReplace",
           "package": "haspell",
@@ -1171,6 +1271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the prefix based on executable location (only works on WIN32 and when compiled with \u003ccode\u003e--enable-win32-relocatable\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "SetPrefix",
           "package": "haspell",
@@ -1181,6 +1282,7 @@
         "index": {
           "description": "Set the prefix based on executable location only works on WIN32 and when compiled with enable-win32-relocatable",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "SetPrefix",
           "package": "haspell",
@@ -1195,6 +1297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe preferred size of the word list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "Size",
           "package": "haspell",
@@ -1205,6 +1308,7 @@
         "index": {
           "description": "The preferred size of the word list",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "Size",
           "package": "haspell",
@@ -1218,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "Slow",
           "package": "haspell",
@@ -1227,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "Slow",
           "package": "haspell",
@@ -1240,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "Small",
           "package": "haspell",
@@ -1249,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "Small",
           "package": "haspell",
@@ -1263,6 +1371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuggestion mode = \u003ccode\u003e\u003ccode\u003e\u003ca\u003eUltra\u003c/a\u003e\u003c/code\u003e | \u003ccode\u003e\u003ca\u003eFast\u003c/a\u003e\u003c/code\u003e | \u003ccode\u003e\u003ca\u003eNormal\u003c/a\u003e\u003c/code\u003e | \u003ccode\u003e\u003ca\u003eSlow\u003c/a\u003e\u003c/code\u003e | \u003ccode\u003eBadSpeller\u003c/code\u003e\u003c/code\u003e (see \u003ca\u003ehttp://aspell.net/man-html/Notes-on-the-Different-Suggestion-Modes.html#Notes-on-the-Different-Suggestion-Modes\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "SuggestMode",
           "package": "haspell",
@@ -1273,6 +1382,7 @@
         "index": {
           "description": "Suggestion mode Ultra Fast Normal Slow BadSpeller see http aspell.net man-html Notes-on-the-Different-Suggestion-Modes.html Notes-on-the-Different-Suggestion-Modes",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "SuggestMode",
           "package": "haspell",
@@ -1287,6 +1397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck TeX comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "TeXCheckComments",
           "package": "haspell",
@@ -1297,6 +1408,7 @@
         "index": {
           "description": "Check TeX comments",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "TeXCheckComments",
           "package": "haspell",
@@ -1310,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "Tiny",
           "package": "haspell",
@@ -1319,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "Tiny",
           "package": "haspell",
@@ -1332,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "UTF8",
           "package": "haspell",
@@ -1341,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "UTF8",
           "package": "haspell",
@@ -1354,6 +1470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "Ultra",
           "package": "haspell",
@@ -1363,6 +1480,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "Ultra",
           "package": "haspell",
@@ -1377,6 +1495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocation of the main word list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell.Options",
           "name": "WordListDir",
           "package": "haspell",
@@ -1387,6 +1506,7 @@
         "index": {
           "description": "Location of the main word list",
           "hierarchy": "Language Aspell Options",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell.Options",
           "name": "WordListDir",
           "package": "haspell",
@@ -1400,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell",
           "name": "Aspell",
           "package": "haspell",
@@ -1408,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell",
           "name": "Aspell",
           "package": "haspell",
@@ -1421,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell",
           "name": "SpellChecker",
           "package": "haspell",
@@ -1429,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "Language Aspell",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell",
           "name": "SpellChecker",
           "package": "haspell",
@@ -1443,6 +1567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if a word has been spelled correctly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell",
           "name": "check",
           "package": "haspell",
@@ -1453,6 +1578,7 @@
         "index": {
           "description": "Checks if word has been spelled correctly",
           "hierarchy": "Language Aspell",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell",
           "name": "check",
           "normalized": "SpellChecker-\u003eByteString-\u003eBool",
@@ -1468,6 +1594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a spell checker with default options.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003espellChecker\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003espellCheckerWithOptions\u003c/a\u003e\u003c/code\u003e []\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell",
           "name": "spellChecker",
           "package": "haspell",
@@ -1478,6 +1605,7 @@
         "index": {
           "description": "Creates spell checker with default options spellChecker spellCheckerWithOptions",
           "hierarchy": "Language Aspell",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell",
           "name": "spellChecker",
           "package": "haspell",
@@ -1492,6 +1620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function for specifying a dictionary.\n\u003c/p\u003e\u003cp\u003eYou can determine which dictionaries are available to you with \u003ccode\u003easpell dump dicts\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003espellCheckerWithDictionary\u003c/a\u003e\u003c/code\u003e dict = \u003ccode\u003e\u003ca\u003espellCheckerWithOptions\u003c/a\u003e\u003c/code\u003e [\u003ccode\u003e\u003ca\u003eDictionary\u003c/a\u003e\u003c/code\u003e dict]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell",
           "name": "spellCheckerWithDictionary",
           "package": "haspell",
@@ -1502,6 +1631,7 @@
         "index": {
           "description": "Convenience function for specifying dictionary You can determine which dictionaries are available to you with aspell dump dicts spellCheckerWithDictionary dict spellCheckerWithOptions Dictionary dict",
           "hierarchy": "Language Aspell",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell",
           "name": "spellCheckerWithDictionary",
           "normalized": "ByteString-\u003eIO(Either ByteString SpellChecker)",
@@ -1518,6 +1648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a spell checker with a custom set of options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell",
           "name": "spellCheckerWithOptions",
           "package": "haspell",
@@ -1528,6 +1659,7 @@
         "index": {
           "description": "Creates spell checker with custom set of options",
           "hierarchy": "Language Aspell",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell",
           "name": "spellCheckerWithOptions",
           "normalized": "[ACOption]-\u003eIO(Either ByteString SpellChecker)",
@@ -1544,6 +1676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLists suggestions for misspelled words.\n\u003c/p\u003e\u003cp\u003eIf the input is not misspelled according to the dictionary, returns \u003ccode\u003e[]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:07 UTC 2014",
           "module": "Language.Aspell",
           "name": "suggest",
           "package": "haspell",
@@ -1554,6 +1687,7 @@
         "index": {
           "description": "Lists suggestions for misspelled words If the input is not misspelled according to the dictionary returns",
           "hierarchy": "Language Aspell",
+          "indexed": "2014-03-11T18:34:07",
           "module": "Language.Aspell",
           "name": "suggest",
           "normalized": "SpellChecker-\u003eByteString-\u003eIO[ByteString]",

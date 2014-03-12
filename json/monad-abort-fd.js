@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-abort-fd"
+        "phrase": "monad-abort-fd",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Abort.Class",
           "name": "Class",
           "package": "monad-abort-fd",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort Class",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Abort.Class",
           "name": "Class",
           "package": "monad-abort-fd",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Abort.Class",
           "name": "MonadAbort",
           "package": "monad-abort-fd",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort Class",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Abort.Class",
           "name": "MonadAbort",
           "package": "monad-abort-fd",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Abort.Class",
           "name": "MonadRecover",
           "package": "monad-abort-fd",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort Class",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Abort.Class",
           "name": "MonadRecover",
           "package": "monad-abort-fd",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Abort.Class",
           "name": "abort",
           "package": "monad-abort-fd",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort Class",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Abort.Class",
           "name": "abort",
           "normalized": "a-\u003eb c",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Abort.Class",
           "name": "ignore",
           "package": "monad-abort-fd",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort Class",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Abort.Class",
           "name": "ignore",
           "normalized": "a b-\u003ea()",
@@ -177,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Abort.Class",
           "name": "recover",
           "package": "monad-abort-fd",
@@ -186,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort Class",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Abort.Class",
           "name": "recover",
           "normalized": "a b-\u003e(c-\u003ea b)-\u003ea b",
@@ -200,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Abort",
           "name": "Abort",
           "package": "monad-abort-fd",
@@ -208,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Abort",
           "name": "Abort",
           "package": "monad-abort-fd",
@@ -221,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Abort",
           "name": "Abort",
           "package": "monad-abort-fd",
@@ -228,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Abort",
           "name": "Abort",
           "package": "monad-abort-fd",
@@ -241,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Abort",
           "name": "AbortT",
           "package": "monad-abort-fd",
@@ -248,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Abort",
           "name": "AbortT",
           "package": "monad-abort-fd",
@@ -261,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Abort",
           "name": "MonadAbort",
           "package": "monad-abort-fd",
@@ -269,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Abort",
           "name": "MonadAbort",
           "package": "monad-abort-fd",
@@ -282,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Abort",
           "name": "MonadRecover",
           "package": "monad-abort-fd",
@@ -290,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Abort",
           "name": "MonadRecover",
           "package": "monad-abort-fd",
@@ -303,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Abort",
           "name": "AbortT",
           "package": "monad-abort-fd",
@@ -311,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Abort",
           "name": "AbortT",
           "package": "monad-abort-fd",
@@ -324,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Abort",
           "name": "abort",
           "package": "monad-abort-fd",
@@ -333,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Abort",
           "name": "abort",
           "normalized": "a-\u003eb c",
@@ -347,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Abort",
           "name": "recover",
           "package": "monad-abort-fd",
@@ -356,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Abort",
           "name": "recover",
           "normalized": "a b-\u003e(c-\u003ea b)-\u003ea b",
@@ -370,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Abort",
           "name": "runAbort",
           "package": "monad-abort-fd",
@@ -378,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Abort",
           "name": "runAbort",
           "normalized": "Abort a b-\u003eEither a b",
@@ -393,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Abort",
           "name": "runAbortT",
           "package": "monad-abort-fd",
@@ -401,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Abort",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Abort",
           "name": "runAbortT",
           "package": "monad-abort-fd",
@@ -414,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "Exception",
           "package": "monad-abort-fd",
@@ -422,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "Exception",
           "package": "monad-abort-fd",
@@ -435,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "Handler",
           "package": "monad-abort-fd",
@@ -443,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "Handler",
           "package": "monad-abort-fd",
@@ -456,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "MonadFinally",
           "package": "monad-abort-fd",
@@ -464,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "MonadFinally",
           "package": "monad-abort-fd",
@@ -477,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "MonadMask",
           "package": "monad-abort-fd",
@@ -485,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "MonadMask",
           "package": "monad-abort-fd",
@@ -498,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "Handler",
           "package": "monad-abort-fd",
@@ -507,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "Handler",
           "normalized": "Handler(a-\u003eb c)",
@@ -522,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "bracket",
           "package": "monad-abort-fd",
@@ -531,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "bracket",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003e(b-\u003ea d)-\u003ea d",
@@ -545,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "bracketOnError",
           "package": "monad-abort-fd",
@@ -554,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "bracketOnError",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003e(b-\u003ea d)-\u003ea d",
@@ -569,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "bracketOnEscape",
           "package": "monad-abort-fd",
@@ -578,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "bracketOnEscape",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003e(b-\u003ea d)-\u003ea d",
@@ -593,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "bracket_",
           "package": "monad-abort-fd",
@@ -602,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "bracket_",
           "normalized": "a b-\u003ea c-\u003ea d-\u003ea d",
@@ -616,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "catch",
           "package": "monad-abort-fd",
@@ -625,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "catch",
           "normalized": "a b-\u003e(c-\u003ea b)-\u003ea b",
@@ -639,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "catchJust",
           "package": "monad-abort-fd",
@@ -648,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "catchJust",
           "normalized": "(a-\u003eMaybe b)-\u003ec d-\u003e(b-\u003ec d)-\u003ec d",
@@ -663,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "catches",
           "package": "monad-abort-fd",
@@ -672,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "catches",
           "normalized": "a b-\u003e[Handler a b]-\u003ea b",
@@ -686,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "evaluate",
           "package": "monad-abort-fd",
@@ -695,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "evaluate",
           "normalized": "a-\u003eb a",
@@ -709,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "exception",
           "package": "monad-abort-fd",
@@ -718,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "exception",
           "normalized": "a-\u003eb",
@@ -732,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "finally",
           "package": "monad-abort-fd",
@@ -741,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "finally",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -755,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "finally'",
           "package": "monad-abort-fd",
@@ -764,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "finally'",
           "normalized": "a b-\u003e(Maybe b-\u003ea c)-\u003ea(b,c)",
@@ -778,6 +842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "getMaskingState",
           "package": "monad-abort-fd",
@@ -787,6 +852,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "getMaskingState",
           "package": "monad-abort-fd",
@@ -800,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "handle",
           "package": "monad-abort-fd",
@@ -809,6 +876,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "handle",
           "normalized": "(a-\u003eb c)-\u003eb c-\u003eb c",
@@ -823,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "handleJust",
           "package": "monad-abort-fd",
@@ -832,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "handleJust",
           "normalized": "(a-\u003eMaybe b)-\u003e(b-\u003ec d)-\u003ec d-\u003ec d",
@@ -847,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "mask",
           "package": "monad-abort-fd",
@@ -856,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "mask",
           "normalized": "a b-\u003ea b)-\u003ec d)-\u003ec d",
@@ -870,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "mask_",
           "package": "monad-abort-fd",
@@ -879,6 +952,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "mask_",
           "normalized": "a b-\u003ea b",
@@ -893,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "onEscape",
           "package": "monad-abort-fd",
@@ -902,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "onEscape",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -917,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "onException",
           "package": "monad-abort-fd",
@@ -926,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "onException",
           "normalized": "a b-\u003e(c-\u003ea d)-\u003ea b",
@@ -941,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "onExceptions",
           "package": "monad-abort-fd",
@@ -950,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "onExceptions",
           "normalized": "a b-\u003e[Handler a c]-\u003ea b",
@@ -965,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "setMaskingState",
           "package": "monad-abort-fd",
@@ -974,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "setMaskingState",
           "normalized": "a-\u003eb c-\u003eb c",
@@ -989,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "throw",
           "package": "monad-abort-fd",
@@ -998,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "throw",
           "normalized": "a-\u003eb c",
@@ -1012,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "throwIO",
           "package": "monad-abort-fd",
@@ -1021,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "throwIO",
           "normalized": "a-\u003eb c",
@@ -1036,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "try",
           "package": "monad-abort-fd",
@@ -1045,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "try",
           "normalized": "a b-\u003ea(Either c b)",
@@ -1059,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "tryAll",
           "package": "monad-abort-fd",
@@ -1068,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "tryAll",
           "normalized": "[a b]-\u003ea()",
@@ -1083,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "tryJust",
           "package": "monad-abort-fd",
@@ -1092,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "tryJust",
           "normalized": "(a-\u003eMaybe b)-\u003ec d-\u003ec(Either b d)",
@@ -1107,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "uninterruptibleMask",
           "package": "monad-abort-fd",
@@ -1116,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "uninterruptibleMask",
           "normalized": "a b-\u003ea b)-\u003ec d)-\u003ec d",
@@ -1131,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Exception",
           "name": "uninterruptibleMask_",
           "package": "monad-abort-fd",
@@ -1140,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Exception",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Exception",
           "name": "uninterruptibleMask_",
           "normalized": "a b-\u003ea b",
@@ -1155,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Finish.Class",
           "name": "Class",
           "package": "monad-abort-fd",
@@ -1163,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Finish Class",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Finish.Class",
           "name": "Class",
           "package": "monad-abort-fd",
@@ -1176,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Finish.Class",
           "name": "MonadFinish",
           "package": "monad-abort-fd",
@@ -1184,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Finish Class",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Finish.Class",
           "name": "MonadFinish",
           "package": "monad-abort-fd",
@@ -1197,6 +1297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Finish.Class",
           "name": "finish",
           "package": "monad-abort-fd",
@@ -1206,6 +1307,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Finish Class",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Finish.Class",
           "name": "finish",
           "normalized": "a-\u003eb c",
@@ -1220,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Finish",
           "name": "Finish",
           "package": "monad-abort-fd",
@@ -1228,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Finish",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Finish",
           "name": "Finish",
           "package": "monad-abort-fd",
@@ -1241,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Finish",
           "name": "Finish",
           "package": "monad-abort-fd",
@@ -1248,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Finish",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Finish",
           "name": "Finish",
           "package": "monad-abort-fd",
@@ -1261,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Finish",
           "name": "FinishT",
           "package": "monad-abort-fd",
@@ -1268,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Finish",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Finish",
           "name": "FinishT",
           "package": "monad-abort-fd",
@@ -1281,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Finish",
           "name": "MonadFinish",
           "package": "monad-abort-fd",
@@ -1289,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Finish",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Finish",
           "name": "MonadFinish",
           "package": "monad-abort-fd",
@@ -1302,6 +1412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Finish",
           "name": "FinishT",
           "package": "monad-abort-fd",
@@ -1310,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Finish",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Finish",
           "name": "FinishT",
           "package": "monad-abort-fd",
@@ -1323,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Finish",
           "name": "finish",
           "package": "monad-abort-fd",
@@ -1332,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Finish",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Finish",
           "name": "finish",
           "normalized": "a-\u003eb c",
@@ -1346,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Finish",
           "name": "runFinish",
           "package": "monad-abort-fd",
@@ -1354,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Finish",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Finish",
           "name": "runFinish",
           "normalized": "Finish a b-\u003eEither a b",
@@ -1369,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Finish",
           "name": "runFinish'",
           "package": "monad-abort-fd",
@@ -1377,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Finish",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Finish",
           "name": "runFinish'",
           "normalized": "Finish a a-\u003ea",
@@ -1392,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Finish",
           "name": "runFinishT",
           "package": "monad-abort-fd",
@@ -1400,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Finish",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Finish",
           "name": "runFinishT",
           "package": "monad-abort-fd",
@@ -1413,6 +1533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:19:29 UTC 2014",
           "module": "Control.Monad.Finish",
           "name": "runFinishT'",
           "package": "monad-abort-fd",
@@ -1421,6 +1542,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Finish",
+          "indexed": "2014-03-11T19:19:29",
           "module": "Control.Monad.Finish",
           "name": "runFinishT'",
           "normalized": "FinishT a b a-\u003eb a",

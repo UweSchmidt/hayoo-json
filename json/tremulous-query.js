@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tremulous-query"
+        "phrase": "tremulous-query",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.ByteStringUtils",
           "name": "ByteStringUtils",
           "package": "tremulous-query",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous ByteStringUtils",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.ByteStringUtils",
           "name": "ByteStringUtils",
           "package": "tremulous-query",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.ByteStringUtils",
           "name": "maybeInt",
           "package": "tremulous-query",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous ByteStringUtils",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.ByteStringUtils",
           "name": "maybeInt",
           "normalized": "ByteString-\u003eMaybe Int",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.ByteStringUtils",
           "name": "rebuild",
           "package": "tremulous-query",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous ByteStringUtils",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.ByteStringUtils",
           "name": "rebuild",
           "normalized": "Int-\u003e(Word-\u003eByteString-\u003e(Word,ByteString))-\u003eByteString-\u003eByteString",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.ByteStringUtils",
           "name": "rebuildC",
           "package": "tremulous-query",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous ByteStringUtils",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.ByteStringUtils",
           "name": "rebuildC",
           "normalized": "Int-\u003e(Char-\u003eByteString-\u003e(Char,ByteString))-\u003eByteString-\u003eByteString",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.ByteStringUtils",
           "name": "splitfilter",
           "package": "tremulous-query",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous ByteStringUtils",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.ByteStringUtils",
           "name": "splitfilter",
           "normalized": "Char-\u003eByteString-\u003e[ByteString]",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.ByteStringUtils",
           "name": "splitlines",
           "package": "tremulous-query",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous ByteStringUtils",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.ByteStringUtils",
           "name": "splitlines",
           "normalized": "ByteString-\u003e[ByteString]",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.ByteStringUtils",
           "name": "stripPrefix",
           "package": "tremulous-query",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous ByteStringUtils",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.ByteStringUtils",
           "name": "stripPrefix",
           "normalized": "ByteString-\u003eByteString-\u003eMaybe ByteString",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.ByteStringUtils",
           "name": "stripw",
           "package": "tremulous-query",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous ByteStringUtils",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.ByteStringUtils",
           "name": "stripw",
           "normalized": "ByteString-\u003eByteString",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.MicroTime",
           "name": "MicroTime",
           "package": "tremulous-query",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous MicroTime",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.MicroTime",
           "name": "MicroTime",
           "package": "tremulous-query",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.MicroTime",
           "name": "MicroTime",
           "package": "tremulous-query",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous MicroTime",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.MicroTime",
           "name": "MicroTime",
           "package": "tremulous-query",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current POSIX time from the system clock.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.MicroTime",
           "name": "getMicroTime",
           "package": "tremulous-query",
@@ -255,6 +276,7 @@
         "index": {
           "description": "Get the current POSIX time from the system clock",
           "hierarchy": "Network Tremulous MicroTime",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.MicroTime",
           "name": "getMicroTime",
           "package": "tremulous-query",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.NameInsensitive",
           "name": "NameInsensitive",
           "package": "tremulous-query",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous NameInsensitive",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.NameInsensitive",
           "name": "NameInsensitive",
           "package": "tremulous-query",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.NameInsensitive",
           "name": "TI",
           "package": "tremulous-query",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous NameInsensitive",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.NameInsensitive",
           "name": "TI",
           "package": "tremulous-query",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.NameInsensitive",
           "name": "TI",
           "package": "tremulous-query",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous NameInsensitive",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.NameInsensitive",
           "name": "TI",
           "package": "tremulous-query",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.NameInsensitive",
           "name": "cleanedCase",
           "package": "tremulous-query",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous NameInsensitive",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.NameInsensitive",
           "name": "cleanedCase",
           "package": "tremulous-query",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.NameInsensitive",
           "name": "mk",
           "package": "tremulous-query",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous NameInsensitive",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.NameInsensitive",
           "name": "mk",
           "normalized": "ByteString-\u003eTI",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.NameInsensitive",
           "name": "mkAlphaNum",
           "package": "tremulous-query",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous NameInsensitive",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.NameInsensitive",
           "name": "mkAlphaNum",
           "normalized": "ByteString-\u003eTI",
@@ -401,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.NameInsensitive",
           "name": "mkColor",
           "package": "tremulous-query",
@@ -410,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous NameInsensitive",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.NameInsensitive",
           "name": "mkColor",
           "normalized": "ByteString-\u003eTI",
@@ -425,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.NameInsensitive",
           "name": "original",
           "package": "tremulous-query",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous NameInsensitive",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.NameInsensitive",
           "name": "original",
           "package": "tremulous-query",
@@ -446,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Polling",
           "name": "Polling",
           "package": "tremulous-query",
@@ -454,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Polling",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Polling",
           "name": "Polling",
           "package": "tremulous-query",
@@ -467,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Polling",
           "name": "pollMasters",
           "package": "tremulous-query",
@@ -476,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Polling",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Polling",
           "name": "pollMasters",
           "normalized": "Delay-\u003e[MasterServer]-\u003eIO PollResult",
@@ -491,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Polling",
           "name": "pollOne",
           "package": "tremulous-query",
@@ -500,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Polling",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Polling",
           "name": "pollOne",
           "normalized": "Delay-\u003eSockAddr-\u003eIO(Maybe GameServer)",
@@ -515,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "Protocol",
           "package": "tremulous-query",
@@ -523,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "Protocol",
           "package": "tremulous-query",
@@ -536,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "Delay",
           "package": "tremulous-query",
@@ -544,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "Delay",
           "package": "tremulous-query",
@@ -557,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "GameServer",
           "package": "tremulous-query",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "GameServer",
           "package": "tremulous-query",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "MasterServer",
           "package": "tremulous-query",
@@ -586,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "MasterServer",
           "package": "tremulous-query",
@@ -599,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "Player",
           "package": "tremulous-query",
@@ -607,6 +660,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "Player",
           "package": "tremulous-query",
@@ -620,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "PollResult",
           "package": "tremulous-query",
@@ -628,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "PollResult",
           "package": "tremulous-query",
@@ -641,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "Team",
           "package": "tremulous-query",
@@ -649,6 +706,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "Team",
           "package": "tremulous-query",
@@ -662,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "Aliens",
           "package": "tremulous-query",
@@ -671,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "Aliens",
           "package": "tremulous-query",
@@ -684,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "Delay",
           "package": "tremulous-query",
@@ -693,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "Delay",
           "package": "tremulous-query",
@@ -706,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "GameServer",
           "package": "tremulous-query",
@@ -715,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "GameServer",
           "package": "tremulous-query",
@@ -728,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "Humans",
           "package": "tremulous-query",
@@ -737,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "Humans",
           "package": "tremulous-query",
@@ -750,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "MasterServer",
           "package": "tremulous-query",
@@ -759,6 +826,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "MasterServer",
           "package": "tremulous-query",
@@ -772,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "Player",
           "package": "tremulous-query",
@@ -781,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "Player",
           "package": "tremulous-query",
@@ -794,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "PollResult",
           "package": "tremulous-query",
@@ -803,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "PollResult",
           "package": "tremulous-query",
@@ -816,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "Spectators",
           "package": "tremulous-query",
@@ -825,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "Spectators",
           "package": "tremulous-query",
@@ -838,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "Unknown",
           "package": "tremulous-query",
@@ -847,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "Unknown",
           "package": "tremulous-query",
@@ -860,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "address",
           "package": "tremulous-query",
@@ -869,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "address",
           "package": "tremulous-query",
@@ -881,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "defaultDelay",
           "package": "tremulous-query",
@@ -890,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "defaultDelay",
           "package": "tremulous-query",
@@ -903,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "gamemod",
           "package": "tremulous-query",
@@ -912,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "gamemod",
           "package": "tremulous-query",
@@ -924,6 +1006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "gameping",
           "package": "tremulous-query",
@@ -933,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "gameping",
           "package": "tremulous-query",
@@ -945,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "hostname",
           "package": "tremulous-query",
@@ -954,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "hostname",
           "package": "tremulous-query",
@@ -966,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "kills",
           "package": "tremulous-query",
@@ -975,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "kills",
           "package": "tremulous-query",
@@ -987,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "mapname",
           "package": "tremulous-query",
@@ -996,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "mapname",
           "package": "tremulous-query",
@@ -1008,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "masterAddress",
           "package": "tremulous-query",
@@ -1017,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "masterAddress",
           "package": "tremulous-query",
@@ -1030,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "masterProtocol",
           "package": "tremulous-query",
@@ -1039,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "masterProtocol",
           "package": "tremulous-query",
@@ -1052,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "name",
           "package": "tremulous-query",
@@ -1061,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "name",
           "package": "tremulous-query",
@@ -1073,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "nplayers",
           "package": "tremulous-query",
@@ -1082,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "nplayers",
           "package": "tremulous-query",
@@ -1094,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "packetDuplication",
           "package": "tremulous-query",
@@ -1103,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "packetDuplication",
           "package": "tremulous-query",
@@ -1116,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "packetTimeout",
           "package": "tremulous-query",
@@ -1125,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "packetTimeout",
           "package": "tremulous-query",
@@ -1138,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "parseGameServer",
           "package": "tremulous-query",
@@ -1147,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "parseGameServer",
           "normalized": "SockAddr-\u003eByteString-\u003eMaybe GameServer",
@@ -1162,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "parseMasterServer",
           "package": "tremulous-query",
@@ -1171,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "parseMasterServer",
           "normalized": "ByteString-\u003eMaybe[SockAddr]",
@@ -1186,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "ping",
           "package": "tremulous-query",
@@ -1195,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "ping",
           "package": "tremulous-query",
@@ -1207,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "players",
           "package": "tremulous-query",
@@ -1216,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "players",
           "normalized": "[Player]",
@@ -1230,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "polled",
           "package": "tremulous-query",
@@ -1239,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "polled",
           "normalized": "[GameServer]",
@@ -1253,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "privslots",
           "package": "tremulous-query",
@@ -1262,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "privslots",
           "package": "tremulous-query",
@@ -1274,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "protected",
           "package": "tremulous-query",
@@ -1283,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "protected",
           "package": "tremulous-query",
@@ -1295,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "protocol",
           "package": "tremulous-query",
@@ -1304,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "protocol",
           "package": "tremulous-query",
@@ -1316,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "serversRequested",
           "package": "tremulous-query",
@@ -1325,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "serversRequested",
           "package": "tremulous-query",
@@ -1338,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "serversResponded",
           "package": "tremulous-query",
@@ -1347,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "serversResponded",
           "package": "tremulous-query",
@@ -1360,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "slots",
           "package": "tremulous-query",
@@ -1369,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "slots",
           "package": "tremulous-query",
@@ -1381,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "suddendeath",
           "package": "tremulous-query",
@@ -1390,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "suddendeath",
           "package": "tremulous-query",
@@ -1402,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "team",
           "package": "tremulous-query",
@@ -1411,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "team",
           "package": "tremulous-query",
@@ -1423,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "throughputDelay",
           "package": "tremulous-query",
@@ -1432,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "throughputDelay",
           "package": "tremulous-query",
@@ -1445,6 +1575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "timelimit",
           "package": "tremulous-query",
@@ -1454,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "timelimit",
           "package": "tremulous-query",
@@ -1466,6 +1598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "unlagged",
           "package": "tremulous-query",
@@ -1475,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "unlagged",
           "package": "tremulous-query",
@@ -1487,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Protocol",
           "name": "version",
           "package": "tremulous-query",
@@ -1496,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Protocol",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Protocol",
           "name": "version",
           "package": "tremulous-query",
@@ -1508,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Scheduler",
           "name": "Scheduler",
           "package": "tremulous-query",
@@ -1516,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Scheduler",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Scheduler",
           "name": "Scheduler",
           "package": "tremulous-query",
@@ -1529,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Scheduler",
           "name": "Event",
           "package": "tremulous-query",
@@ -1537,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Scheduler",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Scheduler",
           "name": "Event",
           "package": "tremulous-query",
@@ -1550,6 +1690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Scheduler",
           "name": "Scheduler",
           "package": "tremulous-query",
@@ -1558,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Scheduler",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Scheduler",
           "name": "Scheduler",
           "package": "tremulous-query",
@@ -1571,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Scheduler",
           "name": "E",
           "package": "tremulous-query",
@@ -1580,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Scheduler",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Scheduler",
           "name": "E",
           "package": "tremulous-query",
@@ -1592,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Scheduler",
           "name": "addScheduled",
           "package": "tremulous-query",
@@ -1601,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Scheduler",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Scheduler",
           "name": "addScheduled",
           "normalized": "Scheduler a b-\u003eEvent a b-\u003eIO()",
@@ -1616,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Scheduler",
           "name": "addScheduledBatch",
           "package": "tremulous-query",
@@ -1625,6 +1772,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Scheduler",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Scheduler",
           "name": "addScheduledBatch",
           "normalized": "Scheduler a b-\u003ec(Event a b)-\u003eIO()",
@@ -1640,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Scheduler",
           "name": "addScheduledInstant",
           "package": "tremulous-query",
@@ -1649,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Scheduler",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Scheduler",
           "name": "addScheduledInstant",
           "normalized": "Scheduler a b-\u003e[(a,b)]-\u003eIO()",
@@ -1664,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Scheduler",
           "name": "deleteScheduled",
           "package": "tremulous-query",
@@ -1673,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Scheduler",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Scheduler",
           "name": "deleteScheduled",
           "normalized": "Scheduler a b-\u003ea-\u003eIO()",
@@ -1688,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Scheduler",
           "name": "idn",
           "package": "tremulous-query",
@@ -1697,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Scheduler",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Scheduler",
           "name": "idn",
           "package": "tremulous-query",
@@ -1709,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Scheduler",
           "name": "newScheduler",
           "package": "tremulous-query",
@@ -1718,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Scheduler",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Scheduler",
           "name": "newScheduler",
           "normalized": "Int-\u003e(Scheduler a b-\u003ea-\u003eb-\u003eIO())-\u003eMaybe(IO())-\u003eIO(Scheduler a b)",
@@ -1733,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Scheduler",
           "name": "pureModifyMVar",
           "package": "tremulous-query",
@@ -1742,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Scheduler",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Scheduler",
           "name": "pureModifyMVar",
           "normalized": "MVar a-\u003e(a-\u003ea)-\u003eIO()",
@@ -1757,6 +1915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Scheduler",
           "name": "putMVar'",
           "package": "tremulous-query",
@@ -1766,6 +1925,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Scheduler",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Scheduler",
           "name": "putMVar'",
           "normalized": "MVar a-\u003ea-\u003eIO()",
@@ -1781,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Scheduler",
           "name": "storage",
           "package": "tremulous-query",
@@ -1790,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Scheduler",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Scheduler",
           "name": "storage",
           "package": "tremulous-query",
@@ -1802,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Scheduler",
           "name": "time",
           "package": "tremulous-query",
@@ -1811,6 +1974,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Scheduler",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Scheduler",
           "name": "time",
           "package": "tremulous-query",
@@ -1823,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.SocketExtensions",
           "name": "SocketExtensions",
           "package": "tremulous-query",
@@ -1831,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous SocketExtensions",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.SocketExtensions",
           "name": "SocketExtensions",
           "package": "tremulous-query",
@@ -1844,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.SocketExtensions",
           "name": "htonl",
           "package": "tremulous-query",
@@ -1853,6 +2020,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous SocketExtensions",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.SocketExtensions",
           "name": "htonl",
           "normalized": "Word-\u003eWord",
@@ -1867,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.SocketExtensions",
           "name": "htons",
           "package": "tremulous-query",
@@ -1876,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous SocketExtensions",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.SocketExtensions",
           "name": "htons",
           "normalized": "Word-\u003eWord",
@@ -1890,6 +2060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.SocketExtensions",
           "name": "ntohl",
           "package": "tremulous-query",
@@ -1899,6 +2070,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous SocketExtensions",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.SocketExtensions",
           "name": "ntohl",
           "normalized": "Word-\u003eWord",
@@ -1913,6 +2085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.SocketExtensions",
           "name": "ntohs",
           "package": "tremulous-query",
@@ -1922,6 +2095,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous SocketExtensions",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.SocketExtensions",
           "name": "ntohs",
           "normalized": "Word-\u003eWord",
@@ -1936,6 +2110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.StrictMaybe",
           "name": "StrictMaybe",
           "package": "tremulous-query",
@@ -1944,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous StrictMaybe",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.StrictMaybe",
           "name": "StrictMaybe",
           "package": "tremulous-query",
@@ -1957,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.StrictMaybe",
           "name": "Maybe",
           "package": "tremulous-query",
@@ -1965,6 +2142,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous StrictMaybe",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.StrictMaybe",
           "name": "Maybe",
           "package": "tremulous-query",
@@ -1978,6 +2156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.StrictMaybe",
           "name": "Just",
           "package": "tremulous-query",
@@ -1987,6 +2166,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous StrictMaybe",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.StrictMaybe",
           "name": "Just",
           "package": "tremulous-query",
@@ -2000,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.StrictMaybe",
           "name": "Nothing",
           "package": "tremulous-query",
@@ -2009,6 +2190,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous StrictMaybe",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.StrictMaybe",
           "name": "Nothing",
           "package": "tremulous-query",
@@ -2022,6 +2204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.StrictMaybe",
           "name": "fromMaybe",
           "package": "tremulous-query",
@@ -2031,6 +2214,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous StrictMaybe",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.StrictMaybe",
           "name": "fromMaybe",
           "normalized": "a-\u003eMaybe a-\u003ea",
@@ -2046,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.StrictMaybe",
           "name": "isJust",
           "package": "tremulous-query",
@@ -2055,6 +2240,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous StrictMaybe",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.StrictMaybe",
           "name": "isJust",
           "normalized": "Maybe a-\u003eBool",
@@ -2070,6 +2256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.StrictMaybe",
           "name": "isNothing",
           "package": "tremulous-query",
@@ -2079,6 +2266,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous StrictMaybe",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.StrictMaybe",
           "name": "isNothing",
           "normalized": "Maybe a-\u003eBool",
@@ -2094,6 +2282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.StrictMaybe",
           "name": "maybe",
           "package": "tremulous-query",
@@ -2103,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous StrictMaybe",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.StrictMaybe",
           "name": "maybe",
           "normalized": "a-\u003e(b-\u003ea)-\u003eMaybe b-\u003ea",
@@ -2117,6 +2307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.StrictMaybe",
           "name": "whenJust",
           "package": "tremulous-query",
@@ -2126,6 +2317,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous StrictMaybe",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.StrictMaybe",
           "name": "whenJust",
           "normalized": "Maybe a-\u003e(a-\u003eb())-\u003eb()",
@@ -2141,6 +2333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.StrictMaybe",
           "name": "whileJust",
           "package": "tremulous-query",
@@ -2150,6 +2343,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous StrictMaybe",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.StrictMaybe",
           "name": "whileJust",
           "normalized": "a-\u003e(a-\u003eb(Maybe a))-\u003eb()",
@@ -2165,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.TupleReader",
           "name": "TupleReader",
           "package": "tremulous-query",
@@ -2173,6 +2368,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous TupleReader",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.TupleReader",
           "name": "TupleReader",
           "package": "tremulous-query",
@@ -2186,6 +2382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.TupleReader",
           "name": "TupleReader",
           "package": "tremulous-query",
@@ -2194,6 +2391,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous TupleReader",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.TupleReader",
           "name": "TupleReader",
           "package": "tremulous-query",
@@ -2207,6 +2405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.TupleReader",
           "name": "lookupDelete",
           "package": "tremulous-query",
@@ -2216,6 +2415,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous TupleReader",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.TupleReader",
           "name": "lookupDelete",
           "normalized": "a-\u003e[(a,b)]-\u003e(Maybe b,[(a,b)])",
@@ -2231,6 +2431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.TupleReader",
           "name": "option",
           "package": "tremulous-query",
@@ -2240,6 +2441,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous TupleReader",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.TupleReader",
           "name": "option",
           "normalized": "a-\u003eTupleReader a b(Maybe b)",
@@ -2254,6 +2456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.TupleReader",
           "name": "optionWith",
           "package": "tremulous-query",
@@ -2263,6 +2466,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous TupleReader",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.TupleReader",
           "name": "optionWith",
           "normalized": "(a-\u003eMaybe b)-\u003ec-\u003eTupleReader c a(Maybe b)",
@@ -2278,6 +2482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.TupleReader",
           "name": "require",
           "package": "tremulous-query",
@@ -2287,6 +2492,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous TupleReader",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.TupleReader",
           "name": "require",
           "normalized": "a-\u003eTupleReader a b b",
@@ -2301,6 +2507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.TupleReader",
           "name": "requireWith",
           "package": "tremulous-query",
@@ -2310,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous TupleReader",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.TupleReader",
           "name": "requireWith",
           "normalized": "(a-\u003eMaybe b)-\u003ec-\u003eTupleReader c a b",
@@ -2325,6 +2533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.TupleReader",
           "name": "tupleReader",
           "package": "tremulous-query",
@@ -2334,6 +2543,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous TupleReader",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.TupleReader",
           "name": "tupleReader",
           "normalized": "TupleReader a b c-\u003e[(a,b)]-\u003eMaybe c",
@@ -2349,6 +2559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Util",
           "name": "Util",
           "package": "tremulous-query",
@@ -2357,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Util",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Util",
           "name": "Util",
           "package": "tremulous-query",
@@ -2370,6 +2582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Util",
           "name": "elemByAddress",
           "package": "tremulous-query",
@@ -2379,6 +2592,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Util",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Util",
           "name": "elemByAddress",
           "normalized": "SockAddr-\u003e[GameServer]-\u003eBool",
@@ -2394,6 +2608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Util",
           "name": "makePlayerList",
           "package": "tremulous-query",
@@ -2403,6 +2618,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Util",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Util",
           "name": "makePlayerList",
           "normalized": "[GameServer]-\u003e[(Player,GameServer)]",
@@ -2418,6 +2634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Util",
           "name": "makePlayerNameList",
           "package": "tremulous-query",
@@ -2427,6 +2644,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Util",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Util",
           "name": "makePlayerNameList",
           "normalized": "[GameServer]-\u003e[(TI,GameServer)]",
@@ -2442,6 +2660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Util",
           "name": "partitionTeams",
           "package": "tremulous-query",
@@ -2451,6 +2670,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Util",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Util",
           "name": "partitionTeams",
           "normalized": "[Player]-\u003e([Player],[Player],[Player],[Player])",
@@ -2466,6 +2686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Util",
           "name": "removeColors",
           "package": "tremulous-query",
@@ -2475,6 +2696,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Util",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Util",
           "name": "removeColors",
           "normalized": "String-\u003eString",
@@ -2490,6 +2712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Util",
           "name": "search",
           "package": "tremulous-query",
@@ -2499,6 +2722,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Util",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Util",
           "name": "search",
           "normalized": "String-\u003e[GameServer]-\u003e[(TI,GameServer)]",
@@ -2513,6 +2737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Util",
           "name": "serverByAddress",
           "package": "tremulous-query",
@@ -2522,6 +2747,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Util",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Util",
           "name": "serverByAddress",
           "normalized": "SockAddr-\u003e[GameServer]-\u003eMaybe GameServer",
@@ -2537,6 +2763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:31 UTC 2014",
           "module": "Network.Tremulous.Util",
           "name": "stats",
           "package": "tremulous-query",
@@ -2546,6 +2773,7 @@
         },
         "index": {
           "hierarchy": "Network Tremulous Util",
+          "indexed": "2014-03-11T20:25:31",
           "module": "Network.Tremulous.Util",
           "name": "stats",
           "normalized": "[GameServer]-\u003e(Int,Int,Int)",

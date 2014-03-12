@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "NaturalLanguageAlphabets"
+        "phrase": "NaturalLanguageAlphabets",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn alphabet, where each character is a short bytestring.\n\u003c/p\u003e\u003cp\u003eDue to the overhead this incurs, we use \u003ccode\u003eShortByteString\u003c/code\u003es internally. We\n also provide an \u003ccode\u003e\u003ca\u003eInterned\u003c/a\u003e\u003c/code\u003e instance to further reduce overhead using\n hash-consing.\n\u003c/p\u003e\u003cp\u003eTODO we'd like to use the \u003ccode\u003estringable\u003c/code\u003e library but it depends on\n \u003ccode\u003esystem-filepath\u003c/code\u003e which is not yet compatible with \u003ccode\u003etext\u003e=1\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:53:56 UTC 2014",
           "module": "NLP.Alphabet.MultiChar",
           "name": "MultiChar",
           "package": "NaturalLanguageAlphabets",
@@ -28,6 +29,7 @@
         "index": {
           "description": "An alphabet where each character is short bytestring Due to the overhead this incurs we use ShortByteString internally We also provide an Interned instance to further reduce overhead using hash-consing TODO we like to use the stringable library but it depends on system-filepath which is not yet compatible with text",
           "hierarchy": "NLP Alphabet MultiChar",
+          "indexed": "2014-03-11T16:53:56",
           "module": "NLP.Alphabet.MultiChar",
           "name": "MultiChar",
           "package": "NaturalLanguageAlphabets",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:56 UTC 2014",
           "module": "NLP.Alphabet.MultiChar",
           "name": "InternedMultiChar",
           "package": "NaturalLanguageAlphabets",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "NLP Alphabet MultiChar",
+          "indexed": "2014-03-11T16:53:56",
           "module": "NLP.Alphabet.MultiChar",
           "name": "InternedMultiChar",
           "package": "NaturalLanguageAlphabets",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a short bytestring. Read and Show instances behave like for normal\n strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:56 UTC 2014",
           "module": "NLP.Alphabet.MultiChar",
           "name": "MultiChar",
           "package": "NaturalLanguageAlphabets",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Wrap short bytestring Read and Show instances behave like for normal strings",
           "hierarchy": "NLP Alphabet MultiChar",
+          "indexed": "2014-03-11T16:53:56",
           "module": "NLP.Alphabet.MultiChar",
           "name": "MultiChar",
           "package": "NaturalLanguageAlphabets",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:56 UTC 2014",
           "module": "NLP.Alphabet.MultiChar",
           "name": "InternedMultiChar",
           "package": "NaturalLanguageAlphabets",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "NLP Alphabet MultiChar",
+          "indexed": "2014-03-11T16:53:56",
           "module": "NLP.Alphabet.MultiChar",
           "name": "InternedMultiChar",
           "package": "NaturalLanguageAlphabets",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:56 UTC 2014",
           "module": "NLP.Alphabet.MultiChar",
           "name": "MultiChar",
           "package": "NaturalLanguageAlphabets",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "NLP Alphabet MultiChar",
+          "indexed": "2014-03-11T16:53:56",
           "module": "NLP.Alphabet.MultiChar",
           "name": "MultiChar",
           "package": "NaturalLanguageAlphabets",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:56 UTC 2014",
           "module": "NLP.Alphabet.MultiChar",
           "name": "imcCache",
           "package": "NaturalLanguageAlphabets",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "NLP Alphabet MultiChar",
+          "indexed": "2014-03-11T16:53:56",
           "module": "NLP.Alphabet.MultiChar",
           "name": "imcCache",
           "package": "NaturalLanguageAlphabets",
@@ -152,6 +164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterns a \u003ccode\u003e\u003ca\u003eMultiChar\u003c/a\u003e\u003c/code\u003e character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:56 UTC 2014",
           "module": "NLP.Alphabet.MultiChar",
           "name": "internMultiChar",
           "package": "NaturalLanguageAlphabets",
@@ -162,6 +175,7 @@
         "index": {
           "description": "Interns MultiChar character",
           "hierarchy": "NLP Alphabet MultiChar",
+          "indexed": "2014-03-11T16:53:56",
           "module": "NLP.Alphabet.MultiChar",
           "name": "internMultiChar",
           "normalized": "MultiChar-\u003eMultiChar",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:56 UTC 2014",
           "module": "NLP.Alphabet.MultiChar",
           "name": "internedMultiCharId",
           "package": "NaturalLanguageAlphabets",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "NLP Alphabet MultiChar",
+          "indexed": "2014-03-11T16:53:56",
           "module": "NLP.Alphabet.MultiChar",
           "name": "internedMultiCharId",
           "package": "NaturalLanguageAlphabets",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:56 UTC 2014",
           "module": "NLP.Alphabet.MultiChar",
           "name": "unMultiChar",
           "package": "NaturalLanguageAlphabets",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "NLP Alphabet MultiChar",
+          "indexed": "2014-03-11T16:53:56",
           "module": "NLP.Alphabet.MultiChar",
           "name": "unMultiChar",
           "package": "NaturalLanguageAlphabets",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:56 UTC 2014",
           "module": "NLP.Alphabet.MultiChar",
           "name": "uninternMultiChar",
           "package": "NaturalLanguageAlphabets",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "NLP Alphabet MultiChar",
+          "indexed": "2014-03-11T16:53:56",
           "module": "NLP.Alphabet.MultiChar",
           "name": "uninternMultiChar",
           "package": "NaturalLanguageAlphabets",

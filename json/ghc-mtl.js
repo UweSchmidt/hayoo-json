@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghc-mtl"
+        "phrase": "ghc-mtl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:16 UTC 2014",
           "module": "Control.Monad.Ghc",
           "name": "Ghc",
           "package": "ghc-mtl",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ghc",
+          "indexed": "2014-03-11T18:16:16",
           "module": "Control.Monad.Ghc",
           "name": "Ghc",
           "package": "ghc-mtl",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:16 UTC 2014",
           "module": "Control.Monad.Ghc",
           "name": "Ghc",
           "package": "ghc-mtl",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ghc",
+          "indexed": "2014-03-11T18:16:16",
           "module": "Control.Monad.Ghc",
           "name": "Ghc",
           "package": "ghc-mtl",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad that has all the features needed by GHC API calls.\n\u003c/p\u003e\u003cp\u003eIn short, a GHC monad\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e allows embedding of IO actions,\n\u003c/li\u003e\u003cli\u003e can log warnings,\n\u003c/li\u003e\u003cli\u003e allows handling of (extensible) exceptions, and\n\u003c/li\u003e\u003cli\u003e maintains a current session.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eIf you do not use \u003ccode\u003e\u003ca\u003eGhc\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eGhcT\u003c/a\u003e\u003c/code\u003e, make sure to call \u003ccode\u003e\u003ca\u003einitGhcMonad\u003c/a\u003e\u003c/code\u003e\n before any call to the GHC API functions can occur.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:16 UTC 2014",
           "module": "Control.Monad.Ghc",
           "name": "GhcMonad",
           "package": "ghc-mtl",
@@ -69,6 +74,7 @@
         "index": {
           "description": "monad that has all the features needed by GHC API calls In short GHC monad allows embedding of IO actions can log warnings allows handling of extensible exceptions and maintains current session If you do not use Ghc or GhcT make sure to call initGhcMonad before any call to the GHC API functions can occur",
           "hierarchy": "Control Monad Ghc",
+          "indexed": "2014-03-11T18:16:16",
           "module": "Control.Monad.Ghc",
           "name": "GhcMonad",
           "package": "ghc-mtl",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:16 UTC 2014",
           "module": "Control.Monad.Ghc",
           "name": "GhcT",
           "package": "ghc-mtl",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ghc",
+          "indexed": "2014-03-11T18:16:16",
           "module": "Control.Monad.Ghc",
           "name": "GhcT",
           "package": "ghc-mtl",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:16 UTC 2014",
           "module": "Control.Monad.Ghc",
           "name": "getSession",
           "package": "ghc-mtl",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ghc",
+          "indexed": "2014-03-11T18:16:16",
           "module": "Control.Monad.Ghc",
           "name": "getSession",
           "package": "ghc-mtl",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:16 UTC 2014",
           "module": "Control.Monad.Ghc",
           "name": "runGhc",
           "package": "ghc-mtl",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ghc",
+          "indexed": "2014-03-11T18:16:16",
           "module": "Control.Monad.Ghc",
           "name": "runGhc",
           "normalized": "Maybe FilePath-\u003eGhc a-\u003eIO a",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:16 UTC 2014",
           "module": "Control.Monad.Ghc",
           "name": "runGhcT",
           "package": "ghc-mtl",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ghc",
+          "indexed": "2014-03-11T18:16:16",
           "module": "Control.Monad.Ghc",
           "name": "runGhcT",
           "normalized": "Maybe FilePath-\u003eGhcT a b-\u003ea b",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:16 UTC 2014",
           "module": "Control.Monad.Ghc",
           "name": "setSession",
           "package": "ghc-mtl",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Ghc",
+          "indexed": "2014-03-11T18:16:16",
           "module": "Control.Monad.Ghc",
           "name": "setSession",
           "normalized": "HscEnv-\u003ea()",

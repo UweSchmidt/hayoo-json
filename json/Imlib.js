@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Imlib"
+        "phrase": "Imlib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "Imlib",
           "package": "Imlib",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "Imlib",
           "package": "Imlib",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibBorder",
           "package": "Imlib",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibBorder",
           "package": "Imlib",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibColor",
           "package": "Imlib",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibColor",
           "package": "Imlib",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibColorModifier",
           "package": "Imlib",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibColorModifier",
           "package": "Imlib",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibColorRange",
           "package": "Imlib",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibColorRange",
           "package": "Imlib",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibContext",
           "package": "Imlib",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibContext",
           "package": "Imlib",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibDataDestructorFunction",
           "package": "Imlib",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibDataDestructorFunction",
           "package": "Imlib",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibFilter",
           "package": "Imlib",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibFilter",
           "package": "Imlib",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibFont",
           "package": "Imlib",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibFont",
           "package": "Imlib",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibImage",
           "package": "Imlib",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibImage",
           "package": "Imlib",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadError",
           "package": "Imlib",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadError",
           "package": "Imlib",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibOperation",
           "package": "Imlib",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibOperation",
           "package": "Imlib",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibPolygon",
           "package": "Imlib",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibPolygon",
           "package": "Imlib",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibProgressFunction",
           "package": "Imlib",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibProgressFunction",
           "package": "Imlib",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibTTFEncoding",
           "package": "Imlib",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibTTFEncoding",
           "package": "Imlib",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibTextDirection",
           "package": "Imlib",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibTextDirection",
           "package": "Imlib",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibUpdates",
           "package": "Imlib",
@@ -362,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibUpdates",
           "package": "Imlib",
@@ -375,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibBorder",
           "package": "Imlib",
@@ -384,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibBorder",
           "package": "Imlib",
@@ -397,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibColor",
           "package": "Imlib",
@@ -406,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibColor",
           "package": "Imlib",
@@ -419,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorFileDoesNotExist",
           "package": "Imlib",
@@ -428,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorFileDoesNotExist",
           "package": "Imlib",
@@ -441,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorFileIsDirectory",
           "package": "Imlib",
@@ -450,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorFileIsDirectory",
           "package": "Imlib",
@@ -463,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorNoLoaderForFileFormat",
           "package": "Imlib",
@@ -472,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorNoLoaderForFileFormat",
           "package": "Imlib",
@@ -485,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorNone",
           "package": "Imlib",
@@ -494,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorNone",
           "package": "Imlib",
@@ -507,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorOutOfDiskSpace",
           "package": "Imlib",
@@ -516,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorOutOfDiskSpace",
           "package": "Imlib",
@@ -529,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorOutOfFileDescriptors",
           "package": "Imlib",
@@ -538,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorOutOfFileDescriptors",
           "package": "Imlib",
@@ -551,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorOutOfMemory",
           "package": "Imlib",
@@ -560,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorOutOfMemory",
           "package": "Imlib",
@@ -573,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorPathComponentNonExistant",
           "package": "Imlib",
@@ -582,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorPathComponentNonExistant",
           "package": "Imlib",
@@ -595,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorPathComponentNotDirectory",
           "package": "Imlib",
@@ -604,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorPathComponentNotDirectory",
           "package": "Imlib",
@@ -617,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorPathPointsOutsideAddressSpace",
           "package": "Imlib",
@@ -626,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorPathPointsOutsideAddressSpace",
           "package": "Imlib",
@@ -639,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorPathTooLong",
           "package": "Imlib",
@@ -648,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorPathTooLong",
           "package": "Imlib",
@@ -661,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorPermissionDeniedToRead",
           "package": "Imlib",
@@ -670,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorPermissionDeniedToRead",
           "package": "Imlib",
@@ -683,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorPermissionDeniedToWrite",
           "package": "Imlib",
@@ -692,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorPermissionDeniedToWrite",
           "package": "Imlib",
@@ -705,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorTooManySymbolicLinks",
           "package": "Imlib",
@@ -714,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorTooManySymbolicLinks",
           "package": "Imlib",
@@ -727,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorUnknown",
           "package": "Imlib",
@@ -736,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibLoadErrorUnknown",
           "package": "Imlib",
@@ -749,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibOpAdd",
           "package": "Imlib",
@@ -758,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibOpAdd",
           "package": "Imlib",
@@ -771,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibOpCopy",
           "package": "Imlib",
@@ -780,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibOpCopy",
           "package": "Imlib",
@@ -793,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibOpReshade",
           "package": "Imlib",
@@ -802,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibOpReshade",
           "package": "Imlib",
@@ -815,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibOpSubtract",
           "package": "Imlib",
@@ -824,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibOpSubtract",
           "package": "Imlib",
@@ -837,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibTTFEncodingISO88591",
           "package": "Imlib",
@@ -846,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibTTFEncodingISO88591",
           "package": "Imlib",
@@ -859,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibTTFEncodingISO88592",
           "package": "Imlib",
@@ -868,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibTTFEncodingISO88592",
           "package": "Imlib",
@@ -881,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibTTFEncodingISO88593",
           "package": "Imlib",
@@ -890,6 +971,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibTTFEncodingISO88593",
           "package": "Imlib",
@@ -903,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibTTFEncodingISO88594",
           "package": "Imlib",
@@ -912,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibTTFEncodingISO88594",
           "package": "Imlib",
@@ -925,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibTTFEncodingISO88595",
           "package": "Imlib",
@@ -934,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibTTFEncodingISO88595",
           "package": "Imlib",
@@ -947,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibTextToAngle",
           "package": "Imlib",
@@ -956,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibTextToAngle",
           "package": "Imlib",
@@ -969,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibTextToDown",
           "package": "Imlib",
@@ -978,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibTextToDown",
           "package": "Imlib",
@@ -991,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibTextToLeft",
           "package": "Imlib",
@@ -1000,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibTextToLeft",
           "package": "Imlib",
@@ -1013,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibTextToRight",
           "package": "Imlib",
@@ -1022,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibTextToRight",
           "package": "Imlib",
@@ -1035,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "ImlibTextToUp",
           "package": "Imlib",
@@ -1044,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "ImlibTextToUp",
           "package": "Imlib",
@@ -1057,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "addColorToColorRange",
           "package": "Imlib",
@@ -1066,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "addColorToColorRange",
           "normalized": "Int-\u003eIO()",
@@ -1081,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "addPathToFontPath",
           "package": "Imlib",
@@ -1090,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "addPathToFontPath",
           "normalized": "String-\u003eIO()",
@@ -1105,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "applyColorModifier",
           "package": "Imlib",
@@ -1114,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "applyColorModifier",
           "normalized": "IO()",
@@ -1129,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "applyColorModifierToRectangle",
           "package": "Imlib",
@@ -1138,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "applyColorModifierToRectangle",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003eIO()",
@@ -1153,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "blendImageOntoImage",
           "package": "Imlib",
@@ -1162,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "blendImageOntoImage",
           "normalized": "ImlibImage-\u003eBool-\u003e(a,a,a,a)-\u003e(a,a,a,a)-\u003eIO()",
@@ -1177,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "blendImageOntoImageAtAngle",
           "package": "Imlib",
@@ -1186,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "blendImageOntoImageAtAngle",
           "normalized": "Ptr ImlibImage-\u003eBool-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eIO()",
@@ -1201,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "blendImageOntoImageSkewed",
           "package": "Imlib",
@@ -1210,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "blendImageOntoImageSkewed",
           "normalized": "Ptr ImlibImage-\u003eBool-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eIO()",
@@ -1225,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "cloneImage",
           "package": "Imlib",
@@ -1234,6 +1345,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "cloneImage",
           "package": "Imlib",
@@ -1247,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "colorFromBits",
           "package": "Imlib",
@@ -1256,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "colorFromBits",
           "normalized": "Word-\u003eImlibColor",
@@ -1271,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "colorToBits",
           "package": "Imlib",
@@ -1280,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "colorToBits",
           "normalized": "ImlibColor-\u003eWord",
@@ -1295,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextGetAngle",
           "package": "Imlib",
@@ -1304,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextGetAngle",
           "package": "Imlib",
@@ -1317,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextGetAntiAlias",
           "package": "Imlib",
@@ -1326,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextGetAntiAlias",
           "package": "Imlib",
@@ -1339,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextGetBlend",
           "package": "Imlib",
@@ -1348,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextGetBlend",
           "package": "Imlib",
@@ -1361,6 +1483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextGetColor",
           "package": "Imlib",
@@ -1370,6 +1493,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextGetColor",
           "normalized": "IO(Int,Int,Int,Int)",
@@ -1385,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextGetColorCmya",
           "package": "Imlib",
@@ -1394,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextGetColorCmya",
           "normalized": "IO(Int,Int,Int,Int)",
@@ -1409,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextGetColorHlsa",
           "package": "Imlib",
@@ -1418,6 +1545,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextGetColorHlsa",
           "normalized": "IO(Int,Int,Int,Int)",
@@ -1433,6 +1561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextGetColorHsva",
           "package": "Imlib",
@@ -1442,6 +1571,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextGetColorHsva",
           "normalized": "IO(Int,Int,Int,Int)",
@@ -1457,6 +1587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextGetColorModifier",
           "package": "Imlib",
@@ -1466,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextGetColorModifier",
           "package": "Imlib",
@@ -1479,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextGetColorRange",
           "package": "Imlib",
@@ -1488,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextGetColorRange",
           "package": "Imlib",
@@ -1501,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextGetDirection",
           "package": "Imlib",
@@ -1510,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextGetDirection",
           "package": "Imlib",
@@ -1523,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextGetDither",
           "package": "Imlib",
@@ -1532,6 +1669,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextGetDither",
           "package": "Imlib",
@@ -1545,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextGetDitherMask",
           "package": "Imlib",
@@ -1554,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextGetDitherMask",
           "package": "Imlib",
@@ -1567,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextGetFilter",
           "package": "Imlib",
@@ -1576,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextGetFilter",
           "package": "Imlib",
@@ -1589,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextGetFont",
           "package": "Imlib",
@@ -1598,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextGetFont",
           "package": "Imlib",
@@ -1611,6 +1755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextGetImage",
           "package": "Imlib",
@@ -1620,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextGetImage",
           "package": "Imlib",
@@ -1633,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextGetImlibColor",
           "package": "Imlib",
@@ -1642,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextGetImlibColor",
           "package": "Imlib",
@@ -1655,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextGetOperation",
           "package": "Imlib",
@@ -1664,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextGetOperation",
           "package": "Imlib",
@@ -1677,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextGetProgressFunction",
           "package": "Imlib",
@@ -1686,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextGetProgressFunction",
           "package": "Imlib",
@@ -1699,6 +1851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextGetProgressGranularity",
           "package": "Imlib",
@@ -1708,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextGetProgressGranularity",
           "package": "Imlib",
@@ -1721,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextSetAngle",
           "package": "Imlib",
@@ -1730,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextSetAngle",
           "normalized": "Double-\u003eIO()",
@@ -1745,6 +1901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextSetAntiAlias",
           "package": "Imlib",
@@ -1754,6 +1911,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextSetAntiAlias",
           "normalized": "Bool-\u003eIO()",
@@ -1769,6 +1927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextSetBlend",
           "package": "Imlib",
@@ -1778,6 +1937,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextSetBlend",
           "normalized": "Bool-\u003eIO()",
@@ -1793,6 +1953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextSetCliprect",
           "package": "Imlib",
@@ -1802,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextSetCliprect",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003eIO()",
@@ -1817,6 +1979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextSetColor",
           "package": "Imlib",
@@ -1826,6 +1989,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextSetColor",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003eIO()",
@@ -1841,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextSetColorCmya",
           "package": "Imlib",
@@ -1850,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextSetColorCmya",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003eIO()",
@@ -1865,6 +2031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextSetColorHlsa",
           "package": "Imlib",
@@ -1874,6 +2041,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextSetColorHlsa",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003eIO()",
@@ -1889,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextSetColorHsva",
           "package": "Imlib",
@@ -1898,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextSetColorHsva",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003eIO()",
@@ -1913,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextSetColorModifier",
           "package": "Imlib",
@@ -1922,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextSetColorModifier",
           "normalized": "ImlibColorModifier-\u003eIO()",
@@ -1937,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextSetColorRange",
           "package": "Imlib",
@@ -1946,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextSetColorRange",
           "normalized": "ImlibColorRange-\u003eIO()",
@@ -1961,6 +2135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextSetDirection",
           "package": "Imlib",
@@ -1970,6 +2145,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextSetDirection",
           "normalized": "ImlibTextDirection-\u003eIO()",
@@ -1985,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextSetDither",
           "package": "Imlib",
@@ -1994,6 +2171,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextSetDither",
           "normalized": "Bool-\u003eIO()",
@@ -2009,6 +2187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextSetDitherMask",
           "package": "Imlib",
@@ -2018,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextSetDitherMask",
           "normalized": "Bool-\u003eIO()",
@@ -2033,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextSetFilter",
           "package": "Imlib",
@@ -2042,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextSetFilter",
           "normalized": "ImlibFilter-\u003eIO()",
@@ -2057,6 +2239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextSetFont",
           "package": "Imlib",
@@ -2066,6 +2249,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextSetFont",
           "normalized": "ImlibFont-\u003eIO()",
@@ -2081,6 +2265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextSetImage",
           "package": "Imlib",
@@ -2090,6 +2275,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextSetImage",
           "normalized": "ImlibImage-\u003eIO()",
@@ -2105,6 +2291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextSetOperation",
           "package": "Imlib",
@@ -2114,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextSetOperation",
           "normalized": "ImlibOperation-\u003eIO()",
@@ -2129,6 +2317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextSetProgressFunction",
           "package": "Imlib",
@@ -2138,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextSetProgressFunction",
           "normalized": "ImlibProgressFunction-\u003eIO()",
@@ -2153,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "contextSetProgressGranularity",
           "package": "Imlib",
@@ -2162,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "contextSetProgressGranularity",
           "normalized": "Word-\u003eIO()",
@@ -2177,6 +2369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "createColorModifier",
           "package": "Imlib",
@@ -2186,6 +2379,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "createColorModifier",
           "package": "Imlib",
@@ -2199,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "createColorRange",
           "package": "Imlib",
@@ -2208,6 +2403,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "createColorRange",
           "package": "Imlib",
@@ -2221,6 +2417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "createCroppedImage",
           "package": "Imlib",
@@ -2230,6 +2427,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "createCroppedImage",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003eIO ImlibImage",
@@ -2245,6 +2443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "createCroppedScaledImage",
           "package": "Imlib",
@@ -2254,6 +2453,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "createCroppedScaledImage",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eIO ImlibImage",
@@ -2269,6 +2469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "createFilter",
           "package": "Imlib",
@@ -2278,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "createFilter",
           "normalized": "Int-\u003eIO ImlibFilter",
@@ -2293,6 +2495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "createImage",
           "package": "Imlib",
@@ -2302,6 +2505,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "createImage",
           "normalized": "Int-\u003eInt-\u003eIO ImlibImage",
@@ -2317,6 +2521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "createImageUsingArray",
           "package": "Imlib",
@@ -2326,6 +2531,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "createImageUsingArray",
           "normalized": "Array(Int,Int)ImlibColor-\u003eIO ImlibImage",
@@ -2341,6 +2547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "createImageUsingCopiedData",
           "package": "Imlib",
@@ -2350,6 +2557,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "createImageUsingCopiedData",
           "normalized": "a-\u003ea-\u003ePtr Word-\u003eIO ImlibImage",
@@ -2365,6 +2573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "createImageUsingData",
           "package": "Imlib",
@@ -2374,6 +2583,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "createImageUsingData",
           "normalized": "Int-\u003eInt-\u003ePtr Word-\u003eIO ImlibImage",
@@ -2389,6 +2599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "createRotatedImage",
           "package": "Imlib",
@@ -2398,6 +2609,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "createRotatedImage",
           "normalized": "Double-\u003eIO ImlibImage",
@@ -2413,6 +2625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "filterConstants",
           "package": "Imlib",
@@ -2422,6 +2635,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "filterConstants",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003eIO()",
@@ -2437,6 +2651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "filterDivisors",
           "package": "Imlib",
@@ -2446,6 +2661,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "filterDivisors",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003eIO()",
@@ -2461,6 +2677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "filterSet",
           "package": "Imlib",
@@ -2470,6 +2687,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "filterSet",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eIO()",
@@ -2485,6 +2703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "filterSetAlpha",
           "package": "Imlib",
@@ -2494,6 +2713,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "filterSetAlpha",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eIO()",
@@ -2509,6 +2729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "filterSetBlue",
           "package": "Imlib",
@@ -2518,6 +2739,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "filterSetBlue",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eIO()",
@@ -2533,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "filterSetGreen",
           "package": "Imlib",
@@ -2542,6 +2765,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "filterSetGreen",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eIO()",
@@ -2557,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "filterSetRed",
           "package": "Imlib",
@@ -2566,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "filterSetRed",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eIO()",
@@ -2581,6 +2807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "flushFontCache",
           "package": "Imlib",
@@ -2590,6 +2817,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "flushFontCache",
           "normalized": "IO()",
@@ -2605,6 +2833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "flushLoaders",
           "package": "Imlib",
@@ -2614,6 +2843,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "flushLoaders",
           "normalized": "IO()",
@@ -2629,6 +2859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "freeColorModifier",
           "package": "Imlib",
@@ -2638,6 +2869,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "freeColorModifier",
           "normalized": "IO()",
@@ -2653,6 +2885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "freeColorRange",
           "package": "Imlib",
@@ -2662,6 +2895,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "freeColorRange",
           "normalized": "IO()",
@@ -2677,6 +2911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "freeFilter",
           "package": "Imlib",
@@ -2686,6 +2921,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "freeFilter",
           "normalized": "IO()",
@@ -2701,6 +2937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "freeFont",
           "package": "Imlib",
@@ -2710,6 +2947,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "freeFont",
           "normalized": "a b c-\u003eIO()",
@@ -2725,6 +2963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "freeImage",
           "package": "Imlib",
@@ -2734,6 +2973,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "freeImage",
           "normalized": "IO()",
@@ -2749,6 +2989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "freeImageAndDecache",
           "package": "Imlib",
@@ -2758,6 +2999,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "freeImageAndDecache",
           "normalized": "IO()",
@@ -2773,6 +3015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "getCacheSize",
           "package": "Imlib",
@@ -2782,6 +3025,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "getCacheSize",
           "package": "Imlib",
@@ -2795,6 +3039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "getColorModifierTables",
           "package": "Imlib",
@@ -2804,6 +3049,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "getColorModifierTables",
           "normalized": "IO([Word],[Word],[Word],[Word])",
@@ -2819,6 +3065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "getColorUsage",
           "package": "Imlib",
@@ -2828,6 +3075,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "getColorUsage",
           "package": "Imlib",
@@ -2841,6 +3089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "getFontAscent",
           "package": "Imlib",
@@ -2850,6 +3099,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "getFontAscent",
           "package": "Imlib",
@@ -2863,6 +3113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "getFontCacheSize",
           "package": "Imlib",
@@ -2872,6 +3123,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "getFontCacheSize",
           "package": "Imlib",
@@ -2885,6 +3137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "getFontDescent",
           "package": "Imlib",
@@ -2894,6 +3147,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "getFontDescent",
           "package": "Imlib",
@@ -2907,6 +3161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "getMaximumFontAscent",
           "package": "Imlib",
@@ -2916,6 +3171,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "getMaximumFontAscent",
           "package": "Imlib",
@@ -2929,6 +3185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "getMaximumFontDescent",
           "package": "Imlib",
@@ -2938,6 +3195,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "getMaximumFontDescent",
           "package": "Imlib",
@@ -2951,6 +3209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "getTextAdvance",
           "package": "Imlib",
@@ -2960,6 +3219,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "getTextAdvance",
           "normalized": "String-\u003eIO(Int,Int)",
@@ -2975,6 +3235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "getTextInset",
           "package": "Imlib",
@@ -2984,6 +3245,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "getTextInset",
           "normalized": "String-\u003eIO Int",
@@ -2999,6 +3261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "getTextSize",
           "package": "Imlib",
@@ -3008,6 +3271,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "getTextSize",
           "normalized": "String-\u003eIO(Int,Int)",
@@ -3023,6 +3287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageAttachDataValue",
           "package": "Imlib",
@@ -3032,6 +3297,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageAttachDataValue",
           "normalized": "String-\u003ePtr()-\u003eInt-\u003eImlibDataDestructorFunction-\u003eIO()",
@@ -3047,6 +3313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageBlur",
           "package": "Imlib",
@@ -3056,6 +3323,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageBlur",
           "normalized": "Int-\u003eIO()",
@@ -3071,6 +3339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageCopyAlphaRectangleToImage",
           "package": "Imlib",
@@ -3080,6 +3349,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageCopyAlphaRectangleToImage",
           "normalized": "ImlibImage-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eIO()",
@@ -3095,6 +3365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageCopyAlphaToImage",
           "package": "Imlib",
@@ -3104,6 +3375,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageCopyAlphaToImage",
           "normalized": "ImlibImage-\u003eInt-\u003eInt-\u003eIO()",
@@ -3119,6 +3391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageCopyRect",
           "package": "Imlib",
@@ -3128,6 +3401,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageCopyRect",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eIO()",
@@ -3143,6 +3417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageDrawEllipse",
           "package": "Imlib",
@@ -3152,6 +3427,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageDrawEllipse",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003eIO()",
@@ -3167,6 +3443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageDrawLine",
           "package": "Imlib",
@@ -3176,6 +3453,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageDrawLine",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003eBool-\u003eIO ImlibUpdates",
@@ -3191,6 +3469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageDrawPolygon",
           "package": "Imlib",
@@ -3200,6 +3479,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageDrawPolygon",
           "normalized": "ImlibPolygon-\u003eBool-\u003eIO()",
@@ -3215,6 +3495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageDrawRectangle",
           "package": "Imlib",
@@ -3224,6 +3505,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageDrawRectangle",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003eIO()",
@@ -3239,6 +3521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageFillColorRangeRectangle",
           "package": "Imlib",
@@ -3248,6 +3531,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageFillColorRangeRectangle",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003eIO()",
@@ -3263,6 +3547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageFillEllipse",
           "package": "Imlib",
@@ -3272,6 +3557,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageFillEllipse",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003eIO()",
@@ -3287,6 +3573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageFillHsvaColorRangeRectangle",
           "package": "Imlib",
@@ -3296,6 +3583,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageFillHsvaColorRangeRectangle",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003eIO()",
@@ -3311,6 +3599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageFillPolygon",
           "package": "Imlib",
@@ -3320,6 +3609,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageFillPolygon",
           "normalized": "ImlibPolygon-\u003eIO()",
@@ -3335,6 +3625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageFillRectangle",
           "package": "Imlib",
@@ -3344,6 +3635,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageFillRectangle",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003eIO()",
@@ -3359,6 +3651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageFilter",
           "package": "Imlib",
@@ -3368,6 +3661,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageFilter",
           "normalized": "IO()",
@@ -3383,6 +3677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageFlipDiagonal",
           "package": "Imlib",
@@ -3392,6 +3687,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageFlipDiagonal",
           "normalized": "IO()",
@@ -3407,6 +3703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageFlipHorizontal",
           "package": "Imlib",
@@ -3416,6 +3713,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageFlipHorizontal",
           "normalized": "IO()",
@@ -3431,6 +3729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageFlipVertical",
           "package": "Imlib",
@@ -3440,6 +3739,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageFlipVertical",
           "normalized": "IO()",
@@ -3455,6 +3755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageFormat",
           "package": "Imlib",
@@ -3464,6 +3765,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageFormat",
           "package": "Imlib",
@@ -3477,6 +3779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageGetAttachedData",
           "package": "Imlib",
@@ -3486,6 +3789,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageGetAttachedData",
           "normalized": "String-\u003eIO(Ptr())",
@@ -3501,6 +3805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageGetAttachedValue",
           "package": "Imlib",
@@ -3510,6 +3815,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageGetAttachedValue",
           "normalized": "String-\u003eIO Int",
@@ -3525,6 +3831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageGetBorder",
           "package": "Imlib",
@@ -3534,6 +3841,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageGetBorder",
           "package": "Imlib",
@@ -3547,6 +3855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageGetData",
           "package": "Imlib",
@@ -3556,6 +3865,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageGetData",
           "package": "Imlib",
@@ -3569,6 +3879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageGetDataForReadingOnly",
           "package": "Imlib",
@@ -3578,6 +3889,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageGetDataForReadingOnly",
           "package": "Imlib",
@@ -3591,6 +3903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageGetFilename",
           "package": "Imlib",
@@ -3600,6 +3913,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageGetFilename",
           "package": "Imlib",
@@ -3613,6 +3927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageGetHeight",
           "package": "Imlib",
@@ -3622,6 +3937,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageGetHeight",
           "package": "Imlib",
@@ -3635,6 +3951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageGetWidth",
           "package": "Imlib",
@@ -3644,6 +3961,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageGetWidth",
           "package": "Imlib",
@@ -3657,6 +3975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageHasAlpha",
           "package": "Imlib",
@@ -3666,6 +3985,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageHasAlpha",
           "package": "Imlib",
@@ -3679,6 +3999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageOrientate",
           "package": "Imlib",
@@ -3688,6 +4009,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageOrientate",
           "normalized": "Int-\u003eIO()",
@@ -3703,6 +4025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imagePutBackData",
           "package": "Imlib",
@@ -3712,6 +4035,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imagePutBackData",
           "normalized": "Ptr Word-\u003eIO()",
@@ -3727,6 +4051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageQueryPixel",
           "package": "Imlib",
@@ -3736,6 +4061,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageQueryPixel",
           "normalized": "Int-\u003eInt-\u003eIO ImlibColor",
@@ -3751,6 +4077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageQueryPixelCmya",
           "package": "Imlib",
@@ -3760,6 +4087,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageQueryPixelCmya",
           "normalized": "Int-\u003eInt-\u003eIO(Int,Int,Int,Int)",
@@ -3775,6 +4103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageQueryPixelHlsa",
           "package": "Imlib",
@@ -3784,6 +4113,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageQueryPixelHlsa",
           "normalized": "Int-\u003eInt-\u003eIO(Int,Int,Int,Int)",
@@ -3799,6 +4129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageQueryPixelHsva",
           "package": "Imlib",
@@ -3808,6 +4139,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageQueryPixelHsva",
           "normalized": "Int-\u003eInt-\u003eIO(Int,Int,Int,Int)",
@@ -3823,6 +4155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageRemoveAndFreeAttachedDataValue",
           "package": "Imlib",
@@ -3832,6 +4165,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageRemoveAndFreeAttachedDataValue",
           "normalized": "String-\u003eIO()",
@@ -3847,6 +4181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageRemoveAttachedDataValue",
           "package": "Imlib",
@@ -3856,6 +4191,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageRemoveAttachedDataValue",
           "normalized": "String-\u003eIO()",
@@ -3871,6 +4207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageScrollRect",
           "package": "Imlib",
@@ -3880,6 +4217,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageScrollRect",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eIO()",
@@ -3895,6 +4233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageSetBorder",
           "package": "Imlib",
@@ -3904,6 +4243,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageSetBorder",
           "normalized": "ImlibBorder-\u003eIO()",
@@ -3919,6 +4259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageSetChangesOnDisk",
           "package": "Imlib",
@@ -3928,6 +4269,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageSetChangesOnDisk",
           "normalized": "IO()",
@@ -3943,6 +4285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageSetFormat",
           "package": "Imlib",
@@ -3952,6 +4295,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageSetFormat",
           "normalized": "String-\u003eIO()",
@@ -3967,6 +4311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageSetHasAlpha",
           "package": "Imlib",
@@ -3976,6 +4321,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageSetHasAlpha",
           "normalized": "Bool-\u003eIO()",
@@ -3991,6 +4337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageSetIrrelevantAlpha",
           "package": "Imlib",
@@ -4000,6 +4347,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageSetIrrelevantAlpha",
           "normalized": "Bool-\u003eIO()",
@@ -4015,6 +4363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageSetIrrelevantBorder",
           "package": "Imlib",
@@ -4024,6 +4373,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageSetIrrelevantBorder",
           "normalized": "Bool-\u003eIO()",
@@ -4039,6 +4389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageSetIrrelevantFormat",
           "package": "Imlib",
@@ -4048,6 +4399,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageSetIrrelevantFormat",
           "normalized": "Bool-\u003eIO()",
@@ -4063,6 +4415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageSharpen",
           "package": "Imlib",
@@ -4072,6 +4425,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageSharpen",
           "normalized": "Int-\u003eIO()",
@@ -4087,6 +4441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageTile",
           "package": "Imlib",
@@ -4096,6 +4451,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageTile",
           "normalized": "IO()",
@@ -4111,6 +4467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageTileHorizontal",
           "package": "Imlib",
@@ -4120,6 +4477,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageTileHorizontal",
           "normalized": "IO()",
@@ -4135,6 +4493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageTileVertical",
           "package": "Imlib",
@@ -4144,6 +4503,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageTileVertical",
           "normalized": "IO()",
@@ -4159,6 +4519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "imageWithData",
           "package": "Imlib",
@@ -4168,6 +4529,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "imageWithData",
           "normalized": "(Ptr Word-\u003eIO a)-\u003eIO a",
@@ -4183,6 +4545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "listFontPath",
           "package": "Imlib",
@@ -4192,6 +4555,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "listFontPath",
           "normalized": "IO[String]",
@@ -4207,6 +4571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "listFonts",
           "package": "Imlib",
@@ -4216,6 +4581,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "listFonts",
           "normalized": "IO[String]",
@@ -4231,6 +4597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "loadFont",
           "package": "Imlib",
@@ -4240,6 +4607,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "loadFont",
           "normalized": "String-\u003eIO ImlibFont",
@@ -4255,6 +4623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "loadImage",
           "package": "Imlib",
@@ -4264,6 +4633,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "loadImage",
           "normalized": "String-\u003eIO ImlibImage",
@@ -4279,6 +4649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "loadImageImmediately",
           "package": "Imlib",
@@ -4288,6 +4659,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "loadImageImmediately",
           "normalized": "String-\u003eIO ImlibImage",
@@ -4303,6 +4675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "loadImageImmediatelyWithoutCache",
           "package": "Imlib",
@@ -4312,6 +4685,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "loadImageImmediatelyWithoutCache",
           "normalized": "String-\u003eIO ImlibImage",
@@ -4327,6 +4701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "loadImageWithErrorReturn",
           "package": "Imlib",
@@ -4336,6 +4711,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "loadImageWithErrorReturn",
           "normalized": "String-\u003eIO(ImlibImage,ImlibLoadError)",
@@ -4351,6 +4727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "loadImageWithoutCache",
           "package": "Imlib",
@@ -4360,6 +4737,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "loadImageWithoutCache",
           "normalized": "String-\u003eIO ImlibImage",
@@ -4375,6 +4753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "modifyColorModifierBrightness",
           "package": "Imlib",
@@ -4384,6 +4763,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "modifyColorModifierBrightness",
           "normalized": "Double-\u003eIO()",
@@ -4399,6 +4779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "modifyColorModifierContrast",
           "package": "Imlib",
@@ -4408,6 +4789,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "modifyColorModifierContrast",
           "normalized": "Double-\u003eIO()",
@@ -4423,6 +4805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "modifyColorModifierGamma",
           "package": "Imlib",
@@ -4432,6 +4815,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "modifyColorModifierGamma",
           "normalized": "Double-\u003eIO()",
@@ -4447,6 +4831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "polygonAddPoint",
           "package": "Imlib",
@@ -4456,6 +4841,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "polygonAddPoint",
           "normalized": "ImlibPolygon-\u003ea-\u003ea-\u003eIO()",
@@ -4471,6 +4857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "polygonContainsPoint",
           "package": "Imlib",
@@ -4480,6 +4867,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "polygonContainsPoint",
           "normalized": "ImlibPolygon-\u003ea-\u003ea-\u003eIO Bool",
@@ -4495,6 +4883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "polygonFree",
           "package": "Imlib",
@@ -4504,6 +4893,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "polygonFree",
           "normalized": "ImlibPolygon-\u003eIO()",
@@ -4519,6 +4909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "polygonGetBounds",
           "package": "Imlib",
@@ -4528,6 +4919,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "polygonGetBounds",
           "normalized": "ImlibPolygon-\u003eIO(a,a,a,a)",
@@ -4543,6 +4935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "polygonNew",
           "package": "Imlib",
@@ -4552,6 +4945,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "polygonNew",
           "normalized": "IO()",
@@ -4567,6 +4961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "removePathFromFontPath",
           "package": "Imlib",
@@ -4576,6 +4971,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "removePathFromFontPath",
           "normalized": "String-\u003eIO()",
@@ -4591,6 +4987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "resetColorModifier",
           "package": "Imlib",
@@ -4600,6 +4997,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "resetColorModifier",
           "normalized": "IO()",
@@ -4615,6 +5013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "saveImage",
           "package": "Imlib",
@@ -4624,6 +5023,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "saveImage",
           "normalized": "String-\u003eIO()",
@@ -4639,6 +5039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "saveImageWithErrorReturn",
           "package": "Imlib",
@@ -4648,6 +5049,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "saveImageWithErrorReturn",
           "normalized": "String-\u003eIO ImlibLoadError",
@@ -4663,6 +5065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "setCacheSize",
           "package": "Imlib",
@@ -4672,6 +5075,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "setCacheSize",
           "normalized": "Int-\u003eIO()",
@@ -4687,6 +5091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "setColorModifierTables",
           "package": "Imlib",
@@ -4696,6 +5101,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "setColorModifierTables",
           "normalized": "[Word]-\u003e[Word]-\u003e[Word]-\u003e[Word]-\u003eIO()",
@@ -4711,6 +5117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "setColorUsage",
           "package": "Imlib",
@@ -4720,6 +5127,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "setColorUsage",
           "normalized": "Int-\u003eIO()",
@@ -4735,6 +5143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "setFontCacheSize",
           "package": "Imlib",
@@ -4744,6 +5153,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "setFontCacheSize",
           "normalized": "Int-\u003eIO()",
@@ -4759,6 +5169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "textDraw",
           "package": "Imlib",
@@ -4768,6 +5179,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "textDraw",
           "normalized": "Int-\u003eInt-\u003eString-\u003eIO()",
@@ -4783,6 +5195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "textDrawWithReturnMetrics",
           "package": "Imlib",
@@ -4792,6 +5205,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "textDrawWithReturnMetrics",
           "normalized": "a-\u003ea-\u003eString-\u003eIO(b,b,b,b)",
@@ -4807,6 +5221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "textGetIndexAndLocation",
           "package": "Imlib",
@@ -4816,6 +5231,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "textGetIndexAndLocation",
           "normalized": "String-\u003eCInt-\u003eCInt-\u003eIO(a,a,a,a,a)",
@@ -4831,6 +5247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "textGetLocationAtIndex",
           "package": "Imlib",
@@ -4840,6 +5257,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "textGetLocationAtIndex",
           "normalized": "String-\u003eCInt-\u003eIO(a,a,a,a)",
@@ -4855,6 +5273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "updateAppendRect",
           "package": "Imlib",
@@ -4864,6 +5283,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "updateAppendRect",
           "normalized": "ImlibUpdates-\u003ea-\u003ea-\u003ea-\u003ea-\u003eIO ImlibUpdates",
@@ -4879,6 +5299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "updatesAppendUpdates",
           "package": "Imlib",
@@ -4888,6 +5309,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "updatesAppendUpdates",
           "normalized": "ImlibUpdates-\u003eImlibUpdates-\u003eIO ImlibUpdates",
@@ -4903,6 +5325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "updatesClone",
           "package": "Imlib",
@@ -4912,6 +5335,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "updatesClone",
           "normalized": "ImlibUpdates-\u003eIO ImlibUpdates",
@@ -4927,6 +5351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "updatesFree",
           "package": "Imlib",
@@ -4936,6 +5361,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "updatesFree",
           "normalized": "ImlibUpdates-\u003eIO()",
@@ -4951,6 +5377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "updatesGetCoordinates",
           "package": "Imlib",
@@ -4960,6 +5387,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "updatesGetCoordinates",
           "normalized": "ImlibUpdates-\u003eIO(Int,Int,Int,Int)",
@@ -4975,6 +5403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "updatesGetNext",
           "package": "Imlib",
@@ -4984,6 +5413,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "updatesGetNext",
           "normalized": "ImlibUpdates-\u003eIO ImlibUpdates",
@@ -4999,6 +5429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "updatesInit",
           "package": "Imlib",
@@ -5008,6 +5439,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "updatesInit",
           "package": "Imlib",
@@ -5021,6 +5453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "updatesMerge",
           "package": "Imlib",
@@ -5030,6 +5463,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "updatesMerge",
           "normalized": "ImlibUpdates-\u003ea-\u003ea-\u003eIO ImlibUpdates",
@@ -5045,6 +5479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "updatesMergeForRendering",
           "package": "Imlib",
@@ -5054,6 +5489,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "updatesMergeForRendering",
           "normalized": "ImlibUpdates-\u003ea-\u003ea-\u003eIO ImlibUpdates",
@@ -5069,6 +5505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "updatesSetCoordinates",
           "package": "Imlib",
@@ -5078,6 +5515,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "updatesSetCoordinates",
           "normalized": "ImlibUpdates-\u003ea-\u003ea-\u003ea-\u003ea-\u003eIO()",
@@ -5093,6 +5531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "withImage",
           "package": "Imlib",
@@ -5102,6 +5541,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "withImage",
           "normalized": "(Int-\u003eInt-\u003e[ImlibColor]-\u003e[ImlibColor])-\u003eIO()",
@@ -5117,6 +5557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:48 UTC 2014",
           "module": "Graphics.Imlib",
           "name": "withImageBits",
           "package": "Imlib",
@@ -5126,6 +5567,7 @@
         },
         "index": {
           "hierarchy": "Graphics Imlib",
+          "indexed": "2014-03-11T16:49:48",
           "module": "Graphics.Imlib",
           "name": "withImageBits",
           "normalized": "(Int-\u003eInt-\u003e[Word]-\u003e[Word])-\u003eIO()",

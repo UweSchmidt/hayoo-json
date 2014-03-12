@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-librrd"
+        "phrase": "bindings-librrd",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttp://oss.oetiker.ch/rrdtool/doc/librrd.en.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://oss.oetiker.ch/rrdtool/doc/rrdcached.en.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "Client",
           "package": "bindings-librrd",
@@ -28,6 +29,7 @@
         "index": {
           "description": "http oss.oetiker.ch rrdtool doc librrd.en.html http oss.oetiker.ch rrdtool doc rrdcached.en.html",
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "Client",
           "package": "bindings-librrd",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "C'rrdc_stats_s",
           "package": "bindings-librrd",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "C'rrdc_stats_s",
           "package": "bindings-librrd",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "C'rrdc_stats_t",
           "package": "bindings-librrd",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "C'rrdc_stats_t",
           "package": "bindings-librrd",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "C'rrdc_stats_s",
           "package": "bindings-librrd",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "C'rrdc_stats_s",
           "package": "bindings-librrd",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "c'ENV_RRDCACHED_ADDRESS",
           "package": "bindings-librrd",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "c'ENV_RRDCACHED_ADDRESS",
           "package": "bindings-librrd",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "c'RRDCACHED_DEFAULT_ADDRESS",
           "package": "bindings-librrd",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "c'RRDCACHED_DEFAULT_ADDRESS",
           "package": "bindings-librrd",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "c'RRDCACHED_DEFAULT_PORT",
           "package": "bindings-librrd",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "c'RRDCACHED_DEFAULT_PORT",
           "package": "bindings-librrd",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "c'RRDC_STATS_TYPE_COUNTER",
           "package": "bindings-librrd",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "c'RRDC_STATS_TYPE_COUNTER",
           "package": "bindings-librrd",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "c'RRDC_STATS_TYPE_GAUGE",
           "package": "bindings-librrd",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "c'RRDC_STATS_TYPE_GAUGE",
           "package": "bindings-librrd",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_connect",
           "package": "bindings-librrd",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_connect",
           "normalized": "CString-\u003eIO CInt",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_disconnect",
           "package": "bindings-librrd",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_disconnect",
           "package": "bindings-librrd",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_flush",
           "package": "bindings-librrd",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_flush",
           "normalized": "CString-\u003eIO CInt",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_is_connected",
           "package": "bindings-librrd",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_is_connected",
           "normalized": "CString-\u003eIO CInt",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_stats_free",
           "package": "bindings-librrd",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_stats_free",
           "normalized": "Ptr C'rrdc_stats_t-\u003eIO()",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_stats_get",
           "package": "bindings-librrd",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_stats_get",
           "normalized": "Ptr(Ptr C'rrdc_stats_t)-\u003eIO CInt",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_stats_s'name",
           "package": "bindings-librrd",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_stats_s'name",
           "package": "bindings-librrd",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_stats_s'next",
           "package": "bindings-librrd",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_stats_s'next",
           "package": "bindings-librrd",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_stats_s'type",
           "package": "bindings-librrd",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_stats_s'type",
           "package": "bindings-librrd",
@@ -414,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_stats_s'value'counter",
           "package": "bindings-librrd",
@@ -423,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_stats_s'value'counter",
           "package": "bindings-librrd",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_stats_s'value'gauge",
           "package": "bindings-librrd",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_stats_s'value'gauge",
           "package": "bindings-librrd",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_update",
           "package": "bindings-librrd",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "c'rrdc_update",
           "normalized": "CString-\u003eCInt-\u003ePtr CString-\u003eIO CInt",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_connect",
           "package": "bindings-librrd",
@@ -488,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_connect",
           "normalized": "FunPtr(CString-\u003eIO CInt)",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_disconnect",
           "package": "bindings-librrd",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_disconnect",
           "package": "bindings-librrd",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_flush",
           "package": "bindings-librrd",
@@ -532,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_flush",
           "normalized": "FunPtr(CString-\u003eIO CInt)",
@@ -546,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_is_connected",
           "package": "bindings-librrd",
@@ -555,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_is_connected",
           "normalized": "FunPtr(CString-\u003eIO CInt)",
@@ -569,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_stats_free",
           "package": "bindings-librrd",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_stats_free",
           "normalized": "FunPtr(Ptr C'rrdc_stats_t-\u003eIO())",
@@ -592,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_stats_get",
           "package": "bindings-librrd",
@@ -601,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_stats_get",
           "normalized": "FunPtr(Ptr(Ptr C'rrdc_stats_t)-\u003eIO CInt)",
@@ -615,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_stats_s'name",
           "package": "bindings-librrd",
@@ -624,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_stats_s'name",
           "normalized": "Ptr C'rrdc_stats_s-\u003ePtr CString",
@@ -638,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_stats_s'next",
           "package": "bindings-librrd",
@@ -647,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_stats_s'next",
           "normalized": "Ptr C'rrdc_stats_s-\u003ePtr(Ptr C'rrdc_stats_s)",
@@ -661,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_stats_s'type",
           "package": "bindings-librrd",
@@ -670,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_stats_s'type",
           "normalized": "Ptr C'rrdc_stats_s-\u003ePtr Word",
@@ -684,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_stats_s'value'counter",
           "package": "bindings-librrd",
@@ -693,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_stats_s'value'counter",
           "normalized": "Ptr C'rrdc_stats_s-\u003ePtr Word",
@@ -707,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_stats_s'value'gauge",
           "package": "bindings-librrd",
@@ -716,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_stats_s'value'gauge",
           "normalized": "Ptr C'rrdc_stats_s-\u003ePtr CDouble",
@@ -730,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_update",
           "package": "bindings-librrd",
@@ -739,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "p'rrdc_update",
           "normalized": "FunPtr(CString-\u003eCInt-\u003ePtr CString-\u003eIO CInt)",
@@ -753,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "u'rrdc_stats_s'value'counter",
           "package": "bindings-librrd",
@@ -762,6 +829,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "u'rrdc_stats_s'value'counter",
           "normalized": "C'rrdc_stats_s-\u003eWord-\u003eIO C'rrdc_stats_s",
@@ -776,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd.Client",
           "name": "u'rrdc_stats_s'value'gauge",
           "package": "bindings-librrd",
@@ -785,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd Client",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd.Client",
           "name": "u'rrdc_stats_s'value'gauge",
           "normalized": "C'rrdc_stats_s-\u003eCDouble-\u003eIO C'rrdc_stats_s",
@@ -800,6 +870,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003ehttp://oss.oetiker.ch/rrdtool/doc/librrd.en.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "Librrd",
           "package": "bindings-librrd",
@@ -809,6 +880,7 @@
         "index": {
           "description": "http oss.oetiker.ch rrdtool doc librrd.en.html",
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "Librrd",
           "package": "bindings-librrd",
@@ -822,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "C'rrd_blob_t",
           "package": "bindings-librrd",
@@ -830,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "C'rrd_blob_t",
           "package": "bindings-librrd",
@@ -843,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "C'rrd_context",
           "package": "bindings-librrd",
@@ -851,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "C'rrd_context",
           "package": "bindings-librrd",
@@ -864,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "C'rrd_context_t",
           "package": "bindings-librrd",
@@ -872,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "C'rrd_context_t",
           "package": "bindings-librrd",
@@ -885,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "C'rrd_file_t",
           "package": "bindings-librrd",
@@ -893,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "C'rrd_file_t",
           "package": "bindings-librrd",
@@ -906,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "C'rrd_info_t",
           "package": "bindings-librrd",
@@ -914,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "C'rrd_info_t",
           "package": "bindings-librrd",
@@ -927,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "C'rrd_info_type_t",
           "package": "bindings-librrd",
@@ -935,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "C'rrd_info_type_t",
           "package": "bindings-librrd",
@@ -948,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "C'rrd_infoval",
           "package": "bindings-librrd",
@@ -956,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "C'rrd_infoval",
           "package": "bindings-librrd",
@@ -969,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "C'rrd_infoval_t",
           "package": "bindings-librrd",
@@ -977,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "C'rrd_infoval_t",
           "package": "bindings-librrd",
@@ -990,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "C'rrd_output_callback_t",
           "package": "bindings-librrd",
@@ -998,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "C'rrd_output_callback_t",
           "package": "bindings-librrd",
@@ -1011,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "C'rrd_simple_file_t",
           "package": "bindings-librrd",
@@ -1019,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "C'rrd_simple_file_t",
           "package": "bindings-librrd",
@@ -1032,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "C'rrd_time_value",
           "package": "bindings-librrd",
@@ -1040,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "C'rrd_time_value",
           "package": "bindings-librrd",
@@ -1053,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "C'rrd_time_value_t",
           "package": "bindings-librrd",
@@ -1061,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "C'rrd_time_value_t",
           "package": "bindings-librrd",
@@ -1074,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "C'rrd_timetype_t",
           "package": "bindings-librrd",
@@ -1082,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "C'rrd_timetype_t",
           "package": "bindings-librrd",
@@ -1095,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "C'rrd_value_t",
           "package": "bindings-librrd",
@@ -1103,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "C'rrd_value_t",
           "package": "bindings-librrd",
@@ -1116,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "C'rrd_blob_t",
           "package": "bindings-librrd",
@@ -1125,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "C'rrd_blob_t",
           "package": "bindings-librrd",
@@ -1138,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "C'rrd_context",
           "package": "bindings-librrd",
@@ -1147,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "C'rrd_context",
           "package": "bindings-librrd",
@@ -1160,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "C'rrd_file_t",
           "package": "bindings-librrd",
@@ -1169,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "C'rrd_file_t",
           "package": "bindings-librrd",
@@ -1182,6 +1288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "C'rrd_info_t",
           "package": "bindings-librrd",
@@ -1191,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "C'rrd_info_t",
           "package": "bindings-librrd",
@@ -1204,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "C'rrd_infoval",
           "package": "bindings-librrd",
@@ -1213,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "C'rrd_infoval",
           "package": "bindings-librrd",
@@ -1226,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "C'rrd_simple_file_t",
           "package": "bindings-librrd",
@@ -1235,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "C'rrd_simple_file_t",
           "package": "bindings-librrd",
@@ -1248,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "C'rrd_time_value",
           "package": "bindings-librrd",
@@ -1257,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "C'rrd_time_value",
           "package": "bindings-librrd",
@@ -1270,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'ABSOLUTE_TIME",
           "package": "bindings-librrd",
@@ -1279,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'ABSOLUTE_TIME",
           "package": "bindings-librrd",
@@ -1292,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'DINF",
           "package": "bindings-librrd",
@@ -1301,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'DINF",
           "package": "bindings-librrd",
@@ -1314,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'DNAN",
           "package": "bindings-librrd",
@@ -1323,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'DNAN",
           "package": "bindings-librrd",
@@ -1336,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'RD_I_BLO",
           "package": "bindings-librrd",
@@ -1345,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'RD_I_BLO",
           "package": "bindings-librrd",
@@ -1358,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'RD_I_CNT",
           "package": "bindings-librrd",
@@ -1367,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'RD_I_CNT",
           "package": "bindings-librrd",
@@ -1380,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'RD_I_INT",
           "package": "bindings-librrd",
@@ -1389,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'RD_I_INT",
           "package": "bindings-librrd",
@@ -1402,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'RD_I_STR",
           "package": "bindings-librrd",
@@ -1411,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'RD_I_STR",
           "package": "bindings-librrd",
@@ -1424,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'RD_I_VAL",
           "package": "bindings-librrd",
@@ -1433,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'RD_I_VAL",
           "package": "bindings-librrd",
@@ -1446,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'RELATIVE_TO_END_TIME",
           "package": "bindings-librrd",
@@ -1455,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'RELATIVE_TO_END_TIME",
           "package": "bindings-librrd",
@@ -1468,6 +1600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'RELATIVE_TO_START_TIME",
           "package": "bindings-librrd",
@@ -1477,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'RELATIVE_TO_START_TIME",
           "package": "bindings-librrd",
@@ -1490,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'TIME_OK",
           "package": "bindings-librrd",
@@ -1499,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'TIME_OK",
           "package": "bindings-librrd",
@@ -1512,6 +1648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_add_ptr",
           "package": "bindings-librrd",
@@ -1521,6 +1658,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_add_ptr",
           "normalized": "Ptr(Ptr(Ptr a))-\u003ePtr CSize-\u003ePtr a-\u003eIO CInt",
@@ -1535,6 +1673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_add_strdup",
           "package": "bindings-librrd",
@@ -1544,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_add_strdup",
           "normalized": "Ptr(Ptr CString)-\u003ePtr CSize-\u003eCString-\u003eIO CInt",
@@ -1558,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_blob_t'ptr",
           "package": "bindings-librrd",
@@ -1567,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_blob_t'ptr",
           "package": "bindings-librrd",
@@ -1579,6 +1721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_blob_t'size",
           "package": "bindings-librrd",
@@ -1588,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_blob_t'size",
           "package": "bindings-librrd",
@@ -1600,6 +1744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_clear_error",
           "package": "bindings-librrd",
@@ -1609,6 +1754,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_clear_error",
           "normalized": "IO()",
@@ -1623,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_context'lib_errstr",
           "package": "bindings-librrd",
@@ -1632,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_context'lib_errstr",
           "normalized": "[CChar]",
@@ -1646,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_context'rrd_error",
           "package": "bindings-librrd",
@@ -1655,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_context'rrd_error",
           "normalized": "[CChar]",
@@ -1669,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_create",
           "package": "bindings-librrd",
@@ -1678,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_create",
           "normalized": "CInt-\u003ePtr CString-\u003eIO CInt",
@@ -1692,6 +1844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_create_r",
           "package": "bindings-librrd",
@@ -1701,6 +1854,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_create_r",
           "normalized": "CString-\u003eCULong-\u003eCTime-\u003eCInt-\u003ePtr CString-\u003eIO CInt",
@@ -1715,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_dump",
           "package": "bindings-librrd",
@@ -1724,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_dump",
           "normalized": "CInt-\u003ePtr CString-\u003eIO CInt",
@@ -1738,6 +1894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_dump_cb_r",
           "package": "bindings-librrd",
@@ -1747,6 +1904,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_dump_cb_r",
           "normalized": "CString-\u003eCInt-\u003eC'rrd_output_callback_t-\u003ePtr a-\u003eIO CInt",
@@ -1761,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_dump_r",
           "package": "bindings-librrd",
@@ -1770,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_dump_r",
           "normalized": "CString-\u003eCString-\u003eIO CInt",
@@ -1784,6 +1944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_fetch",
           "package": "bindings-librrd",
@@ -1793,6 +1954,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_fetch",
           "normalized": "CInt-\u003ePtr CString-\u003ePtr CTime-\u003ePtr CTime-\u003ePtr CULong-\u003ePtr CULong-\u003ePtr(Ptr CString)-\u003ePtr(Ptr C'rrd_value_t)-\u003eIO CInt",
@@ -1807,6 +1969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_fetch_r",
           "package": "bindings-librrd",
@@ -1816,6 +1979,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_fetch_r",
           "normalized": "CString-\u003eCString-\u003ePtr CTime-\u003ePtr CTime-\u003ePtr CULong-\u003ePtr CULong-\u003ePtr(Ptr CString)-\u003ePtr(Ptr C'rrd_value_t)-\u003eIO CInt",
@@ -1830,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_file_t'file_len",
           "package": "bindings-librrd",
@@ -1839,6 +2004,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_file_t'file_len",
           "package": "bindings-librrd",
@@ -1851,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_file_t'header_len",
           "package": "bindings-librrd",
@@ -1860,6 +2027,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_file_t'header_len",
           "package": "bindings-librrd",
@@ -1872,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_file_t'pos",
           "package": "bindings-librrd",
@@ -1881,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_file_t'pos",
           "package": "bindings-librrd",
@@ -1893,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_file_t'pvt",
           "package": "bindings-librrd",
@@ -1902,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_file_t'pvt",
           "normalized": "Ptr()",
@@ -1916,6 +2088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_first",
           "package": "bindings-librrd",
@@ -1925,6 +2098,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_first",
           "normalized": "CInt-\u003ePtr CString-\u003eIO CTime",
@@ -1939,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_first_r",
           "package": "bindings-librrd",
@@ -1948,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_first_r",
           "normalized": "CString-\u003eCInt-\u003eIO CTime",
@@ -1962,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_flushcached",
           "package": "bindings-librrd",
@@ -1971,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_flushcached",
           "normalized": "CInt-\u003ePtr CString-\u003eIO CInt",
@@ -1985,6 +2163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_free_context",
           "package": "bindings-librrd",
@@ -1994,6 +2173,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_free_context",
           "normalized": "Ptr C'rrd_context_t-\u003eIO()",
@@ -2008,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_free_ptrs",
           "package": "bindings-librrd",
@@ -2017,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_free_ptrs",
           "normalized": "Ptr(Ptr(Ptr a))-\u003eCSize-\u003eIO()",
@@ -2031,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_freemem",
           "package": "bindings-librrd",
@@ -2040,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_freemem",
           "normalized": "Ptr a-\u003eIO()",
@@ -2054,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_get_context",
           "package": "bindings-librrd",
@@ -2063,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_get_context",
           "package": "bindings-librrd",
@@ -2075,6 +2261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_get_error",
           "package": "bindings-librrd",
@@ -2084,6 +2271,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_get_error",
           "package": "bindings-librrd",
@@ -2096,6 +2284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_graph",
           "package": "bindings-librrd",
@@ -2105,6 +2294,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_graph",
           "normalized": "CInt-\u003ePtr CString-\u003ePtr(Ptr CString)-\u003ePtr CInt-\u003ePtr CInt-\u003ePtr CFile-\u003ePtr CDouble-\u003ePtr CDouble-\u003eIO CInt",
@@ -2119,6 +2309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_graph_v",
           "package": "bindings-librrd",
@@ -2128,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_graph_v",
           "normalized": "CInt-\u003ePtr CString-\u003eIO(Ptr C'rrd_info_t)",
@@ -2142,6 +2334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_info",
           "package": "bindings-librrd",
@@ -2151,6 +2344,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_info",
           "normalized": "CInt-\u003ePtr CString-\u003eIO(Ptr C'rrd_info_t)",
@@ -2165,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_info_free",
           "package": "bindings-librrd",
@@ -2174,6 +2369,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_info_free",
           "normalized": "Ptr C'rrd_info_t-\u003eIO()",
@@ -2188,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_info_print",
           "package": "bindings-librrd",
@@ -2197,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_info_print",
           "normalized": "Ptr C'rrd_info_t-\u003eIO()",
@@ -2211,6 +2409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_info_push",
           "package": "bindings-librrd",
@@ -2220,6 +2419,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_info_push",
           "normalized": "Ptr C'rrd_info_t-\u003eCString-\u003eC'rrd_info_type_t-\u003ePtr C'rrd_infoval_t-\u003eIO(Ptr C'rrd_info_t)",
@@ -2234,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_info_r",
           "package": "bindings-librrd",
@@ -2243,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_info_r",
           "normalized": "CString-\u003eIO(Ptr C'rrd_info_t)",
@@ -2257,6 +2459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_info_t'key",
           "package": "bindings-librrd",
@@ -2266,6 +2469,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_info_t'key",
           "package": "bindings-librrd",
@@ -2278,6 +2482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_info_t'next",
           "package": "bindings-librrd",
@@ -2287,6 +2492,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_info_t'next",
           "package": "bindings-librrd",
@@ -2299,6 +2505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_info_t'type",
           "package": "bindings-librrd",
@@ -2308,6 +2515,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_info_t'type",
           "package": "bindings-librrd",
@@ -2320,6 +2528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_info_t'value",
           "package": "bindings-librrd",
@@ -2329,6 +2538,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_info_t'value",
           "package": "bindings-librrd",
@@ -2341,6 +2551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_infoval'u_blo",
           "package": "bindings-librrd",
@@ -2350,6 +2561,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_infoval'u_blo",
           "package": "bindings-librrd",
@@ -2362,6 +2574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_infoval'u_cnt",
           "package": "bindings-librrd",
@@ -2371,6 +2584,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_infoval'u_cnt",
           "package": "bindings-librrd",
@@ -2383,6 +2597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_infoval'u_int",
           "package": "bindings-librrd",
@@ -2392,6 +2607,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_infoval'u_int",
           "package": "bindings-librrd",
@@ -2404,6 +2620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_infoval'u_str",
           "package": "bindings-librrd",
@@ -2413,6 +2630,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_infoval'u_str",
           "package": "bindings-librrd",
@@ -2425,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_infoval'u_val",
           "package": "bindings-librrd",
@@ -2434,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_infoval'u_val",
           "package": "bindings-librrd",
@@ -2446,6 +2666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_last",
           "package": "bindings-librrd",
@@ -2455,6 +2676,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_last",
           "normalized": "CInt-\u003ePtr CString-\u003eIO CTime",
@@ -2469,6 +2691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_last_r",
           "package": "bindings-librrd",
@@ -2478,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_last_r",
           "normalized": "CString-\u003eIO CTime",
@@ -2492,6 +2716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_lastupdate",
           "package": "bindings-librrd",
@@ -2501,6 +2726,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_lastupdate",
           "normalized": "CInt-\u003ePtr CString-\u003ePtr CTime-\u003ePtr CULong-\u003ePtr(Ptr CString)-\u003ePtr(Ptr CString)-\u003eIO CInt",
@@ -2515,6 +2741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_lastupdate_r",
           "package": "bindings-librrd",
@@ -2524,6 +2751,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_lastupdate_r",
           "normalized": "CString-\u003ePtr CTime-\u003ePtr CULong-\u003ePtr(Ptr CString)-\u003ePtr(Ptr CString)-\u003eIO CInt",
@@ -2538,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_mkdir_p",
           "package": "bindings-librrd",
@@ -2547,6 +2776,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_mkdir_p",
           "normalized": "CString-\u003eCMode-\u003eIO CInt",
@@ -2561,6 +2791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_new_context",
           "package": "bindings-librrd",
@@ -2570,6 +2801,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_new_context",
           "package": "bindings-librrd",
@@ -2582,6 +2814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_parsetime",
           "package": "bindings-librrd",
@@ -2591,6 +2824,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_parsetime",
           "normalized": "CString-\u003ePtr C'rrd_time_value_t-\u003eIO CString",
@@ -2605,6 +2839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_proc_start_end",
           "package": "bindings-librrd",
@@ -2614,6 +2849,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_proc_start_end",
           "normalized": "Ptr C'rrd_time_value_t-\u003ePtr C'rrd_time_value_t-\u003ePtr CTime-\u003ePtr CTime-\u003eIO CInt",
@@ -2628,6 +2864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_random",
           "package": "bindings-librrd",
@@ -2637,6 +2874,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_random",
           "package": "bindings-librrd",
@@ -2649,6 +2887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_resize",
           "package": "bindings-librrd",
@@ -2658,6 +2897,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_resize",
           "normalized": "CInt-\u003ePtr CString-\u003eIO CInt",
@@ -2672,6 +2912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_restore",
           "package": "bindings-librrd",
@@ -2681,6 +2922,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_restore",
           "normalized": "CInt-\u003ePtr CString-\u003eIO CInt",
@@ -2695,6 +2937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_set_to_DINF",
           "package": "bindings-librrd",
@@ -2704,6 +2947,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_set_to_DINF",
           "package": "bindings-librrd",
@@ -2717,6 +2961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_set_to_DNAN",
           "package": "bindings-librrd",
@@ -2726,6 +2971,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_set_to_DNAN",
           "package": "bindings-librrd",
@@ -2739,6 +2985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_simple_file_t'fd",
           "package": "bindings-librrd",
@@ -2748,6 +2995,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_simple_file_t'fd",
           "package": "bindings-librrd",
@@ -2760,6 +3008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_strerror",
           "package": "bindings-librrd",
@@ -2769,6 +3018,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_strerror",
           "normalized": "CInt-\u003eIO CString",
@@ -2783,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_strversion",
           "package": "bindings-librrd",
@@ -2792,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_strversion",
           "package": "bindings-librrd",
@@ -2804,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_test_error",
           "package": "bindings-librrd",
@@ -2813,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_test_error",
           "package": "bindings-librrd",
@@ -2825,6 +3079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_time_value'offset",
           "package": "bindings-librrd",
@@ -2834,6 +3089,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_time_value'offset",
           "package": "bindings-librrd",
@@ -2846,6 +3102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_time_value'tm",
           "package": "bindings-librrd",
@@ -2855,6 +3112,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_time_value'tm",
           "package": "bindings-librrd",
@@ -2867,6 +3125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_time_value'type",
           "package": "bindings-librrd",
@@ -2876,6 +3135,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_time_value'type",
           "package": "bindings-librrd",
@@ -2888,6 +3148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_tune",
           "package": "bindings-librrd",
@@ -2897,6 +3158,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_tune",
           "normalized": "CInt-\u003ePtr CString-\u003eIO CInt",
@@ -2911,6 +3173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_update",
           "package": "bindings-librrd",
@@ -2920,6 +3183,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_update",
           "normalized": "CInt-\u003ePtr CString-\u003eIO CInt",
@@ -2934,6 +3198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_update_r",
           "package": "bindings-librrd",
@@ -2943,6 +3208,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_update_r",
           "normalized": "CString-\u003eCString-\u003eCInt-\u003ePtr CString-\u003eIO CInt",
@@ -2957,6 +3223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_update_v",
           "package": "bindings-librrd",
@@ -2966,6 +3233,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_update_v",
           "normalized": "CInt-\u003ePtr CString-\u003eIO(Ptr C'rrd_info_t)",
@@ -2980,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_version",
           "package": "bindings-librrd",
@@ -2989,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_version",
           "package": "bindings-librrd",
@@ -3001,6 +3271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "c'rrd_xport",
           "package": "bindings-librrd",
@@ -3010,6 +3281,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "c'rrd_xport",
           "normalized": "CInt-\u003ePtr CString-\u003ePtr CInt-\u003ePtr CTime-\u003ePtr CTime-\u003ePtr CULong-\u003ePtr CULong-\u003ePtr(Ptr CString)-\u003ePtr(Ptr C'rrd_value_t)-\u003eIO CInt",
@@ -3024,6 +3296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "mK'rrd_output_callback_t",
           "package": "bindings-librrd",
@@ -3033,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "mK'rrd_output_callback_t",
           "normalized": "C'rrd_output_callback_t-\u003ePtr()-\u003eCSize-\u003ePtr()-\u003eIO CSize",
@@ -3048,6 +3322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "mk'rrd_output_callback_t",
           "package": "bindings-librrd",
@@ -3057,6 +3332,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "mk'rrd_output_callback_t",
           "normalized": "(Ptr()-\u003eCSize-\u003ePtr()-\u003eIO CSize)-\u003eIO C'rrd_output_callback_t",
@@ -3071,6 +3347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_add_ptr",
           "package": "bindings-librrd",
@@ -3080,6 +3357,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_add_ptr",
           "normalized": "FunPtr(Ptr(Ptr(Ptr a))-\u003ePtr CSize-\u003ePtr a-\u003eIO CInt)",
@@ -3094,6 +3372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_add_strdup",
           "package": "bindings-librrd",
@@ -3103,6 +3382,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_add_strdup",
           "normalized": "FunPtr(Ptr(Ptr CString)-\u003ePtr CSize-\u003eCString-\u003eIO CInt)",
@@ -3117,6 +3397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_blob_t'ptr",
           "package": "bindings-librrd",
@@ -3126,6 +3407,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_blob_t'ptr",
           "normalized": "Ptr C'rrd_blob_t-\u003ePtr(Ptr CUChar)",
@@ -3140,6 +3422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_blob_t'size",
           "package": "bindings-librrd",
@@ -3149,6 +3432,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_blob_t'size",
           "normalized": "Ptr C'rrd_blob_t-\u003ePtr CULong",
@@ -3163,6 +3447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_clear_error",
           "package": "bindings-librrd",
@@ -3172,6 +3457,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_clear_error",
           "normalized": "FunPtr(IO())",
@@ -3186,6 +3472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_context'lib_errstr",
           "package": "bindings-librrd",
@@ -3195,6 +3482,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_context'lib_errstr",
           "normalized": "Ptr C'rrd_context-\u003ePtr CChar",
@@ -3209,6 +3497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_context'rrd_error",
           "package": "bindings-librrd",
@@ -3218,6 +3507,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_context'rrd_error",
           "normalized": "Ptr C'rrd_context-\u003ePtr CChar",
@@ -3232,6 +3522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_create",
           "package": "bindings-librrd",
@@ -3241,6 +3532,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_create",
           "normalized": "FunPtr(CInt-\u003ePtr CString-\u003eIO CInt)",
@@ -3255,6 +3547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_create_r",
           "package": "bindings-librrd",
@@ -3264,6 +3557,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_create_r",
           "normalized": "FunPtr(CString-\u003eCULong-\u003eCTime-\u003eCInt-\u003ePtr CString-\u003eIO CInt)",
@@ -3278,6 +3572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_dump",
           "package": "bindings-librrd",
@@ -3287,6 +3582,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_dump",
           "normalized": "FunPtr(CInt-\u003ePtr CString-\u003eIO CInt)",
@@ -3301,6 +3597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_dump_cb_r",
           "package": "bindings-librrd",
@@ -3310,6 +3607,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_dump_cb_r",
           "normalized": "FunPtr(CString-\u003eCInt-\u003eC'rrd_output_callback_t-\u003ePtr a-\u003eIO CInt)",
@@ -3324,6 +3622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_dump_r",
           "package": "bindings-librrd",
@@ -3333,6 +3632,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_dump_r",
           "normalized": "FunPtr(CString-\u003eCString-\u003eIO CInt)",
@@ -3347,6 +3647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_fetch",
           "package": "bindings-librrd",
@@ -3356,6 +3657,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_fetch",
           "normalized": "FunPtr(CInt-\u003ePtr CString-\u003ePtr CTime-\u003ePtr CTime-\u003ePtr CULong-\u003ePtr CULong-\u003ePtr(Ptr CString)-\u003ePtr(Ptr C'rrd_value_t)-\u003eIO CInt)",
@@ -3370,6 +3672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_fetch_r",
           "package": "bindings-librrd",
@@ -3379,6 +3682,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_fetch_r",
           "normalized": "FunPtr(CString-\u003eCString-\u003ePtr CTime-\u003ePtr CTime-\u003ePtr CULong-\u003ePtr CULong-\u003ePtr(Ptr CString)-\u003ePtr(Ptr C'rrd_value_t)-\u003eIO CInt)",
@@ -3393,6 +3697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_file_t'file_len",
           "package": "bindings-librrd",
@@ -3402,6 +3707,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_file_t'file_len",
           "normalized": "Ptr C'rrd_file_t-\u003ePtr COff",
@@ -3416,6 +3722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_file_t'header_len",
           "package": "bindings-librrd",
@@ -3425,6 +3732,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_file_t'header_len",
           "normalized": "Ptr C'rrd_file_t-\u003ePtr COff",
@@ -3439,6 +3747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_file_t'pos",
           "package": "bindings-librrd",
@@ -3448,6 +3757,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_file_t'pos",
           "normalized": "Ptr C'rrd_file_t-\u003ePtr COff",
@@ -3462,6 +3772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_file_t'pvt",
           "package": "bindings-librrd",
@@ -3471,6 +3782,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_file_t'pvt",
           "normalized": "Ptr C'rrd_file_t-\u003ePtr(Ptr())",
@@ -3485,6 +3797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_first",
           "package": "bindings-librrd",
@@ -3494,6 +3807,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_first",
           "normalized": "FunPtr(CInt-\u003ePtr CString-\u003eIO CTime)",
@@ -3508,6 +3822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_first_r",
           "package": "bindings-librrd",
@@ -3517,6 +3832,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_first_r",
           "normalized": "FunPtr(CString-\u003eCInt-\u003eIO CTime)",
@@ -3531,6 +3847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_flushcached",
           "package": "bindings-librrd",
@@ -3540,6 +3857,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_flushcached",
           "normalized": "FunPtr(CInt-\u003ePtr CString-\u003eIO CInt)",
@@ -3554,6 +3872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_free_context",
           "package": "bindings-librrd",
@@ -3563,6 +3882,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_free_context",
           "normalized": "FunPtr(Ptr C'rrd_context_t-\u003eIO())",
@@ -3577,6 +3897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_free_ptrs",
           "package": "bindings-librrd",
@@ -3586,6 +3907,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_free_ptrs",
           "normalized": "FunPtr(Ptr(Ptr(Ptr a))-\u003eCSize-\u003eIO())",
@@ -3600,6 +3922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_freemem",
           "package": "bindings-librrd",
@@ -3609,6 +3932,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_freemem",
           "normalized": "FunPtr(Ptr a-\u003eIO())",
@@ -3623,6 +3947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_get_context",
           "package": "bindings-librrd",
@@ -3632,6 +3957,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_get_context",
           "package": "bindings-librrd",
@@ -3644,6 +3970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_get_error",
           "package": "bindings-librrd",
@@ -3653,6 +3980,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_get_error",
           "package": "bindings-librrd",
@@ -3665,6 +3993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_graph",
           "package": "bindings-librrd",
@@ -3674,6 +4003,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_graph",
           "normalized": "FunPtr(CInt-\u003ePtr CString-\u003ePtr(Ptr CString)-\u003ePtr CInt-\u003ePtr CInt-\u003ePtr CFile-\u003ePtr CDouble-\u003ePtr CDouble-\u003eIO CInt)",
@@ -3688,6 +4018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_graph_v",
           "package": "bindings-librrd",
@@ -3697,6 +4028,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_graph_v",
           "normalized": "FunPtr(CInt-\u003ePtr CString-\u003eIO(Ptr C'rrd_info_t))",
@@ -3711,6 +4043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_info",
           "package": "bindings-librrd",
@@ -3720,6 +4053,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_info",
           "normalized": "FunPtr(CInt-\u003ePtr CString-\u003eIO(Ptr C'rrd_info_t))",
@@ -3734,6 +4068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_info_free",
           "package": "bindings-librrd",
@@ -3743,6 +4078,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_info_free",
           "normalized": "FunPtr(Ptr C'rrd_info_t-\u003eIO())",
@@ -3757,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_info_print",
           "package": "bindings-librrd",
@@ -3766,6 +4103,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_info_print",
           "normalized": "FunPtr(Ptr C'rrd_info_t-\u003eIO())",
@@ -3780,6 +4118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_info_r",
           "package": "bindings-librrd",
@@ -3789,6 +4128,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_info_r",
           "normalized": "FunPtr(CString-\u003eIO(Ptr C'rrd_info_t))",
@@ -3803,6 +4143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_info_t'key",
           "package": "bindings-librrd",
@@ -3812,6 +4153,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_info_t'key",
           "normalized": "Ptr C'rrd_info_t-\u003ePtr CString",
@@ -3826,6 +4168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_info_t'next",
           "package": "bindings-librrd",
@@ -3835,6 +4178,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_info_t'next",
           "normalized": "Ptr C'rrd_info_t-\u003ePtr(Ptr C'rrd_info_t)",
@@ -3849,6 +4193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_info_t'type",
           "package": "bindings-librrd",
@@ -3858,6 +4203,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_info_t'type",
           "normalized": "Ptr C'rrd_info_t-\u003ePtr C'rrd_info_type_t",
@@ -3872,6 +4218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_info_t'value",
           "package": "bindings-librrd",
@@ -3881,6 +4228,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_info_t'value",
           "normalized": "Ptr C'rrd_info_t-\u003ePtr C'rrd_infoval_t",
@@ -3895,6 +4243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_infoval'u_blo",
           "package": "bindings-librrd",
@@ -3904,6 +4253,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_infoval'u_blo",
           "normalized": "Ptr C'rrd_infoval-\u003ePtr C'rrd_blob_t",
@@ -3918,6 +4268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_infoval'u_cnt",
           "package": "bindings-librrd",
@@ -3927,6 +4278,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_infoval'u_cnt",
           "normalized": "Ptr C'rrd_infoval-\u003ePtr CULong",
@@ -3941,6 +4293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_infoval'u_int",
           "package": "bindings-librrd",
@@ -3950,6 +4303,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_infoval'u_int",
           "normalized": "Ptr C'rrd_infoval-\u003ePtr CInt",
@@ -3965,6 +4319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe correct type for this callback should be \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePtr\u003c/a\u003e\u003c/code\u003e a -\u003e \u003ccode\u003e\u003ca\u003eCSize\u003c/a\u003e\u003c/code\u003e\n  -\u003e \u003ccode\u003e\u003ca\u003ePtr\u003c/a\u003e\u003c/code\u003e b -\u003e \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eCSize\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e but that's impossible because of\n  bindings-DSL restriction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_infoval'u_str",
           "package": "bindings-librrd",
@@ -3975,6 +4330,7 @@
         "index": {
           "description": "The correct type for this callback should be Ptr CSize Ptr IO CSize but that impossible because of bindings-DSL restriction",
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_infoval'u_str",
           "normalized": "Ptr C'rrd_infoval-\u003ePtr CString",
@@ -3989,6 +4345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_infoval'u_val",
           "package": "bindings-librrd",
@@ -3998,6 +4355,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_infoval'u_val",
           "normalized": "Ptr C'rrd_infoval-\u003ePtr C'rrd_value_t",
@@ -4012,6 +4370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_last",
           "package": "bindings-librrd",
@@ -4021,6 +4380,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_last",
           "normalized": "FunPtr(CInt-\u003ePtr CString-\u003eIO CTime)",
@@ -4035,6 +4395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_last_r",
           "package": "bindings-librrd",
@@ -4044,6 +4405,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_last_r",
           "normalized": "FunPtr(CString-\u003eIO CTime)",
@@ -4058,6 +4420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_lastupdate",
           "package": "bindings-librrd",
@@ -4067,6 +4430,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_lastupdate",
           "normalized": "FunPtr(CInt-\u003ePtr CString-\u003ePtr CTime-\u003ePtr CULong-\u003ePtr(Ptr CString)-\u003ePtr(Ptr CString)-\u003eIO CInt)",
@@ -4081,6 +4445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_lastupdate_r",
           "package": "bindings-librrd",
@@ -4090,6 +4455,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_lastupdate_r",
           "normalized": "FunPtr(CString-\u003ePtr CTime-\u003ePtr CULong-\u003ePtr(Ptr CString)-\u003ePtr(Ptr CString)-\u003eIO CInt)",
@@ -4104,6 +4470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_mkdir_p",
           "package": "bindings-librrd",
@@ -4113,6 +4480,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_mkdir_p",
           "normalized": "FunPtr(CString-\u003eCMode-\u003eIO CInt)",
@@ -4127,6 +4495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_new_context",
           "package": "bindings-librrd",
@@ -4136,6 +4505,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_new_context",
           "package": "bindings-librrd",
@@ -4148,6 +4518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_parsetime",
           "package": "bindings-librrd",
@@ -4157,6 +4528,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_parsetime",
           "normalized": "FunPtr(CString-\u003ePtr C'rrd_time_value_t-\u003eIO CString)",
@@ -4171,6 +4543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_proc_start_end",
           "package": "bindings-librrd",
@@ -4180,6 +4553,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_proc_start_end",
           "normalized": "FunPtr(Ptr C'rrd_time_value_t-\u003ePtr C'rrd_time_value_t-\u003ePtr CTime-\u003ePtr CTime-\u003eIO CInt)",
@@ -4194,6 +4568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_random",
           "package": "bindings-librrd",
@@ -4203,6 +4578,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_random",
           "package": "bindings-librrd",
@@ -4215,6 +4591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_resize",
           "package": "bindings-librrd",
@@ -4224,6 +4601,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_resize",
           "normalized": "FunPtr(CInt-\u003ePtr CString-\u003eIO CInt)",
@@ -4238,6 +4616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_restore",
           "package": "bindings-librrd",
@@ -4247,6 +4626,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_restore",
           "normalized": "FunPtr(CInt-\u003ePtr CString-\u003eIO CInt)",
@@ -4261,6 +4641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_set_to_DINF",
           "package": "bindings-librrd",
@@ -4270,6 +4651,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_set_to_DINF",
           "package": "bindings-librrd",
@@ -4283,6 +4665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_set_to_DNAN",
           "package": "bindings-librrd",
@@ -4292,6 +4675,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_set_to_DNAN",
           "package": "bindings-librrd",
@@ -4305,6 +4689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_simple_file_t'fd",
           "package": "bindings-librrd",
@@ -4314,6 +4699,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_simple_file_t'fd",
           "normalized": "Ptr C'rrd_simple_file_t-\u003ePtr CInt",
@@ -4328,6 +4714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_strerror",
           "package": "bindings-librrd",
@@ -4337,6 +4724,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_strerror",
           "normalized": "FunPtr(CInt-\u003eIO CString)",
@@ -4351,6 +4739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_strversion",
           "package": "bindings-librrd",
@@ -4360,6 +4749,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_strversion",
           "package": "bindings-librrd",
@@ -4372,6 +4762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_test_error",
           "package": "bindings-librrd",
@@ -4381,6 +4772,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_test_error",
           "package": "bindings-librrd",
@@ -4393,6 +4785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_time_value'offset",
           "package": "bindings-librrd",
@@ -4402,6 +4795,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_time_value'offset",
           "normalized": "Ptr C'rrd_time_value-\u003ePtr CLong",
@@ -4416,6 +4810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_time_value'tm",
           "package": "bindings-librrd",
@@ -4425,6 +4820,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_time_value'tm",
           "normalized": "Ptr C'rrd_time_value-\u003ePtr C'tm",
@@ -4439,6 +4835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_time_value'type",
           "package": "bindings-librrd",
@@ -4448,6 +4845,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_time_value'type",
           "normalized": "Ptr C'rrd_time_value-\u003ePtr C'rrd_timetype_t",
@@ -4462,6 +4860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_tune",
           "package": "bindings-librrd",
@@ -4471,6 +4870,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_tune",
           "normalized": "FunPtr(CInt-\u003ePtr CString-\u003eIO CInt)",
@@ -4485,6 +4885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_update",
           "package": "bindings-librrd",
@@ -4494,6 +4895,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_update",
           "normalized": "FunPtr(CInt-\u003ePtr CString-\u003eIO CInt)",
@@ -4508,6 +4910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_update_r",
           "package": "bindings-librrd",
@@ -4517,6 +4920,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_update_r",
           "normalized": "FunPtr(CString-\u003eCString-\u003eCInt-\u003ePtr CString-\u003eIO CInt)",
@@ -4531,6 +4935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_update_v",
           "package": "bindings-librrd",
@@ -4540,6 +4945,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_update_v",
           "normalized": "FunPtr(CInt-\u003ePtr CString-\u003eIO(Ptr C'rrd_info_t))",
@@ -4554,6 +4960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_version",
           "package": "bindings-librrd",
@@ -4563,6 +4970,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_version",
           "package": "bindings-librrd",
@@ -4575,6 +4983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "p'rrd_xport",
           "package": "bindings-librrd",
@@ -4584,6 +4993,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "p'rrd_xport",
           "normalized": "FunPtr(CInt-\u003ePtr CString-\u003ePtr CInt-\u003ePtr CTime-\u003ePtr CTime-\u003ePtr CULong-\u003ePtr CULong-\u003ePtr(Ptr CString)-\u003ePtr(Ptr C'rrd_value_t)-\u003eIO CInt)",
@@ -4598,6 +5008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "u'rrd_infoval'u_blo",
           "package": "bindings-librrd",
@@ -4607,6 +5018,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "u'rrd_infoval'u_blo",
           "normalized": "C'rrd_infoval-\u003eC'rrd_blob_t-\u003eIO C'rrd_infoval",
@@ -4621,6 +5033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "u'rrd_infoval'u_cnt",
           "package": "bindings-librrd",
@@ -4630,6 +5043,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "u'rrd_infoval'u_cnt",
           "normalized": "C'rrd_infoval-\u003eCULong-\u003eIO C'rrd_infoval",
@@ -4644,6 +5058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "u'rrd_infoval'u_int",
           "package": "bindings-librrd",
@@ -4653,6 +5068,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "u'rrd_infoval'u_int",
           "normalized": "C'rrd_infoval-\u003eCInt-\u003eIO C'rrd_infoval",
@@ -4667,6 +5083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "u'rrd_infoval'u_str",
           "package": "bindings-librrd",
@@ -4676,6 +5093,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "u'rrd_infoval'u_str",
           "normalized": "C'rrd_infoval-\u003eCString-\u003eIO C'rrd_infoval",
@@ -4690,6 +5108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Librrd",
           "name": "u'rrd_infoval'u_val",
           "package": "bindings-librrd",
@@ -4699,6 +5118,7 @@
         },
         "index": {
           "hierarchy": "Bindings Librrd",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Librrd",
           "name": "u'rrd_infoval'u_val",
           "normalized": "C'rrd_infoval-\u003eC'rrd_value_t-\u003eIO C'rrd_infoval",
@@ -4714,6 +5134,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module temporarily exists here, only because bindings-posix\n currently doesn't have struct tm.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "Time",
           "package": "bindings-librrd",
@@ -4723,6 +5144,7 @@
         "index": {
           "description": "This module temporarily exists here only because bindings-posix currently doesn have struct tm",
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "Time",
           "package": "bindings-librrd",
@@ -4736,6 +5158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "C'tm",
           "package": "bindings-librrd",
@@ -4744,6 +5167,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "C'tm",
           "package": "bindings-librrd",
@@ -4757,6 +5181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "C'tm",
           "package": "bindings-librrd",
@@ -4766,6 +5191,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "C'tm",
           "package": "bindings-librrd",
@@ -4779,6 +5205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "c'CLOCKS_PER_SEC",
           "package": "bindings-librrd",
@@ -4788,6 +5215,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "c'CLOCKS_PER_SEC",
           "package": "bindings-librrd",
@@ -4801,6 +5229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "c'clock",
           "package": "bindings-librrd",
@@ -4810,6 +5239,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "c'clock",
           "package": "bindings-librrd",
@@ -4822,6 +5252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "c'difftime",
           "package": "bindings-librrd",
@@ -4831,6 +5262,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "c'difftime",
           "normalized": "CTime-\u003eCTime-\u003eIO CDouble",
@@ -4845,6 +5277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "c'gmtime",
           "package": "bindings-librrd",
@@ -4854,6 +5287,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "c'gmtime",
           "normalized": "Ptr CTime-\u003eIO(Ptr C'tm)",
@@ -4868,6 +5302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "c'localtime",
           "package": "bindings-librrd",
@@ -4877,6 +5312,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "c'localtime",
           "normalized": "Ptr CTime-\u003eIO(Ptr C'tm)",
@@ -4891,6 +5327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "c'mktime",
           "package": "bindings-librrd",
@@ -4900,6 +5337,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "c'mktime",
           "normalized": "Ptr C'tm-\u003eIO CTime",
@@ -4914,6 +5352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "c'strftime",
           "package": "bindings-librrd",
@@ -4923,6 +5362,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "c'strftime",
           "normalized": "CString-\u003eCSize-\u003eCString-\u003ePtr C'tm-\u003eIO CSize",
@@ -4937,6 +5377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "c'time",
           "package": "bindings-librrd",
@@ -4946,6 +5387,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "c'time",
           "normalized": "Ptr CTime-\u003eIO CTime",
@@ -4960,6 +5402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "c'tm'tm_hour",
           "package": "bindings-librrd",
@@ -4969,6 +5412,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "c'tm'tm_hour",
           "package": "bindings-librrd",
@@ -4981,6 +5425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "c'tm'tm_isdst",
           "package": "bindings-librrd",
@@ -4990,6 +5435,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "c'tm'tm_isdst",
           "package": "bindings-librrd",
@@ -5002,6 +5448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "c'tm'tm_mday",
           "package": "bindings-librrd",
@@ -5011,6 +5458,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "c'tm'tm_mday",
           "package": "bindings-librrd",
@@ -5023,6 +5471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "c'tm'tm_min",
           "package": "bindings-librrd",
@@ -5032,6 +5481,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "c'tm'tm_min",
           "package": "bindings-librrd",
@@ -5044,6 +5494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "c'tm'tm_mon",
           "package": "bindings-librrd",
@@ -5053,6 +5504,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "c'tm'tm_mon",
           "package": "bindings-librrd",
@@ -5065,6 +5517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "c'tm'tm_sec",
           "package": "bindings-librrd",
@@ -5074,6 +5527,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "c'tm'tm_sec",
           "package": "bindings-librrd",
@@ -5086,6 +5540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "c'tm'tm_wday",
           "package": "bindings-librrd",
@@ -5095,6 +5550,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "c'tm'tm_wday",
           "package": "bindings-librrd",
@@ -5107,6 +5563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "c'tm'tm_yday",
           "package": "bindings-librrd",
@@ -5116,6 +5573,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "c'tm'tm_yday",
           "package": "bindings-librrd",
@@ -5128,6 +5586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "c'tm'tm_year",
           "package": "bindings-librrd",
@@ -5137,6 +5596,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "c'tm'tm_year",
           "package": "bindings-librrd",
@@ -5149,6 +5609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "p'clock",
           "package": "bindings-librrd",
@@ -5158,6 +5619,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "p'clock",
           "package": "bindings-librrd",
@@ -5170,6 +5632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "p'difftime",
           "package": "bindings-librrd",
@@ -5179,6 +5642,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "p'difftime",
           "normalized": "FunPtr(CTime-\u003eCTime-\u003eIO CDouble)",
@@ -5193,6 +5657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "p'gmtime",
           "package": "bindings-librrd",
@@ -5202,6 +5667,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "p'gmtime",
           "normalized": "FunPtr(Ptr CTime-\u003eIO(Ptr C'tm))",
@@ -5216,6 +5682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "p'localtime",
           "package": "bindings-librrd",
@@ -5225,6 +5692,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "p'localtime",
           "normalized": "FunPtr(Ptr CTime-\u003eIO(Ptr C'tm))",
@@ -5239,6 +5707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "p'mktime",
           "package": "bindings-librrd",
@@ -5248,6 +5717,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "p'mktime",
           "normalized": "FunPtr(Ptr C'tm-\u003eIO CTime)",
@@ -5262,6 +5732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "p'strftime",
           "package": "bindings-librrd",
@@ -5271,6 +5742,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "p'strftime",
           "normalized": "FunPtr(CString-\u003eCSize-\u003eCString-\u003ePtr C'tm-\u003eIO CSize)",
@@ -5285,6 +5757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "p'time",
           "package": "bindings-librrd",
@@ -5294,6 +5767,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "p'time",
           "normalized": "FunPtr(Ptr CTime-\u003eIO CTime)",
@@ -5308,6 +5782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "p'tm'tm_hour",
           "package": "bindings-librrd",
@@ -5317,6 +5792,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "p'tm'tm_hour",
           "normalized": "Ptr C'tm-\u003ePtr CInt",
@@ -5331,6 +5807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "p'tm'tm_isdst",
           "package": "bindings-librrd",
@@ -5340,6 +5817,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "p'tm'tm_isdst",
           "normalized": "Ptr C'tm-\u003ePtr CInt",
@@ -5354,6 +5832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "p'tm'tm_mday",
           "package": "bindings-librrd",
@@ -5363,6 +5842,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "p'tm'tm_mday",
           "normalized": "Ptr C'tm-\u003ePtr CInt",
@@ -5377,6 +5857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "p'tm'tm_min",
           "package": "bindings-librrd",
@@ -5386,6 +5867,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "p'tm'tm_min",
           "normalized": "Ptr C'tm-\u003ePtr CInt",
@@ -5400,6 +5882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "p'tm'tm_mon",
           "package": "bindings-librrd",
@@ -5409,6 +5892,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "p'tm'tm_mon",
           "normalized": "Ptr C'tm-\u003ePtr CInt",
@@ -5423,6 +5907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "p'tm'tm_sec",
           "package": "bindings-librrd",
@@ -5432,6 +5917,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "p'tm'tm_sec",
           "normalized": "Ptr C'tm-\u003ePtr CInt",
@@ -5446,6 +5932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "p'tm'tm_wday",
           "package": "bindings-librrd",
@@ -5455,6 +5942,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "p'tm'tm_wday",
           "normalized": "Ptr C'tm-\u003ePtr CInt",
@@ -5469,6 +5957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "p'tm'tm_yday",
           "package": "bindings-librrd",
@@ -5478,6 +5967,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "p'tm'tm_yday",
           "normalized": "Ptr C'tm-\u003ePtr CInt",
@@ -5492,6 +5982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:07 UTC 2014",
           "module": "Bindings.Posix.Time",
           "name": "p'tm'tm_year",
           "package": "bindings-librrd",
@@ -5501,6 +5992,7 @@
         },
         "index": {
           "hierarchy": "Bindings Posix Time",
+          "indexed": "2014-03-11T17:21:07",
           "module": "Bindings.Posix.Time",
           "name": "p'tm'tm_year",
           "normalized": "Ptr C'tm-\u003ePtr CInt",

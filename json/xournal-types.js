@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xournal-types"
+        "phrase": "xournal-types",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "BBox",
           "package": "xournal-types",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "BBox",
           "package": "xournal-types",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebounding box type \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "BBox",
           "package": "xournal-types",
@@ -49,6 +52,7 @@
         "index": {
           "description": "bounding box type",
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "BBox",
           "package": "xournal-types",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "IntersectBBox",
           "package": "xournal-types",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "IntersectBBox",
           "package": "xournal-types",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "Maybeable",
           "package": "xournal-types",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "Maybeable",
           "package": "xournal-types",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "StrokeBBox",
           "package": "xournal-types",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "StrokeBBox",
           "package": "xournal-types",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "TLayerBBox",
           "package": "xournal-types",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "TLayerBBox",
           "package": "xournal-types",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "TPageBBox",
           "package": "xournal-types",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "TPageBBox",
           "package": "xournal-types",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "TXournalBBox",
           "package": "xournal-types",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "TXournalBBox",
           "package": "xournal-types",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "ULMaybe",
           "package": "xournal-types",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "ULMaybe",
           "package": "xournal-types",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "UnionBBox",
           "package": "xournal-types",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "UnionBBox",
           "package": "xournal-types",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "BBox",
           "package": "xournal-types",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "BBox",
           "package": "xournal-types",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "Bottom",
           "package": "xournal-types",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "Bottom",
           "package": "xournal-types",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "Intersect",
           "package": "xournal-types",
@@ -283,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "Intersect",
           "package": "xournal-types",
@@ -296,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "Middle",
           "package": "xournal-types",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "Middle",
           "package": "xournal-types",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "StrokeBBox",
           "package": "xournal-types",
@@ -327,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "StrokeBBox",
           "package": "xournal-types",
@@ -340,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "Top",
           "package": "xournal-types",
@@ -349,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "Top",
           "package": "xournal-types",
@@ -362,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "Union",
           "package": "xournal-types",
@@ -371,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "Union",
           "package": "xournal-types",
@@ -384,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "bboxFromStroke",
           "package": "xournal-types",
@@ -393,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "bboxFromStroke",
           "normalized": "Stroke-\u003eBBox",
@@ -408,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "bbox_lowerright",
           "package": "xournal-types",
@@ -417,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "bbox_lowerright",
           "normalized": "(Double,Double)",
@@ -431,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "bbox_upperleft",
           "package": "xournal-types",
@@ -440,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "bbox_upperleft",
           "normalized": "(Double,Double)",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "dimToBBox",
           "package": "xournal-types",
@@ -463,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "dimToBBox",
           "normalized": "Dimension-\u003eBBox",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "fromMaybe",
           "package": "xournal-types",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "fromMaybe",
           "normalized": "Maybe(ElemType a)-\u003ea",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "inflate",
           "package": "xournal-types",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "inflate",
           "normalized": "BBox-\u003eDouble-\u003eBBox",
@@ -525,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "intersectBBox",
           "package": "xournal-types",
@@ -534,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "intersectBBox",
           "normalized": "BBox-\u003eBBox-\u003eMaybe BBox",
@@ -549,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "mkStrokeBBoxFromStroke",
           "package": "xournal-types",
@@ -558,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "mkStrokeBBoxFromStroke",
           "normalized": "Stroke-\u003eStrokeBBox",
@@ -573,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "mkbbox",
           "package": "xournal-types",
@@ -582,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "mkbbox",
           "normalized": "[Pair Double Double]-\u003eBBox",
@@ -596,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "mkbboxF",
           "package": "xournal-types",
@@ -605,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "mkbboxF",
           "normalized": "a(Double,Double)-\u003eBBox",
@@ -619,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "moveBBoxByOffset",
           "package": "xournal-types",
@@ -628,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "moveBBoxByOffset",
           "normalized": "(Double,Double)-\u003eBBox-\u003eBBox",
@@ -643,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "moveBBoxToOrigin",
           "package": "xournal-types",
@@ -652,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "moveBBoxToOrigin",
           "normalized": "BBox-\u003eBBox",
@@ -667,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "moveBBoxULCornerTo",
           "package": "xournal-types",
@@ -676,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "moveBBoxULCornerTo",
           "normalized": "(Double,Double)-\u003eBBox-\u003eBBox",
@@ -691,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "strokeFromStrokeBBox",
           "package": "xournal-types",
@@ -700,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "strokeFromStrokeBBox",
           "normalized": "StrokeBBox-\u003eStroke",
@@ -715,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "strokebbox_bbox",
           "package": "xournal-types",
@@ -724,6 +787,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "strokebbox_bbox",
           "package": "xournal-types",
@@ -736,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "strokebbox_stroke",
           "package": "xournal-types",
@@ -745,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "strokebbox_stroke",
           "package": "xournal-types",
@@ -757,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "toMaybe",
           "package": "xournal-types",
@@ -766,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "toMaybe",
           "normalized": "a-\u003eMaybe(ElemType a)",
@@ -781,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "unIntersect",
           "package": "xournal-types",
@@ -790,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "unIntersect",
           "package": "xournal-types",
@@ -803,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "unUnion",
           "package": "xournal-types",
@@ -812,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "unUnion",
           "package": "xournal-types",
@@ -825,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "unionBBox",
           "package": "xournal-types",
@@ -834,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "unionBBox",
           "normalized": "BBox-\u003eBBox-\u003eBBox",
@@ -850,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etransform BBox\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.BBox",
           "name": "xformBBox",
           "package": "xournal-types",
@@ -860,6 +935,7 @@
         "index": {
           "description": "transform BBox",
           "hierarchy": "Data Xournal BBox",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.BBox",
           "name": "xformBBox",
           "normalized": "((Double,Double)-\u003e(Double,Double))-\u003eBBox-\u003eBBox",
@@ -875,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Buffer",
           "name": "Buffer",
           "package": "xournal-types",
@@ -883,6 +960,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Buffer",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Buffer",
           "name": "Buffer",
           "package": "xournal-types",
@@ -896,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Buffer",
           "name": "TLayerBBoxBuf",
           "package": "xournal-types",
@@ -904,6 +983,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Buffer",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Buffer",
           "name": "TLayerBBoxBuf",
           "package": "xournal-types",
@@ -917,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Buffer",
           "name": "TPageBBoxMapBkgBuf",
           "package": "xournal-types",
@@ -925,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Buffer",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Buffer",
           "name": "TPageBBoxMapBkgBuf",
           "package": "xournal-types",
@@ -938,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Buffer",
           "name": "TXournalBBoxMapBkgBuf",
           "package": "xournal-types",
@@ -946,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Buffer",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Buffer",
           "name": "TXournalBBoxMapBkgBuf",
           "package": "xournal-types",
@@ -959,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "Generic",
           "package": "xournal-types",
@@ -967,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "Generic",
           "package": "xournal-types",
@@ -980,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "GBackgroundable",
           "package": "xournal-types",
@@ -988,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "GBackgroundable",
           "package": "xournal-types",
@@ -1001,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "GCast",
           "package": "xournal-types",
@@ -1009,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "GCast",
           "package": "xournal-types",
@@ -1022,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "GLayer",
           "package": "xournal-types",
@@ -1030,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "GLayer",
           "package": "xournal-types",
@@ -1043,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "GLayerBuf",
           "package": "xournal-types",
@@ -1051,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "GLayerBuf",
           "package": "xournal-types",
@@ -1064,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "GListable",
           "package": "xournal-types",
@@ -1072,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "GListable",
           "package": "xournal-types",
@@ -1085,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "GPage",
           "package": "xournal-types",
@@ -1093,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "GPage",
           "package": "xournal-types",
@@ -1106,6 +1204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "GSelect",
           "package": "xournal-types",
@@ -1114,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "GSelect",
           "package": "xournal-types",
@@ -1127,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "GStrokeable",
           "package": "xournal-types",
@@ -1135,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "GStrokeable",
           "package": "xournal-types",
@@ -1148,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "GXournal",
           "package": "xournal-types",
@@ -1156,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "GXournal",
           "package": "xournal-types",
@@ -1169,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "SListable",
           "package": "xournal-types",
@@ -1177,6 +1282,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "SListable",
           "package": "xournal-types",
@@ -1190,6 +1296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "TLayerSimple",
           "package": "xournal-types",
@@ -1198,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "TLayerSimple",
           "package": "xournal-types",
@@ -1211,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "TPageSimple",
           "package": "xournal-types",
@@ -1219,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "TPageSimple",
           "package": "xournal-types",
@@ -1232,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "TXournalSimple",
           "package": "xournal-types",
@@ -1240,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "TXournalSimple",
           "package": "xournal-types",
@@ -1253,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "GLayer",
           "package": "xournal-types",
@@ -1262,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "GLayer",
           "package": "xournal-types",
@@ -1275,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "GLayerBuf",
           "package": "xournal-types",
@@ -1284,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "GLayerBuf",
           "package": "xournal-types",
@@ -1297,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "GPage",
           "package": "xournal-types",
@@ -1306,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "GPage",
           "package": "xournal-types",
@@ -1319,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "GSelect",
           "package": "xournal-types",
@@ -1328,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "GSelect",
           "package": "xournal-types",
@@ -1341,6 +1461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "GXournal",
           "package": "xournal-types",
@@ -1350,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "GXournal",
           "package": "xournal-types",
@@ -1363,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "bkgchange",
           "package": "xournal-types",
@@ -1372,6 +1495,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "bkgchange",
           "normalized": "(a-\u003eb)-\u003eGPage a c d-\u003eGPage b c d",
@@ -1386,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "chgStreamToList",
           "package": "xournal-types",
@@ -1395,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "chgStreamToList",
           "normalized": "a b c-\u003ea[]c",
@@ -1410,6 +1536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "emptyPageFromOldPage",
           "package": "xournal-types",
@@ -1419,6 +1546,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "emptyPageFromOldPage",
           "normalized": "GPage a b c-\u003eGPage a b c",
@@ -1434,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "fromLayer",
           "package": "xournal-types",
@@ -1443,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "fromLayer",
           "normalized": "Layer-\u003eGLayer a b",
@@ -1458,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "fromPage",
           "package": "xournal-types",
@@ -1467,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "fromPage",
           "normalized": "Page-\u003eGPage a b(GLayer c d)",
@@ -1482,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "gFromBackground",
           "package": "xournal-types",
@@ -1491,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "gFromBackground",
           "normalized": "Background-\u003ea",
@@ -1506,6 +1640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "gFromList",
           "package": "xournal-types",
@@ -1515,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "gFromList",
           "normalized": "[a]-\u003eb a",
@@ -1530,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "gFromStroke",
           "package": "xournal-types",
@@ -1539,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "gFromStroke",
           "normalized": "Stroke-\u003ea",
@@ -1554,6 +1692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "gToBackground",
           "package": "xournal-types",
@@ -1563,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "gToBackground",
           "normalized": "a-\u003eBackground",
@@ -1578,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "gToList",
           "package": "xournal-types",
@@ -1587,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "gToList",
           "normalized": "a b-\u003e[b]",
@@ -1602,6 +1744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "gToStroke",
           "package": "xournal-types",
@@ -1611,6 +1754,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "gToStroke",
           "normalized": "a-\u003eStroke",
@@ -1626,6 +1770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "g_background",
           "package": "xournal-types",
@@ -1635,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "g_background",
           "package": "xournal-types",
@@ -1647,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "g_bstrokes",
           "package": "xournal-types",
@@ -1656,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "g_bstrokes",
           "package": "xournal-types",
@@ -1668,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "g_buffer",
           "package": "xournal-types",
@@ -1677,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "g_buffer",
           "package": "xournal-types",
@@ -1689,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "g_dimension",
           "package": "xournal-types",
@@ -1698,6 +1849,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "g_dimension",
           "package": "xournal-types",
@@ -1710,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "g_layers",
           "package": "xournal-types",
@@ -1719,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "g_layers",
           "package": "xournal-types",
@@ -1731,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "g_pages",
           "package": "xournal-types",
@@ -1740,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "g_pages",
           "package": "xournal-types",
@@ -1752,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "g_selectAll",
           "package": "xournal-types",
@@ -1761,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "g_selectAll",
           "package": "xournal-types",
@@ -1774,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "g_selectSelected",
           "package": "xournal-types",
@@ -1783,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "g_selectSelected",
           "package": "xournal-types",
@@ -1796,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "g_selectTitle",
           "package": "xournal-types",
@@ -1805,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "g_selectTitle",
           "package": "xournal-types",
@@ -1818,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "g_strokes",
           "package": "xournal-types",
@@ -1827,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "g_strokes",
           "package": "xournal-types",
@@ -1839,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "g_title",
           "package": "xournal-types",
@@ -1848,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "g_title",
           "package": "xournal-types",
@@ -1860,6 +2026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "gbackground",
           "package": "xournal-types",
@@ -1869,6 +2036,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "gbackground",
           "package": "xournal-types",
@@ -1881,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "gbstrokes",
           "package": "xournal-types",
@@ -1890,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "gbstrokes",
           "package": "xournal-types",
@@ -1902,6 +2072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "gbuffer",
           "package": "xournal-types",
@@ -1911,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "gbuffer",
           "package": "xournal-types",
@@ -1923,6 +2095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "gcast",
           "package": "xournal-types",
@@ -1932,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "gcast",
           "normalized": "a-\u003eb",
@@ -1946,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "gdimension",
           "package": "xournal-types",
@@ -1955,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "gdimension",
           "package": "xournal-types",
@@ -1967,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "glayers",
           "package": "xournal-types",
@@ -1976,6 +2153,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "glayers",
           "package": "xournal-types",
@@ -1988,6 +2166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "gpages",
           "package": "xournal-types",
@@ -1997,6 +2176,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "gpages",
           "package": "xournal-types",
@@ -2009,6 +2189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "gselectAll",
           "package": "xournal-types",
@@ -2018,6 +2199,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "gselectAll",
           "package": "xournal-types",
@@ -2031,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "gselectSelected",
           "package": "xournal-types",
@@ -2040,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "gselectSelected",
           "package": "xournal-types",
@@ -2053,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "gselectTitle",
           "package": "xournal-types",
@@ -2062,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "gselectTitle",
           "package": "xournal-types",
@@ -2075,6 +2261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "gstrokes",
           "package": "xournal-types",
@@ -2084,6 +2271,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "gstrokes",
           "package": "xournal-types",
@@ -2096,6 +2284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "gtitle",
           "package": "xournal-types",
@@ -2105,6 +2294,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "gtitle",
           "package": "xournal-types",
@@ -2117,6 +2307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "layerFromTLayerSimple",
           "package": "xournal-types",
@@ -2126,6 +2317,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "layerFromTLayerSimple",
           "normalized": "TLayerSimple-\u003eLayer",
@@ -2141,6 +2333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "mkTLayerSimpleFromLayer",
           "package": "xournal-types",
@@ -2150,6 +2343,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "mkTLayerSimpleFromLayer",
           "normalized": "Layer-\u003eTLayerSimple",
@@ -2165,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "mkTPageSimpleFromPage",
           "package": "xournal-types",
@@ -2174,6 +2369,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "mkTPageSimpleFromPage",
           "normalized": "Page-\u003eTPageSimple",
@@ -2189,6 +2385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "mkTXournalSimpleFromXournal",
           "package": "xournal-types",
@@ -2198,6 +2395,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "mkTXournalSimpleFromXournal",
           "normalized": "Xournal-\u003eTXournalSimple",
@@ -2213,6 +2411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "pageFromTPageSimple",
           "package": "xournal-types",
@@ -2222,6 +2421,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "pageFromTPageSimple",
           "normalized": "TPageSimple-\u003ePage",
@@ -2237,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "printLayerStructureInPage",
           "package": "xournal-types",
@@ -2246,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "printLayerStructureInPage",
           "normalized": "GPage a b(GLayerBuf c[]d)-\u003eIO()",
@@ -2261,6 +2463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "toLayer",
           "package": "xournal-types",
@@ -2270,6 +2473,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "toLayer",
           "normalized": "GLayer a b-\u003eLayer",
@@ -2285,6 +2489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "toNoBufferLayer",
           "package": "xournal-types",
@@ -2294,6 +2499,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "toNoBufferLayer",
           "normalized": "GLayerBuf a b c-\u003eGLayer b c",
@@ -2309,6 +2515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "toPage",
           "package": "xournal-types",
@@ -2318,6 +2525,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "toPage",
           "normalized": "(a-\u003eBackground)-\u003eGPage a b(GLayer c d)-\u003ePage",
@@ -2333,6 +2541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "toPageFromBuf",
           "package": "xournal-types",
@@ -2342,6 +2551,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "toPageFromBuf",
           "normalized": "(a-\u003eBackground)-\u003eGPage a b(GLayerBuf c d e)-\u003ePage",
@@ -2357,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Generic",
           "name": "xournalFromTXournalSimple",
           "package": "xournal-types",
@@ -2366,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Generic",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Generic",
           "name": "xournalFromTXournalSimple",
           "normalized": "TXournalSimple-\u003eXournal",
@@ -2381,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Map",
           "name": "Map",
           "package": "xournal-types",
@@ -2389,6 +2602,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Map",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Map",
           "name": "Map",
           "package": "xournal-types",
@@ -2402,6 +2616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Map",
           "name": "TPageBBoxMap",
           "package": "xournal-types",
@@ -2410,6 +2625,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Map",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Map",
           "name": "TPageBBoxMap",
           "package": "xournal-types",
@@ -2423,6 +2639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Map",
           "name": "TPageBBoxMapBkg",
           "package": "xournal-types",
@@ -2431,6 +2648,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Map",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Map",
           "name": "TPageBBoxMapBkg",
           "package": "xournal-types",
@@ -2444,6 +2662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Map",
           "name": "TPageMap",
           "package": "xournal-types",
@@ -2452,6 +2671,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Map",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Map",
           "name": "TPageMap",
           "package": "xournal-types",
@@ -2465,6 +2685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Map",
           "name": "TXournalBBoxMap",
           "package": "xournal-types",
@@ -2473,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Map",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Map",
           "name": "TXournalBBoxMap",
           "package": "xournal-types",
@@ -2486,6 +2708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Map",
           "name": "TXournalBBoxMapBkg",
           "package": "xournal-types",
@@ -2494,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Map",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Map",
           "name": "TXournalBBoxMapBkg",
           "package": "xournal-types",
@@ -2507,6 +2731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Map",
           "name": "TXournalMap",
           "package": "xournal-types",
@@ -2515,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Map",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Map",
           "name": "TXournalMap",
           "package": "xournal-types",
@@ -2528,6 +2754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Map",
           "name": "emptyGXournalMap",
           "package": "xournal-types",
@@ -2537,6 +2764,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Map",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Map",
           "name": "emptyGXournalMap",
           "package": "xournal-types",
@@ -2550,6 +2778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "Predefined",
           "package": "xournal-types",
@@ -2558,6 +2787,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "Predefined",
           "package": "xournal-types",
@@ -2571,6 +2801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "hexToRGBA",
           "package": "xournal-types",
@@ -2580,6 +2811,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "hexToRGBA",
           "normalized": "Integer-\u003e(Double,Double,Double,Double)",
@@ -2595,6 +2827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefinedPenShapeAspectXY",
           "package": "xournal-types",
@@ -2604,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefinedPenShapeAspectXY",
           "normalized": "(Double,Double)",
@@ -2619,6 +2853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_RULING_BOTTOMMARGIN",
           "package": "xournal-types",
@@ -2628,6 +2863,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_RULING_BOTTOMMARGIN",
           "package": "xournal-types",
@@ -2641,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_RULING_COLOR",
           "package": "xournal-types",
@@ -2650,6 +2887,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_RULING_COLOR",
           "normalized": "(Double,Double,Double,Double)",
@@ -2665,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_RULING_GRAPHSPACING",
           "package": "xournal-types",
@@ -2674,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_RULING_GRAPHSPACING",
           "package": "xournal-types",
@@ -2687,6 +2927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_RULING_LEFTMARGIN",
           "package": "xournal-types",
@@ -2696,6 +2937,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_RULING_LEFTMARGIN",
           "package": "xournal-types",
@@ -2709,6 +2951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_RULING_MARGIN_COLOR",
           "package": "xournal-types",
@@ -2718,6 +2961,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_RULING_MARGIN_COLOR",
           "normalized": "(Double,Double,Double,Double)",
@@ -2733,6 +2977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_RULING_SPACING",
           "package": "xournal-types",
@@ -2742,6 +2987,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_RULING_SPACING",
           "package": "xournal-types",
@@ -2755,6 +3001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_RULING_THICKNESS",
           "package": "xournal-types",
@@ -2764,6 +3011,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_RULING_THICKNESS",
           "package": "xournal-types",
@@ -2777,6 +3025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_RULING_TOPMARGIN",
           "package": "xournal-types",
@@ -2786,6 +3035,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_RULING_TOPMARGIN",
           "package": "xournal-types",
@@ -2799,6 +3049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_bkgcolor",
           "package": "xournal-types",
@@ -2808,6 +3059,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_bkgcolor",
           "normalized": "Map ByteString(Double,Double,Double,Double)",
@@ -2822,6 +3074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_eraser_fine",
           "package": "xournal-types",
@@ -2831,6 +3084,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_eraser_fine",
           "package": "xournal-types",
@@ -2843,6 +3097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_eraser_medium",
           "package": "xournal-types",
@@ -2852,6 +3107,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_eraser_medium",
           "package": "xournal-types",
@@ -2864,6 +3120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_eraser_thick",
           "package": "xournal-types",
@@ -2873,6 +3130,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_eraser_thick",
           "package": "xournal-types",
@@ -2885,6 +3143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_eraser_ultrathick",
           "package": "xournal-types",
@@ -2894,6 +3153,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_eraser_ultrathick",
           "package": "xournal-types",
@@ -2906,6 +3166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_eraser_veryfine",
           "package": "xournal-types",
@@ -2915,6 +3176,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_eraser_veryfine",
           "package": "xournal-types",
@@ -2927,6 +3189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_eraser_verythick",
           "package": "xournal-types",
@@ -2936,6 +3199,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_eraser_verythick",
           "package": "xournal-types",
@@ -2948,6 +3212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_fine",
           "package": "xournal-types",
@@ -2957,6 +3222,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_fine",
           "package": "xournal-types",
@@ -2969,6 +3235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_highlighter_fine",
           "package": "xournal-types",
@@ -2978,6 +3245,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_highlighter_fine",
           "package": "xournal-types",
@@ -2990,6 +3258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_highlighter_medium",
           "package": "xournal-types",
@@ -2999,6 +3268,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_highlighter_medium",
           "package": "xournal-types",
@@ -3011,6 +3281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_highlighter_opacity",
           "package": "xournal-types",
@@ -3020,6 +3291,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_highlighter_opacity",
           "package": "xournal-types",
@@ -3032,6 +3304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_highlighter_thick",
           "package": "xournal-types",
@@ -3041,6 +3314,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_highlighter_thick",
           "package": "xournal-types",
@@ -3053,6 +3327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_highlighter_ultrathick",
           "package": "xournal-types",
@@ -3062,6 +3337,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_highlighter_ultrathick",
           "package": "xournal-types",
@@ -3074,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_highlighter_veryfine",
           "package": "xournal-types",
@@ -3083,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_highlighter_veryfine",
           "package": "xournal-types",
@@ -3095,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_highlighter_verythick",
           "package": "xournal-types",
@@ -3104,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_highlighter_verythick",
           "package": "xournal-types",
@@ -3116,6 +3396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_medium",
           "package": "xournal-types",
@@ -3125,6 +3406,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_medium",
           "package": "xournal-types",
@@ -3137,6 +3419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_pencolor",
           "package": "xournal-types",
@@ -3146,6 +3429,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_pencolor",
           "normalized": "Map ByteString(Double,Double,Double,Double)",
@@ -3160,6 +3444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_thick",
           "package": "xournal-types",
@@ -3169,6 +3454,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_thick",
           "package": "xournal-types",
@@ -3181,6 +3467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_ultrathick",
           "package": "xournal-types",
@@ -3190,6 +3477,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_ultrathick",
           "package": "xournal-types",
@@ -3202,6 +3490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_veryfine",
           "package": "xournal-types",
@@ -3211,6 +3500,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_veryfine",
           "package": "xournal-types",
@@ -3223,6 +3513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_verythick",
           "package": "xournal-types",
@@ -3232,6 +3523,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "predefined_verythick",
           "package": "xournal-types",
@@ -3244,6 +3536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Predefined",
           "name": "rgbaToHEX",
           "package": "xournal-types",
@@ -3253,6 +3546,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Predefined",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Predefined",
           "name": "rgbaToHEX",
           "normalized": "(Double,Double,Double,Double)-\u003eString",
@@ -3269,6 +3563,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003erepresenting selection of xournal type \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "Select",
           "package": "xournal-types",
@@ -3278,6 +3573,7 @@
         "index": {
           "description": "representing selection of xournal type",
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "Select",
           "package": "xournal-types",
@@ -3291,6 +3587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "SeqZipper",
           "package": "xournal-types",
@@ -3299,6 +3596,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "SeqZipper",
           "package": "xournal-types",
@@ -3312,6 +3610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "ZipperSelect",
           "package": "xournal-types",
@@ -3320,6 +3619,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "ZipperSelect",
           "package": "xournal-types",
@@ -3333,6 +3633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "NoSelect",
           "package": "xournal-types",
@@ -3342,6 +3643,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "NoSelect",
           "package": "xournal-types",
@@ -3355,6 +3657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "SZ",
           "package": "xournal-types",
@@ -3364,6 +3667,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "SZ",
           "package": "xournal-types",
@@ -3377,6 +3681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "Select",
           "package": "xournal-types",
@@ -3386,6 +3691,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "Select",
           "package": "xournal-types",
@@ -3399,6 +3705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "allelems",
           "package": "xournal-types",
@@ -3408,6 +3715,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "allelems",
           "normalized": "[a]",
@@ -3422,6 +3730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "appendGoLast",
           "package": "xournal-types",
@@ -3431,6 +3740,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "appendGoLast",
           "normalized": "SeqZipper a-\u003ea-\u003eSeqZipper a",
@@ -3446,6 +3756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "chopFirst",
           "package": "xournal-types",
@@ -3455,6 +3766,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "chopFirst",
           "normalized": "SeqZipper a-\u003eMaybe(SeqZipper a)",
@@ -3470,6 +3782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "currIndex",
           "package": "xournal-types",
@@ -3479,6 +3792,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "currIndex",
           "normalized": "SeqZipper a-\u003eInt",
@@ -3494,6 +3808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "current",
           "package": "xournal-types",
@@ -3503,6 +3818,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "current",
           "normalized": "SeqZipper a-\u003ea",
@@ -3517,6 +3833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "deleteCurrent",
           "package": "xournal-types",
@@ -3526,6 +3843,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "deleteCurrent",
           "normalized": "SeqZipper a-\u003eMaybe(SeqZipper a)",
@@ -3541,6 +3859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "goFirst",
           "package": "xournal-types",
@@ -3550,6 +3869,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "goFirst",
           "normalized": "SeqZipper a-\u003eSeqZipper a",
@@ -3565,6 +3885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "goLast",
           "package": "xournal-types",
@@ -3574,6 +3895,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "goLast",
           "normalized": "SeqZipper a-\u003eSeqZipper a",
@@ -3589,6 +3911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "lengthSZ",
           "package": "xournal-types",
@@ -3598,6 +3921,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "lengthSZ",
           "normalized": "SeqZipper a-\u003eInt",
@@ -3613,6 +3937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "moveLeft",
           "package": "xournal-types",
@@ -3622,6 +3947,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "moveLeft",
           "normalized": "SeqZipper a-\u003eMaybe(SeqZipper a)",
@@ -3637,6 +3963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "moveRight",
           "package": "xournal-types",
@@ -3646,6 +3973,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "moveRight",
           "normalized": "SeqZipper a-\u003eMaybe(SeqZipper a)",
@@ -3661,6 +3989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "moveTo",
           "package": "xournal-types",
@@ -3670,6 +3999,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "moveTo",
           "normalized": "Int-\u003eSeqZipper a-\u003eMaybe(SeqZipper a)",
@@ -3685,6 +4015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "next",
           "package": "xournal-types",
@@ -3694,6 +4025,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "next",
           "normalized": "SeqZipper a-\u003eMaybe a",
@@ -3708,6 +4040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "prev",
           "package": "xournal-types",
@@ -3717,6 +4050,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "prev",
           "normalized": "SeqZipper a-\u003eMaybe a",
@@ -3731,6 +4065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "replace",
           "package": "xournal-types",
@@ -3740,6 +4075,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "replace",
           "normalized": "a-\u003eSeqZipper a-\u003eSeqZipper a",
@@ -3754,6 +4090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "selectFirst",
           "package": "xournal-types",
@@ -3763,6 +4100,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "selectFirst",
           "normalized": "ZipperSelect a-\u003eZipperSelect a",
@@ -3778,6 +4116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "singletonSZ",
           "package": "xournal-types",
@@ -3787,6 +4126,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "singletonSZ",
           "normalized": "a-\u003eSeqZipper a",
@@ -3802,6 +4142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "unSZ",
           "package": "xournal-types",
@@ -3811,6 +4152,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "unSZ",
           "normalized": "(a,(Seq a,Seq a))",
@@ -3826,6 +4168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Select",
           "name": "zipper",
           "package": "xournal-types",
@@ -3835,6 +4178,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Select",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Select",
           "name": "zipper",
           "package": "xournal-types",
@@ -3847,6 +4191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "Simple",
           "package": "xournal-types",
@@ -3855,6 +4200,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "Simple",
           "package": "xournal-types",
@@ -3868,6 +4214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "Background",
           "package": "xournal-types",
@@ -3876,6 +4223,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "Background",
           "package": "xournal-types",
@@ -3889,6 +4237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "Dimension",
           "package": "xournal-types",
@@ -3897,6 +4246,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "Dimension",
           "package": "xournal-types",
@@ -3910,6 +4260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "Layer",
           "package": "xournal-types",
@@ -3918,6 +4269,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "Layer",
           "package": "xournal-types",
@@ -3931,6 +4283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "Page",
           "package": "xournal-types",
@@ -3939,6 +4292,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "Page",
           "package": "xournal-types",
@@ -3952,6 +4306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "Stroke",
           "package": "xournal-types",
@@ -3960,6 +4315,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "Stroke",
           "package": "xournal-types",
@@ -3973,6 +4329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "Title",
           "package": "xournal-types",
@@ -3981,6 +4338,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "Title",
           "package": "xournal-types",
@@ -3994,6 +4352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "Xournal",
           "package": "xournal-types",
@@ -4002,6 +4361,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "Xournal",
           "package": "xournal-types",
@@ -4015,6 +4375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "Background",
           "package": "xournal-types",
@@ -4024,6 +4385,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "Background",
           "package": "xournal-types",
@@ -4037,6 +4399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "BackgroundPdf",
           "package": "xournal-types",
@@ -4046,6 +4409,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "BackgroundPdf",
           "package": "xournal-types",
@@ -4059,6 +4423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "Dim",
           "package": "xournal-types",
@@ -4068,6 +4433,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "Dim",
           "package": "xournal-types",
@@ -4081,6 +4447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "Layer",
           "package": "xournal-types",
@@ -4090,6 +4457,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "Layer",
           "package": "xournal-types",
@@ -4103,6 +4471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "Page",
           "package": "xournal-types",
@@ -4112,6 +4481,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "Page",
           "package": "xournal-types",
@@ -4125,6 +4495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "Stroke",
           "package": "xournal-types",
@@ -4134,6 +4505,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "Stroke",
           "package": "xournal-types",
@@ -4147,6 +4519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "VWStroke",
           "package": "xournal-types",
@@ -4156,6 +4529,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "VWStroke",
           "package": "xournal-types",
@@ -4169,6 +4543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "Xournal",
           "package": "xournal-types",
@@ -4178,6 +4553,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "Xournal",
           "package": "xournal-types",
@@ -4191,6 +4567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "bkg_color",
           "package": "xournal-types",
@@ -4200,6 +4577,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "bkg_color",
           "package": "xournal-types",
@@ -4212,6 +4590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "bkg_domain",
           "package": "xournal-types",
@@ -4221,6 +4600,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "bkg_domain",
           "package": "xournal-types",
@@ -4233,6 +4613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "bkg_filename",
           "package": "xournal-types",
@@ -4242,6 +4623,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "bkg_filename",
           "package": "xournal-types",
@@ -4254,6 +4636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "bkg_pageno",
           "package": "xournal-types",
@@ -4263,6 +4646,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "bkg_pageno",
           "package": "xournal-types",
@@ -4275,6 +4659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "bkg_style",
           "package": "xournal-types",
@@ -4284,6 +4669,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "bkg_style",
           "package": "xournal-types",
@@ -4296,6 +4682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "bkg_type",
           "package": "xournal-types",
@@ -4305,6 +4692,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "bkg_type",
           "package": "xournal-types",
@@ -4317,6 +4705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "defaultBackground",
           "package": "xournal-types",
@@ -4326,6 +4715,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "defaultBackground",
           "package": "xournal-types",
@@ -4339,6 +4729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "defaultLayer",
           "package": "xournal-types",
@@ -4348,6 +4739,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "defaultLayer",
           "package": "xournal-types",
@@ -4361,6 +4753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "defaultPage",
           "package": "xournal-types",
@@ -4370,6 +4763,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "defaultPage",
           "package": "xournal-types",
@@ -4383,6 +4777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "defaultXournal",
           "package": "xournal-types",
@@ -4392,6 +4787,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "defaultXournal",
           "package": "xournal-types",
@@ -4405,6 +4801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "dim_height",
           "package": "xournal-types",
@@ -4414,6 +4811,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "dim_height",
           "package": "xournal-types",
@@ -4426,6 +4824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "dim_width",
           "package": "xournal-types",
@@ -4435,6 +4834,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "dim_width",
           "package": "xournal-types",
@@ -4447,6 +4847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "emptyLayer",
           "package": "xournal-types",
@@ -4456,6 +4857,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "emptyLayer",
           "package": "xournal-types",
@@ -4469,6 +4871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "emptyStroke",
           "package": "xournal-types",
@@ -4478,6 +4881,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "emptyStroke",
           "package": "xournal-types",
@@ -4491,6 +4895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "emptyXournal",
           "package": "xournal-types",
@@ -4500,6 +4905,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "emptyXournal",
           "package": "xournal-types",
@@ -4513,6 +4919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "getXYtuples",
           "package": "xournal-types",
@@ -4522,6 +4929,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "getXYtuples",
           "normalized": "Stroke-\u003e[(Double,Double)]",
@@ -4537,6 +4945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "layer_strokes",
           "package": "xournal-types",
@@ -4546,6 +4955,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "layer_strokes",
           "normalized": "[Stroke]",
@@ -4560,6 +4970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "newPageFromOld",
           "package": "xournal-types",
@@ -4569,6 +4980,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "newPageFromOld",
           "normalized": "Page-\u003ePage",
@@ -4584,6 +4996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "page_bkg",
           "package": "xournal-types",
@@ -4593,6 +5006,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "page_bkg",
           "package": "xournal-types",
@@ -4605,6 +5019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "page_dim",
           "package": "xournal-types",
@@ -4614,6 +5029,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "page_dim",
           "package": "xournal-types",
@@ -4626,6 +5042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "page_layers",
           "package": "xournal-types",
@@ -4635,6 +5052,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "page_layers",
           "normalized": "[Layer]",
@@ -4649,6 +5067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "s_bkg",
           "package": "xournal-types",
@@ -4658,6 +5077,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "s_bkg",
           "package": "xournal-types",
@@ -4670,6 +5090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "s_color",
           "package": "xournal-types",
@@ -4679,6 +5100,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "s_color",
           "package": "xournal-types",
@@ -4691,6 +5113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "s_dim",
           "package": "xournal-types",
@@ -4700,6 +5123,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "s_dim",
           "package": "xournal-types",
@@ -4712,6 +5136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "s_layers",
           "package": "xournal-types",
@@ -4721,6 +5146,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "s_layers",
           "normalized": "Simple Lens Page[Layer]",
@@ -4735,6 +5161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "s_pages",
           "package": "xournal-types",
@@ -4744,6 +5171,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "s_pages",
           "normalized": "Simple Lens Xournal[Page]",
@@ -4758,6 +5186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "s_strokes",
           "package": "xournal-types",
@@ -4767,6 +5196,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "s_strokes",
           "normalized": "Simple Lens Layer[Stroke]",
@@ -4781,6 +5211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "s_title",
           "package": "xournal-types",
@@ -4790,6 +5221,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "s_title",
           "package": "xournal-types",
@@ -4802,6 +5234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "s_tool",
           "package": "xournal-types",
@@ -4811,6 +5244,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "s_tool",
           "package": "xournal-types",
@@ -4823,6 +5257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "stroke_color",
           "package": "xournal-types",
@@ -4832,6 +5267,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "stroke_color",
           "package": "xournal-types",
@@ -4844,6 +5280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "stroke_data",
           "package": "xournal-types",
@@ -4853,6 +5290,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "stroke_data",
           "normalized": "[Pair Double Double]",
@@ -4867,6 +5305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "stroke_tool",
           "package": "xournal-types",
@@ -4876,6 +5315,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "stroke_tool",
           "package": "xournal-types",
@@ -4888,6 +5328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "stroke_vwdata",
           "package": "xournal-types",
@@ -4897,6 +5338,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "stroke_vwdata",
           "normalized": "[(Double,Double,Double)]",
@@ -4911,6 +5353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "stroke_width",
           "package": "xournal-types",
@@ -4920,6 +5363,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "stroke_width",
           "package": "xournal-types",
@@ -4932,6 +5376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "xoj_pages",
           "package": "xournal-types",
@@ -4941,6 +5386,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "xoj_pages",
           "normalized": "[Page]",
@@ -4955,6 +5401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Simple",
           "name": "xoj_title",
           "package": "xournal-types",
@@ -4964,6 +5411,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Simple",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Simple",
           "name": "xoj_title",
           "package": "xournal-types",
@@ -4976,6 +5424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Util",
           "name": "Util",
           "package": "xournal-types",
@@ -4984,6 +5433,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Util",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Util",
           "name": "Util",
           "package": "xournal-types",
@@ -4997,6 +5447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Util",
           "name": "fst3",
           "package": "xournal-types",
@@ -5006,6 +5457,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Util",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Util",
           "name": "fst3",
           "normalized": "(a,b,c)-\u003ea",
@@ -5020,6 +5472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Util",
           "name": "snd3",
           "package": "xournal-types",
@@ -5029,6 +5482,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Util",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Util",
           "name": "snd3",
           "normalized": "(a,b,c)-\u003eb",
@@ -5043,6 +5497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:49 UTC 2014",
           "module": "Data.Xournal.Util",
           "name": "trd3",
           "package": "xournal-types",
@@ -5052,6 +5507,7 @@
         },
         "index": {
           "hierarchy": "Data Xournal Util",
+          "indexed": "2014-03-11T20:43:49",
           "module": "Data.Xournal.Util",
           "name": "trd3",
           "normalized": "(a,b,c)-\u003ec",

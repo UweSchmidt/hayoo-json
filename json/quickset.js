@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "quickset"
+        "phrase": "quickset",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements very fast and compact query-only maps.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:38 UTC 2014",
           "module": "Data.QuickMap",
           "name": "QuickMap",
           "package": "quickset",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module implements very fast and compact query-only maps",
           "hierarchy": "Data QuickMap",
+          "indexed": "2014-03-11T19:47:38",
           "module": "Data.QuickMap",
           "name": "QuickMap",
           "package": "quickset",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuickMaps are maps from keys to values that use a compact unboxed\n vector as the internal representation.  As such QuickMaps are always\n strict in both the keys and values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:38 UTC 2014",
           "module": "Data.QuickMap",
           "name": "QuickMap",
           "package": "quickset",
@@ -51,6 +54,7 @@
         "index": {
           "description": "QuickMaps are maps from keys to values that use compact unboxed vector as the internal representation As such QuickMaps are always strict in both the keys and values",
           "hierarchy": "Data QuickMap",
+          "indexed": "2014-03-11T19:47:38",
           "module": "Data.QuickMap",
           "name": "QuickMap",
           "package": "quickset",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list to a \u003ccode\u003e\u003ca\u003eQuickMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:38 UTC 2014",
           "module": "Data.QuickMap",
           "name": "fromList",
           "package": "quickset",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Convert list to QuickMap",
           "hierarchy": "Data QuickMap",
+          "indexed": "2014-03-11T19:47:38",
           "module": "Data.QuickMap",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eQuickMap a b",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a prefix of the given length of the given list to a\n \u003ccode\u003e\u003ca\u003eQuickMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:38 UTC 2014",
           "module": "Data.QuickMap",
           "name": "fromListN",
           "package": "quickset",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Convert prefix of the given length of the given list to QuickMap",
           "hierarchy": "Data QuickMap",
+          "indexed": "2014-03-11T19:47:38",
           "module": "Data.QuickMap",
           "name": "fromListN",
           "normalized": "Int-\u003e[(a,b)]-\u003eQuickMap a b",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an unboxed vector to a \u003ccode\u003e\u003ca\u003eQuickMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:38 UTC 2014",
           "module": "Data.QuickMap",
           "name": "fromVector",
           "package": "quickset",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Convert an unboxed vector to QuickMap",
           "hierarchy": "Data QuickMap",
+          "indexed": "2014-03-11T19:47:38",
           "module": "Data.QuickMap",
           "name": "fromVector",
           "normalized": "Vector(a,b)-\u003eQuickMap a b",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to look up a key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:38 UTC 2014",
           "module": "Data.QuickMap",
           "name": "lookup",
           "package": "quickset",
@@ -153,6 +164,7 @@
         "index": {
           "description": "Try to look up key",
           "hierarchy": "Data QuickMap",
+          "indexed": "2014-03-11T19:47:38",
           "module": "Data.QuickMap",
           "name": "lookup",
           "normalized": "a-\u003eQuickMap a b-\u003eMaybe b",
@@ -168,6 +180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the given key is in the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:38 UTC 2014",
           "module": "Data.QuickMap",
           "name": "member",
           "package": "quickset",
@@ -178,6 +191,7 @@
         "index": {
           "description": "Check whether the given key is in the map",
           "hierarchy": "Data QuickMap",
+          "indexed": "2014-03-11T19:47:38",
           "module": "Data.QuickMap",
           "name": "member",
           "normalized": "a-\u003eQuickMap a b-\u003eBool",
@@ -193,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements very fast and compact query-only sets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:38 UTC 2014",
           "module": "Data.QuickSet",
           "name": "QuickSet",
           "package": "quickset",
@@ -202,6 +217,7 @@
         "index": {
           "description": "This module implements very fast and compact query-only sets",
           "hierarchy": "Data QuickSet",
+          "indexed": "2014-03-11T19:47:38",
           "module": "Data.QuickSet",
           "name": "QuickSet",
           "package": "quickset",
@@ -216,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuickSets are sets that use a compact unboxed vector as the\n internal representation.  As such QuickSets are always strict in the\n values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:38 UTC 2014",
           "module": "Data.QuickSet",
           "name": "QuickSet",
           "package": "quickset",
@@ -225,6 +242,7 @@
         "index": {
           "description": "QuickSets are sets that use compact unboxed vector as the internal representation As such QuickSets are always strict in the values",
           "hierarchy": "Data QuickSet",
+          "indexed": "2014-03-11T19:47:38",
           "module": "Data.QuickSet",
           "name": "QuickSet",
           "package": "quickset",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list to a \u003ccode\u003e\u003ca\u003eQuickSet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:38 UTC 2014",
           "module": "Data.QuickSet",
           "name": "fromList",
           "package": "quickset",
@@ -249,6 +268,7 @@
         "index": {
           "description": "Convert list to QuickSet",
           "hierarchy": "Data QuickSet",
+          "indexed": "2014-03-11T19:47:38",
           "module": "Data.QuickSet",
           "name": "fromList",
           "normalized": "[a]-\u003eQuickSet a",
@@ -265,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a prefix of the given length of the given list to a\n \u003ccode\u003e\u003ca\u003eQuickSet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:38 UTC 2014",
           "module": "Data.QuickSet",
           "name": "fromListN",
           "package": "quickset",
@@ -275,6 +296,7 @@
         "index": {
           "description": "Convert prefix of the given length of the given list to QuickSet",
           "hierarchy": "Data QuickSet",
+          "indexed": "2014-03-11T19:47:38",
           "module": "Data.QuickSet",
           "name": "fromListN",
           "normalized": "Int-\u003e[a]-\u003eQuickSet a",
@@ -291,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an unboxed vector to a \u003ccode\u003e\u003ca\u003eQuickSet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:38 UTC 2014",
           "module": "Data.QuickSet",
           "name": "fromVector",
           "package": "quickset",
@@ -301,6 +324,7 @@
         "index": {
           "description": "Convert an unboxed vector to QuickSet",
           "hierarchy": "Data QuickSet",
+          "indexed": "2014-03-11T19:47:38",
           "module": "Data.QuickSet",
           "name": "fromVector",
           "normalized": "Vector a-\u003eQuickSet a",
@@ -317,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the given value is in the set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:38 UTC 2014",
           "module": "Data.QuickSet",
           "name": "member",
           "package": "quickset",
@@ -327,6 +352,7 @@
         "index": {
           "description": "Check whether the given value is in the set",
           "hierarchy": "Data QuickSet",
+          "indexed": "2014-03-11T19:47:38",
           "module": "Data.QuickSet",
           "name": "member",
           "normalized": "a-\u003eQuickSet a-\u003eBool",

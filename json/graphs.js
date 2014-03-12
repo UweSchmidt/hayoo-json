@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "graphs"
+        "phrase": "graphs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.AdjacencyList",
           "name": "AdjacencyList",
           "package": "graphs",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Graph AdjacencyList",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.AdjacencyList",
           "name": "AdjacencyList",
           "package": "graphs",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.AdjacencyList",
           "name": "AdjacencyList",
           "package": "graphs",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Graph AdjacencyList",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.AdjacencyList",
           "name": "AdjacencyList",
           "package": "graphs",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal definition: \u003ccode\u003e\u003ca\u003esource\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003etarget\u003c/a\u003e\u003c/code\u003e, and either \u003ccode\u003e\u003ca\u003eadjacentVertices\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ccode\u003e\u003ca\u003eoutEdges\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003edefaultOutEdges\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eoutEdges\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.AdjacencyList",
           "name": "AdjacencyListGraph",
           "package": "graphs",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Minimal definition source target and either adjacentVertices with outEdges defaultOutEdges or outEdges",
           "hierarchy": "Data Graph AdjacencyList",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.AdjacencyList",
           "name": "AdjacencyListGraph",
           "package": "graphs",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.AdjacencyList",
           "name": "AdjacencyList",
           "package": "graphs",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data Graph AdjacencyList",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.AdjacencyList",
           "name": "AdjacencyList",
           "package": "graphs",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.AdjacencyList",
           "name": "ask",
           "package": "graphs",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data Graph AdjacencyList",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.AdjacencyList",
           "name": "ask",
           "normalized": "AdjacencyList a(Array a[a])",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.AdjacencyList",
           "name": "runAdjacencyList",
           "package": "graphs",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data Graph AdjacencyList",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.AdjacencyList",
           "name": "runAdjacencyList",
           "normalized": "Array a[a]-\u003eb",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.AdjacencyMatrix",
           "name": "AdjacencyMatrix",
           "package": "graphs",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Data Graph AdjacencyMatrix",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.AdjacencyMatrix",
           "name": "AdjacencyMatrix",
           "package": "graphs",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.AdjacencyMatrix",
           "name": "AdjacencyMatrix",
           "package": "graphs",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Data Graph AdjacencyMatrix",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.AdjacencyMatrix",
           "name": "AdjacencyMatrix",
           "package": "graphs",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.AdjacencyMatrix",
           "name": "AdjacencyMatrixGraph",
           "package": "graphs",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Data Graph AdjacencyMatrix",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.AdjacencyMatrix",
           "name": "AdjacencyMatrixGraph",
           "package": "graphs",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.AdjacencyMatrix",
           "name": "AdjacencyMatrix",
           "package": "graphs",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Data Graph AdjacencyMatrix",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.AdjacencyMatrix",
           "name": "AdjacencyMatrix",
           "package": "graphs",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.AdjacencyMatrix",
           "name": "ask",
           "package": "graphs",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Data Graph AdjacencyMatrix",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.AdjacencyMatrix",
           "name": "ask",
           "normalized": "AdjacencyMatrix a b(a(b,b)Bool)",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.AdjacencyMatrix",
           "name": "runAdjacencyMatrix",
           "package": "graphs",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Data Graph AdjacencyMatrix",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.AdjacencyMatrix",
           "name": "runAdjacencyMatrix",
           "normalized": "a(b,b)Bool-\u003ec",
@@ -285,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBreadth-first search\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Algorithm.BreadthFirstSearch",
           "name": "BreadthFirstSearch",
           "package": "graphs",
@@ -294,6 +319,7 @@
         "index": {
           "description": "Breadth-first search",
           "hierarchy": "Data Graph Algorithm BreadthFirstSearch",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Algorithm.BreadthFirstSearch",
           "name": "BreadthFirstSearch",
           "package": "graphs",
@@ -308,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreadth first search visitor \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Algorithm.BreadthFirstSearch",
           "name": "Bfs",
           "package": "graphs",
@@ -317,6 +344,7 @@
         "index": {
           "description": "Breadth first search visitor",
           "hierarchy": "Data Graph Algorithm BreadthFirstSearch",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Algorithm.BreadthFirstSearch",
           "name": "Bfs",
           "package": "graphs",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Algorithm.BreadthFirstSearch",
           "name": "Bfs",
           "package": "graphs",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Algorithm BreadthFirstSearch",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Algorithm.BreadthFirstSearch",
           "name": "Bfs",
           "package": "graphs",
@@ -352,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Algorithm.BreadthFirstSearch",
           "name": "bfs",
           "package": "graphs",
@@ -361,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Algorithm BreadthFirstSearch",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Algorithm.BreadthFirstSearch",
           "name": "bfs",
           "normalized": "Bfs a b-\u003eVertex a-\u003ea b",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Algorithm.BreadthFirstSearch",
           "name": "blackTarget",
           "package": "graphs",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Algorithm BreadthFirstSearch",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Algorithm.BreadthFirstSearch",
           "name": "blackTarget",
           "normalized": "Edge a-\u003ea b",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Algorithm.BreadthFirstSearch",
           "name": "enterEdge",
           "package": "graphs",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Algorithm BreadthFirstSearch",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Algorithm.BreadthFirstSearch",
           "name": "enterEdge",
           "normalized": "Edge a-\u003ea b",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Algorithm.BreadthFirstSearch",
           "name": "enterVertex",
           "package": "graphs",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Algorithm BreadthFirstSearch",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Algorithm.BreadthFirstSearch",
           "name": "enterVertex",
           "normalized": "Vertex a-\u003ea b",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Algorithm.BreadthFirstSearch",
           "name": "exitVertex",
           "package": "graphs",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Algorithm BreadthFirstSearch",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Algorithm.BreadthFirstSearch",
           "name": "exitVertex",
           "normalized": "Vertex a-\u003ea b",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Algorithm.BreadthFirstSearch",
           "name": "grayTarget",
           "package": "graphs",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Algorithm BreadthFirstSearch",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Algorithm.BreadthFirstSearch",
           "name": "grayTarget",
           "normalized": "Edge a-\u003ea b",
@@ -496,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDepth-first search\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Algorithm.DepthFirstSearch",
           "name": "DepthFirstSearch",
           "package": "graphs",
@@ -505,6 +548,7 @@
         "index": {
           "description": "Depth-first search",
           "hierarchy": "Data Graph Algorithm DepthFirstSearch",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Algorithm.DepthFirstSearch",
           "name": "DepthFirstSearch",
           "package": "graphs",
@@ -518,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Algorithm.DepthFirstSearch",
           "name": "Dfs",
           "package": "graphs",
@@ -526,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Algorithm DepthFirstSearch",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Algorithm.DepthFirstSearch",
           "name": "Dfs",
           "package": "graphs",
@@ -539,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Algorithm.DepthFirstSearch",
           "name": "Dfs",
           "package": "graphs",
@@ -548,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Algorithm DepthFirstSearch",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Algorithm.DepthFirstSearch",
           "name": "Dfs",
           "package": "graphs",
@@ -561,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Algorithm.DepthFirstSearch",
           "name": "blackTarget",
           "package": "graphs",
@@ -570,6 +619,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Algorithm DepthFirstSearch",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Algorithm.DepthFirstSearch",
           "name": "blackTarget",
           "normalized": "Edge a-\u003ea b",
@@ -585,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Algorithm.DepthFirstSearch",
           "name": "dfs",
           "package": "graphs",
@@ -594,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Algorithm DepthFirstSearch",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Algorithm.DepthFirstSearch",
           "name": "dfs",
           "normalized": "Dfs a b-\u003eVertex a-\u003ea b",
@@ -608,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Algorithm.DepthFirstSearch",
           "name": "enterEdge",
           "package": "graphs",
@@ -617,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Algorithm DepthFirstSearch",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Algorithm.DepthFirstSearch",
           "name": "enterEdge",
           "normalized": "Edge a-\u003ea b",
@@ -632,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Algorithm.DepthFirstSearch",
           "name": "enterVertex",
           "package": "graphs",
@@ -641,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Algorithm DepthFirstSearch",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Algorithm.DepthFirstSearch",
           "name": "enterVertex",
           "normalized": "Vertex a-\u003ea b",
@@ -656,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Algorithm.DepthFirstSearch",
           "name": "exitVertex",
           "package": "graphs",
@@ -665,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Algorithm DepthFirstSearch",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Algorithm.DepthFirstSearch",
           "name": "exitVertex",
           "normalized": "Vertex a-\u003ea b",
@@ -680,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Algorithm.DepthFirstSearch",
           "name": "grayTarget",
           "package": "graphs",
@@ -689,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Algorithm DepthFirstSearch",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Algorithm.DepthFirstSearch",
           "name": "grayTarget",
           "normalized": "Edge a-\u003ea b",
@@ -704,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.AdjacencyList",
           "name": "AdjacencyList",
           "package": "graphs",
@@ -712,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class AdjacencyList",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.AdjacencyList",
           "name": "AdjacencyList",
           "package": "graphs",
@@ -726,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal definition: \u003ccode\u003e\u003ca\u003esource\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003etarget\u003c/a\u003e\u003c/code\u003e, and either \u003ccode\u003e\u003ca\u003eadjacentVertices\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ccode\u003e\u003ca\u003eoutEdges\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003edefaultOutEdges\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eoutEdges\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.AdjacencyList",
           "name": "AdjacencyListGraph",
           "package": "graphs",
@@ -735,6 +798,7 @@
         "index": {
           "description": "Minimal definition source target and either adjacentVertices with outEdges defaultOutEdges or outEdges",
           "hierarchy": "Data Graph Class AdjacencyList",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.AdjacencyList",
           "name": "AdjacencyListGraph",
           "package": "graphs",
@@ -748,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.AdjacencyList",
           "name": "adjacentVertices",
           "package": "graphs",
@@ -757,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class AdjacencyList",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.AdjacencyList",
           "name": "adjacentVertices",
           "normalized": "Vertex a-\u003ea[Vertex a]",
@@ -772,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.AdjacencyList",
           "name": "defaultOutEdges",
           "package": "graphs",
@@ -781,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class AdjacencyList",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.AdjacencyList",
           "name": "defaultOutEdges",
           "normalized": "Vertex a-\u003ea[(Vertex a,Vertex a)]",
@@ -796,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.AdjacencyList",
           "name": "outDegree",
           "package": "graphs",
@@ -805,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class AdjacencyList",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.AdjacencyList",
           "name": "outDegree",
           "normalized": "Vertex a-\u003ea Int",
@@ -820,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.AdjacencyList",
           "name": "outEdges",
           "package": "graphs",
@@ -829,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class AdjacencyList",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.AdjacencyList",
           "name": "outEdges",
           "normalized": "Vertex a-\u003ea[Edge a]",
@@ -844,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.AdjacencyList",
           "name": "source",
           "package": "graphs",
@@ -853,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class AdjacencyList",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.AdjacencyList",
           "name": "source",
           "normalized": "Edge a-\u003ea(Vertex a)",
@@ -867,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.AdjacencyList",
           "name": "target",
           "package": "graphs",
@@ -876,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class AdjacencyList",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.AdjacencyList",
           "name": "target",
           "normalized": "Edge a-\u003ea(Vertex a)",
@@ -890,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.AdjacencyMatrix",
           "name": "AdjacencyMatrix",
           "package": "graphs",
@@ -898,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class AdjacencyMatrix",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.AdjacencyMatrix",
           "name": "AdjacencyMatrix",
           "package": "graphs",
@@ -911,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.AdjacencyMatrix",
           "name": "AdjacencyMatrixGraph",
           "package": "graphs",
@@ -919,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class AdjacencyMatrix",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.AdjacencyMatrix",
           "name": "AdjacencyMatrixGraph",
           "package": "graphs",
@@ -932,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.AdjacencyMatrix",
           "name": "edge",
           "package": "graphs",
@@ -941,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class AdjacencyMatrix",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.AdjacencyMatrix",
           "name": "edge",
           "normalized": "Vertex a-\u003eVertex a-\u003ea(Maybe(Edge a))",
@@ -955,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.Bidirectional",
           "name": "Bidirectional",
           "package": "graphs",
@@ -963,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class Bidirectional",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.Bidirectional",
           "name": "Bidirectional",
           "package": "graphs",
@@ -976,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.Bidirectional",
           "name": "BidirectionalGraph",
           "package": "graphs",
@@ -984,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class Bidirectional",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.Bidirectional",
           "name": "BidirectionalGraph",
           "package": "graphs",
@@ -997,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.Bidirectional",
           "name": "degree",
           "package": "graphs",
@@ -1006,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class Bidirectional",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.Bidirectional",
           "name": "degree",
           "normalized": "Vertex a-\u003ea Int",
@@ -1020,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.Bidirectional",
           "name": "inDegree",
           "package": "graphs",
@@ -1029,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class Bidirectional",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.Bidirectional",
           "name": "inDegree",
           "normalized": "Vertex a-\u003ea Int",
@@ -1044,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.Bidirectional",
           "name": "inEdges",
           "package": "graphs",
@@ -1053,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class Bidirectional",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.Bidirectional",
           "name": "inEdges",
           "normalized": "Vertex a-\u003ea[Edge a]",
@@ -1068,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.Bidirectional",
           "name": "incidentEdges",
           "package": "graphs",
@@ -1077,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class Bidirectional",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.Bidirectional",
           "name": "incidentEdges",
           "normalized": "Vertex a-\u003ea[Edge a]",
@@ -1092,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.EdgeEnumerable",
           "name": "EdgeEnumerable",
           "package": "graphs",
@@ -1100,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class EdgeEnumerable",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.EdgeEnumerable",
           "name": "EdgeEnumerable",
           "package": "graphs",
@@ -1113,6 +1209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.EdgeEnumerable",
           "name": "EdgeEnumerableGraph",
           "package": "graphs",
@@ -1121,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class EdgeEnumerable",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.EdgeEnumerable",
           "name": "EdgeEnumerableGraph",
           "package": "graphs",
@@ -1135,6 +1233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(e)\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.EdgeEnumerable",
           "name": "edges",
           "package": "graphs",
@@ -1144,6 +1243,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class EdgeEnumerable",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.EdgeEnumerable",
           "name": "edges",
           "normalized": "a[Edge a]",
@@ -1158,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.VertexEnumerable",
           "name": "VertexEnumerable",
           "package": "graphs",
@@ -1166,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class VertexEnumerable",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.VertexEnumerable",
           "name": "VertexEnumerable",
           "package": "graphs",
@@ -1179,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.VertexEnumerable",
           "name": "VertexEnumerableGraph",
           "package": "graphs",
@@ -1187,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class VertexEnumerable",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.VertexEnumerable",
           "name": "VertexEnumerableGraph",
           "package": "graphs",
@@ -1201,6 +1305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(v)\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class.VertexEnumerable",
           "name": "vertices",
           "package": "graphs",
@@ -1210,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class VertexEnumerable",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class.VertexEnumerable",
           "name": "vertices",
           "normalized": "a[Vertex a]",
@@ -1224,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class",
           "name": "Class",
           "package": "graphs",
@@ -1232,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class",
           "name": "Class",
           "package": "graphs",
@@ -1245,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class",
           "name": "EdgeMap",
           "package": "graphs",
@@ -1253,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class",
           "name": "EdgeMap",
           "package": "graphs",
@@ -1266,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class",
           "name": "Graph",
           "package": "graphs",
@@ -1274,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class",
           "name": "Graph",
           "package": "graphs",
@@ -1287,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class",
           "name": "VertexMap",
           "package": "graphs",
@@ -1295,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class",
           "name": "VertexMap",
           "package": "graphs",
@@ -1308,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class",
           "name": "edgeMap",
           "package": "graphs",
@@ -1317,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class",
           "name": "edgeMap",
           "normalized": "a-\u003eb(EdgeMap b a)",
@@ -1332,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class",
           "name": "liftEdgeMap",
           "package": "graphs",
@@ -1341,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class",
           "name": "liftEdgeMap",
           "normalized": "a-\u003eb c(EdgeMap(b c)a)",
@@ -1356,6 +1474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class",
           "name": "liftVertexMap",
           "package": "graphs",
@@ -1365,6 +1484,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class",
           "name": "liftVertexMap",
           "normalized": "a-\u003eb c(VertexMap(b c)a)",
@@ -1380,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Class",
           "name": "vertexMap",
           "package": "graphs",
@@ -1389,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Class",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Class",
           "name": "vertexMap",
           "normalized": "a-\u003eb(VertexMap b a)",
@@ -1404,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Dual",
           "name": "Dual",
           "package": "graphs",
@@ -1412,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Dual",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Dual",
           "name": "Dual",
           "package": "graphs",
@@ -1425,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Dual",
           "name": "Dual",
           "package": "graphs",
@@ -1433,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Dual",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Dual",
           "name": "Dual",
           "package": "graphs",
@@ -1446,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Dual",
           "name": "Dual",
           "package": "graphs",
@@ -1455,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Dual",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Dual",
           "name": "Dual",
           "package": "graphs",
@@ -1468,6 +1596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.Dual",
           "name": "runDual",
           "package": "graphs",
@@ -1477,6 +1606,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Dual",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.Dual",
           "name": "runDual",
           "package": "graphs",
@@ -1491,6 +1621,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTotal transient monadic maps, used to track information about vertices\n and edges in a graph\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.PropertyMap",
           "name": "PropertyMap",
           "package": "graphs",
@@ -1500,6 +1631,7 @@
         "index": {
           "description": "Total transient monadic maps used to track information about vertices and edges in graph",
           "hierarchy": "Data Graph PropertyMap",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.PropertyMap",
           "name": "PropertyMap",
           "package": "graphs",
@@ -1513,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.PropertyMap",
           "name": "PropertyMap",
           "package": "graphs",
@@ -1521,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Data Graph PropertyMap",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.PropertyMap",
           "name": "PropertyMap",
           "package": "graphs",
@@ -1534,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.PropertyMap",
           "name": "PropertyMap",
           "package": "graphs",
@@ -1543,6 +1678,7 @@
         },
         "index": {
           "hierarchy": "Data Graph PropertyMap",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.PropertyMap",
           "name": "PropertyMap",
           "package": "graphs",
@@ -1556,6 +1692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.PropertyMap",
           "name": "getP",
           "package": "graphs",
@@ -1565,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "Data Graph PropertyMap",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.PropertyMap",
           "name": "getP",
           "normalized": "a-\u003eb c",
@@ -1579,6 +1717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.PropertyMap",
           "name": "intPropertyMap",
           "package": "graphs",
@@ -1588,6 +1727,7 @@
         },
         "index": {
           "hierarchy": "Data Graph PropertyMap",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.PropertyMap",
           "name": "intPropertyMap",
           "normalized": "a-\u003ePropertyMap b Int a",
@@ -1603,6 +1743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.PropertyMap",
           "name": "liftPropertyMap",
           "package": "graphs",
@@ -1612,6 +1753,7 @@
         },
         "index": {
           "hierarchy": "Data Graph PropertyMap",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.PropertyMap",
           "name": "liftPropertyMap",
           "normalized": "PropertyMap a b c-\u003ePropertyMap(d a)b c",
@@ -1627,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.PropertyMap",
           "name": "modifyP",
           "package": "graphs",
@@ -1636,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "Data Graph PropertyMap",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.PropertyMap",
           "name": "modifyP",
           "normalized": "PropertyMap a b c-\u003eb-\u003e(c-\u003ec)-\u003ea(PropertyMap a b c)",
@@ -1650,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.PropertyMap",
           "name": "propertyMap",
           "package": "graphs",
@@ -1659,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "Data Graph PropertyMap",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.PropertyMap",
           "name": "propertyMap",
           "normalized": "a-\u003ePropertyMap b c a",
@@ -1674,6 +1820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:20:54 UTC 2014",
           "module": "Data.Graph.PropertyMap",
           "name": "putP",
           "package": "graphs",
@@ -1683,6 +1830,7 @@
         },
         "index": {
           "hierarchy": "Data Graph PropertyMap",
+          "indexed": "2014-03-11T18:20:54",
           "module": "Data.Graph.PropertyMap",
           "name": "putP",
           "normalized": "a-\u003eb-\u003ec(PropertyMap c a b)",

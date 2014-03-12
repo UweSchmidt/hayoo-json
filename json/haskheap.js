@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskheap"
+        "phrase": "haskheap",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA library for interfacing with the refheap (https:\u003cem/\u003ewww.refheap.com) API.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:33:11 UTC 2014",
           "module": "Network.Haskheap",
           "name": "Haskheap",
           "package": "haskheap",
@@ -28,6 +29,7 @@
         "index": {
           "description": "library for interfacing with the refheap https www.refheap.com API",
           "hierarchy": "Network Haskheap",
+          "indexed": "2014-03-11T18:33:11",
           "module": "Network.Haskheap",
           "name": "Haskheap",
           "package": "haskheap",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple error box so I can parse refheap error messages into something useful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:11 UTC 2014",
           "module": "Network.Haskheap",
           "name": "Error",
           "package": "haskheap",
@@ -51,6 +54,7 @@
         "index": {
           "description": "simple error box so can parse refheap error messages into something useful",
           "hierarchy": "Network Haskheap",
+          "indexed": "2014-03-11T18:33:11",
           "module": "Network.Haskheap",
           "name": "Error",
           "package": "haskheap",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of as successful request (either empty or a paste).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:11 UTC 2014",
           "module": "Network.Haskheap",
           "name": "Success",
           "package": "haskheap",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Result of as successful request either empty or paste",
           "hierarchy": "Network Haskheap",
+          "indexed": "2014-03-11T18:33:11",
           "module": "Network.Haskheap",
           "name": "Success",
           "package": "haskheap",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperation was successful, but response is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:11 UTC 2014",
           "module": "Network.Haskheap",
           "name": "Empty",
           "package": "haskheap",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Operation was successful but response is empty",
           "hierarchy": "Network Haskheap",
+          "indexed": "2014-03-11T18:33:11",
           "module": "Network.Haskheap",
           "name": "Empty",
           "package": "haskheap",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:11 UTC 2014",
           "module": "Network.Haskheap",
           "name": "Error",
           "package": "haskheap",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Network Haskheap",
+          "indexed": "2014-03-11T18:33:11",
           "module": "Network.Haskheap",
           "name": "Error",
           "package": "haskheap",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA string was returned by the API that can't be represented as a paste.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:11 UTC 2014",
           "module": "Network.Haskheap",
           "name": "Line",
           "package": "haskheap",
@@ -144,6 +155,7 @@
         "index": {
           "description": "string was returned by the API that can be represented as paste",
           "hierarchy": "Network Haskheap",
+          "indexed": "2014-03-11T18:33:11",
           "module": "Network.Haskheap",
           "name": "Line",
           "package": "haskheap",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:33:11 UTC 2014",
           "module": "Network.Haskheap",
           "name": "Paste",
           "package": "haskheap",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Network Haskheap",
+          "indexed": "2014-03-11T18:33:11",
           "module": "Network.Haskheap",
           "name": "Paste",
           "package": "haskheap",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new paste.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:11 UTC 2014",
           "module": "Network.Haskheap",
           "name": "createPaste",
           "package": "haskheap",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Create new paste",
           "hierarchy": "Network Haskheap",
+          "indexed": "2014-03-11T18:33:11",
           "module": "Network.Haskheap",
           "name": "createPaste",
           "normalized": "Contents-\u003eBool-\u003eLanguage-\u003eMaybe Auth-\u003eIO(Either Error Success)",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a paste. If it fails for some reason, will return\n the error message from refheap's API wrapped in Maybe, otherwise Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:11 UTC 2014",
           "module": "Network.Haskheap",
           "name": "deletePaste",
           "package": "haskheap",
@@ -216,6 +233,7 @@
         "index": {
           "description": "Delete paste If it fails for some reason will return the error message from refheap API wrapped in Maybe otherwise Nothing",
           "hierarchy": "Network Haskheap",
+          "indexed": "2014-03-11T18:33:11",
           "module": "Network.Haskheap",
           "name": "deletePaste",
           "normalized": "PasteID-\u003eAuth-\u003eIO(Either Error Success)",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEdit a paste.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:11 UTC 2014",
           "module": "Network.Haskheap",
           "name": "editPaste",
           "package": "haskheap",
@@ -242,6 +261,7 @@
         "index": {
           "description": "Edit paste",
           "hierarchy": "Network Haskheap",
+          "indexed": "2014-03-11T18:33:11",
           "module": "Network.Haskheap",
           "name": "editPaste",
           "normalized": "PasteID-\u003eContents-\u003eBool-\u003eLanguage-\u003eAuth-\u003eIO(Either Error Success)",
@@ -258,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFork a paste.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:11 UTC 2014",
           "module": "Network.Haskheap",
           "name": "forkPaste",
           "package": "haskheap",
@@ -268,6 +289,7 @@
         "index": {
           "description": "Fork paste",
           "hierarchy": "Network Haskheap",
+          "indexed": "2014-03-11T18:33:11",
           "module": "Network.Haskheap",
           "name": "forkPaste",
           "normalized": "PasteID-\u003eAuth-\u003eIO(Either Error Success)",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBody of the paste.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:11 UTC 2014",
           "module": "Network.Haskheap",
           "name": "getBody",
           "package": "haskheap",
@@ -294,6 +317,7 @@
         "index": {
           "description": "Body of the paste",
           "hierarchy": "Network Haskheap",
+          "indexed": "2014-03-11T18:33:11",
           "module": "Network.Haskheap",
           "name": "getBody",
           "package": "haskheap",
@@ -308,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime the paste was created.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:11 UTC 2014",
           "module": "Network.Haskheap",
           "name": "getDate",
           "package": "haskheap",
@@ -318,6 +343,7 @@
         "index": {
           "description": "Time the paste was created",
           "hierarchy": "Network Haskheap",
+          "indexed": "2014-03-11T18:33:11",
           "module": "Network.Haskheap",
           "name": "getDate",
           "package": "haskheap",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the highlighted body of a paste. This does not include theme css, just raw HTML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:11 UTC 2014",
           "module": "Network.Haskheap",
           "name": "getHighlightedPaste",
           "package": "haskheap",
@@ -342,6 +369,7 @@
         "index": {
           "description": "Get the highlighted body of paste This does not include theme css just raw HTML",
           "hierarchy": "Network Haskheap",
+          "indexed": "2014-03-11T18:33:11",
           "module": "Network.Haskheap",
           "name": "getHighlightedPaste",
           "normalized": "PasteID-\u003eIO(Either Error Success)",
@@ -358,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eID of the paste (may be numeric or hash or sorts).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:11 UTC 2014",
           "module": "Network.Haskheap",
           "name": "getID",
           "package": "haskheap",
@@ -368,6 +397,7 @@
         "index": {
           "description": "ID of the paste may be numeric or hash or sorts",
           "hierarchy": "Network Haskheap",
+          "indexed": "2014-03-11T18:33:11",
           "module": "Network.Haskheap",
           "name": "getID",
           "package": "haskheap",
@@ -382,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe language of the paste.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:11 UTC 2014",
           "module": "Network.Haskheap",
           "name": "getLanguage",
           "package": "haskheap",
@@ -392,6 +423,7 @@
         "index": {
           "description": "The language of the paste",
           "hierarchy": "Network Haskheap",
+          "indexed": "2014-03-11T18:33:11",
           "module": "Network.Haskheap",
           "name": "getLanguage",
           "package": "haskheap",
@@ -406,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLines in the paste.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:11 UTC 2014",
           "module": "Network.Haskheap",
           "name": "getLines",
           "package": "haskheap",
@@ -416,6 +449,7 @@
         "index": {
           "description": "Lines in the paste",
           "hierarchy": "Network Haskheap",
+          "indexed": "2014-03-11T18:33:11",
           "module": "Network.Haskheap",
           "name": "getLines",
           "package": "haskheap",
@@ -430,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a paste from refheap. Will return IO Nothing if the paste doesn't exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:11 UTC 2014",
           "module": "Network.Haskheap",
           "name": "getPaste",
           "package": "haskheap",
@@ -440,6 +475,7 @@
         "index": {
           "description": "Get paste from refheap Will return IO Nothing if the paste doesn exist",
           "hierarchy": "Network Haskheap",
+          "indexed": "2014-03-11T18:33:11",
           "module": "Network.Haskheap",
           "name": "getPaste",
           "normalized": "PasteID-\u003eIO(Either Error Success)",
@@ -456,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether or not the paste is Private. True is yes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:11 UTC 2014",
           "module": "Network.Haskheap",
           "name": "getPrivate",
           "package": "haskheap",
@@ -466,6 +503,7 @@
         "index": {
           "description": "Whether or not the paste is Private True is yes",
           "hierarchy": "Network Haskheap",
+          "indexed": "2014-03-11T18:33:11",
           "module": "Network.Haskheap",
           "name": "getPrivate",
           "package": "haskheap",
@@ -480,6 +518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURL of the paste.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:11 UTC 2014",
           "module": "Network.Haskheap",
           "name": "getURL",
           "package": "haskheap",
@@ -490,6 +529,7 @@
         "index": {
           "description": "URL of the paste",
           "hierarchy": "Network Haskheap",
+          "indexed": "2014-03-11T18:33:11",
           "module": "Network.Haskheap",
           "name": "getURL",
           "package": "haskheap",
@@ -504,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser who created the paste. Nothing indicates anonymous.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:33:11 UTC 2014",
           "module": "Network.Haskheap",
           "name": "getUser",
           "package": "haskheap",
@@ -514,6 +555,7 @@
         "index": {
           "description": "User who created the paste Nothing indicates anonymous",
           "hierarchy": "Network Haskheap",
+          "indexed": "2014-03-11T18:33:11",
           "module": "Network.Haskheap",
           "name": "getUser",
           "package": "haskheap",

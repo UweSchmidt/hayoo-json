@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cpphs"
+        "phrase": "cpphs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInclude the interface that is exported\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "Cpphs",
           "package": "cpphs",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Include the interface that is exported",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "Cpphs",
           "package": "cpphs",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions representable as Booleans.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "BoolOptions",
           "package": "cpphs",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Options representable as Booleans",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "BoolOptions",
           "package": "cpphs",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCpphs options structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "CpphsOptions",
           "package": "cpphs",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Cpphs options structure",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "CpphsOptions",
           "package": "cpphs",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource positions contain a filename, line, column, and an\n   inclusion point, which is itself another source position,\n   recursively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "Posn",
           "package": "cpphs",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Source positions contain filename line column and an inclusion point which is itself another source position recursively",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "Posn",
           "package": "cpphs",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "BoolOptions",
           "package": "cpphs",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "BoolOptions",
           "package": "cpphs",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "CpphsOptions",
           "package": "cpphs",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "CpphsOptions",
           "package": "cpphs",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "Pn",
           "package": "cpphs",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "Pn",
           "package": "cpphs",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement column number by given quantity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "addcol",
           "package": "cpphs",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Increment column number by given quantity",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "addcol",
           "normalized": "Int-\u003ePosn-\u003ePosn",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePermit stringise # and catenate ## operators?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "ansi",
           "package": "cpphs",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Permit stringise and catenate operators",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "ansi",
           "package": "cpphs",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "boolopts",
           "package": "cpphs",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "boolopts",
           "package": "cpphs",
@@ -246,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion from a cpp-style \u003ca/\u003e to haskell-style pragma.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "cpp2hask",
           "package": "cpphs",
@@ -256,6 +277,7 @@
         "index": {
           "description": "Conversion from cpp-style to haskell-style pragma",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "cpp2hask",
           "normalized": "String-\u003eString",
@@ -271,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a first pass of cpp, evaluating #ifdef's and processing #include's,\n   whilst taking account of #define's and #undef's as we encounter them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "cppIfdef",
           "package": "cpphs",
@@ -280,6 +303,7 @@
         "index": {
           "description": "Run first pass of cpp evaluating ifdef and processing include whilst taking account of define and undef as we encounter them",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "cppIfdef",
           "normalized": "FilePath-\u003e[(String,String)]-\u003e[String]-\u003eBoolOptions-\u003eString-\u003eIO[(Posn,String)]",
@@ -296,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecpp-style printing of file position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "cppline",
           "package": "cpphs",
@@ -306,6 +331,7 @@
         "index": {
           "description": "cpp-style printing of file position",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "cppline",
           "normalized": "Posn-\u003eString",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault settings of boolean options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "defaultBoolOptions",
           "package": "cpphs",
@@ -331,6 +358,7 @@
         "index": {
           "description": "Default settings of boolean options",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "defaultBoolOptions",
           "package": "cpphs",
@@ -345,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "defaultCpphsOptions",
           "package": "cpphs",
@@ -355,6 +384,7 @@
         "index": {
           "description": "Default options",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "defaultCpphsOptions",
           "package": "cpphs",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "defines",
           "package": "cpphs",
@@ -377,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "defines",
           "normalized": "[(String,String)]",
@@ -392,6 +424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject the directory of the filename.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "directory",
           "package": "cpphs",
@@ -402,6 +435,7 @@
         "index": {
           "description": "Project the directory of the filename",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "directory",
           "normalized": "Posn-\u003eFilePath",
@@ -417,6 +451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject the filename.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "filename",
           "package": "cpphs",
@@ -427,6 +462,7 @@
         "index": {
           "description": "Project the filename",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "filename",
           "normalized": "Posn-\u003eString",
@@ -442,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite #line or {-# LINE #-} ?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "hashline",
           "package": "cpphs",
@@ -452,6 +489,7 @@
         "index": {
           "description": "Write line or LINE",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "hashline",
           "package": "cpphs",
@@ -465,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehaskell-style printing of file position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "haskline",
           "package": "cpphs",
@@ -475,6 +514,7 @@
         "index": {
           "description": "haskell-style printing of file position",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "haskline",
           "normalized": "Posn-\u003eString",
@@ -489,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "includes",
           "package": "cpphs",
@@ -498,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "includes",
           "normalized": "[String]",
@@ -512,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "infiles",
           "package": "cpphs",
@@ -521,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "infiles",
           "normalized": "[FilePath]",
@@ -536,6 +580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLex input as Haskell code?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "lang",
           "package": "cpphs",
@@ -546,6 +591,7 @@
         "index": {
           "description": "Lex input as Haskell code",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "lang",
           "package": "cpphs",
@@ -559,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetain newlines in macro expansions?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "layout",
           "package": "cpphs",
@@ -569,6 +616,7 @@
         "index": {
           "description": "Retain newlines in macro expansions",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "layout",
           "package": "cpphs",
@@ -582,6 +630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject the line number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "lineno",
           "package": "cpphs",
@@ -592,6 +641,7 @@
         "index": {
           "description": "Project the line number",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "lineno",
           "normalized": "Posn-\u003eInt",
@@ -607,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove literate markup?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "literate",
           "package": "cpphs",
@@ -617,6 +668,7 @@
         "index": {
           "description": "Remove literate markup",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "literate",
           "package": "cpphs",
@@ -630,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlace #line droppings in output?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "locations",
           "package": "cpphs",
@@ -640,6 +693,7 @@
         "index": {
           "description": "Place line droppings in output",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "locations",
           "package": "cpphs",
@@ -653,6 +707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWalk through the document, replacing calls of macros with the expanded RHS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "macroPass",
           "package": "cpphs",
@@ -662,6 +717,7 @@
         "index": {
           "description": "Walk through the document replacing calls of macros with the expanded RHS",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "macroPass",
           "normalized": "[(String,String)]-\u003eBoolOptions-\u003e[(Posn,String)]-\u003eIO String",
@@ -678,6 +734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWalk through the document, replacing calls of macros with the expanded RHS.\n   Additionally returns the active symbol table after processing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "macroPassReturningSymTab",
           "package": "cpphs",
@@ -687,6 +744,7 @@
         "index": {
           "description": "Walk through the document replacing calls of macros with the expanded RHS Additionally returns the active symbol table after processing",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "macroPassReturningSymTab",
           "normalized": "[(String,String)]-\u003eBoolOptions-\u003e[(Posn,String)]-\u003eIO(String,[(String,String)])",
@@ -703,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeave #define and #undef in output of ifdef?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "macros",
           "package": "cpphs",
@@ -713,6 +772,7 @@
         "index": {
           "description": "Leave define and undef in output of ifdef",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "macros",
           "package": "cpphs",
@@ -726,6 +786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor.  Argument is filename.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "newfile",
           "package": "cpphs",
@@ -736,6 +797,7 @@
         "index": {
           "description": "Constructor Argument is filename",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "newfile",
           "normalized": "String-\u003ePosn",
@@ -751,6 +813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement row number, reset column to 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "newline",
           "package": "cpphs",
@@ -761,6 +824,7 @@
         "index": {
           "description": "Increment row number reset column to",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "newline",
           "normalized": "Posn-\u003ePosn",
@@ -776,6 +840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement row number by given quantity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "newlines",
           "package": "cpphs",
@@ -786,6 +851,7 @@
         "index": {
           "description": "Increment row number by given quantity",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "newlines",
           "normalized": "Int-\u003ePosn-\u003ePosn",
@@ -801,6 +867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate position with a new row, and possible filename.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "newpos",
           "package": "cpphs",
@@ -811,6 +878,7 @@
         "index": {
           "description": "Update position with new row and possible filename",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "newpos",
           "normalized": "Int-\u003eMaybe String-\u003ePosn-\u003ePosn",
@@ -825,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "outfiles",
           "package": "cpphs",
@@ -834,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "outfiles",
           "normalized": "[FilePath]",
@@ -849,6 +919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse all command-line options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "parseOptions",
           "package": "cpphs",
@@ -859,6 +930,7 @@
         "index": {
           "description": "Parse all command-line options",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "parseOptions",
           "normalized": "[String]-\u003eEither String CpphsOptions",
@@ -875,6 +947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeep #pragma in final output?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "pragma",
           "package": "cpphs",
@@ -885,6 +958,7 @@
         "index": {
           "description": "Keep pragma in final output",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "pragma",
           "package": "cpphs",
@@ -898,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFiles to #include before anything else\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "preInclude",
           "package": "cpphs",
@@ -908,6 +983,7 @@
         "index": {
           "description": "Files to include before anything else",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "preInclude",
           "normalized": "[FilePath]",
@@ -923,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "runCpphs",
           "package": "cpphs",
@@ -932,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "runCpphs",
           "normalized": "CpphsOptions-\u003eFilePath-\u003eString-\u003eIO String",
@@ -947,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "runCpphsReturningSymTab",
           "package": "cpphs",
@@ -956,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "runCpphsReturningSymTab",
           "normalized": "CpphsOptions-\u003eFilePath-\u003eString-\u003eIO(String,[(String,String)])",
@@ -972,6 +1052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove C inline (/**/) comments everywhere?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "stripC89",
           "package": "cpphs",
@@ -982,6 +1063,7 @@
         "index": {
           "description": "Remove inline comments everywhere",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "stripC89",
           "package": "cpphs",
@@ -995,6 +1077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove C eol (//) comments everywhere?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "stripEol",
           "package": "cpphs",
@@ -1005,6 +1088,7 @@
         "index": {
           "description": "Remove eol comments everywhere",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "stripEol",
           "package": "cpphs",
@@ -1019,6 +1103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement column number, tab stops are every 8 chars.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "tab",
           "package": "cpphs",
@@ -1029,6 +1114,7 @@
         "index": {
           "description": "Increment column number tab stops are every chars",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "tab",
           "normalized": "Posn-\u003ePosn",
@@ -1044,6 +1130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIssue warnings?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Cpphs",
           "name": "warnings",
           "package": "cpphs",
@@ -1054,6 +1141,7 @@
         "index": {
           "description": "Issue warnings",
           "hierarchy": "Language Preprocessor Cpphs",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Cpphs",
           "name": "warnings",
           "package": "cpphs",
@@ -1067,6 +1155,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePart of this code is from \u003ca\u003eReport on the Programming Language Haskell\u003c/a\u003e,\n   version 1.2, appendix C.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "Unlit",
           "package": "cpphs",
@@ -1076,6 +1165,7 @@
         "index": {
           "description": "Part of this code is from Report on the Programming Language Haskell version appendix",
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Unlit",
           "name": "Unlit",
           "package": "cpphs",
@@ -1090,6 +1180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eunlit\u003c/a\u003e\u003c/code\u003e takes a filename (for error reports), and transforms the\n   given string, to eliminate the literate comments from the program text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:53 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "unlit",
           "package": "cpphs",
@@ -1100,6 +1191,7 @@
         "index": {
           "description": "unlit takes filename for error reports and transforms the given string to eliminate the literate comments from the program text",
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T17:41:53",
           "module": "Language.Preprocessor.Unlit",
           "name": "unlit",
           "normalized": "FilePath-\u003eString-\u003eString",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "warp-dynamic"
+        "phrase": "warp-dynamic",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:13 UTC 2014",
           "module": "Network.Wai.Application.Dynamic",
           "name": "Dynamic",
           "package": "warp-dynamic",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Dynamic",
+          "indexed": "2014-03-11T20:37:13",
           "module": "Network.Wai.Application.Dynamic",
           "name": "Dynamic",
           "package": "warp-dynamic",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP config\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:13 UTC 2014",
           "module": "Network.Wai.Application.Dynamic",
           "name": "Config",
           "package": "warp-dynamic",
@@ -49,6 +52,7 @@
         "index": {
           "description": "HTTP config",
           "hierarchy": "Network Wai Application Dynamic",
+          "indexed": "2014-03-11T20:37:13",
           "module": "Network.Wai.Application.Dynamic",
           "name": "Config",
           "package": "warp-dynamic",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:13 UTC 2014",
           "module": "Network.Wai.Application.Dynamic",
           "name": "Config",
           "package": "warp-dynamic",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Application Dynamic",
+          "indexed": "2014-03-11T20:37:13",
           "module": "Network.Wai.Application.Dynamic",
           "name": "Config",
           "package": "warp-dynamic",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication to serve\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:13 UTC 2014",
           "module": "Network.Wai.Application.Dynamic",
           "name": "application",
           "package": "warp-dynamic",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Application to serve",
           "hierarchy": "Network Wai Application Dynamic",
+          "indexed": "2014-03-11T20:37:13",
           "module": "Network.Wai.Application.Dynamic",
           "name": "application",
           "package": "warp-dynamic",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default value for this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:13 UTC 2014",
           "module": "Network.Wai.Application.Dynamic",
           "name": "def",
           "package": "warp-dynamic",
@@ -117,6 +126,7 @@
         "index": {
           "description": "The default value for this type",
           "hierarchy": "Network Wai Application Dynamic",
+          "indexed": "2014-03-11T20:37:13",
           "module": "Network.Wai.Application.Dynamic",
           "name": "def",
           "package": "warp-dynamic",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNull application (always returns 404)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:13 UTC 2014",
           "module": "Network.Wai.Application.Dynamic",
           "name": "nullApp",
           "package": "warp-dynamic",
@@ -140,6 +151,7 @@
         "index": {
           "description": "Null application always returns",
           "hierarchy": "Network Wai Application Dynamic",
+          "indexed": "2014-03-11T20:37:13",
           "module": "Network.Wai.Application.Dynamic",
           "name": "nullApp",
           "package": "warp-dynamic",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWarp settings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:13 UTC 2014",
           "module": "Network.Wai.Application.Dynamic",
           "name": "warpSettings",
           "package": "warp-dynamic",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Warp settings",
           "hierarchy": "Network Wai Application Dynamic",
+          "indexed": "2014-03-11T20:37:13",
           "module": "Network.Wai.Application.Dynamic",
           "name": "warpSettings",
           "package": "warp-dynamic",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edynamic warp app\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:13 UTC 2014",
           "module": "Network.Wai.Application.Dynamic",
           "name": "warpd",
           "package": "warp-dynamic",
@@ -188,6 +203,7 @@
         "index": {
           "description": "dynamic warp app",
           "hierarchy": "Network Wai Application Dynamic",
+          "indexed": "2014-03-11T20:37:13",
           "module": "Network.Wai.Application.Dynamic",
           "name": "warpd",
           "normalized": "Config-\u003eIO()",

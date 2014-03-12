@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hackage-plot"
+        "phrase": "hackage-plot",
+        "type": "phrase"
       },
       "type": "context"
     }

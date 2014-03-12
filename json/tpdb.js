@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tpdb"
+        "phrase": "tpdb",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003einternal representation of CPF termination proofs,\n see \u003ca\u003ehttp://cl-informatik.uibk.ac.at/software/cpf/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Type",
           "package": "tpdb",
@@ -28,6 +29,7 @@
         "index": {
           "description": "internal representation of CPF termination proofs see http cl-informatik.uibk.ac.at software cpf",
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Type",
           "package": "tpdb",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "CertificationProblem",
           "package": "tpdb",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "CertificationProblem",
           "package": "tpdb",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "CertificationProblemInput",
           "package": "tpdb",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "CertificationProblemInput",
           "package": "tpdb",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Coefficient",
           "package": "tpdb",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Coefficient",
           "package": "tpdb",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "DPS",
           "package": "tpdb",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "DPS",
           "package": "tpdb",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Domain",
           "package": "tpdb",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Domain",
           "package": "tpdb",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "DpProof",
           "package": "tpdb",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "DpProof",
           "package": "tpdb",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Exotic",
           "package": "tpdb",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Exotic",
           "package": "tpdb",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Identifier",
           "package": "tpdb",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Identifier",
           "package": "tpdb",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Interpret",
           "package": "tpdb",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Interpret",
           "package": "tpdb",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Interpretation",
           "package": "tpdb",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Interpretation",
           "package": "tpdb",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Interpretation_Type",
           "package": "tpdb",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Interpretation_Type",
           "package": "tpdb",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Model",
           "package": "tpdb",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Model",
           "package": "tpdb",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "OrderingConstraintProof",
           "package": "tpdb",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "OrderingConstraintProof",
           "package": "tpdb",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Origin",
           "package": "tpdb",
@@ -322,6 +351,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Origin",
           "package": "tpdb",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Polynomial",
           "package": "tpdb",
@@ -343,6 +374,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Polynomial",
           "package": "tpdb",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Proof",
           "package": "tpdb",
@@ -364,6 +397,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Proof",
           "package": "tpdb",
@@ -377,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Sharp",
           "package": "tpdb",
@@ -385,6 +420,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Sharp",
           "package": "tpdb",
@@ -399,6 +435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elegaca stuff (used in matchbox)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "TES",
           "package": "tpdb",
@@ -408,6 +445,7 @@
         "index": {
           "description": "legaca stuff used in matchbox",
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "TES",
           "package": "tpdb",
@@ -421,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "ToExotic",
           "package": "tpdb",
@@ -429,6 +468,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "ToExotic",
           "package": "tpdb",
@@ -442,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Tool",
           "package": "tpdb",
@@ -450,6 +491,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Tool",
           "package": "tpdb",
@@ -463,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "TrsTerminationProof",
           "package": "tpdb",
@@ -471,6 +514,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "TrsTerminationProof",
           "package": "tpdb",
@@ -484,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Value",
           "package": "tpdb",
@@ -492,6 +537,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Value",
           "package": "tpdb",
@@ -505,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Arctic",
           "package": "tpdb",
@@ -514,6 +561,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Arctic",
           "package": "tpdb",
@@ -527,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "CertificationProblem",
           "package": "tpdb",
@@ -536,6 +585,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "CertificationProblem",
           "package": "tpdb",
@@ -549,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Coefficient_Coefficient",
           "package": "tpdb",
@@ -558,6 +609,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Coefficient_Coefficient",
           "package": "tpdb",
@@ -571,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "DPS",
           "package": "tpdb",
@@ -580,6 +633,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "DPS",
           "normalized": "DPS[Rule(Term Identifier a)]",
@@ -595,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "DpTrans",
           "package": "tpdb",
@@ -604,6 +659,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "DpTrans",
           "package": "tpdb",
@@ -617,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "E_Integer",
           "package": "tpdb",
@@ -626,6 +683,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "E_Integer",
           "package": "tpdb",
@@ -639,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "E_Rational",
           "package": "tpdb",
@@ -648,6 +707,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "E_Rational",
           "package": "tpdb",
@@ -661,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "FiniteModel",
           "package": "tpdb",
@@ -670,6 +731,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "FiniteModel",
           "package": "tpdb",
@@ -683,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Interpret",
           "package": "tpdb",
@@ -692,6 +755,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Interpret",
           "package": "tpdb",
@@ -705,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Interpretation",
           "package": "tpdb",
@@ -714,6 +779,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Interpretation",
           "package": "tpdb",
@@ -727,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Matrix",
           "package": "tpdb",
@@ -736,6 +803,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Matrix",
           "normalized": "Matrix[Coefficient]",
@@ -751,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Matrix_Interpretation",
           "package": "tpdb",
@@ -760,6 +829,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Matrix_Interpretation",
           "package": "tpdb",
@@ -773,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Minus_Infinite",
           "package": "tpdb",
@@ -782,6 +853,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Minus_Infinite",
           "package": "tpdb",
@@ -795,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Naturals",
           "package": "tpdb",
@@ -804,6 +877,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Naturals",
           "package": "tpdb",
@@ -817,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "PIsEmpty",
           "package": "tpdb",
@@ -826,6 +901,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "PIsEmpty",
           "package": "tpdb",
@@ -839,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Plain",
           "package": "tpdb",
@@ -848,6 +925,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Plain",
           "package": "tpdb",
@@ -861,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Plus_Infinite",
           "package": "tpdb",
@@ -870,6 +949,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Plus_Infinite",
           "package": "tpdb",
@@ -883,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Polynomial",
           "package": "tpdb",
@@ -892,6 +973,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Polynomial",
           "package": "tpdb",
@@ -905,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Polynomial_Coefficient",
           "package": "tpdb",
@@ -914,6 +997,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Polynomial_Coefficient",
           "package": "tpdb",
@@ -927,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Polynomial_Variable",
           "package": "tpdb",
@@ -936,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Polynomial_Variable",
           "package": "tpdb",
@@ -949,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Product",
           "package": "tpdb",
@@ -958,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Product",
           "normalized": "Product[Polynomial]",
@@ -973,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "ProofOrigin",
           "package": "tpdb",
@@ -982,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "ProofOrigin",
           "package": "tpdb",
@@ -995,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "RIsEmpty",
           "package": "tpdb",
@@ -1004,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "RIsEmpty",
           "package": "tpdb",
@@ -1017,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Rationals",
           "package": "tpdb",
@@ -1026,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Rationals",
           "package": "tpdb",
@@ -1039,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "RedPair",
           "package": "tpdb",
@@ -1048,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "RedPair",
           "package": "tpdb",
@@ -1061,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "RedPairProc",
           "package": "tpdb",
@@ -1070,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "RedPairProc",
           "package": "tpdb",
@@ -1083,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "RuleRemoval",
           "package": "tpdb",
@@ -1092,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "RuleRemoval",
           "package": "tpdb",
@@ -1105,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Semlab",
           "package": "tpdb",
@@ -1114,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Semlab",
           "package": "tpdb",
@@ -1127,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Sharp",
           "package": "tpdb",
@@ -1136,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Sharp",
           "package": "tpdb",
@@ -1149,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "StringReversal",
           "package": "tpdb",
@@ -1158,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "StringReversal",
           "package": "tpdb",
@@ -1171,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Sum",
           "package": "tpdb",
@@ -1180,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Sum",
           "normalized": "Sum[Polynomial]",
@@ -1195,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Tool",
           "package": "tpdb",
@@ -1204,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Tool",
           "package": "tpdb",
@@ -1217,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Tropical",
           "package": "tpdb",
@@ -1226,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Tropical",
           "package": "tpdb",
@@ -1240,6 +1352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis is actually not true, since instead of copying from XTC,\n CPF format repeats the definition of TRS,\n and it's a different one (relative rules are extra)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "TrsInput",
           "package": "tpdb",
@@ -1250,6 +1363,7 @@
         "index": {
           "description": "this is actually not true since instead of copying from XTC CPF format repeats the definition of TRS and it different one relative rules are extra",
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "TrsInput",
           "package": "tpdb",
@@ -1263,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "TrsTerminationProof",
           "package": "tpdb",
@@ -1272,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "TrsTerminationProof",
           "package": "tpdb",
@@ -1285,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Unlab",
           "package": "tpdb",
@@ -1294,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Unlab",
           "package": "tpdb",
@@ -1307,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Vector",
           "package": "tpdb",
@@ -1316,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "Vector",
           "normalized": "Vector[Coefficient]",
@@ -1331,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "arity",
           "package": "tpdb",
@@ -1340,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "arity",
           "package": "tpdb",
@@ -1352,6 +1474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "carrierSize",
           "package": "tpdb",
@@ -1361,6 +1484,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "carrierSize",
           "package": "tpdb",
@@ -1374,6 +1498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "cpfVersion",
           "package": "tpdb",
@@ -1383,6 +1508,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "cpfVersion",
           "package": "tpdb",
@@ -1396,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "dimension",
           "package": "tpdb",
@@ -1405,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "dimension",
           "package": "tpdb",
@@ -1417,6 +1545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "domain",
           "package": "tpdb",
@@ -1426,6 +1555,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "domain",
           "package": "tpdb",
@@ -1438,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "dp_orderingConstraintProof",
           "package": "tpdb",
@@ -1447,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "dp_orderingConstraintProof",
           "package": "tpdb",
@@ -1460,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "dptrans_dpProof",
           "package": "tpdb",
@@ -1469,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "dptrans_dpProof",
           "package": "tpdb",
@@ -1482,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "dptrans_dps",
           "package": "tpdb",
@@ -1491,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "dptrans_dps",
           "package": "tpdb",
@@ -1503,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "input",
           "package": "tpdb",
@@ -1512,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "input",
           "package": "tpdb",
@@ -1524,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "interpretation",
           "package": "tpdb",
@@ -1533,6 +1672,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "interpretation",
           "package": "tpdb",
@@ -1545,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "interpretation_type",
           "package": "tpdb",
@@ -1554,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "interpretation_type",
           "package": "tpdb",
@@ -1566,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "interprets",
           "package": "tpdb",
@@ -1575,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "interprets",
           "normalized": "[Interpret]",
@@ -1589,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "markedSymbols",
           "package": "tpdb",
@@ -1598,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "markedSymbols",
           "package": "tpdb",
@@ -1611,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "model",
           "package": "tpdb",
@@ -1620,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "model",
           "package": "tpdb",
@@ -1632,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "name",
           "package": "tpdb",
@@ -1641,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "name",
           "package": "tpdb",
@@ -1653,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "origin",
           "package": "tpdb",
@@ -1662,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "origin",
           "package": "tpdb",
@@ -1674,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "proof",
           "package": "tpdb",
@@ -1683,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "proof",
           "package": "tpdb",
@@ -1695,6 +1849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "red_pair_dps",
           "package": "tpdb",
@@ -1704,6 +1859,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "red_pair_dps",
           "package": "tpdb",
@@ -1716,6 +1872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "redpairproc_dpProof",
           "package": "tpdb",
@@ -1725,6 +1882,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "redpairproc_dpProof",
           "package": "tpdb",
@@ -1738,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "rr_orderingConstraintProof",
           "package": "tpdb",
@@ -1747,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "rr_orderingConstraintProof",
           "package": "tpdb",
@@ -1760,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "strictDimension",
           "package": "tpdb",
@@ -1769,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "strictDimension",
           "package": "tpdb",
@@ -1782,6 +1944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "symbol",
           "package": "tpdb",
@@ -1791,6 +1954,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "symbol",
           "package": "tpdb",
@@ -1803,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "toExotic",
           "package": "tpdb",
@@ -1812,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "toExotic",
           "normalized": "a-\u003eExotic",
@@ -1827,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "trs",
           "package": "tpdb",
@@ -1836,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "trs",
           "package": "tpdb",
@@ -1848,6 +2016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "trsTerminationProof",
           "package": "tpdb",
@@ -1857,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "trsTerminationProof",
           "package": "tpdb",
@@ -1870,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "trsinput_trs",
           "package": "tpdb",
@@ -1879,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "trsinput_trs",
           "package": "tpdb",
@@ -1891,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "value",
           "package": "tpdb",
@@ -1900,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "value",
           "package": "tpdb",
@@ -1912,6 +2086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Type",
           "name": "version",
           "package": "tpdb",
@@ -1921,6 +2096,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Type",
           "name": "version",
           "package": "tpdb",
@@ -1934,6 +2110,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003efrom internal representation to XML, and back\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Xml",
           "name": "Xml",
           "package": "tpdb",
@@ -1943,6 +2120,7 @@
         "index": {
           "description": "from internal representation to XML and back",
           "hierarchy": "TPDB CPF Proof Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Xml",
           "name": "Xml",
           "package": "tpdb",
@@ -1956,6 +2134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.CPF.Proof.Xml",
           "name": "tox",
           "package": "tpdb",
@@ -1965,6 +2144,7 @@
         },
         "index": {
           "hierarchy": "TPDB CPF Proof Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.CPF.Proof.Xml",
           "name": "tox",
           "normalized": "CertificationProblem-\u003eDocument()",
@@ -1979,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Convert",
           "name": "Convert",
           "package": "tpdb",
@@ -1987,6 +2168,7 @@
         },
         "index": {
           "hierarchy": "TPDB Convert",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Convert",
           "name": "Convert",
           "package": "tpdb",
@@ -2000,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Convert",
           "name": "convert_srs_rule",
           "package": "tpdb",
@@ -2009,6 +2192,7 @@
         },
         "index": {
           "hierarchy": "TPDB Convert",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Convert",
           "name": "convert_srs_rule",
           "normalized": "Rule[Identifier]-\u003eRule(Term Identifier Identifier)",
@@ -2023,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Convert",
           "name": "convert_trs_rule",
           "package": "tpdb",
@@ -2032,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "TPDB Convert",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Convert",
           "name": "convert_trs_rule",
           "normalized": "Rule(Term a b)-\u003eMaybe(Rule[b])",
@@ -2047,6 +2233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esuccess iff term consists of unary symbols\n and the lowest node is a variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Convert",
           "name": "spine",
           "package": "tpdb",
@@ -2057,6 +2244,7 @@
         "index": {
           "description": "success iff term consists of unary symbols and the lowest node is variable",
           "hierarchy": "TPDB Convert",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Convert",
           "name": "spine",
           "normalized": "Term a b-\u003eMaybe([b],a)",
@@ -2071,6 +2259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Convert",
           "name": "srs2trs",
           "package": "tpdb",
@@ -2080,6 +2269,7 @@
         },
         "index": {
           "hierarchy": "TPDB Convert",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Convert",
           "name": "srs2trs",
           "normalized": "SRS Identifier-\u003eTRS Identifier Identifier",
@@ -2094,6 +2284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Convert",
           "name": "trs2srs",
           "package": "tpdb",
@@ -2103,6 +2294,7 @@
         },
         "index": {
           "hierarchy": "TPDB Convert",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Convert",
           "name": "trs2srs",
           "normalized": "TRS a b-\u003eMaybe(SRS b)",
@@ -2117,6 +2309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Convert",
           "name": "unspine",
           "package": "tpdb",
@@ -2126,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "TPDB Convert",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Convert",
           "name": "unspine",
           "normalized": "a-\u003e[b]-\u003eTerm a b",
@@ -2140,6 +2334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.DP",
           "name": "DP",
           "package": "tpdb",
@@ -2148,6 +2343,7 @@
         },
         "index": {
           "hierarchy": "TPDB DP",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.DP",
           "name": "DP",
           "package": "tpdb",
@@ -2161,6 +2357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.DP",
           "name": "Marked",
           "package": "tpdb",
@@ -2169,6 +2366,7 @@
         },
         "index": {
           "hierarchy": "TPDB DP",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.DP",
           "name": "Marked",
           "package": "tpdb",
@@ -2182,6 +2380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.DP",
           "name": "Auxiliary",
           "package": "tpdb",
@@ -2191,6 +2390,7 @@
         },
         "index": {
           "hierarchy": "TPDB DP",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.DP",
           "name": "Auxiliary",
           "package": "tpdb",
@@ -2204,6 +2404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.DP",
           "name": "Marked",
           "package": "tpdb",
@@ -2213,6 +2414,7 @@
         },
         "index": {
           "hierarchy": "TPDB DP",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.DP",
           "name": "Marked",
           "package": "tpdb",
@@ -2226,6 +2428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.DP",
           "name": "Original",
           "package": "tpdb",
@@ -2235,6 +2438,7 @@
         },
         "index": {
           "hierarchy": "TPDB DP",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.DP",
           "name": "Original",
           "package": "tpdb",
@@ -2248,6 +2452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.DP",
           "name": "dp",
           "package": "tpdb",
@@ -2257,6 +2462,7 @@
         },
         "index": {
           "hierarchy": "TPDB DP",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.DP",
           "name": "dp",
           "normalized": "RS a(Term b c)-\u003eRS a(Term b(Marked c))",
@@ -2271,6 +2477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "Term",
           "package": "tpdb",
@@ -2279,6 +2486,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "Term",
           "package": "tpdb",
@@ -2292,6 +2500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "Position",
           "package": "tpdb",
@@ -2300,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "Position",
           "package": "tpdb",
@@ -2313,6 +2523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "Term",
           "package": "tpdb",
@@ -2321,6 +2532,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "Term",
           "package": "tpdb",
@@ -2334,6 +2546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "Node",
           "package": "tpdb",
@@ -2343,6 +2556,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "Node",
           "normalized": "Node a[Term b a]",
@@ -2358,6 +2572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "Var",
           "package": "tpdb",
@@ -2367,6 +2582,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "Var",
           "package": "tpdb",
@@ -2380,6 +2596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "isvar",
           "package": "tpdb",
@@ -2389,6 +2606,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "isvar",
           "normalized": "Term a b-\u003eBool",
@@ -2404,6 +2622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eleaf positions (= nullary symbols)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "leafpos",
           "package": "tpdb",
@@ -2414,6 +2633,7 @@
         "index": {
           "description": "leaf positions nullary symbols",
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "leafpos",
           "normalized": "Term a b-\u003e[Position]",
@@ -2428,6 +2648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "lsyms",
           "package": "tpdb",
@@ -2437,6 +2658,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "lsyms",
           "normalized": "Term a b-\u003e[b]",
@@ -2452,6 +2674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist of variables (each occurs once, unspecified ordering)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "lvars",
           "package": "tpdb",
@@ -2462,6 +2685,7 @@
         "index": {
           "description": "list of variables each occurs once unspecified ordering",
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "lvars",
           "normalized": "Term a b-\u003e[a]",
@@ -2476,6 +2700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "peek",
           "package": "tpdb",
@@ -2485,6 +2710,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "peek",
           "normalized": "Term a b-\u003ePosition-\u003eTerm a b",
@@ -2499,6 +2725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "peek_symbol",
           "package": "tpdb",
@@ -2508,6 +2735,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "peek_symbol",
           "normalized": "Term a b-\u003ePosition-\u003eb",
@@ -2523,6 +2751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecompute new symbol at position, giving the position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "pmap",
           "package": "tpdb",
@@ -2533,6 +2762,7 @@
         "index": {
           "description": "compute new symbol at position giving the position",
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "pmap",
           "normalized": "(Position-\u003ea-\u003eb)-\u003eTerm c a-\u003eTerm c b",
@@ -2547,6 +2777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "poke",
           "package": "tpdb",
@@ -2556,6 +2787,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "poke",
           "normalized": "Term a b-\u003e(Position,Term a b)-\u003eTerm a b",
@@ -2571,6 +2803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewarning: don't check arity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "poke_symbol",
           "package": "tpdb",
@@ -2581,6 +2814,7 @@
         "index": {
           "description": "warning don check arity",
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "poke_symbol",
           "normalized": "Term a b-\u003e(Position,b)-\u003eTerm a b",
@@ -2595,6 +2829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "pokes",
           "package": "tpdb",
@@ -2604,6 +2839,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "pokes",
           "normalized": "Term a b-\u003e[(Position,Term a b)]-\u003eTerm a b",
@@ -2619,6 +2855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall positions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "pos",
           "package": "tpdb",
@@ -2629,6 +2866,7 @@
         "index": {
           "description": "all positions",
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "pos",
           "normalized": "Term a b-\u003e[Position]",
@@ -2643,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "positions",
           "package": "tpdb",
@@ -2652,6 +2891,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "positions",
           "normalized": "Term a b-\u003e[(Position,Term a b)]",
@@ -2667,6 +2907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecompute new symbol from *reverse* position and previous symbol\n this is more efficient (no reverse needed)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "rpmap",
           "package": "tpdb",
@@ -2677,6 +2918,7 @@
         "index": {
           "description": "compute new symbol from reverse position and previous symbol this is more efficient no reverse needed",
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "rpmap",
           "normalized": "(Position-\u003ea-\u003eb)-\u003eTerm c a-\u003eTerm c b",
@@ -2691,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "subterms",
           "package": "tpdb",
@@ -2700,6 +2943,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "subterms",
           "normalized": "Term a b-\u003e[Term a b]",
@@ -2715,6 +2959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enon-variable positions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "sympos",
           "package": "tpdb",
@@ -2725,6 +2970,7 @@
         "index": {
           "description": "non-variable positions",
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "sympos",
           "normalized": "Term a b-\u003e[Position]",
@@ -2739,6 +2985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "syms",
           "package": "tpdb",
@@ -2748,6 +2995,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "syms",
           "normalized": "Term a b-\u003eSet b",
@@ -2763,6 +3011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ein preorder \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "symsl",
           "package": "tpdb",
@@ -2773,6 +3022,7 @@
         "index": {
           "description": "in preorder",
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "symsl",
           "normalized": "Term a b-\u003e[b]",
@@ -2788,6 +3038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable positions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "varpos",
           "package": "tpdb",
@@ -2798,6 +3049,7 @@
         "index": {
           "description": "variable positions",
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "varpos",
           "normalized": "Term a b-\u003e[Position]",
@@ -2812,6 +3064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "vars",
           "package": "tpdb",
@@ -2821,6 +3074,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "vars",
           "normalized": "Term a b-\u003eSet a",
@@ -2835,6 +3089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "vmap",
           "package": "tpdb",
@@ -2844,6 +3099,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "vmap",
           "normalized": "(a-\u003eb)-\u003eTerm a c-\u003eTerm b c",
@@ -2859,6 +3115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist of variables (in pre-order, with duplicates)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Term",
           "name": "voccs",
           "package": "tpdb",
@@ -2869,6 +3126,7 @@
         "index": {
           "description": "list of variables in pre-order with duplicates",
           "hierarchy": "TPDB Data Term",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Term",
           "name": "voccs",
           "normalized": "Term a b-\u003e[a]",
@@ -2883,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Xml",
           "name": "Xml",
           "package": "tpdb",
@@ -2891,6 +3150,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Xml",
           "name": "Xml",
           "package": "tpdb",
@@ -2904,6 +3164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data.Xml",
           "name": "sharp_name_HACK",
           "package": "tpdb",
@@ -2913,6 +3174,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data.Xml",
           "name": "sharp_name_HACK",
           "normalized": "[Content()]-\u003ea(Content())",
@@ -2928,6 +3190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "Data",
           "package": "tpdb",
@@ -2936,6 +3199,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "Data",
           "package": "tpdb",
@@ -2949,6 +3213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "Identifier",
           "package": "tpdb",
@@ -2957,6 +3222,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "Identifier",
           "package": "tpdb",
@@ -2970,6 +3236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "Problem",
           "package": "tpdb",
@@ -2978,6 +3245,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "Problem",
           "package": "tpdb",
@@ -2991,6 +3259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "RS",
           "package": "tpdb",
@@ -2999,6 +3268,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "RS",
           "package": "tpdb",
@@ -3012,6 +3282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "Relation",
           "package": "tpdb",
@@ -3020,6 +3291,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "Relation",
           "package": "tpdb",
@@ -3033,6 +3305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "Rule",
           "package": "tpdb",
@@ -3041,6 +3314,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "Rule",
           "package": "tpdb",
@@ -3054,6 +3328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "SES",
           "package": "tpdb",
@@ -3062,6 +3337,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "SES",
           "package": "tpdb",
@@ -3075,6 +3351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "SRS",
           "package": "tpdb",
@@ -3083,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "SRS",
           "package": "tpdb",
@@ -3096,6 +3374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "Startterm",
           "package": "tpdb",
@@ -3104,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "Startterm",
           "package": "tpdb",
@@ -3117,6 +3397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "Strategy",
           "package": "tpdb",
@@ -3125,6 +3406,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "Strategy",
           "package": "tpdb",
@@ -3139,6 +3421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elegaca stuff (used in matchbox)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "TES",
           "package": "tpdb",
@@ -3148,6 +3431,7 @@
         "index": {
           "description": "legaca stuff used in matchbox",
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "TES",
           "package": "tpdb",
@@ -3161,6 +3445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "TRS",
           "package": "tpdb",
@@ -3169,6 +3454,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "TRS",
           "package": "tpdb",
@@ -3182,6 +3468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "Type",
           "package": "tpdb",
@@ -3190,6 +3477,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "Type",
           "package": "tpdb",
@@ -3203,6 +3491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "Complexity",
           "package": "tpdb",
@@ -3212,6 +3501,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "Complexity",
           "package": "tpdb",
@@ -3225,6 +3515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "Equal",
           "package": "tpdb",
@@ -3234,6 +3525,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "Equal",
           "package": "tpdb",
@@ -3247,6 +3539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "Full",
           "package": "tpdb",
@@ -3256,6 +3549,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "Full",
           "package": "tpdb",
@@ -3269,6 +3563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "Identifier",
           "package": "tpdb",
@@ -3278,6 +3573,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "Identifier",
           "package": "tpdb",
@@ -3291,6 +3587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "Innermost",
           "package": "tpdb",
@@ -3300,6 +3597,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "Innermost",
           "package": "tpdb",
@@ -3313,6 +3611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "Outermost",
           "package": "tpdb",
@@ -3322,6 +3621,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "Outermost",
           "package": "tpdb",
@@ -3335,6 +3635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "Problem",
           "package": "tpdb",
@@ -3344,6 +3645,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "Problem",
           "package": "tpdb",
@@ -3357,6 +3659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "RS",
           "package": "tpdb",
@@ -3366,6 +3669,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "RS",
           "package": "tpdb",
@@ -3379,6 +3683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "Rule",
           "package": "tpdb",
@@ -3388,6 +3693,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "Rule",
           "package": "tpdb",
@@ -3401,6 +3707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "Startterm_Constructor_based",
           "package": "tpdb",
@@ -3410,6 +3717,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "Startterm_Constructor_based",
           "package": "tpdb",
@@ -3423,6 +3731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "Startterm_Full",
           "package": "tpdb",
@@ -3432,6 +3741,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "Startterm_Full",
           "package": "tpdb",
@@ -3445,6 +3755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "Strict",
           "package": "tpdb",
@@ -3454,6 +3765,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "Strict",
           "package": "tpdb",
@@ -3467,6 +3779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "Termination",
           "package": "tpdb",
@@ -3476,6 +3789,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "Termination",
           "package": "tpdb",
@@ -3489,6 +3803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "Weak",
           "package": "tpdb",
@@ -3498,6 +3813,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "Weak",
           "package": "tpdb",
@@ -3511,6 +3827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "_identifier_hash",
           "package": "tpdb",
@@ -3520,6 +3837,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "_identifier_hash",
           "package": "tpdb",
@@ -3532,6 +3850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "arity",
           "package": "tpdb",
@@ -3541,6 +3860,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "arity",
           "package": "tpdb",
@@ -3553,6 +3873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "equal",
           "package": "tpdb",
@@ -3562,6 +3883,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "equal",
           "normalized": "Rule a-\u003eBool",
@@ -3576,6 +3898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "equal_rules",
           "package": "tpdb",
@@ -3585,6 +3908,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "equal_rules",
           "normalized": "RS a b-\u003e[(b,b)]",
@@ -3599,6 +3923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "from_strict_rules",
           "package": "tpdb",
@@ -3608,6 +3933,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "from_strict_rules",
           "normalized": "Bool-\u003e[(a,a)]-\u003eRS b a",
@@ -3622,6 +3948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "lhs",
           "package": "tpdb",
@@ -3631,6 +3958,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "lhs",
           "package": "tpdb",
@@ -3643,6 +3971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "mk",
           "package": "tpdb",
@@ -3652,6 +3981,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "mk",
           "normalized": "Int-\u003eString-\u003eIdentifier",
@@ -3666,6 +3996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "mknullary",
           "package": "tpdb",
@@ -3675,6 +4006,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "mknullary",
           "normalized": "String-\u003eIdentifier",
@@ -3689,6 +4021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "mkunary",
           "package": "tpdb",
@@ -3698,6 +4031,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "mkunary",
           "normalized": "String-\u003eIdentifier",
@@ -3712,6 +4046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "name",
           "package": "tpdb",
@@ -3721,6 +4056,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "name",
           "package": "tpdb",
@@ -3733,6 +4069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "relation",
           "package": "tpdb",
@@ -3742,6 +4079,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "relation",
           "package": "tpdb",
@@ -3754,6 +4092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "rhs",
           "package": "tpdb",
@@ -3763,6 +4102,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "rhs",
           "package": "tpdb",
@@ -3775,6 +4115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "rules",
           "package": "tpdb",
@@ -3784,6 +4125,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "rules",
           "normalized": "[Rule a]",
@@ -3799,6 +4141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif True, write comma between rules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "separate",
           "package": "tpdb",
@@ -3809,6 +4152,7 @@
         "index": {
           "description": "if True write comma between rules",
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "separate",
           "package": "tpdb",
@@ -3822,6 +4166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebetter keep order in signature (?)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "signature",
           "package": "tpdb",
@@ -3832,6 +4177,7 @@
         "index": {
           "description": "better keep order in signature",
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "signature",
           "normalized": "[a]",
@@ -3846,6 +4192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "startterm",
           "package": "tpdb",
@@ -3855,6 +4202,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "startterm",
           "package": "tpdb",
@@ -3867,6 +4215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "strategy",
           "package": "tpdb",
@@ -3876,6 +4225,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "strategy",
           "package": "tpdb",
@@ -3888,6 +4238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "strict",
           "package": "tpdb",
@@ -3897,6 +4248,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "strict",
           "normalized": "Rule a-\u003eBool",
@@ -3911,6 +4263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "strict_rules",
           "package": "tpdb",
@@ -3920,6 +4273,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "strict_rules",
           "normalized": "RS a b-\u003e[(b,b)]",
@@ -3934,6 +4288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "top",
           "package": "tpdb",
@@ -3943,6 +4298,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "top",
           "package": "tpdb",
@@ -3955,6 +4311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "trs",
           "package": "tpdb",
@@ -3964,6 +4321,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "trs",
           "package": "tpdb",
@@ -3976,6 +4334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "type_",
           "package": "tpdb",
@@ -3985,6 +4344,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "type_",
           "package": "tpdb",
@@ -3997,6 +4357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "weak",
           "package": "tpdb",
@@ -4006,6 +4367,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "weak",
           "normalized": "Rule a-\u003eBool",
@@ -4020,6 +4382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "weak_rules",
           "package": "tpdb",
@@ -4029,6 +4392,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "weak_rules",
           "normalized": "RS a b-\u003e[(b,b)]",
@@ -4043,6 +4407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Data",
           "name": "with_rules",
           "package": "tpdb",
@@ -4052,6 +4417,7 @@
         },
         "index": {
           "hierarchy": "TPDB Data",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Data",
           "name": "with_rules",
           "normalized": "RS a b-\u003e[Rule c]-\u003eRS a c",
@@ -4066,6 +4432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Input",
           "name": "Input",
           "package": "tpdb",
@@ -4074,6 +4441,7 @@
         },
         "index": {
           "hierarchy": "TPDB Input",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Input",
           "name": "Input",
           "package": "tpdb",
@@ -4088,6 +4456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread input from file with given name.\n can have extension .srs, .trs, .xml.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Input",
           "name": "get",
           "package": "tpdb",
@@ -4098,6 +4467,7 @@
         "index": {
           "description": "read input from file with given name can have extension srs trs xml",
           "hierarchy": "TPDB Input",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Input",
           "name": "get",
           "normalized": "FilePath-\u003eIO(Either(TRS Identifier Identifier)(SRS Identifier))",
@@ -4112,6 +4482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Input",
           "name": "getE",
           "package": "tpdb",
@@ -4121,6 +4492,7 @@
         },
         "index": {
           "hierarchy": "TPDB Input",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Input",
           "name": "getE",
           "normalized": "[Char]-\u003eIO(Either String(Either(TRS Identifier Identifier)(SRS Identifier)))",
@@ -4135,6 +4507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Input",
           "name": "getE_trs",
           "package": "tpdb",
@@ -4144,6 +4517,7 @@
         },
         "index": {
           "hierarchy": "TPDB Input",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Input",
           "name": "getE_trs",
           "normalized": "[Char]-\u003eIO(Either String(TRS Identifier Identifier))",
@@ -4158,6 +4532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Input",
           "name": "get_srs",
           "package": "tpdb",
@@ -4167,6 +4542,7 @@
         },
         "index": {
           "hierarchy": "TPDB Input",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Input",
           "name": "get_srs",
           "normalized": "FilePath-\u003eIO(SRS Identifier)",
@@ -4181,6 +4557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Input",
           "name": "get_trs",
           "package": "tpdb",
@@ -4190,6 +4567,7 @@
         },
         "index": {
           "hierarchy": "TPDB Input",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Input",
           "name": "get_trs",
           "normalized": "FilePath-\u003eIO(TRS Identifier Identifier)",
@@ -4204,6 +4582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Mirror",
           "name": "Mirror",
           "package": "tpdb",
@@ -4212,6 +4591,7 @@
         },
         "index": {
           "hierarchy": "TPDB Mirror",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Mirror",
           "name": "Mirror",
           "package": "tpdb",
@@ -4226,6 +4606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif input is SRS, reverse lhs and rhs of each rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Mirror",
           "name": "mirror",
           "package": "tpdb",
@@ -4236,6 +4617,7 @@
         "index": {
           "description": "if input is SRS reverse lhs and rhs of each rule",
           "hierarchy": "TPDB Mirror",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Mirror",
           "name": "mirror",
           "normalized": "TRS Identifier a-\u003eMaybe(TRS Identifier a)",
@@ -4251,6 +4633,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003etextual input,\n cf. \u003ca\u003ehttp://www.lri.fr/~marche/tpdb/format.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Read",
           "name": "Read",
           "package": "tpdb",
@@ -4260,6 +4643,7 @@
         "index": {
           "description": "textual input cf http www.lri.fr marche tpdb format.html",
           "hierarchy": "TPDB Plain Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Read",
           "name": "Read",
           "package": "tpdb",
@@ -4273,6 +4657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Read",
           "name": "Declaration",
           "package": "tpdb",
@@ -4281,6 +4666,7 @@
         },
         "index": {
           "hierarchy": "TPDB Plain Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Read",
           "name": "Declaration",
           "package": "tpdb",
@@ -4294,6 +4680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Read",
           "name": "Parser",
           "package": "tpdb",
@@ -4302,6 +4689,7 @@
         },
         "index": {
           "hierarchy": "TPDB Plain Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Read",
           "name": "Parser",
           "package": "tpdb",
@@ -4315,6 +4703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Read",
           "name": "Reader",
           "package": "tpdb",
@@ -4323,6 +4712,7 @@
         },
         "index": {
           "hierarchy": "TPDB Plain Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Read",
           "name": "Reader",
           "package": "tpdb",
@@ -4336,6 +4726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Read",
           "name": "Rules_Declaration",
           "package": "tpdb",
@@ -4345,6 +4736,7 @@
         },
         "index": {
           "hierarchy": "TPDB Plain Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Read",
           "name": "Rules_Declaration",
           "normalized": "Rules_Declaration[Rule a]",
@@ -4360,6 +4752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Read",
           "name": "Strategy_Declaration",
           "package": "tpdb",
@@ -4369,6 +4762,7 @@
         },
         "index": {
           "hierarchy": "TPDB Plain Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Read",
           "name": "Strategy_Declaration",
           "package": "tpdb",
@@ -4382,6 +4776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Read",
           "name": "Theory_Declaration",
           "package": "tpdb",
@@ -4391,6 +4786,7 @@
         },
         "index": {
           "hierarchy": "TPDB Plain Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Read",
           "name": "Theory_Declaration",
           "package": "tpdb",
@@ -4405,6 +4801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis is super-ugly: a parenthesized, possibly nested, \n possibly comma-separated, list of identifiers or strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Read",
           "name": "Unknown_Declaration",
           "package": "tpdb",
@@ -4415,6 +4812,7 @@
         "index": {
           "description": "this is super-ugly parenthesized possibly nested possibly comma-separated list of identifiers or strings",
           "hierarchy": "TPDB Plain Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Read",
           "name": "Unknown_Declaration",
           "package": "tpdb",
@@ -4428,6 +4826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Read",
           "name": "Var_Declaration",
           "package": "tpdb",
@@ -4437,6 +4836,7 @@
         },
         "index": {
           "hierarchy": "TPDB Plain Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Read",
           "name": "Var_Declaration",
           "normalized": "Var_Declaration[Identifier]",
@@ -4452,6 +4852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Read",
           "name": "anylist",
           "package": "tpdb",
@@ -4461,6 +4862,7 @@
         },
         "index": {
           "hierarchy": "TPDB Plain Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Read",
           "name": "anylist",
           "normalized": "ParsecT String a Identity()",
@@ -4475,6 +4877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Read",
           "name": "declaration",
           "package": "tpdb",
@@ -4484,6 +4887,7 @@
         },
         "index": {
           "hierarchy": "TPDB Plain Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Read",
           "name": "declaration",
           "normalized": "Bool-\u003eParser(Declaration a)",
@@ -4499,6 +4903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewarning: by definition, {}[] may appear in identifiers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Read",
           "name": "lexer",
           "package": "tpdb",
@@ -4509,6 +4914,7 @@
         "index": {
           "description": "warning by definition may appear in identifiers",
           "hierarchy": "TPDB Plain Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Read",
           "name": "lexer",
           "package": "tpdb",
@@ -4521,6 +4927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Read",
           "name": "make_srs",
           "package": "tpdb",
@@ -4530,6 +4937,7 @@
         },
         "index": {
           "hierarchy": "TPDB Plain Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Read",
           "name": "make_srs",
           "normalized": "[Declaration[a]]-\u003eSRS a",
@@ -4544,6 +4952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Read",
           "name": "make_trs",
           "package": "tpdb",
@@ -4553,6 +4962,7 @@
         },
         "index": {
           "hierarchy": "TPDB Plain Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Read",
           "name": "make_trs",
           "normalized": "[Declaration(Term Identifier Identifier)]-\u003eTRS Identifier Identifier",
@@ -4567,6 +4977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Read",
           "name": "reader",
           "package": "tpdb",
@@ -4576,6 +4987,7 @@
         },
         "index": {
           "hierarchy": "TPDB Plain Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Read",
           "name": "reader",
           "package": "tpdb",
@@ -4588,6 +5000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Read",
           "name": "repair_signature_srs",
           "package": "tpdb",
@@ -4597,6 +5010,7 @@
         },
         "index": {
           "hierarchy": "TPDB Plain Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Read",
           "name": "repair_signature_srs",
           "normalized": "RS a[b]-\u003eRS b[b]",
@@ -4611,6 +5025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Read",
           "name": "repair_signature_trs",
           "package": "tpdb",
@@ -4620,6 +5035,7 @@
         },
         "index": {
           "hierarchy": "TPDB Plain Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Read",
           "name": "repair_signature_trs",
           "normalized": "RS a(Term b c)-\u003eRS c(Term b c)",
@@ -4634,6 +5050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Read",
           "name": "repair_variables",
           "package": "tpdb",
@@ -4643,6 +5060,7 @@
         },
         "index": {
           "hierarchy": "TPDB Plain Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Read",
           "name": "repair_variables",
           "normalized": "[a]-\u003eb(Rule(Term c a))-\u003eb(Rule(Term a a))",
@@ -4657,6 +5075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Read",
           "name": "srs",
           "package": "tpdb",
@@ -4666,6 +5085,7 @@
         },
         "index": {
           "hierarchy": "TPDB Plain Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Read",
           "name": "srs",
           "normalized": "String-\u003eEither String(SRS Identifier)",
@@ -4680,6 +5100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Read",
           "name": "trs",
           "package": "tpdb",
@@ -4689,6 +5110,7 @@
         },
         "index": {
           "hierarchy": "TPDB Plain Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Read",
           "name": "trs",
           "normalized": "String-\u003eEither String(TRS Identifier Identifier)",
@@ -4704,6 +5126,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ethe \u003ca\u003eold\u003c/a\u003e TPDB format \n cf. \u003ca\u003ehttp://www.lri.fr/~marche/tpdb/format.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Write",
           "name": "Write",
           "package": "tpdb",
@@ -4713,6 +5136,7 @@
         "index": {
           "description": "the old TPDB format cf http www.lri.fr marche tpdb format.html",
           "hierarchy": "TPDB Plain Write",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Write",
           "name": "Write",
           "package": "tpdb",
@@ -4726,6 +5150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Write",
           "name": "PrettyTerm",
           "package": "tpdb",
@@ -4734,6 +5159,7 @@
         },
         "index": {
           "hierarchy": "TPDB Plain Write",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Write",
           "name": "PrettyTerm",
           "package": "tpdb",
@@ -4747,6 +5173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Plain.Write",
           "name": "prettyTerm",
           "package": "tpdb",
@@ -4756,6 +5183,7 @@
         },
         "index": {
           "hierarchy": "TPDB Plain Write",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Plain.Write",
           "name": "prettyTerm",
           "normalized": "a-\u003eDoc",
@@ -4771,6 +5199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "Pretty",
           "package": "tpdb",
@@ -4779,6 +5208,7 @@
         },
         "index": {
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "Pretty",
           "package": "tpdb",
@@ -4793,6 +5223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract data type \u003ccode\u003eDoc\u003c/code\u003e represents pretty documents.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eDoc\u003c/code\u003e is an instance of the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e class. \u003ccode\u003e(show doc)\u003c/code\u003e pretty\n   prints document \u003ccode\u003edoc\u003c/code\u003e with a page width of 100 characters and a\n   ribbon width of 40 characters.\n\u003c/p\u003e\u003cpre\u003e show (text \"hello\" \u003c$\u003e text \"world\")\n\u003c/pre\u003e\u003cp\u003eWhich would return the string \"hello\\nworld\", i.e.\n\u003c/p\u003e\u003cpre\u003e\n   hello\n   world\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "Doc",
           "package": "tpdb",
@@ -4801,6 +5232,7 @@
         "index": {
           "description": "The abstract data type Doc represents pretty documents Doc is an instance of the Show class show doc pretty prints document doc with page width of characters and ribbon width of characters show text hello text world Which would return the string hello nworld i.e hello world",
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "Doc",
           "package": "tpdb",
@@ -4815,6 +5247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe member \u003ccode\u003eprettyList\u003c/code\u003e is only used to define the \u003ccode\u003einstance\n   Pretty a =\u003e Pretty [a]\u003c/code\u003e. In normal circumstances only the\n   \u003ccode\u003epretty\u003c/code\u003e function is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "Pretty",
           "package": "tpdb",
@@ -4823,6 +5256,7 @@
         "index": {
           "description": "The member prettyList is only used to define the instance Pretty Pretty In normal circumstances only the pretty function is used",
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "Pretty",
           "package": "tpdb",
@@ -4837,6 +5271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data type \u003ccode\u003eSimpleDoc\u003c/code\u003e represents rendered documents and is\n   used by the display functions.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eInt\u003c/code\u003e in \u003ccode\u003eSText\u003c/code\u003e contains the length of the string. The \u003ccode\u003eInt\u003c/code\u003e\n   in \u003ccode\u003eSLine\u003c/code\u003e contains the indentation for that line. The library\n   provides two default display functions \u003ccode\u003edisplayS\u003c/code\u003e and\n   \u003ccode\u003e\u003ca\u003edisplayIO\u003c/a\u003e\u003c/code\u003e. You can provide your own display function by writing\n   a function from a \u003ccode\u003eSimpleDoc\u003c/code\u003e to your own output format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "SimpleDoc",
           "package": "tpdb",
@@ -4845,6 +5280,7 @@
         "index": {
           "description": "The data type SimpleDoc represents rendered documents and is used by the display functions The Int in SText contains the length of the string The Int in SLine contains the indentation for that line The library provides two default display functions displayS and displayIO You can provide your own display function by writing function from SimpleDoc to your own output format",
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "SimpleDoc",
           "package": "tpdb",
@@ -4858,6 +5294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "($$)",
           "package": "tpdb",
@@ -4867,6 +5304,7 @@
         },
         "index": {
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "($$) $$",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -4881,6 +5319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "(\u003c+\u003e)",
           "package": "tpdb",
@@ -4890,6 +5329,7 @@
         },
         "index": {
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -4905,6 +5345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe document \u003ccode\u003e(x \u003c\u003e y)\u003c/code\u003e concatenates document \u003ccode\u003ex\u003c/code\u003e and document\n   \u003ccode\u003ey\u003c/code\u003e. It is an associative operation having \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e as a left and\n   right unit.  (infixr 6)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "(\u003c\u003e)",
           "package": "tpdb",
@@ -4914,6 +5355,7 @@
         "index": {
           "description": "The document concatenates document and document It is an associative operation having empty as left and right unit infixr",
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -4929,6 +5371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument \u003ccode\u003e(angles x)\u003c/code\u003e encloses document \u003ccode\u003ex\u003c/code\u003e in angles, \"\u003c\" and\n   \"\u003e\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "angles",
           "package": "tpdb",
@@ -4938,6 +5381,7 @@
         "index": {
           "description": "Document angles encloses document in angles and",
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "angles",
           "normalized": "Doc-\u003eDoc",
@@ -4953,6 +5397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument \u003ccode\u003e(braces x)\u003c/code\u003e encloses document \u003ccode\u003ex\u003c/code\u003e in braces, \"{\" and\n   \"}\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "braces",
           "package": "tpdb",
@@ -4962,6 +5407,7 @@
         "index": {
           "description": "Document braces encloses document in braces and",
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "braces",
           "normalized": "Doc-\u003eDoc",
@@ -4977,6 +5423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument \u003ccode\u003e(brackets x)\u003c/code\u003e encloses document \u003ccode\u003ex\u003c/code\u003e in square brackets,\n   \"[\" and \"]\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "brackets",
           "package": "tpdb",
@@ -4986,6 +5433,7 @@
         "index": {
           "description": "Document brackets encloses document in square brackets and",
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "brackets",
           "normalized": "Doc-\u003eDoc",
@@ -5001,6 +5449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe document \u003ccode\u003ecomma\u003c/code\u003e contains a comma, \",\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "comma",
           "package": "tpdb",
@@ -5010,6 +5459,7 @@
         "index": {
           "description": "The document comma contains comma",
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "comma",
           "package": "tpdb",
@@ -5023,6 +5473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(displayIO handle simpleDoc)\u003c/code\u003e writes \u003ccode\u003esimpleDoc\u003c/code\u003e to the\n   file handle \u003ccode\u003ehandle\u003c/code\u003e. This function is used for example by\n   \u003ccode\u003e\u003ca\u003ehPutDoc\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e hPutDoc handle doc = displayIO handle (renderPretty 0.4 100 doc)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "displayIO",
           "package": "tpdb",
@@ -5032,6 +5483,7 @@
         "index": {
           "description": "displayIO handle simpleDoc writes simpleDoc to the file handle handle This function is used for example by hPutDoc hPutDoc handle doc displayIO handle renderPretty doc",
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "displayIO",
           "normalized": "Handle-\u003eSimpleDoc-\u003eIO()",
@@ -5048,6 +5500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty document is, indeed, empty. Although \u003ccode\u003eempty\u003c/code\u003e has no\n   content, it does have a 'height' of 1 and behaves exactly like\n   \u003ccode\u003e(text \"\")\u003c/code\u003e (and is therefore not a unit of \u003ccode\u003e\u003c$\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "empty",
           "package": "tpdb",
@@ -5057,6 +5510,7 @@
         "index": {
           "description": "The empty document is indeed empty Although empty has no content it does have height of and behaves exactly like text and is therefore not unit of",
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "empty",
           "package": "tpdb",
@@ -5070,6 +5524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe document \u003ccode\u003e(enclose l r x)\u003c/code\u003e encloses document \u003ccode\u003ex\u003c/code\u003e between\n   documents \u003ccode\u003el\u003c/code\u003e and \u003ccode\u003er\u003c/code\u003e using \u003ccode\u003e(\u003c\u003e)\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e enclose l r x = l \u003c\u003e x \u003c\u003e r\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "enclose",
           "package": "tpdb",
@@ -5079,6 +5534,7 @@
         "index": {
           "description": "The document enclose encloses document between documents and using enclose",
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "enclose",
           "normalized": "Doc-\u003eDoc-\u003eDoc-\u003eDoc",
@@ -5093,6 +5549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "fsep",
           "package": "tpdb",
@@ -5102,6 +5559,7 @@
         },
         "index": {
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "fsep",
           "normalized": "[Doc]-\u003eDoc",
@@ -5117,6 +5575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe document \u003ccode\u003e(hcat xs)\u003c/code\u003e concatenates all documents \u003ccode\u003exs\u003c/code\u003e\n   horizontally with \u003ccode\u003e(\u003c\u003e)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "hcat",
           "package": "tpdb",
@@ -5126,6 +5585,7 @@
         "index": {
           "description": "The document hcat xs concatenates all documents xs horizontally with",
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "hcat",
           "normalized": "[Doc]-\u003eDoc",
@@ -5141,6 +5601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe document \u003ccode\u003e(hsep xs)\u003c/code\u003e concatenates all documents \u003ccode\u003exs\u003c/code\u003e\n   horizontally with \u003ccode\u003e(\u003c+\u003e)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "hsep",
           "package": "tpdb",
@@ -5150,6 +5611,7 @@
         "index": {
           "description": "The document hsep xs concatenates all documents xs horizontally with",
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "hsep",
           "normalized": "[Doc]-\u003eDoc",
@@ -5165,6 +5627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe document \u003ccode\u003e(nest i x)\u003c/code\u003e renders document \u003ccode\u003ex\u003c/code\u003e with the current\n   indentation level increased by \u003ccode\u003ei\u003c/code\u003e (See also \u003ccode\u003e\u003ca\u003ehang\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ealign\u003c/a\u003e\u003c/code\u003e and\n   \u003ccode\u003e\u003ca\u003eindent\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cpre\u003e nest 2 (text \"hello\" \u003c$\u003e text \"world\") \u003c$\u003e text \"!\"\n\u003c/pre\u003e\u003cp\u003eoutputs as:\n\u003c/p\u003e\u003cpre\u003e\n   hello\n     world\n   !\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "nest",
           "package": "tpdb",
@@ -5174,6 +5637,7 @@
         "index": {
           "description": "The document nest renders document with the current indentation level increased by See also hang align and indent nest text hello text world text outputs as hello world",
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "nest",
           "normalized": "Int-\u003eDoc-\u003eDoc",
@@ -5189,6 +5653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument \u003ccode\u003e(parens x)\u003c/code\u003e encloses document \u003ccode\u003ex\u003c/code\u003e in parenthesis, \"(\"\n   and \")\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "parens",
           "package": "tpdb",
@@ -5198,6 +5663,7 @@
         "index": {
           "description": "Document parens encloses document in parenthesis and",
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "parens",
           "normalized": "Doc-\u003eDoc",
@@ -5212,6 +5678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "pretty",
           "package": "tpdb",
@@ -5220,6 +5687,7 @@
         },
         "index": {
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "pretty",
           "normalized": "a-\u003eDoc",
@@ -5234,6 +5702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "prettyList",
           "package": "tpdb",
@@ -5242,6 +5711,7 @@
         },
         "index": {
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "prettyList",
           "normalized": "[a]-\u003eDoc",
@@ -5258,6 +5728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(punctuate p xs)\u003c/code\u003e concatenates all documents in \u003ccode\u003exs\u003c/code\u003e with\n   document \u003ccode\u003ep\u003c/code\u003e except for the last document.\n\u003c/p\u003e\u003cpre\u003e someText = map text [\"words\",\"in\",\"a\",\"tuple\"]\n test = parens (align (cat (punctuate comma someText)))\n\u003c/pre\u003e\u003cp\u003eThis is laid out on a page width of 20 as:\n\u003c/p\u003e\u003cpre\u003e\n   (words,in,a,tuple)\n\u003c/pre\u003e\u003cp\u003eBut when the page width is 15, it is laid out as:\n\u003c/p\u003e\u003cpre\u003e\n   (words,\n    in,\n    a,\n    tuple)\n\u003c/pre\u003e\u003cp\u003e(If you want put the commas in front of their elements instead of\n   at the end, you should use \u003ccode\u003e\u003ca\u003etupled\u003c/a\u003e\u003c/code\u003e or, in general, \u003ccode\u003e\u003ca\u003eencloseSep\u003c/a\u003e\u003c/code\u003e.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "punctuate",
           "package": "tpdb",
@@ -5267,6 +5738,7 @@
         "index": {
           "description": "punctuate xs concatenates all documents in xs with document except for the last document someText map text words in tuple test parens align cat punctuate comma someText This is laid out on page width of as words in tuple But when the page width is it is laid out as words in tuple If you want put the commas in front of their elements instead of at the end you should use tupled or in general encloseSep",
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "punctuate",
           "normalized": "Doc-\u003e[Doc]-\u003e[Doc]",
@@ -5281,6 +5753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "render",
           "package": "tpdb",
@@ -5290,6 +5763,7 @@
         },
         "index": {
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "render",
           "normalized": "Doc-\u003eString",
@@ -5305,6 +5779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(renderCompact x)\u003c/code\u003e renders document \u003ccode\u003ex\u003c/code\u003e without adding any\n   indentation. Since no 'pretty' printing is involved, this\n   renderer is very fast. The resulting output contains fewer\n   characters than a pretty printed version and can be used for\n   output that is read by other programs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "renderCompact",
           "package": "tpdb",
@@ -5314,6 +5789,7 @@
         "index": {
           "description": "renderCompact renders document without adding any indentation Since no pretty printing is involved this renderer is very fast The resulting output contains fewer characters than pretty printed version and can be used for output that is read by other programs",
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "renderCompact",
           "normalized": "Doc-\u003eSimpleDoc",
@@ -5329,6 +5805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "text",
           "package": "tpdb",
@@ -5338,6 +5815,7 @@
         },
         "index": {
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "text",
           "normalized": "String-\u003eDoc",
@@ -5352,6 +5830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "vcat",
           "package": "tpdb",
@@ -5361,6 +5840,7 @@
         },
         "index": {
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "vcat",
           "normalized": "[Doc]-\u003eDoc",
@@ -5376,6 +5856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe document \u003ccode\u003e(vsep xs)\u003c/code\u003e concatenates all documents \u003ccode\u003exs\u003c/code\u003e\n   vertically with \u003ccode\u003e(\u003c$\u003e)\u003c/code\u003e. If a \u003ccode\u003e\u003ca\u003egroup\u003c/a\u003e\u003c/code\u003e undoes the line breaks\n   inserted by \u003ccode\u003evsep\u003c/code\u003e, all documents are separated with a space.\n\u003c/p\u003e\u003cpre\u003e someText = map text (words (\"text to lay out\"))\n\n test = text \"some\" \u003c+\u003e vsep someText\n\u003c/pre\u003e\u003cp\u003eThis is laid out as:\n\u003c/p\u003e\u003cpre\u003e\n   some text\n   to\n   lay\n   out\n\u003c/pre\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ealign\u003c/a\u003e\u003c/code\u003e combinator can be used to align the documents under\n   their first element\n\u003c/p\u003e\u003cpre\u003e test = text \"some\" \u003c+\u003e align (vsep someText)\n\u003c/pre\u003e\u003cp\u003eWhich is printed as:\n\u003c/p\u003e\u003cpre\u003e\n   some text\n        to\n        lay\n        out\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Pretty",
           "name": "vsep",
           "package": "tpdb",
@@ -5385,6 +5866,7 @@
         "index": {
           "description": "The document vsep xs concatenates all documents xs vertically with If group undoes the line breaks inserted by vsep all documents are separated with space someText map text words text to lay out test text some vsep someText This is laid out as some text to lay out The align combinator can be used to align the documents under their first element test text some align vsep someText Which is printed as some text to lay out",
           "hierarchy": "TPDB Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Pretty",
           "name": "vsep",
           "normalized": "[Doc]-\u003eDoc",
@@ -5400,6 +5882,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003einternal representation of Rainbow termination proofs,\n see \u003ca\u003ehttp://color.loria.fr/\u003c/a\u003e\n this file is modelled after rainbow/proof.ml\n it omits constructors not needed for matrix interpretations (for the moment)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Type",
           "package": "tpdb",
@@ -5409,6 +5892,7 @@
         "index": {
           "description": "internal representation of Rainbow termination proofs see http color.loria.fr this file is modelled after rainbow proof.ml it omits constructors not needed for matrix interpretations for the moment",
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Type",
           "package": "tpdb",
@@ -5422,6 +5906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Claim",
           "package": "tpdb",
@@ -5430,6 +5915,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Claim",
           "package": "tpdb",
@@ -5443,6 +5929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Domain",
           "package": "tpdb",
@@ -5451,6 +5938,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Domain",
           "package": "tpdb",
@@ -5465,6 +5953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee specification:\n http:\u003cem/\u003etermination-portal.org\u003cem\u003ewiki\u003c/em\u003eComplexity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Function",
           "package": "tpdb",
@@ -5474,6 +5963,7 @@
         "index": {
           "description": "see specification http termination-portal.org wiki Complexity",
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Function",
           "package": "tpdb",
@@ -5487,6 +5977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Interpretation",
           "package": "tpdb",
@@ -5495,6 +5986,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Interpretation",
           "package": "tpdb",
@@ -5508,6 +6000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Marked",
           "package": "tpdb",
@@ -5516,6 +6009,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Marked",
           "package": "tpdb",
@@ -5529,6 +6023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Matrix",
           "package": "tpdb",
@@ -5537,6 +6032,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Matrix",
           "package": "tpdb",
@@ -5550,6 +6046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Matrix_Int",
           "package": "tpdb",
@@ -5558,6 +6055,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Matrix_Int",
           "package": "tpdb",
@@ -5571,6 +6069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "MaxPlus",
           "package": "tpdb",
@@ -5579,6 +6078,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "MaxPlus",
           "package": "tpdb",
@@ -5592,6 +6092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Mi_Fun",
           "package": "tpdb",
@@ -5600,6 +6101,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Mi_Fun",
           "package": "tpdb",
@@ -5613,6 +6115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "MinPlus",
           "package": "tpdb",
@@ -5621,6 +6124,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "MinPlus",
           "package": "tpdb",
@@ -5634,6 +6138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Over_Graph",
           "package": "tpdb",
@@ -5642,6 +6147,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Over_Graph",
           "package": "tpdb",
@@ -5655,6 +6161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Poly_Fun",
           "package": "tpdb",
@@ -5663,6 +6170,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Poly_Fun",
           "package": "tpdb",
@@ -5676,6 +6184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Polynomial_Int",
           "package": "tpdb",
@@ -5684,6 +6193,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Polynomial_Int",
           "package": "tpdb",
@@ -5697,6 +6207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Proof",
           "package": "tpdb",
@@ -5705,6 +6216,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Proof",
           "package": "tpdb",
@@ -5718,6 +6230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Property",
           "package": "tpdb",
@@ -5726,6 +6239,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Property",
           "package": "tpdb",
@@ -5739,6 +6253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Reason",
           "package": "tpdb",
@@ -5747,6 +6262,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Reason",
           "package": "tpdb",
@@ -5760,6 +6276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Red_Ord",
           "package": "tpdb",
@@ -5768,6 +6285,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Red_Ord",
           "package": "tpdb",
@@ -5781,6 +6299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Simple_Projection",
           "package": "tpdb",
@@ -5789,6 +6308,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Simple_Projection",
           "package": "tpdb",
@@ -5802,6 +6322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Usable_Rules",
           "package": "tpdb",
@@ -5810,6 +6331,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Usable_Rules",
           "package": "tpdb",
@@ -5823,6 +6345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Vector",
           "package": "tpdb",
@@ -5831,6 +6354,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Vector",
           "package": "tpdb",
@@ -5844,6 +6368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Arctic",
           "package": "tpdb",
@@ -5853,6 +6378,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Arctic",
           "package": "tpdb",
@@ -5866,6 +6392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Arctic_Below_Zero",
           "package": "tpdb",
@@ -5875,6 +6402,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Arctic_Below_Zero",
           "package": "tpdb",
@@ -5888,6 +6416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "As_SRS",
           "package": "tpdb",
@@ -5897,6 +6426,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "As_SRS",
           "package": "tpdb",
@@ -5910,6 +6440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "As_TRS",
           "package": "tpdb",
@@ -5919,6 +6450,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "As_TRS",
           "package": "tpdb",
@@ -5933,6 +6465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTODO add more info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Bounded_Matrix_Interpretation",
           "package": "tpdb",
@@ -5943,6 +6476,7 @@
         "index": {
           "description": "TODO add more info",
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Bounded_Matrix_Interpretation",
           "package": "tpdb",
@@ -5956,6 +6490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Claim",
           "package": "tpdb",
@@ -5965,6 +6500,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Claim",
           "package": "tpdb",
@@ -5978,6 +6514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Complexity",
           "package": "tpdb",
@@ -5987,6 +6524,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Complexity",
           "normalized": "Complexity(Function,Function)",
@@ -6002,6 +6540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "DP",
           "package": "tpdb",
@@ -6011,6 +6550,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "DP",
           "package": "tpdb",
@@ -6024,6 +6564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Exponential",
           "package": "tpdb",
@@ -6033,6 +6574,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Exponential",
           "package": "tpdb",
@@ -6046,6 +6588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "HDE",
           "package": "tpdb",
@@ -6055,6 +6598,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "HDE",
           "package": "tpdb",
@@ -6068,6 +6612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "HDE_Marked",
           "package": "tpdb",
@@ -6077,6 +6622,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "HDE_Marked",
           "package": "tpdb",
@@ -6090,6 +6636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Hd_Mark",
           "package": "tpdb",
@@ -6099,6 +6646,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Hd_Mark",
           "package": "tpdb",
@@ -6112,6 +6660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Int_Mark",
           "package": "tpdb",
@@ -6121,6 +6670,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Int_Mark",
           "package": "tpdb",
@@ -6134,6 +6684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Interpretation",
           "package": "tpdb",
@@ -6143,6 +6694,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Interpretation",
           "package": "tpdb",
@@ -6156,6 +6708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "MannaNess",
           "package": "tpdb",
@@ -6165,6 +6718,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "MannaNess",
           "package": "tpdb",
@@ -6178,6 +6732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "MarkSymb",
           "package": "tpdb",
@@ -6187,6 +6742,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "MarkSymb",
           "package": "tpdb",
@@ -6200,6 +6756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Matrix",
           "package": "tpdb",
@@ -6209,6 +6766,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Matrix",
           "normalized": "Matrix[Vector a]",
@@ -6224,6 +6782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "MaxPlusFinite",
           "package": "tpdb",
@@ -6233,6 +6792,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "MaxPlusFinite",
           "package": "tpdb",
@@ -6246,6 +6806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Mi_Fun",
           "package": "tpdb",
@@ -6255,6 +6816,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Mi_Fun",
           "package": "tpdb",
@@ -6268,6 +6830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "MinPlusFinite",
           "package": "tpdb",
@@ -6277,6 +6840,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "MinPlusFinite",
           "package": "tpdb",
@@ -6290,6 +6854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "MinusInfinite",
           "package": "tpdb",
@@ -6299,6 +6864,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "MinusInfinite",
           "package": "tpdb",
@@ -6312,6 +6878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Natural",
           "package": "tpdb",
@@ -6321,6 +6888,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Natural",
           "package": "tpdb",
@@ -6334,6 +6902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "PlusInfinite",
           "package": "tpdb",
@@ -6343,6 +6912,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "PlusInfinite",
           "package": "tpdb",
@@ -6356,6 +6926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Poly_Fun",
           "package": "tpdb",
@@ -6365,6 +6936,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Poly_Fun",
           "package": "tpdb",
@@ -6378,6 +6950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Polynomial",
           "package": "tpdb",
@@ -6387,6 +6960,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Polynomial",
           "package": "tpdb",
@@ -6400,6 +6974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Proof",
           "package": "tpdb",
@@ -6409,6 +6984,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Proof",
           "package": "tpdb",
@@ -6423,6 +6999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexperimental (not in Rainbow)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "RFC",
           "package": "tpdb",
@@ -6433,6 +7010,7 @@
         "index": {
           "description": "experimental not in Rainbow",
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "RFC",
           "package": "tpdb",
@@ -6446,6 +7024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Red_Ord_Matrix_Int",
           "package": "tpdb",
@@ -6455,6 +7034,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Red_Ord_Matrix_Int",
           "package": "tpdb",
@@ -6468,6 +7048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Red_Ord_Polynomial_Int",
           "package": "tpdb",
@@ -6477,6 +7058,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Red_Ord_Polynomial_Int",
           "package": "tpdb",
@@ -6490,6 +7072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Red_Ord_Simple_Projection",
           "package": "tpdb",
@@ -6499,6 +7082,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Red_Ord_Simple_Projection",
           "package": "tpdb",
@@ -6512,6 +7096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Red_Ord_Usable_Rules",
           "package": "tpdb",
@@ -6521,6 +7106,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Red_Ord_Usable_Rules",
           "package": "tpdb",
@@ -6534,6 +7120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Reverse",
           "package": "tpdb",
@@ -6543,6 +7130,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Reverse",
           "package": "tpdb",
@@ -6557,6 +7145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eproposed extension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "SCC",
           "package": "tpdb",
@@ -6567,6 +7156,7 @@
         "index": {
           "description": "proposed extension",
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "SCC",
           "normalized": "SCC[Proof]",
@@ -6582,6 +7172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Simple_Projection",
           "package": "tpdb",
@@ -6591,6 +7182,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Simple_Projection",
           "normalized": "Simple_Projection[(Identifier,Int)]",
@@ -6606,6 +7198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Termination",
           "package": "tpdb",
@@ -6615,6 +7208,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Termination",
           "package": "tpdb",
@@ -6628,6 +7222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Top_Termination",
           "package": "tpdb",
@@ -6637,6 +7232,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Top_Termination",
           "package": "tpdb",
@@ -6650,6 +7246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Trivial",
           "package": "tpdb",
@@ -6659,6 +7256,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Trivial",
           "package": "tpdb",
@@ -6672,6 +7270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Tropical",
           "package": "tpdb",
@@ -6681,6 +7280,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Tropical",
           "package": "tpdb",
@@ -6695,6 +7295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexperimental (not in Rainbow)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Undo_RFC",
           "package": "tpdb",
@@ -6705,6 +7306,7 @@
         "index": {
           "description": "experimental not in Rainbow",
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Undo_RFC",
           "package": "tpdb",
@@ -6718,6 +7320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Unknown",
           "package": "tpdb",
@@ -6727,6 +7330,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Unknown",
           "package": "tpdb",
@@ -6740,6 +7344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Usable_Rules",
           "package": "tpdb",
@@ -6749,6 +7354,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Usable_Rules",
           "normalized": "Usable_Rules[Identifier]",
@@ -6764,6 +7370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Vector",
           "package": "tpdb",
@@ -6773,6 +7380,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "Vector",
           "normalized": "Vector[a]",
@@ -6788,6 +7396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "claim",
           "package": "tpdb",
@@ -6797,6 +7406,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "claim",
           "package": "tpdb",
@@ -6809,6 +7419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "coefficients",
           "package": "tpdb",
@@ -6818,6 +7429,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "coefficients",
           "normalized": "[a]",
@@ -6832,6 +7444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "degree",
           "package": "tpdb",
@@ -6841,6 +7454,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "degree",
           "package": "tpdb",
@@ -6853,6 +7467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "mi_args",
           "package": "tpdb",
@@ -6862,6 +7477,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "mi_args",
           "normalized": "[Matrix a]",
@@ -6876,6 +7492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "mi_const",
           "package": "tpdb",
@@ -6885,6 +7502,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "mi_const",
           "package": "tpdb",
@@ -6897,6 +7515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "mi_dim",
           "package": "tpdb",
@@ -6906,6 +7525,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "mi_dim",
           "package": "tpdb",
@@ -6918,6 +7538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "mi_domain",
           "package": "tpdb",
@@ -6927,6 +7548,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "mi_domain",
           "package": "tpdb",
@@ -6940,6 +7562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis is an extension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "mi_duration",
           "package": "tpdb",
@@ -6950,6 +7573,7 @@
         "index": {
           "description": "this is an extension",
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "mi_duration",
           "package": "tpdb",
@@ -6962,6 +7586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "mi_end",
           "package": "tpdb",
@@ -6971,6 +7596,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "mi_end",
           "package": "tpdb",
@@ -6983,6 +7609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "mi_int",
           "package": "tpdb",
@@ -6992,6 +7619,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "mi_int",
           "normalized": "[(a,b c)]",
@@ -7006,6 +7634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "mi_start",
           "package": "tpdb",
@@ -7015,6 +7644,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "mi_start",
           "package": "tpdb",
@@ -7027,6 +7657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "property",
           "package": "tpdb",
@@ -7036,6 +7667,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "property",
           "package": "tpdb",
@@ -7048,6 +7680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "reason",
           "package": "tpdb",
@@ -7057,6 +7690,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "reason",
           "package": "tpdb",
@@ -7069,6 +7703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "system",
           "package": "tpdb",
@@ -7078,6 +7713,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Type",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Type",
           "name": "system",
           "package": "tpdb",
@@ -7091,6 +7727,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003efrom internal representation to XML, and back\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Xml",
           "name": "Xml",
           "package": "tpdb",
@@ -7100,6 +7737,7 @@
         "index": {
           "description": "from internal representation to XML and back",
           "hierarchy": "TPDB Rainbow Proof Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Xml",
           "name": "Xml",
           "package": "tpdb",
@@ -7114,6 +7752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor some types, e.g. Integer\n , do not use XmlContent instance for element type\n but show them (as string).\n reason: the XmlContent module contains an instance\n for integer that produces \u003ca\u003evalue=\"42\"/\u003c/a\u003e\n and there is no way to turn this off.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Xml",
           "name": "Xml_As_String",
           "package": "tpdb",
@@ -7123,6 +7762,7 @@
         "index": {
           "description": "for some types e.g Integer do not use XmlContent instance for element type but show them as string reason the XmlContent module contains an instance for integer that produces value and there is no way to turn this off",
           "hierarchy": "TPDB Rainbow Proof Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Xml",
           "name": "Xml_As_String",
           "package": "tpdb",
@@ -7136,6 +7776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Xml",
           "name": "Xml_As_String",
           "package": "tpdb",
@@ -7145,6 +7786,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Xml",
           "name": "Xml_As_String",
           "package": "tpdb",
@@ -7158,6 +7800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Xml",
           "name": "externalize",
           "package": "tpdb",
@@ -7167,6 +7810,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Xml",
           "name": "externalize",
           "normalized": "[Identifier]-\u003eRule(Term Identifier Identifier)-\u003eRule(Term Identifier(Marked Identifier))",
@@ -7182,6 +7826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFIXME this is broken because the keys could be\n Identifier or Marked Identifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Xml",
           "name": "mai",
           "package": "tpdb",
@@ -7192,6 +7837,7 @@
         "index": {
           "description": "FIXME this is broken because the keys could be Identifier or Marked Identifier",
           "hierarchy": "TPDB Rainbow Proof Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Xml",
           "name": "mai",
           "normalized": "String-\u003eDomain-\u003ea-\u003eCParser Matrix_Int",
@@ -7206,6 +7852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Xml",
           "name": "toplevel",
           "package": "tpdb",
@@ -7215,6 +7862,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Xml",
           "name": "toplevel",
           "normalized": "a-\u003eElement()",
@@ -7229,6 +7877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Xml",
           "name": "tox",
           "package": "tpdb",
@@ -7238,6 +7887,7 @@
         },
         "index": {
           "hierarchy": "TPDB Rainbow Proof Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Xml",
           "name": "tox",
           "normalized": "Proof-\u003eDocument()",
@@ -7253,6 +7903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esuper ugly risky: name mangling\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Rainbow.Proof.Xml",
           "name": "unP",
           "package": "tpdb",
@@ -7263,6 +7914,7 @@
         "index": {
           "description": "super ugly risky name mangling",
           "hierarchy": "TPDB Rainbow Proof Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Rainbow.Proof.Xml",
           "name": "unP",
           "normalized": "Identifier-\u003eIdentifier",
@@ -7278,6 +7930,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003econstruct data object from XML tree.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.XTC.Read",
           "name": "Read",
           "package": "tpdb",
@@ -7287,6 +7940,7 @@
         "index": {
           "description": "construct data object from XML tree",
           "hierarchy": "TPDB XTC Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.XTC.Read",
           "name": "Read",
           "package": "tpdb",
@@ -7300,6 +7954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.XTC.Read",
           "name": "atTag",
           "package": "tpdb",
@@ -7309,6 +7964,7 @@
         },
         "index": {
           "hierarchy": "TPDB XTC Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.XTC.Read",
           "name": "atTag",
           "normalized": "String-\u003ea(NTree XNode)XmlTree",
@@ -7324,6 +7980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.XTC.Read",
           "name": "getChild",
           "package": "tpdb",
@@ -7333,6 +7990,7 @@
         },
         "index": {
           "hierarchy": "TPDB XTC Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.XTC.Read",
           "name": "getChild",
           "normalized": "String-\u003ea(NTree XNode)XmlTree",
@@ -7348,6 +8006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.XTC.Read",
           "name": "getFunApp",
           "package": "tpdb",
@@ -7357,6 +8016,7 @@
         },
         "index": {
           "hierarchy": "TPDB XTC Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.XTC.Read",
           "name": "getFunApp",
           "package": "tpdb",
@@ -7370,6 +8030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.XTC.Read",
           "name": "getFuncsym",
           "package": "tpdb",
@@ -7379,6 +8040,7 @@
         },
         "index": {
           "hierarchy": "TPDB XTC Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.XTC.Read",
           "name": "getFuncsym",
           "package": "tpdb",
@@ -7392,6 +8054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.XTC.Read",
           "name": "getProblem",
           "package": "tpdb",
@@ -7401,6 +8064,7 @@
         },
         "index": {
           "hierarchy": "TPDB XTC Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.XTC.Read",
           "name": "getProblem",
           "package": "tpdb",
@@ -7414,6 +8078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.XTC.Read",
           "name": "getRule",
           "package": "tpdb",
@@ -7423,6 +8088,7 @@
         },
         "index": {
           "hierarchy": "TPDB XTC Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.XTC.Read",
           "name": "getRule",
           "normalized": "Relation-\u003ea(NTree XNode)(Rule(Term Identifier Identifier))",
@@ -7438,6 +8104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.XTC.Read",
           "name": "getRules",
           "package": "tpdb",
@@ -7447,6 +8114,7 @@
         },
         "index": {
           "hierarchy": "TPDB XTC Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.XTC.Read",
           "name": "getRules",
           "normalized": "Relation-\u003ea(NTree XNode)[Rule(Term Identifier Identifier)]",
@@ -7462,6 +8130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.XTC.Read",
           "name": "getSignature",
           "package": "tpdb",
@@ -7471,6 +8140,7 @@
         },
         "index": {
           "hierarchy": "TPDB XTC Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.XTC.Read",
           "name": "getSignature",
           "normalized": "a(NTree XNode)[Identifier]",
@@ -7486,6 +8156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.XTC.Read",
           "name": "getStartterm",
           "package": "tpdb",
@@ -7495,6 +8166,7 @@
         },
         "index": {
           "hierarchy": "TPDB XTC Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.XTC.Read",
           "name": "getStartterm",
           "package": "tpdb",
@@ -7508,6 +8180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.XTC.Read",
           "name": "getStrategy",
           "package": "tpdb",
@@ -7517,6 +8190,7 @@
         },
         "index": {
           "hierarchy": "TPDB XTC Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.XTC.Read",
           "name": "getStrategy",
           "package": "tpdb",
@@ -7530,6 +8204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.XTC.Read",
           "name": "getTRS",
           "package": "tpdb",
@@ -7539,6 +8214,7 @@
         },
         "index": {
           "hierarchy": "TPDB XTC Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.XTC.Read",
           "name": "getTRS",
           "package": "tpdb",
@@ -7552,6 +8228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.XTC.Read",
           "name": "getTerm",
           "package": "tpdb",
@@ -7561,6 +8238,7 @@
         },
         "index": {
           "hierarchy": "TPDB XTC Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.XTC.Read",
           "name": "getTerm",
           "package": "tpdb",
@@ -7574,6 +8252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.XTC.Read",
           "name": "getType",
           "package": "tpdb",
@@ -7583,6 +8262,7 @@
         },
         "index": {
           "hierarchy": "TPDB XTC Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.XTC.Read",
           "name": "getType",
           "normalized": "a[Char]Type",
@@ -7598,6 +8278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.XTC.Read",
           "name": "getVar",
           "package": "tpdb",
@@ -7607,6 +8288,7 @@
         },
         "index": {
           "hierarchy": "TPDB XTC Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.XTC.Read",
           "name": "getVar",
           "package": "tpdb",
@@ -7620,6 +8302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.XTC.Read",
           "name": "gotoChild",
           "package": "tpdb",
@@ -7629,6 +8312,7 @@
         },
         "index": {
           "hierarchy": "TPDB XTC Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.XTC.Read",
           "name": "gotoChild",
           "normalized": "String-\u003ea(NTree XNode)(NTree XNode)",
@@ -7644,6 +8328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.XTC.Read",
           "name": "readProblems",
           "package": "tpdb",
@@ -7653,6 +8338,7 @@
         },
         "index": {
           "hierarchy": "TPDB XTC Read",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.XTC.Read",
           "name": "readProblems",
           "normalized": "FilePath-\u003eIO[Problem Identifier Identifier]",
@@ -7668,6 +8354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.XTC",
           "name": "XTC",
           "package": "tpdb",
@@ -7676,6 +8363,7 @@
         },
         "index": {
           "hierarchy": "TPDB XTC",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.XTC",
           "name": "XTC",
           "package": "tpdb",
@@ -7690,6 +8378,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eoriginal author: Malcolm Wallace, \n license: LGPL\n http:\u003cem/\u003ehackage.haskell.org\u003cem\u003epackages\u003c/em\u003earchive\u003cem\u003eHaXml\u003c/em\u003e1.23.3\u003cem\u003edoc\u003c/em\u003ehtml/Text-XML-HaXml-Pretty.html\n\u003c/p\u003e\u003cp\u003emodified by Johannes Waldmann\n to use a different pretty-printer back-end.\n\u003c/p\u003e\u003cp\u003eThis is a pretty-printer for turning the internal representation\n   of generic structured XML documents into the Doc type (which can\n   later be rendered using Text.PrettyPrint.HughesPJ.render).\n   Essentially there is one pp function for each type in\n   Text.Xml.HaXml.Types, so you can pretty-print as much or as little\n   of the document as you wish.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml.Pretty",
           "name": "Pretty",
           "package": "tpdb",
@@ -7699,6 +8388,7 @@
         "index": {
           "description": "original author Malcolm Wallace license LGPL http hackage.haskell.org packages archive HaXml doc html Text-XML-HaXml-Pretty.html modified by Johannes Waldmann to use different pretty-printer back-end This is pretty-printer for turning the internal representation of generic structured XML documents into the Doc type which can later be rendered using Text.PrettyPrint.HughesPJ.render Essentially there is one pp function for each type in Text.Xml.HaXml.Types so you can pretty-print as much or as little of the document as you wish",
           "hierarchy": "TPDB Xml Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml.Pretty",
           "name": "Pretty",
           "package": "tpdb",
@@ -7712,6 +8402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml.Pretty",
           "name": "content",
           "package": "tpdb",
@@ -7721,6 +8412,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml.Pretty",
           "name": "content",
           "normalized": "Content a-\u003eDoc",
@@ -7735,6 +8427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml.Pretty",
           "name": "cp",
           "package": "tpdb",
@@ -7744,6 +8437,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml.Pretty",
           "name": "cp",
           "normalized": "CP-\u003eDoc",
@@ -7758,6 +8452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml.Pretty",
           "name": "doctypedecl",
           "package": "tpdb",
@@ -7767,6 +8462,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml.Pretty",
           "name": "doctypedecl",
           "normalized": "DocTypeDecl-\u003eDoc",
@@ -7781,6 +8477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml.Pretty",
           "name": "document",
           "package": "tpdb",
@@ -7790,6 +8487,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml.Pretty",
           "name": "document",
           "normalized": "Document a-\u003eDoc",
@@ -7804,6 +8502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml.Pretty",
           "name": "element",
           "package": "tpdb",
@@ -7813,6 +8512,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml.Pretty",
           "name": "element",
           "normalized": "Element a-\u003eDoc",
@@ -7827,6 +8527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml.Pretty",
           "name": "prolog",
           "package": "tpdb",
@@ -7836,6 +8537,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml Pretty",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml.Pretty",
           "name": "prolog",
           "normalized": "Prolog-\u003eDoc",
@@ -7850,6 +8552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml",
           "name": "Xml",
           "package": "tpdb",
@@ -7858,6 +8561,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml",
           "name": "Xml",
           "package": "tpdb",
@@ -7871,6 +8575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml",
           "name": "CParser",
           "package": "tpdb",
@@ -7879,6 +8584,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml",
           "name": "CParser",
           "package": "tpdb",
@@ -7892,6 +8598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml",
           "name": "Contents",
           "package": "tpdb",
@@ -7900,6 +8607,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml",
           "name": "Contents",
           "package": "tpdb",
@@ -7913,6 +8621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml",
           "name": "XRead",
           "package": "tpdb",
@@ -7921,6 +8630,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml",
           "name": "XRead",
           "package": "tpdb",
@@ -7934,6 +8644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml",
           "name": "CParser",
           "package": "tpdb",
@@ -7943,6 +8654,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml",
           "name": "CParser",
           "package": "tpdb",
@@ -7956,6 +8668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml",
           "name": "complain",
           "package": "tpdb",
@@ -7965,6 +8678,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml",
           "name": "complain",
           "normalized": "String-\u003eCParser a",
@@ -7979,6 +8693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml",
           "name": "element",
           "package": "tpdb",
@@ -7988,6 +8703,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml",
           "name": "element",
           "normalized": "Name-\u003eCParser a-\u003eCParser a",
@@ -8002,6 +8718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml",
           "name": "element0",
           "package": "tpdb",
@@ -8011,6 +8728,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml",
           "name": "element0",
           "normalized": "QName-\u003eCParser a-\u003eCParser a",
@@ -8025,6 +8743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml",
           "name": "errmsg",
           "package": "tpdb",
@@ -8034,6 +8753,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml",
           "name": "errmsg",
           "normalized": "[Content a]-\u003eString",
@@ -8048,6 +8768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml",
           "name": "escape",
           "package": "tpdb",
@@ -8057,6 +8778,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml",
           "name": "escape",
           "normalized": "[Char]-\u003e[Char]",
@@ -8071,6 +8793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml",
           "name": "info",
           "package": "tpdb",
@@ -8080,6 +8803,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml",
           "name": "info",
           "normalized": "Contents-\u003eString",
@@ -8094,6 +8818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml",
           "name": "many",
           "package": "tpdb",
@@ -8103,6 +8828,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml",
           "name": "many",
           "normalized": "CParser a-\u003eCParser[a]",
@@ -8117,6 +8843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml",
           "name": "mkel",
           "package": "tpdb",
@@ -8126,6 +8853,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml",
           "name": "mkel",
           "normalized": "Name-\u003e[Content()]-\u003eContent()",
@@ -8140,6 +8868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml",
           "name": "must_succeed",
           "package": "tpdb",
@@ -8149,6 +8878,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml",
           "name": "must_succeed",
           "normalized": "CParser a-\u003eCParser a",
@@ -8163,6 +8893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml",
           "name": "orelse",
           "package": "tpdb",
@@ -8172,6 +8903,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml",
           "name": "orelse",
           "normalized": "CParser a-\u003eCParser a-\u003eCParser a",
@@ -8186,6 +8918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml",
           "name": "rmkel",
           "package": "tpdb",
@@ -8195,6 +8928,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml",
           "name": "rmkel",
           "normalized": "Name-\u003e[Content()]-\u003ea(Content())",
@@ -8209,6 +8943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml",
           "name": "strip",
           "package": "tpdb",
@@ -8218,6 +8953,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml",
           "name": "strip",
           "normalized": "[Content a]-\u003e[Content a]",
@@ -8232,6 +8968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml",
           "name": "unCParser",
           "package": "tpdb",
@@ -8241,6 +8978,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml",
           "name": "unCParser",
           "normalized": "Contents-\u003eMaybe(a,Contents)",
@@ -8256,6 +8994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml",
           "name": "wrap",
           "package": "tpdb",
@@ -8265,6 +9004,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml",
           "name": "wrap",
           "normalized": "CParser a-\u003eParser(Content Posn)a",
@@ -8279,6 +9019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml",
           "name": "xfromstring",
           "package": "tpdb",
@@ -8288,6 +9029,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml",
           "name": "xfromstring",
           "package": "tpdb",
@@ -8300,6 +9042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:26 UTC 2014",
           "module": "TPDB.Xml",
           "name": "xread",
           "package": "tpdb",
@@ -8309,6 +9052,7 @@
         },
         "index": {
           "hierarchy": "TPDB Xml",
+          "indexed": "2014-03-11T20:24:26",
           "module": "TPDB.Xml",
           "name": "xread",
           "package": "tpdb",

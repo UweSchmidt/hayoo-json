@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "llvm-base-util"
+        "phrase": "llvm-base-util",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "Util",
           "package": "llvm-base-util",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "Util",
           "package": "llvm-base-util",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "BasicBlock",
           "package": "llvm-base-util",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "BasicBlock",
           "package": "llvm-base-util",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "Builder",
           "package": "llvm-base-util",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "Builder",
           "package": "llvm-base-util",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA C string is a reference to an array of C characters terminated by NUL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "CString",
           "package": "llvm-base-util",
@@ -90,6 +97,7 @@
         "index": {
           "description": "string is reference to an array of characters terminated by NUL",
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "CString",
           "package": "llvm-base-util",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "Function",
           "package": "llvm-base-util",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "Function",
           "package": "llvm-base-util",
@@ -125,6 +135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of top level modules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "Module",
           "package": "llvm-base-util",
@@ -134,6 +145,7 @@
         "index": {
           "description": "Type of top level modules",
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "Module",
           "package": "llvm-base-util",
@@ -148,6 +160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA module provider is used by the code generator to get access to a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "ModuleProvider",
           "package": "llvm-base-util",
@@ -157,6 +170,7 @@
         "index": {
           "description": "module provider is used by the code generator to get access to module",
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "ModuleProvider",
           "package": "llvm-base-util",
@@ -171,6 +185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eManage compile passes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "PassManager",
           "package": "llvm-base-util",
@@ -180,6 +195,7 @@
         "index": {
           "description": "Manage compile passes",
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "PassManager",
           "package": "llvm-base-util",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "Builder",
           "package": "llvm-base-util",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "Builder",
           "package": "llvm-base-util",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "Module",
           "package": "llvm-base-util",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "Module",
           "package": "llvm-base-util",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "ModuleProvider",
           "package": "llvm-base-util",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "ModuleProvider",
           "package": "llvm-base-util",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "PassManager",
           "package": "llvm-base-util",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "PassManager",
           "package": "llvm-base-util",
@@ -282,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a control flow graph simplification pass to the manager.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "addCFGSimplificationPass",
           "package": "llvm-base-util",
@@ -292,6 +317,7 @@
         "index": {
           "description": "Add control flow graph simplification pass to the manager",
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "addCFGSimplificationPass",
           "normalized": "PassManager-\u003eIO()",
@@ -308,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a constant propagation pass to the manager.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "addConstantPropagationPass",
           "package": "llvm-base-util",
@@ -318,6 +345,7 @@
         "index": {
           "description": "Add constant propagation pass to the manager",
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "addConstantPropagationPass",
           "normalized": "PassManager-\u003eIO()",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "addDemoteMemoryToRegisterPass",
           "package": "llvm-base-util",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "addDemoteMemoryToRegisterPass",
           "normalized": "PassManager-\u003eIO()",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "addFunction",
           "package": "llvm-base-util",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "addFunction",
           "normalized": "Module-\u003eLinkage-\u003eString-\u003eType-\u003eIO Function",
@@ -382,6 +414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a global value numbering pass to the manager.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "addGVNPass",
           "package": "llvm-base-util",
@@ -392,6 +425,7 @@
         "index": {
           "description": "Add global value numbering pass to the manager",
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "addGVNPass",
           "normalized": "PassManager-\u003eIO()",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "addGlobal",
           "package": "llvm-base-util",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "addGlobal",
           "normalized": "Module-\u003eLinkage-\u003eString-\u003eType-\u003eIO Value",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "addInstructionCombiningPass",
           "package": "llvm-base-util",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "addInstructionCombiningPass",
           "normalized": "PassManager-\u003eIO()",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "addPhiIns",
           "package": "llvm-base-util",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "addPhiIns",
           "normalized": "Value-\u003e[(Value,BasicBlock)]-\u003eIO()",
@@ -479,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "addPromoteMemoryToRegisterPass",
           "package": "llvm-base-util",
@@ -488,6 +529,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "addPromoteMemoryToRegisterPass",
           "normalized": "PassManager-\u003eIO()",
@@ -503,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "addReassociatePass",
           "package": "llvm-base-util",
@@ -512,6 +555,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "addReassociatePass",
           "normalized": "PassManager-\u003eIO()",
@@ -527,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "addTargetData",
           "package": "llvm-base-util",
@@ -536,6 +581,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "addTargetData",
           "normalized": "TargetDataRef-\u003ePassManager-\u003eIO()",
@@ -551,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "annotateValueList",
           "package": "llvm-base-util",
@@ -560,6 +607,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "annotateValueList",
           "normalized": "[Value]-\u003eIO[(String,Value)]",
@@ -575,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "appendBasicBlock",
           "package": "llvm-base-util",
@@ -584,6 +633,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "appendBasicBlock",
           "normalized": "Function-\u003eString-\u003eIO BasicBlock",
@@ -599,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "buildEmptyPhi",
           "package": "llvm-base-util",
@@ -608,6 +659,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "buildEmptyPhi",
           "normalized": "BuilderRef-\u003eType-\u003eIO Value",
@@ -623,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "constArray",
           "package": "llvm-base-util",
@@ -632,6 +685,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "constArray",
           "normalized": "Type-\u003eInt-\u003e[Value]-\u003eValue",
@@ -647,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "constString",
           "package": "llvm-base-util",
@@ -656,6 +711,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "constString",
           "normalized": "String-\u003e(Value,Int)",
@@ -671,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "constStringNul",
           "package": "llvm-base-util",
@@ -680,6 +737,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "constStringNul",
           "normalized": "String-\u003e(Value,Int)",
@@ -695,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "constStruct",
           "package": "llvm-base-util",
@@ -704,6 +763,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "constStruct",
           "normalized": "[Value]-\u003eBool-\u003eValue",
@@ -719,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "constVector",
           "package": "llvm-base-util",
@@ -728,6 +789,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "constVector",
           "normalized": "Int-\u003e[Value]-\u003eValue",
@@ -743,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "createBuilder",
           "package": "llvm-base-util",
@@ -752,6 +815,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "createBuilder",
           "package": "llvm-base-util",
@@ -766,6 +830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a pass manager for a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "createFunctionPassManager",
           "package": "llvm-base-util",
@@ -776,6 +841,7 @@
         "index": {
           "description": "Create pass manager for module",
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "createFunctionPassManager",
           "normalized": "ModuleProvider-\u003eIO PassManager",
@@ -791,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "createModule",
           "package": "llvm-base-util",
@@ -800,6 +867,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "createModule",
           "normalized": "String-\u003eIO Module",
@@ -816,6 +884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a module into a module provider.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "createModuleProviderForExistingModule",
           "package": "llvm-base-util",
@@ -826,6 +895,7 @@
         "index": {
           "description": "Turn module into module provider",
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "createModuleProviderForExistingModule",
           "normalized": "Module-\u003eIO ModuleProvider",
@@ -842,6 +912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a pass manager.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "createPassManager",
           "package": "llvm-base-util",
@@ -852,6 +923,7 @@
         "index": {
           "description": "Create pass manager",
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "createPassManager",
           "package": "llvm-base-util",
@@ -866,6 +938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree all storage related to a module.  *Note*, this is a dangerous call, since referring\n to the module after this call is an error.  The reason for the explicit call to free\n the module instead of an automatic lifetime management is that modules have a\n somewhat complicated ownership.  Handing a module to a module provider changes\n the ownership of the module, and the module provider will free the module when necessary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "destroyModule",
           "package": "llvm-base-util",
@@ -876,6 +949,7 @@
         "index": {
           "description": "Free all storage related to module Note this is dangerous call since referring to the module after this call is an error The reason for the explicit call to free the module instead of an automatic lifetime management is that modules have somewhat complicated ownership Handing module to module provider changes the ownership of the module and the module provider will free the module when necessary",
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "destroyModule",
           "normalized": "Module-\u003eIO()",
@@ -891,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "finalizeFunctionPassManager",
           "package": "llvm-base-util",
@@ -900,6 +975,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "finalizeFunctionPassManager",
           "normalized": "PassManager-\u003eIO Int",
@@ -915,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "fromBuilder",
           "package": "llvm-base-util",
@@ -924,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "fromBuilder",
           "package": "llvm-base-util",
@@ -937,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "fromModule",
           "package": "llvm-base-util",
@@ -946,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "fromModule",
           "package": "llvm-base-util",
@@ -959,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "fromModuleProvider",
           "package": "llvm-base-util",
@@ -968,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "fromModuleProvider",
           "package": "llvm-base-util",
@@ -981,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "fromPassManager",
           "package": "llvm-base-util",
@@ -990,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "fromPassManager",
           "package": "llvm-base-util",
@@ -1003,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "functionType",
           "package": "llvm-base-util",
@@ -1012,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "functionType",
           "normalized": "Bool-\u003eType-\u003e[Type]-\u003eType",
@@ -1027,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "getBasicBlocks",
           "package": "llvm-base-util",
@@ -1036,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "getBasicBlocks",
           "normalized": "Value-\u003eIO[(String,Value)]",
@@ -1051,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "getDep",
           "package": "llvm-base-util",
@@ -1060,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "getDep",
           "normalized": "Use-\u003eIO(String,String)",
@@ -1075,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "getFunctions",
           "package": "llvm-base-util",
@@ -1084,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "getFunctions",
           "normalized": "Module-\u003eIO[(String,Value)]",
@@ -1099,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "getGlobalVariables",
           "package": "llvm-base-util",
@@ -1108,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "getGlobalVariables",
           "normalized": "Module-\u003eIO[(String,Value)]",
@@ -1123,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "getInsertBlock",
           "package": "llvm-base-util",
@@ -1132,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "getInsertBlock",
           "normalized": "Builder-\u003eIO BasicBlockRef",
@@ -1147,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "getInstructions",
           "package": "llvm-base-util",
@@ -1156,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "getInstructions",
           "normalized": "Value-\u003eIO[(String,Value)]",
@@ -1171,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "getModuleValues",
           "package": "llvm-base-util",
@@ -1180,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "getModuleValues",
           "normalized": "Module-\u003eIO[(String,Value)]",
@@ -1195,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "getObjList",
           "package": "llvm-base-util",
@@ -1204,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "getObjList",
           "normalized": "(a-\u003e(a-\u003eIO[Ptr b])-\u003ea)-\u003e(a-\u003eIO(Ptr b))-\u003e(Ptr b-\u003eIO(Ptr b))-\u003ea-\u003ea",
@@ -1219,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "getOperands",
           "package": "llvm-base-util",
@@ -1228,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "getOperands",
           "normalized": "Value-\u003eIO[(String,Value)]",
@@ -1243,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "getParam",
           "package": "llvm-base-util",
@@ -1252,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "getParam",
           "normalized": "Function-\u003eInt-\u003eValue",
@@ -1267,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "getParams",
           "package": "llvm-base-util",
@@ -1276,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "getParams",
           "normalized": "Value-\u003eIO[(String,Value)]",
@@ -1291,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "getUser",
           "package": "llvm-base-util",
@@ -1300,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "getUser",
           "normalized": "Use-\u003eIO Value",
@@ -1315,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "getUsers",
           "package": "llvm-base-util",
@@ -1324,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "getUsers",
           "normalized": "[Use]-\u003eIO[(String,Value)]",
@@ -1339,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "getUses",
           "package": "llvm-base-util",
@@ -1348,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "getUses",
           "normalized": "Value-\u003eIO[Use]",
@@ -1363,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "getValueNameU",
           "package": "llvm-base-util",
@@ -1372,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "getValueNameU",
           "normalized": "Value-\u003eIO String",
@@ -1387,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "hasUsers",
           "package": "llvm-base-util",
@@ -1396,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "hasUsers",
           "normalized": "Value-\u003eIO Bool",
@@ -1411,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "initializeFunctionPassManager",
           "package": "llvm-base-util",
@@ -1420,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "initializeFunctionPassManager",
           "normalized": "PassManager-\u003eIO Int",
@@ -1435,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "isChildOf",
           "package": "llvm-base-util",
@@ -1444,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "isChildOf",
           "normalized": "BasicBlock-\u003eValue-\u003eIO Bool",
@@ -1459,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "isConstant",
           "package": "llvm-base-util",
@@ -1468,6 +1591,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "isConstant",
           "normalized": "Value-\u003eIO Bool",
@@ -1483,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "makeCall",
           "package": "llvm-base-util",
@@ -1492,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "makeCall",
           "normalized": "Function-\u003eBuilderRef-\u003e[Value]-\u003eIO Value",
@@ -1507,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "makeCallWithCc",
           "package": "llvm-base-util",
@@ -1516,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "makeCallWithCc",
           "normalized": "CallingConvention-\u003eFunction-\u003eBuilderRef-\u003e[Value]-\u003eIO Value",
@@ -1531,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "makeInvoke",
           "package": "llvm-base-util",
@@ -1540,6 +1669,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "makeInvoke",
           "normalized": "BasicBlock-\u003eBasicBlock-\u003eFunction-\u003eBuilderRef-\u003e[Value]-\u003eIO Value",
@@ -1555,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "makeInvokeWithCc",
           "package": "llvm-base-util",
@@ -1564,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "makeInvokeWithCc",
           "normalized": "CallingConvention-\u003eBasicBlock-\u003eBasicBlock-\u003eFunction-\u003eBuilderRef-\u003e[Value]-\u003eIO Value",
@@ -1579,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "positionAtEnd",
           "package": "llvm-base-util",
@@ -1588,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "positionAtEnd",
           "normalized": "Builder-\u003eBasicBlockRef-\u003eIO()",
@@ -1604,6 +1738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a module from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "readBitcodeFromFile",
           "package": "llvm-base-util",
@@ -1614,6 +1749,7 @@
         "index": {
           "description": "Read module from file",
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "readBitcodeFromFile",
           "normalized": "String-\u003eIO Module",
@@ -1629,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "runFunctionPassManager",
           "package": "llvm-base-util",
@@ -1638,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "runFunctionPassManager",
           "normalized": "PassManager-\u003eFunction-\u003eIO Int",
@@ -1653,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "showTypeOf",
           "package": "llvm-base-util",
@@ -1662,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "showTypeOf",
           "normalized": "Value-\u003eIO String",
@@ -1677,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "structType",
           "package": "llvm-base-util",
@@ -1686,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "structType",
           "normalized": "[Type]-\u003eBool-\u003eType",
@@ -1701,6 +1843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "valueHasType",
           "package": "llvm-base-util",
@@ -1710,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "valueHasType",
           "normalized": "Value-\u003eType-\u003eBool",
@@ -1726,6 +1870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ewithArray\u003c/a\u003e\u003c/code\u003e, but the action gets the number of values\n as an additional parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "withArrayLen",
           "package": "llvm-base-util",
@@ -1735,6 +1880,7 @@
         "index": {
           "description": "Like withArray but the action gets the number of values as an additional parameter",
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "withArrayLen",
           "normalized": "[a]-\u003e(Int-\u003ePtr a-\u003eIO b)-\u003eIO b",
@@ -1750,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "withBuilder",
           "package": "llvm-base-util",
@@ -1759,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "withBuilder",
           "normalized": "Builder-\u003e(BuilderRef-\u003eIO a)-\u003eIO a",
@@ -1774,6 +1922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "withEmptyCString",
           "package": "llvm-base-util",
@@ -1783,6 +1932,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "withEmptyCString",
           "normalized": "(CString-\u003eIO a)-\u003eIO a",
@@ -1798,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "withModule",
           "package": "llvm-base-util",
@@ -1807,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "withModule",
           "normalized": "Module-\u003e(ModuleRef-\u003eIO a)-\u003eIO a",
@@ -1822,6 +1974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "withModuleProvider",
           "package": "llvm-base-util",
@@ -1831,6 +1984,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "withModuleProvider",
           "normalized": "ModuleProvider-\u003e(ModuleProviderRef-\u003eIO a)-\u003eIO a",
@@ -1846,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "withPassManager",
           "package": "llvm-base-util",
@@ -1855,6 +2010,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "withPassManager",
           "normalized": "PassManager-\u003e(PassManagerRef-\u003eIO a)-\u003eIO a",
@@ -1870,6 +2026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "withValue",
           "package": "llvm-base-util",
@@ -1879,6 +2036,7 @@
         },
         "index": {
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "withValue",
           "normalized": "Value-\u003e(Value-\u003eIO a)-\u003eIO a",
@@ -1895,6 +2053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a module to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:16 UTC 2014",
           "module": "LLVM.Core.Util",
           "name": "writeBitcodeToFile",
           "package": "llvm-base-util",
@@ -1905,6 +2064,7 @@
         "index": {
           "description": "Write module to file",
           "hierarchy": "LLVM Core Util",
+          "indexed": "2014-03-11T19:11:16",
           "module": "LLVM.Core.Util",
           "name": "writeBitcodeToFile",
           "normalized": "String-\u003eModule-\u003eIO()",

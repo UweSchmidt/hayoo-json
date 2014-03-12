@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nanoAgda"
+        "phrase": "nanoAgda",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "stylized"
+        "phrase": "stylized",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:27 UTC 2014",
           "module": "System.Console.ANSI.Stylized",
           "name": "ColourOption",
           "package": "stylized",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI Stylized",
+          "indexed": "2014-03-11T20:13:27",
           "module": "System.Console.ANSI.Stylized",
           "name": "ColourOption",
           "package": "stylized",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:27 UTC 2014",
           "module": "System.Console.ANSI.Stylized",
           "name": "Style",
           "package": "stylized",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI Stylized",
+          "indexed": "2014-03-11T20:13:27",
           "module": "System.Console.ANSI.Stylized",
           "name": "Style",
           "package": "stylized",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:27 UTC 2014",
           "module": "System.Console.ANSI.Stylized",
           "name": "StyleOption",
           "package": "stylized",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI Stylized",
+          "indexed": "2014-03-11T20:13:27",
           "module": "System.Console.ANSI.Stylized",
           "name": "StyleOption",
           "package": "stylized",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "Given an handle, for each item set style and put string followed by newline\n",
+          "indexed": "Tue Mar 11 20:13:27 UTC 2014",
           "module": "System.Console.ANSI.Stylized",
           "name": "hPutLnS",
           "package": "stylized",
@@ -92,6 +99,7 @@
         "index": {
           "description": "Given an handle for each item set style and put string followed by newline",
           "hierarchy": "System Console ANSI Stylized",
+          "indexed": "2014-03-11T20:13:27",
           "module": "System.Console.ANSI.Stylized",
           "name": "hPutLnS",
           "normalized": "Handle-\u003e[(Style,String)]-\u003eIO()",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "Given a function mapping some type t to \u003ctt\u003e\u003ca\u003eStyle\u003c/a\u003e\u003c/tt\u003e, return a function\n  behaving like \u003ctt\u003e\u003ca\u003ehPutLnS\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 20:13:27 UTC 2014",
           "module": "System.Console.ANSI.Stylized",
           "name": "hPutLnT",
           "package": "stylized",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Given function mapping some type to Style return function behaving like hPutLnS",
           "hierarchy": "System Console ANSI Stylized",
+          "indexed": "2014-03-11T20:13:27",
           "module": "System.Console.ANSI.Stylized",
           "name": "hPutLnT",
           "normalized": "(a-\u003eStyle)-\u003eHandle-\u003e[(a,String)]-\u003eIO()",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "Given an handle, for each item set style and put string\n",
+          "indexed": "Tue Mar 11 20:13:27 UTC 2014",
           "module": "System.Console.ANSI.Stylized",
           "name": "hPutS",
           "package": "stylized",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Given an handle for each item set style and put string",
           "hierarchy": "System Console ANSI Stylized",
+          "indexed": "2014-03-11T20:13:27",
           "module": "System.Console.ANSI.Stylized",
           "name": "hPutS",
           "normalized": "Handle-\u003e[(Style,String)]-\u003eIO()",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "Given an handle, set style and put string followed by newline\n",
+          "indexed": "Tue Mar 11 20:13:27 UTC 2014",
           "module": "System.Console.ANSI.Stylized",
           "name": "hPutStrLnS",
           "package": "stylized",
@@ -170,6 +183,7 @@
         "index": {
           "description": "Given an handle set style and put string followed by newline",
           "hierarchy": "System Console ANSI Stylized",
+          "indexed": "2014-03-11T20:13:27",
           "module": "System.Console.ANSI.Stylized",
           "name": "hPutStrLnS",
           "normalized": "Handle-\u003eStyle-\u003eString-\u003eIO()",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "Given an handle, set style and put string\n",
+          "indexed": "Tue Mar 11 20:13:27 UTC 2014",
           "module": "System.Console.ANSI.Stylized",
           "name": "hPutStrS",
           "package": "stylized",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Given an handle set style and put string",
           "hierarchy": "System Console ANSI Stylized",
+          "indexed": "2014-03-11T20:13:27",
           "module": "System.Console.ANSI.Stylized",
           "name": "hPutStrS",
           "normalized": "Handle-\u003eStyle-\u003eString-\u003eIO()",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "Given a function mapping some type t to \u003ctt\u003e\u003ca\u003eStyle\u003c/a\u003e\u003c/tt\u003e, return a function\n  behaving like \u003ctt\u003e\u003ca\u003ehPutS\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 20:13:27 UTC 2014",
           "module": "System.Console.ANSI.Stylized",
           "name": "hPutT",
           "package": "stylized",
@@ -222,6 +239,7 @@
         "index": {
           "description": "Given function mapping some type to Style return function behaving like hPutS",
           "hierarchy": "System Console ANSI Stylized",
+          "indexed": "2014-03-11T20:13:27",
           "module": "System.Console.ANSI.Stylized",
           "name": "hPutT",
           "normalized": "(a-\u003eStyle)-\u003eHandle-\u003e[(a,String)]-\u003eIO()",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "Given an handle, reset graphic rendition\n",
+          "indexed": "Tue Mar 11 20:13:27 UTC 2014",
           "module": "System.Console.ANSI.Stylized",
           "name": "hResetGR",
           "package": "stylized",
@@ -248,6 +267,7 @@
         "index": {
           "description": "Given an handle reset graphic rendition",
           "hierarchy": "System Console ANSI Stylized",
+          "indexed": "2014-03-11T20:13:27",
           "module": "System.Console.ANSI.Stylized",
           "name": "hResetGR",
           "normalized": "Handle-\u003eIO()",
@@ -264,6 +284,7 @@
       "document": {
         "description": {
           "description": "On stdout, for each item set style and put string followed by newline\n",
+          "indexed": "Tue Mar 11 20:13:27 UTC 2014",
           "module": "System.Console.ANSI.Stylized",
           "name": "putLnS",
           "package": "stylized",
@@ -274,6 +295,7 @@
         "index": {
           "description": "On stdout for each item set style and put string followed by newline",
           "hierarchy": "System Console ANSI Stylized",
+          "indexed": "2014-03-11T20:13:27",
           "module": "System.Console.ANSI.Stylized",
           "name": "putLnS",
           "normalized": "[(Style,String)]-\u003eIO()",
@@ -290,6 +312,7 @@
       "document": {
         "description": {
           "description": "Given a function mapping some type t to \u003ctt\u003e\u003ca\u003eStyle\u003c/a\u003e\u003c/tt\u003e, return a function\n  behaving like \u003ctt\u003e\u003ca\u003eputLnS\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 20:13:27 UTC 2014",
           "module": "System.Console.ANSI.Stylized",
           "name": "putLnT",
           "package": "stylized",
@@ -300,6 +323,7 @@
         "index": {
           "description": "Given function mapping some type to Style return function behaving like putLnS",
           "hierarchy": "System Console ANSI Stylized",
+          "indexed": "2014-03-11T20:13:27",
           "module": "System.Console.ANSI.Stylized",
           "name": "putLnT",
           "normalized": "(a-\u003eStyle)-\u003e[(a,String)]-\u003eIO()",
@@ -316,6 +340,7 @@
       "document": {
         "description": {
           "description": "On stdout, for each item set style and put string\n",
+          "indexed": "Tue Mar 11 20:13:27 UTC 2014",
           "module": "System.Console.ANSI.Stylized",
           "name": "putS",
           "package": "stylized",
@@ -326,6 +351,7 @@
         "index": {
           "description": "On stdout for each item set style and put string",
           "hierarchy": "System Console ANSI Stylized",
+          "indexed": "2014-03-11T20:13:27",
           "module": "System.Console.ANSI.Stylized",
           "name": "putS",
           "normalized": "[(Style,String)]-\u003eIO()",
@@ -341,6 +367,7 @@
       "document": {
         "description": {
           "description": "On stdout, set style and put string followed by newline\n",
+          "indexed": "Tue Mar 11 20:13:27 UTC 2014",
           "module": "System.Console.ANSI.Stylized",
           "name": "putStrLnS",
           "package": "stylized",
@@ -351,6 +378,7 @@
         "index": {
           "description": "On stdout set style and put string followed by newline",
           "hierarchy": "System Console ANSI Stylized",
+          "indexed": "2014-03-11T20:13:27",
           "module": "System.Console.ANSI.Stylized",
           "name": "putStrLnS",
           "normalized": "Style-\u003eString-\u003eIO()",
@@ -367,6 +395,7 @@
       "document": {
         "description": {
           "description": "On stdout, set style and put string\n",
+          "indexed": "Tue Mar 11 20:13:27 UTC 2014",
           "module": "System.Console.ANSI.Stylized",
           "name": "putStrS",
           "package": "stylized",
@@ -377,6 +406,7 @@
         "index": {
           "description": "On stdout set style and put string",
           "hierarchy": "System Console ANSI Stylized",
+          "indexed": "2014-03-11T20:13:27",
           "module": "System.Console.ANSI.Stylized",
           "name": "putStrS",
           "normalized": "Style-\u003eString-\u003eIO()",
@@ -393,6 +423,7 @@
       "document": {
         "description": {
           "description": "Given a function mapping some type t to \u003ctt\u003e\u003ca\u003eStyle\u003c/a\u003e\u003c/tt\u003e, return a function\n  behaving like \u003ctt\u003e\u003ca\u003eputS\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 20:13:27 UTC 2014",
           "module": "System.Console.ANSI.Stylized",
           "name": "putT",
           "package": "stylized",
@@ -403,6 +434,7 @@
         "index": {
           "description": "Given function mapping some type to Style return function behaving like putS",
           "hierarchy": "System Console ANSI Stylized",
+          "indexed": "2014-03-11T20:13:27",
           "module": "System.Console.ANSI.Stylized",
           "name": "putT",
           "normalized": "(a-\u003eStyle)-\u003e[(a,String)]-\u003eIO()",
@@ -418,6 +450,7 @@
       "document": {
         "description": {
           "description": "On stdout, reset graphic rendition\n",
+          "indexed": "Tue Mar 11 20:13:27 UTC 2014",
           "module": "System.Console.ANSI.Stylized",
           "name": "resetGR",
           "package": "stylized",
@@ -428,6 +461,7 @@
         "index": {
           "description": "On stdout reset graphic rendition",
           "hierarchy": "System Console ANSI Stylized",
+          "indexed": "2014-03-11T20:13:27",
           "module": "System.Console.ANSI.Stylized",
           "name": "resetGR",
           "normalized": "IO()",

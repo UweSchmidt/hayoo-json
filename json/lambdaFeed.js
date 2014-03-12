@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lambdaFeed"
+        "phrase": "lambdaFeed",
+        "type": "phrase"
       },
       "type": "context"
     }

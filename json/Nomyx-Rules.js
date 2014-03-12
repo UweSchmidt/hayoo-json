@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Nomyx-Rules"
+        "phrase": "Nomyx-Rules",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Evaluation",
           "name": "Evaluation",
           "package": "Nomyx-Rules",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Evaluation",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Evaluation",
           "name": "Evaluation",
           "package": "Nomyx-Rules",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Evaluation",
           "name": "addPlayer",
           "package": "Nomyx-Rules",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Evaluation",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Evaluation",
           "name": "addPlayer",
           "normalized": "PlayerInfo-\u003eState Game Bool",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Evaluation",
           "name": "delEventsRule",
           "package": "Nomyx-Rules",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Evaluation",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Evaluation",
           "name": "delEventsRule",
           "normalized": "RuleNumber-\u003eState Game()",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Evaluation",
           "name": "delPlayer",
           "package": "Nomyx-Rules",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Evaluation",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Evaluation",
           "name": "delPlayer",
           "normalized": "PlayerInfo-\u003eState Game Bool",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Evaluation",
           "name": "delVarsRule",
           "package": "Nomyx-Rules",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Evaluation",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Evaluation",
           "name": "delVarsRule",
           "normalized": "RuleNumber-\u003eState Game()",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Evaluation",
           "name": "evActivateRule",
           "package": "Nomyx-Rules",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Evaluation",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Evaluation",
           "name": "evActivateRule",
           "normalized": "RuleNumber-\u003eRuleNumber-\u003eState Game Bool",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Evaluation",
           "name": "evAddRule",
           "package": "Nomyx-Rules",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Evaluation",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Evaluation",
           "name": "evAddRule",
           "normalized": "Rule-\u003eState Game Bool",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Evaluation",
           "name": "evDelRule",
           "package": "Nomyx-Rules",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Evaluation",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Evaluation",
           "name": "evDelRule",
           "normalized": "RuleNumber-\u003eState Game Bool",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Evaluation",
           "name": "evInputChoice",
           "package": "Nomyx-Rules",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Evaluation",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Evaluation",
           "name": "evInputChoice",
           "normalized": "Event(InputChoice a)-\u003ea-\u003eState Game()",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Evaluation",
           "name": "evModifyRule",
           "package": "Nomyx-Rules",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Evaluation",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Evaluation",
           "name": "evModifyRule",
           "normalized": "RuleNumber-\u003eRule-\u003eState Game Bool",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Evaluation",
           "name": "evProposeRule",
           "package": "Nomyx-Rules",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Evaluation",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Evaluation",
           "name": "evProposeRule",
           "normalized": "Rule-\u003eState Game Bool",
@@ -279,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Evaluation",
           "name": "evRejectRule",
           "package": "Nomyx-Rules",
@@ -288,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Evaluation",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Evaluation",
           "name": "evRejectRule",
           "normalized": "RuleNumber-\u003eRuleNumber-\u003eState Game Bool",
@@ -303,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Evaluation",
           "name": "evTriggerTime",
           "package": "Nomyx-Rules",
@@ -312,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Evaluation",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Evaluation",
           "name": "evTriggerTime",
           "normalized": "UTCTime-\u003eState Game()",
@@ -328,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevaluate an expression.\n The rule number passed is the number of the rule containing the expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Evaluation",
           "name": "evalExp",
           "package": "Nomyx-Rules",
@@ -338,6 +365,7 @@
         "index": {
           "description": "evaluate an expression The rule number passed is the number of the rule containing the expression",
           "hierarchy": "Language Nomyx Evaluation",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Evaluation",
           "name": "evalExp",
           "normalized": "Exp a-\u003eRuleNumber-\u003eState Game a",
@@ -353,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Evaluation",
           "name": "execChoiceHandler",
           "package": "Nomyx-Rules",
@@ -362,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Evaluation",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Evaluation",
           "name": "execChoiceHandler",
           "normalized": "EventNumber-\u003eInt-\u003eEventHandler-\u003eState Game()",
@@ -377,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Evaluation",
           "name": "findChoice",
           "package": "Nomyx-Rules",
@@ -386,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Evaluation",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Evaluation",
           "name": "findChoice",
           "normalized": "String-\u003eEvent(InputChoice a)-\u003ea",
@@ -401,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Evaluation",
           "name": "findEvent",
           "package": "Nomyx-Rules",
@@ -410,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Evaluation",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Evaluation",
           "name": "findEvent",
           "normalized": "EventNumber-\u003e[EventHandler]-\u003eMaybe EventHandler",
@@ -425,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Evaluation",
           "name": "getFreeNumber",
           "package": "Nomyx-Rules",
@@ -434,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Evaluation",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Evaluation",
           "name": "getFreeNumber",
           "normalized": "[a]-\u003ea",
@@ -449,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Evaluation",
           "name": "outputS",
           "package": "Nomyx-Rules",
@@ -458,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Evaluation",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Evaluation",
           "name": "outputS",
           "normalized": "PlayerNumber-\u003eString-\u003eState Game()",
@@ -472,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Evaluation",
           "name": "traceState",
           "package": "Nomyx-Rules",
@@ -481,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Evaluation",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Evaluation",
           "name": "traceState",
           "normalized": "String-\u003eState a String",
@@ -496,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Evaluation",
           "name": "triggerChoice",
           "package": "Nomyx-Rules",
@@ -505,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Evaluation",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Evaluation",
           "name": "triggerChoice",
           "normalized": "Int-\u003eInt-\u003eState Game()",
@@ -520,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Evaluation",
           "name": "triggerEvent",
           "package": "Nomyx-Rules",
@@ -529,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Evaluation",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Evaluation",
           "name": "triggerEvent",
           "normalized": "Event a-\u003eEventData a-\u003eState Game()",
@@ -545,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis file gives a list of example rules that the players can submit.\nYou can copy-paste them in the field \u003ca\u003eCode\u003c/a\u003e of the web GUI.\nDon't hesitate to get inspiration from there and create your own rules!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Examples",
           "name": "Examples",
           "package": "Nomyx-Rules",
@@ -554,6 +599,7 @@
         "index": {
           "description": "This file gives list of example rules that the players can submit You can copy-paste them in the field Code of the web GUI Don hesitate to get inspiration from there and create your own rules",
           "hierarchy": "Language Nomyx Examples",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Examples",
           "name": "Examples",
           "package": "Nomyx-Rules",
@@ -568,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaccount variable name and type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Examples",
           "name": "accounts",
           "package": "Nomyx-Rules",
@@ -578,6 +625,7 @@
         "index": {
           "description": "account variable name and type",
           "hierarchy": "Language Nomyx Examples",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Examples",
           "name": "accounts",
           "normalized": "V[(PlayerNumber,Int)]",
@@ -593,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a bank account for each players\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Examples",
           "name": "createBankAccount",
           "package": "Nomyx-Rules",
@@ -603,6 +652,7 @@
         "index": {
           "description": "Create bank account for each players",
           "hierarchy": "Language Nomyx Examples",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Examples",
           "name": "createBankAccount",
           "package": "Nomyx-Rules",
@@ -617,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete a rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Examples",
           "name": "delRule",
           "package": "Nomyx-Rules",
@@ -627,6 +678,7 @@
         "index": {
           "description": "delete rule",
           "hierarchy": "Language Nomyx Examples",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Examples",
           "name": "delRule",
           "normalized": "RuleNumber-\u003eRuleFunc",
@@ -643,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewill display the time to all players in 5 seconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Examples",
           "name": "displayTime",
           "package": "Nomyx-Rules",
@@ -653,6 +706,7 @@
         "index": {
           "description": "will display the time to all players in seconds",
           "hierarchy": "Language Nomyx Examples",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Examples",
           "name": "displayTime",
           "package": "Nomyx-Rules",
@@ -667,6 +721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rule that says hello to all players\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Examples",
           "name": "helloWorld",
           "package": "Nomyx-Rules",
@@ -677,6 +732,7 @@
         "index": {
           "description": "rule that says hello to all players",
           "hierarchy": "Language Nomyx Examples",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Examples",
           "name": "helloWorld",
           "package": "Nomyx-Rules",
@@ -691,6 +747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRule that state that you win. Good luck on having this accepted by other players ;)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Examples",
           "name": "iWin",
           "package": "Nomyx-Rules",
@@ -701,6 +758,7 @@
         "index": {
           "description": "Rule that state that you win Good luck on having this accepted by other players",
           "hierarchy": "Language Nomyx Examples",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Examples",
           "name": "iWin",
           "package": "Nomyx-Rules",
@@ -714,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Examples",
           "name": "king",
           "package": "Nomyx-Rules",
@@ -723,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Examples",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Examples",
           "name": "king",
           "package": "Nomyx-Rules",
@@ -736,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplayer pn is the king\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Examples",
           "name": "makeKing",
           "package": "Nomyx-Rules",
@@ -746,6 +807,7 @@
         "index": {
           "description": "player pn is the king",
           "hierarchy": "Language Nomyx Examples",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Examples",
           "name": "makeKing",
           "normalized": "PlayerNumber-\u003eRuleFunc",
@@ -762,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonarchy: only the king decides which rules to accept or reject\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Examples",
           "name": "monarchy",
           "package": "Nomyx-Rules",
@@ -772,6 +835,7 @@
         "index": {
           "description": "Monarchy only the king decides which rules to accept or reject",
           "hierarchy": "Language Nomyx Examples",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Examples",
           "name": "monarchy",
           "package": "Nomyx-Rules",
@@ -785,6 +849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea player can transfer money to another player\n it does not accept new players or check if balance is positive, to keep the example simple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Examples",
           "name": "moneyTransfer",
           "package": "Nomyx-Rules",
@@ -795,6 +860,7 @@
         "index": {
           "description": "player can transfer money to another player it does not accept new players or check if balance is positive to keep the example simple",
           "hierarchy": "Language Nomyx Examples",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Examples",
           "name": "moneyTransfer",
           "package": "Nomyx-Rules",
@@ -809,6 +875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly one player can achieve victory: No group victory.\n Forbidding group victory usually becomes necessary when lowering the voting quorum:\n a coalition of players could simply force a \u003ca\u003evictory\u003c/a\u003e rule and win the game.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Examples",
           "name": "noGroupVictory",
           "package": "Nomyx-Rules",
@@ -819,6 +886,7 @@
         "index": {
           "description": "Only one player can achieve victory No group victory Forbidding group victory usually becomes necessary when lowering the voting quorum coalition of players could simply force victory rule and win the game",
           "hierarchy": "Language Nomyx Examples",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Examples",
           "name": "noGroupVictory",
           "package": "Nomyx-Rules",
@@ -833,6 +901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rule that does nothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Examples",
           "name": "nothing",
           "package": "Nomyx-Rules",
@@ -843,6 +912,7 @@
         "index": {
           "description": "rule that does nothing",
           "hierarchy": "Language Nomyx Examples",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Examples",
           "name": "nothing",
           "package": "Nomyx-Rules",
@@ -856,6 +926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRevolution! Hail to the king!\n This rule suppresses the democracy (usually rules 1 and 2), installs the king and activates monarchy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Examples",
           "name": "revolution",
           "package": "Nomyx-Rules",
@@ -866,6 +937,7 @@
         "index": {
           "description": "Revolution Hail to the king This rule suppresses the democracy usually rules and installs the king and activates monarchy",
           "hierarchy": "Language Nomyx Examples",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Examples",
           "name": "revolution",
           "normalized": "PlayerNumber-\u003eRuleFunc",
@@ -880,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Examples",
           "name": "victoryXEcu",
           "package": "Nomyx-Rules",
@@ -889,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Examples",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Examples",
           "name": "victoryXEcu",
           "normalized": "Int-\u003eRuleFunc",
@@ -905,6 +979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the victory for players having more than X accepted rules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Examples",
           "name": "victoryXRules",
           "package": "Nomyx-Rules",
@@ -915,6 +990,7 @@
         "index": {
           "description": "set the victory for players having more than accepted rules",
           "hierarchy": "Language Nomyx Examples",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Examples",
           "name": "victoryXRules",
           "normalized": "Int-\u003eRuleFunc",
@@ -931,6 +1007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange unanimity vote (usually rule 2) to absolute majority (half participants plus one)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Examples",
           "name": "voteWithMajority",
           "package": "Nomyx-Rules",
@@ -941,6 +1018,7 @@
         "index": {
           "description": "Change unanimity vote usually rule to absolute majority half participants plus one",
           "hierarchy": "Language Nomyx Examples",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Examples",
           "name": "voteWithMajority",
           "package": "Nomyx-Rules",
@@ -955,6 +1033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea player wins X Ecu if a rule proposed is accepted\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Examples",
           "name": "winXEcuOnRuleAccepted",
           "package": "Nomyx-Rules",
@@ -965,6 +1044,7 @@
         "index": {
           "description": "player wins Ecu if rule proposed is accepted",
           "hierarchy": "Language Nomyx Examples",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Examples",
           "name": "winXEcuOnRuleAccepted",
           "normalized": "Int-\u003eRuleFunc",
@@ -981,6 +1061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeach player wins X Ecu each day\n you can also try with \u003ca\u003eminutly\u003c/a\u003e or \u003ca\u003emonthly\u003c/a\u003e instead of \u003ca\u003edaily\u003c/a\u003e and everything in the \u003ca\u003etime-recurrence\u003c/a\u003e package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Examples",
           "name": "winXEcuPerDay",
           "package": "Nomyx-Rules",
@@ -991,6 +1072,7 @@
         "index": {
           "description": "each player wins Ecu each day you can also try with minutly or monthly instead of daily and everything in the time-recurrence package",
           "hierarchy": "Language Nomyx Examples",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Examples",
           "name": "winXEcuPerDay",
           "normalized": "Int-\u003eRuleFunc",
@@ -1007,6 +1089,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module containt the type definitions necessary to build a Nomic rule. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Expression",
           "package": "Nomyx-Rules",
@@ -1016,6 +1099,7 @@
         "index": {
           "description": "This module containt the type definitions necessary to build Nomic rule",
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Expression",
           "package": "Nomyx-Rules",
@@ -1029,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Code",
           "package": "Nomyx-Rules",
@@ -1037,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Code",
           "package": "Nomyx-Rules",
@@ -1050,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "EvRule",
           "package": "Nomyx-Rules",
@@ -1058,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "EvRule",
           "package": "Nomyx-Rules",
@@ -1072,6 +1160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevents names\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Event",
           "package": "Nomyx-Rules",
@@ -1081,6 +1170,7 @@
         "index": {
           "description": "events names",
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Event",
           "package": "Nomyx-Rules",
@@ -1095,6 +1185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata associated with each events\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "EventData",
           "package": "Nomyx-Rules",
@@ -1104,6 +1195,7 @@
         "index": {
           "description": "data associated with each events",
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "EventData",
           "package": "Nomyx-Rules",
@@ -1117,6 +1209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "EventHandler",
           "package": "Nomyx-Rules",
@@ -1125,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "EventHandler",
           "package": "Nomyx-Rules",
@@ -1138,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "EventName",
           "package": "Nomyx-Rules",
@@ -1146,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "EventName",
           "package": "Nomyx-Rules",
@@ -1159,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "EventNumber",
           "package": "Nomyx-Rules",
@@ -1167,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "EventNumber",
           "package": "Nomyx-Rules",
@@ -1181,6 +1279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean Exp allows the player's rule to have access to the state of the game.\n | it is a compositional algebra defined with a GADT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Exp",
           "package": "Nomyx-Rules",
@@ -1190,6 +1289,7 @@
         "index": {
           "description": "an Exp allows the player rule to have access to the state of the game it is compositional algebra defined with GADT",
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Exp",
           "package": "Nomyx-Rules",
@@ -1204,6 +1304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe state of the game:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Game",
           "package": "Nomyx-Rules",
@@ -1213,6 +1314,7 @@
         "index": {
           "description": "The state of the game",
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Game",
           "package": "Nomyx-Rules",
@@ -1226,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "GameName",
           "package": "Nomyx-Rules",
@@ -1234,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "GameName",
           "package": "Nomyx-Rules",
@@ -1247,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "InputChoice",
           "package": "Nomyx-Rules",
@@ -1255,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "InputChoice",
           "package": "Nomyx-Rules",
@@ -1268,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "InputString",
           "package": "Nomyx-Rules",
@@ -1276,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "InputString",
           "package": "Nomyx-Rules",
@@ -1289,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Message",
           "package": "Nomyx-Rules",
@@ -1297,6 +1406,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Message",
           "package": "Nomyx-Rules",
@@ -1311,6 +1421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype of rule that just mofify the game state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "NoParamRule",
           "package": "Nomyx-Rules",
@@ -1320,6 +1431,7 @@
         "index": {
           "description": "type of rule that just mofify the game state",
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "NoParamRule",
           "package": "Nomyx-Rules",
@@ -1334,6 +1446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype of rule to assess the legality of a given parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "OneParamRule",
           "package": "Nomyx-Rules",
@@ -1343,6 +1456,7 @@
         "index": {
           "description": "type of rule to assess the legality of given parameter",
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "OneParamRule",
           "package": "Nomyx-Rules",
@@ -1356,6 +1470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Output",
           "package": "Nomyx-Rules",
@@ -1364,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Output",
           "package": "Nomyx-Rules",
@@ -1378,6 +1494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevents types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Player",
           "package": "Nomyx-Rules",
@@ -1387,6 +1504,7 @@
         "index": {
           "description": "events types",
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Player",
           "package": "Nomyx-Rules",
@@ -1401,6 +1519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einformations on players\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "PlayerInfo",
           "package": "Nomyx-Rules",
@@ -1410,6 +1529,7 @@
         "index": {
           "description": "informations on players",
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "PlayerInfo",
           "package": "Nomyx-Rules",
@@ -1423,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "PlayerName",
           "package": "Nomyx-Rules",
@@ -1431,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "PlayerName",
           "package": "Nomyx-Rules",
@@ -1444,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "PlayerNumber",
           "package": "Nomyx-Rules",
@@ -1452,6 +1575,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "PlayerNumber",
           "package": "Nomyx-Rules",
@@ -1466,6 +1590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn informationnal structure about a rule:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Rule",
           "package": "Nomyx-Rules",
@@ -1475,6 +1600,7 @@
         "index": {
           "description": "An informationnal structure about rule",
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Rule",
           "package": "Nomyx-Rules",
@@ -1488,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "RuleCode",
           "package": "Nomyx-Rules",
@@ -1496,6 +1623,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "RuleCode",
           "package": "Nomyx-Rules",
@@ -1509,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "RuleEvent",
           "package": "Nomyx-Rules",
@@ -1517,6 +1646,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "RuleEvent",
           "package": "Nomyx-Rules",
@@ -1531,6 +1661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe different types of rules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "RuleFunc",
           "package": "Nomyx-Rules",
@@ -1540,6 +1671,7 @@
         "index": {
           "description": "the different types of rules",
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "RuleFunc",
           "package": "Nomyx-Rules",
@@ -1553,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "RuleName",
           "package": "Nomyx-Rules",
@@ -1561,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "RuleName",
           "package": "Nomyx-Rules",
@@ -1574,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "RuleNumber",
           "package": "Nomyx-Rules",
@@ -1582,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "RuleNumber",
           "package": "Nomyx-Rules",
@@ -1596,6 +1732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea rule can assess the legality either immediatly of later through a messsage\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "RuleResponse",
           "package": "Nomyx-Rules",
@@ -1605,6 +1742,7 @@
         "index": {
           "description": "rule can assess the legality either immediatly of later through messsage",
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "RuleResponse",
           "package": "Nomyx-Rules",
@@ -1619,6 +1757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe status of a rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "RuleStatus",
           "package": "Nomyx-Rules",
@@ -1628,6 +1767,7 @@
         "index": {
           "description": "the status of rule",
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "RuleStatus",
           "package": "Nomyx-Rules",
@@ -1641,6 +1781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "RuleText",
           "package": "Nomyx-Rules",
@@ -1649,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "RuleText",
           "package": "Nomyx-Rules",
@@ -1662,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Time",
           "package": "Nomyx-Rules",
@@ -1670,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Time",
           "package": "Nomyx-Rules",
@@ -1684,6 +1828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea container for a variable name and type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "V",
           "package": "Nomyx-Rules",
@@ -1693,6 +1838,7 @@
         "index": {
           "description": "container for variable name and type",
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "V",
           "package": "Nomyx-Rules",
@@ -1706,6 +1852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estores the variable's data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Var",
           "package": "Nomyx-Rules",
@@ -1715,6 +1862,7 @@
         "index": {
           "description": "stores the variable data",
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Var",
           "package": "Nomyx-Rules",
@@ -1728,6 +1876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "VarName",
           "package": "Nomyx-Rules",
@@ -1736,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "VarName",
           "package": "Nomyx-Rules",
@@ -1749,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Victory",
           "package": "Nomyx-Rules",
@@ -1757,6 +1908,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Victory",
           "package": "Nomyx-Rules",
@@ -1771,6 +1923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean equality that tests also the types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "(===)",
           "package": "Nomyx-Rules",
@@ -1781,6 +1934,7 @@
         "index": {
           "description": "an equality that tests also the types",
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "(===) ===",
           "normalized": "a-\u003eb-\u003eBool",
@@ -1795,6 +1949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "ActivateRule",
           "package": "Nomyx-Rules",
@@ -1804,6 +1959,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "ActivateRule",
           "normalized": "RuleNumber-\u003eExp Bool",
@@ -1819,6 +1975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Activated",
           "package": "Nomyx-Rules",
@@ -1828,6 +1985,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Activated",
           "package": "Nomyx-Rules",
@@ -1841,6 +1999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Active",
           "package": "Nomyx-Rules",
@@ -1850,6 +2009,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Active",
           "package": "Nomyx-Rules",
@@ -1863,6 +2023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "AddRule",
           "package": "Nomyx-Rules",
@@ -1872,6 +2033,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "AddRule",
           "normalized": "Rule-\u003eExp Bool",
@@ -1887,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Added",
           "package": "Nomyx-Rules",
@@ -1896,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Added",
           "package": "Nomyx-Rules",
@@ -1909,6 +2073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Arrive",
           "package": "Nomyx-Rules",
@@ -1918,6 +2083,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Arrive",
           "package": "Nomyx-Rules",
@@ -1931,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Bind",
           "package": "Nomyx-Rules",
@@ -1940,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Bind",
           "normalized": "Exp a-\u003e(a-\u003eExp b)-\u003eExp b",
@@ -1955,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "BoolResp",
           "package": "Nomyx-Rules",
@@ -1964,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "BoolResp",
           "package": "Nomyx-Rules",
@@ -1977,6 +2147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Const",
           "package": "Nomyx-Rules",
@@ -1986,6 +2157,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Const",
           "normalized": "a-\u003eExp a",
@@ -2001,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "CurrentTime",
           "package": "Nomyx-Rules",
@@ -2010,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "CurrentTime",
           "package": "Nomyx-Rules",
@@ -2023,6 +2197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "DelAllEvents",
           "package": "Nomyx-Rules",
@@ -2032,6 +2207,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "DelAllEvents",
           "normalized": "Event a-\u003eExp()",
@@ -2047,6 +2223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "DelEvent",
           "package": "Nomyx-Rules",
@@ -2056,6 +2233,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "DelEvent",
           "normalized": "EventNumber-\u003eExp Bool",
@@ -2071,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "DelRule",
           "package": "Nomyx-Rules",
@@ -2080,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "DelRule",
           "normalized": "RuleNumber-\u003eExp Bool",
@@ -2095,6 +2275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "DelVar",
           "package": "Nomyx-Rules",
@@ -2104,6 +2285,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "DelVar",
           "normalized": "V a-\u003eExp Bool",
@@ -2119,6 +2301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Deleted",
           "package": "Nomyx-Rules",
@@ -2128,6 +2311,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Deleted",
           "package": "Nomyx-Rules",
@@ -2141,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "EH",
           "package": "Nomyx-Rules",
@@ -2150,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "EH",
           "normalized": "EventNumber-\u003eRuleNumber-\u003eEvent a-\u003e((EventNumber,EventData a)-\u003eExp())-\u003eEventHandler",
@@ -2165,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Game",
           "package": "Nomyx-Rules",
@@ -2174,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Game",
           "package": "Nomyx-Rules",
@@ -2187,6 +2375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "GetPlayers",
           "package": "Nomyx-Rules",
@@ -2196,6 +2385,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "GetPlayers",
           "normalized": "Exp[PlayerInfo]",
@@ -2211,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "GetRules",
           "package": "Nomyx-Rules",
@@ -2220,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "GetRules",
           "normalized": "Exp[Rule]",
@@ -2235,6 +2427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "InputChoice",
           "package": "Nomyx-Rules",
@@ -2244,6 +2437,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "InputChoice",
           "normalized": "PlayerNumber-\u003eString-\u003e[a]-\u003ea-\u003eEvent(InputChoice a)",
@@ -2259,6 +2453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "InputChoiceData",
           "package": "Nomyx-Rules",
@@ -2268,6 +2463,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "InputChoiceData",
           "normalized": "a-\u003eEventData(InputChoice a)",
@@ -2283,6 +2479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "InputString",
           "package": "Nomyx-Rules",
@@ -2292,6 +2489,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "InputString",
           "normalized": "PlayerNumber-\u003eString-\u003eEvent InputString",
@@ -2307,6 +2505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "InputStringData",
           "package": "Nomyx-Rules",
@@ -2316,6 +2515,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "InputStringData",
           "normalized": "String-\u003eEventData InputString",
@@ -2331,6 +2531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Leave",
           "package": "Nomyx-Rules",
@@ -2340,6 +2541,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Leave",
           "package": "Nomyx-Rules",
@@ -2353,6 +2555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Message",
           "package": "Nomyx-Rules",
@@ -2362,6 +2565,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Message",
           "normalized": "String-\u003eEvent(Message a)",
@@ -2377,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "MessageData",
           "package": "Nomyx-Rules",
@@ -2386,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "MessageData",
           "normalized": "a-\u003eEventData(Message a)",
@@ -2401,6 +2607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Modified",
           "package": "Nomyx-Rules",
@@ -2410,6 +2617,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Modified",
           "package": "Nomyx-Rules",
@@ -2423,6 +2631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "ModifyRule",
           "package": "Nomyx-Rules",
@@ -2432,6 +2641,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "ModifyRule",
           "normalized": "RuleNumber-\u003eRule-\u003eExp Bool",
@@ -2447,6 +2657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "MsgResp",
           "package": "Nomyx-Rules",
@@ -2456,6 +2667,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "MsgResp",
           "package": "Nomyx-Rules",
@@ -2469,6 +2681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "NewVar",
           "package": "Nomyx-Rules",
@@ -2478,6 +2691,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "NewVar",
           "normalized": "VarName-\u003ea-\u003eExp(Maybe(V a))",
@@ -2493,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "OnEvent",
           "package": "Nomyx-Rules",
@@ -2502,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "OnEvent",
           "normalized": "Event a-\u003e((EventNumber,EventData a)-\u003eExp())-\u003eExp EventNumber",
@@ -2517,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Output",
           "package": "Nomyx-Rules",
@@ -2526,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Output",
           "normalized": "PlayerNumber-\u003eString-\u003eExp()",
@@ -2541,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Pending",
           "package": "Nomyx-Rules",
@@ -2550,6 +2769,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Pending",
           "package": "Nomyx-Rules",
@@ -2563,6 +2783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Player",
           "package": "Nomyx-Rules",
@@ -2572,6 +2793,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Player",
           "normalized": "Player-\u003eEvent Player",
@@ -2587,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "PlayerData",
           "package": "Nomyx-Rules",
@@ -2596,6 +2819,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "PlayerData",
           "normalized": "PlayerInfo-\u003eEventData Player",
@@ -2611,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "PlayerInfo",
           "package": "Nomyx-Rules",
@@ -2620,6 +2845,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "PlayerInfo",
           "package": "Nomyx-Rules",
@@ -2633,6 +2859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "PlayerRule",
           "package": "Nomyx-Rules",
@@ -2642,6 +2869,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "PlayerRule",
           "package": "Nomyx-Rules",
@@ -2655,6 +2883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "ProposeRule",
           "package": "Nomyx-Rules",
@@ -2664,6 +2893,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "ProposeRule",
           "normalized": "Rule-\u003eExp Bool",
@@ -2679,6 +2909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Proposed",
           "package": "Nomyx-Rules",
@@ -2688,6 +2919,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Proposed",
           "package": "Nomyx-Rules",
@@ -2701,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "ReadVar",
           "package": "Nomyx-Rules",
@@ -2710,6 +2943,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "ReadVar",
           "normalized": "V a-\u003eExp(Maybe a)",
@@ -2725,6 +2959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Reject",
           "package": "Nomyx-Rules",
@@ -2734,6 +2969,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Reject",
           "package": "Nomyx-Rules",
@@ -2747,6 +2983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "RejectRule",
           "package": "Nomyx-Rules",
@@ -2756,6 +2993,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "RejectRule",
           "normalized": "RuleNumber-\u003eExp Bool",
@@ -2771,6 +3009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Rejected",
           "package": "Nomyx-Rules",
@@ -2780,6 +3019,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Rejected",
           "package": "Nomyx-Rules",
@@ -2793,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Rule",
           "package": "Nomyx-Rules",
@@ -2802,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Rule",
           "package": "Nomyx-Rules",
@@ -2815,6 +3057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "RuleData",
           "package": "Nomyx-Rules",
@@ -2824,6 +3067,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "RuleData",
           "normalized": "Rule-\u003eEventData RuleEvent",
@@ -2839,6 +3083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "RuleEv",
           "package": "Nomyx-Rules",
@@ -2848,6 +3093,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "RuleEv",
           "normalized": "RuleEvent-\u003eEvent RuleEvent",
@@ -2863,6 +3109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "RuleRule",
           "package": "Nomyx-Rules",
@@ -2872,6 +3119,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "RuleRule",
           "package": "Nomyx-Rules",
@@ -2885,6 +3133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "SelfRuleNumber",
           "package": "Nomyx-Rules",
@@ -2894,6 +3143,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "SelfRuleNumber",
           "package": "Nomyx-Rules",
@@ -2907,6 +3157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "SendMessage",
           "package": "Nomyx-Rules",
@@ -2916,6 +3167,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "SendMessage",
           "normalized": "Event(Message a)-\u003ea-\u003eExp()",
@@ -2931,6 +3183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "SetVictory",
           "package": "Nomyx-Rules",
@@ -2940,6 +3193,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "SetVictory",
           "normalized": "[PlayerNumber]-\u003eExp()",
@@ -2955,6 +3209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Time",
           "package": "Nomyx-Rules",
@@ -2964,6 +3219,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Time",
           "normalized": "UTCTime-\u003eEvent Time",
@@ -2979,6 +3235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "TimeData",
           "package": "Nomyx-Rules",
@@ -2988,6 +3245,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "TimeData",
           "normalized": "UTCTime-\u003eEventData Time",
@@ -3003,6 +3261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "V",
           "package": "Nomyx-Rules",
@@ -3012,6 +3271,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "V",
           "package": "Nomyx-Rules",
@@ -3024,6 +3284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Var",
           "package": "Nomyx-Rules",
@@ -3033,6 +3294,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Var",
           "package": "Nomyx-Rules",
@@ -3046,6 +3308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "Victory",
           "package": "Nomyx-Rules",
@@ -3055,6 +3318,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "Victory",
           "package": "Nomyx-Rules",
@@ -3068,6 +3332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "VictoryData",
           "package": "Nomyx-Rules",
@@ -3077,6 +3342,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "VictoryData",
           "normalized": "[PlayerInfo]-\u003eEventData Victory",
@@ -3092,6 +3358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "VoidRule",
           "package": "Nomyx-Rules",
@@ -3101,6 +3368,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "VoidRule",
           "package": "Nomyx-Rules",
@@ -3114,6 +3382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "WriteVar",
           "package": "Nomyx-Rules",
@@ -3123,6 +3392,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "WriteVar",
           "normalized": "V a-\u003ea-\u003eExp Bool",
@@ -3138,6 +3408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "boolResp",
           "package": "Nomyx-Rules",
@@ -3147,6 +3418,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "boolResp",
           "package": "Nomyx-Rules",
@@ -3160,6 +3432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "currentTime",
           "package": "Nomyx-Rules",
@@ -3169,6 +3442,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "currentTime",
           "package": "Nomyx-Rules",
@@ -3182,6 +3456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "event",
           "package": "Nomyx-Rules",
@@ -3191,6 +3466,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "event",
           "package": "Nomyx-Rules",
@@ -3203,6 +3479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "eventNumber",
           "package": "Nomyx-Rules",
@@ -3212,6 +3489,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "eventNumber",
           "package": "Nomyx-Rules",
@@ -3225,6 +3503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "events",
           "package": "Nomyx-Rules",
@@ -3234,6 +3513,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "events",
           "normalized": "[EventHandler]",
@@ -3248,6 +3528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "gameDesc",
           "package": "Nomyx-Rules",
@@ -3257,6 +3538,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "gameDesc",
           "package": "Nomyx-Rules",
@@ -3270,6 +3552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "gameName",
           "package": "Nomyx-Rules",
@@ -3279,6 +3562,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "gameName",
           "package": "Nomyx-Rules",
@@ -3292,6 +3576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "handler",
           "package": "Nomyx-Rules",
@@ -3301,6 +3586,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "handler",
           "normalized": "(EventNumber,EventData a)-\u003eExp()",
@@ -3315,6 +3601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "inputChoiceData",
           "package": "Nomyx-Rules",
@@ -3324,6 +3611,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "inputChoiceData",
           "package": "Nomyx-Rules",
@@ -3337,6 +3625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "inputStringData",
           "package": "Nomyx-Rules",
@@ -3346,6 +3635,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "inputStringData",
           "package": "Nomyx-Rules",
@@ -3359,6 +3649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "messageData",
           "package": "Nomyx-Rules",
@@ -3368,6 +3659,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "messageData",
           "package": "Nomyx-Rules",
@@ -3381,6 +3673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "msgResp",
           "package": "Nomyx-Rules",
@@ -3390,6 +3683,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "msgResp",
           "package": "Nomyx-Rules",
@@ -3403,6 +3697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "outputs",
           "package": "Nomyx-Rules",
@@ -3412,6 +3707,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "outputs",
           "normalized": "[Output]",
@@ -3426,6 +3722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "playerData",
           "package": "Nomyx-Rules",
@@ -3435,6 +3732,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "playerData",
           "package": "Nomyx-Rules",
@@ -3448,6 +3746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "playerName",
           "package": "Nomyx-Rules",
@@ -3457,6 +3756,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "playerName",
           "package": "Nomyx-Rules",
@@ -3470,6 +3770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "playerNumber",
           "package": "Nomyx-Rules",
@@ -3479,6 +3780,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "playerNumber",
           "package": "Nomyx-Rules",
@@ -3492,6 +3794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "playerRule",
           "package": "Nomyx-Rules",
@@ -3501,6 +3804,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "playerRule",
           "package": "Nomyx-Rules",
@@ -3514,6 +3818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "players",
           "package": "Nomyx-Rules",
@@ -3523,6 +3828,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "players",
           "normalized": "[PlayerInfo]",
@@ -3537,6 +3843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "rAssessedBy",
           "package": "Nomyx-Rules",
@@ -3546,6 +3853,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "rAssessedBy",
           "package": "Nomyx-Rules",
@@ -3559,6 +3867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "rDescription",
           "package": "Nomyx-Rules",
@@ -3568,6 +3877,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "rDescription",
           "package": "Nomyx-Rules",
@@ -3581,6 +3891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "rName",
           "package": "Nomyx-Rules",
@@ -3590,6 +3901,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "rName",
           "package": "Nomyx-Rules",
@@ -3603,6 +3915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "rNumber",
           "package": "Nomyx-Rules",
@@ -3612,6 +3925,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "rNumber",
           "package": "Nomyx-Rules",
@@ -3625,6 +3939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "rProposedBy",
           "package": "Nomyx-Rules",
@@ -3634,6 +3949,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "rProposedBy",
           "package": "Nomyx-Rules",
@@ -3647,6 +3963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "rRuleCode",
           "package": "Nomyx-Rules",
@@ -3656,6 +3973,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "rRuleCode",
           "package": "Nomyx-Rules",
@@ -3669,6 +3987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "rRuleFunc",
           "package": "Nomyx-Rules",
@@ -3678,6 +3997,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "rRuleFunc",
           "package": "Nomyx-Rules",
@@ -3691,6 +4011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "rStatus",
           "package": "Nomyx-Rules",
@@ -3700,6 +4021,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "rStatus",
           "package": "Nomyx-Rules",
@@ -3714,6 +4036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplaces all instances of a value in a list by another value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "replaceWith",
           "package": "Nomyx-Rules",
@@ -3723,6 +4046,7 @@
         "index": {
           "description": "Replaces all instances of value in list by another value",
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "replaceWith",
           "normalized": "(a-\u003eBool)-\u003ea-\u003e[a]-\u003e[a]",
@@ -3738,6 +4062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "ruleData",
           "package": "Nomyx-Rules",
@@ -3747,6 +4072,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "ruleData",
           "package": "Nomyx-Rules",
@@ -3760,6 +4086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "ruleNumber",
           "package": "Nomyx-Rules",
@@ -3769,6 +4096,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "ruleNumber",
           "package": "Nomyx-Rules",
@@ -3782,6 +4110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "ruleRule",
           "package": "Nomyx-Rules",
@@ -3791,6 +4120,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "ruleRule",
           "package": "Nomyx-Rules",
@@ -3804,6 +4134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "rules",
           "package": "Nomyx-Rules",
@@ -3813,6 +4144,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "rules",
           "normalized": "[Rule]",
@@ -3827,6 +4159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "timeData",
           "package": "Nomyx-Rules",
@@ -3836,6 +4169,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "timeData",
           "package": "Nomyx-Rules",
@@ -3849,6 +4183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "vData",
           "package": "Nomyx-Rules",
@@ -3858,6 +4193,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "vData",
           "package": "Nomyx-Rules",
@@ -3871,6 +4207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "vName",
           "package": "Nomyx-Rules",
@@ -3880,6 +4217,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "vName",
           "package": "Nomyx-Rules",
@@ -3893,6 +4231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "vRuleNumber",
           "package": "Nomyx-Rules",
@@ -3902,6 +4241,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "vRuleNumber",
           "package": "Nomyx-Rules",
@@ -3915,6 +4255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "varName",
           "package": "Nomyx-Rules",
@@ -3924,6 +4265,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "varName",
           "package": "Nomyx-Rules",
@@ -3937,6 +4279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "variables",
           "package": "Nomyx-Rules",
@@ -3946,6 +4289,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "variables",
           "normalized": "[Var]",
@@ -3960,6 +4304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "victory",
           "package": "Nomyx-Rules",
@@ -3969,6 +4314,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "victory",
           "normalized": "[PlayerNumber]",
@@ -3983,6 +4329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "victoryData",
           "package": "Nomyx-Rules",
@@ -3992,6 +4339,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "victoryData",
           "normalized": "[PlayerInfo]",
@@ -4007,6 +4355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Expression",
           "name": "voidRule",
           "package": "Nomyx-Rules",
@@ -4016,6 +4365,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Expression",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Expression",
           "name": "voidRule",
           "package": "Nomyx-Rules",
@@ -4030,6 +4380,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAll the building blocks to build rules and basic rules examples.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "Rule",
           "package": "Nomyx-Rules",
@@ -4039,6 +4390,7 @@
         "index": {
           "description": "All the building blocks to build rules and basic rules examples",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "Rule",
           "package": "Nomyx-Rules",
@@ -4053,6 +4405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArrayVar is an indexed array with a signal attached to warn when the array is filled.\neach indexed elements starts empty (value=Nothing), and when the array is full, the signal is triggered.\nThis is useful to wait for a serie of events to happen, and trigger a computation on the collected results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "ArrayVar",
           "package": "Nomyx-Rules",
@@ -4062,6 +4415,7 @@
         "index": {
           "description": "ArrayVar is an indexed array with signal attached to warn when the array is filled each indexed elements starts empty value Nothing and when the array is full the signal is triggered This is useful to wait for serie of events to happen and trigger computation on the collected results",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "ArrayVar",
           "package": "Nomyx-Rules",
@@ -4075,6 +4429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "ForAgainst",
           "package": "Nomyx-Rules",
@@ -4083,6 +4438,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "ForAgainst",
           "package": "Nomyx-Rules",
@@ -4096,6 +4452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "(&&.)",
           "package": "Nomyx-Rules",
@@ -4105,6 +4462,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "(&&.) &&.",
           "normalized": "RuleFunc-\u003eRuleFunc-\u003eRuleFunc",
@@ -4119,6 +4477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "Against",
           "package": "Nomyx-Rules",
@@ -4128,6 +4487,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "Against",
           "package": "Nomyx-Rules",
@@ -4141,6 +4501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "ArrayVar",
           "package": "Nomyx-Rules",
@@ -4150,6 +4511,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "ArrayVar",
           "normalized": "ArrayVar(Event(Message[(a,b)]))(V(Map a(Maybe b)))",
@@ -4165,6 +4527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "For",
           "package": "Nomyx-Rules",
@@ -4174,6 +4537,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "For",
           "package": "Nomyx-Rules",
@@ -4187,6 +4551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "activateOrReject",
           "package": "Nomyx-Rules",
@@ -4196,6 +4561,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "activateOrReject",
           "normalized": "Rule-\u003eBool-\u003eExp()",
@@ -4212,6 +4578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eactivate a rule: change its state to Active and execute it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "activateRule",
           "package": "Nomyx-Rules",
@@ -4222,6 +4589,7 @@
         "index": {
           "description": "activate rule change its state to Active and execute it",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "activateRule",
           "normalized": "RuleNumber-\u003eExp Bool",
@@ -4237,6 +4605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "activateRule_",
           "package": "Nomyx-Rules",
@@ -4246,6 +4615,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "activateRule_",
           "normalized": "RuleNumber-\u003eExp()",
@@ -4262,6 +4632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a rule to the game, it will have to be activated \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "addRule",
           "package": "Nomyx-Rules",
@@ -4272,6 +4643,7 @@
         "index": {
           "description": "add rule to the game it will have to be activated",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "addRule",
           "normalized": "Rule-\u003eExp Bool",
@@ -4287,6 +4659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "addRuleParams_",
           "package": "Nomyx-Rules",
@@ -4296,6 +4669,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "addRuleParams_",
           "normalized": "RuleName-\u003eRuleFunc-\u003eRuleCode-\u003eRuleNumber-\u003eString-\u003eExp()",
@@ -4311,6 +4685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "addRule_",
           "package": "Nomyx-Rules",
@@ -4320,6 +4695,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "addRule_",
           "normalized": "Rule-\u003eExp()",
@@ -4335,6 +4711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "andrr",
           "package": "Nomyx-Rules",
@@ -4344,6 +4721,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "andrr",
           "normalized": "RuleResponse-\u003eRuleResponse-\u003eExp RuleResponse",
@@ -4358,6 +4736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "andrrs",
           "package": "Nomyx-Rules",
@@ -4367,6 +4746,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "andrrs",
           "normalized": "[RuleResponse]-\u003eExp RuleResponse",
@@ -4381,6 +4761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "applyRule",
           "package": "Nomyx-Rules",
@@ -4390,6 +4771,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "applyRule",
           "normalized": "Rule-\u003eRule-\u003eExp Bool",
@@ -4406,6 +4788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis rule will activate automatically any new rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "autoActivate",
           "package": "Nomyx-Rules",
@@ -4416,6 +4799,7 @@
         "index": {
           "description": "This rule will activate automatically any new rule",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "autoActivate",
           "package": "Nomyx-Rules",
@@ -4430,6 +4814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea rule can autodelete itself (generaly after having performed some actions)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "autoDelete",
           "package": "Nomyx-Rules",
@@ -4440,6 +4825,7 @@
         "index": {
           "description": "rule can autodelete itself generaly after having performed some actions",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "autoDelete",
           "normalized": "Exp()",
@@ -4456,6 +4842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eactive metarules are automatically used to evaluate a given rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "checkWithMetarules",
           "package": "Nomyx-Rules",
@@ -4466,6 +4853,7 @@
         "index": {
           "description": "active metarules are automatically used to evaluate given rule",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "checkWithMetarules",
           "normalized": "Rule-\u003eExp RuleResponse",
@@ -4482,6 +4870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a value initialized for each players\nmanages players joining and leaving\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "createValueForEachPlayer",
           "package": "Nomyx-Rules",
@@ -4492,6 +4881,7 @@
         "index": {
           "description": "create value initialized for each players manages players joining and leaving",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "createValueForEachPlayer",
           "normalized": "Int-\u003eV[(Int,Int)]-\u003eExp()",
@@ -4508,6 +4898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a value initialized for each players initialized to zero\nmanages players joining and leaving\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "createValueForEachPlayer_",
           "package": "Nomyx-Rules",
@@ -4518,6 +4909,7 @@
         "index": {
           "description": "create value initialized for each players initialized to zero manages players joining and leaving",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "createValueForEachPlayer_",
           "normalized": "V[(Int,Int)]-\u003eExp()",
@@ -4534,6 +4926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea default rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "defaultRule",
           "package": "Nomyx-Rules",
@@ -4544,6 +4937,7 @@
         "index": {
           "description": "default rule",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "defaultRule",
           "package": "Nomyx-Rules",
@@ -4557,6 +4951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "delAllEvents",
           "package": "Nomyx-Rules",
@@ -4566,6 +4961,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "delAllEvents",
           "normalized": "Event a-\u003eExp()",
@@ -4581,6 +4977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "delArrayVar",
           "package": "Nomyx-Rules",
@@ -4590,6 +4987,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "delArrayVar",
           "normalized": "ArrayVar a b-\u003eExp()",
@@ -4605,6 +5003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "delEvent",
           "package": "Nomyx-Rules",
@@ -4614,6 +5013,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "delEvent",
           "normalized": "EventNumber-\u003eExp Bool",
@@ -4629,6 +5029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "delEvent_",
           "package": "Nomyx-Rules",
@@ -4638,6 +5039,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "delEvent_",
           "normalized": "EventNumber-\u003eExp()",
@@ -4654,6 +5056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "delVar",
           "package": "Nomyx-Rules",
@@ -4664,6 +5067,7 @@
         "index": {
           "description": "delete variable",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "delVar",
           "normalized": "V a-\u003eExp Bool",
@@ -4679,6 +5083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "delVar_",
           "package": "Nomyx-Rules",
@@ -4688,6 +5093,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "delVar_",
           "normalized": "V a-\u003eExp()",
@@ -4704,6 +5110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll rules from player p are erased:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "eraseAllRules",
           "package": "Nomyx-Rules",
@@ -4714,6 +5121,7 @@
         "index": {
           "description": "All rules from player are erased",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "eraseAllRules",
           "normalized": "PlayerNumber-\u003eExp Bool",
@@ -4729,6 +5137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "executeAndScheduleNext",
           "package": "Nomyx-Rules",
@@ -4738,6 +5147,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "executeAndScheduleNext",
           "normalized": "(EventData Time-\u003eExp())-\u003eSchedule Freq-\u003eEventData Time-\u003eExp()",
@@ -4753,6 +5163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "executeAndScheduleNext'",
           "package": "Nomyx-Rules",
@@ -4762,6 +5173,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "executeAndScheduleNext'",
           "normalized": "(EventData Time-\u003eExp())-\u003e[UTCTime]-\u003eEventData Time-\u003eExp()",
@@ -4778,6 +5190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperform an action for each current players, new players and leaving players\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "forEachPlayer",
           "package": "Nomyx-Rules",
@@ -4788,6 +5201,7 @@
         "index": {
           "description": "perform an action for each current players new players and leaving players",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "forEachPlayer",
           "normalized": "(PlayerNumber-\u003eExp())-\u003e(PlayerNumber-\u003eExp())-\u003e(PlayerNumber-\u003eExp())-\u003eExp()",
@@ -4803,6 +5217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "forEachPlayer'",
           "package": "Nomyx-Rules",
@@ -4812,6 +5227,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "forEachPlayer'",
           "normalized": "(PlayerNumber-\u003eExp a)-\u003e((PlayerNumber,a)-\u003eExp())-\u003eExp()",
@@ -4828,6 +5244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperform the same action for each players, including new players\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "forEachPlayer_",
           "package": "Nomyx-Rules",
@@ -4838,6 +5255,7 @@
         "index": {
           "description": "perform the same action for each players including new players",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "forEachPlayer_",
           "normalized": "(PlayerNumber-\u003eExp())-\u003eExp()",
@@ -4853,6 +5271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "getActiveRules",
           "package": "Nomyx-Rules",
@@ -4862,6 +5281,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "getActiveRules",
           "normalized": "Exp[Rule]",
@@ -4877,6 +5297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "getAllPlayerNumbers",
           "package": "Nomyx-Rules",
@@ -4886,6 +5307,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "getAllPlayerNumbers",
           "normalized": "Exp[PlayerNumber]",
@@ -4902,6 +5324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the association array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "getArrayVarData",
           "package": "Nomyx-Rules",
@@ -4912,6 +5335,7 @@
         "index": {
           "description": "get the association array",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "getArrayVarData",
           "normalized": "ArrayVar a b-\u003eExp[(a,Maybe b)]",
@@ -4928,6 +5352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the association array with only the filled values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "getArrayVarData'",
           "package": "Nomyx-Rules",
@@ -4938,6 +5363,7 @@
         "index": {
           "description": "get the association array with only the filled values",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "getArrayVarData'",
           "normalized": "ArrayVar a b-\u003eExp[(a,b)]",
@@ -4954,6 +5380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the messsage triggered when the array is filled\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "getArrayVarMessage",
           "package": "Nomyx-Rules",
@@ -4964,6 +5391,7 @@
         "index": {
           "description": "get the messsage triggered when the array is filled",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "getArrayVarMessage",
           "normalized": "ArrayVar a b-\u003eExp(Event(Message[(a,b)]))",
@@ -4979,6 +5407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "getCurrentTime",
           "package": "Nomyx-Rules",
@@ -4988,6 +5417,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "getCurrentTime",
           "package": "Nomyx-Rules",
@@ -5001,6 +5431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "getPlayers",
           "package": "Nomyx-Rules",
@@ -5010,6 +5441,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "getPlayers",
           "normalized": "Exp[PlayerInfo]",
@@ -5026,6 +5458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the total number of players\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "getPlayersNumber",
           "package": "Nomyx-Rules",
@@ -5036,6 +5469,7 @@
         "index": {
           "description": "Get the total number of players",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "getPlayersNumber",
           "package": "Nomyx-Rules",
@@ -5049,6 +5483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "getRule",
           "package": "Nomyx-Rules",
@@ -5058,6 +5493,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "getRule",
           "normalized": "RuleNumber-\u003eExp(Maybe Rule)",
@@ -5073,6 +5509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "getRuleFuncs",
           "package": "Nomyx-Rules",
@@ -5082,6 +5519,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "getRuleFuncs",
           "normalized": "Exp[RuleFunc]",
@@ -5097,6 +5535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "getRules",
           "package": "Nomyx-Rules",
@@ -5106,6 +5545,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "getRules",
           "normalized": "Exp[Rule]",
@@ -5121,6 +5561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "getRulesByNumbers",
           "package": "Nomyx-Rules",
@@ -5130,6 +5571,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "getRulesByNumbers",
           "normalized": "[RuleNumber]-\u003eExp[Rule]",
@@ -5145,6 +5587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "getSelfProposedByPlayer",
           "package": "Nomyx-Rules",
@@ -5154,6 +5597,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "getSelfProposedByPlayer",
           "package": "Nomyx-Rules",
@@ -5167,6 +5611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "getSelfRule",
           "package": "Nomyx-Rules",
@@ -5176,6 +5621,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "getSelfRule",
           "package": "Nomyx-Rules",
@@ -5190,6 +5636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eallows a rule to retrieve its self number (for auto-deleting for example)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "getSelfRuleNumber",
           "package": "Nomyx-Rules",
@@ -5200,6 +5647,7 @@
         "index": {
           "description": "allows rule to retrieve its self number for auto-deleting for example",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "getSelfRuleNumber",
           "package": "Nomyx-Rules",
@@ -5214,6 +5662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egive victory to one player\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "giveVictory",
           "package": "Nomyx-Rules",
@@ -5224,6 +5673,7 @@
         "index": {
           "description": "give victory to one player",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "giveVictory",
           "normalized": "PlayerNumber-\u003eExp()",
@@ -5240,6 +5690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rule will be always illegal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "illegal",
           "package": "Nomyx-Rules",
@@ -5250,6 +5701,7 @@
         "index": {
           "description": "rule will be always illegal",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "illegal",
           "package": "Nomyx-Rules",
@@ -5263,6 +5715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis rule will forbid any new rule to delete the rule in parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "immutableRule",
           "package": "Nomyx-Rules",
@@ -5273,6 +5726,7 @@
         "index": {
           "description": "This rule will forbid any new rule to delete the rule in parameter",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "immutableRule",
           "normalized": "RuleNumber-\u003eRuleFunc",
@@ -5288,6 +5742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "inputChoice",
           "package": "Nomyx-Rules",
@@ -5297,6 +5752,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "inputChoice",
           "normalized": "PlayerNumber-\u003eString-\u003e[a]-\u003ea-\u003eEvent(InputChoice a)",
@@ -5312,6 +5768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "inputChoiceEnum",
           "package": "Nomyx-Rules",
@@ -5321,6 +5778,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "inputChoiceEnum",
           "normalized": "PlayerNumber-\u003eString-\u003ea-\u003eEvent(InputChoice a)",
@@ -5336,6 +5794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "inputChoiceHead",
           "package": "Nomyx-Rules",
@@ -5345,6 +5804,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "inputChoiceHead",
           "normalized": "PlayerNumber-\u003eString-\u003e[a]-\u003eEvent(InputChoice a)",
@@ -5360,6 +5820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "inputString",
           "package": "Nomyx-Rules",
@@ -5369,6 +5830,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "inputString",
           "normalized": "PlayerNumber-\u003eString-\u003eEvent InputString",
@@ -5385,6 +5847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rule will be always legal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "legal",
           "package": "Nomyx-Rules",
@@ -5395,6 +5858,7 @@
         "index": {
           "description": "rule will be always legal",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "legal",
           "package": "Nomyx-Rules",
@@ -5408,6 +5872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eassess the vote results according to an absolute majority (half participants plus one)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "majority",
           "package": "Nomyx-Rules",
@@ -5418,6 +5883,7 @@
         "index": {
           "description": "assess the vote results according to an absolute majority half participants plus one",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "majority",
           "normalized": "[(PlayerNumber,ForAgainst)]-\u003eBool",
@@ -5432,6 +5898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "mapMaybeM",
           "package": "Nomyx-Rules",
@@ -5441,6 +5908,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "mapMaybeM",
           "normalized": "(a-\u003eb(Maybe c))-\u003e[a]-\u003eb[c]",
@@ -5456,6 +5924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "maybeMetaRule",
           "package": "Nomyx-Rules",
@@ -5465,6 +5934,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "maybeMetaRule",
           "normalized": "Rule-\u003eMaybe(OneParamRule Rule)",
@@ -5480,6 +5950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "modifyAllValues",
           "package": "Nomyx-Rules",
@@ -5489,6 +5960,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "modifyAllValues",
           "normalized": "V[(Int,Int)]-\u003e(Int-\u003eInt)-\u003eExp()",
@@ -5504,6 +5976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "modifyRule",
           "package": "Nomyx-Rules",
@@ -5513,6 +5986,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "modifyRule",
           "normalized": "RuleNumber-\u003eRule-\u003eExp Bool",
@@ -5528,6 +6002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "modifyValueOfPlayer",
           "package": "Nomyx-Rules",
@@ -5537,6 +6012,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "modifyValueOfPlayer",
           "normalized": "PlayerNumber-\u003eV[(Int,Int)]-\u003e(Int-\u003eInt)-\u003eExp()",
@@ -5553,6 +6029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emodify a variable using the provided function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "modifyVar",
           "package": "Nomyx-Rules",
@@ -5563,6 +6040,7 @@
         "index": {
           "description": "modify variable using the provided function",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "modifyVar",
           "normalized": "V a-\u003e(a-\u003ea)-\u003eExp()",
@@ -5579,6 +6057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einitialize an empty ArrayVar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "newArrayVar",
           "package": "Nomyx-Rules",
@@ -5589,6 +6068,7 @@
         "index": {
           "description": "initialize an empty ArrayVar",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "newArrayVar",
           "normalized": "VarName-\u003e[a]-\u003eExp(ArrayVar a b)",
@@ -5605,6 +6085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einitialize an empty ArrayVar, registering a callback that will be triggered when the array is filled\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "newArrayVar'",
           "package": "Nomyx-Rules",
@@ -5615,6 +6096,7 @@
         "index": {
           "description": "initialize an empty ArrayVar registering callback that will be triggered when the array is filled",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "newArrayVar'",
           "normalized": "VarName-\u003e[a]-\u003e([(a,b)]-\u003eExp())-\u003eExp(ArrayVar a b)",
@@ -5631,6 +6113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einitialize an empty ArrayVar, registering a callback.\nthe callback will be triggered when the array is filled, and then the ArrayVar will be deleted\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "newArrayVarOnce",
           "package": "Nomyx-Rules",
@@ -5641,6 +6124,7 @@
         "index": {
           "description": "initialize an empty ArrayVar registering callback the callback will be triggered when the array is filled and then the ArrayVar will be deleted",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "newArrayVarOnce",
           "normalized": "VarName-\u003e[a]-\u003e([(a,b)]-\u003eExp())-\u003eExp(ArrayVar a b)",
@@ -5657,6 +6141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable creation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "newVar",
           "package": "Nomyx-Rules",
@@ -5667,6 +6152,7 @@
         "index": {
           "description": "variable creation",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "newVar",
           "normalized": "VarName-\u003ea-\u003eExp(Maybe(V a))",
@@ -5682,6 +6168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "newVar_",
           "package": "Nomyx-Rules",
@@ -5691,6 +6178,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "newVar_",
           "normalized": "VarName-\u003ea-\u003eExp(V a)",
@@ -5707,6 +6195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlayer p cannot propose anymore rules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "noPlayPlayer",
           "package": "Nomyx-Rules",
@@ -5717,6 +6206,7 @@
         "index": {
           "description": "Player cannot propose anymore rules",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "noPlayPlayer",
           "normalized": "PlayerNumber-\u003eRuleFunc",
@@ -5733,6 +6223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eregister a callback on an event\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "onEvent",
           "package": "Nomyx-Rules",
@@ -5743,6 +6234,7 @@
         "index": {
           "description": "register callback on an event",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "onEvent",
           "normalized": "Event a-\u003e((EventNumber,EventData a)-\u003eExp())-\u003eExp EventNumber",
@@ -5759,6 +6251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset an handler for an event that will be triggered only once\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "onEventOnce",
           "package": "Nomyx-Rules",
@@ -5769,6 +6262,7 @@
         "index": {
           "description": "set an handler for an event that will be triggered only once",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "onEventOnce",
           "normalized": "Event a-\u003e(EventData a-\u003eExp())-\u003eExp EventNumber",
@@ -5785,6 +6279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset an handler for an event that will be triggered only once\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "onEventOnce_",
           "package": "Nomyx-Rules",
@@ -5795,6 +6290,7 @@
         "index": {
           "description": "set an handler for an event that will be triggered only once",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "onEventOnce_",
           "normalized": "Event a-\u003e(EventData a-\u003eExp())-\u003eExp()",
@@ -5811,6 +6307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eregister a callback on an event, disregard the event number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "onEvent_",
           "package": "Nomyx-Rules",
@@ -5821,6 +6318,7 @@
         "index": {
           "description": "register callback on an event disregard the event number",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "onEvent_",
           "normalized": "Event a-\u003e(EventData a-\u003eExp())-\u003eExp()",
@@ -5837,6 +6335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etriggers a choice input to the user. The result will be sent to the callback\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "onInputChoice",
           "package": "Nomyx-Rules",
@@ -5847,6 +6346,7 @@
         "index": {
           "description": "triggers choice input to the user The result will be sent to the callback",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "onInputChoice",
           "normalized": "String-\u003e[a]-\u003e(EventNumber-\u003ea-\u003eExp())-\u003ePlayerNumber-\u003eExp EventNumber",
@@ -5863,6 +6363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etriggers a choice input to the user, using an enumerate as input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "onInputChoiceEnum",
           "package": "Nomyx-Rules",
@@ -5873,6 +6374,7 @@
         "index": {
           "description": "triggers choice input to the user using an enumerate as input",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "onInputChoiceEnum",
           "normalized": "String-\u003ea-\u003e(EventNumber-\u003ea-\u003eExp())-\u003ePlayerNumber-\u003eExp EventNumber",
@@ -5889,6 +6391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe same, suppress the event after first trigger\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "onInputChoiceEnumOnce_",
           "package": "Nomyx-Rules",
@@ -5899,6 +6402,7 @@
         "index": {
           "description": "the same suppress the event after first trigger",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "onInputChoiceEnumOnce_",
           "normalized": "String-\u003ea-\u003e(a-\u003eExp())-\u003ePlayerNumber-\u003eExp()",
@@ -5915,6 +6419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe same, disregard the event number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "onInputChoiceEnum_",
           "package": "Nomyx-Rules",
@@ -5925,6 +6430,7 @@
         "index": {
           "description": "the same disregard the event number",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "onInputChoiceEnum_",
           "normalized": "String-\u003ea-\u003e(a-\u003eExp())-\u003ePlayerNumber-\u003eExp()",
@@ -5941,6 +6447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe same, suppress the event after first trigger\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "onInputChoiceOnce",
           "package": "Nomyx-Rules",
@@ -5951,6 +6458,7 @@
         "index": {
           "description": "the same suppress the event after first trigger",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "onInputChoiceOnce",
           "normalized": "String-\u003e[a]-\u003e(a-\u003eExp())-\u003ePlayerNumber-\u003eExp EventNumber",
@@ -5967,6 +6475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe same, disregard the event number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "onInputChoiceOnce_",
           "package": "Nomyx-Rules",
@@ -5977,6 +6486,7 @@
         "index": {
           "description": "the same disregard the event number",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "onInputChoiceOnce_",
           "normalized": "String-\u003e[a]-\u003e(a-\u003eExp())-\u003ePlayerNumber-\u003eExp()",
@@ -5993,6 +6503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe same, disregard the event number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "onInputChoice_",
           "package": "Nomyx-Rules",
@@ -6003,6 +6514,7 @@
         "index": {
           "description": "the same disregard the event number",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "onInputChoice_",
           "normalized": "String-\u003e[a]-\u003e(a-\u003eExp())-\u003ePlayerNumber-\u003eExp()",
@@ -6019,6 +6531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etriggers a string input to the user. The result will be sent to the callback\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "onInputString",
           "package": "Nomyx-Rules",
@@ -6029,6 +6542,7 @@
         "index": {
           "description": "triggers string input to the user The result will be sent to the callback",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "onInputString",
           "normalized": "String-\u003e(EventNumber-\u003eString-\u003eExp())-\u003ePlayerNumber-\u003eExp EventNumber",
@@ -6045,6 +6559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003easks the player pn to answer a question, and feed the callback with this data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "onInputStringOnce_",
           "package": "Nomyx-Rules",
@@ -6055,6 +6570,7 @@
         "index": {
           "description": "asks the player pn to answer question and feed the callback with this data",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "onInputStringOnce_",
           "normalized": "String-\u003e(String-\u003eExp())-\u003ePlayerNumber-\u003eExp()",
@@ -6071,6 +6587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003easks the player pn to answer a question, and feed the callback with this data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "onInputString_",
           "package": "Nomyx-Rules",
@@ -6081,6 +6598,7 @@
         "index": {
           "description": "asks the player pn to answer question and feed the callback with this data",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "onInputString_",
           "normalized": "String-\u003e(String-\u003eExp())-\u003ePlayerNumber-\u003eExp()",
@@ -6097,6 +6615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esubscribe on a message \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "onMessage",
           "package": "Nomyx-Rules",
@@ -6107,6 +6626,7 @@
         "index": {
           "description": "subscribe on message",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "onMessage",
           "normalized": "Event(Message a)-\u003e(EventData(Message a)-\u003eExp())-\u003eExp()",
@@ -6122,6 +6642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "onMessageOnce",
           "package": "Nomyx-Rules",
@@ -6131,6 +6652,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "onMessageOnce",
           "normalized": "Event(Message a)-\u003e(EventData(Message a)-\u003eExp())-\u003eExp()",
@@ -6147,6 +6669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eany new rule will be activate if all active meta rules returns True\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "onRuleProposed",
           "package": "Nomyx-Rules",
@@ -6157,6 +6680,7 @@
         "index": {
           "description": "any new rule will be activate if all active meta rules returns True",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "onRuleProposed",
           "normalized": "(Rule-\u003eExp RuleResponse)-\u003eRuleFunc",
@@ -6173,6 +6697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoutputs a message to one player\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "output",
           "package": "Nomyx-Rules",
@@ -6183,6 +6708,7 @@
         "index": {
           "description": "outputs message to one player",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "output",
           "normalized": "String-\u003ePlayerNumber-\u003eExp()",
@@ -6197,6 +6723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "outputAll",
           "package": "Nomyx-Rules",
@@ -6206,6 +6733,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "outputAll",
           "normalized": "String-\u003eExp()",
@@ -6221,6 +6749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "parse822Time",
           "package": "Nomyx-Rules",
@@ -6230,6 +6759,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "parse822Time",
           "normalized": "String-\u003eUTCTime",
@@ -6246,6 +6776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estore one value and the given index. If this is the last filled element, the registered callbacks are triggered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "putArrayVar",
           "package": "Nomyx-Rules",
@@ -6256,6 +6787,7 @@
         "index": {
           "description": "store one value and the given index If this is the last filled element the registered callbacks are triggered",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "putArrayVar",
           "normalized": "ArrayVar a b-\u003ea-\u003eb-\u003eExp()",
@@ -6272,6 +6804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable reading\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "readVar",
           "package": "Nomyx-Rules",
@@ -6282,6 +6815,7 @@
         "index": {
           "description": "variable reading",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "readVar",
           "normalized": "V a-\u003eExp(Maybe a)",
@@ -6297,6 +6831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "readVar_",
           "package": "Nomyx-Rules",
@@ -6306,6 +6841,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "readVar_",
           "normalized": "V a-\u003eExp a",
@@ -6322,6 +6858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereject a rule: change its state to Suppressed and suppresses all its environment (events, variables, inputs)\n the rule can be activated again later\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "rejectRule",
           "package": "Nomyx-Rules",
@@ -6332,6 +6869,7 @@
         "index": {
           "description": "reject rule change its state to Suppressed and suppresses all its environment events variables inputs the rule can be activated again later",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "rejectRule",
           "normalized": "RuleNumber-\u003eExp Bool",
@@ -6347,6 +6885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "rejectRule_",
           "package": "Nomyx-Rules",
@@ -6356,6 +6895,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "rejectRule_",
           "normalized": "RuleNumber-\u003eExp()",
@@ -6372,6 +6912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eon the provided schedule, the supplied function will be called\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "schedule",
           "package": "Nomyx-Rules",
@@ -6382,6 +6923,7 @@
         "index": {
           "description": "on the provided schedule the supplied function will be called",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "schedule",
           "normalized": "Schedule Freq-\u003e(UTCTime-\u003eExp())-\u003eExp()",
@@ -6396,6 +6938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "schedule'",
           "package": "Nomyx-Rules",
@@ -6405,6 +6948,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "schedule'",
           "normalized": "[UTCTime]-\u003e(UTCTime-\u003eExp())-\u003eExp()",
@@ -6419,6 +6963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "schedule'_",
           "package": "Nomyx-Rules",
@@ -6428,6 +6973,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "schedule'_",
           "normalized": "[UTCTime]-\u003eExp()-\u003eExp()",
@@ -6442,6 +6988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "schedule_",
           "package": "Nomyx-Rules",
@@ -6451,6 +6998,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "schedule_",
           "normalized": "Schedule Freq-\u003eExp()-\u003eExp()",
@@ -6466,6 +7014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebroadcast a message that can be catched by another rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "sendMessage",
           "package": "Nomyx-Rules",
@@ -6476,6 +7025,7 @@
         "index": {
           "description": "broadcast message that can be catched by another rule",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "sendMessage",
           "normalized": "Event(Message a)-\u003ea-\u003eExp()",
@@ -6491,6 +7041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "sendMessage_",
           "package": "Nomyx-Rules",
@@ -6500,6 +7051,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "sendMessage_",
           "normalized": "Event(Message())-\u003eExp()",
@@ -6516,6 +7068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset victory to a list of players\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "setVictory",
           "package": "Nomyx-Rules",
@@ -6526,6 +7079,7 @@
         "index": {
           "description": "set victory to list of players",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "setVictory",
           "normalized": "[PlayerNumber]-\u003eExp()",
@@ -6542,6 +7096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis rule establishes a list of criteria rules that will be used to test any incoming rule\n the rules applyed shall give the answer immediatly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "simpleApplicationRule",
           "package": "Nomyx-Rules",
@@ -6552,6 +7107,7 @@
         "index": {
           "description": "This rule establishes list of criteria rules that will be used to test any incoming rule the rules applyed shall give the answer immediatly",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "simpleApplicationRule",
           "package": "Nomyx-Rules",
@@ -6565,6 +7121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "sndMaybe",
           "package": "Nomyx-Rules",
@@ -6574,6 +7131,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "sndMaybe",
           "normalized": "(a,Maybe b)-\u003eMaybe(a,b)",
@@ -6589,6 +7147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "suppressAllRules",
           "package": "Nomyx-Rules",
@@ -6598,6 +7157,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "suppressAllRules",
           "package": "Nomyx-Rules",
@@ -6611,6 +7171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "suppressRule",
           "package": "Nomyx-Rules",
@@ -6620,6 +7181,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "suppressRule",
           "normalized": "RuleNumber-\u003eExp Bool",
@@ -6635,6 +7197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "suppressRule_",
           "package": "Nomyx-Rules",
@@ -6644,6 +7207,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "suppressRule_",
           "normalized": "RuleNumber-\u003eExp()",
@@ -6660,6 +7224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eassess the vote results according to a unanimity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "unanimity",
           "package": "Nomyx-Rules",
@@ -6670,6 +7235,7 @@
         "index": {
           "description": "assess the vote results according to unanimity",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "unanimity",
           "normalized": "[(PlayerNumber,ForAgainst)]-\u003eBool",
@@ -6685,6 +7251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erule that performs a vote for a rule on all players. The provided function is used to count the votes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "voteWith",
           "package": "Nomyx-Rules",
@@ -6695,6 +7262,7 @@
         "index": {
           "description": "rule that performs vote for rule on all players The provided function is used to count the votes",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "voteWith",
           "normalized": "([(PlayerNumber,ForAgainst)]-\u003eBool)-\u003eRule-\u003eExp RuleResponse",
@@ -6711,6 +7279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erule that performs a vote for a rule on all players. The provided function is used to count the votes,\nit will be called when every players has voted or when the time limit is reached\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "voteWithTimeLimit",
           "package": "Nomyx-Rules",
@@ -6721,6 +7290,7 @@
         "index": {
           "description": "rule that performs vote for rule on all players The provided function is used to count the votes it will be called when every players has voted or when the time limit is reached",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "voteWithTimeLimit",
           "normalized": "([(PlayerNumber,ForAgainst)]-\u003eBool)-\u003eUTCTime-\u003eRuleFunc",
@@ -6737,6 +7307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable writing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "writeVar",
           "package": "Nomyx-Rules",
@@ -6747,6 +7318,7 @@
         "index": {
           "description": "variable writing",
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "writeVar",
           "normalized": "V a-\u003ea-\u003eExp Bool",
@@ -6762,6 +7334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Rule",
           "name": "writeVar_",
           "package": "Nomyx-Rules",
@@ -6771,6 +7344,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Rule",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Rule",
           "name": "writeVar_",
           "normalized": "V a-\u003ea-\u003eExp()",
@@ -6786,6 +7360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "Test",
           "package": "Nomyx-Rules",
@@ -6794,6 +7369,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "Test",
           "package": "Nomyx-Rules",
@@ -6807,6 +7383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "Choice",
           "package": "Nomyx-Rules",
@@ -6815,6 +7392,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "Choice",
           "package": "Nomyx-Rules",
@@ -6828,6 +7406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "Choice2",
           "package": "Nomyx-Rules",
@@ -6836,6 +7415,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "Choice2",
           "package": "Nomyx-Rules",
@@ -6849,6 +7429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "Holland",
           "package": "Nomyx-Rules",
@@ -6858,6 +7439,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "Holland",
           "package": "Nomyx-Rules",
@@ -6871,6 +7453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "Me",
           "package": "Nomyx-Rules",
@@ -6880,6 +7463,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "Me",
           "package": "Nomyx-Rules",
@@ -6893,6 +7477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "Sarkozy",
           "package": "Nomyx-Rules",
@@ -6902,6 +7487,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "Sarkozy",
           "package": "Nomyx-Rules",
@@ -6915,6 +7501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "You",
           "package": "Nomyx-Rules",
@@ -6924,6 +7511,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "You",
           "package": "Nomyx-Rules",
@@ -6937,6 +7525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "allTests",
           "package": "Nomyx-Rules",
@@ -6946,6 +7535,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "allTests",
           "package": "Nomyx-Rules",
@@ -6959,6 +7549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "applicationMetaRuleRule",
           "package": "Nomyx-Rules",
@@ -6968,6 +7559,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "applicationMetaRuleRule",
           "package": "Nomyx-Rules",
@@ -6981,6 +7573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "date1",
           "package": "Nomyx-Rules",
@@ -6990,6 +7583,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "date1",
           "package": "Nomyx-Rules",
@@ -7002,6 +7596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "date2",
           "package": "Nomyx-Rules",
@@ -7011,6 +7606,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "date2",
           "package": "Nomyx-Rules",
@@ -7023,6 +7619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "evalRuleFunc",
           "package": "Nomyx-Rules",
@@ -7032,6 +7629,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "evalRuleFunc",
           "normalized": "RuleFunc-\u003e()",
@@ -7047,6 +7645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "execRuleFunc",
           "package": "Nomyx-Rules",
@@ -7056,6 +7655,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "execRuleFunc",
           "normalized": "RuleFunc-\u003eGame",
@@ -7071,6 +7671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "execRuleFuncEvent",
           "package": "Nomyx-Rules",
@@ -7080,6 +7681,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "execRuleFuncEvent",
           "normalized": "RuleFunc-\u003eEvent a-\u003eEventData a-\u003eGame",
@@ -7095,6 +7697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "execRuleFuncEventGame",
           "package": "Nomyx-Rules",
@@ -7104,6 +7707,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "execRuleFuncEventGame",
           "normalized": "RuleFunc-\u003eEvent a-\u003eEventData a-\u003eGame-\u003eGame",
@@ -7119,6 +7723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "execRuleFuncGame",
           "package": "Nomyx-Rules",
@@ -7128,6 +7733,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "execRuleFuncGame",
           "normalized": "RuleFunc-\u003eGame-\u003eGame",
@@ -7143,6 +7749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "gameTimedUnanimity",
           "package": "Nomyx-Rules",
@@ -7152,6 +7759,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "gameTimedUnanimity",
           "package": "Nomyx-Rules",
@@ -7165,6 +7773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "gameUnanimity",
           "package": "Nomyx-Rules",
@@ -7174,6 +7783,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "gameUnanimity",
           "package": "Nomyx-Rules",
@@ -7187,6 +7797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testActivateRule",
           "package": "Nomyx-Rules",
@@ -7196,6 +7807,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testActivateRule",
           "package": "Nomyx-Rules",
@@ -7209,6 +7821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testActivateRuleEx",
           "package": "Nomyx-Rules",
@@ -7218,6 +7831,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testActivateRuleEx",
           "package": "Nomyx-Rules",
@@ -7231,6 +7845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testAutoActivateEx",
           "package": "Nomyx-Rules",
@@ -7240,6 +7855,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testAutoActivateEx",
           "package": "Nomyx-Rules",
@@ -7253,6 +7869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testGame",
           "package": "Nomyx-Rules",
@@ -7262,6 +7879,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testGame",
           "package": "Nomyx-Rules",
@@ -7275,6 +7893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testInputString",
           "package": "Nomyx-Rules",
@@ -7284,6 +7903,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testInputString",
           "package": "Nomyx-Rules",
@@ -7297,6 +7917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testInputStringEx",
           "package": "Nomyx-Rules",
@@ -7306,6 +7927,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testInputStringEx",
           "package": "Nomyx-Rules",
@@ -7319,6 +7941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testRule",
           "package": "Nomyx-Rules",
@@ -7328,6 +7951,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testRule",
           "package": "Nomyx-Rules",
@@ -7341,6 +7965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testSendMessage",
           "package": "Nomyx-Rules",
@@ -7350,6 +7975,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testSendMessage",
           "package": "Nomyx-Rules",
@@ -7363,6 +7989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testSendMessage2",
           "package": "Nomyx-Rules",
@@ -7372,6 +7999,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testSendMessage2",
           "package": "Nomyx-Rules",
@@ -7385,6 +8013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testSendMessageEx",
           "package": "Nomyx-Rules",
@@ -7394,6 +8023,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testSendMessageEx",
           "package": "Nomyx-Rules",
@@ -7407,6 +8037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testSendMessageEx2",
           "package": "Nomyx-Rules",
@@ -7416,6 +8047,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testSendMessageEx2",
           "package": "Nomyx-Rules",
@@ -7429,6 +8061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testSingleInput",
           "package": "Nomyx-Rules",
@@ -7438,6 +8071,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testSingleInput",
           "package": "Nomyx-Rules",
@@ -7451,6 +8085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testSingleInputEx",
           "package": "Nomyx-Rules",
@@ -7460,6 +8095,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testSingleInputEx",
           "package": "Nomyx-Rules",
@@ -7473,6 +8109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testTimeEvent",
           "package": "Nomyx-Rules",
@@ -7482,6 +8119,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testTimeEvent",
           "package": "Nomyx-Rules",
@@ -7495,6 +8133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testTimeEvent2",
           "package": "Nomyx-Rules",
@@ -7504,6 +8143,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testTimeEvent2",
           "normalized": "Exp()",
@@ -7519,6 +8159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testTimeEventEx",
           "package": "Nomyx-Rules",
@@ -7528,6 +8169,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testTimeEventEx",
           "package": "Nomyx-Rules",
@@ -7541,6 +8183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testTimeEventEx2",
           "package": "Nomyx-Rules",
@@ -7550,6 +8193,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testTimeEventEx2",
           "package": "Nomyx-Rules",
@@ -7563,6 +8207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testTimedUnanimityVote",
           "package": "Nomyx-Rules",
@@ -7572,6 +8217,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testTimedUnanimityVote",
           "package": "Nomyx-Rules",
@@ -7585,6 +8231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testTimedUnanimityVoteEx",
           "package": "Nomyx-Rules",
@@ -7594,6 +8241,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testTimedUnanimityVoteEx",
           "package": "Nomyx-Rules",
@@ -7607,6 +8255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testUnanimityVote",
           "package": "Nomyx-Rules",
@@ -7616,6 +8265,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testUnanimityVote",
           "package": "Nomyx-Rules",
@@ -7629,6 +8279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testUnanimityVoteEx",
           "package": "Nomyx-Rules",
@@ -7638,6 +8289,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testUnanimityVoteEx",
           "package": "Nomyx-Rules",
@@ -7651,6 +8303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testUserInputWrite",
           "package": "Nomyx-Rules",
@@ -7660,6 +8313,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testUserInputWrite",
           "package": "Nomyx-Rules",
@@ -7673,6 +8327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testUserInputWriteEx",
           "package": "Nomyx-Rules",
@@ -7682,6 +8337,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testUserInputWriteEx",
           "package": "Nomyx-Rules",
@@ -7695,6 +8351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testVar1",
           "package": "Nomyx-Rules",
@@ -7704,6 +8361,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testVar1",
           "package": "Nomyx-Rules",
@@ -7717,6 +8375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testVar2",
           "package": "Nomyx-Rules",
@@ -7726,6 +8385,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testVar2",
           "package": "Nomyx-Rules",
@@ -7739,6 +8399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testVar3",
           "package": "Nomyx-Rules",
@@ -7748,6 +8409,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testVar3",
           "package": "Nomyx-Rules",
@@ -7761,6 +8423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testVar4",
           "package": "Nomyx-Rules",
@@ -7770,6 +8433,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testVar4",
           "package": "Nomyx-Rules",
@@ -7783,6 +8447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testVar5",
           "package": "Nomyx-Rules",
@@ -7792,6 +8457,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testVar5",
           "package": "Nomyx-Rules",
@@ -7805,6 +8471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testVarEx1",
           "package": "Nomyx-Rules",
@@ -7814,6 +8481,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testVarEx1",
           "package": "Nomyx-Rules",
@@ -7827,6 +8495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testVarEx2",
           "package": "Nomyx-Rules",
@@ -7836,6 +8505,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testVarEx2",
           "package": "Nomyx-Rules",
@@ -7849,6 +8519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testVarEx3",
           "package": "Nomyx-Rules",
@@ -7858,6 +8529,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testVarEx3",
           "package": "Nomyx-Rules",
@@ -7871,6 +8543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testVarEx4",
           "package": "Nomyx-Rules",
@@ -7880,6 +8553,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testVarEx4",
           "package": "Nomyx-Rules",
@@ -7893,6 +8567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "testVarEx5",
           "package": "Nomyx-Rules",
@@ -7902,6 +8577,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "testVarEx5",
           "package": "Nomyx-Rules",
@@ -7915,6 +8591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "tests",
           "package": "Nomyx-Rules",
@@ -7924,6 +8601,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "tests",
           "normalized": "[([Char],Bool)]",
@@ -7938,6 +8616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "timedUnanimityRule",
           "package": "Nomyx-Rules",
@@ -7947,6 +8626,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "timedUnanimityRule",
           "package": "Nomyx-Rules",
@@ -7960,6 +8640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Language.Nomyx.Test",
           "name": "unanimityRule",
           "package": "Nomyx-Rules",
@@ -7969,6 +8650,7 @@
         },
         "index": {
           "hierarchy": "Language Nomyx Test",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Language.Nomyx.Test",
           "name": "unanimityRule",
           "package": "Nomyx-Rules",
@@ -7982,6 +8664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Paths_Nomyx_Rules",
           "name": "Paths_Nomyx_Rules",
           "package": "Nomyx-Rules",
@@ -7990,6 +8673,7 @@
         },
         "index": {
           "hierarchy": "Paths_Nomyx_Rules",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Paths_Nomyx_Rules",
           "name": "Paths_Nomyx_Rules",
           "package": "Nomyx-Rules",
@@ -8003,6 +8687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Paths_Nomyx_Rules",
           "name": "getBinDir",
           "package": "Nomyx-Rules",
@@ -8012,6 +8697,7 @@
         },
         "index": {
           "hierarchy": "Paths_Nomyx_Rules",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Paths_Nomyx_Rules",
           "name": "getBinDir",
           "package": "Nomyx-Rules",
@@ -8025,6 +8711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Paths_Nomyx_Rules",
           "name": "getDataDir",
           "package": "Nomyx-Rules",
@@ -8034,6 +8721,7 @@
         },
         "index": {
           "hierarchy": "Paths_Nomyx_Rules",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Paths_Nomyx_Rules",
           "name": "getDataDir",
           "package": "Nomyx-Rules",
@@ -8047,6 +8735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Paths_Nomyx_Rules",
           "name": "getDataFileName",
           "package": "Nomyx-Rules",
@@ -8056,6 +8745,7 @@
         },
         "index": {
           "hierarchy": "Paths_Nomyx_Rules",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Paths_Nomyx_Rules",
           "name": "getDataFileName",
           "normalized": "FilePath-\u003eIO FilePath",
@@ -8071,6 +8761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Paths_Nomyx_Rules",
           "name": "getLibDir",
           "package": "Nomyx-Rules",
@@ -8080,6 +8771,7 @@
         },
         "index": {
           "hierarchy": "Paths_Nomyx_Rules",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Paths_Nomyx_Rules",
           "name": "getLibDir",
           "package": "Nomyx-Rules",
@@ -8093,6 +8785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Paths_Nomyx_Rules",
           "name": "getLibexecDir",
           "package": "Nomyx-Rules",
@@ -8102,6 +8795,7 @@
         },
         "index": {
           "hierarchy": "Paths_Nomyx_Rules",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Paths_Nomyx_Rules",
           "name": "getLibexecDir",
           "package": "Nomyx-Rules",
@@ -8115,6 +8809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:27 UTC 2014",
           "module": "Paths_Nomyx_Rules",
           "name": "version",
           "package": "Nomyx-Rules",
@@ -8124,6 +8819,7 @@
         },
         "index": {
           "hierarchy": "Paths_Nomyx_Rules",
+          "indexed": "2014-03-11T16:54:27",
           "module": "Paths_Nomyx_Rules",
           "name": "version",
           "package": "Nomyx-Rules",

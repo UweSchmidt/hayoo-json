@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hgl-example"
+        "phrase": "hgl-example",
+        "type": "phrase"
       },
       "type": "context"
     }

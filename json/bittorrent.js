@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bittorrent"
+        "phrase": "bittorrent",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBlocks are used to transfer pieces.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Block",
           "name": "Block",
           "package": "bittorrent",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Blocks are used to transfer pieces",
           "hierarchy": "Data Torrent Block",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Block",
           "name": "Block",
           "package": "bittorrent",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Block",
           "name": "Block",
           "package": "bittorrent",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Block",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Block",
           "name": "Block",
           "package": "bittorrent",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of block in a piece of a torrent. Used to distinguish\n block count from piece count.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Block",
           "name": "BlockCount",
           "package": "bittorrent",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Number of block in piece of torrent Used to distinguish block count from piece count",
           "hierarchy": "Data Torrent Block",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Block",
           "name": "BlockCount",
           "package": "bittorrent",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlockIx correspond.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Block",
           "name": "BlockIx",
           "package": "bittorrent",
@@ -95,6 +102,7 @@
         "index": {
           "description": "BlockIx correspond",
           "hierarchy": "Data Torrent Block",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Block",
           "name": "BlockIx",
           "package": "bittorrent",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOffset of a block in a piece in bytes. Should be multiple of\n the choosen block size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Block",
           "name": "BlockOffset",
           "package": "bittorrent",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Offset of block in piece in bytes Should be multiple of the choosen block size",
           "hierarchy": "Data Torrent Block",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Block",
           "name": "BlockOffset",
           "package": "bittorrent",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of a block in bytes. Should be power of 2.\n\u003c/p\u003e\u003cp\u003eNormally block size is equal to \u003ccode\u003e\u003ca\u003edefaultTransferSize\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Block",
           "name": "BlockSize",
           "package": "bittorrent",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Size of block in bytes Should be power of Normally block size is equal to defaultTransferSize",
           "hierarchy": "Data Torrent Block",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Block",
           "name": "BlockSize",
           "package": "bittorrent",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero-based index of piece in torrent content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Block",
           "name": "PieceIx",
           "package": "bittorrent",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Zero-based index of piece in torrent content",
           "hierarchy": "Data Torrent Block",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Block",
           "name": "PieceIx",
           "package": "bittorrent",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of piece in bytes. Should be a power of 2.\n\u003c/p\u003e\u003cp\u003eNOTE: Have max and min size constrained to wide used\n   semi-standard values. This bounds should be used to make decision\n   about piece size for new torrents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Block",
           "name": "PieceSize",
           "package": "bittorrent",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Size of piece in bytes Should be power of NOTE Have max and min size constrained to wide used semi-standard values This bounds should be used to make decision about piece size for new torrents",
           "hierarchy": "Data Torrent Block",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Block",
           "name": "PieceSize",
           "package": "bittorrent",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Block",
           "name": "Block",
           "package": "bittorrent",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Block",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Block",
           "name": "Block",
           "package": "bittorrent",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Block",
           "name": "BlockIx",
           "package": "bittorrent",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Block",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Block",
           "name": "BlockIx",
           "package": "bittorrent",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePayload bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Block",
           "name": "blkData",
           "package": "bittorrent",
@@ -255,6 +276,7 @@
         "index": {
           "description": "Payload bytes",
           "hierarchy": "Data Torrent Block",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Block",
           "name": "blkData",
           "package": "bittorrent",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero-based byte offset within the piece.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Block",
           "name": "blkOffset",
           "package": "bittorrent",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Zero-based byte offset within the piece",
           "hierarchy": "Data Torrent Block",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Block",
           "name": "blkOffset",
           "package": "bittorrent",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero-based piece index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Block",
           "name": "blkPiece",
           "package": "bittorrent",
@@ -303,6 +328,7 @@
         "index": {
           "description": "Zero-based piece index",
           "hierarchy": "Data Torrent Block",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Block",
           "name": "blkPiece",
           "package": "bittorrent",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet block index of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Block",
           "name": "blockIx",
           "package": "bittorrent",
@@ -327,6 +354,7 @@
         "index": {
           "description": "Get block index of block",
           "hierarchy": "Data Torrent Block",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Block",
           "name": "blockIx",
           "normalized": "Block Lazy.ByteString-\u003eBlockIx",
@@ -343,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet location of payload bytes in the torrent content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Block",
           "name": "blockIxRange",
           "package": "bittorrent",
@@ -353,6 +382,7 @@
         "index": {
           "description": "Get location of payload bytes in the torrent content",
           "hierarchy": "Data Torrent Block",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Block",
           "name": "blockIxRange",
           "normalized": "PieceSize-\u003eBlockIx-\u003e(a,a)",
@@ -369,6 +399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet location of payload bytes in the torrent content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Block",
           "name": "blockRange",
           "package": "bittorrent",
@@ -379,6 +410,7 @@
         "index": {
           "description": "Get location of payload bytes in the torrent content",
           "hierarchy": "Data Torrent Block",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Block",
           "name": "blockRange",
           "normalized": "PieceSize-\u003eBlock Lazy.ByteString-\u003e(a,a)",
@@ -395,6 +427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet size of block \u003cem\u003epayload\u003c/em\u003e in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Block",
           "name": "blockSize",
           "package": "bittorrent",
@@ -405,6 +438,7 @@
         "index": {
           "description": "Get size of block payload in bytes",
           "hierarchy": "Data Torrent Block",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Block",
           "name": "blockSize",
           "normalized": "Block Lazy.ByteString-\u003eBlockSize",
@@ -421,6 +455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidely used semi-official block size. Some clients can ignore if\n block size of BlockIx in Request message is not equal to this\n value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Block",
           "name": "defaultTransferSize",
           "package": "bittorrent",
@@ -431,6 +466,7 @@
         "index": {
           "description": "Widely used semi-official block size Some clients can ignore if block size of BlockIx in Request message is not equal to this value",
           "hierarchy": "Data Torrent Block",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Block",
           "name": "defaultTransferSize",
           "package": "bittorrent",
@@ -445,6 +481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlock size starting from offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Block",
           "name": "ixLength",
           "package": "bittorrent",
@@ -455,6 +492,7 @@
         "index": {
           "description": "Block size starting from offset",
           "hierarchy": "Data Torrent Block",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Block",
           "name": "ixLength",
           "package": "bittorrent",
@@ -469,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero-based byte offset within the piece.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Block",
           "name": "ixOffset",
           "package": "bittorrent",
@@ -479,6 +518,7 @@
         "index": {
           "description": "Zero-based byte offset within the piece",
           "hierarchy": "Data Torrent Block",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Block",
           "name": "ixOffset",
           "package": "bittorrent",
@@ -493,6 +533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero-based piece index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Block",
           "name": "ixPiece",
           "package": "bittorrent",
@@ -503,6 +544,7 @@
         "index": {
           "description": "Zero-based piece index",
           "hierarchy": "Data Torrent Block",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Block",
           "name": "ixPiece",
           "package": "bittorrent",
@@ -517,6 +559,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eClientInfo\u003c/a\u003e\u003c/code\u003e is used to identify the client implementation and\n   version which also contained in \u003ccode\u003ePeer\u003c/code\u003e. For exsample first 6\n   bytes of peer id of this this library are \u003ccode\u003e-HS0100-\u003c/code\u003e while for\n   mainline we have \u003ccode\u003eM4-3-6--\u003c/code\u003e.  We could extract this info and\n   print in human-friendly form: this is useful for debugging and\n   logging.\n\u003c/p\u003e\u003cp\u003eFor more information see:\n   \u003ca\u003ehttp://bittorrent.org/beps/bep_0020.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eNOTE: Do _not_ use this information to control client\n   capabilities (such as supported enchancements), this should be\n   done using \u003ccode\u003e\u003ca\u003eExtension\u003c/a\u003e\u003c/code\u003e!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "Client",
           "package": "bittorrent",
@@ -526,6 +569,7 @@
         "index": {
           "description": "ClientInfo is used to identify the client implementation and version which also contained in Peer For exsample first bytes of peer id of this this library are HS0100 while for mainline we have M4-3-6 We could extract this info and print in human-friendly form this is useful for debugging and logging For more information see http bittorrent.org beps bep html NOTE Do not use this information to control client capabilities such as supported enchancements this should be done using Extension",
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "Client",
           "package": "bittorrent",
@@ -540,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of registered client versions + IlibHSbittorrent (this\n package) + Unknown (for not recognized software). All names are\n prefixed by \u003ca\u003eI\u003c/a\u003e because some of them starts from lowercase letter\n but that is not a valid Haskell constructor name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "ClientImpl",
           "package": "bittorrent",
@@ -549,6 +594,7 @@
         "index": {
           "description": "List of registered client versions IlibHSbittorrent this package Unknown for not recognized software All names are prefixed by because some of them starts from lowercase letter but that is not valid Haskell constructor name",
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "ClientImpl",
           "package": "bittorrent",
@@ -563,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe all sensible infomation that can be obtained from a peer\n identifier or torrent \u003cem\u003ecreatedBy\u003c/em\u003e field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "ClientInfo",
           "package": "bittorrent",
@@ -572,6 +619,7 @@
         "index": {
           "description": "The all sensible infomation that can be obtained from peer identifier or torrent createdBy field",
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "ClientInfo",
           "package": "bittorrent",
@@ -585,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "ClientInfo",
           "package": "bittorrent",
@@ -594,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "ClientInfo",
           "package": "bittorrent",
@@ -607,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IABC",
           "package": "bittorrent",
@@ -616,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IABC",
           "package": "bittorrent",
@@ -629,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IArctic",
           "package": "bittorrent",
@@ -638,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IArctic",
           "package": "bittorrent",
@@ -651,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IAres",
           "package": "bittorrent",
@@ -660,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IAres",
           "package": "bittorrent",
@@ -673,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IAvicora",
           "package": "bittorrent",
@@ -682,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IAvicora",
           "package": "bittorrent",
@@ -695,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IAzureus",
           "package": "bittorrent",
@@ -704,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IAzureus",
           "package": "bittorrent",
@@ -717,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IBTG",
           "package": "bittorrent",
@@ -726,6 +787,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IBTG",
           "package": "bittorrent",
@@ -739,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IBTQueue",
           "package": "bittorrent",
@@ -748,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IBTQueue",
           "package": "bittorrent",
@@ -761,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IBTSlave",
           "package": "bittorrent",
@@ -770,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IBTSlave",
           "package": "bittorrent",
@@ -783,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IBitBuddy",
           "package": "bittorrent",
@@ -792,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IBitBuddy",
           "package": "bittorrent",
@@ -805,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IBitComet",
           "package": "bittorrent",
@@ -814,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IBitComet",
           "package": "bittorrent",
@@ -827,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IBitLet",
           "package": "bittorrent",
@@ -836,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IBitLet",
           "package": "bittorrent",
@@ -849,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IBitLord",
           "package": "bittorrent",
@@ -858,6 +931,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IBitLord",
           "package": "bittorrent",
@@ -871,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IBitPump",
           "package": "bittorrent",
@@ -880,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IBitPump",
           "package": "bittorrent",
@@ -893,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IBitRocket",
           "package": "bittorrent",
@@ -902,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IBitRocket",
           "package": "bittorrent",
@@ -915,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IBitTornado",
           "package": "bittorrent",
@@ -924,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IBitTornado",
           "package": "bittorrent",
@@ -937,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IBitflu",
           "package": "bittorrent",
@@ -946,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IBitflu",
           "package": "bittorrent",
@@ -959,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IBittorrentX",
           "package": "bittorrent",
@@ -968,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IBittorrentX",
           "package": "bittorrent",
@@ -981,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "ICTorrent",
           "package": "bittorrent",
@@ -990,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "ICTorrent",
           "package": "bittorrent",
@@ -1003,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IDelugeTorrent",
           "package": "bittorrent",
@@ -1012,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IDelugeTorrent",
           "package": "bittorrent",
@@ -1025,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IEBit",
           "package": "bittorrent",
@@ -1034,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IEBit",
           "package": "bittorrent",
@@ -1047,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IElectricSheep",
           "package": "bittorrent",
@@ -1056,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IElectricSheep",
           "package": "bittorrent",
@@ -1069,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IEnhancedCTorrent",
           "package": "bittorrent",
@@ -1078,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IEnhancedCTorrent",
           "package": "bittorrent",
@@ -1091,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IFireTorrent",
           "package": "bittorrent",
@@ -1100,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IFireTorrent",
           "package": "bittorrent",
@@ -1113,6 +1209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IFoxTorrent",
           "package": "bittorrent",
@@ -1122,6 +1219,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IFoxTorrent",
           "package": "bittorrent",
@@ -1135,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IGSTorrent",
           "package": "bittorrent",
@@ -1144,6 +1243,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IGSTorrent",
           "package": "bittorrent",
@@ -1157,6 +1257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IHalite",
           "package": "bittorrent",
@@ -1166,6 +1267,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IHalite",
           "package": "bittorrent",
@@ -1179,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IHydranode",
           "package": "bittorrent",
@@ -1188,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IHydranode",
           "package": "bittorrent",
@@ -1201,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IKGet",
           "package": "bittorrent",
@@ -1210,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IKGet",
           "package": "bittorrent",
@@ -1223,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IKTorrent",
           "package": "bittorrent",
@@ -1232,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IKTorrent",
           "package": "bittorrent",
@@ -1245,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "ILH_ABC",
           "package": "bittorrent",
@@ -1254,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "ILH_ABC",
           "package": "bittorrent",
@@ -1267,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "ILibTorrent",
           "package": "bittorrent",
@@ -1276,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "ILibTorrent",
           "package": "bittorrent",
@@ -1289,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "ILibtorrent",
           "package": "bittorrent",
@@ -1298,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "ILibtorrent",
           "package": "bittorrent",
@@ -1311,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "ILimeWire",
           "package": "bittorrent",
@@ -1320,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "ILimeWire",
           "package": "bittorrent",
@@ -1333,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "ILphant",
           "package": "bittorrent",
@@ -1342,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "ILphant",
           "package": "bittorrent",
@@ -1355,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IMLdonkey",
           "package": "bittorrent",
@@ -1364,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IMLdonkey",
           "package": "bittorrent",
@@ -1377,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IMainline",
           "package": "bittorrent",
@@ -1386,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IMainline",
           "package": "bittorrent",
@@ -1399,6 +1521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IMiro",
           "package": "bittorrent",
@@ -1408,6 +1531,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IMiro",
           "package": "bittorrent",
@@ -1421,6 +1545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IMonoTorrent",
           "package": "bittorrent",
@@ -1430,6 +1555,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IMonoTorrent",
           "package": "bittorrent",
@@ -1443,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IMooPolice",
           "package": "bittorrent",
@@ -1452,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IMooPolice",
           "package": "bittorrent",
@@ -1465,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IMoonlightTorrent",
           "package": "bittorrent",
@@ -1474,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IMoonlightTorrent",
           "package": "bittorrent",
@@ -1487,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "INetTransport",
           "package": "bittorrent",
@@ -1496,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "INetTransport",
           "package": "bittorrent",
@@ -1509,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IOpera",
           "package": "bittorrent",
@@ -1518,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IOpera",
           "package": "bittorrent",
@@ -1531,6 +1665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IOspreyPermaseed",
           "package": "bittorrent",
@@ -1540,6 +1675,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IOspreyPermaseed",
           "package": "bittorrent",
@@ -1553,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IPando",
           "package": "bittorrent",
@@ -1562,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IPando",
           "package": "bittorrent",
@@ -1575,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IPropagateDataClient",
           "package": "bittorrent",
@@ -1584,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IPropagateDataClient",
           "package": "bittorrent",
@@ -1597,6 +1737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IQQDownload",
           "package": "bittorrent",
@@ -1606,6 +1747,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IQQDownload",
           "package": "bittorrent",
@@ -1619,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IQt4TorrentExample",
           "package": "bittorrent",
@@ -1628,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IQt4TorrentExample",
           "package": "bittorrent",
@@ -1641,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IRetriever",
           "package": "bittorrent",
@@ -1650,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IRetriever",
           "package": "bittorrent",
@@ -1663,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IShadow",
           "package": "bittorrent",
@@ -1672,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IShadow",
           "package": "bittorrent",
@@ -1685,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IShareaza",
           "package": "bittorrent",
@@ -1694,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IShareaza",
           "package": "bittorrent",
@@ -1707,6 +1857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "ISwarmScope",
           "package": "bittorrent",
@@ -1716,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "ISwarmScope",
           "package": "bittorrent",
@@ -1729,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "ISwiftbit",
           "package": "bittorrent",
@@ -1738,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "ISwiftbit",
           "package": "bittorrent",
@@ -1751,6 +1905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "ISymTorrent",
           "package": "bittorrent",
@@ -1760,6 +1915,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "ISymTorrent",
           "package": "bittorrent",
@@ -1773,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "ITorrentDotNET",
           "package": "bittorrent",
@@ -1782,6 +1939,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "ITorrentDotNET",
           "package": "bittorrent",
@@ -1795,6 +1953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "ITorrentstorm",
           "package": "bittorrent",
@@ -1804,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "ITorrentstorm",
           "package": "bittorrent",
@@ -1817,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "ITransmission",
           "package": "bittorrent",
@@ -1826,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "ITransmission",
           "package": "bittorrent",
@@ -1839,6 +2001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "ITribler",
           "package": "bittorrent",
@@ -1848,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "ITribler",
           "package": "bittorrent",
@@ -1861,6 +2025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "ITuoTu",
           "package": "bittorrent",
@@ -1870,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "ITuoTu",
           "package": "bittorrent",
@@ -1883,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IUnknown",
           "package": "bittorrent",
@@ -1892,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IUnknown",
           "package": "bittorrent",
@@ -1905,6 +2073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IVagaa",
           "package": "bittorrent",
@@ -1914,6 +2083,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IVagaa",
           "package": "bittorrent",
@@ -1927,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IXanTorrent",
           "package": "bittorrent",
@@ -1936,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IXanTorrent",
           "package": "bittorrent",
@@ -1949,6 +2121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IXtorrent",
           "package": "bittorrent",
@@ -1958,6 +2131,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IXtorrent",
           "package": "bittorrent",
@@ -1971,6 +2145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IXunlei",
           "package": "bittorrent",
@@ -1980,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IXunlei",
           "package": "bittorrent",
@@ -1993,6 +2169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IZipTorrent",
           "package": "bittorrent",
@@ -2002,6 +2179,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IZipTorrent",
           "package": "bittorrent",
@@ -2015,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IlibHSbittorrent",
           "package": "bittorrent",
@@ -2024,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IlibHSbittorrent",
           "package": "bittorrent",
@@ -2037,6 +2217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IqBittorrent",
           "package": "bittorrent",
@@ -2046,6 +2227,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IqBittorrent",
           "package": "bittorrent",
@@ -2059,6 +2241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "Isharktorrent",
           "package": "bittorrent",
@@ -2068,6 +2251,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "Isharktorrent",
           "package": "bittorrent",
@@ -2081,6 +2265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IuLeecher",
           "package": "bittorrent",
@@ -2090,6 +2275,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IuLeecher",
           "package": "bittorrent",
@@ -2103,6 +2289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "IuTorrent",
           "package": "bittorrent",
@@ -2112,6 +2299,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "IuTorrent",
           "package": "bittorrent",
@@ -2125,6 +2313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "ciImpl",
           "package": "bittorrent",
@@ -2134,6 +2323,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "ciImpl",
           "package": "bittorrent",
@@ -2147,6 +2337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "ciVersion",
           "package": "bittorrent",
@@ -2156,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "ciVersion",
           "package": "bittorrent",
@@ -2170,6 +2362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClient info of this (the bittorrent library) package. Normally,\n applications should introduce its own idenitifiers, otherwise they\n can use \u003ccode\u003e\u003ca\u003elibClientInfo\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Client",
           "name": "libClientInfo",
           "package": "bittorrent",
@@ -2180,6 +2373,7 @@
         "index": {
           "description": "Client info of this the bittorrent library package Normally applications should introduce its own idenitifiers otherwise they can use libClientInfo value",
           "hierarchy": "Data Torrent Client",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Client",
           "name": "libClientInfo",
           "package": "bittorrent",
@@ -2194,6 +2388,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInfohash is a unique identifier of torrent.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.InfoHash",
           "name": "InfoHash",
           "package": "bittorrent",
@@ -2203,6 +2398,7 @@
         "index": {
           "description": "Infohash is unique identifier of torrent",
           "hierarchy": "Data Torrent InfoHash",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.InfoHash",
           "name": "InfoHash",
           "package": "bittorrent",
@@ -2217,6 +2413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExactly 20 bytes long SHA1 hash of the info part of torrent file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.InfoHash",
           "name": "InfoHash",
           "package": "bittorrent",
@@ -2226,6 +2423,7 @@
         "index": {
           "description": "Exactly bytes long SHA1 hash of the info part of torrent file",
           "hierarchy": "Data Torrent InfoHash",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.InfoHash",
           "name": "InfoHash",
           "package": "bittorrent",
@@ -2239,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.InfoHash",
           "name": "InfoHash",
           "package": "bittorrent",
@@ -2248,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent InfoHash",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.InfoHash",
           "name": "InfoHash",
           "package": "bittorrent",
@@ -2262,6 +2462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd query info hash parameter to uri.\n\u003c/p\u003e\u003cpre\u003e info_hash=\u003curl_encoded_info_hash\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.InfoHash",
           "name": "addHashToURI",
           "package": "bittorrent",
@@ -2272,6 +2473,7 @@
         "index": {
           "description": "Add query info hash parameter to uri info hash url encoded info hash",
           "hierarchy": "Data Torrent InfoHash",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.InfoHash",
           "name": "addHashToURI",
           "normalized": "URI-\u003eInfoHash-\u003eURI",
@@ -2287,6 +2489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.InfoHash",
           "name": "getInfoHash",
           "package": "bittorrent",
@@ -2296,6 +2499,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent InfoHash",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.InfoHash",
           "name": "getInfoHash",
           "package": "bittorrent",
@@ -2310,6 +2514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash strict bytestring using SHA1 algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.InfoHash",
           "name": "hash",
           "package": "bittorrent",
@@ -2320,6 +2525,7 @@
         "index": {
           "description": "Hash strict bytestring using SHA1 algorithm",
           "hierarchy": "Data Torrent InfoHash",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.InfoHash",
           "name": "hash",
           "normalized": "BS.ByteString-\u003eInfoHash",
@@ -2335,6 +2541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash lazy bytestring using SHA1 algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.InfoHash",
           "name": "hashlazy",
           "package": "bittorrent",
@@ -2345,6 +2552,7 @@
         "index": {
           "description": "Hash lazy bytestring using SHA1 algorithm",
           "hierarchy": "Data Torrent InfoHash",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.InfoHash",
           "name": "hashlazy",
           "normalized": "BL.ByteString-\u003eInfoHash",
@@ -2360,6 +2568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHex encode infohash to text, full length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.InfoHash",
           "name": "longHex",
           "package": "bittorrent",
@@ -2370,6 +2579,7 @@
         "index": {
           "description": "Hex encode infohash to text full length",
           "hierarchy": "Data Torrent InfoHash",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.InfoHash",
           "name": "longHex",
           "normalized": "InfoHash-\u003eText",
@@ -2386,6 +2596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003elongHex\u003c/a\u003e\u003c/code\u003e, but 7 character long.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.InfoHash",
           "name": "shortHex",
           "package": "bittorrent",
@@ -2396,6 +2607,7 @@
         "index": {
           "description": "The same as longHex but character long",
           "hierarchy": "Data Torrent InfoHash",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.InfoHash",
           "name": "shortHex",
           "normalized": "InfoHash-\u003eText",
@@ -2412,6 +2624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries both base16 and base32 while decoding info hash.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.InfoHash",
           "name": "textToInfoHash",
           "package": "bittorrent",
@@ -2422,6 +2635,7 @@
         "index": {
           "description": "Tries both base16 and base32 while decoding info hash",
           "hierarchy": "Data Torrent InfoHash",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.InfoHash",
           "name": "textToInfoHash",
           "normalized": "Text-\u003eMaybe InfoHash",
@@ -2438,6 +2652,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLayout of files in torrent.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "Layout",
           "package": "bittorrent",
@@ -2447,6 +2662,7 @@
         "index": {
           "description": "Layout of files in torrent",
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "Layout",
           "package": "bittorrent",
@@ -2461,6 +2677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContain metainfo about one single file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "FileInfo",
           "package": "bittorrent",
@@ -2470,6 +2687,7 @@
         "index": {
           "description": "Contain metainfo about one single file",
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "FileInfo",
           "package": "bittorrent",
@@ -2483,6 +2701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "FileOffset",
           "package": "bittorrent",
@@ -2490,6 +2709,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "FileOffset",
           "package": "bittorrent",
@@ -2504,6 +2724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of a file in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "FileSize",
           "package": "bittorrent",
@@ -2513,6 +2734,7 @@
         "index": {
           "description": "Size of file in bytes",
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "FileSize",
           "package": "bittorrent",
@@ -2527,6 +2749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile layout specifies the order and the size of each file in the\n   storage. Note that order of files is highly important since we\n   coalesce all the files in the given order to get the linear block\n   address space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "Layout",
           "package": "bittorrent",
@@ -2536,6 +2759,7 @@
         "index": {
           "description": "File layout specifies the order and the size of each file in the storage Note that order of files is highly important since we coalesce all the files in the given order to get the linear block address space",
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "Layout",
           "package": "bittorrent",
@@ -2550,6 +2774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOriginal (found in torrent file) layout info is either:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Single file with its \u003cem\u003ename\u003c/em\u003e.\n\u003c/li\u003e\u003cli\u003e Multiple files with its relative file \u003cem\u003epaths\u003c/em\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "LayoutInfo",
           "package": "bittorrent",
@@ -2559,6 +2784,7 @@
         "index": {
           "description": "Original found in torrent file layout info is either Single file with its name Multiple files with its relative file paths",
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "LayoutInfo",
           "package": "bittorrent",
@@ -2572,6 +2798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "FileInfo",
           "package": "bittorrent",
@@ -2581,6 +2808,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "FileInfo",
           "package": "bittorrent",
@@ -2594,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "MultiFile",
           "package": "bittorrent",
@@ -2603,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "MultiFile",
           "package": "bittorrent",
@@ -2616,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "SingleFile",
           "package": "bittorrent",
@@ -2625,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "SingleFile",
           "package": "bittorrent",
@@ -2639,6 +2871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate offset of each file based on its length, incrementally.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "accumOffsets",
           "package": "bittorrent",
@@ -2649,6 +2882,7 @@
         "index": {
           "description": "Calculate offset of each file based on its length incrementally",
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "accumOffsets",
           "normalized": "Layout FileSize-\u003eLayout FileOffset",
@@ -2665,6 +2899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind number of blocks of the specified size. If torrent size is\n not a multiple of block size then the count is rounded up.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "blockCount",
           "package": "bittorrent",
@@ -2675,6 +2910,7 @@
         "index": {
           "description": "Find number of blocks of the specified size If torrent size is not multiple of block size then the count is rounded up",
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "blockCount",
           "normalized": "BlockSize-\u003eLayoutInfo-\u003eInt",
@@ -2691,6 +2927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind sum of sizes of the all torrent files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "contentLength",
           "package": "bittorrent",
@@ -2701,6 +2938,7 @@
         "index": {
           "description": "Find sum of sizes of the all torrent files",
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "contentLength",
           "normalized": "LayoutInfo-\u003eFileSize",
@@ -2717,6 +2955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength of the file in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "fiLength",
           "package": "bittorrent",
@@ -2727,6 +2966,7 @@
         "index": {
           "description": "Length of the file in bytes",
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "fiLength",
           "package": "bittorrent",
@@ -2741,6 +2981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32 character long MD5 sum of the file.  Used by third-party\n tools, not by bittorrent protocol itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "fiMD5Sum",
           "package": "bittorrent",
@@ -2751,6 +2992,7 @@
         "index": {
           "description": "character long MD5 sum of the file Used by third-party tools not by bittorrent protocol itself",
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "fiMD5Sum",
           "package": "bittorrent",
@@ -2765,6 +3007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne or more string elements that together represent the\n path and filename. Each element in the list corresponds to\n either a directory name or (in the case of the last element)\n the filename.  For example, the file:\n\u003c/p\u003e\u003cpre\u003e \"dir1/dir2/file.ext\"\n\u003c/pre\u003e\u003cp\u003ewould consist of three string elements:\n\u003c/p\u003e\u003cpre\u003e [\"dir1\", \"dir2\", \"file.ext\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "fiName",
           "package": "bittorrent",
@@ -2775,6 +3018,7 @@
         "index": {
           "description": "One or more string elements that together represent the path and filename Each element in the list corresponds to either directory name or in the case of the last element the filename For example the file dir1 dir2 file.ext would consist of three string elements dir1 dir2 file.ext",
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "fiName",
           "package": "bittorrent",
@@ -2789,6 +3033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet number of all files in torrent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "fileCount",
           "package": "bittorrent",
@@ -2799,6 +3044,7 @@
         "index": {
           "description": "Get number of all files in torrent",
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "fileCount",
           "normalized": "LayoutInfo-\u003eInt",
@@ -2814,6 +3060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "fileLength",
           "package": "bittorrent",
@@ -2823,6 +3070,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "fileLength",
           "package": "bittorrent",
@@ -2836,6 +3084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "fileMD5Sum",
           "package": "bittorrent",
@@ -2845,6 +3094,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "fileMD5Sum",
           "package": "bittorrent",
@@ -2859,6 +3109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGives global offset of a content file for a given full path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "fileOffset",
           "package": "bittorrent",
@@ -2869,6 +3120,7 @@
         "index": {
           "description": "Gives global offset of content file for given full path",
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "fileOffset",
           "normalized": "FilePath-\u003eLayout FileOffset-\u003eMaybe FileOffset",
@@ -2884,6 +3136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "filePath",
           "package": "bittorrent",
@@ -2893,6 +3146,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "filePath",
           "package": "bittorrent",
@@ -2907,6 +3161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract files layout from torrent info with the given root path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "flatLayout",
           "package": "bittorrent",
@@ -2916,6 +3171,7 @@
         "index": {
           "description": "Extract files layout from torrent info with the given root path",
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "flatLayout",
           "normalized": "FilePath-\u003eLayoutInfo-\u003eLayout FileSize",
@@ -2931,6 +3187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "getLayoutInfo",
           "package": "bittorrent",
@@ -2940,6 +3197,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "getLayoutInfo",
           "package": "bittorrent",
@@ -2954,6 +3212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if this is multifile torrent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "isMultiFile",
           "package": "bittorrent",
@@ -2964,6 +3223,7 @@
         "index": {
           "description": "Test if this is multifile torrent",
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "isMultiFile",
           "normalized": "LayoutInfo-\u003eBool",
@@ -2980,6 +3240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if this is single file torrent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "isSingleFile",
           "package": "bittorrent",
@@ -2990,6 +3251,7 @@
         "index": {
           "description": "Test if this is single file torrent",
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "isSingleFile",
           "normalized": "LayoutInfo-\u003eBool",
@@ -3006,6 +3268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin file path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "joinFilePath",
           "package": "bittorrent",
@@ -3016,6 +3279,7 @@
         "index": {
           "description": "Join file path",
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "joinFilePath",
           "normalized": "FileInfo[BS.ByteString]-\u003eFileInfo BS.ByteString",
@@ -3032,6 +3296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003cem\u003esuggested\u003c/em\u003e name of the root directory in which to\n store all the files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "liDirName",
           "package": "bittorrent",
@@ -3042,6 +3307,7 @@
         "index": {
           "description": "The suggested name of the root directory in which to store all the files",
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "liDirName",
           "package": "bittorrent",
@@ -3056,6 +3322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle file info.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "liFile",
           "package": "bittorrent",
@@ -3066,6 +3333,7 @@
         "index": {
           "description": "Single file info",
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "liFile",
           "package": "bittorrent",
@@ -3080,6 +3348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of the all files that torrent contains.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "liFiles",
           "package": "bittorrent",
@@ -3090,6 +3359,7 @@
         "index": {
           "description": "List of the all files that torrent contains",
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "liFiles",
           "normalized": "[FileInfo[BS.ByteString]]",
@@ -3105,6 +3375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "multiFile",
           "package": "bittorrent",
@@ -3114,6 +3385,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "multiFile",
           "normalized": "Traversal' LayoutInfo[FileInfo[BS.ByteString]]",
@@ -3129,6 +3401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "putLayoutInfo",
           "package": "bittorrent",
@@ -3138,6 +3411,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "putLayoutInfo",
           "package": "bittorrent",
@@ -3151,6 +3425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "rootDirName",
           "package": "bittorrent",
@@ -3160,6 +3435,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "rootDirName",
           "package": "bittorrent",
@@ -3173,6 +3449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "singleFile",
           "package": "bittorrent",
@@ -3182,6 +3459,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "singleFile",
           "package": "bittorrent",
@@ -3196,6 +3474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet name of the torrent based on the root path piece.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Layout",
           "name": "suggestedName",
           "package": "bittorrent",
@@ -3206,6 +3485,7 @@
         "index": {
           "description": "Get name of the torrent based on the root path piece",
           "hierarchy": "Data Torrent Layout",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Layout",
           "name": "suggestedName",
           "normalized": "LayoutInfo-\u003eBS.ByteString",
@@ -3222,6 +3502,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing and rendering of magnet URIs.\n\u003c/p\u003e\u003cp\u003eFor more info see:\n   \u003ca\u003ehttp://magnet-uri.sourceforge.net/magnet-draft-overview.txt\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eBittorrent specific info:\n   \u003ca\u003ehttp://www.bittorrent.org/beps/bep_0009.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Magnet",
           "name": "Magnet",
           "package": "bittorrent",
@@ -3231,6 +3512,7 @@
         "index": {
           "description": "Parsing and rendering of magnet URIs For more info see http magnet-uri.sourceforge.net magnet-draft-overview.txt Bittorrent specific info http www.bittorrent.org beps bep html",
           "hierarchy": "Data Torrent Magnet",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Magnet",
           "name": "Magnet",
           "package": "bittorrent",
@@ -3245,6 +3527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn URI used to identify torrent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Magnet",
           "name": "Magnet",
           "package": "bittorrent",
@@ -3254,6 +3537,7 @@
         "index": {
           "description": "An URI used to identify torrent",
           "hierarchy": "Data Torrent Magnet",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Magnet",
           "name": "Magnet",
           "package": "bittorrent",
@@ -3267,6 +3551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Magnet",
           "name": "Magnet",
           "package": "bittorrent",
@@ -3276,6 +3561,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Magnet",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Magnet",
           "name": "Magnet",
           "package": "bittorrent",
@@ -3289,6 +3575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Magnet",
           "name": "acceptableSource",
           "package": "bittorrent",
@@ -3298,6 +3585,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Magnet",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Magnet",
           "name": "acceptableSource",
           "package": "bittorrent",
@@ -3312,6 +3600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003esimpleMagnet\u003c/a\u003e\u003c/code\u003e but also include exactLength (\u003ccode\u003exl\u003c/code\u003e param) and\n tracker (\u003ccode\u003etr\u003c/code\u003e param).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Magnet",
           "name": "detailedMagnet",
           "package": "bittorrent",
@@ -3322,6 +3611,7 @@
         "index": {
           "description": "Like simpleMagnet but also include exactLength xl param and tracker tr param",
           "hierarchy": "Data Torrent Magnet",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Magnet",
           "name": "detailedMagnet",
           "normalized": "Torrent-\u003eMagnet",
@@ -3338,6 +3628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMight be used to display name while waiting for metadata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Magnet",
           "name": "displayName",
           "package": "bittorrent",
@@ -3348,6 +3639,7 @@
         "index": {
           "description": "Might be used to display name while waiting for metadata",
           "hierarchy": "Data Torrent Magnet",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Magnet",
           "name": "displayName",
           "package": "bittorrent",
@@ -3362,6 +3654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of the resource in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Magnet",
           "name": "exactLength",
           "package": "bittorrent",
@@ -3372,6 +3665,7 @@
         "index": {
           "description": "Size of the resource in bytes",
           "hierarchy": "Data Torrent Magnet",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Magnet",
           "name": "exactLength",
           "package": "bittorrent",
@@ -3385,6 +3679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Magnet",
           "name": "exactSource",
           "package": "bittorrent",
@@ -3394,6 +3689,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Magnet",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Magnet",
           "name": "exactSource",
           "package": "bittorrent",
@@ -3408,6 +3704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResource hash.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Magnet",
           "name": "exactTopic",
           "package": "bittorrent",
@@ -3418,6 +3715,7 @@
         "index": {
           "description": "Resource hash",
           "hierarchy": "Data Torrent Magnet",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Magnet",
           "name": "exactTopic",
           "package": "bittorrent",
@@ -3432,6 +3730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003eparseMagnet\u003c/a\u003e\u003c/code\u003e but useful if you alread have a parsed\n uri.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Magnet",
           "name": "fromURI",
           "package": "bittorrent",
@@ -3442,6 +3741,7 @@
         "index": {
           "description": "The same as parseMagnet but useful if you alread have parsed uri",
           "hierarchy": "Data Torrent Magnet",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Magnet",
           "name": "fromURI",
           "normalized": "URI-\u003eEither String Magnet",
@@ -3458,6 +3758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Magnet",
           "name": "keywordTopic",
           "package": "bittorrent",
@@ -3468,6 +3769,7 @@
         "index": {
           "description": "Search string",
           "hierarchy": "Data Torrent Magnet",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Magnet",
           "name": "keywordTopic",
           "package": "bittorrent",
@@ -3481,6 +3783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Magnet",
           "name": "manifest",
           "package": "bittorrent",
@@ -3490,6 +3793,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Magnet",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Magnet",
           "name": "manifest",
           "package": "bittorrent",
@@ -3503,6 +3807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet exact topic only, other params are empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Magnet",
           "name": "nullMagnet",
           "package": "bittorrent",
@@ -3513,6 +3818,7 @@
         "index": {
           "description": "Set exact topic only other params are empty",
           "hierarchy": "Data Torrent Magnet",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Magnet",
           "name": "nullMagnet",
           "normalized": "InfoHash-\u003eMagnet",
@@ -3529,6 +3835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to parse magnet link from urlencoded string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Magnet",
           "name": "parseMagnet",
           "package": "bittorrent",
@@ -3539,6 +3846,7 @@
         "index": {
           "description": "Try to parse magnet link from urlencoded string",
           "hierarchy": "Data Torrent Magnet",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Magnet",
           "name": "parseMagnet",
           "normalized": "String-\u003eMaybe Magnet",
@@ -3555,6 +3863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender magnet link to urlencoded string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Magnet",
           "name": "renderMagnet",
           "package": "bittorrent",
@@ -3565,6 +3874,7 @@
         "index": {
           "description": "Render magnet link to urlencoded string",
           "hierarchy": "Data Torrent Magnet",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Magnet",
           "name": "renderMagnet",
           "normalized": "Magnet-\u003eString",
@@ -3581,6 +3891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple magnet link including infohash (\u003ccode\u003ext\u003c/code\u003e param) and display\n name (\u003ccode\u003edn\u003c/code\u003e param).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Magnet",
           "name": "simpleMagnet",
           "package": "bittorrent",
@@ -3591,6 +3902,7 @@
         "index": {
           "description": "simple magnet link including infohash xt param and display name dn param",
           "hierarchy": "Data Torrent Magnet",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Magnet",
           "name": "simpleMagnet",
           "normalized": "Torrent-\u003eMagnet",
@@ -3606,6 +3918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Magnet",
           "name": "supplement",
           "package": "bittorrent",
@@ -3615,6 +3928,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Magnet",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Magnet",
           "name": "supplement",
           "package": "bittorrent",
@@ -3628,6 +3942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003erenderMagnet\u003c/a\u003e\u003c/code\u003e but useful if you need an uri.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Magnet",
           "name": "toURI",
           "package": "bittorrent",
@@ -3638,6 +3953,7 @@
         "index": {
           "description": "The same as renderMagnet but useful if you need an uri",
           "hierarchy": "Data Torrent Magnet",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Magnet",
           "name": "toURI",
           "normalized": "Magnet-\u003eURI",
@@ -3653,6 +3969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Magnet",
           "name": "tracker",
           "package": "bittorrent",
@@ -3662,6 +3979,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Magnet",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Magnet",
           "name": "tracker",
           "package": "bittorrent",
@@ -3675,6 +3993,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePieces are used to validate torrent content.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "Piece",
           "package": "bittorrent",
@@ -3684,6 +4003,7 @@
         "index": {
           "description": "Pieces are used to validate torrent content",
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "Piece",
           "package": "bittorrent",
@@ -3698,6 +4018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA flat array of SHA1 sums of each piece.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "HashArray",
           "package": "bittorrent",
@@ -3707,6 +4028,7 @@
         "index": {
           "description": "flat array of SHA1 sums of each piece",
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "HashArray",
           "package": "bittorrent",
@@ -3721,6 +4043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePiece payload should be strict or lazy bytestring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "Piece",
           "package": "bittorrent",
@@ -3730,6 +4053,7 @@
         "index": {
           "description": "Piece payload should be strict or lazy bytestring",
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "Piece",
           "package": "bittorrent",
@@ -3744,6 +4068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of pieces in torrent or a part of torrent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "PieceCount",
           "package": "bittorrent",
@@ -3753,6 +4078,7 @@
         "index": {
           "description": "Number of pieces in torrent or part of torrent",
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "PieceCount",
           "package": "bittorrent",
@@ -3767,6 +4093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePart of torrent file used for torrent content validation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "PieceInfo",
           "package": "bittorrent",
@@ -3776,6 +4103,7 @@
         "index": {
           "description": "Part of torrent file used for torrent content validation",
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "PieceInfo",
           "package": "bittorrent",
@@ -3790,6 +4118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero-based index of piece in torrent content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "PieceIx",
           "package": "bittorrent",
@@ -3799,6 +4128,7 @@
         "index": {
           "description": "Zero-based index of piece in torrent content",
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "PieceIx",
           "package": "bittorrent",
@@ -3813,6 +4143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of piece in bytes. Should be a power of 2.\n\u003c/p\u003e\u003cp\u003eNOTE: Have max and min size constrained to wide used\n   semi-standard values. This bounds should be used to make decision\n   about piece size for new torrents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "PieceSize",
           "package": "bittorrent",
@@ -3822,6 +4153,7 @@
         "index": {
           "description": "Size of piece in bytes Should be power of NOTE Have max and min size constrained to wide used semi-standard values This bounds should be used to make decision about piece size for new torrents",
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "PieceSize",
           "package": "bittorrent",
@@ -3835,6 +4167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "HashArray",
           "package": "bittorrent",
@@ -3844,6 +4177,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "HashArray",
           "package": "bittorrent",
@@ -3857,6 +4191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "Piece",
           "package": "bittorrent",
@@ -3866,6 +4201,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "Piece",
           "package": "bittorrent",
@@ -3879,6 +4215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "PieceInfo",
           "package": "bittorrent",
@@ -3888,6 +4225,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "PieceInfo",
           "package": "bittorrent",
@@ -3902,6 +4240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValidate piece with metainfo hash.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "checkPieceLazy",
           "package": "bittorrent",
@@ -3912,6 +4251,7 @@
         "index": {
           "description": "Validate piece with metainfo hash",
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "checkPieceLazy",
           "normalized": "PieceInfo-\u003ePiece BL.ByteString-\u003eBool",
@@ -3928,6 +4268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the optimal piece size for a given torrent size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "defaultPieceSize",
           "package": "bittorrent",
@@ -3938,6 +4279,7 @@
         "index": {
           "description": "Find the optimal piece size for given torrent size",
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "defaultPieceSize",
           "normalized": "Int-\u003eInt",
@@ -3953,6 +4295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "getPieceInfo",
           "package": "bittorrent",
@@ -3962,6 +4305,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "getPieceInfo",
           "package": "bittorrent",
@@ -3976,6 +4320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a block can be safely turned into a piece.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "isPiece",
           "package": "bittorrent",
@@ -3986,6 +4331,7 @@
         "index": {
           "description": "Test if block can be safely turned into piece",
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "isPiece",
           "normalized": "PieceSize-\u003eBlock BL.ByteString-\u003eBool",
@@ -4002,6 +4348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo prevent transfer degradation piece size should not exceed this\n value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "maxPieceSize",
           "package": "bittorrent",
@@ -4012,6 +4359,7 @@
         "index": {
           "description": "To prevent transfer degradation piece size should not exceed this value",
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "maxPieceSize",
           "package": "bittorrent",
@@ -4026,6 +4374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePiece size should not be less than this value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "minPieceSize",
           "package": "bittorrent",
@@ -4036,6 +4385,7 @@
         "index": {
           "description": "Piece size should not be less than this value",
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "minPieceSize",
           "package": "bittorrent",
@@ -4050,6 +4400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenation of all 20-byte SHA1 hash values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "piPieceHashes",
           "package": "bittorrent",
@@ -4060,6 +4411,7 @@
         "index": {
           "description": "Concatenation of all byte SHA1 hash values",
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "piPieceHashes",
           "package": "bittorrent",
@@ -4074,6 +4426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of bytes in each piece.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "piPieceLength",
           "package": "bittorrent",
@@ -4084,6 +4437,7 @@
         "index": {
           "description": "Number of bytes in each piece",
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "piPieceLength",
           "package": "bittorrent",
@@ -4098,6 +4452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind count of pieces in the torrent. If torrent size is not a\n multiple of piece size then the count is rounded up.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "pieceCount",
           "package": "bittorrent",
@@ -4108,6 +4463,7 @@
         "index": {
           "description": "Find count of pieces in the torrent If torrent size is not multiple of piece size then the count is rounded up",
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "pieceCount",
           "normalized": "PieceInfo-\u003ePieceCount",
@@ -4124,6 +4480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePayload.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "pieceData",
           "package": "bittorrent",
@@ -4134,6 +4491,7 @@
         "index": {
           "description": "Payload",
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "pieceData",
           "package": "bittorrent",
@@ -4148,6 +4506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract validation hash by specified piece index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "pieceHash",
           "package": "bittorrent",
@@ -4158,6 +4517,7 @@
         "index": {
           "description": "Extract validation hash by specified piece index",
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "pieceHash",
           "normalized": "PieceInfo-\u003ePieceIx-\u003eBS.ByteString",
@@ -4174,6 +4534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenation of all 20-byte SHA1 hash values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "pieceHashes",
           "package": "bittorrent",
@@ -4184,6 +4545,7 @@
         "index": {
           "description": "Concatenation of all byte SHA1 hash values",
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "pieceHashes",
           "package": "bittorrent",
@@ -4198,6 +4560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero-based piece index in torrent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "pieceIndex",
           "package": "bittorrent",
@@ -4208,6 +4571,7 @@
         "index": {
           "description": "Zero-based piece index in torrent",
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "pieceIndex",
           "package": "bittorrent",
@@ -4222,6 +4586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of bytes in each piece.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "pieceLength",
           "package": "bittorrent",
@@ -4232,6 +4597,7 @@
         "index": {
           "description": "Number of bytes in each piece",
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "pieceLength",
           "package": "bittorrent",
@@ -4246,6 +4612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet size of piece in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "pieceSize",
           "package": "bittorrent",
@@ -4256,6 +4623,7 @@
         "index": {
           "description": "Get size of piece in bytes",
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "pieceSize",
           "normalized": "Piece BL.ByteString-\u003ePieceSize",
@@ -4271,6 +4639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "putPieceInfo",
           "package": "bittorrent",
@@ -4280,6 +4649,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "putPieceInfo",
           "normalized": "PieceInfo-\u003eBDict-\u003eBDict",
@@ -4295,6 +4665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Piece",
           "name": "unHashArray",
           "package": "bittorrent",
@@ -4304,6 +4675,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Piece",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Piece",
           "name": "unHashArray",
           "package": "bittorrent",
@@ -4318,6 +4690,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eProgress\u003c/a\u003e\u003c/code\u003e used to track amount downloaded/left/upload bytes\n   either on per client or per torrent basis. This value is used to\n   notify the tracker and usually shown to the user. To aggregate\n   total progress you can use the Monoid instance.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Progress",
           "name": "Progress",
           "package": "bittorrent",
@@ -4327,6 +4700,7 @@
         "index": {
           "description": "Progress used to track amount downloaded left upload bytes either on per client or per torrent basis This value is used to notify the tracker and usually shown to the user To aggregate total progress you can use the Monoid instance",
           "hierarchy": "Data Torrent Progress",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Progress",
           "name": "Progress",
           "package": "bittorrent",
@@ -4341,6 +4715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProgress data is considered as dynamic within one client\n session. This data also should be shared across client application\n sessions (e.g. files), otherwise use \u003ccode\u003e\u003ca\u003estartProgress\u003c/a\u003e\u003c/code\u003e to get initial\n \u003ccode\u003e\u003ca\u003eProgress\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Progress",
           "name": "Progress",
           "package": "bittorrent",
@@ -4350,6 +4725,7 @@
         "index": {
           "description": "Progress data is considered as dynamic within one client session This data also should be shared across client application sessions e.g files otherwise use startProgress to get initial Progress value",
           "hierarchy": "Data Torrent Progress",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Progress",
           "name": "Progress",
           "package": "bittorrent",
@@ -4363,6 +4739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Progress",
           "name": "Progress",
           "package": "bittorrent",
@@ -4372,6 +4749,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Progress",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Progress",
           "name": "Progress",
           "package": "bittorrent",
@@ -4386,6 +4764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTotal amount of bytes downloaded;\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Progress",
           "name": "_downloaded",
           "package": "bittorrent",
@@ -4396,6 +4775,7 @@
         "index": {
           "description": "Total amount of bytes downloaded",
           "hierarchy": "Data Torrent Progress",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Progress",
           "name": "_downloaded",
           "package": "bittorrent",
@@ -4409,6 +4789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTotal amount of bytes left;\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Progress",
           "name": "_left",
           "package": "bittorrent",
@@ -4419,6 +4800,7 @@
         "index": {
           "description": "Total amount of bytes left",
           "hierarchy": "Data Torrent Progress",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Progress",
           "name": "_left",
           "package": "bittorrent",
@@ -4432,6 +4814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTotal amount of bytes uploaded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Progress",
           "name": "_uploaded",
           "package": "bittorrent",
@@ -4442,6 +4825,7 @@
         "index": {
           "description": "Total amount of bytes uploaded",
           "hierarchy": "Data Torrent Progress",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Progress",
           "name": "_uploaded",
           "package": "bittorrent",
@@ -4455,6 +4839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck global \u003cem\u003edownload\u003c/em\u003e limit by uploaded / downloaded ratio.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Progress",
           "name": "canDownload",
           "package": "bittorrent",
@@ -4465,6 +4850,7 @@
         "index": {
           "description": "Check global download limit by uploaded downloaded ratio",
           "hierarchy": "Data Torrent Progress",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Progress",
           "name": "canDownload",
           "normalized": "Ratio Int-\u003eProgress-\u003eBool",
@@ -4481,6 +4867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck global \u003cem\u003eupload\u003c/em\u003e limit by downloaded / uploaded ratio.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Progress",
           "name": "canUpload",
           "package": "bittorrent",
@@ -4491,6 +4878,7 @@
         "index": {
           "description": "Check global upload limit by downloaded uploaded ratio",
           "hierarchy": "Data Torrent Progress",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Progress",
           "name": "canUpload",
           "normalized": "Ratio Int-\u003eProgress-\u003eBool",
@@ -4507,6 +4895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed when leecher leave client session.\n   (e.g. user deletes not completed torrent)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Progress",
           "name": "dequeuedProgress",
           "package": "bittorrent",
@@ -4517,6 +4906,7 @@
         "index": {
           "description": "Used when leecher leave client session e.g user deletes not completed torrent",
           "hierarchy": "Data Torrent Progress",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Progress",
           "name": "dequeuedProgress",
           "normalized": "Integer-\u003eProgress-\u003eProgress",
@@ -4532,6 +4922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Progress",
           "name": "downloaded",
           "package": "bittorrent",
@@ -4541,6 +4932,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Progress",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Progress",
           "name": "downloaded",
           "package": "bittorrent",
@@ -4554,6 +4946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed when the client download some data from \u003cem\u003eany\u003c/em\u003e peer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Progress",
           "name": "downloadedProgress",
           "package": "bittorrent",
@@ -4564,6 +4957,7 @@
         "index": {
           "description": "Used when the client download some data from any peer",
           "hierarchy": "Data Torrent Progress",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Progress",
           "name": "downloadedProgress",
           "normalized": "Int-\u003eProgress-\u003eProgress",
@@ -4580,6 +4974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed when leecher join client session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Progress",
           "name": "enqueuedProgress",
           "package": "bittorrent",
@@ -4590,6 +4985,7 @@
         "index": {
           "description": "Used when leecher join client session",
           "hierarchy": "Data Torrent Progress",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Progress",
           "name": "enqueuedProgress",
           "normalized": "Integer-\u003eProgress-\u003eProgress",
@@ -4605,6 +5001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Progress",
           "name": "left",
           "package": "bittorrent",
@@ -4614,6 +5011,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Progress",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Progress",
           "name": "left",
           "package": "bittorrent",
@@ -4627,6 +5025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitial progress is used when there are no session before.\n\u003c/p\u003e\u003cp\u003ePlease note that tracker might penalize client some way if the do\n not accumulate progress. If possible and save \u003ccode\u003e\u003ca\u003eProgress\u003c/a\u003e\u003c/code\u003e between\n client sessions to avoid that.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Progress",
           "name": "startProgress",
           "package": "bittorrent",
@@ -4637,6 +5036,7 @@
         "index": {
           "description": "Initial progress is used when there are no session before Please note that tracker might penalize client some way if the do not accumulate progress If possible and save Progress between client sessions to avoid that",
           "hierarchy": "Data Torrent Progress",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Progress",
           "name": "startProgress",
           "normalized": "Integer-\u003eProgress",
@@ -4652,6 +5052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Progress",
           "name": "uploaded",
           "package": "bittorrent",
@@ -4661,6 +5062,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Progress",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Progress",
           "name": "uploaded",
           "package": "bittorrent",
@@ -4674,6 +5076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed when the client upload some data to \u003cem\u003eany\u003c/em\u003e peer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Progress",
           "name": "uploadedProgress",
           "package": "bittorrent",
@@ -4684,6 +5087,7 @@
         "index": {
           "description": "Used when the client upload some data to any peer",
           "hierarchy": "Data Torrent Progress",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Progress",
           "name": "uploadedProgress",
           "normalized": "Int-\u003eProgress-\u003eProgress",
@@ -4700,6 +5104,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDirectory tree can be used to easily manipulate file layout info.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Tree",
           "name": "Tree",
           "package": "bittorrent",
@@ -4709,6 +5114,7 @@
         "index": {
           "description": "Directory tree can be used to easily manipulate file layout info",
           "hierarchy": "Data Torrent Tree",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Tree",
           "name": "Tree",
           "package": "bittorrent",
@@ -4723,6 +5129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDirTree\u003c/a\u003e\u003c/code\u003e is more convenient form of \u003ccode\u003e\u003ca\u003eLayoutInfo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Tree",
           "name": "DirTree",
           "package": "bittorrent",
@@ -4732,6 +5139,7 @@
         "index": {
           "description": "DirTree is more convenient form of LayoutInfo",
           "hierarchy": "Data Torrent Tree",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Tree",
           "name": "DirTree",
           "package": "bittorrent",
@@ -4745,6 +5153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Tree",
           "name": "Dir",
           "package": "bittorrent",
@@ -4754,6 +5163,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Tree",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Tree",
           "name": "Dir",
           "package": "bittorrent",
@@ -4767,6 +5177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Tree",
           "name": "File",
           "package": "bittorrent",
@@ -4776,6 +5187,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Tree",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Tree",
           "name": "File",
           "package": "bittorrent",
@@ -4790,6 +5202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild directory tree from a list of files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Tree",
           "name": "build",
           "package": "bittorrent",
@@ -4800,6 +5213,7 @@
         "index": {
           "description": "Build directory tree from list of files",
           "hierarchy": "Data Torrent Tree",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Tree",
           "name": "build",
           "normalized": "LayoutInfo-\u003eDirTree()",
@@ -4814,6 +5228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Tree",
           "name": "children",
           "package": "bittorrent",
@@ -4823,6 +5238,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Tree",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Tree",
           "name": "children",
           "package": "bittorrent",
@@ -4836,6 +5252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet total count of directories in the directory and subdirectories.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Tree",
           "name": "dirNumber",
           "package": "bittorrent",
@@ -4846,6 +5263,7 @@
         "index": {
           "description": "Get total count of directories in the directory and subdirectories",
           "hierarchy": "Data Torrent Tree",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Tree",
           "name": "dirNumber",
           "normalized": "DirTree a-\u003eSum Int",
@@ -4862,6 +5280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet total count of files in directory and subdirectories.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Tree",
           "name": "fileNumber",
           "package": "bittorrent",
@@ -4872,6 +5291,7 @@
         "index": {
           "description": "Get total count of files in directory and subdirectories",
           "hierarchy": "Data Torrent Tree",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Tree",
           "name": "fileNumber",
           "normalized": "DirTree a-\u003eSum Int",
@@ -4888,6 +5308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup file by path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Tree",
           "name": "lookup",
           "package": "bittorrent",
@@ -4898,6 +5319,7 @@
         "index": {
           "description": "Lookup file by path",
           "hierarchy": "Data Torrent Tree",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Tree",
           "name": "lookup",
           "normalized": "[FilePath]-\u003eDirTree a-\u003eMaybe(DirTree a)",
@@ -4913,6 +5335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup directory by path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Tree",
           "name": "lookupDir",
           "package": "bittorrent",
@@ -4923,6 +5346,7 @@
         "index": {
           "description": "Lookup directory by path",
           "hierarchy": "Data Torrent Tree",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Tree",
           "name": "lookupDir",
           "normalized": "[FilePath]-\u003eDirTree a-\u003eMaybe[(BS.ByteString,DirTree a)]",
@@ -4938,6 +5362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent.Tree",
           "name": "node",
           "package": "bittorrent",
@@ -4947,6 +5372,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent Tree",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent.Tree",
           "name": "node",
           "package": "bittorrent",
@@ -4960,6 +5386,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTorrent file contains metadata about files and folders but not\n   content itself. The files are bencoded dictionaries. There is\n   also other info which is used to help join the swarm.\n\u003c/p\u003e\u003cp\u003eThis module provides torrent metainfo serialization and info hash\n   extraction.\n\u003c/p\u003e\u003cp\u003eFor more info see:\n   \u003ca\u003ehttp://www.bittorrent.org/beps/bep_0003.html#metainfo-files\u003c/a\u003e,\n   \u003ca\u003ehttps://wiki.theory.org/BitTorrentSpecification#Metainfo_File_Structure\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "Torrent",
           "package": "bittorrent",
@@ -4969,6 +5396,7 @@
         "index": {
           "description": "Torrent file contains metadata about files and folders but not content itself The files are bencoded dictionaries There is also other info which is used to help join the swarm This module provides torrent metainfo serialization and info hash extraction For more info see http www.bittorrent.org beps bep html metainfo-files https wiki.theory.org BitTorrentSpecification Metainfo File Structure",
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "Torrent",
           "package": "bittorrent",
@@ -4983,6 +5411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfo part of the .torrent file contain info about each content file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "InfoDict",
           "package": "bittorrent",
@@ -4992,6 +5421,7 @@
         "index": {
           "description": "Info part of the torrent file contain info about each content file",
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "InfoDict",
           "package": "bittorrent",
@@ -5006,6 +5436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetainfo about particular torrent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "Torrent",
           "package": "bittorrent",
@@ -5015,6 +5446,7 @@
         "index": {
           "description": "Metainfo about particular torrent",
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "Torrent",
           "package": "bittorrent",
@@ -5028,6 +5460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "InfoDict",
           "package": "bittorrent",
@@ -5037,6 +5470,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "InfoDict",
           "package": "bittorrent",
@@ -5050,6 +5484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "Torrent",
           "package": "bittorrent",
@@ -5059,6 +5494,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "Torrent",
           "package": "bittorrent",
@@ -5072,6 +5508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "announce",
           "package": "bittorrent",
@@ -5081,6 +5518,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "announce",
           "package": "bittorrent",
@@ -5093,6 +5531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "announceList",
           "package": "bittorrent",
@@ -5102,6 +5541,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "announceList",
           "normalized": "Lens' Torrent(Maybe[[URI]])",
@@ -5117,6 +5557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "comment",
           "package": "bittorrent",
@@ -5126,6 +5567,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "comment",
           "package": "bittorrent",
@@ -5138,6 +5580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "createdBy",
           "package": "bittorrent",
@@ -5147,6 +5590,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "createdBy",
           "package": "bittorrent",
@@ -5160,6 +5604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "creationDate",
           "package": "bittorrent",
@@ -5169,6 +5614,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "creationDate",
           "package": "bittorrent",
@@ -5182,6 +5628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "encoding",
           "package": "bittorrent",
@@ -5191,6 +5638,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "encoding",
           "package": "bittorrent",
@@ -5204,6 +5652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead and decode a .torrent file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "fromFile",
           "package": "bittorrent",
@@ -5214,6 +5663,7 @@
         "index": {
           "description": "Read and decode torrent file",
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "fromFile",
           "normalized": "FilePath-\u003eIO Torrent",
@@ -5230,6 +5680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSHA1 hash of the (other) \u003ccode\u003eDictInfo\u003c/code\u003e fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "idInfoHash",
           "package": "bittorrent",
@@ -5240,6 +5691,7 @@
         "index": {
           "description": "SHA1 hash of the other DictInfo fields",
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "idInfoHash",
           "package": "bittorrent",
@@ -5253,6 +5705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "idLayoutInfo",
           "package": "bittorrent",
@@ -5262,6 +5715,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "idLayoutInfo",
           "package": "bittorrent",
@@ -5275,6 +5729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "idPieceInfo",
           "package": "bittorrent",
@@ -5284,6 +5739,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "idPieceInfo",
           "package": "bittorrent",
@@ -5298,6 +5754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf set the client MUST publish its presence to get other\n peers ONLY via the trackers explicity described in the\n metainfo file.\n\u003c/p\u003e\u003cp\u003eBEP 27: \u003ca\u003ehttp://www.bittorrent.org/beps/bep_0027.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "idPrivate",
           "package": "bittorrent",
@@ -5308,6 +5765,7 @@
         "index": {
           "description": "If set the client MUST publish its presence to get other peers ONLY via the trackers explicity described in the metainfo file BEP http www.bittorrent.org beps bep html",
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "idPrivate",
           "package": "bittorrent",
@@ -5321,6 +5779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "infoDict",
           "package": "bittorrent",
@@ -5330,6 +5789,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "infoDict",
           "package": "bittorrent",
@@ -5344,6 +5804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor: add a info hash to info dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "infoDictionary",
           "package": "bittorrent",
@@ -5354,6 +5815,7 @@
         "index": {
           "description": "Smart constructor add info hash to info dictionary",
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "infoDictionary",
           "normalized": "LayoutInfo-\u003ePieceInfo-\u003eBool-\u003eInfoDict",
@@ -5369,6 +5831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "infohash",
           "package": "bittorrent",
@@ -5378,6 +5841,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "infohash",
           "package": "bittorrent",
@@ -5390,6 +5854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "isPrivate",
           "package": "bittorrent",
@@ -5399,6 +5864,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "isPrivate",
           "package": "bittorrent",
@@ -5413,6 +5879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if this path has proper extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "isTorrentPath",
           "package": "bittorrent",
@@ -5423,6 +5890,7 @@
         "index": {
           "description": "Test if this path has proper extension",
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "isTorrentPath",
           "normalized": "FilePath-\u003eBool",
@@ -5438,6 +5906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "layoutInfo",
           "package": "bittorrent",
@@ -5447,6 +5916,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "layoutInfo",
           "package": "bittorrent",
@@ -5461,6 +5931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple torrent contains only required fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "nullTorrent",
           "package": "bittorrent",
@@ -5471,6 +5942,7 @@
         "index": {
           "description": "simple torrent contains only required fields",
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "nullTorrent",
           "normalized": "URI-\u003eInfoDict-\u003eTorrent",
@@ -5486,6 +5958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "pieceInfo",
           "package": "bittorrent",
@@ -5495,6 +5968,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "pieceInfo",
           "package": "bittorrent",
@@ -5508,6 +5982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "publisher",
           "package": "bittorrent",
@@ -5517,6 +5992,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "publisher",
           "package": "bittorrent",
@@ -5529,6 +6005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "publisherURL",
           "package": "bittorrent",
@@ -5538,6 +6015,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "publisherURL",
           "package": "bittorrent",
@@ -5551,6 +6029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "signature",
           "package": "bittorrent",
@@ -5560,6 +6039,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "signature",
           "package": "bittorrent",
@@ -5573,6 +6053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe URL of the tracker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "tAnnounce",
           "package": "bittorrent",
@@ -5583,6 +6064,7 @@
         "index": {
           "description": "The URL of the tracker",
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "tAnnounce",
           "package": "bittorrent",
@@ -5597,6 +6079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnounce list add multiple tracker support.\n\u003c/p\u003e\u003cp\u003eBEP 12: \u003ca\u003ehttp://www.bittorrent.org/beps/bep_0012.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "tAnnounceList",
           "package": "bittorrent",
@@ -5607,6 +6090,7 @@
         "index": {
           "description": "Announce list add multiple tracker support BEP http www.bittorrent.org beps bep html",
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "tAnnounceList",
           "normalized": "(Maybe[[URI]])",
@@ -5623,6 +6107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree-form comments of the author.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "tComment",
           "package": "bittorrent",
@@ -5633,6 +6118,7 @@
         "index": {
           "description": "Free-form comments of the author",
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "tComment",
           "package": "bittorrent",
@@ -5647,6 +6133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName and version of the program used to create the .torrent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "tCreatedBy",
           "package": "bittorrent",
@@ -5657,6 +6144,7 @@
         "index": {
           "description": "Name and version of the program used to create the torrent",
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "tCreatedBy",
           "package": "bittorrent",
@@ -5671,6 +6159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreation time of the torrent, in standard UNIX epoch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "tCreationDate",
           "package": "bittorrent",
@@ -5681,6 +6170,7 @@
         "index": {
           "description": "Creation time of the torrent in standard UNIX epoch",
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "tCreationDate",
           "package": "bittorrent",
@@ -5695,6 +6185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString encoding format used to generate the pieces part of\n   the info dictionary in the .torrent metafile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "tEncoding",
           "package": "bittorrent",
@@ -5705,6 +6196,7 @@
         "index": {
           "description": "String encoding format used to generate the pieces part of the info dictionary in the torrent metafile",
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "tEncoding",
           "package": "bittorrent",
@@ -5719,6 +6211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfo about each content file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "tInfoDict",
           "package": "bittorrent",
@@ -5729,6 +6222,7 @@
         "index": {
           "description": "Info about each content file",
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "tInfoDict",
           "package": "bittorrent",
@@ -5743,6 +6237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContaining the RSA public key of the publisher of the\n torrent.  Private counterpart of this key that has the\n authority to allow new peers onto the swarm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "tPublisher",
           "package": "bittorrent",
@@ -5753,6 +6248,7 @@
         "index": {
           "description": "Containing the RSA public key of the publisher of the torrent Private counterpart of this key that has the authority to allow new peers onto the swarm",
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "tPublisher",
           "package": "bittorrent",
@@ -5766,6 +6262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "tPublisherURL",
           "package": "bittorrent",
@@ -5775,6 +6272,7 @@
         },
         "index": {
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "tPublisherURL",
           "package": "bittorrent",
@@ -5789,6 +6287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe RSA signature of the info dictionary (specifically, the\n   encrypted SHA-1 hash of the info dictionary).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "tSignature",
           "package": "bittorrent",
@@ -5799,6 +6298,7 @@
         "index": {
           "description": "The RSA signature of the info dictionary specifically the encrypted SHA-1 hash of the info dictionary",
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "tSignature",
           "package": "bittorrent",
@@ -5813,6 +6313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode and write a .torrent file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "toFile",
           "package": "bittorrent",
@@ -5823,6 +6324,7 @@
         "index": {
           "description": "Encode and write torrent file",
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "toFile",
           "normalized": "FilePath-\u003eTorrent-\u003eIO()",
@@ -5839,6 +6341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtension usually used for torrent files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "torrentExt",
           "package": "bittorrent",
@@ -5849,6 +6352,7 @@
         "index": {
           "description": "Extension usually used for torrent files",
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "torrentExt",
           "package": "bittorrent",
@@ -5863,6 +6367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMime type of torrent files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Data.Torrent",
           "name": "typeTorrent",
           "package": "bittorrent",
@@ -5873,6 +6378,7 @@
         "index": {
           "description": "Mime type of torrent files",
           "hierarchy": "Data Torrent",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Data.Torrent",
           "name": "typeTorrent",
           "package": "bittorrent",
@@ -5887,6 +6393,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ePeerAddr\u003c/a\u003e\u003c/code\u003e is used to represent peer address. Currently it's\n   just peer IP and peer port but this might change in future.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Network.BitTorrent.Core.PeerAddr",
           "name": "PeerAddr",
           "package": "bittorrent",
@@ -5896,6 +6403,7 @@
         "index": {
           "description": "PeerAddr is used to represent peer address Currently it just peer IP and peer port but this might change in future",
           "hierarchy": "Network BitTorrent Core PeerAddr",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Network.BitTorrent.Core.PeerAddr",
           "name": "PeerAddr",
           "package": "bittorrent",
@@ -5910,6 +6418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePeer address info normally extracted from peer list or peer\n compact list encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Network.BitTorrent.Core.PeerAddr",
           "name": "PeerAddr",
           "package": "bittorrent",
@@ -5919,6 +6428,7 @@
         "index": {
           "description": "Peer address info normally extracted from peer list or peer compact list encoding",
           "hierarchy": "Network BitTorrent Core PeerAddr",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Network.BitTorrent.Core.PeerAddr",
           "name": "PeerAddr",
           "package": "bittorrent",
@@ -5932,6 +6442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Network.BitTorrent.Core.PeerAddr",
           "name": "PeerAddr",
           "package": "bittorrent",
@@ -5941,6 +6452,7 @@
         },
         "index": {
           "hierarchy": "Network BitTorrent Core PeerAddr",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Network.BitTorrent.Core.PeerAddr",
           "name": "PeerAddr",
           "package": "bittorrent",
@@ -5955,6 +6467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to connect to peer using reasonable default parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Network.BitTorrent.Core.PeerAddr",
           "name": "connectToPeer",
           "package": "bittorrent",
@@ -5965,6 +6478,7 @@
         "index": {
           "description": "Tries to connect to peer using reasonable default parameters",
           "hierarchy": "Network BitTorrent Core PeerAddr",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Network.BitTorrent.Core.PeerAddr",
           "name": "connectToPeer",
           "normalized": "PeerAddr-\u003eIO Socket",
@@ -5981,6 +6495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePorts typically reserved for bittorrent P2P listener.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Network.BitTorrent.Core.PeerAddr",
           "name": "defaultPorts",
           "package": "bittorrent",
@@ -5991,6 +6506,7 @@
         "index": {
           "description": "Ports typically reserved for bittorrent P2P listener",
           "hierarchy": "Network BitTorrent Core PeerAddr",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Network.BitTorrent.Core.PeerAddr",
           "name": "defaultPorts",
           "normalized": "[PortNumber]",
@@ -6006,6 +6522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Network.BitTorrent.Core.PeerAddr",
           "name": "peerID",
           "package": "bittorrent",
@@ -6015,6 +6532,7 @@
         },
         "index": {
           "hierarchy": "Network BitTorrent Core PeerAddr",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Network.BitTorrent.Core.PeerAddr",
           "name": "peerID",
           "package": "bittorrent",
@@ -6028,6 +6546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Network.BitTorrent.Core.PeerAddr",
           "name": "peerIP",
           "package": "bittorrent",
@@ -6037,6 +6556,7 @@
         },
         "index": {
           "hierarchy": "Network BitTorrent Core PeerAddr",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Network.BitTorrent.Core.PeerAddr",
           "name": "peerIP",
           "package": "bittorrent",
@@ -6050,6 +6570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Network.BitTorrent.Core.PeerAddr",
           "name": "peerPort",
           "package": "bittorrent",
@@ -6059,6 +6580,7 @@
         },
         "index": {
           "hierarchy": "Network BitTorrent Core PeerAddr",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Network.BitTorrent.Core.PeerAddr",
           "name": "peerPort",
           "package": "bittorrent",
@@ -6073,6 +6595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert peer info from tracker response to socket address.  Used\n   for establish connection between peers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Network.BitTorrent.Core.PeerAddr",
           "name": "peerSockAddr",
           "package": "bittorrent",
@@ -6083,6 +6606,7 @@
         "index": {
           "description": "Convert peer info from tracker response to socket address Used for establish connection between peers",
           "hierarchy": "Network BitTorrent Core PeerAddr",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Network.BitTorrent.Core.PeerAddr",
           "name": "peerSockAddr",
           "normalized": "PeerAddr-\u003eSockAddr",
@@ -6099,6 +6623,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003ePeerID\u003c/code\u003e represent self assigned peer identificator. Ideally each\n  host in the network should have unique peer id to avoid\n  collisions, therefore for peer ID generation we use good entropy\n  source. (FIX not really) Peer ID is sent in \u003cem\u003etracker request\u003c/em\u003e,\n  sent and received in \u003cem\u003epeer handshakes\u003c/em\u003e and used in /distributed\n  hash table/ queries.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Network.BitTorrent.Core.PeerId",
           "name": "PeerId",
           "package": "bittorrent",
@@ -6108,6 +6633,7 @@
         "index": {
           "description": "PeerID represent self assigned peer identificator Ideally each host in the network should have unique peer id to avoid collisions therefore for peer ID generation we use good entropy source FIX not really Peer ID is sent in tracker request sent and received in peer handshakes and used in distributed hash table queries",
           "hierarchy": "Network BitTorrent Core PeerId",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Network.BitTorrent.Core.PeerId",
           "name": "PeerId",
           "package": "bittorrent",
@@ -6122,6 +6648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePeer identifier is exactly 20 bytes long bytestring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Network.BitTorrent.Core.PeerId",
           "name": "PeerId",
           "package": "bittorrent",
@@ -6131,6 +6658,7 @@
         "index": {
           "description": "Peer identifier is exactly bytes long bytestring",
           "hierarchy": "Network BitTorrent Core PeerId",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Network.BitTorrent.Core.PeerId",
           "name": "PeerId",
           "package": "bittorrent",
@@ -6145,6 +6673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAzureus-style encoding have the following layout:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 1  byte : \u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e 2  bytes: client id\n\u003c/li\u003e\u003cli\u003e 4  bytes: version number\n\u003c/li\u003e\u003cli\u003e 1  byte : \u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e 12 bytes: random number\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Network.BitTorrent.Core.PeerId",
           "name": "azureusStyle",
           "package": "bittorrent",
@@ -6154,6 +6683,7 @@
         "index": {
           "description": "Azureus-style encoding have the following layout byte bytes client id bytes version number byte bytes random number",
           "hierarchy": "Network BitTorrent Core PeerId",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Network.BitTorrent.Core.PeerId",
           "name": "azureusStyle",
           "normalized": "BS.ByteString-\u003eBS.ByteString-\u003eBS.ByteString-\u003ePeerId",
@@ -6170,6 +6700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePad bytestring so it's becomes exactly request length. Conversion\n is done like so:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e length \u003c size: Complete bytestring by given charaters.\n\u003c/li\u003e\u003cli\u003e length = size: Output bytestring as is.\n\u003c/li\u003e\u003cli\u003e length \u003e size: Drop last (length - size) charaters from a\n     given bytestring.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Network.BitTorrent.Core.PeerId",
           "name": "byteStringPadded",
           "package": "bittorrent",
@@ -6179,6 +6710,7 @@
         "index": {
           "description": "Pad bytestring so it becomes exactly request length Conversion is done like so length size Complete bytestring by given charaters length size Output bytestring as is length size Drop last length size charaters from given bytestring",
           "hierarchy": "Network BitTorrent Core PeerId",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Network.BitTorrent.Core.PeerId",
           "name": "byteStringPadded",
           "normalized": "BS.ByteString-\u003eInt-\u003eChar-\u003eBS.Builder",
@@ -6195,6 +6727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to extract meaningful information from peer ID bytes. If\n peer id uses unknown coding style then client info returned is\n \u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Network.BitTorrent.Core.PeerId",
           "name": "clientInfo",
           "package": "bittorrent",
@@ -6205,6 +6738,7 @@
         "index": {
           "description": "Tries to extract meaningful information from peer ID bytes If peer id uses unknown coding style then client info returned is def",
           "hierarchy": "Network BitTorrent Core PeerId",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Network.BitTorrent.Core.PeerId",
           "name": "clientInfo",
           "normalized": "PeerId-\u003eClientInfo",
@@ -6221,6 +6755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003eHS\u003c/a\u003e - 2 bytes long client identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Network.BitTorrent.Core.PeerId",
           "name": "defaultClientId",
           "package": "bittorrent",
@@ -6231,6 +6766,7 @@
         "index": {
           "description": "HS bytes long client identifier",
           "hierarchy": "Network BitTorrent Core PeerId",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Network.BitTorrent.Core.PeerId",
           "name": "defaultClientId",
           "package": "bittorrent",
@@ -6245,6 +6781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGives exactly 4 bytes long version number for any version of the\n package.  Version is taken from .cabal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Network.BitTorrent.Core.PeerId",
           "name": "defaultVersionNumber",
           "package": "bittorrent",
@@ -6255,6 +6792,7 @@
         "index": {
           "description": "Gives exactly bytes long version number for any version of the package Version is taken from cabal",
           "hierarchy": "Network BitTorrent Core PeerId",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Network.BitTorrent.Core.PeerId",
           "name": "defaultVersionNumber",
           "package": "bittorrent",
@@ -6269,6 +6807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGives 15 character long random bytestring. This is more robust\n method for generation of random part of peer ID than timestamp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Network.BitTorrent.Core.PeerId",
           "name": "entropy",
           "package": "bittorrent",
@@ -6279,6 +6818,7 @@
         "index": {
           "description": "Gives character long random bytestring This is more robust method for generation of random part of peer ID than timestamp",
           "hierarchy": "Network BitTorrent Core PeerId",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Network.BitTorrent.Core.PeerId",
           "name": "entropy",
           "package": "bittorrent",
@@ -6292,6 +6832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHere we use Azureus-style encoding with the following args:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eHS\u003c/code\u003e for the client id.\n\u003c/li\u003e\u003cli\u003e Version of the package for the version number\n\u003c/li\u003e\u003cli\u003e UTC time day ++ day time for the random number.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Network.BitTorrent.Core.PeerId",
           "name": "genPeerId",
           "package": "bittorrent",
@@ -6302,6 +6843,7 @@
         "index": {
           "description": "Here we use Azureus-style encoding with the following args HS for the client id Version of the package for the version number UTC time day day time for the random number",
           "hierarchy": "Network BitTorrent Core PeerId",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Network.BitTorrent.Core.PeerId",
           "name": "genPeerId",
           "package": "bittorrent",
@@ -6316,6 +6858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShadow-style encoding have the following layout:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 1 byte   : client id.\n\u003c/li\u003e\u003cli\u003e 0-4 bytes: version number. If less than 4 then padded with\n     \u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e char.\n\u003c/li\u003e\u003cli\u003e 15 bytes : random number. If length is less than 15 then\n     padded with '0' char.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Network.BitTorrent.Core.PeerId",
           "name": "shadowStyle",
           "package": "bittorrent",
@@ -6325,6 +6868,7 @@
         "index": {
           "description": "Shadow-style encoding have the following layout byte client id bytes version number If less than then padded with char bytes random number If length is less than then padded with char",
           "hierarchy": "Network BitTorrent Core PeerId",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Network.BitTorrent.Core.PeerId",
           "name": "shadowStyle",
           "normalized": "Char-\u003eBS.ByteString-\u003eBS.ByteString-\u003ePeerId",
@@ -6341,6 +6885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGives 15 characters long decimal timestamp such that:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 6 bytes   : first 6 characters from picoseconds obtained with %q.\n\u003c/li\u003e\u003cli\u003e 1 bytes   : character \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e for readability.\n\u003c/li\u003e\u003cli\u003e 9..* bytes: number of whole seconds since the Unix epoch\n     (!)REVERSED.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eCan be used both with shadow and azureus style encoding. This\n   format is used to make the ID's readable(for debugging) and more\n   or less random.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:23:10 UTC 2014",
           "module": "Network.BitTorrent.Core.PeerId",
           "name": "timestamp",
           "package": "bittorrent",
@@ -6351,6 +6896,7 @@
         "index": {
           "description": "Gives characters long decimal timestamp such that bytes first characters from picoseconds obtained with bytes character for readability bytes number of whole seconds since the Unix epoch REVERSED Can be used both with shadow and azureus style encoding This format is used to make the ID readable for debugging and more or less random",
           "hierarchy": "Network BitTorrent Core PeerId",
+          "indexed": "2014-03-11T17:23:10",
           "module": "Network.BitTorrent.Core.PeerId",
           "name": "timestamp",
           "package": "bittorrent",

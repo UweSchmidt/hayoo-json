@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "reverse-apply"
+        "phrase": "reverse-apply",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides a standard version of the reverse apply operator.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:54:08 UTC 2014",
           "module": "Control.Apply.Reverse",
           "name": "Reverse",
           "package": "reverse-apply",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides standard version of the reverse apply operator",
           "hierarchy": "Control Apply Reverse",
+          "indexed": "2014-03-11T19:54:08",
           "module": "Control.Apply.Reverse",
           "name": "Reverse",
           "package": "reverse-apply",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:08 UTC 2014",
           "module": "Control.Apply.Reverse",
           "name": "(&)",
           "package": "reverse-apply",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Control Apply Reverse",
+          "indexed": "2014-03-11T19:54:08",
           "module": "Control.Apply.Reverse",
           "name": "(&) &",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:08 UTC 2014",
           "module": "Control.Apply.Reverse",
           "name": "(&!)",
           "package": "reverse-apply",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Control Apply Reverse",
+          "indexed": "2014-03-11T19:54:08",
           "module": "Control.Apply.Reverse",
           "name": "(&!) &!",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",

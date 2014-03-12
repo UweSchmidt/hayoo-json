@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "york-lava"
+        "phrase": "york-lava",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Binary",
           "name": "Binary",
           "package": "york-lava",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Lava Binary",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Binary",
           "name": "Binary",
           "package": "york-lava",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Binary",
           "name": "binToHex",
           "package": "york-lava",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Lava Binary",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Binary",
           "name": "binToHex",
           "normalized": "[Bool]-\u003eString",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Binary",
           "name": "binToInt",
           "package": "york-lava",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Lava Binary",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Binary",
           "name": "binToInt",
           "normalized": "[Bool]-\u003ea",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Binary",
           "name": "binToNat",
           "package": "york-lava",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Lava Binary",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Binary",
           "name": "binToNat",
           "normalized": "[Bool]-\u003ea",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Binary",
           "name": "boolAdd",
           "package": "york-lava",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Lava Binary",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Binary",
           "name": "boolAdd",
           "normalized": "Bool-\u003e[Bool]-\u003e[Bool]",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Binary",
           "name": "ext",
           "package": "york-lava",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Lava Binary",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Binary",
           "name": "ext",
           "normalized": "Int-\u003ea-\u003e[a]-\u003e[a]",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Binary",
           "name": "hex",
           "package": "york-lava",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Lava Binary",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Binary",
           "name": "hex",
           "normalized": "Int-\u003ea-\u003eString",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Binary",
           "name": "intToBin",
           "package": "york-lava",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Lava Binary",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Binary",
           "name": "intToBin",
           "normalized": "a-\u003e[Bool]",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Binary",
           "name": "intToSizedBin",
           "package": "york-lava",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Lava Binary",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Binary",
           "name": "intToSizedBin",
           "normalized": "a-\u003eInt-\u003e[Bool]",
@@ -229,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Binary",
           "name": "log2",
           "package": "york-lava",
@@ -238,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Lava Binary",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Binary",
           "name": "log2",
           "normalized": "a-\u003ea",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Binary",
           "name": "natToBin",
           "package": "york-lava",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Lava Binary",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Binary",
           "name": "natToBin",
           "normalized": "a-\u003e[Bool]",
@@ -276,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Binary",
           "name": "natToHex",
           "package": "york-lava",
@@ -285,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Lava Binary",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Binary",
           "name": "natToHex",
           "normalized": "a-\u003eString",
@@ -300,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Binary",
           "name": "natToSizedBin",
           "package": "york-lava",
@@ -309,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Lava Binary",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Binary",
           "name": "natToSizedBin",
           "normalized": "a-\u003eInt-\u003e[Bool]",
@@ -324,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Binary",
           "name": "rol",
           "package": "york-lava",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Lava Binary",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Binary",
           "name": "rol",
           "normalized": "[a]-\u003eInt-\u003e[a]",
@@ -347,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Binary",
           "name": "ror",
           "package": "york-lava",
@@ -356,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Lava Binary",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Binary",
           "name": "ror",
           "normalized": "[a]-\u003eInt-\u003e[a]",
@@ -370,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Binary",
           "name": "twosComplement",
           "package": "york-lava",
@@ -379,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Lava Binary",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Binary",
           "name": "twosComplement",
           "normalized": "[Bool]-\u003e[Bool]",
@@ -395,6 +427,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines what a \u003ccode\u003e\u003ca\u003eBit\u003c/a\u003e\u003c/code\u003e is, the central abstract data type of the whole\nlibrary, along with lots of things you might like to do with bits.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003eREDUCERON MEMO 23\u003c/code\u003e - included in the package and available at\n\u003ca\u003ehttp://www.cs.york.ac.uk/fp/reduceron/\u003c/a\u003e - for a tutorial.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "Bit",
           "package": "york-lava",
@@ -404,6 +437,7 @@
         "index": {
           "description": "Defines what Bit is the central abstract data type of the whole library along with lots of things you might like to do with bits See REDUCERON MEMO included in the package and available at http www.cs.york.ac.uk fp reduceron for tutorial",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "Bit",
           "package": "york-lava",
@@ -418,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe central ADT of Lava.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "Bit",
           "package": "york-lava",
@@ -427,6 +462,7 @@
         "index": {
           "description": "The central ADT of Lava",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "Bit",
           "package": "york-lava",
@@ -441,6 +477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic idea pinched from Uniplate.  To use generics, you really\ndon't need to know the internals of this type as we provide \u003ccode\u003e\u003ca\u003econs\u003c/a\u003e\u003c/code\u003e\nand \u003ccode\u003e\u003ca\u003e\u003e\u003c\u003c/a\u003e\u003c/code\u003e. For example:\n\u003c/p\u003e\u003cpre\u003e instance Generic a =\u003e Generic [a] where\n    generic [] = cons []\n    generic (a:as) = cons (:) \u003e\u003c a \u003e\u003c as\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "BitContainer",
           "package": "york-lava",
@@ -450,6 +487,7 @@
         "index": {
           "description": "Basic idea pinched from Uniplate To use generics you really don need to know the internals of this type as we provide cons and For example instance Generic Generic where generic cons generic as cons as",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "BitContainer",
           "package": "york-lava",
@@ -464,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric structures of bits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "Generic",
           "package": "york-lava",
@@ -473,6 +512,7 @@
         "index": {
           "description": "Generic structures of bits",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "Generic",
           "package": "york-lava",
@@ -487,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery primitive component instance has a unique number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "InstanceId",
           "package": "york-lava",
@@ -496,6 +537,7 @@
         "index": {
           "description": "Every primitive component instance has unique number",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "InstanceId",
           "package": "york-lava",
@@ -509,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "Net",
           "package": "york-lava",
@@ -517,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "Net",
           "package": "york-lava",
@@ -530,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "Netlist",
           "package": "york-lava",
@@ -538,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "Netlist",
           "package": "york-lava",
@@ -552,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach output from a primitive component is numbered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "OutputNumber",
           "package": "york-lava",
@@ -561,6 +608,7 @@
         "index": {
           "description": "Each output from primitive component is numbered",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "OutputNumber",
           "package": "york-lava",
@@ -575,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComponents may have compile-time parameters, for example whether\n a flip-flop initialises to high or low.  A parameter has a\n name and a value, both represented as strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "Parameter",
           "package": "york-lava",
@@ -584,6 +633,7 @@
         "index": {
           "description": "Components may have compile-time parameters for example whether flip-flop initialises to high or low parameter has name and value both represented as strings",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "Parameter",
           "package": "york-lava",
@@ -598,6 +648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow should the RAM be built?  Used by the Xilinx Core Generator -\n see Xilinx docs for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "RamAlgorithm",
           "package": "york-lava",
@@ -607,6 +658,7 @@
         "index": {
           "description": "How should the RAM be built Used by the Xilinx Core Generator see Xilinx docs for details",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "RamAlgorithm",
           "package": "york-lava",
@@ -621,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlock RAM inputs; data-bus and address-bus can be of any width!\n Use \u003ccode\u003eLava.Prelude.RamInputs\u003c/code\u003e for stronger type-safety.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "RamInps",
           "package": "york-lava",
@@ -630,6 +683,7 @@
         "index": {
           "description": "Block RAM inputs data-bus and address-bus can be of any width Use Lava.Prelude.RamInputs for stronger type-safety",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "RamInps",
           "package": "york-lava",
@@ -644,6 +698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA time-varying binary signal is clasically a list of booleans.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "Signal",
           "package": "york-lava",
@@ -653,6 +708,7 @@
         "index": {
           "description": "time-varying binary signal is clasically list of booleans",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "Signal",
           "package": "york-lava",
@@ -667,6 +723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wire is uniquely identified by a instance id and an output number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "Wire",
           "package": "york-lava",
@@ -676,6 +733,7 @@
         "index": {
           "description": "wire is uniquely identified by instance id and an output number",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "Wire",
           "package": "york-lava",
@@ -689,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "(\u003c|\u003e)",
           "package": "york-lava",
@@ -698,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "Bit-\u003eBit-\u003eBit",
@@ -712,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "(\u003c#\u003e)",
           "package": "york-lava",
@@ -721,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "(\u003c#\u003e) \u003c#\u003e",
           "normalized": "Bit-\u003eBit-\u003eBit",
@@ -735,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "(\u003c&\u003e)",
           "package": "york-lava",
@@ -744,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "(\u003c&\u003e) \u003c&\u003e",
           "normalized": "Bit-\u003eBit-\u003eBit",
@@ -758,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "(\u003c=\u003e)",
           "package": "york-lava",
@@ -767,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "(\u003c=\u003e) \u003c=\u003e",
           "normalized": "Bit-\u003eBit-\u003eBit",
@@ -781,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "(\u003e\u003c)",
           "package": "york-lava",
@@ -790,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "BitContainer(a-\u003eb)-\u003ea-\u003eBitContainer b",
@@ -804,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": ":-\u003e",
           "package": "york-lava",
@@ -813,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": ":-\u003e",
           "normalized": "String-\u003eString",
@@ -827,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "MinArea",
           "package": "york-lava",
@@ -836,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "MinArea",
           "package": "york-lava",
@@ -849,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "Net",
           "package": "york-lava",
@@ -858,6 +931,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "Net",
           "package": "york-lava",
@@ -871,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "Netlist",
           "package": "york-lava",
@@ -880,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "Netlist",
           "package": "york-lava",
@@ -893,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "RamInps",
           "package": "york-lava",
@@ -902,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "RamInps",
           "package": "york-lava",
@@ -915,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "Width1",
           "package": "york-lava",
@@ -924,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "Width1",
           "package": "york-lava",
@@ -937,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "Width18",
           "package": "york-lava",
@@ -946,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "Width18",
           "package": "york-lava",
@@ -959,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "Width2",
           "package": "york-lava",
@@ -968,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "Width2",
           "package": "york-lava",
@@ -981,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "Width36",
           "package": "york-lava",
@@ -990,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "Width36",
           "package": "york-lava",
@@ -1003,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "Width4",
           "package": "york-lava",
@@ -1012,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "Width4",
           "package": "york-lava",
@@ -1025,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "Width9",
           "package": "york-lava",
@@ -1034,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "Width9",
           "package": "york-lava",
@@ -1047,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "addressBus",
           "package": "york-lava",
@@ -1056,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "addressBus",
           "normalized": "[Bit]",
@@ -1072,6 +1164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAND gate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "and2",
           "package": "york-lava",
@@ -1082,6 +1175,7 @@
         "index": {
           "description": "AND gate",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "and2",
           "normalized": "(Bit,Bit)-\u003eBit",
@@ -1097,6 +1191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimulate a circuit returning a single bit, and convert result to\n a boolean.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "bitToBool",
           "package": "york-lava",
@@ -1107,6 +1202,7 @@
         "index": {
           "description": "Simulate circuit returning single bit and convert result to boolean",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "bitToBool",
           "normalized": "Bit-\u003eBool",
@@ -1123,6 +1219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a list of bits from any structure of bits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "bits",
           "package": "york-lava",
@@ -1133,6 +1230,7 @@
         "index": {
           "description": "Extract list of bits from any structure of bits",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "bits",
           "normalized": "a-\u003e[Bit]",
@@ -1148,6 +1246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003elow\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003ehigh\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "boolToBit",
           "package": "york-lava",
@@ -1158,6 +1257,7 @@
         "index": {
           "description": "Convert False to low and True to high",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "boolToBit",
           "normalized": "Bool-\u003eBit",
@@ -1173,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "cons",
           "package": "york-lava",
@@ -1182,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "cons",
           "normalized": "a-\u003eBitContainer a",
@@ -1196,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "dataBus",
           "package": "york-lava",
@@ -1205,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "dataBus",
           "normalized": "[Bit]",
@@ -1221,6 +1325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eD-type flip-flop, with initialiser (first argument).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "delayBit",
           "package": "york-lava",
@@ -1231,6 +1336,7 @@
         "index": {
           "description": "D-type flip-flop with initialiser first argument",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "delayBit",
           "normalized": "Bit-\u003eBit-\u003eBit",
@@ -1247,6 +1353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eD-type flip-flop with input-enable (first argument).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "delayBitEn",
           "package": "york-lava",
@@ -1257,6 +1364,7 @@
         "index": {
           "description": "D-type flip-flop with input-enable first argument",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "delayBitEn",
           "normalized": "Bit-\u003eBit-\u003eBit-\u003eBit",
@@ -1273,6 +1381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEQ gate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "eq2",
           "package": "york-lava",
@@ -1283,6 +1392,7 @@
         "index": {
           "description": "EQ gate",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "eq2",
           "normalized": "(Bit,Bit)-\u003eBit",
@@ -1297,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "generic",
           "package": "york-lava",
@@ -1306,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "generic",
           "normalized": "a-\u003eBitContainer a",
@@ -1321,6 +1433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogic '1'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "high",
           "package": "york-lava",
@@ -1331,6 +1444,7 @@
         "index": {
           "description": "Logic",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "high",
           "package": "york-lava",
@@ -1344,6 +1458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "inv",
           "package": "york-lava",
@@ -1354,6 +1469,7 @@
         "index": {
           "description": "Inverter",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "inv",
           "normalized": "Bit-\u003eBit",
@@ -1369,6 +1485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lazier but less-defined version of \u003ccode\u003e\u003ca\u003ezipWithG\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "lazyZipWithG",
           "package": "york-lava",
@@ -1379,6 +1496,7 @@
         "index": {
           "description": "lazier but less-defined version of zipWithG",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "lazyZipWithG",
           "normalized": "(Bit-\u003eBit-\u003eBit)-\u003ea-\u003ea-\u003ea",
@@ -1394,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "lookupParam",
           "package": "york-lava",
@@ -1403,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "lookupParam",
           "normalized": "[Parameter]-\u003eString-\u003eString",
@@ -1419,6 +1539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogic '0'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "low",
           "package": "york-lava",
@@ -1429,6 +1550,7 @@
         "index": {
           "description": "Logic",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "low",
           "package": "york-lava",
@@ -1442,6 +1564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe programmer's interface to creating new primitive components.\n See definition of \u003ccode\u003e\u003ca\u003eand2\u003c/a\u003e\u003c/code\u003e for an example.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "makeComponent",
           "package": "york-lava",
@@ -1451,6 +1574,7 @@
         "index": {
           "description": "The programmer interface to creating new primitive components See definition of and2 for an example",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "makeComponent",
           "normalized": "String-\u003e[Bit]-\u003eInt-\u003e([Signal]-\u003e[Signal])-\u003e[Parameter]-\u003e([Bit]-\u003ea)-\u003ea",
@@ -1467,6 +1591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over bits across any structure of bits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "mapG",
           "package": "york-lava",
@@ -1477,6 +1602,7 @@
         "index": {
           "description": "Map function over bits across any structure of bits",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "mapG",
           "normalized": "(Bit-\u003eBit)-\u003ea-\u003ea",
@@ -1492,6 +1618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBit multiplexer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "muxBit",
           "package": "york-lava",
@@ -1502,6 +1629,7 @@
         "index": {
           "description": "Bit multiplexer",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "muxBit",
           "normalized": "Bit-\u003eBit-\u003eBit-\u003eBit",
@@ -1518,6 +1646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBit multiplexer - specifically a \u003cem\u003eXilinx Carry Logic\u003c/em\u003e bit multiplexer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "muxcy",
           "package": "york-lava",
@@ -1528,6 +1657,7 @@
         "index": {
           "description": "Bit multiplexer specifically Xilinx Carry Logic bit multiplexer",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "muxcy",
           "normalized": "Bit-\u003e(Bit,Bit)-\u003eBit",
@@ -1543,6 +1673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamed input - for synthesis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "name",
           "package": "york-lava",
@@ -1553,6 +1684,7 @@
         "index": {
           "description": "Named input for synthesis",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "name",
           "normalized": "String-\u003eBit",
@@ -1567,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "namedOutputs",
           "package": "york-lava",
@@ -1576,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "namedOutputs",
           "normalized": "[(String,Wire)]",
@@ -1591,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "netId",
           "package": "york-lava",
@@ -1600,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "netId",
           "package": "york-lava",
@@ -1613,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "netInputs",
           "package": "york-lava",
@@ -1622,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "netInputs",
           "normalized": "[Wire]",
@@ -1637,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "netName",
           "package": "york-lava",
@@ -1646,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "netName",
           "package": "york-lava",
@@ -1659,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "netNumOuts",
           "package": "york-lava",
@@ -1668,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "netNumOuts",
           "package": "york-lava",
@@ -1681,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "netParams",
           "package": "york-lava",
@@ -1690,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "netParams",
           "normalized": "[Parameter]",
@@ -1706,6 +1850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn any circuit into a netlist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "netlist",
           "package": "york-lava",
@@ -1716,6 +1861,7 @@
         "index": {
           "description": "Turn any circuit into netlist",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "netlist",
           "normalized": "a-\u003ea-\u003eIO Netlist",
@@ -1730,6 +1876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "nets",
           "package": "york-lava",
@@ -1739,6 +1886,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "nets",
           "normalized": "[Net]",
@@ -1754,6 +1902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOR gate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "or2",
           "package": "york-lava",
@@ -1764,6 +1913,7 @@
         "index": {
           "description": "OR gate",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "or2",
           "normalized": "(Bit,Bit)-\u003eBit",
@@ -1779,6 +1929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDual-port RAM with initialiser.  Use \u003ccode\u003eLava.Prelude.dualRam\u003c/code\u003e for\n stronger type-safety.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "primDualRam",
           "package": "york-lava",
@@ -1789,6 +1940,7 @@
         "index": {
           "description": "Dual-port RAM with initialiser Use Lava.Prelude.dualRam for stronger type-safety",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "primDualRam",
           "normalized": "[Integer]-\u003eRamAlgorithm-\u003e(RamInps,RamInps)-\u003e([Bit],[Bit])",
@@ -1805,6 +1957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle-port RAM with initialiser.  Use \u003ccode\u003eLava.Prelude.ram\u003c/code\u003e for\n stronger type-safety.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "primRam",
           "package": "york-lava",
@@ -1815,6 +1968,7 @@
         "index": {
           "description": "Single-port RAM with initialiser Use Lava.Prelude.ram for stronger type-safety",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "primRam",
           "normalized": "[Integer]-\u003eRamAlgorithm-\u003eRamInps-\u003e[Bit]",
@@ -1831,6 +1985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimulate a circuit, giving the output on each clock-cycle.\n Returns an infinite list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "simulate",
           "package": "york-lava",
@@ -1841,6 +1996,7 @@
         "index": {
           "description": "Simulate circuit giving the output on each clock-cycle Returns an infinite list",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "simulate",
           "normalized": "a-\u003e[a]",
@@ -1856,6 +2012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimulate a circuit for N clock-cycles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "simulateN",
           "package": "york-lava",
@@ -1866,6 +2023,7 @@
         "index": {
           "description": "Simulate circuit for clock-cycles",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "simulateN",
           "normalized": "Int-\u003ea-\u003e[a]",
@@ -1881,6 +2039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimulate a circuit with a constant waveform specified as input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "simulateSeq",
           "package": "york-lava",
@@ -1891,6 +2050,7 @@
         "index": {
           "description": "Simulate circuit with constant waveform specified as input",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "simulateSeq",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[b]",
@@ -1907,6 +2067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a join-list of bits from any structure of bits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "structure",
           "package": "york-lava",
@@ -1917,6 +2078,7 @@
         "index": {
           "description": "Extract join-list of bits from any structure of bits",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "structure",
           "normalized": "a-\u003eJList Bit",
@@ -1931,6 +2093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "writeEnable",
           "package": "york-lava",
@@ -1940,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "writeEnable",
           "package": "york-lava",
@@ -1954,6 +2118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXOR gate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "xor2",
           "package": "york-lava",
@@ -1964,6 +2129,7 @@
         "index": {
           "description": "XOR gate",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "xor2",
           "normalized": "(Bit,Bit)-\u003eBit",
@@ -1979,6 +2145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXOR gate, specifically a \u003cem\u003eXilinx Carry Logic\u003c/em\u003e XOR gate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "xorcy",
           "package": "york-lava",
@@ -1989,6 +2156,7 @@
         "index": {
           "description": "XOR gate specifically Xilinx Carry Logic XOR gate",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "xorcy",
           "normalized": "(Bit,Bit)-\u003eBit",
@@ -2004,6 +2172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip a function over bits across any two structures of bits.\n Assumes that the two structures have the same shape.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Bit",
           "name": "zipWithG",
           "package": "york-lava",
@@ -2014,6 +2183,7 @@
         "index": {
           "description": "Zip function over bits across any two structures of bits Assumes that the two structures have the same shape",
           "hierarchy": "Lava Bit",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Bit",
           "name": "zipWithG",
           "normalized": "(Bit-\u003eBit-\u003eBit)-\u003ea-\u003ea-\u003ea",
@@ -2030,6 +2200,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA very modest library for join-lists, also known as conc-lists.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.JList",
           "name": "JList",
           "package": "york-lava",
@@ -2039,6 +2210,7 @@
         "index": {
           "description": "very modest library for join-lists also known as conc-lists",
           "hierarchy": "Lava JList",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.JList",
           "name": "JList",
           "package": "york-lava",
@@ -2052,6 +2224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.JList",
           "name": "JList",
           "package": "york-lava",
@@ -2060,6 +2233,7 @@
         },
         "index": {
           "hierarchy": "Lava JList",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.JList",
           "name": "JList",
           "package": "york-lava",
@@ -2073,6 +2247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.JList",
           "name": ":+:",
           "package": "york-lava",
@@ -2082,6 +2257,7 @@
         },
         "index": {
           "hierarchy": "Lava JList",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.JList",
           "name": ":+:",
           "package": "york-lava",
@@ -2094,6 +2270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.JList",
           "name": "One",
           "package": "york-lava",
@@ -2103,6 +2280,7 @@
         },
         "index": {
           "hierarchy": "Lava JList",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.JList",
           "name": "One",
           "package": "york-lava",
@@ -2116,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.JList",
           "name": "Zero",
           "package": "york-lava",
@@ -2125,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "Lava JList",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.JList",
           "name": "Zero",
           "package": "york-lava",
@@ -2138,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.JList",
           "name": "concat",
           "package": "york-lava",
@@ -2147,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Lava JList",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.JList",
           "name": "concat",
           "normalized": "JList(JList a)-\u003eJList a",
@@ -2161,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.JList",
           "name": "fromList",
           "package": "york-lava",
@@ -2170,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Lava JList",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.JList",
           "name": "fromList",
           "normalized": "[a]-\u003eJList a",
@@ -2185,6 +2369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.JList",
           "name": "lazyZipWith",
           "package": "york-lava",
@@ -2194,6 +2379,7 @@
         },
         "index": {
           "hierarchy": "Lava JList",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.JList",
           "name": "lazyZipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eJList a-\u003eJList b-\u003eJList c",
@@ -2209,6 +2395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.JList",
           "name": "map",
           "package": "york-lava",
@@ -2218,6 +2405,7 @@
         },
         "index": {
           "hierarchy": "Lava JList",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.JList",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eJList a-\u003eJList b",
@@ -2232,6 +2420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.JList",
           "name": "mapM",
           "package": "york-lava",
@@ -2241,6 +2430,7 @@
         },
         "index": {
           "hierarchy": "Lava JList",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.JList",
           "name": "mapM",
           "normalized": "(a-\u003eb c)-\u003eJList a-\u003eb(JList c)",
@@ -2255,6 +2445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.JList",
           "name": "toList",
           "package": "york-lava",
@@ -2264,6 +2455,7 @@
         },
         "index": {
           "hierarchy": "Lava JList",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.JList",
           "name": "toList",
           "normalized": "JList a-\u003e[a]",
@@ -2279,6 +2471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.JList",
           "name": "zipWith",
           "package": "york-lava",
@@ -2288,6 +2481,7 @@
         },
         "index": {
           "hierarchy": "Lava JList",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.JList",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eJList a-\u003eJList b-\u003eJList c",
@@ -2304,6 +2498,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe beginnings of a Prelude of commonly-used circuits.  By no means\nexhaustive, but a useful start.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "Prelude",
           "package": "york-lava",
@@ -2313,6 +2508,7 @@
         "index": {
           "description": "The beginnings of Prelude of commonly-used circuits By no means exhaustive but useful start",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "Prelude",
           "package": "york-lava",
@@ -2326,6 +2522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "Ordered",
           "package": "york-lava",
@@ -2334,6 +2531,7 @@
         },
         "index": {
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "Ordered",
           "package": "york-lava",
@@ -2347,6 +2545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "RamInputs",
           "package": "york-lava",
@@ -2355,6 +2554,7 @@
         },
         "index": {
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "RamInputs",
           "package": "york-lava",
@@ -2369,6 +2569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSigned bit-vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "Signed",
           "package": "york-lava",
@@ -2378,6 +2579,7 @@
         "index": {
           "description": "Signed bit-vectors",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "Signed",
           "package": "york-lava",
@@ -2392,6 +2594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsigned bit-vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "Unsigned",
           "package": "york-lava",
@@ -2401,6 +2604,7 @@
         "index": {
           "description": "Unsigned bit-vectors",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "Unsigned",
           "package": "york-lava",
@@ -2415,6 +2619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNotably, an instance of the Num class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "Word",
           "package": "york-lava",
@@ -2424,6 +2629,7 @@
         "index": {
           "description": "Notably an instance of the Num class",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "Word",
           "package": "york-lava",
@@ -2437,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "(|\u003c|)",
           "package": "york-lava",
@@ -2446,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "(|\u003c|) |\u003c|",
           "normalized": "a-\u003ea-\u003eBit",
@@ -2460,6 +2668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "(|\u003c=|)",
           "package": "york-lava",
@@ -2469,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "(|\u003c=|) |\u003c=|",
           "normalized": "a-\u003ea-\u003eBit",
@@ -2483,6 +2693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "(|\u003e|)",
           "package": "york-lava",
@@ -2492,6 +2703,7 @@
         },
         "index": {
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "(|\u003e|) |\u003e|",
           "normalized": "a-\u003ea-\u003eBit",
@@ -2506,6 +2718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "(|\u003e=|)",
           "package": "york-lava",
@@ -2515,6 +2728,7 @@
         },
         "index": {
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "(|\u003e=|) |\u003e=|",
           "normalized": "a-\u003ea-\u003eBit",
@@ -2530,6 +2744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric diseqaulity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "(=/=)",
           "package": "york-lava",
@@ -2540,6 +2755,7 @@
         "index": {
           "description": "Generic diseqaulity",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "(=/=) =/=",
           "normalized": "a-\u003ea-\u003eBit",
@@ -2555,6 +2771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric equality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "(===)",
           "package": "york-lava",
@@ -2565,6 +2782,7 @@
         "index": {
           "description": "Generic equality",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "(===) ===",
           "normalized": "a-\u003ea-\u003eBit",
@@ -2580,6 +2798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric two-way multiplexer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "(?)",
           "package": "york-lava",
@@ -2590,6 +2809,7 @@
         "index": {
           "description": "Generic two-way multiplexer",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "(?) ?",
           "normalized": "Bit-\u003e(a,a)-\u003ea",
@@ -2604,6 +2824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "RamInputs",
           "package": "york-lava",
@@ -2613,6 +2834,7 @@
         },
         "index": {
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "RamInputs",
           "package": "york-lava",
@@ -2626,6 +2848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "Signed",
           "package": "york-lava",
@@ -2635,6 +2858,7 @@
         },
         "index": {
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "Signed",
           "package": "york-lava",
@@ -2649,6 +2873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical AND of all bits in a structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "andG",
           "package": "york-lava",
@@ -2659,6 +2884,7 @@
         "index": {
           "description": "Logical AND of all bits in structure",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "andG",
           "normalized": "a-\u003eBit",
@@ -2674,6 +2900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAddition of a single bit to a bit-list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "bitPlus",
           "package": "york-lava",
@@ -2684,6 +2911,7 @@
         "index": {
           "description": "Addition of single bit to bit-list",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "bitPlus",
           "normalized": "Bit-\u003e[Bit]-\u003e[Bit]",
@@ -2700,6 +2928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo's complement of a bit-list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "complement",
           "package": "york-lava",
@@ -2710,6 +2939,7 @@
         "index": {
           "description": "Two complement of bit-list",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "complement",
           "normalized": "[Bit]-\u003e[Bit]",
@@ -2725,6 +2955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary to one-hot decoder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "decode",
           "package": "york-lava",
@@ -2735,6 +2966,7 @@
         "index": {
           "description": "Binary to one-hot decoder",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "decode",
           "normalized": "[Bit]-\u003e[Bit]",
@@ -2750,6 +2982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo's complement version of \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "decodeTwos",
           "package": "york-lava",
@@ -2760,6 +2993,7 @@
         "index": {
           "description": "Two complement version of decode",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "decodeTwos",
           "normalized": "[Bit]-\u003e[Bit]",
@@ -2776,6 +3010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric register, with initialiser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "delay",
           "package": "york-lava",
@@ -2786,6 +3021,7 @@
         "index": {
           "description": "Generic register with initialiser",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "delay",
           "normalized": "a-\u003ea-\u003ea",
@@ -2801,6 +3037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric register, with initialiser, with input-enable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "delayEn",
           "package": "york-lava",
@@ -2811,6 +3048,7 @@
         "index": {
           "description": "Generic register with initialiser with input-enable",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "delayEn",
           "normalized": "a-\u003eBit-\u003ea-\u003ea",
@@ -2827,6 +3065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDot product over bit-lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "dot",
           "package": "york-lava",
@@ -2837,6 +3076,7 @@
         "index": {
           "description": "Dot product over bit-lists",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "dot",
           "normalized": "[Bit]-\u003e[Bit]-\u003eBit",
@@ -2852,6 +3092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDual-port RAM of any width and size, with intialiser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "dualRam",
           "package": "york-lava",
@@ -2862,6 +3103,7 @@
         "index": {
           "description": "Dual-port RAM of any width and size with intialiser",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "dualRam",
           "normalized": "[Integer]-\u003eRamAlgorithm-\u003e(RamInputs a b,RamInputs a b)-\u003e(Word a,Word a)",
@@ -2878,6 +3120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne-hot to binary encoder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "encode",
           "package": "york-lava",
@@ -2888,6 +3131,7 @@
         "index": {
           "description": "One-hot to binary encoder",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "encode",
           "normalized": "[Bit]-\u003e[Bit]",
@@ -2903,6 +3147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSign-extend a bit-vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "extend",
           "package": "york-lava",
@@ -2913,6 +3158,7 @@
         "index": {
           "description": "Sign-extend bit-vector",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "extend",
           "normalized": "Vec(S a)b-\u003eVec c b",
@@ -2928,6 +3174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a list into sub-lists of maximum length N.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "groupN",
           "package": "york-lava",
@@ -2938,6 +3185,7 @@
         "index": {
           "description": "Split list into sub-lists of maximum length",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "groupN",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -2953,6 +3201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a list in two.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "halve",
           "package": "york-lava",
@@ -2963,6 +3212,7 @@
         "index": {
           "description": "Split list in two",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "halve",
           "normalized": "[a]-\u003e([a],[a])",
@@ -2978,6 +3228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of N named bits with a given prefix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "nameList",
           "package": "york-lava",
@@ -2988,6 +3239,7 @@
         "index": {
           "description": "Returns list of named bits with given prefix",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "nameList",
           "normalized": "Int-\u003eString-\u003e[Bit]",
@@ -3004,6 +3256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a vector of N named bits with a given prefix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "nameWord",
           "package": "york-lava",
@@ -3014,6 +3267,7 @@
         "index": {
           "description": "Returns vector of named bits with given prefix",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "nameWord",
           "normalized": "String-\u003eWord a",
@@ -3030,6 +3284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtracts \u003ccode\u003eb\u003c/code\u003e from \u003ccode\u003ea\u003c/code\u003e, but if \u003ccode\u003eb\u003c/code\u003e is larger than \u003ccode\u003ea\u003c/code\u003e then\n result is \u003ccode\u003e0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "natSub",
           "package": "york-lava",
@@ -3040,6 +3295,7 @@
         "index": {
           "description": "Subtracts from but if is larger than then result is",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "natSub",
           "normalized": "Word a-\u003eWord a-\u003eWord a",
@@ -3056,6 +3312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Haskell \u003ccode\u003eInt\u003c/code\u003e to a one-hot bit-vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "oneHot",
           "package": "york-lava",
@@ -3066,6 +3323,7 @@
         "index": {
           "description": "Convert Haskell Int to one-hot bit-vector",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "oneHot",
           "normalized": "Int-\u003eWord a",
@@ -3082,6 +3340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical OR of all bits in a structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "orG",
           "package": "york-lava",
@@ -3092,6 +3351,7 @@
         "index": {
           "description": "Logical OR of all bits in structure",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "orG",
           "normalized": "a-\u003eBit",
@@ -3107,6 +3367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eselect\u003c/a\u003e\u003c/code\u003e, but with zipped arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "pick",
           "package": "york-lava",
@@ -3117,6 +3378,7 @@
         "index": {
           "description": "Like select but with zipped arguments",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "pick",
           "normalized": "[(Bit,[Bit])]-\u003e[Bit]",
@@ -3132,6 +3394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric \u003ccode\u003e\u003ca\u003epick\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "pickG",
           "package": "york-lava",
@@ -3142,6 +3405,7 @@
         "index": {
           "description": "Generic pick",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "pickG",
           "normalized": "[(Bit,a)]-\u003ea",
@@ -3157,6 +3421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRAM of any width and size, with intialiser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "ram",
           "package": "york-lava",
@@ -3167,6 +3432,7 @@
         "index": {
           "description": "RAM of any width and size with intialiser",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "ram",
           "normalized": "[Integer]-\u003eRamAlgorithm-\u003eRamInputs a b-\u003eWord a",
@@ -3181,6 +3447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "ramAddress",
           "package": "york-lava",
@@ -3190,6 +3457,7 @@
         },
         "index": {
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "ramAddress",
           "package": "york-lava",
@@ -3203,6 +3471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "ramData",
           "package": "york-lava",
@@ -3212,6 +3481,7 @@
         },
         "index": {
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "ramData",
           "package": "york-lava",
@@ -3225,6 +3495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "ramWrite",
           "package": "york-lava",
@@ -3234,6 +3505,7 @@
         },
         "index": {
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "ramWrite",
           "package": "york-lava",
@@ -3248,6 +3520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003erotateRight\u003c/a\u003e\u003c/code\u003e except rotation is to the left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "rotateLeft",
           "package": "york-lava",
@@ -3258,6 +3531,7 @@
         "index": {
           "description": "Like rotateRight except rotation is to the left",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "rotateLeft",
           "normalized": "[Bit]-\u003e[[Bit]]-\u003e[[Bit]]",
@@ -3274,6 +3548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003erotr\u003c/a\u003e\u003c/code\u003e, but lifted to a list of bit-lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "rotateRight",
           "package": "york-lava",
@@ -3284,6 +3559,7 @@
         "index": {
           "description": "Like rotr but lifted to list of bit-lists",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "rotateRight",
           "normalized": "[Bit]-\u003e[[Bit]]-\u003e[[Bit]]",
@@ -3300,6 +3576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003erotr\u003c/a\u003e\u003c/code\u003e, except rotation is to the left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "rotl",
           "package": "york-lava",
@@ -3310,6 +3587,7 @@
         "index": {
           "description": "Like rotr except rotation is to the left",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "rotl",
           "normalized": "[Bit]-\u003e[Bit]-\u003e[Bit]",
@@ -3325,6 +3603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotate \u003ccode\u003eb\u003c/code\u003e by \u003ccode\u003ea\u003c/code\u003e places to the right; \u003ccode\u003ea\u003c/code\u003e is a one-hot number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "rotr",
           "package": "york-lava",
@@ -3335,6 +3614,7 @@
         "index": {
           "description": "Rotate by places to the right is one-hot number",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "rotr",
           "normalized": "[Bit]-\u003e[Bit]-\u003e[Bit]",
@@ -3350,6 +3630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eN-way multiplexer, with one-hot address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "select",
           "package": "york-lava",
@@ -3360,6 +3641,7 @@
         "index": {
           "description": "N-way multiplexer with one-hot address",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "select",
           "normalized": "[Bit]-\u003e[[Bit]]-\u003e[Bit]",
@@ -3375,6 +3657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric \u003ccode\u003e\u003ca\u003eselect\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "selectG",
           "package": "york-lava",
@@ -3385,6 +3668,7 @@
         "index": {
           "description": "Generic select",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "selectG",
           "normalized": "[Bit]-\u003e[a]-\u003ea",
@@ -3400,6 +3684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne-hot to tally converter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "tal",
           "package": "york-lava",
@@ -3410,6 +3695,7 @@
         "index": {
           "description": "One-hot to tally converter",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "tal",
           "normalized": "[Bit]-\u003e[Bit]",
@@ -3425,6 +3711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003etal\u003c/a\u003e\u003c/code\u003e; specifically \u003ccode\u003etal' n  =  tal (n+1)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "tal'",
           "package": "york-lava",
@@ -3435,6 +3722,7 @@
         "index": {
           "description": "Like tal specifically tal tal",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "tal'",
           "normalized": "[Bit]-\u003e[Bit]",
@@ -3450,6 +3738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary to tally converter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "tally",
           "package": "york-lava",
@@ -3460,6 +3749,7 @@
         "index": {
           "description": "Binary to tally converter",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "tally",
           "normalized": "[Bit]-\u003e[Bit]",
@@ -3475,6 +3765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003etree1\u003c/a\u003e\u003c/code\u003e, but input list may be empty, in which case the zero\n element is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "tree",
           "package": "york-lava",
@@ -3485,6 +3776,7 @@
         "index": {
           "description": "Like tree1 but input list may be empty in which case the zero element is returned",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "tree",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003e[a]-\u003ea",
@@ -3500,6 +3792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParallel reduce for a commutative an associative operator.  Input\n list must be non-empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "tree1",
           "package": "york-lava",
@@ -3510,6 +3803,7 @@
         "index": {
           "description": "Parallel reduce for commutative an associative operator Input list must be non-empty",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "tree1",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003ea",
@@ -3525,6 +3819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert bit-vector to an integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Prelude",
           "name": "wordToInt",
           "package": "york-lava",
@@ -3535,6 +3830,7 @@
         "index": {
           "description": "Convert bit-vector to an integer",
           "hierarchy": "Lava Prelude",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Prelude",
           "name": "wordToInt",
           "normalized": "Word a-\u003eb",
@@ -3551,6 +3847,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModest library for statically-typed sized vectors, inspired by Oleg\nKiselyov's \"Number-Parameterized Types\", The Monad.Reader, Issue 5.\nType synonyms \u003ccode\u003e\u003ca\u003eN0\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eN255\u003c/a\u003e\u003c/code\u003e exported along with zero (\u003ccode\u003e\u003ca\u003eZ\u003c/a\u003e\u003c/code\u003e) and\nsuccessor (\u003ccode\u003e\u003ca\u003eS\u003c/a\u003e\u003c/code\u003e).  Values \u003ccode\u003e\u003ca\u003en0\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003en255\u003c/a\u003e\u003c/code\u003e with types \u003ccode\u003e\u003ca\u003eN0\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eN255\u003c/a\u003e\u003c/code\u003e are\nalso exported.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "Vector",
           "package": "york-lava",
@@ -3560,6 +3857,7 @@
         "index": {
           "description": "Modest library for statically-typed sized vectors inspired by Oleg Kiselyov Number-Parameterized Types The Monad.Reader Issue Type synonyms N0 to N255 exported along with zero and successor Values n0 to n255 with types N0 to N255 are also exported",
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "Vector",
           "package": "york-lava",
@@ -3573,6 +3871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "Add",
           "package": "york-lava",
@@ -3581,6 +3880,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "Add",
           "package": "york-lava",
@@ -3594,6 +3894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "Less",
           "package": "york-lava",
@@ -3602,6 +3903,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "Less",
           "package": "york-lava",
@@ -3615,6 +3917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "Mul",
           "package": "york-lava",
@@ -3623,6 +3926,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "Mul",
           "package": "york-lava",
@@ -3636,6 +3940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N",
           "package": "york-lava",
@@ -3644,6 +3949,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N",
           "package": "york-lava",
@@ -3656,6 +3962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N0",
           "package": "york-lava",
@@ -3664,6 +3971,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N0",
           "package": "york-lava",
@@ -3676,6 +3984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N1",
           "package": "york-lava",
@@ -3684,6 +3993,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N1",
           "package": "york-lava",
@@ -3696,6 +4006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N10",
           "package": "york-lava",
@@ -3704,6 +4015,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N10",
           "package": "york-lava",
@@ -3716,6 +4028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N100",
           "package": "york-lava",
@@ -3724,6 +4037,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N100",
           "package": "york-lava",
@@ -3736,6 +4050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N101",
           "package": "york-lava",
@@ -3744,6 +4059,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N101",
           "package": "york-lava",
@@ -3756,6 +4072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N102",
           "package": "york-lava",
@@ -3764,6 +4081,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N102",
           "package": "york-lava",
@@ -3776,6 +4094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N103",
           "package": "york-lava",
@@ -3784,6 +4103,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N103",
           "package": "york-lava",
@@ -3796,6 +4116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N104",
           "package": "york-lava",
@@ -3804,6 +4125,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N104",
           "package": "york-lava",
@@ -3816,6 +4138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N105",
           "package": "york-lava",
@@ -3824,6 +4147,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N105",
           "package": "york-lava",
@@ -3836,6 +4160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N106",
           "package": "york-lava",
@@ -3844,6 +4169,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N106",
           "package": "york-lava",
@@ -3856,6 +4182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N107",
           "package": "york-lava",
@@ -3864,6 +4191,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N107",
           "package": "york-lava",
@@ -3876,6 +4204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N108",
           "package": "york-lava",
@@ -3884,6 +4213,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N108",
           "package": "york-lava",
@@ -3896,6 +4226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N109",
           "package": "york-lava",
@@ -3904,6 +4235,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N109",
           "package": "york-lava",
@@ -3916,6 +4248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N11",
           "package": "york-lava",
@@ -3924,6 +4257,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N11",
           "package": "york-lava",
@@ -3936,6 +4270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N110",
           "package": "york-lava",
@@ -3944,6 +4279,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N110",
           "package": "york-lava",
@@ -3956,6 +4292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N111",
           "package": "york-lava",
@@ -3964,6 +4301,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N111",
           "package": "york-lava",
@@ -3976,6 +4314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N112",
           "package": "york-lava",
@@ -3984,6 +4323,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N112",
           "package": "york-lava",
@@ -3996,6 +4336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N113",
           "package": "york-lava",
@@ -4004,6 +4345,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N113",
           "package": "york-lava",
@@ -4016,6 +4358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N114",
           "package": "york-lava",
@@ -4024,6 +4367,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N114",
           "package": "york-lava",
@@ -4036,6 +4380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N115",
           "package": "york-lava",
@@ -4044,6 +4389,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N115",
           "package": "york-lava",
@@ -4056,6 +4402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N116",
           "package": "york-lava",
@@ -4064,6 +4411,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N116",
           "package": "york-lava",
@@ -4076,6 +4424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N117",
           "package": "york-lava",
@@ -4084,6 +4433,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N117",
           "package": "york-lava",
@@ -4096,6 +4446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N118",
           "package": "york-lava",
@@ -4104,6 +4455,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N118",
           "package": "york-lava",
@@ -4116,6 +4468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N119",
           "package": "york-lava",
@@ -4124,6 +4477,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N119",
           "package": "york-lava",
@@ -4136,6 +4490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N12",
           "package": "york-lava",
@@ -4144,6 +4499,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N12",
           "package": "york-lava",
@@ -4156,6 +4512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N120",
           "package": "york-lava",
@@ -4164,6 +4521,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N120",
           "package": "york-lava",
@@ -4176,6 +4534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N121",
           "package": "york-lava",
@@ -4184,6 +4543,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N121",
           "package": "york-lava",
@@ -4196,6 +4556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N122",
           "package": "york-lava",
@@ -4204,6 +4565,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N122",
           "package": "york-lava",
@@ -4216,6 +4578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N123",
           "package": "york-lava",
@@ -4224,6 +4587,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N123",
           "package": "york-lava",
@@ -4236,6 +4600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N124",
           "package": "york-lava",
@@ -4244,6 +4609,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N124",
           "package": "york-lava",
@@ -4256,6 +4622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N125",
           "package": "york-lava",
@@ -4264,6 +4631,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N125",
           "package": "york-lava",
@@ -4276,6 +4644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N126",
           "package": "york-lava",
@@ -4284,6 +4653,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N126",
           "package": "york-lava",
@@ -4296,6 +4666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N127",
           "package": "york-lava",
@@ -4304,6 +4675,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N127",
           "package": "york-lava",
@@ -4316,6 +4688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N128",
           "package": "york-lava",
@@ -4324,6 +4697,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N128",
           "package": "york-lava",
@@ -4336,6 +4710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N129",
           "package": "york-lava",
@@ -4344,6 +4719,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N129",
           "package": "york-lava",
@@ -4356,6 +4732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N13",
           "package": "york-lava",
@@ -4364,6 +4741,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N13",
           "package": "york-lava",
@@ -4376,6 +4754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N130",
           "package": "york-lava",
@@ -4384,6 +4763,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N130",
           "package": "york-lava",
@@ -4396,6 +4776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N131",
           "package": "york-lava",
@@ -4404,6 +4785,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N131",
           "package": "york-lava",
@@ -4416,6 +4798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N132",
           "package": "york-lava",
@@ -4424,6 +4807,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N132",
           "package": "york-lava",
@@ -4436,6 +4820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N133",
           "package": "york-lava",
@@ -4444,6 +4829,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N133",
           "package": "york-lava",
@@ -4456,6 +4842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N134",
           "package": "york-lava",
@@ -4464,6 +4851,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N134",
           "package": "york-lava",
@@ -4476,6 +4864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N135",
           "package": "york-lava",
@@ -4484,6 +4873,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N135",
           "package": "york-lava",
@@ -4496,6 +4886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N136",
           "package": "york-lava",
@@ -4504,6 +4895,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N136",
           "package": "york-lava",
@@ -4516,6 +4908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N137",
           "package": "york-lava",
@@ -4524,6 +4917,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N137",
           "package": "york-lava",
@@ -4536,6 +4930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N138",
           "package": "york-lava",
@@ -4544,6 +4939,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N138",
           "package": "york-lava",
@@ -4556,6 +4952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N139",
           "package": "york-lava",
@@ -4564,6 +4961,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N139",
           "package": "york-lava",
@@ -4576,6 +4974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N14",
           "package": "york-lava",
@@ -4584,6 +4983,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N14",
           "package": "york-lava",
@@ -4596,6 +4996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N140",
           "package": "york-lava",
@@ -4604,6 +5005,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N140",
           "package": "york-lava",
@@ -4616,6 +5018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N141",
           "package": "york-lava",
@@ -4624,6 +5027,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N141",
           "package": "york-lava",
@@ -4636,6 +5040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N142",
           "package": "york-lava",
@@ -4644,6 +5049,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N142",
           "package": "york-lava",
@@ -4656,6 +5062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N143",
           "package": "york-lava",
@@ -4664,6 +5071,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N143",
           "package": "york-lava",
@@ -4676,6 +5084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N144",
           "package": "york-lava",
@@ -4684,6 +5093,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N144",
           "package": "york-lava",
@@ -4696,6 +5106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N145",
           "package": "york-lava",
@@ -4704,6 +5115,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N145",
           "package": "york-lava",
@@ -4716,6 +5128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N146",
           "package": "york-lava",
@@ -4724,6 +5137,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N146",
           "package": "york-lava",
@@ -4736,6 +5150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N147",
           "package": "york-lava",
@@ -4744,6 +5159,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N147",
           "package": "york-lava",
@@ -4756,6 +5172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N148",
           "package": "york-lava",
@@ -4764,6 +5181,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N148",
           "package": "york-lava",
@@ -4776,6 +5194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N149",
           "package": "york-lava",
@@ -4784,6 +5203,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N149",
           "package": "york-lava",
@@ -4796,6 +5216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N15",
           "package": "york-lava",
@@ -4804,6 +5225,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N15",
           "package": "york-lava",
@@ -4816,6 +5238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N150",
           "package": "york-lava",
@@ -4824,6 +5247,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N150",
           "package": "york-lava",
@@ -4836,6 +5260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N151",
           "package": "york-lava",
@@ -4844,6 +5269,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N151",
           "package": "york-lava",
@@ -4856,6 +5282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N152",
           "package": "york-lava",
@@ -4864,6 +5291,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N152",
           "package": "york-lava",
@@ -4876,6 +5304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N153",
           "package": "york-lava",
@@ -4884,6 +5313,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N153",
           "package": "york-lava",
@@ -4896,6 +5326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N154",
           "package": "york-lava",
@@ -4904,6 +5335,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N154",
           "package": "york-lava",
@@ -4916,6 +5348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N155",
           "package": "york-lava",
@@ -4924,6 +5357,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N155",
           "package": "york-lava",
@@ -4936,6 +5370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N156",
           "package": "york-lava",
@@ -4944,6 +5379,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N156",
           "package": "york-lava",
@@ -4956,6 +5392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N157",
           "package": "york-lava",
@@ -4964,6 +5401,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N157",
           "package": "york-lava",
@@ -4976,6 +5414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N158",
           "package": "york-lava",
@@ -4984,6 +5423,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N158",
           "package": "york-lava",
@@ -4996,6 +5436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N159",
           "package": "york-lava",
@@ -5004,6 +5445,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N159",
           "package": "york-lava",
@@ -5016,6 +5458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N16",
           "package": "york-lava",
@@ -5024,6 +5467,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N16",
           "package": "york-lava",
@@ -5036,6 +5480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N160",
           "package": "york-lava",
@@ -5044,6 +5489,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N160",
           "package": "york-lava",
@@ -5056,6 +5502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N161",
           "package": "york-lava",
@@ -5064,6 +5511,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N161",
           "package": "york-lava",
@@ -5076,6 +5524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N162",
           "package": "york-lava",
@@ -5084,6 +5533,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N162",
           "package": "york-lava",
@@ -5096,6 +5546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N163",
           "package": "york-lava",
@@ -5104,6 +5555,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N163",
           "package": "york-lava",
@@ -5116,6 +5568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N164",
           "package": "york-lava",
@@ -5124,6 +5577,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N164",
           "package": "york-lava",
@@ -5136,6 +5590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N165",
           "package": "york-lava",
@@ -5144,6 +5599,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N165",
           "package": "york-lava",
@@ -5156,6 +5612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N166",
           "package": "york-lava",
@@ -5164,6 +5621,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N166",
           "package": "york-lava",
@@ -5176,6 +5634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N167",
           "package": "york-lava",
@@ -5184,6 +5643,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N167",
           "package": "york-lava",
@@ -5196,6 +5656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N168",
           "package": "york-lava",
@@ -5204,6 +5665,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N168",
           "package": "york-lava",
@@ -5216,6 +5678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N169",
           "package": "york-lava",
@@ -5224,6 +5687,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N169",
           "package": "york-lava",
@@ -5236,6 +5700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N17",
           "package": "york-lava",
@@ -5244,6 +5709,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N17",
           "package": "york-lava",
@@ -5256,6 +5722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N170",
           "package": "york-lava",
@@ -5264,6 +5731,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N170",
           "package": "york-lava",
@@ -5276,6 +5744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N171",
           "package": "york-lava",
@@ -5284,6 +5753,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N171",
           "package": "york-lava",
@@ -5296,6 +5766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N172",
           "package": "york-lava",
@@ -5304,6 +5775,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N172",
           "package": "york-lava",
@@ -5316,6 +5788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N173",
           "package": "york-lava",
@@ -5324,6 +5797,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N173",
           "package": "york-lava",
@@ -5336,6 +5810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N174",
           "package": "york-lava",
@@ -5344,6 +5819,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N174",
           "package": "york-lava",
@@ -5356,6 +5832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N175",
           "package": "york-lava",
@@ -5364,6 +5841,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N175",
           "package": "york-lava",
@@ -5376,6 +5854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N176",
           "package": "york-lava",
@@ -5384,6 +5863,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N176",
           "package": "york-lava",
@@ -5396,6 +5876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N177",
           "package": "york-lava",
@@ -5404,6 +5885,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N177",
           "package": "york-lava",
@@ -5416,6 +5898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N178",
           "package": "york-lava",
@@ -5424,6 +5907,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N178",
           "package": "york-lava",
@@ -5436,6 +5920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N179",
           "package": "york-lava",
@@ -5444,6 +5929,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N179",
           "package": "york-lava",
@@ -5456,6 +5942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N18",
           "package": "york-lava",
@@ -5464,6 +5951,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N18",
           "package": "york-lava",
@@ -5476,6 +5964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N180",
           "package": "york-lava",
@@ -5484,6 +5973,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N180",
           "package": "york-lava",
@@ -5496,6 +5986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N181",
           "package": "york-lava",
@@ -5504,6 +5995,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N181",
           "package": "york-lava",
@@ -5516,6 +6008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N182",
           "package": "york-lava",
@@ -5524,6 +6017,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N182",
           "package": "york-lava",
@@ -5536,6 +6030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N183",
           "package": "york-lava",
@@ -5544,6 +6039,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N183",
           "package": "york-lava",
@@ -5556,6 +6052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N184",
           "package": "york-lava",
@@ -5564,6 +6061,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N184",
           "package": "york-lava",
@@ -5576,6 +6074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N185",
           "package": "york-lava",
@@ -5584,6 +6083,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N185",
           "package": "york-lava",
@@ -5596,6 +6096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N186",
           "package": "york-lava",
@@ -5604,6 +6105,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N186",
           "package": "york-lava",
@@ -5616,6 +6118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N187",
           "package": "york-lava",
@@ -5624,6 +6127,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N187",
           "package": "york-lava",
@@ -5636,6 +6140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N188",
           "package": "york-lava",
@@ -5644,6 +6149,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N188",
           "package": "york-lava",
@@ -5656,6 +6162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N189",
           "package": "york-lava",
@@ -5664,6 +6171,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N189",
           "package": "york-lava",
@@ -5676,6 +6184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N19",
           "package": "york-lava",
@@ -5684,6 +6193,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N19",
           "package": "york-lava",
@@ -5696,6 +6206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N190",
           "package": "york-lava",
@@ -5704,6 +6215,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N190",
           "package": "york-lava",
@@ -5716,6 +6228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N191",
           "package": "york-lava",
@@ -5724,6 +6237,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N191",
           "package": "york-lava",
@@ -5736,6 +6250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N192",
           "package": "york-lava",
@@ -5744,6 +6259,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N192",
           "package": "york-lava",
@@ -5756,6 +6272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N193",
           "package": "york-lava",
@@ -5764,6 +6281,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N193",
           "package": "york-lava",
@@ -5776,6 +6294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N194",
           "package": "york-lava",
@@ -5784,6 +6303,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N194",
           "package": "york-lava",
@@ -5796,6 +6316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N195",
           "package": "york-lava",
@@ -5804,6 +6325,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N195",
           "package": "york-lava",
@@ -5816,6 +6338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N196",
           "package": "york-lava",
@@ -5824,6 +6347,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N196",
           "package": "york-lava",
@@ -5836,6 +6360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N197",
           "package": "york-lava",
@@ -5844,6 +6369,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N197",
           "package": "york-lava",
@@ -5856,6 +6382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N198",
           "package": "york-lava",
@@ -5864,6 +6391,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N198",
           "package": "york-lava",
@@ -5876,6 +6404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N199",
           "package": "york-lava",
@@ -5884,6 +6413,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N199",
           "package": "york-lava",
@@ -5896,6 +6426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N2",
           "package": "york-lava",
@@ -5904,6 +6435,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N2",
           "package": "york-lava",
@@ -5916,6 +6448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N20",
           "package": "york-lava",
@@ -5924,6 +6457,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N20",
           "package": "york-lava",
@@ -5936,6 +6470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N200",
           "package": "york-lava",
@@ -5944,6 +6479,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N200",
           "package": "york-lava",
@@ -5956,6 +6492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N201",
           "package": "york-lava",
@@ -5964,6 +6501,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N201",
           "package": "york-lava",
@@ -5976,6 +6514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N202",
           "package": "york-lava",
@@ -5984,6 +6523,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N202",
           "package": "york-lava",
@@ -5996,6 +6536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N203",
           "package": "york-lava",
@@ -6004,6 +6545,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N203",
           "package": "york-lava",
@@ -6016,6 +6558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N204",
           "package": "york-lava",
@@ -6024,6 +6567,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N204",
           "package": "york-lava",
@@ -6036,6 +6580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N205",
           "package": "york-lava",
@@ -6044,6 +6589,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N205",
           "package": "york-lava",
@@ -6056,6 +6602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N206",
           "package": "york-lava",
@@ -6064,6 +6611,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N206",
           "package": "york-lava",
@@ -6076,6 +6624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N207",
           "package": "york-lava",
@@ -6084,6 +6633,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N207",
           "package": "york-lava",
@@ -6096,6 +6646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N208",
           "package": "york-lava",
@@ -6104,6 +6655,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N208",
           "package": "york-lava",
@@ -6116,6 +6668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N209",
           "package": "york-lava",
@@ -6124,6 +6677,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N209",
           "package": "york-lava",
@@ -6136,6 +6690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N21",
           "package": "york-lava",
@@ -6144,6 +6699,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N21",
           "package": "york-lava",
@@ -6156,6 +6712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N210",
           "package": "york-lava",
@@ -6164,6 +6721,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N210",
           "package": "york-lava",
@@ -6176,6 +6734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N211",
           "package": "york-lava",
@@ -6184,6 +6743,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N211",
           "package": "york-lava",
@@ -6196,6 +6756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N212",
           "package": "york-lava",
@@ -6204,6 +6765,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N212",
           "package": "york-lava",
@@ -6216,6 +6778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N213",
           "package": "york-lava",
@@ -6224,6 +6787,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N213",
           "package": "york-lava",
@@ -6236,6 +6800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N214",
           "package": "york-lava",
@@ -6244,6 +6809,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N214",
           "package": "york-lava",
@@ -6256,6 +6822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N215",
           "package": "york-lava",
@@ -6264,6 +6831,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N215",
           "package": "york-lava",
@@ -6276,6 +6844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N216",
           "package": "york-lava",
@@ -6284,6 +6853,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N216",
           "package": "york-lava",
@@ -6296,6 +6866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N217",
           "package": "york-lava",
@@ -6304,6 +6875,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N217",
           "package": "york-lava",
@@ -6316,6 +6888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N218",
           "package": "york-lava",
@@ -6324,6 +6897,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N218",
           "package": "york-lava",
@@ -6336,6 +6910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N219",
           "package": "york-lava",
@@ -6344,6 +6919,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N219",
           "package": "york-lava",
@@ -6356,6 +6932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N22",
           "package": "york-lava",
@@ -6364,6 +6941,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N22",
           "package": "york-lava",
@@ -6376,6 +6954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N220",
           "package": "york-lava",
@@ -6384,6 +6963,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N220",
           "package": "york-lava",
@@ -6396,6 +6976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N221",
           "package": "york-lava",
@@ -6404,6 +6985,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N221",
           "package": "york-lava",
@@ -6416,6 +6998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N222",
           "package": "york-lava",
@@ -6424,6 +7007,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N222",
           "package": "york-lava",
@@ -6436,6 +7020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N223",
           "package": "york-lava",
@@ -6444,6 +7029,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N223",
           "package": "york-lava",
@@ -6456,6 +7042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N224",
           "package": "york-lava",
@@ -6464,6 +7051,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N224",
           "package": "york-lava",
@@ -6476,6 +7064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N225",
           "package": "york-lava",
@@ -6484,6 +7073,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N225",
           "package": "york-lava",
@@ -6496,6 +7086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N226",
           "package": "york-lava",
@@ -6504,6 +7095,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N226",
           "package": "york-lava",
@@ -6516,6 +7108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N227",
           "package": "york-lava",
@@ -6524,6 +7117,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N227",
           "package": "york-lava",
@@ -6536,6 +7130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N228",
           "package": "york-lava",
@@ -6544,6 +7139,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N228",
           "package": "york-lava",
@@ -6556,6 +7152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N229",
           "package": "york-lava",
@@ -6564,6 +7161,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N229",
           "package": "york-lava",
@@ -6576,6 +7174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N23",
           "package": "york-lava",
@@ -6584,6 +7183,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N23",
           "package": "york-lava",
@@ -6596,6 +7196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N230",
           "package": "york-lava",
@@ -6604,6 +7205,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N230",
           "package": "york-lava",
@@ -6616,6 +7218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N231",
           "package": "york-lava",
@@ -6624,6 +7227,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N231",
           "package": "york-lava",
@@ -6636,6 +7240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N232",
           "package": "york-lava",
@@ -6644,6 +7249,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N232",
           "package": "york-lava",
@@ -6656,6 +7262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N233",
           "package": "york-lava",
@@ -6664,6 +7271,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N233",
           "package": "york-lava",
@@ -6676,6 +7284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N234",
           "package": "york-lava",
@@ -6684,6 +7293,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N234",
           "package": "york-lava",
@@ -6696,6 +7306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N235",
           "package": "york-lava",
@@ -6704,6 +7315,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N235",
           "package": "york-lava",
@@ -6716,6 +7328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N236",
           "package": "york-lava",
@@ -6724,6 +7337,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N236",
           "package": "york-lava",
@@ -6736,6 +7350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N237",
           "package": "york-lava",
@@ -6744,6 +7359,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N237",
           "package": "york-lava",
@@ -6756,6 +7372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N238",
           "package": "york-lava",
@@ -6764,6 +7381,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N238",
           "package": "york-lava",
@@ -6776,6 +7394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N239",
           "package": "york-lava",
@@ -6784,6 +7403,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N239",
           "package": "york-lava",
@@ -6796,6 +7416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N24",
           "package": "york-lava",
@@ -6804,6 +7425,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N24",
           "package": "york-lava",
@@ -6816,6 +7438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N240",
           "package": "york-lava",
@@ -6824,6 +7447,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N240",
           "package": "york-lava",
@@ -6836,6 +7460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N241",
           "package": "york-lava",
@@ -6844,6 +7469,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N241",
           "package": "york-lava",
@@ -6856,6 +7482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N242",
           "package": "york-lava",
@@ -6864,6 +7491,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N242",
           "package": "york-lava",
@@ -6876,6 +7504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N243",
           "package": "york-lava",
@@ -6884,6 +7513,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N243",
           "package": "york-lava",
@@ -6896,6 +7526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N244",
           "package": "york-lava",
@@ -6904,6 +7535,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N244",
           "package": "york-lava",
@@ -6916,6 +7548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N245",
           "package": "york-lava",
@@ -6924,6 +7557,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N245",
           "package": "york-lava",
@@ -6936,6 +7570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N246",
           "package": "york-lava",
@@ -6944,6 +7579,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N246",
           "package": "york-lava",
@@ -6956,6 +7592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N247",
           "package": "york-lava",
@@ -6964,6 +7601,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N247",
           "package": "york-lava",
@@ -6976,6 +7614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N248",
           "package": "york-lava",
@@ -6984,6 +7623,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N248",
           "package": "york-lava",
@@ -6996,6 +7636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N249",
           "package": "york-lava",
@@ -7004,6 +7645,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N249",
           "package": "york-lava",
@@ -7016,6 +7658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N25",
           "package": "york-lava",
@@ -7024,6 +7667,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N25",
           "package": "york-lava",
@@ -7036,6 +7680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N250",
           "package": "york-lava",
@@ -7044,6 +7689,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N250",
           "package": "york-lava",
@@ -7056,6 +7702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N251",
           "package": "york-lava",
@@ -7064,6 +7711,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N251",
           "package": "york-lava",
@@ -7076,6 +7724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N252",
           "package": "york-lava",
@@ -7084,6 +7733,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N252",
           "package": "york-lava",
@@ -7096,6 +7746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N253",
           "package": "york-lava",
@@ -7104,6 +7755,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N253",
           "package": "york-lava",
@@ -7116,6 +7768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N254",
           "package": "york-lava",
@@ -7124,6 +7777,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N254",
           "package": "york-lava",
@@ -7136,6 +7790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N255",
           "package": "york-lava",
@@ -7144,6 +7799,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N255",
           "package": "york-lava",
@@ -7156,6 +7812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N26",
           "package": "york-lava",
@@ -7164,6 +7821,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N26",
           "package": "york-lava",
@@ -7176,6 +7834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N27",
           "package": "york-lava",
@@ -7184,6 +7843,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N27",
           "package": "york-lava",
@@ -7196,6 +7856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N28",
           "package": "york-lava",
@@ -7204,6 +7865,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N28",
           "package": "york-lava",
@@ -7216,6 +7878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N29",
           "package": "york-lava",
@@ -7224,6 +7887,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N29",
           "package": "york-lava",
@@ -7236,6 +7900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N3",
           "package": "york-lava",
@@ -7244,6 +7909,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N3",
           "package": "york-lava",
@@ -7256,6 +7922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N30",
           "package": "york-lava",
@@ -7264,6 +7931,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N30",
           "package": "york-lava",
@@ -7276,6 +7944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N31",
           "package": "york-lava",
@@ -7284,6 +7953,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N31",
           "package": "york-lava",
@@ -7296,6 +7966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N32",
           "package": "york-lava",
@@ -7304,6 +7975,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N32",
           "package": "york-lava",
@@ -7316,6 +7988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N33",
           "package": "york-lava",
@@ -7324,6 +7997,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N33",
           "package": "york-lava",
@@ -7336,6 +8010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N34",
           "package": "york-lava",
@@ -7344,6 +8019,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N34",
           "package": "york-lava",
@@ -7356,6 +8032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N35",
           "package": "york-lava",
@@ -7364,6 +8041,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N35",
           "package": "york-lava",
@@ -7376,6 +8054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N36",
           "package": "york-lava",
@@ -7384,6 +8063,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N36",
           "package": "york-lava",
@@ -7396,6 +8076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N37",
           "package": "york-lava",
@@ -7404,6 +8085,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N37",
           "package": "york-lava",
@@ -7416,6 +8098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N38",
           "package": "york-lava",
@@ -7424,6 +8107,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N38",
           "package": "york-lava",
@@ -7436,6 +8120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N39",
           "package": "york-lava",
@@ -7444,6 +8129,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N39",
           "package": "york-lava",
@@ -7456,6 +8142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N4",
           "package": "york-lava",
@@ -7464,6 +8151,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N4",
           "package": "york-lava",
@@ -7476,6 +8164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N40",
           "package": "york-lava",
@@ -7484,6 +8173,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N40",
           "package": "york-lava",
@@ -7496,6 +8186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N41",
           "package": "york-lava",
@@ -7504,6 +8195,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N41",
           "package": "york-lava",
@@ -7516,6 +8208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N42",
           "package": "york-lava",
@@ -7524,6 +8217,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N42",
           "package": "york-lava",
@@ -7536,6 +8230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N43",
           "package": "york-lava",
@@ -7544,6 +8239,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N43",
           "package": "york-lava",
@@ -7556,6 +8252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N44",
           "package": "york-lava",
@@ -7564,6 +8261,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N44",
           "package": "york-lava",
@@ -7576,6 +8274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N45",
           "package": "york-lava",
@@ -7584,6 +8283,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N45",
           "package": "york-lava",
@@ -7596,6 +8296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N46",
           "package": "york-lava",
@@ -7604,6 +8305,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N46",
           "package": "york-lava",
@@ -7616,6 +8318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N47",
           "package": "york-lava",
@@ -7624,6 +8327,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N47",
           "package": "york-lava",
@@ -7636,6 +8340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N48",
           "package": "york-lava",
@@ -7644,6 +8349,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N48",
           "package": "york-lava",
@@ -7656,6 +8362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N49",
           "package": "york-lava",
@@ -7664,6 +8371,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N49",
           "package": "york-lava",
@@ -7676,6 +8384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N5",
           "package": "york-lava",
@@ -7684,6 +8393,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N5",
           "package": "york-lava",
@@ -7696,6 +8406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N50",
           "package": "york-lava",
@@ -7704,6 +8415,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N50",
           "package": "york-lava",
@@ -7716,6 +8428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N51",
           "package": "york-lava",
@@ -7724,6 +8437,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N51",
           "package": "york-lava",
@@ -7736,6 +8450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N52",
           "package": "york-lava",
@@ -7744,6 +8459,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N52",
           "package": "york-lava",
@@ -7756,6 +8472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N53",
           "package": "york-lava",
@@ -7764,6 +8481,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N53",
           "package": "york-lava",
@@ -7776,6 +8494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N54",
           "package": "york-lava",
@@ -7784,6 +8503,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N54",
           "package": "york-lava",
@@ -7796,6 +8516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N55",
           "package": "york-lava",
@@ -7804,6 +8525,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N55",
           "package": "york-lava",
@@ -7816,6 +8538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N56",
           "package": "york-lava",
@@ -7824,6 +8547,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N56",
           "package": "york-lava",
@@ -7836,6 +8560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N57",
           "package": "york-lava",
@@ -7844,6 +8569,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N57",
           "package": "york-lava",
@@ -7856,6 +8582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N58",
           "package": "york-lava",
@@ -7864,6 +8591,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N58",
           "package": "york-lava",
@@ -7876,6 +8604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N59",
           "package": "york-lava",
@@ -7884,6 +8613,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N59",
           "package": "york-lava",
@@ -7896,6 +8626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N6",
           "package": "york-lava",
@@ -7904,6 +8635,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N6",
           "package": "york-lava",
@@ -7916,6 +8648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N60",
           "package": "york-lava",
@@ -7924,6 +8657,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N60",
           "package": "york-lava",
@@ -7936,6 +8670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N61",
           "package": "york-lava",
@@ -7944,6 +8679,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N61",
           "package": "york-lava",
@@ -7956,6 +8692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N62",
           "package": "york-lava",
@@ -7964,6 +8701,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N62",
           "package": "york-lava",
@@ -7976,6 +8714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N63",
           "package": "york-lava",
@@ -7984,6 +8723,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N63",
           "package": "york-lava",
@@ -7996,6 +8736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N64",
           "package": "york-lava",
@@ -8004,6 +8745,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N64",
           "package": "york-lava",
@@ -8016,6 +8758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N65",
           "package": "york-lava",
@@ -8024,6 +8767,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N65",
           "package": "york-lava",
@@ -8036,6 +8780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N66",
           "package": "york-lava",
@@ -8044,6 +8789,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N66",
           "package": "york-lava",
@@ -8056,6 +8802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N67",
           "package": "york-lava",
@@ -8064,6 +8811,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N67",
           "package": "york-lava",
@@ -8076,6 +8824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N68",
           "package": "york-lava",
@@ -8084,6 +8833,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N68",
           "package": "york-lava",
@@ -8096,6 +8846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N69",
           "package": "york-lava",
@@ -8104,6 +8855,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N69",
           "package": "york-lava",
@@ -8116,6 +8868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N7",
           "package": "york-lava",
@@ -8124,6 +8877,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N7",
           "package": "york-lava",
@@ -8136,6 +8890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N70",
           "package": "york-lava",
@@ -8144,6 +8899,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N70",
           "package": "york-lava",
@@ -8156,6 +8912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N71",
           "package": "york-lava",
@@ -8164,6 +8921,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N71",
           "package": "york-lava",
@@ -8176,6 +8934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N72",
           "package": "york-lava",
@@ -8184,6 +8943,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N72",
           "package": "york-lava",
@@ -8196,6 +8956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N73",
           "package": "york-lava",
@@ -8204,6 +8965,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N73",
           "package": "york-lava",
@@ -8216,6 +8978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N74",
           "package": "york-lava",
@@ -8224,6 +8987,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N74",
           "package": "york-lava",
@@ -8236,6 +9000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N75",
           "package": "york-lava",
@@ -8244,6 +9009,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N75",
           "package": "york-lava",
@@ -8256,6 +9022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N76",
           "package": "york-lava",
@@ -8264,6 +9031,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N76",
           "package": "york-lava",
@@ -8276,6 +9044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N77",
           "package": "york-lava",
@@ -8284,6 +9053,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N77",
           "package": "york-lava",
@@ -8296,6 +9066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N78",
           "package": "york-lava",
@@ -8304,6 +9075,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N78",
           "package": "york-lava",
@@ -8316,6 +9088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N79",
           "package": "york-lava",
@@ -8324,6 +9097,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N79",
           "package": "york-lava",
@@ -8336,6 +9110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N8",
           "package": "york-lava",
@@ -8344,6 +9119,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N8",
           "package": "york-lava",
@@ -8356,6 +9132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N80",
           "package": "york-lava",
@@ -8364,6 +9141,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N80",
           "package": "york-lava",
@@ -8376,6 +9154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N81",
           "package": "york-lava",
@@ -8384,6 +9163,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N81",
           "package": "york-lava",
@@ -8396,6 +9176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N82",
           "package": "york-lava",
@@ -8404,6 +9185,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N82",
           "package": "york-lava",
@@ -8416,6 +9198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N83",
           "package": "york-lava",
@@ -8424,6 +9207,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N83",
           "package": "york-lava",
@@ -8436,6 +9220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N84",
           "package": "york-lava",
@@ -8444,6 +9229,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N84",
           "package": "york-lava",
@@ -8456,6 +9242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N85",
           "package": "york-lava",
@@ -8464,6 +9251,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N85",
           "package": "york-lava",
@@ -8476,6 +9264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N86",
           "package": "york-lava",
@@ -8484,6 +9273,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N86",
           "package": "york-lava",
@@ -8496,6 +9286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N87",
           "package": "york-lava",
@@ -8504,6 +9295,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N87",
           "package": "york-lava",
@@ -8516,6 +9308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N88",
           "package": "york-lava",
@@ -8524,6 +9317,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N88",
           "package": "york-lava",
@@ -8536,6 +9330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N89",
           "package": "york-lava",
@@ -8544,6 +9339,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N89",
           "package": "york-lava",
@@ -8556,6 +9352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N9",
           "package": "york-lava",
@@ -8564,6 +9361,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N9",
           "package": "york-lava",
@@ -8576,6 +9374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N90",
           "package": "york-lava",
@@ -8584,6 +9383,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N90",
           "package": "york-lava",
@@ -8596,6 +9396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N91",
           "package": "york-lava",
@@ -8604,6 +9405,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N91",
           "package": "york-lava",
@@ -8616,6 +9418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N92",
           "package": "york-lava",
@@ -8624,6 +9427,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N92",
           "package": "york-lava",
@@ -8636,6 +9440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N93",
           "package": "york-lava",
@@ -8644,6 +9449,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N93",
           "package": "york-lava",
@@ -8656,6 +9462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N94",
           "package": "york-lava",
@@ -8664,6 +9471,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N94",
           "package": "york-lava",
@@ -8676,6 +9484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N95",
           "package": "york-lava",
@@ -8684,6 +9493,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N95",
           "package": "york-lava",
@@ -8696,6 +9506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N96",
           "package": "york-lava",
@@ -8704,6 +9515,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N96",
           "package": "york-lava",
@@ -8716,6 +9528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N97",
           "package": "york-lava",
@@ -8724,6 +9537,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N97",
           "package": "york-lava",
@@ -8736,6 +9550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N98",
           "package": "york-lava",
@@ -8744,6 +9559,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N98",
           "package": "york-lava",
@@ -8756,6 +9572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "N99",
           "package": "york-lava",
@@ -8764,6 +9581,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "N99",
           "package": "york-lava",
@@ -8776,6 +9594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "S",
           "package": "york-lava",
@@ -8784,6 +9603,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "S",
           "package": "york-lava",
@@ -8796,6 +9616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "Vec",
           "package": "york-lava",
@@ -8804,6 +9625,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "Vec",
           "package": "york-lava",
@@ -8817,6 +9639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "Z",
           "package": "york-lava",
@@ -8825,6 +9648,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "Z",
           "package": "york-lava",
@@ -8837,6 +9661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "(+\u003e)",
           "package": "york-lava",
@@ -8846,6 +9671,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "(+\u003e) +\u003e",
           "normalized": "a-\u003eVec b a-\u003eVec(S b)a",
@@ -8860,6 +9686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "(\u003c+)",
           "package": "york-lava",
@@ -8869,6 +9696,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "(\u003c+) \u003c+",
           "normalized": "Vec a b-\u003eb-\u003eVec(S a)b",
@@ -8883,6 +9711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "(\u003c++\u003e)",
           "package": "york-lava",
@@ -8892,6 +9721,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "(\u003c++\u003e) \u003c++\u003e",
           "normalized": "Vec a b-\u003eVec c b-\u003eVec d b",
@@ -8906,6 +9736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "Vec",
           "package": "york-lava",
@@ -8915,6 +9746,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "Vec",
           "normalized": "Vec[a]",
@@ -8930,6 +9762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n0",
           "package": "york-lava",
@@ -8939,6 +9772,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n0",
           "package": "york-lava",
@@ -8951,6 +9785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n1",
           "package": "york-lava",
@@ -8960,6 +9795,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n1",
           "package": "york-lava",
@@ -8972,6 +9808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n10",
           "package": "york-lava",
@@ -8981,6 +9818,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n10",
           "package": "york-lava",
@@ -8993,6 +9831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n100",
           "package": "york-lava",
@@ -9002,6 +9841,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n100",
           "package": "york-lava",
@@ -9014,6 +9854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n101",
           "package": "york-lava",
@@ -9023,6 +9864,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n101",
           "package": "york-lava",
@@ -9035,6 +9877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n102",
           "package": "york-lava",
@@ -9044,6 +9887,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n102",
           "package": "york-lava",
@@ -9056,6 +9900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n103",
           "package": "york-lava",
@@ -9065,6 +9910,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n103",
           "package": "york-lava",
@@ -9077,6 +9923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n104",
           "package": "york-lava",
@@ -9086,6 +9933,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n104",
           "package": "york-lava",
@@ -9098,6 +9946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n105",
           "package": "york-lava",
@@ -9107,6 +9956,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n105",
           "package": "york-lava",
@@ -9119,6 +9969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n106",
           "package": "york-lava",
@@ -9128,6 +9979,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n106",
           "package": "york-lava",
@@ -9140,6 +9992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n107",
           "package": "york-lava",
@@ -9149,6 +10002,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n107",
           "package": "york-lava",
@@ -9161,6 +10015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n108",
           "package": "york-lava",
@@ -9170,6 +10025,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n108",
           "package": "york-lava",
@@ -9182,6 +10038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n109",
           "package": "york-lava",
@@ -9191,6 +10048,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n109",
           "package": "york-lava",
@@ -9203,6 +10061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n11",
           "package": "york-lava",
@@ -9212,6 +10071,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n11",
           "package": "york-lava",
@@ -9224,6 +10084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n110",
           "package": "york-lava",
@@ -9233,6 +10094,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n110",
           "package": "york-lava",
@@ -9245,6 +10107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n111",
           "package": "york-lava",
@@ -9254,6 +10117,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n111",
           "package": "york-lava",
@@ -9266,6 +10130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n112",
           "package": "york-lava",
@@ -9275,6 +10140,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n112",
           "package": "york-lava",
@@ -9287,6 +10153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n113",
           "package": "york-lava",
@@ -9296,6 +10163,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n113",
           "package": "york-lava",
@@ -9308,6 +10176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n114",
           "package": "york-lava",
@@ -9317,6 +10186,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n114",
           "package": "york-lava",
@@ -9329,6 +10199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n115",
           "package": "york-lava",
@@ -9338,6 +10209,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n115",
           "package": "york-lava",
@@ -9350,6 +10222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n116",
           "package": "york-lava",
@@ -9359,6 +10232,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n116",
           "package": "york-lava",
@@ -9371,6 +10245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n117",
           "package": "york-lava",
@@ -9380,6 +10255,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n117",
           "package": "york-lava",
@@ -9392,6 +10268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n118",
           "package": "york-lava",
@@ -9401,6 +10278,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n118",
           "package": "york-lava",
@@ -9413,6 +10291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n119",
           "package": "york-lava",
@@ -9422,6 +10301,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n119",
           "package": "york-lava",
@@ -9434,6 +10314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n12",
           "package": "york-lava",
@@ -9443,6 +10324,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n12",
           "package": "york-lava",
@@ -9455,6 +10337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n120",
           "package": "york-lava",
@@ -9464,6 +10347,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n120",
           "package": "york-lava",
@@ -9476,6 +10360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n121",
           "package": "york-lava",
@@ -9485,6 +10370,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n121",
           "package": "york-lava",
@@ -9497,6 +10383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n122",
           "package": "york-lava",
@@ -9506,6 +10393,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n122",
           "package": "york-lava",
@@ -9518,6 +10406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n123",
           "package": "york-lava",
@@ -9527,6 +10416,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n123",
           "package": "york-lava",
@@ -9539,6 +10429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n124",
           "package": "york-lava",
@@ -9548,6 +10439,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n124",
           "package": "york-lava",
@@ -9560,6 +10452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n125",
           "package": "york-lava",
@@ -9569,6 +10462,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n125",
           "package": "york-lava",
@@ -9581,6 +10475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n126",
           "package": "york-lava",
@@ -9590,6 +10485,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n126",
           "package": "york-lava",
@@ -9602,6 +10498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n127",
           "package": "york-lava",
@@ -9611,6 +10508,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n127",
           "package": "york-lava",
@@ -9623,6 +10521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n128",
           "package": "york-lava",
@@ -9632,6 +10531,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n128",
           "package": "york-lava",
@@ -9644,6 +10544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n129",
           "package": "york-lava",
@@ -9653,6 +10554,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n129",
           "package": "york-lava",
@@ -9665,6 +10567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n13",
           "package": "york-lava",
@@ -9674,6 +10577,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n13",
           "package": "york-lava",
@@ -9686,6 +10590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n130",
           "package": "york-lava",
@@ -9695,6 +10600,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n130",
           "package": "york-lava",
@@ -9707,6 +10613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n131",
           "package": "york-lava",
@@ -9716,6 +10623,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n131",
           "package": "york-lava",
@@ -9728,6 +10636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n132",
           "package": "york-lava",
@@ -9737,6 +10646,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n132",
           "package": "york-lava",
@@ -9749,6 +10659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n133",
           "package": "york-lava",
@@ -9758,6 +10669,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n133",
           "package": "york-lava",
@@ -9770,6 +10682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n134",
           "package": "york-lava",
@@ -9779,6 +10692,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n134",
           "package": "york-lava",
@@ -9791,6 +10705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n135",
           "package": "york-lava",
@@ -9800,6 +10715,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n135",
           "package": "york-lava",
@@ -9812,6 +10728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n136",
           "package": "york-lava",
@@ -9821,6 +10738,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n136",
           "package": "york-lava",
@@ -9833,6 +10751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n137",
           "package": "york-lava",
@@ -9842,6 +10761,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n137",
           "package": "york-lava",
@@ -9854,6 +10774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n138",
           "package": "york-lava",
@@ -9863,6 +10784,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n138",
           "package": "york-lava",
@@ -9875,6 +10797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n139",
           "package": "york-lava",
@@ -9884,6 +10807,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n139",
           "package": "york-lava",
@@ -9896,6 +10820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n14",
           "package": "york-lava",
@@ -9905,6 +10830,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n14",
           "package": "york-lava",
@@ -9917,6 +10843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n140",
           "package": "york-lava",
@@ -9926,6 +10853,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n140",
           "package": "york-lava",
@@ -9938,6 +10866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n141",
           "package": "york-lava",
@@ -9947,6 +10876,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n141",
           "package": "york-lava",
@@ -9959,6 +10889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n142",
           "package": "york-lava",
@@ -9968,6 +10899,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n142",
           "package": "york-lava",
@@ -9980,6 +10912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n143",
           "package": "york-lava",
@@ -9989,6 +10922,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n143",
           "package": "york-lava",
@@ -10001,6 +10935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n144",
           "package": "york-lava",
@@ -10010,6 +10945,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n144",
           "package": "york-lava",
@@ -10022,6 +10958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n145",
           "package": "york-lava",
@@ -10031,6 +10968,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n145",
           "package": "york-lava",
@@ -10043,6 +10981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n146",
           "package": "york-lava",
@@ -10052,6 +10991,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n146",
           "package": "york-lava",
@@ -10064,6 +11004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n147",
           "package": "york-lava",
@@ -10073,6 +11014,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n147",
           "package": "york-lava",
@@ -10085,6 +11027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n148",
           "package": "york-lava",
@@ -10094,6 +11037,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n148",
           "package": "york-lava",
@@ -10106,6 +11050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n149",
           "package": "york-lava",
@@ -10115,6 +11060,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n149",
           "package": "york-lava",
@@ -10127,6 +11073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n15",
           "package": "york-lava",
@@ -10136,6 +11083,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n15",
           "package": "york-lava",
@@ -10148,6 +11096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n150",
           "package": "york-lava",
@@ -10157,6 +11106,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n150",
           "package": "york-lava",
@@ -10169,6 +11119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n151",
           "package": "york-lava",
@@ -10178,6 +11129,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n151",
           "package": "york-lava",
@@ -10190,6 +11142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n152",
           "package": "york-lava",
@@ -10199,6 +11152,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n152",
           "package": "york-lava",
@@ -10211,6 +11165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n153",
           "package": "york-lava",
@@ -10220,6 +11175,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n153",
           "package": "york-lava",
@@ -10232,6 +11188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n154",
           "package": "york-lava",
@@ -10241,6 +11198,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n154",
           "package": "york-lava",
@@ -10253,6 +11211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n155",
           "package": "york-lava",
@@ -10262,6 +11221,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n155",
           "package": "york-lava",
@@ -10274,6 +11234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n156",
           "package": "york-lava",
@@ -10283,6 +11244,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n156",
           "package": "york-lava",
@@ -10295,6 +11257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n157",
           "package": "york-lava",
@@ -10304,6 +11267,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n157",
           "package": "york-lava",
@@ -10316,6 +11280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n158",
           "package": "york-lava",
@@ -10325,6 +11290,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n158",
           "package": "york-lava",
@@ -10337,6 +11303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n159",
           "package": "york-lava",
@@ -10346,6 +11313,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n159",
           "package": "york-lava",
@@ -10358,6 +11326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n16",
           "package": "york-lava",
@@ -10367,6 +11336,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n16",
           "package": "york-lava",
@@ -10379,6 +11349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n160",
           "package": "york-lava",
@@ -10388,6 +11359,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n160",
           "package": "york-lava",
@@ -10400,6 +11372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n161",
           "package": "york-lava",
@@ -10409,6 +11382,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n161",
           "package": "york-lava",
@@ -10421,6 +11395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n162",
           "package": "york-lava",
@@ -10430,6 +11405,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n162",
           "package": "york-lava",
@@ -10442,6 +11418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n163",
           "package": "york-lava",
@@ -10451,6 +11428,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n163",
           "package": "york-lava",
@@ -10463,6 +11441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n164",
           "package": "york-lava",
@@ -10472,6 +11451,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n164",
           "package": "york-lava",
@@ -10484,6 +11464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n165",
           "package": "york-lava",
@@ -10493,6 +11474,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n165",
           "package": "york-lava",
@@ -10505,6 +11487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n166",
           "package": "york-lava",
@@ -10514,6 +11497,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n166",
           "package": "york-lava",
@@ -10526,6 +11510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n167",
           "package": "york-lava",
@@ -10535,6 +11520,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n167",
           "package": "york-lava",
@@ -10547,6 +11533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n168",
           "package": "york-lava",
@@ -10556,6 +11543,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n168",
           "package": "york-lava",
@@ -10568,6 +11556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n169",
           "package": "york-lava",
@@ -10577,6 +11566,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n169",
           "package": "york-lava",
@@ -10589,6 +11579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n17",
           "package": "york-lava",
@@ -10598,6 +11589,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n17",
           "package": "york-lava",
@@ -10610,6 +11602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n170",
           "package": "york-lava",
@@ -10619,6 +11612,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n170",
           "package": "york-lava",
@@ -10631,6 +11625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n171",
           "package": "york-lava",
@@ -10640,6 +11635,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n171",
           "package": "york-lava",
@@ -10652,6 +11648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n172",
           "package": "york-lava",
@@ -10661,6 +11658,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n172",
           "package": "york-lava",
@@ -10673,6 +11671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n173",
           "package": "york-lava",
@@ -10682,6 +11681,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n173",
           "package": "york-lava",
@@ -10694,6 +11694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n174",
           "package": "york-lava",
@@ -10703,6 +11704,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n174",
           "package": "york-lava",
@@ -10715,6 +11717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n175",
           "package": "york-lava",
@@ -10724,6 +11727,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n175",
           "package": "york-lava",
@@ -10736,6 +11740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n176",
           "package": "york-lava",
@@ -10745,6 +11750,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n176",
           "package": "york-lava",
@@ -10757,6 +11763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n177",
           "package": "york-lava",
@@ -10766,6 +11773,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n177",
           "package": "york-lava",
@@ -10778,6 +11786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n178",
           "package": "york-lava",
@@ -10787,6 +11796,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n178",
           "package": "york-lava",
@@ -10799,6 +11809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n179",
           "package": "york-lava",
@@ -10808,6 +11819,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n179",
           "package": "york-lava",
@@ -10820,6 +11832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n18",
           "package": "york-lava",
@@ -10829,6 +11842,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n18",
           "package": "york-lava",
@@ -10841,6 +11855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n180",
           "package": "york-lava",
@@ -10850,6 +11865,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n180",
           "package": "york-lava",
@@ -10862,6 +11878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n181",
           "package": "york-lava",
@@ -10871,6 +11888,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n181",
           "package": "york-lava",
@@ -10883,6 +11901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n182",
           "package": "york-lava",
@@ -10892,6 +11911,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n182",
           "package": "york-lava",
@@ -10904,6 +11924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n183",
           "package": "york-lava",
@@ -10913,6 +11934,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n183",
           "package": "york-lava",
@@ -10925,6 +11947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n184",
           "package": "york-lava",
@@ -10934,6 +11957,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n184",
           "package": "york-lava",
@@ -10946,6 +11970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n185",
           "package": "york-lava",
@@ -10955,6 +11980,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n185",
           "package": "york-lava",
@@ -10967,6 +11993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n186",
           "package": "york-lava",
@@ -10976,6 +12003,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n186",
           "package": "york-lava",
@@ -10988,6 +12016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n187",
           "package": "york-lava",
@@ -10997,6 +12026,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n187",
           "package": "york-lava",
@@ -11009,6 +12039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n188",
           "package": "york-lava",
@@ -11018,6 +12049,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n188",
           "package": "york-lava",
@@ -11030,6 +12062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n189",
           "package": "york-lava",
@@ -11039,6 +12072,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n189",
           "package": "york-lava",
@@ -11051,6 +12085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n19",
           "package": "york-lava",
@@ -11060,6 +12095,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n19",
           "package": "york-lava",
@@ -11072,6 +12108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n190",
           "package": "york-lava",
@@ -11081,6 +12118,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n190",
           "package": "york-lava",
@@ -11093,6 +12131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n191",
           "package": "york-lava",
@@ -11102,6 +12141,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n191",
           "package": "york-lava",
@@ -11114,6 +12154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n192",
           "package": "york-lava",
@@ -11123,6 +12164,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n192",
           "package": "york-lava",
@@ -11135,6 +12177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n193",
           "package": "york-lava",
@@ -11144,6 +12187,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n193",
           "package": "york-lava",
@@ -11156,6 +12200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n194",
           "package": "york-lava",
@@ -11165,6 +12210,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n194",
           "package": "york-lava",
@@ -11177,6 +12223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n195",
           "package": "york-lava",
@@ -11186,6 +12233,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n195",
           "package": "york-lava",
@@ -11198,6 +12246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n196",
           "package": "york-lava",
@@ -11207,6 +12256,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n196",
           "package": "york-lava",
@@ -11219,6 +12269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n197",
           "package": "york-lava",
@@ -11228,6 +12279,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n197",
           "package": "york-lava",
@@ -11240,6 +12292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n198",
           "package": "york-lava",
@@ -11249,6 +12302,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n198",
           "package": "york-lava",
@@ -11261,6 +12315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n199",
           "package": "york-lava",
@@ -11270,6 +12325,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n199",
           "package": "york-lava",
@@ -11282,6 +12338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n2",
           "package": "york-lava",
@@ -11291,6 +12348,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n2",
           "package": "york-lava",
@@ -11303,6 +12361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n20",
           "package": "york-lava",
@@ -11312,6 +12371,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n20",
           "package": "york-lava",
@@ -11324,6 +12384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n200",
           "package": "york-lava",
@@ -11333,6 +12394,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n200",
           "package": "york-lava",
@@ -11345,6 +12407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n201",
           "package": "york-lava",
@@ -11354,6 +12417,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n201",
           "package": "york-lava",
@@ -11366,6 +12430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n202",
           "package": "york-lava",
@@ -11375,6 +12440,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n202",
           "package": "york-lava",
@@ -11387,6 +12453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n203",
           "package": "york-lava",
@@ -11396,6 +12463,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n203",
           "package": "york-lava",
@@ -11408,6 +12476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n204",
           "package": "york-lava",
@@ -11417,6 +12486,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n204",
           "package": "york-lava",
@@ -11429,6 +12499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n205",
           "package": "york-lava",
@@ -11438,6 +12509,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n205",
           "package": "york-lava",
@@ -11450,6 +12522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n206",
           "package": "york-lava",
@@ -11459,6 +12532,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n206",
           "package": "york-lava",
@@ -11471,6 +12545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n207",
           "package": "york-lava",
@@ -11480,6 +12555,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n207",
           "package": "york-lava",
@@ -11492,6 +12568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n208",
           "package": "york-lava",
@@ -11501,6 +12578,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n208",
           "package": "york-lava",
@@ -11513,6 +12591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n209",
           "package": "york-lava",
@@ -11522,6 +12601,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n209",
           "package": "york-lava",
@@ -11534,6 +12614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n21",
           "package": "york-lava",
@@ -11543,6 +12624,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n21",
           "package": "york-lava",
@@ -11555,6 +12637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n210",
           "package": "york-lava",
@@ -11564,6 +12647,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n210",
           "package": "york-lava",
@@ -11576,6 +12660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n211",
           "package": "york-lava",
@@ -11585,6 +12670,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n211",
           "package": "york-lava",
@@ -11597,6 +12683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n212",
           "package": "york-lava",
@@ -11606,6 +12693,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n212",
           "package": "york-lava",
@@ -11618,6 +12706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n213",
           "package": "york-lava",
@@ -11627,6 +12716,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n213",
           "package": "york-lava",
@@ -11639,6 +12729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n214",
           "package": "york-lava",
@@ -11648,6 +12739,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n214",
           "package": "york-lava",
@@ -11660,6 +12752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n215",
           "package": "york-lava",
@@ -11669,6 +12762,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n215",
           "package": "york-lava",
@@ -11681,6 +12775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n216",
           "package": "york-lava",
@@ -11690,6 +12785,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n216",
           "package": "york-lava",
@@ -11702,6 +12798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n217",
           "package": "york-lava",
@@ -11711,6 +12808,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n217",
           "package": "york-lava",
@@ -11723,6 +12821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n218",
           "package": "york-lava",
@@ -11732,6 +12831,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n218",
           "package": "york-lava",
@@ -11744,6 +12844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n219",
           "package": "york-lava",
@@ -11753,6 +12854,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n219",
           "package": "york-lava",
@@ -11765,6 +12867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n22",
           "package": "york-lava",
@@ -11774,6 +12877,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n22",
           "package": "york-lava",
@@ -11786,6 +12890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n220",
           "package": "york-lava",
@@ -11795,6 +12900,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n220",
           "package": "york-lava",
@@ -11807,6 +12913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n221",
           "package": "york-lava",
@@ -11816,6 +12923,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n221",
           "package": "york-lava",
@@ -11828,6 +12936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n222",
           "package": "york-lava",
@@ -11837,6 +12946,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n222",
           "package": "york-lava",
@@ -11849,6 +12959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n223",
           "package": "york-lava",
@@ -11858,6 +12969,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n223",
           "package": "york-lava",
@@ -11870,6 +12982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n224",
           "package": "york-lava",
@@ -11879,6 +12992,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n224",
           "package": "york-lava",
@@ -11891,6 +13005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n225",
           "package": "york-lava",
@@ -11900,6 +13015,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n225",
           "package": "york-lava",
@@ -11912,6 +13028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n226",
           "package": "york-lava",
@@ -11921,6 +13038,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n226",
           "package": "york-lava",
@@ -11933,6 +13051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n227",
           "package": "york-lava",
@@ -11942,6 +13061,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n227",
           "package": "york-lava",
@@ -11954,6 +13074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n228",
           "package": "york-lava",
@@ -11963,6 +13084,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n228",
           "package": "york-lava",
@@ -11975,6 +13097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n229",
           "package": "york-lava",
@@ -11984,6 +13107,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n229",
           "package": "york-lava",
@@ -11996,6 +13120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n23",
           "package": "york-lava",
@@ -12005,6 +13130,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n23",
           "package": "york-lava",
@@ -12017,6 +13143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n230",
           "package": "york-lava",
@@ -12026,6 +13153,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n230",
           "package": "york-lava",
@@ -12038,6 +13166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n231",
           "package": "york-lava",
@@ -12047,6 +13176,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n231",
           "package": "york-lava",
@@ -12059,6 +13189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n232",
           "package": "york-lava",
@@ -12068,6 +13199,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n232",
           "package": "york-lava",
@@ -12080,6 +13212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n233",
           "package": "york-lava",
@@ -12089,6 +13222,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n233",
           "package": "york-lava",
@@ -12101,6 +13235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n234",
           "package": "york-lava",
@@ -12110,6 +13245,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n234",
           "package": "york-lava",
@@ -12122,6 +13258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n235",
           "package": "york-lava",
@@ -12131,6 +13268,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n235",
           "package": "york-lava",
@@ -12143,6 +13281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n236",
           "package": "york-lava",
@@ -12152,6 +13291,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n236",
           "package": "york-lava",
@@ -12164,6 +13304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n237",
           "package": "york-lava",
@@ -12173,6 +13314,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n237",
           "package": "york-lava",
@@ -12185,6 +13327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n238",
           "package": "york-lava",
@@ -12194,6 +13337,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n238",
           "package": "york-lava",
@@ -12206,6 +13350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n239",
           "package": "york-lava",
@@ -12215,6 +13360,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n239",
           "package": "york-lava",
@@ -12227,6 +13373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n24",
           "package": "york-lava",
@@ -12236,6 +13383,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n24",
           "package": "york-lava",
@@ -12248,6 +13396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n240",
           "package": "york-lava",
@@ -12257,6 +13406,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n240",
           "package": "york-lava",
@@ -12269,6 +13419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n241",
           "package": "york-lava",
@@ -12278,6 +13429,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n241",
           "package": "york-lava",
@@ -12290,6 +13442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n242",
           "package": "york-lava",
@@ -12299,6 +13452,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n242",
           "package": "york-lava",
@@ -12311,6 +13465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n243",
           "package": "york-lava",
@@ -12320,6 +13475,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n243",
           "package": "york-lava",
@@ -12332,6 +13488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n244",
           "package": "york-lava",
@@ -12341,6 +13498,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n244",
           "package": "york-lava",
@@ -12353,6 +13511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n245",
           "package": "york-lava",
@@ -12362,6 +13521,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n245",
           "package": "york-lava",
@@ -12374,6 +13534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n246",
           "package": "york-lava",
@@ -12383,6 +13544,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n246",
           "package": "york-lava",
@@ -12395,6 +13557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n247",
           "package": "york-lava",
@@ -12404,6 +13567,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n247",
           "package": "york-lava",
@@ -12416,6 +13580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n248",
           "package": "york-lava",
@@ -12425,6 +13590,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n248",
           "package": "york-lava",
@@ -12437,6 +13603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n249",
           "package": "york-lava",
@@ -12446,6 +13613,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n249",
           "package": "york-lava",
@@ -12458,6 +13626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n25",
           "package": "york-lava",
@@ -12467,6 +13636,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n25",
           "package": "york-lava",
@@ -12479,6 +13649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n250",
           "package": "york-lava",
@@ -12488,6 +13659,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n250",
           "package": "york-lava",
@@ -12500,6 +13672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n251",
           "package": "york-lava",
@@ -12509,6 +13682,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n251",
           "package": "york-lava",
@@ -12521,6 +13695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n252",
           "package": "york-lava",
@@ -12530,6 +13705,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n252",
           "package": "york-lava",
@@ -12542,6 +13718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n253",
           "package": "york-lava",
@@ -12551,6 +13728,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n253",
           "package": "york-lava",
@@ -12563,6 +13741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n254",
           "package": "york-lava",
@@ -12572,6 +13751,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n254",
           "package": "york-lava",
@@ -12584,6 +13764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n255",
           "package": "york-lava",
@@ -12593,6 +13774,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n255",
           "package": "york-lava",
@@ -12605,6 +13787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n26",
           "package": "york-lava",
@@ -12614,6 +13797,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n26",
           "package": "york-lava",
@@ -12626,6 +13810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n27",
           "package": "york-lava",
@@ -12635,6 +13820,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n27",
           "package": "york-lava",
@@ -12647,6 +13833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n28",
           "package": "york-lava",
@@ -12656,6 +13843,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n28",
           "package": "york-lava",
@@ -12668,6 +13856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n29",
           "package": "york-lava",
@@ -12677,6 +13866,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n29",
           "package": "york-lava",
@@ -12689,6 +13879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n3",
           "package": "york-lava",
@@ -12698,6 +13889,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n3",
           "package": "york-lava",
@@ -12710,6 +13902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n30",
           "package": "york-lava",
@@ -12719,6 +13912,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n30",
           "package": "york-lava",
@@ -12731,6 +13925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n31",
           "package": "york-lava",
@@ -12740,6 +13935,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n31",
           "package": "york-lava",
@@ -12752,6 +13948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n32",
           "package": "york-lava",
@@ -12761,6 +13958,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n32",
           "package": "york-lava",
@@ -12773,6 +13971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n33",
           "package": "york-lava",
@@ -12782,6 +13981,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n33",
           "package": "york-lava",
@@ -12794,6 +13994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n34",
           "package": "york-lava",
@@ -12803,6 +14004,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n34",
           "package": "york-lava",
@@ -12815,6 +14017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n35",
           "package": "york-lava",
@@ -12824,6 +14027,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n35",
           "package": "york-lava",
@@ -12836,6 +14040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n36",
           "package": "york-lava",
@@ -12845,6 +14050,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n36",
           "package": "york-lava",
@@ -12857,6 +14063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n37",
           "package": "york-lava",
@@ -12866,6 +14073,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n37",
           "package": "york-lava",
@@ -12878,6 +14086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n38",
           "package": "york-lava",
@@ -12887,6 +14096,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n38",
           "package": "york-lava",
@@ -12899,6 +14109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n39",
           "package": "york-lava",
@@ -12908,6 +14119,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n39",
           "package": "york-lava",
@@ -12920,6 +14132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n4",
           "package": "york-lava",
@@ -12929,6 +14142,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n4",
           "package": "york-lava",
@@ -12941,6 +14155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n40",
           "package": "york-lava",
@@ -12950,6 +14165,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n40",
           "package": "york-lava",
@@ -12962,6 +14178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n41",
           "package": "york-lava",
@@ -12971,6 +14188,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n41",
           "package": "york-lava",
@@ -12983,6 +14201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n42",
           "package": "york-lava",
@@ -12992,6 +14211,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n42",
           "package": "york-lava",
@@ -13004,6 +14224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n43",
           "package": "york-lava",
@@ -13013,6 +14234,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n43",
           "package": "york-lava",
@@ -13025,6 +14247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n44",
           "package": "york-lava",
@@ -13034,6 +14257,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n44",
           "package": "york-lava",
@@ -13046,6 +14270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n45",
           "package": "york-lava",
@@ -13055,6 +14280,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n45",
           "package": "york-lava",
@@ -13067,6 +14293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n46",
           "package": "york-lava",
@@ -13076,6 +14303,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n46",
           "package": "york-lava",
@@ -13088,6 +14316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n47",
           "package": "york-lava",
@@ -13097,6 +14326,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n47",
           "package": "york-lava",
@@ -13109,6 +14339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n48",
           "package": "york-lava",
@@ -13118,6 +14349,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n48",
           "package": "york-lava",
@@ -13130,6 +14362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n49",
           "package": "york-lava",
@@ -13139,6 +14372,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n49",
           "package": "york-lava",
@@ -13151,6 +14385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n5",
           "package": "york-lava",
@@ -13160,6 +14395,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n5",
           "package": "york-lava",
@@ -13172,6 +14408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n50",
           "package": "york-lava",
@@ -13181,6 +14418,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n50",
           "package": "york-lava",
@@ -13193,6 +14431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n51",
           "package": "york-lava",
@@ -13202,6 +14441,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n51",
           "package": "york-lava",
@@ -13214,6 +14454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n52",
           "package": "york-lava",
@@ -13223,6 +14464,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n52",
           "package": "york-lava",
@@ -13235,6 +14477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n53",
           "package": "york-lava",
@@ -13244,6 +14487,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n53",
           "package": "york-lava",
@@ -13256,6 +14500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n54",
           "package": "york-lava",
@@ -13265,6 +14510,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n54",
           "package": "york-lava",
@@ -13277,6 +14523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n55",
           "package": "york-lava",
@@ -13286,6 +14533,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n55",
           "package": "york-lava",
@@ -13298,6 +14546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n56",
           "package": "york-lava",
@@ -13307,6 +14556,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n56",
           "package": "york-lava",
@@ -13319,6 +14569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n57",
           "package": "york-lava",
@@ -13328,6 +14579,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n57",
           "package": "york-lava",
@@ -13340,6 +14592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n58",
           "package": "york-lava",
@@ -13349,6 +14602,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n58",
           "package": "york-lava",
@@ -13361,6 +14615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n59",
           "package": "york-lava",
@@ -13370,6 +14625,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n59",
           "package": "york-lava",
@@ -13382,6 +14638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n6",
           "package": "york-lava",
@@ -13391,6 +14648,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n6",
           "package": "york-lava",
@@ -13403,6 +14661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n60",
           "package": "york-lava",
@@ -13412,6 +14671,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n60",
           "package": "york-lava",
@@ -13424,6 +14684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n61",
           "package": "york-lava",
@@ -13433,6 +14694,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n61",
           "package": "york-lava",
@@ -13445,6 +14707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n62",
           "package": "york-lava",
@@ -13454,6 +14717,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n62",
           "package": "york-lava",
@@ -13466,6 +14730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n63",
           "package": "york-lava",
@@ -13475,6 +14740,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n63",
           "package": "york-lava",
@@ -13487,6 +14753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n64",
           "package": "york-lava",
@@ -13496,6 +14763,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n64",
           "package": "york-lava",
@@ -13508,6 +14776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n65",
           "package": "york-lava",
@@ -13517,6 +14786,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n65",
           "package": "york-lava",
@@ -13529,6 +14799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n66",
           "package": "york-lava",
@@ -13538,6 +14809,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n66",
           "package": "york-lava",
@@ -13550,6 +14822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n67",
           "package": "york-lava",
@@ -13559,6 +14832,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n67",
           "package": "york-lava",
@@ -13571,6 +14845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n68",
           "package": "york-lava",
@@ -13580,6 +14855,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n68",
           "package": "york-lava",
@@ -13592,6 +14868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n69",
           "package": "york-lava",
@@ -13601,6 +14878,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n69",
           "package": "york-lava",
@@ -13613,6 +14891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n7",
           "package": "york-lava",
@@ -13622,6 +14901,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n7",
           "package": "york-lava",
@@ -13634,6 +14914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n70",
           "package": "york-lava",
@@ -13643,6 +14924,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n70",
           "package": "york-lava",
@@ -13655,6 +14937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n71",
           "package": "york-lava",
@@ -13664,6 +14947,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n71",
           "package": "york-lava",
@@ -13676,6 +14960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n72",
           "package": "york-lava",
@@ -13685,6 +14970,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n72",
           "package": "york-lava",
@@ -13697,6 +14983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n73",
           "package": "york-lava",
@@ -13706,6 +14993,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n73",
           "package": "york-lava",
@@ -13718,6 +15006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n74",
           "package": "york-lava",
@@ -13727,6 +15016,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n74",
           "package": "york-lava",
@@ -13739,6 +15029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n75",
           "package": "york-lava",
@@ -13748,6 +15039,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n75",
           "package": "york-lava",
@@ -13760,6 +15052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n76",
           "package": "york-lava",
@@ -13769,6 +15062,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n76",
           "package": "york-lava",
@@ -13781,6 +15075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n77",
           "package": "york-lava",
@@ -13790,6 +15085,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n77",
           "package": "york-lava",
@@ -13802,6 +15098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n78",
           "package": "york-lava",
@@ -13811,6 +15108,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n78",
           "package": "york-lava",
@@ -13823,6 +15121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n79",
           "package": "york-lava",
@@ -13832,6 +15131,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n79",
           "package": "york-lava",
@@ -13844,6 +15144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n8",
           "package": "york-lava",
@@ -13853,6 +15154,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n8",
           "package": "york-lava",
@@ -13865,6 +15167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n80",
           "package": "york-lava",
@@ -13874,6 +15177,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n80",
           "package": "york-lava",
@@ -13886,6 +15190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n81",
           "package": "york-lava",
@@ -13895,6 +15200,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n81",
           "package": "york-lava",
@@ -13907,6 +15213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n82",
           "package": "york-lava",
@@ -13916,6 +15223,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n82",
           "package": "york-lava",
@@ -13928,6 +15236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n83",
           "package": "york-lava",
@@ -13937,6 +15246,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n83",
           "package": "york-lava",
@@ -13949,6 +15259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n84",
           "package": "york-lava",
@@ -13958,6 +15269,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n84",
           "package": "york-lava",
@@ -13970,6 +15282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n85",
           "package": "york-lava",
@@ -13979,6 +15292,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n85",
           "package": "york-lava",
@@ -13991,6 +15305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n86",
           "package": "york-lava",
@@ -14000,6 +15315,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n86",
           "package": "york-lava",
@@ -14012,6 +15328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n87",
           "package": "york-lava",
@@ -14021,6 +15338,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n87",
           "package": "york-lava",
@@ -14033,6 +15351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n88",
           "package": "york-lava",
@@ -14042,6 +15361,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n88",
           "package": "york-lava",
@@ -14054,6 +15374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n89",
           "package": "york-lava",
@@ -14063,6 +15384,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n89",
           "package": "york-lava",
@@ -14075,6 +15397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n9",
           "package": "york-lava",
@@ -14084,6 +15407,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n9",
           "package": "york-lava",
@@ -14096,6 +15420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n90",
           "package": "york-lava",
@@ -14105,6 +15430,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n90",
           "package": "york-lava",
@@ -14117,6 +15443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n91",
           "package": "york-lava",
@@ -14126,6 +15453,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n91",
           "package": "york-lava",
@@ -14138,6 +15466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n92",
           "package": "york-lava",
@@ -14147,6 +15476,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n92",
           "package": "york-lava",
@@ -14159,6 +15489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n93",
           "package": "york-lava",
@@ -14168,6 +15499,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n93",
           "package": "york-lava",
@@ -14180,6 +15512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n94",
           "package": "york-lava",
@@ -14189,6 +15522,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n94",
           "package": "york-lava",
@@ -14201,6 +15535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n95",
           "package": "york-lava",
@@ -14210,6 +15545,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n95",
           "package": "york-lava",
@@ -14222,6 +15558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n96",
           "package": "york-lava",
@@ -14231,6 +15568,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n96",
           "package": "york-lava",
@@ -14243,6 +15581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n97",
           "package": "york-lava",
@@ -14252,6 +15591,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n97",
           "package": "york-lava",
@@ -14264,6 +15604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n98",
           "package": "york-lava",
@@ -14273,6 +15614,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n98",
           "package": "york-lava",
@@ -14285,6 +15627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "n99",
           "package": "york-lava",
@@ -14294,6 +15637,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "n99",
           "package": "york-lava",
@@ -14306,6 +15650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "ofSize",
           "package": "york-lava",
@@ -14315,6 +15660,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "ofSize",
           "normalized": "Vec a b-\u003ea-\u003eVec a b",
@@ -14330,6 +15676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "sameSize",
           "package": "york-lava",
@@ -14339,6 +15686,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "sameSize",
           "normalized": "Vec a b-\u003eVec a b-\u003eVec a b",
@@ -14354,6 +15702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "sized",
           "package": "york-lava",
@@ -14363,6 +15712,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "sized",
           "normalized": "(Int-\u003eVec a b)-\u003eVec a b",
@@ -14377,6 +15727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "value",
           "package": "york-lava",
@@ -14386,6 +15737,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "value",
           "normalized": "a-\u003eInt",
@@ -14400,6 +15752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vat",
           "package": "york-lava",
@@ -14409,6 +15762,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vat",
           "normalized": "Vec a b-\u003ec-\u003eb",
@@ -14423,6 +15777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vconcat",
           "package": "york-lava",
@@ -14432,6 +15787,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vconcat",
           "normalized": "Vec a(Vec b c)-\u003eVec d c",
@@ -14446,6 +15802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vdrop",
           "package": "york-lava",
@@ -14455,6 +15812,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vdrop",
           "normalized": "a-\u003eVec b c-\u003eVec d c",
@@ -14469,6 +15827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vec",
           "package": "york-lava",
@@ -14478,6 +15837,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vec",
           "normalized": "[a]-\u003eVec b a",
@@ -14492,6 +15852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vecOf",
           "package": "york-lava",
@@ -14501,6 +15862,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vecOf",
           "normalized": "a-\u003eVec b a",
@@ -14516,6 +15878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vecn",
           "package": "york-lava",
@@ -14525,6 +15888,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vecn",
           "normalized": "a-\u003e[b]-\u003eVec a b",
@@ -14539,6 +15903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "velems",
           "package": "york-lava",
@@ -14548,6 +15913,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "velems",
           "normalized": "Vec a b-\u003e[b]",
@@ -14562,6 +15928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vempty",
           "package": "york-lava",
@@ -14571,6 +15938,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vempty",
           "package": "york-lava",
@@ -14583,6 +15951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vextend",
           "package": "york-lava",
@@ -14592,6 +15961,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vextend",
           "normalized": "a-\u003eVec b a-\u003eVec c a",
@@ -14606,6 +15976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vfoldl",
           "package": "york-lava",
@@ -14615,6 +15986,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vfoldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eVec c b-\u003ea",
@@ -14629,6 +16001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vfoldr",
           "package": "york-lava",
@@ -14638,6 +16011,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vfoldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eVec c a-\u003eb",
@@ -14652,6 +16026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vgroup",
           "package": "york-lava",
@@ -14661,6 +16036,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vgroup",
           "normalized": "a-\u003eVec b c-\u003eVec d(Vec a c)",
@@ -14675,6 +16051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vhead",
           "package": "york-lava",
@@ -14684,6 +16061,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vhead",
           "normalized": "Vec(S a)b-\u003eb",
@@ -14698,6 +16076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vinit",
           "package": "york-lava",
@@ -14707,6 +16086,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vinit",
           "normalized": "Vec(S a)b-\u003eVec a b",
@@ -14721,6 +16101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vlast",
           "package": "york-lava",
@@ -14730,6 +16111,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vlast",
           "normalized": "Vec(S a)b-\u003eb",
@@ -14744,6 +16126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vlength",
           "package": "york-lava",
@@ -14753,6 +16136,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vlength",
           "normalized": "Vec a b-\u003eInt",
@@ -14767,6 +16151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vmap",
           "package": "york-lava",
@@ -14776,6 +16161,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vmap",
           "normalized": "(a-\u003eb)-\u003eVec c a-\u003eVec c b",
@@ -14790,6 +16176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vmapAccumL",
           "package": "york-lava",
@@ -14799,6 +16186,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vmapAccumL",
           "normalized": "(a-\u003eb-\u003e(a,c))-\u003ea-\u003eVec d b-\u003e(a,Vec d c)",
@@ -14814,6 +16202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vmapAccumR",
           "package": "york-lava",
@@ -14823,6 +16212,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vmapAccumR",
           "normalized": "(a-\u003eb-\u003e(a,c))-\u003ea-\u003eVec d b-\u003e(a,Vec d c)",
@@ -14838,6 +16228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vrepeat",
           "package": "york-lava",
@@ -14847,6 +16238,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vrepeat",
           "normalized": "a-\u003eVec b a",
@@ -14861,6 +16253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vreplicate",
           "package": "york-lava",
@@ -14870,6 +16263,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vreplicate",
           "normalized": "a-\u003eb-\u003eVec a b",
@@ -14884,6 +16278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vreverse",
           "package": "york-lava",
@@ -14893,6 +16288,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vreverse",
           "normalized": "Vec a b-\u003eVec a b",
@@ -14907,6 +16303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vrigid",
           "package": "york-lava",
@@ -14916,6 +16313,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vrigid",
           "normalized": "Vec a b-\u003eVec a b",
@@ -14930,6 +16328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vsequence",
           "package": "york-lava",
@@ -14939,6 +16338,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vsequence",
           "normalized": "Vec a(b c)-\u003eb(Vec a c)",
@@ -14953,6 +16353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vshl",
           "package": "york-lava",
@@ -14962,6 +16363,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vshl",
           "normalized": "Vec a b-\u003eb-\u003eVec a b",
@@ -14976,6 +16378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vshr",
           "package": "york-lava",
@@ -14985,6 +16388,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vshr",
           "normalized": "a-\u003eVec b a-\u003eVec b a",
@@ -14999,6 +16403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vsingle",
           "package": "york-lava",
@@ -15008,6 +16413,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vsingle",
           "normalized": "a-\u003eVec N a",
@@ -15022,6 +16428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vsize",
           "package": "york-lava",
@@ -15031,6 +16438,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vsize",
           "normalized": "Vec a b-\u003ea",
@@ -15045,6 +16453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vsplitAt",
           "package": "york-lava",
@@ -15054,6 +16463,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vsplitAt",
           "normalized": "a-\u003eVec b c-\u003e(Vec a c,Vec d c)",
@@ -15069,6 +16479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vtail",
           "package": "york-lava",
@@ -15078,6 +16489,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vtail",
           "normalized": "Vec(S a)b-\u003eVec a b",
@@ -15092,6 +16504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vtake",
           "package": "york-lava",
@@ -15101,6 +16514,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vtake",
           "normalized": "a-\u003eVec b c-\u003eVec a c",
@@ -15115,6 +16529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vtranspose",
           "package": "york-lava",
@@ -15124,6 +16539,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vtranspose",
           "normalized": "Vec a(Vec b c)-\u003eVec b(Vec a c)",
@@ -15138,6 +16554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vector",
           "name": "vzipWith",
           "package": "york-lava",
@@ -15147,6 +16564,7 @@
         },
         "index": {
           "hierarchy": "Lava Vector",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vector",
           "name": "vzipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eVec d a-\u003eVec d b-\u003eVec d c",
@@ -15162,6 +16580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vhdl",
           "name": "Vhdl",
           "package": "york-lava",
@@ -15170,6 +16589,7 @@
         },
         "index": {
           "hierarchy": "Lava Vhdl",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vhdl",
           "name": "Vhdl",
           "package": "york-lava",
@@ -15184,6 +16604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre\u003e v5110t :: Part\n v5110t =\n   Part {\n     partName       = \"xc5vlx110t\"\n   , partFamily     = \"virtex5\"\n   , partPackage    = \"ff1136\"\n   , partSpeedGrade = \"-1\"\n   }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vhdl",
           "name": "Part",
           "package": "york-lava",
@@ -15193,6 +16614,7 @@
         "index": {
           "description": "For example v5110t Part v5110t Part partName xc5vlx110t partFamily virtex5 partPackage ff1136 partSpeedGrade",
           "hierarchy": "Lava Vhdl",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vhdl",
           "name": "Part",
           "package": "york-lava",
@@ -15206,6 +16628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vhdl",
           "name": "Part",
           "package": "york-lava",
@@ -15215,6 +16638,7 @@
         },
         "index": {
           "hierarchy": "Lava Vhdl",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vhdl",
           "name": "Part",
           "package": "york-lava",
@@ -15228,6 +16652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vhdl",
           "name": "partFamily",
           "package": "york-lava",
@@ -15237,6 +16662,7 @@
         },
         "index": {
           "hierarchy": "Lava Vhdl",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vhdl",
           "name": "partFamily",
           "package": "york-lava",
@@ -15250,6 +16676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vhdl",
           "name": "partName",
           "package": "york-lava",
@@ -15259,6 +16686,7 @@
         },
         "index": {
           "hierarchy": "Lava Vhdl",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vhdl",
           "name": "partName",
           "package": "york-lava",
@@ -15272,6 +16700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vhdl",
           "name": "partPackage",
           "package": "york-lava",
@@ -15281,6 +16710,7 @@
         },
         "index": {
           "hierarchy": "Lava Vhdl",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vhdl",
           "name": "partPackage",
           "package": "york-lava",
@@ -15294,6 +16724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vhdl",
           "name": "partSpeedGrade",
           "package": "york-lava",
@@ -15303,6 +16734,7 @@
         },
         "index": {
           "hierarchy": "Lava Vhdl",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vhdl",
           "name": "partSpeedGrade",
           "package": "york-lava",
@@ -15316,6 +16748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vhdl",
           "name": "v5110t",
           "package": "york-lava",
@@ -15325,6 +16758,7 @@
         },
         "index": {
           "hierarchy": "Lava Vhdl",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vhdl",
           "name": "v5110t",
           "package": "york-lava",
@@ -15338,6 +16772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor example, the function\n\u003c/p\u003e\u003cpre\u003e halfAdd :: Bit -\u003e Bit -\u003e (Bit, Bit)\n halfAdd a b = (sum, carry)\n   where\n     sum   = a \u003c#\u003e b\n     carry = a \u003c&\u003e b\n\u003c/pre\u003e\u003cp\u003ecan be converted to a VHDL entity with inputs named \u003ccode\u003ea\u003c/code\u003e and \u003ccode\u003eb\u003c/code\u003e and\noutputs named \u003ccode\u003esum\u003c/code\u003e and \u003ccode\u003ecarry\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e synthesiseHalfAdd :: IO ()\n synthesiseHalfAdd =\n   writeVhdl \"HalfAdd\"\n             (halfAdd (name \"a\") (name \"b\"))\n             (name \"sum\", name \"carry\")\n\u003c/pre\u003e\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003ewriteVhdl\u003c/a\u003e\u003c/code\u003e assumes that the part (FPGA chip) you are\ntargetting is the \u003ccode\u003eVirtex-5-110t-ff1136-1\u003c/code\u003e, because that is what sits\nat my desk.  This is \u003cem\u003eonly\u003c/em\u003e important if your design contains RAMs.\nIf your design does contain RAMs, and you wish to target a different\npart, then use the \u003ccode\u003e\u003ca\u003ewriteVhdlForPart\u003c/a\u003e\u003c/code\u003e function.  Xilinx's fault!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vhdl",
           "name": "writeVhdl",
           "package": "york-lava",
@@ -15347,6 +16782,7 @@
         "index": {
           "description": "For example the function halfAdd Bit Bit Bit Bit halfAdd sum carry where sum carry can be converted to VHDL entity with inputs named and and outputs named sum and carry synthesiseHalfAdd IO synthesiseHalfAdd writeVhdl HalfAdd halfAdd name name name sum name carry The function writeVhdl assumes that the part FPGA chip you are targetting is the Virtex-5-110t-ff1136-1 because that is what sits at my desk This is only important if your design contains RAMs If your design does contain RAMs and you wish to target different part then use the writeVhdlForPart function Xilinx fault",
           "hierarchy": "Lava Vhdl",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vhdl",
           "name": "writeVhdl",
           "normalized": "String-\u003ea-\u003ea-\u003eIO()",
@@ -15363,6 +16799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ewriteVhdl\u003c/a\u003e\u003c/code\u003e, but allows the target part (FPGA chip) to be specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava.Vhdl",
           "name": "writeVhdlForPart",
           "package": "york-lava",
@@ -15372,6 +16809,7 @@
         "index": {
           "description": "Like writeVhdl but allows the target part FPGA chip to be specified",
           "hierarchy": "Lava Vhdl",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava.Vhdl",
           "name": "writeVhdlForPart",
           "normalized": "Part-\u003eString-\u003ea-\u003ea-\u003eIO()",
@@ -15388,6 +16826,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eYork Lava is library for describing digital circuits.  Descriptions\ncan be simulated in Hugs or GHC, and converted to VHDL compatible with\nXST, the Xilinx Synthesis Tool.  It is largely compatible with\nChalmers Lava, but omits some features and offers a few new ones.\n\u003c/p\u003e\u003cp\u003eNew features include:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Behavioural description, using \u003ca\u003eRecipe\u003c/a\u003e.\n\u003c/li\u003e\u003cli\u003e Easy addition of new primitive components (\u003ccode\u003e\u003ca\u003emakeComponent\u003c/a\u003e\u003c/code\u003e).\n\u003c/li\u003e\u003cli\u003e Primitives components with multiple outputs.\n\u003c/li\u003e\u003cli\u003e New primitive components, including RAMs and dual-port RAMs\n    (\u003ccode\u003e\u003ca\u003eram\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edualRam\u003c/a\u003e\u003c/code\u003e).\n    Can be of any size and width; when synthesised, Xilinx Core\n    Generator (.xco) files are produced.\n\u003c/li\u003e\u003cli\u003e Provides an explicit \u003ccode\u003e\u003ca\u003eNetlist\u003c/a\u003e\u003c/code\u003e data structure, allowing\n    custom backends to be added.\n\u003c/li\u003e\u003cli\u003e Sized vectors (\u003ca\u003eLava.Vector\u003c/a\u003e).  For example, bit-vectors\n    (\u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e) are an instance of the \u003cem\u003eNum\u003c/em\u003e class.\n\u003c/li\u003e\u003cli\u003e A \u003ca\u003eLava.Prelude\u003c/a\u003e of commonly-used circuits.\n\u003c/li\u003e\u003cli\u003e Testing via QuickCheck and SmallCheck.\n\u003c/li\u003e\u003cli\u003e Smallish, self-contained code base.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eLimitations include:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e No model-checking backend; Chalmers Lava has many.\n\u003c/li\u003e\u003cli\u003e Long-running simulations consume memory rather quickly!  Note\n    however that you can also simulate circuits using the Xilinx\n    simulator, via the VHDL backend.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eSee \u003ccode\u003eREDUCERON MEMO 23\u003c/code\u003e - included in the package and available at\n\u003ca\u003ehttp://www.cs.york.ac.uk/fp/reduceron/\u003c/a\u003e - for a tutorial.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Lava",
           "name": "Lava",
           "package": "york-lava",
@@ -15397,6 +16836,7 @@
         "index": {
           "description": "York Lava is library for describing digital circuits Descriptions can be simulated in Hugs or GHC and converted to VHDL compatible with XST the Xilinx Synthesis Tool It is largely compatible with Chalmers Lava but omits some features and offers few new ones New features include Behavioural description using Recipe Easy addition of new primitive components makeComponent Primitives components with multiple outputs New primitive components including RAMs and dual-port RAMs ram and dualRam Can be of any size and width when synthesised Xilinx Core Generator xco files are produced Provides an explicit Netlist data structure allowing custom backends to be added Sized vectors Lava.Vector For example bit-vectors Word are an instance of the Num class Lava.Prelude of commonly-used circuits Testing via QuickCheck and SmallCheck Smallish self-contained code base Limitations include No model-checking backend Chalmers Lava has many Long-running simulations consume memory rather quickly Note however that you can also simulate circuits using the Xilinx simulator via the VHDL backend See REDUCERON MEMO included in the package and available at http www.cs.york.ac.uk fp reduceron for tutorial",
           "hierarchy": "Lava",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Lava",
           "name": "Lava",
           "package": "york-lava",
@@ -15411,6 +16851,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA library for writing behavioural descriptions in York Lava, inspired\nby Page and Luk's \"Compiling Occam into Field-Programmable Gate\nArrays\", Oxford Workshop on Field Programmable Logic and\nApplications, 1991.  Features explicit clocking, signals as well as\nregisters, shared procedure calls, and an optimiser.  The\nimplementation is short and sweet!  Used in the implementation of the\nReduceron, a graph reduction machine for Xilinx FPGAs.\n\u003c/p\u003e\u003cp\u003eTo illustrate, consider the implementation of a sequential multiplier\nusing the shift-and-add algorithm.  \n\u003c/p\u003e\u003cpre\u003e import Lava\n import Recipe\n\u003c/pre\u003e\u003cp\u003eWe define a state type containing three registers: the two inputs to\nmultiply, and the result of the multiplication.\n\u003c/p\u003e\u003cpre\u003e data Mult n = Mult { a, b, result :: Reg n }\n\u003c/pre\u003e\u003cp\u003eA value of type \u003ccode\u003eMult n\u003c/code\u003e is created by \u003ccode\u003enewMult\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e newMult :: N n =\u003e New (Mult n)\n newMult = return Mult `ap` newReg `ap` newReg `ap` newReg\n\u003c/pre\u003e\u003cp\u003eThe shift-and-add recipe operates over a value of type \u003ccode\u003eMult n\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e shiftAndAdd s =\n   While (s!b!val =/= 0) $\n     Seq [ s!a \u003c== s!a!val!shr\n         , s!b \u003c== s!b!val!shl\n         , s!b!val!vhead |\u003e\n             s!result \u003c== s!result!val + s!a!val\n         , Tick\n         ]\n\u003c/pre\u003e\u003cpre\u003e shr x = low +\u003e vinit x\n\u003c/pre\u003e\u003cpre\u003e shl x = vtail x \u003c+ low\n\u003c/pre\u003e\u003cp\u003eThree remarks are in order:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e The \u003ccode\u003e!\u003c/code\u003e operator is flipped application with a high precedence.\n\u003c/li\u003e\u003c/ol\u003e\u003cpre\u003e      infixl 9 !\n      (!) :: a -\u003e (a -\u003e b) -\u003e b\n      x!f = f x\n\u003c/pre\u003e\u003cp\u003eThis gives descriptions an appropriate object-oriented flavour.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e The value of a variable is obtained using the function\n\u003c/li\u003e\u003c/ol\u003e\u003cpre\u003e      val :: Var v =\u003e v n -\u003e Word n\n\u003c/pre\u003e\u003cp\u003eRegisters (of type \u003ccode\u003e\u003ca\u003eReg\u003c/a\u003e\u003c/code\u003e) are an instance of the \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e The functions \u003ccode\u003e+\u003e\u003c/code\u003e and \u003ccode\u003e\u003c+\u003c/code\u003e perform cons and snoc operations\n     on vectors, \u003ccode\u003evhead\u003c/code\u003e takes the head of a vector, and \u003ccode\u003e=/=\u003c/code\u003e is\n     generic disequality.\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eTo actually perform a multiplication, the input variables need to be\ninitialised.\n\u003c/p\u003e\u003cpre\u003e multiply x y s =\n   Seq [ s!a \u003c== x, s!b \u003c== y, s!result \u003c== 0, Tick, s!shiftAndAdd ]\n\u003c/pre\u003e\u003cpre\u003e example :: Mult N8 -\u003e Recipe\n example s = s!multiply 5 25\n\u003c/pre\u003e\u003cpre\u003e simExample = simRecipe newMult example result\n\u003c/pre\u003e\u003cp\u003eEvaluating \u003ccode\u003esimExample\u003c/code\u003e yields \u003ccode\u003e25 :: Word N8\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003eREDUCERON MEMO 23\u003c/code\u003e - included in the package and available at\n\u003ca\u003ehttp://www.cs.york.ac.uk/fp/reduceron/\u003c/a\u003e - for further details and\nexamples.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "Recipe",
           "package": "york-lava",
@@ -15420,6 +16861,7 @@
         "index": {
           "description": "library for writing behavioural descriptions in York Lava inspired by Page and Luk Compiling Occam into Field-Programmable Gate Arrays Oxford Workshop on Field Programmable Logic and Applications Features explicit clocking signals as well as registers shared procedure calls and an optimiser The implementation is short and sweet Used in the implementation of the Reduceron graph reduction machine for Xilinx FPGAs To illustrate consider the implementation of sequential multiplier using the shift-and-add algorithm import Lava import Recipe We define state type containing three registers the two inputs to multiply and the result of the multiplication data Mult Mult result Reg value of type Mult is created by newMult newMult New Mult newMult return Mult ap newReg ap newReg ap newReg The shift-and-add recipe operates over value of type Mult shiftAndAdd While val Seq val shr val shl val vhead result result val val Tick shr low vinit shl vtail low Three remarks are in order The operator is flipped application with high precedence infixl This gives descriptions an appropriate object-oriented flavour The value of variable is obtained using the function val Var Word Registers of type Reg are an instance of the Var class The functions and perform cons and snoc operations on vectors vhead takes the head of vector and is generic disequality To actually perform multiplication the input variables need to be initialised multiply Seq result Tick shiftAndAdd example Mult N8 Recipe example multiply simExample simRecipe newMult example result Evaluating simExample yields Word N8 See REDUCERON MEMO included in the package and available at http www.cs.york.ac.uk fp reduceron for further details and examples",
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "Recipe",
           "package": "york-lava",
@@ -15434,6 +16876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt's a monad; that's all you need to know.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "New",
           "package": "york-lava",
@@ -15443,6 +16886,7 @@
         "index": {
           "description": "It monad that all you need to know",
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "New",
           "package": "york-lava",
@@ -15456,6 +16900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "Proc",
           "package": "york-lava",
@@ -15464,6 +16909,7 @@
         },
         "index": {
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "Proc",
           "package": "york-lava",
@@ -15477,6 +16923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "Recipe",
           "package": "york-lava",
@@ -15485,6 +16932,7 @@
         },
         "index": {
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "Recipe",
           "package": "york-lava",
@@ -15499,6 +16947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eRegister variables\u003c/em\u003e: assignments to a register come into effect in\n the clock-cycle \u003cem\u003eafter\u003c/em\u003e the assignment is performed; the initial\n value of a register is zero unless otherwise specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "Reg",
           "package": "york-lava",
@@ -15508,6 +16957,7 @@
         "index": {
           "description": "Register variables assignments to register come into effect in the clock-cycle after the assignment is performed the initial value of register is zero unless otherwise specified",
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "Reg",
           "package": "york-lava",
@@ -15522,6 +16972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eSignal variables\u003c/em\u003e: assignments to a signal come into effect in the\n current clock-cycle, but last only for the duration of that\n clock-cycle; if a signal not assigned to in a clock-cycle\n then its value will be its \u003cem\u003edefault\u003c/em\u003e value which is zero unless\n otherwise specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "Sig",
           "package": "york-lava",
@@ -15531,6 +16982,7 @@
         "index": {
           "description": "Signal variables assignments to signal come into effect in the current clock-cycle but last only for the duration of that clock-cycle if signal not assigned to in clock-cycle then its value will be its default value which is zero unless otherwise specified",
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "Sig",
           "package": "york-lava",
@@ -15545,6 +16997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutable variables; named locations that can be read from and assigned to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "Var",
           "package": "york-lava",
@@ -15554,6 +17007,7 @@
         "index": {
           "description": "Mutable variables named locations that can be read from and assigned to",
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "Var",
           "package": "york-lava",
@@ -15568,6 +17022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a recipe only if a condition holds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "(|\u003e)",
           "package": "york-lava",
@@ -15578,6 +17033,7 @@
         "index": {
           "description": "Run recipe only if condition holds",
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "(|\u003e) |\u003e",
           "normalized": "Bit-\u003eRecipe-\u003eRecipe",
@@ -15593,6 +17049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse function application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "(!)",
           "package": "york-lava",
@@ -15603,6 +17060,7 @@
         "index": {
           "description": "Reverse function application",
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "(!) !",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",
@@ -15618,6 +17076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix constructor for pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "(--\u003e)",
           "package": "york-lava",
@@ -15628,6 +17087,7 @@
         "index": {
           "description": "Infix constructor for pairs",
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "(--\u003e) --\u003e",
           "normalized": "a-\u003eb-\u003e(a,b)",
@@ -15643,6 +17103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssign a value to a variable of width \u003cem\u003en\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "(\u003c==)",
           "package": "york-lava",
@@ -15653,6 +17114,7 @@
         "index": {
           "description": "Assign value to variable of width",
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "(\u003c==) \u003c==",
           "normalized": "a b-\u003eWord b-\u003eRecipe",
@@ -15668,6 +17130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eWhile\u003c/a\u003e\u003c/code\u003e, but condition is checked\n   at the end of each iteration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "Do",
           "package": "york-lava",
@@ -15678,6 +17141,7 @@
         "index": {
           "description": "Like While but condition is checked at the end of each iteration",
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "Do",
           "package": "york-lava",
@@ -15692,6 +17156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFork-Join parallel composition of recipes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "Par",
           "package": "york-lava",
@@ -15702,6 +17167,7 @@
         "index": {
           "description": "Fork-Join parallel composition of recipes",
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "Par",
           "normalized": "Par[Recipe]",
@@ -15718,6 +17184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequential composition of recipes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "Seq",
           "package": "york-lava",
@@ -15728,6 +17195,7 @@
         "index": {
           "description": "Sequential composition of recipes",
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "Seq",
           "normalized": "Seq[Recipe]",
@@ -15744,6 +17212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most basic recipe; does nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "Skip",
           "package": "york-lava",
@@ -15754,6 +17223,7 @@
         "index": {
           "description": "The most basic recipe does nothing",
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "Skip",
           "package": "york-lava",
@@ -15768,6 +17238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes nothing, but takes one clock-cycle to do it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "Tick",
           "package": "york-lava",
@@ -15778,6 +17249,7 @@
         "index": {
           "description": "Does nothing but takes one clock-cycle to do it",
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "Tick",
           "package": "york-lava",
@@ -15792,6 +17264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a recipe while a condition holds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "While",
           "package": "york-lava",
@@ -15802,6 +17275,7 @@
         "index": {
           "description": "Run recipe while condition holds",
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "While",
           "package": "york-lava",
@@ -15816,6 +17290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a procedure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "call",
           "package": "york-lava",
@@ -15826,6 +17301,7 @@
         "index": {
           "description": "Call procedure",
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "call",
           "normalized": "Proc-\u003eRecipe",
@@ -15841,6 +17317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCapture a recipe as shared procedure that can be called whenever\n desired; needless to say, the programmer should avoid parallel\n calls to the same shared procedure!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "newProc",
           "package": "york-lava",
@@ -15851,6 +17328,7 @@
         "index": {
           "description": "Capture recipe as shared procedure that can be called whenever desired needless to say the programmer should avoid parallel calls to the same shared procedure",
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "newProc",
           "normalized": "Recipe-\u003eNew Proc",
@@ -15866,6 +17344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "newReg",
           "package": "york-lava",
@@ -15875,6 +17354,7 @@
         },
         "index": {
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "newReg",
           "package": "york-lava",
@@ -15888,6 +17368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "newRegInit",
           "package": "york-lava",
@@ -15897,6 +17378,7 @@
         },
         "index": {
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "newRegInit",
           "normalized": "Word a-\u003eNew(Reg a)",
@@ -15912,6 +17394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "newSig",
           "package": "york-lava",
@@ -15921,6 +17404,7 @@
         },
         "index": {
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "newSig",
           "package": "york-lava",
@@ -15934,6 +17418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "newSigDef",
           "package": "york-lava",
@@ -15943,6 +17428,7 @@
         },
         "index": {
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "newSigDef",
           "normalized": "Word a-\u003eNew(Sig a)",
@@ -15958,6 +17444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "recipe",
           "package": "york-lava",
@@ -15966,6 +17453,7 @@
         },
         "index": {
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "recipe",
           "normalized": "New a-\u003e(a-\u003eRecipe)-\u003eBit-\u003e(a,Bit)",
@@ -15980,6 +17468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "simRecipe",
           "package": "york-lava",
@@ -15988,6 +17477,7 @@
         },
         "index": {
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "simRecipe",
           "normalized": "New a-\u003e(a-\u003eRecipe)-\u003e(a-\u003eb)-\u003eb",
@@ -16004,6 +17494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the value of a variable of width \u003cem\u003en\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:32 UTC 2014",
           "module": "Recipe",
           "name": "val",
           "package": "york-lava",
@@ -16014,6 +17505,7 @@
         "index": {
           "description": "Return the value of variable of width",
           "hierarchy": "Recipe",
+          "indexed": "2014-03-11T20:47:32",
           "module": "Recipe",
           "name": "val",
           "normalized": "a b-\u003eWord b",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yeganesh"
+        "phrase": "yeganesh",
+        "type": "phrase"
       },
       "type": "context"
     }

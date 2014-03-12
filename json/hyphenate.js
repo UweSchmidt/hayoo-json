@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hyphenate"
+        "phrase": "hyphenate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHyphenate a string\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:24 UTC 2014",
           "module": "Text.Hyphenate",
           "name": "Hyphenate",
           "package": "hyphenate",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Hyphenate string",
           "hierarchy": "Text Hyphenate",
+          "indexed": "2014-03-11T18:55:24",
           "module": "Text.Hyphenate",
           "name": "Hyphenate",
           "package": "hyphenate",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenation databases\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:24 UTC 2014",
           "module": "Text.Hyphenate",
           "name": "HyphenationDatabase",
           "package": "hyphenate",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Hyphenation databases",
           "hierarchy": "Text Hyphenate",
+          "indexed": "2014-03-11T18:55:24",
           "module": "Text.Hyphenate",
           "name": "HyphenationDatabase",
           "package": "hyphenate",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:24 UTC 2014",
           "module": "Text.Hyphenate",
           "name": "MapString",
           "package": "hyphenate",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenate",
+          "indexed": "2014-03-11T18:55:24",
           "module": "Text.Hyphenate",
           "name": "MapString",
           "package": "hyphenate",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:24 UTC 2014",
           "module": "Text.Hyphenate",
           "name": "CustomLanguage",
           "package": "hyphenate",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenate",
+          "indexed": "2014-03-11T18:55:24",
           "module": "Text.Hyphenate",
           "name": "CustomLanguage",
           "normalized": "CustomLanguage(MapString[Int])(MapString[Int])",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:24 UTC 2014",
           "module": "Text.Hyphenate",
           "name": "English",
           "package": "hyphenate",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenate",
+          "indexed": "2014-03-11T18:55:24",
           "module": "Text.Hyphenate",
           "name": "English",
           "normalized": "English(Maybe(MapString[Int]))",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyphenate a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:24 UTC 2014",
           "module": "Text.Hyphenate",
           "name": "hyphenate",
           "package": "hyphenate",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Hyphenate string",
           "hierarchy": "Text Hyphenate",
+          "indexed": "2014-03-11T18:55:24",
           "module": "Text.Hyphenate",
           "name": "hyphenate",
           "normalized": "HyphenationDatabase-\u003eString-\u003e[String]",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a custom language for hyphenation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:24 UTC 2014",
           "module": "Text.Hyphenate",
           "name": "mkCustomLanguage",
           "package": "hyphenate",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Create custom language for hyphenation",
           "hierarchy": "Text Hyphenate",
+          "indexed": "2014-03-11T18:55:24",
           "module": "Text.Hyphenate",
           "name": "mkCustomLanguage",
           "normalized": "[String]-\u003e[String]-\u003eHyphenationDatabase",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:24 UTC 2014",
           "module": "Text.Hyphenate",
           "name": "mkExceptions",
           "package": "hyphenate",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Text Hyphenate",
+          "indexed": "2014-03-11T18:55:24",
           "module": "Text.Hyphenate",
           "name": "mkExceptions",
           "normalized": "[String]-\u003eMapString[Int]",

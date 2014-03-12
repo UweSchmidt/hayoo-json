@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "functorm"
+        "phrase": "functorm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:36 UTC 2014",
           "module": "Data.FunctorM",
           "name": "3AFunctorM",
           "package": "functorm",
@@ -25,6 +26,7 @@
         },
         "index": {
           "hierarchy": "Data FunctorM",
+          "indexed": "2014-03-11T18:13:36",
           "module": "Data.FunctorM",
           "name": "3AFunctorM",
           "package": "functorm",
@@ -38,6 +40,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:36 UTC 2014",
           "module": "Data.FunctorM",
           "name": "3AfmapM",
           "package": "functorm",
@@ -46,6 +49,7 @@
         },
         "index": {
           "hierarchy": "Data FunctorM",
+          "indexed": "2014-03-11T18:13:36",
           "module": "Data.FunctorM",
           "name": "3AfmapM",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb(d c)",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:36 UTC 2014",
           "module": "Data.FunctorM",
           "name": "3AfmapM_",
           "package": "functorm",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data FunctorM",
+          "indexed": "2014-03-11T18:13:36",
           "module": "Data.FunctorM",
           "name": "3AfmapM_",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb()",

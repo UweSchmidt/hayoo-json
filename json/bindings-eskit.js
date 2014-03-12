@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-eskit"
+        "phrase": "bindings-eskit",
+        "type": "phrase"
       },
       "type": "context"
     }

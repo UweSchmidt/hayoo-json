@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SpreadsheetML"
+        "phrase": "SpreadsheetML",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "Builder",
           "package": "SpreadsheetML",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Builder",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "Builder",
           "package": "SpreadsheetML",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "bool",
           "package": "SpreadsheetML",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Builder",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "bool",
           "normalized": "Bool-\u003eCell",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "emptyCell",
           "package": "SpreadsheetML",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Builder",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "emptyCell",
           "package": "SpreadsheetML",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "emptyColumn",
           "package": "SpreadsheetML",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Builder",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "emptyColumn",
           "package": "SpreadsheetML",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "emptyDocumentProperties",
           "package": "SpreadsheetML",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Builder",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "emptyDocumentProperties",
           "package": "SpreadsheetML",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "emptyRow",
           "package": "SpreadsheetML",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Builder",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "emptyRow",
           "package": "SpreadsheetML",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "emptyTable",
           "package": "SpreadsheetML",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Builder",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "emptyTable",
           "package": "SpreadsheetML",
@@ -173,6 +187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct empty values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "emptyWorkbook",
           "package": "SpreadsheetML",
@@ -183,6 +198,7 @@
         "index": {
           "description": "Construct empty values",
           "hierarchy": "Text XML SpreadsheetML Builder",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "emptyWorkbook",
           "package": "SpreadsheetML",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "emptyWorksheet",
           "package": "SpreadsheetML",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Builder",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "emptyWorksheet",
           "normalized": "Name-\u003eWorksheet",
@@ -221,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function may change in future versions, if a real formula type is\n created.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "formula",
           "package": "SpreadsheetML",
@@ -231,6 +250,7 @@
         "index": {
           "description": "This function may change in future versions if real formula type is created",
           "hierarchy": "Text XML SpreadsheetML Builder",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "formula",
           "normalized": "String-\u003eCell",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "mkRow",
           "package": "SpreadsheetML",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Builder",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "mkRow",
           "normalized": "[Cell]-\u003eRow",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "mkTable",
           "package": "SpreadsheetML",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Builder",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "mkTable",
           "normalized": "[Row]-\u003eTable",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "mkWorkbook",
           "package": "SpreadsheetML",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Builder",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "mkWorkbook",
           "normalized": "[Worksheet]-\u003eWorkbook",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "mkWorksheet",
           "package": "SpreadsheetML",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Builder",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "mkWorksheet",
           "normalized": "Name-\u003eTable-\u003eWorksheet",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "number",
           "package": "SpreadsheetML",
@@ -352,6 +381,7 @@
         "index": {
           "description": "Convenience constructors",
           "hierarchy": "Text XML SpreadsheetML Builder",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "number",
           "normalized": "Double-\u003eCell",
@@ -366,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "string",
           "package": "SpreadsheetML",
@@ -375,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Builder",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "string",
           "normalized": "String-\u003eCell",
@@ -390,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMost of the time this is the easiest way to make a table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "tableFromCells",
           "package": "SpreadsheetML",
@@ -400,6 +433,7 @@
         "index": {
           "description": "Most of the time this is the easiest way to make table",
           "hierarchy": "Text XML SpreadsheetML Builder",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Builder",
           "name": "tableFromCells",
           "normalized": "[[Cell]]-\u003eTable",
@@ -415,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Types",
           "package": "SpreadsheetML",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Types",
           "package": "SpreadsheetML",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "AutoFitHeight",
           "package": "SpreadsheetML",
@@ -444,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "AutoFitHeight",
           "package": "SpreadsheetML",
@@ -457,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "AutoFitWidth",
           "package": "SpreadsheetML",
@@ -465,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "AutoFitWidth",
           "package": "SpreadsheetML",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Caption",
           "package": "SpreadsheetML",
@@ -486,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Caption",
           "package": "SpreadsheetML",
@@ -499,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Cell",
           "package": "SpreadsheetML",
@@ -507,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Cell",
           "package": "SpreadsheetML",
@@ -520,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Column",
           "package": "SpreadsheetML",
@@ -528,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Column",
           "package": "SpreadsheetML",
@@ -541,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "DocumentProperties",
           "package": "SpreadsheetML",
@@ -549,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "DocumentProperties",
           "package": "SpreadsheetML",
@@ -562,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "ExcelValue",
           "package": "SpreadsheetML",
@@ -570,6 +619,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "ExcelValue",
           "package": "SpreadsheetML",
@@ -584,6 +634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTODO: Currently just a string, but we could model excel formulas and\n use that type here instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Formula",
           "package": "SpreadsheetML",
@@ -593,6 +644,7 @@
         "index": {
           "description": "TODO Currently just string but we could model excel formulas and use that type here instead",
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Formula",
           "package": "SpreadsheetML",
@@ -607,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttribute for hidden things\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Hidden",
           "package": "SpreadsheetML",
@@ -616,6 +669,7 @@
         "index": {
           "description": "Attribute for hidden things",
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Hidden",
           "package": "SpreadsheetML",
@@ -630,6 +684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor now this is just a string, but we could model excel's names\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Name",
           "package": "SpreadsheetML",
@@ -639,6 +694,7 @@
         "index": {
           "description": "For now this is just string but we could model excel names",
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Name",
           "package": "SpreadsheetML",
@@ -652,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Row",
           "package": "SpreadsheetML",
@@ -660,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Row",
           "package": "SpreadsheetML",
@@ -673,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Table",
           "package": "SpreadsheetML",
@@ -681,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Table",
           "package": "SpreadsheetML",
@@ -695,6 +755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly implement what we need\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Workbook",
           "package": "SpreadsheetML",
@@ -704,6 +765,7 @@
         "index": {
           "description": "Only implement what we need",
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Workbook",
           "package": "SpreadsheetML",
@@ -717,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Worksheet",
           "package": "SpreadsheetML",
@@ -725,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Worksheet",
           "package": "SpreadsheetML",
@@ -738,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "AutoFitHeight",
           "package": "SpreadsheetML",
@@ -747,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "AutoFitHeight",
           "package": "SpreadsheetML",
@@ -760,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "AutoFitWidth",
           "package": "SpreadsheetML",
@@ -769,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "AutoFitWidth",
           "package": "SpreadsheetML",
@@ -782,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Boolean",
           "package": "SpreadsheetML",
@@ -791,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Boolean",
           "package": "SpreadsheetML",
@@ -804,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Caption",
           "package": "SpreadsheetML",
@@ -813,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Caption",
           "package": "SpreadsheetML",
@@ -826,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Cell",
           "package": "SpreadsheetML",
@@ -835,6 +908,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Cell",
           "package": "SpreadsheetML",
@@ -848,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Column",
           "package": "SpreadsheetML",
@@ -857,6 +932,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Column",
           "package": "SpreadsheetML",
@@ -870,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "DoNotAutoFitHeight",
           "package": "SpreadsheetML",
@@ -879,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "DoNotAutoFitHeight",
           "package": "SpreadsheetML",
@@ -892,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "DoNotAutoFitWidth",
           "package": "SpreadsheetML",
@@ -901,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "DoNotAutoFitWidth",
           "package": "SpreadsheetML",
@@ -914,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "DocumentProperties",
           "package": "SpreadsheetML",
@@ -923,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "DocumentProperties",
           "package": "SpreadsheetML",
@@ -936,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Formula",
           "package": "SpreadsheetML",
@@ -945,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Formula",
           "package": "SpreadsheetML",
@@ -958,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Hidden",
           "package": "SpreadsheetML",
@@ -967,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Hidden",
           "package": "SpreadsheetML",
@@ -980,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Name",
           "package": "SpreadsheetML",
@@ -989,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Name",
           "package": "SpreadsheetML",
@@ -1002,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Number",
           "package": "SpreadsheetML",
@@ -1011,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Number",
           "package": "SpreadsheetML",
@@ -1024,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Row",
           "package": "SpreadsheetML",
@@ -1033,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Row",
           "package": "SpreadsheetML",
@@ -1046,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Shown",
           "package": "SpreadsheetML",
@@ -1055,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Shown",
           "package": "SpreadsheetML",
@@ -1068,6 +1162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "StringType",
           "package": "SpreadsheetML",
@@ -1077,6 +1172,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "StringType",
           "package": "SpreadsheetML",
@@ -1090,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Table",
           "package": "SpreadsheetML",
@@ -1099,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Table",
           "package": "SpreadsheetML",
@@ -1112,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Workbook",
           "package": "SpreadsheetML",
@@ -1121,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Workbook",
           "package": "SpreadsheetML",
@@ -1134,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Worksheet",
           "package": "SpreadsheetML",
@@ -1143,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "Worksheet",
           "package": "SpreadsheetML",
@@ -1156,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "cellData",
           "package": "SpreadsheetML",
@@ -1165,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "cellData",
           "package": "SpreadsheetML",
@@ -1178,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "cellFormula",
           "package": "SpreadsheetML",
@@ -1187,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "cellFormula",
           "package": "SpreadsheetML",
@@ -1200,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "cellIndex",
           "package": "SpreadsheetML",
@@ -1209,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "cellIndex",
           "package": "SpreadsheetML",
@@ -1222,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "cellMergeAcross",
           "package": "SpreadsheetML",
@@ -1231,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "cellMergeAcross",
           "package": "SpreadsheetML",
@@ -1244,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "cellMergeDown",
           "package": "SpreadsheetML",
@@ -1253,6 +1364,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "cellMergeDown",
           "package": "SpreadsheetML",
@@ -1266,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "columnAutoFitWidth",
           "package": "SpreadsheetML",
@@ -1275,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "columnAutoFitWidth",
           "package": "SpreadsheetML",
@@ -1288,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "columnCaption",
           "package": "SpreadsheetML",
@@ -1297,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "columnCaption",
           "package": "SpreadsheetML",
@@ -1310,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "columnHidden",
           "package": "SpreadsheetML",
@@ -1319,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "columnHidden",
           "package": "SpreadsheetML",
@@ -1332,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "columnIndex",
           "package": "SpreadsheetML",
@@ -1341,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "columnIndex",
           "package": "SpreadsheetML",
@@ -1354,6 +1474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "columnSpan",
           "package": "SpreadsheetML",
@@ -1363,6 +1484,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "columnSpan",
           "package": "SpreadsheetML",
@@ -1376,6 +1498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "columnWidth",
           "package": "SpreadsheetML",
@@ -1385,6 +1508,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "columnWidth",
           "package": "SpreadsheetML",
@@ -1398,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "documentPropertiesAppName",
           "package": "SpreadsheetML",
@@ -1407,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "documentPropertiesAppName",
           "package": "SpreadsheetML",
@@ -1421,6 +1547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActually, this should be a date time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "documentPropertiesCreated",
           "package": "SpreadsheetML",
@@ -1431,6 +1558,7 @@
         "index": {
           "description": "Actually this should be date time",
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "documentPropertiesCreated",
           "package": "SpreadsheetML",
@@ -1444,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "documentPropertiesDescription",
           "package": "SpreadsheetML",
@@ -1453,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "documentPropertiesDescription",
           "package": "SpreadsheetML",
@@ -1466,6 +1596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "documentPropertiesKeywords",
           "package": "SpreadsheetML",
@@ -1475,6 +1606,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "documentPropertiesKeywords",
           "package": "SpreadsheetML",
@@ -1488,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "documentPropertiesRevision",
           "package": "SpreadsheetML",
@@ -1497,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "documentPropertiesRevision",
           "package": "SpreadsheetML",
@@ -1510,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "documentPropertiesSubject",
           "package": "SpreadsheetML",
@@ -1519,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "documentPropertiesSubject",
           "package": "SpreadsheetML",
@@ -1532,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "documentPropertiesTitle",
           "package": "SpreadsheetML",
@@ -1541,6 +1678,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "documentPropertiesTitle",
           "package": "SpreadsheetML",
@@ -1554,6 +1692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "rowAutoFitHeight",
           "package": "SpreadsheetML",
@@ -1563,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "rowAutoFitHeight",
           "package": "SpreadsheetML",
@@ -1576,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "rowCaption",
           "package": "SpreadsheetML",
@@ -1585,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "rowCaption",
           "package": "SpreadsheetML",
@@ -1598,6 +1740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "rowCells",
           "package": "SpreadsheetML",
@@ -1607,6 +1750,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "rowCells",
           "normalized": "[Cell]",
@@ -1622,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "rowHeight",
           "package": "SpreadsheetML",
@@ -1631,6 +1776,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "rowHeight",
           "package": "SpreadsheetML",
@@ -1644,6 +1790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "rowHidden",
           "package": "SpreadsheetML",
@@ -1653,6 +1800,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "rowHidden",
           "package": "SpreadsheetML",
@@ -1666,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "rowIndex",
           "package": "SpreadsheetML",
@@ -1675,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "rowIndex",
           "package": "SpreadsheetML",
@@ -1688,6 +1838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "rowSpan",
           "package": "SpreadsheetML",
@@ -1697,6 +1848,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "rowSpan",
           "package": "SpreadsheetML",
@@ -1710,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "tableColumns",
           "package": "SpreadsheetML",
@@ -1719,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "tableColumns",
           "normalized": "[Column]",
@@ -1735,6 +1889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault is 48\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "tableDefaultColumnWidth",
           "package": "SpreadsheetML",
@@ -1745,6 +1900,7 @@
         "index": {
           "description": "Default is",
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "tableDefaultColumnWidth",
           "package": "SpreadsheetML",
@@ -1759,6 +1915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault is 12.75\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "tableDefaultRowHeight",
           "package": "SpreadsheetML",
@@ -1769,6 +1926,7 @@
         "index": {
           "description": "Default is",
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "tableDefaultRowHeight",
           "package": "SpreadsheetML",
@@ -1782,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "tableExpandedColumnCount",
           "package": "SpreadsheetML",
@@ -1791,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "tableExpandedColumnCount",
           "package": "SpreadsheetML",
@@ -1804,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "tableExpandedRowCount",
           "package": "SpreadsheetML",
@@ -1813,6 +1974,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "tableExpandedRowCount",
           "package": "SpreadsheetML",
@@ -1826,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "tableFullColumns",
           "package": "SpreadsheetML",
@@ -1835,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "tableFullColumns",
           "package": "SpreadsheetML",
@@ -1848,6 +2012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "tableFullRows",
           "package": "SpreadsheetML",
@@ -1857,6 +2022,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "tableFullRows",
           "package": "SpreadsheetML",
@@ -1871,6 +2037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault is 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "tableLeftCell",
           "package": "SpreadsheetML",
@@ -1881,6 +2048,7 @@
         "index": {
           "description": "Default is",
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "tableLeftCell",
           "package": "SpreadsheetML",
@@ -1894,6 +2062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "tableRows",
           "package": "SpreadsheetML",
@@ -1903,6 +2072,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "tableRows",
           "normalized": "[Row]",
@@ -1919,6 +2089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault is 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "tableTopCell",
           "package": "SpreadsheetML",
@@ -1929,6 +2100,7 @@
         "index": {
           "description": "Default is",
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "tableTopCell",
           "package": "SpreadsheetML",
@@ -1942,6 +2114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "workbookDocumentProperties",
           "package": "SpreadsheetML",
@@ -1951,6 +2124,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "workbookDocumentProperties",
           "package": "SpreadsheetML",
@@ -1964,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "workbookWorksheets",
           "package": "SpreadsheetML",
@@ -1973,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "workbookWorksheets",
           "normalized": "[Worksheet]",
@@ -1988,6 +2164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "worksheetName",
           "package": "SpreadsheetML",
@@ -1997,6 +2174,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "worksheetName",
           "package": "SpreadsheetML",
@@ -2010,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "worksheetTable",
           "package": "SpreadsheetML",
@@ -2019,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Types",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Types",
           "name": "worksheetTable",
           "package": "SpreadsheetML",
@@ -2032,6 +2212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "Writer",
           "package": "SpreadsheetML",
@@ -2040,6 +2221,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Writer",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "Writer",
           "package": "SpreadsheetML",
@@ -2054,6 +2236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXML Conversion Class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "ToElement",
           "package": "SpreadsheetML",
@@ -2063,6 +2246,7 @@
         "index": {
           "description": "XML Conversion Class",
           "hierarchy": "Text XML SpreadsheetML Writer",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "ToElement",
           "package": "SpreadsheetML",
@@ -2076,6 +2260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "emptyCell",
           "package": "SpreadsheetML",
@@ -2085,6 +2270,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Writer",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "emptyCell",
           "package": "SpreadsheetML",
@@ -2098,6 +2284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "emptyColumn",
           "package": "SpreadsheetML",
@@ -2107,6 +2294,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Writer",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "emptyColumn",
           "package": "SpreadsheetML",
@@ -2120,6 +2308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "emptyDocumentProperties",
           "package": "SpreadsheetML",
@@ -2129,6 +2318,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Writer",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "emptyDocumentProperties",
           "package": "SpreadsheetML",
@@ -2142,6 +2332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "emptyRow",
           "package": "SpreadsheetML",
@@ -2151,6 +2342,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Writer",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "emptyRow",
           "package": "SpreadsheetML",
@@ -2164,6 +2356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "emptyTable",
           "package": "SpreadsheetML",
@@ -2173,6 +2366,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Writer",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "emptyTable",
           "package": "SpreadsheetML",
@@ -2187,6 +2381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty Elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "emptyWorkbook",
           "package": "SpreadsheetML",
@@ -2197,6 +2392,7 @@
         "index": {
           "description": "Empty Elements",
           "hierarchy": "Text XML SpreadsheetML Writer",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "emptyWorkbook",
           "package": "SpreadsheetML",
@@ -2210,6 +2406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "emptyWorksheet",
           "package": "SpreadsheetML",
@@ -2219,6 +2416,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Writer",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "emptyWorksheet",
           "normalized": "Name-\u003eElement",
@@ -2234,6 +2432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "htmlNamespace",
           "package": "SpreadsheetML",
@@ -2243,6 +2442,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Writer",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "htmlNamespace",
           "package": "SpreadsheetML",
@@ -2256,6 +2456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "mkData",
           "package": "SpreadsheetML",
@@ -2265,6 +2466,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Writer",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "mkData",
           "normalized": "ExcelValue-\u003eElement",
@@ -2281,6 +2483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamespaces\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "namespace",
           "package": "SpreadsheetML",
@@ -2291,6 +2494,7 @@
         "index": {
           "description": "Namespaces",
           "hierarchy": "Text XML SpreadsheetML Writer",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "namespace",
           "package": "SpreadsheetML",
@@ -2303,6 +2507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "oNamespace",
           "package": "SpreadsheetML",
@@ -2312,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Writer",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "oNamespace",
           "package": "SpreadsheetML",
@@ -2325,6 +2531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "showBoolean",
           "package": "SpreadsheetML",
@@ -2334,6 +2541,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Writer",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "showBoolean",
           "normalized": "Bool-\u003e[Char]",
@@ -2349,6 +2557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "showCaption",
           "package": "SpreadsheetML",
@@ -2358,6 +2567,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Writer",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "showCaption",
           "normalized": "Caption-\u003eString",
@@ -2373,6 +2583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "showHidden",
           "package": "SpreadsheetML",
@@ -2382,6 +2593,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Writer",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "showHidden",
           "normalized": "Hidden-\u003eString",
@@ -2398,6 +2610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a workbook to a string.  Write this string to a \u003ca\u003e.xls\u003c/a\u003e file\n and Excel will know how to open it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "showSpreadsheet",
           "package": "SpreadsheetML",
@@ -2408,6 +2621,7 @@
         "index": {
           "description": "Convert workbook to string Write this string to xls file and Excel will know how to open it",
           "hierarchy": "Text XML SpreadsheetML Writer",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "showSpreadsheet",
           "normalized": "Workbook-\u003eString",
@@ -2423,6 +2637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "ssNamespace",
           "package": "SpreadsheetML",
@@ -2432,6 +2647,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Writer",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "ssNamespace",
           "package": "SpreadsheetML",
@@ -2445,6 +2661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "toElement",
           "package": "SpreadsheetML",
@@ -2454,6 +2671,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Writer",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "toElement",
           "normalized": "a-\u003eElement",
@@ -2469,6 +2687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:10 UTC 2014",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "xNamespace",
           "package": "SpreadsheetML",
@@ -2478,6 +2697,7 @@
         },
         "index": {
           "hierarchy": "Text XML SpreadsheetML Writer",
+          "indexed": "2014-03-11T17:01:10",
           "module": "Text.XML.SpreadsheetML.Writer",
           "name": "xNamespace",
           "package": "SpreadsheetML",

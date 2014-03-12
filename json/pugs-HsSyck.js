@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pugs-HsSyck"
+        "phrase": "pugs-HsSyck",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:56 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "SYMID",
           "package": "pugs-HsSyck",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T19:45:56",
           "module": "Data.Yaml.Syck",
           "name": "SYMID",
           "package": "pugs-HsSyck",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:56 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "YamlAnchor",
           "package": "pugs-HsSyck",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T19:45:56",
           "module": "Data.Yaml.Syck",
           "name": "YamlAnchor",
           "package": "pugs-HsSyck",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:56 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "YamlElem",
           "package": "pugs-HsSyck",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T19:45:56",
           "module": "Data.Yaml.Syck",
           "name": "YamlElem",
           "package": "pugs-HsSyck",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:56 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "YamlNode",
           "package": "pugs-HsSyck",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T19:45:56",
           "module": "Data.Yaml.Syck",
           "name": "YamlNode",
           "package": "pugs-HsSyck",
@@ -103,6 +111,7 @@
       "document": {
         "description": {
           "description": "Dump a YAML node into a regular Haskell string\n",
+          "indexed": "Tue Mar 11 19:45:56 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "emitYaml",
           "package": "pugs-HsSyck",
@@ -113,6 +122,7 @@
         "index": {
           "description": "Dump YAML node into regular Haskell string",
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T19:45:56",
           "module": "Data.Yaml.Syck",
           "name": "emitYaml",
           "normalized": "YamlNode-\u003eIO String",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:56 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "emitYamlBytes",
           "package": "pugs-HsSyck",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T19:45:56",
           "module": "Data.Yaml.Syck",
           "name": "emitYamlBytes",
           "normalized": "YamlNode-\u003eIO Buf",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "Given a file name, dump a YAML node into that file\n",
+          "indexed": "Tue Mar 11 19:45:56 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "emitYamlFile",
           "package": "pugs-HsSyck",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Given file name dump YAML node into that file",
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T19:45:56",
           "module": "Data.Yaml.Syck",
           "name": "emitYamlFile",
           "normalized": "FilePath-\u003eYamlNode-\u003eIO()",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:56 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "mkNode",
           "package": "pugs-HsSyck",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T19:45:56",
           "module": "Data.Yaml.Syck",
           "name": "mkNode",
           "normalized": "YamlElem-\u003eYamlNode",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:56 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "mkTagNode",
           "package": "pugs-HsSyck",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T19:45:56",
           "module": "Data.Yaml.Syck",
           "name": "mkTagNode",
           "normalized": "String-\u003eYamlElem-\u003eYamlNode",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:56 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "mkTagStrNode",
           "package": "pugs-HsSyck",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T19:45:56",
           "module": "Data.Yaml.Syck",
           "name": "mkTagStrNode",
           "normalized": "String-\u003eString-\u003eYamlNode",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:56 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "nilNode",
           "package": "pugs-HsSyck",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T19:45:56",
           "module": "Data.Yaml.Syck",
           "name": "nilNode",
           "package": "pugs-HsSyck",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "Convert a regular Haskell string into a ByteString buffer\n",
+          "indexed": "Tue Mar 11 19:45:56 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "packBuf",
           "package": "pugs-HsSyck",
@@ -283,6 +306,7 @@
         "index": {
           "description": "Convert regular Haskell string into ByteString buffer",
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T19:45:56",
           "module": "Data.Yaml.Syck",
           "name": "packBuf",
           "normalized": "String-\u003eBuf",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "Parse a regular Haskell string\n",
+          "indexed": "Tue Mar 11 19:45:56 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "parseYaml",
           "package": "pugs-HsSyck",
@@ -309,6 +334,7 @@
         "index": {
           "description": "Parse regular Haskell string",
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T19:45:56",
           "module": "Data.Yaml.Syck",
           "name": "parseYaml",
           "normalized": "String-\u003eIO YamlNode",
@@ -325,6 +351,7 @@
       "document": {
         "description": {
           "description": "Parse a ByteString buffer (this is faster)\n",
+          "indexed": "Tue Mar 11 19:45:56 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "parseYamlBytes",
           "package": "pugs-HsSyck",
@@ -335,6 +362,7 @@
         "index": {
           "description": "Parse ByteString buffer this is faster",
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T19:45:56",
           "module": "Data.Yaml.Syck",
           "name": "parseYamlBytes",
           "normalized": "Buf-\u003eIO YamlNode",
@@ -351,6 +379,7 @@
       "document": {
         "description": {
           "description": "Given a file name, parse contents of file\n",
+          "indexed": "Tue Mar 11 19:45:56 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "parseYamlFile",
           "package": "pugs-HsSyck",
@@ -361,6 +390,7 @@
         "index": {
           "description": "Given file name parse contents of file",
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T19:45:56",
           "module": "Data.Yaml.Syck",
           "name": "parseYamlFile",
           "normalized": "String-\u003eIO YamlNode",
@@ -376,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:56 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "tagNode",
           "package": "pugs-HsSyck",
@@ -385,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T19:45:56",
           "module": "Data.Yaml.Syck",
           "name": "tagNode",
           "normalized": "YamlTag-\u003eYamlNode-\u003eYamlNode",
@@ -401,6 +433,7 @@
       "document": {
         "description": {
           "description": "Convert a ByteString buffer into a regular Haskell string\n",
+          "indexed": "Tue Mar 11 19:45:56 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "unpackBuf",
           "package": "pugs-HsSyck",
@@ -411,6 +444,7 @@
         "index": {
           "description": "Convert ByteString buffer into regular Haskell string",
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T19:45:56",
           "module": "Data.Yaml.Syck",
           "name": "unpackBuf",
           "normalized": "Buf-\u003eString",

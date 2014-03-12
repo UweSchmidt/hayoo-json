@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ecu"
+        "phrase": "ecu",
+        "type": "phrase"
       },
       "type": "context"
     }

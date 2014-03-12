@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "omnicodec"
+        "phrase": "omnicodec",
+        "type": "phrase"
       },
       "type": "context"
     }

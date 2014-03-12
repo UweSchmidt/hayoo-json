@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "redis-simple"
+        "phrase": "redis-simple",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is meant to make working with redis in Haskell more simple. It\n is a small layer above the full-blown \u003ccode\u003eredis\u003c/code\u003e package.\n\u003c/p\u003e\u003cp\u003eIt only supports a small subset of the redis features.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:50:13 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "Simple",
           "package": "redis-simple",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module is meant to make working with redis in Haskell more simple It is small layer above the full-blown redis package It only supports small subset of the redis features",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T19:50:13",
           "module": "Database.Redis.Simple",
           "name": "Simple",
           "package": "redis-simple",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for a key in the key-value store\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:13 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "Key",
           "package": "redis-simple",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Type for key in the key-value store",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T19:50:13",
           "module": "Database.Redis.Simple",
           "name": "Key",
           "package": "redis-simple",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:13 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "Key",
           "package": "redis-simple",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T19:50:13",
           "module": "Database.Redis.Simple",
           "name": "Key",
           "package": "redis-simple",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete an item in the database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:13 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "itemDelete",
           "package": "redis-simple",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Delete an item in the database",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T19:50:13",
           "module": "Database.Redis.Simple",
           "name": "itemDelete",
           "normalized": "Redis-\u003eKey-\u003eIO()",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if an item with a given key exists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:13 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "itemExists",
           "package": "redis-simple",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Checks if an item with given key exists",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T19:50:13",
           "module": "Database.Redis.Simple",
           "name": "itemExists",
           "normalized": "Redis-\u003eKey-\u003eIO Bool",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets an item from the database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:13 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "itemGet",
           "package": "redis-simple",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Gets an item from the database",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T19:50:13",
           "module": "Database.Redis.Simple",
           "name": "itemGet",
           "normalized": "Redis-\u003eKey-\u003eIO(Maybe a)",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet an item in the database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:13 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "itemSet",
           "package": "redis-simple",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Set an item in the database",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T19:50:13",
           "module": "Database.Redis.Simple",
           "name": "itemSet",
           "normalized": "Redis-\u003eKey-\u003ea-\u003eIO()",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an item to a redis set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:13 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "setAdd",
           "package": "redis-simple",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Add an item to redis set",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T19:50:13",
           "module": "Database.Redis.Simple",
           "name": "setAdd",
           "normalized": "Redis-\u003eKey-\u003ea-\u003eIO()",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if a set contains a certain item\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:13 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "setContains",
           "package": "redis-simple",
@@ -221,6 +238,7 @@
         "index": {
           "description": "Check if set contains certain item",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T19:50:13",
           "module": "Database.Redis.Simple",
           "name": "setContains",
           "normalized": "Redis-\u003eKey-\u003ea-\u003eIO Bool",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all items from a set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:13 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "setFindAll",
           "package": "redis-simple",
@@ -246,6 +265,7 @@
         "index": {
           "description": "Get all items from set",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T19:50:13",
           "module": "Database.Redis.Simple",
           "name": "setFindAll",
           "normalized": "Redis-\u003eKey-\u003eIO[a]",
@@ -262,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove an item from a redis set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:13 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "setRemove",
           "package": "redis-simple",
@@ -271,6 +292,7 @@
         "index": {
           "description": "Remove an item from redis set",
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T19:50:13",
           "module": "Database.Redis.Simple",
           "name": "setRemove",
           "normalized": "Redis-\u003eKey-\u003ea-\u003eIO()",
@@ -286,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:13 UTC 2014",
           "module": "Database.Redis.Simple",
           "name": "unKey",
           "package": "redis-simple",
@@ -295,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Database Redis Simple",
+          "indexed": "2014-03-11T19:50:13",
           "module": "Database.Redis.Simple",
           "name": "unKey",
           "package": "redis-simple",

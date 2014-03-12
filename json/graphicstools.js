@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "graphicstools"
+        "phrase": "graphicstools",
+        "type": "phrase"
       },
       "type": "context"
     }

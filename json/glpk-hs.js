@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "glpk-hs"
+        "phrase": "glpk-hs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad.Supply.Class",
           "name": "Class",
           "package": "glpk-hs",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad LPMonad Supply Class",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad.Supply.Class",
           "name": "Class",
           "package": "glpk-hs",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class implemented by monads that can supply values of type \u003ccode\u003es\u003c/code\u003e.  Minimal implementation: \u003ccode\u003e\u003ca\u003esupplyNew\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003esupplyN\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad.Supply.Class",
           "name": "MonadSupply",
           "package": "glpk-hs",
@@ -49,6 +52,7 @@
         "index": {
           "description": "class implemented by monads that can supply values of type Minimal implementation supplyNew or supplyN",
           "hierarchy": "Control Monad LPMonad Supply Class",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad.Supply.Class",
           "name": "MonadSupply",
           "package": "glpk-hs",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupply \u003ccode\u003en\u003c/code\u003e values of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad.Supply.Class",
           "name": "supplyN",
           "package": "glpk-hs",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Supply values of type",
           "hierarchy": "Control Monad LPMonad Supply Class",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad.Supply.Class",
           "name": "supplyN",
           "normalized": "Int-\u003ea[b]",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupply a new value of type \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad.Supply.Class",
           "name": "supplyNew",
           "package": "glpk-hs",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Supply new value of type",
           "hierarchy": "Control Monad LPMonad Supply Class",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad.Supply.Class",
           "name": "supplyNew",
           "package": "glpk-hs",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad.Supply",
           "name": "Supply",
           "package": "glpk-hs",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Control Monad LPMonad Supply",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad.Supply",
           "name": "Supply",
           "package": "glpk-hs",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad capable of supplying unique variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad.Supply",
           "name": "VSupply",
           "package": "glpk-hs",
@@ -142,6 +153,7 @@
         "index": {
           "description": "monad capable of supplying unique variables",
           "hierarchy": "Control Monad LPMonad Supply",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad.Supply",
           "name": "VSupply",
           "package": "glpk-hs",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad transformer capable of supplying unique variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad.Supply",
           "name": "VSupplyT",
           "package": "glpk-hs",
@@ -165,6 +178,7 @@
         "index": {
           "description": "monad transformer capable of supplying unique variables",
           "hierarchy": "Control Monad LPMonad Supply",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad.Supply",
           "name": "VSupplyT",
           "package": "glpk-hs",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type suitable for use as a linear program variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad.Supply",
           "name": "Var",
           "package": "glpk-hs",
@@ -188,6 +203,7 @@
         "index": {
           "description": "type suitable for use as linear program variable",
           "hierarchy": "Control Monad LPMonad Supply",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad.Supply",
           "name": "Var",
           "package": "glpk-hs",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad.Supply",
           "name": "Var",
           "package": "glpk-hs",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Control Monad LPMonad Supply",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad.Supply",
           "name": "Var",
           "package": "glpk-hs",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad.Supply",
           "name": "runVSupply",
           "package": "glpk-hs",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Control Monad LPMonad Supply",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad.Supply",
           "name": "runVSupply",
           "normalized": "VSupply a-\u003ea",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad.Supply",
           "name": "runVSupplyT",
           "package": "glpk-hs",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Control Monad LPMonad Supply",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad.Supply",
           "name": "runVSupplyT",
           "normalized": "VSupplyT a b-\u003ea b",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad.Supply",
           "name": "varId",
           "package": "glpk-hs",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Control Monad LPMonad Supply",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad.Supply",
           "name": "varId",
           "package": "glpk-hs",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA collection of operations that can be used to specify linear programming in a\n simple, monadic way.  It is not too difficult to construct \u003ccode\u003e\u003ca\u003eLP\u003c/a\u003e\u003c/code\u003e values explicitly,\n but this module may help simplify and modularize the construction of the linear program,\n for example separating different families of constraints in the problem specification.\n\u003c/p\u003e\u003cp\u003eMany of these functions should be executed in either the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLPM\u003c/a\u003e\u003c/code\u003e v c\u003c/code\u003e or the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLPT\u003c/a\u003e\u003c/code\u003e v c \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e monad.\n If you wish to generate new variables on an ad-hoc basis, rather than supplying your own variable type, use the\n \u003ccode\u003e\u003ca\u003eVSupply\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eVSupplyT\u003c/a\u003e\u003c/code\u003e monads in your transformer stack, as in \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLPT\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e c \u003ccode\u003e\u003ca\u003eVSupply\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLPT\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e c (\u003ccode\u003e\u003ca\u003eVSupplyT\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e.  To generate new variables, use \u003ccode\u003e\u003ca\u003esupplyNew\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003esupplyN\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "LPMonad",
           "package": "glpk-hs",
@@ -303,6 +328,7 @@
         "index": {
           "description": "collection of operations that can be used to specify linear programming in simple monadic way It is not too difficult to construct LP values explicitly but this module may help simplify and modularize the construction of the linear program for example separating different families of constraints in the problem specification Many of these functions should be executed in either the LPM or the LPT IO monad If you wish to generate new variables on an ad-hoc basis rather than supplying your own variable type use the VSupply or VSupplyT monads in your transformer stack as in LPT Var VSupply or LPT Var VSupplyT IO To generate new variables use supplyNew or supplyN",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "LPMonad",
           "package": "glpk-hs",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple monad for constructing linear programs.  This library is intended to be able to link to \n a variety of different linear programming implementations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "LPM",
           "package": "glpk-hs",
@@ -326,6 +353,7 @@
         "index": {
           "description": "simple monad for constructing linear programs This library is intended to be able to link to variety of different linear programming implementations",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "LPM",
           "package": "glpk-hs",
@@ -340,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple monad transformer for constructing linear programs in an arbitrary monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "LPT",
           "package": "glpk-hs",
@@ -349,6 +378,7 @@
         "index": {
           "description": "simple monad transformer for constructing linear programs in an arbitrary monad",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "LPT",
           "package": "glpk-hs",
@@ -363,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds this function to the objective function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "addObjective",
           "package": "glpk-hs",
@@ -373,6 +404,7 @@
         "index": {
           "description": "Adds this function to the objective function",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "addObjective",
           "normalized": "LinFunc a b-\u003ec()",
@@ -389,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds this function to the objective function, with the specified weight.  Equivalent to\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eaddObjective\u003c/a\u003e\u003c/code\u003e (wt \u003ccode\u003e\u003ca\u003e*^\u003c/a\u003e\u003c/code\u003e obj)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "addWeightedObjective",
           "package": "glpk-hs",
@@ -399,6 +432,7 @@
         "index": {
           "description": "Adds this function to the objective function with the specified weight Equivalent to addObjective wt obj",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "addWeightedObjective",
           "normalized": "a-\u003eLinFunc b c-\u003ed()",
@@ -415,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most general form of an unlabeled constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "constrain",
           "package": "glpk-hs",
@@ -425,6 +460,7 @@
         "index": {
           "description": "The most general form of an unlabeled constraint",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "constrain",
           "normalized": "LinFunc a b-\u003eBounds b-\u003ec()",
@@ -440,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most general form of a labeled constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "constrain'",
           "package": "glpk-hs",
@@ -450,6 +487,7 @@
         "index": {
           "description": "The most general form of labeled constraint",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "constrain'",
           "normalized": "String-\u003eLinFunc a b-\u003eBounds b-\u003ec()",
@@ -465,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the relationship between two functions in the variables.  So, for example,\n\u003c/p\u003e\u003cpre\u003e equal (f ^+^ g) h\n\u003c/pre\u003e\u003cp\u003econstrains the value of \u003ccode\u003eh\u003c/code\u003e to be equal to the value of \u003ccode\u003ef\u003c/code\u003e plus the value of \u003ccode\u003eg\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "equal",
           "package": "glpk-hs",
@@ -475,6 +514,7 @@
         "index": {
           "description": "Specifies the relationship between two functions in the variables So for example equal constrains the value of to be equal to the value of plus the value of",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "equal",
           "normalized": "LinFunc a b-\u003eLinFunc a b-\u003ec()",
@@ -490,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the relationship between two functions in the variables, with a label on the constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "equal'",
           "package": "glpk-hs",
@@ -500,6 +541,7 @@
         "index": {
           "description": "Specifies the relationship between two functions in the variables with label on the constraint",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "equal'",
           "normalized": "String-\u003eLinFunc a b-\u003eLinFunc a b-\u003ec()",
@@ -515,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a constraint on a linear function in the variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "equalTo",
           "package": "glpk-hs",
@@ -525,6 +568,7 @@
         "index": {
           "description": "Sets constraint on linear function in the variables",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "equalTo",
           "normalized": "LinFunc a b-\u003eb-\u003ec()",
@@ -541,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a labeled constraint on a linear function in the variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "equalTo'",
           "package": "glpk-hs",
@@ -551,6 +596,7 @@
         "index": {
           "description": "Sets labeled constraint on linear function in the variables",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "equalTo'",
           "normalized": "String-\u003eLinFunc a b-\u003eb-\u003ec()",
@@ -567,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the specified operation in the linear programming monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "evalLPM",
           "package": "glpk-hs",
@@ -577,6 +624,7 @@
         "index": {
           "description": "Runs the specified operation in the linear programming monad",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "evalLPM",
           "normalized": "LPM a b c-\u003ec",
@@ -593,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns the specified operation in the linear programming monad transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "evalLPT",
           "package": "glpk-hs",
@@ -603,6 +652,7 @@
         "index": {
           "description": "Runs the specified operation in the linear programming monad transformer",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "evalLPT",
           "normalized": "LPT a b c d-\u003ec d",
@@ -619,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a linear programming problem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "execLPM",
           "package": "glpk-hs",
@@ -629,6 +680,7 @@
         "index": {
           "description": "Constructs linear programming problem",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "execLPM",
           "normalized": "LPM a b c-\u003eLP a b",
@@ -645,6 +697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a linear programming problem in the specified monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "execLPT",
           "package": "glpk-hs",
@@ -655,6 +708,7 @@
         "index": {
           "description": "Constructs linear programming problem in the specified monad",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "execLPT",
           "normalized": "LPT a b c d-\u003ec(LP a b)",
@@ -671,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the relationship between two functions in the variables.  So, for example,\n\u003c/p\u003e\u003cpre\u003e equal (f ^+^ g) h\n\u003c/pre\u003e\u003cp\u003econstrains the value of \u003ccode\u003eh\u003c/code\u003e to be equal to the value of \u003ccode\u003ef\u003c/code\u003e plus the value of \u003ccode\u003eg\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "geq",
           "package": "glpk-hs",
@@ -681,6 +736,7 @@
         "index": {
           "description": "Specifies the relationship between two functions in the variables So for example equal constrains the value of to be equal to the value of plus the value of",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "geq",
           "normalized": "LinFunc a b-\u003eLinFunc a b-\u003ec()",
@@ -696,6 +752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the relationship between two functions in the variables, with a label on the constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "geq'",
           "package": "glpk-hs",
@@ -706,6 +763,7 @@
         "index": {
           "description": "Specifies the relationship between two functions in the variables with label on the constraint",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "geq'",
           "normalized": "String-\u003eLinFunc a b-\u003eLinFunc a b-\u003ec()",
@@ -721,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a constraint on a linear function in the variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "geqTo",
           "package": "glpk-hs",
@@ -731,6 +790,7 @@
         "index": {
           "description": "Sets constraint on linear function in the variables",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "geqTo",
           "normalized": "LinFunc a b-\u003eb-\u003ec()",
@@ -747,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a labeled constraint on a linear function in the variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "geqTo'",
           "package": "glpk-hs",
@@ -757,6 +818,7 @@
         "index": {
           "description": "Sets labeled constraint on linear function in the variables",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "geqTo'",
           "normalized": "String-\u003eLinFunc a b-\u003eb-\u003ec()",
@@ -773,6 +835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolves the linear program with the specified options in GLPK.  Returns the return code,\n and if the solver was successful, the objective function value and the settings of each variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "glpSolve",
           "package": "glpk-hs",
@@ -783,6 +846,7 @@
         "index": {
           "description": "Solves the linear program with the specified options in GLPK Returns the return code and if the solver was successful the objective function value and the settings of each variable",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "glpSolve",
           "normalized": "GLPOpts-\u003ea(ReturnCode,Maybe(Double,Map b Double))",
@@ -799,6 +863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolves the linear program with the specified options in GLPK.  Returns the return code,\n and if the solver was successful, the objective function value, the settings of each variable, and\n the value of each constraint/row.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "glpSolve'",
           "package": "glpk-hs",
@@ -809,6 +874,7 @@
         "index": {
           "description": "Solves the linear program with the specified options in GLPK Returns the return code and if the solver was successful the objective function value the settings of each variable and the value of each constraint row",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "glpSolve'",
           "normalized": "GLPOpts-\u003ea(ReturnCode,Maybe(Double,Map b Double,[RowValue b c]))",
@@ -825,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the relationship between two functions in the variables.  So, for example,\n\u003c/p\u003e\u003cpre\u003e equal (f ^+^ g) h\n\u003c/pre\u003e\u003cp\u003econstrains the value of \u003ccode\u003eh\u003c/code\u003e to be equal to the value of \u003ccode\u003ef\u003c/code\u003e plus the value of \u003ccode\u003eg\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "leq",
           "package": "glpk-hs",
@@ -835,6 +902,7 @@
         "index": {
           "description": "Specifies the relationship between two functions in the variables So for example equal constrains the value of to be equal to the value of plus the value of",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "leq",
           "normalized": "LinFunc a b-\u003eLinFunc a b-\u003ec()",
@@ -850,6 +918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the relationship between two functions in the variables, with a label on the constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "leq'",
           "package": "glpk-hs",
@@ -860,6 +929,7 @@
         "index": {
           "description": "Specifies the relationship between two functions in the variables with label on the constraint",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "leq'",
           "normalized": "String-\u003eLinFunc a b-\u003eLinFunc a b-\u003ec()",
@@ -875,6 +945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a constraint on a linear function in the variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "leqTo",
           "package": "glpk-hs",
@@ -885,6 +956,7 @@
         "index": {
           "description": "Sets constraint on linear function in the variables",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "leqTo",
           "normalized": "LinFunc a b-\u003eb-\u003ec()",
@@ -901,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a labeled constraint on a linear function in the variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "leqTo'",
           "package": "glpk-hs",
@@ -911,6 +984,7 @@
         "index": {
           "description": "Sets labeled constraint on linear function in the variables",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "leqTo'",
           "normalized": "String-\u003eLinFunc a b-\u003eb-\u003ec()",
@@ -927,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolves the linear program with the default settings in GLPK.  Returns the return code,\n and if the solver was successful, the objective function value and the settings of each variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "quickSolveLP",
           "package": "glpk-hs",
@@ -937,6 +1012,7 @@
         "index": {
           "description": "Solves the linear program with the default settings in GLPK Returns the return code and if the solver was successful the objective function value and the settings of each variable",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "quickSolveLP",
           "normalized": "a(ReturnCode,Maybe(Double,Map b Double))",
@@ -953,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolves the linear program with the default settings in GLPK.  Returns the return code,\n and if the solver was successful, the objective function value, the settings of each variable, and the\n value of each constraint/row.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "quickSolveLP'",
           "package": "glpk-hs",
@@ -963,6 +1040,7 @@
         "index": {
           "description": "Solves the linear program with the default settings in GLPK Returns the return code and if the solver was successful the objective function value the settings of each variable and the value of each constraint row",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "quickSolveLP'",
           "normalized": "a(ReturnCode,Maybe(Double,Map b Double,[RowValue b c]))",
@@ -979,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolves the linear program with the default settings in GLPK.  Returns the return code,\n and if the solver was successful, the objective function value and the settings of each variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "quickSolveMIP",
           "package": "glpk-hs",
@@ -989,6 +1068,7 @@
         "index": {
           "description": "Solves the linear program with the default settings in GLPK Returns the return code and if the solver was successful the objective function value and the settings of each variable",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "quickSolveMIP",
           "normalized": "a(ReturnCode,Maybe(Double,Map b Double))",
@@ -1005,6 +1085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolves the linear program with the default settings in GLPK.  Returns the return code,\n and if the solver was successful, the objective function value, the settings of each variable, and the\n value of each constraint/row.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "quickSolveMIP'",
           "package": "glpk-hs",
@@ -1015,6 +1096,7 @@
         "index": {
           "description": "Solves the linear program with the default settings in GLPK Returns the return code and if the solver was successful the objective function value the settings of each variable and the value of each constraint row",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "quickSolveMIP'",
           "normalized": "a(ReturnCode,Maybe(Double,Map b Double,[RowValue b c]))",
@@ -1031,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a linear program from the specified file in CPLEX LP format, overwriting\n the current linear program.  Uses \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003erealToFrac\u003c/a\u003e\u003c/code\u003e to translate to the specified type.\n Warning: this may not work on all files written using \u003ccode\u003e\u003ca\u003ewriteLPToFile\u003c/a\u003e\u003c/code\u003e, since variable names\n may be changed.\n (This is a binding to GLPK, not a Haskell implementation of CPLEX.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "readLPFromFile",
           "package": "glpk-hs",
@@ -1041,6 +1124,7 @@
         "index": {
           "description": "Reads linear program from the specified file in CPLEX LP format overwriting the current linear program Uses read and realToFrac to translate to the specified type Warning this may not work on all files written using writeLPToFile since variable names may be changed This is binding to GLPK not Haskell implementation of CPLEX",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "readLPFromFile",
           "normalized": "FilePath-\u003ea()",
@@ -1057,6 +1141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a linear program from the specified file in CPLEX LP format, overwriting\n the current linear program.  (This is a binding to GLPK, not a Haskell implementation of CPLEX.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "readLPFromFile'",
           "package": "glpk-hs",
@@ -1067,6 +1152,7 @@
         "index": {
           "description": "Reads linear program from the specified file in CPLEX LP format overwriting the current linear program This is binding to GLPK not Haskell implementation of CPLEX",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "readLPFromFile'",
           "normalized": "FilePath-\u003ea()",
@@ -1082,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "runLPM",
           "package": "glpk-hs",
@@ -1091,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "runLPM",
           "normalized": "LPM a b c-\u003e(c,LP a b)",
@@ -1106,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "runLPT",
           "package": "glpk-hs",
@@ -1115,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "runLPT",
           "normalized": "LPT a b c d-\u003ec(d,LP a b)",
@@ -1131,6 +1221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the optimization direction of the linear program: maximization or minimization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "setDirection",
           "package": "glpk-hs",
@@ -1141,6 +1232,7 @@
         "index": {
           "description": "Sets the optimization direction of the linear program maximization or minimization",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "setDirection",
           "normalized": "Direction-\u003ea()",
@@ -1157,6 +1249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the objective function, overwriting the previous objective function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "setObjective",
           "package": "glpk-hs",
@@ -1167,6 +1260,7 @@
         "index": {
           "description": "Sets the objective function overwriting the previous objective function",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "setObjective",
           "normalized": "LinFunc a b-\u003ec()",
@@ -1183,6 +1277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most general way to set constraints on a variable.\n If you constrain a variable more than once, the constraints will be combined.\n If you combine mutually contradictory constraints, an error will be generated.\n This is more efficient than creating an equivalent function constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "setVarBounds",
           "package": "glpk-hs",
@@ -1193,6 +1288,7 @@
         "index": {
           "description": "The most general way to set constraints on variable If you constrain variable more than once the constraints will be combined If you combine mutually contradictory constraints an error will be generated This is more efficient than creating an equivalent function constraint",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "setVarBounds",
           "normalized": "a-\u003eBounds b-\u003ec()",
@@ -1209,6 +1305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the kind ('type') of a variable.  See \u003ccode\u003e\u003ca\u003eVarKind\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "setVarKind",
           "package": "glpk-hs",
@@ -1219,6 +1316,7 @@
         "index": {
           "description": "Sets the kind type of variable See VarKind",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "setVarKind",
           "normalized": "a-\u003eVarKind-\u003eb()",
@@ -1235,6 +1333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBounds the value of a variable on both sides.  If you constrain a variable more than once,\n the constraints will be combined.  If the constraints are mutually contradictory,\n an error will be generated.  This is more efficient than adding an equivalent function constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "varBds",
           "package": "glpk-hs",
@@ -1245,6 +1344,7 @@
         "index": {
           "description": "Bounds the value of variable on both sides If you constrain variable more than once the constraints will be combined If the constraints are mutually contradictory an error will be generated This is more efficient than adding an equivalent function constraint",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "varBds",
           "normalized": "a-\u003eb-\u003eb-\u003ec()",
@@ -1261,6 +1361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a constraint on the value of a variable.  If you constrain a variable more than once,\n the constraints will be combined.  If the constraints are mutually contradictory,\n an error will be generated.  This is more efficient than adding an equivalent function constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "varEq",
           "package": "glpk-hs",
@@ -1271,6 +1372,7 @@
         "index": {
           "description": "Sets constraint on the value of variable If you constrain variable more than once the constraints will be combined If the constraints are mutually contradictory an error will be generated This is more efficient than adding an equivalent function constraint",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "varEq",
           "normalized": "a-\u003eb-\u003ec()",
@@ -1287,6 +1389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a constraint on the value of a variable.  If you constrain a variable more than once,\n the constraints will be combined.  If the constraints are mutually contradictory,\n an error will be generated.  This is more efficient than adding an equivalent function constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "varGeq",
           "package": "glpk-hs",
@@ -1297,6 +1400,7 @@
         "index": {
           "description": "Sets constraint on the value of variable If you constrain variable more than once the constraints will be combined If the constraints are mutually contradictory an error will be generated This is more efficient than adding an equivalent function constraint",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "varGeq",
           "normalized": "a-\u003eb-\u003ec()",
@@ -1313,6 +1417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a constraint on the value of a variable.  If you constrain a variable more than once,\n the constraints will be combined.  If the constraints are mutually contradictory,\n an error will be generated.  This is more efficient than adding an equivalent function constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "varLeq",
           "package": "glpk-hs",
@@ -1323,6 +1428,7 @@
         "index": {
           "description": "Sets constraint on the value of variable If you constrain variable more than once the constraints will be combined If the constraints are mutually contradictory an error will be generated This is more efficient than adding an equivalent function constraint",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "varLeq",
           "normalized": "a-\u003eb-\u003ec()",
@@ -1339,6 +1445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites the current linear program to the specified file in CPLEX LP format. \n (This is a binding to GLPK, not a Haskell implementation of CPLEX.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Control.Monad.LPMonad",
           "name": "writeLPToFile",
           "package": "glpk-hs",
@@ -1349,6 +1456,7 @@
         "index": {
           "description": "Writes the current linear program to the specified file in CPLEX LP format This is binding to GLPK not Haskell implementation of CPLEX",
           "hierarchy": "Control Monad LPMonad",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Control.Monad.LPMonad",
           "name": "writeLPToFile",
           "normalized": "FilePath-\u003ea()",
@@ -1365,6 +1473,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon library for algebraic structures.  Has the advantage of automatically inferring lots of useful structure, especially\n in the writing of linear programs.  For example, here are several ways of writing \u003ccode\u003e3 x - 4 y + z\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e gsum [3 *& x, (-4) *^ var y, var z]\n linCombination [(3, x), (-4, y), (1, z)]\n 3 *& x ^-^ 4 *& y ^+^ var z\n\u003c/pre\u003e\u003cp\u003eIn addition, if we have two functions \u003ccode\u003ef\u003c/code\u003e and \u003ccode\u003eg\u003c/code\u003e, we can construct linear combinations of those functions, using \n exactly the same syntax.  Moreover, we can multiply functions with \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e coefficients by \u003ccode\u003e\u003ca\u003eRational\u003c/a\u003e\u003c/code\u003e values successfully.\n This module is intended to offer as much generality as possible without getting in your way.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "Algebra",
           "package": "glpk-hs",
@@ -1374,6 +1483,7 @@
         "index": {
           "description": "Common library for algebraic structures Has the advantage of automatically inferring lots of useful structure especially in the writing of linear programs For example here are several ways of writing gsum var var linCombination var In addition if we have two functions and we can construct linear combinations of those functions using exactly the same syntax Moreover we can multiply functions with Double coefficients by Rational values successfully This module is intended to offer as much generality as possible without getting in your way",
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "Algebra",
           "package": "glpk-hs",
@@ -1387,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "Field",
           "package": "glpk-hs",
@@ -1395,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "Field",
           "package": "glpk-hs",
@@ -1409,6 +1521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe algebraic structure of a group.  Written additively.  Required functions: \u003ccode\u003e\u003ca\u003ezero\u003c/a\u003e\u003c/code\u003e and (\u003ccode\u003e\u003ca\u003e^-^\u003c/a\u003e\u003c/code\u003e or (\u003ccode\u003e\u003ca\u003e^+^\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eneg\u003c/a\u003e\u003c/code\u003e)).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "Group",
           "package": "glpk-hs",
@@ -1418,6 +1531,7 @@
         "index": {
           "description": "The algebraic structure of group Written additively Required functions zero and or and neg",
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "Group",
           "package": "glpk-hs",
@@ -1432,6 +1546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA way of forming a ring from functions.  See \u003ca\u003ehttp://en.wikipedia.org/wiki/Group_ring\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "GroupRing",
           "package": "glpk-hs",
@@ -1441,6 +1556,7 @@
         "index": {
           "description": "way of forming ring from functions See http en.wikipedia.org wiki Group ring",
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "GroupRing",
           "package": "glpk-hs",
@@ -1455,6 +1571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eLinFunc\u003c/a\u003e\u003c/code\u003e v c\u003c/code\u003e is a linear combination of variables of type \u003ccode\u003ev\u003c/code\u003e with coefficients\n from \u003ccode\u003ec\u003c/code\u003e.  Formally, this is the free \u003ccode\u003ec\u003c/code\u003e-module on \u003ccode\u003ev\u003c/code\u003e.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "LinFunc",
           "package": "glpk-hs",
@@ -1464,6 +1581,7 @@
         "index": {
           "description": "LinFunc is linear combination of variables of type with coefficients from Formally this is the free module on",
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "LinFunc",
           "package": "glpk-hs",
@@ -1478,6 +1596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe algebraic structure of a module.  A vector space is a module with coefficients in a field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "Module",
           "package": "glpk-hs",
@@ -1487,6 +1606,7 @@
         "index": {
           "description": "The algebraic structure of module vector space is module with coefficients in field",
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "Module",
           "package": "glpk-hs",
@@ -1500,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "Poly",
           "package": "glpk-hs",
@@ -1508,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "Poly",
           "package": "glpk-hs",
@@ -1522,6 +1644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe algebraic structure of a unital ring.  Assumes that the additive operation forms an abelian group,\n that the multiplication operation forms a group, and that multiplication distributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "Ring",
           "package": "glpk-hs",
@@ -1531,6 +1654,7 @@
         "index": {
           "description": "The algebraic structure of unital ring Assumes that the additive operation forms an abelian group that the multiplication operation forms group and that multiplication distributes",
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "Ring",
           "package": "glpk-hs",
@@ -1544,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "VectorSpace",
           "package": "glpk-hs",
@@ -1552,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "VectorSpace",
           "package": "glpk-hs",
@@ -1565,6 +1691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "(*#)",
           "package": "glpk-hs",
@@ -1574,6 +1701,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "(*#) *#",
           "normalized": "a-\u003ea-\u003ea",
@@ -1589,6 +1717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ec \u003ccode\u003e\u003ca\u003e*&\u003c/a\u003e\u003c/code\u003e v\u003c/code\u003e is equivalent to \u003ccode\u003ec \u003ccode\u003e\u003ca\u003e*^\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003evar\u003c/a\u003e\u003c/code\u003e v\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "(*&)",
           "package": "glpk-hs",
@@ -1599,6 +1728,7 @@
         "index": {
           "description": "is equivalent to var",
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "(*&) *&",
           "normalized": "a-\u003eb-\u003eLinFunc b a",
@@ -1613,6 +1743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "(*^)",
           "package": "glpk-hs",
@@ -1622,6 +1753,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "(*^) *^",
           "normalized": "a-\u003eb-\u003eb",
@@ -1636,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "(/#)",
           "package": "glpk-hs",
@@ -1645,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "(/#) /#",
           "normalized": "a-\u003ea-\u003ea",
@@ -1659,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "(^+^)",
           "package": "glpk-hs",
@@ -1668,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "(^+^) ^+^",
           "normalized": "a-\u003ea-\u003ea",
@@ -1682,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "(^-^)",
           "package": "glpk-hs",
@@ -1691,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "(^-^) ^-^",
           "normalized": "a-\u003ea-\u003ea",
@@ -1706,6 +1844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a collection of vectors and scaling coefficients, returns this\n linear combination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "combination",
           "package": "glpk-hs",
@@ -1716,6 +1855,7 @@
         "index": {
           "description": "Given collection of vectors and scaling coefficients returns this linear combination",
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "combination",
           "normalized": "[(a,b)]-\u003eb",
@@ -1731,6 +1871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitution into a polynomial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "evalPoly",
           "package": "glpk-hs",
@@ -1741,6 +1882,7 @@
         "index": {
           "description": "Substitution into polynomial",
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "evalPoly",
           "normalized": "Poly a-\u003eb-\u003eb",
@@ -1757,6 +1899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes a summation over the elements of a group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "gsum",
           "package": "glpk-hs",
@@ -1767,6 +1910,7 @@
         "index": {
           "description": "Does summation over the elements of group",
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "gsum",
           "normalized": "[a]-\u003ea",
@@ -1781,6 +1925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "inv",
           "package": "glpk-hs",
@@ -1790,6 +1935,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "inv",
           "normalized": "a-\u003ea",
@@ -1805,6 +1951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a set of basic variables and coefficients, returns the linear combination obtained\n by summing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "linCombination",
           "package": "glpk-hs",
@@ -1815,6 +1962,7 @@
         "index": {
           "description": "Given set of basic variables and coefficients returns the linear combination obtained by summing",
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "linCombination",
           "normalized": "[(a,b)]-\u003eLinFunc b a",
@@ -1830,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "neg",
           "package": "glpk-hs",
@@ -1839,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "neg",
           "normalized": "a-\u003ea",
@@ -1853,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "one",
           "package": "glpk-hs",
@@ -1862,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "one",
           "package": "glpk-hs",
@@ -1875,6 +2027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a variable \u003ccode\u003ev\u003c/code\u003e, returns the function equivalent to \u003ccode\u003ev\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "var",
           "package": "glpk-hs",
@@ -1885,6 +2038,7 @@
         "index": {
           "description": "Given variable returns the function equivalent to",
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "var",
           "normalized": "a-\u003eLinFunc a b",
@@ -1900,6 +2054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the polynomial \u003ccode\u003ep(x) = x\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "varPoly",
           "package": "glpk-hs",
@@ -1910,6 +2065,7 @@
         "index": {
           "description": "Returns the polynomial",
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "varPoly",
           "package": "glpk-hs",
@@ -1924,6 +2080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003e\u003ccode\u003evsum\u003c/code\u003e . \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003evar\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "varSum",
           "package": "glpk-hs",
@@ -1934,6 +2091,7 @@
         "index": {
           "description": "Equivalent to vsum map var",
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "varSum",
           "normalized": "[a]-\u003eLinFunc a b",
@@ -1949,6 +2107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.Algebra",
           "name": "zero",
           "package": "glpk-hs",
@@ -1958,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "Data Algebra",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.Algebra",
           "name": "zero",
           "package": "glpk-hs",
@@ -1971,6 +2131,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains sufficient tools to represent linear programming problems in Haskell.  In the future, if linkings to other\n linear programming libraries are made, this will be common to them all.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "Common",
           "package": "glpk-hs",
@@ -1980,6 +2141,7 @@
         "index": {
           "description": "Contains sufficient tools to represent linear programming problems in Haskell In the future if linkings to other linear programming libraries are made this will be common to them all",
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "Common",
           "package": "glpk-hs",
@@ -1993,6 +2155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "Bounds",
           "package": "glpk-hs",
@@ -2001,6 +2164,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "Bounds",
           "package": "glpk-hs",
@@ -2015,6 +2179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of a linear constraint on the variables, possibly labeled.\n The function may be bounded both above and below.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "Constraint",
           "package": "glpk-hs",
@@ -2024,6 +2189,7 @@
         "index": {
           "description": "Representation of linear constraint on the variables possibly labeled The function may be bounded both above and below",
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "Constraint",
           "package": "glpk-hs",
@@ -2037,6 +2203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "Direction",
           "package": "glpk-hs",
@@ -2045,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "Direction",
           "package": "glpk-hs",
@@ -2059,6 +2227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe specification of a linear programming problem with variables in \u003ccode\u003ev\u003c/code\u003e and coefficients/constants in \u003ccode\u003ec\u003c/code\u003e.\n   Note: the \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e implementations do not correspond to any particular linear program specification format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "LP",
           "package": "glpk-hs",
@@ -2068,6 +2237,7 @@
         "index": {
           "description": "The specification of linear programming problem with variables in and coefficients constants in Note the Read and Show implementations do not correspond to any particular linear program specification format",
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "LP",
           "package": "glpk-hs",
@@ -2082,6 +2252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn objective function for a linear program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "ObjectiveFunc",
           "package": "glpk-hs",
@@ -2091,6 +2262,7 @@
         "index": {
           "description": "An objective function for linear program",
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "ObjectiveFunc",
           "package": "glpk-hs",
@@ -2105,6 +2277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mapping from variables to their boundaries.  Variables not mentioned are assumed to be free.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "VarBounds",
           "package": "glpk-hs",
@@ -2114,6 +2287,7 @@
         "index": {
           "description": "mapping from variables to their boundaries Variables not mentioned are assumed to be free",
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "VarBounds",
           "package": "glpk-hs",
@@ -2127,6 +2301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "VarKind",
           "package": "glpk-hs",
@@ -2135,6 +2310,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "VarKind",
           "package": "glpk-hs",
@@ -2149,6 +2325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mapping from variables to their types.  Variables not mentioned are assumed to be continuous,\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "VarTypes",
           "package": "glpk-hs",
@@ -2158,6 +2335,7 @@
         "index": {
           "description": "mapping from variables to their types Variables not mentioned are assumed to be continuous",
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "VarTypes",
           "package": "glpk-hs",
@@ -2171,6 +2349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "BinVar",
           "package": "glpk-hs",
@@ -2180,6 +2359,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "BinVar",
           "package": "glpk-hs",
@@ -2193,6 +2373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "Bound",
           "package": "glpk-hs",
@@ -2202,6 +2383,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "Bound",
           "package": "glpk-hs",
@@ -2215,6 +2397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "Constr",
           "package": "glpk-hs",
@@ -2224,6 +2407,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "Constr",
           "package": "glpk-hs",
@@ -2237,6 +2421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "ContVar",
           "package": "glpk-hs",
@@ -2246,6 +2431,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "ContVar",
           "package": "glpk-hs",
@@ -2259,6 +2445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "Equ",
           "package": "glpk-hs",
@@ -2268,6 +2455,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "Equ",
           "package": "glpk-hs",
@@ -2281,6 +2469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "Free",
           "package": "glpk-hs",
@@ -2290,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "Free",
           "package": "glpk-hs",
@@ -2303,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "IntVar",
           "package": "glpk-hs",
@@ -2312,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "IntVar",
           "package": "glpk-hs",
@@ -2325,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "LBound",
           "package": "glpk-hs",
@@ -2334,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "LBound",
           "package": "glpk-hs",
@@ -2347,6 +2541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "LP",
           "package": "glpk-hs",
@@ -2356,6 +2551,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "LP",
           "package": "glpk-hs",
@@ -2369,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "Max",
           "package": "glpk-hs",
@@ -2378,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "Max",
           "package": "glpk-hs",
@@ -2391,6 +2589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "Min",
           "package": "glpk-hs",
@@ -2400,6 +2599,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "Min",
           "package": "glpk-hs",
@@ -2413,6 +2613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "UBound",
           "package": "glpk-hs",
@@ -2422,6 +2623,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "UBound",
           "package": "glpk-hs",
@@ -2435,6 +2637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "allVars",
           "package": "glpk-hs",
@@ -2444,6 +2647,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "allVars",
           "normalized": "LP a b-\u003eMap a()",
@@ -2459,6 +2663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "constraints",
           "package": "glpk-hs",
@@ -2468,6 +2673,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "constraints",
           "normalized": "[Constraint a b]",
@@ -2482,6 +2688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "direction",
           "package": "glpk-hs",
@@ -2491,6 +2698,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "direction",
           "package": "glpk-hs",
@@ -2504,6 +2712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies the specified function to the constants in the linear program.  This is only safe\n for a monotonic function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "mapVals",
           "package": "glpk-hs",
@@ -2514,6 +2723,7 @@
         "index": {
           "description": "Applies the specified function to the constants in the linear program This is only safe for monotonic function",
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "mapVals",
           "normalized": "(a-\u003eb)-\u003eLP c a-\u003eLP c b",
@@ -2530,6 +2740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies the specified function to the variables in the linear program.\n If multiple variables in the original program are mapped to the same variable in the new program,\n in general, we set those variables to all be equal, as follows.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e In linear functions, including the objective function and the constraints,\n \tcoefficients will be added together.  For instance, if \u003ccode\u003ev1,v2\u003c/code\u003e are mapped to the same\n \tvariable \u003ccode\u003ev'\u003c/code\u003e, then a linear function of the form \u003ccode\u003ec1 *& v1 ^+^ c2 *& v2\u003c/code\u003e will be mapped to\n \t\u003ccode\u003e(c1 ^+^ c2) *& v'\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e In variable bounds, bounds will be combined.  An error will be thrown if the bounds\n \tare mutually contradictory.\n\u003c/li\u003e\u003cli\u003e In variable kinds, the most restrictive kind will be retained.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "mapVars",
           "package": "glpk-hs",
@@ -2540,6 +2751,7 @@
         "index": {
           "description": "Applies the specified function to the variables in the linear program If multiple variables in the original program are mapped to the same variable in the new program in general we set those variables to all be equal as follows In linear functions including the objective function and the constraints coefficients will be added together For instance if v1 v2 are mapped to the same variable then linear function of the form c1 v1 c2 v2 will be mapped to c1 c2 In variable bounds bounds will be combined An error will be thrown if the bounds are mutually contradictory In variable kinds the most restrictive kind will be retained",
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "mapVars",
           "normalized": "(a-\u003eb)-\u003eLP a c-\u003eLP b c",
@@ -2555,6 +2767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "objective",
           "package": "glpk-hs",
@@ -2564,6 +2777,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "objective",
           "package": "glpk-hs",
@@ -2576,6 +2790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "varBounds",
           "package": "glpk-hs",
@@ -2585,6 +2800,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "varBounds",
           "package": "glpk-hs",
@@ -2598,6 +2814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.Common",
           "name": "varTypes",
           "package": "glpk-hs",
@@ -2607,6 +2824,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram Common",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.Common",
           "name": "varTypes",
           "package": "glpk-hs",
@@ -2621,6 +2839,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBindings to the file I/O functions from GLPK, on the CPLEX LP file format.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.IO",
           "name": "IO",
           "package": "glpk-hs",
@@ -2630,6 +2849,7 @@
         "index": {
           "description": "Bindings to the file functions from GLPK on the CPLEX LP file format",
           "hierarchy": "Data LinearProgram GLPK IO",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.IO",
           "name": "IO",
           "package": "glpk-hs",
@@ -2644,6 +2864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a linear program from a file in CPLEX LP format.  Warning: this will not necessarily succeed\n on all files generated by \u003ccode\u003e\u003ca\u003ewriteLP\u003c/a\u003e\u003c/code\u003e, as variable names may be changed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.IO",
           "name": "readLP",
           "package": "glpk-hs",
@@ -2654,6 +2875,7 @@
         "index": {
           "description": "Read linear program from file in CPLEX LP format Warning this will not necessarily succeed on all files generated by writeLP as variable names may be changed",
           "hierarchy": "Data LinearProgram GLPK IO",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.IO",
           "name": "readLP",
           "normalized": "FilePath-\u003eIO(LP a b)",
@@ -2670,6 +2892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a linear program from a file in CPLEX LP format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.IO",
           "name": "readLP'",
           "package": "glpk-hs",
@@ -2680,6 +2903,7 @@
         "index": {
           "description": "Read linear program from file in CPLEX LP format",
           "hierarchy": "Data LinearProgram GLPK IO",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.IO",
           "name": "readLP'",
           "normalized": "FilePath-\u003eIO(LP String Double)",
@@ -2696,6 +2920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a linear program to a file in CPLEX LP format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.IO",
           "name": "writeLP",
           "package": "glpk-hs",
@@ -2706,6 +2931,7 @@
         "index": {
           "description": "Write linear program to file in CPLEX LP format",
           "hierarchy": "Data LinearProgram GLPK IO",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.IO",
           "name": "writeLP",
           "normalized": "FilePath-\u003eLP a b-\u003eIO()",
@@ -2722,6 +2948,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface between the Haskell representation of a linear programming problem, a value of type \u003ccode\u003e\u003ca\u003eLP\u003c/a\u003e\u003c/code\u003e, and\n the GLPK solver.  The options available to the solver correspond naturally with GLPK's available options,\n so to find the meaning of any particular option, consult the GLPK documentation.\n\u003c/p\u003e\u003cp\u003eThe option of which solver to use -- the general LP solver, which solves a problem over the reals, or the \n MIP solver, which allows variables to be restricted to integers -- can be made by choosing the appropriate\n constructor for \u003ccode\u003e\u003ca\u003eGLPOpts\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe marshalling from Haskell to C is specialized for \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es and \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003es, so using those types in your\n linear program is recommended.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "Solver",
           "package": "glpk-hs",
@@ -2731,6 +2958,7 @@
         "index": {
           "description": "Interface between the Haskell representation of linear programming problem value of type LP and the GLPK solver The options available to the solver correspond naturally with GLPK available options so to find the meaning of any particular option consult the GLPK documentation The option of which solver to use the general LP solver which solves problem over the reals or the MIP solver which allows variables to be restricted to integers can be made by choosing the appropriate constructor for GLPOpts The marshalling from Haskell to is specialized for Int and Double so using those types in your linear program is recommended",
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "Solver",
           "package": "glpk-hs",
@@ -2744,6 +2972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "BacktrackTechnique",
           "package": "glpk-hs",
@@ -2752,6 +2981,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "BacktrackTechnique",
           "package": "glpk-hs",
@@ -2765,6 +2995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "BranchingTechnique",
           "package": "glpk-hs",
@@ -2773,6 +3004,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "BranchingTechnique",
           "package": "glpk-hs",
@@ -2786,6 +3018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "Cuts",
           "package": "glpk-hs",
@@ -2794,6 +3027,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "Cuts",
           "package": "glpk-hs",
@@ -2808,6 +3042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions available for customizing GLPK operations.  This also determines\n which kind of solving is performed -- relaxed LP, or MIP.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "GLPOpts",
           "package": "glpk-hs",
@@ -2817,6 +3052,7 @@
         "index": {
           "description": "Options available for customizing GLPK operations This also determines which kind of solving is performed relaxed LP or MIP",
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "GLPOpts",
           "package": "glpk-hs",
@@ -2830,6 +3066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "MsgLev",
           "package": "glpk-hs",
@@ -2838,6 +3075,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "MsgLev",
           "package": "glpk-hs",
@@ -2851,6 +3089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "Preprocessing",
           "package": "glpk-hs",
@@ -2859,6 +3098,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "Preprocessing",
           "package": "glpk-hs",
@@ -2872,6 +3112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "ReturnCode",
           "package": "glpk-hs",
@@ -2880,6 +3121,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "ReturnCode",
           "package": "glpk-hs",
@@ -2893,6 +3135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "RowValue",
           "package": "glpk-hs",
@@ -2901,6 +3144,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "RowValue",
           "package": "glpk-hs",
@@ -2914,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "AllPre",
           "package": "glpk-hs",
@@ -2923,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "AllPre",
           "package": "glpk-hs",
@@ -2936,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "BreadthFirst",
           "package": "glpk-hs",
@@ -2945,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "BreadthFirst",
           "package": "glpk-hs",
@@ -2958,6 +3206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "Clq",
           "package": "glpk-hs",
@@ -2967,6 +3216,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "Clq",
           "package": "glpk-hs",
@@ -2980,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "Cov",
           "package": "glpk-hs",
@@ -2989,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "Cov",
           "package": "glpk-hs",
@@ -3002,6 +3254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "DepthFirst",
           "package": "glpk-hs",
@@ -3011,6 +3264,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "DepthFirst",
           "package": "glpk-hs",
@@ -3024,6 +3278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "DrTom",
           "package": "glpk-hs",
@@ -3033,6 +3288,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "DrTom",
           "package": "glpk-hs",
@@ -3046,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "FirstFrac",
           "package": "glpk-hs",
@@ -3055,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "FirstFrac",
           "package": "glpk-hs",
@@ -3068,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "GMI",
           "package": "glpk-hs",
@@ -3077,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "GMI",
           "package": "glpk-hs",
@@ -3090,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "HybridP",
           "package": "glpk-hs",
@@ -3099,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "HybridP",
           "package": "glpk-hs",
@@ -3112,6 +3374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "IllConditionedMatrix",
           "package": "glpk-hs",
@@ -3121,6 +3384,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "IllConditionedMatrix",
           "package": "glpk-hs",
@@ -3134,6 +3398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "InvalidBasis",
           "package": "glpk-hs",
@@ -3143,6 +3408,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "InvalidBasis",
           "package": "glpk-hs",
@@ -3156,6 +3422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "InvalidBounds",
           "package": "glpk-hs",
@@ -3165,6 +3432,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "InvalidBounds",
           "package": "glpk-hs",
@@ -3178,6 +3446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "InvalidData",
           "package": "glpk-hs",
@@ -3187,6 +3456,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "InvalidData",
           "package": "glpk-hs",
@@ -3200,6 +3470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "IterLimReached",
           "package": "glpk-hs",
@@ -3209,6 +3480,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "IterLimReached",
           "package": "glpk-hs",
@@ -3222,6 +3494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "LastFrac",
           "package": "glpk-hs",
@@ -3231,6 +3504,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "LastFrac",
           "package": "glpk-hs",
@@ -3244,6 +3518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "LocBound",
           "package": "glpk-hs",
@@ -3253,6 +3528,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "LocBound",
           "package": "glpk-hs",
@@ -3266,6 +3542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "MIR",
           "package": "glpk-hs",
@@ -3275,6 +3552,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "MIR",
           "package": "glpk-hs",
@@ -3288,6 +3566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "MipGapTolReached",
           "package": "glpk-hs",
@@ -3297,6 +3576,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "MipGapTolReached",
           "package": "glpk-hs",
@@ -3310,6 +3590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "MipOpts",
           "package": "glpk-hs",
@@ -3319,6 +3600,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "MipOpts",
           "package": "glpk-hs",
@@ -3332,6 +3614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "MostFrac",
           "package": "glpk-hs",
@@ -3341,6 +3624,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "MostFrac",
           "package": "glpk-hs",
@@ -3354,6 +3638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "MsgAll",
           "package": "glpk-hs",
@@ -3363,6 +3648,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "MsgAll",
           "package": "glpk-hs",
@@ -3376,6 +3662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "MsgErr",
           "package": "glpk-hs",
@@ -3385,6 +3672,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "MsgErr",
           "package": "glpk-hs",
@@ -3398,6 +3686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "MsgOff",
           "package": "glpk-hs",
@@ -3407,6 +3696,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "MsgOff",
           "package": "glpk-hs",
@@ -3420,6 +3710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "MsgOn",
           "package": "glpk-hs",
@@ -3429,6 +3720,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "MsgOn",
           "package": "glpk-hs",
@@ -3442,6 +3734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "NoConvergence",
           "package": "glpk-hs",
@@ -3451,6 +3744,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "NoConvergence",
           "package": "glpk-hs",
@@ -3464,6 +3758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "NoDualFeasible",
           "package": "glpk-hs",
@@ -3473,6 +3768,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "NoDualFeasible",
           "package": "glpk-hs",
@@ -3486,6 +3782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "NoPre",
           "package": "glpk-hs",
@@ -3495,6 +3792,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "NoPre",
           "package": "glpk-hs",
@@ -3508,6 +3806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "NoPrimDualFeasSolution",
           "package": "glpk-hs",
@@ -3517,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "NoPrimDualFeasSolution",
           "package": "glpk-hs",
@@ -3530,6 +3830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "NoPrimalFeasible",
           "package": "glpk-hs",
@@ -3539,6 +3840,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "NoPrimalFeasible",
           "package": "glpk-hs",
@@ -3552,6 +3854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "NumericalInstability",
           "package": "glpk-hs",
@@ -3561,6 +3864,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "NumericalInstability",
           "package": "glpk-hs",
@@ -3574,6 +3878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "ObjLowerLimReached",
           "package": "glpk-hs",
@@ -3583,6 +3888,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "ObjLowerLimReached",
           "package": "glpk-hs",
@@ -3596,6 +3902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "ObjUpperLimReached",
           "package": "glpk-hs",
@@ -3605,6 +3912,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "ObjUpperLimReached",
           "package": "glpk-hs",
@@ -3618,6 +3926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "ProjHeur",
           "package": "glpk-hs",
@@ -3627,6 +3936,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "ProjHeur",
           "package": "glpk-hs",
@@ -3640,6 +3950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "ResultOutOfRange",
           "package": "glpk-hs",
@@ -3649,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "ResultOutOfRange",
           "package": "glpk-hs",
@@ -3662,6 +3974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "RootLPOptMissing",
           "package": "glpk-hs",
@@ -3671,6 +3984,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "RootLPOptMissing",
           "package": "glpk-hs",
@@ -3684,6 +3998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "RootPre",
           "package": "glpk-hs",
@@ -3693,6 +4008,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "RootPre",
           "package": "glpk-hs",
@@ -3706,6 +4022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "RowVal",
           "package": "glpk-hs",
@@ -3715,6 +4032,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "RowVal",
           "package": "glpk-hs",
@@ -3728,6 +4046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "SearchTerminated",
           "package": "glpk-hs",
@@ -3737,6 +4056,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "SearchTerminated",
           "package": "glpk-hs",
@@ -3750,6 +4070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "SimplexOpts",
           "package": "glpk-hs",
@@ -3759,6 +4080,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "SimplexOpts",
           "package": "glpk-hs",
@@ -3772,6 +4094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "SingularMatrix",
           "package": "glpk-hs",
@@ -3781,6 +4104,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "SingularMatrix",
           "package": "glpk-hs",
@@ -3794,6 +4118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "SolverFailed",
           "package": "glpk-hs",
@@ -3803,6 +4128,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "SolverFailed",
           "package": "glpk-hs",
@@ -3816,6 +4142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "Success",
           "package": "glpk-hs",
@@ -3825,6 +4152,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "Success",
           "package": "glpk-hs",
@@ -3838,6 +4166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "TimeLimReached",
           "package": "glpk-hs",
@@ -3847,6 +4176,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "TimeLimReached",
           "package": "glpk-hs",
@@ -3860,6 +4190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "brTech",
           "package": "glpk-hs",
@@ -3869,6 +4200,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "brTech",
           "package": "glpk-hs",
@@ -3882,6 +4214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "btTech",
           "package": "glpk-hs",
@@ -3891,6 +4224,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "btTech",
           "package": "glpk-hs",
@@ -3904,6 +4238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "cuts",
           "package": "glpk-hs",
@@ -3913,6 +4248,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "cuts",
           "normalized": "[Cuts]",
@@ -3927,6 +4263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "fpHeur",
           "package": "glpk-hs",
@@ -3936,6 +4273,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "fpHeur",
           "package": "glpk-hs",
@@ -3950,6 +4288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolves the linear or mixed integer programming problem.  Returns\n the value of the objective function, the values of the variables,\n and the values of any labeled rows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "glpSolveAll",
           "package": "glpk-hs",
@@ -3960,6 +4299,7 @@
         "index": {
           "description": "Solves the linear or mixed integer programming problem Returns the value of the objective function the values of the variables and the values of any labeled rows",
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "glpSolveAll",
           "normalized": "GLPOpts-\u003eLP a b-\u003eIO(ReturnCode,Maybe(Double,Map a Double,[RowValue a b]))",
@@ -3976,6 +4316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolves the linear or mixed integer programming problem.  Returns\n the value of the objective function, and the values of the variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "glpSolveVars",
           "package": "glpk-hs",
@@ -3986,6 +4327,7 @@
         "index": {
           "description": "Solves the linear or mixed integer programming problem Returns the value of the objective function and the values of the variables",
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "glpSolveVars",
           "normalized": "GLPOpts-\u003eLP a b-\u003eIO(ReturnCode,Maybe(Double,Map a Double))",
@@ -4001,6 +4343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "mipDefaults",
           "package": "glpk-hs",
@@ -4010,6 +4353,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "mipDefaults",
           "package": "glpk-hs",
@@ -4023,6 +4367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "mipGap",
           "package": "glpk-hs",
@@ -4032,6 +4377,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "mipGap",
           "package": "glpk-hs",
@@ -4045,6 +4391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "msgLev",
           "package": "glpk-hs",
@@ -4054,6 +4401,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "msgLev",
           "package": "glpk-hs",
@@ -4067,6 +4415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "ppTech",
           "package": "glpk-hs",
@@ -4076,6 +4425,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "ppTech",
           "package": "glpk-hs",
@@ -4089,6 +4439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "presolve",
           "package": "glpk-hs",
@@ -4098,6 +4449,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "presolve",
           "package": "glpk-hs",
@@ -4110,6 +4462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "row",
           "package": "glpk-hs",
@@ -4119,6 +4472,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "row",
           "package": "glpk-hs",
@@ -4131,6 +4485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "rowVal",
           "package": "glpk-hs",
@@ -4140,6 +4495,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "rowVal",
           "package": "glpk-hs",
@@ -4153,6 +4509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "simplexDefaults",
           "package": "glpk-hs",
@@ -4162,6 +4519,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "simplexDefaults",
           "package": "glpk-hs",
@@ -4175,6 +4533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "tmLim",
           "package": "glpk-hs",
@@ -4184,6 +4543,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK Solver",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK.Solver",
           "name": "tmLim",
           "package": "glpk-hs",
@@ -4197,6 +4557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.GLPK",
           "name": "GLPK",
           "package": "glpk-hs",
@@ -4205,6 +4566,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram GLPK",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.GLPK",
           "name": "GLPK",
           "package": "glpk-hs",
@@ -4218,6 +4580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.LinExpr",
           "name": "LinExpr",
           "package": "glpk-hs",
@@ -4226,6 +4589,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram LinExpr",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.LinExpr",
           "name": "LinExpr",
           "package": "glpk-hs",
@@ -4239,6 +4603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.LinExpr",
           "name": "LinExpr",
           "package": "glpk-hs",
@@ -4247,6 +4612,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram LinExpr",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.LinExpr",
           "name": "LinExpr",
           "package": "glpk-hs",
@@ -4260,6 +4626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.LinExpr",
           "name": "LinExpr",
           "package": "glpk-hs",
@@ -4269,6 +4636,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram LinExpr",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.LinExpr",
           "name": "LinExpr",
           "package": "glpk-hs",
@@ -4282,6 +4650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.LinExpr",
           "name": "coeffTerm",
           "package": "glpk-hs",
@@ -4291,6 +4660,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram LinExpr",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.LinExpr",
           "name": "coeffTerm",
           "normalized": "LinExpr a b-\u003eLinFunc a b",
@@ -4306,6 +4676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.LinExpr",
           "name": "constTerm",
           "package": "glpk-hs",
@@ -4315,6 +4686,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram LinExpr",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.LinExpr",
           "name": "constTerm",
           "normalized": "LinExpr a b-\u003eb",
@@ -4330,6 +4702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.LinExpr",
           "name": "funcToExpr",
           "package": "glpk-hs",
@@ -4339,6 +4712,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram LinExpr",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.LinExpr",
           "name": "funcToExpr",
           "normalized": "LinFunc a b-\u003eLinExpr a b",
@@ -4354,6 +4728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.LinExpr",
           "name": "simplifyExpr",
           "package": "glpk-hs",
@@ -4363,6 +4738,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram LinExpr",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.LinExpr",
           "name": "simplifyExpr",
           "normalized": "LinExpr a b-\u003eMap a(LinExpr a b)-\u003eLinExpr a b",
@@ -4378,6 +4754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.LinExpr",
           "name": "solve",
           "package": "glpk-hs",
@@ -4387,6 +4764,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram LinExpr",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.LinExpr",
           "name": "solve",
           "normalized": "[(LinFunc a b,b)]-\u003eMaybe(Map a(LinExpr a b))",
@@ -4401,6 +4779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram.LinExpr",
           "name": "substituteExpr",
           "package": "glpk-hs",
@@ -4410,6 +4789,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram LinExpr",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram.LinExpr",
           "name": "substituteExpr",
           "normalized": "a-\u003eLinExpr a b-\u003eLinExpr a b-\u003eLinExpr a b",
@@ -4425,6 +4805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:34 UTC 2014",
           "module": "Data.LinearProgram",
           "name": "LinearProgram",
           "package": "glpk-hs",
@@ -4433,6 +4814,7 @@
         },
         "index": {
           "hierarchy": "Data LinearProgram",
+          "indexed": "2014-03-11T18:18:34",
           "module": "Data.LinearProgram",
           "name": "LinearProgram",
           "package": "glpk-hs",

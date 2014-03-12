@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "layout"
+        "phrase": "layout",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.Class",
           "name": "Class",
           "package": "layout",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Layout Class",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.Class",
           "name": "Class",
           "package": "layout",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.Class",
           "name": "IsFormat",
           "package": "layout",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text Layout Class",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.Class",
           "name": "IsFormat",
           "package": "layout",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.Class",
           "name": "Layout",
           "package": "layout",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text Layout Class",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.Class",
           "name": "Layout",
           "package": "layout",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.Class",
           "name": "format",
           "package": "layout",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Text Layout Class",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.Class",
           "name": "format",
           "normalized": "a-\u003eb",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.Class",
           "name": "formatList",
           "package": "layout",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Text Layout Class",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.Class",
           "name": "formatList",
           "normalized": "[a]-\u003eb",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.Class",
           "name": "formatVerbatim",
           "package": "layout",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Text Layout Class",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.Class",
           "name": "formatVerbatim",
           "normalized": "String-\u003ea",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.Class",
           "name": "fromShow",
           "package": "layout",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Text Layout Class",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.Class",
           "name": "fromShow",
           "normalized": "a-\u003eb",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.DisplayLatex",
           "name": "DisplayLatex",
           "package": "layout",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Text Layout DisplayLatex",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.DisplayLatex",
           "name": "DisplayLatex",
           "package": "layout",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.DisplayLatex",
           "name": "DisplayLatex",
           "package": "layout",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Text Layout DisplayLatex",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.DisplayLatex",
           "name": "DisplayLatex",
           "package": "layout",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.DisplayLatex",
           "name": "DisplayLatex",
           "package": "layout",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Text Layout DisplayLatex",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.DisplayLatex",
           "name": "DisplayLatex",
           "package": "layout",
@@ -241,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut for convert\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.DisplayLatex",
           "name": "dltx",
           "package": "layout",
@@ -251,6 +272,7 @@
         "index": {
           "description": "Shortcut for convert",
           "hierarchy": "Text Layout DisplayLatex",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.DisplayLatex",
           "name": "dltx",
           "normalized": "a-\u003eDisplayLatex",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.DisplayLatex",
           "name": "fromDisplayLatex",
           "package": "layout",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Text Layout DisplayLatex",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.DisplayLatex",
           "name": "fromDisplayLatex",
           "package": "layout",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.DisplayText",
           "name": "DisplayText",
           "package": "layout",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Text Layout DisplayText",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.DisplayText",
           "name": "DisplayText",
           "package": "layout",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.DisplayText",
           "name": "DisplayText",
           "package": "layout",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Text Layout DisplayText",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.DisplayText",
           "name": "DisplayText",
           "package": "layout",
@@ -329,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.DisplayText",
           "name": "DisplayText",
           "package": "layout",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Text Layout DisplayText",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.DisplayText",
           "name": "DisplayText",
           "package": "layout",
@@ -352,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut for \u003ccode\u003e(Layout :: a -\u003e DisplayText)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.DisplayText",
           "name": "dt",
           "package": "layout",
@@ -362,6 +393,7 @@
         "index": {
           "description": "Shortcut for Layout DisplayText",
           "hierarchy": "Text Layout DisplayText",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.DisplayText",
           "name": "dt",
           "normalized": "a-\u003eDisplayText",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.DisplayText",
           "name": "fromDisplayText",
           "package": "layout",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Text Layout DisplayText",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.DisplayText",
           "name": "fromDisplayText",
           "package": "layout",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.Objects",
           "name": "Objects",
           "package": "layout",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Text Layout Objects",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.Objects",
           "name": "Objects",
           "package": "layout",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.Objects",
           "name": "Table",
           "package": "layout",
@@ -427,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Text Layout Objects",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.Objects",
           "name": "Table",
           "package": "layout",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.Objects",
           "name": "Table",
           "package": "layout",
@@ -449,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Text Layout Objects",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.Objects",
           "name": "Table",
           "package": "layout",
@@ -462,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.Objects",
           "name": "tableAxes",
           "package": "layout",
@@ -471,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Text Layout Objects",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.Objects",
           "name": "tableAxes",
           "normalized": "(String,String)",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.Objects",
           "name": "tableCaption",
           "package": "layout",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Text Layout Objects",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.Objects",
           "name": "tableCaption",
           "package": "layout",
@@ -508,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout.Objects",
           "name": "tableValues",
           "package": "layout",
@@ -517,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Text Layout Objects",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout.Objects",
           "name": "tableValues",
           "normalized": "[((a,b),c)]",
@@ -532,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:37 UTC 2014",
           "module": "Text.Layout",
           "name": "Layout",
           "package": "layout",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Text Layout",
+          "indexed": "2014-03-11T19:06:37",
           "module": "Text.Layout",
           "name": "Layout",
           "package": "layout",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "prednote"
+        "phrase": "prednote",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions.Infix",
           "name": "Infix",
           "package": "prednote",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Expressions Infix",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions.Infix",
           "name": "Infix",
           "package": "prednote",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions.Infix",
           "name": "InfixToken",
           "package": "prednote",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Expressions Infix",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions.Infix",
           "name": "InfixToken",
           "package": "prednote",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions.Infix",
           "name": "Paren",
           "package": "prednote",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Expressions Infix",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions.Infix",
           "name": "Paren",
           "package": "prednote",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions.Infix",
           "name": "Close",
           "package": "prednote",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Expressions Infix",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions.Infix",
           "name": "Close",
           "package": "prednote",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions.Infix",
           "name": "Open",
           "package": "prednote",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Expressions Infix",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions.Infix",
           "name": "Open",
           "package": "prednote",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions.Infix",
           "name": "TokParen",
           "package": "prednote",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Expressions Infix",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions.Infix",
           "name": "TokParen",
           "package": "prednote",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions.Infix",
           "name": "TokRPN",
           "package": "prednote",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Expressions Infix",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions.Infix",
           "name": "TokRPN",
           "package": "prednote",
@@ -170,6 +184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an RPN expression from an infix one. Fails only if there\n are mismatched parentheses. It is possible to create a nonsensical\n RPN expression; the RPN parser must catch this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions.Infix",
           "name": "createRPN",
           "package": "prednote",
@@ -179,6 +194,7 @@
         "index": {
           "description": "Creates an RPN expression from an infix one Fails only if there are mismatched parentheses It is possible to create nonsensical RPN expression the RPN parser must catch this",
           "hierarchy": "Data Prednote Expressions Infix",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions.Infix",
           "name": "createRPN",
           "normalized": "a(InfixToken b)-\u003eMaybe[RPNToken b]",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePostfix, or RPN, expression parsing.\n\u003c/p\u003e\u003cp\u003eThis module parses RPN expressions where the operands are\n predicates and the operators are one of \u003ccode\u003eand\u003c/code\u003e, \u003ccode\u003eor\u003c/code\u003e, or \u003ccode\u003enot\u003c/code\u003e,\n where \u003ccode\u003eand\u003c/code\u003e and \u003ccode\u003eor\u003c/code\u003e are binary and \u003ccode\u003enot\u003c/code\u003e is unary.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "RPN",
           "package": "prednote",
@@ -204,6 +221,7 @@
         "index": {
           "description": "Postfix or RPN expression parsing This module parses RPN expressions where the operands are predicates and the operators are one of and or or not where and and or are binary and not is unary",
           "hierarchy": "Data Prednote Expressions RPN",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "RPN",
           "package": "prednote",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "Error",
           "package": "prednote",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Expressions RPN",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "Error",
           "package": "prednote",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "Operator",
           "package": "prednote",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Expressions RPN",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "Operator",
           "package": "prednote",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "RPNToken",
           "package": "prednote",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Expressions RPN",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "RPNToken",
           "package": "prednote",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "OpAnd",
           "package": "prednote",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Expressions RPN",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "OpAnd",
           "package": "prednote",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "OpNot",
           "package": "prednote",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Expressions RPN",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "OpNot",
           "package": "prednote",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "OpOr",
           "package": "prednote",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Expressions RPN",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "OpOr",
           "package": "prednote",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "TokOperand",
           "package": "prednote",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Expressions RPN",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "TokOperand",
           "package": "prednote",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "TokOperator",
           "package": "prednote",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Expressions RPN",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "TokOperator",
           "package": "prednote",
@@ -391,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses an RPN expression and returns the resulting Predbox. Fails if\n there are no operands left on the stack or if there are multiple\n operands left on the stack; the stack must contain exactly one\n operand in order to succeed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "parseRPN",
           "package": "prednote",
@@ -401,6 +436,7 @@
         "index": {
           "description": "Parses an RPN expression and returns the resulting Predbox Fails if there are no operands left on the stack or if there are multiple operands left on the stack the stack must contain exactly one operand in order to succeed",
           "hierarchy": "Data Prednote Expressions RPN",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "parseRPN",
           "normalized": "a(RPNToken b)-\u003eEither Error(Predbox b)",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "pushOperand",
           "package": "prednote",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Expressions RPN",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "pushOperand",
           "normalized": "Predbox a-\u003e[Predbox a]-\u003e[Predbox a]",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "pushOperator",
           "package": "prednote",
@@ -449,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Expressions RPN",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "pushOperator",
           "normalized": "Operator-\u003e[Predbox a]-\u003eEither Error[Predbox a]",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "pushToken",
           "package": "prednote",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Expressions RPN",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions.RPN",
           "name": "pushToken",
           "normalized": "[Predbox a]-\u003eRPNToken a-\u003eEither Error[Predbox a]",
@@ -489,6 +531,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHandles parsing of both infix and RPN Predbox expressions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions",
           "name": "Expressions",
           "package": "prednote",
@@ -498,6 +541,7 @@
         "index": {
           "description": "Handles parsing of both infix and RPN Predbox expressions",
           "hierarchy": "Data Prednote Expressions",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions",
           "name": "Expressions",
           "package": "prednote",
@@ -511,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions",
           "name": "Error",
           "package": "prednote",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Expressions",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions",
           "name": "Error",
           "package": "prednote",
@@ -533,6 +579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this an infix or RPN expression?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions",
           "name": "ExprDesc",
           "package": "prednote",
@@ -542,6 +589,7 @@
         "index": {
           "description": "Is this an infix or RPN expression",
           "hierarchy": "Data Prednote Expressions",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions",
           "name": "ExprDesc",
           "package": "prednote",
@@ -556,6 +604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single type for both RPN tokens and infix tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions",
           "name": "Token",
           "package": "prednote",
@@ -565,6 +614,7 @@
         "index": {
           "description": "single type for both RPN tokens and infix tokens",
           "hierarchy": "Data Prednote Expressions",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions",
           "name": "Token",
           "package": "prednote",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions",
           "name": "Infix",
           "package": "prednote",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Expressions",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions",
           "name": "Infix",
           "package": "prednote",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions",
           "name": "RPN",
           "package": "prednote",
@@ -609,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Expressions",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions",
           "name": "RPN",
           "package": "prednote",
@@ -623,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose parentheses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions",
           "name": "closeParen",
           "package": "prednote",
@@ -633,6 +688,7 @@
         "index": {
           "description": "Close parentheses",
           "hierarchy": "Data Prednote Expressions",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions",
           "name": "closeParen",
           "package": "prednote",
@@ -647,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe And operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions",
           "name": "opAnd",
           "package": "prednote",
@@ -657,6 +714,7 @@
         "index": {
           "description": "The And operator",
           "hierarchy": "Data Prednote Expressions",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions",
           "name": "opAnd",
           "package": "prednote",
@@ -671,6 +729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Not operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions",
           "name": "opNot",
           "package": "prednote",
@@ -681,6 +740,7 @@
         "index": {
           "description": "The Not operator",
           "hierarchy": "Data Prednote Expressions",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions",
           "name": "opNot",
           "package": "prednote",
@@ -695,6 +755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Or operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions",
           "name": "opOr",
           "package": "prednote",
@@ -705,6 +766,7 @@
         "index": {
           "description": "The Or operator",
           "hierarchy": "Data Prednote Expressions",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions",
           "name": "opOr",
           "package": "prednote",
@@ -719,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen parentheses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions",
           "name": "openParen",
           "package": "prednote",
@@ -729,6 +792,7 @@
         "index": {
           "description": "Open parentheses",
           "hierarchy": "Data Prednote Expressions",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions",
           "name": "openParen",
           "package": "prednote",
@@ -743,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates Operands from Predbox.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions",
           "name": "operand",
           "package": "prednote",
@@ -753,6 +818,7 @@
         "index": {
           "description": "Creates Operands from Predbox",
           "hierarchy": "Data Prednote Expressions",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions",
           "name": "operand",
           "normalized": "Predbox a-\u003eToken a",
@@ -768,6 +834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses expressions. Fails if the expression is nonsensical in\n some way (for example, unbalanced parentheses, parentheses in an\n RPN expression, or multiple stack values remaining.) Works by first\n changing infix expressions to RPN ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Expressions",
           "name": "parseExpression",
           "package": "prednote",
@@ -778,6 +845,7 @@
         "index": {
           "description": "Parses expressions Fails if the expression is nonsensical in some way for example unbalanced parentheses parentheses in an RPN expression or multiple stack values remaining Works by first changing infix expressions to RPN ones",
           "hierarchy": "Data Prednote Expressions",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Expressions",
           "name": "parseExpression",
           "normalized": "ExprDesc-\u003e[Token a]-\u003eEither Error(Predbox a)",
@@ -794,6 +862,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTrees of predicates.\n\u003c/p\u003e\u003cp\u003eExports names which conflict with Prelude names, so you probably\n want to import this module qualified.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "Predbox",
           "package": "prednote",
@@ -803,6 +872,7 @@
         "index": {
           "description": "Trees of predicates Exports names which conflict with Prelude names so you probably want to import this module qualified",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "Predbox",
           "package": "prednote",
@@ -817,6 +887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines whether a result is shown by default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "Hide",
           "package": "prednote",
@@ -826,6 +897,7 @@
         "index": {
           "description": "Determines whether result is shown by default",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "Hide",
           "package": "prednote",
@@ -840,6 +912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of spaces to use for each level of indentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "IndentAmt",
           "package": "prednote",
@@ -849,6 +922,7 @@
         "index": {
           "description": "The number of spaces to use for each level of indentation",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "IndentAmt",
           "package": "prednote",
@@ -862,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "Label",
           "package": "prednote",
@@ -870,6 +945,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "Label",
           "package": "prednote",
@@ -884,6 +960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow many levels of indentation to use. Typically you will start\n this at zero. It is incremented by one for each level as functions\n descend through the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "Level",
           "package": "prednote",
@@ -893,6 +970,7 @@
         "index": {
           "description": "How many levels of indentation to use Typically you will start this at zero It is incremented by one for each level as functions descend through the tree",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "Level",
           "package": "prednote",
@@ -906,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "Node",
           "package": "prednote",
@@ -914,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "Node",
           "package": "prednote",
@@ -928,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA predicate. Each Predbox contains a tree of Node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "Predbox",
           "package": "prednote",
@@ -937,6 +1018,7 @@
         "index": {
           "description": "predicate Each Predbox contains tree of Node",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "Predbox",
           "package": "prednote",
@@ -950,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "RNode",
           "package": "prednote",
@@ -958,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "RNode",
           "package": "prednote",
@@ -972,6 +1056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result from evaluating a Predbox.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "Result",
           "package": "prednote",
@@ -981,6 +1066,7 @@
         "index": {
           "description": "The result from evaluating Predbox",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "Result",
           "package": "prednote",
@@ -994,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "ShowAll",
           "package": "prednote",
@@ -1002,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "ShowAll",
           "package": "prednote",
@@ -1016,6 +1104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForms a Predbox using \u003ccode\u003e\u003ca\u003eor\u003c/a\u003e\u003c/code\u003e; assigns a generic label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "(|||)",
           "package": "prednote",
@@ -1026,6 +1115,7 @@
         "index": {
           "description": "Forms Predbox using or assigns generic label",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "(|||) |||",
           "normalized": "Predbox a-\u003ePredbox a-\u003ePredbox a",
@@ -1041,6 +1131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForms a Predbox using \u003ccode\u003e\u003ca\u003eand\u003c/a\u003e\u003c/code\u003e; assigns a generic label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "(&&&)",
           "package": "prednote",
@@ -1051,6 +1142,7 @@
         "index": {
           "description": "Forms Predbox using and assigns generic label",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "(&&&) &&&",
           "normalized": "Predbox a-\u003ePredbox a-\u003ePredbox a",
@@ -1066,6 +1158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConjunction. If any Predbox in the list is False, the result is\n False. If the list is empty, the result is True.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "And",
           "package": "prednote",
@@ -1076,6 +1169,7 @@
         "index": {
           "description": "Conjunction If any Predbox in the list is False the result is False If the list is empty the result is True",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "And",
           "normalized": "And[Predbox a]",
@@ -1092,6 +1186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "Not",
           "package": "prednote",
@@ -1102,6 +1197,7 @@
         "index": {
           "description": "Negation",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "Not",
           "package": "prednote",
@@ -1116,6 +1212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisjunction. If at least one Predbox in the list is True, the\n result it True. If the list is empty, the result is False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "Or",
           "package": "prednote",
@@ -1126,6 +1223,7 @@
         "index": {
           "description": "Disjunction If at least one Predbox in the list is True the result it True If the list is empty the result is False",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "Or",
           "normalized": "Or[Predbox a]",
@@ -1141,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "Predbox",
           "package": "prednote",
@@ -1150,6 +1249,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "Predbox",
           "package": "prednote",
@@ -1164,6 +1264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMost basic building block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "Predicate",
           "package": "prednote",
@@ -1174,6 +1275,7 @@
         "index": {
           "description": "Most basic building block",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "Predicate",
           "normalized": "Predicate(a-\u003eBool)",
@@ -1189,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "RAnd",
           "package": "prednote",
@@ -1198,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "RAnd",
           "normalized": "RAnd[Result]",
@@ -1213,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "RNot",
           "package": "prednote",
@@ -1222,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "RNot",
           "package": "prednote",
@@ -1235,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "ROr",
           "package": "prednote",
@@ -1244,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "ROr",
           "normalized": "ROr[Result]",
@@ -1259,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "RPredicate",
           "package": "prednote",
@@ -1268,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "RPredicate",
           "package": "prednote",
@@ -1281,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "Result",
           "package": "prednote",
@@ -1290,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "Result",
           "package": "prednote",
@@ -1304,6 +1416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlways True\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "always",
           "package": "prednote",
@@ -1314,6 +1427,7 @@
         "index": {
           "description": "Always True",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "always",
           "package": "prednote",
@@ -1327,6 +1441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates And Predbox using a generic name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "and",
           "package": "prednote",
@@ -1337,6 +1452,7 @@
         "index": {
           "description": "Creates And Predbox using generic name",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "and",
           "normalized": "[Predbox a]-\u003ePredbox a",
@@ -1352,6 +1468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverloaded version of \u003ccode\u003e\u003ca\u003ecompareBy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "compare",
           "package": "prednote",
@@ -1361,6 +1478,7 @@
         "index": {
           "description": "Overloaded version of compareBy",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "compare",
           "normalized": "Text-\u003ea-\u003eOrdering-\u003ePredbox a",
@@ -1376,6 +1494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a Predbox that compares items.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "compareBy",
           "package": "prednote",
@@ -1385,6 +1504,7 @@
         "index": {
           "description": "Build Predbox that compares items",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "compareBy",
           "normalized": "Text-\u003eText-\u003e(a-\u003eOrdering)-\u003eOrdering-\u003ePredbox a",
@@ -1401,6 +1521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilds a Predbox for items that might fail to return a comparison.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "compareByMaybe",
           "package": "prednote",
@@ -1410,6 +1531,7 @@
         "index": {
           "description": "Builds Predbox for items that might fail to return comparison",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "compareByMaybe",
           "normalized": "Text-\u003eText-\u003e(a-\u003eMaybe Ordering)-\u003eOrdering-\u003ePredbox a",
@@ -1425,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "equal",
           "package": "prednote",
@@ -1433,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "equal",
           "normalized": "Text-\u003ea-\u003ePredbox a",
@@ -1447,6 +1571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "equalBy",
           "package": "prednote",
@@ -1455,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "equalBy",
           "normalized": "Text-\u003eText-\u003e(a-\u003eOrdering)-\u003ePredbox a",
@@ -1471,6 +1597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a Predbox to a particular value, known as the subject.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "evaluate",
           "package": "prednote",
@@ -1481,6 +1608,7 @@
         "index": {
           "description": "Applies Predbox to particular value known as the subject",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "evaluate",
           "normalized": "Predbox a-\u003ea-\u003eResult",
@@ -1495,6 +1623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "evaluateNode",
           "package": "prednote",
@@ -1504,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "evaluateNode",
           "normalized": "Node a-\u003ea-\u003eRNode",
@@ -1519,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "filter",
           "package": "prednote",
@@ -1528,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "filter",
           "normalized": "Predbox a-\u003e[a]-\u003e[a]",
@@ -1542,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "greater",
           "package": "prednote",
@@ -1550,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "greater",
           "normalized": "Text-\u003ea-\u003ePredbox a",
@@ -1564,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "greaterBy",
           "package": "prednote",
@@ -1572,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "greaterBy",
           "normalized": "Text-\u003eText-\u003e(a-\u003eOrdering)-\u003ePredbox a",
@@ -1587,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "greaterEq",
           "package": "prednote",
@@ -1595,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "greaterEq",
           "normalized": "Text-\u003ea-\u003ePredbox a",
@@ -1610,6 +1748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "greaterEqBy",
           "package": "prednote",
@@ -1618,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "greaterEqBy",
           "normalized": "Text-\u003eText-\u003e(a-\u003eOrdering)-\u003ePredbox a",
@@ -1634,6 +1774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChanges a Predbox so it is always hidden by default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "hide",
           "package": "prednote",
@@ -1644,6 +1785,7 @@
         "index": {
           "description": "Changes Predbox so it is always hidden by default",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "hide",
           "normalized": "Predbox a-\u003ePredbox a",
@@ -1659,6 +1801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChanges a Predbox so that it is hidden if its result is False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "hideFalse",
           "package": "prednote",
@@ -1669,6 +1812,7 @@
         "index": {
           "description": "Changes Predbox so that it is hidden if its result is False",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "hideFalse",
           "normalized": "Predbox a-\u003ePredbox a",
@@ -1685,6 +1829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChanges a Predbox so that it is hidden if its result is True.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "hideTrue",
           "package": "prednote",
@@ -1695,6 +1840,7 @@
         "index": {
           "description": "Changes Predbox so that it is hidden if its result is True",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "hideTrue",
           "normalized": "Predbox a-\u003ePredbox a",
@@ -1710,6 +1856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "less",
           "package": "prednote",
@@ -1718,6 +1865,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "less",
           "normalized": "Text-\u003ea-\u003ePredbox a",
@@ -1732,6 +1880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "lessBy",
           "package": "prednote",
@@ -1740,6 +1889,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "lessBy",
           "normalized": "Text-\u003eText-\u003e(a-\u003eOrdering)-\u003ePredbox a",
@@ -1755,6 +1905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "lessEq",
           "package": "prednote",
@@ -1763,6 +1914,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "lessEq",
           "normalized": "Text-\u003ea-\u003ePredbox a",
@@ -1778,6 +1930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "lessEqBy",
           "package": "prednote",
@@ -1786,6 +1939,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "lessEqBy",
           "normalized": "Text-\u003eText-\u003e(a-\u003eOrdering)-\u003ePredbox a",
@@ -1802,6 +1956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlways False\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "never",
           "package": "prednote",
@@ -1812,6 +1967,7 @@
         "index": {
           "description": "Always False",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "never",
           "package": "prednote",
@@ -1825,6 +1981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates Not Predbox using a generic name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "not",
           "package": "prednote",
@@ -1835,6 +1992,7 @@
         "index": {
           "description": "Creates Not Predbox using generic name",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "not",
           "normalized": "Predbox a-\u003ePredbox a",
@@ -1849,6 +2007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "notEq",
           "package": "prednote",
@@ -1857,6 +2016,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "notEq",
           "normalized": "Text-\u003ea-\u003ePredbox a",
@@ -1872,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "notEqBy",
           "package": "prednote",
@@ -1880,6 +2041,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "notEqBy",
           "normalized": "Text-\u003eText-\u003e(a-\u003eOrdering)-\u003ePredbox a",
@@ -1896,6 +2058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates Or Predbox using a generic name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "or",
           "package": "prednote",
@@ -1906,6 +2069,7 @@
         "index": {
           "description": "Creates Or Predbox using generic name",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "or",
           "normalized": "[Predbox a]-\u003ePredbox a",
@@ -1921,6 +2085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs results are computed, this function is applied to the\n result. If this function returns False, then this Predbox will not\n be shown by default in the results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "pHide",
           "package": "prednote",
@@ -1931,6 +2096,7 @@
         "index": {
           "description": "As results are computed this function is applied to the result If this function returns False then this Predbox will not be shown by default in the results",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "pHide",
           "normalized": "Bool-\u003eHide",
@@ -1947,6 +2113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel used when showing the results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "pLabel",
           "package": "prednote",
@@ -1957,6 +2124,7 @@
         "index": {
           "description": "Label used when showing the results",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "pLabel",
           "package": "prednote",
@@ -1970,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "pNode",
           "package": "prednote",
@@ -1979,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "pNode",
           "package": "prednote",
@@ -1993,6 +2163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a string to find the correct comparer; returns the correct\n function to build a Predbox.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "parseComparer",
           "package": "prednote",
@@ -2002,6 +2173,7 @@
         "index": {
           "description": "Parses string to find the correct comparer returns the correct function to build Predbox",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "parseComparer",
           "normalized": "Text-\u003e(Ordering-\u003ePredbox a)-\u003eMaybe(Predbox a)",
@@ -2018,6 +2190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates and labels predicates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "predicate",
           "package": "prednote",
@@ -2028,6 +2201,7 @@
         "index": {
           "description": "Creates and labels predicates",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "predicate",
           "normalized": "Label-\u003e(a-\u003eBool)-\u003ePredbox a",
@@ -2043,6 +2217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe boolean result from evaluating the node. If the node is an\n predicate, this is the result of applying the predicate function to\n the subject. Otherwise, this is the result of application of the\n appropriate boolean operation to the child nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "rBool",
           "package": "prednote",
@@ -2053,6 +2228,7 @@
         "index": {
           "description": "The boolean result from evaluating the node If the node is an predicate this is the result of applying the predicate function to the subject Otherwise this is the result of application of the appropriate boolean operation to the child nodes",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "rBool",
           "package": "prednote",
@@ -2067,6 +2243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this result hidden in the result by default? Hiding only\n affects presentation; it does not affect how this Predbox affects\n any parent Predbox.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "rHide",
           "package": "prednote",
@@ -2077,6 +2254,7 @@
         "index": {
           "description": "Is this result hidden in the result by default Hiding only affects presentation it does not affect how this Predbox affects any parent Predbox",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "rHide",
           "package": "prednote",
@@ -2091,6 +2269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe label from the original Predbox\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "rLabel",
           "package": "prednote",
@@ -2101,6 +2280,7 @@
         "index": {
           "description": "The label from the original Predbox",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "rLabel",
           "package": "prednote",
@@ -2114,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "rNode",
           "package": "prednote",
@@ -2123,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "rNode",
           "package": "prednote",
@@ -2137,6 +2319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenames the top level of the Predbox. The function you pass will be\n applied to the old name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "rename",
           "package": "prednote",
@@ -2147,6 +2330,7 @@
         "index": {
           "description": "Renames the top level of the Predbox The function you pass will be applied to the old name",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "rename",
           "normalized": "(Text-\u003eText)-\u003ePredbox a-\u003ePredbox a",
@@ -2162,6 +2346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChanges a Predbox so it is always shown by default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "show",
           "package": "prednote",
@@ -2172,6 +2357,7 @@
         "index": {
           "description": "Changes Predbox so it is always shown by default",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "show",
           "normalized": "Predbox a-\u003ePredbox a",
@@ -2187,6 +2373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows a Predbox tree without evaluating it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "showPredbox",
           "package": "prednote",
@@ -2197,6 +2384,7 @@
         "index": {
           "description": "Shows Predbox tree without evaluating it",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "showPredbox",
           "normalized": "IndentAmt-\u003eLevel-\u003ePredbox a-\u003e[Chunk]",
@@ -2213,6 +2401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows a Result in a pretty way with colors and indentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "showResult",
           "package": "prednote",
@@ -2222,6 +2411,7 @@
         "index": {
           "description": "Shows Result in pretty way with colors and indentation",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "showResult",
           "normalized": "IndentAmt-\u003eShowAll-\u003eLevel-\u003eResult-\u003e[Chunk]",
@@ -2238,6 +2428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows the top of a Result tree and all the child Results. Adds a\n short label at the top of the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "showTopResult",
           "package": "prednote",
@@ -2247,6 +2438,7 @@
         "index": {
           "description": "Shows the top of Result tree and all the child Results Adds short label at the top of the tree",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "showTopResult",
           "normalized": "Text-\u003eIndentAmt-\u003eLevel-\u003eShowAll-\u003eResult-\u003e[Chunk]",
@@ -2263,6 +2455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilters a list. Also returns chunks describing the process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Predbox",
           "name": "verboseFilter",
           "package": "prednote",
@@ -2272,6 +2465,7 @@
         "index": {
           "description": "Filters list Also returns chunks describing the process",
           "hierarchy": "Data Prednote Predbox",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Predbox",
           "name": "verboseFilter",
           "normalized": "(a-\u003eText)-\u003eIndentAmt-\u003eShowAll-\u003ePredbox a-\u003e[a]-\u003e([Chunk],[a])",
@@ -2288,6 +2482,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHelps you build tests that run against a series of items.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "Test",
           "package": "prednote",
@@ -2297,6 +2492,7 @@
         "index": {
           "description": "Helps you build tests that run against series of items",
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "Test",
           "package": "prednote",
@@ -2311,6 +2507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this verbosity for subjects that are False\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "FalseVerbosity",
           "package": "prednote",
@@ -2320,6 +2517,7 @@
         "index": {
           "description": "Use this verbosity for subjects that are False",
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "FalseVerbosity",
           "package": "prednote",
@@ -2334,6 +2532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of a test or of a group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "Name",
           "package": "prednote",
@@ -2343,6 +2542,7 @@
         "index": {
           "description": "The name of test or of group",
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "Name",
           "package": "prednote",
@@ -2356,6 +2556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "Pass",
           "package": "prednote",
@@ -2364,6 +2565,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "Pass",
           "package": "prednote",
@@ -2378,6 +2580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "Test",
           "package": "prednote",
@@ -2387,6 +2590,7 @@
         "index": {
           "description": "single test",
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "Test",
           "package": "prednote",
@@ -2400,6 +2604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "TestResult",
           "package": "prednote",
@@ -2408,6 +2613,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "TestResult",
           "package": "prednote",
@@ -2422,6 +2628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines which TestVisibility to use for a particular test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "TestVerbosity",
           "package": "prednote",
@@ -2431,6 +2638,7 @@
         "index": {
           "description": "Determines which TestVisibility to use for particular test",
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "TestVerbosity",
           "package": "prednote",
@@ -2445,6 +2653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines whether to show any of the results from a single test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "TestVisibility",
           "package": "prednote",
@@ -2454,6 +2663,7 @@
         "index": {
           "description": "Determines whether to show any of the results from single test",
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "TestVisibility",
           "package": "prednote",
@@ -2468,6 +2678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this verbosity for subjects that are True\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "TrueVerbosity",
           "package": "prednote",
@@ -2477,6 +2688,7 @@
         "index": {
           "description": "Use this verbosity for subjects that are True",
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "TrueVerbosity",
           "package": "prednote",
@@ -2491,6 +2703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow verbose to be when showing the results of running a Predbox on a\n single subject.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "Verbosity",
           "package": "prednote",
@@ -2500,6 +2713,7 @@
         "index": {
           "description": "How verbose to be when showing the results of running Predbox on single subject",
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "Verbosity",
           "package": "prednote",
@@ -2514,6 +2728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo not show any results from the Predbox\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "HideAll",
           "package": "prednote",
@@ -2524,6 +2739,7 @@
         "index": {
           "description": "Do not show any results from the Predbox",
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "HideAll",
           "package": "prednote",
@@ -2538,6 +2754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo not show any results from this test\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "HideTest",
           "package": "prednote",
@@ -2548,6 +2765,7 @@
         "index": {
           "description": "Do not show any results from this test",
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "HideTest",
           "package": "prednote",
@@ -2562,6 +2780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow all Result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "ShowAll",
           "package": "prednote",
@@ -2572,6 +2791,7 @@
         "index": {
           "description": "Show all Result",
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "ShowAll",
           "package": "prednote",
@@ -2586,6 +2806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow results according to the default settings provided in the\n Result itself\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "ShowDefaults",
           "package": "prednote",
@@ -2596,6 +2817,7 @@
         "index": {
           "description": "Show results according to the default settings provided in the Result itself",
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "ShowDefaults",
           "package": "prednote",
@@ -2610,6 +2832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the first line, which indicates whether the test passed or\n failed and gives the label for the test. Whether to show\n individual subjects is determined by the TrueVerbosity and\n FalseVerbosity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "ShowFirstLine",
           "package": "prednote",
@@ -2620,6 +2843,7 @@
         "index": {
           "description": "Show the first line which indicates whether the test passed or failed and gives the label for the test Whether to show individual subjects is determined by the TrueVerbosity and FalseVerbosity",
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "ShowFirstLine",
           "package": "prednote",
@@ -2633,6 +2857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "Test",
           "package": "prednote",
@@ -2642,6 +2867,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "Test",
           "package": "prednote",
@@ -2655,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "TestResult",
           "package": "prednote",
@@ -2664,6 +2891,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "TestResult",
           "package": "prednote",
@@ -2677,6 +2905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "TestVerbosity",
           "package": "prednote",
@@ -2686,6 +2915,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "TestVerbosity",
           "package": "prednote",
@@ -2700,6 +2930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe test passes if each subject returns True.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "eachSubjectMustBeTrue",
           "package": "prednote",
@@ -2710,6 +2941,7 @@
         "index": {
           "description": "The test passes if each subject returns True",
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "eachSubjectMustBeTrue",
           "normalized": "Predbox a-\u003eName-\u003eTest a",
@@ -2726,6 +2958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluates a test for a given list of subjects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "evalTest",
           "package": "prednote",
@@ -2736,6 +2969,7 @@
         "index": {
           "description": "Evaluates test for given list of subjects",
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "evalTest",
           "normalized": "Test a-\u003e[a]-\u003eTestResult a",
@@ -2752,6 +2986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe test passes if at least a given number of subjects are True.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "nSubjectsMustBeTrue",
           "package": "prednote",
@@ -2761,6 +2996,7 @@
         "index": {
           "description": "The test passes if at least given number of subjects are True",
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "nSubjectsMustBeTrue",
           "normalized": "Predbox a-\u003eName-\u003eInt-\u003eTest a",
@@ -2777,6 +3013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this TestVisibility when the test fails\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "onFail",
           "package": "prednote",
@@ -2787,6 +3024,7 @@
         "index": {
           "description": "Use this TestVisibility when the test fails",
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "onFail",
           "package": "prednote",
@@ -2801,6 +3039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this TestVisibility when the test passes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "onPass",
           "package": "prednote",
@@ -2811,6 +3050,7 @@
         "index": {
           "description": "Use this TestVisibility when the test passes",
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "onPass",
           "package": "prednote",
@@ -2824,6 +3064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "resultDefaultVerbosity",
           "package": "prednote",
@@ -2833,6 +3074,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "resultDefaultVerbosity",
           "package": "prednote",
@@ -2846,6 +3088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "resultName",
           "package": "prednote",
@@ -2855,6 +3098,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "resultName",
           "package": "prednote",
@@ -2868,6 +3112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "resultPass",
           "package": "prednote",
@@ -2877,6 +3122,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "resultPass",
           "package": "prednote",
@@ -2890,6 +3136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "resultSubjects",
           "package": "prednote",
@@ -2899,6 +3146,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "resultSubjects",
           "normalized": "[(a,Result)]",
@@ -2915,6 +3163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows a result with indenting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "showTestResult",
           "package": "prednote",
@@ -2924,6 +3173,7 @@
         "index": {
           "description": "Shows result with indenting",
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "showTestResult",
           "normalized": "IndentAmt-\u003e(a-\u003eText)-\u003eMaybe TestVerbosity-\u003eTestResult a-\u003e[Chunk]",
@@ -2940,6 +3190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is applied to each subject.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "testFunc",
           "package": "prednote",
@@ -2950,6 +3201,7 @@
         "index": {
           "description": "This function is applied to each subject",
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "testFunc",
           "normalized": "a-\u003eResult",
@@ -2965,6 +3217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "testName",
           "package": "prednote",
@@ -2974,6 +3227,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "testName",
           "package": "prednote",
@@ -2988,6 +3242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplied to the results of all applications of testFunc;\n determines whether the test passes or fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "testPass",
           "package": "prednote",
@@ -2998,6 +3253,7 @@
         "index": {
           "description": "Applied to the results of all applications of testFunc determines whether the test passes or fails",
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "testPass",
           "normalized": "[Result]-\u003ePass",
@@ -3014,6 +3270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault verbosity for the test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote.Test",
           "name": "testVerbosity",
           "package": "prednote",
@@ -3024,6 +3281,7 @@
         "index": {
           "description": "Default verbosity for the test",
           "hierarchy": "Data Prednote Test",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote.Test",
           "name": "testVerbosity",
           "package": "prednote",
@@ -3037,6 +3295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:01 UTC 2014",
           "module": "Data.Prednote",
           "name": "Prednote",
           "package": "prednote",
@@ -3045,6 +3304,7 @@
         },
         "index": {
           "hierarchy": "Data Prednote",
+          "indexed": "2014-03-11T19:43:01",
           "module": "Data.Prednote",
           "name": "Prednote",
           "package": "prednote",

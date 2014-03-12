@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yoko"
+        "phrase": "yoko",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe generic homomorphism or \"heterogenous compos\".\n\u003c/p\u003e\u003cp\u003eSee the paper \"A Pattern for Almost Homomorphic Functions\" at \u003ca\u003ehttp://www.ittc.ku.edu/~nfrisby/frisby-2012-wgp.pdf\u003c/a\u003e, presented at the Workshop on Generic Programming 2012.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.HCompos",
           "name": "HCompos",
           "package": "yoko",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The generic homomorphism or heterogenous compos See the paper Pattern for Almost Homomorphic Functions at http www.ittc.ku.edu nfrisby frisby-2012-wgp.pdf presented at the Workshop on Generic Programming",
           "hierarchy": "Data Yoko HCompos",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.HCompos",
           "name": "HCompos",
           "package": "yoko",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the conversion \u003ccode\u003ecnv\u003c/code\u003e to convert from \u003ccode\u003ea\u003c/code\u003e to \u003ccode\u003eb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.HCompos",
           "name": "Convert0",
           "package": "yoko",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Use the conversion cnv to convert from to",
           "hierarchy": "Data Yoko HCompos",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.HCompos",
           "name": "Convert0",
           "package": "yoko",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eFindDCs dcA dcBs\u003c/code\u003e returns a type-level \u003ccode\u003eMaybe\u003c/code\u003e. \u003ccode\u003eJust dcB\u003c/code\u003e is a fields\n type \u003ccode\u003edcB\u003c/code\u003e where \u003ccode\u003e\u003ccode\u003e\u003ca\u003eTag\u003c/a\u003e\u003c/code\u003e dcA ~ dcB\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.HCompos",
           "name": "FindDCs",
           "package": "yoko",
@@ -74,6 +79,7 @@
         "index": {
           "description": "FindDCs dcA dcBs returns type-level Maybe Just dcB is fields type dcB where Tag dcA dcB",
           "hierarchy": "Data Yoko HCompos",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.HCompos",
           "name": "FindDCs",
           "package": "yoko",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.HCompos",
           "name": "FoundDC",
           "package": "yoko",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko HCompos",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.HCompos",
           "name": "FoundDC",
           "package": "yoko",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe generic version of \u003ccode\u003econvert\u003c/code\u003e; operates on \u003cem\u003edisbanded data types\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.HCompos",
           "name": "HCompos0",
           "package": "yoko",
@@ -118,6 +127,7 @@
         "index": {
           "description": "The generic version of convert operates on disbanded data types",
           "hierarchy": "Data Yoko HCompos",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.HCompos",
           "name": "HCompos0",
           "package": "yoko",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe applicative functor required by the conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.HCompos",
           "name": "Idiom",
           "package": "yoko",
@@ -141,6 +152,7 @@
         "index": {
           "description": "The applicative functor required by the conversion",
           "hierarchy": "Data Yoko HCompos",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.HCompos",
           "name": "Idiom",
           "package": "yoko",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003ecompos\u003c/code\u003e semantics, but with a generalized type and just for\n converting between product representations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.HCompos",
           "name": "MapRs0",
           "package": "yoko",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Same as compos semantics but with generalized type and just for converting between product representations",
           "hierarchy": "Data Yoko HCompos",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.HCompos",
           "name": "MapRs0",
           "package": "yoko",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.HCompos",
           "name": "ResultsInIncompatibleFields",
           "package": "yoko",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko HCompos",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.HCompos",
           "name": "ResultsInIncompatibleFields",
           "package": "yoko",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.HCompos",
           "name": "WithMessage",
           "package": "yoko",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko HCompos",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.HCompos",
           "name": "WithMessage",
           "package": "yoko",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.HCompos",
           "name": "Match",
           "package": "yoko",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko HCompos",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.HCompos",
           "name": "Match",
           "package": "yoko",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.HCompos",
           "name": "NoCorrespondingConstructorFor_In_",
           "package": "yoko",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko HCompos",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.HCompos",
           "name": "NoCorrespondingConstructorFor_In_",
           "package": "yoko",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.HCompos",
           "name": "ResultsInIncompatibleFields",
           "package": "yoko",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko HCompos",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.HCompos",
           "name": "ResultsInIncompatibleFields",
           "package": "yoko",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.HCompos",
           "name": "convert0",
           "package": "yoko",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko HCompos",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.HCompos",
           "name": "convert0",
           "normalized": "a-\u003eb-\u003eIdiom a c",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.HCompos",
           "name": "hcompos0",
           "package": "yoko",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko HCompos",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.HCompos",
           "name": "hcompos0",
           "normalized": "a-\u003eb c c-\u003eIdiom a d",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.HCompos",
           "name": "mapRs0",
           "package": "yoko",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko HCompos",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.HCompos",
           "name": "mapRs0",
           "normalized": "a-\u003eb-\u003eProxy c-\u003eProxy d-\u003ee f f-\u003eIdiom a(g f f)",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Invariant",
           "name": "Invariant",
           "package": "yoko",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Invariant",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Invariant",
           "name": "Invariant",
           "package": "yoko",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Invariant",
           "name": "gen_invmap",
           "package": "yoko",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Invariant",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Invariant",
           "name": "gen_invmap",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003ec a-\u003ec b",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Invariant",
           "name": "gen_invmap2",
           "package": "yoko",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Invariant",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Invariant",
           "name": "gen_invmap2",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003e(c-\u003ed)-\u003e(d-\u003ec)-\u003ee a c-\u003ee b d",
@@ -423,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e but with a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e instance that respects the value type's\n \u003ccode\u003e\u003ca\u003eSemigroup\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.MMap",
           "name": "MMap",
           "package": "yoko",
@@ -432,6 +469,7 @@
         "index": {
           "description": "Like Map but with Monoid instance that respects the value type Semigroup instance",
           "hierarchy": "Data Yoko MinCtors MMap",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.MMap",
           "name": "MMap",
           "package": "yoko",
@@ -445,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.MMap",
           "name": "MMap",
           "package": "yoko",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors MMap",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.MMap",
           "name": "MMap",
           "package": "yoko",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.MMap",
           "name": "MMap",
           "package": "yoko",
@@ -475,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors MMap",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.MMap",
           "name": "MMap",
           "package": "yoko",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.MMap",
           "name": "empty",
           "package": "yoko",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors MMap",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.MMap",
           "name": "empty",
           "package": "yoko",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.MMap",
           "name": "foldMap",
           "package": "yoko",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors MMap",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.MMap",
           "name": "foldMap",
           "normalized": "(a-\u003eb c-\u003ed)-\u003eMMap a b c-\u003ed",
@@ -533,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.MMap",
           "name": "lookup",
           "package": "yoko",
@@ -542,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors MMap",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.MMap",
           "name": "lookup",
           "normalized": "a-\u003eMMap a b c-\u003eMaybe(b c)",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.MMap",
           "name": "map",
           "package": "yoko",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors MMap",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.MMap",
           "name": "map",
           "normalized": "(a a-\u003eb c)-\u003eMMap d a a-\u003eMMap d b c",
@@ -579,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.MMap",
           "name": "mapWithMonoKeys",
           "package": "yoko",
@@ -588,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors MMap",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.MMap",
           "name": "mapWithMonoKeys",
           "normalized": "(a-\u003ea)-\u003e(b c-\u003ed c)-\u003eMMap a b c-\u003eMMap a d c",
@@ -603,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.MMap",
           "name": "null",
           "package": "yoko",
@@ -612,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors MMap",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.MMap",
           "name": "null",
           "normalized": "MMap a b b-\u003eBool",
@@ -626,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.MMap",
           "name": "singleton",
           "package": "yoko",
@@ -635,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors MMap",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.MMap",
           "name": "singleton",
           "normalized": "a-\u003eb c-\u003eMMap a b c",
@@ -649,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.MMap",
           "name": "unMMap",
           "package": "yoko",
@@ -658,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors MMap",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.MMap",
           "name": "unMMap",
           "package": "yoko",
@@ -671,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "Minima",
           "package": "yoko",
@@ -679,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors Minima",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "Minima",
           "package": "yoko",
@@ -692,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "DTsCVec",
           "package": "yoko",
@@ -700,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors Minima",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "DTsCVec",
           "package": "yoko",
@@ -713,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "Minima1",
           "package": "yoko",
@@ -721,6 +784,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors Minima",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "Minima1",
           "package": "yoko",
@@ -734,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "Minima2",
           "package": "yoko",
@@ -742,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors Minima",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "Minima2",
           "package": "yoko",
@@ -755,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "Minimum",
           "package": "yoko",
@@ -763,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors Minima",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "Minimum",
           "package": "yoko",
@@ -776,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "NCtor",
           "package": "yoko",
@@ -784,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors Minima",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "NCtor",
           "package": "yoko",
@@ -797,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "NP0",
           "package": "yoko",
@@ -805,6 +876,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors Minima",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "NP0",
           "package": "yoko",
@@ -818,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "NP1",
           "package": "yoko",
@@ -826,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors Minima",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "NP1",
           "package": "yoko",
@@ -839,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "NRec",
           "package": "yoko",
@@ -847,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors Minima",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "NRec",
           "package": "yoko",
@@ -861,6 +937,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003etype instance \u003ccode\u003e\u003ca\u003eApp\u003c/a\u003e\u003c/code\u003e SC_SumInfo t = \u003ccode\u003e\u003ca\u003eSumInfo\u003c/a\u003e\u003c/code\u003e t\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "SC_SumInfo",
           "package": "yoko",
@@ -870,6 +947,7 @@
         "index": {
           "description": "type instance App SC SumInfo SumInfo",
           "hierarchy": "Data Yoko MinCtors Minima",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "SC_SumInfo",
           "package": "yoko",
@@ -883,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "SiblingInC",
           "package": "yoko",
@@ -891,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors Minima",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "SiblingInC",
           "package": "yoko",
@@ -904,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "SiblingInT",
           "package": "yoko",
@@ -912,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors Minima",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "SiblingInT",
           "package": "yoko",
@@ -925,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "SumInfo",
           "package": "yoko",
@@ -933,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors Minima",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "SumInfo",
           "package": "yoko",
@@ -946,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "addMinima2",
           "package": "yoko",
@@ -955,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors Minima",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "addMinima2",
           "normalized": "Minima-\u003eMinima-\u003eMinima",
@@ -970,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "addSiblingInTs",
           "package": "yoko",
@@ -979,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors Minima",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "addSiblingInTs",
           "normalized": "SiblingInT a-\u003eSiblingInT a-\u003eSiblingInT a",
@@ -994,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "plug0",
           "package": "yoko",
@@ -1003,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors Minima",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "plug0",
           "normalized": "Minima-\u003eSiblingInT a-\u003eSiblingInT a",
@@ -1017,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "plug0'",
           "package": "yoko",
@@ -1026,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors Minima",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "plug0'",
           "normalized": "Minima-\u003eMinima-\u003eMinima",
@@ -1040,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "plug10",
           "package": "yoko",
@@ -1049,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors Minima",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "plug10",
           "normalized": "Minima-\u003eSiblingInT a-\u003eSiblingInT a-\u003eSiblingInT a",
@@ -1063,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "plug10'",
           "package": "yoko",
@@ -1072,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors Minima",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "plug10'",
           "normalized": "Minima-\u003eMinima-\u003eMinima-\u003eMinima",
@@ -1086,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "solve_sibling_set",
           "package": "yoko",
@@ -1095,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors Minima",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "solve_sibling_set",
           "normalized": "Vec a SC_SumInfo-\u003eWork a",
@@ -1109,6 +1207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "solve_sibling_set'",
           "package": "yoko",
@@ -1118,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors Minima",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Minima",
           "name": "solve_sibling_set'",
           "normalized": "CVec a(SiblingInT a)-\u003eWork a",
@@ -1132,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Prims0",
           "name": "Prims0",
           "package": "yoko",
@@ -1140,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors Prims0",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Prims0",
           "name": "Prims0",
           "package": "yoko",
@@ -1153,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors.Prims1",
           "name": "Prims1",
           "package": "yoko",
@@ -1161,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors Prims1",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors.Prims1",
           "name": "Prims1",
           "package": "yoko",
@@ -1174,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors",
           "name": "MinCtors",
           "package": "yoko",
@@ -1182,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors",
           "name": "MinCtors",
           "package": "yoko",
@@ -1195,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors",
           "name": "MinCtors",
           "package": "yoko",
@@ -1203,6 +1310,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors",
           "name": "MinCtors",
           "package": "yoko",
@@ -1216,6 +1324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors",
           "name": "gen_minCtors",
           "package": "yoko",
@@ -1225,6 +1334,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors",
           "name": "gen_minCtors",
           "normalized": "Proxy a-\u003eMinCtorsT a",
@@ -1240,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors",
           "name": "minCtors",
           "package": "yoko",
@@ -1249,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors",
           "name": "minCtors",
           "normalized": "Proxy a-\u003eMinCtorsT a",
@@ -1264,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.MinCtors",
           "name": "nCtors",
           "package": "yoko",
@@ -1273,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko MinCtors",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.MinCtors",
           "name": "nCtors",
           "normalized": "Int-\u003eProxy a-\u003eMinCtorsT a",
@@ -1288,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "Prelude",
           "package": "yoko",
@@ -1296,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "Prelude",
           "package": "yoko",
@@ -1309,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "()_",
           "package": "yoko",
@@ -1317,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "()_",
           "package": "yoko",
@@ -1329,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "(,)_",
           "package": "yoko",
@@ -1337,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "(,)_",
           "package": "yoko",
@@ -1349,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "(,,)_",
           "package": "yoko",
@@ -1357,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "(,,)_",
           "package": "yoko",
@@ -1369,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": ":%_",
           "package": "yoko",
@@ -1377,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": ":%_",
           "package": "yoko",
@@ -1389,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "Cons_",
           "package": "yoko",
@@ -1397,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "Cons_",
           "package": "yoko",
@@ -1410,6 +1536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "False_",
           "package": "yoko",
@@ -1418,6 +1545,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "False_",
           "package": "yoko",
@@ -1431,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "Just_",
           "package": "yoko",
@@ -1439,6 +1568,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "Just_",
           "package": "yoko",
@@ -1452,6 +1582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "Left_",
           "package": "yoko",
@@ -1460,6 +1591,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "Left_",
           "package": "yoko",
@@ -1473,6 +1605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "Nil_",
           "package": "yoko",
@@ -1481,6 +1614,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "Nil_",
           "package": "yoko",
@@ -1494,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "Nothing_",
           "package": "yoko",
@@ -1502,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "Nothing_",
           "package": "yoko",
@@ -1515,6 +1651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "Right_",
           "package": "yoko",
@@ -1523,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "Right_",
           "package": "yoko",
@@ -1536,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "True_",
           "package": "yoko",
@@ -1544,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "True_",
           "package": "yoko",
@@ -1557,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "()_",
           "package": "yoko",
@@ -1566,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "()_",
           "normalized": "()",
@@ -1580,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "(,)_",
           "package": "yoko",
@@ -1589,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "(,)_",
           "normalized": "(,)a b",
@@ -1603,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "(,,)_",
           "package": "yoko",
@@ -1612,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "(,,)_",
           "normalized": "(,,)a b c",
@@ -1626,6 +1772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": ":%_",
           "package": "yoko",
@@ -1635,6 +1782,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": ":%_",
           "package": "yoko",
@@ -1647,6 +1795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "Cons_",
           "package": "yoko",
@@ -1656,6 +1805,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "Cons_",
           "normalized": "Cons_ a[a]",
@@ -1671,6 +1821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "False_",
           "package": "yoko",
@@ -1680,6 +1831,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "False_",
           "package": "yoko",
@@ -1693,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "Just_",
           "package": "yoko",
@@ -1702,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "Just_",
           "package": "yoko",
@@ -1715,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "Left_",
           "package": "yoko",
@@ -1724,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "Left_",
           "package": "yoko",
@@ -1737,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "Nil_",
           "package": "yoko",
@@ -1746,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "Nil_",
           "package": "yoko",
@@ -1759,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "Nothing_",
           "package": "yoko",
@@ -1768,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "Nothing_",
           "package": "yoko",
@@ -1781,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "Right_",
           "package": "yoko",
@@ -1790,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "Right_",
           "package": "yoko",
@@ -1803,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.Prelude",
           "name": "True_",
           "package": "yoko",
@@ -1812,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko Prelude",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.Prelude",
           "name": "True_",
           "package": "yoko",
@@ -1826,6 +1990,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUsing some McBride \"Faking It\" style trickery to make \u003ccode\u003eprecise_case\u003c/code\u003e\npolyvariadic in the ad-hoc cases.\n\u003c/p\u003e\u003cp\u003eE.g.\n\u003c/p\u003e\u003cpre\u003e precise_case x (\\(C_ a b) -\u003e special_case a b) (Default $ \\x -\u003e generic_function x)\n\u003c/pre\u003e\u003cp\u003eand\n\u003c/p\u003e\u003cpre\u003e precise_case x (\\(C_ a b) -\u003e special_case a b) (\\(D_ x) -\u003e special_case2 x) (Default $ \\x -\u003e generic_function x)\n\u003c/pre\u003e\u003cp\u003eboth work.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.SmartPreciseCase",
           "name": "SmartPreciseCase",
           "package": "yoko",
@@ -1835,6 +2000,7 @@
         "index": {
           "description": "Using some McBride Faking It style trickery to make precise case polyvariadic in the ad-hoc cases E.g precise case special case Default generic function and precise case special case special case2 Default generic function both work",
           "hierarchy": "Data Yoko SmartPreciseCase",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.SmartPreciseCase",
           "name": "SmartPreciseCase",
           "package": "yoko",
@@ -1848,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.SmartPreciseCase",
           "name": "Default",
           "package": "yoko",
@@ -1856,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko SmartPreciseCase",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.SmartPreciseCase",
           "name": "Default",
           "package": "yoko",
@@ -1869,6 +2037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.SmartPreciseCase",
           "name": "Default",
           "package": "yoko",
@@ -1878,6 +2047,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko SmartPreciseCase",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.SmartPreciseCase",
           "name": "Default",
           "normalized": "Default(a b b c b b-\u003ed)",
@@ -1893,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.SmartPreciseCase",
           "name": "precise_case0",
           "package": "yoko",
@@ -1902,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko SmartPreciseCase",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.SmartPreciseCase",
           "name": "precise_case0",
           "normalized": "a-\u003eb",
@@ -1916,6 +2088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TH",
           "name": "TH",
           "package": "yoko",
@@ -1924,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TH",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TH",
           "name": "TH",
           "package": "yoko",
@@ -1938,6 +2112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eMapping\u003c/a\u003e\u003c/code\u003e identifies the representation type, its constructor, and the\n associated mapping function. For example, \u003ccode\u003e\u003ca\u003eT1\u003c/a\u003e\u003c/code\u003e is represented with \u003ccode\u003eMapping\n ''T1 'T1 'invmap\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TH",
           "name": "Mapping",
           "package": "yoko",
@@ -1947,6 +2122,7 @@
         "index": {
           "description": "Mapping identifies the representation type its constructor and the associated mapping function For example T1 is represented with Mapping T1 T1 invmap",
           "hierarchy": "Data Yoko TH",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TH",
           "name": "Mapping",
           "package": "yoko",
@@ -1961,6 +2137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default \u003ccode\u003eyoko\u003c/code\u003e derivations can be customised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TH",
           "name": "YokoOptions",
           "package": "yoko",
@@ -1970,6 +2147,7 @@
         "index": {
           "description": "The default yoko derivations can be customised",
           "hierarchy": "Data Yoko TH",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TH",
           "name": "YokoOptions",
           "package": "yoko",
@@ -1983,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TH",
           "name": "Mapping",
           "package": "yoko",
@@ -1992,6 +2171,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TH",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TH",
           "name": "Mapping",
           "package": "yoko",
@@ -2005,6 +2185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TH",
           "name": "YokoOptions",
           "package": "yoko",
@@ -2014,6 +2195,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TH",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TH",
           "name": "YokoOptions",
           "package": "yoko",
@@ -2027,6 +2209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TH",
           "name": "containerCtor",
           "package": "yoko",
@@ -2036,6 +2219,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TH",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TH",
           "name": "containerCtor",
           "package": "yoko",
@@ -2049,6 +2233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TH",
           "name": "containerTypeName",
           "package": "yoko",
@@ -2058,6 +2243,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TH",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TH",
           "name": "containerTypeName",
           "package": "yoko",
@@ -2072,6 +2258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor which constructors should instances of \u003ccode\u003e\u003ca\u003eRep\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e be\n automatically derived? Defaults to the set of all constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TH",
           "name": "dcInsts",
           "package": "yoko",
@@ -2082,6 +2269,7 @@
         "index": {
           "description": "For which constructors should instances of Rep and Generic be automatically derived Defaults to the set of all constructors",
           "hierarchy": "Data Yoko TH",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TH",
           "name": "dcInsts",
           "normalized": "[Name]-\u003e[Name]",
@@ -2098,6 +2286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould instances of \u003ccode\u003e\u003ca\u003eInvariant\u003c/a\u003e\u003c/code\u003e also be automatically derived for this\n type? Defaults to \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TH",
           "name": "invInsts",
           "package": "yoko",
@@ -2108,6 +2297,7 @@
         "index": {
           "description": "Should instances of Invariant also be automatically derived for this type Defaults to True",
           "hierarchy": "Data Yoko TH",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TH",
           "name": "invInsts",
           "normalized": "Bool-\u003eBool",
@@ -2124,6 +2314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow applications of higher-rank data types are represented. Defaults\n to \u003ccode\u003e[(1, \u003ccode\u003e\u003ca\u003eMapping\u003c/a\u003e\u003c/code\u003e ''T1 'T1 'invmap), (2, \u003ccode\u003e\u003ca\u003eMapping\u003c/a\u003e\u003c/code\u003e ''T2 'T2\n 'invmap2)]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TH",
           "name": "mappings",
           "package": "yoko",
@@ -2134,6 +2325,7 @@
         "index": {
           "description": "How applications of higher-rank data types are represented Defaults to Mapping T1 T1 invmap Mapping T2 T2 invmap2",
           "hierarchy": "Data Yoko TH",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TH",
           "name": "mappings",
           "normalized": "[(Int,Mapping)]-\u003e[(Int,Mapping)]",
@@ -2148,6 +2340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TH",
           "name": "methodName",
           "package": "yoko",
@@ -2157,6 +2350,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TH",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TH",
           "name": "methodName",
           "package": "yoko",
@@ -2171,6 +2365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow fields type names are derived from constructor names. Defaults to\n \u003ccode\u003e(++ \"_\")\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TH",
           "name": "renamer",
           "package": "yoko",
@@ -2181,6 +2376,7 @@
         "index": {
           "description": "How fields type names are derived from constructor names Defaults to",
           "hierarchy": "Data Yoko TH",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TH",
           "name": "renamer",
           "normalized": "(String-\u003eString)-\u003eString-\u003eString",
@@ -2196,6 +2392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default options. \u003ccode\u003eyokoDefaults = YokoOptions id id id\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TH",
           "name": "yokoDefaults",
           "package": "yoko",
@@ -2206,6 +2403,7 @@
         "index": {
           "description": "The default options yokoDefaults YokoOptions id id id",
           "hierarchy": "Data Yoko TH",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TH",
           "name": "yokoDefaults",
           "package": "yoko",
@@ -2220,6 +2418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive fields types and all \u003ccode\u003eyoko\u003c/code\u003e instances for a given data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TH",
           "name": "yokoTH",
           "package": "yoko",
@@ -2230,6 +2429,7 @@
         "index": {
           "description": "Derive fields types and all yoko instances for given data type",
           "hierarchy": "Data Yoko TH",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TH",
           "name": "yokoTH",
           "normalized": "Name-\u003eQ[Dec]",
@@ -2246,6 +2446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCustomized derivation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TH",
           "name": "yokoTH_with",
           "package": "yoko",
@@ -2256,6 +2457,7 @@
         "index": {
           "description": "Customized derivation",
           "hierarchy": "Data Yoko TH",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TH",
           "name": "yokoTH_with",
           "normalized": "YokoOptions-\u003eName-\u003eQ[Dec]",
@@ -2272,6 +2474,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome type-level programming basics.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "TypeBasics",
           "package": "yoko",
@@ -2281,6 +2484,7 @@
         "index": {
           "description": "Some type-level programming basics",
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "TypeBasics",
           "package": "yoko",
@@ -2294,6 +2498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "App",
           "package": "yoko",
@@ -2302,6 +2507,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "App",
           "package": "yoko",
@@ -2315,6 +2521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "Append",
           "package": "yoko",
@@ -2323,6 +2530,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "Append",
           "package": "yoko",
@@ -2336,6 +2544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "CVec",
           "package": "yoko",
@@ -2344,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "CVec",
           "package": "yoko",
@@ -2357,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "Constant",
           "package": "yoko",
@@ -2365,6 +2576,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "Constant",
           "package": "yoko",
@@ -2378,6 +2590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "Diag_",
           "package": "yoko",
@@ -2386,6 +2599,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "Diag_",
           "package": "yoko",
@@ -2400,6 +2614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenient synonym. \u003ccode\u003etype Equal a b = \u003ccode\u003e\u003ca\u003eIsEQ\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eSpineCompare\u003c/a\u003e\u003c/code\u003e a b)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "Equal",
           "package": "yoko",
@@ -2409,6 +2624,7 @@
         "index": {
           "description": "Convenient synonym type Equal IsEQ SpineCompare",
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "Equal",
           "package": "yoko",
@@ -2422,6 +2638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "Idx",
           "package": "yoko",
@@ -2430,6 +2647,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "Idx",
           "package": "yoko",
@@ -2443,6 +2661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "If",
           "package": "yoko",
@@ -2451,6 +2670,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "If",
           "package": "yoko",
@@ -2464,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "IndexInto",
           "package": "yoko",
@@ -2472,6 +2693,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "IndexInto",
           "package": "yoko",
@@ -2486,6 +2708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a type-level boolean from \u003ccode\u003etype-booleans\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "IsJust",
           "package": "yoko",
@@ -2495,6 +2718,7 @@
         "index": {
           "description": "Returns type-level boolean from type-booleans",
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "IsJust",
           "package": "yoko",
@@ -2508,6 +2732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "Length",
           "package": "yoko",
@@ -2516,6 +2741,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "Length",
           "package": "yoko",
@@ -2529,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "Length'",
           "package": "yoko",
@@ -2537,6 +2764,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "Length'",
           "package": "yoko",
@@ -2551,6 +2779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-level \u003ccode\u003efmap\u003c/code\u003e for \u003ccode\u003eMaybe\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "MaybeMap",
           "package": "yoko",
@@ -2560,6 +2789,7 @@
         "index": {
           "description": "Type-level fmap for Maybe",
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "MaybeMap",
           "package": "yoko",
@@ -2574,6 +2804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-level \u003ccode\u003emplus\u003c/code\u003e for \u003ccode\u003eMaybe\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "MaybePlus1",
           "package": "yoko",
@@ -2583,6 +2814,7 @@
         "index": {
           "description": "Type-level mplus for Maybe",
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "MaybePlus1",
           "package": "yoko",
@@ -2596,6 +2828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "Nat",
           "package": "yoko",
@@ -2604,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "Nat",
           "package": "yoko",
@@ -2618,6 +2852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA polykinded proxy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "Proxy",
           "package": "yoko",
@@ -2627,6 +2862,7 @@
         "index": {
           "description": "polykinded proxy",
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "Proxy",
           "package": "yoko",
@@ -2640,6 +2876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "SingNat",
           "package": "yoko",
@@ -2648,6 +2885,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "SingNat",
           "package": "yoko",
@@ -2661,6 +2899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "SpineCompare",
           "package": "yoko",
@@ -2668,6 +2907,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "SpineCompare",
           "package": "yoko",
@@ -2681,6 +2921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "TrivCon",
           "package": "yoko",
@@ -2689,6 +2930,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "TrivCon",
           "package": "yoko",
@@ -2702,6 +2944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "VEnum",
           "package": "yoko",
@@ -2710,6 +2953,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "VEnum",
           "package": "yoko",
@@ -2723,6 +2967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "VFunctor",
           "package": "yoko",
@@ -2731,6 +2976,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "VFunctor",
           "package": "yoko",
@@ -2744,6 +2990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "VInitialize",
           "package": "yoko",
@@ -2752,6 +2999,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "VInitialize",
           "package": "yoko",
@@ -2765,6 +3013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "VRepeat",
           "package": "yoko",
@@ -2773,6 +3022,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "VRepeat",
           "package": "yoko",
@@ -2786,6 +3036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "VZip",
           "package": "yoko",
@@ -2794,6 +3045,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "VZip",
           "package": "yoko",
@@ -2807,6 +3059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "Vec",
           "package": "yoko",
@@ -2815,6 +3068,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "Vec",
           "package": "yoko",
@@ -2828,6 +3082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "CVec",
           "package": "yoko",
@@ -2837,6 +3092,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "CVec",
           "package": "yoko",
@@ -2850,6 +3106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "Constant",
           "package": "yoko",
@@ -2859,6 +3116,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "Constant",
           "package": "yoko",
@@ -2872,6 +3130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "Diag_",
           "package": "yoko",
@@ -2881,6 +3140,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "Diag_",
           "package": "yoko",
@@ -2894,6 +3154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "Proxy",
           "package": "yoko",
@@ -2903,6 +3164,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "Proxy",
           "package": "yoko",
@@ -2916,6 +3178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "S",
           "package": "yoko",
@@ -2925,6 +3188,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "S",
           "package": "yoko",
@@ -2937,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "SIdx",
           "package": "yoko",
@@ -2946,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "SIdx",
           "normalized": "Idx a-\u003eIdx(b a)",
@@ -2961,6 +3227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "SN",
           "package": "yoko",
@@ -2970,6 +3237,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "SN",
           "normalized": "SingNat a-\u003eSingNat(S a)",
@@ -2985,6 +3253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "SZ",
           "package": "yoko",
@@ -2994,6 +3263,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "SZ",
           "package": "yoko",
@@ -3007,6 +3277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "VCons",
           "package": "yoko",
@@ -3016,6 +3287,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "VCons",
           "normalized": "App a b-\u003eVec c a-\u003eVec(b c)a",
@@ -3031,6 +3303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "VNil",
           "package": "yoko",
@@ -3040,6 +3313,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "VNil",
           "normalized": "Vec[]a",
@@ -3055,6 +3329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "Z",
           "package": "yoko",
@@ -3064,6 +3339,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "Z",
           "package": "yoko",
@@ -3076,6 +3352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "ZIdx",
           "package": "yoko",
@@ -3085,6 +3362,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "ZIdx",
           "package": "yoko",
@@ -3098,6 +3376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "cvAddIndexes",
           "package": "yoko",
@@ -3107,6 +3386,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "cvAddIndexes",
           "normalized": "CVec a b-\u003eCVec a(Idx a,b)",
@@ -3122,6 +3402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "cvAt",
           "package": "yoko",
@@ -3131,6 +3412,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "cvAt",
           "normalized": "a b c CVec b d-\u003eIdx b-\u003ed",
@@ -3146,6 +3428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "cvEnum",
           "package": "yoko",
@@ -3155,6 +3438,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "cvEnum",
           "package": "yoko",
@@ -3168,6 +3452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "cvInitialize",
           "package": "yoko",
@@ -3177,6 +3462,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "cvInitialize",
           "normalized": "Proxy a-\u003eb)-\u003eCVec c b",
@@ -3192,6 +3478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "cvRepeat",
           "package": "yoko",
@@ -3201,6 +3488,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "cvRepeat",
           "normalized": "a-\u003eCVec b a",
@@ -3216,6 +3504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "cvUpd",
           "package": "yoko",
@@ -3225,6 +3514,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "cvUpd",
           "normalized": "a b c CVec b d-\u003eIdx b-\u003e(d-\u003ed)-\u003eCVec b d",
@@ -3240,6 +3530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "cvZipWith",
           "package": "yoko",
@@ -3249,6 +3540,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "cvZipWith",
           "normalized": "a b c d e(b-\u003ec-\u003ed)-\u003eCVec f b-\u003eCVec f c-\u003eCVec f d",
@@ -3264,6 +3556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "cvec2list",
           "package": "yoko",
@@ -3273,6 +3566,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "cvec2list",
           "normalized": "CVec a b-\u003e[b]",
@@ -3288,6 +3582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemplate Haskell derivation for the \u003ccode\u003etype-spine\u003c/code\u003e and \u003ccode\u003etype-cereal\u003c/code\u003e\n packages' \u003ccode\u003e\u003ca\u003eSpine\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eSerialize\u003c/a\u003e\u003c/code\u003e type families, which support generic\n instances of \u003ccode\u003eCompare\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "derive_data",
           "package": "yoko",
@@ -3298,6 +3593,7 @@
         "index": {
           "description": "Template Haskell derivation for the type-spine and type-cereal packages Spine and Serialize type families which support generic instances of Compare",
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "derive_data",
           "normalized": "Name-\u003eQ[Dec]",
@@ -3312,6 +3608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "derive_pro",
           "package": "yoko",
@@ -3321,6 +3618,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "derive_pro",
           "normalized": "Name-\u003eQ[Dec]",
@@ -3336,6 +3634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode uses the \u003ccode\u003ecereal\u003c/code\u003e package serializer to encode the value and then\n uses \u003ccode\u003etype-digits\u003c/code\u003e to reflect it as a type-level numeral.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "encode",
           "package": "yoko",
@@ -3345,6 +3644,7 @@
         "index": {
           "description": "Encode uses the cereal package serializer to encode the value and then uses type-digits to reflect it as type-level numeral",
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "encode",
           "normalized": "a-\u003eType",
@@ -3359,6 +3659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "indexInto",
           "package": "yoko",
@@ -3368,6 +3669,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "indexInto",
           "normalized": "Proxy a-\u003eProxy b-\u003eIdx b",
@@ -3383,6 +3685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "trivCon",
           "package": "yoko",
@@ -3392,6 +3695,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "trivCon",
           "package": "yoko",
@@ -3405,6 +3709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "unCVec",
           "package": "yoko",
@@ -3414,6 +3719,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "unCVec",
           "package": "yoko",
@@ -3427,6 +3733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "vCarrying",
           "package": "yoko",
@@ -3436,6 +3743,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "vCarrying",
           "normalized": "Proxy a-\u003eVec b a-\u003eVec b a",
@@ -3451,6 +3759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "vInitialize",
           "package": "yoko",
@@ -3460,6 +3769,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "vInitialize",
           "normalized": "Proxy a-\u003eApp b a)-\u003eVec c b",
@@ -3475,6 +3785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "vMap",
           "package": "yoko",
@@ -3484,6 +3795,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "vMap",
           "normalized": "Proxy a-\u003eApp b a-\u003eApp c a)-\u003eVec d b-\u003eVec d c",
@@ -3499,6 +3811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.TypeBasics",
           "name": "vZip",
           "package": "yoko",
@@ -3508,6 +3821,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko TypeBasics",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.TypeBasics",
           "name": "vZip",
           "normalized": "Vec a b-\u003eVec a c-\u003eVec a(Diag_ b c)",
@@ -3523,6 +3837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.W",
           "name": "W",
           "package": "yoko",
@@ -3531,6 +3846,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko W",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.W",
           "name": "W",
           "package": "yoko",
@@ -3543,6 +3859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.W",
           "name": "ComposeW",
           "package": "yoko",
@@ -3551,6 +3868,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko W",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.W",
           "name": "ComposeW",
           "package": "yoko",
@@ -3564,6 +3882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.W",
           "name": "Sym",
           "package": "yoko",
@@ -3572,6 +3891,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko W",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.W",
           "name": "Sym",
           "package": "yoko",
@@ -3585,6 +3905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.W",
           "name": "W",
           "package": "yoko",
@@ -3593,6 +3914,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko W",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.W",
           "name": "W",
           "package": "yoko",
@@ -3605,6 +3927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.W",
           "name": "W'",
           "package": "yoko",
@@ -3613,6 +3936,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko W",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.W",
           "name": "W'",
           "package": "yoko",
@@ -3626,6 +3950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.W",
           "name": "composeSymW'",
           "package": "yoko",
@@ -3635,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko W",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.W",
           "name": "composeSymW'",
           "normalized": "Sym a b c c-\u003eW' a d c c-\u003eW' b d c c",
@@ -3650,6 +3976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.W",
           "name": "composeW",
           "package": "yoko",
@@ -3659,6 +3986,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko W",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.W",
           "name": "composeW",
           "normalized": "(a b b-\u003ec b b)-\u003eW d a b b-\u003eW d c b b",
@@ -3673,6 +4001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.W",
           "name": "composeW'",
           "package": "yoko",
@@ -3682,6 +4011,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko W",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.W",
           "name": "composeW'",
           "normalized": "W' a b c c-\u003e(d c c-\u003eb c c)-\u003eW' a d c c",
@@ -3697,6 +4027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.W",
           "name": "composeWSym",
           "package": "yoko",
@@ -3706,6 +4037,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko W",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.W",
           "name": "composeWSym",
           "normalized": "W a b c c-\u003eSym d a c c-\u003eW d b c c",
@@ -3721,6 +4053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.W",
           "name": "sym",
           "package": "yoko",
@@ -3730,6 +4063,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko W",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.W",
           "name": "sym",
           "normalized": "W' a b c c-\u003eW d b c c-\u003eSym d a c c",
@@ -3744,6 +4078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.W",
           "name": "unSym",
           "package": "yoko",
@@ -3753,6 +4088,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko W",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.W",
           "name": "unSym",
           "normalized": "W a b c c-\u003eW' a d c c-\u003ed c c-\u003eb c c",
@@ -3768,6 +4104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.W",
           "name": "unSym0",
           "package": "yoko",
@@ -3777,6 +4114,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko W",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.W",
           "name": "unSym0",
           "normalized": "Sym*a b c c-\u003ea-\u003eb",
@@ -3792,6 +4130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.W",
           "name": "unSym1",
           "package": "yoko",
@@ -3801,6 +4140,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko W",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.W",
           "name": "unSym1",
           "normalized": "Sym(*-\u003e*)a b c c-\u003ea c-\u003eb c",
@@ -3816,6 +4156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.W",
           "name": "unSym2",
           "package": "yoko",
@@ -3825,6 +4166,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko W",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.W",
           "name": "unSym2",
           "normalized": "Sym(*-\u003e*-\u003e*)a b c c-\u003ea c c-\u003eb c c",
@@ -3840,6 +4182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.W",
           "name": "unW'0",
           "package": "yoko",
@@ -3849,6 +4192,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko W",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.W",
           "name": "unW'0",
           "normalized": "W'*a b c c-\u003eb c c-\u003ea",
@@ -3864,6 +4208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.W",
           "name": "unW'1",
           "package": "yoko",
@@ -3873,6 +4218,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko W",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.W",
           "name": "unW'1",
           "normalized": "W'(*-\u003e*)a b c c-\u003eb c c-\u003ea c",
@@ -3888,6 +4234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.W",
           "name": "unW'2",
           "package": "yoko",
@@ -3897,6 +4244,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko W",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.W",
           "name": "unW'2",
           "normalized": "W'(*-\u003e*-\u003e*)a b c c-\u003eb c c-\u003ea c c",
@@ -3912,6 +4260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.W",
           "name": "unW0",
           "package": "yoko",
@@ -3921,6 +4270,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko W",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.W",
           "name": "unW0",
           "normalized": "W*a b c c-\u003ea-\u003eb c c",
@@ -3935,6 +4285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.W",
           "name": "unW1",
           "package": "yoko",
@@ -3944,6 +4295,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko W",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.W",
           "name": "unW1",
           "normalized": "W(*-\u003e*)a b c c-\u003ea c-\u003eb c c",
@@ -3958,6 +4310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko.W",
           "name": "unW2",
           "package": "yoko",
@@ -3967,6 +4320,7 @@
         },
         "index": {
           "hierarchy": "Data Yoko W",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko.W",
           "name": "unW2",
           "normalized": "W(*-\u003e*-\u003e*)a b c c-\u003ea c c-\u003eb c c",
@@ -3982,6 +4336,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis omnibus module is the only necessary import for using the \u003ccode\u003eyoko\u003c/code\u003e generic\nprogramming library.\n\u003c/p\u003e\u003cp\u003e(Some sophisticated functions' types might require the import of the\n\u003ca\u003eData.Yoko.TypeBasics\u003c/a\u003e or \u003ca\u003eData.Yoko.Each\u003c/a\u003e modules.)\n\u003c/p\u003e\u003cp\u003eThe \u003ca\u003eData.Yoko.HCompos\u003c/a\u003e module defines the generic homomorphism; see the paper\n\"A Pattern for Almost Homomorphic Functions\" at\n\u003ca\u003ehttp://www.ittc.ku.edu/~nfrisby/frisby-wgp-2012.pdf\u003c/a\u003e, published at the\nWorkshop on Generic Programming 2012. Much more details in my dissertation:\n\u003ca\u003ehttp://www.ittc.ku.edu/~nfrisby/frisby-dissertation.pdf\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003edc\u003c/code\u003e type variables abstract over \u003cem\u003efields types\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003edcs\u003c/code\u003e and \u003ccode\u003esum\u003c/code\u003e type variables abstract over sums of \u003cem\u003efields types\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eTypes of the form \u003ccode\u003e\u003ccode\u003e\u003ca\u003eDC\u003c/a\u003e\u003c/code\u003e t\u003c/code\u003e are \u003cem\u003edisbanded data types\u003c/em\u003e; for each fields type\n\u003ccode\u003edc\u003c/code\u003e in the resulting sum, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eCodomain\u003c/a\u003e\u003c/code\u003e dc ~ t\u003c/code\u003e. That means they all correspond\nto constructors from \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eA complete Template Haskell deriver is provided in the \u003ca\u003eData.Yoko.TH\u003c/a\u003e module.\n\u003c/p\u003e\u003cp\u003eIt works for the data types that `instant-generics` works on, excluding indexed\ndata types. Yell loudly if you need that... then send me an email :) HTH!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.Yoko",
           "name": "Yoko",
           "package": "yoko",
@@ -3991,6 +4346,7 @@
         "index": {
           "description": "This omnibus module is the only necessary import for using the yoko generic programming library Some sophisticated functions types might require the import of the Data.Yoko.TypeBasics or Data.Yoko.Each modules The Data.Yoko.HCompos module defines the generic homomorphism see the paper Pattern for Almost Homomorphic Functions at http www.ittc.ku.edu nfrisby frisby-wgp-2012.pdf published at the Workshop on Generic Programming Much more details in my dissertation http www.ittc.ku.edu nfrisby frisby-dissertation.pdf dc type variables abstract over fields types dcs and sum type variables abstract over sums of fields types Types of the form DC are disbanded data types for each fields type dc in the resulting sum Codomain dc That means they all correspond to constructors from complete Template Haskell deriver is provided in the Data.Yoko.TH module It works for the data types that instant-generics works on excluding indexed data types Yell loudly if you need that then send me an email HTH",
           "hierarchy": "Data Yoko",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.Yoko",
           "name": "Yoko",
           "package": "yoko",
@@ -4005,6 +4361,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the entire library, excluding the fancy builder of precise cases from\n\u003ca\u003eData.Yoko.SmartPreciseCase\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "YokoRaw",
           "package": "yoko",
@@ -4014,6 +4371,7 @@
         "index": {
           "description": "This is the entire library excluding the fancy builder of precise cases from Data.Yoko.SmartPreciseCase",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "YokoRaw",
           "package": "yoko",
@@ -4028,6 +4386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduct union.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": ":*:",
           "package": "yoko",
@@ -4037,6 +4396,7 @@
         "index": {
           "description": "Product union",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": ":*:",
           "package": "yoko",
@@ -4050,6 +4410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum union.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": ":+:",
           "package": "yoko",
@@ -4059,6 +4420,7 @@
         "index": {
           "description": "Sum union",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": ":+:",
           "package": "yoko",
@@ -4071,6 +4433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": ":-:",
           "package": "yoko",
@@ -4079,6 +4442,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": ":-:",
           "package": "yoko",
@@ -4092,6 +4456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eband\u003c/code\u003es a disbanded data type back into its normal data type.\n\u003c/p\u003e\u003cp\u003eSince \u003ccode\u003e\u003ca\u003eDCs\u003c/a\u003e\u003c/code\u003e is a type family, it's the range of \u003ccode\u003eband\u003c/code\u003e that determines the\n \u003ccode\u003et\u003c/code\u003e type variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "AreDCsOf",
           "package": "yoko",
@@ -4101,6 +4466,7 @@
         "index": {
           "description": "band disbanded data type back into its normal data type Since DCs is type family it the range of band that determines the type variable",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "AreDCsOf",
           "package": "yoko",
@@ -4115,6 +4481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper around productus\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "C",
           "package": "yoko",
@@ -4124,6 +4491,7 @@
         "index": {
           "description": "Wrapper around productus",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "C",
           "package": "yoko",
@@ -4137,6 +4505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eCodomain\u003c/code\u003e is the data type that contains the constructor that the fields\n type \u003ccode\u003edc\u003c/code\u003e represents.  It can also be applied to sums of fields types, in\n which case it just uses the left-most.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Codomain",
           "package": "yoko",
@@ -4146,6 +4515,7 @@
         "index": {
           "description": "Codomain is the data type that contains the constructor that the fields type dc represents It can also be applied to sums of fields types in which case it just uses the left-most",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Codomain",
           "package": "yoko",
@@ -4159,6 +4529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Codomain0",
           "package": "yoko",
@@ -4167,6 +4538,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Codomain0",
           "package": "yoko",
@@ -4180,6 +4552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Codomain1",
           "package": "yoko",
@@ -4188,6 +4561,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Codomain1",
           "package": "yoko",
@@ -4201,6 +4575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Codomain2",
           "package": "yoko",
@@ -4209,6 +4584,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Codomain2",
           "package": "yoko",
@@ -4223,6 +4599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny fields type can be further represented as a product-of-fields and can\n be injected back into the original data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "DC",
           "package": "yoko",
@@ -4232,6 +4609,7 @@
         "index": {
           "description": "Any fields type can be further represented as product-of-fields and can be injected back into the original data type",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "DC",
           "package": "yoko",
@@ -4246,6 +4624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eDCs\u003c/code\u003e of a data type is sum of all of its fields types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "DCs",
           "package": "yoko",
@@ -4255,6 +4634,7 @@
         "index": {
           "description": "The DCs of data type is sum of all of its fields types",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "DCs",
           "package": "yoko",
@@ -4268,6 +4648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "DT",
           "package": "yoko",
@@ -4276,6 +4657,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "DT",
           "package": "yoko",
@@ -4289,6 +4671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "DTPos",
           "package": "yoko",
@@ -4297,6 +4680,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "DTPos",
           "package": "yoko",
@@ -4311,6 +4695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps a type to its mutually recursive siblings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "DTs",
           "package": "yoko",
@@ -4320,6 +4705,7 @@
         "index": {
           "description": "Maps type to its mutually recursive siblings",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "DTs",
           "package": "yoko",
@@ -4334,6 +4720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe avoid empty sums with a type-level \u003ccode\u003eMaybe\u003c/code\u003e. \u003ccode\u003eDistMaybePlus\u003c/code\u003e performs\n sum union on lifted sums, only introducing \u003ccode\u003e:+:\u003c/code\u003e when both arguments are\n \u003ccode\u003eJust\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "DistMaybePlus",
           "package": "yoko",
@@ -4343,6 +4730,7 @@
         "index": {
           "description": "We avoid empty sums with type-level Maybe DistMaybePlus performs sum union on lifted sums only introducing when both arguments are Just",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "DistMaybePlus",
           "package": "yoko",
@@ -4356,6 +4744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "EachGeneric",
           "package": "yoko",
@@ -4364,6 +4753,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "EachGeneric",
           "package": "yoko",
@@ -4377,6 +4767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "EachRep",
           "package": "yoko",
@@ -4385,6 +4776,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "EachRep",
           "package": "yoko",
@@ -4398,6 +4790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Embed",
           "package": "yoko",
@@ -4406,6 +4799,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Embed",
           "package": "yoko",
@@ -4419,6 +4813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Eval",
           "package": "yoko",
@@ -4427,6 +4822,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Eval",
           "package": "yoko",
@@ -4440,6 +4836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "FoldPlusW'",
           "package": "yoko",
@@ -4448,6 +4845,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "FoldPlusW'",
           "package": "yoko",
@@ -4462,6 +4860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts between a fields type and its product-of-fields structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Generic",
           "package": "yoko",
@@ -4471,6 +4870,7 @@
         "index": {
           "description": "Converts between fields type and its product-of-fields structure",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Generic",
           "package": "yoko",
@@ -4485,6 +4885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe singleton sum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "N",
           "package": "yoko",
@@ -4494,6 +4895,7 @@
         "index": {
           "description": "The singleton sum",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "N",
           "package": "yoko",
@@ -4506,6 +4908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "NumDTs",
           "package": "yoko",
@@ -4514,6 +4917,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "NumDTs",
           "package": "yoko",
@@ -4527,6 +4931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "NumDTs'",
           "package": "yoko",
@@ -4535,6 +4940,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "NumDTs'",
           "package": "yoko",
@@ -4549,6 +4955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn occurrence of the zeroth parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Par0",
           "package": "yoko",
@@ -4558,6 +4965,7 @@
         "index": {
           "description": "An occurrence of the zeroth parameter",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Par0",
           "package": "yoko",
@@ -4572,6 +4980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn occurrence of the 1st parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Par1",
           "package": "yoko",
@@ -4581,6 +4990,7 @@
         "index": {
           "description": "An occurrence of the st parameter",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Par1",
           "package": "yoko",
@@ -4594,6 +5004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Partition",
           "package": "yoko",
@@ -4602,6 +5013,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Partition",
           "package": "yoko",
@@ -4616,6 +5028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mapping to the structural representation of a fields type: just products\n of fields, no sums -- fields types have just one constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Rep",
           "package": "yoko",
@@ -4625,6 +5038,7 @@
         "index": {
           "description": "mapping to the structural representation of fields type just products of fields no sums fields types have just one constructor",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Rep",
           "package": "yoko",
@@ -4638,6 +5052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "SiblingDTs",
           "package": "yoko",
@@ -4646,6 +5061,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "SiblingDTs",
           "package": "yoko",
@@ -4659,6 +5075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "SiblingDTs'",
           "package": "yoko",
@@ -4667,6 +5084,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "SiblingDTs'",
           "package": "yoko",
@@ -4680,6 +5098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Subst",
           "package": "yoko",
@@ -4688,6 +5107,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Subst",
           "package": "yoko",
@@ -4701,6 +5121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Subst0",
           "package": "yoko",
@@ -4709,6 +5130,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Subst0",
           "package": "yoko",
@@ -4722,6 +5144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Subst1",
           "package": "yoko",
@@ -4730,6 +5153,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Subst1",
           "package": "yoko",
@@ -4743,6 +5167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Subst10",
           "package": "yoko",
@@ -4751,6 +5176,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Subst10",
           "package": "yoko",
@@ -4764,6 +5190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "SubstSpec",
           "package": "yoko",
@@ -4772,6 +5199,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "SubstSpec",
           "package": "yoko",
@@ -4785,6 +5213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "T0",
           "package": "yoko",
@@ -4793,6 +5222,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "T0",
           "package": "yoko",
@@ -4805,6 +5235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "T1",
           "package": "yoko",
@@ -4813,6 +5244,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "T1",
           "package": "yoko",
@@ -4825,6 +5257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "T2",
           "package": "yoko",
@@ -4833,6 +5266,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "T2",
           "package": "yoko",
@@ -4846,6 +5280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTag\u003c/code\u003e returns a simulated type-level string that is the name of the\n constructor that the \u003ccode\u003edc\u003c/code\u003e fields type represents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Tag",
           "package": "yoko",
@@ -4855,6 +5290,7 @@
         "index": {
           "description": "Tag returns simulated type-level string that is the name of the constructor that the dc fields type represents",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Tag",
           "package": "yoko",
@@ -4869,6 +5305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "U",
           "package": "yoko",
@@ -4878,6 +5315,7 @@
         "index": {
           "description": "The empty product",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "U",
           "package": "yoko",
@@ -4890,6 +5328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Variety",
           "package": "yoko",
@@ -4898,6 +5337,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Variety",
           "package": "yoko",
@@ -4912,6 +5352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty sum. Used as an error type instead of a represention type, since\n data types with no constructors are uninteresting from a generic programming\n perspective -- there's just not much to be done generically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Void",
           "package": "yoko",
@@ -4921,6 +5362,7 @@
         "index": {
           "description": "The empty sum Used as an error type instead of represention type since data types with no constructors are uninteresting from generic programming perspective there just not much to be done generically",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Void",
           "package": "yoko",
@@ -4934,6 +5376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "WN",
           "package": "yoko",
@@ -4942,6 +5385,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "WN",
           "package": "yoko",
@@ -4956,6 +5400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombines two functions that consume disbanded data types into a function\n that consumes their union. All fields types must be from the same data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "(|||)",
           "package": "yoko",
@@ -4966,6 +5411,7 @@
         "index": {
           "description": "Combines two functions that consume disbanded data types into function that consumes their union All fields types must be from the same data type",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "(|||) |||",
           "normalized": "(a b b-\u003ec)-\u003e(d b b-\u003ec)-\u003e(a d)b b-\u003ec",
@@ -4981,6 +5427,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003ef ||. g = f \u003ccode\u003e\u003ca\u003e|||\u003c/a\u003e\u003c/code\u003e one g\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "(||.)",
           "package": "yoko",
@@ -4991,6 +5438,7 @@
         "index": {
           "description": "one",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "(||.) ||.",
           "normalized": "(a b b-\u003ec)-\u003e(d-\u003ec)-\u003ea(N*d)b b-\u003ec",
@@ -5006,6 +5454,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003ef .|| g = one f \u003ccode\u003e\u003ca\u003e|||\u003c/a\u003e\u003c/code\u003e g\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "(.||)",
           "package": "yoko",
@@ -5016,6 +5465,7 @@
         "index": {
           "description": "one",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "(.||) .||",
           "normalized": "(a-\u003eb)-\u003e(c d d-\u003eb)-\u003e(N*a)c d d-\u003eb",
@@ -5031,6 +5481,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003ef .|. g = one f \u003ccode\u003e\u003ca\u003e|||\u003c/a\u003e\u003c/code\u003e one g\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "(.|.)",
           "package": "yoko",
@@ -5041,6 +5492,7 @@
         "index": {
           "description": "one one",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "(.|.) .|.",
           "normalized": "(a-\u003eb)-\u003e(a-\u003eb)-\u003e(N*a)(N*a)c c-\u003eb",
@@ -5055,6 +5507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": ":*:",
           "package": "yoko",
@@ -5064,6 +5517,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": ":*:",
           "package": "yoko",
@@ -5076,6 +5530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "C",
           "package": "yoko",
@@ -5085,6 +5540,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "C",
           "package": "yoko",
@@ -5097,6 +5553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Dep",
           "package": "yoko",
@@ -5106,6 +5563,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Dep",
           "package": "yoko",
@@ -5119,6 +5577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "L",
           "package": "yoko",
@@ -5128,6 +5587,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "L",
           "package": "yoko",
@@ -5140,6 +5600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "NonRecDT",
           "package": "yoko",
@@ -5149,6 +5610,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "NonRecDT",
           "package": "yoko",
@@ -5162,6 +5624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Par0",
           "package": "yoko",
@@ -5171,6 +5634,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Par0",
           "package": "yoko",
@@ -5184,6 +5648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Par1",
           "package": "yoko",
@@ -5193,6 +5658,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Par1",
           "package": "yoko",
@@ -5206,6 +5672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "R",
           "package": "yoko",
@@ -5215,6 +5682,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "R",
           "package": "yoko",
@@ -5227,6 +5695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Rec",
           "package": "yoko",
@@ -5236,6 +5705,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Rec",
           "package": "yoko",
@@ -5249,6 +5719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "RecDT",
           "package": "yoko",
@@ -5258,6 +5729,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "RecDT",
           "normalized": "RecDT[a][a]",
@@ -5273,6 +5745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Sub0",
           "package": "yoko",
@@ -5282,6 +5755,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Sub0",
           "package": "yoko",
@@ -5295,6 +5769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Sub1",
           "package": "yoko",
@@ -5304,6 +5779,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Sub1",
           "package": "yoko",
@@ -5317,6 +5793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "Sub10",
           "package": "yoko",
@@ -5326,6 +5803,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "Sub10",
           "package": "yoko",
@@ -5339,6 +5817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "T0",
           "package": "yoko",
@@ -5348,6 +5827,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "T0",
           "package": "yoko",
@@ -5360,6 +5840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "T1",
           "package": "yoko",
@@ -5369,6 +5850,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "T1",
           "package": "yoko",
@@ -5381,6 +5863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "T2",
           "package": "yoko",
@@ -5390,6 +5873,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "T2",
           "package": "yoko",
@@ -5402,6 +5886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "U",
           "package": "yoko",
@@ -5411,6 +5896,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "U",
           "package": "yoko",
@@ -5423,6 +5909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "band",
           "package": "yoko",
@@ -5432,6 +5919,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "band",
           "package": "yoko",
@@ -5444,6 +5932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "disband",
           "package": "yoko",
@@ -5453,6 +5942,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "disband",
           "package": "yoko",
@@ -5466,6 +5956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edisbanded\u003c/code\u003e injects a fields type into its disbanded range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "disbanded",
           "package": "yoko",
@@ -5476,6 +5967,7 @@
         "index": {
           "description": "disbanded injects fields type into its disbanded range",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "disbanded",
           "normalized": "a-\u003eDCs(Codomain a)b b",
@@ -5490,6 +5982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "embed",
           "package": "yoko",
@@ -5499,6 +5992,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "embed",
           "normalized": "a b b-\u003ec b b",
@@ -5513,6 +6007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "foldC",
           "package": "yoko",
@@ -5522,6 +6017,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "foldC",
           "normalized": "(a a a-\u003eb)-\u003eC c a a a a-\u003eb",
@@ -5536,6 +6032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "foldN0",
           "package": "yoko",
@@ -5545,6 +6042,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "foldN0",
           "normalized": "(a-\u003eb)-\u003eN*a c c-\u003eb",
@@ -5559,6 +6057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "foldN1",
           "package": "yoko",
@@ -5568,6 +6067,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "foldN1",
           "normalized": "(a b-\u003ec)-\u003eN(*-\u003e*)a b b-\u003ec",
@@ -5582,6 +6082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "foldN2",
           "package": "yoko",
@@ -5591,6 +6092,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "foldN2",
           "normalized": "(a b b-\u003ec)-\u003eN(*-\u003e*-\u003e*)a b b-\u003ec",
@@ -5605,6 +6107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "foldPlus",
           "package": "yoko",
@@ -5614,6 +6117,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "foldPlus",
           "normalized": "(a a a-\u003ea)-\u003e(a a a-\u003ea)-\u003ea a a a-\u003ea",
@@ -5629,6 +6133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "foldPlusW'",
           "package": "yoko",
@@ -5638,6 +6143,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "foldPlusW'",
           "normalized": "W' a b c c-\u003eW' a d c c-\u003eW' a(b d)c c",
@@ -5653,6 +6159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "foldTimes",
           "package": "yoko",
@@ -5662,6 +6169,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "foldTimes",
           "normalized": "(a-\u003ea-\u003ea)-\u003e(a a a-\u003ea)-\u003e(a a a-\u003ea)-\u003e*a a a a-\u003ea",
@@ -5678,6 +6186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eig_from x =\u003c/code\u003e 'reps $ disband' \u003ccode\u003ex\u003c/code\u003e is a convenience. It approximates the\n \u003ccode\u003einstant-generics\u003c/code\u003e view, less the \u003ccode\u003eCEq\u003c/code\u003e annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "ig_from",
           "package": "yoko",
@@ -5688,6 +6197,7 @@
         "index": {
           "description": "ig from reps disband is convenience It approximates the instant-generics view less the CEq annotations",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "ig_from",
           "package": "yoko",
@@ -5701,6 +6211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003einject\u003c/code\u003es a fields type into a sum of fields types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "inject",
           "package": "yoko",
@@ -5711,6 +6222,7 @@
         "index": {
           "description": "inject fields type into sum of fields types",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "inject",
           "normalized": "a-\u003eb c c",
@@ -5725,6 +6237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "mapC",
           "package": "yoko",
@@ -5734,6 +6247,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "mapC",
           "normalized": "(a a a-\u003eb c c)-\u003eC d a a a a-\u003eC d e b c c",
@@ -5748,6 +6262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "mapN0",
           "package": "yoko",
@@ -5757,6 +6272,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "mapN0",
           "normalized": "(a-\u003ea)-\u003eN*a b b-\u003eN*a b b",
@@ -5771,6 +6287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "mapN1",
           "package": "yoko",
@@ -5780,6 +6297,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "mapN1",
           "normalized": "(a b-\u003ea b)-\u003eN(*-\u003e*)a b b-\u003eN(*-\u003e*)a b b",
@@ -5794,6 +6312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "mapN2",
           "package": "yoko",
@@ -5803,6 +6322,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "mapN2",
           "normalized": "(a b b-\u003ea b b)-\u003eN(*-\u003e*-\u003e*)a b b-\u003eN(*-\u003e*-\u003e*)a b b",
@@ -5817,6 +6337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "mapPar0",
           "package": "yoko",
@@ -5826,6 +6347,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "mapPar0",
           "normalized": "(a-\u003eb)-\u003ePar a a-\u003ePar b b",
@@ -5841,6 +6363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "mapPar1",
           "package": "yoko",
@@ -5850,6 +6373,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "mapPar1",
           "normalized": "(a-\u003eb)-\u003ePar a a-\u003ePar b b",
@@ -5865,6 +6389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "mapPlus",
           "package": "yoko",
@@ -5874,6 +6399,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "mapPlus",
           "normalized": "(a a a-\u003eb c c)-\u003e(a a a-\u003ed c c)-\u003ea a a a-\u003eb d c c",
@@ -5889,6 +6415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "mapT0",
           "package": "yoko",
@@ -5898,6 +6425,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "mapT0",
           "normalized": "(a-\u003ea)-\u003eT a a a a-\u003eT b a c c",
@@ -5912,6 +6440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "mapT1",
           "package": "yoko",
@@ -5921,6 +6450,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "mapT1",
           "normalized": "(a(a a a)-\u003ea(b c c))-\u003eT a a a a a-\u003eT d a b c c",
@@ -5935,6 +6465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "mapT2",
           "package": "yoko",
@@ -5944,6 +6475,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "mapT2",
           "normalized": "(a(a a a)(a a a)-\u003ea(b c c)(d c c))-\u003eT a a a a a a-\u003eT e a b d c c",
@@ -5958,6 +6490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "mapTimes",
           "package": "yoko",
@@ -5967,6 +6500,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "mapTimes",
           "normalized": "(a a a-\u003eb c c)-\u003e(a a a-\u003ed c c)-\u003e*a a a a-\u003e*b d c c",
@@ -5982,6 +6516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "nN",
           "package": "yoko",
@@ -5991,6 +6526,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "nN",
           "package": "yoko",
@@ -6003,6 +6539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "obj",
           "package": "yoko",
@@ -6012,6 +6549,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "obj",
           "package": "yoko",
@@ -6025,6 +6563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eone\u003c/code\u003e extends a function that consumes a fields type to a function that\n consumes a disbanded data type containing just that fields type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "one",
           "package": "yoko",
@@ -6035,6 +6574,7 @@
         "index": {
           "description": "one extends function that consumes fields type to function that consumes disbanded data type containing just that fields type",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "one",
           "normalized": "(a-\u003eb)-\u003eN a c c-\u003eb",
@@ -6050,6 +6590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epartition\u003c/code\u003es a sum of fields type into a specified sum of fields types and\n the remaining sum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "partition",
           "package": "yoko",
@@ -6060,6 +6601,7 @@
         "index": {
           "description": "partition sum of fields type into specified sum of fields types and the remaining sum",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "partition",
           "normalized": "a b b-\u003eEither(c b b)((a c)b b)",
@@ -6075,6 +6617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprecise_case\u003c/code\u003e is an exactly-typed case: the second argument is the\n discriminant, the first argument is the default case, and the third argument\n approximates a list of alternatives.\n\u003c/p\u003e\u003cpre\u003e\n precise_case default x $\n   ((C0_ ...) -\u003e ...) \u003ccode\u003e\u003ca\u003e.||\u003c/a\u003e\u003c/code\u003e\n   ((C1_ ...) -\u003e ...) \u003ccode\u003e\u003ca\u003e.|.\u003c/a\u003e\u003c/code\u003e\n   ((C2_ ...) -\u003e ...)\n\u003c/pre\u003e\u003cp\u003eIn this example, \u003ccode\u003eC0_\u003c/code\u003e, \u003ccode\u003eC1_\u003c/code\u003e, and \u003ccode\u003eC2_\u003c/code\u003e are fields types. The other fields\n types for the same data type are handled with the \u003ccode\u003edefault\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "precise_case0",
           "package": "yoko",
@@ -6085,6 +6628,7 @@
         "index": {
           "description": "precise case is an exactly-typed case the second argument is the discriminant the first argument is the default case and the third argument approximates list of alternatives precise case default C0 C1 C2 In this example C0 C1 and C2 are fields types The other fields types for the same data type are handled with the default function",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "precise_case0",
           "normalized": "((DCs a b)c c-\u003ed)-\u003ea-\u003e(b c c-\u003ed)-\u003ed",
@@ -6100,6 +6644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eproject\u003c/code\u003es a single fields type out of a disbanded data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "project",
           "package": "yoko",
@@ -6110,6 +6655,7 @@
         "index": {
           "description": "project single fields type out of disbanded data type",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "project",
           "normalized": "a b b-\u003eEither c((a N c)b b)",
@@ -6124,6 +6670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "rejoin",
           "package": "yoko",
@@ -6133,6 +6680,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "rejoin",
           "package": "yoko",
@@ -6145,6 +6693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "rep",
           "package": "yoko",
@@ -6154,6 +6703,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "rep",
           "package": "yoko",
@@ -6167,6 +6717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ereps\u003c/code\u003e maps a disbanded data type to its sum-of-products representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "reps",
           "package": "yoko",
@@ -6177,6 +6728,7 @@
         "index": {
           "description": "reps maps disbanded data type to its sum-of-products representation",
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "reps",
           "normalized": "a b b-\u003eEachRep a b b",
@@ -6191,6 +6743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "unC",
           "package": "yoko",
@@ -6200,6 +6753,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "unC",
           "normalized": "C a b b b b-\u003eb b b",
@@ -6214,6 +6768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "unN",
           "package": "yoko",
@@ -6223,6 +6778,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "unN",
           "package": "yoko",
@@ -6235,6 +6791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "unN0",
           "package": "yoko",
@@ -6244,6 +6801,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "unN0",
           "normalized": "N*a b b-\u003ea",
@@ -6258,6 +6816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "unN1",
           "package": "yoko",
@@ -6267,6 +6826,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "unN1",
           "normalized": "N(*-\u003e*)a b b-\u003ea b",
@@ -6281,6 +6841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "unN2",
           "package": "yoko",
@@ -6290,6 +6851,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "unN2",
           "normalized": "N(*-\u003e*-\u003e*)a b b-\u003ea b b",
@@ -6304,6 +6866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "unPar0",
           "package": "yoko",
@@ -6313,6 +6876,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "unPar0",
           "normalized": "Par a a-\u003ea",
@@ -6328,6 +6892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "unPar1",
           "package": "yoko",
@@ -6337,6 +6902,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "unPar1",
           "normalized": "Par a a-\u003ea",
@@ -6352,6 +6918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "unT0",
           "package": "yoko",
@@ -6361,6 +6928,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "unT0",
           "normalized": "T a a a a-\u003ea",
@@ -6375,6 +6943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "unT1",
           "package": "yoko",
@@ -6384,6 +6953,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "unT1",
           "normalized": "T a a a a a-\u003ea(a a a)",
@@ -6398,6 +6968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:47:29 UTC 2014",
           "module": "Data.YokoRaw",
           "name": "unT2",
           "package": "yoko",
@@ -6407,6 +6978,7 @@
         },
         "index": {
           "hierarchy": "Data YokoRaw",
+          "indexed": "2014-03-11T20:47:29",
           "module": "Data.YokoRaw",
           "name": "unT2",
           "normalized": "T a a a a a a-\u003ea(a a a)(a a a)",

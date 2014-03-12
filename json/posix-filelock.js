@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "posix-filelock"
+        "phrase": "posix-filelock",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:06 UTC 2014",
           "module": "System.Posix.FileLock",
           "name": "FileLock",
           "package": "posix-filelock",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Posix FileLock",
+          "indexed": "2014-03-11T19:42:06",
           "module": "System.Posix.FileLock",
           "name": "FileLock",
           "package": "posix-filelock",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:06 UTC 2014",
           "module": "System.Posix.FileLock",
           "name": "FileLock",
           "package": "posix-filelock",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Posix FileLock",
+          "indexed": "2014-03-11T19:42:06",
           "module": "System.Posix.FileLock",
           "name": "FileLock",
           "package": "posix-filelock",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:06 UTC 2014",
           "module": "System.Posix.FileLock",
           "name": "LockType",
           "package": "posix-filelock",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "System Posix FileLock",
+          "indexed": "2014-03-11T19:42:06",
           "module": "System.Posix.FileLock",
           "name": "LockType",
           "package": "posix-filelock",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:06 UTC 2014",
           "module": "System.Posix.FileLock",
           "name": "ReadLock",
           "package": "posix-filelock",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "System Posix FileLock",
+          "indexed": "2014-03-11T19:42:06",
           "module": "System.Posix.FileLock",
           "name": "ReadLock",
           "package": "posix-filelock",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:06 UTC 2014",
           "module": "System.Posix.FileLock",
           "name": "WriteLock",
           "package": "posix-filelock",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "System Posix FileLock",
+          "indexed": "2014-03-11T19:42:06",
           "module": "System.Posix.FileLock",
           "name": "WriteLock",
           "package": "posix-filelock",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a lock of the given type on the given path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:06 UTC 2014",
           "module": "System.Posix.FileLock",
           "name": "lock",
           "package": "posix-filelock",
@@ -136,6 +147,7 @@
         "index": {
           "description": "Get lock of the given type on the given path",
           "hierarchy": "System Posix FileLock",
+          "indexed": "2014-03-11T19:42:06",
           "module": "System.Posix.FileLock",
           "name": "lock",
           "normalized": "FilePath-\u003eLockType-\u003ea FileLock",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelease a lock\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:06 UTC 2014",
           "module": "System.Posix.FileLock",
           "name": "unlock",
           "package": "posix-filelock",
@@ -161,6 +174,7 @@
         "index": {
           "description": "Release lock",
           "hierarchy": "System Posix FileLock",
+          "indexed": "2014-03-11T19:42:06",
           "module": "System.Posix.FileLock",
           "name": "unlock",
           "normalized": "FileLock-\u003ea()",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the lock, executes the IO action, and then releases the lock.\n   Releases the lock even if an exception occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:06 UTC 2014",
           "module": "System.Posix.FileLock",
           "name": "withLock",
           "package": "posix-filelock",
@@ -186,6 +201,7 @@
         "index": {
           "description": "Gets the lock executes the IO action and then releases the lock Releases the lock even if an exception occurs",
           "hierarchy": "System Posix FileLock",
+          "indexed": "2014-03-11T19:42:06",
           "module": "System.Posix.FileLock",
           "name": "withLock",
           "normalized": "FilePath-\u003eLockType-\u003eIO a-\u003eb a",

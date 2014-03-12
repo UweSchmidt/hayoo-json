@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gitlib"
+        "phrase": "gitlib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Blob",
           "name": "Blob",
           "package": "gitlib",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Git Blob",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Blob",
           "name": "Blob",
           "package": "gitlib",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Blob",
           "name": "blobContentsToByteString",
           "package": "gitlib",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Git Blob",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Blob",
           "name": "blobContentsToByteString",
           "normalized": "BlobContents a-\u003ea ByteString",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Blob",
           "name": "blobContentsToLazyByteString",
           "package": "gitlib",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Git Blob",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Blob",
           "name": "blobContentsToLazyByteString",
           "normalized": "BlobContents a-\u003ea ByteString",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Blob",
           "name": "blobToByteString",
           "package": "gitlib",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Git Blob",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Blob",
           "name": "blobToByteString",
           "normalized": "Blob a b-\u003eb ByteString",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Blob",
           "name": "blobToLazyByteString",
           "package": "gitlib",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Git Blob",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Blob",
           "name": "blobToLazyByteString",
           "normalized": "Blob a b-\u003eb ByteString",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Blob",
           "name": "catBlob",
           "package": "gitlib",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Git Blob",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Blob",
           "name": "catBlob",
           "normalized": "BlobOid a-\u003eb ByteString",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Blob",
           "name": "catBlobLazy",
           "package": "gitlib",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Git Blob",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Blob",
           "name": "catBlobLazy",
           "normalized": "BlobOid a-\u003eb ByteString",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Blob",
           "name": "catBlobUtf8",
           "package": "gitlib",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Git Blob",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Blob",
           "name": "catBlobUtf8",
           "normalized": "BlobOid a-\u003eb Text",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Blob",
           "name": "copyBlob",
           "package": "gitlib",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Git Blob",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Blob",
           "name": "copyBlob",
           "normalized": "BlobOid a-\u003eHashSet Text-\u003eb c(BlobOid d,HashSet Text)",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Blob",
           "name": "createBlobUtf8",
           "package": "gitlib",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Git Blob",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Blob",
           "name": "createBlobUtf8",
           "normalized": "Text-\u003ea(BlobOid b)",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Blob",
           "name": "sourceTreeBlobEntries",
           "package": "gitlib",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Git Blob",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Blob",
           "name": "sourceTreeBlobEntries",
           "normalized": "Tree a-\u003eProducer b(TreeFilePath,BlobOid a,BlobKind)",
@@ -279,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Blob",
           "name": "treeBlobEntries",
           "package": "gitlib",
@@ -288,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Git Blob",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Blob",
           "name": "treeBlobEntries",
           "normalized": "Tree a-\u003eb[(TreeFilePath,BlobOid a,BlobKind)]",
@@ -303,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Blob",
           "name": "writeBlob",
           "package": "gitlib",
@@ -312,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Git Blob",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Blob",
           "name": "writeBlob",
           "normalized": "FilePath-\u003eBlobContents a-\u003ea()",
@@ -327,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Commit.Push",
           "name": "Push",
           "package": "gitlib",
@@ -335,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Git Commit Push",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Commit.Push",
           "name": "Push",
           "package": "gitlib",
@@ -348,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Commit.Push",
           "name": "copyRepository",
           "package": "gitlib",
@@ -357,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Git Commit Push",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Commit.Push",
           "name": "copyRepository",
           "normalized": "RepositoryFactory(a b)b c-\u003eMaybe(CommitOid d)-\u003eText-\u003eFilePath-\u003eBool-\u003eb()",
@@ -373,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFast-forward push a reference between repositories using a recursive\n   copy.  This can be extremely slow, but always works no matter which two\n   backends are being used.  It should be considered a matter of last\n   resort, or for objects sets that are known to be small.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Commit.Push",
           "name": "pushCommit",
           "package": "gitlib",
@@ -383,6 +414,7 @@
         "index": {
           "description": "Fast-forward push reference between repositories using recursive copy This can be extremely slow but always works no matter which two backends are being used It should be considered matter of last resort or for objects sets that are known to be small",
           "hierarchy": "Git Commit Push",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Commit.Push",
           "name": "pushCommit",
           "normalized": "CommitOid a-\u003eText-\u003eb c(CommitOid d)",
@@ -398,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Commit",
           "name": "Commit",
           "package": "gitlib",
@@ -406,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Git Commit",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Commit",
           "name": "Commit",
           "package": "gitlib",
@@ -419,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Commit",
           "name": "commitTreeEntry",
           "package": "gitlib",
@@ -428,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Git Commit",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Commit",
           "name": "commitTreeEntry",
           "normalized": "Commit a-\u003eTreeFilePath-\u003eb(Maybe(TreeEntry a))",
@@ -443,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Commit",
           "name": "copyCommit",
           "package": "gitlib",
@@ -452,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Git Commit",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Commit",
           "name": "copyCommit",
           "normalized": "CommitOid a-\u003eMaybe RefName-\u003eHashSet Text-\u003eb c(CommitOid d,HashSet Text)",
@@ -467,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Commit",
           "name": "copyCommitOid",
           "package": "gitlib",
@@ -476,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Git Commit",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Commit",
           "name": "copyCommitOid",
           "normalized": "CommitOid a-\u003eb(CommitOid c)",
@@ -491,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Commit",
           "name": "listCommits",
           "package": "gitlib",
@@ -499,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Git Commit",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Commit",
           "name": "listCommits",
           "normalized": "Maybe(CommitOid a)-\u003eCommitOid a-\u003eb[CommitOid a]",
@@ -514,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Commit",
           "name": "traverseCommits",
           "package": "gitlib",
@@ -523,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Git Commit",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Commit",
           "name": "traverseCommits",
           "normalized": "(CommitOid a-\u003eb c)-\u003eCommitOid a-\u003eb[c]",
@@ -538,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Commit",
           "name": "traverseCommits_",
           "package": "gitlib",
@@ -547,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Git Commit",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Commit",
           "name": "traverseCommits_",
           "normalized": "(CommitOid a-\u003eb())-\u003eCommitOid a-\u003eb()",
@@ -562,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Object",
           "name": "Object",
           "package": "gitlib",
@@ -570,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Git Object",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Object",
           "name": "Object",
           "package": "gitlib",
@@ -584,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of objects (commit and top-level trees) return by\n   \u003ccode\u003e\u003ca\u003elistObjects\u003c/a\u003e\u003c/code\u003e, expand it to include all subtrees and blobs as well.\n   Ordering is preserved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Object",
           "name": "expandTreeObjects",
           "package": "gitlib",
@@ -594,6 +643,7 @@
         "index": {
           "description": "Given list of objects commit and top-level trees return by listObjects expand it to include all subtrees and blobs as well Ordering is preserved",
           "hierarchy": "Git Object",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Object",
           "name": "expandTreeObjects",
           "package": "gitlib",
@@ -607,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Object",
           "name": "listAllObjects",
           "package": "gitlib",
@@ -616,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Git Object",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Object",
           "name": "listAllObjects",
           "normalized": "Maybe(CommitOid a)-\u003eCommitOid a-\u003eb[ObjectOid a]",
@@ -631,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Object",
           "name": "listObjects",
           "package": "gitlib",
@@ -639,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Git Object",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Object",
           "name": "listObjects",
           "normalized": "Maybe(CommitOid a)-\u003eCommitOid a-\u003eBool-\u003eb[ObjectOid a]",
@@ -654,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Object",
           "name": "traverseObjects",
           "package": "gitlib",
@@ -663,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Git Object",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Object",
           "name": "traverseObjects",
           "normalized": "(ObjectOid a-\u003eb c)-\u003eCommitOid a-\u003eb[c]",
@@ -678,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Object",
           "name": "traverseObjects_",
           "package": "gitlib",
@@ -687,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Git Object",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Object",
           "name": "traverseObjects_",
           "normalized": "(ObjectOid a-\u003eb())-\u003eCommitOid a-\u003eb()",
@@ -702,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Reference",
           "name": "Reference",
           "package": "gitlib",
@@ -710,6 +769,7 @@
         },
         "index": {
           "hierarchy": "Git Reference",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Reference",
           "name": "Reference",
           "package": "gitlib",
@@ -723,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Reference",
           "name": "listReferences",
           "package": "gitlib",
@@ -732,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Git Reference",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Reference",
           "name": "listReferences",
           "normalized": "a[RefName]",
@@ -747,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Reference",
           "name": "referenceToOid",
           "package": "gitlib",
@@ -756,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Git Reference",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Reference",
           "name": "referenceToOid",
           "normalized": "RefTarget a-\u003eb(Maybe(Oid a))",
@@ -771,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Reference",
           "name": "resolveReference",
           "package": "gitlib",
@@ -780,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Git Reference",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Reference",
           "name": "resolveReference",
           "normalized": "RefName-\u003ea(Maybe(Oid b))",
@@ -795,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Repository",
           "name": "Repository",
           "package": "gitlib",
@@ -803,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Git Repository",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Repository",
           "name": "Repository",
           "package": "gitlib",
@@ -816,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Repository",
           "name": "withNewRepository",
           "package": "gitlib",
@@ -825,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Git Repository",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Repository",
           "name": "withNewRepository",
           "normalized": "RepositoryFactory a b c-\u003eFilePath-\u003ea d-\u003eb d",
@@ -840,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Repository",
           "name": "withNewRepository'",
           "package": "gitlib",
@@ -849,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Git Repository",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Repository",
           "name": "withNewRepository'",
           "normalized": "RepositoryFactory a b c-\u003eFilePath-\u003ea d-\u003eb d",
@@ -864,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Repository",
           "name": "withRepository",
           "package": "gitlib",
@@ -873,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Git Repository",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Repository",
           "name": "withRepository",
           "normalized": "RepositoryFactory a b c-\u003eFilePath-\u003ea d-\u003eb d",
@@ -888,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Repository",
           "name": "withRepository'",
           "package": "gitlib",
@@ -897,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Git Repository",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Repository",
           "name": "withRepository'",
           "normalized": "RepositoryFactory a b c-\u003eRepositoryOptions-\u003ea d-\u003eb d",
@@ -912,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder.Pure",
           "name": "Pure",
           "package": "gitlib",
@@ -920,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder Pure",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder.Pure",
           "name": "Pure",
           "package": "gitlib",
@@ -933,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder.Pure",
           "name": "EntryHashMap",
           "package": "gitlib",
@@ -941,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder Pure",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder.Pure",
           "name": "EntryHashMap",
           "package": "gitlib",
@@ -955,6 +1035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new, empty tree.\n\u003c/p\u003e\u003cp\u003eSince empty trees cannot exist in Git, attempting to write out an empty\n   tree is a no-op.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder.Pure",
           "name": "newPureTreeBuilder",
           "package": "gitlib",
@@ -965,6 +1046,7 @@
         "index": {
           "description": "Create new empty tree Since empty trees cannot exist in Git attempting to write out an empty tree is no-op",
           "hierarchy": "Git Tree Builder Pure",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder.Pure",
           "name": "newPureTreeBuilder",
           "normalized": "(Tree a-\u003eb(EntryHashMap a))-\u003e(EntryHashMap a-\u003eb(TreeOid a))-\u003eMaybe(Tree a)-\u003eb(TreeBuilder a b)",
@@ -980,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "Builder",
           "package": "gitlib",
@@ -988,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "Builder",
           "package": "gitlib",
@@ -1001,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "ModifiedBuilder",
           "package": "gitlib",
@@ -1009,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "ModifiedBuilder",
           "package": "gitlib",
@@ -1022,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "ModifyTreeResult",
           "package": "gitlib",
@@ -1030,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "ModifyTreeResult",
           "package": "gitlib",
@@ -1043,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "TreeBuilder",
           "package": "gitlib",
@@ -1051,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "TreeBuilder",
           "package": "gitlib",
@@ -1064,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "TreeT",
           "package": "gitlib",
@@ -1072,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "TreeT",
           "package": "gitlib",
@@ -1154,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "TreeEntryDeleted",
           "package": "gitlib",
@@ -1163,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "TreeEntryDeleted",
           "package": "gitlib",
@@ -1176,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "TreeEntryMutated",
           "package": "gitlib",
@@ -1185,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "TreeEntryMutated",
           "package": "gitlib",
@@ -1198,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "TreeEntryNotFound",
           "package": "gitlib",
@@ -1207,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "TreeEntryNotFound",
           "package": "gitlib",
@@ -1220,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "TreeEntryPersistent",
           "package": "gitlib",
@@ -1229,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "TreeEntryPersistent",
           "package": "gitlib",
@@ -1242,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "createTree",
           "package": "gitlib",
@@ -1251,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "createTree",
           "normalized": "TreeT a b c-\u003eb(TreeOid a)",
@@ -1266,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "currentTree",
           "package": "gitlib",
@@ -1275,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "currentTree",
           "package": "gitlib",
@@ -1288,6 +1392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "currentTreeOid",
           "package": "gitlib",
@@ -1297,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "currentTreeOid",
           "package": "gitlib",
@@ -1310,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "dropEntry",
           "package": "gitlib",
@@ -1319,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "dropEntry",
           "normalized": "TreeFilePath-\u003eTreeT a b()",
@@ -1334,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "emptyTreeId",
           "package": "gitlib",
@@ -1343,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "emptyTreeId",
           "package": "gitlib",
@@ -1356,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "fromModifyTreeResult",
           "package": "gitlib",
@@ -1365,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "fromModifyTreeResult",
           "normalized": "ModifyTreeResult a-\u003eMaybe(TreeEntry a)",
@@ -1380,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "getEntry",
           "package": "gitlib",
@@ -1389,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "getEntry",
           "normalized": "TreeFilePath-\u003eTreeT a b(Maybe(TreeEntry a))",
@@ -1598,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "mutateTree",
           "package": "gitlib",
@@ -1607,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "mutateTree",
           "normalized": "Tree a-\u003eTreeT a b c-\u003eb(TreeOid a)",
@@ -1622,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "mutateTreeOid",
           "package": "gitlib",
@@ -1631,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "mutateTreeOid",
           "normalized": "TreeOid a-\u003eTreeT a b c-\u003eb(TreeOid a)",
@@ -1646,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "putBlob",
           "package": "gitlib",
@@ -1655,6 +1774,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "putBlob",
           "normalized": "TreeFilePath-\u003eBlobOid a-\u003eTreeT a b()",
@@ -1670,6 +1790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "putBlob'",
           "package": "gitlib",
@@ -1679,6 +1800,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "putBlob'",
           "normalized": "TreeFilePath-\u003eBlobOid a-\u003eBlobKind-\u003eTreeT a b()",
@@ -1694,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "putCommit",
           "package": "gitlib",
@@ -1703,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "putCommit",
           "normalized": "TreeFilePath-\u003eCommitOid a-\u003eTreeT a b()",
@@ -1718,6 +1842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "putEntry",
           "package": "gitlib",
@@ -1727,6 +1852,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "putEntry",
           "normalized": "TreeFilePath-\u003eTreeEntry a-\u003eTreeT a b()",
@@ -1742,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "putTree",
           "package": "gitlib",
@@ -1751,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "putTree",
           "normalized": "TreeFilePath-\u003eTreeOid a-\u003eTreeT a b()",
@@ -1766,6 +1894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "toModifyTreeResult",
           "package": "gitlib",
@@ -1775,6 +1904,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "toModifyTreeResult",
           "normalized": "(TreeEntry a-\u003eModifyTreeResult a)-\u003eMaybe(TreeEntry a)-\u003eModifyTreeResult a",
@@ -1790,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "treeEntry",
           "package": "gitlib",
@@ -1799,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "treeEntry",
           "normalized": "Tree a-\u003eTreeFilePath-\u003eb(Maybe(TreeEntry a))",
@@ -1814,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "withNewTree",
           "package": "gitlib",
@@ -1823,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "withNewTree",
           "normalized": "TreeT a b c-\u003eb(c,TreeOid a)",
@@ -1838,6 +1972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "withTree",
           "package": "gitlib",
@@ -1847,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "withTree",
           "normalized": "Tree a-\u003eTreeT a b c-\u003eb(c,TreeOid a)",
@@ -1862,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree.Builder",
           "name": "withTreeOid",
           "package": "gitlib",
@@ -1871,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "Git Tree Builder",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree.Builder",
           "name": "withTreeOid",
           "normalized": "TreeOid a-\u003eTreeT a b c-\u003eb(c,TreeOid a)",
@@ -1886,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree",
           "name": "Tree",
           "package": "gitlib",
@@ -1894,6 +2033,7 @@
         },
         "index": {
           "hierarchy": "Git Tree",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree",
           "name": "Tree",
           "package": "gitlib",
@@ -1907,6 +2047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree",
           "name": "copyTree",
           "package": "gitlib",
@@ -1916,6 +2057,7 @@
         },
         "index": {
           "hierarchy": "Git Tree",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree",
           "name": "copyTree",
           "normalized": "TreeOid a-\u003eHashSet Text-\u003eb c(TreeOid d,HashSet Text)",
@@ -1931,6 +2073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree",
           "name": "copyTreeEntry",
           "package": "gitlib",
@@ -1940,6 +2083,7 @@
         },
         "index": {
           "hierarchy": "Git Tree",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree",
           "name": "copyTreeEntry",
           "normalized": "TreeEntry a-\u003eHashSet Text-\u003eb c(TreeEntry d,HashSet Text)",
@@ -1955,6 +2099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tree",
           "name": "listTreeEntries",
           "package": "gitlib",
@@ -1964,6 +2109,7 @@
         },
         "index": {
           "hierarchy": "Git Tree",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tree",
           "name": "listTreeEntries",
           "normalized": "Tree a-\u003eb[(TreeFilePath,TreeEntry a)]",
@@ -1980,6 +2126,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a brief introductory tutorial in the \"Introduction\"\n    section followed by a lengthy discussion of the library's design and idioms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Tutorial",
           "name": "Tutorial",
           "package": "gitlib",
@@ -1989,6 +2136,7 @@
         "index": {
           "description": "This module provides brief introductory tutorial in the Introduction section followed by lengthy discussion of the library design and idioms",
           "hierarchy": "Git Tutorial",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Tutorial",
           "name": "Tutorial",
           "package": "gitlib",
@@ -2002,6 +2150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "Types",
           "package": "gitlib",
@@ -2010,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "Types",
           "package": "gitlib",
@@ -2023,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "Blob",
           "package": "gitlib",
@@ -2031,6 +2182,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "Blob",
           "package": "gitlib",
@@ -2044,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "BlobContents",
           "package": "gitlib",
@@ -2052,6 +2205,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "BlobContents",
           "package": "gitlib",
@@ -2065,6 +2219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "BlobKind",
           "package": "gitlib",
@@ -2073,6 +2228,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "BlobKind",
           "package": "gitlib",
@@ -2086,6 +2242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "BlobOid",
           "package": "gitlib",
@@ -2094,6 +2251,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "BlobOid",
           "package": "gitlib",
@@ -2107,6 +2265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "ByteSource",
           "package": "gitlib",
@@ -2115,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "ByteSource",
           "package": "gitlib",
@@ -2128,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "Commit",
           "package": "gitlib",
@@ -2136,6 +2297,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "Commit",
           "package": "gitlib",
@@ -2149,6 +2311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "CommitAuthor",
           "package": "gitlib",
@@ -2157,6 +2320,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "CommitAuthor",
           "package": "gitlib",
@@ -2170,6 +2334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "CommitEmail",
           "package": "gitlib",
@@ -2178,6 +2343,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "CommitEmail",
           "package": "gitlib",
@@ -2191,6 +2357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "CommitMessage",
           "package": "gitlib",
@@ -2199,6 +2366,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "CommitMessage",
           "package": "gitlib",
@@ -2212,6 +2380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "CommitOid",
           "package": "gitlib",
@@ -2220,6 +2389,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "CommitOid",
           "package": "gitlib",
@@ -2234,6 +2404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere is a separate \u003ccode\u003e\u003ca\u003eGitException\u003c/a\u003e\u003c/code\u003e for each possible failure when\n   interacting with the Git repository.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "GitException",
           "package": "gitlib",
@@ -2243,6 +2414,7 @@
         "index": {
           "description": "There is separate GitException for each possible failure when interacting with the Git repository",
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "GitException",
           "package": "gitlib",
@@ -2256,6 +2428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "IsOid",
           "package": "gitlib",
@@ -2264,6 +2437,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "IsOid",
           "package": "gitlib",
@@ -2277,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "MergeResult",
           "package": "gitlib",
@@ -2285,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "MergeResult",
           "package": "gitlib",
@@ -2298,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "MergeStatus",
           "package": "gitlib",
@@ -2306,6 +2483,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "MergeStatus",
           "package": "gitlib",
@@ -2319,6 +2497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "ModificationKind",
           "package": "gitlib",
@@ -2327,6 +2506,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "ModificationKind",
           "package": "gitlib",
@@ -2340,6 +2520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "ModifiedBuilder",
           "package": "gitlib",
@@ -2348,6 +2529,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "ModifiedBuilder",
           "package": "gitlib",
@@ -2362,6 +2544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eRepository\u003c/code\u003e is the central point of contact between user code and Git\n   data objects.  Every object must belong to some repository.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "MonadGit",
           "package": "gitlib",
@@ -2371,6 +2554,7 @@
         "index": {
           "description": "Repository is the central point of contact between user code and Git data objects Every object must belong to some repository",
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "MonadGit",
           "package": "gitlib",
@@ -2384,6 +2568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "Object",
           "package": "gitlib",
@@ -2392,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "Object",
           "package": "gitlib",
@@ -2405,6 +2591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "ObjectOid",
           "package": "gitlib",
@@ -2413,6 +2600,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "ObjectOid",
           "package": "gitlib",
@@ -2426,6 +2614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "RawFilePath",
           "package": "gitlib",
@@ -2434,6 +2623,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "RawFilePath",
           "package": "gitlib",
@@ -2447,6 +2637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "RefName",
           "package": "gitlib",
@@ -2455,6 +2646,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "RefName",
           "package": "gitlib",
@@ -2468,6 +2660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "RefTarget",
           "package": "gitlib",
@@ -2476,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "RefTarget",
           "package": "gitlib",
@@ -2489,6 +2683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "RepositoryFactory",
           "package": "gitlib",
@@ -2497,6 +2692,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "RepositoryFactory",
           "package": "gitlib",
@@ -2510,6 +2706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "RepositoryFacts",
           "package": "gitlib",
@@ -2518,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "RepositoryFacts",
           "package": "gitlib",
@@ -2531,6 +2729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "RepositoryOptions",
           "package": "gitlib",
@@ -2539,6 +2738,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "RepositoryOptions",
           "package": "gitlib",
@@ -2552,6 +2752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "SHA",
           "package": "gitlib",
@@ -2560,6 +2761,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "SHA",
           "package": "gitlib",
@@ -2573,6 +2775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "Signature",
           "package": "gitlib",
@@ -2581,6 +2784,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "Signature",
           "package": "gitlib",
@@ -2594,6 +2798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "Tag",
           "package": "gitlib",
@@ -2602,6 +2807,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "Tag",
           "package": "gitlib",
@@ -2615,6 +2821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TagOid",
           "package": "gitlib",
@@ -2623,6 +2830,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TagOid",
           "package": "gitlib",
@@ -2636,6 +2844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TreeBuilder",
           "package": "gitlib",
@@ -2644,6 +2853,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TreeBuilder",
           "package": "gitlib",
@@ -2657,6 +2867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TreeEntry",
           "package": "gitlib",
@@ -2665,6 +2876,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TreeEntry",
           "package": "gitlib",
@@ -2678,6 +2890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TreeFilePath",
           "package": "gitlib",
@@ -2686,6 +2899,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TreeFilePath",
           "package": "gitlib",
@@ -2699,6 +2913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TreeOid",
           "package": "gitlib",
@@ -2707,6 +2922,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TreeOid",
           "package": "gitlib",
@@ -2720,6 +2936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "Added",
           "package": "gitlib",
@@ -2729,6 +2946,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "Added",
           "package": "gitlib",
@@ -2742,6 +2960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "BackendError",
           "package": "gitlib",
@@ -2751,6 +2970,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "BackendError",
           "package": "gitlib",
@@ -2764,6 +2984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "Blob",
           "package": "gitlib",
@@ -2773,6 +2994,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "Blob",
           "package": "gitlib",
@@ -2786,6 +3008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "BlobCreateFailed",
           "package": "gitlib",
@@ -2795,6 +3018,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "BlobCreateFailed",
           "package": "gitlib",
@@ -2808,6 +3032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "BlobEmptyCreateFailed",
           "package": "gitlib",
@@ -2817,6 +3042,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "BlobEmptyCreateFailed",
           "package": "gitlib",
@@ -2830,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "BlobEncodingUnknown",
           "package": "gitlib",
@@ -2839,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "BlobEncodingUnknown",
           "package": "gitlib",
@@ -2852,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "BlobEntry",
           "package": "gitlib",
@@ -2861,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "BlobEntry",
           "package": "gitlib",
@@ -2874,6 +3104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "BlobLookupFailed",
           "package": "gitlib",
@@ -2883,6 +3114,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "BlobLookupFailed",
           "package": "gitlib",
@@ -2896,6 +3128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "BlobObj",
           "package": "gitlib",
@@ -2905,6 +3138,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "BlobObj",
           "package": "gitlib",
@@ -2918,6 +3152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "BlobObjOid",
           "package": "gitlib",
@@ -2927,6 +3162,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "BlobObjOid",
           "package": "gitlib",
@@ -2940,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "BlobSizedStream",
           "package": "gitlib",
@@ -2949,6 +3186,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "BlobSizedStream",
           "package": "gitlib",
@@ -2962,6 +3200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "BlobStream",
           "package": "gitlib",
@@ -2971,6 +3210,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "BlobStream",
           "package": "gitlib",
@@ -2984,6 +3224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "BlobString",
           "package": "gitlib",
@@ -2993,6 +3234,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "BlobString",
           "package": "gitlib",
@@ -3006,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "BlobStringLazy",
           "package": "gitlib",
@@ -3015,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "BlobStringLazy",
           "package": "gitlib",
@@ -3028,6 +3272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "BothAdded",
           "package": "gitlib",
@@ -3037,6 +3282,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "BothAdded",
           "package": "gitlib",
@@ -3050,6 +3296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "BothModified",
           "package": "gitlib",
@@ -3059,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "BothModified",
           "package": "gitlib",
@@ -3072,6 +3320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "BothTypeChanged",
           "package": "gitlib",
@@ -3081,6 +3330,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "BothTypeChanged",
           "package": "gitlib",
@@ -3094,6 +3344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "Commit",
           "package": "gitlib",
@@ -3103,6 +3354,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "Commit",
           "package": "gitlib",
@@ -3116,6 +3368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "CommitCreateFailed",
           "package": "gitlib",
@@ -3125,6 +3378,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "CommitCreateFailed",
           "package": "gitlib",
@@ -3138,6 +3392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "CommitEntry",
           "package": "gitlib",
@@ -3147,6 +3402,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "CommitEntry",
           "package": "gitlib",
@@ -3160,6 +3416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "CommitLookupFailed",
           "package": "gitlib",
@@ -3169,6 +3426,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "CommitLookupFailed",
           "package": "gitlib",
@@ -3182,6 +3440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "CommitObj",
           "package": "gitlib",
@@ -3191,6 +3450,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "CommitObj",
           "package": "gitlib",
@@ -3204,6 +3464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "CommitObjOid",
           "package": "gitlib",
@@ -3213,6 +3474,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "CommitObjOid",
           "package": "gitlib",
@@ -3226,6 +3488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "Deleted",
           "package": "gitlib",
@@ -3235,6 +3498,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "Deleted",
           "package": "gitlib",
@@ -3248,6 +3512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "DiffBlobFailed",
           "package": "gitlib",
@@ -3257,6 +3522,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "DiffBlobFailed",
           "package": "gitlib",
@@ -3270,6 +3536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "DiffPrintToPatchFailed",
           "package": "gitlib",
@@ -3279,6 +3546,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "DiffPrintToPatchFailed",
           "package": "gitlib",
@@ -3292,6 +3560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "DiffTreeToIndexFailed",
           "package": "gitlib",
@@ -3301,6 +3570,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "DiffTreeToIndexFailed",
           "package": "gitlib",
@@ -3314,6 +3584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "ExecutableBlob",
           "package": "gitlib",
@@ -3323,6 +3594,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "ExecutableBlob",
           "package": "gitlib",
@@ -3336,6 +3608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "GitError",
           "package": "gitlib",
@@ -3345,6 +3618,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "GitError",
           "package": "gitlib",
@@ -3358,6 +3632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "IndexAddFailed",
           "package": "gitlib",
@@ -3367,6 +3642,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "IndexAddFailed",
           "package": "gitlib",
@@ -3380,6 +3656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "IndexCreateFailed",
           "package": "gitlib",
@@ -3389,6 +3666,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "IndexCreateFailed",
           "package": "gitlib",
@@ -3402,6 +3680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "LeftDeletedRightModified",
           "package": "gitlib",
@@ -3411,6 +3690,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "LeftDeletedRightModified",
           "package": "gitlib",
@@ -3424,6 +3704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "LeftDeletedRightTypeChanged",
           "package": "gitlib",
@@ -3433,6 +3714,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "LeftDeletedRightTypeChanged",
           "package": "gitlib",
@@ -3446,6 +3728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "LeftModifiedRightDeleted",
           "package": "gitlib",
@@ -3455,6 +3738,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "LeftModifiedRightDeleted",
           "package": "gitlib",
@@ -3468,6 +3752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "LeftModifiedRightTypeChanged",
           "package": "gitlib",
@@ -3477,6 +3762,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "LeftModifiedRightTypeChanged",
           "package": "gitlib",
@@ -3490,6 +3776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "LeftTypeChangedRightDeleted",
           "package": "gitlib",
@@ -3499,6 +3786,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "LeftTypeChangedRightDeleted",
           "package": "gitlib",
@@ -3512,6 +3800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "LeftTypeChangedRightModified",
           "package": "gitlib",
@@ -3521,6 +3810,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "LeftTypeChangedRightModified",
           "package": "gitlib",
@@ -3534,6 +3824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "MergeConflicted",
           "package": "gitlib",
@@ -3543,6 +3834,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "MergeConflicted",
           "package": "gitlib",
@@ -3556,6 +3848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "MergeSuccess",
           "package": "gitlib",
@@ -3565,6 +3858,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "MergeSuccess",
           "package": "gitlib",
@@ -3578,6 +3872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "Modified",
           "package": "gitlib",
@@ -3587,6 +3882,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "Modified",
           "package": "gitlib",
@@ -3600,6 +3896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "NoConflict",
           "package": "gitlib",
@@ -3609,6 +3906,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "NoConflict",
           "package": "gitlib",
@@ -3622,6 +3920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "ObjectLookupFailed",
           "package": "gitlib",
@@ -3631,6 +3930,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "ObjectLookupFailed",
           "package": "gitlib",
@@ -3644,6 +3944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "ObjectRefRequiresFullOid",
           "package": "gitlib",
@@ -3653,6 +3954,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "ObjectRefRequiresFullOid",
           "package": "gitlib",
@@ -3666,6 +3968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "OidCopyFailed",
           "package": "gitlib",
@@ -3675,6 +3978,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "OidCopyFailed",
           "package": "gitlib",
@@ -3688,6 +3992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "OidParseFailed",
           "package": "gitlib",
@@ -3697,6 +4002,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "OidParseFailed",
           "package": "gitlib",
@@ -3710,6 +4016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "PathEncodingError",
           "package": "gitlib",
@@ -3719,6 +4026,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "PathEncodingError",
           "package": "gitlib",
@@ -3732,6 +4040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "PlainBlob",
           "package": "gitlib",
@@ -3741,6 +4050,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "PlainBlob",
           "package": "gitlib",
@@ -3754,6 +4064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "PushNotFastForward",
           "package": "gitlib",
@@ -3763,6 +4074,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "PushNotFastForward",
           "package": "gitlib",
@@ -3776,6 +4088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "QuotaHardLimitExceeded",
           "package": "gitlib",
@@ -3785,6 +4098,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "QuotaHardLimitExceeded",
           "package": "gitlib",
@@ -3798,6 +4112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "RefCannotCreateFromPartialOid",
           "package": "gitlib",
@@ -3807,6 +4122,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "RefCannotCreateFromPartialOid",
           "package": "gitlib",
@@ -3820,6 +4136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "RefObj",
           "package": "gitlib",
@@ -3829,6 +4146,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "RefObj",
           "package": "gitlib",
@@ -3842,6 +4160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "RefSymbolic",
           "package": "gitlib",
@@ -3851,6 +4170,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "RefSymbolic",
           "package": "gitlib",
@@ -3864,6 +4184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "ReferenceCreateFailed",
           "package": "gitlib",
@@ -3873,6 +4194,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "ReferenceCreateFailed",
           "package": "gitlib",
@@ -3886,6 +4208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "ReferenceDeleteFailed",
           "package": "gitlib",
@@ -3895,6 +4218,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "ReferenceDeleteFailed",
           "package": "gitlib",
@@ -3908,6 +4232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "ReferenceListingFailed",
           "package": "gitlib",
@@ -3917,6 +4242,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "ReferenceListingFailed",
           "package": "gitlib",
@@ -3930,6 +4256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "ReferenceLookupFailed",
           "package": "gitlib",
@@ -3939,6 +4266,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "ReferenceLookupFailed",
           "package": "gitlib",
@@ -3952,6 +4280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "RepositoryCannotAccess",
           "package": "gitlib",
@@ -3961,6 +4290,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "RepositoryCannotAccess",
           "package": "gitlib",
@@ -3974,6 +4304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "RepositoryFactory",
           "package": "gitlib",
@@ -3983,6 +4314,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "RepositoryFactory",
           "package": "gitlib",
@@ -3996,6 +4328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "RepositoryFacts",
           "package": "gitlib",
@@ -4005,6 +4338,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "RepositoryFacts",
           "package": "gitlib",
@@ -4018,6 +4352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "RepositoryInvalid",
           "package": "gitlib",
@@ -4027,6 +4362,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "RepositoryInvalid",
           "package": "gitlib",
@@ -4040,6 +4376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "RepositoryNotExist",
           "package": "gitlib",
@@ -4049,6 +4386,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "RepositoryNotExist",
           "package": "gitlib",
@@ -4062,6 +4400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "RepositoryOptions",
           "package": "gitlib",
@@ -4071,6 +4410,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "RepositoryOptions",
           "package": "gitlib",
@@ -4084,6 +4424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "SHA",
           "package": "gitlib",
@@ -4093,6 +4434,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "SHA",
           "package": "gitlib",
@@ -4106,6 +4448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "Signature",
           "package": "gitlib",
@@ -4115,6 +4458,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "Signature",
           "package": "gitlib",
@@ -4128,6 +4472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "SymlinkBlob",
           "package": "gitlib",
@@ -4137,6 +4482,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "SymlinkBlob",
           "package": "gitlib",
@@ -4150,6 +4496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "Tag",
           "package": "gitlib",
@@ -4159,6 +4506,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "Tag",
           "package": "gitlib",
@@ -4172,6 +4520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TagObj",
           "package": "gitlib",
@@ -4181,6 +4530,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TagObj",
           "package": "gitlib",
@@ -4194,6 +4544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TagObjOid",
           "package": "gitlib",
@@ -4203,6 +4554,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TagObjOid",
           "package": "gitlib",
@@ -4216,6 +4568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TranslationException",
           "package": "gitlib",
@@ -4225,6 +4578,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TranslationException",
           "package": "gitlib",
@@ -4238,6 +4592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TreeBuilderCreateFailed",
           "package": "gitlib",
@@ -4247,6 +4602,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TreeBuilderCreateFailed",
           "package": "gitlib",
@@ -4260,6 +4616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TreeBuilderInsertFailed",
           "package": "gitlib",
@@ -4269,6 +4626,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TreeBuilderInsertFailed",
           "package": "gitlib",
@@ -4282,6 +4640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TreeBuilderRemoveFailed",
           "package": "gitlib",
@@ -4291,6 +4650,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TreeBuilderRemoveFailed",
           "package": "gitlib",
@@ -4304,6 +4664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TreeBuilderWriteFailed",
           "package": "gitlib",
@@ -4313,6 +4674,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TreeBuilderWriteFailed",
           "package": "gitlib",
@@ -4326,6 +4688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TreeCannotTraverseBlob",
           "package": "gitlib",
@@ -4335,6 +4698,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TreeCannotTraverseBlob",
           "package": "gitlib",
@@ -4348,6 +4712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TreeCannotTraverseCommit",
           "package": "gitlib",
@@ -4357,6 +4722,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TreeCannotTraverseCommit",
           "package": "gitlib",
@@ -4370,6 +4736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TreeCreateFailed",
           "package": "gitlib",
@@ -4379,6 +4746,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TreeCreateFailed",
           "package": "gitlib",
@@ -4392,6 +4760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TreeEmptyCreateFailed",
           "package": "gitlib",
@@ -4401,6 +4770,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TreeEmptyCreateFailed",
           "package": "gitlib",
@@ -4414,6 +4784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TreeEntry",
           "package": "gitlib",
@@ -4423,6 +4794,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TreeEntry",
           "package": "gitlib",
@@ -4436,6 +4808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TreeEntryLookupFailed",
           "package": "gitlib",
@@ -4445,6 +4818,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TreeEntryLookupFailed",
           "package": "gitlib",
@@ -4458,6 +4832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TreeLookupFailed",
           "package": "gitlib",
@@ -4467,6 +4842,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TreeLookupFailed",
           "package": "gitlib",
@@ -4480,6 +4856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TreeObj",
           "package": "gitlib",
@@ -4489,6 +4866,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TreeObj",
           "package": "gitlib",
@@ -4502,6 +4880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TreeObjOid",
           "package": "gitlib",
@@ -4511,6 +4890,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TreeObjOid",
           "package": "gitlib",
@@ -4524,6 +4904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TreeUpdateFailed",
           "package": "gitlib",
@@ -4533,6 +4914,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TreeUpdateFailed",
           "package": "gitlib",
@@ -4546,6 +4928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TreeWalkFailed",
           "package": "gitlib",
@@ -4555,6 +4938,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TreeWalkFailed",
           "package": "gitlib",
@@ -4568,6 +4952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "TypeChanged",
           "package": "gitlib",
@@ -4577,6 +4962,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "TypeChanged",
           "package": "gitlib",
@@ -4590,6 +4976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "Unchanged",
           "package": "gitlib",
@@ -4599,6 +4986,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "Unchanged",
           "package": "gitlib",
@@ -4612,6 +5000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "blobContents",
           "package": "gitlib",
@@ -4621,6 +5010,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "blobContents",
           "package": "gitlib",
@@ -4634,6 +5024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "blobEntryKind",
           "package": "gitlib",
@@ -4643,6 +5034,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "blobEntryKind",
           "package": "gitlib",
@@ -4656,6 +5048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "blobEntryOid",
           "package": "gitlib",
@@ -4665,6 +5058,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "blobEntryOid",
           "package": "gitlib",
@@ -4678,6 +5072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "blobOid",
           "package": "gitlib",
@@ -4687,6 +5082,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "blobOid",
           "package": "gitlib",
@@ -4700,6 +5096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "closeRepository",
           "package": "gitlib",
@@ -4709,6 +5106,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "closeRepository",
           "normalized": "a()",
@@ -4724,6 +5122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "commitAuthor",
           "package": "gitlib",
@@ -4733,6 +5132,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "commitAuthor",
           "package": "gitlib",
@@ -4746,6 +5146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "commitCommitter",
           "package": "gitlib",
@@ -4755,6 +5156,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "commitCommitter",
           "package": "gitlib",
@@ -4768,6 +5170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "commitEncoding",
           "package": "gitlib",
@@ -4777,6 +5180,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "commitEncoding",
           "package": "gitlib",
@@ -4790,6 +5194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "commitEntryOid",
           "package": "gitlib",
@@ -4799,6 +5204,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "commitEntryOid",
           "package": "gitlib",
@@ -4812,6 +5218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "commitLog",
           "package": "gitlib",
@@ -4821,6 +5228,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "commitLog",
           "package": "gitlib",
@@ -4834,6 +5242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "commitOid",
           "package": "gitlib",
@@ -4843,6 +5252,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "commitOid",
           "package": "gitlib",
@@ -4856,6 +5266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "commitParents",
           "package": "gitlib",
@@ -4865,6 +5276,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "commitParents",
           "normalized": "[CommitOid a]",
@@ -4880,6 +5292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "commitRefTarget",
           "package": "gitlib",
@@ -4889,6 +5302,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "commitRefTarget",
           "normalized": "Commit a-\u003eRefTarget a",
@@ -4904,6 +5318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "commitTree",
           "package": "gitlib",
@@ -4913,6 +5328,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "commitTree",
           "package": "gitlib",
@@ -4926,6 +5342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "copyMergeResult",
           "package": "gitlib",
@@ -4935,6 +5352,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "copyMergeResult",
           "normalized": "MergeResult a-\u003eb(MergeResult c)",
@@ -4950,6 +5368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "copyOid",
           "package": "gitlib",
@@ -4959,6 +5378,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "copyOid",
           "normalized": "Oid a-\u003eb(Oid c)",
@@ -4974,6 +5394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "createBlob",
           "package": "gitlib",
@@ -4983,6 +5404,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "createBlob",
           "normalized": "BlobContents a-\u003ea(BlobOid b)",
@@ -4998,6 +5420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "createCommit",
           "package": "gitlib",
@@ -5007,6 +5430,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "createCommit",
           "normalized": "[CommitOid a]-\u003eTreeOid a-\u003eSignature-\u003eSignature-\u003eCommitMessage-\u003eMaybe RefName-\u003eb(Commit a)",
@@ -5022,6 +5446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "createReference",
           "package": "gitlib",
@@ -5031,6 +5456,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "createReference",
           "normalized": "RefName-\u003eRefTarget a-\u003eb()",
@@ -5046,6 +5472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "createTag",
           "package": "gitlib",
@@ -5055,6 +5482,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "createTag",
           "normalized": "CommitOid a-\u003eSignature-\u003eCommitMessage-\u003eText-\u003eb(Tag a)",
@@ -5070,6 +5498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "defaultRepositoryOptions",
           "package": "gitlib",
@@ -5079,6 +5508,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "defaultRepositoryOptions",
           "package": "gitlib",
@@ -5092,6 +5522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "defaultSignature",
           "package": "gitlib",
@@ -5101,6 +5532,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "defaultSignature",
           "package": "gitlib",
@@ -5114,6 +5546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "deleteReference",
           "package": "gitlib",
@@ -5123,6 +5556,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "deleteReference",
           "normalized": "RefName-\u003ea()",
@@ -5138,6 +5572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "deleteRepository",
           "package": "gitlib",
@@ -5147,6 +5582,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "deleteRepository",
           "normalized": "a()",
@@ -5162,6 +5598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "diffContentsWithTree",
           "package": "gitlib",
@@ -5171,6 +5608,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "diffContentsWithTree",
           "normalized": "Source a(Either TreeFilePath ByteString)-\u003eTree b-\u003eProducer a ByteString",
@@ -5186,6 +5624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "existsObject",
           "package": "gitlib",
@@ -5195,6 +5634,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "existsObject",
           "normalized": "Oid a-\u003eb Bool",
@@ -5210,6 +5650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "facts",
           "package": "gitlib",
@@ -5219,6 +5660,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "facts",
           "package": "gitlib",
@@ -5231,6 +5673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "fromBuilderMod",
           "package": "gitlib",
@@ -5240,6 +5683,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "fromBuilderMod",
           "normalized": "ModifiedBuilder a b-\u003eTreeBuilder a b",
@@ -5255,6 +5699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "getRepository",
           "package": "gitlib",
@@ -5264,6 +5709,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "getRepository",
           "package": "gitlib",
@@ -5277,6 +5723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "getSHA",
           "package": "gitlib",
@@ -5286,6 +5733,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "getSHA",
           "package": "gitlib",
@@ -5299,6 +5747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "hasSymbolicReferences",
           "package": "gitlib",
@@ -5308,6 +5757,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "hasSymbolicReferences",
           "package": "gitlib",
@@ -5321,6 +5771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "hashContents",
           "package": "gitlib",
@@ -5330,6 +5781,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "hashContents",
           "normalized": "BlobContents a-\u003ea(BlobOid b)",
@@ -5345,6 +5797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "loadObject",
           "package": "gitlib",
@@ -5354,6 +5807,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "loadObject",
           "normalized": "ObjectOid a-\u003eb(Object a b)",
@@ -5369,6 +5823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "lookupBlob",
           "package": "gitlib",
@@ -5378,6 +5833,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "lookupBlob",
           "normalized": "BlobOid a-\u003eb(Blob a b)",
@@ -5393,6 +5849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "lookupCommit",
           "package": "gitlib",
@@ -5402,6 +5859,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "lookupCommit",
           "normalized": "CommitOid a-\u003eb(Commit a)",
@@ -5417,6 +5875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "lookupCommitParents",
           "package": "gitlib",
@@ -5426,6 +5885,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "lookupCommitParents",
           "normalized": "Commit a-\u003eb[Commit a]",
@@ -5441,6 +5901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "lookupObject",
           "package": "gitlib",
@@ -5450,6 +5911,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "lookupObject",
           "normalized": "Oid a-\u003eb(Object a b)",
@@ -5465,6 +5927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "lookupReference",
           "package": "gitlib",
@@ -5474,6 +5937,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "lookupReference",
           "normalized": "RefName-\u003ea(Maybe(RefTarget b))",
@@ -5489,6 +5953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "lookupTag",
           "package": "gitlib",
@@ -5498,6 +5963,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "lookupTag",
           "normalized": "TagOid a-\u003eb(Tag a)",
@@ -5513,6 +5979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "lookupTree",
           "package": "gitlib",
@@ -5522,6 +5989,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "lookupTree",
           "normalized": "TreeOid a-\u003eb(Tree a)",
@@ -5537,6 +6005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "mergeCommit",
           "package": "gitlib",
@@ -5546,6 +6015,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "mergeCommit",
           "package": "gitlib",
@@ -5559,6 +6029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "mergeConflicts",
           "package": "gitlib",
@@ -5568,6 +6039,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "mergeConflicts",
           "normalized": "Map TreeFilePath(ModificationKind,ModificationKind)",
@@ -5583,6 +6055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "mergeHeadLeft",
           "package": "gitlib",
@@ -5592,6 +6065,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "mergeHeadLeft",
           "package": "gitlib",
@@ -5605,6 +6079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "mergeHeadRight",
           "package": "gitlib",
@@ -5614,6 +6089,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "mergeHeadRight",
           "package": "gitlib",
@@ -5627,6 +6103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "mergeStatus",
           "package": "gitlib",
@@ -5636,6 +6113,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "mergeStatus",
           "normalized": "ModificationKind-\u003eModificationKind-\u003eMergeStatus",
@@ -5651,6 +6129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "newTreeBuilder",
           "package": "gitlib",
@@ -5660,6 +6139,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "newTreeBuilder",
           "normalized": "Maybe(Tree a)-\u003eb(TreeBuilder a b)",
@@ -5675,6 +6155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "objectOid",
           "package": "gitlib",
@@ -5684,6 +6165,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "objectOid",
           "normalized": "Object a b-\u003eb(Oid a)",
@@ -5699,6 +6181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "objectToObjOid",
           "package": "gitlib",
@@ -5708,6 +6191,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "objectToObjOid",
           "normalized": "Object a b-\u003eb(ObjectOid a)",
@@ -5723,6 +6207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "openRepository",
           "package": "gitlib",
@@ -5732,6 +6217,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "openRepository",
           "normalized": "RepositoryOptions-\u003ea b",
@@ -5747,6 +6233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "parseObjOid",
           "package": "gitlib",
@@ -5756,6 +6243,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "parseObjOid",
           "normalized": "a b Text-\u003ec(Tagged d(Oid e))",
@@ -5771,6 +6259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "parseOid",
           "package": "gitlib",
@@ -5780,6 +6269,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "parseOid",
           "normalized": "Text-\u003ea(Oid b)",
@@ -5795,6 +6285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "renderObjOid",
           "package": "gitlib",
@@ -5804,6 +6295,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "renderObjOid",
           "normalized": "Tagged a b-\u003eText",
@@ -5819,6 +6311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "renderOid",
           "package": "gitlib",
@@ -5828,6 +6321,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "renderOid",
           "normalized": "a-\u003eText",
@@ -5843,6 +6337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "repoAutoCreate",
           "package": "gitlib",
@@ -5852,6 +6347,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "repoAutoCreate",
           "package": "gitlib",
@@ -5865,6 +6361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "repoIsBare",
           "package": "gitlib",
@@ -5874,6 +6371,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "repoIsBare",
           "package": "gitlib",
@@ -5887,6 +6385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "repoPath",
           "package": "gitlib",
@@ -5896,6 +6395,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "repoPath",
           "package": "gitlib",
@@ -5909,6 +6409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "runRepository",
           "package": "gitlib",
@@ -5918,6 +6419,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "runRepository",
           "normalized": "a b c-\u003ed e-\u003ef e",
@@ -5933,6 +6435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "shaToText",
           "package": "gitlib",
@@ -5942,6 +6445,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "shaToText",
           "normalized": "SHA-\u003eText",
@@ -5957,6 +6461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "signatureEmail",
           "package": "gitlib",
@@ -5966,6 +6471,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "signatureEmail",
           "package": "gitlib",
@@ -5979,6 +6485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "signatureName",
           "package": "gitlib",
@@ -5988,6 +6495,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "signatureName",
           "package": "gitlib",
@@ -6001,6 +6509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "signatureWhen",
           "package": "gitlib",
@@ -6010,6 +6519,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "signatureWhen",
           "package": "gitlib",
@@ -6023,6 +6533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "sourceCommitParents",
           "package": "gitlib",
@@ -6032,6 +6543,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "sourceCommitParents",
           "normalized": "Commit a-\u003eProducer b(Commit a)",
@@ -6047,6 +6559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "sourceObjects",
           "package": "gitlib",
@@ -6056,6 +6569,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "sourceObjects",
           "package": "gitlib",
@@ -6069,6 +6583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "sourceReferences",
           "package": "gitlib",
@@ -6078,6 +6593,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "sourceReferences",
           "package": "gitlib",
@@ -6091,6 +6607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "sourceTreeEntries",
           "package": "gitlib",
@@ -6100,6 +6617,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "sourceTreeEntries",
           "normalized": "Tree a-\u003eProducer b(TreeFilePath,TreeEntry a)",
@@ -6115,6 +6633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "tagCommit",
           "package": "gitlib",
@@ -6124,6 +6643,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "tagCommit",
           "package": "gitlib",
@@ -6137,6 +6657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "tagOid",
           "package": "gitlib",
@@ -6146,6 +6667,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "tagOid",
           "package": "gitlib",
@@ -6159,6 +6681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "textToSha",
           "package": "gitlib",
@@ -6168,6 +6691,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "textToSha",
           "normalized": "Text-\u003ea SHA",
@@ -6183,6 +6707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "treeEntry",
           "package": "gitlib",
@@ -6192,6 +6717,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "treeEntry",
           "normalized": "Tree a-\u003eTreeFilePath-\u003eb(Maybe(TreeEntry a))",
@@ -6207,6 +6733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "treeEntryOid",
           "package": "gitlib",
@@ -6216,6 +6743,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "treeEntryOid",
           "package": "gitlib",
@@ -6229,6 +6757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "treeEntryToOid",
           "package": "gitlib",
@@ -6238,6 +6767,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "treeEntryToOid",
           "normalized": "TreeEntry a-\u003eOid a",
@@ -6253,6 +6783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "treeOid",
           "package": "gitlib",
@@ -6262,6 +6793,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "treeOid",
           "normalized": "Tree a-\u003eb(TreeOid a)",
@@ -6277,6 +6809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "untagObjOid",
           "package": "gitlib",
@@ -6286,6 +6819,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "untagObjOid",
           "normalized": "ObjectOid a-\u003eOid a",
@@ -6301,6 +6835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Types",
           "name": "updateReference",
           "package": "gitlib",
@@ -6310,6 +6845,7 @@
         },
         "index": {
           "hierarchy": "Git Types",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Types",
           "name": "updateReference",
           "normalized": "RefName-\u003eRefTarget a-\u003eb()",
@@ -6325,6 +6861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Utils",
           "name": "Utils",
           "package": "gitlib",
@@ -6333,6 +6870,7 @@
         },
         "index": {
           "hierarchy": "Git Utils",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Utils",
           "name": "Utils",
           "package": "gitlib",
@@ -6346,6 +6884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Working",
           "name": "Working",
           "package": "gitlib",
@@ -6354,6 +6893,7 @@
         },
         "index": {
           "hierarchy": "Git Working",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Working",
           "name": "Working",
           "package": "gitlib",
@@ -6367,6 +6907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git.Working",
           "name": "checkoutFiles",
           "package": "gitlib",
@@ -6376,6 +6917,7 @@
         },
         "index": {
           "hierarchy": "Git Working",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git.Working",
           "name": "checkoutFiles",
           "normalized": "FilePath-\u003eTree a-\u003e(TreeFilePath-\u003eEither String FilePath)-\u003eBool-\u003eb()",
@@ -6392,6 +6934,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface for working with Git repositories.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:29 UTC 2014",
           "module": "Git",
           "name": "Git",
           "package": "gitlib",
@@ -6401,6 +6944,7 @@
         "index": {
           "description": "Interface for working with Git repositories",
           "hierarchy": "Git",
+          "indexed": "2014-03-11T18:17:29",
           "module": "Git",
           "name": "Git",
           "package": "gitlib",

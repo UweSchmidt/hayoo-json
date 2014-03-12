@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "type-ord-spine-cereal"
+        "phrase": "type-ord-spine-cereal",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric type-level comparison of \u003ccode\u003etype-spine\u003c/code\u003e- and \u003ccode\u003etype-cereal\u003c/code\u003e-enabled types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:51 UTC 2014",
           "module": "Type.Ord.SpineSerialize",
           "name": "SpineSerialize",
           "package": "type-ord-spine-cereal",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Generic type-level comparison of type-spine and type-cereal enabled types",
           "hierarchy": "Type Ord SpineSerialize",
+          "indexed": "2014-03-11T20:27:51",
           "module": "Type.Ord.SpineSerialize",
           "name": "SpineSerialize",
           "package": "type-ord-spine-cereal",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:51 UTC 2014",
           "module": "Type.Ord.SpineSerialize",
           "name": "Compare",
           "package": "type-ord-spine-cereal",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Type Ord SpineSerialize",
+          "indexed": "2014-03-11T20:27:51",
           "module": "Type.Ord.SpineSerialize",
           "name": "Compare",
           "package": "type-ord-spine-cereal",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:51 UTC 2014",
           "module": "Type.Ord.SpineSerialize",
           "name": "SpineCompare",
           "package": "type-ord-spine-cereal",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Type Ord SpineSerialize",
+          "indexed": "2014-03-11T20:27:51",
           "module": "Type.Ord.SpineSerialize",
           "name": "SpineCompare",
           "package": "type-ord-spine-cereal",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:51 UTC 2014",
           "module": "Type.Ord.SpineSerialize",
           "name": "spineSerializeType",
           "package": "type-ord-spine-cereal",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Type Ord SpineSerialize",
+          "indexed": "2014-03-11T20:27:51",
           "module": "Type.Ord.SpineSerialize",
           "name": "spineSerializeType",
           "normalized": "Name-\u003eQ[Dec]",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:51 UTC 2014",
           "module": "Type.Ord.SpineSerialize",
           "name": "spineSerializeTypeAsHash",
           "package": "type-ord-spine-cereal",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Type Ord SpineSerialize",
+          "indexed": "2014-03-11T20:27:51",
           "module": "Type.Ord.SpineSerialize",
           "name": "spineSerializeTypeAsHash",
           "normalized": "Name-\u003eQ[Dec]",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:51 UTC 2014",
           "module": "Type.Ord.SpineSerialize",
           "name": "spineSerializeTypeAsHash_pro",
           "package": "type-ord-spine-cereal",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Type Ord SpineSerialize",
+          "indexed": "2014-03-11T20:27:51",
           "module": "Type.Ord.SpineSerialize",
           "name": "spineSerializeTypeAsHash_pro",
           "normalized": "Name-\u003eQ[Dec]",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:51 UTC 2014",
           "module": "Type.Ord.SpineSerialize",
           "name": "spineSerializeType_pro",
           "package": "type-ord-spine-cereal",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Type Ord SpineSerialize",
+          "indexed": "2014-03-11T20:27:51",
           "module": "Type.Ord.SpineSerialize",
           "name": "spineSerializeType_pro",
           "normalized": "Name-\u003eQ[Dec]",

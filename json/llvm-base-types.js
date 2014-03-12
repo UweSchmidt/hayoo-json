@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "llvm-base-types"
+        "phrase": "llvm-base-types",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:13 UTC 2014",
           "module": "Data.LLVM.Internal.Paths",
           "name": "Paths",
           "package": "llvm-base-types",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data LLVM Internal Paths",
+          "indexed": "2014-03-11T19:11:13",
           "module": "Data.LLVM.Internal.Paths",
           "name": "Paths",
           "package": "llvm-base-types",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:13 UTC 2014",
           "module": "Data.LLVM.Internal.Paths",
           "name": "getDataFileName",
           "package": "llvm-base-types",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data LLVM Internal Paths",
+          "indexed": "2014-03-11T19:11:13",
           "module": "Data.LLVM.Internal.Paths",
           "name": "getDataFileName",
           "normalized": "FilePath-\u003eIO FilePath",

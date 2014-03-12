@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "KiCS-debugger"
+        "phrase": "KiCS-debugger",
+        "type": "phrase"
       },
       "type": "context"
     }

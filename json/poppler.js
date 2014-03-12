@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "poppler"
+        "phrase": "poppler",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Action",
           "name": "Action",
           "package": "poppler",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Action",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Action",
           "name": "Action",
           "package": "poppler",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Action",
           "name": "Action",
           "package": "poppler",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Action",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Action",
           "name": "Action",
           "package": "poppler",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Action",
           "name": "Dest",
           "package": "poppler",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Action",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Action",
           "name": "Dest",
           "package": "poppler",
@@ -82,6 +88,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopies action, creating an identical \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Action",
           "name": "actionCopy",
           "package": "poppler",
@@ -92,6 +99,7 @@
         "index": {
           "description": "Copies action creating an identical Action",
           "hierarchy": "Graphics UI Gtk Poppler Action",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Action",
           "name": "actionCopy",
           "normalized": "Action-\u003eIO Action",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopies dest, creating an identical \u003ccode\u003e\u003ca\u003eDest\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Action",
           "name": "destCopy",
           "package": "poppler",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Copies dest creating an identical Dest",
           "hierarchy": "Graphics UI Gtk Poppler Action",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Action",
           "name": "destCopy",
           "normalized": "Dest-\u003eIO Dest",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Action",
           "name": "makeNewAction",
           "package": "poppler",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Action",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Action",
           "name": "makeNewAction",
           "normalized": "Ptr Action-\u003eIO Action",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Action",
           "name": "makeNewDest",
           "package": "poppler",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Action",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Action",
           "name": "makeNewDest",
           "normalized": "Ptr Dest-\u003eIO Dest",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Attachment",
           "name": "Attachment",
           "package": "poppler",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Attachment",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Attachment",
           "name": "Attachment",
           "package": "poppler",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Attachment",
           "name": "Attachment",
           "package": "poppler",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Attachment",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Attachment",
           "name": "Attachment",
           "package": "poppler",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Attachment",
           "name": "AttachmentClass",
           "package": "poppler",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Attachment",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Attachment",
           "name": "AttachmentClass",
           "package": "poppler",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Attachment",
           "name": "AttachmentSave",
           "package": "poppler",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Attachment",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Attachment",
           "name": "AttachmentSave",
           "package": "poppler",
@@ -266,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSaves \u003ccode\u003eattachment\u003c/code\u003e to a file indicated by \u003ccode\u003efilename\u003c/code\u003e.\n Return \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the file successfully saved\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Attachment",
           "name": "attachmentSave",
           "package": "poppler",
@@ -275,6 +298,7 @@
         "index": {
           "description": "Saves attachment to file indicated by filename Return True if the file successfully saved",
           "hierarchy": "Graphics UI Gtk Poppler Attachment",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Attachment",
           "name": "attachmentSave",
           "normalized": "a-\u003eString-\u003eIO Bool",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Attachment",
           "name": "attachmentSaveToCallback",
           "package": "poppler",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Attachment",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Attachment",
           "name": "attachmentSaveToCallback",
           "normalized": "a-\u003eAttachmentSave-\u003eIO Bool",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "Document",
           "package": "poppler",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "Document",
           "package": "poppler",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "Action",
           "package": "poppler",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "Action",
           "package": "poppler",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "Dest",
           "package": "poppler",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "Dest",
           "package": "poppler",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "Document",
           "package": "poppler",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "Document",
           "package": "poppler",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "DocumentClass",
           "package": "poppler",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "DocumentClass",
           "package": "poppler",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontInfo",
           "package": "poppler",
@@ -427,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontInfo",
           "package": "poppler",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontInfoClass",
           "package": "poppler",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontInfoClass",
           "package": "poppler",
@@ -461,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontType",
           "package": "poppler",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontType",
           "package": "poppler",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontsIter",
           "package": "poppler",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontsIter",
           "package": "poppler",
@@ -503,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontsIterClass",
           "package": "poppler",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontsIterClass",
           "package": "poppler",
@@ -524,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FormField",
           "package": "poppler",
@@ -532,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FormField",
           "package": "poppler",
@@ -545,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "IndexIter",
           "package": "poppler",
@@ -553,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "IndexIter",
           "package": "poppler",
@@ -566,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PSFile",
           "package": "poppler",
@@ -574,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PSFile",
           "package": "poppler",
@@ -587,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PSFileClass",
           "package": "poppler",
@@ -595,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PSFileClass",
           "package": "poppler",
@@ -608,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "Page",
           "package": "poppler",
@@ -616,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "Page",
           "package": "poppler",
@@ -629,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageClass",
           "package": "poppler",
@@ -637,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageClass",
           "package": "poppler",
@@ -650,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageLayout",
           "package": "poppler",
@@ -658,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageLayout",
           "package": "poppler",
@@ -671,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageMode",
           "package": "poppler",
@@ -679,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageMode",
           "package": "poppler",
@@ -692,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "Permissions",
           "package": "poppler",
@@ -700,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "Permissions",
           "package": "poppler",
@@ -713,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "ViewerPreferences",
           "package": "poppler",
@@ -721,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "ViewerPreferences",
           "package": "poppler",
@@ -734,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeCidType0",
           "package": "poppler",
@@ -743,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeCidType0",
           "package": "poppler",
@@ -756,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeCidType0c",
           "package": "poppler",
@@ -765,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeCidType0c",
           "package": "poppler",
@@ -778,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeCidType0cot",
           "package": "poppler",
@@ -787,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeCidType0cot",
           "package": "poppler",
@@ -800,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeCidType2",
           "package": "poppler",
@@ -809,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeCidType2",
           "package": "poppler",
@@ -822,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeCidType2ot",
           "package": "poppler",
@@ -831,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeCidType2ot",
           "package": "poppler",
@@ -844,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeTruetype",
           "package": "poppler",
@@ -853,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeTruetype",
           "package": "poppler",
@@ -866,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeTruetypeot",
           "package": "poppler",
@@ -875,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeTruetypeot",
           "package": "poppler",
@@ -888,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeType1",
           "package": "poppler",
@@ -897,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeType1",
           "package": "poppler",
@@ -910,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeType1c",
           "package": "poppler",
@@ -919,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeType1c",
           "package": "poppler",
@@ -932,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeType1cot",
           "package": "poppler",
@@ -941,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeType1cot",
           "package": "poppler",
@@ -954,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeType3",
           "package": "poppler",
@@ -963,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeType3",
           "package": "poppler",
@@ -976,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeUnknown",
           "package": "poppler",
@@ -985,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "FontTypeUnknown",
           "package": "poppler",
@@ -998,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageLayoutOneColumn",
           "package": "poppler",
@@ -1007,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageLayoutOneColumn",
           "package": "poppler",
@@ -1020,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageLayoutSinglePage",
           "package": "poppler",
@@ -1029,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageLayoutSinglePage",
           "package": "poppler",
@@ -1042,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageLayoutTwoColumnLeft",
           "package": "poppler",
@@ -1051,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageLayoutTwoColumnLeft",
           "package": "poppler",
@@ -1064,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageLayoutTwoColumnRight",
           "package": "poppler",
@@ -1073,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageLayoutTwoColumnRight",
           "package": "poppler",
@@ -1086,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageLayoutTwoPageLeft",
           "package": "poppler",
@@ -1095,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageLayoutTwoPageLeft",
           "package": "poppler",
@@ -1108,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageLayoutTwoPageRight",
           "package": "poppler",
@@ -1117,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageLayoutTwoPageRight",
           "package": "poppler",
@@ -1130,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageLayoutUnset",
           "package": "poppler",
@@ -1139,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageLayoutUnset",
           "package": "poppler",
@@ -1152,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageModeFullScreen",
           "package": "poppler",
@@ -1161,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageModeFullScreen",
           "package": "poppler",
@@ -1174,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageModeNone",
           "package": "poppler",
@@ -1183,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageModeNone",
           "package": "poppler",
@@ -1196,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageModeUnset",
           "package": "poppler",
@@ -1205,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageModeUnset",
           "package": "poppler",
@@ -1218,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageModeUseAttachments",
           "package": "poppler",
@@ -1227,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageModeUseAttachments",
           "package": "poppler",
@@ -1240,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageModeUseOc",
           "package": "poppler",
@@ -1249,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageModeUseOc",
           "package": "poppler",
@@ -1262,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageModeUseOutlines",
           "package": "poppler",
@@ -1271,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageModeUseOutlines",
           "package": "poppler",
@@ -1284,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageModeUseThumbs",
           "package": "poppler",
@@ -1293,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PageModeUseThumbs",
           "package": "poppler",
@@ -1306,6 +1424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PermissionsFull",
           "package": "poppler",
@@ -1315,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PermissionsFull",
           "package": "poppler",
@@ -1328,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PermissionsOkToAddNotes",
           "package": "poppler",
@@ -1337,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PermissionsOkToAddNotes",
           "package": "poppler",
@@ -1350,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PermissionsOkToAssemble",
           "package": "poppler",
@@ -1359,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PermissionsOkToAssemble",
           "package": "poppler",
@@ -1372,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PermissionsOkToCopy",
           "package": "poppler",
@@ -1381,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PermissionsOkToCopy",
           "package": "poppler",
@@ -1394,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PermissionsOkToExtractContents",
           "package": "poppler",
@@ -1403,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PermissionsOkToExtractContents",
           "package": "poppler",
@@ -1416,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PermissionsOkToFillForm",
           "package": "poppler",
@@ -1425,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PermissionsOkToFillForm",
           "package": "poppler",
@@ -1438,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PermissionsOkToModify",
           "package": "poppler",
@@ -1447,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PermissionsOkToModify",
           "package": "poppler",
@@ -1460,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PermissionsOkToPrint",
           "package": "poppler",
@@ -1469,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PermissionsOkToPrint",
           "package": "poppler",
@@ -1482,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PermissionsOkToPrintHighResolution",
           "package": "poppler",
@@ -1491,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "PermissionsOkToPrintHighResolution",
           "package": "poppler",
@@ -1504,6 +1640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "ViewerPreferencesCenterWindow",
           "package": "poppler",
@@ -1513,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "ViewerPreferencesCenterWindow",
           "package": "poppler",
@@ -1526,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "ViewerPreferencesDirectionRtl",
           "package": "poppler",
@@ -1535,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "ViewerPreferencesDirectionRtl",
           "package": "poppler",
@@ -1548,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "ViewerPreferencesDisplayDocTitle",
           "package": "poppler",
@@ -1557,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "ViewerPreferencesDisplayDocTitle",
           "package": "poppler",
@@ -1570,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "ViewerPreferencesFitWindow",
           "package": "poppler",
@@ -1579,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "ViewerPreferencesFitWindow",
           "package": "poppler",
@@ -1592,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "ViewerPreferencesHideMenubar",
           "package": "poppler",
@@ -1601,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "ViewerPreferencesHideMenubar",
           "package": "poppler",
@@ -1614,6 +1760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "ViewerPreferencesHideToolbar",
           "package": "poppler",
@@ -1623,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "ViewerPreferencesHideToolbar",
           "package": "poppler",
@@ -1636,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "ViewerPreferencesHideWindowui",
           "package": "poppler",
@@ -1645,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "ViewerPreferencesHideWindowui",
           "package": "poppler",
@@ -1658,6 +1808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "ViewerPreferencesUnset",
           "package": "poppler",
@@ -1667,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "ViewerPreferencesUnset",
           "package": "poppler",
@@ -1681,6 +1833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe author of the document.\n\u003c/p\u003e\u003cp\u003eDefault value: \"\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentAuthor",
           "package": "poppler",
@@ -1691,6 +1844,7 @@
         "index": {
           "description": "The author of the document Default value",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentAuthor",
           "package": "poppler",
@@ -1705,6 +1859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe date and time the document was created.\n\u003c/p\u003e\u003cp\u003eAllowed values: \u003e= 0\n\u003c/p\u003e\u003cp\u003eDefault value: 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentCreationDate",
           "package": "poppler",
@@ -1715,6 +1870,7 @@
         "index": {
           "description": "The date and time the document was created Allowed values Default value",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentCreationDate",
           "package": "poppler",
@@ -1729,6 +1885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe software that created the document.\n\u003c/p\u003e\u003cp\u003eDefault value: \"\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentCreator",
           "package": "poppler",
@@ -1739,6 +1896,7 @@
         "index": {
           "description": "The software that created the document Default value",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentCreator",
           "package": "poppler",
@@ -1753,6 +1911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds named destination \u003ccode\u003elinkName\u003c/code\u003e in document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentFindDest",
           "package": "poppler",
@@ -1762,6 +1921,7 @@
         "index": {
           "description": "Finds named destination linkName in document",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentFindDest",
           "normalized": "a-\u003eString-\u003eIO(Maybe Dest)",
@@ -1778,6 +1938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe PDF version of the document.\n\u003c/p\u003e\u003cp\u003eDefault value: \"\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentFormat",
           "package": "poppler",
@@ -1788,6 +1949,7 @@
         "index": {
           "description": "The PDF version of the document Default value",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentFormat",
           "package": "poppler",
@@ -1802,6 +1964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe PDF major version number of the document.\n\u003c/p\u003e\u003cp\u003eDefault value: 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentFormatMajor",
           "package": "poppler",
@@ -1812,6 +1975,7 @@
         "index": {
           "description": "The PDF major version number of the document Default value",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentFormatMajor",
           "package": "poppler",
@@ -1826,6 +1990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe PDF minor version number of the document.\n\u003c/p\u003e\u003cp\u003eDefault value: 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentFormatMinor",
           "package": "poppler",
@@ -1836,6 +2001,7 @@
         "index": {
           "description": "The PDF minor version number of the document Default value",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentFormatMinor",
           "package": "poppler",
@@ -1850,6 +2016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a GList containing \u003ccode\u003e\u003ca\u003eAttachment\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentGetAttachments",
           "package": "poppler",
@@ -1860,6 +2027,7 @@
         "index": {
           "description": "Returns GList containing Attachment",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentGetAttachments",
           "normalized": "a-\u003eIO[Attachment]",
@@ -1876,6 +2044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the \u003ccode\u003e\u003ca\u003eFormField\u003c/a\u003e\u003c/code\u003e for the given id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentGetFormField",
           "package": "poppler",
@@ -1885,6 +2054,7 @@
         "index": {
           "description": "Returns the FormField for the given id",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentGetFormField",
           "normalized": "a-\u003eInt-\u003eIO(Maybe FormField)",
@@ -1901,6 +2071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of pages in a loaded document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentGetNPages",
           "package": "poppler",
@@ -1910,6 +2081,7 @@
         "index": {
           "description": "Returns the number of pages in loaded document",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentGetNPages",
           "normalized": "a-\u003eIO Int",
@@ -1926,6 +2098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the \u003ccode\u003e\u003ca\u003ePage\u003c/a\u003e\u003c/code\u003e indexed at index. This object is owned by the caller.\n | \u003ccode\u003e\u003ca\u003ePage\u003c/a\u003e\u003c/code\u003es are indexed starting at 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentGetPage",
           "package": "poppler",
@@ -1935,6 +2108,7 @@
         "index": {
           "description": "Returns the Page indexed at index This object is owned by the caller Page are indexed starting at",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentGetPage",
           "normalized": "a-\u003eInt-\u003eIO Page",
@@ -1951,6 +2125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the \u003ccode\u003e\u003ca\u003ePage\u003c/a\u003e\u003c/code\u003e reference by label. This object is owned by the caller. label is a\n human-readable string representation of the page number, and can be document specific. Typically, it\n is a value such as \u003ca\u003eiii\u003c/a\u003e or \u003ca\u003e3\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eBy default, \u003ca\u003e1\u003c/a\u003e refers to the first page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentGetPageByLabel",
           "package": "poppler",
@@ -1960,6 +2135,7 @@
         "index": {
           "description": "Returns the Page reference by label This object is owned by the caller label is human-readable string representation of the page number and can be document specific Typically it is value such as iii or By default refers to the first page",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentGetPageByLabel",
           "normalized": "a-\u003eString-\u003eIO Page",
@@ -1976,6 +2152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e of document has any attachments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentHasAttachments",
           "package": "poppler",
@@ -1985,6 +2162,7 @@
         "index": {
           "description": "Returns True of document has any attachments",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentHasAttachments",
           "normalized": "a-\u003eIO Bool",
@@ -2001,6 +2179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeywords.\n\u003c/p\u003e\u003cp\u003eDefault value: \"\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentKeywords",
           "package": "poppler",
@@ -2011,6 +2190,7 @@
         "index": {
           "description": "Keywords Default value",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentKeywords",
           "package": "poppler",
@@ -2025,6 +2205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe label of the page.\n\u003c/p\u003e\u003cp\u003eDefault value: \"\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentLabel",
           "package": "poppler",
@@ -2035,6 +2216,7 @@
         "index": {
           "description": "The label of the page Default value",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentLabel",
           "package": "poppler",
@@ -2049,6 +2231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the document optimized for web viewing?.\n\u003c/p\u003e\u003cp\u003eDefault value: \"\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentLinearized",
           "package": "poppler",
@@ -2059,6 +2242,7 @@
         "index": {
           "description": "Is the document optimized for web viewing Default value",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentLinearized",
           "package": "poppler",
@@ -2073,6 +2257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbedded XML metadata.\n\u003c/p\u003e\u003cp\u003eDefault value: \"\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentMetadata",
           "package": "poppler",
@@ -2083,6 +2268,7 @@
         "index": {
           "description": "Embedded XML metadata Default value",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentMetadata",
           "package": "poppler",
@@ -2097,6 +2283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe date and time the document was modified.\n\u003c/p\u003e\u003cp\u003eAllowed values: \u003e= 0\n\u003c/p\u003e\u003cp\u003eDefault value: 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentModDate",
           "package": "poppler",
@@ -2107,6 +2294,7 @@
         "index": {
           "description": "The date and time the document was modified Allowed values Default value",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentModDate",
           "package": "poppler",
@@ -2121,6 +2309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new \u003ccode\u003e\u003ca\u003eDocument\u003c/a\u003e\u003c/code\u003e. If \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is returned, then error will be set. Possible errors include\n those in the \u003ccode\u003eError\u003c/code\u003e and GFileError domains.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentNewFromData",
           "package": "poppler",
@@ -2130,6 +2319,7 @@
         "index": {
           "description": "Creates new Document If Nothing is returned then error will be set Possible errors include those in the Error and GFileError domains",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentNewFromData",
           "normalized": "String-\u003eMaybe String-\u003eIO(Maybe Document)",
@@ -2146,6 +2336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new \u003ccode\u003e\u003ca\u003eDocument\u003c/a\u003e\u003c/code\u003e. If \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is returned, then error will be set. Possible errors include\n those in the \u003ccode\u003eError\u003c/code\u003e and GFileError domains.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentNewFromFile",
           "package": "poppler",
@@ -2155,6 +2346,7 @@
         "index": {
           "description": "Creates new Document If Nothing is returned then error will be set Possible errors include those in the Error and GFileError domains",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentNewFromFile",
           "normalized": "String-\u003eMaybe String-\u003eIO(Maybe Document)",
@@ -2171,6 +2363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitial Page Layout.\n\u003c/p\u003e\u003cp\u003eDefault value: \u003ccode\u003e\u003ca\u003ePageLayoutUnset\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentPageLayout",
           "package": "poppler",
@@ -2181,6 +2374,7 @@
         "index": {
           "description": "Initial Page Layout Default value PageLayoutUnset",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentPageLayout",
           "package": "poppler",
@@ -2195,6 +2389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePage Mode.\n\u003c/p\u003e\u003cp\u003eDefault value: \u003ccode\u003e\u003ca\u003ePageModeUnset\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentPageMode",
           "package": "poppler",
@@ -2205,6 +2400,7 @@
         "index": {
           "description": "Page Mode Default value PageModeUnset",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentPageMode",
           "package": "poppler",
@@ -2219,6 +2415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePermissions.\n\u003c/p\u003e\u003cp\u003eDefault value: \u003ccode\u003e\u003ca\u003ePermissionsFull\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentPermissions",
           "package": "poppler",
@@ -2229,6 +2426,7 @@
         "index": {
           "description": "Permissions Default value PermissionsFull",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentPermissions",
           "package": "poppler",
@@ -2243,6 +2441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe software that converted the document.\n\u003c/p\u003e\u003cp\u003eDefault value: \"\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentProducer",
           "package": "poppler",
@@ -2253,6 +2452,7 @@
         "index": {
           "description": "The software that converted the document Default value",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentProducer",
           "package": "poppler",
@@ -2267,6 +2467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSaves document. Any change made in the document such as form fields filled by the user will be\n saved. If error is set, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e will be returned. Possible errors include those in the GFileError\n domain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentSave",
           "package": "poppler",
@@ -2276,6 +2477,7 @@
         "index": {
           "description": "Saves document Any change made in the document such as form fields filled by the user will be saved If error is set False will be returned Possible errors include those in the GFileError domain",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentSave",
           "normalized": "a-\u003eString-\u003eIO Bool",
@@ -2292,6 +2494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubjects the document touches.\n\u003c/p\u003e\u003cp\u003eDefault value: \"\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentSubject",
           "package": "poppler",
@@ -2302,6 +2505,7 @@
         "index": {
           "description": "Subjects the document touches Default value",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentSubject",
           "package": "poppler",
@@ -2316,6 +2520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe title of the document.\n\u003c/p\u003e\u003cp\u003eDefault value: \"\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentTitle",
           "package": "poppler",
@@ -2326,6 +2531,7 @@
         "index": {
           "description": "The title of the document Default value",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentTitle",
           "package": "poppler",
@@ -2340,6 +2546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eViewer Preferences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentViewerPreferences",
           "package": "poppler",
@@ -2350,6 +2557,7 @@
         "index": {
           "description": "Viewer Preferences",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "documentViewerPreferences",
           "package": "poppler",
@@ -2363,6 +2571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "fontInfoNew",
           "package": "poppler",
@@ -2372,6 +2581,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "fontInfoNew",
           "normalized": "a-\u003eIO FontInfo",
@@ -2387,6 +2597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "fontsIterCopy",
           "package": "poppler",
@@ -2396,6 +2607,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "fontsIterCopy",
           "normalized": "a-\u003eIO FontsIter",
@@ -2411,6 +2623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "fontsIterGetFontType",
           "package": "poppler",
@@ -2420,6 +2633,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "fontsIterGetFontType",
           "normalized": "a-\u003eIO FontType",
@@ -2435,6 +2649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "fontsIterGetFullName",
           "package": "poppler",
@@ -2444,6 +2659,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "fontsIterGetFullName",
           "normalized": "a-\u003eIO String",
@@ -2459,6 +2675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "fontsIterGetName",
           "package": "poppler",
@@ -2468,6 +2685,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "fontsIterGetName",
           "normalized": "a-\u003eIO String",
@@ -2483,6 +2701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "fontsIterIsEmbedded",
           "package": "poppler",
@@ -2492,6 +2711,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "fontsIterIsEmbedded",
           "normalized": "a-\u003eIO Bool",
@@ -2507,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "fontsIterIsSubset",
           "package": "poppler",
@@ -2516,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "fontsIterIsSubset",
           "normalized": "a-\u003eIO Bool",
@@ -2531,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "fontsIterNext",
           "package": "poppler",
@@ -2539,6 +2762,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "fontsIterNext",
           "normalized": "a-\u003eIO Bool",
@@ -2555,6 +2779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new \u003ccode\u003e\u003ca\u003eIndexIter\u003c/a\u003e\u003c/code\u003e as a copy of iter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "indexIterCopy",
           "package": "poppler",
@@ -2565,6 +2790,7 @@
         "index": {
           "description": "Creates new IndexIter as copy of iter",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "indexIterCopy",
           "normalized": "IndexIter-\u003eIO IndexIter",
@@ -2581,6 +2807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e associated with iter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "indexIterGetAction",
           "package": "poppler",
@@ -2591,6 +2818,7 @@
         "index": {
           "description": "Returns the Action associated with iter",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "indexIterGetAction",
           "normalized": "IndexIter-\u003eIO Action",
@@ -2607,6 +2835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a newly created child of parent, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the iter has no child. See\n \u003ccode\u003e\u003ca\u003eindexIterNew\u003c/a\u003e\u003c/code\u003e for more information on this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "indexIterGetChild",
           "package": "poppler",
@@ -2617,6 +2846,7 @@
         "index": {
           "description": "Returns newly created child of parent or Nothing if the iter has no child See indexIterNew for more information on this function",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "indexIterGetChild",
           "normalized": "IndexIter-\u003eIO(Maybe IndexIter)",
@@ -2633,6 +2863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether this node should be expanded by default to the user. The document can provide a hint\n as to how the document's index should be expanded initially.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "indexIterIsOpen",
           "package": "poppler",
@@ -2642,6 +2873,7 @@
         "index": {
           "description": "Returns whether this node should be expanded by default to the user The document can provide hint as to how the document index should be expanded initially",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "indexIterIsOpen",
           "normalized": "IndexIter-\u003eIO Bool",
@@ -2658,6 +2890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the root \u003ccode\u003e\u003ca\u003eIndexIter\u003c/a\u003e\u003c/code\u003e for document, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "indexIterNew",
           "package": "poppler",
@@ -2668,6 +2901,7 @@
         "index": {
           "description": "Returns the root IndexIter for document or Nothing",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "indexIterNew",
           "normalized": "a-\u003eIO(Maybe IndexIter)",
@@ -2684,6 +2918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets iter to point to the next action at the current level, if valid. See \u003ccode\u003e\u003ca\u003eindexIterNew\u003c/a\u003e\u003c/code\u003e\n for more information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "indexIterNext",
           "package": "poppler",
@@ -2693,6 +2928,7 @@
         "index": {
           "description": "Sets iter to point to the next action at the current level if valid See indexIterNew for more information",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "indexIterNext",
           "normalized": "IndexIter-\u003eIO Bool",
@@ -2709,6 +2945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new postscript file to render to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "psFileNew",
           "package": "poppler",
@@ -2718,6 +2955,7 @@
         "index": {
           "description": "Create new postscript file to render to",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "psFileNew",
           "normalized": "a-\u003eString-\u003eInt-\u003eInt-\u003eIO PSFile",
@@ -2734,6 +2972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable or disable Duplex printing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "psFileSetDuplex",
           "package": "poppler",
@@ -2743,6 +2982,7 @@
         "index": {
           "description": "Enable or disable Duplex printing",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "psFileSetDuplex",
           "normalized": "a-\u003eBool-\u003eIO()",
@@ -2759,6 +2999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the output paper size. These values will end up in the DocumentMedia, the BoundingBox DSC\n comments and other places in the generated PostScript.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "psFileSetPaperSize",
           "package": "poppler",
@@ -2768,6 +3009,7 @@
         "index": {
           "description": "Set the output paper size These values will end up in the DocumentMedia the BoundingBox DSC comments and other places in the generated PostScript",
           "hierarchy": "Graphics UI Gtk Poppler Document",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Document",
           "name": "psFileSetPaperSize",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -2783,6 +3025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormField",
           "package": "poppler",
@@ -2791,6 +3034,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormField",
           "package": "poppler",
@@ -2804,6 +3048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormButtonType",
           "package": "poppler",
@@ -2812,6 +3057,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormButtonType",
           "package": "poppler",
@@ -2825,6 +3071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormChoiceType",
           "package": "poppler",
@@ -2833,6 +3080,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormChoiceType",
           "package": "poppler",
@@ -2846,6 +3094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormField",
           "package": "poppler",
@@ -2854,6 +3103,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormField",
           "package": "poppler",
@@ -2867,6 +3117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormFieldClass",
           "package": "poppler",
@@ -2875,6 +3126,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormFieldClass",
           "package": "poppler",
@@ -2888,6 +3140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormFieldType",
           "package": "poppler",
@@ -2896,6 +3149,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormFieldType",
           "package": "poppler",
@@ -2909,6 +3163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormTextType",
           "package": "poppler",
@@ -2917,6 +3172,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormTextType",
           "package": "poppler",
@@ -2930,6 +3186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormButtonCheck",
           "package": "poppler",
@@ -2939,6 +3196,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormButtonCheck",
           "package": "poppler",
@@ -2952,6 +3210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormButtonPush",
           "package": "poppler",
@@ -2961,6 +3220,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormButtonPush",
           "package": "poppler",
@@ -2974,6 +3234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormButtonRadio",
           "package": "poppler",
@@ -2983,6 +3244,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormButtonRadio",
           "package": "poppler",
@@ -2996,6 +3258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormChoiceCombo",
           "package": "poppler",
@@ -3005,6 +3268,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormChoiceCombo",
           "package": "poppler",
@@ -3018,6 +3282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormChoiceList",
           "package": "poppler",
@@ -3027,6 +3292,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormChoiceList",
           "package": "poppler",
@@ -3040,6 +3306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormFieldButton",
           "package": "poppler",
@@ -3049,6 +3316,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormFieldButton",
           "package": "poppler",
@@ -3062,6 +3330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormFieldChoice",
           "package": "poppler",
@@ -3071,6 +3340,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormFieldChoice",
           "package": "poppler",
@@ -3084,6 +3354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormFieldSignature",
           "package": "poppler",
@@ -3093,6 +3364,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormFieldSignature",
           "package": "poppler",
@@ -3106,6 +3378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormFieldText",
           "package": "poppler",
@@ -3115,6 +3388,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormFieldText",
           "package": "poppler",
@@ -3128,6 +3402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormFieldUnknown",
           "package": "poppler",
@@ -3137,6 +3412,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormFieldUnknown",
           "package": "poppler",
@@ -3150,6 +3426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormTextFileSelect",
           "package": "poppler",
@@ -3159,6 +3436,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormTextFileSelect",
           "package": "poppler",
@@ -3172,6 +3450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormTextMultiline",
           "package": "poppler",
@@ -3181,6 +3460,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormTextMultiline",
           "package": "poppler",
@@ -3194,6 +3474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormTextNormal",
           "package": "poppler",
@@ -3203,6 +3484,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "FormTextNormal",
           "package": "poppler",
@@ -3217,6 +3499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the button type of field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldButtonGetButtonType",
           "package": "poppler",
@@ -3226,6 +3509,7 @@
         "index": {
           "description": "Gets the button type of field",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldButtonGetButtonType",
           "normalized": "a-\u003eIO FormButtonType",
@@ -3242,6 +3526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQueries a \u003ccode\u003e\u003ca\u003eFormField\u003c/a\u003e\u003c/code\u003e and returns its current state. Returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if field is pressed in and\n \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e if it is raised.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldButtonGetState",
           "package": "poppler",
@@ -3251,6 +3536,7 @@
         "index": {
           "description": "Queries FormField and returns its current state Returns True if field is pressed in and False if it is raised",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldButtonGetState",
           "normalized": "a-\u003eIO Bool",
@@ -3267,6 +3553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the status of field. Set to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if you want the \u003ccode\u003e\u003ca\u003eFormField\u003c/a\u003e\u003c/code\u003e to be 'pressed in', and \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\n to raise it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldButtonSetState",
           "package": "poppler",
@@ -3277,6 +3564,7 @@
         "index": {
           "description": "Sets the status of field Set to True if you want the FormField to be pressed in and False to raise it",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldButtonSetState",
           "normalized": "a-\u003eBool-\u003eIO()",
@@ -3293,6 +3581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether field allows multiple choices to be selected\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceCanSelectMultiple",
           "package": "poppler",
@@ -3302,6 +3591,7 @@
         "index": {
           "description": "Checks whether field allows multiple choices to be selected",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceCanSelectMultiple",
           "normalized": "a-\u003eIO Bool",
@@ -3317,6 +3607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceCommitOnChange",
           "package": "poppler",
@@ -3326,6 +3617,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceCommitOnChange",
           "normalized": "a-\u003eIO Bool",
@@ -3342,6 +3634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether spell checking should be done for the contents of field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceDoSpellCheck",
           "package": "poppler",
@@ -3351,6 +3644,7 @@
         "index": {
           "description": "Checks whether spell checking should be done for the contents of field",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceDoSpellCheck",
           "normalized": "a-\u003eIO Bool",
@@ -3367,6 +3661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the choice type of field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceGetChoiceType",
           "package": "poppler",
@@ -3376,6 +3671,7 @@
         "index": {
           "description": "Gets the choice type of field",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceGetChoiceType",
           "normalized": "a-\u003eIO FormChoiceType",
@@ -3392,6 +3688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the contents of the item on field at the given index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceGetItem",
           "package": "poppler",
@@ -3401,6 +3698,7 @@
         "index": {
           "description": "Returns the contents of the item on field at the given index",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceGetItem",
           "normalized": "a-\u003eInt-\u003eIO String",
@@ -3417,6 +3715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of items on field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceGetNItems",
           "package": "poppler",
@@ -3426,6 +3725,7 @@
         "index": {
           "description": "Returns the number of items on field",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceGetNItems",
           "normalized": "a-\u003eIO Int",
@@ -3442,6 +3742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the contents of field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceGetText",
           "package": "poppler",
@@ -3452,6 +3753,7 @@
         "index": {
           "description": "Retrieves the contents of field",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceGetText",
           "normalized": "a-\u003eIO String",
@@ -3468,6 +3770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether the item at the given index on field is currently selected\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceIsItemSelected",
           "package": "poppler",
@@ -3477,6 +3780,7 @@
         "index": {
           "description": "Checks whether the item at the given index on field is currently selected",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceIsItemSelected",
           "normalized": "a-\u003eInt-\u003eIO Bool",
@@ -3493,6 +3797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects the item at the given index on field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceSelectItem",
           "package": "poppler",
@@ -3502,6 +3807,7 @@
         "index": {
           "description": "Selects the item at the given index on field",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceSelectItem",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -3517,6 +3823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceSetText",
           "package": "poppler",
@@ -3526,6 +3833,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceSetText",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -3542,6 +3850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToggles the item at the given index on field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceToggleItem",
           "package": "poppler",
@@ -3551,6 +3860,7 @@
         "index": {
           "description": "Toggles the item at the given index on field",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceToggleItem",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -3567,6 +3877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnselects all the items on field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceUnselectAll",
           "package": "poppler",
@@ -3577,6 +3888,7 @@
         "index": {
           "description": "Unselects all the items on field",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldChoiceUnselectAll",
           "normalized": "a-\u003eIO()",
@@ -3593,6 +3905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the type of field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldGetFieldType",
           "package": "poppler",
@@ -3602,6 +3915,7 @@
         "index": {
           "description": "Gets the type of field",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldGetFieldType",
           "normalized": "a-\u003eIO FormFieldType",
@@ -3618,6 +3932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the font size of field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldGetFontSize",
           "package": "poppler",
@@ -3627,6 +3942,7 @@
         "index": {
           "description": "Gets the font size of field",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldGetFontSize",
           "normalized": "a-\u003eIO Double",
@@ -3643,6 +3959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the id of field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldGetId",
           "package": "poppler",
@@ -3652,6 +3969,7 @@
         "index": {
           "description": "Gets the id of field",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldGetId",
           "normalized": "a-\u003eIO Int",
@@ -3668,6 +3986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether field is editable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldIsEditable",
           "package": "poppler",
@@ -3677,6 +3996,7 @@
         "index": {
           "description": "Checks whether field is editable",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldIsEditable",
           "normalized": "a-\u003eIO Bool",
@@ -3693,6 +4013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether field is read only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldIsReadOnly",
           "package": "poppler",
@@ -3702,6 +4023,7 @@
         "index": {
           "description": "Checks whether field is read only",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldIsReadOnly",
           "normalized": "a-\u003eIO Bool",
@@ -3717,6 +4039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldTextDoScroll",
           "package": "poppler",
@@ -3726,6 +4049,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldTextDoScroll",
           "normalized": "a-\u003eIO Bool",
@@ -3742,6 +4066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether spell checking should be done for the contents of field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldTextDoSpellCheck",
           "package": "poppler",
@@ -3751,6 +4076,7 @@
         "index": {
           "description": "Checks whether spell checking should be done for the contents of field",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldTextDoSpellCheck",
           "normalized": "a-\u003eIO Bool",
@@ -3767,6 +4093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the maximum allowed length of the text in field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldTextGetMaxLen",
           "package": "poppler",
@@ -3776,6 +4103,7 @@
         "index": {
           "description": "Retrieves the maximum allowed length of the text in field",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldTextGetMaxLen",
           "normalized": "a-\u003eIO Int",
@@ -3792,6 +4120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the contents of field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldTextGetText",
           "package": "poppler",
@@ -3802,6 +4131,7 @@
         "index": {
           "description": "Retrieves the contents of field",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldTextGetText",
           "normalized": "a-\u003eIO String",
@@ -3818,6 +4148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the text type of field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldTextGetTextType",
           "package": "poppler",
@@ -3827,6 +4158,7 @@
         "index": {
           "description": "Gets the text type of field",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldTextGetTextType",
           "normalized": "a-\u003eIO FormTextType",
@@ -3843,6 +4175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether content of field is a password and it must be hidden\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldTextIsPassword",
           "package": "poppler",
@@ -3852,6 +4185,7 @@
         "index": {
           "description": "Checks whether content of field is password and it must be hidden",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldTextIsPassword",
           "normalized": "a-\u003eIO Bool",
@@ -3868,6 +4202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks whether the contents of field are rich text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldTextIsRichText",
           "package": "poppler",
@@ -3877,6 +4212,7 @@
         "index": {
           "description": "Checks whether the contents of field are rich text",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldTextIsRichText",
           "normalized": "a-\u003eIO Bool",
@@ -3893,6 +4229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the text in field to the given value, replacing the current contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldTextSetText",
           "package": "poppler",
@@ -3902,6 +4239,7 @@
         "index": {
           "description": "Sets the text in field to the given value replacing the current contents",
           "hierarchy": "Graphics UI Gtk Poppler FormField",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.FormField",
           "name": "formFieldTextSetText",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -3917,6 +4255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Layer",
           "name": "Layer",
           "package": "poppler",
@@ -3925,6 +4264,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Layer",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Layer",
           "name": "Layer",
           "package": "poppler",
@@ -3938,6 +4278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Layer",
           "name": "Layer",
           "package": "poppler",
@@ -3946,6 +4287,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Layer",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Layer",
           "name": "Layer",
           "package": "poppler",
@@ -3959,6 +4301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Layer",
           "name": "LayerClass",
           "package": "poppler",
@@ -3967,6 +4310,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Layer",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Layer",
           "name": "LayerClass",
           "package": "poppler",
@@ -3981,6 +4325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the numeric ID the radio button group associated with layer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Layer",
           "name": "layerGetRadioButtonGroupId",
           "package": "poppler",
@@ -3990,6 +4335,7 @@
         "index": {
           "description": "Returns the numeric ID the radio button group associated with layer",
           "hierarchy": "Graphics UI Gtk Poppler Layer",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Layer",
           "name": "layerGetRadioButtonGroupId",
           "normalized": "a-\u003eIO Int",
@@ -4006,6 +4352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the name of the layer suitable for presentation as a title in a viewer's GUI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Layer",
           "name": "layerGetTitle",
           "package": "poppler",
@@ -4015,6 +4362,7 @@
         "index": {
           "description": "Returns the name of the layer suitable for presentation as title in viewer GUI",
           "hierarchy": "Graphics UI Gtk Poppler Layer",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Layer",
           "name": "layerGetTitle",
           "normalized": "a-\u003eIO String",
@@ -4031,6 +4379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHides layer. If layer is the parent of other nested layers, such layers will be also hidden and will\n be blocked until layer is shown again\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Layer",
           "name": "layerHide",
           "package": "poppler",
@@ -4041,6 +4390,7 @@
         "index": {
           "description": "Hides layer If layer is the parent of other nested layers such layers will be also hidden and will be blocked until layer is shown again",
           "hierarchy": "Graphics UI Gtk Poppler Layer",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Layer",
           "name": "layerHide",
           "normalized": "a-\u003eIO()",
@@ -4057,6 +4407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether layer is parent of other nested layers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Layer",
           "name": "layerIsParent",
           "package": "poppler",
@@ -4066,6 +4417,7 @@
         "index": {
           "description": "Returns whether layer is parent of other nested layers",
           "hierarchy": "Graphics UI Gtk Poppler Layer",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Layer",
           "name": "layerIsParent",
           "normalized": "a-\u003eIO Bool",
@@ -4082,6 +4434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether layer is visible\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Layer",
           "name": "layerIsVisible",
           "package": "poppler",
@@ -4091,6 +4444,7 @@
         "index": {
           "description": "Returns whether layer is visible",
           "hierarchy": "Graphics UI Gtk Poppler Layer",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Layer",
           "name": "layerIsVisible",
           "normalized": "a-\u003eIO Bool",
@@ -4107,6 +4461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows layer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Layer",
           "name": "layerShow",
           "package": "poppler",
@@ -4117,6 +4472,7 @@
         "index": {
           "description": "Shows layer",
           "hierarchy": "Graphics UI Gtk Poppler Layer",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Layer",
           "name": "layerShow",
           "normalized": "a-\u003eIO()",
@@ -4132,6 +4488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "Page",
           "package": "poppler",
@@ -4140,6 +4497,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "Page",
           "package": "poppler",
@@ -4153,6 +4511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "Cairo",
           "package": "poppler",
@@ -4160,6 +4519,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "Cairo",
           "package": "poppler",
@@ -4173,6 +4533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "FormFieldMapping",
           "package": "poppler",
@@ -4181,6 +4542,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "FormFieldMapping",
           "package": "poppler",
@@ -4194,6 +4556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "ImageMapping",
           "package": "poppler",
@@ -4202,6 +4565,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "ImageMapping",
           "package": "poppler",
@@ -4215,6 +4579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "LinkMapping",
           "package": "poppler",
@@ -4223,6 +4588,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "LinkMapping",
           "package": "poppler",
@@ -4236,6 +4602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "PageTransition",
           "package": "poppler",
@@ -4244,6 +4611,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "PageTransition",
           "package": "poppler",
@@ -4257,6 +4625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "PopplerColor",
           "package": "poppler",
@@ -4265,6 +4634,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "PopplerColor",
           "package": "poppler",
@@ -4279,6 +4649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRectangles describing an area in \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Specifies x, y, width and height\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "PopplerRectangle",
           "package": "poppler",
@@ -4288,6 +4659,7 @@
         "index": {
           "description": "Rectangles describing an area in Double Specifies width and height",
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "PopplerRectangle",
           "package": "poppler",
@@ -4301,6 +4673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "SelectionStyle",
           "package": "poppler",
@@ -4309,6 +4682,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "SelectionStyle",
           "package": "poppler",
@@ -4322,6 +4696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "PopplerColor",
           "package": "poppler",
@@ -4331,6 +4706,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "PopplerColor",
           "package": "poppler",
@@ -4344,6 +4720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "PopplerRectangle",
           "package": "poppler",
@@ -4353,6 +4730,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "PopplerRectangle",
           "package": "poppler",
@@ -4366,6 +4744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "SelectionGlyph",
           "package": "poppler",
@@ -4375,6 +4754,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "SelectionGlyph",
           "package": "poppler",
@@ -4388,6 +4768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "SelectionLine",
           "package": "poppler",
@@ -4397,6 +4778,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "SelectionLine",
           "package": "poppler",
@@ -4410,6 +4792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "SelectionWord",
           "package": "poppler",
@@ -4419,6 +4802,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "SelectionWord",
           "package": "poppler",
@@ -4433,6 +4817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA GList of rectangles for each occurance of the text on the page. The coordinates are in PDF points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageFindText",
           "package": "poppler",
@@ -4442,6 +4827,7 @@
         "index": {
           "description": "GList of rectangles for each occurance of the text on the page The coordinates are in PDF points",
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageFindText",
           "normalized": "a-\u003eString-\u003eIO[PopplerRectangle]",
@@ -4458,6 +4844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the duration of page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageGetDuration",
           "package": "poppler",
@@ -4467,6 +4854,7 @@
         "index": {
           "description": "Returns the duration of page",
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageGetDuration",
           "normalized": "a-\u003eIO Double",
@@ -4483,6 +4871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of \u003ccode\u003e\u003ca\u003eFormFieldMapping\u003c/a\u003e\u003c/code\u003e items that map from a location on page to a \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageGetFormFieldMapping",
           "package": "poppler",
@@ -4493,6 +4882,7 @@
         "index": {
           "description": "Returns list of FormFieldMapping items that map from location on page to Action",
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageGetFormFieldMapping",
           "normalized": "a-\u003eIO[FormFieldMapping]",
@@ -4509,6 +4899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of \u003ccode\u003e\u003ca\u003eImageMapping\u003c/a\u003e\u003c/code\u003e items that map from a location on page to a \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageGetImageMapping",
           "package": "poppler",
@@ -4519,6 +4910,7 @@
         "index": {
           "description": "Returns list of ImageMapping items that map from location on page to Action",
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageGetImageMapping",
           "normalized": "a-\u003eIO[ImageMapping]",
@@ -4535,6 +4927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the index of page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageGetIndex",
           "package": "poppler",
@@ -4544,6 +4937,7 @@
         "index": {
           "description": "Returns the index of page",
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageGetIndex",
           "normalized": "a-\u003eIO Int",
@@ -4560,6 +4954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of \u003ccode\u003e\u003ca\u003eLinkMapping\u003c/a\u003e\u003c/code\u003e items that map from a location on page to a \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageGetLinkMapping",
           "package": "poppler",
@@ -4570,6 +4965,7 @@
         "index": {
           "description": "Returns list of LinkMapping items that map from location on page to Action",
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageGetLinkMapping",
           "normalized": "a-\u003eIO[LinkMapping]",
@@ -4586,6 +4982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a region containing the area that would be rendered by \u003ccode\u003e\u003ca\u003epageRenderSelection\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003epageRenderSelectionToPixbuf\u003c/code\u003e as a GList of PopplerRectangle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageGetSelectionRegion",
           "package": "poppler",
@@ -4595,6 +4992,7 @@
         "index": {
           "description": "Returns region containing the area that would be rendered by pageRenderSelection or pageRenderSelectionToPixbuf as GList of PopplerRectangle",
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageGetSelectionRegion",
           "normalized": "a-\u003eDouble-\u003eSelectionStyle-\u003ePopplerRectangle-\u003eIO[PopplerRectangle]",
@@ -4611,6 +5009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFirst scale the document to match the specified pixels per point, then render the rectangle given by\n the upper left corner at (\u003ccode\u003esrcX\u003c/code\u003e, \u003ccode\u003esrcY\u003c/code\u003e) and \u003ccode\u003esrcWidth\u003c/code\u003e and \u003ccode\u003esrcHeight\u003c/code\u003e. This function is for rendering\n a page that will be displayed. If you want to render a page that will be printed use\n \u003ccode\u003epageRenderToPixbufForPrinting\u003c/code\u003e instead\n\u003c/p\u003e\u003cp\u003eGets the size of page at the current scale and rotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageGetSize",
           "package": "poppler",
@@ -4621,6 +5020,7 @@
         "index": {
           "description": "First scale the document to match the specified pixels per point then render the rectangle given by the upper left corner at srcX srcY and srcWidth and srcHeight This function is for rendering page that will be displayed If you want to render page that will be printed use pageRenderToPixbufForPrinting instead Gets the size of page at the current scale and rotation",
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageGetSize",
           "normalized": "a-\u003eIO(Double,Double)",
@@ -4637,6 +5037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the contents of the specified selection as text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageGetText",
           "package": "poppler",
@@ -4646,6 +5047,7 @@
         "index": {
           "description": "Retrieves the contents of the specified selection as text",
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageGetText",
           "normalized": "a-\u003eIO String",
@@ -4662,6 +5064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the embedded thumbnail for the specified page. If the document doesn't have an embedded\n thumbnail for the page, this function returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageGetThumbnail",
           "package": "poppler",
@@ -4671,6 +5074,7 @@
         "index": {
           "description": "Get the embedded thumbnail for the specified page If the document doesn have an embedded thumbnail for the page this function returns Nothing",
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageGetThumbnail",
           "normalized": "a-\u003eIO(Maybe Surface)",
@@ -4687,6 +5091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if page has a thumbnail associated with it. It also fills in width and height with the\n width and height of the thumbnail. The values of width and height are not changed if no appropriate\n thumbnail exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageGetThumbnailSize",
           "package": "poppler",
@@ -4697,6 +5102,7 @@
         "index": {
           "description": "Returns True if page has thumbnail associated with it It also fills in width and height with the width and height of the thumbnail The values of width and height are not changed if no appropriate thumbnail exists",
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageGetThumbnailSize",
           "normalized": "a-\u003eIO(Maybe(Int,Int))",
@@ -4713,6 +5119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the transition effect of page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageGetTransition",
           "package": "poppler",
@@ -4722,6 +5129,7 @@
         "index": {
           "description": "Returns the transition effect of page",
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageGetTransition",
           "normalized": "a-\u003eIO(Maybe PageTransition)",
@@ -4738,6 +5146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the page to the given cairo context. This function is for rendering a page that will be\n displayed. If you want to render a page that will be printed use \u003ccode\u003epageRenderForPrinting\u003c/code\u003e\n instead\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageRender",
           "package": "poppler",
@@ -4748,6 +5157,7 @@
         "index": {
           "description": "Render the page to the given cairo context This function is for rendering page that will be displayed If you want to render page that will be printed use pageRenderForPrinting instead",
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageRender",
           "normalized": "a-\u003eRender()",
@@ -4764,6 +5174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the selection specified by selection for page to the given cairo context. The selection will\n be rendered, using \u003ccode\u003eglyphColor\u003c/code\u003e for the glyphs and \u003ccode\u003ebackgroundColor\u003c/code\u003e for the selection background.\n\u003c/p\u003e\u003cp\u003eIf non-\u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003eoldSelection\u003c/code\u003e specifies the selection that is already rendered to cairo, in which case\n this function will (some day) only render the changed part of the selection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageRenderSelection",
           "package": "poppler",
@@ -4773,6 +5184,7 @@
         "index": {
           "description": "Render the selection specified by selection for page to the given cairo context The selection will be rendered using glyphColor for the glyphs and backgroundColor for the selection background If non Nothing oldSelection specifies the selection that is already rendered to cairo in which case this function will some day only render the changed part of the selection",
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageRenderSelection",
           "normalized": "a-\u003ePopplerRectangle-\u003ePopplerRectangle-\u003eSelectionStyle-\u003ePopplerColor-\u003ePopplerColor-\u003eRender()",
@@ -4789,6 +5201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender the page on a postscript file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageRenderToPs",
           "package": "poppler",
@@ -4799,6 +5212,7 @@
         "index": {
           "description": "Render the page on postscript file",
           "hierarchy": "Graphics UI Gtk Poppler Page",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Page",
           "name": "pageRenderToPs",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -4814,6 +5228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Poppler",
           "name": "Poppler",
           "package": "poppler",
@@ -4822,6 +5237,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Poppler",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Poppler",
           "name": "Poppler",
           "package": "poppler",
@@ -4835,6 +5251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Poppler",
           "name": "Backend",
           "package": "poppler",
@@ -4843,6 +5260,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Poppler",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Poppler",
           "name": "Backend",
           "package": "poppler",
@@ -4856,6 +5274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Poppler",
           "name": "BackendCairo",
           "package": "poppler",
@@ -4865,6 +5284,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Poppler",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Poppler",
           "name": "BackendCairo",
           "package": "poppler",
@@ -4878,6 +5298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Poppler",
           "name": "BackendSplash",
           "package": "poppler",
@@ -4887,6 +5308,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Poppler",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Poppler",
           "name": "BackendSplash",
           "package": "poppler",
@@ -4900,6 +5322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Poppler",
           "name": "BackendUnknown",
           "package": "poppler",
@@ -4909,6 +5332,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Gtk Poppler Poppler",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Poppler",
           "name": "BackendUnknown",
           "package": "poppler",
@@ -4923,6 +5347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the backend compiled into the poppler library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Poppler",
           "name": "getBackend",
           "package": "poppler",
@@ -4933,6 +5358,7 @@
         "index": {
           "description": "Returns the backend compiled into the poppler library",
           "hierarchy": "Graphics UI Gtk Poppler Poppler",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Poppler",
           "name": "getBackend",
           "package": "poppler",
@@ -4947,6 +5373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the version of poppler in use. This result is not to be freed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:46 UTC 2014",
           "module": "Graphics.UI.Gtk.Poppler.Poppler",
           "name": "getVersion",
           "package": "poppler",
@@ -4957,6 +5384,7 @@
         "index": {
           "description": "Returns the version of poppler in use This result is not to be freed",
           "hierarchy": "Graphics UI Gtk Poppler Poppler",
+          "indexed": "2014-03-11T19:41:46",
           "module": "Graphics.UI.Gtk.Poppler.Poppler",
           "name": "getVersion",
           "package": "poppler",

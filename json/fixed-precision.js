@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fixed-precision"
+        "phrase": "fixed-precision",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "Fixed",
           "package": "fixed-precision",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "Fixed",
           "package": "fixed-precision",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "Down",
           "package": "fixed-precision",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "Down",
           "package": "fixed-precision",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "Fixed",
           "package": "fixed-precision",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "Fixed",
           "package": "fixed-precision",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "Near",
           "package": "fixed-precision",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "Near",
           "package": "fixed-precision",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "Precision",
           "package": "fixed-precision",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "Precision",
           "package": "fixed-precision",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "RoundMode",
           "package": "fixed-precision",
@@ -130,6 +141,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "RoundMode",
           "package": "fixed-precision",
@@ -143,6 +155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "Up",
           "package": "fixed-precision",
@@ -151,6 +164,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "Up",
           "package": "fixed-precision",
@@ -164,6 +178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "Zero",
           "package": "fixed-precision",
@@ -172,6 +187,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "Zero",
           "package": "fixed-precision",
@@ -185,6 +201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "Down",
           "package": "fixed-precision",
@@ -193,6 +210,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "Down",
           "package": "fixed-precision",
@@ -206,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "Fixed",
           "package": "fixed-precision",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "Fixed",
           "package": "fixed-precision",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "Near",
           "package": "fixed-precision",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "Near",
           "package": "fixed-precision",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "Up",
           "package": "fixed-precision",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "Up",
           "package": "fixed-precision",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "Zero",
           "package": "fixed-precision",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "Zero",
           "package": "fixed-precision",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "bits",
           "package": "fixed-precision",
@@ -300,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "bits",
           "normalized": "Int-\u003eQ Type",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "bytes",
           "package": "fixed-precision",
@@ -323,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "bytes",
           "normalized": "Int-\u003eQ Type",
@@ -337,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "fromDouble",
           "package": "fixed-precision",
@@ -346,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "fromDouble",
           "normalized": "Double-\u003eFixed a b",
@@ -361,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "fromDown",
           "package": "fixed-precision",
@@ -370,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "fromDown",
           "normalized": "Fixed Down a-\u003eFixed b a",
@@ -385,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "fromInt",
           "package": "fixed-precision",
@@ -394,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "fromInt",
           "normalized": "Int-\u003eFixed a b",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "fromMPFR",
           "package": "fixed-precision",
@@ -418,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "fromMPFR",
           "normalized": "MPFR-\u003eFixed a b",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "fromNear",
           "package": "fixed-precision",
@@ -442,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "fromNear",
           "normalized": "Fixed Near a-\u003eFixed b a",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "fromUp",
           "package": "fixed-precision",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "fromUp",
           "normalized": "Fixed Up a-\u003eFixed b a",
@@ -481,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "fromWord",
           "package": "fixed-precision",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "fromWord",
           "normalized": "Word-\u003eFixed a b",
@@ -505,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "fromZero",
           "package": "fixed-precision",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "fromZero",
           "normalized": "Fixed Zero a-\u003eFixed b a",
@@ -529,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "nan",
           "package": "fixed-precision",
@@ -538,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "nan",
           "package": "fixed-precision",
@@ -550,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "negInfinity",
           "package": "fixed-precision",
@@ -559,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "negInfinity",
           "package": "fixed-precision",
@@ -572,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "posInfinity",
           "package": "fixed-precision",
@@ -581,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "posInfinity",
           "package": "fixed-precision",
@@ -594,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "reflectPrecision",
           "package": "fixed-precision",
@@ -603,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "reflectPrecision",
           "normalized": "Fixed a b-\u003ePrecision",
@@ -618,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "reflectRounding",
           "package": "fixed-precision",
@@ -627,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "reflectRounding",
           "normalized": "Fixed a b-\u003eRoundMode",
@@ -642,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "reifyPrecision",
           "package": "fixed-precision",
@@ -651,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "reifyPrecision",
           "normalized": "a-\u003eb)-\u003eb",
@@ -666,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "reifyRounding",
           "package": "fixed-precision",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "reifyRounding",
           "normalized": "a-\u003eb)-\u003eb",
@@ -690,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "toDown",
           "package": "fixed-precision",
@@ -699,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "toDown",
           "normalized": "Fixed a b-\u003eFixed Down b",
@@ -714,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "toNear",
           "package": "fixed-precision",
@@ -723,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "toNear",
           "normalized": "Fixed a b-\u003eFixed Near b",
@@ -738,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "toUp",
           "package": "fixed-precision",
@@ -747,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "toUp",
           "normalized": "Fixed a b-\u003eFixed Up b",
@@ -762,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:51 UTC 2014",
           "module": "Numeric.Fixed",
           "name": "toZero",
           "package": "fixed-precision",
@@ -771,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Numeric Fixed",
+          "indexed": "2014-03-11T18:09:51",
           "module": "Numeric.Fixed",
           "name": "toZero",
           "normalized": "Fixed a b-\u003eFixed Zero b",

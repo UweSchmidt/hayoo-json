@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hlibfam"
+        "phrase": "hlibfam",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003eSystem.FAM\u003c/code\u003e is a low-level binding to the libfam library\n The \u003ccode\u003elibfam\u003c/code\u003e documentation is available here:\n \u003ca\u003ehttp://oss.sgi.com/projects/fam/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "FAM",
           "package": "hlibfam",
@@ -28,6 +29,7 @@
         "index": {
           "description": "System.FAM is low-level binding to the libfam library The libfam documentation is available here http oss.sgi.com projects fam",
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "FAM",
           "package": "hlibfam",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "Connection",
           "package": "hlibfam",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "Connection",
           "package": "hlibfam",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "Event",
           "package": "hlibfam",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "Event",
           "package": "hlibfam",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "Request",
           "package": "hlibfam",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "Request",
           "package": "hlibfam",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "Connection",
           "package": "hlibfam",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "Connection",
           "package": "hlibfam",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "Event",
           "package": "hlibfam",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "Event",
           "package": "hlibfam",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "Request",
           "package": "hlibfam",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "Request",
           "package": "hlibfam",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "acknowledge",
           "package": "hlibfam",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "acknowledge",
           "package": "hlibfam",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "cancelMonitor",
           "package": "hlibfam",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "cancelMonitor",
           "normalized": "ConnectionPtr-\u003eRequestPtr-\u003eIO CInt",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "changed",
           "package": "hlibfam",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "changed",
           "package": "hlibfam",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "close",
           "package": "hlibfam",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "close",
           "normalized": "ConnectionPtr-\u003eIO CInt",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "code",
           "package": "hlibfam",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "code",
           "package": "hlibfam",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "connection",
           "package": "hlibfam",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "connection",
           "package": "hlibfam",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "created",
           "package": "hlibfam",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "created",
           "package": "hlibfam",
@@ -322,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "deleted",
           "package": "hlibfam",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "deleted",
           "package": "hlibfam",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "endexist",
           "package": "hlibfam",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "endexist",
           "package": "hlibfam",
@@ -364,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "exists",
           "package": "hlibfam",
@@ -373,6 +406,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "exists",
           "package": "hlibfam",
@@ -385,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "fd",
           "package": "hlibfam",
@@ -394,6 +429,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "fd",
           "package": "hlibfam",
@@ -406,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "filename",
           "package": "hlibfam",
@@ -415,6 +452,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "filename",
           "package": "hlibfam",
@@ -427,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "hostname",
           "package": "hlibfam",
@@ -436,6 +475,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "hostname",
           "package": "hlibfam",
@@ -448,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "monitorCollection",
           "package": "hlibfam",
@@ -457,6 +498,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "monitorCollection",
           "normalized": "ConnectionPtr-\u003ePtr CString-\u003eRequestPtr-\u003eVoidPtr-\u003eCInt-\u003ePtr String-\u003eIO CInt",
@@ -472,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "monitorDirectory",
           "package": "hlibfam",
@@ -481,6 +524,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "monitorDirectory",
           "normalized": "ConnectionPtr-\u003ePtr CString-\u003eRequestPtr-\u003eVoidPtr-\u003eIO CInt",
@@ -496,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "monitorFile",
           "package": "hlibfam",
@@ -505,6 +550,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "monitorFile",
           "normalized": "ConnectionPtr-\u003ePtr CString-\u003eRequestPtr-\u003eVoidPtr-\u003eIO CInt",
@@ -520,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "moved",
           "package": "hlibfam",
@@ -529,6 +576,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "moved",
           "package": "hlibfam",
@@ -541,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "nextEvent",
           "package": "hlibfam",
@@ -550,6 +599,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "nextEvent",
           "normalized": "ConnectionPtr-\u003eEventPtr-\u003eIO CInt",
@@ -565,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "open",
           "package": "hlibfam",
@@ -574,6 +625,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "open",
           "normalized": "ConnectionPtr-\u003eIO CInt",
@@ -588,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "open2",
           "package": "hlibfam",
@@ -597,6 +650,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "open2",
           "normalized": "ConnectionPtr-\u003eCString-\u003eIO CInt",
@@ -611,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "pending",
           "package": "hlibfam",
@@ -620,6 +675,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "pending",
           "normalized": "ConnectionPtr-\u003eIO CInt",
@@ -634,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "reqnum",
           "package": "hlibfam",
@@ -643,6 +700,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "reqnum",
           "package": "hlibfam",
@@ -655,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "request",
           "package": "hlibfam",
@@ -664,6 +723,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "request",
           "package": "hlibfam",
@@ -676,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "resumeMonitor",
           "package": "hlibfam",
@@ -685,6 +746,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "resumeMonitor",
           "normalized": "ConnectionPtr-\u003eRequestPtr-\u003eIO CInt",
@@ -700,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "startexecuting",
           "package": "hlibfam",
@@ -709,6 +772,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "startexecuting",
           "package": "hlibfam",
@@ -721,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "stopexecuting",
           "package": "hlibfam",
@@ -730,6 +795,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "stopexecuting",
           "package": "hlibfam",
@@ -742,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "suspendMonitor",
           "package": "hlibfam",
@@ -751,6 +818,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "suspendMonitor",
           "normalized": "ConnectionPtr-\u003eRequestPtr-\u003eIO CInt",
@@ -766,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:15 UTC 2014",
           "module": "System.FAM",
           "name": "userdata",
           "package": "hlibfam",
@@ -775,6 +844,7 @@
         },
         "index": {
           "hierarchy": "System FAM",
+          "indexed": "2014-03-11T18:41:15",
           "module": "System.FAM",
           "name": "userdata",
           "package": "hlibfam",

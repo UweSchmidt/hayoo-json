@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uri-template"
+        "phrase": "uri-template",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eURI templates and their expansion. For details\n  (and up-to-date specs), see \n    http:\u003cem/\u003ebitworking.org\u003cem\u003eprojects\u003c/em\u003e\n\u003c/p\u003e\u003cp\u003eAlso implements the OpenSearch 1.1 style with \u003ccode\u003e?\u003c/code\u003e suffix chars\n  + support for namespace prefixes {xmlns:foo?} =\u003e xmlns:bar\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:31:38 UTC 2014",
           "module": "Network.URI.Template",
           "name": "Template",
           "package": "uri-template",
@@ -28,6 +29,7 @@
         "index": {
           "description": "URI templates and their expansion For details and up-to-date specs see http bitworking.org projects Also implements the OpenSearch style with suffix chars support for namespace prefixes xmlns foo xmlns bar",
           "hierarchy": "Network URI Template",
+          "indexed": "2014-03-11T20:31:38",
           "module": "Network.URI.Template",
           "name": "Template",
           "package": "uri-template",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTemplateEnv\u003c/code\u003e holds the key,value mapping for the expansion\n context for a URI template.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:38 UTC 2014",
           "module": "Network.URI.Template",
           "name": "TemplateEnv",
           "package": "uri-template",
@@ -51,6 +54,7 @@
         "index": {
           "description": "TemplateEnv holds the key value mapping for the expansion context for URI template",
           "hierarchy": "Network URI Template",
+          "indexed": "2014-03-11T20:31:38",
           "module": "Network.URI.Template",
           "name": "TemplateEnv",
           "package": "uri-template",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:38 UTC 2014",
           "module": "Network.URI.Template",
           "name": "URIString",
           "package": "uri-template",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Network URI Template",
+          "indexed": "2014-03-11T20:31:38",
           "module": "Network.URI.Template",
           "name": "URIString",
           "package": "uri-template",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:38 UTC 2014",
           "module": "Network.URI.Template",
           "name": "URITemplate",
           "package": "uri-template",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Network URI Template",
+          "indexed": "2014-03-11T20:31:38",
           "module": "Network.URI.Template",
           "name": "URITemplate",
           "package": "uri-template",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eaddListToEnv key vals env\u003c/code\u003e expands the template environment \u003ccode\u003eenv\u003c/code\u003e\n with a list-valued key,value(s) pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:38 UTC 2014",
           "module": "Network.URI.Template",
           "name": "addListToEnv",
           "package": "uri-template",
@@ -117,6 +126,7 @@
         "index": {
           "description": "addListToEnv key vals env expands the template environment env with list-valued key value pair",
           "hierarchy": "Network URI Template",
+          "indexed": "2014-03-11T20:31:38",
           "module": "Network.URI.Template",
           "name": "addListToEnv",
           "normalized": "String-\u003e[String]-\u003eTemplateEnv-\u003eTemplateEnv",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eaddToEnv key value env\u003c/code\u003e augments \u003ccode\u003eenv\u003c/code\u003e with a new\n key,value pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:38 UTC 2014",
           "module": "Network.URI.Template",
           "name": "addToEnv",
           "package": "uri-template",
@@ -143,6 +154,7 @@
         "index": {
           "description": "addToEnv key value env augments env with new key value pair",
           "hierarchy": "Network URI Template",
+          "indexed": "2014-03-11T20:31:38",
           "module": "Network.URI.Template",
           "name": "addToEnv",
           "normalized": "String-\u003eString-\u003eTemplateEnv-\u003eTemplateEnv",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eexpand tenv tpl\u003c/code\u003e performs template expansion on URL template \u003ccode\u003etpl\u003c/code\u003e wrt\n \u003ccode\u003etenv\u003c/code\u003e. The result contains the expansion, _but_ leaving unbound template\n variables intact.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:38 UTC 2014",
           "module": "Network.URI.Template",
           "name": "expand",
           "package": "uri-template",
@@ -169,6 +182,7 @@
         "index": {
           "description": "expand tenv tpl performs template expansion on URL template tpl wrt tenv The result contains the expansion but leaving unbound template variables intact",
           "hierarchy": "Network URI Template",
+          "indexed": "2014-03-11T20:31:38",
           "module": "Network.URI.Template",
           "name": "expand",
           "normalized": "TemplateEnv-\u003eURITemplate-\u003eURIString",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new, empty \u003ccode\u003e\u003ca\u003eTemplateEnv\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:38 UTC 2014",
           "module": "Network.URI.Template",
           "name": "newEnv",
           "package": "uri-template",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Construct new empty TemplateEnv",
           "hierarchy": "Network URI Template",
+          "indexed": "2014-03-11T20:31:38",
           "module": "Network.URI.Template",
           "name": "newEnv",
           "package": "uri-template",

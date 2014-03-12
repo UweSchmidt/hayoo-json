@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-stlike-stm"
+        "phrase": "monad-stlike-stm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "Monad for STM computations with ST-like variables.\n",
+          "indexed": "Tue Mar 11 19:20:47 UTC 2014",
           "module": "Control.Monad.STLike.STM",
           "name": "STMS",
           "package": "monad-stlike-stm",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Monad for STM computations with ST-like variables",
           "hierarchy": "Control Monad STLike STM",
+          "indexed": "2014-03-11T19:20:47",
           "module": "Control.Monad.STLike.STM",
           "name": "STMS",
           "package": "monad-stlike-stm",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "Lift STM computations into STMS.\n",
+          "indexed": "Tue Mar 11 19:20:47 UTC 2014",
           "module": "Control.Monad.STLike.STM",
           "name": "stm",
           "package": "monad-stlike-stm",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Lift STM computations into STMS",
           "hierarchy": "Control Monad STLike STM",
+          "indexed": "2014-03-11T19:20:47",
           "module": "Control.Monad.STLike.STM",
           "name": "stm",
           "normalized": "STM a-\u003eSTMS b a",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "Run an STMS computation with \u003cem\u003eatomically\u003c/em\u003e.\n",
+          "indexed": "Tue Mar 11 19:20:47 UTC 2014",
           "module": "Control.Monad.STLike.STM",
           "name": "stmsToIOS",
           "package": "monad-stlike-stm",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Run an STMS computation with atomically",
           "hierarchy": "Control Monad STLike STM",
+          "indexed": "2014-03-11T19:20:47",
           "module": "Control.Monad.STLike.STM",
           "name": "stmsToIOS",
           "normalized": "STMS a b-\u003eIOS a b",

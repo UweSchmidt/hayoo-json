@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pandoc-citeproc"
+        "phrase": "pandoc-citeproc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Data",
           "name": "Data",
           "package": "pandoc-citeproc",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Data",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Data",
           "name": "Data",
           "package": "pandoc-citeproc",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Data",
           "name": "getDefaultCSL",
           "package": "pandoc-citeproc",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Data",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Data",
           "name": "getDefaultCSL",
           "package": "pandoc-citeproc",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Data",
           "name": "getLocale",
           "package": "pandoc-citeproc",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Data",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Data",
           "name": "getLocale",
           "normalized": "String-\u003eIO ByteString",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Data",
           "name": "langBase",
           "package": "pandoc-citeproc",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Data",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Data",
           "name": "langBase",
           "normalized": "[(String,String)]",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe CSL implementation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "Common",
           "package": "pandoc-citeproc",
@@ -119,6 +128,7 @@
         "index": {
           "description": "The CSL implementation",
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "Common",
           "package": "pandoc-citeproc",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "Environment",
           "package": "pandoc-citeproc",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "Environment",
           "package": "pandoc-citeproc",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "EvalMode",
           "package": "pandoc-citeproc",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "EvalMode",
           "package": "pandoc-citeproc",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "EvalState",
           "package": "pandoc-citeproc",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "EvalState",
           "package": "pandoc-citeproc",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "Env",
           "package": "pandoc-citeproc",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "Env",
           "package": "pandoc-citeproc",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "EvalBiblio",
           "package": "pandoc-citeproc",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "EvalBiblio",
           "package": "pandoc-citeproc",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "EvalCite",
           "package": "pandoc-citeproc",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "EvalCite",
           "package": "pandoc-citeproc",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "EvalSorting",
           "package": "pandoc-citeproc",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "EvalSorting",
           "package": "pandoc-citeproc",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "EvalState",
           "package": "pandoc-citeproc",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "EvalState",
           "package": "pandoc-citeproc",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "abbrevs",
           "package": "pandoc-citeproc",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "abbrevs",
           "package": "pandoc-citeproc",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "authSub",
           "package": "pandoc-citeproc",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "authSub",
           "normalized": "[String]",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "cite",
           "package": "pandoc-citeproc",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "cite",
           "package": "pandoc-citeproc",
@@ -371,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "concatMapM",
           "package": "pandoc-citeproc",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "concatMapM",
           "normalized": "(a-\u003eb[c])-\u003e[a]-\u003eb[c]",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "consume",
           "package": "pandoc-citeproc",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "consume",
           "package": "pandoc-citeproc",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "consumeVariable",
           "package": "pandoc-citeproc",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "consumeVariable",
           "normalized": "String-\u003eState EvalState()",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "consumed",
           "package": "pandoc-citeproc",
@@ -449,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "consumed",
           "normalized": "[String]",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "consuming",
           "package": "pandoc-citeproc",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "consuming",
           "normalized": "State EvalState a-\u003eState EvalState a",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "contNum",
           "package": "pandoc-citeproc",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "contNum",
           "normalized": "[Agent]",
@@ -510,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "dates",
           "package": "pandoc-citeproc",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "dates",
           "normalized": "[Element]",
@@ -533,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "debug",
           "package": "pandoc-citeproc",
@@ -542,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "debug",
           "normalized": "[String]",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "disamb",
           "package": "pandoc-citeproc",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "disamb",
           "package": "pandoc-citeproc",
@@ -577,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "edtrans",
           "package": "pandoc-citeproc",
@@ -586,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "edtrans",
           "package": "pandoc-citeproc",
@@ -598,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "env",
           "package": "pandoc-citeproc",
@@ -607,6 +660,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "env",
           "package": "pandoc-citeproc",
@@ -619,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "etal",
           "package": "pandoc-citeproc",
@@ -628,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "etal",
           "normalized": "[[Output]]",
@@ -643,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert variable to lower case, translating underscores (\u003ca\u003e_\u003c/a\u003e) to dashes (\u003ca\u003e-\u003c/a\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "formatVariable",
           "package": "pandoc-citeproc",
@@ -653,6 +710,7 @@
         "index": {
           "description": "Convert variable to lower case translating underscores to dashes",
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "formatVariable",
           "normalized": "String-\u003eString",
@@ -669,6 +727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWith the variable name and the variable value search for an\n abbreviation or return an empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "getAbbreviation",
           "package": "pandoc-citeproc",
@@ -679,6 +738,7 @@
         "index": {
           "description": "With the variable name and the variable value search for an abbreviation or return an empty string",
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "getAbbreviation",
           "normalized": "Abbreviations-\u003eString-\u003eString-\u003eString",
@@ -694,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "getAgents",
           "package": "pandoc-citeproc",
@@ -703,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "getAgents",
           "normalized": "String-\u003eState EvalState[Agent]",
@@ -718,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "getAgents'",
           "package": "pandoc-citeproc",
@@ -727,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "getAgents'",
           "normalized": "String-\u003eState EvalState[Agent]",
@@ -742,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "getDateVar",
           "package": "pandoc-citeproc",
@@ -751,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "getDateVar",
           "normalized": "String-\u003eState EvalState[RefDate]",
@@ -766,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "getLocVar",
           "package": "pandoc-citeproc",
@@ -775,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "getLocVar",
           "normalized": "State EvalState(String,String)",
@@ -790,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "getOptionVal",
           "package": "pandoc-citeproc",
@@ -799,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "getOptionVal",
           "normalized": "String-\u003e[Option]-\u003eString",
@@ -814,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "getStringValue",
           "package": "pandoc-citeproc",
@@ -823,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "getStringValue",
           "normalized": "Value-\u003eString",
@@ -838,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "getStringVar",
           "package": "pandoc-citeproc",
@@ -847,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "getStringVar",
           "normalized": "String-\u003eState EvalState String",
@@ -863,6 +937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the first parameter is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e the plural form will be retrieved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "getTerm",
           "package": "pandoc-citeproc",
@@ -873,6 +948,7 @@
         "index": {
           "description": "If the first parameter is True the plural form will be retrieved",
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "getTerm",
           "normalized": "Bool-\u003eForm-\u003eString-\u003eState EvalState String",
@@ -888,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "getTitleShort",
           "package": "pandoc-citeproc",
@@ -897,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "getTitleShort",
           "normalized": "String-\u003eState EvalState String",
@@ -912,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "getVar",
           "package": "pandoc-citeproc",
@@ -921,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "getVar",
           "normalized": "a-\u003e(Value-\u003ea)-\u003eString-\u003eState EvalState a",
@@ -936,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "isOptionSet",
           "package": "pandoc-citeproc",
@@ -945,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "isOptionSet",
           "normalized": "String-\u003e[Option]-\u003eBool",
@@ -960,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "isSorting",
           "package": "pandoc-citeproc",
@@ -969,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "isSorting",
           "normalized": "EvalMode-\u003eBool",
@@ -984,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "isTitleShortVar",
           "package": "pandoc-citeproc",
@@ -993,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "isTitleShortVar",
           "normalized": "String-\u003eBool",
@@ -1008,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "isTitleVar",
           "package": "pandoc-citeproc",
@@ -1017,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "isTitleVar",
           "normalized": "String-\u003eBool",
@@ -1032,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "isVarSet",
           "package": "pandoc-citeproc",
@@ -1041,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "isVarSet",
           "normalized": "String-\u003eState EvalState Bool",
@@ -1056,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "lastName",
           "package": "pandoc-citeproc",
@@ -1065,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "lastName",
           "normalized": "[Output]",
@@ -1080,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "macros",
           "package": "pandoc-citeproc",
@@ -1089,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "macros",
           "normalized": "[MacroMap]",
@@ -1103,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "mode",
           "package": "pandoc-citeproc",
@@ -1112,6 +1207,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "mode",
           "package": "pandoc-citeproc",
@@ -1124,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "names",
           "package": "pandoc-citeproc",
@@ -1133,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "names",
           "normalized": "[Element]",
@@ -1147,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "options",
           "package": "pandoc-citeproc",
@@ -1156,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "options",
           "normalized": "[Option]",
@@ -1170,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "ref",
           "package": "pandoc-citeproc",
@@ -1179,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "ref",
           "package": "pandoc-citeproc",
@@ -1191,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "terms",
           "package": "pandoc-citeproc",
@@ -1200,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "terms",
           "normalized": "[CslTerm]",
@@ -1214,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "when'",
           "package": "pandoc-citeproc",
@@ -1223,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "when'",
           "normalized": "a Bool-\u003ea[b]-\u003ea[b]",
@@ -1237,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "whenElse",
           "package": "pandoc-citeproc",
@@ -1246,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "whenElse",
           "normalized": "a Bool-\u003ea b-\u003ea b-\u003ea b",
@@ -1261,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Common",
           "name": "withRefMap",
           "package": "pandoc-citeproc",
@@ -1270,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Common",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Common",
           "name": "withRefMap",
           "normalized": "(ReferenceMap-\u003ea)-\u003eState EvalState a",
@@ -1286,6 +1396,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe CSL implementation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Date",
           "name": "Date",
           "package": "pandoc-citeproc",
@@ -1295,6 +1406,7 @@
         "index": {
           "description": "The CSL implementation",
           "hierarchy": "Text CSL Eval Date",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Date",
           "name": "Date",
           "package": "pandoc-citeproc",
@@ -1308,6 +1420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Date",
           "name": "evalDate",
           "package": "pandoc-citeproc",
@@ -1317,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Date",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Date",
           "name": "evalDate",
           "normalized": "Element-\u003eState EvalState[Output]",
@@ -1332,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Date",
           "name": "formatDate",
           "package": "pandoc-citeproc",
@@ -1341,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Date",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Date",
           "name": "formatDate",
           "normalized": "EvalMode-\u003eString-\u003e[CslTerm]-\u003e[DatePart]-\u003e[RefDate]-\u003e[Output]",
@@ -1356,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Date",
           "name": "getDate",
           "package": "pandoc-citeproc",
@@ -1365,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Date",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Date",
           "name": "getDate",
           "normalized": "DateForm-\u003eState EvalState Element",
@@ -1380,6 +1498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Date",
           "name": "getOrdinal",
           "package": "pandoc-citeproc",
@@ -1389,6 +1508,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Date",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Date",
           "name": "getOrdinal",
           "normalized": "String-\u003eString-\u003e[CslTerm]-\u003eCslTerm",
@@ -1404,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Date",
           "name": "longOrdinal",
           "package": "pandoc-citeproc",
@@ -1413,6 +1534,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Date",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Date",
           "name": "longOrdinal",
           "normalized": "[CslTerm]-\u003eString-\u003eString-\u003eString",
@@ -1428,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Date",
           "name": "ordinal",
           "package": "pandoc-citeproc",
@@ -1437,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Date",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Date",
           "name": "ordinal",
           "normalized": "[CslTerm]-\u003eString-\u003eString-\u003eString",
@@ -1451,6 +1575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Date",
           "name": "parseRefDate",
           "package": "pandoc-citeproc",
@@ -1460,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Date",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Date",
           "name": "parseRefDate",
           "normalized": "RefDate-\u003e[RefDate]",
@@ -1476,6 +1602,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe CSL implementation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Names",
           "name": "Names",
           "package": "pandoc-citeproc",
@@ -1485,6 +1612,7 @@
         "index": {
           "description": "The CSL implementation",
           "hierarchy": "Text CSL Eval Names",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Names",
           "name": "Names",
           "package": "pandoc-citeproc",
@@ -1498,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Names",
           "name": "(\u003c++\u003e)",
           "package": "pandoc-citeproc",
@@ -1507,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Names",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Names",
           "name": "(\u003c++\u003e) \u003c++\u003e",
           "normalized": "[Output]-\u003e[Output]-\u003e[Output]",
@@ -1521,6 +1651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Names",
           "name": "(\u003c+\u003e)",
           "package": "pandoc-citeproc",
@@ -1530,6 +1661,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Names",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Names",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "Formatted-\u003eFormatted-\u003eFormatted",
@@ -1544,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Names",
           "name": "evalNames",
           "package": "pandoc-citeproc",
@@ -1553,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Names",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Names",
           "name": "evalNames",
           "normalized": "Bool-\u003e[String]-\u003e[Name]-\u003eString-\u003eState EvalState[Output]",
@@ -1568,6 +1702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Names",
           "name": "formatLabel",
           "package": "pandoc-citeproc",
@@ -1577,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Names",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Names",
           "name": "formatLabel",
           "normalized": "Form-\u003eFormatting-\u003eBool-\u003eString-\u003eState EvalState[Output]",
@@ -1593,6 +1729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate the \u003ccode\u003e\u003ca\u003eAgent\u003c/a\u003e\u003c/code\u003es names applying et-al options, with all\n possible permutations to disambiguate colliding citations. The\n \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e indicate whether we are formatting the first name or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Names",
           "name": "formatName",
           "package": "pandoc-citeproc",
@@ -1603,6 +1740,7 @@
         "index": {
           "description": "Generate the Agent names applying et-al options with all possible permutations to disambiguate colliding citations The Bool indicate whether we are formatting the first name or not",
           "hierarchy": "Text CSL Eval Names",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Names",
           "name": "formatName",
           "normalized": "EvalMode-\u003eBool-\u003eForm-\u003eFormatting-\u003e[Option]-\u003e[NamePart]-\u003eAgent-\u003e[Output]",
@@ -1619,6 +1757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e when formatting a name with a final \u003ca\u003eet-al\u003c/a\u003e.\n The first \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e represents the position and the second the role\n (e.i. editor, translator, etc.).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Names",
           "name": "formatNames",
           "package": "pandoc-citeproc",
@@ -1629,6 +1768,7 @@
         "index": {
           "description": "The Bool is True when formatting name with final et-al The first String represents the position and the second the role e.i editor translator etc",
           "hierarchy": "Text CSL Eval Names",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Names",
           "name": "formatNames",
           "normalized": "Bool-\u003eDelimiter-\u003eString-\u003eString-\u003e[Agent]-\u003eName-\u003eState EvalState[Output]",
@@ -1644,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Names",
           "name": "formatTerm",
           "package": "pandoc-citeproc",
@@ -1653,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Names",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Names",
           "name": "formatTerm",
           "normalized": "Form-\u003eFormatting-\u003eBool-\u003eString-\u003eState EvalState[Output]",
@@ -1669,6 +1811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if we are evaluating the bibliography.\n The \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e is the cite position. The function also returns the\n number of contributors to be displayed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Names",
           "name": "isEtAl",
           "package": "pandoc-citeproc",
@@ -1679,6 +1822,7 @@
         "index": {
           "description": "The first Bool is True if we are evaluating the bibliography The String is the cite position The function also returns the number of contributors to be displayed",
           "hierarchy": "Text CSL Eval Names",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Names",
           "name": "isEtAl",
           "normalized": "Bool-\u003e[Option]-\u003eString-\u003e[Agent]-\u003e(Bool,Int)",
@@ -1695,6 +1839,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe CSL implementation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Output",
           "name": "Output",
           "package": "pandoc-citeproc",
@@ -1704,6 +1849,7 @@
         "index": {
           "description": "The CSL implementation",
           "hierarchy": "Text CSL Eval Output",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Output",
           "name": "Output",
           "package": "pandoc-citeproc",
@@ -1717,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Output",
           "name": "addDelim",
           "package": "pandoc-citeproc",
@@ -1726,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Output",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Output",
           "name": "addDelim",
           "normalized": "String-\u003e[Output]-\u003e[Output]",
@@ -1741,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Output",
           "name": "addFormatting",
           "package": "pandoc-citeproc",
@@ -1750,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Output",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Output",
           "name": "addFormatting",
           "normalized": "Formatting-\u003eFormatted-\u003eFormatted",
@@ -1765,6 +1915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Output",
           "name": "appendOutput",
           "package": "pandoc-citeproc",
@@ -1774,6 +1925,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Output",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Output",
           "name": "appendOutput",
           "normalized": "Formatting-\u003e[Output]-\u003e[Output]",
@@ -1789,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Output",
           "name": "cleanOutput",
           "package": "pandoc-citeproc",
@@ -1798,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Output",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Output",
           "name": "cleanOutput",
           "normalized": "[Output]-\u003e[Output]",
@@ -1814,6 +1968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert evaluated \u003ccode\u003e\u003ca\u003eOutput\u003c/a\u003e\u003c/code\u003e into \u003ccode\u003e\u003ca\u003eFormatted\u003c/a\u003e\u003c/code\u003e, ready for the\n output filters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Output",
           "name": "formatOutput",
           "package": "pandoc-citeproc",
@@ -1824,6 +1979,7 @@
         "index": {
           "description": "Convert evaluated Output into Formatted ready for the output filters",
           "hierarchy": "Text CSL Eval Output",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Output",
           "name": "formatOutput",
           "normalized": "Output-\u003eFormatted",
@@ -1839,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Output",
           "name": "formatOutputList",
           "package": "pandoc-citeproc",
@@ -1848,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Output",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Output",
           "name": "formatOutputList",
           "normalized": "[Output]-\u003eFormatted",
@@ -1863,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Output",
           "name": "noBibDataError",
           "package": "pandoc-citeproc",
@@ -1872,6 +2031,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Output",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Output",
           "name": "noBibDataError",
           "normalized": "Cite-\u003eOutput",
@@ -1887,6 +2047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Output",
           "name": "noOutputError",
           "package": "pandoc-citeproc",
@@ -1896,6 +2057,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Output",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Output",
           "name": "noOutputError",
           "package": "pandoc-citeproc",
@@ -1909,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Output",
           "name": "oPan",
           "package": "pandoc-citeproc",
@@ -1918,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Output",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Output",
           "name": "oPan",
           "normalized": "[Inline]-\u003e[Output]",
@@ -1933,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Output",
           "name": "oPan'",
           "package": "pandoc-citeproc",
@@ -1942,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Output",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Output",
           "name": "oPan'",
           "normalized": "[Inline]-\u003eFormatting-\u003e[Output]",
@@ -1957,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Output",
           "name": "oStr",
           "package": "pandoc-citeproc",
@@ -1966,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Output",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Output",
           "name": "oStr",
           "normalized": "String-\u003e[Output]",
@@ -1981,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Output",
           "name": "oStr'",
           "package": "pandoc-citeproc",
@@ -1990,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Output",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Output",
           "name": "oStr'",
           "normalized": "String-\u003eFormatting-\u003e[Output]",
@@ -2005,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Output",
           "name": "output",
           "package": "pandoc-citeproc",
@@ -2014,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Output",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Output",
           "name": "output",
           "normalized": "Formatting-\u003eString-\u003e[Output]",
@@ -2028,6 +2200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Output",
           "name": "outputList",
           "package": "pandoc-citeproc",
@@ -2037,6 +2210,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Output",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Output",
           "name": "outputList",
           "normalized": "Formatting-\u003eDelimiter-\u003e[Output]-\u003e[Output]",
@@ -2052,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval.Output",
           "name": "rmEmptyOutput",
           "package": "pandoc-citeproc",
@@ -2061,6 +2236,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval Output",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval.Output",
           "name": "rmEmptyOutput",
           "normalized": "Output-\u003eMaybe Output",
@@ -2077,6 +2253,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe CSL implementation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval",
           "name": "Eval",
           "package": "pandoc-citeproc",
@@ -2086,6 +2263,7 @@
         "index": {
           "description": "The CSL implementation",
           "hierarchy": "Text CSL Eval",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval",
           "name": "Eval",
           "package": "pandoc-citeproc",
@@ -2100,6 +2278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce the output with a \u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e, the \u003ccode\u003e\u003ca\u003eEvalMode\u003c/a\u003e\u003c/code\u003e, a \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e\n \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the evaluation happens for disambiguation purposes, the\n \u003ccode\u003e\u003ca\u003eLocale\u003c/a\u003e\u003c/code\u003e, the \u003ccode\u003e\u003ca\u003eMacroMap\u003c/a\u003e\u003c/code\u003e, the position of the cite and the\n \u003ccode\u003e\u003ca\u003eReference\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval",
           "name": "evalLayout",
           "package": "pandoc-citeproc",
@@ -2110,6 +2289,7 @@
         "index": {
           "description": "Produce the output with Layout the EvalMode Bool True if the evaluation happens for disambiguation purposes the Locale the MacroMap the position of the cite and the Reference",
           "hierarchy": "Text CSL Eval",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval",
           "name": "evalLayout",
           "normalized": "Layout-\u003eEvalMode-\u003eBool-\u003e[Locale]-\u003e[MacroMap]-\u003e[Option]-\u003eAbbreviations-\u003eReference-\u003e[Output]",
@@ -2125,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Eval",
           "name": "evalSorting",
           "package": "pandoc-citeproc",
@@ -2134,6 +2315,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Eval",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Eval",
           "name": "evalSorting",
           "normalized": "EvalMode-\u003e[Locale]-\u003e[MacroMap]-\u003e[Option]-\u003e[Sort]-\u003eAbbreviations-\u003eReference-\u003e[Sorting]",
@@ -2149,6 +2331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Input.Bibtex",
           "name": "Bibtex",
           "package": "pandoc-citeproc",
@@ -2157,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Input Bibtex",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Input.Bibtex",
           "name": "Bibtex",
           "package": "pandoc-citeproc",
@@ -2170,6 +2354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Input.Bibtex",
           "name": "readBibtexInput",
           "package": "pandoc-citeproc",
@@ -2179,6 +2364,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Input Bibtex",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Input.Bibtex",
           "name": "readBibtexInput",
           "normalized": "Bool-\u003eFilePath-\u003eIO[Reference]",
@@ -2194,6 +2380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Input.Bibtex",
           "name": "readBibtexInputString",
           "package": "pandoc-citeproc",
@@ -2203,6 +2390,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Input Bibtex",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Input.Bibtex",
           "name": "readBibtexInputString",
           "normalized": "Bool-\u003eString-\u003eIO[Reference]",
@@ -2218,6 +2406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Input.Bibutils",
           "name": "Bibutils",
           "package": "pandoc-citeproc",
@@ -2226,6 +2415,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Input Bibutils",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Input.Bibutils",
           "name": "Bibutils",
           "package": "pandoc-citeproc",
@@ -2239,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Input.Bibutils",
           "name": "BibFormat",
           "package": "pandoc-citeproc",
@@ -2247,6 +2438,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Input Bibutils",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Input.Bibutils",
           "name": "BibFormat",
           "package": "pandoc-citeproc",
@@ -2490,6 +2682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Input.Bibutils",
           "name": "convertRefs",
           "package": "pandoc-citeproc",
@@ -2499,6 +2692,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Input Bibutils",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Input.Bibutils",
           "name": "convertRefs",
           "normalized": "Maybe MetaValue-\u003eEither String[Reference]",
@@ -2567,6 +2761,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe pandoc output formatter for CSL\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Output.Pandoc",
           "name": "Pandoc",
           "package": "pandoc-citeproc",
@@ -2576,6 +2771,7 @@
         "index": {
           "description": "The pandoc output formatter for CSL",
           "hierarchy": "Text CSL Output Pandoc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Output.Pandoc",
           "name": "Pandoc",
           "package": "pandoc-citeproc",
@@ -2589,6 +2785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Output.Pandoc",
           "name": "headInline",
           "package": "pandoc-citeproc",
@@ -2598,6 +2795,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Output Pandoc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Output.Pandoc",
           "name": "headInline",
           "normalized": "[Inline]-\u003eString",
@@ -2613,6 +2811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Output.Pandoc",
           "name": "initInline",
           "package": "pandoc-citeproc",
@@ -2622,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Output Pandoc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Output.Pandoc",
           "name": "initInline",
           "normalized": "[Inline]-\u003e[Inline]",
@@ -2637,6 +2837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Output.Pandoc",
           "name": "lastInline",
           "package": "pandoc-citeproc",
@@ -2646,6 +2847,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Output Pandoc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Output.Pandoc",
           "name": "lastInline",
           "normalized": "[Inline]-\u003eString",
@@ -2711,6 +2913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Output.Pandoc",
           "name": "tailFirstInlineStr",
           "package": "pandoc-citeproc",
@@ -2720,6 +2923,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Output Pandoc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Output.Pandoc",
           "name": "tailFirstInlineStr",
           "normalized": "[Inline]-\u003e[Inline]",
@@ -2735,6 +2939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Output.Pandoc",
           "name": "tailInline",
           "package": "pandoc-citeproc",
@@ -2744,6 +2949,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Output Pandoc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Output.Pandoc",
           "name": "tailInline",
           "normalized": "[Inline]-\u003e[Inline]",
@@ -2759,6 +2965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Output.Pandoc",
           "name": "toCapital",
           "package": "pandoc-citeproc",
@@ -2768,6 +2975,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Output Pandoc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Output.Pandoc",
           "name": "toCapital",
           "normalized": "[Inline]-\u003e[Inline]",
@@ -2784,6 +2992,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe plain ascii output formatter for CSL\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Output.Plain",
           "name": "Plain",
           "package": "pandoc-citeproc",
@@ -2793,6 +3002,7 @@
         "index": {
           "description": "The plain ascii output formatter for CSL",
           "hierarchy": "Text CSL Output Plain",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Output.Plain",
           "name": "Plain",
           "package": "pandoc-citeproc",
@@ -2833,6 +3043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pandoc",
           "name": "Pandoc",
           "package": "pandoc-citeproc",
@@ -2841,6 +3052,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pandoc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pandoc",
           "name": "Pandoc",
           "package": "pandoc-citeproc",
@@ -2855,6 +3067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess a \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e document by adding citations formatted\n according to a CSL style.  Add a bibliography (if one is called\n for) at the end of the document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pandoc",
           "name": "processCites",
           "package": "pandoc-citeproc",
@@ -2865,6 +3078,7 @@
         "index": {
           "description": "Process Pandoc document by adding citations formatted according to CSL style Add bibliography if one is called for at the end of the document",
           "hierarchy": "Text CSL Pandoc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pandoc",
           "name": "processCites",
           "normalized": "Style-\u003e[Reference]-\u003ePandoc-\u003ePandoc",
@@ -2881,6 +3095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess a \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e document by adding citations formatted\n according to a CSL style.  The style filename is derived from\n the \u003ccode\u003ecsl\u003c/code\u003e field of the metadata, and the references are taken\n from the \u003ccode\u003e\u003ca\u003ereferences\u003c/a\u003e\u003c/code\u003e field or read from a file in the \u003ccode\u003e\u003ca\u003ebibliography\u003c/a\u003e\u003c/code\u003e\n field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pandoc",
           "name": "processCites'",
           "package": "pandoc-citeproc",
@@ -2891,6 +3106,7 @@
         "index": {
           "description": "Process Pandoc document by adding citations formatted according to CSL style The style filename is derived from the csl field of the metadata and the references are taken from the references field or read from file in the bibliography field",
           "hierarchy": "Text CSL Pandoc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pandoc",
           "name": "processCites'",
           "normalized": "Pandoc-\u003eIO Pandoc",
@@ -2907,6 +3123,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParser for Style\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Parser",
           "name": "Parser",
           "package": "pandoc-citeproc",
@@ -2916,6 +3133,7 @@
         "index": {
           "description": "Parser for Style",
           "hierarchy": "Text CSL Parser",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Parser",
           "name": "Parser",
           "package": "pandoc-citeproc",
@@ -3035,6 +3253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "Hexpat",
           "package": "pandoc-citeproc",
@@ -3043,6 +3262,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle Hexpat",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "Hexpat",
           "package": "pandoc-citeproc",
@@ -3056,6 +3276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "Attr",
           "package": "pandoc-citeproc",
@@ -3064,6 +3285,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle Hexpat",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "Attr",
           "package": "pandoc-citeproc",
@@ -3077,6 +3299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "Content",
           "package": "pandoc-citeproc",
@@ -3085,6 +3308,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle Hexpat",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "Content",
           "package": "pandoc-citeproc",
@@ -3098,6 +3322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "attrToCont",
           "package": "pandoc-citeproc",
@@ -3107,6 +3332,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle Hexpat",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "attrToCont",
           "normalized": "Attr-\u003eContent",
@@ -3122,6 +3348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "dropFirstElem",
           "package": "pandoc-citeproc",
@@ -3131,6 +3358,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle Hexpat",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "dropFirstElem",
           "normalized": "[Content]-\u003e[Content]",
@@ -3146,6 +3374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "dropText",
           "package": "pandoc-citeproc",
@@ -3155,6 +3384,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle Hexpat",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "dropText",
           "normalized": "[Content]-\u003e[Content]",
@@ -3170,6 +3400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "getAllText",
           "package": "pandoc-citeproc",
@@ -3179,6 +3410,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle Hexpat",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "getAllText",
           "normalized": "[Content]-\u003eString",
@@ -3194,6 +3426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "getAttName",
           "package": "pandoc-citeproc",
@@ -3203,6 +3436,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle Hexpat",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "getAttName",
           "normalized": "Attr-\u003eString",
@@ -3218,6 +3452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "getAttrVal",
           "package": "pandoc-citeproc",
@@ -3227,6 +3462,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle Hexpat",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "getAttrVal",
           "normalized": "[Content]-\u003eString",
@@ -3242,6 +3478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "getAttrl",
           "package": "pandoc-citeproc",
@@ -3251,6 +3488,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle Hexpat",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "getAttrl",
           "normalized": "Content-\u003e[Attr]",
@@ -3266,6 +3504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "getChildren",
           "package": "pandoc-citeproc",
@@ -3275,6 +3514,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle Hexpat",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "getChildren",
           "normalized": "Content-\u003e[Content]",
@@ -3290,6 +3530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "getElemName",
           "package": "pandoc-citeproc",
@@ -3299,6 +3540,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle Hexpat",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "getElemName",
           "normalized": "Content-\u003eMaybe String",
@@ -3314,6 +3556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "getText",
           "package": "pandoc-citeproc",
@@ -3323,6 +3566,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle Hexpat",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "getText",
           "normalized": "[Content]-\u003eMaybe String",
@@ -3338,6 +3582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "mkAttribute",
           "package": "pandoc-citeproc",
@@ -3347,6 +3592,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle Hexpat",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "mkAttribute",
           "normalized": "String-\u003eString-\u003eAttr",
@@ -3362,6 +3608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "mkElement",
           "package": "pandoc-citeproc",
@@ -3371,6 +3618,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle Hexpat",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "mkElement",
           "normalized": "String-\u003e[Attr]-\u003e[Content]-\u003eContent",
@@ -3386,6 +3634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "mkName",
           "package": "pandoc-citeproc",
@@ -3395,6 +3644,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle Hexpat",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "mkName",
           "normalized": "String-\u003eString",
@@ -3410,6 +3660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "mkText",
           "package": "pandoc-citeproc",
@@ -3419,6 +3670,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle Hexpat",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "mkText",
           "normalized": "String-\u003eContent",
@@ -3434,6 +3686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "onlyElems'",
           "package": "pandoc-citeproc",
@@ -3443,6 +3696,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle Hexpat",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "onlyElems'",
           "normalized": "[Content]-\u003e[Content]",
@@ -3458,6 +3712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "parseXML'",
           "package": "pandoc-citeproc",
@@ -3467,6 +3722,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle Hexpat",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "parseXML'",
           "normalized": "ByteString-\u003e[Content]",
@@ -3482,6 +3738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "qualifiedName",
           "package": "pandoc-citeproc",
@@ -3491,6 +3748,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle Hexpat",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "qualifiedName",
           "normalized": "String-\u003eString",
@@ -3506,6 +3764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "showXML",
           "package": "pandoc-citeproc",
@@ -3515,6 +3774,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle Hexpat",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle.Hexpat",
           "name": "showXML",
           "normalized": "Content-\u003eString",
@@ -3531,6 +3791,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is mostly copied from Text.XML.HXT.Arrow.Pickle.Xml\n which is an adaptation of the pickler combinators developed by\n Andrew Kennedy.\n\u003c/p\u003e\u003cp\u003eSee: \u003ca\u003ehttp://research.microsoft.com/~akenn/fun/picklercombinators.pdf\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "Pickle",
           "package": "pandoc-citeproc",
@@ -3540,6 +3801,7 @@
         "index": {
           "description": "This module is mostly copied from Text.XML.HXT.Arrow.Pickle.Xml which is an adaptation of the pickler combinators developed by Andrew Kennedy See http research.microsoft.com akenn fun picklercombinators.pdf",
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "Pickle",
           "package": "pandoc-citeproc",
@@ -3553,6 +3815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "PU",
           "package": "pandoc-citeproc",
@@ -3561,6 +3824,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "PU",
           "package": "pandoc-citeproc",
@@ -3574,6 +3838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "St",
           "package": "pandoc-citeproc",
@@ -3582,6 +3847,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "St",
           "package": "pandoc-citeproc",
@@ -3595,6 +3861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "XmlPickler",
           "package": "pandoc-citeproc",
@@ -3603,6 +3870,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "XmlPickler",
           "package": "pandoc-citeproc",
@@ -3616,6 +3884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "PU",
           "package": "pandoc-citeproc",
@@ -3625,6 +3894,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "PU",
           "package": "pandoc-citeproc",
@@ -3638,6 +3908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "St",
           "package": "pandoc-citeproc",
@@ -3647,6 +3918,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "St",
           "package": "pandoc-citeproc",
@@ -3660,6 +3932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "addAtt",
           "package": "pandoc-citeproc",
@@ -3669,6 +3942,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "addAtt",
           "normalized": "Attr-\u003eSt-\u003eSt",
@@ -3684,6 +3958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "addCont",
           "package": "pandoc-citeproc",
@@ -3693,6 +3968,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "addCont",
           "normalized": "Content-\u003eSt-\u003eSt",
@@ -3708,6 +3984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "appPickle",
           "package": "pandoc-citeproc",
@@ -3717,6 +3994,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "appPickle",
           "normalized": "(a,St)-\u003eSt",
@@ -3732,6 +4010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "appUnPickle",
           "package": "pandoc-citeproc",
@@ -3741,6 +4020,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "appUnPickle",
           "normalized": "St-\u003e(Maybe a,St)",
@@ -3756,6 +4036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "attributes",
           "package": "pandoc-citeproc",
@@ -3765,6 +4046,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "attributes",
           "normalized": "[Attr]",
@@ -3779,6 +4061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "contents",
           "package": "pandoc-citeproc",
@@ -3788,6 +4071,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "contents",
           "normalized": "[Content]",
@@ -3802,6 +4086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "dropCont",
           "package": "pandoc-citeproc",
@@ -3811,6 +4096,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "dropCont",
           "normalized": "St-\u003eSt",
@@ -3826,6 +4112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "emptySt",
           "package": "pandoc-citeproc",
@@ -3835,6 +4122,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "emptySt",
           "package": "pandoc-citeproc",
@@ -3848,6 +4136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "getAtt",
           "package": "pandoc-citeproc",
@@ -3857,6 +4146,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "getAtt",
           "normalized": "String-\u003eSt-\u003eMaybe Attr",
@@ -3872,6 +4162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "getCont",
           "package": "pandoc-citeproc",
@@ -3881,6 +4172,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "getCont",
           "normalized": "St-\u003eMaybe Content",
@@ -3896,6 +4188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "pickleXML",
           "package": "pandoc-citeproc",
@@ -3905,6 +4198,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "pickleXML",
           "normalized": "PU a-\u003ea-\u003eString",
@@ -3920,6 +4214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "readFile'",
           "package": "pandoc-citeproc",
@@ -3929,6 +4224,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "readFile'",
           "normalized": "FilePath-\u003eIO ByteString",
@@ -3944,6 +4240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "readXmlFile",
           "package": "pandoc-citeproc",
@@ -3953,6 +4250,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "readXmlFile",
           "normalized": "PU a-\u003eFilePath-\u003eIO a",
@@ -3968,6 +4266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "readXmlString",
           "package": "pandoc-citeproc",
@@ -3977,6 +4276,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "readXmlString",
           "normalized": "PU a-\u003eByteString-\u003ea",
@@ -3992,6 +4292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "uncurry3",
           "package": "pandoc-citeproc",
@@ -4001,6 +4302,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "uncurry3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003e(a,b,c)-\u003ed",
@@ -4015,6 +4317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "uncurry4",
           "package": "pandoc-citeproc",
@@ -4024,6 +4327,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "uncurry4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003e(a,b,c,d)-\u003ee",
@@ -4038,6 +4342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "uncurry5",
           "package": "pandoc-citeproc",
@@ -4047,6 +4352,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "uncurry5",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee-\u003ef)-\u003e(a,b,c,d,e)-\u003ef",
@@ -4061,6 +4367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "unescape",
           "package": "pandoc-citeproc",
@@ -4070,6 +4377,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "unescape",
           "normalized": "String-\u003eString",
@@ -4084,6 +4392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "unpickleXML",
           "package": "pandoc-citeproc",
@@ -4093,6 +4402,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "unpickleXML",
           "normalized": "PU a-\u003e[Content]-\u003eMaybe a",
@@ -4108,6 +4418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xp4Tuple",
           "package": "pandoc-citeproc",
@@ -4117,6 +4428,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xp4Tuple",
           "normalized": "PU a-\u003ePU b-\u003ePU c-\u003ePU d-\u003ePU(a,b,c,d)",
@@ -4132,6 +4444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xp5Tuple",
           "package": "pandoc-citeproc",
@@ -4141,6 +4454,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xp5Tuple",
           "normalized": "PU a-\u003ePU b-\u003ePU c-\u003ePU d-\u003ePU e-\u003ePU(a,b,c,d,e)",
@@ -4156,6 +4470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xp6Tuple",
           "package": "pandoc-citeproc",
@@ -4165,6 +4480,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xp6Tuple",
           "normalized": "PU a-\u003ePU b-\u003ePU c-\u003ePU d-\u003ePU e-\u003ePU f-\u003ePU(a,b,c,d,e,f)",
@@ -4180,6 +4496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpAddFixedAttr",
           "package": "pandoc-citeproc",
@@ -4189,6 +4506,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpAddFixedAttr",
           "normalized": "String-\u003eString-\u003ePU a-\u003ePU a",
@@ -4204,6 +4522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpAlt",
           "package": "pandoc-citeproc",
@@ -4213,6 +4532,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpAlt",
           "normalized": "(a-\u003eInt)-\u003e[PU a]-\u003ePU a",
@@ -4228,6 +4548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpAttr",
           "package": "pandoc-citeproc",
@@ -4237,6 +4558,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpAttr",
           "normalized": "String-\u003ePU a-\u003ePU a",
@@ -4252,6 +4574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpAttrFixed",
           "package": "pandoc-citeproc",
@@ -4261,6 +4584,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpAttrFixed",
           "normalized": "String-\u003eString-\u003ePU()",
@@ -4276,6 +4600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpChoice",
           "package": "pandoc-citeproc",
@@ -4285,6 +4610,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpChoice",
           "normalized": "PU a-\u003ePU b-\u003e(b-\u003ePU a)-\u003ePU a",
@@ -4300,6 +4626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpCondSeq",
           "package": "pandoc-citeproc",
@@ -4309,6 +4636,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpCondSeq",
           "normalized": "PU a-\u003e(a-\u003eb)-\u003ePU b-\u003e(b-\u003ePU a)-\u003ePU a",
@@ -4324,6 +4652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpDefault",
           "package": "pandoc-citeproc",
@@ -4333,6 +4662,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpDefault",
           "normalized": "a-\u003ePU a-\u003ePU a",
@@ -4348,6 +4678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpElem",
           "package": "pandoc-citeproc",
@@ -4357,6 +4688,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpElem",
           "normalized": "String-\u003ePU a-\u003ePU a",
@@ -4372,6 +4704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpElemWithAttrValue",
           "package": "pandoc-citeproc",
@@ -4381,6 +4714,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpElemWithAttrValue",
           "normalized": "String-\u003eString-\u003eString-\u003ePU a-\u003ePU a",
@@ -4397,6 +4731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pickler for interleaved elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpIElem",
           "package": "pandoc-citeproc",
@@ -4407,6 +4742,7 @@
         "index": {
           "description": "pickler for interleaved elements",
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpIElem",
           "normalized": "String-\u003ePU a-\u003ePU a",
@@ -4422,6 +4758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpLift",
           "package": "pandoc-citeproc",
@@ -4431,6 +4768,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpLift",
           "normalized": "a-\u003ePU a",
@@ -4446,6 +4784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpLiftMaybe",
           "package": "pandoc-citeproc",
@@ -4455,6 +4794,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpLiftMaybe",
           "normalized": "Maybe a-\u003ePU a",
@@ -4470,6 +4810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpList",
           "package": "pandoc-citeproc",
@@ -4479,6 +4820,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpList",
           "normalized": "PU a-\u003ePU[a]",
@@ -4494,6 +4836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpOption",
           "package": "pandoc-citeproc",
@@ -4503,6 +4846,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpOption",
           "normalized": "PU a-\u003ePU(Maybe a)",
@@ -4518,6 +4862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpPair",
           "package": "pandoc-citeproc",
@@ -4527,6 +4872,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpPair",
           "normalized": "PU a-\u003ePU b-\u003ePU(a,b)",
@@ -4542,6 +4888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpPrim",
           "package": "pandoc-citeproc",
@@ -4551,6 +4898,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpPrim",
           "package": "pandoc-citeproc",
@@ -4564,6 +4912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpSeq",
           "package": "pandoc-citeproc",
@@ -4573,6 +4922,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpSeq",
           "normalized": "(a-\u003eb)-\u003ePU b-\u003e(b-\u003ePU a)-\u003ePU a",
@@ -4588,6 +4938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpText",
           "package": "pandoc-citeproc",
@@ -4597,6 +4948,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpText",
           "package": "pandoc-citeproc",
@@ -4610,6 +4962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpText0",
           "package": "pandoc-citeproc",
@@ -4619,6 +4972,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpText0",
           "package": "pandoc-citeproc",
@@ -4632,6 +4986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpTriple",
           "package": "pandoc-citeproc",
@@ -4641,6 +4996,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpTriple",
           "normalized": "PU a-\u003ePU b-\u003ePU c-\u003ePU(a,b,c)",
@@ -4656,6 +5012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpUnit",
           "package": "pandoc-citeproc",
@@ -4665,6 +5022,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpUnit",
           "normalized": "PU()",
@@ -4680,6 +5038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpWrap",
           "package": "pandoc-citeproc",
@@ -4689,6 +5048,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpWrap",
           "normalized": "(a-\u003eb,b-\u003ea)-\u003ePU a-\u003ePU b",
@@ -4704,6 +5064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpWrapMaybe",
           "package": "pandoc-citeproc",
@@ -4713,6 +5074,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpWrapMaybe",
           "normalized": "(a-\u003eMaybe b,b-\u003ea)-\u003ePU a-\u003ePU b",
@@ -4728,6 +5090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpZero",
           "package": "pandoc-citeproc",
@@ -4737,6 +5100,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpZero",
           "package": "pandoc-citeproc",
@@ -4750,6 +5114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Pickle",
           "name": "xpickle",
           "package": "pandoc-citeproc",
@@ -4759,6 +5124,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Pickle",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Pickle",
           "name": "xpickle",
           "package": "pandoc-citeproc",
@@ -4772,6 +5138,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions for processing the evaluated\n \u003ccode\u003e\u003ca\u003eOutput\u003c/a\u003e\u003c/code\u003e for citation collapsing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Collapse",
           "name": "Collapse",
           "package": "pandoc-citeproc",
@@ -4781,6 +5148,7 @@
         "index": {
           "description": "This module provides functions for processing the evaluated Output for citation collapsing",
           "hierarchy": "Text CSL Proc Collapse",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Collapse",
           "name": "Collapse",
           "package": "pandoc-citeproc",
@@ -4794,6 +5162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Collapse",
           "name": "addCiteAffixes",
           "package": "pandoc-citeproc",
@@ -4803,6 +5172,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Collapse",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Collapse",
           "name": "addCiteAffixes",
           "normalized": "Cite-\u003eOutput-\u003eOutput",
@@ -4819,6 +5189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollapse citations according to the style options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Collapse",
           "name": "collapseCitGroups",
           "package": "pandoc-citeproc",
@@ -4829,6 +5200,7 @@
         "index": {
           "description": "Collapse citations according to the style options",
           "hierarchy": "Text CSL Proc Collapse",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Collapse",
           "name": "collapseCitGroups",
           "normalized": "Style-\u003e[CitationGroup]-\u003e[CitationGroup]",
@@ -4844,6 +5216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Collapse",
           "name": "collapseNumber",
           "package": "pandoc-citeproc",
@@ -4853,6 +5226,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Collapse",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Collapse",
           "name": "collapseNumber",
           "normalized": "CitationGroup-\u003eCitationGroup",
@@ -4868,6 +5242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Collapse",
           "name": "collapseYear",
           "package": "pandoc-citeproc",
@@ -4877,6 +5252,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Collapse",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Collapse",
           "name": "collapseYear",
           "normalized": "Style-\u003eString-\u003eCitationGroup-\u003eCitationGroup",
@@ -4892,6 +5268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Collapse",
           "name": "collapseYearSuf",
           "package": "pandoc-citeproc",
@@ -4901,6 +5278,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Collapse",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Collapse",
           "name": "collapseYearSuf",
           "normalized": "Bool-\u003eString-\u003e[(Cite,Output)]-\u003e[Output]",
@@ -4916,6 +5294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Collapse",
           "name": "collapseYearSufRanged",
           "package": "pandoc-citeproc",
@@ -4925,6 +5304,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Collapse",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Collapse",
           "name": "collapseYearSufRanged",
           "normalized": "[Output]-\u003e[Output]",
@@ -4941,6 +5321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the collapse option set in the \u003ccode\u003e\u003ca\u003eStyle\u003c/a\u003e\u003c/code\u003e for citations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Collapse",
           "name": "getCollapseOptions",
           "package": "pandoc-citeproc",
@@ -4951,6 +5332,7 @@
         "index": {
           "description": "Get the collapse option set in the Style for citations",
           "hierarchy": "Text CSL Proc Collapse",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Collapse",
           "name": "getCollapseOptions",
           "normalized": "Style-\u003e[String]",
@@ -4966,6 +5348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Collapse",
           "name": "getYearAndSuf",
           "package": "pandoc-citeproc",
@@ -4975,6 +5358,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Collapse",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Collapse",
           "name": "getYearAndSuf",
           "normalized": "Output-\u003eOutput",
@@ -4990,6 +5374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Collapse",
           "name": "groupCites",
           "package": "pandoc-citeproc",
@@ -4999,6 +5384,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Collapse",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Collapse",
           "name": "groupCites",
           "normalized": "[(Cite,Output)]-\u003e[(Cite,Output)]",
@@ -5015,6 +5401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroup consecutive integers:\n\u003c/p\u003e\u003cpre\u003e groupConsec [1,2,3,5,6,8,9] == [[1,2,3],[5,6],[8,9]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Collapse",
           "name": "groupConsec",
           "package": "pandoc-citeproc",
@@ -5025,6 +5412,7 @@
         "index": {
           "description": "Group consecutive integers groupConsec",
           "hierarchy": "Text CSL Proc Collapse",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Collapse",
           "name": "groupConsec",
           "normalized": "[Int]-\u003e[[Int]]",
@@ -5040,6 +5428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Collapse",
           "name": "isNumStyle",
           "package": "pandoc-citeproc",
@@ -5049,6 +5438,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Collapse",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Collapse",
           "name": "isNumStyle",
           "normalized": "[Output]-\u003eBool",
@@ -5065,6 +5455,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions for processing the evaluated\n \u003ccode\u003e\u003ca\u003eOutput\u003c/a\u003e\u003c/code\u003e for citation disambiguation.\n\u003c/p\u003e\u003cp\u003eDescribe the disambiguation process.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "Disamb",
           "package": "pandoc-citeproc",
@@ -5074,6 +5465,7 @@
         "index": {
           "description": "This module provides functions for processing the evaluated Output for citation disambiguation Describe the disambiguation process",
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "Disamb",
           "package": "pandoc-citeproc",
@@ -5087,6 +5479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "GiveNameDisambiguation",
           "package": "pandoc-citeproc",
@@ -5095,6 +5488,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "GiveNameDisambiguation",
           "package": "pandoc-citeproc",
@@ -5108,6 +5502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "AllNames",
           "package": "pandoc-citeproc",
@@ -5117,6 +5512,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "AllNames",
           "package": "pandoc-citeproc",
@@ -5130,6 +5526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "ByCite",
           "package": "pandoc-citeproc",
@@ -5139,6 +5536,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "ByCite",
           "package": "pandoc-citeproc",
@@ -5152,6 +5550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "NoGiven",
           "package": "pandoc-citeproc",
@@ -5161,6 +5560,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "NoGiven",
           "package": "pandoc-citeproc",
@@ -5175,6 +5575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd, with \u003ccode\u003eproc\u003c/code\u003e, a give name to the family name. Needed for\n disambiguation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "addGivenNames",
           "package": "pandoc-citeproc",
@@ -5185,6 +5586,7 @@
         "index": {
           "description": "Add with proc give name to the family name Needed for disambiguation",
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "addGivenNames",
           "normalized": "[Output]-\u003e[Output]",
@@ -5201,6 +5603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the year suffix to the year. Needed for disambiguation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "addYearSuffix",
           "package": "pandoc-citeproc",
@@ -5211,6 +5614,7 @@
         "index": {
           "description": "Add the year suffix to the year Needed for disambiguation",
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "addYearSuffix",
           "normalized": "Output-\u003eOutput",
@@ -5226,6 +5630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "allTheSame",
           "package": "pandoc-citeproc",
@@ -5235,6 +5640,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "allTheSame",
           "normalized": "[a]-\u003eBool",
@@ -5250,6 +5656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "disambAddGivenNames",
           "package": "pandoc-citeproc",
@@ -5259,6 +5666,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "disambAddGivenNames",
           "normalized": "[NameData]-\u003e[NameData]",
@@ -5274,6 +5682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "disambAddNames",
           "package": "pandoc-citeproc",
@@ -5283,6 +5692,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "disambAddNames",
           "normalized": "GiveNameDisambiguation-\u003e[CiteData]-\u003e[CiteData]",
@@ -5299,6 +5709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the \u003ccode\u003e\u003ca\u003eStyle\u003c/a\u003e\u003c/code\u003e, the list of references and the citation\n groups, disambiguate citations according to the style options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "disambCitations",
           "package": "pandoc-citeproc",
@@ -5309,6 +5720,7 @@
         "index": {
           "description": "Given the Style the list of references and the citation groups disambiguate citations according to the style options",
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "disambCitations",
           "normalized": "Style-\u003e[Reference]-\u003eCitations-\u003e[CitationGroup]-\u003e([(String,String)],[CitationGroup])",
@@ -5325,6 +5737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to disambiguate a list of lists by returning the first non\n colliding element, if any, of each list:\n\u003c/p\u003e\u003cpre\u003e disambiguate [[1,2],[1,3],[2]] = [[2],[3],[2]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "disambiguate",
           "package": "pandoc-citeproc",
@@ -5335,6 +5748,7 @@
         "index": {
           "description": "Try to disambiguate list of lists by returning the first non colliding element if any of each list disambiguate",
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "disambiguate",
           "normalized": "[[a]]-\u003e[[a]]",
@@ -5349,6 +5763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "generateYearSuffix",
           "package": "pandoc-citeproc",
@@ -5358,6 +5773,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "generateYearSuffix",
           "normalized": "[Reference]-\u003e[(String,[Output])]-\u003e[(String,String)]",
@@ -5374,6 +5790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of disambiguation options set in the \u003ccode\u003e\u003ca\u003eStyle\u003c/a\u003e\u003c/code\u003e for\n citations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "getCitDisambOptions",
           "package": "pandoc-citeproc",
@@ -5384,6 +5801,7 @@
         "index": {
           "description": "Get the list of disambiguation options set in the Style for citations",
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "getCitDisambOptions",
           "normalized": "Style-\u003e[String]",
@@ -5400,6 +5818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor an evaluated citation get its \u003ccode\u003e\u003ca\u003eCiteData\u003c/a\u003e\u003c/code\u003e. The disambiguated\n citation and the year fields are empty. Only the first list of\n contributors' disambiguation data are collected for disambiguation\n purposes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "getCiteData",
           "package": "pandoc-citeproc",
@@ -5410,6 +5829,7 @@
         "index": {
           "description": "For an evaluated citation get its CiteData The disambiguated citation and the year fields are empty Only the first list of contributors disambiguation data are collected for disambiguation purposes",
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "getCiteData",
           "normalized": "Output-\u003e[CiteData]",
@@ -5426,6 +5846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroup citation data (with possible alternative names) of\n citations which have a duplicate (same \u003ccode\u003e\u003ca\u003ecollision\u003c/a\u003e\u003c/code\u003e, and same\n \u003ccode\u003e\u003ca\u003ecitYear\u003c/a\u003e\u003c/code\u003e if year suffix disambiiguation is used). If the first\n \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e, then we need to retrieve data for year suffix\n disambiguation. The second \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e when comparing both\n year and contributors' names for finding duplicates (when the\n year-suffix option is set).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "getDuplCiteData",
           "package": "pandoc-citeproc",
@@ -5436,6 +5857,7 @@
         "index": {
           "description": "Group citation data with possible alternative names of citations which have duplicate same collision and same citYear if year suffix disambiiguation is used If the first Bool is False then we need to retrieve data for year suffix disambiguation The second Bool is True when comparing both year and contributors names for finding duplicates when the year-suffix option is set",
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "getDuplCiteData",
           "normalized": "Bool-\u003eBool-\u003e[CitationGroup]-\u003e[[CiteData]]",
@@ -5451,6 +5873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "getDuplNameData",
           "package": "pandoc-citeproc",
@@ -5460,6 +5883,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "getDuplNameData",
           "normalized": "[CitationGroup]-\u003e[[NameData]]",
@@ -5475,6 +5899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "getDuplNames",
           "package": "pandoc-citeproc",
@@ -5484,6 +5909,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "getDuplNames",
           "normalized": "[CitationGroup]-\u003e[[Output]]",
@@ -5499,6 +5925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "getName",
           "package": "pandoc-citeproc",
@@ -5508,6 +5935,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "getName",
           "normalized": "Output-\u003e[NameData]",
@@ -5523,6 +5951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "getYearSuffixes",
           "package": "pandoc-citeproc",
@@ -5532,6 +5961,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "getYearSuffixes",
           "normalized": "CitationGroup-\u003e[(String,[Output])]",
@@ -5547,6 +5977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "getYears",
           "package": "pandoc-citeproc",
@@ -5556,6 +5987,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "getYears",
           "normalized": "Output-\u003e[(String,String)]",
@@ -5571,6 +6003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "hasDuplicates",
           "package": "pandoc-citeproc",
@@ -5580,6 +6013,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "hasDuplicates",
           "normalized": "[a]-\u003eBool",
@@ -5596,6 +6030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if the \u003ccode\u003e\u003ca\u003eStyle\u003c/a\u003e\u003c/code\u003e has any conditional for disambiguation. In\n this case the conditional will be try after all other\n disambiguation strategies have failed. To be used with the generic\n \u003ccode\u003equery\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "hasIfDis",
           "package": "pandoc-citeproc",
@@ -5606,6 +6041,7 @@
         "index": {
           "description": "Check if the Style has any conditional for disambiguation In this case the conditional will be try after all other disambiguation strategies have failed To be used with the generic query function",
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "hasIfDis",
           "normalized": "IfThen-\u003e[Bool]",
@@ -5621,6 +6057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "hasYear",
           "package": "pandoc-citeproc",
@@ -5630,6 +6067,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "hasYear",
           "normalized": "Output-\u003eBool",
@@ -5645,6 +6083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "hasYearSuf",
           "package": "pandoc-citeproc",
@@ -5654,6 +6093,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "hasYearSuf",
           "normalized": "Output-\u003eBool",
@@ -5669,6 +6109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "mapCitationGroup",
           "package": "pandoc-citeproc",
@@ -5678,6 +6119,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "mapCitationGroup",
           "normalized": "([Output]-\u003e[Output])-\u003eCitationGroup-\u003eCitationGroup",
@@ -5693,6 +6135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "mapDisambData",
           "package": "pandoc-citeproc",
@@ -5702,6 +6145,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "mapDisambData",
           "normalized": "(Output-\u003eOutput)-\u003eCiteData-\u003eCiteData",
@@ -5718,6 +6162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap the evaluated output of a citation group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "mapGroupOutput",
           "package": "pandoc-citeproc",
@@ -5728,6 +6173,7 @@
         "index": {
           "description": "Map the evaluated output of citation group",
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "mapGroupOutput",
           "normalized": "(Output-\u003e[a])-\u003eCitationGroup-\u003e[a]",
@@ -5744,6 +6190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate again a citation group with the \u003ccode\u003e\u003ca\u003eEvalState\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edisamb\u003c/a\u003e\u003c/code\u003e\n field set to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e (for matching the \u003ccode\u003e\"disambiguate\"\u003c/code\u003e\n condition).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "reEvaluate",
           "package": "pandoc-citeproc",
@@ -5754,6 +6201,7 @@
         "index": {
           "description": "Evaluate again citation group with the EvalState disamb field set to True for matching the disambiguate condition",
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "reEvaluate",
           "normalized": "Style-\u003e[CiteData]-\u003e[(Cite,Reference)]-\u003eCitationGroup-\u003eCitationGroup",
@@ -5769,6 +6217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "rmExtras",
           "package": "pandoc-citeproc",
@@ -5778,6 +6227,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "rmExtras",
           "normalized": "[Output]-\u003e[Output]",
@@ -5794,6 +6244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves all given names form a \u003ccode\u003e\u003ca\u003eOName\u003c/a\u003e\u003c/code\u003e element with \u003ccode\u003eproc\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "rmGivenNames",
           "package": "pandoc-citeproc",
@@ -5804,6 +6255,7 @@
         "index": {
           "description": "Removes all given names form OName element with proc",
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "rmGivenNames",
           "normalized": "Output-\u003eOutput",
@@ -5819,6 +6271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "rmNameHash",
           "package": "pandoc-citeproc",
@@ -5828,6 +6281,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "rmNameHash",
           "normalized": "Output-\u003eOutput",
@@ -5843,6 +6297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "rmYearSuff",
           "package": "pandoc-citeproc",
@@ -5852,6 +6307,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "rmYearSuff",
           "normalized": "[CitationGroup]-\u003e[CitationGroup]",
@@ -5868,6 +6324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor each element a list of \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e: \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the element has a\n duplicate in the list:\n\u003c/p\u003e\u003cpre\u003e same [1,2,1] = [True,False,True]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "same",
           "package": "pandoc-citeproc",
@@ -5878,6 +6335,7 @@
         "index": {
           "description": "For each element list of Bool True if the element has duplicate in the list same True False True",
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "same",
           "normalized": "[a]-\u003e[Bool]",
@@ -5892,6 +6350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "setYearSuffCollision",
           "package": "pandoc-citeproc",
@@ -5901,6 +6360,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "setYearSuffCollision",
           "normalized": "Bool-\u003e[CiteData]-\u003e[Output]-\u003e[Output]",
@@ -5916,6 +6376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "updateContrib",
           "package": "pandoc-citeproc",
@@ -5925,6 +6386,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "updateContrib",
           "normalized": "GiveNameDisambiguation-\u003e[CiteData]-\u003e[NameData]-\u003eOutput-\u003eOutput",
@@ -5940,6 +6402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "updateOName",
           "package": "pandoc-citeproc",
@@ -5949,6 +6412,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "updateOName",
           "normalized": "[NameData]-\u003eOutput-\u003eOutput",
@@ -5964,6 +6428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc.Disamb",
           "name": "updateYearSuffixes",
           "package": "pandoc-citeproc",
@@ -5973,6 +6438,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc Disamb",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc.Disamb",
           "name": "updateYearSuffixes",
           "normalized": "[(String,String)]-\u003eOutput-\u003eOutput",
@@ -5989,6 +6455,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions for processing the evaluated\n \u003ccode\u003e\u003ca\u003eOutput\u003c/a\u003e\u003c/code\u003e for disambiguation and citation collapsing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc",
           "name": "Proc",
           "package": "pandoc-citeproc",
@@ -5998,6 +6465,7 @@
         "index": {
           "description": "This module provides functions for processing the evaluated Output for disambiguation and citation collapsing",
           "hierarchy": "Text CSL Proc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc",
           "name": "Proc",
           "package": "pandoc-citeproc",
@@ -6011,6 +6479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc",
           "name": "BibOpts",
           "package": "pandoc-citeproc",
@@ -6019,6 +6488,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc",
           "name": "BibOpts",
           "package": "pandoc-citeproc",
@@ -6032,6 +6502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc",
           "name": "FieldVal",
           "package": "pandoc-citeproc",
@@ -6040,6 +6511,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc",
           "name": "FieldVal",
           "package": "pandoc-citeproc",
@@ -6053,6 +6525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc",
           "name": "ProcOpts",
           "package": "pandoc-citeproc",
@@ -6061,6 +6534,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc",
           "name": "ProcOpts",
           "package": "pandoc-citeproc",
@@ -6099,6 +6573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc",
           "name": "FieldVal",
           "package": "pandoc-citeproc",
@@ -6108,6 +6583,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc",
           "name": "FieldVal",
           "package": "pandoc-citeproc",
@@ -6194,6 +6670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc",
           "name": "addAffixes",
           "package": "pandoc-citeproc",
@@ -6203,6 +6680,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc",
           "name": "addAffixes",
           "normalized": "Formatting-\u003e[Output]-\u003e[Output]",
@@ -6267,6 +6745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc",
           "name": "contribOnly",
           "package": "pandoc-citeproc",
@@ -6276,6 +6755,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc",
           "name": "contribOnly",
           "normalized": "Style-\u003eOutput-\u003eOutput",
@@ -6291,6 +6771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc",
           "name": "filterRefs",
           "package": "pandoc-citeproc",
@@ -6300,6 +6781,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc",
           "name": "filterRefs",
           "normalized": "BibOpts-\u003e[Reference]-\u003e[Reference]",
@@ -6315,6 +6797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc",
           "name": "formatBiblioLayout",
           "package": "pandoc-citeproc",
@@ -6324,6 +6807,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc",
           "name": "formatBiblioLayout",
           "normalized": "Formatting-\u003eDelimiter-\u003e[Output]-\u003e[Output]",
@@ -6339,6 +6823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc",
           "name": "formatCitLayout",
           "package": "pandoc-citeproc",
@@ -6348,6 +6833,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc",
           "name": "formatCitLayout",
           "normalized": "Style-\u003eCitationGroup-\u003eFormatted",
@@ -6364,6 +6850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if we are formatting a textual citation (in\n pandoc terminology).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc",
           "name": "localModifiers",
           "package": "pandoc-citeproc",
@@ -6374,6 +6861,7 @@
         "index": {
           "description": "The Bool is True if we are formatting textual citation in pandoc terminology",
           "hierarchy": "Text CSL Proc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc",
           "name": "localModifiers",
           "normalized": "Style-\u003eBool-\u003eCite-\u003eOutput-\u003eOutput",
@@ -6390,6 +6878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWith a \u003ccode\u003e\u003ca\u003eStyle\u003c/a\u003e\u003c/code\u003e and a sorted list of \u003ccode\u003e\u003ca\u003eReference\u003c/a\u003e\u003c/code\u003es produce the\n evaluated output for the bibliography.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc",
           "name": "procBiblio",
           "package": "pandoc-citeproc",
@@ -6400,6 +6889,7 @@
         "index": {
           "description": "With Style and sorted list of Reference produce the evaluated output for the bibliography",
           "hierarchy": "Text CSL Proc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc",
           "name": "procBiblio",
           "normalized": "BibOpts-\u003eStyle-\u003e[Reference]-\u003e[[Output]]",
@@ -6416,6 +6906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the CSL \u003ccode\u003e\u003ca\u003eStyle\u003c/a\u003e\u003c/code\u003e and the list of \u003ccode\u003e\u003ca\u003eCite\u003c/a\u003e\u003c/code\u003es coupled with their\n \u003ccode\u003e\u003ca\u003eReference\u003c/a\u003e\u003c/code\u003es, generate a \u003ccode\u003e\u003ca\u003eCitationGroup\u003c/a\u003e\u003c/code\u003e. The citations are sorted\n according to the \u003ccode\u003e\u003ca\u003eStyle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc",
           "name": "procGroup",
           "package": "pandoc-citeproc",
@@ -6426,6 +6917,7 @@
         "index": {
           "description": "Given the CSL Style and the list of Cite coupled with their Reference generate CitationGroup The citations are sorted according to the Style",
           "hierarchy": "Text CSL Proc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc",
           "name": "procGroup",
           "normalized": "Style-\u003e[(Cite,Reference)]-\u003eCitationGroup",
@@ -6465,6 +6957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the CSL \u003ccode\u003e\u003ca\u003eStyle\u003c/a\u003e\u003c/code\u003e and the list of \u003ccode\u003e\u003ca\u003eReference\u003c/a\u003e\u003c/code\u003es sort the list\n according to the \u003ccode\u003e\u003ca\u003eStyle\u003c/a\u003e\u003c/code\u003e and assign the citation number to each\n \u003ccode\u003e\u003ca\u003eReference\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc",
           "name": "procRefs",
           "package": "pandoc-citeproc",
@@ -6475,6 +6968,7 @@
         "index": {
           "description": "Given the CSL Style and the list of Reference sort the list according to the Style and assign the citation number to each Reference",
           "hierarchy": "Text CSL Proc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc",
           "name": "procRefs",
           "normalized": "Style-\u003e[Reference]-\u003e[Reference]",
@@ -6544,6 +7038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc",
           "name": "sortItems",
           "package": "pandoc-citeproc",
@@ -6553,6 +7048,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc",
           "name": "sortItems",
           "normalized": "[(a,[Sorting])]-\u003e[a]",
@@ -6568,6 +7064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc",
           "name": "subsequentAuthorSubstitute",
           "package": "pandoc-citeproc",
@@ -6577,6 +7074,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc",
           "name": "subsequentAuthorSubstitute",
           "normalized": "Bibliography-\u003e[[Output]]-\u003e[[Output]]",
@@ -6592,6 +7090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Proc",
           "name": "unFieldVal",
           "package": "pandoc-citeproc",
@@ -6601,6 +7100,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Proc",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Proc",
           "name": "unFieldVal",
           "normalized": "(String,String)",
@@ -6617,6 +7117,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Reference type\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Reference",
           "package": "pandoc-citeproc",
@@ -6626,6 +7127,7 @@
         "index": {
           "description": "The Reference type",
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Reference",
           "package": "pandoc-citeproc",
@@ -6639,6 +7141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Agent",
           "package": "pandoc-citeproc",
@@ -6647,6 +7150,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Agent",
           "package": "pandoc-citeproc",
@@ -6660,6 +7164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "CNum",
           "package": "pandoc-citeproc",
@@ -6668,6 +7173,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "CNum",
           "package": "pandoc-citeproc",
@@ -6681,6 +7187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Empty",
           "package": "pandoc-citeproc",
@@ -6689,6 +7196,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Empty",
           "package": "pandoc-citeproc",
@@ -6702,6 +7210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Literal",
           "package": "pandoc-citeproc",
@@ -6710,6 +7219,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Literal",
           "package": "pandoc-citeproc",
@@ -6723,6 +7233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "RefDate",
           "package": "pandoc-citeproc",
@@ -6731,6 +7242,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "RefDate",
           "package": "pandoc-citeproc",
@@ -6744,6 +7256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "RefType",
           "package": "pandoc-citeproc",
@@ -6752,6 +7265,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "RefType",
           "package": "pandoc-citeproc",
@@ -6766,6 +7280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eReference\u003c/a\u003e\u003c/code\u003e record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Reference",
           "package": "pandoc-citeproc",
@@ -6775,6 +7290,7 @@
         "index": {
           "description": "The Reference record",
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Reference",
           "package": "pandoc-citeproc",
@@ -6788,6 +7304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "ReferenceMap",
           "package": "pandoc-citeproc",
@@ -6796,6 +7313,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "ReferenceMap",
           "package": "pandoc-citeproc",
@@ -6810,6 +7328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn existential type to wrap the different types a \u003ccode\u003e\u003ca\u003eReference\u003c/a\u003e\u003c/code\u003e is\n made of. This way we can create a map to make queries easier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Value",
           "package": "pandoc-citeproc",
@@ -6819,6 +7338,7 @@
         "index": {
           "description": "An existential type to wrap the different types Reference is made of This way we can create map to make queries easier",
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Value",
           "package": "pandoc-citeproc",
@@ -6832,6 +7352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Agent",
           "package": "pandoc-citeproc",
@@ -6841,6 +7362,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Agent",
           "package": "pandoc-citeproc",
@@ -6854,6 +7376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Article",
           "package": "pandoc-citeproc",
@@ -6863,6 +7386,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Article",
           "package": "pandoc-citeproc",
@@ -6876,6 +7400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "ArticleJournal",
           "package": "pandoc-citeproc",
@@ -6885,6 +7410,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "ArticleJournal",
           "package": "pandoc-citeproc",
@@ -6898,6 +7424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "ArticleMagazine",
           "package": "pandoc-citeproc",
@@ -6907,6 +7434,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "ArticleMagazine",
           "package": "pandoc-citeproc",
@@ -6920,6 +7448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "ArticleNewspaper",
           "package": "pandoc-citeproc",
@@ -6929,6 +7458,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "ArticleNewspaper",
           "package": "pandoc-citeproc",
@@ -6942,6 +7472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Bill",
           "package": "pandoc-citeproc",
@@ -6951,6 +7482,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Bill",
           "package": "pandoc-citeproc",
@@ -6964,6 +7496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Book",
           "package": "pandoc-citeproc",
@@ -6973,6 +7506,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Book",
           "package": "pandoc-citeproc",
@@ -6986,6 +7520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Broadcast",
           "package": "pandoc-citeproc",
@@ -6995,6 +7530,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Broadcast",
           "package": "pandoc-citeproc",
@@ -7008,6 +7544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "CNum",
           "package": "pandoc-citeproc",
@@ -7017,6 +7554,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "CNum",
           "package": "pandoc-citeproc",
@@ -7030,6 +7568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Chapter",
           "package": "pandoc-citeproc",
@@ -7039,6 +7578,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Chapter",
           "package": "pandoc-citeproc",
@@ -7052,6 +7592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Dataset",
           "package": "pandoc-citeproc",
@@ -7061,6 +7602,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Dataset",
           "package": "pandoc-citeproc",
@@ -7074,6 +7616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Empty",
           "package": "pandoc-citeproc",
@@ -7083,6 +7626,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Empty",
           "package": "pandoc-citeproc",
@@ -7096,6 +7640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Entry",
           "package": "pandoc-citeproc",
@@ -7105,6 +7650,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Entry",
           "package": "pandoc-citeproc",
@@ -7118,6 +7664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "EntryDictionary",
           "package": "pandoc-citeproc",
@@ -7127,6 +7674,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "EntryDictionary",
           "package": "pandoc-citeproc",
@@ -7140,6 +7688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "EntryEncyclopedia",
           "package": "pandoc-citeproc",
@@ -7149,6 +7698,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "EntryEncyclopedia",
           "package": "pandoc-citeproc",
@@ -7162,6 +7712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Figure",
           "package": "pandoc-citeproc",
@@ -7171,6 +7722,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Figure",
           "package": "pandoc-citeproc",
@@ -7184,6 +7736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Graphic",
           "package": "pandoc-citeproc",
@@ -7193,6 +7746,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Graphic",
           "package": "pandoc-citeproc",
@@ -7206,6 +7760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Interview",
           "package": "pandoc-citeproc",
@@ -7215,6 +7770,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Interview",
           "package": "pandoc-citeproc",
@@ -7228,6 +7784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "LegalCase",
           "package": "pandoc-citeproc",
@@ -7237,6 +7794,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "LegalCase",
           "package": "pandoc-citeproc",
@@ -7250,6 +7808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Legislation",
           "package": "pandoc-citeproc",
@@ -7259,6 +7818,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Legislation",
           "package": "pandoc-citeproc",
@@ -7272,6 +7832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Literal",
           "package": "pandoc-citeproc",
@@ -7281,6 +7842,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Literal",
           "package": "pandoc-citeproc",
@@ -7294,6 +7856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Manuscript",
           "package": "pandoc-citeproc",
@@ -7303,6 +7866,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Manuscript",
           "package": "pandoc-citeproc",
@@ -7316,6 +7880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Map",
           "package": "pandoc-citeproc",
@@ -7325,6 +7890,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Map",
           "package": "pandoc-citeproc",
@@ -7338,6 +7904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "MotionPicture",
           "package": "pandoc-citeproc",
@@ -7347,6 +7914,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "MotionPicture",
           "package": "pandoc-citeproc",
@@ -7360,6 +7928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "MusicalScore",
           "package": "pandoc-citeproc",
@@ -7369,6 +7938,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "MusicalScore",
           "package": "pandoc-citeproc",
@@ -7382,6 +7952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "NoType",
           "package": "pandoc-citeproc",
@@ -7391,6 +7962,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "NoType",
           "package": "pandoc-citeproc",
@@ -7404,6 +7976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Pamphlet",
           "package": "pandoc-citeproc",
@@ -7413,6 +7986,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Pamphlet",
           "package": "pandoc-citeproc",
@@ -7426,6 +8000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "PaperConference",
           "package": "pandoc-citeproc",
@@ -7435,6 +8010,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "PaperConference",
           "package": "pandoc-citeproc",
@@ -7448,6 +8024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Patent",
           "package": "pandoc-citeproc",
@@ -7457,6 +8034,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Patent",
           "package": "pandoc-citeproc",
@@ -7470,6 +8048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "PersonalCommunication",
           "package": "pandoc-citeproc",
@@ -7479,6 +8058,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "PersonalCommunication",
           "package": "pandoc-citeproc",
@@ -7492,6 +8072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Post",
           "package": "pandoc-citeproc",
@@ -7501,6 +8082,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Post",
           "package": "pandoc-citeproc",
@@ -7514,6 +8096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "PostWeblog",
           "package": "pandoc-citeproc",
@@ -7523,6 +8106,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "PostWeblog",
           "package": "pandoc-citeproc",
@@ -7536,6 +8120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "RefDate",
           "package": "pandoc-citeproc",
@@ -7545,6 +8130,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "RefDate",
           "package": "pandoc-citeproc",
@@ -7581,6 +8167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Report",
           "package": "pandoc-citeproc",
@@ -7590,6 +8177,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Report",
           "package": "pandoc-citeproc",
@@ -7603,6 +8191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Review",
           "package": "pandoc-citeproc",
@@ -7612,6 +8201,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Review",
           "package": "pandoc-citeproc",
@@ -7625,6 +8215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "ReviewBook",
           "package": "pandoc-citeproc",
@@ -7634,6 +8225,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "ReviewBook",
           "package": "pandoc-citeproc",
@@ -7647,6 +8239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Song",
           "package": "pandoc-citeproc",
@@ -7656,6 +8249,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Song",
           "package": "pandoc-citeproc",
@@ -7669,6 +8263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Speech",
           "package": "pandoc-citeproc",
@@ -7678,6 +8273,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Speech",
           "package": "pandoc-citeproc",
@@ -7691,6 +8287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Thesis",
           "package": "pandoc-citeproc",
@@ -7700,6 +8297,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Thesis",
           "package": "pandoc-citeproc",
@@ -7713,6 +8311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Treaty",
           "package": "pandoc-citeproc",
@@ -7722,6 +8321,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Treaty",
           "package": "pandoc-citeproc",
@@ -7735,6 +8335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Value",
           "package": "pandoc-citeproc",
@@ -7744,6 +8345,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Value",
           "package": "pandoc-citeproc",
@@ -7757,6 +8359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "Webpage",
           "package": "pandoc-citeproc",
@@ -7766,6 +8369,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "Webpage",
           "package": "pandoc-citeproc",
@@ -8031,6 +8635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "circa",
           "package": "pandoc-citeproc",
@@ -8040,6 +8645,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "circa",
           "package": "pandoc-citeproc",
@@ -8169,6 +8775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "commaSuffix",
           "package": "pandoc-citeproc",
@@ -8178,6 +8785,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "commaSuffix",
           "package": "pandoc-citeproc",
@@ -8310,6 +8918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "day",
           "package": "pandoc-citeproc",
@@ -8319,6 +8928,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "day",
           "package": "pandoc-citeproc",
@@ -8399,6 +9009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "droppingPart",
           "package": "pandoc-citeproc",
@@ -8408,6 +9019,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "droppingPart",
           "package": "pandoc-citeproc",
@@ -8492,6 +9104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "emptyReference",
           "package": "pandoc-citeproc",
@@ -8501,6 +9114,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "emptyReference",
           "package": "pandoc-citeproc",
@@ -8584,6 +9198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "familyName",
           "package": "pandoc-citeproc",
@@ -8593,6 +9208,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "familyName",
           "package": "pandoc-citeproc",
@@ -8629,6 +9245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "formatField",
           "package": "pandoc-citeproc",
@@ -8638,6 +9255,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "formatField",
           "normalized": "String-\u003eString",
@@ -8653,6 +9271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "fromValue",
           "package": "pandoc-citeproc",
@@ -8662,6 +9281,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "fromValue",
           "normalized": "Value-\u003eMaybe a",
@@ -8724,6 +9344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "givenName",
           "package": "pandoc-citeproc",
@@ -8733,6 +9354,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "givenName",
           "normalized": "[Formatted]",
@@ -8796,6 +9418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "isValueSet",
           "package": "pandoc-citeproc",
@@ -8805,6 +9428,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "isValueSet",
           "normalized": "Value-\u003eBool",
@@ -8976,6 +9600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "literal",
           "package": "pandoc-citeproc",
@@ -8985,6 +9610,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "literal",
           "package": "pandoc-citeproc",
@@ -9019,6 +9645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "mkRefDate",
           "package": "pandoc-citeproc",
@@ -9028,6 +9655,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "mkRefDate",
           "normalized": "Literal-\u003eParser[RefDate]",
@@ -9043,6 +9671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "mkRefMap",
           "package": "pandoc-citeproc",
@@ -9052,6 +9681,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "mkRefMap",
           "normalized": "a-\u003eReferenceMap",
@@ -9067,6 +9697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "month",
           "package": "pandoc-citeproc",
@@ -9076,6 +9707,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "month",
           "package": "pandoc-citeproc",
@@ -9088,6 +9720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "nameSuffix",
           "package": "pandoc-citeproc",
@@ -9097,6 +9730,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "nameSuffix",
           "package": "pandoc-citeproc",
@@ -9110,6 +9744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "nonDroppingPart",
           "package": "pandoc-citeproc",
@@ -9119,6 +9754,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "nonDroppingPart",
           "package": "pandoc-citeproc",
@@ -9222,6 +9858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "numericVars",
           "package": "pandoc-citeproc",
@@ -9231,6 +9868,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "numericVars",
           "normalized": "[String]",
@@ -9246,6 +9884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "object'",
           "package": "pandoc-citeproc",
@@ -9255,6 +9894,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "object'",
           "normalized": "[Pair]-\u003eValue",
@@ -9388,6 +10028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "other",
           "package": "pandoc-citeproc",
@@ -9397,6 +10038,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "other",
           "package": "pandoc-citeproc",
@@ -9523,6 +10165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "processCites",
           "package": "pandoc-citeproc",
@@ -9532,6 +10175,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "processCites",
           "normalized": "[Reference]-\u003e[[Cite]]-\u003e[[(Cite,Reference)]]",
@@ -9754,6 +10398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "season",
           "package": "pandoc-citeproc",
@@ -9763,6 +10408,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "season",
           "package": "pandoc-citeproc",
@@ -9797,6 +10443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "setCirca",
           "package": "pandoc-citeproc",
@@ -9806,6 +10453,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "setCirca",
           "normalized": "Bool-\u003eRefDate-\u003eRefDate",
@@ -9846,6 +10494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "setPageFirst",
           "package": "pandoc-citeproc",
@@ -9855,6 +10504,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "setPageFirst",
           "normalized": "Reference-\u003eReference",
@@ -9983,6 +10633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "toDatePart",
           "package": "pandoc-citeproc",
@@ -9992,6 +10643,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "toDatePart",
           "normalized": "RefDate-\u003e[Int]",
@@ -10031,6 +10683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "unCNum",
           "package": "pandoc-citeproc",
@@ -10040,6 +10693,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "unCNum",
           "package": "pandoc-citeproc",
@@ -10053,6 +10707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "unLiteral",
           "package": "pandoc-citeproc",
@@ -10062,6 +10717,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "unLiteral",
           "package": "pandoc-citeproc",
@@ -10164,6 +10820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Reference",
           "name": "year",
           "package": "pandoc-citeproc",
@@ -10173,6 +10830,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Reference",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Reference",
           "name": "year",
           "package": "pandoc-citeproc",
@@ -10186,6 +10844,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Style types\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Style",
           "package": "pandoc-citeproc",
@@ -10195,6 +10854,7 @@
         "index": {
           "description": "The Style types",
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Style",
           "package": "pandoc-citeproc",
@@ -10208,6 +10868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Abbreviations",
           "package": "pandoc-citeproc",
@@ -10216,6 +10877,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Abbreviations",
           "package": "pandoc-citeproc",
@@ -10229,6 +10891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "BiblioData",
           "package": "pandoc-citeproc",
@@ -10237,6 +10900,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "BiblioData",
           "package": "pandoc-citeproc",
@@ -10250,6 +10914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Bibliography",
           "package": "pandoc-citeproc",
@@ -10258,6 +10923,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Bibliography",
           "package": "pandoc-citeproc",
@@ -10271,6 +10937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "CSAuthor",
           "package": "pandoc-citeproc",
@@ -10279,6 +10946,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "CSAuthor",
           "package": "pandoc-citeproc",
@@ -10292,6 +10960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "CSCategory",
           "package": "pandoc-citeproc",
@@ -10300,6 +10969,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "CSCategory",
           "package": "pandoc-citeproc",
@@ -10313,6 +10983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "CSInfo",
           "package": "pandoc-citeproc",
@@ -10321,6 +10992,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "CSInfo",
           "package": "pandoc-citeproc",
@@ -10334,6 +11006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Citation",
           "package": "pandoc-citeproc",
@@ -10342,6 +11015,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Citation",
           "package": "pandoc-citeproc",
@@ -10356,6 +11030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA citation group: the first list has a single member when the\n citation group starts with an \u003ca\u003eauthor-in-text\u003c/a\u003e cite, the\n \u003ccode\u003e\u003ca\u003eFormatting\u003c/a\u003e\u003c/code\u003e to be applied, the \u003ccode\u003e\u003ca\u003eDelimiter\u003c/a\u003e\u003c/code\u003e between individual\n citations and the list of evaluated citations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "CitationGroup",
           "package": "pandoc-citeproc",
@@ -10365,6 +11040,7 @@
         "index": {
           "description": "citation group the first list has single member when the citation group starts with an author-in-text cite the Formatting to be applied the Delimiter between individual citations and the list of evaluated citations",
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "CitationGroup",
           "package": "pandoc-citeproc",
@@ -10378,6 +11054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Citations",
           "package": "pandoc-citeproc",
@@ -10386,6 +11063,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Citations",
           "package": "pandoc-citeproc",
@@ -10399,6 +11077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Cite",
           "package": "pandoc-citeproc",
@@ -10407,6 +11086,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Cite",
           "package": "pandoc-citeproc",
@@ -10421,6 +11101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA record with all the data to produce the \u003ccode\u003e\u003ca\u003eFormatted\u003c/a\u003e\u003c/code\u003e of a\n citation: the citation key, the part of the formatted citation that\n may be colliding with other citations, the form of the citation\n when a year suffix is used for disambiguation , the data to\n disambiguate it (all possible contributors and all possible given\n names), and, after processing, the disambiguated citation and its\n year, initially empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "CiteData",
           "package": "pandoc-citeproc",
@@ -10430,6 +11111,7 @@
         "index": {
           "description": "record with all the data to produce the Formatted of citation the citation key the part of the formatted citation that may be colliding with other citations the form of the citation when year suffix is used for disambiguation the data to disambiguate it all possible contributors and all possible given names and after processing the disambiguated citation and its year initially empty",
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "CiteData",
           "package": "pandoc-citeproc",
@@ -10443,6 +11125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "CiteprocError",
           "package": "pandoc-citeproc",
@@ -10451,6 +11134,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "CiteprocError",
           "package": "pandoc-citeproc",
@@ -10464,6 +11148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Condition",
           "package": "pandoc-citeproc",
@@ -10472,6 +11157,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Condition",
           "package": "pandoc-citeproc",
@@ -10485,6 +11171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "CslTerm",
           "package": "pandoc-citeproc",
@@ -10493,6 +11180,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "CslTerm",
           "package": "pandoc-citeproc",
@@ -10506,6 +11194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "DateForm",
           "package": "pandoc-citeproc",
@@ -10514,6 +11203,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "DateForm",
           "package": "pandoc-citeproc",
@@ -10527,6 +11217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "DatePart",
           "package": "pandoc-citeproc",
@@ -10535,6 +11226,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "DatePart",
           "package": "pandoc-citeproc",
@@ -10548,6 +11240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Delimiter",
           "package": "pandoc-citeproc",
@@ -10556,6 +11249,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Delimiter",
           "package": "pandoc-citeproc",
@@ -10569,6 +11263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Element",
           "package": "pandoc-citeproc",
@@ -10577,6 +11272,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Element",
           "package": "pandoc-citeproc",
@@ -10590,6 +11286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Form",
           "package": "pandoc-citeproc",
@@ -10598,6 +11295,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Form",
           "package": "pandoc-citeproc",
@@ -10611,6 +11309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Formatted",
           "package": "pandoc-citeproc",
@@ -10619,6 +11318,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Formatted",
           "package": "pandoc-citeproc",
@@ -10632,6 +11332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Formatting",
           "package": "pandoc-citeproc",
@@ -10640,6 +11341,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Formatting",
           "package": "pandoc-citeproc",
@@ -10653,6 +11355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Gender",
           "package": "pandoc-citeproc",
@@ -10661,6 +11364,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Gender",
           "package": "pandoc-citeproc",
@@ -10674,6 +11378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "IfThen",
           "package": "pandoc-citeproc",
@@ -10682,6 +11387,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "IfThen",
           "package": "pandoc-citeproc",
@@ -10695,6 +11401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Layout",
           "package": "pandoc-citeproc",
@@ -10703,6 +11410,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Layout",
           "package": "pandoc-citeproc",
@@ -10716,6 +11424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Locale",
           "package": "pandoc-citeproc",
@@ -10724,6 +11433,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Locale",
           "package": "pandoc-citeproc",
@@ -10737,6 +11447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "MacroMap",
           "package": "pandoc-citeproc",
@@ -10745,6 +11456,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "MacroMap",
           "package": "pandoc-citeproc",
@@ -10758,6 +11470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Match",
           "package": "pandoc-citeproc",
@@ -10766,6 +11479,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Match",
           "package": "pandoc-citeproc",
@@ -10779,6 +11493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Name",
           "package": "pandoc-citeproc",
@@ -10787,6 +11502,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Name",
           "package": "pandoc-citeproc",
@@ -10800,6 +11516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "NameAttrs",
           "package": "pandoc-citeproc",
@@ -10808,6 +11525,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "NameAttrs",
           "package": "pandoc-citeproc",
@@ -10821,6 +11539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "NameData",
           "package": "pandoc-citeproc",
@@ -10829,6 +11548,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "NameData",
           "package": "pandoc-citeproc",
@@ -10842,6 +11562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "NamePart",
           "package": "pandoc-citeproc",
@@ -10850,6 +11571,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "NamePart",
           "package": "pandoc-citeproc",
@@ -10863,6 +11585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "NumericForm",
           "package": "pandoc-citeproc",
@@ -10871,6 +11594,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "NumericForm",
           "package": "pandoc-citeproc",
@@ -10884,6 +11608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Option",
           "package": "pandoc-citeproc",
@@ -10892,6 +11617,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Option",
           "package": "pandoc-citeproc",
@@ -10906,6 +11632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eOutput\u003c/a\u003e\u003c/code\u003e generated by the evaluation of a style. Must be\n further processed for disambiguation and collapsing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Output",
           "package": "pandoc-citeproc",
@@ -10915,6 +11642,7 @@
         "index": {
           "description": "The Output generated by the evaluation of style Must be further processed for disambiguation and collapsing",
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Output",
           "package": "pandoc-citeproc",
@@ -10928,6 +11656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Plural",
           "package": "pandoc-citeproc",
@@ -10936,6 +11665,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Plural",
           "package": "pandoc-citeproc",
@@ -10949,6 +11679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Quote",
           "package": "pandoc-citeproc",
@@ -10957,6 +11688,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Quote",
           "package": "pandoc-citeproc",
@@ -10970,6 +11702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Sort",
           "package": "pandoc-citeproc",
@@ -10978,6 +11711,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Sort",
           "package": "pandoc-citeproc",
@@ -10991,6 +11725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Sorting",
           "package": "pandoc-citeproc",
@@ -10999,6 +11734,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Sorting",
           "package": "pandoc-citeproc",
@@ -11013,6 +11749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe representation of a parsed CSL style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Style",
           "package": "pandoc-citeproc",
@@ -11022,6 +11759,7 @@
         "index": {
           "description": "The representation of parsed CSL style",
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Style",
           "package": "pandoc-citeproc",
@@ -11058,6 +11796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "All",
           "package": "pandoc-citeproc",
@@ -11067,6 +11806,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "All",
           "package": "pandoc-citeproc",
@@ -11080,6 +11820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Always",
           "package": "pandoc-citeproc",
@@ -11089,6 +11830,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Always",
           "package": "pandoc-citeproc",
@@ -11102,6 +11844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Any",
           "package": "pandoc-citeproc",
@@ -11111,6 +11854,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Any",
           "package": "pandoc-citeproc",
@@ -11124,6 +11868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Ascending",
           "package": "pandoc-citeproc",
@@ -11133,6 +11878,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Ascending",
           "package": "pandoc-citeproc",
@@ -11192,6 +11938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "CD",
           "package": "pandoc-citeproc",
@@ -11201,6 +11948,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "CD",
           "package": "pandoc-citeproc",
@@ -11214,6 +11962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "CG",
           "package": "pandoc-citeproc",
@@ -11223,6 +11972,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "CG",
           "normalized": "CG[(Cite,Output)]Formatting Delimiter[(Cite,Output)]",
@@ -11238,6 +11988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "CSAuthor",
           "package": "pandoc-citeproc",
@@ -11247,6 +11998,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "CSAuthor",
           "package": "pandoc-citeproc",
@@ -11260,6 +12012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "CSCategory",
           "package": "pandoc-citeproc",
@@ -11269,6 +12022,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "CSCategory",
           "package": "pandoc-citeproc",
@@ -11282,6 +12036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "CSInfo",
           "package": "pandoc-citeproc",
@@ -11291,6 +12046,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "CSInfo",
           "package": "pandoc-citeproc",
@@ -11304,6 +12060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "CT",
           "package": "pandoc-citeproc",
@@ -11313,6 +12070,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "CT",
           "package": "pandoc-citeproc",
@@ -11326,6 +12084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Choose",
           "package": "pandoc-citeproc",
@@ -11335,6 +12094,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Choose",
           "normalized": "Choose IfThen[IfThen][Element]",
@@ -11396,6 +12156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Condition",
           "package": "pandoc-citeproc",
@@ -11405,6 +12166,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Condition",
           "package": "pandoc-citeproc",
@@ -11418,6 +12180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Const",
           "package": "pandoc-citeproc",
@@ -11427,6 +12190,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Const",
           "package": "pandoc-citeproc",
@@ -11440,6 +12204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Contextual",
           "package": "pandoc-citeproc",
@@ -11449,6 +12214,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Contextual",
           "package": "pandoc-citeproc",
@@ -11462,6 +12228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Count",
           "package": "pandoc-citeproc",
@@ -11471,6 +12238,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Count",
           "package": "pandoc-citeproc",
@@ -11484,6 +12252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Date",
           "package": "pandoc-citeproc",
@@ -11493,6 +12262,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Date",
           "normalized": "Date[String]DateForm Formatting Delimiter[DatePart]String",
@@ -11508,6 +12278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "DatePart",
           "package": "pandoc-citeproc",
@@ -11517,6 +12288,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "DatePart",
           "package": "pandoc-citeproc",
@@ -11530,6 +12302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Descending",
           "package": "pandoc-citeproc",
@@ -11539,6 +12312,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Descending",
           "package": "pandoc-citeproc",
@@ -11552,6 +12326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Elements",
           "package": "pandoc-citeproc",
@@ -11561,6 +12336,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Elements",
           "normalized": "Elements Formatting[Element]",
@@ -11576,6 +12352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "EtAl",
           "package": "pandoc-citeproc",
@@ -11585,6 +12362,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "EtAl",
           "package": "pandoc-citeproc",
@@ -11598,6 +12376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Feminine",
           "package": "pandoc-citeproc",
@@ -11607,6 +12386,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Feminine",
           "package": "pandoc-citeproc",
@@ -11620,6 +12400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Formatted",
           "package": "pandoc-citeproc",
@@ -11629,6 +12410,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Formatted",
           "package": "pandoc-citeproc",
@@ -11642,6 +12424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Formatting",
           "package": "pandoc-citeproc",
@@ -11651,6 +12434,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Formatting",
           "package": "pandoc-citeproc",
@@ -11664,6 +12448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Group",
           "package": "pandoc-citeproc",
@@ -11673,6 +12458,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Group",
           "normalized": "Group Formatting Delimiter[Element]",
@@ -11688,6 +12474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "IfThen",
           "package": "pandoc-citeproc",
@@ -11697,6 +12484,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "IfThen",
           "normalized": "IfThen Condition Match[Element]",
@@ -11712,6 +12500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Label",
           "package": "pandoc-citeproc",
@@ -11721,6 +12510,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Label",
           "package": "pandoc-citeproc",
@@ -11734,6 +12524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Layout",
           "package": "pandoc-citeproc",
@@ -11743,6 +12534,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Layout",
           "package": "pandoc-citeproc",
@@ -11756,6 +12548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Locale",
           "package": "pandoc-citeproc",
@@ -11765,6 +12558,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Locale",
           "package": "pandoc-citeproc",
@@ -11778,6 +12572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Long",
           "package": "pandoc-citeproc",
@@ -11787,6 +12582,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Long",
           "package": "pandoc-citeproc",
@@ -11800,6 +12596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "LongOrdinal",
           "package": "pandoc-citeproc",
@@ -11809,6 +12606,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "LongOrdinal",
           "package": "pandoc-citeproc",
@@ -11822,6 +12620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Macro",
           "package": "pandoc-citeproc",
@@ -11831,6 +12630,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Macro",
           "package": "pandoc-citeproc",
@@ -11844,6 +12644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Masculine",
           "package": "pandoc-citeproc",
@@ -11853,6 +12654,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Masculine",
           "package": "pandoc-citeproc",
@@ -11866,6 +12668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "ND",
           "package": "pandoc-citeproc",
@@ -11875,6 +12678,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "ND",
           "package": "pandoc-citeproc",
@@ -11888,6 +12692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Name",
           "package": "pandoc-citeproc",
@@ -11897,6 +12702,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Name",
           "normalized": "Name Form Formatting NameAttrs Delimiter[NamePart]",
@@ -11912,6 +12718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "NameLabel",
           "package": "pandoc-citeproc",
@@ -11921,6 +12728,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "NameLabel",
           "package": "pandoc-citeproc",
@@ -11934,6 +12742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "NamePart",
           "package": "pandoc-citeproc",
@@ -11943,6 +12752,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "NamePart",
           "package": "pandoc-citeproc",
@@ -11956,6 +12766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Names",
           "package": "pandoc-citeproc",
@@ -11965,6 +12776,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Names",
           "normalized": "Names[String][Name]Formatting Delimiter[Element]",
@@ -11980,6 +12792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "NativeQuote",
           "package": "pandoc-citeproc",
@@ -11989,6 +12802,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "NativeQuote",
           "package": "pandoc-citeproc",
@@ -12002,6 +12816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Neuter",
           "package": "pandoc-citeproc",
@@ -12011,6 +12826,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Neuter",
           "package": "pandoc-citeproc",
@@ -12024,6 +12840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Never",
           "package": "pandoc-citeproc",
@@ -12033,6 +12850,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Never",
           "package": "pandoc-citeproc",
@@ -12046,6 +12864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "NoFormDate",
           "package": "pandoc-citeproc",
@@ -12055,6 +12874,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "NoFormDate",
           "package": "pandoc-citeproc",
@@ -12068,6 +12888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "NoOutput",
           "package": "pandoc-citeproc",
@@ -12077,6 +12898,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "NoOutput",
           "package": "pandoc-citeproc",
@@ -12090,6 +12912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "NoQuote",
           "package": "pandoc-citeproc",
@@ -12099,6 +12922,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "NoQuote",
           "package": "pandoc-citeproc",
@@ -12112,6 +12936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "None",
           "package": "pandoc-citeproc",
@@ -12121,6 +12946,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "None",
           "package": "pandoc-citeproc",
@@ -12134,6 +12960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "NotSet",
           "package": "pandoc-citeproc",
@@ -12143,6 +12970,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "NotSet",
           "package": "pandoc-citeproc",
@@ -12156,6 +12984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Number",
           "package": "pandoc-citeproc",
@@ -12165,6 +12994,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Number",
           "package": "pandoc-citeproc",
@@ -12178,6 +13008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Numeric",
           "package": "pandoc-citeproc",
@@ -12187,6 +13018,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Numeric",
           "package": "pandoc-citeproc",
@@ -12200,6 +13032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "NumericDate",
           "package": "pandoc-citeproc",
@@ -12209,6 +13042,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "NumericDate",
           "package": "pandoc-citeproc",
@@ -12223,6 +13057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe citation number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "OCitNum",
           "package": "pandoc-citeproc",
@@ -12233,6 +13068,7 @@
         "index": {
           "description": "The citation number",
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "OCitNum",
           "package": "pandoc-citeproc",
@@ -12247,6 +13083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe citation key, the role (author, editor, etc.), the contributor(s),\n the output needed for year suf. disambiguation, and everything used for\n name disambiguation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "OContrib",
           "package": "pandoc-citeproc",
@@ -12257,6 +13094,7 @@
         "index": {
           "description": "The citation key the role author editor etc the contributor the output needed for year suf disambiguation and everything used for name disambiguation",
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "OContrib",
           "normalized": "OContrib String String[Output][Output][[Output]]",
@@ -12273,6 +13111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA (possibly) ranged date\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "ODate",
           "package": "pandoc-citeproc",
@@ -12283,6 +13122,7 @@
         "index": {
           "description": "possibly ranged date",
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "ODate",
           "normalized": "ODate[Output]",
@@ -12299,6 +13139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA delimiter string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "ODel",
           "package": "pandoc-citeproc",
@@ -12309,6 +13150,7 @@
         "index": {
           "description": "delimiter string",
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "ODel",
           "package": "pandoc-citeproc",
@@ -12323,6 +13165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWarning message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "OErr",
           "package": "pandoc-citeproc",
@@ -12333,6 +13176,7 @@
         "index": {
           "description": "Warning message",
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "OErr",
           "package": "pandoc-citeproc",
@@ -12347,6 +13191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA label used for roles\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "OLabel",
           "package": "pandoc-citeproc",
@@ -12357,6 +13202,7 @@
         "index": {
           "description": "label used for roles",
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "OLabel",
           "package": "pandoc-citeproc",
@@ -12371,6 +13217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe citation's locator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "OLoc",
           "package": "pandoc-citeproc",
@@ -12381,6 +13228,7 @@
         "index": {
           "description": "The citation locator",
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "OLoc",
           "normalized": "OLoc[Output]Formatting",
@@ -12397,6 +13245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA (family) name with the list of given names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "OName",
           "package": "pandoc-citeproc",
@@ -12407,6 +13256,7 @@
         "index": {
           "description": "family name with the list of given names",
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "OName",
           "normalized": "OName String[Output][[Output]]Formatting",
@@ -12422,6 +13272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "ONull",
           "package": "pandoc-citeproc",
@@ -12431,6 +13282,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "ONull",
           "package": "pandoc-citeproc",
@@ -12445,6 +13297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA number (used to count contributors)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "ONum",
           "package": "pandoc-citeproc",
@@ -12455,6 +13308,7 @@
         "index": {
           "description": "number used to count contributors",
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "ONum",
           "package": "pandoc-citeproc",
@@ -12468,6 +13322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "OPan",
           "package": "pandoc-citeproc",
@@ -12477,6 +13332,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "OPan",
           "normalized": "OPan[Inline]",
@@ -12492,6 +13348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "OSpace",
           "package": "pandoc-citeproc",
@@ -12501,6 +13358,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "OSpace",
           "package": "pandoc-citeproc",
@@ -12515,6 +13373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "OStr",
           "package": "pandoc-citeproc",
@@ -12525,6 +13384,7 @@
         "index": {
           "description": "simple String",
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "OStr",
           "package": "pandoc-citeproc",
@@ -12539,6 +13399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe year and the citeId\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "OYear",
           "package": "pandoc-citeproc",
@@ -12549,6 +13410,7 @@
         "index": {
           "description": "The year and the citeId",
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "OYear",
           "package": "pandoc-citeproc",
@@ -12563,6 +13425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe year suffix, the citeId and a holder for collision data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "OYearSuf",
           "package": "pandoc-citeproc",
@@ -12573,6 +13436,7 @@
         "index": {
           "description": "The year suffix the citeId and holder for collision data",
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "OYearSuf",
           "normalized": "OYearSuf String String[Output]Formatting",
@@ -12588,6 +13452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Ordinal",
           "package": "pandoc-citeproc",
@@ -12597,6 +13462,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Ordinal",
           "package": "pandoc-citeproc",
@@ -12611,6 +13477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome nested \u003ccode\u003e\u003ca\u003eOutput\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Output",
           "package": "pandoc-citeproc",
@@ -12621,6 +13488,7 @@
         "index": {
           "description": "Some nested Output",
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Output",
           "normalized": "Output[Output]Formatting",
@@ -12636,6 +13504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "ParsedQuote",
           "package": "pandoc-citeproc",
@@ -12645,6 +13514,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "ParsedQuote",
           "package": "pandoc-citeproc",
@@ -12658,6 +13528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "ReferenceNotFound",
           "package": "pandoc-citeproc",
@@ -12667,6 +13538,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "ReferenceNotFound",
           "package": "pandoc-citeproc",
@@ -12680,6 +13552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Roman",
           "package": "pandoc-citeproc",
@@ -12689,6 +13562,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Roman",
           "package": "pandoc-citeproc",
@@ -12702,6 +13576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Short",
           "package": "pandoc-citeproc",
@@ -12711,6 +13586,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Short",
           "package": "pandoc-citeproc",
@@ -12724,6 +13600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "SortMacro",
           "package": "pandoc-citeproc",
@@ -12733,6 +13610,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "SortMacro",
           "package": "pandoc-citeproc",
@@ -12746,6 +13624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "SortVariable",
           "package": "pandoc-citeproc",
@@ -12755,6 +13634,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "SortVariable",
           "package": "pandoc-citeproc",
@@ -12791,6 +13671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Substitute",
           "package": "pandoc-citeproc",
@@ -12800,6 +13681,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Substitute",
           "normalized": "Substitute[Element]",
@@ -12815,6 +13697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Symbol",
           "package": "pandoc-citeproc",
@@ -12824,6 +13707,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Symbol",
           "package": "pandoc-citeproc",
@@ -12837,6 +13721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Term",
           "package": "pandoc-citeproc",
@@ -12846,6 +13731,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Term",
           "package": "pandoc-citeproc",
@@ -12859,6 +13745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "TextDate",
           "package": "pandoc-citeproc",
@@ -12868,6 +13755,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "TextDate",
           "package": "pandoc-citeproc",
@@ -12881,6 +13769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Variable",
           "package": "pandoc-citeproc",
@@ -12890,6 +13779,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Variable",
           "normalized": "Variable[String]Form Formatting Delimiter",
@@ -12905,6 +13795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "Verb",
           "package": "pandoc-citeproc",
@@ -12914,6 +13805,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "Verb",
           "package": "pandoc-citeproc",
@@ -12927,6 +13819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "VerbShort",
           "package": "pandoc-citeproc",
@@ -12936,6 +13829,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "VerbShort",
           "package": "pandoc-citeproc",
@@ -12949,6 +13843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "adjustCSL",
           "package": "pandoc-citeproc",
@@ -12958,6 +13853,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "adjustCSL",
           "normalized": "Inline-\u003e[Inline]",
@@ -12973,6 +13869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "adjustScTags",
           "package": "pandoc-citeproc",
@@ -12982,6 +13879,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "adjustScTags",
           "normalized": "String-\u003eString",
@@ -12997,6 +13895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "appendWithPunct",
           "package": "pandoc-citeproc",
@@ -13006,6 +13905,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "appendWithPunct",
           "normalized": "Formatted-\u003eFormatted-\u003eFormatted",
@@ -13236,6 +14136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "citYear",
           "package": "pandoc-citeproc",
@@ -13245,6 +14146,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "citYear",
           "package": "pandoc-citeproc",
@@ -13488,6 +14390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "collision",
           "package": "pandoc-citeproc",
@@ -13497,6 +14400,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "collision",
           "normalized": "[Output]",
@@ -13511,6 +14415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "compare'",
           "package": "pandoc-citeproc",
@@ -13520,6 +14425,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "compare'",
           "normalized": "String-\u003eString-\u003eOrdering",
@@ -13584,6 +14490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "csiAuthor",
           "package": "pandoc-citeproc",
@@ -13593,6 +14500,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "csiAuthor",
           "package": "pandoc-citeproc",
@@ -13606,6 +14514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "csiCategories",
           "package": "pandoc-citeproc",
@@ -13615,6 +14524,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "csiCategories",
           "normalized": "[CSCategory]",
@@ -13630,6 +14540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "csiId",
           "package": "pandoc-citeproc",
@@ -13639,6 +14550,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "csiId",
           "package": "pandoc-citeproc",
@@ -13652,6 +14564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "csiTitle",
           "package": "pandoc-citeproc",
@@ -13661,6 +14574,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "csiTitle",
           "package": "pandoc-citeproc",
@@ -13674,6 +14588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "csiUpdated",
           "package": "pandoc-citeproc",
@@ -13683,6 +14598,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "csiUpdated",
           "package": "pandoc-citeproc",
@@ -13696,6 +14612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "cslTerm",
           "package": "pandoc-citeproc",
@@ -13705,6 +14622,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "cslTerm",
           "package": "pandoc-citeproc",
@@ -13718,6 +14636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "defaultDate",
           "package": "pandoc-citeproc",
@@ -13727,6 +14646,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "defaultDate",
           "normalized": "[DatePart]",
@@ -13742,6 +14662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "disambData",
           "package": "pandoc-citeproc",
@@ -13751,6 +14672,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "disambData",
           "normalized": "[[Output]]",
@@ -13766,6 +14688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "disambYS",
           "package": "pandoc-citeproc",
@@ -13775,6 +14698,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "disambYS",
           "normalized": "[Output]",
@@ -13790,6 +14714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "disambed",
           "package": "pandoc-citeproc",
@@ -13799,6 +14724,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "disambed",
           "normalized": "[Output]",
@@ -13813,6 +14739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "disambiguation",
           "package": "pandoc-citeproc",
@@ -13822,6 +14749,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "disambiguation",
           "normalized": "[String]",
@@ -13836,6 +14764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "display",
           "package": "pandoc-citeproc",
@@ -13845,6 +14774,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "display",
           "package": "pandoc-citeproc",
@@ -13857,6 +14787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "dpForm",
           "package": "pandoc-citeproc",
@@ -13866,6 +14797,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "dpForm",
           "package": "pandoc-citeproc",
@@ -13879,6 +14811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "dpFormatting",
           "package": "pandoc-citeproc",
@@ -13888,6 +14821,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "dpFormatting",
           "package": "pandoc-citeproc",
@@ -13901,6 +14835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "dpName",
           "package": "pandoc-citeproc",
@@ -13910,6 +14845,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "dpName",
           "package": "pandoc-citeproc",
@@ -13923,6 +14859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "dpRangeDelim",
           "package": "pandoc-citeproc",
@@ -13932,6 +14869,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "dpRangeDelim",
           "package": "pandoc-citeproc",
@@ -13945,6 +14883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "elements",
           "package": "pandoc-citeproc",
@@ -13954,6 +14893,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "elements",
           "normalized": "[Element]",
@@ -13991,6 +14931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "emptyFormatting",
           "package": "pandoc-citeproc",
@@ -14000,6 +14941,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "emptyFormatting",
           "package": "pandoc-citeproc",
@@ -14013,6 +14955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "findTerm",
           "package": "pandoc-citeproc",
@@ -14022,6 +14965,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "findTerm",
           "normalized": "String-\u003eForm-\u003e[CslTerm]-\u003eMaybe CslTerm",
@@ -14037,6 +14981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "findTerm'",
           "package": "pandoc-citeproc",
@@ -14046,6 +14991,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "findTerm'",
           "normalized": "String-\u003eForm-\u003eGender-\u003e[CslTerm]-\u003eMaybe CslTerm",
@@ -14061,6 +15007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "fontFamily",
           "package": "pandoc-citeproc",
@@ -14070,6 +15017,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "fontFamily",
           "package": "pandoc-citeproc",
@@ -14083,6 +15031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "fontStyle",
           "package": "pandoc-citeproc",
@@ -14092,6 +15041,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "fontStyle",
           "package": "pandoc-citeproc",
@@ -14105,6 +15055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "fontVariant",
           "package": "pandoc-citeproc",
@@ -14114,6 +15065,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "fontVariant",
           "package": "pandoc-citeproc",
@@ -14127,6 +15079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "fontWeight",
           "package": "pandoc-citeproc",
@@ -14136,6 +15089,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "fontWeight",
           "package": "pandoc-citeproc",
@@ -14149,6 +15103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "hasEtAl",
           "package": "pandoc-citeproc",
@@ -14158,6 +15113,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "hasEtAl",
           "normalized": "[Name]-\u003eBool",
@@ -14173,6 +15129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "hasOrdinals",
           "package": "pandoc-citeproc",
@@ -14182,6 +15139,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "hasOrdinals",
           "normalized": "a-\u003eBool",
@@ -14197,6 +15155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "isLocator",
           "package": "pandoc-citeproc",
@@ -14206,6 +15165,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "isLocator",
           "normalized": "[String]",
@@ -14221,6 +15181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "isName",
           "package": "pandoc-citeproc",
@@ -14230,6 +15191,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "isName",
           "normalized": "Name-\u003eBool",
@@ -14245,6 +15207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "isNames",
           "package": "pandoc-citeproc",
@@ -14254,6 +15217,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "isNames",
           "normalized": "Element-\u003eBool",
@@ -14269,6 +15233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "isNumeric",
           "package": "pandoc-citeproc",
@@ -14278,6 +15243,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "isNumeric",
           "normalized": "[String]",
@@ -14293,6 +15259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "isPlural",
           "package": "pandoc-citeproc",
@@ -14302,6 +15269,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "isPlural",
           "normalized": "Plural-\u003eInt-\u003eBool",
@@ -14317,6 +15285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "isPosition",
           "package": "pandoc-citeproc",
@@ -14326,6 +15295,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "isPosition",
           "normalized": "[String]",
@@ -14341,6 +15311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "isSet",
           "package": "pandoc-citeproc",
@@ -14350,6 +15321,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "isSet",
           "normalized": "[String]",
@@ -14365,6 +15337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "isType",
           "package": "pandoc-citeproc",
@@ -14374,6 +15347,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "isType",
           "normalized": "[String]",
@@ -14389,6 +15363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "isUncertainDate",
           "package": "pandoc-citeproc",
@@ -14398,6 +15373,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "isUncertainDate",
           "normalized": "[String]",
@@ -14413,6 +15389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "key",
           "package": "pandoc-citeproc",
@@ -14422,6 +15399,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "key",
           "package": "pandoc-citeproc",
@@ -14434,6 +15412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "layDelim",
           "package": "pandoc-citeproc",
@@ -14443,6 +15422,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "layDelim",
           "package": "pandoc-citeproc",
@@ -14456,6 +15436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "layFormat",
           "package": "pandoc-citeproc",
@@ -14465,6 +15446,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "layFormat",
           "package": "pandoc-citeproc",
@@ -14478,6 +15460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "localeDate",
           "package": "pandoc-citeproc",
@@ -14487,6 +15470,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "localeDate",
           "normalized": "[Element]",
@@ -14502,6 +15486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "localeLang",
           "package": "pandoc-citeproc",
@@ -14511,6 +15496,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "localeLang",
           "package": "pandoc-citeproc",
@@ -14524,6 +15510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "localeOptions",
           "package": "pandoc-citeproc",
@@ -14533,6 +15520,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "localeOptions",
           "normalized": "[Option]",
@@ -14548,6 +15536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "localeTerms",
           "package": "pandoc-citeproc",
@@ -14557,6 +15546,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "localeTerms",
           "normalized": "[CslTerm]",
@@ -14572,6 +15562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "localeVersion",
           "package": "pandoc-citeproc",
@@ -14581,6 +15572,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "localeVersion",
           "package": "pandoc-citeproc",
@@ -14594,6 +15586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "match",
           "package": "pandoc-citeproc",
@@ -14603,6 +15596,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "match",
           "normalized": "Match-\u003e[Bool]-\u003eBool",
@@ -14617,6 +15611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "mergeFM",
           "package": "pandoc-citeproc",
@@ -14626,6 +15621,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "mergeFM",
           "normalized": "Formatting-\u003eFormatting-\u003eFormatting",
@@ -14642,6 +15638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWith the \u003ccode\u003edefaultLocale\u003c/code\u003e, the locales-xx-XX.xml loaded file and\n the parsed \u003ccode\u003e\u003ca\u003eStyle\u003c/a\u003e\u003c/code\u003e cs:locale elements, produce the final \u003ccode\u003e\u003ca\u003eLocale\u003c/a\u003e\u003c/code\u003e\n as the only element of a list, taking into account CSL locale\n prioritization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "mergeLocales",
           "package": "pandoc-citeproc",
@@ -14652,6 +15649,7 @@
         "index": {
           "description": "With the defaultLocale the locales-xx-XX.xml loaded file and the parsed Style cs locale elements produce the final Locale as the only element of list taking into account CSL locale prioritization",
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "mergeLocales",
           "normalized": "String-\u003eLocale-\u003e[Locale]-\u003e[Locale]",
@@ -14667,6 +15665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "mergeOptions",
           "package": "pandoc-citeproc",
@@ -14676,6 +15675,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "mergeOptions",
           "normalized": "[Option]-\u003e[Option]-\u003e[Option]",
@@ -14691,6 +15691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "nameCollision",
           "package": "pandoc-citeproc",
@@ -14700,6 +15701,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "nameCollision",
           "normalized": "[Output]",
@@ -14715,6 +15717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "nameDataSolved",
           "package": "pandoc-citeproc",
@@ -14724,6 +15727,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "nameDataSolved",
           "normalized": "[Output]",
@@ -14739,6 +15743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "nameDisambData",
           "package": "pandoc-citeproc",
@@ -14748,6 +15753,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "nameDisambData",
           "normalized": "[[Output]]",
@@ -14763,6 +15769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "nameKey",
           "package": "pandoc-citeproc",
@@ -14772,6 +15779,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "nameKey",
           "package": "pandoc-citeproc",
@@ -14808,6 +15816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "newTerm",
           "package": "pandoc-citeproc",
@@ -14817,6 +15826,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "newTerm",
           "package": "pandoc-citeproc",
@@ -14830,6 +15840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "noCase",
           "package": "pandoc-citeproc",
@@ -14839,6 +15850,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "noCase",
           "package": "pandoc-citeproc",
@@ -14852,6 +15864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "noDecor",
           "package": "pandoc-citeproc",
@@ -14861,6 +15874,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "noDecor",
           "package": "pandoc-citeproc",
@@ -14874,6 +15888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "prefix",
           "package": "pandoc-citeproc",
@@ -14883,6 +15898,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "prefix",
           "package": "pandoc-citeproc",
@@ -14895,6 +15911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "quotes",
           "package": "pandoc-citeproc",
@@ -14904,6 +15921,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "quotes",
           "package": "pandoc-citeproc",
@@ -14916,6 +15934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "readCSLString",
           "package": "pandoc-citeproc",
@@ -14925,6 +15944,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "readCSLString",
           "normalized": "String-\u003e[Inline]",
@@ -14940,6 +15960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "rmOrdinals",
           "package": "pandoc-citeproc",
@@ -14949,6 +15970,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "rmOrdinals",
           "normalized": "a-\u003ea",
@@ -14964,6 +15986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "rmTitleCase",
           "package": "pandoc-citeproc",
@@ -14973,6 +15996,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "rmTitleCase",
           "normalized": "Formatting-\u003eFormatting",
@@ -14988,6 +16012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "sameAs",
           "package": "pandoc-citeproc",
@@ -14997,6 +16022,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "sameAs",
           "normalized": "[String]",
@@ -15012,6 +16038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "stripPeriods",
           "package": "pandoc-citeproc",
@@ -15021,6 +16048,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "stripPeriods",
           "package": "pandoc-citeproc",
@@ -15174,6 +16202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "suffix",
           "package": "pandoc-citeproc",
@@ -15183,6 +16212,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "suffix",
           "package": "pandoc-citeproc",
@@ -15218,6 +16248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "termForm",
           "package": "pandoc-citeproc",
@@ -15227,6 +16258,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "termForm",
           "package": "pandoc-citeproc",
@@ -15240,6 +16272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "termGender",
           "package": "pandoc-citeproc",
@@ -15249,6 +16282,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "termGender",
           "package": "pandoc-citeproc",
@@ -15262,6 +16296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "termGenderForm",
           "package": "pandoc-citeproc",
@@ -15271,6 +16306,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "termGenderForm",
           "package": "pandoc-citeproc",
@@ -15284,6 +16320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "termMatch",
           "package": "pandoc-citeproc",
@@ -15293,6 +16330,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "termMatch",
           "package": "pandoc-citeproc",
@@ -15306,6 +16344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "termPlural",
           "package": "pandoc-citeproc",
@@ -15315,6 +16354,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "termPlural",
           "package": "pandoc-citeproc",
@@ -15328,6 +16368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "termSingular",
           "package": "pandoc-citeproc",
@@ -15337,6 +16378,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "termSingular",
           "package": "pandoc-citeproc",
@@ -15350,6 +16392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "textCase",
           "package": "pandoc-citeproc",
@@ -15359,6 +16402,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "textCase",
           "package": "pandoc-citeproc",
@@ -15372,6 +16416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "textDecoration",
           "package": "pandoc-citeproc",
@@ -15381,6 +16426,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "textDecoration",
           "package": "pandoc-citeproc",
@@ -15394,6 +16440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "toStr",
           "package": "pandoc-citeproc",
@@ -15403,6 +16450,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "toStr",
           "normalized": "String-\u003e[Inline]",
@@ -15441,6 +16489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "unFormatted",
           "package": "pandoc-citeproc",
@@ -15450,6 +16499,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "unFormatted",
           "normalized": "[Inline]",
@@ -15465,6 +16515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "unsetAffixes",
           "package": "pandoc-citeproc",
@@ -15474,6 +16525,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "unsetAffixes",
           "normalized": "Formatting-\u003eFormatting",
@@ -15489,6 +16541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "verticalAlign",
           "package": "pandoc-citeproc",
@@ -15498,6 +16551,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "verticalAlign",
           "package": "pandoc-citeproc",
@@ -15511,6 +16565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL.Style",
           "name": "writeCSLString",
           "package": "pandoc-citeproc",
@@ -15520,6 +16575,7 @@
         },
         "index": {
           "hierarchy": "Text CSL Style",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL.Style",
           "name": "writeCSLString",
           "normalized": "[Inline]-\u003eString",
@@ -15536,6 +16592,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eciteproc-hs\u003c/em\u003e is a library for automatically formatting\n bibliographic reference citations into a variety of styles using a\n macro language called Citation Style Language (CSL). More details\n on CSL can be found here: \u003ca\u003ehttp://citationstyles.org/\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThis module documents and exports the library API.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL",
           "name": "CSL",
           "package": "pandoc-citeproc",
@@ -15545,6 +16602,7 @@
         "index": {
           "description": "citeproc-hs is library for automatically formatting bibliographic reference citations into variety of styles using macro language called Citation Style Language CSL More details on CSL can be found here http citationstyles.org This module documents and exports the library API",
           "hierarchy": "Text CSL",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL",
           "name": "CSL",
           "package": "pandoc-citeproc",
@@ -15558,6 +16616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL",
           "name": "Abbreviations",
           "package": "pandoc-citeproc",
@@ -15566,6 +16625,7 @@
         },
         "index": {
           "hierarchy": "Text CSL",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL",
           "name": "Abbreviations",
           "package": "pandoc-citeproc",
@@ -15579,6 +16639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL",
           "name": "BibFormat",
           "package": "pandoc-citeproc",
@@ -15587,6 +16648,7 @@
         },
         "index": {
           "hierarchy": "Text CSL",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL",
           "name": "BibFormat",
           "package": "pandoc-citeproc",
@@ -15600,6 +16662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL",
           "name": "BibOpts",
           "package": "pandoc-citeproc",
@@ -15608,6 +16671,7 @@
         },
         "index": {
           "hierarchy": "Text CSL",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL",
           "name": "BibOpts",
           "package": "pandoc-citeproc",
@@ -15621,6 +16685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL",
           "name": "BiblioData",
           "package": "pandoc-citeproc",
@@ -15629,6 +16694,7 @@
         },
         "index": {
           "hierarchy": "Text CSL",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL",
           "name": "BiblioData",
           "package": "pandoc-citeproc",
@@ -15642,6 +16708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL",
           "name": "Bibliography",
           "package": "pandoc-citeproc",
@@ -15650,6 +16717,7 @@
         },
         "index": {
           "hierarchy": "Text CSL",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL",
           "name": "Bibliography",
           "package": "pandoc-citeproc",
@@ -15663,6 +16731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL",
           "name": "Citation",
           "package": "pandoc-citeproc",
@@ -15671,6 +16740,7 @@
         },
         "index": {
           "hierarchy": "Text CSL",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL",
           "name": "Citation",
           "package": "pandoc-citeproc",
@@ -15684,6 +16754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL",
           "name": "Cite",
           "package": "pandoc-citeproc",
@@ -15692,6 +16763,7 @@
         },
         "index": {
           "hierarchy": "Text CSL",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL",
           "name": "Cite",
           "package": "pandoc-citeproc",
@@ -15705,6 +16777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL",
           "name": "ProcOpts",
           "package": "pandoc-citeproc",
@@ -15713,6 +16786,7 @@
         },
         "index": {
           "hierarchy": "Text CSL",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL",
           "name": "ProcOpts",
           "package": "pandoc-citeproc",
@@ -15727,6 +16801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eReference\u003c/a\u003e\u003c/code\u003e record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL",
           "name": "Reference",
           "package": "pandoc-citeproc",
@@ -15736,6 +16811,7 @@
         "index": {
           "description": "The Reference record",
           "hierarchy": "Text CSL",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL",
           "name": "Reference",
           "package": "pandoc-citeproc",
@@ -15750,6 +16826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe representation of a parsed CSL style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:54 UTC 2014",
           "module": "Text.CSL",
           "name": "Style",
           "package": "pandoc-citeproc",
@@ -15759,6 +16836,7 @@
         "index": {
           "description": "The representation of parsed CSL style",
           "hierarchy": "Text CSL",
+          "indexed": "2014-03-11T19:33:54",
           "module": "Text.CSL",
           "name": "Style",
           "package": "pandoc-citeproc",

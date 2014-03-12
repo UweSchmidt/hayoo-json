@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "timerep"
+        "phrase": "timerep",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:13 UTC 2014",
           "module": "Data.Time.RFC2822",
           "name": "RFC2822",
           "package": "timerep",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Time RFC2822",
+          "indexed": "2014-03-11T20:23:13",
           "module": "Data.Time.RFC2822",
           "name": "RFC2822",
           "package": "timerep",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class is here to allow future support for other data types \n like Data.Text or Data.ByteString if that becomes necessary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:13 UTC 2014",
           "module": "Data.Time.RFC2822",
           "name": "RFC2822",
           "package": "timerep",
@@ -49,6 +52,7 @@
         "index": {
           "description": "This class is here to allow future support for other data types like Data.Text or Data.ByteString if that becomes necessary",
           "hierarchy": "Data Time RFC2822",
+          "indexed": "2014-03-11T20:23:13",
           "module": "Data.Time.RFC2822",
           "name": "RFC2822",
           "package": "timerep",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:13 UTC 2014",
           "module": "Data.Time.RFC2822",
           "name": "readRFC2822",
           "package": "timerep",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Time RFC2822",
+          "indexed": "2014-03-11T20:23:13",
           "module": "Data.Time.RFC2822",
           "name": "readRFC2822",
           "normalized": "a-\u003eMaybe ZonedTime",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:13 UTC 2014",
           "module": "Data.Time.RFC2822",
           "name": "showRFC2822",
           "package": "timerep",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data Time RFC2822",
+          "indexed": "2014-03-11T20:23:13",
           "module": "Data.Time.RFC2822",
           "name": "showRFC2822",
           "normalized": "ZonedTime-\u003ea",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:13 UTC 2014",
           "module": "Data.Time.RFC3339",
           "name": "RFC3339",
           "package": "timerep",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Data Time RFC3339",
+          "indexed": "2014-03-11T20:23:13",
           "module": "Data.Time.RFC3339",
           "name": "RFC3339",
           "package": "timerep",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class is here to allow future support for other data types \n like Data.Text or Data.ByteString if that becomes necessary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:13 UTC 2014",
           "module": "Data.Time.RFC3339",
           "name": "RFC3339",
           "package": "timerep",
@@ -141,6 +152,7 @@
         "index": {
           "description": "This class is here to allow future support for other data types like Data.Text or Data.ByteString if that becomes necessary",
           "hierarchy": "Data Time RFC3339",
+          "indexed": "2014-03-11T20:23:13",
           "module": "Data.Time.RFC3339",
           "name": "RFC3339",
           "package": "timerep",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:13 UTC 2014",
           "module": "Data.Time.RFC3339",
           "name": "readRFC3339",
           "package": "timerep",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Data Time RFC3339",
+          "indexed": "2014-03-11T20:23:13",
           "module": "Data.Time.RFC3339",
           "name": "readRFC3339",
           "normalized": "a-\u003eMaybe ZonedTime",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:13 UTC 2014",
           "module": "Data.Time.RFC3339",
           "name": "showRFC3339",
           "package": "timerep",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Data Time RFC3339",
+          "indexed": "2014-03-11T20:23:13",
           "module": "Data.Time.RFC3339",
           "name": "showRFC3339",
           "normalized": "ZonedTime-\u003ea",

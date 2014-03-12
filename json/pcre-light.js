@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pcre-light"
+        "phrase": "pcre-light",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDocumentation based on \u003cem\u003eman pcreapi\u003c/em\u003e, written by Philip Hazel, 2007.\n\u003c/p\u003e\u003cp\u003eLicense   : BSD3\n Maintainer:  Don Stewart \u003ca\u003edons@galois.com\u003c/a\u003e\n Stability :  experimental\n Portability: CPP, FFI\n Tested with: GHC 6.8.2\n\u003c/p\u003e\u003cp\u003eRaw FFI bindings to PCRE functions and constants. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "Base",
           "package": "pcre-light",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Documentation based on man pcreapi written by Philip Hazel License BSD3 Maintainer Don Stewart dons@galois.com Stability experimental Portability CPP FFI Tested with GHC Raw FFI bindings to PCRE functions and constants",
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "Base",
           "package": "pcre-light",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "PCRE",
           "package": "pcre-light",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "PCRE",
           "package": "pcre-light",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "PCREConfig",
           "package": "pcre-light",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "PCREConfig",
           "package": "pcre-light",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type for PCRE Errors: exec-time error codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "PCREError",
           "package": "pcre-light",
@@ -93,6 +100,7 @@
         "index": {
           "description": "type for PCRE Errors exec-time error codes",
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "PCREError",
           "package": "pcre-light",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "PCREExecOption",
           "package": "pcre-light",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "PCREExecOption",
           "package": "pcre-light",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePCREExtraFlags. bit flags for extra structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "PCREExtraFlags",
           "package": "pcre-light",
@@ -137,6 +148,7 @@
         "index": {
           "description": "PCREExtraFlags bit flags for extra structure",
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "PCREExtraFlags",
           "package": "pcre-light",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePCRE Info requests -- provides information about the compiled pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "PCREInfo",
           "package": "pcre-light",
@@ -160,6 +173,7 @@
         "index": {
           "description": "PCRE Info requests provides information about the compiled pattern",
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "PCREInfo",
           "package": "pcre-light",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type for PCRE compile-time options. These are newtyped CInts,\n which can be bitwise-or'd together, using '(Data.Bits..|.)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "PCREOption",
           "package": "pcre-light",
@@ -183,6 +198,7 @@
         "index": {
           "description": "type for PCRE compile-time options These are newtyped CInts which can be bitwise-or together using Data.Bits",
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "PCREOption",
           "package": "pcre-light",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract pointer to a compiled PCRE Regex structure\n The structure allocated by the PCRE library will be deallocated\n automatically by the Haskell storage manager.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "Regex",
           "package": "pcre-light",
@@ -206,6 +223,7 @@
         "index": {
           "description": "An abstract pointer to compiled PCRE Regex structure The structure allocated by the PCRE library will be deallocated automatically by the Haskell storage manager",
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "Regex",
           "package": "pcre-light",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "Regex",
           "package": "pcre-light",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "Regex",
           "package": "pcre-light",
@@ -290,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a pattern to an internal form. The pattern is a C string\n terminated by a binary zero. A pointer to a single block of memory that is\n obtained via pcre_malloc is returned. It is up to the caller to free\n the memory (via pcre_free) when it is no longer required\n\u003c/p\u003e\u003cp\u003eThe options argument contains various bit settings that affect the\n compilation. It should be zero if no options are required.\n\u003c/p\u003e\u003cp\u003eIf errptr is NULL, pcre_compile() returns NULL immediately.\n Otherwise, if compilation of a pattern fails, pcre_compile() returns NULL,\n and sets the variable pointed to by errptr to point to a textual error\n message.\n\u003c/p\u003e\u003cp\u003eThe offset from the start of the pattern to the character where the error\n was discovered is placed in the variable pointed to by erroffset, which must\n not be NULL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "c_pcre_compile",
           "package": "pcre-light",
@@ -300,6 +321,7 @@
         "index": {
           "description": "Compile pattern to an internal form The pattern is string terminated by binary zero pointer to single block of memory that is obtained via pcre malloc is returned It is up to the caller to free the memory via pcre free when it is no longer required The options argument contains various bit settings that affect the compilation It should be zero if no options are required If errptr is NULL pcre compile returns NULL immediately Otherwise if compilation of pattern fails pcre compile returns NULL and sets the variable pointed to by errptr to point to textual error message The offset from the start of the pattern to the character where the error was discovered is placed in the variable pointed to by erroffset which must not be NULL",
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "c_pcre_compile",
           "normalized": "CString-\u003ePCREOption-\u003ePtr CString-\u003ePtr CInt-\u003ePtr Word-\u003eIO(Ptr PCRE)",
@@ -315,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function matches a compiled regular expression\n against a given subject string, using a matching algorithm\n that is similar to Perl's. It returns offsets to captured\n substrings.\n\u003c/p\u003e\u003cp\u003eIts arguments are, in order:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003ecode\u003c/code\u003e        Points to the compiled pattern (result of pcre_compile)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eextra\u003c/a\u003e\u003c/code\u003e       Points to an associated pcre_extra structure (result of pcre_study), or is NULL\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003esubject\u003c/code\u003e      Points to the subject string\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e       Length of the subject string, in bytes\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003estartoffset\u003c/code\u003e  Offset in bytes in the subject at which to start matching\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eoptions\u003c/code\u003e      Option bits\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eovector\u003c/code\u003e      Points to a vector of ints for result substrings\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eovecsize\u003c/code\u003e     Number of elements in the vector (a  multiple of 3)\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eNote, subject not required to be null terminated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "c_pcre_exec",
           "package": "pcre-light",
@@ -325,6 +348,7 @@
         "index": {
           "description": "This function matches compiled regular expression against given subject string using matching algorithm that is similar to Perl It returns offsets to captured substrings Its arguments are in order code Points to the compiled pattern result of pcre compile extra Points to an associated pcre extra structure result of pcre study or is NULL subject Points to the subject string length Length of the subject string in bytes startoffset Offset in bytes in the subject at which to start matching options Option bits ovector Points to vector of ints for result substrings ovecsize Number of elements in the vector multiple of Note subject not required to be null terminated",
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "c_pcre_exec",
           "normalized": "Ptr PCRE-\u003ePtr PCREExtra-\u003ePtr Word-\u003eCInt-\u003eCInt-\u003ePCREExecOption-\u003ePtr CInt-\u003eCInt-\u003eIO CInt",
@@ -340,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn information about a compiled pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "c_pcre_fullinfo",
           "package": "pcre-light",
@@ -350,6 +375,7 @@
         "index": {
           "description": "Return information about compiled pattern",
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "c_pcre_fullinfo",
           "normalized": "Ptr PCRE-\u003ePtr PCREExtra-\u003ePCREInfo-\u003ePtr a-\u003eIO CInt",
@@ -389,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine a list of exec options into a single option, using bitwise (.|.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "combineExecOptions",
           "package": "pcre-light",
@@ -399,6 +426,7 @@
         "index": {
           "description": "Combine list of exec options into single option using bitwise",
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "combineExecOptions",
           "normalized": "[PCREExecOption]-\u003ePCREExecOption",
@@ -415,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine a list of options into a single option, using bitwise (.|.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "combineOptions",
           "package": "pcre-light",
@@ -425,6 +454,7 @@
         "index": {
           "description": "Combine list of options into single option using bitwise",
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "combineOptions",
           "normalized": "[PCREOption]-\u003ePCREOption",
@@ -440,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "config_link_size",
           "package": "pcre-light",
@@ -449,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "config_link_size",
           "package": "pcre-light",
@@ -461,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "config_match_limit",
           "package": "pcre-light",
@@ -470,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "config_match_limit",
           "package": "pcre-light",
@@ -482,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "config_match_limit_recursion",
           "package": "pcre-light",
@@ -491,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "config_match_limit_recursion",
           "package": "pcre-light",
@@ -503,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "config_newline",
           "package": "pcre-light",
@@ -512,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "config_newline",
           "package": "pcre-light",
@@ -524,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "config_posix_malloc_threshold",
           "package": "pcre-light",
@@ -533,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "config_posix_malloc_threshold",
           "package": "pcre-light",
@@ -545,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "config_stackrecurse",
           "package": "pcre-light",
@@ -554,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "config_stackrecurse",
           "package": "pcre-light",
@@ -566,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "config_unicode_properties",
           "package": "pcre-light",
@@ -575,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "config_unicode_properties",
           "package": "pcre-light",
@@ -587,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "config_utf8",
           "package": "pcre-light",
@@ -596,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "config_utf8",
           "package": "pcre-light",
@@ -680,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_badcount",
           "package": "pcre-light",
@@ -689,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_badcount",
           "package": "pcre-light",
@@ -701,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_badmagic",
           "package": "pcre-light",
@@ -710,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_badmagic",
           "package": "pcre-light",
@@ -722,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_badoption",
           "package": "pcre-light",
@@ -731,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_badoption",
           "package": "pcre-light",
@@ -743,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_badpartial",
           "package": "pcre-light",
@@ -752,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_badpartial",
           "package": "pcre-light",
@@ -764,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_badutf8",
           "package": "pcre-light",
@@ -773,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_badutf8",
           "package": "pcre-light",
@@ -785,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_badutf8_offset",
           "package": "pcre-light",
@@ -794,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_badutf8_offset",
           "package": "pcre-light",
@@ -806,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_callout",
           "package": "pcre-light",
@@ -815,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_callout",
           "package": "pcre-light",
@@ -827,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_dfa_recurse",
           "package": "pcre-light",
@@ -836,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_dfa_recurse",
           "package": "pcre-light",
@@ -848,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_dfa_ucond",
           "package": "pcre-light",
@@ -857,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_dfa_ucond",
           "package": "pcre-light",
@@ -869,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_dfa_uitem",
           "package": "pcre-light",
@@ -878,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_dfa_uitem",
           "package": "pcre-light",
@@ -890,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_dfa_umlimit",
           "package": "pcre-light",
@@ -899,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_dfa_umlimit",
           "package": "pcre-light",
@@ -911,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_dfa_wssize",
           "package": "pcre-light",
@@ -920,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_dfa_wssize",
           "package": "pcre-light",
@@ -932,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_internal",
           "package": "pcre-light",
@@ -941,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_internal",
           "package": "pcre-light",
@@ -953,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_matchlimit",
           "package": "pcre-light",
@@ -962,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_matchlimit",
           "package": "pcre-light",
@@ -974,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_nomatch",
           "package": "pcre-light",
@@ -983,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_nomatch",
           "package": "pcre-light",
@@ -995,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_nomemory",
           "package": "pcre-light",
@@ -1004,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_nomemory",
           "package": "pcre-light",
@@ -1016,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_nosubstring",
           "package": "pcre-light",
@@ -1025,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_nosubstring",
           "package": "pcre-light",
@@ -1037,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_null",
           "package": "pcre-light",
@@ -1046,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_null",
           "package": "pcre-light",
@@ -1058,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_partial",
           "package": "pcre-light",
@@ -1067,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_partial",
           "package": "pcre-light",
@@ -1079,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_recursionlimit",
           "package": "pcre-light",
@@ -1088,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_recursionlimit",
           "package": "pcre-light",
@@ -1100,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_unknown_node",
           "package": "pcre-light",
@@ -1109,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "error_unknown_node",
           "package": "pcre-light",
@@ -1385,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "extra_callout_data",
           "package": "pcre-light",
@@ -1394,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "extra_callout_data",
           "package": "pcre-light",
@@ -1406,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "extra_match_limit",
           "package": "pcre-light",
@@ -1415,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "extra_match_limit",
           "package": "pcre-light",
@@ -1427,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "extra_match_limit_recursion",
           "package": "pcre-light",
@@ -1436,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "extra_match_limit_recursion",
           "package": "pcre-light",
@@ -1448,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "extra_study_data",
           "package": "pcre-light",
@@ -1457,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "extra_study_data",
           "package": "pcre-light",
@@ -1469,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "extra_tables",
           "package": "pcre-light",
@@ -1478,6 +1575,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "extra_tables",
           "package": "pcre-light",
@@ -1514,6 +1612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_backrefmax",
           "package": "pcre-light",
@@ -1523,6 +1622,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_backrefmax",
           "package": "pcre-light",
@@ -1535,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_capturecount",
           "package": "pcre-light",
@@ -1544,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_capturecount",
           "package": "pcre-light",
@@ -1556,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_default_tables",
           "package": "pcre-light",
@@ -1565,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_default_tables",
           "package": "pcre-light",
@@ -1577,6 +1681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_firstbyte",
           "package": "pcre-light",
@@ -1586,6 +1691,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_firstbyte",
           "package": "pcre-light",
@@ -1598,6 +1704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_firstchar",
           "package": "pcre-light",
@@ -1607,6 +1714,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_firstchar",
           "package": "pcre-light",
@@ -1619,6 +1727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_firsttable",
           "package": "pcre-light",
@@ -1628,6 +1737,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_firsttable",
           "package": "pcre-light",
@@ -1640,6 +1750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_lastliteral",
           "package": "pcre-light",
@@ -1649,6 +1760,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_lastliteral",
           "package": "pcre-light",
@@ -1661,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_namecount",
           "package": "pcre-light",
@@ -1670,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_namecount",
           "package": "pcre-light",
@@ -1682,6 +1796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_nameentrysize",
           "package": "pcre-light",
@@ -1691,6 +1806,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_nameentrysize",
           "package": "pcre-light",
@@ -1703,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_nametable",
           "package": "pcre-light",
@@ -1712,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_nametable",
           "package": "pcre-light",
@@ -1724,6 +1842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_options",
           "package": "pcre-light",
@@ -1733,6 +1852,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_options",
           "package": "pcre-light",
@@ -1745,6 +1865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_size",
           "package": "pcre-light",
@@ -1754,6 +1875,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_size",
           "package": "pcre-light",
@@ -1767,6 +1889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest types for config()\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_studysize",
           "package": "pcre-light",
@@ -1777,6 +1900,7 @@
         "index": {
           "description": "Request types for config",
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "info_studysize",
           "package": "pcre-light",
@@ -1934,6 +2058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet sizeof CInt from hsc2hs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "size_of_cint",
           "package": "pcre-light",
@@ -1944,6 +2069,7 @@
         "index": {
           "description": "Get sizeof CInt from hsc2hs",
           "hierarchy": "Text Regex PCRE Light Base",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Base",
           "name": "size_of_cint",
           "package": "pcre-light",
@@ -2004,6 +2130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Char8",
           "name": "Char8",
           "package": "pcre-light",
@@ -2012,6 +2139,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Char8",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Char8",
           "name": "Char8",
           "package": "pcre-light",
@@ -2025,6 +2153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Char8",
           "name": "PCREExecOption",
           "package": "pcre-light",
@@ -2033,6 +2162,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light Char8",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Char8",
           "name": "PCREExecOption",
           "package": "pcre-light",
@@ -2047,6 +2177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type for PCRE compile-time options. These are newtyped CInts,\n which can be bitwise-or'd together, using '(Data.Bits..|.)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Char8",
           "name": "PCREOption",
           "package": "pcre-light",
@@ -2056,6 +2187,7 @@
         "index": {
           "description": "type for PCRE compile-time options These are newtyped CInts which can be bitwise-or together using Data.Bits",
           "hierarchy": "Text Regex PCRE Light Char8",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Char8",
           "name": "PCREOption",
           "package": "pcre-light",
@@ -2070,6 +2202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract pointer to a compiled PCRE Regex structure\n The structure allocated by the PCRE library will be deallocated\n automatically by the Haskell storage manager.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Char8",
           "name": "Regex",
           "package": "pcre-light",
@@ -2079,6 +2212,7 @@
         "index": {
           "description": "An abstract pointer to compiled PCRE Regex structure The structure allocated by the PCRE library will be deallocated automatically by the Haskell storage manager",
           "hierarchy": "Text Regex PCRE Light Char8",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Char8",
           "name": "Regex",
           "package": "pcre-light",
@@ -2093,6 +2227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecompile\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eCompile a perl-compatible regular expression, in a strict bytestring.\n The arguments are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003epat\u003c/code\u003e: A ByteString, which may or may not be zero-terminated,\n containing the regular expression to be compiled. \n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eflags\u003c/code\u003e, optional bit flags. If \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is provided, defaults are used.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eValid compile-time flags are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eanchored\u003c/a\u003e\u003c/code\u003e        - Force pattern anchoring\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eauto_callout\u003c/a\u003e\u003c/code\u003e    - Compile automatic callouts\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ebsr_anycrlf\u003c/code\u003e     - \\R matches only CR, LF, or CRLF\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ebsr_unicode\u003c/code\u003e     - \\R matches all Unicode line endings\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ecaseless\u003c/a\u003e\u003c/code\u003e        - Do caseless matching\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003edollar_endonly\u003c/a\u003e\u003c/code\u003e  - \u003ccode\u003e\u003ca\u003e$\u003c/a\u003e\u003c/code\u003e not to match newline at end\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003edotall\u003c/a\u003e\u003c/code\u003e          - matches anything including NL\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003edupnames\u003c/a\u003e\u003c/code\u003e        - Allow duplicate names for subpatterns\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eextended\u003c/a\u003e\u003c/code\u003e        - Ignore whitespace and # comments\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eextra\u003c/a\u003e\u003c/code\u003e           - PCRE extra features (not much use currently)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003efirstline\u003c/a\u003e\u003c/code\u003e       - Force matching to be  before  newline\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003emultiline\u003c/a\u003e\u003c/code\u003e       - \u003ccode\u003e\u003ca\u003e^\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e$\u003c/a\u003e\u003c/code\u003e match newlines within data\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003enewline_any\u003c/code\u003e     - Recognize any Unicode newline sequence\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003enewline_anycrlf\u003c/code\u003e - Recognize CR, LF, and CRLF as newline sequences\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003enewline_cr\u003c/a\u003e\u003c/code\u003e      - Set CR as the newline sequence\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003enewline_crlf\u003c/a\u003e\u003c/code\u003e    - Set CRLF as the newline sequence\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003enewline_lf\u003c/a\u003e\u003c/code\u003e      - Set LF as the newline sequence\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eno_auto_capture\u003c/a\u003e\u003c/code\u003e - Disable numbered capturing parentheses (named ones available)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eungreedy\u003c/a\u003e\u003c/code\u003e        - Invert greediness of quantifiers\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eutf8\u003c/a\u003e\u003c/code\u003e            - Run in UTF-8 mode\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eno_utf8_check\u003c/a\u003e\u003c/code\u003e   - Do not check the pattern for UTF-8 validity\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eIf compilation of the pattern fails, the \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e constructor is \n returned with the error string. Otherwise an abstract type\n representing the compiled regular expression is returned.\n The regex is allocated via malloc on the C side, and will be\n deallocated by the runtime when the Haskell value representing it\n goes out of scope.\n\u003c/p\u003e\u003cp\u003eAs regexes are often defined statically, GHC will compile them \n to null-terminated, strict C strings, enabling compilation of the \n pattern without copying. This may be useful for very large patterns.\n\u003c/p\u003e\u003cp\u003eSee man pcreapi for more details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Char8",
           "name": "compile",
           "package": "pcre-light",
@@ -2103,6 +2238,7 @@
         "index": {
           "description": "compile Compile perl-compatible regular expression in strict bytestring The arguments are pat ByteString which may or may not be zero-terminated containing the regular expression to be compiled flags optional bit flags If Nothing is provided defaults are used Valid compile-time flags are anchored Force pattern anchoring auto callout Compile automatic callouts bsr anycrlf matches only CR LF or CRLF bsr unicode matches all Unicode line endings caseless Do caseless matching dollar endonly not to match newline at end dotall matches anything including NL dupnames Allow duplicate names for subpatterns extended Ignore whitespace and comments extra PCRE extra features not much use currently firstline Force matching to be before newline multiline and match newlines within data newline any Recognize any Unicode newline sequence newline anycrlf Recognize CR LF and CRLF as newline sequences newline cr Set CR as the newline sequence newline crlf Set CRLF as the newline sequence newline lf Set LF as the newline sequence no auto capture Disable numbered capturing parentheses named ones available ungreedy Invert greediness of quantifiers utf8 Run in UTF-8 mode no utf8 check Do not check the pattern for UTF-8 validity If compilation of the pattern fails the Left constructor is returned with the error string Otherwise an abstract type representing the compiled regular expression is returned The regex is allocated via malloc on the side and will be deallocated by the runtime when the Haskell value representing it goes out of scope As regexes are often defined statically GHC will compile them to null-terminated strict strings enabling compilation of the pattern without copying This may be useful for very large patterns See man pcreapi for more details",
           "hierarchy": "Text Regex PCRE Light Char8",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Char8",
           "name": "compile",
           "normalized": "String-\u003e[PCREOption]-\u003eRegex",
@@ -2118,6 +2254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecompileM\u003c/a\u003e\u003c/code\u003e\n A safe version of \u003ccode\u003e\u003ca\u003ecompile\u003c/a\u003e\u003c/code\u003e with failure lifted into an Either\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Char8",
           "name": "compileM",
           "package": "pcre-light",
@@ -2128,6 +2265,7 @@
         "index": {
           "description": "compileM safe version of compile with failure lifted into an Either",
           "hierarchy": "Text Regex PCRE Light Char8",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Char8",
           "name": "compileM",
           "normalized": "String-\u003e[PCREOption]-\u003eEither String Regex",
@@ -2143,6 +2281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ematch\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eMatches a compiled regular expression against a given subject string,\n using a matching algorithm that is similar to Perl's. If the subject\n string doesn't match the regular expression, \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is returned,\n otherwise the portion of the string that matched is returned, along\n with any captured subpatterns.\n\u003c/p\u003e\u003cp\u003eThe arguments are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eregex\u003c/code\u003e, a PCRE regular expression value produced by compile\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003esubject\u003c/code\u003e, the subject string to match against\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eoptions\u003c/code\u003e, an optional set of exec-time flags to exec.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eAvailable runtime options are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eanchored\u003c/a\u003e\u003c/code\u003e        - Match only at the first position\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ebsr_anycrlf\u003c/code\u003e     - '\\\\R' matches only CR, LF, or CRLF\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ebsr_unicode\u003c/code\u003e     - '\\\\R' matches all Unicode line endings\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003enewline_any\u003c/code\u003e     - Recognize any Unicode newline sequence\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003enewline_anycrlf\u003c/code\u003e - Recognize CR, LF, and CRLF as newline sequences\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003enewline_cr\u003c/a\u003e\u003c/code\u003e      - Set CR as the newline sequence\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003enewline_crlf\u003c/a\u003e\u003c/code\u003e    - Set CRLF as the newline sequence\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003enewline_lf\u003c/a\u003e\u003c/code\u003e      - Set LF as the newline sequence\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003enotbol\u003c/code\u003e          - Subject is not the beginning of a line\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003enoteol\u003c/code\u003e          - Subject is not the end of a line\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003enotempty\u003c/code\u003e        - An empty string is not a valid match\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eno_utf8_check\u003c/a\u003e\u003c/code\u003e   - Do not check the subject for UTF-8\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003epartial\u003c/code\u003e         - Return PCRE_ERROR_PARTIAL for a partial match\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe result value, and any captured subpatterns, are returned.\n If the regex is invalid, or the subject string is empty, Nothing\n is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light.Char8",
           "name": "match",
           "package": "pcre-light",
@@ -2153,6 +2292,7 @@
         "index": {
           "description": "match Matches compiled regular expression against given subject string using matching algorithm that is similar to Perl If the subject string doesn match the regular expression Nothing is returned otherwise the portion of the string that matched is returned along with any captured subpatterns The arguments are regex PCRE regular expression value produced by compile subject the subject string to match against options an optional set of exec-time flags to exec Available runtime options are anchored Match only at the first position bsr anycrlf matches only CR LF or CRLF bsr unicode matches all Unicode line endings newline any Recognize any Unicode newline sequence newline anycrlf Recognize CR LF and CRLF as newline sequences newline cr Set CR as the newline sequence newline crlf Set CRLF as the newline sequence newline lf Set LF as the newline sequence notbol Subject is not the beginning of line noteol Subject is not the end of line notempty An empty string is not valid match no utf8 check Do not check the subject for UTF-8 partial Return PCRE ERROR PARTIAL for partial match The result value and any captured subpatterns are returned If the regex is invalid or the subject string is empty Nothing is returned",
           "hierarchy": "Text Regex PCRE Light Char8",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light.Char8",
           "name": "match",
           "normalized": "Regex-\u003eString-\u003e[PCREExecOption]-\u003eMaybe[String]",
@@ -2167,6 +2307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light",
           "name": "Light",
           "package": "pcre-light",
@@ -2175,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light",
           "name": "Light",
           "package": "pcre-light",
@@ -2188,6 +2330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light",
           "name": "PCREExecOption",
           "package": "pcre-light",
@@ -2196,6 +2339,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light",
           "name": "PCREExecOption",
           "package": "pcre-light",
@@ -2210,6 +2354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type for PCRE compile-time options. These are newtyped CInts,\n which can be bitwise-or'd together, using '(Data.Bits..|.)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light",
           "name": "PCREOption",
           "package": "pcre-light",
@@ -2219,6 +2364,7 @@
         "index": {
           "description": "type for PCRE compile-time options These are newtyped CInts which can be bitwise-or together using Data.Bits",
           "hierarchy": "Text Regex PCRE Light",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light",
           "name": "PCREOption",
           "package": "pcre-light",
@@ -2233,6 +2379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract pointer to a compiled PCRE Regex structure\n The structure allocated by the PCRE library will be deallocated\n automatically by the Haskell storage manager.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light",
           "name": "Regex",
           "package": "pcre-light",
@@ -2242,6 +2389,7 @@
         "index": {
           "description": "An abstract pointer to compiled PCRE Regex structure The structure allocated by the PCRE library will be deallocated automatically by the Haskell storage manager",
           "hierarchy": "Text Regex PCRE Light",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light",
           "name": "Regex",
           "package": "pcre-light",
@@ -2255,6 +2403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light",
           "name": "captureCount",
           "package": "pcre-light",
@@ -2264,6 +2413,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PCRE Light",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light",
           "name": "captureCount",
           "normalized": "Regex-\u003eInt",
@@ -2280,6 +2430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecompile\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eCompile a perl-compatible regular expression stored in a strict bytestring.\n\u003c/p\u003e\u003cp\u003eAn example\n\u003c/p\u003e\u003cpre\u003e let r = compile (pack \"^(b+|a){1,2}?bc\") []\n\u003c/pre\u003e\u003cp\u003eOr using GHC's -XOverloadedStrings flag, and importing\n Data.ByteString.Char8, we can avoid the pack:\n\u003c/p\u003e\u003cpre\u003e let r = compile \"^(b+|a){1,2}?bc\" []\n\u003c/pre\u003e\u003cp\u003eIf the regular expression is invalid, an exception is thrown.\n If this is unsuitable, \u003ccode\u003e\u003ca\u003ecompileM\u003c/a\u003e\u003c/code\u003e is availlable, which returns failure \n in a monad.\n\u003c/p\u003e\u003cp\u003eTo do case insentive matching,\n\u003c/p\u003e\u003cpre\u003e compile \"^(b+|a){1,2}?bc\" [caseless]\n\u003c/pre\u003e\u003cp\u003eOther flags are documented below.\n\u003c/p\u003e\u003cp\u003eThe resulting abstract regular expression can be passed to \u003ccode\u003e\u003ca\u003ematch\u003c/a\u003e\u003c/code\u003e\n for matching against a subject string.\n\u003c/p\u003e\u003cp\u003eThe arguments are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003epat\u003c/code\u003e: A ByteString containing the regular expression to be compiled. \n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eflags\u003c/code\u003e, optional bit flags. If \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is provided, defaults are used.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eValid compile-time flags are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eanchored\u003c/a\u003e\u003c/code\u003e        - Force pattern anchoring\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eauto_callout\u003c/a\u003e\u003c/code\u003e    - Compile automatic callouts\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ebsr_anycrlf\u003c/code\u003e     - \\R matches only CR, LF, or CRLF\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ebsr_unicode\u003c/code\u003e     - \\R matches all Unicode line endings\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ecaseless\u003c/a\u003e\u003c/code\u003e        - Do caseless matching\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003edollar_endonly\u003c/a\u003e\u003c/code\u003e  - \u003ccode\u003e\u003ca\u003e$\u003c/a\u003e\u003c/code\u003e not to match newline at end\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003edotall\u003c/a\u003e\u003c/code\u003e          - matches anything including NL\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003edupnames\u003c/a\u003e\u003c/code\u003e        - Allow duplicate names for subpatterns\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eextended\u003c/a\u003e\u003c/code\u003e        - Ignore whitespace and # comments\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eextra\u003c/a\u003e\u003c/code\u003e           - PCRE extra features (not much use currently)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003efirstline\u003c/a\u003e\u003c/code\u003e       - Force matching to be  before  newline\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003emultiline\u003c/a\u003e\u003c/code\u003e       - \u003ccode\u003e\u003ca\u003e^\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e$\u003c/a\u003e\u003c/code\u003e match newlines within data\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003enewline_any\u003c/code\u003e     - Recognize any Unicode newline sequence\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003enewline_anycrlf\u003c/code\u003e - Recognize CR, LF, and CRLF as newline sequences\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003enewline_cr\u003c/a\u003e\u003c/code\u003e      - Set CR as the newline sequence\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003enewline_crlf\u003c/a\u003e\u003c/code\u003e    - Set CRLF as the newline sequence\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003enewline_lf\u003c/a\u003e\u003c/code\u003e      - Set LF as the newline sequence\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eno_auto_capture\u003c/a\u003e\u003c/code\u003e - Disable numbered capturing parentheses (named ones available)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eungreedy\u003c/a\u003e\u003c/code\u003e        - Invert greediness of quantifiers\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eutf8\u003c/a\u003e\u003c/code\u003e            - Run in UTF-8 mode\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eno_utf8_check\u003c/a\u003e\u003c/code\u003e   - Do not check the pattern for UTF-8 validity\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe regex is allocated via malloc on the C side, and will be\n deallocated by the runtime when the Haskell value representing it\n goes out of scope.\n\u003c/p\u003e\u003cp\u003eSee 'man pcreapi for more details.\n\u003c/p\u003e\u003cp\u003eCaveats: patterns with embedded nulls, such as \u003ca\u003e0*\u003c/a\u003e seem to be\n mishandled, as this won't currently match the subject \u003ca\u003e000\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light",
           "name": "compile",
           "package": "pcre-light",
@@ -2290,6 +2441,7 @@
         "index": {
           "description": "compile Compile perl-compatible regular expression stored in strict bytestring An example let compile pack bc Or using GHC XOverloadedStrings flag and importing Data.ByteString.Char8 we can avoid the pack let compile bc If the regular expression is invalid an exception is thrown If this is unsuitable compileM is availlable which returns failure in monad To do case insentive matching compile bc caseless Other flags are documented below The resulting abstract regular expression can be passed to match for matching against subject string The arguments are pat ByteString containing the regular expression to be compiled flags optional bit flags If Nothing is provided defaults are used Valid compile-time flags are anchored Force pattern anchoring auto callout Compile automatic callouts bsr anycrlf matches only CR LF or CRLF bsr unicode matches all Unicode line endings caseless Do caseless matching dollar endonly not to match newline at end dotall matches anything including NL dupnames Allow duplicate names for subpatterns extended Ignore whitespace and comments extra PCRE extra features not much use currently firstline Force matching to be before newline multiline and match newlines within data newline any Recognize any Unicode newline sequence newline anycrlf Recognize CR LF and CRLF as newline sequences newline cr Set CR as the newline sequence newline crlf Set CRLF as the newline sequence newline lf Set LF as the newline sequence no auto capture Disable numbered capturing parentheses named ones available ungreedy Invert greediness of quantifiers utf8 Run in UTF-8 mode no utf8 check Do not check the pattern for UTF-8 validity The regex is allocated via malloc on the side and will be deallocated by the runtime when the Haskell value representing it goes out of scope See man pcreapi for more details Caveats patterns with embedded nulls such as seem to be mishandled as this won currently match the subject",
           "hierarchy": "Text Regex PCRE Light",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light",
           "name": "compile",
           "normalized": "ByteString-\u003e[PCREOption]-\u003eRegex",
@@ -2305,6 +2457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecompileM\u003c/a\u003e\u003c/code\u003e\n A safe version of \u003ccode\u003e\u003ca\u003ecompile\u003c/a\u003e\u003c/code\u003e with failure wrapped in an Either.\n\u003c/p\u003e\u003cp\u003eExamples,\n\u003c/p\u003e\u003cpre\u003e \u003e compileM \".*\" [] :: Either String Regex\n Right (Regex 0x000000004bb5b980 \".*\")\n\u003c/pre\u003e\u003cpre\u003e \u003e compileM \"*\" [] :: Either String Regex\n Left \"nothing to repeat\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light",
           "name": "compileM",
           "package": "pcre-light",
@@ -2315,6 +2468,7 @@
         "index": {
           "description": "compileM safe version of compile with failure wrapped in an Either Examples compileM Either String Regex Right Regex x000000004bb5b980 compileM Either String Regex Left nothing to repeat",
           "hierarchy": "Text Regex PCRE Light",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light",
           "name": "compileM",
           "normalized": "ByteString-\u003e[PCREOption]-\u003eEither String Regex",
@@ -2330,6 +2484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ematch\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eMatches a compiled regular expression against a given subject string,\n using a matching algorithm that is similar to Perl's. If the subject\n string doesn't match the regular expression, \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is returned,\n otherwise the portion of the string that matched is returned, along\n with any captured subpatterns.\n\u003c/p\u003e\u003cp\u003eThe arguments are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eregex\u003c/code\u003e, a PCRE regular expression value produced by compile\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003esubject\u003c/code\u003e, the subject string to match against\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eoptions\u003c/code\u003e, an optional set of exec-time flags to exec.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eAvailable runtime options are:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eexec_anchored\u003c/a\u003e\u003c/code\u003e        - Match only at the first position\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eexec_newline_any\u003c/code\u003e     - Recognize any Unicode newline sequence\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eexec_newline_anycrlf\u003c/code\u003e - Recognize CR, LF, and CRLF as newline sequences\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eexec_newline_cr\u003c/a\u003e\u003c/code\u003e      - Set CR as the newline sequence\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eexec_newline_crlf\u003c/a\u003e\u003c/code\u003e    - Set CRLF as the newline sequence\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eexec_newline_lf\u003c/a\u003e\u003c/code\u003e      - Set LF as the newline sequence\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eexec_notbol\u003c/a\u003e\u003c/code\u003e          - Subject is not the beginning of a line\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eexec_noteol\u003c/a\u003e\u003c/code\u003e          - Subject is not the end of a line\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eexec_notempty\u003c/a\u003e\u003c/code\u003e        - An empty string is not a valid match\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eexec_no_utf8_check\u003c/a\u003e\u003c/code\u003e   - Do not check the subject for UTF-8\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eexec_partial\u003c/a\u003e\u003c/code\u003e         - Return PCRE_ERROR_PARTIAL for a partial match\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe result value, and any captured subpatterns, are returned.\n If the regex is invalid, or the subject string is empty, Nothing\n is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:23 UTC 2014",
           "module": "Text.Regex.PCRE.Light",
           "name": "match",
           "package": "pcre-light",
@@ -2340,6 +2495,7 @@
         "index": {
           "description": "match Matches compiled regular expression against given subject string using matching algorithm that is similar to Perl If the subject string doesn match the regular expression Nothing is returned otherwise the portion of the string that matched is returned along with any captured subpatterns The arguments are regex PCRE regular expression value produced by compile subject the subject string to match against options an optional set of exec-time flags to exec Available runtime options are exec anchored Match only at the first position exec newline any Recognize any Unicode newline sequence exec newline anycrlf Recognize CR LF and CRLF as newline sequences exec newline cr Set CR as the newline sequence exec newline crlf Set CRLF as the newline sequence exec newline lf Set LF as the newline sequence exec notbol Subject is not the beginning of line exec noteol Subject is not the end of line exec notempty An empty string is not valid match exec no utf8 check Do not check the subject for UTF-8 exec partial Return PCRE ERROR PARTIAL for partial match The result value and any captured subpatterns are returned If the regex is invalid or the subject string is empty Nothing is returned",
           "hierarchy": "Text Regex PCRE Light",
+          "indexed": "2014-03-11T19:36:23",
           "module": "Text.Regex.PCRE.Light",
           "name": "match",
           "normalized": "Regex-\u003eByteString-\u003e[PCREExecOption]-\u003eMaybe[ByteString]",

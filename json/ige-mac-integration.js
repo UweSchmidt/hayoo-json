@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ige-mac-integration"
+        "phrase": "ige-mac-integration",
+        "type": "phrase"
       },
       "type": "context"
     }

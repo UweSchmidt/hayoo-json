@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "twitter-enumerator"
+        "phrase": "twitter-enumerator",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Api",
           "name": "Api",
           "package": "twitter-enumerator",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Api",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Api",
           "name": "Api",
           "package": "twitter-enumerator",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Api",
           "name": "ListParam",
           "package": "twitter-enumerator",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Api",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Api",
           "name": "ListParam",
           "package": "twitter-enumerator",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Api",
           "name": "UserParam",
           "package": "twitter-enumerator",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Api",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Api",
           "name": "UserParam",
           "package": "twitter-enumerator",
@@ -173,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Api",
           "name": "api",
           "package": "twitter-enumerator",
@@ -181,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Api",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Api",
           "name": "api",
           "normalized": "Bool-\u003eByteString-\u003eString-\u003eQuery-\u003eIteratee ByteString IO a-\u003eIteratee ByteString TW a",
@@ -195,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Api",
           "name": "endpoint",
           "package": "twitter-enumerator",
@@ -204,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Api",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Api",
           "name": "endpoint",
           "package": "twitter-enumerator",
@@ -216,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Api",
           "name": "endpointSearch",
           "package": "twitter-enumerator",
@@ -225,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Api",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Api",
           "name": "endpointSearch",
           "package": "twitter-enumerator",
@@ -238,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Api",
           "name": "mkListParam",
           "package": "twitter-enumerator",
@@ -247,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Api",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Api",
           "name": "mkListParam",
           "normalized": "ListParam-\u003eQuery",
@@ -262,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Api",
           "name": "mkUserParam",
           "package": "twitter-enumerator",
@@ -271,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Api",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Api",
           "name": "mkUserParam",
           "normalized": "UserParam-\u003eQuery",
@@ -286,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "Fetch",
           "package": "twitter-enumerator",
@@ -294,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "Fetch",
           "package": "twitter-enumerator",
@@ -307,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "ListParam",
           "package": "twitter-enumerator",
@@ -315,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "ListParam",
           "package": "twitter-enumerator",
@@ -328,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "UserParam",
           "package": "twitter-enumerator",
@@ -336,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "UserParam",
           "package": "twitter-enumerator",
@@ -349,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "followersIds",
           "package": "twitter-enumerator",
@@ -358,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "followersIds",
           "normalized": "UserParam-\u003eEnumerator UserId TW a",
@@ -373,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "friendsIds",
           "package": "twitter-enumerator",
@@ -382,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "friendsIds",
           "normalized": "UserParam-\u003eEnumerator UserId TW a",
@@ -397,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "listsAll",
           "package": "twitter-enumerator",
@@ -406,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "listsAll",
           "normalized": "UserParam-\u003eEnumerator List TW a",
@@ -421,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "listsMembers",
           "package": "twitter-enumerator",
@@ -430,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "listsMembers",
           "normalized": "ListParam-\u003eEnumerator User TW a",
@@ -445,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "search",
           "package": "twitter-enumerator",
@@ -454,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "search",
           "normalized": "String-\u003eEnumerator SearchStatus TW a",
@@ -468,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesFilter",
           "package": "twitter-enumerator",
@@ -477,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesFilter",
           "normalized": "Query-\u003eIteratee StreamingAPI IO a-\u003eIteratee ByteString TW a",
@@ -492,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesHomeTimeline",
           "package": "twitter-enumerator",
@@ -501,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesHomeTimeline",
           "normalized": "Query-\u003eEnumerator Status TW a",
@@ -516,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesIdRetweetedBy",
           "package": "twitter-enumerator",
@@ -525,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesIdRetweetedBy",
           "normalized": "StatusId-\u003eQuery-\u003eEnumerator User TW a",
@@ -540,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesIdRetweetedByIds",
           "package": "twitter-enumerator",
@@ -549,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesIdRetweetedByIds",
           "normalized": "StatusId-\u003eQuery-\u003eEnumerator UserId TW a",
@@ -564,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesMentions",
           "package": "twitter-enumerator",
@@ -573,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesMentions",
           "normalized": "Query-\u003eEnumerator Status TW a",
@@ -588,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesPublicTimeline",
           "package": "twitter-enumerator",
@@ -597,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesPublicTimeline",
           "normalized": "Query-\u003eEnumerator Status TW a",
@@ -612,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesRetweetedByMe",
           "package": "twitter-enumerator",
@@ -621,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesRetweetedByMe",
           "normalized": "Query-\u003eEnumerator Status TW a",
@@ -636,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesRetweetedByUser",
           "package": "twitter-enumerator",
@@ -645,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesRetweetedByUser",
           "normalized": "Query-\u003eEnumerator Status TW a",
@@ -660,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesRetweetedToMe",
           "package": "twitter-enumerator",
@@ -669,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesRetweetedToMe",
           "normalized": "Query-\u003eEnumerator Status TW a",
@@ -684,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesRetweetedToUser",
           "package": "twitter-enumerator",
@@ -693,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesRetweetedToUser",
           "normalized": "Query-\u003eEnumerator Status TW a",
@@ -708,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesRetweetsId",
           "package": "twitter-enumerator",
@@ -717,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesRetweetsId",
           "normalized": "StatusId-\u003eQuery-\u003eTW[RetweetedStatus]",
@@ -732,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesRetweetsOfMe",
           "package": "twitter-enumerator",
@@ -741,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesRetweetsOfMe",
           "normalized": "Query-\u003eEnumerator Status TW a",
@@ -756,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesShowId",
           "package": "twitter-enumerator",
@@ -765,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesShowId",
           "normalized": "StatusId-\u003eQuery-\u003eTW Status",
@@ -780,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesUserTimeline",
           "package": "twitter-enumerator",
@@ -789,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "statusesUserTimeline",
           "normalized": "Query-\u003eEnumerator Status TW a",
@@ -804,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "usersShow",
           "package": "twitter-enumerator",
@@ -813,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "usersShow",
           "normalized": "UserParam-\u003eTW User",
@@ -828,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "userstream",
           "package": "twitter-enumerator",
@@ -837,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Fetch",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Fetch",
           "name": "userstream",
           "normalized": "Iteratee StreamingAPI IO a-\u003eIteratee ByteString TW a",
@@ -851,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "Monad",
           "package": "twitter-enumerator",
@@ -859,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Monad",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "Monad",
           "package": "twitter-enumerator",
@@ -872,6 +938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "TW",
           "package": "twitter-enumerator",
@@ -880,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Monad",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "TW",
           "package": "twitter-enumerator",
@@ -893,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "TWEnv",
           "package": "twitter-enumerator",
@@ -901,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Monad",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "TWEnv",
           "package": "twitter-enumerator",
@@ -914,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "TWEnv",
           "package": "twitter-enumerator",
@@ -923,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Monad",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "TWEnv",
           "package": "twitter-enumerator",
@@ -936,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "getCredential",
           "package": "twitter-enumerator",
@@ -945,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Monad",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "getCredential",
           "package": "twitter-enumerator",
@@ -958,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "getManager",
           "package": "twitter-enumerator",
@@ -967,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Monad",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "getManager",
           "package": "twitter-enumerator",
@@ -980,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "getOAuth",
           "package": "twitter-enumerator",
@@ -989,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Monad",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "getOAuth",
           "package": "twitter-enumerator",
@@ -1002,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "getProxy",
           "package": "twitter-enumerator",
@@ -1011,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Monad",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "getProxy",
           "package": "twitter-enumerator",
@@ -1024,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "newEnv",
           "package": "twitter-enumerator",
@@ -1033,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Monad",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "newEnv",
           "normalized": "OAuth-\u003eTWEnv",
@@ -1048,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "runTW",
           "package": "twitter-enumerator",
@@ -1057,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Monad",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "runTW",
           "normalized": "TWEnv-\u003eTW a-\u003eIO a",
@@ -1072,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "runTWManager",
           "package": "twitter-enumerator",
@@ -1081,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Monad",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "runTWManager",
           "normalized": "TWEnv-\u003eManager-\u003eTW a-\u003eIO a",
@@ -1096,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "signOAuthTW",
           "package": "twitter-enumerator",
@@ -1105,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Monad",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "signOAuthTW",
           "normalized": "Request IO-\u003eTW(Request IO)",
@@ -1120,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "twCredential",
           "package": "twitter-enumerator",
@@ -1129,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Monad",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "twCredential",
           "package": "twitter-enumerator",
@@ -1142,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "twManager",
           "package": "twitter-enumerator",
@@ -1151,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Monad",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "twManager",
           "package": "twitter-enumerator",
@@ -1164,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "twOAuth",
           "package": "twitter-enumerator",
@@ -1173,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Monad",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "twOAuth",
           "package": "twitter-enumerator",
@@ -1186,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "twProxy",
           "package": "twitter-enumerator",
@@ -1195,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Monad",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Monad",
           "name": "twProxy",
           "package": "twitter-enumerator",
@@ -1208,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Post",
           "name": "Post",
           "package": "twitter-enumerator",
@@ -1216,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Post",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Post",
           "name": "Post",
           "package": "twitter-enumerator",
@@ -1229,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Post",
           "name": "favoritesCreate",
           "package": "twitter-enumerator",
@@ -1238,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Post",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Post",
           "name": "favoritesCreate",
           "normalized": "StatusId-\u003eQuery-\u003eTW Status",
@@ -1253,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Post",
           "name": "favoritesDestroy",
           "package": "twitter-enumerator",
@@ -1262,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Post",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Post",
           "name": "favoritesDestroy",
           "normalized": "StatusId-\u003eQuery-\u003eTW Status",
@@ -1277,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Post",
           "name": "friendshipCreate",
           "package": "twitter-enumerator",
@@ -1286,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Post",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Post",
           "name": "friendshipCreate",
           "normalized": "UserId-\u003eIteratee ByteString IO a-\u003eIteratee ByteString TW a",
@@ -1301,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Post",
           "name": "friendshipsCreate",
           "package": "twitter-enumerator",
@@ -1310,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Post",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Post",
           "name": "friendshipsCreate",
           "normalized": "UserParam-\u003eQuery-\u003eTW User",
@@ -1325,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Post",
           "name": "retweet",
           "package": "twitter-enumerator",
@@ -1334,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Post",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Post",
           "name": "retweet",
           "normalized": "Integer-\u003eIteratee ByteString IO a-\u003eIteratee ByteString TW a",
@@ -1348,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Post",
           "name": "statusesRetweetId",
           "package": "twitter-enumerator",
@@ -1357,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Post",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Post",
           "name": "statusesRetweetId",
           "normalized": "Integer-\u003eQuery-\u003eTW RetweetedStatus",
@@ -1372,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Post",
           "name": "statusesUpdate",
           "package": "twitter-enumerator",
@@ -1381,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Post",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Post",
           "name": "statusesUpdate",
           "normalized": "Text-\u003eQuery-\u003eTW Status",
@@ -1396,6 +1508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Types",
           "package": "twitter-enumerator",
@@ -1404,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Types",
           "package": "twitter-enumerator",
@@ -1417,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "DateString",
           "package": "twitter-enumerator",
@@ -1425,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "DateString",
           "package": "twitter-enumerator",
@@ -1438,6 +1554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Delete",
           "package": "twitter-enumerator",
@@ -1446,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Delete",
           "package": "twitter-enumerator",
@@ -1460,6 +1578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntity handling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Entities",
           "package": "twitter-enumerator",
@@ -1469,6 +1588,7 @@
         "index": {
           "description": "Entity handling",
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Entities",
           "package": "twitter-enumerator",
@@ -1482,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Entity",
           "package": "twitter-enumerator",
@@ -1490,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Entity",
           "package": "twitter-enumerator",
@@ -1503,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Event",
           "package": "twitter-enumerator",
@@ -1511,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Event",
           "package": "twitter-enumerator",
@@ -1524,6 +1648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "EventTarget",
           "package": "twitter-enumerator",
@@ -1532,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "EventTarget",
           "package": "twitter-enumerator",
@@ -1545,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Friends",
           "package": "twitter-enumerator",
@@ -1553,6 +1680,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Friends",
           "package": "twitter-enumerator",
@@ -1566,6 +1694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "HashTagEntity",
           "package": "twitter-enumerator",
@@ -1574,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "HashTagEntity",
           "package": "twitter-enumerator",
@@ -1587,6 +1717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "LanguageCode",
           "package": "twitter-enumerator",
@@ -1595,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "LanguageCode",
           "package": "twitter-enumerator",
@@ -1608,6 +1740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "List",
           "package": "twitter-enumerator",
@@ -1616,6 +1749,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "List",
           "package": "twitter-enumerator",
@@ -1629,6 +1763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "RetweetedStatus",
           "package": "twitter-enumerator",
@@ -1637,6 +1772,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "RetweetedStatus",
           "package": "twitter-enumerator",
@@ -1650,6 +1786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "SearchStatus",
           "package": "twitter-enumerator",
@@ -1658,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "SearchStatus",
           "package": "twitter-enumerator",
@@ -1671,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Status",
           "package": "twitter-enumerator",
@@ -1679,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Status",
           "package": "twitter-enumerator",
@@ -1692,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "StatusId",
           "package": "twitter-enumerator",
@@ -1700,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "StatusId",
           "package": "twitter-enumerator",
@@ -1713,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "StreamingAPI",
           "package": "twitter-enumerator",
@@ -1721,6 +1864,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "StreamingAPI",
           "package": "twitter-enumerator",
@@ -1734,6 +1878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "TwitterException",
           "package": "twitter-enumerator",
@@ -1742,6 +1887,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "TwitterException",
           "package": "twitter-enumerator",
@@ -1755,6 +1901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "URLEntity",
           "package": "twitter-enumerator",
@@ -1763,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "URLEntity",
           "package": "twitter-enumerator",
@@ -1776,6 +1924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "URLString",
           "package": "twitter-enumerator",
@@ -1784,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "URLString",
           "package": "twitter-enumerator",
@@ -1797,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "User",
           "package": "twitter-enumerator",
@@ -1805,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "User",
           "package": "twitter-enumerator",
@@ -1819,6 +1971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eUserEntity\u003c/a\u003e\u003c/code\u003e is just a wrapper around \u003ccode\u003e\u003ca\u003eUser\u003c/a\u003e\u003c/code\u003e which is\n   a bit wasteful, and should probably be replaced by just\n   storing the id, name and screen name here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "UserEntity",
           "package": "twitter-enumerator",
@@ -1828,6 +1981,7 @@
         "index": {
           "description": "The UserEntity is just wrapper around User which is bit wasteful and should probably be replaced by just storing the id name and screen name here",
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "UserEntity",
           "package": "twitter-enumerator",
@@ -1841,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "UserId",
           "package": "twitter-enumerator",
@@ -1849,6 +2004,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "UserId",
           "package": "twitter-enumerator",
@@ -1862,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "UserName",
           "package": "twitter-enumerator",
@@ -1870,6 +2027,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "UserName",
           "package": "twitter-enumerator",
@@ -1883,6 +2041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Delete",
           "package": "twitter-enumerator",
@@ -1892,6 +2051,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Delete",
           "package": "twitter-enumerator",
@@ -1905,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "ETList",
           "package": "twitter-enumerator",
@@ -1914,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "ETList",
           "package": "twitter-enumerator",
@@ -1927,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "ETStatus",
           "package": "twitter-enumerator",
@@ -1936,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "ETStatus",
           "package": "twitter-enumerator",
@@ -1949,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "ETUnknown",
           "package": "twitter-enumerator",
@@ -1958,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "ETUnknown",
           "package": "twitter-enumerator",
@@ -1971,6 +2137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "ETUser",
           "package": "twitter-enumerator",
@@ -1980,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "ETUser",
           "package": "twitter-enumerator",
@@ -1993,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Entities",
           "package": "twitter-enumerator",
@@ -2002,6 +2171,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Entities",
           "package": "twitter-enumerator",
@@ -2015,6 +2185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Entity",
           "package": "twitter-enumerator",
@@ -2024,6 +2195,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Entity",
           "package": "twitter-enumerator",
@@ -2037,6 +2209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Event",
           "package": "twitter-enumerator",
@@ -2046,6 +2219,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Event",
           "package": "twitter-enumerator",
@@ -2059,6 +2233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "HTTPStatusCodeException",
           "package": "twitter-enumerator",
@@ -2068,6 +2243,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "HTTPStatusCodeException",
           "package": "twitter-enumerator",
@@ -2081,6 +2257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "HashTagEntity",
           "package": "twitter-enumerator",
@@ -2090,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "HashTagEntity",
           "package": "twitter-enumerator",
@@ -2103,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "List",
           "package": "twitter-enumerator",
@@ -2112,6 +2291,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "List",
           "package": "twitter-enumerator",
@@ -2125,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "ParserException",
           "package": "twitter-enumerator",
@@ -2134,6 +2315,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "ParserException",
           "normalized": "ParserException SomeException[ByteString]",
@@ -2149,6 +2331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "RetweetedStatus",
           "package": "twitter-enumerator",
@@ -2158,6 +2341,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "RetweetedStatus",
           "package": "twitter-enumerator",
@@ -2171,6 +2355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "SDelete",
           "package": "twitter-enumerator",
@@ -2180,6 +2365,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "SDelete",
           "package": "twitter-enumerator",
@@ -2193,6 +2379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "SEvent",
           "package": "twitter-enumerator",
@@ -2202,6 +2389,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "SEvent",
           "package": "twitter-enumerator",
@@ -2215,6 +2403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "SFriends",
           "package": "twitter-enumerator",
@@ -2224,6 +2413,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "SFriends",
           "package": "twitter-enumerator",
@@ -2237,6 +2427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "SRetweetedStatus",
           "package": "twitter-enumerator",
@@ -2246,6 +2437,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "SRetweetedStatus",
           "package": "twitter-enumerator",
@@ -2259,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "SStatus",
           "package": "twitter-enumerator",
@@ -2268,6 +2461,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "SStatus",
           "package": "twitter-enumerator",
@@ -2281,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "SUnknown",
           "package": "twitter-enumerator",
@@ -2290,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "SUnknown",
           "package": "twitter-enumerator",
@@ -2303,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "SearchStatus",
           "package": "twitter-enumerator",
@@ -2312,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "SearchStatus",
           "package": "twitter-enumerator",
@@ -2325,6 +2523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Status",
           "package": "twitter-enumerator",
@@ -2334,6 +2533,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "Status",
           "package": "twitter-enumerator",
@@ -2347,6 +2547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "TwitterErrorMessage",
           "package": "twitter-enumerator",
@@ -2356,6 +2557,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "TwitterErrorMessage",
           "package": "twitter-enumerator",
@@ -2369,6 +2571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "URLEntity",
           "package": "twitter-enumerator",
@@ -2378,6 +2581,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "URLEntity",
           "package": "twitter-enumerator",
@@ -2391,6 +2595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "User",
           "package": "twitter-enumerator",
@@ -2400,6 +2605,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "User",
           "package": "twitter-enumerator",
@@ -2413,6 +2619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "UserEntity",
           "package": "twitter-enumerator",
@@ -2422,6 +2629,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "UserEntity",
           "package": "twitter-enumerator",
@@ -2435,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "checkError",
           "package": "twitter-enumerator",
@@ -2444,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "checkError",
           "normalized": "Object-\u003eParser a",
@@ -2459,6 +2669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "delId",
           "package": "twitter-enumerator",
@@ -2468,6 +2679,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "delId",
           "package": "twitter-enumerator",
@@ -2481,6 +2693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "delUserId",
           "package": "twitter-enumerator",
@@ -2490,6 +2703,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "delUserId",
           "package": "twitter-enumerator",
@@ -2503,6 +2717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "enHashTags",
           "package": "twitter-enumerator",
@@ -2512,6 +2727,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "enHashTags",
           "normalized": "[Entity HashTagEntity]",
@@ -2527,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "enURLs",
           "package": "twitter-enumerator",
@@ -2536,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "enURLs",
           "normalized": "[Entity URLEntity]",
@@ -2551,6 +2769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "enUserMentions",
           "package": "twitter-enumerator",
@@ -2560,6 +2779,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "enUserMentions",
           "normalized": "[Entity UserEntity]",
@@ -2576,6 +2796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe detail information of the specific entity types (HashTag, URL, User)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "entityBody",
           "package": "twitter-enumerator",
@@ -2586,6 +2807,7 @@
         "index": {
           "description": "The detail information of the specific entity types HashTag URL User",
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "entityBody",
           "package": "twitter-enumerator",
@@ -2600,6 +2822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe character positions the Entity was extracted from\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "entityIndices",
           "package": "twitter-enumerator",
@@ -2610,6 +2833,7 @@
         "index": {
           "description": "The character positions the Entity was extracted from",
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "entityIndices",
           "package": "twitter-enumerator",
@@ -2623,6 +2847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "evCreatedAt",
           "package": "twitter-enumerator",
@@ -2632,6 +2857,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "evCreatedAt",
           "package": "twitter-enumerator",
@@ -2645,6 +2871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "evEvent",
           "package": "twitter-enumerator",
@@ -2654,6 +2881,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "evEvent",
           "package": "twitter-enumerator",
@@ -2667,6 +2895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "evSource",
           "package": "twitter-enumerator",
@@ -2676,6 +2905,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "evSource",
           "package": "twitter-enumerator",
@@ -2689,6 +2919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "evTarget",
           "package": "twitter-enumerator",
@@ -2698,6 +2929,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "evTarget",
           "package": "twitter-enumerator",
@@ -2711,6 +2943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "evTargetObject",
           "package": "twitter-enumerator",
@@ -2720,6 +2953,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "evTargetObject",
           "package": "twitter-enumerator",
@@ -2734,6 +2968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Hashtag text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "hashTagText",
           "package": "twitter-enumerator",
@@ -2744,6 +2979,7 @@
         "index": {
           "description": "The Hashtag text",
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "hashTagText",
           "package": "twitter-enumerator",
@@ -2757,6 +2993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "listFullName",
           "package": "twitter-enumerator",
@@ -2766,6 +3003,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "listFullName",
           "package": "twitter-enumerator",
@@ -2779,6 +3017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "listId",
           "package": "twitter-enumerator",
@@ -2788,6 +3027,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "listId",
           "package": "twitter-enumerator",
@@ -2801,6 +3041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "listMemberCount",
           "package": "twitter-enumerator",
@@ -2810,6 +3051,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "listMemberCount",
           "package": "twitter-enumerator",
@@ -2823,6 +3065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "listMode",
           "package": "twitter-enumerator",
@@ -2832,6 +3075,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "listMode",
           "package": "twitter-enumerator",
@@ -2845,6 +3089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "listName",
           "package": "twitter-enumerator",
@@ -2854,6 +3099,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "listName",
           "package": "twitter-enumerator",
@@ -2867,6 +3113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "listSubscriberCount",
           "package": "twitter-enumerator",
@@ -2876,6 +3123,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "listSubscriberCount",
           "package": "twitter-enumerator",
@@ -2889,6 +3137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "listUser",
           "package": "twitter-enumerator",
@@ -2898,6 +3147,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "listUser",
           "package": "twitter-enumerator",
@@ -2911,6 +3161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "rsCreatedAt",
           "package": "twitter-enumerator",
@@ -2920,6 +3171,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "rsCreatedAt",
           "package": "twitter-enumerator",
@@ -2933,6 +3185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "rsEntities",
           "package": "twitter-enumerator",
@@ -2942,6 +3195,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "rsEntities",
           "package": "twitter-enumerator",
@@ -2955,6 +3209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "rsId",
           "package": "twitter-enumerator",
@@ -2964,6 +3219,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "rsId",
           "package": "twitter-enumerator",
@@ -2977,6 +3233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "rsRetweetedStatus",
           "package": "twitter-enumerator",
@@ -2986,6 +3243,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "rsRetweetedStatus",
           "package": "twitter-enumerator",
@@ -2999,6 +3257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "rsSource",
           "package": "twitter-enumerator",
@@ -3008,6 +3267,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "rsSource",
           "package": "twitter-enumerator",
@@ -3021,6 +3281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "rsText",
           "package": "twitter-enumerator",
@@ -3030,6 +3291,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "rsText",
           "package": "twitter-enumerator",
@@ -3043,6 +3305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "rsTruncated",
           "package": "twitter-enumerator",
@@ -3052,6 +3315,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "rsTruncated",
           "package": "twitter-enumerator",
@@ -3065,6 +3329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "rsUser",
           "package": "twitter-enumerator",
@@ -3074,6 +3339,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "rsUser",
           "package": "twitter-enumerator",
@@ -3087,6 +3353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "searchStatusCreatedAt",
           "package": "twitter-enumerator",
@@ -3096,6 +3363,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "searchStatusCreatedAt",
           "package": "twitter-enumerator",
@@ -3109,6 +3377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "searchStatusId",
           "package": "twitter-enumerator",
@@ -3118,6 +3387,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "searchStatusId",
           "package": "twitter-enumerator",
@@ -3131,6 +3401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "searchStatusSource",
           "package": "twitter-enumerator",
@@ -3140,6 +3411,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "searchStatusSource",
           "package": "twitter-enumerator",
@@ -3153,6 +3425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "searchStatusText",
           "package": "twitter-enumerator",
@@ -3162,6 +3435,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "searchStatusText",
           "package": "twitter-enumerator",
@@ -3175,6 +3449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "searchStatusUserId",
           "package": "twitter-enumerator",
@@ -3184,6 +3459,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "searchStatusUserId",
           "package": "twitter-enumerator",
@@ -3197,6 +3473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "searchStatusUserName",
           "package": "twitter-enumerator",
@@ -3206,6 +3483,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "searchStatusUserName",
           "package": "twitter-enumerator",
@@ -3219,6 +3497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "statusCreatedAt",
           "package": "twitter-enumerator",
@@ -3228,6 +3507,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "statusCreatedAt",
           "package": "twitter-enumerator",
@@ -3241,6 +3521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "statusEntities",
           "package": "twitter-enumerator",
@@ -3250,6 +3531,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "statusEntities",
           "package": "twitter-enumerator",
@@ -3263,6 +3545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "statusFavorite",
           "package": "twitter-enumerator",
@@ -3272,6 +3555,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "statusFavorite",
           "package": "twitter-enumerator",
@@ -3285,6 +3569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "statusId",
           "package": "twitter-enumerator",
@@ -3294,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "statusId",
           "package": "twitter-enumerator",
@@ -3307,6 +3593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "statusInReplyTo",
           "package": "twitter-enumerator",
@@ -3316,6 +3603,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "statusInReplyTo",
           "package": "twitter-enumerator",
@@ -3329,6 +3617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "statusInReplyToUser",
           "package": "twitter-enumerator",
@@ -3338,6 +3627,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "statusInReplyToUser",
           "package": "twitter-enumerator",
@@ -3351,6 +3641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "statusRetweetCount",
           "package": "twitter-enumerator",
@@ -3360,6 +3651,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "statusRetweetCount",
           "package": "twitter-enumerator",
@@ -3373,6 +3665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "statusSource",
           "package": "twitter-enumerator",
@@ -3382,6 +3675,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "statusSource",
           "package": "twitter-enumerator",
@@ -3395,6 +3689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "statusText",
           "package": "twitter-enumerator",
@@ -3404,6 +3699,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "statusText",
           "package": "twitter-enumerator",
@@ -3417,6 +3713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "statusTruncated",
           "package": "twitter-enumerator",
@@ -3426,6 +3723,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "statusTruncated",
           "package": "twitter-enumerator",
@@ -3439,6 +3737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "statusUser",
           "package": "twitter-enumerator",
@@ -3448,6 +3747,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "statusUser",
           "package": "twitter-enumerator",
@@ -3462,6 +3762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot a URL but a string to display instead of the URL (only for t.co links)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "ueDisplay",
           "package": "twitter-enumerator",
@@ -3472,6 +3773,7 @@
         "index": {
           "description": "Not URL but string to display instead of the URL only for t.co links",
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "ueDisplay",
           "package": "twitter-enumerator",
@@ -3486,6 +3788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fully resolved URL (only for t.co links)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "ueExpanded",
           "package": "twitter-enumerator",
@@ -3496,6 +3799,7 @@
         "index": {
           "description": "The fully resolved URL only for t.co links",
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "ueExpanded",
           "package": "twitter-enumerator",
@@ -3510,6 +3814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe URL that was extracted\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "ueURL",
           "package": "twitter-enumerator",
@@ -3520,6 +3825,7 @@
         "index": {
           "description": "The URL that was extracted",
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "ueURL",
           "package": "twitter-enumerator",
@@ -3533,6 +3839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userCreatedAt",
           "package": "twitter-enumerator",
@@ -3542,6 +3849,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userCreatedAt",
           "package": "twitter-enumerator",
@@ -3555,6 +3863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userDescription",
           "package": "twitter-enumerator",
@@ -3564,6 +3873,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userDescription",
           "package": "twitter-enumerator",
@@ -3577,6 +3887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userFollowers",
           "package": "twitter-enumerator",
@@ -3586,6 +3897,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userFollowers",
           "package": "twitter-enumerator",
@@ -3599,6 +3911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userFriends",
           "package": "twitter-enumerator",
@@ -3608,6 +3921,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userFriends",
           "package": "twitter-enumerator",
@@ -3621,6 +3935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userId",
           "package": "twitter-enumerator",
@@ -3630,6 +3945,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userId",
           "package": "twitter-enumerator",
@@ -3643,6 +3959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userLangCode",
           "package": "twitter-enumerator",
@@ -3652,6 +3969,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userLangCode",
           "package": "twitter-enumerator",
@@ -3665,6 +3983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userLocation",
           "package": "twitter-enumerator",
@@ -3674,6 +3993,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userLocation",
           "package": "twitter-enumerator",
@@ -3687,6 +4007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userName",
           "package": "twitter-enumerator",
@@ -3696,6 +4017,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userName",
           "package": "twitter-enumerator",
@@ -3709,6 +4031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userProfileImageURL",
           "package": "twitter-enumerator",
@@ -3718,6 +4041,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userProfileImageURL",
           "package": "twitter-enumerator",
@@ -3731,6 +4055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userProtected",
           "package": "twitter-enumerator",
@@ -3740,6 +4065,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userProtected",
           "package": "twitter-enumerator",
@@ -3753,6 +4079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userScreenName",
           "package": "twitter-enumerator",
@@ -3762,6 +4089,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userScreenName",
           "package": "twitter-enumerator",
@@ -3775,6 +4103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userTweets",
           "package": "twitter-enumerator",
@@ -3784,6 +4113,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userTweets",
           "package": "twitter-enumerator",
@@ -3797,6 +4127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userURL",
           "package": "twitter-enumerator",
@@ -3806,6 +4137,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator Types",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator.Types",
           "name": "userURL",
           "package": "twitter-enumerator",
@@ -3819,6 +4151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:41 UTC 2014",
           "module": "Web.Twitter.Enumerator",
           "name": "Enumerator",
           "package": "twitter-enumerator",
@@ -3827,6 +4160,7 @@
         },
         "index": {
           "hierarchy": "Web Twitter Enumerator",
+          "indexed": "2014-03-11T20:26:41",
           "module": "Web.Twitter.Enumerator",
           "name": "Enumerator",
           "package": "twitter-enumerator",

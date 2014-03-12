@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "timeplot"
+        "phrase": "timeplot",
+        "type": "phrase"
       },
       "type": "context"
     }

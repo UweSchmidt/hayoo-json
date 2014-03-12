@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "BiobaseTurner"
+        "phrase": "BiobaseTurner",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTurner file parser. Returns a Turner2004 data structure. Requires an\n annoying amount of boilerplate.\n\u003c/p\u003e\u003cp\u003eHow is \u003ccode\u003e\u003ca\u003estack\u003c/a\u003e\u003c/code\u003e data stored:\n\u003c/p\u003e\u003cp\u003eAX\n UY   -\u003e  ((A,U),(Y,X))\n\u003c/p\u003e\u003cp\u003eHow \u003ccode\u003e\u003ca\u003eiloop1x1\u003c/a\u003e\u003c/code\u003e is stored:\n\u003c/p\u003e\u003cp\u003eX\n A G\n U C  -\u003e ((A,U),(C,G),X,Y)\n  Y\n\u003c/p\u003e\u003cp\u003eNow \u003ccode\u003eiloop1x2\u003c/code\u003e is stored:\n\u003c/p\u003e\u003cp\u003eX\n A  G\n U  C  -\u003e ((A,U),(C,G),X,C,Y), single (X) first, then 5' to 3'\n  YC\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eiloop2x2\u003c/a\u003e\u003c/code\u003e is stored:\n\u003c/p\u003e\u003cp\u003eXY\n A  G\n U  C  -\u003e ((A,U),(C,G),X,Y,y,x), X--\u003eY then x\u003c--y\n  xy\n\u003c/p\u003e\u003cp\u003eTODO not sure if dangle3/dangle5 are correctly split or if they should switch\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "Import",
           "package": "BiobaseTurner",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Turner file parser Returns Turner2004 data structure Requires an annoying amount of boilerplate How is stack data stored AX UY How iloop1x1 is stored Now iloop1x2 is stored single first then to YC iloop2x2 is stored XY then xy TODO not sure if dangle3 dangle5 are correctly split or if they should switch",
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "Import",
           "package": "BiobaseTurner",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "Prefix",
           "package": "BiobaseTurner",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "Prefix",
           "package": "BiobaseTurner",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "Suffix",
           "package": "BiobaseTurner",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "Suffix",
           "package": "BiobaseTurner",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "allEq",
           "package": "BiobaseTurner",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "allEq",
           "normalized": "[a]-\u003eBool",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "blockFromFile",
           "package": "BiobaseTurner",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Convenience function",
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "blockFromFile",
           "normalized": "FilePath-\u003eIO[Energy]",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "d1_30",
           "package": "BiobaseTurner",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "d1_30",
           "normalized": "[Z a]",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a directory, fill in the \u003ccode\u003e\u003ca\u003eTurner2004\u003c/a\u003e\u003c/code\u003e data structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "fromDir",
           "package": "BiobaseTurner",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Given directory fill in the Turner2004 data structure",
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "fromDir",
           "normalized": "FilePath-\u003ePrefix-\u003eSuffix-\u003eIO Turner",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "infE",
           "package": "BiobaseTurner",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "infE",
           "package": "BiobaseTurner",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "keysPB",
           "package": "BiobaseTurner",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "keysPB",
           "normalized": "[((Z Nuc)Nuc)Nuc]",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "keysPBB",
           "package": "BiobaseTurner",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "keysPBB",
           "normalized": "[(((Z Nuc)Nuc)Nuc)Nuc]",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "keysPP",
           "package": "BiobaseTurner",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "keysPP",
           "normalized": "[(((Z Nuc)Nuc)Nuc)Nuc]",
@@ -275,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "keysPPBB",
           "package": "BiobaseTurner",
@@ -284,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "keysPPBB",
           "normalized": "[(((((Z Nuc)Nuc)Nuc)Nuc)Nuc)Nuc]",
@@ -299,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "keysPPBBB",
           "package": "BiobaseTurner",
@@ -308,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "keysPPBBB",
           "normalized": "[((((((Z Nuc)Nuc)Nuc)Nuc)Nuc)Nuc)Nuc]",
@@ -323,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "keysPPBBBBdna",
           "package": "BiobaseTurner",
@@ -332,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "keysPPBBBBdna",
           "normalized": "[(((((((Z Nuc)Nuc)Nuc)Nuc)Nuc)Nuc)Nuc)Nuc]",
@@ -347,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "keysPPBBBBrna",
           "package": "BiobaseTurner",
@@ -356,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "keysPPBBBBrna",
           "normalized": "[(((((((Z Nuc)Nuc)Nuc)Nuc)Nuc)Nuc)Nuc)Nuc]",
@@ -371,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "maxP",
           "package": "BiobaseTurner",
@@ -380,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "maxP",
           "package": "BiobaseTurner",
@@ -392,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "maxPB",
           "package": "BiobaseTurner",
@@ -401,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "maxPB",
           "package": "BiobaseTurner",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "maxPBB",
           "package": "BiobaseTurner",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "maxPBB",
           "package": "BiobaseTurner",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "maxPP",
           "package": "BiobaseTurner",
@@ -445,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "maxPP",
           "package": "BiobaseTurner",
@@ -458,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "maxPPBB",
           "package": "BiobaseTurner",
@@ -467,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "maxPPBB",
           "package": "BiobaseTurner",
@@ -480,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "maxPPBBB",
           "package": "BiobaseTurner",
@@ -489,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "maxPPBBB",
           "package": "BiobaseTurner",
@@ -502,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "maxPPBBBB",
           "package": "BiobaseTurner",
@@ -511,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "maxPPBBBB",
           "package": "BiobaseTurner",
@@ -524,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "minP",
           "package": "BiobaseTurner",
@@ -533,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "minP",
           "package": "BiobaseTurner",
@@ -545,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "minPB",
           "package": "BiobaseTurner",
@@ -554,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "minPB",
           "package": "BiobaseTurner",
@@ -567,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "minPBB",
           "package": "BiobaseTurner",
@@ -576,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "minPBB",
           "package": "BiobaseTurner",
@@ -589,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "minPP",
           "package": "BiobaseTurner",
@@ -598,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "minPP",
           "package": "BiobaseTurner",
@@ -611,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "minPPBB",
           "package": "BiobaseTurner",
@@ -620,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "minPPBB",
           "package": "BiobaseTurner",
@@ -633,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "minPPBBB",
           "package": "BiobaseTurner",
@@ -642,6 +697,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "minPPBBB",
           "package": "BiobaseTurner",
@@ -655,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "minPPBBBB",
           "package": "BiobaseTurner",
@@ -664,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "minPPBBBB",
           "package": "BiobaseTurner",
@@ -677,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "miscFromFile",
           "package": "BiobaseTurner",
@@ -686,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "miscFromFile",
           "normalized": "FilePath-\u003eIO[[Double]]",
@@ -702,6 +762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform input stream into list of list of doubles\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "parseBlocks",
           "package": "BiobaseTurner",
@@ -712,6 +773,7 @@
         "index": {
           "description": "Transform input stream into list of list of doubles",
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "parseBlocks",
           "normalized": "Conduit ByteString a[Energy]",
@@ -728,6 +790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses the miscloop table\n\u003c/p\u003e\u003cp\u003eNOTE extra brownie points for miscloop.dat for providing data in a form that\n does not conform to normal number encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "parseMiscLoop",
           "package": "BiobaseTurner",
@@ -738,6 +801,7 @@
         "index": {
           "description": "Parses the miscloop table NOTE extra brownie points for miscloop.dat for providing data in form that does not conform to normal number encoding",
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "parseMiscLoop",
           "normalized": "Sink ByteString a[[Double]]",
@@ -754,6 +818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIteratee to parse tabulated loops (hairpins).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "parseTabulated",
           "package": "BiobaseTurner",
@@ -764,6 +829,7 @@
         "index": {
           "description": "Iteratee to parse tabulated loops hairpins",
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "parseTabulated",
           "normalized": "Sink ByteString a[(ByteString,Energy)]",
@@ -779,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "plist11",
           "package": "BiobaseTurner",
@@ -788,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "plist11",
           "normalized": "[(Nuc,Nuc)]",
@@ -802,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "plist22dna",
           "package": "BiobaseTurner",
@@ -811,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "plist22dna",
           "normalized": "[(Nuc,Nuc)]",
@@ -825,6 +895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "plist22rna",
           "package": "BiobaseTurner",
@@ -834,6 +905,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "plist22rna",
           "normalized": "[(Nuc,Nuc)]",
@@ -849,6 +921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses stupidly encoded values like \u003ca\u003e.6\u003c/a\u003e and \u003ca\u003e-.0\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "readD",
           "package": "BiobaseTurner",
@@ -859,6 +932,7 @@
         "index": {
           "description": "Parses stupidly encoded values like and",
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "readD",
           "normalized": "ByteString-\u003eDouble",
@@ -873,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "tabFromFile",
           "package": "BiobaseTurner",
@@ -882,6 +957,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "tabFromFile",
           "normalized": "FilePath-\u003eIO[(Primary,Energy)]",
@@ -898,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextract values. \u003ca\u003e.\u003c/a\u003e - values are extracted as \u003e 100k\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner.Import",
           "name": "values",
           "package": "BiobaseTurner",
@@ -908,6 +985,7 @@
         "index": {
           "description": "extract values values are extracted as",
           "hierarchy": "Biobase Turner Import",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner.Import",
           "name": "values",
           "normalized": "ByteString-\u003e[Energy]",
@@ -923,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eTurner2004\u003c/a\u003e\u003c/code\u003e data structure reflects the RNA (and DNA) energy\n parameters known as the Turner 2004 data set.\n\u003c/p\u003e\u003cp\u003eIn general, have a look here:\n \u003ca\u003ehttp://rna.urmc.rochester.edu/NNDB/turner04/index.html\u003c/a\u003e where parameters\n are explained.\n\u003c/p\u003e\u003cp\u003eTODO need a \u003ca\u003eFunctor\u003c/a\u003e instance over elements \u003ca\u003ee\u003c/a\u003e. Or alternatively, generic\n programming to capture stuff going on in \u003ccode\u003ee\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "Turner",
           "package": "BiobaseTurner",
@@ -932,6 +1011,7 @@
         "index": {
           "description": "The Turner2004 data structure reflects the RNA and DNA energy parameters known as the Turner data set In general have look here http rna.urmc.rochester.edu NNDB turner04 index.html where parameters are explained TODO need Functor instance over elements Or alternatively generic programming to capture stuff going on in",
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "Turner",
           "package": "BiobaseTurner",
@@ -946,6 +1026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe actual Turner parameters return energies in Double format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "Energy",
           "package": "BiobaseTurner",
@@ -955,6 +1036,7 @@
         "index": {
           "description": "The actual Turner parameters return energies in Double format",
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "Energy",
           "package": "BiobaseTurner",
@@ -968,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "PN",
           "package": "BiobaseTurner",
@@ -976,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "PN",
           "package": "BiobaseTurner",
@@ -989,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "PNN",
           "package": "BiobaseTurner",
@@ -997,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "PNN",
           "package": "BiobaseTurner",
@@ -1010,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "PP",
           "package": "BiobaseTurner",
@@ -1018,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "PP",
           "package": "BiobaseTurner",
@@ -1031,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "PPNN",
           "package": "BiobaseTurner",
@@ -1039,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "PPNN",
           "package": "BiobaseTurner",
@@ -1052,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "PPNNN",
           "package": "BiobaseTurner",
@@ -1060,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "PPNNN",
           "package": "BiobaseTurner",
@@ -1073,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "PPNNNN",
           "package": "BiobaseTurner",
@@ -1081,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "PPNNNN",
           "package": "BiobaseTurner",
@@ -1095,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Turner model with \u003ccode\u003e\u003ca\u003eEnergy\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "Turner2004",
           "package": "BiobaseTurner",
@@ -1104,6 +1199,7 @@
         "index": {
           "description": "The Turner model with Energy",
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "Turner2004",
           "package": "BiobaseTurner",
@@ -1118,6 +1214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Turner energy tables. Parametrized over the storing vector type \u003ccode\u003ev\u003c/code\u003e\n and the actual element type \u003ccode\u003ee\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "Turner2004Model",
           "package": "BiobaseTurner",
@@ -1127,6 +1224,7 @@
         "index": {
           "description": "The Turner energy tables Parametrized over the storing vector type and the actual element type",
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "Turner2004Model",
           "package": "BiobaseTurner",
@@ -1140,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "Energy",
           "package": "BiobaseTurner",
@@ -1149,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "Energy",
           "package": "BiobaseTurner",
@@ -1162,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "Turner2004Model",
           "package": "BiobaseTurner",
@@ -1171,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "Turner2004Model",
           "package": "BiobaseTurner",
@@ -1184,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_bulgeL",
           "package": "BiobaseTurner",
@@ -1193,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_bulgeL",
           "package": "BiobaseTurner",
@@ -1205,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_bulgeSingleC",
           "package": "BiobaseTurner",
@@ -1214,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_bulgeSingleC",
           "package": "BiobaseTurner",
@@ -1227,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_coaxStack",
           "package": "BiobaseTurner",
@@ -1236,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_coaxStack",
           "package": "BiobaseTurner",
@@ -1249,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_coaxial",
           "package": "BiobaseTurner",
@@ -1258,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_coaxial",
           "package": "BiobaseTurner",
@@ -1270,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_dangle3",
           "package": "BiobaseTurner",
@@ -1279,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_dangle3",
           "package": "BiobaseTurner",
@@ -1291,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_dangle5",
           "package": "BiobaseTurner",
@@ -1300,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_dangle5",
           "package": "BiobaseTurner",
@@ -1312,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_extMM",
           "package": "BiobaseTurner",
@@ -1321,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_extMM",
           "package": "BiobaseTurner",
@@ -1334,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_hairpinC3",
           "package": "BiobaseTurner",
@@ -1343,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_hairpinC3",
           "package": "BiobaseTurner",
@@ -1355,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_hairpinCintercept",
           "package": "BiobaseTurner",
@@ -1364,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_hairpinCintercept",
           "package": "BiobaseTurner",
@@ -1377,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_hairpinCslope",
           "package": "BiobaseTurner",
@@ -1386,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_hairpinCslope",
           "package": "BiobaseTurner",
@@ -1399,6 +1521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_hairpinGGG",
           "package": "BiobaseTurner",
@@ -1408,6 +1531,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_hairpinGGG",
           "package": "BiobaseTurner",
@@ -1421,6 +1545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_hairpinL",
           "package": "BiobaseTurner",
@@ -1430,6 +1555,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_hairpinL",
           "package": "BiobaseTurner",
@@ -1442,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_hairpinLookup",
           "package": "BiobaseTurner",
@@ -1451,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_hairpinLookup",
           "package": "BiobaseTurner",
@@ -1464,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_hairpinMM",
           "package": "BiobaseTurner",
@@ -1473,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_hairpinMM",
           "package": "BiobaseTurner",
@@ -1486,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_iloop1x1",
           "package": "BiobaseTurner",
@@ -1495,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_iloop1x1",
           "package": "BiobaseTurner",
@@ -1507,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_iloop1xnMM",
           "package": "BiobaseTurner",
@@ -1516,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_iloop1xnMM",
           "package": "BiobaseTurner",
@@ -1529,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_iloop2x1",
           "package": "BiobaseTurner",
@@ -1538,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_iloop2x1",
           "package": "BiobaseTurner",
@@ -1550,6 +1686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_iloop2x2",
           "package": "BiobaseTurner",
@@ -1559,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_iloop2x2",
           "package": "BiobaseTurner",
@@ -1571,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_iloop2x3MM",
           "package": "BiobaseTurner",
@@ -1580,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_iloop2x3MM",
           "package": "BiobaseTurner",
@@ -1593,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_iloopL",
           "package": "BiobaseTurner",
@@ -1602,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_iloopL",
           "package": "BiobaseTurner",
@@ -1614,6 +1756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_iloopMM",
           "package": "BiobaseTurner",
@@ -1623,6 +1766,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_iloopMM",
           "package": "BiobaseTurner",
@@ -1636,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_intermolecularInit",
           "package": "BiobaseTurner",
@@ -1645,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_intermolecularInit",
           "package": "BiobaseTurner",
@@ -1658,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_largeLoop",
           "package": "BiobaseTurner",
@@ -1667,6 +1814,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_largeLoop",
           "package": "BiobaseTurner",
@@ -1680,6 +1828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_maxNinio",
           "package": "BiobaseTurner",
@@ -1689,6 +1838,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_maxNinio",
           "package": "BiobaseTurner",
@@ -1702,6 +1852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_multiAsym",
           "package": "BiobaseTurner",
@@ -1711,6 +1862,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_multiAsym",
           "package": "BiobaseTurner",
@@ -1724,6 +1876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_multiHelix",
           "package": "BiobaseTurner",
@@ -1733,6 +1886,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_multiHelix",
           "package": "BiobaseTurner",
@@ -1746,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_multiMM",
           "package": "BiobaseTurner",
@@ -1755,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_multiMM",
           "package": "BiobaseTurner",
@@ -1768,6 +1924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_multiNuc",
           "package": "BiobaseTurner",
@@ -1777,6 +1934,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_multiNuc",
           "package": "BiobaseTurner",
@@ -1790,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_multiOffset",
           "package": "BiobaseTurner",
@@ -1799,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_multiOffset",
           "package": "BiobaseTurner",
@@ -1812,6 +1972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_multiStrain",
           "package": "BiobaseTurner",
@@ -1821,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_multiStrain",
           "package": "BiobaseTurner",
@@ -1834,6 +1996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_ninio",
           "package": "BiobaseTurner",
@@ -1843,6 +2006,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_ninio",
           "package": "BiobaseTurner",
@@ -1855,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_stack",
           "package": "BiobaseTurner",
@@ -1864,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_stack",
           "package": "BiobaseTurner",
@@ -1876,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_tStackCoax",
           "package": "BiobaseTurner",
@@ -1885,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_tStackCoax",
           "package": "BiobaseTurner",
@@ -1898,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "_termAU",
           "package": "BiobaseTurner",
@@ -1907,6 +2076,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "_termAU",
           "package": "BiobaseTurner",
@@ -1920,6 +2090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "bulgeL",
           "package": "BiobaseTurner",
@@ -1929,6 +2100,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "bulgeL",
           "package": "BiobaseTurner",
@@ -1941,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "bulgeSingleC",
           "package": "BiobaseTurner",
@@ -1950,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "bulgeSingleC",
           "package": "BiobaseTurner",
@@ -1963,6 +2137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "coaxStack",
           "package": "BiobaseTurner",
@@ -1972,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "coaxStack",
           "package": "BiobaseTurner",
@@ -1985,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "coaxial",
           "package": "BiobaseTurner",
@@ -1994,6 +2171,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "coaxial",
           "package": "BiobaseTurner",
@@ -2006,6 +2184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "dangle3",
           "package": "BiobaseTurner",
@@ -2015,6 +2194,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "dangle3",
           "package": "BiobaseTurner",
@@ -2027,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "dangle5",
           "package": "BiobaseTurner",
@@ -2036,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "dangle5",
           "package": "BiobaseTurner",
@@ -2049,6 +2231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over all \u003ccode\u003ee\u003c/code\u003e elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "emap",
           "package": "BiobaseTurner",
@@ -2059,6 +2242,7 @@
         "index": {
           "description": "Map function over all elements",
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "emap",
           "normalized": "(a-\u003eb)-\u003eTurner Model a-\u003eTurner Model b",
@@ -2073,6 +2257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "extMM",
           "package": "BiobaseTurner",
@@ -2082,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "extMM",
           "package": "BiobaseTurner",
@@ -2095,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "hairpinC3",
           "package": "BiobaseTurner",
@@ -2104,6 +2291,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "hairpinC3",
           "package": "BiobaseTurner",
@@ -2116,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "hairpinCintercept",
           "package": "BiobaseTurner",
@@ -2125,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "hairpinCintercept",
           "package": "BiobaseTurner",
@@ -2138,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "hairpinCslope",
           "package": "BiobaseTurner",
@@ -2147,6 +2338,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "hairpinCslope",
           "package": "BiobaseTurner",
@@ -2160,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "hairpinGGG",
           "package": "BiobaseTurner",
@@ -2169,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "hairpinGGG",
           "package": "BiobaseTurner",
@@ -2182,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "hairpinL",
           "package": "BiobaseTurner",
@@ -2191,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "hairpinL",
           "package": "BiobaseTurner",
@@ -2203,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "hairpinLookup",
           "package": "BiobaseTurner",
@@ -2212,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "hairpinLookup",
           "package": "BiobaseTurner",
@@ -2225,6 +2423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "hairpinMM",
           "package": "BiobaseTurner",
@@ -2234,6 +2433,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "hairpinMM",
           "package": "BiobaseTurner",
@@ -2247,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "iloop1x1",
           "package": "BiobaseTurner",
@@ -2256,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "iloop1x1",
           "package": "BiobaseTurner",
@@ -2268,6 +2470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "iloop1xnMM",
           "package": "BiobaseTurner",
@@ -2277,6 +2480,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "iloop1xnMM",
           "package": "BiobaseTurner",
@@ -2290,6 +2494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "iloop2x1",
           "package": "BiobaseTurner",
@@ -2299,6 +2504,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "iloop2x1",
           "package": "BiobaseTurner",
@@ -2311,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "iloop2x2",
           "package": "BiobaseTurner",
@@ -2320,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "iloop2x2",
           "package": "BiobaseTurner",
@@ -2332,6 +2540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "iloop2x3MM",
           "package": "BiobaseTurner",
@@ -2341,6 +2550,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "iloop2x3MM",
           "package": "BiobaseTurner",
@@ -2354,6 +2564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "iloopL",
           "package": "BiobaseTurner",
@@ -2363,6 +2574,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "iloopL",
           "package": "BiobaseTurner",
@@ -2375,6 +2587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "iloopMM",
           "package": "BiobaseTurner",
@@ -2384,6 +2597,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "iloopMM",
           "package": "BiobaseTurner",
@@ -2397,6 +2611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "intermolecularInit",
           "package": "BiobaseTurner",
@@ -2406,6 +2621,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "intermolecularInit",
           "package": "BiobaseTurner",
@@ -2419,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "largeLoop",
           "package": "BiobaseTurner",
@@ -2428,6 +2645,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "largeLoop",
           "package": "BiobaseTurner",
@@ -2441,6 +2659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "maxNinio",
           "package": "BiobaseTurner",
@@ -2450,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "maxNinio",
           "package": "BiobaseTurner",
@@ -2463,6 +2683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "multiAsym",
           "package": "BiobaseTurner",
@@ -2472,6 +2693,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "multiAsym",
           "package": "BiobaseTurner",
@@ -2485,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "multiHelix",
           "package": "BiobaseTurner",
@@ -2494,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "multiHelix",
           "package": "BiobaseTurner",
@@ -2507,6 +2731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "multiMM",
           "package": "BiobaseTurner",
@@ -2516,6 +2741,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "multiMM",
           "package": "BiobaseTurner",
@@ -2529,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "multiNuc",
           "package": "BiobaseTurner",
@@ -2538,6 +2765,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "multiNuc",
           "package": "BiobaseTurner",
@@ -2551,6 +2779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "multiOffset",
           "package": "BiobaseTurner",
@@ -2560,6 +2789,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "multiOffset",
           "package": "BiobaseTurner",
@@ -2573,6 +2803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "multiStrain",
           "package": "BiobaseTurner",
@@ -2582,6 +2813,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "multiStrain",
           "package": "BiobaseTurner",
@@ -2595,6 +2827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "ninio",
           "package": "BiobaseTurner",
@@ -2604,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "ninio",
           "package": "BiobaseTurner",
@@ -2616,6 +2850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "stack",
           "package": "BiobaseTurner",
@@ -2625,6 +2860,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "stack",
           "package": "BiobaseTurner",
@@ -2637,6 +2873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "tStackCoax",
           "package": "BiobaseTurner",
@@ -2646,6 +2883,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "tStackCoax",
           "package": "BiobaseTurner",
@@ -2659,6 +2897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:34 UTC 2014",
           "module": "Biobase.Turner",
           "name": "termAU",
           "package": "BiobaseTurner",
@@ -2668,6 +2907,7 @@
         },
         "index": {
           "hierarchy": "Biobase Turner",
+          "indexed": "2014-03-11T16:34:34",
           "module": "Biobase.Turner",
           "name": "termAU",
           "package": "BiobaseTurner",

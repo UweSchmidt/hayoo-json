@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GLFW-b"
+        "phrase": "GLFW-b",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "GLFW",
           "package": "GLFW-b",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "GLFW",
           "package": "GLFW-b",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "CharCallback",
           "package": "GLFW-b",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "CharCallback",
           "package": "GLFW-b",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "ClientAPI",
           "package": "GLFW-b",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "ClientAPI",
           "package": "GLFW-b",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "ContextRobustness",
           "package": "GLFW-b",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "ContextRobustness",
           "package": "GLFW-b",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "CursorEnterCallback",
           "package": "GLFW-b",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "CursorEnterCallback",
           "package": "GLFW-b",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "CursorInputMode",
           "package": "GLFW-b",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "CursorInputMode",
           "package": "GLFW-b",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "CursorPosCallback",
           "package": "GLFW-b",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "CursorPosCallback",
           "package": "GLFW-b",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "CursorState",
           "package": "GLFW-b",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "CursorState",
           "package": "GLFW-b",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Error",
           "package": "GLFW-b",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Error",
           "package": "GLFW-b",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "ErrorCallback",
           "package": "GLFW-b",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "ErrorCallback",
           "package": "GLFW-b",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "FocusState",
           "package": "GLFW-b",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "FocusState",
           "package": "GLFW-b",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "FramebufferSizeCallback",
           "package": "GLFW-b",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "FramebufferSizeCallback",
           "package": "GLFW-b",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "GammaRamp",
           "package": "GLFW-b",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "GammaRamp",
           "package": "GLFW-b",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "IconifyState",
           "package": "GLFW-b",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "IconifyState",
           "package": "GLFW-b",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick",
           "package": "GLFW-b",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick",
           "package": "GLFW-b",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "JoystickButtonState",
           "package": "GLFW-b",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "JoystickButtonState",
           "package": "GLFW-b",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key",
           "package": "GLFW-b",
@@ -362,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key",
           "package": "GLFW-b",
@@ -375,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "KeyCallback",
           "package": "GLFW-b",
@@ -383,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "KeyCallback",
           "package": "GLFW-b",
@@ -396,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "KeyState",
           "package": "GLFW-b",
@@ -404,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "KeyState",
           "package": "GLFW-b",
@@ -417,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "ModifierKeys",
           "package": "GLFW-b",
@@ -425,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "ModifierKeys",
           "package": "GLFW-b",
@@ -438,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Monitor",
           "package": "GLFW-b",
@@ -446,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Monitor",
           "package": "GLFW-b",
@@ -459,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "MonitorCallback",
           "package": "GLFW-b",
@@ -467,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "MonitorCallback",
           "package": "GLFW-b",
@@ -480,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "MonitorState",
           "package": "GLFW-b",
@@ -488,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "MonitorState",
           "package": "GLFW-b",
@@ -501,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButton",
           "package": "GLFW-b",
@@ -509,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButton",
           "package": "GLFW-b",
@@ -522,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButtonCallback",
           "package": "GLFW-b",
@@ -530,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButtonCallback",
           "package": "GLFW-b",
@@ -543,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButtonState",
           "package": "GLFW-b",
@@ -551,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButtonState",
           "package": "GLFW-b",
@@ -564,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "OpenGLProfile",
           "package": "GLFW-b",
@@ -572,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "OpenGLProfile",
           "package": "GLFW-b",
@@ -585,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "ScrollCallback",
           "package": "GLFW-b",
@@ -593,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "ScrollCallback",
           "package": "GLFW-b",
@@ -606,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "StickyKeysInputMode",
           "package": "GLFW-b",
@@ -614,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "StickyKeysInputMode",
           "package": "GLFW-b",
@@ -627,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "StickyMouseButtonsInputMode",
           "package": "GLFW-b",
@@ -635,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "StickyMouseButtonsInputMode",
           "package": "GLFW-b",
@@ -648,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Version",
           "package": "GLFW-b",
@@ -656,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Version",
           "package": "GLFW-b",
@@ -669,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "VideoMode",
           "package": "GLFW-b",
@@ -677,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "VideoMode",
           "package": "GLFW-b",
@@ -690,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Window",
           "package": "GLFW-b",
@@ -698,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Window",
           "package": "GLFW-b",
@@ -711,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowCloseCallback",
           "package": "GLFW-b",
@@ -719,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowCloseCallback",
           "package": "GLFW-b",
@@ -732,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowFocusCallback",
           "package": "GLFW-b",
@@ -740,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowFocusCallback",
           "package": "GLFW-b",
@@ -753,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint",
           "package": "GLFW-b",
@@ -761,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint",
           "package": "GLFW-b",
@@ -774,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowIconifyCallback",
           "package": "GLFW-b",
@@ -782,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowIconifyCallback",
           "package": "GLFW-b",
@@ -795,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowPosCallback",
           "package": "GLFW-b",
@@ -803,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowPosCallback",
           "package": "GLFW-b",
@@ -816,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowRefreshCallback",
           "package": "GLFW-b",
@@ -824,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowRefreshCallback",
           "package": "GLFW-b",
@@ -837,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowSizeCallback",
           "package": "GLFW-b",
@@ -845,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowSizeCallback",
           "package": "GLFW-b",
@@ -858,6 +938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "ClientAPI'OpenGL",
           "package": "GLFW-b",
@@ -867,6 +948,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "ClientAPI'OpenGL",
           "package": "GLFW-b",
@@ -880,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "ClientAPI'OpenGLES",
           "package": "GLFW-b",
@@ -889,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "ClientAPI'OpenGLES",
           "package": "GLFW-b",
@@ -902,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "ContextRobustness'LoseContextOnReset",
           "package": "GLFW-b",
@@ -911,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "ContextRobustness'LoseContextOnReset",
           "package": "GLFW-b",
@@ -924,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "ContextRobustness'NoResetNotification",
           "package": "GLFW-b",
@@ -933,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "ContextRobustness'NoResetNotification",
           "package": "GLFW-b",
@@ -946,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "ContextRobustness'NoRobustness",
           "package": "GLFW-b",
@@ -955,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "ContextRobustness'NoRobustness",
           "package": "GLFW-b",
@@ -968,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "CursorInputMode'Disabled",
           "package": "GLFW-b",
@@ -977,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "CursorInputMode'Disabled",
           "package": "GLFW-b",
@@ -990,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "CursorInputMode'Hidden",
           "package": "GLFW-b",
@@ -999,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "CursorInputMode'Hidden",
           "package": "GLFW-b",
@@ -1012,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "CursorInputMode'Normal",
           "package": "GLFW-b",
@@ -1021,6 +1116,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "CursorInputMode'Normal",
           "package": "GLFW-b",
@@ -1034,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "CursorState'InWindow",
           "package": "GLFW-b",
@@ -1043,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "CursorState'InWindow",
           "package": "GLFW-b",
@@ -1056,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "CursorState'NotInWindow",
           "package": "GLFW-b",
@@ -1065,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "CursorState'NotInWindow",
           "package": "GLFW-b",
@@ -1078,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Error'ApiUnavailable",
           "package": "GLFW-b",
@@ -1087,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Error'ApiUnavailable",
           "package": "GLFW-b",
@@ -1100,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Error'FormatUnavailable",
           "package": "GLFW-b",
@@ -1109,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Error'FormatUnavailable",
           "package": "GLFW-b",
@@ -1122,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Error'InvalidEnum",
           "package": "GLFW-b",
@@ -1131,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Error'InvalidEnum",
           "package": "GLFW-b",
@@ -1144,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Error'InvalidValue",
           "package": "GLFW-b",
@@ -1153,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Error'InvalidValue",
           "package": "GLFW-b",
@@ -1166,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Error'NoCurrentContext",
           "package": "GLFW-b",
@@ -1175,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Error'NoCurrentContext",
           "package": "GLFW-b",
@@ -1188,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Error'NotInitialized",
           "package": "GLFW-b",
@@ -1197,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Error'NotInitialized",
           "package": "GLFW-b",
@@ -1210,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Error'OutOfMemory",
           "package": "GLFW-b",
@@ -1219,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Error'OutOfMemory",
           "package": "GLFW-b",
@@ -1232,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Error'PlatformError",
           "package": "GLFW-b",
@@ -1241,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Error'PlatformError",
           "package": "GLFW-b",
@@ -1254,6 +1370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Error'VersionUnavailable",
           "package": "GLFW-b",
@@ -1263,6 +1380,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Error'VersionUnavailable",
           "package": "GLFW-b",
@@ -1276,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "FocusState'Defocused",
           "package": "GLFW-b",
@@ -1285,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "FocusState'Defocused",
           "package": "GLFW-b",
@@ -1298,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "FocusState'Focused",
           "package": "GLFW-b",
@@ -1307,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "FocusState'Focused",
           "package": "GLFW-b",
@@ -1320,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "IconifyState'Iconified",
           "package": "GLFW-b",
@@ -1329,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "IconifyState'Iconified",
           "package": "GLFW-b",
@@ -1342,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "IconifyState'NotIconified",
           "package": "GLFW-b",
@@ -1351,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "IconifyState'NotIconified",
           "package": "GLFW-b",
@@ -1364,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'1",
           "package": "GLFW-b",
@@ -1373,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'1",
           "package": "GLFW-b",
@@ -1386,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'10",
           "package": "GLFW-b",
@@ -1395,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'10",
           "package": "GLFW-b",
@@ -1408,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'11",
           "package": "GLFW-b",
@@ -1417,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'11",
           "package": "GLFW-b",
@@ -1430,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'12",
           "package": "GLFW-b",
@@ -1439,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'12",
           "package": "GLFW-b",
@@ -1452,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'13",
           "package": "GLFW-b",
@@ -1461,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'13",
           "package": "GLFW-b",
@@ -1474,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'14",
           "package": "GLFW-b",
@@ -1483,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'14",
           "package": "GLFW-b",
@@ -1496,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'15",
           "package": "GLFW-b",
@@ -1505,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'15",
           "package": "GLFW-b",
@@ -1518,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'16",
           "package": "GLFW-b",
@@ -1527,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'16",
           "package": "GLFW-b",
@@ -1540,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'2",
           "package": "GLFW-b",
@@ -1549,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'2",
           "package": "GLFW-b",
@@ -1562,6 +1706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'3",
           "package": "GLFW-b",
@@ -1571,6 +1716,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'3",
           "package": "GLFW-b",
@@ -1584,6 +1730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'4",
           "package": "GLFW-b",
@@ -1593,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'4",
           "package": "GLFW-b",
@@ -1606,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'5",
           "package": "GLFW-b",
@@ -1615,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'5",
           "package": "GLFW-b",
@@ -1628,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'6",
           "package": "GLFW-b",
@@ -1637,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'6",
           "package": "GLFW-b",
@@ -1650,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'7",
           "package": "GLFW-b",
@@ -1659,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'7",
           "package": "GLFW-b",
@@ -1672,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'8",
           "package": "GLFW-b",
@@ -1681,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'8",
           "package": "GLFW-b",
@@ -1694,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'9",
           "package": "GLFW-b",
@@ -1703,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Joystick'9",
           "package": "GLFW-b",
@@ -1716,6 +1874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "JoystickButtonState'Pressed",
           "package": "GLFW-b",
@@ -1725,6 +1884,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "JoystickButtonState'Pressed",
           "package": "GLFW-b",
@@ -1738,6 +1898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "JoystickButtonState'Released",
           "package": "GLFW-b",
@@ -1747,6 +1908,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "JoystickButtonState'Released",
           "package": "GLFW-b",
@@ -1760,6 +1922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'0",
           "package": "GLFW-b",
@@ -1769,6 +1932,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'0",
           "package": "GLFW-b",
@@ -1782,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'1",
           "package": "GLFW-b",
@@ -1791,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'1",
           "package": "GLFW-b",
@@ -1804,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'2",
           "package": "GLFW-b",
@@ -1813,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'2",
           "package": "GLFW-b",
@@ -1826,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'3",
           "package": "GLFW-b",
@@ -1835,6 +2004,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'3",
           "package": "GLFW-b",
@@ -1848,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'4",
           "package": "GLFW-b",
@@ -1857,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'4",
           "package": "GLFW-b",
@@ -1870,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'5",
           "package": "GLFW-b",
@@ -1879,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'5",
           "package": "GLFW-b",
@@ -1892,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'6",
           "package": "GLFW-b",
@@ -1901,6 +2076,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'6",
           "package": "GLFW-b",
@@ -1914,6 +2090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'7",
           "package": "GLFW-b",
@@ -1923,6 +2100,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'7",
           "package": "GLFW-b",
@@ -1936,6 +2114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'8",
           "package": "GLFW-b",
@@ -1945,6 +2124,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'8",
           "package": "GLFW-b",
@@ -1958,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'9",
           "package": "GLFW-b",
@@ -1967,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'9",
           "package": "GLFW-b",
@@ -1980,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'A",
           "package": "GLFW-b",
@@ -1989,6 +2172,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'A",
           "package": "GLFW-b",
@@ -2002,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Apostrophe",
           "package": "GLFW-b",
@@ -2011,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Apostrophe",
           "package": "GLFW-b",
@@ -2024,6 +2210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'B",
           "package": "GLFW-b",
@@ -2033,6 +2220,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'B",
           "package": "GLFW-b",
@@ -2046,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Backslash",
           "package": "GLFW-b",
@@ -2055,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Backslash",
           "package": "GLFW-b",
@@ -2068,6 +2258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Backspace",
           "package": "GLFW-b",
@@ -2077,6 +2268,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Backspace",
           "package": "GLFW-b",
@@ -2090,6 +2282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'C",
           "package": "GLFW-b",
@@ -2099,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'C",
           "package": "GLFW-b",
@@ -2112,6 +2306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'CapsLock",
           "package": "GLFW-b",
@@ -2121,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'CapsLock",
           "package": "GLFW-b",
@@ -2134,6 +2330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Comma",
           "package": "GLFW-b",
@@ -2143,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Comma",
           "package": "GLFW-b",
@@ -2156,6 +2354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'D",
           "package": "GLFW-b",
@@ -2165,6 +2364,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'D",
           "package": "GLFW-b",
@@ -2178,6 +2378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Delete",
           "package": "GLFW-b",
@@ -2187,6 +2388,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Delete",
           "package": "GLFW-b",
@@ -2200,6 +2402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Down",
           "package": "GLFW-b",
@@ -2209,6 +2412,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Down",
           "package": "GLFW-b",
@@ -2222,6 +2426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'E",
           "package": "GLFW-b",
@@ -2231,6 +2436,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'E",
           "package": "GLFW-b",
@@ -2244,6 +2450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'End",
           "package": "GLFW-b",
@@ -2253,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'End",
           "package": "GLFW-b",
@@ -2266,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Enter",
           "package": "GLFW-b",
@@ -2275,6 +2484,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Enter",
           "package": "GLFW-b",
@@ -2288,6 +2498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Equal",
           "package": "GLFW-b",
@@ -2297,6 +2508,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Equal",
           "package": "GLFW-b",
@@ -2310,6 +2522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Escape",
           "package": "GLFW-b",
@@ -2319,6 +2532,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Escape",
           "package": "GLFW-b",
@@ -2332,6 +2546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F",
           "package": "GLFW-b",
@@ -2341,6 +2556,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F",
           "package": "GLFW-b",
@@ -2354,6 +2570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F1",
           "package": "GLFW-b",
@@ -2363,6 +2580,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F1",
           "package": "GLFW-b",
@@ -2376,6 +2594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F10",
           "package": "GLFW-b",
@@ -2385,6 +2604,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F10",
           "package": "GLFW-b",
@@ -2398,6 +2618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F11",
           "package": "GLFW-b",
@@ -2407,6 +2628,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F11",
           "package": "GLFW-b",
@@ -2420,6 +2642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F12",
           "package": "GLFW-b",
@@ -2429,6 +2652,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F12",
           "package": "GLFW-b",
@@ -2442,6 +2666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F13",
           "package": "GLFW-b",
@@ -2451,6 +2676,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F13",
           "package": "GLFW-b",
@@ -2464,6 +2690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F14",
           "package": "GLFW-b",
@@ -2473,6 +2700,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F14",
           "package": "GLFW-b",
@@ -2486,6 +2714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F15",
           "package": "GLFW-b",
@@ -2495,6 +2724,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F15",
           "package": "GLFW-b",
@@ -2508,6 +2738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F16",
           "package": "GLFW-b",
@@ -2517,6 +2748,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F16",
           "package": "GLFW-b",
@@ -2530,6 +2762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F17",
           "package": "GLFW-b",
@@ -2539,6 +2772,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F17",
           "package": "GLFW-b",
@@ -2552,6 +2786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F18",
           "package": "GLFW-b",
@@ -2561,6 +2796,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F18",
           "package": "GLFW-b",
@@ -2574,6 +2810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F19",
           "package": "GLFW-b",
@@ -2583,6 +2820,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F19",
           "package": "GLFW-b",
@@ -2596,6 +2834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F2",
           "package": "GLFW-b",
@@ -2605,6 +2844,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F2",
           "package": "GLFW-b",
@@ -2618,6 +2858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F20",
           "package": "GLFW-b",
@@ -2627,6 +2868,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F20",
           "package": "GLFW-b",
@@ -2640,6 +2882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F21",
           "package": "GLFW-b",
@@ -2649,6 +2892,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F21",
           "package": "GLFW-b",
@@ -2662,6 +2906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F22",
           "package": "GLFW-b",
@@ -2671,6 +2916,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F22",
           "package": "GLFW-b",
@@ -2684,6 +2930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F23",
           "package": "GLFW-b",
@@ -2693,6 +2940,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F23",
           "package": "GLFW-b",
@@ -2706,6 +2954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F24",
           "package": "GLFW-b",
@@ -2715,6 +2964,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F24",
           "package": "GLFW-b",
@@ -2728,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F25",
           "package": "GLFW-b",
@@ -2737,6 +2988,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F25",
           "package": "GLFW-b",
@@ -2750,6 +3002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F3",
           "package": "GLFW-b",
@@ -2759,6 +3012,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F3",
           "package": "GLFW-b",
@@ -2772,6 +3026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F4",
           "package": "GLFW-b",
@@ -2781,6 +3036,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F4",
           "package": "GLFW-b",
@@ -2794,6 +3050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F5",
           "package": "GLFW-b",
@@ -2803,6 +3060,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F5",
           "package": "GLFW-b",
@@ -2816,6 +3074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F6",
           "package": "GLFW-b",
@@ -2825,6 +3084,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F6",
           "package": "GLFW-b",
@@ -2838,6 +3098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F7",
           "package": "GLFW-b",
@@ -2847,6 +3108,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F7",
           "package": "GLFW-b",
@@ -2860,6 +3122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F8",
           "package": "GLFW-b",
@@ -2869,6 +3132,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F8",
           "package": "GLFW-b",
@@ -2882,6 +3146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F9",
           "package": "GLFW-b",
@@ -2891,6 +3156,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'F9",
           "package": "GLFW-b",
@@ -2904,6 +3170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'G",
           "package": "GLFW-b",
@@ -2913,6 +3180,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'G",
           "package": "GLFW-b",
@@ -2926,6 +3194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'GraveAccent",
           "package": "GLFW-b",
@@ -2935,6 +3204,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'GraveAccent",
           "package": "GLFW-b",
@@ -2948,6 +3218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'H",
           "package": "GLFW-b",
@@ -2957,6 +3228,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'H",
           "package": "GLFW-b",
@@ -2970,6 +3242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Home",
           "package": "GLFW-b",
@@ -2979,6 +3252,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Home",
           "package": "GLFW-b",
@@ -2992,6 +3266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'I",
           "package": "GLFW-b",
@@ -3001,6 +3276,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'I",
           "package": "GLFW-b",
@@ -3014,6 +3290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Insert",
           "package": "GLFW-b",
@@ -3023,6 +3300,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Insert",
           "package": "GLFW-b",
@@ -3036,6 +3314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'J",
           "package": "GLFW-b",
@@ -3045,6 +3324,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'J",
           "package": "GLFW-b",
@@ -3058,6 +3338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'K",
           "package": "GLFW-b",
@@ -3067,6 +3348,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'K",
           "package": "GLFW-b",
@@ -3080,6 +3362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'L",
           "package": "GLFW-b",
@@ -3089,6 +3372,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'L",
           "package": "GLFW-b",
@@ -3102,6 +3386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Left",
           "package": "GLFW-b",
@@ -3111,6 +3396,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Left",
           "package": "GLFW-b",
@@ -3124,6 +3410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'LeftAlt",
           "package": "GLFW-b",
@@ -3133,6 +3420,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'LeftAlt",
           "package": "GLFW-b",
@@ -3146,6 +3434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'LeftBracket",
           "package": "GLFW-b",
@@ -3155,6 +3444,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'LeftBracket",
           "package": "GLFW-b",
@@ -3168,6 +3458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'LeftControl",
           "package": "GLFW-b",
@@ -3177,6 +3468,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'LeftControl",
           "package": "GLFW-b",
@@ -3190,6 +3482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'LeftShift",
           "package": "GLFW-b",
@@ -3199,6 +3492,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'LeftShift",
           "package": "GLFW-b",
@@ -3212,6 +3506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'LeftSuper",
           "package": "GLFW-b",
@@ -3221,6 +3516,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'LeftSuper",
           "package": "GLFW-b",
@@ -3234,6 +3530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'M",
           "package": "GLFW-b",
@@ -3243,6 +3540,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'M",
           "package": "GLFW-b",
@@ -3256,6 +3554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Menu",
           "package": "GLFW-b",
@@ -3265,6 +3564,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Menu",
           "package": "GLFW-b",
@@ -3278,6 +3578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Minus",
           "package": "GLFW-b",
@@ -3287,6 +3588,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Minus",
           "package": "GLFW-b",
@@ -3300,6 +3602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'N",
           "package": "GLFW-b",
@@ -3309,6 +3612,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'N",
           "package": "GLFW-b",
@@ -3322,6 +3626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'NumLock",
           "package": "GLFW-b",
@@ -3331,6 +3636,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'NumLock",
           "package": "GLFW-b",
@@ -3344,6 +3650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'O",
           "package": "GLFW-b",
@@ -3353,6 +3660,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'O",
           "package": "GLFW-b",
@@ -3366,6 +3674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'P",
           "package": "GLFW-b",
@@ -3375,6 +3684,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'P",
           "package": "GLFW-b",
@@ -3388,6 +3698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Pad0",
           "package": "GLFW-b",
@@ -3397,6 +3708,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Pad0",
           "package": "GLFW-b",
@@ -3410,6 +3722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Pad1",
           "package": "GLFW-b",
@@ -3419,6 +3732,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Pad1",
           "package": "GLFW-b",
@@ -3432,6 +3746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Pad2",
           "package": "GLFW-b",
@@ -3441,6 +3756,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Pad2",
           "package": "GLFW-b",
@@ -3454,6 +3770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Pad3",
           "package": "GLFW-b",
@@ -3463,6 +3780,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Pad3",
           "package": "GLFW-b",
@@ -3476,6 +3794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Pad4",
           "package": "GLFW-b",
@@ -3485,6 +3804,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Pad4",
           "package": "GLFW-b",
@@ -3498,6 +3818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Pad5",
           "package": "GLFW-b",
@@ -3507,6 +3828,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Pad5",
           "package": "GLFW-b",
@@ -3520,6 +3842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Pad6",
           "package": "GLFW-b",
@@ -3529,6 +3852,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Pad6",
           "package": "GLFW-b",
@@ -3542,6 +3866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Pad7",
           "package": "GLFW-b",
@@ -3551,6 +3876,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Pad7",
           "package": "GLFW-b",
@@ -3564,6 +3890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Pad8",
           "package": "GLFW-b",
@@ -3573,6 +3900,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Pad8",
           "package": "GLFW-b",
@@ -3586,6 +3914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Pad9",
           "package": "GLFW-b",
@@ -3595,6 +3924,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Pad9",
           "package": "GLFW-b",
@@ -3608,6 +3938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'PadAdd",
           "package": "GLFW-b",
@@ -3617,6 +3948,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'PadAdd",
           "package": "GLFW-b",
@@ -3630,6 +3962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'PadDecimal",
           "package": "GLFW-b",
@@ -3639,6 +3972,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'PadDecimal",
           "package": "GLFW-b",
@@ -3652,6 +3986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'PadDivide",
           "package": "GLFW-b",
@@ -3661,6 +3996,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'PadDivide",
           "package": "GLFW-b",
@@ -3674,6 +4010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'PadEnter",
           "package": "GLFW-b",
@@ -3683,6 +4020,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'PadEnter",
           "package": "GLFW-b",
@@ -3696,6 +4034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'PadEqual",
           "package": "GLFW-b",
@@ -3705,6 +4044,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'PadEqual",
           "package": "GLFW-b",
@@ -3718,6 +4058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'PadMultiply",
           "package": "GLFW-b",
@@ -3727,6 +4068,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'PadMultiply",
           "package": "GLFW-b",
@@ -3740,6 +4082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'PadSubtract",
           "package": "GLFW-b",
@@ -3749,6 +4092,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'PadSubtract",
           "package": "GLFW-b",
@@ -3762,6 +4106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'PageDown",
           "package": "GLFW-b",
@@ -3771,6 +4116,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'PageDown",
           "package": "GLFW-b",
@@ -3784,6 +4130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'PageUp",
           "package": "GLFW-b",
@@ -3793,6 +4140,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'PageUp",
           "package": "GLFW-b",
@@ -3806,6 +4154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Pause",
           "package": "GLFW-b",
@@ -3815,6 +4164,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Pause",
           "package": "GLFW-b",
@@ -3828,6 +4178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Period",
           "package": "GLFW-b",
@@ -3837,6 +4188,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Period",
           "package": "GLFW-b",
@@ -3850,6 +4202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'PrintScreen",
           "package": "GLFW-b",
@@ -3859,6 +4212,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'PrintScreen",
           "package": "GLFW-b",
@@ -3872,6 +4226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Q",
           "package": "GLFW-b",
@@ -3881,6 +4236,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Q",
           "package": "GLFW-b",
@@ -3894,6 +4250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'R",
           "package": "GLFW-b",
@@ -3903,6 +4260,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'R",
           "package": "GLFW-b",
@@ -3916,6 +4274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Right",
           "package": "GLFW-b",
@@ -3925,6 +4284,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Right",
           "package": "GLFW-b",
@@ -3938,6 +4298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'RightAlt",
           "package": "GLFW-b",
@@ -3947,6 +4308,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'RightAlt",
           "package": "GLFW-b",
@@ -3960,6 +4322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'RightBracket",
           "package": "GLFW-b",
@@ -3969,6 +4332,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'RightBracket",
           "package": "GLFW-b",
@@ -3982,6 +4346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'RightControl",
           "package": "GLFW-b",
@@ -3991,6 +4356,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'RightControl",
           "package": "GLFW-b",
@@ -4004,6 +4370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'RightShift",
           "package": "GLFW-b",
@@ -4013,6 +4380,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'RightShift",
           "package": "GLFW-b",
@@ -4026,6 +4394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'RightSuper",
           "package": "GLFW-b",
@@ -4035,6 +4404,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'RightSuper",
           "package": "GLFW-b",
@@ -4048,6 +4418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'S",
           "package": "GLFW-b",
@@ -4057,6 +4428,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'S",
           "package": "GLFW-b",
@@ -4070,6 +4442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'ScrollLock",
           "package": "GLFW-b",
@@ -4079,6 +4452,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'ScrollLock",
           "package": "GLFW-b",
@@ -4092,6 +4466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Semicolon",
           "package": "GLFW-b",
@@ -4101,6 +4476,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Semicolon",
           "package": "GLFW-b",
@@ -4114,6 +4490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Slash",
           "package": "GLFW-b",
@@ -4123,6 +4500,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Slash",
           "package": "GLFW-b",
@@ -4136,6 +4514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Space",
           "package": "GLFW-b",
@@ -4145,6 +4524,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Space",
           "package": "GLFW-b",
@@ -4158,6 +4538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'T",
           "package": "GLFW-b",
@@ -4167,6 +4548,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'T",
           "package": "GLFW-b",
@@ -4180,6 +4562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Tab",
           "package": "GLFW-b",
@@ -4189,6 +4572,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Tab",
           "package": "GLFW-b",
@@ -4202,6 +4586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'U",
           "package": "GLFW-b",
@@ -4211,6 +4596,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'U",
           "package": "GLFW-b",
@@ -4224,6 +4610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Unknown",
           "package": "GLFW-b",
@@ -4233,6 +4620,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Unknown",
           "package": "GLFW-b",
@@ -4246,6 +4634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Up",
           "package": "GLFW-b",
@@ -4255,6 +4644,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Up",
           "package": "GLFW-b",
@@ -4268,6 +4658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'V",
           "package": "GLFW-b",
@@ -4277,6 +4668,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'V",
           "package": "GLFW-b",
@@ -4290,6 +4682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'W",
           "package": "GLFW-b",
@@ -4299,6 +4692,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'W",
           "package": "GLFW-b",
@@ -4312,6 +4706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'World1",
           "package": "GLFW-b",
@@ -4321,6 +4716,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'World1",
           "package": "GLFW-b",
@@ -4334,6 +4730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'World2",
           "package": "GLFW-b",
@@ -4343,6 +4740,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'World2",
           "package": "GLFW-b",
@@ -4356,6 +4754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'X",
           "package": "GLFW-b",
@@ -4365,6 +4764,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'X",
           "package": "GLFW-b",
@@ -4378,6 +4778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Y",
           "package": "GLFW-b",
@@ -4387,6 +4788,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Y",
           "package": "GLFW-b",
@@ -4400,6 +4802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Z",
           "package": "GLFW-b",
@@ -4409,6 +4812,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Key'Z",
           "package": "GLFW-b",
@@ -4422,6 +4826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "KeyState'Pressed",
           "package": "GLFW-b",
@@ -4431,6 +4836,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "KeyState'Pressed",
           "package": "GLFW-b",
@@ -4444,6 +4850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "KeyState'Released",
           "package": "GLFW-b",
@@ -4453,6 +4860,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "KeyState'Released",
           "package": "GLFW-b",
@@ -4466,6 +4874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "KeyState'Repeating",
           "package": "GLFW-b",
@@ -4475,6 +4884,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "KeyState'Repeating",
           "package": "GLFW-b",
@@ -4488,6 +4898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "ModifierKeys",
           "package": "GLFW-b",
@@ -4497,6 +4908,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "ModifierKeys",
           "package": "GLFW-b",
@@ -4510,6 +4922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "MonitorState'Connected",
           "package": "GLFW-b",
@@ -4519,6 +4932,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "MonitorState'Connected",
           "package": "GLFW-b",
@@ -4532,6 +4946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "MonitorState'Disconnected",
           "package": "GLFW-b",
@@ -4541,6 +4956,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "MonitorState'Disconnected",
           "package": "GLFW-b",
@@ -4554,6 +4970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButton'1",
           "package": "GLFW-b",
@@ -4563,6 +4980,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButton'1",
           "package": "GLFW-b",
@@ -4576,6 +4994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButton'2",
           "package": "GLFW-b",
@@ -4585,6 +5004,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButton'2",
           "package": "GLFW-b",
@@ -4598,6 +5018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButton'3",
           "package": "GLFW-b",
@@ -4607,6 +5028,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButton'3",
           "package": "GLFW-b",
@@ -4620,6 +5042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButton'4",
           "package": "GLFW-b",
@@ -4629,6 +5052,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButton'4",
           "package": "GLFW-b",
@@ -4642,6 +5066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButton'5",
           "package": "GLFW-b",
@@ -4651,6 +5076,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButton'5",
           "package": "GLFW-b",
@@ -4664,6 +5090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButton'6",
           "package": "GLFW-b",
@@ -4673,6 +5100,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButton'6",
           "package": "GLFW-b",
@@ -4686,6 +5114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButton'7",
           "package": "GLFW-b",
@@ -4695,6 +5124,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButton'7",
           "package": "GLFW-b",
@@ -4708,6 +5138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButton'8",
           "package": "GLFW-b",
@@ -4717,6 +5148,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButton'8",
           "package": "GLFW-b",
@@ -4730,6 +5162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButtonState'Pressed",
           "package": "GLFW-b",
@@ -4739,6 +5172,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButtonState'Pressed",
           "package": "GLFW-b",
@@ -4752,6 +5186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButtonState'Released",
           "package": "GLFW-b",
@@ -4761,6 +5196,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "MouseButtonState'Released",
           "package": "GLFW-b",
@@ -4774,6 +5210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "OpenGLProfile'Any",
           "package": "GLFW-b",
@@ -4783,6 +5220,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "OpenGLProfile'Any",
           "package": "GLFW-b",
@@ -4796,6 +5234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "OpenGLProfile'Compat",
           "package": "GLFW-b",
@@ -4805,6 +5244,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "OpenGLProfile'Compat",
           "package": "GLFW-b",
@@ -4818,6 +5258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "OpenGLProfile'Core",
           "package": "GLFW-b",
@@ -4827,6 +5268,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "OpenGLProfile'Core",
           "package": "GLFW-b",
@@ -4840,6 +5282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "StickyKeysInputMode'Disabled",
           "package": "GLFW-b",
@@ -4849,6 +5292,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "StickyKeysInputMode'Disabled",
           "package": "GLFW-b",
@@ -4862,6 +5306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "StickyKeysInputMode'Enabled",
           "package": "GLFW-b",
@@ -4871,6 +5316,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "StickyKeysInputMode'Enabled",
           "package": "GLFW-b",
@@ -4884,6 +5330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "StickyMouseButtonsInputMode'Disabled",
           "package": "GLFW-b",
@@ -4893,6 +5340,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "StickyMouseButtonsInputMode'Disabled",
           "package": "GLFW-b",
@@ -4906,6 +5354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "StickyMouseButtonsInputMode'Enabled",
           "package": "GLFW-b",
@@ -4915,6 +5364,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "StickyMouseButtonsInputMode'Enabled",
           "package": "GLFW-b",
@@ -4928,6 +5378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "Version",
           "package": "GLFW-b",
@@ -4937,6 +5388,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "Version",
           "package": "GLFW-b",
@@ -4950,6 +5402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "VideoMode",
           "package": "GLFW-b",
@@ -4959,6 +5412,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "VideoMode",
           "package": "GLFW-b",
@@ -4972,6 +5426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'AccumAlphaBits",
           "package": "GLFW-b",
@@ -4981,6 +5436,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'AccumAlphaBits",
           "package": "GLFW-b",
@@ -4994,6 +5450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'AccumBlueBits",
           "package": "GLFW-b",
@@ -5003,6 +5460,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'AccumBlueBits",
           "package": "GLFW-b",
@@ -5016,6 +5474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'AccumGreenBits",
           "package": "GLFW-b",
@@ -5025,6 +5484,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'AccumGreenBits",
           "package": "GLFW-b",
@@ -5038,6 +5498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'AccumRedBits",
           "package": "GLFW-b",
@@ -5047,6 +5508,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'AccumRedBits",
           "package": "GLFW-b",
@@ -5060,6 +5522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'AlphaBits",
           "package": "GLFW-b",
@@ -5069,6 +5532,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'AlphaBits",
           "package": "GLFW-b",
@@ -5082,6 +5546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'AuxBuffers",
           "package": "GLFW-b",
@@ -5091,6 +5556,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'AuxBuffers",
           "package": "GLFW-b",
@@ -5104,6 +5570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'BlueBits",
           "package": "GLFW-b",
@@ -5113,6 +5580,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'BlueBits",
           "package": "GLFW-b",
@@ -5126,6 +5594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'ClientAPI",
           "package": "GLFW-b",
@@ -5135,6 +5604,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'ClientAPI",
           "package": "GLFW-b",
@@ -5148,6 +5618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'ContextRobustness",
           "package": "GLFW-b",
@@ -5157,6 +5628,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'ContextRobustness",
           "package": "GLFW-b",
@@ -5170,6 +5642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'ContextVersionMajor",
           "package": "GLFW-b",
@@ -5179,6 +5652,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'ContextVersionMajor",
           "package": "GLFW-b",
@@ -5192,6 +5666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'ContextVersionMinor",
           "package": "GLFW-b",
@@ -5201,6 +5676,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'ContextVersionMinor",
           "package": "GLFW-b",
@@ -5214,6 +5690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'Decorated",
           "package": "GLFW-b",
@@ -5223,6 +5700,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'Decorated",
           "package": "GLFW-b",
@@ -5236,6 +5714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'DepthBits",
           "package": "GLFW-b",
@@ -5245,6 +5724,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'DepthBits",
           "package": "GLFW-b",
@@ -5258,6 +5738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'GreenBits",
           "package": "GLFW-b",
@@ -5267,6 +5748,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'GreenBits",
           "package": "GLFW-b",
@@ -5280,6 +5762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'OpenGLDebugContext",
           "package": "GLFW-b",
@@ -5289,6 +5772,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'OpenGLDebugContext",
           "package": "GLFW-b",
@@ -5302,6 +5786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'OpenGLForwardCompat",
           "package": "GLFW-b",
@@ -5311,6 +5796,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'OpenGLForwardCompat",
           "package": "GLFW-b",
@@ -5324,6 +5810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'OpenGLProfile",
           "package": "GLFW-b",
@@ -5333,6 +5820,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'OpenGLProfile",
           "package": "GLFW-b",
@@ -5346,6 +5834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'RedBits",
           "package": "GLFW-b",
@@ -5355,6 +5844,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'RedBits",
           "package": "GLFW-b",
@@ -5368,6 +5858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'RefreshRate",
           "package": "GLFW-b",
@@ -5377,6 +5868,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'RefreshRate",
           "package": "GLFW-b",
@@ -5390,6 +5882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'Resizable",
           "package": "GLFW-b",
@@ -5399,6 +5892,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'Resizable",
           "package": "GLFW-b",
@@ -5412,6 +5906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'Samples",
           "package": "GLFW-b",
@@ -5421,6 +5916,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'Samples",
           "package": "GLFW-b",
@@ -5434,6 +5930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'StencilBits",
           "package": "GLFW-b",
@@ -5443,6 +5940,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'StencilBits",
           "package": "GLFW-b",
@@ -5456,6 +5954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'Stereo",
           "package": "GLFW-b",
@@ -5465,6 +5964,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'Stereo",
           "package": "GLFW-b",
@@ -5478,6 +5978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'Visible",
           "package": "GLFW-b",
@@ -5487,6 +5988,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'Visible",
           "package": "GLFW-b",
@@ -5500,6 +6002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'sRGBCapable",
           "package": "GLFW-b",
@@ -5509,6 +6012,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "WindowHint'sRGBCapable",
           "package": "GLFW-b",
@@ -5522,6 +6026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "createWindow",
           "package": "GLFW-b",
@@ -5531,6 +6036,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "createWindow",
           "normalized": "Int-\u003eInt-\u003eString-\u003eMaybe Monitor-\u003eMaybe Window-\u003eIO(Maybe Window)",
@@ -5546,6 +6052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "defaultWindowHints",
           "package": "GLFW-b",
@@ -5555,6 +6062,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "defaultWindowHints",
           "normalized": "IO()",
@@ -5570,6 +6078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "destroyWindow",
           "package": "GLFW-b",
@@ -5579,6 +6088,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "destroyWindow",
           "normalized": "Window-\u003eIO()",
@@ -5594,6 +6104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "extensionSupported",
           "package": "GLFW-b",
@@ -5603,6 +6114,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "extensionSupported",
           "normalized": "String-\u003eIO Bool",
@@ -5618,6 +6130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getClipboardString",
           "package": "GLFW-b",
@@ -5627,6 +6140,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getClipboardString",
           "normalized": "Window-\u003eIO(Maybe String)",
@@ -5642,6 +6156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getCurrentContext",
           "package": "GLFW-b",
@@ -5651,6 +6166,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getCurrentContext",
           "package": "GLFW-b",
@@ -5664,6 +6180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getCursorInputMode",
           "package": "GLFW-b",
@@ -5673,6 +6190,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getCursorInputMode",
           "normalized": "Window-\u003eIO CursorInputMode",
@@ -5688,6 +6206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getCursorPos",
           "package": "GLFW-b",
@@ -5697,6 +6216,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getCursorPos",
           "normalized": "Window-\u003eIO(Double,Double)",
@@ -5712,6 +6232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getFramebufferSize",
           "package": "GLFW-b",
@@ -5721,6 +6242,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getFramebufferSize",
           "normalized": "Window-\u003eIO(Int,Int)",
@@ -5736,6 +6258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getGammaRamp",
           "package": "GLFW-b",
@@ -5745,6 +6268,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getGammaRamp",
           "normalized": "Monitor-\u003eIO(Maybe GammaRamp)",
@@ -5760,6 +6284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getJoystickAxes",
           "package": "GLFW-b",
@@ -5769,6 +6294,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getJoystickAxes",
           "normalized": "Joystick-\u003eIO(Maybe[Double])",
@@ -5784,6 +6310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getJoystickButtons",
           "package": "GLFW-b",
@@ -5793,6 +6320,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getJoystickButtons",
           "normalized": "Joystick-\u003eIO(Maybe[JoystickButtonState])",
@@ -5808,6 +6336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getJoystickName",
           "package": "GLFW-b",
@@ -5817,6 +6346,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getJoystickName",
           "normalized": "Joystick-\u003eIO(Maybe String)",
@@ -5832,6 +6362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getKey",
           "package": "GLFW-b",
@@ -5841,6 +6372,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getKey",
           "normalized": "Window-\u003eKey-\u003eIO KeyState",
@@ -5856,6 +6388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getMonitorName",
           "package": "GLFW-b",
@@ -5865,6 +6398,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getMonitorName",
           "normalized": "Monitor-\u003eIO(Maybe String)",
@@ -5880,6 +6414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getMonitorPhysicalSize",
           "package": "GLFW-b",
@@ -5889,6 +6424,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getMonitorPhysicalSize",
           "normalized": "Monitor-\u003eIO(Int,Int)",
@@ -5904,6 +6440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getMonitorPos",
           "package": "GLFW-b",
@@ -5913,6 +6450,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getMonitorPos",
           "normalized": "Monitor-\u003eIO(Int,Int)",
@@ -5928,6 +6466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getMonitors",
           "package": "GLFW-b",
@@ -5937,6 +6476,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getMonitors",
           "normalized": "IO(Maybe[Monitor])",
@@ -5952,6 +6492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getMouseButton",
           "package": "GLFW-b",
@@ -5961,6 +6502,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getMouseButton",
           "normalized": "Window-\u003eMouseButton-\u003eIO MouseButtonState",
@@ -5976,6 +6518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getPrimaryMonitor",
           "package": "GLFW-b",
@@ -5985,6 +6528,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getPrimaryMonitor",
           "package": "GLFW-b",
@@ -5998,6 +6542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getStickyKeysInputMode",
           "package": "GLFW-b",
@@ -6007,6 +6552,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getStickyKeysInputMode",
           "normalized": "Window-\u003eIO StickyKeysInputMode",
@@ -6022,6 +6568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getStickyMouseButtonsInputMode",
           "package": "GLFW-b",
@@ -6031,6 +6578,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getStickyMouseButtonsInputMode",
           "normalized": "Window-\u003eIO StickyMouseButtonsInputMode",
@@ -6046,6 +6594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getTime",
           "package": "GLFW-b",
@@ -6055,6 +6604,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getTime",
           "package": "GLFW-b",
@@ -6068,6 +6618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getVersion",
           "package": "GLFW-b",
@@ -6077,6 +6628,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getVersion",
           "package": "GLFW-b",
@@ -6090,6 +6642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getVersionString",
           "package": "GLFW-b",
@@ -6099,6 +6652,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getVersionString",
           "package": "GLFW-b",
@@ -6112,6 +6666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getVideoMode",
           "package": "GLFW-b",
@@ -6121,6 +6676,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getVideoMode",
           "normalized": "Monitor-\u003eIO(Maybe VideoMode)",
@@ -6136,6 +6692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getVideoModes",
           "package": "GLFW-b",
@@ -6145,6 +6702,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getVideoModes",
           "normalized": "Monitor-\u003eIO(Maybe[VideoMode])",
@@ -6160,6 +6718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowClientAPI",
           "package": "GLFW-b",
@@ -6169,6 +6728,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowClientAPI",
           "normalized": "Window-\u003eIO ClientAPI",
@@ -6184,6 +6744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowContextRobustness",
           "package": "GLFW-b",
@@ -6193,6 +6754,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowContextRobustness",
           "normalized": "Window-\u003eIO ContextRobustness",
@@ -6208,6 +6770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowContextVersionMajor",
           "package": "GLFW-b",
@@ -6217,6 +6780,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowContextVersionMajor",
           "normalized": "Window-\u003eIO Int",
@@ -6232,6 +6796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowContextVersionMinor",
           "package": "GLFW-b",
@@ -6241,6 +6806,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowContextVersionMinor",
           "normalized": "Window-\u003eIO Int",
@@ -6256,6 +6822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowContextVersionRevision",
           "package": "GLFW-b",
@@ -6265,6 +6832,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowContextVersionRevision",
           "normalized": "Window-\u003eIO Int",
@@ -6280,6 +6848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowDecorated",
           "package": "GLFW-b",
@@ -6289,6 +6858,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowDecorated",
           "normalized": "Window-\u003eIO Bool",
@@ -6304,6 +6874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowFocused",
           "package": "GLFW-b",
@@ -6313,6 +6884,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowFocused",
           "normalized": "Window-\u003eIO FocusState",
@@ -6328,6 +6900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowIconified",
           "package": "GLFW-b",
@@ -6337,6 +6910,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowIconified",
           "normalized": "Window-\u003eIO IconifyState",
@@ -6352,6 +6926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowMonitor",
           "package": "GLFW-b",
@@ -6361,6 +6936,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowMonitor",
           "normalized": "Window-\u003eIO(Maybe Monitor)",
@@ -6376,6 +6952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowOpenGLDebugContext",
           "package": "GLFW-b",
@@ -6385,6 +6962,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowOpenGLDebugContext",
           "normalized": "Window-\u003eIO Bool",
@@ -6400,6 +6978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowOpenGLForwardCompat",
           "package": "GLFW-b",
@@ -6409,6 +6988,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowOpenGLForwardCompat",
           "normalized": "Window-\u003eIO Bool",
@@ -6424,6 +7004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowOpenGLProfile",
           "package": "GLFW-b",
@@ -6433,6 +7014,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowOpenGLProfile",
           "normalized": "Window-\u003eIO OpenGLProfile",
@@ -6448,6 +7030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowPos",
           "package": "GLFW-b",
@@ -6457,6 +7040,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowPos",
           "normalized": "Window-\u003eIO(Int,Int)",
@@ -6472,6 +7056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowResizable",
           "package": "GLFW-b",
@@ -6481,6 +7066,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowResizable",
           "normalized": "Window-\u003eIO Bool",
@@ -6496,6 +7082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowSize",
           "package": "GLFW-b",
@@ -6505,6 +7092,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowSize",
           "normalized": "Window-\u003eIO(Int,Int)",
@@ -6520,6 +7108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowVisible",
           "package": "GLFW-b",
@@ -6529,6 +7118,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "getWindowVisible",
           "normalized": "Window-\u003eIO Bool",
@@ -6544,6 +7134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "hideWindow",
           "package": "GLFW-b",
@@ -6553,6 +7144,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "hideWindow",
           "normalized": "Window-\u003eIO()",
@@ -6568,6 +7160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "iconifyWindow",
           "package": "GLFW-b",
@@ -6577,6 +7170,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "iconifyWindow",
           "normalized": "Window-\u003eIO()",
@@ -6592,6 +7186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "init",
           "package": "GLFW-b",
@@ -6601,6 +7196,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "init",
           "package": "GLFW-b",
@@ -6613,6 +7209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "joystickPresent",
           "package": "GLFW-b",
@@ -6622,6 +7219,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "joystickPresent",
           "normalized": "Joystick-\u003eIO Bool",
@@ -6637,6 +7235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "makeContextCurrent",
           "package": "GLFW-b",
@@ -6646,6 +7245,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "makeContextCurrent",
           "normalized": "Maybe Window-\u003eIO()",
@@ -6661,6 +7261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "makeGammaRamp",
           "package": "GLFW-b",
@@ -6670,6 +7271,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "makeGammaRamp",
           "normalized": "[Int]-\u003e[Int]-\u003e[Int]-\u003eMaybe GammaRamp",
@@ -6685,6 +7287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "modifierKeysAlt",
           "package": "GLFW-b",
@@ -6694,6 +7297,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "modifierKeysAlt",
           "package": "GLFW-b",
@@ -6707,6 +7311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "modifierKeysControl",
           "package": "GLFW-b",
@@ -6716,6 +7321,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "modifierKeysControl",
           "package": "GLFW-b",
@@ -6729,6 +7335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "modifierKeysShift",
           "package": "GLFW-b",
@@ -6738,6 +7345,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "modifierKeysShift",
           "package": "GLFW-b",
@@ -6751,6 +7359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "modifierKeysSuper",
           "package": "GLFW-b",
@@ -6760,6 +7369,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "modifierKeysSuper",
           "package": "GLFW-b",
@@ -6773,6 +7383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "pollEvents",
           "package": "GLFW-b",
@@ -6782,6 +7393,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "pollEvents",
           "normalized": "IO()",
@@ -6797,6 +7409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "restoreWindow",
           "package": "GLFW-b",
@@ -6806,6 +7419,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "restoreWindow",
           "normalized": "Window-\u003eIO()",
@@ -6821,6 +7435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setCharCallback",
           "package": "GLFW-b",
@@ -6830,6 +7445,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setCharCallback",
           "normalized": "Window-\u003eMaybe CharCallback-\u003eIO()",
@@ -6845,6 +7461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setClipboardString",
           "package": "GLFW-b",
@@ -6854,6 +7471,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setClipboardString",
           "normalized": "Window-\u003eString-\u003eIO()",
@@ -6869,6 +7487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setCursorEnterCallback",
           "package": "GLFW-b",
@@ -6878,6 +7497,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setCursorEnterCallback",
           "normalized": "Window-\u003eMaybe CursorEnterCallback-\u003eIO()",
@@ -6893,6 +7513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setCursorInputMode",
           "package": "GLFW-b",
@@ -6902,6 +7523,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setCursorInputMode",
           "normalized": "Window-\u003eCursorInputMode-\u003eIO()",
@@ -6917,6 +7539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setCursorPos",
           "package": "GLFW-b",
@@ -6926,6 +7549,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setCursorPos",
           "normalized": "Window-\u003eDouble-\u003eDouble-\u003eIO()",
@@ -6941,6 +7565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setCursorPosCallback",
           "package": "GLFW-b",
@@ -6950,6 +7575,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setCursorPosCallback",
           "normalized": "Window-\u003eMaybe CursorPosCallback-\u003eIO()",
@@ -6965,6 +7591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setErrorCallback",
           "package": "GLFW-b",
@@ -6974,6 +7601,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setErrorCallback",
           "normalized": "Maybe ErrorCallback-\u003eIO()",
@@ -6989,6 +7617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setFramebufferSizeCallback",
           "package": "GLFW-b",
@@ -6998,6 +7627,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setFramebufferSizeCallback",
           "normalized": "Window-\u003eMaybe FramebufferSizeCallback-\u003eIO()",
@@ -7013,6 +7643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setGamma",
           "package": "GLFW-b",
@@ -7022,6 +7653,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setGamma",
           "normalized": "Monitor-\u003eDouble-\u003eIO()",
@@ -7037,6 +7669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setGammaRamp",
           "package": "GLFW-b",
@@ -7046,6 +7679,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setGammaRamp",
           "normalized": "Monitor-\u003eGammaRamp-\u003eIO()",
@@ -7061,6 +7695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setKeyCallback",
           "package": "GLFW-b",
@@ -7070,6 +7705,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setKeyCallback",
           "normalized": "Window-\u003eMaybe KeyCallback-\u003eIO()",
@@ -7085,6 +7721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setMonitorCallback",
           "package": "GLFW-b",
@@ -7094,6 +7731,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setMonitorCallback",
           "normalized": "Maybe MonitorCallback-\u003eIO()",
@@ -7109,6 +7747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setMouseButtonCallback",
           "package": "GLFW-b",
@@ -7118,6 +7757,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setMouseButtonCallback",
           "normalized": "Window-\u003eMaybe MouseButtonCallback-\u003eIO()",
@@ -7133,6 +7773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setScrollCallback",
           "package": "GLFW-b",
@@ -7142,6 +7783,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setScrollCallback",
           "normalized": "Window-\u003eMaybe ScrollCallback-\u003eIO()",
@@ -7157,6 +7799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setStickyKeysInputMode",
           "package": "GLFW-b",
@@ -7166,6 +7809,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setStickyKeysInputMode",
           "normalized": "Window-\u003eStickyKeysInputMode-\u003eIO()",
@@ -7181,6 +7825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setStickyMouseButtonsInputMode",
           "package": "GLFW-b",
@@ -7190,6 +7835,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setStickyMouseButtonsInputMode",
           "normalized": "Window-\u003eStickyMouseButtonsInputMode-\u003eIO()",
@@ -7205,6 +7851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setTime",
           "package": "GLFW-b",
@@ -7214,6 +7861,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setTime",
           "normalized": "Double-\u003eIO()",
@@ -7229,6 +7877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setWindowCloseCallback",
           "package": "GLFW-b",
@@ -7238,6 +7887,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setWindowCloseCallback",
           "normalized": "Window-\u003eMaybe WindowCloseCallback-\u003eIO()",
@@ -7253,6 +7903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setWindowFocusCallback",
           "package": "GLFW-b",
@@ -7262,6 +7913,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setWindowFocusCallback",
           "normalized": "Window-\u003eMaybe WindowFocusCallback-\u003eIO()",
@@ -7277,6 +7929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setWindowIconifyCallback",
           "package": "GLFW-b",
@@ -7286,6 +7939,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setWindowIconifyCallback",
           "normalized": "Window-\u003eMaybe WindowIconifyCallback-\u003eIO()",
@@ -7301,6 +7955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setWindowPos",
           "package": "GLFW-b",
@@ -7310,6 +7965,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setWindowPos",
           "normalized": "Window-\u003eInt-\u003eInt-\u003eIO()",
@@ -7325,6 +7981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setWindowPosCallback",
           "package": "GLFW-b",
@@ -7334,6 +7991,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setWindowPosCallback",
           "normalized": "Window-\u003eMaybe WindowPosCallback-\u003eIO()",
@@ -7349,6 +8007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setWindowRefreshCallback",
           "package": "GLFW-b",
@@ -7358,6 +8017,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setWindowRefreshCallback",
           "normalized": "Window-\u003eMaybe WindowRefreshCallback-\u003eIO()",
@@ -7373,6 +8033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setWindowShouldClose",
           "package": "GLFW-b",
@@ -7382,6 +8043,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setWindowShouldClose",
           "normalized": "Window-\u003eBool-\u003eIO()",
@@ -7397,6 +8059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setWindowSize",
           "package": "GLFW-b",
@@ -7406,6 +8069,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setWindowSize",
           "normalized": "Window-\u003eInt-\u003eInt-\u003eIO()",
@@ -7421,6 +8085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setWindowSizeCallback",
           "package": "GLFW-b",
@@ -7430,6 +8095,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setWindowSizeCallback",
           "normalized": "Window-\u003eMaybe WindowSizeCallback-\u003eIO()",
@@ -7445,6 +8111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "setWindowTitle",
           "package": "GLFW-b",
@@ -7454,6 +8121,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "setWindowTitle",
           "normalized": "Window-\u003eString-\u003eIO()",
@@ -7469,6 +8137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "showWindow",
           "package": "GLFW-b",
@@ -7478,6 +8147,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "showWindow",
           "normalized": "Window-\u003eIO()",
@@ -7493,6 +8163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "swapBuffers",
           "package": "GLFW-b",
@@ -7502,6 +8173,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "swapBuffers",
           "normalized": "Window-\u003eIO()",
@@ -7517,6 +8189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "swapInterval",
           "package": "GLFW-b",
@@ -7526,6 +8199,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "swapInterval",
           "normalized": "Int-\u003eIO()",
@@ -7541,6 +8215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "terminate",
           "package": "GLFW-b",
@@ -7550,6 +8225,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "terminate",
           "normalized": "IO()",
@@ -7564,6 +8240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "versionMajor",
           "package": "GLFW-b",
@@ -7573,6 +8250,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "versionMajor",
           "package": "GLFW-b",
@@ -7586,6 +8264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "versionMinor",
           "package": "GLFW-b",
@@ -7595,6 +8274,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "versionMinor",
           "package": "GLFW-b",
@@ -7608,6 +8288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "versionRevision",
           "package": "GLFW-b",
@@ -7617,6 +8298,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "versionRevision",
           "package": "GLFW-b",
@@ -7630,6 +8312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "videoModeBlueBits",
           "package": "GLFW-b",
@@ -7639,6 +8322,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "videoModeBlueBits",
           "package": "GLFW-b",
@@ -7652,6 +8336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "videoModeGreenBits",
           "package": "GLFW-b",
@@ -7661,6 +8346,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "videoModeGreenBits",
           "package": "GLFW-b",
@@ -7674,6 +8360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "videoModeHeight",
           "package": "GLFW-b",
@@ -7683,6 +8370,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "videoModeHeight",
           "package": "GLFW-b",
@@ -7696,6 +8384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "videoModeRedBits",
           "package": "GLFW-b",
@@ -7705,6 +8394,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "videoModeRedBits",
           "package": "GLFW-b",
@@ -7718,6 +8408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "videoModeRefreshRate",
           "package": "GLFW-b",
@@ -7727,6 +8418,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "videoModeRefreshRate",
           "package": "GLFW-b",
@@ -7740,6 +8432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "videoModeWidth",
           "package": "GLFW-b",
@@ -7749,6 +8442,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "videoModeWidth",
           "package": "GLFW-b",
@@ -7762,6 +8456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "waitEvents",
           "package": "GLFW-b",
@@ -7771,6 +8466,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "waitEvents",
           "normalized": "IO()",
@@ -7786,6 +8482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "windowHint",
           "package": "GLFW-b",
@@ -7795,6 +8492,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "windowHint",
           "normalized": "WindowHint-\u003eIO()",
@@ -7810,6 +8508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:16 UTC 2014",
           "module": "Graphics.UI.GLFW",
           "name": "windowShouldClose",
           "package": "GLFW-b",
@@ -7819,6 +8518,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI GLFW",
+          "indexed": "2014-03-11T16:42:16",
           "module": "Graphics.UI.GLFW",
           "name": "windowShouldClose",
           "normalized": "Window-\u003eIO Bool",

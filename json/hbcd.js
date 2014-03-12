@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hbcd"
+        "phrase": "hbcd",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing packed binary-coded decimal (BCD) serialization functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:43 UTC 2014",
           "module": "Data.BCD.Packed",
           "name": "Packed",
           "package": "hbcd",
@@ -28,6 +29,7 @@
         "index": {
           "description": "module containing packed binary-coded decimal BCD serialization functions",
           "hierarchy": "Data BCD Packed",
+          "indexed": "2014-03-11T18:34:43",
           "module": "Data.BCD.Packed",
           "name": "Packed",
           "package": "hbcd",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the bytes required to store a number of digits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:43 UTC 2014",
           "module": "Data.BCD.Packed",
           "name": "bytesRequired",
           "package": "hbcd",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Calculate the bytes required to store number of digits",
           "hierarchy": "Data BCD Packed",
+          "indexed": "2014-03-11T18:34:43",
           "module": "Data.BCD.Packed",
           "name": "bytesRequired",
           "normalized": "Int-\u003eInt",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack a Decimal into a ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:43 UTC 2014",
           "module": "Data.BCD.Packed",
           "name": "packDecimal",
           "package": "hbcd",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Pack Decimal into ByteString",
           "hierarchy": "Data BCD Packed",
+          "indexed": "2014-03-11T18:34:43",
           "module": "Data.BCD.Packed",
           "name": "packDecimal",
           "normalized": "Int-\u003eWord-\u003eDecimal-\u003eByteString",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack an Integer into a ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:43 UTC 2014",
           "module": "Data.BCD.Packed",
           "name": "packInteger",
           "package": "hbcd",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Pack an Integer into ByteString",
           "hierarchy": "Data BCD Packed",
+          "indexed": "2014-03-11T18:34:43",
           "module": "Data.BCD.Packed",
           "name": "packInteger",
           "normalized": "Int-\u003eInteger-\u003eByteString",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack a Decimal from a ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:43 UTC 2014",
           "module": "Data.BCD.Packed",
           "name": "unpackDecimal",
           "package": "hbcd",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Unpack Decimal from ByteString",
           "hierarchy": "Data BCD Packed",
+          "indexed": "2014-03-11T18:34:43",
           "module": "Data.BCD.Packed",
           "name": "unpackDecimal",
           "normalized": "Word-\u003eByteString-\u003eDecimal",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack an Integer from a ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:43 UTC 2014",
           "module": "Data.BCD.Packed",
           "name": "unpackInteger",
           "package": "hbcd",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Unpack an Integer from ByteString",
           "hierarchy": "Data BCD Packed",
+          "indexed": "2014-03-11T18:34:43",
           "module": "Data.BCD.Packed",
           "name": "unpackInteger",
           "normalized": "ByteString-\u003eInteger",

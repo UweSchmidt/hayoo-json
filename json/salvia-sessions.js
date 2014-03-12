@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "salvia-sessions"
+        "phrase": "salvia-sessions",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "Login",
           "package": "salvia-sessions",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "Login",
           "package": "salvia-sessions",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "Action",
           "package": "salvia-sessions",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "Action",
           "package": "salvia-sessions",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "Backend",
           "package": "salvia-sessions",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "Backend",
           "package": "salvia-sessions",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "Email",
           "package": "salvia-sessions",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "Email",
           "package": "salvia-sessions",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "LoginM",
           "package": "salvia-sessions",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "LoginM",
           "package": "salvia-sessions",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "Password",
           "package": "salvia-sessions",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "Password",
           "package": "salvia-sessions",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "User",
           "package": "salvia-sessions",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "User",
           "package": "salvia-sessions",
@@ -166,6 +180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA user database containing a list of users and a reference to the backend the\ndatabase originates from and can be synchronized back to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "UserDatabase",
           "package": "salvia-sessions",
@@ -175,6 +190,7 @@
         "index": {
           "description": "user database containing list of users and reference to the backend the database originates from and can be synchronized back to",
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "UserDatabase",
           "package": "salvia-sessions",
@@ -189,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA user payload instance contains user related session information and can be\nused as the payload for regular sessions. It contains a reference to the user\nit belongs to, a flag to indicate whether the user is logged in or not and a\npossible user specific session payload.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "UserPayload",
           "package": "salvia-sessions",
@@ -198,6 +215,7 @@
         "index": {
           "description": "user payload instance contains user related session information and can be used as the payload for regular sessions It contains reference to the user it belongs to flag to indicate whether the user is logged in or not and possible user specific session payload",
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "UserPayload",
           "package": "salvia-sessions",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "UserSession",
           "package": "salvia-sessions",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "UserSession",
           "package": "salvia-sessions",
@@ -233,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser containg a username, password and a list of actions this user is allowed\nto perform within the system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "Username",
           "package": "salvia-sessions",
@@ -242,6 +263,7 @@
         "index": {
           "description": "User containg username password and list of actions this user is allowed to perform within the system",
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "Username",
           "package": "salvia-sessions",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "Backend",
           "package": "salvia-sessions",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "Backend",
           "package": "salvia-sessions",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "User",
           "package": "salvia-sessions",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "User",
           "normalized": "User Username Email Password[Action]",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "UserDatabase",
           "package": "salvia-sessions",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "UserDatabase",
           "normalized": "UserDatabase Backend[User]",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "UserPayload",
           "package": "salvia-sessions",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "UserPayload",
           "package": "salvia-sessions",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "actions",
           "package": "salvia-sessions",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "actions",
           "normalized": "User-\u003e[Action]",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "add",
           "package": "salvia-sessions",
@@ -379,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "add",
           "normalized": "User-\u003ea()",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "authorized",
           "package": "salvia-sessions",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "authorized",
           "normalized": "Maybe Action-\u003ea b-\u003e(User-\u003ea b)-\u003ea b",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "backend",
           "package": "salvia-sessions",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "backend",
           "normalized": "UserDatabase-\u003eBackend",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "email",
           "package": "salvia-sessions",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "email",
           "normalized": "User-\u003eEmail",
@@ -463,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile based user database backend. Format: \u003cem\u003eusername password action*\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "fileBackend",
           "package": "salvia-sessions",
@@ -473,6 +514,7 @@
         "index": {
           "description": "File based user database backend Format username password action",
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "fileBackend",
           "normalized": "FilePath-\u003eBackend",
@@ -489,6 +531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a handler only when the user for the current session is authorized to\ndo so. The user must have the specified action contained in its actions list in\norder to be authorized. When the authorization fails the first handler will be\nexecuted when the authorization succeeds the second handler will be executed\nwhich may access the current user object. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "hAuthorized",
           "package": "salvia-sessions",
@@ -499,6 +542,7 @@
         "index": {
           "description": "Execute handler only when the user for the current session is authorized to do so The user must have the specified action contained in its actions list in order to be authorized When the authorization fails the first handler will be executed when the authorization succeeds the second handler will be executed which may access the current user object",
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "hAuthorized",
           "normalized": "a-\u003eMaybe Action-\u003eb c-\u003e(User-\u003eb c)-\u003eb c",
@@ -514,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "hGetUser",
           "package": "salvia-sessions",
@@ -523,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "hGetUser",
           "package": "salvia-sessions",
@@ -537,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe login handler. Read the username and password values from the post data and\nuse that to authenticate the user. When the user can be found in the database\nthe user is logged in and stored in the session payload. When the login fails\nthe first handler will be executed when the login succeeds the second handler\nwill be executed which may access the fresh user object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "hLogin",
           "package": "salvia-sessions",
@@ -547,6 +594,7 @@
         "index": {
           "description": "The login handler Read the username and password values from the post data and use that to authenticate the user When the user can be found in the database the user is logged in and stored in the session payload When the login fails the first handler will be executed when the login succeeds the second handler will be executed which may access the fresh user object",
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "hLogin",
           "normalized": "a-\u003eb c-\u003e(User-\u003eb c)-\u003eb c",
@@ -563,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eloginfo\u003c/a\u003e\u003c/code\u003e handler exposes the current user session to the world using a\nsimple text based response. The response contains information about the current\nsession identifier, session start and expiration date and the possible user\npayload that is included.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "hLoginfo",
           "package": "salvia-sessions",
@@ -573,6 +622,7 @@
         "index": {
           "description": "The loginfo handler exposes the current user session to the world using simple text based response The response contains information about the current session identifier session start and expiration date and the possible user payload that is included",
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "hLoginfo",
           "normalized": "a-\u003eb()",
@@ -589,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogout the current user by emptying the session payload.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "hLogout",
           "package": "salvia-sessions",
@@ -599,6 +650,7 @@
         "index": {
           "description": "Logout the current user by emptying the session payload",
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "hLogout",
           "normalized": "a-\u003eb()",
@@ -615,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe signup handler is used to create a new entry in the user database. It reads\na new username and password from the post parameters and adds a new entry into\nthe backend of the user database when no user with such name exists. The user\ngets the specified initial set of actions assigned. When the signup fails the\nfirst handler will be executed when the signup succeeds the second handler will\nbe executed which may access the fresh user object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "hSignup",
           "package": "salvia-sessions",
@@ -625,6 +678,7 @@
         "index": {
           "description": "The signup handler is used to create new entry in the user database It reads new username and password from the post parameters and adds new entry into the backend of the user database when no user with such name exists The user gets the specified initial set of actions assigned When the signup fails the first handler will be executed when the signup succeeds the second handler will be executed which may access the fresh user object",
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "hSignup",
           "normalized": "a-\u003e[Action]-\u003eb c-\u003e(User-\u003eb c)-\u003eb c",
@@ -640,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "login",
           "package": "salvia-sessions",
@@ -649,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "login",
           "normalized": "a b-\u003e(User-\u003ea b)-\u003ea b",
@@ -663,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "loginfo",
           "package": "salvia-sessions",
@@ -672,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "loginfo",
           "normalized": "a()",
@@ -686,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "logout",
           "package": "salvia-sessions",
@@ -695,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "logout",
           "normalized": "a()",
@@ -710,6 +770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser database backend that does nothing and discards all changes made.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "noBackend",
           "package": "salvia-sessions",
@@ -720,6 +781,7 @@
         "index": {
           "description": "User database backend that does nothing and discards all changes made",
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "noBackend",
           "package": "salvia-sessions",
@@ -733,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "password",
           "package": "salvia-sessions",
@@ -742,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "password",
           "normalized": "User-\u003ePassword",
@@ -756,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "read",
           "package": "salvia-sessions",
@@ -765,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "read",
           "package": "salvia-sessions",
@@ -777,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "signup",
           "package": "salvia-sessions",
@@ -786,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "signup",
           "normalized": "[Action]-\u003ea b-\u003e(User-\u003ea b)-\u003ea b",
@@ -800,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "upLoggedIn",
           "package": "salvia-sessions",
@@ -809,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "upLoggedIn",
           "package": "salvia-sessions",
@@ -822,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "upPayload",
           "package": "salvia-sessions",
@@ -831,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "upPayload",
           "package": "salvia-sessions",
@@ -844,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "upUser",
           "package": "salvia-sessions",
@@ -853,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "upUser",
           "package": "salvia-sessions",
@@ -866,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "username",
           "package": "salvia-sessions",
@@ -875,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "username",
           "normalized": "User-\u003eUsername",
@@ -889,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Login",
           "name": "users",
           "package": "salvia-sessions",
@@ -898,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Login",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Login",
           "name": "users",
           "normalized": "UserDatabase-\u003e[User]",
@@ -912,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "Session",
           "package": "salvia-sessions",
@@ -920,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "Session",
           "package": "salvia-sessions",
@@ -934,6 +1014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe session data type with polymorphic payload.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "Session",
           "package": "salvia-sessions",
@@ -943,6 +1024,7 @@
         "index": {
           "description": "The session data type with polymorphic payload",
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "Session",
           "package": "salvia-sessions",
@@ -957,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA session identifier. Should be unique for every session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "SessionID",
           "package": "salvia-sessions",
@@ -966,6 +1049,7 @@
         "index": {
           "description": "session identifier Should be unique for every session",
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "SessionID",
           "package": "salvia-sessions",
@@ -980,6 +1064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSession type classes that hides the inner workings from the outside world.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "SessionM",
           "package": "salvia-sessions",
@@ -989,6 +1074,7 @@
         "index": {
           "description": "Session type classes that hides the inner workings from the outside world",
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "SessionM",
           "package": "salvia-sessions",
@@ -1003,6 +1089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mapping from unique session IDs to shared session variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "SessionMap",
           "package": "salvia-sessions",
@@ -1012,6 +1099,7 @@
         "index": {
           "description": "mapping from unique session IDs to shared session variables",
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "SessionMap",
           "package": "salvia-sessions",
@@ -1025,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "Sessions",
           "package": "salvia-sessions",
@@ -1033,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "Sessions",
           "package": "salvia-sessions",
@@ -1046,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "SID",
           "package": "salvia-sessions",
@@ -1055,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "SID",
           "package": "salvia-sessions",
@@ -1068,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "Session",
           "package": "salvia-sessions",
@@ -1077,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "Session",
           "package": "salvia-sessions",
@@ -1090,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "Sessions",
           "package": "salvia-sessions",
@@ -1099,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "Sessions",
           "package": "salvia-sessions",
@@ -1112,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "_sExpire",
           "package": "salvia-sessions",
@@ -1121,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "_sExpire",
           "package": "salvia-sessions",
@@ -1134,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "_sID",
           "package": "salvia-sessions",
@@ -1143,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "_sID",
           "package": "salvia-sessions",
@@ -1156,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "_sLast",
           "package": "salvia-sessions",
@@ -1165,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "_sLast",
           "package": "salvia-sessions",
@@ -1178,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "_sPayload",
           "package": "salvia-sessions",
@@ -1187,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "_sPayload",
           "package": "salvia-sessions",
@@ -1200,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "_sStart",
           "package": "salvia-sessions",
@@ -1209,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "_sStart",
           "package": "salvia-sessions",
@@ -1222,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "_sid",
           "package": "salvia-sessions",
@@ -1231,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "_sid",
           "package": "salvia-sessions",
@@ -1243,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "delCookieSession",
           "package": "salvia-sessions",
@@ -1252,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "delCookieSession",
           "normalized": "a()",
@@ -1267,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "delSession",
           "package": "salvia-sessions",
@@ -1276,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "delSession",
           "normalized": "a()",
@@ -1292,6 +1404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etodo:\nGiven an existing session identifier lookup a session from the session map.\nWhen no session is available, or the session is expired, create a new one using\nthe \u003ccode\u003e\u003ca\u003enewSessionVar\u003c/a\u003e\u003c/code\u003e function. Otherwise the expiration date of the existing\nsession is updated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "existingSessionVarOrNew",
           "package": "salvia-sessions",
@@ -1302,6 +1415,7 @@
         "index": {
           "description": "todo Given an existing session identifier lookup session from the session map When no session is available or the session is expired create new one using the newSessionVar function Otherwise the expiration date of the existing session is updated",
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "existingSessionVarOrNew",
           "package": "salvia-sessions",
@@ -1316,6 +1430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the (possibly wrong) request cookie, try to recover the existing\n session identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "getCookieSessionID",
           "package": "salvia-sessions",
@@ -1326,6 +1441,7 @@
         "index": {
           "description": "Given the possibly wrong request cookie try to recover the existing session identifier",
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "getCookieSessionID",
           "package": "salvia-sessions",
@@ -1339,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "getSession",
           "package": "salvia-sessions",
@@ -1348,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "getSession",
           "package": "salvia-sessions",
@@ -1361,6 +1479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "getVar",
           "package": "salvia-sessions",
@@ -1370,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "getVar",
           "normalized": "TVar a-\u003eb a",
@@ -1385,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "hDelSession",
           "package": "salvia-sessions",
@@ -1394,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "hDelSession",
           "normalized": "a-\u003eb()",
@@ -1409,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "hGetSession",
           "package": "salvia-sessions",
@@ -1418,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "hGetSession",
           "package": "salvia-sessions",
@@ -1432,6 +1556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etodo doc:\nThe session handler. This handler will try to return an existing session from\nthe sessions map based on a session identifier found in the HTTP \u003ccode\u003e\u003ca\u003ecookie\u003c/a\u003e\u003c/code\u003e. When\nsuch a session can be found the expiration date will be updated to a number of\nseconds in the future. When no session can be found a new one will be created.\nA cookie will be set that informs the client of the current session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "hProlongSession",
           "package": "salvia-sessions",
@@ -1442,6 +1567,7 @@
         "index": {
           "description": "todo doc The session handler This handler will try to return an existing session from the sessions map based on session identifier found in the HTTP cookie When such session can be found the expiration date will be updated to number of seconds in the future When no session can be found new one will be created cookie will be set that informs the client of the current session",
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "hProlongSession",
           "normalized": "a-\u003eInteger-\u003eb()",
@@ -1457,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "hPutSession",
           "package": "salvia-sessions",
@@ -1466,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "hPutSession",
           "normalized": "Session a-\u003eb()",
@@ -1481,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "hSessionInfo",
           "package": "salvia-sessions",
@@ -1490,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "hSessionInfo",
           "normalized": "a()",
@@ -1505,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "hWithSession",
           "package": "salvia-sessions",
@@ -1514,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "hWithSession",
           "normalized": "(Session a-\u003eSession a)-\u003eb()",
@@ -1529,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "lookupSessionVar",
           "package": "salvia-sessions",
@@ -1538,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "lookupSessionVar",
           "normalized": "SessionID-\u003ea(Maybe(TVar(Session b)))",
@@ -1554,6 +1688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new, empty, store of sessions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "mkSessions",
           "package": "salvia-sessions",
@@ -1564,6 +1699,7 @@
         "index": {
           "description": "Create new empty store of sessions",
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "mkSessions",
           "package": "salvia-sessions",
@@ -1577,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "modVar",
           "package": "salvia-sessions",
@@ -1586,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "modVar",
           "normalized": "(a-\u003ea)-\u003eTVar a-\u003eb(TVar a)",
@@ -1601,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "newSessionID",
           "package": "salvia-sessions",
@@ -1610,6 +1749,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "newSessionID",
           "normalized": "[SessionID]-\u003ea SessionID",
@@ -1626,6 +1766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new session with a specified expiration date. The session will be\n stored in the session map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "newSessionVar",
           "package": "salvia-sessions",
@@ -1636,6 +1777,7 @@
         "index": {
           "description": "Create new session with specified expiration date The session will be stored in the session map",
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "newSessionVar",
           "package": "salvia-sessions",
@@ -1649,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "newVar",
           "package": "salvia-sessions",
@@ -1658,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "newVar",
           "normalized": "a-\u003eb(TVar a)",
@@ -1673,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "prolongSession",
           "package": "salvia-sessions",
@@ -1682,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "prolongSession",
           "normalized": "Integer-\u003ea()",
@@ -1697,6 +1843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "putSession",
           "package": "salvia-sessions",
@@ -1706,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "putSession",
           "normalized": "Session a-\u003eb()",
@@ -1721,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "putVar",
           "package": "salvia-sessions",
@@ -1730,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "putVar",
           "normalized": "TVar a-\u003ea-\u003eb()",
@@ -1746,6 +1896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpire after this amount of time when unused.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "sExpire",
           "package": "salvia-sessions",
@@ -1756,6 +1907,7 @@
         "index": {
           "description": "Expire after this amount of time when unused",
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "sExpire",
           "normalized": "Session a-\u003eInteger",
@@ -1772,6 +1924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA globally unique session identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "sID",
           "package": "salvia-sessions",
@@ -1782,6 +1935,7 @@
         "index": {
           "description": "globally unique session identifier",
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "sID",
           "normalized": "Session a-\u003eSessionID",
@@ -1798,6 +1952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLast time session was used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "sLast",
           "package": "salvia-sessions",
@@ -1808,6 +1963,7 @@
         "index": {
           "description": "Last time session was used",
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "sLast",
           "normalized": "Session a-\u003eUTCTime",
@@ -1824,6 +1980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe information this session stores.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "sPayload",
           "package": "salvia-sessions",
@@ -1834,6 +1991,7 @@
         "index": {
           "description": "The information this session stores",
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "sPayload",
           "normalized": "Session a-\u003eMaybe a",
@@ -1850,6 +2008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe time the session started.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "sStart",
           "package": "salvia-sessions",
@@ -1860,6 +2019,7 @@
         "index": {
           "description": "The time the session started",
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "sStart",
           "normalized": "Session a-\u003eUTCTime",
@@ -1876,6 +2036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis handler sets the HTTP cookie for the specified session. It will\nuse a default cookie with an additional \u003ccode\u003e\u003ca\u003esid\u003c/a\u003e\u003c/code\u003e attribute with the\nsession identifier as value. The session expiration date will be used\nas the cookie expire field. The session is valid for all subdomains.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "setCookieSession",
           "package": "salvia-sessions",
@@ -1886,6 +2047,7 @@
         "index": {
           "description": "This handler sets the HTTP cookie for the specified session It will use default cookie with an additional sid attribute with the session identifier as value The session expiration date will be used as the cookie expire field The session is valid for all subdomains",
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "setCookieSession",
           "normalized": "SessionID-\u003eUTCTime-\u003ea()",
@@ -1901,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "sid",
           "package": "salvia-sessions",
@@ -1910,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "sid",
           "normalized": "SessionID-\u003eInteger",
@@ -1924,6 +2088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "unSessions",
           "package": "salvia-sessions",
@@ -1933,6 +2098,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "unSessions",
           "package": "salvia-sessions",
@@ -1946,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "whenNotExpired",
           "package": "salvia-sessions",
@@ -1955,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "whenNotExpired",
           "normalized": "TVar(Session a)-\u003eb(Maybe(TVar(Session a)))",
@@ -1970,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "willExpireAt",
           "package": "salvia-sessions",
@@ -1979,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "willExpireAt",
           "normalized": "Session a-\u003eUTCTime",
@@ -1994,6 +2164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "withSession",
           "package": "salvia-sessions",
@@ -2003,6 +2174,7 @@
         },
         "index": {
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "withSession",
           "normalized": "(Session a-\u003eSession a)-\u003eb()",
@@ -2019,6 +2191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to the sessions in the \u003ccode\u003e\u003ca\u003eSessions\u003c/a\u003e\u003c/code\u003e newtype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:56 UTC 2014",
           "module": "Network.Salvia.Handler.Session",
           "name": "withSessions",
           "package": "salvia-sessions",
@@ -2029,6 +2202,7 @@
         "index": {
           "description": "Apply function to the sessions in the Sessions newtype",
           "hierarchy": "Network Salvia Handler Session",
+          "indexed": "2014-03-11T19:56:56",
           "module": "Network.Salvia.Handler.Session",
           "name": "withSessions",
           "normalized": "(SessionMap a-\u003eSessionMap a)-\u003eSessions a-\u003eSessions a",

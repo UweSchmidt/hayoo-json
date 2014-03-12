@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pandoc-types"
+        "phrase": "pandoc-types",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience functions for building pandoc documents programmatically.\n\u003c/p\u003e\u003cp\u003eExample of use (with \u003ccode\u003eOverloadedStrings\u003c/code\u003e pragma):\n\u003c/p\u003e\u003cpre\u003e import Text.Pandoc.Builder\n\n myDoc :: Pandoc\n myDoc = setTitle \"My title\" $ doc $\n   para \"This is the first paragraph\" \u003c\u003e\n   para (\"And \" \u003c\u003e emph \"another\" \u003c\u003e \".\") \u003c\u003e\n   bulletList [ para \"item one\" \u003c\u003e para \"continuation\"\n              , plain (\"item two and a \" \u003c\u003e\n                  link \"/url\" \"go to url\" \"link\")\n              ]\n\u003c/pre\u003e\u003cp\u003eIsn't that nicer than writing the following?\n\u003c/p\u003e\u003cpre\u003e import Text.Pandoc.Definition\n import Data.Map (fromList)\n\n myDoc :: Pandoc\n myDoc = Pandoc (Meta {unMeta = fromList [(\"title\",\n           MetaInlines [Str \"My\",Space,Str \"title\"])]})\n         [Para [Str \"This\",Space,Str \"is\",Space,Str \"the\",Space,Str \"first\",\n          Space,Str \"paragraph\"],Para [Str \"And\",Space,Emph [Str \"another\"],\n          Str \".\"]\n         ,BulletList [\n           [Para [Str \"item\",Space,Str \"one\"]\n           ,Para [Str \"continuation\"]]\n          ,[Plain [Str \"item\",Space,Str \"two\",Space,Str \"and\",Space,\n                   Str \"a\",Space,Link [Str \"link\"] (\"/url\",\"go to url\")]]]]\n\u003c/pre\u003e\u003cp\u003eAnd of course, you can use Haskell to define your own builders:\n\u003c/p\u003e\u003cpre\u003e import Text.Pandoc.Builder\n import Text.JSON\n import Control.Arrow ((***))\n import Data.Monoid (mempty)\n\n -- | Converts a JSON document into 'Blocks'.\n json :: String -\u003e Blocks\n json x =\n   case decode x of\n        Ok y    -\u003e jsValueToBlocks y\n        Error y -\u003e error y\n    where jsValueToBlocks x =\n           case x of\n            JSNull         -\u003e mempty\n            JSBool x       -\u003e plain $ text $ show x\n            JSRational _ x -\u003e plain $ text $ show x\n            JSString x     -\u003e plain $ text $ fromJSString x\n            JSArray xs     -\u003e bulletList $ map jsValueToBlocks xs\n            JSObject x     -\u003e definitionList $\n                               map (text *** (:[]) . jsValueToBlocks) $\n                               fromJSObject x\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "Builder",
           "package": "pandoc-types",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Convenience functions for building pandoc documents programmatically Example of use with OverloadedStrings pragma import Text.Pandoc.Builder myDoc Pandoc myDoc setTitle My title doc para This is the first paragraph para And emph another bulletList para item one para continuation plain item two and link url go to url link Isn that nicer than writing the following import Text.Pandoc.Definition import Data.Map fromList myDoc Pandoc myDoc Pandoc Meta unMeta fromList title MetaInlines Str My Space Str title Para Str This Space Str is Space Str the Space Str first Space Str paragraph Para Str And Space Emph Str another Str BulletList Para Str item Space Str one Para Str continuation Plain Str item Space Str two Space Str and Space Str Space Link Str link url go to url And of course you can use Haskell to define your own builders import Text.Pandoc.Builder import Text.JSON import Control.Arrow import Data.Monoid mempty Converts JSON document into Blocks json String Blocks json case decode of Ok jsValueToBlocks Error error where jsValueToBlocks case of JSNull mempty JSBool plain text show JSRational plain text show JSString plain text fromJSString JSArray xs bulletList map jsValueToBlocks xs JSObject definitionList map text jsValueToBlocks fromJSObject",
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "Builder",
           "package": "pandoc-types",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "Blocks",
           "package": "pandoc-types",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "Blocks",
           "package": "pandoc-types",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "HasMeta",
           "package": "pandoc-types",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "HasMeta",
           "package": "pandoc-types",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "Inlines",
           "package": "pandoc-types",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "Inlines",
           "package": "pandoc-types",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "Many",
           "package": "pandoc-types",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "Many",
           "package": "pandoc-types",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "ToMetaValue",
           "package": "pandoc-types",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "ToMetaValue",
           "package": "pandoc-types",
@@ -147,6 +159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix synonym for \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "(\u003c\u003e)",
           "package": "pandoc-types",
@@ -156,6 +169,7 @@
         "index": {
           "description": "An infix synonym for mappend",
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "Many",
           "package": "pandoc-types",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "Many",
           "package": "pandoc-types",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "blockQuote",
           "package": "pandoc-types",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "blockQuote",
           "normalized": "Blocks-\u003eBlocks",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "bulletList",
           "package": "pandoc-types",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "bulletList",
           "normalized": "[Blocks]-\u003eBlocks",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "cite",
           "package": "pandoc-types",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "cite",
           "normalized": "[Citation]-\u003eInlines-\u003eInlines",
@@ -264,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlain inline code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "code",
           "package": "pandoc-types",
@@ -274,6 +297,7 @@
         "index": {
           "description": "Plain inline code",
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "code",
           "normalized": "String-\u003eInlines",
@@ -289,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA plain code block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "codeBlock",
           "package": "pandoc-types",
@@ -299,6 +324,7 @@
         "index": {
           "description": "plain code block",
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "codeBlock",
           "normalized": "String-\u003eBlocks",
@@ -315,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA code block with attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "codeBlockWith",
           "package": "pandoc-types",
@@ -325,6 +352,7 @@
         "index": {
           "description": "code block with attributes",
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "codeBlockWith",
           "normalized": "Attr-\u003eString-\u003eBlocks",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInline code with attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "codeWith",
           "package": "pandoc-types",
@@ -351,6 +380,7 @@
         "index": {
           "description": "Inline code with attributes",
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "codeWith",
           "normalized": "Attr-\u003eString-\u003eInlines",
@@ -366,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "definitionList",
           "package": "pandoc-types",
@@ -375,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "definitionList",
           "normalized": "[(Inlines,[Blocks])]-\u003eBlocks",
@@ -390,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "deleteMeta",
           "package": "pandoc-types",
@@ -399,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "deleteMeta",
           "normalized": "String-\u003ea-\u003ea",
@@ -415,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay math\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "displayMath",
           "package": "pandoc-types",
@@ -425,6 +460,7 @@
         "index": {
           "description": "Display math",
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "displayMath",
           "normalized": "String-\u003eInlines",
@@ -440,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "divWith",
           "package": "pandoc-types",
@@ -449,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "divWith",
           "normalized": "Attr-\u003eBlocks-\u003eBlocks",
@@ -464,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "doc",
           "package": "pandoc-types",
@@ -473,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "doc",
           "normalized": "Blocks-\u003ePandoc",
@@ -487,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "doubleQuoted",
           "package": "pandoc-types",
@@ -496,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "doubleQuoted",
           "normalized": "Inlines-\u003eInlines",
@@ -511,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "emph",
           "package": "pandoc-types",
@@ -520,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "emph",
           "normalized": "Inlines-\u003eInlines",
@@ -534,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "fromList",
           "package": "pandoc-types",
@@ -543,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "fromList",
           "normalized": "[a]-\u003eMany a",
@@ -558,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "header",
           "package": "pandoc-types",
@@ -566,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "header",
           "normalized": "Int-\u003eInlines-\u003eBlocks",
@@ -580,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "headerWith",
           "package": "pandoc-types",
@@ -589,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "headerWith",
           "normalized": "Attr-\u003eInt-\u003eInlines-\u003eBlocks",
@@ -604,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "horizontalRule",
           "package": "pandoc-types",
@@ -613,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "horizontalRule",
           "package": "pandoc-types",
@@ -626,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "image",
           "package": "pandoc-types",
@@ -634,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "image",
           "normalized": "String-\u003eString-\u003eInlines-\u003eInlines",
@@ -648,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "isNull",
           "package": "pandoc-types",
@@ -657,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "isNull",
           "normalized": "Many a-\u003eBool",
@@ -672,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "linebreak",
           "package": "pandoc-types",
@@ -681,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "linebreak",
           "package": "pandoc-types",
@@ -693,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "link",
           "package": "pandoc-types",
@@ -701,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "link",
           "normalized": "String-\u003eString-\u003eInlines-\u003eInlines",
@@ -716,6 +776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInline math\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "math",
           "package": "pandoc-types",
@@ -726,6 +787,7 @@
         "index": {
           "description": "Inline math",
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "math",
           "normalized": "String-\u003eInlines",
@@ -740,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "note",
           "package": "pandoc-types",
@@ -749,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "note",
           "normalized": "Blocks-\u003eInlines",
@@ -764,6 +828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdered list with default attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "orderedList",
           "package": "pandoc-types",
@@ -774,6 +839,7 @@
         "index": {
           "description": "Ordered list with default attributes",
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "orderedList",
           "normalized": "[Blocks]-\u003eBlocks",
@@ -790,6 +856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdered list with attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "orderedListWith",
           "package": "pandoc-types",
@@ -800,6 +867,7 @@
         "index": {
           "description": "Ordered list with attributes",
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "orderedListWith",
           "normalized": "ListAttributes-\u003e[Blocks]-\u003eBlocks",
@@ -815,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "para",
           "package": "pandoc-types",
@@ -824,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "para",
           "normalized": "Inlines-\u003eBlocks",
@@ -838,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "plain",
           "package": "pandoc-types",
@@ -847,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "plain",
           "normalized": "Inlines-\u003eBlocks",
@@ -861,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "rawBlock",
           "package": "pandoc-types",
@@ -870,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "rawBlock",
           "normalized": "String-\u003eString-\u003eBlocks",
@@ -885,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "rawInline",
           "package": "pandoc-types",
@@ -894,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "rawInline",
           "normalized": "String-\u003eString-\u003eInlines",
@@ -909,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "setAuthors",
           "package": "pandoc-types",
@@ -918,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "setAuthors",
           "normalized": "[Inlines]-\u003ePandoc-\u003ePandoc",
@@ -933,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "setDate",
           "package": "pandoc-types",
@@ -942,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "setDate",
           "normalized": "Inlines-\u003ePandoc-\u003ePandoc",
@@ -957,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "setMeta",
           "package": "pandoc-types",
@@ -966,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "setMeta",
           "normalized": "String-\u003ea-\u003eb-\u003eb",
@@ -981,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "setTitle",
           "package": "pandoc-types",
@@ -990,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "setTitle",
           "normalized": "Inlines-\u003ePandoc-\u003ePandoc",
@@ -1006,6 +1090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple table without a caption.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "simpleTable",
           "package": "pandoc-types",
@@ -1015,6 +1100,7 @@
         "index": {
           "description": "simple table without caption",
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "simpleTable",
           "normalized": "[Blocks]-\u003e[[Blocks]]-\u003eBlocks",
@@ -1030,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "singleQuoted",
           "package": "pandoc-types",
@@ -1039,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "singleQuoted",
           "normalized": "Inlines-\u003eInlines",
@@ -1054,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "singleton",
           "package": "pandoc-types",
@@ -1063,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "singleton",
           "normalized": "a-\u003eMany a",
@@ -1077,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "smallcaps",
           "package": "pandoc-types",
@@ -1086,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "smallcaps",
           "normalized": "Inlines-\u003eInlines",
@@ -1100,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "space",
           "package": "pandoc-types",
@@ -1109,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "space",
           "package": "pandoc-types",
@@ -1121,6 +1215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "spanWith",
           "package": "pandoc-types",
@@ -1130,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "spanWith",
           "normalized": "Attr-\u003eInlines-\u003eInlines",
@@ -1145,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "str",
           "package": "pandoc-types",
@@ -1154,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "str",
           "normalized": "String-\u003eInlines",
@@ -1168,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "strikeout",
           "package": "pandoc-types",
@@ -1177,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "strikeout",
           "normalized": "Inlines-\u003eInlines",
@@ -1191,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "strong",
           "package": "pandoc-types",
@@ -1200,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "strong",
           "normalized": "Inlines-\u003eInlines",
@@ -1214,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "subscript",
           "package": "pandoc-types",
@@ -1223,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "subscript",
           "normalized": "Inlines-\u003eInlines",
@@ -1237,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "superscript",
           "package": "pandoc-types",
@@ -1246,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "superscript",
           "normalized": "Inlines-\u003eInlines",
@@ -1260,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "table",
           "package": "pandoc-types",
@@ -1268,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "table",
           "normalized": "Inlines-\u003e[(Alignment,Double)]-\u003e[Blocks]-\u003e[[Blocks]]-\u003eBlocks",
@@ -1283,6 +1391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eInlines\u003c/a\u003e\u003c/code\u003e, treating interword spaces as \u003ccode\u003e\u003ca\u003eSpace\u003c/a\u003e\u003c/code\u003es.\n If you want a \u003ccode\u003e\u003ca\u003eStr\u003c/a\u003e\u003c/code\u003e with literal spaces, use \u003ccode\u003e\u003ca\u003estr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "text",
           "package": "pandoc-types",
@@ -1293,6 +1402,7 @@
         "index": {
           "description": "Convert String to Inlines treating interword spaces as Space If you want Str with literal spaces use str",
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "text",
           "normalized": "String-\u003eInlines",
@@ -1307,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "toList",
           "package": "pandoc-types",
@@ -1316,6 +1427,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "toList",
           "normalized": "Many a-\u003e[a]",
@@ -1331,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "toMetaValue",
           "package": "pandoc-types",
@@ -1340,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "toMetaValue",
           "normalized": "a-\u003eMetaValue",
@@ -1356,6 +1470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrim leading and trailing Sp (spaces) from an Inlines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "trimInlines",
           "package": "pandoc-types",
@@ -1366,6 +1481,7 @@
         "index": {
           "description": "Trim leading and trailing Sp spaces from an Inlines",
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "trimInlines",
           "normalized": "Inlines-\u003eInlines",
@@ -1381,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Builder",
           "name": "unMany",
           "package": "pandoc-types",
@@ -1390,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Builder",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Builder",
           "name": "unMany",
           "package": "pandoc-types",
@@ -1404,6 +1522,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefinition of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e data structure for format-neutral representation\nof documents.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Definition",
           "package": "pandoc-types",
@@ -1413,6 +1532,7 @@
         "index": {
           "description": "Definition of Pandoc data structure for format-neutral representation of documents",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Definition",
           "package": "pandoc-types",
@@ -1427,6 +1547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlignment of a table column.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Alignment",
           "package": "pandoc-types",
@@ -1436,6 +1557,7 @@
         "index": {
           "description": "Alignment of table column",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Alignment",
           "package": "pandoc-types",
@@ -1450,6 +1572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttributes: identifier, classes, key-value pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Attr",
           "package": "pandoc-types",
@@ -1459,6 +1582,7 @@
         "index": {
           "description": "Attributes identifier classes key-value pairs",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Attr",
           "package": "pandoc-types",
@@ -1473,6 +1597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlock element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Block",
           "package": "pandoc-types",
@@ -1482,6 +1607,7 @@
         "index": {
           "description": "Block element",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Block",
           "package": "pandoc-types",
@@ -1495,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Citation",
           "package": "pandoc-types",
@@ -1503,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Citation",
           "package": "pandoc-types",
@@ -1516,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "CitationMode",
           "package": "pandoc-types",
@@ -1524,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "CitationMode",
           "package": "pandoc-types",
@@ -1538,6 +1668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormats for raw blocks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Format",
           "package": "pandoc-types",
@@ -1547,6 +1678,7 @@
         "index": {
           "description": "Formats for raw blocks",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Format",
           "package": "pandoc-types",
@@ -1561,6 +1693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInline elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Inline",
           "package": "pandoc-types",
@@ -1570,6 +1703,7 @@
         "index": {
           "description": "Inline elements",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Inline",
           "package": "pandoc-types",
@@ -1584,6 +1718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "ListAttributes",
           "package": "pandoc-types",
@@ -1593,6 +1728,7 @@
         "index": {
           "description": "List attributes",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "ListAttributes",
           "package": "pandoc-types",
@@ -1607,6 +1743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelimiter of list numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "ListNumberDelim",
           "package": "pandoc-types",
@@ -1616,6 +1753,7 @@
         "index": {
           "description": "Delimiter of list numbers",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "ListNumberDelim",
           "package": "pandoc-types",
@@ -1630,6 +1768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle of list numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "ListNumberStyle",
           "package": "pandoc-types",
@@ -1639,6 +1778,7 @@
         "index": {
           "description": "Style of list numbers",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "ListNumberStyle",
           "package": "pandoc-types",
@@ -1653,6 +1793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of math element (display or inline).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "MathType",
           "package": "pandoc-types",
@@ -1662,6 +1803,7 @@
         "index": {
           "description": "Type of math element display or inline",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "MathType",
           "package": "pandoc-types",
@@ -1676,6 +1818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetadata for the document:  title, authors, date.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Meta",
           "package": "pandoc-types",
@@ -1685,6 +1828,7 @@
         "index": {
           "description": "Metadata for the document title authors date",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Meta",
           "package": "pandoc-types",
@@ -1698,6 +1842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "MetaValue",
           "package": "pandoc-types",
@@ -1706,6 +1851,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "MetaValue",
           "package": "pandoc-types",
@@ -1719,6 +1865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Pandoc",
           "package": "pandoc-types",
@@ -1727,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Pandoc",
           "package": "pandoc-types",
@@ -1741,6 +1889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of quotation marks to use in Quoted inline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "QuoteType",
           "package": "pandoc-types",
@@ -1750,6 +1899,7 @@
         "index": {
           "description": "Type of quotation marks to use in Quoted inline",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "QuoteType",
           "package": "pandoc-types",
@@ -1764,6 +1914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable cells are list of Blocks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "TableCell",
           "package": "pandoc-types",
@@ -1773,6 +1924,7 @@
         "index": {
           "description": "Table cells are list of Blocks",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "TableCell",
           "package": "pandoc-types",
@@ -1787,6 +1939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink target (URL, title).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Target",
           "package": "pandoc-types",
@@ -1796,6 +1949,7 @@
         "index": {
           "description": "Link target URL title",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Target",
           "package": "pandoc-types",
@@ -1809,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "AlignCenter",
           "package": "pandoc-types",
@@ -1818,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "AlignCenter",
           "package": "pandoc-types",
@@ -1831,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "AlignDefault",
           "package": "pandoc-types",
@@ -1840,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "AlignDefault",
           "package": "pandoc-types",
@@ -1853,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "AlignLeft",
           "package": "pandoc-types",
@@ -1862,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "AlignLeft",
           "package": "pandoc-types",
@@ -1875,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "AlignRight",
           "package": "pandoc-types",
@@ -1884,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "AlignRight",
           "package": "pandoc-types",
@@ -1897,6 +2059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "AuthorInText",
           "package": "pandoc-types",
@@ -1906,6 +2069,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "AuthorInText",
           "package": "pandoc-types",
@@ -1920,6 +2084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlock quote (list of blocks)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "BlockQuote",
           "package": "pandoc-types",
@@ -1930,6 +2095,7 @@
         "index": {
           "description": "Block quote list of blocks",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "BlockQuote",
           "normalized": "BlockQuote[Block]",
@@ -1946,6 +2112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBullet list (list of items, each\n a list of blocks)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "BulletList",
           "package": "pandoc-types",
@@ -1956,6 +2123,7 @@
         "index": {
           "description": "Bullet list list of items each list of blocks",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "BulletList",
           "normalized": "BulletList[[Block]]",
@@ -1971,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Citation",
           "package": "pandoc-types",
@@ -1980,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Citation",
           "package": "pandoc-types",
@@ -1994,6 +2164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCitation (list of inlines)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Cite",
           "package": "pandoc-types",
@@ -2004,6 +2175,7 @@
         "index": {
           "description": "Citation list of inlines",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Cite",
           "normalized": "Cite[Citation][Inline]",
@@ -2020,6 +2192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInline code (literal)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Code",
           "package": "pandoc-types",
@@ -2030,6 +2203,7 @@
         "index": {
           "description": "Inline code literal",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Code",
           "package": "pandoc-types",
@@ -2044,6 +2218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCode block (literal) with attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "CodeBlock",
           "package": "pandoc-types",
@@ -2054,6 +2229,7 @@
         "index": {
           "description": "Code block literal with attributes",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "CodeBlock",
           "package": "pandoc-types",
@@ -2067,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Decimal",
           "package": "pandoc-types",
@@ -2076,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Decimal",
           "package": "pandoc-types",
@@ -2089,6 +2267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "DefaultDelim",
           "package": "pandoc-types",
@@ -2098,6 +2277,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "DefaultDelim",
           "package": "pandoc-types",
@@ -2111,6 +2291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "DefaultStyle",
           "package": "pandoc-types",
@@ -2120,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "DefaultStyle",
           "package": "pandoc-types",
@@ -2134,6 +2316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition list\n Each list item is a pair consisting of a\n term (a list of inlines) and one or more\n definitions (each a list of blocks)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "DefinitionList",
           "package": "pandoc-types",
@@ -2144,6 +2327,7 @@
         "index": {
           "description": "Definition list Each list item is pair consisting of term list of inlines and one or more definitions each list of blocks",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "DefinitionList",
           "normalized": "DefinitionList[([Inline],[[Block]])]",
@@ -2159,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "DisplayMath",
           "package": "pandoc-types",
@@ -2168,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "DisplayMath",
           "package": "pandoc-types",
@@ -2182,6 +2368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric block container with attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Div",
           "package": "pandoc-types",
@@ -2192,6 +2379,7 @@
         "index": {
           "description": "Generic block container with attributes",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Div",
           "normalized": "Div Attr[Block]",
@@ -2207,6 +2395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "DoubleQuote",
           "package": "pandoc-types",
@@ -2216,6 +2405,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "DoubleQuote",
           "package": "pandoc-types",
@@ -2230,6 +2420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmphasized text (list of inlines)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Emph",
           "package": "pandoc-types",
@@ -2240,6 +2431,7 @@
         "index": {
           "description": "Emphasized text list of inlines",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Emph",
           "normalized": "Emph[Inline]",
@@ -2255,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Example",
           "package": "pandoc-types",
@@ -2264,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Example",
           "package": "pandoc-types",
@@ -2277,6 +2471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Format",
           "package": "pandoc-types",
@@ -2286,6 +2481,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Format",
           "package": "pandoc-types",
@@ -2300,6 +2496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeader - level (integer) and text (inlines)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Header",
           "package": "pandoc-types",
@@ -2310,6 +2507,7 @@
         "index": {
           "description": "Header level integer and text inlines",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Header",
           "normalized": "Header Int Attr[Inline]",
@@ -2326,6 +2524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontal rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "HorizontalRule",
           "package": "pandoc-types",
@@ -2336,6 +2535,7 @@
         "index": {
           "description": "Horizontal rule",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "HorizontalRule",
           "package": "pandoc-types",
@@ -2350,6 +2550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage:  alt text (list of inlines), target\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Image",
           "package": "pandoc-types",
@@ -2360,6 +2561,7 @@
         "index": {
           "description": "Image alt text list of inlines target",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Image",
           "normalized": "Image[Inline]Target",
@@ -2375,6 +2577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "InlineMath",
           "package": "pandoc-types",
@@ -2384,6 +2587,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "InlineMath",
           "package": "pandoc-types",
@@ -2398,6 +2602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHard line break\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "LineBreak",
           "package": "pandoc-types",
@@ -2408,6 +2613,7 @@
         "index": {
           "description": "Hard line break",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "LineBreak",
           "package": "pandoc-types",
@@ -2422,6 +2628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyperlink: text (list of inlines), target\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Link",
           "package": "pandoc-types",
@@ -2432,6 +2639,7 @@
         "index": {
           "description": "Hyperlink text list of inlines target",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Link",
           "normalized": "Link[Inline]Target",
@@ -2447,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "LowerAlpha",
           "package": "pandoc-types",
@@ -2456,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "LowerAlpha",
           "package": "pandoc-types",
@@ -2469,6 +2679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "LowerRoman",
           "package": "pandoc-types",
@@ -2478,6 +2689,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "LowerRoman",
           "package": "pandoc-types",
@@ -2492,6 +2704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTeX math (literal)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Math",
           "package": "pandoc-types",
@@ -2502,6 +2715,7 @@
         "index": {
           "description": "TeX math literal",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Math",
           "package": "pandoc-types",
@@ -2515,6 +2729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Meta",
           "package": "pandoc-types",
@@ -2524,6 +2739,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Meta",
           "package": "pandoc-types",
@@ -2537,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "MetaBlocks",
           "package": "pandoc-types",
@@ -2546,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "MetaBlocks",
           "normalized": "MetaBlocks[Block]",
@@ -2561,6 +2779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "MetaBool",
           "package": "pandoc-types",
@@ -2570,6 +2789,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "MetaBool",
           "package": "pandoc-types",
@@ -2583,6 +2803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "MetaInlines",
           "package": "pandoc-types",
@@ -2592,6 +2813,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "MetaInlines",
           "normalized": "MetaInlines[Inline]",
@@ -2607,6 +2829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "MetaList",
           "package": "pandoc-types",
@@ -2616,6 +2839,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "MetaList",
           "normalized": "MetaList[MetaValue]",
@@ -2631,6 +2855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "MetaMap",
           "package": "pandoc-types",
@@ -2640,6 +2865,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "MetaMap",
           "package": "pandoc-types",
@@ -2653,6 +2879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "MetaString",
           "package": "pandoc-types",
@@ -2662,6 +2889,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "MetaString",
           "package": "pandoc-types",
@@ -2675,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "NormalCitation",
           "package": "pandoc-types",
@@ -2684,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "NormalCitation",
           "package": "pandoc-types",
@@ -2698,6 +2928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFootnote or endnote\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Note",
           "package": "pandoc-types",
@@ -2708,6 +2939,7 @@
         "index": {
           "description": "Footnote or endnote",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Note",
           "normalized": "Note[Block]",
@@ -2724,6 +2956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Null",
           "package": "pandoc-types",
@@ -2734,6 +2967,7 @@
         "index": {
           "description": "Nothing",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Null",
           "package": "pandoc-types",
@@ -2747,6 +2981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "OneParen",
           "package": "pandoc-types",
@@ -2756,6 +2991,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "OneParen",
           "package": "pandoc-types",
@@ -2770,6 +3006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdered list (attributes\n and a list of items, each a list of blocks)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "OrderedList",
           "package": "pandoc-types",
@@ -2780,6 +3017,7 @@
         "index": {
           "description": "Ordered list attributes and list of items each list of blocks",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "OrderedList",
           "normalized": "OrderedList ListAttributes[[Block]]",
@@ -2795,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Pandoc",
           "package": "pandoc-types",
@@ -2804,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Pandoc",
           "normalized": "Pandoc Meta[Block]",
@@ -2820,6 +3060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParagraph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Para",
           "package": "pandoc-types",
@@ -2830,6 +3071,7 @@
         "index": {
           "description": "Paragraph",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Para",
           "normalized": "Para[Inline]",
@@ -2845,6 +3087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Period",
           "package": "pandoc-types",
@@ -2854,6 +3097,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Period",
           "package": "pandoc-types",
@@ -2868,6 +3112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlain text, not a paragraph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Plain",
           "package": "pandoc-types",
@@ -2878,6 +3123,7 @@
         "index": {
           "description": "Plain text not paragraph",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Plain",
           "normalized": "Plain[Inline]",
@@ -2894,6 +3140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuoted text (list of inlines)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Quoted",
           "package": "pandoc-types",
@@ -2904,6 +3151,7 @@
         "index": {
           "description": "Quoted text list of inlines",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Quoted",
           "normalized": "Quoted QuoteType[Inline]",
@@ -2920,6 +3168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw block\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "RawBlock",
           "package": "pandoc-types",
@@ -2930,6 +3179,7 @@
         "index": {
           "description": "Raw block",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "RawBlock",
           "package": "pandoc-types",
@@ -2944,6 +3194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw inline\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "RawInline",
           "package": "pandoc-types",
@@ -2954,6 +3205,7 @@
         "index": {
           "description": "Raw inline",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "RawInline",
           "package": "pandoc-types",
@@ -2967,6 +3219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "SingleQuote",
           "package": "pandoc-types",
@@ -2976,6 +3229,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "SingleQuote",
           "package": "pandoc-types",
@@ -2990,6 +3244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmall caps text (list of inlines)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "SmallCaps",
           "package": "pandoc-types",
@@ -3000,6 +3255,7 @@
         "index": {
           "description": "Small caps text list of inlines",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "SmallCaps",
           "normalized": "SmallCaps[Inline]",
@@ -3016,6 +3272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInter-word space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Space",
           "package": "pandoc-types",
@@ -3026,6 +3283,7 @@
         "index": {
           "description": "Inter-word space",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Space",
           "package": "pandoc-types",
@@ -3040,6 +3298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric inline container with attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Span",
           "package": "pandoc-types",
@@ -3050,6 +3309,7 @@
         "index": {
           "description": "Generic inline container with attributes",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Span",
           "normalized": "Span Attr[Inline]",
@@ -3066,6 +3326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText (string)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Str",
           "package": "pandoc-types",
@@ -3076,6 +3337,7 @@
         "index": {
           "description": "Text string",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Str",
           "package": "pandoc-types",
@@ -3090,6 +3352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrikeout text (list of inlines)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Strikeout",
           "package": "pandoc-types",
@@ -3100,6 +3363,7 @@
         "index": {
           "description": "Strikeout text list of inlines",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Strikeout",
           "normalized": "Strikeout[Inline]",
@@ -3116,6 +3380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrongly emphasized text (list of inlines)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Strong",
           "package": "pandoc-types",
@@ -3126,6 +3391,7 @@
         "index": {
           "description": "Strongly emphasized text list of inlines",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Strong",
           "normalized": "Strong[Inline]",
@@ -3142,6 +3408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubscripted text (list of inlines)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Subscript",
           "package": "pandoc-types",
@@ -3152,6 +3419,7 @@
         "index": {
           "description": "Subscripted text list of inlines",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Subscript",
           "normalized": "Subscript[Inline]",
@@ -3168,6 +3436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuperscripted text (list of inlines)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Superscript",
           "package": "pandoc-types",
@@ -3178,6 +3447,7 @@
         "index": {
           "description": "Superscripted text list of inlines",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Superscript",
           "normalized": "Superscript[Inline]",
@@ -3193,6 +3463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "SuppressAuthor",
           "package": "pandoc-types",
@@ -3202,6 +3473,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "SuppressAuthor",
           "package": "pandoc-types",
@@ -3216,6 +3488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable,\n with caption, column alignments (required),\n relative column widths (0 = default),\n column headers (each a list of blocks), and\n rows (each a list of lists of blocks)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "Table",
           "package": "pandoc-types",
@@ -3226,6 +3499,7 @@
         "index": {
           "description": "Table with caption column alignments required relative column widths default column headers each list of blocks and rows each list of lists of blocks",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "Table",
           "normalized": "Table[Inline][Alignment][Double][TableCell][[TableCell]]",
@@ -3241,6 +3515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "TwoParens",
           "package": "pandoc-types",
@@ -3250,6 +3525,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "TwoParens",
           "package": "pandoc-types",
@@ -3263,6 +3539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "UpperAlpha",
           "package": "pandoc-types",
@@ -3272,6 +3549,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "UpperAlpha",
           "package": "pandoc-types",
@@ -3285,6 +3563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "UpperRoman",
           "package": "pandoc-types",
@@ -3294,6 +3573,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "UpperRoman",
           "package": "pandoc-types",
@@ -3307,6 +3587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "citationHash",
           "package": "pandoc-types",
@@ -3316,6 +3597,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "citationHash",
           "package": "pandoc-types",
@@ -3329,6 +3611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "citationId",
           "package": "pandoc-types",
@@ -3338,6 +3621,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "citationId",
           "package": "pandoc-types",
@@ -3351,6 +3635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "citationMode",
           "package": "pandoc-types",
@@ -3360,6 +3645,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "citationMode",
           "package": "pandoc-types",
@@ -3373,6 +3659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "citationNoteNum",
           "package": "pandoc-types",
@@ -3382,6 +3669,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "citationNoteNum",
           "package": "pandoc-types",
@@ -3395,6 +3683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "citationPrefix",
           "package": "pandoc-types",
@@ -3404,6 +3693,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "citationPrefix",
           "normalized": "[Inline]",
@@ -3419,6 +3709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "citationSuffix",
           "package": "pandoc-types",
@@ -3428,6 +3719,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "citationSuffix",
           "normalized": "[Inline]",
@@ -3444,6 +3736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract document authors from metadata; works just like the old\n \u003ccode\u003edocAuthors\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "docAuthors",
           "package": "pandoc-types",
@@ -3454,6 +3747,7 @@
         "index": {
           "description": "Extract document authors from metadata works just like the old docAuthors",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "docAuthors",
           "normalized": "Meta-\u003e[[Inline]]",
@@ -3470,6 +3764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract date from metadata; works just like the old \u003ccode\u003edocDate\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "docDate",
           "package": "pandoc-types",
@@ -3480,6 +3775,7 @@
         "index": {
           "description": "Extract date from metadata works just like the old docDate",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "docDate",
           "normalized": "Meta-\u003e[Inline]",
@@ -3496,6 +3792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract document title from metadata; works just like the old \u003ccode\u003edocTitle\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "docTitle",
           "package": "pandoc-types",
@@ -3506,6 +3803,7 @@
         "index": {
           "description": "Extract document title from metadata works just like the old docTitle",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "docTitle",
           "normalized": "Meta-\u003e[Inline]",
@@ -3521,6 +3819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "isNullMeta",
           "package": "pandoc-types",
@@ -3530,6 +3829,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "isNullMeta",
           "normalized": "Meta-\u003eBool",
@@ -3546,6 +3846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the metadata value for a given \u003ccode\u003ekey\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "lookupMeta",
           "package": "pandoc-types",
@@ -3556,6 +3857,7 @@
         "index": {
           "description": "Retrieve the metadata value for given key",
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "lookupMeta",
           "normalized": "String-\u003eMeta-\u003eMaybe MetaValue",
@@ -3571,6 +3873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "nullAttr",
           "package": "pandoc-types",
@@ -3580,6 +3883,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "nullAttr",
           "package": "pandoc-types",
@@ -3593,6 +3897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "nullMeta",
           "package": "pandoc-types",
@@ -3602,6 +3907,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "nullMeta",
           "package": "pandoc-types",
@@ -3615,6 +3921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Definition",
           "name": "unMeta",
           "package": "pandoc-types",
@@ -3624,6 +3931,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Definition",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Definition",
           "name": "unMeta",
           "package": "pandoc-types",
@@ -3638,6 +3946,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric functions for manipulating \u003ccode\u003ePandoc\u003c/code\u003e documents.\n(Note:  the functions defined in \u003ccode\u003eText.Pandoc.Walk\u003c/code\u003e should be used instead,\nwhen possible, as they are much faster.)\n\u003c/p\u003e\u003cp\u003eHere's a simple example, defining a function that replaces all the level 3+\nheaders in a document with regular paragraphs in ALL CAPS:\n\u003c/p\u003e\u003cpre\u003e import Text.Pandoc.Definition\n import Text.Pandoc.Generic\n import Data.Char (toUpper)\n\n modHeader :: Block -\u003e Block\n modHeader (Header n _ xs) | n \u003e= 3 = Para $ bottomUp allCaps xs\n modHeader x = x\n\n allCaps :: Inline -\u003e Inline\n allCaps (Str xs) = Str $ map toUpper xs\n allCaps x = x\n\n changeHeaders :: Pandoc -\u003e Pandoc\n changeHeaders = bottomUp modHeader\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ebottomUp\u003c/a\u003e\u003c/code\u003e is so called because it traverses the \u003ccode\u003ePandoc\u003c/code\u003e structure from\nbottom up. \u003ccode\u003e\u003ca\u003etopDown\u003c/a\u003e\u003c/code\u003e goes the other way. The difference between them can be\nseen from this example:\n\u003c/p\u003e\u003cpre\u003e normal :: [Inline] -\u003e [Inline]\n normal (Space : Space : xs) = Space : xs\n normal (Emph xs : Emph ys : zs) = Emph (xs ++ ys) : zs\n normal xs = xs\n\n myDoc :: Pandoc\n myDoc =  Pandoc nullMeta\n  [ Para [Str \"Hi\",Space,Emph [Str \"world\",Space],Emph [Space,Str \"emphasized\"]]]\n\u003c/pre\u003e\u003cp\u003eHere we want to use \u003ccode\u003e\u003ca\u003etopDown\u003c/a\u003e\u003c/code\u003e to lift \u003ccode\u003enormal\u003c/code\u003e to \u003ccode\u003ePandoc -\u003e Pandoc\u003c/code\u003e.\nThe top down strategy will collapse the two adjacent \u003ccode\u003eEmph\u003c/code\u003es first, then\ncollapse the resulting adjacent \u003ccode\u003eSpace\u003c/code\u003es, as desired. If we used \u003ccode\u003e\u003ca\u003ebottomUp\u003c/a\u003e\u003c/code\u003e,\nwe would end up with two adjacent \u003ccode\u003eSpace\u003c/code\u003es, since the contents of the\ntwo \u003ccode\u003eEmph\u003c/code\u003e inlines would be processed before the \u003ccode\u003eEmph\u003c/code\u003es were collapsed\ninto one.\n\u003c/p\u003e\u003cpre\u003e topDown normal myDoc ==\n   Pandoc nullMeta\n    [Para [Str \"Hi\",Space,Emph [Str \"world\",Space,Str \"emphasized\"]]]\n\n bottomUp normal myDoc ==\n   Pandoc nullMeta\n    [Para [Str \"Hi\",Space,Emph [Str \"world\",Space,Space,Str \"emphasized\"]]]\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ebottomUpM\u003c/a\u003e\u003c/code\u003e is a monadic version of \u003ccode\u003e\u003ca\u003ebottomUp\u003c/a\u003e\u003c/code\u003e.  It could be used,\nfor example, to replace the contents of delimited code blocks with\nattribute \u003ccode\u003einclude=FILENAME\u003c/code\u003e with the contents of \u003ccode\u003eFILENAME\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e doInclude :: Block -\u003e IO Block\n doInclude cb@(CodeBlock (id, classes, namevals) contents) =\n   case lookup \"include\" namevals of\n        Just f  -\u003e return . (CodeBlock (id, classes, namevals)) =\u003c\u003c readFile f\n        Nothing -\u003e return cb\n doInclude x = return x\n\n processIncludes :: Pandoc -\u003e IO Pandoc\n processIncludes = bottomUpM doInclude\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003equeryWith\u003c/a\u003e\u003c/code\u003e can be used, for example, to compile a list of URLs\nlinked to in a document:\n\u003c/p\u003e\u003cpre\u003e extractURL :: Inline -\u003e [String]\n extractURL (Link _ (u,_)) = [u]\n extractURL (Image _ (u,_)) = [u]\n extractURL _ = []\n\n extractURLs :: Pandoc -\u003e [String]\n extractURLs = queryWith extractURL\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Generic",
           "name": "Generic",
           "package": "pandoc-types",
@@ -3647,6 +3956,7 @@
         "index": {
           "description": "Generic functions for manipulating Pandoc documents Note the functions defined in Text.Pandoc.Walk should be used instead when possible as they are much faster Here simple example defining function that replaces all the level headers in document with regular paragraphs in ALL CAPS import Text.Pandoc.Definition import Text.Pandoc.Generic import Data.Char toUpper modHeader Block Block modHeader Header xs Para bottomUp allCaps xs modHeader allCaps Inline Inline allCaps Str xs Str map toUpper xs allCaps changeHeaders Pandoc Pandoc changeHeaders bottomUp modHeader bottomUp is so called because it traverses the Pandoc structure from bottom up topDown goes the other way The difference between them can be seen from this example normal Inline Inline normal Space Space xs Space xs normal Emph xs Emph ys zs Emph xs ys zs normal xs xs myDoc Pandoc myDoc Pandoc nullMeta Para Str Hi Space Emph Str world Space Emph Space Str emphasized Here we want to use topDown to lift normal to Pandoc Pandoc The top down strategy will collapse the two adjacent Emph first then collapse the resulting adjacent Space as desired If we used bottomUp we would end up with two adjacent Space since the contents of the two Emph inlines would be processed before the Emph were collapsed into one topDown normal myDoc Pandoc nullMeta Para Str Hi Space Emph Str world Space Str emphasized bottomUp normal myDoc Pandoc nullMeta Para Str Hi Space Emph Str world Space Space Str emphasized bottomUpM is monadic version of bottomUp It could be used for example to replace the contents of delimited code blocks with attribute include FILENAME with the contents of FILENAME doInclude Block IO Block doInclude cb CodeBlock id classes namevals contents case lookup include namevals of Just return CodeBlock id classes namevals readFile Nothing return cb doInclude return processIncludes Pandoc IO Pandoc processIncludes bottomUpM doInclude queryWith can be used for example to compile list of URLs linked to in document extractURL Inline String extractURL Link extractURL Image extractURL extractURLs Pandoc String extractURLs queryWith extractURL",
           "hierarchy": "Text Pandoc Generic",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Generic",
           "name": "Generic",
           "package": "pandoc-types",
@@ -3661,6 +3971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a transformation on \u003ccode\u003ea\u003c/code\u003es to matching elements in a \u003ccode\u003eb\u003c/code\u003e,\n moving from the bottom of the structure up.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Generic",
           "name": "bottomUp",
           "package": "pandoc-types",
@@ -3671,6 +3982,7 @@
         "index": {
           "description": "Applies transformation on to matching elements in moving from the bottom of the structure up",
           "hierarchy": "Text Pandoc Generic",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Generic",
           "name": "bottomUp",
           "normalized": "(a-\u003ea)-\u003eb-\u003eb",
@@ -3687,6 +3999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ebottomUp\u003c/a\u003e\u003c/code\u003e, but with monadic transformations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Generic",
           "name": "bottomUpM",
           "package": "pandoc-types",
@@ -3697,6 +4010,7 @@
         "index": {
           "description": "Like bottomUp but with monadic transformations",
           "hierarchy": "Text Pandoc Generic",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Generic",
           "name": "bottomUpM",
           "normalized": "(a-\u003eb a)-\u003ec-\u003eb c",
@@ -3713,6 +4027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a query on matching \u003ccode\u003ea\u003c/code\u003e elements in a \u003ccode\u003ec\u003c/code\u003e.  The results\n of the queries are combined using \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Generic",
           "name": "queryWith",
           "package": "pandoc-types",
@@ -3723,6 +4038,7 @@
         "index": {
           "description": "Runs query on matching elements in The results of the queries are combined using mappend",
           "hierarchy": "Text Pandoc Generic",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Generic",
           "name": "queryWith",
           "normalized": "(a-\u003eb)-\u003ec-\u003eb",
@@ -3739,6 +4055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a transformation on \u003ccode\u003ea\u003c/code\u003es to matching elements in a \u003ccode\u003eb\u003c/code\u003e,\n moving from the top of the structure down.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Generic",
           "name": "topDown",
           "package": "pandoc-types",
@@ -3749,6 +4066,7 @@
         "index": {
           "description": "Applies transformation on to matching elements in moving from the top of the structure down",
           "hierarchy": "Text Pandoc Generic",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Generic",
           "name": "topDown",
           "normalized": "(a-\u003ea)-\u003eb-\u003eb",
@@ -3765,6 +4083,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for serializing the Pandoc AST to JSON and deserializing from JSON.\n\u003c/p\u003e\u003cp\u003eExample of use:  The following script (\u003ccode\u003ecapitalize.hs\u003c/code\u003e) reads\nreads a JSON representation of a Pandoc document from stdin,\nand writes a JSON representation of a Pandoc document to stdout.\nIt changes all regular text in the document to uppercase, without\naffecting URLs, code, tags, etc.  Run the script with\n\u003c/p\u003e\u003cpre\u003e pandoc -t json | runghc capitalize.hs | pandoc -f json\n\u003c/pre\u003e\u003cp\u003eor (making capitalize.hs executable)\n\u003c/p\u003e\u003cpre\u003e pandoc --filter ./capitalize.hs\n\u003c/pre\u003e\u003cpre\u003e #!/usr/bin/env runghc\n import Text.Pandoc.JSON\n import Data.Char (toUpper)\n\n main :: IO ()\n main = toJSONFilter capitalizeStrings\n\n capitalizeStrings :: Inline -\u003e Inline\n capitalizeStrings (Str s) = Str $ map toUpper s\n capitalizeStrings x       = x\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.JSON",
           "name": "JSON",
           "package": "pandoc-types",
@@ -3774,6 +4093,7 @@
         "index": {
           "description": "Functions for serializing the Pandoc AST to JSON and deserializing from JSON Example of use The following script capitalize.hs reads reads JSON representation of Pandoc document from stdin and writes JSON representation of Pandoc document to stdout It changes all regular text in the document to uppercase without affecting URLs code tags etc Run the script with pandoc json runghc capitalize.hs pandoc json or making capitalize.hs executable pandoc filter capitalize.hs usr bin env runghc import Text.Pandoc.JSON import Data.Char toUpper main IO main toJSONFilter capitalizeStrings capitalizeStrings Inline Inline capitalizeStrings Str Str map toUpper capitalizeStrings",
           "hierarchy": "Text Pandoc JSON",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.JSON",
           "name": "JSON",
           "package": "pandoc-types",
@@ -3788,6 +4108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etoJSONFilter\u003c/a\u003e\u003c/code\u003e convert a function into a filter that reads pandoc's\n JSON serialized output from stdin, transforms it by walking the AST\n and applying the specified function, and serializes the result as JSON\n to stdout.\n\u003c/p\u003e\u003cp\u003eFor a straight transformation, use a function of type \u003ccode\u003ea -\u003e a\u003c/code\u003e or\n \u003ccode\u003ea -\u003e IO a\u003c/code\u003e where \u003ccode\u003ea\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eBlock\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInline\u003c/a\u003e\u003c/code\u003e,\u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eMeta\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003eMetaValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf your transformation needs to be sensitive to the script's arguments,\n use a function of type \u003ccode\u003e[String] -\u003e a -\u003e a\u003c/code\u003e (with \u003ccode\u003ea\u003c/code\u003e constrained as above).\n The \u003ccode\u003e[String]\u003c/code\u003e will be populated with the script's arguments.\n\u003c/p\u003e\u003cp\u003eAn alternative is to use the type \u003ccode\u003eMaybe Format -\u003e a -\u003e a\u003c/code\u003e.\n This is appropriate when the first argument of the script (if present)\n will be the target format, and allows scripts to behave differently\n depending on the target format.  The pandoc executable automatically\n provides the target format as argument when scripts are called using\n the `--filter` option.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.JSON",
           "name": "ToJSONFilter",
           "package": "pandoc-types",
@@ -3797,6 +4118,7 @@
         "index": {
           "description": "toJSONFilter convert function into filter that reads pandoc JSON serialized output from stdin transforms it by walking the AST and applying the specified function and serializes the result as JSON to stdout For straight transformation use function of type or IO where Block Inline Pandoc Meta or MetaValue If your transformation needs to be sensitive to the script arguments use function of type String with constrained as above The String will be populated with the script arguments An alternative is to use the type Maybe Format This is appropriate when the first argument of the script if present will be the target format and allows scripts to behave differently depending on the target format The pandoc executable automatically provides the target format as argument when scripts are called using the filter option",
           "hierarchy": "Text Pandoc JSON",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.JSON",
           "name": "ToJSONFilter",
           "package": "pandoc-types",
@@ -3810,6 +4132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.JSON",
           "name": "toJSONFilter",
           "package": "pandoc-types",
@@ -3819,6 +4142,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc JSON",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.JSON",
           "name": "toJSONFilter",
           "normalized": "a-\u003eIO()",
@@ -3835,6 +4159,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for manipulating \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e documents or extracting\ninformation from them by walking the \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e structure (or\nintermediate structures like '[Block]' or '[Inline]'.\nThese are faster (by a factor of four or five) than the generic\nfunctions defined in \u003ccode\u003eText.Pandoc.Generic\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eHere's a simple example, defining a function that replaces all the level 3+\nheaders in a document with regular paragraphs in ALL CAPS:\n\u003c/p\u003e\u003cpre\u003e import Text.Pandoc.Definition\n import Text.Pandoc.Walk\n import Data.Char (toUpper)\n\n modHeader :: Block -\u003e Block\n modHeader (Header n _ xs) | n \u003e= 3 = Para $ walk allCaps xs\n modHeader x = x\n\n allCaps :: Inline -\u003e Inline\n allCaps (Str xs) = Str $ map toUpper xs\n allCaps x = x\n\n changeHeaders :: Pandoc -\u003e Pandoc\n changeHeaders = walk modHeader\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003equery\u003c/a\u003e\u003c/code\u003e can be used, for example, to compile a list of URLs\nlinked to in a document:\n\u003c/p\u003e\u003cpre\u003e extractURL :: Inline -\u003e [String]\n extractURL (Link _ (u,_)) = [u]\n extractURL (Image _ (u,_)) = [u]\n extractURL _ = []\n\n extractURLs :: Pandoc -\u003e [String]\n extractURLs = query extractURL\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Walk",
           "name": "Walk",
           "package": "pandoc-types",
@@ -3844,6 +4169,7 @@
         "index": {
           "description": "Functions for manipulating Pandoc documents or extracting information from them by walking the Pandoc structure or intermediate structures like Block or Inline These are faster by factor of four or five than the generic functions defined in Text.Pandoc.Generic Here simple example defining function that replaces all the level headers in document with regular paragraphs in ALL CAPS import Text.Pandoc.Definition import Text.Pandoc.Walk import Data.Char toUpper modHeader Block Block modHeader Header xs Para walk allCaps xs modHeader allCaps Inline Inline allCaps Str xs Str map toUpper xs allCaps changeHeaders Pandoc Pandoc changeHeaders walk modHeader query can be used for example to compile list of URLs linked to in document extractURL Inline String extractURL Link extractURL Image extractURL extractURLs Pandoc String extractURLs query extractURL",
           "hierarchy": "Text Pandoc Walk",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Walk",
           "name": "Walk",
           "package": "pandoc-types",
@@ -3857,6 +4183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Walk",
           "name": "Walkable",
           "package": "pandoc-types",
@@ -3865,6 +4192,7 @@
         },
         "index": {
           "hierarchy": "Text Pandoc Walk",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Walk",
           "name": "Walkable",
           "package": "pandoc-types",
@@ -3879,6 +4207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003equery f x\u003c/code\u003e walks the structure \u003ccode\u003ex\u003c/code\u003e (bottom up) and applies \u003ccode\u003ef\u003c/code\u003e\n to every \u003ccode\u003ea\u003c/code\u003e, appending the results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Walk",
           "name": "query",
           "package": "pandoc-types",
@@ -3889,6 +4218,7 @@
         "index": {
           "description": "query walks the structure bottom up and applies to every appending the results",
           "hierarchy": "Text Pandoc Walk",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Walk",
           "name": "query",
           "normalized": "(a-\u003eb)-\u003ec-\u003eb",
@@ -3904,6 +4234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ewalk f x\u003c/code\u003e walks the structure \u003ccode\u003ex\u003c/code\u003e (bottom up) and replaces every\n occurrence of an \u003ccode\u003ea\u003c/code\u003e with the result of applying \u003ccode\u003ef\u003c/code\u003e to it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Walk",
           "name": "walk",
           "package": "pandoc-types",
@@ -3914,6 +4245,7 @@
         "index": {
           "description": "walk walks the structure bottom up and replaces every occurrence of an with the result of applying to it",
           "hierarchy": "Text Pandoc Walk",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Walk",
           "name": "walk",
           "normalized": "(a-\u003ea)-\u003eb-\u003eb",
@@ -3929,6 +4261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monadic version of \u003ccode\u003e\u003ca\u003ewalk\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:33:56 UTC 2014",
           "module": "Text.Pandoc.Walk",
           "name": "walkM",
           "package": "pandoc-types",
@@ -3939,6 +4272,7 @@
         "index": {
           "description": "monadic version of walk",
           "hierarchy": "Text Pandoc Walk",
+          "indexed": "2014-03-11T19:33:56",
           "module": "Text.Pandoc.Walk",
           "name": "walkM",
           "normalized": "(a-\u003eb a)-\u003ec-\u003eb c",

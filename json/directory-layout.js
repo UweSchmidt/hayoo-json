@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "directory-layout"
+        "phrase": "directory-layout",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWrappers around exception throwing functions and related routines\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Errored",
           "name": "Errored",
           "package": "directory-layout",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Wrappers around exception throwing functions and related routines",
           "hierarchy": "System Directory Layout Errored",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Errored",
           "name": "Errored",
           "package": "directory-layout",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about cought exceptions in various routines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Errored",
           "name": "LayoutException",
           "package": "directory-layout",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Information about cought exceptions in various routines",
           "hierarchy": "System Directory Layout Errored",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Errored",
           "name": "LayoutException",
           "package": "directory-layout",
@@ -190,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLog failures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Errored",
           "name": "anyfail",
           "package": "directory-layout",
@@ -200,6 +205,7 @@
         "index": {
           "description": "Log failures",
           "hierarchy": "System Directory Layout Errored",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Errored",
           "name": "anyfail",
           "normalized": "a(Either b c)-\u003ea()",
@@ -215,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIO-exceptions-free \u003ccode\u003e\u003ca\u003ecreateDirectory\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Errored",
           "name": "createDirectory",
           "package": "directory-layout",
@@ -225,6 +232,7 @@
         "index": {
           "description": "IO-exceptions-free createDirectory",
           "hierarchy": "System Directory Layout Errored",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Errored",
           "name": "createDirectory",
           "normalized": "FilePath-\u003ea(Either LayoutException())",
@@ -241,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIO-exceptions-free \u003ccode\u003e\u003ca\u003ewriteFile\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Errored",
           "name": "createFile",
           "package": "directory-layout",
@@ -251,6 +260,7 @@
         "index": {
           "description": "IO-exceptions-free writeFile",
           "hierarchy": "System Directory Layout Errored",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Errored",
           "name": "createFile",
           "normalized": "FilePath-\u003eMaybe Text-\u003ea(Either LayoutException())",
@@ -267,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edoesDirectoryExist\u003c/a\u003e\u003c/code\u003e that returns \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e instead of \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Errored",
           "name": "directoryExists",
           "package": "directory-layout",
@@ -277,6 +288,7 @@
         "index": {
           "description": "doesDirectoryExist that returns Either instead of Bool",
           "hierarchy": "System Directory Layout Errored",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Errored",
           "name": "directoryExists",
           "normalized": "FilePath-\u003ea(Either LayoutException())",
@@ -293,6 +305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edoesFileExist\u003c/a\u003e\u003c/code\u003e that returns \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e instead of \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Errored",
           "name": "fileExists",
           "package": "directory-layout",
@@ -303,6 +316,7 @@
         "index": {
           "description": "doesFileExist that returns Either instead of Bool",
           "hierarchy": "System Directory Layout Errored",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Errored",
           "name": "fileExists",
           "normalized": "FilePath-\u003ea(Either LayoutException())",
@@ -319,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIO-exceptions-free \u003ccode\u003e\u003ca\u003ereadFile\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Errored",
           "name": "readFile",
           "package": "directory-layout",
@@ -329,6 +344,7 @@
         "index": {
           "description": "IO-exceptions-free readFile",
           "hierarchy": "System Directory Layout Errored",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Errored",
           "name": "readFile",
           "normalized": "FilePath-\u003eText-\u003ea(Either LayoutException())",
@@ -345,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake paths in \u003ccode\u003e\u003ca\u003eLayoutException\u003c/a\u003e\u003c/code\u003e relative to given \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Errored",
           "name": "relative",
           "package": "directory-layout",
@@ -355,6 +372,7 @@
         "index": {
           "description": "Make paths in LayoutException relative to given FilePath",
           "hierarchy": "System Directory Layout Errored",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Errored",
           "name": "relative",
           "normalized": "FilePath-\u003eLayoutException-\u003eLayoutException",
@@ -370,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFree monad based directory layouts\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Internal",
           "name": "Internal",
           "package": "directory-layout",
@@ -379,6 +398,7 @@
         "index": {
           "description": "Free monad based directory layouts",
           "hierarchy": "System Directory Layout Internal",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Internal",
           "name": "Internal",
           "package": "directory-layout",
@@ -393,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonym to save some acrobatics\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Internal",
           "name": "Layout",
           "package": "directory-layout",
@@ -402,6 +423,7 @@
         "index": {
           "description": "Type synonym to save some acrobatics",
           "hierarchy": "System Directory Layout Internal",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Internal",
           "name": "Layout",
           "package": "directory-layout",
@@ -416,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA representation of directory layouts\n\u003c/p\u003e\u003cp\u003eInvariants:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eF\u003c/a\u003e\u003c/code\u003e second argument is never \u003ccode\u003eD _ _ _\u003c/code\u003e or \u003ccode\u003eF _ _ _\u003c/code\u003e itself\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eF\u003c/a\u003e\u003c/code\u003e third argument is never \u003ccode\u003eT _ _\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eD\u003c/a\u003e\u003c/code\u003e second argument is never \u003ccode\u003eT _ _\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eD\u003c/a\u003e\u003c/code\u003e third argument is never \u003ccode\u003eT _ _\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Internal",
           "name": "Node",
           "package": "directory-layout",
@@ -425,6 +448,7 @@
         "index": {
           "description": "representation of directory layouts Invariants second argument is never or itself third argument is never second argument is never third argument is never",
           "hierarchy": "System Directory Layout Internal",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Internal",
           "name": "Node",
           "package": "directory-layout",
@@ -439,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirectory node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Internal",
           "name": "D",
           "package": "directory-layout",
@@ -449,6 +474,7 @@
         "index": {
           "description": "Directory node",
           "hierarchy": "System Directory Layout Internal",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Internal",
           "name": "D",
           "package": "directory-layout",
@@ -462,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmptyness, nothing found here\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Internal",
           "name": "E",
           "package": "directory-layout",
@@ -472,6 +499,7 @@
         "index": {
           "description": "Emptyness nothing found here",
           "hierarchy": "System Directory Layout Internal",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Internal",
           "name": "E",
           "package": "directory-layout",
@@ -485,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Internal",
           "name": "F",
           "package": "directory-layout",
@@ -495,6 +524,7 @@
         "index": {
           "description": "File node",
           "hierarchy": "System Directory Layout Internal",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Internal",
           "name": "F",
           "package": "directory-layout",
@@ -508,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile contents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Internal",
           "name": "T",
           "package": "directory-layout",
@@ -518,6 +549,7 @@
         "index": {
           "description": "File contents",
           "hierarchy": "System Directory Layout Internal",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Internal",
           "name": "T",
           "package": "directory-layout",
@@ -531,6 +563,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003eControl.Lens\u003c/a\u003e based extractors for \u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Lens",
           "name": "Lens",
           "package": "directory-layout",
@@ -540,6 +573,7 @@
         "index": {
           "description": "Control.Lens based extractors for Layout",
           "hierarchy": "System Directory Layout Lens",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Lens",
           "name": "Lens",
           "package": "directory-layout",
@@ -554,6 +588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTarget \u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e under the current \u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e top if it happens to be a directory\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout ^? directory \"foo\"\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout ^? directory \"bar\"\n\u003c/code\u003e\u003c/strong\u003eJust (F \"baz\" (E ()) (F \"quux\" (T \"something\" ()) (E ())))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Lens",
           "name": "directory",
           "package": "directory-layout",
@@ -564,6 +599,7 @@
         "index": {
           "description": "Target Layout under the current Layout top if it happens to be directory layout directory foo Nothing layout directory bar Just baz quux something",
           "hierarchy": "System Directory Layout Lens",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Lens",
           "name": "directory",
           "normalized": "FilePath-\u003eIndexedTraversal' FilePath Layout Layout",
@@ -579,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTarget \u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e under the current \u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e top if it happens to be a file\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout ^? file \"biz\"\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout ^? file \"swaks\"\n\u003c/code\u003e\u003c/strong\u003eJust (E ())\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout ^? directory \"bar\" . file \"baz\"\n\u003c/code\u003e\u003c/strong\u003eJust (E ())\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Lens",
           "name": "file",
           "package": "directory-layout",
@@ -589,6 +626,7 @@
         "index": {
           "description": "Target Layout under the current Layout top if it happens to be file layout file biz Nothing layout file swaks Just layout directory bar file baz Just",
           "hierarchy": "System Directory Layout Lens",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Lens",
           "name": "file",
           "normalized": "FilePath-\u003eIndexedTraversal' FilePath Layout Layout",
@@ -604,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTarget \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e from the current \u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e top (if possible)\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout ^? name\n\u003c/code\u003e\u003c/strong\u003eJust \"foo\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout ^? directory \"bar\" . name\n\u003c/code\u003e\u003c/strong\u003eJust \"baz\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout ^? directory \"quux\" . name\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout & name .~ \"boo\"\n\u003c/code\u003e\u003c/strong\u003eF \"boo\" (T \"not empty\" ()) (D \"bar\" (F \"baz\" (E ()) (F \"quux\" (T \"something\" ()) (E ()))) (F \"swaks\" (E ()) (E ())))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Lens",
           "name": "name",
           "package": "directory-layout",
@@ -614,6 +653,7 @@
         "index": {
           "description": "Target FilePath from the current Layout top if possible layout name Just foo layout directory bar name Just baz layout directory quux name Nothing layout name boo boo not empty bar baz quux something swaks",
           "hierarchy": "System Directory Layout Lens",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Lens",
           "name": "name",
           "package": "directory-layout",
@@ -627,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTarget all \u003ccode\u003eFilpath\u003c/code\u003es from current \u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e layer\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout ^? names\n\u003c/code\u003e\u003c/strong\u003eJust \"foo\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout ^.. names\n\u003c/code\u003e\u003c/strong\u003e[\"foo\",\"bar\",\"swaks\"]\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout ^.. directory \"bar\" . names\n\u003c/code\u003e\u003c/strong\u003e[\"baz\",\"quux\"]\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout & directory \"bar\" . names %~ reverse\n\u003c/code\u003e\u003c/strong\u003eF \"foo\" (T \"not empty\" ()) (D \"bar\" (F \"zab\" (E ()) (F \"xuuq\" (T \"something\" ()) (E ()))) (F \"swaks\" (E ()) (E ())))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Lens",
           "name": "names",
           "package": "directory-layout",
@@ -637,6 +678,7 @@
         "index": {
           "description": "Target all Filpath from current Layout layer layout names Just foo layout names foo bar swaks layout directory bar names baz quux layout directory bar names reverse foo not empty bar zab xuuq something swaks",
           "hierarchy": "System Directory Layout Lens",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Lens",
           "name": "names",
           "package": "directory-layout",
@@ -650,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTarget next \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout ^? name\n\u003c/code\u003e\u003c/strong\u003eJust \"foo\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout ^? next . name\n\u003c/code\u003e\u003c/strong\u003eJust \"bar\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout ^? next . next . name\n\u003c/code\u003e\u003c/strong\u003eJust \"swaks\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout ^? next . next . next . name\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Lens",
           "name": "next",
           "package": "directory-layout",
@@ -660,6 +703,7 @@
         "index": {
           "description": "Target next Node layout name Just foo layout next name Just bar layout next next name Just swaks layout next next next name Nothing",
           "hierarchy": "System Directory Layout Lens",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Lens",
           "name": "next",
           "package": "directory-layout",
@@ -673,6 +717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTarget \u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e under the current \u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e top\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout ^? node \"foo\"\n\u003c/code\u003e\u003c/strong\u003eJust (T \"not empty\" ())\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout ^? node \"bar\"\n\u003c/code\u003e\u003c/strong\u003eJust (F \"baz\" (E ()) (F \"quux\" (T \"something\" ()) (E ())))\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout ^? node \"what\"\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Lens",
           "name": "node",
           "package": "directory-layout",
@@ -683,6 +728,7 @@
         "index": {
           "description": "Target Layout under the current Layout top layout node foo Just not empty layout node bar Just baz quux something layout node what Nothing",
           "hierarchy": "System Directory Layout Lens",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Lens",
           "name": "node",
           "normalized": "FilePath-\u003eIndexedTraversal' FilePath Layout Layout",
@@ -698,6 +744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTarget \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e from the current \u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e top (if possible)\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout ^? text\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout ^? file \"foo\" . text\n\u003c/code\u003e\u003c/strong\u003eJust \"not empty\"\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elayout ^? directory \"bar\" . file \"quux\" . text\n\u003c/code\u003e\u003c/strong\u003eJust \"something\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Lens",
           "name": "text",
           "package": "directory-layout",
@@ -708,6 +755,7 @@
         "index": {
           "description": "Target Text from the current Layout top if possible layout text Nothing layout file foo text Just not empty layout directory bar file quux text Just something",
           "hierarchy": "System Directory Layout Lens",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Lens",
           "name": "text",
           "package": "directory-layout",
@@ -721,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eLayout\u003c/a\u003e\u003c/code\u003e traverses\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout.Traverse",
           "name": "Traverse",
           "package": "directory-layout",
@@ -730,6 +779,7 @@
         "index": {
           "description": "Layout traverses",
           "hierarchy": "System Directory Layout Traverse",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout.Traverse",
           "name": "Traverse",
           "package": "directory-layout",
@@ -794,6 +844,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLanguage to express directory layouts\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout",
           "name": "Layout",
           "package": "directory-layout",
@@ -803,6 +854,7 @@
         "index": {
           "description": "Language to express directory layouts",
           "hierarchy": "System Directory Layout",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout",
           "name": "Layout",
           "package": "directory-layout",
@@ -817,6 +869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonym to save some acrobatics\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout",
           "name": "Layout",
           "package": "directory-layout",
@@ -826,6 +879,7 @@
         "index": {
           "description": "Type synonym to save some acrobatics",
           "hierarchy": "System Directory Layout",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout",
           "name": "Layout",
           "package": "directory-layout",
@@ -840,6 +894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about cought exceptions in various routines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout",
           "name": "LayoutException",
           "package": "directory-layout",
@@ -849,6 +904,7 @@
         "index": {
           "description": "Information about cought exceptions in various routines",
           "hierarchy": "System Directory Layout",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout",
           "name": "LayoutException",
           "package": "directory-layout",
@@ -863,6 +919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA representation of directory layouts\n\u003c/p\u003e\u003cp\u003eInvariants:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eF\u003c/a\u003e\u003c/code\u003e second argument is never \u003ccode\u003eD _ _ _\u003c/code\u003e or \u003ccode\u003eF _ _ _\u003c/code\u003e itself\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eF\u003c/a\u003e\u003c/code\u003e third argument is never \u003ccode\u003eT _ _\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eD\u003c/a\u003e\u003c/code\u003e second argument is never \u003ccode\u003eT _ _\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eD\u003c/a\u003e\u003c/code\u003e third argument is never \u003ccode\u003eT _ _\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout",
           "name": "Node",
           "package": "directory-layout",
@@ -872,6 +929,7 @@
         "index": {
           "description": "representation of directory layouts Invariants second argument is never or itself third argument is never second argument is never third argument is never",
           "hierarchy": "System Directory Layout",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout",
           "name": "Node",
           "package": "directory-layout",
@@ -886,6 +944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclare directory with specified listing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout",
           "name": "directory",
           "package": "directory-layout",
@@ -896,6 +955,7 @@
         "index": {
           "description": "Declare directory with specified listing",
           "hierarchy": "System Directory Layout",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout",
           "name": "directory",
           "normalized": "FilePath-\u003eLayout-\u003eLayout",
@@ -911,6 +971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclare empty directory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout",
           "name": "directory_",
           "package": "directory-layout",
@@ -921,6 +982,7 @@
         "index": {
           "description": "Declare empty directory",
           "hierarchy": "System Directory Layout",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout",
           "name": "directory_",
           "normalized": "FilePath-\u003eLayout",
@@ -936,6 +998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclare file with specified contents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout",
           "name": "file",
           "package": "directory-layout",
@@ -946,6 +1009,7 @@
         "index": {
           "description": "Declare file with specified contents",
           "hierarchy": "System Directory Layout",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout",
           "name": "file",
           "normalized": "FilePath-\u003eText-\u003eLayout",
@@ -961,6 +1025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeclare empty file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout",
           "name": "file_",
           "package": "directory-layout",
@@ -971,6 +1036,7 @@
         "index": {
           "description": "Declare empty file",
           "hierarchy": "System Directory Layout",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout",
           "name": "file_",
           "normalized": "FilePath-\u003eLayout",
@@ -986,6 +1052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate layout from directory\n\u003c/p\u003e\u003cp\u003eCanonicalizes path before traversing, generally understands only\n regular files and directories and ignores anything else it could not understand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:29 UTC 2014",
           "module": "System.Directory.Layout",
           "name": "fromDirectory",
           "package": "directory-layout",
@@ -996,6 +1063,7 @@
         "index": {
           "description": "Create layout from directory Canonicalizes path before traversing generally understands only regular files and directories and ignores anything else it could not understand",
           "hierarchy": "System Directory Layout",
+          "indexed": "2014-03-11T17:56:29",
           "module": "System.Directory.Layout",
           "name": "fromDirectory",
           "normalized": "FilePath-\u003eIO(Either IOException Layout)",

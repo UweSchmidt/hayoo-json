@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hxt-regex-xmlschema"
+        "phrase": "hxt-regex-xmlschema",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ecsh style Glob Pattern Parser for Regular Expressions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.Glob.String.RegexParser",
           "name": "RegexParser",
           "package": "hxt-regex-xmlschema",
@@ -28,6 +29,7 @@
         "index": {
           "description": "csh style Glob Pattern Parser for Regular Expressions",
           "hierarchy": "Text Regex Glob String RegexParser",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.Glob.String.RegexParser",
           "name": "RegexParser",
           "package": "hxt-regex-xmlschema",
@@ -94,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ecsh glob style pattern matcher\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.Glob.String",
           "name": "String",
           "package": "hxt-regex-xmlschema",
@@ -103,6 +106,7 @@
         "index": {
           "description": "csh glob style pattern matcher",
           "hierarchy": "Text Regex Glob String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.Glob.String",
           "name": "String",
           "package": "hxt-regex-xmlschema",
@@ -116,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.Glob.String",
           "name": "Regex",
           "package": "hxt-regex-xmlschema",
@@ -124,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Glob String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.Glob.String",
           "name": "Regex",
           "package": "hxt-regex-xmlschema",
@@ -137,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.Glob.String",
           "name": "match",
           "package": "hxt-regex-xmlschema",
@@ -146,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Glob String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.Glob.String",
           "name": "match",
           "normalized": "String-\u003eString-\u003eBool",
@@ -160,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.Glob.String",
           "name": "matchNoCase",
           "package": "hxt-regex-xmlschema",
@@ -169,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Text Regex Glob String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.Glob.String",
           "name": "matchNoCase",
           "normalized": "String-\u003eString-\u003eBool",
@@ -185,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eW3C XML Schema Regular Expression Matcher\n\u003c/p\u003e\u003cp\u003eGrammar can be found under \u003ca\u003ehttp://www.w3.org/TR/xmlschema11-2/#regexs\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "Regex",
           "package": "hxt-regex-xmlschema",
@@ -194,6 +205,7 @@
         "index": {
           "description": "W3C XML Schema Regular Expression Matcher Grammar can be found under http www.w3.org TR xmlschema11-2 regexs",
           "hierarchy": "Text Regex XMLSchema String Regex",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "Regex",
           "package": "hxt-regex-xmlschema",
@@ -207,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "GenRegex",
           "package": "hxt-regex-xmlschema",
@@ -215,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Text Regex XMLSchema String Regex",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "GenRegex",
           "package": "hxt-regex-xmlschema",
@@ -228,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "Regex",
           "package": "hxt-regex-xmlschema",
@@ -236,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Text Regex XMLSchema String Regex",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "Regex",
           "package": "hxt-regex-xmlschema",
@@ -249,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "delta",
           "package": "hxt-regex-xmlschema",
@@ -258,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Text Regex XMLSchema String Regex",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "delta",
           "normalized": "GenRegex a-\u003eString-\u003eGenRegex a",
@@ -272,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "delta1",
           "package": "hxt-regex-xmlschema",
@@ -281,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Text Regex XMLSchema String Regex",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "delta1",
           "normalized": "GenRegex a-\u003eChar-\u003eGenRegex a",
@@ -321,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFIRST for regular expressions\n\u003c/p\u003e\u003cp\u003ethis is only an approximation, the real set of char may be smaller,\n when the expression contains intersection, set difference or exor operators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "firstChars",
           "package": "hxt-regex-xmlschema",
@@ -331,6 +352,7 @@
         "index": {
           "description": "FIRST for regular expressions this is only an approximation the real set of char may be smaller when the expression contains intersection set difference or exor operators",
           "hierarchy": "Text Regex XMLSchema String Regex",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "firstChars",
           "normalized": "GenRegex a-\u003eCharSet",
@@ -371,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "matchWithRegex",
           "package": "hxt-regex-xmlschema",
@@ -380,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Text Regex XMLSchema String Regex",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "matchWithRegex",
           "normalized": "GenRegex a-\u003eString-\u003eBool",
@@ -395,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "matchWithRegex'",
           "package": "hxt-regex-xmlschema",
@@ -404,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Text Regex XMLSchema String Regex",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "matchWithRegex'",
           "normalized": "GenRegex a-\u003eString-\u003eMaybe[(Label a,String)]",
@@ -631,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "mkInterleave",
           "package": "hxt-regex-xmlschema",
@@ -640,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Text Regex XMLSchema String Regex",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "mkInterleave",
           "normalized": "GenRegex a-\u003eGenRegex a-\u003eGenRegex a",
@@ -845,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstruct the r.e. for a set of chars\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "mkSym",
           "package": "hxt-regex-xmlschema",
@@ -855,6 +884,7 @@
         "index": {
           "description": "construct the r.e for set of chars",
           "hierarchy": "Text Regex XMLSchema String Regex",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "mkSym",
           "normalized": "CharSet-\u003eGenRegex a",
@@ -1003,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "nullable",
           "package": "hxt-regex-xmlschema",
@@ -1012,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Text Regex XMLSchema String Regex",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "nullable",
           "normalized": "GenRegex a-\u003eBool",
@@ -1026,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "nullable'",
           "package": "hxt-regex-xmlschema",
@@ -1035,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Text Regex XMLSchema String Regex",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "nullable'",
           "normalized": "GenRegex a-\u003eNullable a",
@@ -1050,6 +1084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function wraps the whole regex in a subexpression before starting\n the parse. This is done for getting acces to\n the whole parsed string. Therfore we need one special label, this label\n is the Nothing value, all explicit labels are Just labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "splitWithRegex",
           "package": "hxt-regex-xmlschema",
@@ -1060,6 +1095,7 @@
         "index": {
           "description": "This function wraps the whole regex in subexpression before starting the parse This is done for getting acces to the whole parsed string Therfore we need one special label this label is the Nothing value all explicit labels are Just labels",
           "hierarchy": "Text Regex XMLSchema String Regex",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "splitWithRegex",
           "normalized": "GenRegex a-\u003eString-\u003eMaybe([(Label a,String)],String)",
@@ -1076,6 +1112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main scanner function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "splitWithRegex'",
           "package": "hxt-regex-xmlschema",
@@ -1086,6 +1123,7 @@
         "index": {
           "description": "The main scanner function",
           "hierarchy": "Text Regex XMLSchema String Regex",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "splitWithRegex'",
           "normalized": "GenRegex a-\u003eString-\u003eMaybe(GenRegex a,String)",
@@ -1101,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "splitWithRegexCS",
           "package": "hxt-regex-xmlschema",
@@ -1110,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Text Regex XMLSchema String Regex",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "splitWithRegexCS",
           "normalized": "GenRegex a-\u003eCharSet-\u003eString-\u003eMaybe([(Label a,String)],String)",
@@ -1126,6 +1166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003espeedup version for splitWithRegex'\n\u003c/p\u003e\u003cp\u003eThis function checks whether the input starts with a char from FIRST re.\n If this is not the case, the split fails. The FIRST set can be computed once\n for a whole tokenizer and reused by every call of split\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "splitWithRegexCS'",
           "package": "hxt-regex-xmlschema",
@@ -1136,6 +1177,7 @@
         "index": {
           "description": "speedup version for splitWithRegex This function checks whether the input starts with char from FIRST re If this is not the case the split fails The FIRST set can be computed once for whole tokenizer and reused by every call of split",
           "hierarchy": "Text Regex XMLSchema String Regex",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String.Regex",
           "name": "splitWithRegexCS'",
           "normalized": "GenRegex a-\u003eCharSet-\u003eString-\u003eMaybe(GenRegex a,String)",
@@ -1152,6 +1194,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eW3C XML Schema Regular Expression Parser\n\u003c/p\u003e\u003cp\u003eThis parser supports the full W3C standard, the\n   complete grammar can be found under \u003ca\u003ehttp://www.w3.org/TR/xmlschema11-2/#regexs\u003c/a\u003e\n   and extensions for all missing set operations, intersection, difference, exclusive or, interleave, complement\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String.RegexParser",
           "name": "RegexParser",
           "package": "hxt-regex-xmlschema",
@@ -1161,6 +1204,7 @@
         "index": {
           "description": "W3C XML Schema Regular Expression Parser This parser supports the full W3C standard the complete grammar can be found under http www.w3.org TR xmlschema11-2 regexs and extensions for all missing set operations intersection difference exclusive or interleave complement",
           "hierarchy": "Text Regex XMLSchema String RegexParser",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String.RegexParser",
           "name": "RegexParser",
           "package": "hxt-regex-xmlschema",
@@ -1256,6 +1300,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenient functions for W3C XML Schema Regular Expression Matcher.\n   For internals see \u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eGrammar can be found under \u003ca\u003ehttp://www.w3.org/TR/xmlschema11-2/#regexs\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "String",
           "package": "hxt-regex-xmlschema",
@@ -1265,6 +1310,7 @@
         "index": {
           "description": "Convenient functions for W3C XML Schema Regular Expression Matcher For internals see Regex Grammar can be found under http www.w3.org TR xmlschema11-2 regexs",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "String",
           "package": "hxt-regex-xmlschema",
@@ -1278,6 +1324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "GenRegex",
           "package": "hxt-regex-xmlschema",
@@ -1286,6 +1333,7 @@
         },
         "index": {
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "GenRegex",
           "package": "hxt-regex-xmlschema",
@@ -1299,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "Regex",
           "package": "hxt-regex-xmlschema",
@@ -1307,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "Regex",
           "package": "hxt-regex-xmlschema",
@@ -1321,6 +1371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egrep like filter for lists of strings\n\u003c/p\u003e\u003cp\u003eThe regular expression may be prefixed with the usual context spec \"^\" for start of string,\n and \u003ca\u003e\\\u003c\u003c/a\u003e for start of word.\n and suffixed with \"$\" for end of text and \u003ca\u003e\\\u003e\u003c/a\u003e end of word.\n Word chars are defined by the multi char escape sequence \u003ca\u003e\\w\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eExamples\n\u003c/p\u003e\u003cpre\u003e grep \"a\"    [\"_a_\", \"_a\", \"a_\", \"a\", \"_\"]      =\u003e [\"_a_\", \"_a\", \"a_\", \"a\"]\n grep \"^a\"   [\"_a_\", \"_a\", \"a_\", \"a\", \"_\"]      =\u003e [\"a_\", \"a\"]\n grep \"a$\"   [\"_a_\", \"_a\", \"a_\", \"a\", \"_\"]      =\u003e [\"_a\", \"a\"]\n grep \"^a$\"  [\"_a_\", \"_a\", \"a_\", \"a\", \"_\"]      =\u003e [\"a\"]\n grep \"\\\\\u003ca\" [\"x a b\", \" ax \", \" xa \", \"xab\"]   =\u003e [\"x a b\", \" ax \"]\n grep \"a\\\\\u003e\" [\"x a b\", \" ax \", \" xa \", \"xab\"]   =\u003e [\"x a b\", \" xa \"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "grep",
           "package": "hxt-regex-xmlschema",
@@ -1331,6 +1382,7 @@
         "index": {
           "description": "grep like filter for lists of strings The regular expression may be prefixed with the usual context spec for start of string and for start of word and suffixed with for end of text and end of word Word chars are defined by the multi char escape sequence Examples grep grep grep grep grep ax xa xab ax grep ax xa xab xa",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "grep",
           "normalized": "String-\u003e[String]-\u003e[String]",
@@ -1346,6 +1398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egrep with extended regular expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "grepExt",
           "package": "hxt-regex-xmlschema",
@@ -1356,6 +1409,7 @@
         "index": {
           "description": "grep with extended regular expressions",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "grepExt",
           "normalized": "String-\u003e[String]-\u003e[String]",
@@ -1372,6 +1426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egrep with already prepared Regex (ususally with \u003ccode\u003e\u003ca\u003eparseContextRegex\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "grepRE",
           "package": "hxt-regex-xmlschema",
@@ -1382,6 +1437,7 @@
         "index": {
           "description": "grep with already prepared Regex ususally with parseContextRegex",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "grepRE",
           "normalized": "Regex-\u003e[String]-\u003e[String]",
@@ -1398,6 +1454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egrep with Regex and line numbers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "grepREwithLineNum",
           "package": "hxt-regex-xmlschema",
@@ -1408,6 +1465,7 @@
         "index": {
           "description": "grep with Regex and line numbers",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "grepREwithLineNum",
           "normalized": "Regex-\u003e[String]-\u003e[(Int,String)]",
@@ -1424,6 +1482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvenient function for \u003ccode\u003e\u003ca\u003ematchRE\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e match \"x*\" \"xxx\" = True\n match \"x\" \"xxx\"  = False\n match \"[\" \"xxx\"  = False\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "match",
           "package": "hxt-regex-xmlschema",
@@ -1434,6 +1493,7 @@
         "index": {
           "description": "convenient function for matchRE Examples match xxx True match xxx False match xxx False",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "match",
           "normalized": "String-\u003eString-\u003eBool",
@@ -1449,6 +1509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematch with extended regular expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "matchExt",
           "package": "hxt-regex-xmlschema",
@@ -1459,6 +1520,7 @@
         "index": {
           "description": "match with extended regular expressions",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "matchExt",
           "normalized": "String-\u003eString-\u003eBool",
@@ -1475,6 +1537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematch a string with a regular expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "matchRE",
           "package": "hxt-regex-xmlschema",
@@ -1485,6 +1548,7 @@
         "index": {
           "description": "match string with regular expression",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "matchRE",
           "normalized": "GenRegex a-\u003eString-\u003eBool",
@@ -1501,6 +1565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvenient function for \u003ccode\u003e\u003ca\u003ematchRE\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e matchSubex \"({1}x*)\"                 \"xxx\"      = [(\"1\",\"xxx\")]\n matchSubex \"({1}x*)\"                 \"y\"        = []\n matchSubex \"({w}[0-9]+)x({h}[0-9]+)\" \"800x600\"  = [(\"w\",\"800\"),(\"h\",\"600\")]\n matchSubex \"[\" \"xxx\"                            = []\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "matchSubex",
           "package": "hxt-regex-xmlschema",
@@ -1511,6 +1576,7 @@
         "index": {
           "description": "convenient function for matchRE Examples matchSubex xxx xxx matchSubex matchSubex x600 matchSubex xxx",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "matchSubex",
           "normalized": "String-\u003eString-\u003e[(String,String)]",
@@ -1527,6 +1593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematch a string with a regular expression\n and extract subexpression matches\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "matchSubexRE",
           "package": "hxt-regex-xmlschema",
@@ -1537,6 +1604,7 @@
         "index": {
           "description": "match string with regular expression and extract subexpression matches",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "matchSubexRE",
           "normalized": "GenRegex a-\u003eString-\u003e[(a,String)]",
@@ -1553,6 +1621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvenient function for \u003ccode\u003e\u003ca\u003esedRE\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eexamples:\n\u003c/p\u003e\u003cpre\u003e sed (const \"b\") \"a\" \"xaxax\"       = \"xbxbx\"\n sed (\\ x -\u003e x ++ x) \"a\" \"xax\"     = \"xaax\"\n sed undefined       \"[\" \"xxx\"     = \"xxx\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "sed",
           "package": "hxt-regex-xmlschema",
@@ -1563,6 +1632,7 @@
         "index": {
           "description": "convenient function for sedRE examples sed const xaxax xbxbx sed xax xaax sed undefined xxx xxx",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "sed",
           "normalized": "(String-\u003eString)-\u003eString-\u003eString-\u003eString",
@@ -1577,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "sedExt",
           "package": "hxt-regex-xmlschema",
@@ -1586,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "sedExt",
           "normalized": "(String-\u003eString)-\u003eString-\u003eString-\u003eString",
@@ -1602,6 +1674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esed like editing function\n\u003c/p\u003e\u003cp\u003eAll matching tokens are edited by the 1. argument, the editing function,\n all other chars remain as they are\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "sedRE",
           "package": "hxt-regex-xmlschema",
@@ -1612,6 +1685,7 @@
         "index": {
           "description": "sed like editing function All matching tokens are edited by the argument the editing function all other chars remain as they are",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "sedRE",
           "normalized": "(String-\u003eString)-\u003eGenRegex a-\u003eString-\u003eString",
@@ -1628,6 +1702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvenient function for \u003ccode\u003e\u003ca\u003esplitRE\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eexamples:\n\u003c/p\u003e\u003cpre\u003e split \"a*b\" \"abc\" = (\"ab\",\"c\")\n split \"a*\"  \"bc\"  = (\"\", \"bc\")    -- \"a*\" matches \"\"\n split \"a+\"  \"bc\"  = (\"\", \"bc\")    -- \"a+\" does not match, no split\n split \"[\"   \"abc\" = (\"\", \"abc\")   -- \"[\"  syntax error, no split\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "split",
           "package": "hxt-regex-xmlschema",
@@ -1638,6 +1713,7 @@
         "index": {
           "description": "convenient function for splitRE examples split abc ab split bc bc matches split bc bc does not match no split split abc abc syntax error no split",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "split",
           "normalized": "String-\u003eString-\u003e(String,String)",
@@ -1653,6 +1729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esplit with extended syntax\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "splitExt",
           "package": "hxt-regex-xmlschema",
@@ -1663,6 +1740,7 @@
         "index": {
           "description": "split with extended syntax",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "splitExt",
           "normalized": "String-\u003eString-\u003e(String,String)",
@@ -1679,6 +1757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esplit a string by taking the longest prefix matching a regular expression\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eNothing\u003c/code\u003e is returned in case there is no matching prefix,\n else the pair of prefix and rest is returned\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "splitRE",
           "package": "hxt-regex-xmlschema",
@@ -1689,6 +1768,7 @@
         "index": {
           "description": "split string by taking the longest prefix matching regular expression Nothing is returned in case there is no matching prefix else the pair of prefix and rest is returned",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "splitRE",
           "normalized": "GenRegex a-\u003eString-\u003eMaybe(String,String)",
@@ -1705,6 +1785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvenient function for \u003ccode\u003e\u003ca\u003esplitSubex\u003c/a\u003e\u003c/code\u003e, uses extended syntax\n\u003c/p\u003e\u003cp\u003eexamples:\n\u003c/p\u003e\u003cpre\u003e splitSubex \"({1}a*)b\"  \"abc\" = ([(\"1\",\"a\")],\"c\")\n splitSubex \"({2}a*)\"   \"bc\"  = ([(\"2\",\"\")], \"bc\")\n splitSubex \"({1}a|b)+\" \"abc\" = ([(\"1\",\"a\"),(\"1\",\"b\")],\"c\")        -- subex 1 matches 2 times\n\n splitSubex \".*({x}a*)\" \"aa\"  = ([(\"x\",\"\"),(\"x\",\"a\"),(\"x\",\"aa\")],\"\")\n                                                                   -- nondeterminism: 3 matches for a*\n\n splitSubex \"({1}do)|({2}[a-z]+)\" \"do you know\"\n                                = ([(\"1\",\"do\"),(\"2\",\"do\")],\" you know\")\n                                                                   -- nondeterminism: 2 matches for do\n\n splitSubex \"({1}do){|}({2}[a-z]+)\" \"do you know\"\n                                = ([(\"1\",\"do\")],\" you know\")\n                                                                   -- no nondeterminism with {|}: 1. match for do\n\n splitSubex \"({1}a+)\"   \"bcd\" = ([], \"bcd\")                        -- no match\n splitSubex \"[\"         \"abc\" = ([], \"abc\")                        -- syntax error\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "splitSubex",
           "package": "hxt-regex-xmlschema",
@@ -1715,6 +1796,7 @@
         "index": {
           "description": "convenient function for splitSubex uses extended syntax examples splitSubex abc splitSubex bc bc splitSubex abc subex matches times splitSubex aa aa nondeterminism matches for splitSubex do a-z do you know do do you know nondeterminism matches for do splitSubex do a-z do you know do you know no nondeterminism with match for do splitSubex bcd bcd no match splitSubex abc abc syntax error",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "splitSubex",
           "normalized": "String-\u003eString-\u003e([(String,String)],String)",
@@ -1731,6 +1813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esplit a string by removing the longest prefix matching a regular expression\n and then return the list of subexpressions found in the matching part\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eNothing\u003c/code\u003e is returned in case of no matching prefix,\n else the list of pairs of labels and submatches and the\n rest is returned\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "splitSubexRE",
           "package": "hxt-regex-xmlschema",
@@ -1741,6 +1824,7 @@
         "index": {
           "description": "split string by removing the longest prefix matching regular expression and then return the list of subexpressions found in the matching part Nothing is returned in case of no matching prefix else the list of pairs of labels and submatches and the rest is returned",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "splitSubexRE",
           "normalized": "GenRegex a-\u003eString-\u003eMaybe([(a,String)],String)",
@@ -1757,6 +1841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esplit a string into tokens (words) by giving a regular expression\n which all tokens must match.\n\u003c/p\u003e\u003cp\u003eConvenient function for \u003ccode\u003e\u003ca\u003etokenizeRE\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThis can be used for simple tokenizers.\n It is recommended to use regular expressions where the empty word does not match.\n Else there will appear a lot of probably useless empty tokens in the output.\n All none matching chars are discarded. If the given regex contains syntax errors,\n \u003ccode\u003eNothing\u003c/code\u003e is returned\n\u003c/p\u003e\u003cp\u003eexamples:\n\u003c/p\u003e\u003cpre\u003e tokenize \"a\" \"aabba\"      = [\"a\",\"a\",\"a\"]\n tokenize \"a*\" \"aaaba\"     = [\"aaa\",\"a\"]\n tokenize \"a*\" \"bbb\"       = [\"\",\"\",\"\"]\n tokenize \"a+\" \"bbb\"       = []\n\n tokenize \"a*b\" \"\"         = []\n tokenize \"a*b\" \"abc\"      = [\"ab\"]\n tokenize \"a*b\" \"abaab ab\" = [\"ab\",\"aab\",\"ab\"]\n\n tokenize \"[a-z]{2,}|[0-9]{2,}|[0-9]+[.][0-9]+\" \"ab123 456.7abc\"\n                           = [\"ab\",\"123\",\"456.7\",\"abc\"]\n\n tokenize \"[a-z]*|[0-9]{2,}|[0-9]+[.][0-9]+\" \"cab123 456.7abc\"\n                           = [\"cab\",\"123\",\"456.7\",\"abc\"]\n\n tokenize \"[^ \\t\\n\\r]*\" \"abc def\\t\\n\\rxyz\"\n                           = [\"abc\",\"def\",\"xyz\"]\n\n tokenize \".*\"   \"\\nabc\\n123\\n\\nxyz\\n\"\n                           = [\"\",\"abc\",\"123\",\"\",\"xyz\"]\n\n tokenize \".*\"             = lines\n\n tokenize \"[^ \\t\\n\\r]*\"    = words\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "tokenize",
           "package": "hxt-regex-xmlschema",
@@ -1767,6 +1852,7 @@
         "index": {
           "description": "split string into tokens words by giving regular expression which all tokens must match Convenient function for tokenizeRE This can be used for simple tokenizers It is recommended to use regular expressions where the empty word does not match Else there will appear lot of probably useless empty tokens in the output All none matching chars are discarded If the given regex contains syntax errors Nothing is returned examples tokenize aabba tokenize aaaba aaa tokenize bbb tokenize bbb tokenize tokenize abc ab tokenize abaab ab ab aab ab tokenize a-z ab123 abc ab abc tokenize a-z cab123 abc cab abc tokenize abc def rxyz abc def xyz tokenize nabc n123 nxyz abc xyz tokenize lines tokenize words",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "tokenize",
           "normalized": "String-\u003eString-\u003e[String]",
@@ -1782,6 +1868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvenient function for \u003ccode\u003e\u003ca\u003etokenizeRE'\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eWhen the regular expression parses as Zero, \u003ccode\u003e[Left input]\u003c/code\u003e is returned, that means no tokens are found\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "tokenize'",
           "package": "hxt-regex-xmlschema",
@@ -1792,6 +1879,7 @@
         "index": {
           "description": "convenient function for tokenizeRE When the regular expression parses as Zero Left input is returned that means no tokens are found",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "tokenize'",
           "normalized": "String-\u003eString-\u003e[Either String String]",
@@ -1807,6 +1895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etokenize with extended syntax\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "tokenizeExt",
           "package": "hxt-regex-xmlschema",
@@ -1817,6 +1906,7 @@
         "index": {
           "description": "tokenize with extended syntax",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "tokenizeExt",
           "normalized": "String-\u003eString-\u003e[String]",
@@ -1832,6 +1922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "tokenizeExt'",
           "package": "hxt-regex-xmlschema",
@@ -1841,6 +1932,7 @@
         },
         "index": {
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "tokenizeExt'",
           "normalized": "String-\u003eString-\u003e[Either String String]",
@@ -1857,6 +1949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function, that does the real work for \u003ccode\u003e\u003ca\u003etokenize\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "tokenizeRE",
           "package": "hxt-regex-xmlschema",
@@ -1867,6 +1960,7 @@
         "index": {
           "description": "The function that does the real work for tokenize",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "tokenizeRE",
           "normalized": "GenRegex a-\u003eString-\u003e[String]",
@@ -1883,6 +1977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esplit a string into tokens and delimierter by giving a regular expression\n wich all tokens must match\n\u003c/p\u003e\u003cp\u003eThis is a generalisation of the above \u003ccode\u003e\u003ca\u003etokenizeRE\u003c/a\u003e\u003c/code\u003e functions.\n The none matching char sequences are marked with \u003ccode\u003eLeft\u003c/code\u003e, the matching ones are marked with \u003ccode\u003eRight\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eIf the regular expression contains syntax errors \u003ccode\u003eNothing\u003c/code\u003e is returned\n\u003c/p\u003e\u003cp\u003eThe following Law holds:\n\u003c/p\u003e\u003cpre\u003e concat . map (either id id) . tokenizeRE' re == id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "tokenizeRE'",
           "package": "hxt-regex-xmlschema",
@@ -1893,6 +1988,7 @@
         "index": {
           "description": "split string into tokens and delimierter by giving regular expression wich all tokens must match This is generalisation of the above tokenizeRE functions The none matching char sequences are marked with Left the matching ones are marked with Right If the regular expression contains syntax errors Nothing is returned The following Law holds concat map either id id tokenizeRE re id",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "tokenizeRE'",
           "normalized": "GenRegex a-\u003eString-\u003e[Either String String]",
@@ -1909,6 +2005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvenient function for \u003ccode\u003e\u003ca\u003etokenizeSubexRE\u003c/a\u003e\u003c/code\u003e a string\n\u003c/p\u003e\u003cp\u003eexamples:\n\u003c/p\u003e\u003cpre\u003e tokenizeSubex \"({name}[a-z]+)|({num}[0-9]{2,})|({real}[0-9]+[.][0-9]+)\"\n                 \"cab123 456.7abc\"\n                                  = [(\"name\",\"cab\")\n                                    ,(\"num\",\"123\")\n                                    ,(\"real\",\"456.7\")\n                                    ,(\"name\",\"abc\")]\n\n tokenizeSubex \"({real}({n}[0-9]+)([.]({f}[0-9]+))?)\"\n                 \"12.34\"          = [(\"real\",\"12.34\")\n                                    ,(\"n\",\"12\")\n                                    ,(\"f\",\"34\")]\n\n tokenizeSubex \"({real}({n}[0-9]+)([.]({f}[0-9]+))?)\"\n                  \"12 34\"         = [(\"real\",\"12\"),(\"n\",\"12\")\n                                    ,(\"real\",\"34\"),(\"n\",\"34\")]\n\n tokenizeSubex \"({real}({n}[0-9]+)(([.]({f}[0-9]+))|({f})))\"\n                  \"12 34.56\"      = [(\"real\",\"12\"),(\"n\",\"12\"),(\"f\",\"\")\n                                    ,(\"real\",\"34.56\"),(\"n\",\"34\"),(\"f\",\"56\")]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "tokenizeSubex",
           "package": "hxt-regex-xmlschema",
@@ -1919,6 +2016,7 @@
         "index": {
           "description": "convenient function for tokenizeSubexRE string examples tokenizeSubex name a-z num real cab123 abc name cab num real name abc tokenizeSubex real real tokenizeSubex real real real tokenizeSubex real real real",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "tokenizeSubex",
           "normalized": "String-\u003eString-\u003e[(String,String)]",
@@ -1935,6 +2033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esplit a string into tokens (pair of labels and words) by giving a regular expression\n containing labeled subexpressions.\n\u003c/p\u003e\u003cp\u003eThis function should not be called with regular expressions\n without any labeled subexpressions. This does not make sense, because the result list\n will always be empty.\n\u003c/p\u003e\u003cp\u003eResult is the list of matching subexpressions\n This can be used for simple tokenizers.\n At least one char is consumed by parsing a token.\n The pairs in the result list contain the matching substrings.\n All none matching chars are discarded. If the given regex contains syntax errors,\n \u003ccode\u003eNothing\u003c/code\u003e is returned\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:32 UTC 2014",
           "module": "Text.Regex.XMLSchema.String",
           "name": "tokenizeSubexRE",
           "package": "hxt-regex-xmlschema",
@@ -1945,6 +2044,7 @@
         "index": {
           "description": "split string into tokens pair of labels and words by giving regular expression containing labeled subexpressions This function should not be called with regular expressions without any labeled subexpressions This does not make sense because the result list will always be empty Result is the list of matching subexpressions This can be used for simple tokenizers At least one char is consumed by parsing token The pairs in the result list contain the matching substrings All none matching chars are discarded If the given regex contains syntax errors Nothing is returned",
           "hierarchy": "Text Regex XMLSchema String",
+          "indexed": "2014-03-11T18:54:32",
           "module": "Text.Regex.XMLSchema.String",
           "name": "tokenizeSubexRE",
           "normalized": "GenRegex a-\u003eString-\u003e[(a,String)]",

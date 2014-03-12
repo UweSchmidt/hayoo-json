@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "harpy"
+        "phrase": "harpy",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePredefined call stubs for run-time generated code.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.Call",
           "name": "Call",
           "package": "harpy",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Predefined call stubs for run-time generated code",
           "hierarchy": "Harpy Call",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.Call",
           "name": "Call",
           "package": "harpy",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.Call",
           "name": "callAsVoid",
           "package": "harpy",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Harpy Call",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.Call",
           "name": "callAsVoid",
           "normalized": "CodeGen a b()",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.Call",
           "name": "conv",
           "package": "harpy",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Harpy Call",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.Call",
           "name": "conv",
           "normalized": "FunPtr()-\u003eIO()",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonad for generating x86 machine code at runtime.\n\u003c/p\u003e\u003cp\u003eThis is a combined reader-state-exception monad which handles all\n the details of handling code buffers, emitting binary data,\n relocation etc.\n\u003c/p\u003e\u003cp\u003eAll the code generation functions in module \u003ca\u003eHarpy.X86CodeGen\u003c/a\u003e live\n in this monad and use its error reporting facilities as well as the\n internal state maintained by the monad.  \n\u003c/p\u003e\u003cp\u003eThe library user can pass a user environment and user state through\n the monad.  This state is independent from the internal state and\n may be used by higher-level code generation libraries to maintain\n their own state across code generation operations.\n --------------------------------------------------------------------------\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "CodeGenMonad",
           "package": "harpy",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Monad for generating x86 machine code at runtime This is combined reader-state-exception monad which handles all the details of handling code buffers emitting binary data relocation etc All the code generation functions in module Harpy.X86CodeGen live in this monad and use its error reporting facilities as well as the internal state maintained by the monad The library user can pass user environment and user state through the monad This state is independent from the internal state and may be used by higher-level code generation libraries to maintain their own state across code generation operations",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "CodeGenMonad",
           "package": "harpy",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe code generation monad, a combined reader-state-exception\n monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "CodeGen",
           "package": "harpy",
@@ -121,6 +130,7 @@
         "index": {
           "description": "The code generation monad combined reader-state-exception monad",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "CodeGen",
           "package": "harpy",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration of the code generator.  There are currently two\n configuration options.  The first is the number fo bytes to use for\n allocating code buffers (the first as well as additional buffers\n created in calls to \u003ccode\u003e\u003ca\u003eensureBufferSize\u003c/a\u003e\u003c/code\u003e.  The second allows to pass\n in a pre-allocated code buffer and its size.  When this option is\n used, Harpy does not perform any code buffer resizing (calls to\n \u003ccode\u003e\u003ca\u003eensureBufferSize\u003c/a\u003e\u003c/code\u003e will be equivalent to calls to\n \u003ccode\u003e\u003ca\u003echeckBufferSize\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "CodeGenConfig",
           "package": "harpy",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Configuration of the code generator There are currently two configuration options The first is the number fo bytes to use for allocating code buffers the first as well as additional buffers created in calls to ensureBufferSize The second allows to pass in pre-allocated code buffer and its size When this option is used Harpy does not perform any code buffer resizing calls to ensureBufferSize will be equivalent to calls to checkBufferSize",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "CodeGenConfig",
           "package": "harpy",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error message produced by a code generation operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "ErrMsg",
           "package": "harpy",
@@ -167,6 +180,7 @@
         "index": {
           "description": "An error message produced by code generation operation",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "ErrMsg",
           "package": "harpy",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKind of a fixup entry.  When a label is emitted with\n \u003ccode\u003e\u003ca\u003edefineLabel\u003c/a\u003e\u003c/code\u003e, all prior references to this label must be fixed\n up.  This data type tells how to perform the fixup operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "FixupKind",
           "package": "harpy",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Kind of fixup entry When label is emitted with defineLabel all prior references to this label must be fixed up This data type tells how to perform the fixup operation",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "FixupKind",
           "package": "harpy",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "Label",
           "package": "harpy",
@@ -213,6 +230,7 @@
         "index": {
           "description": "Label",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "Label",
           "package": "harpy",
@@ -227,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelocation entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "Reloc",
           "package": "harpy",
@@ -236,6 +255,7 @@
         "index": {
           "description": "Relocation entry",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "Reloc",
           "package": "harpy",
@@ -250,6 +270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKind of relocation, for example PC-relative\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "RelocKind",
           "package": "harpy",
@@ -259,6 +280,7 @@
         "index": {
           "description": "Kind of relocation for example PC-relative",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "RelocKind",
           "package": "harpy",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis operator gives neat syntax for defining labels.  When \u003ccode\u003el\u003c/code\u003e is a label, the code\n\u003c/p\u003e\u003cpre\u003e l @@ mov eax ebx\n\u003c/pre\u003e\u003cp\u003eassociates the label l with the following \u003ccode\u003emov\u003c/code\u003e instruction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "(@@)",
           "package": "harpy",
@@ -283,6 +306,7 @@
         "index": {
           "description": "This operator gives neat syntax for defining labels When is label the code mov eax ebx associates the label with the following mov instruction",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "(@@) @@",
           "normalized": "Label-\u003eCodeGen a b c-\u003eCodeGen a b c",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "CodeGenConfig",
           "package": "harpy",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "CodeGenConfig",
           "package": "harpy",
@@ -320,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e16-bit relative reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "Fixup16",
           "package": "harpy",
@@ -330,6 +357,7 @@
         "index": {
           "description": "bit relative reference",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "Fixup16",
           "package": "harpy",
@@ -344,6 +372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit relative reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "Fixup32",
           "package": "harpy",
@@ -354,6 +383,7 @@
         "index": {
           "description": "bit relative reference",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "Fixup32",
           "package": "harpy",
@@ -368,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit absolute reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "Fixup32Absolute",
           "package": "harpy",
@@ -378,6 +409,7 @@
         "index": {
           "description": "bit absolute reference",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "Fixup32Absolute",
           "package": "harpy",
@@ -392,6 +424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e8-bit relative reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "Fixup8",
           "package": "harpy",
@@ -402,6 +435,7 @@
         "index": {
           "description": "bit relative reference",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "Fixup8",
           "package": "harpy",
@@ -416,6 +450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbsolute address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "RelocAbsolute",
           "package": "harpy",
@@ -426,6 +461,7 @@
         "index": {
           "description": "Absolute address",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "RelocAbsolute",
           "package": "harpy",
@@ -440,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePC-relative relocation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "RelocPCRel",
           "package": "harpy",
@@ -450,6 +487,7 @@
         "index": {
           "description": "PC-relative relocation",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "RelocPCRel",
           "package": "harpy",
@@ -463,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "callDecl",
           "package": "harpy",
@@ -472,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "callDecl",
           "normalized": "String-\u003eQ Type-\u003eQ[Dec]",
@@ -488,6 +528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the code buffer has room for at least the given\n number of bytes.  This should be called by code generators\n whenever it cannot be guaranteed that the code buffer is large\n enough to hold all the generated code.  Lets the code generation\n monad fail when the buffer overflows.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote:\u003c/em\u003e Starting with version 0.4, Harpy automatically checks for\n buffer overflow, so you do not need to call this function anymore.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "checkBufferSize",
           "package": "harpy",
@@ -498,6 +539,7 @@
         "index": {
           "description": "Check whether the code buffer has room for at least the given number of bytes This should be called by code generators whenever it cannot be guaranteed that the code buffer is large enough to hold all the generated code Lets the code generation monad fail when the buffer overflows Note Starting with version Harpy automatically checks for buffer overflow so you do not need to call this function anymore",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "checkBufferSize",
           "normalized": "Int-\u003eCodeGen a b()",
@@ -514,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of individual code buffer blocks. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "codeBufferSize",
           "package": "harpy",
@@ -524,6 +567,7 @@
         "index": {
           "description": "Size of individual code buffer blocks",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "codeBufferSize",
           "package": "harpy",
@@ -538,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCode buffer passed in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "customCodeBuffer",
           "package": "harpy",
@@ -548,6 +593,7 @@
         "index": {
           "description": "Code buffer passed in",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "customCodeBuffer",
           "normalized": "Maybe(Ptr Word,Int)",
@@ -564,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault code generation configuration.  The code buffer size is\n set to 4KB, and code buffer management is automatic.  This value is\n intended to be used with record update syntax, for example:\n\u003c/p\u003e\u003cpre\u003e  runCodeGenWithConfig ... defaultCodeGenConfig{codeBufferSize = 128} ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "defaultCodeGenConfig",
           "package": "harpy",
@@ -574,6 +621,7 @@
         "index": {
           "description": "Default code generation configuration The code buffer size is set to KB and code buffer management is automatic This value is intended to be used with record update syntax for example runCodeGenWithConfig defaultCodeGenConfig codeBufferSize",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "defaultCodeGenConfig",
           "package": "harpy",
@@ -588,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmit a label at the current offset in the code buffer.  All\n references to the label will be relocated to this offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "defineLabel",
           "package": "harpy",
@@ -598,6 +647,7 @@
         "index": {
           "description": "Emit label at the current offset in the code buffer All references to the label will be relocated to this offset",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "defineLabel",
           "normalized": "Label-\u003eCodeGen a b()",
@@ -614,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisassemble all code buffers.  The result is a list of\n disassembled instructions which can be converted to strings using\n the \u003ccode\u003e\u003ca\u003eshowIntel\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eshowAtt\u003c/a\u003e\u003c/code\u003e functions from module\n \u003ca\u003eHarpy.X86Disassembler\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "disassemble",
           "package": "harpy",
@@ -624,6 +675,7 @@
         "index": {
           "description": "Disassemble all code buffers The result is list of disassembled instructions which can be converted to strings using the showIntel or showAtt functions from module Harpy.X86Disassembler",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "disassemble",
           "normalized": "CodeGen a b[Instruction]",
@@ -639,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eemit8\u003c/a\u003e\u003c/code\u003e, but for a 32-bit value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "emit32",
           "package": "harpy",
@@ -649,6 +702,7 @@
         "index": {
           "description": "Like emit8 but for bit value",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "emit32",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -664,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eemit8At\u003c/a\u003e\u003c/code\u003e, but for a 32-bit value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "emit32At",
           "package": "harpy",
@@ -674,6 +729,7 @@
         "index": {
           "description": "Like emit8At but for bit value",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "emit32At",
           "normalized": "Int-\u003eWord-\u003eCodeGen a b()",
@@ -690,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmit a byte value to the code buffer. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "emit8",
           "package": "harpy",
@@ -700,6 +757,7 @@
         "index": {
           "description": "Emit byte value to the code buffer",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "emit8",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -715,6 +773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a byte value at the given offset into the code buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "emit8At",
           "package": "harpy",
@@ -725,6 +784,7 @@
         "index": {
           "description": "Store byte value at the given offset into the code buffer",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "emit8At",
           "normalized": "Int-\u003eWord-\u003eCodeGen a b()",
@@ -741,6 +801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmit a fixup entry for the given label at the current offset in\n the code buffer (unless the label is already defined).\n The instruction at this offset will\n be patched to target the address associated with this label when\n it is defined later.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "emitFixup",
           "package": "harpy",
@@ -751,6 +812,7 @@
         "index": {
           "description": "Emit fixup entry for the given label at the current offset in the code buffer unless the label is already defined The instruction at this offset will be patched to target the address associated with this label when it is defined later",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "emitFixup",
           "normalized": "Label-\u003eInt-\u003eFixupKind-\u003eCodeGen a b()",
@@ -767,6 +829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmit a relocation entry for the given offset, relocation kind \n and target address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "emitRelocInfo",
           "package": "harpy",
@@ -777,6 +840,7 @@
         "index": {
           "description": "Emit relocation entry for the given offset relocation kind and target address",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "emitRelocInfo",
           "normalized": "Int-\u003eRelocKind-\u003eFunPtr a-\u003eCodeGen b c()",
@@ -793,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake sure that the code buffer has room for at least the given\n number of bytes.  This should be called by code generators whenever\n it cannot be guaranteed that the code buffer is large enough to\n hold all the generated code.  Creates a new buffer and places a\n jump to the new buffer when there is not sufficient space\n available.  When code generation was invoked with a pre-defined\n code buffer, code generation is aborted on overflow.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote:\u003c/em\u003e Starting with version 0.4, Harpy automatically checks for\n buffer overflow, so you do not need to call this function anymore.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "ensureBufferSize",
           "package": "harpy",
@@ -803,6 +868,7 @@
         "index": {
           "description": "Make sure that the code buffer has room for at least the given number of bytes This should be called by code generators whenever it cannot be guaranteed that the code buffer is large enough to hold all the generated code Creates new buffer and places jump to the new buffer when there is not sufficient space available When code generation was invoked with pre-defined code buffer code generation is aborted on overflow Note Starting with version Harpy automatically checks for buffer overflow so you do not need to call this function anymore",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "ensureBufferSize",
           "normalized": "Int-\u003eCodeGen a b()",
@@ -819,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbort code generation with the given error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "failCodeGen",
           "package": "harpy",
@@ -829,6 +896,7 @@
         "index": {
           "description": "Abort code generation with the given error message",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "failCodeGen",
           "normalized": "Doc-\u003eCodeGen a b c",
@@ -845,6 +913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the pointer to the start of the code buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "getBasePtr",
           "package": "harpy",
@@ -855,6 +924,7 @@
         "index": {
           "description": "Return the pointer to the start of the code buffer",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "getBasePtr",
           "package": "harpy",
@@ -869,6 +939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of all code buffers and their respective size \n (i.e., actually used space for code, not allocated size).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "getCodeBufferList",
           "package": "harpy",
@@ -879,6 +950,7 @@
         "index": {
           "description": "Return list of all code buffers and their respective size i.e actually used space for code not allocated size",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "getCodeBufferList",
           "normalized": "CodeGen a b[(Ptr Word,Int)]",
@@ -895,6 +967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the current offset in the code buffer, e.g. the offset\n at which the next instruction will be emitted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "getCodeOffset",
           "package": "harpy",
@@ -905,6 +978,7 @@
         "index": {
           "description": "Return the current offset in the code buffer e.g the offset at which the next instruction will be emitted",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "getCodeOffset",
           "package": "harpy",
@@ -919,6 +993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a pointer to the beginning of the first code buffer, which\n is normally the entry point to the generated code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "getEntryPoint",
           "package": "harpy",
@@ -929,6 +1004,7 @@
         "index": {
           "description": "Return pointer to the beginning of the first code buffer which is normally the entry point to the generated code",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "getEntryPoint",
           "package": "harpy",
@@ -943,6 +1019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the current user environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "getEnv",
           "package": "harpy",
@@ -953,6 +1030,7 @@
         "index": {
           "description": "Return the current user environment",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "getEnv",
           "package": "harpy",
@@ -967,6 +1045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the current user state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "getState",
           "package": "harpy",
@@ -977,6 +1056,7 @@
         "index": {
           "description": "Return the current user state",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "getState",
           "package": "harpy",
@@ -991,6 +1071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the address of a label, fail if the label is not yet defined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "labelAddress",
           "package": "harpy",
@@ -1001,6 +1082,7 @@
         "index": {
           "description": "Return the address of label fail if the label is not yet defined",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "labelAddress",
           "normalized": "Label-\u003eCodeGen a b(Ptr c)",
@@ -1017,6 +1099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a new label to be used with the label operations\n \u003ccode\u003e\u003ca\u003eemitFixup\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edefineLabel\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "newLabel",
           "package": "harpy",
@@ -1027,6 +1110,7 @@
         "index": {
           "description": "Generate new label to be used with the label operations emitFixup and defineLabel",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "newLabel",
           "package": "harpy",
@@ -1041,6 +1125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a new label to be used with the label operations\n \u003ccode\u003e\u003ca\u003eemitFixup\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edefineLabel\u003c/a\u003e\u003c/code\u003e.  The given name is used for\n diagnostic purposes, and will appear in the disassembly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "newNamedLabel",
           "package": "harpy",
@@ -1051,6 +1136,7 @@
         "index": {
           "description": "Generate new label to be used with the label operations emitFixup and defineLabel The given name is used for diagnostic purposes and will appear in the disassembly",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "newNamedLabel",
           "normalized": "String-\u003eCodeGen a b Label",
@@ -1067,6 +1153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the byte value at the given offset in the code buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "peek8At",
           "package": "harpy",
@@ -1077,6 +1164,7 @@
         "index": {
           "description": "Return the byte value at the given offset in the code buffer",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "peek8At",
           "normalized": "Int-\u003eCodeGen a b Word",
@@ -1093,6 +1181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute code generation, given a user environment and state.  The\n result is a tuple of the resulting user state and either an error\n message (when code generation failed) or the result of the code\n generation.  This function runs \u003ccode\u003e\u003ca\u003erunCodeGenWithConfig\u003c/a\u003e\u003c/code\u003e with a\n sensible default configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "runCodeGen",
           "package": "harpy",
@@ -1103,6 +1192,7 @@
         "index": {
           "description": "Execute code generation given user environment and state The result is tuple of the resulting user state and either an error message when code generation failed or the result of the code generation This function runs runCodeGenWithConfig with sensible default configuration",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "runCodeGen",
           "normalized": "CodeGen a b c-\u003ea-\u003eb-\u003eIO(b,Either ErrMsg c)",
@@ -1119,6 +1209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003erunCodeGen\u003c/a\u003e\u003c/code\u003e, but allows more control over the code\n generation process.  In addition to a code generator and a user\n environment and state, a code generation configuration must be\n provided.  A code generation configuration allows control over the\n allocation of code buffers, for example.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "runCodeGenWithConfig",
           "package": "harpy",
@@ -1129,6 +1220,7 @@
         "index": {
           "description": "Like runCodeGen but allows more control over the code generation process In addition to code generator and user environment and state code generation configuration must be provided code generation configuration allows control over the allocation of code buffers for example",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "runCodeGenWithConfig",
           "normalized": "CodeGen a b c-\u003ea-\u003eb-\u003eCodeGenConfig-\u003eIO(b,Either ErrMsg c)",
@@ -1145,6 +1237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a new label and define it at once\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "setLabel",
           "package": "harpy",
@@ -1155,6 +1248,7 @@
         "index": {
           "description": "Generate new label and define it at once",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "setLabel",
           "package": "harpy",
@@ -1169,6 +1263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the user state to the given value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "setState",
           "package": "harpy",
@@ -1179,6 +1274,7 @@
         "index": {
           "description": "Set the user state to the given value",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "setState",
           "normalized": "a-\u003eCodeGen b a()",
@@ -1195,6 +1291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the environment to the given value and execute the given\n code generation in this environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.CodeGenMonad",
           "name": "withEnv",
           "package": "harpy",
@@ -1205,6 +1302,7 @@
         "index": {
           "description": "Set the environment to the given value and execute the given code generation in this environment",
           "hierarchy": "Harpy CodeGenMonad",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.CodeGenMonad",
           "name": "withEnv",
           "normalized": "a-\u003eCodeGen a b c-\u003eCodeGen a b c",
@@ -1221,6 +1319,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA type class based layer on top of X86CodeGen\n which determines the addressing modes from the types of the\n operands.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "X86Assembler",
           "package": "harpy",
@@ -1230,6 +1329,7 @@
         "index": {
           "description": "type class based layer on top of X86CodeGen which determines the addressing modes from the types of the operands",
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "X86Assembler",
           "package": "harpy",
@@ -1243,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Adc",
           "package": "harpy",
@@ -1251,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Adc",
           "package": "harpy",
@@ -1264,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Add",
           "package": "harpy",
@@ -1272,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Add",
           "package": "harpy",
@@ -1285,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Addpd",
           "package": "harpy",
@@ -1293,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Addpd",
           "package": "harpy",
@@ -1306,6 +1412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Addps",
           "package": "harpy",
@@ -1314,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Addps",
           "package": "harpy",
@@ -1327,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Addr",
           "package": "harpy",
@@ -1335,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Addr",
           "package": "harpy",
@@ -1348,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Addsd",
           "package": "harpy",
@@ -1356,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Addsd",
           "package": "harpy",
@@ -1369,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Addss",
           "package": "harpy",
@@ -1377,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Addss",
           "package": "harpy",
@@ -1390,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "And",
           "package": "harpy",
@@ -1398,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "And",
           "package": "harpy",
@@ -1411,6 +1527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Call",
           "package": "harpy",
@@ -1419,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Call",
           "package": "harpy",
@@ -1432,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmova",
           "package": "harpy",
@@ -1440,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmova",
           "package": "harpy",
@@ -1453,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovae",
           "package": "harpy",
@@ -1461,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovae",
           "package": "harpy",
@@ -1474,6 +1596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovb",
           "package": "harpy",
@@ -1482,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovb",
           "package": "harpy",
@@ -1495,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovbe",
           "package": "harpy",
@@ -1503,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovbe",
           "package": "harpy",
@@ -1516,6 +1642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovc",
           "package": "harpy",
@@ -1524,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovc",
           "package": "harpy",
@@ -1537,6 +1665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmove",
           "package": "harpy",
@@ -1545,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmove",
           "package": "harpy",
@@ -1558,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovg",
           "package": "harpy",
@@ -1566,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovg",
           "package": "harpy",
@@ -1579,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovge",
           "package": "harpy",
@@ -1587,6 +1720,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovge",
           "package": "harpy",
@@ -1600,6 +1734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovl",
           "package": "harpy",
@@ -1608,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovl",
           "package": "harpy",
@@ -1621,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovle",
           "package": "harpy",
@@ -1629,6 +1766,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovle",
           "package": "harpy",
@@ -1642,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovna",
           "package": "harpy",
@@ -1650,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovna",
           "package": "harpy",
@@ -1663,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovnae",
           "package": "harpy",
@@ -1671,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovnae",
           "package": "harpy",
@@ -1684,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovnb",
           "package": "harpy",
@@ -1692,6 +1835,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovnb",
           "package": "harpy",
@@ -1705,6 +1849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovnbe",
           "package": "harpy",
@@ -1713,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovnbe",
           "package": "harpy",
@@ -1726,6 +1872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovnc",
           "package": "harpy",
@@ -1734,6 +1881,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovnc",
           "package": "harpy",
@@ -1747,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovne",
           "package": "harpy",
@@ -1755,6 +1904,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovne",
           "package": "harpy",
@@ -1768,6 +1918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovng",
           "package": "harpy",
@@ -1776,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovng",
           "package": "harpy",
@@ -1789,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovnge",
           "package": "harpy",
@@ -1797,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovnge",
           "package": "harpy",
@@ -1810,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovnl",
           "package": "harpy",
@@ -1818,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovnl",
           "package": "harpy",
@@ -1831,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovnle",
           "package": "harpy",
@@ -1839,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovnle",
           "package": "harpy",
@@ -1852,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovno",
           "package": "harpy",
@@ -1860,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovno",
           "package": "harpy",
@@ -1873,6 +2033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovnp",
           "package": "harpy",
@@ -1881,6 +2042,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovnp",
           "package": "harpy",
@@ -1894,6 +2056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovns",
           "package": "harpy",
@@ -1902,6 +2065,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovns",
           "package": "harpy",
@@ -1915,6 +2079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovnz",
           "package": "harpy",
@@ -1923,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovnz",
           "package": "harpy",
@@ -1936,6 +2102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovo",
           "package": "harpy",
@@ -1944,6 +2111,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovo",
           "package": "harpy",
@@ -1957,6 +2125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovp",
           "package": "harpy",
@@ -1965,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovp",
           "package": "harpy",
@@ -1978,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovpe",
           "package": "harpy",
@@ -1986,6 +2157,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovpe",
           "package": "harpy",
@@ -1999,6 +2171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovpo",
           "package": "harpy",
@@ -2007,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovpo",
           "package": "harpy",
@@ -2020,6 +2194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovs",
           "package": "harpy",
@@ -2028,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovs",
           "package": "harpy",
@@ -2041,6 +2217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmovz",
           "package": "harpy",
@@ -2049,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmovz",
           "package": "harpy",
@@ -2062,6 +2240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmp",
           "package": "harpy",
@@ -2070,6 +2249,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmp",
           "package": "harpy",
@@ -2083,6 +2263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Cmpxchg",
           "package": "harpy",
@@ -2091,6 +2272,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Cmpxchg",
           "package": "harpy",
@@ -2104,6 +2286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Comisd",
           "package": "harpy",
@@ -2112,6 +2295,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Comisd",
           "package": "harpy",
@@ -2125,6 +2309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Comiss",
           "package": "harpy",
@@ -2133,6 +2318,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Comiss",
           "package": "harpy",
@@ -2146,6 +2332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Dec",
           "package": "harpy",
@@ -2154,6 +2341,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Dec",
           "package": "harpy",
@@ -2167,6 +2355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Disp",
           "package": "harpy",
@@ -2175,6 +2364,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Disp",
           "package": "harpy",
@@ -2188,6 +2378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Div",
           "package": "harpy",
@@ -2196,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Div",
           "package": "harpy",
@@ -2209,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Divpd",
           "package": "harpy",
@@ -2217,6 +2410,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Divpd",
           "package": "harpy",
@@ -2230,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Divps",
           "package": "harpy",
@@ -2238,6 +2433,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Divps",
           "package": "harpy",
@@ -2251,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Divsd",
           "package": "harpy",
@@ -2259,6 +2456,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Divsd",
           "package": "harpy",
@@ -2272,6 +2470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Divss",
           "package": "harpy",
@@ -2280,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Divss",
           "package": "harpy",
@@ -2293,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "FPReg",
           "package": "harpy",
@@ -2301,6 +2502,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "FPReg",
           "package": "harpy",
@@ -2314,6 +2516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "FPTopReg",
           "package": "harpy",
@@ -2322,6 +2525,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "FPTopReg",
           "package": "harpy",
@@ -2335,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fadd",
           "package": "harpy",
@@ -2343,6 +2548,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fadd",
           "package": "harpy",
@@ -2356,6 +2562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Faddp",
           "package": "harpy",
@@ -2364,6 +2571,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Faddp",
           "package": "harpy",
@@ -2377,6 +2585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fcom",
           "package": "harpy",
@@ -2385,6 +2594,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fcom",
           "package": "harpy",
@@ -2398,6 +2608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fcomp",
           "package": "harpy",
@@ -2406,6 +2617,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fcomp",
           "package": "harpy",
@@ -2419,6 +2631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fdiv",
           "package": "harpy",
@@ -2427,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fdiv",
           "package": "harpy",
@@ -2440,6 +2654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fdivp",
           "package": "harpy",
@@ -2448,6 +2663,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fdivp",
           "package": "harpy",
@@ -2461,6 +2677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fdivr",
           "package": "harpy",
@@ -2469,6 +2686,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fdivr",
           "package": "harpy",
@@ -2482,6 +2700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fiadd",
           "package": "harpy",
@@ -2490,6 +2709,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fiadd",
           "package": "harpy",
@@ -2503,6 +2723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fidiv",
           "package": "harpy",
@@ -2511,6 +2732,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fidiv",
           "package": "harpy",
@@ -2524,6 +2746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fild",
           "package": "harpy",
@@ -2532,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fild",
           "package": "harpy",
@@ -2545,6 +2769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fimul",
           "package": "harpy",
@@ -2553,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fimul",
           "package": "harpy",
@@ -2566,6 +2792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fist",
           "package": "harpy",
@@ -2574,6 +2801,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fist",
           "package": "harpy",
@@ -2587,6 +2815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fistp",
           "package": "harpy",
@@ -2595,6 +2824,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fistp",
           "package": "harpy",
@@ -2608,6 +2838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fisub",
           "package": "harpy",
@@ -2616,6 +2847,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fisub",
           "package": "harpy",
@@ -2629,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fld",
           "package": "harpy",
@@ -2637,6 +2870,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fld",
           "package": "harpy",
@@ -2650,6 +2884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fld80",
           "package": "harpy",
@@ -2658,6 +2893,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fld80",
           "package": "harpy",
@@ -2671,6 +2907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fldcw",
           "package": "harpy",
@@ -2679,6 +2916,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fldcw",
           "package": "harpy",
@@ -2692,6 +2930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fmul",
           "package": "harpy",
@@ -2700,6 +2939,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fmul",
           "package": "harpy",
@@ -2713,6 +2953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fmulp",
           "package": "harpy",
@@ -2721,6 +2962,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fmulp",
           "package": "harpy",
@@ -2734,6 +2976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fnstcw",
           "package": "harpy",
@@ -2742,6 +2985,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fnstcw",
           "package": "harpy",
@@ -2755,6 +2999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fst",
           "package": "harpy",
@@ -2763,6 +3008,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fst",
           "package": "harpy",
@@ -2776,6 +3022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fst80",
           "package": "harpy",
@@ -2784,6 +3031,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fst80",
           "package": "harpy",
@@ -2797,6 +3045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fstp",
           "package": "harpy",
@@ -2805,6 +3054,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fstp",
           "package": "harpy",
@@ -2818,6 +3068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fsub",
           "package": "harpy",
@@ -2826,6 +3077,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fsub",
           "package": "harpy",
@@ -2839,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fsubp",
           "package": "harpy",
@@ -2847,6 +3100,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fsubp",
           "package": "harpy",
@@ -2860,6 +3114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Fsubr",
           "package": "harpy",
@@ -2868,6 +3123,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Fsubr",
           "package": "harpy",
@@ -2881,6 +3137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Idiv",
           "package": "harpy",
@@ -2889,6 +3146,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Idiv",
           "package": "harpy",
@@ -2902,6 +3160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Imul",
           "package": "harpy",
@@ -2910,6 +3169,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Imul",
           "package": "harpy",
@@ -2923,6 +3183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "InPlace",
           "package": "harpy",
@@ -2931,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "InPlace",
           "package": "harpy",
@@ -2944,6 +3206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Inc",
           "package": "harpy",
@@ -2952,6 +3215,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Inc",
           "package": "harpy",
@@ -2965,6 +3229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Ind",
           "package": "harpy",
@@ -2973,6 +3238,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Ind",
           "package": "harpy",
@@ -2986,6 +3252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Ja",
           "package": "harpy",
@@ -2994,6 +3261,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Ja",
           "package": "harpy",
@@ -3007,6 +3275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jae",
           "package": "harpy",
@@ -3015,6 +3284,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jae",
           "package": "harpy",
@@ -3028,6 +3298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jb",
           "package": "harpy",
@@ -3036,6 +3307,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jb",
           "package": "harpy",
@@ -3049,6 +3321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jbe",
           "package": "harpy",
@@ -3057,6 +3330,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jbe",
           "package": "harpy",
@@ -3070,6 +3344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jc",
           "package": "harpy",
@@ -3078,6 +3353,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jc",
           "package": "harpy",
@@ -3091,6 +3367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Je",
           "package": "harpy",
@@ -3099,6 +3376,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Je",
           "package": "harpy",
@@ -3112,6 +3390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jg",
           "package": "harpy",
@@ -3120,6 +3399,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jg",
           "package": "harpy",
@@ -3133,6 +3413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jge",
           "package": "harpy",
@@ -3141,6 +3422,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jge",
           "package": "harpy",
@@ -3154,6 +3436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jl",
           "package": "harpy",
@@ -3162,6 +3445,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jl",
           "package": "harpy",
@@ -3175,6 +3459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jle",
           "package": "harpy",
@@ -3183,6 +3468,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jle",
           "package": "harpy",
@@ -3196,6 +3482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jmp",
           "package": "harpy",
@@ -3204,6 +3491,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jmp",
           "package": "harpy",
@@ -3217,6 +3505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jna",
           "package": "harpy",
@@ -3225,6 +3514,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jna",
           "package": "harpy",
@@ -3238,6 +3528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jnae",
           "package": "harpy",
@@ -3246,6 +3537,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jnae",
           "package": "harpy",
@@ -3259,6 +3551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jnb",
           "package": "harpy",
@@ -3267,6 +3560,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jnb",
           "package": "harpy",
@@ -3280,6 +3574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jnbe",
           "package": "harpy",
@@ -3288,6 +3583,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jnbe",
           "package": "harpy",
@@ -3301,6 +3597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jnc",
           "package": "harpy",
@@ -3309,6 +3606,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jnc",
           "package": "harpy",
@@ -3322,6 +3620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jne",
           "package": "harpy",
@@ -3330,6 +3629,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jne",
           "package": "harpy",
@@ -3343,6 +3643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jng",
           "package": "harpy",
@@ -3351,6 +3652,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jng",
           "package": "harpy",
@@ -3364,6 +3666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jnge",
           "package": "harpy",
@@ -3372,6 +3675,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jnge",
           "package": "harpy",
@@ -3385,6 +3689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jnl",
           "package": "harpy",
@@ -3393,6 +3698,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jnl",
           "package": "harpy",
@@ -3406,6 +3712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jnle",
           "package": "harpy",
@@ -3414,6 +3721,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jnle",
           "package": "harpy",
@@ -3427,6 +3735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jno",
           "package": "harpy",
@@ -3435,6 +3744,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jno",
           "package": "harpy",
@@ -3448,6 +3758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jnp",
           "package": "harpy",
@@ -3456,6 +3767,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jnp",
           "package": "harpy",
@@ -3469,6 +3781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jns",
           "package": "harpy",
@@ -3477,6 +3790,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jns",
           "package": "harpy",
@@ -3490,6 +3804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jnz",
           "package": "harpy",
@@ -3498,6 +3813,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jnz",
           "package": "harpy",
@@ -3511,6 +3827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jo",
           "package": "harpy",
@@ -3519,6 +3836,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jo",
           "package": "harpy",
@@ -3532,6 +3850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jp",
           "package": "harpy",
@@ -3540,6 +3859,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jp",
           "package": "harpy",
@@ -3553,6 +3873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jpe",
           "package": "harpy",
@@ -3561,6 +3882,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jpe",
           "package": "harpy",
@@ -3574,6 +3896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jpo",
           "package": "harpy",
@@ -3582,6 +3905,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jpo",
           "package": "harpy",
@@ -3595,6 +3919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Js",
           "package": "harpy",
@@ -3603,6 +3928,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Js",
           "package": "harpy",
@@ -3616,6 +3942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Jz",
           "package": "harpy",
@@ -3624,6 +3951,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Jz",
           "package": "harpy",
@@ -3637,6 +3965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Lea",
           "package": "harpy",
@@ -3645,6 +3974,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Lea",
           "package": "harpy",
@@ -3658,6 +3988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Loop",
           "package": "harpy",
@@ -3666,6 +3997,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Loop",
           "package": "harpy",
@@ -3679,6 +4011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Maxpd",
           "package": "harpy",
@@ -3687,6 +4020,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Maxpd",
           "package": "harpy",
@@ -3700,6 +4034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Maxps",
           "package": "harpy",
@@ -3708,6 +4043,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Maxps",
           "package": "harpy",
@@ -3721,6 +4057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Maxsd",
           "package": "harpy",
@@ -3729,6 +4066,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Maxsd",
           "package": "harpy",
@@ -3742,6 +4080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Maxss",
           "package": "harpy",
@@ -3750,6 +4089,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Maxss",
           "package": "harpy",
@@ -3763,6 +4103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Minpd",
           "package": "harpy",
@@ -3771,6 +4112,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Minpd",
           "package": "harpy",
@@ -3784,6 +4126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Minps",
           "package": "harpy",
@@ -3792,6 +4135,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Minps",
           "package": "harpy",
@@ -3805,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Minsd",
           "package": "harpy",
@@ -3813,6 +4158,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Minsd",
           "package": "harpy",
@@ -3826,6 +4172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Minss",
           "package": "harpy",
@@ -3834,6 +4181,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Minss",
           "package": "harpy",
@@ -3847,6 +4195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Mov",
           "package": "harpy",
@@ -3855,6 +4204,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Mov",
           "package": "harpy",
@@ -3868,6 +4218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Movlps",
           "package": "harpy",
@@ -3876,6 +4227,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Movlps",
           "package": "harpy",
@@ -3889,6 +4241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Movsd",
           "package": "harpy",
@@ -3897,6 +4250,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Movsd",
           "package": "harpy",
@@ -3910,6 +4264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Movss",
           "package": "harpy",
@@ -3918,6 +4273,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Movss",
           "package": "harpy",
@@ -3931,6 +4287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Movsxb",
           "package": "harpy",
@@ -3939,6 +4296,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Movsxb",
           "package": "harpy",
@@ -3952,6 +4310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Movsxw",
           "package": "harpy",
@@ -3960,6 +4319,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Movsxw",
           "package": "harpy",
@@ -3973,6 +4333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Movups",
           "package": "harpy",
@@ -3981,6 +4342,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Movups",
           "package": "harpy",
@@ -3994,6 +4356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Movzxb",
           "package": "harpy",
@@ -4002,6 +4365,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Movzxb",
           "package": "harpy",
@@ -4015,6 +4379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Movzxw",
           "package": "harpy",
@@ -4023,6 +4388,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Movzxw",
           "package": "harpy",
@@ -4036,6 +4402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Mul",
           "package": "harpy",
@@ -4044,6 +4411,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Mul",
           "package": "harpy",
@@ -4057,6 +4425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Mulpd",
           "package": "harpy",
@@ -4065,6 +4434,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Mulpd",
           "package": "harpy",
@@ -4078,6 +4448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Mulps",
           "package": "harpy",
@@ -4086,6 +4457,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Mulps",
           "package": "harpy",
@@ -4099,6 +4471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Mulsd",
           "package": "harpy",
@@ -4107,6 +4480,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Mulsd",
           "package": "harpy",
@@ -4120,6 +4494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Mulss",
           "package": "harpy",
@@ -4128,6 +4503,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Mulss",
           "package": "harpy",
@@ -4141,6 +4517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Neg",
           "package": "harpy",
@@ -4149,6 +4526,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Neg",
           "package": "harpy",
@@ -4162,6 +4540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Not",
           "package": "harpy",
@@ -4170,6 +4549,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Not",
           "package": "harpy",
@@ -4183,6 +4563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Or",
           "package": "harpy",
@@ -4191,6 +4572,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Or",
           "package": "harpy",
@@ -4204,6 +4586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Pop",
           "package": "harpy",
@@ -4212,6 +4595,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Pop",
           "package": "harpy",
@@ -4225,6 +4609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Prefetch0",
           "package": "harpy",
@@ -4233,6 +4618,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Prefetch0",
           "package": "harpy",
@@ -4246,6 +4632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Prefetch1",
           "package": "harpy",
@@ -4254,6 +4641,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Prefetch1",
           "package": "harpy",
@@ -4267,6 +4655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Prefetch2",
           "package": "harpy",
@@ -4275,6 +4664,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Prefetch2",
           "package": "harpy",
@@ -4288,6 +4678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Prefetchnta",
           "package": "harpy",
@@ -4296,6 +4687,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Prefetchnta",
           "package": "harpy",
@@ -4309,6 +4701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Push",
           "package": "harpy",
@@ -4317,6 +4710,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Push",
           "package": "harpy",
@@ -4330,6 +4724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Rcl",
           "package": "harpy",
@@ -4338,6 +4733,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Rcl",
           "package": "harpy",
@@ -4351,6 +4747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Rcr",
           "package": "harpy",
@@ -4359,6 +4756,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Rcr",
           "package": "harpy",
@@ -4372,6 +4770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Reg16",
           "package": "harpy",
@@ -4380,6 +4779,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Reg16",
           "package": "harpy",
@@ -4393,6 +4793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Reg32",
           "package": "harpy",
@@ -4401,6 +4802,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Reg32",
           "package": "harpy",
@@ -4414,6 +4816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Reg8",
           "package": "harpy",
@@ -4422,6 +4825,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Reg8",
           "package": "harpy",
@@ -4435,6 +4839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Rol",
           "package": "harpy",
@@ -4443,6 +4848,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Rol",
           "package": "harpy",
@@ -4456,6 +4862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Ror",
           "package": "harpy",
@@ -4464,6 +4871,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Ror",
           "package": "harpy",
@@ -4477,6 +4885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Sal",
           "package": "harpy",
@@ -4485,6 +4894,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Sal",
           "package": "harpy",
@@ -4498,6 +4908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Sar",
           "package": "harpy",
@@ -4506,6 +4917,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Sar",
           "package": "harpy",
@@ -4519,6 +4931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Sbb",
           "package": "harpy",
@@ -4527,6 +4940,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Sbb",
           "package": "harpy",
@@ -4540,6 +4954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Scale",
           "package": "harpy",
@@ -4548,6 +4963,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Scale",
           "package": "harpy",
@@ -4561,6 +4977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Seta",
           "package": "harpy",
@@ -4569,6 +4986,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Seta",
           "package": "harpy",
@@ -4582,6 +5000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setae",
           "package": "harpy",
@@ -4590,6 +5009,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setae",
           "package": "harpy",
@@ -4603,6 +5023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setb",
           "package": "harpy",
@@ -4611,6 +5032,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setb",
           "package": "harpy",
@@ -4624,6 +5046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setbe",
           "package": "harpy",
@@ -4632,6 +5055,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setbe",
           "package": "harpy",
@@ -4645,6 +5069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setc",
           "package": "harpy",
@@ -4653,6 +5078,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setc",
           "package": "harpy",
@@ -4666,6 +5092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Sete",
           "package": "harpy",
@@ -4674,6 +5101,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Sete",
           "package": "harpy",
@@ -4687,6 +5115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setg",
           "package": "harpy",
@@ -4695,6 +5124,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setg",
           "package": "harpy",
@@ -4708,6 +5138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setge",
           "package": "harpy",
@@ -4716,6 +5147,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setge",
           "package": "harpy",
@@ -4729,6 +5161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setl",
           "package": "harpy",
@@ -4737,6 +5170,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setl",
           "package": "harpy",
@@ -4750,6 +5184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setle",
           "package": "harpy",
@@ -4758,6 +5193,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setle",
           "package": "harpy",
@@ -4771,6 +5207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setna",
           "package": "harpy",
@@ -4779,6 +5216,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setna",
           "package": "harpy",
@@ -4792,6 +5230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setnae",
           "package": "harpy",
@@ -4800,6 +5239,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setnae",
           "package": "harpy",
@@ -4813,6 +5253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setnb",
           "package": "harpy",
@@ -4821,6 +5262,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setnb",
           "package": "harpy",
@@ -4834,6 +5276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setnbe",
           "package": "harpy",
@@ -4842,6 +5285,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setnbe",
           "package": "harpy",
@@ -4855,6 +5299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setnc",
           "package": "harpy",
@@ -4863,6 +5308,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setnc",
           "package": "harpy",
@@ -4876,6 +5322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setne",
           "package": "harpy",
@@ -4884,6 +5331,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setne",
           "package": "harpy",
@@ -4897,6 +5345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setng",
           "package": "harpy",
@@ -4905,6 +5354,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setng",
           "package": "harpy",
@@ -4918,6 +5368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setnge",
           "package": "harpy",
@@ -4926,6 +5377,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setnge",
           "package": "harpy",
@@ -4939,6 +5391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setnl",
           "package": "harpy",
@@ -4947,6 +5400,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setnl",
           "package": "harpy",
@@ -4960,6 +5414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setnle",
           "package": "harpy",
@@ -4968,6 +5423,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setnle",
           "package": "harpy",
@@ -4981,6 +5437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setno",
           "package": "harpy",
@@ -4989,6 +5446,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setno",
           "package": "harpy",
@@ -5002,6 +5460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setnp",
           "package": "harpy",
@@ -5010,6 +5469,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setnp",
           "package": "harpy",
@@ -5023,6 +5483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setns",
           "package": "harpy",
@@ -5031,6 +5492,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setns",
           "package": "harpy",
@@ -5044,6 +5506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setnz",
           "package": "harpy",
@@ -5052,6 +5515,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setnz",
           "package": "harpy",
@@ -5065,6 +5529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Seto",
           "package": "harpy",
@@ -5073,6 +5538,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Seto",
           "package": "harpy",
@@ -5086,6 +5552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setp",
           "package": "harpy",
@@ -5094,6 +5561,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setp",
           "package": "harpy",
@@ -5107,6 +5575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setpe",
           "package": "harpy",
@@ -5115,6 +5584,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setpe",
           "package": "harpy",
@@ -5128,6 +5598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setpo",
           "package": "harpy",
@@ -5136,6 +5607,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setpo",
           "package": "harpy",
@@ -5149,6 +5621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Sets",
           "package": "harpy",
@@ -5157,6 +5630,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Sets",
           "package": "harpy",
@@ -5170,6 +5644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Setz",
           "package": "harpy",
@@ -5178,6 +5653,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Setz",
           "package": "harpy",
@@ -5191,6 +5667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Shl",
           "package": "harpy",
@@ -5199,6 +5676,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Shl",
           "package": "harpy",
@@ -5212,6 +5690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Shld",
           "package": "harpy",
@@ -5220,6 +5699,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Shld",
           "package": "harpy",
@@ -5233,6 +5713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Shr",
           "package": "harpy",
@@ -5241,6 +5722,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Shr",
           "package": "harpy",
@@ -5254,6 +5736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Shrd",
           "package": "harpy",
@@ -5262,6 +5745,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Shrd",
           "package": "harpy",
@@ -5275,6 +5759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Sqrtpd",
           "package": "harpy",
@@ -5283,6 +5768,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Sqrtpd",
           "package": "harpy",
@@ -5296,6 +5782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Sqrtps",
           "package": "harpy",
@@ -5304,6 +5791,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Sqrtps",
           "package": "harpy",
@@ -5317,6 +5805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Sqrtsd",
           "package": "harpy",
@@ -5325,6 +5814,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Sqrtsd",
           "package": "harpy",
@@ -5338,6 +5828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Sqrtss",
           "package": "harpy",
@@ -5346,6 +5837,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Sqrtss",
           "package": "harpy",
@@ -5359,6 +5851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Sub",
           "package": "harpy",
@@ -5367,6 +5860,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Sub",
           "package": "harpy",
@@ -5380,6 +5874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Subpd",
           "package": "harpy",
@@ -5388,6 +5883,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Subpd",
           "package": "harpy",
@@ -5401,6 +5897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Subps",
           "package": "harpy",
@@ -5409,6 +5906,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Subps",
           "package": "harpy",
@@ -5422,6 +5920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Subsd",
           "package": "harpy",
@@ -5430,6 +5929,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Subsd",
           "package": "harpy",
@@ -5443,6 +5943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Subss",
           "package": "harpy",
@@ -5451,6 +5952,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Subss",
           "package": "harpy",
@@ -5464,6 +5966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Test",
           "package": "harpy",
@@ -5472,6 +5975,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Test",
           "package": "harpy",
@@ -5485,6 +5989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Ucomisd",
           "package": "harpy",
@@ -5493,6 +5998,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Ucomisd",
           "package": "harpy",
@@ -5506,6 +6012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Ucomiss",
           "package": "harpy",
@@ -5514,6 +6021,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Ucomiss",
           "package": "harpy",
@@ -5527,6 +6035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "XMMLoc",
           "package": "harpy",
@@ -5535,6 +6044,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "XMMLoc",
           "package": "harpy",
@@ -5548,6 +6058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "XMMReg",
           "package": "harpy",
@@ -5556,6 +6067,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "XMMReg",
           "package": "harpy",
@@ -5569,6 +6081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Xadd",
           "package": "harpy",
@@ -5577,6 +6090,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Xadd",
           "package": "harpy",
@@ -5590,6 +6104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Xchg",
           "package": "harpy",
@@ -5598,6 +6113,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Xchg",
           "package": "harpy",
@@ -5611,6 +6127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Xor",
           "package": "harpy",
@@ -5619,6 +6136,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Xor",
           "package": "harpy",
@@ -5632,6 +6150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Addr",
           "package": "harpy",
@@ -5641,6 +6160,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Addr",
           "package": "harpy",
@@ -5654,6 +6174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Disp",
           "package": "harpy",
@@ -5663,6 +6184,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Disp",
           "package": "harpy",
@@ -5676,6 +6198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "FPReg",
           "package": "harpy",
@@ -5685,6 +6208,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "FPReg",
           "package": "harpy",
@@ -5698,6 +6222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "FPTopReg",
           "package": "harpy",
@@ -5707,6 +6232,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "FPTopReg",
           "package": "harpy",
@@ -5720,6 +6246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "InPlace",
           "package": "harpy",
@@ -5729,6 +6256,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "InPlace",
           "package": "harpy",
@@ -5742,6 +6270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Ind",
           "package": "harpy",
@@ -5751,6 +6280,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Ind",
           "package": "harpy",
@@ -5764,6 +6294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Reg16",
           "package": "harpy",
@@ -5773,6 +6304,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Reg16",
           "package": "harpy",
@@ -5786,6 +6318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Reg32",
           "package": "harpy",
@@ -5795,6 +6328,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Reg32",
           "package": "harpy",
@@ -5808,6 +6342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "Reg8",
           "package": "harpy",
@@ -5817,6 +6352,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "Reg8",
           "package": "harpy",
@@ -5830,6 +6366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "S1",
           "package": "harpy",
@@ -5839,6 +6376,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "S1",
           "package": "harpy",
@@ -5851,6 +6389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "S2",
           "package": "harpy",
@@ -5860,6 +6399,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "S2",
           "package": "harpy",
@@ -5872,6 +6412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "S4",
           "package": "harpy",
@@ -5881,6 +6422,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "S4",
           "package": "harpy",
@@ -5893,6 +6435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "S8",
           "package": "harpy",
@@ -5902,6 +6445,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "S8",
           "package": "harpy",
@@ -5937,6 +6481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "adc",
           "package": "harpy",
@@ -5946,6 +6491,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "adc",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -5960,6 +6506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "add",
           "package": "harpy",
@@ -5969,6 +6516,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "add",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -5983,6 +6531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "addpd",
           "package": "harpy",
@@ -5992,6 +6541,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "addpd",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6006,6 +6556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "addps",
           "package": "harpy",
@@ -6015,6 +6566,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "addps",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6029,6 +6581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "addsd",
           "package": "harpy",
@@ -6038,6 +6591,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "addsd",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6052,6 +6606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "addss",
           "package": "harpy",
@@ -6061,6 +6616,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "addss",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6075,6 +6631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "ah",
           "package": "harpy",
@@ -6084,6 +6641,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "ah",
           "package": "harpy",
@@ -6096,6 +6654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "al",
           "package": "harpy",
@@ -6105,6 +6664,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "al",
           "package": "harpy",
@@ -6117,6 +6677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "and",
           "package": "harpy",
@@ -6126,6 +6687,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "and",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6140,6 +6702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "ax",
           "package": "harpy",
@@ -6149,6 +6712,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "ax",
           "package": "harpy",
@@ -6161,6 +6725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "bh",
           "package": "harpy",
@@ -6170,6 +6735,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "bh",
           "package": "harpy",
@@ -6182,6 +6748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "bl",
           "package": "harpy",
@@ -6191,6 +6758,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "bl",
           "package": "harpy",
@@ -6203,6 +6771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "bp",
           "package": "harpy",
@@ -6212,6 +6781,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "bp",
           "package": "harpy",
@@ -6224,6 +6794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "breakpoint",
           "package": "harpy",
@@ -6233,6 +6804,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "breakpoint",
           "normalized": "CodeGen a b()",
@@ -6247,6 +6819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "bx",
           "package": "harpy",
@@ -6256,6 +6829,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "bx",
           "package": "harpy",
@@ -6268,6 +6842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "call",
           "package": "harpy",
@@ -6277,6 +6852,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "call",
           "normalized": "a-\u003eCodeGen b c()",
@@ -6291,6 +6867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cdq",
           "package": "harpy",
@@ -6300,6 +6877,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cdq",
           "normalized": "CodeGen a b()",
@@ -6314,6 +6892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "ch",
           "package": "harpy",
@@ -6323,6 +6902,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "ch",
           "package": "harpy",
@@ -6335,6 +6915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cl",
           "package": "harpy",
@@ -6344,6 +6925,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cl",
           "package": "harpy",
@@ -6356,6 +6938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cld",
           "package": "harpy",
@@ -6365,6 +6948,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cld",
           "normalized": "CodeGen a b()",
@@ -6379,6 +6963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmova",
           "package": "harpy",
@@ -6388,6 +6973,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmova",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6402,6 +6988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovae",
           "package": "harpy",
@@ -6411,6 +6998,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovae",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6425,6 +7013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovb",
           "package": "harpy",
@@ -6434,6 +7023,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovb",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6448,6 +7038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovbe",
           "package": "harpy",
@@ -6457,6 +7048,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovbe",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6471,6 +7063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovc",
           "package": "harpy",
@@ -6480,6 +7073,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovc",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6494,6 +7088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmove",
           "package": "harpy",
@@ -6503,6 +7098,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmove",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6517,6 +7113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovg",
           "package": "harpy",
@@ -6526,6 +7123,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovg",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6540,6 +7138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovge",
           "package": "harpy",
@@ -6549,6 +7148,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovge",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6563,6 +7163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovl",
           "package": "harpy",
@@ -6572,6 +7173,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovl",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6586,6 +7188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovle",
           "package": "harpy",
@@ -6595,6 +7198,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovle",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6609,6 +7213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovna",
           "package": "harpy",
@@ -6618,6 +7223,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovna",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6632,6 +7238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovnae",
           "package": "harpy",
@@ -6641,6 +7248,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovnae",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6655,6 +7263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovnb",
           "package": "harpy",
@@ -6664,6 +7273,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovnb",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6678,6 +7288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovnbe",
           "package": "harpy",
@@ -6687,6 +7298,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovnbe",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6701,6 +7313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovnc",
           "package": "harpy",
@@ -6710,6 +7323,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovnc",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6724,6 +7338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovne",
           "package": "harpy",
@@ -6733,6 +7348,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovne",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6747,6 +7363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovng",
           "package": "harpy",
@@ -6756,6 +7373,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovng",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6770,6 +7388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovnge",
           "package": "harpy",
@@ -6779,6 +7398,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovnge",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6793,6 +7413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovnl",
           "package": "harpy",
@@ -6802,6 +7423,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovnl",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6816,6 +7438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovnle",
           "package": "harpy",
@@ -6825,6 +7448,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovnle",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6839,6 +7463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovno",
           "package": "harpy",
@@ -6848,6 +7473,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovno",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6862,6 +7488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovnp",
           "package": "harpy",
@@ -6871,6 +7498,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovnp",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6885,6 +7513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovns",
           "package": "harpy",
@@ -6894,6 +7523,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovns",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6908,6 +7538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovnz",
           "package": "harpy",
@@ -6917,6 +7548,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovnz",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6931,6 +7563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovo",
           "package": "harpy",
@@ -6940,6 +7573,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovo",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6954,6 +7588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovp",
           "package": "harpy",
@@ -6963,6 +7598,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovp",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -6977,6 +7613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovpe",
           "package": "harpy",
@@ -6986,6 +7623,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovpe",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -7000,6 +7638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovpo",
           "package": "harpy",
@@ -7009,6 +7648,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovpo",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -7023,6 +7663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovs",
           "package": "harpy",
@@ -7032,6 +7673,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovs",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -7046,6 +7688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmovz",
           "package": "harpy",
@@ -7055,6 +7698,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmovz",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -7069,6 +7713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmp",
           "package": "harpy",
@@ -7078,6 +7723,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmp",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -7092,6 +7738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cmpxchg",
           "package": "harpy",
@@ -7101,6 +7748,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cmpxchg",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -7115,6 +7763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "comisd",
           "package": "harpy",
@@ -7124,6 +7773,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "comisd",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -7138,6 +7788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "comiss",
           "package": "harpy",
@@ -7147,6 +7798,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "comiss",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -7161,6 +7813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cvtdq2ps",
           "package": "harpy",
@@ -7170,6 +7823,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cvtdq2ps",
           "normalized": "XMMReg-\u003ea-\u003eCodeGen b c()",
@@ -7184,6 +7838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cvttps2dq",
           "package": "harpy",
@@ -7193,6 +7848,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cvttps2dq",
           "normalized": "XMMReg-\u003ea-\u003eCodeGen b c()",
@@ -7207,6 +7863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "cx",
           "package": "harpy",
@@ -7216,6 +7873,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "cx",
           "package": "harpy",
@@ -7228,6 +7886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "dec",
           "package": "harpy",
@@ -7237,6 +7896,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "dec",
           "normalized": "a-\u003eCodeGen b c()",
@@ -7251,6 +7911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "dh",
           "package": "harpy",
@@ -7260,6 +7921,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "dh",
           "package": "harpy",
@@ -7272,6 +7934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "di",
           "package": "harpy",
@@ -7281,6 +7944,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "di",
           "package": "harpy",
@@ -7293,6 +7957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "div",
           "package": "harpy",
@@ -7302,6 +7967,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "div",
           "normalized": "a-\u003eCodeGen b c()",
@@ -7316,6 +7982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "divpd",
           "package": "harpy",
@@ -7325,6 +7992,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "divpd",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -7339,6 +8007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "divps",
           "package": "harpy",
@@ -7348,6 +8017,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "divps",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -7362,6 +8032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "divsd",
           "package": "harpy",
@@ -7371,6 +8042,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "divsd",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -7385,6 +8057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "divss",
           "package": "harpy",
@@ -7394,6 +8067,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "divss",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -7408,6 +8082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "dl",
           "package": "harpy",
@@ -7417,6 +8092,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "dl",
           "package": "harpy",
@@ -7429,6 +8105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "dx",
           "package": "harpy",
@@ -7438,6 +8115,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "dx",
           "package": "harpy",
@@ -7450,6 +8128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "eax",
           "package": "harpy",
@@ -7459,6 +8138,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "eax",
           "package": "harpy",
@@ -7471,6 +8151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "ebp",
           "package": "harpy",
@@ -7480,6 +8161,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "ebp",
           "package": "harpy",
@@ -7492,6 +8174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "ebx",
           "package": "harpy",
@@ -7501,6 +8184,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "ebx",
           "package": "harpy",
@@ -7513,6 +8197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "ecx",
           "package": "harpy",
@@ -7522,6 +8207,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "ecx",
           "package": "harpy",
@@ -7534,6 +8220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "edi",
           "package": "harpy",
@@ -7543,6 +8230,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "edi",
           "package": "harpy",
@@ -7555,6 +8243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "edx",
           "package": "harpy",
@@ -7564,6 +8253,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "edx",
           "package": "harpy",
@@ -7576,6 +8266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "enter",
           "package": "harpy",
@@ -7585,6 +8276,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "enter",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -7599,6 +8291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "esi",
           "package": "harpy",
@@ -7608,6 +8301,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "esi",
           "package": "harpy",
@@ -7620,6 +8314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "esp",
           "package": "harpy",
@@ -7629,6 +8324,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "esp",
           "package": "harpy",
@@ -7641,6 +8337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fabs",
           "package": "harpy",
@@ -7650,6 +8347,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fabs",
           "normalized": "CodeGen a b()",
@@ -7664,6 +8362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fadd",
           "package": "harpy",
@@ -7673,6 +8372,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fadd",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -7687,6 +8387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "faddp",
           "package": "harpy",
@@ -7696,6 +8397,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "faddp",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -7710,6 +8412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fchs",
           "package": "harpy",
@@ -7719,6 +8422,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fchs",
           "normalized": "CodeGen a b()",
@@ -7733,6 +8437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fcom",
           "package": "harpy",
@@ -7742,6 +8447,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fcom",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -7756,6 +8462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fcomi",
           "package": "harpy",
@@ -7765,6 +8472,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fcomi",
           "normalized": "FPReg-\u003eCodeGen a b()",
@@ -7779,6 +8487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fcomip",
           "package": "harpy",
@@ -7788,6 +8497,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fcomip",
           "normalized": "FPReg-\u003eCodeGen a b()",
@@ -7802,6 +8512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fcomp",
           "package": "harpy",
@@ -7811,6 +8522,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fcomp",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -7825,6 +8537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fcompp",
           "package": "harpy",
@@ -7834,6 +8547,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fcompp",
           "normalized": "CodeGen a b()",
@@ -7848,6 +8562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fcos",
           "package": "harpy",
@@ -7857,6 +8572,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fcos",
           "normalized": "CodeGen a b()",
@@ -7871,6 +8587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fdiv",
           "package": "harpy",
@@ -7880,6 +8597,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fdiv",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -7894,6 +8612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fdivp",
           "package": "harpy",
@@ -7903,6 +8622,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fdivp",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -7917,6 +8637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fdivr",
           "package": "harpy",
@@ -7926,6 +8647,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fdivr",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -7940,6 +8662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fiadd16",
           "package": "harpy",
@@ -7949,6 +8672,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fiadd16",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -7963,6 +8687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fiadd32",
           "package": "harpy",
@@ -7972,6 +8697,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fiadd32",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -7986,6 +8712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fidiv16",
           "package": "harpy",
@@ -7995,6 +8722,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fidiv16",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -8009,6 +8737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fidiv32",
           "package": "harpy",
@@ -8018,6 +8747,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fidiv32",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -8032,6 +8762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fild",
           "package": "harpy",
@@ -8041,6 +8772,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fild",
           "normalized": "a-\u003eCodeGen b c()",
@@ -8055,6 +8787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fimul16",
           "package": "harpy",
@@ -8064,6 +8797,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fimul16",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -8078,6 +8812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fimul32",
           "package": "harpy",
@@ -8087,6 +8822,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fimul32",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -8101,6 +8837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fist",
           "package": "harpy",
@@ -8110,6 +8847,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fist",
           "normalized": "a-\u003eCodeGen b c()",
@@ -8124,6 +8862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fistp",
           "package": "harpy",
@@ -8133,6 +8872,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fistp",
           "normalized": "a-\u003eCodeGen b c()",
@@ -8147,6 +8887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fisub16",
           "package": "harpy",
@@ -8156,6 +8897,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fisub16",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -8170,6 +8912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fisub32",
           "package": "harpy",
@@ -8179,6 +8922,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fisub32",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -8193,6 +8937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fld",
           "package": "harpy",
@@ -8202,6 +8947,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fld",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -8216,6 +8962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fld1",
           "package": "harpy",
@@ -8225,6 +8972,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fld1",
           "normalized": "CodeGen a b()",
@@ -8239,6 +8987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fld80",
           "package": "harpy",
@@ -8248,6 +8997,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fld80",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -8262,6 +9012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fldcw",
           "package": "harpy",
@@ -8271,6 +9022,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fldcw",
           "normalized": "a-\u003eCodeGen b c()",
@@ -8285,6 +9037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fldpi",
           "package": "harpy",
@@ -8294,6 +9047,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fldpi",
           "normalized": "CodeGen a b()",
@@ -8308,6 +9062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fldz",
           "package": "harpy",
@@ -8317,6 +9072,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fldz",
           "normalized": "CodeGen a b()",
@@ -8331,6 +9087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fmul",
           "package": "harpy",
@@ -8340,6 +9097,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fmul",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -8354,6 +9112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fmulp",
           "package": "harpy",
@@ -8363,6 +9122,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fmulp",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -8377,6 +9137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fnstcw",
           "package": "harpy",
@@ -8386,6 +9147,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fnstcw",
           "normalized": "a-\u003eCodeGen b c()",
@@ -8400,6 +9162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fnstsw",
           "package": "harpy",
@@ -8409,6 +9172,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fnstsw",
           "normalized": "CodeGen a b()",
@@ -8423,6 +9187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fp0",
           "package": "harpy",
@@ -8432,6 +9197,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fp0",
           "package": "harpy",
@@ -8444,6 +9210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fp1",
           "package": "harpy",
@@ -8453,6 +9220,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fp1",
           "package": "harpy",
@@ -8465,6 +9233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fp2",
           "package": "harpy",
@@ -8474,6 +9243,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fp2",
           "package": "harpy",
@@ -8486,6 +9256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fp3",
           "package": "harpy",
@@ -8495,6 +9266,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fp3",
           "package": "harpy",
@@ -8507,6 +9279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fp4",
           "package": "harpy",
@@ -8516,6 +9289,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fp4",
           "package": "harpy",
@@ -8528,6 +9302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fp5",
           "package": "harpy",
@@ -8537,6 +9312,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fp5",
           "package": "harpy",
@@ -8549,6 +9325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fp6",
           "package": "harpy",
@@ -8558,6 +9335,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fp6",
           "package": "harpy",
@@ -8570,6 +9348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fp7",
           "package": "harpy",
@@ -8579,6 +9358,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fp7",
           "package": "harpy",
@@ -8591,6 +9371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fpTop",
           "package": "harpy",
@@ -8600,6 +9381,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fpTop",
           "package": "harpy",
@@ -8613,6 +9395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fpatan",
           "package": "harpy",
@@ -8622,6 +9405,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fpatan",
           "normalized": "CodeGen a b()",
@@ -8636,6 +9420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fprem",
           "package": "harpy",
@@ -8645,6 +9430,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fprem",
           "normalized": "CodeGen a b()",
@@ -8659,6 +9445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fprem1",
           "package": "harpy",
@@ -8668,6 +9455,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fprem1",
           "normalized": "CodeGen a b()",
@@ -8682,6 +9470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fptan",
           "package": "harpy",
@@ -8691,6 +9480,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fptan",
           "normalized": "CodeGen a b()",
@@ -8705,6 +9495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "frem",
           "package": "harpy",
@@ -8714,6 +9505,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "frem",
           "normalized": "CodeGen a b()",
@@ -8728,6 +9520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "frndint",
           "package": "harpy",
@@ -8737,6 +9530,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "frndint",
           "normalized": "CodeGen a b()",
@@ -8751,6 +9545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fsin",
           "package": "harpy",
@@ -8760,6 +9555,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fsin",
           "normalized": "CodeGen a b()",
@@ -8774,6 +9570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fsqrt",
           "package": "harpy",
@@ -8783,6 +9580,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fsqrt",
           "normalized": "CodeGen a b()",
@@ -8797,6 +9595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fst",
           "package": "harpy",
@@ -8806,6 +9605,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fst",
           "normalized": "a-\u003eCodeGen b c()",
@@ -8820,6 +9620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fst80",
           "package": "harpy",
@@ -8829,6 +9630,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fst80",
           "normalized": "a-\u003eCodeGen b c()",
@@ -8843,6 +9645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fstp",
           "package": "harpy",
@@ -8852,6 +9655,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fstp",
           "normalized": "a-\u003eCodeGen b c()",
@@ -8866,6 +9670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fstsw",
           "package": "harpy",
@@ -8875,6 +9680,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fstsw",
           "normalized": "CodeGen a b()",
@@ -8889,6 +9695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fsub",
           "package": "harpy",
@@ -8898,6 +9705,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fsub",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -8912,6 +9720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fsubp",
           "package": "harpy",
@@ -8921,6 +9730,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fsubp",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -8935,6 +9745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fsubr",
           "package": "harpy",
@@ -8944,6 +9755,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fsubr",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -8958,6 +9770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "ftst",
           "package": "harpy",
@@ -8967,6 +9780,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "ftst",
           "normalized": "CodeGen a b()",
@@ -8981,6 +9795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fucomi",
           "package": "harpy",
@@ -8990,6 +9805,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fucomi",
           "normalized": "FPReg-\u003eCodeGen a b()",
@@ -9004,6 +9820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fucomip",
           "package": "harpy",
@@ -9013,6 +9830,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fucomip",
           "normalized": "FPReg-\u003eCodeGen a b()",
@@ -9027,6 +9845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fucompp",
           "package": "harpy",
@@ -9036,6 +9855,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fucompp",
           "normalized": "CodeGen a b()",
@@ -9050,6 +9870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fxam",
           "package": "harpy",
@@ -9059,6 +9880,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fxam",
           "normalized": "CodeGen a b()",
@@ -9073,6 +9895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "fxch",
           "package": "harpy",
@@ -9082,6 +9905,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "fxch",
           "normalized": "FPReg-\u003eCodeGen a b()",
@@ -9096,6 +9920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "haddpd",
           "package": "harpy",
@@ -9105,6 +9930,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "haddpd",
           "normalized": "XMMReg-\u003ea-\u003eCodeGen b c()",
@@ -9119,6 +9945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "haddps",
           "package": "harpy",
@@ -9128,6 +9955,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "haddps",
           "normalized": "XMMReg-\u003ea-\u003eCodeGen b c()",
@@ -9142,6 +9970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "idiv",
           "package": "harpy",
@@ -9151,6 +9980,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "idiv",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9165,6 +9995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "imul",
           "package": "harpy",
@@ -9174,6 +10005,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "imul",
           "normalized": "a-\u003eb-\u003ec-\u003eCodeGen d e()",
@@ -9188,6 +10020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "inc",
           "package": "harpy",
@@ -9197,6 +10030,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "inc",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9211,6 +10045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "ja",
           "package": "harpy",
@@ -9220,6 +10055,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "ja",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9234,6 +10070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jae",
           "package": "harpy",
@@ -9243,6 +10080,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jae",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9257,6 +10095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jb",
           "package": "harpy",
@@ -9266,6 +10105,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jb",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9280,6 +10120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jbe",
           "package": "harpy",
@@ -9289,6 +10130,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jbe",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9303,6 +10145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jc",
           "package": "harpy",
@@ -9312,6 +10155,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jc",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9326,6 +10170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "je",
           "package": "harpy",
@@ -9335,6 +10180,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "je",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9349,6 +10195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jecxz",
           "package": "harpy",
@@ -9358,6 +10205,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jecxz",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -9372,6 +10220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jg",
           "package": "harpy",
@@ -9381,6 +10230,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jg",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9395,6 +10245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jge",
           "package": "harpy",
@@ -9404,6 +10255,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jge",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9418,6 +10270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jl",
           "package": "harpy",
@@ -9427,6 +10280,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jl",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9441,6 +10295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jle",
           "package": "harpy",
@@ -9450,6 +10305,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jle",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9464,6 +10320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jmp",
           "package": "harpy",
@@ -9473,6 +10330,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jmp",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9487,6 +10345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jna",
           "package": "harpy",
@@ -9496,6 +10355,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jna",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9510,6 +10370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jnae",
           "package": "harpy",
@@ -9519,6 +10380,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jnae",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9533,6 +10395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jnb",
           "package": "harpy",
@@ -9542,6 +10405,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jnb",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9556,6 +10420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jnbe",
           "package": "harpy",
@@ -9565,6 +10430,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jnbe",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9579,6 +10445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jnc",
           "package": "harpy",
@@ -9588,6 +10455,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jnc",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9602,6 +10470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jne",
           "package": "harpy",
@@ -9611,6 +10480,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jne",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9625,6 +10495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jng",
           "package": "harpy",
@@ -9634,6 +10505,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jng",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9648,6 +10520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jnge",
           "package": "harpy",
@@ -9657,6 +10530,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jnge",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9671,6 +10545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jnl",
           "package": "harpy",
@@ -9680,6 +10555,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jnl",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9694,6 +10570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jnle",
           "package": "harpy",
@@ -9703,6 +10580,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jnle",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9717,6 +10595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jno",
           "package": "harpy",
@@ -9726,6 +10605,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jno",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9740,6 +10620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jnp",
           "package": "harpy",
@@ -9749,6 +10630,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jnp",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9763,6 +10645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jns",
           "package": "harpy",
@@ -9772,6 +10655,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jns",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9786,6 +10670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jnz",
           "package": "harpy",
@@ -9795,6 +10680,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jnz",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9809,6 +10695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jo",
           "package": "harpy",
@@ -9818,6 +10705,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jo",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9832,6 +10720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jp",
           "package": "harpy",
@@ -9841,6 +10730,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jp",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9855,6 +10745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jpe",
           "package": "harpy",
@@ -9864,6 +10755,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jpe",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9878,6 +10770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jpo",
           "package": "harpy",
@@ -9887,6 +10780,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jpo",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9901,6 +10795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "js",
           "package": "harpy",
@@ -9910,6 +10805,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "js",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9924,6 +10820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "jz",
           "package": "harpy",
@@ -9933,6 +10830,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "jz",
           "normalized": "a-\u003eCodeGen b c()",
@@ -9947,6 +10845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "lea",
           "package": "harpy",
@@ -9956,6 +10855,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "lea",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -9970,6 +10870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "leave",
           "package": "harpy",
@@ -9979,6 +10880,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "leave",
           "normalized": "CodeGen a b()",
@@ -9993,6 +10895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "loop",
           "package": "harpy",
@@ -10002,6 +10905,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "loop",
           "normalized": "a-\u003eCodeGen b c()",
@@ -10016,6 +10920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "loope",
           "package": "harpy",
@@ -10025,6 +10930,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "loope",
           "normalized": "a-\u003eCodeGen b c()",
@@ -10039,6 +10945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "loopne",
           "package": "harpy",
@@ -10048,6 +10955,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "loopne",
           "normalized": "a-\u003eCodeGen b c()",
@@ -10062,6 +10970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "maxpd",
           "package": "harpy",
@@ -10071,6 +10980,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "maxpd",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -10085,6 +10995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "maxps",
           "package": "harpy",
@@ -10094,6 +11005,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "maxps",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -10108,6 +11020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "maxsd",
           "package": "harpy",
@@ -10117,6 +11030,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "maxsd",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -10131,6 +11045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "maxss",
           "package": "harpy",
@@ -10140,6 +11055,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "maxss",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -10154,6 +11070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "minpd",
           "package": "harpy",
@@ -10163,6 +11080,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "minpd",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -10177,6 +11095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "minps",
           "package": "harpy",
@@ -10186,6 +11105,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "minps",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -10200,6 +11120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "minsd",
           "package": "harpy",
@@ -10209,6 +11130,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "minsd",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -10223,6 +11145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "minss",
           "package": "harpy",
@@ -10232,6 +11155,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "minss",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -10246,6 +11170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "mov",
           "package": "harpy",
@@ -10255,6 +11180,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "mov",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -10269,6 +11195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "movlps",
           "package": "harpy",
@@ -10278,6 +11205,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "movlps",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -10292,6 +11220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "movsb",
           "package": "harpy",
@@ -10301,6 +11230,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "movsb",
           "normalized": "CodeGen a b()",
@@ -10315,6 +11245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "movsd",
           "package": "harpy",
@@ -10324,6 +11255,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "movsd",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -10338,6 +11270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "movsl",
           "package": "harpy",
@@ -10347,6 +11280,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "movsl",
           "normalized": "CodeGen a b()",
@@ -10361,6 +11295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "movss",
           "package": "harpy",
@@ -10370,6 +11305,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "movss",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -10384,6 +11320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "movsxb",
           "package": "harpy",
@@ -10393,6 +11330,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "movsxb",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -10407,6 +11345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "movsxw",
           "package": "harpy",
@@ -10416,6 +11355,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "movsxw",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -10430,6 +11370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "movups",
           "package": "harpy",
@@ -10439,6 +11380,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "movups",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -10453,6 +11395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "movzxb",
           "package": "harpy",
@@ -10462,6 +11405,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "movzxb",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -10476,6 +11420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "movzxw",
           "package": "harpy",
@@ -10485,6 +11430,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "movzxw",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -10499,6 +11445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "mul",
           "package": "harpy",
@@ -10508,6 +11455,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "mul",
           "normalized": "a-\u003eCodeGen b c()",
@@ -10522,6 +11470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "mulpd",
           "package": "harpy",
@@ -10531,6 +11480,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "mulpd",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -10545,6 +11495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "mulps",
           "package": "harpy",
@@ -10554,6 +11505,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "mulps",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -10568,6 +11520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "mulsd",
           "package": "harpy",
@@ -10577,6 +11530,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "mulsd",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -10591,6 +11545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "mulss",
           "package": "harpy",
@@ -10600,6 +11555,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "mulss",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -10614,6 +11570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "neg",
           "package": "harpy",
@@ -10623,6 +11580,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "neg",
           "normalized": "a-\u003eCodeGen b c()",
@@ -10637,6 +11595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "nop",
           "package": "harpy",
@@ -10646,6 +11605,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "nop",
           "normalized": "CodeGen a b()",
@@ -10660,6 +11620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "not",
           "package": "harpy",
@@ -10669,6 +11630,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "not",
           "normalized": "a-\u003eCodeGen b c()",
@@ -10683,6 +11645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "onlyCl",
           "package": "harpy",
@@ -10692,6 +11655,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "onlyCl",
           "package": "harpy",
@@ -10705,6 +11669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "onlyEbp",
           "package": "harpy",
@@ -10714,6 +11679,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "onlyEbp",
           "package": "harpy",
@@ -10727,6 +11693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "or",
           "package": "harpy",
@@ -10736,6 +11703,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "or",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -10750,6 +11718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "pop",
           "package": "harpy",
@@ -10759,6 +11728,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "pop",
           "normalized": "a-\u003eCodeGen b c()",
@@ -10773,6 +11743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "popad",
           "package": "harpy",
@@ -10782,6 +11753,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "popad",
           "normalized": "CodeGen a b()",
@@ -10796,6 +11768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "popfd",
           "package": "harpy",
@@ -10805,6 +11778,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "popfd",
           "normalized": "CodeGen a b()",
@@ -10819,6 +11793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "prefetch0",
           "package": "harpy",
@@ -10828,6 +11803,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "prefetch0",
           "normalized": "a-\u003eCodeGen b c()",
@@ -10842,6 +11818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "prefetch1",
           "package": "harpy",
@@ -10851,6 +11828,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "prefetch1",
           "normalized": "a-\u003eCodeGen b c()",
@@ -10865,6 +11843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "prefetch2",
           "package": "harpy",
@@ -10874,6 +11853,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "prefetch2",
           "normalized": "a-\u003eCodeGen b c()",
@@ -10888,6 +11868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "prefetchnta",
           "package": "harpy",
@@ -10897,6 +11878,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "prefetchnta",
           "normalized": "a-\u003eCodeGen b c()",
@@ -10911,6 +11893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "ptrToInt",
           "package": "harpy",
@@ -10920,6 +11903,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "ptrToInt",
           "normalized": "Ptr a-\u003eInt",
@@ -10935,6 +11919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "ptrToWord32",
           "package": "harpy",
@@ -10944,6 +11929,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "ptrToWord32",
           "normalized": "Ptr a-\u003eWord",
@@ -10959,6 +11945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "push",
           "package": "harpy",
@@ -10968,6 +11955,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "push",
           "normalized": "a-\u003eCodeGen b c()",
@@ -10982,6 +11970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "pushad",
           "package": "harpy",
@@ -10991,6 +11980,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "pushad",
           "normalized": "CodeGen a b()",
@@ -11005,6 +11995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "pushfd",
           "package": "harpy",
@@ -11014,6 +12005,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "pushfd",
           "normalized": "CodeGen a b()",
@@ -11028,6 +12020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "rcl",
           "package": "harpy",
@@ -11037,6 +12030,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "rcl",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -11051,6 +12045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "rcr",
           "package": "harpy",
@@ -11060,6 +12055,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "rcr",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -11074,6 +12070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "rdtsc",
           "package": "harpy",
@@ -11083,6 +12080,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "rdtsc",
           "normalized": "CodeGen a b()",
@@ -11097,6 +12095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "ret",
           "package": "harpy",
@@ -11106,6 +12105,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "ret",
           "normalized": "CodeGen a b()",
@@ -11120,6 +12120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "retN",
           "package": "harpy",
@@ -11129,6 +12130,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "retN",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -11143,6 +12145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "rol",
           "package": "harpy",
@@ -11152,6 +12155,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "rol",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -11166,6 +12170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "ror",
           "package": "harpy",
@@ -11175,6 +12180,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "ror",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -11189,6 +12195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "sahf",
           "package": "harpy",
@@ -11198,6 +12205,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "sahf",
           "normalized": "CodeGen a b()",
@@ -11212,6 +12220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "sal",
           "package": "harpy",
@@ -11221,6 +12230,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "sal",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -11235,6 +12245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "sar",
           "package": "harpy",
@@ -11244,6 +12255,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "sar",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -11258,6 +12270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "sbb",
           "package": "harpy",
@@ -11267,6 +12280,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "sbb",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -11281,6 +12295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "scaleToShift",
           "package": "harpy",
@@ -11290,6 +12305,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "scaleToShift",
           "normalized": "Scale-\u003eWord",
@@ -11305,6 +12321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "seta",
           "package": "harpy",
@@ -11314,6 +12331,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "seta",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11328,6 +12346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setae",
           "package": "harpy",
@@ -11337,6 +12356,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setae",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11351,6 +12371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setb",
           "package": "harpy",
@@ -11360,6 +12381,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setb",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11374,6 +12396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setbe",
           "package": "harpy",
@@ -11383,6 +12406,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setbe",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11397,6 +12421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setc",
           "package": "harpy",
@@ -11406,6 +12431,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setc",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11420,6 +12446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "sete",
           "package": "harpy",
@@ -11429,6 +12456,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "sete",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11443,6 +12471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setg",
           "package": "harpy",
@@ -11452,6 +12481,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setg",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11466,6 +12496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setge",
           "package": "harpy",
@@ -11475,6 +12506,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setge",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11489,6 +12521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setl",
           "package": "harpy",
@@ -11498,6 +12531,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setl",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11512,6 +12546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setle",
           "package": "harpy",
@@ -11521,6 +12556,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setle",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11535,6 +12571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setna",
           "package": "harpy",
@@ -11544,6 +12581,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setna",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11558,6 +12596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setnae",
           "package": "harpy",
@@ -11567,6 +12606,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setnae",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11581,6 +12621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setnb",
           "package": "harpy",
@@ -11590,6 +12631,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setnb",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11604,6 +12646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setnbe",
           "package": "harpy",
@@ -11613,6 +12656,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setnbe",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11627,6 +12671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setnc",
           "package": "harpy",
@@ -11636,6 +12681,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setnc",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11650,6 +12696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setne",
           "package": "harpy",
@@ -11659,6 +12706,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setne",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11673,6 +12721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setng",
           "package": "harpy",
@@ -11682,6 +12731,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setng",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11696,6 +12746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setnge",
           "package": "harpy",
@@ -11705,6 +12756,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setnge",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11719,6 +12771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setnl",
           "package": "harpy",
@@ -11728,6 +12781,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setnl",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11742,6 +12796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setnle",
           "package": "harpy",
@@ -11751,6 +12806,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setnle",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11765,6 +12821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setno",
           "package": "harpy",
@@ -11774,6 +12831,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setno",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11788,6 +12846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setnp",
           "package": "harpy",
@@ -11797,6 +12856,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setnp",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11811,6 +12871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setns",
           "package": "harpy",
@@ -11820,6 +12881,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setns",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11834,6 +12896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setnz",
           "package": "harpy",
@@ -11843,6 +12906,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setnz",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11857,6 +12921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "seto",
           "package": "harpy",
@@ -11866,6 +12931,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "seto",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11880,6 +12946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setp",
           "package": "harpy",
@@ -11889,6 +12956,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setp",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11903,6 +12971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setpe",
           "package": "harpy",
@@ -11912,6 +12981,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setpe",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11926,6 +12996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setpo",
           "package": "harpy",
@@ -11935,6 +13006,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setpo",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11949,6 +13021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "sets",
           "package": "harpy",
@@ -11958,6 +13031,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "sets",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11972,6 +13046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "setz",
           "package": "harpy",
@@ -11981,6 +13056,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "setz",
           "normalized": "a-\u003eCodeGen b c()",
@@ -11995,6 +13071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "shl",
           "package": "harpy",
@@ -12004,6 +13081,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "shl",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -12018,6 +13096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "shld",
           "package": "harpy",
@@ -12027,6 +13106,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "shld",
           "normalized": "a-\u003eb-\u003ec-\u003eCodeGen d e()",
@@ -12041,6 +13121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "shr",
           "package": "harpy",
@@ -12050,6 +13131,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "shr",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -12064,6 +13146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "shrd",
           "package": "harpy",
@@ -12073,6 +13156,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "shrd",
           "normalized": "a-\u003eb-\u003ec-\u003eCodeGen d e()",
@@ -12087,6 +13171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "shufpd",
           "package": "harpy",
@@ -12096,6 +13181,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "shufpd",
           "normalized": "XMMReg-\u003ea-\u003eWord-\u003eCodeGen b c()",
@@ -12110,6 +13196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "shufps",
           "package": "harpy",
@@ -12119,6 +13206,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "shufps",
           "normalized": "XMMReg-\u003ea-\u003eWord-\u003eCodeGen b c()",
@@ -12133,6 +13221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "si",
           "package": "harpy",
@@ -12142,6 +13231,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "si",
           "package": "harpy",
@@ -12154,6 +13244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "sp",
           "package": "harpy",
@@ -12163,6 +13254,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "sp",
           "package": "harpy",
@@ -12175,6 +13267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "sqrtpd",
           "package": "harpy",
@@ -12184,6 +13277,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "sqrtpd",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -12198,6 +13292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "sqrtps",
           "package": "harpy",
@@ -12207,6 +13302,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "sqrtps",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -12221,6 +13317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "sqrtsd",
           "package": "harpy",
@@ -12230,6 +13327,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "sqrtsd",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -12244,6 +13342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "sqrtss",
           "package": "harpy",
@@ -12253,6 +13352,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "sqrtss",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -12267,6 +13367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "stosb",
           "package": "harpy",
@@ -12276,6 +13377,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "stosb",
           "normalized": "CodeGen a b()",
@@ -12290,6 +13392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "stosd",
           "package": "harpy",
@@ -12299,6 +13402,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "stosd",
           "normalized": "CodeGen a b()",
@@ -12313,6 +13417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "stosl",
           "package": "harpy",
@@ -12322,6 +13427,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "stosl",
           "normalized": "CodeGen a b()",
@@ -12336,6 +13442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "sub",
           "package": "harpy",
@@ -12345,6 +13452,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "sub",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -12359,6 +13467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "subpd",
           "package": "harpy",
@@ -12368,6 +13477,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "subpd",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -12382,6 +13492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "subps",
           "package": "harpy",
@@ -12391,6 +13502,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "subps",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -12405,6 +13517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "subsd",
           "package": "harpy",
@@ -12414,6 +13527,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "subsd",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -12428,6 +13542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "subss",
           "package": "harpy",
@@ -12437,6 +13552,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "subss",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -12451,6 +13567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "test",
           "package": "harpy",
@@ -12460,6 +13577,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "test",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -12474,6 +13592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "ucomisd",
           "package": "harpy",
@@ -12483,6 +13602,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "ucomisd",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -12497,6 +13617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "ucomiss",
           "package": "harpy",
@@ -12506,6 +13627,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "ucomiss",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -12520,6 +13642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "wait",
           "package": "harpy",
@@ -12529,6 +13652,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "wait",
           "normalized": "CodeGen a b()",
@@ -12543,6 +13667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "xadd",
           "package": "harpy",
@@ -12552,6 +13677,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "xadd",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -12566,6 +13692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "xchg",
           "package": "harpy",
@@ -12575,6 +13702,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "xchg",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -12589,6 +13717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "xmm0",
           "package": "harpy",
@@ -12598,6 +13727,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "xmm0",
           "package": "harpy",
@@ -12610,6 +13740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "xmm1",
           "package": "harpy",
@@ -12619,6 +13750,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "xmm1",
           "package": "harpy",
@@ -12631,6 +13763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "xmm2",
           "package": "harpy",
@@ -12640,6 +13773,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "xmm2",
           "package": "harpy",
@@ -12652,6 +13786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "xmm3",
           "package": "harpy",
@@ -12661,6 +13796,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "xmm3",
           "package": "harpy",
@@ -12673,6 +13809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "xmm4",
           "package": "harpy",
@@ -12682,6 +13819,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "xmm4",
           "package": "harpy",
@@ -12694,6 +13832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "xmm5",
           "package": "harpy",
@@ -12703,6 +13842,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "xmm5",
           "package": "harpy",
@@ -12715,6 +13855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "xmm6",
           "package": "harpy",
@@ -12724,6 +13865,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "xmm6",
           "package": "harpy",
@@ -12736,6 +13878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "xmm7",
           "package": "harpy",
@@ -12745,6 +13888,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "xmm7",
           "package": "harpy",
@@ -12757,6 +13901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "xmmLocLowLevel",
           "package": "harpy",
@@ -12766,6 +13911,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "xmmLocLowLevel",
           "normalized": "a-\u003eb",
@@ -12781,6 +13927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Assembler",
           "name": "xor",
           "package": "harpy",
@@ -12790,6 +13937,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86Assembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Assembler",
           "name": "xor",
           "normalized": "a-\u003eb-\u003eCodeGen c d()",
@@ -12805,6 +13953,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports several combinators for writing loops,\n conditionals and function prolog/epilog code.\n\u003c/p\u003e\u003cp\u003eNote: this module is under heavy development and the exported API\n is definitely not yet stable.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "X86CGCombinators",
           "package": "harpy",
@@ -12814,6 +13963,7 @@
         "index": {
           "description": "This module exports several combinators for writing loops conditionals and function prolog epilog code Note this module is under heavy development and the exported API is definitely not yet stable",
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "X86CGCombinators",
           "package": "harpy",
@@ -12828,6 +13978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestination for control transfers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "CtrlDest",
           "package": "harpy",
@@ -12837,6 +13988,7 @@
         "index": {
           "description": "Destination for control transfers",
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "CtrlDest",
           "package": "harpy",
@@ -12851,6 +14003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestination for a calculated value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "DataDest",
           "package": "harpy",
@@ -12860,6 +14013,7 @@
         "index": {
           "description": "Destination for calculated value",
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "DataDest",
           "package": "harpy",
@@ -12874,6 +14028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser environment stores code generators for accessing specific\n variables as well as the current data and control destinations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "UserEnv",
           "package": "harpy",
@@ -12883,6 +14038,7 @@
         "index": {
           "description": "User environment stores code generators for accessing specific variables as well as the current data and control destinations",
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "UserEnv",
           "package": "harpy",
@@ -12897,6 +14053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser state is used to maintain bitmask of registers currently in use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "UserState",
           "package": "harpy",
@@ -12906,6 +14063,7 @@
         "index": {
           "description": "User state is used to maintain bitmask of registers currently in use",
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "UserState",
           "package": "harpy",
@@ -12920,6 +14078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGo to one of the given labels\n depending on outcome of test\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "Branch",
           "package": "harpy",
@@ -12930,6 +14089,7 @@
         "index": {
           "description": "Go to one of the given labels depending on outcome of test",
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "Branch",
           "package": "harpy",
@@ -12944,6 +14104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGo to next instruction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "FallThrough",
           "package": "harpy",
@@ -12954,6 +14115,7 @@
         "index": {
           "description": "Go to next instruction",
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "FallThrough",
           "package": "harpy",
@@ -12968,6 +14130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGo to specific label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "Goto",
           "package": "harpy",
@@ -12978,6 +14141,7 @@
         "index": {
           "description": "Go to specific label",
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "Goto",
           "package": "harpy",
@@ -12992,6 +14156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow result away.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "Ignore",
           "package": "harpy",
@@ -13002,6 +14167,7 @@
         "index": {
           "description": "Throw result away",
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "Ignore",
           "package": "harpy",
@@ -13016,6 +14182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore at memory address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "MemBaseDest",
           "package": "harpy",
@@ -13026,6 +14193,7 @@
         "index": {
           "description": "Store at memory address",
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "MemBaseDest",
           "package": "harpy",
@@ -13040,6 +14208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore into specific register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "RegDest",
           "package": "harpy",
@@ -13050,6 +14219,7 @@
         "index": {
           "description": "Store into specific register",
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "RegDest",
           "package": "harpy",
@@ -13064,6 +14234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn from current functio\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "Return",
           "package": "harpy",
@@ -13074,6 +14245,7 @@
         "index": {
           "description": "Return from current functio",
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "Return",
           "package": "harpy",
@@ -13088,6 +14260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePush onto stack\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "StackDest",
           "package": "harpy",
@@ -13098,6 +14271,7 @@
         "index": {
           "description": "Push onto stack",
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "StackDest",
           "package": "harpy",
@@ -13111,6 +14285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "UserEnv",
           "package": "harpy",
@@ -13120,6 +14295,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "UserEnv",
           "package": "harpy",
@@ -13133,6 +14309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "UserState",
           "package": "harpy",
@@ -13142,6 +14319,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "UserState",
           "package": "harpy",
@@ -13155,6 +14333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "bindings",
           "package": "harpy",
@@ -13164,6 +14343,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "bindings",
           "normalized": "[(String,CodeGen UserEnv UserState())]",
@@ -13178,6 +14358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "continue",
           "package": "harpy",
@@ -13187,6 +14368,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "continue",
           "normalized": "CodeGen UserEnv a()",
@@ -13201,6 +14383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "continueBranch",
           "package": "harpy",
@@ -13210,6 +14393,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "continueBranch",
           "normalized": "Int-\u003eBool-\u003eCodeGen UserEnv a()",
@@ -13225,6 +14409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "ctrlDest",
           "package": "harpy",
@@ -13234,6 +14419,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "ctrlDest",
           "package": "harpy",
@@ -13247,6 +14433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "dataDest",
           "package": "harpy",
@@ -13256,6 +14443,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "dataDest",
           "package": "harpy",
@@ -13269,6 +14457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "doWhile",
           "package": "harpy",
@@ -13278,6 +14467,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "doWhile",
           "normalized": "CodeGen UserEnv a b-\u003eCodeGen UserEnv a c-\u003eCodeGen UserEnv a()",
@@ -13293,6 +14483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "emptyUserEnv",
           "package": "harpy",
@@ -13302,6 +14493,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "emptyUserEnv",
           "package": "harpy",
@@ -13315,6 +14507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "emptyUserState",
           "package": "harpy",
@@ -13324,6 +14517,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "emptyUserState",
           "package": "harpy",
@@ -13338,6 +14532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmit the necessary function prolog and epilog code and invoke the\n given code generator for the code inbetween.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "function",
           "package": "harpy",
@@ -13348,6 +14543,7 @@
         "index": {
           "description": "Emit the necessary function prolog and epilog code and invoke the given code generator for the code inbetween",
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "function",
           "normalized": "CodeGen UserEnv a b-\u003eCodeGen UserEnv a b",
@@ -13362,6 +14558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "ifThenElse",
           "package": "harpy",
@@ -13371,6 +14568,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "ifThenElse",
           "normalized": "CodeGen UserEnv a b-\u003eCodeGen UserEnv a c-\u003eCodeGen UserEnv a c-\u003eCodeGen UserEnv a()",
@@ -13387,6 +14585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave a number of registers on the stack, perform the given code\n generation, and restore the registers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "saveRegs",
           "package": "harpy",
@@ -13397,6 +14596,7 @@
         "index": {
           "description": "Save number of registers on the stack perform the given code generation and restore the registers",
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "saveRegs",
           "normalized": "[Reg]-\u003eCodeGen UserEnv a b-\u003eCodeGen UserEnv a()",
@@ -13413,6 +14613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the control destinations to the given values while\n running the code generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "withCtrlDest",
           "package": "harpy",
@@ -13423,6 +14624,7 @@
         "index": {
           "description": "Set the control destinations to the given values while running the code generator",
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "withCtrlDest",
           "normalized": "CtrlDest-\u003eCodeGen UserEnv a b-\u003eCodeGen UserEnv a b",
@@ -13439,6 +14641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the data destinations to the given values while\n running the code generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "withDataDest",
           "package": "harpy",
@@ -13449,6 +14652,7 @@
         "index": {
           "description": "Set the data destinations to the given values while running the code generator",
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "withDataDest",
           "normalized": "DataDest-\u003eCodeGen UserEnv a b-\u003eCodeGen UserEnv a b",
@@ -13465,6 +14669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the data and control destinations to the given values while\n running the code generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CGCombinators",
           "name": "withDest",
           "package": "harpy",
@@ -13475,6 +14680,7 @@
         "index": {
           "description": "Set the data and control destinations to the given values while running the code generator",
           "hierarchy": "Harpy X86CGCombinators",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CGCombinators",
           "name": "withDest",
           "normalized": "DataDest-\u003eCtrlDest-\u003eCodeGen UserEnv a b-\u003eCodeGen UserEnv a b",
@@ -13491,6 +14697,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for generating x86 machine code instructions.  The\n functions make use of the code generation monad in module\n \u003ca\u003eHarpy.CodeGenMonad\u003c/a\u003e for emitting binary code into a code buffer.\n\u003c/p\u003e\u003cp\u003eThis module is very low-level, since there are different\n functions for different addressing modes.  A more convenient\n interface is provided in module \u003ca\u003eHarpy.X86Assembler\u003c/a\u003e, which uses\n the operand types to determine the correct addressing modes for\n all supported instructions.\n\u003c/p\u003e\u003cp\u003eNote: this file does not (yet) provide the complete x86\n instruction set, not even all user-mode instructions.  For some\n operations, some addressing modes are missing as well.\n\u003c/p\u003e\u003cp\u003eCopyright notice:\n\u003c/p\u003e\u003cp\u003eThe information in this file is based on the header file\n x86-codegen.h from the mono distribution, which has the following\n copyright information:\n\u003c/p\u003e\u003cpre\u003e \n  * x86-codegen.h: Macros for generating x86 code\n  *\n  * Authors:\n  *   Paolo Molaro (lupus@ximian.com)\n  *   Intel Corporation (ORP Project)\n  *   Sergey Chaban (serge@wildwestsoftware.com)\n  *   Dietmar Maurer (dietmar@ximian.com)\n  *   Patrik Torstensson\n  * \n  * Copyright (C)  2000 Intel Corporation.  All rights reserved.\n  * Copyright (C)  2001, 2002 Ximian, Inc.\n  *\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "X86CodeGen",
           "package": "harpy",
@@ -13500,6 +14707,7 @@
         "index": {
           "description": "Functions for generating x86 machine code instructions The functions make use of the code generation monad in module Harpy.CodeGenMonad for emitting binary code into code buffer This module is very low-level since there are different functions for different addressing modes more convenient interface is provided in module Harpy.X86Assembler which uses the operand types to determine the correct addressing modes for all supported instructions Note this file does not yet provide the complete x86 instruction set not even all user-mode instructions For some operations some addressing modes are missing as well Copyright notice The information in this file is based on the header file x86-codegen.h from the mono distribution which has the following copyright information x86-codegen.h Macros for generating x86 code Authors Paolo Molaro lupus@ximian.com Intel Corporation ORP Project Sergey Chaban serge@wildwestsoftware.com Dietmar Maurer dietmar@ximian.com Patrik Torstensson Copyright Intel Corporation All rights reserved Copyright Ximian Inc",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "X86CodeGen",
           "package": "harpy",
@@ -13513,6 +14721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "FIntSize",
           "package": "harpy",
@@ -13521,6 +14730,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "FIntSize",
           "package": "harpy",
@@ -13534,6 +14744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "Mem",
           "package": "harpy",
@@ -13542,6 +14753,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "Mem",
           "package": "harpy",
@@ -13555,6 +14767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "MemBase",
           "package": "harpy",
@@ -13563,6 +14776,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "MemBase",
           "package": "harpy",
@@ -13576,6 +14790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "X86_SSE_PFX",
           "package": "harpy",
@@ -13584,6 +14799,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "X86_SSE_PFX",
           "package": "harpy",
@@ -13597,6 +14813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "XMMLocation",
           "package": "harpy",
@@ -13605,6 +14822,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "XMMLocation",
           "package": "harpy",
@@ -13618,6 +14836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "XMMReg",
           "package": "harpy",
@@ -13626,6 +14845,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "XMMReg",
           "package": "harpy",
@@ -13639,6 +14859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "FInt16",
           "package": "harpy",
@@ -13648,6 +14869,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "FInt16",
           "package": "harpy",
@@ -13661,6 +14883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "FInt32",
           "package": "harpy",
@@ -13670,6 +14893,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "FInt32",
           "package": "harpy",
@@ -13683,6 +14907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "FInt64",
           "package": "harpy",
@@ -13692,6 +14917,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "FInt64",
           "package": "harpy",
@@ -13705,6 +14931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "Mem",
           "package": "harpy",
@@ -13714,6 +14941,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "Mem",
           "package": "harpy",
@@ -13727,6 +14955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "MemBase",
           "package": "harpy",
@@ -13736,6 +14965,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "MemBase",
           "package": "harpy",
@@ -13750,6 +14980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvert a condition code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "negateCC",
           "package": "harpy",
@@ -13760,6 +14991,7 @@
         "index": {
           "description": "Invert condition code",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "negateCC",
           "normalized": "Int-\u003eInt",
@@ -13775,6 +15007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_adc",
           "package": "harpy",
@@ -13784,6 +15017,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_adc",
           "package": "harpy",
@@ -13796,6 +15030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_add",
           "package": "harpy",
@@ -13805,6 +15040,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_add",
           "package": "harpy",
@@ -13817,6 +15053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_add_sse_reg_mem",
           "package": "harpy",
@@ -13826,6 +15063,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_add_sse_reg_mem",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -13840,6 +15078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_add_sse_reg_membase",
           "package": "harpy",
@@ -13849,6 +15088,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_add_sse_reg_membase",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -13863,6 +15103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_add_sse_reg_reg",
           "package": "harpy",
@@ -13872,6 +15113,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_add_sse_reg_reg",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -13887,6 +15129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix codes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_address_prefix",
           "package": "harpy",
@@ -13897,6 +15140,7 @@
         "index": {
           "description": "Prefix codes",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_address_prefix",
           "package": "harpy",
@@ -13909,6 +15153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_alu_mem_imm",
           "package": "harpy",
@@ -13918,6 +15163,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_alu_mem_imm",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -13932,6 +15178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_alu_mem_reg",
           "package": "harpy",
@@ -13941,6 +15188,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_alu_mem_reg",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -13955,6 +15203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_alu_membase8_imm",
           "package": "harpy",
@@ -13964,6 +15213,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_alu_membase8_imm",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -13978,6 +15228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_alu_membase_imm",
           "package": "harpy",
@@ -13987,6 +15238,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_alu_membase_imm",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -14001,6 +15253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_alu_membase_reg",
           "package": "harpy",
@@ -14010,6 +15263,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_alu_membase_reg",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -14024,6 +15278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_alu_reg8_reg8",
           "package": "harpy",
@@ -14033,6 +15288,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_alu_reg8_reg8",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eBool-\u003eBool-\u003eCodeGen a b()",
@@ -14047,6 +15303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_alu_reg_imm",
           "package": "harpy",
@@ -14056,6 +15313,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_alu_reg_imm",
           "normalized": "Word-\u003eWord-\u003eInt-\u003eCodeGen a b()",
@@ -14070,6 +15328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_alu_reg_mem",
           "package": "harpy",
@@ -14079,6 +15338,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_alu_reg_mem",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -14093,6 +15353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_alu_reg_membase",
           "package": "harpy",
@@ -14102,6 +15363,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_alu_reg_membase",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -14116,6 +15378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_alu_reg_reg",
           "package": "harpy",
@@ -14125,6 +15388,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_alu_reg_reg",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -14139,6 +15403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_and",
           "package": "harpy",
@@ -14148,6 +15413,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_and",
           "package": "harpy",
@@ -14160,6 +15426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_branch",
           "package": "harpy",
@@ -14169,6 +15436,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_branch",
           "normalized": "Int-\u003eInt-\u003eBool-\u003eCodeGen a b()",
@@ -14183,6 +15451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_branch32",
           "package": "harpy",
@@ -14192,6 +15461,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_branch32",
           "normalized": "Int-\u003eWord-\u003eBool-\u003eCodeGen a b()",
@@ -14206,6 +15476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_branch8",
           "package": "harpy",
@@ -14215,6 +15486,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_branch8",
           "normalized": "Int-\u003eWord-\u003eBool-\u003eCodeGen a b()",
@@ -14229,6 +15501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_branch_pointer",
           "package": "harpy",
@@ -14238,6 +15511,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_branch_pointer",
           "normalized": "Int-\u003ePtr a-\u003eBool-\u003eCodeGen b c()",
@@ -14252,6 +15526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_breakpoint",
           "package": "harpy",
@@ -14261,6 +15536,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_breakpoint",
           "normalized": "CodeGen a b()",
@@ -14276,6 +15552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBitvector mask for byte-adressable registers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_byte_regs",
           "package": "harpy",
@@ -14286,6 +15563,7 @@
         "index": {
           "description": "Bitvector mask for byte-adressable registers",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_byte_regs",
           "package": "harpy",
@@ -14298,6 +15576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_call_code",
           "package": "harpy",
@@ -14307,6 +15586,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_call_code",
           "normalized": "Int-\u003eCodeGen a b()",
@@ -14321,6 +15601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_call_hs",
           "package": "harpy",
@@ -14330,6 +15611,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_call_hs",
           "normalized": "FunPtr a-\u003eCodeGen b c()",
@@ -14344,6 +15626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_call_imm",
           "package": "harpy",
@@ -14353,6 +15636,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_call_imm",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -14367,6 +15651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_call_mem",
           "package": "harpy",
@@ -14376,6 +15661,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_call_mem",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -14390,6 +15676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_call_membase",
           "package": "harpy",
@@ -14399,6 +15686,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_call_membase",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -14413,6 +15701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_call_reg",
           "package": "harpy",
@@ -14422,6 +15711,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_call_reg",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -14437,6 +15727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBitvector mask for callee-saved registers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_callee_regs",
           "package": "harpy",
@@ -14447,6 +15738,7 @@
         "index": {
           "description": "Bitvector mask for callee-saved registers",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_callee_regs",
           "package": "harpy",
@@ -14460,6 +15752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBitvector mask for caller-saved registers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_caller_regs",
           "package": "harpy",
@@ -14470,6 +15763,7 @@
         "index": {
           "description": "Bitvector mask for caller-saved registers",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_caller_regs",
           "package": "harpy",
@@ -14482,6 +15776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_a",
           "package": "harpy",
@@ -14491,6 +15786,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_a",
           "package": "harpy",
@@ -14503,6 +15799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_ae",
           "package": "harpy",
@@ -14512,6 +15809,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_ae",
           "package": "harpy",
@@ -14524,6 +15822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_b",
           "package": "harpy",
@@ -14533,6 +15832,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_b",
           "package": "harpy",
@@ -14545,6 +15845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_be",
           "package": "harpy",
@@ -14554,6 +15855,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_be",
           "package": "harpy",
@@ -14566,6 +15868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_c",
           "package": "harpy",
@@ -14575,6 +15878,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_c",
           "package": "harpy",
@@ -14587,6 +15891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_e",
           "package": "harpy",
@@ -14596,6 +15901,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_e",
           "package": "harpy",
@@ -14608,6 +15914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_eq",
           "package": "harpy",
@@ -14617,6 +15924,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_eq",
           "package": "harpy",
@@ -14629,6 +15937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_ge",
           "package": "harpy",
@@ -14638,6 +15947,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_ge",
           "package": "harpy",
@@ -14650,6 +15960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_gez",
           "package": "harpy",
@@ -14659,6 +15970,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_gez",
           "package": "harpy",
@@ -14671,6 +15983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_gt",
           "package": "harpy",
@@ -14680,6 +15993,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_gt",
           "package": "harpy",
@@ -14692,6 +16006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_le",
           "package": "harpy",
@@ -14701,6 +16016,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_le",
           "package": "harpy",
@@ -14713,6 +16029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_lt",
           "package": "harpy",
@@ -14722,6 +16039,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_lt",
           "package": "harpy",
@@ -14734,6 +16052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_lz",
           "package": "harpy",
@@ -14743,6 +16062,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_lz",
           "package": "harpy",
@@ -14755,6 +16075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_na",
           "package": "harpy",
@@ -14764,6 +16085,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_na",
           "package": "harpy",
@@ -14776,6 +16098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_nae",
           "package": "harpy",
@@ -14785,6 +16108,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_nae",
           "package": "harpy",
@@ -14797,6 +16121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_nb",
           "package": "harpy",
@@ -14806,6 +16131,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_nb",
           "package": "harpy",
@@ -14818,6 +16144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_nbe",
           "package": "harpy",
@@ -14827,6 +16154,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_nbe",
           "package": "harpy",
@@ -14839,6 +16167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_nc",
           "package": "harpy",
@@ -14848,6 +16177,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_nc",
           "package": "harpy",
@@ -14860,6 +16190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_ne",
           "package": "harpy",
@@ -14869,6 +16200,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_ne",
           "package": "harpy",
@@ -14881,6 +16213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_no",
           "package": "harpy",
@@ -14890,6 +16223,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_no",
           "package": "harpy",
@@ -14902,6 +16236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_np",
           "package": "harpy",
@@ -14911,6 +16246,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_np",
           "package": "harpy",
@@ -14923,6 +16259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_ns",
           "package": "harpy",
@@ -14932,6 +16269,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_ns",
           "package": "harpy",
@@ -14944,6 +16282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_nz",
           "package": "harpy",
@@ -14953,6 +16292,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_nz",
           "package": "harpy",
@@ -14965,6 +16305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_o",
           "package": "harpy",
@@ -14974,6 +16315,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_o",
           "package": "harpy",
@@ -14986,6 +16328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_p",
           "package": "harpy",
@@ -14995,6 +16338,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_p",
           "package": "harpy",
@@ -15007,6 +16351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_pe",
           "package": "harpy",
@@ -15016,6 +16361,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_pe",
           "package": "harpy",
@@ -15028,6 +16374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_po",
           "package": "harpy",
@@ -15037,6 +16384,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_po",
           "package": "harpy",
@@ -15049,6 +16397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_s",
           "package": "harpy",
@@ -15058,6 +16407,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_s",
           "package": "harpy",
@@ -15070,6 +16420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_z",
           "package": "harpy",
@@ -15079,6 +16430,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cc_z",
           "package": "harpy",
@@ -15091,6 +16443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cdq",
           "package": "harpy",
@@ -15100,6 +16453,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cdq",
           "normalized": "CodeGen a b()",
@@ -15114,6 +16468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cld",
           "package": "harpy",
@@ -15123,6 +16478,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cld",
           "normalized": "CodeGen a b()",
@@ -15137,6 +16493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cmov_mem",
           "package": "harpy",
@@ -15146,6 +16503,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cmov_mem",
           "normalized": "Int-\u003eBool-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -15160,6 +16518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cmov_membase",
           "package": "harpy",
@@ -15169,6 +16528,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cmov_membase",
           "normalized": "Int-\u003eBool-\u003eWord-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -15183,6 +16543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cmov_reg",
           "package": "harpy",
@@ -15192,6 +16553,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cmov_reg",
           "normalized": "Int-\u003eBool-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -15206,6 +16568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cmp",
           "package": "harpy",
@@ -15215,6 +16578,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cmp",
           "package": "harpy",
@@ -15227,6 +16591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cmpxchg_mem_reg",
           "package": "harpy",
@@ -15236,6 +16601,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cmpxchg_mem_reg",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -15250,6 +16616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cmpxchg_membase_reg",
           "package": "harpy",
@@ -15259,6 +16626,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cmpxchg_membase_reg",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -15273,6 +16641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cmpxchg_reg_reg",
           "package": "harpy",
@@ -15282,6 +16651,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cmpxchg_reg_reg",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -15296,6 +16666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_comisd_reg_mem",
           "package": "harpy",
@@ -15305,6 +16676,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_comisd_reg_mem",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -15319,6 +16691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_comisd_reg_membase",
           "package": "harpy",
@@ -15328,6 +16701,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_comisd_reg_membase",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -15342,6 +16716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_comisd_reg_reg",
           "package": "harpy",
@@ -15351,6 +16726,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_comisd_reg_reg",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -15365,6 +16741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_comiss_reg_mem",
           "package": "harpy",
@@ -15374,6 +16751,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_comiss_reg_mem",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -15388,6 +16766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_comiss_reg_membase",
           "package": "harpy",
@@ -15397,6 +16776,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_comiss_reg_membase",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -15411,6 +16791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_comiss_reg_reg",
           "package": "harpy",
@@ -15420,6 +16801,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_comiss_reg_reg",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -15435,6 +16817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix codes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cs_prefix",
           "package": "harpy",
@@ -15445,6 +16828,7 @@
         "index": {
           "description": "Prefix codes",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cs_prefix",
           "package": "harpy",
@@ -15457,6 +16841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cvtdq2ps",
           "package": "harpy",
@@ -15466,6 +16851,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cvtdq2ps",
           "normalized": "Word-\u003ea-\u003eCodeGen b c()",
@@ -15480,6 +16866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cvttps2dq",
           "package": "harpy",
@@ -15489,6 +16876,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_cvttps2dq",
           "normalized": "Word-\u003ea-\u003eCodeGen b c()",
@@ -15503,6 +16891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_dec_mem",
           "package": "harpy",
@@ -15512,6 +16901,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_dec_mem",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -15526,6 +16916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_dec_membase",
           "package": "harpy",
@@ -15535,6 +16926,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_dec_membase",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -15549,6 +16941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_dec_reg",
           "package": "harpy",
@@ -15558,6 +16951,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_dec_reg",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -15572,6 +16966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_div_mem",
           "package": "harpy",
@@ -15581,6 +16976,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_div_mem",
           "normalized": "Word-\u003eBool-\u003eCodeGen a b()",
@@ -15595,6 +16991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_div_membase",
           "package": "harpy",
@@ -15604,6 +17001,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_div_membase",
           "normalized": "Word-\u003eWord-\u003eBool-\u003eCodeGen a b()",
@@ -15618,6 +17016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_div_reg",
           "package": "harpy",
@@ -15627,6 +17026,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_div_reg",
           "normalized": "Word-\u003eBool-\u003eCodeGen a b()",
@@ -15641,6 +17041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_div_sse_reg_mem",
           "package": "harpy",
@@ -15650,6 +17051,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_div_sse_reg_mem",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -15664,6 +17066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_div_sse_reg_membase",
           "package": "harpy",
@@ -15673,6 +17076,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_div_sse_reg_membase",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -15687,6 +17091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_div_sse_reg_reg",
           "package": "harpy",
@@ -15696,6 +17101,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_div_sse_reg_reg",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -15711,6 +17117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix codes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ds_prefix",
           "package": "harpy",
@@ -15721,6 +17128,7 @@
         "index": {
           "description": "Prefix codes",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ds_prefix",
           "package": "harpy",
@@ -15733,6 +17141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_dword_size",
           "package": "harpy",
@@ -15742,6 +17151,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_dword_size",
           "package": "harpy",
@@ -15754,6 +17164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_eax",
           "package": "harpy",
@@ -15763,6 +17174,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_eax",
           "package": "harpy",
@@ -15775,6 +17187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_eax_mask",
           "package": "harpy",
@@ -15784,6 +17197,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_eax_mask",
           "package": "harpy",
@@ -15796,6 +17210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ebp",
           "package": "harpy",
@@ -15805,6 +17220,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ebp",
           "package": "harpy",
@@ -15817,6 +17233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ebp_mask",
           "package": "harpy",
@@ -15826,6 +17243,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ebp_mask",
           "package": "harpy",
@@ -15838,6 +17256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ebx",
           "package": "harpy",
@@ -15847,6 +17266,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ebx",
           "package": "harpy",
@@ -15859,6 +17279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ebx_mask",
           "package": "harpy",
@@ -15868,6 +17289,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ebx_mask",
           "package": "harpy",
@@ -15880,6 +17302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ecx",
           "package": "harpy",
@@ -15889,6 +17312,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ecx",
           "package": "harpy",
@@ -15901,6 +17325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ecx_mask",
           "package": "harpy",
@@ -15910,6 +17335,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ecx_mask",
           "package": "harpy",
@@ -15922,6 +17348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_edi",
           "package": "harpy",
@@ -15931,6 +17358,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_edi",
           "package": "harpy",
@@ -15943,6 +17371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_edi_mask",
           "package": "harpy",
@@ -15952,6 +17381,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_edi_mask",
           "package": "harpy",
@@ -15964,6 +17394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_edx",
           "package": "harpy",
@@ -15973,6 +17404,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_edx",
           "package": "harpy",
@@ -15985,6 +17417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_edx_mask",
           "package": "harpy",
@@ -15994,6 +17427,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_edx_mask",
           "package": "harpy",
@@ -16006,6 +17440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_enter",
           "package": "harpy",
@@ -16015,6 +17450,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_enter",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -16029,6 +17465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_epilog",
           "package": "harpy",
@@ -16038,6 +17475,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_epilog",
           "normalized": "Int-\u003eCodeGen a b()",
@@ -16053,6 +17491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix codes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_es_prefix",
           "package": "harpy",
@@ -16063,6 +17502,7 @@
         "index": {
           "description": "Prefix codes",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_es_prefix",
           "package": "harpy",
@@ -16075,6 +17515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_esi",
           "package": "harpy",
@@ -16084,6 +17525,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_esi",
           "package": "harpy",
@@ -16096,6 +17538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_esi_mask",
           "package": "harpy",
@@ -16105,6 +17548,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_esi_mask",
           "package": "harpy",
@@ -16117,6 +17561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_esp",
           "package": "harpy",
@@ -16126,6 +17571,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_esp",
           "package": "harpy",
@@ -16138,6 +17584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fabs",
           "package": "harpy",
@@ -16147,6 +17594,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fabs",
           "normalized": "CodeGen a b()",
@@ -16161,6 +17609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fadd",
           "package": "harpy",
@@ -16170,6 +17619,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fadd",
           "package": "harpy",
@@ -16182,6 +17632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fchs",
           "package": "harpy",
@@ -16191,6 +17642,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fchs",
           "normalized": "CodeGen a b()",
@@ -16205,6 +17657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fcom",
           "package": "harpy",
@@ -16214,6 +17667,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fcom",
           "package": "harpy",
@@ -16226,6 +17680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fcomi",
           "package": "harpy",
@@ -16235,6 +17690,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fcomi",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -16249,6 +17705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fcomip",
           "package": "harpy",
@@ -16258,6 +17715,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fcomip",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -16272,6 +17730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fcomp",
           "package": "harpy",
@@ -16281,6 +17740,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fcomp",
           "package": "harpy",
@@ -16293,6 +17753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fcompp",
           "package": "harpy",
@@ -16302,6 +17763,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fcompp",
           "normalized": "CodeGen a b()",
@@ -16316,6 +17778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fcos",
           "package": "harpy",
@@ -16325,6 +17788,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fcos",
           "normalized": "CodeGen a b()",
@@ -16339,6 +17803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fdecstp",
           "package": "harpy",
@@ -16348,6 +17813,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fdecstp",
           "normalized": "CodeGen a b()",
@@ -16362,6 +17828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fdiv",
           "package": "harpy",
@@ -16371,6 +17838,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fdiv",
           "package": "harpy",
@@ -16383,6 +17851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fdivr",
           "package": "harpy",
@@ -16392,6 +17861,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fdivr",
           "package": "harpy",
@@ -16404,6 +17874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fild",
           "package": "harpy",
@@ -16413,6 +17884,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fild",
           "normalized": "Word-\u003eFIntSize-\u003eCodeGen a b()",
@@ -16427,6 +17899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fild_membase",
           "package": "harpy",
@@ -16436,6 +17909,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fild_membase",
           "normalized": "Word-\u003eWord-\u003eFIntSize-\u003eCodeGen a b()",
@@ -16450,6 +17924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fincstp",
           "package": "harpy",
@@ -16459,6 +17934,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fincstp",
           "normalized": "CodeGen a b()",
@@ -16473,6 +17949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fist_membase",
           "package": "harpy",
@@ -16482,6 +17959,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fist_membase",
           "normalized": "Word-\u003eWord-\u003eFIntSize-\u003eCodeGen a b()",
@@ -16496,6 +17974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fist_pop",
           "package": "harpy",
@@ -16505,6 +17984,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fist_pop",
           "normalized": "Word-\u003eFIntSize-\u003eCodeGen a b()",
@@ -16519,6 +17999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fist_pop_membase",
           "package": "harpy",
@@ -16528,6 +18009,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fist_pop_membase",
           "normalized": "Word-\u003eWord-\u003eFIntSize-\u003eCodeGen a b()",
@@ -16542,6 +18024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fld",
           "package": "harpy",
@@ -16551,6 +18034,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fld",
           "normalized": "Word-\u003eBool-\u003eCodeGen a b()",
@@ -16565,6 +18049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fld1",
           "package": "harpy",
@@ -16574,6 +18059,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fld1",
           "normalized": "CodeGen a b()",
@@ -16588,6 +18074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fld80_mem",
           "package": "harpy",
@@ -16597,6 +18084,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fld80_mem",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -16611,6 +18099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fld80_membase",
           "package": "harpy",
@@ -16620,6 +18109,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fld80_membase",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -16634,6 +18124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fld_membase",
           "package": "harpy",
@@ -16643,6 +18134,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fld_membase",
           "normalized": "Word-\u003eWord-\u003eBool-\u003eCodeGen a b()",
@@ -16657,6 +18149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fld_reg",
           "package": "harpy",
@@ -16666,6 +18159,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fld_reg",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -16680,6 +18174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fldcw",
           "package": "harpy",
@@ -16689,6 +18184,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fldcw",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -16703,6 +18199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fldcw_membase",
           "package": "harpy",
@@ -16712,6 +18209,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fldcw_membase",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -16726,6 +18224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fldpi",
           "package": "harpy",
@@ -16735,6 +18234,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fldpi",
           "normalized": "CodeGen a b()",
@@ -16749,6 +18249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fldz",
           "package": "harpy",
@@ -16758,6 +18259,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fldz",
           "normalized": "CodeGen a b()",
@@ -16772,6 +18274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fmul",
           "package": "harpy",
@@ -16781,6 +18284,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fmul",
           "package": "harpy",
@@ -16793,6 +18297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fnstcw",
           "package": "harpy",
@@ -16802,6 +18307,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fnstcw",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -16816,6 +18322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fnstcw_membase",
           "package": "harpy",
@@ -16825,6 +18332,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fnstcw_membase",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -16839,6 +18347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fnstsw",
           "package": "harpy",
@@ -16848,6 +18357,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fnstsw",
           "normalized": "CodeGen a b()",
@@ -16863,6 +18373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFP status\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fp_c0",
           "package": "harpy",
@@ -16873,6 +18384,7 @@
         "index": {
           "description": "FP status",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fp_c0",
           "package": "harpy",
@@ -16886,6 +18398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFP status\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fp_c1",
           "package": "harpy",
@@ -16896,6 +18409,7 @@
         "index": {
           "description": "FP status",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fp_c1",
           "package": "harpy",
@@ -16909,6 +18423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFP status\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fp_c2",
           "package": "harpy",
@@ -16919,6 +18434,7 @@
         "index": {
           "description": "FP status",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fp_c2",
           "package": "harpy",
@@ -16932,6 +18448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFP status\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fp_c3",
           "package": "harpy",
@@ -16942,6 +18459,7 @@
         "index": {
           "description": "FP status",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fp_c3",
           "package": "harpy",
@@ -16955,6 +18473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFP status\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fp_cc_mask",
           "package": "harpy",
@@ -16965,6 +18484,7 @@
         "index": {
           "description": "FP status",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fp_cc_mask",
           "package": "harpy",
@@ -16977,6 +18497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fp_int_op_membase",
           "package": "harpy",
@@ -16986,6 +18507,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fp_int_op_membase",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eBool-\u003eCodeGen a b()",
@@ -17000,6 +18522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fp_op",
           "package": "harpy",
@@ -17009,6 +18532,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fp_op",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -17023,6 +18547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fp_op_mem",
           "package": "harpy",
@@ -17032,6 +18557,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fp_op_mem",
           "normalized": "Word-\u003eWord-\u003eBool-\u003eCodeGen a b()",
@@ -17046,6 +18572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fp_op_membase",
           "package": "harpy",
@@ -17055,6 +18582,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fp_op_membase",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eBool-\u003eCodeGen a b()",
@@ -17069,6 +18597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fp_op_reg",
           "package": "harpy",
@@ -17078,6 +18607,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fp_op_reg",
           "normalized": "Word-\u003eWord-\u003eBool-\u003eCodeGen a b()",
@@ -17092,6 +18622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpatan",
           "package": "harpy",
@@ -17101,6 +18632,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpatan",
           "normalized": "CodeGen a b()",
@@ -17116,6 +18648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFP control word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_denopex_mask",
           "package": "harpy",
@@ -17126,6 +18659,7 @@
         "index": {
           "description": "FP control word",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_denopex_mask",
           "package": "harpy",
@@ -17139,6 +18673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFP control word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_invopex_mask",
           "package": "harpy",
@@ -17149,6 +18684,7 @@
         "index": {
           "description": "FP control word",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_invopex_mask",
           "package": "harpy",
@@ -17162,6 +18698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFP control word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_ovfex_mask",
           "package": "harpy",
@@ -17172,6 +18709,7 @@
         "index": {
           "description": "FP control word",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_ovfex_mask",
           "package": "harpy",
@@ -17185,6 +18723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues for precision control\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_prec_double",
           "package": "harpy",
@@ -17195,6 +18734,7 @@
         "index": {
           "description": "Values for precision control",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_prec_double",
           "package": "harpy",
@@ -17208,6 +18748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues for precision control\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_prec_extended",
           "package": "harpy",
@@ -17218,6 +18759,7 @@
         "index": {
           "description": "Values for precision control",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_prec_extended",
           "package": "harpy",
@@ -17231,6 +18773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues for precision control\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_prec_single",
           "package": "harpy",
@@ -17241,6 +18784,7 @@
         "index": {
           "description": "Values for precision control",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_prec_single",
           "package": "harpy",
@@ -17254,6 +18798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFP control word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_precc_mask",
           "package": "harpy",
@@ -17264,6 +18809,7 @@
         "index": {
           "description": "FP control word",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_precc_mask",
           "package": "harpy",
@@ -17277,6 +18823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFP control word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_precex_mask",
           "package": "harpy",
@@ -17287,6 +18834,7 @@
         "index": {
           "description": "FP control word",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_precex_mask",
           "package": "harpy",
@@ -17300,6 +18848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues for rounding control\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_round_down",
           "package": "harpy",
@@ -17310,6 +18859,7 @@
         "index": {
           "description": "Values for rounding control",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_round_down",
           "package": "harpy",
@@ -17323,6 +18873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues for rounding control\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_round_nearest",
           "package": "harpy",
@@ -17333,6 +18884,7 @@
         "index": {
           "description": "Values for rounding control",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_round_nearest",
           "package": "harpy",
@@ -17346,6 +18898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues for rounding control\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_round_tozero",
           "package": "harpy",
@@ -17356,6 +18909,7 @@
         "index": {
           "description": "Values for rounding control",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_round_tozero",
           "package": "harpy",
@@ -17369,6 +18923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues for rounding control\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_round_up",
           "package": "harpy",
@@ -17379,6 +18934,7 @@
         "index": {
           "description": "Values for rounding control",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_round_up",
           "package": "harpy",
@@ -17392,6 +18948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFP control word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_roundc_mask",
           "package": "harpy",
@@ -17402,6 +18959,7 @@
         "index": {
           "description": "FP control word",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_roundc_mask",
           "package": "harpy",
@@ -17415,6 +18973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFP control word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_undfex_mask",
           "package": "harpy",
@@ -17425,6 +18984,7 @@
         "index": {
           "description": "FP control word",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_undfex_mask",
           "package": "harpy",
@@ -17438,6 +18998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFP control word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_zerodiv_mask",
           "package": "harpy",
@@ -17448,6 +19009,7 @@
         "index": {
           "description": "FP control word",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fpcw_zerodiv_mask",
           "package": "harpy",
@@ -17460,6 +19022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fprem",
           "package": "harpy",
@@ -17469,6 +19032,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fprem",
           "normalized": "CodeGen a b()",
@@ -17483,6 +19047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fprem1",
           "package": "harpy",
@@ -17492,6 +19057,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fprem1",
           "normalized": "CodeGen a b()",
@@ -17506,6 +19072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fptan",
           "package": "harpy",
@@ -17515,6 +19082,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fptan",
           "normalized": "CodeGen a b()",
@@ -17529,6 +19097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_frem",
           "package": "harpy",
@@ -17538,6 +19107,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_frem",
           "normalized": "CodeGen a b()",
@@ -17552,6 +19122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_frndint",
           "package": "harpy",
@@ -17561,6 +19132,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_frndint",
           "normalized": "CodeGen a b()",
@@ -17576,6 +19148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix codes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fs_prefix",
           "package": "harpy",
@@ -17586,6 +19159,7 @@
         "index": {
           "description": "Prefix codes",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fs_prefix",
           "package": "harpy",
@@ -17598,6 +19172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fsin",
           "package": "harpy",
@@ -17607,6 +19182,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fsin",
           "normalized": "CodeGen a b()",
@@ -17621,6 +19197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fsqrt",
           "package": "harpy",
@@ -17630,6 +19207,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fsqrt",
           "normalized": "CodeGen a b()",
@@ -17644,6 +19222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fst",
           "package": "harpy",
@@ -17653,6 +19232,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fst",
           "normalized": "Word-\u003eBool-\u003eBool-\u003eCodeGen a b()",
@@ -17667,6 +19247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fst80_mem",
           "package": "harpy",
@@ -17676,6 +19257,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fst80_mem",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -17690,6 +19272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fst80_membase",
           "package": "harpy",
@@ -17699,6 +19282,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fst80_membase",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -17713,6 +19297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fst_membase",
           "package": "harpy",
@@ -17722,6 +19307,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fst_membase",
           "normalized": "Word-\u003eWord-\u003eBool-\u003eBool-\u003eCodeGen a b()",
@@ -17736,6 +19322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fstp",
           "package": "harpy",
@@ -17745,6 +19332,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fstp",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -17759,6 +19347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fstsw",
           "package": "harpy",
@@ -17768,6 +19357,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fstsw",
           "normalized": "CodeGen a b()",
@@ -17782,6 +19372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fsub",
           "package": "harpy",
@@ -17791,6 +19382,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fsub",
           "package": "harpy",
@@ -17803,6 +19395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fsubr",
           "package": "harpy",
@@ -17812,6 +19405,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fsubr",
           "package": "harpy",
@@ -17824,6 +19418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ftst",
           "package": "harpy",
@@ -17833,6 +19428,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ftst",
           "normalized": "CodeGen a b()",
@@ -17847,6 +19443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fucomi",
           "package": "harpy",
@@ -17856,6 +19453,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fucomi",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -17870,6 +19468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fucomip",
           "package": "harpy",
@@ -17879,6 +19478,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fucomip",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -17893,6 +19493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fucompp",
           "package": "harpy",
@@ -17902,6 +19503,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fucompp",
           "normalized": "CodeGen a b()",
@@ -17916,6 +19518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fxam",
           "package": "harpy",
@@ -17925,6 +19528,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fxam",
           "normalized": "CodeGen a b()",
@@ -17939,6 +19543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fxch",
           "package": "harpy",
@@ -17948,6 +19553,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_fxch",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -17963,6 +19569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix codes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_gs_prefix",
           "package": "harpy",
@@ -17973,6 +19580,7 @@
         "index": {
           "description": "Prefix codes",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_gs_prefix",
           "package": "harpy",
@@ -17985,6 +19593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_haddpd",
           "package": "harpy",
@@ -17994,6 +19603,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_haddpd",
           "normalized": "Word-\u003ea-\u003eCodeGen b c()",
@@ -18008,6 +19618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_haddps",
           "package": "harpy",
@@ -18017,6 +19628,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_haddps",
           "normalized": "Word-\u003ea-\u003eCodeGen b c()",
@@ -18032,6 +19644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmit a 16-bit constant to the instruction stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_imm_emit16",
           "package": "harpy",
@@ -18042,6 +19655,7 @@
         "index": {
           "description": "Emit bit constant to the instruction stream",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_imm_emit16",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -18057,6 +19671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmit a 32-bit constant to the instruction stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_imm_emit32",
           "package": "harpy",
@@ -18067,6 +19682,7 @@
         "index": {
           "description": "Emit bit constant to the instruction stream",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_imm_emit32",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -18082,6 +19698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmit a 8-bit constant to the instruction stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_imm_emit8",
           "package": "harpy",
@@ -18092,6 +19709,7 @@
         "index": {
           "description": "Emit bit constant to the instruction stream",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_imm_emit8",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -18106,6 +19724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_imul_reg_mem",
           "package": "harpy",
@@ -18115,6 +19734,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_imul_reg_mem",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -18129,6 +19749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_imul_reg_mem_imm",
           "package": "harpy",
@@ -18138,6 +19759,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_imul_reg_mem_imm",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -18152,6 +19774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_imul_reg_membase",
           "package": "harpy",
@@ -18161,6 +19784,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_imul_reg_membase",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -18175,6 +19799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_imul_reg_membase_imm",
           "package": "harpy",
@@ -18184,6 +19809,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_imul_reg_membase_imm",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -18198,6 +19824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_imul_reg_reg",
           "package": "harpy",
@@ -18207,6 +19834,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_imul_reg_reg",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -18221,6 +19849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_imul_reg_reg_imm",
           "package": "harpy",
@@ -18230,6 +19859,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_imul_reg_reg_imm",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -18244,6 +19874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_inc_mem",
           "package": "harpy",
@@ -18253,6 +19884,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_inc_mem",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -18267,6 +19899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_inc_membase",
           "package": "harpy",
@@ -18276,6 +19909,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_inc_membase",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -18290,6 +19924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_inc_reg",
           "package": "harpy",
@@ -18299,6 +19934,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_inc_reg",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -18314,6 +19950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true when the given register is caller-saved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_is_callee",
           "package": "harpy",
@@ -18324,6 +19961,7 @@
         "index": {
           "description": "Returns true when the given register is caller-saved",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_is_callee",
           "normalized": "Int-\u003eBool",
@@ -18339,6 +19977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true when the given register is caller-saved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_is_scratch",
           "package": "harpy",
@@ -18349,6 +19988,7 @@
         "index": {
           "description": "Returns true when the given register is caller-saved",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_is_scratch",
           "normalized": "Int-\u003eBool",
@@ -18363,6 +20003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_jecxz",
           "package": "harpy",
@@ -18372,6 +20013,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_jecxz",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -18386,6 +20028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_jump32",
           "package": "harpy",
@@ -18395,6 +20038,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_jump32",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -18409,6 +20053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_jump8",
           "package": "harpy",
@@ -18418,6 +20063,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_jump8",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -18432,6 +20078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_jump_mem",
           "package": "harpy",
@@ -18441,6 +20088,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_jump_mem",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -18455,6 +20103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_jump_membase",
           "package": "harpy",
@@ -18464,6 +20113,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_jump_membase",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -18478,6 +20128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_jump_pointer",
           "package": "harpy",
@@ -18487,6 +20138,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_jump_pointer",
           "normalized": "Ptr a-\u003eCodeGen b c()",
@@ -18501,6 +20153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_jump_reg",
           "package": "harpy",
@@ -18510,6 +20163,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_jump_reg",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -18524,6 +20178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_lea_mem",
           "package": "harpy",
@@ -18533,6 +20188,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_lea_mem",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -18547,6 +20203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_lea_membase",
           "package": "harpy",
@@ -18556,6 +20213,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_lea_membase",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -18570,6 +20228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_lea_memindex",
           "package": "harpy",
@@ -18579,6 +20238,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_lea_memindex",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -18593,6 +20253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_leave",
           "package": "harpy",
@@ -18602,6 +20263,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_leave",
           "normalized": "CodeGen a b()",
@@ -18617,6 +20279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix codes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_likely_prefix",
           "package": "harpy",
@@ -18627,6 +20290,7 @@
         "index": {
           "description": "Prefix codes",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_likely_prefix",
           "package": "harpy",
@@ -18640,6 +20304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix codes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_lock_prefix",
           "package": "harpy",
@@ -18650,6 +20315,7 @@
         "index": {
           "description": "Prefix codes",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_lock_prefix",
           "package": "harpy",
@@ -18662,6 +20328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_loop",
           "package": "harpy",
@@ -18671,6 +20338,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_loop",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -18685,6 +20353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_loope",
           "package": "harpy",
@@ -18694,6 +20363,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_loope",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -18708,6 +20378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_loopne",
           "package": "harpy",
@@ -18717,6 +20388,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_loopne",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -18732,6 +20404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximal length of an x86 instruction in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_max_instruction_bytes",
           "package": "harpy",
@@ -18742,6 +20415,7 @@
         "index": {
           "description": "Maximal length of an x86 instruction in bytes",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_max_instruction_bytes",
           "package": "harpy",
@@ -18754,6 +20428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_max_sse_reg_mem",
           "package": "harpy",
@@ -18763,6 +20438,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_max_sse_reg_mem",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -18777,6 +20453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_max_sse_reg_membase",
           "package": "harpy",
@@ -18786,6 +20463,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_max_sse_reg_membase",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -18800,6 +20478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_max_sse_reg_reg",
           "package": "harpy",
@@ -18809,6 +20488,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_max_sse_reg_reg",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -18824,6 +20504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmit a mem+base address encoding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_membase_emit",
           "package": "harpy",
@@ -18834,6 +20515,7 @@
         "index": {
           "description": "Emit mem base address encoding",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_membase_emit",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -18848,6 +20530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_min_sse_reg_mem",
           "package": "harpy",
@@ -18857,6 +20540,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_min_sse_reg_mem",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -18871,6 +20555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_min_sse_reg_membase",
           "package": "harpy",
@@ -18880,6 +20565,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_min_sse_reg_membase",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -18894,6 +20580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_min_sse_reg_reg",
           "package": "harpy",
@@ -18903,6 +20590,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_min_sse_reg_reg",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -18917,6 +20605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_mem_imm",
           "package": "harpy",
@@ -18926,6 +20615,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_mem_imm",
           "normalized": "Word-\u003eWord-\u003ea-\u003eCodeGen b c()",
@@ -18940,6 +20630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_mem_reg",
           "package": "harpy",
@@ -18949,6 +20640,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_mem_reg",
           "normalized": "Word-\u003eWord-\u003ea-\u003eCodeGen b c()",
@@ -18963,6 +20655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_membase_imm",
           "package": "harpy",
@@ -18972,6 +20665,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_membase_imm",
           "normalized": "Word-\u003eWord-\u003eWord-\u003ea-\u003eCodeGen b c()",
@@ -18986,6 +20680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_membase_reg",
           "package": "harpy",
@@ -18995,6 +20690,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_membase_reg",
           "normalized": "Word-\u003eWord-\u003eWord-\u003ea-\u003eCodeGen b c()",
@@ -19009,6 +20705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_memindex_imm",
           "package": "harpy",
@@ -19018,6 +20715,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_memindex_imm",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003ea-\u003eCodeGen b c()",
@@ -19032,6 +20730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_memindex_reg",
           "package": "harpy",
@@ -19041,6 +20740,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_memindex_reg",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003ea-\u003eCodeGen b c()",
@@ -19055,6 +20755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_reg_imm",
           "package": "harpy",
@@ -19064,6 +20765,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_reg_imm",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -19078,6 +20780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_reg_mem",
           "package": "harpy",
@@ -19087,6 +20790,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_reg_mem",
           "normalized": "Word-\u003eWord-\u003ea-\u003eCodeGen b c()",
@@ -19101,6 +20805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_reg_membase",
           "package": "harpy",
@@ -19110,6 +20815,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_reg_membase",
           "normalized": "Word-\u003eWord-\u003eWord-\u003ea-\u003eCodeGen b c()",
@@ -19124,6 +20830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_reg_memindex",
           "package": "harpy",
@@ -19133,6 +20840,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_reg_memindex",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003ea-\u003eCodeGen b c()",
@@ -19147,6 +20855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_reg_reg",
           "package": "harpy",
@@ -19156,6 +20865,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_reg_reg",
           "normalized": "Word-\u003eWord-\u003ea-\u003eCodeGen b c()",
@@ -19170,6 +20880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_reg_regp",
           "package": "harpy",
@@ -19179,6 +20890,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_reg_regp",
           "normalized": "Word-\u003eWord-\u003ea-\u003eCodeGen b c()",
@@ -19193,6 +20905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_regp_reg",
           "package": "harpy",
@@ -19202,6 +20915,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_regp_reg",
           "normalized": "Word-\u003eWord-\u003ea-\u003eCodeGen b c()",
@@ -19216,6 +20930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_sse_mem_reg",
           "package": "harpy",
@@ -19225,6 +20940,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_sse_mem_reg",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -19239,6 +20955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_sse_membase_reg",
           "package": "harpy",
@@ -19248,6 +20965,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_sse_membase_reg",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -19262,6 +20980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_sse_reg_mem",
           "package": "harpy",
@@ -19271,6 +20990,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_sse_reg_mem",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -19285,6 +21005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_sse_reg_membase",
           "package": "harpy",
@@ -19294,6 +21015,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_sse_reg_membase",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -19308,6 +21030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_sse_reg_reg",
           "package": "harpy",
@@ -19317,6 +21040,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mov_sse_reg_reg",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -19332,6 +21056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003exmm must not be a register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movlpd_from_reg",
           "package": "harpy",
@@ -19342,6 +21067,7 @@
         "index": {
           "description": "xmm must not be register",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movlpd_from_reg",
           "normalized": "Word-\u003ea-\u003eCodeGen b c()",
@@ -19357,6 +21083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003exmm must not be a register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movlpd_to_reg",
           "package": "harpy",
@@ -19367,6 +21094,7 @@
         "index": {
           "description": "xmm must not be register",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movlpd_to_reg",
           "normalized": "Word-\u003ea-\u003eCodeGen b c()",
@@ -19382,6 +21110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003exmm must not be a register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movlps_from_reg",
           "package": "harpy",
@@ -19392,6 +21121,7 @@
         "index": {
           "description": "xmm must not be register",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movlps_from_reg",
           "normalized": "Word-\u003ea-\u003eCodeGen b c()",
@@ -19407,6 +21137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003exmm must not be a register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movlps_to_reg",
           "package": "harpy",
@@ -19417,6 +21148,7 @@
         "index": {
           "description": "xmm must not be register",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movlps_to_reg",
           "normalized": "Word-\u003ea-\u003eCodeGen b c()",
@@ -19431,6 +21163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movsb",
           "package": "harpy",
@@ -19440,6 +21173,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movsb",
           "normalized": "CodeGen a b()",
@@ -19454,6 +21188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movsd",
           "package": "harpy",
@@ -19463,6 +21198,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movsd",
           "normalized": "CodeGen a b()",
@@ -19477,6 +21213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movsd_from_reg",
           "package": "harpy",
@@ -19486,6 +21223,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movsd_from_reg",
           "normalized": "Word-\u003ea-\u003eCodeGen b c()",
@@ -19500,6 +21238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movsd_to_reg",
           "package": "harpy",
@@ -19509,6 +21248,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movsd_to_reg",
           "normalized": "Word-\u003ea-\u003eCodeGen b c()",
@@ -19523,6 +21263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movsl",
           "package": "harpy",
@@ -19532,6 +21273,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movsl",
           "normalized": "CodeGen a b()",
@@ -19546,6 +21288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movss_from_reg",
           "package": "harpy",
@@ -19555,6 +21298,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movss_from_reg",
           "normalized": "Word-\u003ea-\u003eCodeGen b c()",
@@ -19569,6 +21313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movss_to_reg",
           "package": "harpy",
@@ -19578,6 +21323,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movss_to_reg",
           "normalized": "Word-\u003ea-\u003eCodeGen b c()",
@@ -19592,6 +21338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movupd_from_reg",
           "package": "harpy",
@@ -19601,6 +21348,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movupd_from_reg",
           "normalized": "Word-\u003ea-\u003eCodeGen b c()",
@@ -19615,6 +21363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movupd_to_reg",
           "package": "harpy",
@@ -19624,6 +21373,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movupd_to_reg",
           "normalized": "Word-\u003ea-\u003eCodeGen b c()",
@@ -19638,6 +21388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movups_from_reg",
           "package": "harpy",
@@ -19647,6 +21398,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movups_from_reg",
           "normalized": "Word-\u003ea-\u003eCodeGen b c()",
@@ -19661,6 +21413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movups_to_reg",
           "package": "harpy",
@@ -19670,6 +21423,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_movups_to_reg",
           "normalized": "Word-\u003ea-\u003eCodeGen b c()",
@@ -19684,6 +21438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mul_mem",
           "package": "harpy",
@@ -19693,6 +21448,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mul_mem",
           "normalized": "Word-\u003eBool-\u003eCodeGen a b()",
@@ -19707,6 +21463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mul_membase",
           "package": "harpy",
@@ -19716,6 +21473,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mul_membase",
           "normalized": "Word-\u003eWord-\u003eBool-\u003eCodeGen a b()",
@@ -19730,6 +21488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mul_reg",
           "package": "harpy",
@@ -19739,6 +21498,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mul_reg",
           "normalized": "Word-\u003eBool-\u003eCodeGen a b()",
@@ -19753,6 +21513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mul_sse_reg_mem",
           "package": "harpy",
@@ -19762,6 +21523,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mul_sse_reg_mem",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -19776,6 +21538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mul_sse_reg_membase",
           "package": "harpy",
@@ -19785,6 +21548,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mul_sse_reg_membase",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -19799,6 +21563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mul_sse_reg_reg",
           "package": "harpy",
@@ -19808,6 +21573,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_mul_sse_reg_reg",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -19822,6 +21588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_neg_mem",
           "package": "harpy",
@@ -19831,6 +21598,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_neg_mem",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -19845,6 +21613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_neg_membase",
           "package": "harpy",
@@ -19854,6 +21623,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_neg_membase",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -19868,6 +21638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_neg_reg",
           "package": "harpy",
@@ -19877,6 +21648,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_neg_reg",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -19892,6 +21664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to encode the fact that no base register is used in an\n instruction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_nobasereg",
           "package": "harpy",
@@ -19902,6 +21675,7 @@
         "index": {
           "description": "Used to encode the fact that no base register is used in an instruction",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_nobasereg",
           "package": "harpy",
@@ -19914,6 +21688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_nop",
           "package": "harpy",
@@ -19923,6 +21698,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_nop",
           "normalized": "CodeGen a b()",
@@ -19937,6 +21713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_not_mem",
           "package": "harpy",
@@ -19946,6 +21723,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_not_mem",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -19960,6 +21738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_not_membase",
           "package": "harpy",
@@ -19969,6 +21748,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_not_membase",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -19983,6 +21763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_not_reg",
           "package": "harpy",
@@ -19992,6 +21773,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_not_reg",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -20007,6 +21789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix codes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_operand_prefix",
           "package": "harpy",
@@ -20017,6 +21800,7 @@
         "index": {
           "description": "Prefix codes",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_operand_prefix",
           "package": "harpy",
@@ -20029,6 +21813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_or",
           "package": "harpy",
@@ -20038,6 +21823,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_or",
           "package": "harpy",
@@ -20050,6 +21836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_padding",
           "package": "harpy",
@@ -20059,6 +21846,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_padding",
           "normalized": "a-\u003eCodeGen b c()",
@@ -20073,6 +21861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_pop_mem",
           "package": "harpy",
@@ -20082,6 +21871,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_pop_mem",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -20096,6 +21886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_pop_membase",
           "package": "harpy",
@@ -20105,6 +21896,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_pop_membase",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -20119,6 +21911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_pop_reg",
           "package": "harpy",
@@ -20128,6 +21921,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_pop_reg",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -20142,6 +21936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_popad",
           "package": "harpy",
@@ -20151,6 +21946,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_popad",
           "normalized": "CodeGen a b()",
@@ -20165,6 +21961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_popfd",
           "package": "harpy",
@@ -20174,6 +21971,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_popfd",
           "normalized": "CodeGen a b()",
@@ -20188,6 +21986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetch0_mem",
           "package": "harpy",
@@ -20197,6 +21996,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetch0_mem",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -20211,6 +22011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetch0_membase",
           "package": "harpy",
@@ -20220,6 +22021,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetch0_membase",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -20234,6 +22036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetch0_regp",
           "package": "harpy",
@@ -20243,6 +22046,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetch0_regp",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -20257,6 +22061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetch1_mem",
           "package": "harpy",
@@ -20266,6 +22071,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetch1_mem",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -20280,6 +22086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetch1_membase",
           "package": "harpy",
@@ -20289,6 +22096,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetch1_membase",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -20303,6 +22111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetch1_regp",
           "package": "harpy",
@@ -20312,6 +22121,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetch1_regp",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -20326,6 +22136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetch2_mem",
           "package": "harpy",
@@ -20335,6 +22146,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetch2_mem",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -20349,6 +22161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetch2_membase",
           "package": "harpy",
@@ -20358,6 +22171,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetch2_membase",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -20372,6 +22186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetch2_regp",
           "package": "harpy",
@@ -20381,6 +22196,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetch2_regp",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -20395,6 +22211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetchnta_mem",
           "package": "harpy",
@@ -20404,6 +22221,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetchnta_mem",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -20418,6 +22236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetchnta_membase",
           "package": "harpy",
@@ -20427,6 +22246,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetchnta_membase",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -20441,6 +22261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetchnta_regp",
           "package": "harpy",
@@ -20450,6 +22271,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefetchnta_regp",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -20464,6 +22286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefix",
           "package": "harpy",
@@ -20473,6 +22296,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prefix",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -20487,6 +22311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prolog",
           "package": "harpy",
@@ -20496,6 +22321,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_prolog",
           "normalized": "Int-\u003eInt-\u003eCodeGen a b()",
@@ -20510,6 +22336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_push_imm",
           "package": "harpy",
@@ -20519,6 +22346,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_push_imm",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -20533,6 +22361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_push_imm_template",
           "package": "harpy",
@@ -20542,6 +22371,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_push_imm_template",
           "normalized": "CodeGen a b()",
@@ -20556,6 +22386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_push_mem",
           "package": "harpy",
@@ -20565,6 +22396,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_push_mem",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -20579,6 +22411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_push_membase",
           "package": "harpy",
@@ -20588,6 +22421,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_push_membase",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -20602,6 +22436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_push_memindex",
           "package": "harpy",
@@ -20611,6 +22446,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_push_memindex",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -20625,6 +22461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_push_reg",
           "package": "harpy",
@@ -20634,6 +22471,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_push_reg",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -20648,6 +22486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_push_regp",
           "package": "harpy",
@@ -20657,6 +22496,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_push_regp",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -20671,6 +22511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_pushad",
           "package": "harpy",
@@ -20680,6 +22521,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_pushad",
           "normalized": "CodeGen a b()",
@@ -20694,6 +22536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_pushfd",
           "package": "harpy",
@@ -20703,6 +22546,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_pushfd",
           "normalized": "CodeGen a b()",
@@ -20717,6 +22561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_qword_size",
           "package": "harpy",
@@ -20726,6 +22571,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_qword_size",
           "package": "harpy",
@@ -20738,6 +22584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_rcl",
           "package": "harpy",
@@ -20747,6 +22594,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_rcl",
           "package": "harpy",
@@ -20759,6 +22607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_rcr",
           "package": "harpy",
@@ -20768,6 +22617,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_rcr",
           "package": "harpy",
@@ -20780,6 +22630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_rdtsc",
           "package": "harpy",
@@ -20789,6 +22640,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_rdtsc",
           "normalized": "CodeGen a b()",
@@ -20804,6 +22656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix codes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_rep_prefix",
           "package": "harpy",
@@ -20814,6 +22667,7 @@
         "index": {
           "description": "Prefix codes",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_rep_prefix",
           "package": "harpy",
@@ -20827,6 +22681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix codes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_repnz_prefix",
           "package": "harpy",
@@ -20837,6 +22692,7 @@
         "index": {
           "description": "Prefix codes",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_repnz_prefix",
           "package": "harpy",
@@ -20850,6 +22706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix codes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_repz_prefix",
           "package": "harpy",
@@ -20860,6 +22717,7 @@
         "index": {
           "description": "Prefix codes",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_repz_prefix",
           "package": "harpy",
@@ -20872,6 +22730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ret",
           "package": "harpy",
@@ -20881,6 +22740,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ret",
           "normalized": "CodeGen a b()",
@@ -20895,6 +22755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ret_imm",
           "package": "harpy",
@@ -20904,6 +22765,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ret_imm",
           "normalized": "Word-\u003eCodeGen a b()",
@@ -20918,6 +22780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_rol",
           "package": "harpy",
@@ -20927,6 +22790,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_rol",
           "package": "harpy",
@@ -20939,6 +22803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ror",
           "package": "harpy",
@@ -20948,6 +22813,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ror",
           "package": "harpy",
@@ -20960,6 +22826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sahf",
           "package": "harpy",
@@ -20969,6 +22836,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sahf",
           "normalized": "CodeGen a b()",
@@ -20983,6 +22851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sar",
           "package": "harpy",
@@ -20992,6 +22861,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sar",
           "package": "harpy",
@@ -21004,6 +22874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sbb",
           "package": "harpy",
@@ -21013,6 +22884,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sbb",
           "package": "harpy",
@@ -21025,6 +22897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_set_mem",
           "package": "harpy",
@@ -21034,6 +22907,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_set_mem",
           "normalized": "Int-\u003eWord-\u003eBool-\u003eCodeGen a b()",
@@ -21048,6 +22922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_set_membase",
           "package": "harpy",
@@ -21057,6 +22932,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_set_membase",
           "normalized": "Int-\u003eWord-\u003eWord-\u003eBool-\u003eCodeGen a b()",
@@ -21071,6 +22947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_set_reg",
           "package": "harpy",
@@ -21080,6 +22957,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_set_reg",
           "normalized": "Int-\u003eWord-\u003eBool-\u003eCodeGen a b()",
@@ -21094,6 +22972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shift_mem",
           "package": "harpy",
@@ -21103,6 +22982,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shift_mem",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -21117,6 +22997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shift_mem_imm",
           "package": "harpy",
@@ -21126,6 +23007,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shift_mem_imm",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -21140,6 +23022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shift_membase",
           "package": "harpy",
@@ -21149,6 +23032,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shift_membase",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -21163,6 +23047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shift_membase_imm",
           "package": "harpy",
@@ -21172,6 +23057,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shift_membase_imm",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -21186,6 +23072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shift_reg",
           "package": "harpy",
@@ -21195,6 +23082,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shift_reg",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -21209,6 +23097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shift_reg_imm",
           "package": "harpy",
@@ -21218,6 +23107,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shift_reg_imm",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -21232,6 +23122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shl",
           "package": "harpy",
@@ -21241,6 +23132,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shl",
           "package": "harpy",
@@ -21253,6 +23145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shld",
           "package": "harpy",
@@ -21262,6 +23155,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shld",
           "package": "harpy",
@@ -21274,6 +23168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shld_reg",
           "package": "harpy",
@@ -21283,6 +23178,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shld_reg",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -21297,6 +23193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shld_reg_imm",
           "package": "harpy",
@@ -21306,6 +23203,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shld_reg_imm",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -21320,6 +23218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shlr",
           "package": "harpy",
@@ -21329,6 +23228,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shlr",
           "package": "harpy",
@@ -21341,6 +23241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shr",
           "package": "harpy",
@@ -21350,6 +23251,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shr",
           "package": "harpy",
@@ -21362,6 +23264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shrd_reg",
           "package": "harpy",
@@ -21371,6 +23274,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shrd_reg",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -21385,6 +23289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shrd_reg_imm",
           "package": "harpy",
@@ -21394,6 +23299,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shrd_reg_imm",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -21408,6 +23314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shufpd",
           "package": "harpy",
@@ -21417,6 +23324,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shufpd",
           "normalized": "Word-\u003ea-\u003eWord-\u003eCodeGen b c()",
@@ -21431,6 +23339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shufps",
           "package": "harpy",
@@ -21440,6 +23349,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_shufps",
           "normalized": "Word-\u003ea-\u003eWord-\u003eCodeGen b c()",
@@ -21454,6 +23364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sqrt_sse_reg_mem",
           "package": "harpy",
@@ -21463,6 +23374,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sqrt_sse_reg_mem",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -21477,6 +23389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sqrt_sse_reg_membase",
           "package": "harpy",
@@ -21486,6 +23399,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sqrt_sse_reg_membase",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -21500,6 +23414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sqrt_sse_reg_reg",
           "package": "harpy",
@@ -21509,6 +23424,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sqrt_sse_reg_reg",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -21524,6 +23440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix codes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ss_prefix",
           "package": "harpy",
@@ -21534,6 +23451,7 @@
         "index": {
           "description": "Prefix codes",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ss_prefix",
           "package": "harpy",
@@ -21546,6 +23464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sse_pd",
           "package": "harpy",
@@ -21555,6 +23474,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sse_pd",
           "package": "harpy",
@@ -21567,6 +23487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sse_ps",
           "package": "harpy",
@@ -21576,6 +23497,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sse_ps",
           "package": "harpy",
@@ -21588,6 +23510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sse_sd",
           "package": "harpy",
@@ -21597,6 +23520,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sse_sd",
           "package": "harpy",
@@ -21609,6 +23533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sse_ss",
           "package": "harpy",
@@ -21618,6 +23543,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sse_ss",
           "package": "harpy",
@@ -21630,6 +23556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_stosb",
           "package": "harpy",
@@ -21639,6 +23566,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_stosb",
           "normalized": "CodeGen a b()",
@@ -21653,6 +23581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_stosd",
           "package": "harpy",
@@ -21662,6 +23591,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_stosd",
           "normalized": "CodeGen a b()",
@@ -21676,6 +23606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_stosl",
           "package": "harpy",
@@ -21685,6 +23616,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_stosl",
           "normalized": "CodeGen a b()",
@@ -21699,6 +23631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sub",
           "package": "harpy",
@@ -21708,6 +23641,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sub",
           "package": "harpy",
@@ -21720,6 +23654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sub_sse_reg_mem",
           "package": "harpy",
@@ -21729,6 +23664,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sub_sse_reg_mem",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -21743,6 +23679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sub_sse_reg_membase",
           "package": "harpy",
@@ -21752,6 +23689,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sub_sse_reg_membase",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -21766,6 +23704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sub_sse_reg_reg",
           "package": "harpy",
@@ -21775,6 +23714,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_sub_sse_reg_reg",
           "normalized": "X SSE_PFX-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -21789,6 +23729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_test_mem_imm",
           "package": "harpy",
@@ -21798,6 +23739,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_test_mem_imm",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -21812,6 +23754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_test_mem_reg",
           "package": "harpy",
@@ -21821,6 +23764,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_test_mem_reg",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -21835,6 +23779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_test_membase_imm",
           "package": "harpy",
@@ -21844,6 +23789,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_test_membase_imm",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -21858,6 +23804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_test_membase_reg",
           "package": "harpy",
@@ -21867,6 +23814,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_test_membase_reg",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -21881,6 +23829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_test_reg_imm",
           "package": "harpy",
@@ -21890,6 +23839,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_test_reg_imm",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -21904,6 +23854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_test_reg_reg",
           "package": "harpy",
@@ -21913,6 +23864,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_test_reg_reg",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -21927,6 +23879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ucomisd_reg_mem",
           "package": "harpy",
@@ -21936,6 +23889,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ucomisd_reg_mem",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -21950,6 +23904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ucomisd_reg_membase",
           "package": "harpy",
@@ -21959,6 +23914,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ucomisd_reg_membase",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -21973,6 +23929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ucomisd_reg_reg",
           "package": "harpy",
@@ -21982,6 +23939,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ucomisd_reg_reg",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -21996,6 +23954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ucomiss_reg_mem",
           "package": "harpy",
@@ -22005,6 +23964,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ucomiss_reg_mem",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -22019,6 +23979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ucomiss_reg_membase",
           "package": "harpy",
@@ -22028,6 +23989,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ucomiss_reg_membase",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eCodeGen a b()",
@@ -22042,6 +24004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ucomiss_reg_reg",
           "package": "harpy",
@@ -22051,6 +24014,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_ucomiss_reg_reg",
           "normalized": "Word-\u003eWord-\u003eCodeGen a b()",
@@ -22066,6 +24030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix codes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_unlikely_prefix",
           "package": "harpy",
@@ -22076,6 +24041,7 @@
         "index": {
           "description": "Prefix codes",
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_unlikely_prefix",
           "package": "harpy",
@@ -22088,6 +24054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_wait",
           "package": "harpy",
@@ -22097,6 +24064,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_wait",
           "normalized": "CodeGen a b()",
@@ -22111,6 +24079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_widen_mem",
           "package": "harpy",
@@ -22120,6 +24089,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_widen_mem",
           "normalized": "Word-\u003eWord-\u003eBool-\u003eBool-\u003eCodeGen a b()",
@@ -22134,6 +24104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_widen_membase",
           "package": "harpy",
@@ -22143,6 +24114,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_widen_membase",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eBool-\u003eBool-\u003eCodeGen a b()",
@@ -22157,6 +24129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_widen_memindex",
           "package": "harpy",
@@ -22166,6 +24139,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_widen_memindex",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003eBool-\u003eBool-\u003eCodeGen a b()",
@@ -22180,6 +24154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_widen_reg",
           "package": "harpy",
@@ -22189,6 +24164,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_widen_reg",
           "normalized": "Word-\u003eWord-\u003eBool-\u003eBool-\u003eCodeGen a b()",
@@ -22203,6 +24179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_xadd_mem_reg",
           "package": "harpy",
@@ -22212,6 +24189,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_xadd_mem_reg",
           "normalized": "Word-\u003eWord-\u003ea-\u003eCodeGen b c()",
@@ -22226,6 +24204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_xadd_membase_reg",
           "package": "harpy",
@@ -22235,6 +24214,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_xadd_membase_reg",
           "normalized": "Word-\u003eWord-\u003eWord-\u003ea-\u003eCodeGen b c()",
@@ -22249,6 +24229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_xadd_reg_reg",
           "package": "harpy",
@@ -22258,6 +24239,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_xadd_reg_reg",
           "normalized": "Word-\u003eWord-\u003ea-\u003eCodeGen b c()",
@@ -22272,6 +24254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_xchg_mem_reg",
           "package": "harpy",
@@ -22281,6 +24264,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_xchg_mem_reg",
           "normalized": "Word-\u003eWord-\u003ea-\u003eCodeGen b c()",
@@ -22295,6 +24279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_xchg_membase_reg",
           "package": "harpy",
@@ -22304,6 +24289,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_xchg_membase_reg",
           "normalized": "Word-\u003eWord-\u003eWord-\u003ea-\u003eCodeGen b c()",
@@ -22318,6 +24304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_xchg_reg_reg",
           "package": "harpy",
@@ -22327,6 +24314,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_xchg_reg_reg",
           "normalized": "Word-\u003eWord-\u003ea-\u003eCodeGen b c()",
@@ -22341,6 +24329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "x86_xor",
           "package": "harpy",
@@ -22350,6 +24339,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "x86_xor",
           "package": "harpy",
@@ -22362,6 +24352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86CodeGen",
           "name": "xmm_location_emit",
           "package": "harpy",
@@ -22371,6 +24362,7 @@
         },
         "index": {
           "hierarchy": "Harpy X86CodeGen",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86CodeGen",
           "name": "xmm_location_emit",
           "normalized": "Word-\u003ea-\u003eCodeGen b c()",
@@ -22386,6 +24378,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDisassembler for x86 machine code.\n\u003c/p\u003e\u003cp\u003eThis is a module for compatibility with earlier Harpy releases.  It\n re-exports the disassembler from the disassembler package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "X86Disassembler",
           "package": "harpy",
@@ -22395,6 +24388,7 @@
         "index": {
           "description": "Disassembler for x86 machine code This is module for compatibility with earlier Harpy releases It re-exports the disassembler from the disassembler package",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "X86Disassembler",
           "package": "harpy",
@@ -22409,6 +24403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome opcodes can operate on data of several widths.  This information\n is encoded in instructions using the following enumeration type..\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "InstrOperandSize",
           "package": "harpy",
@@ -22417,6 +24412,7 @@
         "index": {
           "description": "Some opcodes can operate on data of several widths This information is encoded in instructions using the following enumeration type",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "InstrOperandSize",
           "package": "harpy",
@@ -22431,6 +24427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe disassembly routines return lists of the following datatype.  It\n encodes both invalid byte sequences (with a useful error message, if\n possible), or a valid instruction.  Both variants contain the list of\n opcode bytes from which the instruction was decoded and the address of\n the instruction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "Instruction",
           "package": "harpy",
@@ -22439,6 +24436,7 @@
         "index": {
           "description": "The disassembly routines return lists of the following datatype It encodes both invalid byte sequences with useful error message if possible or valid instruction Both variants contain the list of opcode bytes from which the instruction was decoded and the address of the instruction",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "Instruction",
           "package": "harpy",
@@ -22453,6 +24451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll opcodes are represented by this enumeration type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "Opcode",
           "package": "harpy",
@@ -22461,6 +24460,7 @@
         "index": {
           "description": "All opcodes are represented by this enumeration type",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "Opcode",
           "package": "harpy",
@@ -22475,6 +24475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll operands are in one of the following locations:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Constants in the instruction stream\n\u003c/li\u003e\u003cli\u003e Memory locations\n\u003c/li\u003e\u003cli\u003e Registers\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eMemory locations are referred to by on of several addressing modes:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Absolute (address in instruction stream)\n\u003c/li\u003e\u003cli\u003e Register-indirect (address in register)\n\u003c/li\u003e\u003cli\u003e Register-indirect with displacement\n\u003c/li\u003e\u003cli\u003e Base-Index with scale\n\u003c/li\u003e\u003cli\u003e Base-Index with scale and displacement \n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eDisplacements can be encoded as 8 or 32-bit immediates in the\n instruction stream, but are encoded as Int in instructions for\n simplicity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "Operand",
           "package": "harpy",
@@ -22483,6 +24484,7 @@
         "index": {
           "description": "All operands are in one of the following locations Constants in the instruction stream Memory locations Registers Memory locations are referred to by on of several addressing modes Absolute address in instruction stream Register-indirect address in register Register-indirect with displacement Base-Index with scale Base-Index with scale and displacement Displacements can be encoded as or bit immediates in the instruction stream but are encoded as Int in instructions for simplicity",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "Operand",
           "package": "harpy",
@@ -22497,6 +24499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstructions can be displayed either in Intel or AT&T style (like in\n GNU tools).\n\u003c/p\u003e\u003cp\u003eIntel style:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Destination operand comes first, source second.\n\u003c/li\u003e\u003cli\u003e No register or immediate prefixes.\n\u003c/li\u003e\u003cli\u003e Memory operands are annotated with operand size.\n\u003c/li\u003e\u003cli\u003e Hexadecimal numbers are suffixed with \u003ccode\u003eH\u003c/code\u003e and prefixed with \u003ccode\u003e0\u003c/code\u003e if\n   necessary.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eAT&T style:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Source operand comes first, destination second.\n\u003c/li\u003e\u003cli\u003e Register names are prefixes with \u003ccode\u003e%\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Immediates are prefixed with \u003ccode\u003e$\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Hexadecimal numbers are prefixes with \u003ccode\u003e0x\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Opcodes are suffixed with operand size, when ambiguous otherwise.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "ShowStyle",
           "package": "harpy",
@@ -22505,6 +24508,7 @@
         "index": {
           "description": "Instructions can be displayed either in Intel or AT style like in GNU tools Intel style Destination operand comes first source second No register or immediate prefixes Memory operands are annotated with operand size Hexadecimal numbers are suffixed with and prefixed with if necessary AT style Source operand comes first destination second Register names are prefixes with Immediates are prefixed with Hexadecimal numbers are prefixes with Opcodes are suffixed with operand size when ambiguous otherwise",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "ShowStyle",
           "package": "harpy",
@@ -22519,6 +24523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow in AT&T style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "AttStyle",
           "package": "harpy",
@@ -22528,6 +24533,7 @@
         "index": {
           "description": "Show in AT style",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "AttStyle",
           "package": "harpy",
@@ -22542,6 +24548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvalid instruction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "BadInstruction",
           "package": "harpy",
@@ -22551,6 +24558,7 @@
         "index": {
           "description": "Invalid instruction",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "BadInstruction",
           "normalized": "BadInstruction Word String Int[Word]",
@@ -22567,6 +24575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid instruction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "Instruction",
           "package": "harpy",
@@ -22576,6 +24585,7 @@
         "index": {
           "description": "Valid instruction",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "Instruction",
           "package": "harpy",
@@ -22590,6 +24600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow in Intel style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "IntelStyle",
           "package": "harpy",
@@ -22599,6 +24610,7 @@
         "index": {
           "description": "Show in Intel style",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "IntelStyle",
           "package": "harpy",
@@ -22613,6 +24625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e128-bit integer operand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "OP128",
           "package": "harpy",
@@ -22622,6 +24635,7 @@
         "index": {
           "description": "bit integer operand",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "OP128",
           "package": "harpy",
@@ -22636,6 +24650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e16-bit integer operand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "OP16",
           "package": "harpy",
@@ -22645,6 +24660,7 @@
         "index": {
           "description": "bit integer operand",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "OP16",
           "package": "harpy",
@@ -22659,6 +24675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit integer operand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "OP32",
           "package": "harpy",
@@ -22668,6 +24685,7 @@
         "index": {
           "description": "bit integer operand",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "OP32",
           "package": "harpy",
@@ -22682,6 +24700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e64-bit integer operand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "OP64",
           "package": "harpy",
@@ -22691,6 +24710,7 @@
         "index": {
           "description": "bit integer operand",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "OP64",
           "package": "harpy",
@@ -22705,6 +24725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e8-bit integer operand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "OP8",
           "package": "harpy",
@@ -22714,6 +24735,7 @@
         "index": {
           "description": "bit integer operand",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "OP8",
           "package": "harpy",
@@ -22728,6 +24750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit floating point operand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "OPF32",
           "package": "harpy",
@@ -22737,6 +24760,7 @@
         "index": {
           "description": "bit floating point operand",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "OPF32",
           "package": "harpy",
@@ -22751,6 +24775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e64-bit floating point operand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "OPF64",
           "package": "harpy",
@@ -22760,6 +24785,7 @@
         "index": {
           "description": "bit floating point operand",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "OPF64",
           "package": "harpy",
@@ -22774,6 +24800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e80-bit floating point operand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "OPF80",
           "package": "harpy",
@@ -22783,6 +24810,7 @@
         "index": {
           "description": "bit floating point operand",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "OPF80",
           "package": "harpy",
@@ -22797,6 +24825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo operand size specified\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "OPNONE",
           "package": "harpy",
@@ -22806,6 +24835,7 @@
         "index": {
           "description": "No operand size specified",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "OPNONE",
           "package": "harpy",
@@ -22820,6 +24850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbsolute address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "OpAddr",
           "package": "harpy",
@@ -22829,6 +24860,7 @@
         "index": {
           "description": "Absolute address",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "OpAddr",
           "package": "harpy",
@@ -22843,6 +24875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase plus scaled index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "OpBaseIndex",
           "package": "harpy",
@@ -22852,6 +24885,7 @@
         "index": {
           "description": "Base plus scaled index",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "OpBaseIndex",
           "package": "harpy",
@@ -22866,6 +24900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase plus scaled index with displacement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "OpBaseIndexDisp",
           "package": "harpy",
@@ -22875,6 +24910,7 @@
         "index": {
           "description": "Base plus scaled index with displacement",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "OpBaseIndexDisp",
           "package": "harpy",
@@ -22889,6 +24925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloating-point register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "OpFPReg",
           "package": "harpy",
@@ -22898,6 +24935,7 @@
         "index": {
           "description": "Floating-point register",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "OpFPReg",
           "package": "harpy",
@@ -22912,6 +24950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImmediate value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "OpImm",
           "package": "harpy",
@@ -22921,6 +24960,7 @@
         "index": {
           "description": "Immediate value",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "OpImm",
           "package": "harpy",
@@ -22935,6 +24975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister-indirect\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "OpInd",
           "package": "harpy",
@@ -22944,6 +24985,7 @@
         "index": {
           "description": "Register-indirect",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "OpInd",
           "package": "harpy",
@@ -22958,6 +25000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister-indirect with displacement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "OpIndDisp",
           "package": "harpy",
@@ -22967,6 +25010,7 @@
         "index": {
           "description": "Register-indirect with displacement",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "OpIndDisp",
           "package": "harpy",
@@ -22981,6 +25025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScaled index with displacement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "OpIndexDisp",
           "package": "harpy",
@@ -22990,6 +25035,7 @@
         "index": {
           "description": "Scaled index with displacement",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "OpIndexDisp",
           "package": "harpy",
@@ -23004,6 +25050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "OpReg",
           "package": "harpy",
@@ -23013,6 +25060,7 @@
         "index": {
           "description": "Register",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "OpReg",
           "package": "harpy",
@@ -23027,6 +25075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePseudo instruction, e.g. label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "PseudoInstruction",
           "package": "harpy",
@@ -23036,6 +25085,7 @@
         "index": {
           "description": "Pseudo instruction e.g label",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "PseudoInstruction",
           "package": "harpy",
@@ -23050,6 +25100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart address of instruction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "address",
           "package": "harpy",
@@ -23059,6 +25110,7 @@
         "index": {
           "description": "Start address of instruction",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "address",
           "package": "harpy",
@@ -23072,6 +25124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstruction bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "bytes",
           "package": "harpy",
@@ -23081,6 +25134,7 @@
         "index": {
           "description": "Instruction bytes",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "bytes",
           "normalized": "[Word]",
@@ -23096,6 +25150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisassemble the contents of the given array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "disassembleArray",
           "package": "harpy",
@@ -23105,6 +25160,7 @@
         "index": {
           "description": "Disassemble the contents of the given array",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "disassembleArray",
           "normalized": "a b Word-\u003ec(Either ParseError[Instruction])",
@@ -23121,6 +25177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisassemble a block of memory.  Starting at the location\n pointed to by the given pointer, the given number of bytes are\n disassembled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "disassembleBlock",
           "package": "harpy",
@@ -23130,6 +25187,7 @@
         "index": {
           "description": "Disassemble block of memory Starting at the location pointed to by the given pointer the given number of bytes are disassembled",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "disassembleBlock",
           "normalized": "Ptr Word-\u003eInt-\u003eIO(Either ParseError[Instruction])",
@@ -23146,6 +25204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisassemble the contents of the given list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "disassembleList",
           "package": "harpy",
@@ -23155,6 +25214,7 @@
         "index": {
           "description": "Disassemble the contents of the given list",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "disassembleList",
           "normalized": "[Word]-\u003ea(Either ParseError[Instruction])",
@@ -23171,6 +25231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpcode of the instruction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "opcode",
           "package": "harpy",
@@ -23180,6 +25241,7 @@
         "index": {
           "description": "Opcode of the instruction",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "opcode",
           "package": "harpy",
@@ -23193,6 +25255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstruction operands\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "operands",
           "package": "harpy",
@@ -23202,6 +25265,7 @@
         "index": {
           "description": "Instruction operands",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "operands",
           "normalized": "[Operand]",
@@ -23217,6 +25281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperand size, if any\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "opsize",
           "package": "harpy",
@@ -23226,6 +25291,7 @@
         "index": {
           "description": "Operand size if any",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "opsize",
           "package": "harpy",
@@ -23239,6 +25305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow an instruction in AT&T style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "showAtt",
           "package": "harpy",
@@ -23248,6 +25315,7 @@
         "index": {
           "description": "Show an instruction in AT style",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "showAtt",
           "normalized": "Instruction-\u003e[Char]",
@@ -23264,6 +25332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow an instruction in Intel style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy.X86Disassembler",
           "name": "showIntel",
           "package": "harpy",
@@ -23273,6 +25342,7 @@
         "index": {
           "description": "Show an instruction in Intel style",
           "hierarchy": "Harpy X86Disassembler",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy.X86Disassembler",
           "name": "showIntel",
           "normalized": "Instruction-\u003e[Char]",
@@ -23289,6 +25359,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHarpy is a library for run-time code generation of x86 machine code.\n\u003c/p\u003e\u003cp\u003eThis is a convenience module which re-exports the modules which are\n essential for using Harpy.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:33 UTC 2014",
           "module": "Harpy",
           "name": "Harpy",
           "package": "harpy",
@@ -23298,6 +25369,7 @@
         "index": {
           "description": "Harpy is library for run-time code generation of x86 machine code This is convenience module which re-exports the modules which are essential for using Harpy",
           "hierarchy": "Harpy",
+          "indexed": "2014-03-11T18:29:33",
           "module": "Harpy",
           "name": "Harpy",
           "package": "harpy",

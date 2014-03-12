@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "free-game"
+        "phrase": "free-game",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Backend.GLFW",
           "name": "GLFW",
           "package": "free-game",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Backend GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Backend.GLFW",
           "name": "GLFW",
           "package": "free-game",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Backend.GLFW",
           "name": "runGame",
           "package": "free-game",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Backend GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Backend.GLFW",
           "name": "runGame",
           "normalized": "WindowMode-\u003eBoundingBox Double-\u003eIterT(F UI)a-\u003eIO(Maybe a)",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "Class",
           "package": "free-game",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "Class",
           "package": "free-game",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "Affine",
           "package": "free-game",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "Affine",
           "package": "free-game",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "ButtonState",
           "package": "free-game",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "ButtonState",
           "package": "free-game",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "FromFinalizer",
           "package": "free-game",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "FromFinalizer",
           "package": "free-game",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "Keyboard",
           "package": "free-game",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "Keyboard",
           "package": "free-game",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "Local",
           "package": "free-game",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "Local",
           "package": "free-game",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "Location",
           "package": "free-game",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "Location",
           "package": "free-game",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "Mouse",
           "package": "free-game",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "Mouse",
           "package": "free-game",
@@ -232,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of types that can be regarded as a kind of picture.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "Picture2D",
           "package": "free-game",
@@ -241,6 +262,7 @@
         "index": {
           "description": "The class of types that can be regarded as kind of picture",
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "Picture2D",
           "package": "free-game",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "ChatterDown",
           "package": "free-game",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "ChatterDown",
           "package": "free-game",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "ChatterUp",
           "package": "free-game",
@@ -285,6 +310,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "ChatterUp",
           "package": "free-game",
@@ -298,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "Down",
           "package": "free-game",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "Down",
           "package": "free-game",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "Location",
           "package": "free-game",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "Location",
           "normalized": "Location(Vec-\u003eVec)(Vec-\u003eVec)",
@@ -344,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "Press",
           "package": "free-game",
@@ -353,6 +384,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "Press",
           "package": "free-game",
@@ -366,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "Release",
           "package": "free-game",
@@ -375,6 +408,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "Release",
           "package": "free-game",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "Up",
           "package": "free-game",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "Up",
           "package": "free-game",
@@ -411,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003ePicture2D\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eBitmap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "bitmap",
           "package": "free-game",
@@ -421,6 +458,7 @@
         "index": {
           "description": "Construct Picture2D from Bitmap",
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "bitmap",
           "normalized": "Bitmap-\u003ea()",
@@ -436,6 +474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ebitmap\u003c/a\u003e\u003c/code\u003e, but it does not create a cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "bitmapOnce",
           "package": "free-game",
@@ -446,6 +485,7 @@
         "index": {
           "description": "Same as bitmap but it does not create cache",
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "bitmapOnce",
           "normalized": "Bitmap-\u003ea()",
@@ -461,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "blendMode",
           "package": "free-game",
@@ -470,6 +511,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "blendMode",
           "normalized": "BlendMode-\u003ea b-\u003ea b",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "buttonDown",
           "package": "free-game",
@@ -494,6 +537,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "buttonDown",
           "normalized": "ButtonState-\u003eButtonState",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "buttonStay",
           "package": "free-game",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "buttonStay",
           "normalized": "ButtonState-\u003eButtonState",
@@ -533,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "buttonUp",
           "package": "free-game",
@@ -542,6 +589,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "buttonUp",
           "normalized": "ButtonState-\u003eButtonState",
@@ -557,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "circle",
           "package": "free-game",
@@ -566,6 +615,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "circle",
           "normalized": "Double-\u003ea()",
@@ -580,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "circleOutline",
           "package": "free-game",
@@ -589,6 +640,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "circleOutline",
           "normalized": "Double-\u003ea()",
@@ -604,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "coerceLocation",
           "package": "free-game",
@@ -613,6 +666,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "coerceLocation",
           "normalized": "Location a-\u003eLocation b",
@@ -628,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "color",
           "package": "free-game",
@@ -637,6 +692,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "color",
           "normalized": "Color-\u003ea b-\u003ea b",
@@ -702,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "flipLocation",
           "package": "free-game",
@@ -711,6 +768,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "flipLocation",
           "normalized": "Location a-\u003eLocation b",
@@ -753,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "fromFinalizer",
           "package": "free-game",
@@ -762,6 +821,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "fromFinalizer",
           "normalized": "FinalizerT IO a-\u003eb a",
@@ -777,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "getLocation",
           "package": "free-game",
@@ -786,6 +847,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "getLocation",
           "package": "free-game",
@@ -799,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "globalMousePosition",
           "package": "free-game",
@@ -808,6 +871,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "globalMousePosition",
           "package": "free-game",
@@ -845,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "isDown",
           "package": "free-game",
@@ -854,6 +919,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "isDown",
           "normalized": "ButtonState-\u003eBool",
@@ -869,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "isPressed",
           "package": "free-game",
@@ -878,6 +945,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "isPressed",
           "normalized": "ButtonState-\u003eBool",
@@ -893,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "isUp",
           "package": "free-game",
@@ -902,6 +971,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "isUp",
           "normalized": "ButtonState-\u003eBool",
@@ -967,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "keyStates",
           "package": "free-game",
@@ -976,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "keyStates",
           "package": "free-game",
@@ -989,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "keyStates_",
           "package": "free-game",
@@ -998,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "keyStates_",
           "package": "free-game",
@@ -1036,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "line",
           "package": "free-game",
@@ -1045,6 +1120,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "line",
           "normalized": "[Vec]-\u003ea()",
@@ -1083,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "mouseButton",
           "package": "free-game",
@@ -1092,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "mouseButton",
           "normalized": "Int-\u003ea Bool",
@@ -1176,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "mouseButtons",
           "package": "free-game",
@@ -1185,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "mouseButtons",
           "package": "free-game",
@@ -1198,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "mouseButtons_",
           "package": "free-game",
@@ -1207,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "mouseButtons_",
           "package": "free-game",
@@ -1220,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "mouseDown",
           "package": "free-game",
@@ -1229,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "mouseDown",
           "normalized": "Int-\u003ea Bool",
@@ -1338,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "mouseUp",
           "package": "free-game",
@@ -1347,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "mouseUp",
           "normalized": "Int-\u003ea Bool",
@@ -1431,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "polygon",
           "package": "free-game",
@@ -1440,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "polygon",
           "normalized": "[Vec]-\u003ea()",
@@ -1454,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "polygonOutline",
           "package": "free-game",
@@ -1463,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "polygonOutline",
           "normalized": "[Vec]-\u003ea()",
@@ -1478,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "rot2",
           "package": "free-game",
@@ -1487,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "rot2",
           "normalized": "a-\u003eV a-\u003eV a",
@@ -1502,6 +1594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(degrees)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "rotateD",
           "package": "free-game",
@@ -1512,6 +1605,7 @@
         "index": {
           "description": "degrees",
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "rotateD",
           "normalized": "Double-\u003ea b-\u003ea b",
@@ -1527,6 +1621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(radians)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "rotateR",
           "package": "free-game",
@@ -1537,6 +1632,7 @@
         "index": {
           "description": "radians",
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "rotateR",
           "normalized": "Double-\u003ea b-\u003ea b",
@@ -1551,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "scale",
           "package": "free-game",
@@ -1560,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "scale",
           "normalized": "Vec-\u003ea b-\u003ea b",
@@ -1574,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "thickness",
           "package": "free-game",
@@ -1583,6 +1682,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "thickness",
           "normalized": "Float-\u003ea b-\u003ea b",
@@ -1597,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Class",
           "name": "translate",
           "package": "free-game",
@@ -1606,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Class",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Class",
           "name": "translate",
           "normalized": "Vec-\u003ea b-\u003ea b",
@@ -1621,6 +1723,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eManipulating bitmaps\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Data.Bitmap",
           "name": "Bitmap",
           "package": "free-game",
@@ -1630,6 +1733,7 @@
         "index": {
           "description": "Manipulating bitmaps",
           "hierarchy": "FreeGame Data Bitmap",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Data.Bitmap",
           "name": "Bitmap",
           "package": "free-game",
@@ -1643,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Data.Bitmap",
           "name": "Bitmap",
           "package": "free-game",
@@ -1651,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Data Bitmap",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Data.Bitmap",
           "name": "Bitmap",
           "package": "free-game",
@@ -1799,6 +1905,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRendering characters\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Data.Font",
           "name": "Font",
           "package": "free-game",
@@ -1808,6 +1915,7 @@
         "index": {
           "description": "Rendering characters",
           "hierarchy": "FreeGame Data Font",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Data.Font",
           "name": "Font",
           "package": "free-game",
@@ -1822,6 +1930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFont object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Data.Font",
           "name": "Font",
           "package": "free-game",
@@ -1831,6 +1940,7 @@
         "index": {
           "description": "Font object",
           "hierarchy": "FreeGame Data Font",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Data.Font",
           "name": "Font",
           "package": "free-game",
@@ -1844,6 +1954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Data.Font",
           "name": "RenderedChar",
           "package": "free-game",
@@ -1852,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Data Font",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Data.Font",
           "name": "RenderedChar",
           "package": "free-game",
@@ -1865,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Data.Font",
           "name": "RenderedChar",
           "package": "free-game",
@@ -1874,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Data Font",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Data.Font",
           "name": "RenderedChar",
           "package": "free-game",
@@ -1887,6 +2001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Data.Font",
           "name": "charAdvance",
           "package": "free-game",
@@ -1896,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Data Font",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Data.Font",
           "name": "charAdvance",
           "package": "free-game",
@@ -1909,6 +2025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Data.Font",
           "name": "charBitmap",
           "package": "free-game",
@@ -1918,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Data Font",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Data.Font",
           "name": "charBitmap",
           "package": "free-game",
@@ -1931,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Data.Font",
           "name": "charOffset",
           "package": "free-game",
@@ -1940,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Data Font",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Data.Font",
           "name": "charOffset",
           "package": "free-game",
@@ -1953,6 +2073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Data.Font",
           "name": "charToBitmap",
           "package": "free-game",
@@ -1962,6 +2083,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Data Font",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Data.Font",
           "name": "charToBitmap",
           "normalized": "Font-\u003eDouble-\u003eChar-\u003ea RenderedChar",
@@ -1978,6 +2100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the font's boundingbox.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Data.Font",
           "name": "fontBoundingBox",
           "package": "free-game",
@@ -1988,6 +2111,7 @@
         "index": {
           "description": "Get the font boundingbox",
           "hierarchy": "FreeGame Data Font",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Data.Font",
           "name": "fontBoundingBox",
           "normalized": "Font-\u003eBoundingBox Double",
@@ -2029,6 +2153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eFont\u003c/a\u003e\u003c/code\u003e from the given file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Data.Font",
           "name": "loadFontFromFile",
           "package": "free-game",
@@ -2039,6 +2164,7 @@
         "index": {
           "description": "Create Font from the given file",
           "hierarchy": "FreeGame Data Font",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Data.Font",
           "name": "loadFontFromFile",
           "normalized": "FilePath-\u003ea Font",
@@ -2055,6 +2181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the font's metrics.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Data.Font",
           "name": "metricsAscent",
           "package": "free-game",
@@ -2065,6 +2192,7 @@
         "index": {
           "description": "Get the font metrics",
           "hierarchy": "FreeGame Data Font",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Data.Font",
           "name": "metricsAscent",
           "normalized": "Font-\u003eDouble",
@@ -2081,6 +2209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the font's metrics.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Data.Font",
           "name": "metricsDescent",
           "package": "free-game",
@@ -2091,6 +2220,7 @@
         "index": {
           "description": "Get the font metrics",
           "hierarchy": "FreeGame Data Font",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Data.Font",
           "name": "metricsDescent",
           "normalized": "Font-\u003eDouble",
@@ -2106,6 +2236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Instances",
           "name": "Instances",
           "package": "free-game",
@@ -2114,6 +2245,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Instances",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Instances",
           "name": "Instances",
           "package": "free-game",
@@ -2127,6 +2259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.Finalizer",
           "name": "Finalizer",
           "package": "free-game",
@@ -2135,6 +2268,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal Finalizer",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.Finalizer",
           "name": "Finalizer",
           "package": "free-game",
@@ -2149,6 +2283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn action with explicit releasing action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.Finalizer",
           "name": "FinalizerT",
           "package": "free-game",
@@ -2158,6 +2293,7 @@
         "index": {
           "description": "An action with explicit releasing action",
           "hierarchy": "FreeGame Internal Finalizer",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.Finalizer",
           "name": "FinalizerT",
           "package": "free-game",
@@ -2171,6 +2307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.Finalizer",
           "name": "FinalizerT",
           "package": "free-game",
@@ -2180,6 +2317,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal Finalizer",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.Finalizer",
           "name": "FinalizerT",
           "package": "free-game",
@@ -2193,6 +2331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.Finalizer",
           "name": "execFinalizerT",
           "package": "free-game",
@@ -2202,6 +2341,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal Finalizer",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.Finalizer",
           "name": "execFinalizerT",
           "normalized": "FinalizerT a b-\u003ea b",
@@ -2218,6 +2358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a finalizer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.Finalizer",
           "name": "finalizer",
           "package": "free-game",
@@ -2228,6 +2369,7 @@
         "index": {
           "description": "Add finalizer",
           "hierarchy": "FreeGame Internal Finalizer",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.Finalizer",
           "name": "finalizer",
           "normalized": "IO()-\u003eFinalizerT a()",
@@ -2242,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.Finalizer",
           "name": "mapFinalizerT",
           "package": "free-game",
@@ -2251,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal Finalizer",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.Finalizer",
           "name": "mapFinalizerT",
           "normalized": "(a b c d-\u003ee d)-\u003eFinalizerT c f-\u003eFinalizerT e f",
@@ -2267,6 +2411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the action and run all associated finalizers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.Finalizer",
           "name": "runFinalizerT",
           "package": "free-game",
@@ -2277,6 +2422,7 @@
         "index": {
           "description": "Run the action and run all associated finalizers",
           "hierarchy": "FreeGame Internal Finalizer",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.Finalizer",
           "name": "runFinalizerT",
           "normalized": "FinalizerT a b-\u003ea(b,IO())",
@@ -2292,6 +2438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.Finalizer",
           "name": "unFinalizerT",
           "package": "free-game",
@@ -2301,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal Finalizer",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.Finalizer",
           "name": "unFinalizerT",
           "normalized": "a b(c-\u003ed e)-\u003e(IO()-\u003ee-\u003ed e)-\u003ed e",
@@ -2316,6 +2464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "GLFW",
           "package": "free-game",
@@ -2324,6 +2473,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "GLFW",
           "package": "free-game",
@@ -2337,6 +2487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "System",
           "package": "free-game",
@@ -2345,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "System",
           "package": "free-game",
@@ -2358,6 +2510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "Texture",
           "package": "free-game",
@@ -2366,6 +2519,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "Texture",
           "package": "free-game",
@@ -2379,6 +2533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "System",
           "package": "free-game",
@@ -2388,6 +2543,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "System",
           "package": "free-game",
@@ -2401,6 +2557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "beginFrame",
           "package": "free-game",
@@ -2410,6 +2567,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "beginFrame",
           "normalized": "System-\u003eIO()",
@@ -2425,6 +2583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "blendMode",
           "package": "free-game",
@@ -2434,6 +2593,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "blendMode",
           "normalized": "BlendMode-\u003eIO a-\u003eIO a",
@@ -2449,6 +2609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "blendMode2BlendingFactors",
           "package": "free-game",
@@ -2458,6 +2619,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "blendMode2BlendingFactors",
           "normalized": "BlendMode-\u003e(BlendingFactor,BlendingFactor)",
@@ -2473,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "circle",
           "package": "free-game",
@@ -2482,6 +2645,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "circle",
           "normalized": "Double-\u003eIO()",
@@ -2496,6 +2660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "circleOutline",
           "package": "free-game",
@@ -2505,6 +2670,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "circleOutline",
           "normalized": "Double-\u003eIO()",
@@ -2520,6 +2686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "color",
           "package": "free-game",
@@ -2529,6 +2696,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "color",
           "normalized": "Color-\u003eIO a-\u003eIO a",
@@ -2543,6 +2711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "currentFPS",
           "package": "free-game",
@@ -2552,6 +2721,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "currentFPS",
           "package": "free-game",
@@ -2565,6 +2735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "drawTexture",
           "package": "free-game",
@@ -2574,6 +2745,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "drawTexture",
           "normalized": "Texture-\u003eIO()",
@@ -2589,6 +2761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "drawTextureAt",
           "package": "free-game",
@@ -2598,6 +2771,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "drawTextureAt",
           "normalized": "TextureObject-\u003eV Double-\u003eV Double-\u003eV Double-\u003eV Double-\u003eIO()",
@@ -2613,6 +2787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "endFrame",
           "package": "free-game",
@@ -2622,6 +2797,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "endFrame",
           "normalized": "System-\u003eIO Bool",
@@ -2637,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "gd",
           "package": "free-game",
@@ -2646,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "gd",
           "normalized": "Double-\u003eGLdouble",
@@ -2660,6 +2838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "gf",
           "package": "free-game",
@@ -2669,6 +2848,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "gf",
           "normalized": "Float-\u003eGLfloat",
@@ -2683,6 +2863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "gsizei",
           "package": "free-game",
@@ -2692,6 +2873,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "gsizei",
           "normalized": "Int-\u003eGLsizei",
@@ -2706,6 +2888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "installTexture",
           "package": "free-game",
@@ -2715,6 +2898,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "installTexture",
           "normalized": "Image PixelRGBA-\u003eIO Texture",
@@ -2730,6 +2914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "line",
           "package": "free-game",
@@ -2739,6 +2924,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "line",
           "normalized": "[V Double]-\u003eIO()",
@@ -2753,6 +2939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "mkVertex2",
           "package": "free-game",
@@ -2762,6 +2949,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "mkVertex2",
           "normalized": "V Double-\u003eVertex GLdouble",
@@ -2777,6 +2965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "polygon",
           "package": "free-game",
@@ -2786,6 +2975,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "polygon",
           "normalized": "[V Double]-\u003eIO()",
@@ -2800,6 +2990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "polygonOutline",
           "package": "free-game",
@@ -2809,6 +3000,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "polygonOutline",
           "normalized": "[V Double]-\u003eIO()",
@@ -2824,6 +3016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "preservingMatrix'",
           "package": "free-game",
@@ -2833,6 +3026,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "preservingMatrix'",
           "normalized": "a b-\u003ea b",
@@ -2848,6 +3042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "refFPS",
           "package": "free-game",
@@ -2857,6 +3052,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "refFPS",
           "package": "free-game",
@@ -2870,6 +3066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "refFrameCounter",
           "package": "free-game",
@@ -2879,6 +3076,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "refFrameCounter",
           "package": "free-game",
@@ -2892,6 +3090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "releaseTexture",
           "package": "free-game",
@@ -2901,6 +3100,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "releaseTexture",
           "normalized": "Texture-\u003eIO()",
@@ -2916,6 +3116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "rotateD",
           "package": "free-game",
@@ -2925,6 +3126,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "rotateD",
           "normalized": "Double-\u003eIO a-\u003eIO a",
@@ -2939,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "runVertices",
           "package": "free-game",
@@ -2948,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "runVertices",
           "normalized": "[V Double]-\u003ea()",
@@ -2963,6 +3167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "scale",
           "package": "free-game",
@@ -2972,6 +3177,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "scale",
           "normalized": "V Double-\u003eIO a-\u003eIO a",
@@ -2986,6 +3192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "screenshot",
           "package": "free-game",
@@ -2995,6 +3202,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "screenshot",
           "normalized": "System-\u003eIO(Image PixelRGBA)",
@@ -3009,6 +3217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "screenshotFlipped",
           "package": "free-game",
@@ -3018,6 +3227,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "screenshotFlipped",
           "normalized": "System-\u003eIO(Image PixelRGBA)",
@@ -3033,6 +3243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "theFPS",
           "package": "free-game",
@@ -3042,6 +3253,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "theFPS",
           "package": "free-game",
@@ -3055,6 +3267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "theRegion",
           "package": "free-game",
@@ -3064,6 +3277,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "theRegion",
           "package": "free-game",
@@ -3077,6 +3291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "theWindow",
           "package": "free-game",
@@ -3086,6 +3301,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "theWindow",
           "package": "free-game",
@@ -3099,6 +3315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "thickness",
           "package": "free-game",
@@ -3108,6 +3325,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "thickness",
           "normalized": "Float-\u003eIO a-\u003eIO a",
@@ -3122,6 +3340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "translate",
           "package": "free-game",
@@ -3131,6 +3350,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "translate",
           "normalized": "V Double-\u003eIO a-\u003eIO a",
@@ -3145,6 +3365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.GLFW",
           "name": "withGLFW",
           "package": "free-game",
@@ -3154,6 +3375,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Internal GLFW",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.GLFW",
           "name": "withGLFW",
           "normalized": "WindowMode-\u003eBoundingBox Double-\u003e(System-\u003eIO a)-\u003eIO a",
@@ -3170,6 +3392,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA portable implementation of lens(\u003ca\u003ehttp://hackage.haskell.org/package/lens\u003c/a\u003e)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.Raindrop",
           "name": "Raindrop",
           "package": "free-game",
@@ -3179,6 +3402,7 @@
         "index": {
           "description": "portable implementation of lens http hackage.haskell.org package lens",
           "hierarchy": "FreeGame Internal Raindrop",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.Raindrop",
           "name": "Raindrop",
           "package": "free-game",
@@ -3193,6 +3417,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003eover\u003c/a\u003e\u003c/code\u003e :: ASetter s t a b -\u003e (a -\u003e b) -\u003e s -\u003e t\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.Raindrop",
           "name": "over",
           "package": "free-game",
@@ -3203,6 +3428,7 @@
         "index": {
           "description": "over ASetter",
           "hierarchy": "FreeGame Internal Raindrop",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.Raindrop",
           "name": "over",
           "normalized": "((a-\u003eIdentity b)-\u003ec-\u003eIdentity d)-\u003e(a-\u003eb)-\u003ec-\u003ed",
@@ -3218,6 +3444,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003eview\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eMonadReader\u003c/a\u003e\u003c/code\u003e s m =\u003e Getting a s a -\u003e m a\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Internal.Raindrop",
           "name": "view",
           "package": "free-game",
@@ -3228,6 +3455,7 @@
         "index": {
           "description": "view MonadReader Getting",
           "hierarchy": "FreeGame Internal Raindrop",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Internal.Raindrop",
           "name": "view",
           "normalized": "((a-\u003eConst a b)-\u003ec-\u003eConst a d)-\u003ee a",
@@ -3242,6 +3470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Text",
           "name": "Text",
           "package": "free-game",
@@ -3250,6 +3479,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Text",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Text",
           "name": "Text",
           "package": "free-game",
@@ -3263,6 +3493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Text",
           "name": "TextF",
           "package": "free-game",
@@ -3271,6 +3502,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Text",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Text",
           "name": "TextF",
           "package": "free-game",
@@ -3284,6 +3516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Text",
           "name": "TextT",
           "package": "free-game",
@@ -3292,6 +3525,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Text",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Text",
           "name": "TextT",
           "package": "free-game",
@@ -3305,6 +3539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Text",
           "name": "TypeChar",
           "package": "free-game",
@@ -3314,6 +3549,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Text",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Text",
           "name": "TypeChar",
           "package": "free-game",
@@ -3328,6 +3564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a \u003ccode\u003e\u003ca\u003eTextT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Text",
           "name": "runTextT",
           "package": "free-game",
@@ -3338,6 +3575,7 @@
         "index": {
           "description": "Render TextT",
           "hierarchy": "FreeGame Text",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Text",
           "name": "runTextT",
           "normalized": "Maybe(BoundingBox Double)-\u003eFont-\u003eDouble-\u003eTextT a b-\u003ea b",
@@ -3353,6 +3591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Text",
           "name": "runTextT_",
           "package": "free-game",
@@ -3362,6 +3601,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Text",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Text",
           "name": "runTextT_",
           "normalized": "Maybe(BoundingBox Double)-\u003eFont-\u003eDouble-\u003eTextT a()-\u003ea()",
@@ -3403,6 +3643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Types",
           "name": "Types",
           "package": "free-game",
@@ -3411,6 +3652,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Types",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Types",
           "name": "Types",
           "package": "free-game",
@@ -3424,6 +3666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Types",
           "name": "BlendMode",
           "package": "free-game",
@@ -3432,6 +3675,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Types",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Types",
           "name": "BlendMode",
           "package": "free-game",
@@ -3446,6 +3690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2D bounding box\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Types",
           "name": "BoundingBox",
           "package": "free-game",
@@ -3455,6 +3700,7 @@
         "index": {
           "description": "bounding box",
           "hierarchy": "FreeGame Types",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Types",
           "name": "BoundingBox",
           "package": "free-game",
@@ -3468,6 +3714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Types",
           "name": "Key",
           "package": "free-game",
@@ -3476,6 +3723,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Types",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Types",
           "name": "Key",
           "package": "free-game",
@@ -3489,6 +3737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Types",
           "name": "Vec2",
           "package": "free-game",
@@ -3497,6 +3746,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Types",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Types",
           "name": "Vec2",
           "package": "free-game",
@@ -3510,6 +3760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Types",
           "name": "WindowMode",
           "package": "free-game",
@@ -3518,6 +3769,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Types",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Types",
           "name": "WindowMode",
           "package": "free-game",
@@ -6499,6 +6751,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003e_BottomLeft\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003eBoundingBox\u003c/a\u003e\u003c/code\u003e a) (\u003ccode\u003e\u003ca\u003eV2\u003c/a\u003e\u003c/code\u003e a)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Types",
           "name": "_BottomLeft",
           "package": "free-game",
@@ -6509,6 +6762,7 @@
         "index": {
           "description": "BottomLeft Lens BoundingBox V2",
           "hierarchy": "FreeGame Types",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Types",
           "name": "_BottomLeft",
           "normalized": "(V a-\u003eb(V a))-\u003eBoundingBox a-\u003eb(BoundingBox a)",
@@ -6525,6 +6779,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003e_BottomRight\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003eBoundingBox\u003c/a\u003e\u003c/code\u003e a) (\u003ccode\u003e\u003ca\u003eV2\u003c/a\u003e\u003c/code\u003e a)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Types",
           "name": "_BottomRight",
           "package": "free-game",
@@ -6535,6 +6790,7 @@
         "index": {
           "description": "BottomRight Lens BoundingBox V2",
           "hierarchy": "FreeGame Types",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Types",
           "name": "_BottomRight",
           "normalized": "(V a-\u003eb(V a))-\u003eBoundingBox a-\u003eb(BoundingBox a)",
@@ -6551,6 +6807,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003e_Corners\u003c/a\u003e\u003c/code\u003e :: Traversal' (\u003ccode\u003e\u003ca\u003eBoundingBox\u003c/a\u003e\u003c/code\u003e a) (\u003ccode\u003e\u003ca\u003eV2\u003c/a\u003e\u003c/code\u003e a)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Types",
           "name": "_Corners",
           "package": "free-game",
@@ -6561,6 +6818,7 @@
         "index": {
           "description": "Corners Traversal BoundingBox V2",
           "hierarchy": "FreeGame Types",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Types",
           "name": "_Corners",
           "normalized": "(V a-\u003eb(V a))-\u003eBoundingBox a-\u003eb(BoundingBox a)",
@@ -6577,6 +6835,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003e_TopLeft\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003eBoundingBox\u003c/a\u003e\u003c/code\u003e a) (\u003ccode\u003e\u003ca\u003eV2\u003c/a\u003e\u003c/code\u003e a)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Types",
           "name": "_TopLeft",
           "package": "free-game",
@@ -6587,6 +6846,7 @@
         "index": {
           "description": "TopLeft Lens BoundingBox V2",
           "hierarchy": "FreeGame Types",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Types",
           "name": "_TopLeft",
           "normalized": "(V a-\u003eb(V a))-\u003eBoundingBox a-\u003eb(BoundingBox a)",
@@ -6603,6 +6863,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003e_TopRight\u003c/a\u003e\u003c/code\u003e :: Lens' (\u003ccode\u003e\u003ca\u003eBoundingBox\u003c/a\u003e\u003c/code\u003e a) (\u003ccode\u003e\u003ca\u003eV2\u003c/a\u003e\u003c/code\u003e a)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Types",
           "name": "_TopRight",
           "package": "free-game",
@@ -6613,6 +6874,7 @@
         "index": {
           "description": "TopRight Lens BoundingBox V2",
           "hierarchy": "FreeGame Types",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Types",
           "name": "_TopRight",
           "normalized": "(V a-\u003eb(V a))-\u003eBoundingBox a-\u003eb(BoundingBox a)",
@@ -6629,6 +6891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine whether the given point is in the \u003ccode\u003e\u003ca\u003eBoundingBox\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Types",
           "name": "inBoundingBox",
           "package": "free-game",
@@ -6639,6 +6902,7 @@
         "index": {
           "description": "Determine whether the given point is in the BoundingBox",
           "hierarchy": "FreeGame Types",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Types",
           "name": "inBoundingBox",
           "normalized": "V a-\u003eBoundingBox a-\u003eBool",
@@ -6655,6 +6919,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides the \u003ca\u003efree\u003c/a\u003e embodiment.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "UI",
           "package": "free-game",
@@ -6664,6 +6929,7 @@
         "index": {
           "description": "Provides the free embodiment",
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "UI",
           "package": "free-game",
@@ -6677,6 +6943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "Frame",
           "package": "free-game",
@@ -6685,6 +6952,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "Frame",
           "package": "free-game",
@@ -6698,6 +6966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "FreeGame",
           "package": "free-game",
@@ -6706,6 +6975,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "FreeGame",
           "package": "free-game",
@@ -6719,6 +6989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "Game",
           "package": "free-game",
@@ -6727,6 +6998,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "Game",
           "package": "free-game",
@@ -6740,6 +7012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "UI",
           "package": "free-game",
@@ -6748,6 +7021,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "UI",
           "package": "free-game",
@@ -6761,6 +7035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "Bracket",
           "package": "free-game",
@@ -6770,6 +7045,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "Bracket",
           "package": "free-game",
@@ -6783,6 +7059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "ClearColor",
           "package": "free-game",
@@ -6792,6 +7069,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "ClearColor",
           "package": "free-game",
@@ -6805,6 +7083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "Draw",
           "package": "free-game",
@@ -6814,6 +7093,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "Draw",
           "package": "free-game",
@@ -6827,6 +7107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "ForkFrame",
           "package": "free-game",
@@ -6836,6 +7117,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "ForkFrame",
           "normalized": "ForkFrame(Frame())a",
@@ -6851,6 +7133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "FromFinalizer",
           "package": "free-game",
@@ -6860,6 +7143,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "FromFinalizer",
           "package": "free-game",
@@ -6873,6 +7157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "GetFPS",
           "package": "free-game",
@@ -6882,6 +7167,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "GetFPS",
           "normalized": "GetFPS(Int-\u003ea)",
@@ -6897,6 +7183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "HideCursor",
           "package": "free-game",
@@ -6906,6 +7193,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "HideCursor",
           "package": "free-game",
@@ -6919,6 +7207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "KeyStates",
           "package": "free-game",
@@ -6928,6 +7217,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "KeyStates",
           "normalized": "KeyStates(Map Key ButtonState-\u003ea)",
@@ -6943,6 +7233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "MouseButtons",
           "package": "free-game",
@@ -6952,6 +7243,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "MouseButtons",
           "normalized": "MouseButtons(Map Int ButtonState-\u003ea)",
@@ -6967,6 +7259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "MousePosition",
           "package": "free-game",
@@ -6976,6 +7269,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "MousePosition",
           "normalized": "MousePosition(Vec-\u003ea)",
@@ -6991,6 +7285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "PreloadBitmap",
           "package": "free-game",
@@ -7000,6 +7295,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "PreloadBitmap",
           "package": "free-game",
@@ -7013,6 +7309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "SetFPS",
           "package": "free-game",
@@ -7022,6 +7319,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "SetFPS",
           "package": "free-game",
@@ -7035,6 +7333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "SetTitle",
           "package": "free-game",
@@ -7044,6 +7343,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "SetTitle",
           "package": "free-game",
@@ -7057,6 +7357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "ShowCursor",
           "package": "free-game",
@@ -7066,6 +7367,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "ShowCursor",
           "package": "free-game",
@@ -7079,6 +7381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "TakeScreenshot",
           "package": "free-game",
@@ -7088,6 +7391,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "TakeScreenshot",
           "normalized": "TakeScreenshot(Bitmap-\u003ea)",
@@ -7104,6 +7408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eFrame\u003c/a\u003e\u003c/code\u003e, and release all the matter happened.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "bracket",
           "package": "free-game",
@@ -7114,6 +7419,7 @@
         "index": {
           "description": "Run Frame and release all the matter happened",
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "bracket",
           "normalized": "Frame a-\u003eb a",
@@ -7128,6 +7434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "clearColor",
           "package": "free-game",
@@ -7137,6 +7444,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "clearColor",
           "normalized": "Color-\u003ea()",
@@ -7153,6 +7461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw an action that consist of \u003ccode\u003ePicture2D'\u003c/code\u003es methods.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "draw",
           "package": "free-game",
@@ -7163,6 +7472,7 @@
         "index": {
           "description": "Draw an action that consist of Picture2D methods",
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "draw",
           "package": "free-game",
@@ -7176,6 +7486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eFrame\u003c/a\u003e\u003c/code\u003e action concurrently. Please do not use this function to draw pictures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "forkFrame",
           "package": "free-game",
@@ -7186,6 +7497,7 @@
         "index": {
           "description": "Run Frame action concurrently Please do not use this function to draw pictures",
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "forkFrame",
           "normalized": "Frame()-\u003ea()",
@@ -7201,6 +7513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "getFPS",
           "package": "free-game",
@@ -7210,6 +7523,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "getFPS",
           "package": "free-game",
@@ -7223,6 +7537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "hideCursor",
           "package": "free-game",
@@ -7232,6 +7547,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "hideCursor",
           "normalized": "a()",
@@ -7248,6 +7564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a \u003ccode\u003e\u003ca\u003eBitmap\u003c/a\u003e\u003c/code\u003e to avoid the cost of the first invocation of \u003ccode\u003e\u003ca\u003ebitmap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "preloadBitmap",
           "package": "free-game",
@@ -7258,6 +7575,7 @@
         "index": {
           "description": "Load Bitmap to avoid the cost of the first invocation of bitmap",
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "preloadBitmap",
           "normalized": "Bitmap-\u003ea()",
@@ -7273,6 +7591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "reUI",
           "package": "free-game",
@@ -7282,6 +7601,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "reUI",
           "normalized": "UI a-\u003eb a",
@@ -7297,6 +7617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "setFPS",
           "package": "free-game",
@@ -7306,6 +7627,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "setFPS",
           "normalized": "Int-\u003ea()",
@@ -7321,6 +7643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "setTitle",
           "package": "free-game",
@@ -7330,6 +7653,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "setTitle",
           "normalized": "String-\u003ea()",
@@ -7345,6 +7669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "showCursor",
           "package": "free-game",
@@ -7354,6 +7679,7 @@
         },
         "index": {
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "showCursor",
           "normalized": "a()",
@@ -7370,6 +7696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a \u003ccode\u003e\u003ca\u003eBitmap\u003c/a\u003e\u003c/code\u003e from the front buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.UI",
           "name": "takeScreenshot",
           "package": "free-game",
@@ -7380,6 +7707,7 @@
         "index": {
           "description": "Generate Bitmap from the front buffer",
           "hierarchy": "FreeGame UI",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.UI",
           "name": "takeScreenshot",
           "package": "free-game",
@@ -7393,6 +7721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Util",
           "name": "Util",
           "package": "free-game",
@@ -7401,6 +7730,7 @@
         },
         "index": {
           "hierarchy": "FreeGame Util",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Util",
           "name": "Util",
           "package": "free-game",
@@ -7519,6 +7849,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eWarning: In most cases, foreverFrame is good enough and fast.\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eAn infinite loop that run \u003ccode\u003e\u003ca\u003etick\u003c/a\u003e\u003c/code\u003e every frame after the given action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Util",
           "name": "foreverTick",
           "package": "free-game",
@@ -7529,6 +7860,7 @@
         "index": {
           "description": "Warning In most cases foreverFrame is good enough and fast An infinite loop that run tick every frame after the given action",
           "hierarchy": "FreeGame Util",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Util",
           "name": "foreverTick",
           "normalized": "a b-\u003ea c",
@@ -7651,6 +7983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003ePicture\u003c/code\u003e from the given file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame.Util",
           "name": "loadPictureFromFile",
           "package": "free-game",
@@ -7661,6 +7994,7 @@
         "index": {
           "description": "Create Picture from the given file",
           "hierarchy": "FreeGame Util",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame.Util",
           "name": "loadPictureFromFile",
           "normalized": "FilePath-\u003ea(b())",
@@ -7833,6 +8167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "FreeGame",
           "package": "free-game",
@@ -7841,6 +8176,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "FreeGame",
           "package": "free-game",
@@ -7854,6 +8190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "Affine",
           "package": "free-game",
@@ -7862,6 +8199,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "Affine",
           "package": "free-game",
@@ -7875,6 +8213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "Bitmap",
           "package": "free-game",
@@ -7883,6 +8222,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "Bitmap",
           "package": "free-game",
@@ -7896,6 +8236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "BlendMode",
           "package": "free-game",
@@ -7904,6 +8245,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "BlendMode",
           "package": "free-game",
@@ -7918,6 +8260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2D bounding box\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "BoundingBox",
           "package": "free-game",
@@ -7927,6 +8270,7 @@
         "index": {
           "description": "bounding box",
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "BoundingBox",
           "package": "free-game",
@@ -7941,6 +8285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFont object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "Font",
           "package": "free-game",
@@ -7950,6 +8295,7 @@
         "index": {
           "description": "Font object",
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "Font",
           "package": "free-game",
@@ -7963,6 +8309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "Frame",
           "package": "free-game",
@@ -7971,6 +8318,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "Frame",
           "package": "free-game",
@@ -7984,6 +8332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "FreeGame",
           "package": "free-game",
@@ -7992,6 +8341,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "FreeGame",
           "package": "free-game",
@@ -8005,6 +8355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "FromFinalizer",
           "package": "free-game",
@@ -8013,6 +8364,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "FromFinalizer",
           "package": "free-game",
@@ -8026,6 +8378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "Game",
           "package": "free-game",
@@ -8034,6 +8387,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "Game",
           "package": "free-game",
@@ -8047,6 +8401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "Key",
           "package": "free-game",
@@ -8055,6 +8410,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "Key",
           "package": "free-game",
@@ -8068,6 +8424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "Keyboard",
           "package": "free-game",
@@ -8076,6 +8433,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "Keyboard",
           "package": "free-game",
@@ -8089,6 +8447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "Local",
           "package": "free-game",
@@ -8097,6 +8456,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "Local",
           "package": "free-game",
@@ -8110,6 +8470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "Mouse",
           "package": "free-game",
@@ -8118,6 +8479,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "Mouse",
           "package": "free-game",
@@ -8132,6 +8494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of types that can be regarded as a kind of picture.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "Picture2D",
           "package": "free-game",
@@ -8141,6 +8504,7 @@
         "index": {
           "description": "The class of types that can be regarded as kind of picture",
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "Picture2D",
           "package": "free-game",
@@ -8154,6 +8518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "Vec2",
           "package": "free-game",
@@ -8162,6 +8527,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "Vec2",
           "package": "free-game",
@@ -8175,6 +8541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "WindowMode",
           "package": "free-game",
@@ -8183,6 +8550,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "WindowMode",
           "package": "free-game",
@@ -8197,6 +8565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003ePicture2D\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eBitmap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "bitmap",
           "package": "free-game",
@@ -8207,6 +8576,7 @@
         "index": {
           "description": "Construct Picture2D from Bitmap",
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "bitmap",
           "normalized": "Bitmap-\u003ea()",
@@ -8222,6 +8592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ebitmap\u003c/a\u003e\u003c/code\u003e, but it does not create a cache.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "bitmapOnce",
           "package": "free-game",
@@ -8232,6 +8603,7 @@
         "index": {
           "description": "Same as bitmap but it does not create cache",
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "bitmapOnce",
           "normalized": "Bitmap-\u003ea()",
@@ -8247,6 +8619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "blendMode",
           "package": "free-game",
@@ -8256,6 +8629,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "blendMode",
           "normalized": "BlendMode-\u003ea b-\u003ea b",
@@ -8272,6 +8646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eFrame\u003c/a\u003e\u003c/code\u003e, and release all the matter happened.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "bracket",
           "package": "free-game",
@@ -8282,6 +8657,7 @@
         "index": {
           "description": "Run Frame and release all the matter happened",
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "bracket",
           "normalized": "Frame a-\u003eb a",
@@ -8296,6 +8672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "circle",
           "package": "free-game",
@@ -8305,6 +8682,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "circle",
           "normalized": "Double-\u003ea()",
@@ -8319,6 +8697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "circleOutline",
           "package": "free-game",
@@ -8328,6 +8707,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "circleOutline",
           "normalized": "Double-\u003ea()",
@@ -8343,6 +8723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "clearColor",
           "package": "free-game",
@@ -8352,6 +8733,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "clearColor",
           "normalized": "Color-\u003ea()",
@@ -8367,6 +8749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "color",
           "package": "free-game",
@@ -8376,6 +8759,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "color",
           "normalized": "Color-\u003ea b-\u003ea b",
@@ -8390,6 +8774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "delay",
           "package": "free-game",
@@ -8398,6 +8783,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "delay",
           "normalized": "a b-\u003ea b",
@@ -8413,6 +8799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw an action that consist of \u003ccode\u003ePicture2D'\u003c/code\u003es methods.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "draw",
           "package": "free-game",
@@ -8423,6 +8810,7 @@
         "index": {
           "description": "Draw an action that consist of Picture2D methods",
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "draw",
           "package": "free-game",
@@ -8436,6 +8824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eFrame\u003c/a\u003e\u003c/code\u003e action concurrently. Please do not use this function to draw pictures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "forkFrame",
           "package": "free-game",
@@ -8446,6 +8835,7 @@
         "index": {
           "description": "Run Frame action concurrently Please do not use this function to draw pictures",
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "forkFrame",
           "normalized": "Frame()-\u003ea()",
@@ -8461,6 +8851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "getFPS",
           "package": "free-game",
@@ -8470,6 +8861,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "getFPS",
           "package": "free-game",
@@ -8483,6 +8875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "hideCursor",
           "package": "free-game",
@@ -8492,6 +8885,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "hideCursor",
           "normalized": "a()",
@@ -8507,6 +8901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "keyStates_",
           "package": "free-game",
@@ -8516,6 +8911,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "keyStates_",
           "package": "free-game",
@@ -8530,6 +8926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "liftIO",
           "package": "free-game",
@@ -8539,6 +8936,7 @@
         "index": {
           "description": "Lift computation from the IO monad",
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "liftIO",
           "normalized": "a b IO c-\u003ed c",
@@ -8554,6 +8952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "line",
           "package": "free-game",
@@ -8563,6 +8962,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "line",
           "normalized": "[Vec]-\u003ea()",
@@ -8577,6 +8977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "polygon",
           "package": "free-game",
@@ -8586,6 +8987,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "polygon",
           "normalized": "[Vec]-\u003ea()",
@@ -8600,6 +9002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "polygonOutline",
           "package": "free-game",
@@ -8609,6 +9012,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "polygonOutline",
           "normalized": "[Vec]-\u003ea()",
@@ -8625,6 +9029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a \u003ccode\u003e\u003ca\u003eBitmap\u003c/a\u003e\u003c/code\u003e to avoid the cost of the first invocation of \u003ccode\u003e\u003ca\u003ebitmap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "preloadBitmap",
           "package": "free-game",
@@ -8635,6 +9040,7 @@
         "index": {
           "description": "Load Bitmap to avoid the cost of the first invocation of bitmap",
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "preloadBitmap",
           "normalized": "Bitmap-\u003ea()",
@@ -8651,6 +9057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(degrees)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "rotateD",
           "package": "free-game",
@@ -8661,6 +9068,7 @@
         "index": {
           "description": "degrees",
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "rotateD",
           "normalized": "Double-\u003ea b-\u003ea b",
@@ -8676,6 +9084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(radians)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "rotateR",
           "package": "free-game",
@@ -8686,6 +9095,7 @@
         "index": {
           "description": "radians",
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "rotateR",
           "normalized": "Double-\u003ea b-\u003ea b",
@@ -8701,6 +9111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eGame\u003c/a\u003e\u003c/code\u003e is a kind of procedure but you can also use it like a value.\n free-game's design is based on free structures, however, you don't have to mind it -- Just apply \u003ccode\u003e\u003ca\u003erunGame\u003c/a\u003e\u003c/code\u003e, and enjoy.\n\u003c/p\u003e\u003cp\u003e\u003cimg src=\"http://shared.botis.org/free-game.png\"/\u003e\n\u003c/p\u003e\u003cp\u003eFor more examples, see \u003ca\u003ehttps://github.com/fumieval/free-game/tree/master/examples\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "runGame",
           "package": "free-game",
@@ -8711,6 +9122,7 @@
         "index": {
           "description": "Game is kind of procedure but you can also use it like value free-game design is based on free structures however you don have to mind it Just apply runGame and enjoy For more examples see https github.com fumieval free-game tree master examples",
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "runGame",
           "normalized": "WindowMode-\u003eBoundingBox Double-\u003eGame a-\u003eIO(Maybe a)",
@@ -8726,6 +9138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "runGameDefault",
           "package": "free-game",
@@ -8735,6 +9148,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "runGameDefault",
           "normalized": "Game a-\u003eIO(Maybe a)",
@@ -8750,6 +9164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "scale",
           "package": "free-game",
@@ -8759,6 +9174,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "scale",
           "normalized": "Vec-\u003ea b-\u003ea b",
@@ -8773,6 +9189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "setFPS",
           "package": "free-game",
@@ -8782,6 +9199,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "setFPS",
           "normalized": "Int-\u003ea()",
@@ -8797,6 +9215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "setTitle",
           "package": "free-game",
@@ -8806,6 +9225,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "setTitle",
           "normalized": "String-\u003ea()",
@@ -8821,6 +9241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "showCursor",
           "package": "free-game",
@@ -8830,6 +9251,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "showCursor",
           "normalized": "a()",
@@ -8846,6 +9268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a \u003ccode\u003e\u003ca\u003eBitmap\u003c/a\u003e\u003c/code\u003e from the front buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "takeScreenshot",
           "package": "free-game",
@@ -8856,6 +9279,7 @@
         "index": {
           "description": "Generate Bitmap from the front buffer",
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "takeScreenshot",
           "package": "free-game",
@@ -8869,6 +9293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "thickness",
           "package": "free-game",
@@ -8878,6 +9303,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "thickness",
           "normalized": "Float-\u003ea b-\u003ea b",
@@ -8892,6 +9318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:10 UTC 2014",
           "module": "FreeGame",
           "name": "translate",
           "package": "free-game",
@@ -8901,6 +9328,7 @@
         },
         "index": {
           "hierarchy": "FreeGame",
+          "indexed": "2014-03-11T18:12:10",
           "module": "FreeGame",
           "name": "translate",
           "normalized": "Vec-\u003ea b-\u003ea b",

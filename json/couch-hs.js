@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "couch-hs"
+        "phrase": "couch-hs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:38 UTC 2014",
           "module": "Database.CouchDB.ViewServer.Map",
           "name": "Map",
           "package": "couch-hs",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB ViewServer Map",
+          "indexed": "2014-03-11T17:41:38",
           "module": "Database.CouchDB.ViewServer.Map",
           "name": "Map",
           "package": "couch-hs",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of your map functions as they are stored in CouchDB. The trivial\n     example:\n\u003c/p\u003e\u003cpre\u003e \\doc -\u003e return ()\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:41:38 UTC 2014",
           "module": "Database.CouchDB.ViewServer.Map",
           "name": "MapSignature",
           "package": "couch-hs",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The type of your map functions as they are stored in CouchDB The trivial example doc return",
           "hierarchy": "Database CouchDB ViewServer Map",
+          "indexed": "2014-03-11T17:41:38",
           "module": "Database.CouchDB.ViewServer.Map",
           "name": "MapSignature",
           "package": "couch-hs",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike MonadIO, but for \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e. This allows JSON parsing\n   operations to be lifted into our various view monads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:38 UTC 2014",
           "module": "Database.CouchDB.ViewServer.Map",
           "name": "MonadParser",
           "package": "couch-hs",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Like MonadIO but for Parser This allows JSON parsing operations to be lifted into our various view monads",
           "hierarchy": "Database CouchDB ViewServer Map",
+          "indexed": "2014-03-11T17:41:38",
           "module": "Database.CouchDB.ViewServer.Map",
           "name": "MonadParser",
           "package": "couch-hs",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA JSON value represented as a Haskell value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:38 UTC 2014",
           "module": "Database.CouchDB.ViewServer.Map",
           "name": "Value",
           "package": "couch-hs",
@@ -94,6 +101,7 @@
         "index": {
           "description": "JSON value represented as Haskell value",
           "hierarchy": "Database CouchDB ViewServer Map",
+          "indexed": "2014-03-11T17:41:38",
           "module": "Database.CouchDB.ViewServer.Map",
           "name": "Value",
           "package": "couch-hs",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe monad within which a map computation takes place. This is a\n     transformation of the \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e monad, which is accessible\n     through the \u003ccode\u003e\u003ca\u003eMonadParser\u003c/a\u003e\u003c/code\u003e typeclass.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:38 UTC 2014",
           "module": "Database.CouchDB.ViewServer.Map",
           "name": "ViewMap",
           "package": "couch-hs",
@@ -117,6 +126,7 @@
         "index": {
           "description": "The monad within which map computation takes place This is transformation of the Parser monad which is accessible through the MonadParser typeclass",
           "hierarchy": "Database CouchDB ViewServer Map",
+          "indexed": "2014-03-11T17:41:38",
           "module": "Database.CouchDB.ViewServer.Map",
           "name": "ViewMap",
           "package": "couch-hs",
@@ -340,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmit a key/value pair for the current document. The values will be turned\n     into JSON objects for you, although you will have to provide type\n     annotations somewhere.\n\u003c/p\u003e\u003cpre\u003e\\doc -\u003e do value \u003c- doc .: \"value\" :: ViewMap Double\n           emit Null value\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:41:38 UTC 2014",
           "module": "Database.CouchDB.ViewServer.Map",
           "name": "emit",
           "package": "couch-hs",
@@ -350,6 +361,7 @@
         "index": {
           "description": "Emit key value pair for the current document The values will be turned into JSON objects for you although you will have to provide type annotations somewhere doc do value doc value ViewMap Double emit Null value",
           "hierarchy": "Database CouchDB ViewServer Map",
+          "indexed": "2014-03-11T17:41:38",
           "module": "Database.CouchDB.ViewServer.Map",
           "name": "emit",
           "normalized": "a-\u003eb-\u003eViewMap()",
@@ -365,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eemit\u003c/a\u003e\u003c/code\u003e, but with wrapped key and value.\n\u003c/p\u003e\u003cpre\u003e\\doc -\u003e emitM (return Null) (doc .: \"value\" :: ViewMap Double)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:41:38 UTC 2014",
           "module": "Database.CouchDB.ViewServer.Map",
           "name": "emitM",
           "package": "couch-hs",
@@ -375,6 +388,7 @@
         "index": {
           "description": "Same as emit but with wrapped key and value doc emitM return Null doc value ViewMap Double",
           "hierarchy": "Database CouchDB ViewServer Map",
+          "indexed": "2014-03-11T17:41:38",
           "module": "Database.CouchDB.ViewServer.Map",
           "name": "emitM",
           "normalized": "ViewMap a-\u003eViewMap b-\u003eViewMap()",
@@ -389,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:38 UTC 2014",
           "module": "Database.CouchDB.ViewServer.Map",
           "name": "liftParser",
           "package": "couch-hs",
@@ -398,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB ViewServer Map",
+          "indexed": "2014-03-11T17:41:38",
           "module": "Database.CouchDB.ViewServer.Map",
           "name": "liftParser",
           "normalized": "Parser a-\u003eb a",
@@ -414,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a log message to the CouchDB server. Note that log messages are only\n     sent if the computation succeeds. If you want to log a message in the event\n     of a failure, look at \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:38 UTC 2014",
           "module": "Database.CouchDB.ViewServer.Map",
           "name": "logMsg",
           "package": "couch-hs",
@@ -424,6 +441,7 @@
         "index": {
           "description": "Send log message to the CouchDB server Note that log messages are only sent if the computation succeeds If you want to log message in the event of failure look at Alternative",
           "hierarchy": "Database CouchDB ViewServer Map",
+          "indexed": "2014-03-11T17:41:38",
           "module": "Database.CouchDB.ViewServer.Map",
           "name": "logMsg",
           "normalized": "String-\u003eViewMap()",
@@ -518,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:38 UTC 2014",
           "module": "Database.CouchDB.ViewServer.Reduce",
           "name": "Reduce",
           "package": "couch-hs",
@@ -526,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB ViewServer Reduce",
+          "indexed": "2014-03-11T17:41:38",
           "module": "Database.CouchDB.ViewServer.Reduce",
           "name": "Reduce",
           "package": "couch-hs",
@@ -540,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike MonadIO, but for \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e. This allows JSON parsing\n   operations to be lifted into our various view monads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:38 UTC 2014",
           "module": "Database.CouchDB.ViewServer.Reduce",
           "name": "MonadParser",
           "package": "couch-hs",
@@ -549,6 +570,7 @@
         "index": {
           "description": "Like MonadIO but for Parser This allows JSON parsing operations to be lifted into our various view monads",
           "hierarchy": "Database CouchDB ViewServer Reduce",
+          "indexed": "2014-03-11T17:41:38",
           "module": "Database.CouchDB.ViewServer.Reduce",
           "name": "MonadParser",
           "package": "couch-hs",
@@ -563,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of your reduce functions as they are stored in CouchDB. The trivial\n     example:\n\u003c/p\u003e\u003cpre\u003e \\keys values rereduce -\u003e return Null\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:41:38 UTC 2014",
           "module": "Database.CouchDB.ViewServer.Reduce",
           "name": "ReduceSignature",
           "package": "couch-hs",
@@ -572,6 +595,7 @@
         "index": {
           "description": "The type of your reduce functions as they are stored in CouchDB The trivial example keys values rereduce return Null",
           "hierarchy": "Database CouchDB ViewServer Reduce",
+          "indexed": "2014-03-11T17:41:38",
           "module": "Database.CouchDB.ViewServer.Reduce",
           "name": "ReduceSignature",
           "package": "couch-hs",
@@ -586,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA JSON value represented as a Haskell value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:38 UTC 2014",
           "module": "Database.CouchDB.ViewServer.Reduce",
           "name": "Value",
           "package": "couch-hs",
@@ -594,6 +619,7 @@
         "index": {
           "description": "JSON value represented as Haskell value",
           "hierarchy": "Database CouchDB ViewServer Reduce",
+          "indexed": "2014-03-11T17:41:38",
           "module": "Database.CouchDB.ViewServer.Reduce",
           "name": "Value",
           "package": "couch-hs",
@@ -608,6 +634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe monad within which a reduce computation takes place. This is a\n     transformation of the \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e monad, which is accessible\n     through the \u003ccode\u003e\u003ca\u003eMonadParser\u003c/a\u003e\u003c/code\u003e typeclass.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:38 UTC 2014",
           "module": "Database.CouchDB.ViewServer.Reduce",
           "name": "ViewReduce",
           "package": "couch-hs",
@@ -617,6 +644,7 @@
         "index": {
           "description": "The monad within which reduce computation takes place This is transformation of the Parser monad which is accessible through the MonadParser typeclass",
           "hierarchy": "Database CouchDB ViewServer Reduce",
+          "indexed": "2014-03-11T17:41:38",
           "module": "Database.CouchDB.ViewServer.Reduce",
           "name": "ViewReduce",
           "package": "couch-hs",
@@ -630,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:38 UTC 2014",
           "module": "Database.CouchDB.ViewServer.Reduce",
           "name": "liftParser",
           "package": "couch-hs",
@@ -639,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Database CouchDB ViewServer Reduce",
+          "indexed": "2014-03-11T17:41:38",
           "module": "Database.CouchDB.ViewServer.Reduce",
           "name": "liftParser",
           "normalized": "Parser a-\u003eb a",
@@ -655,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a log message to the CouchDB server. Note that log messages are only\n     sent if the computation succeeds. If you want to log a message in the event\n     of a failure, look at \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:41:38 UTC 2014",
           "module": "Database.CouchDB.ViewServer.Reduce",
           "name": "logMsg",
           "package": "couch-hs",
@@ -665,6 +696,7 @@
         "index": {
           "description": "Send log message to the CouchDB server Note that log messages are only sent if the computation succeeds If you want to log message in the event of failure look at Alternative",
           "hierarchy": "Database CouchDB ViewServer Reduce",
+          "indexed": "2014-03-11T17:41:38",
           "module": "Database.CouchDB.ViewServer.Reduce",
           "name": "logMsg",
           "normalized": "String-\u003eViewReduce()",
@@ -681,6 +713,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a CouchDB view server in and for Haskell. With it, you can define\n    design documents that use Haskell functions to perform map/reduce\n    operations. Database.CouchDB.ViewServer is just a container; see the\n    submodules for API documentation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:41:38 UTC 2014",
           "module": "Database.CouchDB.ViewServer",
           "name": "ViewServer",
           "package": "couch-hs",
@@ -690,6 +723,7 @@
         "index": {
           "description": "This is CouchDB view server in and for Haskell With it you can define design documents that use Haskell functions to perform map reduce operations Database.CouchDB.ViewServer is just container see the submodules for API documentation",
           "hierarchy": "Database CouchDB ViewServer",
+          "indexed": "2014-03-11T17:41:38",
           "module": "Database.CouchDB.ViewServer",
           "name": "ViewServer",
           "package": "couch-hs",
@@ -704,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of your map functions as they are stored in CouchDB. The trivial\n     example:\n\u003c/p\u003e\u003cpre\u003e \\doc -\u003e return ()\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:41:38 UTC 2014",
           "module": "Database.CouchDB.ViewServer",
           "name": "MapSignature",
           "package": "couch-hs",
@@ -713,6 +748,7 @@
         "index": {
           "description": "The type of your map functions as they are stored in CouchDB The trivial example doc return",
           "hierarchy": "Database CouchDB ViewServer",
+          "indexed": "2014-03-11T17:41:38",
           "module": "Database.CouchDB.ViewServer",
           "name": "MapSignature",
           "package": "couch-hs",
@@ -727,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of your reduce functions as they are stored in CouchDB. The trivial\n     example:\n\u003c/p\u003e\u003cpre\u003e \\keys values rereduce -\u003e return Null\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:41:38 UTC 2014",
           "module": "Database.CouchDB.ViewServer",
           "name": "ReduceSignature",
           "package": "couch-hs",
@@ -736,6 +773,7 @@
         "index": {
           "description": "The type of your reduce functions as they are stored in CouchDB The trivial example keys values rereduce return Null",
           "hierarchy": "Database CouchDB ViewServer",
+          "indexed": "2014-03-11T17:41:38",
           "module": "Database.CouchDB.ViewServer",
           "name": "ReduceSignature",
           "package": "couch-hs",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "free-theorems-seq"
+        "phrase": "free-theorems-seq",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.Highlight",
           "name": "Highlight",
           "package": "free-theorems-seq",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq Highlight",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.Highlight",
           "name": "Highlight",
           "package": "free-theorems-seq",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.Highlight",
           "name": "highlight",
           "package": "free-theorems-seq",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq Highlight",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.Highlight",
           "name": "highlight",
           "normalized": "String-\u003eHtml",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.Highlight",
           "name": "highlightWith",
           "package": "free-theorems-seq",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq Highlight",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.Highlight",
           "name": "highlightWith",
           "normalized": "String-\u003eString-\u003eHtml",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.Parser.ParseTerm",
           "name": "ParseTerm",
           "package": "free-theorems-seq",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq Parser ParseTerm",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.Parser.ParseTerm",
           "name": "ParseTerm",
           "package": "free-theorems-seq",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.Parser.ParseTerm",
           "name": "parseTerm",
           "package": "free-theorems-seq",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq Parser ParseTerm",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.Parser.ParseTerm",
           "name": "parseTerm",
           "normalized": "String-\u003eEither ParseError Term",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.Parser.ParseTerm",
           "name": "parseTermWithFlag",
           "package": "free-theorems-seq",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq Parser ParseTerm",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.Parser.ParseTerm",
           "name": "parseTermWithFlag",
           "normalized": "String-\u003eEither ParseError(Term,Bool)",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "PolySeq",
           "package": "free-theorems-seq",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq PolySeq",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "PolySeq",
           "package": "free-theorems-seq",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "foldl''",
           "package": "free-theorems-seq",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq PolySeq",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "foldl''",
           "normalized": "[Char]",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "getForWebInterface",
           "package": "free-theorems-seq",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq PolySeq",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "getForWebInterface",
           "normalized": "String-\u003eEither(String,String)(String,String,String,String,[(String,String)])",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "getIt",
           "package": "free-theorems-seq",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq PolySeq",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "getIt",
           "normalized": "String-\u003eIO()",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "getItRaw",
           "package": "free-theorems-seq",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq PolySeq",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "getItRaw",
           "normalized": "String-\u003eIO()",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "getItT",
           "package": "free-theorems-seq",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq PolySeq",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "getItT",
           "normalized": "Term-\u003eIO()",
@@ -295,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "getItTRaw",
           "package": "free-theorems-seq",
@@ -304,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq PolySeq",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "getItTRaw",
           "normalized": "Term-\u003eIO()",
@@ -319,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "polySeq",
           "package": "free-theorems-seq",
@@ -328,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq PolySeq",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "polySeq",
           "normalized": "Term-\u003eMaybe((Term,Constraint,Typ),[String])",
@@ -343,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "shellStyle",
           "package": "free-theorems-seq",
@@ -352,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq PolySeq",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "shellStyle",
           "package": "free-theorems-seq",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "test",
           "package": "free-theorems-seq",
@@ -374,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq PolySeq",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "test",
           "normalized": "IO()",
@@ -388,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "testTerm",
           "package": "free-theorems-seq",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq PolySeq",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "testTerm",
           "normalized": "[Char]",
@@ -412,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "webStyle",
           "package": "free-theorems-seq",
@@ -421,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq PolySeq",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PolySeq",
           "name": "webStyle",
           "package": "free-theorems-seq",
@@ -434,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PrettyPrint",
           "name": "PrettyPrint",
           "package": "free-theorems-seq",
@@ -442,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq PrettyPrint",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PrettyPrint",
           "name": "PrettyPrint",
           "package": "free-theorems-seq",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PrettyPrint",
           "name": "adjustTypAbstraction",
           "package": "free-theorems-seq",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq PrettyPrint",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PrettyPrint",
           "name": "adjustTypAbstraction",
           "normalized": "Bool-\u003eTerm-\u003eTerm",
@@ -479,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PrettyPrint",
           "name": "prettyConstraint",
           "package": "free-theorems-seq",
@@ -488,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq PrettyPrint",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PrettyPrint",
           "name": "prettyConstraint",
           "normalized": "Constraint-\u003eDoc",
@@ -503,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PrettyPrint",
           "name": "prettyLabel",
           "package": "free-theorems-seq",
@@ -512,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq PrettyPrint",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PrettyPrint",
           "name": "prettyLabel",
           "normalized": "Label-\u003eDoc",
@@ -527,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PrettyPrint",
           "name": "prettyMarkedTerm",
           "package": "free-theorems-seq",
@@ -536,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq PrettyPrint",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PrettyPrint",
           "name": "prettyMarkedTerm",
           "normalized": "Term-\u003eDoc",
@@ -551,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PrettyPrint",
           "name": "prettyMarkedTyp",
           "package": "free-theorems-seq",
@@ -560,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq PrettyPrint",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PrettyPrint",
           "name": "prettyMarkedTyp",
           "normalized": "Typ-\u003eDoc",
@@ -575,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PrettyPrint",
           "name": "prettyUnMarkedTerm",
           "package": "free-theorems-seq",
@@ -584,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq PrettyPrint",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PrettyPrint",
           "name": "prettyUnMarkedTerm",
           "normalized": "Term-\u003eDoc",
@@ -599,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PrettyPrint",
           "name": "prettyUnMarkedTyp",
           "package": "free-theorems-seq",
@@ -608,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq PrettyPrint",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.PrettyPrint",
           "name": "prettyUnMarkedTyp",
           "normalized": "Typ-\u003eDoc",
@@ -623,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.TheoremGen",
           "name": "TheoremGen",
           "package": "free-theorems-seq",
@@ -631,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq TheoremGen",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.TheoremGen",
           "name": "TheoremGen",
           "package": "free-theorems-seq",
@@ -644,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.TheoremGen",
           "name": "makeFTFull",
           "package": "free-theorems-seq",
@@ -653,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq TheoremGen",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.TheoremGen",
           "name": "makeFTFull",
           "normalized": "Typ-\u003eEither[Char][Char]",
@@ -668,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.TheoremGen",
           "name": "makeFTFullFunc",
           "package": "free-theorems-seq",
@@ -677,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq TheoremGen",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.TheoremGen",
           "name": "makeFTFullFunc",
           "normalized": "Typ-\u003eEither[Char][Char]",
@@ -692,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.TheoremGen",
           "name": "makeFTFullFuncWithFlag",
           "package": "free-theorems-seq",
@@ -701,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq TheoremGen",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.TheoremGen",
           "name": "makeFTFullFuncWithFlag",
           "normalized": "Bool-\u003eTyp-\u003eEither[Char][Char]",
@@ -716,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.TheoremGen",
           "name": "makeFTFullWithFlag",
           "package": "free-theorems-seq",
@@ -725,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq TheoremGen",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.TheoremGen",
           "name": "makeFTFullWithFlag",
           "normalized": "Bool-\u003eTyp-\u003eEither[Char][Char]",
@@ -740,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.TypeTranslator",
           "name": "TypeTranslator",
           "package": "free-theorems-seq",
@@ -748,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq TypeTranslator",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.TypeTranslator",
           "name": "TypeTranslator",
           "package": "free-theorems-seq",
@@ -761,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:20 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.TypeTranslator",
           "name": "translate",
           "package": "free-theorems-seq",
@@ -770,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Variations PolySeq TypeTranslator",
+          "indexed": "2014-03-11T18:12:20",
           "module": "Language.Haskell.FreeTheorems.Variations.PolySeq.TypeTranslator",
           "name": "translate",
           "normalized": "Typ-\u003eTypeExpression",

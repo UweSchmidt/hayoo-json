@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-memocombinators"
+        "phrase": "data-memocombinators",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators.Class",
           "name": "Class",
           "package": "data-memocombinators",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data MemoCombinators Class",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators.Class",
           "name": "Class",
           "package": "data-memocombinators",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of types which have complete memo tables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators.Class",
           "name": "MemoTable",
           "package": "data-memocombinators",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The class of types which have complete memo tables",
           "hierarchy": "Data MemoCombinators Class",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators.Class",
           "name": "MemoTable",
           "package": "data-memocombinators",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of functions which can be completely memoized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators.Class",
           "name": "Memoizable",
           "package": "data-memocombinators",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The class of functions which can be completely memoized",
           "hierarchy": "Data MemoCombinators Class",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators.Class",
           "name": "Memoizable",
           "package": "data-memocombinators",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators.Class",
           "name": "memoize",
           "package": "data-memocombinators",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data MemoCombinators Class",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators.Class",
           "name": "memoize",
           "normalized": "a-\u003ea",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators.Class",
           "name": "table",
           "package": "data-memocombinators",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data MemoCombinators Class",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators.Class",
           "name": "table",
           "package": "data-memocombinators",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides combinators for building memo tables\n over various data types, so that the type of table can\n be customized depending on the application.\n\u003c/p\u003e\u003cp\u003eThis module is designed to be imported \u003cem\u003equalified\u003c/em\u003e, eg.\n\u003c/p\u003e\u003cpre\u003e import qualified Data.MemoCombinators as Memo\n\u003c/pre\u003e\u003cp\u003eUsage is straightforward: apply an object of type \u003ccode\u003eMemo a\u003c/code\u003e\n to a function of type \u003ccode\u003ea -\u003e b\u003c/code\u003e, and get a memoized function\n of type \u003ccode\u003ea -\u003e b\u003c/code\u003e.  For example:\n\u003c/p\u003e\u003cpre\u003e fib = Memo.integral fib'\n    where\n    fib' 0 = 0\n    fib' 1 = 1\n    fib' x = fib (x-1) + fib (x-2)\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "MemoCombinators",
           "package": "data-memocombinators",
@@ -139,6 +150,7 @@
         "index": {
           "description": "This module provides combinators for building memo tables over various data types so that the type of table can be customized depending on the application This module is designed to be imported qualified eg import qualified Data.MemoCombinators as Memo Usage is straightforward apply an object of type Memo to function of type and get memoized function of type For example fib Memo.integral fib where fib fib fib fib x-1 fib x-2",
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "MemoCombinators",
           "package": "data-memocombinators",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a memo table for functions of a.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "Memo",
           "package": "data-memocombinators",
@@ -162,6 +175,7 @@
         "index": {
           "description": "The type of memo table for functions of",
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "Memo",
           "package": "data-memocombinators",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of builders for ranged tables; takes a lower bound and an upper\n bound, and returns a memo table for that range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "RangeMemo",
           "package": "data-memocombinators",
@@ -185,6 +200,7 @@
         "index": {
           "description": "The type of builders for ranged tables takes lower bound and an upper bound and returns memo table for that range",
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "RangeMemo",
           "package": "data-memocombinators",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a memo table for a range using a flat array.  If items are\n given outside the range, don't memoize.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "arrayRange",
           "package": "data-memocombinators",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Build memo table for range using flat array If items are given outside the range don memoize",
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "arrayRange",
           "package": "data-memocombinators",
@@ -223,6 +241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize an ordered type with a bits instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "bits",
           "package": "data-memocombinators",
@@ -233,6 +252,7 @@
         "index": {
           "description": "Memoize an ordered type with bits instance",
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "bits",
           "package": "data-memocombinators",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "bool",
           "package": "data-memocombinators",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "bool",
           "package": "data-memocombinators",
@@ -267,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a table which memoizes all lists of less than the given length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "boundedList",
           "package": "data-memocombinators",
@@ -277,6 +300,7 @@
         "index": {
           "description": "Build table which memoizes all lists of less than the given length",
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "boundedList",
           "normalized": "Int-\u003eMemo a-\u003eMemo[a]",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "char",
           "package": "data-memocombinators",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "char",
           "package": "data-memocombinators",
@@ -314,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of ranges, (lazily) build a memo table for each one\n and combine them using linear search.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "chunks",
           "package": "data-memocombinators",
@@ -324,6 +351,7 @@
         "index": {
           "description": "Given list of ranges lazily build memo table for each one and combine them using linear search",
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "chunks",
           "normalized": "RangeMemo a-\u003e[(a,a)]-\u003eMemo a",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "either",
           "package": "data-memocombinators",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "either",
           "normalized": "Memo a-\u003eMemo b-\u003eMemo(Either a b)",
@@ -362,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize an enum type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "enum",
           "package": "data-memocombinators",
@@ -372,6 +403,7 @@
         "index": {
           "description": "Memoize an enum type",
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "enum",
           "package": "data-memocombinators",
@@ -385,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize an integral type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "integral",
           "package": "data-memocombinators",
@@ -395,6 +428,7 @@
         "index": {
           "description": "Memoize an integral type",
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "integral",
           "package": "data-memocombinators",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "list",
           "package": "data-memocombinators",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "list",
           "normalized": "Memo a-\u003eMemo[a]",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "maybe",
           "package": "data-memocombinators",
@@ -439,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "maybe",
           "normalized": "Memo a-\u003eMemo(Maybe a)",
@@ -454,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize a two argument function (just apply the table directly for\n single argument functions).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "memo2",
           "package": "data-memocombinators",
@@ -464,6 +503,7 @@
         "index": {
           "description": "Memoize two argument function just apply the table directly for single argument functions",
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "memo2",
           "normalized": "Memo a-\u003eMemo b-\u003e(a-\u003eb-\u003ec)-\u003ea-\u003eb-\u003ec",
@@ -479,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize a three argument function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "memo3",
           "package": "data-memocombinators",
@@ -489,6 +530,7 @@
         "index": {
           "description": "Memoize three argument function",
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "memo3",
           "normalized": "Memo a-\u003eMemo b-\u003eMemo c-\u003e(a-\u003eb-\u003ec-\u003ed)-\u003ea-\u003eb-\u003ec-\u003ed",
@@ -504,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize the second argument of a function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "memoSecond",
           "package": "data-memocombinators",
@@ -514,6 +557,7 @@
         "index": {
           "description": "Memoize the second argument of function",
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "memoSecond",
           "normalized": "Memo a-\u003e(b-\u003ea-\u003ec)-\u003eb-\u003ea-\u003ec",
@@ -530,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize the third argument of a function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "memoThird",
           "package": "data-memocombinators",
@@ -540,6 +585,7 @@
         "index": {
           "description": "Memoize the third argument of function",
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "memoThird",
           "normalized": "Memo a-\u003e(b-\u003ec-\u003ea-\u003ed)-\u003eb-\u003ec-\u003ea-\u003ed",
@@ -555,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "pair",
           "package": "data-memocombinators",
@@ -564,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "pair",
           "normalized": "Memo a-\u003eMemo b-\u003eMemo(a,b)",
@@ -579,6 +627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eswitch p a b\u003c/code\u003e uses the memo table a whenever p gives\n true and the memo table b whenever p gives false.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "switch",
           "package": "data-memocombinators",
@@ -589,6 +638,7 @@
         "index": {
           "description": "switch uses the memo table whenever gives true and the memo table whenever gives false",
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "switch",
           "normalized": "(a-\u003eBool)-\u003eMemo a-\u003eMemo a-\u003eMemo a",
@@ -603,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "unit",
           "package": "data-memocombinators",
@@ -612,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "unit",
           "normalized": "Memo()",
@@ -627,6 +679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a memo table for a range using a flat array.  If items are\n given outside the range, behavior is undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "unsafeArrayRange",
           "package": "data-memocombinators",
@@ -637,6 +690,7 @@
         "index": {
           "description": "Build memo table for range using flat array If items are given outside the range behavior is undefined",
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "unsafeArrayRange",
           "package": "data-memocombinators",
@@ -651,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a memoizer for a and an isomorphism between a and b, build\n a memoizer for b.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:07 UTC 2014",
           "module": "Data.MemoCombinators",
           "name": "wrap",
           "package": "data-memocombinators",
@@ -661,6 +716,7 @@
         "index": {
           "description": "Given memoizer for and an isomorphism between and build memoizer for",
           "hierarchy": "Data MemoCombinators",
+          "indexed": "2014-03-11T17:49:07",
           "module": "Data.MemoCombinators",
           "name": "wrap",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003eMemo a-\u003eMemo b",

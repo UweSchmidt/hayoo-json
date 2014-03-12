@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ADPfusion"
+        "phrase": "ADPfusion",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Apply",
           "name": "Apply",
           "package": "ADPfusion",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Apply",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Apply",
           "name": "Apply",
           "package": "ADPfusion",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Apply",
           "name": "Apply",
           "package": "ADPfusion",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Apply",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Apply",
           "name": "Apply",
           "package": "ADPfusion",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Apply",
           "name": "apply",
           "package": "ADPfusion",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Apply",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Apply",
           "name": "apply",
           "normalized": "Fun a-\u003ea",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Chr",
           "name": "Chr",
           "package": "ADPfusion",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Chr",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Chr",
           "name": "Chr",
           "package": "ADPfusion",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic Character parser that reads a single character but allows\n passing additional information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Chr",
           "name": "GChr",
           "package": "ADPfusion",
@@ -114,6 +123,7 @@
         "index": {
           "description": "generic Character parser that reads single character but allows passing additional information",
           "hierarchy": "ADP Fusion Chr",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Chr",
           "name": "GChr",
           "package": "ADPfusion",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized peek.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Chr",
           "name": "GPeek",
           "package": "ADPfusion",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Generalized peek",
           "hierarchy": "ADP Fusion Chr",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Chr",
           "name": "GPeek",
           "package": "ADPfusion",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Chr",
           "name": "PeekL",
           "package": "ADPfusion",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Chr",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Chr",
           "name": "PeekL",
           "package": "ADPfusion",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Chr",
           "name": "PeekR",
           "package": "ADPfusion",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Chr",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Chr",
           "name": "PeekR",
           "package": "ADPfusion",
@@ -193,6 +209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapping a GChr to allow zero/one behaviour. Parses a character (or not)\n in a strict maybe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Chr",
           "name": "ZeroOne",
           "package": "ADPfusion",
@@ -202,6 +219,7 @@
         "index": {
           "description": "Wrapping GChr to allow zero one behaviour Parses character or not in strict maybe",
           "hierarchy": "ADP Fusion Chr",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Chr",
           "name": "ZeroOne",
           "package": "ADPfusion",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Chr",
           "name": "GChr",
           "package": "ADPfusion",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Chr",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Chr",
           "name": "GChr",
           "normalized": "(a b-\u003eInt-\u003ec)-\u003e(a b)-\u003eGChr c b",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Chr",
           "name": "GPeek",
           "package": "ADPfusion",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Chr",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Chr",
           "name": "GPeek",
           "normalized": "GPeek(Vector a-\u003eInt-\u003eb)(Vector a)(Int Int)",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Chr",
           "name": "PeekL",
           "package": "ADPfusion",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Chr",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Chr",
           "name": "PeekL",
           "package": "ADPfusion",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Chr",
           "name": "PeekR",
           "package": "ADPfusion",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Chr",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Chr",
           "name": "PeekR",
           "package": "ADPfusion",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Chr",
           "name": "ZeroOne",
           "package": "ADPfusion",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Chr",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Chr",
           "name": "ZeroOne",
           "package": "ADPfusion",
@@ -382,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Chr",
           "name": "chrLeftD",
           "package": "ADPfusion",
@@ -391,6 +420,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Chr",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Chr",
           "name": "chrLeftD",
           "normalized": "a-\u003eb a-\u003eGChr(a,a)a",
@@ -481,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Chr",
           "name": "unZeroOne",
           "package": "ADPfusion",
@@ -490,6 +521,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Chr",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Chr",
           "name": "unZeroOne",
           "package": "ADPfusion",
@@ -503,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Chr",
           "name": "zoLeft",
           "package": "ADPfusion",
@@ -512,6 +545,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Chr",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Chr",
           "name": "zoLeft",
           "normalized": "a b-\u003eZeroOne(Maybe b,b)b",
@@ -527,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "Classes",
           "package": "ADPfusion",
@@ -535,6 +570,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "Classes",
           "package": "ADPfusion",
@@ -549,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild the stack using (%)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "Build",
           "package": "ADPfusion",
@@ -558,6 +595,7 @@
         "index": {
           "description": "Build the stack using",
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "Build",
           "package": "ADPfusion",
@@ -572,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Inner/Outer handler. We encode three states. We are in \u003ccode\u003e\u003ca\u003eOuter\u003c/a\u003e\u003c/code\u003e or\n right-most position, or \u003ccode\u003e\u003ca\u003eInner\u003c/a\u003e\u003c/code\u003e position. The \u003ccode\u003e\u003ca\u003eInner\u003c/a\u003e\u003c/code\u003e position encodes if\n loop conditional \u003ccode\u003e\u003ca\u003eCheckNoCheck\u003c/a\u003e\u003c/code\u003e need to be performed.\n\u003c/p\u003e\u003cp\u003eIn f \u003c\u003c\u003c Z % table % table, the two tables already perform a conditional\n branch, so that Z/table does not have to check boundary conditions.\n\u003c/p\u003e\u003cp\u003eIn f \u003c\u003c\u003c Z % table % char, no check is performed in table\u003cem\u003echar, so Z\u003c/em\u003etable\n needs to perform a boundary check.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "CheckNoCheck",
           "package": "ADPfusion",
@@ -581,6 +620,7 @@
         "index": {
           "description": "The Inner Outer handler We encode three states We are in Outer or right-most position or Inner position The Inner position encodes if loop conditional CheckNoCheck need to be performed In table table the two tables already perform conditional branch so that table does not have to check boundary conditions In table char no check is performed in table char so table needs to perform boundary check",
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "CheckNoCheck",
           "package": "ADPfusion",
@@ -594,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "ENE",
           "package": "ADPfusion",
@@ -602,6 +643,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "ENE",
           "package": "ADPfusion",
@@ -615,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "Elms",
           "package": "ADPfusion",
@@ -623,6 +666,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "Elms",
           "package": "ADPfusion",
@@ -636,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "EmptyENZ",
           "package": "ADPfusion",
@@ -644,6 +689,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "EmptyENZ",
           "package": "ADPfusion",
@@ -657,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "Index",
           "package": "ADPfusion",
@@ -665,6 +712,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "Index",
           "package": "ADPfusion",
@@ -678,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "InnerOuter",
           "package": "ADPfusion",
@@ -686,6 +735,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "InnerOuter",
           "package": "ADPfusion",
@@ -699,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "MkStream",
           "package": "ADPfusion",
@@ -707,6 +758,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "MkStream",
           "package": "ADPfusion",
@@ -721,6 +773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eValidIndex\u003c/a\u003e\u003c/code\u003e, via \u003ccode\u003e\u003ca\u003evalidIndex\u003c/a\u003e\u003c/code\u003e statically checks if an index \u003ccode\u003ei\u003c/code\u003e is valid\n for a stack of terminals and non-terminals \u003ccode\u003ex\u003c/code\u003e. \u003ccode\u003e\u003ca\u003evalidIndex\u003c/a\u003e\u003c/code\u003e is used to\n short-circuit streams via \u003ccode\u003e\u003ca\u003eouterCheck\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "ValidIndex",
           "package": "ADPfusion",
@@ -730,6 +783,7 @@
         "index": {
           "description": "ValidIndex via validIndex statically checks if an index is valid for stack of terminals and non-terminals validIndex is used to short-circuit streams via outerCheck",
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "ValidIndex",
           "package": "ADPfusion",
@@ -743,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "Check",
           "package": "ADPfusion",
@@ -752,6 +807,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "Check",
           "package": "ADPfusion",
@@ -788,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "Inner",
           "package": "ADPfusion",
@@ -797,6 +854,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "Inner",
           "package": "ADPfusion",
@@ -810,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "NoCheck",
           "package": "ADPfusion",
@@ -819,6 +878,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "NoCheck",
           "package": "ADPfusion",
@@ -855,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "Outer",
           "package": "ADPfusion",
@@ -864,6 +925,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "Outer",
           "package": "ADPfusion",
@@ -900,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "build",
           "package": "ADPfusion",
@@ -909,6 +972,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "build",
           "normalized": "a-\u003eStack a",
@@ -924,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorrect wrapping of \u003ccode\u003e\u003ca\u003evalidIndex\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003egetParserRange\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "checkValidIndex",
           "package": "ADPfusion",
@@ -934,6 +999,7 @@
         "index": {
           "description": "Correct wrapping of validIndex and getParserRange",
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "checkValidIndex",
           "normalized": "a-\u003eb-\u003eBool",
@@ -949,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "fromPartialIndices",
           "package": "ADPfusion",
@@ -958,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "fromPartialIndices",
           "normalized": "PartialIndex a-\u003ePartialIndex a-\u003ea",
@@ -973,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "getArg",
           "package": "ADPfusion",
@@ -982,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "getArg",
           "normalized": "Elm a b-\u003eArg a",
@@ -997,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "getIdx",
           "package": "ADPfusion",
@@ -1006,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "getIdx",
           "normalized": "Elm a b-\u003eb",
@@ -1021,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "getParserRange",
           "package": "ADPfusion",
@@ -1030,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "getParserRange",
           "normalized": "a-\u003eb-\u003eParserRange b",
@@ -1045,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "leftPartialIndex",
           "package": "ADPfusion",
@@ -1054,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "leftPartialIndex",
           "normalized": "a-\u003ePartialIndex a",
@@ -1069,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "mkStream",
           "package": "ADPfusion",
@@ -1078,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "mkStream",
           "normalized": "a-\u003eInOut b-\u003eb-\u003eStream c(Elm a b)",
@@ -1093,6 +1171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "outer",
           "package": "ADPfusion",
@@ -1102,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "outer",
           "normalized": "a-\u003eInOut a",
@@ -1117,6 +1197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eouterCheck\u003c/a\u003e\u003c/code\u003e acts as a static filter. If \u003ccode\u003eb\u003c/code\u003e is true, we keep all stream\n elements. If \u003ccode\u003eb\u003c/code\u003e is false, we discard all stream elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "outerCheck",
           "package": "ADPfusion",
@@ -1127,6 +1208,7 @@
         "index": {
           "description": "outerCheck acts as static filter If is true we keep all stream elements If is false we discard all stream elements",
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "outerCheck",
           "normalized": "Bool-\u003eStream a b-\u003eStream a b",
@@ -1142,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "rightPartialIndex",
           "package": "ADPfusion",
@@ -1151,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "rightPartialIndex",
           "normalized": "a-\u003ePartialIndex a",
@@ -1166,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "toEmptyENZ",
           "package": "ADPfusion",
@@ -1175,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "toEmptyENZ",
           "normalized": "a-\u003ea",
@@ -1190,6 +1276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "toNonEmptyENZ",
           "package": "ADPfusion",
@@ -1199,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "toNonEmptyENZ",
           "normalized": "a-\u003ea",
@@ -1214,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Classes",
           "name": "validIndex",
           "package": "ADPfusion",
@@ -1223,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Classes",
           "name": "validIndex",
           "normalized": "a-\u003eParserRange b-\u003eb-\u003eBool",
@@ -1238,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Empty",
           "name": "Empty",
           "package": "ADPfusion",
@@ -1246,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Empty",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Empty",
           "name": "Empty",
           "package": "ADPfusion",
@@ -1259,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Empty",
           "name": "Empty",
           "package": "ADPfusion",
@@ -1267,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Empty",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Empty",
           "name": "Empty",
           "package": "ADPfusion",
@@ -1280,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Empty",
           "name": "Empty",
           "package": "ADPfusion",
@@ -1289,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Empty",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Empty",
           "name": "Empty",
           "package": "ADPfusion",
@@ -1324,6 +1420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Examples.Palindrome",
           "name": "Palindrome",
           "package": "ADPfusion",
@@ -1332,6 +1429,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Examples Palindrome",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Examples.Palindrome",
           "name": "Palindrome",
           "package": "ADPfusion",
@@ -1345,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Examples.Palindrome",
           "name": "SignatureT",
           "package": "ADPfusion",
@@ -1353,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Examples Palindrome",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Examples.Palindrome",
           "name": "SignatureT",
           "package": "ADPfusion",
@@ -1366,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Examples.Palindrome",
           "name": "Signature",
           "package": "ADPfusion",
@@ -1375,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Examples Palindrome",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Examples.Palindrome",
           "name": "Signature",
           "package": "ADPfusion",
@@ -1388,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Examples.Palindrome",
           "name": "empty",
           "package": "ADPfusion",
@@ -1397,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Examples Palindrome",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Examples.Palindrome",
           "name": "empty",
           "normalized": "()-\u003ea",
@@ -1411,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Examples.Palindrome",
           "name": "h",
           "package": "ADPfusion",
@@ -1420,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Examples Palindrome",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Examples.Palindrome",
           "name": "h",
           "normalized": "Stream a b-\u003ea c",
@@ -1434,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Examples.Palindrome",
           "name": "pair",
           "package": "ADPfusion",
@@ -1443,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Examples Palindrome",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Examples.Palindrome",
           "name": "pair",
           "normalized": "Char-\u003ea-\u003eChar-\u003ea",
@@ -1457,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "Classes",
           "package": "ADPfusion",
@@ -1465,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Multi Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "Classes",
           "package": "ADPfusion",
@@ -1479,6 +1589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine a terminal parser of dimension k in \u003ccode\u003ea\u003c/code\u003e with a new 1-dim parser\n \u003ccode\u003eb\u003c/code\u003e generating a parser of dimension k+1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "Term",
           "package": "ADPfusion",
@@ -1488,6 +1599,7 @@
         "index": {
           "description": "Combine terminal parser of dimension in with new dim parser generating parser of dimension",
           "hierarchy": "ADP Fusion Multi Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "Term",
           "package": "ADPfusion",
@@ -1502,6 +1614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe zero-th dimension of every terminal parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "TermBase",
           "package": "ADPfusion",
@@ -1511,6 +1624,7 @@
         "index": {
           "description": "The zero-th dimension of every terminal parser",
           "hierarchy": "ADP Fusion Multi Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "TermBase",
           "package": "ADPfusion",
@@ -1525,6 +1639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003etermStream\u003c/a\u003e\u003c/code\u003e extracts all terminal elements from a multi-dimensional\n terminal symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "TermElm",
           "package": "ADPfusion",
@@ -1534,6 +1649,7 @@
         "index": {
           "description": "termStream extracts all terminal elements from multi-dimensional terminal symbol",
           "hierarchy": "ADP Fusion Multi Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "TermElm",
           "package": "ADPfusion",
@@ -1547,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "TermOf",
           "package": "ADPfusion",
@@ -1555,6 +1672,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Multi Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "TermOf",
           "package": "ADPfusion",
@@ -1569,6 +1687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo calculate parser ranges and index validity we need an additional type\n class that recurses over the individual \u003ccode\u003e\u003ca\u003eTerm\u003c/a\u003e\u003c/code\u003e elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "TermValidIndex",
           "package": "ADPfusion",
@@ -1578,6 +1697,7 @@
         "index": {
           "description": "To calculate parser ranges and index validity we need an additional type class that recurses over the individual Term elements",
           "hierarchy": "ADP Fusion Multi Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "TermValidIndex",
           "package": "ADPfusion",
@@ -1591,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Multi.Classes",
           "name": ":!",
           "package": "ADPfusion",
@@ -1600,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Multi Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Multi.Classes",
           "name": ":!",
           "package": "ADPfusion",
@@ -1612,6 +1734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "T",
           "package": "ADPfusion",
@@ -1621,6 +1744,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Multi Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "T",
           "package": "ADPfusion",
@@ -1633,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "getTermParserRange",
           "package": "ADPfusion",
@@ -1642,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Multi Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "getTermParserRange",
           "normalized": "a-\u003eb-\u003eParserRange b-\u003eParserRange b",
@@ -1657,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "termDimensionsValid",
           "package": "ADPfusion",
@@ -1666,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Multi Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "termDimensionsValid",
           "normalized": "a-\u003eParserRange b-\u003eb-\u003eBool",
@@ -1681,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "termInnerOuter",
           "package": "ADPfusion",
@@ -1690,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Multi Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "termInnerOuter",
           "normalized": "a-\u003eb-\u003eInOut b-\u003eInOut b",
@@ -1705,6 +1835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "termLeftIndex",
           "package": "ADPfusion",
@@ -1714,6 +1845,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Multi Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "termLeftIndex",
           "normalized": "a-\u003eb-\u003eb",
@@ -1729,6 +1861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "termStream",
           "package": "ADPfusion",
@@ -1738,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Multi Classes",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Multi.Classes",
           "name": "termStream",
           "normalized": "a-\u003eInOut b-\u003eb-\u003eStream c((d e)b)-\u003eStream c(((d e)b)TermOf a)",
@@ -1753,6 +1887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Multi.Empty",
           "name": "Empty",
           "package": "ADPfusion",
@@ -1761,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Multi Empty",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Multi.Empty",
           "name": "Empty",
           "package": "ADPfusion",
@@ -1774,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Multi.GChr",
           "name": "GChr",
           "package": "ADPfusion",
@@ -1782,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Multi GChr",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Multi.GChr",
           "name": "GChr",
           "package": "ADPfusion",
@@ -1795,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Multi.None",
           "name": "None",
           "package": "ADPfusion",
@@ -1803,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Multi None",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Multi.None",
           "name": "None",
           "package": "ADPfusion",
@@ -1817,6 +1957,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe multi-tape extension of ADPfusion. Just re-exports everything.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Multi",
           "name": "Multi",
           "package": "ADPfusion",
@@ -1826,6 +1967,7 @@
         "index": {
           "description": "The multi-tape extension of ADPfusion Just re-exports everything",
           "hierarchy": "ADP Fusion Multi",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Multi",
           "name": "Multi",
           "package": "ADPfusion",
@@ -1839,6 +1981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.None",
           "name": "None",
           "package": "ADPfusion",
@@ -1847,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion None",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.None",
           "name": "None",
           "package": "ADPfusion",
@@ -1860,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.None",
           "name": "None",
           "package": "ADPfusion",
@@ -1868,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion None",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.None",
           "name": "None",
           "package": "ADPfusion",
@@ -1904,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.None",
           "name": "none",
           "package": "ADPfusion",
@@ -1913,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion None",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.None",
           "name": "none",
           "package": "ADPfusion",
@@ -1925,6 +2073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "QuickCheck",
           "package": "ADPfusion",
@@ -1933,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "QuickCheck",
           "package": "ADPfusion",
@@ -1946,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "Small",
           "package": "ADPfusion",
@@ -1954,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "Small",
           "package": "ADPfusion",
@@ -1967,6 +2119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "TinySubword",
           "package": "ADPfusion",
@@ -1975,6 +2128,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "TinySubword",
           "package": "ADPfusion",
@@ -1988,6 +2142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "Small",
           "package": "ADPfusion",
@@ -1997,6 +2152,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "Small",
           "package": "ADPfusion",
@@ -2010,6 +2166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "TinySubword",
           "package": "ADPfusion",
@@ -2019,6 +2176,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "TinySubword",
           "package": "ADPfusion",
@@ -2032,6 +2190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "allProps",
           "package": "ADPfusion",
@@ -2041,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "allProps",
           "package": "ADPfusion",
@@ -2054,6 +2214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "customCheck",
           "package": "ADPfusion",
@@ -2063,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "customCheck",
           "normalized": "a-\u003eIO Result",
@@ -2078,6 +2240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "mxsPP",
           "package": "ADPfusion",
@@ -2087,6 +2250,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "mxsPP",
           "package": "ADPfusion",
@@ -2100,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "mxsSwSw",
           "package": "ADPfusion",
@@ -2109,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "mxsSwSw",
           "package": "ADPfusion",
@@ -2122,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "options",
           "package": "ADPfusion",
@@ -2131,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "options",
           "package": "ADPfusion",
@@ -2143,6 +2311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_2dim",
           "package": "ADPfusion",
@@ -2152,6 +2321,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_2dim",
           "normalized": "(Z TinySubword)TinySubword-\u003eProperty",
@@ -2166,6 +2336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_2dimCMCMC",
           "package": "ADPfusion",
@@ -2175,6 +2346,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_2dimCMCMC",
           "normalized": "(Z TinySubword)TinySubword-\u003eProperty",
@@ -2191,6 +2363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle-character parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_C",
           "package": "ADPfusion",
@@ -2201,6 +2374,7 @@
         "index": {
           "description": "Single-character parser",
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_C",
           "normalized": "Subword-\u003eBool",
@@ -2216,6 +2390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2x Single-character parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_CC",
           "package": "ADPfusion",
@@ -2226,6 +2401,7 @@
         "index": {
           "description": "Single-character parser",
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_CC",
           "normalized": "Subword-\u003eBool",
@@ -2242,6 +2418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnd now with non-empty tables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_CMnCMnC",
           "package": "ADPfusion",
@@ -2252,6 +2429,7 @@
         "index": {
           "description": "And now with non-empty tables",
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_CMnCMnC",
           "normalized": "Subword-\u003eProperty",
@@ -2268,6 +2446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter, then table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_CMt",
           "package": "ADPfusion",
@@ -2278,6 +2457,7 @@
         "index": {
           "description": "Character then table",
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_CMt",
           "normalized": "Subword-\u003eProperty",
@@ -2294,6 +2474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust to make it more interesting, sprinkle in some \u003ccode\u003eChr\u003c/code\u003e symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_CMtCMtC",
           "package": "ADPfusion",
@@ -2304,6 +2485,7 @@
         "index": {
           "description": "Just to make it more interesting sprinkle in some Chr symbols",
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_CMtCMtC",
           "normalized": "Subword-\u003eProperty",
@@ -2319,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_CPl",
           "package": "ADPfusion",
@@ -2328,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_CPl",
           "normalized": "Subword-\u003eBool",
@@ -2343,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_CPr",
           "package": "ADPfusion",
@@ -2352,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_CPr",
           "normalized": "Subword-\u003eBool",
@@ -2368,6 +2554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2x Single-character parser bracketing a single region.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_CRC",
           "package": "ADPfusion",
@@ -2378,6 +2565,7 @@
         "index": {
           "description": "Single-character parser bracketing single region",
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_CRC",
           "normalized": "Subword-\u003eBool",
@@ -2394,6 +2582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecomplex behaviour with characters and regions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_CRCRC",
           "package": "ADPfusion",
@@ -2404,6 +2593,7 @@
         "index": {
           "description": "complex behaviour with characters and regions",
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_CRCRC",
           "normalized": "Subword-\u003eBool",
@@ -2420,6 +2610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2x Single-character parser bracketing regions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_CRRC",
           "package": "ADPfusion",
@@ -2430,6 +2621,7 @@
         "index": {
           "description": "Single-character parser bracketing regions",
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_CRRC",
           "normalized": "Subword-\u003eBool",
@@ -2446,6 +2638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterior-loop like structures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_Interior1",
           "package": "ADPfusion",
@@ -2456,6 +2649,7 @@
         "index": {
           "description": "Interior-loop like structures",
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_Interior1",
           "normalized": "Subword-\u003eBool",
@@ -2471,6 +2665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_Interior2",
           "package": "ADPfusion",
@@ -2480,6 +2675,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_Interior2",
           "normalized": "Subword-\u003eBool",
@@ -2495,6 +2691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_Interior3",
           "package": "ADPfusion",
@@ -2504,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_Interior3",
           "normalized": "Subword-\u003eBool",
@@ -2519,6 +2717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_Interior4",
           "package": "ADPfusion",
@@ -2528,6 +2727,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_Interior4",
           "normalized": "Subword-\u003eBool",
@@ -2543,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_Interior5",
           "package": "ADPfusion",
@@ -2552,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_Interior5",
           "normalized": "Subword-\u003eBool",
@@ -2568,6 +2770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single mutable table should return one result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_Mt",
           "package": "ADPfusion",
@@ -2578,6 +2781,7 @@
         "index": {
           "description": "single mutable table should return one result",
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_Mt",
           "normalized": "Subword-\u003eProperty",
@@ -2593,6 +2797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_Mt2",
           "package": "ADPfusion",
@@ -2602,6 +2807,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_Mt2",
           "normalized": "Z Subword-\u003eProperty",
@@ -2618,6 +2824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etable, then character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_MtC",
           "package": "ADPfusion",
@@ -2628,6 +2835,7 @@
         "index": {
           "description": "table then character",
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_MtC",
           "normalized": "Subword-\u003eProperty",
@@ -2644,6 +2852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo mutable tables. Basically like Region's.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_MtMt",
           "package": "ADPfusion",
@@ -2654,6 +2863,7 @@
         "index": {
           "description": "Two mutable tables Basically like Region",
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_MtMt",
           "normalized": "Subword-\u003eProperty",
@@ -2669,6 +2879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_MtMt2",
           "package": "ADPfusion",
@@ -2678,6 +2889,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_MtMt2",
           "normalized": "Z Subword-\u003eProperty",
@@ -2693,6 +2905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_MtMtMt2",
           "package": "ADPfusion",
@@ -2702,6 +2915,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_MtMtMt2",
           "normalized": "Z Subword-\u003eProperty",
@@ -2717,6 +2931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_P_2dimCMCMC",
           "package": "ADPfusion",
@@ -2726,6 +2941,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_P_2dimCMCMC",
           "normalized": "(Z PointL)PointL-\u003eProperty",
@@ -2741,6 +2957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_P_CC",
           "package": "ADPfusion",
@@ -2750,6 +2967,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_P_CC",
           "normalized": "Z PointL-\u003eBool",
@@ -2765,6 +2983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_P_Tt",
           "package": "ADPfusion",
@@ -2774,6 +2993,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_P_Tt",
           "normalized": "Z PointL-\u003eBool",
@@ -2789,6 +3009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_PlC",
           "package": "ADPfusion",
@@ -2798,6 +3019,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_PlC",
           "normalized": "Subword-\u003eBool",
@@ -2813,6 +3035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_PrC",
           "package": "ADPfusion",
@@ -2822,6 +3045,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_PrC",
           "normalized": "Subword-\u003eBool",
@@ -2838,6 +3062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if a single region returns the correct result (namely a slice from\n the input).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_R",
           "package": "ADPfusion",
@@ -2848,6 +3073,7 @@
         "index": {
           "description": "Check if single region returns the correct result namely slice from the input",
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_R",
           "normalized": "Subword-\u003eBool",
@@ -2863,6 +3089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo regions next to each other.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_RR",
           "package": "ADPfusion",
@@ -2873,6 +3100,7 @@
         "index": {
           "description": "Two regions next to each other",
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_RR",
           "normalized": "Subword-\u003eBool",
@@ -2889,6 +3117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnd finally, three regions (with smaller subword sizes only)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_RRR",
           "package": "ADPfusion",
@@ -2899,6 +3128,7 @@
         "index": {
           "description": "And finally three regions with smaller subword sizes only",
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_RRR",
           "normalized": "Subword-\u003eProperty",
@@ -2915,6 +3145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThree sized regions (with smaller subword sizes only)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_SSS",
           "package": "ADPfusion",
@@ -2925,6 +3156,7 @@
         "index": {
           "description": "Three sized regions with smaller subword sizes only",
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_SSS",
           "normalized": "Subword-\u003eBool",
@@ -2940,6 +3172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_Tc",
           "package": "ADPfusion",
@@ -2949,6 +3182,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_Tc",
           "normalized": "Z Subword-\u003eBool",
@@ -2964,6 +3198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_TcMtTc",
           "package": "ADPfusion",
@@ -2973,6 +3208,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_TcMtTc",
           "normalized": "Z Subword-\u003eProperty",
@@ -2988,6 +3224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_TcTc",
           "package": "ADPfusion",
@@ -2997,6 +3234,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_TcTc",
           "normalized": "Z Subword-\u003eBool",
@@ -3012,6 +3250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_Tcc",
           "package": "ADPfusion",
@@ -3021,6 +3260,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_Tcc",
           "normalized": "(Z Subword)Subword-\u003eBool",
@@ -3036,6 +3276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_TccTcc",
           "package": "ADPfusion",
@@ -3045,6 +3286,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "prop_TccTcc",
           "normalized": "(Z Subword)Subword-\u003eBool",
@@ -3061,6 +3303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata set. Can be made fixed as the maximal subword size is statically known!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.QuickCheck",
           "name": "xs",
           "package": "ADPfusion",
@@ -3071,6 +3314,7 @@
         "index": {
           "description": "data set Can be made fixed as the maximal subword size is statically known",
           "hierarchy": "ADP Fusion QuickCheck",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.QuickCheck",
           "name": "xs",
           "package": "ADPfusion",
@@ -3083,6 +3327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Region",
           "name": "Region",
           "package": "ADPfusion",
@@ -3091,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Region",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Region",
           "name": "Region",
           "package": "ADPfusion",
@@ -3104,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Region",
           "name": "Region",
           "package": "ADPfusion",
@@ -3112,6 +3359,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Region",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Region",
           "name": "Region",
           "package": "ADPfusion",
@@ -3125,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Region",
           "name": "SRegion",
           "package": "ADPfusion",
@@ -3133,6 +3382,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Region",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Region",
           "name": "SRegion",
           "package": "ADPfusion",
@@ -3146,6 +3396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Region",
           "name": "Region",
           "package": "ADPfusion",
@@ -3155,6 +3406,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Region",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Region",
           "name": "Region",
           "package": "ADPfusion",
@@ -3168,6 +3420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Region",
           "name": "SRegion",
           "package": "ADPfusion",
@@ -3177,6 +3430,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Region",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Region",
           "name": "SRegion",
           "package": "ADPfusion",
@@ -3238,6 +3492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.TH",
           "name": "TH",
           "package": "ADPfusion",
@@ -3246,6 +3501,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion TH",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.TH",
           "name": "TH",
           "package": "ADPfusion",
@@ -3259,6 +3515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.TH",
           "name": "isObjectiveF",
           "package": "ADPfusion",
@@ -3268,6 +3525,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion TH",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.TH",
           "name": "isObjectiveF",
           "normalized": "Type-\u003eBool",
@@ -3284,6 +3542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate the algebra product function from a signature type constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.TH",
           "name": "makeAlgebraProduct",
           "package": "ADPfusion",
@@ -3294,6 +3553,7 @@
         "index": {
           "description": "Create the algebra product function from signature type constructor",
           "hierarchy": "ADP Fusion TH",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.TH",
           "name": "makeAlgebraProduct",
           "normalized": "Name-\u003eQ[Dec]",
@@ -3309,6 +3569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.TH",
           "name": "sel3",
           "package": "ADPfusion",
@@ -3318,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion TH",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.TH",
           "name": "sel3",
           "normalized": "(a,a,a)-\u003ea",
@@ -3332,6 +3594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.TH",
           "name": "zzz",
           "package": "ADPfusion",
@@ -3341,6 +3604,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion TH",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.TH",
           "name": "zzz",
           "normalized": "VarStrictType-\u003eString",
@@ -3355,6 +3619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Table",
           "name": "Table",
           "package": "ADPfusion",
@@ -3363,6 +3628,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Table",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Table",
           "name": "Table",
           "package": "ADPfusion",
@@ -3376,6 +3642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Table",
           "name": "BtTbl",
           "package": "ADPfusion",
@@ -3384,6 +3651,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Table",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Table",
           "name": "BtTbl",
           "package": "ADPfusion",
@@ -3397,6 +3665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Table",
           "name": "DefBtTbl",
           "package": "ADPfusion",
@@ -3405,6 +3674,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Table",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Table",
           "name": "DefBtTbl",
           "package": "ADPfusion",
@@ -3418,6 +3688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Table",
           "name": "EmptyTable",
           "package": "ADPfusion",
@@ -3426,6 +3697,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Table",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Table",
           "name": "EmptyTable",
           "package": "ADPfusion",
@@ -3439,6 +3711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Table",
           "name": "MTbl",
           "package": "ADPfusion",
@@ -3447,6 +3720,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Table",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Table",
           "name": "MTbl",
           "package": "ADPfusion",
@@ -3460,6 +3734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Table",
           "name": "NonTermValidIndex",
           "package": "ADPfusion",
@@ -3468,6 +3743,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Table",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Table",
           "name": "NonTermValidIndex",
           "package": "ADPfusion",
@@ -3481,6 +3757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Table",
           "name": "SwBtTbl",
           "package": "ADPfusion",
@@ -3489,6 +3766,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Table",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Table",
           "name": "SwBtTbl",
           "package": "ADPfusion",
@@ -3503,6 +3781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate the list of indices for use in table lookup.\n\u003c/p\u003e\u003cp\u003eDon't touch stuff in greek! &#950; is the interior stack of arguments, &#945; th stack of saved indices\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Table",
           "name": "TableIndices",
           "package": "ADPfusion",
@@ -3512,6 +3791,7 @@
         "index": {
           "description": "Generate the list of indices for use in table lookup Don touch stuff in greek is the interior stack of arguments th stack of saved indices",
           "hierarchy": "ADP Fusion Table",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Table",
           "name": "TableIndices",
           "package": "ADPfusion",
@@ -3525,6 +3805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Table",
           "name": "BtTbl",
           "package": "ADPfusion",
@@ -3534,6 +3815,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Table",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Table",
           "name": "BtTbl",
           "package": "ADPfusion",
@@ -3570,6 +3852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Table",
           "name": "btTbl",
           "package": "ADPfusion",
@@ -3579,6 +3862,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Table",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Table",
           "name": "btTbl",
           "normalized": "ENZ a-\u003eb-\u003ec-\u003eBtTbl a b c",
@@ -3594,6 +3878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Table",
           "name": "getNonTermParserRange",
           "package": "ADPfusion",
@@ -3603,6 +3888,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Table",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Table",
           "name": "getNonTermParserRange",
           "normalized": "ENZ a-\u003ea-\u003eParserRange a-\u003eParserRange a",
@@ -3618,6 +3904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Table",
           "name": "mTbl",
           "package": "ADPfusion",
@@ -3627,6 +3914,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Table",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Table",
           "name": "mTbl",
           "normalized": "ENZ a-\u003eMutArr b(c a d)-\u003eMTbl a(MutArr b(c a d))",
@@ -3642,6 +3930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Table",
           "name": "mTblSw",
           "package": "ADPfusion",
@@ -3651,6 +3940,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Table",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Table",
           "name": "mTblSw",
           "normalized": "ENE-\u003eMutArr a(b(Z Subword)c)-\u003eMTbl Subword(MutArr a(b(Z Subword)c))",
@@ -3666,6 +3956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Table",
           "name": "nonTermInnerOuter",
           "package": "ADPfusion",
@@ -3675,6 +3966,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Table",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Table",
           "name": "nonTermInnerOuter",
           "normalized": "a-\u003eInOut a-\u003eInOut a",
@@ -3690,6 +3982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Table",
           "name": "nonTermLeftIndex",
           "package": "ADPfusion",
@@ -3699,6 +3992,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Table",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Table",
           "name": "nonTermLeftIndex",
           "normalized": "a-\u003eInOut a-\u003eENZ a-\u003ea",
@@ -3714,6 +4008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Table",
           "name": "nonTermValidIndex",
           "package": "ADPfusion",
@@ -3723,6 +4018,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Table",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Table",
           "name": "nonTermValidIndex",
           "normalized": "ENZ a-\u003ea-\u003eParserRange a-\u003ea-\u003eBool",
@@ -3738,6 +4034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Table",
           "name": "tableIndices",
           "package": "ADPfusion",
@@ -3747,6 +4044,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Table",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Table",
           "name": "tableIndices",
           "normalized": "InOut a-\u003eENZ a-\u003ea-\u003eStream b((c d)a)-\u003eStream b((c d)a)",
@@ -3762,6 +4060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Table",
           "name": "toEmptyT",
           "package": "ADPfusion",
@@ -3771,6 +4070,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Table",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Table",
           "name": "toEmptyT",
           "normalized": "a-\u003ea",
@@ -3786,6 +4086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion.Table",
           "name": "toNonEmptyT",
           "package": "ADPfusion",
@@ -3795,6 +4096,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion Table",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion.Table",
           "name": "toNonEmptyT",
           "normalized": "a-\u003ea",
@@ -3811,6 +4113,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneralized fusion system for grammars.\n\u003c/p\u003e\u003cp\u003eNOTE Symbols typically do not check bound data for consistency. If you, say,\n bind a terminal symbol to an input of length 0 and then run your grammar,\n you probably get errors, garbled data or random crashes. Such checks are\n done via asserts in non-production code.\n\u003c/p\u003e\u003cp\u003eTODO each combinator should come with a special outer check. Given some\n index (say (i,j), this can then check if i-const \u003e= 0, or j+const\u003c=n, or\n i+const\u003c=j. That should speed up everything that uses GChr combinators.\n Separating out this check means that certain inner loops can run without any\n conditions and just jump.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion",
           "name": "Fusion",
           "package": "ADPfusion",
@@ -3820,6 +4123,7 @@
         "index": {
           "description": "Generalized fusion system for grammars NOTE Symbols typically do not check bound data for consistency If you say bind terminal symbol to an input of length and then run your grammar you probably get errors garbled data or random crashes Such checks are done via asserts in non-production code TODO each combinator should come with special outer check Given some index say this can then check if i-const or const or const That should speed up everything that uses GChr combinators Separating out this check means that certain inner loops can run without any conditions and just jump",
           "hierarchy": "ADP Fusion",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion",
           "name": "Fusion",
           "package": "ADPfusion",
@@ -3833,6 +4137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion",
           "name": "ENE",
           "package": "ADPfusion",
@@ -3841,6 +4146,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion",
           "name": "ENE",
           "package": "ADPfusion",
@@ -3854,6 +4160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion",
           "name": "MTbl",
           "package": "ADPfusion",
@@ -3862,6 +4169,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion",
           "name": "MTbl",
           "package": "ADPfusion",
@@ -3875,6 +4183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion",
           "name": "None",
           "package": "ADPfusion",
@@ -3883,6 +4192,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion",
           "name": "None",
           "package": "ADPfusion",
@@ -3897,6 +4207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two RHSs to give a choice between parses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion",
           "name": "(|||)",
           "package": "ADPfusion",
@@ -3907,6 +4218,7 @@
         "index": {
           "description": "Combine two RHSs to give choice between parses",
           "hierarchy": "ADP Fusion",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion",
           "name": "(|||) |||",
           "normalized": "(a-\u003eStream b c)-\u003e(a-\u003eStream b c)-\u003ea-\u003eStream b c",
@@ -3922,6 +4234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeparator between RHS symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion",
           "name": "(~~)",
           "package": "ADPfusion",
@@ -3932,6 +4245,7 @@
         "index": {
           "description": "Separator between RHS symbols",
           "hierarchy": "ADP Fusion",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion",
           "name": "(~~) ~~",
           "normalized": "a-\u003eb-\u003ePair a b",
@@ -3947,6 +4261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis separator looks much paper \u003ca\u003eon paper\u003c/a\u003e and is not widely used otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion",
           "name": "(%)",
           "package": "ADPfusion",
@@ -3957,6 +4272,7 @@
         "index": {
           "description": "This separator looks much paper on paper and is not widely used otherwise",
           "hierarchy": "ADP Fusion",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion",
           "name": "(%) %",
           "normalized": "a-\u003eb-\u003ePair a b",
@@ -3971,6 +4287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion",
           "name": "(\u003c\u003c#)",
           "package": "ADPfusion",
@@ -3980,6 +4297,7 @@
         },
         "index": {
           "hierarchy": "ADP Fusion",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion",
           "name": "(\u003c\u003c#) \u003c\u003c#",
           "normalized": "Fun(Arg(Stack a)-\u003eb c)-\u003ea-\u003ed-\u003eStream b c",
@@ -3995,6 +4313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to symbols on the RHS of a production rule. Builds the\n stack of symbols from \u003ccode\u003exs\u003c/code\u003e using \u003ccode\u003e\u003ca\u003ebuild\u003c/a\u003e\u003c/code\u003e, then hands this stack to\n \u003ccode\u003e\u003ca\u003emkStream\u003c/a\u003e\u003c/code\u003e together with the initial \u003ccode\u003einiT\u003c/code\u003e telling \u003ccode\u003e\u003ca\u003emkStream\u003c/a\u003e\u003c/code\u003e that we are\n in the \u003ca\u003eouter\u003c/a\u003e position. Once the stream has been created, we \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e\n \u003ccode\u003e\u003ca\u003egetArg\u003c/a\u003e\u003c/code\u003e to get just the arguments in the stack, and finally \u003ccode\u003e\u003ca\u003eapply\u003c/a\u003e\u003c/code\u003e the\n function \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion",
           "name": "(\u003c\u003c\u003c)",
           "package": "ADPfusion",
@@ -4005,6 +4324,7 @@
         "index": {
           "description": "Apply function to symbols on the RHS of production rule Builds the stack of symbols from xs using build then hands this stack to mkStream together with the initial iniT telling mkStream that we are in the outer position Once the stream has been created we map getArg to get just the arguments in the stack and finally apply the function",
           "hierarchy": "ADP Fusion",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion",
           "name": "(\u003c\u003c\u003c) \u003c\u003c\u003c",
           "normalized": "Fun(Arg(Stack a)-\u003eb)-\u003ea-\u003ec-\u003eStream d b",
@@ -4020,6 +4340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies the objective function \u003ccode\u003eh\u003c/code\u003e to a stream \u003ccode\u003es\u003c/code\u003e. The objective function\n reduces the stream to a single optimal value (or some vector of co-optimal\n things).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion",
           "name": "(...)",
           "package": "ADPfusion",
@@ -4030,6 +4351,7 @@
         "index": {
           "description": "Applies the objective function to stream The objective function reduces the stream to single optimal value or some vector of co-optimal things",
           "hierarchy": "ADP Fusion",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion",
           "name": "(...) ...",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ec)-\u003ea-\u003ec",
@@ -4045,6 +4367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditional outer check with user-given check function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:32:06 UTC 2014",
           "module": "ADP.Fusion",
           "name": "check",
           "package": "ADPfusion",
@@ -4055,6 +4378,7 @@
         "index": {
           "description": "Additional outer check with user-given check function",
           "hierarchy": "ADP Fusion",
+          "indexed": "2014-03-11T16:32:06",
           "module": "ADP.Fusion",
           "name": "check",
           "normalized": "(a-\u003eStream b c)-\u003e(a-\u003eBool)-\u003ea-\u003eStream b c",

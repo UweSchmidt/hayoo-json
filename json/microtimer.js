@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "microtimer"
+        "phrase": "microtimer",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA tiny module for measuring the time taken by an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e action.\n\u003c/p\u003e\u003cp\u003eThis module is a almost a direct copy of the\n \u003ccode\u003eCriterion.Measurement\u003c/code\u003e module from the \u003ccode\u003ecriterion\u003c/code\u003e package,\n written by Bryan O'Sullivan.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:17:25 UTC 2014",
           "module": "System.Microtimer",
           "name": "Microtimer",
           "package": "microtimer",
@@ -28,6 +29,7 @@
         "index": {
           "description": "tiny module for measuring the time taken by an IO action This module is almost direct copy of the Criterion.Measurement module from the criterion package written by Bryan Sullivan",
           "hierarchy": "System Microtimer",
+          "indexed": "2014-03-11T19:17:25",
           "module": "System.Microtimer",
           "name": "Microtimer",
           "package": "microtimer",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e value into a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e which specifies\n how long something took in seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:25 UTC 2014",
           "module": "System.Microtimer",
           "name": "formatSeconds",
           "package": "microtimer",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Convert Double value into String which specifies how long something took in seconds",
           "hierarchy": "System Microtimer",
+          "indexed": "2014-03-11T19:17:25",
           "module": "System.Microtimer",
           "name": "formatSeconds",
           "normalized": "Double-\u003eString",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e action and return the time taken for execution,\n as well as the return value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:25 UTC 2014",
           "module": "System.Microtimer",
           "name": "time",
           "package": "microtimer",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Time an IO action and return the time taken for execution as well as the return value",
           "hierarchy": "System Microtimer",
+          "indexed": "2014-03-11T19:17:25",
           "module": "System.Microtimer",
           "name": "time",
           "normalized": "IO a-\u003eIO(Double,a)",
@@ -93,6 +99,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e action, throwing away the result and returning\n the time taken for execution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:17:25 UTC 2014",
           "module": "System.Microtimer",
           "name": "time_",
           "package": "microtimer",
@@ -103,6 +110,7 @@
         "index": {
           "description": "Time an IO action throwing away the result and returning the time taken for execution",
           "hierarchy": "System Microtimer",
+          "indexed": "2014-03-11T19:17:25",
           "module": "System.Microtimer",
           "name": "time_",
           "normalized": "IO a-\u003eIO Double",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mixed-strategies"
+        "phrase": "mixed-strategies",
+        "type": "phrase"
       },
       "type": "context"
     }

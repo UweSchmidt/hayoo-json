@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pointless-haskell"
+        "phrase": "pointless-haskell",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePointless Haskell:\n point-free programming with recursion patterns as hylomorphisms\n\u003c/p\u003e\u003cp\u003eThis module defines a class of representable bifunctors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifctrable",
           "name": "Bifctrable",
           "package": "pointless-haskell",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Pointless Haskell point-free programming with recursion patterns as hylomorphisms This module defines class of representable bifunctors",
           "hierarchy": "Generics Pointless Bifctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifctrable",
           "name": "Bifctrable",
           "package": "pointless-haskell",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctor GADT for polytypic recursive bifunctions.\n At the moment it does not rely on a \u003ccode\u003eTypeable\u003c/code\u003e instance for constants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifctrable",
           "name": "Bifctr",
           "package": "pointless-haskell",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Functor GADT for polytypic recursive bifunctions At the moment it does not rely on Typeable instance for constants",
           "hierarchy": "Generics Pointless Bifctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifctrable",
           "name": "Bifctr",
           "package": "pointless-haskell",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of representable bifunctors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifctrable",
           "name": "Bifctrable",
           "package": "pointless-haskell",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Class of representable bifunctors",
           "hierarchy": "Generics Pointless Bifctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifctrable",
           "name": "Bifctrable",
           "package": "pointless-haskell",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifctrable",
           "name": ":*!|",
           "package": "pointless-haskell",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifctrable",
           "name": ":*!|",
           "normalized": "Bifctr a-\u003eBifctr b-\u003eBifctr(a*b)",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifctrable",
           "name": ":+!|",
           "package": "pointless-haskell",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifctrable",
           "name": ":+!|",
           "normalized": "Bifctr a-\u003eBifctr b-\u003eBifctr(a b)",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifctrable",
           "name": ":@!|",
           "package": "pointless-haskell",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifctrable",
           "name": ":@!|",
           "normalized": "Bifctr a-\u003eBifctr b-\u003eBifctr(a b)",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifctrable",
           "name": "BI",
           "package": "pointless-haskell",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifctrable",
           "name": "BI",
           "package": "pointless-haskell",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifctrable",
           "name": "BK",
           "package": "pointless-haskell",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifctrable",
           "name": "BK",
           "package": "pointless-haskell",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifctrable",
           "name": "BP",
           "package": "pointless-haskell",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifctrable",
           "name": "BP",
           "package": "pointless-haskell",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifctrable",
           "name": "bctr",
           "package": "pointless-haskell",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifctrable",
           "name": "bctr",
           "package": "pointless-haskell",
@@ -244,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe representation of the fixpoint of a representable functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifctrable",
           "name": "fctrB",
           "package": "pointless-haskell",
@@ -254,6 +275,7 @@
         "index": {
           "description": "The representation of the fixpoint of representable functor",
           "hierarchy": "Generics Pointless Bifctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifctrable",
           "name": "fctrB",
           "normalized": "BFix a-\u003eBifctr a",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fixpoint of a representable bifunctor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifctrable",
           "name": "fixB",
           "package": "pointless-haskell",
@@ -279,6 +302,7 @@
         "index": {
           "description": "The fixpoint of representable bifunctor",
           "hierarchy": "Generics Pointless Bifctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifctrable",
           "name": "fixB",
           "normalized": "Bifctr a-\u003eBFix a",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePointless Haskell:\n point-free programming with recursion patterns as hylomorphisms\n\u003c/p\u003e\u003cp\u003eThis module defines polymorphic data types as fixed points of bifunctor.\n Pointless Haskell works on a view of data types as fixed points of functors, in the same style as the PolyP (\u003ca\u003ehttp://www.cse.chalmers.se/~patrikj/poly/polyp/\u003c/a\u003e) library.\n Instead of using an explicit fixpoint operator, a type function is used to relate the data types with their equivalent functor representations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "Bifunctors",
           "package": "pointless-haskell",
@@ -303,6 +328,7 @@
         "index": {
           "description": "Pointless Haskell point-free programming with recursion patterns as hylomorphisms This module defines polymorphic data types as fixed points of bifunctor Pointless Haskell works on view of data types as fixed points of functors in the same style as the PolyP http www.cse.chalmers.se patrikj poly polyp library Instead of using an explicit fixpoint operator type function is used to relate the data types with their equivalent functor representations",
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "Bifunctors",
           "package": "pointless-haskell",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": ":*|",
           "package": "pointless-haskell",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": ":*|",
           "package": "pointless-haskell",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": ":*!|",
           "package": "pointless-haskell",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": ":*!|",
           "package": "pointless-haskell",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": ":+|",
           "package": "pointless-haskell",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": ":+|",
           "package": "pointless-haskell",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": ":+!|",
           "package": "pointless-haskell",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": ":+!|",
           "package": "pointless-haskell",
@@ -396,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": ":@|",
           "package": "pointless-haskell",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": ":@|",
           "package": "pointless-haskell",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": ":@!|",
           "package": "pointless-haskell",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": ":@!|",
           "package": "pointless-haskell",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "B",
           "package": "pointless-haskell",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "B",
           "package": "pointless-haskell",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BConst",
           "package": "pointless-haskell",
@@ -464,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BConst",
           "package": "pointless-haskell",
@@ -477,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BF",
           "package": "pointless-haskell",
@@ -485,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BF",
           "package": "pointless-haskell",
@@ -498,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BFix",
           "package": "pointless-haskell",
@@ -506,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BFix",
           "package": "pointless-haskell",
@@ -519,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BI",
           "package": "pointless-haskell",
@@ -527,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BI",
           "package": "pointless-haskell",
@@ -540,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BId",
           "package": "pointless-haskell",
@@ -548,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BId",
           "package": "pointless-haskell",
@@ -561,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BK",
           "package": "pointless-haskell",
@@ -569,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BK",
           "package": "pointless-haskell",
@@ -582,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BPar",
           "package": "pointless-haskell",
@@ -590,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BPar",
           "package": "pointless-haskell",
@@ -603,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BRep",
           "package": "pointless-haskell",
@@ -611,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BRep",
           "package": "pointless-haskell",
@@ -625,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe polytypic bifunctor zipping combinator.\n Just maps over the polymorphic parameter. To map over the recursive parameter we can use \u003ccode\u003efzip\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "Bifunctor",
           "package": "pointless-haskell",
@@ -634,6 +691,7 @@
         "index": {
           "description": "The polytypic bifunctor zipping combinator Just maps over the polymorphic parameter To map over the recursive parameter we can use fzip",
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "Bifunctor",
           "package": "pointless-haskell",
@@ -647,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "Bimu",
           "package": "pointless-haskell",
@@ -655,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "Bimu",
           "package": "pointless-haskell",
@@ -668,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BComp",
           "package": "pointless-haskell",
@@ -677,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BComp",
           "package": "pointless-haskell",
@@ -690,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BConst",
           "package": "pointless-haskell",
@@ -699,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BConst",
           "package": "pointless-haskell",
@@ -712,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BFix",
           "package": "pointless-haskell",
@@ -721,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BFix",
           "package": "pointless-haskell",
@@ -734,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BId",
           "package": "pointless-haskell",
@@ -743,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BId",
           "package": "pointless-haskell",
@@ -756,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BInl",
           "package": "pointless-haskell",
@@ -765,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BInl",
           "package": "pointless-haskell",
@@ -778,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BInr",
           "package": "pointless-haskell",
@@ -787,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BInr",
           "package": "pointless-haskell",
@@ -800,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BProd",
           "package": "pointless-haskell",
@@ -809,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "BProd",
           "package": "pointless-haskell",
@@ -822,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "FixBComp",
           "package": "pointless-haskell",
@@ -831,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "FixBComp",
           "package": "pointless-haskell",
@@ -844,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "FixBConst",
           "package": "pointless-haskell",
@@ -853,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "FixBConst",
           "package": "pointless-haskell",
@@ -866,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "FixBId",
           "package": "pointless-haskell",
@@ -875,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "FixBId",
           "package": "pointless-haskell",
@@ -888,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "FixBProd",
           "package": "pointless-haskell",
@@ -897,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "FixBProd",
           "package": "pointless-haskell",
@@ -910,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "FixBSum",
           "package": "pointless-haskell",
@@ -919,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "FixBSum",
           "package": "pointless-haskell",
@@ -932,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "Par",
           "package": "pointless-haskell",
@@ -941,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "Par",
           "package": "pointless-haskell",
@@ -954,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "binn",
           "package": "pointless-haskell",
@@ -963,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "binn",
           "normalized": "B a b(a b)-\u003ea b",
@@ -977,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "bmap",
           "package": "pointless-haskell",
@@ -986,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "bmap",
           "normalized": "Ann(BFix a)-\u003e(b-\u003ec)-\u003e(d-\u003ee)-\u003eRep(BRep a b)d-\u003eRep(BRep a c)e",
@@ -1000,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "bout",
           "package": "pointless-haskell",
@@ -1009,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "bout",
           "normalized": "a b-\u003eB a b(a b)",
@@ -1023,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "bzip",
           "package": "pointless-haskell",
@@ -1032,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "bzip",
           "normalized": "Ann a-\u003eAnn(BFix b)-\u003e(c-\u003ed)-\u003e(Rep(BRep b c)a,Rep(BRep b d)a)-\u003eRep(BRep b(c,d))a",
@@ -1046,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "pbmap",
           "package": "pointless-haskell",
@@ -1055,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "pbmap",
           "normalized": "Ann(a b)-\u003e(b-\u003ec)-\u003e(d-\u003ee)-\u003eB a b d-\u003eB a c e",
@@ -1069,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "unBComp",
           "package": "pointless-haskell",
@@ -1078,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "unBComp",
           "package": "pointless-haskell",
@@ -1091,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "unBConst",
           "package": "pointless-haskell",
@@ -1100,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "unBConst",
           "package": "pointless-haskell",
@@ -1113,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "unBFix",
           "package": "pointless-haskell",
@@ -1122,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "unBFix",
           "package": "pointless-haskell",
@@ -1135,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "unBId",
           "package": "pointless-haskell",
@@ -1144,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "unBId",
           "package": "pointless-haskell",
@@ -1157,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "unFixBComp",
           "package": "pointless-haskell",
@@ -1166,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "unFixBComp",
           "package": "pointless-haskell",
@@ -1179,6 +1285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "unFixBConst",
           "package": "pointless-haskell",
@@ -1188,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "unFixBConst",
           "package": "pointless-haskell",
@@ -1201,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "unFixBProd",
           "package": "pointless-haskell",
@@ -1210,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "unFixBProd",
           "package": "pointless-haskell",
@@ -1223,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "unFixBSum",
           "package": "pointless-haskell",
@@ -1232,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "unFixBSum",
           "package": "pointless-haskell",
@@ -1245,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Bifunctors",
           "name": "unPar",
           "package": "pointless-haskell",
@@ -1254,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Bifunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Bifunctors",
           "name": "unPar",
           "package": "pointless-haskell",
@@ -1268,6 +1382,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePointless Haskell:\n point-free programming with recursion patterns as hylomorphisms\n\u003c/p\u003e\u003cp\u003eThis module defines many standard combinators used for point-free programming.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "Combinators",
           "package": "pointless-haskell",
@@ -1277,6 +1392,7 @@
         "index": {
           "description": "Pointless Haskell point-free programming with recursion patterns as hylomorphisms This module defines many standard combinators used for point-free programming",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "Combinators",
           "package": "pointless-haskell",
@@ -1290,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "Ann",
           "package": "pointless-haskell",
@@ -1298,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "Ann",
           "package": "pointless-haskell",
@@ -1312,6 +1430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe final object.\n The only possible value of type \u003ccode\u003e\u003ca\u003eOne\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003e_L\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "One",
           "package": "pointless-haskell",
@@ -1321,6 +1440,7 @@
         "index": {
           "description": "The final object The only possible value of type One is",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "One",
           "package": "pointless-haskell",
@@ -1335,6 +1455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe infix combinator for a constant point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "(!)",
           "package": "pointless-haskell",
@@ -1345,6 +1466,7 @@
         "index": {
           "description": "The infix combinator for constant point",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "(!) !",
           "normalized": "a-\u003eb-\u003ea",
@@ -1360,6 +1482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe infix sum combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "(-|-)",
           "package": "pointless-haskell",
@@ -1370,6 +1493,7 @@
         "index": {
           "description": "The infix sum combinator",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "(-|-) -|-",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003eEither a c-\u003eEither b d",
@@ -1385,6 +1509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe infix split combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "(/\\)",
           "package": "pointless-haskell",
@@ -1395,6 +1520,7 @@
         "index": {
           "description": "The infix split combinator",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "(/\\) /\\",
           "normalized": "(a-\u003eb)-\u003e(a-\u003ec)-\u003ea-\u003e(b,c)",
@@ -1410,6 +1536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for the infix sum combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "(\u003c\u003e)",
           "package": "pointless-haskell",
@@ -1420,6 +1547,7 @@
         "index": {
           "description": "Alias for the infix sum combinator",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003eEither a c-\u003eEither b d",
@@ -1434,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "(\u003e\u003c)",
           "package": "pointless-haskell",
@@ -1443,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003e(a,c)-\u003e(b,d)",
@@ -1458,6 +1588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix guard combinator that simulates the postfix syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "(?)",
           "package": "pointless-haskell",
@@ -1468,6 +1599,7 @@
         "index": {
           "description": "Infix guard combinator that simulates the postfix syntax",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "(?) ?",
           "normalized": "(a-\u003eBool)-\u003ea-\u003eEither a a",
@@ -1482,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "(??)",
           "package": "pointless-haskell",
@@ -1491,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "(??) ??",
           "normalized": "(a-\u003eEither One One)-\u003ea-\u003eEither a a",
@@ -1506,6 +1640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe infix either combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "(\\/)",
           "package": "pointless-haskell",
@@ -1516,6 +1651,7 @@
         "index": {
           "description": "The infix either combinator",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "(\\/) \\/",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003eEither a c-\u003eb",
@@ -1531,6 +1667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe bottom value for any type.\n It is many times used just for type annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "_L",
           "package": "pointless-haskell",
@@ -1541,6 +1678,7 @@
         "index": {
           "description": "The bottom value for any type It is many times used just for type annotations",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "_L",
           "package": "pointless-haskell",
@@ -1554,6 +1692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary \u003ccode\u003eand\u003c/code\u003e point-free combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "and",
           "package": "pointless-haskell",
@@ -1564,6 +1703,7 @@
         "index": {
           "description": "Binary and point-free combinator",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "and",
           "normalized": "(Bool,Bool)-\u003eBool",
@@ -1579,6 +1719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary \u003ccode\u003eand\u003c/code\u003e of boolean functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "andf",
           "package": "pointless-haskell",
@@ -1589,6 +1730,7 @@
         "index": {
           "description": "Binary and of boolean functions",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "andf",
           "normalized": "(a-\u003eBool,a-\u003eBool)-\u003ea-\u003eBool",
@@ -1604,6 +1746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe application combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "app",
           "package": "pointless-haskell",
@@ -1614,6 +1757,7 @@
         "index": {
           "description": "The application combinator",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "app",
           "normalized": "(a-\u003eb,a)-\u003eb",
@@ -1629,6 +1773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociate nested products to the left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "assocl",
           "package": "pointless-haskell",
@@ -1639,6 +1784,7 @@
         "index": {
           "description": "Associate nested products to the left",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "assocl",
           "normalized": "(a,(b,c))-\u003e((a,b),c)",
@@ -1654,6 +1800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociates nested products to the right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "assocr",
           "package": "pointless-haskell",
@@ -1664,6 +1811,7 @@
         "index": {
           "description": "Associates nested products to the right",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "assocr",
           "normalized": "((a,b),c)-\u003e(a,(b,c))",
@@ -1679,6 +1827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a point to the terminal object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "bang",
           "package": "pointless-haskell",
@@ -1689,6 +1838,7 @@
         "index": {
           "description": "Creates point to the terminal object",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "bang",
           "normalized": "a-\u003eOne",
@@ -1704,6 +1854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociates nested sums to the left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "coassocl",
           "package": "pointless-haskell",
@@ -1714,6 +1865,7 @@
         "index": {
           "description": "Associates nested sums to the left",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "coassocl",
           "normalized": "Either a(Either b c)-\u003eEither(Either a b)c",
@@ -1729,6 +1881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociates nested sums to the right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "coassocr",
           "package": "pointless-haskell",
@@ -1739,6 +1892,7 @@
         "index": {
           "description": "Associates nested sums to the right",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "coassocr",
           "normalized": "Either(Either a b)c-\u003eEither a(Either b c)",
@@ -1754,6 +1908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe uncurried composition combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "comp",
           "package": "pointless-haskell",
@@ -1764,6 +1919,7 @@
         "index": {
           "description": "The uncurried composition combinator",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "comp",
           "normalized": "(a-\u003eb,c-\u003ea)-\u003ec-\u003eb",
@@ -1779,6 +1935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShifts an option to the left of a nested sum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "cosubl",
           "package": "pointless-haskell",
@@ -1789,6 +1946,7 @@
         "index": {
           "description": "Shifts an option to the left of nested sum",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "cosubl",
           "normalized": "Either(Either a b)c-\u003eEither(Either a c)b",
@@ -1804,6 +1962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShifts an option to the right of a nested sum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "cosubr",
           "package": "pointless-haskell",
@@ -1814,6 +1973,7 @@
         "index": {
           "description": "Shifts an option to the right of nested sum",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "cosubr",
           "normalized": "Either a(Either b c)-\u003eEither b(Either a c)",
@@ -1829,6 +1989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwap the elements of a sum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "coswap",
           "package": "pointless-haskell",
@@ -1839,6 +2000,7 @@
         "index": {
           "description": "Swap the elements of sum",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "coswap",
           "normalized": "Either a b-\u003eEither b a",
@@ -1854,6 +2016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistribute products over the left of sums.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "distl",
           "package": "pointless-haskell",
@@ -1864,6 +2027,7 @@
         "index": {
           "description": "Distribute products over the left of sums",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "distl",
           "normalized": "(Either a b,c)-\u003eEither(a,c)(b,c)",
@@ -1879,6 +2043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe product distribution combinator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "distp",
           "package": "pointless-haskell",
@@ -1889,6 +2054,7 @@
         "index": {
           "description": "The product distribution combinator",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "distp",
           "normalized": "((a,b),(c,d))-\u003e((a,c),(b,d))",
@@ -1904,6 +2070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistribute products over the right of sums.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "distr",
           "package": "pointless-haskell",
@@ -1914,6 +2081,7 @@
         "index": {
           "description": "Distribute products over the right of sums",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "distr",
           "normalized": "(a,Either b c)-\u003eEither(a,b)(a,c)",
@@ -1929,6 +2097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sum distribution combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "dists",
           "package": "pointless-haskell",
@@ -1939,6 +2108,7 @@
         "index": {
           "description": "The sum distribution combinator",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "dists",
           "normalized": "(Either a b,Either c d)-\u003eEither(Either(a,c)(a,d))(Either(b,c)(b,d))",
@@ -1954,6 +2124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe uncurried either combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "eithr",
           "package": "pointless-haskell",
@@ -1964,6 +2135,7 @@
         "index": {
           "description": "The uncurried either combinator",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "eithr",
           "normalized": "(a-\u003eb,c-\u003eb)-\u003eEither a c-\u003eb",
@@ -1979,6 +2151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary equality point-free combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "eq",
           "package": "pointless-haskell",
@@ -1989,6 +2162,7 @@
         "index": {
           "description": "Binary equality point-free combinator",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "eq",
           "normalized": "(a,a)-\u003eBool",
@@ -2004,6 +2178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGuard combinator that operates on Haskell booleans.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "grd",
           "package": "pointless-haskell",
@@ -2014,6 +2189,7 @@
         "index": {
           "description": "Guard combinator that operates on Haskell booleans",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "grd",
           "normalized": "(a-\u003eBool)-\u003ea-\u003eEither a a",
@@ -2029,6 +2205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInjects a value to the left of a sum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "inl",
           "package": "pointless-haskell",
@@ -2039,6 +2216,7 @@
         "index": {
           "description": "Injects value to the left of sum",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "inl",
           "normalized": "a-\u003eEither a b",
@@ -2054,6 +2232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInjects a value to the right of a sum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "inr",
           "package": "pointless-haskell",
@@ -2064,6 +2243,7 @@
         "index": {
           "description": "Injects value to the right of sum",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "inr",
           "normalized": "a-\u003eEither b a",
@@ -2079,6 +2259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe left exponentiation combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "lexp",
           "package": "pointless-haskell",
@@ -2089,6 +2270,7 @@
         "index": {
           "description": "The left exponentiation combinator",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "lexp",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ec)-\u003ea-\u003ec",
@@ -2104,6 +2286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary inequality point-free combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "neq",
           "package": "pointless-haskell",
@@ -2114,6 +2297,7 @@
         "index": {
           "description": "Binary inequality point-free combinator",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "neq",
           "normalized": "(a,a)-\u003eBool",
@@ -2129,6 +2313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary \u003ccode\u003eor\u003c/code\u003e point-free combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "or",
           "package": "pointless-haskell",
@@ -2139,6 +2324,7 @@
         "index": {
           "description": "Binary or point-free combinator",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "or",
           "normalized": "(Bool,Bool)-\u003eBool",
@@ -2154,6 +2340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary \u003ccode\u003eor\u003c/code\u003e of boolean functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "orf",
           "package": "pointless-haskell",
@@ -2164,6 +2351,7 @@
         "index": {
           "description": "Binary or of boolean functions",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "orf",
           "normalized": "(a-\u003eBool,a-\u003eBool)-\u003ea-\u003eBool",
@@ -2179,6 +2367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts elements into points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "pnt",
           "package": "pointless-haskell",
@@ -2189,6 +2378,7 @@
         "index": {
           "description": "Converts elements into points",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "pnt",
           "normalized": "a-\u003eOne-\u003ea",
@@ -2204,6 +2394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe right exponentiation combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "rexp",
           "package": "pointless-haskell",
@@ -2214,6 +2405,7 @@
         "index": {
           "description": "The right exponentiation combinator",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "rexp",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ea)-\u003ec-\u003eb",
@@ -2229,6 +2421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe uncurried split combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "split",
           "package": "pointless-haskell",
@@ -2239,6 +2432,7 @@
         "index": {
           "description": "The uncurried split combinator",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "split",
           "normalized": "(a-\u003eb,a-\u003ec)-\u003ea-\u003e(b,c)",
@@ -2254,6 +2448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShifts the an element to the left of a nested pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "subl",
           "package": "pointless-haskell",
@@ -2264,6 +2459,7 @@
         "index": {
           "description": "Shifts the an element to the left of nested pair",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "subl",
           "normalized": "((a,b),c)-\u003e((a,c),b)",
@@ -2279,6 +2475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShifts the an element to the right of a nested pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "subr",
           "package": "pointless-haskell",
@@ -2289,6 +2486,7 @@
         "index": {
           "description": "Shifts the an element to the right of nested pair",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "subr",
           "normalized": "(a,(b,c))-\u003e(b,(a,c))",
@@ -2304,6 +2502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwap the elements of a product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "swap",
           "package": "pointless-haskell",
@@ -2314,6 +2513,7 @@
         "index": {
           "description": "Swap the elements of product",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "swap",
           "normalized": "(a,b)-\u003e(b,a)",
@@ -2329,6 +2529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistribute sums over the left of products.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "undistl",
           "package": "pointless-haskell",
@@ -2339,6 +2540,7 @@
         "index": {
           "description": "Distribute sums over the left of products",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "undistl",
           "normalized": "Either(a,b)(c,b)-\u003e(Either a c,b)",
@@ -2354,6 +2556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistribute sums over the right of products.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "undistr",
           "package": "pointless-haskell",
@@ -2364,6 +2567,7 @@
         "index": {
           "description": "Distribute sums over the right of products",
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "undistr",
           "normalized": "Either(a,b)(a,c)-\u003e(a,Either b c)",
@@ -2378,6 +2582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Combinators",
           "name": "vnn",
           "package": "pointless-haskell",
@@ -2387,6 +2592,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Combinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Combinators",
           "name": "vnn",
           "normalized": "a-\u003eAnn a",
@@ -2402,6 +2608,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePointless Haskell:\n point-free programming with recursion patterns as hylomorphisms\n\u003c/p\u003e\u003cp\u003eThis module provides examples, examples and more examples.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Examples",
           "package": "pointless-haskell",
@@ -2411,6 +2618,7 @@
         "index": {
           "description": "Pointless Haskell point-free programming with recursion patterns as hylomorphisms This module provides examples examples and more examples",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Examples",
           "package": "pointless-haskell",
@@ -2425,6 +2633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fixpoint of the functor for a binary shape tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "BSTree",
           "package": "pointless-haskell",
@@ -2434,6 +2643,7 @@
         "index": {
           "description": "The fixpoint of the functor for binary shape tree",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "BSTree",
           "package": "pointless-haskell",
@@ -2448,6 +2658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fixpoint of the functor representing trees with maximal branching factor of two.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "BTree",
           "package": "pointless-haskell",
@@ -2457,6 +2668,7 @@
         "index": {
           "description": "The fixpoint of the functor representing trees with maximal branching factor of two",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "BTree",
           "package": "pointless-haskell",
@@ -2471,6 +2683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fixpoint of the functor that represents a virtual matrix used to accumulate and look up values for the edit distance algorithm.\n\u003c/p\u003e\u003cp\u003eSince matrixes are not inductive types, a walk-through of a matrix is used, consisting in a list of values from the matrix ordered predictability.\n\u003c/p\u003e\u003cp\u003eFor a more detailed explanation, please refer to \u003ca\u003ehttp://math.ut.ee/~eugene/kabanov-vene-mpc-06.pdf\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "EditDist",
           "package": "pointless-haskell",
@@ -2480,6 +2693,7 @@
         "index": {
           "description": "The fixpoint of the functor that represents virtual matrix used to accumulate and look up values for the edit distance algorithm Since matrixes are not inductive types walk-through of matrix is used consisting in list of values from the matrix ordered predictability For more detailed explanation please refer to http math.ut.ee eugene kabanov-vene-mpc-06.pdf",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "EditDist",
           "package": "pointless-haskell",
@@ -2493,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "EditDistL",
           "package": "pointless-haskell",
@@ -2501,6 +2716,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "EditDistL",
           "package": "pointless-haskell",
@@ -2515,6 +2731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fixpoint of the functor that is either a constant or defined recursively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "From",
           "package": "pointless-haskell",
@@ -2524,6 +2741,7 @@
         "index": {
           "description": "The fixpoint of the functor that is either constant or defined recursively",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "From",
           "package": "pointless-haskell",
@@ -2538,6 +2756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype declaration of a leaf tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "LTree",
           "package": "pointless-haskell",
@@ -2547,6 +2766,7 @@
         "index": {
           "description": "Datatype declaration of leaf tree",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "LTree",
           "package": "pointless-haskell",
@@ -2561,6 +2781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fixpoint of the list functor with a specific terminal element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "NeList",
           "package": "pointless-haskell",
@@ -2570,6 +2791,7 @@
         "index": {
           "description": "The fixpoint of the list functor with specific terminal element",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "NeList",
           "package": "pointless-haskell",
@@ -2584,6 +2806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype declaration of a rose tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Rose",
           "package": "pointless-haskell",
@@ -2593,6 +2816,7 @@
         "index": {
           "description": "Datatype declaration of rose tree",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Rose",
           "package": "pointless-haskell",
@@ -2606,6 +2830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Some",
           "package": "pointless-haskell",
@@ -2614,6 +2839,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Some",
           "package": "pointless-haskell",
@@ -2628,6 +2854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fixpoint of the functor of streams.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Stream",
           "package": "pointless-haskell",
@@ -2637,6 +2864,7 @@
         "index": {
           "description": "The fixpoint of the functor of streams",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Stream",
           "package": "pointless-haskell",
@@ -2651,6 +2879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype declaration of a binary tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Tree",
           "package": "pointless-haskell",
@@ -2660,6 +2889,7 @@
         "index": {
           "description": "Datatype declaration of binary tree",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Tree",
           "package": "pointless-haskell",
@@ -2673,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Branch",
           "package": "pointless-haskell",
@@ -2682,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Branch",
           "package": "pointless-haskell",
@@ -2695,6 +2927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Empty",
           "package": "pointless-haskell",
@@ -2704,6 +2937,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Empty",
           "package": "pointless-haskell",
@@ -2717,6 +2951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Forest",
           "package": "pointless-haskell",
@@ -2726,6 +2961,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Forest",
           "normalized": "Forest a[Rose a]",
@@ -2741,6 +2977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Insert",
           "package": "pointless-haskell",
@@ -2750,6 +2987,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Insert",
           "package": "pointless-haskell",
@@ -2763,6 +3001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Leaf",
           "package": "pointless-haskell",
@@ -2772,6 +3011,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Leaf",
           "package": "pointless-haskell",
@@ -2785,6 +3025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Node",
           "package": "pointless-haskell",
@@ -2794,6 +3035,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Node",
           "package": "pointless-haskell",
@@ -2807,6 +3049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Wrap",
           "package": "pointless-haskell",
@@ -2816,6 +3059,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "Wrap",
           "package": "pointless-haskell",
@@ -2830,6 +3074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePre-defined algebraic addition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "add",
           "package": "pointless-haskell",
@@ -2840,6 +3085,7 @@
         "index": {
           "description": "Pre-defined algebraic addition",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "add",
           "normalized": "(Int,Int)-\u003eInt",
@@ -2855,6 +3101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of algebraic addition as an accumulation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "addAccum",
           "package": "pointless-haskell",
@@ -2865,6 +3112,7 @@
         "index": {
           "description": "Definition of algebraic addition as an accumulation",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "addAccum",
           "normalized": "(Int,Int)-\u003eInt",
@@ -2881,6 +3129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefition of algebraic addition as an anamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "addAna",
           "package": "pointless-haskell",
@@ -2891,6 +3140,7 @@
         "index": {
           "description": "Defition of algebraic addition as an anamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "addAna",
           "normalized": "(Int,Int)-\u003eInt",
@@ -2907,6 +3157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of algebraic addition as an anamorphism in the point-wise style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "addAnaPW",
           "package": "pointless-haskell",
@@ -2917,6 +3168,7 @@
         "index": {
           "description": "Definition of algebraic addition as an anamorphism in the point-wise style",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "addAnaPW",
           "normalized": "(Int,Int)-\u003eInt",
@@ -2933,6 +3185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of algebraic addition as an apomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "addApo",
           "package": "pointless-haskell",
@@ -2943,6 +3196,7 @@
         "index": {
           "description": "Definition of algebraic addition as an apomorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "addApo",
           "normalized": "(Int,Int)-\u003eInt",
@@ -2958,6 +3212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "addApoPW",
           "package": "pointless-haskell",
@@ -2967,6 +3222,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "addApoPW",
           "normalized": "(Int,Int)-\u003eInt",
@@ -2983,6 +3239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of algebraic addition as an hylomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "addHylo",
           "package": "pointless-haskell",
@@ -2993,6 +3250,7 @@
         "index": {
           "description": "Definition of algebraic addition as an hylomorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "addHylo",
           "normalized": "(Int,Int)-\u003eInt",
@@ -3009,6 +3267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursive definition of the average of a set of integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "average",
           "package": "pointless-haskell",
@@ -3019,6 +3278,7 @@
         "index": {
           "description": "Recursive definition of the average of set of integers",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "average",
           "normalized": "[Int]-\u003eInt",
@@ -3034,6 +3294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the average of a set of integers as a catamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "averageCata",
           "package": "pointless-haskell",
@@ -3044,6 +3305,7 @@
         "index": {
           "description": "Definition of the average of set of integers as catamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "averageCata",
           "normalized": "[Int]-\u003eInt",
@@ -3060,6 +3322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNative recursive definition for the binary partitions of a number.\n\u003c/p\u003e\u003cp\u003eThe number of binary partitions for a number n is the number of unique ways to partition\n this number (ignoring the order) into powers of 2.\n | Definition of the binary partitioning of a number as an hylomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "bp",
           "package": "pointless-haskell",
@@ -3070,6 +3333,7 @@
         "index": {
           "description": "Native recursive definition for the binary partitions of number The number of binary partitions for number is the number of unique ways to partition this number ignoring the order into powers of Definition of the binary partitioning of number as an hylomorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "bp",
           "normalized": "Int-\u003eInt",
@@ -3085,6 +3349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the binary partitioning of a number as a dynamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "bpDyna",
           "package": "pointless-haskell",
@@ -3095,6 +3360,7 @@
         "index": {
           "description": "Definition of the binary partitioning of number as dynamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "bpDyna",
           "normalized": "Int-\u003eInt",
@@ -3111,6 +3377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the binary partitioning of a number as an hylomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "bpHylo",
           "package": "pointless-haskell",
@@ -3121,6 +3388,7 @@
         "index": {
           "description": "Definition of the binary partitioning of number as an hylomorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "bpHylo",
           "normalized": "Int-\u003eInt",
@@ -3137,6 +3405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the bubble sort algorithm as an anamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "bsort",
           "package": "pointless-haskell",
@@ -3147,6 +3416,7 @@
         "index": {
           "description": "Definition of the bubble sort algorithm as an anamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "bsort",
           "normalized": "[a]-\u003e[a]",
@@ -3162,6 +3432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a bubble from a list. Used in the bubble sort algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "bubble",
           "package": "pointless-haskell",
@@ -3172,6 +3443,7 @@
         "index": {
           "description": "Creates bubble from list Used in the bubble sort algorithm",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "bubble",
           "normalized": "[a]-\u003eEither One(a,[a])",
@@ -3187,6 +3459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePre-defined list concatenation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "cat",
           "package": "pointless-haskell",
@@ -3197,6 +3470,7 @@
         "index": {
           "description": "Pre-defined list concatenation",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "cat",
           "normalized": "([a],[a])-\u003e[a]",
@@ -3212,6 +3486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList concatenation as a catamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "catCata",
           "package": "pointless-haskell",
@@ -3222,6 +3497,7 @@
         "index": {
           "description": "List concatenation as catamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "catCata",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -3238,6 +3514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList concatenation as an hylomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "catHylo",
           "package": "pointless-haskell",
@@ -3248,6 +3525,7 @@
         "index": {
           "description": "List concatenation as an hylomorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "catHylo",
           "normalized": "([a],[a])-\u003e[a]",
@@ -3264,6 +3542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNative recursive definition of lists-of-lists concatenation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "concat",
           "package": "pointless-haskell",
@@ -3274,6 +3553,7 @@
         "index": {
           "description": "Native recursive definition of lists-of-lists concatenation",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "concat",
           "normalized": "[[a]]-\u003e[a]",
@@ -3289,6 +3569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of lists-of-lists concatenation as an anamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "concatCata",
           "package": "pointless-haskell",
@@ -3299,6 +3580,7 @@
         "index": {
           "description": "Definition of lists-of-lists concatenation as an anamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "concatCata",
           "normalized": "[[a]]-\u003e[a]",
@@ -3315,6 +3597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneration of a downwards list as an anamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "downtoAna",
           "package": "pointless-haskell",
@@ -3325,6 +3608,7 @@
         "index": {
           "description": "Generation of downwards list as an anamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "downtoAna",
           "normalized": "Int-\u003e[Int]",
@@ -3341,6 +3625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe edit distance algorithm as a dynamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "editDistDyna",
           "package": "pointless-haskell",
@@ -3351,6 +3636,7 @@
         "index": {
           "description": "The edit distance algorithm as dynamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "editDistDyna",
           "normalized": "([a],[a])-\u003eInt",
@@ -3367,6 +3653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNative recursive definition of the edit distance algorithm.\n\u003c/p\u003e\u003cp\u003eEdit distance is a classical dynamic programming algorithm that calculates\n a measure of distance or dierence between lists with comparable elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "editdist",
           "package": "pointless-haskell",
@@ -3377,6 +3664,7 @@
         "index": {
           "description": "Native recursive definition of the edit distance algorithm Edit distance is classical dynamic programming algorithm that calculates measure of distance or dierence between lists with comparable elements",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "editdist",
           "normalized": "([a],[a])-\u003eInt",
@@ -3392,6 +3680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe edit distance algorithm as an hylomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "editdistHylo",
           "package": "pointless-haskell",
@@ -3402,6 +3691,7 @@
         "index": {
           "description": "The edit distance algorithm as an hylomorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "editdistHylo",
           "normalized": "([a],[a])-\u003eInt",
@@ -3418,6 +3708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of parwise exchange on streams as a futumorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "exchFutu",
           "package": "pointless-haskell",
@@ -3428,6 +3719,7 @@
         "index": {
           "description": "Definition of parwise exchange on streams as futumorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "exchFutu",
           "normalized": "Stream a-\u003eStream a",
@@ -3444,6 +3736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNative recursive definition of the factorial function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "fact",
           "package": "pointless-haskell",
@@ -3454,6 +3747,7 @@
         "index": {
           "description": "Native recursive definition of the factorial function",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "fact",
           "normalized": "Int-\u003eInt",
@@ -3469,6 +3763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the factorial function as an hylomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "factHylo",
           "package": "pointless-haskell",
@@ -3479,6 +3774,7 @@
         "index": {
           "description": "Definition of the factorial function as an hylomorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "factHylo",
           "normalized": "Int-\u003eInt",
@@ -3495,6 +3791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursive definition of the factorial function in the point-free style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "factPF",
           "package": "pointless-haskell",
@@ -3505,6 +3802,7 @@
         "index": {
           "description": "Recursive definition of the factorial function in the point-free style",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "factPF",
           "normalized": "Int-\u003eInt",
@@ -3521,6 +3819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursive definition of the factorial function in the point-free style with structural recursion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "factPF'",
           "package": "pointless-haskell",
@@ -3531,6 +3830,7 @@
         "index": {
           "description": "Recursive definition of the factorial function in the point-free style with structural recursion",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "factPF'",
           "normalized": "Int-\u003eInt",
@@ -3547,6 +3847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the factorial function as a paramorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "factPara",
           "package": "pointless-haskell",
@@ -3557,6 +3858,7 @@
         "index": {
           "description": "Definition of the factorial function as paramorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "factPara",
           "normalized": "Int-\u003eInt",
@@ -3573,6 +3875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the factorial function as a zygomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "factZygo",
           "package": "pointless-haskell",
@@ -3583,6 +3886,7 @@
         "index": {
           "description": "Definition of the factorial function as zygomorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "factZygo",
           "normalized": "Int-\u003eInt",
@@ -3599,6 +3903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNative recursive definition of the fibonacci function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "fib",
           "package": "pointless-haskell",
@@ -3609,6 +3914,7 @@
         "index": {
           "description": "Native recursive definition of the fibonacci function",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "fib",
           "normalized": "Int-\u003eInt",
@@ -3624,6 +3930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the fibonacci function as a dynamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "fibDyna",
           "package": "pointless-haskell",
@@ -3634,6 +3941,7 @@
         "index": {
           "description": "Definition of the fibonacci function as dynamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "fibDyna",
           "normalized": "Int-\u003eInt",
@@ -3650,6 +3958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the fibonacci function as an histomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "fibHisto",
           "package": "pointless-haskell",
@@ -3660,6 +3969,7 @@
         "index": {
           "description": "Definition of the fibonacci function as an histomorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "fibHisto",
           "normalized": "Int-\u003eInt",
@@ -3676,6 +3986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the fibonacci function as an hylomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "fibHylo",
           "package": "pointless-haskell",
@@ -3686,6 +3997,7 @@
         "index": {
           "description": "Definition of the fibonacci function as an hylomorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "fibHylo",
           "normalized": "Int-\u003eInt",
@@ -3702,6 +4014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursive definition of the fibonacci function in the point-free style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "fibPF",
           "package": "pointless-haskell",
@@ -3712,6 +4025,7 @@
         "index": {
           "description": "Recursive definition of the fibonacci function in the point-free style",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "fibPF",
           "normalized": "Int-\u003eInt",
@@ -3728,6 +4042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursive definition of the fibonacci function in the point-free style with structural recursion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "fibPF'",
           "package": "pointless-haskell",
@@ -3738,6 +4053,7 @@
         "index": {
           "description": "Recursive definition of the fibonacci function in the point-free style with structural recursion",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "fibPF'",
           "normalized": "Int-\u003eInt",
@@ -3754,6 +4070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNative recursive definition of list filtering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "filter",
           "package": "pointless-haskell",
@@ -3764,6 +4081,7 @@
         "index": {
           "description": "Native recursive definition of list filtering",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -3779,6 +4097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of list filtering as an catamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "filterCata",
           "package": "pointless-haskell",
@@ -3789,6 +4108,7 @@
         "index": {
           "description": "Definition of list filtering as an catamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "filterCata",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -3805,6 +4125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrementation the elements of a list by a specified value as a catamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "fisum",
           "package": "pointless-haskell",
@@ -3815,6 +4136,7 @@
         "index": {
           "description": "Incrementation the elements of list by specified value as catamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "fisum",
           "normalized": "[Int]-\u003eInt-\u003e[Int]",
@@ -3830,6 +4152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneration of a leaft tree of a specified height as an anamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "genLTree",
           "package": "pointless-haskell",
@@ -3840,6 +4163,7 @@
         "index": {
           "description": "Generation of leaft tree of specified height as an anamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "genLTree",
           "normalized": "Int-\u003eLTree Int",
@@ -3856,6 +4180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneration of a rose tree of a specified height as an anamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "genRose",
           "package": "pointless-haskell",
@@ -3866,6 +4191,7 @@
         "index": {
           "description": "Generation of rose tree of specified height as an anamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "genRose",
           "normalized": "Int-\u003eRose Int",
@@ -3882,6 +4208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneration of a binary tree with a specified height as an anamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "genTree",
           "package": "pointless-haskell",
@@ -3892,6 +4219,7 @@
         "index": {
           "description": "Generation of binary tree with specified height as an anamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "genTree",
           "normalized": "Int-\u003eTree Int",
@@ -3908,6 +4236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of a stream sequence generator as an anamorphism. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "generate",
           "package": "pointless-haskell",
@@ -3918,6 +4247,7 @@
         "index": {
           "description": "Definition of stream sequence generator as an anamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "generate",
           "normalized": "Int-\u003eStream Int",
@@ -3933,6 +4263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePre-defined 'greater than' comparison.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "gt",
           "package": "pointless-haskell",
@@ -3943,6 +4274,7 @@
         "index": {
           "description": "Pre-defined greater than comparison",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "gt",
           "normalized": "(a,a)-\u003eBool",
@@ -3958,6 +4290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of 'greater than' as an hylomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "gtHylo",
           "package": "pointless-haskell",
@@ -3968,6 +4301,7 @@
         "index": {
           "description": "Definition of greater than as an hylomorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "gtHylo",
           "normalized": "(Int,Int)-\u003eBool",
@@ -3984,6 +4318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream head.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "headS",
           "package": "pointless-haskell",
@@ -3994,6 +4329,7 @@
         "index": {
           "description": "Stream head",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "headS",
           "normalized": "Stream a-\u003ea",
@@ -4009,6 +4345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the height of a leaf tree as a catamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "height",
           "package": "pointless-haskell",
@@ -4019,6 +4356,7 @@
         "index": {
           "description": "Calculate the height of leaf tree as catamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "height",
           "normalized": "LTree a-\u003eInt",
@@ -4034,6 +4372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the heap sort algorithm as an hylomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "hsort",
           "package": "pointless-haskell",
@@ -4044,6 +4383,7 @@
         "index": {
           "description": "Definition of the heap sort algorithm as an hylomorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "hsort",
           "normalized": "[a]-\u003e[a]",
@@ -4058,6 +4398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "hsplit",
           "package": "pointless-haskell",
@@ -4067,6 +4408,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "hsplit",
           "normalized": "[a]-\u003e(a,([a],[a]))",
@@ -4082,6 +4424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity o streams as an anamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "idStream",
           "package": "pointless-haskell",
@@ -4092,6 +4435,7 @@
         "index": {
           "description": "Identity streams as an anamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "idStream",
           "normalized": "Stream a-\u003eStream a",
@@ -4108,6 +4452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromotes streams elements to streams of singleton elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "inits",
           "package": "pointless-haskell",
@@ -4118,6 +4463,7 @@
         "index": {
           "description": "Promotes streams elements to streams of singleton elements",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "inits",
           "normalized": "Stream a-\u003eStream[a]",
@@ -4133,6 +4479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdered list insertion as an apomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "insertApo",
           "package": "pointless-haskell",
@@ -4143,6 +4490,7 @@
         "index": {
           "description": "Ordered list insertion as an apomorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "insertApo",
           "normalized": "(a,[a])-\u003e[a]",
@@ -4159,6 +4507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdered list insertion as a paramorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "insertPara",
           "package": "pointless-haskell",
@@ -4169,6 +4518,7 @@
         "index": {
           "description": "Ordered list insertion as paramorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "insertPara",
           "normalized": "(a,[a])-\u003e[a]",
@@ -4185,6 +4535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the insertion sort algorithm as a catamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "isort",
           "package": "pointless-haskell",
@@ -4195,6 +4546,7 @@
         "index": {
           "description": "Definition of the insertion sort algorithm as catamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "isort",
           "normalized": "[a]-\u003e[a]",
@@ -4210,6 +4562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncremental summation as a catamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "isum",
           "package": "pointless-haskell",
@@ -4220,6 +4573,7 @@
         "index": {
           "description": "Incremental summation as catamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "isum",
           "normalized": "[Int]-\u003e[Int]",
@@ -4235,6 +4589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrementation the elements of a list by a specified value as an accumulation.\n The result is always a non-empty list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "isumsAccum",
           "package": "pointless-haskell",
@@ -4245,6 +4600,7 @@
         "index": {
           "description": "Incrementation the elements of list by specified value as an accumulation The result is always non-empty list",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "isumsAccum",
           "normalized": "([Int],Int)-\u003eSome Int",
@@ -4260,6 +4616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "isumsAna",
           "package": "pointless-haskell",
@@ -4269,6 +4626,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "isumsAna",
           "normalized": "([Int],Int)-\u003eSome Int",
@@ -4285,6 +4643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the leaves of a leaf tree as a catamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "leaves",
           "package": "pointless-haskell",
@@ -4295,6 +4654,7 @@
         "index": {
           "description": "Extract the leaves of leaf tree as catamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "leaves",
           "normalized": "LTree a-\u003e[a]",
@@ -4310,6 +4670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNative recursion definition of list length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "length",
           "package": "pointless-haskell",
@@ -4320,6 +4681,7 @@
         "index": {
           "description": "Native recursion definition of list length",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "length",
           "normalized": "[a]-\u003eInt",
@@ -4335,6 +4697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of list length as an anamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "lengthAna",
           "package": "pointless-haskell",
@@ -4345,6 +4708,7 @@
         "index": {
           "description": "Definition of list length as an anamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "lengthAna",
           "normalized": "[a]-\u003eInt",
@@ -4361,6 +4725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of list length as a catamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "lengthCata",
           "package": "pointless-haskell",
@@ -4371,6 +4736,7 @@
         "index": {
           "description": "Definition of list length as catamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "lengthCata",
           "normalized": "[a]-\u003eInt",
@@ -4387,6 +4753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of list length as an hylomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "lengthHylo",
           "package": "pointless-haskell",
@@ -4397,6 +4764,7 @@
         "index": {
           "description": "Definition of list length as an hylomorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "lengthHylo",
           "normalized": "[a]-\u003eInt",
@@ -4413,6 +4781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursive definition of list length in the point-free style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "lengthPF",
           "package": "pointless-haskell",
@@ -4423,6 +4792,7 @@
         "index": {
           "description": "Recursive definition of list length in the point-free style",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "lengthPF",
           "normalized": "[a]-\u003eInt",
@@ -4439,6 +4809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursive definition of list length in the point-free style with structural recursion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "lengthPF'",
           "package": "pointless-haskell",
@@ -4449,6 +4820,7 @@
         "index": {
           "description": "Recursive definition of list length in the point-free style with structural recursion",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "lengthPF'",
           "normalized": "[a]-\u003eInt",
@@ -4465,6 +4837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMalcolm downwards accumulations on lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "malcolm",
           "package": "pointless-haskell",
@@ -4475,6 +4848,7 @@
         "index": {
           "description": "Malcolm downwards accumulations on lists",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "malcolm",
           "normalized": "((a,b)-\u003eb)-\u003eb-\u003e[a]-\u003e[b]",
@@ -4490,6 +4864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMalcom downwards accumulations on lists as an anamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "malcolmAna",
           "package": "pointless-haskell",
@@ -4500,6 +4875,7 @@
         "index": {
           "description": "Malcom downwards accumulations on lists as an anamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "malcolmAna",
           "normalized": "((a,b)-\u003eb)-\u003eb-\u003e[a]-\u003e[b]",
@@ -4516,6 +4892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUncurried version of Malcom downwards accumulations on lists as an anamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "malcolmAna'",
           "package": "pointless-haskell",
@@ -4526,6 +4903,7 @@
         "index": {
           "description": "Uncurried version of Malcom downwards accumulations on lists as an anamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "malcolmAna'",
           "normalized": "((a,b)-\u003eb)-\u003e([a],b)-\u003e[b]",
@@ -4542,6 +4920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMalcolm downwards accumulations on streams.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "malcolmS",
           "package": "pointless-haskell",
@@ -4552,6 +4931,7 @@
         "index": {
           "description": "Malcolm downwards accumulations on streams",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "malcolmS",
           "normalized": "((a,b)-\u003eb)-\u003eb-\u003eStream a-\u003eStream b",
@@ -4567,6 +4947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMalcom downwards accumulations on streams as an anamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "malcolmSAna",
           "package": "pointless-haskell",
@@ -4577,6 +4958,7 @@
         "index": {
           "description": "Malcom downwards accumulations on streams as an anamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "malcolmSAna",
           "normalized": "((a,b)-\u003eb)-\u003eb-\u003eStream a-\u003eStream b",
@@ -4593,6 +4975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUncurried version of Malcom downwards accumulations on streams as an anamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "malcolmSAna'",
           "package": "pointless-haskell",
@@ -4603,6 +4986,7 @@
         "index": {
           "description": "Uncurried version of Malcom downwards accumulations on streams as an anamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "malcolmSAna'",
           "normalized": "((a,b)-\u003eb)-\u003e(Stream a,b)-\u003eStream b",
@@ -4619,6 +5003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of list mapping as a catamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "mapCata",
           "package": "pointless-haskell",
@@ -4629,6 +5014,7 @@
         "index": {
           "description": "Definition of list mapping as catamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "mapCata",
           "normalized": "[a]-\u003e(a-\u003eb)-\u003e[b]",
@@ -4645,6 +5031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMapping over streams as an anamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "mapStream",
           "package": "pointless-haskell",
@@ -4655,6 +5042,7 @@
         "index": {
           "description": "Mapping over streams as an anamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "mapStream",
           "normalized": "(a-\u003eb)-\u003eStream a-\u003eStream b",
@@ -4671,6 +5059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSorted concatenation of two lists as an hylomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "merge",
           "package": "pointless-haskell",
@@ -4681,6 +5070,7 @@
         "index": {
           "description": "Sorted concatenation of two lists as an hylomorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "merge",
           "normalized": "([a],[a])-\u003e[a]",
@@ -4695,6 +5085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "msort",
           "package": "pointless-haskell",
@@ -4704,6 +5095,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "msort",
           "normalized": "[a]-\u003e[a]",
@@ -4718,6 +5110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "msplit",
           "package": "pointless-haskell",
@@ -4727,6 +5120,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "msplit",
           "normalized": "[a]-\u003e([a],[a])",
@@ -4742,6 +5136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNative recursive definition of integer multiplication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "mult",
           "package": "pointless-haskell",
@@ -4752,6 +5147,7 @@
         "index": {
           "description": "Native recursive definition of integer multiplication",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "mult",
           "normalized": "[Int]-\u003eInt",
@@ -4767,6 +5163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of integer multiplication as a catamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "multCata",
           "package": "pointless-haskell",
@@ -4777,6 +5174,7 @@
         "index": {
           "description": "Definition of integer multiplication as catamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "multCata",
           "normalized": "[Int]-\u003eInt",
@@ -4793,6 +5191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounting the number of leaves in a binary tree as a catamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "nleaves",
           "package": "pointless-haskell",
@@ -4803,6 +5202,7 @@
         "index": {
           "description": "Counting the number of leaves in binary tree as catamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "nleaves",
           "normalized": "Tree a-\u003eInt",
@@ -4818,6 +5218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounting the number of nodes in a binary tree as a catamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "nnodes",
           "package": "pointless-haskell",
@@ -4828,6 +5229,7 @@
         "index": {
           "description": "Counting the number of nodes in binary tree as catamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "nnodes",
           "normalized": "Tree a-\u003eInt",
@@ -4843,6 +5245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNative recursive definition for partitioning a list at a specified element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "partition",
           "package": "pointless-haskell",
@@ -4853,6 +5256,7 @@
         "index": {
           "description": "Native recursive definition for partitioning list at specified element",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "partition",
           "normalized": "(a,[a])-\u003e([a],[a])",
@@ -4868,6 +5272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition for partitioning a list at a specified element as an hylomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "partitionHylo",
           "package": "pointless-haskell",
@@ -4878,6 +5283,7 @@
         "index": {
           "description": "Definition for partitioning list at specified element as an hylomorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "partitionHylo",
           "normalized": "(a,[a])-\u003e([a],[a])",
@@ -4894,6 +5300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe postorder traversal on rose trees as a catamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "postRose",
           "package": "pointless-haskell",
@@ -4904,6 +5311,7 @@
         "index": {
           "description": "The postorder traversal on rose trees as catamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "postRose",
           "normalized": "Rose a-\u003e[a]",
@@ -4920,6 +5328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe postorder traversal on binary trees as a catamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "postTree",
           "package": "pointless-haskell",
@@ -4930,6 +5339,7 @@
         "index": {
           "description": "The postorder traversal on binary trees as catamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "postTree",
           "normalized": "Tree a-\u003e[a]",
@@ -4945,6 +5355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "preRose",
           "package": "pointless-haskell",
@@ -4954,6 +5365,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "preRose",
           "normalized": "Rose a-\u003e[a]",
@@ -4970,6 +5382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe preorder traversal on binary trees as a catamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "preTree",
           "package": "pointless-haskell",
@@ -4980,6 +5393,7 @@
         "index": {
           "description": "The preorder traversal on binary trees as catamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "preTree",
           "normalized": "Tree a-\u003e[a]",
@@ -4996,6 +5410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePre-defined algebraic product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "prod",
           "package": "pointless-haskell",
@@ -5006,6 +5421,7 @@
         "index": {
           "description": "Pre-defined algebraic product",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "prod",
           "normalized": "(Int,Int)-\u003eInt",
@@ -5021,6 +5437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of algebraic product as an hylomorphism\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "prodHylo",
           "package": "pointless-haskell",
@@ -5031,6 +5448,7 @@
         "index": {
           "description": "Definition of algebraic product as an hylomorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "prodHylo",
           "normalized": "(Int,Int)-\u003eInt",
@@ -5047,6 +5465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the quicksort algorithm as an hylomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "qsort",
           "package": "pointless-haskell",
@@ -5057,6 +5476,7 @@
         "index": {
           "description": "Definition of the quicksort algorithm as an hylomorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "qsort",
           "normalized": "[a]-\u003e[a]",
@@ -5072,6 +5492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneration of infinite lists as an anamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "repeatAna",
           "package": "pointless-haskell",
@@ -5082,6 +5503,7 @@
         "index": {
           "description": "Generation of infinite lists as an anamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "repeatAna",
           "normalized": "a-\u003e[a]",
@@ -5098,6 +5520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinite replication of an element as an anamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "replicateAna",
           "package": "pointless-haskell",
@@ -5108,6 +5531,7 @@
         "index": {
           "description": "Finite replication of an element as an anamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "replicateAna",
           "normalized": "(Int,a)-\u003e[a]",
@@ -5124,6 +5548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear version of reverse using accumulations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "reverseAccum'",
           "package": "pointless-haskell",
@@ -5134,6 +5559,7 @@
         "index": {
           "description": "Linear version of reverse using accumulations",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "reverseAccum'",
           "normalized": "([a],[a])-\u003e[a]",
@@ -5150,6 +5576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of list reversion as a catamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "reverseCata",
           "package": "pointless-haskell",
@@ -5160,6 +5587,7 @@
         "index": {
           "description": "Definition of list reversion as catamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "reverseCata",
           "normalized": "[a]-\u003e[a]",
@@ -5175,6 +5603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "reverseHylo",
           "package": "pointless-haskell",
@@ -5184,6 +5613,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "reverseHylo",
           "normalized": "([a],[a])-\u003e[a]",
@@ -5200,6 +5630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend an element to the end of a list as an hylomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "snoc",
           "package": "pointless-haskell",
@@ -5210,6 +5641,7 @@
         "index": {
           "description": "Append an element to the end of list as an hylomorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "snoc",
           "normalized": "(a,[a])-\u003e[a]",
@@ -5225,6 +5657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend an element to the end of a list as an apomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "snocApo",
           "package": "pointless-haskell",
@@ -5235,6 +5668,7 @@
         "index": {
           "description": "Append an element to the end of list as an apomorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "snocApo",
           "normalized": "(a,[a])-\u003e[a]",
@@ -5250,6 +5684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "sorted",
           "package": "pointless-haskell",
@@ -5259,6 +5694,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "sorted",
           "normalized": "[a]-\u003eBool",
@@ -5274,6 +5710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the subsequences of a list as a catamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "subsequences",
           "package": "pointless-haskell",
@@ -5284,6 +5721,7 @@
         "index": {
           "description": "Definition of the subsequences of list as catamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "subsequences",
           "normalized": "[a]-\u003e[[a]]",
@@ -5299,6 +5737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of inter addition as a catamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "sumCata",
           "package": "pointless-haskell",
@@ -5309,6 +5748,7 @@
         "index": {
           "description": "Definition of inter addition as catamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "sumCata",
           "normalized": "[Int]-\u003eInt",
@@ -5325,6 +5765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the tail of a list as a total function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "tail",
           "package": "pointless-haskell",
@@ -5335,6 +5776,7 @@
         "index": {
           "description": "Definition of the tail of list as total function",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "tail",
           "normalized": "[a]-\u003e[a]",
@@ -5350,6 +5792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the tail of a list as an anamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "tailCata",
           "package": "pointless-haskell",
@@ -5360,6 +5803,7 @@
         "index": {
           "description": "Definition of the tail of list as an anamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "tailCata",
           "normalized": "[a]-\u003e[a]",
@@ -5376,6 +5820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the tail of a list in the point-free style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "tailPF",
           "package": "pointless-haskell",
@@ -5386,6 +5831,7 @@
         "index": {
           "description": "Definition of the tail of list in the point-free style",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "tailPF",
           "normalized": "[a]-\u003e[a]",
@@ -5402,6 +5848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the tail of a list as a paramorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "tailPara",
           "package": "pointless-haskell",
@@ -5412,6 +5859,7 @@
         "index": {
           "description": "Definition of the tail of list as paramorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "tailPara",
           "normalized": "[a]-\u003e[a]",
@@ -5428,6 +5876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream tail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "tailS",
           "package": "pointless-haskell",
@@ -5438,6 +5887,7 @@
         "index": {
           "description": "Stream tail",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "tailS",
           "normalized": "Stream a-\u003eStream a",
@@ -5453,6 +5903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtraction of a number of elements from a list as an anamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "takeAna",
           "package": "pointless-haskell",
@@ -5463,6 +5914,7 @@
         "index": {
           "description": "Extraction of number of elements from list as an anamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "takeAna",
           "normalized": "(Int,[a])-\u003e[a]",
@@ -5479,6 +5931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePre-defined wrapping of an element into a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "wrap",
           "package": "pointless-haskell",
@@ -5489,6 +5942,7 @@
         "index": {
           "description": "Pre-defined wrapping of an element into list",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "wrap",
           "normalized": "a-\u003e[a]",
@@ -5504,6 +5958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of wrapping in the point-free style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "wrapPF",
           "package": "pointless-haskell",
@@ -5514,6 +5969,7 @@
         "index": {
           "description": "Definition of wrapping in the point-free style",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "wrapPF",
           "normalized": "a-\u003e[a]",
@@ -5530,6 +5986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the zip for lists of pairs as an anamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "zipAna",
           "package": "pointless-haskell",
@@ -5540,6 +5997,7 @@
         "index": {
           "description": "Definition of the zip for lists of pairs as an anamorphism",
           "hierarchy": "Generics Pointless Examples Examples",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Examples",
           "name": "zipAna",
           "normalized": "([a],[b])-\u003e[(a,b)]",
@@ -5556,6 +6014,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePointless Haskell:\n point-free programming with recursion patterns as hylomorphisms\n\u003c/p\u003e\u003cp\u003eThis module provides the same examples, but with support for GHood observations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "Observe",
           "package": "pointless-haskell",
@@ -5565,6 +6024,7 @@
         "index": {
           "description": "Pointless Haskell point-free programming with recursion patterns as hylomorphisms This module provides the same examples but with support for GHood observations",
           "hierarchy": "Generics Pointless Examples Observe",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "Observe",
           "package": "pointless-haskell",
@@ -5579,6 +6039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the observable add function as an accumulation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "addAccumO",
           "package": "pointless-haskell",
@@ -5589,6 +6050,7 @@
         "index": {
           "description": "Definition of the observable add function as an accumulation",
           "hierarchy": "Generics Pointless Examples Observe",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "addAccumO",
           "normalized": "(Int,Int)-\u003eInt",
@@ -5605,6 +6067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the observable factorial function as an hylomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "factHyloO",
           "package": "pointless-haskell",
@@ -5615,6 +6078,7 @@
         "index": {
           "description": "Definition of the observable factorial function as an hylomorphism",
           "hierarchy": "Generics Pointless Examples Observe",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "factHyloO",
           "normalized": "Int-\u003eInt",
@@ -5631,6 +6095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the observable factorial function as a paramorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "factParaO",
           "package": "pointless-haskell",
@@ -5641,6 +6106,7 @@
         "index": {
           "description": "Definition of the observable factorial function as paramorphism",
           "hierarchy": "Generics Pointless Examples Observe",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "factParaO",
           "normalized": "Int-\u003eInt",
@@ -5657,6 +6123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the observable factorial function as a zygomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "factZygoO",
           "package": "pointless-haskell",
@@ -5667,6 +6134,7 @@
         "index": {
           "description": "Definition of the observable factorial function as zygomorphism",
           "hierarchy": "Generics Pointless Examples Observe",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "factZygoO",
           "normalized": "Int-\u003eInt",
@@ -5683,6 +6151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the observable fibonacci function as a dynamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "fibDynaO",
           "package": "pointless-haskell",
@@ -5693,6 +6162,7 @@
         "index": {
           "description": "Definition of the observable fibonacci function as dynamorphism",
           "hierarchy": "Generics Pointless Examples Observe",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "fibDynaO",
           "normalized": "Int-\u003eInt",
@@ -5709,6 +6179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the observable fibonacci function as an histomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "fibHistoO",
           "package": "pointless-haskell",
@@ -5719,6 +6190,7 @@
         "index": {
           "description": "Definition of the observable fibonacci function as an histomorphism",
           "hierarchy": "Generics Pointless Examples Observe",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "fibHistoO",
           "normalized": "Int-\u003eInt",
@@ -5735,6 +6207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the observable fibonacci function as an hylomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "fibHyloO",
           "package": "pointless-haskell",
@@ -5745,6 +6218,7 @@
         "index": {
           "description": "Definition of the observable fibonacci function as an hylomorphism",
           "hierarchy": "Generics Pointless Examples Observe",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "fibHyloO",
           "normalized": "Int-\u003eInt",
@@ -5761,6 +6235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the observable length function as an anamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "lengthAnaO",
           "package": "pointless-haskell",
@@ -5771,6 +6246,7 @@
         "index": {
           "description": "Definition of the observable length function as an anamorphism",
           "hierarchy": "Generics Pointless Examples Observe",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "lengthAnaO",
           "normalized": "[a]-\u003eInt",
@@ -5787,6 +6263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the observable length function as a catamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "lengthCataO",
           "package": "pointless-haskell",
@@ -5797,6 +6274,7 @@
         "index": {
           "description": "Definition of the observable length function as catamorphism",
           "hierarchy": "Generics Pointless Examples Observe",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "lengthCataO",
           "normalized": "[a]-\u003eInt",
@@ -5813,6 +6291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the observable length function as an hylomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "lengthHyloO",
           "package": "pointless-haskell",
@@ -5823,6 +6302,7 @@
         "index": {
           "description": "Definition of the observable length function as an hylomorphism",
           "hierarchy": "Generics Pointless Examples Observe",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "lengthHyloO",
           "normalized": "[a]-\u003eInt",
@@ -5839,6 +6319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the observable quicksort function as an hylomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "qsortHyloO",
           "package": "pointless-haskell",
@@ -5849,6 +6330,7 @@
         "index": {
           "description": "Definition of the observable quicksort function as an hylomorphism",
           "hierarchy": "Generics Pointless Examples Observe",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "qsortHyloO",
           "normalized": "[a]-\u003e[a]",
@@ -5865,6 +6347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of the observable tail function as a paramorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "tailParaO",
           "package": "pointless-haskell",
@@ -5875,6 +6358,7 @@
         "index": {
           "description": "Definition of the observable tail function as paramorphism",
           "hierarchy": "Generics Pointless Examples Observe",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Examples.Observe",
           "name": "tailParaO",
           "normalized": "[a]-\u003e[a]",
@@ -5891,6 +6375,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePointless Haskell:\n point-free programming with recursion patterns as hylomorphisms\n\u003c/p\u003e\u003cp\u003eThis module defines a class of representable functors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Fctrable",
           "name": "Fctrable",
           "package": "pointless-haskell",
@@ -5900,6 +6385,7 @@
         "index": {
           "description": "Pointless Haskell point-free programming with recursion patterns as hylomorphisms This module defines class of representable functors",
           "hierarchy": "Generics Pointless Fctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Fctrable",
           "name": "Fctrable",
           "package": "pointless-haskell",
@@ -5914,6 +6400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctor GADT for polytypic recursive functions.\n At the moment it does not rely on a \u003ccode\u003eTypeable\u003c/code\u003e instance for constants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Fctrable",
           "name": "Fctr",
           "package": "pointless-haskell",
@@ -5923,6 +6410,7 @@
         "index": {
           "description": "Functor GADT for polytypic recursive functions At the moment it does not rely on Typeable instance for constants",
           "hierarchy": "Generics Pointless Fctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Fctrable",
           "name": "Fctr",
           "package": "pointless-haskell",
@@ -5937,6 +6425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of representable functors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Fctrable",
           "name": "Fctrable",
           "package": "pointless-haskell",
@@ -5946,6 +6435,7 @@
         "index": {
           "description": "Class of representable functors",
           "hierarchy": "Generics Pointless Fctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Fctrable",
           "name": "Fctrable",
           "package": "pointless-haskell",
@@ -5959,6 +6449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Fctrable",
           "name": ":*!:",
           "package": "pointless-haskell",
@@ -5968,6 +6459,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Fctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Fctrable",
           "name": ":*!:",
           "normalized": "Fctr a-\u003eFctr b-\u003eFctr(a*b)",
@@ -5982,6 +6474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Fctrable",
           "name": ":+!:",
           "package": "pointless-haskell",
@@ -5991,6 +6484,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Fctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Fctrable",
           "name": ":+!:",
           "normalized": "Fctr a-\u003eFctr b-\u003eFctr(a b)",
@@ -6005,6 +6499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Fctrable",
           "name": ":@!:",
           "package": "pointless-haskell",
@@ -6014,6 +6509,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Fctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Fctrable",
           "name": ":@!:",
           "normalized": "Fctr a-\u003eFctr b-\u003eFctr(a b)",
@@ -6028,6 +6524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Fctrable",
           "name": "I",
           "package": "pointless-haskell",
@@ -6037,6 +6534,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Fctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Fctrable",
           "name": "I",
           "package": "pointless-haskell",
@@ -6049,6 +6547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Fctrable",
           "name": "K",
           "package": "pointless-haskell",
@@ -6058,6 +6557,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Fctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Fctrable",
           "name": "K",
           "package": "pointless-haskell",
@@ -6070,6 +6570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Fctrable",
           "name": "L",
           "package": "pointless-haskell",
@@ -6079,6 +6580,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Fctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Fctrable",
           "name": "L",
           "normalized": "Fctr[]",
@@ -6093,6 +6595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Fctrable",
           "name": "fctr",
           "package": "pointless-haskell",
@@ -6102,6 +6605,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Fctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Fctrable",
           "name": "fctr",
           "package": "pointless-haskell",
@@ -6115,6 +6619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe representation of the fixpoint of a representable functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Fctrable",
           "name": "fctrF",
           "package": "pointless-haskell",
@@ -6125,6 +6630,7 @@
         "index": {
           "description": "The representation of the fixpoint of representable functor",
           "hierarchy": "Generics Pointless Fctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Fctrable",
           "name": "fctrF",
           "normalized": "Fix a-\u003eFctr a",
@@ -6140,6 +6646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fixpoint of a representable functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Fctrable",
           "name": "fixF",
           "package": "pointless-haskell",
@@ -6150,6 +6657,7 @@
         "index": {
           "description": "The fixpoint of representable functor",
           "hierarchy": "Generics Pointless Fctrable",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Fctrable",
           "name": "fixF",
           "normalized": "Fctr a-\u003eFix a",
@@ -6165,6 +6673,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePointless Haskell:\n point-free programming with recursion patterns as hylomorphisms\n\u003c/p\u003e\u003cp\u003eThis module defines data types as fixed points of functor.\n Pointless Haskell works on a view of data types as fixed points of functors, in the same style as the PolyP (\u003ca\u003ehttp://www.cse.chalmers.se/~patrikj/poly/polyp/\u003c/a\u003e) library.\n Instead of using an explicit fixpoint operator, a type function is used to relate the data types with their equivalent functor representations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "Functors",
           "package": "pointless-haskell",
@@ -6174,6 +6683,7 @@
         "index": {
           "description": "Pointless Haskell point-free programming with recursion patterns as hylomorphisms This module defines data types as fixed points of functor Pointless Haskell works on view of data types as fixed points of functors in the same style as the PolyP http www.cse.chalmers.se patrikj poly polyp library Instead of using an explicit fixpoint operator type function is used to relate the data types with their equivalent functor representations",
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "Functors",
           "package": "pointless-haskell",
@@ -6188,6 +6698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSemantically, we can say that \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFix\u003c/a\u003e\u003c/code\u003e f :*!: \u003ccode\u003e\u003ca\u003eFix\u003c/a\u003e\u003c/code\u003e g = \u003ccode\u003e\u003ca\u003eFix\u003c/a\u003e\u003c/code\u003e (f :*: g)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": ":*!:",
           "package": "pointless-haskell",
@@ -6197,6 +6708,7 @@
         "index": {
           "description": "Semantically we can say that Fix Fix Fix",
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": ":*!:",
           "package": "pointless-haskell",
@@ -6210,6 +6722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduct of functors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": ":*:",
           "package": "pointless-haskell",
@@ -6219,6 +6732,7 @@
         "index": {
           "description": "Product of functors",
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": ":*:",
           "package": "pointless-haskell",
@@ -6232,6 +6746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSemantically, we can say that \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFix\u003c/a\u003e\u003c/code\u003e f :+!: \u003ccode\u003e\u003ca\u003eFix\u003c/a\u003e\u003c/code\u003e g = \u003ccode\u003e\u003ca\u003eFix\u003c/a\u003e\u003c/code\u003e (f :+: g)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": ":+!:",
           "package": "pointless-haskell",
@@ -6241,6 +6756,7 @@
         "index": {
           "description": "Semantically we can say that Fix Fix Fix",
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": ":+!:",
           "package": "pointless-haskell",
@@ -6254,6 +6770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum of functors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": ":+:",
           "package": "pointless-haskell",
@@ -6263,6 +6780,7 @@
         "index": {
           "description": "Sum of functors",
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": ":+:",
           "package": "pointless-haskell",
@@ -6276,6 +6794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSemantically, we can say that \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFix\u003c/a\u003e\u003c/code\u003e f :@!: \u003ccode\u003e\u003ca\u003eFix\u003c/a\u003e\u003c/code\u003e g = \u003ccode\u003e\u003ca\u003eFix\u003c/a\u003e\u003c/code\u003e (f ':@: g)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": ":@!:",
           "package": "pointless-haskell",
@@ -6285,6 +6804,7 @@
         "index": {
           "description": "Semantically we can say that Fix Fix Fix",
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": ":@!:",
           "package": "pointless-haskell",
@@ -6298,6 +6818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposition of functors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": ":@:",
           "package": "pointless-haskell",
@@ -6307,6 +6828,7 @@
         "index": {
           "description": "Composition of functors",
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": ":@:",
           "package": "pointless-haskell",
@@ -6320,6 +6842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "Const",
           "package": "pointless-haskell",
@@ -6329,6 +6852,7 @@
         "index": {
           "description": "Constant functor",
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "Const",
           "package": "pointless-haskell",
@@ -6343,6 +6867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShort alias to express the structurally equivalent sum of products for some data type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "F",
           "package": "pointless-haskell",
@@ -6352,6 +6877,7 @@
         "index": {
           "description": "Short alias to express the structurally equivalent sum of products for some data type",
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "F",
           "package": "pointless-haskell",
@@ -6365,6 +6891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExplicit fixpoint operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "Fix",
           "package": "pointless-haskell",
@@ -6374,6 +6901,7 @@
         "index": {
           "description": "Explicit fixpoint operator",
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "Fix",
           "package": "pointless-haskell",
@@ -6388,6 +6916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolytypic \u003ccode\u003ePrelude.Functor\u003c/code\u003e class for functor representations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "Functor",
           "package": "pointless-haskell",
@@ -6397,6 +6926,7 @@
         "index": {
           "description": "Polytypic Prelude.Functor class for functor representations",
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "Functor",
           "package": "pointless-haskell",
@@ -6411,6 +6941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn order to simplify type-level composition of functors, we can create fixpoint combinators that implicitely assume fixpoint application.\n\u003c/p\u003e\u003cp\u003eSemantically, we can say that \u003ccode\u003e\u003ccode\u003e\u003ca\u003eI\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eFix\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "I",
           "package": "pointless-haskell",
@@ -6420,6 +6951,7 @@
         "index": {
           "description": "In order to simplify type-level composition of functors we can create fixpoint combinators that implicitely assume fixpoint application Semantically we can say that Fix Id",
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "I",
           "package": "pointless-haskell",
@@ -6433,6 +6965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "Id",
           "package": "pointless-haskell",
@@ -6442,6 +6975,7 @@
         "index": {
           "description": "Identity functor",
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "Id",
           "package": "pointless-haskell",
@@ -6456,6 +6990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSemantically, we can say that \u003ccode\u003e\u003ccode\u003e\u003ca\u003eK\u003c/a\u003e\u003c/code\u003e t = \u003ccode\u003e\u003ca\u003eFix\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eConst\u003c/a\u003e\u003c/code\u003e t)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "K",
           "package": "pointless-haskell",
@@ -6465,6 +7000,7 @@
         "index": {
           "description": "Semantically we can say that Fix Const",
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "K",
           "package": "pointless-haskell",
@@ -6478,6 +7014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eMu\u003c/a\u003e\u003c/code\u003e class provides the value-level translation between data types and their sum of products representations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "Mu",
           "package": "pointless-haskell",
@@ -6487,6 +7024,7 @@
         "index": {
           "description": "The Mu class provides the value-level translation between data types and their sum of products representations",
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "Mu",
           "package": "pointless-haskell",
@@ -6500,6 +7038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "Nat",
           "package": "pointless-haskell",
@@ -6508,6 +7047,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "Nat",
           "package": "pointless-haskell",
@@ -6522,6 +7062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFamily of patterns functors of data types.\n\u003c/p\u003e\u003cp\u003eThe type function is not necessarily injective, this is, different data types can have the same base functor.\n\u003c/p\u003e\u003cp\u003eSemantically, we can say that \u003ccode\u003ea = \u003ccode\u003e\u003ca\u003eFix\u003c/a\u003e\u003c/code\u003e f\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "PF",
           "package": "pointless-haskell",
@@ -6531,6 +7072,7 @@
         "index": {
           "description": "Family of patterns functors of data types The type function is not necessarily injective this is different data types can have the same base functor Semantically we can say that Fix",
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "PF",
           "package": "pointless-haskell",
@@ -6545,6 +7087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFamily of functor representations.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eRep\u003c/a\u003e\u003c/code\u003e family implements the implicit coercion between the application of a functor and the structurally equivalent sum of products.\n\u003c/p\u003e\u003cp\u003eFunctors applied to types can be represented as sums of products.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "Rep",
           "package": "pointless-haskell",
@@ -6554,6 +7097,7 @@
         "index": {
           "description": "Family of functor representations The Rep family implements the implicit coercion between the application of functor and the structurally equivalent sum of products Functors applied to types can be represented as sums of products",
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "Rep",
           "package": "pointless-haskell",
@@ -6568,6 +7112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specific \u003ccode\u003eShow\u003c/code\u003e class for functor representations that receives a show function for recursive instances.\n This avoids infinite loops in the type inference of fixpoints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "ShowRep",
           "package": "pointless-haskell",
@@ -6577,6 +7122,7 @@
         "index": {
           "description": "specific Show class for functor representations that receives show function for recursive instances This avoids infinite loops in the type inference of fixpoints",
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "ShowRep",
           "package": "pointless-haskell",
@@ -6590,6 +7136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "ToRep",
           "package": "pointless-haskell",
@@ -6598,6 +7145,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "ToRep",
           "package": "pointless-haskell",
@@ -6611,6 +7159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "CompF",
           "package": "pointless-haskell",
@@ -6620,6 +7169,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "CompF",
           "package": "pointless-haskell",
@@ -6633,6 +7183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "ConsF",
           "package": "pointless-haskell",
@@ -6642,6 +7193,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "ConsF",
           "package": "pointless-haskell",
@@ -6655,6 +7207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "FixComp",
           "package": "pointless-haskell",
@@ -6664,6 +7217,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "FixComp",
           "package": "pointless-haskell",
@@ -6677,6 +7231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "FixConst",
           "package": "pointless-haskell",
@@ -6686,6 +7241,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "FixConst",
           "package": "pointless-haskell",
@@ -6699,6 +7255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "FixId",
           "package": "pointless-haskell",
@@ -6708,6 +7265,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "FixId",
           "package": "pointless-haskell",
@@ -6721,6 +7279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "FixProd",
           "package": "pointless-haskell",
@@ -6730,6 +7289,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "FixProd",
           "package": "pointless-haskell",
@@ -6743,6 +7303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "FixSum",
           "package": "pointless-haskell",
@@ -6752,6 +7313,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "FixSum",
           "package": "pointless-haskell",
@@ -6765,6 +7327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "IdF",
           "package": "pointless-haskell",
@@ -6774,6 +7337,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "IdF",
           "package": "pointless-haskell",
@@ -6787,6 +7351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "InlF",
           "package": "pointless-haskell",
@@ -6796,6 +7361,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "InlF",
           "package": "pointless-haskell",
@@ -6809,6 +7375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "Inn",
           "package": "pointless-haskell",
@@ -6818,6 +7385,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "Inn",
           "package": "pointless-haskell",
@@ -6831,6 +7399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "InrF",
           "package": "pointless-haskell",
@@ -6840,6 +7409,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "InrF",
           "package": "pointless-haskell",
@@ -6853,6 +7423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "Nat",
           "package": "pointless-haskell",
@@ -6862,6 +7433,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "Nat",
           "package": "pointless-haskell",
@@ -6875,6 +7447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "ProdF",
           "package": "pointless-haskell",
@@ -6884,6 +7457,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "ProdF",
           "package": "pointless-haskell",
@@ -6897,6 +7471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "cons",
           "package": "pointless-haskell",
@@ -6906,6 +7481,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "cons",
           "normalized": "(a,[a])-\u003e[a]",
@@ -6920,6 +7496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "false",
           "package": "pointless-haskell",
@@ -6929,6 +7506,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "false",
           "normalized": "One-\u003eBool",
@@ -6943,6 +7521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "fmap",
           "package": "pointless-haskell",
@@ -6952,6 +7531,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "fmap",
           "package": "pointless-haskell",
@@ -6964,6 +7544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "fun",
           "package": "pointless-haskell",
@@ -6973,6 +7554,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "fun",
           "normalized": "a b-\u003eAnn(Fix a)",
@@ -6987,6 +7569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "fzip",
           "package": "pointless-haskell",
@@ -6996,6 +7579,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "fzip",
           "package": "pointless-haskell",
@@ -7009,6 +7593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePacks a sum of products into one equivalent data type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "inn",
           "package": "pointless-haskell",
@@ -7019,6 +7604,7 @@
         "index": {
           "description": "Packs sum of products into one equivalent data type",
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "inn",
           "normalized": "F a a-\u003ea",
@@ -7033,6 +7619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "inn'",
           "package": "pointless-haskell",
@@ -7042,6 +7629,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "inn'",
           "normalized": "Ann a-\u003eF a a-\u003ea",
@@ -7056,6 +7644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "intNat",
           "package": "pointless-haskell",
@@ -7065,6 +7654,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "intNat",
           "normalized": "Int-\u003eNat",
@@ -7080,6 +7670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "lzip",
           "package": "pointless-haskell",
@@ -7089,6 +7680,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "lzip",
           "normalized": "(a-\u003eb)-\u003e([a],[b])-\u003e[(a,b)]",
@@ -7103,6 +7695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "maybe2bool",
           "package": "pointless-haskell",
@@ -7112,6 +7705,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "maybe2bool",
           "normalized": "Maybe a-\u003eBool",
@@ -7126,6 +7720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "natInt",
           "package": "pointless-haskell",
@@ -7135,6 +7730,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "natInt",
           "normalized": "Nat-\u003eInt",
@@ -7150,6 +7746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "nil",
           "package": "pointless-haskell",
@@ -7159,6 +7756,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "nil",
           "normalized": "One-\u003e[a]",
@@ -7174,6 +7772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unfolding of the fixpoint of a functor is the functor applied to its fixpoint.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eunFix\u003c/code\u003e is specialized with the application of \u003ccode\u003e\u003ca\u003eRep\u003c/a\u003e\u003c/code\u003e in order to subsume functor application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "ouT",
           "package": "pointless-haskell",
@@ -7184,6 +7783,7 @@
         "index": {
           "description": "The unfolding of the fixpoint of functor is the functor applied to its fixpoint unFix is specialized with the application of Rep in order to subsume functor application",
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "ouT",
           "package": "pointless-haskell",
@@ -7197,6 +7797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunpacks a data type into the equivalent sum of products\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "out",
           "package": "pointless-haskell",
@@ -7207,6 +7808,7 @@
         "index": {
           "description": "unpacks data type into the equivalent sum of products",
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "out",
           "normalized": "a-\u003eF a a",
@@ -7221,6 +7823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "out'",
           "package": "pointless-haskell",
@@ -7230,6 +7833,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "out'",
           "normalized": "Ann a-\u003ea-\u003eF a a",
@@ -7245,6 +7849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolytypic map function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "pmap",
           "package": "pointless-haskell",
@@ -7254,6 +7859,7 @@
         "index": {
           "description": "Polytypic map function",
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "pmap",
           "normalized": "Ann a-\u003e(b-\u003ec)-\u003eF a b-\u003eF a c",
@@ -7268,6 +7874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "rep",
           "package": "pointless-haskell",
@@ -7277,6 +7884,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "rep",
           "normalized": "a b-\u003eRep a b",
@@ -7291,6 +7899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "showrep",
           "package": "pointless-haskell",
@@ -7300,6 +7909,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "showrep",
           "normalized": "Ann(Fix a)-\u003e(b-\u003eString)-\u003eRep a b-\u003eString",
@@ -7314,6 +7924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "suck",
           "package": "pointless-haskell",
@@ -7323,6 +7934,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "suck",
           "normalized": "Int-\u003eInt",
@@ -7337,6 +7949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "true",
           "package": "pointless-haskell",
@@ -7346,6 +7959,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "true",
           "normalized": "One-\u003eBool",
@@ -7360,6 +7974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "unCompF",
           "package": "pointless-haskell",
@@ -7369,6 +7984,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "unCompF",
           "package": "pointless-haskell",
@@ -7382,6 +7998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "unConsF",
           "package": "pointless-haskell",
@@ -7391,6 +8008,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "unConsF",
           "package": "pointless-haskell",
@@ -7404,6 +8022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "unFixComp",
           "package": "pointless-haskell",
@@ -7413,6 +8032,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "unFixComp",
           "package": "pointless-haskell",
@@ -7426,6 +8046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "unFixConst",
           "package": "pointless-haskell",
@@ -7435,6 +8056,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "unFixConst",
           "package": "pointless-haskell",
@@ -7448,6 +8070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "unFixProd",
           "package": "pointless-haskell",
@@ -7457,6 +8080,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "unFixProd",
           "package": "pointless-haskell",
@@ -7470,6 +8094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "unFixSum",
           "package": "pointless-haskell",
@@ -7479,6 +8104,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "unFixSum",
           "package": "pointless-haskell",
@@ -7492,6 +8118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "unIdF",
           "package": "pointless-haskell",
@@ -7501,6 +8128,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "unIdF",
           "package": "pointless-haskell",
@@ -7514,6 +8142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "unrep",
           "package": "pointless-haskell",
@@ -7523,6 +8152,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "unrep",
           "normalized": "Ann(Fix a)-\u003eAnn b-\u003eRep a b-\u003ea b",
@@ -7537,6 +8167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "val",
           "package": "pointless-haskell",
@@ -7546,6 +8177,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "val",
           "normalized": "a b-\u003eAnn b",
@@ -7560,6 +8192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Functors",
           "name": "zero",
           "package": "pointless-haskell",
@@ -7569,6 +8202,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Functors",
           "name": "zero",
           "normalized": "One-\u003eInt",
@@ -7584,6 +8218,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePointless Haskell:\n point-free programming with recursion patterns as hylomorphisms\n\u003c/p\u003e\u003cp\u003eThis module defines polymorphic data types as fixed points of higher-order functor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "HFunctors",
           "package": "pointless-haskell",
@@ -7593,6 +8228,7 @@
         "index": {
           "description": "Pointless Haskell point-free programming with recursion patterns as hylomorphisms This module defines polymorphic data types as fixed points of higher-order functor",
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "HFunctors",
           "package": "pointless-haskell",
@@ -7607,6 +8243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of natural transformations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": ":~\u003e",
           "package": "pointless-haskell",
@@ -7616,6 +8253,7 @@
         "index": {
           "description": "The type of natural transformations",
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": ":~\u003e",
           "package": "pointless-haskell",
@@ -7629,6 +8267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduct higher-order functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": ":*~:",
           "package": "pointless-haskell",
@@ -7638,6 +8277,7 @@
         "index": {
           "description": "Product higher-order functor",
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": ":*~:",
           "package": "pointless-haskell",
@@ -7651,6 +8291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum higher-order functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": ":+~:",
           "package": "pointless-haskell",
@@ -7660,6 +8301,7 @@
         "index": {
           "description": "Sum higher-order functor",
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": ":+~:",
           "package": "pointless-haskell",
@@ -7673,6 +8315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposition of a regular functor with an higher-order functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": ":@~:",
           "package": "pointless-haskell",
@@ -7682,6 +8325,7 @@
         "index": {
           "description": "Composition of regular functor with an higher-order functor",
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": ":@~:",
           "package": "pointless-haskell",
@@ -7695,6 +8339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotations of higher-order functors, only to provide type-level information to the compiler\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "AnnH",
           "package": "pointless-haskell",
@@ -7704,6 +8349,7 @@
         "index": {
           "description": "Annotations of higher-order functors only to provide type-level information to the compiler",
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "AnnH",
           "package": "pointless-haskell",
@@ -7717,6 +8363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "App",
           "package": "pointless-haskell",
@@ -7725,6 +8372,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "App",
           "package": "pointless-haskell",
@@ -7739,6 +8387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolymorphic monoid class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "FMonoid",
           "package": "pointless-haskell",
@@ -7748,6 +8397,7 @@
         "index": {
           "description": "Polymorphic monoid class",
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "FMonoid",
           "package": "pointless-haskell",
@@ -7761,6 +8411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "H",
           "package": "pointless-haskell",
@@ -7769,6 +8420,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "H",
           "package": "pointless-haskell",
@@ -7782,6 +8434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant higher-order functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "HConst",
           "package": "pointless-haskell",
@@ -7791,6 +8444,7 @@
         "index": {
           "description": "Constant higher-order functor",
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "HConst",
           "package": "pointless-haskell",
@@ -7804,6 +8458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "HF",
           "package": "pointless-haskell",
@@ -7812,6 +8467,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "HF",
           "package": "pointless-haskell",
@@ -7826,6 +8482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fixpoint of an higher-order functor is a regular functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "HFix",
           "package": "pointless-haskell",
@@ -7835,6 +8492,7 @@
         "index": {
           "description": "The fixpoint of an higher-order functor is regular functor",
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "HFix",
           "package": "pointless-haskell",
@@ -7848,6 +8506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "HFoldable",
           "package": "pointless-haskell",
@@ -7856,6 +8515,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "HFoldable",
           "package": "pointless-haskell",
@@ -7869,6 +8529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "HFun",
           "package": "pointless-haskell",
@@ -7877,6 +8538,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "HFun",
           "package": "pointless-haskell",
@@ -7891,6 +8553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity higher-order functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "HId",
           "package": "pointless-haskell",
@@ -7900,6 +8563,7 @@
         "index": {
           "description": "Identity higher-order functor",
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "HId",
           "package": "pointless-haskell",
@@ -7914,6 +8578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameter higher-order functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "HParam",
           "package": "pointless-haskell",
@@ -7923,6 +8588,7 @@
         "index": {
           "description": "Parameter higher-order functor",
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "HParam",
           "package": "pointless-haskell",
@@ -7936,6 +8602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "HRep",
           "package": "pointless-haskell",
@@ -7944,6 +8611,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "HRep",
           "package": "pointless-haskell",
@@ -7957,6 +8625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "Hu",
           "package": "pointless-haskell",
@@ -7965,6 +8634,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "Hu",
           "package": "pointless-haskell",
@@ -7978,6 +8648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "CompH",
           "package": "pointless-haskell",
@@ -7987,6 +8658,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "CompH",
           "package": "pointless-haskell",
@@ -8000,6 +8672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "ConsH",
           "package": "pointless-haskell",
@@ -8009,6 +8682,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "ConsH",
           "package": "pointless-haskell",
@@ -8022,6 +8696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "HFun",
           "package": "pointless-haskell",
@@ -8031,6 +8706,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "HFun",
           "package": "pointless-haskell",
@@ -8044,6 +8720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "HInn",
           "package": "pointless-haskell",
@@ -8053,6 +8730,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "HInn",
           "package": "pointless-haskell",
@@ -8066,6 +8744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "HPar",
           "package": "pointless-haskell",
@@ -8075,6 +8754,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "HPar",
           "package": "pointless-haskell",
@@ -8088,6 +8768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "IdH",
           "package": "pointless-haskell",
@@ -8097,6 +8778,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "IdH",
           "package": "pointless-haskell",
@@ -8110,6 +8792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "InlH",
           "package": "pointless-haskell",
@@ -8119,6 +8802,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "InlH",
           "package": "pointless-haskell",
@@ -8132,6 +8816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "InrH",
           "package": "pointless-haskell",
@@ -8141,6 +8826,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "InrH",
           "package": "pointless-haskell",
@@ -8154,6 +8840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "ProdH",
           "package": "pointless-haskell",
@@ -8163,6 +8850,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "ProdH",
           "package": "pointless-haskell",
@@ -8176,6 +8864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "fplus",
           "package": "pointless-haskell",
@@ -8185,6 +8874,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "fplus",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -8199,6 +8889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "fzero",
           "package": "pointless-haskell",
@@ -8208,6 +8899,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "fzero",
           "package": "pointless-haskell",
@@ -8220,6 +8912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "hOut",
           "package": "pointless-haskell",
@@ -8229,6 +8922,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "hOut",
           "package": "pointless-haskell",
@@ -8242,6 +8936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "hinn",
           "package": "pointless-haskell",
@@ -8251,6 +8946,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "hinn",
           "normalized": "H a a b-\u003ea b",
@@ -8265,6 +8961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "hout",
           "package": "pointless-haskell",
@@ -8274,6 +8971,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "hout",
           "normalized": "a b-\u003eH a a b",
@@ -8288,6 +8986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "reduce",
           "package": "pointless-haskell",
@@ -8297,6 +8996,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "reduce",
           "normalized": "AnnH a-\u003eHRep a b b",
@@ -8311,6 +9011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "reduce'",
           "package": "pointless-haskell",
@@ -8320,6 +9021,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "reduce'",
           "normalized": "AnnH a-\u003eAnn(Fix b)-\u003eHRep a b b",
@@ -8334,6 +9036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "unCompH",
           "package": "pointless-haskell",
@@ -8343,6 +9046,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "unCompH",
           "package": "pointless-haskell",
@@ -8356,6 +9060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "unConsH",
           "package": "pointless-haskell",
@@ -8365,6 +9070,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "unConsH",
           "package": "pointless-haskell",
@@ -8378,6 +9084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "unFunH",
           "package": "pointless-haskell",
@@ -8387,6 +9094,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "unFunH",
           "package": "pointless-haskell",
@@ -8400,6 +9108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "unIdH",
           "package": "pointless-haskell",
@@ -8409,6 +9118,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "unIdH",
           "package": "pointless-haskell",
@@ -8422,6 +9132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.HFunctors",
           "name": "unParH",
           "package": "pointless-haskell",
@@ -8431,6 +9142,7 @@
         },
         "index": {
           "hierarchy": "Generics Pointless HFunctors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.HFunctors",
           "name": "unParH",
           "package": "pointless-haskell",
@@ -8445,6 +9157,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePointless Haskell:\n point-free programming with recursion patterns as hylomorphisms\n\u003c/p\u003e\u003cp\u003eThis module lifts many standard combinators used for point-free programming to combinators over monads.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.MonadCombinators",
           "name": "MonadCombinators",
           "package": "pointless-haskell",
@@ -8454,6 +9167,7 @@
         "index": {
           "description": "Pointless Haskell point-free programming with recursion patterns as hylomorphisms This module lifts many standard combinators used for point-free programming to combinators over monads",
           "hierarchy": "Generics Pointless MonadCombinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.MonadCombinators",
           "name": "MonadCombinators",
           "package": "pointless-haskell",
@@ -8468,6 +9182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe monadic sum combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.MonadCombinators",
           "name": "(-||-)",
           "package": "pointless-haskell",
@@ -8478,6 +9193,7 @@
         "index": {
           "description": "The monadic sum combinator",
           "hierarchy": "Generics Pointless MonadCombinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.MonadCombinators",
           "name": "(-||-) -||-",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003eEither a d-\u003eb(Either c e)",
@@ -8493,6 +9209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe monadic split combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.MonadCombinators",
           "name": "(/|\\)",
           "package": "pointless-haskell",
@@ -8503,6 +9220,7 @@
         "index": {
           "description": "The monadic split combinator",
           "hierarchy": "Generics Pointless MonadCombinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.MonadCombinators",
           "name": "(/|\\) /|\\",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003eb d)-\u003ea-\u003eb(c,d)",
@@ -8518,6 +9236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe left-to-right monadic binding combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.MonadCombinators",
           "name": "(\u003c\u003c=)",
           "package": "pointless-haskell",
@@ -8528,6 +9247,7 @@
         "index": {
           "description": "The left-to-right monadic binding combinator",
           "hierarchy": "Generics Pointless MonadCombinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.MonadCombinators",
           "name": "(\u003c\u003c=) \u003c\u003c=",
           "normalized": "(a-\u003eb c)-\u003eb a-\u003eb c",
@@ -8543,6 +9263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe monadic product combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.MonadCombinators",
           "name": "(\u003e|\u003c)",
           "package": "pointless-haskell",
@@ -8553,6 +9274,7 @@
         "index": {
           "description": "The monadic product combinator",
           "hierarchy": "Generics Pointless MonadCombinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.MonadCombinators",
           "name": "(\u003e|\u003c) \u003e|\u003c",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb e)-\u003e(a,d)-\u003eb(c,e)",
@@ -8568,6 +9290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHigher-order monadic binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.MonadCombinators",
           "name": "bind",
           "package": "pointless-haskell",
@@ -8578,6 +9301,7 @@
         "index": {
           "description": "Higher-order monadic binding",
           "hierarchy": "Generics Pointless MonadCombinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.MonadCombinators",
           "name": "bind",
           "normalized": "(a-\u003eb c,b a)-\u003eb c",
@@ -8593,6 +9317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe monadic fusion combinator.\n Performs left-to-right distribution of a strong monad over a product.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.MonadCombinators",
           "name": "mfuse",
           "package": "pointless-haskell",
@@ -8603,6 +9328,7 @@
         "index": {
           "description": "The monadic fusion combinator Performs left-to-right distribution of strong monad over product",
           "hierarchy": "Generics Pointless MonadCombinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.MonadCombinators",
           "name": "mfuse",
           "normalized": "(a b,a c)-\u003ea(b,c)",
@@ -8618,6 +9344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe monadic left exponentiation combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.MonadCombinators",
           "name": "mlexp",
           "package": "pointless-haskell",
@@ -8628,6 +9355,7 @@
         "index": {
           "description": "The monadic left exponentiation combinator",
           "hierarchy": "Generics Pointless MonadCombinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.MonadCombinators",
           "name": "mlexp",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003eb d)-\u003ea-\u003eb d",
@@ -8643,6 +9371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe monadic right exponentiation combinator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.MonadCombinators",
           "name": "mrexp",
           "package": "pointless-haskell",
@@ -8653,6 +9382,7 @@
         "index": {
           "description": "The monadic right exponentiation combinator",
           "hierarchy": "Generics Pointless MonadCombinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.MonadCombinators",
           "name": "mrexp",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb a)-\u003ed-\u003eb c",
@@ -8668,6 +9398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe strength combinator for strong monads.\n In Haskell, every monad is a strong monad: \u003ca\u003ehttp://comonad.com/reader/2008/deriving-strength-from-laziness/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.MonadCombinators",
           "name": "mstrength",
           "package": "pointless-haskell",
@@ -8678,6 +9409,7 @@
         "index": {
           "description": "The strength combinator for strong monads In Haskell every monad is strong monad http comonad.com reader deriving-strength-from-laziness",
           "hierarchy": "Generics Pointless MonadCombinators",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.MonadCombinators",
           "name": "mstrength",
           "normalized": "(a,b c)-\u003eb(a,c)",
@@ -8693,6 +9425,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePointless Haskell:\n point-free programming with recursion patterns as hylomorphisms\n\u003c/p\u003e\u003cp\u003eThis module defines generic GHood observations for user-defined data types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Observe.Functors",
           "name": "Functors",
           "package": "pointless-haskell",
@@ -8702,6 +9435,7 @@
         "index": {
           "description": "Pointless Haskell point-free programming with recursion patterns as hylomorphisms This module defines generic GHood observations for user-defined data types",
           "hierarchy": "Generics Pointless Observe Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Observe.Functors",
           "name": "Functors",
           "package": "pointless-haskell",
@@ -8716,6 +9450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for mapping observations over functor representations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Observe.Functors",
           "name": "FunctorO",
           "package": "pointless-haskell",
@@ -8725,6 +9460,7 @@
         "index": {
           "description": "Class for mapping observations over functor representations",
           "hierarchy": "Generics Pointless Observe Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Observe.Functors",
           "name": "FunctorO",
           "package": "pointless-haskell",
@@ -8739,6 +9475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps an observation over a functor representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Observe.Functors",
           "name": "fmapO",
           "package": "pointless-haskell",
@@ -8749,6 +9486,7 @@
         "index": {
           "description": "Maps an observation over functor representation",
           "hierarchy": "Generics Pointless Observe Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Observe.Functors",
           "name": "fmapO",
           "normalized": "Ann(Fix a)-\u003e(b-\u003eObserverM c)-\u003eRep a b-\u003eObserverM(Rep a c)",
@@ -8764,6 +9502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerives a type representation for a functor. This is used for showing the functor for reursion trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Observe.Functors",
           "name": "functorOf",
           "package": "pointless-haskell",
@@ -8774,6 +9513,7 @@
         "index": {
           "description": "Derives type representation for functor This is used for showing the functor for reursion trees",
           "hierarchy": "Generics Pointless Observe Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Observe.Functors",
           "name": "functorOf",
           "normalized": "Ann(Fix a)-\u003eString",
@@ -8790,6 +9530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolytypic mapping of observations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Observe.Functors",
           "name": "omap",
           "package": "pointless-haskell",
@@ -8800,6 +9541,7 @@
         "index": {
           "description": "Polytypic mapping of observations",
           "hierarchy": "Generics Pointless Observe Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Observe.Functors",
           "name": "omap",
           "normalized": "Ann a-\u003e(b-\u003eObserverM c)-\u003eF a b-\u003eObserverM(F a c)",
@@ -8815,6 +9557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWatch values of a functor. Since the fixpoint of a functor recurses over himself, we cannot use the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance for functor values applied to their fixpoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Observe.Functors",
           "name": "watch",
           "package": "pointless-haskell",
@@ -8825,6 +9568,7 @@
         "index": {
           "description": "Watch values of functor Since the fixpoint of functor recurses over himself we cannot use the Show instance for functor values applied to their fixpoint",
           "hierarchy": "Generics Pointless Observe Functors",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Observe.Functors",
           "name": "watch",
           "normalized": "Ann(Fix a)-\u003eAnn b-\u003eRep a b-\u003eString",
@@ -8840,6 +9584,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePointless Haskell:\n point-free programming with recursion patterns as hylomorphisms\n\u003c/p\u003e\u003cp\u003eThis module redefines recursion patterns with support for GHood observation of intermediate data structures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "RecursionPatterns",
           "package": "pointless-haskell",
@@ -8849,6 +9594,7 @@
         "index": {
           "description": "Pointless Haskell point-free programming with recursion patterns as hylomorphisms This module redefines recursion patterns with support for GHood observation of intermediate data structures",
           "hierarchy": "Generics Pointless Observe RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "RecursionPatterns",
           "package": "pointless-haskell",
@@ -8863,6 +9609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedefinition of accumulations as observable hylomorphisms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "accumO",
           "package": "pointless-haskell",
@@ -8873,6 +9620,7 @@
         "index": {
           "description": "Redefinition of accumulations as observable hylomorphisms",
           "hierarchy": "Generics Pointless Observe RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "accumO",
           "normalized": "Ann a-\u003e((F b b,c)-\u003eF a(b,c))-\u003e(F(Accum a c)d-\u003ed)-\u003e(b,c)-\u003ed",
@@ -8888,6 +9636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedefinition of anamorphisms as observable hylomorphisms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "anaO",
           "package": "pointless-haskell",
@@ -8898,6 +9647,7 @@
         "index": {
           "description": "Redefinition of anamorphisms as observable hylomorphisms",
           "hierarchy": "Generics Pointless Observe RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "anaO",
           "normalized": "Ann a-\u003e(b-\u003eF a b)-\u003eb-\u003ea",
@@ -8913,6 +9663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedefinition of apomorphisms as observable hylomorphisms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "apoO",
           "package": "pointless-haskell",
@@ -8923,6 +9674,7 @@
         "index": {
           "description": "Redefinition of apomorphisms as observable hylomorphisms",
           "hierarchy": "Generics Pointless Observe RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "apoO",
           "normalized": "Ann a-\u003e(b-\u003eF a(Either b a))-\u003eb-\u003ea",
@@ -8938,6 +9690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedefinition of catamorphisms as observable hylomorphisms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "cataO",
           "package": "pointless-haskell",
@@ -8948,6 +9701,7 @@
         "index": {
           "description": "Redefinition of catamorphisms as observable hylomorphisms",
           "hierarchy": "Generics Pointless Observe RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "cataO",
           "normalized": "Ann a-\u003e(F a b-\u003eb)-\u003ea-\u003eb",
@@ -8963,6 +9717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedefinition of chronomorphisms as observable hylomorphisms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "chronoO",
           "package": "pointless-haskell",
@@ -8973,6 +9728,7 @@
         "index": {
           "description": "Redefinition of chronomorphisms as observable hylomorphisms",
           "hierarchy": "Generics Pointless Observe RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "chronoO",
           "normalized": "Ann a-\u003e(F a(Histo a b)-\u003eb)-\u003e(c-\u003eF a(Futu a c))-\u003ec-\u003eb",
@@ -8988,6 +9744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedefinition of dynamorphisms as observable hylomorphisms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "dynaO",
           "package": "pointless-haskell",
@@ -8998,6 +9755,7 @@
         "index": {
           "description": "Redefinition of dynamorphisms as observable hylomorphisms",
           "hierarchy": "Generics Pointless Observe RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "dynaO",
           "normalized": "Ann a-\u003e(F a(Histo a b)-\u003eb)-\u003e(c-\u003eF a c)-\u003ec-\u003eb",
@@ -9013,6 +9771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedefinition of futumorphisms as observable hylomorphisms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "futuO",
           "package": "pointless-haskell",
@@ -9023,6 +9782,7 @@
         "index": {
           "description": "Redefinition of futumorphisms as observable hylomorphisms",
           "hierarchy": "Generics Pointless Observe RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "futuO",
           "normalized": "Ann a-\u003e(b-\u003eF a(Futu a b))-\u003eb-\u003ea",
@@ -9038,6 +9798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedefinition of histomorphisms as observable hylomorphisms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "histoO",
           "package": "pointless-haskell",
@@ -9048,6 +9809,7 @@
         "index": {
           "description": "Redefinition of histomorphisms as observable hylomorphisms",
           "hierarchy": "Generics Pointless Observe RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "histoO",
           "normalized": "Ann a-\u003e(F a(Histo a b)-\u003eb)-\u003ea-\u003eb",
@@ -9063,6 +9825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedefinition of hylomorphisms with observation of the intermediate data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "hyloO",
           "package": "pointless-haskell",
@@ -9073,6 +9836,7 @@
         "index": {
           "description": "Redefinition of hylomorphisms with observation of the intermediate data type",
           "hierarchy": "Generics Pointless Observe RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "hyloO",
           "normalized": "Ann a-\u003e(F a b-\u003eb)-\u003e(c-\u003eF a c)-\u003ec-\u003eb",
@@ -9088,6 +9852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedefinition of paramorphisms as observable hylomorphisms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "paraO",
           "package": "pointless-haskell",
@@ -9098,6 +9863,7 @@
         "index": {
           "description": "Redefinition of paramorphisms as observable hylomorphisms",
           "hierarchy": "Generics Pointless Observe RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "paraO",
           "normalized": "Ann a-\u003e(F a(b,a)-\u003eb)-\u003ea-\u003eb",
@@ -9113,6 +9879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedefinition of zygomorphisms as observable hylomorphisms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "zygoO",
           "package": "pointless-haskell",
@@ -9123,6 +9890,7 @@
         "index": {
           "description": "Redefinition of zygomorphisms as observable hylomorphisms",
           "hierarchy": "Generics Pointless Observe RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.Observe.RecursionPatterns",
           "name": "zygoO",
           "normalized": "Ann a-\u003e(F a b-\u003eb)-\u003e(F(Zygo a b)b-\u003eb)-\u003ea-\u003eb",
@@ -9138,6 +9906,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePointless Haskell:\n point-free programming with recursion patterns as hylomorphisms\n\u003c/p\u003e\u003cp\u003eThis module defines recursion patterns as hylomorphisms.\n\u003c/p\u003e\u003cp\u003eRecursion patterns can be seen as high-order functions that encapsulate typical forms of recursion.\n The hylomorphism recursion pattern was first defined in \u003ca\u003ehttp://research.microsoft.com/~emeijer/Papers/CWIReport.pdf\u003c/a\u003e,\n along with its relation with derived more specific recursion patterns such as catamorphisms, anamorphisms and paramorphisms.\n\u003c/p\u003e\u003cp\u003eThe seminal paper that introduced point-free programming and defined many of the laws for catamorphisms and anamorphisms\n can be found in \u003ca\u003ehttp://eprints.eemcs.utwente.nl/7281/01/db-utwente-40501F46.pdf\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eMore complex and exotic recursion patterns have been discovered later, such as accumulations, apomorphisms, zygomorphisms,\n histomorphisms, futumorphisms, dynamorphisms or chronomorphisms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "RecursionPatterns",
           "package": "pointless-haskell",
@@ -9147,6 +9916,7 @@
         "index": {
           "description": "Pointless Haskell point-free programming with recursion patterns as hylomorphisms This module defines recursion patterns as hylomorphisms Recursion patterns can be seen as high-order functions that encapsulate typical forms of recursion The hylomorphism recursion pattern was first defined in http research.microsoft.com emeijer Papers CWIReport.pdf along with its relation with derived more specific recursion patterns such as catamorphisms anamorphisms and paramorphisms The seminal paper that introduced point-free programming and defined many of the laws for catamorphisms and anamorphisms can be found in http eprints.eemcs.utwente.nl db-utwente-40501F46.pdf More complex and exotic recursion patterns have been discovered later such as accumulations apomorphisms zygomorphisms histomorphisms futumorphisms dynamorphisms or chronomorphisms",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "RecursionPatterns",
           "package": "pointless-haskell",
@@ -9161,6 +9931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn accumulations we add an extra annotation \u003ccode\u003eb\u003c/code\u003e to the base functor of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "Accum",
           "package": "pointless-haskell",
@@ -9170,6 +9941,7 @@
         "index": {
           "description": "In accumulations we add an extra annotation to the base functor of type",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "Accum",
           "package": "pointless-haskell",
@@ -9184,6 +9956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe functor of the intermediate type of an apomorphism is the functor of the generated type \u003ccode\u003eb\u003c/code\u003e\n with an alternative annotation to itself in recursive definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "Apo",
           "package": "pointless-haskell",
@@ -9193,6 +9966,7 @@
         "index": {
           "description": "The functor of the intermediate type of an apomorphism is the functor of the generated type with an alternative annotation to itself in recursive definitions",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "Apo",
           "package": "pointless-haskell",
@@ -9207,6 +9981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn futumorphisms we add an alternative annotation \u003ccode\u003ec\u003c/code\u003e to the base functor of type \u003ccode\u003eb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "Futu",
           "package": "pointless-haskell",
@@ -9216,6 +9991,7 @@
         "index": {
           "description": "In futumorphisms we add an alternative annotation to the base functor of type",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "Futu",
           "package": "pointless-haskell",
@@ -9230,6 +10006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn histomorphisms we add an extra annotation \u003ccode\u003ec\u003c/code\u003e to the base functor of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "Histo",
           "package": "pointless-haskell",
@@ -9239,6 +10016,7 @@
         "index": {
           "description": "In histomorphisms we add an extra annotation to the base functor of type",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "Histo",
           "package": "pointless-haskell",
@@ -9253,6 +10031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe functor of the intermediate type of a paramorphism is the functor of the consumed type \u003ccode\u003ea\u003c/code\u003e\n extended with an extra annotation to itself in recursive definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "Para",
           "package": "pointless-haskell",
@@ -9262,6 +10041,7 @@
         "index": {
           "description": "The functor of the intermediate type of paramorphism is the functor of the consumed type extended with an extra annotation to itself in recursive definitions",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "Para",
           "package": "pointless-haskell",
@@ -9276,6 +10056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn zygomorphisms we extend the recursive occurences in the base functor functor of type \u003ccode\u003ea\u003c/code\u003e with an extra annotation \u003ccode\u003eb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "Zygo",
           "package": "pointless-haskell",
@@ -9285,6 +10066,7 @@
         "index": {
           "description": "In zygomorphisms we extend the recursive occurences in the base functor functor of type with an extra annotation",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "Zygo",
           "package": "pointless-haskell",
@@ -9299,6 +10081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of an accumulation as an hylomorphism.\n\u003c/p\u003e\u003cp\u003eAccumulations \u003ca\u003ehttp://www.fing.edu.uy/~pardo/papers/wcgp02.ps.gz\u003c/a\u003e are binary functions that use the second parameter to store intermediate results.\n\u003c/p\u003e\u003cp\u003eThe so called \u003ca\u003eaccumulation technique\u003c/a\u003e is tipically used in functional programming to derive efficient implementations of some recursive functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "accum",
           "package": "pointless-haskell",
@@ -9309,6 +10092,7 @@
         "index": {
           "description": "Definition of an accumulation as an hylomorphism Accumulations http www.fing.edu.uy pardo papers wcgp02.ps.gz are binary functions that use the second parameter to store intermediate results The so called accumulation technique is tipically used in functional programming to derive efficient implementations of some recursive functions",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "accum",
           "normalized": "Ann a-\u003e(F(Accum a b)c-\u003ec)-\u003e((F a a,b)-\u003eF a(a,b))-\u003e(a,b)-\u003ec",
@@ -9324,6 +10108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of an anamorphism as an hylomorphism.\n\u003c/p\u003e\u003cp\u003eAnamorphisms resembles the dual of iteration and, hence, dene the inverse of catamorphisms.\n Instead of consuming recursive types, they produce values of those types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "ana",
           "package": "pointless-haskell",
@@ -9334,6 +10119,7 @@
         "index": {
           "description": "Definition of an anamorphism as an hylomorphism Anamorphisms resembles the dual of iteration and hence dene the inverse of catamorphisms Instead of consuming recursive types they produce values of those types",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "ana",
           "normalized": "Ann a-\u003e(b-\u003eF a b)-\u003eb-\u003ea",
@@ -9349,6 +10135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursive definition of an anamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "anaRec",
           "package": "pointless-haskell",
@@ -9359,6 +10146,7 @@
         "index": {
           "description": "Recursive definition of an anamorphism",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "anaRec",
           "normalized": "Ann a-\u003e(b-\u003eF a b)-\u003eb-\u003ea",
@@ -9375,6 +10163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of an apomorphism as an hylomorphism.\n\u003c/p\u003e\u003cp\u003eApomorphisms are the dual recursion patterns of paramorphisms, and therefore they can express functions defined by primitive corecursion.\n\u003c/p\u003e\u003cp\u003eThey were introduced independently in \u003ca\u003ehttp://www.cs.ut.ee/~varmo/papers/nwpt97.ps.gz\u003c/a\u003e and \u003cem\u003eProgram Construction and Generation Based on Recursive Types, MSc thesis\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "apo",
           "package": "pointless-haskell",
@@ -9385,6 +10174,7 @@
         "index": {
           "description": "Definition of an apomorphism as an hylomorphism Apomorphisms are the dual recursion patterns of paramorphisms and therefore they can express functions defined by primitive corecursion They were introduced independently in http www.cs.ut.ee varmo papers nwpt97.ps.gz and Program Construction and Generation Based on Recursive Types MSc thesis",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "apo",
           "normalized": "Ann a-\u003e(b-\u003eF a(Either b a))-\u003eb-\u003ea",
@@ -9400,6 +10190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursive definition of an apomorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "apoRec",
           "package": "pointless-haskell",
@@ -9410,6 +10201,7 @@
         "index": {
           "description": "Recursive definition of an apomorphism",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "apoRec",
           "normalized": "Ann a-\u003e(b-\u003eF a(Either b a))-\u003eb-\u003ea",
@@ -9426,6 +10218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of a catamorphism as an hylomorphism.\n\u003c/p\u003e\u003cp\u003eCatamorphisms model the fundamental pattern of iteration, where constructors for recursive datatypes are repeatedly consumed by arbitrary functions.\n They are usually called folds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "cata",
           "package": "pointless-haskell",
@@ -9436,6 +10229,7 @@
         "index": {
           "description": "Definition of catamorphism as an hylomorphism Catamorphisms model the fundamental pattern of iteration where constructors for recursive datatypes are repeatedly consumed by arbitrary functions They are usually called folds",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "cata",
           "normalized": "Ann a-\u003e(F a b-\u003eb)-\u003ea-\u003eb",
@@ -9451,6 +10245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursive definition of a catamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "cataRec",
           "package": "pointless-haskell",
@@ -9461,6 +10256,7 @@
         "index": {
           "description": "Recursive definition of catamorphism",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "cataRec",
           "normalized": "Ann a-\u003e(F a b-\u003eb)-\u003ea-\u003eb",
@@ -9477,6 +10273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of a chronomorphism as an hylomorphism.\n\u003c/p\u003e\u003cp\u003eThis recursion pattern subsumes histomorphisms, futumorphisms and dynamorphisms\n and can be seen as the natural hylomorphism generalization from composing an histomorphism after a futumorphism.\n Therefore, chronomorphisms can 'look back' when consuming a type and 'jump forward' when generating one, via it's fold/unfold operations, respectively.\n\u003c/p\u003e\u003cp\u003eThe notion of chronomorphism is a recent recursion pattern (at least known as such).\n The first and single reference available is \u003ca\u003ehttp://comonad.com/reader/2008/time-for-chronomorphisms/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "chrono",
           "package": "pointless-haskell",
@@ -9487,6 +10284,7 @@
         "index": {
           "description": "Definition of chronomorphism as an hylomorphism This recursion pattern subsumes histomorphisms futumorphisms and dynamorphisms and can be seen as the natural hylomorphism generalization from composing an histomorphism after futumorphism Therefore chronomorphisms can look back when consuming type and jump forward when generating one via it fold unfold operations respectively The notion of chronomorphism is recent recursion pattern at least known as such The first and single reference available is http comonad.com reader time-for-chronomorphisms",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "chrono",
           "normalized": "Ann a-\u003e(F a(Histo a b)-\u003eb)-\u003e(c-\u003eF a(Futu a c))-\u003ec-\u003eb",
@@ -9502,6 +10300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of a dynamorphism as an hylomorphisms.\n\u003c/p\u003e\u003cp\u003eDynamorphisms (\u003ca\u003ehttp://math.ut.ee/~eugene/kabanov-vene-mpc-06.pdf\u003c/a\u003e) are a more general form of histomorphisms for capturing dynaming programming constructions.\n\u003c/p\u003e\u003cp\u003eInstead of following the recursion pattern of the input via structural recursion (as in histomorphisms),\n dynamorphisms allow us to reuse the annotated structure in a bottom-up approach and avoiding rebuilding\n it every time an annotation is needed, what provides a more efficient dynamic algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "dyna",
           "package": "pointless-haskell",
@@ -9512,6 +10311,7 @@
         "index": {
           "description": "Definition of dynamorphism as an hylomorphisms Dynamorphisms http math.ut.ee eugene kabanov-vene-mpc-06.pdf are more general form of histomorphisms for capturing dynaming programming constructions Instead of following the recursion pattern of the input via structural recursion as in histomorphisms dynamorphisms allow us to reuse the annotated structure in bottom-up approach and avoiding rebuilding it every time an annotation is needed what provides more efficient dynamic algorithm",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "dyna",
           "normalized": "Ann a-\u003e(F a(Histo a b)-\u003eb)-\u003e(c-\u003eF a c)-\u003ec-\u003eb",
@@ -9527,6 +10327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Fixpoint combinator as an hylomorphism.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003efix\u003c/a\u003e\u003c/code\u003e is a fixpoint combinator if \u003ccode\u003e\u003ccode\u003e\u003ca\u003efix\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eapp\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e/\\\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003efix\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eAfter expanding the denitions of \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e/\\\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eapp\u003c/a\u003e\u003c/code\u003e we see that this corresponds to the expected pointwise equation \u003ccode\u003e\u003ccode\u003e\u003ca\u003efix\u003c/a\u003e\u003c/code\u003e f = f (\u003ccode\u003e\u003ca\u003efix\u003c/a\u003e\u003c/code\u003e f)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "fix",
           "package": "pointless-haskell",
@@ -9537,6 +10338,7 @@
         "index": {
           "description": "The Fixpoint combinator as an hylomorphism fix is fixpoint combinator if fix app id fix After expanding the denitions of and app we see that this corresponds to the expected pointwise equation fix fix",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "fix",
           "normalized": "(a-\u003ea)-\u003ea",
@@ -9552,6 +10354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of a futumorphism as an hylomorphism (as long as the anamorphism is defined as an hylomorphism).\n\u003c/p\u003e\u003cp\u003eFutumorphisms are the dual of histomorphisms and are proposed as 'cocourse-of-argument' coiterators by their creators (\u003ca\u003ehttp://cs.ioc.ee/~tarmo/papers/inf.ps.gz\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eIn the same fashion as histomorphisms, it allows to seed the gene with multiple levels of depth instead of having to do 'all at once' with an anamorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "futu",
           "package": "pointless-haskell",
@@ -9562,6 +10365,7 @@
         "index": {
           "description": "Definition of futumorphism as an hylomorphism as long as the anamorphism is defined as an hylomorphism Futumorphisms are the dual of histomorphisms and are proposed as cocourse-of-argument coiterators by their creators http cs.ioc.ee tarmo papers inf.ps.gz In the same fashion as histomorphisms it allows to seed the gene with multiple levels of depth instead of having to do all at once with an anamorphism",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "futu",
           "normalized": "Ann a-\u003e(b-\u003eF a(Futu a b))-\u003eb-\u003ea",
@@ -9577,6 +10381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of an histomorphism as an hylomorphism (as long as the catamorphism is defined as an hylomorphism).\n\u003c/p\u003e\u003cp\u003eHistomorphisms (\u003ca\u003ehttp://cs.ioc.ee/~tarmo/papers/inf.ps.gz\u003c/a\u003e) capture the powerfull schemes of course-of-value iteration, and differ from catamorphisms for being able to apply the gene function at a deeper depth of recursion.\n In other words, they allow to reuse sub-sub constructor results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "histo",
           "package": "pointless-haskell",
@@ -9587,6 +10392,7 @@
         "index": {
           "description": "Definition of an histomorphism as an hylomorphism as long as the catamorphism is defined as an hylomorphism Histomorphisms http cs.ioc.ee tarmo papers inf.ps.gz capture the powerfull schemes of course-of-value iteration and differ from catamorphisms for being able to apply the gene function at deeper depth of recursion In other words they allow to reuse sub-sub constructor results",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "histo",
           "normalized": "Ann a-\u003e(F a(Histo a b)-\u003eb)-\u003ea-\u003eb",
@@ -9602,6 +10408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of an hylomorphism\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "hylo",
           "package": "pointless-haskell",
@@ -9612,6 +10419,7 @@
         "index": {
           "description": "Definition of an hylomorphism",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "hylo",
           "normalized": "Ann a-\u003e(F a b-\u003eb)-\u003e(c-\u003eF a c)-\u003ec-\u003eb",
@@ -9627,6 +10435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe combinator \u003ccode\u003e\u003ca\u003einnl\u003c/a\u003e\u003c/code\u003e packs the functor of a futumorphism from the base functor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "innl",
           "package": "pointless-haskell",
@@ -9637,6 +10446,7 @@
         "index": {
           "description": "The combinator innl packs the functor of futumorphism from the base functor",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "innl",
           "normalized": "a-\u003eFutu b a",
@@ -9652,6 +10462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe combinator \u003ccode\u003e\u003ca\u003einnr\u003c/a\u003e\u003c/code\u003e packs the functor of an futumorphism from an annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "innr",
           "package": "pointless-haskell",
@@ -9662,6 +10473,7 @@
         "index": {
           "description": "The combinator innr packs the functor of an futumorphism from an annotation",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "innr",
           "normalized": "F a(Futu a b)-\u003eFutu a b",
@@ -9677,6 +10489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe combinator \u003ccode\u003e\u003ca\u003eoutl\u003c/a\u003e\u003c/code\u003e unpacks the functor of an histomorphism and selects the annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "outl",
           "package": "pointless-haskell",
@@ -9687,6 +10500,7 @@
         "index": {
           "description": "The combinator outl unpacks the functor of an histomorphism and selects the annotation",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "outl",
           "normalized": "Histo a b-\u003eb",
@@ -9702,6 +10516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe combinator \u003ccode\u003e\u003ca\u003eoutr\u003c/a\u003e\u003c/code\u003e unpacks the functor of an histomorphism and discards the annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "outr",
           "package": "pointless-haskell",
@@ -9712,6 +10527,7 @@
         "index": {
           "description": "The combinator outr unpacks the functor of an histomorphism and discards the annotation",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "outr",
           "normalized": "Histo a b-\u003eF a(Histo a b)",
@@ -9727,6 +10543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of a paramorphism.\n\u003c/p\u003e\u003cp\u003eParamorphisms supply the gene of a catamorphism with a recursively computed copy of the input.\n\u003c/p\u003e\u003cp\u003eThe first introduction to paramorphisms is reported in \u003ca\u003ehttp://www.cs.uu.nl/research/techreps/repo/CS-1990/1990-04.pdf\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "para",
           "package": "pointless-haskell",
@@ -9737,6 +10554,7 @@
         "index": {
           "description": "Definition of paramorphism Paramorphisms supply the gene of catamorphism with recursively computed copy of the input The first introduction to paramorphisms is reported in http www.cs.uu.nl research techreps repo CS-1990 pdf",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "para",
           "normalized": "Ann a-\u003e(F a(b,a)-\u003eb)-\u003ea-\u003eb",
@@ -9752,6 +10570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursive definition of a paramorphism.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "paraRec",
           "package": "pointless-haskell",
@@ -9762,6 +10581,7 @@
         "index": {
           "description": "Recursive definition of paramorphism",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "paraRec",
           "normalized": "Ann a-\u003e(F a(b,a)-\u003eb)-\u003ea-\u003eb",
@@ -9778,6 +10598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition of a zygomorphism as an hylomorphism.\n\u003c/p\u003e\u003cp\u003eZygomorphisms were introduced in \u003ca\u003ehttp://dissertations.ub.rug.nl/faculties/science/1990/g.r.malcolm/\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThey can be seen as the asymmetric form of mutual iteration, where both a data consumer and an auxiliary function are defined (\u003ca\u003ehttp://www.fing.edu.uy/~pardo/papers/njc01.ps.gz\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:45 UTC 2014",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "zygo",
           "package": "pointless-haskell",
@@ -9788,6 +10609,7 @@
         "index": {
           "description": "Definition of zygomorphism as an hylomorphism Zygomorphisms were introduced in http dissertations.ub.rug.nl faculties science g.r.malcolm They can be seen as the asymmetric form of mutual iteration where both data consumer and an auxiliary function are defined http www.fing.edu.uy pardo papers njc01.ps.gz",
           "hierarchy": "Generics Pointless RecursionPatterns",
+          "indexed": "2014-03-11T19:40:45",
           "module": "Generics.Pointless.RecursionPatterns",
           "name": "zygo",
           "normalized": "Ann a-\u003e(F a b-\u003eb)-\u003e(F(Zygo a b)b-\u003eb)-\u003ea-\u003eb",

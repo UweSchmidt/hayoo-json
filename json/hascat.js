@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hascat"
+        "phrase": "hascat",
+        "type": "phrase"
       },
       "type": "context"
     }

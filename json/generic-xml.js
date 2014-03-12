@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "generic-xml"
+        "phrase": "generic-xml",
+        "type": "phrase"
       },
       "type": "context"
     }

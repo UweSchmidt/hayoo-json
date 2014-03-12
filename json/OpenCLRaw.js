@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "OpenCLRaw"
+        "phrase": "OpenCLRaw",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCorresponds to section 5.1, Command Queues of the OpenCL 1.0 specifications.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.CommandQueue",
           "name": "CommandQueue",
           "package": "OpenCLRaw",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Corresponds to section Command Queues of the OpenCL specifications",
           "hierarchy": "System OpenCL Raw V10 CommandQueue",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.CommandQueue",
           "name": "CommandQueue",
           "package": "OpenCLRaw",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.CommandQueue",
           "name": "clCreateCommandQueue",
           "package": "OpenCLRaw",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 CommandQueue",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.CommandQueue",
           "name": "clCreateCommandQueue",
           "normalized": "Context-\u003eDeviceID-\u003eCommandQueueProperties-\u003eIO(Either ErrorCode CommandQueue)",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.CommandQueue",
           "name": "clGetCommandQueueInfo",
           "package": "OpenCLRaw",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 CommandQueue",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.CommandQueue",
           "name": "clGetCommandQueueInfo",
           "normalized": "CommandQueue-\u003eCommandQueueInfo-\u003eCLsizei-\u003eIO(Either ErrorCode(ForeignPtr(),CLsizei))",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.CommandQueue",
           "name": "clRetainCommandQueue",
           "package": "OpenCLRaw",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 CommandQueue",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.CommandQueue",
           "name": "clRetainCommandQueue",
           "normalized": "CommandQueue-\u003eIO(Maybe ErrorCode)",
@@ -113,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.CommandQueue",
           "name": "clSetCommandQueueProperty",
           "package": "OpenCLRaw",
@@ -122,6 +131,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 CommandQueue",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.CommandQueue",
           "name": "clSetCommandQueueProperty",
           "normalized": "CommandQueue-\u003eCommandQueueProperties-\u003eBool-\u003eIO(Either ErrorCode CommandQueueProperties)",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConforms to section 4.3 of the OpenCL 1.0 specification\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Context",
           "name": "Context",
           "package": "OpenCLRaw",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Conforms to section of the OpenCL specification",
           "hierarchy": "System OpenCL Raw V10 Context",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Context",
           "name": "Context",
           "package": "OpenCLRaw",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Context",
           "name": "ContextCallback",
           "package": "OpenCLRaw",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Context",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Context",
           "name": "ContextCallback",
           "package": "OpenCLRaw",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Context",
           "name": "clCreateContext",
           "package": "OpenCLRaw",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Context",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Context",
           "name": "clCreateContext",
           "normalized": "[ContextProperties]-\u003e[DeviceID]-\u003eContextCallback-\u003ePtr()-\u003eIO(Either ErrorCode Context)",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Context",
           "name": "clCreateContextFromType",
           "package": "OpenCLRaw",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Context",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Context",
           "name": "clCreateContextFromType",
           "normalized": "[ContextProperties]-\u003eDeviceType-\u003eContextCallback-\u003ePtr()-\u003eIO(Either ErrorCode Context)",
@@ -229,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Context",
           "name": "clGetContextInfo",
           "package": "OpenCLRaw",
@@ -238,6 +257,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Context",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Context",
           "name": "clGetContextInfo",
           "normalized": "Context-\u003eContextInfo-\u003eCLsizei-\u003eIO(Either ErrorCode(ForeignPtr(),CLsizei))",
@@ -253,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Context",
           "name": "clReleaseContext",
           "package": "OpenCLRaw",
@@ -262,6 +283,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Context",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Context",
           "name": "clReleaseContext",
           "normalized": "Context-\u003eIO(Maybe ErrorCode)",
@@ -277,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Context",
           "name": "clRetainContext",
           "package": "OpenCLRaw",
@@ -286,6 +309,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Context",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Context",
           "name": "clRetainContext",
           "normalized": "Context-\u003eIO(Maybe ErrorCode)",
@@ -302,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConforms to section 4.2 of the OpenCL 1.0 specification \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.DeviceInfo",
           "name": "DeviceInfo",
           "package": "OpenCLRaw",
@@ -311,6 +336,7 @@
         "index": {
           "description": "Conforms to section of the OpenCL specification",
           "hierarchy": "System OpenCL Raw V10 DeviceInfo",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.DeviceInfo",
           "name": "DeviceInfo",
           "package": "OpenCLRaw",
@@ -324,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.DeviceInfo",
           "name": "clGetDeviceIDs",
           "package": "OpenCLRaw",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 DeviceInfo",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.DeviceInfo",
           "name": "clGetDeviceIDs",
           "normalized": "PlatformID-\u003eDeviceType-\u003eCLuint-\u003eIO(Either ErrorCode[DeviceID])",
@@ -348,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.DeviceInfo",
           "name": "clGetDeviceInfo",
           "package": "OpenCLRaw",
@@ -357,6 +386,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 DeviceInfo",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.DeviceInfo",
           "name": "clGetDeviceInfo",
           "normalized": "DeviceID-\u003eDeviceInfo-\u003eCLsizei-\u003eIO(Either ErrorCode(ForeignPtr(),CLsizei))",
@@ -373,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA collection of all the error codes that OpenCL functions return \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "Errors",
           "package": "OpenCLRaw",
@@ -382,6 +413,7 @@
         "index": {
           "description": "collection of all the error codes that OpenCL functions return",
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "Errors",
           "package": "OpenCLRaw",
@@ -395,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clBuildProgramFailure",
           "package": "OpenCLRaw",
@@ -404,6 +437,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clBuildProgramFailure",
           "package": "OpenCLRaw",
@@ -417,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clCompilerNotAvailable",
           "package": "OpenCLRaw",
@@ -426,6 +461,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clCompilerNotAvailable",
           "package": "OpenCLRaw",
@@ -439,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clDeviceNotAvailable",
           "package": "OpenCLRaw",
@@ -448,6 +485,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clDeviceNotAvailable",
           "package": "OpenCLRaw",
@@ -461,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clDeviceNotFound",
           "package": "OpenCLRaw",
@@ -470,6 +509,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clDeviceNotFound",
           "package": "OpenCLRaw",
@@ -483,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clImageFormatMismatch",
           "package": "OpenCLRaw",
@@ -492,6 +533,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clImageFormatMismatch",
           "package": "OpenCLRaw",
@@ -505,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clImageFormatNotSupported",
           "package": "OpenCLRaw",
@@ -514,6 +557,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clImageFormatNotSupported",
           "package": "OpenCLRaw",
@@ -527,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidArgIndex",
           "package": "OpenCLRaw",
@@ -536,6 +581,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidArgIndex",
           "package": "OpenCLRaw",
@@ -549,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidArgSize",
           "package": "OpenCLRaw",
@@ -558,6 +605,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidArgSize",
           "package": "OpenCLRaw",
@@ -571,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidArgValue",
           "package": "OpenCLRaw",
@@ -580,6 +629,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidArgValue",
           "package": "OpenCLRaw",
@@ -593,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidBinary",
           "package": "OpenCLRaw",
@@ -602,6 +653,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidBinary",
           "package": "OpenCLRaw",
@@ -615,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidBufferSize",
           "package": "OpenCLRaw",
@@ -624,6 +677,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidBufferSize",
           "package": "OpenCLRaw",
@@ -637,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidBuildOptions",
           "package": "OpenCLRaw",
@@ -646,6 +701,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidBuildOptions",
           "package": "OpenCLRaw",
@@ -659,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidCommandQueue",
           "package": "OpenCLRaw",
@@ -668,6 +725,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidCommandQueue",
           "package": "OpenCLRaw",
@@ -681,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidContext",
           "package": "OpenCLRaw",
@@ -690,6 +749,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidContext",
           "package": "OpenCLRaw",
@@ -703,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidDevice",
           "package": "OpenCLRaw",
@@ -712,6 +773,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidDevice",
           "package": "OpenCLRaw",
@@ -725,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidDeviceType",
           "package": "OpenCLRaw",
@@ -734,6 +797,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidDeviceType",
           "package": "OpenCLRaw",
@@ -747,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidEvent",
           "package": "OpenCLRaw",
@@ -756,6 +821,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidEvent",
           "package": "OpenCLRaw",
@@ -769,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidEventWaitList",
           "package": "OpenCLRaw",
@@ -778,6 +845,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidEventWaitList",
           "package": "OpenCLRaw",
@@ -791,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidGLObject",
           "package": "OpenCLRaw",
@@ -800,6 +869,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidGLObject",
           "package": "OpenCLRaw",
@@ -813,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidGlobalOffset",
           "package": "OpenCLRaw",
@@ -822,6 +893,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidGlobalOffset",
           "package": "OpenCLRaw",
@@ -835,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidHostPtr",
           "package": "OpenCLRaw",
@@ -844,6 +917,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidHostPtr",
           "package": "OpenCLRaw",
@@ -857,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidImageFormatDescriptor",
           "package": "OpenCLRaw",
@@ -866,6 +941,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidImageFormatDescriptor",
           "package": "OpenCLRaw",
@@ -879,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidImageSize",
           "package": "OpenCLRaw",
@@ -888,6 +965,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidImageSize",
           "package": "OpenCLRaw",
@@ -901,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidKernel",
           "package": "OpenCLRaw",
@@ -910,6 +989,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidKernel",
           "package": "OpenCLRaw",
@@ -923,6 +1003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidKernelArgs",
           "package": "OpenCLRaw",
@@ -932,6 +1013,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidKernelArgs",
           "package": "OpenCLRaw",
@@ -945,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidKernelDefinition",
           "package": "OpenCLRaw",
@@ -954,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidKernelDefinition",
           "package": "OpenCLRaw",
@@ -967,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidKernelName",
           "package": "OpenCLRaw",
@@ -976,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidKernelName",
           "package": "OpenCLRaw",
@@ -989,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidMemObject",
           "package": "OpenCLRaw",
@@ -998,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidMemObject",
           "package": "OpenCLRaw",
@@ -1011,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidOperation",
           "package": "OpenCLRaw",
@@ -1020,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidOperation",
           "package": "OpenCLRaw",
@@ -1033,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidPlatform",
           "package": "OpenCLRaw",
@@ -1042,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidPlatform",
           "package": "OpenCLRaw",
@@ -1055,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidProgram",
           "package": "OpenCLRaw",
@@ -1064,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidProgram",
           "package": "OpenCLRaw",
@@ -1077,6 +1171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidProgramExecutable",
           "package": "OpenCLRaw",
@@ -1086,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidProgramExecutable",
           "package": "OpenCLRaw",
@@ -1099,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidQueueProperties",
           "package": "OpenCLRaw",
@@ -1108,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidQueueProperties",
           "package": "OpenCLRaw",
@@ -1121,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidSampler",
           "package": "OpenCLRaw",
@@ -1130,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidSampler",
           "package": "OpenCLRaw",
@@ -1143,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidValue",
           "package": "OpenCLRaw",
@@ -1152,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidValue",
           "package": "OpenCLRaw",
@@ -1165,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidWorkDimension",
           "package": "OpenCLRaw",
@@ -1174,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidWorkDimension",
           "package": "OpenCLRaw",
@@ -1187,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidWorkGroupSize",
           "package": "OpenCLRaw",
@@ -1196,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidWorkGroupSize",
           "package": "OpenCLRaw",
@@ -1209,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidWorkItemSize",
           "package": "OpenCLRaw",
@@ -1218,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clInvalidWorkItemSize",
           "package": "OpenCLRaw",
@@ -1231,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clMapFailure",
           "package": "OpenCLRaw",
@@ -1240,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clMapFailure",
           "package": "OpenCLRaw",
@@ -1253,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clMemCopyOverlap",
           "package": "OpenCLRaw",
@@ -1262,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clMemCopyOverlap",
           "package": "OpenCLRaw",
@@ -1275,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clMemObjectAllocationFailure",
           "package": "OpenCLRaw",
@@ -1284,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clMemObjectAllocationFailure",
           "package": "OpenCLRaw",
@@ -1297,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clOutOfHostMemory",
           "package": "OpenCLRaw",
@@ -1306,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clOutOfHostMemory",
           "package": "OpenCLRaw",
@@ -1319,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clOutOfResources",
           "package": "OpenCLRaw",
@@ -1328,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clOutOfResources",
           "package": "OpenCLRaw",
@@ -1341,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clProfilingInfoNotAvailable",
           "package": "OpenCLRaw",
@@ -1350,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clProfilingInfoNotAvailable",
           "package": "OpenCLRaw",
@@ -1363,6 +1483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clSuccess",
           "package": "OpenCLRaw",
@@ -1372,6 +1493,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Errors",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Errors",
           "name": "clSuccess",
           "package": "OpenCLRaw",
@@ -1386,6 +1508,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for querying extensions \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Etc",
           "name": "Etc",
           "package": "OpenCLRaw",
@@ -1395,6 +1518,7 @@
         "index": {
           "description": "Module for querying extensions",
           "hierarchy": "System OpenCL Raw V10 Etc",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Etc",
           "name": "Etc",
           "package": "OpenCLRaw",
@@ -1408,6 +1532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Etc",
           "name": "clGetExtensionFunctionAddress",
           "package": "OpenCLRaw",
@@ -1417,6 +1542,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Etc",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Etc",
           "name": "clGetExtensionFunctionAddress",
           "normalized": "String-\u003eIO(Ptr())",
@@ -1433,6 +1559,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConforms to section 5.7 of the OpenCL 1.0 specification \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.EventObject",
           "name": "EventObject",
           "package": "OpenCLRaw",
@@ -1442,6 +1569,7 @@
         "index": {
           "description": "Conforms to section of the OpenCL specification",
           "hierarchy": "System OpenCL Raw V10 EventObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.EventObject",
           "name": "EventObject",
           "package": "OpenCLRaw",
@@ -1455,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.EventObject",
           "name": "clGetEventInfo",
           "package": "OpenCLRaw",
@@ -1464,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 EventObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.EventObject",
           "name": "clGetEventInfo",
           "normalized": "Event-\u003eEventInfo-\u003eCLsizei-\u003eIO(Either ErrorCode(ForeignPtr(),CLsizei))",
@@ -1479,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.EventObject",
           "name": "clGetEventProfilingInfo",
           "package": "OpenCLRaw",
@@ -1488,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 EventObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.EventObject",
           "name": "clGetEventProfilingInfo",
           "normalized": "Event-\u003eProfilingInfo-\u003eCLsizei-\u003eIO(Either ErrorCode(ForeignPtr(),CLsizei))",
@@ -1503,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.EventObject",
           "name": "clReleaseEvent",
           "package": "OpenCLRaw",
@@ -1512,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 EventObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.EventObject",
           "name": "clReleaseEvent",
           "normalized": "Event-\u003eIO(Maybe ErrorCode)",
@@ -1527,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.EventObject",
           "name": "clRetainEvent",
           "package": "OpenCLRaw",
@@ -1536,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 EventObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.EventObject",
           "name": "clRetainEvent",
           "normalized": "Event-\u003eIO(Maybe ErrorCode)",
@@ -1551,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.EventObject",
           "name": "clWaitForEvents",
           "package": "OpenCLRaw",
@@ -1560,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 EventObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.EventObject",
           "name": "clWaitForEvents",
           "normalized": "[Event]-\u003eIO(Maybe ErrorCode)",
@@ -1576,6 +1714,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConforms to section 5.10 of the OpenCL 1.0 specification \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.FlushFinish",
           "name": "FlushFinish",
           "package": "OpenCLRaw",
@@ -1585,6 +1724,7 @@
         "index": {
           "description": "Conforms to section of the OpenCL specification",
           "hierarchy": "System OpenCL Raw V10 FlushFinish",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.FlushFinish",
           "name": "FlushFinish",
           "package": "OpenCLRaw",
@@ -1598,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.FlushFinish",
           "name": "clFinish",
           "package": "OpenCLRaw",
@@ -1607,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 FlushFinish",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.FlushFinish",
           "name": "clFinish",
           "normalized": "CommandQueue-\u003eIO(Maybe ErrorCode)",
@@ -1622,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.FlushFinish",
           "name": "clFlush",
           "package": "OpenCLRaw",
@@ -1631,6 +1774,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 FlushFinish",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.FlushFinish",
           "name": "clFlush",
           "normalized": "CommandQueue-\u003eIO(Maybe ErrorCode)",
@@ -1647,6 +1791,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConforms to section 5.5 of the OpenCL 1.0 specification \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Kernel",
           "name": "Kernel",
           "package": "OpenCLRaw",
@@ -1656,6 +1801,7 @@
         "index": {
           "description": "Conforms to section of the OpenCL specification",
           "hierarchy": "System OpenCL Raw V10 Kernel",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Kernel",
           "name": "Kernel",
           "package": "OpenCLRaw",
@@ -1669,6 +1815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Kernel",
           "name": "clCreateKernel",
           "package": "OpenCLRaw",
@@ -1678,6 +1825,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Kernel",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Kernel",
           "name": "clCreateKernel",
           "normalized": "Program-\u003eCString-\u003eIO(Either ErrorCode Kernel)",
@@ -1693,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Kernel",
           "name": "clCreateKernelsInProgram",
           "package": "OpenCLRaw",
@@ -1702,6 +1851,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Kernel",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Kernel",
           "name": "clCreateKernelsInProgram",
           "normalized": "Program-\u003eCLuint-\u003eIO(Either ErrorCode[Kernel])",
@@ -1717,6 +1867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Kernel",
           "name": "clEnqueueNDRangeKernel",
           "package": "OpenCLRaw",
@@ -1726,6 +1877,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Kernel",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Kernel",
           "name": "clEnqueueNDRangeKernel",
           "normalized": "CommandQueue-\u003eKernel-\u003e[CLsizei]-\u003e[CLsizei]-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -1741,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Kernel",
           "name": "clEnqueueNativeKernel",
           "package": "OpenCLRaw",
@@ -1750,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Kernel",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Kernel",
           "name": "clEnqueueNativeKernel",
           "normalized": "NKCallbackFunction-\u003ePtr()-\u003eCLsizei-\u003e[Mem]-\u003e[Ptr()]-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -1765,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Kernel",
           "name": "clEnqueueTask",
           "package": "OpenCLRaw",
@@ -1774,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Kernel",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Kernel",
           "name": "clEnqueueTask",
           "normalized": "CommandQueue-\u003eKernel-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -1789,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Kernel",
           "name": "clGetKernelInfo",
           "package": "OpenCLRaw",
@@ -1798,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Kernel",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Kernel",
           "name": "clGetKernelInfo",
           "normalized": "Kernel-\u003eKernelInfo-\u003eCLsizei-\u003eIO(Either ErrorCode(ForeignPtr(),CLsizei))",
@@ -1813,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Kernel",
           "name": "clGetKernelWorkGroupInfo",
           "package": "OpenCLRaw",
@@ -1822,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Kernel",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Kernel",
           "name": "clGetKernelWorkGroupInfo",
           "normalized": "Kernel-\u003eDeviceID-\u003eKernelWorkGroupInfo-\u003eCLsizei-\u003eIO(Either ErrorCode(ForeignPtr(),CLsizei))",
@@ -1837,6 +1997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Kernel",
           "name": "clReleaseKernel",
           "package": "OpenCLRaw",
@@ -1846,6 +2007,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Kernel",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Kernel",
           "name": "clReleaseKernel",
           "normalized": "Kernel-\u003eIO(Maybe ErrorCode)",
@@ -1861,6 +2023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Kernel",
           "name": "clRetainKernel",
           "package": "OpenCLRaw",
@@ -1870,6 +2033,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Kernel",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Kernel",
           "name": "clRetainKernel",
           "normalized": "Kernel-\u003eIO(Maybe ErrorCode)",
@@ -1886,6 +2050,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConforms to section 5.2 of the OpenCL 1.0 specification \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "MemoryObject",
           "package": "OpenCLRaw",
@@ -1895,6 +2060,7 @@
         "index": {
           "description": "Conforms to section of the OpenCL specification",
           "hierarchy": "System OpenCL Raw V10 MemoryObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "MemoryObject",
           "package": "OpenCLRaw",
@@ -1908,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clCreateBuffer",
           "package": "OpenCLRaw",
@@ -1917,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 MemoryObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clCreateBuffer",
           "normalized": "Context-\u003eMemFlags-\u003eCLsizei-\u003ePtr()-\u003eIO(Either ErrorCode Mem)",
@@ -1932,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clCreateImage2D",
           "package": "OpenCLRaw",
@@ -1941,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 MemoryObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clCreateImage2D",
           "normalized": "Context-\u003eMemFlags-\u003eImageFormat-\u003eCLsizei-\u003eCLsizei-\u003eCLsizei-\u003ePtr()-\u003eIO(Either ErrorCode Mem)",
@@ -1956,6 +2126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clCreateImage3D",
           "package": "OpenCLRaw",
@@ -1965,6 +2136,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 MemoryObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clCreateImage3D",
           "normalized": "Context-\u003eMemFlags-\u003eImageFormat-\u003eCLsizei-\u003eCLsizei-\u003eCLsizei-\u003eCLsizei-\u003eCLsizei-\u003ePtr()-\u003eIO(Either ErrorCode Mem)",
@@ -1980,6 +2152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clEnqueueCopyBuffer",
           "package": "OpenCLRaw",
@@ -1989,6 +2162,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 MemoryObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clEnqueueCopyBuffer",
           "normalized": "Mem-\u003eMem-\u003eCLsizei-\u003eCLsizei-\u003eCLsizei-\u003eCommandQueue-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -2004,6 +2178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clEnqueueCopyBufferToImage",
           "package": "OpenCLRaw",
@@ -2013,6 +2188,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 MemoryObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clEnqueueCopyBufferToImage",
           "normalized": "Mem-\u003eMem-\u003eCLsizei-\u003eImageDims-\u003eImageDims-\u003eCommandQueue-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -2028,6 +2204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clEnqueueCopyImage",
           "package": "OpenCLRaw",
@@ -2037,6 +2214,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 MemoryObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clEnqueueCopyImage",
           "normalized": "Mem-\u003eMem-\u003eImageDims-\u003eImageDims-\u003eImageDims-\u003eCommandQueue-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -2052,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clEnqueueCopyImageToBuffer",
           "package": "OpenCLRaw",
@@ -2061,6 +2240,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 MemoryObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clEnqueueCopyImageToBuffer",
           "normalized": "Mem-\u003eMem-\u003eImageDims-\u003eImageDims-\u003eCLsizei-\u003eCommandQueue-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -2076,6 +2256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clEnqueueMapBuffer",
           "package": "OpenCLRaw",
@@ -2085,6 +2266,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 MemoryObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clEnqueueMapBuffer",
           "normalized": "Mem-\u003eBool-\u003eMapFlags-\u003eCLsizei-\u003eCLsizei-\u003eCommandQueue-\u003e[Event]-\u003eIO(Either ErrorCode(Ptr(),Event))",
@@ -2100,6 +2282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clEnqueueMapImage",
           "package": "OpenCLRaw",
@@ -2109,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 MemoryObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clEnqueueMapImage",
           "normalized": "Mem-\u003eBool-\u003eMapFlags-\u003eImageDims-\u003eImageDims-\u003eCommandQueue-\u003e[Event]-\u003eIO(Either ErrorCode(Ptr(),CLsizei,CLsizei,Event))",
@@ -2124,6 +2308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clEnqueueReadBuffer",
           "package": "OpenCLRaw",
@@ -2133,6 +2318,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 MemoryObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clEnqueueReadBuffer",
           "normalized": "Mem-\u003eBool-\u003eCLsizei-\u003eCLsizei-\u003ePtr()-\u003eCommandQueue-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -2148,6 +2334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clEnqueueReadImage",
           "package": "OpenCLRaw",
@@ -2157,6 +2344,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 MemoryObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clEnqueueReadImage",
           "normalized": "Mem-\u003eBool-\u003e(CLsizei,CLsizei,CLsizei)-\u003e(CLsizei,CLsizei,CLsizei)-\u003eCLsizei-\u003eCLsizei-\u003ePtr()-\u003eCommandQueue-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -2172,6 +2360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clEnqueueUnmapMemObject",
           "package": "OpenCLRaw",
@@ -2181,6 +2370,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 MemoryObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clEnqueueUnmapMemObject",
           "normalized": "Mem-\u003ePtr()-\u003eCommandQueue-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -2196,6 +2386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clEnqueueWriteBuffer",
           "package": "OpenCLRaw",
@@ -2205,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 MemoryObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clEnqueueWriteBuffer",
           "normalized": "Mem-\u003eBool-\u003eCLsizei-\u003eCLsizei-\u003ePtr()-\u003eCommandQueue-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -2220,6 +2412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clEnqueueWriteImage",
           "package": "OpenCLRaw",
@@ -2229,6 +2422,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 MemoryObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clEnqueueWriteImage",
           "normalized": "Mem-\u003eBool-\u003e(CLsizei,CLsizei,CLsizei)-\u003e(CLsizei,CLsizei,CLsizei)-\u003eCLsizei-\u003eCLsizei-\u003ePtr()-\u003eCommandQueue-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -2244,6 +2438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clGetImageInfo",
           "package": "OpenCLRaw",
@@ -2253,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 MemoryObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clGetImageInfo",
           "normalized": "Mem-\u003eMemInfo-\u003eCLsizei-\u003eIO(Either ErrorCode(ForeignPtr(),CLsizei))",
@@ -2268,6 +2464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clGetMemObjectInfo",
           "package": "OpenCLRaw",
@@ -2277,6 +2474,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 MemoryObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clGetMemObjectInfo",
           "normalized": "Mem-\u003eMemInfo-\u003eCLsizei-\u003eIO(Either ErrorCode(ForeignPtr(),CLsizei))",
@@ -2292,6 +2490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clGetSupportedImageFormats",
           "package": "OpenCLRaw",
@@ -2301,6 +2500,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 MemoryObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clGetSupportedImageFormats",
           "normalized": "Context-\u003eMemFlags-\u003eMemObjectType-\u003eIO(Either ErrorCode[ImageFormat])",
@@ -2316,6 +2516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clReleaseMemObject",
           "package": "OpenCLRaw",
@@ -2325,6 +2526,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 MemoryObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clReleaseMemObject",
           "normalized": "Mem-\u003eIO(Maybe ErrorCode)",
@@ -2340,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clRetainMemObject",
           "package": "OpenCLRaw",
@@ -2349,6 +2552,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 MemoryObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.MemoryObject",
           "name": "clRetainMemObject",
           "normalized": "Mem-\u003eIO(Maybe ErrorCode)",
@@ -2365,6 +2569,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConforms to section 5.8 of the OpenCL 1.0 specification \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.OutOfOrder",
           "name": "OutOfOrder",
           "package": "OpenCLRaw",
@@ -2374,6 +2579,7 @@
         "index": {
           "description": "Conforms to section of the OpenCL specification",
           "hierarchy": "System OpenCL Raw V10 OutOfOrder",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.OutOfOrder",
           "name": "OutOfOrder",
           "package": "OpenCLRaw",
@@ -2387,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.OutOfOrder",
           "name": "clEnqueueBarrier",
           "package": "OpenCLRaw",
@@ -2396,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 OutOfOrder",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.OutOfOrder",
           "name": "clEnqueueBarrier",
           "normalized": "CommandQueue-\u003eIO(Maybe ErrorCode)",
@@ -2411,6 +2619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.OutOfOrder",
           "name": "clEnqueueMarker",
           "package": "OpenCLRaw",
@@ -2420,6 +2629,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 OutOfOrder",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.OutOfOrder",
           "name": "clEnqueueMarker",
           "normalized": "CommandQueue-\u003eIO(Either ErrorCode Event)",
@@ -2435,6 +2645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.OutOfOrder",
           "name": "clEnqueueWaitForEvents",
           "package": "OpenCLRaw",
@@ -2444,6 +2655,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 OutOfOrder",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.OutOfOrder",
           "name": "clEnqueueWaitForEvents",
           "normalized": "CommandQueue-\u003e[Event]-\u003eIO(Maybe ErrorCode)",
@@ -2460,6 +2672,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConforms to section 4.1 of the OpenCL 1.0 specification \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.PlatformInfo",
           "name": "PlatformInfo",
           "package": "OpenCLRaw",
@@ -2469,6 +2682,7 @@
         "index": {
           "description": "Conforms to section of the OpenCL specification",
           "hierarchy": "System OpenCL Raw V10 PlatformInfo",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.PlatformInfo",
           "name": "PlatformInfo",
           "package": "OpenCLRaw",
@@ -2482,6 +2696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.PlatformInfo",
           "name": "clGetPlatformIDs",
           "package": "OpenCLRaw",
@@ -2491,6 +2706,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 PlatformInfo",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.PlatformInfo",
           "name": "clGetPlatformIDs",
           "normalized": "CLuint-\u003eIO(Either ErrorCode[PlatformID])",
@@ -2506,6 +2722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.PlatformInfo",
           "name": "clGetPlatformInfo",
           "package": "OpenCLRaw",
@@ -2515,6 +2732,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 PlatformInfo",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.PlatformInfo",
           "name": "clGetPlatformInfo",
           "normalized": "PlatformID-\u003ePlatformInfo-\u003eCLsizei-\u003ePtr()-\u003eIO(Either ErrorCode CLsizei)",
@@ -2531,6 +2749,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConforms to section 5.4 of the OpenCL 1.0 specification \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.ProgramObject",
           "name": "ProgramObject",
           "package": "OpenCLRaw",
@@ -2540,6 +2759,7 @@
         "index": {
           "description": "Conforms to section of the OpenCL specification",
           "hierarchy": "System OpenCL Raw V10 ProgramObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.ProgramObject",
           "name": "ProgramObject",
           "package": "OpenCLRaw",
@@ -2553,6 +2773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.ProgramObject",
           "name": "clBuildProgram",
           "package": "OpenCLRaw",
@@ -2562,6 +2783,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 ProgramObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.ProgramObject",
           "name": "clBuildProgram",
           "normalized": "Program-\u003e[DeviceID]-\u003eString-\u003eBuildProgramCallback-\u003ePtr()-\u003eIO(Maybe ErrorCode)",
@@ -2577,6 +2799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.ProgramObject",
           "name": "clCreateProgramWithBinary",
           "package": "OpenCLRaw",
@@ -2586,6 +2809,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 ProgramObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.ProgramObject",
           "name": "clCreateProgramWithBinary",
           "normalized": "Context-\u003e[(DeviceID,ByteString)]-\u003eIO(Either ErrorCode Program)",
@@ -2601,6 +2825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.ProgramObject",
           "name": "clCreateProgramWithSource",
           "package": "OpenCLRaw",
@@ -2610,6 +2835,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 ProgramObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.ProgramObject",
           "name": "clCreateProgramWithSource",
           "normalized": "Context-\u003eString-\u003eIO(Either ErrorCode Program)",
@@ -2625,6 +2851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.ProgramObject",
           "name": "clGetProgramBuildInfo",
           "package": "OpenCLRaw",
@@ -2634,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 ProgramObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.ProgramObject",
           "name": "clGetProgramBuildInfo",
           "normalized": "Program-\u003eProgramBuildInfo-\u003eCLsizei-\u003eIO(Either ErrorCode(ForeignPtr(),CLsizei))",
@@ -2649,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.ProgramObject",
           "name": "clGetProgramInfo",
           "package": "OpenCLRaw",
@@ -2658,6 +2887,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 ProgramObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.ProgramObject",
           "name": "clGetProgramInfo",
           "normalized": "Program-\u003eProgramInfo-\u003eCLsizei-\u003eIO(Either ErrorCode(ForeignPtr(),CLsizei))",
@@ -2673,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.ProgramObject",
           "name": "clReleaseProgram",
           "package": "OpenCLRaw",
@@ -2682,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 ProgramObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.ProgramObject",
           "name": "clReleaseProgram",
           "normalized": "Program-\u003eIO(Maybe ErrorCode)",
@@ -2697,6 +2929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.ProgramObject",
           "name": "clRetainProgram",
           "package": "OpenCLRaw",
@@ -2706,6 +2939,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 ProgramObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.ProgramObject",
           "name": "clRetainProgram",
           "normalized": "Program-\u003eIO(Maybe ErrorCode)",
@@ -2721,6 +2955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.ProgramObject",
           "name": "clUnloadCompiler",
           "package": "OpenCLRaw",
@@ -2730,6 +2965,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 ProgramObject",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.ProgramObject",
           "name": "clUnloadCompiler",
           "package": "OpenCLRaw",
@@ -2744,6 +2980,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConforms to section 5.3 of the OpenCL 1.0 specification \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Sampler",
           "name": "Sampler",
           "package": "OpenCLRaw",
@@ -2753,6 +2990,7 @@
         "index": {
           "description": "Conforms to section of the OpenCL specification",
           "hierarchy": "System OpenCL Raw V10 Sampler",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Sampler",
           "name": "Sampler",
           "package": "OpenCLRaw",
@@ -2766,6 +3004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Sampler",
           "name": "clCreateSampler",
           "package": "OpenCLRaw",
@@ -2775,6 +3014,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Sampler",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Sampler",
           "name": "clCreateSampler",
           "normalized": "Context-\u003eBool-\u003eAddressingMode-\u003eFilterMode-\u003eIO(Either ErrorCode Sampler)",
@@ -2790,6 +3030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Sampler",
           "name": "clGetSamplerInfo",
           "package": "OpenCLRaw",
@@ -2799,6 +3040,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Sampler",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Sampler",
           "name": "clGetSamplerInfo",
           "normalized": "Sampler-\u003eSamplerInfo-\u003eCLsizei-\u003ePtr()-\u003eIO(Either ErrorCode CLsizei)",
@@ -2814,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Sampler",
           "name": "clReleaseSampler",
           "package": "OpenCLRaw",
@@ -2823,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Sampler",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Sampler",
           "name": "clReleaseSampler",
           "normalized": "Sampler-\u003eIO(Maybe ErrorCode)",
@@ -2838,6 +3082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Sampler",
           "name": "clRetainSampler",
           "package": "OpenCLRaw",
@@ -2847,6 +3092,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Sampler",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Sampler",
           "name": "clRetainSampler",
           "normalized": "Sampler-\u003eIO(Maybe ErrorCode)",
@@ -2863,6 +3109,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDeclaration of types, bounds and constants for OpenCL 1.0 \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Types",
           "package": "OpenCLRaw",
@@ -2872,6 +3119,7 @@
         "index": {
           "description": "Declaration of types bounds and constants for OpenCL",
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Types",
           "package": "OpenCLRaw",
@@ -2885,6 +3133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "AddressingMode",
           "package": "OpenCLRaw",
@@ -2893,6 +3142,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "AddressingMode",
           "package": "OpenCLRaw",
@@ -2906,6 +3156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "BuildStatus",
           "package": "OpenCLRaw",
@@ -2914,6 +3165,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "BuildStatus",
           "package": "OpenCLRaw",
@@ -2927,6 +3179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CLbitfield",
           "package": "OpenCLRaw",
@@ -2935,6 +3188,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CLbitfield",
           "package": "OpenCLRaw",
@@ -2948,6 +3202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CLbool",
           "package": "OpenCLRaw",
@@ -2956,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CLbool",
           "package": "OpenCLRaw",
@@ -2969,6 +3225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CLint",
           "package": "OpenCLRaw",
@@ -2977,6 +3234,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CLint",
           "package": "OpenCLRaw",
@@ -2990,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CLsizei",
           "package": "OpenCLRaw",
@@ -2998,6 +3257,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CLsizei",
           "package": "OpenCLRaw",
@@ -3011,6 +3271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CLuint",
           "package": "OpenCLRaw",
@@ -3019,6 +3280,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CLuint",
           "package": "OpenCLRaw",
@@ -3032,6 +3294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CLulong",
           "package": "OpenCLRaw",
@@ -3040,6 +3303,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CLulong",
           "package": "OpenCLRaw",
@@ -3053,6 +3317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ChannelOrder",
           "package": "OpenCLRaw",
@@ -3061,6 +3326,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ChannelOrder",
           "package": "OpenCLRaw",
@@ -3074,6 +3340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ChannelType",
           "package": "OpenCLRaw",
@@ -3082,6 +3349,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ChannelType",
           "package": "OpenCLRaw",
@@ -3095,6 +3363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CommandQueue",
           "package": "OpenCLRaw",
@@ -3103,6 +3372,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CommandQueue",
           "package": "OpenCLRaw",
@@ -3116,6 +3386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CommandQueueInfo",
           "package": "OpenCLRaw",
@@ -3124,6 +3395,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CommandQueueInfo",
           "package": "OpenCLRaw",
@@ -3137,6 +3409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CommandQueueProperties",
           "package": "OpenCLRaw",
@@ -3145,6 +3418,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CommandQueueProperties",
           "package": "OpenCLRaw",
@@ -3158,6 +3432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CommandQueuec",
           "package": "OpenCLRaw",
@@ -3166,6 +3441,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CommandQueuec",
           "package": "OpenCLRaw",
@@ -3179,6 +3455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Context",
           "package": "OpenCLRaw",
@@ -3187,6 +3464,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Context",
           "package": "OpenCLRaw",
@@ -3200,6 +3478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ContextInfo",
           "package": "OpenCLRaw",
@@ -3208,6 +3487,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ContextInfo",
           "package": "OpenCLRaw",
@@ -3221,6 +3501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ContextProperties",
           "package": "OpenCLRaw",
@@ -3229,6 +3510,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ContextProperties",
           "package": "OpenCLRaw",
@@ -3242,6 +3524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Contextc",
           "package": "OpenCLRaw",
@@ -3250,6 +3533,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Contextc",
           "package": "OpenCLRaw",
@@ -3263,6 +3547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "DeviceFPConfig",
           "package": "OpenCLRaw",
@@ -3271,6 +3556,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "DeviceFPConfig",
           "package": "OpenCLRaw",
@@ -3284,6 +3570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "DeviceID",
           "package": "OpenCLRaw",
@@ -3292,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "DeviceID",
           "package": "OpenCLRaw",
@@ -3305,6 +3593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "DeviceIDc",
           "package": "OpenCLRaw",
@@ -3313,6 +3602,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "DeviceIDc",
           "package": "OpenCLRaw",
@@ -3326,6 +3616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "DeviceInfo",
           "package": "OpenCLRaw",
@@ -3334,6 +3625,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "DeviceInfo",
           "package": "OpenCLRaw",
@@ -3347,6 +3639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "DeviceType",
           "package": "OpenCLRaw",
@@ -3355,6 +3648,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "DeviceType",
           "package": "OpenCLRaw",
@@ -3368,6 +3662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ErrorCode",
           "package": "OpenCLRaw",
@@ -3376,6 +3671,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ErrorCode",
           "package": "OpenCLRaw",
@@ -3389,6 +3685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Event",
           "package": "OpenCLRaw",
@@ -3397,6 +3694,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Event",
           "package": "OpenCLRaw",
@@ -3410,6 +3708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "EventInfo",
           "package": "OpenCLRaw",
@@ -3418,6 +3717,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "EventInfo",
           "package": "OpenCLRaw",
@@ -3431,6 +3731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Eventc",
           "package": "OpenCLRaw",
@@ -3439,6 +3740,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Eventc",
           "package": "OpenCLRaw",
@@ -3452,6 +3754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "FilterMode",
           "package": "OpenCLRaw",
@@ -3460,6 +3763,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "FilterMode",
           "package": "OpenCLRaw",
@@ -3473,6 +3777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ImageFormat",
           "package": "OpenCLRaw",
@@ -3481,6 +3786,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ImageFormat",
           "package": "OpenCLRaw",
@@ -3494,6 +3800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ImageFormatc",
           "package": "OpenCLRaw",
@@ -3502,6 +3809,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ImageFormatc",
           "package": "OpenCLRaw",
@@ -3515,6 +3823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ImageFormatp",
           "package": "OpenCLRaw",
@@ -3523,6 +3832,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ImageFormatp",
           "package": "OpenCLRaw",
@@ -3536,6 +3846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ImageInfo",
           "package": "OpenCLRaw",
@@ -3544,6 +3855,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ImageInfo",
           "package": "OpenCLRaw",
@@ -3557,6 +3869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Kernel",
           "package": "OpenCLRaw",
@@ -3565,6 +3878,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Kernel",
           "package": "OpenCLRaw",
@@ -3578,6 +3892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "KernelInfo",
           "package": "OpenCLRaw",
@@ -3586,6 +3901,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "KernelInfo",
           "package": "OpenCLRaw",
@@ -3599,6 +3915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "KernelWorkGroupInfo",
           "package": "OpenCLRaw",
@@ -3607,6 +3924,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "KernelWorkGroupInfo",
           "package": "OpenCLRaw",
@@ -3620,6 +3938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Kernelc",
           "package": "OpenCLRaw",
@@ -3628,6 +3947,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Kernelc",
           "package": "OpenCLRaw",
@@ -3641,6 +3961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "MapFlags",
           "package": "OpenCLRaw",
@@ -3649,6 +3970,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "MapFlags",
           "package": "OpenCLRaw",
@@ -3662,6 +3984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Mem",
           "package": "OpenCLRaw",
@@ -3670,6 +3993,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Mem",
           "package": "OpenCLRaw",
@@ -3683,6 +4007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "MemFlags",
           "package": "OpenCLRaw",
@@ -3691,6 +4016,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "MemFlags",
           "package": "OpenCLRaw",
@@ -3704,6 +4030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "MemInfo",
           "package": "OpenCLRaw",
@@ -3712,6 +4039,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "MemInfo",
           "package": "OpenCLRaw",
@@ -3725,6 +4053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "MemObjectType",
           "package": "OpenCLRaw",
@@ -3733,6 +4062,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "MemObjectType",
           "package": "OpenCLRaw",
@@ -3746,6 +4076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Memc",
           "package": "OpenCLRaw",
@@ -3754,6 +4085,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Memc",
           "package": "OpenCLRaw",
@@ -3767,6 +4099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "PlatformID",
           "package": "OpenCLRaw",
@@ -3775,6 +4108,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "PlatformID",
           "package": "OpenCLRaw",
@@ -3788,6 +4122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "PlatformIDc",
           "package": "OpenCLRaw",
@@ -3796,6 +4131,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "PlatformIDc",
           "package": "OpenCLRaw",
@@ -3809,6 +4145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "PlatformInfo",
           "package": "OpenCLRaw",
@@ -3817,6 +4154,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "PlatformInfo",
           "package": "OpenCLRaw",
@@ -3830,6 +4168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ProfilingInfo",
           "package": "OpenCLRaw",
@@ -3838,6 +4177,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ProfilingInfo",
           "package": "OpenCLRaw",
@@ -3851,6 +4191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Program",
           "package": "OpenCLRaw",
@@ -3859,6 +4200,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Program",
           "package": "OpenCLRaw",
@@ -3872,6 +4214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ProgramBuildInfo",
           "package": "OpenCLRaw",
@@ -3880,6 +4223,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ProgramBuildInfo",
           "package": "OpenCLRaw",
@@ -3893,6 +4237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ProgramInfo",
           "package": "OpenCLRaw",
@@ -3901,6 +4246,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ProgramInfo",
           "package": "OpenCLRaw",
@@ -3914,6 +4260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Programc",
           "package": "OpenCLRaw",
@@ -3922,6 +4269,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Programc",
           "package": "OpenCLRaw",
@@ -3935,6 +4283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Sampler",
           "package": "OpenCLRaw",
@@ -3943,6 +4292,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Sampler",
           "package": "OpenCLRaw",
@@ -3956,6 +4306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "SamplerInfo",
           "package": "OpenCLRaw",
@@ -3964,6 +4315,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "SamplerInfo",
           "package": "OpenCLRaw",
@@ -3977,6 +4329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Samplerc",
           "package": "OpenCLRaw",
@@ -3985,6 +4338,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Samplerc",
           "package": "OpenCLRaw",
@@ -3998,6 +4352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "AddressingMode",
           "package": "OpenCLRaw",
@@ -4007,6 +4362,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "AddressingMode",
           "package": "OpenCLRaw",
@@ -4020,6 +4376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "BuildStatus",
           "package": "OpenCLRaw",
@@ -4029,6 +4386,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "BuildStatus",
           "package": "OpenCLRaw",
@@ -4042,6 +4400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ChannelOrder",
           "package": "OpenCLRaw",
@@ -4051,6 +4410,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ChannelOrder",
           "package": "OpenCLRaw",
@@ -4064,6 +4424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ChannelType",
           "package": "OpenCLRaw",
@@ -4073,6 +4434,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ChannelType",
           "package": "OpenCLRaw",
@@ -4086,6 +4448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CommandQueueInfo",
           "package": "OpenCLRaw",
@@ -4095,6 +4458,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CommandQueueInfo",
           "package": "OpenCLRaw",
@@ -4108,6 +4472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CommandQueueProperties",
           "package": "OpenCLRaw",
@@ -4117,6 +4482,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CommandQueueProperties",
           "package": "OpenCLRaw",
@@ -4130,6 +4496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CommandQueuec",
           "package": "OpenCLRaw",
@@ -4139,6 +4506,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "CommandQueuec",
           "package": "OpenCLRaw",
@@ -4152,6 +4520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ContextInfo",
           "package": "OpenCLRaw",
@@ -4161,6 +4530,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ContextInfo",
           "package": "OpenCLRaw",
@@ -4174,6 +4544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Contextc",
           "package": "OpenCLRaw",
@@ -4183,6 +4554,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Contextc",
           "package": "OpenCLRaw",
@@ -4196,6 +4568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "DeviceFPConfig",
           "package": "OpenCLRaw",
@@ -4205,6 +4578,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "DeviceFPConfig",
           "package": "OpenCLRaw",
@@ -4218,6 +4592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "DeviceIDc",
           "package": "OpenCLRaw",
@@ -4227,6 +4602,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "DeviceIDc",
           "package": "OpenCLRaw",
@@ -4240,6 +4616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "DeviceInfo",
           "package": "OpenCLRaw",
@@ -4249,6 +4626,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "DeviceInfo",
           "package": "OpenCLRaw",
@@ -4262,6 +4640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "DeviceType",
           "package": "OpenCLRaw",
@@ -4271,6 +4650,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "DeviceType",
           "package": "OpenCLRaw",
@@ -4284,6 +4664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ErrorCode",
           "package": "OpenCLRaw",
@@ -4293,6 +4674,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ErrorCode",
           "package": "OpenCLRaw",
@@ -4306,6 +4688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "EventInfo",
           "package": "OpenCLRaw",
@@ -4315,6 +4698,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "EventInfo",
           "package": "OpenCLRaw",
@@ -4328,6 +4712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Eventc",
           "package": "OpenCLRaw",
@@ -4337,6 +4722,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Eventc",
           "package": "OpenCLRaw",
@@ -4350,6 +4736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "FilterMode",
           "package": "OpenCLRaw",
@@ -4359,6 +4746,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "FilterMode",
           "package": "OpenCLRaw",
@@ -4372,6 +4760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ImageFormatc",
           "package": "OpenCLRaw",
@@ -4381,6 +4770,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ImageFormatc",
           "package": "OpenCLRaw",
@@ -4394,6 +4784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ImageInfo",
           "package": "OpenCLRaw",
@@ -4403,6 +4794,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ImageInfo",
           "package": "OpenCLRaw",
@@ -4416,6 +4808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "KernelInfo",
           "package": "OpenCLRaw",
@@ -4425,6 +4818,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "KernelInfo",
           "package": "OpenCLRaw",
@@ -4438,6 +4832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "KernelWorkGroupInfo",
           "package": "OpenCLRaw",
@@ -4447,6 +4842,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "KernelWorkGroupInfo",
           "package": "OpenCLRaw",
@@ -4460,6 +4856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Kernelc",
           "package": "OpenCLRaw",
@@ -4469,6 +4866,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Kernelc",
           "package": "OpenCLRaw",
@@ -4482,6 +4880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "MapFlags",
           "package": "OpenCLRaw",
@@ -4491,6 +4890,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "MapFlags",
           "package": "OpenCLRaw",
@@ -4504,6 +4904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "MemFlags",
           "package": "OpenCLRaw",
@@ -4513,6 +4914,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "MemFlags",
           "package": "OpenCLRaw",
@@ -4526,6 +4928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "MemInfo",
           "package": "OpenCLRaw",
@@ -4535,6 +4938,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "MemInfo",
           "package": "OpenCLRaw",
@@ -4548,6 +4952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "MemObjectType",
           "package": "OpenCLRaw",
@@ -4557,6 +4962,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "MemObjectType",
           "package": "OpenCLRaw",
@@ -4570,6 +4976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Memc",
           "package": "OpenCLRaw",
@@ -4579,6 +4986,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Memc",
           "package": "OpenCLRaw",
@@ -4592,6 +5000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "PlatformIDc",
           "package": "OpenCLRaw",
@@ -4601,6 +5010,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "PlatformIDc",
           "package": "OpenCLRaw",
@@ -4614,6 +5024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "PlatformInfo",
           "package": "OpenCLRaw",
@@ -4623,6 +5034,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "PlatformInfo",
           "package": "OpenCLRaw",
@@ -4636,6 +5048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ProfilingInfo",
           "package": "OpenCLRaw",
@@ -4645,6 +5058,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ProfilingInfo",
           "package": "OpenCLRaw",
@@ -4658,6 +5072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ProgramBuildInfo",
           "package": "OpenCLRaw",
@@ -4667,6 +5082,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ProgramBuildInfo",
           "package": "OpenCLRaw",
@@ -4680,6 +5096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ProgramInfo",
           "package": "OpenCLRaw",
@@ -4689,6 +5106,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "ProgramInfo",
           "package": "OpenCLRaw",
@@ -4702,6 +5120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Programc",
           "package": "OpenCLRaw",
@@ -4711,6 +5130,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Programc",
           "package": "OpenCLRaw",
@@ -4724,6 +5144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "SamplerInfo",
           "package": "OpenCLRaw",
@@ -4733,6 +5154,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "SamplerInfo",
           "package": "OpenCLRaw",
@@ -4746,6 +5168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Samplerc",
           "package": "OpenCLRaw",
@@ -4755,6 +5178,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "Samplerc",
           "package": "OpenCLRaw",
@@ -4768,6 +5192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clA",
           "package": "OpenCLRaw",
@@ -4777,6 +5202,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clA",
           "package": "OpenCLRaw",
@@ -4789,6 +5215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clARGB",
           "package": "OpenCLRaw",
@@ -4798,6 +5225,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clARGB",
           "package": "OpenCLRaw",
@@ -4811,6 +5239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clAddressClamp",
           "package": "OpenCLRaw",
@@ -4820,6 +5249,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clAddressClamp",
           "package": "OpenCLRaw",
@@ -4833,6 +5263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clAddressClampToEdge",
           "package": "OpenCLRaw",
@@ -4842,6 +5273,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clAddressClampToEdge",
           "package": "OpenCLRaw",
@@ -4855,6 +5287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clAddressNone",
           "package": "OpenCLRaw",
@@ -4864,6 +5297,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clAddressNone",
           "package": "OpenCLRaw",
@@ -4877,6 +5311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clAddressRepeat",
           "package": "OpenCLRaw",
@@ -4886,6 +5321,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clAddressRepeat",
           "package": "OpenCLRaw",
@@ -4899,6 +5335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clBGRA",
           "package": "OpenCLRaw",
@@ -4908,6 +5345,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clBGRA",
           "package": "OpenCLRaw",
@@ -4921,6 +5359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clBuildError",
           "package": "OpenCLRaw",
@@ -4930,6 +5369,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clBuildError",
           "package": "OpenCLRaw",
@@ -4943,6 +5383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clBuildInProgress",
           "package": "OpenCLRaw",
@@ -4952,6 +5393,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clBuildInProgress",
           "package": "OpenCLRaw",
@@ -4965,6 +5407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clBuildNone",
           "package": "OpenCLRaw",
@@ -4974,6 +5417,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clBuildNone",
           "package": "OpenCLRaw",
@@ -4987,6 +5431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clBuildSuccess",
           "package": "OpenCLRaw",
@@ -4996,6 +5441,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clBuildSuccess",
           "package": "OpenCLRaw",
@@ -5009,6 +5455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clContextDevices",
           "package": "OpenCLRaw",
@@ -5018,6 +5465,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clContextDevices",
           "package": "OpenCLRaw",
@@ -5031,6 +5479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clContextProperties",
           "package": "OpenCLRaw",
@@ -5040,6 +5489,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clContextProperties",
           "package": "OpenCLRaw",
@@ -5053,6 +5503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clContextReferenceCount",
           "package": "OpenCLRaw",
@@ -5062,6 +5513,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clContextReferenceCount",
           "package": "OpenCLRaw",
@@ -5075,6 +5527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceAddressBits",
           "package": "OpenCLRaw",
@@ -5084,6 +5537,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceAddressBits",
           "package": "OpenCLRaw",
@@ -5097,6 +5551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceAvailable",
           "package": "OpenCLRaw",
@@ -5106,6 +5561,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceAvailable",
           "package": "OpenCLRaw",
@@ -5119,6 +5575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceCompilerAvailable",
           "package": "OpenCLRaw",
@@ -5128,6 +5585,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceCompilerAvailable",
           "package": "OpenCLRaw",
@@ -5141,6 +5599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceEndianLittle",
           "package": "OpenCLRaw",
@@ -5150,6 +5609,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceEndianLittle",
           "package": "OpenCLRaw",
@@ -5163,6 +5623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceErrorCorrectionSupport",
           "package": "OpenCLRaw",
@@ -5172,6 +5633,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceErrorCorrectionSupport",
           "package": "OpenCLRaw",
@@ -5185,6 +5647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceExecutionCapabilities",
           "package": "OpenCLRaw",
@@ -5194,6 +5657,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceExecutionCapabilities",
           "package": "OpenCLRaw",
@@ -5207,6 +5671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceExtensions",
           "package": "OpenCLRaw",
@@ -5216,6 +5681,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceExtensions",
           "package": "OpenCLRaw",
@@ -5229,6 +5695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceGlobalMemCacheLineSize",
           "package": "OpenCLRaw",
@@ -5238,6 +5705,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceGlobalMemCacheLineSize",
           "package": "OpenCLRaw",
@@ -5251,6 +5719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceGlobalMemCacheSize",
           "package": "OpenCLRaw",
@@ -5260,6 +5729,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceGlobalMemCacheSize",
           "package": "OpenCLRaw",
@@ -5273,6 +5743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceGlobalMemCacheType",
           "package": "OpenCLRaw",
@@ -5282,6 +5753,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceGlobalMemCacheType",
           "package": "OpenCLRaw",
@@ -5295,6 +5767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceGlobalMemSize",
           "package": "OpenCLRaw",
@@ -5304,6 +5777,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceGlobalMemSize",
           "package": "OpenCLRaw",
@@ -5317,6 +5791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceImage2DMaxHeight",
           "package": "OpenCLRaw",
@@ -5326,6 +5801,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceImage2DMaxHeight",
           "package": "OpenCLRaw",
@@ -5339,6 +5815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceImage2DMaxWidth",
           "package": "OpenCLRaw",
@@ -5348,6 +5825,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceImage2DMaxWidth",
           "package": "OpenCLRaw",
@@ -5361,6 +5839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceImage3DMaxDepth",
           "package": "OpenCLRaw",
@@ -5370,6 +5849,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceImage3DMaxDepth",
           "package": "OpenCLRaw",
@@ -5383,6 +5863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceImage3DMaxHeight",
           "package": "OpenCLRaw",
@@ -5392,6 +5873,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceImage3DMaxHeight",
           "package": "OpenCLRaw",
@@ -5405,6 +5887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceImage3DMaxWidth",
           "package": "OpenCLRaw",
@@ -5414,6 +5897,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceImage3DMaxWidth",
           "package": "OpenCLRaw",
@@ -5427,6 +5911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceImageSupport",
           "package": "OpenCLRaw",
@@ -5436,6 +5921,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceImageSupport",
           "package": "OpenCLRaw",
@@ -5449,6 +5935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceLocalMemSize",
           "package": "OpenCLRaw",
@@ -5458,6 +5945,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceLocalMemSize",
           "package": "OpenCLRaw",
@@ -5471,6 +5959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMLocalMemType",
           "package": "OpenCLRaw",
@@ -5480,6 +5969,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMLocalMemType",
           "package": "OpenCLRaw",
@@ -5493,6 +5983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxClockFrequency",
           "package": "OpenCLRaw",
@@ -5502,6 +5993,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxClockFrequency",
           "package": "OpenCLRaw",
@@ -5515,6 +6007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxComputeUnits",
           "package": "OpenCLRaw",
@@ -5524,6 +6017,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxComputeUnits",
           "package": "OpenCLRaw",
@@ -5537,6 +6031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxConstantArgs",
           "package": "OpenCLRaw",
@@ -5546,6 +6041,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxConstantArgs",
           "package": "OpenCLRaw",
@@ -5559,6 +6055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxConstantBuffersize",
           "package": "OpenCLRaw",
@@ -5568,6 +6065,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxConstantBuffersize",
           "package": "OpenCLRaw",
@@ -5581,6 +6079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxMemAllocSize",
           "package": "OpenCLRaw",
@@ -5590,6 +6089,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxMemAllocSize",
           "package": "OpenCLRaw",
@@ -5603,6 +6103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxParameterSize",
           "package": "OpenCLRaw",
@@ -5612,6 +6113,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxParameterSize",
           "package": "OpenCLRaw",
@@ -5625,6 +6127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxReadImageArgs",
           "package": "OpenCLRaw",
@@ -5634,6 +6137,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxReadImageArgs",
           "package": "OpenCLRaw",
@@ -5647,6 +6151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxSamplers",
           "package": "OpenCLRaw",
@@ -5656,6 +6161,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxSamplers",
           "package": "OpenCLRaw",
@@ -5669,6 +6175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxWorkGroupSize",
           "package": "OpenCLRaw",
@@ -5678,6 +6185,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxWorkGroupSize",
           "package": "OpenCLRaw",
@@ -5691,6 +6199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxWorkItemDimensions",
           "package": "OpenCLRaw",
@@ -5700,6 +6209,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxWorkItemDimensions",
           "package": "OpenCLRaw",
@@ -5713,6 +6223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxWorkItemSizes",
           "package": "OpenCLRaw",
@@ -5722,6 +6233,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxWorkItemSizes",
           "package": "OpenCLRaw",
@@ -5735,6 +6247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxWriteImageArgs",
           "package": "OpenCLRaw",
@@ -5744,6 +6257,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMaxWriteImageArgs",
           "package": "OpenCLRaw",
@@ -5757,6 +6271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMemBaseAddrAlign",
           "package": "OpenCLRaw",
@@ -5766,6 +6281,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMemBaseAddrAlign",
           "package": "OpenCLRaw",
@@ -5779,6 +6295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMinDataTypeAlignSize",
           "package": "OpenCLRaw",
@@ -5788,6 +6305,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceMinDataTypeAlignSize",
           "package": "OpenCLRaw",
@@ -5801,6 +6319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceName",
           "package": "OpenCLRaw",
@@ -5810,6 +6329,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceName",
           "package": "OpenCLRaw",
@@ -5823,6 +6343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDevicePlatform",
           "package": "OpenCLRaw",
@@ -5832,6 +6353,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDevicePlatform",
           "package": "OpenCLRaw",
@@ -5845,6 +6367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDevicePreferredVectorWidthChar",
           "package": "OpenCLRaw",
@@ -5854,6 +6377,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDevicePreferredVectorWidthChar",
           "package": "OpenCLRaw",
@@ -5867,6 +6391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDevicePreferredVectorWidthDouble",
           "package": "OpenCLRaw",
@@ -5876,6 +6401,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDevicePreferredVectorWidthDouble",
           "package": "OpenCLRaw",
@@ -5889,6 +6415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDevicePreferredVectorWidthFloat",
           "package": "OpenCLRaw",
@@ -5898,6 +6425,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDevicePreferredVectorWidthFloat",
           "package": "OpenCLRaw",
@@ -5911,6 +6439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDevicePreferredVectorWidthInt",
           "package": "OpenCLRaw",
@@ -5920,6 +6449,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDevicePreferredVectorWidthInt",
           "package": "OpenCLRaw",
@@ -5933,6 +6463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDevicePreferredVectorWidthLong",
           "package": "OpenCLRaw",
@@ -5942,6 +6473,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDevicePreferredVectorWidthLong",
           "package": "OpenCLRaw",
@@ -5955,6 +6487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDevicePreferredVectorWidthShort",
           "package": "OpenCLRaw",
@@ -5964,6 +6497,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDevicePreferredVectorWidthShort",
           "package": "OpenCLRaw",
@@ -5977,6 +6511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceProfile",
           "package": "OpenCLRaw",
@@ -5986,6 +6521,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceProfile",
           "package": "OpenCLRaw",
@@ -5999,6 +6535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceProfilingTimerResolution",
           "package": "OpenCLRaw",
@@ -6008,6 +6545,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceProfilingTimerResolution",
           "package": "OpenCLRaw",
@@ -6021,6 +6559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceQueueProperties",
           "package": "OpenCLRaw",
@@ -6030,6 +6569,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceQueueProperties",
           "package": "OpenCLRaw",
@@ -6043,6 +6583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceSingleFPConfig",
           "package": "OpenCLRaw",
@@ -6052,6 +6593,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceSingleFPConfig",
           "package": "OpenCLRaw",
@@ -6065,6 +6607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceType",
           "package": "OpenCLRaw",
@@ -6074,6 +6617,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceType",
           "package": "OpenCLRaw",
@@ -6087,6 +6631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceTypeAccelerator",
           "package": "OpenCLRaw",
@@ -6096,6 +6641,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceTypeAccelerator",
           "package": "OpenCLRaw",
@@ -6109,6 +6655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceTypeAll",
           "package": "OpenCLRaw",
@@ -6118,6 +6665,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceTypeAll",
           "package": "OpenCLRaw",
@@ -6131,6 +6679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceTypeCPU",
           "package": "OpenCLRaw",
@@ -6140,6 +6689,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceTypeCPU",
           "package": "OpenCLRaw",
@@ -6153,6 +6703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceTypeDefault",
           "package": "OpenCLRaw",
@@ -6162,6 +6713,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceTypeDefault",
           "package": "OpenCLRaw",
@@ -6175,6 +6727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceTypeGPU",
           "package": "OpenCLRaw",
@@ -6184,6 +6737,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceTypeGPU",
           "package": "OpenCLRaw",
@@ -6197,6 +6751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceVendor",
           "package": "OpenCLRaw",
@@ -6206,6 +6761,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceVendor",
           "package": "OpenCLRaw",
@@ -6219,6 +6775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceVendorID",
           "package": "OpenCLRaw",
@@ -6228,6 +6785,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceVendorID",
           "package": "OpenCLRaw",
@@ -6241,6 +6799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceVersion",
           "package": "OpenCLRaw",
@@ -6250,6 +6809,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDeviceVersion",
           "package": "OpenCLRaw",
@@ -6263,6 +6823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDriverVersion",
           "package": "OpenCLRaw",
@@ -6272,6 +6833,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clDriverVersion",
           "package": "OpenCLRaw",
@@ -6285,6 +6847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clEventCommandExecutionStatus",
           "package": "OpenCLRaw",
@@ -6294,6 +6857,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clEventCommandExecutionStatus",
           "package": "OpenCLRaw",
@@ -6307,6 +6871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clEventCommandQueue",
           "package": "OpenCLRaw",
@@ -6316,6 +6881,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clEventCommandQueue",
           "package": "OpenCLRaw",
@@ -6329,6 +6895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clEventCommandType",
           "package": "OpenCLRaw",
@@ -6338,6 +6905,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clEventCommandType",
           "package": "OpenCLRaw",
@@ -6351,6 +6919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clEventReferenceCount",
           "package": "OpenCLRaw",
@@ -6360,6 +6929,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clEventReferenceCount",
           "package": "OpenCLRaw",
@@ -6373,6 +6943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clFPDenorm",
           "package": "OpenCLRaw",
@@ -6382,6 +6953,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clFPDenorm",
           "package": "OpenCLRaw",
@@ -6395,6 +6967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clFPFMA",
           "package": "OpenCLRaw",
@@ -6404,6 +6977,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clFPFMA",
           "package": "OpenCLRaw",
@@ -6417,6 +6991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clFPInfNan",
           "package": "OpenCLRaw",
@@ -6426,6 +7001,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clFPInfNan",
           "package": "OpenCLRaw",
@@ -6439,6 +7015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clFPRoundToInf",
           "package": "OpenCLRaw",
@@ -6448,6 +7025,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clFPRoundToInf",
           "package": "OpenCLRaw",
@@ -6461,6 +7039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clFPRoundToNearest",
           "package": "OpenCLRaw",
@@ -6470,6 +7049,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clFPRoundToNearest",
           "package": "OpenCLRaw",
@@ -6483,6 +7063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clFPRoundToZero",
           "package": "OpenCLRaw",
@@ -6492,6 +7073,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clFPRoundToZero",
           "package": "OpenCLRaw",
@@ -6505,6 +7087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clFloat",
           "package": "OpenCLRaw",
@@ -6514,6 +7097,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clFloat",
           "package": "OpenCLRaw",
@@ -6527,6 +7111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clHalfFloat",
           "package": "OpenCLRaw",
@@ -6536,6 +7121,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clHalfFloat",
           "package": "OpenCLRaw",
@@ -6549,6 +7135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clImageDepth",
           "package": "OpenCLRaw",
@@ -6558,6 +7145,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clImageDepth",
           "package": "OpenCLRaw",
@@ -6571,6 +7159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clImageElementSize",
           "package": "OpenCLRaw",
@@ -6580,6 +7169,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clImageElementSize",
           "package": "OpenCLRaw",
@@ -6593,6 +7183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clImageFormat",
           "package": "OpenCLRaw",
@@ -6602,6 +7193,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clImageFormat",
           "package": "OpenCLRaw",
@@ -6615,6 +7207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clImageHeight",
           "package": "OpenCLRaw",
@@ -6624,6 +7217,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clImageHeight",
           "package": "OpenCLRaw",
@@ -6637,6 +7231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clImageRowPitch",
           "package": "OpenCLRaw",
@@ -6646,6 +7241,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clImageRowPitch",
           "package": "OpenCLRaw",
@@ -6659,6 +7255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clImageSlicePitch",
           "package": "OpenCLRaw",
@@ -6668,6 +7265,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clImageSlicePitch",
           "package": "OpenCLRaw",
@@ -6681,6 +7279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clImageWidth",
           "package": "OpenCLRaw",
@@ -6690,6 +7289,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clImageWidth",
           "package": "OpenCLRaw",
@@ -6703,6 +7303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clIntensity",
           "package": "OpenCLRaw",
@@ -6712,6 +7313,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clIntensity",
           "package": "OpenCLRaw",
@@ -6725,6 +7327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clKernelCompileWorkGroupSize",
           "package": "OpenCLRaw",
@@ -6734,6 +7337,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clKernelCompileWorkGroupSize",
           "package": "OpenCLRaw",
@@ -6747,6 +7351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clKernelContext",
           "package": "OpenCLRaw",
@@ -6756,6 +7361,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clKernelContext",
           "package": "OpenCLRaw",
@@ -6769,6 +7375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clKernelFunctionName",
           "package": "OpenCLRaw",
@@ -6778,6 +7385,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clKernelFunctionName",
           "package": "OpenCLRaw",
@@ -6791,6 +7399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clKernelLocalMemSize",
           "package": "OpenCLRaw",
@@ -6800,6 +7409,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clKernelLocalMemSize",
           "package": "OpenCLRaw",
@@ -6813,6 +7423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clKernelNumFlags",
           "package": "OpenCLRaw",
@@ -6822,6 +7433,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clKernelNumFlags",
           "package": "OpenCLRaw",
@@ -6835,6 +7447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clKernelProgram",
           "package": "OpenCLRaw",
@@ -6844,6 +7457,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clKernelProgram",
           "package": "OpenCLRaw",
@@ -6857,6 +7471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clKernelReferenceCount",
           "package": "OpenCLRaw",
@@ -6866,6 +7481,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clKernelReferenceCount",
           "package": "OpenCLRaw",
@@ -6879,6 +7495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clKernelWorkGroupSize",
           "package": "OpenCLRaw",
@@ -6888,6 +7505,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clKernelWorkGroupSize",
           "package": "OpenCLRaw",
@@ -6901,6 +7519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clLuminance",
           "package": "OpenCLRaw",
@@ -6910,6 +7529,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clLuminance",
           "package": "OpenCLRaw",
@@ -6923,6 +7543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMapRead",
           "package": "OpenCLRaw",
@@ -6932,6 +7553,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMapRead",
           "package": "OpenCLRaw",
@@ -6945,6 +7567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMapWrite",
           "package": "OpenCLRaw",
@@ -6954,6 +7577,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMapWrite",
           "package": "OpenCLRaw",
@@ -6967,6 +7591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemAllocHostPtr",
           "package": "OpenCLRaw",
@@ -6976,6 +7601,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemAllocHostPtr",
           "package": "OpenCLRaw",
@@ -6989,6 +7615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemContext",
           "package": "OpenCLRaw",
@@ -6998,6 +7625,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemContext",
           "package": "OpenCLRaw",
@@ -7011,6 +7639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemCopyHostPtr",
           "package": "OpenCLRaw",
@@ -7020,6 +7649,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemCopyHostPtr",
           "package": "OpenCLRaw",
@@ -7033,6 +7663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemFlags",
           "package": "OpenCLRaw",
@@ -7042,6 +7673,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemFlags",
           "package": "OpenCLRaw",
@@ -7055,6 +7687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemHostPtr",
           "package": "OpenCLRaw",
@@ -7064,6 +7697,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemHostPtr",
           "package": "OpenCLRaw",
@@ -7077,6 +7711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemMapCount",
           "package": "OpenCLRaw",
@@ -7086,6 +7721,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemMapCount",
           "package": "OpenCLRaw",
@@ -7099,6 +7735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemObjectBuffer",
           "package": "OpenCLRaw",
@@ -7108,6 +7745,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemObjectBuffer",
           "package": "OpenCLRaw",
@@ -7121,6 +7759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemObjectImage2D",
           "package": "OpenCLRaw",
@@ -7130,6 +7769,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemObjectImage2D",
           "package": "OpenCLRaw",
@@ -7143,6 +7783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemObjectImage3D",
           "package": "OpenCLRaw",
@@ -7152,6 +7793,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemObjectImage3D",
           "package": "OpenCLRaw",
@@ -7165,6 +7807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemReadOnly",
           "package": "OpenCLRaw",
@@ -7174,6 +7817,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemReadOnly",
           "package": "OpenCLRaw",
@@ -7187,6 +7831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemReadWrite",
           "package": "OpenCLRaw",
@@ -7196,6 +7841,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemReadWrite",
           "package": "OpenCLRaw",
@@ -7209,6 +7855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemReferenceCount",
           "package": "OpenCLRaw",
@@ -7218,6 +7865,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemReferenceCount",
           "package": "OpenCLRaw",
@@ -7231,6 +7879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemSize",
           "package": "OpenCLRaw",
@@ -7240,6 +7889,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemSize",
           "package": "OpenCLRaw",
@@ -7253,6 +7903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemType",
           "package": "OpenCLRaw",
@@ -7262,6 +7913,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemType",
           "package": "OpenCLRaw",
@@ -7275,6 +7927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemUseHostPtr",
           "package": "OpenCLRaw",
@@ -7284,6 +7937,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemUseHostPtr",
           "package": "OpenCLRaw",
@@ -7297,6 +7951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemWriteOnly",
           "package": "OpenCLRaw",
@@ -7306,6 +7961,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clMemWriteOnly",
           "package": "OpenCLRaw",
@@ -7319,6 +7975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clPlatformExtensions",
           "package": "OpenCLRaw",
@@ -7328,6 +7985,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clPlatformExtensions",
           "package": "OpenCLRaw",
@@ -7341,6 +7999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clPlatformName",
           "package": "OpenCLRaw",
@@ -7350,6 +8009,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clPlatformName",
           "package": "OpenCLRaw",
@@ -7363,6 +8023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clPlatformProfile",
           "package": "OpenCLRaw",
@@ -7372,6 +8033,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clPlatformProfile",
           "package": "OpenCLRaw",
@@ -7385,6 +8047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clPlatformVendor",
           "package": "OpenCLRaw",
@@ -7394,6 +8057,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clPlatformVendor",
           "package": "OpenCLRaw",
@@ -7407,6 +8071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clPlatformVersion",
           "package": "OpenCLRaw",
@@ -7416,6 +8081,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clPlatformVersion",
           "package": "OpenCLRaw",
@@ -7429,6 +8095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProfilingCommandEnd",
           "package": "OpenCLRaw",
@@ -7438,6 +8105,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProfilingCommandEnd",
           "package": "OpenCLRaw",
@@ -7451,6 +8119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProfilingCommandQueued",
           "package": "OpenCLRaw",
@@ -7460,6 +8129,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProfilingCommandQueued",
           "package": "OpenCLRaw",
@@ -7473,6 +8143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProfilingCommandStart",
           "package": "OpenCLRaw",
@@ -7482,6 +8153,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProfilingCommandStart",
           "package": "OpenCLRaw",
@@ -7495,6 +8167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProfilingCommandSubmit",
           "package": "OpenCLRaw",
@@ -7504,6 +8177,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProfilingCommandSubmit",
           "package": "OpenCLRaw",
@@ -7517,6 +8191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProgramBinaries",
           "package": "OpenCLRaw",
@@ -7526,6 +8201,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProgramBinaries",
           "package": "OpenCLRaw",
@@ -7539,6 +8215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProgramBinarySizes",
           "package": "OpenCLRaw",
@@ -7548,6 +8225,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProgramBinarySizes",
           "package": "OpenCLRaw",
@@ -7561,6 +8239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProgramBuildLog",
           "package": "OpenCLRaw",
@@ -7570,6 +8249,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProgramBuildLog",
           "package": "OpenCLRaw",
@@ -7583,6 +8263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProgramBuildOptions",
           "package": "OpenCLRaw",
@@ -7592,6 +8273,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProgramBuildOptions",
           "package": "OpenCLRaw",
@@ -7605,6 +8287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProgramBuildStatus",
           "package": "OpenCLRaw",
@@ -7614,6 +8297,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProgramBuildStatus",
           "package": "OpenCLRaw",
@@ -7627,6 +8311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProgramContext",
           "package": "OpenCLRaw",
@@ -7636,6 +8321,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProgramContext",
           "package": "OpenCLRaw",
@@ -7649,6 +8335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProgramDevices",
           "package": "OpenCLRaw",
@@ -7658,6 +8345,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProgramDevices",
           "package": "OpenCLRaw",
@@ -7671,6 +8359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProgramNumDevices",
           "package": "OpenCLRaw",
@@ -7680,6 +8369,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProgramNumDevices",
           "package": "OpenCLRaw",
@@ -7693,6 +8383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProgramReferenceCount",
           "package": "OpenCLRaw",
@@ -7702,6 +8393,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProgramReferenceCount",
           "package": "OpenCLRaw",
@@ -7715,6 +8407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProgramSource",
           "package": "OpenCLRaw",
@@ -7724,6 +8417,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clProgramSource",
           "package": "OpenCLRaw",
@@ -7737,6 +8431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clQueueContext",
           "package": "OpenCLRaw",
@@ -7746,6 +8441,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clQueueContext",
           "package": "OpenCLRaw",
@@ -7759,6 +8455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clQueueDevice",
           "package": "OpenCLRaw",
@@ -7768,6 +8465,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clQueueDevice",
           "package": "OpenCLRaw",
@@ -7781,6 +8479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clQueueOutOfOrderExecModeEnable",
           "package": "OpenCLRaw",
@@ -7790,6 +8489,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clQueueOutOfOrderExecModeEnable",
           "package": "OpenCLRaw",
@@ -7803,6 +8503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clQueueProfilingEnable",
           "package": "OpenCLRaw",
@@ -7812,6 +8513,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clQueueProfilingEnable",
           "package": "OpenCLRaw",
@@ -7825,6 +8527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clQueueProperties",
           "package": "OpenCLRaw",
@@ -7834,6 +8537,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clQueueProperties",
           "package": "OpenCLRaw",
@@ -7847,6 +8551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clQueueReferenceCount",
           "package": "OpenCLRaw",
@@ -7856,6 +8561,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clQueueReferenceCount",
           "package": "OpenCLRaw",
@@ -7869,6 +8575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clR",
           "package": "OpenCLRaw",
@@ -7878,6 +8585,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clR",
           "package": "OpenCLRaw",
@@ -7890,6 +8598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clRA",
           "package": "OpenCLRaw",
@@ -7899,6 +8608,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clRA",
           "package": "OpenCLRaw",
@@ -7912,6 +8622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clRG",
           "package": "OpenCLRaw",
@@ -7921,6 +8632,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clRG",
           "package": "OpenCLRaw",
@@ -7934,6 +8646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clRGB",
           "package": "OpenCLRaw",
@@ -7943,6 +8656,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clRGB",
           "package": "OpenCLRaw",
@@ -7956,6 +8670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clRGBA",
           "package": "OpenCLRaw",
@@ -7965,6 +8680,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clRGBA",
           "package": "OpenCLRaw",
@@ -7978,6 +8694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clSNormInt16",
           "package": "OpenCLRaw",
@@ -7987,6 +8704,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clSNormInt16",
           "package": "OpenCLRaw",
@@ -8000,6 +8718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clSNormInt8",
           "package": "OpenCLRaw",
@@ -8009,6 +8728,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clSNormInt8",
           "package": "OpenCLRaw",
@@ -8022,6 +8742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clSamplerAddressingMode",
           "package": "OpenCLRaw",
@@ -8031,6 +8752,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clSamplerAddressingMode",
           "package": "OpenCLRaw",
@@ -8044,6 +8766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clSamplerContext",
           "package": "OpenCLRaw",
@@ -8053,6 +8776,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clSamplerContext",
           "package": "OpenCLRaw",
@@ -8066,6 +8790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clSamplerFilterMode",
           "package": "OpenCLRaw",
@@ -8075,6 +8800,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clSamplerFilterMode",
           "package": "OpenCLRaw",
@@ -8088,6 +8814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clSamplerNormalizedCoords",
           "package": "OpenCLRaw",
@@ -8097,6 +8824,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clSamplerNormalizedCoords",
           "package": "OpenCLRaw",
@@ -8110,6 +8838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clSamplerReferenceCount",
           "package": "OpenCLRaw",
@@ -8119,6 +8848,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clSamplerReferenceCount",
           "package": "OpenCLRaw",
@@ -8132,6 +8862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clSignedInt16",
           "package": "OpenCLRaw",
@@ -8141,6 +8872,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clSignedInt16",
           "package": "OpenCLRaw",
@@ -8154,6 +8886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clSignedInt32",
           "package": "OpenCLRaw",
@@ -8163,6 +8896,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clSignedInt32",
           "package": "OpenCLRaw",
@@ -8176,6 +8910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clSignedInt8",
           "package": "OpenCLRaw",
@@ -8185,6 +8920,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clSignedInt8",
           "package": "OpenCLRaw",
@@ -8198,6 +8934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clUNormInt101010",
           "package": "OpenCLRaw",
@@ -8207,6 +8944,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clUNormInt101010",
           "package": "OpenCLRaw",
@@ -8220,6 +8958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clUNormInt16",
           "package": "OpenCLRaw",
@@ -8229,6 +8968,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clUNormInt16",
           "package": "OpenCLRaw",
@@ -8242,6 +8982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clUNormInt8",
           "package": "OpenCLRaw",
@@ -8251,6 +8992,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clUNormInt8",
           "package": "OpenCLRaw",
@@ -8264,6 +9006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clUNormShort555",
           "package": "OpenCLRaw",
@@ -8273,6 +9016,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clUNormShort555",
           "package": "OpenCLRaw",
@@ -8286,6 +9030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clUNormShort565",
           "package": "OpenCLRaw",
@@ -8295,6 +9040,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clUNormShort565",
           "package": "OpenCLRaw",
@@ -8308,6 +9054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clUnsignedInt16",
           "package": "OpenCLRaw",
@@ -8317,6 +9064,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clUnsignedInt16",
           "package": "OpenCLRaw",
@@ -8330,6 +9078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clUnsignedInt32",
           "package": "OpenCLRaw",
@@ -8339,6 +9088,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clUnsignedInt32",
           "package": "OpenCLRaw",
@@ -8352,6 +9102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clUnsignedInt8",
           "package": "OpenCLRaw",
@@ -8361,6 +9112,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Raw V10 Types",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10.Types",
           "name": "clUnsignedInt8",
           "package": "OpenCLRaw",
@@ -8375,6 +9127,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe OpenCL system for open heterogenous data parallel supercomputing.\n\u003c/p\u003e\u003cp\u003eWrapper to the FFI written and maintained by Jeff Heard of the Renaissance Computing Institute \u003ca\u003emailto:jeff@renci.org\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eFrom the introduction: \n\u003c/p\u003e\u003cp\u003eOpenCL (Open Computing Language) is an open royalty-free standard for general purpose \n    parallel programming across CPUs, GPUs and other processors, giving software developers \n    portable and efficient access to the power of these heterogeneous processing platforms.   \n\u003c/p\u003e\u003cp\u003eOpenCL supports a wide range of applications, ranging from embedded and consumer software \n    to HPC solutions, through a low-level, high-performance, portable abstraction.  By creating an \n    efficient, close-to-the-metal programming interface, OpenCL will form the foundation layer of a \n    parallel computing ecosystem of platform-independent tools, middleware and applications.  \n    OpenCL is particularly suited to play an increasingly significant role in emerging interactive \n    graphics applications that combine general parallel compute algorithms with graphics rendering \n    pipelines. \n\u003c/p\u003e\u003cp\u003eOpenCL consists of an API for coordinating parallel computation across \n    heterogeneous processors; and a cross-platform programming language with a well- \n    specified computation environment.  The OpenCL standard: \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Supports both data- and task-based parallel programming models \n\u003c/li\u003e\u003cli\u003e Utilizes a subset of ISO C99 with extensions for parallelism \n\u003c/li\u003e\u003cli\u003e Defines consistent numerical requirements based on IEEE 754 \n\u003c/li\u003e\u003cli\u003e Defines a configuration profile for handheld and embedded devices \n\u003c/li\u003e\u003cli\u003e Efficiently interoperates with OpenGL, OpenGL ES and other graphics APIs\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e_General Notes on the differences between Haskell and the OpenCL-C implementation_\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Side-effectful procedures capable of returning an error code only return a Maybe ErrorCode, with Nothing returned upon success\n\u003c/li\u003e\u003cli\u003e Procedures which follow the pattern of returning a pointer to an object and taking a final parameter as an error code instead\n      return Either ErrorCode \u003ccode\u003eObjectType\u003c/code\u003e \n\u003c/li\u003e\u003cli\u003e Procedures which prefix with clGetInfo* merely take the object, parameter name, and parameter size to allocate.  The allocation\n      handled by OpenCLRaw and returned as a Haskell-managed \u003ccode\u003eForeignPtr ()\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Enumerations and constants are replaced by newtypes for the sake of type-safety.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:31 UTC 2014",
           "module": "System.OpenCL.Raw.V10",
           "name": "V10",
           "package": "OpenCLRaw",
@@ -8384,6 +9137,7 @@
         "index": {
           "description": "The OpenCL system for open heterogenous data parallel supercomputing Wrapper to the FFI written and maintained by Jeff Heard of the Renaissance Computing Institute mailto jeff@renci.org From the introduction OpenCL Open Computing Language is an open royalty-free standard for general purpose parallel programming across CPUs GPUs and other processors giving software developers portable and efficient access to the power of these heterogeneous processing platforms OpenCL supports wide range of applications ranging from embedded and consumer software to HPC solutions through low-level high-performance portable abstraction By creating an efficient close-to-the-metal programming interface OpenCL will form the foundation layer of parallel computing ecosystem of platform-independent tools middleware and applications OpenCL is particularly suited to play an increasingly significant role in emerging interactive graphics applications that combine general parallel compute algorithms with graphics rendering pipelines OpenCL consists of an API for coordinating parallel computation across heterogeneous processors and cross-platform programming language with well specified computation environment The OpenCL standard Supports both data and task-based parallel programming models Utilizes subset of ISO C99 with extensions for parallelism Defines consistent numerical requirements based on IEEE Defines configuration profile for handheld and embedded devices Efficiently interoperates with OpenGL OpenGL ES and other graphics APIs General Notes on the differences between Haskell and the OpenCL-C implementation Side-effectful procedures capable of returning an error code only return Maybe ErrorCode with Nothing returned upon success Procedures which follow the pattern of returning pointer to an object and taking final parameter as an error code instead return Either ErrorCode ObjectType Procedures which prefix with clGetInfo merely take the object parameter name and parameter size to allocate The allocation handled by OpenCLRaw and returned as Haskell-managed ForeignPtr Enumerations and constants are replaced by newtypes for the sake of type-safety",
           "hierarchy": "System OpenCL Raw V10",
+          "indexed": "2014-03-11T16:55:31",
           "module": "System.OpenCL.Raw.V10",
           "name": "V10",
           "package": "OpenCLRaw",

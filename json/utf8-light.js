@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "utf8-light"
+        "phrase": "utf8-light",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLightweight UTF8 handling.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "Light",
           "package": "utf8-light",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Lightweight UTF8 handling",
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "Light",
           "package": "utf8-light",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e16-bit signed integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "Int16",
           "package": "utf8-light",
@@ -50,6 +53,7 @@
         "index": {
           "description": "bit signed integer type",
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "Int16",
           "package": "utf8-light",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit signed integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "Int32",
           "package": "utf8-light",
@@ -72,6 +77,7 @@
         "index": {
           "description": "bit signed integer type",
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "Int32",
           "package": "utf8-light",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e8-bit signed integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "Int8",
           "package": "utf8-light",
@@ -94,6 +101,7 @@
         "index": {
           "description": "bit signed integer type",
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "Int8",
           "package": "utf8-light",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances:\n    \u003ccode\u003eByteString\u003c/code\u003e, \u003ccode\u003eString\u003c/code\u003e\n    , \u003ccode\u003e[Word32]\u003c/code\u003e, \u003ccode\u003e[Word]\u003c/code\u003e\n    , \u003ccode\u003e[Int32]\u003c/code\u003e, \u003ccode\u003e[Int]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "UTF8",
           "package": "utf8-light",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Instances ByteString String Word32 Word Int32 Int",
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "UTF8",
           "package": "utf8-light",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e is an unsigned integral type, with the same size as \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "Word",
           "package": "utf8-light",
@@ -139,6 +150,7 @@
         "index": {
           "description": "Word is an unsigned integral type with the same size as Int",
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "Word",
           "package": "utf8-light",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e16-bit unsigned integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "Word16",
           "package": "utf8-light",
@@ -161,6 +174,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "Word16",
           "package": "utf8-light",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit unsigned integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "Word32",
           "package": "utf8-light",
@@ -183,6 +198,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "Word32",
           "package": "utf8-light",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e8-bit unsigned integer type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "Word8",
           "package": "utf8-light",
@@ -205,6 +222,7 @@
         "index": {
           "description": "bit unsigned integer type",
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "Word8",
           "package": "utf8-light",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "appendUTF8File",
           "package": "utf8-light",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "appendUTF8File",
           "normalized": "FilePath-\u003ea-\u003eIO()",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "c2w",
           "package": "utf8-light",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "c2w",
           "normalized": "Char-\u003eWord",
@@ -266,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLengths in Word8s\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "countUTF8",
           "package": "utf8-light",
@@ -276,6 +299,7 @@
         "index": {
           "description": "Lengths in Word8s",
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "countUTF8",
           "normalized": "ByteString-\u003e[Int]",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "decode",
           "package": "utf8-light",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "decode",
           "normalized": "ByteString-\u003ea",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "decodeUTF8",
           "package": "utf8-light",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "decodeUTF8",
           "normalized": "ByteString-\u003e[Word]",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "encode",
           "package": "utf8-light",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "encode",
           "normalized": "a-\u003eByteString",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "encodeUTF8",
           "package": "utf8-light",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "encodeUTF8",
           "normalized": "[Word]-\u003eByteString",
@@ -386,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWord32s not representing\n  valid UTF8 chars are \u003cem\u003edropped\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "encodeUTF8'",
           "package": "utf8-light",
@@ -396,6 +429,7 @@
         "index": {
           "description": "Word32s not representing valid UTF8 chars are dropped",
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "encodeUTF8'",
           "normalized": "[Word]-\u003e[[Word]]",
@@ -411,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "flipTab",
           "package": "utf8-light",
@@ -420,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "flipTab",
           "normalized": "[(Int,Int)]",
@@ -436,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e ghci\u003e putUTF8Ln $ flipUTF8 \"[?np_bs!]\"\n [&#161;sq&#8254;bu&#191;\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "flipUTF8",
           "package": "utf8-light",
@@ -446,6 +483,7 @@
         "index": {
           "description": "ghci putUTF8Ln flipUTF8 np bs sq bu",
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "flipUTF8",
           "normalized": "a-\u003ea",
@@ -461,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "fromBits",
           "package": "utf8-light",
@@ -470,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "fromBits",
           "normalized": "[Word]-\u003eWord",
@@ -486,6 +526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBe careful that you're sure you're not\n  chopping a UTF8 char in two!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "hGetUTF8",
           "package": "utf8-light",
@@ -496,6 +537,7 @@
         "index": {
           "description": "Be careful that you re sure you re not chopping UTF8 char in two",
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "hGetUTF8",
           "normalized": "Handle-\u003eInt-\u003eIO a",
@@ -511,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "hGetUTF8Contents",
           "package": "utf8-light",
@@ -520,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "hGetUTF8Contents",
           "normalized": "Handle-\u003eIO a",
@@ -535,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "hGetUTF8Line",
           "package": "utf8-light",
@@ -544,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "hGetUTF8Line",
           "normalized": "Handle-\u003eIO a",
@@ -560,6 +606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame warning as for \u003ccode\u003ehGetUTF8\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "hGetUTF8NonBlocking",
           "package": "utf8-light",
@@ -570,6 +617,7 @@
         "index": {
           "description": "Same warning as for hGetUTF8",
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "hGetUTF8NonBlocking",
           "normalized": "Handle-\u003eInt-\u003eIO a",
@@ -585,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "hPutUTF8",
           "package": "utf8-light",
@@ -594,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "hPutUTF8",
           "normalized": "Handle-\u003ea-\u003eIO()",
@@ -609,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "hPutUTF8Ln",
           "package": "utf8-light",
@@ -618,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "hPutUTF8Ln",
           "normalized": "Handle-\u003ea-\u003eIO()",
@@ -633,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "i2w",
           "package": "utf8-light",
@@ -642,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "i2w",
           "normalized": "Int-\u003eWord",
@@ -657,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength in Word16s\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "lenUTF16",
           "package": "utf8-light",
@@ -667,6 +722,7 @@
         "index": {
           "description": "Length in Word16s",
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "lenUTF16",
           "normalized": "Word-\u003eInt",
@@ -683,6 +739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength in Word8s\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "lenUTF8",
           "package": "utf8-light",
@@ -693,6 +750,7 @@
         "index": {
           "description": "Length in Word8s",
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "lenUTF8",
           "normalized": "Word-\u003eInt",
@@ -708,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "putUTF8",
           "package": "utf8-light",
@@ -717,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "putUTF8",
           "normalized": "a-\u003eIO()",
@@ -732,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "putUTF8Ln",
           "package": "utf8-light",
@@ -741,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "putUTF8Ln",
           "normalized": "a-\u003eIO()",
@@ -756,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "readUTF8File",
           "package": "utf8-light",
@@ -765,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "readUTF8File",
           "normalized": "FilePath-\u003eIO a",
@@ -780,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "showHex",
           "package": "utf8-light",
@@ -789,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "showHex",
           "normalized": "Int-\u003eString",
@@ -804,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "toBits",
           "package": "utf8-light",
@@ -813,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "toBits",
           "normalized": "Word-\u003e[Word]",
@@ -828,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "unflipTab",
           "package": "utf8-light",
@@ -837,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "unflipTab",
           "normalized": "[(Int,Int)]",
@@ -853,6 +923,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e ghci\u003e putUTF8Ln $ (unflipUTF8 . flipUTF8) \"[?np_bs!]\"\n [?np_bs!]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "unflipUTF8",
           "package": "utf8-light",
@@ -863,6 +934,7 @@
         "index": {
           "description": "ghci putUTF8Ln unflipUTF8 flipUTF8 np bs np bs",
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "unflipUTF8",
           "normalized": "a-\u003ea",
@@ -878,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "w2c",
           "package": "utf8-light",
@@ -887,6 +960,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "w2c",
           "normalized": "Word-\u003eChar",
@@ -901,6 +975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "w2i",
           "package": "utf8-light",
@@ -910,6 +985,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "w2i",
           "normalized": "Word-\u003eInt",
@@ -924,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "withUTF8",
           "package": "utf8-light",
@@ -933,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "withUTF8",
           "normalized": "a-\u003e(ByteString-\u003eb)-\u003eb",
@@ -948,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:10 UTC 2014",
           "module": "Codec.Binary.UTF8.Light",
           "name": "writeUTF8File",
           "package": "utf8-light",
@@ -957,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary UTF8 Light",
+          "indexed": "2014-03-11T20:32:10",
           "module": "Codec.Binary.UTF8.Light",
           "name": "writeUTF8File",
           "normalized": "FilePath-\u003ea-\u003eIO()",

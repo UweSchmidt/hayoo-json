@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "accelerate-fft"
+        "phrase": "accelerate-fft",
+        "type": "phrase"
       },
       "type": "context"
     }

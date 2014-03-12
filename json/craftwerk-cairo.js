@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "craftwerk-cairo"
+        "phrase": "craftwerk-cairo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRenders a craftwerk \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eRender\u003c/a\u003e\u003c/code\u003e render context.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:42:41 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Driver.Cairo",
           "name": "Cairo",
           "package": "craftwerk-cairo",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Renders craftwerk Figure into Render render context",
           "hierarchy": "Graphics Craftwerk Core Driver Cairo",
+          "indexed": "2014-03-11T17:42:41",
           "module": "Graphics.Craftwerk.Core.Driver.Cairo",
           "name": "Cairo",
           "package": "craftwerk-cairo",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a Craftwerk \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003e within a \u003ccode\u003e\u003ca\u003eRender\u003c/a\u003e\u003c/code\u003e context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:41 UTC 2014",
           "module": "Graphics.Craftwerk.Core.Driver.Cairo",
           "name": "figureToRenderContext",
           "package": "craftwerk-cairo",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Render Craftwerk Figure within Render context",
           "hierarchy": "Graphics Craftwerk Core Driver Cairo",
+          "indexed": "2014-03-11T17:42:41",
           "module": "Graphics.Craftwerk.Core.Driver.Cairo",
           "name": "figureToRenderContext",
           "normalized": "Figure-\u003eRender()",

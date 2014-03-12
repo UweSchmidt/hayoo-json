@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fordo"
+        "phrase": "fordo",
+        "type": "phrase"
       },
       "type": "context"
     }

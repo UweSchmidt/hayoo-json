@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hails-bin"
+        "phrase": "hails-bin",
+        "type": "phrase"
       },
       "type": "context"
     }

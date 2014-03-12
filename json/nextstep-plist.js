@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nextstep-plist"
+        "phrase": "nextstep-plist",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:07 UTC 2014",
           "module": "Text.NSPlist.Parsec",
           "name": "Parsec",
           "package": "nextstep-plist",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text NSPlist Parsec",
+          "indexed": "2014-03-11T19:29:07",
           "module": "Text.NSPlist.Parsec",
           "name": "Parsec",
           "package": "nextstep-plist",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:07 UTC 2014",
           "module": "Text.NSPlist.Parsec",
           "name": "pNSPlist",
           "package": "nextstep-plist",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text NSPlist Parsec",
+          "indexed": "2014-03-11T19:29:07",
           "module": "Text.NSPlist.Parsec",
           "name": "pNSPlist",
           "package": "nextstep-plist",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:07 UTC 2014",
           "module": "Text.NSPlist.Pretty",
           "name": "Pretty",
           "package": "nextstep-plist",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Text NSPlist Pretty",
+          "indexed": "2014-03-11T19:29:07",
           "module": "Text.NSPlist.Pretty",
           "name": "Pretty",
           "package": "nextstep-plist",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:07 UTC 2014",
           "module": "Text.NSPlist.Pretty",
           "name": "prettyNSPlist",
           "package": "nextstep-plist",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Text NSPlist Pretty",
+          "indexed": "2014-03-11T19:29:07",
           "module": "Text.NSPlist.Pretty",
           "name": "prettyNSPlist",
           "normalized": "NSPlistValue-\u003eDoc",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:07 UTC 2014",
           "module": "Text.NSPlist.Types",
           "name": "Types",
           "package": "nextstep-plist",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Text NSPlist Types",
+          "indexed": "2014-03-11T19:29:07",
           "module": "Text.NSPlist.Types",
           "name": "Types",
           "package": "nextstep-plist",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type that represents NextStep style (old style) Plist values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:07 UTC 2014",
           "module": "Text.NSPlist.Types",
           "name": "NSPlistValue",
           "package": "nextstep-plist",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Data type that represents NextStep style old style Plist values",
           "hierarchy": "Text NSPlist Types",
+          "indexed": "2014-03-11T19:29:07",
           "module": "Text.NSPlist.Types",
           "name": "NSPlistValue",
           "package": "nextstep-plist",
@@ -249,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing and Printing NextStep style (old style) plist files\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:29:07 UTC 2014",
           "module": "Text.NSPlist",
           "name": "NSPlist",
           "package": "nextstep-plist",
@@ -258,6 +271,7 @@
         "index": {
           "description": "Parsing and Printing NextStep style old style plist files",
           "hierarchy": "Text NSPlist",
+          "indexed": "2014-03-11T19:29:07",
           "module": "Text.NSPlist",
           "name": "NSPlist",
           "package": "nextstep-plist",
@@ -272,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type that represents NextStep style (old style) Plist values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:07 UTC 2014",
           "module": "Text.NSPlist",
           "name": "NSPlistValue",
           "package": "nextstep-plist",
@@ -281,6 +296,7 @@
         "index": {
           "description": "Data type that represents NextStep style old style Plist values",
           "hierarchy": "Text NSPlist",
+          "indexed": "2014-03-11T19:29:07",
           "module": "Text.NSPlist",
           "name": "NSPlistValue",
           "package": "nextstep-plist",
@@ -294,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:07 UTC 2014",
           "module": "Text.NSPlist",
           "name": "parseNSPlist",
           "package": "nextstep-plist",
@@ -303,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Text NSPlist",
+          "indexed": "2014-03-11T19:29:07",
           "module": "Text.NSPlist",
           "name": "parseNSPlist",
           "normalized": "String-\u003eEither ParseError NSPlistValue",
@@ -318,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:07 UTC 2014",
           "module": "Text.NSPlist",
           "name": "readNSPlistFromFile",
           "package": "nextstep-plist",
@@ -327,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Text NSPlist",
+          "indexed": "2014-03-11T19:29:07",
           "module": "Text.NSPlist",
           "name": "readNSPlistFromFile",
           "normalized": "FilePath-\u003eIO NSPlistValue",
@@ -342,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:07 UTC 2014",
           "module": "Text.NSPlist",
           "name": "showNSPlist",
           "package": "nextstep-plist",
@@ -351,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Text NSPlist",
+          "indexed": "2014-03-11T19:29:07",
           "module": "Text.NSPlist",
           "name": "showNSPlist",
           "normalized": "NSPlistValue-\u003eString",
@@ -366,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:07 UTC 2014",
           "module": "Text.NSPlist",
           "name": "writeNSPlistToFile",
           "package": "nextstep-plist",
@@ -375,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Text NSPlist",
+          "indexed": "2014-03-11T19:29:07",
           "module": "Text.NSPlist",
           "name": "writeNSPlistToFile",
           "normalized": "FilePath-\u003eNSPlistValue-\u003eIO()",

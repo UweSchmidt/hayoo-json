@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "reactive-balsa"
+        "phrase": "reactive-balsa",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "Common",
           "package": "reactive-balsa",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "Common",
           "package": "reactive-balsa",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "Bundle",
           "package": "reactive-balsa",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "Bundle",
           "package": "reactive-balsa",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "EventBundle",
           "package": "reactive-balsa",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "EventBundle",
           "package": "reactive-balsa",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "EventDataBundle",
           "package": "reactive-balsa",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "EventDataBundle",
           "package": "reactive-balsa",
@@ -103,6 +111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class unifies several ways of handling multiple events at once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "Events",
           "package": "reactive-balsa",
@@ -112,6 +121,7 @@
         "index": {
           "description": "This class unifies several ways of handling multiple events at once",
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "Events",
           "package": "reactive-balsa",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe times are relative to the start time of the bundle\nand do not need to be ordered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "Future",
           "package": "reactive-balsa",
@@ -135,6 +146,7 @@
         "index": {
           "description": "The times are relative to the start time of the bundle and do not need to be ordered",
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "Future",
           "package": "reactive-balsa",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "Handle",
           "package": "reactive-balsa",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "Handle",
           "package": "reactive-balsa",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "KeyQueue",
           "package": "reactive-balsa",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "KeyQueue",
           "package": "reactive-balsa",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "KeySet",
           "package": "reactive-balsa",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "KeySet",
           "package": "reactive-balsa",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "NoteBoundary",
           "package": "reactive-balsa",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "NoteBoundary",
           "package": "reactive-balsa",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "NoteBoundaryExt",
           "package": "reactive-balsa",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "NoteBoundaryExt",
           "package": "reactive-balsa",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "AllNotesOff",
           "package": "reactive-balsa",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "AllNotesOff",
           "package": "reactive-balsa",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "Future",
           "package": "reactive-balsa",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "Future",
           "package": "reactive-balsa",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "Handle",
           "package": "reactive-balsa",
@@ -306,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "Handle",
           "package": "reactive-balsa",
@@ -319,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "NoteBoundary",
           "package": "reactive-balsa",
@@ -328,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "NoteBoundary",
           "normalized": "NoteBoundary(Pitch,Channel)Velocity Bool",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "NoteBoundaryExt",
           "package": "reactive-balsa",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "NoteBoundaryExt",
           "package": "reactive-balsa",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "channel",
           "package": "reactive-balsa",
@@ -374,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "channel",
           "normalized": "Int-\u003eChannel",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "checkChannel",
           "package": "reactive-balsa",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "checkChannel",
           "normalized": "(Channel-\u003eBool)-\u003eData-\u003eBool",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "checkController",
           "package": "reactive-balsa",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "checkController",
           "normalized": "(Controller-\u003eBool)-\u003eData-\u003eBool",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "checkMode",
           "package": "reactive-balsa",
@@ -445,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "checkMode",
           "normalized": "(T-\u003eBool)-\u003eData-\u003eBool",
@@ -460,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "checkPitch",
           "package": "reactive-balsa",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "checkPitch",
           "normalized": "(Pitch-\u003eBool)-\u003eData-\u003eBool",
@@ -484,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "checkProgram",
           "package": "reactive-balsa",
@@ -493,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "checkProgram",
           "normalized": "(Program-\u003eBool)-\u003eData-\u003eBool",
@@ -508,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "client",
           "package": "reactive-balsa",
@@ -517,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "client",
           "package": "reactive-balsa",
@@ -530,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect ourselve to an input client and an output client.\nThe function expects a list of alternative clients\nthat are checked successively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "connect",
           "package": "reactive-balsa",
@@ -540,6 +587,7 @@
         "index": {
           "description": "Connect ourselve to an input client and an output client The function expects list of alternative clients that are checked successively",
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "connect",
           "normalized": "[String]-\u003e[String]-\u003eReaderT Handle IO()",
@@ -554,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "connectAny",
           "package": "reactive-balsa",
@@ -563,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "connectAny",
           "normalized": "ReaderT Handle IO()",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "connectFrom",
           "package": "reactive-balsa",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "connectFrom",
           "normalized": "T-\u003eReaderT Handle IO T",
@@ -602,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "connectLLVM",
           "package": "reactive-balsa",
@@ -611,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "connectLLVM",
           "normalized": "ReaderT Handle IO()",
@@ -626,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "connectTimidity",
           "package": "reactive-balsa",
@@ -635,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "connectTimidity",
           "normalized": "ReaderT Handle IO()",
@@ -650,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "connectTo",
           "package": "reactive-balsa",
@@ -659,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "connectTo",
           "normalized": "T-\u003eReaderT Handle IO T",
@@ -674,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "controller",
           "package": "reactive-balsa",
@@ -683,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "controller",
           "normalized": "Int-\u003eController",
@@ -698,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap NoteOn events to a controller value.\nThis way you may play notes via the resonance frequency of a filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "controllerFromNote",
           "package": "reactive-balsa",
@@ -708,6 +769,7 @@
         "index": {
           "description": "Map NoteOn events to controller value This way you may play notes via the resonance frequency of filter",
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "controllerFromNote",
           "normalized": "(Int-\u003eInt)-\u003eController-\u003eData-\u003eMaybe Data",
@@ -723,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "controllerMatch",
           "package": "reactive-balsa",
@@ -732,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "controllerMatch",
           "normalized": "Channel-\u003eController-\u003eCtrl-\u003eBool",
@@ -747,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "ctrlDur",
           "package": "reactive-balsa",
@@ -756,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "ctrlDur",
           "normalized": "(T,T)-\u003eInt-\u003eT",
@@ -771,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "ctrlDurExponential",
           "package": "reactive-balsa",
@@ -780,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "ctrlDurExponential",
           "normalized": "(T,T)-\u003eInt-\u003eT",
@@ -795,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "ctrlDurLinear",
           "package": "reactive-balsa",
@@ -804,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "ctrlDurLinear",
           "normalized": "(T,T)-\u003eInt-\u003eT",
@@ -819,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "defaultTempoCtrl",
           "package": "reactive-balsa",
@@ -828,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "defaultTempoCtrl",
           "normalized": "(Channel,Controller)",
@@ -843,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "delayAdd",
           "package": "reactive-balsa",
@@ -852,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "delayAdd",
           "normalized": "Velocity-\u003eT-\u003eData-\u003eEventDataBundle",
@@ -867,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "eventsFromKey",
           "package": "reactive-balsa",
@@ -876,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "eventsFromKey",
           "normalized": "T-\u003eT-\u003e((Pitch,Channel),Velocity)-\u003eEventDataBundle",
@@ -891,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "exit",
           "package": "reactive-balsa",
@@ -900,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "exit",
           "normalized": "Handle-\u003eIO()",
@@ -914,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "flattenEvents",
           "package": "reactive-balsa",
@@ -923,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "flattenEvents",
           "normalized": "a-\u003e[Future Data]",
@@ -938,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "fraction",
           "package": "reactive-balsa",
@@ -947,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "fraction",
           "normalized": "a-\u003ea",
@@ -961,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "futureData",
           "package": "reactive-balsa",
@@ -970,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "futureData",
           "package": "reactive-balsa",
@@ -983,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "futureTime",
           "package": "reactive-balsa",
@@ -992,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "futureTime",
           "package": "reactive-balsa",
@@ -1005,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "haskellSynth",
           "package": "reactive-balsa",
@@ -1014,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "haskellSynth",
           "package": "reactive-balsa",
@@ -1027,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "immediateBundle",
           "package": "reactive-balsa",
@@ -1036,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "immediateBundle",
           "normalized": "[a]-\u003eBundle a",
@@ -1051,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "increasePitch",
           "package": "reactive-balsa",
@@ -1060,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "increasePitch",
           "normalized": "Int-\u003ePitch-\u003eMaybe Pitch",
@@ -1075,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "init",
           "package": "reactive-balsa",
@@ -1084,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "init",
           "package": "reactive-balsa",
@@ -1096,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "inputs",
           "package": "reactive-balsa",
@@ -1105,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "inputs",
           "normalized": "[String]",
@@ -1119,6 +1215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "isAllNotesOff",
           "package": "reactive-balsa",
@@ -1128,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "isAllNotesOff",
           "normalized": "Data-\u003eBool",
@@ -1143,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "makeEcho",
           "package": "reactive-balsa",
@@ -1152,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "makeEcho",
           "normalized": "Handle-\u003eAbs-\u003eT",
@@ -1167,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "makeEvent",
           "package": "reactive-balsa",
@@ -1176,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "makeEvent",
           "normalized": "Handle-\u003eAbs-\u003eData-\u003eT",
@@ -1191,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "maybeNote",
           "package": "reactive-balsa",
@@ -1200,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "maybeNote",
           "normalized": "Data-\u003eMaybe NoteBoundary",
@@ -1215,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "maybeNoteExt",
           "package": "reactive-balsa",
@@ -1224,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "maybeNoteExt",
           "normalized": "Data-\u003eMaybe NoteBoundaryExt",
@@ -1239,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "maybePitch",
           "package": "reactive-balsa",
@@ -1248,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "maybePitch",
           "normalized": "Int-\u003eMaybe Pitch",
@@ -1263,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "mergeEither",
           "package": "reactive-balsa",
@@ -1272,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "mergeEither",
           "normalized": "T a b-\u003eT a c-\u003eT a(Either b c)",
@@ -1287,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "mergeStable",
           "package": "reactive-balsa",
@@ -1296,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "mergeStable",
           "normalized": "T a b-\u003eT a b-\u003eT a b",
@@ -1311,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "nextProgram",
           "package": "reactive-balsa",
@@ -1320,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "nextProgram",
           "normalized": "Note-\u003eState[Program](Maybe Data)",
@@ -1335,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "normalVelocity",
           "package": "reactive-balsa",
@@ -1344,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "normalVelocity",
           "package": "reactive-balsa",
@@ -1357,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "noteFromBnd",
           "package": "reactive-balsa",
@@ -1366,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "noteFromBnd",
           "normalized": "NoteBoundary-\u003eData",
@@ -1381,6 +1499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "now",
           "package": "reactive-balsa",
@@ -1390,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "now",
           "normalized": "a-\u003eFuture a",
@@ -1404,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "outputEvent",
           "package": "reactive-balsa",
@@ -1413,6 +1534,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "outputEvent",
           "normalized": "Abs-\u003eData-\u003eReaderT Handle IO()",
@@ -1428,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "outputs",
           "package": "reactive-balsa",
@@ -1437,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "outputs",
           "normalized": "[String]",
@@ -1451,6 +1575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "parseAddresses",
           "package": "reactive-balsa",
@@ -1460,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "parseAddresses",
           "normalized": "[String]-\u003eReaderT Handle IO T",
@@ -1475,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "pitch",
           "package": "reactive-balsa",
@@ -1484,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "pitch",
           "normalized": "Int-\u003ePitch",
@@ -1498,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "portPrivate",
           "package": "reactive-balsa",
@@ -1507,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "portPrivate",
           "package": "reactive-balsa",
@@ -1520,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "portPublic",
           "package": "reactive-balsa",
@@ -1529,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "portPublic",
           "package": "reactive-balsa",
@@ -1542,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "program",
           "package": "reactive-balsa",
@@ -1551,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "program",
           "normalized": "Int-\u003eProgram",
@@ -1565,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "programFromBanks",
           "package": "reactive-balsa",
@@ -1574,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "programFromBanks",
           "normalized": "[a]-\u003e[a]-\u003ea",
@@ -1590,6 +1726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpret program changes as a kind of bank switches\nin order to increase the range of instruments\nthat can be selected via a block of patch select buttons.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eprogramAsBanks ns\u003c/code\u003e divides the first \u003ccode\u003esum ns\u003c/code\u003e instruments\ninto sections of sizes \u003ccode\u003ens!!0, ns!!1, ...\u003c/code\u003e.\nEach program in those sections is interpreted as a bank in a hierarchy,\nwhere the lower program numbers are the least significant banks.\nPrograms from \u003ccode\u003esum ns\u003c/code\u003e on are passed through as they are.\n\u003ccode\u003eproduct ns\u003c/code\u003e is the number of instruments\nthat you can address using this trick.\nIn order to avoid overflow it should be less than 128.\n\u003c/p\u003e\u003cp\u003eE.g. \u003ccode\u003eprogramAsBanks [n,m]\u003c/code\u003e interprets subsequent program changes to\n\u003ccode\u003ea\u003c/code\u003e (\u003ccode\u003e0\u003c=a\u003cn\u003c/code\u003e) and \u003ccode\u003en+b\u003c/code\u003e (\u003ccode\u003e0\u003c=b\u003cm\u003c/code\u003e)\nas a program change to \u003ccode\u003eb*n+a\u003c/code\u003e.\n\u003ccode\u003eprogramAsBanks [8,8]\u003c/code\u003e allows to select 64 instruments\nby 16 program change buttons,\nwhereas \u003ccode\u003eprogramAsBanks [8,4,4]\u003c/code\u003e\nallows to address the full range of MIDI 128 instruments\nwith the same number of buttons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "programsAsBanks",
           "package": "reactive-balsa",
@@ -1600,6 +1737,7 @@
         "index": {
           "description": "Interpret program changes as kind of bank switches in order to increase the range of instruments that can be selected via block of patch select buttons programAsBanks ns divides the first sum ns instruments into sections of sizes ns ns Each program in those sections is interpreted as bank in hierarchy where the lower program numbers are the least significant banks Programs from sum ns on are passed through as they are product ns is the number of instruments that you can address using this trick In order to avoid overflow it should be less than E.g programAsBanks interprets subsequent program changes to and as program change to programAsBanks allows to select instruments by program change buttons whereas programAsBanks allows to address the full range of MIDI instruments with the same number of buttons",
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "programsAsBanks",
           "normalized": "[Int]-\u003eData-\u003eState[Int]Data",
@@ -1615,6 +1753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "queue",
           "package": "reactive-balsa",
@@ -1624,6 +1763,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "queue",
           "package": "reactive-balsa",
@@ -1636,6 +1776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "reduceNoteVelocity",
           "package": "reactive-balsa",
@@ -1645,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "reduceNoteVelocity",
           "normalized": "Velocity-\u003eNote-\u003eNote",
@@ -1661,6 +1803,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e \u003e replaceProgram [1,2,3,4] 5 [10,11,12,13]\n (True,[10,11,2,13])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "replaceProgram",
           "package": "reactive-balsa",
@@ -1671,6 +1814,7 @@
         "index": {
           "description": "replaceProgram True",
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "replaceProgram",
           "normalized": "[a]-\u003ea-\u003e[a]-\u003e(Bool,[a])",
@@ -1687,6 +1831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwap order of keys.\nNon-note events are returned without modification.\nIf by reversing a note leaves the range of representable MIDI notes,\nthen we return Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "reverse",
           "package": "reactive-balsa",
@@ -1697,6 +1842,7 @@
         "index": {
           "description": "Swap order of keys Non-note events are returned without modification If by reversing note leaves the range of representable MIDI notes then we return Nothing",
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "reverse",
           "normalized": "Data-\u003eMaybe Data",
@@ -1711,6 +1857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "seekProgram",
           "package": "reactive-balsa",
@@ -1720,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "seekProgram",
           "normalized": "Int-\u003eProgram-\u003eState[Program](Maybe Data)",
@@ -1735,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "sendController",
           "package": "reactive-balsa",
@@ -1744,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "sendController",
           "normalized": "Channel-\u003eController-\u003eInt-\u003eReaderT Handle IO()",
@@ -1759,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "sendKey",
           "package": "reactive-balsa",
@@ -1768,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "sendKey",
           "normalized": "Channel-\u003eBool-\u003eVelocity-\u003ePitch-\u003eReaderT Handle IO()",
@@ -1783,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "sendMode",
           "package": "reactive-balsa",
@@ -1792,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "sendMode",
           "normalized": "Channel-\u003eT-\u003eReaderT Handle IO()",
@@ -1807,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "sendNote",
           "package": "reactive-balsa",
@@ -1816,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "sendNote",
           "normalized": "Channel-\u003eT-\u003eVelocity-\u003ePitch-\u003eReaderT Handle IO()",
@@ -1831,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "sendProgram",
           "package": "reactive-balsa",
@@ -1840,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "sendProgram",
           "normalized": "Channel-\u003eProgram-\u003eReaderT Handle IO()",
@@ -1855,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "sequ",
           "package": "reactive-balsa",
@@ -1864,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "sequ",
           "package": "reactive-balsa",
@@ -1876,6 +2036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "setChannel",
           "package": "reactive-balsa",
@@ -1885,6 +2046,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "setChannel",
           "normalized": "Channel-\u003eData-\u003eData",
@@ -1901,6 +2063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake ALSA set the time stamps in incoming events\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "setTimeStamping",
           "package": "reactive-balsa",
@@ -1911,6 +2074,7 @@
         "index": {
           "description": "make ALSA set the time stamps in incoming events",
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "setTimeStamping",
           "normalized": "ReaderT Handle IO()",
@@ -1926,6 +2090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "simpleNote",
           "package": "reactive-balsa",
@@ -1935,6 +2100,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "simpleNote",
           "normalized": "Channel-\u003ePitch-\u003eVelocity-\u003eNote",
@@ -1950,6 +2116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "singletonBundle",
           "package": "reactive-balsa",
@@ -1959,6 +2126,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "singletonBundle",
           "normalized": "a-\u003eBundle a",
@@ -1975,6 +2143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eproperFraction is useless for negative numbers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "splitFraction",
           "package": "reactive-balsa",
@@ -1985,6 +2154,7 @@
         "index": {
           "description": "properFraction is useless for negative numbers",
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "splitFraction",
           "normalized": "a-\u003e(Int,a)",
@@ -2000,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "startQueue",
           "package": "reactive-balsa",
@@ -2009,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "startQueue",
           "normalized": "ReaderT Handle IO()",
@@ -2024,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "subtractPitch",
           "package": "reactive-balsa",
@@ -2033,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "subtractPitch",
           "normalized": "Pitch-\u003ePitch-\u003eInt",
@@ -2048,6 +2222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "timidity",
           "package": "reactive-balsa",
@@ -2057,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "timidity",
           "package": "reactive-balsa",
@@ -2070,6 +2246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranspose a note event by the given number of semitones.\nNon-note events are returned without modification.\nIf by transposition a note leaves the range of representable MIDI notes,\nthen we return Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "transpose",
           "package": "reactive-balsa",
@@ -2080,6 +2257,7 @@
         "index": {
           "description": "Transpose note event by the given number of semitones Non-note events are returned without modification If by transposition note leaves the range of representable MIDI notes then we return Nothing",
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "transpose",
           "normalized": "Int-\u003eData-\u003eMaybe Data",
@@ -2095,6 +2273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBefore every note switch to another instrument\naccording to a list of programs given as state of the State monad.\nI do not know how to handle multiple channels in a reasonable way.\nCurrently I just switch the instrument independent from the channel,\nand send the program switch to the same channel as the beginning note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "traversePrograms",
           "package": "reactive-balsa",
@@ -2105,6 +2284,7 @@
         "index": {
           "description": "Before every note switch to another instrument according to list of programs given as state of the State monad do not know how to handle multiple channels in reasonable way Currently just switch the instrument independent from the channel and send the program switch to the same channel as the beginning note",
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "traversePrograms",
           "normalized": "Data-\u003eState[Program](Maybe Data)",
@@ -2121,6 +2301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function extends \u003ccode\u003e\u003ca\u003etraversePrograms\u003c/a\u003e\u003c/code\u003e.\nIt reacts on external program changes\nby seeking an according program in the list.\nThis way we can reset the pointer into the instrument list.\nHowever the search must be limited in order to prevent an infinite loop\nif we receive a program that is not contained in the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "traverseProgramsSeek",
           "package": "reactive-balsa",
@@ -2131,6 +2312,7 @@
         "index": {
           "description": "This function extends traversePrograms It reacts on external program changes by seeking an according program in the list This way we can reset the pointer into the instrument list However the search must be limited in order to prevent an infinite loop if we receive program that is not contained in the list",
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "traverseProgramsSeek",
           "normalized": "Int-\u003eData-\u003eState[Program](Maybe Data)",
@@ -2146,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "velocity",
           "package": "reactive-balsa",
@@ -2155,6 +2338,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "velocity",
           "normalized": "Int-\u003eVelocity",
@@ -2169,6 +2353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "with",
           "package": "reactive-balsa",
@@ -2178,6 +2363,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Common",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Common",
           "name": "with",
           "normalized": "ReaderT Handle IO a-\u003eIO a",
@@ -2192,6 +2378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "Example",
           "package": "reactive-balsa",
@@ -2200,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "Example",
           "package": "reactive-balsa",
@@ -2213,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "binary",
           "package": "reactive-balsa",
@@ -2222,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "binary",
           "normalized": "ReaderT Handle IO()",
@@ -2236,6 +2426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "bruijn",
           "package": "reactive-balsa",
@@ -2245,6 +2436,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "bruijn",
           "normalized": "ReaderT Handle IO()",
@@ -2259,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "continuousSelect",
           "package": "reactive-balsa",
@@ -2268,6 +2461,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "continuousSelect",
           "normalized": "ReaderT Handle IO()",
@@ -2283,6 +2477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "crossSum",
           "package": "reactive-balsa",
@@ -2292,6 +2487,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "crossSum",
           "normalized": "ReaderT Handle IO()",
@@ -2307,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "cyclePrograms",
           "package": "reactive-balsa",
@@ -2316,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "cyclePrograms",
           "normalized": "ReaderT Handle IO()",
@@ -2331,6 +2529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "cycleUp",
           "package": "reactive-balsa",
@@ -2340,6 +2539,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "cycleUp",
           "normalized": "ReaderT Handle IO()",
@@ -2355,6 +2555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "cycleUpAuto",
           "package": "reactive-balsa",
@@ -2364,6 +2565,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "cycleUpAuto",
           "normalized": "ReaderT Handle IO()",
@@ -2379,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "cycleUpOffset",
           "package": "reactive-balsa",
@@ -2388,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "cycleUpOffset",
           "normalized": "ReaderT Handle IO()",
@@ -2403,6 +2607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "delay",
           "package": "reactive-balsa",
@@ -2412,6 +2617,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "delay",
           "normalized": "ReaderT Handle IO()",
@@ -2426,6 +2632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "delayAdd",
           "package": "reactive-balsa",
@@ -2435,6 +2642,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "delayAdd",
           "normalized": "ReaderT Handle IO()",
@@ -2450,6 +2658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "delayTranspose",
           "package": "reactive-balsa",
@@ -2459,6 +2668,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "delayTranspose",
           "normalized": "ReaderT Handle IO()",
@@ -2474,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "getTempo",
           "package": "reactive-balsa",
@@ -2483,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "getTempo",
           "normalized": "Event a b-\u003e(Behavior a T,Event a b)",
@@ -2498,6 +2710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "groupLatch",
           "package": "reactive-balsa",
@@ -2507,6 +2720,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "groupLatch",
           "normalized": "ReaderT Handle IO()",
@@ -2522,6 +2736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "guitar",
           "package": "reactive-balsa",
@@ -2531,6 +2746,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "guitar",
           "normalized": "ReaderT Handle IO()",
@@ -2545,6 +2761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "latch",
           "package": "reactive-balsa",
@@ -2554,6 +2771,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "latch",
           "normalized": "ReaderT Handle IO()",
@@ -2568,6 +2786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "pass",
           "package": "reactive-balsa",
@@ -2577,6 +2796,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "pass",
           "normalized": "ReaderT Handle IO()",
@@ -2591,6 +2811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "pattern",
           "package": "reactive-balsa",
@@ -2600,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "pattern",
           "normalized": "Behavior a b-\u003eEvent a Abs-\u003eEvent a[NoteBoundary])-\u003eReaderT Handle IO()",
@@ -2614,6 +2836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "pingPong",
           "package": "reactive-balsa",
@@ -2623,6 +2846,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "pingPong",
           "normalized": "ReaderT Handle IO()",
@@ -2638,6 +2862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "pingPongAuto",
           "package": "reactive-balsa",
@@ -2647,6 +2872,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "pingPongAuto",
           "normalized": "ReaderT Handle IO()",
@@ -2662,6 +2888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "random",
           "package": "reactive-balsa",
@@ -2671,6 +2898,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "random",
           "normalized": "ReaderT Handle IO()",
@@ -2685,6 +2913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "randomInversions",
           "package": "reactive-balsa",
@@ -2694,6 +2923,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "randomInversions",
           "normalized": "ReaderT Handle IO()",
@@ -2709,6 +2939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "reverse",
           "package": "reactive-balsa",
@@ -2718,6 +2949,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "reverse",
           "normalized": "ReaderT Handle IO()",
@@ -2732,6 +2964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "run",
           "package": "reactive-balsa",
@@ -2741,6 +2974,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "run",
           "normalized": "ReaderT Handle IO a-\u003eIO a",
@@ -2755,6 +2989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "runLLVM",
           "package": "reactive-balsa",
@@ -2764,6 +2999,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "runLLVM",
           "normalized": "ReaderT Handle IO a-\u003eIO a",
@@ -2779,6 +3015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "runTimidity",
           "package": "reactive-balsa",
@@ -2788,6 +3025,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "runTimidity",
           "normalized": "ReaderT Handle IO a-\u003eIO a",
@@ -2803,6 +3041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "serialCycleUp",
           "package": "reactive-balsa",
@@ -2812,6 +3051,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "serialCycleUp",
           "normalized": "ReaderT Handle IO()",
@@ -2827,6 +3067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "snapSelect",
           "package": "reactive-balsa",
@@ -2836,6 +3077,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "snapSelect",
           "normalized": "ReaderT Handle IO()",
@@ -2851,6 +3093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "split",
           "package": "reactive-balsa",
@@ -2860,6 +3103,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "split",
           "normalized": "ReaderT Handle IO()",
@@ -2874,6 +3118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "splitPattern",
           "package": "reactive-balsa",
@@ -2883,6 +3128,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "splitPattern",
           "normalized": "ReaderT Handle IO()",
@@ -2898,6 +3144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "sweep",
           "package": "reactive-balsa",
@@ -2907,6 +3154,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "sweep",
           "normalized": "ReaderT Handle IO()",
@@ -2921,6 +3169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "time",
           "package": "reactive-balsa",
@@ -2930,6 +3179,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "time",
           "normalized": "Rational-\u003eT",
@@ -2944,6 +3194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "trainer",
           "package": "reactive-balsa",
@@ -2953,6 +3204,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "trainer",
           "normalized": "a-\u003eReaderT Handle IO()",
@@ -2967,6 +3219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "transpose",
           "package": "reactive-balsa",
@@ -2976,6 +3229,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Example",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Example",
           "name": "transpose",
           "normalized": "ReaderT Handle IO()",
@@ -2990,6 +3244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Guitar",
           "name": "Guitar",
           "package": "reactive-balsa",
@@ -2998,6 +3253,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Guitar",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Guitar",
           "name": "Guitar",
           "package": "reactive-balsa",
@@ -3011,6 +3267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Guitar",
           "name": "Transpose",
           "package": "reactive-balsa",
@@ -3019,6 +3276,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Guitar",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Guitar",
           "name": "Transpose",
           "package": "reactive-balsa",
@@ -3032,6 +3290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Guitar",
           "name": "choosePitchForString",
           "package": "reactive-balsa",
@@ -3041,6 +3300,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Guitar",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Guitar",
           "name": "choosePitchForString",
           "normalized": "[a]-\u003ePitch-\u003eMaybe a",
@@ -3056,6 +3316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Guitar",
           "name": "getPitch",
           "package": "reactive-balsa",
@@ -3065,6 +3326,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Guitar",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Guitar",
           "name": "getPitch",
           "normalized": "a-\u003ePitch",
@@ -3080,6 +3342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Guitar",
           "name": "mapChordToString",
           "package": "reactive-balsa",
@@ -3089,6 +3352,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Guitar",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Guitar",
           "name": "mapChordToString",
           "normalized": "[Pitch]-\u003e[a]-\u003e[a]",
@@ -3104,6 +3368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Guitar",
           "name": "stringPitches",
           "package": "reactive-balsa",
@@ -3113,6 +3378,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Guitar",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Guitar",
           "name": "stringPitches",
           "normalized": "[Pitch]",
@@ -3128,6 +3394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Guitar",
           "name": "transpose",
           "package": "reactive-balsa",
@@ -3137,6 +3404,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Guitar",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Guitar",
           "name": "transpose",
           "normalized": "Int-\u003ea-\u003eMaybe a",
@@ -3151,6 +3419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "KeySet",
           "package": "reactive-balsa",
@@ -3159,6 +3428,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "KeySet",
           "package": "reactive-balsa",
@@ -3172,6 +3442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "C",
           "package": "reactive-balsa",
@@ -3180,6 +3451,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "C",
           "package": "reactive-balsa",
@@ -3192,6 +3464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "GroupLatch",
           "package": "reactive-balsa",
@@ -3200,6 +3473,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "GroupLatch",
           "package": "reactive-balsa",
@@ -3213,6 +3487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "Latch",
           "package": "reactive-balsa",
@@ -3221,6 +3496,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "Latch",
           "package": "reactive-balsa",
@@ -3234,6 +3510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "Pressed",
           "package": "reactive-balsa",
@@ -3242,6 +3519,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "Pressed",
           "package": "reactive-balsa",
@@ -3255,6 +3533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "SerialLatch",
           "package": "reactive-balsa",
@@ -3263,6 +3542,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "SerialLatch",
           "package": "reactive-balsa",
@@ -3276,6 +3556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "GroupLatch",
           "package": "reactive-balsa",
@@ -3285,6 +3566,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "GroupLatch",
           "package": "reactive-balsa",
@@ -3298,6 +3580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "Latch",
           "package": "reactive-balsa",
@@ -3307,6 +3590,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "Latch",
           "package": "reactive-balsa",
@@ -3320,6 +3604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "Pressed",
           "package": "reactive-balsa",
@@ -3329,6 +3614,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "Pressed",
           "package": "reactive-balsa",
@@ -3342,6 +3628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "SerialLatch",
           "package": "reactive-balsa",
@@ -3351,6 +3638,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "SerialLatch",
           "package": "reactive-balsa",
@@ -3364,6 +3652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "change",
           "package": "reactive-balsa",
@@ -3373,6 +3662,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "change",
           "normalized": "NoteBoundary-\u003eState a[NoteBoundary]",
@@ -3387,6 +3677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "deconsLatch",
           "package": "reactive-balsa",
@@ -3396,6 +3687,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "deconsLatch",
           "normalized": "Map(Pitch,Channel)Velocity",
@@ -3411,6 +3703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "deconsPressed",
           "package": "reactive-balsa",
@@ -3420,6 +3713,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "deconsPressed",
           "normalized": "Map(Pitch,Channel)Velocity",
@@ -3435,6 +3729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "groupLatch",
           "package": "reactive-balsa",
@@ -3444,6 +3739,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "groupLatch",
           "package": "reactive-balsa",
@@ -3457,6 +3753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "groupLatchPlayed",
           "package": "reactive-balsa",
@@ -3466,6 +3763,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "groupLatchPlayed",
           "normalized": "T GroupLatch(Map(Pitch,Channel)Velocity)",
@@ -3481,6 +3779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "groupLatchPlayed_",
           "package": "reactive-balsa",
@@ -3490,6 +3789,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "groupLatchPlayed_",
           "normalized": "Map(Pitch,Channel)Velocity",
@@ -3505,6 +3805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "groupLatchPressed",
           "package": "reactive-balsa",
@@ -3514,6 +3815,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "groupLatchPressed",
           "normalized": "T GroupLatch(Set(Pitch,Channel))",
@@ -3529,6 +3831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "groupLatchPressed_",
           "package": "reactive-balsa",
@@ -3538,6 +3841,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "groupLatchPressed_",
           "normalized": "Set(Pitch,Channel)",
@@ -3553,6 +3857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "index",
           "package": "reactive-balsa",
@@ -3562,6 +3867,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "index",
           "normalized": "Int-\u003ea-\u003eMaybe((Pitch,Channel),Velocity)",
@@ -3576,6 +3882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "latch",
           "package": "reactive-balsa",
@@ -3585,6 +3892,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "latch",
           "package": "reactive-balsa",
@@ -3597,6 +3905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "latchAcc",
           "package": "reactive-balsa",
@@ -3606,6 +3915,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "latchAcc",
           "normalized": "T Latch(Map(Pitch,Channel)Velocity)",
@@ -3621,6 +3931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "latchChange",
           "package": "reactive-balsa",
@@ -3630,6 +3941,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "latchChange",
           "normalized": "NoteBoundary-\u003eState Latch(Maybe NoteBoundary)",
@@ -3645,6 +3957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "pressed",
           "package": "reactive-balsa",
@@ -3654,6 +3967,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "pressed",
           "package": "reactive-balsa",
@@ -3666,6 +3980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "pressedAcc",
           "package": "reactive-balsa",
@@ -3675,6 +3990,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "pressedAcc",
           "normalized": "T Pressed(Map(Pitch,Channel)Velocity)",
@@ -3690,6 +4006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "releaseKey",
           "package": "reactive-balsa",
@@ -3699,6 +4016,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "releaseKey",
           "normalized": "(Pitch,Channel)-\u003eVelocity-\u003eNoteBoundary",
@@ -3714,6 +4032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "releasePlayedKeys",
           "package": "reactive-balsa",
@@ -3723,6 +4042,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "releasePlayedKeys",
           "normalized": "State(Map(Pitch,Channel)Velocity)[NoteBoundary]",
@@ -3738,6 +4058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "reset",
           "package": "reactive-balsa",
@@ -3747,6 +4068,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "reset",
           "normalized": "State a[NoteBoundary]",
@@ -3761,6 +4083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "serialLatch",
           "package": "reactive-balsa",
@@ -3770,6 +4093,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "serialLatch",
           "normalized": "Int-\u003eSerialLatch",
@@ -3785,6 +4109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "serialLatchCursor",
           "package": "reactive-balsa",
@@ -3794,6 +4119,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "serialLatchCursor",
           "package": "reactive-balsa",
@@ -3807,6 +4133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "serialLatchCursor_",
           "package": "reactive-balsa",
@@ -3816,6 +4143,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "serialLatchCursor_",
           "package": "reactive-balsa",
@@ -3829,6 +4157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "serialLatchPlayed",
           "package": "reactive-balsa",
@@ -3838,6 +4167,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "serialLatchPlayed",
           "normalized": "T SerialLatch(Map Int((Pitch,Channel),Velocity))",
@@ -3853,6 +4183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "serialLatchPlayed_",
           "package": "reactive-balsa",
@@ -3862,6 +4193,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "serialLatchPlayed_",
           "normalized": "Map Int((Pitch,Channel),Velocity)",
@@ -3877,6 +4209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "serialLatchSize_",
           "package": "reactive-balsa",
@@ -3886,6 +4219,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "serialLatchSize_",
           "package": "reactive-balsa",
@@ -3899,6 +4233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "size",
           "package": "reactive-balsa",
@@ -3908,6 +4243,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "size",
           "normalized": "a-\u003eInt",
@@ -3922,6 +4258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "toList",
           "package": "reactive-balsa",
@@ -3931,6 +4268,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA KeySet",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.KeySet",
           "name": "toList",
           "normalized": "a-\u003e[((Pitch,Channel),Velocity)]",
@@ -3946,6 +4284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "Pattern",
           "package": "reactive-balsa",
@@ -3954,6 +4293,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "Pattern",
           "package": "reactive-balsa",
@@ -3967,6 +4307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "IndexNote",
           "package": "reactive-balsa",
@@ -3975,6 +4316,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "IndexNote",
           "package": "reactive-balsa",
@@ -3988,6 +4330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "Poly",
           "package": "reactive-balsa",
@@ -3996,6 +4339,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "Poly",
           "package": "reactive-balsa",
@@ -4009,6 +4353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "Selector",
           "package": "reactive-balsa",
@@ -4017,6 +4362,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "Selector",
           "package": "reactive-balsa",
@@ -4030,6 +4376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "T",
           "package": "reactive-balsa",
@@ -4038,6 +4385,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "T",
           "package": "reactive-balsa",
@@ -4050,6 +4398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "IndexNote",
           "package": "reactive-balsa",
@@ -4059,6 +4408,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "IndexNote",
           "package": "reactive-balsa",
@@ -4072,6 +4422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "Poly",
           "package": "reactive-balsa",
@@ -4081,6 +4432,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "Poly",
           "normalized": "Poly(Selector a b)(T Int[IndexNote b])",
@@ -4096,6 +4448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "binaryAccident",
           "package": "reactive-balsa",
@@ -4105,6 +4458,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "binaryAccident",
           "package": "reactive-balsa",
@@ -4118,6 +4472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "binaryLegato",
           "package": "reactive-balsa",
@@ -4127,6 +4482,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "binaryLegato",
           "package": "reactive-balsa",
@@ -4140,6 +4496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "binaryStaccato",
           "package": "reactive-balsa",
@@ -4149,6 +4506,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "binaryStaccato",
           "package": "reactive-balsa",
@@ -4162,6 +4520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "bruijn",
           "package": "reactive-balsa",
@@ -4171,6 +4530,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "bruijn",
           "normalized": "Int-\u003eInt-\u003eT a b c",
@@ -4185,6 +4545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "crossSum",
           "package": "reactive-balsa",
@@ -4194,6 +4555,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "crossSum",
           "normalized": "Behavior a Int-\u003eT a b c",
@@ -4209,6 +4571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "crossSumIndex",
           "package": "reactive-balsa",
@@ -4218,6 +4581,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "crossSumIndex",
           "normalized": "Behavior a Int-\u003eEvent a b-\u003eEvent a Int",
@@ -4233,6 +4597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "crossSumStaticIndex",
           "package": "reactive-balsa",
@@ -4242,6 +4607,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "crossSumStaticIndex",
           "normalized": "Int-\u003eEvent a b-\u003eEvent a Int",
@@ -4257,6 +4623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "cycleDown",
           "package": "reactive-balsa",
@@ -4266,6 +4633,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "cycleDown",
           "normalized": "Behavior a Int-\u003eT a b c",
@@ -4281,6 +4649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "cycleDownIndex",
           "package": "reactive-balsa",
@@ -4290,6 +4659,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "cycleDownIndex",
           "normalized": "Behavior a Int-\u003eEvent a b-\u003eEvent a Int",
@@ -4305,6 +4675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "cycleUp",
           "package": "reactive-balsa",
@@ -4314,6 +4685,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "cycleUp",
           "normalized": "Behavior a Int-\u003eT a b c",
@@ -4329,6 +4701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "cycleUpIndex",
           "package": "reactive-balsa",
@@ -4338,6 +4711,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "cycleUpIndex",
           "normalized": "Behavior a Int-\u003eEvent a b-\u003eEvent a Int",
@@ -4353,6 +4727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "cycleUpInversions",
           "package": "reactive-balsa",
@@ -4362,6 +4737,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "cycleUpInversions",
           "normalized": "Int-\u003eT a b c",
@@ -4377,6 +4753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "cycleUpOctave",
           "package": "reactive-balsa",
@@ -4386,6 +4763,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "cycleUpOctave",
           "normalized": "Behavior a Int-\u003eT a b c",
@@ -4401,6 +4779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "decomposePositional",
           "package": "reactive-balsa",
@@ -4410,6 +4789,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "decomposePositional",
           "normalized": "Integer-\u003eInteger-\u003e[Integer]",
@@ -4425,6 +4805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "examplePolyTempo0",
           "package": "reactive-balsa",
@@ -4434,6 +4815,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "examplePolyTempo0",
           "normalized": "T Int[IndexNote Int]",
@@ -4449,6 +4831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "examplePolyTempo1",
           "package": "reactive-balsa",
@@ -4458,6 +4841,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "examplePolyTempo1",
           "normalized": "T Int[IndexNote Int]",
@@ -4474,6 +4858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee Haskore/FlipSong\n\u003c/p\u003e\u003cp\u003eflipSeq m !! n = cross sum of the m-ary representation of n modulo m.\n\u003c/p\u003e\u003cp\u003eFor m=2 this yields\n  http:\u003cem/\u003ewww.research.att.com\u003cem\u003ecgi-bin\u003c/em\u003eaccess.cgi\u003cem\u003eas\u003c/em\u003enjas\u003cem\u003esequences\u003c/em\u003eeisA.cgi?Anum=A010060\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "flipSeq",
           "package": "reactive-balsa",
@@ -4484,6 +4869,7 @@
         "index": {
           "description": "See Haskore FlipSong flipSeq cross sum of the m-ary representation of modulo For this yields http www.research.att.com cgi-bin access.cgi as njas sequences eisA.cgi Anum A010060",
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "flipSeq",
           "normalized": "Int-\u003e[Int]",
@@ -4499,6 +4885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "fromList",
           "package": "reactive-balsa",
@@ -4508,6 +4895,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "fromList",
           "normalized": "[a]-\u003eEvent b c-\u003eEvent b a",
@@ -4523,6 +4911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "inversions",
           "package": "reactive-balsa",
@@ -4532,6 +4921,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "inversions",
           "normalized": "[Double]-\u003eT a b c",
@@ -4546,6 +4936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "item",
           "package": "reactive-balsa",
@@ -4555,6 +4946,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "item",
           "normalized": "a-\u003eInt-\u003eIndexNote a",
@@ -4569,6 +4961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "mono",
           "package": "reactive-balsa",
@@ -4578,6 +4971,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "mono",
           "normalized": "Selector a b-\u003eBehavior c a-\u003eEvent c b-\u003eEvent c[NoteBoundary]",
@@ -4592,6 +4986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "pingPong",
           "package": "reactive-balsa",
@@ -4601,6 +4996,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "pingPong",
           "normalized": "Behavior a Int-\u003eT a b c",
@@ -4616,6 +5012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "pingPongIndex",
           "package": "reactive-balsa",
@@ -4625,6 +5022,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "pingPongIndex",
           "normalized": "Behavior a Int-\u003eEvent a b-\u003eEvent a Int",
@@ -4640,6 +5038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "poly",
           "package": "reactive-balsa",
@@ -4649,6 +5048,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "poly",
           "normalized": "Selector a b-\u003eBehavior c a-\u003eEvent c[IndexNote b]-\u003eEvent c[NoteBoundary]",
@@ -4663,6 +5063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "random",
           "package": "reactive-balsa",
@@ -4672,6 +5073,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "random",
           "package": "reactive-balsa",
@@ -4684,6 +5086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "randomInversions",
           "package": "reactive-balsa",
@@ -4693,6 +5096,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "randomInversions",
           "package": "reactive-balsa",
@@ -4706,6 +5110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "selectFromChord",
           "package": "reactive-balsa",
@@ -4715,6 +5120,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "selectFromChord",
           "package": "reactive-balsa",
@@ -4728,6 +5134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "selectFromChordRatio",
           "package": "reactive-balsa",
@@ -4737,6 +5144,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "selectFromChordRatio",
           "package": "reactive-balsa",
@@ -4751,6 +5159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate notes according to the key set,\nwhere notes for negative and too large indices\nare padded with keys that are transposed by octaves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "selectFromOctaveChord",
           "package": "reactive-balsa",
@@ -4761,6 +5170,7 @@
         "index": {
           "description": "Generate notes according to the key set where notes for negative and too large indices are padded with keys that are transposed by octaves",
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "selectFromOctaveChord",
           "package": "reactive-balsa",
@@ -4774,6 +5184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "selectInversion",
           "package": "reactive-balsa",
@@ -4783,6 +5194,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Pattern",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Pattern",
           "name": "selectInversion",
           "package": "reactive-balsa",
@@ -4796,6 +5208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "Sequencer",
           "package": "reactive-balsa",
@@ -4804,6 +5217,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "Sequencer",
           "package": "reactive-balsa",
@@ -4817,6 +5231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "PitchChannel",
           "package": "reactive-balsa",
@@ -4825,6 +5240,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "PitchChannel",
           "package": "reactive-balsa",
@@ -4838,6 +5254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "Reactor",
           "package": "reactive-balsa",
@@ -4846,6 +5263,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "Reactor",
           "package": "reactive-balsa",
@@ -4859,6 +5277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "Schedule",
           "package": "reactive-balsa",
@@ -4867,6 +5286,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "Schedule",
           "package": "reactive-balsa",
@@ -4880,6 +5300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "PitchChannel",
           "package": "reactive-balsa",
@@ -4889,6 +5310,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "PitchChannel",
           "normalized": "PitchChannel((Pitch,Channel),Velocity)",
@@ -4904,6 +5326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "Reactor",
           "package": "reactive-balsa",
@@ -4913,6 +5336,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "Reactor",
           "package": "reactive-balsa",
@@ -4927,6 +5351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a beat according to the tempo control.\nThe input signal specifies the period between two beats.\nThe output events hold the times, where they occur.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "beat",
           "package": "reactive-balsa",
@@ -4937,6 +5362,7 @@
         "index": {
           "description": "Generate beat according to the tempo control The input signal specifies the period between two beats The output events hold the times where they occur",
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "beat",
           "normalized": "Behavior a T-\u003eReactor a(Event a Abs)",
@@ -4952,6 +5378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003ebeat\u003c/a\u003e\u003c/code\u003e but warrants a maximum reaction time to tempo changes.\nThis way you can alter slow tempos to faster one more quickly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "beatQuant",
           "package": "reactive-balsa",
@@ -4962,6 +5389,7 @@
         "index": {
           "description": "Similar to beat but warrants maximum reaction time to tempo changes This way you can alter slow tempos to faster one more quickly",
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "beatQuant",
           "normalized": "T-\u003eBehavior a T-\u003eReactor a(Event a Abs)",
@@ -4978,6 +5406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003ebeat\u003c/a\u003e\u003c/code\u003e but it reacts immediately to tempo changes.\nThis requires the ability of ALSA to cancel sent Echo messages\nand it requires to know the precise time points of tempo changes,\nthus we need the Discrete input instead of Behaviour\nand we need a behaviour for the current time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "beatVar",
           "package": "reactive-balsa",
@@ -4988,6 +5417,7 @@
         "index": {
           "description": "Similar to beat but it reacts immediately to tempo changes This requires the ability of ALSA to cancel sent Echo messages and it requires to know the precise time points of tempo changes thus we need the Discrete input instead of Behaviour and we need behaviour for the current time",
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "beatVar",
           "normalized": "Behavior a Abs-\u003eBehavior a T-\u003eReactor a(Event a Abs)",
@@ -5003,6 +5433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "bypass",
           "package": "reactive-balsa",
@@ -5012,6 +5443,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "bypass",
           "normalized": "(a-\u003eMaybe b)-\u003e(Event c b-\u003eEvent c d)-\u003eEvent c a-\u003eEvent c[Future Data]",
@@ -5026,6 +5458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "cancelEchos",
           "package": "reactive-balsa",
@@ -5035,6 +5468,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "cancelEchos",
           "normalized": "Handle-\u003eSchedule-\u003eIO()",
@@ -5050,6 +5484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "checkSchedule",
           "package": "reactive-balsa",
@@ -5059,6 +5494,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "checkSchedule",
           "normalized": "Schedule-\u003eT-\u003eBool",
@@ -5074,6 +5510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "controllerExponential",
           "package": "reactive-balsa",
@@ -5083,6 +5520,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "controllerExponential",
           "normalized": "Channel-\u003eController-\u003ea-\u003e(a,a)-\u003eEvent b c-\u003eBehavior b a",
@@ -5098,6 +5536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "controllerLinear",
           "package": "reactive-balsa",
@@ -5107,6 +5546,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "controllerLinear",
           "normalized": "Channel-\u003eController-\u003ea-\u003e(a,a)-\u003eEvent b c-\u003eBehavior b a",
@@ -5122,6 +5562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "controllerRaw",
           "package": "reactive-balsa",
@@ -5131,6 +5572,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "controllerRaw",
           "normalized": "Channel-\u003eController-\u003eInt-\u003eEvent a b-\u003eBehavior a Int",
@@ -5146,6 +5588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "cyclePrograms",
           "package": "reactive-balsa",
@@ -5155,6 +5598,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "cyclePrograms",
           "normalized": "[Program]-\u003eEvent a Data-\u003eEvent a(Maybe Data)",
@@ -5171,6 +5615,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e cycleProgramsDefer t\n\u003c/pre\u003e\u003cp\u003eAfter a note that triggers a program change,\nwe won't change the program in the next \u003ccode\u003et\u003c/code\u003e seconds.\nThis is in order to allow chords being played\nand in order to skip accidentally played notes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "cycleProgramsDefer",
           "package": "reactive-balsa",
@@ -5181,6 +5626,7 @@
         "index": {
           "description": "cycleProgramsDefer After note that triggers program change we won change the program in the next seconds This is in order to allow chords being played and in order to skip accidentally played notes",
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "cycleProgramsDefer",
           "normalized": "T-\u003e[Program]-\u003eBehavior a Abs-\u003eEvent a Data-\u003eEvent a(Maybe Data)",
@@ -5196,6 +5642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "debug",
           "package": "reactive-balsa",
@@ -5205,6 +5652,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "debug",
           "normalized": "String-\u003eIO()",
@@ -5219,6 +5667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "delay",
           "package": "reactive-balsa",
@@ -5228,6 +5677,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "delay",
           "normalized": "T-\u003eEvent a b-\u003eEvent a(Future b)",
@@ -5242,6 +5692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "delayAdd",
           "package": "reactive-balsa",
@@ -5251,6 +5702,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "delayAdd",
           "normalized": "T-\u003eEvent a b-\u003eEvent a(Future b)",
@@ -5267,6 +5719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemonstration of scheduleQueue,\nbut for real use prefer \u003ccode\u003e\u003ca\u003edelay\u003c/a\u003e\u003c/code\u003e,\nsince this uses precisely timed delivery by ALSA.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "delaySchedule",
           "package": "reactive-balsa",
@@ -5277,6 +5730,7 @@
         "index": {
           "description": "Demonstration of scheduleQueue but for real use prefer delay since this uses precisely timed delivery by ALSA",
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "delaySchedule",
           "normalized": "T-\u003eBehavior a Abs-\u003eEvent a Data-\u003eReactor a(Event a Data)",
@@ -5292,6 +5746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "getHandle",
           "package": "reactive-balsa",
@@ -5301,6 +5756,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "getHandle",
           "package": "reactive-balsa",
@@ -5315,6 +5771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis process simulates playing chords on a guitar.\nIf you press some keys like C, E, G on the keyboard,\nthen this process figures out what tones would be played on a guitar.\n\u003c/p\u003e\u003cp\u003eCall it like \u003ccode\u003eguitar stepTime chords triggers\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003estepTime\u003c/code\u003e is the delay between to successive notes.\nA good value is 0.03 (seconds).\nThe chords to be played are passed in by \u003ccode\u003echords\u003c/code\u003e.\nThis should be the output of \u003ccode\u003e\u003ca\u003epressed\u003c/a\u003e\u003c/code\u003e.\nFurther on the function needs events\nthat trigger playing the chord in \u003ccode\u003etrigger\u003c/code\u003e argument.\nThe trigger consists of the trigger time\nand the direction to be played\n(\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e = down from high to low pitches,\n\u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e = up from low to high pitches).\nThe trigger may be derived from a specific key that is pressed and released,\nor two keys, one for each direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "guitar",
           "package": "reactive-balsa",
@@ -5325,6 +5782,7 @@
         "index": {
           "description": "This process simulates playing chords on guitar If you press some keys like on the keyboard then this process figures out what tones would be played on guitar Call it like guitar stepTime chords triggers stepTime is the delay between to successive notes good value is seconds The chords to be played are passed in by chords This should be the output of pressed Further on the function needs events that trigger playing the chord in trigger argument The trigger consists of the trigger time and the direction to be played True down from high to low pitches False up from low to high pitches The trigger may be derived from specific key that is pressed and released or two keys one for each direction",
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "guitar",
           "normalized": "T-\u003eBehavior a b-\u003eEvent a Bool-\u003eEvent a EventDataBundle",
@@ -5339,6 +5797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "latch",
           "package": "reactive-balsa",
@@ -5348,6 +5807,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "latch",
           "normalized": "Event a NoteBoundary-\u003e(Event a NoteBoundary,Behavior a(Map(Pitch,Channel)Velocity))",
@@ -5362,6 +5822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "liftNetworkDescription",
           "package": "reactive-balsa",
@@ -5371,6 +5832,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "liftNetworkDescription",
           "normalized": "Moment a b-\u003eReactor a b",
@@ -5386,6 +5848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "makeControllerLinear",
           "package": "reactive-balsa",
@@ -5395,6 +5858,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "makeControllerLinear",
           "normalized": "Channel-\u003eController-\u003eBehavior a Int-\u003eBehavior a Int-\u003eEvent a Abs-\u003eBehavior a Double-\u003eEvent a Data",
@@ -5410,6 +5874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "nextSchedule",
           "package": "reactive-balsa",
@@ -5419,6 +5884,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "nextSchedule",
           "normalized": "Schedule-\u003eSchedule",
@@ -5434,6 +5900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "noteSequence",
           "package": "reactive-balsa",
@@ -5443,6 +5910,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "noteSequence",
           "normalized": "T-\u003eNoteEv-\u003e[Note]-\u003eEventDataBundle",
@@ -5458,6 +5926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "outputEvents",
           "package": "reactive-balsa",
@@ -5467,6 +5936,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "outputEvents",
           "normalized": "Handle-\u003eAbs-\u003ea-\u003eIO()",
@@ -5483,6 +5953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eregister pressed keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "pressed",
           "package": "reactive-balsa",
@@ -5493,6 +5964,7 @@
         "index": {
           "description": "register pressed keys",
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "pressed",
           "normalized": "a-\u003eEvent b NoteBoundaryExt-\u003e(Event b[NoteBoundary],Behavior b a)",
@@ -5507,6 +5979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "reactimate",
           "package": "reactive-balsa",
@@ -5516,6 +5989,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "reactimate",
           "normalized": "Event a(IO())-\u003eReactor a()",
@@ -5530,6 +6004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "reserveSchedule",
           "package": "reactive-balsa",
@@ -5539,6 +6014,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "reserveSchedule",
           "normalized": "Reactor a(Event a Abs,[Abs]-\u003eIO(),IO())",
@@ -5554,6 +6030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "run",
           "package": "reactive-balsa",
@@ -5563,6 +6040,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "run",
           "normalized": "Event a Data-\u003eEvent a b)-\u003eReaderT Handle IO()",
@@ -5577,6 +6055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "runM",
           "package": "reactive-balsa",
@@ -5586,6 +6065,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "runM",
           "normalized": "Behavior a Abs-\u003eEvent a Data-\u003eReactor a(Event a b))-\u003eReaderT Handle IO()",
@@ -5600,6 +6080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "runReactor",
           "package": "reactive-balsa",
@@ -5609,6 +6090,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "runReactor",
           "normalized": "ReaderT(AddHandler T,Handle)(StateT Schedule(Moment a))b",
@@ -5624,6 +6106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "scheduleQueue",
           "package": "reactive-balsa",
@@ -5633,6 +6116,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "scheduleQueue",
           "normalized": "Behavior a Abs-\u003eEvent a(Bundle b)-\u003eReactor a(Event a b)",
@@ -5648,6 +6132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "sendEchos",
           "package": "reactive-balsa",
@@ -5657,6 +6142,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "sendEchos",
           "normalized": "Handle-\u003eSchedule-\u003e[Abs]-\u003eIO()",
@@ -5673,6 +6159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a MIDI controller for selecting a note from a key set.\nOnly the pitch class of the keys is respected.\nThe controller behavior must be in the range 0-127.\nThis way, it accesses the whole range of MIDI notes.\nThe output note is stopped and a new note is played\nwhenever turning the knob alters the note pitch.\nThe advantage of the effect is that the pitch range of the knob\ndoes not depend on the number of pressed keys.\nThe disadvantage is that there a distinct distances between the pitches.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "snapSelect",
           "package": "reactive-balsa",
@@ -5683,6 +6170,7 @@
         "index": {
           "description": "Use MIDI controller for selecting note from key set Only the pitch class of the keys is respected The controller behavior must be in the range This way it accesses the whole range of MIDI notes The output note is stopped and new note is played whenever turning the knob alters the note pitch The advantage of the effect is that the pitch range of the knob does not depend on the number of pressed keys The disadvantage is that there distinct distances between the pitches",
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "snapSelect",
           "normalized": "Behavior a b-\u003eBehavior a Int-\u003eReactor a(Event a[Data])",
@@ -5698,6 +6186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "startSchedule",
           "package": "reactive-balsa",
@@ -5707,6 +6196,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "startSchedule",
           "package": "reactive-balsa",
@@ -5720,6 +6210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "sweep",
           "package": "reactive-balsa",
@@ -5729,6 +6220,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "sweep",
           "normalized": "T-\u003e(Double-\u003eDouble)-\u003eBehavior a Double-\u003eReactor a(Event a Abs,Behavior a Double)",
@@ -5743,6 +6235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "tempoCtrl",
           "package": "reactive-balsa",
@@ -5752,6 +6245,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "tempoCtrl",
           "normalized": "Channel-\u003eController-\u003eT-\u003e(T,T)-\u003eEvent a b-\u003e(Behavior a T,Event a b)",
@@ -5768,6 +6262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAudio perception trainer\n\u003c/p\u003e\u003cp\u003ePlay sets of notes and\nlet the human player answer to them according to a given scheme.\nRepeat playing the notes sets until the trainee answers correctly.\nThen continue with other sequences, maybe more complicated ones.\n\u003c/p\u003e\u003cp\u003epossible tasks:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e replay a RBU.sequence of pitches on the keyboard:\n      single notes for training abolute pitches,\n      intervals all with the same base notes,\n      intervals with different base notes\n\u003c/li\u003e\u003cli\u003e transpose a set of pitches:\n      tranpose to a certain base note,\n      transpose by a certain interval\n\u003c/li\u003e\u003cli\u003e play a set of pitches in a different order:\n      reversed order,\n      in increasing pitch\n\u003c/li\u003e\u003cli\u003e replay a set of simultaneously pressed keys\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe difficulty can be increased by not connecting\nthe keyboard directly with the sound generator.\nThis way, the trainee cannot verify,\nhow the pressed keys differ from the target keys.\n\u003c/p\u003e\u003cp\u003eSometimes it seems that you are catched in an infinite loop.\nThis happens if there were too many keys pressed.\nThe trainer collects all key press events,\nnot only the ones that occur after the target set is played.\nThis way you can correct yourself immediately,\nbefore the target is repeatedly played.\nThe downside is, that there may be key press events hanging around.\nYou can get rid of them by pressing a key again and again,\nbut slowly, until the target is played, again.\nThen the queue of registered keys should be empty\nand you can proceed training.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "trainer",
           "package": "reactive-balsa",
@@ -5778,6 +6273,7 @@
         "index": {
           "description": "Audio perception trainer Play sets of notes and let the human player answer to them according to given scheme Repeat playing the notes sets until the trainee answers correctly Then continue with other sequences maybe more complicated ones possible tasks replay RBU.sequence of pitches on the keyboard single notes for training abolute pitches intervals all with the same base notes intervals with different base notes transpose set of pitches tranpose to certain base note transpose by certain interval play set of pitches in different order reversed order in increasing pitch replay set of simultaneously pressed keys The difficulty can be increased by not connecting the keyboard directly with the sound generator This way the trainee cannot verify how the pressed keys differ from the target keys Sometimes it seems that you are catched in an infinite loop This happens if there were too many keys pressed The trainer collects all key press events not only the ones that occur after the target set is played This way you can correct yourself immediately before the target is repeatedly played The downside is that there may be key press events hanging around You can get rid of them by pressing key again and again but slowly until the target is played again Then the queue of registered keys should be empty and you can proceed training",
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "trainer",
           "normalized": "Channel-\u003eT-\u003eT-\u003e[([Pitch],[Pitch])]-\u003eBehavior a Abs-\u003eEvent a Data-\u003eReactor a(Event a EventDataBundle)",
@@ -5792,6 +6288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "transposeToClosestOctave",
           "package": "reactive-balsa",
@@ -5801,6 +6298,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "transposeToClosestOctave",
           "normalized": "Int-\u003ePitch-\u003ePitch",
@@ -5816,6 +6314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "uniqueChanges",
           "package": "reactive-balsa",
@@ -5825,6 +6324,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Sequencer",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Sequencer",
           "name": "uniqueChanges",
           "normalized": "Behavior a b-\u003eReactor a(Event a b)",
@@ -5840,6 +6340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "Time",
           "package": "reactive-balsa",
@@ -5848,6 +6349,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Time",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "Time",
           "package": "reactive-balsa",
@@ -5862,6 +6364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eT\u003c/a\u003e\u003c/code\u003e types are used instead of floating point types,\nbecause the latter ones caused unpredictable 'negative number' errors.\nThe denominator must always be a power of 10,\nthis way we can prevent unlimited grow of denominators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "Abs",
           "package": "reactive-balsa",
@@ -5871,6 +6374,7 @@
         "index": {
           "description": "The types are used instead of floating point types because the latter ones caused unpredictable negative number errors The denominator must always be power of this way we can prevent unlimited grow of denominators",
           "hierarchy": "Reactive Banana ALSA Time",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "Abs",
           "package": "reactive-balsa",
@@ -5884,6 +6388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "T",
           "package": "reactive-balsa",
@@ -5892,6 +6397,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Time",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "T",
           "package": "reactive-balsa",
@@ -5904,6 +6410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "Cons",
           "package": "reactive-balsa",
@@ -5913,6 +6420,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Time",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "Cons",
           "package": "reactive-balsa",
@@ -5926,6 +6434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "cons",
           "package": "reactive-balsa",
@@ -5935,6 +6444,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Time",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "cons",
           "normalized": "String-\u003eRational-\u003eT",
@@ -5949,6 +6459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "decons",
           "package": "reactive-balsa",
@@ -5958,6 +6469,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Time",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "decons",
           "package": "reactive-balsa",
@@ -5970,6 +6482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "div",
           "package": "reactive-balsa",
@@ -5979,6 +6492,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Time",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "div",
           "normalized": "T-\u003eT-\u003eDouble",
@@ -5993,6 +6507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "fromEvent",
           "package": "reactive-balsa",
@@ -6002,6 +6517,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Time",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "fromEvent",
           "normalized": "T-\u003eAbs",
@@ -6017,6 +6533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "fromStamp",
           "package": "reactive-balsa",
@@ -6026,6 +6543,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Time",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "fromStamp",
           "normalized": "Stamp-\u003eAbs",
@@ -6041,6 +6559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "inc",
           "package": "reactive-balsa",
@@ -6050,6 +6569,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Time",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "inc",
           "normalized": "T-\u003eAbs-\u003eAbs",
@@ -6064,6 +6584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "nano",
           "package": "reactive-balsa",
@@ -6073,6 +6594,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Time",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "nano",
           "package": "reactive-balsa",
@@ -6085,6 +6607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "scale",
           "package": "reactive-balsa",
@@ -6094,6 +6617,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Time",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "scale",
           "normalized": "Double-\u003eT-\u003eT",
@@ -6108,6 +6632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "scaleCeiling",
           "package": "reactive-balsa",
@@ -6117,6 +6642,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Time",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "scaleCeiling",
           "normalized": "Double-\u003eT-\u003eT",
@@ -6132,6 +6658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "scaleInt",
           "package": "reactive-balsa",
@@ -6141,6 +6668,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Time",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "scaleInt",
           "normalized": "a-\u003eT-\u003eT",
@@ -6156,6 +6684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "subSat",
           "package": "reactive-balsa",
@@ -6165,6 +6694,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Time",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "subSat",
           "normalized": "Abs-\u003eAbs-\u003eT",
@@ -6180,6 +6710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "toStamp",
           "package": "reactive-balsa",
@@ -6189,6 +6720,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Time",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Time",
           "name": "toStamp",
           "normalized": "Abs-\u003eStamp",
@@ -6204,6 +6736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Training",
           "name": "Training",
           "package": "reactive-balsa",
@@ -6212,6 +6745,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Training",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Training",
           "name": "Training",
           "package": "reactive-balsa",
@@ -6225,6 +6759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Training",
           "name": "all",
           "package": "reactive-balsa",
@@ -6234,6 +6769,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Training",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Training",
           "name": "all",
           "normalized": "a-\u003e[([Pitch],[Pitch])]",
@@ -6249,6 +6785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eintervals within an octave, all starting with a C\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Training",
           "name": "intervals",
           "package": "reactive-balsa",
@@ -6259,6 +6796,7 @@
         "index": {
           "description": "intervals within an octave all starting with",
           "hierarchy": "Reactive Banana ALSA Training",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Training",
           "name": "intervals",
           "normalized": "a-\u003e[([Pitch],[Pitch])]",
@@ -6273,6 +6811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Training",
           "name": "reverseThreeNotes",
           "package": "reactive-balsa",
@@ -6282,6 +6821,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Training",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Training",
           "name": "reverseThreeNotes",
           "normalized": "a-\u003e[([Pitch],[Pitch])]",
@@ -6297,6 +6837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Training",
           "name": "sortThreeNotes",
           "package": "reactive-balsa",
@@ -6306,6 +6847,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Training",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Training",
           "name": "sortThreeNotes",
           "normalized": "a-\u003e[([Pitch],[Pitch])]",
@@ -6322,6 +6864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echoose three arbitrary notes from an increasing set of notes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Training",
           "name": "threeNotes",
           "package": "reactive-balsa",
@@ -6332,6 +6875,7 @@
         "index": {
           "description": "choose three arbitrary notes from an increasing set of notes",
           "hierarchy": "Reactive Banana ALSA Training",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Training",
           "name": "threeNotes",
           "normalized": "a-\u003e[([Pitch],[Pitch])]",
@@ -6348,6 +6892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etranspose an interval to begin with C\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Training",
           "name": "transposeTwoNotes",
           "package": "reactive-balsa",
@@ -6358,6 +6903,7 @@
         "index": {
           "description": "transpose an interval to begin with",
           "hierarchy": "Reactive Banana ALSA Training",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Training",
           "name": "transposeTwoNotes",
           "normalized": "a-\u003e[([Pitch],[Pitch])]",
@@ -6374,6 +6920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echoose two arbitrary notes from an increasing set of notes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Training",
           "name": "twoNotes",
           "package": "reactive-balsa",
@@ -6384,6 +6931,7 @@
         "index": {
           "description": "choose two arbitrary notes from an increasing set of notes",
           "hierarchy": "Reactive Banana ALSA Training",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Training",
           "name": "twoNotes",
           "normalized": "a-\u003e[([Pitch],[Pitch])]",
@@ -6399,6 +6947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Utility",
           "name": "Utility",
           "package": "reactive-balsa",
@@ -6407,6 +6956,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Utility",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Utility",
           "name": "Utility",
           "package": "reactive-balsa",
@@ -6420,6 +6970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Utility",
           "name": "bypass",
           "package": "reactive-balsa",
@@ -6429,6 +6980,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Utility",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Utility",
           "name": "bypass",
           "normalized": "(a-\u003eMaybe b)-\u003e(Event c a-\u003eEvent c d)-\u003e(Event c b-\u003eEvent c d)-\u003eEvent c a-\u003eEvent c d",
@@ -6443,6 +6995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Utility",
           "name": "mapMaybe",
           "package": "reactive-balsa",
@@ -6452,6 +7005,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Utility",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Utility",
           "name": "mapMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003eEvent c a-\u003eEvent c b",
@@ -6467,6 +7021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Utility",
           "name": "partition",
           "package": "reactive-balsa",
@@ -6476,6 +7031,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Utility",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Utility",
           "name": "partition",
           "normalized": "(a-\u003eBool)-\u003eEvent b a-\u003e(Event b a,Event b a)",
@@ -6490,6 +7046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Utility",
           "name": "partitionMaybe",
           "package": "reactive-balsa",
@@ -6499,6 +7056,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Utility",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Utility",
           "name": "partitionMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003eEvent c a-\u003e(Event c b,Event c a)",
@@ -6514,6 +7072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Utility",
           "name": "sequence",
           "package": "reactive-balsa",
@@ -6523,6 +7082,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Utility",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Utility",
           "name": "sequence",
           "normalized": "a-\u003eEvent b(State a c)-\u003e(Event b c,Behavior b a)",
@@ -6537,6 +7097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:15 UTC 2014",
           "module": "Reactive.Banana.ALSA.Utility",
           "name": "traverse",
           "package": "reactive-balsa",
@@ -6546,6 +7107,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana ALSA Utility",
+          "indexed": "2014-03-11T19:49:15",
           "module": "Reactive.Banana.ALSA.Utility",
           "name": "traverse",
           "normalized": "a-\u003e(b-\u003eState a c)-\u003eEvent d b-\u003e(Event d c,Behavior d a)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "explicit-sharing"
+        "phrase": "explicit-sharing",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library provides type classes for explicit sharing of monadic\n effects. Usually you don't need to import this library as it is\n reexported by the module \u003ccode\u003eControl.Monad.Sharing\u003c/code\u003e. You may want to\n do so, however, when writing your own implementation of explicit\n sharing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing.Classes",
           "name": "Classes",
           "package": "explicit-sharing",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This library provides type classes for explicit sharing of monadic effects Usually you don need to import this library as it is reexported by the module Control.Monad.Sharing You may want to do so however when writing your own implementation of explicit sharing",
           "hierarchy": "Control Monad Sharing Classes",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing.Classes",
           "name": "Classes",
           "package": "explicit-sharing",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface for convertible datatypes. The provided function\n \u003ccode\u003econvArgs\u003c/code\u003e is supposed to map the given function on every argument\n of the given value and combine the results to give the converted\n value.\n\u003c/p\u003e\u003cp\u003eWe provide instances of the \u003ccode\u003e\u003ca\u003eConvertible\u003c/a\u003e\u003c/code\u003e class for some predefined\n Haskell types. For flat types the function \u003ccode\u003econvArgs\u003c/code\u003e just returns\n its argument which has no arguments to which the given function\n could be applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing.Classes",
           "name": "Convertible",
           "package": "explicit-sharing",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Interface for convertible datatypes The provided function convArgs is supposed to map the given function on every argument of the given value and combine the results to give the converted value We provide instances of the Convertible class for some predefined Haskell types For flat types the function convArgs just returns its argument which has no arguments to which the given function could be applied",
           "hierarchy": "Control Monad Sharing Classes",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing.Classes",
           "name": "Convertible",
           "package": "explicit-sharing",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing.Classes",
           "name": "MBool",
           "package": "explicit-sharing",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Sharing Classes",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing.Classes",
           "name": "MBool",
           "package": "explicit-sharing",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing.Classes",
           "name": "MChar",
           "package": "explicit-sharing",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Sharing Classes",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing.Classes",
           "name": "MChar",
           "package": "explicit-sharing",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing.Classes",
           "name": "MInt",
           "package": "explicit-sharing",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Sharing Classes",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing.Classes",
           "name": "MInt",
           "package": "explicit-sharing",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing.Classes",
           "name": "Nondet",
           "package": "explicit-sharing",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Sharing Classes",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing.Classes",
           "name": "Nondet",
           "package": "explicit-sharing",
@@ -149,6 +161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface of shareable nested monadic data types. The provided\n function \u003ccode\u003e\u003ca\u003eshareArgs\u003c/a\u003e\u003c/code\u003e is supposed to map the given function on every\n monadic argument.\n\u003c/p\u003e\u003cp\u003eWe provide instances of the \u003ccode\u003e\u003ca\u003eShareable\u003c/a\u003e\u003c/code\u003e class for some predefined\n Haskell types. For flat types the function \u003ccode\u003e\u003ca\u003eshareArgs\u003c/a\u003e\u003c/code\u003e just returns\n its argument which has no arguments to which the given function\n could be applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing.Classes",
           "name": "Shareable",
           "package": "explicit-sharing",
@@ -158,6 +171,7 @@
         "index": {
           "description": "Interface of shareable nested monadic data types The provided function shareArgs is supposed to map the given function on every monadic argument We provide instances of the Shareable class for some predefined Haskell types For flat types the function shareArgs just returns its argument which has no arguments to which the given function could be applied",
           "hierarchy": "Control Monad Sharing Classes",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing.Classes",
           "name": "Shareable",
           "package": "explicit-sharing",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface of monads that support explicit sharing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing.Classes",
           "name": "Sharing",
           "package": "explicit-sharing",
@@ -181,6 +196,7 @@
         "index": {
           "description": "Interface of monads that support explicit sharing",
           "hierarchy": "Control Monad Sharing Classes",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing.Classes",
           "name": "Sharing",
           "package": "explicit-sharing",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing.Classes",
           "name": "(?)",
           "package": "explicit-sharing",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Sharing Classes",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing.Classes",
           "name": "(?) ?",
           "normalized": "a-\u003ea-\u003ea",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing.Classes",
           "name": "convert",
           "package": "explicit-sharing",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Sharing Classes",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing.Classes",
           "name": "convert",
           "normalized": "a-\u003eb c",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing.Classes",
           "name": "failure",
           "package": "explicit-sharing",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Sharing Classes",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing.Classes",
           "name": "failure",
           "package": "explicit-sharing",
@@ -262,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields an action that returns the same results as the given\n action but whose effects are only executed once. Especially, when\n the resulting action is duplicated it returns the same result at\n every occurrence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing.Classes",
           "name": "share",
           "package": "explicit-sharing",
@@ -272,6 +295,7 @@
         "index": {
           "description": "Yields an action that returns the same results as the given action but whose effects are only executed once Especially when the resulting action is duplicated it returns the same result at every occurrence",
           "hierarchy": "Control Monad Sharing Classes",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing.Classes",
           "name": "share",
           "normalized": "a b-\u003ea(a b)",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing.Classes",
           "name": "shareArgs",
           "package": "explicit-sharing",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Sharing Classes",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing.Classes",
           "name": "shareArgs",
           "normalized": "a b-\u003ec(a b))-\u003ed-\u003ec d",
@@ -311,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library provides an interface to monads that support explicit\n sharing. A project website with tutorials can be found at\n \u003ca\u003ehttp://sebfisch.github.com/explicit-sharing\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing",
           "name": "Sharing",
           "package": "explicit-sharing",
@@ -320,6 +347,7 @@
         "index": {
           "description": "This library provides an interface to monads that support explicit sharing project website with tutorials can be found at http sebfisch.github.com explicit-sharing",
           "hierarchy": "Control Monad Sharing",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing",
           "name": "Sharing",
           "package": "explicit-sharing",
@@ -334,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface for convertible datatypes. The provided function\n \u003ccode\u003econvArgs\u003c/code\u003e is supposed to map the given function on every argument\n of the given value and combine the results to give the converted\n value.\n\u003c/p\u003e\u003cp\u003eWe provide instances of the \u003ccode\u003e\u003ca\u003eConvertible\u003c/a\u003e\u003c/code\u003e class for some predefined\n Haskell types. For flat types the function \u003ccode\u003econvArgs\u003c/code\u003e just returns\n its argument which has no arguments to which the given function\n could be applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing",
           "name": "Convertible",
           "package": "explicit-sharing",
@@ -343,6 +372,7 @@
         "index": {
           "description": "Interface for convertible datatypes The provided function convArgs is supposed to map the given function on every argument of the given value and combine the results to give the converted value We provide instances of the Convertible class for some predefined Haskell types For flat types the function convArgs just returns its argument which has no arguments to which the given function could be applied",
           "hierarchy": "Control Monad Sharing",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing",
           "name": "Convertible",
           "package": "explicit-sharing",
@@ -357,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface of shareable nested monadic data types. The provided\n function \u003ccode\u003e\u003ca\u003eshareArgs\u003c/a\u003e\u003c/code\u003e is supposed to map the given function on every\n monadic argument.\n\u003c/p\u003e\u003cp\u003eWe provide instances of the \u003ccode\u003e\u003ca\u003eShareable\u003c/a\u003e\u003c/code\u003e class for some predefined\n Haskell types. For flat types the function \u003ccode\u003e\u003ca\u003eshareArgs\u003c/a\u003e\u003c/code\u003e just returns\n its argument which has no arguments to which the given function\n could be applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing",
           "name": "Shareable",
           "package": "explicit-sharing",
@@ -366,6 +397,7 @@
         "index": {
           "description": "Interface of shareable nested monadic data types The provided function shareArgs is supposed to map the given function on every monadic argument We provide instances of the Shareable class for some predefined Haskell types For flat types the function shareArgs just returns its argument which has no arguments to which the given function could be applied",
           "hierarchy": "Control Monad Sharing",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing",
           "name": "Shareable",
           "package": "explicit-sharing",
@@ -380,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface of monads that support explicit sharing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing",
           "name": "Sharing",
           "package": "explicit-sharing",
@@ -389,6 +422,7 @@
         "index": {
           "description": "Interface of monads that support explicit sharing",
           "hierarchy": "Control Monad Sharing",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing",
           "name": "Sharing",
           "package": "explicit-sharing",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing",
           "name": "collect",
           "package": "explicit-sharing",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Sharing",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing",
           "name": "collect",
           "normalized": "a b)-\u003eb",
@@ -425,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing",
           "name": "convert",
           "package": "explicit-sharing",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Sharing",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing",
           "name": "convert",
           "normalized": "a-\u003eb c",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing",
           "name": "hasResult",
           "package": "explicit-sharing",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Sharing",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing",
           "name": "hasResult",
           "normalized": "a b)-\u003eBool",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing",
           "name": "resultDist",
           "package": "explicit-sharing",
@@ -481,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Sharing",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing",
           "name": "resultDist",
           "normalized": "a b)-\u003eMap b Rational",
@@ -496,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing",
           "name": "resultList",
           "package": "explicit-sharing",
@@ -505,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Sharing",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing",
           "name": "resultList",
           "normalized": "a b)-\u003eIO[b]",
@@ -520,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing",
           "name": "results",
           "package": "explicit-sharing",
@@ -529,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Sharing",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing",
           "name": "results",
           "normalized": "a b)-\u003eSet b",
@@ -544,6 +590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields an action that returns the same results as the given\n action but whose effects are only executed once. Especially, when\n the resulting action is duplicated it returns the same result at\n every occurrence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing",
           "name": "share",
           "package": "explicit-sharing",
@@ -554,6 +601,7 @@
         "index": {
           "description": "Yields an action that returns the same results as the given action but whose effects are only executed once Especially when the resulting action is duplicated it returns the same result at every occurrence",
           "hierarchy": "Control Monad Sharing",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing",
           "name": "share",
           "normalized": "a b-\u003ea(a b)",
@@ -568,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing",
           "name": "shareArgs",
           "package": "explicit-sharing",
@@ -577,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Sharing",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing",
           "name": "shareArgs",
           "normalized": "a b-\u003ec(a b))-\u003ed-\u003ec d",
@@ -592,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Control.Monad.Sharing",
           "name": "unsafeResults",
           "package": "explicit-sharing",
@@ -601,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Sharing",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Control.Monad.Sharing",
           "name": "unsafeResults",
           "normalized": "a b)-\u003e[b]",
@@ -617,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAutomatic deriving of monadic data types and corresponding instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Data.Monadic.Derive",
           "name": "Derive",
           "package": "explicit-sharing",
@@ -626,6 +679,7 @@
         "index": {
           "description": "Automatic deriving of monadic data types and corresponding instances",
           "hierarchy": "Data Monadic Derive",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Data.Monadic.Derive",
           "name": "Derive",
           "package": "explicit-sharing",
@@ -640,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates \u003ccode\u003eConvertible\u003c/code\u003e instances to convert between monadic and\n   non-monadic datatypes.\n\u003c/p\u003e\u003cp\u003eFor example, the call\n\u003c/p\u003e\u003cpre\u003e $(derive convertible ''Maybe)\n\u003c/pre\u003e\u003cp\u003egenerates the following instances:\n\u003c/p\u003e\u003cpre\u003e instance (Monad m, Convertible m a a')\n       =\u003e Convertible m (Maybe a) (MMaybe m a') where\n   convArgs fun Nothing  = mNothing\n   convArgs fun (Just a) = mJust (fun a)\n \n instance (Monad m, Convertible m a' a)\n       =\u003e Convertible m (MMaybe m a') (Maybe a) where\n   convArgs fun MNothing  = return Nothing\n   convArgs fun (MJust a) = (a \u003e\u003e= fun) \u003e\u003e= \\a -\u003e return (Just a)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Data.Monadic.Derive",
           "name": "convertible",
           "package": "explicit-sharing",
@@ -650,6 +705,7 @@
         "index": {
           "description": "Generates Convertible instances to convert between monadic and non-monadic datatypes For example the call derive convertible Maybe generates the following instances instance Monad Convertible Convertible Maybe MMaybe where convArgs fun Nothing mNothing convArgs fun Just mJust fun instance Monad Convertible Convertible MMaybe Maybe where convArgs fun MNothing return Nothing convArgs fun MJust fun return Just",
           "hierarchy": "Data Monadic Derive",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Data.Monadic.Derive",
           "name": "convertible",
           "package": "explicit-sharing",
@@ -663,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of some class. \u003ccode\u003ederive\u003c/code\u003e only derives instances\n for the type of the argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Data.Monadic.Derive",
           "name": "derive",
           "package": "explicit-sharing",
@@ -672,6 +729,7 @@
         "index": {
           "description": "Derive an instance of some class derive only derives instances for the type of the argument",
           "hierarchy": "Data Monadic Derive",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Data.Monadic.Derive",
           "name": "derive",
           "normalized": "Derivation-\u003eName-\u003eQ[Dec]",
@@ -687,6 +745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a monadic datatype and corresponding con- and\n   destructor functions from a Haskell datatype.\n\u003c/p\u003e\u003cp\u003eFor example, the datatype\n\u003c/p\u003e\u003cpre\u003e data Maybe a = Nothing | Just a\n\u003c/pre\u003e\u003cp\u003ecan be translated into its monadic counterpart by typing\n\u003c/p\u003e\u003cpre\u003e $(derive mdata ''Maybe)\n\u003c/pre\u003e\u003cp\u003eThis call generates the following datatype\n\u003c/p\u003e\u003cpre\u003e data MMaybe m a = MNothing | MJust (m a)\n\u003c/pre\u003e\u003cp\u003eand the following auxiliary functions for constructing and\n   matching monadic values:\n\u003c/p\u003e\u003cpre\u003e mNothing :: Monad m =\u003e m (MMaybe m a)\n mNothing = return MNothing\n\u003c/pre\u003e\u003cpre\u003e mJust :: Monad m =\u003e m a -\u003e m (MMaybe m a)\n mJust a = return (MJust a)\n\u003c/pre\u003e\u003cpre\u003e matchMMaybe :: Monad m =\u003e m (MMaybe m a) -\u003e m b -\u003e (m a -\u003e m b) -\u003e m b\n matchMMaybe x n j = x \u003e\u003e= \\x -\u003e case x of { MNothing -\u003e n; MJust a -\u003e j a }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Data.Monadic.Derive",
           "name": "mdata",
           "package": "explicit-sharing",
@@ -697,6 +756,7 @@
         "index": {
           "description": "Generates monadic datatype and corresponding con and destructor functions from Haskell datatype For example the datatype data Maybe Nothing Just can be translated into its monadic counterpart by typing derive mdata Maybe This call generates the following datatype data MMaybe MNothing MJust and the following auxiliary functions for constructing and matching monadic values mNothing Monad MMaybe mNothing return MNothing mJust Monad MMaybe mJust return MJust matchMMaybe Monad MMaybe matchMMaybe case of MNothing MJust",
           "hierarchy": "Data Monadic Derive",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Data.Monadic.Derive",
           "name": "mdata",
           "package": "explicit-sharing",
@@ -710,6 +770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerives monadic datatypes and instances for explicit sharing as\n   well as conversion. Combines the other three derivations which\n   provide the same functionality split into different parts.\n\u003c/p\u003e\u003cp\u003eYou usually need the following preamble when deriving monadic code:\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE TemplateHaskell\n   , KindSignatures\n   , MultiParamTypeClasses\n   , FlexibleInstances\n   #-}\n import Control.Monad.Sharing\n import Data.Monadic.Derive\n import Data.DeriveTH\n\u003c/pre\u003e\u003cp\u003eIf your types contain lists, you also need to\n\u003c/p\u003e\u003cpre\u003e import Data.Monadic.List\n\u003c/pre\u003e\u003cp\u003eWith this prerequisites, you can derive a monadic \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e type by\n\u003c/p\u003e\u003cpre\u003e $(derive monadic ''Maybe)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Data.Monadic.Derive",
           "name": "monadic",
           "package": "explicit-sharing",
@@ -720,6 +781,7 @@
         "index": {
           "description": "Derives monadic datatypes and instances for explicit sharing as well as conversion Combines the other three derivations which provide the same functionality split into different parts You usually need the following preamble when deriving monadic code LANGUAGE TemplateHaskell KindSignatures MultiParamTypeClasses FlexibleInstances import Control.Monad.Sharing import Data.Monadic.Derive import Data.DeriveTH If your types contain lists you also need to import Data.Monadic.List With this prerequisites you can derive monadic Maybe type by derive monadic Maybe",
           "hierarchy": "Data Monadic Derive",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Data.Monadic.Derive",
           "name": "monadic",
           "package": "explicit-sharing",
@@ -733,6 +795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a \u003ccode\u003eShareable\u003c/code\u003e instance for a monadic datatype.\n\u003c/p\u003e\u003cp\u003eFor example the call\n\u003c/p\u003e\u003cpre\u003e $(derive shareable ''Maybe)\n\u003c/pre\u003e\u003cp\u003egenerates the following instance:\n\u003c/p\u003e\u003cpre\u003e instance (Monad m, Shareable m a) =\u003e Shareable (Maybe m a) where\n   shareArgs fun MNothing  = return MNothing\n   shareArgs fun (MJust a) = fun a \u003e\u003e= \\a -\u003e mJust a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Data.Monadic.Derive",
           "name": "shareable",
           "package": "explicit-sharing",
@@ -743,6 +806,7 @@
         "index": {
           "description": "Generates Shareable instance for monadic datatype For example the call derive shareable Maybe generates the following instance instance Monad Shareable Shareable Maybe where shareArgs fun MNothing return MNothing shareArgs fun MJust fun mJust",
           "hierarchy": "Data Monadic Derive",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Data.Monadic.Derive",
           "name": "shareable",
           "package": "explicit-sharing",
@@ -756,6 +820,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library provides lists with monadic head and tail as an\n example for nested monadic data that can be used with the\n combinator \u003ccode\u003eshare\u003c/code\u003e for explicit sharing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Data.Monadic.List",
           "name": "List",
           "package": "explicit-sharing",
@@ -765,6 +830,7 @@
         "index": {
           "description": "This library provides lists with monadic head and tail as an example for nested monadic data that can be used with the combinator share for explicit sharing",
           "hierarchy": "Data Monadic List",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Data.Monadic.List",
           "name": "List",
           "package": "explicit-sharing",
@@ -779,6 +845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for lists where both the head and tail are monadic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Data.Monadic.List",
           "name": "List",
           "package": "explicit-sharing",
@@ -788,6 +855,7 @@
         "index": {
           "description": "Data type for lists where both the head and tail are monadic",
           "hierarchy": "Data Monadic List",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Data.Monadic.List",
           "name": "List",
           "package": "explicit-sharing",
@@ -801,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Data.Monadic.List",
           "name": "Cons",
           "package": "explicit-sharing",
@@ -810,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Data Monadic List",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Data.Monadic.List",
           "name": "Cons",
           "package": "explicit-sharing",
@@ -823,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Data.Monadic.List",
           "name": "Nil",
           "package": "explicit-sharing",
@@ -832,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Data Monadic List",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Data.Monadic.List",
           "name": "Nil",
           "package": "explicit-sharing",
@@ -846,6 +918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a non-empty monadic list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Data.Monadic.List",
           "name": "cons",
           "package": "explicit-sharing",
@@ -856,6 +929,7 @@
         "index": {
           "description": "Constructs non-empty monadic list",
           "hierarchy": "Data Monadic List",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Data.Monadic.List",
           "name": "cons",
           "normalized": "a b-\u003ea(List a b)-\u003ea(List a b)",
@@ -871,6 +945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields the head of a monadic list. Relies on \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e instance\n to provide a failing implementation of \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Data.Monadic.List",
           "name": "first",
           "package": "explicit-sharing",
@@ -881,6 +956,7 @@
         "index": {
           "description": "Yields the head of monadic list Relies on MonadPlus instance to provide failing implementation of fail",
           "hierarchy": "Data Monadic List",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Data.Monadic.List",
           "name": "first",
           "normalized": "a(List a b)-\u003ea b",
@@ -896,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if monadic list is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Data.Monadic.List",
           "name": "isEmpty",
           "package": "explicit-sharing",
@@ -906,6 +983,7 @@
         "index": {
           "description": "Checks if monadic list is empty",
           "hierarchy": "Data Monadic List",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Data.Monadic.List",
           "name": "isEmpty",
           "normalized": "a(List a b)-\u003ea Bool",
@@ -922,6 +1000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty monadic list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Data.Monadic.List",
           "name": "nil",
           "package": "explicit-sharing",
@@ -932,6 +1011,7 @@
         "index": {
           "description": "The empty monadic list",
           "hierarchy": "Data Monadic List",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Data.Monadic.List",
           "name": "nil",
           "package": "explicit-sharing",
@@ -945,6 +1025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields the tail of a monadic list. Relies on \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e instance\n to provide a failing implementation of \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:34 UTC 2014",
           "module": "Data.Monadic.List",
           "name": "rest",
           "package": "explicit-sharing",
@@ -955,6 +1036,7 @@
         "index": {
           "description": "Yields the tail of monadic list Relies on MonadPlus instance to provide failing implementation of fail",
           "hierarchy": "Data Monadic List",
+          "indexed": "2014-03-11T18:05:34",
           "module": "Data.Monadic.List",
           "name": "rest",
           "normalized": "a(List a b)-\u003ea(List a b)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cubicbezier"
+        "phrase": "cubicbezier",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Approximate",
           "name": "Approximate",
           "package": "cubicbezier",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier Approximate",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Approximate",
           "name": "Approximate",
           "package": "cubicbezier",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eapproximateCurve b pts eps\u003c/code\u003e finds the least squares fit of a bezier\n curve to the points \u003ccode\u003epts\u003c/code\u003e.  The resulting bezier has the same first\n and last control point as the curve \u003ccode\u003eb\u003c/code\u003e, and have tangents colinear with \u003ccode\u003eb\u003c/code\u003e.\n return the curve, the parameter with maximum error, and maximum error.\n Calculate to withing eps tolerance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Approximate",
           "name": "approximateCurve",
           "package": "cubicbezier",
@@ -50,6 +53,7 @@
         "index": {
           "description": "approximateCurve pts eps finds the least squares fit of bezier curve to the points pts The resulting bezier has the same first and last control point as the curve and have tangents colinear with return the curve the parameter with maximum error and maximum error Calculate to withing eps tolerance",
           "hierarchy": "Geom2D CubicBezier Approximate",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Approximate",
           "name": "approximateCurve",
           "normalized": "CubicBezier-\u003e[Point]-\u003eDouble-\u003e(CubicBezier,Double,Double)",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike approximateCurve, but also takes an initial guess of the\n parameters closest to the points.  This might be faster if a good\n guess can be made.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Approximate",
           "name": "approximateCurveWithParams",
           "package": "cubicbezier",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Like approximateCurve but also takes an initial guess of the parameters closest to the points This might be faster if good guess can be made",
           "hierarchy": "Geom2D CubicBezier Approximate",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Approximate",
           "name": "approximateCurveWithParams",
           "normalized": "CubicBezier-\u003e[Point]-\u003e[Double]-\u003eDouble-\u003e(CubicBezier,Double,Double)",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApproximate a function with piecewise cubic bezier splines using\n a least-squares fit, within the given tolerance.  Each subcurve is\n approximated by using a finite number of samples.  It is recommended\n to avoid changes in direction by subdividing the original function\n at points of inflection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Approximate",
           "name": "approximatePath",
           "package": "cubicbezier",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Approximate function with piecewise cubic bezier splines using least-squares fit within the given tolerance Each subcurve is approximated by using finite number of samples It is recommended to avoid changes in direction by subdividing the original function at points of inflection",
           "hierarchy": "Geom2D CubicBezier Approximate",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Approximate",
           "name": "approximatePath",
           "normalized": "(Double-\u003e(Point,Point))-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003e[CubicBezier]",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike approximatePath, but limit the number of subcurves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Approximate",
           "name": "approximatePathMax",
           "package": "cubicbezier",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Like approximatePath but limit the number of subcurves",
           "hierarchy": "Geom2D CubicBezier Approximate",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Approximate",
           "name": "approximatePathMax",
           "normalized": "Int-\u003e(Double-\u003e(Point,Point))-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003e[CubicBezier]",
@@ -141,6 +151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "Basic",
           "package": "cubicbezier",
@@ -149,6 +160,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "Basic",
           "package": "cubicbezier",
@@ -162,6 +174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "AffineTransform",
           "package": "cubicbezier",
@@ -170,6 +183,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "AffineTransform",
           "package": "cubicbezier",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "CubicBezier",
           "package": "cubicbezier",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "CubicBezier",
           "package": "cubicbezier",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "Path",
           "package": "cubicbezier",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "Path",
           "package": "cubicbezier",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "PathJoin",
           "package": "cubicbezier",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "PathJoin",
           "package": "cubicbezier",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "ClosedPath",
           "package": "cubicbezier",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "ClosedPath",
           "normalized": "ClosedPath[(Point,PathJoin)]",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "CubicBezier",
           "package": "cubicbezier",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "CubicBezier",
           "package": "cubicbezier",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "JoinCurve",
           "package": "cubicbezier",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "JoinCurve",
           "package": "cubicbezier",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "JoinLine",
           "package": "cubicbezier",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "JoinLine",
           "package": "cubicbezier",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "OpenPath",
           "package": "cubicbezier",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "OpenPath",
           "normalized": "OpenPath[(Point,PathJoin)]Point",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "arcLength",
           "package": "cubicbezier",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "arcLength",
           "normalized": "CubicBezier-\u003eDouble-\u003eDouble-\u003eDouble",
@@ -385,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003earcLengthParam c len tol finds the parameter where the curve c has the arclength len,\n within tolerance tol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "arcLengthParam",
           "package": "cubicbezier",
@@ -395,6 +428,7 @@
         "index": {
           "description": "arcLengthParam len tol finds the parameter where the curve has the arclength len within tolerance tol",
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "arcLengthParam",
           "normalized": "CubicBezier-\u003eDouble-\u003eDouble-\u003eDouble",
@@ -410,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "bezierC0",
           "package": "cubicbezier",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "bezierC0",
           "package": "cubicbezier",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "bezierC1",
           "package": "cubicbezier",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "bezierC1",
           "package": "cubicbezier",
@@ -452,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "bezierC2",
           "package": "cubicbezier",
@@ -461,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "bezierC2",
           "package": "cubicbezier",
@@ -473,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "bezierC3",
           "package": "cubicbezier",
@@ -482,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "bezierC3",
           "package": "cubicbezier",
@@ -495,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the parameter where the bezier curve is horizontal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "bezierHoriz",
           "package": "cubicbezier",
@@ -505,6 +548,7 @@
         "index": {
           "description": "Find the parameter where the bezier curve is horizontal",
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "bezierHoriz",
           "normalized": "CubicBezier-\u003e[Double]",
@@ -521,6 +565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if the param lies on the curve, iff it's in the interval \u003ccode\u003e[0, 1]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "bezierParam",
           "package": "cubicbezier",
@@ -531,6 +576,7 @@
         "index": {
           "description": "Return True if the param lies on the curve iff it in the interval",
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "bezierParam",
           "normalized": "Double-\u003eBool",
@@ -547,6 +593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a tolerance from the codomain to the domain of the bezier curve.\n Should be good enough, but may not hold for high very tolerance values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "bezierParamTolerance",
           "package": "cubicbezier",
@@ -557,6 +604,7 @@
         "index": {
           "description": "Convert tolerance from the codomain to the domain of the bezier curve Should be good enough but may not hold for high very tolerance values",
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "bezierParamTolerance",
           "normalized": "CubicBezier-\u003eDouble-\u003eDouble",
@@ -573,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the subsegment between the two parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "bezierSubsegment",
           "package": "cubicbezier",
@@ -583,6 +632,7 @@
         "index": {
           "description": "Return the subsegment between the two parameters",
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "bezierSubsegment",
           "normalized": "CubicBezier-\u003eDouble-\u003eDouble-\u003eCubicBezier",
@@ -599,6 +649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGive the bernstein polynomial for each coordinate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "bezierToBernstein",
           "package": "cubicbezier",
@@ -609,6 +660,7 @@
         "index": {
           "description": "Give the bernstein polynomial for each coordinate",
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "bezierToBernstein",
           "normalized": "CubicBezier-\u003e(BernsteinPoly,BernsteinPoly)",
@@ -625,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the parameter where the bezier curve is vertical.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "bezierVert",
           "package": "cubicbezier",
@@ -635,6 +688,7 @@
         "index": {
           "description": "Find the parameter where the bezier curve is vertical",
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "bezierVert",
           "normalized": "CubicBezier-\u003e[Double]",
@@ -651,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if all the control points are colinear within tolerance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "colinear",
           "package": "cubicbezier",
@@ -661,6 +716,7 @@
         "index": {
           "description": "Return True if all the control points are colinear within tolerance",
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "colinear",
           "normalized": "CubicBezier-\u003eDouble-\u003eBool",
@@ -676,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate a value on the curve.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "evalBezier",
           "package": "cubicbezier",
@@ -686,6 +743,7 @@
         "index": {
           "description": "Calculate value on the curve",
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "evalBezier",
           "normalized": "CubicBezier-\u003eDouble-\u003ePoint",
@@ -702,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate a value and the first derivative on the curve.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "evalBezierDeriv",
           "package": "cubicbezier",
@@ -712,6 +771,7 @@
         "index": {
           "description": "Calculate value and the first derivative on the curve",
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "evalBezierDeriv",
           "normalized": "CubicBezier-\u003eDouble-\u003e(Point,Point)",
@@ -728,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate a value and all derivatives on the curve.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "evalBezierDerivs",
           "package": "cubicbezier",
@@ -738,6 +799,7 @@
         "index": {
           "description": "Calculate value and all derivatives on the curve",
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "evalBezierDerivs",
           "normalized": "CubicBezier-\u003eDouble-\u003e[Point]",
@@ -754,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the cusps of a bezier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "findBezierCusp",
           "package": "cubicbezier",
@@ -764,6 +827,7 @@
         "index": {
           "description": "Find the cusps of bezier",
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "findBezierCusp",
           "normalized": "CubicBezier-\u003e[Double]",
@@ -780,6 +844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind inflection points on the curve.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "findBezierInflection",
           "package": "cubicbezier",
@@ -790,6 +855,7 @@
         "index": {
           "description": "Find inflection points on the curve",
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "findBezierInflection",
           "normalized": "CubicBezier-\u003e[Double]",
@@ -806,6 +872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efindBezierTangent p b\u003c/code\u003e finds the parameters where\n the tangent of the bezier curve \u003ccode\u003eb\u003c/code\u003e has the same direction as vector p.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "findBezierTangent",
           "package": "cubicbezier",
@@ -816,6 +883,7 @@
         "index": {
           "description": "findBezierTangent finds the parameters where the tangent of the bezier curve has the same direction as vector",
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "findBezierTangent",
           "normalized": "Point-\u003eCubicBezier-\u003e[Double]",
@@ -832,6 +900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReorient to the curve B(1-t).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "reorient",
           "package": "cubicbezier",
@@ -842,6 +911,7 @@
         "index": {
           "description": "Reorient to the curve",
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "reorient",
           "normalized": "CubicBezier-\u003eCubicBezier",
@@ -857,6 +927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a bezier curve into two curves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "splitBezier",
           "package": "cubicbezier",
@@ -867,6 +938,7 @@
         "index": {
           "description": "Split bezier curve into two curves",
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "splitBezier",
           "normalized": "CubicBezier-\u003eDouble-\u003e(CubicBezier,CubicBezier)",
@@ -883,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a bezier curve into a list of beziers\n The parameters should be in ascending order or\n the result is unpredictable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "splitBezierN",
           "package": "cubicbezier",
@@ -893,6 +966,7 @@
         "index": {
           "description": "Split bezier curve into list of beziers The parameters should be in ascending order or the result is unpredictable",
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "splitBezierN",
           "normalized": "CubicBezier-\u003e[Double]-\u003e[CubicBezier]",
@@ -908,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "transform",
           "package": "cubicbezier",
@@ -917,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier Basic",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Basic",
           "name": "transform",
           "normalized": "Transform-\u003ea-\u003ea",
@@ -931,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Curvature",
           "name": "Curvature",
           "package": "cubicbezier",
@@ -939,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier Curvature",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Curvature",
           "name": "Curvature",
           "package": "cubicbezier",
@@ -953,6 +1031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurvature of the Bezier curve.  A negative curvature means the curve\n curves to the right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Curvature",
           "name": "curvature",
           "package": "cubicbezier",
@@ -963,6 +1042,7 @@
         "index": {
           "description": "Curvature of the Bezier curve negative curvature means the curve curves to the right",
           "hierarchy": "Geom2D CubicBezier Curvature",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Curvature",
           "name": "curvature",
           "normalized": "CubicBezier-\u003eDouble-\u003eDouble",
@@ -978,6 +1058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind extrema of the curvature, but not inflection points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Curvature",
           "name": "curvatureExtrema",
           "package": "cubicbezier",
@@ -988,6 +1069,7 @@
         "index": {
           "description": "Find extrema of the curvature but not inflection points",
           "hierarchy": "Geom2D CubicBezier Curvature",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Curvature",
           "name": "curvatureExtrema",
           "normalized": "CubicBezier-\u003eDouble-\u003e[Double]",
@@ -1004,6 +1086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind points on the curve that have a certain radius of curvature.\n Values to the left and to the right of the curve are returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Curvature",
           "name": "findRadius",
           "package": "cubicbezier",
@@ -1013,6 +1096,7 @@
         "index": {
           "description": "Find points on the curve that have certain radius of curvature Values to the left and to the right of the curve are returned",
           "hierarchy": "Geom2D CubicBezier Curvature",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Curvature",
           "name": "findRadius",
           "normalized": "CubicBezier-\u003eDouble-\u003eDouble-\u003e[Double]",
@@ -1029,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRadius of curvature of the Bezier curve.  This\n is the reciprocal of the curvature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Curvature",
           "name": "radiusOfCurvature",
           "package": "cubicbezier",
@@ -1039,6 +1124,7 @@
         "index": {
           "description": "Radius of curvature of the Bezier curve This is the reciprocal of the curvature",
           "hierarchy": "Geom2D CubicBezier Curvature",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Curvature",
           "name": "radiusOfCurvature",
           "normalized": "CubicBezier-\u003eDouble-\u003eDouble",
@@ -1055,6 +1141,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIntersection routines using Bezier Clipping.  Provides also functions for finding the roots of onedimensional bezier curves.  This can be used as a general polynomial root solver by converting from the power basis to the bernstein basis.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Intersection",
           "name": "Intersection",
           "package": "cubicbezier",
@@ -1064,6 +1151,7 @@
         "index": {
           "description": "Intersection routines using Bezier Clipping Provides also functions for finding the roots of onedimensional bezier curves This can be used as general polynomial root solver by converting from the power basis to the bernstein basis",
           "hierarchy": "Geom2D CubicBezier Intersection",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Intersection",
           "name": "Intersection",
           "package": "cubicbezier",
@@ -1078,6 +1166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the zero of a 1D bezier curve of any degree.  Note that this\n can be used as a bernstein polynomial root solver by converting from\n the power basis to the bernstein basis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Intersection",
           "name": "bezierFindRoot",
           "package": "cubicbezier",
@@ -1087,6 +1176,7 @@
         "index": {
           "description": "Find the zero of bezier curve of any degree Note that this can be used as bernstein polynomial root solver by converting from the power basis to the bernstein basis",
           "hierarchy": "Geom2D CubicBezier Intersection",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Intersection",
           "name": "bezierFindRoot",
           "normalized": "BernsteinPoly-\u003eDouble-\u003eDouble-\u003eDouble-\u003e[Double]",
@@ -1103,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the intersections between two Bezier curves within given\n tolerance, using the Bezier Clip algorithm. Returns the parameters\n for both curves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Intersection",
           "name": "bezierIntersection",
           "package": "cubicbezier",
@@ -1113,6 +1204,7 @@
         "index": {
           "description": "Find the intersections between two Bezier curves within given tolerance using the Bezier Clip algorithm Returns the parameters for both curves",
           "hierarchy": "Geom2D CubicBezier Intersection",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Intersection",
           "name": "bezierIntersection",
           "normalized": "CubicBezier-\u003eCubicBezier-\u003eDouble-\u003e[(Double,Double)]",
@@ -1129,6 +1221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the intersections of the curve with a line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Intersection",
           "name": "bezierLineIntersections",
           "package": "cubicbezier",
@@ -1139,6 +1232,7 @@
         "index": {
           "description": "Find the intersections of the curve with line",
           "hierarchy": "Geom2D CubicBezier Intersection",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Intersection",
           "name": "bezierLineIntersections",
           "normalized": "CubicBezier-\u003eLine-\u003eDouble-\u003e[Double]",
@@ -1155,6 +1249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the closest value(s) on the bezier to the given point, within tolerance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Intersection",
           "name": "closest",
           "package": "cubicbezier",
@@ -1165,6 +1260,7 @@
         "index": {
           "description": "Find the closest value on the bezier to the given point within tolerance",
           "hierarchy": "Geom2D CubicBezier Intersection",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Intersection",
           "name": "closest",
           "normalized": "CubicBezier-\u003ePoint-\u003eDouble-\u003e[Double]",
@@ -1180,6 +1276,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements an extension to paths as used in\n D.E.Knuth's \u003cem\u003eMetafont\u003c/em\u003e.  Metafont gives a more intuitive method to\n specify paths than bezier curves.  I'll give a brief overview of\n the metafont curves.  For a more in depth explanation look at\n \u003cem\u003eThe MetafontBook\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eEach spline has a tension parameter, which is a relative measure of\n the length of the curve.  You can specify the tension for the left\n side and the right side of the spline separately.  By default\n metafont gives a tension of 1, which gives a good looking curve.\n Tensions shouldn't be less than 3/4, but this implementation\n doesn't check for it.  If you want to avoid points of inflection on\n the spline, you can use \u003ccode\u003eTensionAtLeast\u003c/code\u003e instead of \u003ccode\u003eTension\u003c/code\u003e,\n which will adjust the length of the control points so they fall\n into the \u003cem\u003ebounding triangle\u003c/em\u003e, if such a triangle exist.\n\u003c/p\u003e\u003cp\u003eYou can either give directions for each node, or let metafont find\n them.  Metafont will solve a set of equations to find the\n directions.  You can also let metafont find directions at corner\n points by setting the \u003cem\u003ecurl\u003c/em\u003e, which is how much the point \u003cem\u003ecurls\u003c/em\u003e\n at that point.  At endpoints a curl of 1 is implied when it is not\n given.\n\u003c/p\u003e\u003cp\u003eMetafont will then find the control points from the path for you.\n You can also specify the control points explicitly.\n\u003c/p\u003e\u003cp\u003eHere is an example path from the metafont program text:\n\u003c/p\u003e\u003cpre\u003e\n z0..z1..tension atleast 1..{curl 2}z2..z3{-1,-2}..tension 3 and 4..z4..controls z45 and z54..z5\n\u003c/pre\u003e\u003cp\u003eThis path is equivalent to:\n\u003c/p\u003e\u003cpre\u003e\n z0{curl 1}..tension atleast 1 and atleast 1..{curl 2}z2{curl 2}..tension 1 and 1..\n {-1,-2}z3{-1,-2}..tension 3 and 4..z4..controls z45 and z54..z5\n\u003c/pre\u003e\u003cp\u003eThis path can be used with the following datatype:\n\u003c/p\u003e\u003cpre\u003e\n OpenMetaPath [ (z0, MetaJoin Open (Tension 1) (Tension 1) Open)\n              , (z1, MetaJoin Open (TensionAtLeast 1) (TensionAtLeast 1) (Curl 2))\n              , (z2, MetaJoin Open (Tension 1) (Tension 1) Open)\n              , (z3, MetaJoin (Direction (Point (-1) (-2))) (Tension 3) (Tension 4) Open)\n              , (z4, Controls z45 z54)\n              ] z5\n\u003c/pre\u003e\u003cp\u003eCyclic paths are similar, but use the \u003ccode\u003eCyclicMetaPath\u003c/code\u003e contructor.\n There is no ending point, since the ending point will be the same\n as the first point.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "MetaPath",
           "package": "cubicbezier",
@@ -1189,6 +1286,7 @@
         "index": {
           "description": "This module implements an extension to paths as used in D.E.Knuth Metafont Metafont gives more intuitive method to specify paths than bezier curves ll give brief overview of the metafont curves For more in depth explanation look at The MetafontBook Each spline has tension parameter which is relative measure of the length of the curve You can specify the tension for the left side and the right side of the spline separately By default metafont gives tension of which gives good looking curve Tensions shouldn be less than but this implementation doesn check for it If you want to avoid points of inflection on the spline you can use TensionAtLeast instead of Tension which will adjust the length of the control points so they fall into the bounding triangle if such triangle exist You can either give directions for each node or let metafont find them Metafont will solve set of equations to find the directions You can also let metafont find directions at corner points by setting the curl which is how much the point curls at that point At endpoints curl of is implied when it is not given Metafont will then find the control points from the path for you You can also specify the control points explicitly Here is an example path from the metafont program text z0..z1..tension atleast curl z2..z3 tension and z4..controls z45 and z54..z5 This path is equivalent to z0 curl tension atleast and atleast curl z2 curl tension and z3 tension and z4..controls z45 and z54..z5 This path can be used with the following datatype OpenMetaPath z0 MetaJoin Open Tension Tension Open z1 MetaJoin Open TensionAtLeast TensionAtLeast Curl z2 MetaJoin Open Tension Tension Open z3 MetaJoin Direction Point Tension Tension Open z4 Controls z45 z54 z5 Cyclic paths are similar but use the CyclicMetaPath contructor There is no ending point since the ending point will be the same as the first point",
           "hierarchy": "Geom2D CubicBezier MetaPath",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "MetaPath",
           "package": "cubicbezier",
@@ -1202,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "MetaJoin",
           "package": "cubicbezier",
@@ -1210,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier MetaPath",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "MetaJoin",
           "package": "cubicbezier",
@@ -1223,6 +1323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "MetaNodeType",
           "package": "cubicbezier",
@@ -1231,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier MetaPath",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "MetaNodeType",
           "package": "cubicbezier",
@@ -1244,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "MetaPath",
           "package": "cubicbezier",
@@ -1252,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier MetaPath",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "MetaPath",
           "package": "cubicbezier",
@@ -1265,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "Tension",
           "package": "cubicbezier",
@@ -1273,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier MetaPath",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "Tension",
           "package": "cubicbezier",
@@ -1286,6 +1392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "Controls",
           "package": "cubicbezier",
@@ -1295,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier MetaPath",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "Controls",
           "package": "cubicbezier",
@@ -1308,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "Curl",
           "package": "cubicbezier",
@@ -1317,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier MetaPath",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "Curl",
           "package": "cubicbezier",
@@ -1330,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "CyclicMetaPath",
           "package": "cubicbezier",
@@ -1339,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier MetaPath",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "CyclicMetaPath",
           "normalized": "CyclicMetaPath[(Point,MetaJoin)]",
@@ -1354,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "Direction",
           "package": "cubicbezier",
@@ -1363,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier MetaPath",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "Direction",
           "package": "cubicbezier",
@@ -1376,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "MetaJoin",
           "package": "cubicbezier",
@@ -1385,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier MetaPath",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "MetaJoin",
           "package": "cubicbezier",
@@ -1398,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "Open",
           "package": "cubicbezier",
@@ -1407,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier MetaPath",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "Open",
           "package": "cubicbezier",
@@ -1420,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "OpenMetaPath",
           "package": "cubicbezier",
@@ -1429,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier MetaPath",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "OpenMetaPath",
           "normalized": "OpenMetaPath[(Point,MetaJoin)]Point",
@@ -1444,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "Tension",
           "package": "cubicbezier",
@@ -1453,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier MetaPath",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "Tension",
           "package": "cubicbezier",
@@ -1466,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "TensionAtLeast",
           "package": "cubicbezier",
@@ -1475,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier MetaPath",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "TensionAtLeast",
           "package": "cubicbezier",
@@ -1488,6 +1612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "curlgamma",
           "package": "cubicbezier",
@@ -1497,6 +1622,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier MetaPath",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "curlgamma",
           "package": "cubicbezier",
@@ -1509,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "metaTypeL",
           "package": "cubicbezier",
@@ -1518,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier MetaPath",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "metaTypeL",
           "package": "cubicbezier",
@@ -1531,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "metaTypeR",
           "package": "cubicbezier",
@@ -1540,6 +1669,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier MetaPath",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "metaTypeR",
           "package": "cubicbezier",
@@ -1553,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "nodedir",
           "package": "cubicbezier",
@@ -1562,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier MetaPath",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "nodedir",
           "package": "cubicbezier",
@@ -1574,6 +1706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "tensionL",
           "package": "cubicbezier",
@@ -1583,6 +1716,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier MetaPath",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "tensionL",
           "package": "cubicbezier",
@@ -1595,6 +1729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "tensionR",
           "package": "cubicbezier",
@@ -1604,6 +1739,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier MetaPath",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "tensionR",
           "package": "cubicbezier",
@@ -1616,6 +1752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "tensionValue",
           "package": "cubicbezier",
@@ -1625,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "Geom2D CubicBezier MetaPath",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "tensionValue",
           "package": "cubicbezier",
@@ -1639,6 +1777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a normal path from a metapath.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "unmeta",
           "package": "cubicbezier",
@@ -1649,6 +1788,7 @@
         "index": {
           "description": "Create normal path from metapath",
           "hierarchy": "Geom2D CubicBezier MetaPath",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.MetaPath",
           "name": "unmeta",
           "normalized": "MetaPath-\u003ePath",
@@ -1664,6 +1804,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOffsetting bezier curves and stroking curves.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Outline",
           "name": "Outline",
           "package": "cubicbezier",
@@ -1673,6 +1814,7 @@
         "index": {
           "description": "Offsetting bezier curves and stroking curves",
           "hierarchy": "Geom2D CubicBezier Outline",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Outline",
           "name": "Outline",
           "package": "cubicbezier",
@@ -1687,6 +1829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate an offset path from the bezier curve to within\n tolerance.  If the distance is positive offset to the left,\n otherwise to the right. A smaller tolerance may require more bezier\n curves in the path to approximate the offset curve\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Outline",
           "name": "bezierOffset",
           "package": "cubicbezier",
@@ -1696,6 +1839,7 @@
         "index": {
           "description": "Calculate an offset path from the bezier curve to within tolerance If the distance is positive offset to the left otherwise to the right smaller tolerance may require more bezier curves in the path to approximate the offset curve",
           "hierarchy": "Geom2D CubicBezier Outline",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Outline",
           "name": "bezierOffset",
           "normalized": "CubicBezier-\u003eDouble-\u003eDouble-\u003e[CubicBezier]",
@@ -1712,6 +1856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike bezierOffset, but limit the number of subpaths for each\n smooth subsegment.  The number should not be smaller than one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier.Outline",
           "name": "bezierOffsetMax",
           "package": "cubicbezier",
@@ -1722,6 +1867,7 @@
         "index": {
           "description": "Like bezierOffset but limit the number of subpaths for each smooth subsegment The number should not be smaller than one",
           "hierarchy": "Geom2D CubicBezier Outline",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier.Outline",
           "name": "bezierOffsetMax",
           "normalized": "Int-\u003eCubicBezier-\u003eDouble-\u003eDouble-\u003e[CubicBezier]",
@@ -1738,6 +1884,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExport all the cubic bezier functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D.CubicBezier",
           "name": "CubicBezier",
           "package": "cubicbezier",
@@ -1747,6 +1894,7 @@
         "index": {
           "description": "Export all the cubic bezier functions",
           "hierarchy": "Geom2D CubicBezier",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D.CubicBezier",
           "name": "CubicBezier",
           "package": "cubicbezier",
@@ -1761,6 +1909,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic 2 dimensional geometry functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "Geom2D",
           "package": "cubicbezier",
@@ -1770,6 +1919,7 @@
         "index": {
           "description": "Basic dimensional geometry functions",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "Geom2D",
           "package": "cubicbezier",
@@ -1783,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "AffineTransform",
           "package": "cubicbezier",
@@ -1791,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "AffineTransform",
           "package": "cubicbezier",
@@ -1804,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "Line",
           "package": "cubicbezier",
@@ -1812,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "Line",
           "package": "cubicbezier",
@@ -1825,6 +1979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "Point",
           "package": "cubicbezier",
@@ -1833,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "Point",
           "package": "cubicbezier",
@@ -1846,6 +2002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "Polygon",
           "package": "cubicbezier",
@@ -1854,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "Polygon",
           "package": "cubicbezier",
@@ -1868,6 +2026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA transformation (x, y) -\u003e (ax + by + c, dx + ey + d)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "Transform",
           "package": "cubicbezier",
@@ -1877,6 +2036,7 @@
         "index": {
           "description": "transformation ax by dx ey",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "Transform",
           "package": "cubicbezier",
@@ -1891,6 +2051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator for applying a transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "($*)",
           "package": "cubicbezier",
@@ -1901,6 +2062,7 @@
         "index": {
           "description": "Operator for applying transformation",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "($*) $*",
           "normalized": "Transform-\u003ea-\u003ea",
@@ -1916,6 +2078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale vector by constant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "(*^)",
           "package": "cubicbezier",
@@ -1926,6 +2089,7 @@
         "index": {
           "description": "Scale vector by constant",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "(*^) *^",
           "normalized": "Double-\u003ePoint-\u003ePoint",
@@ -1941,6 +2105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale vector by constant, with the arguments swapped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "(^*)",
           "package": "cubicbezier",
@@ -1951,6 +2116,7 @@
         "index": {
           "description": "Scale vector by constant with the arguments swapped",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "(^*) ^*",
           "normalized": "Point-\u003eDouble-\u003ePoint",
@@ -1966,6 +2132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd two vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "(^+^)",
           "package": "cubicbezier",
@@ -1976,6 +2143,7 @@
         "index": {
           "description": "Add two vectors",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "(^+^) ^+^",
           "normalized": "Point-\u003ePoint-\u003ePoint",
@@ -1991,6 +2159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtract two vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "(^-^)",
           "package": "cubicbezier",
@@ -2001,6 +2170,7 @@
         "index": {
           "description": "Subtract two vectors",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "(^-^) ^-^",
           "normalized": "Point-\u003ePoint-\u003ePoint",
@@ -2016,6 +2186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale vector by reciprocal of constant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "(^/)",
           "package": "cubicbezier",
@@ -2026,6 +2197,7 @@
         "index": {
           "description": "Scale vector by reciprocal of constant",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "(^/) ^/",
           "normalized": "Point-\u003eDouble-\u003ePoint",
@@ -2041,6 +2213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDot product of two vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "(^.^)",
           "package": "cubicbezier",
@@ -2051,6 +2224,7 @@
         "index": {
           "description": "Dot product of two vectors",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "(^.^) ^.^",
           "normalized": "Point-\u003ePoint-\u003eDouble",
@@ -2065,6 +2239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "Line",
           "package": "cubicbezier",
@@ -2074,6 +2249,7 @@
         },
         "index": {
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "Line",
           "package": "cubicbezier",
@@ -2087,6 +2263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "Point",
           "package": "cubicbezier",
@@ -2096,6 +2273,7 @@
         },
         "index": {
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "Point",
           "package": "cubicbezier",
@@ -2109,6 +2287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "Polygon",
           "package": "cubicbezier",
@@ -2118,6 +2297,7 @@
         },
         "index": {
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "Polygon",
           "normalized": "Polygon[Point]",
@@ -2133,6 +2313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "Transform",
           "package": "cubicbezier",
@@ -2142,6 +2323,7 @@
         },
         "index": {
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "Transform",
           "package": "cubicbezier",
@@ -2156,6 +2338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unitvector with the given angle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "dirVector",
           "package": "cubicbezier",
@@ -2166,6 +2349,7 @@
         "index": {
           "description": "The unitvector with the given angle",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "dirVector",
           "normalized": "Double-\u003ePoint",
@@ -2182,6 +2366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpolate between two vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "interpolateVector",
           "package": "cubicbezier",
@@ -2192,6 +2377,7 @@
         "index": {
           "description": "Interpolate between two vectors",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "interpolateVector",
           "normalized": "Point-\u003ePoint-\u003eDouble-\u003ePoint",
@@ -2208,6 +2394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the inverse of a transformation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "inverse",
           "package": "cubicbezier",
@@ -2218,6 +2405,7 @@
         "index": {
           "description": "Calculate the inverse of transformation",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "inverse",
           "normalized": "Transform-\u003eMaybe Transform",
@@ -2233,6 +2421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the the distance from a point to the line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "lineDistance",
           "package": "cubicbezier",
@@ -2243,6 +2432,7 @@
         "index": {
           "description": "Return the the distance from point to the line",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "lineDistance",
           "normalized": "Line-\u003ePoint-\u003eDouble",
@@ -2259,6 +2449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the parameters (a, b, c) for the normalised equation\n of the line: \u003ccode\u003ea*x + b*y + c = 0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "lineEquation",
           "package": "cubicbezier",
@@ -2269,6 +2460,7 @@
         "index": {
           "description": "Return the parameters for the normalised equation of the line",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "lineEquation",
           "normalized": "Line-\u003e(Double,Double,Double)",
@@ -2285,6 +2477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unit vector with the same direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "normVector",
           "package": "cubicbezier",
@@ -2295,6 +2488,7 @@
         "index": {
           "description": "The unit vector with the same direction",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "normVector",
           "normalized": "Point-\u003ePoint",
@@ -2310,6 +2504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "pointX",
           "package": "cubicbezier",
@@ -2319,6 +2514,7 @@
         },
         "index": {
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "pointX",
           "package": "cubicbezier",
@@ -2331,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "pointY",
           "package": "cubicbezier",
@@ -2340,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "pointY",
           "package": "cubicbezier",
@@ -2353,6 +2551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a transform that rotates by the given angle (radians).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "rotate",
           "package": "cubicbezier",
@@ -2363,6 +2562,7 @@
         "index": {
           "description": "Create transform that rotates by the given angle radians",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "rotate",
           "normalized": "Double-\u003eTransform",
@@ -2378,6 +2578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotate vector 90 degrees left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "rotate90L",
           "package": "cubicbezier",
@@ -2388,6 +2589,7 @@
         "index": {
           "description": "Rotate vector degrees left",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "rotate90L",
           "package": "cubicbezier",
@@ -2401,6 +2603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotate vector 90 degrees right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "rotate90R",
           "package": "cubicbezier",
@@ -2411,6 +2614,7 @@
         "index": {
           "description": "Rotate vector degrees right",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "rotate90R",
           "package": "cubicbezier",
@@ -2424,6 +2628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a transform that rotates by the angle of the given vector\n with the x-axis\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "rotateVec",
           "package": "cubicbezier",
@@ -2434,6 +2639,7 @@
         "index": {
           "description": "Create transform that rotates by the angle of the given vector with the x-axis",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "rotateVec",
           "normalized": "Point-\u003eTransform",
@@ -2449,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "transform",
           "package": "cubicbezier",
@@ -2458,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "transform",
           "normalized": "Transform-\u003ea-\u003ea",
@@ -2473,6 +2681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a transform that translates by the given vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "translate",
           "package": "cubicbezier",
@@ -2483,6 +2692,7 @@
         "index": {
           "description": "Create transform that translates by the given vector",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "translate",
           "normalized": "Point-\u003eTransform",
@@ -2498,6 +2708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe angle of the vector, in the range \u003ccode\u003e(-\u003ccode\u003e\u003ca\u003epi\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003epi\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "vectorAngle",
           "package": "cubicbezier",
@@ -2508,6 +2719,7 @@
         "index": {
           "description": "The angle of the vector in the range pi pi",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "vectorAngle",
           "normalized": "Point-\u003eDouble",
@@ -2524,6 +2736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCross product of two vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "vectorCross",
           "package": "cubicbezier",
@@ -2534,6 +2747,7 @@
         "index": {
           "description": "Cross product of two vectors",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "vectorCross",
           "normalized": "Point-\u003ePoint-\u003eDouble",
@@ -2550,6 +2764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistance between two vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "vectorDistance",
           "package": "cubicbezier",
@@ -2560,6 +2775,7 @@
         "index": {
           "description": "Distance between two vectors",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "vectorDistance",
           "normalized": "Point-\u003ePoint-\u003eDouble",
@@ -2576,6 +2792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe lenght of the vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "vectorMag",
           "package": "cubicbezier",
@@ -2586,6 +2803,7 @@
         "index": {
           "description": "The lenght of the vector",
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "vectorMag",
           "normalized": "Point-\u003eDouble",
@@ -2601,6 +2819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "xformA",
           "package": "cubicbezier",
@@ -2610,6 +2829,7 @@
         },
         "index": {
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "xformA",
           "package": "cubicbezier",
@@ -2622,6 +2842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "xformB",
           "package": "cubicbezier",
@@ -2631,6 +2852,7 @@
         },
         "index": {
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "xformB",
           "package": "cubicbezier",
@@ -2643,6 +2865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "xformC",
           "package": "cubicbezier",
@@ -2652,6 +2875,7 @@
         },
         "index": {
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "xformC",
           "package": "cubicbezier",
@@ -2664,6 +2888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "xformD",
           "package": "cubicbezier",
@@ -2673,6 +2898,7 @@
         },
         "index": {
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "xformD",
           "package": "cubicbezier",
@@ -2685,6 +2911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "xformE",
           "package": "cubicbezier",
@@ -2694,6 +2921,7 @@
         },
         "index": {
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "xformE",
           "package": "cubicbezier",
@@ -2706,6 +2934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Geom2D",
           "name": "xformF",
           "package": "cubicbezier",
@@ -2715,6 +2944,7 @@
         },
         "index": {
           "hierarchy": "Geom2D",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Geom2D",
           "name": "xformF",
           "package": "cubicbezier",
@@ -2727,6 +2957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Math.BernsteinPoly",
           "name": "BernsteinPoly",
           "package": "cubicbezier",
@@ -2735,6 +2966,7 @@
         },
         "index": {
           "hierarchy": "Math BernsteinPoly",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Math.BernsteinPoly",
           "name": "BernsteinPoly",
           "package": "cubicbezier",
@@ -2748,6 +2980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Math.BernsteinPoly",
           "name": "BernsteinPoly",
           "package": "cubicbezier",
@@ -2756,6 +2989,7 @@
         },
         "index": {
           "hierarchy": "Math BernsteinPoly",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Math.BernsteinPoly",
           "name": "BernsteinPoly",
           "package": "cubicbezier",
@@ -2770,6 +3004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply two bernstein polynomials.  The final degree\n will be the sum of either degrees.  This operation takes O((n+m)^2)\n with n and m the degree of the beziers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Math.BernsteinPoly",
           "name": "(~*)",
           "package": "cubicbezier",
@@ -2780,6 +3015,7 @@
         "index": {
           "description": "Multiply two bernstein polynomials The final degree will be the sum of either degrees This operation takes with and the degree of the beziers",
           "hierarchy": "Math BernsteinPoly",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Math.BernsteinPoly",
           "name": "(~*) ~*",
           "normalized": "BernsteinPoly-\u003eBernsteinPoly-\u003eBernsteinPoly",
@@ -2795,6 +3031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum two bernstein polynomials.  The final degree will be the maximum of either\n degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Math.BernsteinPoly",
           "name": "(~+)",
           "package": "cubicbezier",
@@ -2805,6 +3042,7 @@
         "index": {
           "description": "Sum two bernstein polynomials The final degree will be the maximum of either degrees",
           "hierarchy": "Math BernsteinPoly",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Math.BernsteinPoly",
           "name": "(~+) ~+",
           "normalized": "BernsteinPoly-\u003eBernsteinPoly-\u003eBernsteinPoly",
@@ -2820,6 +3058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtract two bernstein polynomials.  The final degree will be the maximum of either\n degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Math.BernsteinPoly",
           "name": "(~-)",
           "package": "cubicbezier",
@@ -2830,6 +3069,7 @@
         "index": {
           "description": "Subtract two bernstein polynomials The final degree will be the maximum of either degrees",
           "hierarchy": "Math BernsteinPoly",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Math.BernsteinPoly",
           "name": "(~-) ~-",
           "normalized": "BernsteinPoly-\u003eBernsteinPoly-\u003eBernsteinPoly",
@@ -2845,6 +3085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale a bernstein polynomial by a constant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Math.BernsteinPoly",
           "name": "(*~)",
           "package": "cubicbezier",
@@ -2855,6 +3096,7 @@
         "index": {
           "description": "Scale bernstein polynomial by constant",
           "hierarchy": "Math BernsteinPoly",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Math.BernsteinPoly",
           "name": "(*~) *~",
           "normalized": "Double-\u003eBernsteinPoly-\u003eBernsteinPoly",
@@ -2869,6 +3111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Math.BernsteinPoly",
           "name": "BernsteinPoly",
           "package": "cubicbezier",
@@ -2878,6 +3121,7 @@
         },
         "index": {
           "hierarchy": "Math BernsteinPoly",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Math.BernsteinPoly",
           "name": "BernsteinPoly",
           "package": "cubicbezier",
@@ -2891,6 +3135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Math.BernsteinPoly",
           "name": "bernsteinCoeffs",
           "package": "cubicbezier",
@@ -2900,6 +3145,7 @@
         },
         "index": {
           "hierarchy": "Math BernsteinPoly",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Math.BernsteinPoly",
           "name": "bernsteinCoeffs",
           "normalized": "[Double]",
@@ -2915,6 +3161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Math.BernsteinPoly",
           "name": "bernsteinDegree",
           "package": "cubicbezier",
@@ -2924,6 +3171,7 @@
         },
         "index": {
           "hierarchy": "Math BernsteinPoly",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Math.BernsteinPoly",
           "name": "bernsteinDegree",
           "package": "cubicbezier",
@@ -2938,6 +3186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the derivative of a bernstein polynomial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Math.BernsteinPoly",
           "name": "bernsteinDeriv",
           "package": "cubicbezier",
@@ -2948,6 +3197,7 @@
         "index": {
           "description": "Find the derivative of bernstein polynomial",
           "hierarchy": "Math BernsteinPoly",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Math.BernsteinPoly",
           "name": "bernsteinDeriv",
           "normalized": "BernsteinPoly-\u003eBernsteinPoly",
@@ -2964,6 +3214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate the bernstein polynomial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Math.BernsteinPoly",
           "name": "bernsteinEval",
           "package": "cubicbezier",
@@ -2974,6 +3225,7 @@
         "index": {
           "description": "Evaluate the bernstein polynomial",
           "hierarchy": "Math BernsteinPoly",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Math.BernsteinPoly",
           "name": "bernsteinEval",
           "normalized": "BernsteinPoly-\u003eDouble-\u003eDouble",
@@ -2990,6 +3242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate the bernstein polynomial and its derivatives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Math.BernsteinPoly",
           "name": "bernsteinEvalDerivs",
           "package": "cubicbezier",
@@ -3000,6 +3253,7 @@
         "index": {
           "description": "Evaluate the bernstein polynomial and its derivatives",
           "hierarchy": "Math BernsteinPoly",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Math.BernsteinPoly",
           "name": "bernsteinEvalDerivs",
           "normalized": "BernsteinPoly-\u003eDouble-\u003e[Double]",
@@ -3016,6 +3270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a bernstein polynomial\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Math.BernsteinPoly",
           "name": "bernsteinSplit",
           "package": "cubicbezier",
@@ -3026,6 +3281,7 @@
         "index": {
           "description": "Split bernstein polynomial",
           "hierarchy": "Math BernsteinPoly",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Math.BernsteinPoly",
           "name": "bernsteinSplit",
           "normalized": "BernsteinPoly-\u003eDouble-\u003e(BernsteinPoly,BernsteinPoly)",
@@ -3042,6 +3298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the subsegment between the two parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Math.BernsteinPoly",
           "name": "bernsteinSubsegment",
           "package": "cubicbezier",
@@ -3052,6 +3309,7 @@
         "index": {
           "description": "Return the subsegment between the two parameters",
           "hierarchy": "Math BernsteinPoly",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Math.BernsteinPoly",
           "name": "bernsteinSubsegment",
           "normalized": "BernsteinPoly-\u003eDouble-\u003eDouble-\u003eBernsteinPoly",
@@ -3068,6 +3326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDegree elevate a bernstein polynomail a number of times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Math.BernsteinPoly",
           "name": "degreeElevate",
           "package": "cubicbezier",
@@ -3078,6 +3337,7 @@
         "index": {
           "description": "Degree elevate bernstein polynomail number of times",
           "hierarchy": "Math BernsteinPoly",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Math.BernsteinPoly",
           "name": "degreeElevate",
           "normalized": "BernsteinPoly-\u003eInt-\u003eBernsteinPoly",
@@ -3094,6 +3354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a bernstein polynomail from a list of co&#235;fficients.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Math.BernsteinPoly",
           "name": "listToBernstein",
           "package": "cubicbezier",
@@ -3104,6 +3365,7 @@
         "index": {
           "description": "Create bernstein polynomail from list of co fficients",
           "hierarchy": "Math BernsteinPoly",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Math.BernsteinPoly",
           "name": "listToBernstein",
           "normalized": "[Double]-\u003eBernsteinPoly",
@@ -3120,6 +3382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe constant zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:14 UTC 2014",
           "module": "Math.BernsteinPoly",
           "name": "zeroPoly",
           "package": "cubicbezier",
@@ -3130,6 +3393,7 @@
         "index": {
           "description": "The constant zero",
           "hierarchy": "Math BernsteinPoly",
+          "indexed": "2014-03-11T17:45:14",
           "module": "Math.BernsteinPoly",
           "name": "zeroPoly",
           "package": "cubicbezier",

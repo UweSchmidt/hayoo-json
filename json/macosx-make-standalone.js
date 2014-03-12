@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "macosx-make-standalone"
+        "phrase": "macosx-make-standalone",
+        "type": "phrase"
       },
       "type": "context"
     }

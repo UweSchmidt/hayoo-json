@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yaml2owl"
+        "phrase": "yaml2owl",
+        "type": "phrase"
       },
       "type": "context"
     }

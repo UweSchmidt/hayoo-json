@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "crypto-conduit"
+        "phrase": "crypto-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains wrappers for cryptographic functions\n using the \u003ccode\u003econduit\u003c/code\u003e package.  Currently there is support for\n hashes, HMACs and many modes of block ciphers (but not\n everything \u003ccode\u003ecrypto-api\u003c/code\u003e supports has a counterpart here).\n All functions on this package work in constant memory.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "Conduit",
           "package": "crypto-conduit",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module contains wrappers for cryptographic functions using the conduit package Currently there is support for hashes HMACs and many modes of block ciphers but not everything crypto-api supports has counterpart here All functions on this package work in constant memory",
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "Conduit",
           "package": "crypto-conduit",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA block returned by \u003ccode\u003e\u003ca\u003eblocked\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "Block",
           "package": "crypto-conduit",
@@ -51,6 +54,7 @@
         "index": {
           "description": "block returned by blocked",
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "Block",
           "package": "crypto-conduit",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow \u003ccode\u003e\u003ca\u003eBlock\u003c/a\u003e\u003c/code\u003es should be returned, either with strictly the\n block size or with a multiple of at least 1x the block size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "BlockMode",
           "package": "crypto-conduit",
@@ -74,6 +79,7 @@
         "index": {
           "description": "How Block should be returned either with strictly the block size or with multiple of at least the block size",
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "BlockMode",
           "package": "crypto-conduit",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "AnyMultiple",
           "package": "crypto-conduit",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "AnyMultiple",
           "package": "crypto-conduit",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "Full",
           "package": "crypto-conduit",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "Full",
           "package": "crypto-conduit",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "LastOne",
           "package": "crypto-conduit",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "LastOne",
           "package": "crypto-conduit",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "StrictBlockSize",
           "package": "crypto-conduit",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "StrictBlockSize",
           "package": "crypto-conduit",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eConduit\u003c/a\u003e\u003c/code\u003e that takes arbitrary \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e and\n outputs \u003ccode\u003e\u003ca\u003eBlock\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e.  Each \u003ccode\u003e\u003ca\u003eFull\u003c/a\u003e\u003c/code\u003e block will have a length that\n is multiple of the given block size (either exactly the block\n size or a multiple of at least 1x the block size, depending on\n the \u003ccode\u003e\u003ca\u003eBlockMode\u003c/a\u003e\u003c/code\u003e).  All \u003ccode\u003e\u003ca\u003eBlock\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e beside the last one will be\n \u003ccode\u003e\u003ca\u003eFull\u003c/a\u003e\u003c/code\u003e.  The last block will always be \u003ccode\u003e\u003ca\u003eLastOne\u003c/a\u003e\u003c/code\u003e with less\n bytes than the block size, possibly zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "blocked",
           "package": "crypto-conduit",
@@ -185,6 +200,7 @@
         "index": {
           "description": "Conduit that takes arbitrary ByteString and outputs Block Each Full block will have length that is multiple of the given block size either exactly the block size or multiple of at least the block size depending on the BlockMode All Block beside the last one will be Full The last block will always be LastOne with less bytes than the block size possibly zero",
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "blocked",
           "normalized": "BlockMode-\u003eByteLength-\u003eConduit ByteString a Block",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eConduit\u003c/a\u003e\u003c/code\u003e that decrypts a stream of \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e\n using CBC mode.  Expects the input length to be a multiple of\n the block size of the cipher and fails otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "conduitDecryptCbc",
           "package": "crypto-conduit",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Conduit that decrypts stream of ByteString using CBC mode Expects the input length to be multiple of the block size of the cipher and fails otherwise",
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "conduitDecryptCbc",
           "normalized": "a-\u003eIV a-\u003eConduit ByteString b ByteString",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eConduit\u003c/a\u003e\u003c/code\u003e that decrypts a stream of \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e\n using CFB mode.  Expects the input length to be a multiple of\n the block size of the cipher and fails otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "conduitDecryptCfb",
           "package": "crypto-conduit",
@@ -234,6 +253,7 @@
         "index": {
           "description": "Conduit that decrypts stream of ByteString using CFB mode Expects the input length to be multiple of the block size of the cipher and fails otherwise",
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "conduitDecryptCfb",
           "normalized": "a-\u003eIV a-\u003eConduit ByteString b ByteString",
@@ -250,6 +270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for \u003ccode\u003e\u003ca\u003econduitEncryptCtr\u003c/a\u003e\u003c/code\u003e, since for CTR mode both\n encryption and decryption are the same.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "conduitDecryptCtr",
           "package": "crypto-conduit",
@@ -259,6 +280,7 @@
         "index": {
           "description": "Synonym for conduitEncryptCtr since for CTR mode both encryption and decryption are the same",
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "conduitDecryptCtr",
           "normalized": "a-\u003eIV a-\u003e(IV a-\u003eIV a)-\u003eConduit ByteString b ByteString",
@@ -275,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eConduit\u003c/a\u003e\u003c/code\u003e that decrypts a stream of \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e\n using ECB mode.  Expects the input length to be a multiple of\n the block size of the cipher and fails otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "conduitDecryptEcb",
           "package": "crypto-conduit",
@@ -284,6 +307,7 @@
         "index": {
           "description": "Conduit that decrypts stream of ByteString using ECB mode Expects the input length to be multiple of the block size of the cipher and fails otherwise",
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "conduitDecryptEcb",
           "normalized": "a-\u003eConduit ByteString b ByteString",
@@ -300,6 +324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for \u003ccode\u003e\u003ca\u003econduitEncryptOfb\u003c/a\u003e\u003c/code\u003e, since for OFB mode both\n encryption and decryption are the same.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "conduitDecryptOfb",
           "package": "crypto-conduit",
@@ -309,6 +334,7 @@
         "index": {
           "description": "Synonym for conduitEncryptOfb since for OFB mode both encryption and decryption are the same",
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "conduitDecryptOfb",
           "normalized": "a-\u003eIV a-\u003eConduit ByteString b ByteString",
@@ -325,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eConduit\u003c/a\u003e\u003c/code\u003e that encrypts a stream of \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e\n using CBC mode.  Expects the input length to be a multiple of\n the block size of the cipher and fails otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "conduitEncryptCbc",
           "package": "crypto-conduit",
@@ -334,6 +361,7 @@
         "index": {
           "description": "Conduit that encrypts stream of ByteString using CBC mode Expects the input length to be multiple of the block size of the cipher and fails otherwise",
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "conduitEncryptCbc",
           "normalized": "a-\u003eIV a-\u003eConduit ByteString b ByteString",
@@ -350,6 +378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eConduit\u003c/a\u003e\u003c/code\u003e that encrypts a stream of \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e\n using CFB mode.  Expects the input length to be a multiple of\n the block size of the cipher and fails otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "conduitEncryptCfb",
           "package": "crypto-conduit",
@@ -359,6 +388,7 @@
         "index": {
           "description": "Conduit that encrypts stream of ByteString using CFB mode Expects the input length to be multiple of the block size of the cipher and fails otherwise",
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "conduitEncryptCfb",
           "normalized": "a-\u003eIV a-\u003eConduit ByteString b ByteString",
@@ -375,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eConduit\u003c/a\u003e\u003c/code\u003e that encrypts a stream of \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e\n using CTR mode.  The input may have any length, even\n non-multiples of the block size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "conduitEncryptCtr",
           "package": "crypto-conduit",
@@ -384,6 +415,7 @@
         "index": {
           "description": "Conduit that encrypts stream of ByteString using CTR mode The input may have any length even non-multiples of the block size",
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "conduitEncryptCtr",
           "normalized": "a-\u003eIV a-\u003e(IV a-\u003eIV a)-\u003eConduit ByteString b ByteString",
@@ -400,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eConduit\u003c/a\u003e\u003c/code\u003e that encrypts a stream of \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e\n using ECB mode.  Expects the input length to be a multiple of\n the block size of the cipher and fails otherwise.  (Note that\n ECB has many undesirable cryptographic properties, please\n avoid it if you don't know what you're doing.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "conduitEncryptEcb",
           "package": "crypto-conduit",
@@ -409,6 +442,7 @@
         "index": {
           "description": "Conduit that encrypts stream of ByteString using ECB mode Expects the input length to be multiple of the block size of the cipher and fails otherwise Note that ECB has many undesirable cryptographic properties please avoid it if you don know what you re doing",
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "conduitEncryptEcb",
           "normalized": "a-\u003eConduit ByteString b ByteString",
@@ -425,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eConduit\u003c/a\u003e\u003c/code\u003e that encrypts a stream of \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e\n using OFB mode.  Expects the input length to be a multiple of\n the block size of the cipher and fails otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "conduitEncryptOfb",
           "package": "crypto-conduit",
@@ -434,6 +469,7 @@
         "index": {
           "description": "Conduit that encrypts stream of ByteString using OFB mode Expects the input length to be multiple of the block size of the cipher and fails otherwise",
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "conduitEncryptOfb",
           "normalized": "a-\u003eIV a-\u003eConduit ByteString b ByteString",
@@ -450,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHashes the whole contents of the given file in constant\n memory.  This function is just a convenient wrapper around\n \u003ccode\u003e\u003ca\u003esinkHash\u003c/a\u003e\u003c/code\u003e defined as:\n\u003c/p\u003e\u003cpre\u003e\n hashFile fp = \u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e $ \u003ccode\u003e\u003ca\u003erunResourceT\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003esourceFile\u003c/a\u003e\u003c/code\u003e fp \u003ccode\u003e\u003ca\u003e$$\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003esinkHash\u003c/a\u003e\u003c/code\u003e)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "hashFile",
           "package": "crypto-conduit",
@@ -460,6 +497,7 @@
         "index": {
           "description": "Hashes the whole contents of the given file in constant memory This function is just convenient wrapper around sinkHash defined as hashFile fp liftIO runResourceT sourceFile fp sinkHash",
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "hashFile",
           "normalized": "FilePath-\u003ea b",
@@ -476,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSink\u003c/a\u003e\u003c/code\u003e that computes the CBC-MAC of a stream of\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e and creates a digest (already encoded in a\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e, since we're using a block cipher).  Expects\n the input length to be a multiple of the block size of the\n cipher and fails otherwise.  (Note that CBC-MAC is not secure\n for variable-length messages.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "sinkCbcMac",
           "package": "crypto-conduit",
@@ -485,6 +524,7 @@
         "index": {
           "description": "Sink that computes the CBC-MAC of stream of ByteString and creates digest already encoded in ByteString since we re using block cipher Expects the input length to be multiple of the block size of the cipher and fails otherwise Note that CBC-MAC is not secure for variable-length messages",
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "sinkCbcMac",
           "normalized": "a-\u003eConsumer ByteString b ByteString",
@@ -501,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSink\u003c/a\u003e\u003c/code\u003e that hashes a stream of \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e and\n creates a digest \u003ccode\u003ed\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "sinkHash",
           "package": "crypto-conduit",
@@ -511,6 +552,7 @@
         "index": {
           "description": "Sink that hashes stream of ByteString and creates digest",
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "sinkHash",
           "package": "crypto-conduit",
@@ -525,6 +567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSink\u003c/a\u003e\u003c/code\u003e that computes the HMAC of a stream of\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e and creates a digest \u003ccode\u003ed\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "sinkHmac",
           "package": "crypto-conduit",
@@ -535,6 +578,7 @@
         "index": {
           "description": "Sink that computes the HMAC of stream of ByteString and creates digest",
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "sinkHmac",
           "normalized": "MacKey a b-\u003eConsumer ByteString c b",
@@ -551,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infinite stream of bytes generated by a block cipher on\n CTR mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:42 UTC 2014",
           "module": "Crypto.Conduit",
           "name": "sourceCtr",
           "package": "crypto-conduit",
@@ -560,6 +605,7 @@
         "index": {
           "description": "An infinite stream of bytes generated by block cipher on CTR mode",
           "hierarchy": "Crypto Conduit",
+          "indexed": "2014-03-11T17:43:42",
           "module": "Crypto.Conduit",
           "name": "sourceCtr",
           "normalized": "a-\u003eIV a-\u003eProducer b ByteString",

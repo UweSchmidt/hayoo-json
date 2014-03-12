@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rematch-text"
+        "phrase": "rematch-text",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports \u003ccode\u003erematch\u003c/code\u003e matchers for strict Data.Text\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:41 UTC 2014",
           "module": "Control.Rematch.Text.Lazy",
           "name": "Lazy",
           "package": "rematch-text",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module exports rematch matchers for strict Data.Text",
           "hierarchy": "Control Rematch Text Lazy",
+          "indexed": "2014-03-11T19:52:41",
           "module": "Control.Rematch.Text.Lazy",
           "name": "Lazy",
           "package": "rematch-text",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematchers if the input contains some Text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:41 UTC 2014",
           "module": "Control.Rematch.Text.Lazy",
           "name": "containsText",
           "package": "rematch-text",
@@ -52,6 +55,7 @@
         "index": {
           "description": "matchers if the input contains some Text",
           "hierarchy": "Control Rematch Text Lazy",
+          "indexed": "2014-03-11T19:52:41",
           "module": "Control.Rematch.Text.Lazy",
           "name": "containsText",
           "normalized": "Text-\u003eMatcher Text",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematchers if the input ends with some Text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:41 UTC 2014",
           "module": "Control.Rematch.Text.Lazy",
           "name": "endsWith",
           "package": "rematch-text",
@@ -78,6 +83,7 @@
         "index": {
           "description": "matchers if the input ends with some Text",
           "hierarchy": "Control Rematch Text Lazy",
+          "indexed": "2014-03-11T19:52:41",
           "module": "Control.Rematch.Text.Lazy",
           "name": "endsWith",
           "normalized": "Text-\u003eMatcher Text",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematchers if the input is equal ignoring case\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:41 UTC 2014",
           "module": "Control.Rematch.Text.Lazy",
           "name": "equalToIgnoringCase",
           "package": "rematch-text",
@@ -104,6 +111,7 @@
         "index": {
           "description": "matchers if the input is equal ignoring case",
           "hierarchy": "Control Rematch Text Lazy",
+          "indexed": "2014-03-11T19:52:41",
           "module": "Control.Rematch.Text.Lazy",
           "name": "equalToIgnoringCase",
           "normalized": "Text-\u003eMatcher Text",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematchers if the input is equal ignoring whitespace\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:41 UTC 2014",
           "module": "Control.Rematch.Text.Lazy",
           "name": "equalToIgnoringWhitespace",
           "package": "rematch-text",
@@ -130,6 +139,7 @@
         "index": {
           "description": "matchers if the input is equal ignoring whitespace",
           "hierarchy": "Control Rematch Text Lazy",
+          "indexed": "2014-03-11T19:52:41",
           "module": "Control.Rematch.Text.Lazy",
           "name": "equalToIgnoringWhitespace",
           "normalized": "Text-\u003eMatcher Text",
@@ -146,6 +156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematchers if the input is empty Text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:41 UTC 2014",
           "module": "Control.Rematch.Text.Lazy",
           "name": "isEmptyText",
           "package": "rematch-text",
@@ -156,6 +167,7 @@
         "index": {
           "description": "matchers if the input is empty Text",
           "hierarchy": "Control Rematch Text Lazy",
+          "indexed": "2014-03-11T19:52:41",
           "module": "Control.Rematch.Text.Lazy",
           "name": "isEmptyText",
           "package": "rematch-text",
@@ -170,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematchers if the input begins with some Text\n becomes success\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:41 UTC 2014",
           "module": "Control.Rematch.Text.Lazy",
           "name": "startsWith",
           "package": "rematch-text",
@@ -180,6 +193,7 @@
         "index": {
           "description": "matchers if the input begins with some Text becomes success",
           "hierarchy": "Control Rematch Text Lazy",
+          "indexed": "2014-03-11T19:52:41",
           "module": "Control.Rematch.Text.Lazy",
           "name": "startsWith",
           "normalized": "Text-\u003eMatcher Text",
@@ -196,6 +210,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports \u003ccode\u003erematch\u003c/code\u003e matchers for strict Data.Text\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:41 UTC 2014",
           "module": "Control.Rematch.Text.Strict",
           "name": "Strict",
           "package": "rematch-text",
@@ -205,6 +220,7 @@
         "index": {
           "description": "This module exports rematch matchers for strict Data.Text",
           "hierarchy": "Control Rematch Text Strict",
+          "indexed": "2014-03-11T19:52:41",
           "module": "Control.Rematch.Text.Strict",
           "name": "Strict",
           "package": "rematch-text",
@@ -219,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematchers if the input contains some Text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:41 UTC 2014",
           "module": "Control.Rematch.Text.Strict",
           "name": "containsText",
           "package": "rematch-text",
@@ -229,6 +246,7 @@
         "index": {
           "description": "matchers if the input contains some Text",
           "hierarchy": "Control Rematch Text Strict",
+          "indexed": "2014-03-11T19:52:41",
           "module": "Control.Rematch.Text.Strict",
           "name": "containsText",
           "normalized": "Text-\u003eMatcher Text",
@@ -245,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematchers if the input ends with some Text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:41 UTC 2014",
           "module": "Control.Rematch.Text.Strict",
           "name": "endsWith",
           "package": "rematch-text",
@@ -255,6 +274,7 @@
         "index": {
           "description": "matchers if the input ends with some Text",
           "hierarchy": "Control Rematch Text Strict",
+          "indexed": "2014-03-11T19:52:41",
           "module": "Control.Rematch.Text.Strict",
           "name": "endsWith",
           "normalized": "Text-\u003eMatcher Text",
@@ -271,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematchers if the input is equal ignoring case\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:41 UTC 2014",
           "module": "Control.Rematch.Text.Strict",
           "name": "equalToIgnoringCase",
           "package": "rematch-text",
@@ -281,6 +302,7 @@
         "index": {
           "description": "matchers if the input is equal ignoring case",
           "hierarchy": "Control Rematch Text Strict",
+          "indexed": "2014-03-11T19:52:41",
           "module": "Control.Rematch.Text.Strict",
           "name": "equalToIgnoringCase",
           "normalized": "Text-\u003eMatcher Text",
@@ -297,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematchers if the input is equal ignoring whitespace\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:41 UTC 2014",
           "module": "Control.Rematch.Text.Strict",
           "name": "equalToIgnoringWhitespace",
           "package": "rematch-text",
@@ -307,6 +330,7 @@
         "index": {
           "description": "matchers if the input is equal ignoring whitespace",
           "hierarchy": "Control Rematch Text Strict",
+          "indexed": "2014-03-11T19:52:41",
           "module": "Control.Rematch.Text.Strict",
           "name": "equalToIgnoringWhitespace",
           "normalized": "Text-\u003eMatcher Text",
@@ -323,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematchers if the input is empty Text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:41 UTC 2014",
           "module": "Control.Rematch.Text.Strict",
           "name": "isEmptyText",
           "package": "rematch-text",
@@ -333,6 +358,7 @@
         "index": {
           "description": "matchers if the input is empty Text",
           "hierarchy": "Control Rematch Text Strict",
+          "indexed": "2014-03-11T19:52:41",
           "module": "Control.Rematch.Text.Strict",
           "name": "isEmptyText",
           "package": "rematch-text",
@@ -347,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematchers if the input begins with some Text\n becomes success\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:41 UTC 2014",
           "module": "Control.Rematch.Text.Strict",
           "name": "startsWith",
           "package": "rematch-text",
@@ -357,6 +384,7 @@
         "index": {
           "description": "matchers if the input begins with some Text becomes success",
           "hierarchy": "Control Rematch Text Strict",
+          "indexed": "2014-03-11T19:52:41",
           "module": "Control.Rematch.Text.Strict",
           "name": "startsWith",
           "normalized": "Text-\u003eMatcher Text",

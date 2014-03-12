@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dingo-widgets"
+        "phrase": "dingo-widgets",
+        "type": "phrase"
       },
       "type": "context"
     }

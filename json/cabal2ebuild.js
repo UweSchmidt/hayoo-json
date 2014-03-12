@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cabal2ebuild"
+        "phrase": "cabal2ebuild",
+        "type": "phrase"
       },
       "type": "context"
     }

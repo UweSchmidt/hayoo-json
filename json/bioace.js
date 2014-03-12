@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bioace"
+        "phrase": "bioace",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRead ACE format assembly files\n\u003c/p\u003e\u003cp\u003eThese are typically output by sequence assembly tools,\n   like CAP3 or Phrap.\n\u003c/p\u003e\u003cp\u003eDocumented in the section labelled \"ACE FILE FORMAT\" at\n   \u003ca\u003ehttp://bozeman.mbt.washington.edu/consed/distributions/README.14.0.txt\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eBriefly: each field is a line starting with a two letter code,\n            in some cases followed by data lines termintated by a blank line.\n   Here's an brief example how an ACE file looks like:\n\u003c/p\u003e\u003cpre\u003e\n          AS contigs reads\n          CO contig_name bases reads segments compl (CAP3: segments=0)\n          sequence\n          BQ base_qualities\n          AF read1 compl padded_start_consensus (negatives meaning?)\n          AF read2 ..\n          BS segments\n          RD read1 bases info_items info_tags (latter two set to 0 by CAP3)\n          sequence\n          QA read1 qual_start qual_end align_start align_end\n          DS (phred header? left empty by CAP3)\n          RD read2 ...\n\u003c/pre\u003e\u003cp\u003eAs far as I know, this is only used for nucleotide sequences.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:08 UTC 2014",
           "module": "Bio.Alignment.Ace",
           "name": "Ace",
           "package": "bioace",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Read ACE format assembly files These are typically output by sequence assembly tools like CAP3 or Phrap Documented in the section labelled ACE FILE FORMAT at http bozeman.mbt.washington.edu consed distributions README.14.0.txt Briefly each field is line starting with two letter code in some cases followed by data lines termintated by blank line Here an brief example how an ACE file looks like AS contigs reads CO contig name bases reads segments compl CAP3 segments sequence BQ base qualities AF read1 compl padded start consensus negatives meaning AF read2 BS segments RD read1 bases info items info tags latter two set to by CAP3 sequence QA read1 qual start qual end align start align end DS phred header left empty by CAP3 RD read2 As far as know this is only used for nucleotide sequences",
           "hierarchy": "Bio Alignment Ace",
+          "indexed": "2014-03-11T17:22:08",
           "module": "Bio.Alignment.Ace",
           "name": "Ace",
           "package": "bioace",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:08 UTC 2014",
           "module": "Bio.Alignment.Ace",
           "name": "Assembly",
           "package": "bioace",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Ace",
+          "indexed": "2014-03-11T17:22:08",
           "module": "Bio.Alignment.Ace",
           "name": "Assembly",
           "package": "bioace",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:08 UTC 2014",
           "module": "Bio.Alignment.Ace",
           "name": "Asm",
           "package": "bioace",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Ace",
+          "indexed": "2014-03-11T17:22:08",
           "module": "Bio.Alignment.Ace",
           "name": "Asm",
           "package": "bioace",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:08 UTC 2014",
           "module": "Bio.Alignment.Ace",
           "name": "contig",
           "package": "bioace",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Ace",
+          "indexed": "2014-03-11T17:22:08",
           "module": "Bio.Alignment.Ace",
           "name": "contig",
           "normalized": "(Sequence,Gaps)",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:08 UTC 2014",
           "module": "Bio.Alignment.Ace",
           "name": "fragments",
           "package": "bioace",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Ace",
+          "indexed": "2014-03-11T17:22:08",
           "module": "Bio.Alignment.Ace",
           "name": "fragments",
           "package": "bioace",
@@ -129,6 +139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest parser p on a list of ACE elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:08 UTC 2014",
           "module": "Bio.Alignment.Ace",
           "name": "ptest",
           "package": "bioace",
@@ -139,6 +150,7 @@
         "index": {
           "description": "Test parser on list of ACE elements",
           "hierarchy": "Bio Alignment Ace",
+          "indexed": "2014-03-11T17:22:08",
           "module": "Bio.Alignment.Ace",
           "name": "ptest",
           "normalized": "String-\u003eAceParser a-\u003e[ACE]-\u003eIO()",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReading an ACE file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:08 UTC 2014",
           "module": "Bio.Alignment.Ace",
           "name": "readACE",
           "package": "bioace",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Reading an ACE file",
           "hierarchy": "Bio Alignment Ace",
+          "indexed": "2014-03-11T17:22:08",
           "module": "Bio.Alignment.Ace",
           "name": "readACE",
           "normalized": "FilePath-\u003eIO[[Assembly]]",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:08 UTC 2014",
           "module": "Bio.Alignment.Ace",
           "name": "reads",
           "package": "bioace",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Ace",
+          "indexed": "2014-03-11T17:22:08",
           "module": "Bio.Alignment.Ace",
           "name": "reads",
           "normalized": "Assembly-\u003eAlignment",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:08 UTC 2014",
           "module": "Bio.Alignment.Ace",
           "name": "writeACE",
           "package": "bioace",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Bio Alignment Ace",
+          "indexed": "2014-03-11T17:22:08",
           "module": "Bio.Alignment.Ace",
           "name": "writeACE",
           "normalized": "FilePath-\u003e[Assembly]-\u003eIO()",

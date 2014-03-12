@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "srcinst"
+        "phrase": "srcinst",
+        "type": "phrase"
       },
       "type": "context"
     }

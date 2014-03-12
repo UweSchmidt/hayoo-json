@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hs-vcard"
+        "phrase": "hs-vcard",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "VCard",
           "package": "hs-vcard",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "VCard",
           "package": "hs-vcard",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the various types or properties of an address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "AddrType",
           "package": "hs-vcard",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Represents the various types or properties of an address",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "AddrType",
           "package": "hs-vcard",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the data associated with a vCard's Agent. This could be a URI\n to such a vCard or the embedded contents of the vCard itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "AgentData",
           "package": "hs-vcard",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Represents the data associated with vCard Agent This could be URI to such vCard or the embedded contents of the vCard itself",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "AgentData",
           "package": "hs-vcard",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClassifies the vCard's intended access level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Class",
           "package": "hs-vcard",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Classifies the vCard intended access level",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Class",
           "package": "hs-vcard",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommon name of the represented person. E.g.,\n\u003c/p\u003e\u003cpre\u003e CommonName \"Mr. Michael A. F. Schade\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "CommonName",
           "package": "hs-vcard",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Common name of the represented person E.g CommonName Mr Michael Schade",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "CommonName",
           "package": "hs-vcard",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the various types of data that can be included in a vCard.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Data",
           "package": "hs-vcard",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Represents the various types of data that can be included in vCard",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Data",
           "package": "hs-vcard",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the various types or properties of an email address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "EmailType",
           "package": "hs-vcard",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Represents the various types or properties of an email address",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "EmailType",
           "package": "hs-vcard",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA breakdown of the vCard entity's name, corresponding, in sequence, to\n Family Name, Given Name, Additional Names, Honorific Prefixes, and Honorific\n Suffixes. E.g.,\n\u003c/p\u003e\u003cpre\u003e IndividualNames [\"Schade\"] [\"Michael\"] [\"Anthony\", \"Fanetti\"] [] [\"Esq.\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "IndividualNames",
           "package": "hs-vcard",
@@ -187,6 +202,7 @@
         "index": {
           "description": "breakdown of the vCard entity name corresponding in sequence to Family Name Given Name Additional Names Honorific Prefixes and Honorific Suffixes E.g IndividualNames Schade Michael Anthony Fanetti Esq",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "IndividualNames",
           "package": "hs-vcard",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the various types or properties of a telephone number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "TelType",
           "package": "hs-vcard",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Represents the various types or properties of telephone number",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "TelType",
           "package": "hs-vcard",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalling \u003ccode\u003eshow\u003c/code\u003e on \u003ccode\u003eVCard\u003c/code\u003e will output a RFC 2426-compliant VCard that\n can, for example, be easily saved to a file and imported by any supporting\n program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "VCard",
           "package": "hs-vcard",
@@ -233,6 +252,7 @@
         "index": {
           "description": "Calling show on VCard will output RFC compliant VCard that can for example be easily saved to file and imported by any supporting program",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "VCard",
           "package": "hs-vcard",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "VCardProperty",
           "package": "hs-vcard",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "VCardProperty",
           "package": "hs-vcard",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "AddrDomestic",
           "package": "hs-vcard",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "AddrDomestic",
           "package": "hs-vcard",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "AddrHome",
           "package": "hs-vcard",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "AddrHome",
           "package": "hs-vcard",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "AddrInternational",
           "package": "hs-vcard",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "AddrInternational",
           "package": "hs-vcard",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "AddrParcel",
           "package": "hs-vcard",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "AddrParcel",
           "package": "hs-vcard",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "AddrPostal",
           "package": "hs-vcard",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "AddrPostal",
           "package": "hs-vcard",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "AddrPreferred",
           "package": "hs-vcard",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "AddrPreferred",
           "package": "hs-vcard",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "AddrWork",
           "package": "hs-vcard",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "AddrWork",
           "package": "hs-vcard",
@@ -422,6 +458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA physical address associated with the vCard entity. E.g.,\n\u003c/p\u003e\u003cpre\u003e Address [AddrParcel, AddrPostal] \"PO Box 935\" \"\" \"\" \"Fenton\" \"MO\"\n                                  \"63026\" \"USA\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Address",
           "package": "hs-vcard",
@@ -432,6 +469,7 @@
         "index": {
           "description": "physical address associated with the vCard entity E.g Address AddrParcel AddrPostal PO Box Fenton MO USA",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Address",
           "package": "hs-vcard",
@@ -446,6 +484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates the vCard of an assistant or area administrator who is\n typically separately addressable. E.g.,\n\u003c/p\u003e\u003cpre\u003e Agent (AgentURI \"CID:JQPUBLIC.part3.960129T083020.xyzMail@host3.com\")\n\u003c/pre\u003e\u003cp\u003eor\n\u003c/p\u003e\u003cpre\u003e Agent (AgentVCard (VCard   [ CommonName \"James Q. Helpful\"\n                            , Email [EmailInternet] \"j@spearheaddev.com\"\n                            ]))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Agent",
           "package": "hs-vcard",
@@ -456,6 +495,7 @@
         "index": {
           "description": "Indicates the vCard of an assistant or area administrator who is typically separately addressable E.g Agent AgentURI CID JQPUBLIC.part3.960129T083020.xyzMail@host3.com or Agent AgentVCard VCard CommonName James Helpful Email EmailInternet j@spearheaddev.com",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Agent",
           "package": "hs-vcard",
@@ -469,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "AgentURI",
           "package": "hs-vcard",
@@ -478,6 +519,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "AgentURI",
           "package": "hs-vcard",
@@ -491,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "AgentVCard",
           "package": "hs-vcard",
@@ -500,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "AgentVCard",
           "package": "hs-vcard",
@@ -513,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Binary",
           "package": "hs-vcard",
@@ -522,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Binary",
           "package": "hs-vcard",
@@ -536,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the birth date of the VCard entity. E.g.,\n\u003c/p\u003e\u003cpre\u003e Birthday $ UTCTime (fromGregorian 1991 10 14) (secondsToDiffTime 0)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Birthday",
           "package": "hs-vcard",
@@ -546,6 +593,7 @@
         "index": {
           "description": "Specifies the birth date of the VCard entity E.g Birthday UTCTime fromGregorian secondsToDiffTime",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Birthday",
           "package": "hs-vcard",
@@ -560,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral categories to describe the vCard entity. E.g.,\n\u003c/p\u003e\u003cpre\u003e Categories [\"Internet\", \"Web Services\", \"Programmers\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Categories",
           "package": "hs-vcard",
@@ -570,6 +619,7 @@
         "index": {
           "description": "General categories to describe the vCard entity E.g Categories Internet Web Services Programmers",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Categories",
           "normalized": "Categories[String]",
@@ -586,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes the general intention of the vCard owner as to how\n accessible the included information should be. E.g.,\n\u003c/p\u003e\u003cpre\u003e Class ClassConfidential\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Class",
           "package": "hs-vcard",
@@ -596,6 +647,7 @@
         "index": {
           "description": "Describes the general intention of the vCard owner as to how accessible the included information should be E.g Class ClassConfidential",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Class",
           "package": "hs-vcard",
@@ -609,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "ClassConfidential",
           "package": "hs-vcard",
@@ -618,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "ClassConfidential",
           "package": "hs-vcard",
@@ -631,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "ClassPrivate",
           "package": "hs-vcard",
@@ -640,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "ClassPrivate",
           "package": "hs-vcard",
@@ -653,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "ClassPublic",
           "package": "hs-vcard",
@@ -662,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "ClassPublic",
           "package": "hs-vcard",
@@ -676,6 +734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn email address for the VCard entity, including a list of properties\n describing it. E.g.,\n\u003c/p\u003e\u003cpre\u003e Email [EmailInternet, EmailPreferred] \"hackage@mschade.me\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Email",
           "package": "hs-vcard",
@@ -686,6 +745,7 @@
         "index": {
           "description": "An email address for the VCard entity including list of properties describing it E.g Email EmailInternet EmailPreferred hackage@mschade.me",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Email",
           "package": "hs-vcard",
@@ -699,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "EmailInternet",
           "package": "hs-vcard",
@@ -708,6 +769,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "EmailInternet",
           "package": "hs-vcard",
@@ -721,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "EmailPreferred",
           "package": "hs-vcard",
@@ -730,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "EmailPreferred",
           "package": "hs-vcard",
@@ -743,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "EmailX400",
           "package": "hs-vcard",
@@ -752,6 +817,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "EmailX400",
           "package": "hs-vcard",
@@ -766,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelates to the global positioning of the vCard entity. The value is\n (latitude, longitude) and must be specified as decimal degrees,\n preferably to six decimal places.\n\u003c/p\u003e\u003cpre\u003e Geo (37.386013, -122.082932)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Geo",
           "package": "hs-vcard",
@@ -776,6 +843,7 @@
         "index": {
           "description": "Relates to the global positioning of the vCard entity The value is latitude longitude and must be specified as decimal degrees preferably to six decimal places Geo",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Geo",
           "normalized": "Geo(Double,Double)",
@@ -791,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "IndividualNames",
           "package": "hs-vcard",
@@ -800,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "IndividualNames",
           "package": "hs-vcard",
@@ -814,6 +884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies a public key or authentication certificate associated with\n the vCard entity. E.g.,\n\u003c/p\u003e\u003cpre\u003e Key \"x509\" (Binary \"dGhpcyBjb3VsZCBiZSAKbXkgY2VydGlmaWNhdGUK\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Key",
           "package": "hs-vcard",
@@ -824,6 +895,7 @@
         "index": {
           "description": "Specifies public key or authentication certificate associated with the vCard entity E.g Key x509 Binary dGhpcyBjb3VsZCBiZSAKbXkgY2VydGlmaWNhdGUK",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Key",
           "package": "hs-vcard",
@@ -838,6 +910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormatted text about the delivery address. This is typically similar\n to the information in Address. E.g.,\n\u003c/p\u003e\u003cpre\u003e Label  [AddrParcel, AddrPostal]\n        [\"Michael Schade\", \"PO Box 935\", \"Fenton, MO 63026\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Label",
           "package": "hs-vcard",
@@ -848,6 +921,7 @@
         "index": {
           "description": "Formatted text about the delivery address This is typically similar to the information in Address E.g Label AddrParcel AddrPostal Michael Schade PO Box Fenton MO",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Label",
           "package": "hs-vcard",
@@ -862,6 +936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn image of the vCard entity's logo. This would typically relate to\n their organization. E.g.,\n\u003c/p\u003e\u003cpre\u003e Logo Nothing (URI \"http://spearheaddev.com/smedia/images/logo-trans.png\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Logo",
           "package": "hs-vcard",
@@ -872,6 +947,7 @@
         "index": {
           "description": "An image of the vCard entity logo This would typically relate to their organization E.g Logo Nothing URI http spearheaddev.com smedia images logo-trans.png",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Logo",
           "package": "hs-vcard",
@@ -886,6 +962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the mailing agent the vCard entity uses. E.g.,\n\u003c/p\u003e\u003cpre\u003e Mailer \"MichaelMail 4.2\" -- Not a real mailing agent, unfortunately :(\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Mailer",
           "package": "hs-vcard",
@@ -896,6 +973,7 @@
         "index": {
           "description": "Specifies the mailing agent the vCard entity uses E.g Mailer MichaelMail Not real mailing agent unfortunately",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Mailer",
           "package": "hs-vcard",
@@ -910,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of nicknames belonging to the VCard entity. E.g.,\n\u003c/p\u003e\u003cpre\u003e Nickname [\"Mike\", \"Mikey\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Nickname",
           "package": "hs-vcard",
@@ -920,6 +999,7 @@
         "index": {
           "description": "list of nicknames belonging to the VCard entity E.g Nickname Mike Mikey",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Nickname",
           "normalized": "Nickname[String]",
@@ -936,6 +1016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA general note about the vCard entity. E.g.,\n\u003c/p\u003e\u003cpre\u003e Note \"Email is the absolute best contact method.\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Note",
           "package": "hs-vcard",
@@ -946,6 +1027,7 @@
         "index": {
           "description": "general note about the vCard entity E.g Note Email is the absolute best contact method",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Note",
           "package": "hs-vcard",
@@ -960,6 +1042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe organization to which an entity belongs followed by organizational\n unit names. E.g.,\n\u003c/p\u003e\u003cpre\u003e Organization [\"Spearhead Development, L.L.C.\", \"Executive\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Organization",
           "package": "hs-vcard",
@@ -970,6 +1053,7 @@
         "index": {
           "description": "The organization to which an entity belongs followed by organizational unit names E.g Organization Spearhead Development L.L.C Executive",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Organization",
           "normalized": "Organization[String]",
@@ -986,6 +1070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA photo of the VCard entity. E.g.,\n\u003c/p\u003e\u003cpre\u003e Photo Nothing (URI \"http://accentuate.us/smedia/images/michael.jpg\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Photo",
           "package": "hs-vcard",
@@ -996,6 +1081,7 @@
         "index": {
           "description": "photo of the VCard entity E.g Photo Nothing URI http accentuate.us smedia images michael.jpg",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Photo",
           "package": "hs-vcard",
@@ -1010,6 +1096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the identifier of the product that created this vCard. E.g.,\n\u003c/p\u003e\u003cpre\u003e ProductId \"-//ONLINE DIRECTORY//NONSGML Version 1//EN\"\n\u003c/pre\u003e\u003cp\u003ePlease note well that, by RFC 2426 guidelines, \"implementations SHOULD\n use a method such as that specified for Formal Public Identifiers in ISO\n 9070 to assure that the text value is unique,\" but this module does not\n support that.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "ProductId",
           "package": "hs-vcard",
@@ -1020,6 +1107,7 @@
         "index": {
           "description": "Specifies the identifier of the product that created this vCard E.g ProductId ONLINE DIRECTORY NONSGML Version EN Please note well that by RFC guidelines implementations SHOULD use method such as that specified for Formal Public Identifiers in ISO to assure that the text value is unique but this module does not support that",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "ProductId",
           "package": "hs-vcard",
@@ -1034,6 +1122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistinguishes the current revision from other renditions. E.g.,\n\u003c/p\u003e\u003cpre\u003e Revision $ UTCTime (fromGregorian 2011 04 16) (secondsToDiffTime 0)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Revision",
           "package": "hs-vcard",
@@ -1044,6 +1133,7 @@
         "index": {
           "description": "Distinguishes the current revision from other renditions E.g Revision UTCTime fromGregorian secondsToDiffTime",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Revision",
           "package": "hs-vcard",
@@ -1058,6 +1148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies the role associated with the title. E.g.,\n\u003c/p\u003e\u003cpre\u003e Role \"Anything\"   -- For the co-founder, or\n Role \"Programmer\" -- For someone the title \"Research and Development\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Role",
           "package": "hs-vcard",
@@ -1068,6 +1159,7 @@
         "index": {
           "description": "Specifies the role associated with the title E.g Role Anything For the co-founder or Role Programmer For someone the title Research and Development",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Role",
           "package": "hs-vcard",
@@ -1082,6 +1174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvides a locale- or national-language-specific formatting of the\n formatted name based on the vCard entity's family or given name. E.g.,\n\u003c/p\u003e\u003cpre\u003e SortString \"Schade\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "SortString",
           "package": "hs-vcard",
@@ -1092,6 +1185,7 @@
         "index": {
           "description": "Provides locale or national-language-specific formatting of the formatted name based on the vCard entity family or given name E.g SortString Schade",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "SortString",
           "package": "hs-vcard",
@@ -1106,6 +1200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies information in a digital sound format to annotate some\n aspect of the vCard. This is typically for the proper pronunciation of the\n vCard entity's name. E.g.,\n\u003c/p\u003e\u003cpre\u003e Sound  \"BASIC\"\n        (URI \"CID:JOHNQPUBLIC.part8.19960229T080000.xyzMail@host1.com\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Sound",
           "package": "hs-vcard",
@@ -1116,6 +1211,7 @@
         "index": {
           "description": "Specifies information in digital sound format to annotate some aspect of the vCard This is typically for the proper pronunciation of the vCard entity name E.g Sound BASIC URI CID JOHNQPUBLIC.part8.19960229T080000.xyzMail@host1.com",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Sound",
           "package": "hs-vcard",
@@ -1130,6 +1226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the time zone of the vCard entity. E.g.,\n\u003c/p\u003e\u003cpre\u003e TZ (hoursToTimeZone (-6))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "TZ",
           "package": "hs-vcard",
@@ -1140,6 +1237,7 @@
         "index": {
           "description": "Represents the time zone of the vCard entity E.g TZ hoursToTimeZone",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "TZ",
           "package": "hs-vcard",
@@ -1153,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "TelBBS",
           "package": "hs-vcard",
@@ -1162,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "TelBBS",
           "package": "hs-vcard",
@@ -1175,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "TelCar",
           "package": "hs-vcard",
@@ -1184,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "TelCar",
           "package": "hs-vcard",
@@ -1197,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "TelCell",
           "package": "hs-vcard",
@@ -1206,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "TelCell",
           "package": "hs-vcard",
@@ -1219,6 +1323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "TelFax",
           "package": "hs-vcard",
@@ -1228,6 +1333,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "TelFax",
           "package": "hs-vcard",
@@ -1241,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "TelHome",
           "package": "hs-vcard",
@@ -1250,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "TelHome",
           "package": "hs-vcard",
@@ -1263,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "TelISDN",
           "package": "hs-vcard",
@@ -1272,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "TelISDN",
           "package": "hs-vcard",
@@ -1285,6 +1395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "TelMessage",
           "package": "hs-vcard",
@@ -1294,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "TelMessage",
           "package": "hs-vcard",
@@ -1307,6 +1419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "TelModem",
           "package": "hs-vcard",
@@ -1316,6 +1429,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "TelModem",
           "package": "hs-vcard",
@@ -1329,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "TelPCS",
           "package": "hs-vcard",
@@ -1338,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "TelPCS",
           "package": "hs-vcard",
@@ -1351,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "TelPager",
           "package": "hs-vcard",
@@ -1360,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "TelPager",
           "package": "hs-vcard",
@@ -1373,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "TelPreferred",
           "package": "hs-vcard",
@@ -1382,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "TelPreferred",
           "package": "hs-vcard",
@@ -1395,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "TelVideo",
           "package": "hs-vcard",
@@ -1404,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "TelVideo",
           "package": "hs-vcard",
@@ -1417,6 +1539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "TelVoice",
           "package": "hs-vcard",
@@ -1426,6 +1549,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "TelVoice",
           "package": "hs-vcard",
@@ -1439,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "TelWork",
           "package": "hs-vcard",
@@ -1448,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "TelWork",
           "package": "hs-vcard",
@@ -1462,6 +1588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA telephone number for the VCard entity, as well as a list of\n properties describing the telephone number. E.g.,\n\u003c/p\u003e\u003cpre\u003e Telephone [TelCell, TelPreferred] \"+1-555-555-5555\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Telephone",
           "package": "hs-vcard",
@@ -1472,6 +1599,7 @@
         "index": {
           "description": "telephone number for the VCard entity as well as list of properties describing the telephone number E.g Telephone TelCell TelPreferred",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Telephone",
           "package": "hs-vcard",
@@ -1486,6 +1614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe VCard entity's job title or other position. E.g.,\n\u003c/p\u003e\u003cpre\u003e Title \"Co-Founder\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "Title",
           "package": "hs-vcard",
@@ -1496,6 +1625,7 @@
         "index": {
           "description": "The VCard entity job title or other position E.g Title Co-Founder",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "Title",
           "package": "hs-vcard",
@@ -1510,6 +1640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value to uniquely identify the vCard. Please note well that this\n should be one of the registered IANA formats, but as of this time, this\n module does not support listing the UID type. E.g.,\n\u003c/p\u003e\u003cpre\u003e UID \"19950401-080045-40000F192713-0052\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "UID",
           "package": "hs-vcard",
@@ -1520,6 +1651,7 @@
         "index": {
           "description": "value to uniquely identify the vCard Please note well that this should be one of the registered IANA formats but as of this time this module does not support listing the UID type E.g UID F192713-0052",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "UID",
           "package": "hs-vcard",
@@ -1533,6 +1665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "URI",
           "package": "hs-vcard",
@@ -1542,6 +1675,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "URI",
           "package": "hs-vcard",
@@ -1556,6 +1690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA website associated with the vCard entity. E.g.,\n\u003c/p\u003e\u003cpre\u003e URL \"http://spearheaddev.com/\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "URL",
           "package": "hs-vcard",
@@ -1566,6 +1701,7 @@
         "index": {
           "description": "website associated with the vCard entity E.g URL http spearheaddev.com",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "URL",
           "package": "hs-vcard",
@@ -1579,6 +1715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "VCard",
           "package": "hs-vcard",
@@ -1588,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "VCard",
           "normalized": "VCard CommonName IndividualNames[VCardProperty]",
@@ -1603,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "additionalNames",
           "package": "hs-vcard",
@@ -1612,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "additionalNames",
           "normalized": "[String]",
@@ -1627,6 +1767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "addrType",
           "package": "hs-vcard",
@@ -1636,6 +1777,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "addrType",
           "normalized": "[AddrType]",
@@ -1651,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "countryName",
           "package": "hs-vcard",
@@ -1660,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "countryName",
           "package": "hs-vcard",
@@ -1673,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "email",
           "package": "hs-vcard",
@@ -1682,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "email",
           "package": "hs-vcard",
@@ -1694,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "emailType",
           "package": "hs-vcard",
@@ -1703,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "emailType",
           "normalized": "[EmailType]",
@@ -1718,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "extAddress",
           "package": "hs-vcard",
@@ -1727,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "extAddress",
           "package": "hs-vcard",
@@ -1740,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "familyName",
           "package": "hs-vcard",
@@ -1749,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "familyName",
           "normalized": "[String]",
@@ -1764,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "givenName",
           "package": "hs-vcard",
@@ -1773,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "givenName",
           "normalized": "[String]",
@@ -1788,6 +1942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "honorificPrefixes",
           "package": "hs-vcard",
@@ -1797,6 +1952,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "honorificPrefixes",
           "normalized": "[String]",
@@ -1812,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "honorificSuffixes",
           "package": "hs-vcard",
@@ -1821,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "honorificSuffixes",
           "normalized": "[String]",
@@ -1836,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "keyData",
           "package": "hs-vcard",
@@ -1845,6 +2004,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "keyData",
           "package": "hs-vcard",
@@ -1859,6 +2019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegistered IANA format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "keyType",
           "package": "hs-vcard",
@@ -1869,6 +2030,7 @@
         "index": {
           "description": "Registered IANA format",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "keyType",
           "package": "hs-vcard",
@@ -1883,6 +2045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWill be newline separated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "label",
           "package": "hs-vcard",
@@ -1893,6 +2056,7 @@
         "index": {
           "description": "Will be newline separated",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "label",
           "normalized": "[String]",
@@ -1907,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "lblType",
           "package": "hs-vcard",
@@ -1916,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "lblType",
           "normalized": "[AddrType]",
@@ -1931,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "lgoData",
           "package": "hs-vcard",
@@ -1940,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "lgoData",
           "package": "hs-vcard",
@@ -1954,6 +2122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegistered IANA format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "lgoType",
           "package": "hs-vcard",
@@ -1964,6 +2133,7 @@
         "index": {
           "description": "Registered IANA format",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "lgoType",
           "package": "hs-vcard",
@@ -1978,6 +2148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "locality",
           "package": "hs-vcard",
@@ -1988,6 +2159,7 @@
         "index": {
           "description": "City",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "locality",
           "package": "hs-vcard",
@@ -2000,6 +2172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "number",
           "package": "hs-vcard",
@@ -2009,6 +2182,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "number",
           "package": "hs-vcard",
@@ -2021,6 +2195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "phtData",
           "package": "hs-vcard",
@@ -2030,6 +2205,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "phtData",
           "package": "hs-vcard",
@@ -2044,6 +2220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegistered IANA format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "phtType",
           "package": "hs-vcard",
@@ -2054,6 +2231,7 @@
         "index": {
           "description": "Registered IANA format",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "phtType",
           "package": "hs-vcard",
@@ -2067,6 +2245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "poBox",
           "package": "hs-vcard",
@@ -2076,6 +2255,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "poBox",
           "package": "hs-vcard",
@@ -2089,6 +2269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "postalCode",
           "package": "hs-vcard",
@@ -2098,6 +2279,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "postalCode",
           "package": "hs-vcard",
@@ -2112,6 +2294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState or Province\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "region",
           "package": "hs-vcard",
@@ -2122,6 +2305,7 @@
         "index": {
           "description": "State or Province",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "region",
           "package": "hs-vcard",
@@ -2134,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "sndData",
           "package": "hs-vcard",
@@ -2143,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "sndData",
           "package": "hs-vcard",
@@ -2157,6 +2343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegistered IANA format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "sndType",
           "package": "hs-vcard",
@@ -2167,6 +2354,7 @@
         "index": {
           "description": "Registered IANA format",
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "sndType",
           "package": "hs-vcard",
@@ -2180,6 +2368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "streetAddress",
           "package": "hs-vcard",
@@ -2189,6 +2378,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "streetAddress",
           "package": "hs-vcard",
@@ -2202,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:19 UTC 2014",
           "module": "Text.VCard",
           "name": "telType",
           "package": "hs-vcard",
@@ -2211,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "Text VCard",
+          "indexed": "2014-03-11T18:46:19",
           "module": "Text.VCard",
           "name": "telType",
           "normalized": "[TelType]",

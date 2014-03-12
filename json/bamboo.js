@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bamboo"
+        "phrase": "bamboo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Application",
           "name": "Application",
           "package": "bamboo",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Application",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Application",
           "name": "Application",
           "package": "bamboo",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Application",
           "name": "for_extension",
           "package": "bamboo",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Application",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Application",
           "name": "for_extension",
           "normalized": "Extension-\u003eMaybe a-\u003eMaybe a",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Application",
           "name": "paths_with_theme",
           "package": "bamboo",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Application",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Application",
           "name": "paths_with_theme",
           "normalized": "Theme-\u003e[(String,Application)]",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Application",
           "name": "render_with_theme",
           "package": "bamboo",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Application",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Application",
           "name": "render_with_theme",
           "normalized": "Theme-\u003e(Interface,Controller)-\u003eApplication",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Comment",
           "name": "Comment",
           "package": "bamboo",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Comment",
           "name": "Comment",
           "package": "bamboo",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Comment",
           "name": "comment_create",
           "package": "bamboo",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Comment",
           "name": "comment_create",
           "package": "bamboo",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Env",
           "name": "Env",
           "package": "bamboo",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Env",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Env",
           "name": "Env",
           "package": "bamboo",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Helper",
           "name": "Helper",
           "package": "bamboo",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Helper",
           "name": "Helper",
           "package": "bamboo",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Helper",
           "name": "fill_latest_posts",
           "package": "bamboo",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Helper",
           "name": "fill_latest_posts",
           "normalized": "Part()",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Helper",
           "name": "fill_tags",
           "package": "bamboo",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Helper",
           "name": "fill_tags",
           "normalized": "Part()",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Helper",
           "name": "for_current_page",
           "package": "bamboo",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Helper",
           "name": "for_current_page",
           "normalized": "Pager-\u003e[a]-\u003e[a]",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Helper",
           "name": "get_input",
           "package": "bamboo",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Helper",
           "name": "get_input",
           "normalized": "String-\u003eEnv-\u003eMaybe String",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Helper",
           "name": "get_param",
           "package": "bamboo",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Helper",
           "name": "get_param",
           "normalized": "String-\u003eEnv-\u003eMaybe String",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Helper",
           "name": "init_post_meta_data",
           "package": "bamboo",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Helper",
           "name": "init_post_meta_data",
           "normalized": "Post-\u003ePart Post",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Helper",
           "name": "init_state",
           "package": "bamboo",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Helper",
           "name": "init_state",
           "package": "bamboo",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Helper",
           "name": "input_with_default",
           "package": "bamboo",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Helper",
           "name": "input_with_default",
           "normalized": "String-\u003eString-\u003eEnv-\u003eString",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Helper",
           "name": "inputs",
           "package": "bamboo",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Helper",
           "name": "inputs",
           "normalized": "Env-\u003eAssoc",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Helper",
           "name": "io",
           "package": "bamboo",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Helper",
           "name": "io",
           "normalized": "IO a-\u003eb a",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Helper",
           "name": "just_input",
           "package": "bamboo",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Helper",
           "name": "just_input",
           "normalized": "String-\u003eEnv-\u003eString",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Helper",
           "name": "just_param",
           "package": "bamboo",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Helper",
           "name": "just_param",
           "normalized": "String-\u003eEnv-\u003eString",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Helper",
           "name": "not_found",
           "package": "bamboo",
@@ -475,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Helper",
           "name": "not_found",
           "package": "bamboo",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Helper",
           "name": "paged",
           "package": "bamboo",
@@ -496,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Helper",
           "name": "paged",
           "normalized": "[a]-\u003ePart([a],Pager)",
@@ -510,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Helper",
           "name": "paginate",
           "package": "bamboo",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Helper",
           "name": "paginate",
           "normalized": "[a]-\u003ePart Pager",
@@ -533,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Helper",
           "name": "param_with_default",
           "package": "bamboo",
@@ -542,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Helper",
           "name": "param_with_default",
           "normalized": "String-\u003eString-\u003eEnv-\u003eString",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Helper",
           "name": "params",
           "package": "bamboo",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Helper",
           "name": "params",
           "normalized": "Env-\u003eAssoc",
@@ -579,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Helper",
           "name": "run",
           "package": "bamboo",
@@ -588,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Helper",
           "name": "run",
           "normalized": "Controller-\u003eView-\u003eApplication",
@@ -602,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Index",
           "name": "Index",
           "package": "bamboo",
@@ -610,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Index",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Index",
           "name": "Index",
           "package": "bamboo",
@@ -623,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Index",
           "name": "index",
           "package": "bamboo",
@@ -632,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Index",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Index",
           "name": "index",
           "package": "bamboo",
@@ -644,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Index",
           "name": "index_feed",
           "package": "bamboo",
@@ -653,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Index",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Index",
           "name": "index_feed",
           "package": "bamboo",
@@ -665,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Post",
           "name": "Post",
           "package": "bamboo",
@@ -673,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Post",
           "name": "Post",
           "package": "bamboo",
@@ -686,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Post",
           "name": "post",
           "package": "bamboo",
@@ -695,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Post",
           "name": "post",
           "package": "bamboo",
@@ -707,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Search",
           "name": "Search",
           "package": "bamboo",
@@ -715,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Search",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Search",
           "name": "Search",
           "package": "bamboo",
@@ -728,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Search",
           "name": "search",
           "package": "bamboo",
@@ -737,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Search",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Search",
           "name": "search",
           "package": "bamboo",
@@ -749,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Static",
           "name": "Static",
           "package": "bamboo",
@@ -757,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Static",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Static",
           "name": "Static",
           "package": "bamboo",
@@ -770,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Static",
           "name": "static",
           "package": "bamboo",
@@ -779,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Static",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Static",
           "name": "static",
           "package": "bamboo",
@@ -791,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Tag",
           "name": "Tag",
           "package": "bamboo",
@@ -799,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Tag",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Tag",
           "name": "Tag",
           "package": "bamboo",
@@ -812,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Tag",
           "name": "tag",
           "package": "bamboo",
@@ -821,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Tag",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Tag",
           "name": "tag",
           "package": "bamboo",
@@ -833,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Tag",
           "name": "tag_feed",
           "package": "bamboo",
@@ -842,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Tag",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Tag",
           "name": "tag_feed",
           "package": "bamboo",
@@ -854,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Type",
           "name": "Type",
           "package": "bamboo",
@@ -862,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Type",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Type",
           "name": "Type",
           "package": "bamboo",
@@ -875,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Type",
           "name": "Controller",
           "package": "bamboo",
@@ -883,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Type",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Type",
           "name": "Controller",
           "package": "bamboo",
@@ -896,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Type",
           "name": "ETagController",
           "package": "bamboo",
@@ -904,6 +985,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Type",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Type",
           "name": "ETagController",
           "package": "bamboo",
@@ -917,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Type",
           "name": "Part",
           "package": "bamboo",
@@ -925,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Type",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Type",
           "name": "Part",
           "package": "bamboo",
@@ -938,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Type",
           "name": "StateController",
           "package": "bamboo",
@@ -946,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Type",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Type",
           "name": "StateController",
           "package": "bamboo",
@@ -959,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Controller.Type",
           "name": "View",
           "package": "bamboo",
@@ -967,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Controller Type",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Controller.Type",
           "name": "View",
           "package": "bamboo",
@@ -980,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Env",
           "name": "Env",
           "package": "bamboo",
@@ -988,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Env",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Env",
           "name": "Env",
           "package": "bamboo",
@@ -1001,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.ByteString",
           "name": "ByteString",
           "package": "bamboo",
@@ -1009,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper ByteString",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.ByteString",
           "name": "ByteString",
           "package": "bamboo",
@@ -1022,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.ByteString",
           "name": "LB",
           "package": "bamboo",
@@ -1030,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper ByteString",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.ByteString",
           "name": "LB",
           "package": "bamboo",
@@ -1043,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.ByteString",
           "name": "SB",
           "package": "bamboo",
@@ -1051,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper ByteString",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.ByteString",
           "name": "SB",
           "package": "bamboo",
@@ -1064,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.ByteString",
           "name": "US",
           "package": "bamboo",
@@ -1072,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper ByteString",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.ByteString",
           "name": "US",
           "package": "bamboo",
@@ -1085,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.ByteString",
           "name": "lower",
           "package": "bamboo",
@@ -1094,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper ByteString",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.ByteString",
           "name": "lower",
           "normalized": "ByteString-\u003eByteString",
@@ -1108,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.ByteString",
           "name": "read_bytestring",
           "package": "bamboo",
@@ -1117,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper ByteString",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.ByteString",
           "name": "read_bytestring",
           "normalized": "String-\u003eIO ByteString",
@@ -1131,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.ByteString",
           "name": "to_lb",
           "package": "bamboo",
@@ -1140,6 +1243,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper ByteString",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.ByteString",
           "name": "to_lb",
           "normalized": "a-\u003eByteString",
@@ -1154,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.ByteString",
           "name": "to_sb",
           "package": "bamboo",
@@ -1163,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper ByteString",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.ByteString",
           "name": "to_sb",
           "normalized": "a-\u003eByteString",
@@ -1177,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.ByteString",
           "name": "to_us",
           "package": "bamboo",
@@ -1186,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper ByteString",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.ByteString",
           "name": "to_us",
           "normalized": "a-\u003eString",
@@ -1200,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.PreludeEnv",
           "name": "PreludeEnv",
           "package": "bamboo",
@@ -1208,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper PreludeEnv",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.PreludeEnv",
           "name": "PreludeEnv",
           "package": "bamboo",
@@ -1221,6 +1331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.StateHelper",
           "name": "StateHelper",
           "package": "bamboo",
@@ -1229,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper StateHelper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.StateHelper",
           "name": "StateHelper",
           "package": "bamboo",
@@ -1242,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.StateHelper",
           "name": "cut",
           "package": "bamboo",
@@ -1251,6 +1364,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper StateHelper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.StateHelper",
           "name": "cut",
           "package": "bamboo",
@@ -1263,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.StateHelper",
           "name": "default_date",
           "package": "bamboo",
@@ -1272,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper StateHelper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.StateHelper",
           "name": "default_date",
           "package": "bamboo",
@@ -1284,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.StateHelper",
           "name": "default_parse_date",
           "package": "bamboo",
@@ -1293,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper StateHelper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.StateHelper",
           "name": "default_parse_date",
           "normalized": "String-\u003eCalendarTime",
@@ -1307,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.StateHelper",
           "name": "format_time",
           "package": "bamboo",
@@ -1316,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper StateHelper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.StateHelper",
           "name": "format_time",
           "normalized": "String-\u003eCalendarTime-\u003eString",
@@ -1330,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.StateHelper",
           "name": "has_extension",
           "package": "bamboo",
@@ -1339,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper StateHelper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.StateHelper",
           "name": "has_extension",
           "normalized": "Extension-\u003eBool",
@@ -1353,6 +1475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.StateHelper",
           "name": "html_only_for",
           "package": "bamboo",
@@ -1362,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper StateHelper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.StateHelper",
           "name": "html_only_for",
           "normalized": "Extension-\u003eHtml-\u003eHtml",
@@ -1376,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.StateHelper",
           "name": "id_to_path",
           "package": "bamboo",
@@ -1385,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper StateHelper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.StateHelper",
           "name": "id_to_path",
           "package": "bamboo",
@@ -1397,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.StateHelper",
           "name": "is_cut",
           "package": "bamboo",
@@ -1406,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper StateHelper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.StateHelper",
           "name": "is_cut",
           "normalized": "ByteString-\u003eBool",
@@ -1420,6 +1548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.StateHelper",
           "name": "match_cut",
           "package": "bamboo",
@@ -1429,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper StateHelper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.StateHelper",
           "name": "match_cut",
           "normalized": "ByteString-\u003eBool",
@@ -1443,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.StateHelper",
           "name": "parse_date",
           "package": "bamboo",
@@ -1452,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper StateHelper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.StateHelper",
           "name": "parse_date",
           "normalized": "String-\u003eString-\u003eMaybe CalendarTime",
@@ -1466,6 +1598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.StateHelper",
           "name": "parse_post_date",
           "package": "bamboo",
@@ -1475,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper StateHelper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.StateHelper",
           "name": "parse_post_date",
           "normalized": "String-\u003eMaybe CalendarTime",
@@ -1489,6 +1623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.StateHelper",
           "name": "path",
           "package": "bamboo",
@@ -1498,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper StateHelper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.StateHelper",
           "name": "path",
           "package": "bamboo",
@@ -1510,6 +1646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.StateHelper",
           "name": "uri",
           "package": "bamboo",
@@ -1519,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper StateHelper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.StateHelper",
           "name": "uri",
           "normalized": "Env-\u003eString",
@@ -1533,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.Translation",
           "name": "Translation",
           "package": "bamboo",
@@ -1541,6 +1680,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper Translation",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.Translation",
           "name": "Translation",
           "package": "bamboo",
@@ -1554,6 +1694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.Translation",
           "name": "home_nav",
           "package": "bamboo",
@@ -1563,6 +1704,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper Translation",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.Translation",
           "name": "home_nav",
           "package": "bamboo",
@@ -1575,6 +1717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.Translation",
           "name": "next_sign",
           "package": "bamboo",
@@ -1584,6 +1727,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper Translation",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.Translation",
           "name": "next_sign",
           "package": "bamboo",
@@ -1596,6 +1740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.Translation",
           "name": "no_navigation",
           "package": "bamboo",
@@ -1605,6 +1750,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper Translation",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.Translation",
           "name": "no_navigation",
           "package": "bamboo",
@@ -1617,6 +1763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper.Translation",
           "name": "previous_sign",
           "package": "bamboo",
@@ -1626,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper Translation",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper.Translation",
           "name": "previous_sign",
           "package": "bamboo",
@@ -1638,6 +1786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "Helper",
           "package": "bamboo",
@@ -1646,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "Helper",
           "package": "bamboo",
@@ -1659,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "SIO",
           "package": "bamboo",
@@ -1667,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "SIO",
           "package": "bamboo",
@@ -1680,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "(^^)",
           "package": "bamboo",
@@ -1689,6 +1842,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "(^^) ^^",
           "normalized": "a(a b)-\u003e(b-\u003ec)-\u003ea(a c)",
@@ -1703,6 +1857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "album_uri",
           "package": "bamboo",
@@ -1712,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "album_uri",
           "normalized": "Config-\u003eString",
@@ -1726,6 +1882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "cache_uri",
           "package": "bamboo",
@@ -1735,6 +1892,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "cache_uri",
           "normalized": "Config-\u003eString",
@@ -1749,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "comment_uri",
           "package": "bamboo",
@@ -1758,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "comment_uri",
           "normalized": "Config-\u003eString",
@@ -1772,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "config_uri",
           "package": "bamboo",
@@ -1781,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "config_uri",
           "normalized": "Config-\u003eString",
@@ -1795,6 +1957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "db_uri",
           "package": "bamboo",
@@ -1804,6 +1967,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "db_uri",
           "normalized": "Config-\u003eString",
@@ -1818,6 +1982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "drop_known_extension",
           "package": "bamboo",
@@ -1827,6 +1992,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "drop_known_extension",
           "package": "bamboo",
@@ -1839,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "empty_html",
           "package": "bamboo",
@@ -1848,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "empty_html",
           "package": "bamboo",
@@ -1860,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "ffmap",
           "package": "bamboo",
@@ -1869,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "ffmap",
           "normalized": "(a-\u003eb)-\u003ec(c a)-\u003ec(c b)",
@@ -1883,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "flat_uri",
           "package": "bamboo",
@@ -1892,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "flat_uri",
           "normalized": "Config-\u003eString",
@@ -1906,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "footer_uri",
           "package": "bamboo",
@@ -1915,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "footer_uri",
           "normalized": "Config-\u003eString",
@@ -1929,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "gt",
           "package": "bamboo",
@@ -1938,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "gt",
           "normalized": "a-\u003ea-\u003eBool",
@@ -1952,6 +2128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "id_to_resource",
           "package": "bamboo",
@@ -1961,6 +2138,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "id_to_resource",
           "package": "bamboo",
@@ -1973,6 +2151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "id_to_type",
           "package": "bamboo",
@@ -1982,6 +2161,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "id_to_type",
           "package": "bamboo",
@@ -1994,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "ifM",
           "package": "bamboo",
@@ -2003,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "ifM",
           "normalized": "a Bool-\u003ea b-\u003ea b-\u003ea b",
@@ -2017,6 +2199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "image_uri",
           "package": "bamboo",
@@ -2026,6 +2209,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "image_uri",
           "normalized": "Config-\u003eString",
@@ -2040,6 +2224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "mkdir",
           "package": "bamboo",
@@ -2049,6 +2234,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "mkdir",
           "normalized": "String-\u003eIO()",
@@ -2063,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "parse_boolean",
           "package": "bamboo",
@@ -2072,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "parse_boolean",
           "normalized": "String-\u003eBool",
@@ -2086,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "parse_config",
           "package": "bamboo",
@@ -2095,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "parse_config",
           "normalized": "String-\u003eIO Assoc",
@@ -2109,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "parse_list",
           "package": "bamboo",
@@ -2118,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "parse_list",
           "normalized": "String-\u003e[String]",
@@ -2132,6 +2324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "post_uri",
           "package": "bamboo",
@@ -2141,6 +2334,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "post_uri",
           "normalized": "Config-\u003eString",
@@ -2155,6 +2349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "public_uri",
           "package": "bamboo",
@@ -2164,6 +2359,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "public_uri",
           "normalized": "Config-\u003eString",
@@ -2178,6 +2374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "read_data",
           "package": "bamboo",
@@ -2187,6 +2384,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "read_data",
           "normalized": "String-\u003ea",
@@ -2201,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "read_data_list",
           "package": "bamboo",
@@ -2210,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "read_data_list",
           "normalized": "[String]-\u003e[a]",
@@ -2224,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "read_static_widget",
           "package": "bamboo",
@@ -2233,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "read_static_widget",
           "normalized": "Reader-\u003eString-\u003eIO StaticWidget",
@@ -2247,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "remove_trailing_slash",
           "package": "bamboo",
@@ -2256,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "remove_trailing_slash",
           "package": "bamboo",
@@ -2268,6 +2472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "show_data",
           "package": "bamboo",
@@ -2277,6 +2482,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "show_data",
           "normalized": "a-\u003e[Char]",
@@ -2291,6 +2497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "sidebar_uri",
           "package": "bamboo",
@@ -2300,6 +2507,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "sidebar_uri",
           "normalized": "Config-\u003eString",
@@ -2314,6 +2522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "slashed_script_name",
           "package": "bamboo",
@@ -2323,6 +2532,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "slashed_script_name",
           "normalized": "Env-\u003eString",
@@ -2337,6 +2547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "stat_uri",
           "package": "bamboo",
@@ -2346,6 +2557,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "stat_uri",
           "normalized": "Config-\u003eString",
@@ -2360,6 +2572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "static_config",
           "package": "bamboo",
@@ -2369,6 +2582,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "static_config",
           "package": "bamboo",
@@ -2381,6 +2595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "tag_uri",
           "package": "bamboo",
@@ -2390,6 +2605,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "tag_uri",
           "normalized": "Config-\u003eString",
@@ -2404,6 +2620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "take_directory",
           "package": "bamboo",
@@ -2413,6 +2630,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "take_directory",
           "package": "bamboo",
@@ -2425,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "take_extension",
           "package": "bamboo",
@@ -2434,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "take_extension",
           "package": "bamboo",
@@ -2446,6 +2666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "take_known_extension",
           "package": "bamboo",
@@ -2455,6 +2676,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "take_known_extension",
           "package": "bamboo",
@@ -2467,6 +2689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "theme_uri",
           "package": "bamboo",
@@ -2476,6 +2699,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "theme_uri",
           "normalized": "Config-\u003eString",
@@ -2490,6 +2714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "to_theme",
           "package": "bamboo",
@@ -2499,6 +2724,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "to_theme",
           "normalized": "Assoc-\u003eThemeConfig",
@@ -2513,6 +2739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "topic_uri",
           "package": "bamboo",
@@ -2522,6 +2749,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "topic_uri",
           "normalized": "Config-\u003eString",
@@ -2536,6 +2764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "whenM",
           "package": "bamboo",
@@ -2545,6 +2774,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "whenM",
           "normalized": "a Bool-\u003ea()-\u003ea()",
@@ -2559,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "with_file",
           "package": "bamboo",
@@ -2568,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "with_file",
           "normalized": "String-\u003eIOMode-\u003e(Handle-\u003eIO a)-\u003eIO a",
@@ -2582,6 +2814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Helper",
           "name": "write_config",
           "package": "bamboo",
@@ -2591,6 +2824,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Helper",
           "name": "write_config",
           "normalized": "FilePath-\u003eAssoc-\u003eIO()",
@@ -2605,6 +2839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "Comment",
           "package": "bamboo",
@@ -2613,6 +2848,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "Comment",
           "package": "bamboo",
@@ -2626,6 +2862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "Comment",
           "package": "bamboo",
@@ -2634,6 +2871,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "Comment",
           "package": "bamboo",
@@ -2647,6 +2885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "CommentData",
           "package": "bamboo",
@@ -2655,6 +2894,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "CommentData",
           "package": "bamboo",
@@ -2668,6 +2908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "SpamFilter",
           "package": "bamboo",
@@ -2676,6 +2917,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "SpamFilter",
           "package": "bamboo",
@@ -2689,6 +2931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "Author",
           "package": "bamboo",
@@ -2698,6 +2941,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "Author",
           "package": "bamboo",
@@ -2711,6 +2955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "AuthorEmail",
           "package": "bamboo",
@@ -2720,6 +2965,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "AuthorEmail",
           "package": "bamboo",
@@ -2733,6 +2979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "AuthorLink",
           "package": "bamboo",
@@ -2742,6 +2989,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "AuthorLink",
           "package": "bamboo",
@@ -2755,6 +3003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "Body",
           "package": "bamboo",
@@ -2764,6 +3013,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "Body",
           "package": "bamboo",
@@ -2777,6 +3027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "Comment",
           "package": "bamboo",
@@ -2786,6 +3037,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "Comment",
           "package": "bamboo",
@@ -2799,6 +3051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "EmptyField",
           "package": "bamboo",
@@ -2808,6 +3061,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "EmptyField",
           "package": "bamboo",
@@ -2821,6 +3075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "HumanHack",
           "package": "bamboo",
@@ -2830,6 +3085,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "HumanHack",
           "package": "bamboo",
@@ -2843,6 +3099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "LeftNumber",
           "package": "bamboo",
@@ -2852,6 +3109,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "LeftNumber",
           "package": "bamboo",
@@ -2865,6 +3123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "Operator",
           "package": "bamboo",
@@ -2874,6 +3133,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "Operator",
           "package": "bamboo",
@@ -2887,6 +3147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "PostId",
           "package": "bamboo",
@@ -2896,6 +3157,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "PostId",
           "package": "bamboo",
@@ -2909,6 +3171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "RightNumber",
           "package": "bamboo",
@@ -2918,6 +3181,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "RightNumber",
           "package": "bamboo",
@@ -2931,6 +3195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "author",
           "package": "bamboo",
@@ -2940,6 +3205,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "author",
           "package": "bamboo",
@@ -2952,6 +3218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "author_email",
           "package": "bamboo",
@@ -2961,6 +3228,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "author_email",
           "package": "bamboo",
@@ -2973,6 +3241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "author_link",
           "package": "bamboo",
@@ -2982,6 +3251,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "author_link",
           "package": "bamboo",
@@ -2994,6 +3264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "body",
           "package": "bamboo",
@@ -3003,6 +3274,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "body",
           "package": "bamboo",
@@ -3015,6 +3287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "create_comment",
           "package": "bamboo",
@@ -3024,6 +3297,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "create_comment",
           "normalized": "Assoc-\u003eIO()",
@@ -3038,6 +3312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "fill_comment_size",
           "package": "bamboo",
@@ -3047,6 +3322,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "fill_comment_size",
           "normalized": "Post-\u003eIO Post",
@@ -3061,6 +3337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "from_post_id",
           "package": "bamboo",
@@ -3070,6 +3347,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "from_post_id",
           "normalized": "String-\u003eComment",
@@ -3084,6 +3362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "gravatar_link",
           "package": "bamboo",
@@ -3093,6 +3372,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "gravatar_link",
           "normalized": "Comment-\u003eString",
@@ -3107,6 +3387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "post_id_to_uid",
           "package": "bamboo",
@@ -3116,6 +3397,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "post_id_to_uid",
           "package": "bamboo",
@@ -3128,6 +3410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "uid",
           "package": "bamboo",
@@ -3137,6 +3420,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "uid",
           "package": "bamboo",
@@ -3149,6 +3433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "uid_to_post_id",
           "package": "bamboo",
@@ -3158,6 +3443,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "uid_to_post_id",
           "package": "bamboo",
@@ -3170,6 +3456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Comment",
           "name": "write_to",
           "package": "bamboo",
@@ -3179,6 +3466,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Comment",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Comment",
           "name": "write_to",
           "normalized": "Comment-\u003eIO()",
@@ -3193,6 +3481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Counter",
           "name": "Counter",
           "package": "bamboo",
@@ -3201,6 +3490,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Counter",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Counter",
           "name": "Counter",
           "package": "bamboo",
@@ -3214,6 +3504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Counter",
           "name": "count_name",
           "package": "bamboo",
@@ -3223,6 +3514,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Counter",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Counter",
           "name": "count_name",
           "normalized": "String-\u003eString",
@@ -3237,6 +3529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Counter",
           "name": "count_path",
           "package": "bamboo",
@@ -3246,6 +3539,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Counter",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Counter",
           "name": "count_path",
           "normalized": "String-\u003eString",
@@ -3260,6 +3554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Counter",
           "name": "create_stat_if_none",
           "package": "bamboo",
@@ -3269,6 +3564,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Counter",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Counter",
           "name": "create_stat_if_none",
           "normalized": "String-\u003eIO()",
@@ -3283,6 +3579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Counter",
           "name": "hit",
           "package": "bamboo",
@@ -3292,6 +3589,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Counter",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Counter",
           "name": "hit",
           "normalized": "String-\u003eIO()",
@@ -3306,6 +3604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Counter",
           "name": "read_stat",
           "package": "bamboo",
@@ -3315,6 +3614,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Counter",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Counter",
           "name": "read_stat",
           "normalized": "String-\u003eIO Int",
@@ -3329,6 +3629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Counter",
           "name": "safe_read_line",
           "package": "bamboo",
@@ -3338,6 +3639,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Counter",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Counter",
           "name": "safe_read_line",
           "normalized": "String-\u003eIO String",
@@ -3352,6 +3654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Env",
           "name": "Env",
           "package": "bamboo",
@@ -3360,6 +3663,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Env",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Env",
           "name": "Env",
           "package": "bamboo",
@@ -3373,6 +3677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Helper",
           "name": "Helper",
           "package": "bamboo",
@@ -3381,6 +3686,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Helper",
           "name": "Helper",
           "package": "bamboo",
@@ -3394,6 +3700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Helper",
           "name": "get_body",
           "package": "bamboo",
@@ -3403,6 +3710,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Helper",
           "name": "get_body",
           "normalized": "String-\u003eIO ByteString",
@@ -3417,6 +3725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Helper",
           "name": "get_reader",
           "package": "bamboo",
@@ -3426,6 +3735,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Helper",
           "name": "get_reader",
           "normalized": "String-\u003eReader",
@@ -3440,6 +3750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Helper",
           "name": "meta",
           "package": "bamboo",
@@ -3449,6 +3760,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Helper",
           "name": "meta",
           "normalized": "String-\u003eString",
@@ -3463,6 +3775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Helper",
           "name": "spaced_url",
           "package": "bamboo",
@@ -3472,6 +3785,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Helper",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Helper",
           "name": "spaced_url",
           "normalized": "String-\u003eString",
@@ -3486,6 +3800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "Post",
           "package": "bamboo",
@@ -3494,6 +3809,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "Post",
           "package": "bamboo",
@@ -3507,6 +3823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "Post",
           "package": "bamboo",
@@ -3515,6 +3832,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "Post",
           "package": "bamboo",
@@ -3528,6 +3846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "Post",
           "package": "bamboo",
@@ -3537,6 +3856,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "Post",
           "package": "bamboo",
@@ -3550,6 +3870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "body",
           "package": "bamboo",
@@ -3559,6 +3880,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "body",
           "package": "bamboo",
@@ -3571,6 +3893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "comment_size",
           "package": "bamboo",
@@ -3580,6 +3903,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "comment_size",
           "package": "bamboo",
@@ -3592,6 +3916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "count",
           "package": "bamboo",
@@ -3601,6 +3926,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "count",
           "package": "bamboo",
@@ -3613,6 +3939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "fast_list",
           "package": "bamboo",
@@ -3622,6 +3949,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "fast_list",
           "normalized": "IO[Post]",
@@ -3636,6 +3964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "fill_stat",
           "package": "bamboo",
@@ -3645,6 +3974,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "fill_stat",
           "normalized": "Post-\u003eIO Post",
@@ -3659,6 +3989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "full",
           "package": "bamboo",
@@ -3668,6 +3999,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "full",
           "normalized": "Post-\u003eByteString",
@@ -3682,6 +4014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "get_date",
           "package": "bamboo",
@@ -3691,6 +4024,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "get_date",
           "normalized": "String-\u003eCalendarTime",
@@ -3705,6 +4039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "get_title",
           "package": "bamboo",
@@ -3714,6 +4049,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "get_title",
           "package": "bamboo",
@@ -3726,6 +4062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "has_continue",
           "package": "bamboo",
@@ -3735,6 +4072,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "has_continue",
           "normalized": "Post-\u003eBool",
@@ -3749,6 +4087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "id_to_uri",
           "package": "bamboo",
@@ -3758,6 +4097,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "id_to_uri",
           "package": "bamboo",
@@ -3770,6 +4110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "latest",
           "package": "bamboo",
@@ -3779,6 +4120,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "latest",
           "normalized": "Int-\u003eIO[Post]",
@@ -3793,6 +4135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "list_ids",
           "package": "bamboo",
@@ -3802,6 +4145,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "list_ids",
           "normalized": "IO[String]",
@@ -3816,6 +4160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "markup_summary",
           "package": "bamboo",
@@ -3825,6 +4170,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "markup_summary",
           "normalized": "Post-\u003eHtml",
@@ -3839,6 +4185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "match",
           "package": "bamboo",
@@ -3848,6 +4195,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "match",
           "normalized": "String-\u003ePost-\u003eBool",
@@ -3862,6 +4210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "reader",
           "package": "bamboo",
@@ -3871,6 +4220,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "reader",
           "package": "bamboo",
@@ -3883,6 +4233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "search",
           "package": "bamboo",
@@ -3892,6 +4243,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "search",
           "normalized": "String-\u003eIO[Post]",
@@ -3906,6 +4258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "summary",
           "package": "bamboo",
@@ -3915,6 +4268,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "summary",
           "normalized": "Post-\u003eByteString",
@@ -3929,6 +4283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "tags",
           "package": "bamboo",
@@ -3938,6 +4293,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "tags",
           "normalized": "[String]",
@@ -3952,6 +4308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "title",
           "package": "bamboo",
@@ -3961,6 +4318,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "title",
           "package": "bamboo",
@@ -3973,6 +4331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "uid",
           "package": "bamboo",
@@ -3982,6 +4341,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "uid",
           "package": "bamboo",
@@ -3994,6 +4354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Post",
           "name": "uri_to_id",
           "package": "bamboo",
@@ -4003,6 +4364,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Post",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Post",
           "name": "uri_to_id",
           "package": "bamboo",
@@ -4015,6 +4377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Static",
           "name": "Static",
           "package": "bamboo",
@@ -4023,6 +4386,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Static",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Static",
           "name": "Static",
           "package": "bamboo",
@@ -4036,6 +4400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Static",
           "name": "Static",
           "package": "bamboo",
@@ -4044,6 +4409,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Static",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Static",
           "name": "Static",
           "package": "bamboo",
@@ -4057,6 +4423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Static",
           "name": "Static",
           "package": "bamboo",
@@ -4066,6 +4433,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Static",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Static",
           "name": "Static",
           "package": "bamboo",
@@ -4079,6 +4447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Static",
           "name": "body",
           "package": "bamboo",
@@ -4088,6 +4457,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Static",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Static",
           "name": "body",
           "package": "bamboo",
@@ -4100,6 +4470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Static",
           "name": "get_title",
           "package": "bamboo",
@@ -4109,6 +4480,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Static",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Static",
           "name": "get_title",
           "package": "bamboo",
@@ -4121,6 +4493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Static",
           "name": "reader",
           "package": "bamboo",
@@ -4130,6 +4503,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Static",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Static",
           "name": "reader",
           "package": "bamboo",
@@ -4142,6 +4516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Static",
           "name": "title",
           "package": "bamboo",
@@ -4151,6 +4526,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Static",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Static",
           "name": "title",
           "normalized": "Static-\u003eString",
@@ -4165,6 +4541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Static",
           "name": "uid",
           "package": "bamboo",
@@ -4174,6 +4551,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Static",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Static",
           "name": "uid",
           "package": "bamboo",
@@ -4186,6 +4564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Tag",
           "name": "Tag",
           "package": "bamboo",
@@ -4194,6 +4573,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Tag",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Tag",
           "name": "Tag",
           "package": "bamboo",
@@ -4207,6 +4587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Tag",
           "name": "Tag",
           "package": "bamboo",
@@ -4215,6 +4596,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Tag",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Tag",
           "name": "Tag",
           "package": "bamboo",
@@ -4228,6 +4610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Tag",
           "name": "Tag",
           "package": "bamboo",
@@ -4237,6 +4620,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Tag",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Tag",
           "name": "Tag",
           "package": "bamboo",
@@ -4250,6 +4634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Tag",
           "name": "bs_slash",
           "package": "bamboo",
@@ -4259,6 +4644,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Tag",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Tag",
           "name": "bs_slash",
           "normalized": "ByteString-\u003eByteString-\u003eByteString",
@@ -4273,6 +4659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Tag",
           "name": "fill_tag",
           "package": "bamboo",
@@ -4282,6 +4669,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Tag",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Tag",
           "name": "fill_tag",
           "normalized": "[Tag]-\u003ePost-\u003ePost",
@@ -4296,6 +4684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Tag",
           "name": "for_resource",
           "package": "bamboo",
@@ -4305,6 +4694,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Tag",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Tag",
           "name": "for_resource",
           "normalized": "[Tag]-\u003eString-\u003e[String]",
@@ -4319,6 +4709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Tag",
           "name": "get_name",
           "package": "bamboo",
@@ -4328,6 +4719,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Tag",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Tag",
           "name": "get_name",
           "package": "bamboo",
@@ -4340,6 +4732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Tag",
           "name": "get_resources",
           "package": "bamboo",
@@ -4349,6 +4742,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Tag",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Tag",
           "name": "get_resources",
           "normalized": "String-\u003eIO ByteString",
@@ -4363,6 +4757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Tag",
           "name": "get_resources_set",
           "package": "bamboo",
@@ -4372,6 +4767,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Tag",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Tag",
           "name": "get_resources_set",
           "normalized": "String-\u003eIO(Set ByteString)",
@@ -4386,6 +4782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Tag",
           "name": "name",
           "package": "bamboo",
@@ -4395,6 +4792,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Tag",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Tag",
           "name": "name",
           "package": "bamboo",
@@ -4407,6 +4805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Tag",
           "name": "name_to_id",
           "package": "bamboo",
@@ -4416,6 +4815,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Tag",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Tag",
           "name": "name_to_id",
           "package": "bamboo",
@@ -4428,6 +4828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Tag",
           "name": "resource_title_from_name",
           "package": "bamboo",
@@ -4437,6 +4838,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Tag",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Tag",
           "name": "resource_title_from_name",
           "package": "bamboo",
@@ -4449,6 +4851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Tag",
           "name": "resources",
           "package": "bamboo",
@@ -4458,6 +4861,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Tag",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Tag",
           "name": "resources",
           "package": "bamboo",
@@ -4470,6 +4874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Tag",
           "name": "sorted",
           "package": "bamboo",
@@ -4479,6 +4884,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Tag",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Tag",
           "name": "sorted",
           "normalized": "[Tag]-\u003e[Tag]",
@@ -4493,6 +4899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Tag",
           "name": "tag_map",
           "package": "bamboo",
@@ -4502,6 +4909,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Tag",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Tag",
           "name": "tag_map",
           "package": "bamboo",
@@ -4514,6 +4922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Tag",
           "name": "tag_map'",
           "package": "bamboo",
@@ -4523,6 +4932,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Tag",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Tag",
           "name": "tag_map'",
           "normalized": "[Tag]-\u003eMap String(Set ByteString)",
@@ -4537,6 +4947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Model.Tag",
           "name": "uid",
           "package": "bamboo",
@@ -4546,6 +4957,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Model Tag",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Model.Tag",
           "name": "uid",
           "package": "bamboo",
@@ -4558,6 +4970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Class",
           "name": "Class",
           "package": "bamboo",
@@ -4566,6 +4979,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Class",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Class",
           "name": "Class",
           "package": "bamboo",
@@ -4579,6 +4993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Class",
           "name": "Addressable",
           "package": "bamboo",
@@ -4587,6 +5002,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Class",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Class",
           "name": "Addressable",
           "package": "bamboo",
@@ -4600,6 +5016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Class",
           "name": "Creatable",
           "package": "bamboo",
@@ -4608,6 +5025,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Class",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Class",
           "name": "Creatable",
           "package": "bamboo",
@@ -4621,6 +5039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Class",
           "name": "Datable",
           "package": "bamboo",
@@ -4629,6 +5048,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Class",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Class",
           "name": "Datable",
           "package": "bamboo",
@@ -4642,6 +5062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Class",
           "name": "FlatRead",
           "package": "bamboo",
@@ -4650,6 +5071,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Class",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Class",
           "name": "FlatRead",
           "package": "bamboo",
@@ -4663,6 +5085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Class",
           "name": "Gettable",
           "package": "bamboo",
@@ -4671,6 +5094,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Class",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Class",
           "name": "Gettable",
           "package": "bamboo",
@@ -4684,6 +5108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Class",
           "name": "Listable",
           "package": "bamboo",
@@ -4692,6 +5117,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Class",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Class",
           "name": "Listable",
           "package": "bamboo",
@@ -4705,6 +5131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Class",
           "name": "Mappable",
           "package": "bamboo",
@@ -4713,6 +5140,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Class",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Class",
           "name": "Mappable",
           "package": "bamboo",
@@ -4726,6 +5154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Class",
           "name": "Markable",
           "package": "bamboo",
@@ -4734,6 +5163,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Class",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Class",
           "name": "Markable",
           "package": "bamboo",
@@ -4747,6 +5177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Class",
           "name": "Resource",
           "package": "bamboo",
@@ -4755,6 +5186,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Class",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Class",
           "name": "Resource",
           "package": "bamboo",
@@ -4768,6 +5200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Class",
           "name": "cheat_list",
           "package": "bamboo",
@@ -4777,6 +5210,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Class",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Class",
           "name": "cheat_list",
           "normalized": "IO[a]",
@@ -4791,6 +5225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Class",
           "name": "create",
           "package": "bamboo",
@@ -4800,6 +5235,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Class",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Class",
           "name": "create",
           "normalized": "a-\u003eIO()",
@@ -4814,6 +5250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Class",
           "name": "date",
           "package": "bamboo",
@@ -4823,6 +5260,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Class",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Class",
           "name": "date",
           "normalized": "a-\u003eCalendarTime",
@@ -4837,6 +5275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Class",
           "name": "flat_read",
           "package": "bamboo",
@@ -4846,6 +5285,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Class",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Class",
           "name": "flat_read",
           "normalized": "String-\u003eIO a",
@@ -4860,6 +5300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Class",
           "name": "from_assoc",
           "package": "bamboo",
@@ -4869,6 +5310,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Class",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Class",
           "name": "from_assoc",
           "normalized": "Assoc-\u003eIO a",
@@ -4883,6 +5325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Class",
           "name": "get",
           "package": "bamboo",
@@ -4892,6 +5335,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Class",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Class",
           "name": "get",
           "normalized": "String-\u003eIO a",
@@ -4906,6 +5350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Class",
           "name": "list",
           "package": "bamboo",
@@ -4915,6 +5360,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Class",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Class",
           "name": "list",
           "normalized": "IO[a]",
@@ -4929,6 +5375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Class",
           "name": "list_for",
           "package": "bamboo",
@@ -4938,6 +5385,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Class",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Class",
           "name": "list_for",
           "normalized": "String-\u003eIO[a]",
@@ -4952,6 +5400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Class",
           "name": "markup",
           "package": "bamboo",
@@ -4961,6 +5410,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Class",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Class",
           "name": "markup",
           "normalized": "a-\u003eHtml",
@@ -4975,6 +5425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Class",
           "name": "resource_title",
           "package": "bamboo",
@@ -4984,6 +5435,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Class",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Class",
           "name": "resource_title",
           "normalized": "a-\u003eString",
@@ -4998,6 +5450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Class",
           "name": "resource_type",
           "package": "bamboo",
@@ -5007,6 +5460,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Class",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Class",
           "name": "resource_type",
           "normalized": "a-\u003eString",
@@ -5021,6 +5475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Class",
           "name": "uri",
           "package": "bamboo",
@@ -5030,6 +5485,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Class",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Class",
           "name": "uri",
           "normalized": "a-\u003eString",
@@ -5044,6 +5500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Common",
           "name": "Common",
           "package": "bamboo",
@@ -5052,6 +5509,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Common",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Common",
           "name": "Common",
           "package": "bamboo",
@@ -5065,6 +5523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Common",
           "name": "Assoc",
           "package": "bamboo",
@@ -5073,6 +5532,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Common",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Common",
           "name": "Assoc",
           "package": "bamboo",
@@ -5086,6 +5546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Common",
           "name": "SC",
           "package": "bamboo",
@@ -5094,6 +5555,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Common",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Common",
           "name": "SC",
           "package": "bamboo",
@@ -5107,6 +5569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "Config",
           "package": "bamboo",
@@ -5115,6 +5578,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "Config",
           "package": "bamboo",
@@ -5128,6 +5592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "Config",
           "package": "bamboo",
@@ -5136,6 +5601,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "Config",
           "package": "bamboo",
@@ -5149,6 +5615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "ConfigData",
           "package": "bamboo",
@@ -5157,6 +5624,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "ConfigData",
           "package": "bamboo",
@@ -5170,6 +5638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "AnalyticsAccountId",
           "package": "bamboo",
@@ -5179,6 +5648,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "AnalyticsAccountId",
           "package": "bamboo",
@@ -5192,6 +5662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "AuthorEmail",
           "package": "bamboo",
@@ -5201,6 +5672,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "AuthorEmail",
           "package": "bamboo",
@@ -5214,6 +5686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "BambooUrl",
           "package": "bamboo",
@@ -5223,6 +5696,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "BambooUrl",
           "package": "bamboo",
@@ -5236,6 +5710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "BlogSubtitle",
           "package": "bamboo",
@@ -5245,6 +5720,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "BlogSubtitle",
           "package": "bamboo",
@@ -5258,6 +5734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "BlogTitle",
           "package": "bamboo",
@@ -5267,6 +5744,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "BlogTitle",
           "package": "bamboo",
@@ -5280,6 +5758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "CommentDateFormat",
           "package": "bamboo",
@@ -5289,6 +5768,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "CommentDateFormat",
           "package": "bamboo",
@@ -5302,6 +5782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "Config",
           "package": "bamboo",
@@ -5311,6 +5792,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "Config",
           "package": "bamboo",
@@ -5324,6 +5806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "Css",
           "package": "bamboo",
@@ -5333,6 +5816,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "Css",
           "package": "bamboo",
@@ -5346,6 +5830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "Cut",
           "package": "bamboo",
@@ -5355,6 +5840,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "Cut",
           "package": "bamboo",
@@ -5368,6 +5854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "Extensions",
           "package": "bamboo",
@@ -5377,6 +5864,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "Extensions",
           "package": "bamboo",
@@ -5390,6 +5878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "Favicon",
           "package": "bamboo",
@@ -5399,6 +5888,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "Favicon",
           "package": "bamboo",
@@ -5412,6 +5902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "Footer",
           "package": "bamboo",
@@ -5421,6 +5912,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "Footer",
           "package": "bamboo",
@@ -5434,6 +5926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "HostName",
           "package": "bamboo",
@@ -5443,6 +5936,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "HostName",
           "package": "bamboo",
@@ -5456,6 +5950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "Js",
           "package": "bamboo",
@@ -5465,6 +5960,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "Js",
           "package": "bamboo",
@@ -5478,6 +5974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "Navigation",
           "package": "bamboo",
@@ -5487,6 +5984,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "Navigation",
           "package": "bamboo",
@@ -5500,6 +5998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "NumberOfLatestPosts",
           "package": "bamboo",
@@ -5509,6 +6008,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "NumberOfLatestPosts",
           "package": "bamboo",
@@ -5522,6 +6022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "PerPage",
           "package": "bamboo",
@@ -5531,6 +6032,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "PerPage",
           "package": "bamboo",
@@ -5544,6 +6046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "PicturePrefix",
           "package": "bamboo",
@@ -5553,6 +6056,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "PicturePrefix",
           "package": "bamboo",
@@ -5566,6 +6070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "PostDateFormat",
           "package": "bamboo",
@@ -5575,6 +6080,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "PostDateFormat",
           "package": "bamboo",
@@ -5588,6 +6094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "Sidebar",
           "package": "bamboo",
@@ -5597,6 +6104,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "Sidebar",
           "package": "bamboo",
@@ -5610,6 +6118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "SummaryForRoot",
           "package": "bamboo",
@@ -5619,6 +6128,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "SummaryForRoot",
           "package": "bamboo",
@@ -5632,6 +6142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "SummaryForRss",
           "package": "bamboo",
@@ -5641,6 +6152,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "SummaryForRss",
           "package": "bamboo",
@@ -5654,6 +6166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "SummaryForTag",
           "package": "bamboo",
@@ -5663,6 +6176,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "SummaryForTag",
           "package": "bamboo",
@@ -5676,6 +6190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "Theme",
           "package": "bamboo",
@@ -5685,6 +6200,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "Theme",
           "package": "bamboo",
@@ -5698,6 +6214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "UrlDateFormat",
           "package": "bamboo",
@@ -5707,6 +6224,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "UrlDateFormat",
           "package": "bamboo",
@@ -5720,6 +6238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "UrlDateMatcher",
           "package": "bamboo",
@@ -5729,6 +6248,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "UrlDateMatcher",
           "package": "bamboo",
@@ -5742,6 +6262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "UrlDateTitleSeperator",
           "package": "bamboo",
@@ -5751,6 +6272,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "UrlDateTitleSeperator",
           "package": "bamboo",
@@ -5764,6 +6286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "UrlTitleSubs",
           "package": "bamboo",
@@ -5773,6 +6296,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "UrlTitleSubs",
           "package": "bamboo",
@@ -5786,6 +6310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "UseCache",
           "package": "bamboo",
@@ -5795,6 +6320,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "UseCache",
           "package": "bamboo",
@@ -5808,6 +6334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "album_id",
           "package": "bamboo",
@@ -5817,6 +6344,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "album_id",
           "package": "bamboo",
@@ -5829,6 +6357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "analytics_account_id",
           "package": "bamboo",
@@ -5838,6 +6367,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "analytics_account_id",
           "package": "bamboo",
@@ -5850,6 +6380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "author_email",
           "package": "bamboo",
@@ -5859,6 +6390,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "author_email",
           "package": "bamboo",
@@ -5871,6 +6403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "bamboo_url",
           "package": "bamboo",
@@ -5880,6 +6413,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "bamboo_url",
           "package": "bamboo",
@@ -5892,6 +6426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "blog_subtitle",
           "package": "bamboo",
@@ -5901,6 +6436,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "blog_subtitle",
           "package": "bamboo",
@@ -5913,6 +6449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "blog_title",
           "package": "bamboo",
@@ -5922,6 +6459,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "blog_title",
           "package": "bamboo",
@@ -5934,6 +6472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "cache_id",
           "package": "bamboo",
@@ -5943,6 +6482,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "cache_id",
           "package": "bamboo",
@@ -5955,6 +6495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "comment_date_format",
           "package": "bamboo",
@@ -5964,6 +6505,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "comment_date_format",
           "package": "bamboo",
@@ -5976,6 +6518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "comment_id",
           "package": "bamboo",
@@ -5985,6 +6528,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "comment_id",
           "package": "bamboo",
@@ -5997,6 +6541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "config_file_id",
           "package": "bamboo",
@@ -6006,6 +6551,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "config_file_id",
           "package": "bamboo",
@@ -6018,6 +6564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "config_id",
           "package": "bamboo",
@@ -6027,6 +6574,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "config_id",
           "package": "bamboo",
@@ -6039,6 +6587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "count_meta",
           "package": "bamboo",
@@ -6048,6 +6597,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "count_meta",
           "package": "bamboo",
@@ -6060,6 +6610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "cut",
           "package": "bamboo",
@@ -6069,6 +6620,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "cut",
           "package": "bamboo",
@@ -6081,6 +6633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "db_id",
           "package": "bamboo",
@@ -6090,6 +6643,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "db_id",
           "package": "bamboo",
@@ -6102,6 +6656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "default_reader",
           "package": "bamboo",
@@ -6111,6 +6666,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "default_reader",
           "package": "bamboo",
@@ -6123,6 +6679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "extensions",
           "package": "bamboo",
@@ -6132,6 +6689,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "extensions",
           "normalized": "[Extension]",
@@ -6146,6 +6704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "favicon",
           "package": "bamboo",
@@ -6155,6 +6714,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "favicon",
           "package": "bamboo",
@@ -6167,6 +6727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "flat_id",
           "package": "bamboo",
@@ -6176,6 +6737,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "flat_id",
           "package": "bamboo",
@@ -6188,6 +6750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "footer",
           "package": "bamboo",
@@ -6197,6 +6760,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "footer",
           "package": "bamboo",
@@ -6209,6 +6773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "host_name",
           "package": "bamboo",
@@ -6218,6 +6783,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "host_name",
           "package": "bamboo",
@@ -6230,6 +6796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "image_id",
           "package": "bamboo",
@@ -6239,6 +6806,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "image_id",
           "package": "bamboo",
@@ -6251,6 +6819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "navigation",
           "package": "bamboo",
@@ -6260,6 +6829,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "navigation",
           "normalized": "[String]",
@@ -6274,6 +6844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "number_of_latest_posts",
           "package": "bamboo",
@@ -6283,6 +6854,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "number_of_latest_posts",
           "package": "bamboo",
@@ -6295,6 +6867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "per_page",
           "package": "bamboo",
@@ -6304,6 +6877,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "per_page",
           "package": "bamboo",
@@ -6316,6 +6890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "picture_prefix",
           "package": "bamboo",
@@ -6325,6 +6900,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "picture_prefix",
           "package": "bamboo",
@@ -6337,6 +6913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "post_date_format",
           "package": "bamboo",
@@ -6346,6 +6923,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "post_date_format",
           "package": "bamboo",
@@ -6358,6 +6936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "post_id",
           "package": "bamboo",
@@ -6367,6 +6946,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "post_id",
           "package": "bamboo",
@@ -6379,6 +6959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "public_id",
           "package": "bamboo",
@@ -6388,6 +6969,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "public_id",
           "package": "bamboo",
@@ -6400,6 +6982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "sidebar",
           "package": "bamboo",
@@ -6409,6 +6992,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "sidebar",
           "normalized": "[StaticWidget]",
@@ -6423,6 +7007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "sidebar_id",
           "package": "bamboo",
@@ -6432,6 +7017,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "sidebar_id",
           "package": "bamboo",
@@ -6444,6 +7030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "stat_id",
           "package": "bamboo",
@@ -6453,6 +7040,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "stat_id",
           "package": "bamboo",
@@ -6465,6 +7053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "static_id",
           "package": "bamboo",
@@ -6474,6 +7063,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "static_id",
           "package": "bamboo",
@@ -6486,6 +7076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "summary_for_root",
           "package": "bamboo",
@@ -6495,6 +7086,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "summary_for_root",
           "package": "bamboo",
@@ -6507,6 +7099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "summary_for_rss",
           "package": "bamboo",
@@ -6516,6 +7109,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "summary_for_rss",
           "package": "bamboo",
@@ -6528,6 +7122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "summary_for_tag",
           "package": "bamboo",
@@ -6537,6 +7132,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "summary_for_tag",
           "package": "bamboo",
@@ -6549,6 +7145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "tag_id",
           "package": "bamboo",
@@ -6558,6 +7155,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "tag_id",
           "package": "bamboo",
@@ -6570,6 +7168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "theme_config",
           "package": "bamboo",
@@ -6579,6 +7178,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "theme_config",
           "package": "bamboo",
@@ -6591,6 +7191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "theme_id",
           "package": "bamboo",
@@ -6600,6 +7201,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "theme_id",
           "package": "bamboo",
@@ -6612,6 +7214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "thumb_id",
           "package": "bamboo",
@@ -6621,6 +7224,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "thumb_id",
           "package": "bamboo",
@@ -6633,6 +7237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "topic_id",
           "package": "bamboo",
@@ -6642,6 +7247,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "topic_id",
           "package": "bamboo",
@@ -6654,6 +7260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "url_date_format",
           "package": "bamboo",
@@ -6663,6 +7270,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "url_date_format",
           "package": "bamboo",
@@ -6675,6 +7283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "url_date_matcher",
           "package": "bamboo",
@@ -6684,6 +7293,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "url_date_matcher",
           "package": "bamboo",
@@ -6696,6 +7306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "url_date_title_seperator",
           "package": "bamboo",
@@ -6705,6 +7316,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "url_date_title_seperator",
           "package": "bamboo",
@@ -6717,6 +7329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "url_title_subs",
           "package": "bamboo",
@@ -6726,6 +7339,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "url_title_subs",
           "package": "bamboo",
@@ -6738,6 +7352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Config",
           "name": "use_cache",
           "package": "bamboo",
@@ -6747,6 +7362,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Config",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Config",
           "name": "use_cache",
           "package": "bamboo",
@@ -6759,6 +7375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Extension",
           "name": "Extension",
           "package": "bamboo",
@@ -6767,6 +7384,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Extension",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Extension",
           "name": "Extension",
           "package": "bamboo",
@@ -6780,6 +7398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Extension",
           "name": "Extension",
           "package": "bamboo",
@@ -6788,6 +7407,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Extension",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Extension",
           "name": "Extension",
           "package": "bamboo",
@@ -6801,6 +7421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Extension",
           "name": "Analytics",
           "package": "bamboo",
@@ -6810,6 +7431,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Extension",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Extension",
           "name": "Analytics",
           "package": "bamboo",
@@ -6823,6 +7445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Extension",
           "name": "Comment",
           "package": "bamboo",
@@ -6832,6 +7455,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Extension",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Extension",
           "name": "Comment",
           "package": "bamboo",
@@ -6845,6 +7469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Extension",
           "name": "Counter",
           "package": "bamboo",
@@ -6854,6 +7479,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Extension",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Extension",
           "name": "Counter",
           "package": "bamboo",
@@ -6867,6 +7493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Extension",
           "name": "Search",
           "package": "bamboo",
@@ -6876,6 +7503,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Extension",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Extension",
           "name": "Search",
           "package": "bamboo",
@@ -6889,6 +7517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Pager",
           "name": "Pager",
           "package": "bamboo",
@@ -6897,6 +7526,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Pager",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Pager",
           "name": "Pager",
           "package": "bamboo",
@@ -6910,6 +7540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Pager",
           "name": "Pager",
           "package": "bamboo",
@@ -6918,6 +7549,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Pager",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Pager",
           "name": "Pager",
           "package": "bamboo",
@@ -6931,6 +7563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Pager",
           "name": "Pager",
           "package": "bamboo",
@@ -6940,6 +7573,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Pager",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Pager",
           "name": "Pager",
           "package": "bamboo",
@@ -6953,6 +7587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Pager",
           "name": "current",
           "package": "bamboo",
@@ -6962,6 +7597,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Pager",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Pager",
           "name": "current",
           "package": "bamboo",
@@ -6974,6 +7610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Pager",
           "name": "has_next",
           "package": "bamboo",
@@ -6983,6 +7620,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Pager",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Pager",
           "name": "has_next",
           "package": "bamboo",
@@ -6995,6 +7633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Pager",
           "name": "has_previous",
           "package": "bamboo",
@@ -7004,6 +7643,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Pager",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Pager",
           "name": "has_previous",
           "package": "bamboo",
@@ -7016,6 +7656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Pager",
           "name": "next",
           "package": "bamboo",
@@ -7025,6 +7666,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Pager",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Pager",
           "name": "next",
           "package": "bamboo",
@@ -7037,6 +7679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Pager",
           "name": "per_page",
           "package": "bamboo",
@@ -7046,6 +7689,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Pager",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Pager",
           "name": "per_page",
           "package": "bamboo",
@@ -7058,6 +7702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Pager",
           "name": "previous",
           "package": "bamboo",
@@ -7067,6 +7712,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Pager",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Pager",
           "name": "previous",
           "package": "bamboo",
@@ -7079,6 +7725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Pager",
           "name": "total",
           "package": "bamboo",
@@ -7088,6 +7735,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Pager",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Pager",
           "name": "total",
           "package": "bamboo",
@@ -7100,6 +7748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Reader",
           "name": "Reader",
           "package": "bamboo",
@@ -7108,6 +7757,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Reader",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Reader",
           "name": "Reader",
           "package": "bamboo",
@@ -7121,6 +7771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Reader",
           "name": "Reader",
           "package": "bamboo",
@@ -7129,6 +7780,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Reader",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Reader",
           "name": "Reader",
           "package": "bamboo",
@@ -7142,6 +7794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Reader",
           "name": "HTML",
           "package": "bamboo",
@@ -7151,6 +7804,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Reader",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Reader",
           "name": "HTML",
           "package": "bamboo",
@@ -7164,6 +7818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Reader",
           "name": "Latex",
           "package": "bamboo",
@@ -7173,6 +7828,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Reader",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Reader",
           "name": "Latex",
           "package": "bamboo",
@@ -7186,6 +7842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Reader",
           "name": "Markdown",
           "package": "bamboo",
@@ -7195,6 +7852,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Reader",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Reader",
           "name": "Markdown",
           "package": "bamboo",
@@ -7208,6 +7866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Reader",
           "name": "RST",
           "package": "bamboo",
@@ -7217,6 +7876,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Reader",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Reader",
           "name": "RST",
           "package": "bamboo",
@@ -7230,6 +7890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Reader",
           "name": "guess_reader",
           "package": "bamboo",
@@ -7239,6 +7900,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Reader",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Reader",
           "name": "guess_reader",
           "normalized": "String-\u003eMaybe Reader",
@@ -7253,6 +7915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Reader",
           "name": "reader_map",
           "package": "bamboo",
@@ -7262,6 +7925,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Reader",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Reader",
           "name": "reader_map",
           "package": "bamboo",
@@ -7274,6 +7938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Reader",
           "name": "readers",
           "package": "bamboo",
@@ -7283,6 +7948,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Reader",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Reader",
           "name": "readers",
           "normalized": "[(Reader,[String])]",
@@ -7297,6 +7963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Reader",
           "name": "render_to_html",
           "package": "bamboo",
@@ -7306,6 +7973,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Reader",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Reader",
           "name": "render_to_html",
           "normalized": "Reader-\u003eByteString-\u003eHtml",
@@ -7320,6 +7988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Reader",
           "name": "rr",
           "package": "bamboo",
@@ -7329,6 +7998,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Reader",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Reader",
           "name": "rr",
           "normalized": "Reader-\u003eByteString-\u003eHtml",
@@ -7343,6 +8013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Reader",
           "name": "to_html",
           "package": "bamboo",
@@ -7352,6 +8023,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Reader",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Reader",
           "name": "to_html",
           "normalized": "(ParserState-\u003ea-\u003ePandoc)-\u003ea-\u003eHtml",
@@ -7366,6 +8038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "State",
           "package": "bamboo",
@@ -7374,6 +8047,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "State",
           "package": "bamboo",
@@ -7387,6 +8061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "HumanTestData",
           "package": "bamboo",
@@ -7395,6 +8070,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "HumanTestData",
           "package": "bamboo",
@@ -7408,6 +8084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "Op",
           "package": "bamboo",
@@ -7416,6 +8093,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "Op",
           "package": "bamboo",
@@ -7429,6 +8107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "State",
           "package": "bamboo",
@@ -7437,6 +8116,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "State",
           "package": "bamboo",
@@ -7450,6 +8130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "HumanTestData",
           "package": "bamboo",
@@ -7459,6 +8140,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "HumanTestData",
           "package": "bamboo",
@@ -7472,6 +8154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "Minus",
           "package": "bamboo",
@@ -7481,6 +8164,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "Minus",
           "package": "bamboo",
@@ -7494,6 +8178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "Plus",
           "package": "bamboo",
@@ -7503,6 +8188,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "Plus",
           "package": "bamboo",
@@ -7516,6 +8202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "State",
           "package": "bamboo",
@@ -7525,6 +8212,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "State",
           "package": "bamboo",
@@ -7538,6 +8226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "comments",
           "package": "bamboo",
@@ -7547,6 +8236,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "comments",
           "normalized": "[Comment]",
@@ -7561,6 +8251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "config",
           "package": "bamboo",
@@ -7570,6 +8261,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "config",
           "package": "bamboo",
@@ -7582,6 +8274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "display_op",
           "package": "bamboo",
@@ -7591,6 +8284,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "display_op",
           "normalized": "Op-\u003eString",
@@ -7605,6 +8299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "env",
           "package": "bamboo",
@@ -7614,6 +8309,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "env",
           "package": "bamboo",
@@ -7626,6 +8322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "human_test_data",
           "package": "bamboo",
@@ -7635,6 +8332,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "human_test_data",
           "package": "bamboo",
@@ -7647,6 +8345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "latest_posts",
           "package": "bamboo",
@@ -7656,6 +8355,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "latest_posts",
           "normalized": "[Post]",
@@ -7670,6 +8370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "left",
           "package": "bamboo",
@@ -7679,6 +8380,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "left",
           "package": "bamboo",
@@ -7691,6 +8393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "mk_human_test",
           "package": "bamboo",
@@ -7700,6 +8403,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "mk_human_test",
           "package": "bamboo",
@@ -7712,6 +8416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "nav_location",
           "package": "bamboo",
@@ -7721,6 +8426,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "nav_location",
           "package": "bamboo",
@@ -7733,6 +8439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "nums",
           "package": "bamboo",
@@ -7742,6 +8449,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "nums",
           "normalized": "[Int]",
@@ -7756,6 +8464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "op",
           "package": "bamboo",
@@ -7765,6 +8474,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "op",
           "package": "bamboo",
@@ -7777,6 +8487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "ops",
           "package": "bamboo",
@@ -7786,6 +8497,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "ops",
           "normalized": "[Op]",
@@ -7800,6 +8512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "pager",
           "package": "bamboo",
@@ -7809,6 +8522,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "pager",
           "package": "bamboo",
@@ -7821,6 +8535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "posts",
           "package": "bamboo",
@@ -7830,6 +8545,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "posts",
           "normalized": "[Post]",
@@ -7844,6 +8560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "read_op",
           "package": "bamboo",
@@ -7853,6 +8570,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "read_op",
           "normalized": "String-\u003eOp",
@@ -7867,6 +8585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "resource_title",
           "package": "bamboo",
@@ -7876,6 +8595,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "resource_title",
           "package": "bamboo",
@@ -7888,6 +8608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "right",
           "package": "bamboo",
@@ -7897,6 +8618,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "right",
           "package": "bamboo",
@@ -7909,6 +8631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "search_key",
           "package": "bamboo",
@@ -7918,6 +8641,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "search_key",
           "package": "bamboo",
@@ -7930,6 +8654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "show_left",
           "package": "bamboo",
@@ -7939,6 +8664,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "show_left",
           "normalized": "State-\u003eString",
@@ -7953,6 +8679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "show_op",
           "package": "bamboo",
@@ -7962,6 +8689,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "show_op",
           "normalized": "State-\u003eString",
@@ -7976,6 +8704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "show_right",
           "package": "bamboo",
@@ -7985,6 +8714,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "show_right",
           "normalized": "State-\u003eString",
@@ -7999,6 +8729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "simple_eval",
           "package": "bamboo",
@@ -8008,6 +8739,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "simple_eval",
           "normalized": "Int-\u003eInt-\u003eOp-\u003eInt",
@@ -8022,6 +8754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "static",
           "package": "bamboo",
@@ -8031,6 +8764,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "static",
           "package": "bamboo",
@@ -8043,6 +8777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "status",
           "package": "bamboo",
@@ -8052,6 +8787,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "status",
           "package": "bamboo",
@@ -8064,6 +8800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "tag_name",
           "package": "bamboo",
@@ -8073,6 +8810,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "tag_name",
           "package": "bamboo",
@@ -8085,6 +8823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "tags",
           "package": "bamboo",
@@ -8094,6 +8833,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "tags",
           "normalized": "[Tag]",
@@ -8108,6 +8848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.State",
           "name": "uid",
           "package": "bamboo",
@@ -8117,6 +8858,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type State",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.State",
           "name": "uid",
           "package": "bamboo",
@@ -8129,6 +8871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.StaticWidget",
           "name": "StaticWidget",
           "package": "bamboo",
@@ -8137,6 +8880,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type StaticWidget",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.StaticWidget",
           "name": "StaticWidget",
           "package": "bamboo",
@@ -8150,6 +8894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.StaticWidget",
           "name": "StaticWidget",
           "package": "bamboo",
@@ -8158,6 +8903,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type StaticWidget",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.StaticWidget",
           "name": "StaticWidget",
           "package": "bamboo",
@@ -8171,6 +8917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.StaticWidget",
           "name": "StaticWidget",
           "package": "bamboo",
@@ -8180,6 +8927,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type StaticWidget",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.StaticWidget",
           "name": "StaticWidget",
           "package": "bamboo",
@@ -8193,6 +8941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.StaticWidget",
           "name": "body",
           "package": "bamboo",
@@ -8202,6 +8951,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type StaticWidget",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.StaticWidget",
           "name": "body",
           "package": "bamboo",
@@ -8214,6 +8964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.StaticWidget",
           "name": "name",
           "package": "bamboo",
@@ -8223,6 +8974,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type StaticWidget",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.StaticWidget",
           "name": "name",
           "package": "bamboo",
@@ -8235,6 +8987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.StaticWidget",
           "name": "reader",
           "package": "bamboo",
@@ -8244,6 +8997,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type StaticWidget",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.StaticWidget",
           "name": "reader",
           "package": "bamboo",
@@ -8256,6 +9010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Theme",
           "name": "Theme",
           "package": "bamboo",
@@ -8264,6 +9019,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Theme",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Theme",
           "name": "Theme",
           "package": "bamboo",
@@ -8277,6 +9033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Theme",
           "name": "ThemeConfig",
           "package": "bamboo",
@@ -8285,6 +9042,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Theme",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Theme",
           "name": "ThemeConfig",
           "package": "bamboo",
@@ -8298,6 +9056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Theme",
           "name": "ThemeConfigData",
           "package": "bamboo",
@@ -8306,6 +9065,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Theme",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Theme",
           "name": "ThemeConfigData",
           "package": "bamboo",
@@ -8319,6 +9079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Theme",
           "name": "Css",
           "package": "bamboo",
@@ -8328,6 +9089,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Theme",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Theme",
           "name": "Css",
           "package": "bamboo",
@@ -8341,6 +9103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Theme",
           "name": "Js",
           "package": "bamboo",
@@ -8350,6 +9113,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Theme",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Theme",
           "name": "Js",
           "package": "bamboo",
@@ -8363,6 +9127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Theme",
           "name": "Name",
           "package": "bamboo",
@@ -8372,6 +9137,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Theme",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Theme",
           "name": "Name",
           "package": "bamboo",
@@ -8385,6 +9151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Theme",
           "name": "ThemeConfig",
           "package": "bamboo",
@@ -8394,6 +9161,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Theme",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Theme",
           "name": "ThemeConfig",
           "package": "bamboo",
@@ -8407,6 +9175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Theme",
           "name": "css",
           "package": "bamboo",
@@ -8416,6 +9185,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Theme",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Theme",
           "name": "css",
           "normalized": "[String]",
@@ -8430,6 +9200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Theme",
           "name": "js",
           "package": "bamboo",
@@ -8439,6 +9210,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Theme",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Theme",
           "name": "js",
           "normalized": "[String]",
@@ -8453,6 +9225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.Theme",
           "name": "name",
           "package": "bamboo",
@@ -8462,6 +9235,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type Theme",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.Theme",
           "name": "name",
           "package": "bamboo",
@@ -8474,6 +9248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.ThemeInterface",
           "name": "ThemeInterface",
           "package": "bamboo",
@@ -8482,6 +9257,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type ThemeInterface",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.ThemeInterface",
           "name": "ThemeInterface",
           "package": "bamboo",
@@ -8495,6 +9271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.ThemeInterface",
           "name": "Interface",
           "package": "bamboo",
@@ -8503,6 +9280,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type ThemeInterface",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.ThemeInterface",
           "name": "Interface",
           "package": "bamboo",
@@ -8516,6 +9294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.ThemeInterface",
           "name": "Theme",
           "package": "bamboo",
@@ -8524,6 +9303,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type ThemeInterface",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.ThemeInterface",
           "name": "Theme",
           "package": "bamboo",
@@ -8537,6 +9317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.ThemeInterface",
           "name": "Index",
           "package": "bamboo",
@@ -8546,6 +9327,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type ThemeInterface",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.ThemeInterface",
           "name": "Index",
           "package": "bamboo",
@@ -8559,6 +9341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.ThemeInterface",
           "name": "IndexFeed",
           "package": "bamboo",
@@ -8568,6 +9351,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type ThemeInterface",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.ThemeInterface",
           "name": "IndexFeed",
           "package": "bamboo",
@@ -8581,6 +9365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.ThemeInterface",
           "name": "Post",
           "package": "bamboo",
@@ -8590,6 +9375,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type ThemeInterface",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.ThemeInterface",
           "name": "Post",
           "package": "bamboo",
@@ -8603,6 +9389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.ThemeInterface",
           "name": "Search",
           "package": "bamboo",
@@ -8612,6 +9399,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type ThemeInterface",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.ThemeInterface",
           "name": "Search",
           "package": "bamboo",
@@ -8625,6 +9413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.ThemeInterface",
           "name": "Static",
           "package": "bamboo",
@@ -8634,6 +9423,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type ThemeInterface",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.ThemeInterface",
           "name": "Static",
           "package": "bamboo",
@@ -8647,6 +9437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.ThemeInterface",
           "name": "Tag",
           "package": "bamboo",
@@ -8656,6 +9447,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type ThemeInterface",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.ThemeInterface",
           "name": "Tag",
           "package": "bamboo",
@@ -8669,6 +9461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type.ThemeInterface",
           "name": "TagFeed",
           "package": "bamboo",
@@ -8678,6 +9471,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type ThemeInterface",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type.ThemeInterface",
           "name": "TagFeed",
           "package": "bamboo",
@@ -8691,6 +9485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo.Type",
           "name": "Type",
           "package": "bamboo",
@@ -8699,6 +9494,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Type",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo.Type",
           "name": "Type",
           "package": "bamboo",
@@ -8712,6 +9508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo",
           "name": "Bamboo",
           "package": "bamboo",
@@ -8720,6 +9517,7 @@
         },
         "index": {
           "hierarchy": "Bamboo",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo",
           "name": "Bamboo",
           "package": "bamboo",
@@ -8733,6 +9531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:17 UTC 2014",
           "module": "Bamboo",
           "name": "bamboo_with_theme",
           "package": "bamboo",
@@ -8742,6 +9541,7 @@
         },
         "index": {
           "hierarchy": "Bamboo",
+          "indexed": "2014-03-11T17:16:17",
           "module": "Bamboo",
           "name": "bamboo_with_theme",
           "normalized": "Theme-\u003eMiddleware",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "push-notify"
+        "phrase": "push-notify",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library defines an API for communicating with iOS powered devices, sending Push Notifications through Apple Push Notification Service.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "Apns",
           "package": "push-notify",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This library defines an API for communicating with iOS powered devices sending Push Notifications through Apple Push Notification Service",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "Apns",
           "package": "push-notify",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eAPNSConfig\u003c/a\u003e\u003c/code\u003e represents the main necessary information for sending notifications through APNS.\n\u003c/p\u003e\u003cp\u003eFor loading the certificate and privateKey you can use: \u003ccode\u003e\u003ca\u003efileReadCertificate\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efileReadPrivateKey\u003c/a\u003e\u003c/code\u003e .\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "APNSConfig",
           "package": "push-notify",
@@ -51,6 +54,7 @@
         "index": {
           "description": "APNSConfig represents the main necessary information for sending notifications through APNS For loading the certificate and privateKey you can use fileReadCertificate and fileReadPrivateKey",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "APNSConfig",
           "package": "push-notify",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eAPNSFeedBackresult\u003c/a\u003e\u003c/code\u003e represents information after connecting with the Feedback service.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "APNSFeedBackresult",
           "package": "push-notify",
@@ -74,6 +79,7 @@
         "index": {
           "description": "APNSFeedBackresult represents information after connecting with the Feedback service",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "APNSFeedBackresult",
           "package": "push-notify",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "APNSManager",
           "package": "push-notify",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "APNSManager",
           "package": "push-notify",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eAPNSmessage\u003c/a\u003e\u003c/code\u003e represents a message to be sent through APNS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "APNSmessage",
           "package": "push-notify",
@@ -118,6 +127,7 @@
         "index": {
           "description": "APNSmessage represents message to be sent through APNS",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "APNSmessage",
           "package": "push-notify",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eAPNSresult\u003c/a\u003e\u003c/code\u003e represents information about messages after a communication with APNS Servers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "APNSresult",
           "package": "push-notify",
@@ -141,6 +152,7 @@
         "index": {
           "description": "APNSresult represents information about messages after communication with APNS Servers",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "APNSresult",
           "package": "push-notify",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eAlertDictionary\u003c/a\u003e\u003c/code\u003e represents the possible dictionary in the \u003ccode\u003e\u003ca\u003ealert\u003c/a\u003e\u003c/code\u003e label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "AlertDictionary",
           "package": "push-notify",
@@ -164,6 +177,7 @@
         "index": {
           "description": "AlertDictionary represents the possible dictionary in the alert label",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "AlertDictionary",
           "package": "push-notify",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary token stored in hexadecimal representation as text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "DeviceToken",
           "package": "push-notify",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Binary token stored in hexadecimal representation as text",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "DeviceToken",
           "package": "push-notify",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eEnv\u003c/a\u003e\u003c/code\u003e represents the three possible working environments. This determines the url and port to connect to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "Env",
           "package": "push-notify",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Env represents the three possible working environments This determines the url and port to connect to",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "Env",
           "package": "push-notify",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "APNSConfig",
           "package": "push-notify",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "APNSConfig",
           "package": "push-notify",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "APNSFeedBackresult",
           "package": "push-notify",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "APNSFeedBackresult",
           "package": "push-notify",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "APNSmessage",
           "package": "push-notify",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "APNSmessage",
           "package": "push-notify",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "APNSresult",
           "package": "push-notify",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "APNSresult",
           "package": "push-notify",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "AlertDictionary",
           "package": "push-notify",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "AlertDictionary",
           "package": "push-notify",
@@ -334,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDevelopment environment (by Apple).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "Development",
           "package": "push-notify",
@@ -344,6 +373,7 @@
         "index": {
           "description": "Development environment by Apple",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "Development",
           "package": "push-notify",
@@ -358,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal environment, just to test the service in the \"localhost\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "Local",
           "package": "push-notify",
@@ -368,6 +399,7 @@
         "index": {
           "description": "Local environment just to test the service in the localhost",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "Local",
           "package": "push-notify",
@@ -382,6 +414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduction environment (by Apple).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "Production",
           "package": "push-notify",
@@ -392,6 +425,7 @@
         "index": {
           "description": "Production environment by Apple",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "Production",
           "package": "push-notify",
@@ -405,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "action_loc_key",
           "package": "push-notify",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "action_loc_key",
           "package": "push-notify",
@@ -427,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor the system to displays a standard alert.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "alert",
           "package": "push-notify",
@@ -437,6 +474,7 @@
         "index": {
           "description": "For the system to displays standard alert",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "alert",
           "package": "push-notify",
@@ -450,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCertificate provided by Apple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "apnsCertificate",
           "package": "push-notify",
@@ -460,6 +499,7 @@
         "index": {
           "description": "Certificate provided by Apple",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "apnsCertificate",
           "package": "push-notify",
@@ -474,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrivate key provided by Apple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "apnsPrivateKey",
           "package": "push-notify",
@@ -484,6 +525,7 @@
         "index": {
           "description": "Private key provided by Apple",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "apnsPrivateKey",
           "package": "push-notify",
@@ -498,6 +540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to retry to connect to APNS servers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "apnsRetrySettings",
           "package": "push-notify",
@@ -508,6 +551,7 @@
         "index": {
           "description": "How to retry to connect to APNS servers",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "apnsRetrySettings",
           "package": "push-notify",
@@ -522,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber to display as the badge of the application icon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "badge",
           "package": "push-notify",
@@ -532,6 +577,7 @@
         "index": {
           "description": "Number to display as the badge of the application icon",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "badge",
           "package": "push-notify",
@@ -544,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "body",
           "package": "push-notify",
@@ -553,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "body",
           "package": "push-notify",
@@ -566,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecloseAPNS\u003c/a\u003e\u003c/code\u003e stops the APNS service.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "closeAPNS",
           "package": "push-notify",
@@ -576,6 +625,7 @@
         "index": {
           "description": "closeAPNS stops the APNS service",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "closeAPNS",
           "normalized": "APNSManager-\u003eIO()",
@@ -592,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "deviceTokens",
           "package": "push-notify",
@@ -602,6 +653,7 @@
         "index": {
           "description": "Destination",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "deviceTokens",
           "package": "push-notify",
@@ -616,6 +668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne of the possible environments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "environment",
           "package": "push-notify",
@@ -626,6 +679,7 @@
         "index": {
           "description": "One of the possible environments",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "environment",
           "package": "push-notify",
@@ -639,6 +693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies when the notification is no longer valid and can be discarded. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "expiry",
           "package": "push-notify",
@@ -649,6 +704,7 @@
         "index": {
           "description": "Identifies when the notification is no longer valid and can be discarded",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "expiry",
           "package": "push-notify",
@@ -662,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efeedBackAPNS\u003c/a\u003e\u003c/code\u003e connects to the Feedback service.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "feedBackAPNS",
           "package": "push-notify",
@@ -672,6 +729,7 @@
         "index": {
           "description": "feedBackAPNS connects to the Feedback service",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "feedBackAPNS",
           "normalized": "APNSConfig-\u003eIO APNSFeedBackresult",
@@ -687,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "launch_image",
           "package": "push-notify",
@@ -696,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "launch_image",
           "package": "push-notify",
@@ -708,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "loc_args",
           "package": "push-notify",
@@ -717,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "loc_args",
           "normalized": "[Text]",
@@ -731,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "loc_key",
           "package": "push-notify",
@@ -740,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "loc_key",
           "package": "push-notify",
@@ -753,6 +817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtra information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "rest",
           "package": "push-notify",
@@ -763,6 +828,7 @@
         "index": {
           "description": "Extra information",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "rest",
           "package": "push-notify",
@@ -776,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esendAPNS\u003c/a\u003e\u003c/code\u003e sends the message to a APNS Server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "sendAPNS",
           "package": "push-notify",
@@ -786,6 +853,7 @@
         "index": {
           "description": "sendAPNS sends the message to APNS Server",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "sendAPNS",
           "normalized": "APNSManager-\u003eAPNSmessage-\u003eIO APNSresult",
@@ -802,6 +870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of a sound file in the application bundle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "sound",
           "package": "push-notify",
@@ -812,6 +881,7 @@
         "index": {
           "description": "The name of sound file in the application bundle",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "sound",
           "package": "push-notify",
@@ -825,6 +895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003estartAPNS\u003c/a\u003e\u003c/code\u003e starts the APNS service.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "startAPNS",
           "package": "push-notify",
@@ -835,6 +906,7 @@
         "index": {
           "description": "startAPNS starts the APNS service",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "startAPNS",
           "normalized": "APNSConfig-\u003eIO APNSManager",
@@ -850,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "successfulTokens",
           "package": "push-notify",
@@ -859,6 +932,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "successfulTokens",
           "package": "push-notify",
@@ -873,6 +947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe time to wait for a server response. (microseconds)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "timeoutLimit",
           "package": "push-notify",
@@ -883,6 +958,7 @@
         "index": {
           "description": "The time to wait for server response microseconds",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "timeoutLimit",
           "package": "push-notify",
@@ -897,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFailed tokens that you need to resend the message to,\n because there was a problem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "toReSendTokens",
           "package": "push-notify",
@@ -907,6 +984,7 @@
         "index": {
           "description": "Failed tokens that you need to resend the message to because there was problem",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "toReSendTokens",
           "package": "push-notify",
@@ -921,6 +999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDevices tokens and time indicating when APNS determined\n that the application no longer exists on the device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "unRegisteredTokens",
           "package": "push-notify",
@@ -931,6 +1010,7 @@
         "index": {
           "description": "Devices tokens and time indicating when APNS determined that the application no longer exists on the device",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "unRegisteredTokens",
           "package": "push-notify",
@@ -945,6 +1025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ewithAPNS\u003c/a\u003e\u003c/code\u003e creates a new manager, uses it in the provided function, and then releases it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Apns",
           "name": "withAPNS",
           "package": "push-notify",
@@ -955,6 +1036,7 @@
         "index": {
           "description": "withAPNS creates new manager uses it in the provided function and then releases it",
           "hierarchy": "Network PushNotify Apns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Apns",
           "name": "withAPNS",
           "normalized": "APNSConfig-\u003e(APNSManager-\u003eIO a)-\u003eIO a",
@@ -971,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis Module define the main data types for sending Push Notifications through Google Cloud Messaging.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Gcm.Types",
           "name": "Types",
           "package": "push-notify",
@@ -980,6 +1063,7 @@
         "index": {
           "description": "This Module define the main data types for sending Push Notifications through Google Cloud Messaging",
           "hierarchy": "Network PushNotify Gcm Types",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Gcm.Types",
           "name": "Types",
           "package": "push-notify",
@@ -994,6 +1078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eGCMHttpConfig\u003c/a\u003e\u003c/code\u003e represents the main necessary information for sending notifications through GCM.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Gcm.Types",
           "name": "GCMHttpConfig",
           "package": "push-notify",
@@ -1003,6 +1088,7 @@
         "index": {
           "description": "GCMHttpConfig represents the main necessary information for sending notifications through GCM",
           "hierarchy": "Network PushNotify Gcm Types",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Gcm.Types",
           "name": "GCMHttpConfig",
           "package": "push-notify",
@@ -1017,6 +1103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eGCMmessage\u003c/a\u003e\u003c/code\u003e represents a message to be sent through GCM. In general cases, you can use the \u003ccode\u003e\u003ca\u003eDefault\u003c/a\u003e\u003c/code\u003e value and only specify \u003ccode\u003e\u003ca\u003eregistration_ids\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edata_object\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eOn the other hand, if you want to use the rest of specific aspects, you can find more information on GCM website.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Gcm.Types",
           "name": "GCMmessage",
           "package": "push-notify",
@@ -1026,6 +1113,7 @@
         "index": {
           "description": "GCMmessage represents message to be sent through GCM In general cases you can use the Default value and only specify registration ids and data object On the other hand if you want to use the rest of specific aspects you can find more information on GCM website",
           "hierarchy": "Network PushNotify Gcm Types",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Gcm.Types",
           "name": "GCMmessage",
           "package": "push-notify",
@@ -1040,6 +1128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eGCMresult\u003c/a\u003e\u003c/code\u003e represents information about messages after a communication with GCM Servers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Gcm.Types",
           "name": "GCMresult",
           "package": "push-notify",
@@ -1049,6 +1138,7 @@
         "index": {
           "description": "GCMresult represents information about messages after communication with GCM Servers",
           "hierarchy": "Network PushNotify Gcm Types",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Gcm.Types",
           "name": "GCMresult",
           "package": "push-notify",
@@ -1063,6 +1153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRegId\u003c/a\u003e\u003c/code\u003e is an unique identifier of an app/device, provided by GCM.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Gcm.Types",
           "name": "RegId",
           "package": "push-notify",
@@ -1072,6 +1163,7 @@
         "index": {
           "description": "RegId is an unique identifier of an app device provided by GCM",
           "hierarchy": "Network PushNotify Gcm Types",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Gcm.Types",
           "name": "RegId",
           "package": "push-notify",
@@ -1584,6 +1676,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library defines an API for communicating with Android powered devices, sending Push Notifications through Google Cloud Messaging (HTTP connection).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Gcm",
           "name": "Gcm",
           "package": "push-notify",
@@ -1593,6 +1686,7 @@
         "index": {
           "description": "This library defines an API for communicating with Android powered devices sending Push Notifications through Google Cloud Messaging HTTP connection",
           "hierarchy": "Network PushNotify Gcm",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Gcm",
           "name": "Gcm",
           "package": "push-notify",
@@ -1607,6 +1701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eGCMHttpConfig\u003c/a\u003e\u003c/code\u003e represents the main necessary information for sending notifications through GCM.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Gcm",
           "name": "GCMHttpConfig",
           "package": "push-notify",
@@ -1616,6 +1711,7 @@
         "index": {
           "description": "GCMHttpConfig represents the main necessary information for sending notifications through GCM",
           "hierarchy": "Network PushNotify Gcm",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Gcm",
           "name": "GCMHttpConfig",
           "package": "push-notify",
@@ -1630,6 +1726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eGCMmessage\u003c/a\u003e\u003c/code\u003e represents a message to be sent through GCM. In general cases, you can use the \u003ccode\u003e\u003ca\u003eDefault\u003c/a\u003e\u003c/code\u003e value and only specify \u003ccode\u003e\u003ca\u003eregistration_ids\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edata_object\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eOn the other hand, if you want to use the rest of specific aspects, you can find more information on GCM website.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Gcm",
           "name": "GCMmessage",
           "package": "push-notify",
@@ -1639,6 +1736,7 @@
         "index": {
           "description": "GCMmessage represents message to be sent through GCM In general cases you can use the Default value and only specify registration ids and data object On the other hand if you want to use the rest of specific aspects you can find more information on GCM website",
           "hierarchy": "Network PushNotify Gcm",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Gcm",
           "name": "GCMmessage",
           "package": "push-notify",
@@ -1653,6 +1751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eGCMresult\u003c/a\u003e\u003c/code\u003e represents information about messages after a communication with GCM Servers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Gcm",
           "name": "GCMresult",
           "package": "push-notify",
@@ -1662,6 +1761,7 @@
         "index": {
           "description": "GCMresult represents information about messages after communication with GCM Servers",
           "hierarchy": "Network PushNotify Gcm",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Gcm",
           "name": "GCMresult",
           "package": "push-notify",
@@ -1676,6 +1776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRegId\u003c/a\u003e\u003c/code\u003e is an unique identifier of an app/device, provided by GCM.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Gcm",
           "name": "RegId",
           "package": "push-notify",
@@ -1685,6 +1786,7 @@
         "index": {
           "description": "RegId is an unique identifier of an app device provided by GCM",
           "hierarchy": "Network PushNotify Gcm",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Gcm",
           "name": "RegId",
           "package": "push-notify",
@@ -1699,6 +1801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esendGCM\u003c/a\u003e\u003c/code\u003e sends the message to a GCM Server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Gcm",
           "name": "sendGCM",
           "package": "push-notify",
@@ -1709,6 +1812,7 @@
         "index": {
           "description": "sendGCM sends the message to GCM Server",
           "hierarchy": "Network PushNotify Gcm",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Gcm",
           "name": "sendGCM",
           "normalized": "Manager-\u003eGCMHttpConfig-\u003eGCMmessage-\u003eIO GCMresult",
@@ -1725,6 +1829,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library defines an API for communicating with WPhone powered devices, sending Push Notifications through Microsoft Push Notification Service.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "Mpns",
           "package": "push-notify",
@@ -1734,6 +1839,7 @@
         "index": {
           "description": "This library defines an API for communicating with WPhone powered devices sending Push Notifications through Microsoft Push Notification Service",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "Mpns",
           "package": "push-notify",
@@ -1748,6 +1854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDeviceURI\u003c/a\u003e\u003c/code\u003e is an unique identifier of an app/device, provided by MPNS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "DeviceURI",
           "package": "push-notify",
@@ -1757,6 +1864,7 @@
         "index": {
           "description": "DeviceURI is an unique identifier of an app device provided by MPNS",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "DeviceURI",
           "package": "push-notify",
@@ -1771,6 +1879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMPNSConfig\u003c/a\u003e\u003c/code\u003e represents the main necessary information for sending notifications through MPNS.\n If it is not necessary a secure connection, the default value can be used.\n\u003c/p\u003e\u003cp\u003eFor loading the certificate and privateKey you can use: \u003ccode\u003e\u003ca\u003efileReadCertificate\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efileReadPrivateKey\u003c/a\u003e\u003c/code\u003e .\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSConfig",
           "package": "push-notify",
@@ -1780,6 +1889,7 @@
         "index": {
           "description": "MPNSConfig represents the main necessary information for sending notifications through MPNS If it is not necessary secure connection the default value can be used For loading the certificate and privateKey you can use fileReadCertificate and fileReadPrivateKey",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSConfig",
           "package": "push-notify",
@@ -1794,6 +1904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMPNSType\u003c/a\u003e\u003c/code\u003e represents the batching interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSInterval",
           "package": "push-notify",
@@ -1803,6 +1914,7 @@
         "index": {
           "description": "MPNSType represents the batching interval",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSInterval",
           "package": "push-notify",
@@ -1817,6 +1929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMPNSType\u003c/a\u003e\u003c/code\u003e represents the three different kind of notifications.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSType",
           "package": "push-notify",
@@ -1826,6 +1939,7 @@
         "index": {
           "description": "MPNSType represents the three different kind of notifications",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSType",
           "package": "push-notify",
@@ -1840,6 +1954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMPNSconStatus\u003c/a\u003e\u003c/code\u003e represents the status of a connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSconStatus",
           "package": "push-notify",
@@ -1849,6 +1964,7 @@
         "index": {
           "description": "MPNSconStatus represents the status of connection",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSconStatus",
           "package": "push-notify",
@@ -1863,6 +1979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMPNSinfo\u003c/a\u003e\u003c/code\u003e represents information about a specific notification and device, after a communication with MPNS Servers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSinfo",
           "package": "push-notify",
@@ -1872,6 +1989,7 @@
         "index": {
           "description": "MPNSinfo represents information about specific notification and device after communication with MPNS Servers",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSinfo",
           "package": "push-notify",
@@ -1886,6 +2004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMPNSmessage\u003c/a\u003e\u003c/code\u003e represents a message to be sent through MPNS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSmessage",
           "package": "push-notify",
@@ -1895,6 +2014,7 @@
         "index": {
           "description": "MPNSmessage represents message to be sent through MPNS",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSmessage",
           "package": "push-notify",
@@ -1909,6 +2029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMPNSnotifStatus\u003c/a\u003e\u003c/code\u003e represents the status of a notification which has been sent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSnotifStatus",
           "package": "push-notify",
@@ -1918,6 +2039,7 @@
         "index": {
           "description": "MPNSnotifStatus represents the status of notification which has been sent",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSnotifStatus",
           "package": "push-notify",
@@ -1932,6 +2054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMPNSresult\u003c/a\u003e\u003c/code\u003e represents information about messages after a communication with MPNS Servers.\n\u003c/p\u003e\u003cp\u003eTake into account that a successful result after communicating with MPNS servers does not mean that the notification was successfully sent. It is necessary to check the \u003ccode\u003e\u003ca\u003eMPNSinfo\u003c/a\u003e\u003c/code\u003e , provided by the servers, to really know about the state of the notification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSresult",
           "package": "push-notify",
@@ -1941,6 +2064,7 @@
         "index": {
           "description": "MPNSresult represents information about messages after communication with MPNS Servers Take into account that successful result after communicating with MPNS servers does not mean that the notification was successfully sent It is necessary to check the MPNSinfo provided by the servers to really know about the state of the notification",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSresult",
           "package": "push-notify",
@@ -1955,6 +2079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMPNSsubStatus\u003c/a\u003e\u003c/code\u003e represents the status of a subscription.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSsubStatus",
           "package": "push-notify",
@@ -1964,6 +2089,7 @@
         "index": {
           "description": "MPNSsubStatus represents the status of subscription",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSsubStatus",
           "package": "push-notify",
@@ -1977,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "Active",
           "package": "push-notify",
@@ -1986,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "Active",
           "package": "push-notify",
@@ -1999,6 +2127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "Connected",
           "package": "push-notify",
@@ -2008,6 +2137,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "Connected",
           "package": "push-notify",
@@ -2021,6 +2151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "Disconnected",
           "package": "push-notify",
@@ -2030,6 +2161,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "Disconnected",
           "package": "push-notify",
@@ -2043,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "Dropped",
           "package": "push-notify",
@@ -2052,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "Dropped",
           "package": "push-notify",
@@ -2065,6 +2199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "Expired",
           "package": "push-notify",
@@ -2074,6 +2209,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "Expired",
           "package": "push-notify",
@@ -2088,6 +2224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImmediate delivery.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "Immediate",
           "package": "push-notify",
@@ -2098,6 +2235,7 @@
         "index": {
           "description": "Immediate delivery",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "Immediate",
           "package": "push-notify",
@@ -2111,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "InActive",
           "package": "push-notify",
@@ -2120,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "InActive",
           "package": "push-notify",
@@ -2133,6 +2273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSConfig",
           "package": "push-notify",
@@ -2142,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSConfig",
           "package": "push-notify",
@@ -2155,6 +2297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSinfo",
           "package": "push-notify",
@@ -2164,6 +2307,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSinfo",
           "package": "push-notify",
@@ -2177,6 +2321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSmessage",
           "package": "push-notify",
@@ -2186,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSmessage",
           "package": "push-notify",
@@ -2199,6 +2345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSresult",
           "package": "push-notify",
@@ -2208,6 +2355,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "MPNSresult",
           "package": "push-notify",
@@ -2221,6 +2369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "QueueFull",
           "package": "push-notify",
@@ -2230,6 +2379,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "QueueFull",
           "package": "push-notify",
@@ -2243,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "Raw",
           "package": "push-notify",
@@ -2252,6 +2403,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "Raw",
           "package": "push-notify",
@@ -2265,6 +2417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "Received",
           "package": "push-notify",
@@ -2274,6 +2427,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "Received",
           "package": "push-notify",
@@ -2288,6 +2442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelivered within 450 seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "Sec450",
           "package": "push-notify",
@@ -2298,6 +2453,7 @@
         "index": {
           "description": "Delivered within seconds",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "Sec450",
           "package": "push-notify",
@@ -2312,6 +2468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelivered within 900 seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "Sec900",
           "package": "push-notify",
@@ -2322,6 +2479,7 @@
         "index": {
           "description": "Delivered within seconds",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "Sec900",
           "package": "push-notify",
@@ -2335,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "Suppressed",
           "package": "push-notify",
@@ -2344,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "Suppressed",
           "package": "push-notify",
@@ -2357,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "TempDisconnected",
           "package": "push-notify",
@@ -2366,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "TempDisconnected",
           "package": "push-notify",
@@ -2379,6 +2541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "Tile",
           "package": "push-notify",
@@ -2388,6 +2551,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "Tile",
           "package": "push-notify",
@@ -2401,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "Toast",
           "package": "push-notify",
@@ -2410,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "Toast",
           "package": "push-notify",
@@ -2424,6 +2590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen to deliver the notification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "batching_interval",
           "package": "push-notify",
@@ -2434,6 +2601,7 @@
         "index": {
           "description": "When to deliver the notification",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "batching_interval",
           "package": "push-notify",
@@ -2446,6 +2614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "connectionStatus",
           "package": "push-notify",
@@ -2455,6 +2624,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "connectionStatus",
           "package": "push-notify",
@@ -2469,6 +2639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "deviceURIs",
           "package": "push-notify",
@@ -2479,6 +2650,7 @@
         "index": {
           "description": "Destination",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "deviceURIs",
           "package": "push-notify",
@@ -2493,6 +2665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFailed notifications that you need to resend,\n because there was a problem connecting with MPNS servers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "errorException",
           "package": "push-notify",
@@ -2503,6 +2676,7 @@
         "index": {
           "description": "Failed notifications that you need to resend because there was problem connecting with MPNS servers",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "errorException",
           "package": "push-notify",
@@ -2517,6 +2691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCertificate (only necessary for secure connections).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "mpnsCertificate",
           "package": "push-notify",
@@ -2527,6 +2702,7 @@
         "index": {
           "description": "Certificate only necessary for secure connections",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "mpnsCertificate",
           "package": "push-notify",
@@ -2541,6 +2717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrivate key (only necessary for secure connections).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "mpnsPrivatekey",
           "package": "push-notify",
@@ -2551,6 +2728,7 @@
         "index": {
           "description": "Private key only necessary for secure connections",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "mpnsPrivatekey",
           "package": "push-notify",
@@ -2564,6 +2742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "notificationStatus",
           "package": "push-notify",
@@ -2573,6 +2752,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "notificationStatus",
           "package": "push-notify",
@@ -2587,6 +2767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of attemps to send the message to the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "numRet",
           "package": "push-notify",
@@ -2597,6 +2778,7 @@
         "index": {
           "description": "Number of attemps to send the message to the server",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "numRet",
           "package": "push-notify",
@@ -2611,6 +2793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe XML data content to be sent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "restXML",
           "package": "push-notify",
@@ -2621,6 +2804,7 @@
         "index": {
           "description": "The XML data content to be sent",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "restXML",
           "package": "push-notify",
@@ -2635,6 +2819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esendMPNS\u003c/a\u003e\u003c/code\u003e sends the message to a MPNS Server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "sendMPNS",
           "package": "push-notify",
@@ -2645,6 +2830,7 @@
         "index": {
           "description": "sendMPNS sends the message to MPNS Server",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "sendMPNS",
           "normalized": "Manager-\u003eMPNSConfig-\u003eMPNSmessage-\u003eIO MPNSresult",
@@ -2660,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "subscriptionStatus",
           "package": "push-notify",
@@ -2669,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "subscriptionStatus",
           "package": "push-notify",
@@ -2683,6 +2871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNotifications that were successfully sent. (To the server, not to device)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "successfullResults",
           "package": "push-notify",
@@ -2693,6 +2882,7 @@
         "index": {
           "description": "Notifications that were successfully sent To the server not to device",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "successfullResults",
           "package": "push-notify",
@@ -2707,6 +2897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe kind of notification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "target",
           "package": "push-notify",
@@ -2717,6 +2908,7 @@
         "index": {
           "description": "The kind of notification",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "target",
           "package": "push-notify",
@@ -2730,6 +2922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo set a secure connection (HTTPS).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:27 UTC 2014",
           "module": "Network.PushNotify.Mpns",
           "name": "useSecure",
           "package": "push-notify",
@@ -2740,6 +2933,7 @@
         "index": {
           "description": "To set secure connection HTTPS",
           "hierarchy": "Network PushNotify Mpns",
+          "indexed": "2014-03-11T19:46:27",
           "module": "Network.PushNotify.Mpns",
           "name": "useSecure",
           "package": "push-notify",

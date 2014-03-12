@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Dao"
+        "phrase": "Dao",
+        "type": "phrase"
       },
       "type": "context"
     }

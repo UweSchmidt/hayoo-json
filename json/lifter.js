@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lifter"
+        "phrase": "lifter",
+        "type": "phrase"
       },
       "type": "context"
     }

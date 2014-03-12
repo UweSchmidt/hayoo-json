@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "stringtable-atom"
+        "phrase": "stringtable-atom",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.Atom",
           "name": "Atom",
           "package": "stringtable-atom",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "StringTable Atom",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.Atom",
           "name": "Atom",
           "package": "stringtable-atom",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.Atom",
           "name": "Atom",
           "package": "stringtable-atom",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "StringTable Atom",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.Atom",
           "name": "Atom",
           "package": "stringtable-atom",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.Atom",
           "name": "FromAtom",
           "package": "stringtable-atom",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "StringTable Atom",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.Atom",
           "name": "FromAtom",
           "package": "stringtable-atom",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.Atom",
           "name": "HasHash",
           "package": "stringtable-atom",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "StringTable Atom",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.Atom",
           "name": "HasHash",
           "package": "stringtable-atom",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.Atom",
           "name": "ToAtom",
           "package": "stringtable-atom",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "StringTable Atom",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.Atom",
           "name": "ToAtom",
           "package": "stringtable-atom",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.Atom",
           "name": "atomCompare",
           "package": "stringtable-atom",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "StringTable Atom",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.Atom",
           "name": "atomCompare",
           "normalized": "Atom-\u003eAtom-\u003eOrdering",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.Atom",
           "name": "dumpStringTableStats",
           "package": "stringtable-atom",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "StringTable Atom",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.Atom",
           "name": "dumpStringTableStats",
           "normalized": "IO()",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.Atom",
           "name": "dumpTable",
           "package": "stringtable-atom",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "StringTable Atom",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.Atom",
           "name": "dumpTable",
           "normalized": "IO()",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.Atom",
           "name": "dumpToFile",
           "package": "stringtable-atom",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "StringTable Atom",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.Atom",
           "name": "dumpToFile",
           "normalized": "IO()",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.Atom",
           "name": "fromAtom",
           "package": "stringtable-atom",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "StringTable Atom",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.Atom",
           "name": "fromAtom",
           "normalized": "Atom-\u003ea",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.Atom",
           "name": "fromAtomIO",
           "package": "stringtable-atom",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "StringTable Atom",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.Atom",
           "name": "fromAtomIO",
           "normalized": "Atom-\u003eIO a",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.Atom",
           "name": "hash32",
           "package": "stringtable-atom",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "StringTable Atom",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.Atom",
           "name": "hash32",
           "normalized": "a-\u003eWord",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.Atom",
           "name": "intToAtom",
           "package": "stringtable-atom",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "StringTable Atom",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.Atom",
           "name": "intToAtom",
           "normalized": "Int-\u003ea Atom",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.Atom",
           "name": "isValidAtom",
           "package": "stringtable-atom",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "StringTable Atom",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.Atom",
           "name": "isValidAtom",
           "normalized": "Int-\u003eBool",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.Atom",
           "name": "toAtom",
           "package": "stringtable-atom",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "StringTable Atom",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.Atom",
           "name": "toAtom",
           "normalized": "a-\u003eAtom",
@@ -362,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.Atom",
           "name": "toAtomIO",
           "package": "stringtable-atom",
@@ -371,6 +402,7 @@
         },
         "index": {
           "hierarchy": "StringTable Atom",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.Atom",
           "name": "toAtomIO",
           "normalized": "a-\u003eIO Atom",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.Atom",
           "name": "unsafeByteIndex",
           "package": "stringtable-atom",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "StringTable Atom",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.Atom",
           "name": "unsafeByteIndex",
           "normalized": "Atom-\u003eInt-\u003eWord",
@@ -410,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.Atom",
           "name": "unsafeIntToAtom",
           "package": "stringtable-atom",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "StringTable Atom",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.Atom",
           "name": "unsafeIntToAtom",
           "normalized": "Int-\u003eAtom",
@@ -434,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "AtomMap",
           "package": "stringtable-atom",
@@ -442,6 +479,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "AtomMap",
           "package": "stringtable-atom",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "AtomMap",
           "package": "stringtable-atom",
@@ -463,6 +502,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "AtomMap",
           "package": "stringtable-atom",
@@ -476,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "Key",
           "package": "stringtable-atom",
@@ -484,6 +525,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "Key",
           "package": "stringtable-atom",
@@ -497,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "(!)",
           "package": "stringtable-atom",
@@ -506,6 +549,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "(!) !",
           "normalized": "AtomMap a-\u003eKey-\u003ea",
@@ -520,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "(\\\\)",
           "package": "stringtable-atom",
@@ -529,6 +574,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "(\\\\) \\\\",
           "normalized": "AtomMap a-\u003eAtomMap b-\u003eAtomMap a",
@@ -543,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "MkAtomMap",
           "package": "stringtable-atom",
@@ -552,6 +599,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "MkAtomMap",
           "package": "stringtable-atom",
@@ -565,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "adjust",
           "package": "stringtable-atom",
@@ -574,6 +623,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "adjust",
           "normalized": "(a-\u003ea)-\u003eKey-\u003eAtomMap a-\u003eAtomMap a",
@@ -588,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "adjustWithKey",
           "package": "stringtable-atom",
@@ -597,6 +648,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "adjustWithKey",
           "normalized": "(Key-\u003ea-\u003ea)-\u003eKey-\u003eAtomMap a-\u003eAtomMap a",
@@ -612,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "alter",
           "package": "stringtable-atom",
@@ -621,6 +674,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "alter",
           "normalized": "(Maybe a-\u003eMaybe a)-\u003eKey-\u003eAtomMap a-\u003eAtomMap a",
@@ -635,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "assocs",
           "package": "stringtable-atom",
@@ -644,6 +699,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "assocs",
           "normalized": "AtomMap a-\u003e[(Key,a)]",
@@ -658,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "delete",
           "package": "stringtable-atom",
@@ -667,6 +724,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "delete",
           "normalized": "Key-\u003eAtomMap a-\u003eAtomMap a",
@@ -681,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "deleteFindMax",
           "package": "stringtable-atom",
@@ -690,6 +749,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "deleteFindMax",
           "normalized": "AtomMap a-\u003e((Key,a),AtomMap a)",
@@ -705,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "deleteFindMin",
           "package": "stringtable-atom",
@@ -714,6 +775,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "deleteFindMin",
           "normalized": "AtomMap a-\u003e((Key,a),AtomMap a)",
@@ -729,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "deleteMax",
           "package": "stringtable-atom",
@@ -738,6 +801,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "deleteMax",
           "normalized": "AtomMap a-\u003eAtomMap a",
@@ -753,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "deleteMin",
           "package": "stringtable-atom",
@@ -762,6 +827,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "deleteMin",
           "normalized": "AtomMap a-\u003eAtomMap a",
@@ -777,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "difference",
           "package": "stringtable-atom",
@@ -786,6 +853,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "difference",
           "normalized": "AtomMap a-\u003eAtomMap b-\u003eAtomMap a",
@@ -800,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "differenceWith",
           "package": "stringtable-atom",
@@ -809,6 +878,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "differenceWith",
           "normalized": "(a-\u003eb-\u003eMaybe a)-\u003eAtomMap a-\u003eAtomMap b-\u003eAtomMap a",
@@ -824,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "differenceWithKey",
           "package": "stringtable-atom",
@@ -833,6 +904,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "differenceWithKey",
           "normalized": "(Key-\u003ea-\u003eb-\u003eMaybe a)-\u003eAtomMap a-\u003eAtomMap b-\u003eAtomMap a",
@@ -848,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "elems",
           "package": "stringtable-atom",
@@ -857,6 +930,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "elems",
           "normalized": "AtomMap a-\u003e[a]",
@@ -871,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "empty",
           "package": "stringtable-atom",
@@ -880,6 +955,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "empty",
           "package": "stringtable-atom",
@@ -892,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "filter",
           "package": "stringtable-atom",
@@ -901,6 +978,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eAtomMap a-\u003eAtomMap a",
@@ -915,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "filterWithKey",
           "package": "stringtable-atom",
@@ -924,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "filterWithKey",
           "normalized": "(Key-\u003ea-\u003eBool)-\u003eAtomMap a-\u003eAtomMap a",
@@ -939,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "findWithDefault",
           "package": "stringtable-atom",
@@ -948,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "findWithDefault",
           "normalized": "a-\u003eKey-\u003eAtomMap a-\u003ea",
@@ -963,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "fold",
           "package": "stringtable-atom",
@@ -972,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "fold",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eAtomMap a-\u003eb",
@@ -986,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "foldWithKey",
           "package": "stringtable-atom",
@@ -995,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "foldWithKey",
           "normalized": "(Key-\u003ea-\u003eb-\u003eb)-\u003eb-\u003eAtomMap a-\u003eb",
@@ -1010,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "fromAscList",
           "package": "stringtable-atom",
@@ -1019,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "fromAscList",
           "normalized": "[(Key,a)]-\u003eAtomMap a",
@@ -1034,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "fromAscListWith",
           "package": "stringtable-atom",
@@ -1043,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "fromAscListWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(Key,a)]-\u003eAtomMap a",
@@ -1058,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "fromAscListWithKey",
           "package": "stringtable-atom",
@@ -1067,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "fromAscListWithKey",
           "normalized": "(Key-\u003ea-\u003ea-\u003ea)-\u003e[(Key,a)]-\u003eAtomMap a",
@@ -1082,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "fromAtomMap",
           "package": "stringtable-atom",
@@ -1091,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "fromAtomMap",
           "package": "stringtable-atom",
@@ -1104,6 +1198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "fromDistinctAscList",
           "package": "stringtable-atom",
@@ -1113,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "fromDistinctAscList",
           "normalized": "[(Key,a)]-\u003eAtomMap a",
@@ -1128,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "fromList",
           "package": "stringtable-atom",
@@ -1137,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "fromList",
           "normalized": "[(Atom,a)]-\u003eAtomMap a",
@@ -1152,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "fromListWith",
           "package": "stringtable-atom",
@@ -1161,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "fromListWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[(Atom,a)]-\u003eAtomMap a",
@@ -1176,6 +1276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "fromListWithKey",
           "package": "stringtable-atom",
@@ -1185,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "fromListWithKey",
           "normalized": "(Key-\u003ea-\u003ea-\u003ea)-\u003e[(Key,a)]-\u003eAtomMap a",
@@ -1200,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "insert",
           "package": "stringtable-atom",
@@ -1209,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "insert",
           "normalized": "Atom-\u003ea-\u003eAtomMap a-\u003eAtomMap a",
@@ -1223,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "insertLookupWithKey",
           "package": "stringtable-atom",
@@ -1232,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "insertLookupWithKey",
           "normalized": "(Key-\u003ea-\u003ea-\u003ea)-\u003eKey-\u003ea-\u003eAtomMap a-\u003e(Maybe a,AtomMap a)",
@@ -1247,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "insertWith",
           "package": "stringtable-atom",
@@ -1256,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "insertWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eAtom-\u003ea-\u003eAtomMap a-\u003eAtomMap a",
@@ -1271,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "insertWithKey",
           "package": "stringtable-atom",
@@ -1280,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "insertWithKey",
           "normalized": "(Key-\u003ea-\u003ea-\u003ea)-\u003eKey-\u003ea-\u003eAtomMap a-\u003eAtomMap a",
@@ -1295,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "intersection",
           "package": "stringtable-atom",
@@ -1304,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "intersection",
           "normalized": "AtomMap a-\u003eAtomMap b-\u003eAtomMap a",
@@ -1318,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "intersectionWith",
           "package": "stringtable-atom",
@@ -1327,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "intersectionWith",
           "normalized": "(a-\u003eb-\u003ea)-\u003eAtomMap a-\u003eAtomMap b-\u003eAtomMap a",
@@ -1342,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "intersectionWithKey",
           "package": "stringtable-atom",
@@ -1351,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "intersectionWithKey",
           "normalized": "(Key-\u003ea-\u003eb-\u003ea)-\u003eAtomMap a-\u003eAtomMap b-\u003eAtomMap a",
@@ -1366,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "isProperSubmapOf",
           "package": "stringtable-atom",
@@ -1375,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "isProperSubmapOf",
           "normalized": "AtomMap a-\u003eAtomMap a-\u003eBool",
@@ -1390,6 +1508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "isProperSubmapOfBy",
           "package": "stringtable-atom",
@@ -1399,6 +1518,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "isProperSubmapOfBy",
           "normalized": "(a-\u003eb-\u003eBool)-\u003eAtomMap a-\u003eAtomMap b-\u003eBool",
@@ -1414,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "isSubmapOf",
           "package": "stringtable-atom",
@@ -1423,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "isSubmapOf",
           "normalized": "AtomMap a-\u003eAtomMap a-\u003eBool",
@@ -1438,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "isSubmapOfBy",
           "package": "stringtable-atom",
@@ -1447,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "isSubmapOfBy",
           "normalized": "(a-\u003eb-\u003eBool)-\u003eAtomMap a-\u003eAtomMap b-\u003eBool",
@@ -1462,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "keys",
           "package": "stringtable-atom",
@@ -1471,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "keys",
           "normalized": "AtomMap a-\u003e[Atom]",
@@ -1485,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "keysSet",
           "package": "stringtable-atom",
@@ -1494,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "keysSet",
           "normalized": "AtomMap a-\u003eAtomSet",
@@ -1509,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "lookup",
           "package": "stringtable-atom",
@@ -1518,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "lookup",
           "normalized": "Atom-\u003eAtomMap a-\u003eMaybe a",
@@ -1532,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "map",
           "package": "stringtable-atom",
@@ -1541,6 +1672,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eAtomMap a-\u003eAtomMap b",
@@ -1555,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "mapAccum",
           "package": "stringtable-atom",
@@ -1564,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "mapAccum",
           "normalized": "(a-\u003eb-\u003e(a,c))-\u003ea-\u003eAtomMap b-\u003e(a,AtomMap c)",
@@ -1579,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "mapAccumWithKey",
           "package": "stringtable-atom",
@@ -1588,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "mapAccumWithKey",
           "normalized": "(a-\u003eKey-\u003eb-\u003e(a,c))-\u003ea-\u003eAtomMap b-\u003e(a,AtomMap c)",
@@ -1603,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "mapEither",
           "package": "stringtable-atom",
@@ -1612,6 +1749,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "mapEither",
           "normalized": "(a-\u003eEither b c)-\u003eAtomMap a-\u003e(AtomMap b,AtomMap c)",
@@ -1627,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "mapEitherWithKey",
           "package": "stringtable-atom",
@@ -1636,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "mapEitherWithKey",
           "normalized": "(Key-\u003ea-\u003eEither b c)-\u003eAtomMap a-\u003e(AtomMap b,AtomMap c)",
@@ -1651,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "mapMaybe",
           "package": "stringtable-atom",
@@ -1660,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "mapMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003eAtomMap a-\u003eAtomMap b",
@@ -1675,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "mapMaybeWithKey",
           "package": "stringtable-atom",
@@ -1684,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "mapMaybeWithKey",
           "normalized": "(Atom-\u003ea-\u003eMaybe b)-\u003eAtomMap a-\u003eAtomMap b",
@@ -1699,6 +1843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "mapWithKey",
           "package": "stringtable-atom",
@@ -1708,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "mapWithKey",
           "normalized": "(Atom-\u003ea-\u003eb)-\u003eAtomMap a-\u003eAtomMap b",
@@ -1723,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "maxView",
           "package": "stringtable-atom",
@@ -1732,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "maxView",
           "normalized": "AtomMap a-\u003eb(a,AtomMap a)",
@@ -1747,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "maxViewWithKey",
           "package": "stringtable-atom",
@@ -1756,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "maxViewWithKey",
           "normalized": "AtomMap a-\u003eb((Key,a),AtomMap a)",
@@ -1771,6 +1921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "member",
           "package": "stringtable-atom",
@@ -1780,6 +1931,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "member",
           "normalized": "Atom-\u003eAtomMap a-\u003eBool",
@@ -1794,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "minView",
           "package": "stringtable-atom",
@@ -1803,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "minView",
           "normalized": "AtomMap a-\u003eb(a,AtomMap a)",
@@ -1818,6 +1972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "minViewWithKey",
           "package": "stringtable-atom",
@@ -1827,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "minViewWithKey",
           "normalized": "AtomMap a-\u003eb((Key,a),AtomMap a)",
@@ -1842,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "notMember",
           "package": "stringtable-atom",
@@ -1851,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "notMember",
           "normalized": "Key-\u003eAtomMap a-\u003eBool",
@@ -1867,6 +2025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether a list is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "null",
           "package": "stringtable-atom",
@@ -1876,6 +2035,7 @@
         "index": {
           "description": "Test whether list is empty",
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "null",
           "normalized": "[a]-\u003eBool",
@@ -1890,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "partition",
           "package": "stringtable-atom",
@@ -1899,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "partition",
           "normalized": "(a-\u003eBool)-\u003eAtomMap a-\u003e(AtomMap a,AtomMap a)",
@@ -1913,6 +2075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "partitionWithKey",
           "package": "stringtable-atom",
@@ -1922,6 +2085,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "partitionWithKey",
           "normalized": "(Key-\u003ea-\u003eBool)-\u003eAtomMap a-\u003e(AtomMap a,AtomMap a)",
@@ -1937,6 +2101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "showTree",
           "package": "stringtable-atom",
@@ -1946,6 +2111,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "showTree",
           "normalized": "AtomMap a-\u003eString",
@@ -1961,6 +2127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "showTreeWith",
           "package": "stringtable-atom",
@@ -1970,6 +2137,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "showTreeWith",
           "normalized": "Bool-\u003eBool-\u003eAtomMap a-\u003eString",
@@ -1985,6 +2153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "singleton",
           "package": "stringtable-atom",
@@ -1994,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "singleton",
           "normalized": "Key-\u003ea-\u003eAtomMap a",
@@ -2008,6 +2178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "size",
           "package": "stringtable-atom",
@@ -2017,6 +2188,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "size",
           "normalized": "AtomMap a-\u003eInt",
@@ -2031,6 +2203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "split",
           "package": "stringtable-atom",
@@ -2040,6 +2213,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "split",
           "normalized": "Key-\u003eAtomMap a-\u003e(AtomMap a,AtomMap a)",
@@ -2054,6 +2228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "splitLookup",
           "package": "stringtable-atom",
@@ -2063,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "splitLookup",
           "normalized": "Key-\u003eAtomMap a-\u003e(AtomMap a,Maybe a,AtomMap a)",
@@ -2078,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "toAscList",
           "package": "stringtable-atom",
@@ -2087,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "toAscList",
           "normalized": "AtomMap a-\u003e[(Key,a)]",
@@ -2102,6 +2280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "toList",
           "package": "stringtable-atom",
@@ -2111,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "toList",
           "normalized": "AtomMap a-\u003e[(Atom,a)]",
@@ -2126,6 +2306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "union",
           "package": "stringtable-atom",
@@ -2135,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "union",
           "normalized": "AtomMap a-\u003eAtomMap a-\u003eAtomMap a",
@@ -2149,6 +2331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "unionWith",
           "package": "stringtable-atom",
@@ -2158,6 +2341,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "unionWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003eAtomMap a-\u003eAtomMap a-\u003eAtomMap a",
@@ -2173,6 +2357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "unionWithKey",
           "package": "stringtable-atom",
@@ -2182,6 +2367,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "unionWithKey",
           "normalized": "(Key-\u003ea-\u003ea-\u003ea)-\u003eAtomMap a-\u003eAtomMap a-\u003eAtomMap a",
@@ -2197,6 +2383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "unions",
           "package": "stringtable-atom",
@@ -2206,6 +2393,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "unions",
           "normalized": "[AtomMap a]-\u003eAtomMap a",
@@ -2220,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "unionsWith",
           "package": "stringtable-atom",
@@ -2229,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "unionsWith",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[AtomMap a]-\u003eAtomMap a",
@@ -2244,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "update",
           "package": "stringtable-atom",
@@ -2253,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "update",
           "normalized": "(a-\u003eMaybe a)-\u003eKey-\u003eAtomMap a-\u003eAtomMap a",
@@ -2267,6 +2459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "updateLookupWithKey",
           "package": "stringtable-atom",
@@ -2276,6 +2469,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "updateLookupWithKey",
           "normalized": "(Key-\u003ea-\u003eMaybe a)-\u003eKey-\u003eAtomMap a-\u003e(Maybe a,AtomMap a)",
@@ -2291,6 +2485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "updateMax",
           "package": "stringtable-atom",
@@ -2300,6 +2495,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "updateMax",
           "normalized": "(a-\u003eMaybe a)-\u003eAtomMap a-\u003eAtomMap a",
@@ -2315,6 +2511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "updateMaxWithKey",
           "package": "stringtable-atom",
@@ -2324,6 +2521,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "updateMaxWithKey",
           "normalized": "(Key-\u003ea-\u003eMaybe a)-\u003eAtomMap a-\u003eAtomMap a",
@@ -2339,6 +2537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "updateMin",
           "package": "stringtable-atom",
@@ -2348,6 +2547,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "updateMin",
           "normalized": "(a-\u003eMaybe a)-\u003eAtomMap a-\u003eAtomMap a",
@@ -2363,6 +2563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "updateMinWithKey",
           "package": "stringtable-atom",
@@ -2372,6 +2573,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "updateMinWithKey",
           "normalized": "(Key-\u003ea-\u003eMaybe a)-\u003eAtomMap a-\u003eAtomMap a",
@@ -2387,6 +2589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomMap",
           "name": "updateWithKey",
           "package": "stringtable-atom",
@@ -2396,6 +2599,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomMap",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomMap",
           "name": "updateWithKey",
           "normalized": "(Key-\u003ea-\u003eMaybe a)-\u003eKey-\u003eAtomMap a-\u003eAtomMap a",
@@ -2411,6 +2615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "AtomSet",
           "package": "stringtable-atom",
@@ -2419,6 +2624,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "AtomSet",
           "package": "stringtable-atom",
@@ -2432,6 +2638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "AtomSet",
           "package": "stringtable-atom",
@@ -2440,6 +2647,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "AtomSet",
           "package": "stringtable-atom",
@@ -2453,6 +2661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "(\\\\)",
           "package": "stringtable-atom",
@@ -2462,6 +2671,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "(\\\\) \\\\",
           "normalized": "AtomSet-\u003eAtomSet-\u003eAtomSet",
@@ -2476,6 +2686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "MkAtomSet",
           "package": "stringtable-atom",
@@ -2485,6 +2696,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "MkAtomSet",
           "package": "stringtable-atom",
@@ -2498,6 +2710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "delete",
           "package": "stringtable-atom",
@@ -2507,6 +2720,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "delete",
           "normalized": "Atom-\u003eAtomSet-\u003eAtomSet",
@@ -2521,6 +2735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "deleteFindMax",
           "package": "stringtable-atom",
@@ -2530,6 +2745,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "deleteFindMax",
           "normalized": "AtomSet-\u003e(Atom,AtomSet)",
@@ -2545,6 +2761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "deleteFindMin",
           "package": "stringtable-atom",
@@ -2554,6 +2771,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "deleteFindMin",
           "normalized": "AtomSet-\u003e(Atom,AtomSet)",
@@ -2569,6 +2787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "deleteMax",
           "package": "stringtable-atom",
@@ -2578,6 +2797,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "deleteMax",
           "normalized": "AtomSet-\u003eAtomSet",
@@ -2593,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "deleteMin",
           "package": "stringtable-atom",
@@ -2602,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "deleteMin",
           "normalized": "AtomSet-\u003eAtomSet",
@@ -2617,6 +2839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "difference",
           "package": "stringtable-atom",
@@ -2626,6 +2849,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "difference",
           "normalized": "AtomSet-\u003eAtomSet-\u003eAtomSet",
@@ -2640,6 +2864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "elems",
           "package": "stringtable-atom",
@@ -2649,6 +2874,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "elems",
           "normalized": "AtomSet-\u003e[Atom]",
@@ -2663,6 +2889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "empty",
           "package": "stringtable-atom",
@@ -2672,6 +2899,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "empty",
           "package": "stringtable-atom",
@@ -2684,6 +2912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "filter",
           "package": "stringtable-atom",
@@ -2693,6 +2922,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "filter",
           "normalized": "(Atom-\u003eBool)-\u003eAtomSet-\u003eAtomSet",
@@ -2707,6 +2937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "findMax",
           "package": "stringtable-atom",
@@ -2716,6 +2947,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "findMax",
           "normalized": "AtomSet-\u003eAtom",
@@ -2731,6 +2963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "findMin",
           "package": "stringtable-atom",
@@ -2740,6 +2973,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "findMin",
           "normalized": "AtomSet-\u003eAtom",
@@ -2755,6 +2989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "fold",
           "package": "stringtable-atom",
@@ -2764,6 +2999,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "fold",
           "normalized": "(Atom-\u003ea-\u003ea)-\u003ea-\u003eAtomSet-\u003ea",
@@ -2778,6 +3014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "fromAscList",
           "package": "stringtable-atom",
@@ -2787,6 +3024,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "fromAscList",
           "normalized": "[Atom]-\u003eAtomSet",
@@ -2802,6 +3040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "fromAtomSet",
           "package": "stringtable-atom",
@@ -2811,6 +3050,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "fromAtomSet",
           "package": "stringtable-atom",
@@ -2824,6 +3064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "fromDistinctAscList",
           "package": "stringtable-atom",
@@ -2833,6 +3074,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "fromDistinctAscList",
           "normalized": "[Atom]-\u003eAtomSet",
@@ -2848,6 +3090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "fromList",
           "package": "stringtable-atom",
@@ -2857,6 +3100,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "fromList",
           "normalized": "[Atom]-\u003eAtomSet",
@@ -2872,6 +3116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "insert",
           "package": "stringtable-atom",
@@ -2881,6 +3126,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "insert",
           "normalized": "Atom-\u003eAtomSet-\u003eAtomSet",
@@ -2895,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "intersection",
           "package": "stringtable-atom",
@@ -2904,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "intersection",
           "normalized": "AtomSet-\u003eAtomSet-\u003eAtomSet",
@@ -2918,6 +3166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "isProperSubsetOf",
           "package": "stringtable-atom",
@@ -2927,6 +3176,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "isProperSubsetOf",
           "normalized": "AtomSet-\u003eAtomSet-\u003eBool",
@@ -2942,6 +3192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "isSubsetOf",
           "package": "stringtable-atom",
@@ -2951,6 +3202,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "isSubsetOf",
           "normalized": "AtomSet-\u003eAtomSet-\u003eBool",
@@ -2966,6 +3218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "map",
           "package": "stringtable-atom",
@@ -2975,6 +3228,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "map",
           "normalized": "(Atom-\u003eAtom)-\u003eAtomSet-\u003eAtomSet",
@@ -2989,6 +3243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "maxView",
           "package": "stringtable-atom",
@@ -2998,6 +3253,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "maxView",
           "normalized": "AtomSet-\u003ea(Atom,AtomSet)",
@@ -3013,6 +3269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "member",
           "package": "stringtable-atom",
@@ -3022,6 +3279,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "member",
           "normalized": "Atom-\u003eAtomSet-\u003eBool",
@@ -3036,6 +3294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "minView",
           "package": "stringtable-atom",
@@ -3045,6 +3304,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "minView",
           "normalized": "AtomSet-\u003ea(Atom,AtomSet)",
@@ -3060,6 +3320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "notMember",
           "package": "stringtable-atom",
@@ -3069,6 +3330,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "notMember",
           "normalized": "Atom-\u003eAtomSet-\u003eBool",
@@ -3084,6 +3346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "null",
           "package": "stringtable-atom",
@@ -3093,6 +3356,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "null",
           "normalized": "AtomSet-\u003eBool",
@@ -3107,6 +3371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "partition",
           "package": "stringtable-atom",
@@ -3116,6 +3381,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "partition",
           "normalized": "(Atom-\u003eBool)-\u003eAtomSet-\u003e(AtomSet,AtomSet)",
@@ -3130,6 +3396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "showTree",
           "package": "stringtable-atom",
@@ -3139,6 +3406,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "showTree",
           "normalized": "AtomSet-\u003eString",
@@ -3154,6 +3422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "showTreeWith",
           "package": "stringtable-atom",
@@ -3163,6 +3432,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "showTreeWith",
           "normalized": "Bool-\u003eBool-\u003eAtomSet-\u003eString",
@@ -3178,6 +3448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "singleton",
           "package": "stringtable-atom",
@@ -3187,6 +3458,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "singleton",
           "normalized": "Atom-\u003eAtomSet",
@@ -3201,6 +3473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "size",
           "package": "stringtable-atom",
@@ -3210,6 +3483,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "size",
           "normalized": "AtomSet-\u003eAtom",
@@ -3224,6 +3498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "split",
           "package": "stringtable-atom",
@@ -3233,6 +3508,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "split",
           "normalized": "Atom-\u003eAtomSet-\u003e(AtomSet,AtomSet)",
@@ -3247,6 +3523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "splitMember",
           "package": "stringtable-atom",
@@ -3256,6 +3533,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "splitMember",
           "normalized": "Atom-\u003eAtomSet-\u003e(AtomSet,Bool,AtomSet)",
@@ -3271,6 +3549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "toAscList",
           "package": "stringtable-atom",
@@ -3280,6 +3559,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "toAscList",
           "normalized": "AtomSet-\u003e[Atom]",
@@ -3295,6 +3575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "toList",
           "package": "stringtable-atom",
@@ -3304,6 +3585,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "toList",
           "normalized": "AtomSet-\u003e[Atom]",
@@ -3319,6 +3601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "union",
           "package": "stringtable-atom",
@@ -3328,6 +3611,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "union",
           "normalized": "AtomSet-\u003eAtomSet-\u003eAtomSet",
@@ -3342,6 +3626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:02 UTC 2014",
           "module": "StringTable.AtomSet",
           "name": "unions",
           "package": "stringtable-atom",
@@ -3351,6 +3636,7 @@
         },
         "index": {
           "hierarchy": "StringTable AtomSet",
+          "indexed": "2014-03-11T20:13:02",
           "module": "StringTable.AtomSet",
           "name": "unions",
           "normalized": "[AtomSet]-\u003eAtomSet",

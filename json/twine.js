@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "twine"
+        "phrase": "twine",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:34 UTC 2014",
           "module": "Text.Twine",
           "name": "Twine",
           "package": "twine",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Twine",
+          "indexed": "2014-03-11T20:26:34",
           "module": "Text.Twine",
           "name": "Twine",
           "package": "twine",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:34 UTC 2014",
           "module": "Text.Twine",
           "name": "TemplateInterface",
           "package": "twine",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text Twine",
+          "indexed": "2014-03-11T20:26:34",
           "module": "Text.Twine",
           "name": "TemplateInterface",
           "package": "twine",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:34 UTC 2014",
           "module": "Text.Twine",
           "name": "TwineElement",
           "package": "twine",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text Twine",
+          "indexed": "2014-03-11T20:26:34",
           "module": "Text.Twine",
           "name": "TwineElement",
           "package": "twine",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:34 UTC 2014",
           "module": "Text.Twine",
           "name": "(=:)",
           "package": "twine",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Text Twine",
+          "indexed": "2014-03-11T20:26:34",
           "module": "Text.Twine",
           "name": "(=:) =:",
           "normalized": "String-\u003ea-\u003eb()",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:34 UTC 2014",
           "module": "Text.Twine",
           "name": "bind",
           "package": "twine",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Text Twine",
+          "indexed": "2014-03-11T20:26:34",
           "module": "Text.Twine",
           "name": "bind",
           "normalized": "a-\u003eTwineElement b",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:34 UTC 2014",
           "module": "Text.Twine",
           "name": "emptyContext",
           "package": "twine",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Text Twine",
+          "indexed": "2014-03-11T20:26:34",
           "module": "Text.Twine",
           "name": "emptyContext",
           "package": "twine",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:34 UTC 2014",
           "module": "Text.Twine",
           "name": "evalTemplate",
           "package": "twine",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Text Twine",
+          "indexed": "2014-03-11T20:26:34",
           "module": "Text.Twine",
           "name": "evalTemplate",
           "normalized": "FilePath-\u003eTwineElement IO-\u003eIO ByteString",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:34 UTC 2014",
           "module": "Text.Twine",
           "name": "loadTemplateFromFile",
           "package": "twine",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Text Twine",
+          "indexed": "2014-03-11T20:26:34",
           "module": "Text.Twine",
           "name": "loadTemplateFromFile",
           "normalized": "FilePath-\u003eIO Template",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:34 UTC 2014",
           "module": "Text.Twine",
           "name": "loadTemplateFromString",
           "package": "twine",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Text Twine",
+          "indexed": "2014-03-11T20:26:34",
           "module": "Text.Twine",
           "name": "loadTemplateFromString",
           "normalized": "String-\u003eTemplate",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:34 UTC 2014",
           "module": "Text.Twine",
           "name": "makeContext",
           "package": "twine",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Text Twine",
+          "indexed": "2014-03-11T20:26:34",
           "module": "Text.Twine",
           "name": "makeContext",
           "normalized": "ContextWriter a-\u003ea(TwineElement a)",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:34 UTC 2014",
           "module": "Text.Twine",
           "name": "makeIterable",
           "package": "twine",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Text Twine",
+          "indexed": "2014-03-11T20:26:34",
           "module": "Text.Twine",
           "name": "makeIterable",
           "normalized": "a-\u003eb[TwineElement b]",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:34 UTC 2014",
           "module": "Text.Twine",
           "name": "makeString",
           "package": "twine",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Text Twine",
+          "indexed": "2014-03-11T20:26:34",
           "module": "Text.Twine",
           "name": "makeString",
           "normalized": "a-\u003eb String",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:34 UTC 2014",
           "module": "Text.Twine",
           "name": "method",
           "package": "twine",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Text Twine",
+          "indexed": "2014-03-11T20:26:34",
           "module": "Text.Twine",
           "name": "method",
           "normalized": "([TwineElement a]-\u003ea(TwineElement a))-\u003eTwineElement a",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:34 UTC 2014",
           "module": "Text.Twine",
           "name": "property",
           "package": "twine",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Text Twine",
+          "indexed": "2014-03-11T20:26:34",
           "module": "Text.Twine",
           "name": "property",
           "normalized": "ByteString-\u003ea-\u003eb(TwineElement b)",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:34 UTC 2014",
           "module": "Text.Twine",
           "name": "runEval",
           "package": "twine",
@@ -348,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Text Twine",
+          "indexed": "2014-03-11T20:26:34",
           "module": "Text.Twine",
           "name": "runEval",
           "normalized": "Template-\u003eTwineElement a-\u003ea ByteString",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:26:34 UTC 2014",
           "module": "Text.Twine",
           "name": "unbind",
           "package": "twine",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Text Twine",
+          "indexed": "2014-03-11T20:26:34",
           "module": "Text.Twine",
           "name": "unbind",
           "normalized": "TwineElement a-\u003eb",

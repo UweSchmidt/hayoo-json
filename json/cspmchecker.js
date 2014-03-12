@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cspmchecker"
+        "phrase": "cspmchecker",
+        "type": "phrase"
       },
       "type": "context"
     }

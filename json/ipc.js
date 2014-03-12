@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ipc"
+        "phrase": "ipc",
+        "type": "phrase"
       },
       "type": "context"
     }

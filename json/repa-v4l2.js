@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "repa-v4l2"
+        "phrase": "repa-v4l2",
+        "type": "phrase"
       },
       "type": "context"
     }

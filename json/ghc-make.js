@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghc-make"
+        "phrase": "ghc-make",
+        "type": "phrase"
       },
       "type": "context"
     }

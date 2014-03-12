@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "external-sort"
+        "phrase": "external-sort",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:53 UTC 2014",
           "module": "Algorithms.ExternalSort",
           "name": "ExternalSort",
           "package": "external-sort",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Algorithms ExternalSort",
+          "indexed": "2014-03-11T18:05:53",
           "module": "Algorithms.ExternalSort",
           "name": "ExternalSort",
           "package": "external-sort",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:53 UTC 2014",
           "module": "Algorithms.ExternalSort",
           "name": "blockify",
           "package": "external-sort",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Algorithms ExternalSort",
+          "indexed": "2014-03-11T18:05:53",
           "module": "Algorithms.ExternalSort",
           "name": "blockify",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:53 UTC 2014",
           "module": "Algorithms.ExternalSort",
           "name": "blocksize",
           "package": "external-sort",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Algorithms ExternalSort",
+          "indexed": "2014-03-11T18:05:53",
           "module": "Algorithms.ExternalSort",
           "name": "blocksize",
           "package": "external-sort",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:53 UTC 2014",
           "module": "Algorithms.ExternalSort",
           "name": "defaultChunkSize",
           "package": "external-sort",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Algorithms ExternalSort",
+          "indexed": "2014-03-11T18:05:53",
           "module": "Algorithms.ExternalSort",
           "name": "defaultChunkSize",
           "package": "external-sort",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:53 UTC 2014",
           "module": "Algorithms.ExternalSort",
           "name": "dumpBlock",
           "package": "external-sort",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Algorithms ExternalSort",
+          "indexed": "2014-03-11T18:05:53",
           "module": "Algorithms.ExternalSort",
           "name": "dumpBlock",
           "normalized": "Handle-\u003e[a]-\u003eIO Integer",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:53 UTC 2014",
           "module": "Algorithms.ExternalSort",
           "name": "externalSort",
           "package": "external-sort",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Algorithms ExternalSort",
+          "indexed": "2014-03-11T18:05:53",
           "module": "Algorithms.ExternalSort",
           "name": "externalSort",
           "normalized": "[a]-\u003eIO[a]",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:53 UTC 2014",
           "module": "Algorithms.ExternalSort",
           "name": "hGetContentsWithCursor",
           "package": "external-sort",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Algorithms ExternalSort",
+          "indexed": "2014-03-11T18:05:53",
           "module": "Algorithms.ExternalSort",
           "name": "hGetContentsWithCursor",
           "normalized": "Handle-\u003eInteger-\u003eIO ByteString",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:53 UTC 2014",
           "module": "Algorithms.ExternalSort",
           "name": "hGetContentsWithCursorN",
           "package": "external-sort",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Algorithms ExternalSort",
+          "indexed": "2014-03-11T18:05:53",
           "module": "Algorithms.ExternalSort",
           "name": "hGetContentsWithCursorN",
           "normalized": "Int-\u003eHandle-\u003eInteger-\u003eIO ByteString",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:53 UTC 2014",
           "module": "Algorithms.ExternalSort",
           "name": "kMerge",
           "package": "external-sort",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Algorithms ExternalSort",
+          "indexed": "2014-03-11T18:05:53",
           "module": "Algorithms.ExternalSort",
           "name": "kMerge",
           "normalized": "[[a]]-\u003e[a]",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:53 UTC 2014",
           "module": "Algorithms.ExternalSort",
           "name": "kMergeSort",
           "package": "external-sort",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Algorithms ExternalSort",
+          "indexed": "2014-03-11T18:05:53",
           "module": "Algorithms.ExternalSort",
           "name": "kMergeSort",
           "normalized": "[a]-\u003e[a]",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:53 UTC 2014",
           "module": "Algorithms.ExternalSort",
           "name": "slice",
           "package": "external-sort",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Algorithms ExternalSort",
+          "indexed": "2014-03-11T18:05:53",
           "module": "Algorithms.ExternalSort",
           "name": "slice",
           "normalized": "Int-\u003e[a]-\u003e[[a]]",

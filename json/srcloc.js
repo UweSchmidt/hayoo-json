@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "srcloc"
+        "phrase": "srcloc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "Loc",
           "package": "srcloc",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "Loc",
           "package": "srcloc",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "IsLocation",
           "package": "srcloc",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Locations",
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "IsLocation",
           "package": "srcloc",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn 'L a' is an \u003ccode\u003ea\u003c/code\u003e with an associated \u003ccode\u003e\u003ca\u003eLoc\u003c/a\u003e\u003c/code\u003e, but this location is ignored\n when performing comparisons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "L",
           "package": "srcloc",
@@ -72,6 +77,7 @@
         "index": {
           "description": "An is an with an associated Loc but this location is ignored when performing comparisons",
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "L",
           "package": "srcloc",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocation type, consisting of a beginning position and an end position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "Loc",
           "package": "srcloc",
@@ -94,6 +101,7 @@
         "index": {
           "description": "Location type consisting of beginning position and an end position",
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "Loc",
           "package": "srcloc",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocated values have a location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "Located",
           "package": "srcloc",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Located values have location",
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "Located",
           "package": "srcloc",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosition type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "Pos",
           "package": "srcloc",
@@ -140,6 +151,7 @@
         "index": {
           "description": "Position type",
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "Pos",
           "package": "srcloc",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues that can be relocated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "Relocatable",
           "package": "srcloc",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Values that can be relocated",
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "Relocatable",
           "package": "srcloc",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource location type. Source location are all equal, which allows AST nodes\n to be compared modulo location information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "SrcLoc",
           "package": "srcloc",
@@ -186,6 +201,7 @@
         "index": {
           "description": "Source location type Source location are all equal which allows AST nodes to be compared modulo location information",
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "SrcLoc",
           "package": "srcloc",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge the locations of two \u003ccode\u003e\u003ca\u003eLocated\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "(\u003c--\u003e)",
           "package": "srcloc",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Merge the locations of two Located values",
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "(\u003c--\u003e) \u003c--\u003e",
           "normalized": "a-\u003eb-\u003eLoc",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "L",
           "package": "srcloc",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "L",
           "package": "srcloc",
@@ -246,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBeginning and end positions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "Loc",
           "package": "srcloc",
@@ -256,6 +277,7 @@
         "index": {
           "description": "Beginning and end positions",
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "Loc",
           "package": "srcloc",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "NoLoc",
           "package": "srcloc",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "NoLoc",
           "package": "srcloc",
@@ -292,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource file name, line, column, and character offset\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "Pos",
           "package": "srcloc",
@@ -302,6 +327,7 @@
         "index": {
           "description": "Source file name line column and character offset",
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "Pos",
           "package": "srcloc",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "SrcLoc",
           "package": "srcloc",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "SrcLoc",
           "package": "srcloc",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "advancePos",
           "package": "srcloc",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "advancePos",
           "normalized": "Pos-\u003eChar-\u003ePos",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "fromLoc",
           "package": "srcloc",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "fromLoc",
           "normalized": "Loc-\u003ea",
@@ -385,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "fromPos",
           "package": "srcloc",
@@ -394,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "fromPos",
           "normalized": "Pos-\u003ea",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "linePos",
           "package": "srcloc",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "linePos",
           "normalized": "String-\u003eInt-\u003ePos",
@@ -434,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnding position of the location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "locEnd",
           "package": "srcloc",
@@ -444,6 +481,7 @@
         "index": {
           "description": "Ending position of the location",
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "locEnd",
           "normalized": "Loc-\u003eLoc",
@@ -459,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "locOf",
           "package": "srcloc",
@@ -468,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "locOf",
           "normalized": "a-\u003eLoc",
@@ -483,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "locOfList",
           "package": "srcloc",
@@ -492,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "locOfList",
           "normalized": "[a]-\u003eLoc",
@@ -508,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarting position of the location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "locStart",
           "package": "srcloc",
@@ -518,6 +561,7 @@
         "index": {
           "description": "Starting position of the location",
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "locStart",
           "normalized": "Loc-\u003eLoc",
@@ -534,6 +578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "noLoc",
           "package": "srcloc",
@@ -544,6 +589,7 @@
         "index": {
           "description": "No location",
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "noLoc",
           "package": "srcloc",
@@ -558,6 +604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosition character offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "posCoff",
           "package": "srcloc",
@@ -568,6 +615,7 @@
         "index": {
           "description": "Position character offset",
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "posCoff",
           "normalized": "Pos-\u003eInt",
@@ -584,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosition column.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "posCol",
           "package": "srcloc",
@@ -594,6 +643,7 @@
         "index": {
           "description": "Position column",
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "posCol",
           "normalized": "Pos-\u003eInt",
@@ -610,6 +660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosition file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "posFile",
           "package": "srcloc",
@@ -620,6 +671,7 @@
         "index": {
           "description": "Position file",
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "posFile",
           "normalized": "Pos-\u003eString",
@@ -636,6 +688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosition line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "posLine",
           "package": "srcloc",
@@ -646,6 +699,7 @@
         "index": {
           "description": "Position line",
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "posLine",
           "normalized": "Pos-\u003eInt",
@@ -661,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "reloc",
           "package": "srcloc",
@@ -670,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "reloc",
           "normalized": "Loc-\u003ea-\u003ea",
@@ -685,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eSrcLoc\u003c/a\u003e\u003c/code\u003e of a \u003ccode\u003e\u003ca\u003eLocated\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "srclocOf",
           "package": "srcloc",
@@ -695,6 +752,7 @@
         "index": {
           "description": "The SrcLoc of Located value",
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "srclocOf",
           "normalized": "a-\u003eSrcLoc",
@@ -711,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSrcLoc\u003c/a\u003e\u003c/code\u003e with (minimal) span that includes two \u003ccode\u003e\u003ca\u003eLocated\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "srcspan",
           "package": "srcloc",
@@ -721,6 +780,7 @@
         "index": {
           "description": "SrcLoc with minimal span that includes two Located values",
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "srcspan",
           "normalized": "a-\u003eb-\u003eSrcLoc",
@@ -735,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "startPos",
           "package": "srcloc",
@@ -744,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "startPos",
           "normalized": "String-\u003ePos",
@@ -759,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:12 UTC 2014",
           "module": "Data.Loc",
           "name": "unLoc",
           "package": "srcloc",
@@ -768,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Data Loc",
+          "indexed": "2014-03-11T20:09:12",
           "module": "Data.Loc",
           "name": "unLoc",
           "normalized": "L a-\u003ea",

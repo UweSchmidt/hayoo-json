@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "kyotocabinet"
+        "phrase": "kyotocabinet",
+        "type": "phrase"
       },
       "type": "context"
     }

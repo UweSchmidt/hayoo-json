@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bkr"
+        "phrase": "bkr",
+        "type": "phrase"
       },
       "type": "context"
     }

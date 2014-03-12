@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hmatrix-repa"
+        "phrase": "hmatrix-repa",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepa / hmatrix conversion functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:56 UTC 2014",
           "module": "Data.Packed.Repa",
           "name": "Repa",
           "package": "hmatrix-repa",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Repa hmatrix conversion functions",
           "hierarchy": "Data Packed Repa",
+          "indexed": "2014-03-11T18:41:56",
           "module": "Data.Packed.Repa",
           "name": "Repa",
           "package": "hmatrix-repa",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a Storable matrix to a DIM2 repa array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:56 UTC 2014",
           "module": "Data.Packed.Repa",
           "name": "matrixToRepa",
           "package": "hmatrix-repa",
@@ -52,6 +55,7 @@
         "index": {
           "description": "convert Storable matrix to DIM2 repa array",
           "hierarchy": "Data Packed Repa",
+          "indexed": "2014-03-11T18:41:56",
           "module": "Data.Packed.Repa",
           "name": "matrixToRepa",
           "normalized": "Matrix a-\u003eArray V DIM a",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a 2d repa array to a Storable matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:56 UTC 2014",
           "module": "Data.Packed.Repa",
           "name": "repaToMatrix",
           "package": "hmatrix-repa",
@@ -78,6 +83,7 @@
         "index": {
           "description": "convert repa array to Storable matrix",
           "hierarchy": "Data Packed Repa",
+          "indexed": "2014-03-11T18:41:56",
           "module": "Data.Packed.Repa",
           "name": "repaToMatrix",
           "normalized": "Array V DIM a-\u003eMatrix a",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a 1d repa array to a Storable vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:56 UTC 2014",
           "module": "Data.Packed.Repa",
           "name": "repaToVector",
           "package": "hmatrix-repa",
@@ -104,6 +111,7 @@
         "index": {
           "description": "convert repa array to Storable vector",
           "hierarchy": "Data Packed Repa",
+          "indexed": "2014-03-11T18:41:56",
           "module": "Data.Packed.Repa",
           "name": "repaToVector",
           "normalized": "Array V DIM a-\u003eVector a",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a Storable vector to a DIM1 repa array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:56 UTC 2014",
           "module": "Data.Packed.Repa",
           "name": "vectorToRepa",
           "package": "hmatrix-repa",
@@ -130,6 +139,7 @@
         "index": {
           "description": "convert Storable vector to DIM1 repa array",
           "hierarchy": "Data Packed Repa",
+          "indexed": "2014-03-11T18:41:56",
           "module": "Data.Packed.Repa",
           "name": "vectorToRepa",
           "normalized": "Vector a-\u003eArray V DIM a",

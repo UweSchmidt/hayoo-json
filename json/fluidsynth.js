@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fluidsynth"
+        "phrase": "fluidsynth",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "Fluidsynth",
           "package": "fluidsynth",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "Fluidsynth",
           "package": "fluidsynth",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "Channel",
           "package": "fluidsynth",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "Channel",
           "package": "fluidsynth",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "Driver",
           "package": "fluidsynth",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "Driver",
           "package": "fluidsynth",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "Event",
           "package": "fluidsynth",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "Event",
           "package": "fluidsynth",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "Key",
           "package": "fluidsynth",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "Key",
           "package": "fluidsynth",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "Program",
           "package": "fluidsynth",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "Program",
           "package": "fluidsynth",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "Synth",
           "package": "fluidsynth",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "Synth",
           "package": "fluidsynth",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "Velocity",
           "package": "fluidsynth",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "Velocity",
           "package": "fluidsynth",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "Channel",
           "package": "fluidsynth",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "Channel",
           "package": "fluidsynth",
@@ -208,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "Key",
           "package": "fluidsynth",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "Key",
           "package": "fluidsynth",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "Program",
           "package": "fluidsynth",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "Program",
           "package": "fluidsynth",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "Velocity",
           "package": "fluidsynth",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "Velocity",
           "package": "fluidsynth",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "eventNoteOff",
           "package": "fluidsynth",
@@ -283,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "eventNoteOff",
           "normalized": "Channel-\u003eKey-\u003eIO Event",
@@ -298,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "eventNoteOn",
           "package": "fluidsynth",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "eventNoteOn",
           "normalized": "Channel-\u003eKey-\u003eVelocity-\u003eIO Event",
@@ -322,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "loadSF",
           "package": "fluidsynth",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "loadSF",
           "normalized": "Synth-\u003eString-\u003eIO Synth",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "newDriver",
           "package": "fluidsynth",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "newDriver",
           "normalized": "Synth-\u003eIO Driver",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "newPlayer",
           "package": "fluidsynth",
@@ -379,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "newPlayer",
           "normalized": "Synth-\u003eIO Player",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "newSettings",
           "package": "fluidsynth",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "newSettings",
           "package": "fluidsynth",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "newSynth",
           "package": "fluidsynth",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "newSynth",
           "normalized": "Settings-\u003eIO Synth",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "playerAdd",
           "package": "fluidsynth",
@@ -449,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "playerAdd",
           "normalized": "Player-\u003eString-\u003eIO()",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "playerJoin",
           "package": "fluidsynth",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "playerJoin",
           "normalized": "Player-\u003eIO()",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "playerPlay",
           "package": "fluidsynth",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "playerPlay",
           "normalized": "Player-\u003eIO()",
@@ -512,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "synthNoteOff",
           "package": "fluidsynth",
@@ -521,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "synthNoteOff",
           "normalized": "Synth-\u003eChannel-\u003eKey-\u003eIO()",
@@ -536,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:58 UTC 2014",
           "module": "Sound.Fluidsynth",
           "name": "synthNoteOn",
           "package": "fluidsynth",
@@ -545,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Sound Fluidsynth",
+          "indexed": "2014-03-11T18:10:58",
           "module": "Sound.Fluidsynth",
           "name": "synthNoteOn",
           "normalized": "Synth-\u003eChannel-\u003eKey-\u003eVelocity-\u003eIO()",

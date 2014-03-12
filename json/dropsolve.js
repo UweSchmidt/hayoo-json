@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dropsolve"
+        "phrase": "dropsolve",
+        "type": "phrase"
       },
       "type": "context"
     }

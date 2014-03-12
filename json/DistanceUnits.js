@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DistanceUnits"
+        "phrase": "DistanceUnits",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "DistanceUnits",
           "package": "DistanceUnits",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "DistanceUnits",
           "package": "DistanceUnits",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAstronomical, ascending\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "AU",
           "package": "DistanceUnits",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Astronomical ascending",
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "AU",
           "package": "DistanceUnits",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetric Ascending\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Angstrom",
           "package": "DistanceUnits",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Metric Ascending",
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Angstrom",
           "package": "DistanceUnits",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Barleycorn",
           "package": "DistanceUnits",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Barleycorn",
           "package": "DistanceUnits",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Centimeter",
           "package": "DistanceUnits",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Centimeter",
           "package": "DistanceUnits",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Chain",
           "package": "DistanceUnits",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Chain",
           "package": "DistanceUnits",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Cubit",
           "package": "DistanceUnits",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Cubit",
           "package": "DistanceUnits",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Decameter",
           "package": "DistanceUnits",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Decameter",
           "package": "DistanceUnits",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Decimeter",
           "package": "DistanceUnits",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Decimeter",
           "package": "DistanceUnits",
@@ -212,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic class that defines all the units of measure in running.\n The base unit of meters was chosen because Metric is orders more sane than\n the English system\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Distance",
           "package": "DistanceUnits",
@@ -221,6 +240,7 @@
         "index": {
           "description": "generic class that defines all the units of measure in running The base unit of meters was chosen because Metric is orders more sane than the English system",
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Distance",
           "package": "DistanceUnits",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Ell",
           "package": "DistanceUnits",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Ell",
           "package": "DistanceUnits",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Fathom",
           "package": "DistanceUnits",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Fathom",
           "package": "DistanceUnits",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Finger",
           "package": "DistanceUnits",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Finger",
           "package": "DistanceUnits",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Foot",
           "package": "DistanceUnits",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Foot",
           "package": "DistanceUnits",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Furlong",
           "package": "DistanceUnits",
@@ -326,6 +355,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Furlong",
           "package": "DistanceUnits",
@@ -339,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Hand",
           "package": "DistanceUnits",
@@ -347,6 +378,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Hand",
           "package": "DistanceUnits",
@@ -360,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Hectometer",
           "package": "DistanceUnits",
@@ -368,6 +401,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Hectometer",
           "package": "DistanceUnits",
@@ -381,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Inch",
           "package": "DistanceUnits",
@@ -389,6 +424,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Inch",
           "package": "DistanceUnits",
@@ -402,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Kilometer",
           "package": "DistanceUnits",
@@ -410,6 +447,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Kilometer",
           "package": "DistanceUnits",
@@ -423,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "League",
           "package": "DistanceUnits",
@@ -431,6 +470,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "League",
           "package": "DistanceUnits",
@@ -444,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Lightyear",
           "package": "DistanceUnits",
@@ -452,6 +493,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Lightyear",
           "package": "DistanceUnits",
@@ -465,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Line",
           "package": "DistanceUnits",
@@ -473,6 +516,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Line",
           "package": "DistanceUnits",
@@ -486,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Link",
           "package": "DistanceUnits",
@@ -494,6 +539,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Link",
           "package": "DistanceUnits",
@@ -507,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Meter",
           "package": "DistanceUnits",
@@ -515,6 +562,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Meter",
           "package": "DistanceUnits",
@@ -529,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit Definitions\n\u003c/p\u003e\u003cp\u003eEnglish, Ascending\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Microinch",
           "package": "DistanceUnits",
@@ -538,6 +587,7 @@
         "index": {
           "description": "Unit Definitions English Ascending",
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Microinch",
           "package": "DistanceUnits",
@@ -551,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Micrometer",
           "package": "DistanceUnits",
@@ -559,6 +610,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Micrometer",
           "package": "DistanceUnits",
@@ -572,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Mil",
           "package": "DistanceUnits",
@@ -580,6 +633,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Mil",
           "package": "DistanceUnits",
@@ -593,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Mile",
           "package": "DistanceUnits",
@@ -601,6 +656,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Mile",
           "package": "DistanceUnits",
@@ -614,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Millimeter",
           "package": "DistanceUnits",
@@ -622,6 +679,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Millimeter",
           "package": "DistanceUnits",
@@ -635,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Nail",
           "package": "DistanceUnits",
@@ -643,6 +702,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Nail",
           "package": "DistanceUnits",
@@ -656,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Nanometer",
           "package": "DistanceUnits",
@@ -664,6 +725,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Nanometer",
           "package": "DistanceUnits",
@@ -677,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Palm",
           "package": "DistanceUnits",
@@ -685,6 +748,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Palm",
           "package": "DistanceUnits",
@@ -698,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Parsec",
           "package": "DistanceUnits",
@@ -706,6 +771,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Parsec",
           "package": "DistanceUnits",
@@ -719,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Perch",
           "package": "DistanceUnits",
@@ -727,6 +794,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Perch",
           "package": "DistanceUnits",
@@ -740,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Rod",
           "package": "DistanceUnits",
@@ -748,6 +817,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Rod",
           "package": "DistanceUnits",
@@ -761,6 +831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Span",
           "package": "DistanceUnits",
@@ -769,6 +840,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Span",
           "package": "DistanceUnits",
@@ -782,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "Yard",
           "package": "DistanceUnits",
@@ -790,6 +863,7 @@
         },
         "index": {
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "Yard",
           "package": "DistanceUnits",
@@ -804,6 +878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctions\n\u003c/p\u003e\u003cp\u003eAdd two distances together to get a common distance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "addDist",
           "package": "DistanceUnits",
@@ -814,6 +889,7 @@
         "index": {
           "description": "Functions Add two distances together to get common distance",
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "addDist",
           "normalized": "a-\u003eb-\u003ec",
@@ -830,6 +906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert one distance to another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "convertDist",
           "package": "DistanceUnits",
@@ -840,6 +917,7 @@
         "index": {
           "description": "Convert one distance to another",
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "convertDist",
           "normalized": "a-\u003eb",
@@ -856,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts the given number of meters into the unit of measure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "fromMeters",
           "package": "DistanceUnits",
@@ -866,6 +945,7 @@
         "index": {
           "description": "Converts the given number of meters into the unit of measure",
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "fromMeters",
           "normalized": "Meter-\u003ea",
@@ -882,6 +962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the difference between two distcances\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "subDist",
           "package": "DistanceUnits",
@@ -892,6 +973,7 @@
         "index": {
           "description": "Find the difference between two distcances",
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "subDist",
           "normalized": "a-\u003eb-\u003ec",
@@ -908,6 +990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYields the given distance as a float\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "toFloat",
           "package": "DistanceUnits",
@@ -918,6 +1001,7 @@
         "index": {
           "description": "Yields the given distance as float",
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "toFloat",
           "normalized": "a-\u003eFloat",
@@ -934,6 +1018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts the given unit of distance into meters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:07 UTC 2014",
           "module": "DistanceUnits",
           "name": "toMeters",
           "package": "DistanceUnits",
@@ -944,6 +1029,7 @@
         "index": {
           "description": "Converts the given unit of distance into meters",
           "hierarchy": "DistanceUnits",
+          "indexed": "2014-03-11T16:39:07",
           "module": "DistanceUnits",
           "name": "toMeters",
           "normalized": "a-\u003eMeter",

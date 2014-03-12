@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gloss-accelerate"
+        "phrase": "gloss-accelerate",
+        "type": "phrase"
       },
       "type": "context"
     }

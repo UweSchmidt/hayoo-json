@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghcjs-dom"
+        "phrase": "ghcjs-dom",
+        "type": "phrase"
       },
       "type": "context"
     }

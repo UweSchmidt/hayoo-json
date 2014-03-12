@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghcjs-codemirror"
+        "phrase": "ghcjs-codemirror",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:42 UTC 2014",
           "module": "GHCJS.CodeMirror",
           "name": "CodeMirror",
           "package": "ghcjs-codemirror",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "GHCJS CodeMirror",
+          "indexed": "2014-03-11T18:16:42",
           "module": "GHCJS.CodeMirror",
           "name": "CodeMirror",
           "package": "ghcjs-codemirror",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:42 UTC 2014",
           "module": "GHCJS.CodeMirror",
           "name": "getBinDir",
           "package": "ghcjs-codemirror",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "GHCJS CodeMirror",
+          "indexed": "2014-03-11T18:16:42",
           "module": "GHCJS.CodeMirror",
           "name": "getBinDir",
           "package": "ghcjs-codemirror",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:42 UTC 2014",
           "module": "GHCJS.CodeMirror",
           "name": "getDataDir",
           "package": "ghcjs-codemirror",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "GHCJS CodeMirror",
+          "indexed": "2014-03-11T18:16:42",
           "module": "GHCJS.CodeMirror",
           "name": "getDataDir",
           "package": "ghcjs-codemirror",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:42 UTC 2014",
           "module": "GHCJS.CodeMirror",
           "name": "getDataFileName",
           "package": "ghcjs-codemirror",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "GHCJS CodeMirror",
+          "indexed": "2014-03-11T18:16:42",
           "module": "GHCJS.CodeMirror",
           "name": "getDataFileName",
           "normalized": "FilePath-\u003eIO FilePath",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:42 UTC 2014",
           "module": "GHCJS.CodeMirror",
           "name": "getLibDir",
           "package": "ghcjs-codemirror",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "GHCJS CodeMirror",
+          "indexed": "2014-03-11T18:16:42",
           "module": "GHCJS.CodeMirror",
           "name": "getLibDir",
           "package": "ghcjs-codemirror",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:42 UTC 2014",
           "module": "GHCJS.CodeMirror",
           "name": "getLibexecDir",
           "package": "ghcjs-codemirror",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "GHCJS CodeMirror",
+          "indexed": "2014-03-11T18:16:42",
           "module": "GHCJS.CodeMirror",
           "name": "getLibexecDir",
           "package": "ghcjs-codemirror",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:42 UTC 2014",
           "module": "GHCJS.CodeMirror",
           "name": "version",
           "package": "ghcjs-codemirror",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "GHCJS CodeMirror",
+          "indexed": "2014-03-11T18:16:42",
           "module": "GHCJS.CodeMirror",
           "name": "version",
           "package": "ghcjs-codemirror",

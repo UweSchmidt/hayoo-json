@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "edenmodules"
+        "phrase": "edenmodules",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides functions for semi-explicit distributed functional programming. \n Defines high-level coordination concepts via Prim.Op.s (which are wrapped \n inside ParPrimConc.hs). \n\u003c/p\u003e\u003cp\u003eNotice: This module uses the concurrent simulation of the \n parallel primitives. \n\u003c/p\u003e\u003cp\u003eDepends on GHC.\n\u003c/p\u003e\u003cp\u003eEden Group Marburg ( http://www.mathematik.uni-marburg.de/~eden )\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "EdenConcHs",
           "package": "edenmodules",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides functions for semi-explicit distributed functional programming Defines high-level coordination concepts via Prim.Op.s which are wrapped inside ParPrimConc.hs Notice This module uses the concurrent simulation of the parallel primitives Depends on GHC Eden Group Marburg http www.mathematik.uni-marburg.de eden",
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "EdenConcHs",
           "package": "edenmodules",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA channel name \u003ccode\u003eChanName a\u003c/code\u003e is a handle for a reply channel. The channel \n can be created with the function new and you can connect to such a channel \n with the function \u003ccode\u003eparfill\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "ChanName",
           "package": "edenmodules",
@@ -51,6 +54,7 @@
         "index": {
           "description": "channel name ChanName is handle for reply channel The channel can be created with the function new and you can connect to such channel with the function parfill",
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "ChanName",
           "package": "edenmodules",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "Lift",
           "package": "edenmodules",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "Lift",
           "package": "edenmodules",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of types that can be fully evaluated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "NFData",
           "package": "edenmodules",
@@ -94,6 +101,7 @@
         "index": {
           "description": "class of types that can be fully evaluated",
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "NFData",
           "package": "edenmodules",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "PA",
           "package": "edenmodules",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "PA",
           "package": "edenmodules",
@@ -129,6 +139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlaces where to instantiate lists of processes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "Places",
           "package": "edenmodules",
@@ -138,6 +149,7 @@
         "index": {
           "description": "Places where to instantiate lists of processes",
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "Places",
           "package": "edenmodules",
@@ -152,6 +164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess abstractions of type \u003ccode\u003e Process a b \u003c/code\u003e can be created with function \n \u003ccode\u003eprocess\u003c/code\u003e. Process abstractions define remote functions similar to lambda \n abstractions, which define local functions. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "Process",
           "package": "edenmodules",
@@ -161,6 +174,7 @@
         "index": {
           "description": "Process abstractions of type Process can be created with function process Process abstractions define remote functions similar to lambda abstractions which define local functions",
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "Process",
           "package": "edenmodules",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "RD",
           "package": "edenmodules",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "RD",
           "package": "edenmodules",
@@ -196,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eStrategy\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e is \u003ccode\u003ea -\u003e ()\u003c/code\u003e.\n Thus, a strategy is a function whose sole purpose it is to evaluate\n its argument (either in full or in part).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "Strategy",
           "package": "edenmodules",
@@ -204,6 +221,7 @@
         "index": {
           "description": "The type Strategy is Thus strategy is function whose sole purpose it is to evaluate its argument either in full or in part",
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "Strategy",
           "package": "edenmodules",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrans class: overloads communication for streams and tuples.\n You need to declare normal-form evaluation in an instance declaration of NFData.\n Use the default implementation for \u003ccode\u003ewrite\u003c/code\u003e and \u003ccode\u003ecreateComm\u003c/code\u003e for instances of Trans.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "Trans",
           "package": "edenmodules",
@@ -227,6 +246,7 @@
         "index": {
           "description": "Trans class overloads communication for streams and tuples You need to declare normal-form evaluation in an instance declaration of NFData Use the default implementation for write and createComm for instances of Trans",
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "Trans",
           "package": "edenmodules",
@@ -290,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "Lift",
           "package": "edenmodules",
@@ -299,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "Lift",
           "package": "edenmodules",
@@ -312,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "cpAt",
           "package": "edenmodules",
@@ -321,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "cpAt",
           "normalized": "Int-\u003eProcess a b-\u003ea-\u003eLift b",
@@ -336,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "createComm",
           "package": "edenmodules",
@@ -345,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "createComm",
           "normalized": "IO(ChanName a,a)",
@@ -360,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "createProcess",
           "package": "edenmodules",
@@ -369,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "createProcess",
           "normalized": "Process a b-\u003ea-\u003eLift b",
@@ -384,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "deLift",
           "package": "edenmodules",
@@ -393,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "deLift",
           "normalized": "Lift a-\u003ea",
@@ -460,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis establishes a direct connection to the process which released the data in the first place. The result is in the parallel action monad and can be combined to a larger parallel action.\n Notice that you have to fetch a remote value exactly once! \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "fetchPA",
           "package": "edenmodules",
@@ -470,6 +501,7 @@
         "index": {
           "description": "This establishes direct connection to the process which released the data in the first place The result is in the parallel action monad and can be combined to larger parallel action Notice that you have to fetch remote value exactly once",
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "fetchPA",
           "normalized": "RD a-\u003ePA a",
@@ -640,6 +672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003eliftRD\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "liftRD3",
           "package": "edenmodules",
@@ -650,6 +683,7 @@
         "index": {
           "description": "see liftRD",
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "liftRD3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003eRD a-\u003eRD b-\u003eRD c-\u003eRD d",
@@ -666,6 +700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003eliftRD\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "liftRD4",
           "package": "edenmodules",
@@ -676,6 +711,7 @@
         "index": {
           "description": "see liftRD",
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "liftRD4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003eRD a-\u003eRD b-\u003eRD c-\u003eRD d-\u003eRD e",
@@ -768,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of (logical) machines in the system\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "noPe",
           "package": "edenmodules",
@@ -778,6 +815,7 @@
         "index": {
           "description": "Number of logical machines in the system",
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "noPe",
           "package": "edenmodules",
@@ -1015,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ernf should reduce its argument to normal form (that is, fully\n evaluate all sub-components), and then return '()'.\n\u003c/p\u003e\u003cp\u003eThe default implementation of \u003ccode\u003e\u003ca\u003ernf\u003c/a\u003e\u003c/code\u003e is \n\u003c/p\u003e\u003cpre\u003e rnf a = a `seq` ()\n\u003c/pre\u003e\u003cp\u003ewhich may be convenient when defining instances for data types with\n no unevaluated fields (e.g. enumerations).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "rnf",
           "package": "edenmodules",
@@ -1024,6 +1063,7 @@
         "index": {
           "description": "rnf should reduce its argument to normal form that is fully evaluate all sub-components and then return The default implementation of rnf is rnf seq which may be convenient when defining instances for data types with no unevaluated fields e.g enumerations",
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "rnf",
           "normalized": "a-\u003e()",
@@ -1061,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "runPA",
           "package": "edenmodules",
@@ -1070,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "runPA",
           "normalized": "PA a-\u003ea",
@@ -1086,6 +1128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal machine number (ranges from 1 to noPe)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "selfPe",
           "package": "edenmodules",
@@ -1096,6 +1139,7 @@
         "index": {
           "description": "Local machine number ranges from to noPe",
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "selfPe",
           "package": "edenmodules",
@@ -1288,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "write",
           "package": "edenmodules",
@@ -1297,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden EdenConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.EdenConcHs",
           "name": "write",
           "normalized": "a-\u003eIO()",
@@ -1312,6 +1358,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe low-level parallel functional language:\n      EDen Implementation language\n\u003c/p\u003e\u003cp\u003eThis module defines a thin layer of type-checking wrappers\n over the parallel primitives implemented in ParPrim.hs.\n\u003c/p\u003e\u003cp\u003eDepends on the Eden Compiler.\n\u003c/p\u003e\u003cp\u003eEden Group Marburg\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.Edi",
           "name": "Edi",
           "package": "edenmodules",
@@ -1321,6 +1368,7 @@
         "index": {
           "description": "The low-level parallel functional language EDen Implementation language This module defines thin layer of type-checking wrappers over the parallel primitives implemented in ParPrim.hs Depends on the Eden Compiler Eden Group Marburg",
           "hierarchy": "Control Parallel Eden Edi",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.Edi",
           "name": "Edi",
           "package": "edenmodules",
@@ -1334,6 +1382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.Edi",
           "name": "ChanName'",
           "package": "edenmodules",
@@ -1342,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden Edi",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.Edi",
           "name": "ChanName'",
           "package": "edenmodules",
@@ -1356,6 +1406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of types that can be fully evaluated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.Edi",
           "name": "NFData",
           "package": "edenmodules",
@@ -1364,6 +1415,7 @@
         "index": {
           "description": "class of types that can be fully evaluated",
           "hierarchy": "Control Parallel Eden Edi",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.Edi",
           "name": "NFData",
           "package": "edenmodules",
@@ -1401,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.Edi",
           "name": "createCs",
           "package": "edenmodules",
@@ -1410,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden Edi",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.Edi",
           "name": "createCs",
           "normalized": "Int-\u003eIO([ChanName' a],[a])",
@@ -1473,6 +1527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ernf should reduce its argument to normal form (that is, fully\n evaluate all sub-components), and then return '()'.\n\u003c/p\u003e\u003cp\u003eThe default implementation of \u003ccode\u003e\u003ca\u003ernf\u003c/a\u003e\u003c/code\u003e is \n\u003c/p\u003e\u003cpre\u003e rnf a = a `seq` ()\n\u003c/pre\u003e\u003cp\u003ewhich may be convenient when defining instances for data types with\n no unevaluated fields (e.g. enumerations).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.Edi",
           "name": "rnf",
           "package": "edenmodules",
@@ -1482,6 +1537,7 @@
         "index": {
           "description": "rnf should reduce its argument to normal form that is fully evaluate all sub-components and then return The default implementation of rnf is rnf seq which may be convenient when defining instances for data types with no unevaluated fields e.g enumerations",
           "hierarchy": "Control Parallel Eden Edi",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.Edi",
           "name": "rnf",
           "normalized": "a-\u003e()",
@@ -1519,6 +1575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.Edi",
           "name": "sendNF",
           "package": "edenmodules",
@@ -1528,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden Edi",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.Edi",
           "name": "sendNF",
           "normalized": "ChanName' a-\u003ea-\u003eIO()",
@@ -1543,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.Edi",
           "name": "sendNFStream",
           "package": "edenmodules",
@@ -1552,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden Edi",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.Edi",
           "name": "sendNFStream",
           "normalized": "ChanName'[a]-\u003e[a]-\u003eIO()",
@@ -1567,6 +1627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.Edi",
           "name": "sendStreamWith",
           "package": "edenmodules",
@@ -1576,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden Edi",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.Edi",
           "name": "sendStreamWith",
           "normalized": "(a-\u003e())-\u003eChanName'[a]-\u003e[a]-\u003eIO()",
@@ -1591,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.Edi",
           "name": "sendWith",
           "package": "edenmodules",
@@ -1600,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden Edi",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.Edi",
           "name": "sendWith",
           "normalized": "Strategy a-\u003eChanName' a-\u003ea-\u003eIO()",
@@ -1615,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.Edi",
           "name": "spawnArgsProcessAt",
           "package": "edenmodules",
@@ -1624,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden Edi",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.Edi",
           "name": "spawnArgsProcessAt",
           "normalized": "Int-\u003e(a-\u003eIO())-\u003ea-\u003eIO()",
@@ -1639,6 +1705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.Edi",
           "name": "spawnProcessAt",
           "package": "edenmodules",
@@ -1648,6 +1715,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden Edi",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.Edi",
           "name": "spawnProcessAt",
           "normalized": "Int-\u003eIO()-\u003eIO()",
@@ -1664,6 +1732,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides primitive functions for explicit distributed functional programming.\n Base module, importing PrimOps =\u003e exporting IO actions\n\u003c/p\u003e\u003cp\u003eDepends on GHC. Using standard GHC, you will get a threaded simulation of the \n parallel primitives. \n Use the special GHC-Eden compiler from http://www.mathematik.uni-marburg.de/~eden \n for parallel execution with distributed heaps.\n\u003c/p\u003e\u003cp\u003eEden Group Marburg ( http://www.mathematik.uni-marburg.de/~eden )\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.ParPrim",
           "name": "ParPrim",
           "package": "edenmodules",
@@ -1673,6 +1742,7 @@
         "index": {
           "description": "Provides primitive functions for explicit distributed functional programming Base module importing PrimOps exporting IO actions Depends on GHC Using standard GHC you will get threaded simulation of the parallel primitives Use the special GHC-Eden compiler from http www.mathematik.uni-marburg.de eden for parallel execution with distributed heaps Eden Group Marburg http www.mathematik.uni-marburg.de eden",
           "hierarchy": "Control Parallel Eden ParPrim",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.ParPrim",
           "name": "ParPrim",
           "package": "edenmodules",
@@ -1687,6 +1757,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides primitive functions for explicit distributed functional programming.\n This version: simulates primitives by Concurrent Haskell\n (can serve as specification of primitives semantics)\n\u003c/p\u003e\u003cp\u003eDepends on GHC.\n\u003c/p\u003e\u003cp\u003eEden Group Marburg ( http://www.mathematik.uni-marburg.de/~eden )\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.ParPrimConcHs",
           "name": "ParPrimConcHs",
           "package": "edenmodules",
@@ -1696,6 +1767,7 @@
         "index": {
           "description": "Provides primitive functions for explicit distributed functional programming This version simulates primitives by Concurrent Haskell can serve as specification of primitives semantics Depends on GHC Eden Group Marburg http www.mathematik.uni-marburg.de eden",
           "hierarchy": "Control Parallel Eden ParPrimConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.ParPrimConcHs",
           "name": "ParPrimConcHs",
           "package": "edenmodules",
@@ -1709,6 +1781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.ParPrimConcHs",
           "name": "ChanName'",
           "package": "edenmodules",
@@ -1717,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden ParPrimConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.ParPrimConcHs",
           "name": "ChanName'",
           "package": "edenmodules",
@@ -1730,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.ParPrimConcHs",
           "name": "Mode",
           "package": "edenmodules",
@@ -1738,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden ParPrimConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.ParPrimConcHs",
           "name": "Mode",
           "package": "edenmodules",
@@ -1751,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.ParPrimConcHs",
           "name": "Connect",
           "package": "edenmodules",
@@ -1760,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden ParPrimConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.ParPrimConcHs",
           "name": "Connect",
           "package": "edenmodules",
@@ -1773,6 +1851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.ParPrimConcHs",
           "name": "Data",
           "package": "edenmodules",
@@ -1782,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden ParPrimConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.ParPrimConcHs",
           "name": "Data",
           "package": "edenmodules",
@@ -1795,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.ParPrimConcHs",
           "name": "Instantiate",
           "package": "edenmodules",
@@ -1804,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden ParPrimConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.ParPrimConcHs",
           "name": "Instantiate",
           "package": "edenmodules",
@@ -1817,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.ParPrimConcHs",
           "name": "Stream",
           "package": "edenmodules",
@@ -1826,6 +1909,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden ParPrimConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.ParPrimConcHs",
           "name": "Stream",
           "package": "edenmodules",
@@ -1839,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.ParPrimConcHs",
           "name": "connectToPort",
           "package": "edenmodules",
@@ -1848,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden ParPrimConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.ParPrimConcHs",
           "name": "connectToPort",
           "normalized": "ChanName' a-\u003eIO()",
@@ -1863,6 +1949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.ParPrimConcHs",
           "name": "sendData",
           "package": "edenmodules",
@@ -1872,6 +1959,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden ParPrimConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.ParPrimConcHs",
           "name": "sendData",
           "normalized": "Mode-\u003ea-\u003eIO()",
@@ -1887,6 +1975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden.ParPrimConcHs",
           "name": "simInitPes",
           "package": "edenmodules",
@@ -1896,6 +1985,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden ParPrimConcHs",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden.ParPrimConcHs",
           "name": "simInitPes",
           "normalized": "Int-\u003eIO()",
@@ -1912,6 +2002,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides functions for semi-explicit distributed functional programming. \n Defines high-level coordination concepts via Prim.Op.s (which are wrapped \n inside ParPrim.hs).\n\u003c/p\u003e\u003cp\u003eDepends on GHC. Using standard GHC, you will get a threaded simulation of Eden. \n Use the special GHC-Eden compiler from http://www.mathematik.uni-marburg.de/~eden \n for parallel execution with distributed heaps.\n\u003c/p\u003e\u003cp\u003eEden Group Marburg ( http://www.mathematik.uni-marburg.de/~eden )\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "Eden",
           "package": "edenmodules",
@@ -1921,6 +2012,7 @@
         "index": {
           "description": "Provides functions for semi-explicit distributed functional programming Defines high-level coordination concepts via Prim.Op.s which are wrapped inside ParPrim.hs Depends on GHC Using standard GHC you will get threaded simulation of Eden Use the special GHC-Eden compiler from http www.mathematik.uni-marburg.de eden for parallel execution with distributed heaps Eden Group Marburg http www.mathematik.uni-marburg.de eden",
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "Eden",
           "package": "edenmodules",
@@ -1935,6 +2027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA channel name \u003ccode\u003eChanName a\u003c/code\u003e is a handle for a reply channel. The channel \n can be created with the function new and you can connect to such a channel \n with the function \u003ccode\u003eparfill\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "ChanName",
           "package": "edenmodules",
@@ -1944,6 +2037,7 @@
         "index": {
           "description": "channel name ChanName is handle for reply channel The channel can be created with the function new and you can connect to such channel with the function parfill",
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "ChanName",
           "package": "edenmodules",
@@ -1957,6 +2051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "Lift",
           "package": "edenmodules",
@@ -1965,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "Lift",
           "package": "edenmodules",
@@ -1979,6 +2075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of types that can be fully evaluated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "NFData",
           "package": "edenmodules",
@@ -1987,6 +2084,7 @@
         "index": {
           "description": "class of types that can be fully evaluated",
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "NFData",
           "package": "edenmodules",
@@ -2000,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "PA",
           "package": "edenmodules",
@@ -2008,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "PA",
           "package": "edenmodules",
@@ -2022,6 +2122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlaces where to instantiate lists of processes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "Places",
           "package": "edenmodules",
@@ -2031,6 +2132,7 @@
         "index": {
           "description": "Places where to instantiate lists of processes",
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "Places",
           "package": "edenmodules",
@@ -2045,6 +2147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess abstractions of type \u003ccode\u003e Process a b \u003c/code\u003e can be created with function \n \u003ccode\u003eprocess\u003c/code\u003e. Process abstractions define remote functions similar to lambda \n abstractions, which define local functions. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "Process",
           "package": "edenmodules",
@@ -2054,6 +2157,7 @@
         "index": {
           "description": "Process abstractions of type Process can be created with function process Process abstractions define remote functions similar to lambda abstractions which define local functions",
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "Process",
           "package": "edenmodules",
@@ -2067,6 +2171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "RD",
           "package": "edenmodules",
@@ -2075,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "RD",
           "package": "edenmodules",
@@ -2089,6 +2195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eStrategy\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e is \u003ccode\u003ea -\u003e ()\u003c/code\u003e.\n Thus, a strategy is a function whose sole purpose it is to evaluate\n its argument (either in full or in part).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "Strategy",
           "package": "edenmodules",
@@ -2097,6 +2204,7 @@
         "index": {
           "description": "The type Strategy is Thus strategy is function whose sole purpose it is to evaluate its argument either in full or in part",
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "Strategy",
           "package": "edenmodules",
@@ -2111,6 +2219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrans class: overloads communication for streams and tuples.\n You need to declare normal-form evaluation in an instance declaration of NFData.\n Use the default implementation for \u003ccode\u003ewrite\u003c/code\u003e and \u003ccode\u003ecreateComm\u003c/code\u003e for instances of Trans.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "Trans",
           "package": "edenmodules",
@@ -2120,6 +2229,7 @@
         "index": {
           "description": "Trans class overloads communication for streams and tuples You need to declare normal-form evaluation in an instance declaration of NFData Use the default implementation for write and createComm for instances of Trans",
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "Trans",
           "package": "edenmodules",
@@ -2133,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "Lift",
           "package": "edenmodules",
@@ -2142,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "Lift",
           "package": "edenmodules",
@@ -2155,6 +2267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "cpAt",
           "package": "edenmodules",
@@ -2164,6 +2277,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "cpAt",
           "normalized": "Int-\u003eProcess a b-\u003ea-\u003eLift b",
@@ -2179,6 +2293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "createComm",
           "package": "edenmodules",
@@ -2188,6 +2303,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "createComm",
           "normalized": "IO(ChanName a,a)",
@@ -2203,6 +2319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "createProcess",
           "package": "edenmodules",
@@ -2212,6 +2329,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "createProcess",
           "normalized": "Process a b-\u003ea-\u003eLift b",
@@ -2227,6 +2345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "deLift",
           "package": "edenmodules",
@@ -2236,6 +2355,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "deLift",
           "normalized": "Lift a-\u003ea",
@@ -2252,6 +2372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis establishes a direct connection to the process which released the data in the first place. The result is in the parallel action monad and can be combined to a larger parallel action.\n Notice that you have to fetch a remote value exactly once! \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "fetchPA",
           "package": "edenmodules",
@@ -2262,6 +2383,7 @@
         "index": {
           "description": "This establishes direct connection to the process which released the data in the first place The result is in the parallel action monad and can be combined to larger parallel action Notice that you have to fetch remote value exactly once",
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "fetchPA",
           "normalized": "RD a-\u003ePA a",
@@ -2278,6 +2400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003eliftRD\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "liftRD3",
           "package": "edenmodules",
@@ -2288,6 +2411,7 @@
         "index": {
           "description": "see liftRD",
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "liftRD3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003eRD a-\u003eRD b-\u003eRD c-\u003eRD d",
@@ -2304,6 +2428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003eliftRD\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "liftRD4",
           "package": "edenmodules",
@@ -2314,6 +2439,7 @@
         "index": {
           "description": "see liftRD",
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "liftRD4",
           "normalized": "(a-\u003eb-\u003ec-\u003ed-\u003ee)-\u003eRD a-\u003eRD b-\u003eRD c-\u003eRD d-\u003eRD e",
@@ -2330,6 +2456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of (logical) machines in the system\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "noPe",
           "package": "edenmodules",
@@ -2340,6 +2467,7 @@
         "index": {
           "description": "Number of logical machines in the system",
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "noPe",
           "package": "edenmodules",
@@ -2354,6 +2482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ernf should reduce its argument to normal form (that is, fully\n evaluate all sub-components), and then return '()'.\n\u003c/p\u003e\u003cp\u003eThe default implementation of \u003ccode\u003e\u003ca\u003ernf\u003c/a\u003e\u003c/code\u003e is \n\u003c/p\u003e\u003cpre\u003e rnf a = a `seq` ()\n\u003c/pre\u003e\u003cp\u003ewhich may be convenient when defining instances for data types with\n no unevaluated fields (e.g. enumerations).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "rnf",
           "package": "edenmodules",
@@ -2363,6 +2492,7 @@
         "index": {
           "description": "rnf should reduce its argument to normal form that is fully evaluate all sub-components and then return The default implementation of rnf is rnf seq which may be convenient when defining instances for data types with no unevaluated fields e.g enumerations",
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "rnf",
           "normalized": "a-\u003e()",
@@ -2377,6 +2507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "runPA",
           "package": "edenmodules",
@@ -2386,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "runPA",
           "normalized": "PA a-\u003ea",
@@ -2402,6 +2534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal machine number (ranges from 1 to noPe)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "selfPe",
           "package": "edenmodules",
@@ -2412,6 +2545,7 @@
         "index": {
           "description": "Local machine number ranges from to noPe",
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "selfPe",
           "package": "edenmodules",
@@ -2425,6 +2559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:38 UTC 2014",
           "module": "Control.Parallel.Eden",
           "name": "write",
           "package": "edenmodules",
@@ -2434,6 +2569,7 @@
         },
         "index": {
           "hierarchy": "Control Parallel Eden",
+          "indexed": "2014-03-11T18:00:38",
           "module": "Control.Parallel.Eden",
           "name": "write",
           "normalized": "a-\u003eIO()",

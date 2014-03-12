@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HJavaScript"
+        "phrase": "HJavaScript",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Syntax",
           "package": "HJavaScript",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Syntax",
           "package": "HJavaScript",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgs represents types that can be passed as arguments to\n JavaScript functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Args",
           "package": "HJavaScript",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Args represents types that can be passed as arguments to JavaScript functions",
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Args",
           "package": "HJavaScript",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArray representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Array",
           "package": "HJavaScript",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Array representation",
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Array",
           "package": "HJavaScript",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssign Operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "AssignOp",
           "package": "HJavaScript",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Assign Operator",
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "AssignOp",
           "package": "HJavaScript",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary Operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "BinOp",
           "package": "HJavaScript",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Binary Operator",
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "BinOp",
           "package": "HJavaScript",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Block",
           "package": "HJavaScript",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Block",
           "package": "HJavaScript",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Elses",
           "package": "HJavaScript",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Elses",
           "package": "HJavaScript",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Exp",
           "package": "HJavaScript",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Exp",
           "package": "HJavaScript",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJFormal params represents parameters passed to a function along with their\n corresponding types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "FormalParams",
           "package": "HJavaScript",
@@ -204,6 +221,7 @@
         "index": {
           "description": "JFormal params represents parameters passed to function along with their corresponding types",
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "FormalParams",
           "package": "HJavaScript",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for binding objects with constructors. E.g. o = new Date();\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "HasConstructor",
           "package": "HJavaScript",
@@ -227,6 +246,7 @@
         "index": {
           "description": "Class for binding objects with constructors E.g new Date",
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "HasConstructor",
           "package": "HJavaScript",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "IsClass",
           "package": "HJavaScript",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "IsClass",
           "package": "HJavaScript",
@@ -262,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for derefable data types, used to allow the creation of \n dereferencing objects. Examples: Math.random() or document.write()\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "IsDeref",
           "package": "HJavaScript",
@@ -271,6 +294,7 @@
         "index": {
           "description": "Class for derefable data types used to allow the creation of dereferencing objects Examples Math.random or document.write",
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "IsDeref",
           "package": "HJavaScript",
@@ -285,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for representing expressions.\n First parameter is the expression, second a TBool for variable or constant.\n Third parameter represents the type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "IsExp",
           "package": "HJavaScript",
@@ -294,6 +319,7 @@
         "index": {
           "description": "Class for representing expressions First parameter is the expression second TBool for variable or constant Third parameter represents the type",
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "IsExp",
           "package": "HJavaScript",
@@ -308,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for representing JavaScript \u003ca\u003efeatures\u003c/a\u003e, e.g. names of \n objects or functions. Example:  window \u003ccode\u003ehasFeature\u003c/code\u003e \u003ca\u003ealert\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "IsFeature",
           "package": "HJavaScript",
@@ -317,6 +344,7 @@
         "index": {
           "description": "Class for representing JavaScript features e.g names of objects or functions Example window hasFeature alert",
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "IsFeature",
           "package": "HJavaScript",
@@ -331,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for JBool expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "IsJBool",
           "package": "HJavaScript",
@@ -340,6 +369,7 @@
         "index": {
           "description": "Class for JBool expressions",
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "IsJBool",
           "package": "HJavaScript",
@@ -354,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for JFloat expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "IsJFloat",
           "package": "HJavaScript",
@@ -363,6 +394,7 @@
         "index": {
           "description": "Class for JFloat expressions",
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "IsJFloat",
           "package": "HJavaScript",
@@ -377,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for JInt expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "IsJInt",
           "package": "HJavaScript",
@@ -386,6 +419,7 @@
         "index": {
           "description": "Class for JInt expressions",
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "IsJInt",
           "package": "HJavaScript",
@@ -400,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for JString expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "IsJString",
           "package": "HJavaScript",
@@ -409,6 +444,7 @@
         "index": {
           "description": "Class for JString expressions",
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "IsJString",
           "package": "HJavaScript",
@@ -423,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows values to be compared to JNull. E.g. for checking that\n an object is instantiated or is accessible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "IsNullable",
           "package": "HJavaScript",
@@ -432,6 +469,7 @@
         "index": {
           "description": "Allows values to be compared to JNull E.g for checking that an object is instantiated or is accessible",
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "IsNullable",
           "package": "HJavaScript",
@@ -445,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JArray",
           "package": "HJavaScript",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JArray",
           "package": "HJavaScript",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JBool",
           "package": "HJavaScript",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JBool",
           "package": "HJavaScript",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JFloat",
           "package": "HJavaScript",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JFloat",
           "package": "HJavaScript",
@@ -508,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JInt",
           "package": "HJavaScript",
@@ -516,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JInt",
           "package": "HJavaScript",
@@ -529,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JObject",
           "package": "HJavaScript",
@@ -537,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JObject",
           "package": "HJavaScript",
@@ -551,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass that represents showable types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JShow",
           "package": "HJavaScript",
@@ -560,6 +609,7 @@
         "index": {
           "description": "Class that represents showable types",
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JShow",
           "package": "HJavaScript",
@@ -573,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JString",
           "package": "HJavaScript",
@@ -581,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JString",
           "package": "HJavaScript",
@@ -595,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJavaScript types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JType",
           "package": "HJavaScript",
@@ -604,6 +657,7 @@
         "index": {
           "description": "JavaScript types",
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JType",
           "package": "HJavaScript",
@@ -617,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JVoid",
           "package": "HJavaScript",
@@ -625,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JVoid",
           "package": "HJavaScript",
@@ -639,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for parameter types to JavaScript functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "ParamType",
           "package": "HJavaScript",
@@ -648,6 +705,7 @@
         "index": {
           "description": "Class for parameter types to JavaScript functions",
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "ParamType",
           "package": "HJavaScript",
@@ -662,6 +720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for expression that may be \u003ca\u003eplussed\u003c/a\u003e.\n Examples: 1 + 2, \u003ca\u003eha\u003c/a\u003e + \u003ca\u003eskell\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "PlusOpType",
           "package": "HJavaScript",
@@ -671,6 +730,7 @@
         "index": {
           "description": "Class for expression that may be plussed Examples ha skell",
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "PlusOpType",
           "package": "HJavaScript",
@@ -685,6 +745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePost or Pre prefix , i.e. --x or x++\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "PostPre",
           "package": "HJavaScript",
@@ -694,6 +755,7 @@
         "index": {
           "description": "Post or Pre prefix i.e or",
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "PostPre",
           "package": "HJavaScript",
@@ -707,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Rec",
           "package": "HJavaScript",
@@ -715,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Rec",
           "package": "HJavaScript",
@@ -728,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Stmt",
           "package": "HJavaScript",
@@ -736,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Stmt",
           "package": "HJavaScript",
@@ -749,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Var",
           "package": "HJavaScript",
@@ -757,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Var",
           "package": "HJavaScript",
@@ -770,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "VarsToExps",
           "package": "HJavaScript",
@@ -778,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "VarsToExps",
           "package": "HJavaScript",
@@ -791,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "And",
           "package": "HJavaScript",
@@ -800,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "And",
           "package": "HJavaScript",
@@ -813,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "AndAssign",
           "package": "HJavaScript",
@@ -822,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "AndAssign",
           "package": "HJavaScript",
@@ -835,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Array",
           "package": "HJavaScript",
@@ -844,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Array",
           "package": "HJavaScript",
@@ -857,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Break",
           "package": "HJavaScript",
@@ -866,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Break",
           "normalized": "Stmt()",
@@ -881,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Continue",
           "package": "HJavaScript",
@@ -890,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Continue",
           "normalized": "Stmt()",
@@ -905,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Div",
           "package": "HJavaScript",
@@ -914,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Div",
           "package": "HJavaScript",
@@ -927,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "DivAssign",
           "package": "HJavaScript",
@@ -936,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "DivAssign",
           "package": "HJavaScript",
@@ -949,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "DoWhile",
           "package": "HJavaScript",
@@ -958,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "DoWhile",
           "normalized": "Block()-\u003eExp Bool-\u003eStmt()",
@@ -973,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Else",
           "package": "HJavaScript",
@@ -982,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Else",
           "normalized": "Block a-\u003eElses a",
@@ -997,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Elseif",
           "package": "HJavaScript",
@@ -1006,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Elseif",
           "normalized": "Exp Bool-\u003eBlock a-\u003eElses a-\u003eElses a",
@@ -1021,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "EmptyBlock",
           "package": "HJavaScript",
@@ -1030,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "EmptyBlock",
           "normalized": "Block()",
@@ -1045,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Equals",
           "package": "HJavaScript",
@@ -1054,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Equals",
           "package": "HJavaScript",
@@ -1067,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "ExpStmt",
           "package": "HJavaScript",
@@ -1076,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "ExpStmt",
           "normalized": "Exp a-\u003eStmt()",
@@ -1091,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "For",
           "package": "HJavaScript",
@@ -1100,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "For",
           "normalized": "Stmt a-\u003eExp Bool-\u003eExp a-\u003eBlock()-\u003eStmt()",
@@ -1115,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "ForIn",
           "package": "HJavaScript",
@@ -1124,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "ForIn",
           "normalized": "Var String-\u003ea-\u003eBlock()-\u003eStmt()",
@@ -1139,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "GEThan",
           "package": "HJavaScript",
@@ -1148,6 +1249,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "GEThan",
           "package": "HJavaScript",
@@ -1161,6 +1263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "GThan",
           "package": "HJavaScript",
@@ -1170,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "GThan",
           "package": "HJavaScript",
@@ -1183,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "If",
           "package": "HJavaScript",
@@ -1192,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "If",
           "normalized": "Exp Bool-\u003eBlock a-\u003eElses a-\u003eStmt()",
@@ -1207,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JArrayIndex",
           "package": "HJavaScript",
@@ -1216,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JArrayIndex",
           "normalized": "Exp(Array a)-\u003eExp Int-\u003eVar a",
@@ -1231,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JAssign",
           "package": "HJavaScript",
@@ -1240,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JAssign",
           "normalized": "Var a-\u003eExp a-\u003eExp a",
@@ -1255,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JAssignWith",
           "package": "HJavaScript",
@@ -1264,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JAssignWith",
           "normalized": "Var a-\u003eAssignOp a-\u003eExp a-\u003eExp a",
@@ -1279,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JBinOp",
           "package": "HJavaScript",
@@ -1288,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JBinOp",
           "normalized": "Exp a-\u003eBinOp a b-\u003eExp a-\u003eExp b",
@@ -1303,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JBlock",
           "package": "HJavaScript",
@@ -1312,6 +1427,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JBlock",
           "normalized": "Block()-\u003eExp()",
@@ -1327,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JBool",
           "package": "HJavaScript",
@@ -1336,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JBool",
           "normalized": "Bool-\u003eExp Bool",
@@ -1351,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JCall",
           "package": "HJavaScript",
@@ -1360,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JCall",
           "normalized": "Exp(a-\u003eb)-\u003ec-\u003eExp b",
@@ -1375,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JCastObject",
           "package": "HJavaScript",
@@ -1384,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JCastObject",
           "normalized": "Exp a-\u003eExp a",
@@ -1399,6 +1521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JConst",
           "package": "HJavaScript",
@@ -1408,6 +1531,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JConst",
           "normalized": "String-\u003eExp a",
@@ -1423,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JDecrement",
           "package": "HJavaScript",
@@ -1432,6 +1557,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JDecrement",
           "normalized": "PostPre-\u003eVar a-\u003eExp a",
@@ -1447,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JDelete",
           "package": "HJavaScript",
@@ -1456,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JDelete",
           "normalized": "Var a-\u003eExp Bool",
@@ -1471,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JDeref",
           "package": "HJavaScript",
@@ -1480,6 +1609,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JDeref",
           "normalized": "a-\u003eString-\u003eExp b",
@@ -1495,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JDerefVar",
           "package": "HJavaScript",
@@ -1504,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JDerefVar",
           "normalized": "a-\u003eString-\u003eVar b",
@@ -1519,6 +1651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JFloat",
           "package": "HJavaScript",
@@ -1528,6 +1661,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JFloat",
           "normalized": "Float-\u003eExp Float",
@@ -1543,6 +1677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JFst",
           "package": "HJavaScript",
@@ -1552,6 +1687,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JFst",
           "normalized": "Exp(Rec a b)-\u003eExp a",
@@ -1567,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JFunction",
           "package": "HJavaScript",
@@ -1576,6 +1713,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JFunction",
           "normalized": "Maybe String-\u003ea-\u003eBlock b-\u003eExp(c-\u003eb)",
@@ -1591,6 +1729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JIfOp",
           "package": "HJavaScript",
@@ -1600,6 +1739,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JIfOp",
           "normalized": "Exp Bool-\u003eExp a-\u003eExp a-\u003eExp a",
@@ -1615,6 +1755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JIncrement",
           "package": "HJavaScript",
@@ -1624,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JIncrement",
           "normalized": "PostPre-\u003eVar a-\u003eExp a",
@@ -1639,6 +1781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JInt",
           "package": "HJavaScript",
@@ -1648,6 +1791,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JInt",
           "normalized": "Int-\u003eExp Int",
@@ -1663,6 +1807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JIsImpl",
           "package": "HJavaScript",
@@ -1672,6 +1817,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JIsImpl",
           "normalized": "Exp a-\u003eb-\u003eExp Bool",
@@ -1687,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JMember",
           "package": "HJavaScript",
@@ -1696,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JMember",
           "normalized": "String-\u003eVar a",
@@ -1711,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JNeg",
           "package": "HJavaScript",
@@ -1720,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JNeg",
           "normalized": "Exp a-\u003eExp a",
@@ -1735,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JNew",
           "package": "HJavaScript",
@@ -1744,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JNew",
           "normalized": "a-\u003eb-\u003eExp a",
@@ -1759,6 +1911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JNot",
           "package": "HJavaScript",
@@ -1768,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JNot",
           "normalized": "Exp Bool-\u003eExp Bool",
@@ -1783,6 +1937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JNull",
           "package": "HJavaScript",
@@ -1792,6 +1947,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JNull",
           "package": "HJavaScript",
@@ -1805,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JParam",
           "package": "HJavaScript",
@@ -1814,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JParam",
           "normalized": "String-\u003eVar a",
@@ -1829,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JPropertyVar",
           "package": "HJavaScript",
@@ -1838,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JPropertyVar",
           "normalized": "a-\u003eExp b-\u003eVar c",
@@ -1853,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JRec",
           "package": "HJavaScript",
@@ -1862,6 +2023,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JRec",
           "normalized": "Exp a-\u003eExp b-\u003eExp(Rec a b)",
@@ -1877,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JShow",
           "package": "HJavaScript",
@@ -1886,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JShow",
           "normalized": "Exp a-\u003eExp String",
@@ -1901,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JSnd",
           "package": "HJavaScript",
@@ -1910,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JSnd",
           "normalized": "Exp(Rec a b)-\u003eExp b",
@@ -1925,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JString",
           "package": "HJavaScript",
@@ -1934,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JString",
           "normalized": "String-\u003eExp String",
@@ -1949,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JThis",
           "package": "HJavaScript",
@@ -1958,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JThis",
           "package": "HJavaScript",
@@ -1971,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JValueOf",
           "package": "HJavaScript",
@@ -1980,6 +2151,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JValueOf",
           "normalized": "Var a-\u003eExp a",
@@ -1995,6 +2167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "JVar",
           "package": "HJavaScript",
@@ -2004,6 +2177,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "JVar",
           "normalized": "String-\u003eVar a",
@@ -2019,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "LEThan",
           "package": "HJavaScript",
@@ -2028,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "LEThan",
           "package": "HJavaScript",
@@ -2041,6 +2217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "LThan",
           "package": "HJavaScript",
@@ -2050,6 +2227,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "LThan",
           "package": "HJavaScript",
@@ -2063,6 +2241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Minus",
           "package": "HJavaScript",
@@ -2072,6 +2251,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Minus",
           "package": "HJavaScript",
@@ -2085,6 +2265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "MinusAssign",
           "package": "HJavaScript",
@@ -2094,6 +2275,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "MinusAssign",
           "package": "HJavaScript",
@@ -2107,6 +2289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Mod",
           "package": "HJavaScript",
@@ -2116,6 +2299,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Mod",
           "package": "HJavaScript",
@@ -2129,6 +2313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "ModAssign",
           "package": "HJavaScript",
@@ -2138,6 +2323,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "ModAssign",
           "package": "HJavaScript",
@@ -2151,6 +2337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "NoElse",
           "package": "HJavaScript",
@@ -2160,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "NoElse",
           "normalized": "Elses()",
@@ -2175,6 +2363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "NotEquals",
           "package": "HJavaScript",
@@ -2184,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "NotEquals",
           "package": "HJavaScript",
@@ -2197,6 +2387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Or",
           "package": "HJavaScript",
@@ -2206,6 +2397,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Or",
           "package": "HJavaScript",
@@ -2219,6 +2411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "OrAssign",
           "package": "HJavaScript",
@@ -2228,6 +2421,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "OrAssign",
           "package": "HJavaScript",
@@ -2241,6 +2435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Plus",
           "package": "HJavaScript",
@@ -2250,6 +2445,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Plus",
           "package": "HJavaScript",
@@ -2263,6 +2459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "PlusAssign",
           "package": "HJavaScript",
@@ -2272,6 +2469,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "PlusAssign",
           "package": "HJavaScript",
@@ -2285,6 +2483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Pre",
           "package": "HJavaScript",
@@ -2294,6 +2493,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Pre",
           "package": "HJavaScript",
@@ -2307,6 +2507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Pst",
           "package": "HJavaScript",
@@ -2316,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Pst",
           "package": "HJavaScript",
@@ -2329,6 +2531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Return",
           "package": "HJavaScript",
@@ -2338,6 +2541,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Return",
           "normalized": "Exp a-\u003eStmt a",
@@ -2353,6 +2557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Sequence",
           "package": "HJavaScript",
@@ -2362,6 +2567,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Sequence",
           "normalized": "Block()-\u003eStmt a-\u003eBlock a",
@@ -2377,6 +2583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "Times",
           "package": "HJavaScript",
@@ -2386,6 +2593,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "Times",
           "package": "HJavaScript",
@@ -2399,6 +2607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "TimesAssign",
           "package": "HJavaScript",
@@ -2408,6 +2617,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "TimesAssign",
           "package": "HJavaScript",
@@ -2421,6 +2631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "VarAssign",
           "package": "HJavaScript",
@@ -2430,6 +2641,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "VarAssign",
           "normalized": "String-\u003eExp a-\u003eStmt()",
@@ -2445,6 +2657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "VarDecl",
           "package": "HJavaScript",
@@ -2454,6 +2667,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "VarDecl",
           "normalized": "String-\u003eStmt()",
@@ -2469,6 +2683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "VarDeclAssign",
           "package": "HJavaScript",
@@ -2478,6 +2693,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "VarDeclAssign",
           "normalized": "String-\u003eExp a-\u003eStmt()",
@@ -2493,6 +2709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "While",
           "package": "HJavaScript",
@@ -2502,6 +2719,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "While",
           "normalized": "Exp Bool-\u003eBlock()-\u003eStmt()",
@@ -2517,6 +2735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "call",
           "package": "HJavaScript",
@@ -2526,6 +2745,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "call",
           "normalized": "Exp(a-\u003eb)-\u003ec-\u003eExp b",
@@ -2540,6 +2760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "deref",
           "package": "HJavaScript",
@@ -2549,6 +2770,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "deref",
           "normalized": "String-\u003ea-\u003eExp b",
@@ -2563,6 +2785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "derefVar",
           "package": "HJavaScript",
@@ -2572,6 +2795,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "derefVar",
           "normalized": "String-\u003ea-\u003eVar b",
@@ -2587,6 +2811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "jshow",
           "package": "HJavaScript",
@@ -2596,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "jshow",
           "normalized": "a-\u003eJString",
@@ -2610,6 +2836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "methodCall",
           "package": "HJavaScript",
@@ -2619,6 +2846,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "methodCall",
           "normalized": "String-\u003ea-\u003eb-\u003eExp c",
@@ -2634,6 +2862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "methodCallNoArgs",
           "package": "HJavaScript",
@@ -2643,6 +2872,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "methodCallNoArgs",
           "normalized": "String-\u003ea-\u003eExp b",
@@ -2658,6 +2888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "mkFParams",
           "package": "HJavaScript",
@@ -2667,6 +2898,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "mkFParams",
           "normalized": "a b(c-\u003ed)-\u003eInt-\u003ec",
@@ -2682,6 +2914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "propertyVar",
           "package": "HJavaScript",
@@ -2691,6 +2924,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "propertyVar",
           "normalized": "Exp a-\u003eb-\u003eVar c",
@@ -2706,6 +2940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "renderBlock",
           "package": "HJavaScript",
@@ -2715,6 +2950,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "renderBlock",
           "normalized": "Block a-\u003eString",
@@ -2730,6 +2966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "showsFParams",
           "package": "HJavaScript",
@@ -2739,6 +2976,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "showsFParams",
           "normalized": "a-\u003eShowS",
@@ -2755,6 +2993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a Block from a Stmt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "toBlock",
           "package": "HJavaScript",
@@ -2765,6 +3004,7 @@
         "index": {
           "description": "Generates Block from Stmt",
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "toBlock",
           "normalized": "Stmt a-\u003eBlock a",
@@ -2780,6 +3020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "toExp",
           "package": "HJavaScript",
@@ -2789,6 +3030,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "toExp",
           "normalized": "a-\u003eExp b",
@@ -2804,6 +3046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "toJBool",
           "package": "HJavaScript",
@@ -2813,6 +3056,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "toJBool",
           "normalized": "a-\u003eExp Bool",
@@ -2828,6 +3072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "toJFloat",
           "package": "HJavaScript",
@@ -2837,6 +3082,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "toJFloat",
           "normalized": "a-\u003eExp Float",
@@ -2852,6 +3098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "toJInt",
           "package": "HJavaScript",
@@ -2861,6 +3108,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "toJInt",
           "normalized": "a-\u003eExp Int",
@@ -2876,6 +3124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "toJString",
           "package": "HJavaScript",
@@ -2885,6 +3134,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "toJString",
           "normalized": "a-\u003eExp String",
@@ -2900,6 +3150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "v2e",
           "package": "HJavaScript",
@@ -2909,6 +3160,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "v2e",
           "normalized": "a-\u003eb",
@@ -2924,6 +3176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the value of a variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "val",
           "package": "HJavaScript",
@@ -2934,6 +3187,7 @@
         "index": {
           "description": "Get the value of variable",
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "val",
           "normalized": "Var a-\u003eExp a",
@@ -2948,6 +3202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "voidMethodCall",
           "package": "HJavaScript",
@@ -2957,6 +3212,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "voidMethodCall",
           "normalized": "String-\u003ea-\u003eb-\u003eStmt()",
@@ -2972,6 +3228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:29 UTC 2014",
           "module": "Language.HJavaScript.Syntax",
           "name": "voidMethodCallNoArgs",
           "package": "HJavaScript",
@@ -2981,6 +3238,7 @@
         },
         "index": {
           "hierarchy": "Language HJavaScript Syntax",
+          "indexed": "2014-03-11T16:45:29",
           "module": "Language.HJavaScript.Syntax",
           "name": "voidMethodCallNoArgs",
           "normalized": "String-\u003ea-\u003eStmt()",

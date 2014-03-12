@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "texmath"
+        "phrase": "texmath",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for parsing LaTeX macro definitions and applying macros\n to LateX expressions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Macros",
           "name": "Macros",
           "package": "texmath",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Functions for parsing LaTeX macro definitions and applying macros to LateX expressions",
           "hierarchy": "Text TeXMath Macros",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Macros",
           "name": "Macros",
           "package": "texmath",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Macros",
           "name": "Macro",
           "package": "texmath",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Macros",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Macros",
           "name": "Macro",
           "package": "texmath",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a list of macros to a string recursively until a fixed\n point is reached.  If there are several macros in the list with the\n same name, earlier ones will shadow later ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Macros",
           "name": "applyMacros",
           "package": "texmath",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Applies list of macros to string recursively until fixed point is reached If there are several macros in the list with the same name earlier ones will shadow later ones",
           "hierarchy": "Text TeXMath Macros",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Macros",
           "name": "applyMacros",
           "normalized": "[Macro]-\u003eString-\u003eString",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a string for a list of macro definitions, optionally\n separated and ended by spaces and TeX comments.  Returns\n the list of macros (which may be empty) and the unparsed\n portion of the input string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Macros",
           "name": "parseMacroDefinitions",
           "package": "texmath",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Parses string for list of macro definitions optionally separated and ended by spaces and TeX comments Returns the list of macros which may be empty and the unparsed portion of the input string",
           "hierarchy": "Text TeXMath Macros",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Macros",
           "name": "parseMacroDefinitions",
           "normalized": "String-\u003e([Macro],String)",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for writing a parsed formula as MathML.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.MathML",
           "name": "MathML",
           "package": "texmath",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Functions for writing parsed formula as MathML",
           "hierarchy": "Text TeXMath MathML",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.MathML",
           "name": "MathML",
           "package": "texmath",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.MathML",
           "name": "showExp",
           "package": "texmath",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath MathML",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.MathML",
           "name": "showExp",
           "normalized": "Exp-\u003eElement",
@@ -161,6 +173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.MathML",
           "name": "toMathML",
           "package": "texmath",
@@ -170,6 +183,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath MathML",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.MathML",
           "name": "toMathML",
           "normalized": "DisplayType-\u003e[Exp]-\u003eElement",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for writing a parsed formula as OMML.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.OMML",
           "name": "OMML",
           "package": "texmath",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Functions for writing parsed formula as OMML",
           "hierarchy": "Text TeXMath OMML",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.OMML",
           "name": "OMML",
           "package": "texmath",
@@ -208,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.OMML",
           "name": "showExp",
           "package": "texmath",
@@ -217,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath OMML",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.OMML",
           "name": "showExp",
           "normalized": "Exp-\u003e[Element]",
@@ -232,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.OMML",
           "name": "toOMML",
           "package": "texmath",
@@ -241,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath OMML",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.OMML",
           "name": "toOMML",
           "normalized": "DisplayType-\u003e[Exp]-\u003eElement",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for writing a parsed formula as a list of Pandoc\n     Inlines.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Pandoc",
           "name": "Pandoc",
           "package": "texmath",
@@ -266,6 +287,7 @@
         "index": {
           "description": "Functions for writing parsed formula as list of Pandoc Inlines",
           "hierarchy": "Text TeXMath Pandoc",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Pandoc",
           "name": "Pandoc",
           "package": "texmath",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a formula to a list of \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e inlines.\n Defaults to raw formula between \u003ccode\u003e$\u003c/code\u003e characters if entire formula\n can't be converted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Pandoc",
           "name": "toPandoc",
           "package": "texmath",
@@ -290,6 +313,7 @@
         "index": {
           "description": "Converts formula to list of Pandoc inlines Defaults to raw formula between characters if entire formula can be converted",
           "hierarchy": "Text TeXMath Pandoc",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Pandoc",
           "name": "toPandoc",
           "normalized": "DisplayType-\u003e[Exp]-\u003eMaybe[Inline]",
@@ -306,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for parsing a LaTeX formula to a Haskell representation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Parser",
           "name": "Parser",
           "package": "texmath",
@@ -315,6 +340,7 @@
         "index": {
           "description": "Functions for parsing LaTeX formula to Haskell representation",
           "hierarchy": "Text TeXMath Parser",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Parser",
           "name": "Parser",
           "package": "texmath",
@@ -329,6 +355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a formula, returning a list of \u003ccode\u003e\u003ca\u003eExp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Parser",
           "name": "parseFormula",
           "package": "texmath",
@@ -339,6 +366,7 @@
         "index": {
           "description": "Parse formula returning list of Exp",
           "hierarchy": "Text TeXMath Parser",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Parser",
           "name": "parseFormula",
           "normalized": "String-\u003eEither String[Exp]",
@@ -355,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunction for replacing strings of characters with their respective mathvariant\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.ToUnicode",
           "name": "ToUnicode",
           "package": "texmath",
@@ -364,6 +393,7 @@
         "index": {
           "description": "Function for replacing strings of characters with their respective mathvariant",
           "hierarchy": "Text TeXMath ToUnicode",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.ToUnicode",
           "name": "ToUnicode",
           "package": "texmath",
@@ -378,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace all characters in the string A-Z, a-z with their corresponding mathvariant unicode character.\n | MathML has a mathvariant attribute which is unimplemented in Firefox\n | (see https:\u003cem/\u003ebugzilla.mozilla.org/show_bug.cgi?id=114365)\n | Therefore, we may want to translate mathscr, etc to unicode symbols directly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.ToUnicode",
           "name": "toUnicode",
           "package": "texmath",
@@ -388,6 +419,7 @@
         "index": {
           "description": "Replace all characters in the string A-Z a-z with their corresponding mathvariant unicode character MathML has mathvariant attribute which is unimplemented in Firefox see https bugzilla.mozilla.org show bug.cgi id Therefore we may want to translate mathscr etc to unicode symbols directly",
           "hierarchy": "Text TeXMath ToUnicode",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.ToUnicode",
           "name": "toUnicode",
           "normalized": "TextType-\u003eString-\u003eString",
@@ -404,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes for representing a structured formula.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "Types",
           "package": "texmath",
@@ -413,6 +446,7 @@
         "index": {
           "description": "Types for representing structured formula",
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "Types",
           "package": "texmath",
@@ -426,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "Alignment",
           "package": "texmath",
@@ -434,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "Alignment",
           "package": "texmath",
@@ -447,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "ArrayLine",
           "package": "texmath",
@@ -455,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "ArrayLine",
           "package": "texmath",
@@ -468,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "DisplayType",
           "package": "texmath",
@@ -476,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "DisplayType",
           "package": "texmath",
@@ -489,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "Exp",
           "package": "texmath",
@@ -497,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "Exp",
           "package": "texmath",
@@ -510,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "TeXSymbolType",
           "package": "texmath",
@@ -518,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "TeXSymbolType",
           "package": "texmath",
@@ -531,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "TextType",
           "package": "texmath",
@@ -539,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "TextType",
           "package": "texmath",
@@ -552,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "Accent",
           "package": "texmath",
@@ -561,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "Accent",
           "package": "texmath",
@@ -574,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "AlignCenter",
           "package": "texmath",
@@ -583,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "AlignCenter",
           "package": "texmath",
@@ -596,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "AlignDefault",
           "package": "texmath",
@@ -605,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "AlignDefault",
           "package": "texmath",
@@ -618,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "AlignLeft",
           "package": "texmath",
@@ -627,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "AlignLeft",
           "package": "texmath",
@@ -640,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "AlignRight",
           "package": "texmath",
@@ -649,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "AlignRight",
           "package": "texmath",
@@ -662,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "Bin",
           "package": "texmath",
@@ -671,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "Bin",
           "package": "texmath",
@@ -684,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "Close",
           "package": "texmath",
@@ -693,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "Close",
           "package": "texmath",
@@ -752,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "EArray",
           "package": "texmath",
@@ -761,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "EArray",
           "normalized": "EArray[Alignment][ArrayLine]",
@@ -776,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "EBinary",
           "package": "texmath",
@@ -785,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "EBinary",
           "package": "texmath",
@@ -798,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "EDelimited",
           "package": "texmath",
@@ -807,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "EDelimited",
           "normalized": "EDelimited String String[Exp]",
@@ -822,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "EDown",
           "package": "texmath",
@@ -831,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "EDown",
           "package": "texmath",
@@ -844,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "EDownup",
           "package": "texmath",
@@ -853,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "EDownup",
           "package": "texmath",
@@ -866,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "EGrouped",
           "package": "texmath",
@@ -875,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "EGrouped",
           "normalized": "EGrouped[Exp]",
@@ -890,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "EIdentifier",
           "package": "texmath",
@@ -899,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "EIdentifier",
           "package": "texmath",
@@ -912,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "EMathOperator",
           "package": "texmath",
@@ -921,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "EMathOperator",
           "package": "texmath",
@@ -934,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "ENumber",
           "package": "texmath",
@@ -943,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "ENumber",
           "package": "texmath",
@@ -956,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "EOver",
           "package": "texmath",
@@ -965,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "EOver",
           "package": "texmath",
@@ -978,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "EScaled",
           "package": "texmath",
@@ -987,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "EScaled",
           "package": "texmath",
@@ -1000,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "ESpace",
           "package": "texmath",
@@ -1009,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "ESpace",
           "package": "texmath",
@@ -1022,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "EStretchy",
           "package": "texmath",
@@ -1031,6 +1116,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "EStretchy",
           "package": "texmath",
@@ -1044,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "ESub",
           "package": "texmath",
@@ -1053,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "ESub",
           "package": "texmath",
@@ -1066,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "ESubsup",
           "package": "texmath",
@@ -1075,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "ESubsup",
           "package": "texmath",
@@ -1088,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "ESuper",
           "package": "texmath",
@@ -1097,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "ESuper",
           "package": "texmath",
@@ -1110,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "ESymbol",
           "package": "texmath",
@@ -1119,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "ESymbol",
           "package": "texmath",
@@ -1132,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "EText",
           "package": "texmath",
@@ -1141,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "EText",
           "package": "texmath",
@@ -1154,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "EUnary",
           "package": "texmath",
@@ -1163,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "EUnary",
           "package": "texmath",
@@ -1176,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "EUnder",
           "package": "texmath",
@@ -1185,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "EUnder",
           "package": "texmath",
@@ -1198,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "EUnderover",
           "package": "texmath",
@@ -1207,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "EUnderover",
           "package": "texmath",
@@ -1220,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "EUp",
           "package": "texmath",
@@ -1229,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "EUp",
           "package": "texmath",
@@ -1242,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "Op",
           "package": "texmath",
@@ -1251,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "Op",
           "package": "texmath",
@@ -1264,6 +1370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "Open",
           "package": "texmath",
@@ -1273,6 +1380,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "Open",
           "package": "texmath",
@@ -1286,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "Ord",
           "package": "texmath",
@@ -1295,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "Ord",
           "package": "texmath",
@@ -1308,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "Pun",
           "package": "texmath",
@@ -1317,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "Pun",
           "package": "texmath",
@@ -1330,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "Rel",
           "package": "texmath",
@@ -1339,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "Rel",
           "package": "texmath",
@@ -1352,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "TextBold",
           "package": "texmath",
@@ -1361,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "TextBold",
           "package": "texmath",
@@ -1374,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "TextBoldFraktur",
           "package": "texmath",
@@ -1383,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "TextBoldFraktur",
           "package": "texmath",
@@ -1396,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "TextBoldItalic",
           "package": "texmath",
@@ -1405,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "TextBoldItalic",
           "package": "texmath",
@@ -1418,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "TextBoldSansSerif",
           "package": "texmath",
@@ -1427,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "TextBoldSansSerif",
           "package": "texmath",
@@ -1440,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "TextBoldSansSerifItalic",
           "package": "texmath",
@@ -1449,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "TextBoldSansSerifItalic",
           "package": "texmath",
@@ -1462,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "TextBoldScript",
           "package": "texmath",
@@ -1471,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "TextBoldScript",
           "package": "texmath",
@@ -1484,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "TextDoubleStruck",
           "package": "texmath",
@@ -1493,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "TextDoubleStruck",
           "package": "texmath",
@@ -1506,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "TextFraktur",
           "package": "texmath",
@@ -1515,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "TextFraktur",
           "package": "texmath",
@@ -1528,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "TextItalic",
           "package": "texmath",
@@ -1537,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "TextItalic",
           "package": "texmath",
@@ -1550,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "TextMonospace",
           "package": "texmath",
@@ -1559,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "TextMonospace",
           "package": "texmath",
@@ -1572,6 +1706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "TextNormal",
           "package": "texmath",
@@ -1581,6 +1716,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "TextNormal",
           "package": "texmath",
@@ -1594,6 +1730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "TextSansSerif",
           "package": "texmath",
@@ -1603,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "TextSansSerif",
           "package": "texmath",
@@ -1616,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "TextSansSerifItalic",
           "package": "texmath",
@@ -1625,6 +1764,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "TextSansSerifItalic",
           "package": "texmath",
@@ -1638,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath.Types",
           "name": "TextScript",
           "package": "texmath",
@@ -1647,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath Types",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath.Types",
           "name": "TextScript",
           "package": "texmath",
@@ -1661,6 +1803,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for converting LaTeX math formulas to MathML.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath",
           "name": "TeXMath",
           "package": "texmath",
@@ -1670,6 +1813,7 @@
         "index": {
           "description": "Functions for converting LaTeX math formulas to MathML",
           "hierarchy": "Text TeXMath",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath",
           "name": "TeXMath",
           "package": "texmath",
@@ -1683,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath",
           "name": "DisplayType",
           "package": "texmath",
@@ -1691,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath",
           "name": "DisplayType",
           "package": "texmath",
@@ -1704,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath",
           "name": "texMathToMathML",
           "package": "texmath",
@@ -1713,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath",
           "name": "texMathToMathML",
           "normalized": "DisplayType-\u003eString-\u003eEither String Element",
@@ -1728,6 +1876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath",
           "name": "texMathToOMML",
           "package": "texmath",
@@ -1737,6 +1886,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath",
           "name": "texMathToOMML",
           "normalized": "DisplayType-\u003eString-\u003eEither String Element",
@@ -1752,6 +1902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:04 UTC 2014",
           "module": "Text.TeXMath",
           "name": "texMathToPandoc",
           "package": "texmath",
@@ -1761,6 +1912,7 @@
         },
         "index": {
           "hierarchy": "Text TeXMath",
+          "indexed": "2014-03-11T20:20:04",
           "module": "Text.TeXMath",
           "name": "texMathToPandoc",
           "normalized": "DisplayType-\u003eString-\u003eEither String[Inline]",

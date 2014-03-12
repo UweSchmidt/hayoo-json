@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mines"
+        "phrase": "mines",
+        "type": "phrase"
       },
       "type": "context"
     }

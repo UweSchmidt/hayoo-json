@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sylvia"
+        "phrase": "sylvia",
+        "type": "phrase"
       },
       "type": "context"
     }

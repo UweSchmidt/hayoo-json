@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "JSON-Combinator-Examples"
+        "phrase": "JSON-Combinator-Examples",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:09 UTC 2014",
           "module": "Text.JSON.Combinator.Examples",
           "name": "Examples",
           "package": "JSON-Combinator-Examples",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Combinator Examples",
+          "indexed": "2014-03-11T16:50:09",
           "module": "Text.JSON.Combinator.Examples",
           "name": "Examples",
           "package": "JSON-Combinator-Examples",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsing both \u003ccode\u003eText.JSON\u003c/code\u003e and \u003ccode\u003eText.JSONb\u003c/code\u003e,\n then given a file name of a JSON object,\n go through each field of that object and:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e If it is a string, reverse it\n\u003c/li\u003e\u003cli\u003e If it is a number, add 1 to it\n\u003c/li\u003e\u003cli\u003e If it is a boolean, invert it\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003ethen pretty-print the result of each of the parsers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:09 UTC 2014",
           "module": "Text.JSON.Combinator.Examples",
           "name": "example1",
           "package": "JSON-Combinator-Examples",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Using both Text.JSON and Text.JSONb then given file name of JSON object go through each field of that object and If it is string reverse it If it is number add to it If it is boolean invert it then pretty-print the result of each of the parsers",
           "hierarchy": "Text JSON Combinator Examples",
+          "indexed": "2014-03-11T16:50:09",
           "module": "Text.JSON.Combinator.Examples",
           "name": "example1",
           "normalized": "FilePath-\u003eIO()",

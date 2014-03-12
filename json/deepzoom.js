@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "deepzoom"
+        "phrase": "deepzoom",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:37 UTC 2014",
           "module": "Graphics.Transform.DeepZoom.Slice",
           "name": "Slice",
           "package": "deepzoom",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform DeepZoom Slice",
+          "indexed": "2014-03-11T17:52:37",
           "module": "Graphics.Transform.DeepZoom.Slice",
           "name": "Slice",
           "package": "deepzoom",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:37 UTC 2014",
           "module": "Graphics.Transform.DeepZoom.Slice",
           "name": "sliceImage",
           "package": "deepzoom",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Graphics Transform DeepZoom Slice",
+          "indexed": "2014-03-11T17:52:37",
           "module": "Graphics.Transform.DeepZoom.Slice",
           "name": "sliceImage",
           "normalized": "FilePath-\u003eIO()",

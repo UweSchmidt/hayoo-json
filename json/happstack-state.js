@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "happstack-state"
+        "phrase": "happstack-state",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003einstances of Typeable, Data, Serialize, Version, and Default for ClockTime\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ClockTime",
           "name": "ClockTime",
           "package": "happstack-state",
@@ -28,6 +29,7 @@
         "index": {
           "description": "instances of Typeable Data Serialize Version and Default for ClockTime",
           "hierarchy": "Happstack State ClockTime",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ClockTime",
           "name": "ClockTime",
           "package": "happstack-state",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA representation of the internal clock time.\n Clock times may be compared, converted to strings, or converted to an\n external calendar time \u003ccode\u003e\u003ca\u003eCalendarTime\u003c/a\u003e\u003c/code\u003e for I/O or other manipulations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ClockTime",
           "name": "ClockTime",
           "package": "happstack-state",
@@ -50,6 +53,7 @@
         "index": {
           "description": "representation of the internal clock time Clock times may be compared converted to strings or converted to an external calendar time CalendarTime for or other manipulations",
           "hierarchy": "Happstack State ClockTime",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ClockTime",
           "name": "ClockTime",
           "package": "happstack-state",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a clock time.  The arguments are a number\n of seconds since 00:00:00 (UTC) on 1 January 1970,\n and an additional number of picoseconds.\n\u003c/p\u003e\u003cp\u003eIn Haskell 98, the \u003ccode\u003e\u003ca\u003eClockTime\u003c/a\u003e\u003c/code\u003e type is abstract.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ClockTime",
           "name": "TOD",
           "package": "happstack-state",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Construct clock time The arguments are number of seconds since UTC on January and an additional number of picoseconds In Haskell the ClockTime type is abstract",
           "hierarchy": "Happstack State ClockTime",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ClockTime",
           "name": "TOD",
           "package": "happstack-state",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "ComponentSystem",
           "package": "happstack-state",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "ComponentSystem",
           "package": "happstack-state",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType level Cons for enumerating type dependencies of a Component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": ":+:",
           "package": "happstack-state",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Type level Cons for enumerating type dependencies of Component",
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": ":+:",
           "package": "happstack-state",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "Collect",
           "package": "happstack-state",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "Collect",
           "package": "happstack-state",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "Collection",
           "package": "happstack-state",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "Collection",
           "package": "happstack-state",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn order to be used as a part of Happstack's MACID state, a data type\n needs to be an instance of Component.  The minimal definition is \n an initialValue and the type corresponding to the set of Dependencies.\n Note that the SubHandlers condition will be automatically met if the\n Dependencies is built from \u003ccode\u003e\u003ca\u003eEnd\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e:+:\u003c/a\u003e\u003c/code\u003e with other instances of \n Component and Methods\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "Component",
           "package": "happstack-state",
@@ -181,6 +196,7 @@
         "index": {
           "description": "In order to be used as part of Happstack MACID state data type needs to be an instance of Component The minimal definition is an initialValue and the type corresponding to the set of Dependencies Note that the SubHandlers condition will be automatically met if the Dependencies is built from End and with other instances of Component and Methods",
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "Component",
           "package": "happstack-state",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState type -\u003e method map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "ComponentTree",
           "package": "happstack-state",
@@ -204,6 +221,7 @@
         "index": {
           "description": "State type method map",
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "ComponentTree",
           "package": "happstack-state",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState type -\u003e all versions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "ComponentVersions",
           "package": "happstack-state",
@@ -227,6 +246,7 @@
         "index": {
           "description": "State type all versions",
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "ComponentVersions",
           "package": "happstack-state",
@@ -241,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent of [] for type level lists.  Used for Components that have no\n dependencies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "End",
           "package": "happstack-state",
@@ -250,6 +271,7 @@
         "index": {
           "description": "Equivalent of for type level lists Used for Components that have no dependencies",
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "End",
           "package": "happstack-state",
@@ -264,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMethod is the actual type that all Updates and Querys eventually\n get lifted into via \u003ccode\u003emkMethods\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "Method",
           "package": "happstack-state",
@@ -273,6 +296,7 @@
         "index": {
           "description": "Method is the actual type that all Updates and Querys eventually get lifted into via mkMethods",
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "Method",
           "package": "happstack-state",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "MethodMap",
           "package": "happstack-state",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "MethodMap",
           "package": "happstack-state",
@@ -308,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for enumerating the set of defined methods by the type of the state.\n Instances should not be defined directly, but using \u003ccode\u003emkMethods\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "Methods",
           "package": "happstack-state",
@@ -317,6 +344,7 @@
         "index": {
           "description": "Class for enumerating the set of defined methods by the type of the state Instances should not be defined directly but using mkMethods",
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "Methods",
           "package": "happstack-state",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "QueryEvent",
           "package": "happstack-state",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "QueryEvent",
           "package": "happstack-state",
@@ -352,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubHandlers is used to build up the set of components corresponding to\n the instance type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "SubHandlers",
           "package": "happstack-state",
@@ -361,6 +392,7 @@
         "index": {
           "description": "SubHandlers is used to build up the set of components corresponding to the instance type",
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "SubHandlers",
           "package": "happstack-state",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "UpdateEvent",
           "package": "happstack-state",
@@ -382,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "UpdateEvent",
           "package": "happstack-state",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": ":+:",
           "package": "happstack-state",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": ":+:",
           "package": "happstack-state",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "Collection",
           "package": "happstack-state",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "Collection",
           "normalized": "Collection ComponentTree ComponentVersions[IO()]",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "End",
           "package": "happstack-state",
@@ -449,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "End",
           "package": "happstack-state",
@@ -462,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "MethodMap",
           "package": "happstack-state",
@@ -471,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "MethodMap",
           "normalized": "Map String(Method a)-\u003eMethodMap",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "Query",
           "package": "happstack-state",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "Query",
           "normalized": "(a-\u003eQuery b c)-\u003eMethod b",
@@ -510,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "Update",
           "package": "happstack-state",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "Update",
           "normalized": "(a-\u003eUpdate b c)-\u003eMethod b",
@@ -534,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "addItem",
           "package": "happstack-state",
@@ -543,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "addItem",
           "normalized": "String-\u003eMethodMap-\u003e[ByteString]-\u003eIO()-\u003ea()",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "collectHandlers",
           "package": "happstack-state",
@@ -567,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "collectHandlers",
           "normalized": "Proxy a-\u003e(ComponentTree,ComponentVersions,[IO()])",
@@ -582,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "collectHandlers'",
           "package": "happstack-state",
@@ -591,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "collectHandlers'",
           "normalized": "Proxy a-\u003eCollect()",
@@ -607,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error is thrown when this is evaluated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "dup",
           "package": "happstack-state",
@@ -617,6 +670,7 @@
         "index": {
           "description": "An error is thrown when this is evaluated",
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "dup",
           "normalized": "String-\u003ea",
@@ -631,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "initialValue",
           "package": "happstack-state",
@@ -640,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "initialValue",
           "package": "happstack-state",
@@ -654,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplays the type of a Method\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "methodType",
           "package": "happstack-state",
@@ -664,6 +721,7 @@
         "index": {
           "description": "Displays the type of Method",
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "methodType",
           "normalized": "Method a-\u003eString",
@@ -679,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "methods",
           "package": "happstack-state",
@@ -688,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "methods",
           "normalized": "Proxy a-\u003e[Method a]",
@@ -702,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "onLoad",
           "package": "happstack-state",
@@ -711,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "onLoad",
           "normalized": "Proxy a-\u003eIO()",
@@ -726,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentSystem",
           "name": "subHandlers",
           "package": "happstack-state",
@@ -735,6 +798,7 @@
         },
         "index": {
           "hierarchy": "Happstack State ComponentSystem",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentSystem",
           "name": "subHandlers",
           "normalized": "a-\u003eCollect()",
@@ -750,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentTH",
           "name": "ComponentTH",
           "package": "happstack-state",
@@ -758,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Happstack State ComponentTH",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentTH",
           "name": "ComponentTH",
           "package": "happstack-state",
@@ -772,6 +838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function will derive, for the provided type name and the provided\n   list of methods, an instance of Methods for the given type and necessary\n   instance of UpdateEvent and QueryEvent to make the provided list of functions\n   into Methods.\n   This TH splice needs to be executed for any MACID state type in order to \n   have the necessary code for event handling generated.\n   Ex:  \u003ccode\u003e$(mkMethods ''Foo ['fooUpdate,\u003ccode\u003efooQuery\u003c/code\u003e])\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.ComponentTH",
           "name": "mkMethods",
           "package": "happstack-state",
@@ -782,6 +849,7 @@
         "index": {
           "description": "This function will derive for the provided type name and the provided list of methods an instance of Methods for the given type and necessary instance of UpdateEvent and QueryEvent to make the provided list of functions into Methods This TH splice needs to be executed for any MACID state type in order to have the necessary code for event handling generated Ex mkMethods Foo fooUpdate fooQuery",
           "hierarchy": "Happstack State ComponentTH",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.ComponentTH",
           "name": "mkMethods",
           "normalized": "Name-\u003e[Name]-\u003eQ[Dec]",
@@ -797,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Control",
           "name": "Control",
           "package": "happstack-state",
@@ -805,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Control",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Control",
           "name": "Control",
           "package": "happstack-state",
@@ -818,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Control",
           "name": "processLoggingFlags",
           "package": "happstack-state",
@@ -827,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Control",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Control",
           "name": "processLoggingFlags",
           "normalized": "IO a-\u003eIO a",
@@ -843,6 +915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts the MACID system without replication support.  Uses the default behavior\n of saving the state into the _local directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Control",
           "name": "startSystemState",
           "package": "happstack-state",
@@ -853,6 +926,7 @@
         "index": {
           "description": "Starts the MACID system without replication support Uses the default behavior of saving the state into the local directory",
           "hierarchy": "Happstack State Control",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Control",
           "name": "startSystemState",
           "normalized": "Proxy a-\u003eIO(MVar TxControl)",
@@ -868,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Control",
           "name": "startSystemStateAmazon",
           "package": "happstack-state",
@@ -877,6 +952,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Control",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Control",
           "name": "startSystemStateAmazon",
           "normalized": "ApplicationName-\u003eProxy a-\u003eIO(MVar TxControl)",
@@ -893,6 +969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the default Saver.  It will save the application state into\n the _local directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Control",
           "name": "stdSaver",
           "package": "happstack-state",
@@ -903,6 +980,7 @@
         "index": {
           "description": "Returns the default Saver It will save the application state into the local directory",
           "hierarchy": "Happstack State Control",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Control",
           "name": "stdSaver",
           "package": "happstack-state",
@@ -917,6 +995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait for a signal.\n   On unix, a signal is sigINT or sigTERM. On windows, the signal\n   is entering \u003ccode\u003ee\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Control",
           "name": "waitForTermination",
           "package": "happstack-state",
@@ -927,6 +1006,7 @@
         "index": {
           "description": "Wait for signal On unix signal is sigINT or sigTERM On windows the signal is entering",
           "hierarchy": "Happstack State Control",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Control",
           "name": "waitForTermination",
           "normalized": "IO()",
@@ -942,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Impl.File",
           "name": "File",
           "package": "happstack-state",
@@ -950,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Impl File",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Impl.File",
           "name": "File",
           "package": "happstack-state",
@@ -963,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Impl.File",
           "name": "PrefixLock",
           "package": "happstack-state",
@@ -971,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Impl File",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Impl.File",
           "name": "PrefixLock",
           "package": "happstack-state",
@@ -984,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Impl.File",
           "name": "fileReader",
           "package": "happstack-state",
@@ -993,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Impl File",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Impl.File",
           "name": "fileReader",
           "normalized": "FilePath-\u003eString-\u003eInt-\u003eIO(ReaderStream a)",
@@ -1008,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Impl.File",
           "name": "fileWriter",
           "package": "happstack-state",
@@ -1017,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Impl File",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Impl.File",
           "name": "fileWriter",
           "normalized": "FilePath-\u003eString-\u003eInt-\u003eIO(WriterStream a)",
@@ -1032,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Impl.File",
           "name": "obtainPrefixLock",
           "package": "happstack-state",
@@ -1041,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Impl File",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Impl.File",
           "name": "obtainPrefixLock",
           "normalized": "FilePath-\u003eIO PrefixLock",
@@ -1057,6 +1147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelinquish the lock by removing it and then verifying the removal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Impl.File",
           "name": "releasePrefixLock",
           "package": "happstack-state",
@@ -1067,6 +1158,7 @@
         "index": {
           "description": "Relinquish the lock by removing it and then verifying the removal",
           "hierarchy": "Happstack State Saver Impl File",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Impl.File",
           "name": "releasePrefixLock",
           "normalized": "PrefixLock-\u003eIO()",
@@ -1082,6 +1174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Impl.Memory",
           "name": "Memory",
           "package": "happstack-state",
@@ -1090,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Impl Memory",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Impl.Memory",
           "name": "Memory",
           "package": "happstack-state",
@@ -1103,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Impl.Memory",
           "name": "Store",
           "package": "happstack-state",
@@ -1111,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Impl Memory",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Impl.Memory",
           "name": "Store",
           "package": "happstack-state",
@@ -1124,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Impl.Memory",
           "name": "addToStore",
           "package": "happstack-state",
@@ -1133,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Impl Memory",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Impl.Memory",
           "name": "addToStore",
           "normalized": "a-\u003eb-\u003eByteString-\u003eMap a(Map b ByteString)-\u003eMap a(Map b ByteString)",
@@ -1148,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Impl.Memory",
           "name": "memoryReader",
           "package": "happstack-state",
@@ -1157,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Impl Memory",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Impl.Memory",
           "name": "memoryReader",
           "normalized": "MVar Store-\u003eString-\u003eInt-\u003eIO(ReaderStream a)",
@@ -1172,6 +1272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Impl.Memory",
           "name": "memoryWriter",
           "package": "happstack-state",
@@ -1181,6 +1282,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Impl Memory",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Impl.Memory",
           "name": "memoryWriter",
           "normalized": "MVar Store-\u003eString-\u003eInt-\u003eIO(WriterStream a)",
@@ -1196,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Impl.Memory",
           "name": "newMemoryStore",
           "package": "happstack-state",
@@ -1205,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Impl Memory",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Impl.Memory",
           "name": "newMemoryStore",
           "package": "happstack-state",
@@ -1218,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Impl.Memory",
           "name": "parseAll",
           "package": "happstack-state",
@@ -1227,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Impl Memory",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Impl.Memory",
           "name": "parseAll",
           "normalized": "ByteString-\u003e[a]",
@@ -1242,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Impl.Memory",
           "name": "setStore",
           "package": "happstack-state",
@@ -1251,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Impl Memory",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Impl.Memory",
           "name": "setStore",
           "normalized": "a-\u003eb-\u003ec-\u003eMap a(Map b c)-\u003eMap a(Map b c)",
@@ -1266,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Impl.Queue",
           "name": "Queue",
           "package": "happstack-state",
@@ -1274,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Impl Queue",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Impl.Queue",
           "name": "Queue",
           "package": "happstack-state",
@@ -1287,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Impl.Queue",
           "name": "queueReader",
           "package": "happstack-state",
@@ -1296,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Impl Queue",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Impl.Queue",
           "name": "queueReader",
           "normalized": "ReaderStream a-\u003eIO(ReaderStream a)",
@@ -1312,6 +1424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA saver that bunches writes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Impl.Queue",
           "name": "queueWriter",
           "package": "happstack-state",
@@ -1322,6 +1435,7 @@
         "index": {
           "description": "saver that bunches writes",
           "hierarchy": "Happstack State Saver Impl Queue",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Impl.Queue",
           "name": "queueWriter",
           "normalized": "WriterStream Encoded-\u003eIO(WriterStream a)",
@@ -1337,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Types",
           "name": "Types",
           "package": "happstack-state",
@@ -1345,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Types",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Types",
           "name": "Types",
           "package": "happstack-state",
@@ -1358,6 +1474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Types",
           "name": "ReaderStream",
           "package": "happstack-state",
@@ -1366,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Types",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Types",
           "name": "ReaderStream",
           "package": "happstack-state",
@@ -1379,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Types",
           "name": "WriterStream",
           "package": "happstack-state",
@@ -1387,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Types",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Types",
           "name": "WriterStream",
           "package": "happstack-state",
@@ -1400,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Types",
           "name": "ReaderStream",
           "package": "happstack-state",
@@ -1409,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Types",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Types",
           "name": "ReaderStream",
           "package": "happstack-state",
@@ -1422,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Types",
           "name": "WriterStream",
           "package": "happstack-state",
@@ -1431,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Types",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Types",
           "name": "WriterStream",
           "package": "happstack-state",
@@ -1444,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Types",
           "name": "readerClose",
           "package": "happstack-state",
@@ -1453,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Types",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Types",
           "name": "readerClose",
           "normalized": "IO()",
@@ -1468,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Types",
           "name": "readerGet",
           "package": "happstack-state",
@@ -1477,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Types",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Types",
           "name": "readerGet",
           "normalized": "IO([a],Int)",
@@ -1492,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Types",
           "name": "readerGetUncut",
           "package": "happstack-state",
@@ -1501,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Types",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Types",
           "name": "readerGetUncut",
           "normalized": "IO[a]",
@@ -1516,6 +1646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Types",
           "name": "writerAdd",
           "package": "happstack-state",
@@ -1525,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Types",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Types",
           "name": "writerAdd",
           "normalized": "a-\u003eIO()-\u003eIO()",
@@ -1540,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Types",
           "name": "writerAtomicReplace",
           "package": "happstack-state",
@@ -1549,6 +1682,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Types",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Types",
           "name": "writerAtomicReplace",
           "normalized": "a-\u003eIO()",
@@ -1564,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Types",
           "name": "writerClose",
           "package": "happstack-state",
@@ -1573,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Types",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Types",
           "name": "writerClose",
           "normalized": "IO()",
@@ -1588,6 +1724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver.Types",
           "name": "writerCut",
           "package": "happstack-state",
@@ -1597,6 +1734,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver Types",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver.Types",
           "name": "writerCut",
           "package": "happstack-state",
@@ -1610,6 +1748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver",
           "name": "Saver",
           "package": "happstack-state",
@@ -1618,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver",
           "name": "Saver",
           "package": "happstack-state",
@@ -1631,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver",
           "name": "PrefixLock",
           "package": "happstack-state",
@@ -1639,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver",
           "name": "PrefixLock",
           "package": "happstack-state",
@@ -1652,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver",
           "name": "Saver",
           "package": "happstack-state",
@@ -1660,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver",
           "name": "Saver",
           "package": "happstack-state",
@@ -1772,6 +1916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDispatches over the Saver type provided to return a \u003ccode\u003e\u003ca\u003eReaderStream\u003c/a\u003e\u003c/code\u003e for the inferred\n type. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver",
           "name": "createReader",
           "package": "happstack-state",
@@ -1782,6 +1927,7 @@
         "index": {
           "description": "Dispatches over the Saver type provided to return ReaderStream for the inferred type",
           "hierarchy": "Happstack State Saver",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver",
           "name": "createReader",
           "normalized": "Saver-\u003eString-\u003eInt-\u003eIO(ReaderStream a)",
@@ -1798,6 +1944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDispatches over the Saver type provided to return a WriterStream for the\n inferred type. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver",
           "name": "createWriter",
           "package": "happstack-state",
@@ -1808,6 +1955,7 @@
         "index": {
           "description": "Dispatches over the Saver type provided to return WriterStream for the inferred type",
           "hierarchy": "Happstack State Saver",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver",
           "name": "createWriter",
           "normalized": "Saver-\u003eString-\u003eInt-\u003eIO(WriterStream a)",
@@ -1823,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver",
           "name": "obtainLock",
           "package": "happstack-state",
@@ -1832,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver",
           "name": "obtainLock",
           "normalized": "Saver-\u003eIO(Maybe PrefixLock)",
@@ -1847,6 +1997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Saver",
           "name": "releaseLock",
           "package": "happstack-state",
@@ -1856,6 +2007,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Saver",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Saver",
           "name": "releaseLock",
           "normalized": "Maybe PrefixLock-\u003eIO()",
@@ -1871,6 +2023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "Transaction",
           "package": "happstack-state",
@@ -1879,6 +2032,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "Transaction",
           "package": "happstack-state",
@@ -1892,6 +2046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "EH",
           "package": "happstack-state",
@@ -1900,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "EH",
           "package": "happstack-state",
@@ -1913,6 +2069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "EmitInternal",
           "package": "happstack-state",
@@ -1921,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "EmitInternal",
           "package": "happstack-state",
@@ -1934,6 +2092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "EvLoaders",
           "package": "happstack-state",
@@ -1942,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "EvLoaders",
           "package": "happstack-state",
@@ -1955,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "EvLoaders'",
           "package": "happstack-state",
@@ -1963,6 +2124,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "EvLoaders'",
           "package": "happstack-state",
@@ -1976,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "Event",
           "package": "happstack-state",
@@ -1984,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "Event",
           "package": "happstack-state",
@@ -1997,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "EventHandler",
           "package": "happstack-state",
@@ -2005,6 +2170,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "EventHandler",
           "package": "happstack-state",
@@ -2018,6 +2184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "EventItem",
           "package": "happstack-state",
@@ -2026,6 +2193,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "EventItem",
           "package": "happstack-state",
@@ -2039,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "EventLogEntry",
           "package": "happstack-state",
@@ -2047,6 +2216,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "EventLogEntry",
           "package": "happstack-state",
@@ -2060,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "EventMap",
           "package": "happstack-state",
@@ -2068,6 +2239,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "EventMap",
           "package": "happstack-state",
@@ -2081,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "EventQueue",
           "package": "happstack-state",
@@ -2089,6 +2262,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "EventQueue",
           "package": "happstack-state",
@@ -2102,6 +2276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "ExceptionT",
           "package": "happstack-state",
@@ -2110,6 +2285,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "ExceptionT",
           "package": "happstack-state",
@@ -2123,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "GetCheckpointState",
           "package": "happstack-state",
@@ -2131,6 +2308,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "GetCheckpointState",
           "package": "happstack-state",
@@ -2144,6 +2322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "GetState",
           "package": "happstack-state",
@@ -2152,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "GetState",
           "package": "happstack-state",
@@ -2165,6 +2345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "HR",
           "package": "happstack-state",
@@ -2173,6 +2354,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "HR",
           "package": "happstack-state",
@@ -2186,6 +2368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "IHR",
           "package": "happstack-state",
@@ -2194,6 +2377,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "IHR",
           "package": "happstack-state",
@@ -2207,6 +2391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "ProcessQueue",
           "package": "happstack-state",
@@ -2215,6 +2400,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "ProcessQueue",
           "package": "happstack-state",
@@ -2228,6 +2414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "Res",
           "package": "happstack-state",
@@ -2236,6 +2423,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "Res",
           "package": "happstack-state",
@@ -2249,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "RunHandler",
           "package": "happstack-state",
@@ -2257,6 +2446,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "RunHandler",
           "package": "happstack-state",
@@ -2270,6 +2460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "Runner",
           "package": "happstack-state",
@@ -2278,6 +2469,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "Runner",
           "package": "happstack-state",
@@ -2291,6 +2483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "SetCheckpointState",
           "package": "happstack-state",
@@ -2299,6 +2492,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "SetCheckpointState",
           "package": "happstack-state",
@@ -2312,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "SetNewState",
           "package": "happstack-state",
@@ -2320,6 +2515,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "SetNewState",
           "package": "happstack-state",
@@ -2333,6 +2529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "TxControl",
           "package": "happstack-state",
@@ -2341,6 +2538,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "TxControl",
           "package": "happstack-state",
@@ -2354,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "TxRun",
           "package": "happstack-state",
@@ -2362,6 +2561,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "TxRun",
           "package": "happstack-state",
@@ -2375,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "TypeString",
           "package": "happstack-state",
@@ -2383,6 +2584,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "TypeString",
           "package": "happstack-state",
@@ -2396,6 +2598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "EmitInternal",
           "package": "happstack-state",
@@ -2405,6 +2608,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "EmitInternal",
           "package": "happstack-state",
@@ -2418,6 +2622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "Error",
           "package": "happstack-state",
@@ -2427,6 +2632,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "Error",
           "package": "happstack-state",
@@ -2440,6 +2646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "Event",
           "package": "happstack-state",
@@ -2449,6 +2656,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "Event",
           "package": "happstack-state",
@@ -2485,6 +2693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "EventLogEntry",
           "package": "happstack-state",
@@ -2494,6 +2703,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "EventLogEntry",
           "package": "happstack-state",
@@ -2507,6 +2717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "GetCheckpointState",
           "package": "happstack-state",
@@ -2516,6 +2727,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "GetCheckpointState",
           "package": "happstack-state",
@@ -2529,6 +2741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "GetState",
           "package": "happstack-state",
@@ -2538,6 +2751,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "GetState",
           "package": "happstack-state",
@@ -2551,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "HR",
           "package": "happstack-state",
@@ -2560,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "HR",
           "package": "happstack-state",
@@ -2573,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "IHR",
           "package": "happstack-state",
@@ -2582,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "IHR",
           "package": "happstack-state",
@@ -2595,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "Ok",
           "package": "happstack-state",
@@ -2604,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "Ok",
           "package": "happstack-state",
@@ -2617,6 +2837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "QueryHandler",
           "package": "happstack-state",
@@ -2626,6 +2847,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "QueryHandler",
           "normalized": "(a-\u003eIO b)-\u003e(Object-\u003ea)-\u003eEventHandler",
@@ -2641,6 +2863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "SetCheckpointState",
           "package": "happstack-state",
@@ -2650,6 +2873,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "SetCheckpointState",
           "package": "happstack-state",
@@ -2663,6 +2887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "SetNewState",
           "package": "happstack-state",
@@ -2672,6 +2897,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "SetNewState",
           "package": "happstack-state",
@@ -2685,6 +2911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "TxControl",
           "package": "happstack-state",
@@ -2694,6 +2921,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "TxControl",
           "package": "happstack-state",
@@ -2707,6 +2935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "TxRun",
           "package": "happstack-state",
@@ -2716,6 +2945,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "TxRun",
           "package": "happstack-state",
@@ -2729,6 +2959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "UpdateHandler",
           "package": "happstack-state",
@@ -2738,6 +2969,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "UpdateHandler",
           "normalized": "(TxContext-\u003ea-\u003eIO b)-\u003e(a-\u003eIO b)-\u003e(Object-\u003ea)-\u003eEventHandler",
@@ -2753,6 +2985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "addTxId",
           "package": "happstack-state",
@@ -2762,6 +2995,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "addTxId",
           "normalized": "TxRun a-\u003eTxContext-\u003eSTM TxContext",
@@ -2777,6 +3011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "allStateTypes",
           "package": "happstack-state",
@@ -2786,6 +3021,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "allStateTypes",
           "normalized": "Proxy a-\u003e[TypeString]",
@@ -2801,6 +3037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "checkDiff",
           "package": "happstack-state",
@@ -2810,6 +3047,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "checkDiff",
           "normalized": "a-\u003ea-\u003eIO(Maybe a)",
@@ -2825,6 +3063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "componentIO",
           "package": "happstack-state",
@@ -2834,6 +3073,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "componentIO",
           "normalized": "Proxy a-\u003e[IO()]",
@@ -2849,6 +3089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "componentVersions",
           "package": "happstack-state",
@@ -2858,6 +3099,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "componentVersions",
           "normalized": "Proxy a-\u003eMap String[ByteString]",
@@ -2873,6 +3115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "createEventMap",
           "package": "happstack-state",
@@ -2882,6 +3125,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "createEventMap",
           "normalized": "MVar TxControl-\u003eProxy a-\u003eIO EventMap",
@@ -2897,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "createNewTxRun",
           "package": "happstack-state",
@@ -2906,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "createNewTxRun",
           "package": "happstack-state",
@@ -2920,6 +3166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes of each component used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "ctlAllComponents",
           "package": "happstack-state",
@@ -2930,6 +3177,7 @@
         "index": {
           "description": "Types of each component used",
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "ctlAllComponents",
           "normalized": "[String]",
@@ -2945,6 +3193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "ctlChildren",
           "package": "happstack-state",
@@ -2954,6 +3203,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "ctlChildren",
           "normalized": "[(ThreadId,MVar())]",
@@ -2970,6 +3220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap listing all versions of a component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "ctlComponentVersions",
           "package": "happstack-state",
@@ -2980,6 +3231,7 @@
         "index": {
           "description": "Map listing all versions of component",
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "ctlComponentVersions",
           "normalized": "Map String[ByteString]",
@@ -2995,6 +3247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "ctlCreateCheckpoint",
           "package": "happstack-state",
@@ -3004,6 +3257,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "ctlCreateCheckpoint",
           "normalized": "IO()",
@@ -3019,6 +3273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "ctlEventSaver",
           "package": "happstack-state",
@@ -3028,6 +3283,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "ctlEventSaver",
           "package": "happstack-state",
@@ -3042,6 +3298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStores exclusive prefix lock (implemented in filesystem)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "ctlPrefixLock",
           "package": "happstack-state",
@@ -3052,6 +3309,7 @@
         "index": {
           "description": "Stores exclusive prefix lock implemented in filesystem",
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "ctlPrefixLock",
           "package": "happstack-state",
@@ -3066,6 +3324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSaver given by the user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "ctlSaver",
           "package": "happstack-state",
@@ -3076,6 +3335,7 @@
         "index": {
           "description": "Saver given by the user",
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "ctlSaver",
           "package": "happstack-state",
@@ -3089,6 +3349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "emitEvent",
           "package": "happstack-state",
@@ -3098,6 +3359,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "emitEvent",
           "normalized": "a-\u003eIO b",
@@ -3113,6 +3375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "emitEvent'",
           "package": "happstack-state",
@@ -3122,6 +3385,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "emitEvent'",
           "normalized": "TypeString-\u003ea-\u003eIO b",
@@ -3137,6 +3401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "emitFunc",
           "package": "happstack-state",
@@ -3146,6 +3411,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "emitFunc",
           "normalized": "EventMap-\u003eTypeString-\u003ea-\u003eIO b",
@@ -3161,6 +3427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "emitRef",
           "package": "happstack-state",
@@ -3170,6 +3437,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "emitRef",
           "package": "happstack-state",
@@ -3229,6 +3497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "eventStreamRef",
           "package": "happstack-state",
@@ -3238,6 +3507,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "eventStreamRef",
           "package": "happstack-state",
@@ -3251,6 +3521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "eventTString",
           "package": "happstack-state",
@@ -3260,6 +3531,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "eventTString",
           "normalized": "a-\u003eTypeString",
@@ -3275,6 +3547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "extraEvents",
           "package": "happstack-state",
@@ -3284,6 +3557,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "extraEvents",
           "normalized": "TxRun a-\u003eEventMap",
@@ -3299,6 +3573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "getEpochMilli",
           "package": "happstack-state",
@@ -3308,6 +3583,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "getEpochMilli",
           "package": "happstack-state",
@@ -3390,6 +3666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "getState",
           "package": "happstack-state",
@@ -3399,6 +3676,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "getState",
           "normalized": "TypeString-\u003eIO ByteString",
@@ -3414,6 +3692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "getStateType",
           "package": "happstack-state",
@@ -3423,6 +3702,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "getStateType",
           "normalized": "String-\u003eString",
@@ -3461,6 +3741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "globalRandomGen",
           "package": "happstack-state",
@@ -3470,6 +3751,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "globalRandomGen",
           "package": "happstack-state",
@@ -3483,6 +3765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "handleEvent",
           "package": "happstack-state",
@@ -3492,6 +3775,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "handleEvent",
           "normalized": "(a-\u003eEnv-\u003eEv b c-\u003eSTM d)-\u003e(a-\u003ed-\u003eIO(Maybe a,c))-\u003e(Either ExceptionT c-\u003eIO())-\u003eEv b c-\u003eRunHandler a e",
@@ -3507,6 +3791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "handleQuery",
           "package": "happstack-state",
@@ -3516,6 +3801,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "handleQuery",
           "normalized": "(Either ExceptionT a-\u003eIO())-\u003eQuery b a-\u003eRunHandler b c",
@@ -3531,6 +3817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "handleUpdate",
           "package": "happstack-state",
@@ -3540,6 +3827,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "handleUpdate",
           "normalized": "(Either ExceptionT a-\u003eIO())-\u003eUpdate b a-\u003eRunHandler b c",
@@ -3555,6 +3843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "initEventStream",
           "package": "happstack-state",
@@ -3564,6 +3853,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "initEventStream",
           "normalized": "IO()",
@@ -3579,6 +3869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "logMT",
           "package": "happstack-state",
@@ -3588,6 +3879,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "logMT",
           "normalized": "Priority-\u003eString-\u003eIO()",
@@ -3603,6 +3895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "lookupEventHandler",
           "package": "happstack-state",
@@ -3612,6 +3905,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "lookupEventHandler",
           "normalized": "TypeString-\u003eEventMap-\u003eIO EventHandler",
@@ -3627,6 +3921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "newTxContext",
           "package": "happstack-state",
@@ -3636,6 +3931,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "newTxContext",
           "package": "happstack-state",
@@ -3649,6 +3945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "pushEventItem",
           "package": "happstack-state",
@@ -3658,6 +3955,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "pushEventItem",
           "normalized": "TxContext-\u003ea-\u003eIO()",
@@ -3699,6 +3997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "quickQuery'",
           "package": "happstack-state",
@@ -3708,6 +4007,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "quickQuery'",
           "normalized": "TxRun a-\u003eHR a-\u003eIO()",
@@ -3723,6 +4023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "runColdEvent",
           "package": "happstack-state",
@@ -3732,6 +4033,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "runColdEvent",
           "normalized": "TxContext-\u003eObject-\u003eIO Object",
@@ -3747,6 +4049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "runColdEventFunc",
           "package": "happstack-state",
@@ -3756,6 +4059,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "runColdEventFunc",
           "normalized": "TxContext-\u003eObject-\u003eEventMap-\u003eIO Object",
@@ -3771,6 +4075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "runObjectEvent",
           "package": "happstack-state",
@@ -3780,6 +4085,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "runObjectEvent",
           "normalized": "Object-\u003eIO Object",
@@ -3795,6 +4101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "runObjectEventFunc",
           "package": "happstack-state",
@@ -3804,6 +4111,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "runObjectEventFunc",
           "normalized": "Object-\u003eEventMap-\u003eIO Object",
@@ -3819,6 +4127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "runTxLoop",
           "package": "happstack-state",
@@ -3828,6 +4137,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "runTxLoop",
           "normalized": "MVar(WriterStream EventLogEntry)-\u003eProcessQueue a-\u003ea-\u003eIO()",
@@ -3843,6 +4153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "setEvLoadersQueue",
           "package": "happstack-state",
@@ -3852,6 +4163,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "setEvLoadersQueue",
           "normalized": "ProcessQueue a-\u003eEvLoaders' a-\u003eEvLoaders",
@@ -3867,6 +4179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "setNewEventMap",
           "package": "happstack-state",
@@ -3876,6 +4189,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "setNewEventMap",
           "normalized": "EventMap-\u003eIO()",
@@ -3891,6 +4205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "setNewState",
           "package": "happstack-state",
@@ -3900,6 +4215,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "setNewState",
           "normalized": "TypeString-\u003eByteString-\u003eIO()",
@@ -3915,6 +4231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "setNewState'",
           "package": "happstack-state",
@@ -3924,6 +4241,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "setNewState'",
           "normalized": "EventMap-\u003eTypeString-\u003eByteString-\u003eIO()",
@@ -3939,6 +4257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "setNewStateType",
           "package": "happstack-state",
@@ -3948,6 +4267,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "setNewStateType",
           "normalized": "String-\u003eString",
@@ -3963,6 +4283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "txLastTxContext",
           "package": "happstack-state",
@@ -3972,6 +4293,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "txLastTxContext",
           "package": "happstack-state",
@@ -3985,6 +4307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State.Transaction",
           "name": "txProcessQueue",
           "package": "happstack-state",
@@ -3994,6 +4317,7 @@
         },
         "index": {
           "hierarchy": "Happstack State Transaction",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State.Transaction",
           "name": "txProcessQueue",
           "package": "happstack-state",
@@ -4033,6 +4357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "State",
           "package": "happstack-state",
@@ -4041,6 +4366,7 @@
         },
         "index": {
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "State",
           "package": "happstack-state",
@@ -4055,6 +4381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eACID computations that work with any state and event types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "AnyEv",
           "package": "happstack-state",
@@ -4064,6 +4391,7 @@
         "index": {
           "description": "ACID computations that work with any state and event types",
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "AnyEv",
           "package": "happstack-state",
@@ -4077,6 +4405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "CatchEv",
           "package": "happstack-state",
@@ -4085,6 +4414,7 @@
         },
         "index": {
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "CatchEv",
           "package": "happstack-state",
@@ -4098,6 +4428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "EpochMilli",
           "package": "happstack-state",
@@ -4106,6 +4437,7 @@
         },
         "index": {
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "EpochMilli",
           "package": "happstack-state",
@@ -4120,6 +4452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad for ACID event handlers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "Ev",
           "package": "happstack-state",
@@ -4129,6 +4462,7 @@
         "index": {
           "description": "Monad for ACID event handlers",
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "Ev",
           "package": "happstack-state",
@@ -4142,6 +4476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "EventItem",
           "package": "happstack-state",
@@ -4150,6 +4485,7 @@
         },
         "index": {
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "EventItem",
           "package": "happstack-state",
@@ -4163,6 +4499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "Query",
           "package": "happstack-state",
@@ -4171,6 +4508,7 @@
         },
         "index": {
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "Query",
           "package": "happstack-state",
@@ -4184,6 +4522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "Saver",
           "package": "happstack-state",
@@ -4192,6 +4531,7 @@
         },
         "index": {
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "Saver",
           "package": "happstack-state",
@@ -4205,6 +4545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "TxControl",
           "package": "happstack-state",
@@ -4213,6 +4554,7 @@
         },
         "index": {
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "TxControl",
           "package": "happstack-state",
@@ -4226,6 +4568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "TxId",
           "package": "happstack-state",
@@ -4234,6 +4577,7 @@
         },
         "index": {
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "TxId",
           "package": "happstack-state",
@@ -4247,6 +4591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "Update",
           "package": "happstack-state",
@@ -4255,6 +4600,7 @@
         },
         "index": {
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "Update",
           "package": "happstack-state",
@@ -4269,6 +4615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrying version of \u003ccode\u003e\u003ca\u003esetQueryType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "asQuery",
           "package": "happstack-state",
@@ -4279,6 +4626,7 @@
         "index": {
           "description": "Currying version of setQueryType",
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "asQuery",
           "normalized": "Query a b-\u003eProxy a-\u003eQuery a b",
@@ -4295,6 +4643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrying version of \u003ccode\u003e\u003ca\u003esetUpdateType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "asUpdate",
           "package": "happstack-state",
@@ -4305,6 +4654,7 @@
         "index": {
           "description": "Currying version of setUpdateType",
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "asUpdate",
           "normalized": "Update a b-\u003eProxy a-\u003eUpdate a b",
@@ -4321,6 +4671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialized version of \u003ccode\u003e\u003ca\u003eask\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "askState",
           "package": "happstack-state",
@@ -4331,6 +4682,7 @@
         "index": {
           "description": "Specialized version of ask",
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "askState",
           "package": "happstack-state",
@@ -4344,6 +4696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "catchEv",
           "package": "happstack-state",
@@ -4353,6 +4706,7 @@
         },
         "index": {
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "catchEv",
           "normalized": "Ev a b-\u003e(c-\u003eb)-\u003eEv a b",
@@ -4368,6 +4722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "createCheckpoint",
           "package": "happstack-state",
@@ -4377,6 +4732,7 @@
         },
         "index": {
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "createCheckpoint",
           "normalized": "MVar TxControl-\u003eIO()",
@@ -4393,6 +4749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a random number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "getRandom",
           "package": "happstack-state",
@@ -4403,6 +4760,7 @@
         "index": {
           "description": "Get random number",
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "getRandom",
           "package": "happstack-state",
@@ -4417,6 +4775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a random number inside the range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "getRandomR",
           "package": "happstack-state",
@@ -4427,6 +4786,7 @@
         "index": {
           "description": "Get random number inside the range",
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "getRandomR",
           "normalized": "(a,a)-\u003eAnyEv a",
@@ -4443,6 +4803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialized version of \u003ccode\u003e\u003ca\u003eget\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "getState",
           "package": "happstack-state",
@@ -4453,6 +4814,7 @@
         "index": {
           "description": "Specialized version of get",
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "getState",
           "package": "happstack-state",
@@ -4467,6 +4829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfer updating functions for a record.  Given a data declaration\n of \u003ccode\u003edata Foo = Foo {bar :: String, baz :: Int}\u003c/code\u003e then \u003ccode\u003e$(inferRecordUpdaters ''Foo)\u003c/code\u003e\n will define functions \u003ccode\u003ea_bar :: String -\u003e Foo -\u003e Foo\u003c/code\u003e, \u003ccode\u003ewithBar :: Update String a -\u003e Update Foo a\u003c/code\u003e,\n etc. that can be used as convenience updaters.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "inferRecordUpdaters",
           "package": "happstack-state",
@@ -4477,6 +4840,7 @@
         "index": {
           "description": "Infer updating functions for record Given data declaration of data Foo Foo bar String baz Int then inferRecordUpdaters Foo will define functions bar String Foo Foo withBar Update String Update Foo etc that can be used as convenience updaters",
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "inferRecordUpdaters",
           "normalized": "Name-\u003eQ[Dec]",
@@ -4493,6 +4857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift an STM action into Ev.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "liftSTM",
           "package": "happstack-state",
@@ -4503,6 +4868,7 @@
         "index": {
           "description": "Lift an STM action into Ev",
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "liftSTM",
           "normalized": "STM a-\u003eAnyEv a",
@@ -4519,6 +4885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a computation with local state. Changes to state will be visible to outside.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "localState",
           "package": "happstack-state",
@@ -4529,6 +4896,7 @@
         "index": {
           "description": "Run computation with local state Changes to state will be visible to outside",
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "localState",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea-\u003ea)-\u003eEv(StateT b STM)c-\u003eEv(StateT a STM)c",
@@ -4545,6 +4913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a computation with local state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "localStateReader",
           "package": "happstack-state",
@@ -4555,6 +4924,7 @@
         "index": {
           "description": "Run computation with local state",
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "localStateReader",
           "normalized": "(a-\u003eb)-\u003eEv(ReaderT b STM)c-\u003eEv(ReaderT a STM)c",
@@ -4571,6 +4941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForces the type of proxy and query to match\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "proxyQuery",
           "package": "happstack-state",
@@ -4581,6 +4952,7 @@
         "index": {
           "description": "Forces the type of proxy and query to match",
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "proxyQuery",
           "normalized": "Query a b-\u003eProxy a-\u003eQuery a b",
@@ -4597,6 +4969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForces the type of the proxy and update to match\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "proxyUpdate",
           "package": "happstack-state",
@@ -4607,6 +4980,7 @@
         "index": {
           "description": "Forces the type of the proxy and update to match",
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "proxyUpdate",
           "normalized": "Update a b-\u003eProxy a-\u003eUpdate a b",
@@ -4623,6 +4997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialized version of \u003ccode\u003e\u003ca\u003eput\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "putState",
           "package": "happstack-state",
@@ -4633,6 +5008,7 @@
         "index": {
           "description": "Specialized version of put",
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "putState",
           "normalized": "a-\u003eUpdate a()",
@@ -4649,6 +5025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a Query action in the Update monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "runQuery",
           "package": "happstack-state",
@@ -4659,6 +5036,7 @@
         "index": {
           "description": "Execute Query action in the Update monad",
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "runQuery",
           "normalized": "Query a b-\u003eUpdate a b",
@@ -4675,6 +5053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the MACID system without multimaster support and with the given Saver.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "runTxSystem",
           "package": "happstack-state",
@@ -4685,6 +5064,7 @@
         "index": {
           "description": "Run the MACID system without multimaster support and with the given Saver",
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "runTxSystem",
           "normalized": "Saver-\u003eProxy a-\u003eIO(MVar TxControl)",
@@ -4701,6 +5081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect a part of the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "sel",
           "package": "happstack-state",
@@ -4711,6 +5092,7 @@
         "index": {
           "description": "Select part of the environment",
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "sel",
           "normalized": "(Env-\u003ea)-\u003eAnyEv a",
@@ -4726,6 +5108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a proxy to force the type of a query action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "setQueryType",
           "package": "happstack-state",
@@ -4736,6 +5119,7 @@
         "index": {
           "description": "Use proxy to force the type of query action",
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "setQueryType",
           "normalized": "Proxy a-\u003eQuery a()",
@@ -4752,6 +5136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a proxy to force the type of an update action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "setUpdateType",
           "package": "happstack-state",
@@ -4762,6 +5147,7 @@
         "index": {
           "description": "Use proxy to force the type of an update action",
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "setUpdateType",
           "normalized": "Proxy a-\u003eUpdate a()",
@@ -4778,6 +5164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShuts down a transaction system\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "shutdownSystem",
           "package": "happstack-state",
@@ -4788,6 +5175,7 @@
         "index": {
           "description": "Shuts down transaction system",
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "shutdownSystem",
           "normalized": "MVar TxControl-\u003eIO()",
@@ -4803,6 +5191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:11 UTC 2014",
           "module": "Happstack.State",
           "name": "unsafeIOToEv",
           "package": "happstack-state",
@@ -4812,6 +5201,7 @@
         },
         "index": {
           "hierarchy": "Happstack State",
+          "indexed": "2014-03-11T18:29:11",
           "module": "Happstack.State",
           "name": "unsafeIOToEv",
           "normalized": "IO a-\u003eAnyEv a",

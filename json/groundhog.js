@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "groundhog"
+        "phrase": "groundhog",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the functions and datatypes used throughout the framework.\n Most of them are for the internal use\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Core",
           "package": "groundhog",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module defines the functions and datatypes used throughout the framework Most of them are for the internal use",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Core",
           "package": "groundhog",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis subset of Projection instances is for things that behave like fields. Namely, they can occur in condition expressions (for example, Field and SubField) and on the left side of update statements. For example \"lower(field)\" is a valid Projection, but not Field like because it cannot be on the left side. Datatypes that index PostgreSQL arrays \"arr[5]\" or access composites \"(comp).subfield\" are valid instances of Assignable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Assignable",
           "package": "groundhog",
@@ -51,6 +54,7 @@
         "index": {
           "description": "This subset of Projection instances is for things that behave like fields Namely they can occur in condition expressions for example Field and SubField and on the left side of update statements For example lower field is valid Projection but not Field like because it cannot be on the left side Datatypes that index PostgreSQL arrays arr or access composites comp subfield are valid instances of Assignable",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Assignable",
           "package": "groundhog",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt can be used in expressions like a regular field.\n For example, \u003ccode\u003edelete (AutoKeyField ==. k)\u003c/code\u003e\n or \u003ccode\u003edelete (AutoKeyField ==. k ||. SomeField ==. \"DUPLICATE\")\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "AutoKeyField",
           "package": "groundhog",
@@ -74,6 +79,7 @@
         "index": {
           "description": "It can be used in expressions like regular field For example delete AutoKeyField or delete AutoKeyField SomeField DUPLICATE",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "AutoKeyField",
           "package": "groundhog",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey marked with this type can have value for any backend\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "BackendSpecific",
           "package": "groundhog",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Key marked with this type can have value for any backend",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "BackendSpecific",
           "package": "groundhog",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents condition for a query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Cond",
           "package": "groundhog",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Represents condition for query",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Cond",
           "package": "groundhog",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnection manager provides connection to the passed function handles transations. Manager can be a connection itself, a pool, Snaplet in Snap, foundation datatype in Yesod, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "ConnectionManager",
           "package": "groundhog",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Connection manager provides connection to the passed function handles transations Manager can be connection itself pool Snaplet in Snap foundation datatype in Yesod etc",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "ConnectionManager",
           "package": "groundhog",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom constructors are made instances of this class. This class should be used only by Template Haskell codegen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Constructor",
           "package": "groundhog",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Phantom constructors are made instances of this class This class should be used only by Template Haskell codegen",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Constructor",
           "package": "groundhog",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes an entity constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "ConstructorDef",
           "package": "groundhog",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Describes an entity constructor",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "ConstructorDef",
           "package": "groundhog",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA phantom datatype to make instance head different \u003ccode\u003ec (ConstructorMarker v)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "ConstructorMarker",
           "package": "groundhog",
@@ -212,6 +229,7 @@
         "index": {
           "description": "phantom datatype to make instance head different ConstructorMarker",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "ConstructorMarker",
           "package": "groundhog",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "DbDescriptor",
           "package": "groundhog",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "DbDescriptor",
           "package": "groundhog",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "DbPersist",
           "package": "groundhog",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "DbPersist",
           "package": "groundhog",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "DbType",
           "package": "groundhog",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "DbType",
           "package": "groundhog",
@@ -289,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA DB data type. Naming attempts to reflect the underlying Haskell\n datatypes, eg DbString instead of DbVarchar. Different databases may\n have different representations for these types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "DbTypePrimitive",
           "package": "groundhog",
@@ -298,6 +323,7 @@
         "index": {
           "description": "DB data type Naming attempts to reflect the underlying Haskell datatypes eg DbString instead of DbVarchar Different databases may have different representations for these types",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "DbTypePrimitive",
           "package": "groundhog",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Embedded",
           "package": "groundhog",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Embedded",
           "package": "groundhog",
@@ -333,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first argument is a flag which defines if the field names should be concatenated with the outer field name (False) or used as is which provides full control over table column names (True).\n Value False should be the default value so that a datatype can be embedded without name conflict concern. The second argument list of field names and field types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "EmbeddedDef",
           "package": "groundhog",
@@ -342,6 +371,7 @@
         "index": {
           "description": "The first argument is flag which defines if the field names should be concatenated with the outer field name False or used as is which provides full control over table column names True Value False should be the default value so that datatype can be embedded without name conflict concern The second argument list of field names and field types",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "EmbeddedDef",
           "package": "groundhog",
@@ -356,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class helps type inference in cases when query does not contain any fields which\n define the constructor, but the entity has only one.\n For example, in \u003ccode\u003eselect $ AutoKeyField ==. k\u003c/code\u003e the condition would need type annotation with constructor name only if we select a sum type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "EntityConstr",
           "package": "groundhog",
@@ -365,6 +396,7 @@
         "index": {
           "description": "This class helps type inference in cases when query does not contain any fields which define the constructor but the entity has only one For example in select AutoKeyField the condition would need type annotation with constructor name only if we select sum type",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "EntityConstr",
           "package": "groundhog",
@@ -379,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes an ADT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "EntityDef",
           "package": "groundhog",
@@ -388,6 +421,7 @@
         "index": {
           "description": "Describes an ADT",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "EntityDef",
           "package": "groundhog",
@@ -402,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpr with phantom type helps to keep type safety in complex expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Expr",
           "package": "groundhog",
@@ -411,6 +446,7 @@
         "index": {
           "description": "Expr with phantom type helps to keep type safety in complex expressions",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Expr",
           "package": "groundhog",
@@ -424,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "ExprRelation",
           "package": "groundhog",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "ExprRelation",
           "package": "groundhog",
@@ -446,6 +484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt is used to map field to column names. It can be either a column name for a regular field of non-embedded type or a list of this field and the outer fields in reverse order. Eg, fieldChain $ SomeField ~\u003e Tuple2_0Selector may result in [(\"val0\", DbString), (\"some\", DbEmbedded False [dbType \"\", dbType True])].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "FieldChain",
           "package": "groundhog",
@@ -455,6 +494,7 @@
         "index": {
           "description": "It is used to map field to column names It can be either column name for regular field of non-embedded type or list of this field and the outer fields in reverse order Eg fieldChain SomeField Tuple2 Selector may result in val0 DbString some DbEmbedded False dbType dbType True",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "FieldChain",
           "package": "groundhog",
@@ -469,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis subset of Assignable is for plain database fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "FieldLike",
           "package": "groundhog",
@@ -478,6 +519,7 @@
         "index": {
           "description": "This subset of Assignable is for plain database fields",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "FieldLike",
           "package": "groundhog",
@@ -491,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "HFalse",
           "package": "groundhog",
@@ -499,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "HFalse",
           "package": "groundhog",
@@ -512,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "HTrue",
           "package": "groundhog",
@@ -520,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "HTrue",
           "package": "groundhog",
@@ -534,6 +580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class helps to check that limit, offset, or order clauses are added to condition only once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "HasSelectOptions",
           "package": "groundhog",
@@ -543,6 +590,7 @@
         "index": {
           "description": "This class helps to check that limit offset or order clauses are added to condition only once",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "HasSelectOptions",
           "package": "groundhog",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "IsUniqueKey",
           "package": "groundhog",
@@ -564,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "IsUniqueKey",
           "package": "groundhog",
@@ -578,6 +628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt allows to store autogenerated keys of one database in another\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "KeyForBackend",
           "package": "groundhog",
@@ -587,6 +638,7 @@
         "index": {
           "description": "It allows to store autogenerated keys of one database in another",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "KeyForBackend",
           "package": "groundhog",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Migration",
           "package": "groundhog",
@@ -608,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Migration",
           "package": "groundhog",
@@ -622,6 +676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype names and corresponding migrations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "NamedMigrations",
           "package": "groundhog",
@@ -631,6 +686,7 @@
         "index": {
           "description": "Datatype names and corresponding migrations",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "NamedMigrations",
           "package": "groundhog",
@@ -645,6 +701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes which are never NULL when converted to \u003ccode\u003e\u003ca\u003ePersistValue\u003c/a\u003e\u003c/code\u003e.\n Consider the type \u003ccode\u003eMaybe (Maybe a)\u003c/code\u003e. Now Nothing is stored as NULL, so we cannot distinguish between Just Nothing and Nothing which is a problem.\n The purpose of this class is to ban the inner Maybe's.\n Maybe this class can be removed when support for inner Maybe's appears.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "NeverNull",
           "package": "groundhog",
@@ -654,6 +711,7 @@
         "index": {
           "description": "Types which are never NULL when converted to PersistValue Consider the type Maybe Maybe Now Nothing is stored as NULL so we cannot distinguish between Just Nothing and Nothing which is problem The purpose of this class is to ban the inner Maybe Maybe this class can be removed when support for inner Maybe appears",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "NeverNull",
           "package": "groundhog",
@@ -668,6 +726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines sort order of a result-set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Order",
           "package": "groundhog",
@@ -677,6 +736,7 @@
         "index": {
           "description": "Defines sort order of result-set",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Order",
           "package": "groundhog",
@@ -691,6 +751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStores name for a database type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "OtherTypeDef",
           "package": "groundhog",
@@ -700,6 +761,7 @@
         "index": {
           "description": "Stores name for database type",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "OtherTypeDef",
           "package": "groundhog",
@@ -714,6 +776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe reference contains either EntityDef of the parent table and name of the unique constraint. Or for tables not mapped by Groundhog schema name, table name, and list of columns  \n Reference to the autogenerated key of a mapped entity = (Left (entityDef, Nothing), onDelete, onUpdate)\n Reference to a unique key of a mapped entity = (Left (entityDef, Just uniqueKeyName), onDelete, onUpdate)\n Reference to a table that is not mapped = (Right (schema, tableName, columns), onDelete, onUpdate)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "ParentTableReference",
           "package": "groundhog",
@@ -723,6 +786,7 @@
         "index": {
           "description": "The reference contains either EntityDef of the parent table and name of the unique constraint Or for tables not mapped by Groundhog schema name table name and list of columns Reference to the autogenerated key of mapped entity Left entityDef Nothing onDelete onUpdate Reference to unique key of mapped entity Left entityDef Just uniqueKeyName onDelete onUpdate Reference to table that is not mapped Right schema tableName columns onDelete onUpdate",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "ParentTableReference",
           "package": "groundhog",
@@ -736,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "PersistBackend",
           "package": "groundhog",
@@ -744,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "PersistBackend",
           "package": "groundhog",
@@ -758,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly instances of this class can be persisted in a database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "PersistEntity",
           "package": "groundhog",
@@ -767,6 +834,7 @@
         "index": {
           "description": "Only instances of this class can be persisted in database",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "PersistEntity",
           "package": "groundhog",
@@ -781,6 +849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents everything which can be put into a database. This data can be stored in multiple columns and tables. To get value of those columns we might need to access another table. That is why the result type is monadic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "PersistField",
           "package": "groundhog",
@@ -790,6 +859,7 @@
         "index": {
           "description": "Represents everything which can be put into database This data can be stored in multiple columns and tables To get value of those columns we might need to access another table That is why the result type is monadic",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "PersistField",
           "package": "groundhog",
@@ -804,6 +874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA raw value which can be stored in any backend and can be marshalled to\n and from a \u003ccode\u003e\u003ca\u003ePersistField\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "PersistValue",
           "package": "groundhog",
@@ -813,6 +884,7 @@
         "index": {
           "description": "raw value which can be stored in any backend and can be marshalled to and from PersistField",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "PersistValue",
           "package": "groundhog",
@@ -827,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatypes which can be converted directly to \u003ccode\u003e\u003ca\u003ePersistValue\u003c/a\u003e\u003c/code\u003e. The no-value parameter \u003ccode\u003eDbDescriptor db =\u003e Proxy db\u003c/code\u003e allows conversion depend the database details while keeping it pure. A type which has an instance of \u003ccode\u003e\u003ca\u003ePrimitivePersistField\u003c/a\u003e\u003c/code\u003e should be an instance of superclasses \u003ccode\u003e\u003ca\u003eSinglePersistField\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ePurePersistField\u003c/a\u003e\u003c/code\u003e as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "PrimitivePersistField",
           "package": "groundhog",
@@ -836,6 +909,7 @@
         "index": {
           "description": "Datatypes which can be converted directly to PersistValue The no-value parameter DbDescriptor db Proxy db allows conversion depend the database details while keeping it pure type which has an instance of PrimitivePersistField should be an instance of superclasses SinglePersistField and PurePersistField as well",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "PrimitivePersistField",
           "package": "groundhog",
@@ -850,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny data that can be fetched from a database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Projection",
           "package": "groundhog",
@@ -859,6 +934,7 @@
         "index": {
           "description": "Any data that can be fetched from database",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Projection",
           "package": "groundhog",
@@ -872,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Proxy",
           "package": "groundhog",
@@ -880,6 +957,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Proxy",
           "package": "groundhog",
@@ -894,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents all datatypes that map into several columns. Getting values for those columns is pure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "PurePersistField",
           "package": "groundhog",
@@ -903,6 +982,7 @@
         "index": {
           "description": "Represents all datatypes that map into several columns Getting values for those columns is pure",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "PurePersistField",
           "package": "groundhog",
@@ -916,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "ReferenceActionType",
           "package": "groundhog",
@@ -924,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "ReferenceActionType",
           "package": "groundhog",
@@ -937,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "RestrictionHolder",
           "package": "groundhog",
@@ -945,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "RestrictionHolder",
           "package": "groundhog",
@@ -958,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "RowPopper",
           "package": "groundhog",
@@ -966,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "RowPopper",
           "package": "groundhog",
@@ -979,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Savepoint",
           "package": "groundhog",
@@ -987,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Savepoint",
           "package": "groundhog",
@@ -1000,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "SelectOptions",
           "package": "groundhog",
@@ -1008,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "SelectOptions",
           "package": "groundhog",
@@ -1022,6 +1112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis connection manager always returns the same connection. This constraint is useful when performing operations which make sense only within one connection, for example, nested savepoints..\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "SingleConnectionManager",
           "package": "groundhog",
@@ -1031,6 +1122,7 @@
         "index": {
           "description": "This connection manager always returns the same connection This constraint is useful when performing operations which make sense only within one connection for example nested savepoints",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "SingleConnectionManager",
           "package": "groundhog",
@@ -1045,6 +1137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither error messages or migration queries with safety flag and execution order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "SingleMigration",
           "package": "groundhog",
@@ -1054,6 +1147,7 @@
         "index": {
           "description": "Either error messages or migration queries with safety flag and execution order",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "SingleMigration",
           "package": "groundhog",
@@ -1068,6 +1162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents all datatypes that map into a single column. Getting value for that column might require monadic actions to access other tables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "SinglePersistField",
           "package": "groundhog",
@@ -1077,6 +1172,7 @@
         "index": {
           "description": "Represents all datatypes that map into single column Getting value for that column might require monadic actions to access other tables",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "SinglePersistField",
           "package": "groundhog",
@@ -1090,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "SubField",
           "package": "groundhog",
@@ -1098,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "SubField",
           "package": "groundhog",
@@ -1112,6 +1210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA holder for Unique constraints\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Unique",
           "package": "groundhog",
@@ -1121,6 +1220,7 @@
         "index": {
           "description": "holder for Unique constraints",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Unique",
           "package": "groundhog",
@@ -1135,6 +1235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique name and list of the field names that form a unique combination\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "UniqueDef",
           "package": "groundhog",
@@ -1144,6 +1245,7 @@
         "index": {
           "description": "Unique name and list of the field names that form unique combination",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "UniqueDef",
           "package": "groundhog",
@@ -1158,6 +1260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA phantom datatype to make instance head different \u003ccode\u003eu (UniqueMarker v)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "UniqueMarker",
           "package": "groundhog",
@@ -1167,6 +1270,7 @@
         "index": {
           "description": "phantom datatype to make instance head different UniqueMarker",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "UniqueMarker",
           "package": "groundhog",
@@ -1181,6 +1285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines how to treat the unique set of fields for a datatype\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "UniqueType",
           "package": "groundhog",
@@ -1190,6 +1295,7 @@
         "index": {
           "description": "Defines how to treat the unique set of fields for datatype",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "UniqueType",
           "package": "groundhog",
@@ -1204,6 +1310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to uniformly represent fields, constants and more complex things, e.g., arithmetic expressions.\n A value should be converted to \u003ccode\u003e\u003ca\u003eUntypedExpr\u003c/a\u003e\u003c/code\u003e for usage in expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "UntypedExpr",
           "package": "groundhog",
@@ -1213,6 +1320,7 @@
         "index": {
           "description": "Used to uniformly represent fields constants and more complex things e.g arithmetic expressions value should be converted to UntypedExpr for usage in expressions",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "UntypedExpr",
           "package": "groundhog",
@@ -1226,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Update",
           "package": "groundhog",
@@ -1234,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Update",
           "package": "groundhog",
@@ -1248,6 +1358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype for incremental building SQL queries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Utf8",
           "package": "groundhog",
@@ -1257,6 +1368,7 @@
         "index": {
           "description": "Datatype for incremental building SQL queries",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Utf8",
           "package": "groundhog",
@@ -1271,6 +1383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAvoid orphan instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "ZT",
           "package": "groundhog",
@@ -1280,6 +1393,7 @@
         "index": {
           "description": "Avoid orphan instances",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "ZT",
           "package": "groundhog",
@@ -1388,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Cascade",
           "package": "groundhog",
@@ -1397,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Cascade",
           "package": "groundhog",
@@ -1479,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "ConstructorDef",
           "package": "groundhog",
@@ -1488,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "ConstructorDef",
           "package": "groundhog",
@@ -1501,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "DbAutoKey",
           "package": "groundhog",
@@ -1510,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "DbAutoKey",
           "package": "groundhog",
@@ -1524,6 +1644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "DbBlob",
           "package": "groundhog",
@@ -1534,6 +1655,7 @@
         "index": {
           "description": "ByteString",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "DbBlob",
           "package": "groundhog",
@@ -1547,6 +1669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "DbBool",
           "package": "groundhog",
@@ -1556,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "DbBool",
           "package": "groundhog",
@@ -1569,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "DbDay",
           "package": "groundhog",
@@ -1578,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "DbDay",
           "package": "groundhog",
@@ -1591,6 +1717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "DbDayTime",
           "package": "groundhog",
@@ -1600,6 +1727,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "DbDayTime",
           "package": "groundhog",
@@ -1613,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "DbDayTimeZoned",
           "package": "groundhog",
@@ -1622,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "DbDayTimeZoned",
           "package": "groundhog",
@@ -1635,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "DbEmbedded",
           "package": "groundhog",
@@ -1644,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "DbEmbedded",
           "package": "groundhog",
@@ -1657,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "DbInt32",
           "package": "groundhog",
@@ -1666,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "DbInt32",
           "package": "groundhog",
@@ -1679,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "DbInt64",
           "package": "groundhog",
@@ -1688,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "DbInt64",
           "package": "groundhog",
@@ -1702,6 +1838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList table name and type of its argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "DbList",
           "package": "groundhog",
@@ -1712,6 +1849,7 @@
         "index": {
           "description": "List table name and type of its argument",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "DbList",
           "package": "groundhog",
@@ -1725,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "DbOther",
           "package": "groundhog",
@@ -1734,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "DbOther",
           "package": "groundhog",
@@ -1770,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "DbReal",
           "package": "groundhog",
@@ -1779,6 +1920,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "DbReal",
           "package": "groundhog",
@@ -1792,6 +1934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "DbString",
           "package": "groundhog",
@@ -1801,6 +1944,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "DbString",
           "package": "groundhog",
@@ -1814,6 +1958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "DbTime",
           "package": "groundhog",
@@ -1823,6 +1968,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "DbTime",
           "package": "groundhog",
@@ -1837,6 +1983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype, nullable, default value, reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "DbTypePrimitive",
           "package": "groundhog",
@@ -1847,6 +1994,7 @@
         "index": {
           "description": "type nullable default value reference",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "DbTypePrimitive",
           "package": "groundhog",
@@ -1883,6 +2031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "EmbeddedDef",
           "package": "groundhog",
@@ -1892,6 +2041,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "EmbeddedDef",
           "normalized": "EmbeddedDef Bool[(String,DbType)]",
@@ -1907,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "EntityDef",
           "package": "groundhog",
@@ -1916,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "EntityDef",
           "package": "groundhog",
@@ -1929,6 +2081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Eq",
           "package": "groundhog",
@@ -1938,6 +2091,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Eq",
           "package": "groundhog",
@@ -1951,6 +2105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Expr",
           "package": "groundhog",
@@ -1960,6 +2115,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Expr",
           "package": "groundhog",
@@ -1973,6 +2129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "ExprField",
           "package": "groundhog",
@@ -1982,6 +2139,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "ExprField",
           "normalized": "FieldChain-\u003eUntypedExpr a b",
@@ -1997,6 +2155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "ExprPure",
           "package": "groundhog",
@@ -2006,6 +2165,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "ExprPure",
           "normalized": "a-\u003eUntypedExpr b c",
@@ -2021,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "ExprRaw",
           "package": "groundhog",
@@ -2030,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "ExprRaw",
           "normalized": "Expr a b c-\u003eUntypedExpr a b",
@@ -2045,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Ge",
           "package": "groundhog",
@@ -2054,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Ge",
           "package": "groundhog",
@@ -2067,6 +2231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Gt",
           "package": "groundhog",
@@ -2076,6 +2241,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Gt",
           "package": "groundhog",
@@ -2089,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "KeyForBackend",
           "package": "groundhog",
@@ -2098,6 +2265,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "KeyForBackend",
           "package": "groundhog",
@@ -2111,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Le",
           "package": "groundhog",
@@ -2120,6 +2289,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Le",
           "package": "groundhog",
@@ -2133,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Lt",
           "package": "groundhog",
@@ -2142,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Lt",
           "package": "groundhog",
@@ -2155,6 +2327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Ne",
           "package": "groundhog",
@@ -2164,6 +2337,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Ne",
           "package": "groundhog",
@@ -2177,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "NoAction",
           "package": "groundhog",
@@ -2186,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "NoAction",
           "package": "groundhog",
@@ -2245,6 +2421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "OtherTypeDef",
           "package": "groundhog",
@@ -2254,6 +2431,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "OtherTypeDef",
           "normalized": "OtherTypeDef((DbTypePrimitive-\u003eString)-\u003eString)",
@@ -2269,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "PersistBool",
           "package": "groundhog",
@@ -2278,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "PersistBool",
           "package": "groundhog",
@@ -2291,6 +2471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "PersistByteString",
           "package": "groundhog",
@@ -2300,6 +2481,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "PersistByteString",
           "package": "groundhog",
@@ -2314,6 +2496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreating some datatypes may require calling a function, using a special constructor, or other syntax. The string (which can have placeholders) is included into query without escaping. The recursive constructions are not allowed, i.e., [PersistValue] cannot contain PersistCustom values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "PersistCustom",
           "package": "groundhog",
@@ -2324,6 +2507,7 @@
         "index": {
           "description": "Creating some datatypes may require calling function using special constructor or other syntax The string which can have placeholders is included into query without escaping The recursive constructions are not allowed i.e PersistValue cannot contain PersistCustom values",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "PersistCustom",
           "normalized": "PersistCustom Utf[PersistValue]",
@@ -2339,6 +2523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "PersistDay",
           "package": "groundhog",
@@ -2348,6 +2533,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "PersistDay",
           "package": "groundhog",
@@ -2361,6 +2547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "PersistDouble",
           "package": "groundhog",
@@ -2370,6 +2557,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "PersistDouble",
           "package": "groundhog",
@@ -2383,6 +2571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "PersistInt64",
           "package": "groundhog",
@@ -2392,6 +2581,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "PersistInt64",
           "package": "groundhog",
@@ -2405,6 +2595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "PersistNull",
           "package": "groundhog",
@@ -2414,6 +2605,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "PersistNull",
           "package": "groundhog",
@@ -2427,6 +2619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "PersistString",
           "package": "groundhog",
@@ -2436,6 +2629,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "PersistString",
           "package": "groundhog",
@@ -2449,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "PersistTimeOfDay",
           "package": "groundhog",
@@ -2458,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "PersistTimeOfDay",
           "package": "groundhog",
@@ -2471,6 +2667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "PersistUTCTime",
           "package": "groundhog",
@@ -2480,6 +2677,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "PersistUTCTime",
           "package": "groundhog",
@@ -2493,6 +2691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "PersistZonedTime",
           "package": "groundhog",
@@ -2502,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "PersistZonedTime",
           "package": "groundhog",
@@ -2515,6 +2715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Restrict",
           "package": "groundhog",
@@ -2524,6 +2725,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Restrict",
           "package": "groundhog",
@@ -2537,6 +2739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "SelectOptions",
           "package": "groundhog",
@@ -2546,6 +2749,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "SelectOptions",
           "package": "groundhog",
@@ -2559,6 +2763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "SetDefault",
           "package": "groundhog",
@@ -2568,6 +2773,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "SetDefault",
           "package": "groundhog",
@@ -2581,6 +2787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "SetNull",
           "package": "groundhog",
@@ -2590,6 +2797,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "SetNull",
           "package": "groundhog",
@@ -2603,6 +2811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "SubField",
           "package": "groundhog",
@@ -2612,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "SubField",
           "package": "groundhog",
@@ -2625,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "UniqueConstraint",
           "package": "groundhog",
@@ -2634,6 +2845,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "UniqueConstraint",
           "package": "groundhog",
@@ -2647,6 +2859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "UniqueDef",
           "package": "groundhog",
@@ -2656,6 +2869,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "UniqueDef",
           "package": "groundhog",
@@ -2669,6 +2883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "UniqueIndex",
           "package": "groundhog",
@@ -2678,6 +2893,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "UniqueIndex",
           "package": "groundhog",
@@ -2691,6 +2907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "UniquePrimary",
           "package": "groundhog",
@@ -2700,6 +2917,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "UniquePrimary",
           "package": "groundhog",
@@ -2713,6 +2931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "Update",
           "package": "groundhog",
@@ -2722,6 +2941,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "Update",
           "package": "groundhog",
@@ -2758,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "ZT",
           "package": "groundhog",
@@ -2767,6 +2988,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "ZT",
           "package": "groundhog",
@@ -2781,6 +3003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of backend\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "backendName",
           "package": "groundhog",
@@ -2791,6 +3014,7 @@
         "index": {
           "description": "Name of backend",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "backendName",
           "normalized": "Proxy a-\u003eString",
@@ -2806,6 +3030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "condOptions",
           "package": "groundhog",
@@ -2815,6 +3040,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "condOptions",
           "package": "groundhog",
@@ -2829,6 +3055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAutokey name if any\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "constrAutoKeyName",
           "package": "groundhog",
@@ -2839,6 +3066,7 @@
         "index": {
           "description": "Autokey name if any",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "constrAutoKeyName",
           "package": "groundhog",
@@ -2853,6 +3081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "constrName",
           "package": "groundhog",
@@ -2863,6 +3092,7 @@
         "index": {
           "description": "Constructor name",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "constrName",
           "package": "groundhog",
@@ -2877,6 +3107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of the constructor in the ADT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "constrNum",
           "package": "groundhog",
@@ -2887,6 +3118,7 @@
         "index": {
           "description": "Number of the constructor in the ADT",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "constrNum",
           "package": "groundhog",
@@ -2901,6 +3133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameter names with their named type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "constrParams",
           "package": "groundhog",
@@ -2911,6 +3144,7 @@
         "index": {
           "description": "Parameter names with their named type",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "constrParams",
           "normalized": "[(String,DbType)]",
@@ -2927,6 +3161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniqueness constraints on the constructor fiels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "constrUniques",
           "package": "groundhog",
@@ -2937,6 +3172,7 @@
         "index": {
           "description": "Uniqueness constraints on the constructor fiels",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "constrUniques",
           "normalized": "[UniqueDef]",
@@ -2953,6 +3189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of entity constructors definitions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "constructors",
           "package": "groundhog",
@@ -2963,6 +3200,7 @@
         "index": {
           "description": "List of entity constructors definitions",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "constructors",
           "normalized": "[ConstructorDef]",
@@ -2978,6 +3216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount total number of records satisfying the condition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "count",
           "package": "groundhog",
@@ -2988,6 +3227,7 @@
         "index": {
           "description": "Count total number of records satisfying the condition",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "count",
           "normalized": "Cond(PhantomDb a)(RestrictionHolder b c)-\u003ea Int",
@@ -3003,6 +3243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount total number of records with all constructors. The entity parameter is used only for type inference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "countAll",
           "package": "groundhog",
@@ -3013,6 +3254,7 @@
         "index": {
           "description": "Count total number of records with all constructors The entity parameter is used only for type inference",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "countAll",
           "normalized": "a-\u003eb Int",
@@ -3029,6 +3271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescription of value type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "dbType",
           "package": "groundhog",
@@ -3039,6 +3282,7 @@
         "index": {
           "description": "Description of value type",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "dbType",
           "normalized": "a-\u003eDbType",
@@ -3055,6 +3299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the records satisfying the condition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "delete",
           "package": "groundhog",
@@ -3065,6 +3310,7 @@
         "index": {
           "description": "Remove the records satisfying the condition",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "delete",
           "normalized": "Cond(PhantomDb a)(RestrictionHolder b c)-\u003ea()",
@@ -3080,6 +3326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all records. The entity parameter is used only for type inference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "deleteAll",
           "package": "groundhog",
@@ -3090,6 +3337,7 @@
         "index": {
           "description": "Remove all records The entity parameter is used only for type inference",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "deleteAll",
           "normalized": "a-\u003eb()",
@@ -3106,6 +3354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the record with given key. No-op if the record does not exist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "deleteBy",
           "package": "groundhog",
@@ -3116,6 +3365,7 @@
         "index": {
           "description": "Remove the record with given key No-op if the record does not exist",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "deleteBy",
           "normalized": "Key a BackendSpecific-\u003eb()",
@@ -3131,6 +3381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "delim",
           "package": "groundhog",
@@ -3140,6 +3391,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "delim",
           "package": "groundhog",
@@ -3152,6 +3404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "entityConstrNum",
           "package": "groundhog",
@@ -3161,6 +3414,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "entityConstrNum",
           "normalized": "*-\u003e*)-\u003eInt",
@@ -3177,6 +3431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a complete description of the type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "entityDef",
           "package": "groundhog",
@@ -3187,6 +3442,7 @@
         "index": {
           "description": "Returns complete description of the type",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "entityDef",
           "normalized": "a-\u003eEntityDef",
@@ -3203,6 +3459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs internally used by FieldLike Field instance\n We could avoid this function if class FieldLike allowed FieldLike Fields Data or FieldLike (Fields Data). However that would require additional extensions in user-space code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "entityFieldChain",
           "package": "groundhog",
@@ -3213,6 +3470,7 @@
         "index": {
           "description": "Is internally used by FieldLike Field instance We could avoid this function if class FieldLike allowed FieldLike Fields Data or FieldLike Fields Data However that would require additional extensions in user-space code",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "entityFieldChain",
           "normalized": "Field a b c-\u003eFieldChain",
@@ -3229,6 +3487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntity name. \u003ccode\u003eentityName (entityDef v) == persistName v\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "entityName",
           "package": "groundhog",
@@ -3239,6 +3498,7 @@
         "index": {
           "description": "Entity name entityName entityDef persistName",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "entityName",
           "package": "groundhog",
@@ -3253,6 +3513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatabase schema for the entity table and tables of its constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "entitySchema",
           "package": "groundhog",
@@ -3263,6 +3524,7 @@
         "index": {
           "description": "Database schema for the entity table and tables of its constructors",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "entitySchema",
           "package": "groundhog",
@@ -3277,6 +3539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute raw query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "executeRaw",
           "package": "groundhog",
@@ -3287,6 +3550,7 @@
         "index": {
           "description": "Execute raw query",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "executeRaw",
           "package": "groundhog",
@@ -3301,6 +3565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates value of unique key using the data extracted from the passed value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "extractUnique",
           "package": "groundhog",
@@ -3311,6 +3576,7 @@
         "index": {
           "description": "Creates value of unique key using the data extracted from the passed value",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "extractUnique",
           "normalized": "a-\u003eb",
@@ -3326,6 +3592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "fieldChain",
           "package": "groundhog",
@@ -3335,6 +3602,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "fieldChain",
           "normalized": "a-\u003eFieldChain",
@@ -3351,6 +3619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs the value from the list of \u003ccode\u003e\u003ca\u003ePersistValue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "fromEntityPersistValues",
           "package": "groundhog",
@@ -3361,6 +3630,7 @@
         "index": {
           "description": "Constructs the value from the list of PersistValue",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "fromEntityPersistValues",
           "normalized": "[PersistValue]-\u003ea(b,[PersistValue])",
@@ -3377,6 +3647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a value from a \u003ccode\u003e\u003ca\u003ePersistValue\u003c/a\u003e\u003c/code\u003e. For complex datatypes it may query the database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "fromPersistValues",
           "package": "groundhog",
@@ -3387,6 +3658,7 @@
         "index": {
           "description": "Constructs value from PersistValue For complex datatypes it may query the database",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "fromPersistValues",
           "normalized": "[PersistValue]-\u003ea(b,[PersistValue])",
@@ -3402,6 +3674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "fromPrimitivePersistValue",
           "package": "groundhog",
@@ -3411,6 +3684,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "fromPrimitivePersistValue",
           "normalized": "Proxy a-\u003ePersistValue-\u003eb",
@@ -3426,6 +3700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "fromPurePersistValues",
           "package": "groundhog",
@@ -3435,6 +3710,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "fromPurePersistValues",
           "normalized": "Proxy a-\u003e[PersistValue]-\u003e(b,[PersistValue])",
@@ -3450,6 +3726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "fromSinglePersistValue",
           "package": "groundhog",
@@ -3459,6 +3736,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "fromSinglePersistValue",
           "normalized": "PersistValue-\u003ea b",
@@ -3500,6 +3778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch an entity from a database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "get",
           "package": "groundhog",
@@ -3510,6 +3789,7 @@
         "index": {
           "description": "Fetch an entity from database",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "get",
           "normalized": "Key a BackendSpecific-\u003eb(Maybe a)",
@@ -3525,6 +3805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch an entity from a database by its unique key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "getBy",
           "package": "groundhog",
@@ -3535,6 +3816,7 @@
         "index": {
           "description": "Fetch an entity from database by its unique key",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "getBy",
           "normalized": "Key a(Unique b)-\u003ec(Maybe a)",
@@ -3550,6 +3832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "getList",
           "package": "groundhog",
@@ -3559,6 +3842,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "getList",
           "normalized": "Int-\u003ea[b]",
@@ -3574,6 +3858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "getSelectOptions",
           "package": "groundhog",
@@ -3583,6 +3868,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "getSelectOptions",
           "normalized": "a-\u003eSelectOptions b c(HasLimit a)(HasOffset a)(HasOrder a)",
@@ -3599,6 +3885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns constructor number and a list of uniques names and corresponding field values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "getUniques",
           "package": "groundhog",
@@ -3609,6 +3896,7 @@
         "index": {
           "description": "Returns constructor number and list of uniques names and corresponding field values",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "getUniques",
           "normalized": "Proxy a-\u003eb-\u003e(Int,[(String,[PersistValue]-\u003e[PersistValue])])",
@@ -3625,6 +3913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a new record to a database and return its autogenerated key or ()\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "insert",
           "package": "groundhog",
@@ -3635,6 +3924,7 @@
         "index": {
           "description": "Insert new record to database and return its autogenerated key or",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "insert",
           "normalized": "a-\u003eb(AutoKey a)",
@@ -3650,6 +3940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to insert a record and return Right newkey. If there is a constraint violation for the given constraint, Left oldkey is returned\n , where oldkey is an identifier of the record with the matching values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "insertBy",
           "package": "groundhog",
@@ -3660,6 +3951,7 @@
         "index": {
           "description": "Try to insert record and return Right newkey If there is constraint violation for the given constraint Left oldkey is returned where oldkey is an identifier of the record with the matching values",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "insertBy",
           "normalized": "a(UniqueMarker b)-\u003eb-\u003ec(Either(AutoKey b)(AutoKey b))",
@@ -3676,6 +3968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to insert a record and return Right newkey. If there is a constraint violation for any constraint, Left oldkey is returned\n , where oldkey is an identifier of the record with the matching values. Note that if several constraints are violated, a key of an arbitrary matching record is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "insertByAll",
           "package": "groundhog",
@@ -3686,6 +3979,7 @@
         "index": {
           "description": "Try to insert record and return Right newkey If there is constraint violation for any constraint Left oldkey is returned where oldkey is an identifier of the record with the matching values Note that if several constraints are violated key of an arbitrary matching record is returned",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "insertByAll",
           "normalized": "a-\u003eb(Either(AutoKey a)(AutoKey a))",
@@ -3701,6 +3995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "insertList",
           "package": "groundhog",
@@ -3710,6 +4005,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "insertList",
           "normalized": "[a]-\u003eb Int",
@@ -3726,6 +4022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a new record to a database. For some backends it may be faster than \u003ccode\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "insert_",
           "package": "groundhog",
@@ -3736,6 +4033,7 @@
         "index": {
           "description": "Insert new record to database For some backends it may be faster than insert",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "insert_",
           "normalized": "a-\u003eb()",
@@ -3750,6 +4048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "limitOptions",
           "package": "groundhog",
@@ -3759,6 +4058,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "limitOptions",
           "package": "groundhog",
@@ -3798,6 +4098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck database schema and create migrations for the entity and the entities it contains\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "migrate",
           "package": "groundhog",
@@ -3808,6 +4109,7 @@
         "index": {
           "description": "Check database schema and create migrations for the entity and the entities it contains",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "migrate",
           "normalized": "a-\u003eMigration b",
@@ -3847,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "offsetOptions",
           "package": "groundhog",
@@ -3856,6 +4159,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "offsetOptions",
           "package": "groundhog",
@@ -3894,6 +4198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "orderOptions",
           "package": "groundhog",
@@ -3903,6 +4208,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "orderOptions",
           "normalized": "[Order a b]",
@@ -3919,6 +4225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn name of the type. If it is polymorphic, the names of parameter types are separated with \u003ccode\u003e\u003ca\u003edelim\u003c/a\u003e\u003c/code\u003e symbol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "persistName",
           "package": "groundhog",
@@ -3929,6 +4236,7 @@
         "index": {
           "description": "Return name of the type If it is polymorphic the names of parameter types are separated with delim symbol",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "persistName",
           "normalized": "a-\u003eString",
@@ -3945,6 +4253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns constructor index which can be used to get ConstructorDef from EntityDef\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "phantomConstrNum",
           "package": "groundhog",
@@ -3955,6 +4264,7 @@
         "index": {
           "description": "Returns constructor index which can be used to get ConstructorDef from EntityDef",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "phantomConstrNum",
           "normalized": "*-\u003e*)-\u003eInt",
@@ -3971,6 +4281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch projection of some fields. Example: \u003ccode\u003eproject (SecondField, ThirdField) $ (FirstField ==. \"abc\" &&. SecondField \u003e. \"def\") `orderBy` [Asc ThirdField] `offsetBy` 100\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "project",
           "package": "groundhog",
@@ -3981,6 +4292,7 @@
         "index": {
           "description": "Fetch projection of some fields Example project SecondField ThirdField FirstField abc SecondField def orderBy Asc ThirdField offsetBy",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "project",
           "normalized": "a-\u003eb-\u003ec[d]",
@@ -3996,6 +4308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt returns multiple expressions that can be transformed into values which can be selected. Difflist is used for concatenation efficiency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "projectionExprs",
           "package": "groundhog",
@@ -4006,6 +4319,7 @@
         "index": {
           "description": "It returns multiple expressions that can be transformed into values which can be selected Difflist is used for concatenation efficiency",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "projectionExprs",
           "normalized": "a-\u003e[UntypedExpr b c]-\u003e[UntypedExpr b c]",
@@ -4022,6 +4336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt is like \u003ccode\u003e\u003ca\u003efromPersistValues\u003c/a\u003e\u003c/code\u003e. However, we cannot use it for projections in all cases. For the \u003ccode\u003e\u003ca\u003ePersistEntity\u003c/a\u003e\u003c/code\u003e instances \u003ccode\u003e\u003ca\u003efromPersistValues\u003c/a\u003e\u003c/code\u003e expects entity id instead of the entity values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "projectionResult",
           "package": "groundhog",
@@ -4032,6 +4347,7 @@
         "index": {
           "description": "It is like fromPersistValues However we cannot use it for projections in all cases For the PersistEntity instances fromPersistValues expects entity id instead of the entity values",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "projectionResult",
           "normalized": "a-\u003e[PersistValue]-\u003eb(c,[PersistValue])",
@@ -4048,6 +4364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute raw query with results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "queryRaw",
           "package": "groundhog",
@@ -4058,6 +4375,7 @@
         "index": {
           "description": "Execute raw query with results",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "queryRaw",
           "package": "groundhog",
@@ -4072,6 +4390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace a record with the given autogenerated key. Result is undefined if the record does not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "replace",
           "package": "groundhog",
@@ -4082,6 +4401,7 @@
         "index": {
           "description": "Replace record with the given autogenerated key Result is undefined if the record does not exist",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "replace",
           "normalized": "Key a BackendSpecific-\u003ea-\u003eb()",
@@ -4097,6 +4417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace a record. The unique key marker defines what unique key of the entity is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "replaceBy",
           "package": "groundhog",
@@ -4107,6 +4428,7 @@
         "index": {
           "description": "Replace record The unique key marker defines what unique key of the entity is used",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "replaceBy",
           "normalized": "a(UniqueMarker b)-\u003eb-\u003ec()",
@@ -4122,6 +4444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "runDbPersist",
           "package": "groundhog",
@@ -4131,6 +4454,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "runDbPersist",
           "normalized": "DbPersist a b c-\u003ea-\u003eb c",
@@ -4147,6 +4471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of the records satisfying the condition. Example: \u003ccode\u003eselect $ (FirstField ==. \"abc\" &&. SecondField \u003e. \"def\") `orderBy` [Asc ThirdField] `limitTo` 100\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "select",
           "package": "groundhog",
@@ -4157,6 +4482,7 @@
         "index": {
           "description": "Return list of the records satisfying the condition Example select FirstField abc SecondField def orderBy Asc ThirdField limitTo",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "select",
           "normalized": "a-\u003eb[c]",
@@ -4172,6 +4498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of all records. Order is undefined. It can be useful for datatypes with multiple constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "selectAll",
           "package": "groundhog",
@@ -4182,6 +4509,7 @@
         "index": {
           "description": "Return list of all records Order is undefined It can be useful for datatypes with multiple constructors",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "selectAll",
           "normalized": "a[(AutoKey b,b)]",
@@ -4197,6 +4525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "selectorNum",
           "package": "groundhog",
@@ -4206,6 +4535,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "selectorNum",
           "normalized": "Selector a b-\u003eInt",
@@ -4222,6 +4552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarshalls value to a list of \u003ccode\u003e\u003ca\u003ePersistValue\u003c/a\u003e\u003c/code\u003e ready for insert to a database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "toEntityPersistValues",
           "package": "groundhog",
@@ -4232,6 +4563,7 @@
         "index": {
           "description": "Marshalls value to list of PersistValue ready for insert to database",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "toEntityPersistValues",
           "normalized": "a-\u003eb([PersistValue]-\u003e[PersistValue])",
@@ -4248,6 +4580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a value into something which can be stored in a database column.\n Note that for complex datatypes it may insert them to return identifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "toPersistValues",
           "package": "groundhog",
@@ -4258,6 +4591,7 @@
         "index": {
           "description": "Convert value into something which can be stored in database column Note that for complex datatypes it may insert them to return identifier",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "toPersistValues",
           "normalized": "a-\u003eb([PersistValue]-\u003e[PersistValue])",
@@ -4273,6 +4607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "toPrimitivePersistValue",
           "package": "groundhog",
@@ -4282,6 +4617,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "toPrimitivePersistValue",
           "normalized": "Proxy a-\u003eb-\u003ePersistValue",
@@ -4297,6 +4633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "toPurePersistValues",
           "package": "groundhog",
@@ -4306,6 +4643,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "toPurePersistValues",
           "normalized": "Proxy a-\u003eb-\u003e[PersistValue]-\u003e[PersistValue]",
@@ -4321,6 +4659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "toSinglePersistValue",
           "package": "groundhog",
@@ -4330,6 +4669,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "toSinglePersistValue",
           "normalized": "a-\u003eb PersistValue",
@@ -4346,6 +4686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamed types of the instantiated polymorphic type parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "typeParams",
           "package": "groundhog",
@@ -4356,6 +4697,7 @@
         "index": {
           "description": "Named types of the instantiated polymorphic type parameters",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "typeParams",
           "normalized": "[DbType]",
@@ -4394,6 +4736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "uniqueFields",
           "package": "groundhog",
@@ -4403,6 +4746,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "uniqueFields",
           "normalized": "[(String,DbType)]",
@@ -4418,6 +4762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "uniqueName",
           "package": "groundhog",
@@ -4427,6 +4772,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "uniqueName",
           "package": "groundhog",
@@ -4441,6 +4787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdinal number of the unique constraint in the list returned by \u003ccode\u003e\u003ca\u003econstrUniques\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "uniqueNum",
           "package": "groundhog",
@@ -4451,6 +4798,7 @@
         "index": {
           "description": "Ordinal number of the unique constraint in the list returned by constrUniques",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "uniqueNum",
           "normalized": "a-\u003eInt",
@@ -4466,6 +4814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "uniqueType",
           "package": "groundhog",
@@ -4475,6 +4824,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "uniqueType",
           "package": "groundhog",
@@ -4489,6 +4839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the records satisfying the condition. Example: \u003ccode\u003eupdate [FirstField =. \"abc\"] $ FirstField ==. \"def\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "update",
           "package": "groundhog",
@@ -4499,6 +4850,7 @@
         "index": {
           "description": "Update the records satisfying the condition Example update FirstField abc FirstField def",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "update",
           "normalized": "[Update(PhantomDb a)(RestrictionHolder b c)]-\u003eCond(PhantomDb a)(RestrictionHolder b c)-\u003ea()",
@@ -4514,6 +4866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the connection from manager and opens the transaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "withConn",
           "package": "groundhog",
@@ -4524,6 +4877,7 @@
         "index": {
           "description": "Extracts the connection from manager and opens the transaction",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "withConn",
           "normalized": "(a-\u003eb c)-\u003ed-\u003eb c",
@@ -4540,6 +4894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "withConnNoTransaction",
           "package": "groundhog",
@@ -4550,6 +4905,7 @@
         "index": {
           "description": "Extracts the connection",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "withConnNoTransaction",
           "normalized": "(a-\u003eb c)-\u003ed-\u003eb c",
@@ -4566,6 +4922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps the passed action into a named savepoint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Core",
           "name": "withConnSavepoint",
           "package": "groundhog",
@@ -4576,6 +4933,7 @@
         "index": {
           "description": "Wraps the passed action into named savepoint",
           "hierarchy": "Database Groundhog Core",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Core",
           "name": "withConnSavepoint",
           "normalized": "String-\u003ea b-\u003ec-\u003ea b",
@@ -4592,6 +4950,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides mechanism for flexible and typesafe usage of plain data values and fields.\n The expressions can used in conditions and right part of Update statement.\n Example:\n\u003c/p\u003e\u003cpre\u003e\n StringField ==. \"abc\" &&. NumberField \u003e. (0 :: Int) ||. MaybeField ==. (Nothing :: Maybe String) ||. MaybeField ==. Just \"def\"\n\u003c/pre\u003e\u003cp\u003eNote that polymorphic values like numbers or Nothing must have a type annotation.\n Comparison operators specific for SQL such as IN and LIKE are defined in \u003ca\u003eDatabase.Groundhog.Generic.Sql.Functions\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Expression",
           "name": "Expression",
           "package": "groundhog",
@@ -4601,6 +4960,7 @@
         "index": {
           "description": "This module provides mechanism for flexible and typesafe usage of plain data values and fields The expressions can used in conditions and right part of Update statement Example StringField abc NumberField Int MaybeField Nothing Maybe String MaybeField Just def Note that polymorphic values like numbers or Nothing must have type annotation Comparison operators specific for SQL such as IN and LIKE are defined in Database.Groundhog.Generic.Sql.Functions",
           "hierarchy": "Database Groundhog Expression",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Expression",
           "name": "Expression",
           "package": "groundhog",
@@ -4615,6 +4975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances of this type can be converted to \u003ccode\u003e\u003ca\u003eUntypedExpr\u003c/a\u003e\u003c/code\u003e. It is useful for uniform manipulation over fields, constant values, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Expression",
           "name": "Expression",
           "package": "groundhog",
@@ -4624,6 +4985,7 @@
         "index": {
           "description": "Instances of this type can be converted to UntypedExpr It is useful for uniform manipulation over fields constant values etc",
           "hierarchy": "Database Groundhog Expression",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Expression",
           "name": "Expression",
           "package": "groundhog",
@@ -4638,6 +5000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis helper class can make type signatures more concise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Expression",
           "name": "ExpressionOf",
           "package": "groundhog",
@@ -4647,6 +5010,7 @@
         "index": {
           "description": "This helper class can make type signatures more concise",
           "hierarchy": "Database Groundhog Expression",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Expression",
           "name": "ExpressionOf",
           "package": "groundhog",
@@ -4660,6 +5024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Expression",
           "name": "Unifiable",
           "package": "groundhog",
@@ -4668,6 +5033,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Expression",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Expression",
           "name": "Unifiable",
           "package": "groundhog",
@@ -4930,6 +5296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Expression",
           "name": "toExpr",
           "package": "groundhog",
@@ -4939,6 +5306,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Expression",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Expression",
           "name": "toExpr",
           "normalized": "a-\u003eUntypedExpr b c",
@@ -4955,6 +5323,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis helper module is intended for use by the backend creators\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "Migration",
           "package": "groundhog",
@@ -4964,6 +5333,7 @@
         "index": {
           "description": "This helper module is intended for use by the backend creators",
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "Migration",
           "package": "groundhog",
@@ -4977,6 +5347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "AlterColumn",
           "package": "groundhog",
@@ -4985,6 +5356,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "AlterColumn",
           "package": "groundhog",
@@ -4998,6 +5370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "AlterDB",
           "package": "groundhog",
@@ -5006,6 +5379,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "AlterDB",
           "package": "groundhog",
@@ -5019,6 +5393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "AlterTable",
           "package": "groundhog",
@@ -5027,6 +5402,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "AlterTable",
           "package": "groundhog",
@@ -5040,6 +5416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "Column",
           "package": "groundhog",
@@ -5048,6 +5425,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "Column",
           "package": "groundhog",
@@ -5061,6 +5439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "MigrationPack",
           "package": "groundhog",
@@ -5069,6 +5448,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "MigrationPack",
           "package": "groundhog",
@@ -5082,6 +5462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "Reference",
           "package": "groundhog",
@@ -5090,6 +5471,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "Reference",
           "package": "groundhog",
@@ -5103,6 +5485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "SchemaAnalyzer",
           "package": "groundhog",
@@ -5111,6 +5494,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "SchemaAnalyzer",
           "package": "groundhog",
@@ -5124,6 +5508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "TableInfo",
           "package": "groundhog",
@@ -5132,6 +5517,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "TableInfo",
           "package": "groundhog",
@@ -5145,6 +5531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "UniqueDef'",
           "package": "groundhog",
@@ -5153,6 +5540,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "UniqueDef'",
           "package": "groundhog",
@@ -5166,6 +5554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "AddColumn",
           "package": "groundhog",
@@ -5175,6 +5564,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "AddColumn",
           "package": "groundhog",
@@ -5188,6 +5578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "AddReference",
           "package": "groundhog",
@@ -5197,6 +5588,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "AddReference",
           "package": "groundhog",
@@ -5210,6 +5602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "AddTable",
           "package": "groundhog",
@@ -5219,6 +5612,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "AddTable",
           "package": "groundhog",
@@ -5233,6 +5627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrigger schema, trigger name, table schema, table name, body\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "AddTriggerOnDelete",
           "package": "groundhog",
@@ -5243,6 +5638,7 @@
         "index": {
           "description": "Trigger schema trigger name table schema table name body",
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "AddTriggerOnDelete",
           "package": "groundhog",
@@ -5257,6 +5653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrigger schema, trigger name, table schema, table name, field name, body\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "AddTriggerOnUpdate",
           "package": "groundhog",
@@ -5267,6 +5664,7 @@
         "index": {
           "description": "Trigger schema trigger name table schema table name field name body",
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "AddTriggerOnUpdate",
           "package": "groundhog",
@@ -5280,6 +5678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "AddUnique",
           "package": "groundhog",
@@ -5289,6 +5688,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "AddUnique",
           "package": "groundhog",
@@ -5302,6 +5702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "AlterColumn",
           "package": "groundhog",
@@ -5311,6 +5712,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "AlterColumn",
           "normalized": "AlterColumn Column[AlterColumn]",
@@ -5327,6 +5729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable schema, table name, create statement, structure of table from DB, structure of table from datatype, alters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "AlterTable",
           "package": "groundhog",
@@ -5337,6 +5740,7 @@
         "index": {
           "description": "Table schema table name create statement structure of table from DB structure of table from datatype alters",
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "AlterTable",
           "normalized": "AlterTable(Maybe String)String String TableInfo TableInfo[AlterTable]",
@@ -5352,6 +5756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "Column",
           "package": "groundhog",
@@ -5361,6 +5766,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "Column",
           "package": "groundhog",
@@ -5375,6 +5781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatement which creates the function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "CreateOrReplaceFunction",
           "package": "groundhog",
@@ -5385,6 +5792,7 @@
         "index": {
           "description": "Statement which creates the function",
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "CreateOrReplaceFunction",
           "package": "groundhog",
@@ -5398,6 +5806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "Default",
           "package": "groundhog",
@@ -5407,6 +5816,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "Default",
           "package": "groundhog",
@@ -5420,6 +5830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "DropColumn",
           "package": "groundhog",
@@ -5429,6 +5840,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "DropColumn",
           "package": "groundhog",
@@ -5442,6 +5854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "DropConstraint",
           "package": "groundhog",
@@ -5451,6 +5864,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "DropConstraint",
           "package": "groundhog",
@@ -5465,6 +5879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction schema, function name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "DropFunction",
           "package": "groundhog",
@@ -5475,6 +5890,7 @@
         "index": {
           "description": "Function schema function name",
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "DropFunction",
           "package": "groundhog",
@@ -5488,6 +5904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "DropIndex",
           "package": "groundhog",
@@ -5497,6 +5914,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "DropIndex",
           "package": "groundhog",
@@ -5510,6 +5928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "DropReference",
           "package": "groundhog",
@@ -5519,6 +5938,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "DropReference",
           "package": "groundhog",
@@ -5533,6 +5953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrigger schema, trigger name, table schema, table name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "DropTrigger",
           "package": "groundhog",
@@ -5543,6 +5964,7 @@
         "index": {
           "description": "Trigger schema trigger name table schema table name",
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "DropTrigger",
           "package": "groundhog",
@@ -5556,6 +5978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "IsNull",
           "package": "groundhog",
@@ -5565,6 +5988,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "IsNull",
           "package": "groundhog",
@@ -5578,6 +6002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "MigrationPack",
           "package": "groundhog",
@@ -5587,6 +6012,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "MigrationPack",
           "package": "groundhog",
@@ -5600,6 +6026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "NoDefault",
           "package": "groundhog",
@@ -5609,6 +6036,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "NoDefault",
           "package": "groundhog",
@@ -5622,6 +6050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "NotNull",
           "package": "groundhog",
@@ -5631,6 +6060,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "NotNull",
           "package": "groundhog",
@@ -5644,6 +6074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "Reference",
           "package": "groundhog",
@@ -5653,6 +6084,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "Reference",
           "package": "groundhog",
@@ -5666,6 +6098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "TableInfo",
           "package": "groundhog",
@@ -5675,6 +6108,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "TableInfo",
           "package": "groundhog",
@@ -5688,6 +6122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "Type",
           "package": "groundhog",
@@ -5697,6 +6132,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "Type",
           "package": "groundhog",
@@ -5710,6 +6146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "UniqueDef'",
           "package": "groundhog",
@@ -5719,6 +6156,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "UniqueDef'",
           "package": "groundhog",
@@ -5732,6 +6170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "UpdateValue",
           "package": "groundhog",
@@ -5741,6 +6180,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "UpdateValue",
           "package": "groundhog",
@@ -5755,6 +6195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSql pieces for the create table statement that add constraints and alterations for running after the table is created\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "addUniquesReferences",
           "package": "groundhog",
@@ -5765,6 +6206,7 @@
         "index": {
           "description": "Sql pieces for the create table statement that add constraints and alterations for running after the table is created",
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "addUniquesReferences",
           "normalized": "[UniqueDef']-\u003e[Reference]-\u003e([String],[AlterTable])",
@@ -5780,6 +6222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "analyzeFunction",
           "package": "groundhog",
@@ -5789,6 +6232,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "analyzeFunction",
           "package": "groundhog",
@@ -5802,6 +6246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "analyzeTable",
           "package": "groundhog",
@@ -5811,6 +6256,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "analyzeTable",
           "package": "groundhog",
@@ -5824,6 +6270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "analyzeTrigger",
           "package": "groundhog",
@@ -5833,6 +6280,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "analyzeTrigger",
           "package": "groundhog",
@@ -5846,6 +6294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "colDefault",
           "package": "groundhog",
@@ -5855,6 +6304,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "colDefault",
           "package": "groundhog",
@@ -5868,6 +6318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "colName",
           "package": "groundhog",
@@ -5877,6 +6328,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "colName",
           "package": "groundhog",
@@ -5890,6 +6342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "colNull",
           "package": "groundhog",
@@ -5899,6 +6352,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "colNull",
           "package": "groundhog",
@@ -5912,6 +6366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "colType",
           "package": "groundhog",
@@ -5921,6 +6376,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "colType",
           "package": "groundhog",
@@ -5934,6 +6390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "compareDefaults",
           "package": "groundhog",
@@ -5943,6 +6400,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "compareDefaults",
           "normalized": "String-\u003eString-\u003eBool",
@@ -5958,6 +6416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "compareRefs",
           "package": "groundhog",
@@ -5967,6 +6426,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "compareRefs",
           "normalized": "(Maybe String,Reference)-\u003e(Maybe String,Reference)-\u003eBool",
@@ -5982,6 +6442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "compareTypes",
           "package": "groundhog",
@@ -5991,6 +6452,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "compareTypes",
           "normalized": "DbTypePrimitive-\u003eDbTypePrimitive-\u003eBool",
@@ -6006,6 +6468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "compareUniqs",
           "package": "groundhog",
@@ -6015,6 +6478,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "compareUniqs",
           "normalized": "UniqueDef'-\u003eUniqueDef'-\u003eBool",
@@ -6030,6 +6494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "defaultMigConstr",
           "package": "groundhog",
@@ -6039,6 +6504,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "defaultMigConstr",
           "normalized": "MigrationPack a-\u003eEntityDef-\u003eConstructorDef-\u003ea(Bool,SingleMigration)",
@@ -6054,6 +6520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "defaultPriority",
           "package": "groundhog",
@@ -6063,6 +6530,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "defaultPriority",
           "package": "groundhog",
@@ -6076,6 +6544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "defaultReferenceActionType",
           "package": "groundhog",
@@ -6085,6 +6554,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "defaultReferenceActionType",
           "package": "groundhog",
@@ -6098,6 +6568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "escape",
           "package": "groundhog",
@@ -6107,6 +6578,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "escape",
           "normalized": "String-\u003eString",
@@ -6121,6 +6593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "getAlters",
           "package": "groundhog",
@@ -6129,6 +6602,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "getAlters",
           "normalized": "MigrationPack a-\u003eTableInfo-\u003eTableInfo-\u003e[AlterTable]",
@@ -6144,6 +6618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "listTableTriggers",
           "package": "groundhog",
@@ -6153,6 +6628,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "listTableTriggers",
           "package": "groundhog",
@@ -6166,6 +6642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "listTables",
           "package": "groundhog",
@@ -6175,6 +6652,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "listTables",
           "package": "groundhog",
@@ -6188,6 +6666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "mainTableId",
           "package": "groundhog",
@@ -6197,6 +6676,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "mainTableId",
           "package": "groundhog",
@@ -6210,6 +6690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "migConstr",
           "package": "groundhog",
@@ -6219,6 +6700,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "migConstr",
           "normalized": "MigrationPack a-\u003eEntityDef-\u003eConstructorDef-\u003ea(Bool,SingleMigration)",
@@ -6234,6 +6716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "migTriggerOnDelete",
           "package": "groundhog",
@@ -6243,6 +6726,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "migTriggerOnDelete",
           "normalized": "Maybe String-\u003eString-\u003e[(String,String)]-\u003ea(Bool,[AlterDB])",
@@ -6258,6 +6742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "migTriggerOnUpdate",
           "package": "groundhog",
@@ -6267,6 +6752,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "migTriggerOnUpdate",
           "normalized": "Maybe String-\u003eString-\u003e[(String,String)]-\u003ea[(Bool,[AlterDB])]",
@@ -6282,6 +6768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "migrateEntity",
           "package": "groundhog",
@@ -6291,6 +6778,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "migrateEntity",
           "normalized": "MigrationPack a-\u003eEntityDef-\u003ea SingleMigration",
@@ -6306,6 +6794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "migrateList",
           "package": "groundhog",
@@ -6315,6 +6804,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "migrateList",
           "normalized": "MigrationPack a-\u003eDbType-\u003ea SingleMigration",
@@ -6331,6 +6821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate migration for a given entity and all entities it depends on.\n The stateful Map is used to avoid duplicate migrations when an entity type\n occurs several times in a datatype\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "migrateRecursively",
           "package": "groundhog",
@@ -6340,6 +6831,7 @@
         "index": {
           "description": "Create migration for given entity and all entities it depends on The stateful Map is used to avoid duplicate migrations when an entity type occurs several times in datatype",
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "migrateRecursively",
           "normalized": "(EntityDef-\u003ea SingleMigration)-\u003e(DbType-\u003ea SingleMigration)-\u003eb-\u003eStateT NamedMigrations a()",
@@ -6355,6 +6847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "mkColumns",
           "package": "groundhog",
@@ -6364,6 +6857,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "mkColumns",
           "normalized": "(String,DbType)-\u003e[Column]-\u003e[Column]",
@@ -6379,6 +6873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "primaryKeyTypeName",
           "package": "groundhog",
@@ -6388,6 +6883,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "primaryKeyTypeName",
           "package": "groundhog",
@@ -6401,6 +6897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "readReferenceAction",
           "package": "groundhog",
@@ -6410,6 +6907,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "readReferenceAction",
           "normalized": "String-\u003eMaybe ReferenceActionType",
@@ -6425,6 +6923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "referenceOnDelete",
           "package": "groundhog",
@@ -6434,6 +6933,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "referenceOnDelete",
           "package": "groundhog",
@@ -6447,6 +6947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "referenceOnUpdate",
           "package": "groundhog",
@@ -6456,6 +6957,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "referenceOnUpdate",
           "package": "groundhog",
@@ -6470,6 +6972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echild column, parent column\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "referencedColumns",
           "package": "groundhog",
@@ -6480,6 +6983,7 @@
         "index": {
           "description": "child column parent column",
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "referencedColumns",
           "normalized": "[(String,String)]",
@@ -6495,6 +6999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "referencedTableName",
           "package": "groundhog",
@@ -6504,6 +7009,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "referencedTableName",
           "package": "groundhog",
@@ -6517,6 +7023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "referencedTableSchema",
           "package": "groundhog",
@@ -6526,6 +7033,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "referencedTableSchema",
           "package": "groundhog",
@@ -6539,6 +7047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "showAlterDb",
           "package": "groundhog",
@@ -6548,6 +7057,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "showAlterDb",
           "normalized": "AlterDB-\u003eSingleMigration",
@@ -6563,6 +7073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "showColumn",
           "package": "groundhog",
@@ -6572,6 +7083,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "showColumn",
           "normalized": "Column-\u003eString",
@@ -6587,6 +7099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "showReferenceAction",
           "package": "groundhog",
@@ -6596,6 +7109,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "showReferenceAction",
           "normalized": "ReferenceActionType-\u003eString",
@@ -6611,6 +7125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "tableColumns",
           "package": "groundhog",
@@ -6620,6 +7135,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "tableColumns",
           "normalized": "[Column]",
@@ -6636,6 +7152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstraint name and reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "tableReferences",
           "package": "groundhog",
@@ -6646,6 +7163,7 @@
         "index": {
           "description": "constraint name and reference",
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "tableReferences",
           "normalized": "[(Maybe String,Reference)]",
@@ -6661,6 +7179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "tableUniques",
           "package": "groundhog",
@@ -6670,6 +7189,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "tableUniques",
           "normalized": "[UniqueDef']",
@@ -6685,6 +7205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "uniqueDefColumns",
           "package": "groundhog",
@@ -6694,6 +7215,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "uniqueDefColumns",
           "normalized": "[String]",
@@ -6709,6 +7231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "uniqueDefName",
           "package": "groundhog",
@@ -6718,6 +7241,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "uniqueDefName",
           "package": "groundhog",
@@ -6731,6 +7255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "uniqueDefType",
           "package": "groundhog",
@@ -6740,6 +7265,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Migration",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Migration",
           "name": "uniqueDefType",
           "package": "groundhog",
@@ -6754,6 +7280,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis helper module contains generic versions of PersistBackend functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "PersistBackendHelpers",
           "package": "groundhog",
@@ -6763,6 +7290,7 @@
         "index": {
           "description": "This helper module contains generic versions of PersistBackend functions",
           "hierarchy": "Database Groundhog Generic PersistBackendHelpers",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "PersistBackendHelpers",
           "package": "groundhog",
@@ -6776,6 +7304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "count",
           "package": "groundhog",
@@ -6785,6 +7314,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic PersistBackendHelpers",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "count",
           "normalized": "(Utf-\u003eUtf)-\u003e(a b Utf-\u003e[DbType]-\u003e[PersistValue]-\u003e(RowPopper c-\u003ec d)-\u003ec d)-\u003e(Cond e f-\u003eMaybe(RenderS e f))-\u003eCond e f-\u003ec Int",
@@ -6799,6 +7329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "countAll",
           "package": "groundhog",
@@ -6808,6 +7339,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic PersistBackendHelpers",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "countAll",
           "normalized": "(Utf-\u003eUtf)-\u003e(a b Utf-\u003e[DbType]-\u003e[PersistValue]-\u003e(RowPopper c-\u003ec d)-\u003ec d)-\u003ee-\u003ec Int",
@@ -6823,6 +7355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "delete",
           "package": "groundhog",
@@ -6832,6 +7365,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic PersistBackendHelpers",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "delete",
           "normalized": "(Utf-\u003eUtf)-\u003e(Utf-\u003e[PersistValue]-\u003ea())-\u003e(Cond b c-\u003eMaybe(RenderS b c))-\u003eCond b c-\u003ea()",
@@ -6846,6 +7380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "deleteAll",
           "package": "groundhog",
@@ -6855,6 +7390,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic PersistBackendHelpers",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "deleteAll",
           "normalized": "(Utf-\u003eUtf)-\u003e(Utf-\u003e[PersistValue]-\u003ea())-\u003eb-\u003ea()",
@@ -6870,6 +7406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "deleteBy",
           "package": "groundhog",
@@ -6879,6 +7416,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic PersistBackendHelpers",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "deleteBy",
           "normalized": "(Utf-\u003eUtf)-\u003e(Utf-\u003e[PersistValue]-\u003ea())-\u003eKey b BackendSpecific-\u003ea()",
@@ -6894,6 +7432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "get",
           "package": "groundhog",
@@ -6903,6 +7442,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic PersistBackendHelpers",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "get",
           "normalized": "(Utf-\u003eUtf)-\u003e(a b Utf-\u003e[DbType]-\u003e[PersistValue]-\u003e(RowPopper c-\u003ec d)-\u003ec d)-\u003eKey e BackendSpecific-\u003ec(Maybe e)",
@@ -6917,6 +7457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "getBy",
           "package": "groundhog",
@@ -6925,6 +7466,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic PersistBackendHelpers",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "getBy",
           "normalized": "(Utf-\u003eUtf)-\u003e(a b Utf-\u003e[DbType]-\u003e[PersistValue]-\u003e(RowPopper c-\u003ec d)-\u003ec d)-\u003eKey e(Unique f)-\u003ec(Maybe e)",
@@ -6940,6 +7482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "insertBy",
           "package": "groundhog",
@@ -6949,6 +7492,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic PersistBackendHelpers",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "insertBy",
           "normalized": "(Utf-\u003eUtf)-\u003e(a b Utf-\u003e[DbType]-\u003e[PersistValue]-\u003e(RowPopper c-\u003ec d)-\u003ec d)-\u003eBool-\u003ee(UniqueMarker f)-\u003ef-\u003ec(Either(AutoKey f)(AutoKey f))",
@@ -6964,6 +7508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "insertByAll",
           "package": "groundhog",
@@ -6972,6 +7517,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic PersistBackendHelpers",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "insertByAll",
           "normalized": "(Utf-\u003eUtf)-\u003e(a b Utf-\u003e[DbType]-\u003e[PersistValue]-\u003e(RowPopper c-\u003ec d)-\u003ec d)-\u003eBool-\u003ee-\u003ec(Either(AutoKey e)(AutoKey e))",
@@ -6987,6 +7533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "project",
           "package": "groundhog",
@@ -6996,6 +7543,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic PersistBackendHelpers",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "project",
           "normalized": "(Utf-\u003eUtf)-\u003e(a b Utf-\u003e[DbType]-\u003e[PersistValue]-\u003e(RowPopper c-\u003ec d)-\u003ec d)-\u003eUtf-\u003e(Cond e f-\u003eMaybe(RenderS e f))-\u003eg-\u003eh-\u003ec[i]",
@@ -7010,6 +7558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "replace",
           "package": "groundhog",
@@ -7019,6 +7568,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic PersistBackendHelpers",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "replace",
           "normalized": "(Utf-\u003eUtf)-\u003e(a b Utf-\u003e[DbType]-\u003e[PersistValue]-\u003e(RowPopper c-\u003ec d)-\u003ec d)-\u003e(Utf-\u003e[PersistValue]-\u003ec())-\u003e(Bool-\u003eUtf-\u003eConstructorDef-\u003e[PersistValue]-\u003eRenderS e f)-\u003eKey g BackendSpecific-\u003eg-\u003ec()",
@@ -7033,6 +7583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "replaceBy",
           "package": "groundhog",
@@ -7041,6 +7592,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic PersistBackendHelpers",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "replaceBy",
           "normalized": "(Utf-\u003eUtf)-\u003e(Utf-\u003e[PersistValue]-\u003ea())-\u003eb(UniqueMarker c)-\u003ec-\u003ea()",
@@ -7056,6 +7608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "select",
           "package": "groundhog",
@@ -7065,6 +7618,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic PersistBackendHelpers",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "select",
           "normalized": "(Utf-\u003eUtf)-\u003e(a b Utf-\u003e[DbType]-\u003e[PersistValue]-\u003e(RowPopper c-\u003ec d)-\u003ec d)-\u003eUtf-\u003e(Cond e f-\u003eMaybe(RenderS e f))-\u003eg-\u003ec[h]",
@@ -7079,6 +7633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "selectAll",
           "package": "groundhog",
@@ -7088,6 +7643,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic PersistBackendHelpers",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "selectAll",
           "normalized": "(Utf-\u003eUtf)-\u003e(a b Utf-\u003e[DbType]-\u003e[PersistValue]-\u003e(RowPopper c-\u003ec d)-\u003ec d)-\u003ec[(AutoKey e,e)]",
@@ -7103,6 +7659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "update",
           "package": "groundhog",
@@ -7112,6 +7669,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic PersistBackendHelpers",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.PersistBackendHelpers",
           "name": "update",
           "normalized": "(Utf-\u003eUtf)-\u003e(Utf-\u003e[PersistValue]-\u003ea())-\u003e(Cond b c-\u003eMaybe(RenderS b c))-\u003e[Update b c]-\u003eCond b c-\u003ea()",
@@ -7127,6 +7685,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module has common SQL functions and operators which are supported in the most SQL databases\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql.Functions",
           "name": "Functions",
           "package": "groundhog",
@@ -7136,6 +7695,7 @@
         "index": {
           "description": "This module has common SQL functions and operators which are supported in the most SQL databases",
           "hierarchy": "Database Groundhog Generic Sql Functions",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql.Functions",
           "name": "Functions",
           "package": "groundhog",
@@ -7150,6 +7710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class distinguishes databases which support SQL-specific expressions. It contains ad hoc members for features whose syntax differs across the databases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql.Functions",
           "name": "SqlDb",
           "package": "groundhog",
@@ -7159,6 +7720,7 @@
         "index": {
           "description": "This class distinguishes databases which support SQL-specific expressions It contains ad hoc members for features whose syntax differs across the databases",
           "hierarchy": "Database Groundhog Generic Sql Functions",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql.Functions",
           "name": "SqlDb",
           "package": "groundhog",
@@ -7172,6 +7734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql.Functions",
           "name": "append",
           "package": "groundhog",
@@ -7181,6 +7744,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql Functions",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql.Functions",
           "name": "append",
           "normalized": "a-\u003eb-\u003eExpr c d String",
@@ -7195,6 +7759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql.Functions",
           "name": "in_",
           "package": "groundhog",
@@ -7204,6 +7769,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql Functions",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql.Functions",
           "name": "in_",
           "normalized": "a-\u003e[b]-\u003eCond c d",
@@ -7218,6 +7784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql.Functions",
           "name": "like",
           "package": "groundhog",
@@ -7227,6 +7794,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql Functions",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql.Functions",
           "name": "like",
           "normalized": "a-\u003eString-\u003eCond b c",
@@ -7241,6 +7809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql.Functions",
           "name": "lower",
           "package": "groundhog",
@@ -7250,6 +7819,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql Functions",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql.Functions",
           "name": "lower",
           "normalized": "a-\u003eExpr b c String",
@@ -7264,6 +7834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql.Functions",
           "name": "notIn_",
           "package": "groundhog",
@@ -7273,6 +7844,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql Functions",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql.Functions",
           "name": "notIn_",
           "normalized": "a-\u003e[b]-\u003eCond c d",
@@ -7288,6 +7860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql.Functions",
           "name": "notLike",
           "package": "groundhog",
@@ -7297,6 +7870,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql Functions",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql.Functions",
           "name": "notLike",
           "normalized": "a-\u003eString-\u003eCond b c",
@@ -7313,6 +7887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert field to an arithmetic value. It is kept for compatibility with older Groundhog versions and can be replaced with liftExpr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql.Functions",
           "name": "toArith",
           "package": "groundhog",
@@ -7323,6 +7898,7 @@
         "index": {
           "description": "Convert field to an arithmetic value It is kept for compatibility with older Groundhog versions and can be replaced with liftExpr",
           "hierarchy": "Database Groundhog Generic Sql Functions",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql.Functions",
           "name": "toArith",
           "normalized": "a-\u003eExpr b c d",
@@ -7338,6 +7914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql.Functions",
           "name": "upper",
           "package": "groundhog",
@@ -7347,6 +7924,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql Functions",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql.Functions",
           "name": "upper",
           "normalized": "a-\u003eExpr b c String",
@@ -7362,6 +7940,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the functions which are used only for backends creation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "Sql",
           "package": "groundhog",
@@ -7371,6 +7950,7 @@
         "index": {
           "description": "This module defines the functions which are used only for backends creation",
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "Sql",
           "package": "groundhog",
@@ -7384,6 +7964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "RenderS",
           "package": "groundhog",
@@ -7392,6 +7973,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "RenderS",
           "package": "groundhog",
@@ -7406,6 +7988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape function, priority of the outer operator. The result is a list for the embedded data which may expand to several RenderS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "Snippet",
           "package": "groundhog",
@@ -7415,6 +7998,7 @@
         "index": {
           "description": "Escape function priority of the outer operator The result is list for the embedded data which may expand to several RenderS",
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "Snippet",
           "package": "groundhog",
@@ -7429,6 +8013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class distinguishes databases which support SQL-specific expressions. It contains ad hoc members for features whose syntax differs across the databases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "SqlDb",
           "package": "groundhog",
@@ -7438,6 +8023,7 @@
         "index": {
           "description": "This class distinguishes databases which support SQL-specific expressions It contains ad hoc members for features whose syntax differs across the databases",
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "SqlDb",
           "package": "groundhog",
@@ -7451,6 +8037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "StringLike",
           "package": "groundhog",
@@ -7459,6 +8046,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "StringLike",
           "package": "groundhog",
@@ -7473,6 +8061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype for incremental building SQL queries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "Utf8",
           "package": "groundhog",
@@ -7482,6 +8071,7 @@
         "index": {
           "description": "Datatype for incremental building SQL queries",
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "Utf8",
           "package": "groundhog",
@@ -7496,6 +8086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix synonym for \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "(\u003c\u003e)",
           "package": "groundhog",
@@ -7505,6 +8096,7 @@
         "index": {
           "description": "An infix synonym for mappend",
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -7519,6 +8111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "RenderS",
           "package": "groundhog",
@@ -7528,6 +8121,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "RenderS",
           "package": "groundhog",
@@ -7541,6 +8135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "Snippet",
           "package": "groundhog",
@@ -7550,6 +8145,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "Snippet",
           "normalized": "Snippet((Utf-\u003eUtf)-\u003eInt-\u003e[RenderS a b])",
@@ -7565,6 +8161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "append",
           "package": "groundhog",
@@ -7574,6 +8171,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "append",
           "normalized": "a-\u003eb-\u003eExpr c d String",
@@ -7588,6 +8186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "commasJoin",
           "package": "groundhog",
@@ -7597,6 +8196,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "commasJoin",
           "normalized": "[a]-\u003ea",
@@ -7612,6 +8212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "defaultShowPrim",
           "package": "groundhog",
@@ -7621,6 +8222,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "defaultShowPrim",
           "normalized": "PersistValue-\u003eString",
@@ -7636,6 +8238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "flatten",
           "package": "groundhog",
@@ -7645,6 +8248,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "flatten",
           "normalized": "(Utf-\u003eUtf)-\u003e(String,DbType)-\u003e[Utf]-\u003e[Utf]",
@@ -7659,6 +8263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "fromChar",
           "package": "groundhog",
@@ -7668,6 +8273,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "fromChar",
           "normalized": "Char-\u003ea",
@@ -7683,6 +8289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "fromString",
           "package": "groundhog",
@@ -7691,6 +8298,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "fromString",
           "normalized": "String-\u003ea",
@@ -7706,6 +8314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "function",
           "package": "groundhog",
@@ -7715,6 +8324,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "function",
           "normalized": "String-\u003e[UntypedExpr a b]-\u003eSnippet a b",
@@ -7729,6 +8339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "getQuery",
           "package": "groundhog",
@@ -7738,6 +8349,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "getQuery",
           "package": "groundhog",
@@ -7751,6 +8363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "getValues",
           "package": "groundhog",
@@ -7760,6 +8373,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "getValues",
           "normalized": "[PersistValue]-\u003e[PersistValue]",
@@ -7775,6 +8389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "intercalateS",
           "package": "groundhog",
@@ -7784,6 +8399,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "intercalateS",
           "normalized": "a-\u003e[a]-\u003ea",
@@ -7798,6 +8414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "liftExpr",
           "package": "groundhog",
@@ -7807,6 +8424,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "liftExpr",
           "normalized": "a-\u003eExpr b c d",
@@ -7823,6 +8441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns escaped main table name optionally qualified with schema\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "mainTableName",
           "package": "groundhog",
@@ -7833,6 +8452,7 @@
         "index": {
           "description": "Returns escaped main table name optionally qualified with schema",
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "mainTableName",
           "normalized": "(a-\u003ea)-\u003eEntityDef-\u003ea",
@@ -7848,6 +8468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "operator",
           "package": "groundhog",
@@ -7857,6 +8478,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "operator",
           "normalized": "Int-\u003eString-\u003ea-\u003eb-\u003eSnippet c d",
@@ -7871,6 +8493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "parens",
           "package": "groundhog",
@@ -7880,6 +8503,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "parens",
           "normalized": "Int-\u003eInt-\u003eRenderS a b-\u003eRenderS a b",
@@ -7894,6 +8518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "renderChain",
           "package": "groundhog",
@@ -7903,6 +8528,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "renderChain",
           "normalized": "(Utf-\u003eUtf)-\u003eFieldChain-\u003e[Utf]-\u003e[Utf]",
@@ -7919,6 +8545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders conditions for SQL backend. Returns Nothing if the fields don't have any columns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "renderCond",
           "package": "groundhog",
@@ -7928,6 +8555,7 @@
         "index": {
           "description": "Renders conditions for SQL backend Returns Nothing if the fields don have any columns",
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "renderCond",
           "normalized": "(Utf-\u003eUtf)-\u003e(Utf-\u003eUtf-\u003eUtf)-\u003e(Utf-\u003eUtf-\u003eUtf)-\u003eCond a b-\u003eMaybe(RenderS a b)",
@@ -7943,6 +8571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "renderExpr",
           "package": "groundhog",
@@ -7952,6 +8581,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "renderExpr",
           "normalized": "(Utf-\u003eUtf)-\u003eUntypedExpr a b-\u003eRenderS a b",
@@ -7967,6 +8597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "renderExprExtended",
           "package": "groundhog",
@@ -7976,6 +8607,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "renderExprExtended",
           "normalized": "(Utf-\u003eUtf)-\u003eInt-\u003eUntypedExpr a b-\u003e[RenderS a b]",
@@ -7991,6 +8623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "renderExprPriority",
           "package": "groundhog",
@@ -8000,6 +8633,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "renderExprPriority",
           "normalized": "(Utf-\u003eUtf)-\u003eInt-\u003eUntypedExpr a b-\u003eRenderS a b",
@@ -8015,6 +8649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "renderFields",
           "package": "groundhog",
@@ -8024,6 +8659,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "renderFields",
           "normalized": "(Utf-\u003eUtf)-\u003e[(String,DbType)]-\u003eUtf",
@@ -8039,6 +8675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "renderOrders",
           "package": "groundhog",
@@ -8048,6 +8685,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "renderOrders",
           "normalized": "a b c(Utf-\u003eUtf)-\u003e[Order b d]-\u003eUtf",
@@ -8063,6 +8701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "renderPersistValue",
           "package": "groundhog",
@@ -8072,6 +8711,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "renderPersistValue",
           "normalized": "PersistValue-\u003eRenderS a b",
@@ -8087,6 +8727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "renderUpdates",
           "package": "groundhog",
@@ -8096,6 +8737,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "renderUpdates",
           "normalized": "(Utf-\u003eUtf)-\u003e[Update a b]-\u003eMaybe(RenderS a b)",
@@ -8112,6 +8754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns escaped table name optionally qualified with schema\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "tableName",
           "package": "groundhog",
@@ -8122,6 +8765,7 @@
         "index": {
           "description": "Returns escaped table name optionally qualified with schema",
           "hierarchy": "Database Groundhog Generic Sql",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic.Sql",
           "name": "tableName",
           "normalized": "(a-\u003ea)-\u003eEntityDef-\u003eConstructorDef-\u003ea",
@@ -8138,6 +8782,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis helper module is intended for use by the backend creators\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "Generic",
           "package": "groundhog",
@@ -8147,6 +8792,7 @@
         "index": {
           "description": "This helper module is intended for use by the backend creators",
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "Generic",
           "package": "groundhog",
@@ -8161,6 +8807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class helps to shorten the type signatures of user monadic code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "HasConn",
           "package": "groundhog",
@@ -8170,6 +8817,7 @@
         "index": {
           "description": "This class helps to shorten the type signatures of user monadic code",
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "HasConn",
           "package": "groundhog",
@@ -8183,6 +8831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "PSFieldDef",
           "package": "groundhog",
@@ -8191,6 +8840,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "PSFieldDef",
           "package": "groundhog",
@@ -8204,6 +8854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "PSFieldDef",
           "package": "groundhog",
@@ -8213,6 +8864,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "PSFieldDef",
           "package": "groundhog",
@@ -8226,6 +8878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "applyDbTypeSettings",
           "package": "groundhog",
@@ -8235,6 +8888,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "applyDbTypeSettings",
           "normalized": "PSFieldDef-\u003eDbType-\u003eDbType",
@@ -8250,6 +8904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "bracket",
           "package": "groundhog",
@@ -8258,6 +8913,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "bracket",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003e(b-\u003ea d)-\u003ea d",
@@ -8407,6 +9063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "failMessage",
           "package": "groundhog",
@@ -8416,6 +9073,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "failMessage",
           "normalized": "a-\u003e[PersistValue]-\u003eString",
@@ -8431,6 +9089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "finally",
           "package": "groundhog",
@@ -8439,6 +9098,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "finally",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -8453,6 +9113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "findOne",
           "package": "groundhog",
@@ -8462,6 +9123,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "findOne",
           "normalized": "String-\u003e(a-\u003eb)-\u003e(c-\u003eb)-\u003ea-\u003e[c]-\u003ec",
@@ -8477,6 +9139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "fromPersistValuesUnique",
           "package": "groundhog",
@@ -8486,6 +9149,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "fromPersistValuesUnique",
           "normalized": "a(UniqueMarker b)-\u003e[PersistValue]-\u003ec(b,[PersistValue])",
@@ -8501,6 +9165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "fromSinglePersistValueAutoKey",
           "package": "groundhog",
@@ -8510,6 +9175,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "fromSinglePersistValueAutoKey",
           "normalized": "PersistValue-\u003ea b",
@@ -8525,6 +9191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "fromSinglePersistValueUnique",
           "package": "groundhog",
@@ -8534,6 +9201,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "fromSinglePersistValueUnique",
           "normalized": "a(UniqueMarker b)-\u003ePersistValue-\u003ec b",
@@ -8550,6 +9218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns either a list of errors in migration or a list of queries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "getQueries",
           "package": "groundhog",
@@ -8559,6 +9228,7 @@
         "index": {
           "description": "Returns either list of errors in migration or list of queries",
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "getQueries",
           "normalized": "Bool-\u003eSingleMigration-\u003eEither[String][String]",
@@ -8574,6 +9244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "haveSameElems",
           "package": "groundhog",
@@ -8583,6 +9254,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "haveSameElems",
           "normalized": "(a-\u003eb-\u003eBool)-\u003e[a]-\u003e[b]-\u003eBool",
@@ -8598,6 +9270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "isSimple",
           "package": "groundhog",
@@ -8607,6 +9280,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "isSimple",
           "normalized": "[ConstructorDef]-\u003eBool",
@@ -8622,6 +9296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "mapAllRows",
           "package": "groundhog",
@@ -8631,6 +9306,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "mapAllRows",
           "normalized": "([PersistValue]-\u003ea b)-\u003eRowPopper a-\u003ea[b]",
@@ -8647,6 +9323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns only old elements, only new elements, and matched pairs (old, new).\n The new ones exist only in datatype, the old are present only in DB, match is typically by name (the properties of the matched elements may differ).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "matchElements",
           "package": "groundhog",
@@ -8657,6 +9334,7 @@
         "index": {
           "description": "Returns only old elements only new elements and matched pairs old new The new ones exist only in datatype the old are present only in DB match is typically by name the properties of the matched elements may differ",
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "matchElements",
           "normalized": "(a-\u003eb-\u003eBool)-\u003e[a]-\u003e[b]-\u003e([a],[b],[(a,b)])",
@@ -8673,6 +9351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoins the migrations. The result is either all error messages or all queries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "mergeMigrations",
           "package": "groundhog",
@@ -8683,6 +9362,7 @@
         "index": {
           "description": "Joins the migrations The result is either all error messages or all queries",
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "mergeMigrations",
           "normalized": "[SingleMigration]-\u003eSingleMigration",
@@ -8698,6 +9378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "onException",
           "package": "groundhog",
@@ -8707,6 +9388,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "onException",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -8722,6 +9404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "phantomDb",
           "package": "groundhog",
@@ -8731,6 +9414,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "phantomDb",
           "package": "groundhog",
@@ -8744,6 +9428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "primFromPersistValue",
           "package": "groundhog",
@@ -8753,6 +9438,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "primFromPersistValue",
           "normalized": "[PersistValue]-\u003ea(b,[PersistValue])",
@@ -8768,6 +9454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "primFromPurePersistValues",
           "package": "groundhog",
@@ -8777,6 +9464,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "primFromPurePersistValues",
           "normalized": "Proxy a-\u003e[PersistValue]-\u003e(b,[PersistValue])",
@@ -8792,6 +9480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "primFromSinglePersistValue",
           "package": "groundhog",
@@ -8801,6 +9490,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "primFromSinglePersistValue",
           "normalized": "PersistValue-\u003ea b",
@@ -8816,6 +9506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "primToPersistValue",
           "package": "groundhog",
@@ -8825,6 +9516,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "primToPersistValue",
           "normalized": "a-\u003eb([PersistValue]-\u003e[PersistValue])",
@@ -8840,6 +9532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "primToPurePersistValues",
           "package": "groundhog",
@@ -8849,6 +9542,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "primToPurePersistValues",
           "normalized": "Proxy a-\u003eb-\u003e[PersistValue]-\u003e[PersistValue]",
@@ -8864,6 +9558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "primToSinglePersistValue",
           "package": "groundhog",
@@ -8873,6 +9568,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "primToSinglePersistValue",
           "normalized": "a-\u003eb PersistValue",
@@ -8915,6 +9611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "psDbFieldName",
           "package": "groundhog",
@@ -8924,6 +9621,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "psDbFieldName",
           "package": "groundhog",
@@ -8937,6 +9635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "psDbTypeName",
           "package": "groundhog",
@@ -8946,6 +9645,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "psDbTypeName",
           "package": "groundhog",
@@ -8959,6 +9659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "psDefaultValue",
           "package": "groundhog",
@@ -8968,6 +9669,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "psDefaultValue",
           "package": "groundhog",
@@ -8981,6 +9683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "psEmbeddedDef",
           "package": "groundhog",
@@ -8990,6 +9693,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "psEmbeddedDef",
           "normalized": "Maybe[PSFieldDef]",
@@ -9005,6 +9709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "psExprName",
           "package": "groundhog",
@@ -9014,6 +9719,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "psExprName",
           "package": "groundhog",
@@ -9027,6 +9733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "psFieldName",
           "package": "groundhog",
@@ -9036,6 +9743,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "psFieldName",
           "package": "groundhog",
@@ -9049,6 +9757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "psReferenceParent",
           "package": "groundhog",
@@ -9058,6 +9767,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "psReferenceParent",
           "normalized": "Maybe(Maybe(Maybe String,String,[String]),Maybe ReferenceActionType,Maybe ReferenceActionType)",
@@ -9073,6 +9783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "pureFromPersistValue",
           "package": "groundhog",
@@ -9082,6 +9793,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "pureFromPersistValue",
           "normalized": "[PersistValue]-\u003ea(b,[PersistValue])",
@@ -9097,6 +9809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "pureToPersistValue",
           "package": "groundhog",
@@ -9106,6 +9819,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "pureToPersistValue",
           "normalized": "a-\u003eb([PersistValue]-\u003e[PersistValue])",
@@ -9121,6 +9835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "replaceOne",
           "package": "groundhog",
@@ -9130,6 +9845,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "replaceOne",
           "normalized": "String-\u003e(a-\u003eb)-\u003e(c-\u003eb)-\u003e(a-\u003ec-\u003ec)-\u003ea-\u003e[c]-\u003e[c]",
@@ -9146,6 +9862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt helps to run database operations within your application monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "runDb",
           "package": "groundhog",
@@ -9156,6 +9873,7 @@
         "index": {
           "description": "It helps to run database operations within your application monad",
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "runDb",
           "normalized": "DbPersist a b c-\u003eb c",
@@ -9172,6 +9890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns action within connection. It can handle a simple connection, a pool of them, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "runDbConn",
           "package": "groundhog",
@@ -9182,6 +9901,7 @@
         "index": {
           "description": "Runs action within connection It can handle simple connection pool of them etc",
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "runDbConn",
           "normalized": "DbPersist a(NoLoggingT b)c-\u003ed-\u003eb c",
@@ -9198,6 +9918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt is similar to \u003ccode\u003e\u003ca\u003erunDbConn\u003c/a\u003e\u003c/code\u003e but runs action without transaction. It can be useful if you use Groundhog within IO monad or in other cases when you cannot put \u003ccode\u003e\u003ca\u003ePersistBackend\u003c/a\u003e\u003c/code\u003e instance into your monad stack.\n\u003c/p\u003e\u003cpre\u003e\n flip withConn cm $ \\conn -\u003e liftIO $ do\n   -- transaction is already opened by withConn at this point\n   someIOAction\n   getValuesFromIO $ \\value -\u003e runDbConnNoTransaction (insert_ value) conn\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "runDbConnNoTransaction",
           "package": "groundhog",
@@ -9208,6 +9929,7 @@
         "index": {
           "description": "It is similar to runDbConn but runs action without transaction It can be useful if you use Groundhog within IO monad or in other cases when you cannot put PersistBackend instance into your monad stack flip withConn cm conn liftIO do transaction is already opened by withConn at this point someIOAction getValuesFromIO value runDbConnNoTransaction insert value conn",
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "runDbConnNoTransaction",
           "normalized": "DbPersist a(NoLoggingT b)c-\u003ed-\u003eb c",
@@ -9304,6 +10026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "singleFromPersistValue",
           "package": "groundhog",
@@ -9313,6 +10036,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "singleFromPersistValue",
           "normalized": "[PersistValue]-\u003ea(b,[PersistValue])",
@@ -9328,6 +10052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "singleToPersistValue",
           "package": "groundhog",
@@ -9337,6 +10062,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "singleToPersistValue",
           "normalized": "a-\u003eb([PersistValue]-\u003e[PersistValue])",
@@ -9352,6 +10078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "toPersistValuesUnique",
           "package": "groundhog",
@@ -9361,6 +10088,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "toPersistValuesUnique",
           "normalized": "a(UniqueMarker b)-\u003eb-\u003ec([PersistValue]-\u003e[PersistValue])",
@@ -9376,6 +10104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "toSinglePersistValueAutoKey",
           "package": "groundhog",
@@ -9385,6 +10114,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "toSinglePersistValueAutoKey",
           "normalized": "a-\u003eb PersistValue",
@@ -9400,6 +10130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "toSinglePersistValueUnique",
           "package": "groundhog",
@@ -9409,6 +10140,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "toSinglePersistValueUnique",
           "normalized": "a(UniqueMarker b)-\u003eb-\u003ec PersistValue",
@@ -9425,6 +10157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt helps to run \u003ccode\u003e\u003ca\u003ewithConnSavepoint\u003c/a\u003e\u003c/code\u003e within a monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Generic",
           "name": "withSavepoint",
           "package": "groundhog",
@@ -9435,6 +10168,7 @@
         "index": {
           "description": "It helps to run withConnSavepoint within monad",
           "hierarchy": "Database Groundhog Generic",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Generic",
           "name": "withSavepoint",
           "normalized": "String-\u003ea b-\u003ea b",
@@ -9450,6 +10184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog.Instances",
           "name": "Instances",
           "package": "groundhog",
@@ -9458,6 +10193,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Instances",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog.Instances",
           "name": "Instances",
           "package": "groundhog",
@@ -9472,6 +10208,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports the most commonly used functions and datatypes.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://github.com/lykahb/groundhog/blob/master/examples/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "Groundhog",
           "package": "groundhog",
@@ -9481,6 +10218,7 @@
         "index": {
           "description": "This module exports the most commonly used functions and datatypes See http github.com lykahb groundhog blob master examples",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "Groundhog",
           "package": "groundhog",
@@ -9495,6 +10233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt can be used in expressions like a regular field.\n For example, \u003ccode\u003edelete (AutoKeyField ==. k)\u003c/code\u003e\n or \u003ccode\u003edelete (AutoKeyField ==. k ||. SomeField ==. \"DUPLICATE\")\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "AutoKeyField",
           "package": "groundhog",
@@ -9504,6 +10243,7 @@
         "index": {
           "description": "It can be used in expressions like regular field For example delete AutoKeyField or delete AutoKeyField SomeField DUPLICATE",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "AutoKeyField",
           "package": "groundhog",
@@ -9518,6 +10258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey marked with this type can have value for any backend\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "BackendSpecific",
           "package": "groundhog",
@@ -9527,6 +10268,7 @@
         "index": {
           "description": "Key marked with this type can have value for any backend",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "BackendSpecific",
           "package": "groundhog",
@@ -9541,6 +10283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents condition for a query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "Cond",
           "package": "groundhog",
@@ -9550,6 +10293,7 @@
         "index": {
           "description": "Represents condition for query",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "Cond",
           "package": "groundhog",
@@ -9563,6 +10307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "DbPersist",
           "package": "groundhog",
@@ -9571,6 +10316,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "DbPersist",
           "package": "groundhog",
@@ -9585,6 +10331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines sort order of a result-set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "Order",
           "package": "groundhog",
@@ -9594,6 +10341,7 @@
         "index": {
           "description": "Defines sort order of result-set",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "Order",
           "package": "groundhog",
@@ -9607,6 +10355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "PersistBackend",
           "package": "groundhog",
@@ -9615,6 +10364,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "PersistBackend",
           "package": "groundhog",
@@ -9629,6 +10379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA holder for Unique constraints\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "Unique",
           "package": "groundhog",
@@ -9638,6 +10389,7 @@
         "index": {
           "description": "holder for Unique constraints",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "Unique",
           "package": "groundhog",
@@ -9652,6 +10404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount total number of records satisfying the condition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "count",
           "package": "groundhog",
@@ -9662,6 +10415,7 @@
         "index": {
           "description": "Count total number of records satisfying the condition",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "count",
           "normalized": "Cond(PhantomDb a)(RestrictionHolder b c)-\u003ea Int",
@@ -9677,6 +10431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount total number of records with all constructors. The entity parameter is used only for type inference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "countAll",
           "package": "groundhog",
@@ -9687,6 +10442,7 @@
         "index": {
           "description": "Count total number of records with all constructors The entity parameter is used only for type inference",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "countAll",
           "normalized": "a-\u003eb Int",
@@ -9703,6 +10459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the records satisfying the condition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "delete",
           "package": "groundhog",
@@ -9713,6 +10470,7 @@
         "index": {
           "description": "Remove the records satisfying the condition",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "delete",
           "normalized": "Cond(PhantomDb a)(RestrictionHolder b c)-\u003ea()",
@@ -9728,6 +10486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all records. The entity parameter is used only for type inference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "deleteAll",
           "package": "groundhog",
@@ -9738,6 +10497,7 @@
         "index": {
           "description": "Remove all records The entity parameter is used only for type inference",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "deleteAll",
           "normalized": "a-\u003eb()",
@@ -9754,6 +10514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the record with given key. No-op if the record does not exist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "deleteBy",
           "package": "groundhog",
@@ -9764,6 +10525,7 @@
         "index": {
           "description": "Remove the record with given key No-op if the record does not exist",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "deleteBy",
           "normalized": "Key a BackendSpecific-\u003eb()",
@@ -9780,6 +10542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute raw query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "executeRaw",
           "package": "groundhog",
@@ -9790,6 +10553,7 @@
         "index": {
           "description": "Execute raw query",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "executeRaw",
           "package": "groundhog",
@@ -9804,6 +10568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates value of unique key using the data extracted from the passed value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "extractUnique",
           "package": "groundhog",
@@ -9814,6 +10579,7 @@
         "index": {
           "description": "Creates value of unique key using the data extracted from the passed value",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "extractUnique",
           "normalized": "a-\u003eb",
@@ -9830,6 +10596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch an entity from a database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "get",
           "package": "groundhog",
@@ -9840,6 +10607,7 @@
         "index": {
           "description": "Fetch an entity from database",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "get",
           "normalized": "Key a BackendSpecific-\u003eb(Maybe a)",
@@ -9855,6 +10623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch an entity from a database by its unique key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "getBy",
           "package": "groundhog",
@@ -9865,6 +10634,7 @@
         "index": {
           "description": "Fetch an entity from database by its unique key",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "getBy",
           "normalized": "Key a(Unique b)-\u003ec(Maybe a)",
@@ -9880,6 +10650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "getList",
           "package": "groundhog",
@@ -9889,6 +10660,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "getList",
           "normalized": "Int-\u003ea[b]",
@@ -9905,6 +10677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a new record to a database and return its autogenerated key or ()\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "insert",
           "package": "groundhog",
@@ -9915,6 +10688,7 @@
         "index": {
           "description": "Insert new record to database and return its autogenerated key or",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "insert",
           "normalized": "a-\u003eb(AutoKey a)",
@@ -9930,6 +10704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to insert a record and return Right newkey. If there is a constraint violation for the given constraint, Left oldkey is returned\n , where oldkey is an identifier of the record with the matching values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "insertBy",
           "package": "groundhog",
@@ -9940,6 +10715,7 @@
         "index": {
           "description": "Try to insert record and return Right newkey If there is constraint violation for the given constraint Left oldkey is returned where oldkey is an identifier of the record with the matching values",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "insertBy",
           "normalized": "a(UniqueMarker b)-\u003eb-\u003ec(Either(AutoKey b)(AutoKey b))",
@@ -9956,6 +10732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to insert a record and return Right newkey. If there is a constraint violation for any constraint, Left oldkey is returned\n , where oldkey is an identifier of the record with the matching values. Note that if several constraints are violated, a key of an arbitrary matching record is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "insertByAll",
           "package": "groundhog",
@@ -9966,6 +10743,7 @@
         "index": {
           "description": "Try to insert record and return Right newkey If there is constraint violation for any constraint Left oldkey is returned where oldkey is an identifier of the record with the matching values Note that if several constraints are violated key of an arbitrary matching record is returned",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "insertByAll",
           "normalized": "a-\u003eb(Either(AutoKey a)(AutoKey a))",
@@ -9981,6 +10759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "insertList",
           "package": "groundhog",
@@ -9990,6 +10769,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "insertList",
           "normalized": "[a]-\u003eb Int",
@@ -10006,6 +10786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a new record to a database. For some backends it may be faster than \u003ccode\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "insert_",
           "package": "groundhog",
@@ -10016,6 +10797,7 @@
         "index": {
           "description": "Insert new record to database For some backends it may be faster than insert",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "insert_",
           "normalized": "a-\u003eb()",
@@ -10031,6 +10813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck database schema and create migrations for the entity and the entities it contains\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "migrate",
           "package": "groundhog",
@@ -10041,6 +10824,7 @@
         "index": {
           "description": "Check database schema and create migrations for the entity and the entities it contains",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "migrate",
           "normalized": "a-\u003eMigration b",
@@ -10056,6 +10840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch projection of some fields. Example: \u003ccode\u003eproject (SecondField, ThirdField) $ (FirstField ==. \"abc\" &&. SecondField \u003e. \"def\") `orderBy` [Asc ThirdField] `offsetBy` 100\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "project",
           "package": "groundhog",
@@ -10066,6 +10851,7 @@
         "index": {
           "description": "Fetch projection of some fields Example project SecondField ThirdField FirstField abc SecondField def orderBy Asc ThirdField offsetBy",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "project",
           "normalized": "a-\u003eb-\u003ec[d]",
@@ -10081,6 +10867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute raw query with results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "queryRaw",
           "package": "groundhog",
@@ -10091,6 +10878,7 @@
         "index": {
           "description": "Execute raw query with results",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "queryRaw",
           "package": "groundhog",
@@ -10105,6 +10893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace a record with the given autogenerated key. Result is undefined if the record does not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "replace",
           "package": "groundhog",
@@ -10115,6 +10904,7 @@
         "index": {
           "description": "Replace record with the given autogenerated key Result is undefined if the record does not exist",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "replace",
           "normalized": "Key a BackendSpecific-\u003ea-\u003eb()",
@@ -10130,6 +10920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace a record. The unique key marker defines what unique key of the entity is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "replaceBy",
           "package": "groundhog",
@@ -10140,6 +10931,7 @@
         "index": {
           "description": "Replace record The unique key marker defines what unique key of the entity is used",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "replaceBy",
           "normalized": "a(UniqueMarker b)-\u003eb-\u003ec()",
@@ -10156,6 +10948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of the records satisfying the condition. Example: \u003ccode\u003eselect $ (FirstField ==. \"abc\" &&. SecondField \u003e. \"def\") `orderBy` [Asc ThirdField] `limitTo` 100\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "select",
           "package": "groundhog",
@@ -10166,6 +10959,7 @@
         "index": {
           "description": "Return list of the records satisfying the condition Example select FirstField abc SecondField def orderBy Asc ThirdField limitTo",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "select",
           "normalized": "a-\u003eb[c]",
@@ -10181,6 +10975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of all records. Order is undefined. It can be useful for datatypes with multiple constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "selectAll",
           "package": "groundhog",
@@ -10191,6 +10986,7 @@
         "index": {
           "description": "Return list of all records Order is undefined It can be useful for datatypes with multiple constructors",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "selectAll",
           "normalized": "a[(AutoKey b,b)]",
@@ -10207,6 +11003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the records satisfying the condition. Example: \u003ccode\u003eupdate [FirstField =. \"abc\"] $ FirstField ==. \"def\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:31 UTC 2014",
           "module": "Database.Groundhog",
           "name": "update",
           "package": "groundhog",
@@ -10217,6 +11014,7 @@
         "index": {
           "description": "Update the records satisfying the condition Example update FirstField abc FirstField def",
           "hierarchy": "Database Groundhog",
+          "indexed": "2014-03-11T18:21:31",
           "module": "Database.Groundhog",
           "name": "update",
           "normalized": "[Update(PhantomDb a)(RestrictionHolder b c)]-\u003eCond(PhantomDb a)(RestrictionHolder b c)-\u003ea()",

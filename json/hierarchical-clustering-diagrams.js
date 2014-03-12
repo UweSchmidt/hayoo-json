@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hierarchical-clustering-diagrams"
+        "phrase": "hierarchical-clustering-diagrams",
+        "type": "phrase"
       },
       "type": "context"
     }

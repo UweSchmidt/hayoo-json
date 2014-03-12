@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsdip"
+        "phrase": "hsdip",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Conf",
           "name": "Conf",
           "package": "hsdip",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Conf",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Conf",
           "name": "Conf",
           "package": "hsdip",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Conf",
           "name": "Conf",
           "package": "hsdip",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Conf",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Conf",
           "name": "Conf",
           "package": "hsdip",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Conf",
           "name": "Conf",
           "package": "hsdip",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Conf",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Conf",
           "name": "Conf",
           "package": "hsdip",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Conf",
           "name": "locXY",
           "package": "hsdip",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Conf",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Conf",
           "name": "locXY",
           "normalized": "Conf-\u003eLocation-\u003e(Double,Double)",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Conf",
           "name": "locations",
           "package": "hsdip",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Conf",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Conf",
           "name": "locations",
           "normalized": "Map String(Int,Int)",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Conf",
           "name": "parseFile",
           "package": "hsdip",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Conf",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Conf",
           "name": "parseFile",
           "normalized": "FilePath-\u003eIO(Either String Conf)",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Diplomacy",
           "package": "hsdip",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Diplomacy",
           "package": "hsdip",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Location",
           "package": "hsdip",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Location",
           "package": "hsdip",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Move",
           "package": "hsdip",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Move",
           "package": "hsdip",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Ownership",
           "package": "hsdip",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Ownership",
           "package": "hsdip",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Power",
           "package": "hsdip",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Power",
           "package": "hsdip",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "PowerMove",
           "package": "hsdip",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "PowerMove",
           "package": "hsdip",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "PowerPos",
           "package": "hsdip",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "PowerPos",
           "package": "hsdip",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Season",
           "package": "hsdip",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Season",
           "package": "hsdip",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Time",
           "package": "hsdip",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Time",
           "package": "hsdip",
@@ -342,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Turn",
           "package": "hsdip",
@@ -350,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Turn",
           "package": "hsdip",
@@ -363,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "TurnType",
           "package": "hsdip",
@@ -371,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "TurnType",
           "package": "hsdip",
@@ -384,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Unit",
           "package": "hsdip",
@@ -392,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Unit",
           "package": "hsdip",
@@ -405,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "UnitLoc",
           "package": "hsdip",
@@ -413,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "UnitLoc",
           "package": "hsdip",
@@ -426,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "UnitMove",
           "package": "hsdip",
@@ -434,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "UnitMove",
           "package": "hsdip",
@@ -447,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "UnitMoveTry",
           "package": "hsdip",
@@ -455,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "UnitMoveTry",
           "package": "hsdip",
@@ -468,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Year",
           "package": "hsdip",
@@ -476,6 +519,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Year",
           "package": "hsdip",
@@ -489,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Adjustment",
           "package": "hsdip",
@@ -498,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Adjustment",
           "package": "hsdip",
@@ -511,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Army",
           "package": "hsdip",
@@ -520,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Army",
           "package": "hsdip",
@@ -533,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Attack",
           "package": "hsdip",
@@ -542,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Attack",
           "package": "hsdip",
@@ -555,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Austria",
           "package": "hsdip",
@@ -564,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Austria",
           "package": "hsdip",
@@ -577,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Convoy",
           "package": "hsdip",
@@ -586,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Convoy",
           "package": "hsdip",
@@ -599,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "England",
           "package": "hsdip",
@@ -608,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "England",
           "package": "hsdip",
@@ -621,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Fall",
           "package": "hsdip",
@@ -630,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Fall",
           "package": "hsdip",
@@ -643,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Fleet",
           "package": "hsdip",
@@ -652,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Fleet",
           "package": "hsdip",
@@ -665,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "France",
           "package": "hsdip",
@@ -674,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "France",
           "package": "hsdip",
@@ -687,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Germany",
           "package": "hsdip",
@@ -696,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Germany",
           "package": "hsdip",
@@ -709,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Hold",
           "package": "hsdip",
@@ -718,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Hold",
           "package": "hsdip",
@@ -731,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Italy",
           "package": "hsdip",
@@ -740,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Italy",
           "package": "hsdip",
@@ -753,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Movement",
           "package": "hsdip",
@@ -762,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Movement",
           "package": "hsdip",
@@ -775,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Retreat",
           "package": "hsdip",
@@ -784,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Retreat",
           "package": "hsdip",
@@ -797,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Russia",
           "package": "hsdip",
@@ -806,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Russia",
           "package": "hsdip",
@@ -819,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Spring",
           "package": "hsdip",
@@ -828,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Spring",
           "package": "hsdip",
@@ -841,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Support",
           "package": "hsdip",
@@ -850,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Support",
           "package": "hsdip",
@@ -863,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Turkey",
           "package": "hsdip",
@@ -872,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Turkey",
           "package": "hsdip",
@@ -885,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "Turn",
           "package": "hsdip",
@@ -894,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "Turn",
           "package": "hsdip",
@@ -907,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "UnitMove",
           "package": "hsdip",
@@ -916,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "UnitMove",
           "package": "hsdip",
@@ -929,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "emptyTurn",
           "package": "hsdip",
@@ -938,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "emptyTurn",
           "package": "hsdip",
@@ -951,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "powerNames",
           "package": "hsdip",
@@ -960,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "powerNames",
           "normalized": "[[Char]]",
@@ -975,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "showTurn",
           "package": "hsdip",
@@ -984,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "showTurn",
           "normalized": "Turn-\u003eString-\u003eString",
@@ -999,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "turnMoves",
           "package": "hsdip",
@@ -1008,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "turnMoves",
           "normalized": "[PowerMove]",
@@ -1023,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "turnName",
           "package": "hsdip",
@@ -1032,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "turnName",
           "package": "hsdip",
@@ -1045,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "turnOwnership",
           "package": "hsdip",
@@ -1054,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "turnOwnership",
           "normalized": "[Ownership]",
@@ -1069,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "turnTime",
           "package": "hsdip",
@@ -1078,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "turnTime",
           "package": "hsdip",
@@ -1091,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Diplomacy",
           "name": "turnUnits",
           "package": "hsdip",
@@ -1100,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Diplomacy",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Diplomacy",
           "name": "turnUnits",
           "normalized": "[PowerPos]",
@@ -1115,6 +1215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "JudgeParser",
           "name": "JudgeParser",
           "package": "hsdip",
@@ -1123,6 +1224,7 @@
         },
         "index": {
           "hierarchy": "JudgeParser",
+          "indexed": "2014-03-11T18:48:09",
           "module": "JudgeParser",
           "name": "JudgeParser",
           "package": "hsdip",
@@ -1136,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "JudgeParser",
           "name": "parseFileTurn",
           "package": "hsdip",
@@ -1145,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "JudgeParser",
+          "indexed": "2014-03-11T18:48:09",
           "module": "JudgeParser",
           "name": "parseFileTurn",
           "normalized": "SourceName-\u003eIO(Either String Turn)",
@@ -1160,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "JudgeParser",
           "name": "parseFileTurns",
           "package": "hsdip",
@@ -1169,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "JudgeParser",
+          "indexed": "2014-03-11T18:48:09",
           "module": "JudgeParser",
           "name": "parseFileTurns",
           "normalized": "SourceName-\u003eIO(Either String[Turn])",
@@ -1184,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "JudgeParser",
           "name": "tests",
           "package": "hsdip",
@@ -1193,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "JudgeParser",
+          "indexed": "2014-03-11T18:48:09",
           "module": "JudgeParser",
           "name": "tests",
           "package": "hsdip",
@@ -1205,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Render",
           "name": "Render",
           "package": "hsdip",
@@ -1213,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Render",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Render",
           "name": "Render",
           "package": "hsdip",
@@ -1226,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:09 UTC 2014",
           "module": "Render",
           "name": "renderTurnToFile",
           "package": "hsdip",
@@ -1235,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "Render",
+          "indexed": "2014-03-11T18:48:09",
           "module": "Render",
           "name": "renderTurnToFile",
           "normalized": "Conf-\u003eTurn-\u003eFilePath-\u003eIO()",

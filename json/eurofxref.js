@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "eurofxref"
+        "phrase": "eurofxref",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:15 UTC 2014",
           "module": "Financial.CurrencyRates",
           "name": "CurrencyRates",
           "package": "eurofxref",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Financial CurrencyRates",
+          "indexed": "2014-03-11T18:04:15",
           "module": "Financial.CurrencyRates",
           "name": "CurrencyRates",
           "package": "eurofxref",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA standard three-letter currency name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:15 UTC 2014",
           "module": "Financial.CurrencyRates",
           "name": "Currency",
           "package": "eurofxref",
@@ -49,6 +52,7 @@
         "index": {
           "description": "standard three-letter currency name",
           "hierarchy": "Financial CurrencyRates",
+          "indexed": "2014-03-11T18:04:15",
           "module": "Financial.CurrencyRates",
           "name": "Currency",
           "package": "eurofxref",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA table of currency rates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:15 UTC 2014",
           "module": "Financial.CurrencyRates",
           "name": "Rates",
           "package": "eurofxref",
@@ -72,6 +77,7 @@
         "index": {
           "description": "table of currency rates",
           "hierarchy": "Financial CurrencyRates",
+          "indexed": "2014-03-11T18:04:15",
           "module": "Financial.CurrencyRates",
           "name": "Rates",
           "package": "eurofxref",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:15 UTC 2014",
           "module": "Financial.CurrencyRates",
           "name": "Currency",
           "package": "eurofxref",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Financial CurrencyRates",
+          "indexed": "2014-03-11T18:04:15",
           "module": "Financial.CurrencyRates",
           "name": "Currency",
           "package": "eurofxref",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:15 UTC 2014",
           "module": "Financial.CurrencyRates",
           "name": "Rates",
           "package": "eurofxref",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Financial CurrencyRates",
+          "indexed": "2014-03-11T18:04:15",
           "module": "Financial.CurrencyRates",
           "name": "Rates",
           "package": "eurofxref",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue of one unit of the reference currency in each currency\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:15 UTC 2014",
           "module": "Financial.CurrencyRates",
           "name": "raRates",
           "package": "eurofxref",
@@ -140,6 +151,7 @@
         "index": {
           "description": "Value of one unit of the reference currency in each currency",
           "hierarchy": "Financial CurrencyRates",
+          "indexed": "2014-03-11T18:04:15",
           "module": "Financial.CurrencyRates",
           "name": "raRates",
           "package": "eurofxref",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe reference currency\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:15 UTC 2014",
           "module": "Financial.CurrencyRates",
           "name": "raReference",
           "package": "eurofxref",
@@ -164,6 +177,7 @@
         "index": {
           "description": "The reference currency",
           "hierarchy": "Financial CurrencyRates",
+          "indexed": "2014-03-11T18:04:15",
           "module": "Financial.CurrencyRates",
           "name": "raReference",
           "package": "eurofxref",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe time when the rates were valid\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:15 UTC 2014",
           "module": "Financial.CurrencyRates",
           "name": "raTime",
           "package": "eurofxref",
@@ -188,6 +203,7 @@
         "index": {
           "description": "The time when the rates were valid",
           "hierarchy": "Financial CurrencyRates",
+          "indexed": "2014-03-11T18:04:15",
           "module": "Financial.CurrencyRates",
           "name": "raTime",
           "package": "eurofxref",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRe-base the rates to a different reference currency, such that the new rates give\n the value of one unit of that currency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:15 UTC 2014",
           "module": "Financial.CurrencyRates",
           "name": "rebase",
           "package": "eurofxref",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Re-base the rates to different reference currency such that the new rates give the value of one unit of that currency",
           "hierarchy": "Financial CurrencyRates",
+          "indexed": "2014-03-11T18:04:15",
           "module": "Financial.CurrencyRates",
           "name": "rebase",
           "normalized": "Currency-\u003eRates a-\u003eRates a",
@@ -227,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExample using ghci, where we read the currency rates relative to Euros, and re-base\n them to New Zealand dollars.\n\u003c/p\u003e\u003cpre\u003e \u003e :m Financial.EuroFXRef Data.Map\n \u003e fmap (assocs . raRates . rebase (Currency \"NZD\")) fetch :: IO [(Currency, Double)]\n [(Currency \"AUD\",0.7696441703909034),(Currency \"BGN\",1.1064094586185438),...\n\u003c/pre\u003e\u003cp\u003eEach number is one unit of the reference currency in that currency,\n e.g. in this example NZD 1 == AUD 0.77.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:04:15 UTC 2014",
           "module": "Financial.EuroFXRef",
           "name": "EuroFXRef",
           "package": "eurofxref",
@@ -236,6 +255,7 @@
         "index": {
           "description": "Example using ghci where we read the currency rates relative to Euros and re-base them to New Zealand dollars Financial.EuroFXRef Data.Map fmap assocs raRates rebase Currency NZD fetch IO Currency Double Currency AUD Currency BGN Each number is one unit of the reference currency in that currency e.g in this example NZD AUD",
           "hierarchy": "Financial EuroFXRef",
+          "indexed": "2014-03-11T18:04:15",
           "module": "Financial.EuroFXRef",
           "name": "EuroFXRef",
           "package": "eurofxref",
@@ -250,6 +270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exception indicating a parse error in the parsing of European Central Bank.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:15 UTC 2014",
           "module": "Financial.EuroFXRef",
           "name": "EuropeanCentralBankException",
           "package": "eurofxref",
@@ -259,6 +280,7 @@
         "index": {
           "description": "An exception indicating parse error in the parsing of European Central Bank",
           "hierarchy": "Financial EuroFXRef",
+          "indexed": "2014-03-11T18:04:15",
           "module": "Financial.EuroFXRef",
           "name": "EuropeanCentralBankException",
           "package": "eurofxref",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:15 UTC 2014",
           "module": "Financial.EuroFXRef",
           "name": "ECBHttpException",
           "package": "eurofxref",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Financial EuroFXRef",
+          "indexed": "2014-03-11T18:04:15",
           "module": "Financial.EuroFXRef",
           "name": "ECBHttpException",
           "package": "eurofxref",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:15 UTC 2014",
           "module": "Financial.EuroFXRef",
           "name": "ECBHttpStatusException",
           "package": "eurofxref",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Financial EuroFXRef",
+          "indexed": "2014-03-11T18:04:15",
           "module": "Financial.EuroFXRef",
           "name": "ECBHttpStatusException",
           "package": "eurofxref",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:15 UTC 2014",
           "module": "Financial.EuroFXRef",
           "name": "ECBParseException",
           "package": "eurofxref",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Financial EuroFXRef",
+          "indexed": "2014-03-11T18:04:15",
           "module": "Financial.EuroFXRef",
           "name": "ECBParseException",
           "package": "eurofxref",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:15 UTC 2014",
           "module": "Financial.EuroFXRef",
           "name": "ECBXMLParseException",
           "package": "eurofxref",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Financial EuroFXRef",
+          "indexed": "2014-03-11T18:04:15",
           "module": "Financial.EuroFXRef",
           "name": "ECBXMLParseException",
           "package": "eurofxref",
@@ -361,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe URL for the European Central Bank's free daily reference rates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:15 UTC 2014",
           "module": "Financial.EuroFXRef",
           "name": "europeanCentralBankDaily",
           "package": "eurofxref",
@@ -371,6 +402,7 @@
         "index": {
           "description": "The URL for the European Central Bank free daily reference rates",
           "hierarchy": "Financial EuroFXRef",
+          "indexed": "2014-03-11T18:04:15",
           "module": "Financial.EuroFXRef",
           "name": "europeanCentralBankDaily",
           "package": "eurofxref",
@@ -385,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch today's currency rates from European Central Bank server.\n \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e works for \u003ccode\u003em\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThrows a \u003ccode\u003e\u003ca\u003eEuropeanCentralBankException\u003c/a\u003e\u003c/code\u003e for failures at HTTP and above,\n or \u003ccode\u003e\u003ca\u003eIOException\u003c/a\u003e\u003c/code\u003e for network-level failures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:15 UTC 2014",
           "module": "Financial.EuroFXRef",
           "name": "fetch",
           "package": "eurofxref",
@@ -395,6 +428,7 @@
         "index": {
           "description": "Fetch today currency rates from European Central Bank server IO works for and Double for Throws EuropeanCentralBankException for failures at HTTP and above or IOException for network-level failures",
           "hierarchy": "Financial EuroFXRef",
+          "indexed": "2014-03-11T18:04:15",
           "module": "Financial.EuroFXRef",
           "name": "fetch",
           "package": "eurofxref",
@@ -408,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch today's currency rates from the specified URL.\n\u003c/p\u003e\u003cp\u003eThrows a \u003ccode\u003e\u003ca\u003eEuropeanCentralBankException\u003c/a\u003e\u003c/code\u003e for failures at HTTP and above,\n or \u003ccode\u003e\u003ca\u003eIOException\u003c/a\u003e\u003c/code\u003e for network-level failures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:15 UTC 2014",
           "module": "Financial.EuroFXRef",
           "name": "fetchFrom",
           "package": "eurofxref",
@@ -418,6 +453,7 @@
         "index": {
           "description": "Fetch today currency rates from the specified URL Throws EuropeanCentralBankException for failures at HTTP and above or IOException for network-level failures",
           "hierarchy": "Financial EuroFXRef",
+          "indexed": "2014-03-11T18:04:15",
           "module": "Financial.EuroFXRef",
           "name": "fetchFrom",
           "normalized": "Request a-\u003eManager-\u003ea(Rates b)",
@@ -434,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the European Central Bank's XML format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:15 UTC 2014",
           "module": "Financial.EuroFXRef",
           "name": "parseEuropeanCentralBank",
           "package": "eurofxref",
@@ -444,6 +481,7 @@
         "index": {
           "description": "Parse the European Central Bank XML format",
           "hierarchy": "Financial EuroFXRef",
+          "indexed": "2014-03-11T18:04:15",
           "module": "Financial.EuroFXRef",
           "name": "parseEuropeanCentralBank",
           "normalized": "UNode String-\u003eEither String(Rates a)",

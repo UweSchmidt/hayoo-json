@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "swish"
+        "phrase": "swish",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport interning URIs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Data.Interned.URI",
           "name": "URI",
           "package": "swish",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Support interning URIs",
           "hierarchy": "Data Interned URI",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Data.Interned.URI",
           "name": "URI",
           "package": "swish",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn interned URI. The hashing is based on the\n reversed URI (as a string).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Data.Interned.URI",
           "name": "InternedURI",
           "package": "swish",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An interned URI The hashing is based on the reversed URI as string",
           "hierarchy": "Data Interned URI",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Data.Interned.URI",
           "name": "InternedURI",
           "package": "swish",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides methods to support operations on partially ordered\n  collections.  The partial ordering relationship is represented by\n  \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eOrdering\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThanks to members of the haskell-cafe mailing list -\n    Robert (rvollmert-lists@gmx.net) and\n    Tom Pledger (Tom.Pledger@peace.com) -\n  who suggested key ideas on which some of the code in this module is based.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Data.Ord.Partial",
           "name": "Partial",
           "package": "swish",
@@ -74,6 +79,7 @@
         "index": {
           "description": "This module provides methods to support operations on partially ordered collections The partial ordering relationship is represented by Maybe Ordering Thanks to members of the haskell-cafe mailing list Robert rvollmert-lists@gmx.net and Tom Pledger Tom.Pledger@peace.com who suggested key ideas on which some of the code in this module is based",
           "hierarchy": "Data Ord Partial",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Data.Ord.Partial",
           "name": "Partial",
           "package": "swish",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartial comparison function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Data.Ord.Partial",
           "name": "PartCompare",
           "package": "swish",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Partial comparison function",
           "hierarchy": "Data Ord Partial",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Data.Ord.Partial",
           "name": "PartCompare",
           "package": "swish",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function finds the maxima in a list of partially\n  ordered values, preserving the sequence of retained\n  values from the supplied list.\n\u003c/p\u003e\u003cp\u003eIt returns all those values in the supplied list\n  for which there is no larger element in the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Data.Ord.Partial",
           "name": "maxima",
           "package": "swish",
@@ -121,6 +130,7 @@
         "index": {
           "description": "This function finds the maxima in list of partially ordered values preserving the sequence of retained values from the supplied list It returns all those values in the supplied list for which there is no larger element in the list",
           "hierarchy": "Data Ord Partial",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Data.Ord.Partial",
           "name": "maxima",
           "normalized": "PartCompare a-\u003e[a]-\u003e[a]",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function finds the minima in a list of partially\n  ordered values, preserving the sequence of retained\n  values from the supplied list.\n\u003c/p\u003e\u003cp\u003eIt returns all those values in the supplied list\n  for which there is no smaller element in the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Data.Ord.Partial",
           "name": "minima",
           "package": "swish",
@@ -146,6 +157,7 @@
         "index": {
           "description": "This function finds the minima in list of partially ordered values preserving the sequence of retained values from the supplied list It returns all those values in the supplied list for which there is no smaller element in the list",
           "hierarchy": "Data Ord Partial",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Data.Ord.Partial",
           "name": "minima",
           "normalized": "PartCompare a-\u003e[a]-\u003e[a]",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartial ordering for Eq values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Data.Ord.Partial",
           "name": "partCompareEq",
           "package": "swish",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Partial ordering for Eq values",
           "hierarchy": "Data Ord Partial",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Data.Ord.Partial",
           "name": "partCompareEq",
           "package": "swish",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePart-ordering comparison on lists of Maybe values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Data.Ord.Partial",
           "name": "partCompareListMaybe",
           "package": "swish",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Part-ordering comparison on lists of Maybe values",
           "hierarchy": "Data Ord Partial",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Data.Ord.Partial",
           "name": "partCompareListMaybe",
           "normalized": "[Maybe a]-\u003e[Maybe a]-\u003eMaybe Ordering",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePart-ordering comparison on lists based on subset relationship\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Data.Ord.Partial",
           "name": "partCompareListSubset",
           "package": "swish",
@@ -221,6 +238,7 @@
         "index": {
           "description": "Part-ordering comparison on lists based on subset relationship",
           "hierarchy": "Data Ord Partial",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Data.Ord.Partial",
           "name": "partCompareListSubset",
           "normalized": "[a]-\u003e[a]-\u003eMaybe Ordering",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePart-ordering comparison on pairs of values,\n  where each has a part-ordering relationship\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Data.Ord.Partial",
           "name": "partComparePair",
           "package": "swish",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Part-ordering comparison on pairs of values where each has part-ordering relationship",
           "hierarchy": "Data Ord Partial",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Data.Ord.Partial",
           "name": "partComparePair",
           "normalized": "PartCompare a-\u003ePartCompare b-\u003e(a,b)-\u003e(a,b)-\u003eMaybe Ordering",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines an extension of the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e class for displaying\n  multi-line values.  It serves the following purposes:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e provides a method with greater layout control of multiline values,\n\u003c/li\u003e\u003cli\u003e provides a possibility to override the default \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e behaviour\n      for programs that use the extended \u003ccode\u003e\u003ca\u003eShowLines\u003c/a\u003e\u003c/code\u003e interface, and\n\u003c/li\u003e\u003cli\u003e uses a \u003ccode\u003e\u003ca\u003eShowS\u003c/a\u003e\u003c/code\u003e intermediate value to avoid unnecessary\n      concatenation of long strings.\n\u003c/li\u003e\u003c/ol\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Data.String.ShowLines",
           "name": "ShowLines",
           "package": "swish",
@@ -272,6 +293,7 @@
         "index": {
           "description": "This module defines an extension of the Show class for displaying multi-line values It serves the following purposes provides method with greater layout control of multiline values provides possibility to override the default Show behaviour for programs that use the extended ShowLines interface and uses ShowS intermediate value to avoid unnecessary concatenation of long strings",
           "hierarchy": "Data String ShowLines",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Data.String.ShowLines",
           "name": "ShowLines",
           "package": "swish",
@@ -286,6 +308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShowLines is a type class for values that may be formatted in\n  multi-line displays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Data.String.ShowLines",
           "name": "ShowLines",
           "package": "swish",
@@ -295,6 +318,7 @@
         "index": {
           "description": "ShowLines is type class for values that may be formatted in multi-line displays",
           "hierarchy": "Data String ShowLines",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Data.String.ShowLines",
           "name": "ShowLines",
           "package": "swish",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMulti-line value display method\n\u003c/p\u003e\u003cp\u003eCreate a multiline displayable form of a value, returned\n  as a \u003ccode\u003e\u003ca\u003eShowS\u003c/a\u003e\u003c/code\u003e value.  The default implementation behaves just\n  like a normal instance of \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis function is intended to allow the calling function some control\n  of multiline displays by providing:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e the first line of the value is not preceded by any text, so\n      it may be appended to some preceding text on the same line,\n\u003c/li\u003e\u003cli\u003e the supplied line break string is used to separate lines of the\n      formatted text, and may include any desired indentation, and\n\u003c/li\u003e\u003cli\u003e no newline is output following the final line of text.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Data.String.ShowLines",
           "name": "showls",
           "package": "swish",
@@ -319,6 +344,7 @@
         "index": {
           "description": "Multi-line value display method Create multiline displayable form of value returned as ShowS value The default implementation behaves just like normal instance of Show This function is intended to allow the calling function some control of multiline displays by providing the first line of the value is not preceded by any text so it may be appended to some preceding text on the same line the supplied line break string is used to separate lines of the formatted text and may include any desired indentation and no newline is output following the final line of text",
           "hierarchy": "Data String ShowLines",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Data.String.ShowLines",
           "name": "showls",
           "normalized": "String-\u003ea-\u003eShowS",
@@ -334,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvide an ordering for URIs (that is, an \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e instance for\n  \u003ccode\u003eURI\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eThis instance is provided so that URIs can be used as the\n  key of a \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e. Case is relevant for the ordering,\n  and no attempt is made to decode percent-encoded values (i.e.\n  the comparison does \u003cem\u003enot\u003c/em\u003e use a canonical or normalized form).\n\u003c/p\u003e\u003cp\u003eFor \u003ccode\u003enetwork\u003c/code\u003e version \u003ccode\u003e2.4.0.0\u003c/code\u003e and higher, this module is a no-op,\n  since \u003ccode\u003e\u003ca\u003eURI\u003c/a\u003e\u003c/code\u003e now defines these instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Network.URI.Ord",
           "name": "Ord",
           "package": "swish",
@@ -343,6 +370,7 @@
         "index": {
           "description": "Provide an ordering for URIs that is an Ord instance for URI This instance is provided so that URIs can be used as the key of Map Case is relevant for the ordering and no attempt is made to decode percent-encoded values i.e the comparison does not use canonical or normalized form For network version and higher this module is no-op since URI now defines these instances",
           "hierarchy": "Network URI Ord",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Network.URI.Ord",
           "name": "Ord",
           "package": "swish",
@@ -357,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions to deal with indivudual Swish command options.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Commands",
           "name": "Commands",
           "package": "swish",
@@ -366,6 +395,7 @@
         "index": {
           "description": "Functions to deal with indivudual Swish command options",
           "hierarchy": "Swish Commands",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Commands",
           "name": "Commands",
           "package": "swish",
@@ -380,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet (or clear) the base URI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Commands",
           "name": "swishBase",
           "package": "swish",
@@ -390,6 +421,7 @@
         "index": {
           "description": "Set or clear the base URI",
           "hierarchy": "Swish Commands",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Commands",
           "name": "swishBase",
           "normalized": "Maybe QName-\u003eSwishStateIO()",
@@ -406,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead in a graph and compare it with the current graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Commands",
           "name": "swishCompare",
           "package": "swish",
@@ -415,6 +448,7 @@
         "index": {
           "description": "Read in graph and compare it with the current graph",
           "hierarchy": "Swish Commands",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Commands",
           "name": "swishCompare",
           "normalized": "Maybe String-\u003eSwishStateIO()",
@@ -431,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the file format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Commands",
           "name": "swishFormat",
           "package": "swish",
@@ -441,6 +476,7 @@
         "index": {
           "description": "Set the file format",
           "hierarchy": "Swish Commands",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Commands",
           "name": "swishFormat",
           "normalized": "SwishFormat-\u003eSwishStateIO()",
@@ -457,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead in a graph and display the differences to the current\n graph to standard output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Commands",
           "name": "swishGraphDiff",
           "package": "swish",
@@ -466,6 +503,7 @@
         "index": {
           "description": "Read in graph and display the differences to the current graph to standard output",
           "hierarchy": "Swish Commands",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Commands",
           "name": "swishGraphDiff",
           "normalized": "Maybe String-\u003eSwishStateIO()",
@@ -482,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead in a graph and make it the current graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Commands",
           "name": "swishInput",
           "package": "swish",
@@ -491,6 +530,7 @@
         "index": {
           "description": "Read in graph and make it the current graph",
           "hierarchy": "Swish Commands",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Commands",
           "name": "swishInput",
           "normalized": "Maybe String-\u003eSwishStateIO()",
@@ -507,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead in a graph and merge it with the current graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Commands",
           "name": "swishMerge",
           "package": "swish",
@@ -516,6 +557,7 @@
         "index": {
           "description": "Read in graph and merge it with the current graph",
           "hierarchy": "Swish Commands",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Commands",
           "name": "swishMerge",
           "normalized": "Maybe String-\u003eSwishStateIO()",
@@ -532,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite out the current graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Commands",
           "name": "swishOutput",
           "package": "swish",
@@ -541,6 +584,7 @@
         "index": {
           "description": "Write out the current graph",
           "hierarchy": "Swish Commands",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Commands",
           "name": "swishOutput",
           "normalized": "Maybe String-\u003eSwishStateIO()",
@@ -557,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead in a script and execute it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Commands",
           "name": "swishScript",
           "package": "swish",
@@ -566,6 +611,7 @@
         "index": {
           "description": "Read in script and execute it",
           "hierarchy": "Swish Commands",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Commands",
           "name": "swishScript",
           "normalized": "Maybe String-\u003eSwishStateIO()",
@@ -582,6 +628,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the structures used to represent and\n  manipulate datatypes.  It is designed as a basis for handling datatyped\n  RDF literals, but the functions in this module are more generic.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "Datatype",
           "package": "swish",
@@ -591,6 +638,7 @@
         "index": {
           "description": "This module defines the structures used to represent and manipulate datatypes It is designed as basis for handling datatyped RDF literals but the functions in this module are more generic",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "Datatype",
           "package": "swish",
@@ -605,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of function used to apply a data value modifier to specified\n  variables in a supplied variable binding.  It also accepts the\n  name of the datatype modifier and carries it into the resulting\n  variable binding modifier.\n\u003c/p\u003e\u003cp\u003e(Note that \u003ccode\u003evn\u003c/code\u003e is not necessarily the same as \u003ccode\u003evt\u003c/code\u003e, the datatype value\n  type:  the modifier functions may be lifted or otherwise adapted\n  to operate on some other type from which the raw data values are\n  extracted.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "ApplyModifier",
           "package": "swish",
@@ -614,6 +663,7 @@
         "index": {
           "description": "Type of function used to apply data value modifier to specified variables in supplied variable binding It also accepts the name of the datatype modifier and carries it into the resulting variable binding modifier Note that vn is not necessarily the same as vt the datatype value type the modifier functions may be lifted or otherwise adapted to operate on some other type from which the raw data values are extracted",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "ApplyModifier",
           "package": "swish",
@@ -628,6 +678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ealtArgs\u003c/a\u003e\u003c/code\u003e support for binary function with provision for indicating\n  inconsistent supplied values:  function applicator type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "BinMaybeFnApply",
           "package": "swish",
@@ -637,6 +688,7 @@
         "index": {
           "description": "altArgs support for binary function with provision for indicating inconsistent supplied values function applicator type",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "BinMaybeFnApply",
           "package": "swish",
@@ -651,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ealtArgs\u003c/a\u003e\u003c/code\u003e support for binary function with provision for indicating\n  inconsistent supplied values:  function descriptor type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "BinMaybeFnDescr",
           "package": "swish",
@@ -660,6 +713,7 @@
         "index": {
           "description": "altArgs support for binary function with provision for indicating inconsistent supplied values function descriptor type",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "BinMaybeFnDescr",
           "package": "swish",
@@ -674,6 +728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ealtArgs\u003c/a\u003e\u003c/code\u003e support for binary function with provision for indicating\n  inconsistent supplied values:  function descriptor table type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "BinMaybeFnTable",
           "package": "swish",
@@ -683,6 +738,7 @@
         "index": {
           "description": "altArgs support for binary function with provision for indicating inconsistent supplied values function descriptor table type",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "BinMaybeFnTable",
           "package": "swish",
@@ -697,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ealtArgs\u003c/a\u003e\u003c/code\u003e support for binary functions: function applicator type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "BinaryFnApply",
           "package": "swish",
@@ -706,6 +763,7 @@
         "index": {
           "description": "altArgs support for binary functions function applicator type",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "BinaryFnApply",
           "package": "swish",
@@ -720,6 +778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ealtArgs\u003c/a\u003e\u003c/code\u003e support for binary functions: function descriptor type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "BinaryFnDescr",
           "package": "swish",
@@ -729,6 +788,7 @@
         "index": {
           "description": "altArgs support for binary functions function descriptor type",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "BinaryFnDescr",
           "package": "swish",
@@ -743,6 +803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ealtArgs\u003c/a\u003e\u003c/code\u003e support for binary functions: function descriptor table type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "BinaryFnTable",
           "package": "swish",
@@ -752,6 +813,7 @@
         "index": {
           "description": "altArgs support for binary functions function descriptor table type",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "BinaryFnTable",
           "package": "swish",
@@ -766,6 +828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype wraps a \u003ccode\u003e\u003ca\u003eDatatypeVal\u003c/a\u003e\u003c/code\u003e value, hiding the value type that\n  is used only in implementations of the datatype.\n  Users see just the datatype name and associated ruleset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "Datatype",
           "package": "swish",
@@ -775,6 +838,7 @@
         "index": {
           "description": "Datatype wraps DatatypeVal value hiding the value type that is used only in implementations of the datatype Users see just the datatype name and associated ruleset",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "Datatype",
           "package": "swish",
@@ -789,6 +853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatypeMap consists of methods that perform lexical-to-value\n  and value-to-canonical-lexical mappings for a datatype.\n\u003c/p\u003e\u003cp\u003eThe datatype mappings apply to string lexical forms which\n  are stored as \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "DatatypeMap",
           "package": "swish",
@@ -798,6 +863,7 @@
         "index": {
           "description": "DatatypeMap consists of methods that perform lexical-to-value and value-to-canonical-lexical mappings for datatype The datatype mappings apply to string lexical forms which are stored as Text",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "DatatypeMap",
           "package": "swish",
@@ -812,6 +878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for data type variable binding modifier included in\n  a datatype value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "DatatypeMod",
           "package": "swish",
@@ -821,6 +888,7 @@
         "index": {
           "description": "Wrapper for data type variable binding modifier included in datatype value",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "DatatypeMod",
           "package": "swish",
@@ -835,6 +903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype for a named relation on values of a datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "DatatypeRel",
           "package": "swish",
@@ -844,6 +913,7 @@
         "index": {
           "description": "Datatype for named relation on values of datatype",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "DatatypeRel",
           "package": "swish",
@@ -858,6 +928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for a datatype relation inference function.\n\u003c/p\u003e\u003cp\u003eA datatype relation defines tuples of values that satisfy some\n  relation.  A datatype relation inference function calculates\n  values that complete a relation with values supplied.\n\u003c/p\u003e\u003cp\u003eThe function accepts a list of \u003ccode\u003eMaybe vt\u003c/code\u003e, where vt is the\n  datatype value type.  It returns one of:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Just a list of lists, where each inner list returned is a\n      complete set of values, including the values supplied, that\n      are in the relation.\n\u003c/li\u003e\u003cli\u003e Just an empty list is returned if the supplied values are\n      insufficient to compute any complete sets of values in the\n      relation.\n\u003c/li\u003e\u003cli\u003e Nothing if the supplied values are not consistent with\n      the relation.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "DatatypeRelFn",
           "package": "swish",
@@ -867,6 +938,7 @@
         "index": {
           "description": "Type for datatype relation inference function datatype relation defines tuples of values that satisfy some relation datatype relation inference function calculates values that complete relation with values supplied The function accepts list of Maybe vt where vt is the datatype value type It returns one of Just list of lists where each inner list returned is complete set of values including the values supplied that are in the relation Just an empty list is returned if the supplied values are insufficient to compute any complete sets of values in the relation Nothing if the supplied values are not consistent with the relation",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "DatatypeRelFn",
           "package": "swish",
@@ -881,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for datatype relation predicate:  accepts a list of values\n  and determines whether or not they satisfy the relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "DatatypeRelPr",
           "package": "swish",
@@ -890,6 +963,7 @@
         "index": {
           "description": "Type for datatype relation predicate accepts list of values and determines whether or not they satisfy the relation",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "DatatypeRelPr",
           "package": "swish",
@@ -904,6 +978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribe a subtype/supertype relationship between a pair of datatypes.\n\u003c/p\u003e\u003cp\u003eOriginally, I had this as a supertype field of the DatatypeVal structure,\n  but that suffered from some problems:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e supertypes may be introduced retrospectively,\n\u003c/li\u003e\u003cli\u003e the relationship expressed with respect to a single datatype\n      cannot indicate how to do injections/restrictions between the\n      underlying value types.\n\u003c/li\u003e\u003c/ul\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eex\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e      is the type of expression with which the datatype may be used.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003elb\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e      is the type of the variable labels used.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003evn\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e      is the type of value node used to contain a datatyped value\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003esupvt\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e   is the internal value type of the super-datatype\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003esubvt\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e   is the internal value type of the sub-datatype\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "DatatypeSub",
           "package": "swish",
@@ -913,6 +988,7 @@
         "index": {
           "description": "Describe subtype supertype relationship between pair of datatypes Originally had this as supertype field of the DatatypeVal structure but that suffered from some problems supertypes may be introduced retrospectively the relationship expressed with respect to single datatype cannot indicate how to do injections restrictions between the underlying value types ex is the type of expression with which the datatype may be used lb is the type of the variable labels used vn is the type of value node used to contain datatyped value supvt is the internal value type of the super-datatype subvt is the internal value type of the sub-datatype",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "DatatypeSub",
           "package": "swish",
@@ -927,6 +1003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatypeVal is a structure that defines a number of functions\n  and values that characterize the behaviour of a datatype.\n\u003c/p\u003e\u003cp\u003eA datatype is specified with respect to (polymophic in) a given\n  type of (syntactic) expression with which it may be used, and\n  a value type (whose existence is hidden as an existential type\n  within \u003ccode\u003e\u003ca\u003eDatatypeMap\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003e(I tried hiding the value type with an internal existential\n  declaration, but that wouldn't wash.  Hence this two-part\n  structure with \u003ccode\u003e\u003ca\u003eDatatype\u003c/a\u003e\u003c/code\u003e in which the internal detail\n  of the value type is hidden from users of the \u003ccode\u003e\u003ca\u003eDatatype\u003c/a\u003e\u003c/code\u003e class.)\n\u003c/p\u003e\u003cp\u003eThe datatype characteristic functions have two goals:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e to support the general datatype entailment rules defined by\n      the RDF semantics specification, and\n\u003c/li\u003e\u003cli\u003e to define additional datatype-specific inference patterns by\n      means of which provide additional base functionality to\n      applications based on RDF inference.\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eDatatype-specific inferences are provided using the \u003ccode\u003e\u003ca\u003eDatatypeRel\u003c/a\u003e\u003c/code\u003e\n  structure for a datatype, which allows a number of named relations\n  to be defined on datatype values, and provides mechanisms to\n  calculate missing values in a partially-specified member of\n  a relation.\n\u003c/p\u003e\u003cp\u003eNote that rules and variable binding modifiers that deal with\n  combined values of more than one datatype may be defined\n  separately.  Definitions in this module are generally applicable\n  only when using a single datatype.\n\u003c/p\u003e\u003cp\u003eAn alternative model for datatype value calculations is inspired\n  by that introduced by CWM for arithmetic operations, e.g.\n\u003c/p\u003e\u003cpre\u003e     (1 2 3) math:sum ?x =\u003e ?x rdf:value 6\n\u003c/pre\u003e\u003cp\u003e(where the bare integer \u003ccode\u003en\u003c/code\u003e here is shorthand for \u003ccode\u003e\"n\"^^xsd:integer\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eDatatype-specific inference patterns are provided in two ways:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e by variable binding modifiers that can be combined with the\n    query results during forward- for backward-chaining of\n    inference rules, and\n\u003c/li\u003e\u003cli\u003e by the definition of inference rulesets that involve\n    datatype values.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eI believe the first method to be more flexible than the second,\n  in that it more readily supports forward and backward chaining,\n  but can be used only through the definition of new rules.\n\u003c/p\u003e\u003cp\u003eType parameters:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eex\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e is the type of expression with which the datatype may be used.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003evt\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e is the internal value type with which the labels are associated.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003elb\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e is the type of label that may be used as a variable in an\n         expression or rule.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003evn\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e is the type of node that may be used to carry a value in an\n         expression or rule.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "DatatypeVal",
           "package": "swish",
@@ -936,6 +1013,7 @@
         "index": {
           "description": "DatatypeVal is structure that defines number of functions and values that characterize the behaviour of datatype datatype is specified with respect to polymophic in given type of syntactic expression with which it may be used and value type whose existence is hidden as an existential type within DatatypeMap tried hiding the value type with an internal existential declaration but that wouldn wash Hence this two-part structure with Datatype in which the internal detail of the value type is hidden from users of the Datatype class The datatype characteristic functions have two goals to support the general datatype entailment rules defined by the RDF semantics specification and to define additional datatype-specific inference patterns by means of which provide additional base functionality to applications based on RDF inference Datatype-specific inferences are provided using the DatatypeRel structure for datatype which allows number of named relations to be defined on datatype values and provides mechanisms to calculate missing values in partially-specified member of relation Note that rules and variable binding modifiers that deal with combined values of more than one datatype may be defined separately Definitions in this module are generally applicable only when using single datatype An alternative model for datatype value calculations is inspired by that introduced by CWM for arithmetic operations e.g math sum rdf value where the bare integer here is shorthand for xsd integer Datatype-specific inference patterns are provided in two ways by variable binding modifiers that can be combined with the query results during forward for backward-chaining of inference rules and by the definition of inference rulesets that involve datatype values believe the first method to be more flexible than the second in that it more readily supports forward and backward chaining but can be used only through the definition of new rules Type parameters ex is the type of expression with which the datatype may be used vt is the internal value type with which the labels are associated lb is the type of label that may be used as variable in an expression or rule vn is the type of node that may be used to carry value in an expression or rule",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "DatatypeVal",
           "package": "swish",
@@ -950,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ealtArgs\u003c/a\u003e\u003c/code\u003e support for list functions:  function applicator type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "ListFnApply",
           "package": "swish",
@@ -959,6 +1038,7 @@
         "index": {
           "description": "altArgs support for list functions function applicator type",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "ListFnApply",
           "package": "swish",
@@ -973,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ealtArgs\u003c/a\u003e\u003c/code\u003e support for list functions (e.g. sum over list of args),\n  where first element of list is a fold over the rest of the list,\n  and remaining elements of list can be calculated in terms\n  of the result of the fold and the remaining elements\n\u003c/p\u003e\u003cp\u003eList function descriptor is\n\u003c/p\u003e\u003cp\u003e(a) list-fold function, f  (e.g. (+)\n\u003c/p\u003e\u003cp\u003e(b) list-fold identity, z  (e.g. 0)\n\u003c/p\u003e\u003cp\u003e(c) list-fold-function inverse, g (e.g. (-))\n\u003c/p\u003e\u003cp\u003e(d) index of element to evaluate\n\u003c/p\u003e\u003cp\u003esuch that:\n\u003c/p\u003e\u003cpre\u003e    (a `f` z) == (z `f` a) == a\n    (a `g` c) == b \u003c=\u003e a == b `f` c\n    (a `g` z) == a\n    (a `g` a) == z\n\u003c/pre\u003e\u003cp\u003eand the result of the folded function does not depend on\n  the order that the list elements are processed.\n\u003c/p\u003e\u003cp\u003eNOTE:  the list of \u003ccode\u003e\u003ca\u003eListFnDescr\u003c/a\u003e\u003c/code\u003e values supplied to \u003ccode\u003e\u003ca\u003ealtArgs\u003c/a\u003e\u003c/code\u003e must\n  be at least as long as the argument list.  In many cases, Haskell\n  lazy evaluation can be used to supply an arbitrarily long list.\n  See test cases in spike-altargs.hs for an example.\n\u003c/p\u003e\u003cp\u003eFunction descriptor type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "ListFnDescr",
           "package": "swish",
@@ -982,6 +1063,7 @@
         "index": {
           "description": "altArgs support for list functions e.g sum over list of args where first element of list is fold over the rest of the list and remaining elements of list can be calculated in terms of the result of the fold and the remaining elements List function descriptor is list-fold function e.g list-fold identity e.g list-fold-function inverse e.g index of element to evaluate such that and the result of the folded function does not depend on the order that the list elements are processed NOTE the list of ListFnDescr values supplied to altArgs must be at least as long as the argument list In many cases Haskell lazy evaluation can be used to supply an arbitrarily long list See test cases in spike-altargs.hs for an example Function descriptor type",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "ListFnDescr",
           "package": "swish",
@@ -996,6 +1078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction table type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "ListFnTable",
           "package": "swish",
@@ -1005,6 +1088,7 @@
         "index": {
           "description": "Function table type",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "ListFnTable",
           "package": "swish",
@@ -1019,6 +1103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype value modifier functions type\n\u003c/p\u003e\u003cp\u003eEach function accepts a list of values and returns a list of values.\n  The exact significance of the different values supplied and returned\n  depends on the variable binding pattern used (cf. \u003ccode\u003e\u003ca\u003eApplyModifier\u003c/a\u003e\u003c/code\u003e),\n  but in all cases an empty list returned means that the corresponding\n  inputs are not consistent with the function and cannot be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "ModifierFn",
           "package": "swish",
@@ -1028,6 +1113,7 @@
         "index": {
           "description": "Datatype value modifier functions type Each function accepts list of values and returns list of values The exact significance of the different values supplied and returned depends on the variable binding pattern used cf ApplyModifier but in all cases an empty list returned means that the corresponding inputs are not consistent with the function and cannot be used",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "ModifierFn",
           "package": "swish",
@@ -1042,6 +1128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ealtArgs\u003c/a\u003e\u003c/code\u003e support for unary functions: function applicator type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "UnaryFnApply",
           "package": "swish",
@@ -1051,6 +1138,7 @@
         "index": {
           "description": "altArgs support for unary functions function applicator type",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "UnaryFnApply",
           "package": "swish",
@@ -1065,6 +1153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ealtArgs\u003c/a\u003e\u003c/code\u003e support for unary functions: function descriptor type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "UnaryFnDescr",
           "package": "swish",
@@ -1074,6 +1163,7 @@
         "index": {
           "description": "altArgs support for unary functions function descriptor type",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "UnaryFnDescr",
           "package": "swish",
@@ -1088,6 +1178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ealtArgs\u003c/a\u003e\u003c/code\u003e support for unary functions: function descriptor table type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "UnaryFnTable",
           "package": "swish",
@@ -1097,6 +1188,7 @@
         "index": {
           "description": "altArgs support for unary functions function descriptor table type",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "UnaryFnTable",
           "package": "swish",
@@ -1110,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "Datatype",
           "package": "swish",
@@ -1119,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "Datatype",
           "package": "swish",
@@ -1132,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "DatatypeMap",
           "package": "swish",
@@ -1141,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "DatatypeMap",
           "package": "swish",
@@ -1154,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "DatatypeMod",
           "package": "swish",
@@ -1163,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "DatatypeMod",
           "package": "swish",
@@ -1176,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "DatatypeRel",
           "package": "swish",
@@ -1185,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "DatatypeRel",
           "package": "swish",
@@ -1198,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "DatatypeSub",
           "package": "swish",
@@ -1207,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "DatatypeSub",
           "package": "swish",
@@ -1220,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "DatatypeVal",
           "package": "swish",
@@ -1229,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "DatatypeVal",
           "package": "swish",
@@ -1243,6 +1347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of argument values and a list of functions for\n  calculating new values from supplied values, return a list\n  of argument values, or \u003ccode\u003eNothing\u003c/code\u003e if the supplied values are\n  inconsistent with the calculations specified.\n\u003c/p\u003e\u003cp\u003eEach list of values returned corresponds to a set of values that\n  satisfy the relation, consistent with the values supplied.\n\u003c/p\u003e\u003cp\u003eFunctions are described as tuple consisting of:\n\u003c/p\u003e\u003cp\u003e(a) a predicate that the argument is required to satisfy\n\u003c/p\u003e\u003cp\u003e(b) a function to apply,\n\u003c/p\u003e\u003cp\u003e(c) a function to apply function (b) to a list of arguments\n\u003c/p\u003e\u003cp\u003e(d) argument list index values to which the function is applied.\n\u003c/p\u003e\u003cp\u003eEach supplied argument is of the form \u003ccode\u003eMaybe a\u003c/code\u003e, where the argument\n  has value type a.  \u003ccode\u003eNothing\u003c/code\u003e indicates arguments of unknown value.\n\u003c/p\u003e\u003cp\u003eThe basic idea is that, for each argument position in the relation,\n  a function may be supplied to calculate that argument's possible values\n  from some combination of the other arguments.  The results calculated\n  in this way are compared with the original arguments provided:\n  if the values conflict then the relation is presumed to be\n  unsatisfiable with the supplied values, and \u003ccode\u003eNothing\u003c/code\u003e is returned;\n  if there are any calculated values for arguments supplied without\n  any values, then tbe calculated values are used.\n  If there are any arguments for which no values are supplied or\n  calculated, then the relation is presumed to be underdetermined,\n  and \u003ccode\u003eJust []\u003c/code\u003e is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "altArgs",
           "package": "swish",
@@ -1252,6 +1357,7 @@
         "index": {
           "description": "Given list of argument values and list of functions for calculating new values from supplied values return list of argument values or Nothing if the supplied values are inconsistent with the calculations specified Each list of values returned corresponds to set of values that satisfy the relation consistent with the values supplied Functions are described as tuple consisting of predicate that the argument is required to satisfy function to apply function to apply function to list of arguments argument list index values to which the function is applied Each supplied argument is of the form Maybe where the argument has value type Nothing indicates arguments of unknown value The basic idea is that for each argument position in the relation function may be supplied to calculate that argument possible values from some combination of the other arguments The results calculated in this way are compared with the original arguments provided if the values conflict then the relation is presumed to be unsatisfiable with the supplied values and Nothing is returned if there are any calculated values for arguments supplied without any values then tbe calculated values are used If there are any arguments for which no values are supplied or calculated then the relation is presumed to be underdetermined and Just is returned",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "altArgs",
           "normalized": "DatatypeRelPr a-\u003e[(a-\u003eBool,[b])]-\u003e((a-\u003eBool)-\u003eb-\u003e[Maybe a]-\u003eMaybe[a])-\u003eDatatypeRelFn a",
@@ -1268,6 +1374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ealtArgs\u003c/a\u003e\u003c/code\u003e support for binary function with provision for indicating\n  inconsistent supplied values:  function applicator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "binMaybeFnApp",
           "package": "swish",
@@ -1278,6 +1385,7 @@
         "index": {
           "description": "altArgs support for binary function with provision for indicating inconsistent supplied values function applicator",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "binMaybeFnApp",
           "package": "swish",
@@ -1292,6 +1400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ealtArgs\u003c/a\u003e\u003c/code\u003e support for binary functions: function applicator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "binaryFnApp",
           "package": "swish",
@@ -1302,6 +1411,7 @@
         "index": {
           "description": "altArgs support for binary functions function applicator",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "binaryFnApp",
           "package": "swish",
@@ -1315,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "dmAppf",
           "package": "swish",
@@ -1324,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "dmAppf",
           "package": "swish",
@@ -1337,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "dmModf",
           "package": "swish",
@@ -1346,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "dmModf",
           "normalized": "[ModifierFn a]",
@@ -1361,6 +1475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "dmName",
           "package": "swish",
@@ -1370,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "dmName",
           "package": "swish",
@@ -1383,6 +1499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "dtRelFunc",
           "package": "swish",
@@ -1392,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "dtRelFunc",
           "package": "swish",
@@ -1405,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "dtRelName",
           "package": "swish",
@@ -1414,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "dtRelName",
           "package": "swish",
@@ -1428,6 +1548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the named datatype value modifier, if it exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "getDTMod",
           "package": "swish",
@@ -1438,6 +1559,7 @@
         "index": {
           "description": "Return the named datatype value modifier if it exists",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "getDTMod",
           "normalized": "ScopedName-\u003eDatatypeVal a b c d-\u003eMaybe(DatatypeMod b c d)",
@@ -1454,6 +1576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the named datatype relation, if it exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "getDTRel",
           "package": "swish",
@@ -1464,6 +1587,7 @@
         "index": {
           "description": "Return the named datatype relation if it exists",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "getDTRel",
           "normalized": "ScopedName-\u003eDatatypeVal a b c d-\u003eMaybe(DatatypeRel b)",
@@ -1480,6 +1604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the named axiom from a Datatype value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "getTypeAxiom",
           "package": "swish",
@@ -1490,6 +1615,7 @@
         "index": {
           "description": "Get the named axiom from Datatype value",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "getTypeAxiom",
           "normalized": "ScopedName-\u003eDatatype a b c-\u003eMaybe(Formula a)",
@@ -1506,6 +1632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the named rule from a Datatype value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "getTypeRule",
           "package": "swish",
@@ -1516,6 +1643,7 @@
         "index": {
           "description": "Get the named rule from Datatype value",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "getTypeRule",
           "normalized": "ScopedName-\u003eDatatype a b c-\u003eMaybe(Rule a)",
@@ -1532,6 +1660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ealtArgs\u003c/a\u003e\u003c/code\u003e support for list functions:  function applicator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "listFnApp",
           "package": "swish",
@@ -1542,6 +1671,7 @@
         "index": {
           "description": "altArgs support for list functions function applicator",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "listFnApp",
           "package": "swish",
@@ -1556,6 +1686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eApplyModifier\u003c/a\u003e\u003c/code\u003e function for use with \u003ccode\u003e\u003ca\u003eDatatypeMod\u003c/a\u003e\u003c/code\u003e in cases when\n  the value mapping is a non-invertable \u003ccode\u003e1-\u003e1\u003c/code\u003e injection, such as\n  absolute value.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003enam\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e is the name from the \u003ccode\u003e\u003ca\u003eDatatypeMod\u003c/a\u003e\u003c/code\u003e value that is carried into\n          the resulting variable binding modifier.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003efns\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e are functions used to implement details of the variable\n          binding modifier:\n\u003c/dd\u003e\u003c/dl\u003e\u003col\u003e\u003cli\u003e is \u003ccode\u003e[x,y] -\u003e [?]\u003c/code\u003e, used as a filter (i.e. not creating any\n              new variable bindings), returning a non-empty list if \u003ccode\u003ex\u003c/code\u003e and \u003ccode\u003ey\u003c/code\u003e\n              are in the appropriate relationship.\n\u003c/li\u003e\u003cli\u003e is \u003ccode\u003e[x]\u003c/code\u003e -\u003e \u003ccode\u003e[y]\u003c/code\u003e, used to perform the calculation.\n\u003c/li\u003e\u003c/ol\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003elbs\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e is a list of specific label values for which a variable binding\n          modifier will be generated.\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eNote: an irrefutable pattern match for \u003ccode\u003elbs\u003c/code\u003e is used so that a name\n  for the \u003ccode\u003e\u003ca\u003eVarBindingModify\u003c/a\u003e\u003c/code\u003e value can be extracted using an undefined\n  label value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "makeVmod11",
           "package": "swish",
@@ -1566,6 +1697,7 @@
         "index": {
           "description": "ApplyModifier function for use with DatatypeMod in cases when the value mapping is non-invertable injection such as absolute value nam is the name from the DatatypeMod value that is carried into the resulting variable binding modifier fns are functions used to implement details of the variable binding modifier is used as filter i.e not creating any new variable bindings returning non-empty list if and are in the appropriate relationship is used to perform the calculation lbs is list of specific label values for which variable binding modifier will be generated Note an irrefutable pattern match for lbs is used so that name for the VarBindingModify value can be extracted using an undefined label value",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "makeVmod11",
           "package": "swish",
@@ -1580,6 +1712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eApplyModifier\u003c/a\u003e\u003c/code\u003e function for use with \u003ccode\u003e\u003ca\u003eDatatypeMod\u003c/a\u003e\u003c/code\u003e in cases\n  when the value mapping is a \u003ccode\u003e1-\u003e1\u003c/code\u003e function and inverse, such\n  as negate.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003enam\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     is the name from the \u003ccode\u003e\u003ca\u003eDatatypeMod\u003c/a\u003e\u003c/code\u003e value that is carried into\n          the resulting variable binding modifier.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003efns\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     are functions used to implement details of the variable\n          binding modifier:\n\u003c/dd\u003e\u003c/dl\u003e\u003col\u003e\u003cli\u003e is \u003ccode\u003e[x,y] -\u003e [?]\u003c/code\u003e, used as a filter (i.e. not creating any\n              new variable bindings), returning a non-empty list if \u003ccode\u003ex\u003c/code\u003e and \u003ccode\u003ey\u003c/code\u003e\n              are in the appropriate relationship.\n\u003c/li\u003e\u003cli\u003e is \u003ccode\u003e[y] -\u003e [x]\u003c/code\u003e, used to perform the calculation in a forward\n              direction.\n\u003c/li\u003e\u003cli\u003e is \u003ccode\u003e[x] -\u003e [y]\u003c/code\u003e, used to perform the calculation in a backward\n              direction.  This may be the same as (2) (e.g. for negation)\n              or may be different (e.g. increment).\n\u003c/li\u003e\u003c/ol\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003elbs\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     is a list of specific label values for which a variable binding\n          modifier will be generated.  (The intent is that a variable-free\n          value can be generated as a Curried function, and instantiated\n          for particular variables as required.)\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eNote: an irrefutable pattern match for \u003ccode\u003elbs\u003c/code\u003e is used so that a name\n  for the \u003ccode\u003e\u003ca\u003eVarBindingModify\u003c/a\u003e\u003c/code\u003e value can be extracted using an undefined\n  label value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "makeVmod11inv",
           "package": "swish",
@@ -1590,6 +1723,7 @@
         "index": {
           "description": "ApplyModifier function for use with DatatypeMod in cases when the value mapping is function and inverse such as negate nam is the name from the DatatypeMod value that is carried into the resulting variable binding modifier fns are functions used to implement details of the variable binding modifier is used as filter i.e not creating any new variable bindings returning non-empty list if and are in the appropriate relationship is used to perform the calculation in forward direction is used to perform the calculation in backward direction This may be the same as e.g for negation or may be different e.g increment lbs is list of specific label values for which variable binding modifier will be generated The intent is that variable-free value can be generated as Curried function and instantiated for particular variables as required Note an irrefutable pattern match for lbs is used so that name for the VarBindingModify value can be extracted using an undefined label value",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "makeVmod11inv",
           "package": "swish",
@@ -1604,6 +1738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eApplyModifier\u003c/a\u003e\u003c/code\u003e function for use with \u003ccode\u003e\u003ca\u003eDatatypeMod\u003c/a\u003e\u003c/code\u003e in cases\n  when the value mapping is a simple comparson of two values.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003enam\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     is the name from the \u003ccode\u003e\u003ca\u003eDatatypeMod\u003c/a\u003e\u003c/code\u003e value that is carried into\n          the resulting variable binding modifier.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003efns\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     are functions used to implement details of the variable\n          binding modifier:\n\u003c/dd\u003e\u003c/dl\u003e\u003col\u003e\u003cli\u003e is \u003ccode\u003e[x,y] -\u003e [?]\u003c/code\u003e, used as a filter (i.e. not creating any\n              new variable bindings), returning a non-empty list if\n              \u003ccode\u003ex\u003c/code\u003e and \u003ccode\u003ey\u003c/code\u003e are in the appropriate relationship.\n\u003c/li\u003e\u003c/ol\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003elbs\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     is a list of specific label values for which a variable binding\n          modifier will be generated.\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eNote: an irrefutable pattern match for \u003ccode\u003elbs\u003c/code\u003e is used so that a name\n  for the \u003ccode\u003e\u003ca\u003eVarBindingModify\u003c/a\u003e\u003c/code\u003e value can be extracted using an undefined\n  label value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "makeVmod20",
           "package": "swish",
@@ -1614,6 +1749,7 @@
         "index": {
           "description": "ApplyModifier function for use with DatatypeMod in cases when the value mapping is simple comparson of two values nam is the name from the DatatypeMod value that is carried into the resulting variable binding modifier fns are functions used to implement details of the variable binding modifier is used as filter i.e not creating any new variable bindings returning non-empty list if and are in the appropriate relationship lbs is list of specific label values for which variable binding modifier will be generated Note an irrefutable pattern match for lbs is used so that name for the VarBindingModify value can be extracted using an undefined label value",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "makeVmod20",
           "package": "swish",
@@ -1628,6 +1764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eApplyModifier\u003c/a\u003e\u003c/code\u003e function for use with \u003ccode\u003e\u003ca\u003eDatatypeMod\u003c/a\u003e\u003c/code\u003e in cases\n  when the value mapping is a \u003ccode\u003e2-\u003e1\u003c/code\u003e non-invertable function, such as\n  logical \u003ccode\u003eAND\u003c/code\u003e or \u003ccode\u003eOR\u003c/code\u003e.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003enam\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     is the name from the \u003ccode\u003e\u003ca\u003eDatatypeMod\u003c/a\u003e\u003c/code\u003e value that is carried into\n          the resulting variable binding modifier.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003efns\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     are functions used to implement details of the variable\n          binding modifier:\n\u003c/dd\u003e\u003c/dl\u003e\u003col\u003e\u003cli\u003e is \u003ccode\u003e[x,y,z] -\u003e [?]\u003c/code\u003e, used as a filter (i.e. not creating any\n              new variable bindings), returning a non-empty list if\n              \u003ccode\u003ex\u003c/code\u003e, \u003ccode\u003ey\u003c/code\u003e and \u003ccode\u003ez\u003c/code\u003e are in the appropriate relationship.\n\u003c/li\u003e\u003cli\u003e is \u003ccode\u003e[y,z] -\u003e [x]\u003c/code\u003e, used to perform the calculation in a\n              forward direction.\n\u003c/li\u003e\u003c/ol\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003elbs\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     is a list of specific label values for which a variable binding\n          modifier will be generated.\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eNote: an irrefutable pattern match for \u003ccode\u003elbs\u003c/code\u003e is used so that a name\n  for the \u003ccode\u003e\u003ca\u003eVarBindingModify\u003c/a\u003e\u003c/code\u003e value can be extracted using an undefined\n  label value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "makeVmod21",
           "package": "swish",
@@ -1638,6 +1775,7 @@
         "index": {
           "description": "ApplyModifier function for use with DatatypeMod in cases when the value mapping is non-invertable function such as logical AND or OR nam is the name from the DatatypeMod value that is carried into the resulting variable binding modifier fns are functions used to implement details of the variable binding modifier is used as filter i.e not creating any new variable bindings returning non-empty list if and are in the appropriate relationship is used to perform the calculation in forward direction lbs is list of specific label values for which variable binding modifier will be generated Note an irrefutable pattern match for lbs is used so that name for the VarBindingModify value can be extracted using an undefined label value",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "makeVmod21",
           "package": "swish",
@@ -1652,6 +1790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eApplyModifier\u003c/a\u003e\u003c/code\u003e function for use with \u003ccode\u003e\u003ca\u003eDatatypeMod\u003c/a\u003e\u003c/code\u003e in cases\n  when the value mapping is a \u003ccode\u003e2-\u003e1\u003c/code\u003e invertable function, such as\n  addition or subtraction.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003enam\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     is the name from the \u003ccode\u003e\u003ca\u003eDatatypeMod\u003c/a\u003e\u003c/code\u003e value that is carried into\n          the resulting variable binding modifier.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003efns\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     are functions used to implement details of the variable\n          binding modifier:\n\u003c/dd\u003e\u003c/dl\u003e\u003col\u003e\u003cli\u003e is \u003ccode\u003e[x,y,z] -\u003e [?]\u003c/code\u003e, used as a filter (i.e. not creating any\n              new variable bindings), returning a non-empty list if\n              \u003ccode\u003ex\u003c/code\u003e, \u003ccode\u003ey\u003c/code\u003e and \u003ccode\u003ez\u003c/code\u003e are in the appropriate relationship.\n\u003c/li\u003e\u003cli\u003e is \u003ccode\u003e[y,z] -\u003e [x]\u003c/code\u003e, used to perform the calculation in a\n              forward direction.\n\u003c/li\u003e\u003cli\u003e is \u003ccode\u003e[x,z] -\u003e [y]\u003c/code\u003e, used to run the calculation backwards to\n              determine the first input argument\n\u003c/li\u003e\u003cli\u003e is \u003ccode\u003e[x,y] -\u003e [z]\u003c/code\u003e, used to run the calculation backwards to\n              determine the second input argument\n\u003c/li\u003e\u003c/ol\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003elbs\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     is a list of specific label values for which a variable binding\n          modifier will be generated.\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eNote: an irrefutable pattern match for \u003ccode\u003elbs\u003c/code\u003e is used so that a name\n  for the \u003ccode\u003e\u003ca\u003eVarBindingModify\u003c/a\u003e\u003c/code\u003e value can be extracted using an undefined\n  label value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "makeVmod21inv",
           "package": "swish",
@@ -1662,6 +1801,7 @@
         "index": {
           "description": "ApplyModifier function for use with DatatypeMod in cases when the value mapping is invertable function such as addition or subtraction nam is the name from the DatatypeMod value that is carried into the resulting variable binding modifier fns are functions used to implement details of the variable binding modifier is used as filter i.e not creating any new variable bindings returning non-empty list if and are in the appropriate relationship is used to perform the calculation in forward direction is used to run the calculation backwards to determine the first input argument is used to run the calculation backwards to determine the second input argument lbs is list of specific label values for which variable binding modifier will be generated Note an irrefutable pattern match for lbs is used so that name for the VarBindingModify value can be extracted using an undefined label value",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "makeVmod21inv",
           "package": "swish",
@@ -1676,6 +1816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eApplyModifier\u003c/a\u003e\u003c/code\u003e function for use with \u003ccode\u003e\u003ca\u003eDatatypeMod\u003c/a\u003e\u003c/code\u003e in cases\n  when the value mapping is a \u003ccode\u003e2-\u003e2\u003c/code\u003e non-invertable function, such as\n  quotient/remainder\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003enam\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     is the name from the \u003ccode\u003e\u003ca\u003eDatatypeMod\u003c/a\u003e\u003c/code\u003e value that is carried into\n          the resulting variable binding modifier.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003efns\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     are functions used to implement details of the variable\n          binding modifier:\n\u003c/dd\u003e\u003c/dl\u003e\u003col\u003e\u003cli\u003e is \u003ccode\u003e[w,x,y,z] -\u003e [?]\u003c/code\u003e, used as a filter (i.e. not creating\n              any new variable bindings), returning a non-empty list if\n              \u003ccode\u003ew\u003c/code\u003e, \u003ccode\u003ex\u003c/code\u003e, \u003ccode\u003ey\u003c/code\u003e and \u003ccode\u003ez\u003c/code\u003e are in the appropriate relationship.\n\u003c/li\u003e\u003cli\u003e is \u003ccode\u003e[y,z] -\u003e [w,x]\u003c/code\u003e, used to perform the calculation given\n              two input values.\n\u003c/li\u003e\u003c/ol\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003elbs\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     is a list of specific label values for which a variable binding\n          modifier will be generated.\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eNote: an irrefutable pattern match for \u003ccode\u003elbs\u003c/code\u003e is used so that a name\n  for the \u003ccode\u003e\u003ca\u003eVarBindingModify\u003c/a\u003e\u003c/code\u003e value can be extracted using an undefined\n  label value.\n\u003c/p\u003e\u003cp\u003eNOTE: this might be generalized to allow one of \u003ccode\u003ew\u003c/code\u003e or \u003ccode\u003ex\u003c/code\u003e to be\n  specified, and return null if it doesn't match the calculated value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "makeVmod22",
           "package": "swish",
@@ -1686,6 +1827,7 @@
         "index": {
           "description": "ApplyModifier function for use with DatatypeMod in cases when the value mapping is non-invertable function such as quotient remainder nam is the name from the DatatypeMod value that is carried into the resulting variable binding modifier fns are functions used to implement details of the variable binding modifier is used as filter i.e not creating any new variable bindings returning non-empty list if and are in the appropriate relationship is used to perform the calculation given two input values lbs is list of specific label values for which variable binding modifier will be generated Note an irrefutable pattern match for lbs is used so that name for the VarBindingModify value can be extracted using an undefined label value NOTE this might be generalized to allow one of or to be specified and return null if it doesn match the calculated value",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "makeVmod22",
           "package": "swish",
@@ -1700,6 +1842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eApplyModifier\u003c/a\u003e\u003c/code\u003e function for use with \u003ccode\u003e\u003ca\u003eDatatypeMod\u003c/a\u003e\u003c/code\u003e in cases\n  when the value mapping is a \u003ccode\u003eN-\u003e1\u003c/code\u003e function,\n  such as Sigma (sum) of a vector.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003enam\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     is the name from the \u003ccode\u003e\u003ca\u003eDatatypeMod\u003c/a\u003e\u003c/code\u003e value that is carried into\n          the resulting variable binding modifier.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003efns\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     are functions used to implement details of the variable\n          binding modifier:\n\u003c/dd\u003e\u003c/dl\u003e\u003col\u003e\u003cli\u003e is \u003ccode\u003e[x,y...] -\u003e [?]\u003c/code\u003e, used as a filter (i.e. not creating\n              any new variable bindings), returning a non-empty list if\n              \u003ccode\u003ex\u003c/code\u003e and \u003ccode\u003ey...\u003c/code\u003e are in the appropriate relationship.\n\u003c/li\u003e\u003cli\u003e is \u003ccode\u003e[y...] -\u003e [x]\u003c/code\u003e, used to perform the calculation.\n\u003c/li\u003e\u003c/ol\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003elbs\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e     is a list of specific label values for which a variable binding\n          modifier will be generated.\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eNote: an irrefutable pattern match for \u003ccode\u003elbs\u003c/code\u003e is used so that a name\n  for the \u003ccode\u003e\u003ca\u003eVarBindingModify\u003c/a\u003e\u003c/code\u003e value can be extracted using an undefined\n  label value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "makeVmodN1",
           "package": "swish",
@@ -1710,6 +1853,7 @@
         "index": {
           "description": "ApplyModifier function for use with DatatypeMod in cases when the value mapping is function such as Sigma sum of vector nam is the name from the DatatypeMod value that is carried into the resulting variable binding modifier fns are functions used to implement details of the variable binding modifier is used as filter i.e not creating any new variable bindings returning non-empty list if and are in the appropriate relationship is used to perform the calculation lbs is list of specific label values for which variable binding modifier will be generated Note an irrefutable pattern match for lbs is used so that name for the VarBindingModify value can be extracted using an undefined label value",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "makeVmodN1",
           "package": "swish",
@@ -1724,6 +1868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to map a lexical string to\n   the datatype value.  This effectively\n   defines the lexical space of the\n   datatype to be all strings for which\n   yield a value other than \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "mapL2V",
           "package": "swish",
@@ -1734,6 +1879,7 @@
         "index": {
           "description": "Function to map lexical string to the datatype value This effectively defines the lexical space of the datatype to be all strings for which yield value other than Nothing",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "mapL2V",
           "normalized": "Text-\u003eMaybe a",
@@ -1749,6 +1895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to map a value to its canonical\n   lexical form, if it has such.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "mapV2L",
           "package": "swish",
@@ -1759,6 +1906,7 @@
         "index": {
           "description": "Function to map value to its canonical lexical form if it has such",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "mapV2L",
           "normalized": "a-\u003eMaybe Text",
@@ -1774,6 +1922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNull datatype value modifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "nullDatatypeMod",
           "package": "swish",
@@ -1784,6 +1933,7 @@
         "index": {
           "description": "Null datatype value modifier",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "nullDatatypeMod",
           "package": "swish",
@@ -1798,6 +1948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype that is a subtype of \u003ccode\u003etrelSup\u003c/code\u003e,\n   having value space \u003ccode\u003esupvt\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "trelSub",
           "package": "swish",
@@ -1808,6 +1959,7 @@
         "index": {
           "description": "Datatype that is subtype of trelSup having value space supvt",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "trelSub",
           "package": "swish",
@@ -1822,6 +1974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype that is a supertype of \u003ccode\u003etrelSub\u003c/code\u003e,\n   having value space \u003ccode\u003esupvt\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "trelSup",
           "package": "swish",
@@ -1832,6 +1985,7 @@
         "index": {
           "description": "Datatype that is supertype of trelSub having value space supvt",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "trelSup",
           "package": "swish",
@@ -1846,6 +2000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction that maps supertype value to\n   corresponding subtype value, if there\n   is such a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "trelToSub",
           "package": "swish",
@@ -1856,6 +2011,7 @@
         "index": {
           "description": "Function that maps supertype value to corresponding subtype value if there is such value",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "trelToSub",
           "normalized": "a-\u003eMaybe b",
@@ -1872,6 +2028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction that maps subtype value to\n   corresponding supertype value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "trelToSup",
           "package": "swish",
@@ -1882,6 +2039,7 @@
         "index": {
           "description": "Function that maps subtype value to corresponding supertype value",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "trelToSup",
           "normalized": "a-\u003eb",
@@ -1898,6 +2056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLexical to value mapping, where \u003ccode\u003evt\u003c/code\u003e is\n  a datatype used within a Haskell program\n  to represent and manipulate values in\n  the datatype's value space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "tvalMap",
           "package": "swish",
@@ -1908,6 +2067,7 @@
         "index": {
           "description": "Lexical to value mapping where vt is datatype used within Haskell program to represent and manipulate values in the datatype value space",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "tvalMap",
           "package": "swish",
@@ -1922,6 +2082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the canonical form of a datatype value, or \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "tvalMkCanonicalForm",
           "package": "swish",
@@ -1932,6 +2093,7 @@
         "index": {
           "description": "Get the canonical form of datatype value or Nothing",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "tvalMkCanonicalForm",
           "normalized": "DatatypeVal a b c d-\u003eText-\u003eMaybe Text",
@@ -1948,6 +2110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a list of open variable\n  binding modifiers based on tvalMod,\n  but hiding the actual value type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "tvalMkMods",
           "package": "swish",
@@ -1958,6 +2121,7 @@
         "index": {
           "description": "Constructs list of open variable binding modifiers based on tvalMod but hiding the actual value type",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "tvalMkMods",
           "normalized": "[OpenVarBindingModify a b]",
@@ -1974,6 +2138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function that accepts an expression\n  and devives some datatype-dependent\n  rules from it.  This is provided as a\n  hook for creating datatyped class\n  restriction rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "tvalMkRules",
           "package": "swish",
@@ -1984,6 +2149,7 @@
         "index": {
           "description": "function that accepts an expression and devives some datatype-dependent rules from it This is provided as hook for creating datatyped class restriction rules",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "tvalMkRules",
           "normalized": "a-\u003e[Rule a]",
@@ -2000,6 +2166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of named values that are used to\n  construct variable binding modifiers, which\n  in turn may be used by a rule definition.\n\u003c/p\u003e\u003cp\u003eTODO: In due course, this value may be\n  calculated automatically from the supplied\n  value for \u003ccode\u003etvalRel\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "tvalMod",
           "package": "swish",
@@ -2010,6 +2177,7 @@
         "index": {
           "description": "list of named values that are used to construct variable binding modifiers which in turn may be used by rule definition TODO In due course this value may be calculated automatically from the supplied value for tvalRel",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "tvalMod",
           "normalized": "[DatatypeMod a b c]",
@@ -2026,6 +2194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies the datatype, and also\n  its value space class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "tvalName",
           "package": "swish",
@@ -2036,6 +2205,7 @@
         "index": {
           "description": "Identifies the datatype and also its value space class",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "tvalName",
           "package": "swish",
@@ -2050,6 +2220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of named relations on datatype\n  values.  Each relation accepts a list\n  of \u003ccode\u003eMaybe vt\u003c/code\u003e, and computes any\n  unspecified values that are in the\n  relation with values supplied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "tvalRel",
           "package": "swish",
@@ -2060,6 +2231,7 @@
         "index": {
           "description": "set of named relations on datatype values Each relation accepts list of Maybe vt and computes any unspecified values that are in the relation with values supplied",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "tvalRel",
           "normalized": "[DatatypeRel a]",
@@ -2076,6 +2248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of named expressions and rules\n  that are valid in in any theory that\n  recognizes the current datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "tvalRules",
           "package": "swish",
@@ -2086,6 +2259,7 @@
         "index": {
           "description": "set of named expressions and rules that are valid in in any theory that recognizes the current datatype",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "tvalRules",
           "package": "swish",
@@ -2100,6 +2274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the canonical form of a datatype value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "typeMkCanonicalForm",
           "package": "swish",
@@ -2110,6 +2285,7 @@
         "index": {
           "description": "Get the canonical form of datatype value",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "typeMkCanonicalForm",
           "normalized": "Datatype a b c-\u003eText-\u003eMaybe Text",
@@ -2126,6 +2302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake variable binding modifiers based on values supplied\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "typeMkModifiers",
           "package": "swish",
@@ -2136,6 +2313,7 @@
         "index": {
           "description": "Make variable binding modifiers based on values supplied",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "typeMkModifiers",
           "normalized": "Datatype a b c-\u003e[OpenVarBindingModify b c]",
@@ -2152,6 +2330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake rules for Datatype value based on supplied expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "typeMkRules",
           "package": "swish",
@@ -2162,6 +2341,7 @@
         "index": {
           "description": "Make rules for Datatype value based on supplied expression",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "typeMkRules",
           "normalized": "Datatype a b c-\u003ea-\u003e[Rule a]",
@@ -2178,6 +2358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet type name from Datatype value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "typeName",
           "package": "swish",
@@ -2188,6 +2369,7 @@
         "index": {
           "description": "Get type name from Datatype value",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "typeName",
           "normalized": "Datatype a b c-\u003eScopedName",
@@ -2204,6 +2386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet static rules from Datatype value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "typeRules",
           "package": "swish",
@@ -2214,6 +2397,7 @@
         "index": {
           "description": "Get static rules from Datatype value",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "typeRules",
           "normalized": "Datatype a b c-\u003eRuleset a",
@@ -2230,6 +2414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ealtArgs\u003c/a\u003e\u003c/code\u003e support for unary functions: function applicator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Datatype",
           "name": "unaryFnApp",
           "package": "swish",
@@ -2240,6 +2425,7 @@
         "index": {
           "description": "altArgs support for unary functions function applicator",
           "hierarchy": "Swish Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Datatype",
           "name": "unaryFnApp",
           "package": "swish",
@@ -2254,6 +2440,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines a Labelled Directed Graph and Label classes,\n  and the Arc datatype.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "GraphClass",
           "package": "swish",
@@ -2263,6 +2450,7 @@
         "index": {
           "description": "This module defines Labelled Directed Graph and Label classes and the Arc datatype",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "GraphClass",
           "package": "swish",
@@ -2277,6 +2465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArc type.\n\u003c/p\u003e\u003cp\u003ePrior to \u003ccode\u003e0.7.0.0\u003c/code\u003e you could also use \u003ccode\u003easubj\u003c/code\u003e, \u003ccode\u003eapred\u003c/code\u003e and \u003ccode\u003eaobj\u003c/code\u003e\n to access the elements of the arc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "Arc",
           "package": "swish",
@@ -2286,6 +2475,7 @@
         "index": {
           "description": "Arc type Prior to you could also use asubj apred and aobj to access the elements of the arc",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "Arc",
           "package": "swish",
@@ -2300,6 +2490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set - or graph - of arcs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "ArcSet",
           "package": "swish",
@@ -2309,6 +2500,7 @@
         "index": {
           "description": "set or graph of arcs",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "ArcSet",
           "package": "swish",
@@ -2323,6 +2515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabelled Directed Graph class.\n\u003c/p\u003e\u003cp\u003eMinimum required implementation: \n\u003ccode\u003e\u003ca\u003eemptyGraph\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esetArcs\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003egetArcs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "LDGraph",
           "package": "swish",
@@ -2332,6 +2525,7 @@
         "index": {
           "description": "Labelled Directed Graph class Minimum required implementation emptyGraph setArcs and getArcs",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "LDGraph",
           "package": "swish",
@@ -2346,6 +2540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel class.\n\u003c/p\u003e\u003cp\u003eA label may have a fixed binding, which means that the label identifies (is) a\n  particular graph node, and different such labels are always distinct nodes.\n  Alternatively, a label may be unbound (variable), which means that it is a\n  placeholder for an unknown node label.  Unbound node labels are used as\n  graph-local identifiers for indicating when the same node appears in\n  several arcs.\n\u003c/p\u003e\u003cp\u003eFor the purposes of graph-isomorphism testing, fixed labels are matched when they\n  are the same.  Variable labels may be matched with any other variable label.\n  Our definition of isomorphism (for RDF graphs) does not match variable labels\n  with fixed labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "Label",
           "package": "swish",
@@ -2355,6 +2550,7 @@
         "index": {
           "description": "Label class label may have fixed binding which means that the label identifies is particular graph node and different such labels are always distinct nodes Alternatively label may be unbound variable which means that it is placeholder for an unknown node label Unbound node labels are used as graph-local identifiers for indicating when the same node appears in several arcs For the purposes of graph-isomorphism testing fixed labels are matched when they are the same Variable labels may be matched with any other variable label Our definition of isomorphism for RDF graphs does not match variable labels with fixed labels",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "Label",
           "package": "swish",
@@ -2369,6 +2565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentify arcs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "Selector",
           "package": "swish",
@@ -2378,6 +2575,7 @@
         "index": {
           "description": "Identify arcs",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "Selector",
           "package": "swish",
@@ -2415,6 +2613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the two graphs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "addGraphs",
           "package": "swish",
@@ -2425,6 +2624,7 @@
         "index": {
           "description": "Add the two graphs",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "addGraphs",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -2466,6 +2666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an Arc from a tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "arcFromTriple",
           "package": "swish",
@@ -2476,6 +2677,7 @@
         "index": {
           "description": "Create an Arc from tuple",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "arcFromTriple",
           "normalized": "(a,a,a)-\u003eArc a",
@@ -2492,6 +2694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all the labels in an arc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "arcLabels",
           "package": "swish",
@@ -2502,6 +2705,7 @@
         "index": {
           "description": "Return all the labels in an arc",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "arcLabels",
           "normalized": "Arc a-\u003e[a]",
@@ -2593,6 +2797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an Arc into a tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "arcToTriple",
           "package": "swish",
@@ -2603,6 +2808,7 @@
         "index": {
           "description": "Convert an Arc into tuple",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "arcToTriple",
           "normalized": "Arc a-\u003e(a,a,a)",
@@ -2619,6 +2825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove those arcs in the first graph from the second\n graph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "delete",
           "package": "swish",
@@ -2629,6 +2836,7 @@
         "index": {
           "description": "Remove those arcs in the first graph from the second graph",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "delete",
           "package": "swish",
@@ -2642,6 +2850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate the empty graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "emptyGraph",
           "package": "swish",
@@ -2652,6 +2861,7 @@
         "index": {
           "description": "Create the empty graph",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "emptyGraph",
           "package": "swish",
@@ -2666,6 +2876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract those arcs that match the given \u003ccode\u003e\u003ca\u003eSelector\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "extract",
           "package": "swish",
@@ -2676,6 +2887,7 @@
         "index": {
           "description": "Extract those arcs that match the given Selector",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "extract",
           "normalized": "Selector a-\u003eb a-\u003eb a",
@@ -2691,6 +2903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract all the arcs from a graph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "getArcs",
           "package": "swish",
@@ -2701,6 +2914,7 @@
         "index": {
           "description": "Extract all the arcs from graph",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "getArcs",
           "normalized": "a b-\u003eArcSet b",
@@ -2717,6 +2931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract components from a set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "getComponents",
           "package": "swish",
@@ -2727,6 +2942,7 @@
         "index": {
           "description": "Extract components from set",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "getComponents",
           "normalized": "(a-\u003e[b])-\u003eSet a-\u003eSet b",
@@ -2743,6 +2959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the local id from a variable node.                 \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "getLocal",
           "package": "swish",
@@ -2753,6 +2970,7 @@
         "index": {
           "description": "Extract the local id from variable node",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "getLocal",
           "normalized": "a-\u003eString",
@@ -2769,6 +2987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes the arc contain the label in any position (subject, predicate, or object)?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "hasLabel",
           "package": "swish",
@@ -2779,6 +2998,7 @@
         "index": {
           "description": "Does the arc contain the label in any position subject predicate or object",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "hasLabel",
           "normalized": "a-\u003eArc a-\u003eBool",
@@ -2795,6 +3015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the hash of the label using the supplied seed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "labelHash",
           "package": "swish",
@@ -2805,6 +3026,7 @@
         "index": {
           "description": "Calculate the hash of the label using the supplied seed",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "labelHash",
           "normalized": "Int-\u003ea-\u003eInt",
@@ -2821,6 +3043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes this node have a variable binding?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "labelIsVar",
           "package": "swish",
@@ -2831,6 +3054,7 @@
         "index": {
           "description": "Does this node have variable binding",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "labelIsVar",
           "normalized": "a-\u003eBool",
@@ -2847,6 +3071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate the distinct labels contained in a graph;\n that is, any label that appears in the subject,\n predicate or object position of an \u003ccode\u003e\u003ca\u003eArc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "labels",
           "package": "swish",
@@ -2857,6 +3082,7 @@
         "index": {
           "description": "Enumerate the distinct labels contained in graph that is any label that appears in the subject predicate or object position of an Arc",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "labels",
           "normalized": "a b-\u003eSet b",
@@ -2872,6 +3098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a label value from a local id.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "makeLabel",
           "package": "swish",
@@ -2882,6 +3109,7 @@
         "index": {
           "description": "Make label value from local id",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "makeLabel",
           "normalized": "String-\u003ea",
@@ -2898,6 +3126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate the distinct nodes contained in a graph;\n that is, any label that appears in the subject\n or object position of an \u003ccode\u003e\u003ca\u003eArc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "nodes",
           "package": "swish",
@@ -2908,6 +3137,7 @@
         "index": {
           "description": "Enumerate the distinct nodes contained in graph that is any label that appears in the subject or object position of an Arc",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "nodes",
           "normalized": "a b-\u003eSet b",
@@ -2923,6 +3153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the existing arcs in the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "setArcs",
           "package": "swish",
@@ -2933,6 +3164,7 @@
         "index": {
           "description": "Replace the existing arcs in the graph",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "setArcs",
           "normalized": "a b-\u003eArcSet b-\u003ea b",
@@ -2949,6 +3181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the arcs in a graph using a supplied function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphClass",
           "name": "update",
           "package": "swish",
@@ -2959,6 +3192,7 @@
         "index": {
           "description": "Update the arcs in graph using supplied function",
           "hierarchy": "Swish GraphClass",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphClass",
           "name": "update",
           "normalized": "(ArcSet a-\u003eArcSet a)-\u003eb a-\u003eb a",
@@ -2974,6 +3208,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains graph-matching logic.\n\u003c/p\u003e\u003cp\u003eThe algorithm used is derived from a paper on RDF graph matching\n  by Jeremy Carroll \u003ca\u003ehttp://www.hpl.hp.com/techreports/2001/HPL-2001-293.html\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "GraphMatch",
           "package": "swish",
@@ -2983,6 +3218,7 @@
         "index": {
           "description": "This module contains graph-matching logic The algorithm used is derived from paper on RDF graph matching by Jeremy Carroll http www.hpl.hp.com techreports HPL-2001-293.html",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "GraphMatch",
           "package": "swish",
@@ -2997,6 +3233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for equivalence class description\n  (An equivalence class is a collection of labels with\n  the same \u003ccode\u003e\u003ca\u003eLabelIndex\u003c/a\u003e\u003c/code\u003e value.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "EquivalenceClass",
           "package": "swish",
@@ -3006,6 +3243,7 @@
         "index": {
           "description": "Type for equivalence class description An equivalence class is collection of labels with the same LabelIndex value",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "EquivalenceClass",
           "package": "swish",
@@ -3020,6 +3258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Mapping between a label and a value (e.g. an index\n value).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "GenLabelEntry",
           "package": "swish",
@@ -3029,6 +3268,7 @@
         "index": {
           "description": "Mapping between label and value e.g an index value",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "GenLabelEntry",
           "package": "swish",
@@ -3043,6 +3283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for label-\u003eindex lookup table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "GenLabelMap",
           "package": "swish",
@@ -3052,6 +3293,7 @@
         "index": {
           "description": "Type for label index lookup table",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "GenLabelMap",
           "package": "swish",
@@ -3066,6 +3308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA label associated with a \u003ccode\u003e\u003ca\u003eLabelIndex\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "LabelEntry",
           "package": "swish",
@@ -3075,6 +3318,7 @@
         "index": {
           "description": "label associated with LabelIndex",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "LabelEntry",
           "package": "swish",
@@ -3089,6 +3333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabelIndex is a unique value assigned to each label, such that\n  labels with different values are definitely different values\n  in the graph;  e.g. do not map to each other in the graph\n  bijection.  The first member is a generation counter that\n  ensures new values are distinct from earlier passes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "LabelIndex",
           "package": "swish",
@@ -3098,6 +3343,7 @@
         "index": {
           "description": "LabelIndex is unique value assigned to each label such that labels with different values are definitely different values in the graph e.g do not map to each other in the graph bijection The first member is generation counter that ensures new values are distinct from earlier passes",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "LabelIndex",
           "package": "swish",
@@ -3112,6 +3358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA label lookup table specialized to \u003ccode\u003e\u003ca\u003eLabelIndex\u003c/a\u003e\u003c/code\u003e indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "LabelMap",
           "package": "swish",
@@ -3121,6 +3368,7 @@
         "index": {
           "description": "label lookup table specialized to LabelIndex indices",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "LabelMap",
           "package": "swish",
@@ -3135,6 +3383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis instance of class label adds a graph identifier to\n  each variable label, so that variable labels from\n  different graphs are always seen as distinct values.\n\u003c/p\u003e\u003cp\u003eThe essential logic added by this class instance is embodied\n  in the eq and hash functions.  Note that variable label hashes\n  depend only on the graph in which they appear, and non-variable\n  label hashes depend only on the variable.  Label hash values are\n  used when initializing a label equivalence-class map (and, for\n  non-variable labels, also for resolving hash collisions).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "ScopedLabel",
           "package": "swish",
@@ -3144,6 +3393,7 @@
         "index": {
           "description": "This instance of class label adds graph identifier to each variable label so that variable labels from different graphs are always seen as distinct values The essential logic added by this class instance is embodied in the eq and hash functions Note that variable label hashes depend only on the graph in which they appear and non-variable label hashes depend only on the variable Label hash values are used when initializing label equivalence-class map and for non-variable labels also for resolving hash collisions",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "ScopedLabel",
           "package": "swish",
@@ -3157,6 +3407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "LabelEntry",
           "package": "swish",
@@ -3166,6 +3417,7 @@
         },
         "index": {
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "LabelEntry",
           "package": "swish",
@@ -3179,6 +3431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "LabelMap",
           "package": "swish",
@@ -3188,6 +3441,7 @@
         },
         "index": {
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "LabelMap",
           "package": "swish",
@@ -3201,6 +3455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "ScopedLabel",
           "package": "swish",
@@ -3210,6 +3465,7 @@
         },
         "index": {
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "ScopedLabel",
           "package": "swish",
@@ -3224,6 +3480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScan label list, assigning initial label map values,\n  adding new values to the label map supplied.\n\u003c/p\u003e\u003cp\u003eLabel map values are assigned on the basis of the\n  label alone, without regard for it's connectivity in\n  the graph.  (cf. \u003ccode\u003e\u003ca\u003ereclassify\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eAll variable node labels are assigned the same initial\n  value, as they may be matched with each other.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "assignLabelMap",
           "package": "swish",
@@ -3234,6 +3491,7 @@
         "index": {
           "description": "Scan label list assigning initial label map values adding new values to the label map supplied Label map values are assigned on the basis of the label alone without regard for it connectivity in the graph cf reclassify All variable node labels are assigned the same initial value as they may be matched with each other",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "assignLabelMap",
           "normalized": "Set a-\u003eLabelMap a-\u003eLabelMap a",
@@ -3250,6 +3508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty label map table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "emptyMap",
           "package": "swish",
@@ -3260,6 +3519,7 @@
         "index": {
           "description": "The empty label map table",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "emptyMap",
           "package": "swish",
@@ -3274,6 +3534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the equivalence classes of the supplied nodes \n using the label map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "equivalenceClasses",
           "package": "swish",
@@ -3283,6 +3544,7 @@
         "index": {
           "description": "Return the equivalence classes of the supplied nodes using the label map",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "equivalenceClasses",
           "normalized": "LabelMap a-\u003eSet a-\u003e[EquivalenceClass a]",
@@ -3299,6 +3561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the set of distinct labels used in the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "graphLabels",
           "package": "swish",
@@ -3309,6 +3572,7 @@
         "index": {
           "description": "Return the set of distinct labels used in the graph",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "graphLabels",
           "normalized": "ArcSet a-\u003eSet a",
@@ -3325,6 +3589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraph matching function accepting two lists of arcs and\n  returning a node map if successful\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "graphMatch",
           "package": "swish",
@@ -3334,6 +3599,7 @@
         "index": {
           "description": "Graph matching function accepting two lists of arcs and returning node map if successful",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "graphMatch",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eArcSet a-\u003eArcSet a-\u003e(Bool,LabelMap(ScopedLabel a))",
@@ -3350,6 +3616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursive graph matching function\n\u003c/p\u003e\u003cp\u003eThis function assumes that no variable label appears in both graphs.\n  (Function \u003ccode\u003e\u003ca\u003egraphMatch\u003c/a\u003e\u003c/code\u003e, which calls this, ensures that all variable\n  labels are distinct.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "graphMatch1",
           "package": "swish",
@@ -3359,6 +3626,7 @@
         "index": {
           "description": "Recursive graph matching function This function assumes that no variable label appears in both graphs Function graphMatch which calls this ensures that all variable labels are distinct",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "graphMatch1",
           "normalized": "Bool-\u003e(a-\u003ea-\u003eBool)-\u003eArcSet a-\u003eArcSet a-\u003eLabelMap a-\u003e[(EquivalenceClass a,EquivalenceClass a)]-\u003e(Bool,LabelMap a)",
@@ -3375,6 +3643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuxiliary graph matching function\n\u003c/p\u003e\u003cp\u003eThis function is called when deterministic decomposition of node\n  mapping equivalence classes has run its course.\n\u003c/p\u003e\u003cp\u003eIt picks a pair of equivalence classes in ecpairs, and arbitrarily matches\n  pairs of nodes in those equivalence classes, recursively calling the\n  graph matching function until a suitable node mapping is discovered\n  (success), or until all such pairs have been tried (failure).\n\u003c/p\u003e\u003cp\u003eThis function represents a point to which arbitrary choices are backtracked.\n  The list comprehension \u003ccode\u003eglp\u003c/code\u003e represents the alternative choices at the\n  point of backtracking\n\u003c/p\u003e\u003cp\u003eThe selected pair of nodes are placed in a new equivalence class based on their\n  original equivalence class value, but with a new NodeVal generation number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "graphMatch2",
           "package": "swish",
@@ -3385,6 +3654,7 @@
         "index": {
           "description": "Auxiliary graph matching function This function is called when deterministic decomposition of node mapping equivalence classes has run its course It picks pair of equivalence classes in ecpairs and arbitrarily matches pairs of nodes in those equivalence classes recursively calling the graph matching function until suitable node mapping is discovered success or until all such pairs have been tried failure This function represents point to which arbitrary choices are backtracked The list comprehension glp represents the alternative choices at the point of backtracking The selected pair of nodes are placed in new equivalence class based on their original equivalence class value but with new NodeVal generation number",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "graphMatch2",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eArcSet a-\u003eArcSet a-\u003eLabelMap a-\u003e[(EquivalenceClass a,EquivalenceClass a)]-\u003e(Bool,LabelMap a)",
@@ -3455,6 +3725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an arc containining a scoped label with the given identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "makeScopedArc",
           "package": "swish",
@@ -3465,6 +3736,7 @@
         "index": {
           "description": "Create an arc containining scoped label with the given identifier",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "makeScopedArc",
           "normalized": "Int-\u003eArc a-\u003eArc(ScopedLabel a)",
@@ -3481,6 +3753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a scoped label given an identifier and label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "makeScopedLabel",
           "package": "swish",
@@ -3491,6 +3764,7 @@
         "index": {
           "description": "Create scoped label given an identifier and label",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "makeScopedLabel",
           "normalized": "Int-\u003ea-\u003eScopedLabel a",
@@ -3507,6 +3781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a label to its corresponding label index value in the\n   supplied LabelMap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "mapLabelIndex",
           "package": "swish",
@@ -3517,6 +3792,7 @@
         "index": {
           "description": "Map label to its corresponding label index value in the supplied LabelMap",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "mapLabelIndex",
           "normalized": "LabelMap a-\u003ea-\u003eLabelIndex",
@@ -3533,6 +3809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement the generation of the label map.\n\u003c/p\u003e\u003cp\u003eReturns a new label map identical to the supplied value\n  but with an incremented generation number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "newGenerationMap",
           "package": "swish",
@@ -3543,6 +3820,7 @@
         "index": {
           "description": "Increment the generation of the label map Returns new label map identical to the supplied value but with an incremented generation number",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "newGenerationMap",
           "normalized": "LabelMap a-\u003eLabelMap a",
@@ -3559,6 +3837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace selected values in a label map with new values from the supplied\n  list of labels and new label index values.  The generation number is\n  supplied from the current label map.  The generation number in the\n  resulting label map is incremented.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "newLabelMap",
           "package": "swish",
@@ -3569,6 +3848,7 @@
         "index": {
           "description": "Replace selected values in label map with new values from the supplied list of labels and new label index values The generation number is supplied from the current label map The generation number in the resulting label map is incremented",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "newLabelMap",
           "normalized": "LabelMap a-\u003e[(a,Word)]-\u003eLabelMap a",
@@ -3585,6 +3865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe null, or empty, index value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "nullLabelVal",
           "package": "swish",
@@ -3595,6 +3876,7 @@
         "index": {
           "description": "The null or empty index value",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "nullLabelVal",
           "package": "swish",
@@ -3609,6 +3891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReclassify labels\n\u003c/p\u003e\u003cp\u003eExamines the supplied label equivalence classes (based on the supplied\n  label map), and evaluates new equivalence subclasses based on node\n  values and adjacency (for variable nodes) and rehashing\n  (for non-variable nodes).\n\u003c/p\u003e\u003cp\u003eNote, assumes that all all equivalence classes supplied are\n  non-singletons;  i.e. contain more than one label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "reclassify",
           "package": "swish",
@@ -3618,6 +3901,7 @@
         "index": {
           "description": "Reclassify labels Examines the supplied label equivalence classes based on the supplied label map and evaluates new equivalence subclasses based on node values and adjacency for variable nodes and rehashing for non-variable nodes Note assumes that all all equivalence classes supplied are non-singletons i.e contain more than one label",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "reclassify",
           "normalized": "ArcSet a-\u003eArcSet a-\u003eLabelMap a-\u003e[(EquivalenceClass a,EquivalenceClass a)]-\u003e(LabelMap a,[(EquivalenceClass a,EquivalenceClass a)],Bool,Bool)",
@@ -3633,6 +3917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace a label and its associated value in a label map\n  with a new value using the supplied hash value and the current\n  \u003ccode\u003e\u003ca\u003eLabelMap\u003c/a\u003e\u003c/code\u003e generation number.  If the key is not found, then no change\n  is made to the label map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMatch",
           "name": "setLabelHash",
           "package": "swish",
@@ -3643,6 +3928,7 @@
         "index": {
           "description": "Replace label and its associated value in label map with new value using the supplied hash value and the current LabelMap generation number If the key is not found then no change is made to the label map",
           "hierarchy": "Swish GraphMatch",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMatch",
           "name": "setLabelHash",
           "normalized": "LabelMap a-\u003e(a,Word)-\u003eLabelMap a",
@@ -3659,6 +3945,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines a simple memory-based graph instance.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMem",
           "name": "GraphMem",
           "package": "swish",
@@ -3668,6 +3955,7 @@
         "index": {
           "description": "This module defines simple memory-based graph instance",
           "hierarchy": "Swish GraphMem",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMem",
           "name": "GraphMem",
           "package": "swish",
@@ -3682,6 +3970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple memory-based graph type. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMem",
           "name": "GraphMem",
           "package": "swish",
@@ -3691,6 +3980,7 @@
         "index": {
           "description": "Simple memory-based graph type",
           "hierarchy": "Swish GraphMem",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMem",
           "name": "GraphMem",
           "package": "swish",
@@ -3705,6 +3995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimal graph label value - for testing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMem",
           "name": "LabelMem",
           "package": "swish",
@@ -3714,6 +4005,7 @@
         "index": {
           "description": "Minimal graph label value for testing",
           "hierarchy": "Swish GraphMem",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMem",
           "name": "LabelMem",
           "package": "swish",
@@ -3727,6 +4019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMem",
           "name": "GraphMem",
           "package": "swish",
@@ -3736,6 +4029,7 @@
         },
         "index": {
           "hierarchy": "Swish GraphMem",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMem",
           "name": "GraphMem",
           "package": "swish",
@@ -3749,6 +4043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMem",
           "name": "LF",
           "package": "swish",
@@ -3758,6 +4053,7 @@
         },
         "index": {
           "hierarchy": "Swish GraphMem",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMem",
           "name": "LF",
           "package": "swish",
@@ -3771,6 +4067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMem",
           "name": "LV",
           "package": "swish",
@@ -3780,6 +4077,7 @@
         },
         "index": {
           "hierarchy": "Swish GraphMem",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMem",
           "name": "LV",
           "package": "swish",
@@ -3794,6 +4092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the two graphs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMem",
           "name": "addGraphs",
           "package": "swish",
@@ -3804,6 +4103,7 @@
         "index": {
           "description": "Add the two graphs",
           "hierarchy": "Swish GraphMem",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMem",
           "name": "addGraphs",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -3819,6 +4119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMem",
           "name": "arcs",
           "package": "swish",
@@ -3828,6 +4129,7 @@
         },
         "index": {
           "hierarchy": "Swish GraphMem",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMem",
           "name": "arcs",
           "package": "swish",
@@ -3841,6 +4143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove those arcs in the first graph from the second\n graph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMem",
           "name": "delete",
           "package": "swish",
@@ -3850,6 +4153,7 @@
         "index": {
           "description": "Remove those arcs in the first graph from the second graph",
           "hierarchy": "Swish GraphMem",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMem",
           "name": "delete",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -3865,6 +4169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract those arcs that match the given \u003ccode\u003e\u003ca\u003eSelector\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMem",
           "name": "extract",
           "package": "swish",
@@ -3875,6 +4180,7 @@
         "index": {
           "description": "Extract those arcs that match the given Selector",
           "hierarchy": "Swish GraphMem",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMem",
           "name": "extract",
           "normalized": "Selector a-\u003eb a-\u003eb a",
@@ -3890,6 +4196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract all the arcs from a graph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMem",
           "name": "getArcs",
           "package": "swish",
@@ -3900,6 +4207,7 @@
         "index": {
           "description": "Extract all the arcs from graph",
           "hierarchy": "Swish GraphMem",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMem",
           "name": "getArcs",
           "normalized": "a b-\u003eArcSet b",
@@ -3916,6 +4224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate the distinct labels contained in a graph;\n that is, any label that appears in the subject,\n predicate or object position of an \u003ccode\u003e\u003ca\u003eArc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMem",
           "name": "labels",
           "package": "swish",
@@ -3926,6 +4235,7 @@
         "index": {
           "description": "Enumerate the distinct labels contained in graph that is any label that appears in the subject predicate or object position of an Arc",
           "hierarchy": "Swish GraphMem",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMem",
           "name": "labels",
           "normalized": "a b-\u003eSet b",
@@ -3941,6 +4251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraphMem matching function accepting GraphMem value and returning\n  node map if successful\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMem",
           "name": "matchGraphMem",
           "package": "swish",
@@ -3950,6 +4261,7 @@
         "index": {
           "description": "GraphMem matching function accepting GraphMem value and returning node map if successful",
           "hierarchy": "Swish GraphMem",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMem",
           "name": "matchGraphMem",
           "normalized": "GraphMem a-\u003eGraphMem a-\u003e(Bool,LabelMap(ScopedLabel a))",
@@ -3966,6 +4278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the existing arcs in the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphMem",
           "name": "setArcs",
           "package": "swish",
@@ -3976,6 +4289,7 @@
         "index": {
           "description": "Replace the existing arcs in the graph",
           "hierarchy": "Swish GraphMem",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphMem",
           "name": "setArcs",
           "normalized": "a b-\u003eArcSet b-\u003ea b",
@@ -3992,6 +4306,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions for partitioning a graph into subgraphs\n  that rooted from different subject nodes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphPartition",
           "name": "GraphPartition",
           "package": "swish",
@@ -4001,6 +4316,7 @@
         "index": {
           "description": "This module contains functions for partitioning graph into subgraphs that rooted from different subject nodes",
           "hierarchy": "Swish GraphPartition",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphPartition",
           "name": "GraphPartition",
           "package": "swish",
@@ -4015,6 +4331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a partition of a graph by a node and (optional) contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphPartition",
           "name": "GraphPartition",
           "package": "swish",
@@ -4024,6 +4341,7 @@
         "index": {
           "description": "Represent partition of graph by node and optional contents",
           "hierarchy": "Swish GraphPartition",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphPartition",
           "name": "GraphPartition",
           "package": "swish",
@@ -4038,6 +4356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of a graph as a collection of (possibly nested)\n  partitions.  Each node in the graph appears at least once as the\n  root value of a \u003ccode\u003e\u003ca\u003eGraphPartition\u003c/a\u003e\u003c/code\u003e value:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Nodes that are the subject of at least one statement appear as\n    the first value of exactly one \u003ccode\u003e\u003ca\u003ePartSub\u003c/a\u003e\u003c/code\u003e constructor, and may\n    also appear in any number of \u003ccode\u003e\u003ca\u003ePartObj\u003c/a\u003e\u003c/code\u003e constructors.\n\u003c/li\u003e\u003cli\u003e Nodes appearing only as objects of statements appear only in\n    \u003ccode\u003e\u003ca\u003ePartObj\u003c/a\u003e\u003c/code\u003e constructors.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphPartition",
           "name": "PartitionedGraph",
           "package": "swish",
@@ -4047,6 +4366,7 @@
         "index": {
           "description": "Representation of graph as collection of possibly nested partitions Each node in the graph appears at least once as the root value of GraphPartition value Nodes that are the subject of at least one statement appear as the first value of exactly one PartSub constructor and may also appear in any number of PartObj constructors Nodes appearing only as objects of statements appear only in PartObj constructors",
           "hierarchy": "Swish GraphPartition",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphPartition",
           "name": "PartitionedGraph",
           "package": "swish",
@@ -4060,6 +4380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphPartition",
           "name": "PartObj",
           "package": "swish",
@@ -4069,6 +4390,7 @@
         },
         "index": {
           "hierarchy": "Swish GraphPartition",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphPartition",
           "name": "PartObj",
           "package": "swish",
@@ -4082,6 +4404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphPartition",
           "name": "PartSub",
           "package": "swish",
@@ -4091,6 +4414,7 @@
         },
         "index": {
           "hierarchy": "Swish GraphPartition",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphPartition",
           "name": "PartSub",
           "normalized": "PartSub a(NonEmpty(a,GraphPartition a))",
@@ -4106,6 +4430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphPartition",
           "name": "PartitionedGraph",
           "package": "swish",
@@ -4115,6 +4440,7 @@
         },
         "index": {
           "hierarchy": "Swish GraphPartition",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphPartition",
           "name": "PartitionedGraph",
           "normalized": "PartitionedGraph[GraphPartition a]",
@@ -4131,6 +4457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a list of pairs of corresponding Partitions that\n  are unequal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphPartition",
           "name": "comparePartitions",
           "package": "swish",
@@ -4141,6 +4468,7 @@
         "index": {
           "description": "Create list of pairs of corresponding Partitions that are unequal",
           "hierarchy": "Swish GraphPartition",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphPartition",
           "name": "comparePartitions",
           "normalized": "PartitionedGraph a-\u003ePartitionedGraph a-\u003e[(Maybe(GraphPartition a),Maybe(GraphPartition a))]",
@@ -4157,6 +4485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all the arcs in the partitioned graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphPartition",
           "name": "getArcs",
           "package": "swish",
@@ -4167,6 +4496,7 @@
         "index": {
           "description": "Returns all the arcs in the partitioned graph",
           "hierarchy": "Swish GraphPartition",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphPartition",
           "name": "getArcs",
           "normalized": "PartitionedGraph a-\u003e[Arc a]",
@@ -4183,6 +4513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of partitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphPartition",
           "name": "getPartitions",
           "package": "swish",
@@ -4193,6 +4524,7 @@
         "index": {
           "description": "Returns list of partitions",
           "hierarchy": "Swish GraphPartition",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphPartition",
           "name": "getPartitions",
           "normalized": "PartitionedGraph a-\u003e[GraphPartition a]",
@@ -4209,6 +4541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the node for the partition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphPartition",
           "name": "node",
           "package": "swish",
@@ -4219,6 +4552,7 @@
         "index": {
           "description": "Returns the node for the partition",
           "hierarchy": "Swish GraphPartition",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphPartition",
           "name": "node",
           "normalized": "GraphPartition a-\u003ea",
@@ -4234,6 +4568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurning a partitioned graph into a flat graph is easy.\n  The interesting challenge is to turn a flat graph into a\n  partitioned graph that is more useful for certain purposes.\n  Currently, I'm interested in:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e isolating differences between graphs\n\u003c/li\u003e\u003cli\u003e pretty-printing graphs\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eFor (1), the goal is to separate subgraphs that are known\n  to be equivalent from subgraphs that are known to be different,\n  such that: \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e different sub-graphs are minimized,\n\u003c/li\u003e\u003cli\u003e different\n  sub-graphs are placed into 1:1 correspondence (possibly with null\n  subgraphs), and\n\u003c/li\u003e\u003cli\u003e only deterministic matching decisions are made.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eFor (2), the goal is to decide when a subgraph is to be treated\n  as nested in another partition, or treated as a new top-level partition.\n  If a subgraph is referenced by exactly one graph partition, it should\n  be nested in that partition, otherwise it should be a new top-level\n  partition.\n\u003c/p\u003e\u003cp\u003eStrategy.  Examining just subject and object nodes:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e all non-blank subject nodes are the root of a top-level partition\n\u003c/li\u003e\u003cli\u003e blank subject nodes that are not the object of exactly one statement\n     are the root of a top-level partition.\n\u003c/li\u003e\u003cli\u003e blank nodes referenced as the object of exactly 1 statement\n     of an existing partition are the root of a sub-partition of the\n     refering partition.\n\u003c/li\u003e\u003cli\u003e what remain are circular chains of blank nodes not referenced\n     elsewhere:  for each such chain, pick a root node arbitrarily.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphPartition",
           "name": "partitionGraph",
           "package": "swish",
@@ -4244,6 +4579,7 @@
         "index": {
           "description": "Turning partitioned graph into flat graph is easy The interesting challenge is to turn flat graph into partitioned graph that is more useful for certain purposes Currently interested in isolating differences between graphs pretty-printing graphs For the goal is to separate subgraphs that are known to be equivalent from subgraphs that are known to be different such that different sub-graphs are minimized different sub-graphs are placed into correspondence possibly with null subgraphs and only deterministic matching decisions are made For the goal is to decide when subgraph is to be treated as nested in another partition or treated as new top-level partition If subgraph is referenced by exactly one graph partition it should be nested in that partition otherwise it should be new top-level partition Strategy Examining just subject and object nodes all non-blank subject nodes are the root of top-level partition blank subject nodes that are not the object of exactly one statement are the root of top-level partition blank nodes referenced as the object of exactly statement of an existing partition are the root of sub-partition of the refering partition what remain are circular chains of blank nodes not referenced elsewhere for each such chain pick root node arbitrarily",
           "hierarchy": "Swish GraphPartition",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphPartition",
           "name": "partitionGraph",
           "normalized": "[Arc a]-\u003ePartitionedGraph a",
@@ -4260,6 +4596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a partition into a string with a leading separator string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphPartition",
           "name": "partitionShowP",
           "package": "swish",
@@ -4270,6 +4607,7 @@
         "index": {
           "description": "Convert partition into string with leading separator string",
           "hierarchy": "Swish GraphPartition",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphPartition",
           "name": "partitionShowP",
           "normalized": "String-\u003eGraphPartition a-\u003eString",
@@ -4286,6 +4624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a list of arcs from the partition. The empty\n list is returned for \u003ccode\u003e\u003ca\u003ePartObj\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.GraphPartition",
           "name": "toArcs",
           "package": "swish",
@@ -4296,6 +4635,7 @@
         "index": {
           "description": "Creates list of arcs from the partition The empty list is returned for PartObj",
           "hierarchy": "Swish GraphPartition",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.GraphPartition",
           "name": "toArcs",
           "normalized": "GraphPartition a-\u003e[Arc a]",
@@ -4312,6 +4652,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComposed state and IO monad for Swish\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "Monad",
           "package": "swish",
@@ -4321,6 +4662,7 @@
         "index": {
           "description": "Composed state and IO monad for Swish",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "Monad",
           "package": "swish",
@@ -4335,6 +4677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA LookupMap for the graphs dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "NamedGraphMap",
           "package": "swish",
@@ -4344,6 +4687,7 @@
         "index": {
           "description": "LookupMap for the graphs dictionary",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "NamedGraphMap",
           "package": "swish",
@@ -4358,6 +4702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe supported input and output formats.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "SwishFormat",
           "package": "swish",
@@ -4367,6 +4712,7 @@
         "index": {
           "description": "The supported input and output formats",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "SwishFormat",
           "package": "swish",
@@ -4381,6 +4727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe State for a Swish \"program\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "SwishState",
           "package": "swish",
@@ -4390,6 +4737,7 @@
         "index": {
           "description": "The State for Swish program",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "SwishState",
           "package": "swish",
@@ -4404,6 +4752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe state monad used in executing Swish programs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "SwishStateIO",
           "package": "swish",
@@ -4413,6 +4762,7 @@
         "index": {
           "description": "The state monad used in executing Swish programs",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "SwishStateIO",
           "package": "swish",
@@ -4427,6 +4777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus of the processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "SwishStatus",
           "package": "swish",
@@ -4436,6 +4787,7 @@
         "index": {
           "description": "Status of the processor",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "SwishStatus",
           "package": "swish",
@@ -4450,6 +4802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eN3 format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "N3",
           "package": "swish",
@@ -4460,6 +4813,7 @@
         "index": {
           "description": "N3 format",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "N3",
           "package": "swish",
@@ -4473,6 +4827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNTriples format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "NT",
           "package": "swish",
@@ -4483,6 +4838,7 @@
         "index": {
           "description": "NTriples format",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "NT",
           "package": "swish",
@@ -4621,6 +4977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "SwishState",
           "package": "swish",
@@ -4630,6 +4987,7 @@
         },
         "index": {
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "SwishState",
           "package": "swish",
@@ -4669,6 +5027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurtle format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "Turtle",
           "package": "swish",
@@ -4679,6 +5038,7 @@
         "index": {
           "description": "Turtle format",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "Turtle",
           "package": "swish",
@@ -4693,6 +5053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebase to use rather than file name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "base",
           "package": "swish",
@@ -4703,6 +5064,7 @@
         "index": {
           "description": "base to use rather than file name",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "base",
           "package": "swish",
@@ -4716,6 +5078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default state for Swish: no loaded graphs or rules, and format\n set to \u003ccode\u003e\u003ca\u003eN3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "emptyState",
           "package": "swish",
@@ -4726,6 +5089,7 @@
         "index": {
           "description": "The default state for Swish no loaded graphs or rules and format set to N3",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "emptyState",
           "package": "swish",
@@ -4740,6 +5104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eerror message, or Nothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "errormsg",
           "package": "swish",
@@ -4750,6 +5115,7 @@
         "index": {
           "description": "error message or Nothing",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "errormsg",
           "package": "swish",
@@ -4763,6 +5129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecurrent status\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "exitcode",
           "package": "swish",
@@ -4773,6 +5140,7 @@
         "index": {
           "description": "current status",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "exitcode",
           "package": "swish",
@@ -4786,6 +5154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a data type declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "findDatatype",
           "package": "swish",
@@ -4796,6 +5165,7 @@
         "index": {
           "description": "Find data type declaration",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "findDatatype",
           "normalized": "ScopedName-\u003eSwishState-\u003eMaybe RDFDatatype",
@@ -4812,6 +5182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a formula. The search is first made in the named graphs\n and then, if not found, the rulesets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "findFormula",
           "package": "swish",
@@ -4822,6 +5193,7 @@
         "index": {
           "description": "Find formula The search is first made in the named graphs and then if not found the rulesets",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "findFormula",
           "normalized": "ScopedName-\u003eSwishState-\u003eMaybe RDFFormula",
@@ -4838,6 +5210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a named graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "findGraph",
           "package": "swish",
@@ -4848,6 +5221,7 @@
         "index": {
           "description": "Find named graph",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "findGraph",
           "normalized": "ScopedName-\u003eSwishState-\u003eMaybe[RDFGraph]",
@@ -4864,6 +5238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a modify rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "findOpenVarModify",
           "package": "swish",
@@ -4874,6 +5249,7 @@
         "index": {
           "description": "Find modify rule",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "findOpenVarModify",
           "normalized": "ScopedName-\u003eSwishState-\u003eMaybe RDFOpenVarBindingModify",
@@ -4890,6 +5266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a named rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "findRule",
           "package": "swish",
@@ -4900,6 +5277,7 @@
         "index": {
           "description": "Find named rule",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "findRule",
           "normalized": "ScopedName-\u003eSwishState-\u003eMaybe RDFRule",
@@ -4916,6 +5294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a rule set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "findRuleset",
           "package": "swish",
@@ -4926,6 +5305,7 @@
         "index": {
           "description": "Find rule set",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "findRuleset",
           "normalized": "ScopedName-\u003eSwishState-\u003eMaybe RDFRuleset",
@@ -4942,6 +5322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformat to use for I/O\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "format",
           "package": "swish",
@@ -4952,6 +5333,7 @@
         "index": {
           "description": "format to use for",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "format",
           "package": "swish",
@@ -4965,6 +5347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecurrent graph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "graph",
           "package": "swish",
@@ -4975,6 +5358,7 @@
         "index": {
           "description": "current graph",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "graph",
           "package": "swish",
@@ -4988,6 +5372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003escript processor named graphs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "graphs",
           "package": "swish",
@@ -4998,6 +5383,7 @@
         "index": {
           "description": "script processor named graphs",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "graphs",
           "package": "swish",
@@ -5011,6 +5397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einformation message, or Nothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "infomsg",
           "package": "swish",
@@ -5021,6 +5408,7 @@
         "index": {
           "description": "information message or Nothing",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "infomsg",
           "package": "swish",
@@ -5034,6 +5422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the named graphs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "modGraphs",
           "package": "swish",
@@ -5044,6 +5433,7 @@
         "index": {
           "description": "Modify the named graphs",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "modGraphs",
           "normalized": "(NamedGraphMap-\u003eNamedGraphMap)-\u003eSwishState-\u003eSwishState",
@@ -5060,6 +5450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the named rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "modRules",
           "package": "swish",
@@ -5070,6 +5461,7 @@
         "index": {
           "description": "Modify the named rules",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "modRules",
           "normalized": "(RDFRuleMap-\u003eRDFRuleMap)-\u003eSwishState-\u003eSwishState",
@@ -5086,6 +5478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the rule sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "modRulesets",
           "package": "swish",
@@ -5096,6 +5489,7 @@
         "index": {
           "description": "Modify the rule sets",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "modRulesets",
           "normalized": "(RDFRulesetMap-\u003eRDFRulesetMap)-\u003eSwishState-\u003eSwishState",
@@ -5112,6 +5506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput the text to the standard error stream (a new line is\n added to the output).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "reportLine",
           "package": "swish",
@@ -5122,6 +5517,7 @@
         "index": {
           "description": "Output the text to the standard error stream new line is added to the output",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "reportLine",
           "normalized": "String-\u003eSwishStateIO()",
@@ -5138,6 +5534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClear the error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "resetError",
           "package": "swish",
@@ -5148,6 +5545,7 @@
         "index": {
           "description": "Clear the error message",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "resetError",
           "normalized": "SwishState-\u003eSwishState",
@@ -5164,6 +5562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClear the information message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "resetInfo",
           "package": "swish",
@@ -5174,6 +5573,7 @@
         "index": {
           "description": "Clear the information message",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "resetInfo",
           "normalized": "SwishState-\u003eSwishState",
@@ -5190,6 +5590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003escript processor named rules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "rules",
           "package": "swish",
@@ -5200,6 +5601,7 @@
         "index": {
           "description": "script processor named rules",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "rules",
           "package": "swish",
@@ -5213,6 +5615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003escript processor rulesets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "rulesets",
           "package": "swish",
@@ -5223,6 +5626,7 @@
         "index": {
           "description": "script processor rulesets",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "rulesets",
           "package": "swish",
@@ -5236,6 +5640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange (or remove) the base URI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "setBase",
           "package": "swish",
@@ -5246,6 +5651,7 @@
         "index": {
           "description": "Change or remove the base URI",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "setBase",
           "normalized": "Maybe QName-\u003eSwishState-\u003eSwishState",
@@ -5262,6 +5668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "setError",
           "package": "swish",
@@ -5272,6 +5679,7 @@
         "index": {
           "description": "Set the error message",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "setError",
           "normalized": "String-\u003eSwishState-\u003eSwishState",
@@ -5288,6 +5696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "setFormat",
           "package": "swish",
@@ -5298,6 +5707,7 @@
         "index": {
           "description": "Change the format",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "setFormat",
           "normalized": "SwishFormat-\u003eSwishState-\u003eSwishState",
@@ -5314,6 +5724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the current graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "setGraph",
           "package": "swish",
@@ -5324,6 +5735,7 @@
         "index": {
           "description": "Change the current graph",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "setGraph",
           "normalized": "RDFGraph-\u003eSwishState-\u003eSwishState",
@@ -5340,6 +5752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the information message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "setInfo",
           "package": "swish",
@@ -5350,6 +5763,7 @@
         "index": {
           "description": "Set the information message",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "setInfo",
           "normalized": "String-\u003eSwishState-\u003eSwishState",
@@ -5366,6 +5780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the status.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "setStatus",
           "package": "swish",
@@ -5376,6 +5791,7 @@
         "index": {
           "description": "Set the status",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "setStatus",
           "normalized": "SwishStatus-\u003eSwishState-\u003eSwishState",
@@ -5392,6 +5808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReport error and set exit status code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Monad",
           "name": "swishError",
           "package": "swish",
@@ -5402,6 +5819,7 @@
         "index": {
           "description": "Report error and set exit status code",
           "hierarchy": "Swish Monad",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Monad",
           "name": "swishError",
           "normalized": "String-\u003eSwishStatus-\u003eSwishStateIO()",
@@ -5418,6 +5836,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines algebraic datatypes for namespaces and scoped names.\n\u003c/p\u003e\u003cp\u003eFor these purposes, a namespace is a prefix and URI used to identify\n  a namespace (cf. XML namespaces), and a scoped name is a name that\n  is scoped by a specified namespace.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Namespace",
           "name": "Namespace",
           "package": "swish",
@@ -5427,6 +5846,7 @@
         "index": {
           "description": "This module defines algebraic datatypes for namespaces and scoped names For these purposes namespace is prefix and URI used to identify namespace cf XML namespaces and scoped name is name that is scoped by specified namespace",
           "hierarchy": "Swish Namespace",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Namespace",
           "name": "Namespace",
           "package": "swish",
@@ -5441,6 +5861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA NameSpace value consists of an optional prefix and a corresponding URI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Namespace",
           "name": "Namespace",
           "package": "swish",
@@ -5450,6 +5871,7 @@
         "index": {
           "description": "NameSpace value consists of an optional prefix and corresponding URI",
           "hierarchy": "Swish Namespace",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Namespace",
           "name": "Namespace",
           "package": "swish",
@@ -5464,6 +5886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA full ScopedName value has a QName prefix, namespace URI\n  and a local part.  ScopedName values may omit the prefix\n  (see \u003ccode\u003e\u003ca\u003eNamespace\u003c/a\u003e\u003c/code\u003e) or the local part.\n\u003c/p\u003e\u003cp\u003eSome applications may handle null namespace URIs as meaning\n  the local part is relative to some base URI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Namespace",
           "name": "ScopedName",
           "package": "swish",
@@ -5473,6 +5896,7 @@
         "index": {
           "description": "full ScopedName value has QName prefix namespace URI and local part ScopedName values may omit the prefix see Namespace or the local part Some applications may handle null namespace URIs as meaning the local part is relative to some base URI",
           "hierarchy": "Swish Namespace",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Namespace",
           "name": "ScopedName",
           "package": "swish",
@@ -5487,6 +5911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the prefix stored in the name space.                 \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Namespace",
           "name": "getNamespacePrefix",
           "package": "swish",
@@ -5497,6 +5922,7 @@
         "index": {
           "description": "Returns the prefix stored in the name space",
           "hierarchy": "Swish Namespace",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Namespace",
           "name": "getNamespacePrefix",
           "normalized": "Namespace-\u003eMaybe Text",
@@ -5513,6 +5939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the name space to a (prefix, URI) tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Namespace",
           "name": "getNamespaceTuple",
           "package": "swish",
@@ -5523,6 +5950,7 @@
         "index": {
           "description": "Convert the name space to prefix URI tuple",
           "hierarchy": "Swish Namespace",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Namespace",
           "name": "getNamespaceTuple",
           "normalized": "Namespace-\u003e(Maybe Text,URI)",
@@ -5539,6 +5967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the URI stored in the name space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Namespace",
           "name": "getNamespaceURI",
           "package": "swish",
@@ -5549,6 +5978,7 @@
         "index": {
           "description": "Returns the URI stored in the name space",
           "hierarchy": "Swish Namespace",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Namespace",
           "name": "getNamespaceURI",
           "normalized": "Namespace-\u003eURI",
@@ -5565,6 +5995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the QName corresponding to a scoped name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Namespace",
           "name": "getQName",
           "package": "swish",
@@ -5575,6 +6006,7 @@
         "index": {
           "description": "Get the QName corresponding to scoped name",
           "hierarchy": "Swish Namespace",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Namespace",
           "name": "getQName",
           "normalized": "ScopedName-\u003eQName",
@@ -5591,6 +6023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the local part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Namespace",
           "name": "getScopeLocal",
           "package": "swish",
@@ -5601,6 +6034,7 @@
         "index": {
           "description": "Returns the local part",
           "hierarchy": "Swish Namespace",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Namespace",
           "name": "getScopeLocal",
           "normalized": "ScopedName-\u003eLName",
@@ -5617,6 +6051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Namespace",
           "name": "getScopeNamespace",
           "package": "swish",
@@ -5627,6 +6062,7 @@
         "index": {
           "description": "Returns the namespace",
           "hierarchy": "Swish Namespace",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Namespace",
           "name": "getScopeNamespace",
           "normalized": "ScopedName-\u003eNamespace",
@@ -5643,6 +6079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the prefix of the namespace, if set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Namespace",
           "name": "getScopePrefix",
           "package": "swish",
@@ -5653,6 +6090,7 @@
         "index": {
           "description": "Returns the prefix of the namespace if set",
           "hierarchy": "Swish Namespace",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Namespace",
           "name": "getScopePrefix",
           "normalized": "ScopedName-\u003eMaybe Text",
@@ -5669,6 +6107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the URI of the namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Namespace",
           "name": "getScopeURI",
           "package": "swish",
@@ -5679,6 +6118,7 @@
         "index": {
           "description": "Returns the URI of the namespace",
           "hierarchy": "Swish Namespace",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Namespace",
           "name": "getScopeURI",
           "normalized": "ScopedName-\u003eURI",
@@ -5695,6 +6135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet URI corresponding to a scoped name (using RDF conventions).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Namespace",
           "name": "getScopedNameURI",
           "package": "swish",
@@ -5705,6 +6146,7 @@
         "index": {
           "description": "Get URI corresponding to scoped name using RDF conventions",
           "hierarchy": "Swish Namespace",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Namespace",
           "name": "getScopedNameURI",
           "normalized": "ScopedName-\u003eURI",
@@ -5721,6 +6163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a ScopedName.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Namespace",
           "name": "makeNSScopedName",
           "package": "swish",
@@ -5730,6 +6173,7 @@
         "index": {
           "description": "Construct ScopedName",
           "hierarchy": "Swish Namespace",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Namespace",
           "name": "makeNSScopedName",
           "normalized": "Namespace-\u003eLName-\u003eScopedName",
@@ -5746,6 +6190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a name space from a URI and an optional prefix label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Namespace",
           "name": "makeNamespace",
           "package": "swish",
@@ -5755,6 +6200,7 @@
         "index": {
           "description": "Create name space from URI and an optional prefix label",
           "hierarchy": "Swish Namespace",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Namespace",
           "name": "makeNamespace",
           "normalized": "Maybe Text-\u003eURI-\u003eNamespace",
@@ -5771,6 +6217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a qualified name by combining the URI from\n the name space with a local component.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Namespace",
           "name": "makeNamespaceQName",
           "package": "swish",
@@ -5780,6 +6227,7 @@
         "index": {
           "description": "Create qualified name by combining the URI from the name space with local component",
           "hierarchy": "Swish Namespace",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Namespace",
           "name": "makeNamespaceQName",
           "normalized": "Namespace-\u003eLName-\u003eQName",
@@ -5796,6 +6244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a ScopedName from a QName.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Namespace",
           "name": "makeQNameScopedName",
           "package": "swish",
@@ -5805,6 +6254,7 @@
         "index": {
           "description": "Construct ScopedName from QName",
           "hierarchy": "Swish Namespace",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Namespace",
           "name": "makeQNameScopedName",
           "normalized": "Maybe Text-\u003eQName-\u003eScopedName",
@@ -5821,6 +6271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a ScopedName.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Namespace",
           "name": "makeScopedName",
           "package": "swish",
@@ -5830,6 +6281,7 @@
         "index": {
           "description": "Construct ScopedName",
           "hierarchy": "Swish Namespace",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Namespace",
           "name": "makeScopedName",
           "normalized": "Maybe Text-\u003eURI-\u003eLName-\u003eScopedName",
@@ -5846,6 +6298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a ScopedName for a bare URI (the label is set to \"\").\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Namespace",
           "name": "makeURIScopedName",
           "package": "swish",
@@ -5856,6 +6309,7 @@
         "index": {
           "description": "Construct ScopedName for bare URI the label is set to",
           "hierarchy": "Swish Namespace",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Namespace",
           "name": "makeURIScopedName",
           "normalized": "URI-\u003eScopedName",
@@ -5872,6 +6326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if supplied string matches the display form of a\n  scoped name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Namespace",
           "name": "matchName",
           "package": "swish",
@@ -5882,6 +6337,7 @@
         "index": {
           "description": "Test if supplied string matches the display form of scoped name",
           "hierarchy": "Swish Namespace",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Namespace",
           "name": "matchName",
           "normalized": "String-\u003eScopedName-\u003eBool",
@@ -5898,6 +6354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUtility routine to create a @prefix line (matching N3/Turtle)\n   grammar for this namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Namespace",
           "name": "namespaceToBuilder",
           "package": "swish",
@@ -5908,6 +6365,7 @@
         "index": {
           "description": "Utility routine to create prefix line matching N3 Turtle grammar for this namespace",
           "hierarchy": "Swish Namespace",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Namespace",
           "name": "namespaceToBuilder",
           "normalized": "Namespace-\u003eBuilder",
@@ -5924,6 +6382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis should never appear as a valid name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Namespace",
           "name": "nullScopedName",
           "package": "swish",
@@ -5934,6 +6393,7 @@
         "index": {
           "description": "This should never appear as valid name",
           "hierarchy": "Swish Namespace",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Namespace",
           "name": "nullScopedName",
           "package": "swish",
@@ -5948,6 +6408,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines a framework for constructing proofs\n  over some expression form.  It is intended to be used\n  with RDF graphs, but the structures aim to be quite\n  generic with respect to the expression forms allowed.\n\u003c/p\u003e\u003cp\u003eIt does not define any proof-finding strategy.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Proof",
           "name": "Proof",
           "package": "swish",
@@ -5957,6 +6418,7 @@
         "index": {
           "description": "This module defines framework for constructing proofs over some expression form It is intended to be used with RDF graphs but the structures aim to be quite generic with respect to the expression forms allowed It does not define any proof-finding strategy",
           "hierarchy": "Swish Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Proof",
           "name": "Proof",
           "package": "swish",
@@ -5971,6 +6433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProof is a structure that presents a chain of rule applications\n  that yield a result expression from a given expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Proof",
           "name": "Proof",
           "package": "swish",
@@ -5980,6 +6443,7 @@
         "index": {
           "description": "Proof is structure that presents chain of rule applications that yield result expression from given expression",
           "hierarchy": "Swish Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Proof",
           "name": "Proof",
           "package": "swish",
@@ -5994,6 +6458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStep in proof chain\n\u003c/p\u003e\u003cp\u003eThe display name for a proof step comes from the display name of its\n  consequence formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Proof",
           "name": "Step",
           "package": "swish",
@@ -6003,6 +6468,7 @@
         "index": {
           "description": "Step in proof chain The display name for proof step comes from the display name of its consequence formula",
           "hierarchy": "Swish Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Proof",
           "name": "Step",
           "package": "swish",
@@ -6016,6 +6482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Proof",
           "name": "Proof",
           "package": "swish",
@@ -6025,6 +6492,7 @@
         },
         "index": {
           "hierarchy": "Swish Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Proof",
           "name": "Proof",
           "package": "swish",
@@ -6038,6 +6506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Proof",
           "name": "Step",
           "package": "swish",
@@ -6047,6 +6516,7 @@
         },
         "index": {
           "hierarchy": "Swish Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Proof",
           "name": "Step",
           "package": "swish",
@@ -6061,6 +6531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck consistency of given proof.\n  The supplied rules and axioms are assumed to be correct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Proof",
           "name": "checkProof",
           "package": "swish",
@@ -6071,6 +6542,7 @@
         "index": {
           "description": "Check consistency of given proof The supplied rules and axioms are assumed to be correct",
           "hierarchy": "Swish Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Proof",
           "name": "checkProof",
           "normalized": "Proof a-\u003eBool",
@@ -6087,6 +6559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA proof step is valid if rule is in list of rules\n  and the antecedents are sufficient to obtain the conclusion\n  and the antecedents are in the list of formulae already proven.\n\u003c/p\u003e\u003cp\u003eNote:  this function depends on the ruleName of any rule being\n  unique among all rules.  In particular the name of the step rule\n  being in correspondence with the name of one of the indicated\n  valid rules of inference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Proof",
           "name": "checkStep",
           "package": "swish",
@@ -6096,6 +6569,7 @@
         "index": {
           "description": "proof step is valid if rule is in list of rules and the antecedents are sufficient to obtain the conclusion and the antecedents are in the list of formulae already proven Note this function depends on the ruleName of any rule being unique among all rules In particular the name of the step rule being in correspondence with the name of one of the indicated valid rules of inference",
           "hierarchy": "Swish Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Proof",
           "name": "checkStep",
           "normalized": "[Rule a]-\u003e[a]-\u003eStep a-\u003eBool",
@@ -6112,6 +6586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck proof. If there is an error then return information\n about the failing step.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Proof",
           "name": "explainProof",
           "package": "swish",
@@ -6122,6 +6597,7 @@
         "index": {
           "description": "Check proof If there is an error then return information about the failing step",
           "hierarchy": "Swish Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Proof",
           "name": "explainProof",
           "normalized": "Proof a-\u003eMaybe String",
@@ -6138,6 +6614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChain of inference rule applications\n   progressing from input to result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Proof",
           "name": "proofChain",
           "package": "swish",
@@ -6148,6 +6625,7 @@
         "index": {
           "description": "Chain of inference rule applications progressing from input to result",
           "hierarchy": "Swish Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Proof",
           "name": "proofChain",
           "normalized": "[Step a]",
@@ -6164,6 +6642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProof context:  list of rulesets,\n   each of which provides a number of\n   axioms and rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Proof",
           "name": "proofContext",
           "package": "swish",
@@ -6174,6 +6653,7 @@
         "index": {
           "description": "Proof context list of rulesets each of which provides number of axioms and rules",
           "hierarchy": "Swish Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Proof",
           "name": "proofContext",
           "normalized": "[Ruleset a]",
@@ -6190,6 +6670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Proof",
           "name": "proofInput",
           "package": "swish",
@@ -6200,6 +6681,7 @@
         "index": {
           "description": "Given expression",
           "hierarchy": "Swish Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Proof",
           "name": "proofInput",
           "package": "swish",
@@ -6214,6 +6696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Proof",
           "name": "proofResult",
           "package": "swish",
@@ -6224,6 +6707,7 @@
         "index": {
           "description": "Result expression",
           "hierarchy": "Swish Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Proof",
           "name": "proofResult",
           "package": "swish",
@@ -6238,6 +6722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a simple string representation of a proof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Proof",
           "name": "showProof",
           "package": "swish",
@@ -6247,6 +6732,7 @@
         "index": {
           "description": "Returns simple string representation of proof",
           "hierarchy": "Swish Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Proof",
           "name": "showProof",
           "normalized": "String-\u003eProof a-\u003eString",
@@ -6289,6 +6775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a displayable form of a proof, returned as a \u003ccode\u003e\u003ca\u003eShowS\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e\u003cp\u003eThis function is intended to allow the calling function some control\n  of multiline displays by providing:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e the first line of the proof is not preceded by any text, so\n      it may be appended to some preceding text on the same line,\n\u003c/li\u003e\u003cli\u003e the supplied newline string is used to separate lines of the\n      formatted text, and may include any desired indentation, and\n\u003c/li\u003e\u003cli\u003e no newline is output following the final line of text.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Proof",
           "name": "showsProof",
           "package": "swish",
@@ -6298,6 +6785,7 @@
         "index": {
           "description": "Create displayable form of proof returned as ShowS value This function is intended to allow the calling function some control of multiline displays by providing the first line of the proof is not preceded by any text so it may be appended to some preceding text on the same line the supplied newline string is used to separate lines of the formatted text and may include any desired indentation and no newline is output following the final line of text",
           "hierarchy": "Swish Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Proof",
           "name": "showsProof",
           "normalized": "String-\u003eProof a-\u003eShowS",
@@ -6314,6 +6802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAntecedents of inference rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Proof",
           "name": "stepAnt",
           "package": "swish",
@@ -6324,6 +6813,7 @@
         "index": {
           "description": "Antecedents of inference rule",
           "hierarchy": "Swish Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Proof",
           "name": "stepAnt",
           "normalized": "[Formula a]",
@@ -6340,6 +6830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamed consequence of inference rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Proof",
           "name": "stepCon",
           "package": "swish",
@@ -6350,6 +6841,7 @@
         "index": {
           "description": "Named consequence of inference rule",
           "hierarchy": "Swish Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Proof",
           "name": "stepCon",
           "package": "swish",
@@ -6364,6 +6856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInference rule used\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Proof",
           "name": "stepRule",
           "package": "swish",
@@ -6374,6 +6867,7 @@
         "index": {
           "description": "Inference rule used",
           "hierarchy": "Swish Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Proof",
           "name": "stepRule",
           "package": "swish",
@@ -6388,6 +6882,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines an algebraic datatype for qualified names (QNames),\n  which represents a \u003ccode\u003e\u003ca\u003eURI\u003c/a\u003e\u003c/code\u003e as the combination of a namespace \u003ccode\u003e\u003ca\u003eURI\u003c/a\u003e\u003c/code\u003e\n  and a local component (\u003ccode\u003e\u003ca\u003eLName\u003c/a\u003e\u003c/code\u003e), which can be empty.\n\u003c/p\u003e\u003cp\u003eAlthough RDF supports using IRIs, the use of \u003ccode\u003e\u003ca\u003eURI\u003c/a\u003e\u003c/code\u003e here precludes this,\n  which means that, for instance, \u003ccode\u003e\u003ca\u003eLName\u003c/a\u003e\u003c/code\u003e only accepts a subset of valid\n  characters. There is currently no attempt to convert from an IRI into a URI.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.QName",
           "name": "QName",
           "package": "swish",
@@ -6397,6 +6892,7 @@
         "index": {
           "description": "This module defines an algebraic datatype for qualified names QNames which represents URI as the combination of namespace URI and local component LName which can be empty Although RDF supports using IRIs the use of URI here precludes this which means that for instance LName only accepts subset of valid characters There is currently no attempt to convert from an IRI into URI",
           "hierarchy": "Swish QName",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.QName",
           "name": "QName",
           "package": "swish",
@@ -6411,6 +6907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA local name, which can be empty.\n\u003c/p\u003e\u003cp\u003eAt present, the local name can not contain a space character and can only\ncontain ascii characters (those that match \u003ccode\u003e\u003ca\u003eisAscii\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eIn version \u003ccode\u003e0.9.0.3\u003c/code\u003e and earlier, the following characters were not\nallowed in local names: '#', ':', or '/' characters.\n\u003c/p\u003e\u003cp\u003eThis is all rather experimental.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.QName",
           "name": "LName",
           "package": "swish",
@@ -6420,6 +6917,7 @@
         "index": {
           "description": "local name which can be empty At present the local name can not contain space character and can only contain ascii characters those that match isAscii In version and earlier the following characters were not allowed in local names or characters This is all rather experimental",
           "hierarchy": "Swish QName",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.QName",
           "name": "LName",
           "package": "swish",
@@ -6434,6 +6932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA qualified name, consisting of a namespace URI\nand the local part of the identifier, which can be empty.\nThe serialisation of a QName is formed by concatanating the\ntwo components.\n\u003c/p\u003e\u003cpre\u003e Prelude\u003e :set prompt \"swish\u003e \"\n swish\u003e :set -XOverloadedStrings\n swish\u003e :m + Swish.QName\n swish\u003e let qn1 = \"http://example.com/\" :: QName\n swish\u003e let qn2 = \"http://example.com/bob\" :: QName\n swish\u003e let qn3 = \"http://example.com/bob/fred\" :: QName\n swish\u003e let qn4 = \"http://example.com/bob/fred#x\" :: QName\n swish\u003e let qn5 = \"http://example.com/bob/fred:joe\" :: QName\n swish\u003e map getLocalName [qn1, qn2, qn3, qn4, qn5]\n [\"\",\"bob\",\"fred\",\"x\",\"fred:joe\"]\n swish\u003e getNamespace qn1\n http://example.com/\n swish\u003e getNamespace qn2\n http://example.com/\n swish\u003e getNamespace qn3\n http://example.com/bob/\n swish\u003e getNamespace qn4\n http://example.com/bob/fred#\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.QName",
           "name": "QName",
           "package": "swish",
@@ -6443,6 +6942,7 @@
         "index": {
           "description": "qualified name consisting of namespace URI and the local part of the identifier which can be empty The serialisation of QName is formed by concatanating the two components Prelude set prompt swish swish set XOverloadedStrings swish Swish.QName swish let qn1 http example.com QName swish let qn2 http example.com bob QName swish let qn3 http example.com bob fred QName swish let qn4 http example.com bob fred QName swish let qn5 http example.com bob fred joe QName swish map getLocalName qn1 qn2 qn3 qn4 qn5 bob fred fred joe swish getNamespace qn1 http example.com swish getNamespace qn2 http example.com swish getNamespace qn3 http example.com bob swish getNamespace qn4 http example.com bob fred",
           "hierarchy": "Swish QName",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.QName",
           "name": "QName",
           "package": "swish",
@@ -6457,6 +6957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty local name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.QName",
           "name": "emptyLName",
           "package": "swish",
@@ -6467,6 +6968,7 @@
         "index": {
           "description": "The empty local name",
           "hierarchy": "Swish QName",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.QName",
           "name": "emptyLName",
           "package": "swish",
@@ -6481,6 +6983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the local name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.QName",
           "name": "getLName",
           "package": "swish",
@@ -6491,6 +6994,7 @@
         "index": {
           "description": "Extract the local name",
           "hierarchy": "Swish QName",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.QName",
           "name": "getLName",
           "normalized": "LName-\u003eText",
@@ -6507,6 +7011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the local component of the QName.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.QName",
           "name": "getLocalName",
           "package": "swish",
@@ -6517,6 +7022,7 @@
         "index": {
           "description": "Return the local component of the QName",
           "hierarchy": "Swish QName",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.QName",
           "name": "getLocalName",
           "normalized": "QName-\u003eLName",
@@ -6533,6 +7039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the URI of the namespace stored in the QName.\n This does not contain the local component.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.QName",
           "name": "getNamespace",
           "package": "swish",
@@ -6543,6 +7050,7 @@
         "index": {
           "description": "Return the URI of the namespace stored in the QName This does not contain the local component",
           "hierarchy": "Swish QName",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.QName",
           "name": "getNamespace",
           "normalized": "QName-\u003eURI",
@@ -6559,6 +7067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the full URI of the QName (ie the combination of the\n namespace and local components).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.QName",
           "name": "getQNameURI",
           "package": "swish",
@@ -6569,6 +7078,7 @@
         "index": {
           "description": "Returns the full URI of the QName ie the combination of the namespace and local components",
           "hierarchy": "Swish QName",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.QName",
           "name": "getQNameURI",
           "normalized": "QName-\u003eURI",
@@ -6585,6 +7095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a local name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.QName",
           "name": "newLName",
           "package": "swish",
@@ -6595,6 +7106,7 @@
         "index": {
           "description": "Create local name",
           "hierarchy": "Swish QName",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.QName",
           "name": "newLName",
           "normalized": "Text-\u003eMaybe LName",
@@ -6611,6 +7123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new qualified name with an explicit local component.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.QName",
           "name": "newQName",
           "package": "swish",
@@ -6620,6 +7133,7 @@
         "index": {
           "description": "Create new qualified name with an explicit local component",
           "hierarchy": "Swish QName",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.QName",
           "name": "newQName",
           "normalized": "URI-\u003eLName-\u003eQName",
@@ -6636,6 +7150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a filepath to a file: URI stored in a QName. If the\ninput file path is relative then the current working directory is used\nto convert it into an absolute path.\n\u003c/p\u003e\u003cp\u003eIf the input represents a directory then it *must* end in \nthe directory separator - so for Posix systems use \n\u003ccode\u003e\"/foo/bar/\"\u003c/code\u003e rather than \n\u003ccode\u003e\"/foo/bar\"\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis has not been tested on Windows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.QName",
           "name": "qnameFromFilePath",
           "package": "swish",
@@ -6646,6 +7161,7 @@
         "index": {
           "description": "Convert filepath to file URI stored in QName If the input file path is relative then the current working directory is used to convert it into an absolute path If the input represents directory then it must end in the directory separator so for Posix systems use foo bar rather than foo bar This has not been tested on Windows",
           "hierarchy": "Swish QName",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.QName",
           "name": "qnameFromFilePath",
           "normalized": "FilePath-\u003eIO QName",
@@ -6662,6 +7178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new qualified name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.QName",
           "name": "qnameFromURI",
           "package": "swish",
@@ -6671,6 +7188,7 @@
         "index": {
           "description": "Create new qualified name",
           "hierarchy": "Swish QName",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.QName",
           "name": "qnameFromURI",
           "normalized": "URI-\u003eMaybe QName",
@@ -6687,6 +7205,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module collects references and provides access to all of the\n  datatypes built in to Swish.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.BuiltIn.Datatypes",
           "name": "Datatypes",
           "package": "swish",
@@ -6696,6 +7215,7 @@
         "index": {
           "description": "This module collects references and provides access to all of the datatypes built in to Swish",
           "hierarchy": "Swish RDF BuiltIn Datatypes",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.BuiltIn.Datatypes",
           "name": "Datatypes",
           "package": "swish",
@@ -6710,6 +7230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAl the data type declarations built into Swish.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.BuiltIn.Datatypes",
           "name": "allDatatypes",
           "package": "swish",
@@ -6720,6 +7241,7 @@
         "index": {
           "description": "Al the data type declarations built into Swish",
           "hierarchy": "Swish RDF BuiltIn Datatypes",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.BuiltIn.Datatypes",
           "name": "allDatatypes",
           "normalized": "[RDFDatatype]",
@@ -6763,6 +7285,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module collects references and provides access to all of the\n  rulesets, variable binding modifiers and variable binding filters\n  built in to Swish.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.BuiltIn.Rules",
           "name": "Rules",
           "package": "swish",
@@ -6772,6 +7295,7 @@
         "index": {
           "description": "This module collects references and provides access to all of the rulesets variable binding modifiers and variable binding filters built in to Swish",
           "hierarchy": "Swish RDF BuiltIn Rules",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.BuiltIn.Rules",
           "name": "Rules",
           "package": "swish",
@@ -6892,6 +7416,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module collects references and provides access to all of the\n  datatypes, variable binding modifiers and variable binding filters\n  built in to Swish.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.BuiltIn",
           "name": "BuiltIn",
           "package": "swish",
@@ -6901,6 +7426,7 @@
         "index": {
           "description": "This module collects references and provides access to all of the datatypes variable binding modifiers and variable binding filters built in to Swish",
           "hierarchy": "Swish RDF BuiltIn",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.BuiltIn",
           "name": "BuiltIn",
           "package": "swish",
@@ -6915,6 +7441,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements an inference rule based on a restruction on class\n  membership of one or more values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "ClassRestrictionRule",
           "package": "swish",
@@ -6924,6 +7451,7 @@
         "index": {
           "description": "This module implements an inference rule based on restruction on class membership of one or more values",
           "hierarchy": "Swish RDF ClassRestrictionRule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "ClassRestrictionRule",
           "package": "swish",
@@ -6938,6 +7466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype for named class restriction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "ClassRestriction",
           "package": "swish",
@@ -6947,6 +7476,7 @@
         "index": {
           "description": "Datatype for named class restriction",
           "hierarchy": "Swish RDF ClassRestrictionRule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "ClassRestriction",
           "package": "swish",
@@ -6961,6 +7491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of function that evaluates missing node values in a\n  restriction from those supplied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "ClassRestrictionFn",
           "package": "swish",
@@ -6970,6 +7501,7 @@
         "index": {
           "description": "Type of function that evaluates missing node values in restriction from those supplied",
           "hierarchy": "Swish RDF ClassRestrictionRule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "ClassRestrictionFn",
           "package": "swish",
@@ -6983,6 +7515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "ClassRestriction",
           "package": "swish",
@@ -6992,6 +7525,7 @@
         },
         "index": {
           "hierarchy": "Swish RDF ClassRestrictionRule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "ClassRestriction",
           "package": "swish",
@@ -7005,6 +7539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "crFunc",
           "package": "swish",
@@ -7014,6 +7549,7 @@
         },
         "index": {
           "hierarchy": "Swish RDF ClassRestrictionRule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "crFunc",
           "package": "swish",
@@ -7027,6 +7563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "crName",
           "package": "swish",
@@ -7036,6 +7573,7 @@
         },
         "index": {
           "hierarchy": "Swish RDF ClassRestrictionRule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "crName",
           "package": "swish",
@@ -7050,6 +7588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe graph\n\u003c/p\u003e\u003cpre\u003e _:a \u003chttp://id.ninebynine.org/2003/rdfext/rdfd#false\u003e _:b .\n\u003c/pre\u003e\u003cp\u003eExported for testing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "falseGraph",
           "package": "swish",
@@ -7060,6 +7599,7 @@
         "index": {
           "description": "The graph http id.ninebynine.org rdfext rdfd false Exported for testing",
           "hierarchy": "Swish RDF ClassRestrictionRule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "falseGraph",
           "package": "swish",
@@ -7074,6 +7614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExported for testing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "falseGraphStr",
           "package": "swish",
@@ -7084,6 +7625,7 @@
         "index": {
           "description": "Exported for testing",
           "hierarchy": "Swish RDF ClassRestrictionRule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "falseGraphStr",
           "package": "swish",
@@ -7098,6 +7640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a class restriction from a datatype relation.\n\u003c/p\u003e\u003cp\u003eThis lifts application of the datatype relation to operate\n  on \u003ccode\u003e\u003ca\u003eRDFLabel\u003c/a\u003e\u003c/code\u003e values, which are presumed to contain appropriately\n  datatyped values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "makeDatatypeRestriction",
           "package": "swish",
@@ -7108,6 +7651,7 @@
         "index": {
           "description": "Make class restriction from datatype relation This lifts application of the datatype relation to operate on RDFLabel values which are presumed to contain appropriately datatyped values",
           "hierarchy": "Swish RDF ClassRestrictionRule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "makeDatatypeRestriction",
           "normalized": "RDFDatatypeVal a-\u003eDatatypeRel a-\u003eClassRestriction",
@@ -7124,6 +7668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a class restriction function from a datatype relation function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "makeDatatypeRestrictionFn",
           "package": "swish",
@@ -7134,6 +7679,7 @@
         "index": {
           "description": "Make class restriction function from datatype relation function",
           "hierarchy": "Swish RDF ClassRestrictionRule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "makeDatatypeRestrictionFn",
           "normalized": "RDFDatatypeVal a-\u003eDatatypeRelFn a-\u003eClassRestrictionFn",
@@ -7150,6 +7696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a list of class restriction rules given a list of class restriction\n  values and a graph containing one or more class restriction definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "makeRDFClassRestrictionRules",
           "package": "swish",
@@ -7160,6 +7707,7 @@
         "index": {
           "description": "Make list of class restriction rules given list of class restriction values and graph containing one or more class restriction definitions",
           "hierarchy": "Swish RDF ClassRestrictionRule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "makeRDFClassRestrictionRules",
           "normalized": "[ClassRestriction]-\u003eRDFGraph-\u003e[RDFRule]",
@@ -7176,6 +7724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake restriction rules from the supplied datatype and graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "makeRDFDatatypeRestrictionRules",
           "package": "swish",
@@ -7186,6 +7735,7 @@
         "index": {
           "description": "Make restriction rules from the supplied datatype and graph",
           "hierarchy": "Swish RDF ClassRestrictionRule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.ClassRestrictionRule",
           "name": "makeRDFDatatypeRestrictionRules",
           "normalized": "RDFDatatypeVal a-\u003eRDFGraph-\u003e[RDFRule]",
@@ -7202,6 +7752,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the structures used to represent and\n  manipulate RDF \u003ccode\u003exsd:decimal\u003c/code\u003e datatyped literals.\n\u003c/p\u003e\u003cp\u003eNote that in versions \u003ccode\u003e0.6.4\u003c/code\u003e and \u003ccode\u003e0.6.5\u003c/code\u003e, this module was a mixture\n  of support for \u003ccode\u003exsd:decimal\u003c/code\u003e and \u003ccode\u003exsd:double\u003c/code\u003e. In \u003ccode\u003e0.7.0\u003c/code\u003e the module\n  has been changed to \u003ccode\u003exsd:decimal\u003c/code\u003e, but this may change.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.Decimal",
           "name": "Decimal",
           "package": "swish",
@@ -7211,6 +7762,7 @@
         "index": {
           "description": "This module defines the structures used to represent and manipulate RDF xsd decimal datatyped literals Note that in versions and this module was mixture of support for xsd decimal and xsd double In the module has been changed to xsd decimal but this may change",
           "hierarchy": "Swish RDF Datatype XSD Decimal",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.Decimal",
           "name": "Decimal",
           "package": "swish",
@@ -7225,6 +7777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe axioms for \u003ccode\u003exsd:decimal\u003c/code\u003e, which are\n\u003c/p\u003e\u003cpre\u003e xsd:decimal a rdfs:Datatype .\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.Decimal",
           "name": "axiomsXsdDecimal",
           "package": "swish",
@@ -7235,6 +7788,7 @@
         "index": {
           "description": "The axioms for xsd decimal which are xsd decimal rdfs Datatype",
           "hierarchy": "Swish RDF Datatype XSD Decimal",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.Decimal",
           "name": "axiomsXsdDecimal",
           "normalized": "[RDFFormula]",
@@ -7251,6 +7805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamespace for \u003ccode\u003exsd:decimal\u003c/code\u003e datatype functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.Decimal",
           "name": "namespaceXsdDecimal",
           "package": "swish",
@@ -7261,6 +7816,7 @@
         "index": {
           "description": "Namespace for xsd decimal datatype functions",
           "hierarchy": "Swish RDF Datatype XSD Decimal",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.Decimal",
           "name": "namespaceXsdDecimal",
           "package": "swish",
@@ -7275,6 +7831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine Datatype value for \u003ccode\u003exsd:decimal\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eMembers of this datatype decimal values.\n\u003c/p\u003e\u003cp\u003eThe lexical form consists of an optional \u003ccode\u003e+\u003c/code\u003e or \u003ccode\u003e-\u003c/code\u003e\n  followed by a sequence of decimal digits, an optional\n  decimal point and a sequence of decimal digits.\n\u003c/p\u003e\u003cp\u003eThe canonical lexical form has leading zeros and \u003ccode\u003e+\u003c/code\u003e sign removed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.Decimal",
           "name": "rdfDatatypeValXsdDecimal",
           "package": "swish",
@@ -7285,6 +7842,7 @@
         "index": {
           "description": "Define Datatype value for xsd decimal Members of this datatype decimal values The lexical form consists of an optional or followed by sequence of decimal digits an optional decimal point and sequence of decimal digits The canonical lexical form has leading zeros and sign removed",
           "hierarchy": "Swish RDF Datatype XSD Decimal",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.Decimal",
           "name": "rdfDatatypeValXsdDecimal",
           "package": "swish",
@@ -7299,6 +7857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe RDFDatatype value for \u003ccode\u003exsd:decimal\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.Decimal",
           "name": "rdfDatatypeXsdDecimal",
           "package": "swish",
@@ -7309,6 +7868,7 @@
         "index": {
           "description": "The RDFDatatype value for xsd decimal",
           "hierarchy": "Swish RDF Datatype XSD Decimal",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.Decimal",
           "name": "rdfDatatypeXsdDecimal",
           "package": "swish",
@@ -7323,6 +7883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rules for \u003ccode\u003exsd:decimal\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.Decimal",
           "name": "rulesXsdDecimal",
           "package": "swish",
@@ -7333,6 +7894,7 @@
         "index": {
           "description": "The rules for xsd decimal",
           "hierarchy": "Swish RDF Datatype XSD Decimal",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.Decimal",
           "name": "rulesXsdDecimal",
           "normalized": "[RDFRule]",
@@ -7349,6 +7911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType name for \u003ccode\u003exsd:decimal\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.Decimal",
           "name": "typeNameXsdDecimal",
           "package": "swish",
@@ -7359,6 +7922,7 @@
         "index": {
           "description": "Type name for xsd decimal datatype",
           "hierarchy": "Swish RDF Datatype XSD Decimal",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.Decimal",
           "name": "typeNameXsdDecimal",
           "package": "swish",
@@ -7373,6 +7937,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the structures used to represent and\n  manipulate RDF \u003ccode\u003exsd:integer\u003c/code\u003e datatyped literals.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.Integer",
           "name": "Integer",
           "package": "swish",
@@ -7382,6 +7947,7 @@
         "index": {
           "description": "This module defines the structures used to represent and manipulate RDF xsd integer datatyped literals",
           "hierarchy": "Swish RDF Datatype XSD Integer",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.Integer",
           "name": "Integer",
           "package": "swish",
@@ -7396,6 +7962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe axioms for \u003ccode\u003exsd:integer\u003c/code\u003e, which are\n\u003c/p\u003e\u003cpre\u003e xsd:integer a rdfs:Datatype .\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.Integer",
           "name": "axiomsXsdInteger",
           "package": "swish",
@@ -7406,6 +7973,7 @@
         "index": {
           "description": "The axioms for xsd integer which are xsd integer rdfs Datatype",
           "hierarchy": "Swish RDF Datatype XSD Integer",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.Integer",
           "name": "axiomsXsdInteger",
           "normalized": "[RDFFormula]",
@@ -7422,6 +7990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamespace for \u003ccode\u003exsd:integer\u003c/code\u003e datatype functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.Integer",
           "name": "namespaceXsdInteger",
           "package": "swish",
@@ -7432,6 +8001,7 @@
         "index": {
           "description": "Namespace for xsd integer datatype functions",
           "hierarchy": "Swish RDF Datatype XSD Integer",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.Integer",
           "name": "namespaceXsdInteger",
           "package": "swish",
@@ -7446,6 +8016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine Datatype value for \u003ccode\u003exsd:integer\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eMembers of this datatype are positive or negative integer values.\n\u003c/p\u003e\u003cp\u003eThe lexical form consists of an optional \u003ccode\u003e+\u003c/code\u003e or \u003ccode\u003e-\u003c/code\u003e\n  followed by a sequence of decimal digits.\n\u003c/p\u003e\u003cp\u003eThe canonical lexical form has leading zeros and \u003ccode\u003e+\u003c/code\u003e sign removed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.Integer",
           "name": "rdfDatatypeValXsdInteger",
           "package": "swish",
@@ -7456,6 +8027,7 @@
         "index": {
           "description": "Define Datatype value for xsd integer Members of this datatype are positive or negative integer values The lexical form consists of an optional or followed by sequence of decimal digits The canonical lexical form has leading zeros and sign removed",
           "hierarchy": "Swish RDF Datatype XSD Integer",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.Integer",
           "name": "rdfDatatypeValXsdInteger",
           "package": "swish",
@@ -7470,6 +8042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe RDFDatatype value for \u003ccode\u003exsd:integer\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.Integer",
           "name": "rdfDatatypeXsdInteger",
           "package": "swish",
@@ -7480,6 +8053,7 @@
         "index": {
           "description": "The RDFDatatype value for xsd integer",
           "hierarchy": "Swish RDF Datatype XSD Integer",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.Integer",
           "name": "rdfDatatypeXsdInteger",
           "package": "swish",
@@ -7494,6 +8068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rules for \u003ccode\u003exsd:integer\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.Integer",
           "name": "rulesXsdInteger",
           "package": "swish",
@@ -7504,6 +8079,7 @@
         "index": {
           "description": "The rules for xsd integer",
           "hierarchy": "Swish RDF Datatype XSD Integer",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.Integer",
           "name": "rulesXsdInteger",
           "normalized": "[RDFRule]",
@@ -7520,6 +8096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType name for \u003ccode\u003exsd:integer\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.Integer",
           "name": "typeNameXsdInteger",
           "package": "swish",
@@ -7530,6 +8107,7 @@
         "index": {
           "description": "Type name for xsd integer datatype",
           "hierarchy": "Swish RDF Datatype XSD Integer",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.Integer",
           "name": "typeNameXsdInteger",
           "package": "swish",
@@ -7544,6 +8122,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the datatytpe mapping and relation values\n  used for RDF dataype \u003ccode\u003exsd:decimal\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.MapDecimal",
           "name": "MapDecimal",
           "package": "swish",
@@ -7553,6 +8132,7 @@
         "index": {
           "description": "This module defines the datatytpe mapping and relation values used for RDF dataype xsd decimal",
           "hierarchy": "Swish RDF Datatype XSD MapDecimal",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.MapDecimal",
           "name": "MapDecimal",
           "package": "swish",
@@ -7567,6 +8147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctions that perform lexical-to-value\n  and value-to-canonical-lexical mappings for \u003ccode\u003exsd:decimal\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.MapDecimal",
           "name": "mapXsdDecimal",
           "package": "swish",
@@ -7577,6 +8158,7 @@
         "index": {
           "description": "Functions that perform lexical-to-value and value-to-canonical-lexical mappings for xsd decimal values",
           "hierarchy": "Swish RDF Datatype XSD MapDecimal",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.MapDecimal",
           "name": "mapXsdDecimal",
           "package": "swish",
@@ -7591,6 +8173,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the datatytpe mapping and relation values\n  used for RDF dataype \u003ccode\u003exsd:integer\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.MapInteger",
           "name": "MapInteger",
           "package": "swish",
@@ -7600,6 +8183,7 @@
         "index": {
           "description": "This module defines the datatytpe mapping and relation values used for RDF dataype xsd integer",
           "hierarchy": "Swish RDF Datatype XSD MapInteger",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.MapInteger",
           "name": "MapInteger",
           "package": "swish",
@@ -7614,6 +8198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctions that perform lexical-to-value\n  and value-to-canonical-lexical mappings for \u003ccode\u003exsd:integer\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.MapInteger",
           "name": "mapXsdInteger",
           "package": "swish",
@@ -7624,6 +8209,7 @@
         "index": {
           "description": "Functions that perform lexical-to-value and value-to-canonical-lexical mappings for xsd integer values",
           "hierarchy": "Swish RDF Datatype XSD MapInteger",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.MapInteger",
           "name": "mapXsdInteger",
           "package": "swish",
@@ -7638,6 +8224,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the structures used to represent and\n  manipulate RDF \u003ccode\u003exsd:string\u003c/code\u003e datatyped literals.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.String",
           "name": "String",
           "package": "swish",
@@ -7647,6 +8234,7 @@
         "index": {
           "description": "This module defines the structures used to represent and manipulate RDF xsd string datatyped literals",
           "hierarchy": "Swish RDF Datatype XSD String",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.String",
           "name": "String",
           "package": "swish",
@@ -7661,6 +8249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe axioms for \u003ccode\u003exsd:string\u003c/code\u003e, which are\n\u003c/p\u003e\u003cpre\u003e xsd:string a rdfs:Datatype .\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.String",
           "name": "axiomsXsdString",
           "package": "swish",
@@ -7671,6 +8260,7 @@
         "index": {
           "description": "The axioms for xsd string which are xsd string rdfs Datatype",
           "hierarchy": "Swish RDF Datatype XSD String",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.String",
           "name": "axiomsXsdString",
           "normalized": "[RDFFormula]",
@@ -7687,6 +8277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamespace for \u003ccode\u003exsd:string\u003c/code\u003e datatype functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.String",
           "name": "namespaceXsdString",
           "package": "swish",
@@ -7697,6 +8288,7 @@
         "index": {
           "description": "Namespace for xsd string datatype functions",
           "hierarchy": "Swish RDF Datatype XSD String",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.String",
           "name": "namespaceXsdString",
           "package": "swish",
@@ -7711,6 +8303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine Datatype value for \u003ccode\u003exsd:string\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.String",
           "name": "rdfDatatypeValXsdString",
           "package": "swish",
@@ -7721,6 +8314,7 @@
         "index": {
           "description": "Define Datatype value for xsd string",
           "hierarchy": "Swish RDF Datatype XSD String",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.String",
           "name": "rdfDatatypeValXsdString",
           "package": "swish",
@@ -7735,6 +8329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe RDFDatatype value for \u003ccode\u003exsd:string\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.String",
           "name": "rdfDatatypeXsdString",
           "package": "swish",
@@ -7745,6 +8340,7 @@
         "index": {
           "description": "The RDFDatatype value for xsd string",
           "hierarchy": "Swish RDF Datatype XSD String",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.String",
           "name": "rdfDatatypeXsdString",
           "package": "swish",
@@ -7759,6 +8355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rules for \u003ccode\u003exsd:string\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.String",
           "name": "rulesXsdString",
           "package": "swish",
@@ -7769,6 +8366,7 @@
         "index": {
           "description": "The rules for xsd string",
           "hierarchy": "Swish RDF Datatype XSD String",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.String",
           "name": "rulesXsdString",
           "normalized": "[RDFRule]",
@@ -7785,6 +8383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType name for \u003ccode\u003exsd:string\u003c/code\u003e datatype\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype.XSD.String",
           "name": "typeNameXsdString",
           "package": "swish",
@@ -7795,6 +8394,7 @@
         "index": {
           "description": "Type name for xsd string datatype",
           "hierarchy": "Swish RDF Datatype XSD String",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype.XSD.String",
           "name": "typeNameXsdString",
           "package": "swish",
@@ -7809,6 +8409,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the structures used by Swish to represent and\n  manipulate RDF datatypes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype",
           "name": "Datatype",
           "package": "swish",
@@ -7818,6 +8419,7 @@
         "index": {
           "description": "This module defines the structures used by Swish to represent and manipulate RDF datatypes",
           "hierarchy": "Swish RDF Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype",
           "name": "Datatype",
           "package": "swish",
@@ -7832,6 +8434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRDF value modifier application function type\n\u003c/p\u003e\u003cp\u003eThis indicates a function that applies RDFModifierFn functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype",
           "name": "RDFApplyModifier",
           "package": "swish",
@@ -7841,6 +8444,7 @@
         "index": {
           "description": "RDF value modifier application function type This indicates function that applies RDFModifierFn functions",
           "hierarchy": "Swish RDF Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype",
           "name": "RDFApplyModifier",
           "package": "swish",
@@ -7855,6 +8459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRDF datatype wrapper used with RDF graph values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype",
           "name": "RDFDatatype",
           "package": "swish",
@@ -7864,6 +8469,7 @@
         "index": {
           "description": "RDF datatype wrapper used with RDF graph values",
           "hierarchy": "Swish RDF Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype",
           "name": "RDFDatatype",
           "package": "swish",
@@ -7878,6 +8484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRDF datatype modifier used with RDF graph values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype",
           "name": "RDFDatatypeMod",
           "package": "swish",
@@ -7887,6 +8494,7 @@
         "index": {
           "description": "RDF datatype modifier used with RDF graph values",
           "hierarchy": "Swish RDF Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype",
           "name": "RDFDatatypeMod",
           "package": "swish",
@@ -7901,6 +8509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribe a subtype/supertype relationship between a pair\n  of RDF datatypes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype",
           "name": "RDFDatatypeSub",
           "package": "swish",
@@ -7910,6 +8519,7 @@
         "index": {
           "description": "Describe subtype supertype relationship between pair of RDF datatypes",
           "hierarchy": "Swish RDF Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype",
           "name": "RDFDatatypeSub",
           "package": "swish",
@@ -7924,6 +8534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRDF datatype value used with RDF graph values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype",
           "name": "RDFDatatypeVal",
           "package": "swish",
@@ -7933,6 +8544,7 @@
         "index": {
           "description": "RDF datatype value used with RDF graph values",
           "hierarchy": "Swish RDF Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype",
           "name": "RDFDatatypeVal",
           "package": "swish",
@@ -7947,6 +8559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRDF value modifier function type\n\u003c/p\u003e\u003cp\u003eThis indicates a modifier function that operates on \u003ccode\u003e\u003ca\u003eRDFLabel\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype",
           "name": "RDFModifierFn",
           "package": "swish",
@@ -7956,6 +8569,7 @@
         "index": {
           "description": "RDF value modifier function type This indicates modifier function that operates on RDFLabel values",
           "hierarchy": "Swish RDF Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype",
           "name": "RDFModifierFn",
           "package": "swish",
@@ -7970,6 +8584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a datatype modifier using supplied RDF labels to a supplied\n  RDF variable binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype",
           "name": "applyRDFDatatypeMod",
           "package": "swish",
@@ -7980,6 +8595,7 @@
         "index": {
           "description": "Apply datatype modifier using supplied RDF labels to supplied RDF variable binding",
           "hierarchy": "Swish RDF Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype",
           "name": "applyRDFDatatypeMod",
           "normalized": "RDFDatatypeVal a-\u003eRDFDatatypeMod a-\u003e[RDFLabel]-\u003e[RDFVarBinding]-\u003e[RDFVarBinding]",
@@ -7996,6 +8612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from a typed literal to a Haskell value,\n with the possibility of failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype",
           "name": "fromRDFLabel",
           "package": "swish",
@@ -8006,6 +8623,7 @@
         "index": {
           "description": "Convert from typed literal to Haskell value with the possibility of failure",
           "hierarchy": "Swish RDF Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype",
           "name": "fromRDFLabel",
           "normalized": "RDFDatatypeVal a-\u003eRDFLabel-\u003eMaybe a",
@@ -8022,6 +8640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a typed literal. No conversion is made to the\n string representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype",
           "name": "makeDatatypedLiteral",
           "package": "swish",
@@ -8031,6 +8650,7 @@
         "index": {
           "description": "Create typed literal No conversion is made to the string representation",
           "hierarchy": "Swish RDF Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype",
           "name": "makeDatatypedLiteral",
           "normalized": "ScopedName-\u003eText-\u003eRDFLabel",
@@ -8047,6 +8667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate all RDFOpenVarBindingModify values for a given datatype value.\n  See \u003ccode\u003e\u003ca\u003emakeRdfDtOpenVarBindingModify\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype",
           "name": "makeRdfDtOpenVarBindingModifiers",
           "package": "swish",
@@ -8056,6 +8677,7 @@
         "index": {
           "description": "Create all RDFOpenVarBindingModify values for given datatype value See makeRdfDtOpenVarBindingModify",
           "hierarchy": "Swish RDF Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype",
           "name": "makeRdfDtOpenVarBindingModifiers",
           "normalized": "RDFDatatypeVal a-\u003e[RDFOpenVarBindingModify]",
@@ -8072,6 +8694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003ca\u003eRDFOpenVarBindingModify\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e\u003cp\u003eThe key purpose of this function is to lift the supplied\n  variable constraint functions from operating on data values directly\n  to a corresponding list of functions that operate on values contained\n  in RDF graph labels (i.e. RDF literal nodes).  It also applies\n  node type checking, such that if the actual RDF nodes supplied do\n  not contain appropriate values then the variable binding is not\n  accepted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype",
           "name": "makeRdfDtOpenVarBindingModify",
           "package": "swish",
@@ -8081,6 +8704,7 @@
         "index": {
           "description": "Create an RDFOpenVarBindingModify value The key purpose of this function is to lift the supplied variable constraint functions from operating on data values directly to corresponding list of functions that operate on values contained in RDF graph labels i.e RDF literal nodes It also applies node type checking such that if the actual RDF nodes supplied do not contain appropriate values then the variable binding is not accepted",
           "hierarchy": "Swish RDF Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype",
           "name": "makeRdfDtOpenVarBindingModify",
           "normalized": "RDFDatatypeVal a-\u003eRDFDatatypeMod a-\u003eRDFOpenVarBindingModify",
@@ -8097,6 +8721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Haskell value to a typed literal (label),\n with the possibility of failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Datatype",
           "name": "toRDFLabel",
           "package": "swish",
@@ -8107,6 +8732,7 @@
         "index": {
           "description": "Convert Haskell value to typed literal label with the possibility of failure",
           "hierarchy": "Swish RDF Datatype",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Datatype",
           "name": "toRDFLabel",
           "normalized": "RDFDatatypeVal a-\u003ea-\u003eMaybe RDFLabel",
@@ -8123,6 +8749,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis Module implements a Notation 3 formatter\n  for an \u003ccode\u003e\u003ca\u003eRDFGraph\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e\u003cp\u003eREFERENCES:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \"Notation3 (N3): A readable RDF syntax\",\n     W3C Team Submission 14 January 2008,\n     \u003ca\u003ehttp://www.w3.org/TeamSubmission/2008/SUBM-n3-20080114/\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Tim Berners-Lee's design issues series notes and description,\n     \u003ca\u003ehttp://www.w3.org/DesignIssues/Notation3.html\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Notation 3 Primer by Sean Palmer,\n      \u003ca\u003ehttp://www.w3.org/2000/10/swap/Primer.html\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eTODO:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Initial prefix list to include nested formulae;\n      then don't need to update prefix list for these.\n\u003c/li\u003e\u003cli\u003e correct output of strings containing unsupported escape\n     characters (such as \u003ccode\u003e\\q\u003c/code\u003e)\n\u003c/li\u003e\u003cli\u003e more flexible terminator generation for formatted formulae\n     (for inline blank nodes.)\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Formatter.N3",
           "name": "N3",
           "package": "swish",
@@ -8132,6 +8759,7 @@
         "index": {
           "description": "This Module implements Notation formatter for an RDFGraph value REFERENCES Notation3 N3 readable RDF syntax W3C Team Submission January http www.w3.org TeamSubmission SUBM-n3-20080114 Tim Berners-Lee design issues series notes and description http www.w3.org DesignIssues Notation3.html Notation Primer by Sean Palmer http www.w3.org swap Primer.html TODO Initial prefix list to include nested formulae then don need to update prefix list for these correct output of strings containing unsupported escape characters such as more flexible terminator generation for formatted formulae for inline blank nodes",
           "hierarchy": "Swish RDF Formatter N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Formatter.N3",
           "name": "N3",
           "package": "swish",
@@ -8145,6 +8773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNode name generation state information that carries through\n  and is updated by nested formulae.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Formatter.N3",
           "name": "NodeGenLookupMap",
           "package": "swish",
@@ -8154,6 +8783,7 @@
         "index": {
           "description": "Node name generation state information that carries through and is updated by nested formulae",
           "hierarchy": "Swish RDF Formatter N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Formatter.N3",
           "name": "NodeGenLookupMap",
           "package": "swish",
@@ -8168,6 +8798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the graph to a Builder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Formatter.N3",
           "name": "formatGraphAsBuilder",
           "package": "swish",
@@ -8178,6 +8809,7 @@
         "index": {
           "description": "Convert the graph to Builder",
           "hierarchy": "Swish RDF Formatter N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Formatter.N3",
           "name": "formatGraphAsBuilder",
           "normalized": "RDFGraph-\u003eBuilder",
@@ -8194,6 +8826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the graph to text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Formatter.N3",
           "name": "formatGraphAsLazyText",
           "package": "swish",
@@ -8204,6 +8837,7 @@
         "index": {
           "description": "Convert the graph to text",
           "hierarchy": "Swish RDF Formatter N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Formatter.N3",
           "name": "formatGraphAsLazyText",
           "normalized": "RDFGraph-\u003eText",
@@ -8220,6 +8854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the graph to text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Formatter.N3",
           "name": "formatGraphAsText",
           "package": "swish",
@@ -8230,6 +8865,7 @@
         "index": {
           "description": "Convert the graph to text",
           "hierarchy": "Swish RDF Formatter N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Formatter.N3",
           "name": "formatGraphAsText",
           "normalized": "RDFGraph-\u003eText",
@@ -8246,6 +8882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat graph and return additional information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Formatter.N3",
           "name": "formatGraphDiag",
           "package": "swish",
@@ -8255,6 +8892,7 @@
         "index": {
           "description": "Format graph and return additional information",
           "hierarchy": "Swish RDF Formatter N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Formatter.N3",
           "name": "formatGraphDiag",
           "normalized": "Builder-\u003eBool-\u003eRDFGraph-\u003e(Builder,NodeGenLookupMap,Word,[String])",
@@ -8297,6 +8935,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis Module implements a NTriples formatter for a \u003ccode\u003e\u003ca\u003eRDFGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eREFERENCES:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \"RDF Test Cases\",\n     W3C Recommendation 10 February 2004,\n     \u003ca\u003ehttp://www.w3.org/TR/rdf-testcases/#ntriples\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eNOTES:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Update to the document \"N-Triples. A line-based syntax for an RDF graph\"\n    W3C Working Group Note 09 April 2013,\n    \u003ca\u003ehttp://www.w3.org/TR/2013/NOTE-n-triples-20130409/\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Formatter.NTriples",
           "name": "NTriples",
           "package": "swish",
@@ -8306,6 +8945,7 @@
         "index": {
           "description": "This Module implements NTriples formatter for RDFGraph REFERENCES RDF Test Cases W3C Recommendation February http www.w3.org TR rdf-testcases ntriples NOTES Update to the document N-Triples line-based syntax for an RDF graph W3C Working Group Note April http www.w3.org TR NOTE-n-triples-20130409",
           "hierarchy": "Swish RDF Formatter NTriples",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Formatter.NTriples",
           "name": "NTriples",
           "package": "swish",
@@ -8320,6 +8960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a RDF graph to NTriples format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Formatter.NTriples",
           "name": "formatGraphAsBuilder",
           "package": "swish",
@@ -8330,6 +8971,7 @@
         "index": {
           "description": "Convert RDF graph to NTriples format",
           "hierarchy": "Swish RDF Formatter NTriples",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Formatter.NTriples",
           "name": "formatGraphAsBuilder",
           "normalized": "RDFGraph-\u003eBuilder",
@@ -8346,6 +8988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a RDF graph to NTriples format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Formatter.NTriples",
           "name": "formatGraphAsLazyText",
           "package": "swish",
@@ -8356,6 +8999,7 @@
         "index": {
           "description": "Convert RDF graph to NTriples format",
           "hierarchy": "Swish RDF Formatter NTriples",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Formatter.NTriples",
           "name": "formatGraphAsLazyText",
           "normalized": "RDFGraph-\u003eText",
@@ -8372,6 +9016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a RDF graph to NTriples format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Formatter.NTriples",
           "name": "formatGraphAsText",
           "package": "swish",
@@ -8382,6 +9027,7 @@
         "index": {
           "description": "Convert RDF graph to NTriples format",
           "hierarchy": "Swish RDF Formatter NTriples",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Formatter.NTriples",
           "name": "formatGraphAsText",
           "normalized": "RDFGraph-\u003eText",
@@ -8398,6 +9044,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis Module implements a Turtle formatter \n  for an \u003ccode\u003e\u003ca\u003eRDFGraph\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e\u003cp\u003eREFERENCES:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \"Turtle, Terse RDF Triple Language\",\n    W3C Working Draft 09 August 2011 (\u003ca\u003ehttp://www.w3.org/TR/2011/WD-turtle-20110809/\u003c/a\u003e)\n    \u003ca\u003ehttp://www.w3.org/TR/turtle/\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eNOTES:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The formatter needs to be updated to the W3C\n    Candidate Recommendation (19 February 2013,\n    \u003ca\u003ehttp://www.w3.org/TR/2013/CR-turtle-20130219/\u003c/a\u003e).\n\u003c/li\u003e\u003cli\u003e Should literal strings (\u003ccode\u003eLit\u003c/code\u003e) be written out as \u003ccode\u003exsd:string\u003c/code\u003e, or\n    should \u003ccode\u003eTypedLit\u003c/code\u003e strings with a type of \u003ccode\u003exsd:string\u003c/code\u003e be written\n    out with no type? (e.g. see\n    \u003ca\u003ehttp://www.w3.org/TR/2011/WD-turtle-20110809/#terms\u003c/a\u003e).\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Formatter.Turtle",
           "name": "Turtle",
           "package": "swish",
@@ -8407,6 +9054,7 @@
         "index": {
           "description": "This Module implements Turtle formatter for an RDFGraph value REFERENCES Turtle Terse RDF Triple Language W3C Working Draft August http www.w3.org TR WD-turtle-20110809 http www.w3.org TR turtle NOTES The formatter needs to be updated to the W3C Candidate Recommendation February http www.w3.org TR CR-turtle-20130219 Should literal strings Lit be written out as xsd string or should TypedLit strings with type of xsd string be written out with no type e.g see http www.w3.org TR WD-turtle-20110809 terms",
           "hierarchy": "Swish RDF Formatter Turtle",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Formatter.Turtle",
           "name": "Turtle",
           "package": "swish",
@@ -8421,6 +9069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNode name generation state information that carries through\n  and is updated by nested formulae.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Formatter.Turtle",
           "name": "NodeGenLookupMap",
           "package": "swish",
@@ -8430,6 +9079,7 @@
         "index": {
           "description": "Node name generation state information that carries through and is updated by nested formulae",
           "hierarchy": "Swish RDF Formatter Turtle",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Formatter.Turtle",
           "name": "NodeGenLookupMap",
           "package": "swish",
@@ -8444,6 +9094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the graph to a Builder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Formatter.Turtle",
           "name": "formatGraphAsBuilder",
           "package": "swish",
@@ -8454,6 +9105,7 @@
         "index": {
           "description": "Convert the graph to Builder",
           "hierarchy": "Swish RDF Formatter Turtle",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Formatter.Turtle",
           "name": "formatGraphAsBuilder",
           "normalized": "RDFGraph-\u003eBuilder",
@@ -8470,6 +9122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the graph to text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Formatter.Turtle",
           "name": "formatGraphAsLazyText",
           "package": "swish",
@@ -8480,6 +9133,7 @@
         "index": {
           "description": "Convert the graph to text",
           "hierarchy": "Swish RDF Formatter Turtle",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Formatter.Turtle",
           "name": "formatGraphAsLazyText",
           "normalized": "RDFGraph-\u003eText",
@@ -8496,6 +9150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the graph to text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Formatter.Turtle",
           "name": "formatGraphAsText",
           "package": "swish",
@@ -8506,6 +9161,7 @@
         "index": {
           "description": "Convert the graph to text",
           "hierarchy": "Swish RDF Formatter Turtle",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Formatter.Turtle",
           "name": "formatGraphAsText",
           "normalized": "RDFGraph-\u003eText",
@@ -8522,6 +9178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat graph and return additional information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Formatter.Turtle",
           "name": "formatGraphDiag",
           "package": "swish",
@@ -8531,6 +9188,7 @@
         "index": {
           "description": "Format graph and return additional information",
           "hierarchy": "Swish RDF Formatter Turtle",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Formatter.Turtle",
           "name": "formatGraphDiag",
           "normalized": "Builder-\u003eBool-\u003eRDFGraph-\u003e(Builder,NodeGenLookupMap,Word,[String])",
@@ -8547,6 +9205,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines a memory-based RDF graph instance. At present only\n  RDF 1.0 is explicitly supported; I have not gone through the RDF 1.1\n  changes to see how the code needs to be updated. This means that you\n  can have untyped strings in your graph that do not match the same content\n  but with an explicit \u003ccode\u003exsd:string\u003c/code\u003e datatype.\n\u003c/p\u003e\u003cp\u003eNote that the identifiers for blank nodes may \u003cem\u003enot\u003c/em\u003e be propogated when\n  a graph is written out using one of the formatters, such as\n  \u003ccode\u003e\u003ca\u003eTurtle\u003c/a\u003e\u003c/code\u003e. There is limited support for\n  generating new blank nodes from an existing set of triples; e.g.\n  \u003ccode\u003e\u003ca\u003enewNode\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003enewNodes\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "Graph",
           "package": "swish",
@@ -8556,6 +9215,7 @@
         "index": {
           "description": "This module defines memory-based RDF graph instance At present only RDF is explicitly supported have not gone through the RDF changes to see how the code needs to be updated This means that you can have untyped strings in your graph that do not match the same content but with an explicit xsd string datatype Note that the identifiers for blank nodes may not be propogated when graph is written out using one of the formatters such as Turtle There is limited support for generating new blank nodes from an existing set of triples e.g newNode and newNodes",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "Graph",
           "package": "swish",
@@ -8570,6 +9230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArc type.\n\u003c/p\u003e\u003cp\u003ePrior to \u003ccode\u003e0.7.0.0\u003c/code\u003e you could also use \u003ccode\u003easubj\u003c/code\u003e, \u003ccode\u003eapred\u003c/code\u003e and \u003ccode\u003eaobj\u003c/code\u003e\n to access the elements of the arc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "Arc",
           "package": "swish",
@@ -8579,6 +9240,7 @@
         "index": {
           "description": "Arc type Prior to you could also use asubj apred and aobj to access the elements of the arc",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "Arc",
           "package": "swish",
@@ -8593,6 +9255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA named formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "Formula",
           "package": "swish",
@@ -8602,6 +9265,7 @@
         "index": {
           "description": "named formula",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "Formula",
           "package": "swish",
@@ -8616,6 +9280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map for named formulae.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "FormulaMap",
           "package": "swish",
@@ -8625,6 +9290,7 @@
         "index": {
           "description": "map for named formulae",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "FormulaMap",
           "package": "swish",
@@ -8639,6 +9305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted from a RDF Label,\nwith the possibility of failure.\n\u003c/p\u003e\u003cp\u003eThe String instance converts from an untyped literal\n(so it can not be used with a string with a language tag).\n\u003c/p\u003e\u003cp\u003eThe following conversions are supported for common XSD\ntypes (out-of-band values result in \u003ccode\u003eNothing\u003c/code\u003e):\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003exsd:boolean\u003c/code\u003e to \u003ccode\u003eBool\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003exsd:integer\u003c/code\u003e to \u003ccode\u003eInt\u003c/code\u003e and \u003ccode\u003eInteger\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003exsd:float\u003c/code\u003e to \u003ccode\u003eFloat\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003exsd:double\u003c/code\u003e to \u003ccode\u003eDouble\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003exsd:dateTime\u003c/code\u003e to \u003ccode\u003eUTCTime\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003exsd:date\u003c/code\u003e to \u003ccode\u003eDay\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eNote that this is similar to\n\u003ccode\u003e\u003ca\u003efromRDFLabel\u003c/a\u003e\u003c/code\u003e; \nthe code should probably be combined at some point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "FromRDFLabel",
           "package": "swish",
@@ -8648,6 +9315,7 @@
         "index": {
           "description": "type that can be converted from RDF Label with the possibility of failure The String instance converts from an untyped literal so it can not be used with string with language tag The following conversions are supported for common XSD types out-of-band values result in Nothing xsd boolean to Bool xsd integer to Int and Integer xsd float to Float xsd double to Double xsd dateTime to UTCTime xsd date to Day Note that this is similar to fromRDFLabel the code should probably be combined at some point",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "FromRDFLabel",
           "package": "swish",
@@ -8662,6 +9330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabelled Directed Graph class.\n\u003c/p\u003e\u003cp\u003eMinimum required implementation: \n\u003ccode\u003e\u003ca\u003eemptyGraph\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esetArcs\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003egetArcs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "LDGraph",
           "package": "swish",
@@ -8671,6 +9340,7 @@
         "index": {
           "description": "Labelled Directed Graph class Minimum required implementation emptyGraph setArcs and getArcs",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "LDGraph",
           "package": "swish",
@@ -8685,6 +9355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel class.\n\u003c/p\u003e\u003cp\u003eA label may have a fixed binding, which means that the label identifies (is) a\n  particular graph node, and different such labels are always distinct nodes.\n  Alternatively, a label may be unbound (variable), which means that it is a\n  placeholder for an unknown node label.  Unbound node labels are used as\n  graph-local identifiers for indicating when the same node appears in\n  several arcs.\n\u003c/p\u003e\u003cp\u003eFor the purposes of graph-isomorphism testing, fixed labels are matched when they\n  are the same.  Variable labels may be matched with any other variable label.\n  Our definition of isomorphism (for RDF graphs) does not match variable labels\n  with fixed labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "Label",
           "package": "swish",
@@ -8694,6 +9365,7 @@
         "index": {
           "description": "Label class label may have fixed binding which means that the label identifies is particular graph node and different such labels are always distinct nodes Alternatively label may be unbound variable which means that it is placeholder for an unknown node label Unbound node labels are used as graph-local identifiers for indicating when the same node appears in several arcs For the purposes of graph-isomorphism testing fixed labels are matched when they are the same Variable labels may be matched with any other variable label Our definition of isomorphism for RDF graphs does not match variable labels with fixed labels",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "Label",
           "package": "swish",
@@ -8708,6 +9380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraph formula entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "LookupFormula",
           "package": "swish",
@@ -8717,6 +9390,7 @@
         "index": {
           "description": "Graph formula entry",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "LookupFormula",
           "package": "swish",
@@ -8731,6 +9405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemory-based graph with namespaces and subgraphs.\n\u003c/p\u003e\u003cp\u003eThe primary means for adding arcs to an existing graph\nare: \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003esetArcs\u003c/a\u003e\u003c/code\u003e from the \u003ccode\u003e\u003ca\u003eLDGraph\u003c/a\u003e\u003c/code\u003e instance, which replaces the \n    existing set of arcs and does not change the namespace \n    map.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eaddArc\u003c/a\u003e\u003c/code\u003e which checks that the arc is unknown before\n    adding it but does not change the namespace map or\n    re-label any blank nodes in the arc.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "NSGraph",
           "package": "swish",
@@ -8740,6 +9415,7 @@
         "index": {
           "description": "Memory-based graph with namespaces and subgraphs The primary means for adding arcs to an existing graph are setArcs from the LDGraph instance which replaces the existing set of arcs and does not change the namespace map addArc which checks that the arc is unknown before adding it but does not change the namespace map or re-label any blank nodes in the arc",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "NSGraph",
           "package": "swish",
@@ -8754,6 +9430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamespace prefix list entry\n\u003c/p\u003e\u003cp\u003eA map for name spaces (key is the prefix).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "NamespaceMap",
           "package": "swish",
@@ -8763,6 +9440,7 @@
         "index": {
           "description": "Namespace prefix list entry map for name spaces key is the prefix",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "NamespaceMap",
           "package": "swish",
@@ -8777,6 +9455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of RDF triples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "RDFArcSet",
           "package": "swish",
@@ -8786,6 +9465,7 @@
         "index": {
           "description": "set of RDF triples",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "RDFArcSet",
           "package": "swish",
@@ -8800,6 +9480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemory-based RDF graph type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "RDFGraph",
           "package": "swish",
@@ -8809,6 +9490,7 @@
         "index": {
           "description": "Memory-based RDF graph type",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "RDFGraph",
           "package": "swish",
@@ -8823,6 +9505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRDF graph node values\n\u003c/p\u003e\u003cp\u003ecf. \u003ca\u003ehttp://www.w3.org/TR/rdf-concepts/#section-Graph-syntax\u003c/a\u003e version 1.0\n\u003c/p\u003e\u003cp\u003eThis is extended from the RDF abstract graph syntax in the\n  following ways:\n\u003c/p\u003e\u003cp\u003e(a) a graph can be part of a resource node or blank node\n      (cf. Notation3 formulae)\n\u003c/p\u003e\u003cp\u003e(b) a \"variable\" node option is distinguished from a\n      blank node.\n      I have found this useful for encoding and handling\n      queries, even though query variables can be expressed\n      as blank nodes.\n\u003c/p\u003e\u003cp\u003e(c) a \"NoNode\" option is defined.\n      This might otherwise be handled by \u003ccode\u003eMaybe (RDFLabel g)\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003ePrior to version \u003ccode\u003e0.7.0.0\u003c/code\u003e, literals were represented by a\n single constructor, \u003ccode\u003eLit\u003c/code\u003e, with an optional argument. Language\n codes for literals was also stored as a \u003ccode\u003e\u003ca\u003eScopedName\u003c/a\u003e\u003c/code\u003e rather than\n as a \u003ccode\u003e\u003ca\u003eLanguageTag\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "RDFLabel",
           "package": "swish",
@@ -8832,6 +9515,7 @@
         "index": {
           "description": "RDF graph node values cf http www.w3.org TR rdf-concepts section-Graph-syntax version This is extended from the RDF abstract graph syntax in the following ways graph can be part of resource node or blank node cf Notation3 formulae variable node option is distinguished from blank node have found this useful for encoding and handling queries even though query variables can be expressed as blank nodes NoNode option is defined This might otherwise be handled by Maybe RDFLabel Prior to version literals were represented by single constructor Lit with an optional argument Language codes for literals was also stored as ScopedName rather than as LanguageTag",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "RDFLabel",
           "package": "swish",
@@ -8846,6 +9530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRDF Triple (statement)\n\u003c/p\u003e\u003cp\u003eAt present there is no check or type-level\n   constraint that stops the subject or\n   predicate of the triple from being a literal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "RDFTriple",
           "package": "swish",
@@ -8855,6 +9540,7 @@
         "index": {
           "description": "RDF Triple statement At present there is no check or type-level constraint that stops the subject or predicate of the triple from being literal",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "RDFTriple",
           "package": "swish",
@@ -8869,6 +9555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentify arcs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "Selector",
           "package": "swish",
@@ -8878,6 +9565,7 @@
         "index": {
           "description": "Identify arcs",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "Selector",
           "package": "swish",
@@ -8892,6 +9580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted to a RDF Label.\n\u003c/p\u003e\u003cp\u003eThe String instance converts to an untyped literal\n(so no language tag is assumed).\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eDay\u003c/a\u003e\u003c/code\u003e instances assume values are in UTC.\n\u003c/p\u003e\u003cp\u003eThe conversion for XSD types attempts to use the\ncanonical form described in section 2.3.1 of\n\u003ca\u003ehttp://www.w3.org/TR/2004/REC-xmlschema-2-20041028/#lexical-space\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eNote that this is similar to\n\u003ccode\u003e\u003ca\u003etoRDFLabel\u003c/a\u003e\u003c/code\u003e;\nthe code should probably be combined at some point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "ToRDFLabel",
           "package": "swish",
@@ -8901,6 +9590,7 @@
         "index": {
           "description": "type that can be converted to RDF Label The String instance converts to an untyped literal so no language tag is assumed The UTCTime and Day instances assume values are in UTC The conversion for XSD types attempts to use the canonical form described in section of http www.w3.org TR REC-xmlschema-2-20041028 lexical-space Note that this is similar to toRDFLabel the code should probably be combined at some point",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "ToRDFLabel",
           "package": "swish",
@@ -8915,6 +9605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblank node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "Blank",
           "package": "swish",
@@ -8925,6 +9616,7 @@
         "index": {
           "description": "blank node",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "Blank",
           "package": "swish",
@@ -8938,6 +9630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "Formula",
           "package": "swish",
@@ -8947,6 +9640,7 @@
         },
         "index": {
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "Formula",
           "package": "swish",
@@ -8961,6 +9655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplain literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "LangLit",
           "package": "swish",
@@ -8971,6 +9666,7 @@
         "index": {
           "description": "plain literal",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "LangLit",
           "package": "swish",
@@ -8985,6 +9681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplain literal (\u003ca\u003ehttp://www.w3.org/TR/rdf-concepts/#dfn-plain-literal\u003c/a\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "Lit",
           "package": "swish",
@@ -8995,6 +9692,7 @@
         "index": {
           "description": "plain literal http www.w3.org TR rdf-concepts dfn-plain-literal",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "Lit",
           "package": "swish",
@@ -9008,6 +9706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "NSGraph",
           "package": "swish",
@@ -9017,6 +9716,7 @@
         },
         "index": {
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "NSGraph",
           "package": "swish",
@@ -9031,6 +9731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eno node  (not used in ordinary graphs)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "NoNode",
           "package": "swish",
@@ -9041,6 +9742,7 @@
         "index": {
           "description": "no node not used in ordinary graphs",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "NoNode",
           "package": "swish",
@@ -9055,6 +9757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eresource\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "Res",
           "package": "swish",
@@ -9065,6 +9768,7 @@
         "index": {
           "description": "resource",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "Res",
           "package": "swish",
@@ -9079,6 +9783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etyped literal (\u003ca\u003ehttp://www.w3.org/TR/rdf-concepts/#dfn-typed-literal\u003c/a\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "TypedLit",
           "package": "swish",
@@ -9089,6 +9794,7 @@
         "index": {
           "description": "typed literal http www.w3.org TR rdf-concepts dfn-typed-literal",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "TypedLit",
           "package": "swish",
@@ -9103,6 +9809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable (not used in ordinary graphs)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "Var",
           "package": "swish",
@@ -9113,6 +9820,7 @@
         "index": {
           "description": "variable not used in ordinary graphs",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "Var",
           "package": "swish",
@@ -9127,6 +9835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an arc to the graph. It does not relabel any blank nodes in the input arc,\nnor does it change the namespace map, \nbut it does ensure that the arc is unknown before adding it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "addArc",
           "package": "swish",
@@ -9137,6 +9846,7 @@
         "index": {
           "description": "Add an arc to the graph It does not relabel any blank nodes in the input arc nor does it change the namespace map but it does ensure that the arc is unknown before adding it",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "addArc",
           "normalized": "Arc a-\u003eNSGraph a-\u003eNSGraph a",
@@ -9153,6 +9863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the two graphs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "addGraphs",
           "package": "swish",
@@ -9163,6 +9874,7 @@
         "index": {
           "description": "Add the two graphs",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "addGraphs",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -9179,6 +9891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn list of all labels (including properties) in the graph\n  satisfying a supplied filter predicate. This routine\n  includes the labels in any formulae.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "allLabels",
           "package": "swish",
@@ -9189,6 +9902,7 @@
         "index": {
           "description": "Return list of all labels including properties in the graph satisfying supplied filter predicate This routine includes the labels in any formulae",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "allLabels",
           "normalized": "(a-\u003eBool)-\u003eNSGraph a-\u003eSet a",
@@ -9205,6 +9919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn list of all subjects and objects in the graph\n  satisfying a supplied filter predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "allNodes",
           "package": "swish",
@@ -9215,6 +9930,7 @@
         "index": {
           "description": "Return list of all subjects and objects in the graph satisfying supplied filter predicate",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "allNodes",
           "normalized": "(a-\u003eBool)-\u003eNSGraph a-\u003eSet a",
@@ -9231,6 +9947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove those arcs in the first graph from the second\n graph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "delete",
           "package": "swish",
@@ -9241,6 +9958,7 @@
         "index": {
           "description": "Remove those arcs in the first graph from the second graph",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "delete",
           "package": "swish",
@@ -9254,6 +9972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an empty formula map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "emptyFormulaMap",
           "package": "swish",
@@ -9264,6 +9983,7 @@
         "index": {
           "description": "Create an empty formula map",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "emptyFormulaMap",
           "package": "swish",
@@ -9278,6 +9998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate the empty graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "emptyGraph",
           "package": "swish",
@@ -9288,6 +10009,7 @@
         "index": {
           "description": "Create the empty graph",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "emptyGraph",
           "package": "swish",
@@ -9302,6 +10024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an empty namespace map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "emptyNamespaceMap",
           "package": "swish",
@@ -9312,6 +10035,7 @@
         "index": {
           "description": "Create an empty namespace map",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "emptyNamespaceMap",
           "package": "swish",
@@ -9326,6 +10050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new, empty RDF graph (it is just \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "emptyRDFGraph",
           "package": "swish",
@@ -9336,6 +10061,7 @@
         "index": {
           "description": "Create new empty RDF graph it is just mempty",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "emptyRDFGraph",
           "package": "swish",
@@ -9350,6 +10076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract those arcs that match the given \u003ccode\u003e\u003ca\u003eSelector\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "extract",
           "package": "swish",
@@ -9360,6 +10087,7 @@
         "index": {
           "description": "Extract those arcs that match the given Selector",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "extract",
           "normalized": "Selector a-\u003eb a-\u003eb a",
@@ -9375,6 +10103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eNSGraph\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "fmapNSGraph",
           "package": "swish",
@@ -9385,6 +10114,7 @@
         "index": {
           "description": "fmap for NSGraph instances",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "fmapNSGraph",
           "normalized": "(a-\u003ea)-\u003eNSGraph a-\u003eNSGraph a",
@@ -9401,6 +10131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe contents of the formula\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "formGraph",
           "package": "swish",
@@ -9411,6 +10142,7 @@
         "index": {
           "description": "The contents of the formula",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "formGraph",
           "package": "swish",
@@ -9425,6 +10157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe label for the formula\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "formLabel",
           "package": "swish",
@@ -9435,6 +10168,7 @@
         "index": {
           "description": "The label for the formula",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "formLabel",
           "package": "swish",
@@ -9449,6 +10183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eany associated formulae \n   (a.k.a. sub- or named- graps)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "formulae",
           "package": "swish",
@@ -9459,6 +10194,7 @@
         "index": {
           "description": "any associated formulae a.k.a sub or named graps",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "formulae",
           "package": "swish",
@@ -9471,6 +10207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "fromRDFLabel",
           "package": "swish",
@@ -9480,6 +10217,7 @@
         },
         "index": {
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "fromRDFLabel",
           "normalized": "RDFLabel-\u003eMaybe a",
@@ -9496,6 +10234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the contents of a RDF triple.\n\u003c/p\u003e\u003cp\u003eSee also \u003ccode\u003eSwish.RDF.GraphClass.arcToTriple\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "fromRDFTriple",
           "package": "swish",
@@ -9505,6 +10244,7 @@
         "index": {
           "description": "Extract the contents of RDF triple See also Swish.RDF.GraphClass.arcToTriple",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "fromRDFTriple",
           "normalized": "RDFTriple-\u003eMaybe(a,b,c)",
@@ -9521,6 +10261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract all the arcs from a graph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "getArcs",
           "package": "swish",
@@ -9531,6 +10272,7 @@
         "index": {
           "description": "Extract all the arcs from graph",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "getArcs",
           "normalized": "a b-\u003eArcSet b",
@@ -9547,6 +10289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a formula in the graph, if it exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "getFormula",
           "package": "swish",
@@ -9557,6 +10300,7 @@
         "index": {
           "description": "Find formula in the graph if it exists",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "getFormula",
           "normalized": "NSGraph a-\u003ea-\u003eMaybe(NSGraph a)",
@@ -9573,6 +10317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the formulae in the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "getFormulae",
           "package": "swish",
@@ -9583,6 +10328,7 @@
         "index": {
           "description": "Retrieve the formulae in the graph",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "getFormulae",
           "normalized": "NSGraph a-\u003eFormulaMap a",
@@ -9599,6 +10345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract text value from a literal node (including the\n Language and Typed variants). The empty string is returned\n for other nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "getLiteralText",
           "package": "swish",
@@ -9609,6 +10356,7 @@
         "index": {
           "description": "Extract text value from literal node including the Language and Typed variants The empty string is returned for other nodes",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "getLiteralText",
           "normalized": "RDFLabel-\u003eText",
@@ -9625,6 +10373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the local id from a variable node.                 \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "getLocal",
           "package": "swish",
@@ -9635,6 +10384,7 @@
         "index": {
           "description": "Extract the local id from variable node",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "getLocal",
           "normalized": "a-\u003eString",
@@ -9651,6 +10401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the namespace map in the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "getNamespaces",
           "package": "swish",
@@ -9661,6 +10412,7 @@
         "index": {
           "description": "Retrieve the namespace map in the graph",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "getNamespaces",
           "normalized": "NSGraph a-\u003eNamespaceMap",
@@ -9677,6 +10429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the ScopedName value from a resource node (\u003ccode\u003e\u003ca\u003enullScopedName\u003c/a\u003e\u003c/code\u003e\n is returned for non-resource nodes).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "getScopedName",
           "package": "swish",
@@ -9687,6 +10440,7 @@
         "index": {
           "description": "Extract the ScopedName value from resource node nullScopedName is returned for non-resource nodes",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "getScopedName",
           "normalized": "RDFLabel-\u003eScopedName",
@@ -9703,6 +10457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraph equality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "grEq",
           "package": "swish",
@@ -9713,6 +10468,7 @@
         "index": {
           "description": "Graph equality",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "grEq",
           "normalized": "NSGraph a-\u003eNSGraph a-\u003eBool",
@@ -9729,6 +10485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch graphs, returning \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if they are equivalent,\n with a map of labels to equivalence class identifiers\n (see \u003ccode\u003e\u003ca\u003egraphMatch\u003c/a\u003e\u003c/code\u003e for further details).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "grMatchMap",
           "package": "swish",
@@ -9739,6 +10496,7 @@
         "index": {
           "description": "Match graphs returning True if they are equivalent with map of labels to equivalence class identifiers see graphMatch for further details",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "grMatchMap",
           "normalized": "NSGraph a-\u003eNSGraph a-\u003e(Bool,LabelMap(ScopedLabel a))",
@@ -9755,6 +10513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if supplied labal is a blank node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "isBlank",
           "package": "swish",
@@ -9765,6 +10524,7 @@
         "index": {
           "description": "Test if supplied labal is blank node",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "isBlank",
           "normalized": "RDFLabel-\u003eBool",
@@ -9781,6 +10541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if supplied label is a typed literal node of a given datatype\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "isDatatyped",
           "package": "swish",
@@ -9791,6 +10552,7 @@
         "index": {
           "description": "Test if supplied label is typed literal node of given datatype",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "isDatatyped",
           "normalized": "ScopedName-\u003eRDFLabel-\u003eBool",
@@ -9807,6 +10569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if supplied labal is a literal node\n (\u003ccode\u003e\u003ca\u003eLit\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eLangLit\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003eTypedLit\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "isLiteral",
           "package": "swish",
@@ -9817,6 +10580,7 @@
         "index": {
           "description": "Test if supplied labal is literal node Lit LangLit or TypedLit",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "isLiteral",
           "normalized": "RDFLabel-\u003eBool",
@@ -9833,6 +10597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if supplied label is a container membership property\n\u003c/p\u003e\u003cp\u003eCheck for namespace is RDF namespace and\n  first character of local name is '_' and\n  remaining characters of local name are all digits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "isMemberProp",
           "package": "swish",
@@ -9843,6 +10608,7 @@
         "index": {
           "description": "Test if supplied label is container membership property Check for namespace is RDF namespace and first character of local name is and remaining characters of local name are all digits",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "isMemberProp",
           "normalized": "RDFLabel-\u003eBool",
@@ -9859,6 +10625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if supplied labal is a query variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "isQueryVar",
           "package": "swish",
@@ -9869,6 +10636,7 @@
         "index": {
           "description": "Test if supplied labal is query variable",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "isQueryVar",
           "normalized": "RDFLabel-\u003eBool",
@@ -9885,6 +10653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if supplied labal is a typed literal node (\u003ccode\u003e\u003ca\u003eTypedLit\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "isTypedLiteral",
           "package": "swish",
@@ -9895,6 +10664,7 @@
         "index": {
           "description": "Test if supplied labal is typed literal node TypedLit",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "isTypedLiteral",
           "normalized": "RDFLabel-\u003eBool",
@@ -9911,6 +10681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if supplied labal is an untyped literal node (either\n \u003ccode\u003e\u003ca\u003eLit\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eLangLit\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "isUntypedLiteral",
           "package": "swish",
@@ -9921,6 +10692,7 @@
         "index": {
           "description": "Test if supplied labal is an untyped literal node either Lit or LangLit",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "isUntypedLiteral",
           "normalized": "RDFLabel-\u003eBool",
@@ -9937,6 +10709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if supplied labal is a URI resource node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "isUri",
           "package": "swish",
@@ -9947,6 +10720,7 @@
         "index": {
           "description": "Test if supplied labal is URI resource node",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "isUri",
           "normalized": "RDFLabel-\u003eBool",
@@ -9963,6 +10737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if supplied labal is a XML literal node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "isXMLLiteral",
           "package": "swish",
@@ -9973,6 +10748,7 @@
         "index": {
           "description": "Test if supplied labal is XML literal node",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "isXMLLiteral",
           "normalized": "RDFLabel-\u003eBool",
@@ -9989,6 +10765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the hash of the label using the supplied seed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "labelHash",
           "package": "swish",
@@ -9999,6 +10776,7 @@
         "index": {
           "description": "Calculate the hash of the label using the supplied seed",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "labelHash",
           "normalized": "Int-\u003ea-\u003eInt",
@@ -10015,6 +10793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes this node have a variable binding?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "labelIsVar",
           "package": "swish",
@@ -10025,6 +10804,7 @@
         "index": {
           "description": "Does this node have variable binding",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "labelIsVar",
           "normalized": "a-\u003eBool",
@@ -10041,6 +10821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate the distinct labels contained in a graph;\n that is, any label that appears in the subject,\n predicate or object position of an \u003ccode\u003e\u003ca\u003eArc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "labels",
           "package": "swish",
@@ -10051,6 +10832,7 @@
         "index": {
           "description": "Enumerate the distinct labels contained in graph that is any label that appears in the subject predicate or object position of an Arc",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "labels",
           "normalized": "a b-\u003eSet b",
@@ -10066,6 +10848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a blank node from a supplied query variable,\n  or return the supplied label unchanged.\n  (Use this in when substituting an existential for an\n  unsubstituted query variable.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "makeBlank",
           "package": "swish",
@@ -10076,6 +10859,7 @@
         "index": {
           "description": "Make blank node from supplied query variable or return the supplied label unchanged Use this in when substituting an existential for an unsubstituted query variable",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "makeBlank",
           "normalized": "RDFLabel-\u003eRDFLabel",
@@ -10092,6 +10876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a label value from a local id.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "makeLabel",
           "package": "swish",
@@ -10102,6 +10887,7 @@
         "index": {
           "description": "Make label value from local id",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "makeLabel",
           "normalized": "String-\u003ea",
@@ -10118,6 +10904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a list of (oldnode,newnode) values to be used for\n  graph label remapping.  The function operates recursively, adding\n  new nodes generated to the accumulator and also to the\n  list of nodes to be avoided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "maplist",
           "package": "swish",
@@ -10127,6 +10914,7 @@
         "index": {
           "description": "Construct list of oldnode newnode values to be used for graph label remapping The function operates recursively adding new nodes generated to the accumulator and also to the list of nodes to be avoided",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "maplist",
           "normalized": "[a]-\u003e[a]-\u003e(a-\u003ea)-\u003e[(a,a)]-\u003e[(a,a)]",
@@ -10142,6 +10930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemap a single graph node.\n\u003c/p\u003e\u003cp\u003eIf the node is not one of those to be remapped,\n  the supplied value is returned unchanged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "mapnode",
           "package": "swish",
@@ -10152,6 +10941,7 @@
         "index": {
           "description": "Remap single graph node If the node is not one of those to be remapped the supplied value is returned unchanged",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "mapnode",
           "normalized": "[a]-\u003e[a]-\u003e(a-\u003ea)-\u003ea-\u003ea",
@@ -10167,6 +10957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge RDF graphs, renaming blank and query variable nodes as\n  needed to neep variable nodes from the two graphs distinct in\n  the resulting graph.\n\u003c/p\u003e\u003cp\u003eCurrently formulae are not guaranteed to be preserved across a\n  merge.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "merge",
           "package": "swish",
@@ -10177,6 +10968,7 @@
         "index": {
           "description": "Merge RDF graphs renaming blank and query variable nodes as needed to neep variable nodes from the two graphs distinct in the resulting graph Currently formulae are not guaranteed to be preserved across merge",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "merge",
           "normalized": "NSGraph a-\u003eNSGraph a-\u003eNSGraph a",
@@ -10192,6 +10984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe namespaces to use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "namespaces",
           "package": "swish",
@@ -10202,6 +10995,7 @@
         "index": {
           "description": "the namespaces to use",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "namespaces",
           "package": "swish",
@@ -10215,6 +11009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a node and a list of existing nodes, find a new node for\n  the supplied node that does not clash with any existing node.\n  (Generates an non-terminating list of possible replacements, and\n  picks the first one that isn't already in use.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "newNode",
           "package": "swish",
@@ -10225,6 +11020,7 @@
         "index": {
           "description": "Given node and list of existing nodes find new node for the supplied node that does not clash with any existing node Generates an non-terminating list of possible replacements and picks the first one that isn already in use",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "newNode",
           "normalized": "a-\u003e[a]-\u003ea",
@@ -10241,6 +11037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a node and a list of existing nodes, generate a list of new\n  nodes for the supplied node that do not clash with any existing node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "newNodes",
           "package": "swish",
@@ -10251,6 +11048,7 @@
         "index": {
           "description": "Given node and list of existing nodes generate list of new nodes for the supplied node that do not clash with any existing node",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "newNodes",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -10267,6 +11065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate the distinct nodes contained in a graph;\n that is, any label that appears in the subject\n or object position of an \u003ccode\u003e\u003ca\u003eArc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "nodes",
           "package": "swish",
@@ -10277,6 +11076,7 @@
         "index": {
           "description": "Enumerate the distinct nodes contained in graph that is any label that appears in the subject or object position of an Arc",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "nodes",
           "normalized": "a b-\u003eSet b",
@@ -10292,6 +11092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurtle-style quoting rules for a string.\n\u003c/p\u003e\u003cp\u003eAt present the choice is between using one or three\n   double quote (\u003ccode\u003e\"\u003c/code\u003e) characters to surround the string; i.e. using\n   single quote (\u003ccode\u003e'\u003c/code\u003e)  characters is not supported.\n\u003c/p\u003e\u003cp\u003eAs of Swish 0.9.0.6, the \u003ccode\u003e\\f\u003c/code\u003e character is converted to\n   \u003ccode\u003e\\u000C\u003c/code\u003e rather than left as is to aid interoperability\n   with some other tools.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "quote",
           "package": "swish",
@@ -10301,6 +11102,7 @@
         "index": {
           "description": "Turtle-style quoting rules for string At present the choice is between using one or three double quote characters to surround the string i.e using single quote characters is not supported As of Swish the character is converted to u000C rather than left as is to aid interoperability with some other tools",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "quote",
           "normalized": "Bool-\u003eString-\u003eString",
@@ -10316,6 +11118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003equote\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "quoteT",
           "package": "swish",
@@ -10326,6 +11129,7 @@
         "index": {
           "description": "See quote",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "quoteT",
           "normalized": "Bool-\u003eText-\u003eText",
@@ -10341,6 +11145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternally callable function to construct a list of (old,new)\n  values to be used for graph label remapping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "remapLabelList",
           "package": "swish",
@@ -10350,6 +11155,7 @@
         "index": {
           "description": "Externally callable function to construct list of old new values to be used for graph label remapping",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "remapLabelList",
           "normalized": "[a]-\u003e[a]-\u003e[(a,a)]",
@@ -10366,6 +11172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemap selected nodes in graph.\n\u003c/p\u003e\u003cp\u003eThis is the node renaming operation that prevents graph-scoped\n  variable nodes from being merged when two graphs are merged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "remapLabels",
           "package": "swish",
@@ -10375,6 +11182,7 @@
         "index": {
           "description": "Remap selected nodes in graph This is the node renaming operation that prevents graph-scoped variable nodes from being merged when two graphs are merged",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "remapLabels",
           "normalized": "[a]-\u003e[a]-\u003e(a-\u003ea)-\u003eNSGraph a-\u003eNSGraph a",
@@ -10391,6 +11199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elog:implies\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resLogImplies",
           "package": "swish",
@@ -10401,6 +11210,7 @@
         "index": {
           "description": "log implies",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resLogImplies",
           "package": "swish",
@@ -10415,6 +11225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eowl:sameAs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resOwlSameAs",
           "package": "swish",
@@ -10425,6 +11236,7 @@
         "index": {
           "description": "owl sameAs",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resOwlSameAs",
           "package": "swish",
@@ -10439,6 +11251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:_1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdf1",
           "package": "swish",
@@ -10449,6 +11262,7 @@
         "index": {
           "description": "rdf",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdf1",
           "package": "swish",
@@ -10463,6 +11277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:_2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdf2",
           "package": "swish",
@@ -10473,6 +11288,7 @@
         "index": {
           "description": "rdf",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdf2",
           "package": "swish",
@@ -10487,6 +11303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:about\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfAbout",
           "package": "swish",
@@ -10497,6 +11314,7 @@
         "index": {
           "description": "rdf about",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfAbout",
           "package": "swish",
@@ -10511,6 +11329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:Alt\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_alt\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfAlt",
           "package": "swish",
@@ -10521,6 +11340,7 @@
         "index": {
           "description": "rdf Alt from http www.w3.org TR rdf-schema ch alt",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfAlt",
           "package": "swish",
@@ -10535,6 +11355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:Bag\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_bag\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfBag",
           "package": "swish",
@@ -10545,6 +11366,7 @@
         "index": {
           "description": "rdf Bag from http www.w3.org TR rdf-schema ch bag",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfBag",
           "package": "swish",
@@ -10559,6 +11381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:datatype\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfDatatype",
           "package": "swish",
@@ -10569,6 +11392,7 @@
         "index": {
           "description": "rdf datatype",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfDatatype",
           "package": "swish",
@@ -10583,6 +11407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:Description\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfDescription",
           "package": "swish",
@@ -10593,6 +11418,7 @@
         "index": {
           "description": "rdf Description",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfDescription",
           "package": "swish",
@@ -10607,6 +11433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:first\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_first\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfFirst",
           "package": "swish",
@@ -10617,6 +11444,7 @@
         "index": {
           "description": "rdf first from http www.w3.org TR rdf-schema ch first",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfFirst",
           "package": "swish",
@@ -10631,6 +11459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:ID\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfID",
           "package": "swish",
@@ -10641,6 +11470,7 @@
         "index": {
           "description": "rdf ID",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfID",
           "package": "swish",
@@ -10655,6 +11485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:li\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfLi",
           "package": "swish",
@@ -10665,6 +11496,7 @@
         "index": {
           "description": "rdf li",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfLi",
           "package": "swish",
@@ -10679,6 +11511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:List\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_list\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfList",
           "package": "swish",
@@ -10689,6 +11522,7 @@
         "index": {
           "description": "rdf List from http www.w3.org TR rdf-schema ch list",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfList",
           "package": "swish",
@@ -10703,6 +11537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:nil\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_nil\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfNil",
           "package": "swish",
@@ -10713,6 +11548,7 @@
         "index": {
           "description": "rdf nil from http www.w3.org TR rdf-schema ch nil",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfNil",
           "package": "swish",
@@ -10727,6 +11563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:nodeID\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfNodeID",
           "package": "swish",
@@ -10737,6 +11574,7 @@
         "index": {
           "description": "rdf nodeID",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfNodeID",
           "package": "swish",
@@ -10751,6 +11589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:object\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_object\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfObject",
           "package": "swish",
@@ -10761,6 +11600,7 @@
         "index": {
           "description": "rdf object from http www.w3.org TR rdf-schema ch object",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfObject",
           "package": "swish",
@@ -10775,6 +11615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:parseType\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfParseType",
           "package": "swish",
@@ -10785,6 +11626,7 @@
         "index": {
           "description": "rdf parseType",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfParseType",
           "package": "swish",
@@ -10799,6 +11641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:predicate\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_predicate\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfPredicate",
           "package": "swish",
@@ -10809,6 +11652,7 @@
         "index": {
           "description": "rdf predicate from http www.w3.org TR rdf-schema ch predicate",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfPredicate",
           "package": "swish",
@@ -10823,6 +11667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:Property\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_property\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfProperty",
           "package": "swish",
@@ -10833,6 +11678,7 @@
         "index": {
           "description": "rdf Property from http www.w3.org TR rdf-schema ch property",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfProperty",
           "package": "swish",
@@ -10847,6 +11693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:RDF\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfRDF",
           "package": "swish",
@@ -10857,6 +11704,7 @@
         "index": {
           "description": "rdf RDF",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfRDF",
           "package": "swish",
@@ -10871,6 +11719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:resource\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfResource",
           "package": "swish",
@@ -10881,6 +11730,7 @@
         "index": {
           "description": "rdf resource",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfResource",
           "package": "swish",
@@ -10895,6 +11745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:rest\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_rest\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfRest",
           "package": "swish",
@@ -10905,6 +11756,7 @@
         "index": {
           "description": "rdf rest from http www.w3.org TR rdf-schema ch rest",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfRest",
           "package": "swish",
@@ -10919,6 +11771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:Seq\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_seq\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfSeq",
           "package": "swish",
@@ -10929,6 +11782,7 @@
         "index": {
           "description": "rdf Seq from http www.w3.org TR rdf-schema ch seq",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfSeq",
           "package": "swish",
@@ -10943,6 +11797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:Statement\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_statement\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfStatement",
           "package": "swish",
@@ -10953,6 +11808,7 @@
         "index": {
           "description": "rdf Statement from http www.w3.org TR rdf-schema ch statement",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfStatement",
           "package": "swish",
@@ -10967,6 +11823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:subject\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_subject\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfSubject",
           "package": "swish",
@@ -10977,6 +11834,7 @@
         "index": {
           "description": "rdf subject from http www.w3.org TR rdf-schema ch subject",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfSubject",
           "package": "swish",
@@ -10991,6 +11849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:type\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_type\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfType",
           "package": "swish",
@@ -11001,6 +11860,7 @@
         "index": {
           "description": "rdf type from http www.w3.org TR rdf-schema ch type",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfType",
           "package": "swish",
@@ -11015,6 +11875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:value\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_value\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfValue",
           "package": "swish",
@@ -11025,6 +11886,7 @@
         "index": {
           "description": "rdf value from http www.w3.org TR rdf-schema ch value",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfValue",
           "package": "swish",
@@ -11039,6 +11901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:XMLLiteral\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_xmlliteral\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfXMLLiteral",
           "package": "swish",
@@ -11049,6 +11912,7 @@
         "index": {
           "description": "rdf XMLLiteral from http www.w3.org TR rdf-schema ch xmlliteral",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfXMLLiteral",
           "package": "swish",
@@ -11063,6 +11927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfd:constraint\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfdConstraint",
           "package": "swish",
@@ -11073,6 +11938,7 @@
         "index": {
           "description": "rdfd constraint",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfdConstraint",
           "package": "swish",
@@ -11087,6 +11953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfd:GeneralRestriction\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfdGeneralRestriction",
           "package": "swish",
@@ -11097,6 +11964,7 @@
         "index": {
           "description": "rdfd GeneralRestriction",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfdGeneralRestriction",
           "package": "swish",
@@ -11111,6 +11979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfd:maxCardinality\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfdMaxCardinality",
           "package": "swish",
@@ -11121,6 +11990,7 @@
         "index": {
           "description": "rdfd maxCardinality",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfdMaxCardinality",
           "package": "swish",
@@ -11135,6 +12005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfd:onProperties\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfdOnProperties",
           "package": "swish",
@@ -11145,6 +12016,7 @@
         "index": {
           "description": "rdfd onProperties",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfdOnProperties",
           "package": "swish",
@@ -11159,6 +12031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003erdf:_n\u003c/code\u003e entity.\n\u003c/p\u003e\u003cp\u003eThere is no check that the argument is not \u003ccode\u003e0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfn",
           "package": "swish",
@@ -11169,6 +12042,7 @@
         "index": {
           "description": "Create rdf entity There is no check that the argument is not",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfn",
           "normalized": "Word-\u003eRDFLabel",
@@ -11185,6 +12059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:Class\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_class\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsClass",
           "package": "swish",
@@ -11195,6 +12070,7 @@
         "index": {
           "description": "rdfs Class from http www.w3.org TR rdf-schema ch class",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsClass",
           "package": "swish",
@@ -11209,6 +12085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:comment\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_comment\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsComment",
           "package": "swish",
@@ -11219,6 +12096,7 @@
         "index": {
           "description": "rdfs comment from http www.w3.org TR rdf-schema ch comment",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsComment",
           "package": "swish",
@@ -11233,6 +12111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:Container\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_container\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsContainer",
           "package": "swish",
@@ -11243,6 +12122,7 @@
         "index": {
           "description": "rdfs Container from http www.w3.org TR rdf-schema ch container",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsContainer",
           "package": "swish",
@@ -11257,6 +12137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:ContainerMembershipProperty\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_containermembershipproperty\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsContainerMembershipProperty",
           "package": "swish",
@@ -11267,6 +12148,7 @@
         "index": {
           "description": "rdfs ContainerMembershipProperty from http www.w3.org TR rdf-schema ch containermembershipproperty",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsContainerMembershipProperty",
           "package": "swish",
@@ -11281,6 +12163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:Datatype\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_datatype\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsDatatype",
           "package": "swish",
@@ -11291,6 +12174,7 @@
         "index": {
           "description": "rdfs Datatype from http www.w3.org TR rdf-schema ch datatype",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsDatatype",
           "package": "swish",
@@ -11305,6 +12189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:domain\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_domain\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsDomain",
           "package": "swish",
@@ -11315,6 +12200,7 @@
         "index": {
           "description": "rdfs domain from http www.w3.org TR rdf-schema ch domain",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsDomain",
           "package": "swish",
@@ -11329,6 +12215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:isDefinedBy\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_isdefinedby\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsIsDefinedBy",
           "package": "swish",
@@ -11339,6 +12226,7 @@
         "index": {
           "description": "rdfs isDefinedBy from http www.w3.org TR rdf-schema ch isdefinedby",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsIsDefinedBy",
           "package": "swish",
@@ -11353,6 +12241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:label\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_label\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsLabel",
           "package": "swish",
@@ -11363,6 +12252,7 @@
         "index": {
           "description": "rdfs label from http www.w3.org TR rdf-schema ch label",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsLabel",
           "package": "swish",
@@ -11377,6 +12267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:Literal\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_literal\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsLiteral",
           "package": "swish",
@@ -11387,6 +12278,7 @@
         "index": {
           "description": "rdfs Literal from http www.w3.org TR rdf-schema ch literal",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsLiteral",
           "package": "swish",
@@ -11401,6 +12293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:member\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_member\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsMember",
           "package": "swish",
@@ -11411,6 +12304,7 @@
         "index": {
           "description": "rdfs member from http www.w3.org TR rdf-schema ch member",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsMember",
           "package": "swish",
@@ -11425,6 +12319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:range\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_range\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsRange",
           "package": "swish",
@@ -11435,6 +12330,7 @@
         "index": {
           "description": "rdfs range from http www.w3.org TR rdf-schema ch range",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsRange",
           "package": "swish",
@@ -11449,6 +12345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:Resource\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_resource\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsResource",
           "package": "swish",
@@ -11459,6 +12356,7 @@
         "index": {
           "description": "rdfs Resource from http www.w3.org TR rdf-schema ch resource",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsResource",
           "package": "swish",
@@ -11473,6 +12371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:seeAlso\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_seealso\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsSeeAlso",
           "package": "swish",
@@ -11483,6 +12382,7 @@
         "index": {
           "description": "rdfs seeAlso from http www.w3.org TR rdf-schema ch seealso",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsSeeAlso",
           "package": "swish",
@@ -11497,6 +12397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:subClassOf\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_subclassof\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsSubClassOf",
           "package": "swish",
@@ -11507,6 +12408,7 @@
         "index": {
           "description": "rdfs subClassOf from http www.w3.org TR rdf-schema ch subclassof",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsSubClassOf",
           "package": "swish",
@@ -11521,6 +12423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:subPropertyOf\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_subpropertyof\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsSubPropertyOf",
           "package": "swish",
@@ -11531,6 +12434,7 @@
         "index": {
           "description": "rdfs subPropertyOf from http www.w3.org TR rdf-schema ch subpropertyof",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "resRdfsSubPropertyOf",
           "package": "swish",
@@ -11545,6 +12449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the existing arcs in the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "setArcs",
           "package": "swish",
@@ -11555,6 +12460,7 @@
         "index": {
           "description": "Replace the existing arcs in the graph",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "setArcs",
           "normalized": "a b-\u003eArcSet b-\u003ea b",
@@ -11571,6 +12477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd (or replace) a formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "setFormula",
           "package": "swish",
@@ -11581,6 +12488,7 @@
         "index": {
           "description": "Add or replace formula",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "setFormula",
           "normalized": "Formula a-\u003eNSGraph a-\u003eNSGraph a",
@@ -11597,6 +12505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the formulae in the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "setFormulae",
           "package": "swish",
@@ -11607,6 +12516,7 @@
         "index": {
           "description": "Replace the formulae in the graph",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "setFormulae",
           "normalized": "FormulaMap a-\u003eNSGraph a-\u003eNSGraph a",
@@ -11623,6 +12533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the namespace information in the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "setNamespaces",
           "package": "swish",
@@ -11633,6 +12544,7 @@
         "index": {
           "description": "Replace the namespace information in the graph",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "setNamespaces",
           "normalized": "NamespaceMap-\u003eNSGraph a-\u003eNSGraph a",
@@ -11649,6 +12561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe statements in the graph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "statements",
           "package": "swish",
@@ -11659,6 +12572,7 @@
         "index": {
           "description": "the statements in the graph",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "statements",
           "package": "swish",
@@ -11672,6 +12586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new RDF graph from a supplied set of arcs.\n\u003c/p\u003e\u003cp\u003eThis version will attempt to fill up the namespace map\n of the graph based on the input labels (including datatypes\n on literals). For faster\n creation of a graph you can use:\n\u003c/p\u003e\u003cpre\u003e emptyRDFGraph { statements = arcs }\n\u003c/pre\u003e\u003cp\u003ewhich is how this routine was defined in version \u003ccode\u003e0.3.1.1\u003c/code\u003e\n and earlier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "toRDFGraph",
           "package": "swish",
@@ -11682,6 +12597,7 @@
         "index": {
           "description": "Create new RDF graph from supplied set of arcs This version will attempt to fill up the namespace map of the graph based on the input labels including datatypes on literals For faster creation of graph you can use emptyRDFGraph statements arcs which is how this routine was defined in version and earlier",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "toRDFGraph",
           "normalized": "RDFArcSet-\u003eRDFGraph",
@@ -11697,6 +12613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "toRDFLabel",
           "package": "swish",
@@ -11706,6 +12623,7 @@
         },
         "index": {
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "toRDFLabel",
           "normalized": "a-\u003eRDFLabel",
@@ -11722,6 +12640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert 3 RDF labels to a RDF triple.\n\u003c/p\u003e\u003cp\u003eSee also \u003ccode\u003eSwish.RDF.GraphClass.arcFromTriple\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "toRDFTriple",
           "package": "swish",
@@ -11731,6 +12650,7 @@
         "index": {
           "description": "Convert RDF labels to RDF triple See also Swish.RDF.GraphClass.arcFromTriple",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "toRDFTriple",
           "normalized": "a-\u003eb-\u003ec-\u003eRDFTriple",
@@ -11747,6 +12667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etraverse\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eNSGraph\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "traverseNSGraph",
           "package": "swish",
@@ -11757,6 +12678,7 @@
         "index": {
           "description": "traverse for NSGraph instances",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "traverseNSGraph",
           "normalized": "(a-\u003eb a)-\u003eNSGraph a-\u003eb(NSGraph a)",
@@ -11773,6 +12695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the arcs in a graph using a supplied function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Graph",
           "name": "update",
           "package": "swish",
@@ -11783,6 +12706,7 @@
         "index": {
           "description": "Update the arcs in graph using supplied function",
           "hierarchy": "Swish RDF Graph",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Graph",
           "name": "update",
           "normalized": "(ArcSet a-\u003eArcSet a)-\u003eb a-\u003eb a",
@@ -11798,6 +12722,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines a \u003ccode\u003e\u003ca\u003eShowLines\u003c/a\u003e\u003c/code\u003e class instance for \u003ccode\u003e\u003ca\u003eRDFGraph\u003c/a\u003e\u003c/code\u003e, to be\n  used when displaying RDF Graph values as part of a proof sequence,\n  etc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.GraphShowLines",
           "name": "GraphShowLines",
           "package": "swish",
@@ -11807,6 +12732,7 @@
         "index": {
           "description": "This module defines ShowLines class instance for RDFGraph to be used when displaying RDF Graph values as part of proof sequence etc",
           "hierarchy": "Swish RDF GraphShowLines",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.GraphShowLines",
           "name": "GraphShowLines",
           "package": "swish",
@@ -11821,6 +12747,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis Module implements a Notation 3 parser, returning a\n  new \u003ccode\u003e\u003ca\u003eRDFGraph\u003c/a\u003e\u003c/code\u003e consisting of triples and namespace information parsed from\n  the supplied N3 input string, or an error indication.\n\u003c/p\u003e\u003cp\u003eREFERENCES:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \"Notation3 (N3): A readable RDF syntax\",\n      W3C Team Submission 14 January 2008,\n      \u003ca\u003ehttp://www.w3.org/TeamSubmission/2008/SUBM-n3-20080114/\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Tim Berners-Lee's design issues series notes and description,\n      \u003ca\u003ehttp://www.w3.org/DesignIssues/Notation3.html\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Notation 3 Primer by Sean Palmer,\n      \u003ca\u003ehttp://www.w3.org/2000/10/swap/Primer.html\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eNOTES:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The parser needs to be updated to the latest version\n    (\"W3C Team Submission 28 March 2011\",\n    \u003ca\u003ehttp://www.w3.org/TeamSubmission/2011/SUBM-n3-20110328/\u003c/a\u003e)\n\u003c/li\u003e\u003cli\u003e UTF-8 handling is not really tested.\n\u003c/li\u003e\u003cli\u003e No performance testing has been applied.\n\u003c/li\u003e\u003cli\u003e Not all N3 grammar elements are supported, including:\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e@forSome\u003c/code\u003e (we read it in but ignore the arguments)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e@forAll\u003c/code\u003e  (this causes a parse error)\n\u003c/li\u003e\u003cli\u003e formulae are lightly tested\n\u003c/li\u003e\u003cli\u003e string support is incomplete (e.g. unrecognized escape characters\n      such as \u003ccode\u003e\\q\u003c/code\u003e are probably handled incorrectly)\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "N3",
           "package": "swish",
@@ -11830,6 +12757,7 @@
         "index": {
           "description": "This Module implements Notation parser returning new RDFGraph consisting of triples and namespace information parsed from the supplied N3 input string or an error indication REFERENCES Notation3 N3 readable RDF syntax W3C Team Submission January http www.w3.org TeamSubmission SUBM-n3-20080114 Tim Berners-Lee design issues series notes and description http www.w3.org DesignIssues Notation3.html Notation Primer by Sean Palmer http www.w3.org swap Primer.html NOTES The parser needs to be updated to the latest version W3C Team Submission March http www.w3.org TeamSubmission SUBM-n3-20110328 UTF-8 handling is not really tested No performance testing has been applied Not all N3 grammar elements are supported including forSome we read it in but ignore the arguments forAll this causes parse error formulae are lightly tested string support is incomplete e.g unrecognized escape characters such as are probably handled incorrectly",
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "N3",
           "package": "swish",
@@ -11843,6 +12771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe N3 parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "N3Parser",
           "package": "swish",
@@ -11852,6 +12781,7 @@
         "index": {
           "description": "The N3 parser",
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "N3Parser",
           "package": "swish",
@@ -11866,6 +12796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eN3 parser state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "N3State",
           "package": "swish",
@@ -11875,6 +12806,7 @@
         "index": {
           "description": "N3 parser state",
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "N3State",
           "package": "swish",
@@ -11889,6 +12821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a parse, which is either an error message or a graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "ParseResult",
           "package": "swish",
@@ -11898,6 +12831,7 @@
         "index": {
           "description": "The result of parse which is either an error message or graph",
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "ParseResult",
           "package": "swish",
@@ -11912,6 +12846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for special name lookup table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "SpecialMap",
           "package": "swish",
@@ -11921,6 +12856,7 @@
         "index": {
           "description": "Type for special name lookup table",
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "SpecialMap",
           "package": "swish",
@@ -11934,6 +12870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "N3State",
           "package": "swish",
@@ -11943,6 +12880,7 @@
         },
         "index": {
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "N3State",
           "package": "swish",
@@ -11956,6 +12894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "allowLocalNames",
           "package": "swish",
@@ -11965,6 +12904,7 @@
         },
         "index": {
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "allowLocalNames",
           "package": "swish",
@@ -11979,6 +12919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess a N3 document, returning a graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "document",
           "package": "swish",
@@ -11989,6 +12930,7 @@
         "index": {
           "description": "Process N3 document returning graph",
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "document",
           "package": "swish",
@@ -12002,6 +12944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess the remainder of an \u003ccode\u003e@prefix\u003c/code\u003e line (after this\n has been processed). The prefix value and URI are added to the parser\n state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "getPrefix",
           "package": "swish",
@@ -12012,6 +12955,7 @@
         "index": {
           "description": "Process the remainder of an prefix line after this has been processed The prefix value and URI are added to the parser state",
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "getPrefix",
           "normalized": "N Parser()",
@@ -12027,6 +12971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "graphState",
           "package": "swish",
@@ -12036,6 +12981,7 @@
         },
         "index": {
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "graphState",
           "package": "swish",
@@ -12049,6 +12995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "keywordsList",
           "package": "swish",
@@ -12058,6 +13005,7 @@
         },
         "index": {
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "keywordsList",
           "normalized": "[Text]",
@@ -12074,6 +13022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn explicitly given URI followed by white space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "lexUriRef",
           "package": "swish",
@@ -12084,6 +13033,7 @@
         "index": {
           "description": "An explicitly given URI followed by white space",
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "lexUriRef",
           "package": "swish",
@@ -12098,6 +13048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a N3 symbol (an explicit URI or a QName)\n and convert it to a \u003ccode\u003e\u003ca\u003eScopedName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "n3symbol",
           "package": "swish",
@@ -12108,6 +13059,7 @@
         "index": {
           "description": "Match N3 symbol an explicit URI or QName and convert it to ScopedName",
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "n3symbol",
           "package": "swish",
@@ -12121,6 +13073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new blank node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "newBlankNode",
           "package": "swish",
@@ -12131,6 +13084,7 @@
         "index": {
           "description": "Create new blank node",
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "newBlankNode",
           "package": "swish",
@@ -12144,6 +13098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "nodeGen",
           "package": "swish",
@@ -12153,6 +13108,7 @@
         },
         "index": {
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "nodeGen",
           "package": "swish",
@@ -12167,6 +13123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in testing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "parseAbsURIrefFromText",
           "package": "swish",
@@ -12177,6 +13134,7 @@
         "index": {
           "description": "Used in testing",
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "parseAbsURIrefFromText",
           "normalized": "Text-\u003eEither String URI",
@@ -12193,6 +13151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in testing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "parseAltFromText",
           "package": "swish",
@@ -12203,6 +13162,7 @@
         "index": {
           "description": "Used in testing",
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "parseAltFromText",
           "normalized": "String-\u003eString-\u003eText-\u003eEither String String",
@@ -12219,6 +13179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to supply initial context and parse supplied term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "parseAnyfromText",
           "package": "swish",
@@ -12228,6 +13189,7 @@
         "index": {
           "description": "Function to supply initial context and parse supplied term",
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "parseAnyfromText",
           "normalized": "N Parser a-\u003eMaybe QName-\u003eText-\u003eEither String a",
@@ -12244,6 +13206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in testing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "parseLexURIrefFromText",
           "package": "swish",
@@ -12254,6 +13217,7 @@
         "index": {
           "description": "Used in testing",
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "parseLexURIrefFromText",
           "normalized": "Text-\u003eEither String URI",
@@ -12270,6 +13234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a string with an optional base URI.\n\u003c/p\u003e\u003cp\u003eSee also \u003ccode\u003eparseN3fromString\u003c/code\u003e.            \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "parseN3",
           "package": "swish",
@@ -12279,6 +13244,7 @@
         "index": {
           "description": "Parse string with an optional base URI See also parseN3fromString",
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "parseN3",
           "normalized": "Text-\u003eMaybe QName-\u003eParseResult",
@@ -12294,6 +13260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a string as N3 (with no real base URI).\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eparseN3\u003c/a\u003e\u003c/code\u003e if you need to provide a base URI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "parseN3fromText",
           "package": "swish",
@@ -12303,6 +13270,7 @@
         "index": {
           "description": "Parse string as N3 with no real base URI See parseN3 if you need to provide base URI",
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "parseN3fromText",
           "normalized": "Text-\u003eParseResult",
@@ -12319,6 +13287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in testing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "parseNameFromText",
           "package": "swish",
@@ -12329,6 +13298,7 @@
         "index": {
           "description": "Used in testing",
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "parseNameFromText",
           "normalized": "Text-\u003eEither String String",
@@ -12345,6 +13315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in testing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "parseTextFromText",
           "package": "swish",
@@ -12355,6 +13326,7 @@
         "index": {
           "description": "Used in testing",
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "parseTextFromText",
           "normalized": "String-\u003eText-\u003eEither String String",
@@ -12371,6 +13343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed in testing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "parseURIref2FromText",
           "package": "swish",
@@ -12381,6 +13354,7 @@
         "index": {
           "description": "Used in testing",
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "parseURIref2FromText",
           "normalized": "Text-\u003eEither String ScopedName",
@@ -12396,6 +13370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "prefixUris",
           "package": "swish",
@@ -12405,6 +13380,7 @@
         },
         "index": {
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "prefixUris",
           "package": "swish",
@@ -12419,6 +13395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch \u003ccode\u003e?\u003ca\u003ename\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "quickVariable",
           "package": "swish",
@@ -12429,6 +13406,7 @@
         "index": {
           "description": "Match name",
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "quickVariable",
           "package": "swish",
@@ -12443,6 +13421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess a sub graph and assign it to the given label.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "subgraph",
           "package": "swish",
@@ -12453,6 +13432,7 @@
         "index": {
           "description": "Process sub graph and assign it to the given label",
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "subgraph",
           "normalized": "RDFLabel-\u003eN Parser RDFGraph",
@@ -12467,6 +13447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "syntaxUris",
           "package": "swish",
@@ -12476,6 +13457,7 @@
         },
         "index": {
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "syntaxUris",
           "package": "swish",
@@ -12489,6 +13471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.N3",
           "name": "thisNode",
           "package": "swish",
@@ -12498,6 +13481,7 @@
         },
         "index": {
           "hierarchy": "Swish RDF Parser N3",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.N3",
           "name": "thisNode",
           "package": "swish",
@@ -12512,6 +13496,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis Module implements a NTriples parser, returning a\n  new \u003ccode\u003e\u003ca\u003eRDFGraph\u003c/a\u003e\u003c/code\u003e consisting of triples and namespace information parsed from\n  the supplied NTriples input string, or an error indication.\n\u003c/p\u003e\u003cp\u003eREFERENCES:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \"RDF Test Cases\",\n    W3C Recommendation 10 February 2004,\n    \u003ca\u003ehttp://www.w3.org/TR/rdf-testcases/#ntriples\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eNOTES:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e If the URI is actually an IRI (Internationalized Resource Identifiers)\n    then the parser will fail since \u003ccode\u003e\u003ca\u003eparseURI\u003c/a\u003e\u003c/code\u003e fails.\n\u003c/li\u003e\u003cli\u003e The case of language tags is retained.\n\u003c/li\u003e\u003cli\u003e Update to the document \"N-Triples. A line-based syntax for an RDF graph\"\n    W3C Working Group Note 09 April 2013,\n    \u003ca\u003ehttp://www.w3.org/TR/2013/NOTE-n-triples-20130409/\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.NTriples",
           "name": "NTriples",
           "package": "swish",
@@ -12521,6 +13506,7 @@
         "index": {
           "description": "This Module implements NTriples parser returning new RDFGraph consisting of triples and namespace information parsed from the supplied NTriples input string or an error indication REFERENCES RDF Test Cases W3C Recommendation February http www.w3.org TR rdf-testcases ntriples NOTES If the URI is actually an IRI Internationalized Resource Identifiers then the parser will fail since parseURI fails The case of language tags is retained Update to the document N-Triples line-based syntax for an RDF graph W3C Working Group Note April http www.w3.org TR NOTE-n-triples-20130409",
           "hierarchy": "Swish RDF Parser NTriples",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.NTriples",
           "name": "NTriples",
           "package": "swish",
@@ -12535,6 +13521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a parse, which is either an error message or a graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.NTriples",
           "name": "ParseResult",
           "package": "swish",
@@ -12544,6 +13531,7 @@
         "index": {
           "description": "The result of parse which is either an error message or graph",
           "hierarchy": "Swish RDF Parser NTriples",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.NTriples",
           "name": "ParseResult",
           "package": "swish",
@@ -12558,6 +13546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.NTriples",
           "name": "parseNT",
           "package": "swish",
@@ -12567,6 +13556,7 @@
         "index": {
           "description": "Parse string",
           "hierarchy": "Swish RDF Parser NTriples",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.NTriples",
           "name": "parseNT",
           "normalized": "Text-\u003eParseResult",
@@ -12583,6 +13573,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis Module implements a Turtle parser, returning a\n  new \u003ccode\u003e\u003ca\u003eRDFGraph\u003c/a\u003e\u003c/code\u003e consisting of triples and namespace information parsed from\n  the supplied input string, or an error indication.\n\u003c/p\u003e\u003cp\u003eREFERENCES:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \"Turtle, Terse RDF Triple Language\",\n    W3C Candidate Recommendation 19 February 2013 (\u003chttp:\u003cem/\u003ewww.w3.org\u003cem\u003eTR\u003c/em\u003e2013\u003cem\u003eCR-turtle-20130219\u003c/em\u003eL),\n    \u003ca\u003ehttp://www.w3.org/TR/turtle/\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eNOTES:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Prior to version \u003ccode\u003e0.9.0.4\u003c/code\u003e, the parser followed the\n    W3C Working Draft 09 August 2011 (\u003ca\u003ehttp://www.w3.org/TR/2011/WD-turtle-20110809/\u003c/a\u003e)\n\u003c/li\u003e\u003cli\u003e Strings with no language tag are converted to a \u003ccode\u003eLitTag\u003c/code\u003e not a\n    \u003ccode\u003eTypedLitTag\u003c/code\u003e with a type of \u003ccode\u003exsd:string\u003c/code\u003e (e.g. see\n    \u003ca\u003ehttp://www.w3.org/TR/2011/WD-turtle-20110809/#terms\u003c/a\u003e).\n\u003c/li\u003e\u003cli\u003e If the URI is actually an IRI (Internationalized Resource Identifiers)\n    then the parser will fail since \u003ccode\u003e\u003ca\u003eparseURI\u003c/a\u003e\u003c/code\u003e fails.\n\u003c/li\u003e\u003cli\u003e The current (August 2013) Turtle test suite from\n    \u003ca\u003ehttp://www.w3.org/2013/TurtleTests/\u003c/a\u003e passes except for the four\n    tests with non-ASCII local names, namely:\n    \u003ccode\u003elocalName_with_assigned_nfc_bmp_PN_CHARS_BASE_character_boundaries\u003c/code\u003e,\n    \u003ccode\u003elocalName_with_assigned_nfc_PN_CHARS_BASE_character_boundaries\u003c/code\u003e,\n    \u003ccode\u003elocalName_with_nfc_PN_CHARS_BASE_character_boundaries\u003c/code\u003e,\n    and\n    \u003ccode\u003elocalName_with_non_leading_extras\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Turtle",
           "name": "Turtle",
           "package": "swish",
@@ -12592,6 +13583,7 @@
         "index": {
           "description": "This Module implements Turtle parser returning new RDFGraph consisting of triples and namespace information parsed from the supplied input string or an error indication REFERENCES Turtle Terse RDF Triple Language W3C Candidate Recommendation February http www.w3.org TR CR-turtle-20130219 http www.w3.org TR turtle NOTES Prior to version the parser followed the W3C Working Draft August http www.w3.org TR WD-turtle-20110809 Strings with no language tag are converted to LitTag not TypedLitTag with type of xsd string e.g see http www.w3.org TR WD-turtle-20110809 terms If the URI is actually an IRI Internationalized Resource Identifiers then the parser will fail since parseURI fails The current August Turtle test suite from http www.w3.org TurtleTests passes except for the four tests with non-ASCII local names namely localName with assigned nfc bmp PN CHARS BASE character boundaries localName with assigned nfc PN CHARS BASE character boundaries localName with nfc PN CHARS BASE character boundaries and localName with non leading extras",
           "hierarchy": "Swish RDF Parser Turtle",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Turtle",
           "name": "Turtle",
           "package": "swish",
@@ -12606,6 +13598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a parse, which is either an error message or a graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Turtle",
           "name": "ParseResult",
           "package": "swish",
@@ -12615,6 +13608,7 @@
         "index": {
           "description": "The result of parse which is either an error message or graph",
           "hierarchy": "Swish RDF Parser Turtle",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Turtle",
           "name": "ParseResult",
           "package": "swish",
@@ -12629,6 +13623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a string with an optional base URI.\n\u003c/p\u003e\u003cp\u003eUnlike \u003ccode\u003eparseN3\u003c/code\u003e we treat the base URI as a URI and not\n a QName.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Turtle",
           "name": "parseTurtle",
           "package": "swish",
@@ -12638,6 +13633,7 @@
         "index": {
           "description": "Parse string with an optional base URI Unlike parseN3 we treat the base URI as URI and not QName",
           "hierarchy": "Swish RDF Parser Turtle",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Turtle",
           "name": "parseTurtle",
           "normalized": "Text-\u003eMaybe URI-\u003eParseResult",
@@ -12654,6 +13650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse as Turtle (with no real base URI).\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eparseTurtle\u003c/a\u003e\u003c/code\u003e if you need to provide a base URI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Turtle",
           "name": "parseTurtlefromText",
           "package": "swish",
@@ -12663,6 +13660,7 @@
         "index": {
           "description": "Parse as Turtle with no real base URI See parseTurtle if you need to provide base URI",
           "hierarchy": "Swish RDF Parser Turtle",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Turtle",
           "name": "parseTurtlefromText",
           "normalized": "Text-\u003eParseResult",
@@ -12679,6 +13677,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for the RDF Parsing modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "Utils",
           "package": "swish",
@@ -12688,6 +13687,7 @@
         "index": {
           "description": "Support for the RDF Parsing modules",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "Utils",
           "package": "swish",
@@ -12702,6 +13702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a parse, which is either an error message or a graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "ParseResult",
           "package": "swish",
@@ -12711,6 +13712,7 @@
         "index": {
           "description": "The result of parse which is either an error message or graph",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "ParseResult",
           "package": "swish",
@@ -12725,6 +13727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for special name lookup table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "SpecialMap",
           "package": "swish",
@@ -12734,6 +13737,7 @@
         "index": {
           "description": "Type for special name lookup table",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "SpecialMap",
           "package": "swish",
@@ -12748,6 +13752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend the two URIs. Given the change in signature of\n   \u003ccode\u003e\u003ca\u003erelativeTo\u003c/a\u003e\u003c/code\u003e in versino \u003ccode\u003e2.4.0.0\u003c/code\u003e of \u003ccode\u003enetwork\u003c/code\u003e,\n   it is not clear that this function is necessary. At the\n   very lease, it will be changed to just return a \u003ccode\u003e\u003ca\u003eURI\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "appendURIs",
           "package": "swish",
@@ -12757,6 +13762,7 @@
         "index": {
           "description": "Append the two URIs Given the change in signature of relativeTo in versino of network it is not clear that this function is necessary At the very lease it will be changed to just return URI",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "appendURIs",
           "normalized": "URI-\u003eURI-\u003eEither String URI",
@@ -12773,6 +13779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "char",
           "package": "swish",
@@ -12783,6 +13790,7 @@
         "index": {
           "description": "Match the character",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "char",
           "normalized": "Char-\u003eParser a Char",
@@ -12798,6 +13806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch zero or more occurences of\n parser followed by separator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "endBy",
           "package": "swish",
@@ -12807,6 +13816,7 @@
         "index": {
           "description": "Match zero or more occurences of parser followed by separator",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "endBy",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a[b]",
@@ -12823,6 +13833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the end-of-line sequence (\u003ccode\u003e\u003ca\u003e\\n\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e\\r\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003e\\r\\n\u003c/a\u003e\u003c/code\u003e). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "eoln",
           "package": "swish",
@@ -12833,6 +13844,7 @@
         "index": {
           "description": "Match the end-of-line sequence or",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "eoln",
           "normalized": "Parser a()",
@@ -12848,6 +13860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e.           \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "fullStop",
           "package": "swish",
@@ -12858,6 +13871,7 @@
         "index": {
           "description": "Matches",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "fullStop",
           "normalized": "Parser a()",
@@ -12874,6 +13888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA four-digit hex value (e.g. \u003ccode\u003e1a34\u003c/code\u003e or \u003ccode\u003e03F1\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "hex4",
           "package": "swish",
@@ -12884,6 +13899,7 @@
         "index": {
           "description": "four-digit hex value e.g a34 or F1",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "hex4",
           "package": "swish",
@@ -12897,6 +13913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn eight-digit hex value that has a maximum of \u003ccode\u003e0010FFFF\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "hex8",
           "package": "swish",
@@ -12907,6 +13924,7 @@
         "index": {
           "description": "An eight-digit hex value that has maximum of FFFF",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "hex8",
           "package": "swish",
@@ -12920,6 +13938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the character, ignoring the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "ichar",
           "package": "swish",
@@ -12930,6 +13949,7 @@
         "index": {
           "description": "Match the character ignoring the result",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "ichar",
           "normalized": "Char-\u003eParser a()",
@@ -12945,6 +13965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the parser and ignore the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "ignore",
           "package": "swish",
@@ -12955,6 +13976,7 @@
         "index": {
           "description": "Run the parser and ignore the result",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "ignore",
           "normalized": "a b-\u003ea()",
@@ -12970,6 +13992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs \u003ccode\u003e\u003ca\u003esymbol\u003c/a\u003e\u003c/code\u003e but ignoring the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "isymbol",
           "package": "swish",
@@ -12980,6 +14003,7 @@
         "index": {
           "description": "As symbol but ignoring the result",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "isymbol",
           "normalized": "String-\u003eParser a()",
@@ -12995,6 +14019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a parser into one that also matches, and ignores,\n trailing \u003ccode\u003e\u003ca\u003ewhiteSpace\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "lexeme",
           "package": "swish",
@@ -13005,6 +14030,7 @@
         "index": {
           "description": "Convert parser into one that also matches and ignores trailing whiteSpace",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "lexeme",
           "normalized": "Parser a b-\u003eParser a b",
@@ -13020,6 +14046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccept zero or more runs of the parser\n ending with the delimiter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "manyTill",
           "package": "swish",
@@ -13029,6 +14056,7 @@
         "index": {
           "description": "Accept zero or more runs of the parser ending with the delimiter",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "manyTill",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a[b]",
@@ -13045,6 +14073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccept any character that is not a member of the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "noneOf",
           "package": "swish",
@@ -13055,6 +14084,7 @@
         "index": {
           "description": "Accept any character that is not member of the given string",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "noneOf",
           "normalized": "String-\u003eParser a Char",
@@ -13071,6 +14101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSucceed if the next character does not match the given function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "notFollowedBy",
           "package": "swish",
@@ -13081,6 +14112,7 @@
         "index": {
           "description": "Succeed if the next character does not match the given function",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "notFollowedBy",
           "normalized": "(Char-\u003eBool)-\u003eParser a()",
@@ -13097,6 +14129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine default table of namespaces\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "prefixTable",
           "package": "swish",
@@ -13107,6 +14140,7 @@
         "index": {
           "description": "Define default table of namespaces",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "prefixTable",
           "normalized": "[Namespace]",
@@ -13123,6 +14157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the parser and return the successful parse or an error\n message which consists of the standard Polyparse error plus\n a fragment of the unparsed input to provide context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "runParserWithError",
           "package": "swish",
@@ -13132,6 +14167,7 @@
         "index": {
           "description": "Run the parser and return the successful parse or an error message which consists of the standard Polyparse error plus fragment of the unparsed input to provide context",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "runParserWithError",
           "normalized": "Parser a b-\u003ea-\u003eText-\u003eEither String b",
@@ -13148,6 +14184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch zero or more occurences of the parser followed\n by the separator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "sepEndBy",
           "package": "swish",
@@ -13157,6 +14194,7 @@
         "index": {
           "description": "Match zero or more occurences of the parser followed by the separator",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "sepEndBy",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a[b]",
@@ -13173,6 +14211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccept one or more occurences of the parser\n separated by the separator. Unlike \u003ccode\u003e\u003ca\u003eendBy\u003c/a\u003e\u003c/code\u003e the\n last separator is optional.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "sepEndBy1",
           "package": "swish",
@@ -13182,6 +14221,7 @@
         "index": {
           "description": "Accept one or more occurences of the parser separated by the separator Unlike endBy the last separator is optional",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "sepEndBy1",
           "normalized": "Parser a b-\u003eParser a c-\u003eParser a[b]",
@@ -13198,6 +14238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the parser \u003ccode\u003e\u003ca\u003emany\u003c/a\u003e\u003c/code\u003e times and ignore the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "skipMany",
           "package": "swish",
@@ -13208,6 +14249,7 @@
         "index": {
           "description": "Run the parser many times and ignore the result",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "skipMany",
           "normalized": "Parser a b-\u003eParser a()",
@@ -13224,6 +14266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the parser \u003ccode\u003e\u003ca\u003emany1\u003c/a\u003e\u003c/code\u003e times and ignore the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "skipMany1",
           "package": "swish",
@@ -13234,6 +14277,7 @@
         "index": {
           "description": "Run the parser many1 times and ignore the result",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "skipMany1",
           "normalized": "Parser a b-\u003eParser a()",
@@ -13250,6 +14294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine default special-URI table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "specialTable",
           "package": "swish",
@@ -13259,6 +14304,7 @@
         "index": {
           "description": "Define default special-URI table",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "specialTable",
           "normalized": "Maybe ScopedName-\u003e[(String,ScopedName)]",
@@ -13275,6 +14321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "string",
           "package": "swish",
@@ -13285,6 +14332,7 @@
         "index": {
           "description": "Match the text",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "string",
           "normalized": "String-\u003eParser a String",
@@ -13300,6 +14348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "stringT",
           "package": "swish",
@@ -13310,6 +14359,7 @@
         "index": {
           "description": "Match the text",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "stringT",
           "normalized": "Text-\u003eParser a Text",
@@ -13325,6 +14375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch the given string and any trailing \u003ccode\u003e\u003ca\u003ewhiteSpace\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "symbol",
           "package": "swish",
@@ -13335,6 +14386,7 @@
         "index": {
           "description": "Match the given string and any trailing whiteSpace",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "symbol",
           "normalized": "String-\u003eParser a String",
@@ -13350,6 +14402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch white space: a space or a comment (\u003ccode\u003e#\u003c/code\u003e character and anything following it\n up to to a new line).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Parser.Utils",
           "name": "whiteSpace",
           "package": "swish",
@@ -13360,6 +14413,7 @@
         "index": {
           "description": "Match white space space or comment character and anything following it up to to new line",
           "hierarchy": "Swish RDF Parser Utils",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Parser.Utils",
           "name": "whiteSpace",
           "normalized": "Parser a()",
@@ -13376,6 +14430,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module instantiates the \u003ccode\u003e\u003ca\u003eProof\u003c/a\u003e\u003c/code\u003e framework for\n  constructing proofs over \u003ccode\u003e\u003ca\u003eRDFGraph\u003c/a\u003e\u003c/code\u003e expressions.\n  The intent is that this can be used to test some\n  correspondences between the RDF Model theory and\n  corresponding proof theory based on closure rules\n  applied to the graph, per \u003ca\u003ehttp://www.w3.org/TR/rdf-mt/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Proof",
           "name": "Proof",
           "package": "swish",
@@ -13385,6 +14440,7 @@
         "index": {
           "description": "This module instantiates the Proof framework for constructing proofs over RDFGraph expressions The intent is that this can be used to test some correspondences between the RDF Model theory and corresponding proof theory based on closure rules applied to the graph per http www.w3.org TR rdf-mt",
           "hierarchy": "Swish RDF Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Proof",
           "name": "Proof",
           "package": "swish",
@@ -13399,6 +14455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn RDF proof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Proof",
           "name": "RDFProof",
           "package": "swish",
@@ -13408,6 +14465,7 @@
         "index": {
           "description": "An RDF proof",
           "hierarchy": "Swish RDF Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Proof",
           "name": "RDFProof",
           "package": "swish",
@@ -13422,6 +14480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA step in an RDF proof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Proof",
           "name": "RDFProofStep",
           "package": "swish",
@@ -13431,6 +14490,7 @@
         "index": {
           "description": "step in an RDF proof",
           "hierarchy": "Swish RDF Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Proof",
           "name": "RDFProofStep",
           "package": "swish",
@@ -13445,6 +14505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an RDF proof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Proof",
           "name": "makeRDFProof",
           "package": "swish",
@@ -13454,6 +14515,7 @@
         "index": {
           "description": "Make an RDF proof",
           "hierarchy": "Swish RDF Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Proof",
           "name": "makeRDFProof",
           "normalized": "[RDFRuleset]-\u003eRDFFormula-\u003eRDFFormula-\u003e[RDFProofStep]-\u003eRDFProof",
@@ -13470,6 +14532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an RDF graph proof step.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Proof",
           "name": "makeRDFProofStep",
           "package": "swish",
@@ -13479,6 +14542,7 @@
         "index": {
           "description": "Make an RDF graph proof step",
           "hierarchy": "Swish RDF Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Proof",
           "name": "makeRDFProofStep",
           "normalized": "RDFRule-\u003e[RDFFormula]-\u003eRDFFormula-\u003eRDFProofStep",
@@ -13495,6 +14559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an inference rule dealing with RDF instance entailment;\n  i.e. entailments that are due to replacement of a URI or literal\n  node with a blank node.\n\u003c/p\u003e\u003cp\u003eThe part of this rule expected to be useful is \u003ccode\u003e\u003ca\u003echeckInference\u003c/a\u003e\u003c/code\u003e.\n  The \u003ccode\u003e\u003ca\u003efwdApply\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ebwdApply\u003c/a\u003e\u003c/code\u003e functions defined here may return\n  rather large results if applied to graphs with many variables or\n  a large vocabulary, and are defined for experimentation.\n\u003c/p\u003e\u003cp\u003eForward and backward chaining is performed with respect to a\n  specified vocabulary.  In the case of backward chaining, it would\n  otherwise be impossible to bound the options thus generated.\n  In the case of forward chaining, it is often not desirable to\n  have the properties generalized.  If forward or backward backward\n  chaining will not be used, supply an empty vocabulary.\n  Note:  graph method \u003ccode\u003e\u003ca\u003eallNodes\u003c/a\u003e\u003c/code\u003e can be used to obtain a list of all\n  the subjects and objects used in a  graph, not counting nested\n  formulae;  use a call of the form:\n\u003c/p\u003e\u003cpre\u003e  allNodes (not . labelIsVar) graph\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Proof",
           "name": "makeRdfInstanceEntailmentRule",
           "package": "swish",
@@ -13504,6 +14569,7 @@
         "index": {
           "description": "Make an inference rule dealing with RDF instance entailment i.e entailments that are due to replacement of URI or literal node with blank node The part of this rule expected to be useful is checkInference The fwdApply and bwdApply functions defined here may return rather large results if applied to graphs with many variables or large vocabulary and are defined for experimentation Forward and backward chaining is performed with respect to specified vocabulary In the case of backward chaining it would otherwise be impossible to bound the options thus generated In the case of forward chaining it is often not desirable to have the properties generalized If forward or backward backward chaining will not be used supply an empty vocabulary Note graph method allNodes can be used to obtain list of all the subjects and objects used in graph not counting nested formulae use call of the form allNodes not labelIsVar graph",
           "hierarchy": "Swish RDF Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Proof",
           "name": "makeRdfInstanceEntailmentRule",
           "normalized": "ScopedName-\u003e[RDFLabel]-\u003eRDFRule",
@@ -13520,6 +14586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an inference rule dealing with RDF simple entailment.\n  The part of this rule expected to be useful is \u003ccode\u003e\u003ca\u003echeckInference\u003c/a\u003e\u003c/code\u003e.\n  The \u003ccode\u003e\u003ca\u003efwdApply\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ebwdApply\u003c/a\u003e\u003c/code\u003e functions defined return null\n  results, indicating that they are not useful for the purposes\n  of proof discovery.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Proof",
           "name": "makeRdfSimpleEntailmentRule",
           "package": "swish",
@@ -13530,6 +14597,7 @@
         "index": {
           "description": "Make an inference rule dealing with RDF simple entailment The part of this rule expected to be useful is checkInference The fwdApply and bwdApply functions defined return null results indicating that they are not useful for the purposes of proof discovery",
           "hierarchy": "Swish RDF Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Proof",
           "name": "makeRdfSimpleEntailmentRule",
           "normalized": "ScopedName-\u003eRDFRule",
@@ -13546,6 +14614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an inference rule dealing with RDF subgraph entailment.\n  The part of this rule expected to be useful is \u003ccode\u003e\u003ca\u003echeckInference\u003c/a\u003e\u003c/code\u003e.\n  The \u003ccode\u003e\u003ca\u003efwdApply\u003c/a\u003e\u003c/code\u003e function defined here may return rather large\n  results.  But in the name of completeness and experimentation\n  with the possibilities of lazy evaluation, it has been defined.\n\u003c/p\u003e\u003cp\u003eBackward chaining is not performed, as there is no reasonable way\n  to choose a meaningful supergraph of that supplied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Proof",
           "name": "makeRdfSubgraphEntailmentRule",
           "package": "swish",
@@ -13556,6 +14625,7 @@
         "index": {
           "description": "Make an inference rule dealing with RDF subgraph entailment The part of this rule expected to be useful is checkInference The fwdApply function defined here may return rather large results But in the name of completeness and experimentation with the possibilities of lazy evaluation it has been defined Backward chaining is not performed as there is no reasonable way to choose meaningful supergraph of that supplied",
           "hierarchy": "Swish RDF Proof",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Proof",
           "name": "makeRdfSubgraphEntailmentRule",
           "normalized": "ScopedName-\u003eRDFRule",
@@ -13572,6 +14642,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains proof-context declarations based on\n  the RDF, RDFS, and RDF datatyping semantics specifications.\n  These definitions consist of namespaces (for identification\n  in proofs), axioms and inference rules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.ProofContext",
           "name": "ProofContext",
           "package": "swish",
@@ -13581,6 +14652,7 @@
         "index": {
           "description": "This module contains proof-context declarations based on the RDF RDFS and RDF datatyping semantics specifications These definitions consist of namespaces for identification in proofs axioms and inference rules",
           "hierarchy": "Swish RDF ProofContext",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.ProofContext",
           "name": "ProofContext",
           "package": "swish",
@@ -13595,6 +14667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuleset for RDF inference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.ProofContext",
           "name": "rulesetRDF",
           "package": "swish",
@@ -13605,6 +14678,7 @@
         "index": {
           "description": "Ruleset for RDF inference",
           "hierarchy": "Swish RDF ProofContext",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.ProofContext",
           "name": "rulesetRDF",
           "package": "swish",
@@ -13619,6 +14693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuleset for RDFD (datatyping) inference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.ProofContext",
           "name": "rulesetRDFD",
           "package": "swish",
@@ -13629,6 +14704,7 @@
         "index": {
           "description": "Ruleset for RDFD datatyping inference",
           "hierarchy": "Swish RDF ProofContext",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.ProofContext",
           "name": "rulesetRDFD",
           "package": "swish",
@@ -13643,6 +14719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuleset for RDFS inference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.ProofContext",
           "name": "rulesetRDFS",
           "package": "swish",
@@ -13653,6 +14730,7 @@
         "index": {
           "description": "Ruleset for RDFS inference",
           "hierarchy": "Swish RDF ProofContext",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.ProofContext",
           "name": "rulesetRDFS",
           "package": "swish",
@@ -13667,6 +14745,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines functions for querying an RDF graph to obtain\n  a set of variable substitutions, and to apply a set of variable\n  substitutions to a query pattern to obtain a new graph.\n\u003c/p\u003e\u003cp\u003eIt also defines a few primitive graph access functions.\n\u003c/p\u003e\u003cp\u003eA minimal example is shown below, where we query a very simple\n  graph:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:m + Swish.RDF Swish.RDF.Parser.N3 Swish.RDF.Query\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:set -XOverloadedStrings\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet qparse = either error id . parseN3fromText\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet igr = qparse \"@prefix a: \u003chttp://example.com/\u003e. a:a a a:A ; a:foo a:bar. a:b a a:B ; a:foo a:bar.\"\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet qgr = qparse \"?node a ?type.\"\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erdfQueryFind qgr igr\n\u003c/code\u003e\u003c/strong\u003e[[(?type,a:B),(?node,a:b)],[(?type,a:A),(?node,a:a)]]\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet bn = (toRDFLabel . Data.Maybe.fromJust . Network.URI.parseURI) \"http://example.com/B\"\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erdfFindArcs (rdfObjEq bn) igr\n\u003c/code\u003e\u003c/strong\u003e[(a:b,rdf:type,a:B)]\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eData.Maybe.mapMaybe (flip Swish.RDF.VarBinding.vbMap (Var \"type\")) $ rdfQueryFind qgr igr\n\u003c/code\u003e\u003c/strong\u003e[a:B,a:A]\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "Query",
           "package": "swish",
@@ -13676,6 +14755,7 @@
         "index": {
           "description": "This module defines functions for querying an RDF graph to obtain set of variable substitutions and to apply set of variable substitutions to query pattern to obtain new graph It also defines few primitive graph access functions minimal example is shown below where we query very simple graph Swish.RDF Swish.RDF.Parser.N3 Swish.RDF.Query set XOverloadedStrings let qparse either error id parseN3fromText let igr qparse prefix http example.com foo bar foo bar let qgr qparse node type rdfQueryFind qgr igr type node type node let bn toRDFLabel Data.Maybe.fromJust Network.URI.parseURI http example.com rdfFindArcs rdfObjEq bn igr rdf type Data.Maybe.mapMaybe flip Swish.RDF.VarBinding.vbMap Var type rdfQueryFind qgr igr",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "Query",
           "package": "swish",
@@ -13690,6 +14770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a value satisfies all predicates in a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "allp",
           "package": "swish",
@@ -13700,6 +14781,7 @@
         "index": {
           "description": "Test if value satisfies all predicates in list",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "allp",
           "normalized": "[a-\u003eBool]-\u003ea-\u003eBool",
@@ -13715,6 +14797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a value satisfies any predicate in a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "anyp",
           "package": "swish",
@@ -13725,6 +14808,7 @@
         "index": {
           "description": "Test if value satisfies any predicate in list",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "anyp",
           "normalized": "[a-\u003eBool]-\u003ea-\u003eBool",
@@ -13740,6 +14824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a predicate on an\n  RDF statement and a graph, and returns all statements in the graph\n  satisfying that predicate.\n\u003c/p\u003e\u003cp\u003eUse combinations of these as follows:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e find all statements with given subject:\n          \u003ccode\u003erdfFindArcs (rdfSubjEq s)\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e find all statements with given property:\n          \u003ccode\u003erdfFindArcs (rdfPredEq p)\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e find all statements with given object:\n          \u003ccode\u003erdfFindArcs (rdfObjEq  o)\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e find all statements matching conjunction of these conditions:\n          \u003ccode\u003erdfFindArcs (\u003ccode\u003e\u003ca\u003eallp\u003c/a\u003e\u003c/code\u003e [...])\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e find all statements matching disjunction of these conditions:\n          \u003ccode\u003erdfFindArcs (\u003ccode\u003e\u003ca\u003eanyp\u003c/a\u003e\u003c/code\u003e [...])\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eCustom predicates can also be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "rdfFindArcs",
           "package": "swish",
@@ -13750,6 +14835,7 @@
         "index": {
           "description": "Take predicate on an RDF statement and graph and returns all statements in the graph satisfying that predicate Use combinations of these as follows find all statements with given subject rdfFindArcs rdfSubjEq find all statements with given property rdfFindArcs rdfPredEq find all statements with given object rdfFindArcs rdfObjEq find all statements matching conjunction of these conditions rdfFindArcs allp find all statements matching disjunction of these conditions rdfFindArcs anyp Custom predicates can also be used",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "rdfFindArcs",
           "normalized": "(RDFTriple-\u003eBool)-\u003eRDFGraph-\u003e[RDFTriple]",
@@ -13766,6 +14852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of nodes that comprise an rdf:collection value,\n  given the head element of the collection.  If the list is\n  ill-formed then an arbitrary value is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "rdfFindList",
           "package": "swish",
@@ -13776,6 +14863,7 @@
         "index": {
           "description": "Return list of nodes that comprise an rdf collection value given the head element of the collection If the list is ill-formed then an arbitrary value is returned",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "rdfFindList",
           "normalized": "RDFGraph-\u003eRDFLabel-\u003e[RDFLabel]",
@@ -13792,6 +14880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind integer values of a given predicate for a given subject\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "rdfFindPredInt",
           "package": "swish",
@@ -13801,6 +14890,7 @@
         "index": {
           "description": "Find integer values of given predicate for given subject",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "rdfFindPredInt",
           "normalized": "RDFLabel-\u003eRDFLabel-\u003eRDFGraph-\u003e[Integer]",
@@ -13817,6 +14907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind values of given predicate for a given subject\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "rdfFindPredVal",
           "package": "swish",
@@ -13826,6 +14917,7 @@
         "index": {
           "description": "Find values of given predicate for given subject",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "rdfFindPredVal",
           "normalized": "RDFLabel-\u003eRDFLabel-\u003eRDFGraph-\u003e[RDFLabel]",
@@ -13842,6 +14934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all subjects that match (subject, predicate, object) in the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "rdfFindValSubj",
           "package": "swish",
@@ -13851,6 +14944,7 @@
         "index": {
           "description": "Find all subjects that match subject predicate object in the graph",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "rdfFindValSubj",
           "normalized": "RDFLabel-\u003eRDFLabel-\u003eRDFGraph-\u003e[RDFLabel]",
@@ -13867,6 +14961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if statement has given object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "rdfObjEq",
           "package": "swish",
@@ -13877,6 +14972,7 @@
         "index": {
           "description": "Test if statement has given object",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "rdfObjEq",
           "normalized": "RDFLabel-\u003eRDFTriple-\u003eBool",
@@ -13893,6 +14989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if statement has given predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "rdfPredEq",
           "package": "swish",
@@ -13903,6 +15000,7 @@
         "index": {
           "description": "Test if statement has given predicate",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "rdfPredEq",
           "normalized": "RDFLabel-\u003eRDFTriple-\u003eBool",
@@ -13919,6 +15017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse graph-query function.\n\u003c/p\u003e\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003erdfQueryFind\u003c/a\u003e\u003c/code\u003e, but with different success criteria.\n  The query graph is matched against the supplied graph,\n  but not every triple of the query is required to be matched.\n  Rather, every triple of the target graph must be matched,\n  and substitutions for just the variables thus bound are\n  returned.  In effect, these are subsitutions in the query\n  that entail the target graph (where \u003ccode\u003erdfQueryFind\u003c/code\u003e returns\n  substitutions that are entailed by the target graph).\n\u003c/p\u003e\u003cp\u003eMultiple substitutions may be used together, so the result\n  returned is a list of lists of query bindings.  Each inner\n  list contains several variable bindings that must all be applied\n  separately to the closure antecendents to obtain a collection of\n  expressions that together are antecedent to the supplied\n  conclusion.  A null list of bindings returned means the\n  conclusion can be inferred without any antecedents.\n\u003c/p\u003e\u003cp\u003eNote:  in back-chaining, the conditions required to prove each\n  target triple are derived independently, using the inference rule\n  for each such triple, so there are no requirements to check\n  consistency with previously determined variable bindings, as\n  there are when doing forward chaining.  A result of this is that\n  there may be redundant triples generated by the back-chaining\n  process.  Any process using back-chaining should deal with the\n  results returned accordingly.\n\u003c/p\u003e\u003cp\u003eAn empty outer list is returned if no combination of\n  substitutions can infer the supplied target.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "rdfQueryBack",
           "package": "swish",
@@ -13928,6 +15027,7 @@
         "index": {
           "description": "Reverse graph-query function Similar to rdfQueryFind but with different success criteria The query graph is matched against the supplied graph but not every triple of the query is required to be matched Rather every triple of the target graph must be matched and substitutions for just the variables thus bound are returned In effect these are subsitutions in the query that entail the target graph where rdfQueryFind returns substitutions that are entailed by the target graph Multiple substitutions may be used together so the result returned is list of lists of query bindings Each inner list contains several variable bindings that must all be applied separately to the closure antecendents to obtain collection of expressions that together are antecedent to the supplied conclusion null list of bindings returned means the conclusion can be inferred without any antecedents Note in back-chaining the conditions required to prove each target triple are derived independently using the inference rule for each such triple so there are no requirements to check consistency with previously determined variable bindings as there are when doing forward chaining result of this is that there may be redundant triples generated by the back-chaining process Any process using back-chaining should deal with the results returned accordingly An empty outer list is returned if no combination of substitutions can infer the supplied target",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "rdfQueryBack",
           "normalized": "RDFGraph-\u003eRDFGraph-\u003e[[RDFVarBinding]]",
@@ -13944,6 +15044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRDF back-chaining query filter.  This function applies a supplied\n  query binding filter to the result from a call of \u003ccode\u003e\u003ca\u003erdfQueryBack\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eEach inner list contains bindings that must all be used to satisfy\n  the backchain query, so if any query binding does not satisfy the\n  filter, the entire corresponding row is removed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "rdfQueryBackFilter",
           "package": "swish",
@@ -13954,6 +15055,7 @@
         "index": {
           "description": "RDF back-chaining query filter This function applies supplied query binding filter to the result from call of rdfQueryBack Each inner list contains bindings that must all be used to satisfy the backchain query so if any query binding does not satisfy the filter the entire corresponding row is removed",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "rdfQueryBackFilter",
           "normalized": "RDFVarBindingFilter-\u003e[[RDFVarBinding]]-\u003e[[RDFVarBinding]]",
@@ -13970,6 +15072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRDF back-chaining query modifier.  This function applies a supplied\n  query binding modifier to the result from a call of \u003ccode\u003e\u003ca\u003erdfQueryBack\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eEach inner list contains bindings that must all be used to satisfy\n  a backchaining query, so if any query binding does not satisfy the\n  filter, the entire corresponding row is removed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "rdfQueryBackModify",
           "package": "swish",
@@ -13980,6 +15083,7 @@
         "index": {
           "description": "RDF back-chaining query modifier This function applies supplied query binding modifier to the result from call of rdfQueryBack Each inner list contains bindings that must all be used to satisfy backchaining query so if any query binding does not satisfy the filter the entire corresponding row is removed",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "rdfQueryBackModify",
           "normalized": "VarBindingModify a b-\u003e[[VarBinding a b]]-\u003e[[VarBinding a b]]",
@@ -13996,6 +15100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraph back-substitution function.\n\u003c/p\u003e\u003cp\u003eUses the supplied variable bindings from \u003ccode\u003e\u003ca\u003erdfQueryBack\u003c/a\u003e\u003c/code\u003e to perform\n  a series of variable substitutions in a supplied graph, returning\n  a list of lists of result graphs corresponding to each set of variable\n  bindings applied to the input graphs.\n\u003c/p\u003e\u003cp\u003eThe outer list of the result contains alternative antecedent lists\n  that satisfy the query goal.  Each inner list contains graphs that\n  must all be inferred to satisfy the query goal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "rdfQueryBackSubs",
           "package": "swish",
@@ -14006,6 +15111,7 @@
         "index": {
           "description": "Graph back-substitution function Uses the supplied variable bindings from rdfQueryBack to perform series of variable substitutions in supplied graph returning list of lists of result graphs corresponding to each set of variable bindings applied to the input graphs The outer list of the result contains alternative antecedent lists that satisfy the query goal Each inner list contains graphs that must all be inferred to satisfy the query goal",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "rdfQueryBackSubs",
           "normalized": "[[RDFVarBinding]]-\u003eRDFGraph-\u003e[[(RDFGraph,[RDFLabel])]]",
@@ -14022,6 +15128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraph back-substitution function, replacing variables with bnodes.\n\u003c/p\u003e\u003cp\u003eUses the supplied variable bindings from \u003ccode\u003e\u003ca\u003erdfQueryBack\u003c/a\u003e\u003c/code\u003e to perform\n  a series of variable substitutions in a supplied graph, returning\n  a list of lists of result graphs corresponding to each set of variable\n  bindings applied to the input graphs.\n\u003c/p\u003e\u003cp\u003eThe outer list of the result contains alternative antecedent lists\n  that satisfy the query goal.  Each inner list contains graphs that\n  must all be inferred to satisfy the query goal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "rdfQueryBackSubsBlank",
           "package": "swish",
@@ -14032,6 +15139,7 @@
         "index": {
           "description": "Graph back-substitution function replacing variables with bnodes Uses the supplied variable bindings from rdfQueryBack to perform series of variable substitutions in supplied graph returning list of lists of result graphs corresponding to each set of variable bindings applied to the input graphs The outer list of the result contains alternative antecedent lists that satisfy the query goal Each inner list contains graphs that must all be inferred to satisfy the query goal",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "rdfQueryBackSubsBlank",
           "normalized": "[[RDFVarBinding]]-\u003eRDFGraph-\u003e[[RDFGraph]]",
@@ -14048,6 +15156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRDF query filter.\n\u003c/p\u003e\u003cp\u003eThis function applies a supplied query binding\n  filter to the result from a call of \u003ccode\u003e\u003ca\u003erdfQueryFind\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf none of the query bindings found satisfy the filter, a null\n  list is returned (which is what \u003ccode\u003e\u003ca\u003erdfQueryFind\u003c/a\u003e\u003c/code\u003e returns if the\n  query cannot be satisfied).\n\u003c/p\u003e\u003cp\u003e(Because of lazy evaluation, this should be as efficient as\n  applying the filter as the search proceeds.  I started to build\n  the filter logic into the query function itself, with consequent\n  increase in complexity, until I remembered lazy evaluation lets\n  me keep things separate.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "rdfQueryFilter",
           "package": "swish",
@@ -14058,6 +15167,7 @@
         "index": {
           "description": "RDF query filter This function applies supplied query binding filter to the result from call of rdfQueryFind If none of the query bindings found satisfy the filter null list is returned which is what rdfQueryFind returns if the query cannot be satisfied Because of lazy evaluation this should be as efficient as applying the filter as the search proceeds started to build the filter logic into the query function itself with consequent increase in complexity until remembered lazy evaluation lets me keep things separate",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "rdfQueryFilter",
           "normalized": "RDFVarBindingFilter-\u003e[RDFVarBinding]-\u003e[RDFVarBinding]",
@@ -14074,6 +15184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic graph-query function.\n\u003c/p\u003e\u003cp\u003eThe triples of the query graph are matched sequentially\n  against the target graph, each taking account of any\n  variable bindings that have already been determined,\n  and adding new variable bindings as triples containing\n  query variables are matched against the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "rdfQueryFind",
           "package": "swish",
@@ -14083,6 +15194,7 @@
         "index": {
           "description": "Basic graph-query function The triples of the query graph are matched sequentially against the target graph each taking account of any variable bindings that have already been determined and adding new variable bindings as triples containing query variables are matched against the graph",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "rdfQueryFind",
           "normalized": "RDFGraph-\u003eRDFGraph-\u003e[RDFVarBinding]",
@@ -14099,6 +15211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple entailment (instance) graph query.\n\u003c/p\u003e\u003cp\u003eThis function queries a graph to find instances of the\n  query graph in the target graph.  It is very similar\n  to the normal forward chaining query \u003ccode\u003e\u003ca\u003erdfQueryFind\u003c/a\u003e\u003c/code\u003e,\n  except that blank nodes rather than query variable nodes\n  in the query graph are matched against nodes in the target\n  graph.  Neither graph should contain query variables.\n\u003c/p\u003e\u003cp\u003eAn instance is defined by the RDF semantics specification,\n  per \u003ca\u003ehttp://www.w3.org/TR/rdf-mt/\u003c/a\u003e, and is obtained by replacing\n  blank nodes with URIs, literals or other blank nodes.  RDF\n  simple entailment can be determined in terms of instances.\n  This function looks for a subgraph of the target graph that\n  is an instance of the query graph, which is a necessary and\n  sufficient condition for RDF entailment (see the Interpolation\n  Lemma in RDF Semantics, section 1.2).\n\u003c/p\u003e\u003cp\u003eIt is anticipated that this query function can be used in\n  conjunction with backward chaining to determine when the\n  search for sufficient antecendents to determine some goal\n  has been concluded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "rdfQueryInstance",
           "package": "swish",
@@ -14109,6 +15222,7 @@
         "index": {
           "description": "Simple entailment instance graph query This function queries graph to find instances of the query graph in the target graph It is very similar to the normal forward chaining query rdfQueryFind except that blank nodes rather than query variable nodes in the query graph are matched against nodes in the target graph Neither graph should contain query variables An instance is defined by the RDF semantics specification per http www.w3.org TR rdf-mt and is obtained by replacing blank nodes with URIs literals or other blank nodes RDF simple entailment can be determined in terms of instances This function looks for subgraph of the target graph that is an instance of the query graph which is necessary and sufficient condition for RDF entailment see the Interpolation Lemma in RDF Semantics section It is anticipated that this query function can be used in conjunction with backward chaining to determine when the search for sufficient antecendents to determine some goal has been concluded",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "rdfQueryInstance",
           "normalized": "RDFGraph-\u003eRDFGraph-\u003e[RDFVarBinding]",
@@ -14125,6 +15239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraph substitution function.\n\u003c/p\u003e\u003cp\u003eUses the supplied variable bindings to substitute variables in\n  a supplied graph, returning a list of result graphs corresponding\n  to each set of variable bindings applied to the input graph.\n  This function is used for formward chaining substitutions, and\n  returns only those result graphs for which all query variables\n  are bound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "rdfQuerySubs",
           "package": "swish",
@@ -14135,6 +15250,7 @@
         "index": {
           "description": "Graph substitution function Uses the supplied variable bindings to substitute variables in supplied graph returning list of result graphs corresponding to each set of variable bindings applied to the input graph This function is used for formward chaining substitutions and returns only those result graphs for which all query variables are bound",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "rdfQuerySubs",
           "normalized": "[RDFVarBinding]-\u003eRDFGraph-\u003e[RDFGraph]",
@@ -14151,6 +15267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function applies a substitution for a single set of variable\n  bindings, returning the result and a list of unbound variables.\n  It uses a state transformer monad to collect the list of\n  unbound variables.\n\u003c/p\u003e\u003cp\u003eAdding an empty graph forces elimination of duplicate arcs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "rdfQuerySubs2",
           "package": "swish",
@@ -14161,6 +15278,7 @@
         "index": {
           "description": "This function applies substitution for single set of variable bindings returning the result and list of unbound variables It uses state transformer monad to collect the list of unbound variables Adding an empty graph forces elimination of duplicate arcs",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "rdfQuerySubs2",
           "normalized": "RDFVarBinding-\u003eRDFGraph-\u003e(RDFGraph,[RDFLabel])",
@@ -14177,6 +15295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraph substitution function.\n\u003c/p\u003e\u003cp\u003eThis function performs the substitutions and returns a list of\n  result graphs each paired with a list unbound variables in each.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "rdfQuerySubsAll",
           "package": "swish",
@@ -14187,6 +15306,7 @@
         "index": {
           "description": "Graph substitution function This function performs the substitutions and returns list of result graphs each paired with list unbound variables in each",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "rdfQuerySubsAll",
           "normalized": "[RDFVarBinding]-\u003eRDFGraph-\u003e[(RDFGraph,[RDFLabel])]",
@@ -14203,6 +15323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraph substitution function.\n\u003c/p\u003e\u003cp\u003eThis function performs each of the substitutions in \u003ccode\u003evars\u003c/code\u003e, and\n  replaces any nodes corresponding to unbound query variables\n  with new blank nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "rdfQuerySubsBlank",
           "package": "swish",
@@ -14213,6 +15334,7 @@
         "index": {
           "description": "Graph substitution function This function performs each of the substitutions in vars and replaces any nodes corresponding to unbound query variables with new blank nodes",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "rdfQuerySubsBlank",
           "normalized": "[RDFVarBinding]-\u003eRDFGraph-\u003e[RDFGraph]",
@@ -14229,6 +15351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if statement has given subject\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Query",
           "name": "rdfSubjEq",
           "package": "swish",
@@ -14239,6 +15362,7 @@
         "index": {
           "description": "Test if statement has given subject",
           "hierarchy": "Swish RDF Query",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Query",
           "name": "rdfSubjEq",
           "normalized": "RDFLabel-\u003eRDFTriple-\u003eBool",
@@ -14255,6 +15379,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines some datatypes and functions that are\n  used to define rules and rulesets over RDF graphs.\n\u003c/p\u003e\u003cp\u003eFor the routines that accept a graph in N3 format, the following\n  namespaces are pre-defined for use by the graph:\n     \u003ccode\u003erdf:\u003c/code\u003e and \u003ccode\u003erdfs:\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "Ruleset",
           "package": "swish",
@@ -14264,6 +15389,7 @@
         "index": {
           "description": "This module defines some datatypes and functions that are used to define rules and rulesets over RDF graphs For the routines that accept graph in N3 format the following namespaces are pre-defined for use by the graph rdf and rdfs",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "Ruleset",
           "package": "swish",
@@ -14278,6 +15404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype for constructing a graph closure rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "GraphClosure",
           "package": "swish",
@@ -14287,6 +15414,7 @@
         "index": {
           "description": "Datatype for constructing graph closure rule",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "GraphClosure",
           "package": "swish",
@@ -14301,6 +15429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eGraphClosure\u003c/a\u003e\u003c/code\u003e for RDF statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "RDFClosure",
           "package": "swish",
@@ -14310,6 +15439,7 @@
         "index": {
           "description": "GraphClosure for RDF statements",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "RDFClosure",
           "package": "swish",
@@ -14324,6 +15454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA named formula expressed as a RDF Graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "RDFFormula",
           "package": "swish",
@@ -14333,6 +15464,7 @@
         "index": {
           "description": "named formula expressed as RDF Graph",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "RDFFormula",
           "package": "swish",
@@ -14347,6 +15479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA named inference rule expressed in RDF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "RDFRule",
           "package": "swish",
@@ -14356,6 +15489,7 @@
         "index": {
           "description": "named inference rule expressed in RDF",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "RDFRule",
           "package": "swish",
@@ -14370,6 +15504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map for \u003ccode\u003e\u003ca\u003eRDFRule\u003c/a\u003e\u003c/code\u003e rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "RDFRuleMap",
           "package": "swish",
@@ -14379,6 +15514,7 @@
         "index": {
           "description": "map for RDFRule rules",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "RDFRuleMap",
           "package": "swish",
@@ -14393,6 +15529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eRuleset\u003c/a\u003e\u003c/code\u003e for RDF.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "RDFRuleset",
           "package": "swish",
@@ -14402,6 +15539,7 @@
         "index": {
           "description": "Ruleset for RDF",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "RDFRuleset",
           "package": "swish",
@@ -14416,6 +15554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map for \u003ccode\u003e\u003ca\u003eRDFRuleset\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "RDFRulesetMap",
           "package": "swish",
@@ -14425,6 +15564,7 @@
         "index": {
           "description": "map for RDFRuleset",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "RDFRulesetMap",
           "package": "swish",
@@ -14438,6 +15578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "GraphClosure",
           "package": "swish",
@@ -14447,6 +15588,7 @@
         },
         "index": {
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "GraphClosure",
           "package": "swish",
@@ -14461,6 +15603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBackward chaining function based on RDF graph closure description\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "graphClosureBwdApply",
           "package": "swish",
@@ -14471,6 +15614,7 @@
         "index": {
           "description": "Backward chaining function based on RDF graph closure description",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "graphClosureBwdApply",
           "normalized": "GraphClosure RDFLabel-\u003eRDFGraph-\u003e[[RDFGraph]]",
@@ -14487,6 +15631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForward chaining function based on RDF graph closure description\n\u003c/p\u003e\u003cp\u003eNote:  antecedents here are presumed to share bnodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "graphClosureFwdApply",
           "package": "swish",
@@ -14497,6 +15642,7 @@
         "index": {
           "description": "Forward chaining function based on RDF graph closure description Note antecedents here are presumed to share bnodes",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "graphClosureFwdApply",
           "normalized": "GraphClosure RDFLabel-\u003e[RDFGraph]-\u003e[RDFGraph]",
@@ -14513,6 +15659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine a value of type Rule based on an RDFClosure value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "makeGraphClosureRule",
           "package": "swish",
@@ -14523,6 +15670,7 @@
         "index": {
           "description": "Define value of type Rule based on an RDFClosure value",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "makeGraphClosureRule",
           "normalized": "GraphClosure RDFLabel-\u003eRule RDFGraph",
@@ -14539,6 +15687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an RDF graph closure rule with a bnode allocator.\n\u003c/p\u003e\u003cp\u003eThis function is rather like \u003ccode\u003e\u003ca\u003emakeN3ClosureModifyRule\u003c/a\u003e\u003c/code\u003e, except that\n  the variable binding modifier is a function from the variables in\n  the variables and bnodes contained in the antecedent graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "makeN3ClosureAllocatorRule",
           "package": "swish",
@@ -14548,6 +15697,7 @@
         "index": {
           "description": "Construct an RDF graph closure rule with bnode allocator This function is rather like makeN3ClosureModifyRule except that the variable binding modifier is function from the variables in the variables and bnodes contained in the antecedent graph",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "makeN3ClosureAllocatorRule",
           "normalized": "Namespace-\u003eLName-\u003eBuilder-\u003eBuilder-\u003eRDFVarBindingModify-\u003e([RDFLabel]-\u003eRDFVarBindingModify)-\u003eRDFRule",
@@ -14564,6 +15714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an RDF graph closure rule that incorporates\n  a variable binding filter and a variable binding modifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "makeN3ClosureModifyRule",
           "package": "swish",
@@ -14573,6 +15724,7 @@
         "index": {
           "description": "Constructs an RDF graph closure rule that incorporates variable binding filter and variable binding modifier",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "makeN3ClosureModifyRule",
           "normalized": "Namespace-\u003eLName-\u003eBuilder-\u003eBuilder-\u003eRDFVarBindingModify-\u003eRDFVarBindingModify-\u003eRDFRule",
@@ -14589,6 +15741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an RDF graph closure rule.  That is, a rule that\n  given some set of antecedent statements returns new statements\n  that may be added to the graph.  This is the basis for\n  implementation of most of the inference rules given in the\n  RDF formal semantics document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "makeN3ClosureRule",
           "package": "swish",
@@ -14598,6 +15751,7 @@
         "index": {
           "description": "Constructs an RDF graph closure rule That is rule that given some set of antecedent statements returns new statements that may be added to the graph This is the basis for implementation of most of the inference rules given in the RDF formal semantics document",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "makeN3ClosureRule",
           "normalized": "Namespace-\u003eLName-\u003eBuilder-\u003eBuilder-\u003eRDFVarBindingModify-\u003eRDFRule",
@@ -14614,6 +15768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a simple RDF graph closure rule without\n  additional node allocations or variable binding constraints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "makeN3ClosureSimpleRule",
           "package": "swish",
@@ -14623,6 +15778,7 @@
         "index": {
           "description": "Construct simple RDF graph closure rule without additional node allocations or variable binding constraints",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "makeN3ClosureSimpleRule",
           "normalized": "Namespace-\u003eLName-\u003eBuilder-\u003eBuilder-\u003eRDFRule",
@@ -14639,6 +15795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function defines a variable binding modifier that\n  allocates a new blank node for each value bound to\n  a query variable, and binds it to another variable\n  in each query binding.\n\u003c/p\u003e\u003cp\u003eThis provides a single binding for query variables that would\n  otherwise be unbound by a query.  For example, consider the\n  inference pattern:\n\u003c/p\u003e\u003cpre\u003e  ?a hasUncle ?c =\u003e ?a hasFather ?b . ?b hasBrother ?c .\n\u003c/pre\u003e\u003cp\u003eFor a given \u003ccode\u003e?a\u003c/code\u003e and \u003ccode\u003e?c\u003c/code\u003e, there is insufficient information\n  here to instantiate a value for variable \u003ccode\u003e?b\u003c/code\u003e.  Using this\n  function as part of a graph instance closure rule allows\n  forward chaining to allocate a single bnode for each\n  occurrence of \u003ccode\u003e?a\u003c/code\u003e, so that given:\n\u003c/p\u003e\u003cpre\u003e  Jimmy hasUncle Fred .\n  Jimmy hasUncle Bob .\n\u003c/pre\u003e\u003cp\u003eleads to exactly one bnode inference of:\n\u003c/p\u003e\u003cpre\u003e  Jimmy hasFather _:f .\n\u003c/pre\u003e\u003cp\u003egiving:\n\u003c/p\u003e\u003cpre\u003e  Jimmy hasFather _:f .\n  _:f   hasBrother Fred .\n  _:f   hasBrother Bob .\n\u003c/pre\u003e\u003cp\u003erather than:\n\u003c/p\u003e\u003cpre\u003e  Jimmy hasFather _:f1 .\n  _:f1  hasBrother Fred .\n  Jimmy hasFather _:f2 .\n  _:f2  hasBrother Bob .\n\u003c/pre\u003e\u003cp\u003eThis form of constrained allocation of bnodes is also required for\n  some of the inference patterns described by the RDF formal semantics,\n  particularly those where bnodes are substituted for URIs or literals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "makeNodeAllocTo",
           "package": "swish",
@@ -14648,6 +15805,7 @@
         "index": {
           "description": "This function defines variable binding modifier that allocates new blank node for each value bound to query variable and binds it to another variable in each query binding This provides single binding for query variables that would otherwise be unbound by query For example consider the inference pattern hasUncle hasFather hasBrother For given and there is insufficient information here to instantiate value for variable Using this function as part of graph instance closure rule allows forward chaining to allocate single bnode for each occurrence of so that given Jimmy hasUncle Fred Jimmy hasUncle Bob leads to exactly one bnode inference of Jimmy hasFather giving Jimmy hasFather hasBrother Fred hasBrother Bob rather than Jimmy hasFather f1 f1 hasBrother Fred Jimmy hasFather f2 f2 hasBrother Bob This form of constrained allocation of bnodes is also required for some of the inference patterns described by the RDF formal semantics particularly those where bnodes are substituted for URIs or literals",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "makeNodeAllocTo",
           "normalized": "RDFLabel-\u003eRDFLabel-\u003e[RDFLabel]-\u003eRDFVarBindingModify",
@@ -14664,6 +15822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an RDF graph closure rule.  That is, a rule that\n  given some set of antecedent statements returns new statements\n  that may be added to the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "makeRDFClosureRule",
           "package": "swish",
@@ -14673,6 +15832,7 @@
         "index": {
           "description": "Constructs an RDF graph closure rule That is rule that given some set of antecedent statements returns new statements that may be added to the graph",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "makeRDFClosureRule",
           "normalized": "ScopedName-\u003e[RDFGraph]-\u003eRDFGraph-\u003eRDFVarBindingModify-\u003eRDFRule",
@@ -14689,6 +15849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an RDF formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "makeRDFFormula",
           "package": "swish",
@@ -14698,6 +15859,7 @@
         "index": {
           "description": "Create an RDF formula",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "makeRDFFormula",
           "normalized": "Namespace-\u003eLName-\u003eBuilder-\u003eRDFFormula",
@@ -14714,6 +15876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to parse a string containing Notation3\n  and return the corresponding RDFGraph value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "makeRDFGraphFromN3Builder",
           "package": "swish",
@@ -14724,6 +15887,7 @@
         "index": {
           "description": "Helper function to parse string containing Notation3 and return the corresponding RDFGraph value",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "makeRDFGraphFromN3Builder",
           "normalized": "Builder-\u003eRDFGraph",
@@ -14740,6 +15904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of rule for proof display\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "nameGraphRule",
           "package": "swish",
@@ -14750,6 +15915,7 @@
         "index": {
           "description": "Name of rule for proof display",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "nameGraphRule",
           "package": "swish",
@@ -14764,6 +15930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe null RDF formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "nullRDFFormula",
           "package": "swish",
@@ -14774,6 +15941,7 @@
         "index": {
           "description": "The null RDF formula",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "nullRDFFormula",
           "package": "swish",
@@ -14788,6 +15956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAntecedent triples pattern\n   (may include variable nodes)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "ruleAnt",
           "package": "swish",
@@ -14798,6 +15967,7 @@
         "index": {
           "description": "Antecedent triples pattern may include variable nodes",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "ruleAnt",
           "package": "swish",
@@ -14812,6 +15982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsequent triples pattern\n   (may include variable nodes)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "ruleCon",
           "package": "swish",
@@ -14822,6 +15993,7 @@
         "index": {
           "description": "Consequent triples pattern may include variable nodes",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "ruleCon",
           "package": "swish",
@@ -14836,6 +16008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStructure that defines additional\n   constraints and/or variable\n   bindings based on other matched\n   query variables.  Matching the\n   antecedents.  Use \u003ccode\u003e\u003ca\u003evarBindingId\u003c/a\u003e\u003c/code\u003e if\n   no additional variable constraints\n   or bindings are added beyond those\n   arising from graph queries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Ruleset",
           "name": "ruleModify",
           "package": "swish",
@@ -14846,6 +16019,7 @@
         "index": {
           "description": "Structure that defines additional constraints and or variable bindings based on other matched query variables Matching the antecedents Use varBindingId if no additional variable constraints or bindings are added beyond those arising from graph queries",
           "hierarchy": "Swish RDF Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Ruleset",
           "name": "ruleModify",
           "package": "swish",
@@ -14860,6 +16034,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module instantiates the \u003ccode\u003e\u003ca\u003eVarBinding\u003c/a\u003e\u003c/code\u003e types and methods for use\n  with RDF graph labels.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.VarBinding",
           "name": "VarBinding",
           "package": "swish",
@@ -14869,6 +16044,7 @@
         "index": {
           "description": "This module instantiates the VarBinding types and methods for use with RDF graph labels",
           "hierarchy": "Swish RDF VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.VarBinding",
           "name": "VarBinding",
           "package": "swish",
@@ -14883,6 +16059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen variable binding modifier that operates on RDFLabel values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.VarBinding",
           "name": "RDFOpenVarBindingModify",
           "package": "swish",
@@ -14892,6 +16069,7 @@
         "index": {
           "description": "Open variable binding modifier that operates on RDFLabel values",
           "hierarchy": "Swish RDF VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.VarBinding",
           "name": "RDFOpenVarBindingModify",
           "package": "swish",
@@ -14906,6 +16084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine type for lookup map of open query binding modifiers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.VarBinding",
           "name": "RDFOpenVarBindingModifyMap",
           "package": "swish",
@@ -14915,6 +16094,7 @@
         "index": {
           "description": "Define type for lookup map of open query binding modifiers",
           "hierarchy": "Swish RDF VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.VarBinding",
           "name": "RDFOpenVarBindingModifyMap",
           "package": "swish",
@@ -14929,6 +16109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eRDFVarBinding\u003c/code\u003e is the specific type type of a variable\n  binding value used with RDF graph queries. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.VarBinding",
           "name": "RDFVarBinding",
           "package": "swish",
@@ -14938,6 +16119,7 @@
         "index": {
           "description": "RDFVarBinding is the specific type type of variable binding value used with RDF graph queries",
           "hierarchy": "Swish RDF VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.VarBinding",
           "name": "RDFVarBinding",
           "package": "swish",
@@ -14952,6 +16134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eRDFVarBindingFilter\u003c/code\u003e is a function type that tests to see if\n  a query binding satisfies some criterion, and is used to\n  create a variable binding modifier that simply filers\n  given variable bindings.\n\u003c/p\u003e\u003cp\u003eQueries often want to apply some kind of filter or condition\n  to the variable bindings that are processed.  In inference rules,\n  it sometimes seems desirable to stipulate additional conditions on\n  the things that are matched.\n\u003c/p\u003e\u003cp\u003eThis function type is used to perform such tests.\n  A number of simple implementations are included.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.VarBinding",
           "name": "RDFVarBindingFilter",
           "package": "swish",
@@ -14961,6 +16144,7 @@
         "index": {
           "description": "RDFVarBindingFilter is function type that tests to see if query binding satisfies some criterion and is used to create variable binding modifier that simply filers given variable bindings Queries often want to apply some kind of filter or condition to the variable bindings that are processed In inference rules it sometimes seems desirable to stipulate additional conditions on the things that are matched This function type is used to perform such tests number of simple implementations are included",
           "hierarchy": "Swish RDF VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.VarBinding",
           "name": "RDFVarBindingFilter",
           "package": "swish",
@@ -14975,6 +16159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine type of query binding modifier for RDF graph inference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.VarBinding",
           "name": "RDFVarBindingModify",
           "package": "swish",
@@ -14984,6 +16169,7 @@
         "index": {
           "description": "Define type of query binding modifier for RDF graph inference",
           "hierarchy": "Swish RDF VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.VarBinding",
           "name": "RDFVarBindingModify",
           "package": "swish",
@@ -14998,6 +16184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaps no query variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.VarBinding",
           "name": "nullRDFVarBinding",
           "package": "swish",
@@ -15008,6 +16195,7 @@
         "index": {
           "description": "maps no query variables",
           "hierarchy": "Swish RDF VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.VarBinding",
           "name": "nullRDFVarBinding",
           "package": "swish",
@@ -15022,6 +16210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function generates a query binding filter that ensures\n  an indicated variable is bound to a blank node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.VarBinding",
           "name": "rdfVarBindingBlank",
           "package": "swish",
@@ -15032,6 +16221,7 @@
         "index": {
           "description": "This function generates query binding filter that ensures an indicated variable is bound to blank node",
           "hierarchy": "Swish RDF VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.VarBinding",
           "name": "rdfVarBindingBlank",
           "normalized": "RDFLabel-\u003eRDFVarBindingFilter",
@@ -15048,6 +16238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function generates a query binding filter that ensures\n  an indicated variable is bound to a literal value with a\n  datatype whose URI is bound to another node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.VarBinding",
           "name": "rdfVarBindingDatatyped",
           "package": "swish",
@@ -15057,6 +16248,7 @@
         "index": {
           "description": "This function generates query binding filter that ensures an indicated variable is bound to literal value with datatype whose URI is bound to another node",
           "hierarchy": "Swish RDF VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.VarBinding",
           "name": "rdfVarBindingDatatyped",
           "normalized": "RDFLabel-\u003eRDFLabel-\u003eRDFVarBindingFilter",
@@ -15073,6 +16265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function generates a query binding filter that ensures\n  an indicated variable is bound to a literal value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.VarBinding",
           "name": "rdfVarBindingLiteral",
           "package": "swish",
@@ -15083,6 +16276,7 @@
         "index": {
           "description": "This function generates query binding filter that ensures an indicated variable is bound to literal value",
           "hierarchy": "Swish RDF VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.VarBinding",
           "name": "rdfVarBindingLiteral",
           "normalized": "RDFLabel-\u003eRDFVarBindingFilter",
@@ -15099,6 +16293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function generates a query binding filter that ensures\n  an indicated variable is bound to container membership property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.VarBinding",
           "name": "rdfVarBindingMemberProp",
           "package": "swish",
@@ -15109,6 +16304,7 @@
         "index": {
           "description": "This function generates query binding filter that ensures an indicated variable is bound to container membership property",
           "hierarchy": "Swish RDF VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.VarBinding",
           "name": "rdfVarBindingMemberProp",
           "normalized": "RDFLabel-\u003eRDFVarBindingFilter",
@@ -15125,6 +16321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function generates a query binding filter that ensures\n  an indicated variable is bound to a typed literal value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.VarBinding",
           "name": "rdfVarBindingTypedLiteral",
           "package": "swish",
@@ -15135,6 +16332,7 @@
         "index": {
           "description": "This function generates query binding filter that ensures an indicated variable is bound to typed literal value",
           "hierarchy": "Swish RDF VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.VarBinding",
           "name": "rdfVarBindingTypedLiteral",
           "normalized": "RDFLabel-\u003eRDFVarBindingFilter",
@@ -15151,6 +16349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function generates a query binding filter that ensures\n  an indicated variable is bound to an untyped literal value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.VarBinding",
           "name": "rdfVarBindingUntypedLiteral",
           "package": "swish",
@@ -15161,6 +16360,7 @@
         "index": {
           "description": "This function generates query binding filter that ensures an indicated variable is bound to an untyped literal value",
           "hierarchy": "Swish RDF VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.VarBinding",
           "name": "rdfVarBindingUntypedLiteral",
           "normalized": "RDFLabel-\u003eRDFVarBindingFilter",
@@ -15177,6 +16377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function generates a query binding filter that ensures\n  an indicated variable is bound to a URI reference.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.VarBinding",
           "name": "rdfVarBindingUriRef",
           "package": "swish",
@@ -15187,6 +16388,7 @@
         "index": {
           "description": "This function generates query binding filter that ensures an indicated variable is bound to URI reference",
           "hierarchy": "Swish RDF VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.VarBinding",
           "name": "rdfVarBindingUriRef",
           "normalized": "RDFLabel-\u003eRDFVarBindingFilter",
@@ -15203,6 +16405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function generates a query binding filter that ensures\n  an indicated variable is bound to an XML literal value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.VarBinding",
           "name": "rdfVarBindingXMLLiteral",
           "package": "swish",
@@ -15213,6 +16416,7 @@
         "index": {
           "description": "This function generates query binding filter that ensures an indicated variable is bound to an XML literal value",
           "hierarchy": "Swish RDF VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.VarBinding",
           "name": "rdfVarBindingXMLLiteral",
           "normalized": "RDFLabel-\u003eRDFVarBindingFilter",
@@ -15229,6 +16433,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines some commonly used vocabulary terms from the Dublin Core\n  vocabularies (\u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "DublinCore",
           "package": "swish",
@@ -15238,6 +16443,7 @@
         "index": {
           "description": "This module defines some commonly used vocabulary terms from the Dublin Core vocabularies http dublincore.org documents dcmi-terms",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "DublinCore",
           "package": "swish",
@@ -15252,6 +16458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcam:memberOf\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#dcam-memberOf\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcamVocabularyEncodingScheme",
           "package": "swish",
@@ -15262,6 +16469,7 @@
         "index": {
           "description": "dcam memberOf from http dublincore.org documents dcmi-terms dcam-memberOf",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcamVocabularyEncodingScheme",
           "package": "swish",
@@ -15276,6 +16484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcam:memberOf\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#dcam-memberOf\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcammemberOf",
           "package": "swish",
@@ -15286,6 +16495,7 @@
         "index": {
           "description": "dcam memberOf from http dublincore.org documents dcmi-terms dcam-memberOf",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcammemberOf",
           "package": "swish",
@@ -15300,6 +16510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcelem:contributor\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#elements-contributor\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemcontributor",
           "package": "swish",
@@ -15310,6 +16521,7 @@
         "index": {
           "description": "dcelem contributor from http dublincore.org documents dcmi-terms elements-contributor",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemcontributor",
           "package": "swish",
@@ -15323,6 +16535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcelem:coverage\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#elements-coverage\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemcoverage",
           "package": "swish",
@@ -15333,6 +16546,7 @@
         "index": {
           "description": "dcelem coverage from http dublincore.org documents dcmi-terms elements-coverage",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemcoverage",
           "package": "swish",
@@ -15346,6 +16560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcelem:creator\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#elements-creator\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemcreator",
           "package": "swish",
@@ -15356,6 +16571,7 @@
         "index": {
           "description": "dcelem creator from http dublincore.org documents dcmi-terms elements-creator",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemcreator",
           "package": "swish",
@@ -15369,6 +16585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcelem:date\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#elements-date\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemdate",
           "package": "swish",
@@ -15379,6 +16596,7 @@
         "index": {
           "description": "dcelem date from http dublincore.org documents dcmi-terms elements-date",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemdate",
           "package": "swish",
@@ -15392,6 +16610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcelem:description\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#elements-description\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemdescription",
           "package": "swish",
@@ -15402,6 +16621,7 @@
         "index": {
           "description": "dcelem description from http dublincore.org documents dcmi-terms elements-description",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemdescription",
           "package": "swish",
@@ -15415,6 +16635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcelem:format\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#elements-format\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemformat",
           "package": "swish",
@@ -15425,6 +16646,7 @@
         "index": {
           "description": "dcelem format from http dublincore.org documents dcmi-terms elements-format",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemformat",
           "package": "swish",
@@ -15438,6 +16660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcelem:identifier\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#elements-identifier\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemidentifier",
           "package": "swish",
@@ -15448,6 +16671,7 @@
         "index": {
           "description": "dcelem identifier from http dublincore.org documents dcmi-terms elements-identifier",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemidentifier",
           "package": "swish",
@@ -15461,6 +16685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcelem:language\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#elements-language\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemlanguage",
           "package": "swish",
@@ -15471,6 +16696,7 @@
         "index": {
           "description": "dcelem language from http dublincore.org documents dcmi-terms elements-language",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemlanguage",
           "package": "swish",
@@ -15484,6 +16710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcelem:publisher\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#elements-publisher\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelempublisher",
           "package": "swish",
@@ -15494,6 +16721,7 @@
         "index": {
           "description": "dcelem publisher from http dublincore.org documents dcmi-terms elements-publisher",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelempublisher",
           "package": "swish",
@@ -15507,6 +16735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcelem:relation\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#elements-relation\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemrelation",
           "package": "swish",
@@ -15517,6 +16746,7 @@
         "index": {
           "description": "dcelem relation from http dublincore.org documents dcmi-terms elements-relation",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemrelation",
           "package": "swish",
@@ -15530,6 +16760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcelem:rights\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#elements-rights\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemrights",
           "package": "swish",
@@ -15540,6 +16771,7 @@
         "index": {
           "description": "dcelem rights from http dublincore.org documents dcmi-terms elements-rights",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemrights",
           "package": "swish",
@@ -15553,6 +16785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcelem:source\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#elements-source\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemsource",
           "package": "swish",
@@ -15563,6 +16796,7 @@
         "index": {
           "description": "dcelem source from http dublincore.org documents dcmi-terms elements-source",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemsource",
           "package": "swish",
@@ -15576,6 +16810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcelem:subject\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#elements-subject\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemsubject",
           "package": "swish",
@@ -15586,6 +16821,7 @@
         "index": {
           "description": "dcelem subject from http dublincore.org documents dcmi-terms elements-subject",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemsubject",
           "package": "swish",
@@ -15599,6 +16835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcelem:title\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#elements-title\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemtitle",
           "package": "swish",
@@ -15609,6 +16846,7 @@
         "index": {
           "description": "dcelem title from http dublincore.org documents dcmi-terms elements-title",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemtitle",
           "package": "swish",
@@ -15622,6 +16860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcelem:type\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#elements-type\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemtype",
           "package": "swish",
@@ -15632,6 +16871,7 @@
         "index": {
           "description": "dcelem type from http dublincore.org documents dcmi-terms elements-type",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcelemtype",
           "package": "swish",
@@ -15645,6 +16885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:Agent\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#classes-Agent\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctAgent",
           "package": "swish",
@@ -15655,6 +16896,7 @@
         "index": {
           "description": "dcterms Agent from http dublincore.org documents dcmi-terms classes-Agent",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctAgent",
           "package": "swish",
@@ -15669,6 +16911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:AgentClass\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#classes-AgentClass\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctAgentClass",
           "package": "swish",
@@ -15679,6 +16922,7 @@
         "index": {
           "description": "dcterms AgentClass from http dublincore.org documents dcmi-terms classes-AgentClass",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctAgentClass",
           "package": "swish",
@@ -15693,6 +16937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:BibliographicResource\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#classes-BibliographicResource\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctBibliographicResource",
           "package": "swish",
@@ -15703,6 +16948,7 @@
         "index": {
           "description": "dcterms BibliographicResource from http dublincore.org documents dcmi-terms classes-BibliographicResource",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctBibliographicResource",
           "package": "swish",
@@ -15717,6 +16963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:Box\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#ses-Box\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctBox",
           "package": "swish",
@@ -15727,6 +16974,7 @@
         "index": {
           "description": "dcterms Box from http dublincore.org documents dcmi-terms ses-Box",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctBox",
           "package": "swish",
@@ -15741,6 +16989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:DCMIType\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#ves-DCMIType\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctDCMIType",
           "package": "swish",
@@ -15751,6 +17000,7 @@
         "index": {
           "description": "dcterms DCMIType from http dublincore.org documents dcmi-terms ves-DCMIType",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctDCMIType",
           "package": "swish",
@@ -15765,6 +17015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:DDC\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#ves-DDC\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctDDC",
           "package": "swish",
@@ -15775,6 +17026,7 @@
         "index": {
           "description": "dcterms DDC from http dublincore.org documents dcmi-terms ves-DDC",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctDDC",
           "package": "swish",
@@ -15789,6 +17041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:FileFormat\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#classes-FileFormat\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctFileFormat",
           "package": "swish",
@@ -15799,6 +17052,7 @@
         "index": {
           "description": "dcterms FileFormat from http dublincore.org documents dcmi-terms classes-FileFormat",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctFileFormat",
           "package": "swish",
@@ -15813,6 +17067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:Frequency\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#classes-Frequency\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctFrequency",
           "package": "swish",
@@ -15823,6 +17078,7 @@
         "index": {
           "description": "dcterms Frequency from http dublincore.org documents dcmi-terms classes-Frequency",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctFrequency",
           "package": "swish",
@@ -15837,6 +17093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:IMT\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#ves-IMT\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctIMT",
           "package": "swish",
@@ -15847,6 +17104,7 @@
         "index": {
           "description": "dcterms IMT from http dublincore.org documents dcmi-terms ves-IMT",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctIMT",
           "package": "swish",
@@ -15861,6 +17119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:ISO3166\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#ses-ISO3166\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctISO3166",
           "package": "swish",
@@ -15871,6 +17130,7 @@
         "index": {
           "description": "dcterms ISO3166 from http dublincore.org documents dcmi-terms ses-ISO3166",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctISO3166",
           "package": "swish",
@@ -15885,6 +17145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:ISO639-2\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#ses-ISO639-2\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctISO639_2",
           "package": "swish",
@@ -15895,6 +17156,7 @@
         "index": {
           "description": "dcterms ISO639-2 from http dublincore.org documents dcmi-terms ses-ISO639-2",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctISO639_2",
           "package": "swish",
@@ -15909,6 +17171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:ISO639-3\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#ses-ISO639-3\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctISO639_3",
           "package": "swish",
@@ -15919,6 +17182,7 @@
         "index": {
           "description": "dcterms ISO639-3 from http dublincore.org documents dcmi-terms ses-ISO639-3",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctISO639_3",
           "package": "swish",
@@ -15933,6 +17197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:Jurisdiction\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#classes-Jurisdiction\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctJurisdiction",
           "package": "swish",
@@ -15943,6 +17208,7 @@
         "index": {
           "description": "dcterms Jurisdiction from http dublincore.org documents dcmi-terms classes-Jurisdiction",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctJurisdiction",
           "package": "swish",
@@ -15957,6 +17223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:LCC\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#ves-LCC\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctLCC",
           "package": "swish",
@@ -15967,6 +17234,7 @@
         "index": {
           "description": "dcterms LCC from http dublincore.org documents dcmi-terms ves-LCC",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctLCC",
           "package": "swish",
@@ -15981,6 +17249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:LCSH\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#ves-LCSH\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctLCSH",
           "package": "swish",
@@ -15991,6 +17260,7 @@
         "index": {
           "description": "dcterms LCSH from http dublincore.org documents dcmi-terms ves-LCSH",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctLCSH",
           "package": "swish",
@@ -16005,6 +17275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:LicenseDocument\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#classes-LicenseDocument\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctLicenseDocument",
           "package": "swish",
@@ -16015,6 +17286,7 @@
         "index": {
           "description": "dcterms LicenseDocument from http dublincore.org documents dcmi-terms classes-LicenseDocument",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctLicenseDocument",
           "package": "swish",
@@ -16029,6 +17301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:LinguisticSystem\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#classes-LinguisticSystem\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctLinguisticSystem",
           "package": "swish",
@@ -16039,6 +17312,7 @@
         "index": {
           "description": "dcterms LinguisticSystem from http dublincore.org documents dcmi-terms classes-LinguisticSystem",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctLinguisticSystem",
           "package": "swish",
@@ -16053,6 +17327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:Location\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#classes-Location\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctLocation",
           "package": "swish",
@@ -16063,6 +17338,7 @@
         "index": {
           "description": "dcterms Location from http dublincore.org documents dcmi-terms classes-Location",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctLocation",
           "package": "swish",
@@ -16077,6 +17353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:LocationPeriodOrJurisdiction\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#classes-LocationPeriodOrJurisdiction\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctLocationPeriodOrJurisdiction",
           "package": "swish",
@@ -16087,6 +17364,7 @@
         "index": {
           "description": "dcterms LocationPeriodOrJurisdiction from http dublincore.org documents dcmi-terms classes-LocationPeriodOrJurisdiction",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctLocationPeriodOrJurisdiction",
           "package": "swish",
@@ -16101,6 +17379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:MESH\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#ves-MESH\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctMESH",
           "package": "swish",
@@ -16111,6 +17390,7 @@
         "index": {
           "description": "dcterms MESH from http dublincore.org documents dcmi-terms ves-MESH",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctMESH",
           "package": "swish",
@@ -16125,6 +17405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:MediaType\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#classes-MediaType\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctMediaType",
           "package": "swish",
@@ -16135,6 +17416,7 @@
         "index": {
           "description": "dcterms MediaType from http dublincore.org documents dcmi-terms classes-MediaType",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctMediaType",
           "package": "swish",
@@ -16149,6 +17431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:MediaTypeOrExtent\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#classes-MediaTypeOrExtent\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctMediaTypeOrExtent",
           "package": "swish",
@@ -16159,6 +17442,7 @@
         "index": {
           "description": "dcterms MediaTypeOrExtent from http dublincore.org documents dcmi-terms classes-MediaTypeOrExtent",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctMediaTypeOrExtent",
           "package": "swish",
@@ -16173,6 +17457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:MethodOfAccrual\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#classes-MethodOfAccrual\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctMethodOfAccrual",
           "package": "swish",
@@ -16183,6 +17468,7 @@
         "index": {
           "description": "dcterms MethodOfAccrual from http dublincore.org documents dcmi-terms classes-MethodOfAccrual",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctMethodOfAccrual",
           "package": "swish",
@@ -16197,6 +17483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:MethodOfInstruction\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#classes-MethodOfInstruction\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctMethodOfInstruction",
           "package": "swish",
@@ -16207,6 +17494,7 @@
         "index": {
           "description": "dcterms MethodOfInstruction from http dublincore.org documents dcmi-terms classes-MethodOfInstruction",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctMethodOfInstruction",
           "package": "swish",
@@ -16221,6 +17509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:NLM\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#ves-NLM\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctNLM",
           "package": "swish",
@@ -16231,6 +17520,7 @@
         "index": {
           "description": "dcterms NLM from http dublincore.org documents dcmi-terms ves-NLM",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctNLM",
           "package": "swish",
@@ -16245,6 +17535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:Period\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#ses-Period\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctPeriod",
           "package": "swish",
@@ -16255,6 +17546,7 @@
         "index": {
           "description": "dcterms Period from http dublincore.org documents dcmi-terms ses-Period",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctPeriod",
           "package": "swish",
@@ -16269,6 +17561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:PeriodOfTime\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#classes-PeriodOfTime\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctPeriodOfTime",
           "package": "swish",
@@ -16279,6 +17572,7 @@
         "index": {
           "description": "dcterms PeriodOfTime from http dublincore.org documents dcmi-terms classes-PeriodOfTime",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctPeriodOfTime",
           "package": "swish",
@@ -16293,6 +17587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:PhysicalMedium\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#classes-PhysicalMedium\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctPhysicalMedium",
           "package": "swish",
@@ -16303,6 +17598,7 @@
         "index": {
           "description": "dcterms PhysicalMedium from http dublincore.org documents dcmi-terms classes-PhysicalMedium",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctPhysicalMedium",
           "package": "swish",
@@ -16317,6 +17613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:PhysicalResource\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#classes-PhysicalResource\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctPhysicalResource",
           "package": "swish",
@@ -16327,6 +17624,7 @@
         "index": {
           "description": "dcterms PhysicalResource from http dublincore.org documents dcmi-terms classes-PhysicalResource",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctPhysicalResource",
           "package": "swish",
@@ -16341,6 +17639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:Point\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#ses-Point\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctPoint",
           "package": "swish",
@@ -16351,6 +17650,7 @@
         "index": {
           "description": "dcterms Point from http dublincore.org documents dcmi-terms ses-Point",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctPoint",
           "package": "swish",
@@ -16365,6 +17665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:Policy\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#classes-Policy\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctPolicy",
           "package": "swish",
@@ -16375,6 +17676,7 @@
         "index": {
           "description": "dcterms Policy from http dublincore.org documents dcmi-terms classes-Policy",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctPolicy",
           "package": "swish",
@@ -16389,6 +17691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:ProvenanceStatement\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#classes-ProvenanceStatement\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctProvenanceStatement",
           "package": "swish",
@@ -16399,6 +17702,7 @@
         "index": {
           "description": "dcterms ProvenanceStatement from http dublincore.org documents dcmi-terms classes-ProvenanceStatement",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctProvenanceStatement",
           "package": "swish",
@@ -16413,6 +17717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:RFC1766\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#ses-RFC1766\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctRFC1766",
           "package": "swish",
@@ -16423,6 +17728,7 @@
         "index": {
           "description": "dcterms RFC1766 from http dublincore.org documents dcmi-terms ses-RFC1766",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctRFC1766",
           "package": "swish",
@@ -16437,6 +17743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:RFC3066\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#ses-RFC3066\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctRFC3066",
           "package": "swish",
@@ -16447,6 +17754,7 @@
         "index": {
           "description": "dcterms RFC3066 from http dublincore.org documents dcmi-terms ses-RFC3066",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctRFC3066",
           "package": "swish",
@@ -16461,6 +17769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:RFC4646\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#ses-RFC4646\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctRFC4646",
           "package": "swish",
@@ -16471,6 +17780,7 @@
         "index": {
           "description": "dcterms RFC4646 from http dublincore.org documents dcmi-terms ses-RFC4646",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctRFC4646",
           "package": "swish",
@@ -16485,6 +17795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:RFC5646\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#ses-RFC5646\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctRFC5646",
           "package": "swish",
@@ -16495,6 +17806,7 @@
         "index": {
           "description": "dcterms RFC5646 from http dublincore.org documents dcmi-terms ses-RFC5646",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctRFC5646",
           "package": "swish",
@@ -16509,6 +17821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:RightsStatement\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#classes-RightsStatement\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctRightsStatement",
           "package": "swish",
@@ -16519,6 +17832,7 @@
         "index": {
           "description": "dcterms RightsStatement from http dublincore.org documents dcmi-terms classes-RightsStatement",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctRightsStatement",
           "package": "swish",
@@ -16533,6 +17847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:SizeOrDuration\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#classes-SizeOrDuration\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctSizeOrDuration",
           "package": "swish",
@@ -16543,6 +17858,7 @@
         "index": {
           "description": "dcterms SizeOrDuration from http dublincore.org documents dcmi-terms classes-SizeOrDuration",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctSizeOrDuration",
           "package": "swish",
@@ -16557,6 +17873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:Standard\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#classes-Standard\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctStandard",
           "package": "swish",
@@ -16567,6 +17884,7 @@
         "index": {
           "description": "dcterms Standard from http dublincore.org documents dcmi-terms classes-Standard",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctStandard",
           "package": "swish",
@@ -16581,6 +17899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:TGN\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#ves-TGN\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctTGN",
           "package": "swish",
@@ -16591,6 +17910,7 @@
         "index": {
           "description": "dcterms TGN from http dublincore.org documents dcmi-terms ves-TGN",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctTGN",
           "package": "swish",
@@ -16605,6 +17925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:UDC\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#ves-UDC\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctUDC",
           "package": "swish",
@@ -16615,6 +17936,7 @@
         "index": {
           "description": "dcterms UDC from http dublincore.org documents dcmi-terms ves-UDC",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctUDC",
           "package": "swish",
@@ -16629,6 +17951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:URI\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#ses-URI\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctURI",
           "package": "swish",
@@ -16639,6 +17962,7 @@
         "index": {
           "description": "dcterms URI from http dublincore.org documents dcmi-terms ses-URI",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctURI",
           "package": "swish",
@@ -16653,6 +17977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:W3CDTF\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#ses-W3CDTF\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctW3CDTF",
           "package": "swish",
@@ -16663,6 +17988,7 @@
         "index": {
           "description": "dcterms W3CDTF from http dublincore.org documents dcmi-terms ses-W3CDTF",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctW3CDTF",
           "package": "swish",
@@ -16677,6 +18003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:abstract\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-abstract\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctabstract",
           "package": "swish",
@@ -16687,6 +18014,7 @@
         "index": {
           "description": "dcterms abstract from http dublincore.org documents dcmi-terms terms-abstract",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctabstract",
           "package": "swish",
@@ -16700,6 +18028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:accessRights\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-accessRights\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctaccessRights",
           "package": "swish",
@@ -16710,6 +18039,7 @@
         "index": {
           "description": "dcterms accessRights from http dublincore.org documents dcmi-terms terms-accessRights",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctaccessRights",
           "package": "swish",
@@ -16724,6 +18054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:accrualMethod\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-accrualMethod\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctaccrualMethod",
           "package": "swish",
@@ -16734,6 +18065,7 @@
         "index": {
           "description": "dcterms accrualMethod from http dublincore.org documents dcmi-terms terms-accrualMethod",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctaccrualMethod",
           "package": "swish",
@@ -16748,6 +18080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:accrualPeriodicity\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-accrualPeriodicity\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctaccrualPeriodicity",
           "package": "swish",
@@ -16758,6 +18091,7 @@
         "index": {
           "description": "dcterms accrualPeriodicity from http dublincore.org documents dcmi-terms terms-accrualPeriodicity",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctaccrualPeriodicity",
           "package": "swish",
@@ -16772,6 +18106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:accrualPolicy\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-accrualPolicy\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctaccrualPolicy",
           "package": "swish",
@@ -16782,6 +18117,7 @@
         "index": {
           "description": "dcterms accrualPolicy from http dublincore.org documents dcmi-terms terms-accrualPolicy",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctaccrualPolicy",
           "package": "swish",
@@ -16796,6 +18132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:alternative\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-alternative\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctalternative",
           "package": "swish",
@@ -16806,6 +18143,7 @@
         "index": {
           "description": "dcterms alternative from http dublincore.org documents dcmi-terms terms-alternative",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctalternative",
           "package": "swish",
@@ -16819,6 +18157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:audience\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-audience\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctaudience",
           "package": "swish",
@@ -16829,6 +18168,7 @@
         "index": {
           "description": "dcterms audience from http dublincore.org documents dcmi-terms terms-audience",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctaudience",
           "package": "swish",
@@ -16842,6 +18182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:available\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-available\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctavailable",
           "package": "swish",
@@ -16852,6 +18193,7 @@
         "index": {
           "description": "dcterms available from http dublincore.org documents dcmi-terms terms-available",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctavailable",
           "package": "swish",
@@ -16865,6 +18207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:bibliographicCitation\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-bibliographicCitation\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctbibliographicCitation",
           "package": "swish",
@@ -16875,6 +18218,7 @@
         "index": {
           "description": "dcterms bibliographicCitation from http dublincore.org documents dcmi-terms terms-bibliographicCitation",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctbibliographicCitation",
           "package": "swish",
@@ -16889,6 +18233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:conformsTo\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-conformsTo\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctconformsTo",
           "package": "swish",
@@ -16899,6 +18244,7 @@
         "index": {
           "description": "dcterms conformsTo from http dublincore.org documents dcmi-terms terms-conformsTo",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctconformsTo",
           "package": "swish",
@@ -16913,6 +18259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:contributor\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-contributor\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctcontributor",
           "package": "swish",
@@ -16923,6 +18270,7 @@
         "index": {
           "description": "dcterms contributor from http dublincore.org documents dcmi-terms terms-contributor",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctcontributor",
           "package": "swish",
@@ -16936,6 +18284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:coverage\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-coverage\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctcoverage",
           "package": "swish",
@@ -16946,6 +18295,7 @@
         "index": {
           "description": "dcterms coverage from http dublincore.org documents dcmi-terms terms-coverage",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctcoverage",
           "package": "swish",
@@ -16959,6 +18309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:created\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-created\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctcreated",
           "package": "swish",
@@ -16969,6 +18320,7 @@
         "index": {
           "description": "dcterms created from http dublincore.org documents dcmi-terms terms-created",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctcreated",
           "package": "swish",
@@ -16982,6 +18334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:creator\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-creator\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctcreator",
           "package": "swish",
@@ -16992,6 +18345,7 @@
         "index": {
           "description": "dcterms creator from http dublincore.org documents dcmi-terms terms-creator",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctcreator",
           "package": "swish",
@@ -17005,6 +18359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:date\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-date\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctdate",
           "package": "swish",
@@ -17015,6 +18370,7 @@
         "index": {
           "description": "dcterms date from http dublincore.org documents dcmi-terms terms-date",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctdate",
           "package": "swish",
@@ -17028,6 +18384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:dateAccepted\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-dateAccepted\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctdateAccepted",
           "package": "swish",
@@ -17038,6 +18395,7 @@
         "index": {
           "description": "dcterms dateAccepted from http dublincore.org documents dcmi-terms terms-dateAccepted",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctdateAccepted",
           "package": "swish",
@@ -17052,6 +18410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:dateCopyrighted\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-dateCopyrighted\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctdateCopyrighted",
           "package": "swish",
@@ -17062,6 +18421,7 @@
         "index": {
           "description": "dcterms dateCopyrighted from http dublincore.org documents dcmi-terms terms-dateCopyrighted",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctdateCopyrighted",
           "package": "swish",
@@ -17076,6 +18436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:dateSubmitted\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-dateSubmitted\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctdateSubmitted",
           "package": "swish",
@@ -17086,6 +18447,7 @@
         "index": {
           "description": "dcterms dateSubmitted from http dublincore.org documents dcmi-terms terms-dateSubmitted",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctdateSubmitted",
           "package": "swish",
@@ -17100,6 +18462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:description\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-description\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctdescription",
           "package": "swish",
@@ -17110,6 +18473,7 @@
         "index": {
           "description": "dcterms description from http dublincore.org documents dcmi-terms terms-description",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctdescription",
           "package": "swish",
@@ -17123,6 +18487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:educationLevel\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-educationLevel\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcteducationLevel",
           "package": "swish",
@@ -17133,6 +18498,7 @@
         "index": {
           "description": "dcterms educationLevel from http dublincore.org documents dcmi-terms terms-educationLevel",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcteducationLevel",
           "package": "swish",
@@ -17147,6 +18513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:extent\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-extent\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctextent",
           "package": "swish",
@@ -17157,6 +18524,7 @@
         "index": {
           "description": "dcterms extent from http dublincore.org documents dcmi-terms terms-extent",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctextent",
           "package": "swish",
@@ -17170,6 +18538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:format\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-format\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctformat",
           "package": "swish",
@@ -17180,6 +18549,7 @@
         "index": {
           "description": "dcterms format from http dublincore.org documents dcmi-terms terms-format",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctformat",
           "package": "swish",
@@ -17193,6 +18563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:hasFormat\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-hasFormat\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcthasFormat",
           "package": "swish",
@@ -17203,6 +18574,7 @@
         "index": {
           "description": "dcterms hasFormat from http dublincore.org documents dcmi-terms terms-hasFormat",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcthasFormat",
           "package": "swish",
@@ -17217,6 +18589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:hasPart\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-hasPart\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcthasPart",
           "package": "swish",
@@ -17227,6 +18600,7 @@
         "index": {
           "description": "dcterms hasPart from http dublincore.org documents dcmi-terms terms-hasPart",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcthasPart",
           "package": "swish",
@@ -17241,6 +18615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:hasVersion\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-hasVersion\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcthasVersion",
           "package": "swish",
@@ -17251,6 +18626,7 @@
         "index": {
           "description": "dcterms hasVersion from http dublincore.org documents dcmi-terms terms-hasVersion",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcthasVersion",
           "package": "swish",
@@ -17265,6 +18641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:identifier\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-identifier\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctidentifier",
           "package": "swish",
@@ -17275,6 +18652,7 @@
         "index": {
           "description": "dcterms identifier from http dublincore.org documents dcmi-terms terms-identifier",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctidentifier",
           "package": "swish",
@@ -17288,6 +18666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:instructionalMethod\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-instructionalMethod\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctinstructionalMethod",
           "package": "swish",
@@ -17298,6 +18677,7 @@
         "index": {
           "description": "dcterms instructionalMethod from http dublincore.org documents dcmi-terms terms-instructionalMethod",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctinstructionalMethod",
           "package": "swish",
@@ -17312,6 +18692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:isFormatOf\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-isFormatOf\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctisFormatOf",
           "package": "swish",
@@ -17322,6 +18703,7 @@
         "index": {
           "description": "dcterms isFormatOf from http dublincore.org documents dcmi-terms terms-isFormatOf",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctisFormatOf",
           "package": "swish",
@@ -17336,6 +18718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:isPartOf\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-isPartOf\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctisPartOf",
           "package": "swish",
@@ -17346,6 +18729,7 @@
         "index": {
           "description": "dcterms isPartOf from http dublincore.org documents dcmi-terms terms-isPartOf",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctisPartOf",
           "package": "swish",
@@ -17360,6 +18744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:isReferencedBy\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-isReferencedBy\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctisReferencedBy",
           "package": "swish",
@@ -17370,6 +18755,7 @@
         "index": {
           "description": "dcterms isReferencedBy from http dublincore.org documents dcmi-terms terms-isReferencedBy",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctisReferencedBy",
           "package": "swish",
@@ -17384,6 +18770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:isReplacedBy\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-isReplacedBy\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctisReplacedBy",
           "package": "swish",
@@ -17394,6 +18781,7 @@
         "index": {
           "description": "dcterms isReplacedBy from http dublincore.org documents dcmi-terms terms-isReplacedBy",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctisReplacedBy",
           "package": "swish",
@@ -17408,6 +18796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:isRequiredBy\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-isRequiredBy\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctisRequiredBy",
           "package": "swish",
@@ -17418,6 +18807,7 @@
         "index": {
           "description": "dcterms isRequiredBy from http dublincore.org documents dcmi-terms terms-isRequiredBy",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctisRequiredBy",
           "package": "swish",
@@ -17432,6 +18822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:isVersionOf\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-isVersionOf\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctisVersionOf",
           "package": "swish",
@@ -17442,6 +18833,7 @@
         "index": {
           "description": "dcterms isVersionOf from http dublincore.org documents dcmi-terms terms-isVersionOf",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctisVersionOf",
           "package": "swish",
@@ -17456,6 +18848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:issued\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-issued\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctissued",
           "package": "swish",
@@ -17466,6 +18859,7 @@
         "index": {
           "description": "dcterms issued from http dublincore.org documents dcmi-terms terms-issued",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctissued",
           "package": "swish",
@@ -17479,6 +18873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:language\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-language\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctlanguage",
           "package": "swish",
@@ -17489,6 +18884,7 @@
         "index": {
           "description": "dcterms language from http dublincore.org documents dcmi-terms terms-language",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctlanguage",
           "package": "swish",
@@ -17502,6 +18898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:license\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-license\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctlicense",
           "package": "swish",
@@ -17512,6 +18909,7 @@
         "index": {
           "description": "dcterms license from http dublincore.org documents dcmi-terms terms-license",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctlicense",
           "package": "swish",
@@ -17525,6 +18923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:mediator\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-mediator\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctmediator",
           "package": "swish",
@@ -17535,6 +18934,7 @@
         "index": {
           "description": "dcterms mediator from http dublincore.org documents dcmi-terms terms-mediator",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctmediator",
           "package": "swish",
@@ -17548,6 +18948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:medium\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-medium\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctmedium",
           "package": "swish",
@@ -17558,6 +18959,7 @@
         "index": {
           "description": "dcterms medium from http dublincore.org documents dcmi-terms terms-medium",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctmedium",
           "package": "swish",
@@ -17571,6 +18973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:modified\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-modified\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctmodified",
           "package": "swish",
@@ -17581,6 +18984,7 @@
         "index": {
           "description": "dcterms modified from http dublincore.org documents dcmi-terms terms-modified",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctmodified",
           "package": "swish",
@@ -17594,6 +18998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:provenance\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-provenance\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctprovenance",
           "package": "swish",
@@ -17604,6 +19009,7 @@
         "index": {
           "description": "dcterms provenance from http dublincore.org documents dcmi-terms terms-provenance",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctprovenance",
           "package": "swish",
@@ -17617,6 +19023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:publisher\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-publisher\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctpublisher",
           "package": "swish",
@@ -17627,6 +19034,7 @@
         "index": {
           "description": "dcterms publisher from http dublincore.org documents dcmi-terms terms-publisher",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctpublisher",
           "package": "swish",
@@ -17640,6 +19048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:references\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-references\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctreferences",
           "package": "swish",
@@ -17650,6 +19059,7 @@
         "index": {
           "description": "dcterms references from http dublincore.org documents dcmi-terms terms-references",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctreferences",
           "package": "swish",
@@ -17663,6 +19073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:relation\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-relation\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctrelation",
           "package": "swish",
@@ -17673,6 +19084,7 @@
         "index": {
           "description": "dcterms relation from http dublincore.org documents dcmi-terms terms-relation",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctrelation",
           "package": "swish",
@@ -17686,6 +19098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:replaces\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-replaces\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctreplaces",
           "package": "swish",
@@ -17696,6 +19109,7 @@
         "index": {
           "description": "dcterms replaces from http dublincore.org documents dcmi-terms terms-replaces",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctreplaces",
           "package": "swish",
@@ -17709,6 +19123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:requires\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-requires\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctrequires",
           "package": "swish",
@@ -17719,6 +19134,7 @@
         "index": {
           "description": "dcterms requires from http dublincore.org documents dcmi-terms terms-requires",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctrequires",
           "package": "swish",
@@ -17732,6 +19148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:rights\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-rights\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctrights",
           "package": "swish",
@@ -17742,6 +19159,7 @@
         "index": {
           "description": "dcterms rights from http dublincore.org documents dcmi-terms terms-rights",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctrights",
           "package": "swish",
@@ -17755,6 +19173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:rightsHolder\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-rightsHolder\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctrightsHolder",
           "package": "swish",
@@ -17765,6 +19184,7 @@
         "index": {
           "description": "dcterms rightsHolder from http dublincore.org documents dcmi-terms terms-rightsHolder",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctrightsHolder",
           "package": "swish",
@@ -17779,6 +19199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:source\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-source\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctsource",
           "package": "swish",
@@ -17789,6 +19210,7 @@
         "index": {
           "description": "dcterms source from http dublincore.org documents dcmi-terms terms-source",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctsource",
           "package": "swish",
@@ -17802,6 +19224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:spatial\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-spatial\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctspatial",
           "package": "swish",
@@ -17812,6 +19235,7 @@
         "index": {
           "description": "dcterms spatial from http dublincore.org documents dcmi-terms terms-spatial",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctspatial",
           "package": "swish",
@@ -17825,6 +19249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:subject\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-subject\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctsubject",
           "package": "swish",
@@ -17835,6 +19260,7 @@
         "index": {
           "description": "dcterms subject from http dublincore.org documents dcmi-terms terms-subject",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctsubject",
           "package": "swish",
@@ -17848,6 +19274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:tableOfContents\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-tableOfContents\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcttableOfContents",
           "package": "swish",
@@ -17858,6 +19285,7 @@
         "index": {
           "description": "dcterms tableOfContents from http dublincore.org documents dcmi-terms terms-tableOfContents",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcttableOfContents",
           "package": "swish",
@@ -17872,6 +19300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:temporal\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-temporal\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcttemporal",
           "package": "swish",
@@ -17882,6 +19311,7 @@
         "index": {
           "description": "dcterms temporal from http dublincore.org documents dcmi-terms terms-temporal",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcttemporal",
           "package": "swish",
@@ -17895,6 +19325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:title\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-title\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcttitle",
           "package": "swish",
@@ -17905,6 +19336,7 @@
         "index": {
           "description": "dcterms title from http dublincore.org documents dcmi-terms terms-title",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcttitle",
           "package": "swish",
@@ -17918,6 +19350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:type\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-type\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcttype",
           "package": "swish",
@@ -17928,6 +19361,7 @@
         "index": {
           "description": "dcterms type from http dublincore.org documents dcmi-terms terms-type",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dcttype",
           "package": "swish",
@@ -17941,6 +19375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edcterms:valid\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#terms-valid\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctvalid",
           "package": "swish",
@@ -17951,6 +19386,7 @@
         "index": {
           "description": "dcterms valid from http dublincore.org documents dcmi-terms terms-valid",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctvalid",
           "package": "swish",
@@ -17964,6 +19400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edctype:Collection\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#dcmitype-Collection\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypeCollection",
           "package": "swish",
@@ -17974,6 +19411,7 @@
         "index": {
           "description": "dctype Collection from http dublincore.org documents dcmi-terms dcmitype-Collection",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypeCollection",
           "package": "swish",
@@ -17988,6 +19426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edctype:Dataset\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#dcmitype-Dataset\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypeDataset",
           "package": "swish",
@@ -17998,6 +19437,7 @@
         "index": {
           "description": "dctype Dataset from http dublincore.org documents dcmi-terms dcmitype-Dataset",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypeDataset",
           "package": "swish",
@@ -18012,6 +19452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edctype:Event\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#dcmitype-Event\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypeEvent",
           "package": "swish",
@@ -18022,6 +19463,7 @@
         "index": {
           "description": "dctype Event from http dublincore.org documents dcmi-terms dcmitype-Event",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypeEvent",
           "package": "swish",
@@ -18036,6 +19478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edctype:Image\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#dcmitype-Image\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypeImage",
           "package": "swish",
@@ -18046,6 +19489,7 @@
         "index": {
           "description": "dctype Image from http dublincore.org documents dcmi-terms dcmitype-Image",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypeImage",
           "package": "swish",
@@ -18060,6 +19504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edctype:InteractiveResource\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#dcmitype-InteractiveResource\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypeInteractiveResource",
           "package": "swish",
@@ -18070,6 +19515,7 @@
         "index": {
           "description": "dctype InteractiveResource from http dublincore.org documents dcmi-terms dcmitype-InteractiveResource",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypeInteractiveResource",
           "package": "swish",
@@ -18084,6 +19530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edctype:MovingImage\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#dcmitype-MovingImage\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypeMovingImage",
           "package": "swish",
@@ -18094,6 +19541,7 @@
         "index": {
           "description": "dctype MovingImage from http dublincore.org documents dcmi-terms dcmitype-MovingImage",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypeMovingImage",
           "package": "swish",
@@ -18108,6 +19556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edctype:PhysicalObject\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#dcmitype-PhysicalObject\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypePhysicalObject",
           "package": "swish",
@@ -18118,6 +19567,7 @@
         "index": {
           "description": "dctype PhysicalObject from http dublincore.org documents dcmi-terms dcmitype-PhysicalObject",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypePhysicalObject",
           "package": "swish",
@@ -18132,6 +19582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edctype:Service\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#dcmitype-Service\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypeService",
           "package": "swish",
@@ -18142,6 +19593,7 @@
         "index": {
           "description": "dctype Service from http dublincore.org documents dcmi-terms dcmitype-Service",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypeService",
           "package": "swish",
@@ -18156,6 +19608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edctype:Software\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#dcmitype-Software\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypeSoftware",
           "package": "swish",
@@ -18166,6 +19619,7 @@
         "index": {
           "description": "dctype Software from http dublincore.org documents dcmi-terms dcmitype-Software",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypeSoftware",
           "package": "swish",
@@ -18180,6 +19634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edctype:Sound\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#dcmitype-Sound\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypeSound",
           "package": "swish",
@@ -18190,6 +19645,7 @@
         "index": {
           "description": "dctype Sound from http dublincore.org documents dcmi-terms dcmitype-Sound",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypeSound",
           "package": "swish",
@@ -18204,6 +19660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edctype:StillImage\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#dcmitype-StillImage\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypeStillImage",
           "package": "swish",
@@ -18214,6 +19671,7 @@
         "index": {
           "description": "dctype StillImage from http dublincore.org documents dcmi-terms dcmitype-StillImage",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypeStillImage",
           "package": "swish",
@@ -18228,6 +19686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edctype:Text\u003c/code\u003e from \u003ca\u003ehttp://dublincore.org/documents/dcmi-terms/#dcmitype-Text\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypeText",
           "package": "swish",
@@ -18238,6 +19697,7 @@
         "index": {
           "description": "dctype Text from http dublincore.org documents dcmi-terms dcmitype-Text",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "dctypeText",
           "package": "swish",
@@ -18252,6 +19712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps \u003ccode\u003edcam\u003c/code\u003e to \u003ca\u003ehttp://purl.org/dc/dcam/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "namespaceDCAM",
           "package": "swish",
@@ -18262,6 +19723,7 @@
         "index": {
           "description": "Maps dcam to http purl.org dc dcam",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "namespaceDCAM",
           "package": "swish",
@@ -18276,6 +19738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps \u003ccode\u003edcelem\u003c/code\u003e to the legacy namespace \u003ca\u003ehttp://purl.org/dc/elements/1.1/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "namespaceDCELEM",
           "package": "swish",
@@ -18286,6 +19749,7 @@
         "index": {
           "description": "Maps dcelem to the legacy namespace http purl.org dc elements",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "namespaceDCELEM",
           "package": "swish",
@@ -18300,6 +19764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps \u003ccode\u003edcterms\u003c/code\u003e to \u003ca\u003ehttp://purl.org/dc/terms/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "namespaceDCTERMS",
           "package": "swish",
@@ -18310,6 +19775,7 @@
         "index": {
           "description": "Maps dcterms to http purl.org dc terms",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "namespaceDCTERMS",
           "package": "swish",
@@ -18324,6 +19790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps \u003ccode\u003edctype\u003c/code\u003e to \u003ca\u003ehttp://purl.org/dc/dcmitype/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "namespaceDCTYPE",
           "package": "swish",
@@ -18334,6 +19801,7 @@
         "index": {
           "description": "Maps dctype to http purl.org dc dcmitype",
           "hierarchy": "Swish RDF Vocabulary DublinCore",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.DublinCore",
           "name": "namespaceDCTYPE",
           "package": "swish",
@@ -18348,6 +19816,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines some commonly used vocabulary terms from the FOAF\n  vocabulary (\u003ca\u003ehttp://xmlns.com/foaf/spec/\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eNote that unlike some of the existing vocabularies in Swish, the FOAF\n  one matches the case and spelling of the RDF terms; so we\n  use \u003ccode\u003e\u003ca\u003efoafbased_near\u003c/a\u003e\u003c/code\u003e\n  rather than \u003ccode\u003efoafBasedNear\u003c/code\u003e. This is partly because some terms would\n  end up with the same Haskell label if a conversion to camel-case wer\n  used.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "FOAF",
           "package": "swish",
@@ -18357,6 +19826,7 @@
         "index": {
           "description": "This module defines some commonly used vocabulary terms from the FOAF vocabulary http xmlns.com foaf spec Note that unlike some of the existing vocabularies in Swish the FOAF one matches the case and spelling of the RDF terms so we use foafbased near rather than foafBasedNear This is partly because some terms would end up with the same Haskell label if conversion to camel-case wer used",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "FOAF",
           "package": "swish",
@@ -18371,6 +19841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:Agent\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_Agent\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafAgent",
           "package": "swish",
@@ -18381,6 +19852,7 @@
         "index": {
           "description": "foaf Agent from http xmlns.com foaf spec term Agent",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafAgent",
           "package": "swish",
@@ -18395,6 +19867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:Document\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_Document\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafDocument",
           "package": "swish",
@@ -18405,6 +19878,7 @@
         "index": {
           "description": "foaf Document from http xmlns.com foaf spec term Document",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafDocument",
           "package": "swish",
@@ -18419,6 +19893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:Group\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_Group\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafGroup",
           "package": "swish",
@@ -18429,6 +19904,7 @@
         "index": {
           "description": "foaf Group from http xmlns.com foaf spec term Group",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafGroup",
           "package": "swish",
@@ -18443,6 +19919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:Image\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_Image\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafImage",
           "package": "swish",
@@ -18453,6 +19930,7 @@
         "index": {
           "description": "foaf Image from http xmlns.com foaf spec term Image",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafImage",
           "package": "swish",
@@ -18467,6 +19945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:LabelProperty\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_LabelProperty\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafLabelProperty",
           "package": "swish",
@@ -18477,6 +19956,7 @@
         "index": {
           "description": "foaf LabelProperty from http xmlns.com foaf spec term LabelProperty",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafLabelProperty",
           "package": "swish",
@@ -18491,6 +19971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:OnlineAccount\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_OnlineAccount\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafOnlineAccount",
           "package": "swish",
@@ -18501,6 +19982,7 @@
         "index": {
           "description": "foaf OnlineAccount from http xmlns.com foaf spec term OnlineAccount",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafOnlineAccount",
           "package": "swish",
@@ -18515,6 +19997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:OnlineChatAccount\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_OnlineChatAccount\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafOnlineChatAccount",
           "package": "swish",
@@ -18525,6 +20008,7 @@
         "index": {
           "description": "foaf OnlineChatAccount from http xmlns.com foaf spec term OnlineChatAccount",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafOnlineChatAccount",
           "package": "swish",
@@ -18539,6 +20023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:OnlineEcommerceAccount\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_OnlineEcommerceAccount\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafOnlineEcommerceAccount",
           "package": "swish",
@@ -18549,6 +20034,7 @@
         "index": {
           "description": "foaf OnlineEcommerceAccount from http xmlns.com foaf spec term OnlineEcommerceAccount",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafOnlineEcommerceAccount",
           "package": "swish",
@@ -18563,6 +20049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:OnlineGamingAccount\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_OnlineGamingAccount\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafOnlineGamingAccount",
           "package": "swish",
@@ -18573,6 +20060,7 @@
         "index": {
           "description": "foaf OnlineGamingAccount from http xmlns.com foaf spec term OnlineGamingAccount",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafOnlineGamingAccount",
           "package": "swish",
@@ -18587,6 +20075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:Organization\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_Organization\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafOrganization",
           "package": "swish",
@@ -18597,6 +20086,7 @@
         "index": {
           "description": "foaf Organization from http xmlns.com foaf spec term Organization",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafOrganization",
           "package": "swish",
@@ -18611,6 +20101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:Person\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_Person\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafPerson",
           "package": "swish",
@@ -18621,6 +20112,7 @@
         "index": {
           "description": "foaf Person from http xmlns.com foaf spec term Person",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafPerson",
           "package": "swish",
@@ -18635,6 +20127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:PersonalProfileDocument\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_PersonalProfileDocument\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafPersonalProfileDocument",
           "package": "swish",
@@ -18645,6 +20138,7 @@
         "index": {
           "description": "foaf PersonalProfileDocument from http xmlns.com foaf spec term PersonalProfileDocument",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafPersonalProfileDocument",
           "package": "swish",
@@ -18659,6 +20153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:Project\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_Project\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafProject",
           "package": "swish",
@@ -18669,6 +20164,7 @@
         "index": {
           "description": "foaf Project from http xmlns.com foaf spec term Project",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafProject",
           "package": "swish",
@@ -18683,6 +20179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:account\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_account\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafaccount",
           "package": "swish",
@@ -18693,6 +20190,7 @@
         "index": {
           "description": "foaf account from http xmlns.com foaf spec term account",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafaccount",
           "package": "swish",
@@ -18706,6 +20204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:accountName\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_accountName\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafaccountName",
           "package": "swish",
@@ -18716,6 +20215,7 @@
         "index": {
           "description": "foaf accountName from http xmlns.com foaf spec term accountName",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafaccountName",
           "package": "swish",
@@ -18730,6 +20230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:accountServiceHomepage\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_accountServiceHomepage\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafaccountServiceHomepage",
           "package": "swish",
@@ -18740,6 +20241,7 @@
         "index": {
           "description": "foaf accountServiceHomepage from http xmlns.com foaf spec term accountServiceHomepage",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafaccountServiceHomepage",
           "package": "swish",
@@ -18754,6 +20256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:age\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_age\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafage",
           "package": "swish",
@@ -18764,6 +20267,7 @@
         "index": {
           "description": "foaf age from http xmlns.com foaf spec term age",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafage",
           "package": "swish",
@@ -18777,6 +20281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:aimChatID\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_aimChatID\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafaimChatID",
           "package": "swish",
@@ -18787,6 +20292,7 @@
         "index": {
           "description": "foaf aimChatID from http xmlns.com foaf spec term aimChatID",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafaimChatID",
           "package": "swish",
@@ -18801,6 +20307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:based_near\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_based_near\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafbased_near",
           "package": "swish",
@@ -18811,6 +20318,7 @@
         "index": {
           "description": "foaf based near from http xmlns.com foaf spec term based near",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafbased_near",
           "package": "swish",
@@ -18824,6 +20332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:birthday\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_birthday\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafbirthday",
           "package": "swish",
@@ -18834,6 +20343,7 @@
         "index": {
           "description": "foaf birthday from http xmlns.com foaf spec term birthday",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafbirthday",
           "package": "swish",
@@ -18847,6 +20357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:currentProject\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_currentProject\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafcurrentProject",
           "package": "swish",
@@ -18857,6 +20368,7 @@
         "index": {
           "description": "foaf currentProject from http xmlns.com foaf spec term currentProject",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafcurrentProject",
           "package": "swish",
@@ -18871,6 +20383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:depiction\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_depiction\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafdepiction",
           "package": "swish",
@@ -18881,6 +20394,7 @@
         "index": {
           "description": "foaf depiction from http xmlns.com foaf spec term depiction",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafdepiction",
           "package": "swish",
@@ -18894,6 +20408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:depicts\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_depicts\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafdepicts",
           "package": "swish",
@@ -18904,6 +20419,7 @@
         "index": {
           "description": "foaf depicts from http xmlns.com foaf spec term depicts",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafdepicts",
           "package": "swish",
@@ -18917,6 +20433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:dnaChecksum\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_dnaChecksum\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafdnaChecksum",
           "package": "swish",
@@ -18927,6 +20444,7 @@
         "index": {
           "description": "foaf dnaChecksum from http xmlns.com foaf spec term dnaChecksum",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafdnaChecksum",
           "package": "swish",
@@ -18941,6 +20459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:familyName\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_familyName\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaffamilyName",
           "package": "swish",
@@ -18951,6 +20470,7 @@
         "index": {
           "description": "foaf familyName from http xmlns.com foaf spec term familyName",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaffamilyName",
           "package": "swish",
@@ -18965,6 +20485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:family_name\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_family_name\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaffamily_name",
           "package": "swish",
@@ -18975,6 +20496,7 @@
         "index": {
           "description": "foaf family name from http xmlns.com foaf spec term family name",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaffamily_name",
           "package": "swish",
@@ -18988,6 +20510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:firstName\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_firstName\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaffirstName",
           "package": "swish",
@@ -18998,6 +20521,7 @@
         "index": {
           "description": "foaf firstName from http xmlns.com foaf spec term firstName",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaffirstName",
           "package": "swish",
@@ -19012,6 +20536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:focus\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_focus\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaffocus",
           "package": "swish",
@@ -19022,6 +20547,7 @@
         "index": {
           "description": "foaf focus from http xmlns.com foaf spec term focus",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaffocus",
           "package": "swish",
@@ -19035,6 +20561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:fundedBy\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_fundedBy\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaffundedBy",
           "package": "swish",
@@ -19045,6 +20572,7 @@
         "index": {
           "description": "foaf fundedBy from http xmlns.com foaf spec term fundedBy",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaffundedBy",
           "package": "swish",
@@ -19059,6 +20587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:geekcode\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_geekcode\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafgeekcode",
           "package": "swish",
@@ -19069,6 +20598,7 @@
         "index": {
           "description": "foaf geekcode from http xmlns.com foaf spec term geekcode",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafgeekcode",
           "package": "swish",
@@ -19082,6 +20612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:gender\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_gender\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafgender",
           "package": "swish",
@@ -19092,6 +20623,7 @@
         "index": {
           "description": "foaf gender from http xmlns.com foaf spec term gender",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafgender",
           "package": "swish",
@@ -19105,6 +20637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:givenName\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_givenName\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafgivenName",
           "package": "swish",
@@ -19115,6 +20648,7 @@
         "index": {
           "description": "foaf givenName from http xmlns.com foaf spec term givenName",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafgivenName",
           "package": "swish",
@@ -19129,6 +20663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:givenname\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_givenname\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafgivenname",
           "package": "swish",
@@ -19139,6 +20674,7 @@
         "index": {
           "description": "foaf givenname from http xmlns.com foaf spec term givenname",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafgivenname",
           "package": "swish",
@@ -19152,6 +20688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:holdsAccount\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_holdsAccount\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafholdsAccount",
           "package": "swish",
@@ -19162,6 +20699,7 @@
         "index": {
           "description": "foaf holdsAccount from http xmlns.com foaf spec term holdsAccount",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafholdsAccount",
           "package": "swish",
@@ -19176,6 +20714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:homepage\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_homepage\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafhomepage",
           "package": "swish",
@@ -19186,6 +20725,7 @@
         "index": {
           "description": "foaf homepage from http xmlns.com foaf spec term homepage",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafhomepage",
           "package": "swish",
@@ -19199,6 +20739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:icqChatID\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_icqChatID\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaficqChatID",
           "package": "swish",
@@ -19209,6 +20750,7 @@
         "index": {
           "description": "foaf icqChatID from http xmlns.com foaf spec term icqChatID",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaficqChatID",
           "package": "swish",
@@ -19223,6 +20765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:img\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_img\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafimg",
           "package": "swish",
@@ -19233,6 +20776,7 @@
         "index": {
           "description": "foaf img from http xmlns.com foaf spec term img",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafimg",
           "package": "swish",
@@ -19246,6 +20790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:interest\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_interest\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafinterest",
           "package": "swish",
@@ -19256,6 +20801,7 @@
         "index": {
           "description": "foaf interest from http xmlns.com foaf spec term interest",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafinterest",
           "package": "swish",
@@ -19269,6 +20815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:isPrimaryTopicOf\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_isPrimaryTopicOf\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafisPrimaryTopicOf",
           "package": "swish",
@@ -19279,6 +20826,7 @@
         "index": {
           "description": "foaf isPrimaryTopicOf from http xmlns.com foaf spec term isPrimaryTopicOf",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafisPrimaryTopicOf",
           "package": "swish",
@@ -19293,6 +20841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:jabberID\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_jabberID\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafjabberID",
           "package": "swish",
@@ -19303,6 +20852,7 @@
         "index": {
           "description": "foaf jabberID from http xmlns.com foaf spec term jabberID",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafjabberID",
           "package": "swish",
@@ -19317,6 +20867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:knows\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_knows\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafknows",
           "package": "swish",
@@ -19327,6 +20878,7 @@
         "index": {
           "description": "foaf knows from http xmlns.com foaf spec term knows",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafknows",
           "package": "swish",
@@ -19340,6 +20892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:lastName\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_lastName\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaflastName",
           "package": "swish",
@@ -19350,6 +20903,7 @@
         "index": {
           "description": "foaf lastName from http xmlns.com foaf spec term lastName",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaflastName",
           "package": "swish",
@@ -19364,6 +20918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:logo\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_logo\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaflogo",
           "package": "swish",
@@ -19374,6 +20929,7 @@
         "index": {
           "description": "foaf logo from http xmlns.com foaf spec term logo",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaflogo",
           "package": "swish",
@@ -19387,6 +20943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:made\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_made\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafmade",
           "package": "swish",
@@ -19397,6 +20954,7 @@
         "index": {
           "description": "foaf made from http xmlns.com foaf spec term made",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafmade",
           "package": "swish",
@@ -19410,6 +20968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:maker\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_maker\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafmaker",
           "package": "swish",
@@ -19420,6 +20979,7 @@
         "index": {
           "description": "foaf maker from http xmlns.com foaf spec term maker",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafmaker",
           "package": "swish",
@@ -19433,6 +20993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:mbox\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_mbox\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafmbox",
           "package": "swish",
@@ -19443,6 +21004,7 @@
         "index": {
           "description": "foaf mbox from http xmlns.com foaf spec term mbox",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafmbox",
           "package": "swish",
@@ -19456,6 +21018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:mbox_sha1sum\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_mbox_sha1sum\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafmbox_sha1sum",
           "package": "swish",
@@ -19466,6 +21029,7 @@
         "index": {
           "description": "foaf mbox sha1sum from http xmlns.com foaf spec term mbox sha1sum",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafmbox_sha1sum",
           "package": "swish",
@@ -19479,6 +21043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:member\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_member\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafmember",
           "package": "swish",
@@ -19489,6 +21054,7 @@
         "index": {
           "description": "foaf member from http xmlns.com foaf spec term member",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafmember",
           "package": "swish",
@@ -19502,6 +21068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:membershipClass\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_membershipClass\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafmembershipClass",
           "package": "swish",
@@ -19512,6 +21079,7 @@
         "index": {
           "description": "foaf membershipClass from http xmlns.com foaf spec term membershipClass",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafmembershipClass",
           "package": "swish",
@@ -19526,6 +21094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:msnChatID\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_msnChatID\u003c/a\u003e.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafmsnChatID",
           "package": "swish",
@@ -19536,6 +21105,7 @@
         "index": {
           "description": "foaf msnChatID from http xmlns.com foaf spec term msnChatID",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafmsnChatID",
           "package": "swish",
@@ -19550,6 +21120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:myersBriggs\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_myersBriggs\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafmyersBriggs",
           "package": "swish",
@@ -19560,6 +21131,7 @@
         "index": {
           "description": "foaf myersBriggs from http xmlns.com foaf spec term myersBriggs",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafmyersBriggs",
           "package": "swish",
@@ -19574,6 +21146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:name\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_name\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafname",
           "package": "swish",
@@ -19584,6 +21157,7 @@
         "index": {
           "description": "foaf name from http xmlns.com foaf spec term name",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafname",
           "package": "swish",
@@ -19597,6 +21171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:nick\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_nick\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafnick",
           "package": "swish",
@@ -19607,6 +21182,7 @@
         "index": {
           "description": "foaf nick from http xmlns.com foaf spec term nick",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafnick",
           "package": "swish",
@@ -19620,6 +21196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:openid\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_openid\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafopenid",
           "package": "swish",
@@ -19630,6 +21207,7 @@
         "index": {
           "description": "foaf openid from http xmlns.com foaf spec term openid",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafopenid",
           "package": "swish",
@@ -19643,6 +21221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:page\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_page\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafpage",
           "package": "swish",
@@ -19653,6 +21232,7 @@
         "index": {
           "description": "foaf page from http xmlns.com foaf spec term page",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafpage",
           "package": "swish",
@@ -19666,6 +21246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:pastProject\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_pastProject\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafpastProject",
           "package": "swish",
@@ -19676,6 +21257,7 @@
         "index": {
           "description": "foaf pastProject from http xmlns.com foaf spec term pastProject",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafpastProject",
           "package": "swish",
@@ -19690,6 +21272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:phone\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_phone\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafphone",
           "package": "swish",
@@ -19700,6 +21283,7 @@
         "index": {
           "description": "foaf phone from http xmlns.com foaf spec term phone",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafphone",
           "package": "swish",
@@ -19713,6 +21297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:plan\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_plan\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafplan",
           "package": "swish",
@@ -19723,6 +21308,7 @@
         "index": {
           "description": "foaf plan from http xmlns.com foaf spec term plan",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafplan",
           "package": "swish",
@@ -19736,6 +21322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:primaryTopic\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_primaryTopic\u003c/a\u003e.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafprimaryTopic",
           "package": "swish",
@@ -19746,6 +21333,7 @@
         "index": {
           "description": "foaf primaryTopic from http xmlns.com foaf spec term primaryTopic",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafprimaryTopic",
           "package": "swish",
@@ -19760,6 +21348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:publications\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_publications\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafpublications",
           "package": "swish",
@@ -19770,6 +21359,7 @@
         "index": {
           "description": "foaf publications from http xmlns.com foaf spec term publications",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafpublications",
           "package": "swish",
@@ -19783,6 +21373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:schoolHomepage\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_schoolHomepage\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafschoolHomepage",
           "package": "swish",
@@ -19793,6 +21384,7 @@
         "index": {
           "description": "foaf schoolHomepage from http xmlns.com foaf spec term schoolHomepage",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafschoolHomepage",
           "package": "swish",
@@ -19807,6 +21399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:sha1\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_sha1\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafsha1",
           "package": "swish",
@@ -19817,6 +21410,7 @@
         "index": {
           "description": "foaf sha1 from http xmlns.com foaf spec term sha1",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafsha1",
           "package": "swish",
@@ -19830,6 +21424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:skypeID\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_skypeID\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafskypeID",
           "package": "swish",
@@ -19840,6 +21435,7 @@
         "index": {
           "description": "foaf skypeID from http xmlns.com foaf spec term skypeID",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafskypeID",
           "package": "swish",
@@ -19854,6 +21450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:status\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_status\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafstatus",
           "package": "swish",
@@ -19864,6 +21461,7 @@
         "index": {
           "description": "foaf status from http xmlns.com foaf spec term status",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafstatus",
           "package": "swish",
@@ -19877,6 +21475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:surname\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_surname\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafsurname",
           "package": "swish",
@@ -19887,6 +21486,7 @@
         "index": {
           "description": "foaf surname from http xmlns.com foaf spec term surname",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafsurname",
           "package": "swish",
@@ -19900,6 +21500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:theme\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_theme\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaftheme",
           "package": "swish",
@@ -19910,6 +21511,7 @@
         "index": {
           "description": "foaf theme from http xmlns.com foaf spec term theme",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaftheme",
           "package": "swish",
@@ -19923,6 +21525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:thumbnail\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_thumbnail\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafthumbnail",
           "package": "swish",
@@ -19933,6 +21536,7 @@
         "index": {
           "description": "foaf thumbnail from http xmlns.com foaf spec term thumbnail",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafthumbnail",
           "package": "swish",
@@ -19946,6 +21550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:tipjar\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_tipjar\u003c/a\u003e.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaftipjar",
           "package": "swish",
@@ -19956,6 +21561,7 @@
         "index": {
           "description": "foaf tipjar from http xmlns.com foaf spec term tipjar",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaftipjar",
           "package": "swish",
@@ -19969,6 +21575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:title\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_title\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaftitle",
           "package": "swish",
@@ -19979,6 +21586,7 @@
         "index": {
           "description": "foaf title from http xmlns.com foaf spec term title",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaftitle",
           "package": "swish",
@@ -19992,6 +21600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:topic\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_topic\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaftopic",
           "package": "swish",
@@ -20002,6 +21611,7 @@
         "index": {
           "description": "foaf topic from http xmlns.com foaf spec term topic",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaftopic",
           "package": "swish",
@@ -20015,6 +21625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:topic_interest\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_topic_interest\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaftopic_interest",
           "package": "swish",
@@ -20025,6 +21636,7 @@
         "index": {
           "description": "foaf topic interest from http xmlns.com foaf spec term topic interest",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foaftopic_interest",
           "package": "swish",
@@ -20038,6 +21650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:weblog\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_weblog\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafweblog",
           "package": "swish",
@@ -20048,6 +21661,7 @@
         "index": {
           "description": "foaf weblog from http xmlns.com foaf spec term weblog",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafweblog",
           "package": "swish",
@@ -20061,6 +21675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:workInfoHomepage\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_workInfoHomepage\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafworkInfoHomepage",
           "package": "swish",
@@ -20071,6 +21686,7 @@
         "index": {
           "description": "foaf workInfoHomepage from http xmlns.com foaf spec term workInfoHomepage",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafworkInfoHomepage",
           "package": "swish",
@@ -20085,6 +21701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:workplaceHomepage\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_workplaceHomepage\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafworkplaceHomepage",
           "package": "swish",
@@ -20095,6 +21712,7 @@
         "index": {
           "description": "foaf workplaceHomepage from http xmlns.com foaf spec term workplaceHomepage",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafworkplaceHomepage",
           "package": "swish",
@@ -20109,6 +21727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efoaf:yahooChatID\u003c/code\u003e from \u003ca\u003ehttp://xmlns.com/foaf/spec/#term_yahooChatID\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafyahooChatID",
           "package": "swish",
@@ -20119,6 +21738,7 @@
         "index": {
           "description": "foaf yahooChatID from http xmlns.com foaf spec term yahooChatID",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "foafyahooChatID",
           "package": "swish",
@@ -20133,6 +21753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps \u003ccode\u003efoaf\u003c/code\u003e to \u003ca\u003ehttp://xmlns.com/foaf/0.1/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "namespaceFOAF",
           "package": "swish",
@@ -20143,6 +21764,7 @@
         "index": {
           "description": "Maps foaf to http xmlns.com foaf",
           "hierarchy": "Swish RDF Vocabulary FOAF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.FOAF",
           "name": "namespaceFOAF",
           "package": "swish",
@@ -20157,6 +21779,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines some commonly used vocabulary terms from the Geo\n  vocabulary (\u003ca\u003ehttp://www.w3.org/2003/01/geo/\u003c/a\u003e, WGS84 Geo Positioning: an RDF vocabulary).\n\u003c/p\u003e\u003cp\u003eNote that unlike some of the existing vocabularies in Swish, the Geo\n  one matches the case and spelling of the RDF terms; so we\n  use \u003ccode\u003e\u003ca\u003egeolat\u003c/a\u003e\u003c/code\u003e rather than \u003ccode\u003egeoLat\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Geo",
           "name": "Geo",
           "package": "swish",
@@ -20166,6 +21789,7 @@
         "index": {
           "description": "This module defines some commonly used vocabulary terms from the Geo vocabulary http www.w3.org geo WGS84 Geo Positioning an RDF vocabulary Note that unlike some of the existing vocabularies in Swish the Geo one matches the case and spelling of the RDF terms so we use geolat rather than geoLat",
           "hierarchy": "Swish RDF Vocabulary Geo",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Geo",
           "name": "Geo",
           "package": "swish",
@@ -20180,6 +21804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egeo:Point\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Geo",
           "name": "geoPoint",
           "package": "swish",
@@ -20190,6 +21815,7 @@
         "index": {
           "description": "geo Point",
           "hierarchy": "Swish RDF Vocabulary Geo",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Geo",
           "name": "geoPoint",
           "package": "swish",
@@ -20204,6 +21830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egeo:SpatialThing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Geo",
           "name": "geoSpatialThing",
           "package": "swish",
@@ -20214,6 +21841,7 @@
         "index": {
           "description": "geo SpatialThing",
           "hierarchy": "Swish RDF Vocabulary Geo",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Geo",
           "name": "geoSpatialThing",
           "package": "swish",
@@ -20228,6 +21856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egeo:lat\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Geo",
           "name": "geolat",
           "package": "swish",
@@ -20238,6 +21867,7 @@
         "index": {
           "description": "geo lat",
           "hierarchy": "Swish RDF Vocabulary Geo",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Geo",
           "name": "geolat",
           "package": "swish",
@@ -20251,6 +21881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egeo:lat_long\u003c/code\u003e (it is suggested that this not be used when generating RDF statements).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Geo",
           "name": "geolat_long",
           "package": "swish",
@@ -20261,6 +21892,7 @@
         "index": {
           "description": "geo lat long it is suggested that this not be used when generating RDF statements",
           "hierarchy": "Swish RDF Vocabulary Geo",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Geo",
           "name": "geolat_long",
           "package": "swish",
@@ -20274,6 +21906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egeo:location\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Geo",
           "name": "geolocation",
           "package": "swish",
@@ -20284,6 +21917,7 @@
         "index": {
           "description": "geo location",
           "hierarchy": "Swish RDF Vocabulary Geo",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Geo",
           "name": "geolocation",
           "package": "swish",
@@ -20297,6 +21931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003egeo:long\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Geo",
           "name": "geolong",
           "package": "swish",
@@ -20307,6 +21942,7 @@
         "index": {
           "description": "geo long",
           "hierarchy": "Swish RDF Vocabulary Geo",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Geo",
           "name": "geolong",
           "package": "swish",
@@ -20320,6 +21956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps \u003ccode\u003egeo\u003c/code\u003e to \u003ca\u003ehttp://www.w3.org/2003/01/geo/wgs84_pos#\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Geo",
           "name": "namespaceGEO",
           "package": "swish",
@@ -20330,6 +21967,7 @@
         "index": {
           "description": "Maps geo to http www.w3.org geo wgs84 pos",
           "hierarchy": "Swish RDF Vocabulary Geo",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Geo",
           "name": "namespaceGEO",
           "package": "swish",
@@ -20344,6 +21982,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines vocabulary terms from the OWL vocabulary. Note that there\n  is an unfortunate mixture of styles for property names - e.g. \u003ccode\u003e\u003ca\u003eowlSameAs\u003c/a\u003e\u003c/code\u003e\n  and \u003ccode\u003e\u003ca\u003eowlequivalentClass\u003c/a\u003e\u003c/code\u003e. At present there is no systematic attempt to\n  include terms from the vocabulary.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "OWL",
           "package": "swish",
@@ -20353,6 +21992,7 @@
         "index": {
           "description": "This module defines vocabulary terms from the OWL vocabulary Note that there is an unfortunate mixture of styles for property names e.g owlSameAs and owlequivalentClass At present there is no systematic attempt to include terms from the vocabulary",
           "hierarchy": "Swish RDF Vocabulary OWL",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "OWL",
           "package": "swish",
@@ -20367,6 +22007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps \u003ccode\u003eowl\u003c/code\u003e to \u003ca\u003ehttp://www.w3.org/2002/07/owl#\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "namespaceOWL",
           "package": "swish",
@@ -20377,6 +22018,7 @@
         "index": {
           "description": "Maps owl to http www.w3.org owl",
           "hierarchy": "Swish RDF Vocabulary OWL",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "namespaceOWL",
           "package": "swish",
@@ -20391,6 +22033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eowl:AnnotationProperty\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlAnnotationProperty",
           "package": "swish",
@@ -20401,6 +22044,7 @@
         "index": {
           "description": "owl AnnotationProperty",
           "hierarchy": "Swish RDF Vocabulary OWL",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlAnnotationProperty",
           "package": "swish",
@@ -20415,6 +22059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eowl:Class\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlClass",
           "package": "swish",
@@ -20425,6 +22070,7 @@
         "index": {
           "description": "owl Class",
           "hierarchy": "Swish RDF Vocabulary OWL",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlClass",
           "package": "swish",
@@ -20439,6 +22085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eowl:DatatypeProperty\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlDatatypeProperty",
           "package": "swish",
@@ -20449,6 +22096,7 @@
         "index": {
           "description": "owl DatatypeProperty",
           "hierarchy": "Swish RDF Vocabulary OWL",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlDatatypeProperty",
           "package": "swish",
@@ -20463,6 +22111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eowl:NamedIndividual\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlNamedIndividual",
           "package": "swish",
@@ -20473,6 +22122,7 @@
         "index": {
           "description": "owl NamedIndividual",
           "hierarchy": "Swish RDF Vocabulary OWL",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlNamedIndividual",
           "package": "swish",
@@ -20487,6 +22137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eowl:Thing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlNothing",
           "package": "swish",
@@ -20497,6 +22148,7 @@
         "index": {
           "description": "owl Thing",
           "hierarchy": "Swish RDF Vocabulary OWL",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlNothing",
           "package": "swish",
@@ -20511,6 +22163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eowl:ObjectProperty\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlObjectProperty",
           "package": "swish",
@@ -20521,6 +22174,7 @@
         "index": {
           "description": "owl ObjectProperty",
           "hierarchy": "Swish RDF Vocabulary OWL",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlObjectProperty",
           "package": "swish",
@@ -20535,6 +22189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eowl:Ontology\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlOntology",
           "package": "swish",
@@ -20545,6 +22200,7 @@
         "index": {
           "description": "owl Ontology",
           "hierarchy": "Swish RDF Vocabulary OWL",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlOntology",
           "package": "swish",
@@ -20559,6 +22215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eowl:sameAs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlSameAs",
           "package": "swish",
@@ -20569,6 +22226,7 @@
         "index": {
           "description": "owl sameAs",
           "hierarchy": "Swish RDF Vocabulary OWL",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlSameAs",
           "package": "swish",
@@ -20583,6 +22241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eowl:Thing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlThing",
           "package": "swish",
@@ -20593,6 +22252,7 @@
         "index": {
           "description": "owl Thing",
           "hierarchy": "Swish RDF Vocabulary OWL",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlThing",
           "package": "swish",
@@ -20607,6 +22267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eowl:backwartCompatibleWith\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlbackwardCompatibleWith",
           "package": "swish",
@@ -20617,6 +22278,7 @@
         "index": {
           "description": "owl backwartCompatibleWith",
           "hierarchy": "Swish RDF Vocabulary OWL",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlbackwardCompatibleWith",
           "package": "swish",
@@ -20631,6 +22293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eowl:deprecated\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owldeprecated",
           "package": "swish",
@@ -20641,6 +22304,7 @@
         "index": {
           "description": "owl deprecated",
           "hierarchy": "Swish RDF Vocabulary OWL",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owldeprecated",
           "package": "swish",
@@ -20654,6 +22318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eowl:equivalentClass\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlequivalentClass",
           "package": "swish",
@@ -20664,6 +22329,7 @@
         "index": {
           "description": "owl equivalentClass",
           "hierarchy": "Swish RDF Vocabulary OWL",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlequivalentClass",
           "package": "swish",
@@ -20678,6 +22344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eowl:equivalentProperty\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlequivalentProperty",
           "package": "swish",
@@ -20688,6 +22355,7 @@
         "index": {
           "description": "owl equivalentProperty",
           "hierarchy": "Swish RDF Vocabulary OWL",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlequivalentProperty",
           "package": "swish",
@@ -20702,6 +22370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eowl:imports\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlimports",
           "package": "swish",
@@ -20712,6 +22381,7 @@
         "index": {
           "description": "owl imports",
           "hierarchy": "Swish RDF Vocabulary OWL",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlimports",
           "package": "swish",
@@ -20725,6 +22395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eowl:incompatibleWith\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlincompatibleWith",
           "package": "swish",
@@ -20735,6 +22406,7 @@
         "index": {
           "description": "owl incompatibleWith",
           "hierarchy": "Swish RDF Vocabulary OWL",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlincompatibleWith",
           "package": "swish",
@@ -20749,6 +22421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eowl:priorVersion\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlpriorVersion",
           "package": "swish",
@@ -20759,6 +22432,7 @@
         "index": {
           "description": "owl priorVersion",
           "hierarchy": "Swish RDF Vocabulary OWL",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlpriorVersion",
           "package": "swish",
@@ -20773,6 +22447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eowl:rational\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlrational",
           "package": "swish",
@@ -20783,6 +22458,7 @@
         "index": {
           "description": "owl rational",
           "hierarchy": "Swish RDF Vocabulary OWL",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlrational",
           "package": "swish",
@@ -20796,6 +22472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eowl:real\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlreal",
           "package": "swish",
@@ -20806,6 +22483,7 @@
         "index": {
           "description": "owl real",
           "hierarchy": "Swish RDF Vocabulary OWL",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlreal",
           "package": "swish",
@@ -20819,6 +22497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eowl:versionInfo\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlversionInfo",
           "package": "swish",
@@ -20829,6 +22508,7 @@
         "index": {
           "description": "owl versionInfo",
           "hierarchy": "Swish RDF Vocabulary OWL",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.OWL",
           "name": "owlversionInfo",
           "package": "swish",
@@ -20843,6 +22523,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines some vocabulary terms from the Provenance Ontology\n  \u003ca\u003ehttp://www.w3.org/TR/prov-o/\u003c/a\u003e by the W3C Provenance Working Group\n  (\u003ca\u003ehttp://www.w3.org/2011/prov/wiki/Main_Page/\u003c/a\u003e).\n  This is \u003cem\u003eexperimental\u003c/em\u003e since the Ontology is still a Working Draft.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "Provenance",
           "package": "swish",
@@ -20852,6 +22533,7 @@
         "index": {
           "description": "This module defines some vocabulary terms from the Provenance Ontology http www.w3.org TR prov-o by the W3C Provenance Working Group http www.w3.org prov wiki Main Page This is experimental since the Ontology is still Working Draft",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "Provenance",
           "package": "swish",
@@ -20866,6 +22548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps \u003ccode\u003eprov\u003c/code\u003e to \u003ca\u003ehttp://www.w3.org/ns/prov-o/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "namespacePROV",
           "package": "swish",
@@ -20876,6 +22559,7 @@
         "index": {
           "description": "Maps prov to http www.w3.org ns prov-o",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "namespacePROV",
           "package": "swish",
@@ -20890,6 +22574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:Activity\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#activity\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provActivity",
           "package": "swish",
@@ -20900,6 +22585,7 @@
         "index": {
           "description": "prov Activity from http www.w3.org TR prov-o activity",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provActivity",
           "package": "swish",
@@ -20914,6 +22600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:Agent\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#agent\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provAgent",
           "package": "swish",
@@ -20924,6 +22611,7 @@
         "index": {
           "description": "prov Agent from http www.w3.org TR prov-o agent",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provAgent",
           "package": "swish",
@@ -20938,6 +22626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:Control\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#control\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provControl",
           "package": "swish",
@@ -20948,6 +22637,7 @@
         "index": {
           "description": "prov Control from http www.w3.org TR prov-o control",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provControl",
           "package": "swish",
@@ -20962,6 +22652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:Entity\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#entity\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provEntity",
           "package": "swish",
@@ -20972,6 +22663,7 @@
         "index": {
           "description": "prov Entity from http www.w3.org TR prov-o entity",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provEntity",
           "package": "swish",
@@ -20986,6 +22678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:Generation\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#generation\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provGeneration",
           "package": "swish",
@@ -20996,6 +22689,7 @@
         "index": {
           "description": "prov Generation from http www.w3.org TR prov-o generation",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provGeneration",
           "package": "swish",
@@ -21010,6 +22704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:Location\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#location\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provLocation",
           "package": "swish",
@@ -21020,6 +22715,7 @@
         "index": {
           "description": "prov Location from http www.w3.org TR prov-o location",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provLocation",
           "package": "swish",
@@ -21034,6 +22730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:Participation\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#participation\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provParticipation",
           "package": "swish",
@@ -21044,6 +22741,7 @@
         "index": {
           "description": "prov Participation from http www.w3.org TR prov-o participation",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provParticipation",
           "package": "swish",
@@ -21058,6 +22756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:ProvenanceContainer\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#provenancecontainer\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provProvenanceContainer",
           "package": "swish",
@@ -21068,6 +22767,7 @@
         "index": {
           "description": "prov ProvenanceContainer from http www.w3.org TR prov-o provenancecontainer",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provProvenanceContainer",
           "package": "swish",
@@ -21082,6 +22782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:QualifiedInvolvement\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#qualifiedinvolvement\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provQualifiedInvolvement",
           "package": "swish",
@@ -21092,6 +22793,7 @@
         "index": {
           "description": "prov QualifiedInvolvement from http www.w3.org TR prov-o qualifiedinvolvement",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provQualifiedInvolvement",
           "package": "swish",
@@ -21106,6 +22808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:Recipe\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#recipe\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provRecipe",
           "package": "swish",
@@ -21116,6 +22819,7 @@
         "index": {
           "description": "prov Recipe from http www.w3.org TR prov-o recipe",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provRecipe",
           "package": "swish",
@@ -21130,6 +22834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:Role\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#role\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provRole",
           "package": "swish",
@@ -21140,6 +22845,7 @@
         "index": {
           "description": "prov Role from http www.w3.org TR prov-o role",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provRole",
           "package": "swish",
@@ -21154,6 +22860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:Usage\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#usage\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provUsage",
           "package": "swish",
@@ -21164,6 +22871,7 @@
         "index": {
           "description": "prov Usage from http www.w3.org TR prov-o usage",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provUsage",
           "package": "swish",
@@ -21178,6 +22886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:dependedOn\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#dependedon\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provdependedOn",
           "package": "swish",
@@ -21188,6 +22897,7 @@
         "index": {
           "description": "prov dependedOn from http www.w3.org TR prov-o dependedon",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provdependedOn",
           "package": "swish",
@@ -21202,6 +22912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:endedAt\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#endedat\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provendedAt",
           "package": "swish",
@@ -21212,6 +22923,7 @@
         "index": {
           "description": "prov endedAt from http www.w3.org TR prov-o endedat",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provendedAt",
           "package": "swish",
@@ -21226,6 +22938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:hadLocation\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#hadlocation\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provhadLocation",
           "package": "swish",
@@ -21236,6 +22949,7 @@
         "index": {
           "description": "prov hadLocation from http www.w3.org TR prov-o hadlocation",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provhadLocation",
           "package": "swish",
@@ -21250,6 +22964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:hadOriginalSource\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#hadoriginalsource\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provhadOriginalSource",
           "package": "swish",
@@ -21260,6 +22975,7 @@
         "index": {
           "description": "prov hadOriginalSource from http www.w3.org TR prov-o hadoriginalsource",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provhadOriginalSource",
           "package": "swish",
@@ -21274,6 +22990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:hadParticipant\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#hadparticipant\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provhadParticipant",
           "package": "swish",
@@ -21284,6 +23001,7 @@
         "index": {
           "description": "prov hadParticipant from http www.w3.org TR prov-o hadparticipant",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provhadParticipant",
           "package": "swish",
@@ -21298,6 +23016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:hadQualifiedControl\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#hadqualifiedcontrol\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provhadQualifiedControl",
           "package": "swish",
@@ -21308,6 +23027,7 @@
         "index": {
           "description": "prov hadQualifiedControl from http www.w3.org TR prov-o hadqualifiedcontrol",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provhadQualifiedControl",
           "package": "swish",
@@ -21322,6 +23042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:hadQualifiedEntity\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#hadqualifiedentity\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provhadQualifiedEntity",
           "package": "swish",
@@ -21332,6 +23053,7 @@
         "index": {
           "description": "prov hadQualifiedEntity from http www.w3.org TR prov-o hadqualifiedentity",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provhadQualifiedEntity",
           "package": "swish",
@@ -21346,6 +23068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:hadQualifiedGeneration\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#hadqualifiedgeneration\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provhadQualifiedGeneration",
           "package": "swish",
@@ -21356,6 +23079,7 @@
         "index": {
           "description": "prov hadQualifiedGeneration from http www.w3.org TR prov-o hadqualifiedgeneration",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provhadQualifiedGeneration",
           "package": "swish",
@@ -21370,6 +23094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:hadQualifiedParticipation\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#hadqualifiedparticipation\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provhadQualifiedParticipation",
           "package": "swish",
@@ -21380,6 +23105,7 @@
         "index": {
           "description": "prov hadQualifiedParticipation from http www.w3.org TR prov-o hadqualifiedparticipation",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provhadQualifiedParticipation",
           "package": "swish",
@@ -21394,6 +23120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:hadQualifiedUsage\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#hadqualifiedusage\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provhadQualifiedUsage",
           "package": "swish",
@@ -21404,6 +23131,7 @@
         "index": {
           "description": "prov hadQualifiedUsage from http www.w3.org TR prov-o hadqualifiedusage",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provhadQualifiedUsage",
           "package": "swish",
@@ -21418,6 +23146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:hadRecipe\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#hadrecipe\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provhadRecipe",
           "package": "swish",
@@ -21428,6 +23157,7 @@
         "index": {
           "description": "prov hadRecipe from http www.w3.org TR prov-o hadrecipe",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provhadRecipe",
           "package": "swish",
@@ -21442,6 +23172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:hadRole\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#hadrole\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provhadRole",
           "package": "swish",
@@ -21452,6 +23183,7 @@
         "index": {
           "description": "prov hadRole from http www.w3.org TR prov-o hadrole",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provhadRole",
           "package": "swish",
@@ -21466,6 +23198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:hadTemporalValue\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#hadtemporalvalue\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provhadTemporalValue",
           "package": "swish",
@@ -21476,6 +23209,7 @@
         "index": {
           "description": "prov hadTemporalValue from http www.w3.org TR prov-o hadtemporalvalue",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provhadTemporalValue",
           "package": "swish",
@@ -21490,6 +23224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:startedAt\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#startedat\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provstartedAt",
           "package": "swish",
@@ -21500,6 +23235,7 @@
         "index": {
           "description": "prov startedAt from http www.w3.org TR prov-o startedat",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provstartedAt",
           "package": "swish",
@@ -21514,6 +23250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:used\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#used\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provused",
           "package": "swish",
@@ -21524,6 +23261,7 @@
         "index": {
           "description": "prov used from http www.w3.org TR prov-o used",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provused",
           "package": "swish",
@@ -21537,6 +23275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:wasAttributedTo\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#wasattributedto\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasAttributedTo",
           "package": "swish",
@@ -21547,6 +23286,7 @@
         "index": {
           "description": "prov wasAttributedTo from http www.w3.org TR prov-o wasattributedto",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasAttributedTo",
           "package": "swish",
@@ -21561,6 +23301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:wasComplementOf\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#wascomplementof\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasComplementOf",
           "package": "swish",
@@ -21571,6 +23312,7 @@
         "index": {
           "description": "prov wasComplementOf from http www.w3.org TR prov-o wascomplementof",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasComplementOf",
           "package": "swish",
@@ -21585,6 +23327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:wasControlledBy\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#wascontrolledby\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasControlledBy",
           "package": "swish",
@@ -21595,6 +23338,7 @@
         "index": {
           "description": "prov wasControlledBy from http www.w3.org TR prov-o wascontrolledby",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasControlledBy",
           "package": "swish",
@@ -21609,6 +23353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:wasDerivedFrom\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#wasderivedfrom\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasDerivedFrom",
           "package": "swish",
@@ -21619,6 +23364,7 @@
         "index": {
           "description": "prov wasDerivedFrom from http www.w3.org TR prov-o wasderivedfrom",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasDerivedFrom",
           "package": "swish",
@@ -21633,6 +23379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:wasEventuallyDerivedFrom\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#waseventuallyderivedfrom\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasEventuallyDerivedFrom",
           "package": "swish",
@@ -21643,6 +23390,7 @@
         "index": {
           "description": "prov wasEventuallyDerivedFrom from http www.w3.org TR prov-o waseventuallyderivedfrom",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasEventuallyDerivedFrom",
           "package": "swish",
@@ -21657,6 +23405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:wasGeneratedAt\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#wasgeneratedat\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasGeneratedAt",
           "package": "swish",
@@ -21667,6 +23416,7 @@
         "index": {
           "description": "prov wasGeneratedAt from http www.w3.org TR prov-o wasgeneratedat",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasGeneratedAt",
           "package": "swish",
@@ -21681,6 +23431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:wasGeneratedBy\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#wasgeneratedby\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasGeneratedBy",
           "package": "swish",
@@ -21691,6 +23442,7 @@
         "index": {
           "description": "prov wasGeneratedBy from http www.w3.org TR prov-o wasgeneratedby",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasGeneratedBy",
           "package": "swish",
@@ -21705,6 +23457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:wasInformedBy\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#wasinformedby\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasInformedBy",
           "package": "swish",
@@ -21715,6 +23468,7 @@
         "index": {
           "description": "prov wasInformedBy from http www.w3.org TR prov-o wasinformedby",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasInformedBy",
           "package": "swish",
@@ -21729,6 +23483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:wasQuoteOf\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#wasquoteof\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasQuoteOf",
           "package": "swish",
@@ -21739,6 +23494,7 @@
         "index": {
           "description": "prov wasQuoteOf from http www.w3.org TR prov-o wasquoteof",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasQuoteOf",
           "package": "swish",
@@ -21753,6 +23509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:wasRevisionOf\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#wasrevisionof\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasRevisionOf",
           "package": "swish",
@@ -21763,6 +23520,7 @@
         "index": {
           "description": "prov wasRevisionOf from http www.w3.org TR prov-o wasrevisionof",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasRevisionOf",
           "package": "swish",
@@ -21777,6 +23535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:wasScheduledAfter\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#wasscheduledafter\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasScheduledAfter",
           "package": "swish",
@@ -21787,6 +23546,7 @@
         "index": {
           "description": "prov wasScheduledAfter from http www.w3.org TR prov-o wasscheduledafter",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasScheduledAfter",
           "package": "swish",
@@ -21801,6 +23561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eprov:wasSummaryOf\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/prov-o/#wassummaryof\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasSummaryOf",
           "package": "swish",
@@ -21811,6 +23572,7 @@
         "index": {
           "description": "prov wasSummaryOf from http www.w3.org TR prov-o wassummaryof",
           "hierarchy": "Swish RDF Vocabulary Provenance",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.Provenance",
           "name": "provwasSummaryOf",
           "package": "swish",
@@ -21825,6 +23587,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines some commonly used vocabulary terms from the\n  RDF (\u003ca\u003ehttp://www.w3.org/TR/rdf-syntax-grammar/\u003c/a\u003e) and\n  RDF Schema (\u003ca\u003ehttp://www.w3.org/TR/rdf-schema/\u003c/a\u003e) documents.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "RDF",
           "package": "swish",
@@ -21834,6 +23597,7 @@
         "index": {
           "description": "This module defines some commonly used vocabulary terms from the RDF http www.w3.org TR rdf-syntax-grammar and RDF Schema http www.w3.org TR rdf-schema documents",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "RDF",
           "package": "swish",
@@ -21848,6 +23612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps \u003ccode\u003erdf\u003c/code\u003e to \u003ca\u003ehttp://www.w3.org/1999/02/22-rdf-syntax-ns#\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "namespaceRDF",
           "package": "swish",
@@ -21858,6 +23623,7 @@
         "index": {
           "description": "Maps rdf to http www.w3.org rdf-syntax-ns",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "namespaceRDF",
           "package": "swish",
@@ -21872,6 +23638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps \u003ccode\u003erdfs\u003c/code\u003e to \u003ca\u003ehttp://www.w3.org/2000/01/rdf-schema#\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "namespaceRDFS",
           "package": "swish",
@@ -21882,6 +23649,7 @@
         "index": {
           "description": "Maps rdfs to http www.w3.org rdf-schema",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "namespaceRDFS",
           "package": "swish",
@@ -21896,6 +23664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:_1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdf1",
           "package": "swish",
@@ -21906,6 +23675,7 @@
         "index": {
           "description": "rdf",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdf1",
           "package": "swish",
@@ -21919,6 +23689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:_2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdf2",
           "package": "swish",
@@ -21929,6 +23700,7 @@
         "index": {
           "description": "rdf",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdf2",
           "package": "swish",
@@ -21942,6 +23714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:about\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfAbout",
           "package": "swish",
@@ -21952,6 +23725,7 @@
         "index": {
           "description": "rdf about",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfAbout",
           "package": "swish",
@@ -21966,6 +23740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:Alt\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_alt\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfAlt",
           "package": "swish",
@@ -21976,6 +23751,7 @@
         "index": {
           "description": "rdf Alt from http www.w3.org TR rdf-schema ch alt",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfAlt",
           "package": "swish",
@@ -21990,6 +23766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:Bag\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_bag\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfBag",
           "package": "swish",
@@ -22000,6 +23777,7 @@
         "index": {
           "description": "rdf Bag from http www.w3.org TR rdf-schema ch bag",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfBag",
           "package": "swish",
@@ -22014,6 +23792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:datatype\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfDatatype",
           "package": "swish",
@@ -22024,6 +23803,7 @@
         "index": {
           "description": "rdf datatype",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfDatatype",
           "package": "swish",
@@ -22038,6 +23818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:Description\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfDescription",
           "package": "swish",
@@ -22048,6 +23829,7 @@
         "index": {
           "description": "rdf Description",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfDescription",
           "package": "swish",
@@ -22062,6 +23844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:first\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_first\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfFirst",
           "package": "swish",
@@ -22072,6 +23855,7 @@
         "index": {
           "description": "rdf first from http www.w3.org TR rdf-schema ch first",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfFirst",
           "package": "swish",
@@ -22086,6 +23870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:ID\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfID",
           "package": "swish",
@@ -22096,6 +23881,7 @@
         "index": {
           "description": "rdf ID",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfID",
           "package": "swish",
@@ -22110,6 +23896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:li\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfLi",
           "package": "swish",
@@ -22120,6 +23907,7 @@
         "index": {
           "description": "rdf li",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfLi",
           "package": "swish",
@@ -22134,6 +23922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:List\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_list\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfList",
           "package": "swish",
@@ -22144,6 +23933,7 @@
         "index": {
           "description": "rdf List from http www.w3.org TR rdf-schema ch list",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfList",
           "package": "swish",
@@ -22158,6 +23948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:nil\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_nil\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfNil",
           "package": "swish",
@@ -22168,6 +23959,7 @@
         "index": {
           "description": "rdf nil from http www.w3.org TR rdf-schema ch nil",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfNil",
           "package": "swish",
@@ -22182,6 +23974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:nodeID\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfNodeID",
           "package": "swish",
@@ -22192,6 +23985,7 @@
         "index": {
           "description": "rdf nodeID",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfNodeID",
           "package": "swish",
@@ -22206,6 +24000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:object\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_object\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfObject",
           "package": "swish",
@@ -22216,6 +24011,7 @@
         "index": {
           "description": "rdf object from http www.w3.org TR rdf-schema ch object",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfObject",
           "package": "swish",
@@ -22230,6 +24026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:parseType\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfParseType",
           "package": "swish",
@@ -22240,6 +24037,7 @@
         "index": {
           "description": "rdf parseType",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfParseType",
           "package": "swish",
@@ -22254,6 +24052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:predicate\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_predicate\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfPredicate",
           "package": "swish",
@@ -22264,6 +24063,7 @@
         "index": {
           "description": "rdf predicate from http www.w3.org TR rdf-schema ch predicate",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfPredicate",
           "package": "swish",
@@ -22278,6 +24078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:Property\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_property\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfProperty",
           "package": "swish",
@@ -22288,6 +24089,7 @@
         "index": {
           "description": "rdf Property from http www.w3.org TR rdf-schema ch property",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfProperty",
           "package": "swish",
@@ -22302,6 +24104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:RDF\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfRDF",
           "package": "swish",
@@ -22312,6 +24115,7 @@
         "index": {
           "description": "rdf RDF",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfRDF",
           "package": "swish",
@@ -22326,6 +24130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:resource\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfResource",
           "package": "swish",
@@ -22336,6 +24141,7 @@
         "index": {
           "description": "rdf resource",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfResource",
           "package": "swish",
@@ -22350,6 +24156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:rest\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_rest\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfRest",
           "package": "swish",
@@ -22360,6 +24167,7 @@
         "index": {
           "description": "rdf rest from http www.w3.org TR rdf-schema ch rest",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfRest",
           "package": "swish",
@@ -22374,6 +24182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:Seq\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_seq\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfSeq",
           "package": "swish",
@@ -22384,6 +24193,7 @@
         "index": {
           "description": "rdf Seq from http www.w3.org TR rdf-schema ch seq",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfSeq",
           "package": "swish",
@@ -22398,6 +24208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:Statement\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_statement\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfStatement",
           "package": "swish",
@@ -22408,6 +24219,7 @@
         "index": {
           "description": "rdf Statement from http www.w3.org TR rdf-schema ch statement",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfStatement",
           "package": "swish",
@@ -22422,6 +24234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:subject\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_subject\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfSubject",
           "package": "swish",
@@ -22432,6 +24245,7 @@
         "index": {
           "description": "rdf subject from http www.w3.org TR rdf-schema ch subject",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfSubject",
           "package": "swish",
@@ -22446,6 +24260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:type\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_type\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfType",
           "package": "swish",
@@ -22456,6 +24271,7 @@
         "index": {
           "description": "rdf type from http www.w3.org TR rdf-schema ch type",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfType",
           "package": "swish",
@@ -22470,6 +24286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:value\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_value\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfValue",
           "package": "swish",
@@ -22480,6 +24297,7 @@
         "index": {
           "description": "rdf value from http www.w3.org TR rdf-schema ch value",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfValue",
           "package": "swish",
@@ -22494,6 +24312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdf:XMLLiteral\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_xmlliteral\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfXMLLiteral",
           "package": "swish",
@@ -22504,6 +24323,7 @@
         "index": {
           "description": "rdf XMLLiteral from http www.w3.org TR rdf-schema ch xmlliteral",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfXMLLiteral",
           "package": "swish",
@@ -22518,6 +24338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003erdf:_n\u003c/code\u003e entity.\n\u003c/p\u003e\u003cp\u003eThere is no check that the argument is not 0, so it is\n possible to create the un-defined label \u003ccode\u003erdf:_0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfn",
           "package": "swish",
@@ -22528,6 +24349,7 @@
         "index": {
           "description": "Create rdf entity There is no check that the argument is not so it is possible to create the un-defined label rdf",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfn",
           "normalized": "Word-\u003eScopedName",
@@ -22543,6 +24365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:Class\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_class\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsClass",
           "package": "swish",
@@ -22553,6 +24376,7 @@
         "index": {
           "description": "rdfs Class from http www.w3.org TR rdf-schema ch class",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsClass",
           "package": "swish",
@@ -22567,6 +24391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:comment\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_comment\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsComment",
           "package": "swish",
@@ -22577,6 +24402,7 @@
         "index": {
           "description": "rdfs comment from http www.w3.org TR rdf-schema ch comment",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsComment",
           "package": "swish",
@@ -22591,6 +24417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:Container\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_container\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsContainer",
           "package": "swish",
@@ -22601,6 +24428,7 @@
         "index": {
           "description": "rdfs Container from http www.w3.org TR rdf-schema ch container",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsContainer",
           "package": "swish",
@@ -22615,6 +24443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:ContainerMembershipProperty\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_containermembershipproperty\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsContainerMembershipProperty",
           "package": "swish",
@@ -22625,6 +24454,7 @@
         "index": {
           "description": "rdfs ContainerMembershipProperty from http www.w3.org TR rdf-schema ch containermembershipproperty",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsContainerMembershipProperty",
           "package": "swish",
@@ -22639,6 +24469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:Datatype\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_datatype\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsDatatype",
           "package": "swish",
@@ -22649,6 +24480,7 @@
         "index": {
           "description": "rdfs Datatype from http www.w3.org TR rdf-schema ch datatype",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsDatatype",
           "package": "swish",
@@ -22663,6 +24495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:domain\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_domain\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsDomain",
           "package": "swish",
@@ -22673,6 +24506,7 @@
         "index": {
           "description": "rdfs domain from http www.w3.org TR rdf-schema ch domain",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsDomain",
           "package": "swish",
@@ -22687,6 +24521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:isDefinedBy\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_isdefinedby\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsIsDefinedBy",
           "package": "swish",
@@ -22697,6 +24532,7 @@
         "index": {
           "description": "rdfs isDefinedBy from http www.w3.org TR rdf-schema ch isdefinedby",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsIsDefinedBy",
           "package": "swish",
@@ -22711,6 +24547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:label\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_label\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsLabel",
           "package": "swish",
@@ -22721,6 +24558,7 @@
         "index": {
           "description": "rdfs label from http www.w3.org TR rdf-schema ch label",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsLabel",
           "package": "swish",
@@ -22735,6 +24573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:Literal\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_literal\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsLiteral",
           "package": "swish",
@@ -22745,6 +24584,7 @@
         "index": {
           "description": "rdfs Literal from http www.w3.org TR rdf-schema ch literal",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsLiteral",
           "package": "swish",
@@ -22759,6 +24599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:member\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_member\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsMember",
           "package": "swish",
@@ -22769,6 +24610,7 @@
         "index": {
           "description": "rdfs member from http www.w3.org TR rdf-schema ch member",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsMember",
           "package": "swish",
@@ -22783,6 +24625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:range\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_range\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsRange",
           "package": "swish",
@@ -22793,6 +24636,7 @@
         "index": {
           "description": "rdfs range from http www.w3.org TR rdf-schema ch range",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsRange",
           "package": "swish",
@@ -22807,6 +24651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:Resource\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_resource\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsResource",
           "package": "swish",
@@ -22817,6 +24662,7 @@
         "index": {
           "description": "rdfs Resource from http www.w3.org TR rdf-schema ch resource",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsResource",
           "package": "swish",
@@ -22831,6 +24677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:seeAlso\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_seealso\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsSeeAlso",
           "package": "swish",
@@ -22841,6 +24688,7 @@
         "index": {
           "description": "rdfs seeAlso from http www.w3.org TR rdf-schema ch seealso",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsSeeAlso",
           "package": "swish",
@@ -22855,6 +24703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:subClassOf\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_subclassof\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsSubClassOf",
           "package": "swish",
@@ -22865,6 +24714,7 @@
         "index": {
           "description": "rdfs subClassOf from http www.w3.org TR rdf-schema ch subclassof",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsSubClassOf",
           "package": "swish",
@@ -22879,6 +24729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfs:subPropertyOf\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/rdf-schema/#ch_subpropertyof\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsSubPropertyOf",
           "package": "swish",
@@ -22889,6 +24740,7 @@
         "index": {
           "description": "rdfs subPropertyOf from http www.w3.org TR rdf-schema ch subpropertyof",
           "hierarchy": "Swish RDF Vocabulary RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.RDF",
           "name": "rdfsSubPropertyOf",
           "package": "swish",
@@ -22903,6 +24755,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines some commonly used vocabulary terms from the SIOC\n  project (\u003ca\u003ehttp://sioc-project.org/\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "SIOC",
           "package": "swish",
@@ -22912,6 +24765,7 @@
         "index": {
           "description": "This module defines some commonly used vocabulary terms from the SIOC project http sioc-project.org",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "SIOC",
           "package": "swish",
@@ -22926,6 +24780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps \u003ccode\u003esioc\u003c/code\u003e to \u003ca\u003ehttp://rdfs.org/sioc/ns#\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "namespaceSIOC",
           "package": "swish",
@@ -22936,6 +24791,7 @@
         "index": {
           "description": "Maps sioc to http rdfs.org sioc ns",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "namespaceSIOC",
           "package": "swish",
@@ -22950,6 +24806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:Community\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_Community\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocCommunity",
           "package": "swish",
@@ -22960,6 +24817,7 @@
         "index": {
           "description": "sioc Community from http rdfs.org sioc spec term Community",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocCommunity",
           "package": "swish",
@@ -22974,6 +24832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:Container\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_Container\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocContainer",
           "package": "swish",
@@ -22984,6 +24843,7 @@
         "index": {
           "description": "sioc Container from http rdfs.org sioc spec term Container",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocContainer",
           "package": "swish",
@@ -22998,6 +24858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:Forum\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_Forum\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocForum",
           "package": "swish",
@@ -23008,6 +24869,7 @@
         "index": {
           "description": "sioc Forum from http rdfs.org sioc spec term Forum",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocForum",
           "package": "swish",
@@ -23022,6 +24884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:Item\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_Item\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocItem",
           "package": "swish",
@@ -23032,6 +24895,7 @@
         "index": {
           "description": "sioc Item from http rdfs.org sioc spec term Item",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocItem",
           "package": "swish",
@@ -23046,6 +24910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:Post\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_Post\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocPost",
           "package": "swish",
@@ -23056,6 +24921,7 @@
         "index": {
           "description": "sioc Post from http rdfs.org sioc spec term Post",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocPost",
           "package": "swish",
@@ -23070,6 +24936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:Role\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_Role\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocRole",
           "package": "swish",
@@ -23080,6 +24947,7 @@
         "index": {
           "description": "sioc Role from http rdfs.org sioc spec term Role",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocRole",
           "package": "swish",
@@ -23094,6 +24962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:Site\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_Site\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocSite",
           "package": "swish",
@@ -23104,6 +24973,7 @@
         "index": {
           "description": "sioc Site from http rdfs.org sioc spec term Site",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocSite",
           "package": "swish",
@@ -23118,6 +24988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:Space\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_Space\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocSpace",
           "package": "swish",
@@ -23128,6 +24999,7 @@
         "index": {
           "description": "sioc Space from http rdfs.org sioc spec term Space",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocSpace",
           "package": "swish",
@@ -23142,6 +25014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:Thread\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_Thread\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocThread",
           "package": "swish",
@@ -23152,6 +25025,7 @@
         "index": {
           "description": "sioc Thread from http rdfs.org sioc spec term Thread",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocThread",
           "package": "swish",
@@ -23166,6 +25040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:UserAccount\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_UserAccount\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocUserAccount",
           "package": "swish",
@@ -23176,6 +25051,7 @@
         "index": {
           "description": "sioc UserAccount from http rdfs.org sioc spec term UserAccount",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocUserAccount",
           "package": "swish",
@@ -23190,6 +25066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:Usergroup\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_Usergroup\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocUsergroup",
           "package": "swish",
@@ -23200,6 +25077,7 @@
         "index": {
           "description": "sioc Usergroup from http rdfs.org sioc spec term Usergroup",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocUsergroup",
           "package": "swish",
@@ -23214,6 +25092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:about\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_about\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocabout",
           "package": "swish",
@@ -23224,6 +25103,7 @@
         "index": {
           "description": "sioc about from http rdfs.org sioc spec term about",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocabout",
           "package": "swish",
@@ -23237,6 +25117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:account_of\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_account_of\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocaccount_of",
           "package": "swish",
@@ -23247,6 +25128,7 @@
         "index": {
           "description": "sioc account of from http rdfs.org sioc spec term account of",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocaccount_of",
           "package": "swish",
@@ -23260,6 +25142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:addressed_to\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_addressed_to\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocaddressed_to",
           "package": "swish",
@@ -23270,6 +25153,7 @@
         "index": {
           "description": "sioc addressed to from http rdfs.org sioc spec term addressed to",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocaddressed_to",
           "package": "swish",
@@ -23283,6 +25167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:administrator_of\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_administrator_of\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocadministrator_of",
           "package": "swish",
@@ -23293,6 +25178,7 @@
         "index": {
           "description": "sioc administrator of from http rdfs.org sioc spec term administrator of",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocadministrator_of",
           "package": "swish",
@@ -23306,6 +25192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:attachment\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_attachment\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocattachment",
           "package": "swish",
@@ -23316,6 +25203,7 @@
         "index": {
           "description": "sioc attachment from http rdfs.org sioc spec term attachment",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocattachment",
           "package": "swish",
@@ -23329,6 +25217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:avatar\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_avatar\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocavatar",
           "package": "swish",
@@ -23339,6 +25228,7 @@
         "index": {
           "description": "sioc avatar from http rdfs.org sioc spec term avatar",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocavatar",
           "package": "swish",
@@ -23352,6 +25242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:container_of\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_container_of\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "sioccontainer_of",
           "package": "swish",
@@ -23362,6 +25253,7 @@
         "index": {
           "description": "sioc container of from http rdfs.org sioc spec term container of",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "sioccontainer_of",
           "package": "swish",
@@ -23375,6 +25267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:content\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_content\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "sioccontent",
           "package": "swish",
@@ -23385,6 +25278,7 @@
         "index": {
           "description": "sioc content from http rdfs.org sioc spec term content",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "sioccontent",
           "package": "swish",
@@ -23398,6 +25292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:creator_of\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_creator_of\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "sioccreator_of",
           "package": "swish",
@@ -23408,6 +25303,7 @@
         "index": {
           "description": "sioc creator of from http rdfs.org sioc spec term creator of",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "sioccreator_of",
           "package": "swish",
@@ -23421,6 +25317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:earlier_version\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_earlier_version\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocearlier_version",
           "package": "swish",
@@ -23431,6 +25328,7 @@
         "index": {
           "description": "sioc earlier version from http rdfs.org sioc spec term earlier version",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocearlier_version",
           "package": "swish",
@@ -23444,6 +25342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:email\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_email\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocemail",
           "package": "swish",
@@ -23454,6 +25353,7 @@
         "index": {
           "description": "sioc email from http rdfs.org sioc spec term email",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocemail",
           "package": "swish",
@@ -23467,6 +25367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:email_sha1\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_email_sha1\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocemail_sha1",
           "package": "swish",
@@ -23477,6 +25378,7 @@
         "index": {
           "description": "sioc email sha1 from http rdfs.org sioc spec term email sha1",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocemail_sha1",
           "package": "swish",
@@ -23490,6 +25392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:embeds_knowledge\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_embeds_knowledge\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocembeds_knowledge",
           "package": "swish",
@@ -23500,6 +25403,7 @@
         "index": {
           "description": "sioc embeds knowledge from http rdfs.org sioc spec term embeds knowledge",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocembeds_knowledge",
           "package": "swish",
@@ -23513,6 +25417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:feed\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_feed\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocfeed",
           "package": "swish",
@@ -23523,6 +25428,7 @@
         "index": {
           "description": "sioc feed from http rdfs.org sioc spec term feed",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocfeed",
           "package": "swish",
@@ -23536,6 +25442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:follows\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_follows\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocfollows",
           "package": "swish",
@@ -23546,6 +25453,7 @@
         "index": {
           "description": "sioc follows from http rdfs.org sioc spec term follows",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocfollows",
           "package": "swish",
@@ -23559,6 +25467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:function_of\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_function_of\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocfunction_of",
           "package": "swish",
@@ -23569,6 +25478,7 @@
         "index": {
           "description": "sioc function of from http rdfs.org sioc spec term function of",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocfunction_of",
           "package": "swish",
@@ -23582,6 +25492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:has_administrator\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_has_administrator\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_administrator",
           "package": "swish",
@@ -23592,6 +25503,7 @@
         "index": {
           "description": "sioc has administrator from http rdfs.org sioc spec term has administrator",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_administrator",
           "package": "swish",
@@ -23605,6 +25517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:has_container\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_has_container\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_container",
           "package": "swish",
@@ -23615,6 +25528,7 @@
         "index": {
           "description": "sioc has container from http rdfs.org sioc spec term has container",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_container",
           "package": "swish",
@@ -23628,6 +25542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:has_creator\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_has_creator\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_creator",
           "package": "swish",
@@ -23638,6 +25553,7 @@
         "index": {
           "description": "sioc has creator from http rdfs.org sioc spec term has creator",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_creator",
           "package": "swish",
@@ -23651,6 +25567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:has_discussion\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_has_discussion\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_discussion",
           "package": "swish",
@@ -23661,6 +25578,7 @@
         "index": {
           "description": "sioc has discussion from http rdfs.org sioc spec term has discussion",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_discussion",
           "package": "swish",
@@ -23674,6 +25592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:has_function\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_has_function\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_function",
           "package": "swish",
@@ -23684,6 +25603,7 @@
         "index": {
           "description": "sioc has function from http rdfs.org sioc spec term has function",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_function",
           "package": "swish",
@@ -23697,6 +25617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:has_host\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_has_host\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_host",
           "package": "swish",
@@ -23707,6 +25628,7 @@
         "index": {
           "description": "sioc has host from http rdfs.org sioc spec term has host",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_host",
           "package": "swish",
@@ -23720,6 +25642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:has_member\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_has_member\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_member",
           "package": "swish",
@@ -23730,6 +25653,7 @@
         "index": {
           "description": "sioc has member from http rdfs.org sioc spec term has member",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_member",
           "package": "swish",
@@ -23743,6 +25667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:has_moderator\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_has_moderator\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_moderator",
           "package": "swish",
@@ -23753,6 +25678,7 @@
         "index": {
           "description": "sioc has moderator from http rdfs.org sioc spec term has moderator",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_moderator",
           "package": "swish",
@@ -23766,6 +25692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:has_modifier\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_has_modifier\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_modifier",
           "package": "swish",
@@ -23776,6 +25703,7 @@
         "index": {
           "description": "sioc has modifier from http rdfs.org sioc spec term has modifier",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_modifier",
           "package": "swish",
@@ -23789,6 +25717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:has_owner\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_has_owner\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_owner",
           "package": "swish",
@@ -23799,6 +25728,7 @@
         "index": {
           "description": "sioc has owner from http rdfs.org sioc spec term has owner",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_owner",
           "package": "swish",
@@ -23812,6 +25742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:has_parent\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_has_parent\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_parent",
           "package": "swish",
@@ -23822,6 +25753,7 @@
         "index": {
           "description": "sioc has parent from http rdfs.org sioc spec term has parent",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_parent",
           "package": "swish",
@@ -23835,6 +25767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:has_reply\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_has_reply\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_reply",
           "package": "swish",
@@ -23845,6 +25778,7 @@
         "index": {
           "description": "sioc has reply from http rdfs.org sioc spec term has reply",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_reply",
           "package": "swish",
@@ -23858,6 +25792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:has_scope\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_has_scope\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_scope",
           "package": "swish",
@@ -23868,6 +25803,7 @@
         "index": {
           "description": "sioc has scope from http rdfs.org sioc spec term has scope",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_scope",
           "package": "swish",
@@ -23881,6 +25817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:has_space\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_has_space\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_space",
           "package": "swish",
@@ -23891,6 +25828,7 @@
         "index": {
           "description": "sioc has space from http rdfs.org sioc spec term has space",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_space",
           "package": "swish",
@@ -23904,6 +25842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:has_subscriber\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_has_subscriber\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_subscriber",
           "package": "swish",
@@ -23914,6 +25853,7 @@
         "index": {
           "description": "sioc has subscriber from http rdfs.org sioc spec term has subscriber",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_subscriber",
           "package": "swish",
@@ -23927,6 +25867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:has_usergroup\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_has_usergroup\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_usergroup",
           "package": "swish",
@@ -23937,6 +25878,7 @@
         "index": {
           "description": "sioc has usergroup from http rdfs.org sioc spec term has usergroup",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochas_usergroup",
           "package": "swish",
@@ -23950,6 +25892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:host_of\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_host_of\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochost_of",
           "package": "swish",
@@ -23960,6 +25903,7 @@
         "index": {
           "description": "sioc host of from http rdfs.org sioc spec term host of",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siochost_of",
           "package": "swish",
@@ -23973,6 +25917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:id\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_id\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocid",
           "package": "swish",
@@ -23983,6 +25928,7 @@
         "index": {
           "description": "sioc id from http rdfs.org sioc spec term id",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocid",
           "package": "swish",
@@ -23996,6 +25942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:ip_address\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_ip_address\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocip_address",
           "package": "swish",
@@ -24006,6 +25953,7 @@
         "index": {
           "description": "sioc ip address from http rdfs.org sioc spec term ip address",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocip_address",
           "package": "swish",
@@ -24019,6 +25967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:last_activity_date\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_last_activity_date\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "sioclast_activity_date",
           "package": "swish",
@@ -24029,6 +25978,7 @@
         "index": {
           "description": "sioc last activity date from http rdfs.org sioc spec term last activity date",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "sioclast_activity_date",
           "package": "swish",
@@ -24042,6 +25992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:last_item_date\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_last_item_date\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "sioclast_item_date",
           "package": "swish",
@@ -24052,6 +26003,7 @@
         "index": {
           "description": "sioc last item date from http rdfs.org sioc spec term last item date",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "sioclast_item_date",
           "package": "swish",
@@ -24065,6 +26017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:last_reply_date\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_last_reply_date\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "sioclast_reply_date",
           "package": "swish",
@@ -24075,6 +26028,7 @@
         "index": {
           "description": "sioc last reply date from http rdfs.org sioc spec term last reply date",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "sioclast_reply_date",
           "package": "swish",
@@ -24088,6 +26042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:later_version\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_later_version\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "sioclater_version",
           "package": "swish",
@@ -24098,6 +26053,7 @@
         "index": {
           "description": "sioc later version from http rdfs.org sioc spec term later version",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "sioclater_version",
           "package": "swish",
@@ -24111,6 +26067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:latest_version\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_latest_version\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "sioclatest_version",
           "package": "swish",
@@ -24121,6 +26078,7 @@
         "index": {
           "description": "sioc latest version from http rdfs.org sioc spec term latest version",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "sioclatest_version",
           "package": "swish",
@@ -24134,6 +26092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:link\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_link\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "sioclink",
           "package": "swish",
@@ -24144,6 +26103,7 @@
         "index": {
           "description": "sioc link from http rdfs.org sioc spec term link",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "sioclink",
           "package": "swish",
@@ -24157,6 +26117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:links_to\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_links_to\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "sioclinks_to",
           "package": "swish",
@@ -24167,6 +26128,7 @@
         "index": {
           "description": "sioc links to from http rdfs.org sioc spec term links to",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "sioclinks_to",
           "package": "swish",
@@ -24180,6 +26142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:member_of\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_member_of\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocmember_of",
           "package": "swish",
@@ -24190,6 +26153,7 @@
         "index": {
           "description": "sioc member of from http rdfs.org sioc spec term member of",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocmember_of",
           "package": "swish",
@@ -24203,6 +26167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:moderator_of\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_moderator_of\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocmoderator_of",
           "package": "swish",
@@ -24213,6 +26178,7 @@
         "index": {
           "description": "sioc moderator of from http rdfs.org sioc spec term moderator of",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocmoderator_of",
           "package": "swish",
@@ -24226,6 +26192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:modifier_of\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_modifier_of\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocmodifier_of",
           "package": "swish",
@@ -24236,6 +26203,7 @@
         "index": {
           "description": "sioc modifier of from http rdfs.org sioc spec term modifier of",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocmodifier_of",
           "package": "swish",
@@ -24249,6 +26217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:name\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_name\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocname",
           "package": "swish",
@@ -24259,6 +26228,7 @@
         "index": {
           "description": "sioc name from http rdfs.org sioc spec term name",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocname",
           "package": "swish",
@@ -24272,6 +26242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:next_by_date\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_next_by_date\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocnext_by_date",
           "package": "swish",
@@ -24282,6 +26253,7 @@
         "index": {
           "description": "sioc next by date from http rdfs.org sioc spec term next by date",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocnext_by_date",
           "package": "swish",
@@ -24295,6 +26267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:next_version\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_next_version\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocnext_version",
           "package": "swish",
@@ -24305,6 +26278,7 @@
         "index": {
           "description": "sioc next version from http rdfs.org sioc spec term next version",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocnext_version",
           "package": "swish",
@@ -24318,6 +26292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:note\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_note\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocnote",
           "package": "swish",
@@ -24328,6 +26303,7 @@
         "index": {
           "description": "sioc note from http rdfs.org sioc spec term note",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocnote",
           "package": "swish",
@@ -24341,6 +26317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:num_authors\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_num_authors\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocnum_authors",
           "package": "swish",
@@ -24351,6 +26328,7 @@
         "index": {
           "description": "sioc num authors from http rdfs.org sioc spec term num authors",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocnum_authors",
           "package": "swish",
@@ -24364,6 +26342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:num_items\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_num_items\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocnum_items",
           "package": "swish",
@@ -24374,6 +26353,7 @@
         "index": {
           "description": "sioc num items from http rdfs.org sioc spec term num items",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocnum_items",
           "package": "swish",
@@ -24387,6 +26367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:num_replies\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_num_replies\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocnum_replies",
           "package": "swish",
@@ -24397,6 +26378,7 @@
         "index": {
           "description": "sioc num replies from http rdfs.org sioc spec term num replies",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocnum_replies",
           "package": "swish",
@@ -24410,6 +26392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:num_threads\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_num_threads\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocnum_threads",
           "package": "swish",
@@ -24420,6 +26403,7 @@
         "index": {
           "description": "sioc num threads from http rdfs.org sioc spec term num threads",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocnum_threads",
           "package": "swish",
@@ -24433,6 +26417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:num_views\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_num_views\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocnum_views",
           "package": "swish",
@@ -24443,6 +26428,7 @@
         "index": {
           "description": "sioc num views from http rdfs.org sioc spec term num views",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocnum_views",
           "package": "swish",
@@ -24456,6 +26442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:owner_of\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_owner_of\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocowner_of",
           "package": "swish",
@@ -24466,6 +26453,7 @@
         "index": {
           "description": "sioc owner of from http rdfs.org sioc spec term owner of",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocowner_of",
           "package": "swish",
@@ -24479,6 +26467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:parent_of\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_parent_of\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocparent_of",
           "package": "swish",
@@ -24489,6 +26478,7 @@
         "index": {
           "description": "sioc parent of from http rdfs.org sioc spec term parent of",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocparent_of",
           "package": "swish",
@@ -24502,6 +26492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:previous_by_date\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_previous_by_date\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocprevious_by_date",
           "package": "swish",
@@ -24512,6 +26503,7 @@
         "index": {
           "description": "sioc previous by date from http rdfs.org sioc spec term previous by date",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocprevious_by_date",
           "package": "swish",
@@ -24525,6 +26517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:previous_version\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_previous_version\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocprevious_version",
           "package": "swish",
@@ -24535,6 +26528,7 @@
         "index": {
           "description": "sioc previous version from http rdfs.org sioc spec term previous version",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocprevious_version",
           "package": "swish",
@@ -24548,6 +26542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:related_to\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_related_to\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocrelated_to",
           "package": "swish",
@@ -24558,6 +26553,7 @@
         "index": {
           "description": "sioc related to from http rdfs.org sioc spec term related to",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocrelated_to",
           "package": "swish",
@@ -24571,6 +26567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:reply_of\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_reply_of\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocreply_of",
           "package": "swish",
@@ -24581,6 +26578,7 @@
         "index": {
           "description": "sioc reply of from http rdfs.org sioc spec term reply of",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocreply_of",
           "package": "swish",
@@ -24594,6 +26592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:scope_of\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_scope_of\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocscope_of",
           "package": "swish",
@@ -24604,6 +26603,7 @@
         "index": {
           "description": "sioc scope of from http rdfs.org sioc spec term scope of",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocscope_of",
           "package": "swish",
@@ -24617,6 +26617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:sibling\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_sibling\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocsibling",
           "package": "swish",
@@ -24627,6 +26628,7 @@
         "index": {
           "description": "sioc sibling from http rdfs.org sioc spec term sibling",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocsibling",
           "package": "swish",
@@ -24640,6 +26642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:space_of\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_space_of\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocspace_of",
           "package": "swish",
@@ -24650,6 +26653,7 @@
         "index": {
           "description": "sioc space of from http rdfs.org sioc spec term space of",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocspace_of",
           "package": "swish",
@@ -24663,6 +26667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:subscriber_of\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_subscriber_of\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocsubscriber_of",
           "package": "swish",
@@ -24673,6 +26678,7 @@
         "index": {
           "description": "sioc subscriber of from http rdfs.org sioc spec term subscriber of",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocsubscriber_of",
           "package": "swish",
@@ -24686,6 +26692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:topic\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_topic\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "sioctopic",
           "package": "swish",
@@ -24696,6 +26703,7 @@
         "index": {
           "description": "sioc topic from http rdfs.org sioc spec term topic",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "sioctopic",
           "package": "swish",
@@ -24709,6 +26717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esioc:usergroup_of\u003c/code\u003e from \u003ca\u003ehttp://rdfs.org/sioc/spec/#term_usergroup_of\u003c/a\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocusergroup_of",
           "package": "swish",
@@ -24719,6 +26728,7 @@
         "index": {
           "description": "sioc usergroup of from http rdfs.org sioc spec term usergroup of",
           "hierarchy": "Swish RDF Vocabulary SIOC",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.SIOC",
           "name": "siocusergroup_of",
           "package": "swish",
@@ -24732,6 +26742,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines vocabulary terms from the XSD document.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "XSD",
           "package": "swish",
@@ -24741,6 +26752,7 @@
         "index": {
           "description": "This module defines vocabulary terms from the XSD document",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "XSD",
           "package": "swish",
@@ -24755,6 +26767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps \u003ccode\u003exsd\u003c/code\u003e to \u003ca\u003ehttp://www.w3.org/2001/XMLSchema#\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "namespaceXSD",
           "package": "swish",
@@ -24765,6 +26778,7 @@
         "index": {
           "description": "Maps xsd to http www.w3.org XMLSchema",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "namespaceXSD",
           "package": "swish",
@@ -24779,6 +26793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exsd:anyURI\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/xmlschema-2/#anyURI\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdAnyURI",
           "package": "swish",
@@ -24789,6 +26804,7 @@
         "index": {
           "description": "xsd anyURI from http www.w3.org TR xmlschema-2 anyURI",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdAnyURI",
           "package": "swish",
@@ -24803,6 +26819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exsd:boolean\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/xmlschema-2/#boolean\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdBoolean",
           "package": "swish",
@@ -24813,6 +26830,7 @@
         "index": {
           "description": "xsd boolean from http www.w3.org TR xmlschema-2 boolean",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdBoolean",
           "package": "swish",
@@ -24827,6 +26845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exsd:byte\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/xmlschema-2/#byte\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdByte",
           "package": "swish",
@@ -24837,6 +26856,7 @@
         "index": {
           "description": "xsd byte from http www.w3.org TR xmlschema-2 byte",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdByte",
           "package": "swish",
@@ -24851,6 +26871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exsd:date\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/xmlschema-2/#date\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdDate",
           "package": "swish",
@@ -24861,6 +26882,7 @@
         "index": {
           "description": "xsd date from http www.w3.org TR xmlschema-2 date",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdDate",
           "package": "swish",
@@ -24875,6 +26897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exsd:dateTime\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/xmlschema-2/#dateTime\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdDateTime",
           "package": "swish",
@@ -24885,6 +26908,7 @@
         "index": {
           "description": "xsd dateTime from http www.w3.org TR xmlschema-2 dateTime",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdDateTime",
           "package": "swish",
@@ -24899,6 +26923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exsd:decimal\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/xmlschema-2/#decimal\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdDecimal",
           "package": "swish",
@@ -24909,6 +26934,7 @@
         "index": {
           "description": "xsd decimal from http www.w3.org TR xmlschema-2 decimal",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdDecimal",
           "package": "swish",
@@ -24923,6 +26949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exsd:double\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/xmlschema-2/#double\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdDouble",
           "package": "swish",
@@ -24933,6 +26960,7 @@
         "index": {
           "description": "xsd double from http www.w3.org TR xmlschema-2 double",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdDouble",
           "package": "swish",
@@ -24947,6 +26975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exsd:float\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/xmlschema-2/#float\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdFloat",
           "package": "swish",
@@ -24957,6 +26986,7 @@
         "index": {
           "description": "xsd float from http www.w3.org TR xmlschema-2 float",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdFloat",
           "package": "swish",
@@ -24971,6 +27001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exsd:int\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/xmlschema-2/#int\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdInt",
           "package": "swish",
@@ -24981,6 +27012,7 @@
         "index": {
           "description": "xsd int from http www.w3.org TR xmlschema-2 int",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdInt",
           "package": "swish",
@@ -24995,6 +27027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exsd:integer\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/xmlschema-2/#integer\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdInteger",
           "package": "swish",
@@ -25005,6 +27038,7 @@
         "index": {
           "description": "xsd integer from http www.w3.org TR xmlschema-2 integer",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdInteger",
           "package": "swish",
@@ -25019,6 +27053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exsd:long\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/xmlschema-2/#long\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdLong",
           "package": "swish",
@@ -25029,6 +27064,7 @@
         "index": {
           "description": "xsd long from http www.w3.org TR xmlschema-2 long",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdLong",
           "package": "swish",
@@ -25043,6 +27079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exsd:negativeInteger\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/xmlschema-2/#negativeInteger\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdNegInteger",
           "package": "swish",
@@ -25053,6 +27090,7 @@
         "index": {
           "description": "xsd negativeInteger from http www.w3.org TR xmlschema-2 negativeInteger",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdNegInteger",
           "package": "swish",
@@ -25067,6 +27105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exsd:nonNegativeInteger\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/xmlschema-2/#nonNegativeInteger\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdNonNegInteger",
           "package": "swish",
@@ -25077,6 +27116,7 @@
         "index": {
           "description": "xsd nonNegativeInteger from http www.w3.org TR xmlschema-2 nonNegativeInteger",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdNonNegInteger",
           "package": "swish",
@@ -25091,6 +27131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exsd:nonPositiveInteger\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/xmlschema-2/#nonPositiveInteger\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdNonPosInteger",
           "package": "swish",
@@ -25101,6 +27142,7 @@
         "index": {
           "description": "xsd nonPositiveInteger from http www.w3.org TR xmlschema-2 nonPositiveInteger",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdNonPosInteger",
           "package": "swish",
@@ -25115,6 +27157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exsd:positiveInteger\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/xmlschema-2/#positiveInteger\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdPosInteger",
           "package": "swish",
@@ -25125,6 +27168,7 @@
         "index": {
           "description": "xsd positiveInteger from http www.w3.org TR xmlschema-2 positiveInteger",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdPosInteger",
           "package": "swish",
@@ -25139,6 +27183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exsd:short\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/xmlschema-2/#short\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdShort",
           "package": "swish",
@@ -25149,6 +27194,7 @@
         "index": {
           "description": "xsd short from http www.w3.org TR xmlschema-2 short",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdShort",
           "package": "swish",
@@ -25163,6 +27209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exsd:string\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/xmlschema-2/#string\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdString",
           "package": "swish",
@@ -25173,6 +27220,7 @@
         "index": {
           "description": "xsd string from http www.w3.org TR xmlschema-2 string",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdString",
           "package": "swish",
@@ -25187,6 +27235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exsd:time\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/xmlschema-2/#time\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdTime",
           "package": "swish",
@@ -25197,6 +27246,7 @@
         "index": {
           "description": "xsd time from http www.w3.org TR xmlschema-2 time",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdTime",
           "package": "swish",
@@ -25211,6 +27261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a scoped name for an XSD datatype with the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdType",
           "package": "swish",
@@ -25221,6 +27272,7 @@
         "index": {
           "description": "Create scoped name for an XSD datatype with the given name",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdType",
           "normalized": "LName-\u003eScopedName",
@@ -25237,6 +27289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exsd:unsignedByte\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/xmlschema-2/#unsignedByte\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdUnsignedByte",
           "package": "swish",
@@ -25247,6 +27300,7 @@
         "index": {
           "description": "xsd unsignedByte from http www.w3.org TR xmlschema-2 unsignedByte",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdUnsignedByte",
           "package": "swish",
@@ -25261,6 +27315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exsd:unsignedInt\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/xmlschema-2/#unsignedInt\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdUnsignedInt",
           "package": "swish",
@@ -25271,6 +27326,7 @@
         "index": {
           "description": "xsd unsignedInt from http www.w3.org TR xmlschema-2 unsignedInt",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdUnsignedInt",
           "package": "swish",
@@ -25285,6 +27341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exsd:unsignedLong\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/xmlschema-2/#unsignedLong\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdUnsignedLong",
           "package": "swish",
@@ -25295,6 +27352,7 @@
         "index": {
           "description": "xsd unsignedLong from http www.w3.org TR xmlschema-2 unsignedLong",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdUnsignedLong",
           "package": "swish",
@@ -25309,6 +27367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exsd:unsignedShort\u003c/code\u003e from \u003ca\u003ehttp://www.w3.org/TR/xmlschema-2/#unsignedShort\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdUnsignedShort",
           "package": "swish",
@@ -25319,6 +27378,7 @@
         "index": {
           "description": "xsd unsignedShort from http www.w3.org TR xmlschema-2 unsignedShort",
           "hierarchy": "Swish RDF Vocabulary XSD",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary.XSD",
           "name": "xsdUnsignedShort",
           "package": "swish",
@@ -25333,6 +27393,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines some commonly used vocabulary terms,\n  using the \u003ccode\u003e\u003ca\u003eNamespace\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eScopedName\u003c/a\u003e\u003c/code\u003e data types. Additional vocabularies\n  are available in the set of \u003ccode\u003eSwish.RDF.Vocabulary.*\u003c/code\u003e modules, parts of\n  which are re-exported by this module\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary",
           "name": "Vocabulary",
           "package": "swish",
@@ -25342,6 +27403,7 @@
         "index": {
           "description": "This module defines some commonly used vocabulary terms using the Namespace and ScopedName data types Additional vocabularies are available in the set of Swish.RDF.Vocabulary modules parts of which are re-exported by this module",
           "hierarchy": "Swish RDF Vocabulary",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary",
           "name": "Vocabulary",
           "package": "swish",
@@ -25356,6 +27418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent the language tag for a literal string, following\n RFC 3066 \u003ca\u003ehttp://www.ietf.org/rfc/rfc3066.txt\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003etoLangTag\u003c/a\u003e\u003c/code\u003e to create a tag and \u003ccode\u003e\u003ca\u003efromLangTag\u003c/a\u003e\u003c/code\u003e to\n convert back. The case is preserved for the tag, although\n comparison (both the \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e instance and \u003ccode\u003ecompareLangTag\u003c/code\u003e)\n is done using the lower-case form of the tags.\n\u003c/p\u003e\u003cp\u003eAs an example:\n\u003c/p\u003e\u003cpre\u003e Prelude\u003e :set prompt \"swish\u003e \"\n swish\u003e :set -XOverloadedStrings\n swish\u003e :m + Swish.RDF.Vocabulary\n swish\u003e let en = \"en\" :: LanguageTag\n swish\u003e let us = \"en-us\" :: LanguageTag\n swish\u003e let gb = \"en-GB\" :: LanguageTag\n swish\u003e gb\n en-GB\n swish\u003e gb == \"en-gb\"\n True\n swish\u003e en == us\n False\n swish\u003e en `isBaseLang` us\n True\n swish\u003e us `isBaseLang` en\n False\n swish\u003e us `isBaseLang` gb\n False\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary",
           "name": "LanguageTag",
           "package": "swish",
@@ -25365,6 +27428,7 @@
         "index": {
           "description": "Represent the language tag for literal string following RFC http www.ietf.org rfc rfc3066.txt Use toLangTag to create tag and fromLangTag to convert back The case is preserved for the tag although comparison both the Eq instance and compareLangTag is done using the lower-case form of the tags As an example Prelude set prompt swish swish set XOverloadedStrings swish Swish.RDF.Vocabulary swish let en en LanguageTag swish let us en-us LanguageTag swish let gb en-GB LanguageTag swish gb en-GB swish gb en-gb True swish en us False swish en isBaseLang us True swish us isBaseLang en False swish us isBaseLang gb False",
           "hierarchy": "Swish RDF Vocabulary",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary",
           "name": "LanguageTag",
           "package": "swish",
@@ -25379,6 +27443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edefault:base\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary",
           "name": "defaultBase",
           "package": "swish",
@@ -25389,6 +27454,7 @@
         "index": {
           "description": "default base",
           "hierarchy": "Swish RDF Vocabulary",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary",
           "name": "defaultBase",
           "package": "swish",
@@ -25403,6 +27469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a language tag back into text form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary",
           "name": "fromLangTag",
           "package": "swish",
@@ -25413,6 +27480,7 @@
         "index": {
           "description": "Convert language tag back into text form",
           "hierarchy": "Swish RDF Vocabulary",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary",
           "name": "fromLangTag",
           "normalized": "LanguageTag-\u003eText",
@@ -25429,6 +27497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare language tags using the Language-range specification\n in section 2.5 of RFC 3066.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e is returned if the comparison tag is the same as, or\n matches a prefix of, the base tag (where the match must be\n over complete sub tags).\n\u003c/p\u003e\u003cp\u003eNote that \n\u003c/p\u003e\u003cpre\u003e l1 `isBaseLang` l2 == l2 `isBaseLang` l1\n\u003c/pre\u003e\u003cp\u003eonly when\n\u003c/p\u003e\u003cpre\u003e l1 == l2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary",
           "name": "isBaseLang",
           "package": "swish",
@@ -25438,6 +27507,7 @@
         "index": {
           "description": "Compare language tags using the Language-range specification in section of RFC True is returned if the comparison tag is the same as or matches prefix of the base tag where the match must be over complete sub tags Note that l1 isBaseLang l2 l2 isBaseLang l1 only when l1 l2",
           "hierarchy": "Swish RDF Vocabulary",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary",
           "name": "isBaseLang",
           "normalized": "LanguageTag-\u003eLanguageTag-\u003eBool",
@@ -25454,6 +27524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elog:implies\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary",
           "name": "logImplies",
           "package": "swish",
@@ -25464,6 +27535,7 @@
         "index": {
           "description": "log implies",
           "hierarchy": "Swish RDF Vocabulary",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary",
           "name": "logImplies",
           "package": "swish",
@@ -25478,6 +27550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps \u003ccode\u003edaml\u003c/code\u003e to \u003ca\u003ehttp://www.daml.org/2000/10/daml-ont#\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary",
           "name": "namespaceDAML",
           "package": "swish",
@@ -25488,6 +27561,7 @@
         "index": {
           "description": "Maps daml to http www.daml.org daml-ont",
           "hierarchy": "Swish RDF Vocabulary",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary",
           "name": "namespaceDAML",
           "package": "swish",
@@ -25502,6 +27576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps \u003ccode\u003edefault\u003c/code\u003e to \u003ccode\u003ehttp://id.ninebynine.org/default/\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary",
           "name": "namespaceDefault",
           "package": "swish",
@@ -25512,6 +27587,7 @@
         "index": {
           "description": "Maps default to http id.ninebynine.org default",
           "hierarchy": "Swish RDF Vocabulary",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary",
           "name": "namespaceDefault",
           "package": "swish",
@@ -25526,6 +27602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps \u003ccode\u003elog\u003c/code\u003e to \u003ca\u003ehttp://www.w3.org/2000/10/swap/log#\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary",
           "name": "namespaceLOG",
           "package": "swish",
@@ -25536,6 +27613,7 @@
         "index": {
           "description": "Maps log to http www.w3.org swap log",
           "hierarchy": "Swish RDF Vocabulary",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary",
           "name": "namespaceLOG",
           "package": "swish",
@@ -25550,6 +27628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps \u003ccode\u003emath\u003c/code\u003e to \u003ca\u003ehttp://www.w3.org/2000/10/swap/math#\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary",
           "name": "namespaceMATH",
           "package": "swish",
@@ -25560,6 +27639,7 @@
         "index": {
           "description": "Maps math to http www.w3.org swap math",
           "hierarchy": "Swish RDF Vocabulary",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary",
           "name": "namespaceMATH",
           "package": "swish",
@@ -25574,6 +27654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps \u003ccode\u003erdfd\u003c/code\u003e to \u003ccode\u003ehttp://id.ninebynine.org/2003/rdfext/rdfd#\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary",
           "name": "namespaceRDFD",
           "package": "swish",
@@ -25584,6 +27665,7 @@
         "index": {
           "description": "Maps rdfd to http id.ninebynine.org rdfext rdfd",
           "hierarchy": "Swish RDF Vocabulary",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary",
           "name": "namespaceRDFD",
           "package": "swish",
@@ -25598,6 +27680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps \u003ccode\u003eswish\u003c/code\u003e to \u003ccode\u003ehttp://id.ninebynine.org/2003/Swish/\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary",
           "name": "namespaceSwish",
           "package": "swish",
@@ -25608,6 +27691,7 @@
         "index": {
           "description": "Maps swish to http id.ninebynine.org Swish",
           "hierarchy": "Swish RDF Vocabulary",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary",
           "name": "namespaceSwish",
           "package": "swish",
@@ -25622,6 +27706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a namespace for the datatype family schema used by Swish.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary",
           "name": "namespaceXsdType",
           "package": "swish",
@@ -25631,6 +27716,7 @@
         "index": {
           "description": "Create namespace for the datatype family schema used by Swish",
           "hierarchy": "Swish RDF Vocabulary",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary",
           "name": "namespaceXsdType",
           "normalized": "LName-\u003eNamespace",
@@ -25647,6 +27733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfd:constraint\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary",
           "name": "rdfdConstraint",
           "package": "swish",
@@ -25657,6 +27744,7 @@
         "index": {
           "description": "rdfd constraint",
           "hierarchy": "Swish RDF Vocabulary",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary",
           "name": "rdfdConstraint",
           "package": "swish",
@@ -25671,6 +27759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfd:GeneralRestriction\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary",
           "name": "rdfdGeneralRestriction",
           "package": "swish",
@@ -25681,6 +27770,7 @@
         "index": {
           "description": "rdfd GeneralRestriction",
           "hierarchy": "Swish RDF Vocabulary",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary",
           "name": "rdfdGeneralRestriction",
           "package": "swish",
@@ -25695,6 +27785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfd:maxCardinality\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary",
           "name": "rdfdMaxCardinality",
           "package": "swish",
@@ -25705,6 +27796,7 @@
         "index": {
           "description": "rdfd maxCardinality",
           "hierarchy": "Swish RDF Vocabulary",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary",
           "name": "rdfdMaxCardinality",
           "package": "swish",
@@ -25719,6 +27811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erdfd:onProperties\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary",
           "name": "rdfdOnProperties",
           "package": "swish",
@@ -25729,6 +27822,7 @@
         "index": {
           "description": "rdfd onProperties",
           "hierarchy": "Swish RDF Vocabulary",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary",
           "name": "rdfdOnProperties",
           "package": "swish",
@@ -25743,6 +27837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps \u003ccode\u003ers_rdf\u003c/code\u003e to \u003ccode\u003ehttp://id.ninebynine.org/2003/Ruleset/rdf#\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary",
           "name": "scopeRDF",
           "package": "swish",
@@ -25753,6 +27848,7 @@
         "index": {
           "description": "Maps rs rdf to http id.ninebynine.org Ruleset rdf",
           "hierarchy": "Swish RDF Vocabulary",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary",
           "name": "scopeRDF",
           "package": "swish",
@@ -25767,6 +27863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps \u003ccode\u003ers_rdfd\u003c/code\u003e to \u003ccode\u003ehttp://id.ninebynine.org/2003/Ruleset/rdfd#\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary",
           "name": "scopeRDFD",
           "package": "swish",
@@ -25777,6 +27874,7 @@
         "index": {
           "description": "Maps rs rdfd to http id.ninebynine.org Ruleset rdfd",
           "hierarchy": "Swish RDF Vocabulary",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary",
           "name": "scopeRDFD",
           "package": "swish",
@@ -25791,6 +27889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps \u003ccode\u003ers_rdfs\u003c/code\u003e to \u003ccode\u003ehttp://id.ninebynine.org/2003/Ruleset/rdfs#\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary",
           "name": "scopeRDFS",
           "package": "swish",
@@ -25801,6 +27900,7 @@
         "index": {
           "description": "Maps rs rdfs to http id.ninebynine.org Ruleset rdfs",
           "hierarchy": "Swish RDF Vocabulary",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary",
           "name": "scopeRDFS",
           "package": "swish",
@@ -25815,6 +27915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a local name to a scoped name in the \u003ccode\u003eswish\u003c/code\u003e namespace (\u003ccode\u003e\u003ca\u003enamespaceSwish\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary",
           "name": "swishName",
           "package": "swish",
@@ -25825,6 +27926,7 @@
         "index": {
           "description": "Convert local name to scoped name in the swish namespace namespaceSwish",
           "hierarchy": "Swish RDF Vocabulary",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary",
           "name": "swishName",
           "normalized": "LName-\u003eScopedName",
@@ -25841,6 +27943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eLanguageTag\u003c/a\u003e\u003c/code\u003e element from the label.\n\u003c/p\u003e\u003cp\u003eValid tags follow the ABNF from RCF 3066, which is\n\u003c/p\u003e\u003cpre\u003e   Language-Tag = Primary-subtag *( \"-\" Subtag )\n   Primary-subtag = 1*8ALPHA\n   Subtag = 1*8(ALPHA / DIGIT)\n\u003c/pre\u003e\u003cp\u003eThere are no checks that the primary or secondary sub tag\n values are defined in any standard, such as ISO 639,\n or obey any other syntactical restriction than given above.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF.Vocabulary",
           "name": "toLangTag",
           "package": "swish",
@@ -25851,6 +27954,7 @@
         "index": {
           "description": "Create LanguageTag element from the label Valid tags follow the ABNF from RCF which is Language-Tag Primary-subtag Subtag Primary-subtag ALPHA Subtag ALPHA DIGIT There are no checks that the primary or secondary sub tag values are defined in any standard such as ISO or obey any other syntactical restriction than given above",
           "hierarchy": "Swish RDF Vocabulary",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF.Vocabulary",
           "name": "toLangTag",
           "normalized": "Text-\u003eMaybe LanguageTag",
@@ -25867,6 +27971,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides an in-memory RDF Graph (it re-exports\n  \u003ca\u003eSwish.RDF.Graph\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.RDF",
           "name": "RDF",
           "package": "swish",
@@ -25876,6 +27981,7 @@
         "index": {
           "description": "This module provides an in-memory RDF Graph it re-exports Swish.RDF.Graph",
           "hierarchy": "Swish RDF",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.RDF",
           "name": "RDF",
           "package": "swish",
@@ -25890,6 +27996,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines a framework for defining inference rules\n  over some expression form.  It is intended to be used with\n  RDF graphs, but the structures aim to be quite generic with\n  respect to the expression forms allowed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Rule",
           "name": "Rule",
           "package": "swish",
@@ -25899,6 +28006,7 @@
         "index": {
           "description": "This module defines framework for defining inference rules over some expression form It is intended to be used with RDF graphs but the structures aim to be quite generic with respect to the expression forms allowed",
           "hierarchy": "Swish Rule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Rule",
           "name": "Rule",
           "package": "swish",
@@ -25913,6 +28021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpression is a type class for values over which proofs\n  may be constructed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Rule",
           "name": "Expression",
           "package": "swish",
@@ -25922,6 +28031,7 @@
         "index": {
           "description": "Expression is type class for values over which proofs may be constructed",
           "hierarchy": "Swish Rule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Rule",
           "name": "Expression",
           "package": "swish",
@@ -25936,6 +28046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Formula is a named expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Rule",
           "name": "Formula",
           "package": "swish",
@@ -25945,6 +28056,7 @@
         "index": {
           "description": "Formula is named expression",
           "hierarchy": "Swish Rule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Rule",
           "name": "Formula",
           "package": "swish",
@@ -25959,6 +28071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRule is a data type for inference rules that can be used\n  to construct a step in a proof.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Rule",
           "name": "Rule",
           "package": "swish",
@@ -25968,6 +28081,7 @@
         "index": {
           "description": "Rule is data type for inference rules that can be used to construct step in proof",
           "hierarchy": "Swish Rule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Rule",
           "name": "Rule",
           "package": "swish",
@@ -25982,6 +28096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of rules labelled with their name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Rule",
           "name": "RuleMap",
           "package": "swish",
@@ -25991,6 +28106,7 @@
         "index": {
           "description": "set of rules labelled with their name",
           "hierarchy": "Swish Rule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Rule",
           "name": "RuleMap",
           "package": "swish",
@@ -26004,6 +28120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Rule",
           "name": "Formula",
           "package": "swish",
@@ -26013,6 +28130,7 @@
         },
         "index": {
           "hierarchy": "Swish Rule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Rule",
           "name": "Formula",
           "package": "swish",
@@ -26026,6 +28144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Rule",
           "name": "Rule",
           "package": "swish",
@@ -26035,6 +28154,7 @@
         },
         "index": {
           "hierarchy": "Swish Rule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Rule",
           "name": "Rule",
           "package": "swish",
@@ -26049,6 +28169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBackward application of a rule, takes an expression\n  and returns a list of alternative antecedents, each of\n  which is a list of expressions that jointly yield the\n  given consequence through application of the inference\n  rule.  An empty list is returned if no antecedents\n  will allow the consequence to be inferred.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Rule",
           "name": "bwdApply",
           "package": "swish",
@@ -26059,6 +28180,7 @@
         "index": {
           "description": "Backward application of rule takes an expression and returns list of alternative antecedents each of which is list of expressions that jointly yield the given consequence through application of the inference rule An empty list is returned if no antecedents will allow the consequence to be inferred",
           "hierarchy": "Swish Rule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Rule",
           "name": "bwdApply",
           "normalized": "a-\u003e[[a]]",
@@ -26075,6 +28197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks that the antecedants are all required\n to create the consequence using the given rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Rule",
           "name": "bwdCheckInference",
           "package": "swish",
@@ -26084,6 +28207,7 @@
         "index": {
           "description": "Checks that the antecedants are all required to create the consequence using the given rule",
           "hierarchy": "Swish Rule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Rule",
           "name": "bwdCheckInference",
           "normalized": "Rule a-\u003e[a]-\u003ea-\u003eBool",
@@ -26100,6 +28224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInference check.  Takes a list of antecedent expressions\n  and a consequent expression, returning True if the\n  consequence can be obtained from the antecedents by\n  application of the rule.  When the antecedents and\n  consequent are both given, this is generally more efficient\n  that using either forward or backward chaining.\n  Also, a particular rule may not fully support either\n  forward or backward chaining, but all rules are required\n  to fully support this function.\n\u003c/p\u003e\u003cp\u003eA default implementation based on forward chaining is\n  given below.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Rule",
           "name": "checkInference",
           "package": "swish",
@@ -26110,6 +28235,7 @@
         "index": {
           "description": "Inference check Takes list of antecedent expressions and consequent expression returning True if the consequence can be obtained from the antecedents by application of the rule When the antecedents and consequent are both given this is generally more efficient that using either forward or backward chaining Also particular rule may not fully support either forward or backward chaining but all rules are required to fully support this function default implementation based on forward chaining is given below",
           "hierarchy": "Swish Rule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Rule",
           "name": "checkInference",
           "normalized": "[a]-\u003ea-\u003eBool",
@@ -26126,6 +28252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamed formula value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Rule",
           "name": "formExpr",
           "package": "swish",
@@ -26136,6 +28263,7 @@
         "index": {
           "description": "Named formula value",
           "hierarchy": "Swish Rule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Rule",
           "name": "formExpr",
           "package": "swish",
@@ -26150,6 +28278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName used for formula in proof chain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Rule",
           "name": "formName",
           "package": "swish",
@@ -26160,6 +28289,7 @@
         "index": {
           "description": "Name used for formula in proof chain",
           "hierarchy": "Swish Rule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Rule",
           "name": "formName",
           "package": "swish",
@@ -26174,6 +28304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForward application of a rule, takes a list of\n  expressions and returns a list (possibly empty)\n  of forward applications of the rule to combinations\n  of the antecedent expressions.\n  Note that all of the results returned can be assumed to\n  be (simultaneously) true, given the antecedents provided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Rule",
           "name": "fwdApply",
           "package": "swish",
@@ -26184,6 +28315,7 @@
         "index": {
           "description": "Forward application of rule takes list of expressions and returns list possibly empty of forward applications of the rule to combinations of the antecedent expressions Note that all of the results returned can be assumed to be simultaneously true given the antecedents provided",
           "hierarchy": "Swish Rule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Rule",
           "name": "fwdApply",
           "normalized": "[a]-\u003e[a]",
@@ -26200,6 +28332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks that consequence is a result of\n applying the rule to the antecedants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Rule",
           "name": "fwdCheckInference",
           "package": "swish",
@@ -26209,6 +28342,7 @@
         "index": {
           "description": "Checks that consequence is result of applying the rule to the antecedants",
           "hierarchy": "Swish Rule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Rule",
           "name": "fwdCheckInference",
           "normalized": "Rule a-\u003e[a]-\u003ea-\u003eBool",
@@ -26225,6 +28359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs expression true in all interpretations?\n  If so, then its truth is assumed without justification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Rule",
           "name": "isValid",
           "package": "swish",
@@ -26235,6 +28370,7 @@
         "index": {
           "description": "Is expression true in all interpretations If so then its truth is assumed without justification",
           "hierarchy": "Swish Rule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Rule",
           "name": "isValid",
           "normalized": "a-\u003eBool",
@@ -26251,6 +28387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe null formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Rule",
           "name": "nullFormula",
           "package": "swish",
@@ -26261,6 +28398,7 @@
         "index": {
           "description": "The null formula",
           "hierarchy": "Swish Rule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Rule",
           "name": "nullFormula",
           "package": "swish",
@@ -26275,6 +28413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe null rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Rule",
           "name": "nullRule",
           "package": "swish",
@@ -26285,6 +28424,7 @@
         "index": {
           "description": "The null rule",
           "hierarchy": "Swish Rule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Rule",
           "name": "nullRule",
           "package": "swish",
@@ -26299,6 +28439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a scoped name with the null namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Rule",
           "name": "nullSN",
           "package": "swish",
@@ -26308,6 +28449,7 @@
         "index": {
           "description": "Create scoped name with the null namespace",
           "hierarchy": "Swish Rule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Rule",
           "name": "nullSN",
           "normalized": "LName-\u003eScopedName",
@@ -26324,6 +28466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe namespace \u003ccode\u003ehttp://id.ninebynine.org/2003/Ruleset/null\u003c/code\u003e with the prefix \u003ccode\u003enull:\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Rule",
           "name": "nullScope",
           "package": "swish",
@@ -26334,6 +28477,7 @@
         "index": {
           "description": "The namespace http id.ninebynine.org Ruleset null with the prefix null",
           "hierarchy": "Swish Rule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Rule",
           "name": "nullScope",
           "package": "swish",
@@ -26348,6 +28492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of rule, for use when displaying a proof\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Rule",
           "name": "ruleName",
           "package": "swish",
@@ -26358,6 +28503,7 @@
         "index": {
           "description": "Name of rule for use when displaying proof",
           "hierarchy": "Swish Rule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Rule",
           "name": "ruleName",
           "package": "swish",
@@ -26372,6 +28518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a displayable form of a list of labelled formulae\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Rule",
           "name": "showsFormulae",
           "package": "swish",
@@ -26381,6 +28528,7 @@
         "index": {
           "description": "Return displayable form of list of labelled formulae",
           "hierarchy": "Swish Rule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Rule",
           "name": "showsFormulae",
           "normalized": "String-\u003e[Formula a]-\u003eString-\u003eShowS",
@@ -26397,6 +28545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a string left justified in a field of at least the specified\n  number of characters width.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Rule",
           "name": "showsWidth",
           "package": "swish",
@@ -26407,6 +28556,7 @@
         "index": {
           "description": "Show string left justified in field of at least the specified number of characters width",
           "hierarchy": "Swish Rule",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Rule",
           "name": "showsWidth",
           "normalized": "Int-\u003eString-\u003eShowS",
@@ -26423,6 +28573,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines a ruleset data type, used to collect information\n  about a ruleset that may contribute torwards inferences in RDF;\n  e.g. RDF and RDFS are rulesets.\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eRuleset\u003c/a\u003e\u003c/code\u003e consists of a namespace, a collection of axioms, and\n  a collection of rules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Ruleset",
           "name": "Ruleset",
           "package": "swish",
@@ -26432,6 +28583,7 @@
         "index": {
           "description": "This module defines ruleset data type used to collect information about ruleset that may contribute torwards inferences in RDF e.g RDF and RDFS are rulesets Ruleset consists of namespace collection of axioms and collection of rules",
           "hierarchy": "Swish Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Ruleset",
           "name": "Ruleset",
           "package": "swish",
@@ -26446,6 +28598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Rule set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Ruleset",
           "name": "Ruleset",
           "package": "swish",
@@ -26455,6 +28608,7 @@
         "index": {
           "description": "Rule set",
           "hierarchy": "Swish Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Ruleset",
           "name": "Ruleset",
           "package": "swish",
@@ -26469,6 +28623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of Rulesets labelled by their Namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Ruleset",
           "name": "RulesetMap",
           "package": "swish",
@@ -26478,6 +28633,7 @@
         "index": {
           "description": "set of Rulesets labelled by their Namespace",
           "hierarchy": "Swish Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Ruleset",
           "name": "RulesetMap",
           "package": "swish",
@@ -26491,6 +28647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Ruleset",
           "name": "Ruleset",
           "package": "swish",
@@ -26500,6 +28657,7 @@
         },
         "index": {
           "hierarchy": "Swish Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Ruleset",
           "name": "Ruleset",
           "package": "swish",
@@ -26514,6 +28672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a named axiom in a proof context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Ruleset",
           "name": "getContextAxiom",
           "package": "swish",
@@ -26523,6 +28682,7 @@
         "index": {
           "description": "Find named axiom in proof context",
           "hierarchy": "Swish Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Ruleset",
           "name": "getContextAxiom",
           "normalized": "ScopedName-\u003eFormula a-\u003e[Ruleset a]-\u003eFormula a",
@@ -26539,6 +28699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a named rule in a proof context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Ruleset",
           "name": "getContextRule",
           "package": "swish",
@@ -26548,6 +28709,7 @@
         "index": {
           "description": "Find named rule in proof context",
           "hierarchy": "Swish Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Ruleset",
           "name": "getContextRule",
           "normalized": "ScopedName-\u003eRule a-\u003e[Ruleset a]-\u003eRule a",
@@ -26564,6 +28726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a named axiom in a proof context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Ruleset",
           "name": "getMaybeContextAxiom",
           "package": "swish",
@@ -26573,6 +28736,7 @@
         "index": {
           "description": "Find named axiom in proof context",
           "hierarchy": "Swish Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Ruleset",
           "name": "getMaybeContextAxiom",
           "normalized": "ScopedName-\u003e[Ruleset a]-\u003eMaybe(Formula a)",
@@ -26589,6 +28753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a named rule in a proof context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Ruleset",
           "name": "getMaybeContextRule",
           "package": "swish",
@@ -26598,6 +28763,7 @@
         "index": {
           "description": "Find named rule in proof context",
           "hierarchy": "Swish Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Ruleset",
           "name": "getMaybeContextRule",
           "normalized": "ScopedName-\u003e[Ruleset a]-\u003eMaybe(Rule a)",
@@ -26614,6 +28780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a named axiom in a ruleset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Ruleset",
           "name": "getRulesetAxiom",
           "package": "swish",
@@ -26624,6 +28791,7 @@
         "index": {
           "description": "Find named axiom in ruleset",
           "hierarchy": "Swish Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Ruleset",
           "name": "getRulesetAxiom",
           "normalized": "ScopedName-\u003eRuleset a-\u003eMaybe(Formula a)",
@@ -26640,6 +28808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the axioms from a ruleset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Ruleset",
           "name": "getRulesetAxioms",
           "package": "swish",
@@ -26650,6 +28819,7 @@
         "index": {
           "description": "Extract the axioms from ruleset",
           "hierarchy": "Swish Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Ruleset",
           "name": "getRulesetAxioms",
           "normalized": "Ruleset a-\u003e[Formula a]",
@@ -26666,6 +28836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the namespace of a ruleset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Ruleset",
           "name": "getRulesetNamespace",
           "package": "swish",
@@ -26676,6 +28847,7 @@
         "index": {
           "description": "Extract the namespace of ruleset",
           "hierarchy": "Swish Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Ruleset",
           "name": "getRulesetNamespace",
           "normalized": "Ruleset a-\u003eNamespace",
@@ -26692,6 +28864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a named rule in a ruleset. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Ruleset",
           "name": "getRulesetRule",
           "package": "swish",
@@ -26702,6 +28875,7 @@
         "index": {
           "description": "Find named rule in ruleset",
           "hierarchy": "Swish Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Ruleset",
           "name": "getRulesetRule",
           "normalized": "ScopedName-\u003eRuleset a-\u003eMaybe(Rule a)",
@@ -26718,6 +28892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the rules from a ruleset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Ruleset",
           "name": "getRulesetRules",
           "package": "swish",
@@ -26728,6 +28903,7 @@
         "index": {
           "description": "Extract the rules from ruleset",
           "hierarchy": "Swish Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Ruleset",
           "name": "getRulesetRules",
           "normalized": "Ruleset a-\u003e[Rule a]",
@@ -26744,6 +28920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a ruleset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Ruleset",
           "name": "makeRuleset",
           "package": "swish",
@@ -26754,6 +28931,7 @@
         "index": {
           "description": "Create ruleset",
           "hierarchy": "Swish Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Ruleset",
           "name": "makeRuleset",
           "normalized": "Namespace-\u003e[Formula a]-\u003e[Rule a]-\u003eRuleset a",
@@ -26770,6 +28948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAxioms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Ruleset",
           "name": "rsAxioms",
           "package": "swish",
@@ -26780,6 +28959,7 @@
         "index": {
           "description": "Axioms",
           "hierarchy": "Swish Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Ruleset",
           "name": "rsAxioms",
           "normalized": "[Formula a]",
@@ -26796,6 +28976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Ruleset",
           "name": "rsNamespace",
           "package": "swish",
@@ -26806,6 +28987,7 @@
         "index": {
           "description": "Namespace",
           "hierarchy": "Swish Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Ruleset",
           "name": "rsNamespace",
           "package": "swish",
@@ -26820,6 +29002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Ruleset",
           "name": "rsRules",
           "package": "swish",
@@ -26830,6 +29013,7 @@
         "index": {
           "description": "Rules",
           "hierarchy": "Swish Ruleset",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Ruleset",
           "name": "rsRules",
           "normalized": "[Rule a]",
@@ -26846,6 +29030,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements the Swish script processor:  it parses a script\nfrom a supplied string, and returns a list of Swish state transformer\nfunctions whose effect, when applied to a state value, is to implement\nthe supplied script.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Script",
           "name": "Script",
           "package": "swish",
@@ -26855,6 +29040,7 @@
         "index": {
           "description": "This module implements the Swish script processor it parses script from supplied string and returns list of Swish state transformer functions whose effect when applied to state value is to implement the supplied script",
           "hierarchy": "Swish Script",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Script",
           "name": "Script",
           "package": "swish",
@@ -26869,6 +29055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for Swish script processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Script",
           "name": "parseScriptFromText",
           "package": "swish",
@@ -26878,6 +29065,7 @@
         "index": {
           "description": "Parser for Swish script processor",
           "hierarchy": "Swish Script",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Script",
           "name": "parseScriptFromText",
           "normalized": "Maybe QName-\u003eText-\u003eEither String[SwishStateIO()]",
@@ -26893,6 +29081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Utils.ListHelpers",
           "name": "ListHelpers",
           "package": "swish",
@@ -26901,6 +29090,7 @@
         },
         "index": {
           "hierarchy": "Swish Utils ListHelpers",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Utils.ListHelpers",
           "name": "ListHelpers",
           "package": "swish",
@@ -26915,6 +29105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply list of functions to some value, returning list of results.\n  It's kind of like an converse map.\n\u003c/p\u003e\u003cp\u003eThis is similar to the \u003ccode\u003eap\u003c/code\u003e function in the Monad library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.Utils.ListHelpers",
           "name": "flist",
           "package": "swish",
@@ -26925,6 +29116,7 @@
         "index": {
           "description": "Apply list of functions to some value returning list of results It kind of like an converse map This is similar to the ap function in the Monad library",
           "hierarchy": "Swish Utils ListHelpers",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.Utils.ListHelpers",
           "name": "flist",
           "normalized": "[a-\u003eb]-\u003ea-\u003e[b]",
@@ -26940,6 +29132,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines functions for representing and manipulating query\n  binding variable sets.  This is the key data that mediates between\n  query and back substitution when performing inferences.  A framework\n  of query variable modifiers is provided that can be used to\n  implement richer inferences, such as filtering of  query results,\n  or replacing values based on known relationships.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "VarBinding",
           "package": "swish",
@@ -26949,6 +29142,7 @@
         "index": {
           "description": "This module defines functions for representing and manipulating query binding variable sets This is the key data that mediates between query and back substitution when performing inferences framework of query variable modifiers is provided that can be used to implement richer inferences such as filtering of query results or replacing values based on known relationships",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "VarBinding",
           "package": "swish",
@@ -26963,6 +29157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for variable binding modifier that has yet to be instantiated\n  with respect to the variables that it operates upon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "OpenVarBindingModify",
           "package": "swish",
@@ -26972,6 +29167,7 @@
         "index": {
           "description": "Type for variable binding modifier that has yet to be instantiated with respect to the variables that it operates upon",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "OpenVarBindingModify",
           "package": "swish",
@@ -26986,6 +29182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVarBinding is the type of an arbitrary variable bindings\n  value, where the type of the bound values is not specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "VarBinding",
           "package": "swish",
@@ -26995,6 +29192,7 @@
         "index": {
           "description": "VarBinding is the type of an arbitrary variable bindings value where the type of the bound values is not specified",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "VarBinding",
           "package": "swish",
@@ -27009,6 +29207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVarBindingFilter is a function type that tests to see if\n  a query binding satisfies some criterion.\n\u003c/p\u003e\u003cp\u003eQueries often want to apply some kind of filter or condition\n  to the variable bindings that are processed.  In inference rules,\n  it sometimes seems desirable to stipulate additional conditions on\n  the things that are matched.\n\u003c/p\u003e\u003cp\u003eThis function type is used to perform such tests.\n  A number of simple implementations are included below.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "VarBindingFilter",
           "package": "swish",
@@ -27018,6 +29217,7 @@
         "index": {
           "description": "VarBindingFilter is function type that tests to see if query binding satisfies some criterion Queries often want to apply some kind of filter or condition to the variable bindings that are processed In inference rules it sometimes seems desirable to stipulate additional conditions on the things that are matched This function type is used to perform such tests number of simple implementations are included below",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "VarBindingFilter",
           "package": "swish",
@@ -27032,6 +29232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine the type of a function to modify variable bindings in\n  forward chaining based on rule antecedent matches.  This\n  function is used to implement the \"allocated to\" logic described\n  in Appendix B of the RDF semantics document, in which a specific\n  blank node is associated with all matches of some specific value\n  by applications of the rule on a given graph.\n  Use \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e if no modification of the variable bindings is required.\n\u003c/p\u003e\u003cp\u003eThis datatype consists of the modifier function itself, which\n  operates on a list of variable bindings rather than a single\n  variable binding (because some modifications share context across\n  a set of bindings), and some additional descriptive information\n  that allows possible usage patterns to be analyzed.\n\u003c/p\u003e\u003cp\u003eSome usage patterns (see \u003ccode\u003e\u003ca\u003evbmUsage\u003c/a\u003e\u003c/code\u003e for more details):\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003efilter\u003c/dt\u003e\u003cdd\u003e  all variables are input variables, and the effect\n      of the modifier function is to drop variable bindings that\n      don't satisfy some criterion.\n      Identifiable by an empty element in \u003ccode\u003evbmUsage\u003c/code\u003e.\n\u003c/dd\u003e\u003cdt\u003esource\u003c/dt\u003e\u003cdd\u003e  all variables are output variables:  a raw query\n      could be viewed as a source of variable bindings.\n      Identifiable by an element of \u003ccode\u003evbmUsage\u003c/code\u003e equal to \u003ccode\u003evbmVocab\u003c/code\u003e.\n\u003c/dd\u003e\u003cdt\u003emodifier\u003c/dt\u003e\u003cdd\u003e  for each supplied variable binding, one or more\n      new variable bindings may be created that contain the\n      input variables bound as supplied plus some additional variables.\n      Identifiable by an element of \u003ccode\u003evbmUsage\u003c/code\u003e some subset of \u003ccode\u003evbmVocab\u003c/code\u003e.\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eA variety of variable usage patterns may be supported by a given\n  modifier:  a modifier may be used to define new variable bindings\n  from existing bindings in a number of ways, or simply to check that\n  some required relationship between bindings is satisfied.\n  (Example, for \u003ccode\u003ea + b = c\u003c/code\u003e, any one variable can be deduced from the\n  other two, or all three may be supplied to check that the relationship\n  does indeed hold.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "VarBindingModify",
           "package": "swish",
@@ -27041,6 +29242,7 @@
         "index": {
           "description": "Define the type of function to modify variable bindings in forward chaining based on rule antecedent matches This function is used to implement the allocated to logic described in Appendix of the RDF semantics document in which specific blank node is associated with all matches of some specific value by applications of the rule on given graph Use id if no modification of the variable bindings is required This datatype consists of the modifier function itself which operates on list of variable bindings rather than single variable binding because some modifications share context across set of bindings and some additional descriptive information that allows possible usage patterns to be analyzed Some usage patterns see vbmUsage for more details filter all variables are input variables and the effect of the modifier function is to drop variable bindings that don satisfy some criterion Identifiable by an empty element in vbmUsage source all variables are output variables raw query could be viewed as source of variable bindings Identifiable by an element of vbmUsage equal to vbmVocab modifier for each supplied variable binding one or more new variable bindings may be created that contain the input variables bound as supplied plus some additional variables Identifiable by an element of vbmUsage some subset of vbmVocab variety of variable usage patterns may be supported by given modifier modifier may be used to define new variable bindings from existing bindings in number of ways or simply to check that some required relationship between bindings is satisfied Example for any one variable can be deduced from the other two or all three may be supplied to check that the relationship does indeed hold",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "VarBindingModify",
           "package": "swish",
@@ -27054,6 +29256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "VarBinding",
           "package": "swish",
@@ -27063,6 +29266,7 @@
         },
         "index": {
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "VarBinding",
           "package": "swish",
@@ -27076,6 +29280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "VarBindingFilter",
           "package": "swish",
@@ -27085,6 +29290,7 @@
         },
         "index": {
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "VarBindingFilter",
           "package": "swish",
@@ -27098,6 +29304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "VarBindingModify",
           "package": "swish",
@@ -27107,6 +29314,7 @@
         },
         "index": {
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "VarBindingModify",
           "package": "swish",
@@ -27121,6 +29329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a single new value to a variable binding and return the resulting\n  new variable binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "addVarBinding",
           "package": "swish",
@@ -27131,6 +29340,7 @@
         "index": {
           "description": "Add single new value to variable binding and return the resulting new variable binding",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "addVarBinding",
           "normalized": "a-\u003eb-\u003eVarBinding a b-\u003eVarBinding a b",
@@ -27147,6 +29357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply query binding to a supplied value, returning the value\n  unchanged if no binding is defined\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "applyVarBinding",
           "package": "swish",
@@ -27157,6 +29368,7 @@
         "index": {
           "description": "Apply query binding to supplied value returning the value unchanged if no binding is defined",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "applyVarBinding",
           "normalized": "VarBinding a a-\u003ea-\u003ea",
@@ -27173,6 +29385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of the variables bound by a supplied variable binding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "boundVars",
           "package": "swish",
@@ -27183,6 +29396,7 @@
         "index": {
           "description": "Return list of the variables bound by supplied variable binding",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "boundVars",
           "normalized": "VarBinding a b-\u003eSet a",
@@ -27199,6 +29413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose sequence of variable binding modifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "composeSequence",
           "package": "swish",
@@ -27209,6 +29424,7 @@
         "index": {
           "description": "Compose sequence of variable binding modifiers",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "composeSequence",
           "normalized": "[VarBindingModify a b]-\u003eMaybe(VarBindingModify a b)",
@@ -27225,6 +29441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn \u003ccode\u003eJust a\u003c/code\u003e compatible composition of variable binding modifiers\n  for a given set of supplied bound variables, or \u003ccode\u003eNothing\u003c/code\u003e if there\n  is no compatible composition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "findComposition",
           "package": "swish",
@@ -27235,6 +29452,7 @@
         "index": {
           "description": "Return Just compatible composition of variable binding modifiers for given set of supplied bound variables or Nothing if there is no compatible composition",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "findComposition",
           "normalized": "[VarBindingModify a b]-\u003e[a]-\u003eMaybe(VarBindingModify a b)",
@@ -27251,6 +29469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all compatible compositions of a list of variable binding\n  modifiers for a given set of supplied bound variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "findCompositions",
           "package": "swish",
@@ -27261,6 +29480,7 @@
         "index": {
           "description": "Find all compatible compositions of list of variable binding modifiers for given set of supplied bound variables",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "findCompositions",
           "normalized": "[VarBindingModify a b]-\u003e[a]-\u003e[VarBindingModify a b]",
@@ -27277,6 +29497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin a pair of query bindings, returning a new binding that\n  maps all variables recognized by either of the input bindings.\n  If the bindings should overlap, such overlap is not detected and\n  the value from the first binding provided is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "joinVarBindings",
           "package": "swish",
@@ -27287,6 +29508,7 @@
         "index": {
           "description": "Join pair of query bindings returning new binding that maps all variables recognized by either of the input bindings If the bindings should overlap such overlap is not detected and the value from the first binding provided is used",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "joinVarBindings",
           "normalized": "VarBinding a b-\u003eVarBinding a b-\u003eVarBinding a b",
@@ -27303,6 +29525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to make a variable binding from a list of\n  pairs of variable and corresponding assigned value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "makeVarBinding",
           "package": "swish",
@@ -27313,6 +29536,7 @@
         "index": {
           "description": "Function to make variable binding from list of pairs of variable and corresponding assigned value",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "makeVarBinding",
           "normalized": "[(a,b)]-\u003eVarBinding a b",
@@ -27329,6 +29553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a variable comparison filter for named variables using\n  a supplied value comparison function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "makeVarCompareFilter",
           "package": "swish",
@@ -27339,6 +29564,7 @@
         "index": {
           "description": "Make variable comparison filter for named variables using supplied value comparison function",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "makeVarCompareFilter",
           "normalized": "ScopedName-\u003e(a-\u003ea-\u003eBool)-\u003eb-\u003eb-\u003eVarBindingFilter b a",
@@ -27355,6 +29581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a variable binding modifier from a variable binding filter value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "makeVarFilterModify",
           "package": "swish",
@@ -27365,6 +29592,7 @@
         "index": {
           "description": "Make variable binding modifier from variable binding filter value",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "makeVarFilterModify",
           "normalized": "VarBindingFilter a b-\u003eVarBindingModify a b",
@@ -27381,6 +29609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a variable test filter for a named variable using a\n  supplied value testing function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "makeVarTestFilter",
           "package": "swish",
@@ -27391,6 +29620,7 @@
         "index": {
           "description": "Make variable test filter for named variable using supplied value testing function",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "makeVarTestFilter",
           "normalized": "ScopedName-\u003e(a-\u003eBool)-\u003eb-\u003eVarBindingFilter b a",
@@ -27407,6 +29637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe null, or empry, binding maps no query variables.\n   This is the \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e instance of the Monoid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "nullVarBinding",
           "package": "swish",
@@ -27417,6 +29648,7 @@
         "index": {
           "description": "The null or empry binding maps no query variables This is the mempty instance of the Monoid",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "nullVarBinding",
           "package": "swish",
@@ -27431,6 +29663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNull variable binding modifier\n\u003c/p\u003e\u003cp\u003eThis is like \u003ccode\u003e\u003ca\u003evarBindingId\u003c/a\u003e\u003c/code\u003e except parameterized by some labels.\n  I think this is redundant, and should be eliminated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "nullVarBindingModify",
           "package": "swish",
@@ -27441,6 +29674,7 @@
         "index": {
           "description": "Null variable binding modifier This is like varBindingId except parameterized by some labels think this is redundant and should be eliminated",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "nullVarBindingModify",
           "package": "swish",
@@ -27455,6 +29689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract variable binding name from \u003ccode\u003eOpenVarBindingModify\u003c/code\u003e value\n\u003c/p\u003e\u003cp\u003e(Because only the name is required, the application to an undefined\n  list of variable labels should never be evaluated, as long as the\n  name is not dependent on the variable names in any way.)\n\u003c/p\u003e\u003cp\u003eNOT QUITE... some of the functions that create \u003ccode\u003eOpenVarBindingModify\u003c/code\u003e\n  instances also pattern-match the number of labels provided, forcing\n  evaluation of the labels parameter, even though it's not used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "openVbmName",
           "package": "swish",
@@ -27465,6 +29700,7 @@
         "index": {
           "description": "Extract variable binding name from OpenVarBindingModify value Because only the name is required the application to an undefined list of variable labels should never be evaluated as long as the name is not dependent on the variable names in any way NOT QUITE some of the functions that create OpenVarBindingModify instances also pattern-match the number of labels provided forcing evaluation of the labels parameter even though it not used",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "openVbmName",
           "normalized": "OpenVarBindingModify a b-\u003eScopedName",
@@ -27481,6 +29717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVarBinding subset function, tests to see if one query binding\n  is a subset of another;  i.e. every query variable mapping defined\n  by one is also defined by the other.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "subBinding",
           "package": "swish",
@@ -27491,6 +29728,7 @@
         "index": {
           "description": "VarBinding subset function tests to see if one query binding is subset of another i.e every query variable mapping defined by one is also defined by the other",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "subBinding",
           "normalized": "VarBinding a b-\u003eVarBinding a b-\u003eBool",
@@ -27507,6 +29745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable binding modifier that returns exactly those\n  variable bindings presented.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "varBindingId",
           "package": "swish",
@@ -27517,6 +29756,7 @@
         "index": {
           "description": "Variable binding modifier that returns exactly those variable bindings presented",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "varBindingId",
           "package": "swish",
@@ -27531,6 +29771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes a number of query binding filters\n  into a composite filter that accepts any query binding that\n  satisfies all of the component values.\n\u003c/p\u003e\u003cp\u003eThe same function could be achieved by composing the component\n  filter-based modifiers, but this function is more convenient\n  as it avoids the need to check for modifier compatibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "varFilterConjunction",
           "package": "swish",
@@ -27541,6 +29782,7 @@
         "index": {
           "description": "This function composes number of query binding filters into composite filter that accepts any query binding that satisfies all of the component values The same function could be achieved by composing the component filter-based modifiers but this function is more convenient as it avoids the need to check for modifier compatibility",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "varFilterConjunction",
           "normalized": "[VarBindingFilter a b]-\u003eVarBindingFilter a b",
@@ -27557,6 +29799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function composes a number of query binding filters\n  into a composite filter that accepts any query binding that\n  satisfies at least one of the component values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "varFilterDisjunction",
           "package": "swish",
@@ -27567,6 +29810,7 @@
         "index": {
           "description": "This function composes number of query binding filters into composite filter that accepts any query binding that satisfies at least one of the component values",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "varFilterDisjunction",
           "normalized": "[VarBindingFilter a b]-\u003eVarBindingFilter a b",
@@ -27583,6 +29827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function generates a query binding filter that ensures that\n  two indicated query variables are mapped to the same value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "varFilterEQ",
           "package": "swish",
@@ -27593,6 +29838,7 @@
         "index": {
           "description": "This function generates query binding filter that ensures that two indicated query variables are mapped to the same value",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "varFilterEQ",
           "normalized": "a-\u003ea-\u003eVarBindingFilter a b",
@@ -27609,6 +29855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function generates a query binding filter that ensures that\n  two indicated query variables are mapped to different values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "varFilterNE",
           "package": "swish",
@@ -27619,6 +29866,7 @@
         "index": {
           "description": "This function generates query binding filter that ensures that two indicated query variables are mapped to different values",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "varFilterNE",
           "normalized": "a-\u003ea-\u003eVarBindingFilter a b",
@@ -27634,6 +29882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "vbEnum",
           "package": "swish",
@@ -27643,6 +29892,7 @@
         },
         "index": {
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "vbEnum",
           "normalized": "Set(a,b)",
@@ -27658,6 +29908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "vbMap",
           "package": "swish",
@@ -27667,6 +29918,7 @@
         },
         "index": {
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "vbMap",
           "normalized": "a-\u003eMaybe b",
@@ -27682,6 +29934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "vbNull",
           "package": "swish",
@@ -27691,6 +29944,7 @@
         },
         "index": {
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "vbNull",
           "package": "swish",
@@ -27704,6 +29958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "vbfName",
           "package": "swish",
@@ -27713,6 +29968,7 @@
         },
         "index": {
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "vbfName",
           "package": "swish",
@@ -27726,6 +29982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "vbfTest",
           "package": "swish",
@@ -27735,6 +29992,7 @@
         },
         "index": {
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "vbfTest",
           "normalized": "VarBinding a b-\u003eBool",
@@ -27750,6 +30008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "vbfVocab",
           "package": "swish",
@@ -27759,6 +30018,7 @@
         },
         "index": {
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "vbfVocab",
           "normalized": "[a]",
@@ -27775,6 +30035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply variable binding modifier to a\n  list of variable bindings, returning a\n  new list.  The result list is not\n  necessarily the same length as the\n  supplied list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "vbmApply",
           "package": "swish",
@@ -27785,6 +30046,7 @@
         "index": {
           "description": "Apply variable binding modifier to list of variable bindings returning new list The result list is not necessarily the same length as the supplied list",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "vbmApply",
           "normalized": "[VarBinding a b]-\u003e[VarBinding a b]",
@@ -27801,6 +30063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable binding modifier compatibility test.\n\u003c/p\u003e\u003cp\u003eGiven a list of bound variables and a variable binding modifier, return\n  a list of new variables that may be bound, or \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote:  if the usage pattern component is well-formed (i.e. all\n  elements different) then at most one element can be compatible with\n  a given input variable set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "vbmCompatibility",
           "package": "swish",
@@ -27811,6 +30074,7 @@
         "index": {
           "description": "Variable binding modifier compatibility test Given list of bound variables and variable binding modifier return list of new variables that may be bound or Nothing Note if the usage pattern component is well-formed i.e all elements different then at most one element can be compatible with given input variable set",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "vbmCompatibility",
           "normalized": "VarBindingModify a b-\u003e[a]-\u003eMaybe[a]",
@@ -27827,6 +30091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose variable binding modifiers.\n\u003c/p\u003e\u003cp\u003eReturns \u003ccode\u003eJust a\u003c/code\u003e new variable binding modifier that corresponds to\n  applying the first supplied modifier and then applying the second\n  one, or \u003ccode\u003eNothing\u003c/code\u003e if the two modifiers cannot be compatibly composed.\n\u003c/p\u003e\u003cp\u003eNOTE:  this function does not, in general, commute.\n\u003c/p\u003e\u003cp\u003eNOTE:  if there are different ways to achieve the same usage, that\n  usage is currently repeated in the result returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "vbmCompose",
           "package": "swish",
@@ -27837,6 +30102,7 @@
         "index": {
           "description": "Compose variable binding modifiers Returns Just new variable binding modifier that corresponds to applying the first supplied modifier and then applying the second one or Nothing if the two modifiers cannot be compatibly composed NOTE this function does not in general commute NOTE if there are different ways to achieve the same usage that usage is currently repeated in the result returned",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "vbmCompose",
           "normalized": "VarBindingModify a b-\u003eVarBindingModify a b-\u003eMaybe(VarBindingModify a b)",
@@ -27853,6 +30119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName used to identify this variable binding\n  modifier when building inference rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "vbmName",
           "package": "swish",
@@ -27863,6 +30130,7 @@
         "index": {
           "description": "Name used to identify this variable binding modifier when building inference rules",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "vbmName",
           "package": "swish",
@@ -27877,6 +30145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of binding modifier usage patterns\n  supported.  Each pattern is characterized as\n  a list of variables for which new bindings\n  may be created by some application of this\n  modifier, assuming that bindings for all other\n  variables in \u003ccode\u003evbmVocab\u003c/code\u003e are supplied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "vbmUsage",
           "package": "swish",
@@ -27887,6 +30156,7 @@
         "index": {
           "description": "List of binding modifier usage patterns supported Each pattern is characterized as list of variables for which new bindings may be created by some application of this modifier assuming that bindings for all other variables in vbmVocab are supplied",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "vbmUsage",
           "normalized": "[[a]]",
@@ -27903,6 +30173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of variables used by this modifier.\n  All results of applying this modifier contain\n  bindings for these variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish.VarBinding",
           "name": "vbmVocab",
           "package": "swish",
@@ -27913,6 +30184,7 @@
         "index": {
           "description": "List of variables used by this modifier All results of applying this modifier contain bindings for these variables",
           "hierarchy": "Swish VarBinding",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish.VarBinding",
           "name": "vbmVocab",
           "normalized": "[a]",
@@ -27929,6 +30201,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSwish:  Semantic Web Inference Scripting in Haskell\n\u003c/p\u003e\u003cp\u003eThis program is a simple skeleton for constructing Semantic Web [1]\n  inference tools in Haskell, using the RDF graph and several RDF\n  parsers (at present Notation 3 and NTriples).\n\u003c/p\u003e\u003cp\u003eIt might be viewed as a kind of embroyonic CWM [2] in Haskell,\n  except that the intent is that Haskell will be used as a primary\n  language for defining inferences.  As such, Swish is an open-ended\n  toolkit for constructing new special-purpose Semantic Web\n  applications rather than a closed, self-contained general-purpose\n  SW application.  As such, it is part of another experiment along\n  the lines described in [3].\n\u003c/p\u003e\u003cp\u003eThe script format used by Swish is described in\n  \u003ca\u003eSwish.Script\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eUsers wishing to process RDF data directly may prefer to look at\n  the following modules; \u003ca\u003eSwish.RDF\u003c/a\u003e, \u003ca\u003eSwish.RDF.Parser.Turtle\u003c/a\u003e,\n  \u003ca\u003eSwish.RDF.Parser.N3\u003c/a\u003e, \u003ca\u003eSwish.RDF.Parser.NTriples\u003c/a\u003e,\n  \u003ca\u003eSwish.RDF.Formatter.Turtle\u003c/a\u003e, \u003ca\u003eSwish.RDF.Formatter.N3\u003c/a\u003e\n  and \u003ca\u003eSwish.RDF.Formatter.NTriples\u003c/a\u003e.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e Semantic web: \u003ca\u003ehttp://www.w3.org/2001/sw/\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e CWM:          \u003ca\u003ehttp://www.w3.org/2000/10/swap/doc/cwm.html\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Motivation:   \u003ca\u003ehttp://www.w3.org/2000/10/swap/doc/Motivation.html\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Notation 3:   \u003ca\u003ehttp://www.w3.org/TeamSubmission/2008/SUBM-n3-20080114/\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Turtle:       \u003ca\u003ehttp://www.w3.org/TR/turtle/\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e RDF:          \u003ca\u003ehttp://www.w3.org/RDF/\u003c/a\u003e\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eNotes\n\u003c/p\u003e\u003cp\u003eI anticipate that this module may be used as a starting point for\n  creating new programs rather then as a complete program in its own\n  right.  The functionality built into this code is selected with a\n  view to testing the Haskell modules for handling RDF rather than\n  for performing any particular application processing (though\n  development as a tool with some broader utility is not ruled out).\n\u003c/p\u003e\u003cp\u003eWith the following in ghci:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:m + Swish\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:set prompt \"swish\u003e \"\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cp\u003ethen we can run a Swish script (format described in \u003ca\u003eSwish.Script\u003c/a\u003e)\n by saying:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erunSwish \"-s=script.ss\"\n\u003c/code\u003e\u003c/strong\u003eExitSuccess\n\u003c/pre\u003e\u003cp\u003eor convert a file from Turtle to NTriples format with:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erunSwish \"-ttl -i=foo.ttl -nt -o=foo.nt\"\n\u003c/code\u003e\u003c/strong\u003eExitSuccess\n\u003c/pre\u003e\u003cp\u003eYou can also use \u003ccode\u003e\u003ca\u003evalidateCommands\u003c/a\u003e\u003c/code\u003e by giving it the individual commands,\n such as\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet Right cs = validateCommands [\"-ttl\", \"-i=file1.ttl\", \"-c=file2.ttl\"]\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ecs\n\u003c/code\u003e\u003c/strong\u003e[SwishAction: -ttl,SwishAction: -i=file1.ttl,SwishAction: -c=file2.ttl]\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003est \u003c- runSwishActions cs\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003est\n\u003c/code\u003e\u003c/strong\u003eThe graphs do not compare as equal.\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish",
           "name": "Swish",
           "package": "swish",
@@ -27938,6 +30211,7 @@
         "index": {
           "description": "Swish Semantic Web Inference Scripting in Haskell This program is simple skeleton for constructing Semantic Web inference tools in Haskell using the RDF graph and several RDF parsers at present Notation and NTriples It might be viewed as kind of embroyonic CWM in Haskell except that the intent is that Haskell will be used as primary language for defining inferences As such Swish is an open-ended toolkit for constructing new special-purpose Semantic Web applications rather than closed self-contained general-purpose SW application As such it is part of another experiment along the lines described in The script format used by Swish is described in Swish.Script Users wishing to process RDF data directly may prefer to look at the following modules Swish.RDF Swish.RDF.Parser.Turtle Swish.RDF.Parser.N3 Swish.RDF.Parser.NTriples Swish.RDF.Formatter.Turtle Swish.RDF.Formatter.N3 and Swish.RDF.Formatter.NTriples Semantic web http www.w3.org sw CWM http www.w3.org swap doc cwm.html Motivation http www.w3.org swap doc Motivation.html Notation http www.w3.org TeamSubmission SUBM-n3-20080114 Turtle http www.w3.org TR turtle RDF http www.w3.org RDF Notes anticipate that this module may be used as starting point for creating new programs rather then as complete program in its own right The functionality built into this code is selected with view to testing the Haskell modules for handling RDF rather than for performing any particular application processing though development as tool with some broader utility is not ruled out With the following in ghci Swish set prompt swish then we can run Swish script format described in Swish.Script by saying runSwish script.ss ExitSuccess or convert file from Turtle to NTriples format with runSwish ttl foo.ttl nt foo.nt ExitSuccess You can also use validateCommands by giving it the individual commands such as let Right cs validateCommands ttl file1.ttl file2.ttl cs SwishAction ttl SwishAction file1.ttl SwishAction file2.ttl st runSwishActions cs st The graphs do not compare as equal",
           "hierarchy": "Swish",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish",
           "name": "Swish",
           "package": "swish",
@@ -27952,6 +30226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a Swish action. At present there is no way to create these\n actions other than \u003ccode\u003e\u003ca\u003evalidateCommands\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish",
           "name": "SwishAction",
           "package": "swish",
@@ -27961,6 +30236,7 @@
         "index": {
           "description": "Represent Swish action At present there is no way to create these actions other than validateCommands",
           "hierarchy": "Swish",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish",
           "name": "SwishAction",
           "package": "swish",
@@ -27975,6 +30251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus of the processor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish",
           "name": "SwishStatus",
           "package": "swish",
@@ -27984,6 +30261,7 @@
         "index": {
           "description": "Status of the processor",
           "hierarchy": "Swish",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish",
           "name": "SwishStatus",
           "package": "swish",
@@ -27998,6 +30276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite out the help for Swish\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish",
           "name": "displaySwishHelp",
           "package": "swish",
@@ -28008,6 +30287,7 @@
         "index": {
           "description": "Write out the help for Swish",
           "hierarchy": "Swish",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish",
           "name": "displaySwishHelp",
           "normalized": "IO()",
@@ -28024,6 +30304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse and run the given string as if given at the command\n line. The \"quiet\", \"version\" and \"help\" options are\n ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish",
           "name": "runSwish",
           "package": "swish",
@@ -28034,6 +30315,7 @@
         "index": {
           "description": "Parse and run the given string as if given at the command line The quiet version and help options are ignored",
           "hierarchy": "Swish",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish",
           "name": "runSwish",
           "normalized": "String-\u003eIO ExitCode",
@@ -28050,6 +30332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the given set of actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish",
           "name": "runSwishActions",
           "package": "swish",
@@ -28060,6 +30343,7 @@
         "index": {
           "description": "Execute the given set of actions",
           "hierarchy": "Swish",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish",
           "name": "runSwishActions",
           "normalized": "[SwishAction]-\u003eIO SwishStatus",
@@ -28076,6 +30360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn any arguments that need processing immediately, namely                     \n the \"help\", \"quiet\" and \"version\" options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish",
           "name": "splitArguments",
           "package": "swish",
@@ -28086,6 +30371,7 @@
         "index": {
           "description": "Return any arguments that need processing immediately namely the help quiet and version options",
           "hierarchy": "Swish",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish",
           "name": "splitArguments",
           "normalized": "[String]-\u003e([String],[String])",
@@ -28102,6 +30388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of command-line arguments create the list of actions\n to perform or a string and status value indicating an input error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:30 UTC 2014",
           "module": "Swish",
           "name": "validateCommands",
           "package": "swish",
@@ -28112,6 +30399,7 @@
         "index": {
           "description": "Given list of command-line arguments create the list of actions to perform or string and status value indicating an input error",
           "hierarchy": "Swish",
+          "indexed": "2014-03-11T20:14:30",
           "module": "Swish",
           "name": "validateCommands",
           "normalized": "[String]-\u003eEither(String,SwishStatus)[SwishAction]",

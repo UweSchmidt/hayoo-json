@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "clay"
+        "phrase": "clay",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "Attributes",
           "package": "clay",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "Attributes",
           "package": "clay",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "accept",
           "package": "clay",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "accept",
           "package": "clay",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "acceptCharset",
           "package": "clay",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "acceptCharset",
           "package": "clay",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "accesskey",
           "package": "clay",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "accesskey",
           "package": "clay",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "action",
           "package": "clay",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "action",
           "package": "clay",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "alt",
           "package": "clay",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "alt",
           "package": "clay",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "async",
           "package": "clay",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "async",
           "package": "clay",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "autocomplete",
           "package": "clay",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "autocomplete",
           "package": "clay",
@@ -187,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "autofocus",
           "package": "clay",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "autofocus",
           "package": "clay",
@@ -208,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "autoplay",
           "package": "clay",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "autoplay",
           "package": "clay",
@@ -229,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "challenge",
           "package": "clay",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "challenge",
           "package": "clay",
@@ -250,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "charset",
           "package": "clay",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "charset",
           "package": "clay",
@@ -271,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "checked",
           "package": "clay",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "checked",
           "package": "clay",
@@ -292,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "class_",
           "package": "clay",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "class_",
           "package": "clay",
@@ -313,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "cols",
           "package": "clay",
@@ -322,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "cols",
           "package": "clay",
@@ -334,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "colspan",
           "package": "clay",
@@ -343,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "colspan",
           "package": "clay",
@@ -355,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "content",
           "package": "clay",
@@ -364,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "content",
           "package": "clay",
@@ -376,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "contenteditable",
           "package": "clay",
@@ -385,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "contenteditable",
           "package": "clay",
@@ -397,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "contextmenu",
           "package": "clay",
@@ -406,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "contextmenu",
           "package": "clay",
@@ -418,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "controls",
           "package": "clay",
@@ -427,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "controls",
           "package": "clay",
@@ -439,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "coords",
           "package": "clay",
@@ -448,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "coords",
           "package": "clay",
@@ -460,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "crossorigin",
           "package": "clay",
@@ -469,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "crossorigin",
           "package": "clay",
@@ -481,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "datetime",
           "package": "clay",
@@ -490,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "datetime",
           "package": "clay",
@@ -502,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "default_",
           "package": "clay",
@@ -511,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "default_",
           "package": "clay",
@@ -523,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "defer",
           "package": "clay",
@@ -532,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "defer",
           "package": "clay",
@@ -544,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "dir",
           "package": "clay",
@@ -553,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "dir",
           "package": "clay",
@@ -565,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "dirname",
           "package": "clay",
@@ -574,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "dirname",
           "package": "clay",
@@ -586,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "disabled",
           "package": "clay",
@@ -595,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "disabled",
           "package": "clay",
@@ -607,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "download",
           "package": "clay",
@@ -616,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "download",
           "package": "clay",
@@ -628,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "draggable",
           "package": "clay",
@@ -637,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "draggable",
           "package": "clay",
@@ -649,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "dropzone",
           "package": "clay",
@@ -658,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "dropzone",
           "package": "clay",
@@ -670,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "enctype",
           "package": "clay",
@@ -679,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "enctype",
           "package": "clay",
@@ -691,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "for",
           "package": "clay",
@@ -700,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "for",
           "package": "clay",
@@ -712,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "formaction",
           "package": "clay",
@@ -721,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "formaction",
           "package": "clay",
@@ -733,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "formenctype",
           "package": "clay",
@@ -742,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "formenctype",
           "package": "clay",
@@ -754,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "formmethod",
           "package": "clay",
@@ -763,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "formmethod",
           "package": "clay",
@@ -775,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "formnovalidate",
           "package": "clay",
@@ -784,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "formnovalidate",
           "package": "clay",
@@ -796,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "formtarget",
           "package": "clay",
@@ -805,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "formtarget",
           "package": "clay",
@@ -817,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "headers",
           "package": "clay",
@@ -826,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "headers",
           "package": "clay",
@@ -838,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "height",
           "package": "clay",
@@ -847,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "height",
           "package": "clay",
@@ -859,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "hidden",
           "package": "clay",
@@ -868,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "hidden",
           "package": "clay",
@@ -880,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "high",
           "package": "clay",
@@ -889,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "high",
           "package": "clay",
@@ -901,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "href",
           "package": "clay",
@@ -910,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "href",
           "package": "clay",
@@ -922,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "hreflang",
           "package": "clay",
@@ -931,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "hreflang",
           "package": "clay",
@@ -943,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "httpEquiv",
           "package": "clay",
@@ -952,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "httpEquiv",
           "package": "clay",
@@ -965,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "icon",
           "package": "clay",
@@ -974,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "icon",
           "package": "clay",
@@ -986,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "id",
           "package": "clay",
@@ -995,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "id",
           "package": "clay",
@@ -1007,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "inert",
           "package": "clay",
@@ -1016,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "inert",
           "package": "clay",
@@ -1028,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "inputmode",
           "package": "clay",
@@ -1037,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "inputmode",
           "package": "clay",
@@ -1049,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "ismap",
           "package": "clay",
@@ -1058,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "ismap",
           "package": "clay",
@@ -1070,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "itemid",
           "package": "clay",
@@ -1079,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "itemid",
           "package": "clay",
@@ -1091,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "itemprop",
           "package": "clay",
@@ -1100,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "itemprop",
           "package": "clay",
@@ -1112,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "itemref",
           "package": "clay",
@@ -1121,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "itemref",
           "package": "clay",
@@ -1133,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "itemscope",
           "package": "clay",
@@ -1142,6 +1249,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "itemscope",
           "package": "clay",
@@ -1154,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "itemtype",
           "package": "clay",
@@ -1163,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "itemtype",
           "package": "clay",
@@ -1175,6 +1285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "keytype",
           "package": "clay",
@@ -1184,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "keytype",
           "package": "clay",
@@ -1196,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "kind",
           "package": "clay",
@@ -1205,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "kind",
           "package": "clay",
@@ -1217,6 +1331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "lang",
           "package": "clay",
@@ -1226,6 +1341,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "lang",
           "package": "clay",
@@ -1238,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "list",
           "package": "clay",
@@ -1247,6 +1364,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "list",
           "package": "clay",
@@ -1259,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "loop",
           "package": "clay",
@@ -1268,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "loop",
           "package": "clay",
@@ -1280,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "low",
           "package": "clay",
@@ -1289,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "low",
           "package": "clay",
@@ -1301,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "manifest",
           "package": "clay",
@@ -1310,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "manifest",
           "package": "clay",
@@ -1322,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "max",
           "package": "clay",
@@ -1331,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "max",
           "package": "clay",
@@ -1343,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "maxlength",
           "package": "clay",
@@ -1352,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "maxlength",
           "package": "clay",
@@ -1364,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "media",
           "package": "clay",
@@ -1373,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "media",
           "package": "clay",
@@ -1385,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "mediagroup",
           "package": "clay",
@@ -1394,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "mediagroup",
           "package": "clay",
@@ -1406,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "method",
           "package": "clay",
@@ -1415,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "method",
           "package": "clay",
@@ -1427,6 +1561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "min",
           "package": "clay",
@@ -1436,6 +1571,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "min",
           "package": "clay",
@@ -1448,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "multiple",
           "package": "clay",
@@ -1457,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "multiple",
           "package": "clay",
@@ -1469,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "muted",
           "package": "clay",
@@ -1478,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "muted",
           "package": "clay",
@@ -1490,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "name",
           "package": "clay",
@@ -1499,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "name",
           "package": "clay",
@@ -1511,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "novalidate",
           "package": "clay",
@@ -1520,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "novalidate",
           "package": "clay",
@@ -1532,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "open",
           "package": "clay",
@@ -1541,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "open",
           "package": "clay",
@@ -1553,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "optimum",
           "package": "clay",
@@ -1562,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "optimum",
           "package": "clay",
@@ -1574,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "pattern",
           "package": "clay",
@@ -1583,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "pattern",
           "package": "clay",
@@ -1595,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "ping",
           "package": "clay",
@@ -1604,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "ping",
           "package": "clay",
@@ -1616,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "placeholder",
           "package": "clay",
@@ -1625,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "placeholder",
           "package": "clay",
@@ -1637,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "poster",
           "package": "clay",
@@ -1646,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "poster",
           "package": "clay",
@@ -1658,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "preload",
           "package": "clay",
@@ -1667,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "preload",
           "package": "clay",
@@ -1679,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "radiogroup",
           "package": "clay",
@@ -1688,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "radiogroup",
           "package": "clay",
@@ -1700,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "readonly",
           "package": "clay",
@@ -1709,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "readonly",
           "package": "clay",
@@ -1721,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "rel",
           "package": "clay",
@@ -1730,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "rel",
           "package": "clay",
@@ -1742,6 +1906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "required",
           "package": "clay",
@@ -1751,6 +1916,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "required",
           "package": "clay",
@@ -1763,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "reversed",
           "package": "clay",
@@ -1772,6 +1939,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "reversed",
           "package": "clay",
@@ -1784,6 +1952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "rows",
           "package": "clay",
@@ -1793,6 +1962,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "rows",
           "package": "clay",
@@ -1805,6 +1975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "rowspan",
           "package": "clay",
@@ -1814,6 +1985,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "rowspan",
           "package": "clay",
@@ -1826,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "sandbox",
           "package": "clay",
@@ -1835,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "sandbox",
           "package": "clay",
@@ -1847,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "scope",
           "package": "clay",
@@ -1856,6 +2031,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "scope",
           "package": "clay",
@@ -1868,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "scoped",
           "package": "clay",
@@ -1877,6 +2054,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "scoped",
           "package": "clay",
@@ -1889,6 +2067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "seamless",
           "package": "clay",
@@ -1898,6 +2077,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "seamless",
           "package": "clay",
@@ -1910,6 +2090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "selected",
           "package": "clay",
@@ -1919,6 +2100,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "selected",
           "package": "clay",
@@ -1931,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "shape",
           "package": "clay",
@@ -1940,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "shape",
           "package": "clay",
@@ -1952,6 +2136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "size",
           "package": "clay",
@@ -1961,6 +2146,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "size",
           "package": "clay",
@@ -1973,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "sizes",
           "package": "clay",
@@ -1982,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "sizes",
           "package": "clay",
@@ -1994,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "spellcheck",
           "package": "clay",
@@ -2003,6 +2192,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "spellcheck",
           "package": "clay",
@@ -2015,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "src",
           "package": "clay",
@@ -2024,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "src",
           "package": "clay",
@@ -2036,6 +2228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "srcdoc",
           "package": "clay",
@@ -2045,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "srcdoc",
           "package": "clay",
@@ -2057,6 +2251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "srclang",
           "package": "clay",
@@ -2066,6 +2261,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "srclang",
           "package": "clay",
@@ -2078,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "srcset",
           "package": "clay",
@@ -2087,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "srcset",
           "package": "clay",
@@ -2099,6 +2297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "start",
           "package": "clay",
@@ -2108,6 +2307,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "start",
           "package": "clay",
@@ -2120,6 +2320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "step",
           "package": "clay",
@@ -2129,6 +2330,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "step",
           "package": "clay",
@@ -2141,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "tabindex",
           "package": "clay",
@@ -2150,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "tabindex",
           "package": "clay",
@@ -2162,6 +2366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "target",
           "package": "clay",
@@ -2171,6 +2376,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "target",
           "package": "clay",
@@ -2183,6 +2389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "translate",
           "package": "clay",
@@ -2192,6 +2399,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "translate",
           "package": "clay",
@@ -2204,6 +2412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "type_",
           "package": "clay",
@@ -2213,6 +2422,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "type_",
           "package": "clay",
@@ -2225,6 +2435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "typemustmatch",
           "package": "clay",
@@ -2234,6 +2445,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "typemustmatch",
           "package": "clay",
@@ -2246,6 +2458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "usemap",
           "package": "clay",
@@ -2255,6 +2468,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "usemap",
           "package": "clay",
@@ -2267,6 +2481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "value",
           "package": "clay",
@@ -2276,6 +2491,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "value",
           "package": "clay",
@@ -2288,6 +2504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "width",
           "package": "clay",
@@ -2297,6 +2514,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "width",
           "package": "clay",
@@ -2309,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Attributes",
           "name": "wrap",
           "package": "clay",
@@ -2318,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "Clay Attributes",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Attributes",
           "name": "wrap",
           "package": "clay",
@@ -2330,6 +2550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "Background",
           "package": "clay",
@@ -2338,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "Background",
           "package": "clay",
@@ -2352,6 +2574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe implement the generic background property as a type class that accepts\n multiple value types. This allows us to combine different background aspects\n into a shorthand syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "Background",
           "package": "clay",
@@ -2361,6 +2584,7 @@
         "index": {
           "description": "We implement the generic background property as type class that accepts multiple value types This allows us to combine different background aspects into shorthand syntax",
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "Background",
           "package": "clay",
@@ -2374,6 +2598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "BackgroundAttachment",
           "package": "clay",
@@ -2382,6 +2607,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "BackgroundAttachment",
           "package": "clay",
@@ -2395,6 +2621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "BackgroundClip",
           "package": "clay",
@@ -2403,6 +2630,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "BackgroundClip",
           "package": "clay",
@@ -2416,6 +2644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "BackgroundImage",
           "package": "clay",
@@ -2424,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "BackgroundImage",
           "package": "clay",
@@ -2437,6 +2667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "BackgroundOrigin",
           "package": "clay",
@@ -2445,6 +2676,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "BackgroundOrigin",
           "package": "clay",
@@ -2458,6 +2690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "BackgroundPosition",
           "package": "clay",
@@ -2466,6 +2699,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "BackgroundPosition",
           "package": "clay",
@@ -2479,6 +2713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "BackgroundRepeat",
           "package": "clay",
@@ -2487,6 +2722,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "BackgroundRepeat",
           "package": "clay",
@@ -2500,6 +2736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "BackgroundSize",
           "package": "clay",
@@ -2508,6 +2745,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "BackgroundSize",
           "package": "clay",
@@ -2521,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "Direction",
           "package": "clay",
@@ -2529,6 +2768,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "Direction",
           "package": "clay",
@@ -2542,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "Loc",
           "package": "clay",
@@ -2550,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "Loc",
           "package": "clay",
@@ -2563,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "Location",
           "package": "clay",
@@ -2571,6 +2814,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "Location",
           "package": "clay",
@@ -2584,6 +2828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "Side",
           "package": "clay",
@@ -2592,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "Side",
           "package": "clay",
@@ -2605,6 +2851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "angular",
           "package": "clay",
@@ -2614,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "angular",
           "normalized": "Angle a-\u003eDirection",
@@ -2628,6 +2876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "attachFixed",
           "package": "clay",
@@ -2637,6 +2886,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "attachFixed",
           "package": "clay",
@@ -2650,6 +2900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "attachScroll",
           "package": "clay",
@@ -2659,6 +2910,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "attachScroll",
           "package": "clay",
@@ -2672,6 +2924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "background",
           "package": "clay",
@@ -2681,6 +2934,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "background",
           "normalized": "a-\u003eCss",
@@ -2695,6 +2949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "backgroundAttachment",
           "package": "clay",
@@ -2704,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "backgroundAttachment",
           "normalized": "BackgroundAttachment-\u003eCss",
@@ -2719,6 +2975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "backgroundAttachments",
           "package": "clay",
@@ -2728,6 +2985,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "backgroundAttachments",
           "normalized": "[BackgroundAttachment]-\u003eCss",
@@ -2743,6 +3001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "backgroundClip",
           "package": "clay",
@@ -2752,6 +3011,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "backgroundClip",
           "normalized": "BackgroundClip-\u003eCss",
@@ -2767,6 +3027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "backgroundClips",
           "package": "clay",
@@ -2776,6 +3037,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "backgroundClips",
           "normalized": "[BackgroundClip]-\u003eCss",
@@ -2791,6 +3053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "backgroundColor",
           "package": "clay",
@@ -2800,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "backgroundColor",
           "normalized": "Color-\u003eCss",
@@ -2815,6 +3079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "backgroundImage",
           "package": "clay",
@@ -2824,6 +3089,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "backgroundImage",
           "normalized": "BackgroundImage-\u003eCss",
@@ -2839,6 +3105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "backgroundImages",
           "package": "clay",
@@ -2848,6 +3115,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "backgroundImages",
           "normalized": "[BackgroundImage]-\u003eCss",
@@ -2863,6 +3131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "backgroundOrigin",
           "package": "clay",
@@ -2872,6 +3141,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "backgroundOrigin",
           "normalized": "BackgroundOrigin-\u003eCss",
@@ -2887,6 +3157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "backgroundOrigins",
           "package": "clay",
@@ -2896,6 +3167,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "backgroundOrigins",
           "normalized": "[BackgroundOrigin]-\u003eCss",
@@ -2911,6 +3183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "backgroundPosition",
           "package": "clay",
@@ -2920,6 +3193,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "backgroundPosition",
           "normalized": "BackgroundPosition-\u003eCss",
@@ -2935,6 +3209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "backgroundPositions",
           "package": "clay",
@@ -2944,6 +3219,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "backgroundPositions",
           "normalized": "[BackgroundPosition]-\u003eCss",
@@ -2959,6 +3235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "backgroundRepeat",
           "package": "clay",
@@ -2968,6 +3245,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "backgroundRepeat",
           "normalized": "BackgroundRepeat-\u003eCss",
@@ -2983,6 +3261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "backgroundRepeats",
           "package": "clay",
@@ -2992,6 +3271,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "backgroundRepeats",
           "normalized": "[BackgroundRepeat]-\u003eCss",
@@ -3007,6 +3287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "backgroundSize",
           "package": "clay",
@@ -3016,6 +3297,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "backgroundSize",
           "normalized": "BackgroundSize-\u003eCss",
@@ -3031,6 +3313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "backgroundSizes",
           "package": "clay",
@@ -3040,6 +3323,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "backgroundSizes",
           "normalized": "[BackgroundSize]-\u003eCss",
@@ -3055,6 +3339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "boxClip",
           "package": "clay",
@@ -3064,6 +3349,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "boxClip",
           "normalized": "BoxType-\u003eBackgroundClip",
@@ -3079,6 +3365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "by",
           "package": "clay",
@@ -3088,6 +3375,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "by",
           "normalized": "Size a-\u003eSize b-\u003eBackgroundSize",
@@ -3102,6 +3390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "contain",
           "package": "clay",
@@ -3111,6 +3400,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "contain",
           "package": "clay",
@@ -3123,6 +3413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "cover",
           "package": "clay",
@@ -3132,6 +3423,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "cover",
           "package": "clay",
@@ -3144,6 +3436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "noRepeat",
           "package": "clay",
@@ -3153,6 +3446,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "noRepeat",
           "package": "clay",
@@ -3166,6 +3460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "origin",
           "package": "clay",
@@ -3175,6 +3470,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "origin",
           "normalized": "BoxType-\u003eBackgroundOrigin",
@@ -3189,6 +3485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "placed",
           "package": "clay",
@@ -3198,6 +3495,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "placed",
           "normalized": "Side-\u003eSide-\u003eBackgroundPosition",
@@ -3212,6 +3510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "positioned",
           "package": "clay",
@@ -3221,6 +3520,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "positioned",
           "normalized": "Size a-\u003eSize a-\u003eBackgroundPosition",
@@ -3235,6 +3535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "repeat",
           "package": "clay",
@@ -3244,6 +3545,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "repeat",
           "package": "clay",
@@ -3256,6 +3558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "repeatX",
           "package": "clay",
@@ -3265,6 +3568,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "repeatX",
           "package": "clay",
@@ -3277,6 +3581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "repeatY",
           "package": "clay",
@@ -3286,6 +3591,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "repeatY",
           "package": "clay",
@@ -3298,6 +3604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "round",
           "package": "clay",
@@ -3307,6 +3614,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "round",
           "package": "clay",
@@ -3320,6 +3628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe have to prefix these values to avoid conflict with existing property\n names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "sideBottom",
           "package": "clay",
@@ -3330,6 +3639,7 @@
         "index": {
           "description": "We have to prefix these values to avoid conflict with existing property names",
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "sideBottom",
           "package": "clay",
@@ -3344,6 +3654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe have to prefix these values to avoid conflict with existing property\n names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "sideCenter",
           "package": "clay",
@@ -3354,6 +3665,7 @@
         "index": {
           "description": "We have to prefix these values to avoid conflict with existing property names",
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "sideCenter",
           "package": "clay",
@@ -3368,6 +3680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe have to prefix these values to avoid conflict with existing property\n names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "sideLeft",
           "package": "clay",
@@ -3378,6 +3691,7 @@
         "index": {
           "description": "We have to prefix these values to avoid conflict with existing property names",
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "sideLeft",
           "package": "clay",
@@ -3392,6 +3706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe have to prefix these values to avoid conflict with existing property\n names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "sideMiddle",
           "package": "clay",
@@ -3402,6 +3717,7 @@
         "index": {
           "description": "We have to prefix these values to avoid conflict with existing property names",
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "sideMiddle",
           "package": "clay",
@@ -3416,6 +3732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe have to prefix these values to avoid conflict with existing property\n names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "sideRight",
           "package": "clay",
@@ -3426,6 +3743,7 @@
         "index": {
           "description": "We have to prefix these values to avoid conflict with existing property names",
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "sideRight",
           "package": "clay",
@@ -3440,6 +3758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe have to prefix these values to avoid conflict with existing property\n names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "sideTop",
           "package": "clay",
@@ -3450,6 +3769,7 @@
         "index": {
           "description": "We have to prefix these values to avoid conflict with existing property names",
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "sideTop",
           "package": "clay",
@@ -3463,6 +3783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "space",
           "package": "clay",
@@ -3472,6 +3793,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "space",
           "package": "clay",
@@ -3484,6 +3806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "straight",
           "package": "clay",
@@ -3493,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "straight",
           "normalized": "Side-\u003eDirection",
@@ -3507,6 +3831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "url",
           "package": "clay",
@@ -3516,6 +3841,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "url",
           "normalized": "Text-\u003eBackgroundImage",
@@ -3530,6 +3856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Background",
           "name": "xyRepeat",
           "package": "clay",
@@ -3539,6 +3866,7 @@
         },
         "index": {
           "hierarchy": "Clay Background",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Background",
           "name": "xyRepeat",
           "normalized": "BackgroundRepeat-\u003eBackgroundRepeat-\u003eBackgroundRepeat",
@@ -3554,6 +3882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "Border",
           "package": "clay",
@@ -3562,6 +3891,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "Border",
           "package": "clay",
@@ -3575,6 +3905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "Stroke",
           "package": "clay",
@@ -3583,6 +3914,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "Stroke",
           "package": "clay",
@@ -3596,6 +3928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "border",
           "package": "clay",
@@ -3605,6 +3938,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "border",
           "normalized": "Stroke-\u003eSize Abs-\u003eColor-\u003eCss",
@@ -3619,6 +3953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderBottom",
           "package": "clay",
@@ -3628,6 +3963,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderBottom",
           "normalized": "Stroke-\u003eSize Abs-\u003eColor-\u003eCss",
@@ -3643,6 +3979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderBottomColor",
           "package": "clay",
@@ -3652,6 +3989,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderBottomColor",
           "normalized": "Color-\u003eCss",
@@ -3667,6 +4005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderBottomLeftRadius",
           "package": "clay",
@@ -3676,6 +4015,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderBottomLeftRadius",
           "normalized": "Size a-\u003eSize a-\u003eCss",
@@ -3691,6 +4031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderBottomRightRadius",
           "package": "clay",
@@ -3700,6 +4041,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderBottomRightRadius",
           "normalized": "Size a-\u003eSize a-\u003eCss",
@@ -3715,6 +4057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderBottomStyle",
           "package": "clay",
@@ -3724,6 +4067,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderBottomStyle",
           "normalized": "Stroke-\u003eCss",
@@ -3739,6 +4083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderBottomWidth",
           "package": "clay",
@@ -3748,6 +4093,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderBottomWidth",
           "normalized": "Size Abs-\u003eCss",
@@ -3763,6 +4109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderColor",
           "package": "clay",
@@ -3772,6 +4119,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderColor",
           "normalized": "Color-\u003eCss",
@@ -3787,6 +4135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderColor4",
           "package": "clay",
@@ -3796,6 +4145,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderColor4",
           "normalized": "Color-\u003eColor-\u003eColor-\u003eColor-\u003eCss",
@@ -3811,6 +4161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderLeft",
           "package": "clay",
@@ -3820,6 +4171,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderLeft",
           "normalized": "Stroke-\u003eSize Abs-\u003eColor-\u003eCss",
@@ -3835,6 +4187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderLeftColor",
           "package": "clay",
@@ -3844,6 +4197,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderLeftColor",
           "normalized": "Color-\u003eCss",
@@ -3859,6 +4213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderLeftStyle",
           "package": "clay",
@@ -3868,6 +4223,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderLeftStyle",
           "normalized": "Stroke-\u003eCss",
@@ -3883,6 +4239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderLeftWidth",
           "package": "clay",
@@ -3892,6 +4249,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderLeftWidth",
           "normalized": "Size Abs-\u003eCss",
@@ -3907,6 +4265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderRadius",
           "package": "clay",
@@ -3916,6 +4275,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderRadius",
           "normalized": "Size a-\u003eSize a-\u003eSize a-\u003eSize a-\u003eCss",
@@ -3931,6 +4291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderRight",
           "package": "clay",
@@ -3940,6 +4301,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderRight",
           "normalized": "Stroke-\u003eSize Abs-\u003eColor-\u003eCss",
@@ -3955,6 +4317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderRightColor",
           "package": "clay",
@@ -3964,6 +4327,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderRightColor",
           "normalized": "Color-\u003eCss",
@@ -3979,6 +4343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderRightStyle",
           "package": "clay",
@@ -3988,6 +4353,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderRightStyle",
           "normalized": "Stroke-\u003eCss",
@@ -4003,6 +4369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderRightWidth",
           "package": "clay",
@@ -4012,6 +4379,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderRightWidth",
           "normalized": "Size Abs-\u003eCss",
@@ -4027,6 +4395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderStyle",
           "package": "clay",
@@ -4036,6 +4405,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderStyle",
           "normalized": "Stroke-\u003eCss",
@@ -4051,6 +4421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderStyle4",
           "package": "clay",
@@ -4060,6 +4431,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderStyle4",
           "normalized": "Stroke-\u003eStroke-\u003eStroke-\u003eStroke-\u003eCss",
@@ -4075,6 +4447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderTop",
           "package": "clay",
@@ -4084,6 +4457,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderTop",
           "normalized": "Stroke-\u003eSize Abs-\u003eColor-\u003eCss",
@@ -4099,6 +4473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderTopColor",
           "package": "clay",
@@ -4108,6 +4483,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderTopColor",
           "normalized": "Color-\u003eCss",
@@ -4123,6 +4499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderTopLeftRadius",
           "package": "clay",
@@ -4132,6 +4509,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderTopLeftRadius",
           "normalized": "Size a-\u003eSize a-\u003eCss",
@@ -4147,6 +4525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderTopRightRadius",
           "package": "clay",
@@ -4156,6 +4535,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderTopRightRadius",
           "normalized": "Size a-\u003eSize a-\u003eCss",
@@ -4171,6 +4551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderTopStyle",
           "package": "clay",
@@ -4180,6 +4561,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderTopStyle",
           "normalized": "Stroke-\u003eCss",
@@ -4195,6 +4577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderTopWidth",
           "package": "clay",
@@ -4204,6 +4587,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderTopWidth",
           "normalized": "Size Abs-\u003eCss",
@@ -4219,6 +4603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderWidth",
           "package": "clay",
@@ -4228,6 +4613,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderWidth",
           "normalized": "Size Abs-\u003eCss",
@@ -4243,6 +4629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "borderWidth4",
           "package": "clay",
@@ -4252,6 +4639,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "borderWidth4",
           "normalized": "Size Abs-\u003eSize Abs-\u003eSize Abs-\u003eSize Abs-\u003eCss",
@@ -4267,6 +4655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "dashed",
           "package": "clay",
@@ -4276,6 +4665,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "dashed",
           "package": "clay",
@@ -4288,6 +4678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "dotted",
           "package": "clay",
@@ -4297,6 +4688,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "dotted",
           "package": "clay",
@@ -4309,6 +4701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "double",
           "package": "clay",
@@ -4318,6 +4711,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "double",
           "package": "clay",
@@ -4330,6 +4724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "groove",
           "package": "clay",
@@ -4339,6 +4734,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "groove",
           "package": "clay",
@@ -4351,6 +4747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "inset",
           "package": "clay",
@@ -4360,6 +4757,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "inset",
           "package": "clay",
@@ -4372,6 +4770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outline",
           "package": "clay",
@@ -4381,6 +4780,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outline",
           "normalized": "Stroke-\u003eSize Abs-\u003eColor-\u003eCss",
@@ -4395,6 +4795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineBottom",
           "package": "clay",
@@ -4404,6 +4805,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineBottom",
           "normalized": "Stroke-\u003eSize Abs-\u003eColor-\u003eCss",
@@ -4419,6 +4821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineBottomColor",
           "package": "clay",
@@ -4428,6 +4831,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineBottomColor",
           "normalized": "Color-\u003eCss",
@@ -4443,6 +4847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineBottomStyle",
           "package": "clay",
@@ -4452,6 +4857,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineBottomStyle",
           "normalized": "Stroke-\u003eCss",
@@ -4467,6 +4873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineBottomWidth",
           "package": "clay",
@@ -4476,6 +4883,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineBottomWidth",
           "normalized": "Size Abs-\u003eCss",
@@ -4491,6 +4899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineColor",
           "package": "clay",
@@ -4500,6 +4909,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineColor",
           "normalized": "Color-\u003eCss",
@@ -4515,6 +4925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineColor4",
           "package": "clay",
@@ -4524,6 +4935,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineColor4",
           "normalized": "Color-\u003eColor-\u003eColor-\u003eColor-\u003eCss",
@@ -4539,6 +4951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineLeft",
           "package": "clay",
@@ -4548,6 +4961,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineLeft",
           "normalized": "Stroke-\u003eSize Abs-\u003eColor-\u003eCss",
@@ -4563,6 +4977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineLeftColor",
           "package": "clay",
@@ -4572,6 +4987,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineLeftColor",
           "normalized": "Color-\u003eCss",
@@ -4587,6 +5003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineLeftStyle",
           "package": "clay",
@@ -4596,6 +5013,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineLeftStyle",
           "normalized": "Stroke-\u003eCss",
@@ -4611,6 +5029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineLeftWidth",
           "package": "clay",
@@ -4620,6 +5039,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineLeftWidth",
           "normalized": "Size Abs-\u003eCss",
@@ -4635,6 +5055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineOffset",
           "package": "clay",
@@ -4644,6 +5065,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineOffset",
           "normalized": "Size Abs-\u003eCss",
@@ -4659,6 +5081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineRight",
           "package": "clay",
@@ -4668,6 +5091,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineRight",
           "normalized": "Stroke-\u003eSize Abs-\u003eColor-\u003eCss",
@@ -4683,6 +5107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineRightColor",
           "package": "clay",
@@ -4692,6 +5117,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineRightColor",
           "normalized": "Color-\u003eCss",
@@ -4707,6 +5133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineRightStyle",
           "package": "clay",
@@ -4716,6 +5143,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineRightStyle",
           "normalized": "Stroke-\u003eCss",
@@ -4731,6 +5159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineRightWidth",
           "package": "clay",
@@ -4740,6 +5169,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineRightWidth",
           "normalized": "Size Abs-\u003eCss",
@@ -4755,6 +5185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineStyle",
           "package": "clay",
@@ -4764,6 +5195,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineStyle",
           "normalized": "Stroke-\u003eCss",
@@ -4779,6 +5211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineStyle4",
           "package": "clay",
@@ -4788,6 +5221,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineStyle4",
           "normalized": "Stroke-\u003eStroke-\u003eStroke-\u003eStroke-\u003eCss",
@@ -4803,6 +5237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineTop",
           "package": "clay",
@@ -4812,6 +5247,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineTop",
           "normalized": "Stroke-\u003eSize Abs-\u003eColor-\u003eCss",
@@ -4827,6 +5263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineTopColor",
           "package": "clay",
@@ -4836,6 +5273,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineTopColor",
           "normalized": "Color-\u003eCss",
@@ -4851,6 +5289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineTopStyle",
           "package": "clay",
@@ -4860,6 +5299,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineTopStyle",
           "normalized": "Stroke-\u003eCss",
@@ -4875,6 +5315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineTopWidth",
           "package": "clay",
@@ -4884,6 +5325,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineTopWidth",
           "normalized": "Size Abs-\u003eCss",
@@ -4899,6 +5341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineWidth",
           "package": "clay",
@@ -4908,6 +5351,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineWidth",
           "normalized": "Size Abs-\u003eCss",
@@ -4923,6 +5367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outlineWidth4",
           "package": "clay",
@@ -4932,6 +5377,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outlineWidth4",
           "normalized": "Size Abs-\u003eSize Abs-\u003eSize Abs-\u003eSize Abs-\u003eCss",
@@ -4947,6 +5393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "outset",
           "package": "clay",
@@ -4956,6 +5403,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "outset",
           "package": "clay",
@@ -4968,6 +5416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "ridge",
           "package": "clay",
@@ -4977,6 +5426,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "ridge",
           "package": "clay",
@@ -4989,6 +5439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "solid",
           "package": "clay",
@@ -4998,6 +5449,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "solid",
           "package": "clay",
@@ -5010,6 +5462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Border",
           "name": "wavy",
           "package": "clay",
@@ -5019,6 +5472,7 @@
         },
         "index": {
           "hierarchy": "Clay Border",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Border",
           "name": "wavy",
           "package": "clay",
@@ -5031,6 +5485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Box",
           "name": "Box",
           "package": "clay",
@@ -5039,6 +5494,7 @@
         },
         "index": {
           "hierarchy": "Clay Box",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Box",
           "name": "Box",
           "package": "clay",
@@ -5052,6 +5508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Box",
           "name": "BoxType",
           "package": "clay",
@@ -5060,6 +5517,7 @@
         },
         "index": {
           "hierarchy": "Clay Box",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Box",
           "name": "BoxType",
           "package": "clay",
@@ -5073,6 +5531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Box",
           "name": "borderBox",
           "package": "clay",
@@ -5082,6 +5541,7 @@
         },
         "index": {
           "hierarchy": "Clay Box",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Box",
           "name": "borderBox",
           "package": "clay",
@@ -5095,6 +5555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Box",
           "name": "boxShadow",
           "package": "clay",
@@ -5104,6 +5565,7 @@
         },
         "index": {
           "hierarchy": "Clay Box",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Box",
           "name": "boxShadow",
           "normalized": "Size a-\u003eSize a-\u003eSize a-\u003eColor-\u003eCss",
@@ -5119,6 +5581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Box",
           "name": "boxShadows",
           "package": "clay",
@@ -5128,6 +5591,7 @@
         },
         "index": {
           "hierarchy": "Clay Box",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Box",
           "name": "boxShadows",
           "normalized": "[(Size a,Size a,Size a,Color)]-\u003eCss",
@@ -5143,6 +5607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Box",
           "name": "boxSizing",
           "package": "clay",
@@ -5152,6 +5617,7 @@
         },
         "index": {
           "hierarchy": "Clay Box",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Box",
           "name": "boxSizing",
           "normalized": "BoxType-\u003eCss",
@@ -5167,6 +5633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Box",
           "name": "contentBox",
           "package": "clay",
@@ -5176,6 +5643,7 @@
         },
         "index": {
           "hierarchy": "Clay Box",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Box",
           "name": "contentBox",
           "package": "clay",
@@ -5189,6 +5657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Box",
           "name": "insetBoxShadow",
           "package": "clay",
@@ -5198,6 +5667,7 @@
         },
         "index": {
           "hierarchy": "Clay Box",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Box",
           "name": "insetBoxShadow",
           "normalized": "Stroke-\u003eSize a-\u003eSize a-\u003eSize a-\u003eColor-\u003eCss",
@@ -5213,6 +5683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Box",
           "name": "paddingBox",
           "package": "clay",
@@ -5222,6 +5693,7 @@
         },
         "index": {
           "hierarchy": "Clay Box",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Box",
           "name": "paddingBox",
           "package": "clay",
@@ -5235,6 +5707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "Color",
           "package": "clay",
@@ -5243,6 +5716,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "Color",
           "package": "clay",
@@ -5256,6 +5730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "Color",
           "package": "clay",
@@ -5264,6 +5739,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "Color",
           "package": "clay",
@@ -5277,6 +5753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "(*.)",
           "package": "clay",
@@ -5286,6 +5763,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "(*.) *.",
           "normalized": "Color-\u003eInteger-\u003eColor",
@@ -5300,6 +5778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "(+.)",
           "package": "clay",
@@ -5309,6 +5788,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "(+.) +.",
           "normalized": "Color-\u003eInteger-\u003eColor",
@@ -5323,6 +5803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "(-.)",
           "package": "clay",
@@ -5332,6 +5813,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "(-.) -.",
           "normalized": "Color-\u003eInteger-\u003eColor",
@@ -5346,6 +5828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "Hsla",
           "package": "clay",
@@ -5355,6 +5838,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "Hsla",
           "package": "clay",
@@ -5368,6 +5852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "Other",
           "package": "clay",
@@ -5377,6 +5862,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "Other",
           "package": "clay",
@@ -5390,6 +5876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "Rgba",
           "package": "clay",
@@ -5399,6 +5886,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "Rgba",
           "package": "clay",
@@ -5412,6 +5900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "aliceblue",
           "package": "clay",
@@ -5421,6 +5910,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "aliceblue",
           "package": "clay",
@@ -5433,6 +5923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "antiquewhite",
           "package": "clay",
@@ -5442,6 +5933,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "antiquewhite",
           "package": "clay",
@@ -5454,6 +5946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "aqua",
           "package": "clay",
@@ -5463,6 +5956,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "aqua",
           "package": "clay",
@@ -5475,6 +5969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "aquamarine",
           "package": "clay",
@@ -5484,6 +5979,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "aquamarine",
           "package": "clay",
@@ -5496,6 +5992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "azure",
           "package": "clay",
@@ -5505,6 +6002,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "azure",
           "package": "clay",
@@ -5517,6 +6015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "beige",
           "package": "clay",
@@ -5526,6 +6025,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "beige",
           "package": "clay",
@@ -5538,6 +6038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "bisque",
           "package": "clay",
@@ -5547,6 +6048,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "bisque",
           "package": "clay",
@@ -5559,6 +6061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "black",
           "package": "clay",
@@ -5568,6 +6071,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "black",
           "package": "clay",
@@ -5580,6 +6084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "blanchedalmond",
           "package": "clay",
@@ -5589,6 +6094,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "blanchedalmond",
           "package": "clay",
@@ -5601,6 +6107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "blue",
           "package": "clay",
@@ -5610,6 +6117,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "blue",
           "package": "clay",
@@ -5622,6 +6130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "blueviolet",
           "package": "clay",
@@ -5631,6 +6140,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "blueviolet",
           "package": "clay",
@@ -5643,6 +6153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "brown",
           "package": "clay",
@@ -5652,6 +6163,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "brown",
           "package": "clay",
@@ -5664,6 +6176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "burlywood",
           "package": "clay",
@@ -5673,6 +6186,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "burlywood",
           "package": "clay",
@@ -5685,6 +6199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "cadetblue",
           "package": "clay",
@@ -5694,6 +6209,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "cadetblue",
           "package": "clay",
@@ -5706,6 +6222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "chartreuse",
           "package": "clay",
@@ -5715,6 +6232,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "chartreuse",
           "package": "clay",
@@ -5727,6 +6245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "chocolate",
           "package": "clay",
@@ -5736,6 +6255,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "chocolate",
           "package": "clay",
@@ -5748,6 +6268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "clamp",
           "package": "clay",
@@ -5757,6 +6278,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "clamp",
           "normalized": "Integer-\u003eInteger",
@@ -5771,6 +6293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "coral",
           "package": "clay",
@@ -5780,6 +6303,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "coral",
           "package": "clay",
@@ -5792,6 +6316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "cornflowerblue",
           "package": "clay",
@@ -5801,6 +6326,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "cornflowerblue",
           "package": "clay",
@@ -5813,6 +6339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "cornsilk",
           "package": "clay",
@@ -5822,6 +6349,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "cornsilk",
           "package": "clay",
@@ -5834,6 +6362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "crimson",
           "package": "clay",
@@ -5843,6 +6372,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "crimson",
           "package": "clay",
@@ -5855,6 +6385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "cyan",
           "package": "clay",
@@ -5864,6 +6395,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "cyan",
           "package": "clay",
@@ -5876,6 +6408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "darkblue",
           "package": "clay",
@@ -5885,6 +6418,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "darkblue",
           "package": "clay",
@@ -5897,6 +6431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "darkcyan",
           "package": "clay",
@@ -5906,6 +6441,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "darkcyan",
           "package": "clay",
@@ -5918,6 +6454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "darkgoldenrod",
           "package": "clay",
@@ -5927,6 +6464,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "darkgoldenrod",
           "package": "clay",
@@ -5939,6 +6477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "darkgray",
           "package": "clay",
@@ -5948,6 +6487,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "darkgray",
           "package": "clay",
@@ -5960,6 +6500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "darkgreen",
           "package": "clay",
@@ -5969,6 +6510,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "darkgreen",
           "package": "clay",
@@ -5981,6 +6523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "darkgrey",
           "package": "clay",
@@ -5990,6 +6533,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "darkgrey",
           "package": "clay",
@@ -6002,6 +6546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "darkkhaki",
           "package": "clay",
@@ -6011,6 +6556,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "darkkhaki",
           "package": "clay",
@@ -6023,6 +6569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "darkmagenta",
           "package": "clay",
@@ -6032,6 +6579,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "darkmagenta",
           "package": "clay",
@@ -6044,6 +6592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "darkolivegreen",
           "package": "clay",
@@ -6053,6 +6602,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "darkolivegreen",
           "package": "clay",
@@ -6065,6 +6615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "darkorange",
           "package": "clay",
@@ -6074,6 +6625,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "darkorange",
           "package": "clay",
@@ -6086,6 +6638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "darkorchid",
           "package": "clay",
@@ -6095,6 +6648,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "darkorchid",
           "package": "clay",
@@ -6107,6 +6661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "darkred",
           "package": "clay",
@@ -6116,6 +6671,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "darkred",
           "package": "clay",
@@ -6128,6 +6684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "darksalmon",
           "package": "clay",
@@ -6137,6 +6694,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "darksalmon",
           "package": "clay",
@@ -6149,6 +6707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "darkseagreen",
           "package": "clay",
@@ -6158,6 +6717,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "darkseagreen",
           "package": "clay",
@@ -6170,6 +6730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "darkslateblue",
           "package": "clay",
@@ -6179,6 +6740,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "darkslateblue",
           "package": "clay",
@@ -6191,6 +6753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "darkslategray",
           "package": "clay",
@@ -6200,6 +6763,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "darkslategray",
           "package": "clay",
@@ -6212,6 +6776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "darkslategrey",
           "package": "clay",
@@ -6221,6 +6786,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "darkslategrey",
           "package": "clay",
@@ -6233,6 +6799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "darkturquoise",
           "package": "clay",
@@ -6242,6 +6809,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "darkturquoise",
           "package": "clay",
@@ -6254,6 +6822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "darkviolet",
           "package": "clay",
@@ -6263,6 +6832,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "darkviolet",
           "package": "clay",
@@ -6275,6 +6845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "deeppink",
           "package": "clay",
@@ -6284,6 +6855,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "deeppink",
           "package": "clay",
@@ -6296,6 +6868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "deepskyblue",
           "package": "clay",
@@ -6305,6 +6878,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "deepskyblue",
           "package": "clay",
@@ -6317,6 +6891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "dimgray",
           "package": "clay",
@@ -6326,6 +6901,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "dimgray",
           "package": "clay",
@@ -6338,6 +6914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "dimgrey",
           "package": "clay",
@@ -6347,6 +6924,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "dimgrey",
           "package": "clay",
@@ -6359,6 +6937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "dodgerblue",
           "package": "clay",
@@ -6368,6 +6947,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "dodgerblue",
           "package": "clay",
@@ -6380,6 +6960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "firebrick",
           "package": "clay",
@@ -6389,6 +6970,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "firebrick",
           "package": "clay",
@@ -6401,6 +6983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "floralwhite",
           "package": "clay",
@@ -6410,6 +6993,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "floralwhite",
           "package": "clay",
@@ -6422,6 +7006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "forestgreen",
           "package": "clay",
@@ -6431,6 +7016,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "forestgreen",
           "package": "clay",
@@ -6443,6 +7029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "fuchsia",
           "package": "clay",
@@ -6452,6 +7039,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "fuchsia",
           "package": "clay",
@@ -6464,6 +7052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "gainsboro",
           "package": "clay",
@@ -6473,6 +7062,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "gainsboro",
           "package": "clay",
@@ -6485,6 +7075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "ghostwhite",
           "package": "clay",
@@ -6494,6 +7085,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "ghostwhite",
           "package": "clay",
@@ -6506,6 +7098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "gold",
           "package": "clay",
@@ -6515,6 +7108,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "gold",
           "package": "clay",
@@ -6527,6 +7121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "goldenrod",
           "package": "clay",
@@ -6536,6 +7131,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "goldenrod",
           "package": "clay",
@@ -6548,6 +7144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "gray",
           "package": "clay",
@@ -6557,6 +7154,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "gray",
           "package": "clay",
@@ -6569,6 +7167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "grayish",
           "package": "clay",
@@ -6578,6 +7177,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "grayish",
           "normalized": "Integer-\u003eColor",
@@ -6592,6 +7192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "green",
           "package": "clay",
@@ -6601,6 +7202,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "green",
           "package": "clay",
@@ -6613,6 +7215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "greenyellow",
           "package": "clay",
@@ -6622,6 +7225,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "greenyellow",
           "package": "clay",
@@ -6634,6 +7238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "grey",
           "package": "clay",
@@ -6643,6 +7248,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "grey",
           "package": "clay",
@@ -6655,6 +7261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "honeydew",
           "package": "clay",
@@ -6664,6 +7271,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "honeydew",
           "package": "clay",
@@ -6676,6 +7284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "hotpink",
           "package": "clay",
@@ -6685,6 +7294,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "hotpink",
           "package": "clay",
@@ -6697,6 +7307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "hsl",
           "package": "clay",
@@ -6706,6 +7317,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "hsl",
           "normalized": "Integer-\u003eFloat-\u003eFloat-\u003eColor",
@@ -6720,6 +7332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "hsla",
           "package": "clay",
@@ -6729,6 +7342,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "hsla",
           "normalized": "Integer-\u003eFloat-\u003eFloat-\u003eInteger-\u003eColor",
@@ -6743,6 +7357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "indianred",
           "package": "clay",
@@ -6752,6 +7367,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "indianred",
           "package": "clay",
@@ -6764,6 +7380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "indigo",
           "package": "clay",
@@ -6773,6 +7390,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "indigo",
           "package": "clay",
@@ -6785,6 +7403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "ivory",
           "package": "clay",
@@ -6794,6 +7413,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "ivory",
           "package": "clay",
@@ -6806,6 +7426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "khaki",
           "package": "clay",
@@ -6815,6 +7436,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "khaki",
           "package": "clay",
@@ -6827,6 +7449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "lavender",
           "package": "clay",
@@ -6836,6 +7459,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "lavender",
           "package": "clay",
@@ -6848,6 +7472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "lavenderblush",
           "package": "clay",
@@ -6857,6 +7482,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "lavenderblush",
           "package": "clay",
@@ -6869,6 +7495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "lawngreen",
           "package": "clay",
@@ -6878,6 +7505,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "lawngreen",
           "package": "clay",
@@ -6890,6 +7518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "lemonchiffon",
           "package": "clay",
@@ -6899,6 +7528,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "lemonchiffon",
           "package": "clay",
@@ -6911,6 +7541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "lightblue",
           "package": "clay",
@@ -6920,6 +7551,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "lightblue",
           "package": "clay",
@@ -6932,6 +7564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "lightcoral",
           "package": "clay",
@@ -6941,6 +7574,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "lightcoral",
           "package": "clay",
@@ -6953,6 +7587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "lightcyan",
           "package": "clay",
@@ -6962,6 +7597,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "lightcyan",
           "package": "clay",
@@ -6974,6 +7610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "lightgoldenrodyellow",
           "package": "clay",
@@ -6983,6 +7620,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "lightgoldenrodyellow",
           "package": "clay",
@@ -6995,6 +7633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "lightgray",
           "package": "clay",
@@ -7004,6 +7643,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "lightgray",
           "package": "clay",
@@ -7016,6 +7656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "lightgreen",
           "package": "clay",
@@ -7025,6 +7666,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "lightgreen",
           "package": "clay",
@@ -7037,6 +7679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "lightgrey",
           "package": "clay",
@@ -7046,6 +7689,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "lightgrey",
           "package": "clay",
@@ -7058,6 +7702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "lightpink",
           "package": "clay",
@@ -7067,6 +7712,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "lightpink",
           "package": "clay",
@@ -7079,6 +7725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "lightsalmon",
           "package": "clay",
@@ -7088,6 +7735,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "lightsalmon",
           "package": "clay",
@@ -7100,6 +7748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "lightseagreen",
           "package": "clay",
@@ -7109,6 +7758,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "lightseagreen",
           "package": "clay",
@@ -7121,6 +7771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "lightskyblue",
           "package": "clay",
@@ -7130,6 +7781,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "lightskyblue",
           "package": "clay",
@@ -7142,6 +7794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "lightslategray",
           "package": "clay",
@@ -7151,6 +7804,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "lightslategray",
           "package": "clay",
@@ -7163,6 +7817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "lightslategrey",
           "package": "clay",
@@ -7172,6 +7827,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "lightslategrey",
           "package": "clay",
@@ -7184,6 +7840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "lightsteelblue",
           "package": "clay",
@@ -7193,6 +7850,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "lightsteelblue",
           "package": "clay",
@@ -7205,6 +7863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "lightyellow",
           "package": "clay",
@@ -7214,6 +7873,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "lightyellow",
           "package": "clay",
@@ -7226,6 +7886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "lime",
           "package": "clay",
@@ -7235,6 +7896,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "lime",
           "package": "clay",
@@ -7247,6 +7909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "limegreen",
           "package": "clay",
@@ -7256,6 +7919,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "limegreen",
           "package": "clay",
@@ -7268,6 +7932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "linen",
           "package": "clay",
@@ -7277,6 +7942,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "linen",
           "package": "clay",
@@ -7289,6 +7955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "magenta",
           "package": "clay",
@@ -7298,6 +7965,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "magenta",
           "package": "clay",
@@ -7310,6 +7978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "maroon",
           "package": "clay",
@@ -7319,6 +7988,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "maroon",
           "package": "clay",
@@ -7331,6 +8001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "mediumaquamarine",
           "package": "clay",
@@ -7340,6 +8011,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "mediumaquamarine",
           "package": "clay",
@@ -7352,6 +8024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "mediumblue",
           "package": "clay",
@@ -7361,6 +8034,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "mediumblue",
           "package": "clay",
@@ -7373,6 +8047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "mediumorchid",
           "package": "clay",
@@ -7382,6 +8057,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "mediumorchid",
           "package": "clay",
@@ -7394,6 +8070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "mediumpurple",
           "package": "clay",
@@ -7403,6 +8080,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "mediumpurple",
           "package": "clay",
@@ -7415,6 +8093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "mediumseagreen",
           "package": "clay",
@@ -7424,6 +8103,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "mediumseagreen",
           "package": "clay",
@@ -7436,6 +8116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "mediumslateblue",
           "package": "clay",
@@ -7445,6 +8126,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "mediumslateblue",
           "package": "clay",
@@ -7457,6 +8139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "mediumspringgreen",
           "package": "clay",
@@ -7466,6 +8149,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "mediumspringgreen",
           "package": "clay",
@@ -7478,6 +8162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "mediumturquoise",
           "package": "clay",
@@ -7487,6 +8172,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "mediumturquoise",
           "package": "clay",
@@ -7499,6 +8185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "mediumvioletred",
           "package": "clay",
@@ -7508,6 +8195,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "mediumvioletred",
           "package": "clay",
@@ -7520,6 +8208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "midnightblue",
           "package": "clay",
@@ -7529,6 +8218,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "midnightblue",
           "package": "clay",
@@ -7541,6 +8231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "mintcream",
           "package": "clay",
@@ -7550,6 +8241,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "mintcream",
           "package": "clay",
@@ -7562,6 +8254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "mistyrose",
           "package": "clay",
@@ -7571,6 +8264,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "mistyrose",
           "package": "clay",
@@ -7583,6 +8277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "moccasin",
           "package": "clay",
@@ -7592,6 +8287,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "moccasin",
           "package": "clay",
@@ -7604,6 +8300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "navajowhite",
           "package": "clay",
@@ -7613,6 +8310,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "navajowhite",
           "package": "clay",
@@ -7625,6 +8323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "navy",
           "package": "clay",
@@ -7634,6 +8333,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "navy",
           "package": "clay",
@@ -7646,6 +8346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "oldlace",
           "package": "clay",
@@ -7655,6 +8356,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "oldlace",
           "package": "clay",
@@ -7667,6 +8369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "olive",
           "package": "clay",
@@ -7676,6 +8379,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "olive",
           "package": "clay",
@@ -7688,6 +8392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "olivedrab",
           "package": "clay",
@@ -7697,6 +8402,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "olivedrab",
           "package": "clay",
@@ -7709,6 +8415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "orange",
           "package": "clay",
@@ -7718,6 +8425,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "orange",
           "package": "clay",
@@ -7730,6 +8438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "orangered",
           "package": "clay",
@@ -7739,6 +8448,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "orangered",
           "package": "clay",
@@ -7751,6 +8461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "orchid",
           "package": "clay",
@@ -7760,6 +8471,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "orchid",
           "package": "clay",
@@ -7772,6 +8484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "palegoldenrod",
           "package": "clay",
@@ -7781,6 +8494,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "palegoldenrod",
           "package": "clay",
@@ -7793,6 +8507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "palegreen",
           "package": "clay",
@@ -7802,6 +8517,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "palegreen",
           "package": "clay",
@@ -7814,6 +8530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "paleturquoise",
           "package": "clay",
@@ -7823,6 +8540,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "paleturquoise",
           "package": "clay",
@@ -7835,6 +8553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "palevioletred",
           "package": "clay",
@@ -7844,6 +8563,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "palevioletred",
           "package": "clay",
@@ -7856,6 +8576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "papayawhip",
           "package": "clay",
@@ -7865,6 +8586,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "papayawhip",
           "package": "clay",
@@ -7877,6 +8599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "parse",
           "package": "clay",
@@ -7886,6 +8609,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "parse",
           "normalized": "Text-\u003eColor",
@@ -7900,6 +8624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "peachpuff",
           "package": "clay",
@@ -7909,6 +8634,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "peachpuff",
           "package": "clay",
@@ -7921,6 +8647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "peru",
           "package": "clay",
@@ -7930,6 +8657,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "peru",
           "package": "clay",
@@ -7942,6 +8670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "pink",
           "package": "clay",
@@ -7951,6 +8680,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "pink",
           "package": "clay",
@@ -7963,6 +8693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "plum",
           "package": "clay",
@@ -7972,6 +8703,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "plum",
           "package": "clay",
@@ -7984,6 +8716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "powderblue",
           "package": "clay",
@@ -7993,6 +8726,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "powderblue",
           "package": "clay",
@@ -8005,6 +8739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "purple",
           "package": "clay",
@@ -8014,6 +8749,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "purple",
           "package": "clay",
@@ -8026,6 +8762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "red",
           "package": "clay",
@@ -8035,6 +8772,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "red",
           "package": "clay",
@@ -8047,6 +8785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "rgb",
           "package": "clay",
@@ -8056,6 +8795,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "rgb",
           "normalized": "Integer-\u003eInteger-\u003eInteger-\u003eColor",
@@ -8070,6 +8810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "rgba",
           "package": "clay",
@@ -8079,6 +8820,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "rgba",
           "normalized": "Integer-\u003eInteger-\u003eInteger-\u003eInteger-\u003eColor",
@@ -8093,6 +8835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "rosybrown",
           "package": "clay",
@@ -8102,6 +8845,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "rosybrown",
           "package": "clay",
@@ -8114,6 +8858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "royalblue",
           "package": "clay",
@@ -8123,6 +8868,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "royalblue",
           "package": "clay",
@@ -8135,6 +8881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "saddlebrown",
           "package": "clay",
@@ -8144,6 +8891,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "saddlebrown",
           "package": "clay",
@@ -8156,6 +8904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "salmon",
           "package": "clay",
@@ -8165,6 +8914,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "salmon",
           "package": "clay",
@@ -8177,6 +8927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "sandybrown",
           "package": "clay",
@@ -8186,6 +8937,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "sandybrown",
           "package": "clay",
@@ -8198,6 +8950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "seagreen",
           "package": "clay",
@@ -8207,6 +8960,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "seagreen",
           "package": "clay",
@@ -8219,6 +8973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "seashell",
           "package": "clay",
@@ -8228,6 +8983,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "seashell",
           "package": "clay",
@@ -8240,6 +8996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "setA",
           "package": "clay",
@@ -8249,6 +9006,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "setA",
           "normalized": "Integer-\u003eColor-\u003eColor",
@@ -8263,6 +9021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "setB",
           "package": "clay",
@@ -8272,6 +9031,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "setB",
           "normalized": "Integer-\u003eColor-\u003eColor",
@@ -8286,6 +9046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "setG",
           "package": "clay",
@@ -8295,6 +9056,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "setG",
           "normalized": "Integer-\u003eColor-\u003eColor",
@@ -8309,6 +9071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "setR",
           "package": "clay",
@@ -8318,6 +9081,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "setR",
           "normalized": "Integer-\u003eColor-\u003eColor",
@@ -8332,6 +9096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "sienna",
           "package": "clay",
@@ -8341,6 +9106,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "sienna",
           "package": "clay",
@@ -8353,6 +9119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "silver",
           "package": "clay",
@@ -8362,6 +9129,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "silver",
           "package": "clay",
@@ -8374,6 +9142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "skyblue",
           "package": "clay",
@@ -8383,6 +9152,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "skyblue",
           "package": "clay",
@@ -8395,6 +9165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "slateblue",
           "package": "clay",
@@ -8404,6 +9175,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "slateblue",
           "package": "clay",
@@ -8416,6 +9188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "slategray",
           "package": "clay",
@@ -8425,6 +9198,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "slategray",
           "package": "clay",
@@ -8437,6 +9211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "slategrey",
           "package": "clay",
@@ -8446,6 +9221,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "slategrey",
           "package": "clay",
@@ -8458,6 +9234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "snow",
           "package": "clay",
@@ -8467,6 +9244,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "snow",
           "package": "clay",
@@ -8479,6 +9257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "springgreen",
           "package": "clay",
@@ -8488,6 +9267,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "springgreen",
           "package": "clay",
@@ -8500,6 +9280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "steelblue",
           "package": "clay",
@@ -8509,6 +9290,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "steelblue",
           "package": "clay",
@@ -8521,6 +9303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "tan",
           "package": "clay",
@@ -8530,6 +9313,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "tan",
           "package": "clay",
@@ -8542,6 +9326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "teal",
           "package": "clay",
@@ -8551,6 +9336,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "teal",
           "package": "clay",
@@ -8563,6 +9349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "thistle",
           "package": "clay",
@@ -8572,6 +9359,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "thistle",
           "package": "clay",
@@ -8584,6 +9372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "tomato",
           "package": "clay",
@@ -8593,6 +9382,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "tomato",
           "package": "clay",
@@ -8605,6 +9395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "transparent",
           "package": "clay",
@@ -8614,6 +9405,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "transparent",
           "package": "clay",
@@ -8626,6 +9418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "turquoise",
           "package": "clay",
@@ -8635,6 +9428,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "turquoise",
           "package": "clay",
@@ -8647,6 +9441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "violet",
           "package": "clay",
@@ -8656,6 +9451,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "violet",
           "package": "clay",
@@ -8668,6 +9464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "wheat",
           "package": "clay",
@@ -8677,6 +9474,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "wheat",
           "package": "clay",
@@ -8689,6 +9487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "white",
           "package": "clay",
@@ -8698,6 +9497,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "white",
           "package": "clay",
@@ -8710,6 +9510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "whitesmoke",
           "package": "clay",
@@ -8719,6 +9520,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "whitesmoke",
           "package": "clay",
@@ -8731,6 +9533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "yellow",
           "package": "clay",
@@ -8740,6 +9543,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "yellow",
           "package": "clay",
@@ -8752,6 +9556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Color",
           "name": "yellowgreen",
           "package": "clay",
@@ -8761,6 +9566,7 @@
         },
         "index": {
           "hierarchy": "Clay Color",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Color",
           "name": "yellowgreen",
           "package": "clay",
@@ -8774,6 +9580,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA bunch of type classes representing common values shared between multiple\n CSS properties, like \u003ccode\u003e\u003ca\u003eAuto\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInherit\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eNone\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eNormal\u003c/a\u003e\u003c/code\u003e and several more.\n\u003c/p\u003e\u003cp\u003eAll the common value type classes have an instance for the Value type,\n making them easily derivable for custom value types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Common",
           "name": "Common",
           "package": "clay",
@@ -8783,6 +9590,7 @@
         "index": {
           "description": "bunch of type classes representing common values shared between multiple CSS properties like Auto Inherit None Normal and several more All the common value type classes have an instance for the Value type making them easily derivable for custom value types",
           "hierarchy": "Clay Common",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Common",
           "name": "Common",
           "package": "clay",
@@ -8796,6 +9604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Common",
           "name": "All",
           "package": "clay",
@@ -8804,6 +9613,7 @@
         },
         "index": {
           "hierarchy": "Clay Common",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Common",
           "name": "All",
           "package": "clay",
@@ -8817,6 +9627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Common",
           "name": "Auto",
           "package": "clay",
@@ -8825,6 +9636,7 @@
         },
         "index": {
           "hierarchy": "Clay Common",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Common",
           "name": "Auto",
           "package": "clay",
@@ -8838,6 +9650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Common",
           "name": "Hidden",
           "package": "clay",
@@ -8846,6 +9659,7 @@
         },
         "index": {
           "hierarchy": "Clay Common",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Common",
           "name": "Hidden",
           "package": "clay",
@@ -8859,6 +9673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Common",
           "name": "Inherit",
           "package": "clay",
@@ -8867,6 +9682,7 @@
         },
         "index": {
           "hierarchy": "Clay Common",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Common",
           "name": "Inherit",
           "package": "clay",
@@ -8880,6 +9696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Common",
           "name": "None",
           "package": "clay",
@@ -8888,6 +9705,7 @@
         },
         "index": {
           "hierarchy": "Clay Common",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Common",
           "name": "None",
           "package": "clay",
@@ -8901,6 +9719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Common",
           "name": "Normal",
           "package": "clay",
@@ -8909,6 +9728,7 @@
         },
         "index": {
           "hierarchy": "Clay Common",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Common",
           "name": "Normal",
           "package": "clay",
@@ -8923,6 +9743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe other type class is used to escape from the type safety introduced by\n embedding CSS properties into the typed world of Clay. \u003ccode\u003e\u003ca\u003eOther\u003c/a\u003e\u003c/code\u003e allows you to\n cast any \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e to a specific value type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Common",
           "name": "Other",
           "package": "clay",
@@ -8932,6 +9753,7 @@
         "index": {
           "description": "The other type class is used to escape from the type safety introduced by embedding CSS properties into the typed world of Clay Other allows you to cast any Value to specific value type",
           "hierarchy": "Clay Common",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Common",
           "name": "Other",
           "package": "clay",
@@ -8945,6 +9767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Common",
           "name": "Visible",
           "package": "clay",
@@ -8953,6 +9776,7 @@
         },
         "index": {
           "hierarchy": "Clay Common",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Common",
           "name": "Visible",
           "package": "clay",
@@ -8966,6 +9790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Common",
           "name": "all",
           "package": "clay",
@@ -8975,6 +9800,7 @@
         },
         "index": {
           "hierarchy": "Clay Common",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Common",
           "name": "all",
           "package": "clay",
@@ -8987,6 +9813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Common",
           "name": "auto",
           "package": "clay",
@@ -8996,6 +9823,7 @@
         },
         "index": {
           "hierarchy": "Clay Common",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Common",
           "name": "auto",
           "package": "clay",
@@ -9009,6 +9837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommon list browser prefixes to make experimental properties work in\n different browsers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Common",
           "name": "browsers",
           "package": "clay",
@@ -9019,6 +9848,7 @@
         "index": {
           "description": "Common list browser prefixes to make experimental properties work in different browsers",
           "hierarchy": "Clay Common",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Common",
           "name": "browsers",
           "package": "clay",
@@ -9032,6 +9862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSyntax for CSS function call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Common",
           "name": "call",
           "package": "clay",
@@ -9042,6 +9873,7 @@
         "index": {
           "description": "Syntax for CSS function call",
           "hierarchy": "Clay Common",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Common",
           "name": "call",
           "normalized": "a-\u003ea-\u003ea",
@@ -9056,6 +9888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Common",
           "name": "hidden",
           "package": "clay",
@@ -9065,6 +9898,7 @@
         },
         "index": {
           "hierarchy": "Clay Common",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Common",
           "name": "hidden",
           "package": "clay",
@@ -9077,6 +9911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Common",
           "name": "inherit",
           "package": "clay",
@@ -9086,6 +9921,7 @@
         },
         "index": {
           "hierarchy": "Clay Common",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Common",
           "name": "inherit",
           "package": "clay",
@@ -9098,6 +9934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Common",
           "name": "none",
           "package": "clay",
@@ -9107,6 +9944,7 @@
         },
         "index": {
           "hierarchy": "Clay Common",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Common",
           "name": "none",
           "package": "clay",
@@ -9119,6 +9957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Common",
           "name": "normal",
           "package": "clay",
@@ -9128,6 +9967,7 @@
         },
         "index": {
           "hierarchy": "Clay Common",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Common",
           "name": "normal",
           "package": "clay",
@@ -9140,6 +9980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Common",
           "name": "other",
           "package": "clay",
@@ -9149,6 +9990,7 @@
         },
         "index": {
           "hierarchy": "Clay Common",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Common",
           "name": "other",
           "normalized": "Value-\u003ea",
@@ -9163,6 +10005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Common",
           "name": "visible",
           "package": "clay",
@@ -9172,6 +10015,7 @@
         },
         "index": {
           "hierarchy": "Clay Common",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Common",
           "name": "visible",
           "package": "clay",
@@ -9184,6 +10028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "Display",
           "package": "clay",
@@ -9192,6 +10037,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "Display",
           "package": "clay",
@@ -9205,6 +10051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "Clear",
           "package": "clay",
@@ -9213,6 +10060,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "Clear",
           "package": "clay",
@@ -9226,6 +10074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "Clip",
           "package": "clay",
@@ -9234,6 +10083,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "Clip",
           "package": "clay",
@@ -9247,6 +10097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "Display",
           "package": "clay",
@@ -9255,6 +10106,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "Display",
           "package": "clay",
@@ -9268,6 +10120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "FloatStyle",
           "package": "clay",
@@ -9276,6 +10129,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "FloatStyle",
           "package": "clay",
@@ -9289,6 +10143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "Overflow",
           "package": "clay",
@@ -9297,6 +10152,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "Overflow",
           "package": "clay",
@@ -9310,6 +10166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "PointerEvents",
           "package": "clay",
@@ -9318,6 +10175,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "PointerEvents",
           "package": "clay",
@@ -9331,6 +10189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "Position",
           "package": "clay",
@@ -9339,6 +10198,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "Position",
           "package": "clay",
@@ -9352,6 +10212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "Visibility",
           "package": "clay",
@@ -9360,6 +10221,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "Visibility",
           "package": "clay",
@@ -9373,6 +10235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "absolute",
           "package": "clay",
@@ -9382,6 +10245,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "absolute",
           "package": "clay",
@@ -9394,6 +10258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "allEvents",
           "package": "clay",
@@ -9403,6 +10268,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "allEvents",
           "package": "clay",
@@ -9416,6 +10282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "block",
           "package": "clay",
@@ -9425,6 +10292,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "block",
           "package": "clay",
@@ -9437,6 +10305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "both",
           "package": "clay",
@@ -9446,6 +10315,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "both",
           "package": "clay",
@@ -9458,6 +10328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "clear",
           "package": "clay",
@@ -9467,6 +10338,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "clear",
           "normalized": "Clear-\u003eCss",
@@ -9481,6 +10353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "clearLeft",
           "package": "clay",
@@ -9490,6 +10363,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "clearLeft",
           "package": "clay",
@@ -9503,6 +10377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "clearRight",
           "package": "clay",
@@ -9512,6 +10387,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "clearRight",
           "package": "clay",
@@ -9525,6 +10401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "clip",
           "package": "clay",
@@ -9534,6 +10411,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "clip",
           "normalized": "Clip-\u003eCss",
@@ -9548,6 +10426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "collapse",
           "package": "clay",
@@ -9557,6 +10436,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "collapse",
           "package": "clay",
@@ -9569,6 +10449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "display",
           "package": "clay",
@@ -9578,6 +10459,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "display",
           "normalized": "Display-\u003eCss",
@@ -9592,6 +10474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "displayInherit",
           "package": "clay",
@@ -9601,6 +10484,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "displayInherit",
           "package": "clay",
@@ -9614,6 +10498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "displayNone",
           "package": "clay",
@@ -9623,6 +10508,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "displayNone",
           "package": "clay",
@@ -9636,6 +10522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "fillEvents",
           "package": "clay",
@@ -9645,6 +10532,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "fillEvents",
           "package": "clay",
@@ -9658,6 +10546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "fixed",
           "package": "clay",
@@ -9667,6 +10556,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "fixed",
           "package": "clay",
@@ -9679,6 +10569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "flex",
           "package": "clay",
@@ -9688,6 +10579,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "flex",
           "package": "clay",
@@ -9700,6 +10592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "float",
           "package": "clay",
@@ -9709,6 +10602,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "float",
           "normalized": "FloatStyle-\u003eCss",
@@ -9723,6 +10617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "floatLeft",
           "package": "clay",
@@ -9732,6 +10627,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "floatLeft",
           "package": "clay",
@@ -9745,6 +10641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "floatRight",
           "package": "clay",
@@ -9754,6 +10651,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "floatRight",
           "package": "clay",
@@ -9767,6 +10665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "grid",
           "package": "clay",
@@ -9776,6 +10675,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "grid",
           "package": "clay",
@@ -9788,6 +10688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "inline",
           "package": "clay",
@@ -9797,6 +10698,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "inline",
           "package": "clay",
@@ -9809,6 +10711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "inlineBlock",
           "package": "clay",
@@ -9818,6 +10721,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "inlineBlock",
           "package": "clay",
@@ -9831,6 +10735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "inlineFlex",
           "package": "clay",
@@ -9840,6 +10745,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "inlineFlex",
           "package": "clay",
@@ -9853,6 +10759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "inlineGrid",
           "package": "clay",
@@ -9862,6 +10769,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "inlineGrid",
           "package": "clay",
@@ -9875,6 +10783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "inlineTable",
           "package": "clay",
@@ -9884,6 +10793,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "inlineTable",
           "package": "clay",
@@ -9897,6 +10807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "listItem",
           "package": "clay",
@@ -9906,6 +10817,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "listItem",
           "package": "clay",
@@ -9919,6 +10831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "opacity",
           "package": "clay",
@@ -9928,6 +10841,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "opacity",
           "normalized": "Double-\u003eCss",
@@ -9942,6 +10856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "overflow",
           "package": "clay",
@@ -9951,6 +10866,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "overflow",
           "normalized": "Overflow-\u003eCss",
@@ -9965,6 +10881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "overflowX",
           "package": "clay",
@@ -9974,6 +10891,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "overflowX",
           "normalized": "Overflow-\u003eCss",
@@ -9988,6 +10906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "overflowY",
           "package": "clay",
@@ -9997,6 +10916,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "overflowY",
           "normalized": "Overflow-\u003eCss",
@@ -10011,6 +10931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "painted",
           "package": "clay",
@@ -10020,6 +10941,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "painted",
           "package": "clay",
@@ -10032,6 +10954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "pointerEvents",
           "package": "clay",
@@ -10041,6 +10964,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "pointerEvents",
           "normalized": "PointerEvents-\u003eCss",
@@ -10056,6 +10980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "position",
           "package": "clay",
@@ -10065,6 +10990,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "position",
           "normalized": "Position-\u003eCss",
@@ -10079,6 +11005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "rect",
           "package": "clay",
@@ -10088,6 +11015,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "rect",
           "normalized": "Size a-\u003eSize a-\u003eSize a-\u003eSize a-\u003eClip",
@@ -10102,6 +11030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "relative",
           "package": "clay",
@@ -10111,6 +11040,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "relative",
           "package": "clay",
@@ -10123,6 +11053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "runIn",
           "package": "clay",
@@ -10132,6 +11063,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "runIn",
           "package": "clay",
@@ -10145,6 +11077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "scroll",
           "package": "clay",
@@ -10154,6 +11087,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "scroll",
           "package": "clay",
@@ -10166,6 +11100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "static",
           "package": "clay",
@@ -10175,6 +11110,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "static",
           "package": "clay",
@@ -10187,6 +11123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "strokeEvents",
           "package": "clay",
@@ -10196,6 +11133,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "strokeEvents",
           "package": "clay",
@@ -10209,6 +11147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "table",
           "package": "clay",
@@ -10218,6 +11157,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "table",
           "package": "clay",
@@ -10230,6 +11170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "tableCaption",
           "package": "clay",
@@ -10239,6 +11180,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "tableCaption",
           "package": "clay",
@@ -10252,6 +11194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "tableCell",
           "package": "clay",
@@ -10261,6 +11204,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "tableCell",
           "package": "clay",
@@ -10274,6 +11218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "tableColumn",
           "package": "clay",
@@ -10283,6 +11228,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "tableColumn",
           "package": "clay",
@@ -10296,6 +11242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "tableColumnGroup",
           "package": "clay",
@@ -10305,6 +11252,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "tableColumnGroup",
           "package": "clay",
@@ -10318,6 +11266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "tableFooterGroup",
           "package": "clay",
@@ -10327,6 +11276,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "tableFooterGroup",
           "package": "clay",
@@ -10340,6 +11290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "tableHeaderGroup",
           "package": "clay",
@@ -10349,6 +11300,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "tableHeaderGroup",
           "package": "clay",
@@ -10362,6 +11314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "tableRow",
           "package": "clay",
@@ -10371,6 +11324,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "tableRow",
           "package": "clay",
@@ -10384,6 +11338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "tableRowGroup",
           "package": "clay",
@@ -10393,6 +11348,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "tableRowGroup",
           "package": "clay",
@@ -10406,6 +11362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "visibility",
           "package": "clay",
@@ -10415,6 +11372,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "visibility",
           "normalized": "Visibility-\u003eCss",
@@ -10429,6 +11387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "visibleFill",
           "package": "clay",
@@ -10438,6 +11397,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "visibleFill",
           "package": "clay",
@@ -10451,6 +11411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "visiblePainted",
           "package": "clay",
@@ -10460,6 +11421,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "visiblePainted",
           "package": "clay",
@@ -10473,6 +11435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "visibleStroke",
           "package": "clay",
@@ -10482,6 +11445,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "visibleStroke",
           "package": "clay",
@@ -10495,6 +11459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Display",
           "name": "zIndex",
           "package": "clay",
@@ -10504,6 +11469,7 @@
         },
         "index": {
           "hierarchy": "Clay Display",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Display",
           "name": "zIndex",
           "normalized": "Integer-\u003eCss",
@@ -10520,6 +11486,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDynamic user interface element control. This CSS3 functionality is still\n in draft, though it is implemented in several browsers. See\n \u003ca\u003ehttp://www.w3.org/TR/2000/WD-css3-userint-20000216#dynamic\u003c/a\u003e and your target\n browsers' vendor documentation for more information.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "Dynamic",
           "package": "clay",
@@ -10529,6 +11496,7 @@
         "index": {
           "description": "Dynamic user interface element control This CSS3 functionality is still in draft though it is implemented in several browsers See http www.w3.org TR WD-css3-userint-20000216 dynamic and your target browsers vendor documentation for more information",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "Dynamic",
           "package": "clay",
@@ -10543,6 +11511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFocus behaviour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "UserFocus",
           "package": "clay",
@@ -10552,6 +11521,7 @@
         "index": {
           "description": "Focus behaviour",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "UserFocus",
           "package": "clay",
@@ -10566,6 +11536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelection mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "UserInput",
           "package": "clay",
@@ -10575,6 +11546,7 @@
         "index": {
           "description": "Selection mode",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "UserInput",
           "package": "clay",
@@ -10589,6 +11561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelection mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "UserModify",
           "package": "clay",
@@ -10598,6 +11571,7 @@
         "index": {
           "description": "Selection mode",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "UserModify",
           "package": "clay",
@@ -10612,6 +11586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelection mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "UserSelect",
           "package": "clay",
@@ -10621,6 +11596,7 @@
         "index": {
           "description": "Selection mode",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "UserSelect",
           "package": "clay",
@@ -10635,6 +11611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelection mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "inputDisabled",
           "package": "clay",
@@ -10645,6 +11622,7 @@
         "index": {
           "description": "Selection mode",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "inputDisabled",
           "package": "clay",
@@ -10659,6 +11637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelection mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "inputEnabled",
           "package": "clay",
@@ -10669,6 +11648,7 @@
         "index": {
           "description": "Selection mode",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "inputEnabled",
           "package": "clay",
@@ -10683,6 +11663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelection mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "readOnly",
           "package": "clay",
@@ -10693,6 +11674,7 @@
         "index": {
           "description": "Selection mode",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "readOnly",
           "package": "clay",
@@ -10707,6 +11689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelection mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "readWrite",
           "package": "clay",
@@ -10717,6 +11700,7 @@
         "index": {
           "description": "Selection mode",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "readWrite",
           "package": "clay",
@@ -10731,6 +11715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFocus mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "selectAfter",
           "package": "clay",
@@ -10741,6 +11726,7 @@
         "index": {
           "description": "Focus mode",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "selectAfter",
           "package": "clay",
@@ -10755,6 +11741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFocus mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "selectAll",
           "package": "clay",
@@ -10765,6 +11752,7 @@
         "index": {
           "description": "Focus mode",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "selectAll",
           "package": "clay",
@@ -10779,6 +11767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFocus mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "selectBefore",
           "package": "clay",
@@ -10789,6 +11778,7 @@
         "index": {
           "description": "Focus mode",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "selectBefore",
           "package": "clay",
@@ -10803,6 +11793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelection mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "selectElement",
           "package": "clay",
@@ -10813,6 +11804,7 @@
         "index": {
           "description": "Selection mode",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "selectElement",
           "package": "clay",
@@ -10827,6 +11819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelection mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "selectElements",
           "package": "clay",
@@ -10837,6 +11830,7 @@
         "index": {
           "description": "Selection mode",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "selectElements",
           "package": "clay",
@@ -10851,6 +11845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFocus mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "selectMenu",
           "package": "clay",
@@ -10861,6 +11856,7 @@
         "index": {
           "description": "Focus mode",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "selectMenu",
           "package": "clay",
@@ -10875,6 +11871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFocus mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "selectSame",
           "package": "clay",
@@ -10885,6 +11882,7 @@
         "index": {
           "description": "Focus mode",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "selectSame",
           "package": "clay",
@@ -10899,6 +11897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelection mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "selectText",
           "package": "clay",
@@ -10909,6 +11908,7 @@
         "index": {
           "description": "Selection mode",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "selectText",
           "package": "clay",
@@ -10923,6 +11923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelection mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "selectToggle",
           "package": "clay",
@@ -10933,6 +11934,7 @@
         "index": {
           "description": "Selection mode",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "selectToggle",
           "package": "clay",
@@ -10947,6 +11949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContent focusing granularity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "userFocus",
           "package": "clay",
@@ -10957,6 +11960,7 @@
         "index": {
           "description": "Content focusing granularity",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "userFocus",
           "normalized": "UserFocus-\u003eCss",
@@ -10973,6 +11977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnabling user interface elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "userInput",
           "package": "clay",
@@ -10983,6 +11988,7 @@
         "index": {
           "description": "Enabling user interface elements",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "userInput",
           "normalized": "UserInput-\u003eCss",
@@ -10999,6 +12005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModifiability of an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "userModify",
           "package": "clay",
@@ -11009,6 +12016,7 @@
         "index": {
           "description": "Modifiability of an element",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "userModify",
           "normalized": "UserModify-\u003eCss",
@@ -11025,6 +12033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContent selection granularity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "userSelect",
           "package": "clay",
@@ -11035,6 +12044,7 @@
         "index": {
           "description": "Content selection granularity",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "userSelect",
           "normalized": "UserSelect-\u003eCss",
@@ -11051,6 +12061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelection mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Dynamic",
           "name": "writeOnly",
           "package": "clay",
@@ -11061,6 +12072,7 @@
         "index": {
           "description": "Selection mode",
           "hierarchy": "Clay Dynamic",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Dynamic",
           "name": "writeOnly",
           "package": "clay",
@@ -11074,6 +12086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "Elements",
           "package": "clay",
@@ -11082,6 +12095,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "Elements",
           "package": "clay",
@@ -11095,6 +12109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "a",
           "package": "clay",
@@ -11104,6 +12119,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "a",
           "package": "clay",
@@ -11117,6 +12133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial cases, these items occur both as an HTML tag and an HTML\n attribute. We keep them polymorph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "abbr",
           "package": "clay",
@@ -11127,6 +12144,7 @@
         "index": {
           "description": "Special cases these items occur both as an HTML tag and an HTML attribute We keep them polymorph",
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "abbr",
           "package": "clay",
@@ -11139,6 +12157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "address",
           "package": "clay",
@@ -11148,6 +12167,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "address",
           "package": "clay",
@@ -11160,6 +12180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "area",
           "package": "clay",
@@ -11169,6 +12190,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "area",
           "package": "clay",
@@ -11181,6 +12203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "article",
           "package": "clay",
@@ -11190,6 +12213,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "article",
           "package": "clay",
@@ -11202,6 +12226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "aside",
           "package": "clay",
@@ -11211,6 +12236,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "aside",
           "package": "clay",
@@ -11223,6 +12249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "audio",
           "package": "clay",
@@ -11232,6 +12259,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "audio",
           "package": "clay",
@@ -11244,6 +12272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "b",
           "package": "clay",
@@ -11253,6 +12282,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "b",
           "package": "clay",
@@ -11265,6 +12295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "base",
           "package": "clay",
@@ -11274,6 +12305,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "base",
           "package": "clay",
@@ -11286,6 +12318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "bdi",
           "package": "clay",
@@ -11295,6 +12328,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "bdi",
           "package": "clay",
@@ -11307,6 +12341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "bdo",
           "package": "clay",
@@ -11316,6 +12351,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "bdo",
           "package": "clay",
@@ -11328,6 +12364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "blockquote",
           "package": "clay",
@@ -11337,6 +12374,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "blockquote",
           "package": "clay",
@@ -11349,6 +12387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "body",
           "package": "clay",
@@ -11358,6 +12397,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "body",
           "package": "clay",
@@ -11370,6 +12410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "br",
           "package": "clay",
@@ -11379,6 +12420,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "br",
           "package": "clay",
@@ -11391,6 +12433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "button",
           "package": "clay",
@@ -11400,6 +12443,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "button",
           "package": "clay",
@@ -11412,6 +12456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "canvas",
           "package": "clay",
@@ -11421,6 +12466,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "canvas",
           "package": "clay",
@@ -11433,6 +12479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "caption",
           "package": "clay",
@@ -11442,6 +12489,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "caption",
           "package": "clay",
@@ -11455,6 +12503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial cases, these items occur both as an HTML tag and an HTML\n attribute. We keep them polymorph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "cite",
           "package": "clay",
@@ -11465,6 +12514,7 @@
         "index": {
           "description": "Special cases these items occur both as an HTML tag and an HTML attribute We keep them polymorph",
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "cite",
           "package": "clay",
@@ -11477,6 +12527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "code",
           "package": "clay",
@@ -11486,6 +12537,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "code",
           "package": "clay",
@@ -11498,6 +12550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "col",
           "package": "clay",
@@ -11507,6 +12560,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "col",
           "package": "clay",
@@ -11519,6 +12573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "colgroup",
           "package": "clay",
@@ -11528,6 +12583,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "colgroup",
           "package": "clay",
@@ -11541,6 +12597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial cases, these items occur both as an HTML tag and an HTML\n attribute. We keep them polymorph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "command",
           "package": "clay",
@@ -11551,6 +12608,7 @@
         "index": {
           "description": "Special cases these items occur both as an HTML tag and an HTML attribute We keep them polymorph",
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "command",
           "package": "clay",
@@ -11564,6 +12622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial cases, these items occur both as an HTML tag and an HTML\n attribute. We keep them polymorph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "data_",
           "package": "clay",
@@ -11574,6 +12633,7 @@
         "index": {
           "description": "Special cases these items occur both as an HTML tag and an HTML attribute We keep them polymorph",
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "data_",
           "package": "clay",
@@ -11586,6 +12646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "datalist",
           "package": "clay",
@@ -11595,6 +12656,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "datalist",
           "package": "clay",
@@ -11607,6 +12669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "dd",
           "package": "clay",
@@ -11616,6 +12679,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "dd",
           "package": "clay",
@@ -11628,6 +12692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "del",
           "package": "clay",
@@ -11637,6 +12702,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "del",
           "package": "clay",
@@ -11649,6 +12715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "details",
           "package": "clay",
@@ -11658,6 +12725,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "details",
           "package": "clay",
@@ -11670,6 +12738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "dfn",
           "package": "clay",
@@ -11679,6 +12748,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "dfn",
           "package": "clay",
@@ -11691,6 +12761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "dialog",
           "package": "clay",
@@ -11700,6 +12771,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "dialog",
           "package": "clay",
@@ -11712,6 +12784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "div",
           "package": "clay",
@@ -11721,6 +12794,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "div",
           "package": "clay",
@@ -11733,6 +12807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "dl",
           "package": "clay",
@@ -11742,6 +12817,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "dl",
           "package": "clay",
@@ -11754,6 +12830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "dt",
           "package": "clay",
@@ -11763,6 +12840,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "dt",
           "package": "clay",
@@ -11775,6 +12853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "em",
           "package": "clay",
@@ -11784,6 +12863,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "em",
           "package": "clay",
@@ -11796,6 +12876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "embed",
           "package": "clay",
@@ -11805,6 +12886,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "embed",
           "package": "clay",
@@ -11817,6 +12899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "fieldset",
           "package": "clay",
@@ -11826,6 +12909,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "fieldset",
           "package": "clay",
@@ -11838,6 +12922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "figcaption",
           "package": "clay",
@@ -11847,6 +12932,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "figcaption",
           "package": "clay",
@@ -11859,6 +12945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "figure",
           "package": "clay",
@@ -11868,6 +12955,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "figure",
           "package": "clay",
@@ -11880,6 +12968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "footer",
           "package": "clay",
@@ -11889,6 +12978,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "footer",
           "package": "clay",
@@ -11902,6 +12992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial cases, these items occur both as an HTML tag and an HTML\n attribute. We keep them polymorph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "form",
           "package": "clay",
@@ -11912,6 +13003,7 @@
         "index": {
           "description": "Special cases these items occur both as an HTML tag and an HTML attribute We keep them polymorph",
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "form",
           "package": "clay",
@@ -11924,6 +13016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "h1",
           "package": "clay",
@@ -11933,6 +13026,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "h1",
           "package": "clay",
@@ -11945,6 +13039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "h2",
           "package": "clay",
@@ -11954,6 +13049,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "h2",
           "package": "clay",
@@ -11966,6 +13062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "h3",
           "package": "clay",
@@ -11975,6 +13072,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "h3",
           "package": "clay",
@@ -11987,6 +13085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "h4",
           "package": "clay",
@@ -11996,6 +13095,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "h4",
           "package": "clay",
@@ -12008,6 +13108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "h5",
           "package": "clay",
@@ -12017,6 +13118,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "h5",
           "package": "clay",
@@ -12029,6 +13131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "h6",
           "package": "clay",
@@ -12038,6 +13141,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "h6",
           "package": "clay",
@@ -12050,6 +13154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "head",
           "package": "clay",
@@ -12059,6 +13164,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "head",
           "package": "clay",
@@ -12071,6 +13177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "header",
           "package": "clay",
@@ -12080,6 +13187,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "header",
           "package": "clay",
@@ -12092,6 +13200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "hgroup",
           "package": "clay",
@@ -12101,6 +13210,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "hgroup",
           "package": "clay",
@@ -12113,6 +13223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "hr",
           "package": "clay",
@@ -12122,6 +13233,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "hr",
           "package": "clay",
@@ -12134,6 +13246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "html",
           "package": "clay",
@@ -12143,6 +13256,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "html",
           "package": "clay",
@@ -12155,6 +13269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "i",
           "package": "clay",
@@ -12164,6 +13279,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "i",
           "package": "clay",
@@ -12176,6 +13292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "iframe",
           "package": "clay",
@@ -12185,6 +13302,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "iframe",
           "package": "clay",
@@ -12197,6 +13315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "img",
           "package": "clay",
@@ -12206,6 +13325,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "img",
           "package": "clay",
@@ -12218,6 +13338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "input",
           "package": "clay",
@@ -12227,6 +13348,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "input",
           "package": "clay",
@@ -12239,6 +13361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "ins",
           "package": "clay",
@@ -12248,6 +13371,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "ins",
           "package": "clay",
@@ -12260,6 +13384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "kbd",
           "package": "clay",
@@ -12269,6 +13394,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "kbd",
           "package": "clay",
@@ -12281,6 +13407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "keygen",
           "package": "clay",
@@ -12290,6 +13417,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "keygen",
           "package": "clay",
@@ -12303,6 +13431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial cases, these items occur both as an HTML tag and an HTML\n attribute. We keep them polymorph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "label",
           "package": "clay",
@@ -12313,6 +13442,7 @@
         "index": {
           "description": "Special cases these items occur both as an HTML tag and an HTML attribute We keep them polymorph",
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "label",
           "package": "clay",
@@ -12325,6 +13455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "legend",
           "package": "clay",
@@ -12334,6 +13465,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "legend",
           "package": "clay",
@@ -12346,6 +13478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "li",
           "package": "clay",
@@ -12355,6 +13488,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "li",
           "package": "clay",
@@ -12367,6 +13501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "link",
           "package": "clay",
@@ -12376,6 +13511,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "link",
           "package": "clay",
@@ -12388,6 +13524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "map",
           "package": "clay",
@@ -12397,6 +13534,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "map",
           "package": "clay",
@@ -12409,6 +13547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "mark",
           "package": "clay",
@@ -12418,6 +13557,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "mark",
           "package": "clay",
@@ -12430,6 +13570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "menu",
           "package": "clay",
@@ -12439,6 +13580,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "menu",
           "package": "clay",
@@ -12451,6 +13593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "meta",
           "package": "clay",
@@ -12460,6 +13603,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "meta",
           "package": "clay",
@@ -12472,6 +13616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "meter",
           "package": "clay",
@@ -12481,6 +13626,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "meter",
           "package": "clay",
@@ -12493,6 +13639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "nav",
           "package": "clay",
@@ -12502,6 +13649,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "nav",
           "package": "clay",
@@ -12514,6 +13662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "noscript",
           "package": "clay",
@@ -12523,6 +13672,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "noscript",
           "package": "clay",
@@ -12535,6 +13685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "object",
           "package": "clay",
@@ -12544,6 +13695,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "object",
           "package": "clay",
@@ -12556,6 +13708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "ol",
           "package": "clay",
@@ -12565,6 +13718,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "ol",
           "package": "clay",
@@ -12577,6 +13731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "optgroup",
           "package": "clay",
@@ -12586,6 +13741,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "optgroup",
           "package": "clay",
@@ -12598,6 +13754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "option",
           "package": "clay",
@@ -12607,6 +13764,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "option",
           "package": "clay",
@@ -12619,6 +13777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "output",
           "package": "clay",
@@ -12628,6 +13787,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "output",
           "package": "clay",
@@ -12640,6 +13800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "p",
           "package": "clay",
@@ -12649,6 +13810,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "p",
           "package": "clay",
@@ -12661,6 +13823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "param",
           "package": "clay",
@@ -12670,6 +13833,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "param",
           "package": "clay",
@@ -12682,6 +13846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "pre",
           "package": "clay",
@@ -12691,6 +13856,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "pre",
           "package": "clay",
@@ -12703,6 +13869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "progress",
           "package": "clay",
@@ -12712,6 +13879,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "progress",
           "package": "clay",
@@ -12724,6 +13892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "q",
           "package": "clay",
@@ -12733,6 +13902,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "q",
           "package": "clay",
@@ -12745,6 +13915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "rp",
           "package": "clay",
@@ -12754,6 +13925,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "rp",
           "package": "clay",
@@ -12766,6 +13938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "rt",
           "package": "clay",
@@ -12775,6 +13948,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "rt",
           "package": "clay",
@@ -12787,6 +13961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "ruby",
           "package": "clay",
@@ -12796,6 +13971,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "ruby",
           "package": "clay",
@@ -12808,6 +13984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "s",
           "package": "clay",
@@ -12817,6 +13994,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "s",
           "package": "clay",
@@ -12829,6 +14007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "samp",
           "package": "clay",
@@ -12838,6 +14017,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "samp",
           "package": "clay",
@@ -12850,6 +14030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "script",
           "package": "clay",
@@ -12859,6 +14040,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "script",
           "package": "clay",
@@ -12871,6 +14053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "section",
           "package": "clay",
@@ -12880,6 +14063,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "section",
           "package": "clay",
@@ -12892,6 +14076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "select",
           "package": "clay",
@@ -12901,6 +14086,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "select",
           "package": "clay",
@@ -12913,6 +14099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "small",
           "package": "clay",
@@ -12922,6 +14109,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "small",
           "package": "clay",
@@ -12934,6 +14122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "source",
           "package": "clay",
@@ -12943,6 +14132,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "source",
           "package": "clay",
@@ -12956,6 +14146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial cases, these items occur both as an HTML tag and an HTML\n attribute. We keep them polymorph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "span",
           "package": "clay",
@@ -12966,6 +14157,7 @@
         "index": {
           "description": "Special cases these items occur both as an HTML tag and an HTML attribute We keep them polymorph",
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "span",
           "package": "clay",
@@ -12978,6 +14170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "strong",
           "package": "clay",
@@ -12987,6 +14180,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "strong",
           "package": "clay",
@@ -13000,6 +14194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial cases, these items occur both as an HTML tag and an HTML\n attribute. We keep them polymorph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "style",
           "package": "clay",
@@ -13010,6 +14205,7 @@
         "index": {
           "description": "Special cases these items occur both as an HTML tag and an HTML attribute We keep them polymorph",
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "style",
           "package": "clay",
@@ -13022,6 +14218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "sub",
           "package": "clay",
@@ -13031,6 +14228,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "sub",
           "package": "clay",
@@ -13043,6 +14241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "summary",
           "package": "clay",
@@ -13052,6 +14251,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "summary",
           "package": "clay",
@@ -13064,6 +14264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "sup",
           "package": "clay",
@@ -13073,6 +14274,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "sup",
           "package": "clay",
@@ -13085,6 +14287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "table",
           "package": "clay",
@@ -13094,6 +14297,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "table",
           "package": "clay",
@@ -13106,6 +14310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "tbody",
           "package": "clay",
@@ -13115,6 +14320,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "tbody",
           "package": "clay",
@@ -13127,6 +14333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "td",
           "package": "clay",
@@ -13136,6 +14343,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "td",
           "package": "clay",
@@ -13148,6 +14356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "textarea",
           "package": "clay",
@@ -13157,6 +14366,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "textarea",
           "package": "clay",
@@ -13169,6 +14379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "tfoot",
           "package": "clay",
@@ -13178,6 +14389,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "tfoot",
           "package": "clay",
@@ -13190,6 +14402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "th",
           "package": "clay",
@@ -13199,6 +14412,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "th",
           "package": "clay",
@@ -13211,6 +14425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "thead",
           "package": "clay",
@@ -13220,6 +14435,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "thead",
           "package": "clay",
@@ -13232,6 +14448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "time",
           "package": "clay",
@@ -13241,6 +14458,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "time",
           "package": "clay",
@@ -13254,6 +14472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial cases, these items occur both as an HTML tag and an HTML\n attribute. We keep them polymorph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "title",
           "package": "clay",
@@ -13264,6 +14483,7 @@
         "index": {
           "description": "Special cases these items occur both as an HTML tag and an HTML attribute We keep them polymorph",
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "title",
           "package": "clay",
@@ -13276,6 +14496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "tr",
           "package": "clay",
@@ -13285,6 +14506,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "tr",
           "package": "clay",
@@ -13297,6 +14519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "track",
           "package": "clay",
@@ -13306,6 +14529,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "track",
           "package": "clay",
@@ -13318,6 +14542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "u",
           "package": "clay",
@@ -13327,6 +14552,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "u",
           "package": "clay",
@@ -13339,6 +14565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "ul",
           "package": "clay",
@@ -13348,6 +14575,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "ul",
           "package": "clay",
@@ -13360,6 +14588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "var",
           "package": "clay",
@@ -13369,6 +14598,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "var",
           "package": "clay",
@@ -13381,6 +14611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "video",
           "package": "clay",
@@ -13390,6 +14621,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "video",
           "package": "clay",
@@ -13402,6 +14634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Elements",
           "name": "wbr",
           "package": "clay",
@@ -13411,6 +14644,7 @@
         },
         "index": {
           "hierarchy": "Clay Elements",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Elements",
           "name": "wbr",
           "package": "clay",
@@ -13423,6 +14657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Filter",
           "name": "Filter",
           "package": "clay",
@@ -13431,6 +14666,7 @@
         },
         "index": {
           "hierarchy": "Clay Filter",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Filter",
           "name": "Filter",
           "package": "clay",
@@ -13444,6 +14680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Filter",
           "name": "Filter",
           "package": "clay",
@@ -13452,6 +14689,7 @@
         },
         "index": {
           "hierarchy": "Clay Filter",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Filter",
           "name": "Filter",
           "package": "clay",
@@ -13465,6 +14703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Filter",
           "name": "blur",
           "package": "clay",
@@ -13474,6 +14713,7 @@
         },
         "index": {
           "hierarchy": "Clay Filter",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Filter",
           "name": "blur",
           "normalized": "Size Abs-\u003eFilter",
@@ -13488,6 +14728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Filter",
           "name": "brightness",
           "package": "clay",
@@ -13497,6 +14738,7 @@
         },
         "index": {
           "hierarchy": "Clay Filter",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Filter",
           "name": "brightness",
           "normalized": "Double-\u003eFilter",
@@ -13511,6 +14753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Filter",
           "name": "contrast",
           "package": "clay",
@@ -13520,6 +14763,7 @@
         },
         "index": {
           "hierarchy": "Clay Filter",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Filter",
           "name": "contrast",
           "normalized": "Size Rel-\u003eFilter",
@@ -13534,6 +14778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Filter",
           "name": "dropShadow",
           "package": "clay",
@@ -13543,6 +14788,7 @@
         },
         "index": {
           "hierarchy": "Clay Filter",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Filter",
           "name": "dropShadow",
           "normalized": "Size Abs-\u003eSize Abs-\u003eSize Abs-\u003eColor-\u003eFilter",
@@ -13558,6 +14804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Filter",
           "name": "filter",
           "package": "clay",
@@ -13567,6 +14814,7 @@
         },
         "index": {
           "hierarchy": "Clay Filter",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Filter",
           "name": "filter",
           "normalized": "Filter-\u003eCss",
@@ -13581,6 +14829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Filter",
           "name": "filters",
           "package": "clay",
@@ -13590,6 +14839,7 @@
         },
         "index": {
           "hierarchy": "Clay Filter",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Filter",
           "name": "filters",
           "normalized": "[Filter]-\u003eCss",
@@ -13604,6 +14854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Filter",
           "name": "grayscale",
           "package": "clay",
@@ -13613,6 +14864,7 @@
         },
         "index": {
           "hierarchy": "Clay Filter",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Filter",
           "name": "grayscale",
           "normalized": "Size Rel-\u003eFilter",
@@ -13627,6 +14879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Filter",
           "name": "hueRotate",
           "package": "clay",
@@ -13636,6 +14889,7 @@
         },
         "index": {
           "hierarchy": "Clay Filter",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Filter",
           "name": "hueRotate",
           "normalized": "Angle a-\u003eFilter",
@@ -13651,6 +14905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Filter",
           "name": "invert",
           "package": "clay",
@@ -13660,6 +14915,7 @@
         },
         "index": {
           "hierarchy": "Clay Filter",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Filter",
           "name": "invert",
           "normalized": "Size Rel-\u003eFilter",
@@ -13674,6 +14930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Filter",
           "name": "opacity",
           "package": "clay",
@@ -13683,6 +14940,7 @@
         },
         "index": {
           "hierarchy": "Clay Filter",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Filter",
           "name": "opacity",
           "normalized": "Size Rel-\u003eFilter",
@@ -13697,6 +14955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Filter",
           "name": "saturate",
           "package": "clay",
@@ -13706,6 +14965,7 @@
         },
         "index": {
           "hierarchy": "Clay Filter",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Filter",
           "name": "saturate",
           "normalized": "Size Rel-\u003eFilter",
@@ -13720,6 +14980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Filter",
           "name": "sepia",
           "package": "clay",
@@ -13729,6 +14990,7 @@
         },
         "index": {
           "hierarchy": "Clay Filter",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Filter",
           "name": "sepia",
           "normalized": "Size Rel-\u003eFilter",
@@ -13743,6 +15005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Filter",
           "name": "url",
           "package": "clay",
@@ -13752,6 +15015,7 @@
         },
         "index": {
           "hierarchy": "Clay Filter",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Filter",
           "name": "url",
           "normalized": "Text-\u003eFilter",
@@ -13766,6 +15030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "Font",
           "package": "clay",
@@ -13774,6 +15039,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "Font",
           "package": "clay",
@@ -13788,6 +15054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe implement the generic font property as a type class that accepts\n multiple value types. This allows us to combine different font aspects into\n a shorthand syntax. Fonts require a mandatory part and have a optional a\n part.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.w3.org/TR/css3-fonts/#font-prop\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "Font",
           "package": "clay",
@@ -13797,6 +15064,7 @@
         "index": {
           "description": "We implement the generic font property as type class that accepts multiple value types This allows us to combine different font aspects into shorthand syntax Fonts require mandatory part and have optional part http www.w3.org TR css3-fonts font-prop",
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "Font",
           "package": "clay",
@@ -13810,6 +15078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "FontSize",
           "package": "clay",
@@ -13818,6 +15087,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "FontSize",
           "package": "clay",
@@ -13831,6 +15101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "FontStyle",
           "package": "clay",
@@ -13839,6 +15110,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "FontStyle",
           "package": "clay",
@@ -13852,6 +15124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "FontVariant",
           "package": "clay",
@@ -13860,6 +15133,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "FontVariant",
           "package": "clay",
@@ -13873,6 +15147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "FontWeight",
           "package": "clay",
@@ -13881,6 +15156,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "FontWeight",
           "package": "clay",
@@ -13894,6 +15170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "NamedFont",
           "package": "clay",
@@ -13902,6 +15179,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "NamedFont",
           "package": "clay",
@@ -13915,6 +15193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "Optional",
           "package": "clay",
@@ -13923,6 +15202,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "Optional",
           "package": "clay",
@@ -13936,6 +15216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "Required",
           "package": "clay",
@@ -13944,6 +15225,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "Required",
           "package": "clay",
@@ -13957,6 +15239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "Optional",
           "package": "clay",
@@ -13966,6 +15249,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "Optional",
           "package": "clay",
@@ -13979,6 +15263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "Required",
           "package": "clay",
@@ -13988,6 +15273,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "Required",
           "normalized": "Required(Size a)(Maybe(Size a))[Text][GenericFontFamily]",
@@ -14003,6 +15289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "bold",
           "package": "clay",
@@ -14012,6 +15299,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "bold",
           "package": "clay",
@@ -14024,6 +15312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "bolder",
           "package": "clay",
@@ -14033,6 +15322,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "bolder",
           "package": "clay",
@@ -14045,6 +15335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "caption",
           "package": "clay",
@@ -14054,6 +15345,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "caption",
           "package": "clay",
@@ -14066,6 +15358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "color",
           "package": "clay",
@@ -14075,6 +15368,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "color",
           "normalized": "Color-\u003eCss",
@@ -14089,6 +15383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "cursive",
           "package": "clay",
@@ -14098,6 +15393,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "cursive",
           "package": "clay",
@@ -14110,6 +15406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "fantasy",
           "package": "clay",
@@ -14119,6 +15416,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "fantasy",
           "package": "clay",
@@ -14131,6 +15429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "font",
           "package": "clay",
@@ -14140,6 +15439,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "font",
           "normalized": "a-\u003eCss",
@@ -14155,6 +15455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "fontColor",
           "package": "clay",
@@ -14165,6 +15466,7 @@
         "index": {
           "description": "An alias for color",
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "fontColor",
           "normalized": "Color-\u003eCss",
@@ -14181,6 +15483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003efontFamily\u003c/a\u003e\u003c/code\u003e style rules takes to lists of font families: zero or more\n custom font-families and preferably one or more generic font families.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "fontFamily",
           "package": "clay",
@@ -14191,6 +15494,7 @@
         "index": {
           "description": "The fontFamily style rules takes to lists of font families zero or more custom font-families and preferably one or more generic font families",
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "fontFamily",
           "normalized": "[Text]-\u003e[GenericFontFamily]-\u003eCss",
@@ -14206,6 +15510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "fontSize",
           "package": "clay",
@@ -14215,6 +15520,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "fontSize",
           "normalized": "Size a-\u003eCss",
@@ -14230,6 +15536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "fontSizeCustom",
           "package": "clay",
@@ -14239,6 +15546,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "fontSizeCustom",
           "normalized": "FontSize-\u003eCss",
@@ -14254,6 +15562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "fontStyle",
           "package": "clay",
@@ -14263,6 +15572,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "fontStyle",
           "normalized": "FontStyle-\u003eCss",
@@ -14278,6 +15588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "fontVariant",
           "package": "clay",
@@ -14287,6 +15598,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "fontVariant",
           "normalized": "FontVariant-\u003eCss",
@@ -14302,6 +15614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "fontWeight",
           "package": "clay",
@@ -14311,6 +15624,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "fontWeight",
           "normalized": "FontWeight-\u003eCss",
@@ -14326,6 +15640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "icon",
           "package": "clay",
@@ -14335,6 +15650,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "icon",
           "package": "clay",
@@ -14347,6 +15663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "italic",
           "package": "clay",
@@ -14356,6 +15673,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "italic",
           "package": "clay",
@@ -14368,6 +15686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "large",
           "package": "clay",
@@ -14377,6 +15696,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "large",
           "package": "clay",
@@ -14389,6 +15709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "larger",
           "package": "clay",
@@ -14398,6 +15719,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "larger",
           "package": "clay",
@@ -14410,6 +15732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "lighter",
           "package": "clay",
@@ -14419,6 +15742,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "lighter",
           "package": "clay",
@@ -14431,6 +15755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "lineHeight",
           "package": "clay",
@@ -14440,6 +15765,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "lineHeight",
           "normalized": "Size a-\u003eCss",
@@ -14455,6 +15781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "medium",
           "package": "clay",
@@ -14464,6 +15791,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "medium",
           "package": "clay",
@@ -14476,6 +15804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "menu",
           "package": "clay",
@@ -14485,6 +15814,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "menu",
           "package": "clay",
@@ -14497,6 +15827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "messageBox",
           "package": "clay",
@@ -14506,6 +15837,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "messageBox",
           "package": "clay",
@@ -14519,6 +15851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "monospace",
           "package": "clay",
@@ -14528,6 +15861,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "monospace",
           "package": "clay",
@@ -14540,6 +15874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "oblique",
           "package": "clay",
@@ -14549,6 +15884,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "oblique",
           "package": "clay",
@@ -14561,6 +15897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "sansSerif",
           "package": "clay",
@@ -14570,6 +15907,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "sansSerif",
           "package": "clay",
@@ -14583,6 +15921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "serif",
           "package": "clay",
@@ -14592,6 +15931,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "serif",
           "package": "clay",
@@ -14604,6 +15944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "small",
           "package": "clay",
@@ -14613,6 +15954,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "small",
           "package": "clay",
@@ -14625,6 +15967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "smallCaps",
           "package": "clay",
@@ -14634,6 +15977,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "smallCaps",
           "package": "clay",
@@ -14647,6 +15991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "smallCaption",
           "package": "clay",
@@ -14656,6 +16001,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "smallCaption",
           "package": "clay",
@@ -14669,6 +16015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "smaller",
           "package": "clay",
@@ -14678,6 +16025,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "smaller",
           "package": "clay",
@@ -14690,6 +16038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "statusBar",
           "package": "clay",
@@ -14699,6 +16048,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "statusBar",
           "package": "clay",
@@ -14712,6 +16062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "weight",
           "package": "clay",
@@ -14721,6 +16072,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "weight",
           "normalized": "Integer-\u003eFontWeight",
@@ -14735,6 +16087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "xLarge",
           "package": "clay",
@@ -14744,6 +16097,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "xLarge",
           "package": "clay",
@@ -14757,6 +16111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "xSmall",
           "package": "clay",
@@ -14766,6 +16121,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "xSmall",
           "package": "clay",
@@ -14779,6 +16135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "xxLarge",
           "package": "clay",
@@ -14788,6 +16145,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "xxLarge",
           "package": "clay",
@@ -14801,6 +16159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Font",
           "name": "xxSmall",
           "package": "clay",
@@ -14810,6 +16169,7 @@
         },
         "index": {
           "hierarchy": "Clay Font",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Font",
           "name": "xxSmall",
           "package": "clay",
@@ -14823,6 +16183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.FontFace",
           "name": "FontFace",
           "package": "clay",
@@ -14831,6 +16192,7 @@
         },
         "index": {
           "hierarchy": "Clay FontFace",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.FontFace",
           "name": "FontFace",
           "package": "clay",
@@ -14844,6 +16206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.FontFace",
           "name": "FontFaceFormat",
           "package": "clay",
@@ -14852,6 +16215,7 @@
         },
         "index": {
           "hierarchy": "Clay FontFace",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.FontFace",
           "name": "FontFaceFormat",
           "package": "clay",
@@ -14865,6 +16229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.FontFace",
           "name": "FontFaceSrc",
           "package": "clay",
@@ -14873,6 +16238,7 @@
         },
         "index": {
           "hierarchy": "Clay FontFace",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.FontFace",
           "name": "FontFaceSrc",
           "package": "clay",
@@ -14886,6 +16252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.FontFace",
           "name": "EmbeddedOpenType",
           "package": "clay",
@@ -14895,6 +16262,7 @@
         },
         "index": {
           "hierarchy": "Clay FontFace",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.FontFace",
           "name": "EmbeddedOpenType",
           "package": "clay",
@@ -14908,6 +16276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.FontFace",
           "name": "FontFaceSrcLocal",
           "package": "clay",
@@ -14917,6 +16286,7 @@
         },
         "index": {
           "hierarchy": "Clay FontFace",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.FontFace",
           "name": "FontFaceSrcLocal",
           "package": "clay",
@@ -14930,6 +16300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.FontFace",
           "name": "FontFaceSrcUrl",
           "package": "clay",
@@ -14939,6 +16310,7 @@
         },
         "index": {
           "hierarchy": "Clay FontFace",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.FontFace",
           "name": "FontFaceSrcUrl",
           "package": "clay",
@@ -14952,6 +16324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.FontFace",
           "name": "OpenType",
           "package": "clay",
@@ -14961,6 +16334,7 @@
         },
         "index": {
           "hierarchy": "Clay FontFace",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.FontFace",
           "name": "OpenType",
           "package": "clay",
@@ -14974,6 +16348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.FontFace",
           "name": "SVG",
           "package": "clay",
@@ -14983,6 +16358,7 @@
         },
         "index": {
           "hierarchy": "Clay FontFace",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.FontFace",
           "name": "SVG",
           "package": "clay",
@@ -14996,6 +16372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.FontFace",
           "name": "TrueType",
           "package": "clay",
@@ -15005,6 +16382,7 @@
         },
         "index": {
           "hierarchy": "Clay FontFace",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.FontFace",
           "name": "TrueType",
           "package": "clay",
@@ -15018,6 +16396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.FontFace",
           "name": "WOFF",
           "package": "clay",
@@ -15027,6 +16406,7 @@
         },
         "index": {
           "hierarchy": "Clay FontFace",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.FontFace",
           "name": "WOFF",
           "package": "clay",
@@ -15040,6 +16420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.FontFace",
           "name": "fontFaceSrc",
           "package": "clay",
@@ -15049,6 +16430,7 @@
         },
         "index": {
           "hierarchy": "Clay FontFace",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.FontFace",
           "name": "fontFaceSrc",
           "normalized": "[FontFaceSrc]-\u003eCss",
@@ -15064,6 +16446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Geometry",
           "name": "Geometry",
           "package": "clay",
@@ -15072,6 +16455,7 @@
         },
         "index": {
           "hierarchy": "Clay Geometry",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Geometry",
           "name": "Geometry",
           "package": "clay",
@@ -15085,6 +16469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Geometry",
           "name": "bottom",
           "package": "clay",
@@ -15094,6 +16479,7 @@
         },
         "index": {
           "hierarchy": "Clay Geometry",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Geometry",
           "name": "bottom",
           "normalized": "Size Abs-\u003eCss",
@@ -15108,6 +16494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Geometry",
           "name": "height",
           "package": "clay",
@@ -15117,6 +16504,7 @@
         },
         "index": {
           "hierarchy": "Clay Geometry",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Geometry",
           "name": "height",
           "normalized": "Size a-\u003eCss",
@@ -15131,6 +16519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Geometry",
           "name": "left",
           "package": "clay",
@@ -15140,6 +16529,7 @@
         },
         "index": {
           "hierarchy": "Clay Geometry",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Geometry",
           "name": "left",
           "normalized": "Size Abs-\u003eCss",
@@ -15154,6 +16544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Geometry",
           "name": "margin",
           "package": "clay",
@@ -15163,6 +16554,7 @@
         },
         "index": {
           "hierarchy": "Clay Geometry",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Geometry",
           "name": "margin",
           "normalized": "Size Abs-\u003eSize Abs-\u003eSize Abs-\u003eSize Abs-\u003eCss",
@@ -15177,6 +16569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Geometry",
           "name": "marginBottom",
           "package": "clay",
@@ -15186,6 +16579,7 @@
         },
         "index": {
           "hierarchy": "Clay Geometry",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Geometry",
           "name": "marginBottom",
           "normalized": "Size Abs-\u003eCss",
@@ -15201,6 +16595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Geometry",
           "name": "marginLeft",
           "package": "clay",
@@ -15210,6 +16605,7 @@
         },
         "index": {
           "hierarchy": "Clay Geometry",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Geometry",
           "name": "marginLeft",
           "normalized": "Size Abs-\u003eCss",
@@ -15225,6 +16621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Geometry",
           "name": "marginRight",
           "package": "clay",
@@ -15234,6 +16631,7 @@
         },
         "index": {
           "hierarchy": "Clay Geometry",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Geometry",
           "name": "marginRight",
           "normalized": "Size Abs-\u003eCss",
@@ -15249,6 +16647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Geometry",
           "name": "marginTop",
           "package": "clay",
@@ -15258,6 +16657,7 @@
         },
         "index": {
           "hierarchy": "Clay Geometry",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Geometry",
           "name": "marginTop",
           "normalized": "Size Abs-\u003eCss",
@@ -15273,6 +16673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Geometry",
           "name": "maxHeight",
           "package": "clay",
@@ -15282,6 +16683,7 @@
         },
         "index": {
           "hierarchy": "Clay Geometry",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Geometry",
           "name": "maxHeight",
           "normalized": "Size a-\u003eCss",
@@ -15297,6 +16699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Geometry",
           "name": "maxWidth",
           "package": "clay",
@@ -15306,6 +16709,7 @@
         },
         "index": {
           "hierarchy": "Clay Geometry",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Geometry",
           "name": "maxWidth",
           "normalized": "Size a-\u003eCss",
@@ -15321,6 +16725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Geometry",
           "name": "minHeight",
           "package": "clay",
@@ -15330,6 +16735,7 @@
         },
         "index": {
           "hierarchy": "Clay Geometry",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Geometry",
           "name": "minHeight",
           "normalized": "Size a-\u003eCss",
@@ -15345,6 +16751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Geometry",
           "name": "minWidth",
           "package": "clay",
@@ -15354,6 +16761,7 @@
         },
         "index": {
           "hierarchy": "Clay Geometry",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Geometry",
           "name": "minWidth",
           "normalized": "Size a-\u003eCss",
@@ -15369,6 +16777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Geometry",
           "name": "padding",
           "package": "clay",
@@ -15378,6 +16787,7 @@
         },
         "index": {
           "hierarchy": "Clay Geometry",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Geometry",
           "name": "padding",
           "normalized": "Size Abs-\u003eSize Abs-\u003eSize Abs-\u003eSize Abs-\u003eCss",
@@ -15392,6 +16802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Geometry",
           "name": "paddingBottom",
           "package": "clay",
@@ -15401,6 +16812,7 @@
         },
         "index": {
           "hierarchy": "Clay Geometry",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Geometry",
           "name": "paddingBottom",
           "normalized": "Size Abs-\u003eCss",
@@ -15416,6 +16828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Geometry",
           "name": "paddingLeft",
           "package": "clay",
@@ -15425,6 +16838,7 @@
         },
         "index": {
           "hierarchy": "Clay Geometry",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Geometry",
           "name": "paddingLeft",
           "normalized": "Size Abs-\u003eCss",
@@ -15440,6 +16854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Geometry",
           "name": "paddingRight",
           "package": "clay",
@@ -15449,6 +16864,7 @@
         },
         "index": {
           "hierarchy": "Clay Geometry",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Geometry",
           "name": "paddingRight",
           "normalized": "Size Abs-\u003eCss",
@@ -15464,6 +16880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Geometry",
           "name": "paddingTop",
           "package": "clay",
@@ -15473,6 +16890,7 @@
         },
         "index": {
           "hierarchy": "Clay Geometry",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Geometry",
           "name": "paddingTop",
           "normalized": "Size Abs-\u003eCss",
@@ -15488,6 +16906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Geometry",
           "name": "right",
           "package": "clay",
@@ -15497,6 +16916,7 @@
         },
         "index": {
           "hierarchy": "Clay Geometry",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Geometry",
           "name": "right",
           "normalized": "Size Abs-\u003eCss",
@@ -15511,6 +16931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Geometry",
           "name": "size",
           "package": "clay",
@@ -15520,6 +16941,7 @@
         },
         "index": {
           "hierarchy": "Clay Geometry",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Geometry",
           "name": "size",
           "normalized": "Size Abs-\u003eCss",
@@ -15534,6 +16956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Geometry",
           "name": "top",
           "package": "clay",
@@ -15543,6 +16966,7 @@
         },
         "index": {
           "hierarchy": "Clay Geometry",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Geometry",
           "name": "top",
           "normalized": "Size Abs-\u003eCss",
@@ -15557,6 +16981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Geometry",
           "name": "width",
           "package": "clay",
@@ -15566,6 +16991,7 @@
         },
         "index": {
           "hierarchy": "Clay Geometry",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Geometry",
           "name": "width",
           "normalized": "Size a-\u003eCss",
@@ -15580,6 +17006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Gradient",
           "name": "Gradient",
           "package": "clay",
@@ -15588,6 +17015,7 @@
         },
         "index": {
           "hierarchy": "Clay Gradient",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Gradient",
           "name": "Gradient",
           "package": "clay",
@@ -15601,6 +17029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Gradient",
           "name": "Extend",
           "package": "clay",
@@ -15609,6 +17038,7 @@
         },
         "index": {
           "hierarchy": "Clay Gradient",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Gradient",
           "name": "Extend",
           "package": "clay",
@@ -15622,6 +17052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Gradient",
           "name": "Radial",
           "package": "clay",
@@ -15630,6 +17061,7 @@
         },
         "index": {
           "hierarchy": "Clay Gradient",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Gradient",
           "name": "Radial",
           "package": "clay",
@@ -15643,6 +17075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Gradient",
           "name": "Ramp",
           "package": "clay",
@@ -15651,6 +17084,7 @@
         },
         "index": {
           "hierarchy": "Clay Gradient",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Gradient",
           "name": "Ramp",
           "package": "clay",
@@ -15664,6 +17098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Gradient",
           "name": "circle",
           "package": "clay",
@@ -15673,6 +17108,7 @@
         },
         "index": {
           "hierarchy": "Clay Gradient",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Gradient",
           "name": "circle",
           "normalized": "Extend-\u003eRadial",
@@ -15687,6 +17123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Gradient",
           "name": "circular",
           "package": "clay",
@@ -15696,6 +17133,7 @@
         },
         "index": {
           "hierarchy": "Clay Gradient",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Gradient",
           "name": "circular",
           "normalized": "Size Abs-\u003eRadial",
@@ -15710,6 +17148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Gradient",
           "name": "closestCorner",
           "package": "clay",
@@ -15719,6 +17158,7 @@
         },
         "index": {
           "hierarchy": "Clay Gradient",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Gradient",
           "name": "closestCorner",
           "package": "clay",
@@ -15732,6 +17172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Gradient",
           "name": "closestSide",
           "package": "clay",
@@ -15741,6 +17182,7 @@
         },
         "index": {
           "hierarchy": "Clay Gradient",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Gradient",
           "name": "closestSide",
           "package": "clay",
@@ -15754,6 +17196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Gradient",
           "name": "ellipse",
           "package": "clay",
@@ -15763,6 +17206,7 @@
         },
         "index": {
           "hierarchy": "Clay Gradient",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Gradient",
           "name": "ellipse",
           "normalized": "Extend-\u003eRadial",
@@ -15777,6 +17221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Gradient",
           "name": "elliptical",
           "package": "clay",
@@ -15786,6 +17231,7 @@
         },
         "index": {
           "hierarchy": "Clay Gradient",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Gradient",
           "name": "elliptical",
           "normalized": "Size a-\u003eSize a-\u003eRadial",
@@ -15800,6 +17246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Gradient",
           "name": "farthestCorner",
           "package": "clay",
@@ -15809,6 +17256,7 @@
         },
         "index": {
           "hierarchy": "Clay Gradient",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Gradient",
           "name": "farthestCorner",
           "package": "clay",
@@ -15822,6 +17270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Gradient",
           "name": "farthestSide",
           "package": "clay",
@@ -15831,6 +17280,7 @@
         },
         "index": {
           "hierarchy": "Clay Gradient",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Gradient",
           "name": "farthestSide",
           "package": "clay",
@@ -15844,6 +17294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Gradient",
           "name": "hGradient",
           "package": "clay",
@@ -15853,6 +17304,7 @@
         },
         "index": {
           "hierarchy": "Clay Gradient",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Gradient",
           "name": "hGradient",
           "normalized": "Color-\u003eColor-\u003eBackgroundImage",
@@ -15868,6 +17320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Gradient",
           "name": "hRepeatingGradient",
           "package": "clay",
@@ -15877,6 +17330,7 @@
         },
         "index": {
           "hierarchy": "Clay Gradient",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Gradient",
           "name": "hRepeatingGradient",
           "normalized": "Color-\u003eColor-\u003eBackgroundImage",
@@ -15892,6 +17346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Gradient",
           "name": "linearGradient",
           "package": "clay",
@@ -15901,6 +17356,7 @@
         },
         "index": {
           "hierarchy": "Clay Gradient",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Gradient",
           "name": "linearGradient",
           "normalized": "Direction-\u003eRamp-\u003eBackgroundImage",
@@ -15916,6 +17372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Gradient",
           "name": "radialGradient",
           "package": "clay",
@@ -15925,6 +17382,7 @@
         },
         "index": {
           "hierarchy": "Clay Gradient",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Gradient",
           "name": "radialGradient",
           "normalized": "a-\u003eRadial-\u003eRamp-\u003eBackgroundImage",
@@ -15940,6 +17398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Gradient",
           "name": "repeatingLinearGradient",
           "package": "clay",
@@ -15949,6 +17408,7 @@
         },
         "index": {
           "hierarchy": "Clay Gradient",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Gradient",
           "name": "repeatingLinearGradient",
           "normalized": "Direction-\u003eRamp-\u003eBackgroundImage",
@@ -15964,6 +17424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Gradient",
           "name": "repeatingRadialGradient",
           "package": "clay",
@@ -15973,6 +17434,7 @@
         },
         "index": {
           "hierarchy": "Clay Gradient",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Gradient",
           "name": "repeatingRadialGradient",
           "normalized": "a-\u003eRadial-\u003eRamp-\u003eBackgroundImage",
@@ -15988,6 +17450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Gradient",
           "name": "vGradient",
           "package": "clay",
@@ -15997,6 +17460,7 @@
         },
         "index": {
           "hierarchy": "Clay Gradient",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Gradient",
           "name": "vGradient",
           "normalized": "Color-\u003eColor-\u003eBackgroundImage",
@@ -16012,6 +17476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Gradient",
           "name": "vRepeatingGradient",
           "package": "clay",
@@ -16021,6 +17486,7 @@
         },
         "index": {
           "hierarchy": "Clay Gradient",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Gradient",
           "name": "vRepeatingGradient",
           "normalized": "Color-\u003eColor-\u003eBackgroundImage",
@@ -16036,6 +17502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "Mask",
           "package": "clay",
@@ -16044,6 +17511,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "Mask",
           "package": "clay",
@@ -16058,6 +17526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe implement the generic mask property as a type class that accepts\n multiple value types. This allows us to combine different mask aspects into\n a shorthand syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "Mask",
           "package": "clay",
@@ -16067,6 +17536,7 @@
         "index": {
           "description": "We implement the generic mask property as type class that accepts multiple value types This allows us to combine different mask aspects into shorthand syntax",
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "Mask",
           "package": "clay",
@@ -16080,6 +17550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "MaskComposite",
           "package": "clay",
@@ -16088,6 +17559,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "MaskComposite",
           "package": "clay",
@@ -16101,6 +17573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "clear",
           "package": "clay",
@@ -16110,6 +17583,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "clear",
           "package": "clay",
@@ -16122,6 +17596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "copy",
           "package": "clay",
@@ -16131,6 +17606,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "copy",
           "package": "clay",
@@ -16143,6 +17619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "destinationAtop",
           "package": "clay",
@@ -16152,6 +17629,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "destinationAtop",
           "package": "clay",
@@ -16165,6 +17643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "destinationIn",
           "package": "clay",
@@ -16174,6 +17653,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "destinationIn",
           "package": "clay",
@@ -16187,6 +17667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "destinationOut",
           "package": "clay",
@@ -16196,6 +17677,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "destinationOut",
           "package": "clay",
@@ -16209,6 +17691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "destinationOver",
           "package": "clay",
@@ -16218,6 +17701,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "destinationOver",
           "package": "clay",
@@ -16231,6 +17715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "mask",
           "package": "clay",
@@ -16240,6 +17725,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "mask",
           "normalized": "a-\u003eCss",
@@ -16254,6 +17740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "maskAttachment",
           "package": "clay",
@@ -16263,6 +17750,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "maskAttachment",
           "normalized": "BackgroundAttachment-\u003eCss",
@@ -16278,6 +17766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "maskAttachments",
           "package": "clay",
@@ -16287,6 +17776,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "maskAttachments",
           "normalized": "[BackgroundAttachment]-\u003eCss",
@@ -16302,6 +17792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "maskClip",
           "package": "clay",
@@ -16311,6 +17802,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "maskClip",
           "normalized": "BackgroundClip-\u003eCss",
@@ -16326,6 +17818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "maskClips",
           "package": "clay",
@@ -16335,6 +17828,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "maskClips",
           "normalized": "[BackgroundClip]-\u003eCss",
@@ -16350,6 +17844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "maskComposite",
           "package": "clay",
@@ -16359,6 +17854,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "maskComposite",
           "normalized": "MaskComposite-\u003eCss",
@@ -16374,6 +17870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "maskComposites",
           "package": "clay",
@@ -16383,6 +17880,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "maskComposites",
           "normalized": "[MaskComposite]-\u003eCss",
@@ -16398,6 +17896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "maskImage",
           "package": "clay",
@@ -16407,6 +17906,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "maskImage",
           "normalized": "BackgroundImage-\u003eCss",
@@ -16422,6 +17922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "maskImages",
           "package": "clay",
@@ -16431,6 +17932,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "maskImages",
           "normalized": "[BackgroundImage]-\u003eCss",
@@ -16446,6 +17948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "maskOrigin",
           "package": "clay",
@@ -16455,6 +17958,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "maskOrigin",
           "normalized": "BackgroundOrigin-\u003eCss",
@@ -16470,6 +17974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "maskOrigins",
           "package": "clay",
@@ -16479,6 +17984,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "maskOrigins",
           "normalized": "[BackgroundOrigin]-\u003eCss",
@@ -16494,6 +18000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "maskPosition",
           "package": "clay",
@@ -16503,6 +18010,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "maskPosition",
           "normalized": "BackgroundPosition-\u003eCss",
@@ -16518,6 +18026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "maskPositions",
           "package": "clay",
@@ -16527,6 +18036,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "maskPositions",
           "normalized": "[BackgroundPosition]-\u003eCss",
@@ -16542,6 +18052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "maskRepeat",
           "package": "clay",
@@ -16551,6 +18062,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "maskRepeat",
           "normalized": "BackgroundRepeat-\u003eCss",
@@ -16566,6 +18078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "maskRepeats",
           "package": "clay",
@@ -16575,6 +18088,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "maskRepeats",
           "normalized": "[BackgroundRepeat]-\u003eCss",
@@ -16590,6 +18104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "maskSize",
           "package": "clay",
@@ -16599,6 +18114,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "maskSize",
           "normalized": "BackgroundSize-\u003eCss",
@@ -16614,6 +18130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "maskSizes",
           "package": "clay",
@@ -16623,6 +18140,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "maskSizes",
           "normalized": "[BackgroundSize]-\u003eCss",
@@ -16638,6 +18156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "sourceAtop",
           "package": "clay",
@@ -16647,6 +18166,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "sourceAtop",
           "package": "clay",
@@ -16660,6 +18180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "sourceIn",
           "package": "clay",
@@ -16669,6 +18190,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "sourceIn",
           "package": "clay",
@@ -16682,6 +18204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "sourceOut",
           "package": "clay",
@@ -16691,6 +18214,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "sourceOut",
           "package": "clay",
@@ -16704,6 +18228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "sourceOver",
           "package": "clay",
@@ -16713,6 +18238,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "sourceOver",
           "package": "clay",
@@ -16726,6 +18252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Mask",
           "name": "xor",
           "package": "clay",
@@ -16735,6 +18262,7 @@
         },
         "index": {
           "hierarchy": "Clay Mask",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Mask",
           "name": "xor",
           "package": "clay",
@@ -16747,6 +18275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "Media",
           "package": "clay",
@@ -16755,6 +18284,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "Media",
           "package": "clay",
@@ -16768,6 +18298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "Resolution",
           "package": "clay",
@@ -16776,6 +18307,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "Resolution",
           "package": "clay",
@@ -16789,6 +18321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "aspectRatio",
           "package": "clay",
@@ -16798,6 +18331,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "aspectRatio",
           "normalized": "(Integer,Integer)-\u003eFeature",
@@ -16813,6 +18347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "aural",
           "package": "clay",
@@ -16822,6 +18357,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "aural",
           "package": "clay",
@@ -16834,6 +18370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "braille",
           "package": "clay",
@@ -16843,6 +18380,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "braille",
           "package": "clay",
@@ -16855,6 +18393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "color",
           "package": "clay",
@@ -16864,6 +18403,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "color",
           "package": "clay",
@@ -16876,6 +18416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "colorIndex",
           "package": "clay",
@@ -16885,6 +18426,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "colorIndex",
           "normalized": "Integer-\u003eFeature",
@@ -16900,6 +18442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "deviceAspectRatio",
           "package": "clay",
@@ -16909,6 +18452,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "deviceAspectRatio",
           "normalized": "(Integer,Integer)-\u003eFeature",
@@ -16924,6 +18468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "deviceHeight",
           "package": "clay",
@@ -16933,6 +18478,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "deviceHeight",
           "normalized": "Size Abs-\u003eFeature",
@@ -16948,6 +18494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "deviceWidth",
           "package": "clay",
@@ -16957,6 +18504,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "deviceWidth",
           "normalized": "Size Abs-\u003eFeature",
@@ -16972,6 +18520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "dpi",
           "package": "clay",
@@ -16981,6 +18530,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "dpi",
           "normalized": "Integer-\u003eResolution",
@@ -16995,6 +18545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "dppx",
           "package": "clay",
@@ -17004,6 +18555,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "dppx",
           "normalized": "Integer-\u003eResolution",
@@ -17018,6 +18570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "embossed",
           "package": "clay",
@@ -17027,6 +18580,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "embossed",
           "package": "clay",
@@ -17039,6 +18593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "grid",
           "package": "clay",
@@ -17048,6 +18603,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "grid",
           "package": "clay",
@@ -17060,6 +18616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "handheld",
           "package": "clay",
@@ -17069,6 +18626,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "handheld",
           "package": "clay",
@@ -17081,6 +18639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "height",
           "package": "clay",
@@ -17090,6 +18649,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "height",
           "normalized": "Size Abs-\u003eFeature",
@@ -17104,6 +18664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "maxAspectRatio",
           "package": "clay",
@@ -17113,6 +18674,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "maxAspectRatio",
           "normalized": "(Integer,Integer)-\u003eFeature",
@@ -17128,6 +18690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "maxColor",
           "package": "clay",
@@ -17137,6 +18700,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "maxColor",
           "normalized": "Integer-\u003eFeature",
@@ -17152,6 +18716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "maxColorIndex",
           "package": "clay",
@@ -17161,6 +18726,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "maxColorIndex",
           "normalized": "Integer-\u003eFeature",
@@ -17176,6 +18742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "maxDeviceAspectRatio",
           "package": "clay",
@@ -17185,6 +18752,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "maxDeviceAspectRatio",
           "normalized": "(Integer,Integer)-\u003eFeature",
@@ -17200,6 +18768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "maxDeviceHeight",
           "package": "clay",
@@ -17209,6 +18778,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "maxDeviceHeight",
           "normalized": "Size Abs-\u003eFeature",
@@ -17224,6 +18794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "maxDeviceWidth",
           "package": "clay",
@@ -17233,6 +18804,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "maxDeviceWidth",
           "normalized": "Size Abs-\u003eFeature",
@@ -17248,6 +18820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "maxHeight",
           "package": "clay",
@@ -17257,6 +18830,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "maxHeight",
           "normalized": "Size Abs-\u003eFeature",
@@ -17272,6 +18846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "maxMonochrome",
           "package": "clay",
@@ -17281,6 +18856,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "maxMonochrome",
           "normalized": "Integer-\u003eFeature",
@@ -17296,6 +18872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "maxResolution",
           "package": "clay",
@@ -17305,6 +18882,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "maxResolution",
           "normalized": "a-\u003eFeature",
@@ -17320,6 +18898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "maxWidth",
           "package": "clay",
@@ -17329,6 +18908,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "maxWidth",
           "normalized": "Size Abs-\u003eFeature",
@@ -17344,6 +18924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "minAspectRatio",
           "package": "clay",
@@ -17353,6 +18934,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "minAspectRatio",
           "normalized": "(Integer,Integer)-\u003eFeature",
@@ -17368,6 +18950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "minColor",
           "package": "clay",
@@ -17377,6 +18960,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "minColor",
           "normalized": "Integer-\u003eFeature",
@@ -17392,6 +18976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "minColorIndex",
           "package": "clay",
@@ -17401,6 +18986,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "minColorIndex",
           "normalized": "Integer-\u003eFeature",
@@ -17416,6 +19002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "minDeviceAspectRatio",
           "package": "clay",
@@ -17425,6 +19012,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "minDeviceAspectRatio",
           "normalized": "(Integer,Integer)-\u003eFeature",
@@ -17440,6 +19028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "minDeviceHeight",
           "package": "clay",
@@ -17449,6 +19038,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "minDeviceHeight",
           "normalized": "Size Abs-\u003eFeature",
@@ -17464,6 +19054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "minDeviceWidth",
           "package": "clay",
@@ -17473,6 +19064,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "minDeviceWidth",
           "normalized": "Size Abs-\u003eFeature",
@@ -17488,6 +19080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "minHeight",
           "package": "clay",
@@ -17497,6 +19090,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "minHeight",
           "normalized": "Size Abs-\u003eFeature",
@@ -17512,6 +19106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "minMonochrome",
           "package": "clay",
@@ -17521,6 +19116,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "minMonochrome",
           "normalized": "Integer-\u003eFeature",
@@ -17536,6 +19132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "minResolution",
           "package": "clay",
@@ -17545,6 +19142,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "minResolution",
           "normalized": "a-\u003eFeature",
@@ -17560,6 +19158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "minWidth",
           "package": "clay",
@@ -17569,6 +19168,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "minWidth",
           "normalized": "Size Abs-\u003eFeature",
@@ -17584,6 +19184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "monochrome",
           "package": "clay",
@@ -17593,6 +19194,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "monochrome",
           "package": "clay",
@@ -17605,6 +19207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "print",
           "package": "clay",
@@ -17614,6 +19217,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "print",
           "package": "clay",
@@ -17626,6 +19230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "projection",
           "package": "clay",
@@ -17635,6 +19240,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "projection",
           "package": "clay",
@@ -17647,6 +19253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "resolution",
           "package": "clay",
@@ -17656,6 +19263,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "resolution",
           "normalized": "a-\u003eFeature",
@@ -17670,6 +19278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "scan",
           "package": "clay",
@@ -17679,6 +19288,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "scan",
           "package": "clay",
@@ -17691,6 +19301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "screen",
           "package": "clay",
@@ -17700,6 +19311,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "screen",
           "package": "clay",
@@ -17712,6 +19324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "tty",
           "package": "clay",
@@ -17721,6 +19334,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "tty",
           "package": "clay",
@@ -17733,6 +19347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "tv",
           "package": "clay",
@@ -17742,6 +19357,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "tv",
           "package": "clay",
@@ -17754,6 +19370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Media",
           "name": "width",
           "package": "clay",
@@ -17763,6 +19380,7 @@
         },
         "index": {
           "hierarchy": "Clay Media",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Media",
           "name": "width",
           "normalized": "Size Abs-\u003eFeature",
@@ -17777,6 +19395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "Property",
           "package": "clay",
@@ -17785,6 +19404,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "Property",
           "package": "clay",
@@ -17798,6 +19418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "E5",
           "package": "clay",
@@ -17806,6 +19427,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "E5",
           "package": "clay",
@@ -17818,6 +19440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "Key",
           "package": "clay",
@@ -17826,6 +19449,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "Key",
           "package": "clay",
@@ -17839,6 +19463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "Literal",
           "package": "clay",
@@ -17847,6 +19472,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "Literal",
           "package": "clay",
@@ -17860,6 +19486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "Prefixed",
           "package": "clay",
@@ -17868,6 +19495,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "Prefixed",
           "package": "clay",
@@ -17881,6 +19509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "Val",
           "package": "clay",
@@ -17889,6 +19518,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "Val",
           "package": "clay",
@@ -17902,6 +19532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "Value",
           "package": "clay",
@@ -17910,6 +19541,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "Value",
           "package": "clay",
@@ -17923,6 +19555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "(!)",
           "package": "clay",
@@ -17932,6 +19565,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "(!) !",
           "normalized": "a-\u003eb-\u003e(a,b)",
@@ -17946,6 +19580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "E5",
           "package": "clay",
@@ -17955,6 +19590,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "E5",
           "package": "clay",
@@ -17967,6 +19603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "Key",
           "package": "clay",
@@ -17976,6 +19613,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "Key",
           "package": "clay",
@@ -17989,6 +19627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "Literal",
           "package": "clay",
@@ -17998,6 +19637,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "Literal",
           "package": "clay",
@@ -18011,6 +19651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "Plain",
           "package": "clay",
@@ -18020,6 +19661,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "Plain",
           "package": "clay",
@@ -18033,6 +19675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "Prefixed",
           "package": "clay",
@@ -18042,6 +19685,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "Prefixed",
           "normalized": "Prefixed[(Text,Text)]",
@@ -18057,6 +19701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "Value",
           "package": "clay",
@@ -18066,6 +19711,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "Value",
           "package": "clay",
@@ -18079,6 +19725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "cast",
           "package": "clay",
@@ -18088,6 +19735,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "cast",
           "normalized": "Key a-\u003eKey()",
@@ -18102,6 +19750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "intersperse",
           "package": "clay",
@@ -18111,6 +19760,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "intersperse",
           "normalized": "a-\u003e[a]-\u003ea",
@@ -18125,6 +19775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "merge",
           "package": "clay",
@@ -18134,6 +19785,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "merge",
           "normalized": "Prefixed-\u003ePrefixed-\u003ePrefixed",
@@ -18148,6 +19800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "noCommas",
           "package": "clay",
@@ -18157,6 +19810,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "noCommas",
           "normalized": "[a]-\u003eValue",
@@ -18172,6 +19826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "plain",
           "package": "clay",
@@ -18181,6 +19836,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "plain",
           "normalized": "Prefixed-\u003eText",
@@ -18195,6 +19851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "quote",
           "package": "clay",
@@ -18204,6 +19861,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "quote",
           "normalized": "Text-\u003eText",
@@ -18218,6 +19876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "unKeys",
           "package": "clay",
@@ -18227,6 +19886,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "unKeys",
           "package": "clay",
@@ -18240,6 +19900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "unValue",
           "package": "clay",
@@ -18249,6 +19910,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "unValue",
           "package": "clay",
@@ -18262,6 +19924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Property",
           "name": "value",
           "package": "clay",
@@ -18271,6 +19934,7 @@
         },
         "index": {
           "hierarchy": "Clay Property",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Property",
           "name": "value",
           "normalized": "a-\u003eValue",
@@ -18285,6 +19949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Pseudo",
           "name": "Pseudo",
           "package": "clay",
@@ -18293,6 +19958,7 @@
         },
         "index": {
           "hierarchy": "Clay Pseudo",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Pseudo",
           "name": "Pseudo",
           "package": "clay",
@@ -18306,6 +19972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Pseudo",
           "name": "active",
           "package": "clay",
@@ -18315,6 +19982,7 @@
         },
         "index": {
           "hierarchy": "Clay Pseudo",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Pseudo",
           "name": "active",
           "package": "clay",
@@ -18327,6 +19995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Pseudo",
           "name": "after",
           "package": "clay",
@@ -18336,6 +20005,7 @@
         },
         "index": {
           "hierarchy": "Clay Pseudo",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Pseudo",
           "name": "after",
           "package": "clay",
@@ -18348,6 +20018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Pseudo",
           "name": "before",
           "package": "clay",
@@ -18357,6 +20028,7 @@
         },
         "index": {
           "hierarchy": "Clay Pseudo",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Pseudo",
           "name": "before",
           "package": "clay",
@@ -18369,6 +20041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Pseudo",
           "name": "checked",
           "package": "clay",
@@ -18378,6 +20051,7 @@
         },
         "index": {
           "hierarchy": "Clay Pseudo",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Pseudo",
           "name": "checked",
           "package": "clay",
@@ -18390,6 +20064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Pseudo",
           "name": "disabled",
           "package": "clay",
@@ -18399,6 +20074,7 @@
         },
         "index": {
           "hierarchy": "Clay Pseudo",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Pseudo",
           "name": "disabled",
           "package": "clay",
@@ -18411,6 +20087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Pseudo",
           "name": "empty",
           "package": "clay",
@@ -18420,6 +20097,7 @@
         },
         "index": {
           "hierarchy": "Clay Pseudo",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Pseudo",
           "name": "empty",
           "package": "clay",
@@ -18432,6 +20110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Pseudo",
           "name": "enabled",
           "package": "clay",
@@ -18441,6 +20120,7 @@
         },
         "index": {
           "hierarchy": "Clay Pseudo",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Pseudo",
           "name": "enabled",
           "package": "clay",
@@ -18453,6 +20133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Pseudo",
           "name": "firstChild",
           "package": "clay",
@@ -18462,6 +20143,7 @@
         },
         "index": {
           "hierarchy": "Clay Pseudo",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Pseudo",
           "name": "firstChild",
           "package": "clay",
@@ -18475,6 +20157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Pseudo",
           "name": "firstOfType",
           "package": "clay",
@@ -18484,6 +20167,7 @@
         },
         "index": {
           "hierarchy": "Clay Pseudo",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Pseudo",
           "name": "firstOfType",
           "package": "clay",
@@ -18497,6 +20181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Pseudo",
           "name": "focus",
           "package": "clay",
@@ -18506,6 +20191,7 @@
         },
         "index": {
           "hierarchy": "Clay Pseudo",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Pseudo",
           "name": "focus",
           "package": "clay",
@@ -18518,6 +20204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Pseudo",
           "name": "hover",
           "package": "clay",
@@ -18527,6 +20214,7 @@
         },
         "index": {
           "hierarchy": "Clay Pseudo",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Pseudo",
           "name": "hover",
           "package": "clay",
@@ -18539,6 +20227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Pseudo",
           "name": "lastOfType",
           "package": "clay",
@@ -18548,6 +20237,7 @@
         },
         "index": {
           "hierarchy": "Clay Pseudo",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Pseudo",
           "name": "lastOfType",
           "package": "clay",
@@ -18561,6 +20251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Pseudo",
           "name": "link",
           "package": "clay",
@@ -18570,6 +20261,7 @@
         },
         "index": {
           "hierarchy": "Clay Pseudo",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Pseudo",
           "name": "link",
           "package": "clay",
@@ -18582,6 +20274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Pseudo",
           "name": "nthChild",
           "package": "clay",
@@ -18591,6 +20284,7 @@
         },
         "index": {
           "hierarchy": "Clay Pseudo",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Pseudo",
           "name": "nthChild",
           "normalized": "Text-\u003eRefinement",
@@ -18606,6 +20300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Pseudo",
           "name": "nthLastChild",
           "package": "clay",
@@ -18615,6 +20310,7 @@
         },
         "index": {
           "hierarchy": "Clay Pseudo",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Pseudo",
           "name": "nthLastChild",
           "normalized": "Text-\u003eRefinement",
@@ -18630,6 +20326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Pseudo",
           "name": "nthOfType",
           "package": "clay",
@@ -18639,6 +20336,7 @@
         },
         "index": {
           "hierarchy": "Clay Pseudo",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Pseudo",
           "name": "nthOfType",
           "normalized": "Text-\u003eRefinement",
@@ -18654,6 +20352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Pseudo",
           "name": "target",
           "package": "clay",
@@ -18663,6 +20362,7 @@
         },
         "index": {
           "hierarchy": "Clay Pseudo",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Pseudo",
           "name": "target",
           "package": "clay",
@@ -18675,6 +20375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Pseudo",
           "name": "visited",
           "package": "clay",
@@ -18684,6 +20385,7 @@
         },
         "index": {
           "hierarchy": "Clay Pseudo",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Pseudo",
           "name": "visited",
           "package": "clay",
@@ -18696,6 +20398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Render",
           "name": "Render",
           "package": "clay",
@@ -18704,6 +20407,7 @@
         },
         "index": {
           "hierarchy": "Clay Render",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Render",
           "name": "Render",
           "package": "clay",
@@ -18717,6 +20421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Render",
           "name": "Config",
           "package": "clay",
@@ -18725,6 +20430,7 @@
         },
         "index": {
           "hierarchy": "Clay Render",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Render",
           "name": "Config",
           "package": "clay",
@@ -18738,6 +20444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Render",
           "name": "Config",
           "package": "clay",
@@ -18747,6 +20454,7 @@
         },
         "index": {
           "hierarchy": "Clay Render",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Render",
           "name": "Config",
           "package": "clay",
@@ -18760,6 +20468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Render",
           "name": "align",
           "package": "clay",
@@ -18769,6 +20478,7 @@
         },
         "index": {
           "hierarchy": "Clay Render",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Render",
           "name": "align",
           "package": "clay",
@@ -18781,6 +20491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Render",
           "name": "banner",
           "package": "clay",
@@ -18790,6 +20501,7 @@
         },
         "index": {
           "hierarchy": "Clay Render",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Render",
           "name": "banner",
           "package": "clay",
@@ -18826,6 +20538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Render",
           "name": "finalSemicolon",
           "package": "clay",
@@ -18835,6 +20548,7 @@
         },
         "index": {
           "hierarchy": "Clay Render",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Render",
           "name": "finalSemicolon",
           "package": "clay",
@@ -18848,6 +20562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Render",
           "name": "indentation",
           "package": "clay",
@@ -18857,6 +20572,7 @@
         },
         "index": {
           "hierarchy": "Clay Render",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Render",
           "name": "indentation",
           "package": "clay",
@@ -18869,6 +20585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Render",
           "name": "newline",
           "package": "clay",
@@ -18878,6 +20595,7 @@
         },
         "index": {
           "hierarchy": "Clay Render",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Render",
           "name": "newline",
           "package": "clay",
@@ -18994,6 +20712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Render",
           "name": "sep",
           "package": "clay",
@@ -19003,6 +20722,7 @@
         },
         "index": {
           "hierarchy": "Clay Render",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Render",
           "name": "sep",
           "package": "clay",
@@ -19015,6 +20735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Render",
           "name": "warn",
           "package": "clay",
@@ -19024,6 +20745,7 @@
         },
         "index": {
           "hierarchy": "Clay Render",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Render",
           "name": "warn",
           "package": "clay",
@@ -19036,6 +20758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "Selector",
           "package": "clay",
@@ -19044,6 +20767,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "Selector",
           "package": "clay",
@@ -19057,6 +20781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "Fix",
           "package": "clay",
@@ -19065,6 +20790,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "Fix",
           "package": "clay",
@@ -19078,6 +20804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "Path",
           "package": "clay",
@@ -19086,6 +20813,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "Path",
           "package": "clay",
@@ -19099,6 +20827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "Predicate",
           "package": "clay",
@@ -19107,6 +20836,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "Predicate",
           "package": "clay",
@@ -19120,6 +20850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "Refinement",
           "package": "clay",
@@ -19128,6 +20859,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "Refinement",
           "package": "clay",
@@ -19141,6 +20873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "Selector",
           "package": "clay",
@@ -19149,6 +20882,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "Selector",
           "package": "clay",
@@ -19162,6 +20896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "SelectorF",
           "package": "clay",
@@ -19170,6 +20905,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "SelectorF",
           "package": "clay",
@@ -19391,6 +21127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "Adjacent",
           "package": "clay",
@@ -19400,6 +21137,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "Adjacent",
           "package": "clay",
@@ -19413,6 +21151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "Attr",
           "package": "clay",
@@ -19422,6 +21161,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "Attr",
           "package": "clay",
@@ -19435,6 +21175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "AttrEnds",
           "package": "clay",
@@ -19444,6 +21185,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "AttrEnds",
           "package": "clay",
@@ -19457,6 +21199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "AttrHyph",
           "package": "clay",
@@ -19466,6 +21209,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "AttrHyph",
           "package": "clay",
@@ -19479,6 +21223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "AttrSpace",
           "package": "clay",
@@ -19488,6 +21233,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "AttrSpace",
           "package": "clay",
@@ -19501,6 +21247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "AttrVal",
           "package": "clay",
@@ -19510,6 +21257,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "AttrVal",
           "package": "clay",
@@ -19523,6 +21271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "Child",
           "package": "clay",
@@ -19532,6 +21281,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "Child",
           "package": "clay",
@@ -19545,6 +21295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "Class",
           "package": "clay",
@@ -19554,6 +21305,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "Class",
           "package": "clay",
@@ -19567,6 +21319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "Combined",
           "package": "clay",
@@ -19576,6 +21329,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "Combined",
           "package": "clay",
@@ -19589,6 +21343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "Deep",
           "package": "clay",
@@ -19598,6 +21353,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "Deep",
           "package": "clay",
@@ -19611,6 +21367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "Elem",
           "package": "clay",
@@ -19620,6 +21377,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "Elem",
           "package": "clay",
@@ -19633,6 +21391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "Id",
           "package": "clay",
@@ -19642,6 +21401,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "Id",
           "package": "clay",
@@ -19655,6 +21415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "In",
           "package": "clay",
@@ -19664,6 +21425,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "In",
           "package": "clay",
@@ -19677,6 +21439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "Pseudo",
           "package": "clay",
@@ -19686,6 +21449,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "Pseudo",
           "package": "clay",
@@ -19699,6 +21463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "PseudoFunc",
           "package": "clay",
@@ -19708,6 +21473,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "PseudoFunc",
           "normalized": "PseudoFunc Text[Text]",
@@ -19723,6 +21489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "Refinement",
           "package": "clay",
@@ -19732,6 +21499,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "Refinement",
           "package": "clay",
@@ -19745,6 +21513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "SelectorF",
           "package": "clay",
@@ -19754,6 +21523,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "SelectorF",
           "package": "clay",
@@ -19767,6 +21537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "Star",
           "package": "clay",
@@ -19776,6 +21547,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "Star",
           "package": "clay",
@@ -19870,6 +21642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamed alias for \u003ccode\u003e\u003ca\u003e|\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "child",
           "package": "clay",
@@ -19880,6 +21653,7 @@
         "index": {
           "description": "Named alias for",
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "child",
           "normalized": "Selector-\u003eSelector-\u003eSelector",
@@ -19895,6 +21669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamed alias for \u003ccode\u003e\u003ca\u003e**\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "deep",
           "package": "clay",
@@ -19905,6 +21680,7 @@
         "index": {
           "description": "Named alias for",
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "deep",
           "normalized": "Selector-\u003eSelector-\u003eSelector",
@@ -19945,6 +21721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "filterFromText",
           "package": "clay",
@@ -19954,6 +21731,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "filterFromText",
           "normalized": "Text-\u003eRefinement",
@@ -19995,6 +21773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "out",
           "package": "clay",
@@ -20004,6 +21783,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "out",
           "package": "clay",
@@ -20066,6 +21846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "text",
           "package": "clay",
@@ -20075,6 +21856,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "text",
           "normalized": "Text-\u003eSelector",
@@ -20089,6 +21871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "unFilter",
           "package": "clay",
@@ -20098,6 +21881,7 @@
         },
         "index": {
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "unFilter",
           "normalized": "[Predicate]",
@@ -20114,6 +21898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamed alias for `#`.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Selector",
           "name": "with",
           "package": "clay",
@@ -20124,6 +21909,7 @@
         "index": {
           "description": "Named alias for",
           "hierarchy": "Clay Selector",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Selector",
           "name": "with",
           "normalized": "Selector-\u003eRefinement-\u003eSelector",
@@ -20138,6 +21924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Size",
           "name": "Size",
           "package": "clay",
@@ -20146,6 +21933,7 @@
         },
         "index": {
           "hierarchy": "Clay Size",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Size",
           "name": "Size",
           "package": "clay",
@@ -20160,6 +21948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSizes can be absolute like pixels, points, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Size",
           "name": "Abs",
           "package": "clay",
@@ -20169,6 +21958,7 @@
         "index": {
           "description": "Sizes can be absolute like pixels points etc",
           "hierarchy": "Clay Size",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Size",
           "name": "Abs",
           "package": "clay",
@@ -20182,6 +21972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Size",
           "name": "Angle",
           "package": "clay",
@@ -20190,6 +21981,7 @@
         },
         "index": {
           "hierarchy": "Clay Size",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Size",
           "name": "Angle",
           "package": "clay",
@@ -20203,6 +21995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Size",
           "name": "Deg",
           "package": "clay",
@@ -20211,6 +22004,7 @@
         },
         "index": {
           "hierarchy": "Clay Size",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Size",
           "name": "Deg",
           "package": "clay",
@@ -20224,6 +22018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Size",
           "name": "Rad",
           "package": "clay",
@@ -20232,6 +22027,7 @@
         },
         "index": {
           "hierarchy": "Clay Size",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Size",
           "name": "Rad",
           "package": "clay",
@@ -20246,6 +22042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSizes can be relative like percentages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Size",
           "name": "Rel",
           "package": "clay",
@@ -20255,6 +22052,7 @@
         "index": {
           "description": "Sizes can be relative like percentages",
           "hierarchy": "Clay Size",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Size",
           "name": "Rel",
           "package": "clay",
@@ -20268,6 +22066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Size",
           "name": "Size",
           "package": "clay",
@@ -20276,6 +22075,7 @@
         },
         "index": {
           "hierarchy": "Clay Size",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Size",
           "name": "Size",
           "package": "clay",
@@ -20290,6 +22090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAngle in degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Size",
           "name": "deg",
           "package": "clay",
@@ -20300,6 +22101,7 @@
         "index": {
           "description": "Angle in degrees",
           "hierarchy": "Clay Size",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Size",
           "name": "deg",
           "normalized": "Double-\u003eAngle Deg",
@@ -20315,6 +22117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize in em's.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Size",
           "name": "em",
           "package": "clay",
@@ -20325,6 +22128,7 @@
         "index": {
           "description": "Size in em",
           "hierarchy": "Clay Size",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Size",
           "name": "em",
           "normalized": "Double-\u003eSize Abs",
@@ -20340,6 +22144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize in ex'es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Size",
           "name": "ex",
           "package": "clay",
@@ -20350,6 +22155,7 @@
         "index": {
           "description": "Size in ex es",
           "hierarchy": "Clay Size",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Size",
           "name": "ex",
           "normalized": "Double-\u003eSize Abs",
@@ -20364,6 +22170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Size",
           "name": "nil",
           "package": "clay",
@@ -20373,6 +22180,7 @@
         },
         "index": {
           "hierarchy": "Clay Size",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Size",
           "name": "nil",
           "package": "clay",
@@ -20386,6 +22194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize in percentages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Size",
           "name": "pct",
           "package": "clay",
@@ -20396,6 +22205,7 @@
         "index": {
           "description": "Size in percentages",
           "hierarchy": "Clay Size",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Size",
           "name": "pct",
           "normalized": "Double-\u003eSize Rel",
@@ -20411,6 +22221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize in points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Size",
           "name": "pt",
           "package": "clay",
@@ -20421,6 +22232,7 @@
         "index": {
           "description": "Size in points",
           "hierarchy": "Clay Size",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Size",
           "name": "pt",
           "normalized": "Double-\u003eSize Abs",
@@ -20436,6 +22248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize in pixels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Size",
           "name": "px",
           "package": "clay",
@@ -20446,6 +22259,7 @@
         "index": {
           "description": "Size in pixels",
           "hierarchy": "Clay Size",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Size",
           "name": "px",
           "normalized": "Integer-\u003eSize Abs",
@@ -20461,6 +22275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAngle in radians.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Size",
           "name": "rad",
           "package": "clay",
@@ -20471,6 +22286,7 @@
         "index": {
           "description": "Angle in radians",
           "hierarchy": "Clay Size",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Size",
           "name": "rad",
           "normalized": "Double-\u003eAngle Rad",
@@ -20485,6 +22301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Size",
           "name": "sym",
           "package": "clay",
@@ -20494,6 +22311,7 @@
         },
         "index": {
           "hierarchy": "Clay Size",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Size",
           "name": "sym",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003eCss)-\u003ea-\u003eCss",
@@ -20508,6 +22326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Size",
           "name": "sym2",
           "package": "clay",
@@ -20517,6 +22336,7 @@
         },
         "index": {
           "hierarchy": "Clay Size",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Size",
           "name": "sym2",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003eCss)-\u003ea-\u003ea-\u003eCss",
@@ -20531,6 +22351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Size",
           "name": "sym3",
           "package": "clay",
@@ -20540,6 +22361,7 @@
         },
         "index": {
           "hierarchy": "Clay Size",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Size",
           "name": "sym3",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003eCss)-\u003ea-\u003ea-\u003ea-\u003eCss",
@@ -20554,6 +22376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "Stylesheet",
           "package": "clay",
@@ -20562,6 +22385,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "Stylesheet",
           "package": "clay",
@@ -20575,6 +22399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "App",
           "package": "clay",
@@ -20583,6 +22408,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "App",
           "package": "clay",
@@ -20597,6 +22423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eCss\u003c/a\u003e\u003c/code\u003e context is used to collect style rules which are mappings from\n selectors to style properties. The \u003ccode\u003e\u003ca\u003eCss\u003c/a\u003e\u003c/code\u003e type is a computation in the\n \u003ccode\u003e\u003ca\u003eStyleM\u003c/a\u003e\u003c/code\u003e monad that just collects and doesn't return anything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "Css",
           "package": "clay",
@@ -20606,6 +22433,7 @@
         "index": {
           "description": "The Css context is used to collect style rules which are mappings from selectors to style properties The Css type is computation in the StyleM monad that just collects and doesn return anything",
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "Css",
           "package": "clay",
@@ -20619,6 +22447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "Feature",
           "package": "clay",
@@ -20627,6 +22456,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "Feature",
           "package": "clay",
@@ -20640,6 +22470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "MediaQuery",
           "package": "clay",
@@ -20648,6 +22479,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "MediaQuery",
           "package": "clay",
@@ -20661,6 +22493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "MediaType",
           "package": "clay",
@@ -20669,6 +22502,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "MediaType",
           "package": "clay",
@@ -20682,6 +22516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "NotOrOnly",
           "package": "clay",
@@ -20690,6 +22525,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "NotOrOnly",
           "package": "clay",
@@ -20703,6 +22539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "Rule",
           "package": "clay",
@@ -20711,6 +22548,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "Rule",
           "package": "clay",
@@ -20724,6 +22562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "StyleM",
           "package": "clay",
@@ -20732,6 +22571,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "StyleM",
           "package": "clay",
@@ -20849,6 +22689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "Child",
           "package": "clay",
@@ -20858,6 +22699,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "Child",
           "package": "clay",
@@ -20871,6 +22713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "Face",
           "package": "clay",
@@ -20880,6 +22723,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "Face",
           "normalized": "Face[Rule]",
@@ -20895,6 +22739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "Feature",
           "package": "clay",
@@ -20904,6 +22749,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "Feature",
           "package": "clay",
@@ -20917,6 +22763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "MediaQuery",
           "package": "clay",
@@ -20926,6 +22773,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "MediaQuery",
           "normalized": "MediaQuery(Maybe NotOrOnly)MediaType[Feature]",
@@ -20941,6 +22789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "MediaType",
           "package": "clay",
@@ -20950,6 +22799,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "MediaType",
           "package": "clay",
@@ -20963,6 +22813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "Nested",
           "package": "clay",
@@ -20972,6 +22823,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "Nested",
           "normalized": "Nested App[Rule]",
@@ -20987,6 +22839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "Not",
           "package": "clay",
@@ -20996,6 +22849,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "Not",
           "package": "clay",
@@ -21009,6 +22863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "Only",
           "package": "clay",
@@ -21018,6 +22873,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "Only",
           "package": "clay",
@@ -21031,6 +22887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "Pop",
           "package": "clay",
@@ -21040,6 +22897,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "Pop",
           "package": "clay",
@@ -21053,6 +22911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "Property",
           "package": "clay",
@@ -21062,6 +22921,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "Property",
           "normalized": "Property(Key())Value",
@@ -21077,6 +22937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "Query",
           "package": "clay",
@@ -21086,6 +22947,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "Query",
           "normalized": "Query MediaQuery[Rule]",
@@ -21101,6 +22963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "Root",
           "package": "clay",
@@ -21110,6 +22973,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "Root",
           "package": "clay",
@@ -21123,6 +22987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "S",
           "package": "clay",
@@ -21132,6 +22997,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "S",
           "normalized": "S(Writer[Rule]a)",
@@ -21146,6 +23012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "Self",
           "package": "clay",
@@ -21155,6 +23022,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "Self",
           "package": "clay",
@@ -21168,6 +23036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "Sub",
           "package": "clay",
@@ -21177,6 +23046,7 @@
         },
         "index": {
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "Sub",
           "package": "clay",
@@ -21218,6 +23088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new style property to the stylesheet with the specified \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e and\n value. The value can be any type that is in the \u003ccode\u003e\u003ca\u003eVal\u003c/a\u003e\u003c/code\u003e typeclass, with other\n words: can be converted to a \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "key",
           "package": "clay",
@@ -21228,6 +23099,7 @@
         "index": {
           "description": "Add new style property to the stylesheet with the specified Key and value The value can be any type that is in the Val typeclass with other words can be converted to Value",
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "key",
           "normalized": "Key a-\u003ea-\u003eCss",
@@ -21269,6 +23141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new style property to the stylesheet with the specified \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e and\n value, like \u003ccode\u003e\u003ca\u003ekey\u003c/a\u003e\u003c/code\u003e but use a \u003ccode\u003e\u003ca\u003ePrefixed\u003c/a\u003e\u003c/code\u003e key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Stylesheet",
           "name": "prefixed",
           "package": "clay",
@@ -21279,6 +23152,7 @@
         "index": {
           "description": "Add new style property to the stylesheet with the specified Key and value like key but use Prefixed key",
           "hierarchy": "Clay Stylesheet",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Stylesheet",
           "name": "prefixed",
           "normalized": "Prefixed-\u003ea-\u003eCss",
@@ -21399,6 +23273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "Text",
           "package": "clay",
@@ -21407,6 +23282,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "Text",
           "package": "clay",
@@ -21420,6 +23296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "Content",
           "package": "clay",
@@ -21428,6 +23305,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "Content",
           "package": "clay",
@@ -21441,6 +23319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "TextAlign",
           "package": "clay",
@@ -21449,6 +23328,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "TextAlign",
           "package": "clay",
@@ -21462,6 +23342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "TextDecoration",
           "package": "clay",
@@ -21470,6 +23351,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "TextDecoration",
           "package": "clay",
@@ -21483,6 +23365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "TextDirection",
           "package": "clay",
@@ -21491,6 +23374,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "TextDirection",
           "package": "clay",
@@ -21504,6 +23388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "TextIndent",
           "package": "clay",
@@ -21512,6 +23397,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "TextIndent",
           "package": "clay",
@@ -21525,6 +23411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "TextRendering",
           "package": "clay",
@@ -21533,6 +23420,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "TextRendering",
           "package": "clay",
@@ -21546,6 +23434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "TextTransform",
           "package": "clay",
@@ -21554,6 +23443,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "TextTransform",
           "package": "clay",
@@ -21567,6 +23457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "WhiteSpace",
           "package": "clay",
@@ -21575,6 +23466,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "WhiteSpace",
           "package": "clay",
@@ -21588,6 +23480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "alignSide",
           "package": "clay",
@@ -21597,6 +23490,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "alignSide",
           "normalized": "Side-\u003eTextAlign",
@@ -21612,6 +23506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "alignString",
           "package": "clay",
@@ -21621,6 +23516,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "alignString",
           "normalized": "Char-\u003eTextAlign",
@@ -21636,6 +23532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "attrContent",
           "package": "clay",
@@ -21645,6 +23542,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "attrContent",
           "normalized": "Text-\u003eContent",
@@ -21660,6 +23558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "blink",
           "package": "clay",
@@ -21669,6 +23568,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "blink",
           "package": "clay",
@@ -21681,6 +23581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "capitalize",
           "package": "clay",
@@ -21690,6 +23591,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "capitalize",
           "package": "clay",
@@ -21702,6 +23604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "closeQuote",
           "package": "clay",
@@ -21711,6 +23614,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "closeQuote",
           "package": "clay",
@@ -21724,6 +23628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "content",
           "package": "clay",
@@ -21733,6 +23638,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "content",
           "normalized": "Content-\u003eCss",
@@ -21747,6 +23653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "contents",
           "package": "clay",
@@ -21756,6 +23663,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "contents",
           "normalized": "[Content]-\u003eCss",
@@ -21770,6 +23678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "direction",
           "package": "clay",
@@ -21779,6 +23688,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "direction",
           "normalized": "TextDirection-\u003eCss",
@@ -21793,6 +23703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "eachLine",
           "package": "clay",
@@ -21802,6 +23713,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "eachLine",
           "package": "clay",
@@ -21815,6 +23727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "end",
           "package": "clay",
@@ -21824,6 +23737,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "end",
           "package": "clay",
@@ -21836,6 +23750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "fullWidth",
           "package": "clay",
@@ -21845,6 +23760,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "fullWidth",
           "package": "clay",
@@ -21858,6 +23774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "geometricPrecision",
           "package": "clay",
@@ -21867,6 +23784,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "geometricPrecision",
           "package": "clay",
@@ -21880,6 +23798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "hanging",
           "package": "clay",
@@ -21889,6 +23808,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "hanging",
           "package": "clay",
@@ -21901,6 +23821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "indent",
           "package": "clay",
@@ -21910,6 +23831,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "indent",
           "normalized": "Size a-\u003eTextIndent",
@@ -21924,6 +23846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "justify",
           "package": "clay",
@@ -21933,6 +23856,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "justify",
           "package": "clay",
@@ -21945,6 +23869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "letterSpacing",
           "package": "clay",
@@ -21954,6 +23879,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "letterSpacing",
           "normalized": "Size a-\u003eCss",
@@ -21969,6 +23895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "lineThrough",
           "package": "clay",
@@ -21978,6 +23905,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "lineThrough",
           "package": "clay",
@@ -21991,6 +23919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "lowercase",
           "package": "clay",
@@ -22000,6 +23929,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "lowercase",
           "package": "clay",
@@ -22012,6 +23942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "ltr",
           "package": "clay",
@@ -22021,6 +23952,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "ltr",
           "package": "clay",
@@ -22033,6 +23965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "matchParent",
           "package": "clay",
@@ -22042,6 +23975,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "matchParent",
           "package": "clay",
@@ -22055,6 +23989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "noCloseQuote",
           "package": "clay",
@@ -22064,6 +23999,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "noCloseQuote",
           "package": "clay",
@@ -22077,6 +24013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "noOpenQuote",
           "package": "clay",
@@ -22086,6 +24023,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "noOpenQuote",
           "package": "clay",
@@ -22099,6 +24037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "nowrap",
           "package": "clay",
@@ -22108,6 +24047,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "nowrap",
           "package": "clay",
@@ -22120,6 +24060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "openQuote",
           "package": "clay",
@@ -22129,6 +24070,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "openQuote",
           "package": "clay",
@@ -22142,6 +24084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "optimizeLegibility",
           "package": "clay",
@@ -22151,6 +24094,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "optimizeLegibility",
           "package": "clay",
@@ -22164,6 +24108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "optimizeSpeed",
           "package": "clay",
@@ -22173,6 +24118,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "optimizeSpeed",
           "package": "clay",
@@ -22186,6 +24132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "overline",
           "package": "clay",
@@ -22195,6 +24142,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "overline",
           "package": "clay",
@@ -22207,6 +24155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "pre",
           "package": "clay",
@@ -22216,6 +24165,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "pre",
           "package": "clay",
@@ -22228,6 +24178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "preLine",
           "package": "clay",
@@ -22237,6 +24188,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "preLine",
           "package": "clay",
@@ -22250,6 +24202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "preWrap",
           "package": "clay",
@@ -22259,6 +24212,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "preWrap",
           "package": "clay",
@@ -22272,6 +24226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "rtl",
           "package": "clay",
@@ -22281,6 +24236,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "rtl",
           "package": "clay",
@@ -22293,6 +24249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "start",
           "package": "clay",
@@ -22302,6 +24259,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "start",
           "package": "clay",
@@ -22314,6 +24272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "stringContent",
           "package": "clay",
@@ -22323,6 +24282,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "stringContent",
           "normalized": "Text-\u003eContent",
@@ -22338,6 +24298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "textAlign",
           "package": "clay",
@@ -22347,6 +24308,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "textAlign",
           "normalized": "TextAlign-\u003eCss",
@@ -22362,6 +24324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "textDecoration",
           "package": "clay",
@@ -22371,6 +24334,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "textDecoration",
           "normalized": "TextDecoration-\u003eCss",
@@ -22386,6 +24350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "textDecorationColor",
           "package": "clay",
@@ -22395,6 +24360,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "textDecorationColor",
           "normalized": "Color-\u003eCss",
@@ -22410,6 +24376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "textDecorationLine",
           "package": "clay",
@@ -22419,6 +24386,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "textDecorationLine",
           "normalized": "TextDecoration-\u003eCss",
@@ -22434,6 +24402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "textDecorationStyle",
           "package": "clay",
@@ -22443,6 +24412,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "textDecorationStyle",
           "normalized": "Stroke-\u003eCss",
@@ -22458,6 +24428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "textIndent",
           "package": "clay",
@@ -22467,6 +24438,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "textIndent",
           "normalized": "TextIndent-\u003eCss",
@@ -22482,6 +24454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "textRendering",
           "package": "clay",
@@ -22491,6 +24464,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "textRendering",
           "normalized": "TextRendering-\u003eCss",
@@ -22506,6 +24480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "textShadow",
           "package": "clay",
@@ -22515,6 +24490,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "textShadow",
           "normalized": "Size a-\u003eSize a-\u003eSize a-\u003eColor-\u003eCss",
@@ -22530,6 +24506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "textTransform",
           "package": "clay",
@@ -22539,6 +24516,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "textTransform",
           "normalized": "TextTransform-\u003eCss",
@@ -22554,6 +24532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "underline",
           "package": "clay",
@@ -22563,6 +24542,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "underline",
           "package": "clay",
@@ -22575,6 +24555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "uppercase",
           "package": "clay",
@@ -22584,6 +24565,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "uppercase",
           "package": "clay",
@@ -22596,6 +24578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "uriContent",
           "package": "clay",
@@ -22605,6 +24588,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "uriContent",
           "normalized": "Text-\u003eContent",
@@ -22620,6 +24604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "urlContent",
           "package": "clay",
@@ -22629,6 +24614,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "urlContent",
           "normalized": "Text-\u003eContent",
@@ -22644,6 +24630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "whiteSpace",
           "package": "clay",
@@ -22653,6 +24640,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "whiteSpace",
           "normalized": "WhiteSpace-\u003eCss",
@@ -22668,6 +24656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Text",
           "name": "wordSpacing",
           "package": "clay",
@@ -22677,6 +24666,7 @@
         },
         "index": {
           "hierarchy": "Clay Text",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Text",
           "name": "wordSpacing",
           "normalized": "Size a-\u003eCss",
@@ -22692,6 +24682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Time",
           "name": "Time",
           "package": "clay",
@@ -22700,6 +24691,7 @@
         },
         "index": {
           "hierarchy": "Clay Time",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Time",
           "name": "Time",
           "package": "clay",
@@ -22713,6 +24705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Time",
           "name": "Time",
           "package": "clay",
@@ -22721,6 +24714,7 @@
         },
         "index": {
           "hierarchy": "Clay Time",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Time",
           "name": "Time",
           "package": "clay",
@@ -22735,6 +24729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime in milliseconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Time",
           "name": "ms",
           "package": "clay",
@@ -22745,6 +24740,7 @@
         "index": {
           "description": "Time in milliseconds",
           "hierarchy": "Clay Time",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Time",
           "name": "ms",
           "normalized": "Double-\u003eTime",
@@ -22760,6 +24756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime in seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Time",
           "name": "sec",
           "package": "clay",
@@ -22770,6 +24767,7 @@
         "index": {
           "description": "Time in seconds",
           "hierarchy": "Clay Time",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Time",
           "name": "sec",
           "normalized": "Double-\u003eTime",
@@ -22784,6 +24782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "Transform",
           "package": "clay",
@@ -22792,6 +24791,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "Transform",
           "package": "clay",
@@ -22805,6 +24805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "Transformation",
           "package": "clay",
@@ -22813,6 +24814,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "Transformation",
           "package": "clay",
@@ -22826,6 +24828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "matrix",
           "package": "clay",
@@ -22835,6 +24838,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "matrix",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eTransformation",
@@ -22849,6 +24853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "matrix3d",
           "package": "clay",
@@ -22858,6 +24863,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "matrix3d",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eTransformation",
@@ -22872,6 +24878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "perspective",
           "package": "clay",
@@ -22881,6 +24888,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "perspective",
           "normalized": "Double-\u003eTransformation",
@@ -22895,6 +24903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "rotate",
           "package": "clay",
@@ -22904,6 +24913,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "rotate",
           "normalized": "Angle a-\u003eTransformation",
@@ -22918,6 +24928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "rotate3d",
           "package": "clay",
@@ -22927,6 +24938,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "rotate3d",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eAngle a-\u003eTransformation",
@@ -22941,6 +24953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "rotateX",
           "package": "clay",
@@ -22950,6 +24963,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "rotateX",
           "normalized": "Angle a-\u003eTransformation",
@@ -22964,6 +24978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "rotateY",
           "package": "clay",
@@ -22973,6 +24988,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "rotateY",
           "normalized": "Angle a-\u003eTransformation",
@@ -22987,6 +25003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "rotateZ",
           "package": "clay",
@@ -22996,6 +25013,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "rotateZ",
           "normalized": "Angle a-\u003eTransformation",
@@ -23010,6 +25028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "scale",
           "package": "clay",
@@ -23019,6 +25038,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "scale",
           "normalized": "Double-\u003eDouble-\u003eTransformation",
@@ -23033,6 +25053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "scale3d",
           "package": "clay",
@@ -23042,6 +25063,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "scale3d",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eTransformation",
@@ -23056,6 +25078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "scaleX",
           "package": "clay",
@@ -23065,6 +25088,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "scaleX",
           "normalized": "Double-\u003eTransformation",
@@ -23079,6 +25103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "scaleY",
           "package": "clay",
@@ -23088,6 +25113,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "scaleY",
           "normalized": "Double-\u003eTransformation",
@@ -23102,6 +25128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "scaleZ",
           "package": "clay",
@@ -23111,6 +25138,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "scaleZ",
           "normalized": "Double-\u003eTransformation",
@@ -23125,6 +25153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "skew",
           "package": "clay",
@@ -23134,6 +25163,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "skew",
           "normalized": "Angle a-\u003eAngle a-\u003eTransformation",
@@ -23148,6 +25178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "skewX",
           "package": "clay",
@@ -23157,6 +25188,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "skewX",
           "normalized": "Angle a-\u003eTransformation",
@@ -23171,6 +25203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "skewY",
           "package": "clay",
@@ -23180,6 +25213,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "skewY",
           "normalized": "Angle a-\u003eTransformation",
@@ -23194,6 +25228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "transform",
           "package": "clay",
@@ -23203,6 +25238,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "transform",
           "normalized": "Transformation-\u003eCss",
@@ -23217,6 +25253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "transforms",
           "package": "clay",
@@ -23226,6 +25263,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "transforms",
           "normalized": "[Transformation]-\u003eCss",
@@ -23240,6 +25278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "translate",
           "package": "clay",
@@ -23249,6 +25288,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "translate",
           "normalized": "Size Abs-\u003eSize Abs-\u003eTransformation",
@@ -23263,6 +25303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "translate3d",
           "package": "clay",
@@ -23272,6 +25313,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "translate3d",
           "normalized": "Size Abs-\u003eSize Abs-\u003eSize Abs-\u003eTransformation",
@@ -23286,6 +25328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "translateX",
           "package": "clay",
@@ -23295,6 +25338,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "translateX",
           "normalized": "Size Abs-\u003eTransformation",
@@ -23309,6 +25353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "translateY",
           "package": "clay",
@@ -23318,6 +25363,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "translateY",
           "normalized": "Size Abs-\u003eTransformation",
@@ -23332,6 +25378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transform",
           "name": "translateZ",
           "package": "clay",
@@ -23341,6 +25388,7 @@
         },
         "index": {
           "hierarchy": "Clay Transform",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transform",
           "name": "translateZ",
           "normalized": "Size Abs-\u003eTransformation",
@@ -23355,6 +25403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transition",
           "name": "Transition",
           "package": "clay",
@@ -23363,6 +25412,7 @@
         },
         "index": {
           "hierarchy": "Clay Transition",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transition",
           "name": "Transition",
           "package": "clay",
@@ -23376,6 +25426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transition",
           "name": "TimingFunction",
           "package": "clay",
@@ -23384,6 +25435,7 @@
         },
         "index": {
           "hierarchy": "Clay Transition",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transition",
           "name": "TimingFunction",
           "package": "clay",
@@ -23397,6 +25449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transition",
           "name": "cubicBezier",
           "package": "clay",
@@ -23406,6 +25459,7 @@
         },
         "index": {
           "hierarchy": "Clay Transition",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transition",
           "name": "cubicBezier",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eTimingFunction",
@@ -23421,6 +25475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transition",
           "name": "ease",
           "package": "clay",
@@ -23430,6 +25485,7 @@
         },
         "index": {
           "hierarchy": "Clay Transition",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transition",
           "name": "ease",
           "package": "clay",
@@ -23442,6 +25498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transition",
           "name": "easeIn",
           "package": "clay",
@@ -23451,6 +25508,7 @@
         },
         "index": {
           "hierarchy": "Clay Transition",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transition",
           "name": "easeIn",
           "package": "clay",
@@ -23464,6 +25522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transition",
           "name": "easeInOut",
           "package": "clay",
@@ -23473,6 +25532,7 @@
         },
         "index": {
           "hierarchy": "Clay Transition",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transition",
           "name": "easeInOut",
           "package": "clay",
@@ -23486,6 +25546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transition",
           "name": "easeLinear",
           "package": "clay",
@@ -23495,6 +25556,7 @@
         },
         "index": {
           "hierarchy": "Clay Transition",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transition",
           "name": "easeLinear",
           "package": "clay",
@@ -23508,6 +25570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transition",
           "name": "easeOut",
           "package": "clay",
@@ -23517,6 +25580,7 @@
         },
         "index": {
           "hierarchy": "Clay Transition",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transition",
           "name": "easeOut",
           "package": "clay",
@@ -23530,6 +25594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transition",
           "name": "stepStart",
           "package": "clay",
@@ -23539,6 +25604,7 @@
         },
         "index": {
           "hierarchy": "Clay Transition",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transition",
           "name": "stepStart",
           "package": "clay",
@@ -23552,6 +25618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transition",
           "name": "stepStop",
           "package": "clay",
@@ -23561,6 +25628,7 @@
         },
         "index": {
           "hierarchy": "Clay Transition",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transition",
           "name": "stepStop",
           "package": "clay",
@@ -23574,6 +25642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transition",
           "name": "stepsStart",
           "package": "clay",
@@ -23583,6 +25652,7 @@
         },
         "index": {
           "hierarchy": "Clay Transition",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transition",
           "name": "stepsStart",
           "normalized": "Integer-\u003eTimingFunction",
@@ -23598,6 +25668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transition",
           "name": "stepsStop",
           "package": "clay",
@@ -23607,6 +25678,7 @@
         },
         "index": {
           "hierarchy": "Clay Transition",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transition",
           "name": "stepsStop",
           "normalized": "Integer-\u003eTimingFunction",
@@ -23622,6 +25694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transition",
           "name": "transition",
           "package": "clay",
@@ -23631,6 +25704,7 @@
         },
         "index": {
           "hierarchy": "Clay Transition",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transition",
           "name": "transition",
           "normalized": "Text-\u003eTime-\u003eTimingFunction-\u003eTime-\u003eCss",
@@ -23645,6 +25719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transition",
           "name": "transitionDelay",
           "package": "clay",
@@ -23654,6 +25729,7 @@
         },
         "index": {
           "hierarchy": "Clay Transition",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transition",
           "name": "transitionDelay",
           "normalized": "Time-\u003eCss",
@@ -23669,6 +25745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transition",
           "name": "transitionDelays",
           "package": "clay",
@@ -23678,6 +25755,7 @@
         },
         "index": {
           "hierarchy": "Clay Transition",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transition",
           "name": "transitionDelays",
           "normalized": "[Time]-\u003eCss",
@@ -23693,6 +25771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transition",
           "name": "transitionDuration",
           "package": "clay",
@@ -23702,6 +25781,7 @@
         },
         "index": {
           "hierarchy": "Clay Transition",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transition",
           "name": "transitionDuration",
           "normalized": "Time-\u003eCss",
@@ -23717,6 +25797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transition",
           "name": "transitionDurations",
           "package": "clay",
@@ -23726,6 +25807,7 @@
         },
         "index": {
           "hierarchy": "Clay Transition",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transition",
           "name": "transitionDurations",
           "normalized": "[Time]-\u003eCss",
@@ -23741,6 +25823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transition",
           "name": "transitionProperties",
           "package": "clay",
@@ -23750,6 +25833,7 @@
         },
         "index": {
           "hierarchy": "Clay Transition",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transition",
           "name": "transitionProperties",
           "normalized": "[Text]-\u003eCss",
@@ -23765,6 +25849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transition",
           "name": "transitionProperty",
           "package": "clay",
@@ -23774,6 +25859,7 @@
         },
         "index": {
           "hierarchy": "Clay Transition",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transition",
           "name": "transitionProperty",
           "normalized": "Text-\u003eCss",
@@ -23789,6 +25875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transition",
           "name": "transitionTimingFunction",
           "package": "clay",
@@ -23798,6 +25885,7 @@
         },
         "index": {
           "hierarchy": "Clay Transition",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transition",
           "name": "transitionTimingFunction",
           "normalized": "TimingFunction-\u003eCss",
@@ -23813,6 +25901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay.Transition",
           "name": "transitions",
           "package": "clay",
@@ -23822,6 +25911,7 @@
         },
         "index": {
           "hierarchy": "Clay Transition",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay.Transition",
           "name": "transitions",
           "normalized": "[(Text,Time,TimingFunction,Time)]-\u003eCss",
@@ -23836,6 +25926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay",
           "name": "Clay",
           "package": "clay",
@@ -23844,6 +25935,7 @@
         },
         "index": {
           "hierarchy": "Clay",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay",
           "name": "Clay",
           "package": "clay",
@@ -23858,6 +25950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eCss\u003c/a\u003e\u003c/code\u003e context is used to collect style rules which are mappings from\n selectors to style properties. The \u003ccode\u003e\u003ca\u003eCss\u003c/a\u003e\u003c/code\u003e type is a computation in the\n \u003ccode\u003e\u003ca\u003eStyleM\u003c/a\u003e\u003c/code\u003e monad that just collects and doesn't return anything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay",
           "name": "Css",
           "package": "clay",
@@ -23867,6 +25960,7 @@
         "index": {
           "description": "The Css context is used to collect style rules which are mappings from selectors to style properties The Css type is computation in the StyleM monad that just collects and doesn return anything",
           "hierarchy": "Clay",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay",
           "name": "Css",
           "package": "clay",
@@ -23880,6 +25974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay",
           "name": "Refinement",
           "package": "clay",
@@ -23888,6 +25983,7 @@
         },
         "index": {
           "hierarchy": "Clay",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay",
           "name": "Refinement",
           "package": "clay",
@@ -23901,6 +25997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:33:40 UTC 2014",
           "module": "Clay",
           "name": "Selector",
           "package": "clay",
@@ -23909,6 +26006,7 @@
         },
         "index": {
           "hierarchy": "Clay",
+          "indexed": "2014-03-11T17:33:40",
           "module": "Clay",
           "name": "Selector",
           "package": "clay",

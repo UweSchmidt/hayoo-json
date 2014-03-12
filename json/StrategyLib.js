@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "StrategyLib"
+        "phrase": "StrategyLib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Control.Monad.Maybe",
           "name": "3AMaybeT",
           "package": "StrategyLib",
@@ -25,6 +26,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Maybe",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Control.Monad.Maybe",
           "name": "3AMaybeT",
           "package": "StrategyLib",
@@ -38,6 +40,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Control.Monad.Run",
           "name": "3AErrorAlg",
           "package": "StrategyLib",
@@ -45,6 +48,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Run",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Control.Monad.Run",
           "name": "3AErrorAlg",
           "package": "StrategyLib",
@@ -58,6 +62,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Control.Monad.Run",
           "name": "3AListAlg",
           "package": "StrategyLib",
@@ -65,6 +70,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Run",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Control.Monad.Run",
           "name": "3AListAlg",
           "package": "StrategyLib",
@@ -78,6 +84,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Control.Monad.Run",
           "name": "3AMaybeAlg",
           "package": "StrategyLib",
@@ -85,6 +92,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Run",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Control.Monad.Run",
           "name": "3AMaybeAlg",
           "package": "StrategyLib",
@@ -98,6 +106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Control.Monad.Run",
           "name": "3AStateAlg",
           "package": "StrategyLib",
@@ -105,6 +114,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Run",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Control.Monad.Run",
           "name": "3AStateAlg",
           "package": "StrategyLib",
@@ -118,6 +128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Control.Monad.Run",
           "name": "3AMonadRun",
           "package": "StrategyLib",
@@ -125,6 +136,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Run",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Control.Monad.Run",
           "name": "3AMonadRun",
           "package": "StrategyLib",
@@ -138,6 +150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Control.Monad.Run",
           "name": "3AMonadUnTrans",
           "package": "StrategyLib",
@@ -145,6 +158,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Run",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Control.Monad.Run",
           "name": "3AMonadUnTrans",
           "package": "StrategyLib",
@@ -159,6 +173,7 @@
       "document": {
         "description": {
           "description": "Specialization of \u003ctt\u003e\u003ca\u003emswitch\u003c/a\u003e\u003c/tt\u003e for MaybeT.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Control.Monad.Run",
           "name": "3Amayswitch",
           "package": "StrategyLib",
@@ -168,6 +183,7 @@
         "index": {
           "description": "Specialization of mswitch for MaybeT",
           "hierarchy": "Control Monad Run",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Control.Monad.Run",
           "name": "3Amayswitch",
           "normalized": "[MaybeT a b]-\u003ea b-\u003ea b",
@@ -184,6 +200,7 @@
       "document": {
         "description": {
           "description": "Monadic function choice combinator that confines the partiality effect\n   to the first argument. This is a variation on mchoice which\n   allows the partiality effect to spread to both arguments and to the\n   result.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Control.Monad.Run",
           "name": "3Amchoice'",
           "package": "StrategyLib",
@@ -193,6 +210,7 @@
         "index": {
           "description": "Monadic function choice combinator that confines the partiality effect to the first argument This is variation on mchoice which allows the partiality effect to spread to both arguments and to the result",
           "hierarchy": "Control Monad Run",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Control.Monad.Run",
           "name": "3Amchoice'",
           "normalized": "(a-\u003eb c d)-\u003e(a-\u003ec d)-\u003ea-\u003ec d",
@@ -209,6 +227,7 @@
       "document": {
         "description": {
           "description": "Monadic function choice combinator. Generalization of \u003ctt\u003e\u003ca\u003emchoice'\u003c/a\u003e\u003c/tt\u003e that\n   takes a list of choice arguments rather than a single one.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Control.Monad.Run",
           "name": "3Amchoices",
           "package": "StrategyLib",
@@ -218,6 +237,7 @@
         "index": {
           "description": "Monadic function choice combinator Generalization of mchoice that takes list of choice arguments rather than single one",
           "hierarchy": "Control Monad Run",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Control.Monad.Run",
           "name": "3Amchoices",
           "normalized": "[a-\u003eb c d]-\u003e(a-\u003ec d)-\u003ea-\u003ec d",
@@ -234,6 +254,7 @@
       "document": {
         "description": {
           "description": "Monadic choice combinator that confines the partiality effect to\n   the first argument. This is a variation on \u003ctt\u003e\u003ca\u003emplus\u003c/a\u003e\u003c/tt\u003e which allows\n   the partiality effect to spread to both arguments and to the result.\t  \n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Control.Monad.Run",
           "name": "3Amplus'",
           "package": "StrategyLib",
@@ -243,6 +264,7 @@
         "index": {
           "description": "Monadic choice combinator that confines the partiality effect to the first argument This is variation on mplus which allows the partiality effect to spread to both arguments and to the result",
           "hierarchy": "Control Monad Run",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Control.Monad.Run",
           "name": "3Amplus'",
           "normalized": "a b c-\u003eb c-\u003eb c",
@@ -259,6 +281,7 @@
       "document": {
         "description": {
           "description": "Exchange one monad by another.\n   This function runs one monad, and puts its value in another. This is\n   basically a monadic version of the \u003ctt\u003e\u003ca\u003erun\u003c/a\u003e\u003c/tt\u003e function itself. Note that the two\n   monads are unrelated, so none of the effects of the incoming monad are\n   transferred to the result monad.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Control.Monad.Run",
           "name": "3Amrun",
           "package": "StrategyLib",
@@ -268,6 +291,7 @@
         "index": {
           "description": "Exchange one monad by another This function runs one monad and puts its value in another This is basically monadic version of the run function itself Note that the two monads are unrelated so none of the effects of the incoming monad are transferred to the result monad",
           "hierarchy": "Control Monad Run",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Control.Monad.Run",
           "name": "3Amrun",
           "normalized": "a b c-\u003ed b-\u003ee c",
@@ -284,6 +308,7 @@
       "document": {
         "description": {
           "description": "choice branches\notherwise\nresult\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Control.Monad.Run",
           "name": "3Amswitch",
           "package": "StrategyLib",
@@ -293,6 +318,7 @@
         "index": {
           "description": "choice branches otherwise result",
           "hierarchy": "Control Monad Run",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Control.Monad.Run",
           "name": "3Amswitch",
           "normalized": "[a b c]-\u003eb c-\u003eb c",
@@ -309,6 +335,7 @@
       "document": {
         "description": {
           "description": "Implementation variant of \u003ctt\u003e\u003ca\u003emswitch\u003c/a\u003e\u003c/tt\u003e where the unlift is postponed\n   to the very end.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Control.Monad.Run",
           "name": "3Amswitch'",
           "package": "StrategyLib",
@@ -318,6 +345,7 @@
         "index": {
           "description": "Implementation variant of mswitch where the unlift is postponed to the very end",
           "hierarchy": "Control Monad Run",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Control.Monad.Run",
           "name": "3Amswitch'",
           "normalized": "[a b c]-\u003eb c-\u003eb c",
@@ -334,6 +362,7 @@
       "document": {
         "description": {
           "description": "Implementation variant of \u003ctt\u003e\u003ca\u003emswitch\u003c/a\u003e\u003c/tt\u003e in terms of foldr.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Control.Monad.Run",
           "name": "3Amswitch0",
           "package": "StrategyLib",
@@ -343,6 +372,7 @@
         "index": {
           "description": "Implementation variant of mswitch in terms of foldr",
           "hierarchy": "Control Monad Run",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Control.Monad.Run",
           "name": "3Amswitch0",
           "normalized": "[a b c]-\u003eb c-\u003eb c",
@@ -359,6 +389,7 @@
       "document": {
         "description": {
           "description": "Implementation variant of \u003ctt\u003e\u003ca\u003emswitch\u003c/a\u003e\u003c/tt\u003e with \u003ctt\u003e\u003ca\u003emplus'\u003c/a\u003e\u003c/tt\u003e expanded:\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Control.Monad.Run",
           "name": "3Amswitch1",
           "package": "StrategyLib",
@@ -368,6 +399,7 @@
         "index": {
           "description": "Implementation variant of mswitch with mplus expanded",
           "hierarchy": "Control Monad Run",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Control.Monad.Run",
           "name": "3Amswitch1",
           "normalized": "[a b c]-\u003eb c-\u003eb c",
@@ -384,6 +416,7 @@
       "document": {
         "description": {
           "description": "The overloaded function run takes as first argument an \u003ca\u003ealgebra\u003c/a\u003e which\n captures the ingredients necessary to run the particular monad at hand.\n This algebra is parameterized with the domain and co-domain of run.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Control.Monad.Run",
           "name": "3Arun",
           "package": "StrategyLib",
@@ -393,6 +426,7 @@
         "index": {
           "description": "The overloaded function run takes as first argument an algebra which captures the ingredients necessary to run the particular monad at hand This algebra is parameterized with the domain and co-domain of run",
           "hierarchy": "Control Monad Run",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Control.Monad.Run",
           "name": "3Arun",
           "normalized": "a b c-\u003ed b-\u003ec",
@@ -409,6 +443,7 @@
       "document": {
         "description": {
           "description": "The overloaded function \u003ctt\u003e\u003ca\u003eunlift\u003c/a\u003e\u003c/tt\u003e for monad transformers takes as first \n   argument an \u003ca\u003ealgebra\u003c/a\u003e just like the run function for base monads. For\n   each monad transformer, the same algebra is used as for the base monad\n   of which the transformer is the parameterized variant.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Control.Monad.Run",
           "name": "3Aunlift",
           "package": "StrategyLib",
@@ -418,6 +453,7 @@
         "index": {
           "description": "The overloaded function unlift for monad transformers takes as first argument an algebra just like the run function for base monads For each monad transformer the same algebra is used as for the base monad of which the transformer is the parameterized variant",
           "hierarchy": "Control Monad Run",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Control.Monad.Run",
           "name": "3Aunlift",
           "normalized": "a b c-\u003ed e b-\u003ee c",
@@ -434,6 +470,7 @@
       "document": {
         "description": {
           "description": "The type of names of chaseable things. Synonym of \u003ctt\u003e\u003ca\u003eString\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ChaseImports",
           "name": "3AChaseName",
           "package": "StrategyLib",
@@ -442,6 +479,7 @@
         "index": {
           "description": "The type of names of chaseable things Synonym of String",
           "hierarchy": "Data Generics Strafunski StrategyLib ChaseImports",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ChaseImports",
           "name": "3AChaseName",
           "package": "StrategyLib",
@@ -456,6 +494,7 @@
       "document": {
         "description": {
           "description": "path (directories to search)\nbase name\npossible extensions\ncontents of file\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ChaseImports",
           "name": "3AchaseFile",
           "package": "StrategyLib",
@@ -465,6 +504,7 @@
         "index": {
           "description": "path directories to search base name possible extensions contents of file",
           "hierarchy": "Data Generics Strafunski StrategyLib ChaseImports",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ChaseImports",
           "name": "3AchaseFile",
           "normalized": "[FilePath]-\u003eString-\u003e[String]-\u003eIO String",
@@ -481,6 +521,7 @@
       "document": {
         "description": {
           "description": "path (list of directories to search)\ntodo (list of modules still to find)\ndone (list of modules already found)\ninitial (start value of accumulator)\nparse (function that attempt to find and parse a module)\nimports (function that extracts imports from\n   a parse result)\non module (function that computes a new\n   accumulator from a parse result)\non missing (function that computes a new\n   accumulator value when parsing failed)\nresult (accumulated value)\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ChaseImports",
           "name": "3AchaseWith",
           "package": "StrategyLib",
@@ -490,6 +531,7 @@
         "index": {
           "description": "path list of directories to search todo list of modules still to find done list of modules already found initial start value of accumulator parse function that attempt to find and parse module imports function that extracts imports from parse result on module function that computes new accumulator from parse result on missing function that computes new accumulator value when parsing failed result accumulated value",
           "hierarchy": "Data Generics Strafunski StrategyLib ChaseImports",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ChaseImports",
           "name": "3AchaseWith",
           "normalized": "[FilePath]-\u003e[ChaseName]-\u003e[ChaseName]-\u003ea-\u003e([FilePath]-\u003eChaseName-\u003eIO(Either b String))-\u003e(b-\u003e[ChaseName])-\u003e(ChaseName-\u003e[ChaseName]-\u003eb-\u003ea-\u003eIO a)-\u003e(ChaseName-\u003ea-\u003eIO a)-\u003eIO a",
@@ -506,6 +548,7 @@
       "document": {
         "description": {
           "description": "path (directories to search)\nbase name\npossible extensions\ncontents of file\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ChaseImports",
           "name": "3AfindFile",
           "package": "StrategyLib",
@@ -515,6 +558,7 @@
         "index": {
           "description": "path directories to search base name possible extensions contents of file",
           "hierarchy": "Data Generics Strafunski StrategyLib ChaseImports",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ChaseImports",
           "name": "3AfindFile",
           "normalized": "[FilePath]-\u003eString-\u003e[String]-\u003eIO FilePath",
@@ -530,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3ACoder",
           "package": "StrategyLib",
@@ -537,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3ACoder",
           "package": "StrategyLib",
@@ -550,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AGList",
           "package": "StrategyLib",
@@ -557,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AGList",
           "package": "StrategyLib",
@@ -571,6 +619,7 @@
       "document": {
         "description": {
           "description": "Type of generic maps\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AGMap",
           "package": "StrategyLib",
@@ -579,6 +628,7 @@
         "index": {
           "description": "Type of generic maps",
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AGMap",
           "package": "StrategyLib",
@@ -593,6 +643,7 @@
       "document": {
         "description": {
           "description": "Type of generic sets\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AGSet",
           "package": "StrategyLib",
@@ -601,6 +652,7 @@
         "index": {
           "description": "Type of generic sets",
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AGSet",
           "package": "StrategyLib",
@@ -614,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AaddGList",
           "package": "StrategyLib",
@@ -622,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AaddGList",
           "normalized": "a-\u003eGList-\u003eGList",
@@ -638,6 +692,7 @@
       "document": {
         "description": {
           "description": "Add an element to a generic set\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AaddGSet",
           "package": "StrategyLib",
@@ -647,6 +702,7 @@
         "index": {
           "description": "Add an element to generic set",
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AaddGSet",
           "normalized": "a-\u003eGSet-\u003eGSet",
@@ -663,6 +719,7 @@
       "document": {
         "description": {
           "description": "Test whether an element with given key is contained in a generic map\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AcontainsGMap",
           "package": "StrategyLib",
@@ -672,6 +729,7 @@
         "index": {
           "description": "Test whether an element with given key is contained in generic map",
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AcontainsGMap",
           "normalized": "a-\u003eGMap b-\u003eBool",
@@ -688,6 +746,7 @@
       "document": {
         "description": {
           "description": "Test whether a given element is contained in a generic set\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AcontainsGSet",
           "package": "StrategyLib",
@@ -697,6 +756,7 @@
         "index": {
           "description": "Test whether given element is contained in generic set",
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AcontainsGSet",
           "normalized": "a-\u003eGSet-\u003eBool",
@@ -712,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AelemsGList",
           "package": "StrategyLib",
@@ -720,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AelemsGList",
           "normalized": "(a-\u003e())-\u003eGList-\u003e[a]",
@@ -735,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AemptyGList",
           "package": "StrategyLib",
@@ -743,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AemptyGList",
           "package": "StrategyLib",
@@ -757,6 +821,7 @@
       "document": {
         "description": {
           "description": "Empty generic map\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AemptyGMap",
           "package": "StrategyLib",
@@ -766,6 +831,7 @@
         "index": {
           "description": "Empty generic map",
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AemptyGMap",
           "package": "StrategyLib",
@@ -780,6 +846,7 @@
       "document": {
         "description": {
           "description": "Empty generic set.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AemptyGSet",
           "package": "StrategyLib",
@@ -789,6 +856,7 @@
         "index": {
           "description": "Empty generic set",
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AemptyGSet",
           "package": "StrategyLib",
@@ -802,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AenCode",
           "package": "StrategyLib",
@@ -810,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AenCode",
           "normalized": "Coder-\u003ea-\u003eCoder",
@@ -826,6 +896,7 @@
       "document": {
         "description": {
           "description": "Completely filled generic set\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AfullGSet",
           "package": "StrategyLib",
@@ -835,6 +906,7 @@
         "index": {
           "description": "Completely filled generic set",
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AfullGSet",
           "package": "StrategyLib",
@@ -848,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AgetCode",
           "package": "StrategyLib",
@@ -856,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AgetCode",
           "normalized": "Coder-\u003ea-\u003eMaybe Int",
@@ -871,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AgetGList",
           "package": "StrategyLib",
@@ -879,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AgetGList",
           "normalized": "Integer-\u003eGList-\u003eMaybe a",
@@ -895,6 +971,7 @@
       "document": {
         "description": {
           "description": "Obtain the value for a given key from a generic map\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AgetGMap",
           "package": "StrategyLib",
@@ -904,6 +981,7 @@
         "index": {
           "description": "Obtain the value for given key from generic map",
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AgetGMap",
           "normalized": "a-\u003eGMap b-\u003eMaybe b",
@@ -919,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AmapGListTP",
           "package": "StrategyLib",
@@ -927,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AmapGListTP",
           "normalized": "TP Maybe-\u003eGList-\u003eGList",
@@ -942,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AmapGListTU",
           "package": "StrategyLib",
@@ -950,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AmapGListTU",
           "normalized": "(a-\u003e())-\u003eTU b Maybe-\u003eGList-\u003e[Maybe b]",
@@ -966,6 +1048,7 @@
       "document": {
         "description": {
           "description": "Pointwise modification of monomorphic functions\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3Amodify",
           "package": "StrategyLib",
@@ -975,6 +1058,7 @@
         "index": {
           "description": "Pointwise modification of monomorphic functions",
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3Amodify",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb-\u003ea-\u003eb",
@@ -991,6 +1075,7 @@
       "document": {
         "description": {
           "description": "Pointwise modification of type-preserving strategies\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AmodifyTP",
           "package": "StrategyLib",
@@ -1000,6 +1085,7 @@
         "index": {
           "description": "Pointwise modification of type-preserving strategies",
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AmodifyTP",
           "normalized": "TP a-\u003eb-\u003ea b-\u003eTP a",
@@ -1016,6 +1102,7 @@
       "document": {
         "description": {
           "description": "Pointwise modification of type-unifying strategies\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AmodifyTU",
           "package": "StrategyLib",
@@ -1025,6 +1112,7 @@
         "index": {
           "description": "Pointwise modification of type-unifying strategies",
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AmodifyTU",
           "normalized": "TU a b-\u003ec-\u003eb a-\u003eTU a b",
@@ -1040,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AnextCode",
           "package": "StrategyLib",
@@ -1048,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AnextCode",
           "normalized": "Coder-\u003e(Int,Coder)",
@@ -1063,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AnoCode",
           "package": "StrategyLib",
@@ -1071,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AnoCode",
           "package": "StrategyLib",
@@ -1084,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3Anth",
           "package": "StrategyLib",
@@ -1092,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3Anth",
           "normalized": "[a]-\u003eInteger-\u003ea",
@@ -1107,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AputGList",
           "package": "StrategyLib",
@@ -1115,6 +1210,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AputGList",
           "normalized": "Integer-\u003ea-\u003eGList-\u003eGList",
@@ -1131,6 +1227,7 @@
       "document": {
         "description": {
           "description": "Add an entry with given key and value to a generic map\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AputGMap",
           "package": "StrategyLib",
@@ -1140,6 +1237,7 @@
         "index": {
           "description": "Add an entry with given key and value to generic map",
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AputGMap",
           "normalized": "a-\u003eb-\u003eGMap b-\u003eGMap b",
@@ -1156,6 +1254,7 @@
       "document": {
         "description": {
           "description": "Remove an element from a generic map (my key)\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AremoveGMap",
           "package": "StrategyLib",
@@ -1165,6 +1264,7 @@
         "index": {
           "description": "Remove an element from generic map my key",
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AremoveGMap",
           "normalized": "a-\u003eGMap b-\u003eGMap b",
@@ -1181,6 +1281,7 @@
       "document": {
         "description": {
           "description": "Remove an element from a generic set\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AremoveGSet",
           "package": "StrategyLib",
@@ -1190,6 +1291,7 @@
         "index": {
           "description": "Remove an element from generic set",
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AremoveGSet",
           "normalized": "a-\u003eGSet-\u003eGSet",
@@ -1205,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AsetCode",
           "package": "StrategyLib",
@@ -1213,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib ContainerTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.ContainerTheme",
           "name": "3AsetCode",
           "normalized": "Coder-\u003ea-\u003eInt-\u003eCoder",
@@ -1229,6 +1333,7 @@
       "document": {
         "description": {
           "description": "default value (Note: universally quantified!)\ntype-preserving partial strategy\ntype-preserving strategy without partiality\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.EffectTheme",
           "name": "3AguaranteeSuccessTP",
           "package": "StrategyLib",
@@ -1238,6 +1343,7 @@
         "index": {
           "description": "default value Note universally quantified type-preserving partial strategy type-preserving strategy without partiality",
           "hierarchy": "Data Generics Strafunski StrategyLib EffectTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.EffectTheme",
           "name": "3AguaranteeSuccessTP",
           "normalized": "(a b b)-\u003eTP(c d)-\u003eTP d",
@@ -1254,6 +1360,7 @@
       "document": {
         "description": {
           "description": "default value\ntype-preserving partial strategy\ntype-preserving strategy without partiality\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.EffectTheme",
           "name": "3AguaranteeSuccessTU",
           "package": "StrategyLib",
@@ -1263,6 +1370,7 @@
         "index": {
           "description": "default value type-preserving partial strategy type-preserving strategy without partiality",
           "hierarchy": "Data Generics Strafunski StrategyLib EffectTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.EffectTheme",
           "name": "3AguaranteeSuccessTU",
           "normalized": "a-\u003eTU a(b c)-\u003eTU a c",
@@ -1279,6 +1387,7 @@
       "document": {
         "description": {
           "description": "Add an effect to the monad in a type-preserving strategy. \n   The monads are related by a monad transformer, so the effects of the\n   incoming monad are preserved in the result monad. We use the \u003ctt\u003e\u003ca\u003elift\u003c/a\u003e\u003c/tt\u003e\n   function of the monad transformer.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.EffectTheme",
           "name": "3AliftTP",
           "package": "StrategyLib",
@@ -1288,6 +1397,7 @@
         "index": {
           "description": "Add an effect to the monad in type-preserving strategy The monads are related by monad transformer so the effects of the incoming monad are preserved in the result monad We use the lift function of the monad transformer",
           "hierarchy": "Data Generics Strafunski StrategyLib EffectTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.EffectTheme",
           "name": "3AliftTP",
           "normalized": "TP a-\u003eTP(b a)",
@@ -1304,6 +1414,7 @@
       "document": {
         "description": {
           "description": "Add an effect to the monad in a type-unifying strategy. \n   The monads are related by a monad transformer, so the effects of the\n   incoming monad are preserved in the result monad. We use the \u003ctt\u003e\u003ca\u003elift\u003c/a\u003e\u003c/tt\u003e\n   function of the monad transformer.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.EffectTheme",
           "name": "3AliftTU",
           "package": "StrategyLib",
@@ -1313,6 +1424,7 @@
         "index": {
           "description": "Add an effect to the monad in type-unifying strategy The monads are related by monad transformer so the effects of the incoming monad are preserved in the result monad We use the lift function of the monad transformer",
           "hierarchy": "Data Generics Strafunski StrategyLib EffectTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.EffectTheme",
           "name": "3AliftTU",
           "normalized": "TU a b-\u003eTU a(c b)",
@@ -1329,6 +1441,7 @@
       "document": {
         "description": {
           "description": "Localize the state of a type-preserving strategy. The first argument\n   represents the initial state.  \n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.EffectTheme",
           "name": "3AlocalStateTP",
           "package": "StrategyLib",
@@ -1338,6 +1451,7 @@
         "index": {
           "description": "Localize the state of type-preserving strategy The first argument represents the initial state",
           "hierarchy": "Data Generics Strafunski StrategyLib EffectTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.EffectTheme",
           "name": "3AlocalStateTP",
           "normalized": "a-\u003eTP(b c)-\u003eTP c",
@@ -1354,6 +1468,7 @@
       "document": {
         "description": {
           "description": "Localize the state of a type-unifying strategy. The first argument\n   represents the initial state.  \n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.EffectTheme",
           "name": "3AlocalStateTU",
           "package": "StrategyLib",
@@ -1363,6 +1478,7 @@
         "index": {
           "description": "Localize the state of type-unifying strategy The first argument represents the initial state",
           "hierarchy": "Data Generics Strafunski StrategyLib EffectTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.EffectTheme",
           "name": "3AlocalStateTU",
           "normalized": "a-\u003eTU b(c d)-\u003eTU b d",
@@ -1379,6 +1495,7 @@
       "document": {
         "description": {
           "description": "Replace the monad in a type-preserving strategy, given a monad\n   algebra (see \u003ctt\u003e\u003ca\u003eMonadRun\u003c/a\u003e\u003c/tt\u003e) for the monad that is replaced. The two \n   monads are unrelated, so none of the effects in the monad that is\n   replaced carry over to the one that replaces it.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.EffectTheme",
           "name": "3AmrunTP",
           "package": "StrategyLib",
@@ -1388,6 +1505,7 @@
         "index": {
           "description": "Replace the monad in type-preserving strategy given monad algebra see MonadRun for the monad that is replaced The two monads are unrelated so none of the effects in the monad that is replaced carry over to the one that replaces it",
           "hierarchy": "Data Generics Strafunski StrategyLib EffectTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.EffectTheme",
           "name": "3AmrunTP",
           "normalized": "(a b c b b)-\u003eTP d-\u003eTP e",
@@ -1404,6 +1522,7 @@
       "document": {
         "description": {
           "description": "Replace the monad in a type-unifying strategy, given a monad\n   algebra (see \u003ctt\u003e\u003ca\u003eMonadRun\u003c/a\u003e\u003c/tt\u003e) for the monad that is replaced. The two \n   monads are unrelated, so none of the effects in the monad that is\n   replaced carry over to the one that replaces it.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.EffectTheme",
           "name": "3AmrunTU",
           "package": "StrategyLib",
@@ -1413,6 +1532,7 @@
         "index": {
           "description": "Replace the monad in type-unifying strategy given monad algebra see MonadRun for the monad that is replaced The two monads are unrelated so none of the effects in the monad that is replaced carry over to the one that replaces it",
           "hierarchy": "Data Generics Strafunski StrategyLib EffectTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.EffectTheme",
           "name": "3AmrunTU",
           "normalized": "a b b-\u003eTU b c-\u003eTU b d",
@@ -1429,6 +1549,7 @@
       "document": {
         "description": {
           "description": "remove an effect from the monad of a type-preserving strategy.\n   The monads are related by a monad untransformer (see \u003ctt\u003e\u003ca\u003eMonadUnTrans\u003c/a\u003e\u003c/tt\u003e),\n   so the effects of the incoming monad are preserved in the result\n   monad, except for the effect for which a monad algebra is supplied.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.EffectTheme",
           "name": "3AunliftTP",
           "package": "StrategyLib",
@@ -1438,6 +1559,7 @@
         "index": {
           "description": "remove an effect from the monad of type-preserving strategy The monads are related by monad untransformer see MonadUnTrans so the effects of the incoming monad are preserved in the result monad except for the effect for which monad algebra is supplied",
           "hierarchy": "Data Generics Strafunski StrategyLib EffectTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.EffectTheme",
           "name": "3AunliftTP",
           "normalized": "(a b c b b)-\u003eTP(d e)-\u003eTP e",
@@ -1454,6 +1576,7 @@
       "document": {
         "description": {
           "description": "remove an effect from the monad of a type-unifying strategy.\n   The monads are related by a monad untransformer (see \u003ctt\u003e\u003ca\u003eMonadUnTrans\u003c/a\u003e\u003c/tt\u003e),\n   so the effects of the incoming monad are preserved in the result\n   monad, except for the effect for which a monad algebra is supplied.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.EffectTheme",
           "name": "3AunliftTU",
           "package": "StrategyLib",
@@ -1463,6 +1586,7 @@
         "index": {
           "description": "remove an effect from the monad of type-unifying strategy The monads are related by monad untransformer see MonadUnTrans so the effects of the incoming monad are preserved in the result monad except for the effect for which monad algebra is supplied",
           "hierarchy": "Data Generics Strafunski StrategyLib EffectTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.EffectTheme",
           "name": "3AunliftTU",
           "normalized": "a b b-\u003eTU b(c d)-\u003eTU b d",
@@ -1479,6 +1603,7 @@
       "document": {
         "description": {
           "description": "Unsafe version of \u003ctt\u003e\u003ca\u003eguaranteeSuccessTP\u003c/a\u003e\u003c/tt\u003e. This version uses uses \u003ctt\u003e\u003ca\u003eundefined\u003c/a\u003e\u003c/tt\u003e\n   to recover from failure. For the type-preserving case, this is the only\n   possible default value.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.EffectTheme",
           "name": "3AunsafeGuaranteeSuccessTP",
           "package": "StrategyLib",
@@ -1488,6 +1613,7 @@
         "index": {
           "description": "Unsafe version of guaranteeSuccessTP This version uses uses undefined to recover from failure For the type-preserving case this is the only possible default value",
           "hierarchy": "Data Generics Strafunski StrategyLib EffectTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.EffectTheme",
           "name": "3AunsafeGuaranteeSuccessTP",
           "normalized": "TP(a b)-\u003eTP b",
@@ -1504,6 +1630,7 @@
       "document": {
         "description": {
           "description": "Exhaustive repeated application according to the left-most\n   innermost traversal strategy, implemented in a more \n   efficient way.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FixpointTheme",
           "name": "3Ainnermost",
           "package": "StrategyLib",
@@ -1513,6 +1640,7 @@
         "index": {
           "description": "Exhaustive repeated application according to the left-most innermost traversal strategy implemented in more efficient way",
           "hierarchy": "Data Generics Strafunski StrategyLib FixpointTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FixpointTheme",
           "name": "3Ainnermost",
           "normalized": "TP a-\u003eTP a",
@@ -1529,6 +1657,7 @@
       "document": {
         "description": {
           "description": "Exhaustive repeated application according to the left-most\n   innermost traversal strategy, implemented in a naive way.\n   Use \u003ctt\u003e\u003ca\u003einnermost\u003c/a\u003e\u003c/tt\u003e instead.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FixpointTheme",
           "name": "3Ainnermost'",
           "package": "StrategyLib",
@@ -1538,6 +1667,7 @@
         "index": {
           "description": "Exhaustive repeated application according to the left-most innermost traversal strategy implemented in naive way Use innermost instead",
           "hierarchy": "Data Generics Strafunski StrategyLib FixpointTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FixpointTheme",
           "name": "3Ainnermost'",
           "normalized": "TP a-\u003eTP a",
@@ -1554,6 +1684,7 @@
       "document": {
         "description": {
           "description": "Exhaustive repeated application according to the left-most\n   outermost traversal strategy.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FixpointTheme",
           "name": "3Aoutermost",
           "package": "StrategyLib",
@@ -1563,6 +1694,7 @@
         "index": {
           "description": "Exhaustive repeated application according to the left-most outermost traversal strategy",
           "hierarchy": "Data Generics Strafunski StrategyLib FixpointTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FixpointTheme",
           "name": "3Aoutermost",
           "normalized": "TP a-\u003eTP a",
@@ -1579,6 +1711,7 @@
       "document": {
         "description": {
           "description": "Exhaustive repeated application throughout the input term.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FixpointTheme",
           "name": "3Areduce",
           "package": "StrategyLib",
@@ -1588,6 +1721,7 @@
         "index": {
           "description": "Exhaustive repeated application throughout the input term",
           "hierarchy": "Data Generics Strafunski StrategyLib FixpointTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FixpointTheme",
           "name": "3Areduce",
           "normalized": "TP a-\u003eTP a",
@@ -1604,6 +1738,7 @@
       "document": {
         "description": {
           "description": "Exhaustive repeated application at the root of the input term\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FixpointTheme",
           "name": "3ArepeatTP",
           "package": "StrategyLib",
@@ -1613,6 +1748,7 @@
         "index": {
           "description": "Exhaustive repeated application at the root of the input term",
           "hierarchy": "Data Generics Strafunski StrategyLib FixpointTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FixpointTheme",
           "name": "3ArepeatTP",
           "normalized": "TP a-\u003eTP a",
@@ -1629,6 +1765,7 @@
       "document": {
         "description": {
           "description": "Type guard (function type), i.e., guard that does not observe values\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3ATypeGuard",
           "package": "StrategyLib",
@@ -1637,6 +1774,7 @@
         "index": {
           "description": "Type guard function type i.e guard that does not observe values",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3ATypeGuard",
           "package": "StrategyLib",
@@ -1651,6 +1789,7 @@
       "document": {
         "description": {
           "description": "If predicate g holds for the input term, return it as output term,\n   otherwise fail.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AfilterTP",
           "package": "StrategyLib",
@@ -1660,6 +1799,7 @@
         "index": {
           "description": "If predicate holds for the input term return it as output term otherwise fail",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AfilterTP",
           "normalized": "(a-\u003eBool)-\u003eTP b",
@@ -1676,6 +1816,7 @@
       "document": {
         "description": {
           "description": "If predicate g holds for the input term, return it as output value,\n   otherwise fail.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AfilterTU",
           "package": "StrategyLib",
@@ -1685,6 +1826,7 @@
         "index": {
           "description": "If predicate holds for the input term return it as output value otherwise fail",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AfilterTU",
           "normalized": "(a-\u003eBool)-\u003eTU a b",
@@ -1701,6 +1843,7 @@
       "document": {
         "description": {
           "description": "If c succeeds, pass its value to the then-clause t, \n   otherwise revert to the else-clause e.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AifS",
           "package": "StrategyLib",
@@ -1710,6 +1853,7 @@
         "index": {
           "description": "If succeeds pass its value to the then-clause otherwise revert to the else-clause",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AifS",
           "normalized": "TU a b-\u003e(a-\u003ec b)-\u003ec b-\u003ec b",
@@ -1726,6 +1870,7 @@
       "document": {
         "description": {
           "description": "If c succeeds, pass its value to the then-clause t, \n   otherwise revert to the else-clause e.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AifTP",
           "package": "StrategyLib",
@@ -1735,6 +1880,7 @@
         "index": {
           "description": "If succeeds pass its value to the then-clause otherwise revert to the else-clause",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AifTP",
           "normalized": "TU a b-\u003e(a-\u003eTP b)-\u003eTP b-\u003eTP b",
@@ -1751,6 +1897,7 @@
       "document": {
         "description": {
           "description": "If c succeeds, pass its value to the then-clause t, \n   otherwise revert to the else-clause e.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AifTU",
           "package": "StrategyLib",
@@ -1760,6 +1907,7 @@
         "index": {
           "description": "If succeeds pass its value to the then-clause otherwise revert to the else-clause",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AifTU",
           "normalized": "TU a b-\u003e(a-\u003eTU c b)-\u003eTU c b-\u003eTU c b",
@@ -1776,6 +1924,7 @@
       "document": {
         "description": {
           "description": "Guard then-clause t by the void-valued type-unifying\n   condition c.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AifthenS",
           "package": "StrategyLib",
@@ -1785,6 +1934,7 @@
         "index": {
           "description": "Guard then-clause by the void-valued type-unifying condition",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AifthenS",
           "normalized": "TU()a-\u003eb a-\u003eb a",
@@ -1801,6 +1951,7 @@
       "document": {
         "description": {
           "description": "Guard type-preserving then-clause t by the void-valued type-unifying\n   condition c.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AifthenTP",
           "package": "StrategyLib",
@@ -1810,6 +1961,7 @@
         "index": {
           "description": "Guard type-preserving then-clause by the void-valued type-unifying condition",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AifthenTP",
           "normalized": "TU()a-\u003eTP a-\u003eTP a",
@@ -1826,6 +1978,7 @@
       "document": {
         "description": {
           "description": "Guard type-unifying then-clause t by the void-valued type-unifying\n   condition c.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AifthenTU",
           "package": "StrategyLib",
@@ -1835,6 +1988,7 @@
         "index": {
           "description": "Guard type-unifying then-clause by the void-valued type-unifying condition",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AifthenTU",
           "normalized": "TU()a-\u003eTU b a-\u003eTU b a",
@@ -1851,6 +2005,7 @@
       "document": {
         "description": {
           "description": "Invert the success-value of strategy s.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AnotS",
           "package": "StrategyLib",
@@ -1860,6 +2015,7 @@
         "index": {
           "description": "Invert the success-value of strategy",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AnotS",
           "normalized": "a b-\u003eTP b",
@@ -1876,6 +2032,7 @@
       "document": {
         "description": {
           "description": "Invert the success-value of type-preserving strategy s. Its output\n   term (in case of success) will be ignored.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AnotTP",
           "package": "StrategyLib",
@@ -1885,6 +2042,7 @@
         "index": {
           "description": "Invert the success-value of type-preserving strategy Its output term in case of success will be ignored",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AnotTP",
           "normalized": "TP a-\u003eTP a",
@@ -1901,6 +2059,7 @@
       "document": {
         "description": {
           "description": "Invert the success-value of type-unifying strategy s. Its output\n   value (in case of success) will be ignored.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AnotTU",
           "package": "StrategyLib",
@@ -1910,6 +2069,7 @@
         "index": {
           "description": "Invert the success-value of type-unifying strategy Its output value in case of success will be ignored",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AnotTU",
           "normalized": "TU a b-\u003eTP b",
@@ -1926,6 +2086,7 @@
       "document": {
         "description": {
           "description": "Test for a strategy's success in a type-preserving context.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AtestS",
           "package": "StrategyLib",
@@ -1935,6 +2096,7 @@
         "index": {
           "description": "Test for strategy success in type-preserving context",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AtestS",
           "normalized": "a b-\u003eTP b",
@@ -1951,6 +2113,7 @@
       "document": {
         "description": {
           "description": "Test for a type-preserving strategy's success in a\n   type-preserving context.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AtestTP",
           "package": "StrategyLib",
@@ -1960,6 +2123,7 @@
         "index": {
           "description": "Test for type-preserving strategy success in type-preserving context",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AtestTP",
           "normalized": "TP a-\u003eTP a",
@@ -1976,6 +2140,7 @@
       "document": {
         "description": {
           "description": "Test for a type-unifying strategy's success in a \n   type-preserving context.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AtestTU",
           "package": "StrategyLib",
@@ -1985,6 +2150,7 @@
         "index": {
           "description": "Test for type-unifying strategy success in type-preserving context",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AtestTU",
           "normalized": "TU a b-\u003eTP b",
@@ -2001,6 +2167,7 @@
       "document": {
         "description": {
           "description": "If predicate g holds for the input term, \n   return 1 otherwise return 0.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AtickTU",
           "package": "StrategyLib",
@@ -2010,6 +2177,7 @@
         "index": {
           "description": "If predicate holds for the input term return otherwise return",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AtickTU",
           "normalized": "(a-\u003eBool)-\u003eTU b c",
@@ -2026,6 +2194,7 @@
       "document": {
         "description": {
           "description": "Attempt a strategy s, but recover if it fails.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AtryS",
           "package": "StrategyLib",
@@ -2035,6 +2204,7 @@
         "index": {
           "description": "Attempt strategy but recover if it fails",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AtryS",
           "normalized": "a b-\u003ea b",
@@ -2051,6 +2221,7 @@
       "document": {
         "description": {
           "description": "Attempt a type-preserving strategy s, but if it fails, return the\n   input term unchanged.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AtryTP",
           "package": "StrategyLib",
@@ -2060,6 +2231,7 @@
         "index": {
           "description": "Attempt type-preserving strategy but if it fails return the input term unchanged",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AtryTP",
           "normalized": "TP a-\u003eTP a",
@@ -2076,6 +2248,7 @@
       "document": {
         "description": {
           "description": "Attempt a type-unifying strategy s, but if it fails, return the\n   \u003ctt\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/tt\u003e element of a \u003ctt\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AtryTU",
           "package": "StrategyLib",
@@ -2085,6 +2258,7 @@
         "index": {
           "description": "Attempt type-unifying strategy but if it fails return the mempty element of Monoid",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AtryTU",
           "normalized": "TU a b-\u003eTU a b",
@@ -2101,6 +2275,7 @@
       "document": {
         "description": {
           "description": "If type guard holds for the input term, return it as output term,\n   otherwise fail. \n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AtypeFilterTP",
           "package": "StrategyLib",
@@ -2110,6 +2285,7 @@
         "index": {
           "description": "If type guard holds for the input term return it as output term otherwise fail",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AtypeFilterTP",
           "normalized": "TypeGuard a-\u003eTP b",
@@ -2126,6 +2302,7 @@
       "document": {
         "description": {
           "description": "If type guard holds for the input term, return it as output value,\n   otherwise fail. \n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AtypeFilterTU",
           "package": "StrategyLib",
@@ -2135,6 +2312,7 @@
         "index": {
           "description": "If type guard holds for the input term return it as output value otherwise fail",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AtypeFilterTU",
           "normalized": "TypeGuard a-\u003eTU a b",
@@ -2151,6 +2329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType guard (function). \n   Typical usage:\n\u003c/p\u003e\u003cpre\u003e \n   full_tdTU (typeTickTU (typeGuard::TypeGuard MyType))\n \u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AtypeGuard",
           "package": "StrategyLib",
@@ -2160,6 +2339,7 @@
         "index": {
           "description": "Type guard function Typical usage full tdTU typeTickTU typeGuard TypeGuard MyType",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AtypeGuard",
           "package": "StrategyLib",
@@ -2174,6 +2354,7 @@
       "document": {
         "description": {
           "description": "If type guard holds for the input term, \n   return 1 otherwise return 0.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AtypeTickTU",
           "package": "StrategyLib",
@@ -2183,6 +2364,7 @@
         "index": {
           "description": "If type guard holds for the input term return otherwise return",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AtypeTickTU",
           "normalized": "TypeGuard a-\u003eTU b c",
@@ -2199,6 +2381,7 @@
       "document": {
         "description": {
           "description": "Succeed if exactly one argument strategy succeeds.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AxchoiceS",
           "package": "StrategyLib",
@@ -2208,6 +2391,7 @@
         "index": {
           "description": "Succeed if exactly one argument strategy succeeds",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AxchoiceS",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -2224,6 +2408,7 @@
       "document": {
         "description": {
           "description": "Succeed if exactly one argument strategy succeeds.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AxchoiceTP",
           "package": "StrategyLib",
@@ -2233,6 +2418,7 @@
         "index": {
           "description": "Succeed if exactly one argument strategy succeeds",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AxchoiceTP",
           "normalized": "TP a-\u003eTP a-\u003eTP a",
@@ -2249,6 +2435,7 @@
       "document": {
         "description": {
           "description": "Succeed if exactly one argument strategy succeeds.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AxchoiceTU",
           "package": "StrategyLib",
@@ -2258,6 +2445,7 @@
         "index": {
           "description": "Succeed if exactly one argument strategy succeeds",
           "hierarchy": "Data Generics Strafunski StrategyLib FlowTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.FlowTheme",
           "name": "3AxchoiceTU",
           "normalized": "TU a b-\u003eTU a b-\u003eTU a b",
@@ -2274,6 +2462,7 @@
       "document": {
         "description": {
           "description": "Identify focus\nInput term\nOutput term without focused entity\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.KeyholeTheme",
           "name": "3AdeleteFocus",
           "package": "StrategyLib",
@@ -2283,6 +2472,7 @@
         "index": {
           "description": "Identify focus Input term Output term without focused entity",
           "hierarchy": "Data Generics Strafunski StrategyLib KeyholeTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.KeyholeTheme",
           "name": "3AdeleteFocus",
           "normalized": "(a-\u003eMaybe a)-\u003eb-\u003eMaybe b",
@@ -2299,6 +2489,7 @@
       "document": {
         "description": {
           "description": "Apply the argument function to the unique subterm of the input term.\n   Fail if the input term has more subterms or if the subterm is not of\n   the appropriate type. This is a keyhole version of the traversal\n   combinator \u003ctt\u003e\u003ca\u003einjTP\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.KeyholeTheme",
           "name": "3Ainj",
           "package": "StrategyLib",
@@ -2308,6 +2499,7 @@
         "index": {
           "description": "Apply the argument function to the unique subterm of the input term Fail if the input term has more subterms or if the subterm is not of the appropriate type This is keyhole version of the traversal combinator injTP",
           "hierarchy": "Data Generics Strafunski StrategyLib KeyholeTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.KeyholeTheme",
           "name": "3Ainj",
           "normalized": "(a-\u003eb a)-\u003ec-\u003eb c",
@@ -2324,6 +2516,7 @@
       "document": {
         "description": {
           "description": "Put all nodes of a certain type into a list.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.KeyholeTheme",
           "name": "3Alistify",
           "package": "StrategyLib",
@@ -2333,6 +2526,7 @@
         "index": {
           "description": "Put all nodes of certain type into list",
           "hierarchy": "Data Generics Strafunski StrategyLib KeyholeTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.KeyholeTheme",
           "name": "3Alistify",
           "normalized": "a-\u003e[b]",
@@ -2349,6 +2543,7 @@
       "document": {
         "description": {
           "description": "Test focus\nWrap host\nInput term\nOutput term\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.KeyholeTheme",
           "name": "3AmarkHost",
           "package": "StrategyLib",
@@ -2358,6 +2553,7 @@
         "index": {
           "description": "Test focus Wrap host Input term Output term",
           "hierarchy": "Data Generics Strafunski StrategyLib KeyholeTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.KeyholeTheme",
           "name": "3AmarkHost",
           "normalized": "(a-\u003eBool)-\u003e(b-\u003eb)-\u003ec-\u003eMaybe c",
@@ -2374,6 +2570,7 @@
       "document": {
         "description": {
           "description": "Replace the identified focus.\n   Fails if no subterm can be replaced.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.KeyholeTheme",
           "name": "3AreplaceFocus",
           "package": "StrategyLib",
@@ -2383,6 +2580,7 @@
         "index": {
           "description": "Replace the identified focus Fails if no subterm can be replaced",
           "hierarchy": "Data Generics Strafunski StrategyLib KeyholeTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.KeyholeTheme",
           "name": "3AreplaceFocus",
           "normalized": "(a-\u003eMaybe a)-\u003eb-\u003eMaybe b",
@@ -2399,6 +2597,7 @@
       "document": {
         "description": {
           "description": "Identify focus\nInput term\nFocused term\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.KeyholeTheme",
           "name": "3AselectFocus",
           "package": "StrategyLib",
@@ -2408,6 +2607,7 @@
         "index": {
           "description": "Identify focus Input term Focused term",
           "hierarchy": "Data Generics Strafunski StrategyLib KeyholeTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.KeyholeTheme",
           "name": "3AselectFocus",
           "normalized": "(a-\u003eMaybe a)-\u003eb-\u003eMaybe a",
@@ -2424,6 +2624,7 @@
       "document": {
         "description": {
           "description": "Get focus\nGet host\nInput term\nLocated host\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.KeyholeTheme",
           "name": "3AselectHost",
           "package": "StrategyLib",
@@ -2433,6 +2634,7 @@
         "index": {
           "description": "Get focus Get host Input term Located host",
           "hierarchy": "Data Generics Strafunski StrategyLib KeyholeTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.KeyholeTheme",
           "name": "3AselectHost",
           "normalized": "(a-\u003eMaybe a)-\u003e(b-\u003eMaybe b)-\u003ec-\u003eMaybe b",
@@ -2449,6 +2651,7 @@
       "document": {
         "description": {
           "description": "Put all nodes of type \u003ctt\u003e\u003ca\u003eString\u003c/a\u003e\u003c/tt\u003e into a list. This is a type-specialization\n   of \u003ctt\u003e\u003ca\u003elistify\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.KeyholeTheme",
           "name": "3Astrings",
           "package": "StrategyLib",
@@ -2458,6 +2661,7 @@
         "index": {
           "description": "Put all nodes of type String into list This is type-specialization of listify",
           "hierarchy": "Data Generics Strafunski StrategyLib KeyholeTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.KeyholeTheme",
           "name": "3Astrings",
           "normalized": "a-\u003e[String]",
@@ -2474,6 +2678,7 @@
       "document": {
         "description": {
           "description": "The type of metric names\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.MetricsTheme",
           "name": "3AMetricName",
           "package": "StrategyLib",
@@ -2482,6 +2687,7 @@
         "index": {
           "description": "The type of metric names",
           "hierarchy": "Data Generics Strafunski StrategyLib MetricsTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.MetricsTheme",
           "name": "3AMetricName",
           "package": "StrategyLib",
@@ -2495,6 +2701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.MetricsTheme",
           "name": "3AMetrics",
           "package": "StrategyLib",
@@ -2502,6 +2709,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib MetricsTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.MetricsTheme",
           "name": "3AMetrics",
           "package": "StrategyLib",
@@ -2516,6 +2724,7 @@
       "document": {
         "description": {
           "description": "Recognize relevant contructs\nCount nesting depth of relevant constructs.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.MetricsTheme",
           "name": "3AdepthWith",
           "package": "StrategyLib",
@@ -2525,6 +2734,7 @@
         "index": {
           "description": "Recognize relevant contructs Count nesting depth of relevant constructs",
           "hierarchy": "Data Generics Strafunski StrategyLib MetricsTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.MetricsTheme",
           "name": "3AdepthWith",
           "normalized": "TU()a-\u003eTU Int a",
@@ -2541,6 +2751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate \u003ctt\u003e\u003ca\u003eMetrics\u003c/a\u003e\u003c/tt\u003e with\ninitTypeMetrics \t:: MetricName -\u003e a -\u003e Metrics\ninitTypeMetrics key _   =  incMetrics1 key initMetrics0\n\u003c/p\u003e\u003cp\u003eIncrement metric with the given name with the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.MetricsTheme",
           "name": "3AincMetrics",
           "package": "StrategyLib",
@@ -2550,6 +2761,7 @@
         "index": {
           "description": "Create Metrics with initTypeMetrics MetricName Metrics initTypeMetrics key incMetrics1 key initMetrics0 Increment metric with the given name with the given value",
           "hierarchy": "Data Generics Strafunski StrategyLib MetricsTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.MetricsTheme",
           "name": "3AincMetrics",
           "normalized": "MetricName-\u003eInteger-\u003eMetrics-\u003eMetrics",
@@ -2566,6 +2778,7 @@
       "document": {
         "description": {
           "description": "Increment metric with the given name by 1.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.MetricsTheme",
           "name": "3AincMetrics1",
           "package": "StrategyLib",
@@ -2575,6 +2788,7 @@
         "index": {
           "description": "Increment metric with the given name by",
           "hierarchy": "Data Generics Strafunski StrategyLib MetricsTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.MetricsTheme",
           "name": "3AincMetrics1",
           "normalized": "MetricName-\u003eMetrics-\u003eMetrics",
@@ -2591,6 +2805,7 @@
       "document": {
         "description": {
           "description": "Create \u003ctt\u003e\u003ca\u003eMetrics\u003c/a\u003e\u003c/tt\u003e with given initial value for all metrics.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.MetricsTheme",
           "name": "3AinitMetrics",
           "package": "StrategyLib",
@@ -2600,6 +2815,7 @@
         "index": {
           "description": "Create Metrics with given initial value for all metrics",
           "hierarchy": "Data Generics Strafunski StrategyLib MetricsTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.MetricsTheme",
           "name": "3AinitMetrics",
           "normalized": "Integer-\u003eMetrics",
@@ -2616,6 +2832,7 @@
       "document": {
         "description": {
           "description": "Create \u003ctt\u003e\u003ca\u003eMetrics\u003c/a\u003e\u003c/tt\u003e with 0 as initial value for all metrics.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.MetricsTheme",
           "name": "3AinitMetrics0",
           "package": "StrategyLib",
@@ -2625,6 +2842,7 @@
         "index": {
           "description": "Create Metrics with as initial value for all metrics",
           "hierarchy": "Data Generics Strafunski StrategyLib MetricsTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.MetricsTheme",
           "name": "3AinitMetrics0",
           "package": "StrategyLib",
@@ -2639,6 +2857,7 @@
       "document": {
         "description": {
           "description": "Strategy that collects metrics\nName of the metric, and predicate\nStrategy that additionally collects predicate-based metric\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.MetricsTheme",
           "name": "3ApredMetric",
           "package": "StrategyLib",
@@ -2648,6 +2867,7 @@
         "index": {
           "description": "Strategy that collects metrics Name of the metric and predicate Strategy that additionally collects predicate-based metric",
           "hierarchy": "Data Generics Strafunski StrategyLib MetricsTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.MetricsTheme",
           "name": "3ApredMetric",
           "normalized": "TU Metrics a-\u003e(MetricName,b-\u003ea())-\u003eTU Metrics a",
@@ -2664,6 +2884,7 @@
       "document": {
         "description": {
           "description": "Print value of metric with the given name.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.MetricsTheme",
           "name": "3AputMetricLn",
           "package": "StrategyLib",
@@ -2673,6 +2894,7 @@
         "index": {
           "description": "Print value of metric with the given name",
           "hierarchy": "Data Generics Strafunski StrategyLib MetricsTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.MetricsTheme",
           "name": "3AputMetricLn",
           "normalized": "MetricName-\u003eMetrics-\u003eIO()",
@@ -2689,6 +2911,7 @@
       "document": {
         "description": {
           "description": "Metric collecting strategy\nName of the metric and type guard\nStrategy that additionally collects type-based metrics\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.MetricsTheme",
           "name": "3AtypeMetric",
           "package": "StrategyLib",
@@ -2698,6 +2921,7 @@
         "index": {
           "description": "Metric collecting strategy Name of the metric and type guard Strategy that additionally collects type-based metrics",
           "hierarchy": "Data Generics Strafunski StrategyLib MetricsTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.MetricsTheme",
           "name": "3AtypeMetric",
           "normalized": "TU Metrics a-\u003e(MetricName,b-\u003e())-\u003eTU Metrics a",
@@ -2714,6 +2938,7 @@
       "document": {
         "description": {
           "description": "Type guard described by the argument type of a function.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.MonadicFunctions",
           "name": "3Aargtype",
           "package": "StrategyLib",
@@ -2723,6 +2948,7 @@
         "index": {
           "description": "Type guard described by the argument type of function",
           "hierarchy": "Data Generics Strafunski StrategyLib MonadicFunctions",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.MonadicFunctions",
           "name": "3Aargtype",
           "normalized": "(a-\u003eb)-\u003ea-\u003ec()",
@@ -2739,6 +2965,7 @@
       "document": {
         "description": {
           "description": "A kind of monadic conditional.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.MonadicFunctions",
           "name": "3AifM",
           "package": "StrategyLib",
@@ -2748,6 +2975,7 @@
         "index": {
           "description": "kind of monadic conditional",
           "hierarchy": "Data Generics Strafunski StrategyLib MonadicFunctions",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.MonadicFunctions",
           "name": "3AifM",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003ea c-\u003ea c",
@@ -2764,6 +2992,7 @@
       "document": {
         "description": {
           "description": "Choice combinator for monadic functions\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.MonadicFunctions",
           "name": "3Amchoice",
           "package": "StrategyLib",
@@ -2773,6 +3002,7 @@
         "index": {
           "description": "Choice combinator for monadic functions",
           "hierarchy": "Data Generics Strafunski StrategyLib MonadicFunctions",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.MonadicFunctions",
           "name": "3Amchoice",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003eb c)-\u003ea-\u003eb c",
@@ -2789,6 +3019,7 @@
       "document": {
         "description": {
           "description": "Sequential composition with value passing; a kind of monadic let.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.MonadicFunctions",
           "name": "3Amlet",
           "package": "StrategyLib",
@@ -2798,6 +3029,7 @@
         "index": {
           "description": "Sequential composition with value passing kind of monadic let",
           "hierarchy": "Data Generics Strafunski StrategyLib MonadicFunctions",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.MonadicFunctions",
           "name": "3Amlet",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003ea-\u003eb d)-\u003ea-\u003eb d",
@@ -2814,6 +3046,7 @@
       "document": {
         "description": {
           "description": "Sequential composition of monadic functions\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.MonadicFunctions",
           "name": "3Amseq",
           "package": "StrategyLib",
@@ -2823,6 +3056,7 @@
         "index": {
           "description": "Sequential composition of monadic functions",
           "hierarchy": "Data Generics Strafunski StrategyLib MonadicFunctions",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.MonadicFunctions",
           "name": "3Amseq",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003eb d)-\u003ea-\u003eb d",
@@ -2839,6 +3073,7 @@
       "document": {
         "description": {
           "description": "Type guard described by a type of a value.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.MonadicFunctions",
           "name": "3Avaltype",
           "package": "StrategyLib",
@@ -2848,6 +3083,7 @@
         "index": {
           "description": "Type guard described by type of value",
           "hierarchy": "Data Generics Strafunski StrategyLib MonadicFunctions",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.MonadicFunctions",
           "name": "3Avaltype",
           "normalized": "a-\u003ea-\u003eb()",
@@ -2864,6 +3100,7 @@
       "document": {
         "description": {
           "description": "Accumulate declarations for focus \n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.NameTheme",
           "name": "3AboundTypedNames",
           "package": "StrategyLib",
@@ -2873,6 +3110,7 @@
         "index": {
           "description": "Accumulate declarations for focus",
           "hierarchy": "Data Generics Strafunski StrategyLib NameTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.NameTheme",
           "name": "3AboundTypedNames",
           "normalized": "TU[(a,b)]Identity-\u003e(c-\u003eMaybe c)-\u003ed-\u003eMaybe([(a,b)],c)",
@@ -2889,6 +3127,7 @@
       "document": {
         "description": {
           "description": "Identify declarations\nIdentify references\nInput term\nFree names\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.NameTheme",
           "name": "3AfreeNames",
           "package": "StrategyLib",
@@ -2898,6 +3137,7 @@
         "index": {
           "description": "Identify declarations Identify references Input term Free names",
           "hierarchy": "Data Generics Strafunski StrategyLib NameTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.NameTheme",
           "name": "3AfreeNames",
           "normalized": "TU[(a,b)]Identity-\u003eTU[a]Identity-\u003ec-\u003e[a]",
@@ -2914,6 +3154,7 @@
       "document": {
         "description": {
           "description": "Identify declarations\nIdentify references\nDerived declarations\nInput term\nFree names with types\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.NameTheme",
           "name": "3AfreeTypedNames",
           "package": "StrategyLib",
@@ -2923,6 +3164,7 @@
         "index": {
           "description": "Identify declarations Identify references Derived declarations Input term Free names with types",
           "hierarchy": "Data Generics Strafunski StrategyLib NameTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.NameTheme",
           "name": "3AfreeTypedNames",
           "normalized": "TU[(a,b)]Identity-\u003eTU[a]Identity-\u003e[(a,b)]-\u003ec-\u003e[(a,b)]",
@@ -2938,6 +3180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AStrategy",
           "package": "StrategyLib",
@@ -2945,6 +3188,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib OverloadingTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AStrategy",
           "package": "StrategyLib",
@@ -2958,6 +3202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AStrategyApply",
           "package": "StrategyLib",
@@ -2965,6 +3210,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib OverloadingTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AStrategyApply",
           "package": "StrategyLib",
@@ -2978,6 +3224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AStrategyMSubst",
           "package": "StrategyLib",
@@ -2985,6 +3232,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib OverloadingTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AStrategyMSubst",
           "package": "StrategyLib",
@@ -2998,6 +3246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AStrategyMonoid",
           "package": "StrategyLib",
@@ -3005,6 +3254,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib OverloadingTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AStrategyMonoid",
           "package": "StrategyLib",
@@ -3018,6 +3268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AStrategyPlus",
           "package": "StrategyLib",
@@ -3025,6 +3276,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib OverloadingTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AStrategyPlus",
           "package": "StrategyLib",
@@ -3039,6 +3291,7 @@
       "document": {
         "description": {
           "description": "Dynamic type case\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AadhocS",
           "package": "StrategyLib",
@@ -3048,6 +3301,7 @@
         "index": {
           "description": "Dynamic type case",
           "hierarchy": "Data Generics Strafunski StrategyLib OverloadingTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AadhocS",
           "normalized": "a b-\u003e(c-\u003eb d)-\u003ea b",
@@ -3064,6 +3318,7 @@
       "document": {
         "description": {
           "description": "Push down to all children             \n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AallS",
           "package": "StrategyLib",
@@ -3073,6 +3328,7 @@
         "index": {
           "description": "Push down to all children",
           "hierarchy": "Data Generics Strafunski StrategyLib OverloadingTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AallS",
           "normalized": "a b-\u003ea b",
@@ -3089,6 +3345,7 @@
       "document": {
         "description": {
           "description": "Strategy application\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AapplyS",
           "package": "StrategyLib",
@@ -3098,6 +3355,7 @@
         "index": {
           "description": "Strategy application",
           "hierarchy": "Data Generics Strafunski StrategyLib OverloadingTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AapplyS",
           "normalized": "a b-\u003ec-\u003eb d",
@@ -3114,6 +3372,7 @@
       "document": {
         "description": {
           "description": "Choice             \n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AchoiceS",
           "package": "StrategyLib",
@@ -3123,6 +3382,7 @@
         "index": {
           "description": "Choice",
           "hierarchy": "Data Generics Strafunski StrategyLib OverloadingTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AchoiceS",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -3139,6 +3399,7 @@
       "document": {
         "description": {
           "description": "Combine sequentially        \n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AcombS",
           "package": "StrategyLib",
@@ -3148,6 +3409,7 @@
         "index": {
           "description": "Combine sequentially",
           "hierarchy": "Data Generics Strafunski StrategyLib OverloadingTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AcombS",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -3164,6 +3426,7 @@
       "document": {
         "description": {
           "description": "Failure\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AfailS",
           "package": "StrategyLib",
@@ -3173,6 +3436,7 @@
         "index": {
           "description": "Failure",
           "hierarchy": "Data Generics Strafunski StrategyLib OverloadingTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AfailS",
           "package": "StrategyLib",
@@ -3187,6 +3451,7 @@
       "document": {
         "description": {
           "description": "Overloaded lifting with failure \n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AmonoS",
           "package": "StrategyLib",
@@ -3196,6 +3461,7 @@
         "index": {
           "description": "Overloaded lifting with failure",
           "hierarchy": "Data Generics Strafunski StrategyLib OverloadingTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AmonoS",
           "normalized": "(a-\u003eb c)-\u003ed b",
@@ -3212,6 +3478,7 @@
       "document": {
         "description": {
           "description": "Substitute one monad for another\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AmsubstS",
           "package": "StrategyLib",
@@ -3221,6 +3488,7 @@
         "index": {
           "description": "Substitute one monad for another",
           "hierarchy": "Data Generics Strafunski StrategyLib OverloadingTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AmsubstS",
           "normalized": "(a b c b-\u003ed b)-\u003ee c-\u003ee d",
@@ -3237,6 +3505,7 @@
       "document": {
         "description": {
           "description": "Push down to a single child\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AoneS",
           "package": "StrategyLib",
@@ -3246,6 +3515,7 @@
         "index": {
           "description": "Push down to single child",
           "hierarchy": "Data Generics Strafunski StrategyLib OverloadingTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AoneS",
           "normalized": "a b-\u003ea b",
@@ -3262,6 +3532,7 @@
       "document": {
         "description": {
           "description": "Sequential composition with value passing        \n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3ApassS",
           "package": "StrategyLib",
@@ -3271,6 +3542,7 @@
         "index": {
           "description": "Sequential composition with value passing",
           "hierarchy": "Data Generics Strafunski StrategyLib OverloadingTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3ApassS",
           "normalized": "TU a b-\u003e(a-\u003ec b)-\u003ec b",
@@ -3287,6 +3559,7 @@
       "document": {
         "description": {
           "description": "Sequential composition          \n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AseqS",
           "package": "StrategyLib",
@@ -3296,6 +3569,7 @@
         "index": {
           "description": "Sequential composition",
           "hierarchy": "Data Generics Strafunski StrategyLib OverloadingTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AseqS",
           "normalized": "TP a-\u003eb a-\u003eb a",
@@ -3312,6 +3586,7 @@
       "document": {
         "description": {
           "description": "Identity (success)\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AskipS",
           "package": "StrategyLib",
@@ -3321,6 +3596,7 @@
         "index": {
           "description": "Identity success",
           "hierarchy": "Data Generics Strafunski StrategyLib OverloadingTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AskipS",
           "package": "StrategyLib",
@@ -3334,6 +3610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AvoidS",
           "package": "StrategyLib",
@@ -3342,6 +3619,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib OverloadingTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.OverloadingTheme",
           "name": "3AvoidS",
           "normalized": "a b-\u003eTU()b",
@@ -3358,6 +3636,7 @@
       "document": {
         "description": {
           "description": "Select or transform a node above a node where a condition holds. The\n   distance between guard and application node is minimized.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.PathTheme",
           "name": "3AaboveS",
           "package": "StrategyLib",
@@ -3367,6 +3646,7 @@
         "index": {
           "description": "Select or transform node above node where condition holds The distance between guard and application node is minimized",
           "hierarchy": "Data Generics Strafunski StrategyLib PathTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.PathTheme",
           "name": "3AaboveS",
           "normalized": "a b-\u003eTU()b-\u003ea b",
@@ -3383,6 +3663,7 @@
       "document": {
         "description": {
           "description": "Apply a transformation strictly above a node where a condition holds.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.PathTheme",
           "name": "3AaboveTP",
           "package": "StrategyLib",
@@ -3392,6 +3673,7 @@
         "index": {
           "description": "Apply transformation strictly above node where condition holds",
           "hierarchy": "Data Generics Strafunski StrategyLib PathTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.PathTheme",
           "name": "3AaboveTP",
           "normalized": "TP a-\u003eTU()a-\u003eTP a",
@@ -3408,6 +3690,7 @@
       "document": {
         "description": {
           "description": "Select or transform a node above or at a node where a condition holds.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.PathTheme",
           "name": "3AaboveeqS",
           "package": "StrategyLib",
@@ -3417,6 +3700,7 @@
         "index": {
           "description": "Select or transform node above or at node where condition holds",
           "hierarchy": "Data Generics Strafunski StrategyLib PathTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.PathTheme",
           "name": "3AaboveeqS",
           "normalized": "a b-\u003eTU()b-\u003ea b",
@@ -3433,6 +3717,7 @@
       "document": {
         "description": {
           "description": "Apply a transformation above or at a node where a condition holds.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.PathTheme",
           "name": "3AaboveeqTP",
           "package": "StrategyLib",
@@ -3442,6 +3727,7 @@
         "index": {
           "description": "Apply transformation above or at node where condition holds",
           "hierarchy": "Data Generics Strafunski StrategyLib PathTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.PathTheme",
           "name": "3AaboveeqTP",
           "normalized": "TP a-\u003eTU()a-\u003eTP a",
@@ -3458,6 +3744,7 @@
       "document": {
         "description": {
           "description": "Select or transform a node below a node where a condition holds.\n We find the top-most node which admits selection or transformation\n below the top-most node which meets the condition. Thus, the\n distance between guard and application node is minimized.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.PathTheme",
           "name": "3AbelowS",
           "package": "StrategyLib",
@@ -3467,6 +3754,7 @@
         "index": {
           "description": "Select or transform node below node where condition holds We find the top-most node which admits selection or transformation below the top-most node which meets the condition Thus the distance between guard and application node is minimized",
           "hierarchy": "Data Generics Strafunski StrategyLib PathTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.PathTheme",
           "name": "3AbelowS",
           "normalized": "a b-\u003eTU()b-\u003ea b",
@@ -3483,6 +3771,7 @@
       "document": {
         "description": {
           "description": "Apply a transformation strictly below a node where a condition holds.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.PathTheme",
           "name": "3AbelowTP",
           "package": "StrategyLib",
@@ -3492,6 +3781,7 @@
         "index": {
           "description": "Apply transformation strictly below node where condition holds",
           "hierarchy": "Data Generics Strafunski StrategyLib PathTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.PathTheme",
           "name": "3AbelowTP",
           "normalized": "TP a-\u003eTU()a-\u003eTP a",
@@ -3508,6 +3798,7 @@
       "document": {
         "description": {
           "description": "Select or transform a node below or at a node where a condition holds.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.PathTheme",
           "name": "3AbeloweqS",
           "package": "StrategyLib",
@@ -3517,6 +3808,7 @@
         "index": {
           "description": "Select or transform node below or at node where condition holds",
           "hierarchy": "Data Generics Strafunski StrategyLib PathTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.PathTheme",
           "name": "3AbeloweqS",
           "normalized": "a b-\u003eTU()b-\u003ea b",
@@ -3533,6 +3825,7 @@
       "document": {
         "description": {
           "description": "Apply a transformation below or at a node where a condition holds.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.PathTheme",
           "name": "3AbeloweqTP",
           "package": "StrategyLib",
@@ -3542,6 +3835,7 @@
         "index": {
           "description": "Apply transformation below or at node where condition holds",
           "hierarchy": "Data Generics Strafunski StrategyLib PathTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.PathTheme",
           "name": "3AbeloweqTP",
           "normalized": "TP a-\u003eTU()a-\u003eTP a",
@@ -3557,6 +3851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.RefactoringTheme",
           "name": "3AAbstraction",
           "package": "StrategyLib",
@@ -3564,6 +3859,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib RefactoringTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.RefactoringTheme",
           "name": "3AAbstraction",
           "package": "StrategyLib",
@@ -3577,6 +3873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.RefactoringTheme",
           "name": "3AconstrAbstr",
           "package": "StrategyLib",
@@ -3585,6 +3882,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib RefactoringTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.RefactoringTheme",
           "name": "3AconstrAbstr",
           "normalized": "a-\u003e[(a,b)]-\u003ec-\u003eMaybe d",
@@ -3600,6 +3898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.RefactoringTheme",
           "name": "3AconstrApply",
           "package": "StrategyLib",
@@ -3608,6 +3907,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib RefactoringTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.RefactoringTheme",
           "name": "3AconstrApply",
           "normalized": "a-\u003e[(a,b)]-\u003eMaybe c",
@@ -3624,6 +3924,7 @@
       "document": {
         "description": {
           "description": "Identify declarations\nIdentify references\nUnwrap abstraction\nInput program\nOutput program\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.RefactoringTheme",
           "name": "3Aeliminate",
           "package": "StrategyLib",
@@ -3633,6 +3934,7 @@
         "index": {
           "description": "Identify declarations Identify references Unwrap abstraction Input program Output program",
           "hierarchy": "Data Generics Strafunski StrategyLib RefactoringTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.RefactoringTheme",
           "name": "3Aeliminate",
           "normalized": "TU[(a,b)]Identity-\u003eTU[a]Identity-\u003e(c-\u003eMaybe c)-\u003ed-\u003eMaybe d",
@@ -3649,6 +3951,7 @@
       "document": {
         "description": {
           "description": "Identify declarations\nIdentify references\nUnwrap focus\nWrap host\nUnwrap host\nCheck focus\nName for abstraction\nInput program\nOutput program\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.RefactoringTheme",
           "name": "3Aextract",
           "package": "StrategyLib",
@@ -3658,6 +3961,7 @@
         "index": {
           "description": "Identify declarations Identify references Unwrap focus Wrap host Unwrap host Check focus Name for abstraction Input program Output program",
           "hierarchy": "Data Generics Strafunski StrategyLib RefactoringTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.RefactoringTheme",
           "name": "3Aextract",
           "normalized": "TU[(a,b)]Identity-\u003eTU[a]Identity-\u003e(c-\u003eMaybe c)-\u003e([d]-\u003e[d])-\u003e([d]-\u003eMaybe[d])-\u003e([(a,b)]-\u003ec-\u003eBool)-\u003ea-\u003ee-\u003eMaybe e",
@@ -3673,6 +3977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.RefactoringTheme",
           "name": "3AgetAbstrBody",
           "package": "StrategyLib",
@@ -3681,6 +3986,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib RefactoringTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.RefactoringTheme",
           "name": "3AgetAbstrBody",
           "normalized": "a-\u003eMaybe b",
@@ -3696,6 +4002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.RefactoringTheme",
           "name": "3AgetAbstrName",
           "package": "StrategyLib",
@@ -3704,6 +4011,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib RefactoringTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.RefactoringTheme",
           "name": "3AgetAbstrName",
           "normalized": "a-\u003eMaybe b",
@@ -3719,6 +4027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.RefactoringTheme",
           "name": "3AgetAbstrParas",
           "package": "StrategyLib",
@@ -3727,6 +4036,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib RefactoringTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.RefactoringTheme",
           "name": "3AgetAbstrParas",
           "normalized": "a-\u003eMaybe[(b,c)]",
@@ -3742,6 +4052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.RefactoringTheme",
           "name": "3AgetApplyName",
           "package": "StrategyLib",
@@ -3750,6 +4061,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib RefactoringTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.RefactoringTheme",
           "name": "3AgetApplyName",
           "normalized": "a-\u003eMaybe b",
@@ -3765,6 +4077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.RefactoringTheme",
           "name": "3AgetApplyParas",
           "package": "StrategyLib",
@@ -3773,6 +4086,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib RefactoringTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.RefactoringTheme",
           "name": "3AgetApplyParas",
           "normalized": "a-\u003eMaybe[(b,c)]",
@@ -3789,6 +4103,7 @@
       "document": {
         "description": {
           "description": "Identify declarations\nIdentify references\nUnwrap scope with abstractions\nAbstraction to be inserted\nInput program\nOutput program\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.RefactoringTheme",
           "name": "3Aintroduce",
           "package": "StrategyLib",
@@ -3798,6 +4113,7 @@
         "index": {
           "description": "Identify declarations Identify references Unwrap scope with abstractions Abstraction to be inserted Input program Output program",
           "hierarchy": "Data Generics Strafunski StrategyLib RefactoringTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.RefactoringTheme",
           "name": "3Aintroduce",
           "normalized": "TU[(a,b)]Identity-\u003eTU[a]Identity-\u003e([c]-\u003eMaybe[c])-\u003ec-\u003ed-\u003eMaybe d",
@@ -3814,6 +4130,7 @@
       "document": {
         "description": {
           "description": "Dynamic type-case\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyInfix",
           "name": "3A-+",
           "package": "StrategyLib",
@@ -3823,6 +4140,7 @@
         "index": {
           "description": "Dynamic type-case",
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyInfix",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyInfix",
           "name": "3A-+",
           "normalized": "a b-\u003e(c-\u003eb d)-\u003ea b",
@@ -3838,6 +4156,7 @@
       "document": {
         "description": {
           "description": "Sequential composition\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyInfix",
           "name": "3A\u003e\u003e\u003e",
           "package": "StrategyLib",
@@ -3847,6 +4166,7 @@
         "index": {
           "description": "Sequential composition",
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyInfix",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyInfix",
           "name": "3A\u003e\u003e\u003e",
           "normalized": "TP a-\u003eb a-\u003eb a",
@@ -3862,6 +4182,7 @@
       "document": {
         "description": {
           "description": "Sequential composition, ignoring value from first strategy\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyInfix",
           "name": "3A\u003e\u003e\u003e-",
           "package": "StrategyLib",
@@ -3871,6 +4192,7 @@
         "index": {
           "description": "Sequential composition ignoring value from first strategy",
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyInfix",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyInfix",
           "name": "3A\u003e\u003e\u003e-",
           "normalized": "TU a b-\u003ec b-\u003ec b",
@@ -3886,6 +4208,7 @@
       "document": {
         "description": {
           "description": "Sequential composition with value passing\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyInfix",
           "name": "3A\u003e\u003e\u003e=",
           "package": "StrategyLib",
@@ -3895,6 +4218,7 @@
         "index": {
           "description": "Sequential composition with value passing",
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyInfix",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyInfix",
           "name": "3A\u003e\u003e\u003e=",
           "normalized": "TU a b-\u003e(a-\u003ec b)-\u003ec b",
@@ -3910,6 +4234,7 @@
       "document": {
         "description": {
           "description": "Test for compound term, i.e. having at least one subterm.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3Acom",
           "package": "StrategyLib",
@@ -3919,6 +4244,7 @@
         "index": {
           "description": "Test for compound term i.e having at least one subterm",
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrelude",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3Acom",
           "package": "StrategyLib",
@@ -3933,6 +4259,7 @@
       "document": {
         "description": {
           "description": "Type-unifying monadic constant strategy. Always performs the argument\n   computation a, independent of the incoming term. This is a monadic\n   variation of \u003ctt\u003e\u003ca\u003econstTU\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3AcompTU",
           "package": "StrategyLib",
@@ -3942,6 +4269,7 @@
         "index": {
           "description": "Type-unifying monadic constant strategy Always performs the argument computation independent of the incoming term This is monadic variation of constTU",
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrelude",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3AcompTU",
           "normalized": "a b-\u003eTU b a",
@@ -3958,6 +4286,7 @@
       "document": {
         "description": {
           "description": "Test for constant term, i.e. having no subterms.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3Acon",
           "package": "StrategyLib",
@@ -3967,6 +4296,7 @@
         "index": {
           "description": "Test for constant term i.e having no subterms",
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrelude",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3Acon",
           "package": "StrategyLib",
@@ -3981,6 +4311,7 @@
       "document": {
         "description": {
           "description": "Type-unifying constant strategy. Always returns the argument value a,\n   independent of the incoming term.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3AconstTU",
           "package": "StrategyLib",
@@ -3990,6 +4321,7 @@
         "index": {
           "description": "Type-unifying constant strategy Always returns the argument value independent of the incoming term",
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrelude",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3AconstTU",
           "normalized": "a-\u003eTU a b",
@@ -4006,6 +4338,7 @@
       "document": {
         "description": {
           "description": "Sequential ccomposition of monomorphic function and type-unifying strategy.\n   In other words, after the type-unifying strategy s has been applied, \n   the monomorphic function f is applied to the resulting value.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3AdotTU",
           "package": "StrategyLib",
@@ -4015,6 +4348,7 @@
         "index": {
           "description": "Sequential ccomposition of monomorphic function and type-unifying strategy In other words after the type-unifying strategy has been applied the monomorphic function is applied to the resulting value",
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrelude",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3AdotTU",
           "normalized": "(a-\u003eb)-\u003eTU a c-\u003eTU b c",
@@ -4031,6 +4365,7 @@
       "document": {
         "description": {
           "description": "Type-preserving failure. Always fails, independent of the incoming\n   term. Uses \u003ctt\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/tt\u003e to model partiality.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3AfailTP",
           "package": "StrategyLib",
@@ -4040,6 +4375,7 @@
         "index": {
           "description": "Type-preserving failure Always fails independent of the incoming term Uses MonadPlus to model partiality",
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrelude",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3AfailTP",
           "package": "StrategyLib",
@@ -4054,6 +4390,7 @@
       "document": {
         "description": {
           "description": "Type-unifying failure. Always fails, independent of the incoming\n   term. Uses \u003ctt\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/tt\u003e to model partiality.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3AfailTU",
           "package": "StrategyLib",
@@ -4063,6 +4400,7 @@
         "index": {
           "description": "Type-unifying failure Always fails independent of the incoming term Uses MonadPlus to model partiality",
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrelude",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3AfailTU",
           "package": "StrategyLib",
@@ -4077,6 +4415,7 @@
       "document": {
         "description": {
           "description": "Type-preserving identity. Returns the incoming term without change.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3AidTP",
           "package": "StrategyLib",
@@ -4086,6 +4425,7 @@
         "index": {
           "description": "Type-preserving identity Returns the incoming term without change",
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrelude",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3AidTP",
           "package": "StrategyLib",
@@ -4100,6 +4440,7 @@
       "document": {
         "description": {
           "description": "Apply the monomorphic, type-preserving argument function, if its \n   input type matches the input term's type. Otherwise, fail.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3AmonoTP",
           "package": "StrategyLib",
@@ -4109,6 +4450,7 @@
         "index": {
           "description": "Apply the monomorphic type-preserving argument function if its input type matches the input term type Otherwise fail",
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrelude",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3AmonoTP",
           "normalized": "(a-\u003eb a)-\u003eTP b",
@@ -4125,6 +4467,7 @@
       "document": {
         "description": {
           "description": "Apply the monomorphic, type-unifying argument function, if its \n   input type matches the input term's type. Otherwise, fail.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3AmonoTU",
           "package": "StrategyLib",
@@ -4134,6 +4477,7 @@
         "index": {
           "description": "Apply the monomorphic type-unifying argument function if its input type matches the input term type Otherwise fail",
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrelude",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3AmonoTU",
           "normalized": "(a-\u003eb c)-\u003eTU c b",
@@ -4150,6 +4494,7 @@
       "document": {
         "description": {
           "description": "Parallel combination of two type-unifying strategies with a binary\n   combinator. In other words, the values resulting from applying the\n   type-unifying strategies are combined to a final value by applying\n   the combinator o.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3Aop2TU",
           "package": "StrategyLib",
@@ -4159,6 +4504,7 @@
         "index": {
           "description": "Parallel combination of two type-unifying strategies with binary combinator In other words the values resulting from applying the type-unifying strategies are combined to final value by applying the combinator",
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrelude",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3Aop2TU",
           "normalized": "(a-\u003eb-\u003ec)-\u003eTU a d-\u003eTU b d-\u003eTU c d",
@@ -4175,6 +4521,7 @@
       "document": {
         "description": {
           "description": "Reduce a type-preserving strategy to a type-unifying one that\n   ignores its result term and returns void, but retains its \n   monadic effects.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3AvoidTP",
           "package": "StrategyLib",
@@ -4184,6 +4531,7 @@
         "index": {
           "description": "Reduce type-preserving strategy to type-unifying one that ignores its result term and returns void but retains its monadic effects",
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrelude",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3AvoidTP",
           "normalized": "TP a-\u003eTU()a",
@@ -4200,6 +4548,7 @@
       "document": {
         "description": {
           "description": "Reduce a type-unifying strategy to a type-unifying one that\n   ignores its result value and returns void, but retains its \n   monadic effects.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3AvoidTU",
           "package": "StrategyLib",
@@ -4209,6 +4558,7 @@
         "index": {
           "description": "Reduce type-unifying strategy to type-unifying one that ignores its result value and returns void but retains its monadic effects",
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrelude",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrelude",
           "name": "3AvoidTU",
           "normalized": "TU a b-\u003eTU()b",
@@ -4224,6 +4574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3ATP",
           "package": "StrategyLib",
@@ -4231,6 +4582,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3ATP",
           "package": "StrategyLib",
@@ -4244,6 +4596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3ATU",
           "package": "StrategyLib",
@@ -4251,6 +4604,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3ATU",
           "package": "StrategyLib",
@@ -4264,6 +4618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3ATerm",
           "package": "StrategyLib",
@@ -4271,6 +4626,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3ATerm",
           "package": "StrategyLib",
@@ -4284,6 +4640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AadhocTP",
           "package": "StrategyLib",
@@ -4292,6 +4649,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AadhocTP",
           "normalized": "TP a-\u003e(b-\u003ea b)-\u003eTP a",
@@ -4307,6 +4665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AadhocTU",
           "package": "StrategyLib",
@@ -4315,6 +4674,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AadhocTU",
           "normalized": "TU a b-\u003e(c-\u003eb a)-\u003eTU a b",
@@ -4330,6 +4690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AallTP",
           "package": "StrategyLib",
@@ -4338,6 +4699,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AallTP",
           "normalized": "TP a-\u003eTP a",
@@ -4353,6 +4715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AallTU",
           "package": "StrategyLib",
@@ -4361,6 +4724,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AallTU",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eTU a b-\u003eTU a b",
@@ -4376,6 +4740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AallTU'",
           "package": "StrategyLib",
@@ -4384,6 +4749,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AallTU'",
           "normalized": "TU a b-\u003eTU a b",
@@ -4399,6 +4765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AanyTP",
           "package": "StrategyLib",
@@ -4407,6 +4774,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AanyTP",
           "normalized": "TP a-\u003eTP a",
@@ -4422,6 +4790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AanyTU",
           "package": "StrategyLib",
@@ -4430,6 +4799,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AanyTU",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eTU a b-\u003eTU a b",
@@ -4445,6 +4815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AanyTU'",
           "package": "StrategyLib",
@@ -4453,6 +4824,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AanyTU'",
           "normalized": "TU a b-\u003eTU a b",
@@ -4468,6 +4840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AapplyTP",
           "package": "StrategyLib",
@@ -4476,6 +4849,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AapplyTP",
           "normalized": "TP a-\u003eb-\u003ea b",
@@ -4491,6 +4865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AapplyTU",
           "package": "StrategyLib",
@@ -4499,6 +4874,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AapplyTU",
           "normalized": "TU a b-\u003ec-\u003eb a",
@@ -4514,6 +4890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AchoiceTP",
           "package": "StrategyLib",
@@ -4522,6 +4899,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AchoiceTP",
           "normalized": "TP a-\u003eTP a-\u003eTP a",
@@ -4537,6 +4915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AchoiceTU",
           "package": "StrategyLib",
@@ -4545,6 +4924,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AchoiceTU",
           "normalized": "TU a b-\u003eTU a b-\u003eTU a b",
@@ -4560,6 +4940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AinjTP",
           "package": "StrategyLib",
@@ -4568,6 +4949,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AinjTP",
           "normalized": "TP a-\u003eTP a",
@@ -4583,6 +4965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AmsubstTP",
           "package": "StrategyLib",
@@ -4591,6 +4974,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AmsubstTP",
           "normalized": "(a b c b-\u003ed b)-\u003eTP c-\u003eTP d",
@@ -4606,6 +4990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AmsubstTU",
           "package": "StrategyLib",
@@ -4614,6 +4999,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AmsubstTU",
           "normalized": "(a b-\u003ec b)-\u003eTU b a-\u003eTU b c",
@@ -4629,6 +5015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AoneTP",
           "package": "StrategyLib",
@@ -4637,6 +5024,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AoneTP",
           "normalized": "TP a-\u003eTP a",
@@ -4652,6 +5040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AoneTU",
           "package": "StrategyLib",
@@ -4660,6 +5049,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AoneTU",
           "normalized": "TU a b-\u003eTU a b",
@@ -4675,6 +5065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AparaTP",
           "package": "StrategyLib",
@@ -4683,6 +5074,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AparaTP",
           "normalized": "(a b b-\u003ec b)-\u003eTP c",
@@ -4698,6 +5090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AparaTU",
           "package": "StrategyLib",
@@ -4706,6 +5099,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AparaTU",
           "normalized": "(a b b-\u003ec d)-\u003eTU d c",
@@ -4721,6 +5115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3ApassTP",
           "package": "StrategyLib",
@@ -4729,6 +5124,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3ApassTP",
           "normalized": "TU a b-\u003e(a-\u003eTP b)-\u003eTP b",
@@ -4744,6 +5140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3ApassTU",
           "package": "StrategyLib",
@@ -4752,6 +5149,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3ApassTU",
           "normalized": "TU a b-\u003e(a-\u003eTU c b)-\u003eTU c b",
@@ -4767,6 +5165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AseqTP",
           "package": "StrategyLib",
@@ -4775,6 +5174,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AseqTP",
           "normalized": "TP a-\u003eTP a-\u003eTP a",
@@ -4790,6 +5190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AseqTU",
           "package": "StrategyLib",
@@ -4798,6 +5199,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AseqTU",
           "normalized": "TP a-\u003eTU b a-\u003eTU b a",
@@ -4813,6 +5215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AsomeTP",
           "package": "StrategyLib",
@@ -4821,6 +5224,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AsomeTP",
           "normalized": "TP a-\u003eTP a",
@@ -4836,6 +5240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AsomeTU",
           "package": "StrategyLib",
@@ -4844,6 +5249,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AsomeTU",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eTU a b-\u003eTU a b",
@@ -4859,6 +5265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AsomeTU'",
           "package": "StrategyLib",
@@ -4867,6 +5274,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib StrategyPrimitives",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.StrategyPrimitives",
           "name": "3AsomeTU'",
           "normalized": "TU a b-\u003eTU a b",
@@ -4882,6 +5290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TermRep",
           "name": "3ATerm",
           "package": "StrategyLib",
@@ -4889,6 +5298,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Strafunski StrategyLib TermRep",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TermRep",
           "name": "3ATerm",
           "package": "StrategyLib",
@@ -4903,6 +5313,7 @@
       "document": {
         "description": {
           "description": "binary strategy combinator\nargument strategy\nresult strategy\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aall_recTU",
           "package": "StrategyLib",
@@ -4912,6 +5323,7 @@
         "index": {
           "description": "binary strategy combinator argument strategy result strategy",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aall_recTU",
           "normalized": "(a-\u003eTU b c-\u003eTU b c)-\u003ea-\u003eTU b c",
@@ -4928,6 +5340,7 @@
       "document": {
         "description": {
           "description": "Use \u003ctt\u003e\u003ca\u003eanyTP\u003c/a\u003e\u003c/tt\u003e instead.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3AanyTP'",
           "package": "StrategyLib",
@@ -4937,6 +5350,7 @@
         "index": {
           "description": "Use anyTP instead",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3AanyTP'",
           "normalized": "TP a-\u003eTP a",
@@ -4953,6 +5367,7 @@
       "document": {
         "description": {
           "description": "Type-specialised version of \u003ctt\u003e\u003ca\u003ecrush\u003c/a\u003e\u003c/tt\u003e, which works with lists instead of\n   any arbitrary monoid.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Acollect",
           "package": "StrategyLib",
@@ -4962,6 +5377,7 @@
         "index": {
           "description": "Type-specialised version of crush which works with lists instead of any arbitrary monoid",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Acollect",
           "normalized": "TU[a]b-\u003eTU[a]b",
@@ -4978,6 +5394,7 @@
       "document": {
         "description": {
           "description": "See \u003ctt\u003e\u003ca\u003efull_tdTU\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Acrush",
           "package": "StrategyLib",
@@ -4987,6 +5404,7 @@
         "index": {
           "description": "See full tdTU",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Acrush",
           "normalized": "TU a b-\u003eTU a b",
@@ -5003,6 +5421,7 @@
       "document": {
         "description": {
           "description": "Full type-preserving traversal in bottom-up order.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Afull_buTP",
           "package": "StrategyLib",
@@ -5012,6 +5431,7 @@
         "index": {
           "description": "Full type-preserving traversal in bottom-up order",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Afull_buTP",
           "normalized": "TP a-\u003eTP a",
@@ -5028,6 +5448,7 @@
       "document": {
         "description": {
           "description": "Full top-down traversal (overloaded between \u003ctt\u003e\u003ca\u003eTU\u003c/a\u003e\u003c/tt\u003e and \u003ctt\u003e\u003ca\u003eTP\u003c/a\u003e\u003c/tt\u003e).\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Afull_td",
           "package": "StrategyLib",
@@ -5037,6 +5458,7 @@
         "index": {
           "description": "Full top-down traversal overloaded between TU and TP",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Afull_td",
           "normalized": "a b-\u003ea b",
@@ -5053,6 +5475,7 @@
       "document": {
         "description": {
           "description": "Full type-preserving traversal in top-down order.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Afull_tdTP",
           "package": "StrategyLib",
@@ -5062,6 +5485,7 @@
         "index": {
           "description": "Full type-preserving traversal in top-down order",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Afull_tdTP",
           "normalized": "TP a-\u003eTP a",
@@ -5078,6 +5502,7 @@
       "document": {
         "description": {
           "description": "Full type-unifying traversal in top-down order.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Afull_tdTU",
           "package": "StrategyLib",
@@ -5087,6 +5512,7 @@
         "index": {
           "description": "Full type-unifying traversal in top-down order",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Afull_tdTU",
           "normalized": "TU a b-\u003eTU a b",
@@ -5103,6 +5529,7 @@
       "document": {
         "description": {
           "description": "One-hit bottom-up traversal (overloaded between \u003ctt\u003e\u003ca\u003eTU\u003c/a\u003e\u003c/tt\u003e and \u003ctt\u003e\u003ca\u003eTP\u003c/a\u003e\u003c/tt\u003e).\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aonce_bu",
           "package": "StrategyLib",
@@ -5112,6 +5539,7 @@
         "index": {
           "description": "One-hit bottom-up traversal overloaded between TU and TP",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aonce_bu",
           "normalized": "a b-\u003ea b",
@@ -5128,6 +5556,7 @@
       "document": {
         "description": {
           "description": "Bottom-up type-preserving traversal that performs its argument\n   strategy at most once.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aonce_buTP",
           "package": "StrategyLib",
@@ -5137,6 +5566,7 @@
         "index": {
           "description": "Bottom-up type-preserving traversal that performs its argument strategy at most once",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aonce_buTP",
           "normalized": "TP a-\u003eTP a",
@@ -5153,6 +5583,7 @@
       "document": {
         "description": {
           "description": "Bottom-up type-unifying traversal that performs its argument\n   strategy at most once.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aonce_buTU",
           "package": "StrategyLib",
@@ -5162,6 +5593,7 @@
         "index": {
           "description": "Bottom-up type-unifying traversal that performs its argument strategy at most once",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aonce_buTU",
           "normalized": "TU a b-\u003eTU a b",
@@ -5178,6 +5610,7 @@
       "document": {
         "description": {
           "description": "One-hit top-down traversal with environment propagation \n   (overloaded between \u003ctt\u003e\u003ca\u003eTU\u003c/a\u003e\u003c/tt\u003e and \u003ctt\u003e\u003ca\u003eTP\u003c/a\u003e\u003c/tt\u003e).\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aonce_pe",
           "package": "StrategyLib",
@@ -5187,6 +5620,7 @@
         "index": {
           "description": "One-hit top-down traversal with environment propagation overloaded between TU and TP",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aonce_pe",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003eTU a c)-\u003ea-\u003eb c",
@@ -5203,6 +5637,7 @@
       "document": {
         "description": {
           "description": "initial environment\nenvironment modification at downward step\nextraction of value, dependent on environment\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aonce_peTU",
           "package": "StrategyLib",
@@ -5212,6 +5647,7 @@
         "index": {
           "description": "initial environment environment modification at downward step extraction of value dependent on environment",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aonce_peTU",
           "normalized": "a-\u003e(a-\u003eTU a b)-\u003e(a-\u003eTU c b)-\u003eTU c b",
@@ -5228,6 +5664,7 @@
       "document": {
         "description": {
           "description": "One-hit top-down traversal (overloaded between \u003ctt\u003e\u003ca\u003eTU\u003c/a\u003e\u003c/tt\u003e and \u003ctt\u003e\u003ca\u003eTP\u003c/a\u003e\u003c/tt\u003e).\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aonce_td",
           "package": "StrategyLib",
@@ -5237,6 +5674,7 @@
         "index": {
           "description": "One-hit top-down traversal overloaded between TU and TP",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aonce_td",
           "normalized": "a b-\u003ea b",
@@ -5253,6 +5691,7 @@
       "document": {
         "description": {
           "description": "Top-down type-preserving traversal that performs its argument\n   strategy at most once.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aonce_tdTP",
           "package": "StrategyLib",
@@ -5262,6 +5701,7 @@
         "index": {
           "description": "Top-down type-preserving traversal that performs its argument strategy at most once",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aonce_tdTP",
           "normalized": "TP a-\u003eTP a",
@@ -5278,6 +5718,7 @@
       "document": {
         "description": {
           "description": "Top-down type-unifying traversal that performs its argument\n   strategy at most once.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aonce_tdTU",
           "package": "StrategyLib",
@@ -5287,6 +5728,7 @@
         "index": {
           "description": "Top-down type-unifying traversal that performs its argument strategy at most once",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aonce_tdTU",
           "normalized": "TU a b-\u003eTU a b",
@@ -5303,6 +5745,7 @@
       "document": {
         "description": {
           "description": "binary strategy combinator\nargument strategy\nresult strategy\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aone_recTU",
           "package": "StrategyLib",
@@ -5312,6 +5755,7 @@
         "index": {
           "description": "binary strategy combinator argument strategy result strategy",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aone_recTU",
           "normalized": "(a-\u003eTU b c-\u003eTU b c)-\u003ea-\u003eTU b c",
@@ -5328,6 +5772,7 @@
       "document": {
         "description": {
           "description": "See \u003ctt\u003e\u003ca\u003eonce_tdTU\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aselect",
           "package": "StrategyLib",
@@ -5337,6 +5782,7 @@
         "index": {
           "description": "See once tdTU",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aselect",
           "normalized": "TU a b-\u003eTU a b",
@@ -5353,6 +5799,7 @@
       "document": {
         "description": {
           "description": "See \u003ctt\u003e\u003ca\u003eonce_peTU\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aselectenv",
           "package": "StrategyLib",
@@ -5362,6 +5809,7 @@
         "index": {
           "description": "See once peTU",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Aselectenv",
           "normalized": "a-\u003e(a-\u003eTU a b)-\u003e(a-\u003eTU c b)-\u003eTU c b",
@@ -5378,6 +5826,7 @@
       "document": {
         "description": {
           "description": "Use \u003ctt\u003e\u003ca\u003esomeTP\u003c/a\u003e\u003c/tt\u003e instead.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3AsomeTP'",
           "package": "StrategyLib",
@@ -5387,6 +5836,7 @@
         "index": {
           "description": "Use someTP instead",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3AsomeTP'",
           "normalized": "TP a-\u003eTP a",
@@ -5403,6 +5853,7 @@
       "document": {
         "description": {
           "description": "Top-down type-preserving traversal that is cut of below nodes\n   where the argument strategy succeeds.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Astop_tdTP",
           "package": "StrategyLib",
@@ -5412,6 +5863,7 @@
         "index": {
           "description": "Top-down type-preserving traversal that is cut of below nodes where the argument strategy succeeds",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Astop_tdTP",
           "normalized": "TP a-\u003eTP a",
@@ -5428,6 +5880,7 @@
       "document": {
         "description": {
           "description": "Top-down type-unifying traversal that is cut of below nodes\n   where the argument strategy succeeds.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Astop_tdTU",
           "package": "StrategyLib",
@@ -5437,6 +5890,7 @@
         "index": {
           "description": "Top-down type-unifying traversal that is cut of below nodes where the argument strategy succeeds",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Astop_tdTU",
           "normalized": "TU a b-\u003eTU a b",
@@ -5453,6 +5907,7 @@
       "document": {
         "description": {
           "description": "See \u003ctt\u003e\u003ca\u003efull_tdTP\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 17:01:34 UTC 2014",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Atopdown",
           "package": "StrategyLib",
@@ -5462,6 +5917,7 @@
         "index": {
           "description": "See full tdTP",
           "hierarchy": "Data Generics Strafunski StrategyLib TraversalTheme",
+          "indexed": "2014-03-11T17:01:34",
           "module": "Data.Generics.Strafunski.StrategyLib.TraversalTheme",
           "name": "3Atopdown",
           "normalized": "TP a-\u003eTP a",

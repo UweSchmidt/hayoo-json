@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-interleave"
+        "phrase": "monad-interleave",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonads with an unsaveInterleaveIO-like operation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:19:53 UTC 2014",
           "module": "Control.Monad.Interleave",
           "name": "Interleave",
           "package": "monad-interleave",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Monads with an unsaveInterleaveIO-like operation",
           "hierarchy": "Control Monad Interleave",
+          "indexed": "2014-03-11T19:19:53",
           "module": "Control.Monad.Interleave",
           "name": "Interleave",
           "package": "monad-interleave",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonads that have an operation like \u003ccode\u003e\u003ca\u003eunsafeInterleaveIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:53 UTC 2014",
           "module": "Control.Monad.Interleave",
           "name": "MonadInterleave",
           "package": "monad-interleave",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Monads that have an operation like unsafeInterleaveIO",
           "hierarchy": "Control Monad Interleave",
+          "indexed": "2014-03-11T19:19:53",
           "module": "Control.Monad.Interleave",
           "name": "MonadInterleave",
           "package": "monad-interleave",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the baton from the monad without doing any computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:19:53 UTC 2014",
           "module": "Control.Monad.Interleave",
           "name": "unsafeInterleave",
           "package": "monad-interleave",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Get the baton from the monad without doing any computation",
           "hierarchy": "Control Monad Interleave",
+          "indexed": "2014-03-11T19:19:53",
           "module": "Control.Monad.Interleave",
           "name": "unsafeInterleave",
           "normalized": "a b-\u003ea b",

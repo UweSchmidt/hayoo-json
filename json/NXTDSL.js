@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "NXTDSL"
+        "phrase": "NXTDSL",
+        "type": "phrase"
       },
       "type": "context"
     }

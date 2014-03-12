@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tree-monad"
+        "phrase": "tree-monad",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis Haskell library provides an implementation of the MonadPlus\n type class that represents the search space as a tree whose\n constructors represent mzero, return, and mplus.\n\u003c/p\u003e\u003cp\u003eSuch a tree can be used to implement different search strategies,\n e.g., by using a queue. It can also be used as a basis for parallel\n search strategies that evaluate different parts of the search space\n concurrently.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:25:19 UTC 2014",
           "module": "Control.Monad.SearchTree",
           "name": "SearchTree",
           "package": "tree-monad",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This Haskell library provides an implementation of the MonadPlus type class that represents the search space as tree whose constructors represent mzero return and mplus Such tree can be used to implement different search strategies e.g by using queue It can also be used as basis for parallel search strategies that evaluate different parts of the search space concurrently",
           "hierarchy": "Control Monad SearchTree",
+          "indexed": "2014-03-11T20:25:19",
           "module": "Control.Monad.SearchTree",
           "name": "SearchTree",
           "package": "tree-monad",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnother search monad based on continuations that produce search\n trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:19 UTC 2014",
           "module": "Control.Monad.SearchTree",
           "name": "Search",
           "package": "tree-monad",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Another search monad based on continuations that produce search trees",
           "hierarchy": "Control Monad SearchTree",
+          "indexed": "2014-03-11T20:25:19",
           "module": "Control.Monad.SearchTree",
           "name": "Search",
           "package": "tree-monad",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type \u003ccode\u003eSearchTree a\u003c/code\u003e represents non-deterministic computations\n as a tree structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:19 UTC 2014",
           "module": "Control.Monad.SearchTree",
           "name": "SearchTree",
           "package": "tree-monad",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The type SearchTree represents non-deterministic computations as tree structure",
           "hierarchy": "Control Monad SearchTree",
+          "indexed": "2014-03-11T20:25:19",
           "module": "Control.Monad.SearchTree",
           "name": "SearchTree",
           "package": "tree-monad",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:19 UTC 2014",
           "module": "Control.Monad.SearchTree",
           "name": "Choice",
           "package": "tree-monad",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SearchTree",
+          "indexed": "2014-03-11T20:25:19",
           "module": "Control.Monad.SearchTree",
           "name": "Choice",
           "package": "tree-monad",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:19 UTC 2014",
           "module": "Control.Monad.SearchTree",
           "name": "None",
           "package": "tree-monad",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SearchTree",
+          "indexed": "2014-03-11T20:25:19",
           "module": "Control.Monad.SearchTree",
           "name": "None",
           "package": "tree-monad",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:19 UTC 2014",
           "module": "Control.Monad.SearchTree",
           "name": "One",
           "package": "tree-monad",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Control Monad SearchTree",
+          "indexed": "2014-03-11T20:25:19",
           "module": "Control.Monad.SearchTree",
           "name": "One",
           "package": "tree-monad",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the \u003ccode\u003eSearchTree\u003c/code\u003e representation of a \u003ccode\u003eSearch\u003c/code\u003e action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:19 UTC 2014",
           "module": "Control.Monad.SearchTree",
           "name": "searchTree",
           "package": "tree-monad",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Computes the SearchTree representation of Search action",
           "hierarchy": "Control Monad SearchTree",
+          "indexed": "2014-03-11T20:25:19",
           "module": "Control.Monad.SearchTree",
           "name": "searchTree",
           "normalized": "Search a-\u003eSearchTree a",

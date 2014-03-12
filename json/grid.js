@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "grid"
+        "phrase": "grid",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA regular arrangement of hexagonal tiles.\n The userguide, with illustrations, is available at \n \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n Also see \u003ccode\u003eMath.Geometry.Grid\u003c/code\u003e for examples of how to use this class.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Hexagonal",
           "name": "Hexagonal",
           "package": "grid",
@@ -28,6 +29,7 @@
         "index": {
           "description": "regular arrangement of hexagonal tiles The userguide with illustrations is available at https github.com mhwombat grid wiki Also see Math.Geometry.Grid for examples of how to use this class",
           "hierarchy": "Math Geometry Grid Hexagonal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Hexagonal",
           "name": "Hexagonal",
           "package": "grid",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA hexagonal grid with hexagonal tiles\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Hexagonal",
           "name": "HexHexGrid",
           "package": "grid",
@@ -51,6 +54,7 @@
         "index": {
           "description": "hexagonal grid with hexagonal tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid Hexagonal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Hexagonal",
           "name": "HexHexGrid",
           "package": "grid",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parallelogramatical grid with hexagonal tiles\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Hexagonal",
           "name": "ParaHexGrid",
           "package": "grid",
@@ -74,6 +79,7 @@
         "index": {
           "description": "parallelogramatical grid with hexagonal tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid Hexagonal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Hexagonal",
           "name": "ParaHexGrid",
           "package": "grid",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unbounded grid with hexagonal tiles\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Hexagonal",
           "name": "UnboundedHexGrid",
           "package": "grid",
@@ -97,6 +104,7 @@
         "index": {
           "description": "An unbounded grid with hexagonal tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid Hexagonal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Hexagonal",
           "name": "UnboundedHexGrid",
           "package": "grid",
@@ -165,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSame as \u003ccode\u003e\u003ccode\u003e\u003ca\u003eHexagonal\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, except the grids are\n oriented so that the flat part of the hexagonal tiles is on the top.\n The userguide, with illustrations, is available at \n \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n Also see \u003ccode\u003eMath.Geometry.Grid\u003c/code\u003e for examples of how to use this class.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Hexagonal2",
           "name": "Hexagonal2",
           "package": "grid",
@@ -174,6 +183,7 @@
         "index": {
           "description": "Same as Hexagonal except the grids are oriented so that the flat part of the hexagonal tiles is on the top The userguide with illustrations is available at https github.com mhwombat grid wiki Also see Math.Geometry.Grid for examples of how to use this class",
           "hierarchy": "Math Geometry Grid Hexagonal2",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Hexagonal2",
           "name": "Hexagonal2",
           "package": "grid",
@@ -188,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA hexagonal grid with hexagonal tiles\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Hexagonal2",
           "name": "HexHexGrid",
           "package": "grid",
@@ -197,6 +208,7 @@
         "index": {
           "description": "hexagonal grid with hexagonal tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid Hexagonal2",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Hexagonal2",
           "name": "HexHexGrid",
           "package": "grid",
@@ -211,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rectangular grid with hexagonal tiles\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Hexagonal2",
           "name": "RectHexGrid",
           "package": "grid",
@@ -220,6 +233,7 @@
         "index": {
           "description": "rectangular grid with hexagonal tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid Hexagonal2",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Hexagonal2",
           "name": "RectHexGrid",
           "package": "grid",
@@ -234,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unbounded grid with hexagonal tiles\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Hexagonal2",
           "name": "UnboundedHexGrid",
           "package": "grid",
@@ -243,6 +258,7 @@
         "index": {
           "description": "An unbounded grid with hexagonal tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid Hexagonal2",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Hexagonal2",
           "name": "UnboundedHexGrid",
           "package": "grid",
@@ -311,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing private \u003ccode\u003eHexGrid\u003c/code\u003e internals. Most developers \n should use \u003ccode\u003eHexGrid\u003c/code\u003e instead. This module is subject to change \n without notice.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "HexagonalInternal",
           "package": "grid",
@@ -320,6 +337,7 @@
         "index": {
           "description": "module containing private HexGrid internals Most developers should use HexGrid instead This module is subject to change without notice",
           "hierarchy": "Math Geometry Grid HexagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "HexagonalInternal",
           "package": "grid",
@@ -333,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "HexDirection",
           "package": "grid",
@@ -341,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid HexagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "HexDirection",
           "package": "grid",
@@ -355,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA hexagonal grid with hexagonal tiles\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "HexHexGrid",
           "package": "grid",
@@ -364,6 +385,7 @@
         "index": {
           "description": "hexagonal grid with hexagonal tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid HexagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "HexHexGrid",
           "package": "grid",
@@ -378,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parallelogramatical grid with hexagonal tiles\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "ParaHexGrid",
           "package": "grid",
@@ -387,6 +410,7 @@
         "index": {
           "description": "parallelogramatical grid with hexagonal tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid HexagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "ParaHexGrid",
           "package": "grid",
@@ -401,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unbounded grid with hexagonal tiles\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "UnboundedHexGrid",
           "package": "grid",
@@ -410,6 +435,7 @@
         "index": {
           "description": "An unbounded grid with hexagonal tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid HexagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "UnboundedHexGrid",
           "package": "grid",
@@ -423,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "East",
           "package": "grid",
@@ -432,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid HexagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "East",
           "package": "grid",
@@ -445,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "HexHexGrid",
           "package": "grid",
@@ -454,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid HexagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "HexHexGrid",
           "normalized": "HexHexGrid Int[(Int,Int)]",
@@ -469,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "Northeast",
           "package": "grid",
@@ -478,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid HexagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "Northeast",
           "package": "grid",
@@ -491,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "Northwest",
           "package": "grid",
@@ -500,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid HexagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "Northwest",
           "package": "grid",
@@ -513,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "ParaHexGrid",
           "package": "grid",
@@ -522,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid HexagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "ParaHexGrid",
           "normalized": "ParaHexGrid(Int,Int)[(Int,Int)]",
@@ -537,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "Southeast",
           "package": "grid",
@@ -546,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid HexagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "Southeast",
           "package": "grid",
@@ -559,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "Southwest",
           "package": "grid",
@@ -568,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid HexagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "Southwest",
           "package": "grid",
@@ -581,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "UnboundedHexGrid",
           "package": "grid",
@@ -590,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid HexagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "UnboundedHexGrid",
           "package": "grid",
@@ -603,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "West",
           "package": "grid",
@@ -612,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid HexagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal",
           "name": "West",
           "package": "grid",
@@ -626,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing private \u003ccode\u003eHexGrid2\u003c/code\u003e internals. Most developers \n should use \u003ccode\u003eHexGrid2\u003c/code\u003e instead. This module is subject to change \n without notice.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "HexagonalInternal2",
           "package": "grid",
@@ -635,6 +680,7 @@
         "index": {
           "description": "module containing private HexGrid2 internals Most developers should use HexGrid2 instead This module is subject to change without notice",
           "hierarchy": "Math Geometry Grid HexagonalInternal2",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "HexagonalInternal2",
           "package": "grid",
@@ -648,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "HexDirection",
           "package": "grid",
@@ -656,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid HexagonalInternal2",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "HexDirection",
           "package": "grid",
@@ -670,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA hexagonal grid with hexagonal tiles\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "HexHexGrid",
           "package": "grid",
@@ -679,6 +728,7 @@
         "index": {
           "description": "hexagonal grid with hexagonal tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid HexagonalInternal2",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "HexHexGrid",
           "package": "grid",
@@ -693,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rectangular grid with hexagonal tiles\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "RectHexGrid",
           "package": "grid",
@@ -702,6 +753,7 @@
         "index": {
           "description": "rectangular grid with hexagonal tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid HexagonalInternal2",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "RectHexGrid",
           "package": "grid",
@@ -716,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unbounded grid with hexagonal tiles\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "UnboundedHexGrid",
           "package": "grid",
@@ -725,6 +778,7 @@
         "index": {
           "description": "An unbounded grid with hexagonal tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid HexagonalInternal2",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "UnboundedHexGrid",
           "package": "grid",
@@ -738,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "HexHexGrid",
           "package": "grid",
@@ -747,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid HexagonalInternal2",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "HexHexGrid",
           "normalized": "HexHexGrid Int[(Int,Int)]",
@@ -762,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "North",
           "package": "grid",
@@ -771,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid HexagonalInternal2",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "North",
           "package": "grid",
@@ -784,6 +842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "Northeast",
           "package": "grid",
@@ -793,6 +852,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid HexagonalInternal2",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "Northeast",
           "package": "grid",
@@ -806,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "Northwest",
           "package": "grid",
@@ -815,6 +876,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid HexagonalInternal2",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "Northwest",
           "package": "grid",
@@ -828,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "RectHexGrid",
           "package": "grid",
@@ -837,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid HexagonalInternal2",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "RectHexGrid",
           "normalized": "RectHexGrid(Int,Int)[(Int,Int)]",
@@ -852,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "South",
           "package": "grid",
@@ -861,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid HexagonalInternal2",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "South",
           "package": "grid",
@@ -874,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "Southeast",
           "package": "grid",
@@ -883,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid HexagonalInternal2",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "Southeast",
           "package": "grid",
@@ -896,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "Southwest",
           "package": "grid",
@@ -905,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid HexagonalInternal2",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "Southwest",
           "package": "grid",
@@ -918,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "UnboundedHexGrid",
           "package": "grid",
@@ -927,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid HexagonalInternal2",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "UnboundedHexGrid",
           "package": "grid",
@@ -940,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "rectHexGridY",
           "package": "grid",
@@ -949,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid HexagonalInternal2",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.HexagonalInternal2",
           "name": "rectHexGridY",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -965,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA regular arrangement of octagonal tiles.\n Octagons won't tile a regular plane (there will be diamond-shaped\n gaps between the tiles), but they will tile a \u003cem\u003ehyperbolic\u003c/em\u003e plane.\n (Alternatively, you can think of these as squares on a board game\n where diagonal moves are allowed.)\n The userguide, with illustrations, is available at \n \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n Also see \u003ccode\u003eMath.Geometry.Grid\u003c/code\u003e for examples of how to use this class.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Octagonal",
           "name": "Octagonal",
           "package": "grid",
@@ -974,6 +1049,7 @@
         "index": {
           "description": "regular arrangement of octagonal tiles Octagons won tile regular plane there will be diamond-shaped gaps between the tiles but they will tile hyperbolic plane Alternatively you can think of these as squares on board game where diagonal moves are allowed The userguide with illustrations is available at https github.com mhwombat grid wiki Also see Math.Geometry.Grid for examples of how to use this class",
           "hierarchy": "Math Geometry Grid Octagonal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Octagonal",
           "name": "Octagonal",
           "package": "grid",
@@ -988,6 +1064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rectangular grid with octagonal tiles.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Octagonal",
           "name": "RectOctGrid",
           "package": "grid",
@@ -997,6 +1074,7 @@
         "index": {
           "description": "rectangular grid with octagonal tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid Octagonal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Octagonal",
           "name": "RectOctGrid",
           "package": "grid",
@@ -1011,6 +1089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA toroidal grid with octagonal tiles.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Octagonal",
           "name": "TorOctGrid",
           "package": "grid",
@@ -1020,6 +1099,7 @@
         "index": {
           "description": "toroidal grid with octagonal tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid Octagonal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Octagonal",
           "name": "TorOctGrid",
           "package": "grid",
@@ -1034,6 +1114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unbounded grid with octagonal tiles.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Octagonal",
           "name": "UnboundedOctGrid",
           "package": "grid",
@@ -1043,6 +1124,7 @@
         "index": {
           "description": "An unbounded grid with octagonal tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid Octagonal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Octagonal",
           "name": "UnboundedOctGrid",
           "package": "grid",
@@ -1111,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing private \u003ccode\u003eOctGrid\u003c/code\u003e internals. Most developers \n should use \u003ccode\u003eOctGrid\u003c/code\u003e instead. This module is subject to change \n without notice.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "OctagonalInternal",
           "package": "grid",
@@ -1120,6 +1203,7 @@
         "index": {
           "description": "module containing private OctGrid internals Most developers should use OctGrid instead This module is subject to change without notice",
           "hierarchy": "Math Geometry Grid OctagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "OctagonalInternal",
           "package": "grid",
@@ -1133,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "OctDirection",
           "package": "grid",
@@ -1141,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid OctagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "OctDirection",
           "package": "grid",
@@ -1155,6 +1241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rectangular grid with octagonal tiles.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "RectOctGrid",
           "package": "grid",
@@ -1164,6 +1251,7 @@
         "index": {
           "description": "rectangular grid with octagonal tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid OctagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "RectOctGrid",
           "package": "grid",
@@ -1178,6 +1266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA toroidal grid with octagonal tiles.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "TorOctGrid",
           "package": "grid",
@@ -1187,6 +1276,7 @@
         "index": {
           "description": "toroidal grid with octagonal tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid OctagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "TorOctGrid",
           "package": "grid",
@@ -1201,6 +1291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unbounded grid with octagonal tiles.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "UnboundedOctGrid",
           "package": "grid",
@@ -1210,6 +1301,7 @@
         "index": {
           "description": "An unbounded grid with octagonal tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid OctagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "UnboundedOctGrid",
           "package": "grid",
@@ -1223,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "East",
           "package": "grid",
@@ -1232,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid OctagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "East",
           "package": "grid",
@@ -1245,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "North",
           "package": "grid",
@@ -1254,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid OctagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "North",
           "package": "grid",
@@ -1267,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "Northeast",
           "package": "grid",
@@ -1276,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid OctagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "Northeast",
           "package": "grid",
@@ -1289,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "Northwest",
           "package": "grid",
@@ -1298,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid OctagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "Northwest",
           "package": "grid",
@@ -1311,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "RectOctGrid",
           "package": "grid",
@@ -1320,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid OctagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "RectOctGrid",
           "normalized": "RectOctGrid(Int,Int)[(Int,Int)]",
@@ -1335,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "South",
           "package": "grid",
@@ -1344,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid OctagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "South",
           "package": "grid",
@@ -1357,6 +1461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "Southeast",
           "package": "grid",
@@ -1366,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid OctagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "Southeast",
           "package": "grid",
@@ -1379,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "Southwest",
           "package": "grid",
@@ -1388,6 +1495,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid OctagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "Southwest",
           "package": "grid",
@@ -1401,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "TorOctGrid",
           "package": "grid",
@@ -1410,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid OctagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "TorOctGrid",
           "normalized": "TorOctGrid(Int,Int)[(Int,Int)]",
@@ -1425,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "UnboundedOctGrid",
           "package": "grid",
@@ -1434,6 +1545,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid OctagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "UnboundedOctGrid",
           "package": "grid",
@@ -1447,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "West",
           "package": "grid",
@@ -1456,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid OctagonalInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.OctagonalInternal",
           "name": "West",
           "package": "grid",
@@ -1470,6 +1584,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA regular arrangement of square tiles.\n The userguide, with illustrations, is available at \n \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n Also see \u003ccode\u003eMath.Geometry.Grid\u003c/code\u003e for examples of how to use this class.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Square",
           "name": "Square",
           "package": "grid",
@@ -1479,6 +1594,7 @@
         "index": {
           "description": "regular arrangement of square tiles The userguide with illustrations is available at https github.com mhwombat grid wiki Also see Math.Geometry.Grid for examples of how to use this class",
           "hierarchy": "Math Geometry Grid Square",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Square",
           "name": "Square",
           "package": "grid",
@@ -1493,6 +1609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rectangular grid with square tiles.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Square",
           "name": "RectSquareGrid",
           "package": "grid",
@@ -1502,6 +1619,7 @@
         "index": {
           "description": "rectangular grid with square tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid Square",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Square",
           "name": "RectSquareGrid",
           "package": "grid",
@@ -1516,6 +1634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA toroidal grid with square tiles.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Square",
           "name": "TorSquareGrid",
           "package": "grid",
@@ -1525,6 +1644,7 @@
         "index": {
           "description": "toroidal grid with square tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid Square",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Square",
           "name": "TorSquareGrid",
           "package": "grid",
@@ -1539,6 +1659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unbounded grid with square tiles.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Square",
           "name": "UnboundedSquareGrid",
           "package": "grid",
@@ -1548,6 +1669,7 @@
         "index": {
           "description": "An unbounded grid with square tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid Square",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Square",
           "name": "UnboundedSquareGrid",
           "package": "grid",
@@ -1616,6 +1738,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing private \u003ccode\u003eSquareGrid\u003c/code\u003e internals. Most developers \n should use \u003ccode\u003eSquareGrid\u003c/code\u003e instead. This module is subject to change \n without notice.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "SquareInternal",
           "package": "grid",
@@ -1625,6 +1748,7 @@
         "index": {
           "description": "module containing private SquareGrid internals Most developers should use SquareGrid instead This module is subject to change without notice",
           "hierarchy": "Math Geometry Grid SquareInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "SquareInternal",
           "package": "grid",
@@ -1639,6 +1763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rectangular grid with square tiles.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "RectSquareGrid",
           "package": "grid",
@@ -1648,6 +1773,7 @@
         "index": {
           "description": "rectangular grid with square tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid SquareInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "RectSquareGrid",
           "package": "grid",
@@ -1661,6 +1787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "SquareDirection",
           "package": "grid",
@@ -1669,6 +1796,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid SquareInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "SquareDirection",
           "package": "grid",
@@ -1683,6 +1811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA toroidal grid with square tiles.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "TorSquareGrid",
           "package": "grid",
@@ -1692,6 +1821,7 @@
         "index": {
           "description": "toroidal grid with square tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid SquareInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "TorSquareGrid",
           "package": "grid",
@@ -1706,6 +1836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unbounded grid with square tiles.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "UnboundedSquareGrid",
           "package": "grid",
@@ -1715,6 +1846,7 @@
         "index": {
           "description": "An unbounded grid with square tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid SquareInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "UnboundedSquareGrid",
           "package": "grid",
@@ -1728,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "East",
           "package": "grid",
@@ -1737,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid SquareInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "East",
           "package": "grid",
@@ -1750,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "North",
           "package": "grid",
@@ -1759,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid SquareInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "North",
           "package": "grid",
@@ -1772,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "RectSquareGrid",
           "package": "grid",
@@ -1781,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid SquareInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "RectSquareGrid",
           "normalized": "RectSquareGrid(Int,Int)[(Int,Int)]",
@@ -1796,6 +1934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "South",
           "package": "grid",
@@ -1805,6 +1944,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid SquareInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "South",
           "package": "grid",
@@ -1818,6 +1958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "TorSquareGrid",
           "package": "grid",
@@ -1827,6 +1968,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid SquareInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "TorSquareGrid",
           "normalized": "TorSquareGrid(Int,Int)[(Int,Int)]",
@@ -1842,6 +1984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "UnboundedSquareGrid",
           "package": "grid",
@@ -1851,6 +1994,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid SquareInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "UnboundedSquareGrid",
           "package": "grid",
@@ -1864,6 +2008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "West",
           "package": "grid",
@@ -1873,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid SquareInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.SquareInternal",
           "name": "West",
           "package": "grid",
@@ -1887,6 +2033,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA regular arrangement of triangular tiles.\n The userguide, with illustrations, is available at \n \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n Also see \u003ccode\u003eMath.Geometry.Grid\u003c/code\u003e for examples of how to use this class.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Triangular",
           "name": "Triangular",
           "package": "grid",
@@ -1896,6 +2043,7 @@
         "index": {
           "description": "regular arrangement of triangular tiles The userguide with illustrations is available at https github.com mhwombat grid wiki Also see Math.Geometry.Grid for examples of how to use this class",
           "hierarchy": "Math Geometry Grid Triangular",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Triangular",
           "name": "Triangular",
           "package": "grid",
@@ -1910,6 +2058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Parallelogrammatical grid with triangular tiles.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Triangular",
           "name": "ParaTriGrid",
           "package": "grid",
@@ -1919,6 +2068,7 @@
         "index": {
           "description": "Parallelogrammatical grid with triangular tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid Triangular",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Triangular",
           "name": "ParaTriGrid",
           "package": "grid",
@@ -1933,6 +2083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rectangular grid with triangular tiles.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Triangular",
           "name": "RectTriGrid",
           "package": "grid",
@@ -1942,6 +2093,7 @@
         "index": {
           "description": "rectangular grid with triangular tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid Triangular",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Triangular",
           "name": "RectTriGrid",
           "package": "grid",
@@ -1956,6 +2108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA toroidal grid with triangular tiles.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Triangular",
           "name": "TorTriGrid",
           "package": "grid",
@@ -1965,6 +2118,7 @@
         "index": {
           "description": "toroidal grid with triangular tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid Triangular",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Triangular",
           "name": "TorTriGrid",
           "package": "grid",
@@ -1979,6 +2133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA triangular grid with triangular tiles.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Triangular",
           "name": "TriTriGrid",
           "package": "grid",
@@ -1988,6 +2143,7 @@
         "index": {
           "description": "triangular grid with triangular tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid Triangular",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Triangular",
           "name": "TriTriGrid",
           "package": "grid",
@@ -2002,6 +2158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unbounded grid with triangular tiles.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Triangular",
           "name": "UnboundedTriGrid",
           "package": "grid",
@@ -2011,6 +2168,7 @@
         "index": {
           "description": "An unbounded grid with triangular tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid Triangular",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Triangular",
           "name": "UnboundedTriGrid",
           "package": "grid",
@@ -2025,6 +2183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cylindrical grid with triangular tiles, where the cylinder is\n   along the x-axis.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Triangular",
           "name": "XCylTriGrid",
           "package": "grid",
@@ -2034,6 +2193,7 @@
         "index": {
           "description": "cylindrical grid with triangular tiles where the cylinder is along the x-axis The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid Triangular",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Triangular",
           "name": "XCylTriGrid",
           "package": "grid",
@@ -2048,6 +2208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cylindrical grid with triangular tiles, where the cylinder is\n   along the y-axis.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.Triangular",
           "name": "YCylTriGrid",
           "package": "grid",
@@ -2057,6 +2218,7 @@
         "index": {
           "description": "cylindrical grid with triangular tiles where the cylinder is along the y-axis The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid Triangular",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.Triangular",
           "name": "YCylTriGrid",
           "package": "grid",
@@ -2233,6 +2395,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing private \u003ccode\u003eTriGrid\u003c/code\u003e internals. Most developers \n should use \u003ccode\u003eTriGrid\u003c/code\u003e instead. This module is subject to change \n without notice.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "TriangularInternal",
           "package": "grid",
@@ -2242,6 +2405,7 @@
         "index": {
           "description": "module containing private TriGrid internals Most developers should use TriGrid instead This module is subject to change without notice",
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "TriangularInternal",
           "package": "grid",
@@ -2256,6 +2420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Parallelogrammatical grid with triangular tiles.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "ParaTriGrid",
           "package": "grid",
@@ -2265,6 +2430,7 @@
         "index": {
           "description": "Parallelogrammatical grid with triangular tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "ParaTriGrid",
           "package": "grid",
@@ -2279,6 +2445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rectangular grid with triangular tiles.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "RectTriGrid",
           "package": "grid",
@@ -2288,6 +2455,7 @@
         "index": {
           "description": "rectangular grid with triangular tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "RectTriGrid",
           "package": "grid",
@@ -2302,6 +2470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA toroidal grid with triangular tiles.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "TorTriGrid",
           "package": "grid",
@@ -2311,6 +2480,7 @@
         "index": {
           "description": "toroidal grid with triangular tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "TorTriGrid",
           "package": "grid",
@@ -2324,6 +2494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "TriDirection",
           "package": "grid",
@@ -2332,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "TriDirection",
           "package": "grid",
@@ -2346,6 +2518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA triangular grid with triangular tiles.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "TriTriGrid",
           "package": "grid",
@@ -2355,6 +2528,7 @@
         "index": {
           "description": "triangular grid with triangular tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "TriTriGrid",
           "package": "grid",
@@ -2369,6 +2543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unbounded grid with triangular tiles.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "UnboundedTriGrid",
           "package": "grid",
@@ -2378,6 +2553,7 @@
         "index": {
           "description": "An unbounded grid with triangular tiles The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "UnboundedTriGrid",
           "package": "grid",
@@ -2392,6 +2568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cylindrical grid with triangular tiles, where the cylinder is\n   along the x-axis.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "XCylTriGrid",
           "package": "grid",
@@ -2401,6 +2578,7 @@
         "index": {
           "description": "cylindrical grid with triangular tiles where the cylinder is along the x-axis The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "XCylTriGrid",
           "package": "grid",
@@ -2415,6 +2593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cylindrical grid with triangular tiles, where the cylinder is\n   along the y-axis.\n   The grid and its indexing scheme are illustrated in the user guide,\n   available at \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "YCylTriGrid",
           "package": "grid",
@@ -2424,6 +2603,7 @@
         "index": {
           "description": "cylindrical grid with triangular tiles where the cylinder is along the y-axis The grid and its indexing scheme are illustrated in the user guide available at https github.com mhwombat grid wiki",
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "YCylTriGrid",
           "package": "grid",
@@ -2437,6 +2617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "North",
           "package": "grid",
@@ -2446,6 +2627,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "North",
           "package": "grid",
@@ -2459,6 +2641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "Northeast",
           "package": "grid",
@@ -2468,6 +2651,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "Northeast",
           "package": "grid",
@@ -2481,6 +2665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "Northwest",
           "package": "grid",
@@ -2490,6 +2675,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "Northwest",
           "package": "grid",
@@ -2503,6 +2689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "ParaTriGrid",
           "package": "grid",
@@ -2512,6 +2699,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "ParaTriGrid",
           "normalized": "ParaTriGrid(Int,Int)[(Int,Int)]",
@@ -2527,6 +2715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "RectTriGrid",
           "package": "grid",
@@ -2536,6 +2725,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "RectTriGrid",
           "normalized": "RectTriGrid(Int,Int)[(Int,Int)]",
@@ -2551,6 +2741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "South",
           "package": "grid",
@@ -2560,6 +2751,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "South",
           "package": "grid",
@@ -2573,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "Southeast",
           "package": "grid",
@@ -2582,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "Southeast",
           "package": "grid",
@@ -2595,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "Southwest",
           "package": "grid",
@@ -2604,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "Southwest",
           "package": "grid",
@@ -2617,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "TorTriGrid",
           "package": "grid",
@@ -2626,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "TorTriGrid",
           "normalized": "TorTriGrid(Int,Int)[(Int,Int)]",
@@ -2641,6 +2839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "TriTriGrid",
           "package": "grid",
@@ -2650,6 +2849,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "TriTriGrid",
           "normalized": "TriTriGrid Int[(Int,Int)]",
@@ -2665,6 +2865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "UnboundedTriGrid",
           "package": "grid",
@@ -2674,6 +2875,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "UnboundedTriGrid",
           "package": "grid",
@@ -2687,6 +2889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "XCylTriGrid",
           "package": "grid",
@@ -2696,6 +2899,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "XCylTriGrid",
           "normalized": "XCylTriGrid(Int,Int)[(Int,Int)]",
@@ -2711,6 +2915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "YCylTriGrid",
           "package": "grid",
@@ -2720,6 +2925,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "YCylTriGrid",
           "normalized": "YCylTriGrid(Int,Int)[(Int,Int)]",
@@ -2735,6 +2941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "inTriTriGrid",
           "package": "grid",
@@ -2744,6 +2951,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "inTriTriGrid",
           "normalized": "(Int,Int)-\u003eInt-\u003eBool",
@@ -2759,6 +2967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "parallelogramIndices",
           "package": "grid",
@@ -2768,6 +2977,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "parallelogramIndices",
           "normalized": "Int-\u003eInt-\u003e[(Int,Int)]",
@@ -2784,6 +2994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor triangular tiles, it is convenient to define a third component \n   z.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "triZ",
           "package": "grid",
@@ -2794,6 +3005,7 @@
         "index": {
           "description": "For triangular tiles it is convenient to define third component",
           "hierarchy": "Math Geometry Grid TriangularInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid.TriangularInternal",
           "name": "triZ",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -2809,6 +3021,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA regular arrangement of tiles. Grids have a variety of uses,\n including games and self-organising maps.\n The userguide is available at \n \u003ca\u003ehttps://github.com/mhwombat/grid/wiki\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eIn this package, tiles are called \"triangular\", \"square\", etc.,\n based on the number of \u003cem\u003eneighbours\u003c/em\u003e they have.\n For example, a square tile has four neighbours, and a hexagonal\n tile has six.\n There are only three regular polygons that can tile a plane:\n triangles, squares, and hexagons.\n Of course, other plane tilings are possible if you use irregular \n polygons, or curved shapes, or if you combine tiles of different \n shapes.\n\u003c/p\u003e\u003cp\u003eWhen you tile other surfaces, things get very interesting.\n Octagons will tile a \u003cem\u003ehyperbolic\u003c/em\u003e plane.\n (Alternatively, you can think of these as squares on a board game\n where diagonal moves are allowed.)\n\u003c/p\u003e\u003cp\u003eFor a board game, you probably want to choose the grid type based\n on the number of \u003cem\u003edirections\u003c/em\u003e a player can move, rather than the\n number of sides the tile will have when you display it.\n For example, for a game that uses square tiles and allows the user\n to move diagonally as well as horizontally and vertically,\n consider using one of the grids with \u003cem\u003eoctagonal\u003c/em\u003e tiles to model the\n board.\n You can still \u003cem\u003edisplay\u003c/em\u003e the tiles as squares, but for internal\n calculations they are octagons.\n\u003c/p\u003e\u003cp\u003eNOTE: Version 6.0 moved the various grid flavours to sub-modules.\n\u003c/p\u003e\u003cp\u003eNOTE: Version 4.0 uses associated (type) synonyms instead of \n multi-parameter type classes.\n\u003c/p\u003e\u003cp\u003eNOTE: Version 3.0 changed the order of parameters for many functions.\n This makes it easier for the user to write mapping and folding\n operations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "Grid",
           "package": "grid",
@@ -2818,6 +3031,7 @@
         "index": {
           "description": "regular arrangement of tiles Grids have variety of uses including games and self-organising maps The userguide is available at https github.com mhwombat grid wiki In this package tiles are called triangular square etc based on the number of neighbours they have For example square tile has four neighbours and hexagonal tile has six There are only three regular polygons that can tile plane triangles squares and hexagons Of course other plane tilings are possible if you use irregular polygons or curved shapes or if you combine tiles of different shapes When you tile other surfaces things get very interesting Octagons will tile hyperbolic plane Alternatively you can think of these as squares on board game where diagonal moves are allowed For board game you probably want to choose the grid type based on the number of directions player can move rather than the number of sides the tile will have when you display it For example for game that uses square tiles and allows the user to move diagonally as well as horizontally and vertically consider using one of the grids with octagonal tiles to model the board You can still display the tiles as squares but for internal calculations they are octagons NOTE Version moved the various grid flavours to sub-modules NOTE Version uses associated type synonyms instead of multi-parameter type classes NOTE Version changed the order of parameters for many functions This makes it easier for the user to write mapping and folding operations",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "Grid",
           "package": "grid",
@@ -2832,6 +3046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA regular arrangement of tiles with an edge.\n   Minimal complete definition: \u003ccode\u003e\u003ccode\u003e\u003ca\u003etileSideCount\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "BoundedGrid",
           "package": "grid",
@@ -2841,6 +3056,7 @@
         "index": {
           "description": "regular arrangement of tiles with an edge Minimal complete definition tileSideCount",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "BoundedGrid",
           "package": "grid",
@@ -2855,6 +3071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA regular arrangement of tiles where the number of tiles is finite.\n   Minimal complete definition: \u003ccode\u003e\u003ccode\u003e\u003ca\u003esize\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003emaxPossibleDistance\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "FiniteGrid",
           "package": "grid",
@@ -2864,6 +3081,7 @@
         "index": {
           "description": "regular arrangement of tiles where the number of tiles is finite Minimal complete definition size maxPossibleDistance",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "FiniteGrid",
           "package": "grid",
@@ -2878,6 +3096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA regular arrangement of tiles.\n   Minimal complete definition: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eIndex\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eDirection\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eindices\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003edistance\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003edirectionTo\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "Grid",
           "package": "grid",
@@ -2887,6 +3106,7 @@
         "index": {
           "description": "regular arrangement of tiles Minimal complete definition Index Direction indices distance directionTo",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "Grid",
           "package": "grid",
@@ -2901,6 +3121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eadjacentTilesToward\u003c/a\u003e\u003c/code\u003e g a b\u003c/code\u003e returns the indices of all tiles\n   which are neighbours of the tile at index \u003ccode\u003ea\u003c/code\u003e, and which are\n   closer to the tile at \u003ccode\u003eb\u003c/code\u003e than \u003ccode\u003ea\u003c/code\u003e is. In other words, it returns\n   the possible next steps on a minimal path from \u003ccode\u003ea\u003c/code\u003e to \u003ccode\u003eb\u003c/code\u003e. If \u003ccode\u003ea\u003c/code\u003e\n   or \u003ccode\u003eb\u003c/code\u003e are not contained within \u003ccode\u003eg\u003c/code\u003e, or if there is no path from\n   \u003ccode\u003ea\u003c/code\u003e to \u003ccode\u003eb\u003c/code\u003e (e.g., a disconnected grid), the result is undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "adjacentTilesToward",
           "package": "grid",
@@ -2911,6 +3132,7 @@
         "index": {
           "description": "adjacentTilesToward returns the indices of all tiles which are neighbours of the tile at index and which are closer to the tile at than is In other words it returns the possible next steps on minimal path from to If or are not contained within or if there is no path from to e.g disconnected grid the result is undefined",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "adjacentTilesToward",
           "normalized": "a-\u003eIndex a-\u003eIndex a-\u003e[Index a]",
@@ -2927,6 +3149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a the indices of all the tiles at the boundary of a grid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "boundary",
           "package": "grid",
@@ -2937,6 +3160,7 @@
         "index": {
           "description": "Returns the indices of all the tiles at the boundary of grid",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "boundary",
           "normalized": "a-\u003e[Index a]",
@@ -2952,6 +3176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the index of the tile(s) that require the maximum number\n   of moves to reach the nearest boundary tile. A grid may have more\n   than one central tile (e.g., a rectangular grid with an even\n   number of rows and columns will have four central tiles).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "centre",
           "package": "grid",
@@ -2962,6 +3187,7 @@
         "index": {
           "description": "Returns the index of the tile that require the maximum number of moves to reach the nearest boundary tile grid may have more than one central tile e.g rectangular grid with an even number of rows and columns will have four central tiles",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "centre",
           "normalized": "a-\u003e[Index a]",
@@ -2977,6 +3203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eg `'contains'` a\u003c/code\u003e returns \u003ccode\u003eTrue\u003c/code\u003e if the index \u003ccode\u003ea\u003c/code\u003e is contained\n   within the grid \u003ccode\u003eg\u003c/code\u003e, otherwise it returns false.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "contains",
           "package": "grid",
@@ -2987,6 +3214,7 @@
         "index": {
           "description": "contains returns True if the index is contained within the grid otherwise it returns false",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "contains",
           "normalized": "a-\u003eIndex a-\u003eBool",
@@ -3001,6 +3229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "defaultBoundary",
           "package": "grid",
@@ -3010,6 +3239,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "defaultBoundary",
           "normalized": "a-\u003e[Index a]",
@@ -3025,6 +3255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "defaultCentre",
           "package": "grid",
@@ -3034,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "defaultCentre",
           "normalized": "a-\u003e[Index a]",
@@ -3049,6 +3281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "defaultIsBoundary",
           "package": "grid",
@@ -3058,6 +3291,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "defaultIsBoundary",
           "normalized": "a-\u003eIndex a-\u003eBool",
@@ -3073,6 +3307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "defaultIsCentre",
           "package": "grid",
@@ -3082,6 +3317,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "defaultIsCentre",
           "normalized": "a-\u003eIndex a-\u003eBool",
@@ -3098,6 +3334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003edirectionTo\u003c/a\u003e\u003c/code\u003e g a b\u003c/code\u003e returns the direction(s) of the next\n   tile(s) in a \u003cem\u003eminimal\u003c/em\u003e path from the tile at index \u003ccode\u003ea\u003c/code\u003e to the\n   tile at index \u003ccode\u003eb\u003c/code\u003e in grid \u003ccode\u003eg\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "directionTo",
           "package": "grid",
@@ -3108,6 +3345,7 @@
         "index": {
           "description": "directionTo returns the direction of the next tile in minimal path from the tile at index to the tile at index in grid",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "directionTo",
           "normalized": "a-\u003eIndex a-\u003eIndex a-\u003e[Direction a]",
@@ -3124,6 +3362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003edistance\u003c/a\u003e\u003c/code\u003e g a b\u003c/code\u003e returns the minimum number of moves required\n   to get from the tile at index \u003ccode\u003ea\u003c/code\u003e to the tile at index \u003ccode\u003eb\u003c/code\u003e in\n   grid \u003ccode\u003eg\u003c/code\u003e, moving between adjacent tiles at each step. (Two tiles\n   are adjacent if they share an edge.) If \u003ccode\u003ea\u003c/code\u003e or \u003ccode\u003eb\u003c/code\u003e are not\n   contained within \u003ccode\u003eg\u003c/code\u003e, the result is undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "distance",
           "package": "grid",
@@ -3134,6 +3373,7 @@
         "index": {
           "description": "distance returns the minimum number of moves required to get from the tile at index to the tile at index in grid moving between adjacent tiles at each step Two tiles are adjacent if they share an edge If or are not contained within the result is undefined",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "distance",
           "normalized": "a-\u003eIndex a-\u003eIndex a-\u003eInt",
@@ -3149,6 +3389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of all edges in a grid, where the edges are represented by\n   a pair of indices of adjacent tiles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "edges",
           "package": "grid",
@@ -3159,6 +3400,7 @@
         "index": {
           "description": "list of all edges in grid where the edges are represented by pair of indices of adjacent tiles",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "edges",
           "normalized": "a-\u003e[(Index a,Index a)]",
@@ -3174,6 +3416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the indices of all tiles in a grid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "indices",
           "package": "grid",
@@ -3184,6 +3427,7 @@
         "index": {
           "description": "Returns the indices of all tiles in grid",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "indices",
           "normalized": "a-\u003e[Index a]",
@@ -3199,6 +3443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eisAdjacent\u003c/a\u003e\u003c/code\u003e g a b\u003c/code\u003e returns \u003ccode\u003eTrue\u003c/code\u003e if the tile at index \u003ccode\u003ea\u003c/code\u003e is\n   adjacent to the tile at index \u003ccode\u003eb\u003c/code\u003e in \u003ccode\u003eg\u003c/code\u003e. (Two tiles are adjacent\n   if they share an edge.) If \u003ccode\u003ea\u003c/code\u003e or \u003ccode\u003eb\u003c/code\u003e are not contained within\n   \u003ccode\u003eg\u003c/code\u003e, the result is undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "isAdjacent",
           "package": "grid",
@@ -3209,6 +3454,7 @@
         "index": {
           "description": "isAdjacent returns True if the tile at index is adjacent to the tile at index in Two tiles are adjacent if they share an edge If or are not contained within the result is undefined",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "isAdjacent",
           "normalized": "a-\u003eIndex a-\u003eIndex a-\u003eBool",
@@ -3225,6 +3471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eisBoundary\u003c/a\u003e\u003c/code\u003e g a\u003c/code\u003e' returns \u003ccode\u003eTrue\u003c/code\u003e if the tile with index \u003ccode\u003ea\u003c/code\u003e is\n   on a boundary of \u003ccode\u003eg\u003c/code\u003e, \u003ccode\u003eFalse\u003c/code\u003e otherwise. (Corner tiles are also\n   boundary tiles.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "isBoundary",
           "package": "grid",
@@ -3235,6 +3482,7 @@
         "index": {
           "description": "isBoundary returns True if the tile with index is on boundary of False otherwise Corner tiles are also boundary tiles",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "isBoundary",
           "normalized": "a-\u003eIndex a-\u003eBool",
@@ -3251,6 +3499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eisCentre\u003c/a\u003e\u003c/code\u003e g a\u003c/code\u003e' returns \u003ccode\u003eTrue\u003c/code\u003e if the tile with index \u003ccode\u003ea\u003c/code\u003e is\n   a centre tile of \u003ccode\u003eg\u003c/code\u003e, \u003ccode\u003eFalse\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "isCentre",
           "package": "grid",
@@ -3261,6 +3510,7 @@
         "index": {
           "description": "isCentre returns True if the tile with index is centre tile of False otherwise",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "isCentre",
           "normalized": "a-\u003eIndex a-\u003eBool",
@@ -3277,6 +3527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the largest possible distance between two tiles in the\n   grid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "maxPossibleDistance",
           "package": "grid",
@@ -3287,6 +3538,7 @@
         "index": {
           "description": "Returns the largest possible distance between two tiles in the grid",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "maxPossibleDistance",
           "normalized": "a-\u003eInt",
@@ -3303,6 +3555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eminDistance\u003c/a\u003e\u003c/code\u003e g bs a\u003c/code\u003e returns the minimum number of moves\n   required to get from any of the tiles at indices \u003ccode\u003ebs\u003c/code\u003e to the tile\n   at index \u003ccode\u003ea\u003c/code\u003e in grid \u003ccode\u003eg\u003c/code\u003e, moving between adjacent tiles at each\n   step. (Two tiles are adjacent if they share an edge.) If \u003ccode\u003ea\u003c/code\u003e or\n   any of \u003ccode\u003ebs\u003c/code\u003e are not contained within \u003ccode\u003eg\u003c/code\u003e, the result is\n   undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "minDistance",
           "package": "grid",
@@ -3313,6 +3566,7 @@
         "index": {
           "description": "minDistance bs returns the minimum number of moves required to get from any of the tiles at indices bs to the tile at index in grid moving between adjacent tiles at each step Two tiles are adjacent if they share an edge If or any of bs are not contained within the result is undefined",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "minDistance",
           "normalized": "a-\u003e[Index a]-\u003eIndex a-\u003eInt",
@@ -3329,6 +3583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eminimalPaths\u003c/a\u003e\u003c/code\u003e g a b\u003c/code\u003e returns a list of all minimal paths from\n   the tile at index \u003ccode\u003ea\u003c/code\u003e to the tile at index \u003ccode\u003eb\u003c/code\u003e in grid \u003ccode\u003eg\u003c/code\u003e. A\n   path is a sequence of tiles where each tile in the sequence is\n   adjacent to the previous one. (Two tiles are adjacent if they\n   share an edge.) If \u003ccode\u003ea\u003c/code\u003e or \u003ccode\u003eb\u003c/code\u003e are not contained within \u003ccode\u003eg\u003c/code\u003e, the\n   result is undefined.\n\u003c/p\u003e\u003cp\u003eTip: The default implementation of this function calls\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003eadjacentTilesToward\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. If you want to use a custom algorithm,\n   consider modifying \u003ccode\u003e\u003ccode\u003e\u003ca\u003eadjacentTilesToward\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e instead of\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003eminimalPaths\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "minimalPaths",
           "package": "grid",
@@ -3339,6 +3594,7 @@
         "index": {
           "description": "minimalPaths returns list of all minimal paths from the tile at index to the tile at index in grid path is sequence of tiles where each tile in the sequence is adjacent to the previous one Two tiles are adjacent if they share an edge If or are not contained within the result is undefined Tip The default implementation of this function calls adjacentTilesToward If you want to use custom algorithm consider modifying adjacentTilesToward instead of minimalPaths",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "minimalPaths",
           "normalized": "a-\u003eIndex a-\u003eIndex a-\u003e[[Index a]]",
@@ -3355,6 +3611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eneighbour\u003c/a\u003e\u003c/code\u003e g d a\u003c/code\u003e returns the indices of the tile in the grid\n   \u003ccode\u003eg\u003c/code\u003e which is adjacent to the tile with index \u003ccode\u003ea\u003c/code\u003e, in the\n   direction \u003ccode\u003ed\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "neighbour",
           "package": "grid",
@@ -3365,6 +3622,7 @@
         "index": {
           "description": "neighbour returns the indices of the tile in the grid which is adjacent to the tile with index in the direction",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "neighbour",
           "normalized": "a-\u003eIndex a-\u003eDirection a-\u003eMaybe(Index a)",
@@ -3380,6 +3638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eneighbours\u003c/a\u003e\u003c/code\u003e g a\u003c/code\u003e returns the indices of the tiles in the grid\n   \u003ccode\u003eg\u003c/code\u003e which are adjacent to the tile with index \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "neighbours",
           "package": "grid",
@@ -3390,6 +3649,7 @@
         "index": {
           "description": "neighbours returns the indices of the tiles in the grid which are adjacent to the tile with index",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "neighbours",
           "normalized": "a-\u003eIndex a-\u003e[Index a]",
@@ -3405,6 +3665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003eFalse\u003c/code\u003e if the number of tiles in a grid is zero, \u003ccode\u003eTrue\u003c/code\u003e\n   otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "nonNull",
           "package": "grid",
@@ -3415,6 +3676,7 @@
         "index": {
           "description": "Returns False if the number of tiles in grid is zero True otherwise",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "nonNull",
           "normalized": "a-\u003eBool",
@@ -3431,6 +3693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003eTrue\u003c/code\u003e if the number of tiles in a grid is zero, \u003ccode\u003eFalse\u003c/code\u003e\n   otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "null",
           "package": "grid",
@@ -3441,6 +3704,7 @@
         "index": {
           "description": "Returns True if the number of tiles in grid is zero False otherwise",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "null",
           "normalized": "a-\u003eBool",
@@ -3456,6 +3720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the dimensions of the grid.\n   For example, if \u003ccode\u003eg\u003c/code\u003e is a 4x3 rectangular grid, \u003ccode\u003e\u003ccode\u003e\u003ca\u003esize\u003c/a\u003e\u003c/code\u003e g\u003c/code\u003e would\n   return \u003ccode\u003e(4, 3)\u003c/code\u003e, while \u003ccode\u003e\u003ccode\u003e\u003ca\u003etileCount\u003c/a\u003e\u003c/code\u003e g\u003c/code\u003e would return \u003ccode\u003e12\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "size",
           "package": "grid",
@@ -3466,6 +3731,7 @@
         "index": {
           "description": "Returns the dimensions of the grid For example if is x3 rectangular grid size would return while tileCount would return",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "size",
           "normalized": "a-\u003eSize a",
@@ -3481,6 +3747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of tiles in a grid. Compare with \u003ccode\u003e\u003ccode\u003e\u003ca\u003esize\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "tileCount",
           "package": "grid",
@@ -3491,6 +3758,7 @@
         "index": {
           "description": "Returns the number of tiles in grid Compare with size",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "tileCount",
           "normalized": "a-\u003eInt",
@@ -3507,6 +3775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of sides a tile has\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "tileSideCount",
           "package": "grid",
@@ -3517,6 +3786,7 @@
         "index": {
           "description": "Returns the number of sides tile has",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "tileSideCount",
           "normalized": "a-\u003eInt",
@@ -3533,6 +3803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eviewpoint\u003c/a\u003e\u003c/code\u003e g a\u003c/code\u003e returns a list of pairs associating the index\n   of each tile in \u003ccode\u003eg\u003c/code\u003e with its distance to the tile with index \u003ccode\u003ea\u003c/code\u003e.\n   If \u003ccode\u003ea\u003c/code\u003e is not contained within \u003ccode\u003eg\u003c/code\u003e, the result is undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.Grid",
           "name": "viewpoint",
           "package": "grid",
@@ -3543,6 +3814,7 @@
         "index": {
           "description": "viewpoint returns list of pairs associating the index of each tile in with its distance to the tile with index If is not contained within the result is undefined",
           "hierarchy": "Math Geometry Grid",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.Grid",
           "name": "viewpoint",
           "normalized": "a-\u003eIndex a-\u003e[(Index a,Int)]",
@@ -3558,6 +3830,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing private \u003ccode\u003eGrid\u003c/code\u003e internals. Most developers should\n use \u003ccode\u003eGrid\u003c/code\u003e instead. This module is subject to change without notice.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "GridInternal",
           "package": "grid",
@@ -3567,6 +3840,7 @@
         "index": {
           "description": "module containing private Grid internals Most developers should use Grid instead This module is subject to change without notice",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "GridInternal",
           "package": "grid",
@@ -3581,6 +3855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA regular arrangement of tiles with an edge.\n   Minimal complete definition: \u003ccode\u003e\u003ccode\u003e\u003ca\u003etileSideCount\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "BoundedGrid",
           "package": "grid",
@@ -3590,6 +3865,7 @@
         "index": {
           "description": "regular arrangement of tiles with an edge Minimal complete definition tileSideCount",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "BoundedGrid",
           "package": "grid",
@@ -3604,6 +3880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA regular arrangement of tiles where the number of tiles is finite.\n   Minimal complete definition: \u003ccode\u003e\u003ccode\u003e\u003ca\u003esize\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003emaxPossibleDistance\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "FiniteGrid",
           "package": "grid",
@@ -3613,6 +3890,7 @@
         "index": {
           "description": "regular arrangement of tiles where the number of tiles is finite Minimal complete definition size maxPossibleDistance",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "FiniteGrid",
           "package": "grid",
@@ -3627,6 +3905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA regular arrangement of tiles.\n   Minimal complete definition: \u003ccode\u003e\u003ccode\u003e\u003ca\u003eIndex\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eDirection\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eindices\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003edistance\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003edirectionTo\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "Grid",
           "package": "grid",
@@ -3636,6 +3915,7 @@
         "index": {
           "description": "regular arrangement of tiles Minimal complete definition Index Direction indices distance directionTo",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "Grid",
           "package": "grid",
@@ -3650,6 +3930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA regular arrangement of tiles where the boundaries are joined.\n   Minimal complete definition: \u003ccode\u003e\u003ccode\u003e\u003ca\u003enormalise\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and \u003ccode\u003e\u003ccode\u003e\u003ca\u003edenormalise\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "WrappedGrid",
           "package": "grid",
@@ -3659,6 +3940,7 @@
         "index": {
           "description": "regular arrangement of tiles where the boundaries are joined Minimal complete definition normalise and denormalise",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "WrappedGrid",
           "package": "grid",
@@ -3672,6 +3954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "adjacentEdges",
           "package": "grid",
@@ -3681,6 +3964,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "adjacentEdges",
           "normalized": "Index a-\u003ea-\u003e[(Index a,Index a)]",
@@ -3697,6 +3981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eadjacentTilesToward\u003c/a\u003e\u003c/code\u003e g a b\u003c/code\u003e returns the indices of all tiles\n   which are neighbours of the tile at index \u003ccode\u003ea\u003c/code\u003e, and which are\n   closer to the tile at \u003ccode\u003eb\u003c/code\u003e than \u003ccode\u003ea\u003c/code\u003e is. In other words, it returns\n   the possible next steps on a minimal path from \u003ccode\u003ea\u003c/code\u003e to \u003ccode\u003eb\u003c/code\u003e. If \u003ccode\u003ea\u003c/code\u003e\n   or \u003ccode\u003eb\u003c/code\u003e are not contained within \u003ccode\u003eg\u003c/code\u003e, or if there is no path from\n   \u003ccode\u003ea\u003c/code\u003e to \u003ccode\u003eb\u003c/code\u003e (e.g., a disconnected grid), the result is undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "adjacentTilesToward",
           "package": "grid",
@@ -3707,6 +3992,7 @@
         "index": {
           "description": "adjacentTilesToward returns the indices of all tiles which are neighbours of the tile at index and which are closer to the tile at than is In other words it returns the possible next steps on minimal path from to If or are not contained within or if there is no path from to e.g disconnected grid the result is undefined",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "adjacentTilesToward",
           "normalized": "a-\u003eIndex a-\u003eIndex a-\u003e[Index a]",
@@ -3723,6 +4009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a the indices of all the tiles at the boundary of a grid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "boundary",
           "package": "grid",
@@ -3733,6 +4020,7 @@
         "index": {
           "description": "Returns the indices of all the tiles at the boundary of grid",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "boundary",
           "normalized": "a-\u003e[Index a]",
@@ -3747,6 +4035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "cartesianCentre",
           "package": "grid",
@@ -3756,6 +4045,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "cartesianCentre",
           "normalized": "(Int,Int)-\u003e[(Int,Int)]",
@@ -3771,6 +4061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "cartesianIndices",
           "package": "grid",
@@ -3780,6 +4071,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "cartesianIndices",
           "normalized": "(a,b)-\u003e[(b,a)]",
@@ -3795,6 +4087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "cartesianMidpoints",
           "package": "grid",
@@ -3804,6 +4097,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "cartesianMidpoints",
           "normalized": "Int-\u003e[Int]",
@@ -3820,6 +4114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the index of the tile(s) that require the maximum number\n   of moves to reach the nearest boundary tile. A grid may have more\n   than one central tile (e.g., a rectangular grid with an even\n   number of rows and columns will have four central tiles).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "centre",
           "package": "grid",
@@ -3830,6 +4125,7 @@
         "index": {
           "description": "Returns the index of the tile that require the maximum number of moves to reach the nearest boundary tile grid may have more than one central tile e.g rectangular grid with an even number of rows and columns will have four central tiles",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "centre",
           "normalized": "a-\u003e[Index a]",
@@ -3845,6 +4141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eg `'contains'` a\u003c/code\u003e returns \u003ccode\u003eTrue\u003c/code\u003e if the index \u003ccode\u003ea\u003c/code\u003e is contained\n   within the grid \u003ccode\u003eg\u003c/code\u003e, otherwise it returns false.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "contains",
           "package": "grid",
@@ -3855,6 +4152,7 @@
         "index": {
           "description": "contains returns True if the index is contained within the grid otherwise it returns false",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "contains",
           "normalized": "a-\u003eIndex a-\u003eBool",
@@ -3869,6 +4167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultAdjacentTilesToward",
           "package": "grid",
@@ -3878,6 +4177,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultAdjacentTilesToward",
           "normalized": "a-\u003eIndex a-\u003eIndex a-\u003e[Index a]",
@@ -3893,6 +4193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultBoundary",
           "package": "grid",
@@ -3902,6 +4203,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultBoundary",
           "normalized": "a-\u003e[Index a]",
@@ -3917,6 +4219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultCentre",
           "package": "grid",
@@ -3926,6 +4229,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultCentre",
           "normalized": "a-\u003e[Index a]",
@@ -3941,6 +4245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultEdges",
           "package": "grid",
@@ -3950,6 +4255,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultEdges",
           "normalized": "a-\u003e[(Index a,Index a)]",
@@ -3965,6 +4271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultIsAdjacent",
           "package": "grid",
@@ -3974,6 +4281,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultIsAdjacent",
           "normalized": "a-\u003eIndex a-\u003eIndex a-\u003eBool",
@@ -3989,6 +4297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultIsBoundary",
           "package": "grid",
@@ -3998,6 +4307,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultIsBoundary",
           "normalized": "a-\u003eIndex a-\u003eBool",
@@ -4013,6 +4323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultIsCentre",
           "package": "grid",
@@ -4022,6 +4333,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultIsCentre",
           "normalized": "a-\u003eIndex a-\u003eBool",
@@ -4037,6 +4349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultMinDistance",
           "package": "grid",
@@ -4046,6 +4359,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultMinDistance",
           "normalized": "a-\u003e[Index a]-\u003eIndex a-\u003eInt",
@@ -4061,6 +4375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultMinimalPaths",
           "package": "grid",
@@ -4070,6 +4385,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultMinimalPaths",
           "normalized": "a-\u003eIndex a-\u003eIndex a-\u003e[[Index a]]",
@@ -4085,6 +4401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultNeighbour",
           "package": "grid",
@@ -4094,6 +4411,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultNeighbour",
           "normalized": "a-\u003eIndex a-\u003eDirection a-\u003eMaybe(Index a)",
@@ -4109,6 +4427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultNeighbours",
           "package": "grid",
@@ -4118,6 +4437,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultNeighbours",
           "normalized": "a-\u003eIndex a-\u003e[Index a]",
@@ -4133,6 +4453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultNeighboursOfSet",
           "package": "grid",
@@ -4142,6 +4463,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultNeighboursOfSet",
           "normalized": "a-\u003e[Index a]-\u003e[Index a]",
@@ -4157,6 +4479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultTileCount",
           "package": "grid",
@@ -4166,6 +4489,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "defaultTileCount",
           "normalized": "a-\u003eInt",
@@ -4182,6 +4506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003edenormalise\u003c/a\u003e\u003c/code\u003e g a\u003c/code\u003e returns all of the indices in \u003ccode\u003ea\u003c/code\u003e's\n   translation group. In other words, it returns \u003ccode\u003ea\u003c/code\u003e plus the\n   indices obtained by translating \u003ccode\u003ea\u003c/code\u003e in each direction by the\n   extent of the grid along that direction.\n   TODO: need a clearer description and an illustration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "denormalise",
           "package": "grid",
@@ -4192,6 +4517,7 @@
         "index": {
           "description": "denormalise returns all of the indices in translation group In other words it returns plus the indices obtained by translating in each direction by the extent of the grid along that direction TODO need clearer description and an illustration",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "denormalise",
           "normalized": "a-\u003eIndex a-\u003e[Index a]",
@@ -4207,6 +4533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003edirectionTo\u003c/a\u003e\u003c/code\u003e g a b\u003c/code\u003e returns the direction(s) of the next\n   tile(s) in a \u003cem\u003eminimal\u003c/em\u003e path from the tile at index \u003ccode\u003ea\u003c/code\u003e to the\n   tile at index \u003ccode\u003eb\u003c/code\u003e in grid \u003ccode\u003eg\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "directionTo",
           "package": "grid",
@@ -4217,6 +4544,7 @@
         "index": {
           "description": "directionTo returns the direction of the next tile in minimal path from the tile at index to the tile at index in grid",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "directionTo",
           "normalized": "a-\u003eIndex a-\u003eIndex a-\u003e[Direction a]",
@@ -4232,6 +4560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "directionToBasedOn",
           "package": "grid",
@@ -4241,6 +4570,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "directionToBasedOn",
           "normalized": "a-\u003eb-\u003eIndex b-\u003eIndex b-\u003e[Direction b]",
@@ -4256,6 +4586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "directionToWrappedBasedOn",
           "package": "grid",
@@ -4265,6 +4596,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "directionToWrappedBasedOn",
           "normalized": "a-\u003eb-\u003eIndex b-\u003eIndex b-\u003e[Direction b]",
@@ -4281,6 +4613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003edistance\u003c/a\u003e\u003c/code\u003e g a b\u003c/code\u003e returns the minimum number of moves required\n   to get from the tile at index \u003ccode\u003ea\u003c/code\u003e to the tile at index \u003ccode\u003eb\u003c/code\u003e in\n   grid \u003ccode\u003eg\u003c/code\u003e, moving between adjacent tiles at each step. (Two tiles\n   are adjacent if they share an edge.) If \u003ccode\u003ea\u003c/code\u003e or \u003ccode\u003eb\u003c/code\u003e are not\n   contained within \u003ccode\u003eg\u003c/code\u003e, the result is undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "distance",
           "package": "grid",
@@ -4291,6 +4624,7 @@
         "index": {
           "description": "distance returns the minimum number of moves required to get from the tile at index to the tile at index in grid moving between adjacent tiles at each step Two tiles are adjacent if they share an edge If or are not contained within the result is undefined",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "distance",
           "normalized": "a-\u003eIndex a-\u003eIndex a-\u003eInt",
@@ -4305,6 +4639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "distanceBasedOn",
           "package": "grid",
@@ -4314,6 +4649,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "distanceBasedOn",
           "normalized": "a-\u003eb-\u003eIndex b-\u003eIndex b-\u003eInt",
@@ -4329,6 +4665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "distanceWrappedBasedOn",
           "package": "grid",
@@ -4338,6 +4675,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "distanceWrappedBasedOn",
           "normalized": "a-\u003eb-\u003eIndex b-\u003eIndex b-\u003eInt",
@@ -4354,6 +4692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of all edges in a grid, where the edges are represented by\n   a pair of indices of adjacent tiles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "edges",
           "package": "grid",
@@ -4364,6 +4703,7 @@
         "index": {
           "description": "list of all edges in grid where the edges are represented by pair of indices of adjacent tiles",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "edges",
           "normalized": "a-\u003e[(Index a,Index a)]",
@@ -4379,6 +4719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the indices of all tiles in a grid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "indices",
           "package": "grid",
@@ -4389,6 +4730,7 @@
         "index": {
           "description": "Returns the indices of all tiles in grid",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "indices",
           "normalized": "a-\u003e[Index a]",
@@ -4404,6 +4746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eisAdjacent\u003c/a\u003e\u003c/code\u003e g a b\u003c/code\u003e returns \u003ccode\u003eTrue\u003c/code\u003e if the tile at index \u003ccode\u003ea\u003c/code\u003e is\n   adjacent to the tile at index \u003ccode\u003eb\u003c/code\u003e in \u003ccode\u003eg\u003c/code\u003e. (Two tiles are adjacent\n   if they share an edge.) If \u003ccode\u003ea\u003c/code\u003e or \u003ccode\u003eb\u003c/code\u003e are not contained within\n   \u003ccode\u003eg\u003c/code\u003e, the result is undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "isAdjacent",
           "package": "grid",
@@ -4414,6 +4757,7 @@
         "index": {
           "description": "isAdjacent returns True if the tile at index is adjacent to the tile at index in Two tiles are adjacent if they share an edge If or are not contained within the result is undefined",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "isAdjacent",
           "normalized": "a-\u003eIndex a-\u003eIndex a-\u003eBool",
@@ -4430,6 +4774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eisBoundary\u003c/a\u003e\u003c/code\u003e g a\u003c/code\u003e' returns \u003ccode\u003eTrue\u003c/code\u003e if the tile with index \u003ccode\u003ea\u003c/code\u003e is\n   on a boundary of \u003ccode\u003eg\u003c/code\u003e, \u003ccode\u003eFalse\u003c/code\u003e otherwise. (Corner tiles are also\n   boundary tiles.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "isBoundary",
           "package": "grid",
@@ -4440,6 +4785,7 @@
         "index": {
           "description": "isBoundary returns True if the tile with index is on boundary of False otherwise Corner tiles are also boundary tiles",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "isBoundary",
           "normalized": "a-\u003eIndex a-\u003eBool",
@@ -4456,6 +4802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eisCentre\u003c/a\u003e\u003c/code\u003e g a\u003c/code\u003e' returns \u003ccode\u003eTrue\u003c/code\u003e if the tile with index \u003ccode\u003ea\u003c/code\u003e is\n   a centre tile of \u003ccode\u003eg\u003c/code\u003e, \u003ccode\u003eFalse\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "isCentre",
           "package": "grid",
@@ -4466,6 +4813,7 @@
         "index": {
           "description": "isCentre returns True if the tile with index is centre tile of False otherwise",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "isCentre",
           "normalized": "a-\u003eIndex a-\u003eBool",
@@ -4482,6 +4830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the largest possible distance between two tiles in the\n   grid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "maxPossibleDistance",
           "package": "grid",
@@ -4492,6 +4841,7 @@
         "index": {
           "description": "Returns the largest possible distance between two tiles in the grid",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "maxPossibleDistance",
           "normalized": "a-\u003eInt",
@@ -4508,6 +4858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eminDistance\u003c/a\u003e\u003c/code\u003e g bs a\u003c/code\u003e returns the minimum number of moves\n   required to get from any of the tiles at indices \u003ccode\u003ebs\u003c/code\u003e to the tile\n   at index \u003ccode\u003ea\u003c/code\u003e in grid \u003ccode\u003eg\u003c/code\u003e, moving between adjacent tiles at each\n   step. (Two tiles are adjacent if they share an edge.) If \u003ccode\u003ea\u003c/code\u003e or\n   any of \u003ccode\u003ebs\u003c/code\u003e are not contained within \u003ccode\u003eg\u003c/code\u003e, the result is\n   undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "minDistance",
           "package": "grid",
@@ -4518,6 +4869,7 @@
         "index": {
           "description": "minDistance bs returns the minimum number of moves required to get from any of the tiles at indices bs to the tile at index in grid moving between adjacent tiles at each step Two tiles are adjacent if they share an edge If or any of bs are not contained within the result is undefined",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "minDistance",
           "normalized": "a-\u003e[Index a]-\u003eIndex a-\u003eInt",
@@ -4534,6 +4886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eminimalPaths\u003c/a\u003e\u003c/code\u003e g a b\u003c/code\u003e returns a list of all minimal paths from\n   the tile at index \u003ccode\u003ea\u003c/code\u003e to the tile at index \u003ccode\u003eb\u003c/code\u003e in grid \u003ccode\u003eg\u003c/code\u003e. A\n   path is a sequence of tiles where each tile in the sequence is\n   adjacent to the previous one. (Two tiles are adjacent if they\n   share an edge.) If \u003ccode\u003ea\u003c/code\u003e or \u003ccode\u003eb\u003c/code\u003e are not contained within \u003ccode\u003eg\u003c/code\u003e, the\n   result is undefined.\n\u003c/p\u003e\u003cp\u003eTip: The default implementation of this function calls\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003eadjacentTilesToward\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e. If you want to use a custom algorithm,\n   consider modifying \u003ccode\u003e\u003ccode\u003e\u003ca\u003eadjacentTilesToward\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e instead of\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003eminimalPaths\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "minimalPaths",
           "package": "grid",
@@ -4544,6 +4897,7 @@
         "index": {
           "description": "minimalPaths returns list of all minimal paths from the tile at index to the tile at index in grid path is sequence of tiles where each tile in the sequence is adjacent to the previous one Two tiles are adjacent if they share an edge If or are not contained within the result is undefined Tip The default implementation of this function calls adjacentTilesToward If you want to use custom algorithm consider modifying adjacentTilesToward instead of minimalPaths",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "minimalPaths",
           "normalized": "a-\u003eIndex a-\u003eIndex a-\u003e[[Index a]]",
@@ -4560,6 +4914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eneighbour\u003c/a\u003e\u003c/code\u003e g d a\u003c/code\u003e returns the indices of the tile in the grid\n   \u003ccode\u003eg\u003c/code\u003e which is adjacent to the tile with index \u003ccode\u003ea\u003c/code\u003e, in the\n   direction \u003ccode\u003ed\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "neighbour",
           "package": "grid",
@@ -4570,6 +4925,7 @@
         "index": {
           "description": "neighbour returns the indices of the tile in the grid which is adjacent to the tile with index in the direction",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "neighbour",
           "normalized": "a-\u003eIndex a-\u003eDirection a-\u003eMaybe(Index a)",
@@ -4584,6 +4940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "neighbourWrappedBasedOn",
           "package": "grid",
@@ -4593,6 +4950,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "neighbourWrappedBasedOn",
           "normalized": "a-\u003eb-\u003eIndex b-\u003eDirection b-\u003eMaybe(Index b)",
@@ -4609,6 +4967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eneighbours\u003c/a\u003e\u003c/code\u003e g a\u003c/code\u003e returns the indices of the tiles in the grid\n   \u003ccode\u003eg\u003c/code\u003e which are adjacent to the tile with index \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "neighbours",
           "package": "grid",
@@ -4619,6 +4978,7 @@
         "index": {
           "description": "neighbours returns the indices of the tiles in the grid which are adjacent to the tile with index",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "neighbours",
           "normalized": "a-\u003eIndex a-\u003e[Index a]",
@@ -4633,6 +4993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "neighboursBasedOn",
           "package": "grid",
@@ -4642,6 +5003,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "neighboursBasedOn",
           "normalized": "a-\u003eb-\u003eIndex b-\u003e[Index b]",
@@ -4658,6 +5020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eneighboursOfSet\u003c/a\u003e\u003c/code\u003e g as\u003c/code\u003e returns the indices of the tiles in the\n   grid \u003ccode\u003eg\u003c/code\u003e which are adjacent to any of the tiles with index in\n   \u003ccode\u003eas\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "neighboursOfSet",
           "package": "grid",
@@ -4668,6 +5031,7 @@
         "index": {
           "description": "neighboursOfSet as returns the indices of the tiles in the grid which are adjacent to any of the tiles with index in as",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "neighboursOfSet",
           "normalized": "a-\u003e[Index a]-\u003e[Index a]",
@@ -4683,6 +5047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "neighboursWrappedBasedOn",
           "package": "grid",
@@ -4692,6 +5057,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "neighboursWrappedBasedOn",
           "normalized": "a-\u003eb-\u003eIndex b-\u003e[Index b]",
@@ -4708,6 +5074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003eFalse\u003c/code\u003e if the number of tiles in a grid is zero, \u003ccode\u003eTrue\u003c/code\u003e\n   otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "nonNull",
           "package": "grid",
@@ -4718,6 +5085,7 @@
         "index": {
           "description": "Returns False if the number of tiles in grid is zero True otherwise",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "nonNull",
           "normalized": "a-\u003eBool",
@@ -4734,6 +5102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003enormalise\u003c/a\u003e\u003c/code\u003e g a\u003c/code\u003e returns the \u003ca\u003enormal\u003c/a\u003e indices for \u003ccode\u003ea\u003c/code\u003e.\n   TODO: need a clearer description and an illustration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "normalise",
           "package": "grid",
@@ -4744,6 +5113,7 @@
         "index": {
           "description": "normalise returns the normal indices for TODO need clearer description and an illustration",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "normalise",
           "normalized": "a-\u003eIndex a-\u003eIndex a",
@@ -4759,6 +5129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003eTrue\u003c/code\u003e if the number of tiles in a grid is zero, \u003ccode\u003eFalse\u003c/code\u003e\n   otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "null",
           "package": "grid",
@@ -4769,6 +5140,7 @@
         "index": {
           "description": "Returns True if the number of tiles in grid is zero False otherwise",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "null",
           "normalized": "a-\u003eBool",
@@ -4784,6 +5156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003enumNeighbours\u003c/a\u003e\u003c/code\u003e g a\u003c/code\u003e returns the number of tiles in the grid\n   \u003ccode\u003eg\u003c/code\u003e which are adjacent to the tile with index \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "numNeighbours",
           "package": "grid",
@@ -4794,6 +5167,7 @@
         "index": {
           "description": "numNeighbours returns the number of tiles in the grid which are adjacent to the tile with index",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "numNeighbours",
           "normalized": "a-\u003eIndex a-\u003eInt",
@@ -4809,6 +5183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "sameEdge",
           "package": "grid",
@@ -4818,6 +5193,7 @@
         },
         "index": {
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "sameEdge",
           "normalized": "(a,a)-\u003e(a,a)-\u003eBool",
@@ -4834,6 +5210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the dimensions of the grid.\n   For example, if \u003ccode\u003eg\u003c/code\u003e is a 4x3 rectangular grid, \u003ccode\u003e\u003ccode\u003e\u003ca\u003esize\u003c/a\u003e\u003c/code\u003e g\u003c/code\u003e would\n   return \u003ccode\u003e(4, 3)\u003c/code\u003e, while \u003ccode\u003e\u003ccode\u003e\u003ca\u003etileCount\u003c/a\u003e\u003c/code\u003e g\u003c/code\u003e would return \u003ccode\u003e12\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "size",
           "package": "grid",
@@ -4844,6 +5221,7 @@
         "index": {
           "description": "Returns the dimensions of the grid For example if is x3 rectangular grid size would return while tileCount would return",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "size",
           "normalized": "a-\u003eSize a",
@@ -4859,6 +5237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of tiles in a grid. Compare with \u003ccode\u003e\u003ccode\u003e\u003ca\u003esize\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "tileCount",
           "package": "grid",
@@ -4869,6 +5248,7 @@
         "index": {
           "description": "Returns the number of tiles in grid Compare with size",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "tileCount",
           "normalized": "a-\u003eInt",
@@ -4885,6 +5265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of sides a tile has\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "tileSideCount",
           "package": "grid",
@@ -4895,6 +5276,7 @@
         "index": {
           "description": "Returns the number of sides tile has",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "tileSideCount",
           "normalized": "a-\u003eInt",
@@ -4911,6 +5293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eviewpoint\u003c/a\u003e\u003c/code\u003e g a\u003c/code\u003e returns a list of pairs associating the index\n   of each tile in \u003ccode\u003eg\u003c/code\u003e with its distance to the tile with index \u003ccode\u003ea\u003c/code\u003e.\n   If \u003ccode\u003ea\u003c/code\u003e is not contained within \u003ccode\u003eg\u003c/code\u003e, the result is undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridInternal",
           "name": "viewpoint",
           "package": "grid",
@@ -4921,6 +5304,7 @@
         "index": {
           "description": "viewpoint returns list of pairs associating the index of each tile in with its distance to the tile with index If is not contained within the result is undefined",
           "hierarchy": "Math Geometry GridInternal",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridInternal",
           "name": "viewpoint",
           "normalized": "a-\u003eIndex a-\u003e[(Index a,Int)]",
@@ -4936,6 +5320,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOrdered maps from tiles on a grid to values.\n This module is a wrapper around \u003ccode\u003e\u003ccode\u003e\u003ca\u003eGrid\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, in order to combine the functionality of grids and maps\n into a single type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridMap.Lazy",
           "name": "Lazy",
           "package": "grid",
@@ -4945,6 +5330,7 @@
         "index": {
           "description": "Ordered maps from tiles on grid to values This module is wrapper around Grid and Map in order to combine the functionality of grids and maps into single type",
           "hierarchy": "Math Geometry GridMap Lazy",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridMap.Lazy",
           "name": "Lazy",
           "package": "grid",
@@ -4959,6 +5345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map from tile positions in a grid to values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridMap.Lazy",
           "name": "LGridMap",
           "package": "grid",
@@ -4968,6 +5355,7 @@
         "index": {
           "description": "map from tile positions in grid to values",
           "hierarchy": "Math Geometry GridMap Lazy",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridMap.Lazy",
           "name": "LGridMap",
           "package": "grid",
@@ -4982,6 +5370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a grid map which is strict in the keys (tile positions), but\n   lazy in the values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridMap.Lazy",
           "name": "lazyGridMap",
           "package": "grid",
@@ -4992,6 +5381,7 @@
         "index": {
           "description": "Construct grid map which is strict in the keys tile positions but lazy in the values",
           "hierarchy": "Math Geometry GridMap Lazy",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridMap.Lazy",
           "name": "lazyGridMap",
           "normalized": "a-\u003e[b]-\u003eLGridMap a b",
@@ -5008,6 +5398,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOrdered maps from tiles on a grid to values.\n This module is a wrapper around \u003ccode\u003e\u003ccode\u003e\u003ca\u003eGrid\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and \n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, in order to combine the functionality of grids and maps\n into a single type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridMap",
           "name": "GridMap",
           "package": "grid",
@@ -5017,6 +5408,7 @@
         "index": {
           "description": "Ordered maps from tiles on grid to values This module is wrapper around Grid and Map in order to combine the functionality of grids and maps into single type",
           "hierarchy": "Math Geometry GridMap",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridMap",
           "name": "GridMap",
           "package": "grid",
@@ -5031,6 +5423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA regular arrangement of tiles, having a value associated with\n   each tile.\n   Minimal complete definition: \u003ccode\u003etoMap\u003c/code\u003e, \u003ccode\u003etoGrid\u003c/code\u003e, \u003ccode\u003eadjustWithKey\u003c/code\u003e,\n   \u003ccode\u003emapWithKey\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote: Some of the methods have an \u003ccode\u003eOrd\u003c/code\u003e constraint on the grid \n   index. This is purely to make it easier to write implementations.\n   While tile positions can be ordered (e.g., \u003ccode\u003e(1,2) \u003c (2,1)\u003c/code\u003e), the\n   ordering may not be particularly meaningful. (Comparisons such as \n   \u003cem\u003eeast of\u003c/em\u003e or \u003cem\u003esouth of\u003c/em\u003e may be more sensible.) However, it is\n   convenient to write implementations of this class using\n   \u003ccode\u003eData.Map\u003c/code\u003e, with the grid indices as keys. Many of the functions\n   in \u003ccode\u003eData.Map\u003c/code\u003e impose the \u003ccode\u003eOrd\u003c/code\u003e constraint on map keys, so we'll\n   live with it. In summary, to use some methods in this class, your\n   grid indices must be orderable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridMap",
           "name": "GridMap",
           "package": "grid",
@@ -5040,6 +5433,7 @@
         "index": {
           "description": "regular arrangement of tiles having value associated with each tile Minimal complete definition toMap toGrid adjustWithKey mapWithKey Note Some of the methods have an Ord constraint on the grid index This is purely to make it easier to write implementations While tile positions can be ordered e.g the ordering may not be particularly meaningful Comparisons such as east of or south of may be more sensible However it is convenient to write implementations of this class using Data.Map with the grid indices as keys Many of the functions in Data.Map impose the Ord constraint on map keys so we ll live with it In summary to use some methods in this class your grid indices must be orderable",
           "hierarchy": "Math Geometry GridMap",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridMap",
           "name": "GridMap",
           "package": "grid",
@@ -5054,6 +5448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the value at a tile position in the grid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridMap",
           "name": "(!)",
           "package": "grid",
@@ -5064,6 +5459,7 @@
         "index": {
           "description": "Find the value at tile position in the grid",
           "hierarchy": "Math Geometry GridMap",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridMap",
           "name": "(!) !",
           "normalized": "a b-\u003ec-\u003eb",
@@ -5079,6 +5475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdjust a value at a specific tile position. When the tile is not\n   within the bounds of the grid map, the original grid map is\n   returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridMap",
           "name": "adjust",
           "package": "grid",
@@ -5089,6 +5486,7 @@
         "index": {
           "description": "Adjust value at specific tile position When the tile is not within the bounds of the grid map the original grid map is returned",
           "hierarchy": "Math Geometry GridMap",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridMap",
           "name": "adjust",
           "normalized": "(a-\u003ea)-\u003eb-\u003ec a-\u003ec a",
@@ -5104,6 +5502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdjust a value at a specific tile position. When the tile is not\n   within the bounds of the grid map, the original grid map is\n   returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridMap",
           "name": "adjustWithKey",
           "package": "grid",
@@ -5114,6 +5513,7 @@
         "index": {
           "description": "Adjust value at specific tile position When the tile is not within the bounds of the grid map the original grid map is returned",
           "hierarchy": "Math Geometry GridMap",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridMap",
           "name": "adjustWithKey",
           "normalized": "(a-\u003eb-\u003eb)-\u003ea-\u003ec b-\u003ec b",
@@ -5130,6 +5530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all values in the map \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridMap",
           "name": "elems",
           "package": "grid",
@@ -5140,6 +5541,7 @@
         "index": {
           "description": "Returns all values in the map",
           "hierarchy": "Math Geometry GridMap",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridMap",
           "name": "elems",
           "normalized": "a b-\u003e[b]",
@@ -5155,6 +5557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe expression \u003ccode\u003e(\u003ccode\u003e\u003ca\u003efindWithDefault\u003c/a\u003e\u003c/code\u003e def k map)\u003c/code\u003e returns the value\n   at tile position \u003ccode\u003ek\u003c/code\u003e or returns \u003ccode\u003edef\u003c/code\u003e when the tile is not within\n   the bounds of the grid map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridMap",
           "name": "findWithDefault",
           "package": "grid",
@@ -5165,6 +5568,7 @@
         "index": {
           "description": "The expression findWithDefault def map returns the value at tile position or returns def when the tile is not within the bounds of the grid map",
           "hierarchy": "Math Geometry GridMap",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridMap",
           "name": "findWithDefault",
           "normalized": "a-\u003eb-\u003ec a-\u003ea",
@@ -5181,6 +5585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Fold the values in the map using the given left-associative\n binary operator, such that \u003ccode\u003e\u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e f z == \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e f z . \u003ccode\u003e\u003ca\u003eelems\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor example,\n\u003c/p\u003e\u003cpre\u003e elems = reverse . foldl (flip (:)) []\n\u003c/pre\u003e\u003cpre\u003e let f len a = len + (length a)\n foldl f 0 (fromList [(5,\"a\"), (3,\"bbb\")]) == 4\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridMap",
           "name": "foldl",
           "package": "grid",
@@ -5190,6 +5595,7 @@
         "index": {
           "description": "Fold the values in the map using the given left-associative binary operator such that foldl foldl elems For example elems reverse foldl flip let len len length foldl fromList bbb",
           "hierarchy": "Math Geometry GridMap",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridMap",
           "name": "foldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eMap c b-\u003ea",
@@ -5205,6 +5611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. A strict version of \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e. Each application of the operator is\n evaluated before using the result in the next application. This\n function is strict in the starting value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridMap",
           "name": "foldl'",
           "package": "grid",
@@ -5214,6 +5621,7 @@
         "index": {
           "description": "strict version of foldl Each application of the operator is evaluated before using the result in the next application This function is strict in the starting value",
           "hierarchy": "Math Geometry GridMap",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridMap",
           "name": "foldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eMap c b-\u003ea",
@@ -5229,6 +5637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Fold the values in the map using the given right-associative\n binary operator, such that \u003ccode\u003e\u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e f z == \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e f z . \u003ccode\u003e\u003ca\u003eelems\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor example,\n\u003c/p\u003e\u003cpre\u003e elems map = foldr (:) [] map\n\u003c/pre\u003e\u003cpre\u003e let f a len = len + (length a)\n foldr f 0 (fromList [(5,\"a\"), (3,\"bbb\")]) == 4\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridMap",
           "name": "foldr",
           "package": "grid",
@@ -5238,6 +5647,7 @@
         "index": {
           "description": "Fold the values in the map using the given right-associative binary operator such that foldr foldr elems For example elems map foldr map let len len length foldr fromList bbb",
           "hierarchy": "Math Geometry GridMap",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridMap",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eMap c a-\u003eb",
@@ -5253,6 +5663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. A strict version of \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e. Each application of the operator is\n evaluated before using the result in the next application. This\n function is strict in the starting value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridMap",
           "name": "foldr'",
           "package": "grid",
@@ -5262,6 +5673,7 @@
         "index": {
           "description": "strict version of foldr Each application of the operator is evaluated before using the result in the next application This function is strict in the starting value",
           "hierarchy": "Math Geometry GridMap",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridMap",
           "name": "foldr'",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eMap c a-\u003eb",
@@ -5277,6 +5689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup the value at a tile position in the grid map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridMap",
           "name": "lookup",
           "package": "grid",
@@ -5287,6 +5700,7 @@
         "index": {
           "description": "Lookup the value at tile position in the grid map",
           "hierarchy": "Math Geometry GridMap",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridMap",
           "name": "lookup",
           "normalized": "a-\u003eb c-\u003eMaybe c",
@@ -5302,6 +5716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over all values in the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridMap",
           "name": "map",
           "package": "grid",
@@ -5312,6 +5727,7 @@
         "index": {
           "description": "Map function over all values in the map",
           "hierarchy": "Math Geometry GridMap",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridMap",
           "name": "map",
           "normalized": "(a-\u003ea)-\u003eb a-\u003eb a",
@@ -5327,6 +5743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over all values in the map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridMap",
           "name": "mapWithKey",
           "package": "grid",
@@ -5337,6 +5754,7 @@
         "index": {
           "description": "Map function over all values in the map",
           "hierarchy": "Math Geometry GridMap",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridMap",
           "name": "mapWithKey",
           "normalized": "(a-\u003eb-\u003eb)-\u003ec b-\u003ec b",
@@ -5353,6 +5771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the grid on which this map is based.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridMap",
           "name": "toGrid",
           "package": "grid",
@@ -5363,6 +5782,7 @@
         "index": {
           "description": "Returns the grid on which this map is based",
           "hierarchy": "Math Geometry GridMap",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridMap",
           "name": "toGrid",
           "normalized": "a b-\u003eBaseGrid a b",
@@ -5379,6 +5799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the map to a list of key/value pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridMap",
           "name": "toList",
           "package": "grid",
@@ -5389,6 +5810,7 @@
         "index": {
           "description": "Convert the map to list of key value pairs",
           "hierarchy": "Math Geometry GridMap",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridMap",
           "name": "toList",
           "normalized": "a b-\u003e[(c,b)]",
@@ -5405,6 +5827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a map of grid indices to values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:21 UTC 2014",
           "module": "Math.Geometry.GridMap",
           "name": "toMap",
           "package": "grid",
@@ -5415,6 +5838,7 @@
         "index": {
           "description": "Returns map of grid indices to values",
           "hierarchy": "Math Geometry GridMap",
+          "indexed": "2014-03-11T18:21:21",
           "module": "Math.Geometry.GridMap",
           "name": "toMap",
           "normalized": "a b-\u003eMap c b",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sme"
+        "phrase": "sme",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module should be ** only ** imported by trustworthy for:  \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e define the security levels of files and their default values \n\u003c/li\u003e\u003cli\u003e define a security lattice\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:04:34 UTC 2014",
           "module": "SME.Trustworthy",
           "name": "Trustworthy",
           "package": "sme",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module should be only imported by trustworthy for define the security levels of files and their default values define security lattice",
           "hierarchy": "SME Trustworthy",
+          "indexed": "2014-03-11T20:04:34",
           "module": "SME.Trustworthy",
           "name": "Trustworthy",
           "package": "sme",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class to encode finite security lattices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:34 UTC 2014",
           "module": "SME.Trustworthy",
           "name": "FiniteLattice",
           "package": "sme",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Type class to encode finite security lattices",
           "hierarchy": "SME Trustworthy",
+          "indexed": "2014-03-11T20:04:34",
           "module": "SME.Trustworthy",
           "name": "FiniteLattice",
           "package": "sme",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class to encode security lattices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:34 UTC 2014",
           "module": "SME.Trustworthy",
           "name": "Lattice",
           "package": "sme",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Type class to encode security lattices",
           "hierarchy": "SME Trustworthy",
+          "indexed": "2014-03-11T20:04:34",
           "module": "SME.Trustworthy",
           "name": "Lattice",
           "package": "sme",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type encoding two security levels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:34 UTC 2014",
           "module": "SME.Trustworthy",
           "name": "Level",
           "package": "sme",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Data type encoding two security levels",
           "hierarchy": "SME Trustworthy",
+          "indexed": "2014-03-11T20:04:34",
           "module": "SME.Trustworthy",
           "name": "Level",
           "package": "sme",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe multi-execution monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:34 UTC 2014",
           "module": "SME.Trustworthy",
           "name": "ME",
           "package": "sme",
@@ -120,6 +129,7 @@
         "index": {
           "description": "The multi-execution monad",
           "hierarchy": "SME Trustworthy",
+          "indexed": "2014-03-11T20:04:34",
           "module": "SME.Trustworthy",
           "name": "ME",
           "package": "sme",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class to specify security policies for programs run under secure multi-execution. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:34 UTC 2014",
           "module": "SME.Trustworthy",
           "name": "Policy",
           "package": "sme",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Type class to specify security policies for programs run under secure multi-execution",
           "hierarchy": "SME Trustworthy",
+          "indexed": "2014-03-11T20:04:34",
           "module": "SME.Trustworthy",
           "name": "Policy",
           "package": "sme",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type to set the security lattice to be used by function \u003ccode\u003e\u003ca\u003esme\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:34 UTC 2014",
           "module": "SME.Trustworthy",
           "name": "SetLevel",
           "package": "sme",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Data type to set the security lattice to be used by function sme",
           "hierarchy": "SME Trustworthy",
+          "indexed": "2014-03-11T20:04:34",
           "module": "SME.Trustworthy",
           "name": "SetLevel",
           "package": "sme",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecurity level to represent secret (high) information. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:34 UTC 2014",
           "module": "SME.Trustworthy",
           "name": "H",
           "package": "sme",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Security level to represent secret high information",
           "hierarchy": "SME Trustworthy",
+          "indexed": "2014-03-11T20:04:34",
           "module": "SME.Trustworthy",
           "name": "H",
           "package": "sme",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecurity level to represent public (low) information. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:34 UTC 2014",
           "module": "SME.Trustworthy",
           "name": "L",
           "package": "sme",
@@ -213,6 +230,7 @@
         "index": {
           "description": "Security level to represent public low information",
           "hierarchy": "SME Trustworthy",
+          "indexed": "2014-03-11T20:04:34",
           "module": "SME.Trustworthy",
           "name": "L",
           "package": "sme",
@@ -249,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt assigns a default value (of type \u003ccode\u003eb\u003c/code\u003e) to an input of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:34 UTC 2014",
           "module": "SME.Trustworthy",
           "name": "defvalue",
           "package": "sme",
@@ -259,6 +278,7 @@
         "index": {
           "description": "It assigns default value of type to an input of type",
           "hierarchy": "SME Trustworthy",
+          "indexed": "2014-03-11T20:04:34",
           "module": "SME.Trustworthy",
           "name": "defvalue",
           "normalized": "a-\u003eb",
@@ -274,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe lowest upper bound between two security levels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:34 UTC 2014",
           "module": "SME.Trustworthy",
           "name": "join",
           "package": "sme",
@@ -284,6 +305,7 @@
         "index": {
           "description": "The lowest upper bound between two security levels",
           "hierarchy": "SME Trustworthy",
+          "indexed": "2014-03-11T20:04:34",
           "module": "SME.Trustworthy",
           "name": "join",
           "normalized": "a-\u003ea-\u003eMaybe a",
@@ -325,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt defines the security level assigned to an input or output of type \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:34 UTC 2014",
           "module": "SME.Trustworthy",
           "name": "level",
           "package": "sme",
@@ -335,6 +358,7 @@
         "index": {
           "description": "It defines the security level assigned to an input or output of type",
           "hierarchy": "SME Trustworthy",
+          "indexed": "2014-03-11T20:04:34",
           "module": "SME.Trustworthy",
           "name": "level",
           "normalized": "a-\u003eb",
@@ -350,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe greatest lower bound between two security levels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:34 UTC 2014",
           "module": "SME.Trustworthy",
           "name": "meet",
           "package": "sme",
@@ -360,6 +385,7 @@
         "index": {
           "description": "The greatest lower bound between two security levels",
           "hierarchy": "SME Trustworthy",
+          "indexed": "2014-03-11T20:04:34",
           "module": "SME.Trustworthy",
           "name": "meet",
           "normalized": "a-\u003ea-\u003eMaybe a",
@@ -480,6 +506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the elements in the lattice. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:34 UTC 2014",
           "module": "SME.Trustworthy",
           "name": "universe",
           "package": "sme",
@@ -490,6 +517,7 @@
         "index": {
           "description": "All the elements in the lattice",
           "hierarchy": "SME Trustworthy",
+          "indexed": "2014-03-11T20:04:34",
           "module": "SME.Trustworthy",
           "name": "universe",
           "normalized": "[a]",
@@ -505,6 +533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt returns all the elements in the lattice that are strictly above the security level given as argument. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:34 UTC 2014",
           "module": "SME.Trustworthy",
           "name": "upset",
           "package": "sme",
@@ -515,6 +544,7 @@
         "index": {
           "description": "It returns all the elements in the lattice that are strictly above the security level given as argument",
           "hierarchy": "SME Trustworthy",
+          "indexed": "2014-03-11T20:04:34",
           "module": "SME.Trustworthy",
           "name": "upset",
           "normalized": "a-\u003e[a]",
@@ -557,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module should be imported by untrustworthy code. Generally speaking, \n     untrustworhty code's import list should look like \n\u003c/p\u003e\u003cpre\u003e\n     import SME.Untrustworthy \n     import MyLattice\n\u003c/pre\u003e\u003cp\u003ewhere module \u003ccode\u003eMyLattice\u003c/code\u003e implements the security lattice under consideration.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:04:34 UTC 2014",
           "module": "SME.Untrustworthy",
           "name": "Untrustworthy",
           "package": "sme",
@@ -566,6 +597,7 @@
         "index": {
           "description": "This module should be imported by untrustworthy code Generally speaking untrustworhty code import list should look like import SME.Untrustworthy import MyLattice where module MyLattice implements the security lattice under consideration",
           "hierarchy": "SME Untrustworthy",
+          "indexed": "2014-03-11T20:04:34",
           "module": "SME.Untrustworthy",
           "name": "Untrustworthy",
           "package": "sme",
@@ -580,6 +612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class to encode finite security lattices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:34 UTC 2014",
           "module": "SME.Untrustworthy",
           "name": "FiniteLattice",
           "package": "sme",
@@ -589,6 +622,7 @@
         "index": {
           "description": "Type class to encode finite security lattices",
           "hierarchy": "SME Untrustworthy",
+          "indexed": "2014-03-11T20:04:34",
           "module": "SME.Untrustworthy",
           "name": "FiniteLattice",
           "package": "sme",
@@ -603,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class to encode security lattices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:34 UTC 2014",
           "module": "SME.Untrustworthy",
           "name": "Lattice",
           "package": "sme",
@@ -612,6 +647,7 @@
         "index": {
           "description": "Type class to encode security lattices",
           "hierarchy": "SME Untrustworthy",
+          "indexed": "2014-03-11T20:04:34",
           "module": "SME.Untrustworthy",
           "name": "Lattice",
           "package": "sme",
@@ -626,6 +662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type encoding two security levels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:34 UTC 2014",
           "module": "SME.Untrustworthy",
           "name": "Level",
           "package": "sme",
@@ -635,6 +672,7 @@
         "index": {
           "description": "Data type encoding two security levels",
           "hierarchy": "SME Untrustworthy",
+          "indexed": "2014-03-11T20:04:34",
           "module": "SME.Untrustworthy",
           "name": "Level",
           "package": "sme",
@@ -649,6 +687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe multi-execution monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:34 UTC 2014",
           "module": "SME.Untrustworthy",
           "name": "ME",
           "package": "sme",
@@ -658,6 +697,7 @@
         "index": {
           "description": "The multi-execution monad",
           "hierarchy": "SME Untrustworthy",
+          "indexed": "2014-03-11T20:04:34",
           "module": "SME.Untrustworthy",
           "name": "ME",
           "package": "sme",
@@ -672,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class to specify security policies for programs run under secure multi-execution. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:34 UTC 2014",
           "module": "SME.Untrustworthy",
           "name": "Policy",
           "package": "sme",
@@ -681,6 +722,7 @@
         "index": {
           "description": "Type class to specify security policies for programs run under secure multi-execution",
           "hierarchy": "SME Untrustworthy",
+          "indexed": "2014-03-11T20:04:34",
           "module": "SME.Untrustworthy",
           "name": "Policy",
           "package": "sme",
@@ -695,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type to set the security lattice to be used by function \u003ccode\u003e\u003ca\u003esme\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:34 UTC 2014",
           "module": "SME.Untrustworthy",
           "name": "SetLevel",
           "package": "sme",
@@ -704,6 +747,7 @@
         "index": {
           "description": "Data type to set the security lattice to be used by function sme",
           "hierarchy": "SME Untrustworthy",
+          "indexed": "2014-03-11T20:04:34",
           "module": "SME.Untrustworthy",
           "name": "SetLevel",
           "package": "sme",

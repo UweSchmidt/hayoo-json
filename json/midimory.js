@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "midimory"
+        "phrase": "midimory",
+        "type": "phrase"
       },
       "type": "context"
     }

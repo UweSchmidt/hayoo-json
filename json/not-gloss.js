@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "not-gloss"
+        "phrase": "not-gloss",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Camera",
           "name": "Camera",
           "package": "not-gloss",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Vis Camera",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Camera",
           "name": "Camera",
           "package": "not-gloss",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Camera",
           "name": "Camera",
           "package": "not-gloss",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Vis Camera",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Camera",
           "name": "Camera",
           "package": "not-gloss",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Camera",
           "name": "Camera0",
           "package": "not-gloss",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Vis Camera",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Camera",
           "name": "Camera0",
           "package": "not-gloss",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Camera",
           "name": "Camera",
           "package": "not-gloss",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Vis Camera",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Camera",
           "name": "Camera",
           "package": "not-gloss",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Camera",
           "name": "Camera0",
           "package": "not-gloss",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Vis Camera",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Camera",
           "name": "Camera0",
           "package": "not-gloss",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Camera",
           "name": "ballX",
           "package": "not-gloss",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Vis Camera",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Camera",
           "name": "ballX",
           "package": "not-gloss",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Camera",
           "name": "ballY",
           "package": "not-gloss",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Vis Camera",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Camera",
           "name": "ballY",
           "package": "not-gloss",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Camera",
           "name": "cameraKeyboardMouse",
           "package": "not-gloss",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Vis Camera",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Camera",
           "name": "cameraKeyboardMouse",
           "normalized": "Camera-\u003eKey-\u003eKeyState-\u003eCamera",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Camera",
           "name": "cameraMotion",
           "package": "not-gloss",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Vis Camera",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Camera",
           "name": "cameraMotion",
           "normalized": "Camera-\u003ePosition-\u003eCamera",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Camera",
           "name": "leftButton",
           "package": "not-gloss",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Vis Camera",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Camera",
           "name": "leftButton",
           "package": "not-gloss",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Camera",
           "name": "makeCamera",
           "package": "not-gloss",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Vis Camera",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Camera",
           "name": "makeCamera",
           "normalized": "Camera-\u003eCamera",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Camera",
           "name": "phi",
           "package": "not-gloss",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Vis Camera",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Camera",
           "name": "phi",
           "package": "not-gloss",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Camera",
           "name": "phi0",
           "package": "not-gloss",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Vis Camera",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Camera",
           "name": "phi0",
           "package": "not-gloss",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Camera",
           "name": "pos",
           "package": "not-gloss",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Vis Camera",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Camera",
           "name": "pos",
           "package": "not-gloss",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Camera",
           "name": "rho",
           "package": "not-gloss",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Vis Camera",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Camera",
           "name": "rho",
           "package": "not-gloss",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Camera",
           "name": "rho0",
           "package": "not-gloss",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Vis Camera",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Camera",
           "name": "rho0",
           "package": "not-gloss",
@@ -366,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Camera",
           "name": "rightButton",
           "package": "not-gloss",
@@ -375,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Vis Camera",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Camera",
           "name": "rightButton",
           "package": "not-gloss",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Camera",
           "name": "setCamera",
           "package": "not-gloss",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Vis Camera",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Camera",
           "name": "setCamera",
           "normalized": "Camera-\u003eIO()",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Camera",
           "name": "theta",
           "package": "not-gloss",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Vis Camera",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Camera",
           "name": "theta",
           "package": "not-gloss",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Camera",
           "name": "theta0",
           "package": "not-gloss",
@@ -442,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Vis Camera",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Camera",
           "name": "theta0",
           "package": "not-gloss",
@@ -455,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePredefined and custom colors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "GlossColor",
           "package": "not-gloss",
@@ -464,6 +505,7 @@
         "index": {
           "description": "Predefined and custom colors",
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "GlossColor",
           "package": "not-gloss",
@@ -478,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract color value.\n\tWe keep the type abstract so we can be sure that the components\n\tare in the required range. To make a custom color use \u003ccode\u003e\u003ca\u003emakeColor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "Color",
           "package": "not-gloss",
@@ -487,6 +530,7 @@
         "index": {
           "description": "An abstract color value We keep the type abstract so we can be sure that the components are in the required range To make custom color use makeColor",
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "Color",
           "package": "not-gloss",
@@ -501,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd RGB components of a color component-wise, then normalise\n\tthem to the highest resulting one. The alpha components are averaged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "addColors",
           "package": "not-gloss",
@@ -511,6 +556,7 @@
         "index": {
           "description": "Add RGB components of color component-wise then normalise them to the highest resulting one The alpha components are averaged",
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "addColors",
           "normalized": "Color-\u003eColor-\u003eColor",
@@ -526,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "aquamarine",
           "package": "not-gloss",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "aquamarine",
           "package": "not-gloss",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "azure",
           "package": "not-gloss",
@@ -556,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "azure",
           "package": "not-gloss",
@@ -568,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "black",
           "package": "not-gloss",
@@ -577,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "black",
           "package": "not-gloss",
@@ -589,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "blue",
           "package": "not-gloss",
@@ -598,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "blue",
           "package": "not-gloss",
@@ -611,6 +665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a brighter version of a color, scaling towards white.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "bright",
           "package": "not-gloss",
@@ -621,6 +676,7 @@
         "index": {
           "description": "Make brighter version of color scaling towards white",
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "bright",
           "normalized": "Color-\u003eColor",
@@ -635,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "chartreuse",
           "package": "not-gloss",
@@ -644,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "chartreuse",
           "package": "not-gloss",
@@ -656,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "cyan",
           "package": "not-gloss",
@@ -665,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "cyan",
           "package": "not-gloss",
@@ -678,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDarken a color, adding black.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "dark",
           "package": "not-gloss",
@@ -688,6 +749,7 @@
         "index": {
           "description": "Darken color adding black",
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "dark",
           "normalized": "Color-\u003eColor",
@@ -703,6 +765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a dimmer version of a color, scaling towards black.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "dim",
           "package": "not-gloss",
@@ -713,6 +776,7 @@
         "index": {
           "description": "Make dimmer version of color scaling towards black",
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "dim",
           "normalized": "Color-\u003eColor",
@@ -727,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "green",
           "package": "not-gloss",
@@ -736,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "green",
           "package": "not-gloss",
@@ -749,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA greyness of a given magnitude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "greyN",
           "package": "not-gloss",
@@ -758,6 +825,7 @@
         "index": {
           "description": "greyness of given magnitude",
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "greyN",
           "normalized": "Float-\u003eColor",
@@ -773,6 +841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLighten a color, adding white.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "light",
           "package": "not-gloss",
@@ -783,6 +852,7 @@
         "index": {
           "description": "Lighten color adding white",
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "light",
           "normalized": "Color-\u003eColor",
@@ -797,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "magenta",
           "package": "not-gloss",
@@ -806,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "magenta",
           "package": "not-gloss",
@@ -819,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a custom color. All components are clamped to the range  [0..1].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "makeColor",
           "package": "not-gloss",
@@ -828,6 +901,7 @@
         "index": {
           "description": "Make custom color All components are clamped to the range",
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "makeColor",
           "normalized": "Float-\u003eFloat-\u003eFloat-\u003eFloat-\u003eColor",
@@ -844,6 +918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a custom color. \n   You promise that all components are clamped to the range [0..1]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "makeColor'",
           "package": "not-gloss",
@@ -854,6 +929,7 @@
         "index": {
           "description": "Make custom color You promise that all components are clamped to the range",
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "makeColor'",
           "normalized": "Float-\u003eFloat-\u003eFloat-\u003eFloat-\u003eColor",
@@ -870,6 +946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a custom color. All components are clamped to the range [0..255].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "makeColor8",
           "package": "not-gloss",
@@ -879,6 +956,7 @@
         "index": {
           "description": "Make custom color All components are clamped to the range",
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "makeColor8",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003eColor",
@@ -895,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMix two colors with the given ratios.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "mixColors",
           "package": "not-gloss",
@@ -904,6 +983,7 @@
         "index": {
           "description": "Mix two colors with the given ratios",
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "mixColors",
           "normalized": "Float-\u003eFloat-\u003eColor-\u003eColor-\u003eColor",
@@ -919,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "orange",
           "package": "not-gloss",
@@ -928,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "orange",
           "package": "not-gloss",
@@ -941,6 +1023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a custom color.\n   Components should be in the range [0..1] but this is not checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "rawColor",
           "package": "not-gloss",
@@ -950,6 +1033,7 @@
         "index": {
           "description": "Make custom color Components should be in the range but this is not checked",
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "rawColor",
           "normalized": "Float-\u003eFloat-\u003eFloat-\u003eFloat-\u003eColor",
@@ -965,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "red",
           "package": "not-gloss",
@@ -974,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "red",
           "package": "not-gloss",
@@ -987,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake the RGBA components of a color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "rgbaOfColor",
           "package": "not-gloss",
@@ -997,6 +1084,7 @@
         "index": {
           "description": "Take the RGBA components of color",
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "rgbaOfColor",
           "normalized": "Color-\u003e(Float,Float,Float,Float)",
@@ -1012,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "rose",
           "package": "not-gloss",
@@ -1021,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "rose",
           "package": "not-gloss",
@@ -1033,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "violet",
           "package": "not-gloss",
@@ -1042,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "violet",
           "package": "not-gloss",
@@ -1054,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "white",
           "package": "not-gloss",
@@ -1063,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "white",
           "package": "not-gloss",
@@ -1075,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.GlossColor",
           "name": "yellow",
           "package": "not-gloss",
@@ -1084,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Vis GlossColor",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.GlossColor",
           "name": "yellow",
           "package": "not-gloss",
@@ -1096,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Interface",
           "name": "Interface",
           "package": "not-gloss",
@@ -1104,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "Vis Interface",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Interface",
           "name": "Interface",
           "package": "not-gloss",
@@ -1289,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Vis",
           "name": "Vis",
           "package": "not-gloss",
@@ -1297,6 +1396,7 @@
         },
         "index": {
           "hierarchy": "Vis Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Vis",
           "name": "Vis",
           "package": "not-gloss",
@@ -1310,6 +1410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Vis",
           "name": "FullState",
           "package": "not-gloss",
@@ -1318,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Vis Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Vis",
           "name": "FullState",
           "package": "not-gloss",
@@ -1331,6 +1433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.Vis",
           "name": "vis",
           "package": "not-gloss",
@@ -1339,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Vis Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.Vis",
           "name": "vis",
           "normalized": "Maybe((Int,Int),(Int,Int))-\u003eString-\u003eDouble-\u003ea-\u003e(FullState a-\u003eIO a)-\u003e(FullState a-\u003eIO(VisObject b,Maybe Cursor))-\u003e(a-\u003eIO())-\u003eMaybe(a-\u003eKey-\u003eKeyState-\u003eModifiers-\u003ePosition-\u003ea)-\u003eMaybe(a-\u003ePosition-\u003ea)-\u003eMaybe(a-\u003ePosition-\u003ea)-\u003eIO()",
@@ -1353,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.VisObject",
           "name": "VisObject",
           "package": "not-gloss",
@@ -1361,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Vis VisObject",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.VisObject",
           "name": "VisObject",
           "package": "not-gloss",
@@ -1374,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.VisObject",
           "name": "VisObject",
           "package": "not-gloss",
@@ -1382,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "Vis VisObject",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.VisObject",
           "name": "VisObject",
           "package": "not-gloss",
@@ -1925,6 +2033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.VisObject",
           "name": "drawObjects",
           "package": "not-gloss",
@@ -1934,6 +2043,7 @@
         },
         "index": {
           "hierarchy": "Vis VisObject",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.VisObject",
           "name": "drawObjects",
           "normalized": "VisObject GLdouble-\u003eIO()",
@@ -1949,6 +2059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis.VisObject",
           "name": "setPerspectiveMode",
           "package": "not-gloss",
@@ -1958,6 +2069,7 @@
         },
         "index": {
           "hierarchy": "Vis VisObject",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis.VisObject",
           "name": "setPerspectiveMode",
           "normalized": "IO()",
@@ -1973,6 +2085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "Vis",
           "package": "not-gloss",
@@ -1981,6 +2094,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "Vis",
           "package": "not-gloss",
@@ -1995,6 +2109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe bitmap fonts available in GLUT. The exact bitmap to be used is\n defined by the standard X glyph bitmaps for the X font with the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "BitmapFont",
           "package": "not-gloss",
@@ -2003,6 +2118,7 @@
         "index": {
           "description": "The bitmap fonts available in GLUT The exact bitmap to be used is defined by the standard glyph bitmaps for the font with the given name",
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "BitmapFont",
           "package": "not-gloss",
@@ -2017,6 +2133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlavour of object rendering\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "Flavour",
           "package": "not-gloss",
@@ -2025,6 +2142,7 @@
         "index": {
           "description": "Flavour of object rendering",
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "Flavour",
           "package": "not-gloss",
@@ -2039,6 +2157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "SpecialKey",
           "package": "not-gloss",
@@ -2047,6 +2166,7 @@
         "index": {
           "description": "Special keys",
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "SpecialKey",
           "package": "not-gloss",
@@ -2060,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "VisObject",
           "package": "not-gloss",
@@ -2068,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "VisObject",
           "package": "not-gloss",
@@ -2082,6 +2204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fixed width font with every character fitting in an 8\n   by 13 pixel rectangle.\n   (\u003ccode\u003e-misc-fixed-medium-r-normal--13-120-75-75-C-80-iso8859-1\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "Fixed8By13",
           "package": "not-gloss",
@@ -2091,6 +2214,7 @@
         "index": {
           "description": "fixed width font with every character fitting in an by pixel rectangle misc-fixed-medium-r-normal--13-120-75-75-C-80-iso8859-1",
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "Fixed8By13",
           "package": "not-gloss",
@@ -2105,6 +2229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fixed width font with every character fitting in an 9\n   by 15 pixel rectangle.\n   (\u003ccode\u003e-misc-fixed-medium-r-normal--15-140-75-75-C-90-iso8859-1\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "Fixed9By15",
           "package": "not-gloss",
@@ -2114,6 +2239,7 @@
         "index": {
           "description": "fixed width font with every character fitting in an by pixel rectangle misc-fixed-medium-r-normal--15-140-75-75-C-90-iso8859-1",
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "Fixed9By15",
           "package": "not-gloss",
@@ -2128,6 +2254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 10-point proportional spaced Helvetica font.\n   (\u003ccode\u003e-adobe-helvetica-medium-r-normal--10-100-75-75-p-56-iso8859-1\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "Helvetica10",
           "package": "not-gloss",
@@ -2137,6 +2264,7 @@
         "index": {
           "description": "point proportional spaced Helvetica font adobe-helvetica-medium-r-normal--10-100-75-75-p-56-iso8859-1",
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "Helvetica10",
           "package": "not-gloss",
@@ -2151,6 +2279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 12-point proportional spaced Helvetica font.\n   (\u003ccode\u003e-adobe-helvetica-medium-r-normal--12-120-75-75-p-67-iso8859-1\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "Helvetica12",
           "package": "not-gloss",
@@ -2160,6 +2289,7 @@
         "index": {
           "description": "point proportional spaced Helvetica font adobe-helvetica-medium-r-normal--12-120-75-75-p-67-iso8859-1",
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "Helvetica12",
           "package": "not-gloss",
@@ -2174,6 +2304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 18-point proportional spaced Helvetica font.\n   (\u003ccode\u003e-adobe-helvetica-medium-r-normal--18-180-75-75-p-98-iso8859-1\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "Helvetica18",
           "package": "not-gloss",
@@ -2183,6 +2314,7 @@
         "index": {
           "description": "point proportional spaced Helvetica font adobe-helvetica-medium-r-normal--18-180-75-75-p-98-iso8859-1",
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "Helvetica18",
           "package": "not-gloss",
@@ -2196,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyBegin",
           "package": "not-gloss",
@@ -2204,6 +2337,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyBegin",
           "package": "not-gloss",
@@ -2217,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyDelete",
           "package": "not-gloss",
@@ -2225,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyDelete",
           "package": "not-gloss",
@@ -2238,6 +2374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyDown",
           "package": "not-gloss",
@@ -2246,6 +2383,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyDown",
           "package": "not-gloss",
@@ -2259,6 +2397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyEnd",
           "package": "not-gloss",
@@ -2267,6 +2406,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyEnd",
           "package": "not-gloss",
@@ -2280,6 +2420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyF1",
           "package": "not-gloss",
@@ -2288,6 +2429,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyF1",
           "package": "not-gloss",
@@ -2301,6 +2443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyF10",
           "package": "not-gloss",
@@ -2309,6 +2452,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyF10",
           "package": "not-gloss",
@@ -2322,6 +2466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyF11",
           "package": "not-gloss",
@@ -2330,6 +2475,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyF11",
           "package": "not-gloss",
@@ -2343,6 +2489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyF12",
           "package": "not-gloss",
@@ -2351,6 +2498,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyF12",
           "package": "not-gloss",
@@ -2364,6 +2512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyF2",
           "package": "not-gloss",
@@ -2372,6 +2521,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyF2",
           "package": "not-gloss",
@@ -2385,6 +2535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyF3",
           "package": "not-gloss",
@@ -2393,6 +2544,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyF3",
           "package": "not-gloss",
@@ -2406,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyF4",
           "package": "not-gloss",
@@ -2414,6 +2567,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyF4",
           "package": "not-gloss",
@@ -2427,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyF5",
           "package": "not-gloss",
@@ -2435,6 +2590,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyF5",
           "package": "not-gloss",
@@ -2448,6 +2604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyF6",
           "package": "not-gloss",
@@ -2456,6 +2613,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyF6",
           "package": "not-gloss",
@@ -2469,6 +2627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyF7",
           "package": "not-gloss",
@@ -2477,6 +2636,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyF7",
           "package": "not-gloss",
@@ -2490,6 +2650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyF8",
           "package": "not-gloss",
@@ -2498,6 +2659,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyF8",
           "package": "not-gloss",
@@ -2511,6 +2673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyF9",
           "package": "not-gloss",
@@ -2519,6 +2682,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyF9",
           "package": "not-gloss",
@@ -2532,6 +2696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyHome",
           "package": "not-gloss",
@@ -2540,6 +2705,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyHome",
           "package": "not-gloss",
@@ -2553,6 +2719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyInsert",
           "package": "not-gloss",
@@ -2561,6 +2728,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyInsert",
           "package": "not-gloss",
@@ -2574,6 +2742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyLeft",
           "package": "not-gloss",
@@ -2582,6 +2751,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyLeft",
           "package": "not-gloss",
@@ -2595,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyNumLock",
           "package": "not-gloss",
@@ -2603,6 +2774,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyNumLock",
           "package": "not-gloss",
@@ -2616,6 +2788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyPageDown",
           "package": "not-gloss",
@@ -2624,6 +2797,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyPageDown",
           "package": "not-gloss",
@@ -2637,6 +2811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyPageUp",
           "package": "not-gloss",
@@ -2645,6 +2820,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyPageUp",
           "package": "not-gloss",
@@ -2658,6 +2834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyRight",
           "package": "not-gloss",
@@ -2666,6 +2843,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyRight",
           "package": "not-gloss",
@@ -2679,6 +2857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyUnknown",
           "package": "not-gloss",
@@ -2687,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyUnknown",
           "package": "not-gloss",
@@ -2700,6 +2880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "KeyUp",
           "package": "not-gloss",
@@ -2708,6 +2889,7 @@
         },
         "index": {
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "KeyUp",
           "package": "not-gloss",
@@ -2722,6 +2904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObject is rendered as a solid with shading and surface normals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "Solid",
           "package": "not-gloss",
@@ -2731,6 +2914,7 @@
         "index": {
           "description": "Object is rendered as solid with shading and surface normals",
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "Solid",
           "package": "not-gloss",
@@ -2745,6 +2929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 10-point proportional spaced Times Roman font.\n   (\u003ccode\u003e-adobe-times-medium-r-normal--10-100-75-75-p-54-iso8859-1\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "TimesRoman10",
           "package": "not-gloss",
@@ -2754,6 +2939,7 @@
         "index": {
           "description": "point proportional spaced Times Roman font adobe-times-medium-r-normal--10-100-75-75-p-54-iso8859-1",
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "TimesRoman10",
           "package": "not-gloss",
@@ -2768,6 +2954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA 24-point proportional spaced Times Roman font.\n   (\u003ccode\u003e-adobe-times-medium-r-normal--24-240-75-75-p-124-iso8859-1\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "TimesRoman24",
           "package": "not-gloss",
@@ -2777,6 +2964,7 @@
         "index": {
           "description": "point proportional spaced Times Roman font adobe-times-medium-r-normal--24-240-75-75-p-124-iso8859-1",
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "TimesRoman24",
           "package": "not-gloss",
@@ -2791,6 +2979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObject is rendered as a wireframe without surface normals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:54 UTC 2014",
           "module": "Vis",
           "name": "Wireframe",
           "package": "not-gloss",
@@ -2800,6 +2989,7 @@
         "index": {
           "description": "Object is rendered as wireframe without surface normals",
           "hierarchy": "Vis",
+          "indexed": "2014-03-11T19:29:54",
           "module": "Vis",
           "name": "Wireframe",
           "package": "not-gloss",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "archnews"
+        "phrase": "archnews",
+        "type": "phrase"
       },
       "type": "context"
     }

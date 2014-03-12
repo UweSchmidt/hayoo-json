@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "concurrent-state"
+        "phrase": "concurrent-state",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneralizes \u003ccode\u003eforkIO\u003c/code\u003e to MonadIO.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Concurrent.Lifted.Fork",
           "name": "Fork",
           "package": "concurrent-state",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Generalizes forkIO to MonadIO",
           "hierarchy": "Control Concurrent Lifted Fork",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Concurrent.Lifted.Fork",
           "name": "Fork",
           "package": "concurrent-state",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralize \u003ccode\u003eforkIO\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eMonadIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Concurrent.Lifted.Fork",
           "name": "MonadFork",
           "package": "concurrent-state",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Generalize forkIO to MonadIO",
           "hierarchy": "Control Concurrent Lifted Fork",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Concurrent.Lifted.Fork",
           "name": "MonadFork",
           "package": "concurrent-state",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Concurrent.Lifted.Fork",
           "name": "fork",
           "package": "concurrent-state",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Lifted Fork",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Concurrent.Lifted.Fork",
           "name": "fork",
           "normalized": "a()-\u003ea ThreadId",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized \u003ccode\u003e\u003ca\u003eforkFinally\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Concurrent.Lifted.Fork",
           "name": "forkFinally",
           "package": "concurrent-state",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Generalized forkFinally",
           "hierarchy": "Control Concurrent Lifted Fork",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Concurrent.Lifted.Fork",
           "name": "forkFinally",
           "normalized": "a b-\u003e(Either SomeException b-\u003ea())-\u003ea ThreadId",
@@ -113,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Concurrent.Lifted.Fork",
           "name": "forkOS",
           "package": "concurrent-state",
@@ -122,6 +131,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Lifted Fork",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Concurrent.Lifted.Fork",
           "name": "forkOS",
           "normalized": "a()-\u003ea ThreadId",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Concurrent.Lifted.Fork",
           "name": "forkOn",
           "package": "concurrent-state",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Lifted Fork",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Concurrent.Lifted.Fork",
           "name": "forkOn",
           "normalized": "Int-\u003ea()-\u003ea ThreadId",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized \u003ccode\u003e\u003ca\u003eforkOnWithUnmask\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Concurrent.Lifted.Fork",
           "name": "forkOnWithUnmask",
           "package": "concurrent-state",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Generalized forkOnWithUnmask",
           "hierarchy": "Control Concurrent Lifted Fork",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Concurrent.Lifted.Fork",
           "name": "forkOnWithUnmask",
           "normalized": "Int-\u003e((a b c d-\u003ec d)-\u003ec())-\u003ec ThreadId",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized \u003ccode\u003e\u003ca\u003eforkIOWithUnmask\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Concurrent.Lifted.Fork",
           "name": "forkWithUnmask",
           "package": "concurrent-state",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Generalized forkIOWithUnmask",
           "hierarchy": "Control Concurrent Lifted Fork",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Concurrent.Lifted.Fork",
           "name": "forkWithUnmask",
           "normalized": "((a b c d-\u003ec d)-\u003ec())-\u003ec ThreadId",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConcurrent RWS monad, combining a Reader, a Writer, and a State monad.\n\u003c/p\u003e\u003cp\u003eThis module performs computations lazily. For a strict version, see\n \u003ca\u003eControl.Monad.RWS.Concurrent.Strict\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.RWS.Concurrent.Lazy",
           "name": "Lazy",
           "package": "concurrent-state",
@@ -223,6 +240,7 @@
         "index": {
           "description": "Concurrent RWS monad combining Reader Writer and State monad This module performs computations lazily For strict version see Control.Monad.RWS.Concurrent.Strict",
           "hierarchy": "Control Monad RWS Concurrent Lazy",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.RWS.Concurrent.Lazy",
           "name": "Lazy",
           "package": "concurrent-state",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA concurrent monad transformer reading an environment of type \u003ccode\u003er\u003c/code\u003e,\n collecting output of type \u003ccode\u003ew\u003c/code\u003e and updating a state of type \u003ccode\u003es\u003c/code\u003e to an\n inner monad \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis is very similar to \u003ccode\u003etransformers\u003c/code\u003e' \u003ccode\u003e\u003ca\u003eRWST\u003c/a\u003e\u003c/code\u003e, with the exception of\n the \u003ccode\u003e\u003ca\u003eMonadIO\u003c/a\u003e\u003c/code\u003e constraint on every instance, which is necessary to\n perform STM actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.RWS.Concurrent.Lazy",
           "name": "RWSC",
           "package": "concurrent-state",
@@ -246,6 +265,7 @@
         "index": {
           "description": "concurrent monad transformer reading an environment of type collecting output of type and updating state of type to an inner monad This is very similar to transformers RWST with the exception of the MonadIO constraint on every instance which is necessary to perform STM actions",
           "hierarchy": "Control Monad RWS Concurrent Lazy",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.RWS.Concurrent.Lazy",
           "name": "RWSC",
           "package": "concurrent-state",
@@ -364,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniform lifting of a \u003ccode\u003ecallCC\u003c/code\u003e operation to the new monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.RWS.Concurrent.Lazy",
           "name": "liftCallCC",
           "package": "concurrent-state",
@@ -374,6 +395,7 @@
         "index": {
           "description": "Uniform lifting of callCC operation to the new monad",
           "hierarchy": "Control Monad RWS Concurrent Lazy",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.RWS.Concurrent.Lazy",
           "name": "liftCallCC",
           "normalized": "((((a,TVar b,TVar c)-\u003ed(e,TVar b,TVar c))-\u003ed(a,TVar b,TVar c))-\u003ed(a,TVar b,TVar c))-\u003e((a-\u003eRWSC f c b d e)-\u003eRWSC f c b d a)-\u003eRWSC f c b d a",
@@ -390,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003ecatchError\u003c/code\u003e operation to the new monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.RWS.Concurrent.Lazy",
           "name": "liftCatch",
           "package": "concurrent-state",
@@ -400,6 +423,7 @@
         "index": {
           "description": "Lift catchError operation to the new monad",
           "hierarchy": "Control Monad RWS Concurrent Lazy",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.RWS.Concurrent.Lazy",
           "name": "liftCatch",
           "normalized": "(a(b,TVar c,TVar d)-\u003e(e-\u003ea(b,TVar c,TVar d))-\u003ea(b,TVar c,TVar d))-\u003eRWSC f d c a b-\u003e(e-\u003eRWSC f d c a b)-\u003eRWSC f d c a b",
@@ -416,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap the inner computation using the given function.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003erunRWSC\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003emapRWSC\u003c/a\u003e\u003c/code\u003e f m) r w s = f (\u003ccode\u003e\u003ca\u003erunRWSC\u003c/a\u003e\u003c/code\u003e m r w s)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.RWS.Concurrent.Lazy",
           "name": "mapRWSC",
           "package": "concurrent-state",
@@ -426,6 +451,7 @@
         "index": {
           "description": "Map the inner computation using the given function runRWSC mapRWSC runRWSC",
           "hierarchy": "Control Monad RWS Concurrent Lazy",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.RWS.Concurrent.Lazy",
           "name": "mapRWSC",
           "normalized": "(a(b,TVar c,TVar d)-\u003ee(f,TVar c,TVar d))-\u003eRWSC g d c a b-\u003eRWSC g d c e f",
@@ -494,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ewithRWSC\u003c/a\u003e\u003c/code\u003e f m\u003c/code\u003e executes action \u003ccode\u003em\u003c/code\u003e with an initial environment and\n state modified by applying \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003erunRWSC\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003ewithRWSC\u003c/a\u003e\u003c/code\u003e f m) r s w = uncurry3 (\u003ccode\u003e\u003ca\u003erunRWSC\u003c/a\u003e\u003c/code\u003e m) (f r s w)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.RWS.Concurrent.Lazy",
           "name": "withRWSC",
           "package": "concurrent-state",
@@ -504,6 +531,7 @@
         "index": {
           "description": "withRWSC executes action with an initial environment and state modified by applying runRWSC withRWSC uncurry3 runRWSC",
           "hierarchy": "Control Monad RWS Concurrent Lazy",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.RWS.Concurrent.Lazy",
           "name": "withRWSC",
           "normalized": "(a-\u003eTVar b-\u003eTVar c-\u003e(d,TVar b,TVar c))-\u003eRWSC d c b e f-\u003eRWSC a c b e f",
@@ -520,6 +548,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConcurrent RWS monad, combining a Reader, a Writer, and a State monad.\n\u003c/p\u003e\u003cp\u003eThis module performs computations strictly. For a lazy version, see\n \u003ca\u003eControl.Monad.RWS.Concurrent.Lazy\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.RWS.Concurrent.Strict",
           "name": "Strict",
           "package": "concurrent-state",
@@ -529,6 +558,7 @@
         "index": {
           "description": "Concurrent RWS monad combining Reader Writer and State monad This module performs computations strictly For lazy version see Control.Monad.RWS.Concurrent.Lazy",
           "hierarchy": "Control Monad RWS Concurrent Strict",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.RWS.Concurrent.Strict",
           "name": "Strict",
           "package": "concurrent-state",
@@ -543,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA concurrent monad transformer reading an environment of type \u003ccode\u003er\u003c/code\u003e,\n collecting output of type \u003ccode\u003ew\u003c/code\u003e and updating a state of type \u003ccode\u003es\u003c/code\u003e to an\n inner monad \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis is very similar to \u003ccode\u003etransformers\u003c/code\u003e' \u003ccode\u003e\u003ca\u003eRWST\u003c/a\u003e\u003c/code\u003e, with the exception of\n the \u003ccode\u003e\u003ca\u003eMonadIO\u003c/a\u003e\u003c/code\u003e constraint on every instance, which is necessary to\n perform STM actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.RWS.Concurrent.Strict",
           "name": "RWSC",
           "package": "concurrent-state",
@@ -552,6 +583,7 @@
         "index": {
           "description": "concurrent monad transformer reading an environment of type collecting output of type and updating state of type to an inner monad This is very similar to transformers RWST with the exception of the MonadIO constraint on every instance which is necessary to perform STM actions",
           "hierarchy": "Control Monad RWS Concurrent Strict",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.RWS.Concurrent.Strict",
           "name": "RWSC",
           "package": "concurrent-state",
@@ -566,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniform lifting of a \u003ccode\u003ecallCC\u003c/code\u003e operation to the new monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.RWS.Concurrent.Strict",
           "name": "liftCallCC",
           "package": "concurrent-state",
@@ -576,6 +609,7 @@
         "index": {
           "description": "Uniform lifting of callCC operation to the new monad",
           "hierarchy": "Control Monad RWS Concurrent Strict",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.RWS.Concurrent.Strict",
           "name": "liftCallCC",
           "normalized": "((((a,TVar b,TVar c)-\u003ed(e,TVar b,TVar c))-\u003ed(a,TVar b,TVar c))-\u003ed(a,TVar b,TVar c))-\u003e((a-\u003eRWSC f c b d e)-\u003eRWSC f c b d a)-\u003eRWSC f c b d a",
@@ -592,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003ecatchError\u003c/code\u003e operation to the new monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.RWS.Concurrent.Strict",
           "name": "liftCatch",
           "package": "concurrent-state",
@@ -602,6 +637,7 @@
         "index": {
           "description": "Lift catchError operation to the new monad",
           "hierarchy": "Control Monad RWS Concurrent Strict",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.RWS.Concurrent.Strict",
           "name": "liftCatch",
           "normalized": "(a(b,TVar c,TVar d)-\u003e(e-\u003ea(b,TVar c,TVar d))-\u003ea(b,TVar c,TVar d))-\u003eRWSC f d c a b-\u003e(e-\u003eRWSC f d c a b)-\u003eRWSC f d c a b",
@@ -618,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap the inner computation using the given function.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003erunRWSC\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003emapRWSC\u003c/a\u003e\u003c/code\u003e f m) r w s = f (\u003ccode\u003e\u003ca\u003erunRWSC\u003c/a\u003e\u003c/code\u003e m r w s)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.RWS.Concurrent.Strict",
           "name": "mapRWSC",
           "package": "concurrent-state",
@@ -628,6 +665,7 @@
         "index": {
           "description": "Map the inner computation using the given function runRWSC mapRWSC runRWSC",
           "hierarchy": "Control Monad RWS Concurrent Strict",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.RWS.Concurrent.Strict",
           "name": "mapRWSC",
           "normalized": "(a(b,TVar c,TVar d)-\u003ee(f,TVar c,TVar d))-\u003eRWSC g d c a b-\u003eRWSC g d c e f",
@@ -644,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ewithRWSC\u003c/a\u003e\u003c/code\u003e f m\u003c/code\u003e executes action \u003ccode\u003em\u003c/code\u003e with an initial environment and\n state modified by applying \u003ccode\u003ef\u003c/code\u003e.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003erunRWSC\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003ewithRWSC\u003c/a\u003e\u003c/code\u003e f m) r s w = uncurry3 (\u003ccode\u003e\u003ca\u003erunRWSC\u003c/a\u003e\u003c/code\u003e m) (f r s w)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.RWS.Concurrent.Strict",
           "name": "withRWSC",
           "package": "concurrent-state",
@@ -654,6 +693,7 @@
         "index": {
           "description": "withRWSC executes action with an initial environment and state modified by applying runRWSC withRWSC uncurry3 runRWSC",
           "hierarchy": "Control Monad RWS Concurrent Strict",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.RWS.Concurrent.Strict",
           "name": "withRWSC",
           "normalized": "(a-\u003eTVar b-\u003eTVar c-\u003e(d,TVar b,TVar c))-\u003eRWSC d c b e f-\u003eRWSC a c b e f",
@@ -670,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConcurrent RWS monad, combining a Reader, a Writer, and a State monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.RWS.Concurrent",
           "name": "Concurrent",
           "package": "concurrent-state",
@@ -679,6 +720,7 @@
         "index": {
           "description": "Concurrent RWS monad combining Reader Writer and State monad",
           "hierarchy": "Control Monad RWS Concurrent",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.RWS.Concurrent",
           "name": "Concurrent",
           "package": "concurrent-state",
@@ -693,6 +735,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConcurrent state monad, providing a State-like interface but allowing\n for multiple threads to operate on the same value simultaneously.\n\u003c/p\u003e\u003cp\u003eThis module performs state computations lazily. For a strict version,\n see \u003ca\u003eControl.Monad.State.Concurrent.Strict\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.State.Concurrent.Lazy",
           "name": "Lazy",
           "package": "concurrent-state",
@@ -702,6 +745,7 @@
         "index": {
           "description": "Concurrent state monad providing State-like interface but allowing for multiple threads to operate on the same value simultaneously This module performs state computations lazily For strict version see Control.Monad.State.Concurrent.Strict",
           "hierarchy": "Control Monad State Concurrent Lazy",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.State.Concurrent.Lazy",
           "name": "Lazy",
           "package": "concurrent-state",
@@ -716,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA concurrent state transformer monad parameterized by:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003es\u003c/code\u003e - The state. This is contained in a \u003ccode\u003e\u003ca\u003eTVar\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003em\u003c/code\u003e - The inner monad.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function leaves the state unchanged, while \u003ccode\u003e\u003e\u003e=\u003c/code\u003e performs\n actions atomically on the held \u003ccode\u003e\u003ca\u003eTVar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis is very similar to \u003ccode\u003etransformers\u003c/code\u003e' \u003ccode\u003e\u003ca\u003eStateT\u003c/a\u003e\u003c/code\u003e, with the exception of\n the \u003ccode\u003e\u003ca\u003eMonadIO\u003c/a\u003e\u003c/code\u003e constraint on every instance, which is necessary to\n perform STM actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.State.Concurrent.Lazy",
           "name": "StateC",
           "package": "concurrent-state",
@@ -725,6 +770,7 @@
         "index": {
           "description": "concurrent state transformer monad parameterized by The state This is contained in TVar The inner monad The return function leaves the state unchanged while performs actions atomically on the held TVar This is very similar to transformers StateT with the exception of the MonadIO constraint on every instance which is necessary to perform STM actions",
           "hierarchy": "Control Monad State Concurrent Lazy",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.State.Concurrent.Lazy",
           "name": "StateC",
           "package": "concurrent-state",
@@ -843,6 +889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniform lifting of a \u003ccode\u003ecallCC\u003c/code\u003e operation to the new monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.State.Concurrent.Lazy",
           "name": "liftCallCC",
           "package": "concurrent-state",
@@ -853,6 +900,7 @@
         "index": {
           "description": "Uniform lifting of callCC operation to the new monad",
           "hierarchy": "Control Monad State Concurrent Lazy",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.State.Concurrent.Lazy",
           "name": "liftCallCC",
           "normalized": "((((a,TVar b)-\u003ec(d,TVar b))-\u003ec(a,TVar b))-\u003ec(a,TVar b))-\u003e((a-\u003eStateC b c d)-\u003eStateC b c a)-\u003eStateC b c a",
@@ -869,6 +917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003ecatchError\u003c/code\u003e operation to the new monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.State.Concurrent.Lazy",
           "name": "liftCatch",
           "package": "concurrent-state",
@@ -879,6 +928,7 @@
         "index": {
           "description": "Lift catchError operation to the new monad",
           "hierarchy": "Control Monad State Concurrent Lazy",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.State.Concurrent.Lazy",
           "name": "liftCatch",
           "normalized": "(a(b,TVar c)-\u003e(d-\u003ea(b,TVar c))-\u003ea(b,TVar c))-\u003eStateC c a b-\u003e(d-\u003eStateC c a b)-\u003eStateC c a b",
@@ -895,6 +945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003elisten\u003c/code\u003e operation to the new monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.State.Concurrent.Lazy",
           "name": "liftListen",
           "package": "concurrent-state",
@@ -905,6 +956,7 @@
         "index": {
           "description": "Lift listen operation to the new monad",
           "hierarchy": "Control Monad State Concurrent Lazy",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.State.Concurrent.Lazy",
           "name": "liftListen",
           "normalized": "(a(b,TVar c)-\u003ea((b,TVar c),d))-\u003eStateC c a b-\u003eStateC c a(b,d)",
@@ -921,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003epass\u003c/code\u003e operation to the new monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.State.Concurrent.Lazy",
           "name": "liftPass",
           "package": "concurrent-state",
@@ -931,6 +984,7 @@
         "index": {
           "description": "Lift pass operation to the new monad",
           "hierarchy": "Control Monad State Concurrent Lazy",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.State.Concurrent.Lazy",
           "name": "liftPass",
           "normalized": "(a((b,TVar c),d)-\u003ea(b,TVar c))-\u003eStateC c a(b,d)-\u003eStateC c a b",
@@ -999,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConcurrent state monad, providing a State-like interface but allowing\n for multiple threads to operate on the same value simultaneously.\n\u003c/p\u003e\u003cp\u003eThis module performs state computations strictly. For a lazy version,\n see \u003ca\u003eControl.Monad.State.Concurrent.Lazy\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.State.Concurrent.Strict",
           "name": "Strict",
           "package": "concurrent-state",
@@ -1008,6 +1063,7 @@
         "index": {
           "description": "Concurrent state monad providing State-like interface but allowing for multiple threads to operate on the same value simultaneously This module performs state computations strictly For lazy version see Control.Monad.State.Concurrent.Lazy",
           "hierarchy": "Control Monad State Concurrent Strict",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.State.Concurrent.Strict",
           "name": "Strict",
           "package": "concurrent-state",
@@ -1022,6 +1078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA concurrent state transformer monad parameterized by:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003es\u003c/code\u003e - The state. This is contained in a \u003ccode\u003e\u003ca\u003eTVar\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003em\u003c/code\u003e - The inner monad.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function leaves the state unchanged, while \u003ccode\u003e\u003e\u003e=\u003c/code\u003e performs\n actions atomically on the held \u003ccode\u003e\u003ca\u003eTVar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis is very similar to \u003ccode\u003etransformers\u003c/code\u003e' \u003ccode\u003e\u003ca\u003eStateT\u003c/a\u003e\u003c/code\u003e, with the exception of\n the \u003ccode\u003e\u003ca\u003eMonadIO\u003c/a\u003e\u003c/code\u003e constraint on every instance, which is necessary to\n perform STM actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.State.Concurrent.Strict",
           "name": "StateC",
           "package": "concurrent-state",
@@ -1031,6 +1088,7 @@
         "index": {
           "description": "concurrent state transformer monad parameterized by The state This is contained in TVar The inner monad The return function leaves the state unchanged while performs actions atomically on the held TVar This is very similar to transformers StateT with the exception of the MonadIO constraint on every instance which is necessary to perform STM actions",
           "hierarchy": "Control Monad State Concurrent Strict",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.State.Concurrent.Strict",
           "name": "StateC",
           "package": "concurrent-state",
@@ -1045,6 +1103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniform lifting of a \u003ccode\u003ecallCC\u003c/code\u003e operation to the new monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.State.Concurrent.Strict",
           "name": "liftCallCC",
           "package": "concurrent-state",
@@ -1055,6 +1114,7 @@
         "index": {
           "description": "Uniform lifting of callCC operation to the new monad",
           "hierarchy": "Control Monad State Concurrent Strict",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.State.Concurrent.Strict",
           "name": "liftCallCC",
           "normalized": "((((a,TVar b)-\u003ec(d,TVar b))-\u003ec(a,TVar b))-\u003ec(a,TVar b))-\u003e((a-\u003eStateC b c d)-\u003eStateC b c a)-\u003eStateC b c a",
@@ -1071,6 +1131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003ecatchError\u003c/code\u003e operation to the new monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.State.Concurrent.Strict",
           "name": "liftCatch",
           "package": "concurrent-state",
@@ -1081,6 +1142,7 @@
         "index": {
           "description": "Lift catchError operation to the new monad",
           "hierarchy": "Control Monad State Concurrent Strict",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.State.Concurrent.Strict",
           "name": "liftCatch",
           "normalized": "(a(b,TVar c)-\u003e(d-\u003ea(b,TVar c))-\u003ea(b,TVar c))-\u003eStateC c a b-\u003e(d-\u003eStateC c a b)-\u003eStateC c a b",
@@ -1097,6 +1159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003elisten\u003c/code\u003e operation to the new monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.State.Concurrent.Strict",
           "name": "liftListen",
           "package": "concurrent-state",
@@ -1107,6 +1170,7 @@
         "index": {
           "description": "Lift listen operation to the new monad",
           "hierarchy": "Control Monad State Concurrent Strict",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.State.Concurrent.Strict",
           "name": "liftListen",
           "normalized": "(a(b,TVar c)-\u003ea((b,TVar c),d))-\u003eStateC c a b-\u003eStateC c a(b,d)",
@@ -1123,6 +1187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003epass\u003c/code\u003e operation to the new monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.State.Concurrent.Strict",
           "name": "liftPass",
           "package": "concurrent-state",
@@ -1133,6 +1198,7 @@
         "index": {
           "description": "Lift pass operation to the new monad",
           "hierarchy": "Control Monad State Concurrent Strict",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.State.Concurrent.Strict",
           "name": "liftPass",
           "normalized": "(a((b,TVar c),d)-\u003ea(b,TVar c))-\u003eStateC c a(b,d)-\u003eStateC c a b",
@@ -1149,6 +1215,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConcurrent state monad, providing a State-like interface but allowing\n for multiple threads to operate on the same value simultaneously.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.State.Concurrent",
           "name": "Concurrent",
           "package": "concurrent-state",
@@ -1158,6 +1225,7 @@
         "index": {
           "description": "Concurrent state monad providing State-like interface but allowing for multiple threads to operate on the same value simultaneously",
           "hierarchy": "Control Monad State Concurrent",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.State.Concurrent",
           "name": "Concurrent",
           "package": "concurrent-state",
@@ -1172,6 +1240,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA monad whose actions produce an output.\n\u003c/p\u003e\u003cp\u003eThis module builds output lazily. For a strict version, see\n \u003ca\u003eControl.Monad.Writer.Concurrent.Strict\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.Writer.Concurrent.Lazy",
           "name": "Lazy",
           "package": "concurrent-state",
@@ -1181,6 +1250,7 @@
         "index": {
           "description": "monad whose actions produce an output This module builds output lazily For strict version see Control.Monad.Writer.Concurrent.Strict",
           "hierarchy": "Control Monad Writer Concurrent Lazy",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.Writer.Concurrent.Lazy",
           "name": "Lazy",
           "package": "concurrent-state",
@@ -1195,6 +1265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA concurrent monad transformer collecting output of type \u003ccode\u003ew\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis is very similar to \u003ccode\u003etransformers\u003c/code\u003e' \u003ccode\u003e\u003ca\u003eWriterT\u003c/a\u003e\u003c/code\u003e, with the exception of\n the \u003ccode\u003e\u003ca\u003eMonadIO\u003c/a\u003e\u003c/code\u003e constraint on every instance, which is necessary to\n perform STM actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.Writer.Concurrent.Lazy",
           "name": "WriterC",
           "package": "concurrent-state",
@@ -1204,6 +1275,7 @@
         "index": {
           "description": "concurrent monad transformer collecting output of type This is very similar to transformers WriterT with the exception of the MonadIO constraint on every instance which is necessary to perform STM actions",
           "hierarchy": "Control Monad Writer Concurrent Lazy",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.Writer.Concurrent.Lazy",
           "name": "WriterC",
           "package": "concurrent-state",
@@ -1270,6 +1342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003ecallCC\u003c/code\u003e operation to the new monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.Writer.Concurrent.Lazy",
           "name": "liftCallCC",
           "package": "concurrent-state",
@@ -1280,6 +1353,7 @@
         "index": {
           "description": "Lift callCC operation to the new monad",
           "hierarchy": "Control Monad Writer Concurrent Lazy",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.Writer.Concurrent.Lazy",
           "name": "liftCallCC",
           "normalized": "((((a,TVar b)-\u003ec(d,TVar b))-\u003ec(a,TVar b))-\u003ec(a,TVar b))-\u003e((a-\u003eWriterC b c d)-\u003eWriterC b c a)-\u003eWriterC b c a",
@@ -1296,6 +1370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003ecatchError\u003c/code\u003e operation to the new monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.Writer.Concurrent.Lazy",
           "name": "liftCatch",
           "package": "concurrent-state",
@@ -1306,6 +1381,7 @@
         "index": {
           "description": "Lift catchError operation to the new monad",
           "hierarchy": "Control Monad Writer Concurrent Lazy",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.Writer.Concurrent.Lazy",
           "name": "liftCatch",
           "normalized": "(a(b,TVar c)-\u003e(d-\u003ea(b,TVar c))-\u003ea(b,TVar c))-\u003eWriterC c a b-\u003e(d-\u003eWriterC c a b)-\u003eWriterC c a b",
@@ -1322,6 +1398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap both the return value and output of a computation using the given\n function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.Writer.Concurrent.Lazy",
           "name": "mapWriterC",
           "package": "concurrent-state",
@@ -1332,6 +1409,7 @@
         "index": {
           "description": "Map both the return value and output of computation using the given function",
           "hierarchy": "Control Monad Writer Concurrent Lazy",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.Writer.Concurrent.Lazy",
           "name": "mapWriterC",
           "normalized": "(a(b,TVar c)-\u003ed(e,TVar c))-\u003eWriterC c a b-\u003eWriterC c d e",
@@ -1400,6 +1478,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA monad whose actions produce an output.\n\u003c/p\u003e\u003cp\u003eThis module builds output strictly. For a lazy version, see\n \u003ca\u003eControl.Monad.Writer.Concurrent.Lazy\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.Writer.Concurrent.Strict",
           "name": "Strict",
           "package": "concurrent-state",
@@ -1409,6 +1488,7 @@
         "index": {
           "description": "monad whose actions produce an output This module builds output strictly For lazy version see Control.Monad.Writer.Concurrent.Lazy",
           "hierarchy": "Control Monad Writer Concurrent Strict",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.Writer.Concurrent.Strict",
           "name": "Strict",
           "package": "concurrent-state",
@@ -1423,6 +1503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA concurrent monad transformer collecting output of type \u003ccode\u003ew\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis is very similar to \u003ccode\u003etransformers\u003c/code\u003e' \u003ccode\u003e\u003ca\u003eWriterT\u003c/a\u003e\u003c/code\u003e, with the exception of\n the \u003ccode\u003e\u003ca\u003eMonadIO\u003c/a\u003e\u003c/code\u003e constraint on every instance, which is necessary to\n perform STM actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.Writer.Concurrent.Strict",
           "name": "WriterC",
           "package": "concurrent-state",
@@ -1432,6 +1513,7 @@
         "index": {
           "description": "concurrent monad transformer collecting output of type This is very similar to transformers WriterT with the exception of the MonadIO constraint on every instance which is necessary to perform STM actions",
           "hierarchy": "Control Monad Writer Concurrent Strict",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.Writer.Concurrent.Strict",
           "name": "WriterC",
           "package": "concurrent-state",
@@ -1446,6 +1528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003ecallCC\u003c/code\u003e operation to the new monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.Writer.Concurrent.Strict",
           "name": "liftCallCC",
           "package": "concurrent-state",
@@ -1456,6 +1539,7 @@
         "index": {
           "description": "Lift callCC operation to the new monad",
           "hierarchy": "Control Monad Writer Concurrent Strict",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.Writer.Concurrent.Strict",
           "name": "liftCallCC",
           "normalized": "((((a,TVar b)-\u003ec(d,TVar b))-\u003ec(a,TVar b))-\u003ec(a,TVar b))-\u003e((a-\u003eWriterC b c d)-\u003eWriterC b c a)-\u003eWriterC b c a",
@@ -1472,6 +1556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003ecatchError\u003c/code\u003e operation to the new monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.Writer.Concurrent.Strict",
           "name": "liftCatch",
           "package": "concurrent-state",
@@ -1482,6 +1567,7 @@
         "index": {
           "description": "Lift catchError operation to the new monad",
           "hierarchy": "Control Monad Writer Concurrent Strict",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.Writer.Concurrent.Strict",
           "name": "liftCatch",
           "normalized": "(a(b,TVar c)-\u003e(d-\u003ea(b,TVar c))-\u003ea(b,TVar c))-\u003eWriterC c a b-\u003e(d-\u003eWriterC c a b)-\u003eWriterC c a b",
@@ -1498,6 +1584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap both the return value and output of a computation using the given\n function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.Writer.Concurrent.Strict",
           "name": "mapWriterC",
           "package": "concurrent-state",
@@ -1508,6 +1595,7 @@
         "index": {
           "description": "Map both the return value and output of computation using the given function",
           "hierarchy": "Control Monad Writer Concurrent Strict",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.Writer.Concurrent.Strict",
           "name": "mapWriterC",
           "normalized": "(a(b,TVar c)-\u003ed(e,TVar c))-\u003eWriterC c a b-\u003eWriterC c d e",
@@ -1524,6 +1612,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA monad whose actions produce an output.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:38:16 UTC 2014",
           "module": "Control.Monad.Writer.Concurrent",
           "name": "Concurrent",
           "package": "concurrent-state",
@@ -1533,6 +1622,7 @@
         "index": {
           "description": "monad whose actions produce an output",
           "hierarchy": "Control Monad Writer Concurrent",
+          "indexed": "2014-03-11T17:38:16",
           "module": "Control.Monad.Writer.Concurrent",
           "name": "Concurrent",
           "package": "concurrent-state",

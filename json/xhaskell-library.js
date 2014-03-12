@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xhaskell-library"
+        "phrase": "xhaskell-library",
+        "type": "phrase"
       },
       "type": "context"
     }

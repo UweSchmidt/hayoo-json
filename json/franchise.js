@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "franchise"
+        "phrase": "franchise",
+        "type": "phrase"
       },
       "type": "context"
     }

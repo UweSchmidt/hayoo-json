@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bamboo-plugin-photo"
+        "phrase": "bamboo-plugin-photo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "Config",
           "package": "bamboo-plugin-photo",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Config",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "Config",
           "package": "bamboo-plugin-photo",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "album_id",
           "package": "bamboo-plugin-photo",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Config",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "album_id",
           "package": "bamboo-plugin-photo",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "db_id",
           "package": "bamboo-plugin-photo",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Config",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "db_id",
           "package": "bamboo-plugin-photo",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "db_uri",
           "package": "bamboo-plugin-photo",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Config",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "db_uri",
           "package": "bamboo-plugin-photo",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "image_id",
           "package": "bamboo-plugin-photo",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Config",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "image_id",
           "package": "bamboo-plugin-photo",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "image_uri",
           "package": "bamboo-plugin-photo",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Config",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "image_uri",
           "package": "bamboo-plugin-photo",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "picture_prefix",
           "package": "bamboo-plugin-photo",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Config",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "picture_prefix",
           "package": "bamboo-plugin-photo",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "plugin_id",
           "package": "bamboo-plugin-photo",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Config",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "plugin_id",
           "package": "bamboo-plugin-photo",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "plugin_type_key",
           "package": "bamboo-plugin-photo",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Config",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "plugin_type_key",
           "package": "bamboo-plugin-photo",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "plugin_type_value",
           "package": "bamboo-plugin-photo",
@@ -216,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Config",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "plugin_type_value",
           "package": "bamboo-plugin-photo",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "public_id",
           "package": "bamboo-plugin-photo",
@@ -237,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Config",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "public_id",
           "package": "bamboo-plugin-photo",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "public_uri",
           "package": "bamboo-plugin-photo",
@@ -258,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Config",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "public_uri",
           "package": "bamboo-plugin-photo",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "thumb_id",
           "package": "bamboo-plugin-photo",
@@ -279,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Config",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Config",
           "name": "thumb_id",
           "package": "bamboo-plugin-photo",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "Model",
           "package": "bamboo-plugin-photo",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "Model",
           "package": "bamboo-plugin-photo",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "Album",
           "package": "bamboo-plugin-photo",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "Album",
           "package": "bamboo-plugin-photo",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "AlbumData",
           "package": "bamboo-plugin-photo",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "AlbumData",
           "package": "bamboo-plugin-photo",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "AlbumTypeData",
           "package": "bamboo-plugin-photo",
@@ -362,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "AlbumTypeData",
           "package": "bamboo-plugin-photo",
@@ -375,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "Album",
           "package": "bamboo-plugin-photo",
@@ -384,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "Album",
           "package": "bamboo-plugin-photo",
@@ -397,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "AlbumType",
           "package": "bamboo-plugin-photo",
@@ -406,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "AlbumType",
           "package": "bamboo-plugin-photo",
@@ -419,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "Fade",
           "package": "bamboo-plugin-photo",
@@ -428,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "Fade",
           "package": "bamboo-plugin-photo",
@@ -441,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "Galleria",
           "package": "bamboo-plugin-photo",
@@ -450,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "Galleria",
           "package": "bamboo-plugin-photo",
@@ -463,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "Name",
           "package": "bamboo-plugin-photo",
@@ -472,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "Name",
           "package": "bamboo-plugin-photo",
@@ -485,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "Pictures",
           "package": "bamboo-plugin-photo",
@@ -494,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "Pictures",
           "package": "bamboo-plugin-photo",
@@ -507,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "Popeye",
           "package": "bamboo-plugin-photo",
@@ -516,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "Popeye",
           "package": "bamboo-plugin-photo",
@@ -529,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "Prefix",
           "package": "bamboo-plugin-photo",
@@ -538,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "Prefix",
           "package": "bamboo-plugin-photo",
@@ -551,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "ShowDescription",
           "package": "bamboo-plugin-photo",
@@ -560,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "ShowDescription",
           "package": "bamboo-plugin-photo",
@@ -573,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "SlideViewer",
           "package": "bamboo-plugin-photo",
@@ -582,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "SlideViewer",
           "package": "bamboo-plugin-photo",
@@ -595,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "Width",
           "package": "bamboo-plugin-photo",
@@ -604,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "Width",
           "package": "bamboo-plugin-photo",
@@ -617,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "album_type",
           "package": "bamboo-plugin-photo",
@@ -626,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "album_type",
           "package": "bamboo-plugin-photo",
@@ -638,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "convert",
           "package": "bamboo-plugin-photo",
@@ -647,6 +706,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "convert",
           "normalized": "Int-\u003eString-\u003eIO()",
@@ -661,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "convert_cmd",
           "package": "bamboo-plugin-photo",
@@ -670,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "convert_cmd",
           "normalized": "Int-\u003eString-\u003eString-\u003eIO ExitCode",
@@ -684,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "convert_if_missing_thumb",
           "package": "bamboo-plugin-photo",
@@ -693,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "convert_if_missing_thumb",
           "normalized": "Int-\u003eString-\u003eIO()",
@@ -707,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "data_list",
           "package": "bamboo-plugin-photo",
@@ -716,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "data_list",
           "normalized": "Album-\u003e[(String,String,String)]",
@@ -730,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "for_post",
           "package": "bamboo-plugin-photo",
@@ -739,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "for_post",
           "normalized": "String-\u003eString-\u003eIO Album",
@@ -753,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "from_list",
           "package": "bamboo-plugin-photo",
@@ -762,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "from_list",
           "normalized": "[(String,String)]-\u003eIO Album",
@@ -776,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "get",
           "package": "bamboo-plugin-photo",
@@ -785,6 +856,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "get",
           "normalized": "String-\u003eBool-\u003eAlbumTypeData-\u003eInt-\u003eString-\u003eIO Album",
@@ -799,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "get_picture_title",
           "package": "bamboo-plugin-photo",
@@ -808,6 +881,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "get_picture_title",
           "normalized": "String-\u003eString-\u003eString",
@@ -822,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "get_pictures",
           "package": "bamboo-plugin-photo",
@@ -831,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "get_pictures",
           "normalized": "String-\u003eIO[String]",
@@ -845,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "image_extensions",
           "package": "bamboo-plugin-photo",
@@ -854,6 +931,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "image_extensions",
           "normalized": "[String]",
@@ -868,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "is_image",
           "package": "bamboo-plugin-photo",
@@ -877,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "is_image",
           "normalized": "String-\u003eBool",
@@ -891,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "picture_links",
           "package": "bamboo-plugin-photo",
@@ -900,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "picture_links",
           "normalized": "Album-\u003e[String]",
@@ -914,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "picture_thumbs",
           "package": "bamboo-plugin-photo",
@@ -923,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "picture_thumbs",
           "normalized": "Album-\u003e[String]",
@@ -937,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "picture_titles",
           "package": "bamboo-plugin-photo",
@@ -946,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "picture_titles",
           "normalized": "Album-\u003e[String]",
@@ -960,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "pictures",
           "package": "bamboo-plugin-photo",
@@ -969,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "pictures",
           "normalized": "[String]",
@@ -983,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "prefix",
           "package": "bamboo-plugin-photo",
@@ -992,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "prefix",
           "package": "bamboo-plugin-photo",
@@ -1004,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "show_description",
           "package": "bamboo-plugin-photo",
@@ -1013,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "show_description",
           "package": "bamboo-plugin-photo",
@@ -1025,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "uid",
           "package": "bamboo-plugin-photo",
@@ -1034,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "uid",
           "package": "bamboo-plugin-photo",
@@ -1046,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "width",
           "package": "bamboo-plugin-photo",
@@ -1055,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Model",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Model",
           "name": "width",
           "package": "bamboo-plugin-photo",
@@ -1067,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Util",
           "name": "Util",
           "package": "bamboo-plugin-photo",
@@ -1075,6 +1172,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Util",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Util",
           "name": "Util",
           "package": "bamboo-plugin-photo",
@@ -1088,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Util",
           "name": "id_to_resource",
           "package": "bamboo-plugin-photo",
@@ -1097,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Util",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Util",
           "name": "id_to_resource",
           "normalized": "String-\u003eString",
@@ -1111,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Util",
           "name": "image_path",
           "package": "bamboo-plugin-photo",
@@ -1120,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Util",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Util",
           "name": "image_path",
           "normalized": "String-\u003eString",
@@ -1134,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Util",
           "name": "ls_l",
           "package": "bamboo-plugin-photo",
@@ -1143,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Util",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Util",
           "name": "ls_l",
           "normalized": "String-\u003eIO[String]",
@@ -1157,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Util",
           "name": "mkdir",
           "package": "bamboo-plugin-photo",
@@ -1166,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Util",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Util",
           "name": "mkdir",
           "normalized": "String-\u003eIO()",
@@ -1180,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Util",
           "name": "parse_boolean",
           "package": "bamboo-plugin-photo",
@@ -1189,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Util",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Util",
           "name": "parse_boolean",
           "normalized": "String-\u003eBool",
@@ -1203,6 +1311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Util",
           "name": "show_data",
           "package": "bamboo-plugin-photo",
@@ -1212,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Util",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Util",
           "name": "show_data",
           "normalized": "a-\u003eString",
@@ -1226,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.Util",
           "name": "spaced_url",
           "package": "bamboo-plugin-photo",
@@ -1235,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo Util",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.Util",
           "name": "spaced_url",
           "normalized": "String-\u003eString",
@@ -1249,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "View",
           "package": "bamboo-plugin-photo",
@@ -1257,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "View",
           "package": "bamboo-plugin-photo",
@@ -1270,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "c",
           "package": "bamboo-plugin-photo",
@@ -1279,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "c",
           "normalized": "String-\u003eHtml-\u003eHtml",
@@ -1293,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "ci",
           "package": "bamboo-plugin-photo",
@@ -1302,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "ci",
           "normalized": "String-\u003eString-\u003eHtml-\u003eHtml",
@@ -1316,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "d",
           "package": "bamboo-plugin-photo",
@@ -1325,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "d",
           "normalized": "Html-\u003eHtml",
@@ -1339,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "div",
           "package": "bamboo-plugin-photo",
@@ -1348,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "div",
           "normalized": "Html-\u003eHtml",
@@ -1362,6 +1484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "div_class",
           "package": "bamboo-plugin-photo",
@@ -1371,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "div_class",
           "normalized": "String-\u003eHtml-\u003eHtml",
@@ -1385,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "div_class_id",
           "package": "bamboo-plugin-photo",
@@ -1394,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "div_class_id",
           "normalized": "String-\u003eString-\u003eHtml-\u003eHtml",
@@ -1408,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "div_id",
           "package": "bamboo-plugin-photo",
@@ -1417,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "div_id",
           "normalized": "String-\u003eHtml-\u003eHtml",
@@ -1431,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "empty_html",
           "package": "bamboo-plugin-photo",
@@ -1440,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "empty_html",
           "package": "bamboo-plugin-photo",
@@ -1452,6 +1582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "ic",
           "package": "bamboo-plugin-photo",
@@ -1461,6 +1592,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "ic",
           "normalized": "String-\u003eString-\u003eHtml-\u003eHtml",
@@ -1475,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "id",
           "package": "bamboo-plugin-photo",
@@ -1484,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "id",
           "normalized": "String-\u003eHtmlAttr",
@@ -1498,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "img",
           "package": "bamboo-plugin-photo",
@@ -1507,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "img",
           "package": "bamboo-plugin-photo",
@@ -1519,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "klass",
           "package": "bamboo-plugin-photo",
@@ -1528,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "klass",
           "normalized": "String-\u003eHtmlAttr",
@@ -1542,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "link",
           "package": "bamboo-plugin-photo",
@@ -1551,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "link",
           "normalized": "String-\u003eHtml-\u003eHotLink",
@@ -1565,6 +1705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "render",
           "package": "bamboo-plugin-photo",
@@ -1574,6 +1715,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "render",
           "normalized": "Album-\u003eHtml",
@@ -1588,6 +1730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "show_album",
           "package": "bamboo-plugin-photo",
@@ -1597,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "show_album",
           "normalized": "Album-\u003eHtml",
@@ -1611,6 +1755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "show_fade",
           "package": "bamboo-plugin-photo",
@@ -1620,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "show_fade",
           "normalized": "Album-\u003eHtml",
@@ -1634,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "show_galleria",
           "package": "bamboo-plugin-photo",
@@ -1643,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "show_galleria",
           "normalized": "Album-\u003eHtml",
@@ -1657,6 +1805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "show_popeye",
           "package": "bamboo-plugin-photo",
@@ -1666,6 +1815,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "show_popeye",
           "normalized": "Album-\u003eHtml",
@@ -1680,6 +1830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "show_slide_viewer",
           "package": "bamboo-plugin-photo",
@@ -1689,6 +1840,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "show_slide_viewer",
           "normalized": "Album-\u003eHtml",
@@ -1703,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "space_html",
           "package": "bamboo-plugin-photo",
@@ -1712,6 +1865,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "space_html",
           "package": "bamboo-plugin-photo",
@@ -1724,6 +1878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "span",
           "package": "bamboo-plugin-photo",
@@ -1733,6 +1888,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "span",
           "normalized": "Html-\u003eHtml",
@@ -1747,6 +1903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "ul",
           "package": "bamboo-plugin-photo",
@@ -1756,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo View",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo.View",
           "name": "ul",
           "normalized": "Html-\u003eHtml",
@@ -1770,6 +1928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo",
           "name": "Photo",
           "package": "bamboo-plugin-photo",
@@ -1778,6 +1937,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo",
           "name": "Photo",
           "package": "bamboo-plugin-photo",
@@ -1791,6 +1951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:24 UTC 2014",
           "module": "Bamboo.Plugin.Photo",
           "name": "photo",
           "package": "bamboo-plugin-photo",
@@ -1800,6 +1961,7 @@
         },
         "index": {
           "hierarchy": "Bamboo Plugin Photo",
+          "indexed": "2014-03-11T17:16:24",
           "module": "Bamboo.Plugin.Photo",
           "name": "photo",
           "package": "bamboo-plugin-photo",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "makedo"
+        "phrase": "makedo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Contained",
           "name": "Contained",
           "package": "makedo",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Makedo Contained",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Contained",
           "name": "Contained",
           "package": "makedo",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust one of the possible \u003ccode\u003ea\u003c/code\u003e used to generate a path component\n   which will then just be chopped off again with takeDirectory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Contained",
           "name": "Containable",
           "package": "makedo",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Just one of the possible used to generate path component which will then just be chopped off again with takeDirectory",
           "hierarchy": "Makedo Contained",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Contained",
           "name": "Containable",
           "package": "makedo",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eredo 0.06 and under do not like it if you try to redo something that's\n   in a directory that does not yet exist, so unfortunately, we need some way\n   to create the parent directories before invoking the targets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Contained",
           "name": "Contained",
           "package": "makedo",
@@ -72,6 +77,7 @@
         "index": {
           "description": "redo and under do not like it if you try to redo something that in directory that does not yet exist so unfortunately we need some way to create the parent directories before invoking the targets",
           "hierarchy": "Makedo Contained",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Contained",
           "name": "Contained",
           "package": "makedo",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Contained",
           "name": "Contained",
           "package": "makedo",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Makedo Contained",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Contained",
           "name": "Contained",
           "package": "makedo",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshould be superset of targets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Contained",
           "name": "allTargets",
           "package": "makedo",
@@ -118,6 +127,7 @@
         "index": {
           "description": "should be superset of targets",
           "hierarchy": "Makedo Contained",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Contained",
           "name": "allTargets",
           "normalized": "[Target]",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Contained",
           "name": "containers",
           "package": "makedo",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Makedo Contained",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Contained",
           "name": "containers",
           "normalized": "[FilePath]",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Contained",
           "name": "czero",
           "package": "makedo",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Makedo Contained",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Contained",
           "name": "czero",
           "package": "makedo",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Contained",
           "name": "mkContained",
           "package": "makedo",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Makedo Contained",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Contained",
           "name": "mkContained",
           "normalized": "[a-\u003eExactTarget]-\u003e[a]-\u003eContained",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Contained",
           "name": "targets",
           "package": "makedo",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Makedo Contained",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Contained",
           "name": "targets",
           "normalized": "[ExactTarget]",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "Target",
           "package": "makedo",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "Target",
           "package": "makedo",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTargets that use an exact filename match\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "ExactTarget",
           "package": "makedo",
@@ -254,6 +275,7 @@
         "index": {
           "description": "Targets that use an exact filename match",
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "ExactTarget",
           "package": "makedo",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "RedoArgs",
           "package": "makedo",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "RedoArgs",
           "package": "makedo",
@@ -289,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUseful for targets that take parameters which you want to\n   convert into path components\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "ShowPC",
           "package": "makedo",
@@ -298,6 +323,7 @@
         "index": {
           "description": "Useful for targets that take parameters which you want to convert into path components",
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "ShowPC",
           "package": "makedo",
@@ -312,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA makedo script is basically just a list of \u003ccode\u003e\u003ca\u003eTarget\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eIf a target matches the input file name, its action is run\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "Target",
           "package": "makedo",
@@ -321,6 +348,7 @@
         "index": {
           "description": "makedo script is basically just list of Target If target matches the input file name its action is run",
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "Target",
           "package": "makedo",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "TargetLike",
           "package": "makedo",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "TargetLike",
           "package": "makedo",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "WildcardTarget",
           "package": "makedo",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "WildcardTarget",
           "package": "makedo",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "ExactTarget",
           "package": "makedo",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "ExactTarget",
           "package": "makedo",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "RedoArgs",
           "package": "makedo",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "RedoArgs",
           "package": "makedo",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "Target",
           "package": "makedo",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "Target",
           "package": "makedo",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "WildcardTarget",
           "package": "makedo",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "WildcardTarget",
           "package": "makedo",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "action",
           "package": "makedo",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "action",
           "normalized": "RedoArgs-\u003eIO()",
@@ -488,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(name, blurb) for human consumption only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "description",
           "package": "makedo",
@@ -498,6 +541,7 @@
         "index": {
           "description": "name blurb for human consumption only",
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "description",
           "normalized": "(String,String)",
@@ -512,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "eAction",
           "package": "makedo",
@@ -521,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "eAction",
           "normalized": "RedoArgs-\u003eIO()",
@@ -536,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "eBlurb",
           "package": "makedo",
@@ -545,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "eBlurb",
           "package": "makedo",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "ePath",
           "package": "makedo",
@@ -567,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "ePath",
           "package": "makedo",
@@ -581,6 +631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial target that prints out the targets you can run\n   Note that makedo automatically includes this\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "listing",
           "package": "makedo",
@@ -591,6 +642,7 @@
         "index": {
           "description": "Special target that prints out the targets you can run Note that makedo automatically includes this",
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "listing",
           "normalized": "[Target]-\u003eExactTarget",
@@ -605,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "match",
           "package": "makedo",
@@ -614,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "match",
           "normalized": "FilePath-\u003eBool",
@@ -628,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "redo",
           "package": "makedo",
@@ -637,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "redo",
           "normalized": "[String]-\u003eIO()",
@@ -651,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "redoIfChange",
           "package": "makedo",
@@ -660,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "redoIfChange",
           "normalized": "[String]-\u003eIO()",
@@ -676,6 +734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYour main function should probably just invoke this and do nothing\n   else\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "redoMain",
           "package": "makedo",
@@ -686,6 +745,7 @@
         "index": {
           "description": "Your main function should probably just invoke this and do nothing else",
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "redoMain",
           "normalized": "[Target]-\u003eIO()",
@@ -701,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "rext",
           "package": "makedo",
@@ -710,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "rext",
           "package": "makedo",
@@ -723,6 +785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edesired filename\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "rname",
           "package": "makedo",
@@ -733,6 +796,7 @@
         "index": {
           "description": "desired filename",
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "rname",
           "package": "makedo",
@@ -745,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "runVerbosely",
           "package": "makedo",
@@ -754,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "runVerbosely",
           "normalized": "a-\u003eIO()",
@@ -770,6 +836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etemporary file managed by redo; write your output here\n   or to stdout; it will be renamed to \u003ccode\u003e\u003ca\u003ername\u003c/a\u003e\u003c/code\u003e if the rule\n   is successful\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "rwrite",
           "package": "makedo",
@@ -780,6 +847,7 @@
         "index": {
           "description": "temporary file managed by redo write your output here or to stdout it will be renamed to rname if the rule is successful",
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "rwrite",
           "package": "makedo",
@@ -792,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "showPC",
           "package": "makedo",
@@ -801,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "showPC",
           "normalized": "a-\u003eString",
@@ -816,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "stampAll",
           "package": "makedo",
@@ -825,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "stampAll",
           "normalized": "FilePath-\u003e[String]-\u003eIO()",
@@ -840,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "target",
           "package": "makedo",
@@ -849,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "target",
           "normalized": "a-\u003eTarget",
@@ -863,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "wAction",
           "package": "makedo",
@@ -872,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "wAction",
           "normalized": "RedoArgs-\u003eIO()",
@@ -887,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "wBlurb",
           "package": "makedo",
@@ -896,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "wBlurb",
           "package": "makedo",
@@ -910,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eas recognised by System.FilePath\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "wExtension",
           "package": "makedo",
@@ -920,6 +999,7 @@
         "index": {
           "description": "as recognised by System.FilePath",
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "wExtension",
           "package": "makedo",
@@ -933,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo.Target",
           "name": "wPrefix",
           "package": "makedo",
@@ -942,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Makedo Target",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo.Target",
           "name": "wPrefix",
           "package": "makedo",
@@ -955,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:13:54 UTC 2014",
           "module": "Makedo",
           "name": "Makedo",
           "package": "makedo",
@@ -963,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Makedo",
+          "indexed": "2014-03-11T19:13:54",
           "module": "Makedo",
           "name": "Makedo",
           "package": "makedo",

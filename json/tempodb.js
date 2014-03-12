@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tempodb"
+        "phrase": "tempodb",
+        "type": "phrase"
       },
       "type": "context"
     }

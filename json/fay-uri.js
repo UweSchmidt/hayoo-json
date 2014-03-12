@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fay-uri"
+        "phrase": "fay-uri",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "Uri",
           "package": "fay-uri",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "Uri",
           "package": "fay-uri",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreation and conversion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "Uri",
           "package": "fay-uri",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Creation and conversion",
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "Uri",
           "package": "fay-uri",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther setters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "addQueryParam",
           "package": "fay-uri",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Other setters",
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "addQueryParam",
           "normalized": "String-\u003eString-\u003eUri-\u003eUri",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "anchor",
           "package": "fay-uri",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "anchor",
           "normalized": "Uri-\u003eNullable String",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "clone",
           "package": "fay-uri",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "clone",
           "normalized": "Uri-\u003eUri",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "currentUri",
           "package": "fay-uri",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "currentUri",
           "package": "fay-uri",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "deleteQueryParam",
           "package": "fay-uri",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "deleteQueryParam",
           "normalized": "String-\u003eUri-\u003eUri",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "deleteQueryParamValue",
           "package": "fay-uri",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "deleteQueryParamValue",
           "normalized": "String-\u003eString-\u003eUri-\u003eUri",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "host",
           "package": "fay-uri",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "host",
           "normalized": "Uri-\u003eNullable String",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "newUri",
           "package": "fay-uri",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "newUri",
           "normalized": "String-\u003eUri",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "path",
           "package": "fay-uri",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "path",
           "normalized": "Uri-\u003eNullable String",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "port",
           "package": "fay-uri",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "port",
           "normalized": "Uri-\u003eNullable String",
@@ -298,6 +322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "protocol",
           "package": "fay-uri",
@@ -308,6 +333,7 @@
         "index": {
           "description": "Getters",
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "protocol",
           "normalized": "Uri-\u003eNullable String",
@@ -322,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "query",
           "package": "fay-uri",
@@ -331,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "query",
           "normalized": "Uri-\u003eNullable String",
@@ -346,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther getters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "queryParamValue",
           "package": "fay-uri",
@@ -356,6 +385,7 @@
         "index": {
           "description": "Other getters",
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "queryParamValue",
           "normalized": "String-\u003eUri-\u003eString",
@@ -371,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "queryParamValues",
           "package": "fay-uri",
@@ -380,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "queryParamValues",
           "normalized": "String-\u003eUri-\u003e[String]",
@@ -395,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "removeAnchor",
           "package": "fay-uri",
@@ -404,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "removeAnchor",
           "normalized": "Uri-\u003eUri",
@@ -419,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "removeHost",
           "package": "fay-uri",
@@ -428,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "removeHost",
           "normalized": "Uri-\u003eUri",
@@ -443,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "removePath",
           "package": "fay-uri",
@@ -452,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "removePath",
           "normalized": "Uri-\u003eUri",
@@ -467,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "removePort",
           "package": "fay-uri",
@@ -476,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "removePort",
           "normalized": "Uri-\u003eUri",
@@ -492,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemovals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "removeProtocol",
           "package": "fay-uri",
@@ -502,6 +543,7 @@
         "index": {
           "description": "Removals",
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "removeProtocol",
           "normalized": "Uri-\u003eUri",
@@ -517,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "removeQuery",
           "package": "fay-uri",
@@ -526,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "removeQuery",
           "normalized": "Uri-\u003eUri",
@@ -541,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "removeUserInfo",
           "package": "fay-uri",
@@ -550,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "removeUserInfo",
           "normalized": "Uri-\u003eUri",
@@ -565,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "replaceQueryParam",
           "package": "fay-uri",
@@ -574,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "replaceQueryParam",
           "normalized": "String-\u003eString-\u003eUri-\u003eUri",
@@ -589,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "replaceQueryParamValue",
           "package": "fay-uri",
@@ -598,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "replaceQueryParamValue",
           "normalized": "String-\u003eString-\u003eString-\u003eUri-\u003eUri",
@@ -613,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "toString",
           "package": "fay-uri",
@@ -622,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "toString",
           "normalized": "Uri-\u003eString",
@@ -637,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "userInfo",
           "package": "fay-uri",
@@ -646,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "userInfo",
           "normalized": "Uri-\u003eNullable String",
@@ -661,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "withAnchor",
           "package": "fay-uri",
@@ -670,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "withAnchor",
           "normalized": "String-\u003eUri-\u003eUri",
@@ -685,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "withHost",
           "package": "fay-uri",
@@ -694,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "withHost",
           "normalized": "String-\u003eUri-\u003eUri",
@@ -709,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "withPath",
           "package": "fay-uri",
@@ -718,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "withPath",
           "normalized": "String-\u003eUri-\u003eUri",
@@ -733,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "withPort",
           "package": "fay-uri",
@@ -742,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "withPort",
           "normalized": "String-\u003eUri-\u003eUri",
@@ -758,6 +820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "withProtocol",
           "package": "fay-uri",
@@ -768,6 +831,7 @@
         "index": {
           "description": "Setters",
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "withProtocol",
           "normalized": "String-\u003eUri-\u003eUri",
@@ -783,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "withQuery",
           "package": "fay-uri",
@@ -792,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "withQuery",
           "normalized": "String-\u003eUri-\u003eUri",
@@ -807,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:58 UTC 2014",
           "module": "Uri",
           "name": "withUserInfo",
           "package": "fay-uri",
@@ -816,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Uri",
+          "indexed": "2014-03-11T18:06:58",
           "module": "Uri",
           "name": "withUserInfo",
           "normalized": "String-\u003eUri-\u003eUri",

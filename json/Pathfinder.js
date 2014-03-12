@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Pathfinder"
+        "phrase": "Pathfinder",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:47 UTC 2014",
           "module": "Database.Pathfinder",
           "name": "Pathfinder",
           "package": "Pathfinder",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database Pathfinder",
+          "indexed": "2014-03-11T16:56:47",
           "module": "Database.Pathfinder",
           "name": "Pathfinder",
           "package": "Pathfinder",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:47 UTC 2014",
           "module": "Database.Pathfinder",
           "name": "ErrorString",
           "package": "Pathfinder",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Database Pathfinder",
+          "indexed": "2014-03-11T16:56:47",
           "module": "Database.Pathfinder",
           "name": "ErrorString",
           "package": "Pathfinder",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:47 UTC 2014",
           "module": "Database.Pathfinder",
           "name": "OptString",
           "package": "Pathfinder",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Database Pathfinder",
+          "indexed": "2014-03-11T16:56:47",
           "module": "Database.Pathfinder",
           "name": "OptString",
           "package": "Pathfinder",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:47 UTC 2014",
           "module": "Database.Pathfinder",
           "name": "OutputFormat",
           "package": "Pathfinder",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Database Pathfinder",
+          "indexed": "2014-03-11T16:56:47",
           "module": "Database.Pathfinder",
           "name": "OutputFormat",
           "package": "Pathfinder",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:47 UTC 2014",
           "module": "Database.Pathfinder",
           "name": "OutputString",
           "package": "Pathfinder",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Database Pathfinder",
+          "indexed": "2014-03-11T16:56:47",
           "module": "Database.Pathfinder",
           "name": "OutputString",
           "package": "Pathfinder",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:47 UTC 2014",
           "module": "Database.Pathfinder",
           "name": "XmlString",
           "package": "Pathfinder",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Database Pathfinder",
+          "indexed": "2014-03-11T16:56:47",
           "module": "Database.Pathfinder",
           "name": "XmlString",
           "package": "Pathfinder",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:47 UTC 2014",
           "module": "Database.Pathfinder",
           "name": "OutputDot",
           "package": "Pathfinder",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Database Pathfinder",
+          "indexed": "2014-03-11T16:56:47",
           "module": "Database.Pathfinder",
           "name": "OutputDot",
           "package": "Pathfinder",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:47 UTC 2014",
           "module": "Database.Pathfinder",
           "name": "OutputSql",
           "package": "Pathfinder",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Database Pathfinder",
+          "indexed": "2014-03-11T16:56:47",
           "module": "Database.Pathfinder",
           "name": "OutputSql",
           "package": "Pathfinder",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:47 UTC 2014",
           "module": "Database.Pathfinder",
           "name": "OutputXml",
           "package": "Pathfinder",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Database Pathfinder",
+          "indexed": "2014-03-11T16:56:47",
           "module": "Database.Pathfinder",
           "name": "OutputXml",
           "package": "Pathfinder",
@@ -211,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelational optimiser and code generator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:47 UTC 2014",
           "module": "Database.Pathfinder",
           "name": "pathfinder",
           "package": "Pathfinder",
@@ -220,6 +239,7 @@
         "index": {
           "description": "Relational optimiser and code generator",
           "hierarchy": "Database Pathfinder",
+          "indexed": "2014-03-11T16:56:47",
           "module": "Database.Pathfinder",
           "name": "pathfinder",
           "normalized": "XmlString-\u003eOptString-\u003eOutputFormat-\u003eIO(Either ErrorString OutputString)",

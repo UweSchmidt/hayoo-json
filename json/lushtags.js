@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lushtags"
+        "phrase": "lushtags",
+        "type": "phrase"
       },
       "type": "context"
     }

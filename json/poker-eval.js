@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "poker-eval"
+        "phrase": "poker-eval",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImporting this module gives you access to the inner workings of Data.Poker.\n Use with care.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker.Internal",
           "name": "Internal",
           "package": "poker-eval",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Importing this module gives you access to the inner workings of Data.Poker Use with care",
           "hierarchy": "Data Poker Internal",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker.Internal",
           "name": "Internal",
           "package": "poker-eval",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract representation of a card consisting of a \u003ccode\u003e\u003ca\u003eRank\u003c/a\u003e\u003c/code\u003e and a \u003ccode\u003e\u003ca\u003eSuit\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker.Internal",
           "name": "Card",
           "package": "poker-eval",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Abstract representation of card consisting of Rank and Suit",
           "hierarchy": "Data Poker Internal",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker.Internal",
           "name": "Card",
           "package": "poker-eval",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of cards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker.Internal",
           "name": "CardSet",
           "package": "poker-eval",
@@ -74,6 +79,7 @@
         "index": {
           "description": "set of cards",
           "hierarchy": "Data Poker Internal",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker.Internal",
           "name": "CardSet",
           "package": "poker-eval",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIsomorphic to \u003ccode\u003e\u003ca\u003eHandValue\u003c/a\u003e\u003c/code\u003e but stored more efficiently.\n\u003c/p\u003e\u003cp\u003eThis structure has the special property of being bounded and an enum. It is\n   especially useful as an Array index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker.Internal",
           "name": "ConsecutiveHandValue",
           "package": "poker-eval",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Isomorphic to HandValue but stored more efficiently This structure has the special property of being bounded and an enum It is especially useful as an Array index",
           "hierarchy": "Data Poker Internal",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker.Internal",
           "name": "ConsecutiveHandValue",
           "package": "poker-eval",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIsomorphic to \u003ccode\u003e\u003ca\u003eHandValue\u003c/a\u003e\u003c/code\u003e but computed much more efficiently.\n\u003c/p\u003e\u003cp\u003eIf possible, this is the structure to use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker.Internal",
           "name": "NumericalHandValue",
           "package": "poker-eval",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Isomorphic to HandValue but computed much more efficiently If possible this is the structure to use",
           "hierarchy": "Data Poker Internal",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker.Internal",
           "name": "NumericalHandValue",
           "package": "poker-eval",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker.Internal",
           "name": "StdDeck_CardMask",
           "package": "poker-eval",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data Poker Internal",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker.Internal",
           "name": "StdDeck_CardMask",
           "package": "poker-eval",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker.Internal",
           "name": "Card",
           "package": "poker-eval",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Data Poker Internal",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker.Internal",
           "name": "Card",
           "package": "poker-eval",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker.Internal",
           "name": "CardSet",
           "package": "poker-eval",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Data Poker Internal",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker.Internal",
           "name": "CardSet",
           "package": "poker-eval",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker.Internal",
           "name": "ConsecutiveHandValue",
           "package": "poker-eval",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Data Poker Internal",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker.Internal",
           "name": "ConsecutiveHandValue",
           "package": "poker-eval",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker.Internal",
           "name": "NumericalHandValue",
           "package": "poker-eval",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Data Poker Internal",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker.Internal",
           "name": "NumericalHandValue",
           "package": "poker-eval",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker.Internal",
           "name": "allHandValues",
           "package": "poker-eval",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Data Poker Internal",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker.Internal",
           "name": "allHandValues",
           "normalized": "[HandValue]",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker.Internal",
           "name": "distHandValue",
           "package": "poker-eval",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Data Poker Internal",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker.Internal",
           "name": "distHandValue",
           "normalized": "CardSet-\u003eUArray ConsecutiveHandValue Int",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker.Internal",
           "name": "unConsecutiveHandValue",
           "package": "poker-eval",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Data Poker Internal",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker.Internal",
           "name": "unConsecutiveHandValue",
           "package": "poker-eval",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker.Internal",
           "name": "unNumericalHandValue",
           "package": "poker-eval",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Data Poker Internal",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker.Internal",
           "name": "unNumericalHandValue",
           "package": "poker-eval",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker.Internal",
           "name": "unmask",
           "package": "poker-eval",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Data Poker Internal",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker.Internal",
           "name": "unmask",
           "package": "poker-eval",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Poker",
           "package": "poker-eval",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Poker",
           "package": "poker-eval",
@@ -377,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract representation of a card consisting of a \u003ccode\u003e\u003ca\u003eRank\u003c/a\u003e\u003c/code\u003e and a \u003ccode\u003e\u003ca\u003eSuit\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Card",
           "package": "poker-eval",
@@ -386,6 +419,7 @@
         "index": {
           "description": "Abstract representation of card consisting of Rank and Suit",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Card",
           "package": "poker-eval",
@@ -400,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of cards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "CardSet",
           "package": "poker-eval",
@@ -409,6 +444,7 @@
         "index": {
           "description": "set of cards",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "CardSet",
           "package": "poker-eval",
@@ -423,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIsomorphic to \u003ccode\u003e\u003ca\u003eHandValue\u003c/a\u003e\u003c/code\u003e but stored more efficiently.\n\u003c/p\u003e\u003cp\u003eThis structure has the special property of being bounded and an enum. It is\n   especially useful as an Array index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "ConsecutiveHandValue",
           "package": "poker-eval",
@@ -432,6 +469,7 @@
         "index": {
           "description": "Isomorphic to HandValue but stored more efficiently This structure has the special property of being bounded and an enum It is especially useful as an Array index",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "ConsecutiveHandValue",
           "package": "poker-eval",
@@ -446,6 +484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis structure represents the value of a poker hand as a high-level ADT.\n\u003c/p\u003e\u003cp\u003eThe following must be true for a HandValue to be valid:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e All kickers must be in decending order.\n\u003c/li\u003e\u003cli\u003e No \u003ccode\u003e\u003ca\u003eRank\u003c/a\u003e\u003c/code\u003e may not occur twice.\n\u003c/li\u003e\u003cli\u003e The kickers may not construct higher-value hands.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eFor example, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eNoPair\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eSix\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFive\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFour\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eThree\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTwo\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n       is not a valid HandValue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "HandValue",
           "package": "poker-eval",
@@ -455,6 +494,7 @@
         "index": {
           "description": "This structure represents the value of poker hand as high-level ADT The following must be true for HandValue to be valid All kickers must be in decending order No Rank may not occur twice The kickers may not construct higher-value hands For example NoPair Six Five Four Three Two is not valid HandValue",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "HandValue",
           "package": "poker-eval",
@@ -468,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Kicker",
           "package": "poker-eval",
@@ -476,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Kicker",
           "package": "poker-eval",
@@ -490,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIsomorphic to \u003ccode\u003e\u003ca\u003eHandValue\u003c/a\u003e\u003c/code\u003e but computed much more efficiently.\n\u003c/p\u003e\u003cp\u003eIf possible, this is the structure to use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "NumericalHandValue",
           "package": "poker-eval",
@@ -499,6 +542,7 @@
         "index": {
           "description": "Isomorphic to HandValue but computed much more efficiently If possible this is the structure to use",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "NumericalHandValue",
           "package": "poker-eval",
@@ -512,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Rank",
           "package": "poker-eval",
@@ -520,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Rank",
           "package": "poker-eval",
@@ -533,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Suit",
           "package": "poker-eval",
@@ -541,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Suit",
           "package": "poker-eval",
@@ -554,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Ace",
           "package": "poker-eval",
@@ -563,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Ace",
           "package": "poker-eval",
@@ -576,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Clubs",
           "package": "poker-eval",
@@ -585,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Clubs",
           "package": "poker-eval",
@@ -598,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Diamonds",
           "package": "poker-eval",
@@ -607,6 +660,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Diamonds",
           "package": "poker-eval",
@@ -620,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Eight",
           "package": "poker-eval",
@@ -629,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Eight",
           "package": "poker-eval",
@@ -642,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Five",
           "package": "poker-eval",
@@ -651,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Five",
           "package": "poker-eval",
@@ -664,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Flush",
           "package": "poker-eval",
@@ -673,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Flush",
           "package": "poker-eval",
@@ -686,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Four",
           "package": "poker-eval",
@@ -695,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Four",
           "package": "poker-eval",
@@ -708,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "FourOfAKind",
           "package": "poker-eval",
@@ -717,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "FourOfAKind",
           "package": "poker-eval",
@@ -730,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "FullHouse",
           "package": "poker-eval",
@@ -739,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "FullHouse",
           "package": "poker-eval",
@@ -752,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Hearts",
           "package": "poker-eval",
@@ -761,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Hearts",
           "package": "poker-eval",
@@ -774,6 +842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Jack",
           "package": "poker-eval",
@@ -783,6 +852,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Jack",
           "package": "poker-eval",
@@ -796,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "King",
           "package": "poker-eval",
@@ -805,6 +876,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "King",
           "package": "poker-eval",
@@ -818,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Nine",
           "package": "poker-eval",
@@ -827,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Nine",
           "package": "poker-eval",
@@ -840,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "NoPair",
           "package": "poker-eval",
@@ -849,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "NoPair",
           "package": "poker-eval",
@@ -862,6 +938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "OnePair",
           "package": "poker-eval",
@@ -871,6 +948,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "OnePair",
           "package": "poker-eval",
@@ -884,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Queen",
           "package": "poker-eval",
@@ -893,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Queen",
           "package": "poker-eval",
@@ -906,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Seven",
           "package": "poker-eval",
@@ -915,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Seven",
           "package": "poker-eval",
@@ -928,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Six",
           "package": "poker-eval",
@@ -937,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Six",
           "package": "poker-eval",
@@ -950,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Spades",
           "package": "poker-eval",
@@ -959,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Spades",
           "package": "poker-eval",
@@ -972,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Straight",
           "package": "poker-eval",
@@ -981,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Straight",
           "package": "poker-eval",
@@ -994,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "StraightFlush",
           "package": "poker-eval",
@@ -1003,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "StraightFlush",
           "package": "poker-eval",
@@ -1016,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Ten",
           "package": "poker-eval",
@@ -1025,6 +1116,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Ten",
           "package": "poker-eval",
@@ -1038,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Three",
           "package": "poker-eval",
@@ -1047,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Three",
           "package": "poker-eval",
@@ -1060,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "ThreeOfAKind",
           "package": "poker-eval",
@@ -1069,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "ThreeOfAKind",
           "package": "poker-eval",
@@ -1082,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "Two",
           "package": "poker-eval",
@@ -1091,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "Two",
           "package": "poker-eval",
@@ -1104,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "TwoPair",
           "package": "poker-eval",
@@ -1113,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "TwoPair",
           "package": "poker-eval",
@@ -1127,6 +1227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInspect the rank of a card.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "cardRank",
           "package": "poker-eval",
@@ -1137,6 +1238,7 @@
         "index": {
           "description": "Inspect the rank of card",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "cardRank",
           "normalized": "Card-\u003eRank",
@@ -1153,6 +1255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInspect the suit of a card.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "cardSuit",
           "package": "poker-eval",
@@ -1163,6 +1266,7 @@
         "index": {
           "description": "Inspect the suit of card",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "cardSuit",
           "normalized": "Card-\u003eSuit",
@@ -1179,6 +1283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n). Count the number of cards with a specific \u003ccode\u003e\u003ca\u003eRank\u003c/a\u003e\u003c/code\u003e in a set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "countRank",
           "package": "poker-eval",
@@ -1189,6 +1294,7 @@
         "index": {
           "description": "Count the number of cards with specific Rank in set",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "countRank",
           "normalized": "CardSet-\u003eRank-\u003eInt",
@@ -1205,6 +1311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n). Count the number of cards with a specific \u003ccode\u003e\u003ca\u003eSuit\u003c/a\u003e\u003c/code\u003e in a set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "countSuit",
           "package": "poker-eval",
@@ -1215,6 +1322,7 @@
         "index": {
           "description": "Count the number of cards with specific Suit in set",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "countSuit",
           "normalized": "CardSet-\u003eSuit-\u003eInt",
@@ -1231,6 +1339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). The empty set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "empty",
           "package": "poker-eval",
@@ -1241,6 +1350,7 @@
         "index": {
           "description": "The empty set",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "empty",
           "package": "poker-eval",
@@ -1254,6 +1364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a set of dead cards, enumerate over all possible selections of five cards.\n   The generated card sets do not contain the dead cards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "enumerateFiveCards",
           "package": "poker-eval",
@@ -1264,6 +1375,7 @@
         "index": {
           "description": "Given set of dead cards enumerate over all possible selections of five cards The generated card sets do not contain the dead cards",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "enumerateFiveCards",
           "normalized": "CardSet-\u003e(CardSet-\u003ea())-\u003ea()",
@@ -1280,6 +1392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict left-fold over all 5 card combinations excluding the dead cards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "foldlFiveCards",
           "package": "poker-eval",
@@ -1289,6 +1402,7 @@
         "index": {
           "description": "Strict left-fold over all card combinations excluding the dead cards",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "foldlFiveCards",
           "normalized": "(CardSet-\u003ea-\u003ea)-\u003ea-\u003eCardSet-\u003ea",
@@ -1305,6 +1419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict left-fold over all 4 card combinations excluding the dead cards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "foldlFourCards",
           "package": "poker-eval",
@@ -1314,6 +1429,7 @@
         "index": {
           "description": "Strict left-fold over all card combinations excluding the dead cards",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "foldlFourCards",
           "normalized": "(CardSet-\u003ea-\u003ea)-\u003ea-\u003eCardSet-\u003ea",
@@ -1330,6 +1446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict left-fold over all 1 card combinations excluding the dead cards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "foldlOneCard",
           "package": "poker-eval",
@@ -1339,6 +1456,7 @@
         "index": {
           "description": "Strict left-fold over all card combinations excluding the dead cards",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "foldlOneCard",
           "normalized": "(CardSet-\u003ea-\u003ea)-\u003ea-\u003eCardSet-\u003ea",
@@ -1355,6 +1473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict left-fold over all 7 card combinations excluding the dead cards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "foldlSevenCards",
           "package": "poker-eval",
@@ -1364,6 +1483,7 @@
         "index": {
           "description": "Strict left-fold over all card combinations excluding the dead cards",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "foldlSevenCards",
           "normalized": "(CardSet-\u003ea-\u003ea)-\u003ea-\u003eCardSet-\u003ea",
@@ -1380,6 +1500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict left-fold over all 3 card combinations excluding the dead cards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "foldlThreeCards",
           "package": "poker-eval",
@@ -1389,6 +1510,7 @@
         "index": {
           "description": "Strict left-fold over all card combinations excluding the dead cards",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "foldlThreeCards",
           "normalized": "(CardSet-\u003ea-\u003ea)-\u003ea-\u003eCardSet-\u003ea",
@@ -1405,6 +1527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict left-fold over all 2 card combinations excluding the dead cards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "foldlTwoCards",
           "package": "poker-eval",
@@ -1414,6 +1537,7 @@
         "index": {
           "description": "Strict left-fold over all card combinations excluding the dead cards",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "foldlTwoCards",
           "normalized": "(CardSet-\u003ea-\u003ea)-\u003ea-\u003eCardSet-\u003ea",
@@ -1430,6 +1554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n). Create a set from a list of cards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "fromList",
           "package": "poker-eval",
@@ -1440,6 +1565,7 @@
         "index": {
           "description": "Create set from list of cards",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "fromList",
           "normalized": "[Card]-\u003eCardSet",
@@ -1456,6 +1582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the strongest possible hand using the given cards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "handValue",
           "package": "poker-eval",
@@ -1465,6 +1592,7 @@
         "index": {
           "description": "Find the strongest possible hand using the given cards",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "handValue",
           "normalized": "CardSet-\u003eHandValue",
@@ -1481,6 +1609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the strongest possible hand using the given cards. This function is\n   significantly faster than \u003ccode\u003e\u003ca\u003ehandValue\u003c/a\u003e\u003c/code\u003e if the size of the card set\n   is constant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "handValue_n",
           "package": "poker-eval",
@@ -1490,6 +1619,7 @@
         "index": {
           "description": "Find the strongest possible hand using the given cards This function is significantly faster than handValue if the size of the card set is constant",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "handValue_n",
           "normalized": "Int-\u003eCardSet-\u003eHandValue",
@@ -1506,6 +1636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). The intersection of two sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "intersection",
           "package": "poker-eval",
@@ -1516,6 +1647,7 @@
         "index": {
           "description": "The intersection of two sets",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "intersection",
           "normalized": "CardSet-\u003eCardSet-\u003eCardSet",
@@ -1531,6 +1663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Find the inverse set such that \u003ccode\u003eset \u003ccode\u003e\u003ca\u003eintersection\u003c/a\u003e\u003c/code\u003e inverse = empty\u003c/code\u003e and\n   \u003ccode\u003eset \u003ccode\u003e\u003ca\u003eunion\u003c/a\u003e\u003c/code\u003e inverse set = fromList [minBound ..]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "inverse",
           "package": "poker-eval",
@@ -1541,6 +1674,7 @@
         "index": {
           "description": "Find the inverse set such that set intersection inverse empty and set union inverse set fromList minBound",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "inverse",
           "normalized": "CardSet-\u003eCardSet",
@@ -1556,6 +1690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Is this the empty set?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "isEmpty",
           "package": "poker-eval",
@@ -1566,6 +1701,7 @@
         "index": {
           "description": "Is this the empty set",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "isEmpty",
           "normalized": "CardSet-\u003eBool",
@@ -1582,6 +1718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue for all Flush hands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "isFlush",
           "package": "poker-eval",
@@ -1592,6 +1729,7 @@
         "index": {
           "description": "True for all Flush hands",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "isFlush",
           "normalized": "HandValue-\u003eBool",
@@ -1608,6 +1746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue for all FourOfAKind hands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "isFourOfAKind",
           "package": "poker-eval",
@@ -1618,6 +1757,7 @@
         "index": {
           "description": "True for all FourOfAKind hands",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "isFourOfAKind",
           "normalized": "HandValue-\u003eBool",
@@ -1634,6 +1774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue for all FullHouse hands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "isFullHouse",
           "package": "poker-eval",
@@ -1644,6 +1785,7 @@
         "index": {
           "description": "True for all FullHouse hands",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "isFullHouse",
           "normalized": "HandValue-\u003eBool",
@@ -1660,6 +1802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue for all NoPair hands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "isNoPair",
           "package": "poker-eval",
@@ -1670,6 +1813,7 @@
         "index": {
           "description": "True for all NoPair hands",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "isNoPair",
           "normalized": "HandValue-\u003eBool",
@@ -1686,6 +1830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue for all OnePair hands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "isOnePair",
           "package": "poker-eval",
@@ -1696,6 +1841,7 @@
         "index": {
           "description": "True for all OnePair hands",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "isOnePair",
           "normalized": "HandValue-\u003eBool",
@@ -1712,6 +1858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue for all Straight hands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "isStraight",
           "package": "poker-eval",
@@ -1722,6 +1869,7 @@
         "index": {
           "description": "True for all Straight hands",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "isStraight",
           "normalized": "HandValue-\u003eBool",
@@ -1738,6 +1886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue for all StraightFlush hands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "isStraightFlush",
           "package": "poker-eval",
@@ -1748,6 +1897,7 @@
         "index": {
           "description": "True for all StraightFlush hands",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "isStraightFlush",
           "normalized": "HandValue-\u003eBool",
@@ -1764,6 +1914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue for all ThreeOfAKind hands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "isThreeOfAKind",
           "package": "poker-eval",
@@ -1774,6 +1925,7 @@
         "index": {
           "description": "True for all ThreeOfAKind hands",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "isThreeOfAKind",
           "normalized": "HandValue-\u003eBool",
@@ -1790,6 +1942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue for all TwoPair hands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "isTwoPair",
           "package": "poker-eval",
@@ -1800,6 +1953,7 @@
         "index": {
           "description": "True for all TwoPair hands",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "isTwoPair",
           "normalized": "HandValue-\u003eBool",
@@ -1816,6 +1970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Is the card in the set?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "member",
           "package": "poker-eval",
@@ -1826,6 +1981,7 @@
         "index": {
           "description": "Is the card in the set",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "member",
           "normalized": "CardSet-\u003eCard-\u003eBool",
@@ -1841,6 +1997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a card with the given rank and suit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "mkCard",
           "package": "poker-eval",
@@ -1851,6 +2008,7 @@
         "index": {
           "description": "Construct card with the given rank and suit",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "mkCard",
           "normalized": "Rank-\u003eSuit-\u003eCard",
@@ -1867,6 +2025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the strongest possible hand using the given cards.\n\u003c/p\u003e\u003cp\u003eIt is significantly faster to compute a \u003ccode\u003e\u003ca\u003eNumericalHandValue\u003c/a\u003e\u003c/code\u003e than a\n   \u003ccode\u003e\u003ca\u003eHandValue\u003c/a\u003e\u003c/code\u003e. Use this function instead of \u003ccode\u003e\u003ca\u003ehandValue\u003c/a\u003e\u003c/code\u003e when possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "numericalHandValue",
           "package": "poker-eval",
@@ -1876,6 +2035,7 @@
         "index": {
           "description": "Find the strongest possible hand using the given cards It is significantly faster to compute NumericalHandValue than HandValue Use this function instead of handValue when possible",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "numericalHandValue",
           "normalized": "CardSet-\u003eNumericalHandValue",
@@ -1892,6 +2052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the strongest possible hand using the given cards. This function is\n   significantly faster than \u003ccode\u003e\u003ca\u003enumericalHandValue\u003c/a\u003e\u003c/code\u003e if the size of the card set\n   is constant.\n\u003c/p\u003e\u003cp\u003eIt is significantly faster to compute a \u003ccode\u003e\u003ca\u003eNumericalHandValue\u003c/a\u003e\u003c/code\u003e than a\n   \u003ccode\u003e\u003ca\u003eHandValue\u003c/a\u003e\u003c/code\u003e. Use this function instead of \u003ccode\u003e\u003ca\u003ehandValue_n\u003c/a\u003e\u003c/code\u003e when possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "numericalHandValue_n",
           "package": "poker-eval",
@@ -1901,6 +2062,7 @@
         "index": {
           "description": "Find the strongest possible hand using the given cards This function is significantly faster than numericalHandValue if the size of the card set is constant It is significantly faster to compute NumericalHandValue than HandValue Use this function instead of handValue when possible",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "numericalHandValue_n",
           "normalized": "Int-\u003eCardSet-\u003eNumericalHandValue",
@@ -1917,6 +2079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Create a singleton set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "singleton",
           "package": "poker-eval",
@@ -1927,6 +2090,7 @@
         "index": {
           "description": "Create singleton set",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "singleton",
           "normalized": "Card-\u003eCardSet",
@@ -1942,6 +2106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n). The number of cards in the set.\n\u003c/p\u003e\u003cp\u003ePerformance note: Try to avoid using this function in an inner loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "size",
           "package": "poker-eval",
@@ -1952,6 +2117,7 @@
         "index": {
           "description": "The number of cards in the set Performance note Try to avoid using this function in an inner loop",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "size",
           "normalized": "CardSet-\u003eInt",
@@ -1967,6 +2133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(n). Convert the set to a list of cards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "toList",
           "package": "poker-eval",
@@ -1977,6 +2144,7 @@
         "index": {
           "description": "Convert the set to list of cards",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "toList",
           "normalized": "CardSet-\u003e[Card]",
@@ -1993,6 +2161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). The union of two sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:52 UTC 2014",
           "module": "Data.Poker",
           "name": "union",
           "package": "poker-eval",
@@ -2003,6 +2172,7 @@
         "index": {
           "description": "The union of two sets",
           "hierarchy": "Data Poker",
+          "indexed": "2014-03-11T19:40:52",
           "module": "Data.Poker",
           "name": "union",
           "normalized": "CardSet-\u003eCardSet-\u003eCardSet",

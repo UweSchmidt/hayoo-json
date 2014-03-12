@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "profunctors"
+        "phrase": "profunctors",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Collage",
           "name": "Collage",
           "package": "profunctors",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor Collage",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Collage",
           "name": "Collage",
           "package": "profunctors",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe cograph of a \u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Collage",
           "name": "Collage",
           "package": "profunctors",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The cograph of Profunctor",
           "hierarchy": "Data Profunctor Collage",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Collage",
           "name": "Collage",
           "package": "profunctors",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Collage",
           "name": "C",
           "package": "profunctors",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor Collage",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Collage",
           "name": "C",
           "normalized": "a b c-\u003eCollage a(L b)(R c)",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Collage",
           "name": "L",
           "package": "profunctors",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor Collage",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Collage",
           "name": "L",
           "normalized": "(a-\u003eb)-\u003eCollage c(L a)(L b)",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Collage",
           "name": "R",
           "package": "profunctors",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor Collage",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Collage",
           "name": "R",
           "normalized": "(a-\u003eb)-\u003eCollage c(R a)(R b)",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Composition",
           "name": "Composition",
           "package": "profunctors",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor Composition",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Composition",
           "name": "Composition",
           "package": "profunctors",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eProcompose\u003c/a\u003e\u003c/code\u003e p q\u003c/code\u003e is the \u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e composition of the\n \u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003es \u003ccode\u003ep\u003c/code\u003e and \u003ccode\u003eq\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor a good explanation of \u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e composition in Haskell\n see Dan Piponi's article:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://blog.sigfpe.com/2011/07/profunctors-in-haskell.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Composition",
           "name": "Procompose",
           "package": "profunctors",
@@ -162,6 +175,7 @@
         "index": {
           "description": "Procompose is the Profunctor composition of the Profunctor and For good explanation of Profunctor composition in Haskell see Dan Piponi article http blog.sigfpe.com profunctors-in-haskell.html",
           "hierarchy": "Data Profunctor Composition",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Composition",
           "name": "Procompose",
           "package": "profunctors",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Composition",
           "name": "Procompose",
           "package": "profunctors",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor Composition",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Composition",
           "name": "Procompose",
           "normalized": "a b c-\u003ed c e-\u003eProcompose a d b e",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe associator for \u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e composition.\n\u003c/p\u003e\u003cp\u003eThis provides an \u003ccode\u003eIso\u003c/code\u003e for the \u003ccode\u003elens\u003c/code\u003e package that witnesses the\n isomorphism between \u003ccode\u003e\u003ccode\u003e\u003ca\u003eProcompose\u003c/a\u003e\u003c/code\u003e p (\u003ccode\u003e\u003ca\u003eProcompose\u003c/a\u003e\u003c/code\u003e q r) a b\u003c/code\u003e and\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eProcompose\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eProcompose\u003c/a\u003e\u003c/code\u003e p q) r a b\u003c/code\u003e, which arises because\n \u003ccode\u003eProf\u003c/code\u003e is only a bicategory, rather than a strict 2-category.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Composition",
           "name": "assoc",
           "package": "profunctors",
@@ -210,6 +227,7 @@
         "index": {
           "description": "The associator for Profunctor composition This provides an Iso for the lens package that witnesses the isomorphism between Procompose Procompose and Procompose Procompose which arises because Prof is only bicategory rather than strict category",
           "hierarchy": "Data Profunctor Composition",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Composition",
           "name": "assoc",
           "package": "profunctors",
@@ -223,6 +241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a variant on \u003ccode\u003e\u003ca\u003edownstars\u003c/a\u003e\u003c/code\u003e that uses \u003ccode\u003e\u003ca\u003eCokleisli\u003c/a\u003e\u003c/code\u003e instead\n of \u003ccode\u003e\u003ca\u003eDownStar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003ecokleislis\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e f =\u003e Iso' (\u003ccode\u003e\u003ca\u003eProcompose\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eCokleisli\u003c/a\u003e\u003c/code\u003e f) (\u003ccode\u003e\u003ca\u003eCokleisli\u003c/a\u003e\u003c/code\u003e g) d c) (\u003ccode\u003e\u003ca\u003eCokleisli\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eCompose\u003c/a\u003e\u003c/code\u003e g f) d c)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Composition",
           "name": "cokleislis",
           "package": "profunctors",
@@ -233,6 +252,7 @@
         "index": {
           "description": "This is variant on downstars that uses Cokleisli instead of DownStar cokleislis Functor Iso Procompose Cokleisli Cokleisli Cokleisli Compose",
           "hierarchy": "Data Profunctor Composition",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Composition",
           "name": "cokleislis",
           "package": "profunctors",
@@ -246,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e composition generalizes \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e composition in two ways.\n\u003c/p\u003e\u003cp\u003eThis is the second, which shows that \u003ccode\u003eexists b. (f a -\u003e b, g b -\u003e c)\u003c/code\u003e is\n isomorphic to \u003ccode\u003eg (f a) -\u003e c\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003edownstars\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e f =\u003e Iso' (\u003ccode\u003e\u003ca\u003eProcompose\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eDownStar\u003c/a\u003e\u003c/code\u003e f) (\u003ccode\u003e\u003ca\u003eDownStar\u003c/a\u003e\u003c/code\u003e g) d c) (\u003ccode\u003e\u003ca\u003eDownStar\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eCompose\u003c/a\u003e\u003c/code\u003e g f) d c)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Composition",
           "name": "downstars",
           "package": "profunctors",
@@ -256,6 +277,7 @@
         "index": {
           "description": "Profunctor composition generalizes Functor composition in two ways This is the second which shows that exists is isomorphic to downstars Functor Iso Procompose DownStar DownStar DownStar Compose",
           "hierarchy": "Data Profunctor Composition",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Composition",
           "name": "downstars",
           "package": "profunctors",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(-\u003e)\u003c/code\u003e functions as a lax identity for \u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e composition.\n\u003c/p\u003e\u003cp\u003eThis provides an \u003ccode\u003eIso\u003c/code\u003e for the \u003ccode\u003elens\u003c/code\u003e package that witnesses the\n isomorphism between \u003ccode\u003e\u003ccode\u003e\u003ca\u003eProcompose\u003c/a\u003e\u003c/code\u003e (-\u003e) q d c\u003c/code\u003e and \u003ccode\u003eq d c\u003c/code\u003e, which\n is the left identity law.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003eidl\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e q =\u003e Iso' (\u003ccode\u003e\u003ca\u003eProcompose\u003c/a\u003e\u003c/code\u003e (-\u003e) q d c) (q d c)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Composition",
           "name": "idl",
           "package": "profunctors",
@@ -279,6 +302,7 @@
         "index": {
           "description": "functions as lax identity for Profunctor composition This provides an Iso for the lens package that witnesses the isomorphism between Procompose and which is the left identity law idl Profunctor Iso Procompose",
           "hierarchy": "Data Profunctor Composition",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Composition",
           "name": "idl",
           "normalized": "Iso(Procompose(-\u003e)a b c)(Procompose(-\u003e)d e f)(a b c)(d e f)",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(-\u003e)\u003c/code\u003e functions as a lax identity for \u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e composition.\n\u003c/p\u003e\u003cp\u003eThis provides an \u003ccode\u003eIso\u003c/code\u003e for the \u003ccode\u003elens\u003c/code\u003e package that witnesses the\n isomorphism between \u003ccode\u003e\u003ccode\u003e\u003ca\u003eProcompose\u003c/a\u003e\u003c/code\u003e q (-\u003e) d c\u003c/code\u003e and \u003ccode\u003eq d c\u003c/code\u003e, which\n is the right identity law.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003eidr\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e q =\u003e Iso' (\u003ccode\u003e\u003ca\u003eProcompose\u003c/a\u003e\u003c/code\u003e q (-\u003e) d c) (q d c)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Composition",
           "name": "idr",
           "package": "profunctors",
@@ -304,6 +329,7 @@
         "index": {
           "description": "functions as lax identity for Profunctor composition This provides an Iso for the lens package that witnesses the isomorphism between Procompose and which is the right identity law idr Profunctor Iso Procompose",
           "hierarchy": "Data Profunctor Composition",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Composition",
           "name": "idr",
           "normalized": "Iso(Procompose a(-\u003e)b c)(Procompose d(-\u003e)e f)(a b c)(d e f)",
@@ -319,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a variant on \u003ccode\u003e\u003ca\u003eupstars\u003c/a\u003e\u003c/code\u003e that uses \u003ccode\u003e\u003ca\u003eKleisli\u003c/a\u003e\u003c/code\u003e instead of \u003ccode\u003e\u003ca\u003eUpStar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003ekleislis\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e f =\u003e Iso' (\u003ccode\u003e\u003ca\u003eProcompose\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eKleisli\u003c/a\u003e\u003c/code\u003e f) (\u003ccode\u003e\u003ca\u003eKleisli\u003c/a\u003e\u003c/code\u003e g) d c) (\u003ccode\u003e\u003ca\u003eKleisli\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eCompose\u003c/a\u003e\u003c/code\u003e f g) d c)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Composition",
           "name": "kleislis",
           "package": "profunctors",
@@ -329,6 +356,7 @@
         "index": {
           "description": "This is variant on upstars that uses Kleisli instead of UpStar kleislis Monad Iso Procompose Kleisli Kleisli Kleisli Compose",
           "hierarchy": "Data Profunctor Composition",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Composition",
           "name": "kleislis",
           "package": "profunctors",
@@ -341,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Composition",
           "name": "procomposed",
           "package": "profunctors",
@@ -350,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor Composition",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Composition",
           "name": "procomposed",
           "normalized": "Procompose a a b c-\u003ea b c",
@@ -365,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e composition generalizes \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e composition in two ways.\n\u003c/p\u003e\u003cp\u003eThis is the first, which shows that \u003ccode\u003eexists b. (a -\u003e f b, b -\u003e g c)\u003c/code\u003e is\n isomorphic to \u003ccode\u003ea -\u003e f (g c)\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eupstars\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e f =\u003e Iso' (\u003ccode\u003e\u003ca\u003eProcompose\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eUpStar\u003c/a\u003e\u003c/code\u003e f) (\u003ccode\u003e\u003ca\u003eUpStar\u003c/a\u003e\u003c/code\u003e g) d c) (\u003ccode\u003e\u003ca\u003eUpStar\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eCompose\u003c/a\u003e\u003c/code\u003e f g) d c)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Composition",
           "name": "upstars",
           "package": "profunctors",
@@ -375,6 +406,7 @@
         "index": {
           "description": "Profunctor composition generalizes Functor composition in two ways This is the first which shows that exists is isomorphic to upstars Functor Iso Procompose UpStar UpStar UpStar Compose",
           "hierarchy": "Data Profunctor Composition",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Composition",
           "name": "upstars",
           "package": "profunctors",
@@ -387,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Rep",
           "name": "Rep",
           "package": "profunctors",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor Rep",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Rep",
           "name": "Rep",
           "package": "profunctors",
@@ -409,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eCorepresentable\u003c/a\u003e\u003c/code\u003e if there exists a \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef\u003c/code\u003e such that\n \u003ccode\u003ep d c\u003c/code\u003e is isomorphic to \u003ccode\u003ef d -\u003e c\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Rep",
           "name": "Corepresentable",
           "package": "profunctors",
@@ -418,6 +453,7 @@
         "index": {
           "description": "Profunctor is Corepresentable if there exists Functor such that is isomorphic to",
           "hierarchy": "Data Profunctor Rep",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Rep",
           "name": "Corepresentable",
           "package": "profunctors",
@@ -432,6 +468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eRepresentable\u003c/a\u003e\u003c/code\u003e if there exists a \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef\u003c/code\u003e such that\n \u003ccode\u003ep d c\u003c/code\u003e is isomorphic to \u003ccode\u003ed -\u003e f c\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Rep",
           "name": "Representable",
           "package": "profunctors",
@@ -441,6 +478,7 @@
         "index": {
           "description": "Profunctor is Representable if there exists Functor such that is isomorphic to",
           "hierarchy": "Data Profunctor Rep",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Rep",
           "name": "Representable",
           "package": "profunctors",
@@ -454,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Rep",
           "name": "corep",
           "package": "profunctors",
@@ -463,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor Rep",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Rep",
           "name": "corep",
           "normalized": "a b c-\u003eCorep a b-\u003ec",
@@ -477,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Rep",
           "name": "cotabulate",
           "package": "profunctors",
@@ -486,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor Rep",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Rep",
           "name": "cotabulate",
           "normalized": "(Corep a b-\u003ec)-\u003ea b c",
@@ -501,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecotabulate\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ecorep\u003c/a\u003e\u003c/code\u003e form two halves of an isomorphism.\n\u003c/p\u003e\u003cp\u003eThis can be used with the combinators from the \u003ccode\u003elens\u003c/code\u003e package.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003etabulated\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eCorep\u003c/a\u003e\u003c/code\u003e f p =\u003e \u003ccode\u003eIso'\u003c/code\u003e (f d -\u003e c) (p d c)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Rep",
           "name": "cotabulated",
           "package": "profunctors",
@@ -511,6 +554,7 @@
         "index": {
           "description": "cotabulate and corep form two halves of an isomorphism This can be used with the combinators from the lens package tabulated Corep Iso",
           "hierarchy": "Data Profunctor Rep",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Rep",
           "name": "cotabulated",
           "normalized": "Iso(Corep a b-\u003ec)(Corep d e-\u003ef)(a b c)(d e f)",
@@ -525,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Rep",
           "name": "rep",
           "package": "profunctors",
@@ -534,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor Rep",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Rep",
           "name": "rep",
           "normalized": "a b c-\u003eb-\u003eRep a c",
@@ -548,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Rep",
           "name": "tabulate",
           "package": "profunctors",
@@ -557,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor Rep",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Rep",
           "name": "tabulate",
           "normalized": "(a-\u003eRep b c)-\u003eb a c",
@@ -572,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etabulate\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003erep\u003c/a\u003e\u003c/code\u003e form two halves of an isomorphism.\n\u003c/p\u003e\u003cp\u003eThis can be used with the combinators from the \u003ccode\u003elens\u003c/code\u003e package.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003etabulated\u003c/a\u003e\u003c/code\u003e :: \u003ccode\u003e\u003ca\u003eRepresentable\u003c/a\u003e\u003c/code\u003e p =\u003e \u003ccode\u003eIso'\u003c/code\u003e (d -\u003e \u003ccode\u003e\u003ca\u003eRep\u003c/a\u003e\u003c/code\u003e p c) (p d c)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Rep",
           "name": "tabulated",
           "package": "profunctors",
@@ -582,6 +631,7 @@
         "index": {
           "description": "tabulate and rep form two halves of an isomorphism This can be used with the combinators from the lens package tabulated Representable Iso Rep",
           "hierarchy": "Data Profunctor Rep",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Rep",
           "name": "tabulated",
           "normalized": "Iso(a-\u003eRep b c)(d-\u003eRep e f)(b a c)(e d f)",
@@ -596,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Rift",
           "name": "Rift",
           "package": "profunctors",
@@ -604,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor Rift",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Rift",
           "name": "Rift",
           "package": "profunctors",
@@ -618,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis represents the right Kan lift of a \u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eq\u003c/code\u003e along a \u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e in a limited version of the 2-category of Profunctors where the only object is the category Hask, 1-morphisms are profunctors composed and compose with Profunctor composition, and 2-morphisms are just natural transformations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Rift",
           "name": "Rift",
           "package": "profunctors",
@@ -627,6 +680,7 @@
         "index": {
           "description": "This represents the right Kan lift of Profunctor along Profunctor in limited version of the category of Profunctors where the only object is the category Hask morphisms are profunctors composed and compose with Profunctor composition and morphisms are just natural transformations",
           "hierarchy": "Data Profunctor Rift",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Rift",
           "name": "Rift",
           "package": "profunctors",
@@ -640,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Rift",
           "name": "Rift",
           "package": "profunctors",
@@ -649,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor Rift",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Rift",
           "name": "Rift",
           "package": "profunctors",
@@ -663,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe 2-morphism that defines a right Kan lift.\n\u003c/p\u003e\u003cp\u003eNote: When \u003ccode\u003ef\u003c/code\u003e is left adjoint to \u003ccode\u003e\u003ccode\u003e\u003ca\u003eRift\u003c/a\u003e\u003c/code\u003e f (-\u003e)\u003c/code\u003e then \u003ccode\u003e\u003ca\u003edecomposeRift\u003c/a\u003e\u003c/code\u003e is the \u003ccode\u003ecounit\u003c/code\u003e of the adjunction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Rift",
           "name": "decomposeRift",
           "package": "profunctors",
@@ -673,6 +730,7 @@
         "index": {
           "description": "The morphism that defines right Kan lift Note When is left adjoint to Rift then decomposeRift is the counit of the adjunction",
           "hierarchy": "Data Profunctor Rift",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Rift",
           "name": "decomposeRift",
           "normalized": "Procompose a(Rift a b)c d-\u003eb c d",
@@ -688,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Rift",
           "name": "precomposeRift",
           "package": "profunctors",
@@ -697,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor Rift",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Rift",
           "name": "precomposeRift",
           "normalized": "Procompose(Rift a(-\u003e))b c d-\u003eRift a b c d",
@@ -712,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Rift",
           "name": "runRift",
           "package": "profunctors",
@@ -721,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor Rift",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Rift",
           "name": "runRift",
           "normalized": "a b c d e-\u003ef d g",
@@ -736,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Trace",
           "name": "Trace",
           "package": "profunctors",
@@ -744,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor Trace",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Trace",
           "name": "Trace",
           "package": "profunctors",
@@ -758,6 +822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoend of \u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003eHask -\u003e Hask\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Trace",
           "name": "Trace",
           "package": "profunctors",
@@ -767,6 +832,7 @@
         "index": {
           "description": "Coend of Profunctor from Hask Hask",
           "hierarchy": "Data Profunctor Trace",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Trace",
           "name": "Trace",
           "package": "profunctors",
@@ -780,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Trace",
           "name": "Trace",
           "package": "profunctors",
@@ -789,6 +856,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor Trace",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Trace",
           "name": "Trace",
           "normalized": "a b b-\u003eTrace a",
@@ -805,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFor a good explanation of profunctors in Haskell see Dan Piponi's article:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://blog.sigfpe.com/2011/07/profunctors-in-haskell.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eThis module includes \u003cem\u003eunsafe\u003c/em\u003e composition operators that are useful in\n practice when it comes to generating optimal core in GHC.\n\u003c/p\u003e\u003cp\u003eIf you import this module you are taking upon yourself the obligation\n that you will only call the operators with \u003ccode\u003e#\u003c/code\u003e in their names with functions\n that are operationally identity such as \u003ccode\u003enewtype\u003c/code\u003e constructors or the field\n accessor of a \u003ccode\u003enewtype\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf you are ever in doubt, use \u003ccode\u003e\u003ca\u003ermap\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003elmap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Unsafe",
           "name": "Unsafe",
           "package": "profunctors",
@@ -814,6 +883,7 @@
         "index": {
           "description": "For good explanation of profunctors in Haskell see Dan Piponi article http blog.sigfpe.com profunctors-in-haskell.html This module includes unsafe composition operators that are useful in practice when it comes to generating optimal core in GHC If you import this module you are taking upon yourself the obligation that you will only call the operators with in their names with functions that are operationally identity such as newtype constructors or the field accessor of newtype If you are ever in doubt use rmap or lmap",
           "hierarchy": "Data Profunctor Unsafe",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Unsafe",
           "name": "Unsafe",
           "package": "profunctors",
@@ -828,6 +898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormally, the class \u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e represents a profunctor\n from \u003ccode\u003eHask\u003c/code\u003e -\u003e \u003ccode\u003eHask\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIntuitively it is a bifunctor where the first argument is contravariant\n and the second argument is covariant.\n\u003c/p\u003e\u003cp\u003eYou can define a \u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e by either defining \u003ccode\u003e\u003ca\u003edimap\u003c/a\u003e\u003c/code\u003e or by defining both\n \u003ccode\u003e\u003ca\u003elmap\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ermap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf you supply \u003ccode\u003e\u003ca\u003edimap\u003c/a\u003e\u003c/code\u003e, you should ensure that:\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003edimap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e &#8801; \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003cp\u003eIf you supply \u003ccode\u003e\u003ca\u003elmap\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ermap\u003c/a\u003e\u003c/code\u003e, ensure:\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003elmap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e &#8801; \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\n \u003ccode\u003e\u003ca\u003ermap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e &#8801; \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eIf you supply both, you should also ensure:\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003edimap\u003c/a\u003e\u003c/code\u003e f g &#8801; \u003ccode\u003e\u003ca\u003elmap\u003c/a\u003e\u003c/code\u003e f \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ermap\u003c/a\u003e\u003c/code\u003e g\u003c/pre\u003e\u003cp\u003eThese ensure by parametricity:\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003edimap\u003c/a\u003e\u003c/code\u003e (f \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e g) (h \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e i) &#8801; \u003ccode\u003e\u003ca\u003edimap\u003c/a\u003e\u003c/code\u003e g h \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edimap\u003c/a\u003e\u003c/code\u003e f i\n \u003ccode\u003e\u003ca\u003elmap\u003c/a\u003e\u003c/code\u003e (f \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e g) &#8801; \u003ccode\u003e\u003ca\u003elmap\u003c/a\u003e\u003c/code\u003e g \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003elmap\u003c/a\u003e\u003c/code\u003e f\n \u003ccode\u003e\u003ca\u003ermap\u003c/a\u003e\u003c/code\u003e (f \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e g) &#8801; \u003ccode\u003e\u003ca\u003ermap\u003c/a\u003e\u003c/code\u003e f \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ermap\u003c/a\u003e\u003c/code\u003e g\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Unsafe",
           "name": "Profunctor",
           "package": "profunctors",
@@ -837,6 +908,7 @@
         "index": {
           "description": "Formally the class Profunctor represents profunctor from Hask Hask Intuitively it is bifunctor where the first argument is contravariant and the second argument is covariant You can define Profunctor by either defining dimap or by defining both lmap and rmap If you supply dimap you should ensure that dimap id id id If you supply lmap and rmap ensure lmap id id rmap id id If you supply both you should also ensure dimap lmap rmap These ensure by parametricity dimap dimap dimap lmap lmap lmap rmap rmap rmap",
           "hierarchy": "Data Profunctor Unsafe",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Unsafe",
           "name": "Profunctor",
           "package": "profunctors",
@@ -851,6 +923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrictly map the second argument argument\n covariantly with a function that is assumed\n operationally to be a cast, such as a newtype\n constructor.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote:\u003c/em\u003e This operation is explicitly \u003cem\u003eunsafe\u003c/em\u003e\n since an implementation may choose to use\n \u003ccode\u003e\u003ca\u003eunsafeCoerce\u003c/a\u003e\u003c/code\u003e to implement this combinator\n and it has no way to validate that your function\n meets the requirements.\n\u003c/p\u003e\u003cp\u003eIf you implement this combinator with\n \u003ccode\u003e\u003ca\u003eunsafeCoerce\u003c/a\u003e\u003c/code\u003e, then you are taking upon yourself\n the obligation that you don't use GADT-like\n tricks to distinguish values.\n\u003c/p\u003e\u003cp\u003eIf you import \u003ca\u003eData.Profunctor.Unsafe\u003c/a\u003e you are\n taking upon yourself the obligation that you\n will only call this with a first argument that is\n operationally identity.\n\u003c/p\u003e\u003cp\u003eThe semantics of this function with respect to bottoms\n should match the default definition:\n\u003c/p\u003e\u003cpre\u003e(\u003ccode\u003e\u003ca\u003e#.\u003c/a\u003e\u003c/code\u003e) &#8801; \\f -\u003e \\p -\u003e p `seq` \u003ccode\u003e\u003ca\u003ermap\u003c/a\u003e\u003c/code\u003e f p\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Unsafe",
           "name": "(#.)",
           "package": "profunctors",
@@ -861,6 +934,7 @@
         "index": {
           "description": "Strictly map the second argument argument covariantly with function that is assumed operationally to be cast such as newtype constructor Note This operation is explicitly unsafe since an implementation may choose to use unsafeCoerce to implement this combinator and it has no way to validate that your function meets the requirements If you implement this combinator with unsafeCoerce then you are taking upon yourself the obligation that you don use GADT-like tricks to distinguish values If you import Data.Profunctor.Unsafe you are taking upon yourself the obligation that you will only call this with first argument that is operationally identity The semantics of this function with respect to bottoms should match the default definition seq rmap",
           "hierarchy": "Data Profunctor Unsafe",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Unsafe",
           "name": "(#.) #.",
           "normalized": "(a-\u003eb)-\u003ec d a-\u003ec d b",
@@ -876,6 +950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrictly map the first argument argument\n contravariantly with a function that is assumed\n operationally to be a cast, such as a newtype\n constructor.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote:\u003c/em\u003e This operation is explicitly \u003cem\u003eunsafe\u003c/em\u003e\n since an implementation may choose to use\n \u003ccode\u003e\u003ca\u003eunsafeCoerce\u003c/a\u003e\u003c/code\u003e to implement this combinator\n and it has no way to validate that your function\n meets the requirements.\n\u003c/p\u003e\u003cp\u003eIf you implement this combinator with\n \u003ccode\u003e\u003ca\u003eunsafeCoerce\u003c/a\u003e\u003c/code\u003e, then you are taking upon yourself\n the obligation that you don't use GADT-like\n tricks to distinguish values.\n\u003c/p\u003e\u003cp\u003eIf you import \u003ca\u003eData.Profunctor.Unsafe\u003c/a\u003e you are\n taking upon yourself the obligation that you\n will only call this with a second argument that is\n operationally identity.\n\u003c/p\u003e\u003cpre\u003e(\u003ccode\u003e\u003ca\u003e.#\u003c/a\u003e\u003c/code\u003e) &#8801; \\p -\u003e p `seq` \\f -\u003e \u003ccode\u003e\u003ca\u003elmap\u003c/a\u003e\u003c/code\u003e f p\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Unsafe",
           "name": "(.#)",
           "package": "profunctors",
@@ -886,6 +961,7 @@
         "index": {
           "description": "Strictly map the first argument argument contravariantly with function that is assumed operationally to be cast such as newtype constructor Note This operation is explicitly unsafe since an implementation may choose to use unsafeCoerce to implement this combinator and it has no way to validate that your function meets the requirements If you implement this combinator with unsafeCoerce then you are taking upon yourself the obligation that you don use GADT-like tricks to distinguish values If you import Data.Profunctor.Unsafe you are taking upon yourself the obligation that you will only call this with second argument that is operationally identity seq lmap",
           "hierarchy": "Data Profunctor Unsafe",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Unsafe",
           "name": "(.#) .#",
           "normalized": "a b c-\u003e(d-\u003eb)-\u003ea d c",
@@ -901,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap over both arguments at the same time.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003edimap\u003c/a\u003e\u003c/code\u003e f g &#8801; \u003ccode\u003e\u003ca\u003elmap\u003c/a\u003e\u003c/code\u003e f \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ermap\u003c/a\u003e\u003c/code\u003e g\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Unsafe",
           "name": "dimap",
           "package": "profunctors",
@@ -911,6 +988,7 @@
         "index": {
           "description": "Map over both arguments at the same time dimap lmap rmap",
           "hierarchy": "Data Profunctor Unsafe",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Unsafe",
           "name": "dimap",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003ee b c-\u003ee a d",
@@ -926,6 +1004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap the first argument contravariantly.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003elmap\u003c/a\u003e\u003c/code\u003e f &#8801; \u003ccode\u003e\u003ca\u003edimap\u003c/a\u003e\u003c/code\u003e f \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Unsafe",
           "name": "lmap",
           "package": "profunctors",
@@ -936,6 +1015,7 @@
         "index": {
           "description": "Map the first argument contravariantly lmap dimap id",
           "hierarchy": "Data Profunctor Unsafe",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Unsafe",
           "name": "lmap",
           "normalized": "(a-\u003eb)-\u003ec b d-\u003ec a d",
@@ -951,6 +1031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap the second argument covariantly.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003ermap\u003c/a\u003e\u003c/code\u003e &#8801; \u003ccode\u003e\u003ca\u003edimap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor.Unsafe",
           "name": "rmap",
           "package": "profunctors",
@@ -961,6 +1042,7 @@
         "index": {
           "description": "Map the second argument covariantly rmap dimap id",
           "hierarchy": "Data Profunctor Unsafe",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor.Unsafe",
           "name": "rmap",
           "normalized": "(a-\u003eb)-\u003ec d a-\u003ec d b",
@@ -976,6 +1058,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFor a good explanation of profunctors in Haskell see Dan Piponi's article:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://blog.sigfpe.com/2011/07/profunctors-in-haskell.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eFor more information on strength and costrength, see:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://comonad.com/reader/2008/deriving-strength-from-laziness/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "Profunctor",
           "package": "profunctors",
@@ -985,6 +1068,7 @@
         "index": {
           "description": "For good explanation of profunctors in Haskell see Dan Piponi article http blog.sigfpe.com profunctors-in-haskell.html For more information on strength and costrength see http comonad.com reader deriving-strength-from-laziness",
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "Profunctor",
           "package": "profunctors",
@@ -999,6 +1083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe generalization of \u003ccode\u003e\u003ca\u003eDownStar\u003c/a\u003e\u003c/code\u003e of a \"costrong\" \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003eleft'\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eright'\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote:\u003c/em\u003e We use \u003ccode\u003e\u003ca\u003etraverse\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eextract\u003c/a\u003e\u003c/code\u003e as approximate costrength as needed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "Choice",
           "package": "profunctors",
@@ -1008,6 +1093,7 @@
         "index": {
           "description": "The generalization of DownStar of costrong Functor Minimal complete definition left or right Note We use traverse and extract as approximate costrength as needed",
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "Choice",
           "package": "profunctors",
@@ -1022,6 +1108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e (backwards).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "DownStar",
           "package": "profunctors",
@@ -1031,6 +1118,7 @@
         "index": {
           "description": "Lift Functor into Profunctor backwards",
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "DownStar",
           "package": "profunctors",
@@ -1044,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "Forget",
           "package": "profunctors",
@@ -1052,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "Forget",
           "package": "profunctors",
@@ -1066,6 +1156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormally, the class \u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e represents a profunctor\n from \u003ccode\u003eHask\u003c/code\u003e -\u003e \u003ccode\u003eHask\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIntuitively it is a bifunctor where the first argument is contravariant\n and the second argument is covariant.\n\u003c/p\u003e\u003cp\u003eYou can define a \u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e by either defining \u003ccode\u003e\u003ca\u003edimap\u003c/a\u003e\u003c/code\u003e or by defining both\n \u003ccode\u003e\u003ca\u003elmap\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ermap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf you supply \u003ccode\u003e\u003ca\u003edimap\u003c/a\u003e\u003c/code\u003e, you should ensure that:\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003edimap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e &#8801; \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003cp\u003eIf you supply \u003ccode\u003e\u003ca\u003elmap\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ermap\u003c/a\u003e\u003c/code\u003e, ensure:\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003elmap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e &#8801; \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\n \u003ccode\u003e\u003ca\u003ermap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e &#8801; \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e\u003cp\u003eIf you supply both, you should also ensure:\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003edimap\u003c/a\u003e\u003c/code\u003e f g &#8801; \u003ccode\u003e\u003ca\u003elmap\u003c/a\u003e\u003c/code\u003e f \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ermap\u003c/a\u003e\u003c/code\u003e g\u003c/pre\u003e\u003cp\u003eThese ensure by parametricity:\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003edimap\u003c/a\u003e\u003c/code\u003e (f \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e g) (h \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e i) &#8801; \u003ccode\u003e\u003ca\u003edimap\u003c/a\u003e\u003c/code\u003e g h \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edimap\u003c/a\u003e\u003c/code\u003e f i\n \u003ccode\u003e\u003ca\u003elmap\u003c/a\u003e\u003c/code\u003e (f \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e g) &#8801; \u003ccode\u003e\u003ca\u003elmap\u003c/a\u003e\u003c/code\u003e g \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003elmap\u003c/a\u003e\u003c/code\u003e f\n \u003ccode\u003e\u003ca\u003ermap\u003c/a\u003e\u003c/code\u003e (f \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e g) &#8801; \u003ccode\u003e\u003ca\u003ermap\u003c/a\u003e\u003c/code\u003e f \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ermap\u003c/a\u003e\u003c/code\u003e g\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "Profunctor",
           "package": "profunctors",
@@ -1075,6 +1166,7 @@
         "index": {
           "description": "Formally the class Profunctor represents profunctor from Hask Hask Intuitively it is bifunctor where the first argument is contravariant and the second argument is covariant You can define Profunctor by either defining dimap or by defining both lmap and rmap If you supply dimap you should ensure that dimap id id id If you supply lmap and rmap ensure lmap id id rmap id id If you supply both you should also ensure dimap lmap rmap These ensure by parametricity dimap dimap dimap lmap lmap lmap rmap rmap rmap",
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "Profunctor",
           "package": "profunctors",
@@ -1089,6 +1181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralizing upstar of a strong \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003efirst'\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003esecond'\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote:\u003c/em\u003e Every \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e in Haskell is strong.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://takeichi.ipl-lab.org/~asada/papers/arrStrMnd.pdf\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "Strong",
           "package": "profunctors",
@@ -1098,6 +1191,7 @@
         "index": {
           "description": "Generalizing upstar of strong Functor Minimal complete definition first or second Note Every Functor in Haskell is strong http takeichi.ipl-lab.org asada papers arrStrMnd.pdf",
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "Strong",
           "package": "profunctors",
@@ -1112,6 +1206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e (forwards).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "UpStar",
           "package": "profunctors",
@@ -1121,6 +1216,7 @@
         "index": {
           "description": "Lift Functor into Profunctor forwards",
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "UpStar",
           "package": "profunctors",
@@ -1135,6 +1231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap an arrow for use as a \u003ccode\u003e\u003ca\u003eProfunctor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "WrappedArrow",
           "package": "profunctors",
@@ -1144,6 +1241,7 @@
         "index": {
           "description": "Wrap an arrow for use as Profunctor",
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "WrappedArrow",
           "package": "profunctors",
@@ -1157,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "DownStar",
           "package": "profunctors",
@@ -1166,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "DownStar",
           "package": "profunctors",
@@ -1179,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "Forget",
           "package": "profunctors",
@@ -1188,6 +1289,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "Forget",
           "package": "profunctors",
@@ -1201,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "UpStar",
           "package": "profunctors",
@@ -1210,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "UpStar",
           "package": "profunctors",
@@ -1223,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "WrapArrow",
           "package": "profunctors",
@@ -1232,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "WrapArrow",
           "package": "profunctors",
@@ -1246,6 +1352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap over both arguments at the same time.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003edimap\u003c/a\u003e\u003c/code\u003e f g &#8801; \u003ccode\u003e\u003ca\u003elmap\u003c/a\u003e\u003c/code\u003e f \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ermap\u003c/a\u003e\u003c/code\u003e g\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "dimap",
           "package": "profunctors",
@@ -1256,6 +1363,7 @@
         "index": {
           "description": "Map over both arguments at the same time dimap lmap rmap",
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "dimap",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003ee b c-\u003ee a d",
@@ -1270,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "first'",
           "package": "profunctors",
@@ -1279,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "first'",
           "normalized": "a b c-\u003ea(b,d)(c,d)",
@@ -1293,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "left'",
           "package": "profunctors",
@@ -1302,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "left'",
           "normalized": "a b c-\u003ea(Either b d)(Either c d)",
@@ -1317,6 +1429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap the first argument contravariantly.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003elmap\u003c/a\u003e\u003c/code\u003e f &#8801; \u003ccode\u003e\u003ca\u003edimap\u003c/a\u003e\u003c/code\u003e f \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "lmap",
           "package": "profunctors",
@@ -1327,6 +1440,7 @@
         "index": {
           "description": "Map the first argument contravariantly lmap dimap id",
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "lmap",
           "normalized": "(a-\u003eb)-\u003ec b d-\u003ec a d",
@@ -1341,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "right'",
           "package": "profunctors",
@@ -1350,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "right'",
           "normalized": "a b c-\u003ea(Either d b)(Either d c)",
@@ -1365,6 +1481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap the second argument covariantly.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003ermap\u003c/a\u003e\u003c/code\u003e &#8801; \u003ccode\u003e\u003ca\u003edimap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "rmap",
           "package": "profunctors",
@@ -1375,6 +1492,7 @@
         "index": {
           "description": "Map the second argument covariantly rmap dimap id",
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "rmap",
           "normalized": "(a-\u003eb)-\u003ec d a-\u003ec d b",
@@ -1389,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "runDownStar",
           "package": "profunctors",
@@ -1398,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "runDownStar",
           "normalized": "a b-\u003ec",
@@ -1413,6 +1533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "runForget",
           "package": "profunctors",
@@ -1422,6 +1543,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "runForget",
           "normalized": "a-\u003eb",
@@ -1437,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "runUpStar",
           "package": "profunctors",
@@ -1446,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "runUpStar",
           "normalized": "a-\u003eb c",
@@ -1461,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "second'",
           "package": "profunctors",
@@ -1470,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "second'",
           "normalized": "a b c-\u003ea(d,b)(d,c)",
@@ -1484,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:57 UTC 2014",
           "module": "Data.Profunctor",
           "name": "unwrapArrow",
           "package": "profunctors",
@@ -1493,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Data Profunctor",
+          "indexed": "2014-03-11T19:44:57",
           "module": "Data.Profunctor",
           "name": "unwrapArrow",
           "package": "profunctors",

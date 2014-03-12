@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "alsa-gui"
+        "phrase": "alsa-gui",
+        "type": "phrase"
       },
       "type": "context"
     }

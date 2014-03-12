@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "parco-parsec"
+        "phrase": "parco-parsec",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e instance for \u003ccode\u003eParsecT\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:30 UTC 2014",
           "module": "Text.Parco.Parsec",
           "name": "Parsec",
           "package": "parco-parsec",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Parser instance for ParsecT",
           "hierarchy": "Text Parco Parsec",
+          "indexed": "2014-03-11T19:34:30",
           "module": "Text.Parco.Parsec",
           "name": "Parsec",
           "package": "parco-parsec",

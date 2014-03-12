@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "keter"
+        "phrase": "keter",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHandles allocation of temporary directories and unpacking of bundles into\n them. Sets owner and group of all created files and directories as\n necessary.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Codec.Archive.TempTarball",
           "name": "TempTarball",
           "package": "keter",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Handles allocation of temporary directories and unpacking of bundles into them Sets owner and group of all created files and directories as necessary",
           "hierarchy": "Codec Archive TempTarball",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Codec.Archive.TempTarball",
           "name": "TempTarball",
           "package": "keter",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Codec.Archive.TempTarball",
           "name": "TempFolder",
           "package": "keter",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Codec Archive TempTarball",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Codec.Archive.TempTarball",
           "name": "TempFolder",
           "package": "keter",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Codec.Archive.TempTarball",
           "name": "setup",
           "package": "keter",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Codec Archive TempTarball",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Codec.Archive.TempTarball",
           "name": "setup",
           "normalized": "FilePath-\u003eIO TempFolder",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Codec.Archive.TempTarball",
           "name": "unpackTempTar",
           "package": "keter",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Codec Archive TempTarball",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Codec.Archive.TempTarball",
           "name": "unpackTempTar",
           "normalized": "Maybe(UserID,GroupID)-\u003eTempFolder-\u003eFilePath-\u003eText-\u003e(FilePath-\u003eIO a)-\u003eIO a",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for dealing with YAML config files which contain relative file\n paths.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Data.Yaml.FilePath",
           "name": "FilePath",
           "package": "keter",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Utilities for dealing with YAML config files which contain relative file paths",
           "hierarchy": "Data Yaml FilePath",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Data.Yaml.FilePath",
           "name": "FilePath",
           "package": "keter",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe directory from which we're reading the config file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Data.Yaml.FilePath",
           "name": "BaseDir",
           "package": "keter",
@@ -141,6 +152,7 @@
         "index": {
           "description": "The directory from which we re reading the config file",
           "hierarchy": "Data Yaml FilePath",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Data.Yaml.FilePath",
           "name": "BaseDir",
           "package": "keter",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Data.Yaml.FilePath",
           "name": "NonEmptyVector",
           "package": "keter",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml FilePath",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Data.Yaml.FilePath",
           "name": "NonEmptyVector",
           "package": "keter",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA replacement for the standard \u003ccode\u003eFromJSON\u003c/code\u003e typeclass which can handle relative filepaths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Data.Yaml.FilePath",
           "name": "ParseYamlFile",
           "package": "keter",
@@ -185,6 +200,7 @@
         "index": {
           "description": "replacement for the standard FromJSON typeclass which can handle relative filepaths",
           "hierarchy": "Data Yaml FilePath",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Data.Yaml.FilePath",
           "name": "ParseYamlFile",
           "package": "keter",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Data.Yaml.FilePath",
           "name": "NonEmptyVector",
           "package": "keter",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml FilePath",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Data.Yaml.FilePath",
           "name": "NonEmptyVector",
           "package": "keter",
@@ -221,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a config file, using the \u003ccode\u003e\u003ca\u003eParseYamlFile\u003c/a\u003e\u003c/code\u003e typeclass.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Data.Yaml.FilePath",
           "name": "decodeFileRelative",
           "package": "keter",
@@ -231,6 +250,7 @@
         "index": {
           "description": "Parse config file using the ParseYamlFile typeclass",
           "hierarchy": "Data Yaml FilePath",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Data.Yaml.FilePath",
           "name": "decodeFileRelative",
           "normalized": "FilePath-\u003eIO(Either ParseException a)",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA replacement for the \u003ccode\u003e.:\u003c/code\u003e operator which will both parse a file path and\n apply the relative file logic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Data.Yaml.FilePath",
           "name": "lookupBase",
           "package": "keter",
@@ -257,6 +278,7 @@
         "index": {
           "description": "replacement for the operator which will both parse file path and apply the relative file logic",
           "hierarchy": "Data Yaml FilePath",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Data.Yaml.FilePath",
           "name": "lookupBase",
           "normalized": "BaseDir-\u003eObject-\u003eText-\u003eParser a",
@@ -273,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA replacement for the \u003ccode\u003e.:?\u003c/code\u003e operator which will both parse a file path and\n apply the relative file logic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Data.Yaml.FilePath",
           "name": "lookupBaseMaybe",
           "package": "keter",
@@ -283,6 +306,7 @@
         "index": {
           "description": "replacement for the operator which will both parse file path and apply the relative file logic",
           "hierarchy": "Data Yaml FilePath",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Data.Yaml.FilePath",
           "name": "lookupBaseMaybe",
           "normalized": "BaseDir-\u003eObject-\u003eText-\u003eParser(Maybe a)",
@@ -298,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Data.Yaml.FilePath",
           "name": "parseYamlFile",
           "package": "keter",
@@ -307,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml FilePath",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Data.Yaml.FilePath",
           "name": "parseYamlFile",
           "normalized": "BaseDir-\u003eValue-\u003eParser a",
@@ -322,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.App",
           "name": "App",
           "package": "keter",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Keter App",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.App",
           "name": "App",
           "package": "keter",
@@ -343,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.App",
           "name": "App",
           "package": "keter",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Keter App",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.App",
           "name": "App",
           "package": "keter",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.App",
           "name": "AppStartConfig",
           "package": "keter",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Keter App",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.App",
           "name": "AppStartConfig",
           "package": "keter",
@@ -385,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.App",
           "name": "AppStartConfig",
           "package": "keter",
@@ -394,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Keter App",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.App",
           "name": "AppStartConfig",
           "package": "keter",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.App",
           "name": "ascHostManager",
           "package": "keter",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Keter App",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.App",
           "name": "ascHostManager",
           "package": "keter",
@@ -429,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.App",
           "name": "ascKeterConfig",
           "package": "keter",
@@ -438,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Keter App",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.App",
           "name": "ascKeterConfig",
           "package": "keter",
@@ -451,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.App",
           "name": "ascLog",
           "package": "keter",
@@ -460,6 +499,7 @@
         },
         "index": {
           "hierarchy": "Keter App",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.App",
           "name": "ascLog",
           "normalized": "(LogMessage-\u003eIO())",
@@ -475,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.App",
           "name": "ascPlugins",
           "package": "keter",
@@ -484,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Keter App",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.App",
           "name": "ascPlugins",
           "package": "keter",
@@ -497,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.App",
           "name": "ascPortPool",
           "package": "keter",
@@ -506,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Keter App",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.App",
           "name": "ascPortPool",
           "package": "keter",
@@ -519,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.App",
           "name": "ascProcessTracker",
           "package": "keter",
@@ -528,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Keter App",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.App",
           "name": "ascProcessTracker",
           "package": "keter",
@@ -541,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.App",
           "name": "ascSetuid",
           "package": "keter",
@@ -550,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Keter App",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.App",
           "name": "ascSetuid",
           "normalized": "(Maybe(Text,(UserID,GroupID)))",
@@ -565,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.App",
           "name": "ascTempFolder",
           "package": "keter",
@@ -574,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Keter App",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.App",
           "name": "ascTempFolder",
           "package": "keter",
@@ -588,6 +638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the modification time of the bundle file this app was launched from,\n if relevant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.App",
           "name": "getTimestamp",
           "package": "keter",
@@ -598,6 +649,7 @@
         "index": {
           "description": "Get the modification time of the bundle file this app was launched from if relevant",
           "hierarchy": "Keter App",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.App",
           "name": "getTimestamp",
           "normalized": "App-\u003eSTM(Maybe EpochTime)",
@@ -613,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.App",
           "name": "reload",
           "package": "keter",
@@ -622,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Keter App",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.App",
           "name": "reload",
           "normalized": "App-\u003eAppInput-\u003eIO()",
@@ -636,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.App",
           "name": "start",
           "package": "keter",
@@ -645,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Keter App",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.App",
           "name": "start",
           "normalized": "AppStartConfig-\u003eAppId-\u003eAppInput-\u003eIO App",
@@ -659,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.App",
           "name": "terminate",
           "package": "keter",
@@ -668,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Keter App",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.App",
           "name": "terminate",
           "normalized": "App-\u003eIO()",
@@ -683,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUsed for management of applications.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.AppManager",
           "name": "AppManager",
           "package": "keter",
@@ -692,6 +751,7 @@
         "index": {
           "description": "Used for management of applications",
           "hierarchy": "Keter AppManager",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.AppManager",
           "name": "AppManager",
           "package": "keter",
@@ -705,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.AppManager",
           "name": "Action",
           "package": "keter",
@@ -713,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Keter AppManager",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.AppManager",
           "name": "Action",
           "package": "keter",
@@ -726,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.AppManager",
           "name": "AppManager",
           "package": "keter",
@@ -734,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Keter AppManager",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.AppManager",
           "name": "AppManager",
           "package": "keter",
@@ -747,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.AppManager",
           "name": "Reload",
           "package": "keter",
@@ -756,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Keter AppManager",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.AppManager",
           "name": "Reload",
           "package": "keter",
@@ -769,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.AppManager",
           "name": "Terminate",
           "package": "keter",
@@ -778,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Keter AppManager",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.AppManager",
           "name": "Terminate",
           "package": "keter",
@@ -791,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.AppManager",
           "name": "addApp",
           "package": "keter",
@@ -800,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Keter AppManager",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.AppManager",
           "name": "addApp",
           "normalized": "AppManager-\u003eFilePath-\u003eIO()",
@@ -815,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.AppManager",
           "name": "initialize",
           "package": "keter",
@@ -824,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Keter AppManager",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.AppManager",
           "name": "initialize",
           "normalized": "(LogMessage-\u003eIO())-\u003eAppStartConfig-\u003eIO AppManager",
@@ -838,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.AppManager",
           "name": "perform",
           "package": "keter",
@@ -847,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Keter AppManager",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.AppManager",
           "name": "perform",
           "normalized": "AppManager-\u003eAppId-\u003eAction-\u003eIO()",
@@ -862,6 +936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset which apps are running.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Any app not listed here that is currently running will be terminated.\n\u003c/li\u003e\u003cli\u003e Any app listed here that is currently running will be reloaded.\n\u003c/li\u003e\u003cli\u003e Any app listed here that is not currently running will be started.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.AppManager",
           "name": "reloadAppList",
           "package": "keter",
@@ -872,6 +947,7 @@
         "index": {
           "description": "Reset which apps are running Any app not listed here that is currently running will be terminated Any app listed here that is currently running will be reloaded Any app listed here that is not currently running will be started",
           "hierarchy": "Keter AppManager",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.AppManager",
           "name": "reloadAppList",
           "normalized": "AppManager-\u003eMap Appname(FilePath,EpochTime)-\u003eIO()",
@@ -887,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.AppManager",
           "name": "terminateApp",
           "package": "keter",
@@ -896,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Keter AppManager",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.AppManager",
           "name": "terminateApp",
           "normalized": "AppManager-\u003eAppname-\u003eIO()",
@@ -911,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.HostManager",
           "name": "HostManager",
           "package": "keter",
@@ -919,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Keter HostManager",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.HostManager",
           "name": "HostManager",
           "package": "keter",
@@ -932,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.HostManager",
           "name": "HostManager",
           "package": "keter",
@@ -940,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Keter HostManager",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.HostManager",
           "name": "HostManager",
           "package": "keter",
@@ -953,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.HostManager",
           "name": "Reservations",
           "package": "keter",
@@ -961,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Keter HostManager",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.HostManager",
           "name": "Reservations",
           "package": "keter",
@@ -975,6 +1059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActivate a new app. Note that you \u003cem\u003emust\u003c/em\u003e first reserve the hostnames you'll be using.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.HostManager",
           "name": "activateApp",
           "package": "keter",
@@ -985,6 +1070,7 @@
         "index": {
           "description": "Activate new app Note that you must first reserve the hostnames you ll be using",
           "hierarchy": "Keter HostManager",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.HostManager",
           "name": "activateApp",
           "normalized": "(LogMessage-\u003eIO())-\u003eHostManager-\u003eAppId-\u003eMap Host ProxyAction-\u003eIO()",
@@ -1000,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.HostManager",
           "name": "deactivateApp",
           "package": "keter",
@@ -1009,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Keter HostManager",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.HostManager",
           "name": "deactivateApp",
           "normalized": "(LogMessage-\u003eIO())-\u003eHostManager-\u003eAppId-\u003eSet Host-\u003eIO()",
@@ -1025,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForget previously made reservations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.HostManager",
           "name": "forgetReservations",
           "package": "keter",
@@ -1035,6 +1124,7 @@
         "index": {
           "description": "Forget previously made reservations",
           "hierarchy": "Keter HostManager",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.HostManager",
           "name": "forgetReservations",
           "normalized": "(LogMessage-\u003eIO())-\u003eHostManager-\u003eAppId-\u003eReservations-\u003eIO()",
@@ -1050,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.HostManager",
           "name": "lookupAction",
           "package": "keter",
@@ -1059,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Keter HostManager",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.HostManager",
           "name": "lookupAction",
           "normalized": "HostManager-\u003eHostBS-\u003eIO(Maybe ProxyAction)",
@@ -1074,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.HostManager",
           "name": "reactivateApp",
           "package": "keter",
@@ -1083,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Keter HostManager",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.HostManager",
           "name": "reactivateApp",
           "normalized": "(LogMessage-\u003eIO())-\u003eHostManager-\u003eAppId-\u003eMap Host ProxyAction-\u003eSet Host-\u003eIO()",
@@ -1099,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReserve the given hosts so that no other application may use them. Does\n not yet enable any action. The semantics are:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e If a requested host is currently actively used or by an app of the same name, it is\n    considered reserved.\n\u003c/li\u003e\u003cli\u003e If a requested host is currently reserved by an app of the same name, it\n    is considered an error in calling this API. Only one app reservation can\n    happen at a time.\n\u003c/li\u003e\u003cli\u003e If any requested host is currently used or reserved by an app with a\n    different name, then those values are returned as \u003ccode\u003eLeft\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Otherwise, the hosts which were reserved are returned as \u003ccode\u003eRight\u003c/code\u003e. This\n    does \u003cem\u003enot\u003c/em\u003e include previously active hosts.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.HostManager",
           "name": "reserveHosts",
           "package": "keter",
@@ -1109,6 +1204,7 @@
         "index": {
           "description": "Reserve the given hosts so that no other application may use them Does not yet enable any action The semantics are If requested host is currently actively used or by an app of the same name it is considered reserved If requested host is currently reserved by an app of the same name it is considered an error in calling this API Only one app reservation can happen at time If any requested host is currently used or reserved by an app with different name then those values are returned as Left Otherwise the hosts which were reserved are returned as Right This does not include previously active hosts",
           "hierarchy": "Keter HostManager",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.HostManager",
           "name": "reserveHosts",
           "normalized": "(LogMessage-\u003eIO())-\u003eHostManager-\u003eAppId-\u003eSet Host-\u003eIO Reservations",
@@ -1124,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.HostManager",
           "name": "start",
           "package": "keter",
@@ -1133,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Keter HostManager",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.HostManager",
           "name": "start",
           "package": "keter",
@@ -1145,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.LabelMap",
           "name": "LabelMap",
           "package": "keter",
@@ -1153,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Keter LabelMap",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.LabelMap",
           "name": "LabelMap",
           "package": "keter",
@@ -1167,6 +1267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure for storing a hierarchical set of domain labels\n from TLD down, supporting wildcards.\n\u003c/p\u003e\u003cp\u003eData structure is mutually recursive with \u003ccode\u003eLabelEntry\u003c/code\u003e, and each level\n of the tree supports a static assignment for a hostname such as:\n\u003c/p\u003e\u003cpre\u003e  example.com\n\u003c/pre\u003e\u003cp\u003eOr a wildcard assignment for a hostname such as:\n\u003c/p\u003e\u003cpre\u003e  *.example.com\n\u003c/pre\u003e\u003cp\u003eOr a wildcard assignment with a set of teptions, for example:\n\u003c/p\u003e\u003cpre\u003e  *.example.com\n  admin.example.com\n\u003c/pre\u003e\u003cp\u003eAnd lastly, empty labels are supported so that, of course, an assignment\n for example.com does not necessarily have any subdomains available. As an example\n suppose we have the following assigned domains:\n\u003c/p\u003e\u003cpre\u003e          example.com\n      foo.example.com\n    *.bar.example.com\n    *.qux.example.com\n  baz.qux.example.com\n\u003c/pre\u003e\u003cp\u003eThis will resolve to the following value, with some loose pseudocode notation.\n\u003c/p\u003e\u003cpre\u003e  Static (map)\n    'com' -\u003e Unassigned Static (map)\n      'example' -\u003e Assigned a (map)\n         'foo'  -\u003e Assigned a EmptyLabelMap\n         'bar'  -\u003e Unassigned (Wildcard (Assigned a EmptyLabelMap)\n         'qux'  -\u003e Unassigned (WildcardExcept (Assigned a (map)))\n           'baz' -\u003e Assigned a EmptyLabelMap\n\u003c/pre\u003e\u003cp\u003eNote that the hostname \u003ca\u003ebar.example.com\u003c/a\u003e is unassigned, only the wildcard was set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.LabelMap",
           "name": "LabelMap",
           "package": "keter",
@@ -1176,6 +1277,7 @@
         "index": {
           "description": "data structure for storing hierarchical set of domain labels from TLD down supporting wildcards Data structure is mutually recursive with LabelEntry and each level of the tree supports static assignment for hostname such as example.com Or wildcard assignment for hostname such as example.com Or wildcard assignment with set of teptions for example example.com admin.example.com And lastly empty labels are supported so that of course an assignment for example.com does not necessarily have any subdomains available As an example suppose we have the following assigned domains example.com foo.example.com bar.example.com qux.example.com baz.qux.example.com This will resolve to the following value with some loose pseudocode notation Static map com Unassigned Static map example Assigned map foo Assigned EmptyLabelMap bar Unassigned Wildcard Assigned EmptyLabelMap qux Unassigned WildcardExcept Assigned map baz Assigned EmptyLabelMap Note that the hostname bar.example.com is unassigned only the wildcard was set",
           "hierarchy": "Keter LabelMap",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.LabelMap",
           "name": "LabelMap",
           "package": "keter",
@@ -1189,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.LabelMap",
           "name": "delete",
           "package": "keter",
@@ -1198,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Keter LabelMap",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.LabelMap",
           "name": "delete",
           "normalized": "ByteString-\u003eLabelMap a-\u003eLabelMap a",
@@ -1212,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.LabelMap",
           "name": "empty",
           "package": "keter",
@@ -1221,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Keter LabelMap",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.LabelMap",
           "name": "empty",
           "package": "keter",
@@ -1233,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.LabelMap",
           "name": "insert",
           "package": "keter",
@@ -1242,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Keter LabelMap",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.LabelMap",
           "name": "insert",
           "normalized": "ByteString-\u003ea-\u003eLabelMap a-\u003eLabelMap a",
@@ -1256,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.LabelMap",
           "name": "labelAssigned",
           "package": "keter",
@@ -1265,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "Keter LabelMap",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.LabelMap",
           "name": "labelAssigned",
           "normalized": "ByteString-\u003eLabelMap a-\u003eBool",
@@ -1280,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.LabelMap",
           "name": "lookup",
           "package": "keter",
@@ -1289,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Keter LabelMap",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.LabelMap",
           "name": "lookup",
           "normalized": "ByteString-\u003eLabelMap a-\u003eMaybe a",
@@ -1303,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Main",
           "name": "Main",
           "package": "keter",
@@ -1311,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "Keter Main",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Main",
           "name": "Main",
           "package": "keter",
@@ -1324,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Main",
           "name": "keter",
           "package": "keter",
@@ -1332,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Keter Main",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Main",
           "name": "keter",
           "normalized": "FilePath-\u003e[FilePath-\u003eIO Plugin]-\u003eIO()",
@@ -1346,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Plugin.Postgres",
           "name": "Postgres",
           "package": "keter",
@@ -1354,6 +1471,7 @@
         },
         "index": {
           "hierarchy": "Keter Plugin Postgres",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Plugin.Postgres",
           "name": "Postgres",
           "package": "keter",
@@ -1367,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Plugin.Postgres",
           "name": "Settings",
           "package": "keter",
@@ -1375,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Keter Plugin Postgres",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Plugin.Postgres",
           "name": "Settings",
           "package": "keter",
@@ -1389,6 +1509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a set of existing connections from a config file. If the file does\n not exist, it will be created. Any newly created databases will\n automatically be saved to this file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Plugin.Postgres",
           "name": "load",
           "package": "keter",
@@ -1399,6 +1520,7 @@
         "index": {
           "description": "Load set of existing connections from config file If the file does not exist it will be created Any newly created databases will automatically be saved to this file",
           "hierarchy": "Keter Plugin Postgres",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Plugin.Postgres",
           "name": "load",
           "normalized": "Settings-\u003eFilePath-\u003eIO Plugin",
@@ -1414,6 +1536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to create the given user/database. Default: uses the \u003ccode\u003epsql\u003c/code\u003e\n command line tool and \u003ccode\u003esudo -u postgres\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Plugin.Postgres",
           "name": "setupDBInfo",
           "package": "keter",
@@ -1424,6 +1547,7 @@
         "index": {
           "description": "How to create the given user database Default uses the psql command line tool and sudo postgres",
           "hierarchy": "Keter Plugin Postgres",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Plugin.Postgres",
           "name": "setupDBInfo",
           "normalized": "Settings-\u003eDBInfo-\u003eIO()",
@@ -1440,6 +1564,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eManages a pool of available ports and allocates them.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.PortPool",
           "name": "PortPool",
           "package": "keter",
@@ -1449,6 +1574,7 @@
         "index": {
           "description": "Manages pool of available ports and allocates them",
           "hierarchy": "Keter PortPool",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.PortPool",
           "name": "PortPool",
           "package": "keter",
@@ -1462,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.PortPool",
           "name": "PortPool",
           "package": "keter",
@@ -1470,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "Keter PortPool",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.PortPool",
           "name": "PortPool",
           "package": "keter",
@@ -1484,6 +1612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets an unassigned port number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.PortPool",
           "name": "getPort",
           "package": "keter",
@@ -1494,6 +1623,7 @@
         "index": {
           "description": "Gets an unassigned port number",
           "hierarchy": "Keter PortPool",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.PortPool",
           "name": "getPort",
           "normalized": "(LogMessage-\u003eIO())-\u003ePortPool-\u003eIO(Either SomeException Port)",
@@ -1510,6 +1640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a port to the recycled collection of the pool.  Note that recycling\n puts the new ports at the end of the queue (FIFO), so that if an application\n holds onto the port longer than expected, there should be no issues.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.PortPool",
           "name": "releasePort",
           "package": "keter",
@@ -1520,6 +1651,7 @@
         "index": {
           "description": "Return port to the recycled collection of the pool Note that recycling puts the new ports at the end of the queue FIFO so that if an application holds onto the port longer than expected there should be no issues",
           "hierarchy": "Keter PortPool",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.PortPool",
           "name": "releasePort",
           "normalized": "PortPool-\u003ePort-\u003eIO()",
@@ -1535,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.PortPool",
           "name": "start",
           "package": "keter",
@@ -1544,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "Keter PortPool",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.PortPool",
           "name": "start",
           "normalized": "PortSettings-\u003eIO PortPool",
@@ -1559,6 +1693,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA light-weight, minimalistic reverse HTTP proxy.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Proxy",
           "name": "Proxy",
           "package": "keter",
@@ -1568,6 +1703,7 @@
         "index": {
           "description": "light-weight minimalistic reverse HTTP proxy",
           "hierarchy": "Keter Proxy",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Proxy",
           "name": "Proxy",
           "package": "keter",
@@ -1582,6 +1718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMapping from virtual hostname to port number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Proxy",
           "name": "HostLookup",
           "package": "keter",
@@ -1591,6 +1728,7 @@
         "index": {
           "description": "Mapping from virtual hostname to port number",
           "hierarchy": "Keter Proxy",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Proxy",
           "name": "HostLookup",
           "package": "keter",
@@ -1604,6 +1742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Proxy",
           "name": "TLSConfig",
           "package": "keter",
@@ -1612,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "Keter Proxy",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Proxy",
           "name": "TLSConfig",
           "package": "keter",
@@ -1648,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Proxy",
           "name": "reverseProxy",
           "package": "keter",
@@ -1657,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Keter Proxy",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Proxy",
           "name": "reverseProxy",
           "normalized": "Bool-\u003eManager-\u003eHostLookup-\u003eListeningPort-\u003eIO()",
@@ -1672,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "Common",
           "package": "keter",
@@ -1680,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "Common",
           "package": "keter",
@@ -1693,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "AppId",
           "package": "keter",
@@ -1701,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "AppId",
           "package": "keter",
@@ -1715,6 +1861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the application. Should just be the basename of the application\n file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "Appname",
           "package": "keter",
@@ -1724,6 +1871,7 @@
         "index": {
           "description": "Name of the application Should just be the basename of the application file",
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "Appname",
           "package": "keter",
@@ -1738,6 +1886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space-efficient representation of a Word8 vector, supporting many\n efficient operations.  A \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e contains 8-bit characters only.\n\u003c/p\u003e\u003cp\u003eInstances of Eq, Ord, Read, Show, Data, Typeable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "ByteString",
           "package": "keter",
@@ -1746,6 +1895,7 @@
         "index": {
           "description": "space-efficient representation of Word8 vector supporting many efficient operations ByteString contains bit characters only Instances of Eq Ord Read Show Data Typeable",
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "ByteString",
           "package": "keter",
@@ -1760,6 +1910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny type that you wish to throw or catch as an exception must be an\ninstance of the \u003ccode\u003eException\u003c/code\u003e class. The simplest case is a new exception\ntype directly below the root:\n\u003c/p\u003e\u003cpre\u003e data MyException = ThisException | ThatException\n     deriving (Show, Typeable)\n\n instance Exception MyException\n\u003c/pre\u003e\u003cp\u003eThe default method definitions in the \u003ccode\u003eException\u003c/code\u003e class do what we need\nin this case. You can now throw and catch \u003ccode\u003eThisException\u003c/code\u003e and\n\u003ccode\u003eThatException\u003c/code\u003e as exceptions:\n\u003c/p\u003e\u003cpre\u003e\n*Main\u003e throw ThisException `catch` \\e -\u003e putStrLn (\"Caught \" ++ show (e :: MyException))\nCaught ThisException\n\u003c/pre\u003e\u003cp\u003eIn more complicated examples, you may wish to define a whole hierarchy\nof exceptions:\n\u003c/p\u003e\u003cpre\u003e ---------------------------------------------------------------------\n -- Make the root exception type for all the exceptions in a compiler\n\n data SomeCompilerException = forall e . Exception e =\u003e SomeCompilerException e\n     deriving Typeable\n\n instance Show SomeCompilerException where\n     show (SomeCompilerException e) = show e\n\n instance Exception SomeCompilerException\n\n compilerExceptionToException :: Exception e =\u003e e -\u003e SomeException\n compilerExceptionToException = toException . SomeCompilerException\n\n compilerExceptionFromException :: Exception e =\u003e SomeException -\u003e Maybe e\n compilerExceptionFromException x = do\n     SomeCompilerException a \u003c- fromException x\n     cast a\n\n ---------------------------------------------------------------------\n -- Make a subhierarchy for exceptions in the frontend of the compiler\n\n data SomeFrontendException = forall e . Exception e =\u003e SomeFrontendException e\n     deriving Typeable\n\n instance Show SomeFrontendException where\n     show (SomeFrontendException e) = show e\n\n instance Exception SomeFrontendException where\n     toException = compilerExceptionToException\n     fromException = compilerExceptionFromException\n\n frontendExceptionToException :: Exception e =\u003e e -\u003e SomeException\n frontendExceptionToException = toException . SomeFrontendException\n\n frontendExceptionFromException :: Exception e =\u003e SomeException -\u003e Maybe e\n frontendExceptionFromException x = do\n     SomeFrontendException a \u003c- fromException x\n     cast a\n\n ---------------------------------------------------------------------\n -- Make an exception type for a particular frontend compiler exception\n\n data MismatchedParentheses = MismatchedParentheses\n     deriving (Typeable, Show)\n\n instance Exception MismatchedParentheses where\n     toException   = frontendExceptionToException\n     fromException = frontendExceptionFromException\n\u003c/pre\u003e\u003cp\u003eWe can now catch a \u003ccode\u003eMismatchedParentheses\u003c/code\u003e exception as\n\u003ccode\u003eMismatchedParentheses\u003c/code\u003e, \u003ccode\u003eSomeFrontendException\u003c/code\u003e or\n\u003ccode\u003eSomeCompilerException\u003c/code\u003e, but not other types, e.g. \u003ccode\u003eIOException\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e\n*Main\u003e throw MismatchedParentheses \u003ccode\u003ecatch\u003c/code\u003e e -\u003e putStrLn (\"Caught \" ++ show (e :: MismatchedParentheses))\nCaught MismatchedParentheses\n*Main\u003e throw MismatchedParentheses \u003ccode\u003ecatch\u003c/code\u003e e -\u003e putStrLn (\"Caught \" ++ show (e :: SomeFrontendException))\nCaught MismatchedParentheses\n*Main\u003e throw MismatchedParentheses \u003ccode\u003ecatch\u003c/code\u003e e -\u003e putStrLn (\"Caught \" ++ show (e :: SomeCompilerException))\nCaught MismatchedParentheses\n*Main\u003e throw MismatchedParentheses \u003ccode\u003ecatch\u003c/code\u003e e -\u003e putStrLn (\"Caught \" ++ show (e :: IOException))\n*** Exception: MismatchedParentheses\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "Exception",
           "package": "keter",
@@ -1768,6 +1919,7 @@
         "index": {
           "description": "Any type that you wish to throw or catch as an exception must be an instance of the Exception class The simplest case is new exception type directly below the root data MyException ThisException ThatException deriving Show Typeable instance Exception MyException The default method definitions in the Exception class do what we need in this case You can now throw and catch ThisException and ThatException as exceptions Main throw ThisException catch putStrLn Caught show MyException Caught ThisException In more complicated examples you may wish to define whole hierarchy of exceptions Make the root exception type for all the exceptions in compiler data SomeCompilerException forall Exception SomeCompilerException deriving Typeable instance Show SomeCompilerException where show SomeCompilerException show instance Exception SomeCompilerException compilerExceptionToException Exception SomeException compilerExceptionToException toException SomeCompilerException compilerExceptionFromException Exception SomeException Maybe compilerExceptionFromException do SomeCompilerException fromException cast Make subhierarchy for exceptions in the frontend of the compiler data SomeFrontendException forall Exception SomeFrontendException deriving Typeable instance Show SomeFrontendException where show SomeFrontendException show instance Exception SomeFrontendException where toException compilerExceptionToException fromException compilerExceptionFromException frontendExceptionToException Exception SomeException frontendExceptionToException toException SomeFrontendException frontendExceptionFromException Exception SomeException Maybe frontendExceptionFromException do SomeFrontendException fromException cast Make an exception type for particular frontend compiler exception data MismatchedParentheses MismatchedParentheses deriving Typeable Show instance Exception MismatchedParentheses where toException frontendExceptionToException fromException frontendExceptionFromException We can now catch MismatchedParentheses exception as MismatchedParentheses SomeFrontendException or SomeCompilerException but not other types e.g IOException Main throw MismatchedParentheses catch putStrLn Caught show MismatchedParentheses Caught MismatchedParentheses Main throw MismatchedParentheses catch putStrLn Caught show SomeFrontendException Caught MismatchedParentheses Main throw MismatchedParentheses catch putStrLn Caught show SomeCompilerException Caught MismatchedParentheses Main throw MismatchedParentheses catch putStrLn Caught show IOException Exception MismatchedParentheses",
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "Exception",
           "package": "keter",
@@ -1781,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "FilePath",
           "package": "keter",
@@ -1788,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "FilePath",
           "package": "keter",
@@ -1802,6 +1956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA virtual host we want to serve content from.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "Host",
           "package": "keter",
@@ -1811,6 +1966,7 @@
         "index": {
           "description": "virtual host we want to serve content from",
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "Host",
           "package": "keter",
@@ -1824,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "HostBS",
           "package": "keter",
@@ -1832,6 +1989,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "HostBS",
           "package": "keter",
@@ -1845,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "KeterException",
           "package": "keter",
@@ -1853,6 +2012,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "KeterException",
           "package": "keter",
@@ -1866,6 +2026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "LogMessage",
           "package": "keter",
@@ -1874,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "LogMessage",
           "package": "keter",
@@ -1888,6 +2050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Map from keys \u003ccode\u003ek\u003c/code\u003e to values \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "Map",
           "package": "keter",
@@ -1896,6 +2059,7 @@
         "index": {
           "description": "Map from keys to values",
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "Map",
           "package": "keter",
@@ -1909,6 +2073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "Plugin",
           "package": "keter",
@@ -1917,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "Plugin",
           "package": "keter",
@@ -1930,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "Plugins",
           "package": "keter",
@@ -1938,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "Plugins",
           "package": "keter",
@@ -1952,6 +2120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA port for an individual app to listen on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "Port",
           "package": "keter",
@@ -1961,6 +2130,7 @@
         "index": {
           "description": "port for an individual app to listen on",
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "Port",
           "package": "keter",
@@ -1975,6 +2145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of values \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "Set",
           "package": "keter",
@@ -1983,6 +2154,7 @@
         "index": {
           "description": "set of values",
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "Set",
           "package": "keter",
@@ -1997,6 +2169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eSomeException\u003c/code\u003e type is the root of the exception type hierarchy.\nWhen an exception of type \u003ccode\u003ee\u003c/code\u003e is thrown, behind the scenes it is\nencapsulated in a \u003ccode\u003eSomeException\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "SomeException",
           "package": "keter",
@@ -2005,6 +2178,7 @@
         "index": {
           "description": "The SomeException type is the root of the exception type hierarchy When an exception of type is thrown behind the scenes it is encapsulated in SomeException",
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "SomeException",
           "package": "keter",
@@ -2019,6 +2193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space efficient, packed, unboxed Unicode text type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "Text",
           "package": "keter",
@@ -2027,6 +2202,7 @@
         "index": {
           "description": "space efficient packed unboxed Unicode text type",
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "Text",
           "package": "keter",
@@ -2041,6 +2217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed for versioning data types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "ToCurrent",
           "package": "keter",
@@ -2050,6 +2227,7 @@
         "index": {
           "description": "Used for versioning data types",
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "ToCurrent",
           "package": "keter",
@@ -2063,6 +2241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "AIBuiltin",
           "package": "keter",
@@ -2072,6 +2251,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "AIBuiltin",
           "package": "keter",
@@ -2085,6 +2265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "AINamed",
           "package": "keter",
@@ -2094,6 +2275,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "AINamed",
           "package": "keter",
@@ -2107,6 +2289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "ActivatingApp",
           "package": "keter",
@@ -2116,6 +2299,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "ActivatingApp",
           "package": "keter",
@@ -2129,6 +2313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "CannotParsePostgres",
           "package": "keter",
@@ -2138,6 +2323,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "CannotParsePostgres",
           "package": "keter",
@@ -2151,6 +2337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "CannotReserveHosts",
           "package": "keter",
@@ -2160,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "CannotReserveHosts",
           "package": "keter",
@@ -2173,6 +2361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "DeactivatingApp",
           "package": "keter",
@@ -2182,6 +2371,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "DeactivatingApp",
           "package": "keter",
@@ -2195,6 +2385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "ErrorStartingBundle",
           "package": "keter",
@@ -2204,6 +2395,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "ErrorStartingBundle",
           "package": "keter",
@@ -2217,6 +2409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "ExceptionThrown",
           "package": "keter",
@@ -2226,6 +2419,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "ExceptionThrown",
           "package": "keter",
@@ -2239,6 +2433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "ExecutableNotFound",
           "package": "keter",
@@ -2248,6 +2443,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "ExecutableNotFound",
           "package": "keter",
@@ -2261,6 +2457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "ExitCodeFailure",
           "package": "keter",
@@ -2270,6 +2467,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "ExitCodeFailure",
           "package": "keter",
@@ -2283,6 +2481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "FileNotExecutable",
           "package": "keter",
@@ -2292,6 +2491,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "FileNotExecutable",
           "package": "keter",
@@ -2305,6 +2505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "FinishedReloading",
           "package": "keter",
@@ -2314,6 +2515,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "FinishedReloading",
           "package": "keter",
@@ -2327,6 +2529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "ForgetingReservations",
           "package": "keter",
@@ -2336,6 +2539,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "ForgetingReservations",
           "package": "keter",
@@ -2349,6 +2553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "InvalidBundle",
           "package": "keter",
@@ -2358,6 +2563,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "InvalidBundle",
           "package": "keter",
@@ -2371,6 +2577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "InvalidConfigFile",
           "package": "keter",
@@ -2380,6 +2587,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "InvalidConfigFile",
           "package": "keter",
@@ -2393,6 +2601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "InvalidKeterConfigFile",
           "package": "keter",
@@ -2402,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "InvalidKeterConfigFile",
           "package": "keter",
@@ -2415,6 +2625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "NoPortsAvailable",
           "package": "keter",
@@ -2424,6 +2635,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "NoPortsAvailable",
           "package": "keter",
@@ -2437,6 +2649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "OtherMessage",
           "package": "keter",
@@ -2446,6 +2659,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "OtherMessage",
           "package": "keter",
@@ -2459,6 +2673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "Plugin",
           "package": "keter",
@@ -2468,6 +2683,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "Plugin",
           "package": "keter",
@@ -2481,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "ProcessCreated",
           "package": "keter",
@@ -2490,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "ProcessCreated",
           "package": "keter",
@@ -2503,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "ProcessDidNotStart",
           "package": "keter",
@@ -2512,6 +2731,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "ProcessDidNotStart",
           "package": "keter",
@@ -2525,6 +2745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "ProcessWaiting",
           "package": "keter",
@@ -2534,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "ProcessWaiting",
           "package": "keter",
@@ -2547,6 +2769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "ReactivatingApp",
           "package": "keter",
@@ -2556,6 +2779,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "ReactivatingApp",
           "package": "keter",
@@ -2569,6 +2793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "ReceivedInotifyEvent",
           "package": "keter",
@@ -2578,6 +2803,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "ReceivedInotifyEvent",
           "package": "keter",
@@ -2591,6 +2817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "RemovingOldFolder",
           "package": "keter",
@@ -2600,6 +2827,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "RemovingOldFolder",
           "package": "keter",
@@ -2613,6 +2841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "RemovingPort",
           "package": "keter",
@@ -2622,6 +2851,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "RemovingPort",
           "package": "keter",
@@ -2635,6 +2865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "ReservingHosts",
           "package": "keter",
@@ -2644,6 +2875,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "ReservingHosts",
           "package": "keter",
@@ -2657,6 +2889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "SanityChecksPassed",
           "package": "keter",
@@ -2666,6 +2899,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "SanityChecksPassed",
           "package": "keter",
@@ -2679,6 +2913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "TerminatingApp",
           "package": "keter",
@@ -2688,6 +2923,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "TerminatingApp",
           "package": "keter",
@@ -2701,6 +2937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "TerminatingOldProcess",
           "package": "keter",
@@ -2710,6 +2947,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "TerminatingOldProcess",
           "package": "keter",
@@ -2723,6 +2961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "UnpackingBundle",
           "package": "keter",
@@ -2732,6 +2971,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "UnpackingBundle",
           "package": "keter",
@@ -2745,6 +2985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "WatchedFile",
           "package": "keter",
@@ -2754,6 +2995,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "WatchedFile",
           "package": "keter",
@@ -2767,6 +3009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "getAppname",
           "package": "keter",
@@ -2776,6 +3019,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "getAppname",
           "normalized": "FilePath-\u003eText",
@@ -2791,6 +3035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "logEx",
           "package": "keter",
@@ -2800,6 +3045,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "logEx",
           "package": "keter",
@@ -2813,6 +3059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "pluginGetEnv",
           "package": "keter",
@@ -2822,6 +3069,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "pluginGetEnv",
           "normalized": "Appname-\u003eObject-\u003eIO[(Text,Text)]",
@@ -2837,6 +3085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.Common",
           "name": "toCurrent",
           "package": "keter",
@@ -2846,6 +3095,7 @@
         },
         "index": {
           "hierarchy": "Keter Types Common",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.Common",
           "name": "toCurrent",
           "normalized": "Previous a-\u003ea",
@@ -2862,6 +3112,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLegacy types from Keter version 0.4. Retained to keep backwards\n compatibility in config file format.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "V04",
           "package": "keter",
@@ -2871,6 +3122,7 @@
         "index": {
           "description": "Legacy types from Keter version Retained to keep backwards compatibility in config file format",
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "V04",
           "package": "keter",
@@ -2883,6 +3135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "AppConfig",
           "package": "keter",
@@ -2891,6 +3144,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "AppConfig",
           "package": "keter",
@@ -2904,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "BundleConfig",
           "package": "keter",
@@ -2912,6 +3167,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "BundleConfig",
           "package": "keter",
@@ -2925,6 +3181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "KeterConfig",
           "package": "keter",
@@ -2933,6 +3190,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "KeterConfig",
           "package": "keter",
@@ -2947,6 +3205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControls execution of the nginx thread. Follows the settings type pattern.\n See: \u003ca\u003ehttp://www.yesodweb.com/book/settings-types\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "PortSettings",
           "package": "keter",
@@ -2956,6 +3215,7 @@
         "index": {
           "description": "Controls execution of the nginx thread Follows the settings type pattern See http www.yesodweb.com book settings-types",
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "PortSettings",
           "package": "keter",
@@ -2969,6 +3229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "Redirect",
           "package": "keter",
@@ -2977,6 +3238,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "Redirect",
           "package": "keter",
@@ -2990,6 +3252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "StaticHost",
           "package": "keter",
@@ -2998,6 +3261,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "StaticHost",
           "package": "keter",
@@ -3011,6 +3275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "TLSConfig",
           "package": "keter",
@@ -3019,6 +3284,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "TLSConfig",
           "package": "keter",
@@ -3032,6 +3298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "AppConfig",
           "package": "keter",
@@ -3041,6 +3308,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "AppConfig",
           "package": "keter",
@@ -3054,6 +3322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "BundleConfig",
           "package": "keter",
@@ -3063,6 +3332,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "BundleConfig",
           "package": "keter",
@@ -3076,6 +3346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "KeterConfig",
           "package": "keter",
@@ -3085,6 +3356,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "KeterConfig",
           "package": "keter",
@@ -3098,6 +3370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "PortSettings",
           "package": "keter",
@@ -3107,6 +3380,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "PortSettings",
           "package": "keter",
@@ -3120,6 +3394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "Redirect",
           "package": "keter",
@@ -3129,6 +3404,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "Redirect",
           "package": "keter",
@@ -3142,6 +3418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "StaticHost",
           "package": "keter",
@@ -3151,6 +3428,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "StaticHost",
           "package": "keter",
@@ -3164,6 +3442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "bconfigApp",
           "package": "keter",
@@ -3173,6 +3452,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "bconfigApp",
           "package": "keter",
@@ -3186,6 +3466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "bconfigRedirects",
           "package": "keter",
@@ -3195,6 +3476,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "bconfigRedirects",
           "package": "keter",
@@ -3208,6 +3490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "bconfigStaticHosts",
           "package": "keter",
@@ -3217,6 +3500,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "bconfigStaticHosts",
           "package": "keter",
@@ -3230,6 +3514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "configArgs",
           "package": "keter",
@@ -3239,6 +3524,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "configArgs",
           "normalized": "[Text]",
@@ -3254,6 +3540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "configExec",
           "package": "keter",
@@ -3263,6 +3550,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "configExec",
           "package": "keter",
@@ -3276,6 +3564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "configExtraHosts",
           "package": "keter",
@@ -3285,6 +3574,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "configExtraHosts",
           "package": "keter",
@@ -3298,6 +3588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "configHost",
           "package": "keter",
@@ -3307,6 +3598,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "configHost",
           "package": "keter",
@@ -3320,6 +3612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "configRaw",
           "package": "keter",
@@ -3329,6 +3622,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "configRaw",
           "package": "keter",
@@ -3342,6 +3636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "configSsl",
           "package": "keter",
@@ -3351,6 +3646,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "configSsl",
           "package": "keter",
@@ -3364,6 +3660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "kconfigDir",
           "package": "keter",
@@ -3373,6 +3670,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "kconfigDir",
           "package": "keter",
@@ -3386,6 +3684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "kconfigHost",
           "package": "keter",
@@ -3395,6 +3694,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "kconfigHost",
           "package": "keter",
@@ -3408,6 +3708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "kconfigIpFromHeader",
           "package": "keter",
@@ -3417,6 +3718,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "kconfigIpFromHeader",
           "package": "keter",
@@ -3430,6 +3732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "kconfigPort",
           "package": "keter",
@@ -3439,6 +3742,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "kconfigPort",
           "package": "keter",
@@ -3452,6 +3756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "kconfigPortMan",
           "package": "keter",
@@ -3461,6 +3766,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "kconfigPortMan",
           "package": "keter",
@@ -3474,6 +3780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "kconfigReverseProxy",
           "package": "keter",
@@ -3483,6 +3790,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "kconfigReverseProxy",
           "package": "keter",
@@ -3496,6 +3804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "kconfigSetuid",
           "package": "keter",
@@ -3505,6 +3814,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "kconfigSetuid",
           "package": "keter",
@@ -3518,6 +3828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "kconfigSsl",
           "package": "keter",
@@ -3527,6 +3838,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "kconfigSsl",
           "package": "keter",
@@ -3541,6 +3853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich ports to assign to apps. Defaults to unassigned ranges from IANA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "portRange",
           "package": "keter",
@@ -3551,6 +3864,7 @@
         "index": {
           "description": "Which ports to assign to apps Defaults to unassigned ranges from IANA",
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "portRange",
           "normalized": "[Port]",
@@ -3566,6 +3880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "redFrom",
           "package": "keter",
@@ -3575,6 +3890,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "redFrom",
           "package": "keter",
@@ -3588,6 +3904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "redTo",
           "package": "keter",
@@ -3597,6 +3914,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "redTo",
           "package": "keter",
@@ -3610,6 +3928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "shHost",
           "package": "keter",
@@ -3619,6 +3938,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "shHost",
           "package": "keter",
@@ -3632,6 +3952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V04",
           "name": "shRoot",
           "package": "keter",
@@ -3641,6 +3962,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V04",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V04",
           "name": "shRoot",
           "package": "keter",
@@ -3654,6 +3976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "V10",
           "package": "keter",
@@ -3662,6 +3985,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "V10",
           "package": "keter",
@@ -3674,6 +3998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "AppInput",
           "package": "keter",
@@ -3682,6 +4007,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "AppInput",
           "package": "keter",
@@ -3695,6 +4021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "BackgroundConfig",
           "package": "keter",
@@ -3703,6 +4030,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "BackgroundConfig",
           "package": "keter",
@@ -3716,6 +4044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "BundleConfig",
           "package": "keter",
@@ -3724,6 +4053,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "BundleConfig",
           "package": "keter",
@@ -3737,6 +4067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "IsSecure",
           "package": "keter",
@@ -3745,6 +4076,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "IsSecure",
           "package": "keter",
@@ -3758,6 +4090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "KeterConfig",
           "package": "keter",
@@ -3766,6 +4099,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "KeterConfig",
           "package": "keter",
@@ -3779,6 +4113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "ListeningPort",
           "package": "keter",
@@ -3787,6 +4122,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "ListeningPort",
           "package": "keter",
@@ -3801,6 +4137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn action to be performed for a requested hostname.\n\u003c/p\u003e\u003cp\u003eThis datatype is very similar to Stanza, but is necessarily separate since:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e Webapps will be assigned ports.\n\u003c/li\u003e\u003cli\u003e Not all stanzas have an associated proxy action.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "ProxyAction",
           "package": "keter",
@@ -3810,6 +4147,7 @@
         "index": {
           "description": "An action to be performed for requested hostname This datatype is very similar to Stanza but is necessarily separate since Webapps will be assigned ports Not all stanzas have an associated proxy action",
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "ProxyAction",
           "package": "keter",
@@ -3823,6 +4161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "RedirectAction",
           "package": "keter",
@@ -3831,6 +4170,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "RedirectAction",
           "package": "keter",
@@ -3844,6 +4184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "RedirectConfig",
           "package": "keter",
@@ -3852,6 +4193,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "RedirectConfig",
           "package": "keter",
@@ -3865,6 +4207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "RedirectDest",
           "package": "keter",
@@ -3873,6 +4216,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "RedirectDest",
           "package": "keter",
@@ -3886,6 +4230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "RestartCount",
           "package": "keter",
@@ -3894,6 +4239,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "RestartCount",
           "package": "keter",
@@ -3907,6 +4253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "SourcePath",
           "package": "keter",
@@ -3915,6 +4262,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "SourcePath",
           "package": "keter",
@@ -3928,6 +4276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "Stanza",
           "package": "keter",
@@ -3936,6 +4285,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "Stanza",
           "package": "keter",
@@ -3949,6 +4299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "StaticFilesConfig",
           "package": "keter",
@@ -3957,6 +4308,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "StaticFilesConfig",
           "package": "keter",
@@ -3970,6 +4322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "WebAppConfig",
           "package": "keter",
@@ -3978,6 +4331,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "WebAppConfig",
           "package": "keter",
@@ -3991,6 +4345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "AIBundle",
           "package": "keter",
@@ -4000,6 +4355,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "AIBundle",
           "package": "keter",
@@ -4013,6 +4369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "AIData",
           "package": "keter",
@@ -4022,6 +4379,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "AIData",
           "package": "keter",
@@ -4035,6 +4393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "BackgroundConfig",
           "package": "keter",
@@ -4044,6 +4403,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "BackgroundConfig",
           "package": "keter",
@@ -4057,6 +4417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "BundleConfig",
           "package": "keter",
@@ -4066,6 +4427,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "BundleConfig",
           "package": "keter",
@@ -4079,6 +4441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "KeterConfig",
           "package": "keter",
@@ -4088,6 +4451,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "KeterConfig",
           "package": "keter",
@@ -4101,6 +4465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "LPInsecure",
           "package": "keter",
@@ -4110,6 +4475,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "LPInsecure",
           "package": "keter",
@@ -4123,6 +4489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "LPSecure",
           "package": "keter",
@@ -4132,6 +4499,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "LPSecure",
           "package": "keter",
@@ -4145,6 +4513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "LimitedRestarts",
           "package": "keter",
@@ -4154,6 +4523,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "LimitedRestarts",
           "package": "keter",
@@ -4167,6 +4537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "PAPort",
           "package": "keter",
@@ -4176,6 +4547,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "PAPort",
           "package": "keter",
@@ -4189,6 +4561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "PARedirect",
           "package": "keter",
@@ -4198,6 +4571,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "PARedirect",
           "package": "keter",
@@ -4211,6 +4585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "PAReverseProxy",
           "package": "keter",
@@ -4220,6 +4595,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "PAReverseProxy",
           "package": "keter",
@@ -4233,6 +4609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "PAStatic",
           "package": "keter",
@@ -4242,6 +4619,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "PAStatic",
           "package": "keter",
@@ -4255,6 +4633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "RDPrefix",
           "package": "keter",
@@ -4264,6 +4643,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "RDPrefix",
           "package": "keter",
@@ -4277,6 +4657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "RDUrl",
           "package": "keter",
@@ -4286,6 +4667,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "RDUrl",
           "package": "keter",
@@ -4299,6 +4681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "RedirectAction",
           "package": "keter",
@@ -4308,6 +4691,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "RedirectAction",
           "package": "keter",
@@ -4321,6 +4705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "RedirectConfig",
           "package": "keter",
@@ -4330,6 +4715,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "RedirectConfig",
           "package": "keter",
@@ -4343,6 +4729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "SPAny",
           "package": "keter",
@@ -4352,6 +4739,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "SPAny",
           "package": "keter",
@@ -4365,6 +4753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "SPSpecific",
           "package": "keter",
@@ -4374,6 +4763,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "SPSpecific",
           "package": "keter",
@@ -4387,6 +4777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "StanzaBackground",
           "package": "keter",
@@ -4396,6 +4787,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "StanzaBackground",
           "package": "keter",
@@ -4409,6 +4801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "StanzaRedirect",
           "package": "keter",
@@ -4418,6 +4811,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "StanzaRedirect",
           "package": "keter",
@@ -4431,6 +4825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "StanzaReverseProxy",
           "package": "keter",
@@ -4440,6 +4835,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "StanzaReverseProxy",
           "package": "keter",
@@ -4453,6 +4849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "StanzaStaticFiles",
           "package": "keter",
@@ -4462,6 +4859,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "StanzaStaticFiles",
           "package": "keter",
@@ -4475,6 +4873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "StanzaWebApp",
           "package": "keter",
@@ -4484,6 +4883,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "StanzaWebApp",
           "package": "keter",
@@ -4497,6 +4897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "StaticFilesConfig",
           "package": "keter",
@@ -4506,6 +4907,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "StaticFilesConfig",
           "package": "keter",
@@ -4519,6 +4921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "UnlimitedRestarts",
           "package": "keter",
@@ -4528,6 +4931,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "UnlimitedRestarts",
           "package": "keter",
@@ -4541,6 +4945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "WebAppConfig",
           "package": "keter",
@@ -4550,6 +4955,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "WebAppConfig",
           "package": "keter",
@@ -4563,6 +4969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "addStanzaType",
           "package": "keter",
@@ -4572,6 +4979,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "addStanzaType",
           "normalized": "Value-\u003ea-\u003eValue",
@@ -4588,6 +4996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esettings used for plugins\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "bconfigPlugins",
           "package": "keter",
@@ -4598,6 +5007,7 @@
         "index": {
           "description": "settings used for plugins",
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "bconfigPlugins",
           "package": "keter",
@@ -4611,6 +5021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "bconfigStanzas",
           "package": "keter",
@@ -4620,6 +5031,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "bconfigStanzas",
           "normalized": "(Vector(Stanza()))",
@@ -4635,6 +5047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "bgconfigArgs",
           "package": "keter",
@@ -4644,6 +5057,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "bgconfigArgs",
           "package": "keter",
@@ -4657,6 +5071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "bgconfigEnvironment",
           "package": "keter",
@@ -4666,6 +5081,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "bgconfigEnvironment",
           "package": "keter",
@@ -4679,6 +5095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "bgconfigExec",
           "package": "keter",
@@ -4688,6 +5105,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "bgconfigExec",
           "package": "keter",
@@ -4701,6 +5119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "bgconfigRestartCount",
           "package": "keter",
@@ -4710,6 +5129,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "bgconfigRestartCount",
           "package": "keter",
@@ -4723,6 +5143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "bgconfigRestartDelaySeconds",
           "package": "keter",
@@ -4732,6 +5153,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "bgconfigRestartDelaySeconds",
           "package": "keter",
@@ -4745,6 +5167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "kconfigBuiltinStanzas",
           "package": "keter",
@@ -4754,6 +5177,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "kconfigBuiltinStanzas",
           "normalized": "(Vector(Stanza()))",
@@ -4769,6 +5193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "kconfigDir",
           "package": "keter",
@@ -4778,6 +5203,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "kconfigDir",
           "package": "keter",
@@ -4791,6 +5217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "kconfigIpFromHeader",
           "package": "keter",
@@ -4800,6 +5227,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "kconfigIpFromHeader",
           "package": "keter",
@@ -4813,6 +5241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "kconfigListeners",
           "package": "keter",
@@ -4822,6 +5251,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "kconfigListeners",
           "package": "keter",
@@ -4835,6 +5265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "kconfigPortPool",
           "package": "keter",
@@ -4844,6 +5275,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "kconfigPortPool",
           "package": "keter",
@@ -4857,6 +5289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "kconfigSetuid",
           "package": "keter",
@@ -4866,6 +5299,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "kconfigSetuid",
           "package": "keter",
@@ -4879,6 +5313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "redirconfigActions",
           "package": "keter",
@@ -4888,6 +5323,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "redirconfigActions",
           "package": "keter",
@@ -4901,6 +5337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "redirconfigHosts",
           "package": "keter",
@@ -4910,6 +5347,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "redirconfigHosts",
           "package": "keter",
@@ -4923,6 +5361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "redirconfigStatus",
           "package": "keter",
@@ -4932,6 +5371,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "redirconfigStatus",
           "package": "keter",
@@ -4945,6 +5385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "sfconfigHosts",
           "package": "keter",
@@ -4954,6 +5395,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "sfconfigHosts",
           "package": "keter",
@@ -4967,6 +5409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "sfconfigListings",
           "package": "keter",
@@ -4976,6 +5419,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "sfconfigListings",
           "package": "keter",
@@ -4989,6 +5433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "sfconfigRoot",
           "package": "keter",
@@ -4998,6 +5443,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "sfconfigRoot",
           "package": "keter",
@@ -5012,6 +5458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprimary host, used for approot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "waconfigApprootHost",
           "package": "keter",
@@ -5022,6 +5469,7 @@
         "index": {
           "description": "primary host used for approot",
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "waconfigApprootHost",
           "package": "keter",
@@ -5035,6 +5483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "waconfigArgs",
           "package": "keter",
@@ -5044,6 +5493,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "waconfigArgs",
           "package": "keter",
@@ -5057,6 +5507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "waconfigEnvironment",
           "package": "keter",
@@ -5066,6 +5517,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "waconfigEnvironment",
           "package": "keter",
@@ -5079,6 +5531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "waconfigExec",
           "package": "keter",
@@ -5088,6 +5541,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "waconfigExec",
           "package": "keter",
@@ -5102,6 +5556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall hosts, not including the approot host\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "waconfigHosts",
           "package": "keter",
@@ -5112,6 +5567,7 @@
         "index": {
           "description": "all hosts not including the approot host",
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "waconfigHosts",
           "package": "keter",
@@ -5125,6 +5581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "waconfigPort",
           "package": "keter",
@@ -5134,6 +5591,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "waconfigPort",
           "package": "keter",
@@ -5147,6 +5605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types.V10",
           "name": "waconfigSsl",
           "package": "keter",
@@ -5156,6 +5615,7 @@
         },
         "index": {
           "hierarchy": "Keter Types V10",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types.V10",
           "name": "waconfigSsl",
           "package": "keter",
@@ -5169,6 +5629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Keter.Types",
           "name": "Types",
           "package": "keter",
@@ -5177,6 +5638,7 @@
         },
         "index": {
           "hierarchy": "Keter Types",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Keter.Types",
           "name": "Types",
           "package": "keter",
@@ -5190,6 +5652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "Rewrite",
           "package": "keter",
@@ -5198,6 +5661,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP ReverseProxy Rewrite",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "Rewrite",
           "package": "keter",
@@ -5211,6 +5675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "RPEntry",
           "package": "keter",
@@ -5219,6 +5684,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP ReverseProxy Rewrite",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "RPEntry",
           "package": "keter",
@@ -5232,6 +5698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "ReverseProxyConfig",
           "package": "keter",
@@ -5240,6 +5707,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP ReverseProxy Rewrite",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "ReverseProxyConfig",
           "package": "keter",
@@ -5253,6 +5721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "RewriteRule",
           "package": "keter",
@@ -5261,6 +5730,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP ReverseProxy Rewrite",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "RewriteRule",
           "package": "keter",
@@ -5274,6 +5744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "RPEntry",
           "package": "keter",
@@ -5283,6 +5754,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP ReverseProxy Rewrite",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "RPEntry",
           "package": "keter",
@@ -5296,6 +5768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "ReverseProxyConfig",
           "package": "keter",
@@ -5305,6 +5778,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP ReverseProxy Rewrite",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "ReverseProxyConfig",
           "package": "keter",
@@ -5318,6 +5792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "RewriteRule",
           "package": "keter",
@@ -5327,6 +5802,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP ReverseProxy Rewrite",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "RewriteRule",
           "package": "keter",
@@ -5340,6 +5816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "config",
           "package": "keter",
@@ -5349,6 +5826,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP ReverseProxy Rewrite",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "config",
           "package": "keter",
@@ -5361,6 +5839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "httpManager",
           "package": "keter",
@@ -5370,6 +5849,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP ReverseProxy Rewrite",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "httpManager",
           "package": "keter",
@@ -5383,6 +5863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "reverseTimeout",
           "package": "keter",
@@ -5392,6 +5873,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP ReverseProxy Rewrite",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "reverseTimeout",
           "package": "keter",
@@ -5405,6 +5887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "reverseUseSSL",
           "package": "keter",
@@ -5414,6 +5897,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP ReverseProxy Rewrite",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "reverseUseSSL",
           "package": "keter",
@@ -5427,6 +5911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "reversedHost",
           "package": "keter",
@@ -5436,6 +5921,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP ReverseProxy Rewrite",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "reversedHost",
           "package": "keter",
@@ -5449,6 +5935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "reversedPort",
           "package": "keter",
@@ -5458,6 +5945,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP ReverseProxy Rewrite",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "reversedPort",
           "package": "keter",
@@ -5471,6 +5959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "reversingHost",
           "package": "keter",
@@ -5480,6 +5969,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP ReverseProxy Rewrite",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "reversingHost",
           "package": "keter",
@@ -5493,6 +5983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "rewriteRequestRules",
           "package": "keter",
@@ -5502,6 +5993,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP ReverseProxy Rewrite",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "rewriteRequestRules",
           "package": "keter",
@@ -5515,6 +6007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "rewriteResponseRules",
           "package": "keter",
@@ -5524,6 +6017,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP ReverseProxy Rewrite",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "rewriteResponseRules",
           "package": "keter",
@@ -5537,6 +6031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "ruleHeader",
           "package": "keter",
@@ -5546,6 +6041,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP ReverseProxy Rewrite",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "ruleHeader",
           "package": "keter",
@@ -5559,6 +6055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "ruleRegex",
           "package": "keter",
@@ -5568,6 +6065,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP ReverseProxy Rewrite",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "ruleRegex",
           "package": "keter",
@@ -5581,6 +6079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "ruleReplacement",
           "package": "keter",
@@ -5590,6 +6089,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP ReverseProxy Rewrite",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "ruleReplacement",
           "package": "keter",
@@ -5603,6 +6103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:51 UTC 2014",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "simpleReverseProxy",
           "package": "keter",
@@ -5612,6 +6113,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP ReverseProxy Rewrite",
+          "indexed": "2014-03-11T19:02:51",
           "module": "Network.HTTP.ReverseProxy.Rewrite",
           "name": "simpleReverseProxy",
           "normalized": "Manager-\u003eReverseProxyConfig-\u003eApplication",

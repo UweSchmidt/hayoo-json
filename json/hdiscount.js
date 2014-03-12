@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hdiscount"
+        "phrase": "hdiscount",
+        "type": "phrase"
       },
       "type": "context"
     }

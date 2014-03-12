@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "interpol"
+        "phrase": "interpol",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport module for the \u003ccode\u003einterpol\u003c/code\u003e preprocessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:58:35 UTC 2014",
           "module": "Text.Interpol",
           "name": "Interpol",
           "package": "interpol",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Support module for the interpol preprocessor",
           "hierarchy": "Text Interpol",
+          "indexed": "2014-03-11T18:58:35",
           "module": "Text.Interpol",
           "name": "Interpol",
           "package": "interpol",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:35 UTC 2014",
           "module": "Text.Interpol",
           "name": "ToString",
           "package": "interpol",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text Interpol",
+          "indexed": "2014-03-11T18:58:35",
           "module": "Text.Interpol",
           "name": "ToString",
           "package": "interpol",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend a showable value to a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e in a smart way.  In\n particular, do \u003cem\u003enot\u003c/em\u003e \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, as this encloses it in\n \"quotes\".  So, depending on the type of the second parameter,\n \u003ccode\u003e\u003ca\u003e^-^\u003c/a\u003e\u003c/code\u003e is equivalent to one of the following\n\u003c/p\u003e\u003cpre\u003e\n   x ^-^ y = x ++ y\n   x ^-^ y = x ++ show y\n\u003c/pre\u003e\u003cp\u003eFor all intents and purposes, the \u003ccode\u003e\u003ca\u003eToString\u003c/a\u003e\u003c/code\u003e type-class is a\n wrapper around \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e, so any type that has an instance for \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e\n will also have an instance for \u003ccode\u003eInterpol\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:35 UTC 2014",
           "module": "Text.Interpol",
           "name": "(^-^)",
           "package": "interpol",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Append showable value to String in smart way In particular do not show String as this encloses it in quotes So depending on the type of the second parameter is equivalent to one of the following show For all intents and purposes the ToString type-class is wrapper around Show so any type that has an instance for Show will also have an instance for Interpol",
           "hierarchy": "Text Interpol",
+          "indexed": "2014-03-11T18:58:35",
           "module": "Text.Interpol",
           "name": "(^-^) ^-^",
           "normalized": "a-\u003eb-\u003eString",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend a showable value to a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e in a smart way.  In\n particular, do \u003cem\u003enot\u003c/em\u003e \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, as this encloses it in\n \"quotes\".  So, depending on the type of the second parameter,\n \u003ccode\u003e\u003ca\u003e^-^\u003c/a\u003e\u003c/code\u003e is equivalent to one of the following\n\u003c/p\u003e\u003cpre\u003e\n   x ^-^ y = x ++ y\n   x ^-^ y = x ++ show y\n\u003c/pre\u003e\u003cp\u003eFor all intents and purposes, the \u003ccode\u003e\u003ca\u003eToString\u003c/a\u003e\u003c/code\u003e type-class is a\n wrapper around \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e, so any type that has an instance for \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e\n will also have an instance for \u003ccode\u003eInterpol\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:35 UTC 2014",
           "module": "Text.Interpol",
           "name": "interpol",
           "package": "interpol",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Append showable value to String in smart way In particular do not show String as this encloses it in quotes So depending on the type of the second parameter is equivalent to one of the following show For all intents and purposes the ToString type-class is wrapper around Show so any type that has an instance for Show will also have an instance for Interpol",
           "hierarchy": "Text Interpol",
+          "indexed": "2014-03-11T18:58:35",
           "module": "Text.Interpol",
           "name": "interpol",
           "normalized": "a-\u003eb-\u003eString",

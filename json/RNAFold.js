@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "RNAFold"
+        "phrase": "RNAFold",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Energy",
           "name": "Energy",
           "package": "RNAFold",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Energy",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Energy",
           "name": "Energy",
           "package": "RNAFold",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Energy",
           "name": "(!)",
           "package": "RNAFold",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Energy",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Energy",
           "name": "(!) !",
           "normalized": "a b c-\u003eb-\u003ec",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Energy",
           "name": "(*.)",
           "package": "RNAFold",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Energy",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Energy",
           "name": "(*.) *.",
           "normalized": "Deka-\u003eInt-\u003eDeka",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Energy",
           "name": "huge",
           "package": "RNAFold",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Energy",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Energy",
           "name": "huge",
           "package": "RNAFold",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Energy",
           "name": "mfe",
           "package": "RNAFold",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Energy",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Energy",
           "name": "mfe",
           "package": "RNAFold",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Eval",
           "name": "Eval",
           "package": "RNAFold",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Eval",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Eval",
           "name": "Eval",
           "package": "RNAFold",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Eval",
           "name": "Structure",
           "package": "RNAFold",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Eval",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Eval",
           "name": "Structure",
           "package": "RNAFold",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Eval",
           "name": "External",
           "package": "RNAFold",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Eval",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Eval",
           "name": "External",
           "package": "RNAFold",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Eval",
           "name": "Hairpin",
           "package": "RNAFold",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Eval",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Eval",
           "name": "Hairpin",
           "package": "RNAFold",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Eval",
           "name": "Interior",
           "package": "RNAFold",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Eval",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Eval",
           "name": "Interior",
           "package": "RNAFold",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Eval",
           "name": "Multi",
           "package": "RNAFold",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Eval",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Eval",
           "name": "Multi",
           "package": "RNAFold",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Eval",
           "name": "eval",
           "package": "RNAFold",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Eval",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Eval",
           "name": "eval",
           "normalized": "Signature Id Deka Deka-\u003eVienna-\u003ePrimary-\u003eD Secondary-\u003eSSTree PairIdx Structure",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Eval",
           "name": "flatten",
           "package": "RNAFold",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Eval",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Eval",
           "name": "flatten",
           "normalized": "SSTree PairIdx Structure-\u003e(Deka,[String])",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Eval",
           "name": "rnaEval",
           "package": "RNAFold",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Eval",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Eval",
           "name": "rnaEval",
           "normalized": "Vienna-\u003ePrimary-\u003eD Secondary-\u003e(Deka,[String])",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "Fold",
           "package": "RNAFold",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Fold",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "Fold",
           "package": "RNAFold",
@@ -348,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "CombSignature",
           "package": "RNAFold",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Fold",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "CombSignature",
           "package": "RNAFold",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "(\u003c**)",
           "package": "RNAFold",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Fold",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "(\u003c**) \u003c**",
           "normalized": "Signature a b b-\u003eSignature a c(Stream a c)-\u003eCombSignature a b c",
@@ -392,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "backtrack",
           "package": "RNAFold",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Fold",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "backtrack",
           "normalized": "Vienna-\u003eMaybe D Secondary-\u003ePrimary-\u003e(Unboxed(Z Subword)Deka,Unboxed(Z Subword)Deka,Unboxed(Z Subword)Deka,Unboxed(Z Subword)Deka)-\u003e[String]",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "basepairing",
           "package": "RNAFold",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Fold",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "basepairing",
           "normalized": "Primary-\u003eSubword-\u003eBool",
@@ -438,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "fillTables",
           "package": "RNAFold",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Fold",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "fillTables",
           "normalized": "(MTbl a(MutArr b(c(Z Subword)d)),Subword-\u003eb d,MTbl a(MutArr b(c(Z Subword)d)),Subword-\u003eb d,MTbl a(MutArr b(c(Z Subword)d)),Subword-\u003eb d,MTbl a(MutArr b(c(Z Subword)d)),Subword-\u003eb d)-\u003eb()",
@@ -462,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "gRNAfold",
           "package": "RNAFold",
@@ -471,6 +512,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Fold",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "gRNAfold",
           "normalized": "a-\u003e(a-\u003eNuc-\u003eNuc-\u003eVector Nuc-\u003eNuc-\u003eNuc-\u003eb,a-\u003eFun((((Arg(Pair(Pair(Pair(Z(GChr Nuc Nuc))(SRegion Nuc))(PeekR Nuc))b))Nuc)(Vector Nuc))Nuc-\u003eb),a-\u003eFun(((Arg(Pair(Pair(Pair(Z(GChr Nuc Nuc))(PeekL Nuc))b)c))Nuc)Nuc-\u003eb),a-\u003eFun(((Arg(Pair(Pair(Z(PeekL Nuc))(GChr Nuc Nuc))b))Nuc)Nuc-\u003eb),a-\u003eFun(Arg(Pair(Z(GChr Nuc Nuc))b)-\u003eb),a-\u003eFun((Arg(Stack b))(Vector Nuc)-\u003eb),a-\u003eFun(Arg(Pair(Stack b)c)-\u003eb),a,a-\u003eFun(Arg(Pair(Z(GChr Nuc Nuc))c)-\u003eb),a-\u003eFun(Arg(Pair(Stack b)c)-\u003eb),a-\u003eVector Nuc-\u003eb,Stream d b-\u003ee)-\u003eb-\u003eb-\u003ec-\u003ec-\u003eMaybe D Secondary-\u003eVector Nuc-\u003e(b,Subword-\u003ee,b,b-\u003ee,c,b-\u003ee,c,Subword-\u003ee)",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "pretty",
           "package": "RNAFold",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Fold",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "pretty",
           "package": "RNAFold",
@@ -507,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "rnaFold",
           "package": "RNAFold",
@@ -516,6 +561,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Fold",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "rnaFold",
           "normalized": "Vienna-\u003ePrimary-\u003e(Deka,[String])",
@@ -531,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "rnaFoldConstrained",
           "package": "RNAFold",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Fold",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "rnaFoldConstrained",
           "normalized": "Vienna-\u003ePrimary-\u003eD Secondary-\u003e(Deka,[String])",
@@ -555,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "rnaFoldFill",
           "package": "RNAFold",
@@ -564,6 +613,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Fold",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "rnaFoldFill",
           "normalized": "Vienna-\u003eMaybe D Secondary-\u003ePrimary-\u003eIO(Unboxed(Z Subword)Deka,Unboxed(Z Subword)Deka,Unboxed(Z Subword)Deka,Unboxed(Z Subword)Deka)",
@@ -579,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "structC",
           "package": "RNAFold",
@@ -588,6 +639,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Fold",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "structC",
           "normalized": "Primary-\u003eSubword-\u003eBool",
@@ -602,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "structureConstrains",
           "package": "RNAFold",
@@ -611,6 +664,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Fold",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Fold",
           "name": "structureConstrains",
           "normalized": "Maybe D Secondary-\u003eSubword-\u003eBool",
@@ -626,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Signature",
           "name": "Signature",
           "package": "RNAFold",
@@ -634,6 +689,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Signature",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Signature",
           "name": "Signature",
           "package": "RNAFold",
@@ -647,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA.Signature",
           "name": "Signature",
           "package": "RNAFold",
@@ -655,6 +712,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA Signature",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA.Signature",
           "name": "Signature",
           "package": "RNAFold",
@@ -668,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:14 UTC 2014",
           "module": "BioInf.ViennaRNA",
           "name": "ViennaRNA",
           "package": "RNAFold",
@@ -676,6 +735,7 @@
         },
         "index": {
           "hierarchy": "BioInf ViennaRNA",
+          "indexed": "2014-03-11T16:58:14",
           "module": "BioInf.ViennaRNA",
           "name": "ViennaRNA",
           "package": "RNAFold",

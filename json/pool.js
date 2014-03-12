@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pool"
+        "phrase": "pool",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:34 UTC 2014",
           "module": "Data.Pool",
           "name": "Pool",
           "package": "pool",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Pool",
+          "indexed": "2014-03-11T19:41:34",
           "module": "Data.Pool",
           "name": "Pool",
           "package": "pool",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:34 UTC 2014",
           "module": "Data.Pool",
           "name": "Pool",
           "package": "pool",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Pool",
+          "indexed": "2014-03-11T19:41:34",
           "module": "Data.Pool",
           "name": "Pool",
           "package": "pool",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:34 UTC 2014",
           "module": "Data.Pool",
           "name": "PoolStats",
           "package": "pool",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Pool",
+          "indexed": "2014-03-11T19:41:34",
           "module": "Data.Pool",
           "name": "PoolStats",
           "package": "pool",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:34 UTC 2014",
           "module": "Data.Pool",
           "name": "PoolStats",
           "package": "pool",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Pool",
+          "indexed": "2014-03-11T19:41:34",
           "module": "Data.Pool",
           "name": "PoolStats",
           "package": "pool",
@@ -104,6 +112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new pool without any resource alive checking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:34 UTC 2014",
           "module": "Data.Pool",
           "name": "createPool",
           "package": "pool",
@@ -113,6 +122,7 @@
         "index": {
           "description": "Create new pool without any resource alive checking",
           "hierarchy": "Data Pool",
+          "indexed": "2014-03-11T19:41:34",
           "module": "Data.Pool",
           "name": "createPool",
           "normalized": "IO a-\u003e(a-\u003eIO())-\u003eInt-\u003e(Pool a-\u003eb c)-\u003eb c",
@@ -129,6 +139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new pool, including a function to check if a resource is still\n alive. Stale resources will automatically be removed from the pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:34 UTC 2014",
           "module": "Data.Pool",
           "name": "createPoolCheckAlive",
           "package": "pool",
@@ -138,6 +149,7 @@
         "index": {
           "description": "Create new pool including function to check if resource is still alive Stale resources will automatically be removed from the pool",
           "hierarchy": "Data Pool",
+          "indexed": "2014-03-11T19:41:34",
           "module": "Data.Pool",
           "name": "createPoolCheckAlive",
           "normalized": "IO a-\u003e(a-\u003eIO())-\u003eInt-\u003e(Pool a-\u003eb c)-\u003e(a-\u003eIO Bool)-\u003eb c",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:34 UTC 2014",
           "module": "Data.Pool",
           "name": "poolStats",
           "package": "pool",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data Pool",
+          "indexed": "2014-03-11T19:41:34",
           "module": "Data.Pool",
           "name": "poolStats",
           "normalized": "Pool a-\u003eIO PoolStats",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:34 UTC 2014",
           "module": "Data.Pool",
           "name": "poolStatsAvailable",
           "package": "pool",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Data Pool",
+          "indexed": "2014-03-11T19:41:34",
           "module": "Data.Pool",
           "name": "poolStatsAvailable",
           "package": "pool",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:34 UTC 2014",
           "module": "Data.Pool",
           "name": "poolStatsCreated",
           "package": "pool",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Data Pool",
+          "indexed": "2014-03-11T19:41:34",
           "module": "Data.Pool",
           "name": "poolStatsCreated",
           "package": "pool",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:34 UTC 2014",
           "module": "Data.Pool",
           "name": "poolStatsMax",
           "package": "pool",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Data Pool",
+          "indexed": "2014-03-11T19:41:34",
           "module": "Data.Pool",
           "name": "poolStatsMax",
           "package": "pool",
@@ -244,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to run the given action with a resource from the given \u003ccode\u003e\u003ca\u003ePool\u003c/a\u003e\u003c/code\u003e.\n Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if no resource was available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:34 UTC 2014",
           "module": "Data.Pool",
           "name": "withPool",
           "package": "pool",
@@ -254,6 +275,7 @@
         "index": {
           "description": "Attempt to run the given action with resource from the given Pool Returns Nothing if no resource was available",
           "hierarchy": "Data Pool",
+          "indexed": "2014-03-11T19:41:34",
           "module": "Data.Pool",
           "name": "withPool",
           "normalized": "Pool a-\u003e(a-\u003eb c)-\u003eb(Maybe c)",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function throws a \u003ccode\u003ePoolExhaustedException\u003c/code\u003e when no resources are\n available. See \u003ccode\u003e\u003ca\u003ewithPoolAllocate\u003c/a\u003e\u003c/code\u003e to avoid this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:34 UTC 2014",
           "module": "Data.Pool",
           "name": "withPool'",
           "package": "pool",
@@ -280,6 +303,7 @@
         "index": {
           "description": "This function throws PoolExhaustedException when no resources are available See withPoolAllocate to avoid this",
           "hierarchy": "Data Pool",
+          "indexed": "2014-03-11T19:41:34",
           "module": "Data.Pool",
           "name": "withPool'",
           "normalized": "Pool a-\u003e(a-\u003eb c)-\u003eb c",
@@ -296,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003ewithPool'\u003c/code\u003e, but instead of throwing a \u003ccode\u003ePoolExhaustedException\u003c/code\u003e\n when there the maximum number of resources are created and allocated, it\n allocates a new resource, passes it to the subprocess and then frees it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:34 UTC 2014",
           "module": "Data.Pool",
           "name": "withPoolAllocate",
           "package": "pool",
@@ -306,6 +331,7 @@
         "index": {
           "description": "Same as withPool but instead of throwing PoolExhaustedException when there the maximum number of resources are created and allocated it allocates new resource passes it to the subprocess and then frees it",
           "hierarchy": "Data Pool",
+          "indexed": "2014-03-11T19:41:34",
           "module": "Data.Pool",
           "name": "withPoolAllocate",
           "normalized": "Pool a-\u003e(a-\u003eb c)-\u003eb c",

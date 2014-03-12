@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fuzzytime"
+        "phrase": "fuzzytime",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.Danish",
           "name": "Danish",
           "package": "fuzzytime",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime Danish",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.Danish",
           "name": "Danish",
           "package": "fuzzytime",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.Danish",
           "name": "showFuzzyTimeDa",
           "package": "fuzzytime",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime Danish",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.Danish",
           "name": "showFuzzyTimeDa",
           "normalized": "FuzzyTime-\u003eString",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.Dutch",
           "name": "Dutch",
           "package": "fuzzytime",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime Dutch",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.Dutch",
           "name": "Dutch",
           "package": "fuzzytime",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.Dutch",
           "name": "showFuzzyTimeNl",
           "package": "fuzzytime",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime Dutch",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.Dutch",
           "name": "showFuzzyTimeNl",
           "normalized": "FuzzyTime-\u003eString",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.English",
           "name": "English",
           "package": "fuzzytime",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime English",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.English",
           "name": "English",
           "package": "fuzzytime",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.English",
           "name": "showFuzzyTimeEn",
           "package": "fuzzytime",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime English",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.English",
           "name": "showFuzzyTimeEn",
           "normalized": "FuzzyTime-\u003eString",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.French",
           "name": "French",
           "package": "fuzzytime",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime French",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.French",
           "name": "French",
           "package": "fuzzytime",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.French",
           "name": "showFuzzyTimeFr",
           "package": "fuzzytime",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime French",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.French",
           "name": "showFuzzyTimeFr",
           "normalized": "FuzzyTime-\u003eString",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.German",
           "name": "German",
           "package": "fuzzytime",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime German",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.German",
           "name": "German",
           "package": "fuzzytime",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.German",
           "name": "showFuzzyTimeDe",
           "package": "fuzzytime",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime German",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.German",
           "name": "showFuzzyTimeDe",
           "normalized": "FuzzyTime-\u003eString",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.Greek",
           "name": "Greek",
           "package": "fuzzytime",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime Greek",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.Greek",
           "name": "Greek",
           "package": "fuzzytime",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.Greek",
           "name": "showFuzzyTimeEl",
           "package": "fuzzytime",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime Greek",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.Greek",
           "name": "showFuzzyTimeEl",
           "normalized": "FuzzyTime-\u003eString",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.Italian",
           "name": "Italian",
           "package": "fuzzytime",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime Italian",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.Italian",
           "name": "Italian",
           "package": "fuzzytime",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.Italian",
           "name": "showFuzzyTimeIt",
           "package": "fuzzytime",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime Italian",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.Italian",
           "name": "showFuzzyTimeIt",
           "normalized": "FuzzyTime-\u003eString",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.Japanese",
           "name": "Japanese",
           "package": "fuzzytime",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime Japanese",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.Japanese",
           "name": "Japanese",
           "package": "fuzzytime",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.Japanese",
           "name": "showFuzzyTimeJa",
           "package": "fuzzytime",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime Japanese",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.Japanese",
           "name": "showFuzzyTimeJa",
           "normalized": "FuzzyTime-\u003eString",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.Norwegian",
           "name": "Norwegian",
           "package": "fuzzytime",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime Norwegian",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.Norwegian",
           "name": "Norwegian",
           "package": "fuzzytime",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.Norwegian",
           "name": "showFuzzyTimeNb",
           "package": "fuzzytime",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime Norwegian",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.Norwegian",
           "name": "showFuzzyTimeNb",
           "normalized": "FuzzyTime-\u003eString",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.Polish",
           "name": "Polish",
           "package": "fuzzytime",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime Polish",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.Polish",
           "name": "Polish",
           "package": "fuzzytime",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.Polish",
           "name": "showFuzzyTimePl",
           "package": "fuzzytime",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime Polish",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.Polish",
           "name": "showFuzzyTimePl",
           "normalized": "FuzzyTime-\u003eString",
@@ -468,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.Spanish",
           "name": "Spanish",
           "package": "fuzzytime",
@@ -476,6 +517,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime Spanish",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.Spanish",
           "name": "Spanish",
           "package": "fuzzytime",
@@ -489,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.Spanish",
           "name": "showFuzzyTimeEs",
           "package": "fuzzytime",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime Spanish",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.Spanish",
           "name": "showFuzzyTimeEs",
           "normalized": "FuzzyTime-\u003eString",
@@ -513,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.Swedish",
           "name": "Swedish",
           "package": "fuzzytime",
@@ -521,6 +566,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime Swedish",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.Swedish",
           "name": "Swedish",
           "package": "fuzzytime",
@@ -534,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.Swedish",
           "name": "showFuzzyTimeSe",
           "package": "fuzzytime",
@@ -543,6 +590,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime Swedish",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.Swedish",
           "name": "showFuzzyTimeSe",
           "normalized": "FuzzyTime-\u003eString",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.Turkish",
           "name": "Turkish",
           "package": "fuzzytime",
@@ -566,6 +615,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime Turkish",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.Turkish",
           "name": "Turkish",
           "package": "fuzzytime",
@@ -579,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime.Turkish",
           "name": "showFuzzyTimeTr",
           "package": "fuzzytime",
@@ -588,6 +639,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime Turkish",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime.Turkish",
           "name": "showFuzzyTimeTr",
           "normalized": "FuzzyTime-\u003eString",
@@ -604,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIn this module the actual conversion from time to string happens.\n\u003c/p\u003e\u003cp\u003eThere are two modes, showing the time and showing the time left till something. This is represented by the duality of both FuzzyTimeConf and FuzzyTime: ClockConf and FuzzyClock serve to show the time, while TimerConf and FuzzyTimer are used for counting down.\n\u003c/p\u003e\u003cp\u003eA FuzzyTime is created from a FuzzyTimeConf with toFuzzyTime. It is translated to a string via show.\n\u003c/p\u003e\u003cp\u003eApart from the above, two functions are exported: isTimerZero which can be used by an interface to set off the alarm when timer reaches zero, and nextFTHour which makes sure that the clock is a circular data structure.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "FuzzyTime",
           "package": "fuzzytime",
@@ -613,6 +666,7 @@
         "index": {
           "description": "In this module the actual conversion from time to string happens There are two modes showing the time and showing the time left till something This is represented by the duality of both FuzzyTimeConf and FuzzyTime ClockConf and FuzzyClock serve to show the time while TimerConf and FuzzyTimer are used for counting down FuzzyTime is created from FuzzyTimeConf with toFuzzyTime It is translated to string via show Apart from the above two functions are exported isTimerZero which can be used by an interface to set off the alarm when timer reaches zero and nextFTHour which makes sure that the clock is circular data structure",
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "FuzzyTime",
           "package": "fuzzytime",
@@ -627,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData for fuzzified time. There are two modes: FuzzyClock for showing what time it is and FuzzyTimer for showing how much time there is left till something. The String output is obtained via Show.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "FuzzyTime",
           "package": "fuzzytime",
@@ -636,6 +691,7 @@
         "index": {
           "description": "Data for fuzzified time There are two modes FuzzyClock for showing what time it is and FuzzyTimer for showing how much time there is left till something The String output is obtained via Show",
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "FuzzyTime",
           "package": "fuzzytime",
@@ -650,6 +706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData for CmdArgs. Has the two modes of module FuzzyTime: showing the current time and showing the time left. Note that this is not the same as the two modes of module Main.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "FuzzyTimeConf",
           "package": "fuzzytime",
@@ -659,6 +716,7 @@
         "index": {
           "description": "Data for CmdArgs Has the two modes of module FuzzyTime showing the current time and showing the time left Note that this is not the same as the two modes of module Main",
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "FuzzyTimeConf",
           "package": "fuzzytime",
@@ -673,6 +731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience alias.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "Time",
           "package": "fuzzytime",
@@ -682,6 +741,7 @@
         "index": {
           "description": "Convenience alias",
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "Time",
           "package": "fuzzytime",
@@ -695,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "ClockConf",
           "package": "fuzzytime",
@@ -704,6 +765,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "ClockConf",
           "package": "fuzzytime",
@@ -717,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "FuzzyClock",
           "package": "fuzzytime",
@@ -726,6 +789,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "FuzzyClock",
           "package": "fuzzytime",
@@ -739,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "FuzzyTimer",
           "package": "fuzzytime",
@@ -748,6 +813,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "FuzzyTimer",
           "package": "fuzzytime",
@@ -761,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "TimerConf",
           "package": "fuzzytime",
@@ -770,6 +837,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "TimerConf",
           "package": "fuzzytime",
@@ -783,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "caps",
           "package": "fuzzytime",
@@ -792,6 +861,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "caps",
           "package": "fuzzytime",
@@ -805,6 +875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCapitalizes the string in one of the four ways: 0. all small; 1. default; 2. sentence case; 3. all caps\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "capsizeDef",
           "package": "fuzzytime",
@@ -815,6 +886,7 @@
         "index": {
           "description": "Capitalizes the string in one of the four ways all small default sentence case all caps",
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "capsizeDef",
           "normalized": "Int-\u003eString-\u003eString",
@@ -830,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "clock",
           "package": "fuzzytime",
@@ -839,6 +912,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "clock",
           "package": "fuzzytime",
@@ -851,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "end",
           "package": "fuzzytime",
@@ -860,6 +935,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "end",
           "package": "fuzzytime",
@@ -872,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "ftAm",
           "package": "fuzzytime",
@@ -881,6 +958,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "ftAm",
           "package": "fuzzytime",
@@ -894,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "ftCaps",
           "package": "fuzzytime",
@@ -903,6 +982,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "ftCaps",
           "package": "fuzzytime",
@@ -916,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "ftClock",
           "package": "fuzzytime",
@@ -925,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "ftClock",
           "package": "fuzzytime",
@@ -938,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "ftHour",
           "package": "fuzzytime",
@@ -947,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "ftHour",
           "package": "fuzzytime",
@@ -960,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "ftLang",
           "package": "fuzzytime",
@@ -969,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "ftLang",
           "package": "fuzzytime",
@@ -982,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "ftMin",
           "package": "fuzzytime",
@@ -991,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "ftMin",
           "package": "fuzzytime",
@@ -1004,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "ftMins",
           "package": "fuzzytime",
@@ -1013,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "ftMins",
           "package": "fuzzytime",
@@ -1026,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "ftStyle",
           "package": "fuzzytime",
@@ -1035,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "ftStyle",
           "package": "fuzzytime",
@@ -1049,6 +1141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReports whether timer is now at zero. (Needed for the interface to know when to play a sound.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "isTimerZero",
           "package": "fuzzytime",
@@ -1059,6 +1152,7 @@
         "index": {
           "description": "Reports whether timer is now at zero Needed for the interface to know when to play sound",
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "isTimerZero",
           "normalized": "FuzzyTime-\u003eBool",
@@ -1074,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "lang",
           "package": "fuzzytime",
@@ -1083,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "lang",
           "package": "fuzzytime",
@@ -1096,6 +1192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes sure that noon is always represented as 0, and midnight &#8211; always as 0 or 24 (depending on the clock).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "nextFTHour",
           "package": "fuzzytime",
@@ -1106,6 +1203,7 @@
         "index": {
           "description": "Makes sure that noon is always represented as and midnight always as or depending on the clock",
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "nextFTHour",
           "normalized": "FuzzyTime-\u003eInt",
@@ -1121,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "now",
           "package": "fuzzytime",
@@ -1130,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "now",
           "package": "fuzzytime",
@@ -1142,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "prec",
           "package": "fuzzytime",
@@ -1151,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "prec",
           "package": "fuzzytime",
@@ -1163,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "sound",
           "package": "fuzzytime",
@@ -1172,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "sound",
           "package": "fuzzytime",
@@ -1184,6 +1288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "style",
           "package": "fuzzytime",
@@ -1193,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "style",
           "package": "fuzzytime",
@@ -1205,6 +1311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "time",
           "package": "fuzzytime",
@@ -1214,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "time",
           "package": "fuzzytime",
@@ -1227,6 +1335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns a FuzzyTimeConf into a FuzzyTime. Works for both FuzzyClock and FuzzyTimer.\n In the clock mode, am (Bool), clock (12 vs. 24-hour), language and style are set apart from the actual time, so that show knows how to display the time.\n In the timer mode, only language and left minutes need to be set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:51 UTC 2014",
           "module": "FuzzyTime",
           "name": "toFuzzyTime",
           "package": "fuzzytime",
@@ -1237,6 +1346,7 @@
         "index": {
           "description": "Turns FuzzyTimeConf into FuzzyTime Works for both FuzzyClock and FuzzyTimer In the clock mode am Bool clock vs hour language and style are set apart from the actual time so that show knows how to display the time In the timer mode only language and left minutes need to be set",
           "hierarchy": "FuzzyTime",
+          "indexed": "2014-03-11T18:13:51",
           "module": "FuzzyTime",
           "name": "toFuzzyTime",
           "normalized": "FuzzyTimeConf-\u003eFuzzyTime",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "containers-benchmark"
+        "phrase": "containers-benchmark",
+        "type": "phrase"
       },
       "type": "context"
     }

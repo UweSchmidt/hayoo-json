@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bytestringparser"
+        "phrase": "bytestringparser",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "ParseError",
           "package": "bytestringparser",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators Attoparsec Char8",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "ParseError",
           "package": "bytestringparser",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "Parser",
           "package": "bytestringparser",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators Attoparsec Char8",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "Parser",
           "package": "bytestringparser",
@@ -86,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "anyChar",
           "package": "bytestringparser",
@@ -95,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators Attoparsec Char8",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "anyChar",
           "package": "bytestringparser",
@@ -109,6 +115,7 @@
       "document": {
         "description": {
           "description": "Satisfy a specific character.\n",
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "char",
           "package": "bytestringparser",
@@ -119,6 +126,7 @@
         "index": {
           "description": "Satisfy specific character",
           "hierarchy": "Data ParserCombinators Attoparsec Char8",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "char",
           "normalized": "Char-\u003eParser Char",
@@ -159,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "digit",
           "package": "bytestringparser",
@@ -168,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators Attoparsec Char8",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "digit",
           "package": "bytestringparser",
@@ -280,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "inClass",
           "package": "bytestringparser",
@@ -289,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators Attoparsec Char8",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "inClass",
           "normalized": "String-\u003eChar-\u003eBool",
@@ -304,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "letter",
           "package": "bytestringparser",
@@ -313,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators Attoparsec Char8",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "letter",
           "package": "bytestringparser",
@@ -402,6 +416,7 @@
       "document": {
         "description": {
           "description": "Satisfy a specific character.\n",
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "notChar",
           "package": "bytestringparser",
@@ -412,6 +427,7 @@
         "index": {
           "description": "Satisfy specific character",
           "hierarchy": "Data ParserCombinators Attoparsec Char8",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "notChar",
           "normalized": "Char-\u003eParser Char",
@@ -454,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "notInClass",
           "package": "bytestringparser",
@@ -463,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators Attoparsec Char8",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "notInClass",
           "normalized": "String-\u003eChar-\u003eBool",
@@ -579,6 +597,7 @@
       "document": {
         "description": {
           "description": "Character parser.\n",
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "satisfy",
           "package": "bytestringparser",
@@ -589,6 +608,7 @@
         "index": {
           "description": "Character parser",
           "hierarchy": "Data ParserCombinators Attoparsec Char8",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "satisfy",
           "normalized": "(Char-\u003eBool)-\u003eParser Char",
@@ -708,6 +728,7 @@
       "document": {
         "description": {
           "description": "Skip over white space.\n",
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "skipSpace",
           "package": "bytestringparser",
@@ -718,6 +739,7 @@
         "index": {
           "description": "Skip over white space",
           "hierarchy": "Data ParserCombinators Attoparsec Char8",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "skipSpace",
           "normalized": "Parser()",
@@ -734,6 +756,7 @@
       "document": {
         "description": {
           "description": "Skip over characters while the predicate is true.\n",
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "skipWhile",
           "package": "bytestringparser",
@@ -744,6 +767,7 @@
         "index": {
           "description": "Skip over characters while the predicate is true",
           "hierarchy": "Data ParserCombinators Attoparsec Char8",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "skipWhile",
           "normalized": "(Char-\u003eBool)-\u003eParser()",
@@ -759,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "space",
           "package": "bytestringparser",
@@ -768,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators Attoparsec Char8",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "space",
           "package": "bytestringparser",
@@ -807,6 +833,7 @@
       "document": {
         "description": {
           "description": "Satisfy a literal string, ignoring case.\n",
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "stringCI",
           "package": "bytestringparser",
@@ -817,6 +844,7 @@
         "index": {
           "description": "Satisfy literal string ignoring case",
           "hierarchy": "Data ParserCombinators Attoparsec Char8",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "stringCI",
           "normalized": "ByteString-\u003eParser ByteString",
@@ -855,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "takeTill",
           "package": "bytestringparser",
@@ -864,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators Attoparsec Char8",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "takeTill",
           "normalized": "(Char-\u003eBool)-\u003eParser ByteString",
@@ -880,6 +910,7 @@
       "document": {
         "description": {
           "description": "Consume characters while the predicate is true.\n",
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "takeWhile",
           "package": "bytestringparser",
@@ -890,6 +921,7 @@
         "index": {
           "description": "Consume characters while the predicate is true",
           "hierarchy": "Data ParserCombinators Attoparsec Char8",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "takeWhile",
           "normalized": "(Char-\u003eBool)-\u003eParser ByteString",
@@ -905,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "takeWhile1",
           "package": "bytestringparser",
@@ -914,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators Attoparsec Char8",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.Char8",
           "name": "takeWhile1",
           "normalized": "(Char-\u003eBool)-\u003eParser ByteString",
@@ -953,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.FastSet",
           "name": "FastSet",
           "package": "bytestringparser",
@@ -961,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators Attoparsec FastSet",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.FastSet",
           "name": "FastSet",
           "package": "bytestringparser",
@@ -974,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.FastSet",
           "name": "fromSet",
           "package": "bytestringparser",
@@ -983,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators Attoparsec FastSet",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.FastSet",
           "name": "fromSet",
           "normalized": "FastSet-\u003eByteString",
@@ -999,6 +1037,7 @@
       "document": {
         "description": {
           "description": "Check the table for membership.\n",
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.FastSet",
           "name": "memberChar",
           "package": "bytestringparser",
@@ -1009,6 +1048,7 @@
         "index": {
           "description": "Check the table for membership",
           "hierarchy": "Data ParserCombinators Attoparsec FastSet",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.FastSet",
           "name": "memberChar",
           "normalized": "Char-\u003eFastSet-\u003eBool",
@@ -1025,6 +1065,7 @@
       "document": {
         "description": {
           "description": "Check the table for membership.\n",
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.FastSet",
           "name": "memberWord8",
           "package": "bytestringparser",
@@ -1035,6 +1076,7 @@
         "index": {
           "description": "Check the table for membership",
           "hierarchy": "Data ParserCombinators Attoparsec FastSet",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.FastSet",
           "name": "memberWord8",
           "normalized": "Word-\u003eFastSet-\u003eBool",
@@ -1051,6 +1093,7 @@
       "document": {
         "description": {
           "description": "Create a character set.\n",
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.FastSet",
           "name": "set",
           "package": "bytestringparser",
@@ -1061,6 +1104,7 @@
         "index": {
           "description": "Create character set",
           "hierarchy": "Data ParserCombinators Attoparsec FastSet",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.FastSet",
           "name": "set",
           "normalized": "ByteString-\u003eFastSet",
@@ -1075,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.Internal",
           "name": "ParseError",
           "package": "bytestringparser",
@@ -1083,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators Attoparsec Internal",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.Internal",
           "name": "ParseError",
           "package": "bytestringparser",
@@ -1096,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec.Internal",
           "name": "Parser",
           "package": "bytestringparser",
@@ -1104,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators Attoparsec Internal",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec.Internal",
           "name": "Parser",
           "package": "bytestringparser",
@@ -1350,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec",
           "name": "ParseError",
           "package": "bytestringparser",
@@ -1358,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators Attoparsec",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec",
           "name": "ParseError",
           "package": "bytestringparser",
@@ -1371,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:11 UTC 2014",
           "module": "Data.ParserCombinators.Attoparsec",
           "name": "Parser",
           "package": "bytestringparser",
@@ -1379,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators Attoparsec",
+          "indexed": "2014-03-11T17:27:11",
           "module": "Data.ParserCombinators.Attoparsec",
           "name": "Parser",
           "package": "bytestringparser",

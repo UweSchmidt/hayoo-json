@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "portable-lines"
+        "phrase": "portable-lines",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:49 UTC 2014",
           "module": "Text.PortableLines.ByteString.Lazy",
           "name": "Lazy",
           "package": "portable-lines",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text PortableLines ByteString Lazy",
+          "indexed": "2014-03-11T19:41:49",
           "module": "Text.PortableLines.ByteString.Lazy",
           "name": "Lazy",
           "package": "portable-lines",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike the \u003ccode\u003e\u003ca\u003elines\u003c/a\u003e\u003c/code\u003e function from Data.ByteString.Lazy.Char8, but treat the\n \u003ccode\u003e\"\\r\\n\"\u003c/code\u003e and \u003ccode\u003e\"\\r\"\u003c/code\u003e sequences as newlines too, not just \u003ccode\u003e\"\\n\"\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eInput is assumed to be in ASCII or an ASCII-compatible encoding (at least\n with respect to newline characters).  For example, UTF-8 is fine, but UTF-16\n is not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:49 UTC 2014",
           "module": "Text.PortableLines.ByteString.Lazy",
           "name": "lines8",
           "package": "portable-lines",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Like the lines function from Data.ByteString.Lazy.Char8 but treat the and sequences as newlines too not just Input is assumed to be in ASCII or an ASCII-compatible encoding at least with respect to newline characters For example UTF-8 is fine but UTF-16 is not",
           "hierarchy": "Text PortableLines ByteString Lazy",
+          "indexed": "2014-03-11T19:41:49",
           "module": "Text.PortableLines.ByteString.Lazy",
           "name": "lines8",
           "normalized": "ByteString-\u003e[ByteString]",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:49 UTC 2014",
           "module": "Text.PortableLines.ByteString",
           "name": "ByteString",
           "package": "portable-lines",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Text PortableLines ByteString",
+          "indexed": "2014-03-11T19:41:49",
           "module": "Text.PortableLines.ByteString",
           "name": "ByteString",
           "package": "portable-lines",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike the \u003ccode\u003e\u003ca\u003elines\u003c/a\u003e\u003c/code\u003e function from Data.ByteString.Char8, but treat the\n \u003ccode\u003e\"\\r\\n\"\u003c/code\u003e and \u003ccode\u003e\"\\r\"\u003c/code\u003e sequences as newlines too, not just \u003ccode\u003e\"\\n\"\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eInput is assumed to be in ASCII or an ASCII-compatible encoding (at least\n with respect to newline characters).  For example, UTF-8 is fine, but UTF-16\n is not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:49 UTC 2014",
           "module": "Text.PortableLines.ByteString",
           "name": "lines8",
           "package": "portable-lines",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Like the lines function from Data.ByteString.Char8 but treat the and sequences as newlines too not just Input is assumed to be in ASCII or an ASCII-compatible encoding at least with respect to newline characters For example UTF-8 is fine but UTF-16 is not",
           "hierarchy": "Text PortableLines ByteString",
+          "indexed": "2014-03-11T19:41:49",
           "module": "Text.PortableLines.ByteString",
           "name": "lines8",
           "normalized": "ByteString-\u003e[ByteString]",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:49 UTC 2014",
           "module": "Text.PortableLines",
           "name": "PortableLines",
           "package": "portable-lines",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Text PortableLines",
+          "indexed": "2014-03-11T19:41:49",
           "module": "Text.PortableLines",
           "name": "PortableLines",
           "package": "portable-lines",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike the \u003ccode\u003e\u003ca\u003elines\u003c/a\u003e\u003c/code\u003e function from Prelude, but treat the \u003ccode\u003e\"\\r\\n\"\u003c/code\u003e and\n   \u003ccode\u003e\"\\r\"\u003c/code\u003e sequences as newlines too, not just \u003ccode\u003e\"\\n\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:49 UTC 2014",
           "module": "Text.PortableLines",
           "name": "lines",
           "package": "portable-lines",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Like the lines function from Prelude but treat the and sequences as newlines too not just",
           "hierarchy": "Text PortableLines",
+          "indexed": "2014-03-11T19:41:49",
           "module": "Text.PortableLines",
           "name": "lines",
           "normalized": "String-\u003e[String]",

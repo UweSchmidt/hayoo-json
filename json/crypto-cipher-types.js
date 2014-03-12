@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "crypto-cipher-types"
+        "phrase": "crypto-cipher-types",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003emutable and unsafe interface for Block ciphers.\n export a BlockCipherIO class\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types.Unsafe",
           "name": "Unsafe",
           "package": "crypto-cipher-types",
@@ -28,6 +29,7 @@
         "index": {
           "description": "mutable and unsafe interface for Block ciphers export BlockCipherIO class",
           "hierarchy": "Crypto Cipher Types Unsafe",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types.Unsafe",
           "name": "Unsafe",
           "package": "crypto-cipher-types",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymmetric block cipher class, mutable API\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types.Unsafe",
           "name": "BlockCipherIO",
           "package": "crypto-cipher-types",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Symmetric block cipher class mutable API",
           "hierarchy": "Crypto Cipher Types Unsafe",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types.Unsafe",
           "name": "BlockCipherIO",
           "package": "crypto-cipher-types",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength of the pointed data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types.Unsafe",
           "name": "BufferLength",
           "package": "crypto-cipher-types",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Length of the pointed data",
           "hierarchy": "Crypto Cipher Types Unsafe",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types.Unsafe",
           "name": "BufferLength",
           "package": "crypto-cipher-types",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epointer to the destination data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types.Unsafe",
           "name": "PtrDest",
           "package": "crypto-cipher-types",
@@ -97,6 +104,7 @@
         "index": {
           "description": "pointer to the destination data",
           "hierarchy": "Crypto Cipher Types Unsafe",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types.Unsafe",
           "name": "PtrDest",
           "package": "crypto-cipher-types",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epointer to the IV data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types.Unsafe",
           "name": "PtrIV",
           "package": "crypto-cipher-types",
@@ -120,6 +129,7 @@
         "index": {
           "description": "pointer to the IV data",
           "hierarchy": "Crypto Cipher Types Unsafe",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types.Unsafe",
           "name": "PtrIV",
           "package": "crypto-cipher-types",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epointer to the source data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types.Unsafe",
           "name": "PtrSource",
           "package": "crypto-cipher-types",
@@ -143,6 +154,7 @@
         "index": {
           "description": "pointer to the source data",
           "hierarchy": "Crypto Cipher Types Unsafe",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types.Unsafe",
           "name": "PtrSource",
           "package": "crypto-cipher-types",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edecrypt using the CBC mode.\n\u003c/p\u003e\u003cp\u003einput need to be a multiple of the blocksize\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types.Unsafe",
           "name": "cbcDecryptMutable",
           "package": "crypto-cipher-types",
@@ -167,6 +180,7 @@
         "index": {
           "description": "decrypt using the CBC mode input need to be multiple of the blocksize",
           "hierarchy": "Crypto Cipher Types Unsafe",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types.Unsafe",
           "name": "cbcDecryptMutable",
           "normalized": "a-\u003ePtrIV-\u003ePtrDest-\u003ePtrSource-\u003eBufferLength-\u003eIO()",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eencrypt using the CBC mode.\n\u003c/p\u003e\u003cp\u003einput need to be a multiple of the blocksize\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types.Unsafe",
           "name": "cbcEncryptMutable",
           "package": "crypto-cipher-types",
@@ -193,6 +208,7 @@
         "index": {
           "description": "encrypt using the CBC mode input need to be multiple of the blocksize",
           "hierarchy": "Crypto Cipher Types Unsafe",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types.Unsafe",
           "name": "cbcEncryptMutable",
           "normalized": "a-\u003ePtrIV-\u003ePtrDest-\u003ePtrSource-\u003eBufferLength-\u003eIO()",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrypt using the ECB mode.\n\u003c/p\u003e\u003cp\u003einput need to be a multiple of the blocksize\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types.Unsafe",
           "name": "ecbDecryptMutable",
           "package": "crypto-cipher-types",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Decrypt using the ECB mode input need to be multiple of the blocksize",
           "hierarchy": "Crypto Cipher Types Unsafe",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types.Unsafe",
           "name": "ecbDecryptMutable",
           "normalized": "a-\u003ePtrDest-\u003ePtrSource-\u003eBufferLength-\u003eIO()",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncrypt using the ECB mode.\n\u003c/p\u003e\u003cp\u003einput need to be a multiple of the blocksize\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types.Unsafe",
           "name": "ecbEncryptMutable",
           "package": "crypto-cipher-types",
@@ -245,6 +264,7 @@
         "index": {
           "description": "Encrypt using the ECB mode input need to be multiple of the blocksize",
           "hierarchy": "Crypto Cipher Types Unsafe",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types.Unsafe",
           "name": "ecbEncryptMutable",
           "normalized": "a-\u003ePtrDest-\u003ePtrSource-\u003eBufferLength-\u003eIO()",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper to use a purer interface\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types.Unsafe",
           "name": "onBlock",
           "package": "crypto-cipher-types",
@@ -271,6 +292,7 @@
         "index": {
           "description": "Helper to use purer interface",
           "hierarchy": "Crypto Cipher Types Unsafe",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types.Unsafe",
           "name": "onBlock",
           "normalized": "a-\u003e(ByteString-\u003eByteString)-\u003ePtrDest-\u003ePtrSource-\u003eBufferLength-\u003eIO()",
@@ -287,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003esymmetric cipher basic types\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "Types",
           "package": "crypto-cipher-types",
@@ -296,6 +319,7 @@
         "index": {
           "description": "symmetric cipher basic types",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "Types",
           "package": "crypto-cipher-types",
@@ -310,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthenticated Encryption with Associated Data algorithms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "AEAD",
           "package": "crypto-cipher-types",
@@ -319,6 +344,7 @@
         "index": {
           "description": "Authenticated Encryption with Associated Data algorithms",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "AEAD",
           "package": "crypto-cipher-types",
@@ -333,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAEAD Mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "AEADMode",
           "package": "crypto-cipher-types",
@@ -342,6 +369,7 @@
         "index": {
           "description": "AEAD Mode",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "AEADMode",
           "package": "crypto-cipher-types",
@@ -356,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of AEAD Mode implementation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "AEADModeImpl",
           "package": "crypto-cipher-types",
@@ -365,6 +394,7 @@
         "index": {
           "description": "Class of AEAD Mode implementation",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "AEADModeImpl",
           "package": "crypto-cipher-types",
@@ -379,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for any AEADState\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "AEADState",
           "package": "crypto-cipher-types",
@@ -388,6 +419,7 @@
         "index": {
           "description": "Wrapper for any AEADState",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "AEADState",
           "package": "crypto-cipher-types",
@@ -402,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthentification Tag for AE cipher mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "AuthTag",
           "package": "crypto-cipher-types",
@@ -411,6 +444,7 @@
         "index": {
           "description": "Authentification Tag for AE cipher mode",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "AuthTag",
           "package": "crypto-cipher-types",
@@ -425,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymmetric block cipher class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "BlockCipher",
           "package": "crypto-cipher-types",
@@ -434,6 +469,7 @@
         "index": {
           "description": "Symmetric block cipher class",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "BlockCipher",
           "package": "crypto-cipher-types",
@@ -448,6 +484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymmetric cipher class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "Cipher",
           "package": "crypto-cipher-types",
@@ -457,6 +494,7 @@
         "index": {
           "description": "Symmetric cipher class",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "Cipher",
           "package": "crypto-cipher-types",
@@ -471,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOffset inside an XTS data unit, measured in block size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "DataUnitOffset",
           "package": "crypto-cipher-types",
@@ -480,6 +519,7 @@
         "index": {
           "description": "Offset inside an XTS data unit measured in block size",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "DataUnitOffset",
           "package": "crypto-cipher-types",
@@ -494,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean IV parametrized by the cipher\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "IV",
           "package": "crypto-cipher-types",
@@ -503,6 +544,7 @@
         "index": {
           "description": "an IV parametrized by the cipher",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "IV",
           "package": "crypto-cipher-types",
@@ -517,6 +559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea Key parametrized by the cipher\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "Key",
           "package": "crypto-cipher-types",
@@ -526,6 +569,7 @@
         "index": {
           "description": "Key parametrized by the cipher",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "Key",
           "package": "crypto-cipher-types",
@@ -540,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible Error that can be reported when initializating a key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "KeyError",
           "package": "crypto-cipher-types",
@@ -549,6 +594,7 @@
         "index": {
           "description": "Possible Error that can be reported when initializating key",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "KeyError",
           "package": "crypto-cipher-types",
@@ -563,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifferent specifier for key size in bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "KeySizeSpecifier",
           "package": "crypto-cipher-types",
@@ -572,6 +619,7 @@
         "index": {
           "description": "Different specifier for key size in bytes",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "KeySizeSpecifier",
           "package": "crypto-cipher-types",
@@ -586,6 +634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymmetric stream cipher class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "StreamCipher",
           "package": "crypto-cipher-types",
@@ -595,6 +644,7 @@
         "index": {
           "description": "Symmetric stream cipher class",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "StreamCipher",
           "package": "crypto-cipher-types",
@@ -608,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "AEAD",
           "package": "crypto-cipher-types",
@@ -617,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "AEAD",
           "package": "crypto-cipher-types",
@@ -630,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "AEADState",
           "package": "crypto-cipher-types",
@@ -639,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "AEADState",
           "package": "crypto-cipher-types",
@@ -652,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "AEAD_CCM",
           "package": "crypto-cipher-types",
@@ -661,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "AEAD_CCM",
           "package": "crypto-cipher-types",
@@ -674,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "AEAD_CWC",
           "package": "crypto-cipher-types",
@@ -683,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "AEAD_CWC",
           "package": "crypto-cipher-types",
@@ -696,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "AEAD_EAX",
           "package": "crypto-cipher-types",
@@ -705,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "AEAD_EAX",
           "package": "crypto-cipher-types",
@@ -718,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "AEAD_GCM",
           "package": "crypto-cipher-types",
@@ -727,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "AEAD_GCM",
           "package": "crypto-cipher-types",
@@ -740,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "AEAD_OCB",
           "package": "crypto-cipher-types",
@@ -749,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "AEAD_OCB",
           "package": "crypto-cipher-types",
@@ -762,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "AuthTag",
           "package": "crypto-cipher-types",
@@ -771,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "AuthTag",
           "package": "crypto-cipher-types",
@@ -784,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "KeyErrorInvalid",
           "package": "crypto-cipher-types",
@@ -793,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "KeyErrorInvalid",
           "package": "crypto-cipher-types",
@@ -806,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "KeyErrorTooBig",
           "package": "crypto-cipher-types",
@@ -815,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "KeyErrorTooBig",
           "package": "crypto-cipher-types",
@@ -828,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "KeyErrorTooSmall",
           "package": "crypto-cipher-types",
@@ -837,6 +908,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "KeyErrorTooSmall",
           "package": "crypto-cipher-types",
@@ -851,6 +923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eone of the specified values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "KeySizeEnum",
           "package": "crypto-cipher-types",
@@ -861,6 +934,7 @@
         "index": {
           "description": "one of the specified values",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "KeySizeEnum",
           "normalized": "KeySizeEnum[Int]",
@@ -877,6 +951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea specific size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "KeySizeFixed",
           "package": "crypto-cipher-types",
@@ -887,6 +962,7 @@
         "index": {
           "description": "specific size",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "KeySizeFixed",
           "package": "crypto-cipher-types",
@@ -901,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ein the range [min,max]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "KeySizeRange",
           "package": "crypto-cipher-types",
@@ -911,6 +988,7 @@
         "index": {
           "description": "in the range min max",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "KeySizeRange",
           "package": "crypto-cipher-types",
@@ -925,6 +1003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend associated data into the AEAD state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "aeadAppendHeader",
           "package": "crypto-cipher-types",
@@ -935,6 +1014,7 @@
         "index": {
           "description": "Append associated data into the AEAD state",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "aeadAppendHeader",
           "normalized": "AEAD a-\u003eByteString-\u003eAEAD a",
@@ -951,6 +1031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrypt input and append into the AEAD state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "aeadDecrypt",
           "package": "crypto-cipher-types",
@@ -961,6 +1042,7 @@
         "index": {
           "description": "Decrypt input and append into the AEAD state",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "aeadDecrypt",
           "normalized": "AEAD a-\u003eByteString-\u003e(ByteString,AEAD a)",
@@ -977,6 +1059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncrypt input and append into the AEAD state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "aeadEncrypt",
           "package": "crypto-cipher-types",
@@ -987,6 +1070,7 @@
         "index": {
           "description": "Encrypt input and append into the AEAD state",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "aeadEncrypt",
           "normalized": "AEAD a-\u003eByteString-\u003e(ByteString,AEAD a)",
@@ -1003,6 +1087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinalize the AEAD state and create an authentification tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "aeadFinalize",
           "package": "crypto-cipher-types",
@@ -1013,6 +1098,7 @@
         "index": {
           "description": "Finalize the AEAD state and create an authentification tag",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "aeadFinalize",
           "normalized": "AEAD a-\u003eInt-\u003eAuthTag",
@@ -1029,6 +1115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize a new AEAD State\n\u003c/p\u003e\u003cp\u003eWhen Nothing is returns, it means the mode is not handled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "aeadInit",
           "package": "crypto-cipher-types",
@@ -1039,6 +1126,7 @@
         "index": {
           "description": "Initialize new AEAD State When Nothing is returns it means the mode is not handled",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "aeadInit",
           "normalized": "AEADMode-\u003ea-\u003eb-\u003eMaybe(AEAD a)",
@@ -1055,6 +1143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple AEAD decryption\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "aeadSimpleDecrypt",
           "package": "crypto-cipher-types",
@@ -1064,6 +1153,7 @@
         "index": {
           "description": "Simple AEAD decryption",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "aeadSimpleDecrypt",
           "normalized": "AEAD a-\u003eByteString-\u003eByteString-\u003eAuthTag-\u003eMaybe ByteString",
@@ -1080,6 +1170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple AEAD encryption\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "aeadSimpleEncrypt",
           "package": "crypto-cipher-types",
@@ -1089,6 +1180,7 @@
         "index": {
           "description": "Simple AEAD encryption",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "aeadSimpleEncrypt",
           "normalized": "AEAD a-\u003eByteString-\u003eByteString-\u003eInt-\u003e(AuthTag,ByteString)",
@@ -1104,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "aeadStateAppendHeader",
           "package": "crypto-cipher-types",
@@ -1113,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "aeadStateAppendHeader",
           "normalized": "a-\u003eb-\u003eByteString-\u003eb",
@@ -1128,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "aeadStateDecrypt",
           "package": "crypto-cipher-types",
@@ -1137,6 +1232,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "aeadStateDecrypt",
           "normalized": "a-\u003eb-\u003eByteString-\u003e(ByteString,b)",
@@ -1152,6 +1248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "aeadStateEncrypt",
           "package": "crypto-cipher-types",
@@ -1161,6 +1258,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "aeadStateEncrypt",
           "normalized": "a-\u003eb-\u003eByteString-\u003e(ByteString,b)",
@@ -1176,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "aeadStateFinalize",
           "package": "crypto-cipher-types",
@@ -1185,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "aeadStateFinalize",
           "normalized": "a-\u003eb-\u003eInt-\u003eAuthTag",
@@ -1201,6 +1301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the size of block required for this block cipher\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "blockSize",
           "package": "crypto-cipher-types",
@@ -1211,6 +1312,7 @@
         "index": {
           "description": "Return the size of block required for this block cipher",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "blockSize",
           "normalized": "a-\u003eInt",
@@ -1227,6 +1329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edecrypt using the CBC mode.\n\u003c/p\u003e\u003cp\u003einput need to be a multiple of the blocksize\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "cbcDecrypt",
           "package": "crypto-cipher-types",
@@ -1237,6 +1340,7 @@
         "index": {
           "description": "decrypt using the CBC mode input need to be multiple of the blocksize",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "cbcDecrypt",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003eByteString",
@@ -1253,6 +1357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eencrypt using the CBC mode.\n\u003c/p\u003e\u003cp\u003einput need to be a multiple of the blocksize\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "cbcEncrypt",
           "package": "crypto-cipher-types",
@@ -1263,6 +1368,7 @@
         "index": {
           "description": "encrypt using the CBC mode input need to be multiple of the blocksize",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "cbcEncrypt",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003eByteString",
@@ -1279,6 +1385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrypt using CFB mode in 8 bit output\n\u003c/p\u003e\u003cp\u003eEffectively turn a Block cipher in CFB mode into a Stream cipher\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "cfb8Decrypt",
           "package": "crypto-cipher-types",
@@ -1289,6 +1396,7 @@
         "index": {
           "description": "Decrypt using CFB mode in bit output Effectively turn Block cipher in CFB mode into Stream cipher",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "cfb8Decrypt",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003eByteString",
@@ -1305,6 +1413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncrypt using CFB mode in 8 bit output\n\u003c/p\u003e\u003cp\u003eEffectively turn a Block cipher in CFB mode into a Stream cipher\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "cfb8Encrypt",
           "package": "crypto-cipher-types",
@@ -1315,6 +1424,7 @@
         "index": {
           "description": "Encrypt using CFB mode in bit output Effectively turn Block cipher in CFB mode into Stream cipher",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "cfb8Encrypt",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003eByteString",
@@ -1331,6 +1441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edecrypt using the CFB mode.\n\u003c/p\u003e\u003cp\u003einput need to be a multiple of the blocksize\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "cfbDecrypt",
           "package": "crypto-cipher-types",
@@ -1341,6 +1452,7 @@
         "index": {
           "description": "decrypt using the CFB mode input need to be multiple of the blocksize",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "cfbDecrypt",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003eByteString",
@@ -1357,6 +1469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eencrypt using the CFB mode.\n\u003c/p\u003e\u003cp\u003einput need to be a multiple of the blocksize\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "cfbEncrypt",
           "package": "crypto-cipher-types",
@@ -1367,6 +1480,7 @@
         "index": {
           "description": "encrypt using the CFB mode input need to be multiple of the blocksize",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "cfbEncrypt",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003eByteString",
@@ -1383,6 +1497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize a cipher context from a key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "cipherInit",
           "package": "crypto-cipher-types",
@@ -1393,6 +1508,7 @@
         "index": {
           "description": "Initialize cipher context from key",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "cipherInit",
           "normalized": "Key a-\u003ea",
@@ -1409,6 +1525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the size of the key required for this cipher.\n Some cipher accept any size for key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "cipherKeySize",
           "package": "crypto-cipher-types",
@@ -1419,6 +1536,7 @@
         "index": {
           "description": "return the size of the key required for this cipher Some cipher accept any size for key",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "cipherKeySize",
           "normalized": "a-\u003eKeySizeSpecifier",
@@ -1435,6 +1553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCipher name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "cipherName",
           "package": "crypto-cipher-types",
@@ -1445,6 +1564,7 @@
         "index": {
           "description": "Cipher name",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "cipherName",
           "normalized": "a-\u003eString",
@@ -1461,6 +1581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecombine using the CTR mode.\n\u003c/p\u003e\u003cp\u003eCTR mode produce a stream of randomized data that is combined\n (by XOR operation) with the input stream.\n\u003c/p\u003e\u003cp\u003eencryption and decryption are the same operation.\n\u003c/p\u003e\u003cp\u003einput can be of any size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "ctrCombine",
           "package": "crypto-cipher-types",
@@ -1471,6 +1592,7 @@
         "index": {
           "description": "combine using the CTR mode CTR mode produce stream of randomized data that is combined by XOR operation with the input stream encryption and decryption are the same operation input can be of any size",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "ctrCombine",
           "normalized": "a-\u003eIV a-\u003eByteString-\u003eByteString",
@@ -1487,6 +1609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrypt blocks\n\u003c/p\u003e\u003cp\u003ethe input string need to be multiple of the block size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "ecbDecrypt",
           "package": "crypto-cipher-types",
@@ -1497,6 +1620,7 @@
         "index": {
           "description": "Decrypt blocks the input string need to be multiple of the block size",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "ecbDecrypt",
           "normalized": "a-\u003eByteString-\u003eByteString",
@@ -1513,6 +1637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncrypt blocks\n\u003c/p\u003e\u003cp\u003ethe input string need to be multiple of the block size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "ecbEncrypt",
           "package": "crypto-cipher-types",
@@ -1523,6 +1648,7 @@
         "index": {
           "description": "Encrypt blocks the input string need to be multiple of the block size",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "ecbEncrypt",
           "normalized": "a-\u003eByteString-\u003eByteString",
@@ -1539,6 +1665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrement an IV by a number.\n\u003c/p\u003e\u003cp\u003eAssume the IV is in Big Endian format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "ivAdd",
           "package": "crypto-cipher-types",
@@ -1549,6 +1676,7 @@
         "index": {
           "description": "Increment an IV by number Assume the IV is in Big Endian format",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "ivAdd",
           "normalized": "IV a-\u003eInt-\u003eIV a",
@@ -1565,6 +1693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an IV for a specified block cipher\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "makeIV",
           "package": "crypto-cipher-types",
@@ -1575,6 +1704,7 @@
         "index": {
           "description": "Create an IV for specified block cipher",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "makeIV",
           "normalized": "a-\u003eMaybe(IV b)",
@@ -1591,6 +1721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Key for a specified cipher\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "makeKey",
           "package": "crypto-cipher-types",
@@ -1601,6 +1732,7 @@
         "index": {
           "description": "Create Key for specified cipher",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "makeKey",
           "normalized": "a-\u003eEither KeyError(Key b)",
@@ -1617,6 +1749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an IV that is effectively representing the number 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "nullIV",
           "package": "crypto-cipher-types",
@@ -1627,6 +1760,7 @@
         "index": {
           "description": "Create an IV that is effectively representing the number",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "nullIV",
           "package": "crypto-cipher-types",
@@ -1641,6 +1775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine using the stream cipher\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "streamCombine",
           "package": "crypto-cipher-types",
@@ -1651,6 +1786,7 @@
         "index": {
           "description": "Combine using the stream cipher",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "streamCombine",
           "normalized": "a-\u003eByteString-\u003e(ByteString,a)",
@@ -1667,6 +1803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edecrypt using the XTS mode.\n\u003c/p\u003e\u003cp\u003einput need to be a multiple of the blocksize, and the cipher\n need to process 128 bits block only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "xtsDecrypt",
           "package": "crypto-cipher-types",
@@ -1677,6 +1814,7 @@
         "index": {
           "description": "decrypt using the XTS mode input need to be multiple of the blocksize and the cipher need to process bits block only",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "xtsDecrypt",
           "package": "crypto-cipher-types",
@@ -1691,6 +1829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eencrypt using the XTS mode.\n\u003c/p\u003e\u003cp\u003einput need to be a multiple of the blocksize, and the cipher\n need to process 128 bits block only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:40 UTC 2014",
           "module": "Crypto.Cipher.Types",
           "name": "xtsEncrypt",
           "package": "crypto-cipher-types",
@@ -1701,6 +1840,7 @@
         "index": {
           "description": "encrypt using the XTS mode input need to be multiple of the blocksize and the cipher need to process bits block only",
           "hierarchy": "Crypto Cipher Types",
+          "indexed": "2014-03-11T17:43:40",
           "module": "Crypto.Cipher.Types",
           "name": "xtsEncrypt",
           "package": "crypto-cipher-types",

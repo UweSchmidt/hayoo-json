@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scope-cairo"
+        "phrase": "scope-cairo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:21 UTC 2014",
           "module": "Scope.Cairo",
           "name": "Cairo",
           "package": "scope-cairo",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Scope Cairo",
+          "indexed": "2014-03-11T19:58:21",
           "module": "Scope.Cairo",
           "name": "Cairo",
           "package": "scope-cairo",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:21 UTC 2014",
           "module": "Scope.Cairo",
           "name": "ViewCairo",
           "package": "scope-cairo",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Scope Cairo",
+          "indexed": "2014-03-11T19:58:21",
           "module": "Scope.Cairo",
           "name": "ViewCairo",
           "package": "scope-cairo",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:21 UTC 2014",
           "module": "Scope.Cairo",
           "name": "ViewCairo",
           "package": "scope-cairo",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Scope Cairo",
+          "indexed": "2014-03-11T19:58:21",
           "module": "Scope.Cairo",
           "name": "ViewCairo",
           "package": "scope-cairo",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:21 UTC 2014",
           "module": "Scope.Cairo",
           "name": "adj",
           "package": "scope-cairo",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Scope Cairo",
+          "indexed": "2014-03-11T19:58:21",
           "module": "Scope.Cairo",
           "name": "adj",
           "package": "scope-cairo",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:21 UTC 2014",
           "module": "Scope.Cairo",
           "name": "canvas",
           "package": "scope-cairo",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Scope Cairo",
+          "indexed": "2014-03-11T19:58:21",
           "module": "Scope.Cairo",
           "name": "canvas",
           "package": "scope-cairo",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:21 UTC 2014",
           "module": "Scope.Cairo",
           "name": "keepState",
           "package": "scope-cairo",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Scope Cairo",
+          "indexed": "2014-03-11T19:58:21",
           "module": "Scope.Cairo",
           "name": "keepState",
           "normalized": "Render a-\u003eRender()",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:21 UTC 2014",
           "module": "Scope.Cairo",
           "name": "scopeCairoNew",
           "package": "scope-cairo",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Scope Cairo",
+          "indexed": "2014-03-11T19:58:21",
           "module": "Scope.Cairo",
           "name": "scopeCairoNew",
           "normalized": "DrawingArea-\u003eAdjustment-\u003eScope ViewCairo",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:21 UTC 2014",
           "module": "Scope.Cairo",
           "name": "viewCairoInit",
           "package": "scope-cairo",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Scope Cairo",
+          "indexed": "2014-03-11T19:58:21",
           "module": "Scope.Cairo",
           "name": "viewCairoInit",
           "normalized": "DrawingArea-\u003eAdjustment-\u003eViewCairo",

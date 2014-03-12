@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "OpenVG"
+        "phrase": "OpenVG",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "alsa"
+        "phrase": "alsa",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "Core",
           "package": "alsa",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "Core",
           "package": "alsa",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "Pcm",
           "package": "alsa",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "Pcm",
           "package": "alsa",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmAccess",
           "package": "alsa",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmAccess",
           "package": "alsa",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormat",
           "package": "alsa",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormat",
           "package": "alsa",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmHwParams",
           "package": "alsa",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmHwParams",
           "package": "alsa",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmStream",
           "package": "alsa",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmStream",
           "package": "alsa",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmSwParams",
           "package": "alsa",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmSwParams",
           "package": "alsa",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "Pcm",
           "package": "alsa",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "Pcm",
           "package": "alsa",
@@ -187,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmAccessLast",
           "package": "alsa",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmAccessLast",
           "package": "alsa",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmAccessMmapComplex",
           "package": "alsa",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmAccessMmapComplex",
           "package": "alsa",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmAccessMmapInterleaved",
           "package": "alsa",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmAccessMmapInterleaved",
           "package": "alsa",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmAccessMmapNoninterleaved",
           "package": "alsa",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmAccessMmapNoninterleaved",
           "package": "alsa",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmAccessRwInterleaved",
           "package": "alsa",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmAccessRwInterleaved",
           "package": "alsa",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmAccessRwNoninterleaved",
           "package": "alsa",
@@ -306,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmAccessRwNoninterleaved",
           "package": "alsa",
@@ -319,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatALaw",
           "package": "alsa",
@@ -328,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatALaw",
           "package": "alsa",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatFloat",
           "package": "alsa",
@@ -350,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatFloat",
           "package": "alsa",
@@ -363,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatFloat64",
           "package": "alsa",
@@ -372,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatFloat64",
           "package": "alsa",
@@ -385,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatFloat64Be",
           "package": "alsa",
@@ -394,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatFloat64Be",
           "package": "alsa",
@@ -407,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatFloat64Le",
           "package": "alsa",
@@ -416,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatFloat64Le",
           "package": "alsa",
@@ -429,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatFloatBe",
           "package": "alsa",
@@ -438,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatFloatBe",
           "package": "alsa",
@@ -451,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatFloatLe",
           "package": "alsa",
@@ -460,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatFloatLe",
           "package": "alsa",
@@ -473,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatGsm",
           "package": "alsa",
@@ -482,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatGsm",
           "package": "alsa",
@@ -495,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatIec958Subframe",
           "package": "alsa",
@@ -504,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatIec958Subframe",
           "package": "alsa",
@@ -517,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatIec958SubframeBe",
           "package": "alsa",
@@ -526,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatIec958SubframeBe",
           "package": "alsa",
@@ -539,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatIec958SubframeLe",
           "package": "alsa",
@@ -548,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatIec958SubframeLe",
           "package": "alsa",
@@ -561,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatImaAdpcm",
           "package": "alsa",
@@ -570,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatImaAdpcm",
           "package": "alsa",
@@ -583,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatLast",
           "package": "alsa",
@@ -592,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatLast",
           "package": "alsa",
@@ -605,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatMpeg",
           "package": "alsa",
@@ -614,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatMpeg",
           "package": "alsa",
@@ -627,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatMuLaw",
           "package": "alsa",
@@ -636,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatMuLaw",
           "package": "alsa",
@@ -649,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS16",
           "package": "alsa",
@@ -658,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS16",
           "package": "alsa",
@@ -671,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS16Be",
           "package": "alsa",
@@ -680,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS16Be",
           "package": "alsa",
@@ -693,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS16Le",
           "package": "alsa",
@@ -702,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS16Le",
           "package": "alsa",
@@ -715,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS183be",
           "package": "alsa",
@@ -724,6 +789,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS183be",
           "package": "alsa",
@@ -737,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS183le",
           "package": "alsa",
@@ -746,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS183le",
           "package": "alsa",
@@ -759,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS203be",
           "package": "alsa",
@@ -768,6 +837,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS203be",
           "package": "alsa",
@@ -781,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS203le",
           "package": "alsa",
@@ -790,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS203le",
           "package": "alsa",
@@ -803,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS24",
           "package": "alsa",
@@ -812,6 +885,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS24",
           "package": "alsa",
@@ -825,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS243be",
           "package": "alsa",
@@ -834,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS243be",
           "package": "alsa",
@@ -847,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS243le",
           "package": "alsa",
@@ -856,6 +933,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS243le",
           "package": "alsa",
@@ -869,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS24Be",
           "package": "alsa",
@@ -878,6 +957,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS24Be",
           "package": "alsa",
@@ -891,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS24Le",
           "package": "alsa",
@@ -900,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS24Le",
           "package": "alsa",
@@ -913,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS32",
           "package": "alsa",
@@ -922,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS32",
           "package": "alsa",
@@ -935,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS32Be",
           "package": "alsa",
@@ -944,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS32Be",
           "package": "alsa",
@@ -957,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS32Le",
           "package": "alsa",
@@ -966,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS32Le",
           "package": "alsa",
@@ -979,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS8",
           "package": "alsa",
@@ -988,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatS8",
           "package": "alsa",
@@ -1001,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatSpecial",
           "package": "alsa",
@@ -1010,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatSpecial",
           "package": "alsa",
@@ -1023,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU16",
           "package": "alsa",
@@ -1032,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU16",
           "package": "alsa",
@@ -1045,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU16Be",
           "package": "alsa",
@@ -1054,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU16Be",
           "package": "alsa",
@@ -1067,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU16Le",
           "package": "alsa",
@@ -1076,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU16Le",
           "package": "alsa",
@@ -1089,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU183be",
           "package": "alsa",
@@ -1098,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU183be",
           "package": "alsa",
@@ -1111,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU183le",
           "package": "alsa",
@@ -1120,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU183le",
           "package": "alsa",
@@ -1133,6 +1235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU203be",
           "package": "alsa",
@@ -1142,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU203be",
           "package": "alsa",
@@ -1155,6 +1259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU203le",
           "package": "alsa",
@@ -1164,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU203le",
           "package": "alsa",
@@ -1177,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU24",
           "package": "alsa",
@@ -1186,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU24",
           "package": "alsa",
@@ -1199,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU243be",
           "package": "alsa",
@@ -1208,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU243be",
           "package": "alsa",
@@ -1221,6 +1331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU243le",
           "package": "alsa",
@@ -1230,6 +1341,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU243le",
           "package": "alsa",
@@ -1243,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU24Be",
           "package": "alsa",
@@ -1252,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU24Be",
           "package": "alsa",
@@ -1265,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU24Le",
           "package": "alsa",
@@ -1274,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU24Le",
           "package": "alsa",
@@ -1287,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU32",
           "package": "alsa",
@@ -1296,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU32",
           "package": "alsa",
@@ -1309,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU32Be",
           "package": "alsa",
@@ -1318,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU32Be",
           "package": "alsa",
@@ -1331,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU32Le",
           "package": "alsa",
@@ -1340,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU32Le",
           "package": "alsa",
@@ -1353,6 +1475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU8",
           "package": "alsa",
@@ -1362,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatU8",
           "package": "alsa",
@@ -1375,6 +1499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatUnknown",
           "package": "alsa",
@@ -1384,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmFormatUnknown",
           "package": "alsa",
@@ -1397,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmHwParams",
           "package": "alsa",
@@ -1406,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmHwParams",
           "package": "alsa",
@@ -1419,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmStreamCapture",
           "package": "alsa",
@@ -1428,6 +1557,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmStreamCapture",
           "package": "alsa",
@@ -1441,6 +1571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmStreamLast",
           "package": "alsa",
@@ -1450,6 +1581,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmStreamLast",
           "package": "alsa",
@@ -1463,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmStreamPlayback",
           "package": "alsa",
@@ -1472,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmStreamPlayback",
           "package": "alsa",
@@ -1485,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "PcmSwParams",
           "package": "alsa",
@@ -1494,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "PcmSwParams",
           "package": "alsa",
@@ -1507,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "intToOrdering",
           "package": "alsa",
@@ -1516,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "intToOrdering",
           "normalized": "CInt-\u003eOrdering",
@@ -1531,6 +1669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "orderingToInt",
           "package": "alsa",
@@ -1540,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "orderingToInt",
           "normalized": "Ordering-\u003eCInt",
@@ -1555,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_close",
           "package": "alsa",
@@ -1564,6 +1705,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_close",
           "normalized": "Pcm-\u003eIO()",
@@ -1578,6 +1720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_close'_",
           "package": "alsa",
@@ -1587,6 +1730,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_close'_",
           "normalized": "Pcm-\u003eIO CInt",
@@ -1601,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_drain",
           "package": "alsa",
@@ -1610,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_drain",
           "normalized": "Pcm-\u003eIO()",
@@ -1624,6 +1770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_drain'_",
           "package": "alsa",
@@ -1633,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_drain'_",
           "normalized": "Pcm-\u003eIO CInt",
@@ -1647,6 +1795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_drop",
           "package": "alsa",
@@ -1656,6 +1805,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_drop",
           "normalized": "Pcm-\u003eIO()",
@@ -1670,6 +1820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_drop'_",
           "package": "alsa",
@@ -1679,6 +1830,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_drop'_",
           "normalized": "Pcm-\u003eIO CInt",
@@ -1693,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params",
           "package": "alsa",
@@ -1702,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params",
           "normalized": "Pcm-\u003ePcmHwParams-\u003eIO()",
@@ -1716,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params'_",
           "package": "alsa",
@@ -1725,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params'_",
           "normalized": "Pcm-\u003ePcmHwParams-\u003eIO CInt",
@@ -1739,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_any",
           "package": "alsa",
@@ -1748,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_any",
           "normalized": "Pcm-\u003ePcmHwParams-\u003eIO()",
@@ -1762,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_any'_",
           "package": "alsa",
@@ -1771,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_any'_",
           "normalized": "Pcm-\u003ePcmHwParams-\u003eIO CInt",
@@ -1785,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_free",
           "package": "alsa",
@@ -1794,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_free",
           "normalized": "PcmHwParams-\u003eIO()",
@@ -1808,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_free'_",
           "package": "alsa",
@@ -1817,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_free'_",
           "normalized": "PcmHwParams-\u003eIO()",
@@ -1831,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_get_buffer_size",
           "package": "alsa",
@@ -1840,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_get_buffer_size",
           "normalized": "PcmHwParams-\u003eIO Int",
@@ -1854,6 +2020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_get_buffer_size'_",
           "package": "alsa",
@@ -1863,6 +2030,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_get_buffer_size'_",
           "normalized": "PcmHwParams-\u003ePtr CULong-\u003eIO CInt",
@@ -1877,6 +2045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_get_buffer_time",
           "package": "alsa",
@@ -1886,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_get_buffer_time",
           "normalized": "PcmHwParams-\u003eIO(Int,Ordering)",
@@ -1900,6 +2070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_get_buffer_time'_",
           "package": "alsa",
@@ -1909,6 +2080,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_get_buffer_time'_",
           "normalized": "PcmHwParams-\u003ePtr CUInt-\u003ePtr CInt-\u003eIO CInt",
@@ -1923,6 +2095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_get_period_size",
           "package": "alsa",
@@ -1932,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_get_period_size",
           "normalized": "PcmHwParams-\u003eIO(Int,Ordering)",
@@ -1946,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_get_period_size'_",
           "package": "alsa",
@@ -1955,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_get_period_size'_",
           "normalized": "PcmHwParams-\u003ePtr CULong-\u003ePtr CInt-\u003eIO CInt",
@@ -1969,6 +2145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_malloc",
           "package": "alsa",
@@ -1978,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_malloc",
           "package": "alsa",
@@ -1990,6 +2168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_malloc'_",
           "package": "alsa",
@@ -1999,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_malloc'_",
           "normalized": "Ptr PcmHwParams-\u003eIO CInt",
@@ -2013,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_access",
           "package": "alsa",
@@ -2022,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_access",
           "normalized": "Pcm-\u003ePcmHwParams-\u003ePcmAccess-\u003eIO()",
@@ -2036,6 +2218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_access'_",
           "package": "alsa",
@@ -2045,6 +2228,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_access'_",
           "normalized": "Pcm-\u003ePcmHwParams-\u003eCInt-\u003eIO CInt",
@@ -2059,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_buffer_size",
           "package": "alsa",
@@ -2068,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_buffer_size",
           "normalized": "Pcm-\u003ePcmHwParams-\u003eInt-\u003eIO()",
@@ -2082,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_buffer_size'_",
           "package": "alsa",
@@ -2091,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_buffer_size'_",
           "normalized": "Pcm-\u003ePcmHwParams-\u003eCULong-\u003eIO CInt",
@@ -2105,6 +2293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_buffer_time_near",
           "package": "alsa",
@@ -2114,6 +2303,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_buffer_time_near",
           "normalized": "Pcm-\u003ePcmHwParams-\u003eInt-\u003eOrdering-\u003eIO(Int,Ordering)",
@@ -2128,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_buffer_time_near'_",
           "package": "alsa",
@@ -2137,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_buffer_time_near'_",
           "normalized": "Pcm-\u003ePcmHwParams-\u003ePtr CUInt-\u003ePtr CInt-\u003eIO CInt",
@@ -2151,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_channels",
           "package": "alsa",
@@ -2160,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_channels",
           "normalized": "Pcm-\u003ePcmHwParams-\u003eInt-\u003eIO()",
@@ -2174,6 +2368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_channels'_",
           "package": "alsa",
@@ -2183,6 +2378,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_channels'_",
           "normalized": "Pcm-\u003ePcmHwParams-\u003eCUInt-\u003eIO CInt",
@@ -2197,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_format",
           "package": "alsa",
@@ -2206,6 +2403,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_format",
           "normalized": "Pcm-\u003ePcmHwParams-\u003ePcmFormat-\u003eIO()",
@@ -2220,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_format'_",
           "package": "alsa",
@@ -2229,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_format'_",
           "normalized": "Pcm-\u003ePcmHwParams-\u003eCInt-\u003eIO CInt",
@@ -2243,6 +2443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_period_time_near",
           "package": "alsa",
@@ -2252,6 +2453,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_period_time_near",
           "normalized": "Pcm-\u003ePcmHwParams-\u003eInt-\u003eOrdering-\u003eIO(Int,Ordering)",
@@ -2266,6 +2468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_period_time_near'_",
           "package": "alsa",
@@ -2275,6 +2478,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_period_time_near'_",
           "normalized": "Pcm-\u003ePcmHwParams-\u003ePtr CUInt-\u003ePtr CInt-\u003eIO CInt",
@@ -2289,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_periods",
           "package": "alsa",
@@ -2298,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_periods",
           "normalized": "Pcm-\u003ePcmHwParams-\u003eInt-\u003eOrdering-\u003eIO()",
@@ -2312,6 +2518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_periods'_",
           "package": "alsa",
@@ -2321,6 +2528,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_periods'_",
           "normalized": "Pcm-\u003ePcmHwParams-\u003eCUInt-\u003eCInt-\u003eIO CInt",
@@ -2335,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_rate",
           "package": "alsa",
@@ -2344,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_rate",
           "normalized": "Pcm-\u003ePcmHwParams-\u003eInt-\u003eOrdering-\u003eIO()",
@@ -2358,6 +2568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_rate'_",
           "package": "alsa",
@@ -2367,6 +2578,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_hw_params_set_rate'_",
           "normalized": "Pcm-\u003ePcmHwParams-\u003eCUInt-\u003eCInt-\u003eIO CInt",
@@ -2381,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_open",
           "package": "alsa",
@@ -2390,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_open",
           "normalized": "String-\u003ePcmStream-\u003eInt-\u003eIO Pcm",
@@ -2404,6 +2618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_open'_",
           "package": "alsa",
@@ -2413,6 +2628,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_open'_",
           "normalized": "Ptr Pcm-\u003ePtr CChar-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -2427,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_prepare",
           "package": "alsa",
@@ -2436,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_prepare",
           "normalized": "Pcm-\u003eIO()",
@@ -2450,6 +2668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_prepare'_",
           "package": "alsa",
@@ -2459,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_prepare'_",
           "normalized": "Pcm-\u003eIO CInt",
@@ -2473,6 +2693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_readi",
           "package": "alsa",
@@ -2482,6 +2703,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_readi",
           "normalized": "Pcm-\u003ePtr a-\u003eInt-\u003eIO Int",
@@ -2496,6 +2718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_readi'_",
           "package": "alsa",
@@ -2505,6 +2728,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_readi'_",
           "normalized": "Pcm-\u003ePtr()-\u003eCULong-\u003eIO CLong",
@@ -2519,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_start",
           "package": "alsa",
@@ -2528,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_start",
           "normalized": "Pcm-\u003eIO()",
@@ -2542,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_start'_",
           "package": "alsa",
@@ -2551,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_start'_",
           "normalized": "Pcm-\u003eIO CInt",
@@ -2565,6 +2793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params",
           "package": "alsa",
@@ -2574,6 +2803,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params",
           "normalized": "Pcm-\u003ePcmSwParams-\u003eIO()",
@@ -2588,6 +2818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params'_",
           "package": "alsa",
@@ -2597,6 +2828,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params'_",
           "normalized": "Pcm-\u003ePcmSwParams-\u003eIO CInt",
@@ -2611,6 +2843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_current",
           "package": "alsa",
@@ -2620,6 +2853,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_current",
           "normalized": "Pcm-\u003ePcmSwParams-\u003eIO()",
@@ -2634,6 +2868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_current'_",
           "package": "alsa",
@@ -2643,6 +2878,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_current'_",
           "normalized": "Pcm-\u003ePcmSwParams-\u003eIO CInt",
@@ -2657,6 +2893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_free",
           "package": "alsa",
@@ -2666,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_free",
           "normalized": "PcmSwParams-\u003eIO()",
@@ -2680,6 +2918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_free'_",
           "package": "alsa",
@@ -2689,6 +2928,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_free'_",
           "normalized": "PcmSwParams-\u003eIO()",
@@ -2703,6 +2943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_malloc",
           "package": "alsa",
@@ -2712,6 +2953,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_malloc",
           "package": "alsa",
@@ -2724,6 +2966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_malloc'_",
           "package": "alsa",
@@ -2733,6 +2976,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_malloc'_",
           "normalized": "Ptr PcmSwParams-\u003eIO CInt",
@@ -2747,6 +2991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_set_avail_min",
           "package": "alsa",
@@ -2756,6 +3001,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_set_avail_min",
           "normalized": "Pcm-\u003ePcmSwParams-\u003eInt-\u003eIO()",
@@ -2770,6 +3016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_set_avail_min'_",
           "package": "alsa",
@@ -2779,6 +3026,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_set_avail_min'_",
           "normalized": "Pcm-\u003ePcmSwParams-\u003eCULong-\u003eIO CInt",
@@ -2793,6 +3041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_set_silence_size",
           "package": "alsa",
@@ -2802,6 +3051,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_set_silence_size",
           "normalized": "Pcm-\u003ePcmSwParams-\u003eInt-\u003eIO()",
@@ -2816,6 +3066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_set_silence_size'_",
           "package": "alsa",
@@ -2825,6 +3076,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_set_silence_size'_",
           "normalized": "Pcm-\u003ePcmSwParams-\u003eCULong-\u003eIO CInt",
@@ -2839,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_set_silence_threshold",
           "package": "alsa",
@@ -2848,6 +3101,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_set_silence_threshold",
           "normalized": "Pcm-\u003ePcmSwParams-\u003eInt-\u003eIO()",
@@ -2862,6 +3116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_set_silence_threshold'_",
           "package": "alsa",
@@ -2871,6 +3126,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_set_silence_threshold'_",
           "normalized": "Pcm-\u003ePcmSwParams-\u003eCULong-\u003eIO CInt",
@@ -2885,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_set_start_threshold",
           "package": "alsa",
@@ -2894,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_set_start_threshold",
           "normalized": "Pcm-\u003ePcmSwParams-\u003eInt-\u003eIO()",
@@ -2908,6 +3166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_set_start_threshold'_",
           "package": "alsa",
@@ -2917,6 +3176,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_set_start_threshold'_",
           "normalized": "Pcm-\u003ePcmSwParams-\u003eCULong-\u003eIO CInt",
@@ -2931,6 +3191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_set_xfer_align",
           "package": "alsa",
@@ -2940,6 +3201,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_set_xfer_align",
           "normalized": "Pcm-\u003ePcmSwParams-\u003eInt-\u003eIO()",
@@ -2954,6 +3216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_set_xfer_align'_",
           "package": "alsa",
@@ -2963,6 +3226,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_sw_params_set_xfer_align'_",
           "normalized": "Pcm-\u003ePcmSwParams-\u003eCULong-\u003eIO CInt",
@@ -2977,6 +3241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_writei",
           "package": "alsa",
@@ -2986,6 +3251,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_writei",
           "normalized": "Pcm-\u003ePtr a-\u003eInt-\u003eIO Int",
@@ -3000,6 +3266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "pcm_writei'_",
           "package": "alsa",
@@ -3009,6 +3276,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "pcm_writei'_",
           "normalized": "Pcm-\u003ePtr()-\u003eCULong-\u003eIO CLong",
@@ -3023,6 +3291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "peekOrdering",
           "package": "alsa",
@@ -3032,6 +3301,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "peekOrdering",
           "normalized": "Ptr CInt-\u003eIO Ordering",
@@ -3047,6 +3317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Core",
           "name": "withOrdering",
           "package": "alsa",
@@ -3056,6 +3327,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Core",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Core",
           "name": "withOrdering",
           "normalized": "Ordering-\u003e(Ptr CInt-\u003eIO a)-\u003eIO a",
@@ -3071,6 +3343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Error",
           "name": "Error",
           "package": "alsa",
@@ -3079,6 +3352,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Error",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Error",
           "name": "Error",
           "package": "alsa",
@@ -3092,6 +3366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Error",
           "name": "AlsaException",
           "package": "alsa",
@@ -3100,6 +3375,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Error",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Error",
           "name": "AlsaException",
           "package": "alsa",
@@ -3113,6 +3389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Error",
           "name": "AlsaException",
           "package": "alsa",
@@ -3122,6 +3399,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Error",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Error",
           "name": "AlsaException",
           "package": "alsa",
@@ -3135,6 +3413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Error",
           "name": "catchAlsa",
           "package": "alsa",
@@ -3144,6 +3423,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Error",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Error",
           "name": "catchAlsa",
           "normalized": "IO a-\u003e(AlsaException-\u003eIO a)-\u003eIO a",
@@ -3159,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Error",
           "name": "catchAlsaErrno",
           "package": "alsa",
@@ -3167,6 +3448,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Error",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Error",
           "name": "catchAlsaErrno",
           "normalized": "Errno-\u003eIO a-\u003eIO a-\u003eIO a",
@@ -3182,6 +3464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Error",
           "name": "catchXRun",
           "package": "alsa",
@@ -3190,6 +3473,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Error",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Error",
           "name": "catchXRun",
           "normalized": "IO a-\u003eIO a-\u003eIO a",
@@ -3205,6 +3489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Error",
           "name": "checkResult",
           "package": "alsa",
@@ -3214,6 +3499,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Error",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Error",
           "name": "checkResult",
           "normalized": "String-\u003ea-\u003eIO a",
@@ -3229,6 +3515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Error",
           "name": "checkResult_",
           "package": "alsa",
@@ -3238,6 +3525,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Error",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Error",
           "name": "checkResult_",
           "normalized": "String-\u003ea-\u003eIO()",
@@ -3253,6 +3541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Error",
           "name": "exception_code",
           "package": "alsa",
@@ -3262,6 +3551,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Error",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Error",
           "name": "exception_code",
           "package": "alsa",
@@ -3274,6 +3564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Error",
           "name": "exception_description",
           "package": "alsa",
@@ -3283,6 +3574,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Error",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Error",
           "name": "exception_description",
           "package": "alsa",
@@ -3295,6 +3587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Error",
           "name": "exception_location",
           "package": "alsa",
@@ -3304,6 +3597,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Error",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Error",
           "name": "exception_location",
           "package": "alsa",
@@ -3317,6 +3611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts any \u003ccode\u003e\u003ca\u003eAlsaException\u003c/a\u003e\u003c/code\u003e into an \u003ccode\u003e\u003ca\u003eIOError\u003c/a\u003e\u003c/code\u003e.\n This produces better a error message than letting an uncaught\n \u003ccode\u003e\u003ca\u003eAlsaException\u003c/a\u003e\u003c/code\u003e propagate to the top.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Error",
           "name": "rethrowAlsaExceptions",
           "package": "alsa",
@@ -3327,6 +3622,7 @@
         "index": {
           "description": "Converts any AlsaException into an IOError This produces better error message than letting an uncaught AlsaException propagate to the top",
           "hierarchy": "Sound Alsa Error",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Error",
           "name": "rethrowAlsaExceptions",
           "normalized": "IO a-\u003eIO a",
@@ -3342,6 +3638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Error",
           "name": "showAlsaException",
           "package": "alsa",
@@ -3351,6 +3648,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Error",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Error",
           "name": "showAlsaException",
           "normalized": "AlsaException-\u003eString",
@@ -3366,6 +3664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Error",
           "name": "snd_strerror",
           "package": "alsa",
@@ -3375,6 +3674,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Error",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Error",
           "name": "snd_strerror",
           "normalized": "Errno-\u003eIO CString",
@@ -3390,6 +3690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the message for an error code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Error",
           "name": "strerror",
           "package": "alsa",
@@ -3400,6 +3701,7 @@
         "index": {
           "description": "Returns the message for an error code",
           "hierarchy": "Sound Alsa Error",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Error",
           "name": "strerror",
           "normalized": "Errno-\u003eIO String",
@@ -3414,6 +3716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Error",
           "name": "throwAlsa",
           "package": "alsa",
@@ -3423,6 +3726,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Error",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Error",
           "name": "throwAlsa",
           "normalized": "String-\u003eErrno-\u003eIO a",
@@ -3439,6 +3743,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions for working with sequencer clients.\n Reference:\n \u003ca\u003ehttp://www.alsa-project.org/alsa-doc/alsa-lib/group___seq_client.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "Client",
           "package": "alsa",
@@ -3448,6 +3753,7 @@
         "index": {
           "description": "This module contains functions for working with sequencer clients Reference http www.alsa-project.org alsa-doc alsa-lib group seq client.html",
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "Client",
           "package": "alsa",
@@ -3462,6 +3768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of client identifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "Client",
           "package": "alsa",
@@ -3471,6 +3778,7 @@
         "index": {
           "description": "The type of client identifiers",
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "Client",
           "package": "alsa",
@@ -3484,6 +3792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "ClientInfo",
           "package": "alsa",
@@ -3492,6 +3801,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "ClientInfo",
           "package": "alsa",
@@ -3506,6 +3816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe different types of clients.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "ClientType",
           "package": "alsa",
@@ -3515,6 +3826,7 @@
         "index": {
           "description": "The different types of clients",
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "ClientType",
           "package": "alsa",
@@ -3528,6 +3840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "KernelClient",
           "package": "alsa",
@@ -3537,6 +3850,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "KernelClient",
           "package": "alsa",
@@ -3550,6 +3864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "UserClient",
           "package": "alsa",
@@ -3559,6 +3874,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "UserClient",
           "package": "alsa",
@@ -3572,6 +3888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_broadcast",
           "package": "alsa",
@@ -3581,6 +3898,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_broadcast",
           "package": "alsa",
@@ -3593,6 +3911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_clone",
           "package": "alsa",
@@ -3602,6 +3921,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_clone",
           "normalized": "ClientInfo-\u003eIO ClientInfo",
@@ -3616,6 +3936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_copy",
           "package": "alsa",
@@ -3624,6 +3945,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_copy",
           "normalized": "ClientInfo-\u003eClientInfo-\u003eIO()",
@@ -3638,6 +3960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_get_broadcast_filter",
           "package": "alsa",
@@ -3647,6 +3970,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_get_broadcast_filter",
           "normalized": "ClientInfo-\u003eIO Bool",
@@ -3661,6 +3985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_get_client",
           "package": "alsa",
@@ -3670,6 +3995,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_get_client",
           "normalized": "ClientInfo-\u003eIO Client",
@@ -3684,6 +4010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_get_error_bounce",
           "package": "alsa",
@@ -3693,6 +4020,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_get_error_bounce",
           "normalized": "ClientInfo-\u003eIO Bool",
@@ -3707,6 +4035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_get_event_lost",
           "package": "alsa",
@@ -3716,6 +4045,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_get_event_lost",
           "normalized": "ClientInfo-\u003eIO Word",
@@ -3730,6 +4060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_get_name",
           "package": "alsa",
@@ -3739,6 +4070,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_get_name",
           "normalized": "ClientInfo-\u003eIO String",
@@ -3753,6 +4085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_get_num_ports",
           "package": "alsa",
@@ -3762,6 +4095,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_get_num_ports",
           "normalized": "ClientInfo-\u003eIO Word",
@@ -3776,6 +4110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_get_type",
           "package": "alsa",
@@ -3785,6 +4120,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_get_type",
           "normalized": "ClientInfo-\u003eIO ClientType",
@@ -3799,6 +4135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_set_broadcast_filter",
           "package": "alsa",
@@ -3808,6 +4145,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_set_broadcast_filter",
           "normalized": "ClientInfo-\u003eBool-\u003eIO()",
@@ -3822,6 +4160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_set_client",
           "package": "alsa",
@@ -3831,6 +4170,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_set_client",
           "normalized": "ClientInfo-\u003eClient-\u003eIO()",
@@ -3845,6 +4185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_set_error_bounce",
           "package": "alsa",
@@ -3854,6 +4195,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_set_error_bounce",
           "normalized": "ClientInfo-\u003eBool-\u003eIO()",
@@ -3868,6 +4210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_set_name",
           "package": "alsa",
@@ -3877,6 +4220,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_info_set_name",
           "normalized": "ClientInfo-\u003eString-\u003eIO()",
@@ -3891,6 +4235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_subscribers",
           "package": "alsa",
@@ -3900,6 +4245,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_subscribers",
           "package": "alsa",
@@ -3912,6 +4258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_system",
           "package": "alsa",
@@ -3921,6 +4268,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_system",
           "package": "alsa",
@@ -3933,6 +4281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_unknown",
           "package": "alsa",
@@ -3942,6 +4291,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "client_unknown",
           "package": "alsa",
@@ -3955,6 +4305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new information area filled with data about an arbitrary client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "get_any_client_info",
           "package": "alsa",
@@ -3965,6 +4316,7 @@
         "index": {
           "description": "Create new information area filled with data about an arbitrary client",
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "get_any_client_info",
           "normalized": "SndSeq-\u003eClient-\u003eIO ClientInfo",
@@ -3980,6 +4332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the client identifier for the sequencer.\n A convinience function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "get_client_id",
           "package": "alsa",
@@ -3990,6 +4343,7 @@
         "index": {
           "description": "Get the client identifier for the sequencer convinience function",
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "get_client_id",
           "normalized": "SndSeq-\u003eIO Client",
@@ -4005,6 +4359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new information area filled with data about the sequencer client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "get_client_info",
           "package": "alsa",
@@ -4015,6 +4370,7 @@
         "index": {
           "description": "Create new information area filled with data about the sequencer client",
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "get_client_info",
           "normalized": "SndSeq-\u003eIO ClientInfo",
@@ -4029,6 +4385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "query_first_client",
           "package": "alsa",
@@ -4038,6 +4395,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "query_first_client",
           "normalized": "SndSeq-\u003eIO ClientInfo",
@@ -4053,6 +4411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information about the client with the next biggest identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "query_next_client",
           "package": "alsa",
@@ -4062,6 +4421,7 @@
         "index": {
           "description": "Get information about the client with the next biggest identifier",
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "query_next_client",
           "normalized": "SndSeq-\u003eClientInfo-\u003eIO Bool",
@@ -4077,6 +4437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the information for the sequencer client based on the data\n in the given information area.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "set_client_info",
           "package": "alsa",
@@ -4087,6 +4448,7 @@
         "index": {
           "description": "Set the information for the sequencer client based on the data in the given information area",
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "set_client_info",
           "normalized": "SndSeq-\u003eClientInfo-\u003eIO()",
@@ -4102,6 +4464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the name for the sequencer client.\n A convinience function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "set_client_name",
           "package": "alsa",
@@ -4112,6 +4475,7 @@
         "index": {
           "description": "Set the name for the sequencer client convinience function",
           "hierarchy": "Sound Alsa Sequencer Client",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Client",
           "name": "set_client_name",
           "normalized": "SndSeq-\u003eString-\u003eIO()",
@@ -4127,6 +4491,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions for working with events.\n Reference:\n \u003ca\u003ehttp://www.alsa-project.org/alsa-doc/alsa-lib/group___seq_event.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "Event",
           "package": "alsa",
@@ -4136,6 +4501,7 @@
         "index": {
           "description": "This module contains functions for working with events Reference http www.alsa-project.org alsa-doc alsa-lib group seq event.html",
           "hierarchy": "Sound Alsa Sequencer Event",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "Event",
           "package": "alsa",
@@ -4150,6 +4516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrain output buffer to sequencer.\n This function drains all pending events on the output buffer.\n The function returns immediately after the events are sent to the queues\n regardless whether the events are processed or not.\n To get synchronization with the all event processes,\n use \u003ccode\u003e\u003ca\u003esync_output_queue\u003c/a\u003e\u003c/code\u003e after calling this function.\n Throws an exception on error.\n See also: \u003ccode\u003e\u003ca\u003eevent_output\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esync_output_queue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "drain_output",
           "package": "alsa",
@@ -4159,6 +4526,7 @@
         "index": {
           "description": "Drain output buffer to sequencer This function drains all pending events on the output buffer The function returns immediately after the events are sent to the queues regardless whether the events are processed or not To get synchronization with the all event processes use sync output queue after calling this function Throws an exception on error See also event output sync output queue",
           "hierarchy": "Sound Alsa Sequencer Event",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "drain_output",
           "normalized": "SndSeq-\u003eIO Word",
@@ -4174,6 +4542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove events from both the user-space input buffer,\n and the kernel-space sequencer queue.\n See also: \u003ccode\u003e\u003ca\u003edrop_input_buffer\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003eremove_events\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "drop_input",
           "package": "alsa",
@@ -4184,6 +4553,7 @@
         "index": {
           "description": "Remove events from both the user-space input buffer and the kernel-space sequencer queue See also drop input buffer remove events",
           "hierarchy": "Sound Alsa Sequencer Event",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "drop_input",
           "normalized": "SndSeq-\u003eIO()",
@@ -4199,6 +4569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove events from the user-space input buffer.\n See also: \u003ccode\u003e\u003ca\u003edrop_input\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "drop_input_buffer",
           "package": "alsa",
@@ -4209,6 +4580,7 @@
         "index": {
           "description": "Remove events from the user-space input buffer See also drop input",
           "hierarchy": "Sound Alsa Sequencer Event",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "drop_input_buffer",
           "normalized": "SndSeq-\u003eIO()",
@@ -4224,6 +4596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove events from both the user-space output buffer,\n and the kernel-space sequencer queue.\n See also: \u003ccode\u003e\u003ca\u003edrain_output\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003edrop_output_buffer\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003eremove_events\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "drop_output",
           "package": "alsa",
@@ -4234,6 +4607,7 @@
         "index": {
           "description": "Remove events from both the user-space output buffer and the kernel-space sequencer queue See also drain output drop output buffer remove events",
           "hierarchy": "Sound Alsa Sequencer Event",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "drop_output",
           "normalized": "SndSeq-\u003eIO()",
@@ -4249,6 +4623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove events from the user-space output buffer.\n See also: \u003ccode\u003e\u003ca\u003edrop_output\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "drop_output_buffer",
           "package": "alsa",
@@ -4259,6 +4634,7 @@
         "index": {
           "description": "Remove events from the user-space output buffer See also drop output",
           "hierarchy": "Sound Alsa Sequencer Event",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "drop_output_buffer",
           "normalized": "SndSeq-\u003eIO()",
@@ -4274,6 +4650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet an event from the input buffer.\n If the input buffer is empty, then it is filled with data from the\n sequencer queue.  If there is no data in the sequencer queue,\n then the process is either put to sleep (if the sequencer is operating\n in blocking mode), or we throw \u003ccode\u003eEAGAIN\u003c/code\u003e (if the sequence is operating\n in non-blocking mode).\n\u003c/p\u003e\u003cp\u003eWe may also throw \u003ccode\u003eENOSPC\u003c/code\u003e, which means that the sequencer queue\n over-run and some events were lost (this clears the input buffer).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "event_input",
           "package": "alsa",
@@ -4284,6 +4661,7 @@
         "index": {
           "description": "Get an event from the input buffer If the input buffer is empty then it is filled with data from the sequencer queue If there is no data in the sequencer queue then the process is either put to sleep if the sequencer is operating in blocking mode or we throw EAGAIN if the sequence is operating in non-blocking mode We may also throw ENOSPC which means that the sequencer queue over-run and some events were lost this clears the input buffer",
           "hierarchy": "Sound Alsa Sequencer Event",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "event_input",
           "normalized": "SndSeq-\u003eIO Event",
@@ -4299,6 +4677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of events in the input buffer.\n If the input buffer is empty and the boolean argument is true,\n then try to fill the input buffer with data from the sequencer queue.\n See also: \u003ccode\u003esnd_seq_event_input\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "event_input_pending",
           "package": "alsa",
@@ -4308,6 +4687,7 @@
         "index": {
           "description": "Returns the number of events in the input buffer If the input buffer is empty and the boolean argument is true then try to fill the input buffer with data from the sequencer queue See also snd seq event input",
           "hierarchy": "Sound Alsa Sequencer Event",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "event_input_pending",
           "normalized": "SndSeq-\u003eBool-\u003eIO Word",
@@ -4323,6 +4703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput an event and drain the buffer, if it became full.\n Throws exceptions.\n See also: \u003ccode\u003e\u003ca\u003eevent_output_direct\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eevent_output_buffer\u003c/a\u003e\u003c/code\u003e,\n           \u003ccode\u003e\u003ca\u003eevent_output_pending\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003edrain_output\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003edrop_output\u003c/a\u003e\u003c/code\u003e,\n           \u003ccode\u003e\u003ca\u003eextract_output\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003eremove_events\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "event_output",
           "package": "alsa",
@@ -4332,6 +4713,7 @@
         "index": {
           "description": "Output an event and drain the buffer if it became full Throws exceptions See also event output direct event output buffer event output pending drain output drop output extract output remove events",
           "hierarchy": "Sound Alsa Sequencer Event",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "event_output",
           "normalized": "SndSeq-\u003eEvent-\u003eIO Word",
@@ -4347,6 +4729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput an event without draining the buffer.\n Throws \u003ccode\u003e-EAGAIN\u003c/code\u003e if the buffer becomes full.\n See also \u003ccode\u003e\u003ca\u003eevent_output\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "event_output_buffer",
           "package": "alsa",
@@ -4356,6 +4739,7 @@
         "index": {
           "description": "Output an event without draining the buffer Throws EAGAIN if the buffer becomes full See also event output",
           "hierarchy": "Sound Alsa Sequencer Event",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "event_output_buffer",
           "normalized": "SndSeq-\u003eEvent-\u003eIO Word",
@@ -4371,6 +4755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput an event directly to the sequencer, NOT through the output buffer.\n If an error occurs, then we throw an exception.\n See also \u003ccode\u003e\u003ca\u003eevent_output\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "event_output_direct",
           "package": "alsa",
@@ -4380,6 +4765,7 @@
         "index": {
           "description": "Output an event directly to the sequencer NOT through the output buffer If an error occurs then we throw an exception See also event output",
           "hierarchy": "Sound Alsa Sequencer Event",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "event_output_direct",
           "normalized": "SndSeq-\u003eEvent-\u003eIO Word",
@@ -4395,6 +4781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the size (in bytes) of pending events on output buffer.\n See also \u003ccode\u003esnd_seq_event_output\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "event_output_pending",
           "package": "alsa",
@@ -4404,6 +4791,7 @@
         "index": {
           "description": "Return the size in bytes of pending events on output buffer See also snd seq event output",
           "hierarchy": "Sound Alsa Sequencer Event",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "event_output_pending",
           "normalized": "SndSeq-\u003eIO Word",
@@ -4419,6 +4807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the first event in output buffer.\n Throws an exception on error.\n See also \u003ccode\u003esnd_seq_event_output\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "extract_output",
           "package": "alsa",
@@ -4428,6 +4817,7 @@
         "index": {
           "description": "Extract the first event in output buffer Throws an exception on error See also snd seq event output",
           "hierarchy": "Sound Alsa Sequencer Event",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "extract_output",
           "normalized": "SndSeq-\u003eIO Event",
@@ -4443,6 +4833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the first event in output buffer.\n Throws an exception on error.\n See also \u003ccode\u003esnd_seq_event_output\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "remove_output",
           "package": "alsa",
@@ -4453,6 +4844,7 @@
         "index": {
           "description": "Remove the first event in output buffer Throws an exception on error See also snd seq event output",
           "hierarchy": "Sound Alsa Sequencer Event",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "remove_output",
           "normalized": "SndSeq-\u003eIO()",
@@ -4468,6 +4860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait until all events of the client are processed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "sync_output_queue",
           "package": "alsa",
@@ -4478,6 +4871,7 @@
         "index": {
           "description": "Wait until all events of the client are processed",
           "hierarchy": "Sound Alsa Sequencer Event",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Event",
           "name": "sync_output_queue",
           "normalized": "SndSeq-\u003eIO()",
@@ -4493,6 +4887,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions for working with ports.\n Reference:\n \u003ca\u003ehttp://www.alsa-project.org/alsa-doc/alsa-lib/group___seq_port.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "Port",
           "package": "alsa",
@@ -4502,6 +4897,7 @@
         "index": {
           "description": "This module contains functions for working with ports Reference http www.alsa-project.org alsa-doc alsa-lib group seq port.html",
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "Port",
           "package": "alsa",
@@ -4515,6 +4911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "Port",
           "package": "alsa",
@@ -4523,6 +4920,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "Port",
           "package": "alsa",
@@ -4537,6 +4935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePort capabilities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "PortCap",
           "package": "alsa",
@@ -4546,6 +4945,7 @@
         "index": {
           "description": "Port capabilities",
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "PortCap",
           "package": "alsa",
@@ -4559,6 +4959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "PortInfo",
           "package": "alsa",
@@ -4567,6 +4968,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "PortInfo",
           "package": "alsa",
@@ -4581,6 +4983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePort types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "PortType",
           "package": "alsa",
@@ -4590,6 +4993,7 @@
         "index": {
           "description": "Port types",
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "PortType",
           "package": "alsa",
@@ -4603,6 +5007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "cap_duplex",
           "package": "alsa",
@@ -4612,6 +5017,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "cap_duplex",
           "package": "alsa",
@@ -4624,6 +5030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "cap_no_export",
           "package": "alsa",
@@ -4633,6 +5040,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "cap_no_export",
           "package": "alsa",
@@ -4645,6 +5053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "cap_read",
           "package": "alsa",
@@ -4654,6 +5063,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "cap_read",
           "package": "alsa",
@@ -4666,6 +5076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "cap_subs_read",
           "package": "alsa",
@@ -4675,6 +5086,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "cap_subs_read",
           "package": "alsa",
@@ -4687,6 +5099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "cap_subs_write",
           "package": "alsa",
@@ -4696,6 +5109,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "cap_subs_write",
           "package": "alsa",
@@ -4708,6 +5122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "cap_sync_read",
           "package": "alsa",
@@ -4717,6 +5132,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "cap_sync_read",
           "package": "alsa",
@@ -4729,6 +5145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "cap_sync_write",
           "package": "alsa",
@@ -4738,6 +5155,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "cap_sync_write",
           "package": "alsa",
@@ -4750,6 +5168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "cap_write",
           "package": "alsa",
@@ -4759,6 +5178,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "cap_write",
           "package": "alsa",
@@ -4771,6 +5191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "caps",
           "package": "alsa",
@@ -4780,6 +5201,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "caps",
           "normalized": "[PortCap]-\u003ePortCap",
@@ -4795,6 +5217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new port, as described by the info structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "create_port",
           "package": "alsa",
@@ -4805,6 +5228,7 @@
         "index": {
           "description": "Create new port as described by the info structure",
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "create_port",
           "normalized": "SndSeq-\u003ePortInfo-\u003eIO()",
@@ -4820,6 +5244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a port - simple version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "create_simple_port",
           "package": "alsa",
@@ -4830,6 +5255,7 @@
         "index": {
           "description": "Create port simple version",
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "create_simple_port",
           "normalized": "SndSeq-\u003eString-\u003ePortCap-\u003ePortType-\u003eIO Port",
@@ -4845,6 +5271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete the port.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "delete_port",
           "package": "alsa",
@@ -4855,6 +5282,7 @@
         "index": {
           "description": "Delete the port",
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "delete_port",
           "normalized": "SndSeq-\u003ePort-\u003eIO()",
@@ -4870,6 +5298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new information area filled with data about an given\n port on a given client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "get_any_port_info",
           "package": "alsa",
@@ -4880,6 +5309,7 @@
         "index": {
           "description": "Create new information area filled with data about an given port on given client",
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "get_any_port_info",
           "normalized": "SndSeq-\u003eClient-\u003ePort-\u003eIO PortInfo",
@@ -4895,6 +5325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new information area filled with data about a specific\n port on our client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "get_port_info",
           "package": "alsa",
@@ -4905,6 +5336,7 @@
         "index": {
           "description": "Create new information area filled with data about specific port on our client",
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "get_port_info",
           "normalized": "SndSeq-\u003ePort-\u003eIO PortInfo",
@@ -4919,6 +5351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_clone",
           "package": "alsa",
@@ -4928,6 +5361,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_clone",
           "normalized": "PortInfo-\u003eIO PortInfo",
@@ -4942,6 +5376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_copy",
           "package": "alsa",
@@ -4950,6 +5385,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_copy",
           "normalized": "PortInfo-\u003ePortInfo-\u003eIO()",
@@ -4965,6 +5401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the address of the information area.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_addr",
           "package": "alsa",
@@ -4975,6 +5412,7 @@
         "index": {
           "description": "Get the address of the information area",
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_addr",
           "normalized": "PortInfo-\u003eIO Addr",
@@ -4989,6 +5427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_capability",
           "package": "alsa",
@@ -4998,6 +5437,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_capability",
           "normalized": "PortInfo-\u003eIO PortCap",
@@ -5012,6 +5452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_client",
           "package": "alsa",
@@ -5021,6 +5462,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_client",
           "normalized": "PortInfo-\u003eIO Client",
@@ -5035,6 +5477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_midi_channels",
           "package": "alsa",
@@ -5044,6 +5487,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_midi_channels",
           "normalized": "PortInfo-\u003eIO Word",
@@ -5058,6 +5502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_midi_voices",
           "package": "alsa",
@@ -5067,6 +5512,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_midi_voices",
           "normalized": "PortInfo-\u003eIO Word",
@@ -5081,6 +5527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_name",
           "package": "alsa",
@@ -5090,6 +5537,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_name",
           "normalized": "PortInfo-\u003eIO String",
@@ -5104,6 +5552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_port",
           "package": "alsa",
@@ -5113,6 +5562,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_port",
           "normalized": "PortInfo-\u003eIO Port",
@@ -5127,6 +5577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_port_specified",
           "package": "alsa",
@@ -5136,6 +5587,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_port_specified",
           "normalized": "PortInfo-\u003eIO Bool",
@@ -5150,6 +5602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_read_use",
           "package": "alsa",
@@ -5159,6 +5612,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_read_use",
           "normalized": "PortInfo-\u003eIO Word",
@@ -5173,6 +5627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_synth_voices",
           "package": "alsa",
@@ -5182,6 +5637,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_synth_voices",
           "normalized": "PortInfo-\u003eIO Word",
@@ -5196,6 +5652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_timestamp_queue",
           "package": "alsa",
@@ -5205,6 +5662,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_timestamp_queue",
           "normalized": "PortInfo-\u003eIO Queue",
@@ -5219,6 +5677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_timestamp_real",
           "package": "alsa",
@@ -5228,6 +5687,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_timestamp_real",
           "normalized": "PortInfo-\u003eIO Bool",
@@ -5242,6 +5702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_timestamping",
           "package": "alsa",
@@ -5251,6 +5712,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_timestamping",
           "normalized": "PortInfo-\u003eIO Bool",
@@ -5265,6 +5727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_write_use",
           "package": "alsa",
@@ -5274,6 +5737,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_get_write_use",
           "normalized": "PortInfo-\u003eIO Word",
@@ -5289,6 +5753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the port address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_addr",
           "package": "alsa",
@@ -5299,6 +5764,7 @@
         "index": {
           "description": "Set the port address",
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_addr",
           "normalized": "PortInfo-\u003eAddr-\u003eIO()",
@@ -5313,6 +5779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_capability",
           "package": "alsa",
@@ -5322,6 +5789,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_capability",
           "normalized": "PortInfo-\u003ePortCap-\u003eIO()",
@@ -5336,6 +5804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_client",
           "package": "alsa",
@@ -5345,6 +5814,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_client",
           "normalized": "PortInfo-\u003eClient-\u003eIO()",
@@ -5359,6 +5829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_midi_channels",
           "package": "alsa",
@@ -5368,6 +5839,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_midi_channels",
           "normalized": "PortInfo-\u003eWord-\u003eIO()",
@@ -5382,6 +5854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_midi_voices",
           "package": "alsa",
@@ -5391,6 +5864,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_midi_voices",
           "normalized": "PortInfo-\u003eWord-\u003eIO()",
@@ -5405,6 +5879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_name",
           "package": "alsa",
@@ -5414,6 +5889,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_name",
           "normalized": "PortInfo-\u003eString-\u003eIO()",
@@ -5428,6 +5904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_port",
           "package": "alsa",
@@ -5437,6 +5914,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_port",
           "normalized": "PortInfo-\u003ePort-\u003eIO()",
@@ -5451,6 +5929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_port_specified",
           "package": "alsa",
@@ -5460,6 +5939,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_port_specified",
           "normalized": "PortInfo-\u003eBool-\u003eIO()",
@@ -5474,6 +5954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_synth_voices",
           "package": "alsa",
@@ -5483,6 +5964,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_synth_voices",
           "normalized": "PortInfo-\u003eWord-\u003eIO()",
@@ -5497,6 +5979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_timestamp_queue",
           "package": "alsa",
@@ -5506,6 +5989,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_timestamp_queue",
           "normalized": "PortInfo-\u003eQueue-\u003eIO()",
@@ -5520,6 +6004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_timestamp_real",
           "package": "alsa",
@@ -5529,6 +6014,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_timestamp_real",
           "normalized": "PortInfo-\u003eBool-\u003eIO()",
@@ -5543,6 +6029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_timestamping",
           "package": "alsa",
@@ -5552,6 +6039,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_info_set_timestamping",
           "normalized": "PortInfo-\u003eBool-\u003eIO()",
@@ -5566,6 +6054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_system_announce",
           "package": "alsa",
@@ -5575,6 +6064,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_system_announce",
           "package": "alsa",
@@ -5587,6 +6077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_system_timer",
           "package": "alsa",
@@ -5596,6 +6087,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_system_timer",
           "package": "alsa",
@@ -5608,6 +6100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_unknown",
           "package": "alsa",
@@ -5617,6 +6110,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "port_unknown",
           "package": "alsa",
@@ -5630,6 +6124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information about the first port on our client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "query_first_port",
           "package": "alsa",
@@ -5640,6 +6135,7 @@
         "index": {
           "description": "Get information about the first port on our client",
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "query_first_port",
           "normalized": "SndSeq-\u003eIO PortInfo",
@@ -5655,6 +6151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information about the port with the next biggest identifier.\n If a matching port is found, then its information is stored in the\n given area, otherwise we throw an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "query_next_port",
           "package": "alsa",
@@ -5665,6 +6162,7 @@
         "index": {
           "description": "Get information about the port with the next biggest identifier If matching port is found then its information is stored in the given area otherwise we throw an error",
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "query_next_port",
           "normalized": "SndSeq-\u003ePortInfo-\u003eIO()",
@@ -5680,6 +6178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the information for the sequencer port based on the data\n in the given information area.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "set_port_info",
           "package": "alsa",
@@ -5690,6 +6189,7 @@
         "index": {
           "description": "Set the information for the sequencer port based on the data in the given information area",
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "set_port_info",
           "normalized": "SndSeq-\u003ePort-\u003ePortInfo-\u003eIO()",
@@ -5704,6 +6204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_application",
           "package": "alsa",
@@ -5713,6 +6214,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_application",
           "package": "alsa",
@@ -5725,6 +6227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_direct_sample",
           "package": "alsa",
@@ -5734,6 +6237,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_direct_sample",
           "package": "alsa",
@@ -5746,6 +6250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_hardware",
           "package": "alsa",
@@ -5755,6 +6260,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_hardware",
           "package": "alsa",
@@ -5767,6 +6273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_midi_generic",
           "package": "alsa",
@@ -5776,6 +6283,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_midi_generic",
           "package": "alsa",
@@ -5788,6 +6296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_midi_gm",
           "package": "alsa",
@@ -5797,6 +6306,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_midi_gm",
           "package": "alsa",
@@ -5809,6 +6319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_midi_gm2",
           "package": "alsa",
@@ -5818,6 +6329,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_midi_gm2",
           "package": "alsa",
@@ -5830,6 +6342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_midi_gs",
           "package": "alsa",
@@ -5839,6 +6352,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_midi_gs",
           "package": "alsa",
@@ -5851,6 +6365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_midi_mt32",
           "package": "alsa",
@@ -5860,6 +6375,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_midi_mt32",
           "package": "alsa",
@@ -5872,6 +6388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_midi_xg",
           "package": "alsa",
@@ -5881,6 +6398,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_midi_xg",
           "package": "alsa",
@@ -5893,6 +6411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_port",
           "package": "alsa",
@@ -5902,6 +6421,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_port",
           "package": "alsa",
@@ -5914,6 +6434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_sample",
           "package": "alsa",
@@ -5923,6 +6444,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_sample",
           "package": "alsa",
@@ -5935,6 +6457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_software",
           "package": "alsa",
@@ -5944,6 +6467,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_software",
           "package": "alsa",
@@ -5956,6 +6480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_specific",
           "package": "alsa",
@@ -5965,6 +6490,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_specific",
           "package": "alsa",
@@ -5977,6 +6503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_synth",
           "package": "alsa",
@@ -5986,6 +6513,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_synth",
           "package": "alsa",
@@ -5998,6 +6526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_synthesizer",
           "package": "alsa",
@@ -6007,6 +6536,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "type_synthesizer",
           "package": "alsa",
@@ -6019,6 +6549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "types",
           "package": "alsa",
@@ -6028,6 +6559,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Port",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Port",
           "name": "types",
           "normalized": "[PortType]-\u003ePortType",
@@ -6043,6 +6575,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions for working with sequencer queue.\n Reference:\n \u003ca\u003ehttp://www.alsa-project.org/alsa-doc/alsa-lib/group___seq_queue.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "Queue",
           "package": "alsa",
@@ -6052,6 +6585,7 @@
         "index": {
           "description": "This module contains functions for working with sequencer queue Reference http www.alsa-project.org alsa-doc alsa-lib group seq queue.html",
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "Queue",
           "package": "alsa",
@@ -6065,6 +6599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "Queue",
           "package": "alsa",
@@ -6073,6 +6608,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "Queue",
           "package": "alsa",
@@ -6086,6 +6622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "QueueInfo",
           "package": "alsa",
@@ -6094,6 +6631,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "QueueInfo",
           "package": "alsa",
@@ -6108,6 +6646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the content of one object into another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "QueueStatus",
           "package": "alsa",
@@ -6117,6 +6656,7 @@
         "index": {
           "description": "Copy the content of one object into another",
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "QueueStatus",
           "package": "alsa",
@@ -6130,6 +6670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "QueueTempo",
           "package": "alsa",
@@ -6138,6 +6679,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "QueueTempo",
           "package": "alsa",
@@ -6151,6 +6693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "QueueTimer",
           "package": "alsa",
@@ -6159,6 +6702,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "QueueTimer",
           "package": "alsa",
@@ -6172,6 +6716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "QueueTimerType",
           "package": "alsa",
@@ -6180,6 +6725,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "QueueTimerType",
           "package": "alsa",
@@ -6193,6 +6739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "TimerAlsa",
           "package": "alsa",
@@ -6202,6 +6749,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "TimerAlsa",
           "package": "alsa",
@@ -6215,6 +6763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "TimerMidiClock",
           "package": "alsa",
@@ -6224,6 +6773,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "TimerMidiClock",
           "package": "alsa",
@@ -6237,6 +6787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "TimerMidiTick",
           "package": "alsa",
@@ -6246,6 +6797,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "TimerMidiTick",
           "package": "alsa",
@@ -6259,6 +6811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "alloc_named_queue",
           "package": "alsa",
@@ -6268,6 +6821,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "alloc_named_queue",
           "normalized": "SndSeq-\u003eString-\u003eIO Queue",
@@ -6282,6 +6836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "alloc_queue",
           "package": "alsa",
@@ -6290,6 +6845,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "alloc_queue",
           "normalized": "SndSeq-\u003eIO Queue",
@@ -6305,6 +6861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete the specified queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "free_queue",
           "package": "alsa",
@@ -6314,6 +6871,7 @@
         "index": {
           "description": "Delete the specified queue",
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "free_queue",
           "normalized": "SndSeq-\u003eQueue-\u003eIO()",
@@ -6328,6 +6886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "get_queue_info",
           "package": "alsa",
@@ -6337,6 +6896,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "get_queue_info",
           "normalized": "SndSeq-\u003eQueue-\u003eIO QueueInfo",
@@ -6351,6 +6911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "get_queue_status",
           "package": "alsa",
@@ -6360,6 +6921,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "get_queue_status",
           "normalized": "SndSeq-\u003eQueue-\u003eIO QueueStatus",
@@ -6374,6 +6936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "get_queue_tempo",
           "package": "alsa",
@@ -6383,6 +6946,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "get_queue_tempo",
           "normalized": "SndSeq-\u003eQueue-\u003eIO QueueTempo",
@@ -6397,6 +6961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "get_queue_timer",
           "package": "alsa",
@@ -6406,6 +6971,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "get_queue_timer",
           "normalized": "SndSeq-\u003eQueue-\u003eIO QueueTimer",
@@ -6420,6 +6986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_direct",
           "package": "alsa",
@@ -6429,6 +6996,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_direct",
           "package": "alsa",
@@ -6442,6 +7010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the content of an object to a newly created object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_info_clone",
           "package": "alsa",
@@ -6452,6 +7021,7 @@
         "index": {
           "description": "Copy the content of an object to newly created object",
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_info_clone",
           "normalized": "QueueInfo-\u003eIO QueueInfo",
@@ -6466,6 +7036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_info_copy",
           "package": "alsa",
@@ -6474,6 +7045,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_info_copy",
           "normalized": "QueueInfo-\u003eQueueInfo-\u003eIO()",
@@ -6488,6 +7060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_info_get_flags",
           "package": "alsa",
@@ -6497,6 +7070,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_info_get_flags",
           "normalized": "QueueInfo-\u003eIO Word",
@@ -6511,6 +7085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_info_get_locked",
           "package": "alsa",
@@ -6520,6 +7095,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_info_get_locked",
           "normalized": "QueueInfo-\u003eIO Bool",
@@ -6534,6 +7110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_info_get_name",
           "package": "alsa",
@@ -6543,6 +7120,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_info_get_name",
           "normalized": "QueueInfo-\u003eIO String",
@@ -6557,6 +7135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_info_get_owner",
           "package": "alsa",
@@ -6566,6 +7145,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_info_get_owner",
           "normalized": "QueueInfo-\u003eIO Client",
@@ -6580,6 +7160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_info_get_queue",
           "package": "alsa",
@@ -6589,6 +7170,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_info_get_queue",
           "normalized": "QueueInfo-\u003eIO Queue",
@@ -6603,6 +7185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_info_set_flags",
           "package": "alsa",
@@ -6612,6 +7195,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_info_set_flags",
           "normalized": "QueueInfo-\u003eWord-\u003eIO()",
@@ -6626,6 +7210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_info_set_locked",
           "package": "alsa",
@@ -6635,6 +7220,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_info_set_locked",
           "normalized": "QueueInfo-\u003eBool-\u003eIO()",
@@ -6649,6 +7235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_info_set_name",
           "package": "alsa",
@@ -6658,6 +7245,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_info_set_name",
           "normalized": "QueueInfo-\u003eString-\u003eIO()",
@@ -6672,6 +7260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_info_set_owner",
           "package": "alsa",
@@ -6681,6 +7270,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_info_set_owner",
           "normalized": "QueueInfo-\u003eClient-\u003eIO()",
@@ -6695,6 +7285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_status_clone",
           "package": "alsa",
@@ -6704,6 +7295,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_status_clone",
           "normalized": "QueueStatus-\u003eIO QueueStatus",
@@ -6718,6 +7310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_status_copy",
           "package": "alsa",
@@ -6726,6 +7319,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_status_copy",
           "normalized": "QueueStatus-\u003eQueueStatus-\u003eIO()",
@@ -6740,6 +7334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_tempo_clone",
           "package": "alsa",
@@ -6749,6 +7344,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_tempo_clone",
           "normalized": "QueueTempo-\u003eIO QueueTempo",
@@ -6763,6 +7359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_tempo_copy",
           "package": "alsa",
@@ -6771,6 +7368,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_tempo_copy",
           "normalized": "QueueTempo-\u003eQueueTempo-\u003eIO()",
@@ -6785,6 +7383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_tempo_get_ppq",
           "package": "alsa",
@@ -6794,6 +7393,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_tempo_get_ppq",
           "normalized": "QueueTempo-\u003eIO Int",
@@ -6808,6 +7408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_tempo_get_queue",
           "package": "alsa",
@@ -6817,6 +7418,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_tempo_get_queue",
           "normalized": "QueueTempo-\u003eIO Queue",
@@ -6831,6 +7433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_tempo_get_skew",
           "package": "alsa",
@@ -6840,6 +7443,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_tempo_get_skew",
           "normalized": "QueueTempo-\u003eIO Word",
@@ -6854,6 +7458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_tempo_get_skew_base",
           "package": "alsa",
@@ -6863,6 +7468,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_tempo_get_skew_base",
           "normalized": "QueueTempo-\u003eIO Word",
@@ -6877,6 +7483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_tempo_get_tempo",
           "package": "alsa",
@@ -6886,6 +7493,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_tempo_get_tempo",
           "normalized": "QueueTempo-\u003eIO Word",
@@ -6900,6 +7508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_tempo_set_ppq",
           "package": "alsa",
@@ -6909,6 +7518,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_tempo_set_ppq",
           "normalized": "QueueTempo-\u003eInt-\u003eIO()",
@@ -6923,6 +7533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_tempo_set_skew",
           "package": "alsa",
@@ -6932,6 +7543,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_tempo_set_skew",
           "normalized": "QueueTempo-\u003eWord-\u003eIO()",
@@ -6946,6 +7558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_tempo_set_skew_base",
           "package": "alsa",
@@ -6955,6 +7568,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_tempo_set_skew_base",
           "normalized": "QueueTempo-\u003eWord-\u003eIO()",
@@ -6969,6 +7583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_tempo_set_tempo",
           "package": "alsa",
@@ -6978,6 +7593,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_tempo_set_tempo",
           "normalized": "QueueTempo-\u003eWord-\u003eIO()",
@@ -6993,6 +7609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the content of an object to a newly created object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_timer_clone",
           "package": "alsa",
@@ -7003,6 +7620,7 @@
         "index": {
           "description": "Copy the content of an object to newly created object",
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_timer_clone",
           "normalized": "QueueTimer-\u003eIO QueueTimer",
@@ -7017,6 +7635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_timer_copy",
           "package": "alsa",
@@ -7025,6 +7644,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_timer_copy",
           "normalized": "QueueTimer-\u003eQueueTimer-\u003eIO()",
@@ -7039,6 +7659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_timer_get_queue",
           "package": "alsa",
@@ -7048,6 +7669,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_timer_get_queue",
           "normalized": "QueueTimer-\u003eIO Queue",
@@ -7062,6 +7684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_timer_get_resolution",
           "package": "alsa",
@@ -7071,6 +7694,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_timer_get_resolution",
           "normalized": "QueueTimer-\u003eIO Word",
@@ -7085,6 +7709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_timer_get_type",
           "package": "alsa",
@@ -7094,6 +7719,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_timer_get_type",
           "normalized": "QueueTimer-\u003eIO QueueTimerType",
@@ -7108,6 +7734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_timer_set_resolution",
           "package": "alsa",
@@ -7117,6 +7744,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_timer_set_resolution",
           "normalized": "QueueTimer-\u003eWord-\u003eIO()",
@@ -7131,6 +7759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_timer_set_type",
           "package": "alsa",
@@ -7140,6 +7769,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "queue_timer_set_type",
           "normalized": "QueueTimer-\u003eQueueTimerType-\u003eIO()",
@@ -7154,6 +7784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "set_queue_info",
           "package": "alsa",
@@ -7163,6 +7794,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "set_queue_info",
           "normalized": "SndSeq-\u003eQueue-\u003eQueueInfo-\u003eIO()",
@@ -7177,6 +7809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "set_queue_tempo",
           "package": "alsa",
@@ -7186,6 +7819,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "set_queue_tempo",
           "normalized": "SndSeq-\u003eQueue-\u003eQueueTempo-\u003eIO()",
@@ -7200,6 +7834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "set_queue_timer",
           "package": "alsa",
@@ -7209,6 +7844,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer Queue",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer.Queue",
           "name": "set_queue_timer",
           "normalized": "SndSeq-\u003eQueue-\u003eQueueTimer-\u003eIO()",
@@ -7224,6 +7860,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOverview: \u003ca\u003ehttp://www.alsa-project.org/alsa-doc/alsa-lib/seq.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eWARNING: This whole library does not seem to be particlarly thread aware.\n Perhaps place the sequencer handle in an MVar?\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Sequencer",
           "package": "alsa",
@@ -7233,6 +7870,7 @@
         "index": {
           "description": "Overview http www.alsa-project.org alsa-doc alsa-lib seq.html WARNING This whole library does not seem to be particlarly thread aware Perhaps place the sequencer handle in an MVar",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Sequencer",
           "package": "alsa",
@@ -7246,6 +7884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Addr",
           "package": "alsa",
@@ -7254,6 +7893,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Addr",
           "package": "alsa",
@@ -7267,6 +7907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "AddrEv",
           "package": "alsa",
@@ -7275,6 +7916,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "AddrEv",
           "package": "alsa",
@@ -7288,6 +7930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "AlsaException",
           "package": "alsa",
@@ -7296,6 +7939,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "AlsaException",
           "package": "alsa",
@@ -7310,6 +7954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlocking behavior of the sequencer device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "BlockMode",
           "package": "alsa",
@@ -7319,6 +7964,7 @@
         "index": {
           "description": "Blocking behavior of the sequencer device",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "BlockMode",
           "package": "alsa",
@@ -7332,6 +7978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Cluster",
           "package": "alsa",
@@ -7340,6 +7987,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Cluster",
           "package": "alsa",
@@ -7353,6 +8001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "ConnEv",
           "package": "alsa",
@@ -7361,6 +8010,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "ConnEv",
           "package": "alsa",
@@ -7374,6 +8024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Connect",
           "package": "alsa",
@@ -7382,6 +8033,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Connect",
           "package": "alsa",
@@ -7395,6 +8047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Ctrl",
           "package": "alsa",
@@ -7403,6 +8056,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Ctrl",
           "package": "alsa",
@@ -7416,6 +8070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "CtrlEv",
           "package": "alsa",
@@ -7424,6 +8079,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "CtrlEv",
           "package": "alsa",
@@ -7437,6 +8093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "EmptyEv",
           "package": "alsa",
@@ -7445,6 +8102,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "EmptyEv",
           "package": "alsa",
@@ -7458,6 +8116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Event",
           "package": "alsa",
@@ -7466,6 +8125,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Event",
           "package": "alsa",
@@ -7479,6 +8139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "EventData",
           "package": "alsa",
@@ -7487,6 +8148,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "EventData",
           "package": "alsa",
@@ -7500,6 +8162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Instr",
           "package": "alsa",
@@ -7508,6 +8171,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Instr",
           "package": "alsa",
@@ -7521,6 +8185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "InstrCluster",
           "package": "alsa",
@@ -7529,6 +8194,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "InstrCluster",
           "package": "alsa",
@@ -7542,6 +8208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Note",
           "package": "alsa",
@@ -7550,6 +8217,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Note",
           "package": "alsa",
@@ -7563,6 +8231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "NoteEv",
           "package": "alsa",
@@ -7571,6 +8240,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "NoteEv",
           "package": "alsa",
@@ -7585,6 +8255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead/Write permissions for the sequencer device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "OpenMode",
           "package": "alsa",
@@ -7594,6 +8265,7 @@
         "index": {
           "description": "Read Write permissions for the sequencer device",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "OpenMode",
           "package": "alsa",
@@ -7607,6 +8279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "RealTime",
           "package": "alsa",
@@ -7615,6 +8288,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "RealTime",
           "package": "alsa",
@@ -7628,6 +8302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Sample",
           "package": "alsa",
@@ -7636,6 +8311,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Sample",
           "package": "alsa",
@@ -7650,6 +8326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of sequencer handles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "SndSeq",
           "package": "alsa",
@@ -7659,6 +8336,7 @@
         "index": {
           "description": "The type of sequencer handles",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "SndSeq",
           "package": "alsa",
@@ -7672,6 +8350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "TimeStamp",
           "package": "alsa",
@@ -7680,6 +8359,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "TimeStamp",
           "package": "alsa",
@@ -7694,6 +8374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese are all 14 bit values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Volume",
           "package": "alsa",
@@ -7703,6 +8384,7 @@
         "index": {
           "description": "These are all bit values",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Volume",
           "package": "alsa",
@@ -7716,6 +8398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "ANote",
           "package": "alsa",
@@ -7725,6 +8408,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "ANote",
           "package": "alsa",
@@ -7738,6 +8422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Addr",
           "package": "alsa",
@@ -7747,6 +8432,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Addr",
           "package": "alsa",
@@ -7760,6 +8446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "AddrEv",
           "package": "alsa",
@@ -7769,6 +8456,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "AddrEv",
           "package": "alsa",
@@ -7783,6 +8471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperations may block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Block",
           "package": "alsa",
@@ -7793,6 +8482,7 @@
         "index": {
           "description": "Operations may block",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Block",
           "package": "alsa",
@@ -7806,6 +8496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "ChanPress",
           "package": "alsa",
@@ -7815,6 +8506,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "ChanPress",
           "package": "alsa",
@@ -7828,6 +8520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "ClientChange",
           "package": "alsa",
@@ -7837,6 +8530,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "ClientChange",
           "package": "alsa",
@@ -7850,6 +8544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "ClientExit",
           "package": "alsa",
@@ -7859,6 +8554,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "ClientExit",
           "package": "alsa",
@@ -7872,6 +8568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "ClientStart",
           "package": "alsa",
@@ -7881,6 +8578,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "ClientStart",
           "package": "alsa",
@@ -7894,6 +8592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Cluster",
           "package": "alsa",
@@ -7903,6 +8602,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Cluster",
           "package": "alsa",
@@ -7916,6 +8616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "ConnEv",
           "package": "alsa",
@@ -7925,6 +8626,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "ConnEv",
           "package": "alsa",
@@ -7938,6 +8640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Control14",
           "package": "alsa",
@@ -7947,6 +8650,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Control14",
           "package": "alsa",
@@ -7960,6 +8664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Controller",
           "package": "alsa",
@@ -7969,6 +8674,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Controller",
           "package": "alsa",
@@ -7982,6 +8688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Ctrl",
           "package": "alsa",
@@ -7991,6 +8698,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Ctrl",
           "package": "alsa",
@@ -8004,6 +8712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "CtrlEv",
           "package": "alsa",
@@ -8013,6 +8722,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "CtrlEv",
           "package": "alsa",
@@ -8026,6 +8736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "EmptyEv",
           "package": "alsa",
@@ -8035,6 +8746,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "EmptyEv",
           "package": "alsa",
@@ -8048,6 +8760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Event",
           "package": "alsa",
@@ -8057,6 +8770,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Event",
           "package": "alsa",
@@ -8070,6 +8784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Instr",
           "package": "alsa",
@@ -8079,6 +8794,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Instr",
           "package": "alsa",
@@ -8092,6 +8808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "KeyPress",
           "package": "alsa",
@@ -8101,6 +8818,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "KeyPress",
           "package": "alsa",
@@ -8114,6 +8832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "KeySign",
           "package": "alsa",
@@ -8123,6 +8842,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "KeySign",
           "package": "alsa",
@@ -8136,6 +8856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "NonRegParam",
           "package": "alsa",
@@ -8145,6 +8866,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "NonRegParam",
           "package": "alsa",
@@ -8159,6 +8881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow exceptions instead of blocking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Nonblock",
           "package": "alsa",
@@ -8169,6 +8892,7 @@
         "index": {
           "description": "Throw exceptions instead of blocking",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Nonblock",
           "package": "alsa",
@@ -8182,6 +8906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "None",
           "package": "alsa",
@@ -8191,6 +8916,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "None",
           "package": "alsa",
@@ -8204,6 +8930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Note",
           "package": "alsa",
@@ -8213,6 +8940,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Note",
           "package": "alsa",
@@ -8226,6 +8954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "NoteEv",
           "package": "alsa",
@@ -8235,6 +8964,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "NoteEv",
           "package": "alsa",
@@ -8248,6 +8978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "NoteOff",
           "package": "alsa",
@@ -8257,6 +8988,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "NoteOff",
           "package": "alsa",
@@ -8270,6 +9002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "NoteOn",
           "package": "alsa",
@@ -8279,6 +9012,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "NoteOn",
           "package": "alsa",
@@ -8292,6 +9026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "PgmChange",
           "package": "alsa",
@@ -8301,6 +9036,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "PgmChange",
           "package": "alsa",
@@ -8314,6 +9050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "PitchBend",
           "package": "alsa",
@@ -8323,6 +9060,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "PitchBend",
           "package": "alsa",
@@ -8336,6 +9074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "PortChange",
           "package": "alsa",
@@ -8345,6 +9084,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "PortChange",
           "package": "alsa",
@@ -8358,6 +9098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "PortExit",
           "package": "alsa",
@@ -8367,6 +9108,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "PortExit",
           "package": "alsa",
@@ -8380,6 +9122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "PortStart",
           "package": "alsa",
@@ -8389,6 +9132,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "PortStart",
           "package": "alsa",
@@ -8402,6 +9146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "PortSubscribed",
           "package": "alsa",
@@ -8411,6 +9156,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "PortSubscribed",
           "package": "alsa",
@@ -8424,6 +9170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "PortUnsubscribed",
           "package": "alsa",
@@ -8433,6 +9180,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "PortUnsubscribed",
           "package": "alsa",
@@ -8446,6 +9194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "QFrame",
           "package": "alsa",
@@ -8455,6 +9204,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "QFrame",
           "package": "alsa",
@@ -8468,6 +9218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "RT",
           "package": "alsa",
@@ -8477,6 +9228,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "RT",
           "package": "alsa",
@@ -8490,6 +9242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "RealTime",
           "package": "alsa",
@@ -8499,6 +9252,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "RealTime",
           "package": "alsa",
@@ -8512,6 +9266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "RegParam",
           "package": "alsa",
@@ -8521,6 +9276,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "RegParam",
           "package": "alsa",
@@ -8534,6 +9290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Reset",
           "package": "alsa",
@@ -8543,6 +9300,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Reset",
           "package": "alsa",
@@ -8556,6 +9314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Sample",
           "package": "alsa",
@@ -8565,6 +9324,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Sample",
           "package": "alsa",
@@ -8578,6 +9338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Sensing",
           "package": "alsa",
@@ -8587,6 +9348,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Sensing",
           "package": "alsa",
@@ -8600,6 +9362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "SongPos",
           "package": "alsa",
@@ -8609,6 +9372,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "SongPos",
           "package": "alsa",
@@ -8622,6 +9386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "SongSel",
           "package": "alsa",
@@ -8631,6 +9396,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "SongSel",
           "package": "alsa",
@@ -8644,6 +9410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "TickTime",
           "package": "alsa",
@@ -8653,6 +9420,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "TickTime",
           "package": "alsa",
@@ -8666,6 +9434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "TimeSign",
           "package": "alsa",
@@ -8675,6 +9444,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "TimeSign",
           "package": "alsa",
@@ -8688,6 +9458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "TuneRequest",
           "package": "alsa",
@@ -8697,6 +9468,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "TuneRequest",
           "package": "alsa",
@@ -8710,6 +9482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Unknown",
           "package": "alsa",
@@ -8719,6 +9492,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Unknown",
           "package": "alsa",
@@ -8732,6 +9506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "Volume",
           "package": "alsa",
@@ -8741,6 +9516,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "Volume",
           "package": "alsa",
@@ -8754,6 +9530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "addr_client",
           "package": "alsa",
@@ -8763,6 +9540,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "addr_client",
           "package": "alsa",
@@ -8775,6 +9553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "addr_port",
           "package": "alsa",
@@ -8784,6 +9563,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "addr_port",
           "package": "alsa",
@@ -8797,6 +9577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe address of all subscribed ports.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "addr_subscribers",
           "package": "alsa",
@@ -8807,6 +9588,7 @@
         "index": {
           "description": "The address of all subscribed ports",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "addr_subscribers",
           "package": "alsa",
@@ -8820,6 +9602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatch an exception generated by the binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "alsa_catch",
           "package": "alsa",
@@ -8830,6 +9613,7 @@
         "index": {
           "description": "Catch an exception generated by the binding",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "alsa_catch",
           "normalized": "IO a-\u003e(AlsaException-\u003eIO a)-\u003eIO a",
@@ -8845,6 +9629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the sequencer. Closes the sequencer client and releases its\n resources. After a client is closed, an event with \u003ccode\u003e\u003ca\u003eClientExit\u003c/a\u003e\u003c/code\u003e is\n broadcast to announce port. The connection between other clients are\n disconnected. Call this just before exiting your program.\n NOTE: we could put this in a finalizer for the handle?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "close",
           "package": "alsa",
@@ -8854,6 +9639,7 @@
         "index": {
           "description": "Close the sequencer Closes the sequencer client and releases its resources After client is closed an event with ClientExit is broadcast to announce port The connection between other clients are disconnected Call this just before exiting your program NOTE we could put this in finalizer for the handle",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "close",
           "normalized": "SndSeq-\u003eIO()",
@@ -8868,6 +9654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "cluster_cluster",
           "package": "alsa",
@@ -8877,6 +9664,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "cluster_cluster",
           "package": "alsa",
@@ -8890,6 +9678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple subscription (w/o exclusive & time conversion).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "connect_from",
           "package": "alsa",
@@ -8900,6 +9689,7 @@
         "index": {
           "description": "Simple subscription exclusive time conversion",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "connect_from",
           "normalized": "SndSeq-\u003ePort-\u003eAddr-\u003eIO()",
@@ -8915,6 +9705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple subscription (w/o exclusive & time conversion).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "connect_to",
           "package": "alsa",
@@ -8925,6 +9716,7 @@
         "index": {
           "description": "Simple subscription exclusive time conversion",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "connect_to",
           "normalized": "SndSeq-\u003ePort-\u003eAddr-\u003eIO()",
@@ -8939,6 +9731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "ctrl_channel",
           "package": "alsa",
@@ -8948,6 +9741,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "ctrl_channel",
           "package": "alsa",
@@ -8960,6 +9754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "ctrl_param",
           "package": "alsa",
@@ -8969,6 +9764,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "ctrl_param",
           "package": "alsa",
@@ -8981,6 +9777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "ctrl_value",
           "package": "alsa",
@@ -8990,6 +9787,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "ctrl_value",
           "package": "alsa",
@@ -9003,6 +9801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the name that should be passed to \u003ccode\u003e\u003ca\u003eopen\u003c/a\u003e\u003c/code\u003e in most cases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "default_seq_name",
           "package": "alsa",
@@ -9013,6 +9812,7 @@
         "index": {
           "description": "This is the name that should be passed to open in most cases",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "default_seq_name",
           "package": "alsa",
@@ -9026,6 +9826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple disconnection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "disconnect_from",
           "package": "alsa",
@@ -9036,6 +9837,7 @@
         "index": {
           "description": "Simple disconnection",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "disconnect_from",
           "normalized": "SndSeq-\u003ePort-\u003eAddr-\u003eIO()",
@@ -9051,6 +9853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple disconnection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "disconnect_to",
           "package": "alsa",
@@ -9061,6 +9864,7 @@
         "index": {
           "description": "Simple disconnection",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "disconnect_to",
           "normalized": "SndSeq-\u003ePort-\u003eAddr-\u003eIO()",
@@ -9075,6 +9879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "ev_data",
           "package": "alsa",
@@ -9084,6 +9889,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "ev_data",
           "package": "alsa",
@@ -9096,6 +9902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "ev_dest",
           "package": "alsa",
@@ -9105,6 +9912,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "ev_dest",
           "package": "alsa",
@@ -9117,6 +9925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "ev_high_priority",
           "package": "alsa",
@@ -9126,6 +9935,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "ev_high_priority",
           "package": "alsa",
@@ -9138,6 +9948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "ev_queue",
           "package": "alsa",
@@ -9147,6 +9958,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "ev_queue",
           "package": "alsa",
@@ -9159,6 +9971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "ev_source",
           "package": "alsa",
@@ -9168,6 +9981,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "ev_source",
           "package": "alsa",
@@ -9180,6 +9994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "ev_tag",
           "package": "alsa",
@@ -9189,6 +10004,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "ev_tag",
           "package": "alsa",
@@ -9201,6 +10017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "ev_timestamp",
           "package": "alsa",
@@ -9210,6 +10027,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "ev_timestamp",
           "package": "alsa",
@@ -9223,6 +10041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe (positive) error code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "exception_code",
           "package": "alsa",
@@ -9233,6 +10052,7 @@
         "index": {
           "description": "the positive error code",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "exception_code",
           "normalized": "AlsaException-\u003eWord",
@@ -9248,6 +10068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea text description of the problem\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "exception_description",
           "package": "alsa",
@@ -9258,6 +10079,7 @@
         "index": {
           "description": "text description of the problem",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "exception_description",
           "normalized": "AlsaException-\u003eString",
@@ -9273,6 +10095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the byte size of input buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "get_input_buffer_size",
           "package": "alsa",
@@ -9282,6 +10105,7 @@
         "index": {
           "description": "Return the byte size of input buffer",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "get_input_buffer_size",
           "normalized": "SndSeq-\u003eIO Word",
@@ -9297,6 +10121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the byte size of the output buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "get_output_buffer_size",
           "package": "alsa",
@@ -9306,6 +10131,7 @@
         "index": {
           "description": "Return the byte size of the output buffer",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "get_output_buffer_size",
           "normalized": "SndSeq-\u003eIO Word",
@@ -9321,6 +10147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet identifier of a sequencer handle.\n It is the same identifier specified in the call to \u003ccode\u003e\u003ca\u003eopen\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "get_seq_name",
           "package": "alsa",
@@ -9330,6 +10157,7 @@
         "index": {
           "description": "Get identifier of sequencer handle It is the same identifier specified in the call to open",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "get_seq_name",
           "normalized": "SndSeq-\u003eIO String",
@@ -9344,6 +10172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "instr_bank",
           "package": "alsa",
@@ -9353,6 +10182,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "instr_bank",
           "package": "alsa",
@@ -9365,6 +10195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "instr_cluster",
           "package": "alsa",
@@ -9374,6 +10205,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "instr_cluster",
           "package": "alsa",
@@ -9386,6 +10218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "instr_prg",
           "package": "alsa",
@@ -9395,6 +10228,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "instr_prg",
           "package": "alsa",
@@ -9407,6 +10241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "instr_std",
           "package": "alsa",
@@ -9416,6 +10251,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "instr_std",
           "package": "alsa",
@@ -9428,6 +10264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "note_channel",
           "package": "alsa",
@@ -9437,6 +10274,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "note_channel",
           "package": "alsa",
@@ -9449,6 +10287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "note_duration",
           "package": "alsa",
@@ -9458,6 +10297,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "note_duration",
           "package": "alsa",
@@ -9470,6 +10310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "note_note",
           "package": "alsa",
@@ -9479,6 +10320,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "note_note",
           "package": "alsa",
@@ -9491,6 +10333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "note_off_velocity",
           "package": "alsa",
@@ -9500,6 +10343,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "note_off_velocity",
           "package": "alsa",
@@ -9512,6 +10356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "note_velocity",
           "package": "alsa",
@@ -9521,6 +10366,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "note_velocity",
           "package": "alsa",
@@ -9534,6 +10380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new handle and opens a connection to the kernel sequencer\n interface. After a client is created successfully,\n a \u003ccode\u003e\u003ca\u003eClientStart\u003c/a\u003e\u003c/code\u003e event is broadcast to the announce port.\n May throw an exception.\n See also: \u003ccode\u003eopen_lconf\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eclose\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003eget_seq_type\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003eget_seq_name\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eset_blocking\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003eget_client_id\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "open",
           "package": "alsa",
@@ -9543,6 +10390,7 @@
         "index": {
           "description": "Creates new handle and opens connection to the kernel sequencer interface After client is created successfully ClientStart event is broadcast to the announce port May throw an exception See also open lconf close get seq type get seq name set blocking get client id",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "open",
           "normalized": "String-\u003eOpenMode-\u003eBlockMode-\u003eIO SndSeq",
@@ -9557,6 +10405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "open_duplex",
           "package": "alsa",
@@ -9566,6 +10415,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "open_duplex",
           "package": "alsa",
@@ -9578,6 +10428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "open_input",
           "package": "alsa",
@@ -9587,6 +10438,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "open_input",
           "package": "alsa",
@@ -9599,6 +10451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "open_output",
           "package": "alsa",
@@ -9608,6 +10461,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "open_output",
           "package": "alsa",
@@ -9621,6 +10475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the given string into sequencer address.\n The client and port are separated by either colon or period, e.g. 128:1.\n The function also accepts client names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "parse_address",
           "package": "alsa",
@@ -9630,6 +10485,7 @@
         "index": {
           "description": "Parse the given string into sequencer address The client and port are separated by either colon or period e.g The function also accepts client names",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "parse_address",
           "normalized": "SndSeq-\u003eString-\u003eIO Addr",
@@ -9645,6 +10501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset the input pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "reset_pool_input",
           "package": "alsa",
@@ -9654,6 +10511,7 @@
         "index": {
           "description": "Reset the input pool",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "reset_pool_input",
           "normalized": "SndSeq-\u003eIO()",
@@ -9669,6 +10527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset the output pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "reset_pool_output",
           "package": "alsa",
@@ -9678,6 +10537,7 @@
         "index": {
           "description": "Reset the output pool",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "reset_pool_output",
           "normalized": "SndSeq-\u003eIO()",
@@ -9692,6 +10552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "rt_nano",
           "package": "alsa",
@@ -9701,6 +10562,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "rt_nano",
           "package": "alsa",
@@ -9713,6 +10575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "rt_secs",
           "package": "alsa",
@@ -9722,6 +10585,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "rt_secs",
           "package": "alsa",
@@ -9734,6 +10598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "sample_bank",
           "package": "alsa",
@@ -9743,6 +10608,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "sample_bank",
           "package": "alsa",
@@ -9755,6 +10621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "sample_prg",
           "package": "alsa",
@@ -9764,6 +10631,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "sample_prg",
           "package": "alsa",
@@ -9776,6 +10644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "sample_std",
           "package": "alsa",
@@ -9785,6 +10654,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "sample_std",
           "package": "alsa",
@@ -9798,6 +10668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the blocking mode of the given client.\n In block mode, the client falls into sleep when it fills the output\n pool with events, or when it demands events from an empty input pool.\n memory pool with full events. Clients that are sleeping due to\n loack of space in the output pool are woken when a certain\n amount of free space becomes available (see \u003ccode\u003eset_output_room\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "set_blocking",
           "package": "alsa",
@@ -9807,6 +10678,7 @@
         "index": {
           "description": "Change the blocking mode of the given client In block mode the client falls into sleep when it fills the output pool with events or when it demands events from an empty input pool memory pool with full events Clients that are sleeping due to loack of space in the output pool are woken when certain amount of free space becomes available see set output room",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "set_blocking",
           "normalized": "SndSeq-\u003eBlockMode-\u003eIO()",
@@ -9822,6 +10694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResize the input buffer.\n This function clears all input events (see \u003ccode\u003edrop_input\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "set_input_buffer_size",
           "package": "alsa",
@@ -9831,6 +10704,7 @@
         "index": {
           "description": "Resize the input buffer This function clears all input events see drop input",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "set_input_buffer_size",
           "normalized": "SndSeq-\u003eWord-\u003eIO()",
@@ -9846,6 +10720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResize of the output buffer.\n This function clears all output events (see \u003ccode\u003edrop_output\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "set_output_buffer_size",
           "package": "alsa",
@@ -9855,6 +10730,7 @@
         "index": {
           "description": "Resize of the output buffer This function clears all output events see drop output",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "set_output_buffer_size",
           "normalized": "SndSeq-\u003eWord-\u003eIO()",
@@ -9870,6 +10746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResize the input memory pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "set_pool_input",
           "package": "alsa",
@@ -9879,6 +10756,7 @@
         "index": {
           "description": "Resize the input memory pool",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "set_pool_input",
           "normalized": "SndSeq-\u003eWord-\u003eIO()",
@@ -9894,6 +10772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResize the output memory pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "set_pool_output",
           "package": "alsa",
@@ -9903,6 +10782,7 @@
         "index": {
           "description": "Resize the output memory pool",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "set_pool_output",
           "normalized": "SndSeq-\u003eWord-\u003eIO()",
@@ -9918,6 +10798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify how much space should become free before waking clients\n that are blocked due to a lack of space in the output pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "set_pool_output_room",
           "package": "alsa",
@@ -9927,6 +10808,7 @@
         "index": {
           "description": "Specify how much space should become free before waking clients that are blocked due to lack of space in the output pool",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "set_pool_output_room",
           "normalized": "SndSeq-\u003eWord-\u003eIO()",
@@ -9942,6 +10824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a note whose unspecified fields contain 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "simple_note",
           "package": "alsa",
@@ -9951,6 +10834,7 @@
         "index": {
           "description": "Make note whose unspecified fields contain",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "simple_note",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eNote",
@@ -9965,6 +10849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "volume_du",
           "package": "alsa",
@@ -9974,6 +10859,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "volume_du",
           "package": "alsa",
@@ -9986,6 +10872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "volume_fr",
           "package": "alsa",
@@ -9995,6 +10882,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "volume_fr",
           "package": "alsa",
@@ -10007,6 +10895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "volume_lr",
           "package": "alsa",
@@ -10016,6 +10905,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "volume_lr",
           "package": "alsa",
@@ -10029,6 +10919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed for volume control: means do not change the valume.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "volume_same",
           "package": "alsa",
@@ -10039,6 +10930,7 @@
         "index": {
           "description": "Used for volume control means do not change the valume",
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "volume_same",
           "package": "alsa",
@@ -10051,6 +10943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa.Sequencer",
           "name": "volume_volume",
           "package": "alsa",
@@ -10060,6 +10953,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa Sequencer",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa.Sequencer",
           "name": "volume_volume",
           "package": "alsa",
@@ -10072,6 +10966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "Alsa",
           "package": "alsa",
@@ -10080,6 +10975,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "Alsa",
           "package": "alsa",
@@ -10093,6 +10989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "SampleFmt",
           "package": "alsa",
@@ -10101,6 +10998,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "SampleFmt",
           "package": "alsa",
@@ -10114,6 +11012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "SampleFreq",
           "package": "alsa",
@@ -10122,6 +11021,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "SampleFreq",
           "package": "alsa",
@@ -10135,6 +11035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "SoundBufferTime",
           "package": "alsa",
@@ -10143,6 +11044,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "SoundBufferTime",
           "package": "alsa",
@@ -10156,6 +11058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "SoundFmt",
           "package": "alsa",
@@ -10164,6 +11067,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "SoundFmt",
           "package": "alsa",
@@ -10177,6 +11081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "SoundSink",
           "package": "alsa",
@@ -10185,6 +11090,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "SoundSink",
           "package": "alsa",
@@ -10199,6 +11105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounts are in samples, not bytes. Multi-channel data is interleaved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "SoundSource",
           "package": "alsa",
@@ -10208,6 +11115,7 @@
         "index": {
           "description": "Counts are in samples not bytes Multi-channel data is interleaved",
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "SoundSource",
           "package": "alsa",
@@ -10221,6 +11129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "Time",
           "package": "alsa",
@@ -10229,6 +11138,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "Time",
           "package": "alsa",
@@ -10242,6 +11152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "SoundBufferTime",
           "package": "alsa",
@@ -10251,6 +11162,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "SoundBufferTime",
           "package": "alsa",
@@ -10264,6 +11176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "SoundFmt",
           "package": "alsa",
@@ -10273,6 +11186,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "SoundFmt",
           "package": "alsa",
@@ -10286,6 +11200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "SoundSink",
           "package": "alsa",
@@ -10295,6 +11210,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "SoundSink",
           "package": "alsa",
@@ -10308,6 +11224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "SoundSource",
           "package": "alsa",
@@ -10317,6 +11234,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "SoundSource",
           "package": "alsa",
@@ -10330,6 +11248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "alsaSoundSink",
           "package": "alsa",
@@ -10339,6 +11258,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "alsaSoundSink",
           "normalized": "String-\u003eSoundFmt a-\u003eSoundSink a Pcm",
@@ -10354,6 +11274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "alsaSoundSinkTime",
           "package": "alsa",
@@ -10363,6 +11284,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "alsaSoundSinkTime",
           "normalized": "String-\u003eSoundFmt a-\u003eSoundBufferTime-\u003eSoundSink a Pcm",
@@ -10378,6 +11300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "alsaSoundSource",
           "package": "alsa",
@@ -10387,6 +11310,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "alsaSoundSource",
           "normalized": "String-\u003eSoundFmt a-\u003eSoundSource a Pcm",
@@ -10402,6 +11326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "alsaSoundSourceTime",
           "package": "alsa",
@@ -10411,6 +11336,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "alsaSoundSourceTime",
           "normalized": "String-\u003eSoundFmt a-\u003eSoundBufferTime-\u003eSoundSource a Pcm",
@@ -10426,6 +11352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "audioBytesPerFrame",
           "package": "alsa",
@@ -10435,6 +11362,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "audioBytesPerFrame",
           "normalized": "SoundFmt a-\u003eInt",
@@ -10450,6 +11378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "audioBytesPerSample",
           "package": "alsa",
@@ -10459,6 +11388,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "audioBytesPerSample",
           "normalized": "SoundFmt a-\u003eInt",
@@ -10474,6 +11404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "bufferTime",
           "package": "alsa",
@@ -10483,6 +11414,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "bufferTime",
           "package": "alsa",
@@ -10496,6 +11428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "copySound",
           "package": "alsa",
@@ -10504,6 +11437,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "copySound",
           "normalized": "SoundSource a b-\u003eSoundSink a b-\u003eInt-\u003eIO()",
@@ -10519,6 +11453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "fileSoundSink",
           "package": "alsa",
@@ -10528,6 +11463,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "fileSoundSink",
           "normalized": "FilePath-\u003eSoundFmt a-\u003eSoundSink a Handle",
@@ -10543,6 +11479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "fileSoundSource",
           "package": "alsa",
@@ -10552,6 +11489,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "fileSoundSource",
           "normalized": "FilePath-\u003eSoundFmt a-\u003eSoundSource a Handle",
@@ -10567,6 +11505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "periodTime",
           "package": "alsa",
@@ -10576,6 +11515,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "periodTime",
           "package": "alsa",
@@ -10589,6 +11529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "sampleFmtToPcmFormat",
           "package": "alsa",
@@ -10598,6 +11539,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "sampleFmtToPcmFormat",
           "normalized": "a-\u003ePcmFormat",
@@ -10613,6 +11555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "sampleFreq",
           "package": "alsa",
@@ -10622,6 +11565,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "sampleFreq",
           "package": "alsa",
@@ -10635,6 +11579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "soundFmtMIME",
           "package": "alsa",
@@ -10644,6 +11589,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "soundFmtMIME",
           "normalized": "SoundFmt a-\u003eString",
@@ -10659,6 +11605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "soundSinkBytesPerFrame",
           "package": "alsa",
@@ -10668,6 +11615,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "soundSinkBytesPerFrame",
           "normalized": "SoundSink a b-\u003eInt",
@@ -10683,6 +11631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "soundSinkClose",
           "package": "alsa",
@@ -10692,6 +11641,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "soundSinkClose",
           "normalized": "a-\u003eIO()",
@@ -10707,6 +11657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "soundSinkFmt",
           "package": "alsa",
@@ -10716,6 +11667,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "soundSinkFmt",
           "package": "alsa",
@@ -10729,6 +11681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "soundSinkOpen",
           "package": "alsa",
@@ -10738,6 +11691,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "soundSinkOpen",
           "package": "alsa",
@@ -10751,6 +11705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "soundSinkStart",
           "package": "alsa",
@@ -10760,6 +11715,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "soundSinkStart",
           "normalized": "a-\u003eIO()",
@@ -10775,6 +11731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "soundSinkStop",
           "package": "alsa",
@@ -10784,6 +11741,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "soundSinkStop",
           "normalized": "a-\u003eIO()",
@@ -10799,6 +11757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "soundSinkWrite",
           "package": "alsa",
@@ -10808,6 +11767,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "soundSinkWrite",
           "normalized": "a-\u003ePtr b-\u003eInt-\u003eIO()",
@@ -10823,6 +11783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "soundSourceBytesPerFrame",
           "package": "alsa",
@@ -10832,6 +11793,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "soundSourceBytesPerFrame",
           "normalized": "SoundSource a b-\u003eInt",
@@ -10847,6 +11809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "soundSourceClose",
           "package": "alsa",
@@ -10856,6 +11819,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "soundSourceClose",
           "normalized": "a-\u003eIO()",
@@ -10871,6 +11835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "soundSourceFmt",
           "package": "alsa",
@@ -10880,6 +11845,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "soundSourceFmt",
           "package": "alsa",
@@ -10893,6 +11859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "soundSourceOpen",
           "package": "alsa",
@@ -10902,6 +11869,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "soundSourceOpen",
           "package": "alsa",
@@ -10915,6 +11883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "soundSourceRead",
           "package": "alsa",
@@ -10924,6 +11893,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "soundSourceRead",
           "normalized": "a-\u003ePtr b-\u003eInt-\u003eIO Int",
@@ -10939,6 +11909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "soundSourceStart",
           "package": "alsa",
@@ -10948,6 +11919,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "soundSourceStart",
           "normalized": "a-\u003eIO()",
@@ -10963,6 +11935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "soundSourceStop",
           "package": "alsa",
@@ -10972,6 +11945,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "soundSourceStop",
           "normalized": "a-\u003eIO()",
@@ -10987,6 +11961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "withSoundSink",
           "package": "alsa",
@@ -10996,6 +11971,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "withSoundSink",
           "normalized": "SoundSink a b-\u003e(b-\u003eIO c)-\u003eIO c",
@@ -11011,6 +11987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "withSoundSinkRunning",
           "package": "alsa",
@@ -11020,6 +11997,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "withSoundSinkRunning",
           "normalized": "SoundSink a b-\u003eb-\u003eIO c-\u003eIO c",
@@ -11035,6 +12013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "withSoundSource",
           "package": "alsa",
@@ -11044,6 +12023,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "withSoundSource",
           "normalized": "SoundSource a b-\u003e(b-\u003eIO c)-\u003eIO c",
@@ -11059,6 +12039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:10 UTC 2014",
           "module": "Sound.Alsa",
           "name": "withSoundSourceRunning",
           "package": "alsa",
@@ -11068,6 +12049,7 @@
         },
         "index": {
           "hierarchy": "Sound Alsa",
+          "indexed": "2014-03-11T17:10:10",
           "module": "Sound.Alsa",
           "name": "withSoundSourceRunning",
           "normalized": "SoundSource a b-\u003eb-\u003eIO c-\u003eIO c",

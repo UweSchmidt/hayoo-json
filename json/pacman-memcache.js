@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pacman-memcache"
+        "phrase": "pacman-memcache",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monoid-transformer"
+        "phrase": "monoid-transformer",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:22 UTC 2014",
           "module": "Data.Monoid.Reader",
           "name": "Reader",
           "package": "monoid-transformer",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Reader",
+          "indexed": "2014-03-11T19:22:22",
           "module": "Data.Monoid.Reader",
           "name": "Reader",
           "package": "monoid-transformer",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:22 UTC 2014",
           "module": "Data.Monoid.Reader",
           "name": "T",
           "package": "monoid-transformer",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Reader",
+          "indexed": "2014-03-11T19:22:22",
           "module": "Data.Monoid.Reader",
           "name": "T",
           "package": "monoid-transformer",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:22 UTC 2014",
           "module": "Data.Monoid.Reader",
           "name": "Cons",
           "package": "monoid-transformer",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Reader",
+          "indexed": "2014-03-11T19:22:22",
           "module": "Data.Monoid.Reader",
           "name": "Cons",
           "package": "monoid-transformer",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:22 UTC 2014",
           "module": "Data.Monoid.Reader",
           "name": "pure",
           "package": "monoid-transformer",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Reader",
+          "indexed": "2014-03-11T19:22:22",
           "module": "Data.Monoid.Reader",
           "name": "pure",
           "normalized": "a-\u003eT b a",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:22 UTC 2014",
           "module": "Data.Monoid.Reader",
           "name": "run",
           "package": "monoid-transformer",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Reader",
+          "indexed": "2014-03-11T19:22:22",
           "module": "Data.Monoid.Reader",
           "name": "run",
           "normalized": "a-\u003eb",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:22 UTC 2014",
           "module": "Data.Monoid.State",
           "name": "State",
           "package": "monoid-transformer",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid State",
+          "indexed": "2014-03-11T19:22:22",
           "module": "Data.Monoid.State",
           "name": "State",
           "package": "monoid-transformer",
@@ -149,6 +161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis resembles the pure State monad.\nHowever, State in transformers is a StateT\nand mtl is not Haskell 98.\n\u003c/p\u003e\u003cp\u003eI hope I have the more natural parameter order for \u003ccode\u003e\u003ca\u003eevaluate\u003c/a\u003e\u003c/code\u003e\nin contrast to \u003ccode\u003emtl\u003c/code\u003e and \u003ccode\u003etransformers\u003c/code\u003e.\nHowever, it is different from the parameter order of \u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:22 UTC 2014",
           "module": "Data.Monoid.State",
           "name": "T",
           "package": "monoid-transformer",
@@ -158,6 +171,7 @@
         "index": {
           "description": "This resembles the pure State monad However State in transformers is StateT and mtl is not Haskell hope have the more natural parameter order for evaluate in contrast to mtl and transformers However it is different from the parameter order of run",
           "hierarchy": "Data Monoid State",
+          "indexed": "2014-03-11T19:22:22",
           "module": "Data.Monoid.State",
           "name": "T",
           "package": "monoid-transformer",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:22 UTC 2014",
           "module": "Data.Monoid.State",
           "name": "Cons",
           "package": "monoid-transformer",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid State",
+          "indexed": "2014-03-11T19:22:22",
           "module": "Data.Monoid.State",
           "name": "Cons",
           "package": "monoid-transformer",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:22 UTC 2014",
           "module": "Data.Monoid.State",
           "name": "evaluate",
           "package": "monoid-transformer",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid State",
+          "indexed": "2014-03-11T19:22:22",
           "module": "Data.Monoid.State",
           "name": "evaluate",
           "normalized": "a-\u003eT a b-\u003eb",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:22 UTC 2014",
           "module": "Data.Monoid.State",
           "name": "execute",
           "package": "monoid-transformer",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid State",
+          "indexed": "2014-03-11T19:22:22",
           "module": "Data.Monoid.State",
           "name": "execute",
           "normalized": "a-\u003eT a b-\u003ea",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:22 UTC 2014",
           "module": "Data.Monoid.State",
           "name": "mapFst",
           "package": "monoid-transformer",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid State",
+          "indexed": "2014-03-11T19:22:22",
           "module": "Data.Monoid.State",
           "name": "mapFst",
           "normalized": "(a-\u003eb)-\u003e(a,c)-\u003e(b,c)",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:22 UTC 2014",
           "module": "Data.Monoid.State",
           "name": "modify",
           "package": "monoid-transformer",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid State",
+          "indexed": "2014-03-11T19:22:22",
           "module": "Data.Monoid.State",
           "name": "modify",
           "normalized": "(a-\u003ea)-\u003eT a b",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:22 UTC 2014",
           "module": "Data.Monoid.State",
           "name": "pure",
           "package": "monoid-transformer",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid State",
+          "indexed": "2014-03-11T19:22:22",
           "module": "Data.Monoid.State",
           "name": "pure",
           "normalized": "a-\u003eT b a",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:22 UTC 2014",
           "module": "Data.Monoid.State",
           "name": "put",
           "package": "monoid-transformer",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid State",
+          "indexed": "2014-03-11T19:22:22",
           "module": "Data.Monoid.State",
           "name": "put",
           "normalized": "a-\u003eT a b",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:22 UTC 2014",
           "module": "Data.Monoid.State",
           "name": "run",
           "package": "monoid-transformer",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid State",
+          "indexed": "2014-03-11T19:22:22",
           "module": "Data.Monoid.State",
           "name": "run",
           "normalized": "a-\u003e(b,a)",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:22 UTC 2014",
           "module": "Data.Monoid.Transformer",
           "name": "Transformer",
           "package": "monoid-transformer",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Transformer",
+          "indexed": "2014-03-11T19:22:22",
           "module": "Data.Monoid.Transformer",
           "name": "Transformer",
           "package": "monoid-transformer",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:22 UTC 2014",
           "module": "Data.Monoid.Transformer",
           "name": "C",
           "package": "monoid-transformer",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Transformer",
+          "indexed": "2014-03-11T19:22:22",
           "module": "Data.Monoid.Transformer",
           "name": "C",
           "package": "monoid-transformer",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:22 UTC 2014",
           "module": "Data.Monoid.Transformer",
           "name": "lift",
           "package": "monoid-transformer",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Data Monoid Transformer",
+          "indexed": "2014-03-11T19:22:22",
           "module": "Data.Monoid.Transformer",
           "name": "lift",
           "normalized": "a-\u003eb a",

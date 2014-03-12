@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "prelude-extras"
+        "phrase": "prelude-extras",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "Extras",
           "package": "prelude-extras",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "Extras",
           "package": "prelude-extras",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "Eq1",
           "package": "prelude-extras",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "Eq1",
           "package": "prelude-extras",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "Eq2",
           "package": "prelude-extras",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "Eq2",
           "package": "prelude-extras",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "Lift1",
           "package": "prelude-extras",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "Lift1",
           "package": "prelude-extras",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "Lift2",
           "package": "prelude-extras",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "Lift2",
           "package": "prelude-extras",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "Ord1",
           "package": "prelude-extras",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "Ord1",
           "package": "prelude-extras",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "Ord2",
           "package": "prelude-extras",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "Ord2",
           "package": "prelude-extras",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "Read1",
           "package": "prelude-extras",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "Read1",
           "package": "prelude-extras",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "Read2",
           "package": "prelude-extras",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "Read2",
           "package": "prelude-extras",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "Show1",
           "package": "prelude-extras",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "Show1",
           "package": "prelude-extras",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "Show2",
           "package": "prelude-extras",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "Show2",
           "package": "prelude-extras",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "(/=#)",
           "package": "prelude-extras",
@@ -258,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "(/=#) /=#",
           "normalized": "a b-\u003ea b-\u003eBool",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "(/=##)",
           "package": "prelude-extras",
@@ -281,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "(/=##) /=##",
           "normalized": "a b c-\u003ea b c-\u003eBool",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "(\u003c#)",
           "package": "prelude-extras",
@@ -304,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "(\u003c#) \u003c#",
           "normalized": "a b-\u003ea b-\u003eBool",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "(\u003c##)",
           "package": "prelude-extras",
@@ -327,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "(\u003c##) \u003c##",
           "normalized": "a b c-\u003ea b c-\u003eBool",
@@ -341,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "(\u003c=#)",
           "package": "prelude-extras",
@@ -350,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "(\u003c=#) \u003c=#",
           "normalized": "a b-\u003ea b-\u003eBool",
@@ -364,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "(\u003c=##)",
           "package": "prelude-extras",
@@ -373,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "(\u003c=##) \u003c=##",
           "normalized": "a b c-\u003ea b c-\u003eBool",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "(==#)",
           "package": "prelude-extras",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "(==#) ==#",
           "normalized": "a b-\u003ea b-\u003eBool",
@@ -410,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "(==##)",
           "package": "prelude-extras",
@@ -419,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "(==##) ==##",
           "normalized": "a b c-\u003ea b c-\u003eBool",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "(\u003e#)",
           "package": "prelude-extras",
@@ -442,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "(\u003e#) \u003e#",
           "normalized": "a b-\u003ea b-\u003eBool",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "(\u003e##)",
           "package": "prelude-extras",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "(\u003e##) \u003e##",
           "normalized": "a b c-\u003ea b c-\u003eBool",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "(\u003e=#)",
           "package": "prelude-extras",
@@ -488,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "(\u003e=#) \u003e=#",
           "normalized": "a b-\u003ea b-\u003eBool",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "(\u003e=##)",
           "package": "prelude-extras",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "(\u003e=##) \u003e=##",
           "normalized": "a b c-\u003ea b c-\u003eBool",
@@ -525,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "Lift1",
           "package": "prelude-extras",
@@ -534,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "Lift1",
           "package": "prelude-extras",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "Lift2",
           "package": "prelude-extras",
@@ -556,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "Lift2",
           "package": "prelude-extras",
@@ -569,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "compare1",
           "package": "prelude-extras",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "compare1",
           "normalized": "a b-\u003ea b-\u003eOrdering",
@@ -592,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "compare2",
           "package": "prelude-extras",
@@ -601,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "compare2",
           "normalized": "a b c-\u003ea b c-\u003eOrdering",
@@ -615,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "lower1",
           "package": "prelude-extras",
@@ -624,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "lower1",
           "package": "prelude-extras",
@@ -636,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "lower2",
           "package": "prelude-extras",
@@ -645,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "lower2",
           "package": "prelude-extras",
@@ -657,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "max1",
           "package": "prelude-extras",
@@ -666,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "max1",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -680,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "max2",
           "package": "prelude-extras",
@@ -689,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "max2",
           "normalized": "a b c-\u003ea b c-\u003ea b c",
@@ -703,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "min1",
           "package": "prelude-extras",
@@ -712,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "min1",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -726,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "min2",
           "package": "prelude-extras",
@@ -735,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "min2",
           "normalized": "a b c-\u003ea b c-\u003ea b c",
@@ -749,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "read1",
           "package": "prelude-extras",
@@ -758,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "read1",
           "normalized": "String-\u003ea b",
@@ -772,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "read2",
           "package": "prelude-extras",
@@ -781,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "read2",
           "normalized": "String-\u003ea b c",
@@ -795,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "readList1",
           "package": "prelude-extras",
@@ -804,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "readList1",
           "normalized": "ReadS[a b]",
@@ -819,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "readList1Default",
           "package": "prelude-extras",
@@ -828,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "readList1Default",
           "normalized": "ReadS[a b]",
@@ -843,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "readList2",
           "package": "prelude-extras",
@@ -852,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "readList2",
           "normalized": "ReadS[a b c]",
@@ -867,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "readList2Default",
           "package": "prelude-extras",
@@ -876,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "readList2Default",
           "normalized": "ReadS[a b c]",
@@ -891,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "readListPrec1",
           "package": "prelude-extras",
@@ -900,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "readListPrec1",
           "normalized": "ReadPrec[a b]",
@@ -915,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "readListPrec1Default",
           "package": "prelude-extras",
@@ -924,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "readListPrec1Default",
           "normalized": "ReadPrec[a b]",
@@ -939,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "readListPrec2",
           "package": "prelude-extras",
@@ -948,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "readListPrec2",
           "normalized": "ReadPrec[a b c]",
@@ -963,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "readListPrec2Default",
           "package": "prelude-extras",
@@ -972,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "readListPrec2Default",
           "normalized": "ReadPrec[a b c]",
@@ -987,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "readPrec1",
           "package": "prelude-extras",
@@ -996,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "readPrec1",
           "package": "prelude-extras",
@@ -1009,6 +1097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "readPrec2",
           "package": "prelude-extras",
@@ -1018,6 +1107,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "readPrec2",
           "package": "prelude-extras",
@@ -1031,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "reads1",
           "package": "prelude-extras",
@@ -1040,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "reads1",
           "package": "prelude-extras",
@@ -1052,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "reads2",
           "package": "prelude-extras",
@@ -1061,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "reads2",
           "package": "prelude-extras",
@@ -1073,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "readsPrec1",
           "package": "prelude-extras",
@@ -1082,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "readsPrec1",
           "normalized": "Int-\u003eReadS(a b)",
@@ -1097,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "readsPrec2",
           "package": "prelude-extras",
@@ -1106,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "readsPrec2",
           "normalized": "Int-\u003eReadS(a b c)",
@@ -1121,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "show1",
           "package": "prelude-extras",
@@ -1130,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "show1",
           "normalized": "a b-\u003eString",
@@ -1144,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "show2",
           "package": "prelude-extras",
@@ -1153,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "show2",
           "normalized": "a b c-\u003eString",
@@ -1167,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "showList1",
           "package": "prelude-extras",
@@ -1176,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "showList1",
           "normalized": "[a b]-\u003eShowS",
@@ -1191,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "showList2",
           "package": "prelude-extras",
@@ -1200,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "showList2",
           "normalized": "[a b c]-\u003eShowS",
@@ -1215,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "shows1",
           "package": "prelude-extras",
@@ -1224,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "shows1",
           "normalized": "a b-\u003eShowS",
@@ -1238,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "shows2",
           "package": "prelude-extras",
@@ -1247,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "shows2",
           "normalized": "a b c-\u003eShowS",
@@ -1261,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "showsPrec1",
           "package": "prelude-extras",
@@ -1270,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "showsPrec1",
           "normalized": "Int-\u003ea b-\u003eShowS",
@@ -1285,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:06 UTC 2014",
           "module": "Prelude.Extras",
           "name": "showsPrec2",
           "package": "prelude-extras",
@@ -1294,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Prelude Extras",
+          "indexed": "2014-03-11T19:43:06",
           "module": "Prelude.Extras",
           "name": "showsPrec2",
           "normalized": "Int-\u003ea b c-\u003eShowS",

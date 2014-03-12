@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gitignore"
+        "phrase": "gitignore",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "separated"
+        "phrase": "separated",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "Separated",
           "package": "separated",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "Separated",
           "package": "separated",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data type representing a list of pairs of separator and element values.\n Isomorphic to \u003ccode\u003eSeparated\u003c/code\u003e with the type constructor flipped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "FlipSeparated",
           "package": "separated",
@@ -49,6 +52,7 @@
         "index": {
           "description": "data type representing list of pairs of separator and element values Isomorphic to Separated with the type constructor flipped",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "FlipSeparated",
           "package": "separated",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "FlipSeparated'",
           "package": "separated",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "FlipSeparated'",
           "package": "separated",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data type representing element values interspersed with a separator.\n Isomorphic to \u003ccode\u003eSeparated1\u003c/code\u003e with the type constructor flipped.\n\u003c/p\u003e\u003cp\u003eThere is one fewer separator values (\u003ccode\u003es\u003c/code\u003e) than there are element values (\u003ccode\u003ea\u003c/code\u003e). There is at least one element value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "FlipSeparated1",
           "package": "separated",
@@ -93,6 +100,7 @@
         "index": {
           "description": "data type representing element values interspersed with separator Isomorphic to Separated1 with the type constructor flipped There is one fewer separator values than there are element values There is at least one element value",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "FlipSeparated1",
           "package": "separated",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "FlipSeparated1'",
           "package": "separated",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "FlipSeparated1'",
           "package": "separated",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepend a value to a flipped separated-like structure.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e'z' +. fempty\n\u003c/code\u003e\u003c/strong\u003e['z']\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e9 +. 'z' +. fempty\n\u003c/code\u003e\u003c/strong\u003e[9,'z']\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "FlipSeparatedCons",
           "package": "separated",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Prepend value to flipped separated-like structure fempty fempty",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "FlipSeparatedCons",
           "package": "separated",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data type representing a list of pairs of separator and element values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "Separated",
           "package": "separated",
@@ -160,6 +173,7 @@
         "index": {
           "description": "data type representing list of pairs of separator and element values",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "Separated",
           "package": "separated",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "Separated'",
           "package": "separated",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "Separated'",
           "package": "separated",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data type representing element values interspersed with a separator.\n\u003c/p\u003e\u003cp\u003eThere is one fewer separator values (\u003ccode\u003es\u003c/code\u003e) than there are element values (\u003ccode\u003ea\u003c/code\u003e). There is at least one element value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "Separated1",
           "package": "separated",
@@ -204,6 +221,7 @@
         "index": {
           "description": "data type representing element values interspersed with separator There is one fewer separator values than there are element values There is at least one element value",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "Separated1",
           "package": "separated",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "Separated1'",
           "package": "separated",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "Separated1'",
           "package": "separated",
@@ -239,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepend a value to a separated-like structure.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e'z' +: empty\n\u003c/code\u003e\u003c/strong\u003e['z']\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e9 +: 'z' +: empty\n\u003c/code\u003e\u003c/strong\u003e[9,'z']\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "SeparatedCons",
           "package": "separated",
@@ -248,6 +269,7 @@
         "index": {
           "description": "Prepend value to separated-like structure empty empty",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "SeparatedCons",
           "package": "separated",
@@ -262,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend a list of pairs of separator and element values to element values interspersed with a separator.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esingle 7 **: empty\n\u003c/code\u003e\u003c/strong\u003e[7]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esingle 6 **: 'x' +: 7 +: empty\n\u003c/code\u003e\u003c/strong\u003e[6,'x',7]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e'w' +: single 6 **: 'x' +: 7 +: empty\n\u003c/code\u003e\u003c/strong\u003e['w',6,'x',7]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "(**:)",
           "package": "separated",
@@ -272,6 +295,7 @@
         "index": {
           "description": "Append list of pairs of separator and element values to element values interspersed with separator single empty single empty single empty",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "(**:) **:",
           "normalized": "Separated a b-\u003eSeparated b a-\u003eSeparated a b",
@@ -287,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend element values interspersed with a separator to a list of pairs of separator and element values.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eempty *+: single 7\n\u003c/code\u003e\u003c/strong\u003e[7]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eempty *+: 6 +: 'x' +: single 7\n\u003c/code\u003e\u003c/strong\u003e[6,'x',7]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e'w' +: empty *+: 6 +: 'x' +: single 7\n\u003c/code\u003e\u003c/strong\u003e['w',6,'x',7]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "(*+:)",
           "package": "separated",
@@ -297,6 +322,7 @@
         "index": {
           "description": "Append element values interspersed with separator to list of pairs of separator and element values empty single empty single empty single",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "(*+:) *+:",
           "normalized": "Separated a b-\u003eSeparated a b-\u003eSeparated a b",
@@ -312,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppend two lists of separated values to produce a list of pairs of separator and element values.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esingle 7 ++: single 'a'\n\u003c/code\u003e\u003c/strong\u003e[7,'a']\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003ea\u003c/code\u003e +: single 7 ++: single \u003ccode\u003eb\u003c/code\u003e\n [\u003ccode\u003ea\u003c/code\u003e,7,\u003ccode\u003eb\u003c/code\u003e]\n\u003c/p\u003e\u003cpre\u003ea +: (b ++: c) == (a +: b) *+: c\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "(++:)",
           "package": "separated",
@@ -322,6 +349,7 @@
         "index": {
           "description": "Append two lists of separated values to produce list of pairs of separator and element values single single single single",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "(++:) ++:",
           "normalized": "Separated a b-\u003eSeparated b a-\u003eSeparated a b",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "(+.)",
           "package": "separated",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "(+.) +.",
           "normalized": "a-\u003eb a c-\u003ed c a",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "(+:)",
           "package": "separated",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "(+:) +:",
           "normalized": "a-\u003eb c a-\u003ed a c",
@@ -383,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne element and one separator.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e7 +:. \"abc\"\n\u003c/code\u003e\u003c/strong\u003e[7,\"abc\"]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e7 +: \"abc\" +: 8 +:. \"def\"\n\u003c/code\u003e\u003c/strong\u003e[7,\"abc\",8,\"def\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "(+:.)",
           "package": "separated",
@@ -393,6 +426,7 @@
         "index": {
           "description": "One element and one separator abc abc abc def abc def",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "(+:.) +:.",
           "normalized": "a-\u003eb-\u003eSeparated a b",
@@ -408,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract all values, where the separator and element are the same type.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eallValues empty\n\u003c/code\u003e\u003c/strong\u003e[]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eallValues (1 +: 2 +: 3 +: 4 +: empty)\n\u003c/code\u003e\u003c/strong\u003e[1,2,3,4]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "allValues",
           "package": "separated",
@@ -418,6 +453,7 @@
         "index": {
           "description": "Extract all values where the separator and element are the same type allValues empty allValues empty",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "allValues",
           "normalized": "Separated' a-\u003e[a]",
@@ -434,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract all values, where the separator and element are the same type.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eallValues1 (single 7)\n\u003c/code\u003e\u003c/strong\u003e7 :| []\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eallValues1 (1 +: 2 +: 3 +: empty)\n\u003c/code\u003e\u003c/strong\u003e1 :| [2,3]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "allValues1",
           "package": "separated",
@@ -444,6 +481,7 @@
         "index": {
           "description": "Extract all values where the separator and element are the same type allValues1 single allValues1 empty",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "allValues1",
           "normalized": "Separated a-\u003eNonEmpty a",
@@ -460,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty list of pairs of separator and element values.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eempty\n\u003c/code\u003e\u003c/strong\u003e[]\n\u003c/pre\u003e\u003cpre\u003eempty *+: x == x\u003c/pre\u003e\u003cpre\u003ex **: empty == x\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "empty",
           "package": "separated",
@@ -470,6 +509,7 @@
         "index": {
           "description": "An empty list of pairs of separator and element values empty empty empty",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "empty",
           "package": "separated",
@@ -482,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "fempty",
           "package": "separated",
@@ -491,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "fempty",
           "package": "separated",
@@ -504,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe isomorphism to a \u003ccode\u003eSeparated1\u003c/code\u003e.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eflipSeparated1Iso # (single 6)\n\u003c/code\u003e\u003c/strong\u003e[6]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eflipSeparated1Iso # (5 +: 'x' +: single 6)\n\u003c/code\u003e\u003c/strong\u003e[5,'x',6]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(6 +: empty) ^. from flipSeparated1Iso\n\u003c/code\u003e\u003c/strong\u003e[6]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(5 +: 'x' +: 6 +: empty) ^. from flipSeparated1Iso\n\u003c/code\u003e\u003c/strong\u003e[5,'x',6]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "flipSeparated1Iso",
           "package": "separated",
@@ -514,6 +557,7 @@
         "index": {
           "description": "The isomorphism to Separated1 flipSeparated1Iso single flipSeparated1Iso single empty from flipSeparated1Iso empty from flipSeparated1Iso",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "flipSeparated1Iso",
           "package": "separated",
@@ -528,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe isomorphism to a \u003ccode\u003eSeparator\u003c/code\u003e.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eflipSeparatedIso # empty\n\u003c/code\u003e\u003c/strong\u003e[]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eflipSeparatedIso # ('x' +: 6 +: empty)\n\u003c/code\u003e\u003c/strong\u003e['x',6]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e[] ^. separatedIso . from flipSeparatedIso\n\u003c/code\u003e\u003c/strong\u003e[]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e[(6, [])] ^. separatedIso . from flipSeparatedIso\n\u003c/code\u003e\u003c/strong\u003e[6,[]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "flipSeparatedIso",
           "package": "separated",
@@ -538,6 +583,7 @@
         "index": {
           "description": "The isomorphism to Separator flipSeparatedIso empty flipSeparatedIso empty separatedIso from flipSeparatedIso separatedIso from flipSeparatedIso",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "flipSeparatedIso",
           "package": "separated",
@@ -551,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "flipSeparatedSwapIso",
           "package": "separated",
@@ -560,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "flipSeparatedSwapIso",
           "package": "separated",
@@ -574,6 +622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lens on the first element value.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esingle 7 ^. separated1Head\n\u003c/code\u003e\u003c/strong\u003e7\n\u003c/pre\u003e\u003cpre\u003esingle x ^. separated1Head == (x :: Int)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "separated1Head",
           "package": "separated",
@@ -584,6 +633,7 @@
         "index": {
           "description": "lens on the first element value single separated1Head single separated1Head Int",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "separated1Head",
           "package": "separated",
@@ -598,6 +648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe isomorphism to element values interspersed with a separator.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparated1Iso # (single 6)\n\u003c/code\u003e\u003c/strong\u003e(6,[])\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparated1Iso # (5 +: 'x' +: single 6)\n\u003c/code\u003e\u003c/strong\u003e(5,[('x',6)])\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(6, []) ^. separated1Iso\n\u003c/code\u003e\u003c/strong\u003e[6]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(5, [('x', 6)]) ^. separated1Iso\n\u003c/code\u003e\u003c/strong\u003e[5,'x',6]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "separated1Iso",
           "package": "separated",
@@ -608,6 +659,7 @@
         "index": {
           "description": "The isomorphism to element values interspersed with separator separated1Iso single separated1Iso single separated1Iso separated1Iso",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "separated1Iso",
           "normalized": "Iso'(a,[(b,a)])(Separated a b)",
@@ -624,6 +676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lens on the tail.\n\u003c/p\u003e\u003cpre\u003ed +: e +: single x ^. separated1Tail == e +: x +: empty\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "separated1Tail",
           "package": "separated",
@@ -634,6 +687,7 @@
         "index": {
           "description": "lens on the tail single separated1Tail empty",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "separated1Tail",
           "package": "separated",
@@ -648,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all element values.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparated1Values (single 8)\n\u003c/code\u003e\u003c/strong\u003e8 :| []\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparated1Values (7 +: 'a' +: single 8)\n\u003c/code\u003e\u003c/strong\u003e7 :| [8]\n\u003c/pre\u003e\u003cpre\u003elet h :| _ = separated1Values (single x) in h == (x :: Int)\u003c/pre\u003e\u003cpre\u003elet _ :| t = separated1Values (d +: e +: single x) in t == fmap fst [e]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "separated1Values",
           "package": "separated",
@@ -658,6 +713,7 @@
         "index": {
           "description": "Return all element values separated1Values single separated1Values single let separated1Values single in Int let separated1Values single in fmap fst",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "separated1Values",
           "normalized": "Separated a b-\u003eNonEmpty a",
@@ -674,6 +730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe isomorphism to a list of pairs of element and separator values.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparatedIso # empty\n\u003c/code\u003e\u003c/strong\u003e[]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparatedIso # ('x' +: 6 +: empty)\n\u003c/code\u003e\u003c/strong\u003e[('x',6)]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e[] ^. separatedIso\n\u003c/code\u003e\u003c/strong\u003e[]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e[(6, [])] ^. separatedIso\n\u003c/code\u003e\u003c/strong\u003e[6,[]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "separatedIso",
           "package": "separated",
@@ -684,6 +741,7 @@
         "index": {
           "description": "The isomorphism to list of pairs of element and separator values separatedIso empty separatedIso empty separatedIso separatedIso",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "separatedIso",
           "normalized": "Iso'[(a,b)](Separated a b)",
@@ -700,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe isomorphism that swaps elements with their separators.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparatedSwap # empty\n\u003c/code\u003e\u003c/strong\u003e[]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparatedSwap # ('x' +: 6 +: empty)\n\u003c/code\u003e\u003c/strong\u003e[6,'x']\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eempty ^. separatedSwap\n\u003c/code\u003e\u003c/strong\u003e[]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e('x' +: 6 +: empty) ^. separatedSwap\n\u003c/code\u003e\u003c/strong\u003e[6,'x']\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "separatedSwap",
           "package": "separated",
@@ -710,6 +769,7 @@
         "index": {
           "description": "The isomorphism that swaps elements with their separators separatedSwap empty separatedSwap empty empty separatedSwap empty separatedSwap",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "separatedSwap",
           "package": "separated",
@@ -724,6 +784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all element values in a list of pairs of element and separator values.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparatedValues empty\n\u003c/code\u003e\u003c/strong\u003e[]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparatedValues ('x' +: 2 +: empty)\n\u003c/code\u003e\u003c/strong\u003e[2]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "separatedValues",
           "package": "separated",
@@ -734,6 +795,7 @@
         "index": {
           "description": "Return all element values in list of pairs of element and separator values separatedValues empty separatedValues empty",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "separatedValues",
           "normalized": "Separated a b-\u003e[b]",
@@ -750,6 +812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEffectful separation with failure represented by \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparatedWith Nothing Nothing\n\u003c/code\u003e\u003c/strong\u003eJust Nothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparatedWith Nothing (Just 7)\n\u003c/code\u003e\u003c/strong\u003eJust Nothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparatedWith (Just 'x') Nothing\n\u003c/code\u003e\u003c/strong\u003eJust (Just ['x'])\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparatedWith [] []\n\u003c/code\u003e\u003c/strong\u003e[Nothing]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparatedWith [] [1,2,3]\n\u003c/code\u003e\u003c/strong\u003e[Nothing]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparatedWith [1,2,3] []\n\u003c/code\u003e\u003c/strong\u003e[Just [1],Just [2],Just [3],Nothing]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "separatedWith",
           "package": "separated",
@@ -760,6 +823,7 @@
         "index": {
           "description": "Effectful separation with failure represented by Nothing separatedWith Nothing Nothing Just Nothing separatedWith Nothing Just Just Nothing separatedWith Just Nothing Just Just separatedWith Nothing separatedWith Nothing separatedWith Just Just Just Nothing",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "separatedWith",
           "normalized": "a b-\u003ea c-\u003ea(Maybe(Separated b c))",
@@ -776,6 +840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEffectful separation.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparatedWith1 Nothing Nothing\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparatedWith1 Nothing (Just 7)\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparatedWith1 (Just 'x') Nothing\n\u003c/code\u003e\u003c/strong\u003eJust ['x']\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparatedWith1 [] []\n\u003c/code\u003e\u003c/strong\u003e[]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparatedWith1 [] [1,2,3]\n\u003c/code\u003e\u003c/strong\u003e[]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparatedWith1 [1,2,3] []\n\u003c/code\u003e\u003c/strong\u003e[[1],[2],[3]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "separatedWith1",
           "package": "separated",
@@ -786,6 +851,7 @@
         "index": {
           "description": "Effectful separation separatedWith1 Nothing Nothing Nothing separatedWith1 Nothing Just Nothing separatedWith1 Just Nothing Just separatedWith1 separatedWith1 separatedWith1",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "separatedWith1",
           "normalized": "a b-\u003ea c-\u003ea(Separated b c)",
@@ -802,6 +868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all separator values.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparators empty\n\u003c/code\u003e\u003c/strong\u003e[]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparators ('x' +: 2 +: empty)\n\u003c/code\u003e\u003c/strong\u003e\"x\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "separators",
           "package": "separated",
@@ -812,6 +879,7 @@
         "index": {
           "description": "Return all separator values separators empty separators empty",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "separators",
           "normalized": "Separated a b-\u003e[a]",
@@ -827,6 +895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all separator values.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparators ('a' +: single 7)\n\u003c/code\u003e\u003c/strong\u003e\"a\"\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eseparators ('a' +: 6 +:'b' +: single 7)\n\u003c/code\u003e\u003c/strong\u003e\"ab\"\n\u003c/pre\u003e\u003cpre\u003eseparators (a +: single x) == [a]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "separators1",
           "package": "separated",
@@ -837,6 +906,7 @@
         "index": {
           "description": "Return all separator values separators single separators single ab separators single",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "separators1",
           "normalized": "Separated a b-\u003e[b]",
@@ -852,6 +922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe isomorphism that shuffles the elements and separators one position.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eshift # ([], 6)\n\u003c/code\u003e\u003c/strong\u003e[6]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eshift # ([(5, 'x')], 6)\n\u003c/code\u003e\u003c/strong\u003e[5,'x',6]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esingle 6 ^. shift\n\u003c/code\u003e\u003c/strong\u003e([],6)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e(5 +: 'x' +: single 6) ^. shift\n\u003c/code\u003e\u003c/strong\u003e([(5,'x')],6)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "shift",
           "package": "separated",
@@ -862,6 +933,7 @@
         "index": {
           "description": "The isomorphism that shuffles the elements and separators one position shift shift single shift single shift",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "shift",
           "normalized": "Iso'(Separated a b)([(a,b)],a)",
@@ -877,6 +949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero element values interspersed with one element.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esingle 4\n\u003c/code\u003e\u003c/strong\u003e[4]\n\u003c/pre\u003e\u003cpre\u003esingle x ^. separated1Tail == empty\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:46 UTC 2014",
           "module": "Data.Separated",
           "name": "single",
           "package": "separated",
@@ -887,6 +960,7 @@
         "index": {
           "description": "Zero element values interspersed with one element single single separated1Tail empty",
           "hierarchy": "Data Separated",
+          "indexed": "2014-03-11T19:59:46",
           "module": "Data.Separated",
           "name": "single",
           "normalized": "a-\u003eSeparated a b",

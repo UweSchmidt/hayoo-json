@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "LibClang"
+        "phrase": "LibClang",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Alloc.Storable",
           "name": "Storable",
           "package": "LibClang",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Clang Alloc Storable",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Alloc.Storable",
           "name": "Storable",
           "package": "LibClang",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Alloc",
           "name": "Alloc",
           "package": "LibClang",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Clang Alloc",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Alloc",
           "name": "Alloc",
           "package": "LibClang",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Alloc",
           "name": "Alloc",
           "package": "LibClang",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Clang Alloc",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Alloc",
           "name": "Alloc",
           "package": "LibClang",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Alloc",
           "name": "alloc",
           "package": "LibClang",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Clang Alloc",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Alloc",
           "name": "alloc",
           "package": "LibClang",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Alloc",
           "name": "allocSet",
           "package": "LibClang",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Clang Alloc",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Alloc",
           "name": "allocSet",
           "normalized": "a-\u003eIO(Ptr a)",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Alloc",
           "name": "dealloc",
           "package": "LibClang",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Clang Alloc",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Alloc",
           "name": "dealloc",
           "normalized": "Ptr a-\u003eIO()",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Completion",
           "name": "Completion",
           "package": "LibClang",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Clang Completion",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Completion",
           "name": "Completion",
           "package": "LibClang",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Completion",
           "name": "CodeCompleteFlags",
           "package": "LibClang",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Clang Completion",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Completion",
           "name": "CodeCompleteFlags",
           "package": "LibClang",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Completion",
           "name": "CodeCompleteResults",
           "package": "LibClang",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Clang Completion",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Completion",
           "name": "CodeCompleteResults",
           "package": "LibClang",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Completion",
           "name": "CompletionChunkKind",
           "package": "LibClang",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Clang Completion",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Completion",
           "name": "CompletionChunkKind",
           "package": "LibClang",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Completion",
           "name": "CompletionResult",
           "package": "LibClang",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Clang Completion",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Completion",
           "name": "CompletionResult",
           "package": "LibClang",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Completion",
           "name": "CompletionString",
           "package": "LibClang",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Clang Completion",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Completion",
           "name": "CompletionString",
           "package": "LibClang",
@@ -321,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Completion",
           "name": "codeCompleteAt",
           "package": "LibClang",
@@ -329,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Clang Completion",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Completion",
           "name": "codeCompleteAt",
           "normalized": "TranslationUnit-\u003eFilePath-\u003eInt-\u003eInt-\u003e[UnsavedFile]-\u003e[CodeCompleteFlags]-\u003eIO CodeCompleteResults",
@@ -344,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Completion",
           "name": "defaultCodeCompleteOptions",
           "package": "LibClang",
@@ -353,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Clang Completion",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Completion",
           "name": "defaultCodeCompleteOptions",
           "normalized": "[CodeCompleteFlags]",
@@ -368,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Completion",
           "name": "getAvailability",
           "package": "LibClang",
@@ -377,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Clang Completion",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Completion",
           "name": "getAvailability",
           "normalized": "CompletionString-\u003eAvailabilityKind",
@@ -392,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Completion",
           "name": "getChunkCompletionString",
           "package": "LibClang",
@@ -401,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Clang Completion",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Completion",
           "name": "getChunkCompletionString",
           "normalized": "CompletionString-\u003eInt-\u003eCompletionString",
@@ -416,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Completion",
           "name": "getChunkKind",
           "package": "LibClang",
@@ -425,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Clang Completion",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Completion",
           "name": "getChunkKind",
           "normalized": "CompletionString-\u003eInt-\u003eCompletionChunkKind",
@@ -440,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Completion",
           "name": "getChunkText",
           "package": "LibClang",
@@ -449,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Clang Completion",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Completion",
           "name": "getChunkText",
           "normalized": "CompletionString-\u003eInt-\u003eCXString",
@@ -464,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Completion",
           "name": "getNumChunks",
           "package": "LibClang",
@@ -473,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Clang Completion",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Completion",
           "name": "getNumChunks",
           "normalized": "CompletionString-\u003eInt",
@@ -488,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Completion",
           "name": "getPriority",
           "package": "LibClang",
@@ -497,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Clang Completion",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Completion",
           "name": "getPriority",
           "normalized": "CompletionString-\u003eInt",
@@ -512,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.CrossReference",
           "name": "CrossReference",
           "package": "LibClang",
@@ -520,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Clang CrossReference",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.CrossReference",
           "name": "CrossReference",
           "package": "LibClang",
@@ -533,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.CrossReference",
           "name": "constructUSR_ObjCCategory",
           "package": "LibClang",
@@ -542,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Clang CrossReference",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.CrossReference",
           "name": "constructUSR_ObjCCategory",
           "normalized": "String-\u003eString-\u003eIO CXString",
@@ -557,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.CrossReference",
           "name": "constructUSR_ObjCClass",
           "package": "LibClang",
@@ -566,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Clang CrossReference",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.CrossReference",
           "name": "constructUSR_ObjCClass",
           "normalized": "String-\u003eIO CXString",
@@ -581,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.CrossReference",
           "name": "constructUSR_ObjCIvar",
           "package": "LibClang",
@@ -590,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Clang CrossReference",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.CrossReference",
           "name": "constructUSR_ObjCIvar",
           "normalized": "String-\u003eCXString-\u003eIO CXString",
@@ -605,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.CrossReference",
           "name": "constructUSR_ObjCMethod",
           "package": "LibClang",
@@ -614,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Clang CrossReference",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.CrossReference",
           "name": "constructUSR_ObjCMethod",
           "normalized": "String-\u003eBool-\u003eCXString-\u003eIO CXString",
@@ -629,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.CrossReference",
           "name": "constructUSR_ObjCProperty",
           "package": "LibClang",
@@ -638,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Clang CrossReference",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.CrossReference",
           "name": "constructUSR_ObjCProperty",
           "normalized": "String-\u003eCXString-\u003eIO CXString",
@@ -653,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.CrossReference",
           "name": "constructUSR_ObjCProtocol",
           "package": "LibClang",
@@ -662,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Clang CrossReference",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.CrossReference",
           "name": "constructUSR_ObjCProtocol",
           "normalized": "String-\u003eIO CXString",
@@ -677,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.CrossReference",
           "name": "getUSR",
           "package": "LibClang",
@@ -686,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Clang CrossReference",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.CrossReference",
           "name": "getUSR",
           "normalized": "Cursor-\u003eCXString",
@@ -702,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Cursor is an easy way to reference something in code and query its properties and relationships\n  This is the primary way of traversing and querying code\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "Cursor",
           "package": "LibClang",
@@ -711,6 +768,7 @@
         "index": {
           "description": "The Cursor is an easy way to reference something in code and query its properties and relationships This is the primary way of traversing and querying code",
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "Cursor",
           "package": "LibClang",
@@ -724,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "Cursor",
           "package": "LibClang",
@@ -732,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "Cursor",
           "package": "LibClang",
@@ -745,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "CursorKind",
           "package": "LibClang",
@@ -753,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "CursorKind",
           "package": "LibClang",
@@ -766,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "CursorSet",
           "package": "LibClang",
@@ -774,6 +837,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "CursorSet",
           "package": "LibClang",
@@ -787,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "LanguageKind",
           "package": "LibClang",
@@ -795,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "LanguageKind",
           "package": "LibClang",
@@ -808,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "LinkageKind",
           "package": "LibClang",
@@ -816,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "LinkageKind",
           "package": "LibClang",
@@ -2876,6 +2944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "createSet",
           "package": "LibClang",
@@ -2885,6 +2954,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "createSet",
           "package": "LibClang",
@@ -2898,6 +2968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getAvailability",
           "package": "LibClang",
@@ -2907,6 +2978,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getAvailability",
           "normalized": "Cursor-\u003eAvailabilityKind",
@@ -2922,6 +2994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getCXXAccessSpecifier",
           "package": "LibClang",
@@ -2931,6 +3004,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getCXXAccessSpecifier",
           "normalized": "Cursor-\u003eCXXAccessSpecifier",
@@ -2946,6 +3020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getCanonicalCursor",
           "package": "LibClang",
@@ -2955,6 +3030,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getCanonicalCursor",
           "normalized": "Cursor-\u003eCursor",
@@ -2970,6 +3046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getCursorKindSpelling",
           "package": "LibClang",
@@ -2979,6 +3056,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getCursorKindSpelling",
           "normalized": "CursorKind-\u003eCXString",
@@ -2994,6 +3072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getDeclObjCTypeEncoding",
           "package": "LibClang",
@@ -3003,6 +3082,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getDeclObjCTypeEncoding",
           "normalized": "Cursor-\u003eCXString",
@@ -3018,6 +3098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getDefinition",
           "package": "LibClang",
@@ -3027,6 +3108,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getDefinition",
           "normalized": "Cursor-\u003eCursor",
@@ -3042,6 +3124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getDisplayName",
           "package": "LibClang",
@@ -3051,6 +3134,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getDisplayName",
           "normalized": "Cursor-\u003eCXString",
@@ -3066,6 +3150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getExtent",
           "package": "LibClang",
@@ -3075,6 +3160,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getExtent",
           "normalized": "Cursor-\u003eSourceRange",
@@ -3090,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getHash",
           "package": "LibClang",
@@ -3099,6 +3186,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getHash",
           "normalized": "Cursor-\u003eWord",
@@ -3114,6 +3202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getIBOutletCollectionType",
           "package": "LibClang",
@@ -3123,6 +3212,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getIBOutletCollectionType",
           "normalized": "Cursor-\u003eType",
@@ -3138,6 +3228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getIncludedFile",
           "package": "LibClang",
@@ -3147,6 +3238,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getIncludedFile",
           "normalized": "Cursor-\u003eFile",
@@ -3162,6 +3254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getKind",
           "package": "LibClang",
@@ -3171,6 +3264,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getKind",
           "normalized": "Cursor-\u003eCursorKind",
@@ -3186,6 +3280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getLanguage",
           "package": "LibClang",
@@ -3195,6 +3290,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getLanguage",
           "normalized": "Cursor-\u003eLanguageKind",
@@ -3210,6 +3306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getLexicalParent",
           "package": "LibClang",
@@ -3219,6 +3316,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getLexicalParent",
           "normalized": "Cursor-\u003eCursor",
@@ -3234,6 +3332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getLinkage",
           "package": "LibClang",
@@ -3243,6 +3342,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getLinkage",
           "normalized": "Cursor-\u003eLinkageKind",
@@ -3258,6 +3358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getLocation",
           "package": "LibClang",
@@ -3267,6 +3368,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getLocation",
           "normalized": "Cursor-\u003eSourceLocation",
@@ -3282,6 +3384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getOverloadedDecls",
           "package": "LibClang",
@@ -3291,6 +3394,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getOverloadedDecls",
           "normalized": "Cursor-\u003e[Cursor]",
@@ -3306,6 +3410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getOverriddenCursors",
           "package": "LibClang",
@@ -3315,6 +3420,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getOverriddenCursors",
           "normalized": "Cursor-\u003e[Cursor]",
@@ -3330,6 +3436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getReferenced",
           "package": "LibClang",
@@ -3339,6 +3446,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getReferenced",
           "normalized": "Cursor-\u003eCursor",
@@ -3354,6 +3462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getResultType",
           "package": "LibClang",
@@ -3363,6 +3472,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getResultType",
           "normalized": "Cursor-\u003eType",
@@ -3378,6 +3488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getSemanticParent",
           "package": "LibClang",
@@ -3387,6 +3498,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getSemanticParent",
           "normalized": "Cursor-\u003eCursor",
@@ -3402,6 +3514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getSpecializedTemplate",
           "package": "LibClang",
@@ -3411,6 +3524,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getSpecializedTemplate",
           "normalized": "Cursor-\u003eCursor",
@@ -3426,6 +3540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getSpelling",
           "package": "LibClang",
@@ -3435,6 +3550,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getSpelling",
           "normalized": "Cursor-\u003eCXString",
@@ -3450,6 +3566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getTemplateKind",
           "package": "LibClang",
@@ -3459,6 +3576,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getTemplateKind",
           "normalized": "Cursor-\u003eCursorKind",
@@ -3474,6 +3592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getType",
           "package": "LibClang",
@@ -3483,6 +3602,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getType",
           "normalized": "Cursor-\u003eType",
@@ -3498,6 +3618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "getTypeDeclaration",
           "package": "LibClang",
@@ -3507,6 +3628,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "getTypeDeclaration",
           "normalized": "Type-\u003eCursor",
@@ -3522,6 +3644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "isDeclaration",
           "package": "LibClang",
@@ -3531,6 +3654,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "isDeclaration",
           "normalized": "CursorKind-\u003eBool",
@@ -3546,6 +3670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "isDefinition",
           "package": "LibClang",
@@ -3555,6 +3680,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "isDefinition",
           "normalized": "Cursor-\u003eBool",
@@ -3570,6 +3696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "isExpression",
           "package": "LibClang",
@@ -3579,6 +3706,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "isExpression",
           "normalized": "CursorKind-\u003eBool",
@@ -3594,6 +3722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "isInvalid",
           "package": "LibClang",
@@ -3603,6 +3732,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "isInvalid",
           "normalized": "CursorKind-\u003eBool",
@@ -3618,6 +3748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "isPreprocessing",
           "package": "LibClang",
@@ -3627,6 +3758,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "isPreprocessing",
           "normalized": "CursorKind-\u003eBool",
@@ -3642,6 +3774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "isReference",
           "package": "LibClang",
@@ -3651,6 +3784,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "isReference",
           "normalized": "CursorKind-\u003eBool",
@@ -3666,6 +3800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "isStatement",
           "package": "LibClang",
@@ -3675,6 +3810,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "isStatement",
           "normalized": "CursorKind-\u003eBool",
@@ -3690,6 +3826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "isStaticCppMethod",
           "package": "LibClang",
@@ -3699,6 +3836,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "isStaticCppMethod",
           "normalized": "Cursor-\u003eBool",
@@ -3714,6 +3852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "isTranslationUnit",
           "package": "LibClang",
@@ -3723,6 +3862,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "isTranslationUnit",
           "normalized": "CursorKind-\u003eBool",
@@ -3738,6 +3878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "isUnexposed",
           "package": "LibClang",
@@ -3747,6 +3888,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "isUnexposed",
           "normalized": "CursorKind-\u003eBool",
@@ -3762,6 +3904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "isVirtualBase",
           "package": "LibClang",
@@ -3771,6 +3914,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "isVirtualBase",
           "normalized": "Cursor-\u003eBool",
@@ -3786,6 +3930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "nullCursor",
           "package": "LibClang",
@@ -3795,6 +3940,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "nullCursor",
           "package": "LibClang",
@@ -3808,6 +3954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "setContains",
           "package": "LibClang",
@@ -3817,6 +3964,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "setContains",
           "normalized": "CursorSet-\u003eCursor-\u003eIO Bool",
@@ -3832,6 +3980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Cursor",
           "name": "setInsert",
           "package": "LibClang",
@@ -3841,6 +3990,7 @@
         },
         "index": {
           "hierarchy": "Clang Cursor",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Cursor",
           "name": "setInsert",
           "normalized": "CursorSet-\u003eCursor-\u003eIO Bool",
@@ -3856,6 +4006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Debug",
           "name": "Debug",
           "package": "LibClang",
@@ -3864,6 +4015,7 @@
         },
         "index": {
           "hierarchy": "Clang Debug",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Debug",
           "name": "Debug",
           "package": "LibClang",
@@ -3877,6 +4029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Debug",
           "name": "enableStackTraces",
           "package": "LibClang",
@@ -3886,6 +4039,7 @@
         },
         "index": {
           "hierarchy": "Clang Debug",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Debug",
           "name": "enableStackTraces",
           "normalized": "IO()",
@@ -3901,6 +4055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Debug",
           "name": "getVersion",
           "package": "LibClang",
@@ -3910,6 +4065,7 @@
         },
         "index": {
           "hierarchy": "Clang Debug",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Debug",
           "name": "getVersion",
           "package": "LibClang",
@@ -3923,6 +4079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Diagnostic",
           "name": "Diagnostic",
           "package": "LibClang",
@@ -3931,6 +4088,7 @@
         },
         "index": {
           "hierarchy": "Clang Diagnostic",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Diagnostic",
           "name": "Diagnostic",
           "package": "LibClang",
@@ -3944,6 +4102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Diagnostic",
           "name": "Diagnostic",
           "package": "LibClang",
@@ -3952,6 +4111,7 @@
         },
         "index": {
           "hierarchy": "Clang Diagnostic",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Diagnostic",
           "name": "Diagnostic",
           "package": "LibClang",
@@ -3965,6 +4125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Diagnostic",
           "name": "DiagnosticDisplayOptions",
           "package": "LibClang",
@@ -3973,6 +4134,7 @@
         },
         "index": {
           "hierarchy": "Clang Diagnostic",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Diagnostic",
           "name": "DiagnosticDisplayOptions",
           "package": "LibClang",
@@ -3986,6 +4148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Diagnostic",
           "name": "DiagnosticSeverity",
           "package": "LibClang",
@@ -3994,6 +4157,7 @@
         },
         "index": {
           "hierarchy": "Clang Diagnostic",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Diagnostic",
           "name": "DiagnosticSeverity",
           "package": "LibClang",
@@ -4260,6 +4424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Diagnostic",
           "name": "formatDiagnostic",
           "package": "LibClang",
@@ -4269,6 +4434,7 @@
         },
         "index": {
           "hierarchy": "Clang Diagnostic",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Diagnostic",
           "name": "formatDiagnostic",
           "normalized": "[DiagnosticDisplayOptions]-\u003eDiagnostic-\u003eIO String",
@@ -4284,6 +4450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Diagnostic",
           "name": "getCategory",
           "package": "LibClang",
@@ -4293,6 +4460,7 @@
         },
         "index": {
           "hierarchy": "Clang Diagnostic",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Diagnostic",
           "name": "getCategory",
           "normalized": "Diagnostic-\u003eInt",
@@ -4308,6 +4476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Diagnostic",
           "name": "getCategoryName",
           "package": "LibClang",
@@ -4317,6 +4486,7 @@
         },
         "index": {
           "hierarchy": "Clang Diagnostic",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Diagnostic",
           "name": "getCategoryName",
           "normalized": "Int-\u003eCXString",
@@ -4332,6 +4502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Diagnostic",
           "name": "getDefaultDisplayOptions",
           "package": "LibClang",
@@ -4341,6 +4512,7 @@
         },
         "index": {
           "hierarchy": "Clang Diagnostic",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Diagnostic",
           "name": "getDefaultDisplayOptions",
           "normalized": "[DiagnosticDisplayOptions]",
@@ -4356,6 +4528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Diagnostic",
           "name": "getDiagnostics",
           "package": "LibClang",
@@ -4365,6 +4538,7 @@
         },
         "index": {
           "hierarchy": "Clang Diagnostic",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Diagnostic",
           "name": "getDiagnostics",
           "normalized": "TranslationUnit-\u003e[Diagnostic]",
@@ -4380,6 +4554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Diagnostic",
           "name": "getFixIts",
           "package": "LibClang",
@@ -4389,6 +4564,7 @@
         },
         "index": {
           "hierarchy": "Clang Diagnostic",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Diagnostic",
           "name": "getFixIts",
           "normalized": "Diagnostic-\u003e[(SourceRange,CXString)]",
@@ -4404,6 +4580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Diagnostic",
           "name": "getOptions",
           "package": "LibClang",
@@ -4413,6 +4590,7 @@
         },
         "index": {
           "hierarchy": "Clang Diagnostic",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Diagnostic",
           "name": "getOptions",
           "normalized": "Diagnostic-\u003e(CXString,CXString)",
@@ -4428,6 +4606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Diagnostic",
           "name": "getRanges",
           "package": "LibClang",
@@ -4437,6 +4616,7 @@
         },
         "index": {
           "hierarchy": "Clang Diagnostic",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Diagnostic",
           "name": "getRanges",
           "normalized": "Diagnostic-\u003e[SourceRange]",
@@ -4452,6 +4632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Diagnostic",
           "name": "getSeverity",
           "package": "LibClang",
@@ -4461,6 +4642,7 @@
         },
         "index": {
           "hierarchy": "Clang Diagnostic",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Diagnostic",
           "name": "getSeverity",
           "normalized": "Diagnostic-\u003eDiagnosticSeverity",
@@ -4476,6 +4658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Diagnostic",
           "name": "getSpelling",
           "package": "LibClang",
@@ -4485,6 +4668,7 @@
         },
         "index": {
           "hierarchy": "Clang Diagnostic",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Diagnostic",
           "name": "getSpelling",
           "normalized": "Diagnostic-\u003eCXString",
@@ -4500,6 +4684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "FFI",
           "package": "LibClang",
@@ -4508,6 +4693,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "FFI",
           "package": "LibClang",
@@ -4521,6 +4707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "AvailabilityKind",
           "package": "LibClang",
@@ -4529,6 +4716,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "AvailabilityKind",
           "package": "LibClang",
@@ -4542,6 +4730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CXString",
           "package": "LibClang",
@@ -4550,6 +4739,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CXString",
           "package": "LibClang",
@@ -4563,6 +4753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CXXAccessSpecifier",
           "package": "LibClang",
@@ -4571,6 +4762,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CXXAccessSpecifier",
           "package": "LibClang",
@@ -4584,6 +4776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "ChildVisitResult",
           "package": "LibClang",
@@ -4592,6 +4785,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "ChildVisitResult",
           "package": "LibClang",
@@ -4605,6 +4799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "ChildVisitor",
           "package": "LibClang",
@@ -4613,6 +4808,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "ChildVisitor",
           "package": "LibClang",
@@ -4626,6 +4822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "ClientData",
           "package": "LibClang",
@@ -4634,6 +4831,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "ClientData",
           "package": "LibClang",
@@ -4647,6 +4845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CodeCompleteFlags",
           "package": "LibClang",
@@ -4655,6 +4854,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CodeCompleteFlags",
           "package": "LibClang",
@@ -4668,6 +4868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CodeCompleteResults",
           "package": "LibClang",
@@ -4676,6 +4877,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CodeCompleteResults",
           "package": "LibClang",
@@ -4689,6 +4891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionChunkKind",
           "package": "LibClang",
@@ -4697,6 +4900,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionChunkKind",
           "package": "LibClang",
@@ -4710,6 +4914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionResult",
           "package": "LibClang",
@@ -4718,6 +4923,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionResult",
           "package": "LibClang",
@@ -4731,6 +4937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionString",
           "package": "LibClang",
@@ -4739,6 +4946,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionString",
           "package": "LibClang",
@@ -4752,6 +4960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "Cursor",
           "package": "LibClang",
@@ -4760,6 +4969,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "Cursor",
           "package": "LibClang",
@@ -4773,6 +4983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CursorKind",
           "package": "LibClang",
@@ -4781,6 +4992,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CursorKind",
           "package": "LibClang",
@@ -4794,6 +5006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CursorSet",
           "package": "LibClang",
@@ -4802,6 +5015,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CursorSet",
           "package": "LibClang",
@@ -4815,6 +5029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "Diagnostic",
           "package": "LibClang",
@@ -4823,6 +5038,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "Diagnostic",
           "package": "LibClang",
@@ -4836,6 +5052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "DiagnosticDisplayOptions",
           "package": "LibClang",
@@ -4844,6 +5061,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "DiagnosticDisplayOptions",
           "package": "LibClang",
@@ -4857,6 +5075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "DiagnosticSeverity",
           "package": "LibClang",
@@ -4865,6 +5084,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "DiagnosticSeverity",
           "package": "LibClang",
@@ -4878,6 +5098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "File",
           "package": "LibClang",
@@ -4886,6 +5107,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "File",
           "package": "LibClang",
@@ -4899,6 +5121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "InclusionVisitor",
           "package": "LibClang",
@@ -4907,6 +5130,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "InclusionVisitor",
           "package": "LibClang",
@@ -4920,6 +5144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "Index",
           "package": "LibClang",
@@ -4928,6 +5153,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "Index",
           "package": "LibClang",
@@ -4941,6 +5167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "LanguageKind",
           "package": "LibClang",
@@ -4949,6 +5176,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "LanguageKind",
           "package": "LibClang",
@@ -4962,6 +5190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "LinkageKind",
           "package": "LibClang",
@@ -4970,6 +5199,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "LinkageKind",
           "package": "LibClang",
@@ -4983,6 +5213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "ReparseFlags",
           "package": "LibClang",
@@ -4991,6 +5222,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "ReparseFlags",
           "package": "LibClang",
@@ -5004,6 +5236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "SaveTranslationUnitFlags",
           "package": "LibClang",
@@ -5012,6 +5245,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "SaveTranslationUnitFlags",
           "package": "LibClang",
@@ -5025,6 +5259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "SourceLocation",
           "package": "LibClang",
@@ -5033,6 +5268,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "SourceLocation",
           "package": "LibClang",
@@ -5046,6 +5282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "SourceRange",
           "package": "LibClang",
@@ -5054,6 +5291,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "SourceRange",
           "package": "LibClang",
@@ -5067,6 +5305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "Token",
           "package": "LibClang",
@@ -5075,6 +5314,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "Token",
           "package": "LibClang",
@@ -5088,6 +5328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "TokenKind",
           "package": "LibClang",
@@ -5096,6 +5337,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "TokenKind",
           "package": "LibClang",
@@ -5109,6 +5351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "TranslationUnit",
           "package": "LibClang",
@@ -5117,6 +5360,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "TranslationUnit",
           "package": "LibClang",
@@ -5130,6 +5374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "TranslationUnitFlags",
           "package": "LibClang",
@@ -5138,6 +5383,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "TranslationUnitFlags",
           "package": "LibClang",
@@ -5151,6 +5397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "Type",
           "package": "LibClang",
@@ -5159,6 +5406,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "Type",
           "package": "LibClang",
@@ -5172,6 +5420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "TypeKind",
           "package": "LibClang",
@@ -5180,6 +5429,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "TypeKind",
           "package": "LibClang",
@@ -5193,6 +5443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "UnsavedFile",
           "package": "LibClang",
@@ -5201,6 +5452,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "UnsavedFile",
           "package": "LibClang",
@@ -5214,6 +5466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "Availability_Available",
           "package": "LibClang",
@@ -5223,6 +5476,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "Availability_Available",
           "package": "LibClang",
@@ -5236,6 +5490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "Availability_Deprecated",
           "package": "LibClang",
@@ -5245,6 +5500,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "Availability_Deprecated",
           "package": "LibClang",
@@ -5258,6 +5514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "Availability_NotAvailable",
           "package": "LibClang",
@@ -5267,6 +5524,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "Availability_NotAvailable",
           "package": "LibClang",
@@ -5441,6 +5699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionChunk_Colon",
           "package": "LibClang",
@@ -5450,6 +5709,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionChunk_Colon",
           "package": "LibClang",
@@ -5463,6 +5723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionChunk_Comma",
           "package": "LibClang",
@@ -5472,6 +5733,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionChunk_Comma",
           "package": "LibClang",
@@ -5485,6 +5747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionChunk_CurrentParameter",
           "package": "LibClang",
@@ -5494,6 +5757,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionChunk_CurrentParameter",
           "package": "LibClang",
@@ -5507,6 +5771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionChunk_Equal",
           "package": "LibClang",
@@ -5516,6 +5781,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionChunk_Equal",
           "package": "LibClang",
@@ -5529,6 +5795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionChunk_HorizontalSpace",
           "package": "LibClang",
@@ -5538,6 +5805,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionChunk_HorizontalSpace",
           "package": "LibClang",
@@ -5551,6 +5819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionChunk_Informative",
           "package": "LibClang",
@@ -5560,6 +5829,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionChunk_Informative",
           "package": "LibClang",
@@ -5573,6 +5843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionChunk_LeftAngle",
           "package": "LibClang",
@@ -5582,6 +5853,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionChunk_LeftAngle",
           "package": "LibClang",
@@ -5595,6 +5867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionChunk_LeftBrace",
           "package": "LibClang",
@@ -5604,6 +5877,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionChunk_LeftBrace",
           "package": "LibClang",
@@ -5617,6 +5891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionChunk_LeftBracket",
           "package": "LibClang",
@@ -5626,6 +5901,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionChunk_LeftBracket",
           "package": "LibClang",
@@ -5639,6 +5915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionChunk_LeftParen",
           "package": "LibClang",
@@ -5648,6 +5925,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionChunk_LeftParen",
           "package": "LibClang",
@@ -5661,6 +5939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionChunk_Optional",
           "package": "LibClang",
@@ -5670,6 +5949,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionChunk_Optional",
           "package": "LibClang",
@@ -5683,6 +5963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionChunk_Placeholder",
           "package": "LibClang",
@@ -5692,6 +5973,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionChunk_Placeholder",
           "package": "LibClang",
@@ -5705,6 +5987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionChunk_ResultType",
           "package": "LibClang",
@@ -5714,6 +5997,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionChunk_ResultType",
           "package": "LibClang",
@@ -5727,6 +6011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionChunk_RightAngle",
           "package": "LibClang",
@@ -5736,6 +6021,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionChunk_RightAngle",
           "package": "LibClang",
@@ -5749,6 +6035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionChunk_RightBrace",
           "package": "LibClang",
@@ -5758,6 +6045,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionChunk_RightBrace",
           "package": "LibClang",
@@ -5771,6 +6059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionChunk_RightBracket",
           "package": "LibClang",
@@ -5780,6 +6069,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionChunk_RightBracket",
           "package": "LibClang",
@@ -5793,6 +6083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionChunk_RightParen",
           "package": "LibClang",
@@ -5802,6 +6093,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionChunk_RightParen",
           "package": "LibClang",
@@ -5815,6 +6107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionChunk_SemiColon",
           "package": "LibClang",
@@ -5824,6 +6117,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionChunk_SemiColon",
           "package": "LibClang",
@@ -5837,6 +6131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionChunk_Text",
           "package": "LibClang",
@@ -5846,6 +6141,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionChunk_Text",
           "package": "LibClang",
@@ -5859,6 +6155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionChunk_TypedText",
           "package": "LibClang",
@@ -5868,6 +6165,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionChunk_TypedText",
           "package": "LibClang",
@@ -5881,6 +6179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "CompletionChunk_VerticalSpace",
           "package": "LibClang",
@@ -5890,6 +6189,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "CompletionChunk_VerticalSpace",
           "package": "LibClang",
@@ -5903,6 +6203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "Reparse_None",
           "package": "LibClang",
@@ -5912,6 +6213,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "Reparse_None",
           "package": "LibClang",
@@ -5948,6 +6250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "Token_Comment",
           "package": "LibClang",
@@ -5957,6 +6260,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "Token_Comment",
           "package": "LibClang",
@@ -5970,6 +6274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "Token_Identifier",
           "package": "LibClang",
@@ -5979,6 +6284,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "Token_Identifier",
           "package": "LibClang",
@@ -5992,6 +6298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "Token_Keyword",
           "package": "LibClang",
@@ -6001,6 +6308,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "Token_Keyword",
           "package": "LibClang",
@@ -6014,6 +6322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "Token_Literal",
           "package": "LibClang",
@@ -6023,6 +6332,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "Token_Literal",
           "package": "LibClang",
@@ -6036,6 +6346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "Token_Punctuation",
           "package": "LibClang",
@@ -6045,6 +6356,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "Token_Punctuation",
           "package": "LibClang",
@@ -7231,6 +7543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "annotateTokens",
           "package": "LibClang",
@@ -7240,6 +7553,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "annotateTokens",
           "normalized": "TranslationUnit-\u003eTokenList-\u003eIO CursorList",
@@ -7255,6 +7569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "cXCursorSet_contains",
           "package": "LibClang",
@@ -7264,6 +7579,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "cXCursorSet_contains",
           "normalized": "CursorSet-\u003eCursor-\u003eIO Bool",
@@ -7279,6 +7595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "cXCursorSet_insert",
           "package": "LibClang",
@@ -7288,6 +7605,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "cXCursorSet_insert",
           "normalized": "CursorSet-\u003eCursor-\u003eIO Bool",
@@ -7303,6 +7621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "cXXMethod_isStatic",
           "package": "LibClang",
@@ -7312,6 +7631,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "cXXMethod_isStatic",
           "normalized": "Cursor-\u003eIO Bool",
@@ -7327,6 +7647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "codeCompleteAt",
           "package": "LibClang",
@@ -7336,6 +7657,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "codeCompleteAt",
           "normalized": "TranslationUnit-\u003eString-\u003eInt-\u003eInt-\u003e[UnsavedFile]-\u003eInt-\u003eIO CodeCompleteResults",
@@ -7351,6 +7673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "codeCompleteGetDiagnostic",
           "package": "LibClang",
@@ -7360,6 +7683,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "codeCompleteGetDiagnostic",
           "normalized": "CodeCompleteResults-\u003eInt-\u003eIO Diagnostic",
@@ -7375,6 +7699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "codeCompleteGetNumDiagnostics",
           "package": "LibClang",
@@ -7384,6 +7709,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "codeCompleteGetNumDiagnostics",
           "normalized": "CodeCompleteResults-\u003eIO Int",
@@ -7399,6 +7725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "constructUSR_ObjCCategory",
           "package": "LibClang",
@@ -7408,6 +7735,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "constructUSR_ObjCCategory",
           "normalized": "String-\u003eString-\u003eIO CXString",
@@ -7423,6 +7751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "constructUSR_ObjCClass",
           "package": "LibClang",
@@ -7432,6 +7761,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "constructUSR_ObjCClass",
           "normalized": "String-\u003eIO CXString",
@@ -7447,6 +7777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "constructUSR_ObjCIvar",
           "package": "LibClang",
@@ -7456,6 +7787,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "constructUSR_ObjCIvar",
           "normalized": "String-\u003eCXString-\u003eIO CXString",
@@ -7471,6 +7803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "constructUSR_ObjCMethod",
           "package": "LibClang",
@@ -7480,6 +7813,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "constructUSR_ObjCMethod",
           "normalized": "String-\u003eBool-\u003eCXString-\u003eIO CXString",
@@ -7495,6 +7829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "constructUSR_ObjCProperty",
           "package": "LibClang",
@@ -7504,6 +7839,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "constructUSR_ObjCProperty",
           "normalized": "String-\u003eCXString-\u003eIO CXString",
@@ -7519,6 +7855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "constructUSR_ObjCProtocol",
           "package": "LibClang",
@@ -7528,6 +7865,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "constructUSR_ObjCProtocol",
           "normalized": "String-\u003eIO CXString",
@@ -7543,6 +7881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "createCXCursorSet",
           "package": "LibClang",
@@ -7552,6 +7891,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "createCXCursorSet",
           "package": "LibClang",
@@ -7565,6 +7905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "createIndex",
           "package": "LibClang",
@@ -7574,6 +7915,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "createIndex",
           "normalized": "Bool-\u003eBool-\u003eIO(ForeignPtr IndexObj)",
@@ -7589,6 +7931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "createTranslationUnit",
           "package": "LibClang",
@@ -7598,6 +7941,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "createTranslationUnit",
           "normalized": "Index-\u003eString-\u003eIO(ForeignPtr TranslationUnitObj)",
@@ -7613,6 +7957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "createTranslationUnitFromSourceFile",
           "package": "LibClang",
@@ -7622,6 +7967,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "createTranslationUnitFromSourceFile",
           "normalized": "Index-\u003eString-\u003e[String]-\u003e[UnsavedFile]-\u003eIO(ForeignPtr TranslationUnitObj)",
@@ -7637,6 +7983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "defaultCodeCompleteOptions",
           "package": "LibClang",
@@ -7646,6 +7993,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "defaultCodeCompleteOptions",
           "package": "LibClang",
@@ -7659,6 +8007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "defaultDiagnosticDisplayOptions",
           "package": "LibClang",
@@ -7668,6 +8017,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "defaultDiagnosticDisplayOptions",
           "package": "LibClang",
@@ -7681,6 +8031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "defaultEditingTranslationUnitOptions",
           "package": "LibClang",
@@ -7690,6 +8041,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "defaultEditingTranslationUnitOptions",
           "package": "LibClang",
@@ -7703,6 +8055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "defaultReparseOptions",
           "package": "LibClang",
@@ -7712,6 +8065,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "defaultReparseOptions",
           "normalized": "TranslationUnit-\u003eIO Int",
@@ -7727,6 +8081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "defaultSaveOptions",
           "package": "LibClang",
@@ -7736,6 +8091,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "defaultSaveOptions",
           "normalized": "TranslationUnit-\u003eIO Int",
@@ -7751,6 +8107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "enableStackTraces",
           "package": "LibClang",
@@ -7760,6 +8117,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "enableStackTraces",
           "normalized": "IO()",
@@ -7775,6 +8133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "equalCursors",
           "package": "LibClang",
@@ -7784,6 +8143,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "equalCursors",
           "normalized": "Cursor-\u003eCursor-\u003eIO Bool",
@@ -7799,6 +8159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "equalLocations",
           "package": "LibClang",
@@ -7808,6 +8169,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "equalLocations",
           "normalized": "SourceLocation-\u003eSourceLocation-\u003eIO Bool",
@@ -7823,6 +8185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "equalTypes",
           "package": "LibClang",
@@ -7832,6 +8195,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "equalTypes",
           "normalized": "Type-\u003eType-\u003eIO Bool",
@@ -7847,6 +8211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "formatDiagnostic",
           "package": "LibClang",
@@ -7856,6 +8221,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "formatDiagnostic",
           "normalized": "Diagnostic-\u003eInt-\u003eIO CXString",
@@ -7871,6 +8237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCString",
           "package": "LibClang",
@@ -7880,6 +8247,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCString",
           "normalized": "CXString-\u003eIO String",
@@ -7895,6 +8263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCXXAccessSpecifier",
           "package": "LibClang",
@@ -7904,6 +8273,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCXXAccessSpecifier",
           "normalized": "Cursor-\u003eIO CXXAccessSpecifier",
@@ -7919,6 +8289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCanonicalCursor",
           "package": "LibClang",
@@ -7928,6 +8299,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCanonicalCursor",
           "normalized": "Cursor-\u003eIO Cursor",
@@ -7943,6 +8315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCanonicalType",
           "package": "LibClang",
@@ -7952,6 +8325,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCanonicalType",
           "normalized": "Type-\u003eIO Type",
@@ -7967,6 +8341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getClangVersion",
           "package": "LibClang",
@@ -7976,6 +8351,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getClangVersion",
           "package": "LibClang",
@@ -7989,6 +8365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCodeCompleteFlagsSum",
           "package": "LibClang",
@@ -7998,6 +8375,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCodeCompleteFlagsSum",
           "normalized": "[CodeCompleteFlags]-\u003eInt",
@@ -8013,6 +8391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCompletionAvailability",
           "package": "LibClang",
@@ -8022,6 +8401,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCompletionAvailability",
           "normalized": "CompletionString-\u003eIO AvailabilityKind",
@@ -8037,6 +8417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCompletionChunkCompletionString",
           "package": "LibClang",
@@ -8046,6 +8427,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCompletionChunkCompletionString",
           "normalized": "CompletionString-\u003eInt-\u003eIO CompletionString",
@@ -8061,6 +8443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCompletionChunkKind",
           "package": "LibClang",
@@ -8070,6 +8453,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCompletionChunkKind",
           "normalized": "CompletionString-\u003eInt-\u003eIO CompletionChunkKind",
@@ -8085,6 +8469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCompletionChunkText",
           "package": "LibClang",
@@ -8094,6 +8479,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCompletionChunkText",
           "normalized": "CompletionString-\u003eInt-\u003eIO CXString",
@@ -8109,6 +8495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCompletionPriority",
           "package": "LibClang",
@@ -8118,6 +8505,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCompletionPriority",
           "normalized": "CompletionString-\u003eIO Int",
@@ -8133,6 +8521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCursor",
           "package": "LibClang",
@@ -8142,6 +8531,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCursor",
           "normalized": "TranslationUnit-\u003eSourceLocation-\u003eIO Cursor",
@@ -8157,6 +8547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCursorAvailability",
           "package": "LibClang",
@@ -8166,6 +8557,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCursorAvailability",
           "normalized": "Cursor-\u003eIO AvailabilityKind",
@@ -8181,6 +8573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCursorDefinition",
           "package": "LibClang",
@@ -8190,6 +8583,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCursorDefinition",
           "normalized": "Cursor-\u003eIO Cursor",
@@ -8205,6 +8599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCursorDisplayName",
           "package": "LibClang",
@@ -8214,6 +8609,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCursorDisplayName",
           "normalized": "Cursor-\u003eIO CXString",
@@ -8229,6 +8625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCursorExtent",
           "package": "LibClang",
@@ -8238,6 +8635,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCursorExtent",
           "normalized": "Cursor-\u003eIO SourceRange",
@@ -8253,6 +8651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCursorKind",
           "package": "LibClang",
@@ -8262,6 +8661,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCursorKind",
           "normalized": "Cursor-\u003eIO CursorKind",
@@ -8277,6 +8677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCursorKindSpelling",
           "package": "LibClang",
@@ -8286,6 +8687,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCursorKindSpelling",
           "normalized": "CursorKind-\u003eIO CXString",
@@ -8301,6 +8703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCursorLanguage",
           "package": "LibClang",
@@ -8310,6 +8713,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCursorLanguage",
           "normalized": "Cursor-\u003eIO LanguageKind",
@@ -8325,6 +8729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCursorLexicalParent",
           "package": "LibClang",
@@ -8334,6 +8739,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCursorLexicalParent",
           "normalized": "Cursor-\u003eIO Cursor",
@@ -8349,6 +8755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCursorLinkage",
           "package": "LibClang",
@@ -8358,6 +8765,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCursorLinkage",
           "normalized": "Cursor-\u003eIO LinkageKind",
@@ -8373,6 +8781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCursorLocation",
           "package": "LibClang",
@@ -8382,6 +8791,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCursorLocation",
           "normalized": "Cursor-\u003eIO SourceLocation",
@@ -8397,6 +8807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCursorReferenced",
           "package": "LibClang",
@@ -8406,6 +8817,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCursorReferenced",
           "normalized": "Cursor-\u003eIO Cursor",
@@ -8421,6 +8833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCursorResultType",
           "package": "LibClang",
@@ -8430,6 +8843,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCursorResultType",
           "normalized": "Cursor-\u003eIO Type",
@@ -8445,6 +8859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCursorSemanticParent",
           "package": "LibClang",
@@ -8454,6 +8869,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCursorSemanticParent",
           "normalized": "Cursor-\u003eIO Cursor",
@@ -8469,6 +8885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCursorSpelling",
           "package": "LibClang",
@@ -8478,6 +8895,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCursorSpelling",
           "normalized": "Cursor-\u003eIO CXString",
@@ -8493,6 +8911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCursorType",
           "package": "LibClang",
@@ -8502,6 +8921,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCursorType",
           "normalized": "Cursor-\u003eIO Type",
@@ -8517,6 +8937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getCursorUSR",
           "package": "LibClang",
@@ -8526,6 +8947,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getCursorUSR",
           "normalized": "Cursor-\u003eIO CXString",
@@ -8541,6 +8963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getDeclObjCTypeEncoding",
           "package": "LibClang",
@@ -8550,6 +8973,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getDeclObjCTypeEncoding",
           "normalized": "Cursor-\u003eIO CXString",
@@ -8565,6 +8989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getDiagnostic",
           "package": "LibClang",
@@ -8574,6 +8999,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getDiagnostic",
           "normalized": "TranslationUnit-\u003eInt-\u003eIO Diagnostic",
@@ -8589,6 +9015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getDiagnosticCategory",
           "package": "LibClang",
@@ -8598,6 +9025,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getDiagnosticCategory",
           "normalized": "Diagnostic-\u003eIO Int",
@@ -8613,6 +9041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getDiagnosticCategoryName",
           "package": "LibClang",
@@ -8622,6 +9051,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getDiagnosticCategoryName",
           "normalized": "Int-\u003eIO CXString",
@@ -8637,6 +9067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getDiagnosticDispOptSum",
           "package": "LibClang",
@@ -8646,6 +9077,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getDiagnosticDispOptSum",
           "normalized": "[DiagnosticDisplayOptions]-\u003eInt",
@@ -8661,6 +9093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getDiagnosticFixIt",
           "package": "LibClang",
@@ -8670,6 +9103,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getDiagnosticFixIt",
           "normalized": "Diagnostic-\u003eInt-\u003eIO(SourceRange,CXString)",
@@ -8685,6 +9119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getDiagnosticLocation",
           "package": "LibClang",
@@ -8694,6 +9129,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getDiagnosticLocation",
           "normalized": "Diagnostic-\u003eIO SourceLocation",
@@ -8709,6 +9145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getDiagnosticNumFixIts",
           "package": "LibClang",
@@ -8718,6 +9155,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getDiagnosticNumFixIts",
           "normalized": "Diagnostic-\u003eIO Int",
@@ -8733,6 +9171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getDiagnosticNumRanges",
           "package": "LibClang",
@@ -8742,6 +9181,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getDiagnosticNumRanges",
           "normalized": "Diagnostic-\u003eIO Int",
@@ -8757,6 +9197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getDiagnosticOption",
           "package": "LibClang",
@@ -8766,6 +9207,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getDiagnosticOption",
           "normalized": "Diagnostic-\u003eIO(CXString,CXString)",
@@ -8781,6 +9223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getDiagnosticRange",
           "package": "LibClang",
@@ -8790,6 +9233,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getDiagnosticRange",
           "normalized": "Diagnostic-\u003eInt-\u003eIO SourceRange",
@@ -8805,6 +9249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getDiagnosticSeverity",
           "package": "LibClang",
@@ -8814,6 +9259,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getDiagnosticSeverity",
           "normalized": "Diagnostic-\u003eIO DiagnosticSeverity",
@@ -8829,6 +9275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getDiagnosticSpelling",
           "package": "LibClang",
@@ -8838,6 +9285,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getDiagnosticSpelling",
           "normalized": "Diagnostic-\u003eIO CXString",
@@ -8853,6 +9301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getFile",
           "package": "LibClang",
@@ -8862,6 +9311,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getFile",
           "normalized": "TranslationUnit-\u003eString-\u003eIO File",
@@ -8877,6 +9327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getFileName",
           "package": "LibClang",
@@ -8886,6 +9337,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getFileName",
           "normalized": "File-\u003eIO CXString",
@@ -8901,6 +9353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getFileTime",
           "package": "LibClang",
@@ -8910,6 +9363,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getFileTime",
           "normalized": "File-\u003eIO CTime",
@@ -8925,6 +9379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getIBOutletCollectionType",
           "package": "LibClang",
@@ -8934,6 +9389,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getIBOutletCollectionType",
           "normalized": "Cursor-\u003eIO Type",
@@ -8949,6 +9405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getIncludedFile",
           "package": "LibClang",
@@ -8958,6 +9415,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getIncludedFile",
           "normalized": "Cursor-\u003eIO File",
@@ -8998,6 +9456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getInstantiationLocation",
           "package": "LibClang",
@@ -9007,6 +9466,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getInstantiationLocation",
           "normalized": "SourceLocation-\u003eIO(File,Int,Int,Int)",
@@ -9022,6 +9482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getLocation",
           "package": "LibClang",
@@ -9031,6 +9492,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getLocation",
           "normalized": "TranslationUnit-\u003eFile-\u003eInt-\u003eInt-\u003eIO SourceLocation",
@@ -9046,6 +9508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getLocationForOffset",
           "package": "LibClang",
@@ -9055,6 +9518,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getLocationForOffset",
           "normalized": "TranslationUnit-\u003eFile-\u003eInt-\u003eIO SourceLocation",
@@ -9070,6 +9534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getNullCursor",
           "package": "LibClang",
@@ -9079,6 +9544,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getNullCursor",
           "package": "LibClang",
@@ -9092,6 +9558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getNullLocation",
           "package": "LibClang",
@@ -9101,6 +9568,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getNullLocation",
           "package": "LibClang",
@@ -9114,6 +9582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getNullRange",
           "package": "LibClang",
@@ -9123,6 +9592,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getNullRange",
           "package": "LibClang",
@@ -9136,6 +9606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getNumCompletionChunks",
           "package": "LibClang",
@@ -9145,6 +9616,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getNumCompletionChunks",
           "normalized": "CompletionString-\u003eIO Int",
@@ -9160,6 +9632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getNumDiagnostics",
           "package": "LibClang",
@@ -9169,6 +9642,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getNumDiagnostics",
           "normalized": "TranslationUnit-\u003eIO Int",
@@ -9184,6 +9658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getNumOverloadedDecls",
           "package": "LibClang",
@@ -9193,6 +9668,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getNumOverloadedDecls",
           "normalized": "Cursor-\u003eIO Int",
@@ -9208,6 +9684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getOverloadedDecl",
           "package": "LibClang",
@@ -9217,6 +9694,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getOverloadedDecl",
           "normalized": "Cursor-\u003eInt-\u003eIO Cursor",
@@ -9232,6 +9710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getOverriddenCursors",
           "package": "LibClang",
@@ -9241,6 +9720,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getOverriddenCursors",
           "normalized": "Cursor-\u003eIO CursorList",
@@ -9256,6 +9736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getPointeeType",
           "package": "LibClang",
@@ -9265,6 +9746,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getPointeeType",
           "normalized": "Type-\u003eIO Type",
@@ -9280,6 +9762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getRange",
           "package": "LibClang",
@@ -9289,6 +9772,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getRange",
           "normalized": "SourceLocation-\u003eSourceLocation-\u003eIO SourceRange",
@@ -9304,6 +9788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getRangeEnd",
           "package": "LibClang",
@@ -9313,6 +9798,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getRangeEnd",
           "normalized": "SourceRange-\u003eIO SourceLocation",
@@ -9328,6 +9814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getRangeStart",
           "package": "LibClang",
@@ -9337,6 +9824,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getRangeStart",
           "normalized": "SourceRange-\u003eIO SourceLocation",
@@ -9352,6 +9840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getReparseFlagsSum",
           "package": "LibClang",
@@ -9361,6 +9850,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getReparseFlagsSum",
           "normalized": "[ReparseFlags]-\u003eInt",
@@ -9376,6 +9866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getResultType",
           "package": "LibClang",
@@ -9385,6 +9876,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getResultType",
           "normalized": "Type-\u003eIO Type",
@@ -9400,6 +9892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getSaveTranslationUnitFlagsSum",
           "package": "LibClang",
@@ -9409,6 +9902,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getSaveTranslationUnitFlagsSum",
           "normalized": "[SaveTranslationUnitFlags]-\u003eInt",
@@ -9424,6 +9918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getSpecializedCursorTemplate",
           "package": "LibClang",
@@ -9433,6 +9928,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getSpecializedCursorTemplate",
           "normalized": "Cursor-\u003eIO Cursor",
@@ -9448,6 +9944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getSpellingLocation",
           "package": "LibClang",
@@ -9457,6 +9954,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getSpellingLocation",
           "normalized": "SourceLocation-\u003eIO(File,Int,Int,Int)",
@@ -9472,6 +9970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getTemplateCursorKind",
           "package": "LibClang",
@@ -9481,6 +9980,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getTemplateCursorKind",
           "normalized": "Cursor-\u003eIO CursorKind",
@@ -9496,6 +9996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getTokenExtent",
           "package": "LibClang",
@@ -9505,6 +10006,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getTokenExtent",
           "normalized": "TranslationUnit-\u003eToken-\u003eIO SourceRange",
@@ -9520,6 +10022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getTokenKind",
           "package": "LibClang",
@@ -9529,6 +10032,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getTokenKind",
           "normalized": "Token-\u003eIO TokenKind",
@@ -9544,6 +10048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getTokenLocation",
           "package": "LibClang",
@@ -9553,6 +10058,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getTokenLocation",
           "normalized": "TranslationUnit-\u003eToken-\u003eIO SourceLocation",
@@ -9568,6 +10074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getTokenSpelling",
           "package": "LibClang",
@@ -9577,6 +10084,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getTokenSpelling",
           "normalized": "TranslationUnit-\u003eToken-\u003eIO CXString",
@@ -9592,6 +10100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getTranslationUnitCursor",
           "package": "LibClang",
@@ -9601,6 +10110,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getTranslationUnitCursor",
           "normalized": "TranslationUnit-\u003eIO Cursor",
@@ -9616,6 +10126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getTranslationUnitFlagsSum",
           "package": "LibClang",
@@ -9625,6 +10136,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getTranslationUnitFlagsSum",
           "normalized": "[TranslationUnitFlags]-\u003eInt",
@@ -9640,6 +10152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getTranslationUnitSpelling",
           "package": "LibClang",
@@ -9649,6 +10162,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getTranslationUnitSpelling",
           "normalized": "TranslationUnit-\u003eIO CXString",
@@ -9664,6 +10178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getTypeDeclaration",
           "package": "LibClang",
@@ -9673,6 +10188,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getTypeDeclaration",
           "normalized": "Type-\u003eIO Cursor",
@@ -9688,6 +10204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getTypeKind",
           "package": "LibClang",
@@ -9697,6 +10214,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getTypeKind",
           "normalized": "Type-\u003eTypeKind",
@@ -9712,6 +10230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "getTypeKindSpelling",
           "package": "LibClang",
@@ -9721,6 +10240,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "getTypeKindSpelling",
           "normalized": "TypeKind-\u003eIO CXString",
@@ -9736,6 +10256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "hashCursor",
           "package": "LibClang",
@@ -9745,6 +10266,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "hashCursor",
           "normalized": "Cursor-\u003eIO Word",
@@ -9760,6 +10282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "isConstQualifiedType",
           "package": "LibClang",
@@ -9769,6 +10292,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "isConstQualifiedType",
           "normalized": "Type-\u003eIO Bool",
@@ -9784,6 +10308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "isCursorDefinition",
           "package": "LibClang",
@@ -9793,6 +10318,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "isCursorDefinition",
           "normalized": "Cursor-\u003eIO Bool",
@@ -9808,6 +10334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "isDeclaration",
           "package": "LibClang",
@@ -9817,6 +10344,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "isDeclaration",
           "normalized": "CursorKind-\u003eIO Bool",
@@ -9832,6 +10360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "isExpression",
           "package": "LibClang",
@@ -9841,6 +10370,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "isExpression",
           "normalized": "CursorKind-\u003eIO Bool",
@@ -9856,6 +10386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "isInvalid",
           "package": "LibClang",
@@ -9865,6 +10396,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "isInvalid",
           "normalized": "CursorKind-\u003eIO Bool",
@@ -9880,6 +10412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "isPODType",
           "package": "LibClang",
@@ -9889,6 +10422,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "isPODType",
           "normalized": "Type-\u003eIO Bool",
@@ -9904,6 +10438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "isPreprocessing",
           "package": "LibClang",
@@ -9913,6 +10448,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "isPreprocessing",
           "normalized": "CursorKind-\u003eIO Bool",
@@ -9928,6 +10464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "isReference",
           "package": "LibClang",
@@ -9937,6 +10474,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "isReference",
           "normalized": "CursorKind-\u003eIO Bool",
@@ -9952,6 +10490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "isRestrictQualifiedType",
           "package": "LibClang",
@@ -9961,6 +10500,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "isRestrictQualifiedType",
           "normalized": "Type-\u003eIO Bool",
@@ -9976,6 +10516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "isStatement",
           "package": "LibClang",
@@ -9985,6 +10526,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "isStatement",
           "normalized": "CursorKind-\u003eIO Bool",
@@ -10000,6 +10542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "isTranslationUnit",
           "package": "LibClang",
@@ -10009,6 +10552,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "isTranslationUnit",
           "normalized": "CursorKind-\u003eIO Bool",
@@ -10024,6 +10568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "isUnexposed",
           "package": "LibClang",
@@ -10033,6 +10578,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "isUnexposed",
           "normalized": "CursorKind-\u003eIO Bool",
@@ -10048,6 +10594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "isVirtualBase",
           "package": "LibClang",
@@ -10057,6 +10604,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "isVirtualBase",
           "normalized": "Cursor-\u003eIO Bool",
@@ -10072,6 +10620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "isVolatileQualifiedType",
           "package": "LibClang",
@@ -10081,6 +10630,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "isVolatileQualifiedType",
           "normalized": "Type-\u003eIO Bool",
@@ -10096,6 +10646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "parseTranslationUnit",
           "package": "LibClang",
@@ -10105,6 +10656,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "parseTranslationUnit",
           "normalized": "Index-\u003eMaybe String-\u003e[String]-\u003e[UnsavedFile]-\u003eInt-\u003eIO(Maybe(ForeignPtr TranslationUnitObj))",
@@ -10120,6 +10672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "reparseTranslationUnit",
           "package": "LibClang",
@@ -10129,6 +10682,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "reparseTranslationUnit",
           "normalized": "TranslationUnit-\u003e[UnsavedFile]-\u003eInt-\u003eIO Bool",
@@ -10144,6 +10698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "saveTranslationUnit",
           "package": "LibClang",
@@ -10153,6 +10708,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "saveTranslationUnit",
           "normalized": "TranslationUnit-\u003eString-\u003eInt-\u003eIO Bool",
@@ -10168,6 +10724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "setCXUnsavedFile",
           "package": "LibClang",
@@ -10177,6 +10734,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "setCXUnsavedFile",
           "normalized": "CString-\u003eCString-\u003eCULong-\u003ePtr()-\u003eCInt-\u003eIO()",
@@ -10192,6 +10750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "sortCodeCompletionResults",
           "package": "LibClang",
@@ -10201,6 +10760,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "sortCodeCompletionResults",
           "normalized": "CodeCompleteResults-\u003eInt-\u003eIO()",
@@ -10216,6 +10776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "tokenize",
           "package": "LibClang",
@@ -10225,6 +10786,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "tokenize",
           "normalized": "TranslationUnit-\u003eSourceRange-\u003eIO TokenList",
@@ -10239,6 +10801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "unsavedFileSize",
           "package": "LibClang",
@@ -10248,6 +10811,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "unsavedFileSize",
           "package": "LibClang",
@@ -10286,6 +10850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.FFI",
           "name": "wrapInclusionVisitor",
           "package": "LibClang",
@@ -10295,6 +10860,7 @@
         },
         "index": {
           "hierarchy": "Clang FFI",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.FFI",
           "name": "wrapInclusionVisitor",
           "normalized": "InclusionVisitor a-\u003eInclusionVisitorRaw",
@@ -10310,6 +10876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.File",
           "name": "File",
           "package": "LibClang",
@@ -10318,6 +10885,7 @@
         },
         "index": {
           "hierarchy": "Clang File",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.File",
           "name": "File",
           "package": "LibClang",
@@ -10331,6 +10899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.File",
           "name": "File",
           "package": "LibClang",
@@ -10339,6 +10908,7 @@
         },
         "index": {
           "hierarchy": "Clang File",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.File",
           "name": "File",
           "package": "LibClang",
@@ -10352,6 +10922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.File",
           "name": "UnsavedFile",
           "package": "LibClang",
@@ -10360,6 +10931,7 @@
         },
         "index": {
           "hierarchy": "Clang File",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.File",
           "name": "UnsavedFile",
           "package": "LibClang",
@@ -10373,6 +10945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.File",
           "name": "getFile",
           "package": "LibClang",
@@ -10382,6 +10955,7 @@
         },
         "index": {
           "hierarchy": "Clang File",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.File",
           "name": "getFile",
           "normalized": "TranslationUnit-\u003eFilePath-\u003eFile",
@@ -10397,6 +10971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.File",
           "name": "getName",
           "package": "LibClang",
@@ -10406,6 +10981,7 @@
         },
         "index": {
           "hierarchy": "Clang File",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.File",
           "name": "getName",
           "normalized": "File-\u003eFilePath",
@@ -10421,6 +10997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.File",
           "name": "getTime",
           "package": "LibClang",
@@ -10430,6 +11007,7 @@
         },
         "index": {
           "hierarchy": "Clang File",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.File",
           "name": "getTime",
           "normalized": "File-\u003eUTCTime",
@@ -10445,6 +11023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Source",
           "name": "Source",
           "package": "LibClang",
@@ -10453,6 +11032,7 @@
         },
         "index": {
           "hierarchy": "Clang Source",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Source",
           "name": "Source",
           "package": "LibClang",
@@ -10466,6 +11046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Source",
           "name": "File",
           "package": "LibClang",
@@ -10474,6 +11055,7 @@
         },
         "index": {
           "hierarchy": "Clang Source",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Source",
           "name": "File",
           "package": "LibClang",
@@ -10487,6 +11069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Source",
           "name": "SourceLocation",
           "package": "LibClang",
@@ -10495,6 +11078,7 @@
         },
         "index": {
           "hierarchy": "Clang Source",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Source",
           "name": "SourceLocation",
           "package": "LibClang",
@@ -10508,6 +11092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Source",
           "name": "SourceRange",
           "package": "LibClang",
@@ -10516,6 +11101,7 @@
         },
         "index": {
           "hierarchy": "Clang Source",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Source",
           "name": "SourceRange",
           "package": "LibClang",
@@ -10529,6 +11115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Source",
           "name": "getEnd",
           "package": "LibClang",
@@ -10538,6 +11125,7 @@
         },
         "index": {
           "hierarchy": "Clang Source",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Source",
           "name": "getEnd",
           "normalized": "SourceRange-\u003eSourceLocation",
@@ -10553,6 +11141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Source",
           "name": "getFileTime",
           "package": "LibClang",
@@ -10562,6 +11151,7 @@
         },
         "index": {
           "hierarchy": "Clang Source",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Source",
           "name": "getFileTime",
           "normalized": "File-\u003eCTime",
@@ -10577,6 +11167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Source",
           "name": "getFilename",
           "package": "LibClang",
@@ -10586,6 +11177,7 @@
         },
         "index": {
           "hierarchy": "Clang Source",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Source",
           "name": "getFilename",
           "normalized": "File-\u003eCXString",
@@ -10601,6 +11193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Source",
           "name": "getInstantiationLocation",
           "package": "LibClang",
@@ -10610,6 +11203,7 @@
         },
         "index": {
           "hierarchy": "Clang Source",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Source",
           "name": "getInstantiationLocation",
           "normalized": "SourceLocation-\u003e(File,Int,Int,Int)",
@@ -10625,6 +11219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Source",
           "name": "getLocation",
           "package": "LibClang",
@@ -10634,6 +11229,7 @@
         },
         "index": {
           "hierarchy": "Clang Source",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Source",
           "name": "getLocation",
           "normalized": "TranslationUnit-\u003eFile-\u003eInt-\u003eInt-\u003eSourceLocation",
@@ -10649,6 +11245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Source",
           "name": "getLocationForOffset",
           "package": "LibClang",
@@ -10658,6 +11255,7 @@
         },
         "index": {
           "hierarchy": "Clang Source",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Source",
           "name": "getLocationForOffset",
           "normalized": "TranslationUnit-\u003eFile-\u003eInt-\u003eSourceLocation",
@@ -10673,6 +11271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Source",
           "name": "getRange",
           "package": "LibClang",
@@ -10682,6 +11281,7 @@
         },
         "index": {
           "hierarchy": "Clang Source",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Source",
           "name": "getRange",
           "normalized": "SourceLocation-\u003eSourceLocation-\u003eSourceRange",
@@ -10697,6 +11297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Source",
           "name": "getSpellingLocation",
           "package": "LibClang",
@@ -10706,6 +11307,7 @@
         },
         "index": {
           "hierarchy": "Clang Source",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Source",
           "name": "getSpellingLocation",
           "normalized": "SourceLocation-\u003e(File,Int,Int,Int)",
@@ -10721,6 +11323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Source",
           "name": "getStart",
           "package": "LibClang",
@@ -10730,6 +11333,7 @@
         },
         "index": {
           "hierarchy": "Clang Source",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Source",
           "name": "getStart",
           "normalized": "SourceRange-\u003eSourceLocation",
@@ -10745,6 +11349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Source",
           "name": "nullLocation",
           "package": "LibClang",
@@ -10754,6 +11359,7 @@
         },
         "index": {
           "hierarchy": "Clang Source",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Source",
           "name": "nullLocation",
           "package": "LibClang",
@@ -10767,6 +11373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Source",
           "name": "nullRange",
           "package": "LibClang",
@@ -10776,6 +11383,7 @@
         },
         "index": {
           "hierarchy": "Clang Source",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Source",
           "name": "nullRange",
           "package": "LibClang",
@@ -10789,6 +11397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Token",
           "name": "Token",
           "package": "LibClang",
@@ -10797,6 +11406,7 @@
         },
         "index": {
           "hierarchy": "Clang Token",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Token",
           "name": "Token",
           "package": "LibClang",
@@ -10810,6 +11420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Token",
           "name": "Token",
           "package": "LibClang",
@@ -10818,6 +11429,7 @@
         },
         "index": {
           "hierarchy": "Clang Token",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Token",
           "name": "Token",
           "package": "LibClang",
@@ -10831,6 +11443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Token",
           "name": "getExtent",
           "package": "LibClang",
@@ -10840,6 +11453,7 @@
         },
         "index": {
           "hierarchy": "Clang Token",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Token",
           "name": "getExtent",
           "normalized": "TranslationUnit-\u003eToken-\u003eSourceRange",
@@ -10855,6 +11469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Token",
           "name": "getKind",
           "package": "LibClang",
@@ -10864,6 +11479,7 @@
         },
         "index": {
           "hierarchy": "Clang Token",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Token",
           "name": "getKind",
           "normalized": "Token-\u003eTokenKind",
@@ -10879,6 +11495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Token",
           "name": "getLocation",
           "package": "LibClang",
@@ -10888,6 +11505,7 @@
         },
         "index": {
           "hierarchy": "Clang Token",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Token",
           "name": "getLocation",
           "normalized": "TranslationUnit-\u003eToken-\u003eSourceLocation",
@@ -10903,6 +11521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Token",
           "name": "getSpelling",
           "package": "LibClang",
@@ -10912,6 +11531,7 @@
         },
         "index": {
           "hierarchy": "Clang Token",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Token",
           "name": "getSpelling",
           "normalized": "TranslationUnit-\u003eToken-\u003eCXString",
@@ -10927,6 +11547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Token",
           "name": "tokenize",
           "package": "LibClang",
@@ -10936,6 +11557,7 @@
         },
         "index": {
           "hierarchy": "Clang Token",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Token",
           "name": "tokenize",
           "normalized": "TranslationUnit-\u003eSourceRange-\u003e[Token]",
@@ -10950,6 +11572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.TranslationUnit",
           "name": "TranslationUnit",
           "package": "LibClang",
@@ -10958,6 +11581,7 @@
         },
         "index": {
           "hierarchy": "Clang TranslationUnit",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.TranslationUnit",
           "name": "TranslationUnit",
           "package": "LibClang",
@@ -10971,6 +11595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.TranslationUnit",
           "name": "Index",
           "package": "LibClang",
@@ -10979,6 +11604,7 @@
         },
         "index": {
           "hierarchy": "Clang TranslationUnit",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.TranslationUnit",
           "name": "Index",
           "package": "LibClang",
@@ -10992,6 +11618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.TranslationUnit",
           "name": "SaveTranslationUnitFlags",
           "package": "LibClang",
@@ -11000,6 +11627,7 @@
         },
         "index": {
           "hierarchy": "Clang TranslationUnit",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.TranslationUnit",
           "name": "SaveTranslationUnitFlags",
           "package": "LibClang",
@@ -11013,6 +11641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.TranslationUnit",
           "name": "TranslationUnitFlags",
           "package": "LibClang",
@@ -11021,6 +11650,7 @@
         },
         "index": {
           "hierarchy": "Clang TranslationUnit",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.TranslationUnit",
           "name": "TranslationUnitFlags",
           "package": "LibClang",
@@ -11034,6 +11664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.TranslationUnit",
           "name": "defaultReparseOptions",
           "package": "LibClang",
@@ -11043,6 +11674,7 @@
         },
         "index": {
           "hierarchy": "Clang TranslationUnit",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.TranslationUnit",
           "name": "defaultReparseOptions",
           "normalized": "[ReparseFlags]",
@@ -11058,6 +11690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.TranslationUnit",
           "name": "defaultSaveOptions",
           "package": "LibClang",
@@ -11067,6 +11700,7 @@
         },
         "index": {
           "hierarchy": "Clang TranslationUnit",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.TranslationUnit",
           "name": "defaultSaveOptions",
           "normalized": "[SaveTranslationUnitFlags]",
@@ -11082,6 +11716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.TranslationUnit",
           "name": "getCursor",
           "package": "LibClang",
@@ -11091,6 +11726,7 @@
         },
         "index": {
           "hierarchy": "Clang TranslationUnit",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.TranslationUnit",
           "name": "getCursor",
           "normalized": "TranslationUnit-\u003eCursor",
@@ -11106,6 +11742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.TranslationUnit",
           "name": "getSpelling",
           "package": "LibClang",
@@ -11115,6 +11752,7 @@
         },
         "index": {
           "hierarchy": "Clang TranslationUnit",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.TranslationUnit",
           "name": "getSpelling",
           "normalized": "TranslationUnit-\u003eCXString",
@@ -11130,6 +11768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.TranslationUnit",
           "name": "reparse",
           "package": "LibClang",
@@ -11138,6 +11777,7 @@
         },
         "index": {
           "hierarchy": "Clang TranslationUnit",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.TranslationUnit",
           "name": "reparse",
           "normalized": "TranslationUnit-\u003e[UnsavedFile]-\u003e[ReparseFlags]-\u003eIO Bool",
@@ -11152,6 +11792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.TranslationUnit",
           "name": "save",
           "package": "LibClang",
@@ -11160,6 +11801,7 @@
         },
         "index": {
           "hierarchy": "Clang TranslationUnit",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.TranslationUnit",
           "name": "save",
           "normalized": "TranslationUnit-\u003eFilePath-\u003e[SaveTranslationUnitFlags]-\u003eIO Bool",
@@ -11174,6 +11816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.TranslationUnit",
           "name": "withCreate",
           "package": "LibClang",
@@ -11183,6 +11826,7 @@
         },
         "index": {
           "hierarchy": "Clang TranslationUnit",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.TranslationUnit",
           "name": "withCreate",
           "normalized": "Index-\u003eString-\u003e(Ptr TranslationUnitObj-\u003eIO a)-\u003eIO a",
@@ -11198,6 +11842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.TranslationUnit",
           "name": "withCreateFromSourceFile",
           "package": "LibClang",
@@ -11206,6 +11851,7 @@
         },
         "index": {
           "hierarchy": "Clang TranslationUnit",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.TranslationUnit",
           "name": "withCreateFromSourceFile",
           "normalized": "Index-\u003eFilePath-\u003e[String]-\u003e[UnsavedFile]-\u003e(TranslationUnit-\u003eIO a)-\u003eIO a",
@@ -11221,6 +11867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.TranslationUnit",
           "name": "withCreateIndex",
           "package": "LibClang",
@@ -11230,6 +11877,7 @@
         },
         "index": {
           "hierarchy": "Clang TranslationUnit",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.TranslationUnit",
           "name": "withCreateIndex",
           "normalized": "Bool-\u003eBool-\u003e(Ptr IndexObj-\u003eIO a)-\u003eIO a",
@@ -11245,6 +11893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.TranslationUnit",
           "name": "withParse",
           "package": "LibClang",
@@ -11253,6 +11902,7 @@
         },
         "index": {
           "hierarchy": "Clang TranslationUnit",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.TranslationUnit",
           "name": "withParse",
           "normalized": "Index-\u003eMaybe FilePath-\u003e[String]-\u003e[UnsavedFile]-\u003e[TranslationUnitFlags]-\u003e(TranslationUnit-\u003eIO a)-\u003eIO a-\u003eIO a",
@@ -11268,6 +11918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Traversal",
           "name": "Traversal",
           "package": "LibClang",
@@ -11276,6 +11927,7 @@
         },
         "index": {
           "hierarchy": "Clang Traversal",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Traversal",
           "name": "Traversal",
           "package": "LibClang",
@@ -11289,6 +11941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Traversal",
           "name": "ChildVisitResult",
           "package": "LibClang",
@@ -11297,6 +11950,7 @@
         },
         "index": {
           "hierarchy": "Clang Traversal",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Traversal",
           "name": "ChildVisitResult",
           "package": "LibClang",
@@ -11310,6 +11964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Traversal",
           "name": "ChildVisitor",
           "package": "LibClang",
@@ -11318,6 +11973,7 @@
         },
         "index": {
           "hierarchy": "Clang Traversal",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Traversal",
           "name": "ChildVisitor",
           "package": "LibClang",
@@ -11331,6 +11987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Traversal",
           "name": "InclusionVisitor",
           "package": "LibClang",
@@ -11339,6 +11996,7 @@
         },
         "index": {
           "hierarchy": "Clang Traversal",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Traversal",
           "name": "InclusionVisitor",
           "package": "LibClang",
@@ -11352,6 +12010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Traversal",
           "name": "annotateTokens",
           "package": "LibClang",
@@ -11360,6 +12019,7 @@
         },
         "index": {
           "hierarchy": "Clang Traversal",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Traversal",
           "name": "annotateTokens",
           "normalized": "TranslationUnit-\u003e[Token]-\u003eIO[Cursor]",
@@ -11375,6 +12035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Type",
           "name": "Type",
           "package": "LibClang",
@@ -11383,6 +12044,7 @@
         },
         "index": {
           "hierarchy": "Clang Type",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Type",
           "name": "Type",
           "package": "LibClang",
@@ -11396,6 +12058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Type",
           "name": "CXString",
           "package": "LibClang",
@@ -11404,6 +12067,7 @@
         },
         "index": {
           "hierarchy": "Clang Type",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Type",
           "name": "CXString",
           "package": "LibClang",
@@ -11417,6 +12081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Type",
           "name": "CXXAccessSpecifier",
           "package": "LibClang",
@@ -11425,6 +12090,7 @@
         },
         "index": {
           "hierarchy": "Clang Type",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Type",
           "name": "CXXAccessSpecifier",
           "package": "LibClang",
@@ -11438,6 +12104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Type",
           "name": "Type",
           "package": "LibClang",
@@ -11446,6 +12113,7 @@
         },
         "index": {
           "hierarchy": "Clang Type",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Type",
           "name": "Type",
           "package": "LibClang",
@@ -11459,6 +12127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Type",
           "name": "TypeKind",
           "package": "LibClang",
@@ -11467,6 +12136,7 @@
         },
         "index": {
           "hierarchy": "Clang Type",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Type",
           "name": "TypeKind",
           "package": "LibClang",
@@ -11480,6 +12150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Type",
           "name": "getCanonicalType",
           "package": "LibClang",
@@ -11489,6 +12160,7 @@
         },
         "index": {
           "hierarchy": "Clang Type",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Type",
           "name": "getCanonicalType",
           "normalized": "Type-\u003eType",
@@ -11504,6 +12176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Type",
           "name": "getKind",
           "package": "LibClang",
@@ -11513,6 +12186,7 @@
         },
         "index": {
           "hierarchy": "Clang Type",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Type",
           "name": "getKind",
           "normalized": "Type-\u003eTypeKind",
@@ -11528,6 +12202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Type",
           "name": "getPointeeType",
           "package": "LibClang",
@@ -11537,6 +12212,7 @@
         },
         "index": {
           "hierarchy": "Clang Type",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Type",
           "name": "getPointeeType",
           "normalized": "Type-\u003eType",
@@ -11552,6 +12228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Type",
           "name": "getResultType",
           "package": "LibClang",
@@ -11561,6 +12238,7 @@
         },
         "index": {
           "hierarchy": "Clang Type",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Type",
           "name": "getResultType",
           "normalized": "Type-\u003eType",
@@ -11576,6 +12254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Type",
           "name": "getTypeKindSpelling",
           "package": "LibClang",
@@ -11585,6 +12264,7 @@
         },
         "index": {
           "hierarchy": "Clang Type",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Type",
           "name": "getTypeKindSpelling",
           "normalized": "TypeKind-\u003eCXString",
@@ -11600,6 +12280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Type",
           "name": "isConstQualifiedType",
           "package": "LibClang",
@@ -11609,6 +12290,7 @@
         },
         "index": {
           "hierarchy": "Clang Type",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Type",
           "name": "isConstQualifiedType",
           "normalized": "Type-\u003eBool",
@@ -11624,6 +12306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Type",
           "name": "isPODType",
           "package": "LibClang",
@@ -11633,6 +12316,7 @@
         },
         "index": {
           "hierarchy": "Clang Type",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Type",
           "name": "isPODType",
           "normalized": "Type-\u003eBool",
@@ -11648,6 +12332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Type",
           "name": "isRestrictQualifiedType",
           "package": "LibClang",
@@ -11657,6 +12342,7 @@
         },
         "index": {
           "hierarchy": "Clang Type",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Type",
           "name": "isRestrictQualifiedType",
           "normalized": "Type-\u003eBool",
@@ -11672,6 +12358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Type",
           "name": "isVirtualBase",
           "package": "LibClang",
@@ -11681,6 +12368,7 @@
         },
         "index": {
           "hierarchy": "Clang Type",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Type",
           "name": "isVirtualBase",
           "normalized": "Cursor-\u003eBool",
@@ -11696,6 +12384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang.Type",
           "name": "isVolatileQualifiedType",
           "package": "LibClang",
@@ -11705,6 +12394,7 @@
         },
         "index": {
           "hierarchy": "Clang Type",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang.Type",
           "name": "isVolatileQualifiedType",
           "normalized": "Type-\u003eBool",
@@ -11721,6 +12411,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module basically imports all identifiers from the following modules\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eClang.Type\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eClang.Cursor\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eClang.CrossReference\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eClang.Source\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eClang.Diagnostic\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eClang.TranslationUnit\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eClang.Token\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eClang.Debug\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eClang.Completion\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eClang.Traversal\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eClang.File\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:51:36 UTC 2014",
           "module": "Clang",
           "name": "Clang",
           "package": "LibClang",
@@ -11730,6 +12421,7 @@
         "index": {
           "description": "This module basically imports all identifiers from the following modules Clang.Type Clang.Cursor Clang.CrossReference Clang.Source Clang.Diagnostic Clang.TranslationUnit Clang.Token Clang.Debug Clang.Completion Clang.Traversal Clang.File",
           "hierarchy": "Clang",
+          "indexed": "2014-03-11T16:51:36",
           "module": "Clang",
           "name": "Clang",
           "package": "LibClang",

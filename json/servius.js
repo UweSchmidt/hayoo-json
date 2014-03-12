@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "servius"
+        "phrase": "servius",
+        "type": "phrase"
       },
       "type": "context"
     }

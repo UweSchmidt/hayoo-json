@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-supply"
+        "phrase": "monad-supply",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for computations which consume values from a (possibly infinite)\n supply. See \u003ca\u003ehttp://www.haskell.org/haskellwiki/New_monads/MonadSupply\u003c/a\u003e for\n details.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:52 UTC 2014",
           "module": "Control.Monad.Supply",
           "name": "Supply",
           "package": "monad-supply",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Support for computations which consume values from possibly infinite supply See http www.haskell.org haskellwiki New monads MonadSupply for details",
           "hierarchy": "Control Monad Supply",
+          "indexed": "2014-03-11T19:20:52",
           "module": "Control.Monad.Supply",
           "name": "Supply",
           "package": "monad-supply",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:52 UTC 2014",
           "module": "Control.Monad.Supply",
           "name": "MonadSupply",
           "package": "monad-supply",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Supply",
+          "indexed": "2014-03-11T19:20:52",
           "module": "Control.Monad.Supply",
           "name": "MonadSupply",
           "package": "monad-supply",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupply monad. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:52 UTC 2014",
           "module": "Control.Monad.Supply",
           "name": "Supply",
           "package": "monad-supply",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Supply monad",
           "hierarchy": "Control Monad Supply",
+          "indexed": "2014-03-11T19:20:52",
           "module": "Control.Monad.Supply",
           "name": "Supply",
           "package": "monad-supply",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupply monad transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:52 UTC 2014",
           "module": "Control.Monad.Supply",
           "name": "SupplyT",
           "package": "monad-supply",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Supply monad transformer",
           "hierarchy": "Control Monad Supply",
+          "indexed": "2014-03-11T19:20:52",
           "module": "Control.Monad.Supply",
           "name": "SupplyT",
           "package": "monad-supply",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:52 UTC 2014",
           "module": "Control.Monad.Supply",
           "name": "evalSupply",
           "package": "monad-supply",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Supply",
+          "indexed": "2014-03-11T19:20:52",
           "module": "Control.Monad.Supply",
           "name": "evalSupply",
           "normalized": "Supply a b-\u003e[a]-\u003eb",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:52 UTC 2014",
           "module": "Control.Monad.Supply",
           "name": "evalSupplyT",
           "package": "monad-supply",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Supply",
+          "indexed": "2014-03-11T19:20:52",
           "module": "Control.Monad.Supply",
           "name": "evalSupplyT",
           "normalized": "SupplyT a b c-\u003e[a]-\u003eb c",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:52 UTC 2014",
           "module": "Control.Monad.Supply",
           "name": "exhausted",
           "package": "monad-supply",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Supply",
+          "indexed": "2014-03-11T19:20:52",
           "module": "Control.Monad.Supply",
           "name": "exhausted",
           "package": "monad-supply",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:52 UTC 2014",
           "module": "Control.Monad.Supply",
           "name": "peek",
           "package": "monad-supply",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Supply",
+          "indexed": "2014-03-11T19:20:52",
           "module": "Control.Monad.Supply",
           "name": "peek",
           "package": "monad-supply",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:52 UTC 2014",
           "module": "Control.Monad.Supply",
           "name": "runSupply",
           "package": "monad-supply",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Supply",
+          "indexed": "2014-03-11T19:20:52",
           "module": "Control.Monad.Supply",
           "name": "runSupply",
           "normalized": "Supply a b-\u003e[a]-\u003e(b,[a])",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:52 UTC 2014",
           "module": "Control.Monad.Supply",
           "name": "runSupplyT",
           "package": "monad-supply",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Supply",
+          "indexed": "2014-03-11T19:20:52",
           "module": "Control.Monad.Supply",
           "name": "runSupplyT",
           "normalized": "SupplyT a b c-\u003e[a]-\u003eb(c,[a])",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet n supplies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:52 UTC 2014",
           "module": "Control.Monad.Supply",
           "name": "supplies",
           "package": "monad-supply",
@@ -257,6 +278,7 @@
         "index": {
           "description": "Get supplies",
           "hierarchy": "Control Monad Supply",
+          "indexed": "2014-03-11T19:20:52",
           "module": "Control.Monad.Supply",
           "name": "supplies",
           "normalized": "Int-\u003ea[b]",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:52 UTC 2014",
           "module": "Control.Monad.Supply",
           "name": "supply",
           "package": "monad-supply",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Supply",
+          "indexed": "2014-03-11T19:20:52",
           "module": "Control.Monad.Supply",
           "name": "supply",
           "package": "monad-supply",

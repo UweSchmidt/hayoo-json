@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "MorseCode"
+        "phrase": "MorseCode",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:37 UTC 2014",
           "module": "Text.Morse",
           "name": "Morse",
           "package": "MorseCode",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Morse",
+          "indexed": "2014-03-11T16:53:37",
           "module": "Text.Morse",
           "name": "Morse",
           "package": "MorseCode",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter can encode to Morse Code?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:37 UTC 2014",
           "module": "Text.Morse",
           "name": "canEncodeToMorse",
           "package": "MorseCode",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Character can encode to Morse Code",
           "hierarchy": "Text Morse",
+          "indexed": "2014-03-11T16:53:37",
           "module": "Text.Morse",
           "name": "canEncodeToMorse",
           "normalized": "Char-\u003eBool",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet string from Morse Code.\n Invalid Morse Code will skip.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:37 UTC 2014",
           "module": "Text.Morse",
           "name": "decodeMorse",
           "package": "MorseCode",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Get string from Morse Code Invalid Morse Code will skip",
           "hierarchy": "Text Morse",
+          "indexed": "2014-03-11T16:53:37",
           "module": "Text.Morse",
           "name": "decodeMorse",
           "normalized": "String-\u003eString",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert String to Morse Code.\n And ignore invalid Morse character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:37 UTC 2014",
           "module": "Text.Morse",
           "name": "encodeMorse",
           "package": "MorseCode",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Convert String to Morse Code And ignore invalid Morse character",
           "hierarchy": "Text Morse",
+          "indexed": "2014-03-11T16:53:37",
           "module": "Text.Morse",
           "name": "encodeMorse",
           "normalized": "String-\u003eString",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs valid Morse character.?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:37 UTC 2014",
           "module": "Text.Morse",
           "name": "isMorseChar",
           "package": "MorseCode",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Is valid Morse character",
           "hierarchy": "Text Morse",
+          "indexed": "2014-03-11T16:53:37",
           "module": "Text.Morse",
           "name": "isMorseChar",
           "normalized": "Char-\u003eBool",

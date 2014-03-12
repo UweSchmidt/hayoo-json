@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-openflow"
+        "phrase": "haskell-openflow",
+        "type": "phrase"
       },
       "type": "context"
     }

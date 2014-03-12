@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hybrid"
+        "phrase": "hybrid",
+        "type": "phrase"
       },
       "type": "context"
     }

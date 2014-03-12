@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "thimk"
+        "phrase": "thimk",
+        "type": "phrase"
       },
       "type": "context"
     }

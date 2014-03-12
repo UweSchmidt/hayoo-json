@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nemesis-titan"
+        "phrase": "nemesis-titan",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "Titan",
           "package": "nemesis-titan",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "Titan",
           "package": "nemesis-titan",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "Config",
           "package": "nemesis-titan",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "Config",
           "package": "nemesis-titan",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "MacAppArgs",
           "package": "nemesis-titan",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "MacAppArgs",
           "package": "nemesis-titan",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "Config",
           "package": "nemesis-titan",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "Config",
           "package": "nemesis-titan",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "MacAppArgs",
           "package": "nemesis-titan",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "MacAppArgs",
           "package": "nemesis-titan",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "__bin_directory",
           "package": "nemesis-titan",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "__bin_directory",
           "normalized": "-\u003eConfig String",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "__config_directory",
           "package": "nemesis-titan",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "__config_directory",
           "normalized": "-\u003eConfig String",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "__derived_data_path",
           "package": "nemesis-titan",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "__derived_data_path",
           "normalized": "-\u003eMacAppArgs String",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "__file_name",
           "package": "nemesis-titan",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "__file_name",
           "normalized": "-\u003eConfig String",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "__frameworks",
           "package": "nemesis-titan",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "__frameworks",
           "normalized": "-\u003eMacAppArgs[String]",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "__ghc_arg_string",
           "package": "nemesis-titan",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "__ghc_arg_string",
           "normalized": "-\u003eConfig String",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "__ghc_default_arg_string",
           "package": "nemesis-titan",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "__ghc_default_arg_string",
           "normalized": "-\u003eConfig String",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "__guard_arg_string",
           "package": "nemesis-titan",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "__guard_arg_string",
           "normalized": "-\u003eConfig String",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "__guard_default_arg_string",
           "package": "nemesis-titan",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "__guard_default_arg_string",
           "normalized": "-\u003eConfig String",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "__haskell_source_directory",
           "package": "nemesis-titan",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "__haskell_source_directory",
           "normalized": "-\u003eConfig String",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "__mac_app_config",
           "package": "nemesis-titan",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "__mac_app_config",
           "normalized": "-\u003eMacAppArgs Config",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "__mac_app_file_name",
           "package": "nemesis-titan",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "__mac_app_file_name",
           "normalized": "-\u003eMacAppArgs(Maybe String)",
@@ -401,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "__mac_app_project_name",
           "package": "nemesis-titan",
@@ -410,6 +445,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "__mac_app_project_name",
           "normalized": "-\u003eMacAppArgs(Maybe String)",
@@ -424,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "__pid_name",
           "package": "nemesis-titan",
@@ -433,6 +470,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "__pid_name",
           "normalized": "-\u003eConfig String",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "__project_name",
           "package": "nemesis-titan",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "__project_name",
           "normalized": "-\u003eConfig String",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "__scheme_name",
           "package": "nemesis-titan",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "__scheme_name",
           "normalized": "-\u003eMacAppArgs(Maybe String)",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "__target_name",
           "package": "nemesis-titan",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "__target_name",
           "normalized": "-\u003eMacAppArgs String",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "angel_live_template",
           "package": "nemesis-titan",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "angel_live_template",
           "package": "nemesis-titan",
@@ -537,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "angel_template",
           "package": "nemesis-titan",
@@ -546,6 +593,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "angel_template",
           "package": "nemesis-titan",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "bin_directory",
           "package": "nemesis-titan",
@@ -567,6 +616,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "bin_directory",
           "package": "nemesis-titan",
@@ -579,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "config_directory",
           "package": "nemesis-titan",
@@ -588,6 +639,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "config_directory",
           "package": "nemesis-titan",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "default_mac_app_config",
           "package": "nemesis-titan",
@@ -609,6 +662,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "default_mac_app_config",
           "package": "nemesis-titan",
@@ -621,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "derived_data_path",
           "package": "nemesis-titan",
@@ -630,6 +685,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "derived_data_path",
           "package": "nemesis-titan",
@@ -642,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "file_name",
           "package": "nemesis-titan",
@@ -651,6 +708,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "file_name",
           "package": "nemesis-titan",
@@ -663,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "frameworks",
           "package": "nemesis-titan",
@@ -672,6 +731,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "frameworks",
           "normalized": "[String]",
@@ -686,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "ghc_arg_string",
           "package": "nemesis-titan",
@@ -695,6 +756,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "ghc_arg_string",
           "package": "nemesis-titan",
@@ -707,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "ghc_default_arg_string",
           "package": "nemesis-titan",
@@ -716,6 +779,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "ghc_default_arg_string",
           "package": "nemesis-titan",
@@ -728,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "guard_arg_string",
           "package": "nemesis-titan",
@@ -737,6 +802,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "guard_arg_string",
           "package": "nemesis-titan",
@@ -749,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "guard_default_arg_string",
           "package": "nemesis-titan",
@@ -758,6 +825,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "guard_default_arg_string",
           "package": "nemesis-titan",
@@ -770,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "guard_template",
           "package": "nemesis-titan",
@@ -779,6 +848,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "guard_template",
           "package": "nemesis-titan",
@@ -791,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "halt",
           "package": "nemesis-titan",
@@ -800,6 +871,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "halt",
           "normalized": "IO()",
@@ -814,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "haskell_source_directory",
           "package": "nemesis-titan",
@@ -823,6 +896,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "haskell_source_directory",
           "package": "nemesis-titan",
@@ -835,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "haskell_template",
           "package": "nemesis-titan",
@@ -844,6 +919,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "haskell_template",
           "package": "nemesis-titan",
@@ -856,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "mac_app_config",
           "package": "nemesis-titan",
@@ -865,6 +942,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "mac_app_config",
           "package": "nemesis-titan",
@@ -877,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "mac_app_file_name",
           "package": "nemesis-titan",
@@ -886,6 +965,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "mac_app_file_name",
           "package": "nemesis-titan",
@@ -898,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "mac_app_project_name",
           "package": "nemesis-titan",
@@ -907,6 +988,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "mac_app_project_name",
           "package": "nemesis-titan",
@@ -919,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "pid_name",
           "package": "nemesis-titan",
@@ -928,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "pid_name",
           "package": "nemesis-titan",
@@ -940,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "project_name",
           "package": "nemesis-titan",
@@ -949,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "project_name",
           "package": "nemesis-titan",
@@ -961,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "safe_spec",
           "package": "nemesis-titan",
@@ -970,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "safe_spec",
           "normalized": "IO()-\u003eIO ExitCode",
@@ -984,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "scheme_name",
           "package": "nemesis-titan",
@@ -993,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "scheme_name",
           "package": "nemesis-titan",
@@ -1005,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "target_name",
           "package": "nemesis-titan",
@@ -1014,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "target_name",
           "package": "nemesis-titan",
@@ -1026,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "titan",
           "package": "nemesis-titan",
@@ -1035,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "titan",
           "normalized": "String-\u003eUnit",
@@ -1049,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "titan_mac_app",
           "package": "nemesis-titan",
@@ -1058,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "titan_mac_app",
           "normalized": "MacAppArgs-\u003eUnit",
@@ -1072,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "titan_spec",
           "package": "nemesis-titan",
@@ -1081,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "titan_spec",
           "normalized": "IO()",
@@ -1095,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "titan_with_config",
           "package": "nemesis-titan",
@@ -1104,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "titan_with_config",
           "normalized": "Config-\u003eUnit",
@@ -1118,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:37 UTC 2014",
           "module": "System.Nemesis.Titan",
           "name": "with_spec",
           "package": "nemesis-titan",
@@ -1127,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Titan",
+          "indexed": "2014-03-11T19:26:37",
           "module": "System.Nemesis.Titan",
           "name": "with_spec",
           "normalized": "IO()-\u003eIO a-\u003eIO()",

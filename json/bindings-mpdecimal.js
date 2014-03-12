@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-mpdecimal"
+        "phrase": "bindings-mpdecimal",
+        "type": "phrase"
       },
       "type": "context"
     }

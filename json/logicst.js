@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "logicst"
+        "phrase": "logicst",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.IO.Logic",
           "name": "Logic",
           "package": "logicst",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad IO Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.IO.Logic",
           "name": "Logic",
           "package": "logicst",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.IO.Logic",
           "name": "LogicIO",
           "package": "logicst",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad IO Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.IO.Logic",
           "name": "LogicIO",
           "package": "logicst",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.IO.Logic",
           "name": "liftST",
           "package": "logicst",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Monad IO Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.IO.Logic",
           "name": "liftST",
           "normalized": "ST RealWorld a-\u003eLogicIO b a",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.IO.Logic",
           "name": "observeAllIO",
           "package": "logicst",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Control Monad IO Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.IO.Logic",
           "name": "observeAllIO",
           "normalized": "(a b LogicIO c d)-\u003eIO[d]",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.IO.Logic",
           "name": "observeIO",
           "package": "logicst",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Control Monad IO Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.IO.Logic",
           "name": "observeIO",
           "normalized": "(a b LogicIO c d)-\u003eIO d",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.IO.Logic",
           "name": "observeManyIO",
           "package": "logicst",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Control Monad IO Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.IO.Logic",
           "name": "observeManyIO",
           "normalized": "Int-\u003e(a b LogicIO c d)-\u003eIO[d]",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.IO.Logic",
           "name": "runLogicIO",
           "package": "logicst",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Control Monad IO Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.IO.Logic",
           "name": "runLogicIO",
           "normalized": "(a b LogicIO c d)-\u003e(d-\u003eIO e-\u003eIO e)-\u003eIO e-\u003eIO e",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "Internal",
           "package": "logicst",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic Internal",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "Internal",
           "package": "logicst",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "LogicT",
           "package": "logicst",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic Internal",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "LogicT",
           "package": "logicst",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "Ref",
           "package": "logicst",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic Internal",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "Ref",
           "package": "logicst",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "liftST",
           "package": "logicst",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic Internal",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "liftST",
           "normalized": "ST(World a)b-\u003ea b",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "modifyRef",
           "package": "logicst",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic Internal",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "modifyRef",
           "normalized": "Ref a b c-\u003e(c-\u003ec)-\u003eLogicT a b()",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "modifyRef'",
           "package": "logicst",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic Internal",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "modifyRef'",
           "normalized": "Ref a b c-\u003e(c-\u003ec)-\u003eLogicT a b()",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "newRef",
           "package": "logicst",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic Internal",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "newRef",
           "normalized": "a-\u003eLogicT b c(Ref b c a)",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "observeAllST",
           "package": "logicst",
@@ -348,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic Internal",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "observeAllST",
           "normalized": "(a b LogicT c(ST c)d)-\u003e[d]",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "observeAllT",
           "package": "logicst",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic Internal",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "observeAllT",
           "normalized": "(a b LogicT c d e)-\u003ed[e]",
@@ -387,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "observeManyST",
           "package": "logicst",
@@ -396,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic Internal",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "observeManyST",
           "normalized": "Int-\u003e(a b LogicT c(ST c)d)-\u003e[d]",
@@ -411,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "observeManyT",
           "package": "logicst",
@@ -420,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic Internal",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "observeManyT",
           "normalized": "Int-\u003e(a b LogicT c d e)-\u003ed[e]",
@@ -435,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "observeST",
           "package": "logicst",
@@ -444,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic Internal",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "observeST",
           "normalized": "(a b LogicT c(ST c)d)-\u003ed",
@@ -459,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "observeT",
           "package": "logicst",
@@ -468,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic Internal",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "observeT",
           "normalized": "(a b LogicT c d e)-\u003ed e",
@@ -482,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "readRef",
           "package": "logicst",
@@ -491,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic Internal",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "readRef",
           "normalized": "Ref a b c-\u003eLogicT a b c",
@@ -506,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "runLogicST",
           "package": "logicst",
@@ -515,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic Internal",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "runLogicST",
           "normalized": "(a b LogicT c(ST c)d)-\u003e(d-\u003ee-\u003ee)-\u003ee-\u003ee",
@@ -530,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "runLogicT",
           "package": "logicst",
@@ -539,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic Internal",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "runLogicT",
           "normalized": "(a b LogicT c d e)-\u003e(e-\u003ed f-\u003ed f)-\u003ed f-\u003ed f",
@@ -554,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "writeRef",
           "package": "logicst",
@@ -563,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic Internal",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic.Internal",
           "name": "writeRef",
           "normalized": "Ref a b c-\u003ec-\u003eLogicT a b()",
@@ -578,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic",
           "name": "Logic",
           "package": "logicst",
@@ -586,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic",
           "name": "Logic",
           "package": "logicst",
@@ -599,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic",
           "name": "LogicST",
           "package": "logicst",
@@ -607,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic",
           "name": "LogicST",
           "package": "logicst",
@@ -620,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic",
           "name": "liftST",
           "package": "logicst",
@@ -629,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic",
           "name": "liftST",
           "normalized": "ST a b-\u003eLogicST a b",
@@ -644,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic",
           "name": "observeAllST",
           "package": "logicst",
@@ -653,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic",
           "name": "observeAllST",
           "normalized": "(a b LogicST c d)-\u003e[d]",
@@ -668,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic",
           "name": "observeManyST",
           "package": "logicst",
@@ -677,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic",
           "name": "observeManyST",
           "normalized": "Int-\u003e(a b LogicST c d)-\u003e[d]",
@@ -692,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic",
           "name": "observeST",
           "package": "logicst",
@@ -701,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic",
           "name": "observeST",
           "normalized": "(a b LogicST c d)-\u003ed",
@@ -716,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Control.Monad.ST.Logic",
           "name": "runLogicST",
           "package": "logicst",
@@ -725,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Control Monad ST Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Control.Monad.ST.Logic",
           "name": "runLogicST",
           "normalized": "(a b LogicST c d)-\u003e(d-\u003ee-\u003ee)-\u003ee-\u003ee",
@@ -740,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Data.IORef.Logic",
           "name": "Logic",
           "package": "logicst",
@@ -748,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Data IORef Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Data.IORef.Logic",
           "name": "Logic",
           "package": "logicst",
@@ -761,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Data.IORef.Logic",
           "name": "IORef",
           "package": "logicst",
@@ -769,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Data IORef Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Data.IORef.Logic",
           "name": "IORef",
           "package": "logicst",
@@ -782,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Data.IORef.Logic",
           "name": "modifyIORef",
           "package": "logicst",
@@ -791,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Data IORef Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Data.IORef.Logic",
           "name": "modifyIORef",
           "normalized": "IORef a b-\u003e(b-\u003eb)-\u003eLogicIO a()",
@@ -806,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Data.IORef.Logic",
           "name": "modifyIORef'",
           "package": "logicst",
@@ -815,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Data IORef Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Data.IORef.Logic",
           "name": "modifyIORef'",
           "normalized": "IORef a b-\u003e(b-\u003eb)-\u003eLogicIO a()",
@@ -830,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Data.IORef.Logic",
           "name": "newIORef",
           "package": "logicst",
@@ -839,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Data IORef Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Data.IORef.Logic",
           "name": "newIORef",
           "normalized": "a-\u003eLogicIO b(IORef b a)",
@@ -854,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Data.IORef.Logic",
           "name": "readIORef",
           "package": "logicst",
@@ -863,6 +936,7 @@
         },
         "index": {
           "hierarchy": "Data IORef Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Data.IORef.Logic",
           "name": "readIORef",
           "normalized": "IORef a b-\u003eLogicIO a b",
@@ -878,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Data.IORef.Logic",
           "name": "writeIORef",
           "package": "logicst",
@@ -887,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Data IORef Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Data.IORef.Logic",
           "name": "writeIORef",
           "normalized": "IORef a b-\u003eb-\u003eLogicIO a()",
@@ -902,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Data.STRef.Logic",
           "name": "Logic",
           "package": "logicst",
@@ -910,6 +987,7 @@
         },
         "index": {
           "hierarchy": "Data STRef Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Data.STRef.Logic",
           "name": "Logic",
           "package": "logicst",
@@ -923,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Data.STRef.Logic",
           "name": "STRef",
           "package": "logicst",
@@ -931,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "Data STRef Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Data.STRef.Logic",
           "name": "STRef",
           "package": "logicst",
@@ -944,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Data.STRef.Logic",
           "name": "modifySTRef",
           "package": "logicst",
@@ -953,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "Data STRef Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Data.STRef.Logic",
           "name": "modifySTRef",
           "normalized": "STRef a b-\u003e(b-\u003eb)-\u003eLogicST a()",
@@ -968,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Data.STRef.Logic",
           "name": "modifySTRef'",
           "package": "logicst",
@@ -977,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "Data STRef Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Data.STRef.Logic",
           "name": "modifySTRef'",
           "normalized": "STRef a b-\u003e(b-\u003eb)-\u003eLogicST a()",
@@ -992,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Data.STRef.Logic",
           "name": "newSTRef",
           "package": "logicst",
@@ -1001,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Data STRef Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Data.STRef.Logic",
           "name": "newSTRef",
           "normalized": "a-\u003eLogicST b(STRef b a)",
@@ -1016,6 +1102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Data.STRef.Logic",
           "name": "readSTRef",
           "package": "logicst",
@@ -1025,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "Data STRef Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Data.STRef.Logic",
           "name": "readSTRef",
           "normalized": "STRef a b-\u003eLogicST a b",
@@ -1040,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:08 UTC 2014",
           "module": "Data.STRef.Logic",
           "name": "writeSTRef",
           "package": "logicst",
@@ -1049,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Data STRef Logic",
+          "indexed": "2014-03-11T19:12:08",
           "module": "Data.STRef.Logic",
           "name": "writeSTRef",
           "normalized": "STRef a b-\u003eb-\u003eLogicST a()",

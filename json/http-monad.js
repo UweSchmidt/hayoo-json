@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "http-monad"
+        "phrase": "http-monad",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Body",
           "name": "Body",
           "package": "http-monad",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Body",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Body",
           "name": "Body",
           "package": "http-monad",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Body",
           "name": "C",
           "package": "http-monad",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Body",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Body",
           "name": "C",
           "package": "http-monad",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Body",
           "name": "CharType",
           "package": "http-monad",
@@ -67,6 +72,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Body",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Body",
           "name": "CharType",
           "package": "http-monad",
@@ -80,6 +86,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Body",
           "name": "fromChar",
           "package": "http-monad",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Body",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Body",
           "name": "fromChar",
           "normalized": "Char-\u003ea",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Body",
           "name": "fromString",
           "package": "http-monad",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Body",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Body",
           "name": "fromString",
           "normalized": "String-\u003ea",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Body",
           "name": "isEmpty",
           "package": "http-monad",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Body",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Body",
           "name": "isEmpty",
           "normalized": "a-\u003eBool",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Body",
           "name": "isLineTerm",
           "package": "http-monad",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Body",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Body",
           "name": "isLineTerm",
           "normalized": "a-\u003eBool",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Body",
           "name": "toChar",
           "package": "http-monad",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Body",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Body",
           "name": "toChar",
           "normalized": "a-\u003eChar",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Body",
           "name": "toString",
           "package": "http-monad",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Body",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Body",
           "name": "toString",
           "normalized": "a-\u003eString",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvide the functionality of \u003ca\u003eNetwork.HTTP.Headers\u003c/a\u003e\nwith qualified identifier style.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "Header",
           "package": "http-monad",
@@ -234,6 +253,7 @@
         "index": {
           "description": "Provide the functionality of Network.HTTP.Headers with qualified identifier style",
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "Header",
           "package": "http-monad",
@@ -248,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eHasHeaders\u003c/code\u003e is a type class for types containing HTTP headers, allowing\n you to write overloaded header manipulation functions\n for both \u003ccode\u003eRequest\u003c/code\u003e and \u003ccode\u003eResponse\u003c/code\u003e data types, for instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HasHeaders",
           "package": "http-monad",
@@ -256,6 +277,7 @@
         "index": {
           "description": "HasHeaders is type class for types containing HTTP headers allowing you to write overloaded header manipulation functions for both Request and Response data types for instance",
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HasHeaders",
           "package": "http-monad",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eHeader\u003c/code\u003e data type pairs header names & values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "Header",
           "package": "http-monad",
@@ -278,6 +301,7 @@
         "index": {
           "description": "The Header data type pairs header names values",
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "Header",
           "package": "http-monad",
@@ -292,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP \u003ccode\u003eHeaderName\u003c/code\u003e type, a Haskell data constructor for each\n specification-defined header, prefixed with \u003ccode\u003eHdr\u003c/code\u003e and CamelCased,\n (i.e., eliding the \u003ccode\u003e-\u003c/code\u003e in the process.) Should you require using\n a custom header, there's the \u003ccode\u003eHdrCustom\u003c/code\u003e constructor which takes\n a \u003ccode\u003eString\u003c/code\u003e argument.\n\u003c/p\u003e\u003cp\u003eEncoding HTTP header names differently, as Strings perhaps, is an\n equally fine choice..no decidedly clear winner, but let's stick\n with data constructors here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HeaderName",
           "package": "http-monad",
@@ -300,6 +325,7 @@
         "index": {
           "description": "HTTP HeaderName type Haskell data constructor for each specification-defined header prefixed with Hdr and CamelCased i.e eliding the in the process Should you require using custom header there the HdrCustom constructor which takes String argument Encoding HTTP header names differently as Strings perhaps is an equally fine choice..no decidedly clear winner but let stick with data constructors here",
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HeaderName",
           "package": "http-monad",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "Name",
           "package": "http-monad",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "Name",
           "package": "http-monad",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "T",
           "package": "http-monad",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "T",
           "package": "http-monad",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrAccept",
           "package": "http-monad",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrAccept",
           "package": "http-monad",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrAcceptCharset",
           "package": "http-monad",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrAcceptCharset",
           "package": "http-monad",
@@ -396,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrAcceptEncoding",
           "package": "http-monad",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrAcceptEncoding",
           "package": "http-monad",
@@ -417,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrAcceptLanguage",
           "package": "http-monad",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrAcceptLanguage",
           "package": "http-monad",
@@ -438,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrAge",
           "package": "http-monad",
@@ -446,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrAge",
           "package": "http-monad",
@@ -459,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrAllow",
           "package": "http-monad",
@@ -467,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrAllow",
           "package": "http-monad",
@@ -480,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrAuthorization",
           "package": "http-monad",
@@ -488,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrAuthorization",
           "package": "http-monad",
@@ -501,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrCacheControl",
           "package": "http-monad",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrCacheControl",
           "package": "http-monad",
@@ -522,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrConnection",
           "package": "http-monad",
@@ -530,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrConnection",
           "package": "http-monad",
@@ -543,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrContentBase",
           "package": "http-monad",
@@ -551,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrContentBase",
           "package": "http-monad",
@@ -564,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrContentEncoding",
           "package": "http-monad",
@@ -572,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrContentEncoding",
           "package": "http-monad",
@@ -585,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrContentLanguage",
           "package": "http-monad",
@@ -593,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrContentLanguage",
           "package": "http-monad",
@@ -606,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrContentLength",
           "package": "http-monad",
@@ -614,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrContentLength",
           "package": "http-monad",
@@ -627,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrContentLocation",
           "package": "http-monad",
@@ -635,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrContentLocation",
           "package": "http-monad",
@@ -648,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrContentMD5",
           "package": "http-monad",
@@ -656,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrContentMD5",
           "package": "http-monad",
@@ -669,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrContentRange",
           "package": "http-monad",
@@ -677,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrContentRange",
           "package": "http-monad",
@@ -691,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMIME entity headers (for sub-parts)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrContentTransferEncoding",
           "package": "http-monad",
@@ -700,6 +763,7 @@
         "index": {
           "description": "MIME entity headers for sub-parts",
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrContentTransferEncoding",
           "package": "http-monad",
@@ -713,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrContentType",
           "package": "http-monad",
@@ -721,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrContentType",
           "package": "http-monad",
@@ -734,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrCookie",
           "package": "http-monad",
@@ -742,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrCookie",
           "package": "http-monad",
@@ -756,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows for unrecognised or experimental headers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrCustom",
           "package": "http-monad",
@@ -765,6 +834,7 @@
         "index": {
           "description": "Allows for unrecognised or experimental headers",
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrCustom",
           "package": "http-monad",
@@ -778,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrDate",
           "package": "http-monad",
@@ -786,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrDate",
           "package": "http-monad",
@@ -799,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrETag",
           "package": "http-monad",
@@ -807,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrETag",
           "package": "http-monad",
@@ -820,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrExpect",
           "package": "http-monad",
@@ -828,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrExpect",
           "package": "http-monad",
@@ -841,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrExpires",
           "package": "http-monad",
@@ -849,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrExpires",
           "package": "http-monad",
@@ -862,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrFrom",
           "package": "http-monad",
@@ -870,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrFrom",
           "package": "http-monad",
@@ -883,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrHost",
           "package": "http-monad",
@@ -891,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrHost",
           "package": "http-monad",
@@ -904,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrIfMatch",
           "package": "http-monad",
@@ -912,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrIfMatch",
           "package": "http-monad",
@@ -925,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrIfModifiedSince",
           "package": "http-monad",
@@ -933,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrIfModifiedSince",
           "package": "http-monad",
@@ -946,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrIfNoneMatch",
           "package": "http-monad",
@@ -954,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrIfNoneMatch",
           "package": "http-monad",
@@ -967,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrIfRange",
           "package": "http-monad",
@@ -975,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrIfRange",
           "package": "http-monad",
@@ -988,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrIfUnmodifiedSince",
           "package": "http-monad",
@@ -996,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrIfUnmodifiedSince",
           "package": "http-monad",
@@ -1009,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrLastModified",
           "package": "http-monad",
@@ -1017,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrLastModified",
           "package": "http-monad",
@@ -1030,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrLocation",
           "package": "http-monad",
@@ -1038,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrLocation",
           "package": "http-monad",
@@ -1051,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrMaxForwards",
           "package": "http-monad",
@@ -1059,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrMaxForwards",
           "package": "http-monad",
@@ -1072,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrPragma",
           "package": "http-monad",
@@ -1080,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrPragma",
           "package": "http-monad",
@@ -1093,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrProxyAuthenticate",
           "package": "http-monad",
@@ -1101,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrProxyAuthenticate",
           "package": "http-monad",
@@ -1114,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrProxyAuthorization",
           "package": "http-monad",
@@ -1122,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrProxyAuthorization",
           "package": "http-monad",
@@ -1135,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrPublic",
           "package": "http-monad",
@@ -1143,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrPublic",
           "package": "http-monad",
@@ -1156,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrRange",
           "package": "http-monad",
@@ -1164,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrRange",
           "package": "http-monad",
@@ -1177,6 +1285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrReferer",
           "package": "http-monad",
@@ -1185,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrReferer",
           "package": "http-monad",
@@ -1198,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrRetryAfter",
           "package": "http-monad",
@@ -1206,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrRetryAfter",
           "package": "http-monad",
@@ -1219,6 +1331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrServer",
           "package": "http-monad",
@@ -1227,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrServer",
           "package": "http-monad",
@@ -1240,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrSetCookie",
           "package": "http-monad",
@@ -1248,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrSetCookie",
           "package": "http-monad",
@@ -1261,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrTE",
           "package": "http-monad",
@@ -1269,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrTE",
           "package": "http-monad",
@@ -1282,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrTrailer",
           "package": "http-monad",
@@ -1290,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrTrailer",
           "package": "http-monad",
@@ -1303,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrTransferEncoding",
           "package": "http-monad",
@@ -1311,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrTransferEncoding",
           "package": "http-monad",
@@ -1324,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrUpgrade",
           "package": "http-monad",
@@ -1332,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrUpgrade",
           "package": "http-monad",
@@ -1345,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrUserAgent",
           "package": "http-monad",
@@ -1353,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrUserAgent",
           "package": "http-monad",
@@ -1366,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrVary",
           "package": "http-monad",
@@ -1374,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrVary",
           "package": "http-monad",
@@ -1387,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrVia",
           "package": "http-monad",
@@ -1395,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrVia",
           "package": "http-monad",
@@ -1408,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrWWWAuthenticate",
           "package": "http-monad",
@@ -1416,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrWWWAuthenticate",
           "package": "http-monad",
@@ -1429,6 +1561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrWarning",
           "package": "http-monad",
@@ -1437,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "HdrWarning",
           "package": "http-monad",
@@ -1450,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "Header",
           "package": "http-monad",
@@ -1458,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "Header",
           "package": "http-monad",
@@ -1471,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "cons",
           "package": "http-monad",
@@ -1480,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "cons",
           "normalized": "Name-\u003eString-\u003eT",
@@ -1494,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "consName",
           "package": "http-monad",
@@ -1503,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "consName",
           "normalized": "String-\u003eName",
@@ -1518,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "dictionary",
           "package": "http-monad",
@@ -1527,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "dictionary",
           "package": "http-monad",
@@ -1540,6 +1682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup presence of specific Name in a list of Headers\n Returns the value from the first matching header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "find",
           "package": "http-monad",
@@ -1550,6 +1693,7 @@
         "index": {
           "description": "Lookup presence of specific Name in list of Headers Returns the value from the first matching header",
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "find",
           "normalized": "Name-\u003ea-\u003eMaybe String",
@@ -1564,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "findMany",
           "package": "http-monad",
@@ -1573,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "findMany",
           "normalized": "Name-\u003ea-\u003e[String]",
@@ -1588,6 +1734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "getHeaders",
           "package": "http-monad",
@@ -1596,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "getHeaders",
           "normalized": "a-\u003e[Header]",
@@ -1611,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "getMany",
           "package": "http-monad",
@@ -1620,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "getMany",
           "normalized": "a-\u003e[T]",
@@ -1635,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "getName",
           "package": "http-monad",
@@ -1644,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "getName",
           "normalized": "T-\u003eName",
@@ -1659,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "getValue",
           "package": "http-monad",
@@ -1668,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "getValue",
           "normalized": "T-\u003eString",
@@ -1684,6 +1838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts a header with the given name and value.\n Allows duplicate header names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "insert",
           "package": "http-monad",
@@ -1694,6 +1849,7 @@
         "index": {
           "description": "Inserts header with the given name and value Allows duplicate header names",
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "insert",
           "normalized": "Name-\u003eString-\u003ea-\u003ea",
@@ -1709,6 +1865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds the new header only if no previous header shares\n the same name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "insertIfMissing",
           "package": "http-monad",
@@ -1719,6 +1876,7 @@
         "index": {
           "description": "Adds the new header only if no previous header shares the same name",
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "insertIfMissing",
           "normalized": "Name-\u003eString-\u003ea-\u003ea",
@@ -1735,6 +1893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts multiple headers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "insertMany",
           "package": "http-monad",
@@ -1745,6 +1904,7 @@
         "index": {
           "description": "Inserts multiple headers",
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "insertMany",
           "normalized": "[T]-\u003ea-\u003ea",
@@ -1761,6 +1921,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Call \u003ccode\u003e\u003ca\u003efind\u003c/a\u003e\u003c/code\u003e using the [Header] instance of HasHeaders\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "lookup",
           "package": "http-monad",
@@ -1771,6 +1932,7 @@
         "index": {
           "description": "Deprecated Call find using the Header instance of HasHeaders",
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "lookup",
           "normalized": "Name-\u003e[T]-\u003eMaybe String",
@@ -1785,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "matchName",
           "package": "http-monad",
@@ -1794,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "matchName",
           "normalized": "Name-\u003eT-\u003eBool",
@@ -1809,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "modifyMany",
           "package": "http-monad",
@@ -1818,6 +1983,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "modifyMany",
           "normalized": "([T]-\u003e[T])-\u003ea-\u003ea",
@@ -1833,6 +1999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "parse",
           "package": "http-monad",
@@ -1842,6 +2009,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "parse",
           "normalized": "String-\u003eExceptional String T",
@@ -1856,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "parseManyStraight",
           "package": "http-monad",
@@ -1865,6 +2034,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "parseManyStraight",
           "normalized": "[String]-\u003e[T]",
@@ -1880,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "parseManyWarn",
           "package": "http-monad",
@@ -1889,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "parseManyWarn",
           "normalized": "[String]-\u003e[Exceptional String T]",
@@ -1905,6 +2077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves old headers with duplicate name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "replace",
           "package": "http-monad",
@@ -1915,6 +2088,7 @@
         "index": {
           "description": "Removes old headers with duplicate name",
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "replace",
           "normalized": "Name-\u003eString-\u003ea-\u003ea",
@@ -1930,6 +2104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets a list of headers with a particular \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "retrieveMany",
           "package": "http-monad",
@@ -1940,6 +2115,7 @@
         "index": {
           "description": "Gets list of headers with particular Name",
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "retrieveMany",
           "normalized": "Name-\u003ea-\u003e[T]",
@@ -1955,6 +2131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "setHeaders",
           "package": "http-monad",
@@ -1963,6 +2140,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "setHeaders",
           "normalized": "a-\u003e[Header]-\u003ea",
@@ -1978,6 +2156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP.Header",
           "name": "setMany",
           "package": "http-monad",
@@ -1987,6 +2166,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP Header",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP.Header",
           "name": "setMany",
           "normalized": "a-\u003e[T]-\u003ea",
@@ -2002,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP",
           "name": "HTTP",
           "package": "http-monad",
@@ -2010,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP",
           "name": "HTTP",
           "package": "http-monad",
@@ -2024,6 +2206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceive and parse a HTTP request from the given Stream.\nShould be used for server side interactions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP",
           "name": "receive",
           "package": "http-monad",
@@ -2034,6 +2217,7 @@
         "index": {
           "description": "Receive and parse HTTP request from the given Stream Should be used for server side interactions",
           "hierarchy": "Network Monad HTTP",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP",
           "name": "receive",
           "package": "http-monad",
@@ -2047,6 +2231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVery simple function, send a HTTP response over the given stream.\nThis could be improved on to use different transfer types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP",
           "name": "respond",
           "package": "http-monad",
@@ -2057,6 +2242,7 @@
         "index": {
           "description": "Very simple function send HTTP response over the given stream This could be improved on to use different transfer types",
           "hierarchy": "Network Monad HTTP",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP",
           "name": "respond",
           "normalized": "Response a-\u003eSynchronousExceptional a b()",
@@ -2071,6 +2257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.HTTP",
           "name": "send",
           "package": "http-monad",
@@ -2080,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "Network Monad HTTP",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.HTTP",
           "name": "send",
           "normalized": "Request a-\u003eSynchronousExceptional a b(Exceptional ConnError(Bool,Response a))",
@@ -2095,6 +2283,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvide the explicit class dictionary as context via a Reader monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Reader",
           "name": "Reader",
           "package": "http-monad",
@@ -2104,6 +2293,7 @@
         "index": {
           "description": "Provide the explicit class dictionary as context via Reader monad",
           "hierarchy": "Network Monad Reader",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Reader",
           "name": "Reader",
           "package": "http-monad",
@@ -2117,6 +2307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Reader",
           "name": "AsyncExceptional",
           "package": "http-monad",
@@ -2125,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Reader",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Reader",
           "name": "AsyncExceptional",
           "package": "http-monad",
@@ -2138,6 +2330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Reader",
           "name": "SyncExceptional",
           "package": "http-monad",
@@ -2146,6 +2339,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Reader",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Reader",
           "name": "SyncExceptional",
           "package": "http-monad",
@@ -2159,6 +2353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Reader",
           "name": "T",
           "package": "http-monad",
@@ -2167,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Reader",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Reader",
           "name": "T",
           "package": "http-monad",
@@ -2179,6 +2375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Reader",
           "name": "readBlock",
           "package": "http-monad",
@@ -2188,6 +2385,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Reader",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Reader",
           "name": "readBlock",
           "normalized": "Int-\u003eAsyncExceptional a b a",
@@ -2203,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Reader",
           "name": "readLine",
           "package": "http-monad",
@@ -2212,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Reader",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Reader",
           "name": "readLine",
           "package": "http-monad",
@@ -2225,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Reader",
           "name": "writeBlock",
           "package": "http-monad",
@@ -2234,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Reader",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Reader",
           "name": "writeBlock",
           "normalized": "a-\u003eSyncExceptional a b()",
@@ -2249,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer.ChunkyLazyIO",
           "name": "ChunkyLazyIO",
           "package": "http-monad",
@@ -2257,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer ChunkyLazyIO",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer.ChunkyLazyIO",
           "name": "ChunkyLazyIO",
           "package": "http-monad",
@@ -2270,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer.ChunkyLazyIO",
           "name": "Body",
           "package": "http-monad",
@@ -2278,6 +2483,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer ChunkyLazyIO",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer.ChunkyLazyIO",
           "name": "Body",
           "package": "http-monad",
@@ -2291,6 +2497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer.ChunkyLazyIO",
           "name": "length",
           "package": "http-monad",
@@ -2300,6 +2507,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer ChunkyLazyIO",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer.ChunkyLazyIO",
           "name": "length",
           "normalized": "a-\u003eInt",
@@ -2314,6 +2522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer.ChunkyLazyIO",
           "name": "run",
           "package": "http-monad",
@@ -2322,6 +2531,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer ChunkyLazyIO",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer.ChunkyLazyIO",
           "name": "run",
           "normalized": "T a T b-\u003eInt-\u003eHandleStream a-\u003eIO b",
@@ -2336,6 +2546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer.ChunkyLazyIO",
           "name": "transfer",
           "package": "http-monad",
@@ -2344,6 +2555,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer ChunkyLazyIO",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer.ChunkyLazyIO",
           "name": "transfer",
           "normalized": "Int-\u003eHandleStream a-\u003eT T a",
@@ -2358,6 +2570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer.IO",
           "name": "IO",
           "package": "http-monad",
@@ -2366,6 +2579,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer IO",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer.IO",
           "name": "IO",
           "package": "http-monad",
@@ -2379,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer.IO",
           "name": "run",
           "package": "http-monad",
@@ -2388,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer IO",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer.IO",
           "name": "run",
           "normalized": "T a b c-\u003eHandleStream a-\u003eb c",
@@ -2402,6 +2618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer.IO",
           "name": "transfer",
           "package": "http-monad",
@@ -2411,6 +2628,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer IO",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer.IO",
           "name": "transfer",
           "normalized": "HandleStream a-\u003eT b a",
@@ -2426,6 +2644,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTransfer type without IO interaction.\nOptimal for testing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer.Offline",
           "name": "Offline",
           "package": "http-monad",
@@ -2435,6 +2654,7 @@
         "index": {
           "description": "Transfer type without IO interaction Optimal for testing",
           "hierarchy": "Network Monad Transfer Offline",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer.Offline",
           "name": "Offline",
           "package": "http-monad",
@@ -2448,6 +2668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer.Offline",
           "name": "Body",
           "package": "http-monad",
@@ -2456,6 +2677,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer Offline",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer.Offline",
           "name": "Body",
           "package": "http-monad",
@@ -2469,6 +2691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer.Offline",
           "name": "T",
           "package": "http-monad",
@@ -2477,6 +2700,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer Offline",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer.Offline",
           "name": "T",
           "package": "http-monad",
@@ -2489,6 +2713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer.Offline",
           "name": "breakAfter",
           "package": "http-monad",
@@ -2498,6 +2723,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer Offline",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer.Offline",
           "name": "breakAfter",
           "normalized": "(Char-\u003eBool)-\u003ea-\u003e(a,a)",
@@ -2513,6 +2739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer.Offline",
           "name": "run",
           "package": "http-monad",
@@ -2522,6 +2749,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer Offline",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer.Offline",
           "name": "run",
           "normalized": "T a(T a)b-\u003eConnError-\u003ea-\u003e(b,a,[a])",
@@ -2536,6 +2764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer.Offline",
           "name": "splitAt",
           "package": "http-monad",
@@ -2545,6 +2774,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer Offline",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer.Offline",
           "name": "splitAt",
           "normalized": "Int-\u003ea-\u003e(a,a)",
@@ -2560,6 +2790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer.Offline",
           "name": "transfer",
           "package": "http-monad",
@@ -2569,6 +2800,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer Offline",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer.Offline",
           "name": "transfer",
           "package": "http-monad",
@@ -2581,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer.Offline",
           "name": "withBuffer",
           "package": "http-monad",
@@ -2590,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer Offline",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer.Offline",
           "name": "withBuffer",
           "normalized": "(a-\u003e(b,a))-\u003eAsyncExceptional(T a)b",
@@ -2606,6 +2840,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWith this monad we abstract from the IO monad,\nwhich also allows us to process data lazily or offline.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer",
           "name": "Transfer",
           "package": "http-monad",
@@ -2615,6 +2850,7 @@
         "index": {
           "description": "With this monad we abstract from the IO monad which also allows us to process data lazily or offline",
           "hierarchy": "Network Monad Transfer",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer",
           "name": "Transfer",
           "package": "http-monad",
@@ -2628,6 +2864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer",
           "name": "AsyncExceptional",
           "package": "http-monad",
@@ -2636,6 +2873,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer",
           "name": "AsyncExceptional",
           "package": "http-monad",
@@ -2649,6 +2887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer",
           "name": "SyncExceptional",
           "package": "http-monad",
@@ -2657,6 +2896,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer",
           "name": "SyncExceptional",
           "package": "http-monad",
@@ -2670,6 +2910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer",
           "name": "T",
           "package": "http-monad",
@@ -2678,6 +2919,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer",
           "name": "T",
           "package": "http-monad",
@@ -2690,6 +2932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer",
           "name": "Cons",
           "package": "http-monad",
@@ -2699,6 +2942,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer",
           "name": "Cons",
           "package": "http-monad",
@@ -2712,6 +2956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer",
           "name": "liftAsync",
           "package": "http-monad",
@@ -2721,6 +2966,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer",
           "name": "liftAsync",
           "normalized": "a(Result b)-\u003eAsyncExceptional a b",
@@ -2736,6 +2982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer",
           "name": "liftIOAsync",
           "package": "http-monad",
@@ -2745,6 +2992,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer",
           "name": "liftIOAsync",
           "normalized": "IO(Result a)-\u003eAsyncExceptional b a",
@@ -2760,6 +3008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer",
           "name": "liftIOSync",
           "package": "http-monad",
@@ -2769,6 +3018,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer",
           "name": "liftIOSync",
           "normalized": "IO(Result a)-\u003eSyncExceptional b a",
@@ -2784,6 +3034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer",
           "name": "liftSync",
           "package": "http-monad",
@@ -2793,6 +3044,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer",
           "name": "liftSync",
           "normalized": "a(Result b)-\u003eSyncExceptional a b",
@@ -2808,6 +3060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer",
           "name": "readBlock",
           "package": "http-monad",
@@ -2817,6 +3070,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer",
           "name": "readBlock",
           "normalized": "Int-\u003eAsyncExceptional a b",
@@ -2832,6 +3086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer",
           "name": "readLine",
           "package": "http-monad",
@@ -2841,6 +3096,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer",
           "name": "readLine",
           "package": "http-monad",
@@ -2854,6 +3110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:47 UTC 2014",
           "module": "Network.Monad.Transfer",
           "name": "writeBlock",
           "package": "http-monad",
@@ -2863,6 +3120,7 @@
         },
         "index": {
           "hierarchy": "Network Monad Transfer",
+          "indexed": "2014-03-11T18:52:47",
           "module": "Network.Monad.Transfer",
           "name": "writeBlock",
           "normalized": "a-\u003eSyncExceptional b()",

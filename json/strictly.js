@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "strictly"
+        "phrase": "strictly",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTurn a function lazy in its arguments\n into a function strict in its arguments.\n\u003c/p\u003e\u003cp\u003eIt should be noted that this does nothing to change\n the internals of a function. If the function is lazy\n on the inside, these combinators cannot fix that.\n They only change the external entry point to the function:\n the indicated number of arguments will be forced\n before attempting to evaluate the function.\n\u003c/p\u003e\u003cp\u003eFor finer control over evaluation strategies,\n use the \u003ccode\u003eparallel\u003c/code\u003e package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:28 UTC 2014",
           "module": "Control.Strictly",
           "name": "Strictly",
           "package": "strictly",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Turn function lazy in its arguments into function strict in its arguments It should be noted that this does nothing to change the internals of function If the function is lazy on the inside these combinators cannot fix that They only change the external entry point to the function the indicated number of arguments will be forced before attempting to evaluate the function For finer control over evaluation strategies use the parallel package",
           "hierarchy": "Control Strictly",
+          "indexed": "2014-03-11T20:12:28",
           "module": "Control.Strictly",
           "name": "Strictly",
           "package": "strictly",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003e$!\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003estrictly1\u003c/code\u003e is idempotent.\n\u003c/p\u003e\u003cpre\u003e strictly1 (strictly1 f) x &#8801; strictly1 f x\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:12:28 UTC 2014",
           "module": "Control.Strictly",
           "name": "strictly1",
           "package": "strictly",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Equivalent to strictly1 is idempotent strictly1 strictly1 strictly1",
           "hierarchy": "Control Strictly",
+          "indexed": "2014-03-11T20:12:28",
           "module": "Control.Strictly",
           "name": "strictly1",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -66,6 +70,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:28 UTC 2014",
           "module": "Control.Strictly",
           "name": "strictly2",
           "package": "strictly",
@@ -75,6 +80,7 @@
         },
         "index": {
           "hierarchy": "Control Strictly",
+          "indexed": "2014-03-11T20:12:28",
           "module": "Control.Strictly",
           "name": "strictly2",
           "normalized": "(a-\u003eb-\u003ec)-\u003ea-\u003eb-\u003ec",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:28 UTC 2014",
           "module": "Control.Strictly",
           "name": "strictly3",
           "package": "strictly",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Control Strictly",
+          "indexed": "2014-03-11T20:12:28",
           "module": "Control.Strictly",
           "name": "strictly3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003ea-\u003eb-\u003ec-\u003ed",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003e$!!\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003everyStrictly1\u003c/code\u003e is idempotent.\n\u003c/p\u003e\u003cpre\u003e veryStrictly1 (veryStrictly1 f) x &#8801; veryStrictly1 f x\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:12:28 UTC 2014",
           "module": "Control.Strictly",
           "name": "veryStrictly1",
           "package": "strictly",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Equivalent to veryStrictly1 is idempotent veryStrictly1 veryStrictly1 veryStrictly1",
           "hierarchy": "Control Strictly",
+          "indexed": "2014-03-11T20:12:28",
           "module": "Control.Strictly",
           "name": "veryStrictly1",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -138,6 +148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:28 UTC 2014",
           "module": "Control.Strictly",
           "name": "veryStrictly2",
           "package": "strictly",
@@ -147,6 +158,7 @@
         },
         "index": {
           "hierarchy": "Control Strictly",
+          "indexed": "2014-03-11T20:12:28",
           "module": "Control.Strictly",
           "name": "veryStrictly2",
           "normalized": "(a-\u003eb-\u003ec)-\u003ea-\u003eb-\u003ec",
@@ -162,6 +174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:28 UTC 2014",
           "module": "Control.Strictly",
           "name": "veryStrictly3",
           "package": "strictly",
@@ -171,6 +184,7 @@
         },
         "index": {
           "hierarchy": "Control Strictly",
+          "indexed": "2014-03-11T20:12:28",
           "module": "Control.Strictly",
           "name": "veryStrictly3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003ea-\u003eb-\u003ec-\u003ed",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Javasf"
+        "phrase": "Javasf",
+        "type": "phrase"
       },
       "type": "context"
     }

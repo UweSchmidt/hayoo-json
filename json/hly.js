@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hly"
+        "phrase": "hly",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "Analysis",
           "package": "hly",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "Analysis",
           "package": "hly",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocated music\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "LM",
           "package": "hly",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Located music",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "LM",
           "package": "hly",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocated value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "LV",
           "package": "hly",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Located value",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "LV",
           "package": "hly",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "Locate_Mode",
           "package": "hly",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "Locate_Mode",
           "package": "hly",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType to thread state through location calculations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "Locate_ST",
           "package": "hly",
@@ -116,6 +125,7 @@
         "index": {
           "description": "Type to thread state through location calculations",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "Locate_ST",
           "package": "hly",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type representing the location of a musical element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "Location",
           "package": "hly",
@@ -139,6 +150,7 @@
         "index": {
           "description": "Data type representing the location of musical element",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "Location",
           "package": "hly",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "Measure",
           "package": "hly",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "Measure",
           "package": "hly",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "Part_ID",
           "package": "hly",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "Part_ID",
           "package": "hly",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "Pulse",
           "package": "hly",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "Pulse",
           "package": "hly",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "ST_f",
           "package": "hly",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "ST_f",
           "package": "hly",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "ST_r",
           "package": "hly",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "ST_r",
           "package": "hly",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "Tempo_Marking_Map",
           "package": "hly",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "Tempo_Marking_Map",
           "package": "hly",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "Temporal_Map",
           "package": "hly",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "Temporal_Map",
           "package": "hly",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "Time_Signature_Map",
           "package": "hly",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "Time_Signature_Map",
           "package": "hly",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "LM_In_Tuplet",
           "package": "hly",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "LM_In_Tuplet",
           "package": "hly",
@@ -342,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "LM_Normal",
           "package": "hly",
@@ -351,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "LM_Normal",
           "package": "hly",
@@ -364,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "Location",
           "package": "hly",
@@ -373,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "Location",
           "package": "hly",
@@ -386,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "collation_unfold",
           "package": "hly",
@@ -395,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "collation_unfold",
           "normalized": "[(Integer,a)]-\u003e[Maybe a]",
@@ -410,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect all elements of a given type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "collect_entries",
           "package": "hly",
@@ -420,6 +457,7 @@
         "index": {
           "description": "Collect all elements of given type",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "collect_entries",
           "normalized": "(Music-\u003eBool)-\u003eMusic-\u003e[Music]",
@@ -435,6 +473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect pitches from a note, chord, or grace note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "collect_pitches",
           "package": "hly",
@@ -445,6 +484,7 @@
         "index": {
           "description": "Collect pitches from note chord or grace note",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "collect_pitches",
           "normalized": "Music-\u003e[Pitch]",
@@ -460,6 +500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect pitches from a note or chord or join of such.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "collect_pitches_no_grace",
           "package": "hly",
@@ -470,6 +511,7 @@
         "index": {
           "description": "Collect pitches from note or chord or join of such",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "collect_pitches_no_grace",
           "normalized": "Music-\u003e[Pitch]",
@@ -484,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "count_chords",
           "package": "hly",
@@ -493,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "count_chords",
           "normalized": "Music-\u003eInteger",
@@ -507,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "count_entries",
           "package": "hly",
@@ -516,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "count_entries",
           "normalized": "(Music-\u003eBool)-\u003eMusic-\u003eInteger",
@@ -530,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "count_notes",
           "package": "hly",
@@ -539,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "count_notes",
           "normalized": "Music-\u003eInteger",
@@ -553,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "count_ts",
           "package": "hly",
@@ -562,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "count_ts",
           "normalized": "Music-\u003eInteger",
@@ -576,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "discard_tied_notes",
           "package": "hly",
@@ -585,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "discard_tied_notes",
           "normalized": "[Music]-\u003e[Music]",
@@ -599,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "discard_tied_notes_pr",
           "package": "hly",
@@ -608,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "discard_tied_notes_pr",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -622,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "freq_anal",
           "package": "hly",
@@ -631,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "freq_anal",
           "normalized": "[a]-\u003e[(Int,a)]",
@@ -645,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "freq_anal_by",
           "package": "hly",
@@ -654,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "freq_anal_by",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003e[a]-\u003e[(Int,a)]",
@@ -669,6 +727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes music element contain one or more pitches?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "has_pitch",
           "package": "hly",
@@ -679,6 +738,7 @@
         "index": {
           "description": "Does music element contain one or more pitches",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "has_pitch",
           "normalized": "Music-\u003eBool",
@@ -694,6 +754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserts a value after each note as indicated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "insert_after_notes",
           "package": "hly",
@@ -704,6 +765,7 @@
         "index": {
           "description": "Inserts value after each note as indicated",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "insert_after_notes",
           "normalized": "[Maybe Music]-\u003eMusic-\u003eMusic",
@@ -718,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "insert_after_notes_fn",
           "package": "hly",
@@ -727,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "insert_after_notes_fn",
           "normalized": "[Maybe Music]-\u003eMusic-\u003e([Maybe Music],Music)",
@@ -741,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "integrate",
           "package": "hly",
@@ -750,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "integrate",
           "normalized": "[a]-\u003e[a]",
@@ -764,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "kv_collate",
           "package": "hly",
@@ -773,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "kv_collate",
           "normalized": "(a-\u003eb)-\u003e(a-\u003ec)-\u003e[a]-\u003e[(b,[c])]",
@@ -787,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "kv_collate'",
           "package": "hly",
@@ -796,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "kv_collate'",
           "normalized": "[(a,b)]-\u003e[(a,[b])]",
@@ -811,6 +881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter with predicates at key and value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "kv_filter",
           "package": "hly",
@@ -821,6 +892,7 @@
         "index": {
           "description": "Filter with predicates at key and value",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "kv_filter",
           "normalized": "(a-\u003eBool)-\u003e(b-\u003eBool)-\u003e[(a,b)]-\u003e[(a,b)]",
@@ -835,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "kv_group_by",
           "package": "hly",
@@ -844,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "kv_group_by",
           "normalized": "(a-\u003eb)-\u003e[(a,c)]-\u003e[[(a,c)]]",
@@ -859,6 +933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply functions to keys and values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "kv_map",
           "package": "hly",
@@ -869,6 +944,7 @@
         "index": {
           "description": "Apply functions to keys and values",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "kv_map",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003e[(a,c)]-\u003e[(b,d)]",
@@ -883,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lm_discard_tied_notes",
           "package": "hly",
@@ -892,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lm_discard_tied_notes",
           "normalized": "[LM]-\u003e[LM]",
@@ -906,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lm_pcset",
           "package": "hly",
@@ -915,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lm_pcset",
           "normalized": "[LM]-\u003e[PitchClass]",
@@ -929,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lm_pcset_per_measure",
           "package": "hly",
@@ -938,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lm_pcset_per_measure",
           "normalized": "[LM]-\u003e[[PitchClass]]",
@@ -952,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lm_pitches",
           "package": "hly",
@@ -961,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lm_pitches",
           "normalized": "[LM]-\u003e[Pitch]",
@@ -975,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lm_pitches_per_measure",
           "package": "hly",
@@ -984,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lm_pitches_per_measure",
           "normalized": "[LM]-\u003e[[Pitch]]",
@@ -998,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lm_tempo_map",
           "package": "hly",
@@ -1007,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lm_tempo_map",
           "normalized": "[LM]-\u003e[(Measure,Tempo_Marking)]",
@@ -1021,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lm_ts_map",
           "package": "hly",
@@ -1030,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lm_ts_map",
           "normalized": "[LM]-\u003eTime_Signature_Map",
@@ -1044,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lm_unlocate",
           "package": "hly",
@@ -1053,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lm_unlocate",
           "normalized": "[LM]-\u003e[Music]",
@@ -1068,6 +1160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun location calculations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "locate",
           "package": "hly",
@@ -1078,6 +1171,7 @@
         "index": {
           "description": "Run location calculations",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "locate",
           "normalized": "Music-\u003e[LM]",
@@ -1092,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "locate'",
           "package": "hly",
@@ -1101,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "locate'",
           "normalized": "[Music]-\u003e[LM]",
@@ -1115,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "locate_rt",
           "package": "hly",
@@ -1124,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "locate_rt",
           "normalized": "[Music]-\u003e[(Rational,Music)]",
@@ -1139,6 +1237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState threading form of location calculations.\n   Currently, nested polyphonic parts generate duplicate IDs (?)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "locate_st",
           "package": "hly",
@@ -1149,6 +1248,7 @@
         "index": {
           "description": "State threading form of location calculations Currently nested polyphonic parts generate duplicate IDs",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "locate_st",
           "normalized": "Locate_ST-\u003eMusic-\u003e(Locate_ST,[LM])",
@@ -1163,6 +1263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "located_pitches",
           "package": "hly",
@@ -1172,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "located_pitches",
           "normalized": "[[Music]]-\u003e[(Location,[Pitch])]",
@@ -1187,6 +1289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a location to normal form under given time signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "location_nf",
           "package": "hly",
@@ -1197,6 +1300,7 @@
         "index": {
           "description": "Convert location to normal form under given time signature",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "location_nf",
           "normalized": "Time_Signature-\u003eLocation-\u003eLocation",
@@ -1212,6 +1316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStep location state by duration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "location_step",
           "package": "hly",
@@ -1222,6 +1327,7 @@
         "index": {
           "description": "Step location state by duration",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "location_step",
           "normalized": "Locate_ST-\u003eDuration-\u003eLocate_ST",
@@ -1236,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "location_time",
           "package": "hly",
@@ -1245,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "location_time",
           "normalized": "Location-\u003e(Measure,Pulse)",
@@ -1259,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "location_to_rt",
           "package": "hly",
@@ -1268,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "location_to_rt",
           "normalized": "[(Rational,Rational,Integer)]-\u003eLocation-\u003eRational",
@@ -1282,6 +1392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lv_extract_measure",
           "package": "hly",
@@ -1291,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lv_extract_measure",
           "normalized": "Measure-\u003e[LV a]-\u003e[LV a]",
@@ -1305,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lv_extract_part",
           "package": "hly",
@@ -1314,6 +1427,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lv_extract_part",
           "normalized": "Part_ID-\u003e[LV a]-\u003e[LV a]",
@@ -1329,6 +1443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop \u003ccode\u003en\u003c/code\u003e measures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lv_from_measure",
           "package": "hly",
@@ -1339,6 +1454,7 @@
         "index": {
           "description": "Drop measures",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lv_from_measure",
           "normalized": "Integer-\u003e[LV a]-\u003e[LV a]",
@@ -1353,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lv_group_measures",
           "package": "hly",
@@ -1362,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lv_group_measures",
           "normalized": "[LV a]-\u003e[[LV a]]",
@@ -1376,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lv_group_parts",
           "package": "hly",
@@ -1385,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lv_group_parts",
           "normalized": "[LV a]-\u003e[[LV a]]",
@@ -1399,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lv_last_measure",
           "package": "hly",
@@ -1408,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lv_last_measure",
           "normalized": "[LV a]-\u003eMeasure",
@@ -1423,6 +1545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract list of part identifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lv_located_parts",
           "package": "hly",
@@ -1433,6 +1556,7 @@
         "index": {
           "description": "Extract list of part identifiers",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lv_located_parts",
           "normalized": "[LV a]-\u003e[Part_ID]",
@@ -1447,6 +1571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lv_sort",
           "package": "hly",
@@ -1456,6 +1581,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "lv_sort",
           "normalized": "[LV a]-\u003e[LV a]",
@@ -1471,6 +1597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeys are in ascending order, the value retrieved is the that with\n   the greatest key less than or equal to the key requested.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "map_lookup",
           "package": "hly",
@@ -1481,6 +1608,7 @@
         "index": {
           "description": "Keys are in ascending order the value retrieved is the that with the greatest key less than or equal to the key requested",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "map_lookup",
           "normalized": "[(a,b)]-\u003ea-\u003eb",
@@ -1495,6 +1623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "measure",
           "package": "hly",
@@ -1504,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "measure",
           "package": "hly",
@@ -1516,6 +1646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "measure_collate",
           "package": "hly",
@@ -1525,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "measure_collate",
           "normalized": "(Music-\u003eBool)-\u003eMusic-\u003e[[(Integer,[Music])]]",
@@ -1539,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "measure_diff",
           "package": "hly",
@@ -1548,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "measure_diff",
           "normalized": "Location-\u003eLocation-\u003eInteger",
@@ -1563,6 +1697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn duration (in seconds) and pulse counts for n measures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "mm_durations",
           "package": "hly",
@@ -1573,6 +1708,7 @@
         "index": {
           "description": "Return duration in seconds and pulse counts for measures",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "mm_durations",
           "normalized": "Temporal_Map-\u003eInteger-\u003e[(Rational,Integer)]",
@@ -1588,6 +1724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn start time and duration (in seconds) and pulse counts for\n   i measures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "mm_start_times",
           "package": "hly",
@@ -1598,6 +1735,7 @@
         "index": {
           "description": "Return start time and duration in seconds and pulse counts for measures",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "mm_start_times",
           "normalized": "Temporal_Map-\u003eInteger-\u003e[(Rational,Rational,Integer)]",
@@ -1612,6 +1750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "mode",
           "package": "hly",
@@ -1621,6 +1760,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "mode",
           "package": "hly",
@@ -1633,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "normal_mode_p",
           "package": "hly",
@@ -1642,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "normal_mode_p",
           "normalized": "Location-\u003eBool",
@@ -1657,6 +1799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the pitch of note element n1 with that of n0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "note_replace_pitch",
           "package": "hly",
@@ -1667,6 +1810,7 @@
         "index": {
           "description": "Replace the pitch of note element n1 with that of n0",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "note_replace_pitch",
           "normalized": "Pitch-\u003eMusic-\u003eMusic",
@@ -1681,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "note_replace_pitch_m",
           "package": "hly",
@@ -1690,6 +1835,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "note_replace_pitch_m",
           "normalized": "Music-\u003eMusic-\u003eMusic",
@@ -1705,6 +1851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect note sequence, filters tied notes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "note_seq",
           "package": "hly",
@@ -1715,6 +1862,7 @@
         "index": {
           "description": "Collect note sequence filters tied notes",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "note_seq",
           "normalized": "Music-\u003e[Music]",
@@ -1729,6 +1877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "part",
           "package": "hly",
@@ -1738,6 +1887,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "part",
           "package": "hly",
@@ -1750,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "pulse",
           "package": "hly",
@@ -1759,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "pulse",
           "package": "hly",
@@ -1771,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "replace_notes",
           "package": "hly",
@@ -1780,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "replace_notes",
           "normalized": "[Music]-\u003eMusic-\u003eMusic",
@@ -1794,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "replace_notes_fn",
           "package": "hly",
@@ -1803,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "replace_notes_fn",
           "normalized": "(a-\u003ePitch)-\u003e[a]-\u003eMusic-\u003e([a],Music)",
@@ -1818,6 +1974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplaces notes with indicated pitches, rhythms and annotations\n   are not replaced.  Tied notes do not use multiple pitches from\n   the input sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "replace_notes_p",
           "package": "hly",
@@ -1828,6 +1985,7 @@
         "index": {
           "description": "Replaces notes with indicated pitches rhythms and annotations are not replaced Tied notes do not use multiple pitches from the input sequence",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "replace_notes_p",
           "normalized": "[Pitch]-\u003eMusic-\u003eMusic",
@@ -1842,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "spell_flat",
           "package": "hly",
@@ -1851,6 +2010,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "spell_flat",
           "normalized": "(Octave,PitchClass)-\u003eMusic",
@@ -1865,6 +2025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "spell_ks",
           "package": "hly",
@@ -1874,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "spell_ks",
           "normalized": "(Octave,PitchClass)-\u003eMusic",
@@ -1888,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "spell_sharp",
           "package": "hly",
@@ -1897,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "spell_sharp",
           "normalized": "(Octave,PitchClass)-\u003eMusic",
@@ -1912,6 +2076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate state part number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "st_set_mode",
           "package": "hly",
@@ -1922,6 +2087,7 @@
         "index": {
           "description": "Update state part number",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "st_set_mode",
           "normalized": "Locate_ST-\u003eLocate_Mode-\u003eLocate_ST",
@@ -1937,6 +2103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate state part number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "st_set_part",
           "package": "hly",
@@ -1947,6 +2114,7 @@
         "index": {
           "description": "Update state part number",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "st_set_part",
           "normalized": "Locate_ST-\u003ePart_ID-\u003eLocate_ST",
@@ -1961,6 +2129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "structure_unfold",
           "package": "hly",
@@ -1970,6 +2139,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "structure_unfold",
           "normalized": "[(a,b)]-\u003e[Maybe a]",
@@ -1984,6 +2154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "structure_unfold'",
           "package": "hly",
@@ -1993,6 +2164,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "structure_unfold'",
           "normalized": "[(a,b)]-\u003e[a]",
@@ -2007,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "tempo_lookup",
           "package": "hly",
@@ -2016,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "tempo_lookup",
           "normalized": "[(Measure,Tempo_Marking)]-\u003eMeasure-\u003eTempo_Marking",
@@ -2030,6 +2204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "tempo_map",
           "package": "hly",
@@ -2039,6 +2214,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "tempo_map",
           "normalized": "[Music]-\u003e[(Measure,Tempo_Marking)]",
@@ -2053,6 +2229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "temporal_map",
           "package": "hly",
@@ -2062,6 +2239,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "temporal_map",
           "normalized": "[Music]-\u003eTemporal_Map",
@@ -2076,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "time_unpack",
           "package": "hly",
@@ -2085,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "time_unpack",
           "normalized": "Music-\u003eTime_Signature",
@@ -2099,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "transform",
           "package": "hly",
@@ -2108,6 +2289,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "transform",
           "normalized": "(Music-\u003eMusic)-\u003eMusic-\u003eMusic",
@@ -2122,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "transform_st",
           "package": "hly",
@@ -2131,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "transform_st",
           "normalized": "ST_f a-\u003ea-\u003eMusic-\u003eST_r a",
@@ -2146,6 +2330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to all elements and collect results in a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "traverse",
           "package": "hly",
@@ -2156,6 +2341,7 @@
         "index": {
           "description": "Apply function to all elements and collect results in list",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "traverse",
           "normalized": "(Music-\u003ea)-\u003eMusic-\u003e[a]",
@@ -2170,6 +2356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "ts_lookup",
           "package": "hly",
@@ -2179,6 +2366,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "ts_lookup",
           "normalized": "[(Measure,Time_Signature)]-\u003eMeasure-\u003eTime_Signature",
@@ -2193,6 +2381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "ts_map",
           "package": "hly",
@@ -2202,6 +2391,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "ts_map",
           "normalized": "[Music]-\u003eTime_Signature_Map",
@@ -2217,6 +2407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime signature structure of music.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "ts_structure",
           "package": "hly",
@@ -2227,6 +2418,7 @@
         "index": {
           "description": "Time signature structure of music",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "ts_structure",
           "normalized": "Music-\u003e[[(Time_Signature,Integer)]]",
@@ -2241,6 +2433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "ts_structure'",
           "package": "hly",
@@ -2250,6 +2443,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "ts_structure'",
           "normalized": "[Music]-\u003e[[(Time_Signature,Integer)]]",
@@ -2264,6 +2458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "unlocate_p",
           "package": "hly",
@@ -2273,6 +2468,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "unlocate_p",
           "normalized": "Music-\u003eBool",
@@ -2287,6 +2483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "v_assert",
           "package": "hly",
@@ -2296,6 +2493,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "v_assert",
           "normalized": "String-\u003e(Music-\u003eBool)-\u003eMusic-\u003eMaybe String",
@@ -2311,6 +2509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNotes in chords must not have duration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "v_chord_note_valid",
           "package": "hly",
@@ -2321,6 +2520,7 @@
         "index": {
           "description": "Notes in chords must not have duration",
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "v_chord_note_valid",
           "normalized": "Music-\u003eMaybe String",
@@ -2335,6 +2535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "validate",
           "package": "hly",
@@ -2344,6 +2545,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "validate",
           "normalized": "Music-\u003e[String]",
@@ -2358,6 +2560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "write_out_repeats",
           "package": "hly",
@@ -2367,6 +2570,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Analysis",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Analysis",
           "name": "write_out_repeats",
           "normalized": "Music-\u003eMusic",
@@ -2381,6 +2585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "Annotation",
           "package": "hly",
@@ -2389,6 +2594,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "Annotation",
           "package": "hly",
@@ -2403,6 +2609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix form of \u003ccode\u003e\u003ca\u003eadd_annotation_err\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "(&)",
           "package": "hly",
@@ -2413,6 +2620,7 @@
         "index": {
           "description": "Infix form of add annotation err",
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "(&) &",
           "normalized": "Music-\u003eAnnotation-\u003eMusic",
@@ -2428,6 +2636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003ePitch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "(&#)",
           "package": "hly",
@@ -2438,6 +2647,7 @@
         "index": {
           "description": "Add an Annotation to Pitch",
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "(&#) &#",
           "normalized": "Pitch-\u003eAnnotation-\u003eMusic",
@@ -2453,6 +2663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to add an \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eMusic\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "add_annotation",
           "package": "hly",
@@ -2463,6 +2674,7 @@
         "index": {
           "description": "Attempt to add an Annotation to Music element",
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "add_annotation",
           "normalized": "Annotation-\u003eMusic-\u003eMaybe Music",
@@ -2478,6 +2690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eMusic\u003c/a\u003e\u003c/code\u003e element or \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "add_annotation_err",
           "package": "hly",
@@ -2488,6 +2701,7 @@
         "index": {
           "description": "Add an Annotation to Music element or error",
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "add_annotation_err",
           "normalized": "Annotation-\u003eMusic-\u003eMusic",
@@ -2503,6 +2717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan a \u003ccode\u003e\u003ca\u003eMusic\u003c/a\u003e\u003c/code\u003e element be annotated?  \u003ccode\u003e\u003ca\u003eSkip\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eCommand\u003c/a\u003e\u003c/code\u003e do not\n ordinarily allow annotations, though there are some cases...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "allows_annotations",
           "package": "hly",
@@ -2513,6 +2728,7 @@
         "index": {
           "description": "Can Music element be annotated Skip and Command do not ordinarily allow annotations though there are some cases",
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "allows_annotations",
           "normalized": "Music-\u003eBool",
@@ -2527,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "allows_indirect_annotation",
           "package": "hly",
@@ -2536,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "allows_indirect_annotation",
           "normalized": "Music-\u003eBool",
@@ -2550,6 +2768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "arco",
           "package": "hly",
@@ -2559,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "arco",
           "package": "hly",
@@ -2571,6 +2791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "attach_indirect_annotation",
           "package": "hly",
@@ -2580,6 +2801,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "attach_indirect_annotation",
           "normalized": "Annotation-\u003e[Music]-\u003e[Music]",
@@ -2595,6 +2817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eManual beaming.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "beam",
           "package": "hly",
@@ -2605,6 +2828,7 @@
         "index": {
           "description": "Manual beaming",
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "beam",
           "normalized": "[Music]-\u003eMusic",
@@ -2619,6 +2843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "beam'",
           "package": "hly",
@@ -2628,6 +2853,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "beam'",
           "normalized": "[Music]-\u003e[Music]",
@@ -2643,6 +2869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBeam interior notes/chords (ie. skip exterior\n   non-note/non-chords).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "beam_notes",
           "package": "hly",
@@ -2653,6 +2880,7 @@
         "index": {
           "description": "Beam interior notes chords ie skip exterior non-note non-chords",
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "beam_notes",
           "normalized": "[Music]-\u003eMusic",
@@ -2667,6 +2895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "bracket_annotation",
           "package": "hly",
@@ -2676,6 +2905,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "bracket_annotation",
           "normalized": "(Annotation,Annotation)-\u003e[Music]-\u003e[Music]",
@@ -2690,6 +2920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "bracket_annotation'",
           "package": "hly",
@@ -2699,6 +2930,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "bracket_annotation'",
           "normalized": "(Annotation,Annotation)-\u003e[Music]-\u003e[Music]",
@@ -2713,6 +2945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "bracket_annotation_fn",
           "package": "hly",
@@ -2722,6 +2955,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "bracket_annotation_fn",
           "normalized": "(Annotation-\u003eMusic-\u003eMusic)-\u003e(Annotation,Annotation)-\u003e[Music]-\u003e[Music]",
@@ -2737,6 +2971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd cautionary accidental to note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "c_acc",
           "package": "hly",
@@ -2747,6 +2982,7 @@
         "index": {
           "description": "Add cautionary accidental to note",
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "c_acc",
           "normalized": "Music-\u003eMusic",
@@ -2761,6 +2997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "indirect_annotation",
           "package": "hly",
@@ -2770,6 +3007,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "indirect_annotation",
           "normalized": "Annotation-\u003eMusic-\u003eMusic",
@@ -2785,6 +3023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotate the first note/chord element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "initial_note_chord_annotate",
           "package": "hly",
@@ -2795,6 +3034,7 @@
         "index": {
           "description": "Annotate the first note chord element",
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "initial_note_chord_annotate",
           "normalized": "Annotation-\u003e[Music]-\u003e[Music]",
@@ -2810,6 +3050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003eNote\u003c/code\u003e \u003ccode\u003e\u003ca\u003eMusic\u003c/a\u003e\u003c/code\u003e element, else identity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "note_annotate",
           "package": "hly",
@@ -2820,6 +3061,7 @@
         "index": {
           "description": "Add an Annotation to Note Music element else identity",
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "note_annotate",
           "normalized": "Annotation-\u003eMusic-\u003eMusic",
@@ -2835,6 +3077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate composition (and).\n\u003c/p\u003e\u003cpre\u003e p_and even odd 1 == False\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "p_and",
           "package": "hly",
@@ -2845,6 +3088,7 @@
         "index": {
           "description": "Predicate composition and and even odd False",
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "p_and",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eBool)-\u003ea-\u003eBool",
@@ -2860,6 +3104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate composition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "p_cmp",
           "package": "hly",
@@ -2870,6 +3115,7 @@
         "index": {
           "description": "Predicate composition",
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "p_cmp",
           "normalized": "(a-\u003ea-\u003ea)-\u003e(a-\u003ea)-\u003e(a-\u003ea)-\u003ea-\u003ea",
@@ -2885,6 +3131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate composition (or).\n\u003c/p\u003e\u003cpre\u003e p_or even odd 1 == True\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "p_or",
           "package": "hly",
@@ -2895,6 +3142,7 @@
         "index": {
           "description": "Predicate composition or or even odd True",
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "p_or",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003eBool)-\u003ea-\u003eBool",
@@ -2910,6 +3158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eMusic\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "perhaps_annotate",
           "package": "hly",
@@ -2920,6 +3169,7 @@
         "index": {
           "description": "Add an Annotation to Music element",
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "perhaps_annotate",
           "normalized": "Annotation-\u003eMusic-\u003eMusic",
@@ -2935,6 +3185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBeam if at least two elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "perhaps_beam",
           "package": "hly",
@@ -2945,6 +3196,7 @@
         "index": {
           "description": "Beam if at least two elements",
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "perhaps_beam",
           "normalized": "[Music]-\u003e[Music]",
@@ -2959,6 +3211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "phrasing_slur",
           "package": "hly",
@@ -2968,6 +3221,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "phrasing_slur",
           "normalized": "[Music]-\u003eMusic",
@@ -2982,6 +3236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "phrasing_slur'",
           "package": "hly",
@@ -2991,6 +3246,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "phrasing_slur'",
           "normalized": "[Music]-\u003e[Music]",
@@ -3005,6 +3261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "pizz",
           "package": "hly",
@@ -3014,6 +3271,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "pizz",
           "package": "hly",
@@ -3026,6 +3284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "place_above",
           "package": "hly",
@@ -3035,6 +3294,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "place_above",
           "normalized": "Annotation-\u003eAnnotation",
@@ -3049,6 +3309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "place_below",
           "package": "hly",
@@ -3058,6 +3319,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "place_below",
           "normalized": "Annotation-\u003eAnnotation",
@@ -3073,6 +3335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd reminder accidental to note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "r_acc",
           "package": "hly",
@@ -3083,6 +3346,7 @@
         "index": {
           "description": "Add reminder accidental to note",
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "r_acc",
           "normalized": "Music-\u003eMusic",
@@ -3097,6 +3361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "set_subdivide_beams",
           "package": "hly",
@@ -3106,6 +3371,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "set_subdivide_beams",
           "normalized": "Integer-\u003eMusic",
@@ -3120,6 +3386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "slur",
           "package": "hly",
@@ -3129,6 +3396,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "slur",
           "normalized": "[Music]-\u003eMusic",
@@ -3143,6 +3411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "slur'",
           "package": "hly",
@@ -3152,6 +3421,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "slur'",
           "normalized": "[Music]-\u003e[Music]",
@@ -3167,6 +3437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003espan\u003c/a\u003e\u003c/code\u003e that further spans the reverse of the right\n hand side.\n\u003c/p\u003e\u003cpre\u003e span_r (\u003c 0) [-1,-2,1,2,3,-3,-4] == ([-1,-2],[1,2,3],[-3,-4])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "span_r",
           "package": "hly",
@@ -3177,6 +3448,7 @@
         "index": {
           "description": "Variant of span that further spans the reverse of the right hand side span",
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "span_r",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e([a],[a],[a])",
@@ -3191,6 +3463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "text_above",
           "package": "hly",
@@ -3200,6 +3473,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "text_above",
           "normalized": "String-\u003eAnnotation",
@@ -3214,6 +3488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "text_above_fmt",
           "package": "hly",
@@ -3223,6 +3498,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "text_above_fmt",
           "normalized": "String-\u003eAnnotation",
@@ -3237,6 +3513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "text_below",
           "package": "hly",
@@ -3246,6 +3523,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "text_below",
           "normalized": "String-\u003eAnnotation",
@@ -3260,6 +3538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "text_below_fmt",
           "package": "hly",
@@ -3269,6 +3548,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "text_below_fmt",
           "normalized": "String-\u003eAnnotation",
@@ -3283,6 +3563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "text_mark",
           "package": "hly",
@@ -3292,6 +3573,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "text_mark",
           "normalized": "String-\u003eAnnotation",
@@ -3306,6 +3588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "text_mark_fmt",
           "package": "hly",
@@ -3315,6 +3598,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Annotation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Annotation",
           "name": "text_mark_fmt",
           "normalized": "String-\u003eAnnotation",
@@ -3330,6 +3614,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDynamic constants.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "Dynamic",
           "package": "hly",
@@ -3339,6 +3624,7 @@
         "index": {
           "description": "Dynamic constants",
           "hierarchy": "Music LilyPond Light Constant Dynamic",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "Dynamic",
           "package": "hly",
@@ -3352,6 +3638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "cresc",
           "package": "hly",
@@ -3361,6 +3648,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Dynamic",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "cresc",
           "package": "hly",
@@ -3373,6 +3661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "decr",
           "package": "hly",
@@ -3382,6 +3671,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Dynamic",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "decr",
           "package": "hly",
@@ -3394,6 +3684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "end_cresc",
           "package": "hly",
@@ -3403,6 +3694,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Dynamic",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "end_cresc",
           "package": "hly",
@@ -3415,6 +3707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "end_decr",
           "package": "hly",
@@ -3424,6 +3717,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Dynamic",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "end_decr",
           "package": "hly",
@@ -3436,6 +3730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "espressivo",
           "package": "hly",
@@ -3445,6 +3740,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Dynamic",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "espressivo",
           "package": "hly",
@@ -3457,6 +3753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "f",
           "package": "hly",
@@ -3466,6 +3763,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Dynamic",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "f",
           "package": "hly",
@@ -3478,6 +3776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "ff",
           "package": "hly",
@@ -3487,6 +3786,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Dynamic",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "ff",
           "package": "hly",
@@ -3499,6 +3799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "fff",
           "package": "hly",
@@ -3508,6 +3809,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Dynamic",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "fff",
           "package": "hly",
@@ -3520,6 +3822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "ffff",
           "package": "hly",
@@ -3529,6 +3832,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Dynamic",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "ffff",
           "package": "hly",
@@ -3541,6 +3845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "fp",
           "package": "hly",
@@ -3550,6 +3855,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Dynamic",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "fp",
           "package": "hly",
@@ -3562,6 +3868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "mf",
           "package": "hly",
@@ -3571,6 +3878,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Dynamic",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "mf",
           "package": "hly",
@@ -3583,6 +3891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "mp",
           "package": "hly",
@@ -3592,6 +3901,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Dynamic",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "mp",
           "package": "hly",
@@ -3604,6 +3914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "p",
           "package": "hly",
@@ -3613,6 +3924,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Dynamic",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "p",
           "package": "hly",
@@ -3625,6 +3937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "pp",
           "package": "hly",
@@ -3634,6 +3947,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Dynamic",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "pp",
           "package": "hly",
@@ -3646,6 +3960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "ppp",
           "package": "hly",
@@ -3655,6 +3970,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Dynamic",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "ppp",
           "package": "hly",
@@ -3667,6 +3983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "pppp",
           "package": "hly",
@@ -3676,6 +3993,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Dynamic",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "pppp",
           "package": "hly",
@@ -3688,6 +4006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "sfz",
           "package": "hly",
@@ -3697,6 +4016,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Dynamic",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Dynamic",
           "name": "sfz",
           "package": "hly",
@@ -3710,6 +4030,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ePitch\u003c/a\u003e\u003c/code\u003e names lifted to \u003ccode\u003e\u003ca\u003eMusic\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "Note",
           "package": "hly",
@@ -3719,6 +4040,7 @@
         "index": {
           "description": "Pitch names lifted to Music values",
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "Note",
           "package": "hly",
@@ -3732,6 +4054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "a1",
           "package": "hly",
@@ -3741,6 +4064,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "a1",
           "package": "hly",
@@ -3753,6 +4077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "a2",
           "package": "hly",
@@ -3762,6 +4087,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "a2",
           "package": "hly",
@@ -3774,6 +4100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "a3",
           "package": "hly",
@@ -3783,6 +4110,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "a3",
           "package": "hly",
@@ -3795,6 +4123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "a4",
           "package": "hly",
@@ -3804,6 +4133,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "a4",
           "package": "hly",
@@ -3816,6 +4146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "a5",
           "package": "hly",
@@ -3825,6 +4156,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "a5",
           "package": "hly",
@@ -3837,6 +4169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "a6",
           "package": "hly",
@@ -3846,6 +4179,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "a6",
           "package": "hly",
@@ -3858,6 +4192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "a7",
           "package": "hly",
@@ -3867,6 +4202,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "a7",
           "package": "hly",
@@ -3879,6 +4215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aeh3",
           "package": "hly",
@@ -3888,6 +4225,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aeh3",
           "package": "hly",
@@ -3900,6 +4238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aeh4",
           "package": "hly",
@@ -3909,6 +4248,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aeh4",
           "package": "hly",
@@ -3921,6 +4261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aeh5",
           "package": "hly",
@@ -3930,6 +4271,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aeh5",
           "package": "hly",
@@ -3942,6 +4284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aeh6",
           "package": "hly",
@@ -3951,6 +4294,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aeh6",
           "package": "hly",
@@ -3963,6 +4307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aes1",
           "package": "hly",
@@ -3972,6 +4317,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aes1",
           "package": "hly",
@@ -3984,6 +4330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aes2",
           "package": "hly",
@@ -3993,6 +4340,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aes2",
           "package": "hly",
@@ -4005,6 +4353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aes3",
           "package": "hly",
@@ -4014,6 +4363,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aes3",
           "package": "hly",
@@ -4026,6 +4376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aes4",
           "package": "hly",
@@ -4035,6 +4386,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aes4",
           "package": "hly",
@@ -4047,6 +4399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aes5",
           "package": "hly",
@@ -4056,6 +4409,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aes5",
           "package": "hly",
@@ -4068,6 +4422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aes6",
           "package": "hly",
@@ -4077,6 +4432,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aes6",
           "package": "hly",
@@ -4089,6 +4445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aes7",
           "package": "hly",
@@ -4098,6 +4455,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aes7",
           "package": "hly",
@@ -4110,6 +4468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aeseh3",
           "package": "hly",
@@ -4119,6 +4478,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aeseh3",
           "package": "hly",
@@ -4131,6 +4491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aeseh4",
           "package": "hly",
@@ -4140,6 +4501,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aeseh4",
           "package": "hly",
@@ -4152,6 +4514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aeseh5",
           "package": "hly",
@@ -4161,6 +4524,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aeseh5",
           "package": "hly",
@@ -4173,6 +4537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aeseh6",
           "package": "hly",
@@ -4182,6 +4547,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aeseh6",
           "package": "hly",
@@ -4194,6 +4560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aeses4",
           "package": "hly",
@@ -4203,6 +4570,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aeses4",
           "package": "hly",
@@ -4215,6 +4583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aeses5",
           "package": "hly",
@@ -4224,6 +4593,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aeses5",
           "package": "hly",
@@ -4236,6 +4606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aih3",
           "package": "hly",
@@ -4245,6 +4616,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aih3",
           "package": "hly",
@@ -4257,6 +4629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aih4",
           "package": "hly",
@@ -4266,6 +4639,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aih4",
           "package": "hly",
@@ -4278,6 +4652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aih5",
           "package": "hly",
@@ -4287,6 +4662,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aih5",
           "package": "hly",
@@ -4299,6 +4675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aih6",
           "package": "hly",
@@ -4308,6 +4685,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aih6",
           "package": "hly",
@@ -4320,6 +4698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ais1",
           "package": "hly",
@@ -4329,6 +4708,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ais1",
           "package": "hly",
@@ -4341,6 +4721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ais2",
           "package": "hly",
@@ -4350,6 +4731,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ais2",
           "package": "hly",
@@ -4362,6 +4744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ais3",
           "package": "hly",
@@ -4371,6 +4754,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ais3",
           "package": "hly",
@@ -4383,6 +4767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ais4",
           "package": "hly",
@@ -4392,6 +4777,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ais4",
           "package": "hly",
@@ -4404,6 +4790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ais5",
           "package": "hly",
@@ -4413,6 +4800,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ais5",
           "package": "hly",
@@ -4425,6 +4813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ais6",
           "package": "hly",
@@ -4434,6 +4823,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ais6",
           "package": "hly",
@@ -4446,6 +4836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ais7",
           "package": "hly",
@@ -4455,6 +4846,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ais7",
           "package": "hly",
@@ -4467,6 +4859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aisih3",
           "package": "hly",
@@ -4476,6 +4869,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aisih3",
           "package": "hly",
@@ -4488,6 +4882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aisih4",
           "package": "hly",
@@ -4497,6 +4892,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aisih4",
           "package": "hly",
@@ -4509,6 +4905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aisih5",
           "package": "hly",
@@ -4518,6 +4915,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aisih5",
           "package": "hly",
@@ -4530,6 +4928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aisih6",
           "package": "hly",
@@ -4539,6 +4938,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aisih6",
           "package": "hly",
@@ -4551,6 +4951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aisis2",
           "package": "hly",
@@ -4560,6 +4961,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aisis2",
           "package": "hly",
@@ -4572,6 +4974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aisis3",
           "package": "hly",
@@ -4581,6 +4984,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aisis3",
           "package": "hly",
@@ -4593,6 +4997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aisis4",
           "package": "hly",
@@ -4602,6 +5007,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aisis4",
           "package": "hly",
@@ -4614,6 +5020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aisis5",
           "package": "hly",
@@ -4623,6 +5030,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "aisis5",
           "package": "hly",
@@ -4635,6 +5043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "b1",
           "package": "hly",
@@ -4644,6 +5053,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "b1",
           "package": "hly",
@@ -4656,6 +5066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "b2",
           "package": "hly",
@@ -4665,6 +5076,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "b2",
           "package": "hly",
@@ -4677,6 +5089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "b3",
           "package": "hly",
@@ -4686,6 +5099,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "b3",
           "package": "hly",
@@ -4698,6 +5112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "b4",
           "package": "hly",
@@ -4707,6 +5122,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "b4",
           "package": "hly",
@@ -4719,6 +5135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "b5",
           "package": "hly",
@@ -4728,6 +5145,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "b5",
           "package": "hly",
@@ -4740,6 +5158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "b6",
           "package": "hly",
@@ -4749,6 +5168,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "b6",
           "package": "hly",
@@ -4761,6 +5181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "b7",
           "package": "hly",
@@ -4770,6 +5191,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "b7",
           "package": "hly",
@@ -4782,6 +5204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "beh3",
           "package": "hly",
@@ -4791,6 +5214,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "beh3",
           "package": "hly",
@@ -4803,6 +5227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "beh4",
           "package": "hly",
@@ -4812,6 +5237,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "beh4",
           "package": "hly",
@@ -4824,6 +5250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "beh5",
           "package": "hly",
@@ -4833,6 +5260,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "beh5",
           "package": "hly",
@@ -4845,6 +5273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "beh6",
           "package": "hly",
@@ -4854,6 +5283,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "beh6",
           "package": "hly",
@@ -4866,6 +5296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bes1",
           "package": "hly",
@@ -4875,6 +5306,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bes1",
           "package": "hly",
@@ -4887,6 +5319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bes2",
           "package": "hly",
@@ -4896,6 +5329,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bes2",
           "package": "hly",
@@ -4908,6 +5342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bes3",
           "package": "hly",
@@ -4917,6 +5352,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bes3",
           "package": "hly",
@@ -4929,6 +5365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bes4",
           "package": "hly",
@@ -4938,6 +5375,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bes4",
           "package": "hly",
@@ -4950,6 +5388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bes5",
           "package": "hly",
@@ -4959,6 +5398,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bes5",
           "package": "hly",
@@ -4971,6 +5411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bes6",
           "package": "hly",
@@ -4980,6 +5421,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bes6",
           "package": "hly",
@@ -4992,6 +5434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bes7",
           "package": "hly",
@@ -5001,6 +5444,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bes7",
           "package": "hly",
@@ -5013,6 +5457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "beseh3",
           "package": "hly",
@@ -5022,6 +5467,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "beseh3",
           "package": "hly",
@@ -5034,6 +5480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "beseh4",
           "package": "hly",
@@ -5043,6 +5490,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "beseh4",
           "package": "hly",
@@ -5055,6 +5503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "beseh5",
           "package": "hly",
@@ -5064,6 +5513,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "beseh5",
           "package": "hly",
@@ -5076,6 +5526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "beseh6",
           "package": "hly",
@@ -5085,6 +5536,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "beseh6",
           "package": "hly",
@@ -5097,6 +5549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "beses4",
           "package": "hly",
@@ -5106,6 +5559,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "beses4",
           "package": "hly",
@@ -5118,6 +5572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "beses5",
           "package": "hly",
@@ -5127,6 +5582,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "beses5",
           "package": "hly",
@@ -5139,6 +5595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bih3",
           "package": "hly",
@@ -5148,6 +5605,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bih3",
           "package": "hly",
@@ -5160,6 +5618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bih4",
           "package": "hly",
@@ -5169,6 +5628,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bih4",
           "package": "hly",
@@ -5181,6 +5641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bih5",
           "package": "hly",
@@ -5190,6 +5651,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bih5",
           "package": "hly",
@@ -5202,6 +5664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bih6",
           "package": "hly",
@@ -5211,6 +5674,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bih6",
           "package": "hly",
@@ -5223,6 +5687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bis1",
           "package": "hly",
@@ -5232,6 +5697,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bis1",
           "package": "hly",
@@ -5244,6 +5710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bis2",
           "package": "hly",
@@ -5253,6 +5720,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bis2",
           "package": "hly",
@@ -5265,6 +5733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bis3",
           "package": "hly",
@@ -5274,6 +5743,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bis3",
           "package": "hly",
@@ -5286,6 +5756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bis4",
           "package": "hly",
@@ -5295,6 +5766,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bis4",
           "package": "hly",
@@ -5307,6 +5779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bis5",
           "package": "hly",
@@ -5316,6 +5789,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bis5",
           "package": "hly",
@@ -5328,6 +5802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bis6",
           "package": "hly",
@@ -5337,6 +5812,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bis6",
           "package": "hly",
@@ -5349,6 +5825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bis7",
           "package": "hly",
@@ -5358,6 +5835,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bis7",
           "package": "hly",
@@ -5370,6 +5848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bisih3",
           "package": "hly",
@@ -5379,6 +5858,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bisih3",
           "package": "hly",
@@ -5391,6 +5871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bisih4",
           "package": "hly",
@@ -5400,6 +5881,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bisih4",
           "package": "hly",
@@ -5412,6 +5894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bisih5",
           "package": "hly",
@@ -5421,6 +5904,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bisih5",
           "package": "hly",
@@ -5433,6 +5917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bisih6",
           "package": "hly",
@@ -5442,6 +5927,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bisih6",
           "package": "hly",
@@ -5454,6 +5940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bisis2",
           "package": "hly",
@@ -5463,6 +5950,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bisis2",
           "package": "hly",
@@ -5475,6 +5963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bisis3",
           "package": "hly",
@@ -5484,6 +5973,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bisis3",
           "package": "hly",
@@ -5496,6 +5986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bisis4",
           "package": "hly",
@@ -5505,6 +5996,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bisis4",
           "package": "hly",
@@ -5517,6 +6009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bisis5",
           "package": "hly",
@@ -5526,6 +6019,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "bisis5",
           "package": "hly",
@@ -5538,6 +6032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "c1",
           "package": "hly",
@@ -5547,6 +6042,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "c1",
           "package": "hly",
@@ -5559,6 +6055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "c2",
           "package": "hly",
@@ -5568,6 +6065,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "c2",
           "package": "hly",
@@ -5580,6 +6078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "c3",
           "package": "hly",
@@ -5589,6 +6088,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "c3",
           "package": "hly",
@@ -5601,6 +6101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "c4",
           "package": "hly",
@@ -5610,6 +6111,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "c4",
           "package": "hly",
@@ -5622,6 +6124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "c5",
           "package": "hly",
@@ -5631,6 +6134,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "c5",
           "package": "hly",
@@ -5643,6 +6147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "c6",
           "package": "hly",
@@ -5652,6 +6157,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "c6",
           "package": "hly",
@@ -5664,6 +6170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "c7",
           "package": "hly",
@@ -5673,6 +6180,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "c7",
           "package": "hly",
@@ -5685,6 +6193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ceh3",
           "package": "hly",
@@ -5694,6 +6203,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ceh3",
           "package": "hly",
@@ -5706,6 +6216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ceh4",
           "package": "hly",
@@ -5715,6 +6226,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ceh4",
           "package": "hly",
@@ -5727,6 +6239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ceh5",
           "package": "hly",
@@ -5736,6 +6249,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ceh5",
           "package": "hly",
@@ -5748,6 +6262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ceh6",
           "package": "hly",
@@ -5757,6 +6272,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ceh6",
           "package": "hly",
@@ -5769,6 +6285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ces1",
           "package": "hly",
@@ -5778,6 +6295,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ces1",
           "package": "hly",
@@ -5790,6 +6308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ces2",
           "package": "hly",
@@ -5799,6 +6318,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ces2",
           "package": "hly",
@@ -5811,6 +6331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ces3",
           "package": "hly",
@@ -5820,6 +6341,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ces3",
           "package": "hly",
@@ -5832,6 +6354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ces4",
           "package": "hly",
@@ -5841,6 +6364,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ces4",
           "package": "hly",
@@ -5853,6 +6377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ces5",
           "package": "hly",
@@ -5862,6 +6387,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ces5",
           "package": "hly",
@@ -5874,6 +6400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ces6",
           "package": "hly",
@@ -5883,6 +6410,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ces6",
           "package": "hly",
@@ -5895,6 +6423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ces7",
           "package": "hly",
@@ -5904,6 +6433,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ces7",
           "package": "hly",
@@ -5916,6 +6446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ceseh3",
           "package": "hly",
@@ -5925,6 +6456,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ceseh3",
           "package": "hly",
@@ -5937,6 +6469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ceseh4",
           "package": "hly",
@@ -5946,6 +6479,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ceseh4",
           "package": "hly",
@@ -5958,6 +6492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ceseh5",
           "package": "hly",
@@ -5967,6 +6502,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ceseh5",
           "package": "hly",
@@ -5979,6 +6515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ceseh6",
           "package": "hly",
@@ -5988,6 +6525,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ceseh6",
           "package": "hly",
@@ -6000,6 +6538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ceses4",
           "package": "hly",
@@ -6009,6 +6548,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ceses4",
           "package": "hly",
@@ -6021,6 +6561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ceses5",
           "package": "hly",
@@ -6030,6 +6571,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ceses5",
           "package": "hly",
@@ -6042,6 +6584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cih3",
           "package": "hly",
@@ -6051,6 +6594,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cih3",
           "package": "hly",
@@ -6063,6 +6607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cih4",
           "package": "hly",
@@ -6072,6 +6617,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cih4",
           "package": "hly",
@@ -6084,6 +6630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cih5",
           "package": "hly",
@@ -6093,6 +6640,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cih5",
           "package": "hly",
@@ -6105,6 +6653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cih6",
           "package": "hly",
@@ -6114,6 +6663,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cih6",
           "package": "hly",
@@ -6126,6 +6676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cis1",
           "package": "hly",
@@ -6135,6 +6686,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cis1",
           "package": "hly",
@@ -6147,6 +6699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cis2",
           "package": "hly",
@@ -6156,6 +6709,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cis2",
           "package": "hly",
@@ -6168,6 +6722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cis3",
           "package": "hly",
@@ -6177,6 +6732,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cis3",
           "package": "hly",
@@ -6189,6 +6745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cis4",
           "package": "hly",
@@ -6198,6 +6755,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cis4",
           "package": "hly",
@@ -6210,6 +6768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cis5",
           "package": "hly",
@@ -6219,6 +6778,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cis5",
           "package": "hly",
@@ -6231,6 +6791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cis6",
           "package": "hly",
@@ -6240,6 +6801,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cis6",
           "package": "hly",
@@ -6252,6 +6814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cis7",
           "package": "hly",
@@ -6261,6 +6824,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cis7",
           "package": "hly",
@@ -6273,6 +6837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cisih3",
           "package": "hly",
@@ -6282,6 +6847,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cisih3",
           "package": "hly",
@@ -6294,6 +6860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cisih4",
           "package": "hly",
@@ -6303,6 +6870,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cisih4",
           "package": "hly",
@@ -6315,6 +6883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cisih5",
           "package": "hly",
@@ -6324,6 +6893,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cisih5",
           "package": "hly",
@@ -6336,6 +6906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cisih6",
           "package": "hly",
@@ -6345,6 +6916,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cisih6",
           "package": "hly",
@@ -6357,6 +6929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cisis2",
           "package": "hly",
@@ -6366,6 +6939,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cisis2",
           "package": "hly",
@@ -6378,6 +6952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cisis3",
           "package": "hly",
@@ -6387,6 +6962,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cisis3",
           "package": "hly",
@@ -6399,6 +6975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cisis4",
           "package": "hly",
@@ -6408,6 +6985,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cisis4",
           "package": "hly",
@@ -6420,6 +6998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cisis5",
           "package": "hly",
@@ -6429,6 +7008,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "cisis5",
           "package": "hly",
@@ -6441,6 +7021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "d1",
           "package": "hly",
@@ -6450,6 +7031,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "d1",
           "package": "hly",
@@ -6462,6 +7044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "d2",
           "package": "hly",
@@ -6471,6 +7054,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "d2",
           "package": "hly",
@@ -6483,6 +7067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "d3",
           "package": "hly",
@@ -6492,6 +7077,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "d3",
           "package": "hly",
@@ -6504,6 +7090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "d4",
           "package": "hly",
@@ -6513,6 +7100,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "d4",
           "package": "hly",
@@ -6525,6 +7113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "d5",
           "package": "hly",
@@ -6534,6 +7123,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "d5",
           "package": "hly",
@@ -6546,6 +7136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "d6",
           "package": "hly",
@@ -6555,6 +7146,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "d6",
           "package": "hly",
@@ -6567,6 +7159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "d7",
           "package": "hly",
@@ -6576,6 +7169,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "d7",
           "package": "hly",
@@ -6588,6 +7182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "deh3",
           "package": "hly",
@@ -6597,6 +7192,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "deh3",
           "package": "hly",
@@ -6609,6 +7205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "deh4",
           "package": "hly",
@@ -6618,6 +7215,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "deh4",
           "package": "hly",
@@ -6630,6 +7228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "deh5",
           "package": "hly",
@@ -6639,6 +7238,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "deh5",
           "package": "hly",
@@ -6651,6 +7251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "deh6",
           "package": "hly",
@@ -6660,6 +7261,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "deh6",
           "package": "hly",
@@ -6672,6 +7274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "des1",
           "package": "hly",
@@ -6681,6 +7284,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "des1",
           "package": "hly",
@@ -6693,6 +7297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "des2",
           "package": "hly",
@@ -6702,6 +7307,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "des2",
           "package": "hly",
@@ -6714,6 +7320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "des3",
           "package": "hly",
@@ -6723,6 +7330,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "des3",
           "package": "hly",
@@ -6735,6 +7343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "des4",
           "package": "hly",
@@ -6744,6 +7353,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "des4",
           "package": "hly",
@@ -6756,6 +7366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "des5",
           "package": "hly",
@@ -6765,6 +7376,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "des5",
           "package": "hly",
@@ -6777,6 +7389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "des6",
           "package": "hly",
@@ -6786,6 +7399,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "des6",
           "package": "hly",
@@ -6798,6 +7412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "des7",
           "package": "hly",
@@ -6807,6 +7422,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "des7",
           "package": "hly",
@@ -6819,6 +7435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "deseh3",
           "package": "hly",
@@ -6828,6 +7445,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "deseh3",
           "package": "hly",
@@ -6840,6 +7458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "deseh4",
           "package": "hly",
@@ -6849,6 +7468,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "deseh4",
           "package": "hly",
@@ -6861,6 +7481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "deseh5",
           "package": "hly",
@@ -6870,6 +7491,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "deseh5",
           "package": "hly",
@@ -6882,6 +7504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "deseh6",
           "package": "hly",
@@ -6891,6 +7514,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "deseh6",
           "package": "hly",
@@ -6903,6 +7527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "deses4",
           "package": "hly",
@@ -6912,6 +7537,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "deses4",
           "package": "hly",
@@ -6924,6 +7550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "deses5",
           "package": "hly",
@@ -6933,6 +7560,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "deses5",
           "package": "hly",
@@ -6945,6 +7573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "dih3",
           "package": "hly",
@@ -6954,6 +7583,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "dih3",
           "package": "hly",
@@ -6966,6 +7596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "dih4",
           "package": "hly",
@@ -6975,6 +7606,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "dih4",
           "package": "hly",
@@ -6987,6 +7619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "dih5",
           "package": "hly",
@@ -6996,6 +7629,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "dih5",
           "package": "hly",
@@ -7008,6 +7642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "dih6",
           "package": "hly",
@@ -7017,6 +7652,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "dih6",
           "package": "hly",
@@ -7029,6 +7665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "dis1",
           "package": "hly",
@@ -7038,6 +7675,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "dis1",
           "package": "hly",
@@ -7050,6 +7688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "dis2",
           "package": "hly",
@@ -7059,6 +7698,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "dis2",
           "package": "hly",
@@ -7071,6 +7711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "dis3",
           "package": "hly",
@@ -7080,6 +7721,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "dis3",
           "package": "hly",
@@ -7092,6 +7734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "dis4",
           "package": "hly",
@@ -7101,6 +7744,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "dis4",
           "package": "hly",
@@ -7113,6 +7757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "dis5",
           "package": "hly",
@@ -7122,6 +7767,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "dis5",
           "package": "hly",
@@ -7134,6 +7780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "dis6",
           "package": "hly",
@@ -7143,6 +7790,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "dis6",
           "package": "hly",
@@ -7155,6 +7803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "dis7",
           "package": "hly",
@@ -7164,6 +7813,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "dis7",
           "package": "hly",
@@ -7176,6 +7826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "disih3",
           "package": "hly",
@@ -7185,6 +7836,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "disih3",
           "package": "hly",
@@ -7197,6 +7849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "disih4",
           "package": "hly",
@@ -7206,6 +7859,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "disih4",
           "package": "hly",
@@ -7218,6 +7872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "disih5",
           "package": "hly",
@@ -7227,6 +7882,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "disih5",
           "package": "hly",
@@ -7239,6 +7895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "disih6",
           "package": "hly",
@@ -7248,6 +7905,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "disih6",
           "package": "hly",
@@ -7260,6 +7918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "disis2",
           "package": "hly",
@@ -7269,6 +7928,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "disis2",
           "package": "hly",
@@ -7281,6 +7941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "disis3",
           "package": "hly",
@@ -7290,6 +7951,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "disis3",
           "package": "hly",
@@ -7302,6 +7964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "disis4",
           "package": "hly",
@@ -7311,6 +7974,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "disis4",
           "package": "hly",
@@ -7323,6 +7987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "disis5",
           "package": "hly",
@@ -7332,6 +7997,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "disis5",
           "package": "hly",
@@ -7344,6 +8010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "e1",
           "package": "hly",
@@ -7353,6 +8020,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "e1",
           "package": "hly",
@@ -7365,6 +8033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "e2",
           "package": "hly",
@@ -7374,6 +8043,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "e2",
           "package": "hly",
@@ -7386,6 +8056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "e3",
           "package": "hly",
@@ -7395,6 +8066,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "e3",
           "package": "hly",
@@ -7407,6 +8079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "e4",
           "package": "hly",
@@ -7416,6 +8089,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "e4",
           "package": "hly",
@@ -7428,6 +8102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "e5",
           "package": "hly",
@@ -7437,6 +8112,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "e5",
           "package": "hly",
@@ -7449,6 +8125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "e6",
           "package": "hly",
@@ -7458,6 +8135,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "e6",
           "package": "hly",
@@ -7470,6 +8148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "e7",
           "package": "hly",
@@ -7479,6 +8158,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "e7",
           "package": "hly",
@@ -7491,6 +8171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eeh3",
           "package": "hly",
@@ -7500,6 +8181,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eeh3",
           "package": "hly",
@@ -7512,6 +8194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eeh4",
           "package": "hly",
@@ -7521,6 +8204,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eeh4",
           "package": "hly",
@@ -7533,6 +8217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eeh5",
           "package": "hly",
@@ -7542,6 +8227,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eeh5",
           "package": "hly",
@@ -7554,6 +8240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eeh6",
           "package": "hly",
@@ -7563,6 +8250,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eeh6",
           "package": "hly",
@@ -7575,6 +8263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ees1",
           "package": "hly",
@@ -7584,6 +8273,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ees1",
           "package": "hly",
@@ -7596,6 +8286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ees2",
           "package": "hly",
@@ -7605,6 +8296,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ees2",
           "package": "hly",
@@ -7617,6 +8309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ees3",
           "package": "hly",
@@ -7626,6 +8319,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ees3",
           "package": "hly",
@@ -7638,6 +8332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ees4",
           "package": "hly",
@@ -7647,6 +8342,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ees4",
           "package": "hly",
@@ -7659,6 +8355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ees5",
           "package": "hly",
@@ -7668,6 +8365,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ees5",
           "package": "hly",
@@ -7680,6 +8378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ees6",
           "package": "hly",
@@ -7689,6 +8388,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ees6",
           "package": "hly",
@@ -7701,6 +8401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ees7",
           "package": "hly",
@@ -7710,6 +8411,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ees7",
           "package": "hly",
@@ -7722,6 +8424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eeseh3",
           "package": "hly",
@@ -7731,6 +8434,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eeseh3",
           "package": "hly",
@@ -7743,6 +8447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eeseh4",
           "package": "hly",
@@ -7752,6 +8457,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eeseh4",
           "package": "hly",
@@ -7764,6 +8470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eeseh5",
           "package": "hly",
@@ -7773,6 +8480,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eeseh5",
           "package": "hly",
@@ -7785,6 +8493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eeseh6",
           "package": "hly",
@@ -7794,6 +8503,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eeseh6",
           "package": "hly",
@@ -7806,6 +8516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eeses4",
           "package": "hly",
@@ -7815,6 +8526,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eeses4",
           "package": "hly",
@@ -7827,6 +8539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eeses5",
           "package": "hly",
@@ -7836,6 +8549,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eeses5",
           "package": "hly",
@@ -7848,6 +8562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eih3",
           "package": "hly",
@@ -7857,6 +8572,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eih3",
           "package": "hly",
@@ -7869,6 +8585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eih4",
           "package": "hly",
@@ -7878,6 +8595,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eih4",
           "package": "hly",
@@ -7890,6 +8608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eih5",
           "package": "hly",
@@ -7899,6 +8618,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eih5",
           "package": "hly",
@@ -7911,6 +8631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eih6",
           "package": "hly",
@@ -7920,6 +8641,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eih6",
           "package": "hly",
@@ -7932,6 +8654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eis1",
           "package": "hly",
@@ -7941,6 +8664,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eis1",
           "package": "hly",
@@ -7953,6 +8677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eis2",
           "package": "hly",
@@ -7962,6 +8687,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eis2",
           "package": "hly",
@@ -7974,6 +8700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eis3",
           "package": "hly",
@@ -7983,6 +8710,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eis3",
           "package": "hly",
@@ -7995,6 +8723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eis4",
           "package": "hly",
@@ -8004,6 +8733,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eis4",
           "package": "hly",
@@ -8016,6 +8746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eis5",
           "package": "hly",
@@ -8025,6 +8756,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eis5",
           "package": "hly",
@@ -8037,6 +8769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eis6",
           "package": "hly",
@@ -8046,6 +8779,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eis6",
           "package": "hly",
@@ -8058,6 +8792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eis7",
           "package": "hly",
@@ -8067,6 +8802,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eis7",
           "package": "hly",
@@ -8079,6 +8815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eisih3",
           "package": "hly",
@@ -8088,6 +8825,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eisih3",
           "package": "hly",
@@ -8100,6 +8838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eisih4",
           "package": "hly",
@@ -8109,6 +8848,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eisih4",
           "package": "hly",
@@ -8121,6 +8861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eisih5",
           "package": "hly",
@@ -8130,6 +8871,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eisih5",
           "package": "hly",
@@ -8142,6 +8884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eisih6",
           "package": "hly",
@@ -8151,6 +8894,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eisih6",
           "package": "hly",
@@ -8163,6 +8907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eisis2",
           "package": "hly",
@@ -8172,6 +8917,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eisis2",
           "package": "hly",
@@ -8184,6 +8930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eisis3",
           "package": "hly",
@@ -8193,6 +8940,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eisis3",
           "package": "hly",
@@ -8205,6 +8953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eisis4",
           "package": "hly",
@@ -8214,6 +8963,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eisis4",
           "package": "hly",
@@ -8226,6 +8976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eisis5",
           "package": "hly",
@@ -8235,6 +8986,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "eisis5",
           "package": "hly",
@@ -8247,6 +8999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "f1",
           "package": "hly",
@@ -8256,6 +9009,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "f1",
           "package": "hly",
@@ -8268,6 +9022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "f2",
           "package": "hly",
@@ -8277,6 +9032,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "f2",
           "package": "hly",
@@ -8289,6 +9045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "f3",
           "package": "hly",
@@ -8298,6 +9055,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "f3",
           "package": "hly",
@@ -8310,6 +9068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "f4",
           "package": "hly",
@@ -8319,6 +9078,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "f4",
           "package": "hly",
@@ -8331,6 +9091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "f5",
           "package": "hly",
@@ -8340,6 +9101,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "f5",
           "package": "hly",
@@ -8352,6 +9114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "f6",
           "package": "hly",
@@ -8361,6 +9124,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "f6",
           "package": "hly",
@@ -8373,6 +9137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "f7",
           "package": "hly",
@@ -8382,6 +9147,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "f7",
           "package": "hly",
@@ -8394,6 +9160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "feh3",
           "package": "hly",
@@ -8403,6 +9170,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "feh3",
           "package": "hly",
@@ -8415,6 +9183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "feh4",
           "package": "hly",
@@ -8424,6 +9193,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "feh4",
           "package": "hly",
@@ -8436,6 +9206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "feh5",
           "package": "hly",
@@ -8445,6 +9216,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "feh5",
           "package": "hly",
@@ -8457,6 +9229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "feh6",
           "package": "hly",
@@ -8466,6 +9239,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "feh6",
           "package": "hly",
@@ -8478,6 +9252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fes1",
           "package": "hly",
@@ -8487,6 +9262,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fes1",
           "package": "hly",
@@ -8499,6 +9275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fes2",
           "package": "hly",
@@ -8508,6 +9285,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fes2",
           "package": "hly",
@@ -8520,6 +9298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fes3",
           "package": "hly",
@@ -8529,6 +9308,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fes3",
           "package": "hly",
@@ -8541,6 +9321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fes4",
           "package": "hly",
@@ -8550,6 +9331,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fes4",
           "package": "hly",
@@ -8562,6 +9344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fes5",
           "package": "hly",
@@ -8571,6 +9354,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fes5",
           "package": "hly",
@@ -8583,6 +9367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fes6",
           "package": "hly",
@@ -8592,6 +9377,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fes6",
           "package": "hly",
@@ -8604,6 +9390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fes7",
           "package": "hly",
@@ -8613,6 +9400,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fes7",
           "package": "hly",
@@ -8625,6 +9413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "feseh3",
           "package": "hly",
@@ -8634,6 +9423,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "feseh3",
           "package": "hly",
@@ -8646,6 +9436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "feseh4",
           "package": "hly",
@@ -8655,6 +9446,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "feseh4",
           "package": "hly",
@@ -8667,6 +9459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "feseh5",
           "package": "hly",
@@ -8676,6 +9469,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "feseh5",
           "package": "hly",
@@ -8688,6 +9482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "feseh6",
           "package": "hly",
@@ -8697,6 +9492,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "feseh6",
           "package": "hly",
@@ -8709,6 +9505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "feses4",
           "package": "hly",
@@ -8718,6 +9515,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "feses4",
           "package": "hly",
@@ -8730,6 +9528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "feses5",
           "package": "hly",
@@ -8739,6 +9538,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "feses5",
           "package": "hly",
@@ -8751,6 +9551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fih3",
           "package": "hly",
@@ -8760,6 +9561,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fih3",
           "package": "hly",
@@ -8772,6 +9574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fih4",
           "package": "hly",
@@ -8781,6 +9584,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fih4",
           "package": "hly",
@@ -8793,6 +9597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fih5",
           "package": "hly",
@@ -8802,6 +9607,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fih5",
           "package": "hly",
@@ -8814,6 +9620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fih6",
           "package": "hly",
@@ -8823,6 +9630,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fih6",
           "package": "hly",
@@ -8835,6 +9643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fis1",
           "package": "hly",
@@ -8844,6 +9653,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fis1",
           "package": "hly",
@@ -8856,6 +9666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fis2",
           "package": "hly",
@@ -8865,6 +9676,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fis2",
           "package": "hly",
@@ -8877,6 +9689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fis3",
           "package": "hly",
@@ -8886,6 +9699,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fis3",
           "package": "hly",
@@ -8898,6 +9712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fis4",
           "package": "hly",
@@ -8907,6 +9722,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fis4",
           "package": "hly",
@@ -8919,6 +9735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fis5",
           "package": "hly",
@@ -8928,6 +9745,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fis5",
           "package": "hly",
@@ -8940,6 +9758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fis6",
           "package": "hly",
@@ -8949,6 +9768,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fis6",
           "package": "hly",
@@ -8961,6 +9781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fis7",
           "package": "hly",
@@ -8970,6 +9791,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fis7",
           "package": "hly",
@@ -8982,6 +9804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fisih3",
           "package": "hly",
@@ -8991,6 +9814,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fisih3",
           "package": "hly",
@@ -9003,6 +9827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fisih4",
           "package": "hly",
@@ -9012,6 +9837,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fisih4",
           "package": "hly",
@@ -9024,6 +9850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fisih5",
           "package": "hly",
@@ -9033,6 +9860,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fisih5",
           "package": "hly",
@@ -9045,6 +9873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fisih6",
           "package": "hly",
@@ -9054,6 +9883,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fisih6",
           "package": "hly",
@@ -9066,6 +9896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fisis2",
           "package": "hly",
@@ -9075,6 +9906,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fisis2",
           "package": "hly",
@@ -9087,6 +9919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fisis3",
           "package": "hly",
@@ -9096,6 +9929,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fisis3",
           "package": "hly",
@@ -9108,6 +9942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fisis4",
           "package": "hly",
@@ -9117,6 +9952,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fisis4",
           "package": "hly",
@@ -9129,6 +9965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fisis5",
           "package": "hly",
@@ -9138,6 +9975,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "fisis5",
           "package": "hly",
@@ -9150,6 +9988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "g1",
           "package": "hly",
@@ -9159,6 +9998,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "g1",
           "package": "hly",
@@ -9171,6 +10011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "g2",
           "package": "hly",
@@ -9180,6 +10021,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "g2",
           "package": "hly",
@@ -9192,6 +10034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "g3",
           "package": "hly",
@@ -9201,6 +10044,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "g3",
           "package": "hly",
@@ -9213,6 +10057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "g4",
           "package": "hly",
@@ -9222,6 +10067,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "g4",
           "package": "hly",
@@ -9234,6 +10080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "g5",
           "package": "hly",
@@ -9243,6 +10090,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "g5",
           "package": "hly",
@@ -9255,6 +10103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "g6",
           "package": "hly",
@@ -9264,6 +10113,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "g6",
           "package": "hly",
@@ -9276,6 +10126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "g7",
           "package": "hly",
@@ -9285,6 +10136,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "g7",
           "package": "hly",
@@ -9297,6 +10149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "geh3",
           "package": "hly",
@@ -9306,6 +10159,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "geh3",
           "package": "hly",
@@ -9318,6 +10172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "geh4",
           "package": "hly",
@@ -9327,6 +10182,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "geh4",
           "package": "hly",
@@ -9339,6 +10195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "geh5",
           "package": "hly",
@@ -9348,6 +10205,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "geh5",
           "package": "hly",
@@ -9360,6 +10218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "geh6",
           "package": "hly",
@@ -9369,6 +10228,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "geh6",
           "package": "hly",
@@ -9381,6 +10241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ges1",
           "package": "hly",
@@ -9390,6 +10251,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ges1",
           "package": "hly",
@@ -9402,6 +10264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ges2",
           "package": "hly",
@@ -9411,6 +10274,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ges2",
           "package": "hly",
@@ -9423,6 +10287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ges3",
           "package": "hly",
@@ -9432,6 +10297,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ges3",
           "package": "hly",
@@ -9444,6 +10310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ges4",
           "package": "hly",
@@ -9453,6 +10320,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ges4",
           "package": "hly",
@@ -9465,6 +10333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ges5",
           "package": "hly",
@@ -9474,6 +10343,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ges5",
           "package": "hly",
@@ -9486,6 +10356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ges6",
           "package": "hly",
@@ -9495,6 +10366,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ges6",
           "package": "hly",
@@ -9507,6 +10379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ges7",
           "package": "hly",
@@ -9516,6 +10389,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "ges7",
           "package": "hly",
@@ -9528,6 +10402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "geseh3",
           "package": "hly",
@@ -9537,6 +10412,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "geseh3",
           "package": "hly",
@@ -9549,6 +10425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "geseh4",
           "package": "hly",
@@ -9558,6 +10435,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "geseh4",
           "package": "hly",
@@ -9570,6 +10448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "geseh5",
           "package": "hly",
@@ -9579,6 +10458,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "geseh5",
           "package": "hly",
@@ -9591,6 +10471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "geseh6",
           "package": "hly",
@@ -9600,6 +10481,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "geseh6",
           "package": "hly",
@@ -9612,6 +10494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "geses4",
           "package": "hly",
@@ -9621,6 +10504,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "geses4",
           "package": "hly",
@@ -9633,6 +10517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "geses5",
           "package": "hly",
@@ -9642,6 +10527,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "geses5",
           "package": "hly",
@@ -9654,6 +10540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gih3",
           "package": "hly",
@@ -9663,6 +10550,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gih3",
           "package": "hly",
@@ -9675,6 +10563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gih4",
           "package": "hly",
@@ -9684,6 +10573,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gih4",
           "package": "hly",
@@ -9696,6 +10586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gih5",
           "package": "hly",
@@ -9705,6 +10596,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gih5",
           "package": "hly",
@@ -9717,6 +10609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gih6",
           "package": "hly",
@@ -9726,6 +10619,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gih6",
           "package": "hly",
@@ -9738,6 +10632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gis1",
           "package": "hly",
@@ -9747,6 +10642,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gis1",
           "package": "hly",
@@ -9759,6 +10655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gis2",
           "package": "hly",
@@ -9768,6 +10665,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gis2",
           "package": "hly",
@@ -9780,6 +10678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gis3",
           "package": "hly",
@@ -9789,6 +10688,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gis3",
           "package": "hly",
@@ -9801,6 +10701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gis4",
           "package": "hly",
@@ -9810,6 +10711,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gis4",
           "package": "hly",
@@ -9822,6 +10724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gis5",
           "package": "hly",
@@ -9831,6 +10734,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gis5",
           "package": "hly",
@@ -9843,6 +10747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gis6",
           "package": "hly",
@@ -9852,6 +10757,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gis6",
           "package": "hly",
@@ -9864,6 +10770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gis7",
           "package": "hly",
@@ -9873,6 +10780,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gis7",
           "package": "hly",
@@ -9885,6 +10793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gisih3",
           "package": "hly",
@@ -9894,6 +10803,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gisih3",
           "package": "hly",
@@ -9906,6 +10816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gisih4",
           "package": "hly",
@@ -9915,6 +10826,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gisih4",
           "package": "hly",
@@ -9927,6 +10839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gisih5",
           "package": "hly",
@@ -9936,6 +10849,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gisih5",
           "package": "hly",
@@ -9948,6 +10862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gisih6",
           "package": "hly",
@@ -9957,6 +10872,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gisih6",
           "package": "hly",
@@ -9969,6 +10885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gisis2",
           "package": "hly",
@@ -9978,6 +10895,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gisis2",
           "package": "hly",
@@ -9990,6 +10908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gisis3",
           "package": "hly",
@@ -9999,6 +10918,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gisis3",
           "package": "hly",
@@ -10011,6 +10931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gisis4",
           "package": "hly",
@@ -10020,6 +10941,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gisis4",
           "package": "hly",
@@ -10032,6 +10954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gisis5",
           "package": "hly",
@@ -10041,6 +10964,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "gisis5",
           "package": "hly",
@@ -10053,6 +10977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "pitch_to_music",
           "package": "hly",
@@ -10062,6 +10987,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant Note",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant.Note",
           "name": "pitch_to_music",
           "normalized": "Pitch-\u003eMusic",
@@ -10077,6 +11003,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNotation related constants.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "Constant",
           "package": "hly",
@@ -10086,6 +11013,7 @@
         "index": {
           "description": "Notation related constants",
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "Constant",
           "package": "hly",
@@ -10099,6 +11027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "a2_paper",
           "package": "hly",
@@ -10108,6 +11037,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "a2_paper",
           "package": "hly",
@@ -10120,6 +11050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "a3_paper",
           "package": "hly",
@@ -10129,6 +11060,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "a3_paper",
           "package": "hly",
@@ -10141,6 +11073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "a4_paper",
           "package": "hly",
@@ -10150,6 +11083,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "a4_paper",
           "package": "hly",
@@ -10162,6 +11096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "accent",
           "package": "hly",
@@ -10171,6 +11106,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "accent",
           "package": "hly",
@@ -10183,6 +11119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "after_grace",
           "package": "hly",
@@ -10192,6 +11129,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "after_grace",
           "normalized": "Music-\u003eMusic-\u003eMusic",
@@ -10206,6 +11144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "alto_clef",
           "package": "hly",
@@ -10215,6 +11154,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "alto_clef",
           "package": "hly",
@@ -10227,6 +11167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "arpeggio",
           "package": "hly",
@@ -10236,6 +11177,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "arpeggio",
           "package": "hly",
@@ -10248,6 +11190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "auto_beam_off",
           "package": "hly",
@@ -10257,6 +11200,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "auto_beam_off",
           "package": "hly",
@@ -10269,6 +11213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "bar_line_check",
           "package": "hly",
@@ -10278,6 +11223,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "bar_line_check",
           "package": "hly",
@@ -10290,6 +11236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "baroque_noteheads",
           "package": "hly",
@@ -10299,6 +11246,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "baroque_noteheads",
           "package": "hly",
@@ -10311,6 +11259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "bass_8vb_clef",
           "package": "hly",
@@ -10320,6 +11269,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "bass_8vb_clef",
           "package": "hly",
@@ -10332,6 +11282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "bass_clef",
           "package": "hly",
@@ -10341,6 +11292,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "bass_clef",
           "package": "hly",
@@ -10353,6 +11305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "begin_8va",
           "package": "hly",
@@ -10362,6 +11315,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "begin_8va",
           "package": "hly",
@@ -10375,6 +11329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBeaming annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "begin_beam",
           "package": "hly",
@@ -10385,6 +11340,7 @@
         "index": {
           "description": "Beaming annotations",
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "begin_beam",
           "package": "hly",
@@ -10398,6 +11354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhrasing slur annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "begin_phrasing_slur",
           "package": "hly",
@@ -10408,6 +11365,7 @@
         "index": {
           "description": "Phrasing slur annotations",
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "begin_phrasing_slur",
           "package": "hly",
@@ -10421,6 +11379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSlur annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "begin_slur",
           "package": "hly",
@@ -10431,6 +11390,7 @@
         "index": {
           "description": "Slur annotations",
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "begin_slur",
           "package": "hly",
@@ -10443,6 +11403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "cAcc",
           "package": "hly",
@@ -10452,6 +11413,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "cAcc",
           "package": "hly",
@@ -10466,6 +11428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest specific note-heads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "cross_noteheads",
           "package": "hly",
@@ -10476,6 +11439,7 @@
         "index": {
           "description": "Request specific note-heads",
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "cross_noteheads",
           "package": "hly",
@@ -10488,6 +11452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "diamond_noteheads",
           "package": "hly",
@@ -10497,6 +11462,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "diamond_noteheads",
           "package": "hly",
@@ -10509,6 +11475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "double_barline",
           "package": "hly",
@@ -10518,6 +11485,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "double_barline",
           "package": "hly",
@@ -10530,6 +11498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "dynamic_down",
           "package": "hly",
@@ -10539,6 +11508,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "dynamic_down",
           "package": "hly",
@@ -10551,6 +11521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "dynamic_neutral",
           "package": "hly",
@@ -10560,6 +11531,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "dynamic_neutral",
           "package": "hly",
@@ -10572,6 +11544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "dynamic_up",
           "package": "hly",
@@ -10581,6 +11554,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "dynamic_up",
           "package": "hly",
@@ -10593,6 +11567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "end_8va",
           "package": "hly",
@@ -10602,6 +11577,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "end_8va",
           "package": "hly",
@@ -10615,6 +11591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBeaming annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "end_beam",
           "package": "hly",
@@ -10625,6 +11602,7 @@
         "index": {
           "description": "Beaming annotations",
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "end_beam",
           "package": "hly",
@@ -10638,6 +11616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhrasing slur annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "end_phrasing_slur",
           "package": "hly",
@@ -10648,6 +11627,7 @@
         "index": {
           "description": "Phrasing slur annotations",
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "end_phrasing_slur",
           "package": "hly",
@@ -10661,6 +11641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSlur annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "end_slur",
           "package": "hly",
@@ -10671,6 +11652,7 @@
         "index": {
           "description": "Slur annotations",
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "end_slur",
           "package": "hly",
@@ -10683,6 +11665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "fermata",
           "package": "hly",
@@ -10692,6 +11675,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "fermata",
           "package": "hly",
@@ -10704,6 +11688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "final_barline",
           "package": "hly",
@@ -10713,6 +11698,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "final_barline",
           "package": "hly",
@@ -10725,6 +11711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "flageolet",
           "package": "hly",
@@ -10734,6 +11721,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "flageolet",
           "package": "hly",
@@ -10746,6 +11734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "glissando",
           "package": "hly",
@@ -10755,6 +11744,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "glissando",
           "package": "hly",
@@ -10767,6 +11757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "grace",
           "package": "hly",
@@ -10776,6 +11767,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "grace",
           "normalized": "Music-\u003eMusic",
@@ -10790,6 +11782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "harmonic",
           "package": "hly",
@@ -10799,6 +11792,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "harmonic",
           "package": "hly",
@@ -10811,6 +11805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "harmonic_mixed_noteheads",
           "package": "hly",
@@ -10820,6 +11815,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "harmonic_mixed_noteheads",
           "package": "hly",
@@ -10832,6 +11828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "harmonic_noteheads",
           "package": "hly",
@@ -10841,6 +11838,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "harmonic_noteheads",
           "package": "hly",
@@ -10853,6 +11851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "laissezVibrer",
           "package": "hly",
@@ -10862,6 +11861,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "laissezVibrer",
           "package": "hly",
@@ -10875,6 +11875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "landscape",
           "package": "hly",
@@ -10884,6 +11885,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "landscape",
           "normalized": "Paper-\u003ePaper",
@@ -10898,6 +11900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "length_scale",
           "package": "hly",
@@ -10907,6 +11910,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "length_scale",
           "normalized": "Double-\u003eLength-\u003eLength",
@@ -10921,6 +11925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "marcato",
           "package": "hly",
@@ -10930,6 +11935,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "marcato",
           "package": "hly",
@@ -10942,6 +11948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "mensural_noteheads",
           "package": "hly",
@@ -10951,6 +11958,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "mensural_noteheads",
           "package": "hly",
@@ -10963,6 +11971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "mk_fragment_paper",
           "package": "hly",
@@ -10972,6 +11981,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "mk_fragment_paper",
           "normalized": "Double-\u003eDouble-\u003ePaper",
@@ -10986,6 +11996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "neomensural_noteheads",
           "package": "hly",
@@ -10995,6 +12006,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "neomensural_noteheads",
           "package": "hly",
@@ -11007,6 +12019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "no_page_break",
           "package": "hly",
@@ -11016,6 +12029,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "no_page_break",
           "package": "hly",
@@ -11028,6 +12042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "no_ped",
           "package": "hly",
@@ -11037,6 +12052,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "no_ped",
           "package": "hly",
@@ -11049,6 +12065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "no_system_break",
           "package": "hly",
@@ -11058,6 +12075,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "no_system_break",
           "package": "hly",
@@ -11070,6 +12088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "page_break",
           "package": "hly",
@@ -11079,6 +12098,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "page_break",
           "package": "hly",
@@ -11091,6 +12111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "paper_incr_size",
           "package": "hly",
@@ -11100,6 +12121,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "paper_incr_size",
           "normalized": "Paper-\u003ePaper",
@@ -11114,6 +12136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "ped",
           "package": "hly",
@@ -11123,6 +12146,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "ped",
           "package": "hly",
@@ -11135,6 +12159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "percussion_clef",
           "package": "hly",
@@ -11144,6 +12169,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "percussion_clef",
           "package": "hly",
@@ -11156,6 +12182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "petrucci_noteheads",
           "package": "hly",
@@ -11165,6 +12192,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "petrucci_noteheads",
           "package": "hly",
@@ -11177,6 +12205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "rAcc",
           "package": "hly",
@@ -11186,6 +12215,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "rAcc",
           "package": "hly",
@@ -11200,6 +12230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRevert to standard note-heads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "revert_noteheads",
           "package": "hly",
@@ -11210,6 +12241,7 @@
         "index": {
           "description": "Revert to standard note-heads",
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "revert_noteheads",
           "package": "hly",
@@ -11222,6 +12254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "set_accidental_style_dodecaphonic",
           "package": "hly",
@@ -11231,6 +12264,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "set_accidental_style_dodecaphonic",
           "package": "hly",
@@ -11243,6 +12277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "set_accidental_style_modern",
           "package": "hly",
@@ -11252,6 +12287,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "set_accidental_style_modern",
           "package": "hly",
@@ -11264,6 +12300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "set_accidental_style_neo_modern",
           "package": "hly",
@@ -11273,6 +12310,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "set_accidental_style_neo_modern",
           "package": "hly",
@@ -11286,6 +12324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest particular note-heads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "set_noteheads",
           "package": "hly",
@@ -11296,6 +12335,7 @@
         "index": {
           "description": "Request particular note-heads",
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "set_noteheads",
           "normalized": "String-\u003eMusic",
@@ -11310,6 +12350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "slur_down",
           "package": "hly",
@@ -11319,6 +12360,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "slur_down",
           "package": "hly",
@@ -11331,6 +12373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "slur_neutral",
           "package": "hly",
@@ -11340,6 +12383,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "slur_neutral",
           "package": "hly",
@@ -11352,6 +12396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "slur_up",
           "package": "hly",
@@ -11361,6 +12406,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "slur_up",
           "package": "hly",
@@ -11373,6 +12419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "staccato",
           "package": "hly",
@@ -11382,6 +12429,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "staccato",
           "package": "hly",
@@ -11394,6 +12442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "stem_down",
           "package": "hly",
@@ -11403,6 +12452,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "stem_down",
           "package": "hly",
@@ -11415,6 +12465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "stem_neutral",
           "package": "hly",
@@ -11424,6 +12475,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "stem_neutral",
           "package": "hly",
@@ -11436,6 +12488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "stem_tremolo",
           "package": "hly",
@@ -11445,6 +12498,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "stem_tremolo",
           "normalized": "Integer-\u003eAnnotation",
@@ -11459,6 +12513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "stem_up",
           "package": "hly",
@@ -11468,6 +12523,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "stem_up",
           "package": "hly",
@@ -11480,6 +12536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "system_break",
           "package": "hly",
@@ -11489,6 +12546,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "system_break",
           "package": "hly",
@@ -11501,6 +12559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "tempo",
           "package": "hly",
@@ -11510,6 +12569,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "tempo",
           "normalized": "Duration-\u003eInteger-\u003eMusic",
@@ -11524,6 +12584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "tenor_clef",
           "package": "hly",
@@ -11533,6 +12594,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "tenor_clef",
           "package": "hly",
@@ -11545,6 +12607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "tenuto",
           "package": "hly",
@@ -11554,6 +12617,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "tenuto",
           "package": "hly",
@@ -11566,6 +12630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "tie",
           "package": "hly",
@@ -11575,6 +12640,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "tie",
           "package": "hly",
@@ -11587,6 +12653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "treble_15ma_clef",
           "package": "hly",
@@ -11596,6 +12663,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "treble_15ma_clef",
           "package": "hly",
@@ -11608,6 +12676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "treble_8va_clef",
           "package": "hly",
@@ -11617,6 +12686,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "treble_8va_clef",
           "package": "hly",
@@ -11629,6 +12699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "treble_8vb_clef",
           "package": "hly",
@@ -11638,6 +12709,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "treble_8vb_clef",
           "package": "hly",
@@ -11650,6 +12722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "treble_clef",
           "package": "hly",
@@ -11659,6 +12732,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "treble_clef",
           "package": "hly",
@@ -11671,6 +12745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "tremolo",
           "package": "hly",
@@ -11680,6 +12755,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "tremolo",
           "normalized": "(Music,Music)-\u003eInteger-\u003eMusic",
@@ -11694,6 +12770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "tuplet_down",
           "package": "hly",
@@ -11703,6 +12780,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "tuplet_down",
           "package": "hly",
@@ -11715,6 +12793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "tuplet_neutral",
           "package": "hly",
@@ -11724,6 +12803,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "tuplet_neutral",
           "package": "hly",
@@ -11736,6 +12816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "tuplet_up",
           "package": "hly",
@@ -11745,6 +12826,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "tuplet_up",
           "package": "hly",
@@ -11757,6 +12839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "voice_one",
           "package": "hly",
@@ -11766,6 +12849,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "voice_one",
           "package": "hly",
@@ -11778,6 +12862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Constant",
           "name": "voice_two",
           "package": "hly",
@@ -11787,6 +12872,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Constant",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Constant",
           "name": "voice_two",
           "package": "hly",
@@ -11799,6 +12885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Literal",
           "name": "Literal",
           "package": "hly",
@@ -11807,6 +12894,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Literal",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Literal",
           "name": "Literal",
           "package": "hly",
@@ -11820,6 +12908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Literal",
           "name": "l",
           "package": "hly",
@@ -11829,6 +12918,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Literal",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Literal",
           "name": "l",
           "package": "hly",
@@ -11841,6 +12931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Literal",
           "name": "r",
           "package": "hly",
@@ -11850,6 +12941,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Literal",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Literal",
           "name": "r",
           "normalized": "Duration-\u003eMusic",
@@ -11864,6 +12956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Literal",
           "name": "r'",
           "package": "hly",
@@ -11873,6 +12966,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Literal",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Literal",
           "name": "r'",
           "normalized": "Time_Signature-\u003eMusic",
@@ -11887,6 +12981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Measure",
           "name": "Measure",
           "package": "hly",
@@ -11895,6 +12990,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Measure",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Measure",
           "name": "Measure",
           "package": "hly",
@@ -11908,6 +13004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Measure",
           "name": "M_Annotation",
           "package": "hly",
@@ -11916,6 +13013,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Measure",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Measure",
           "name": "M_Annotation",
           "package": "hly",
@@ -11929,6 +13027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Measure",
           "name": "Measure",
           "package": "hly",
@@ -11937,6 +13036,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Measure",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Measure",
           "name": "Measure",
           "package": "hly",
@@ -11950,6 +13050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Measure",
           "name": "Measure",
           "package": "hly",
@@ -11959,6 +13060,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Measure",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Measure",
           "name": "Measure",
           "normalized": "Measure[M_Annotation][Music]",
@@ -11974,6 +13076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Measure",
           "name": "m_annotate",
           "package": "hly",
@@ -11983,6 +13086,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Measure",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Measure",
           "name": "m_annotate",
           "normalized": "M_Annotation-\u003eMeasure-\u003eMeasure",
@@ -11997,6 +13101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Measure",
           "name": "m_annotate'",
           "package": "hly",
@@ -12006,6 +13111,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Measure",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Measure",
           "name": "m_annotate'",
           "normalized": "[M_Annotation]-\u003eMeasure-\u003eMeasure",
@@ -12020,6 +13126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Measure",
           "name": "m_annotate_first'",
           "package": "hly",
@@ -12029,6 +13136,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Measure",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Measure",
           "name": "m_annotate_first'",
           "normalized": "[M_Annotation]-\u003e[Measure]-\u003e[Measure]",
@@ -12043,6 +13151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Measure",
           "name": "m_annotate_last'",
           "package": "hly",
@@ -12052,6 +13161,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Measure",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Measure",
           "name": "m_annotate_last'",
           "normalized": "[M_Annotation]-\u003e[Measure]-\u003e[Measure]",
@@ -12066,6 +13176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Measure",
           "name": "m_append",
           "package": "hly",
@@ -12075,6 +13186,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Measure",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Measure",
           "name": "m_append",
           "normalized": "[Music]-\u003eMeasure-\u003eMeasure",
@@ -12089,6 +13201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Measure",
           "name": "m_elements",
           "package": "hly",
@@ -12098,6 +13211,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Measure",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Measure",
           "name": "m_elements",
           "normalized": "Measure-\u003e[Music]",
@@ -12112,6 +13226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Measure",
           "name": "mm_elements",
           "package": "hly",
@@ -12121,6 +13236,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Measure",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Measure",
           "name": "mm_elements",
           "normalized": "[Measure]-\u003e[Music]",
@@ -12135,6 +13251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Model",
           "package": "hly",
@@ -12143,6 +13260,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Model",
           "package": "hly",
@@ -12156,6 +13274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Annotation",
           "package": "hly",
@@ -12164,6 +13283,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Annotation",
           "package": "hly",
@@ -12177,6 +13297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Articulation_T",
           "package": "hly",
@@ -12185,6 +13306,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Articulation_T",
           "package": "hly",
@@ -12198,6 +13320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Bar_T",
           "package": "hly",
@@ -12206,6 +13329,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Bar_T",
           "package": "hly",
@@ -12219,6 +13343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Command_T",
           "package": "hly",
@@ -12227,6 +13352,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Command_T",
           "package": "hly",
@@ -12240,6 +13366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Dynamic_T",
           "package": "hly",
@@ -12248,6 +13375,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Dynamic_T",
           "package": "hly",
@@ -12261,6 +13389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Format",
           "package": "hly",
@@ -12269,6 +13398,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Format",
           "package": "hly",
@@ -12282,6 +13412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Fragment",
           "package": "hly",
@@ -12290,6 +13421,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Fragment",
           "package": "hly",
@@ -12303,6 +13435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Header",
           "package": "hly",
@@ -12311,6 +13444,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Header",
           "package": "hly",
@@ -12324,6 +13458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Length",
           "package": "hly",
@@ -12332,6 +13467,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Length",
           "package": "hly",
@@ -12345,6 +13481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Music",
           "package": "hly",
@@ -12353,6 +13490,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Music",
           "package": "hly",
@@ -12367,6 +13505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMusic\u003c/a\u003e\u003c/code\u003e element category enumeration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Music_C",
           "package": "hly",
@@ -12376,6 +13515,7 @@
         "index": {
           "description": "Music element category enumeration",
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Music_C",
           "package": "hly",
@@ -12389,6 +13529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Paper",
           "package": "hly",
@@ -12397,6 +13538,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Paper",
           "package": "hly",
@@ -12410,6 +13552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Part",
           "package": "hly",
@@ -12418,6 +13561,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Part",
           "package": "hly",
@@ -12431,6 +13575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Phrasing_T",
           "package": "hly",
@@ -12439,6 +13584,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Phrasing_T",
           "package": "hly",
@@ -12452,6 +13598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Score",
           "package": "hly",
@@ -12460,6 +13607,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Score",
           "package": "hly",
@@ -12473,6 +13621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Score_Settings",
           "package": "hly",
@@ -12481,6 +13630,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Score_Settings",
           "package": "hly",
@@ -12494,6 +13644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Staff",
           "package": "hly",
@@ -12502,6 +13653,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Staff",
           "package": "hly",
@@ -12515,6 +13667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Staff_ID",
           "package": "hly",
@@ -12523,6 +13676,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Staff_ID",
           "package": "hly",
@@ -12536,6 +13690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Staff_Name",
           "package": "hly",
@@ -12544,6 +13699,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Staff_Name",
           "package": "hly",
@@ -12557,6 +13713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Staff_Scalar",
           "package": "hly",
@@ -12565,6 +13722,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Staff_Scalar",
           "package": "hly",
@@ -12578,6 +13736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Staff_Set_T",
           "package": "hly",
@@ -12586,6 +13745,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Staff_Set_T",
           "package": "hly",
@@ -12599,6 +13759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Staff_Settings",
           "package": "hly",
@@ -12607,6 +13768,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Staff_Settings",
           "package": "hly",
@@ -12620,6 +13782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Staff_T",
           "package": "hly",
@@ -12628,6 +13791,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Staff_T",
           "package": "hly",
@@ -12641,6 +13805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Text_T",
           "package": "hly",
@@ -12649,6 +13814,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Text_T",
           "package": "hly",
@@ -12662,6 +13828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Tuplet_Mode",
           "package": "hly",
@@ -12670,6 +13837,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Tuplet_Mode",
           "package": "hly",
@@ -12683,6 +13851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Tuplet_T",
           "package": "hly",
@@ -12691,6 +13860,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Tuplet_T",
           "package": "hly",
@@ -12704,6 +13874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Units",
           "package": "hly",
@@ -12712,6 +13883,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Units",
           "package": "hly",
@@ -12725,6 +13897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Version",
           "package": "hly",
@@ -12733,6 +13906,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Version",
           "package": "hly",
@@ -12746,6 +13920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Work",
           "package": "hly",
@@ -12754,6 +13929,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Work",
           "package": "hly",
@@ -12767,6 +13943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Accent",
           "package": "hly",
@@ -12776,6 +13953,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Accent",
           "package": "hly",
@@ -12789,6 +13967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "AfterGrace",
           "package": "hly",
@@ -12798,6 +13977,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "AfterGrace",
           "package": "hly",
@@ -12811,6 +13991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "AfterGrace_C",
           "package": "hly",
@@ -12820,6 +14001,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "AfterGrace_C",
           "package": "hly",
@@ -12833,6 +14015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Arpeggio",
           "package": "hly",
@@ -12842,6 +14025,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Arpeggio",
           "package": "hly",
@@ -12855,6 +14039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "ArpeggioDown",
           "package": "hly",
@@ -12864,6 +14049,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "ArpeggioDown",
           "package": "hly",
@@ -12877,6 +14063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "ArpeggioNeutral",
           "package": "hly",
@@ -12886,6 +14073,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "ArpeggioNeutral",
           "package": "hly",
@@ -12899,6 +14087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "ArpeggioUp",
           "package": "hly",
@@ -12908,6 +14097,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "ArpeggioUp",
           "package": "hly",
@@ -12921,6 +14111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Articulation",
           "package": "hly",
@@ -12930,6 +14121,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Articulation",
           "package": "hly",
@@ -12943,6 +14135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "AutoBeamOff",
           "package": "hly",
@@ -12952,6 +14145,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "AutoBeamOff",
           "package": "hly",
@@ -12965,6 +14159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Bar",
           "package": "hly",
@@ -12974,6 +14169,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Bar",
           "package": "hly",
@@ -12987,6 +14183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "BarNumberCheck",
           "package": "hly",
@@ -12996,6 +14193,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "BarNumberCheck",
           "package": "hly",
@@ -13009,6 +14207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "BarlineCheck",
           "package": "hly",
@@ -13018,6 +14217,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "BarlineCheck",
           "package": "hly",
@@ -13031,6 +14231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Begin_Beam",
           "package": "hly",
@@ -13040,6 +14241,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Begin_Beam",
           "package": "hly",
@@ -13053,6 +14255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Begin_PhrasingSlur",
           "package": "hly",
@@ -13062,6 +14265,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Begin_PhrasingSlur",
           "package": "hly",
@@ -13075,6 +14279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Begin_Slur",
           "package": "hly",
@@ -13084,6 +14289,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Begin_Slur",
           "package": "hly",
@@ -13097,6 +14303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Begin_Tie",
           "package": "hly",
@@ -13106,6 +14313,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Begin_Tie",
           "package": "hly",
@@ -13119,6 +14327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Break",
           "package": "hly",
@@ -13128,6 +14337,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Break",
           "package": "hly",
@@ -13141,6 +14351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "CM",
           "package": "hly",
@@ -13150,6 +14361,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "CM",
           "package": "hly",
@@ -13163,6 +14375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "CautionaryAccidental",
           "package": "hly",
@@ -13172,6 +14385,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "CautionaryAccidental",
           "package": "hly",
@@ -13185,6 +14399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Change",
           "package": "hly",
@@ -13194,6 +14409,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Change",
           "package": "hly",
@@ -13207,6 +14423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "ChoirStaff",
           "package": "hly",
@@ -13216,6 +14433,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "ChoirStaff",
           "package": "hly",
@@ -13229,6 +14447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Chord",
           "package": "hly",
@@ -13238,6 +14457,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Chord",
           "package": "hly",
@@ -13251,6 +14471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Chord_C",
           "package": "hly",
@@ -13260,6 +14481,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Chord_C",
           "package": "hly",
@@ -13273,6 +14495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Clef",
           "package": "hly",
@@ -13282,6 +14505,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Clef",
           "package": "hly",
@@ -13295,6 +14519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Clef_C",
           "package": "hly",
@@ -13304,6 +14529,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Clef_C",
           "package": "hly",
@@ -13317,6 +14543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Command",
           "package": "hly",
@@ -13326,6 +14553,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Command",
           "normalized": "Command Command_T[Annotation]",
@@ -13341,6 +14569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Command_C",
           "package": "hly",
@@ -13350,6 +14579,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Command_C",
           "package": "hly",
@@ -13363,6 +14593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "CompositeAnnotation",
           "package": "hly",
@@ -13372,6 +14603,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "CompositeAnnotation",
           "normalized": "CompositeAnnotation[Annotation]",
@@ -13387,6 +14619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "DoubleBarline",
           "package": "hly",
@@ -13396,6 +14629,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "DoubleBarline",
           "package": "hly",
@@ -13409,6 +14643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "DownBow",
           "package": "hly",
@@ -13418,6 +14653,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "DownBow",
           "package": "hly",
@@ -13431,6 +14667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Dynamic",
           "package": "hly",
@@ -13440,6 +14677,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Dynamic",
           "package": "hly",
@@ -13453,6 +14691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "DynamicDown",
           "package": "hly",
@@ -13462,6 +14701,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "DynamicDown",
           "package": "hly",
@@ -13475,6 +14715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "DynamicNeutral",
           "package": "hly",
@@ -13484,6 +14725,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "DynamicNeutral",
           "package": "hly",
@@ -13497,6 +14739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "DynamicUp",
           "package": "hly",
@@ -13506,6 +14749,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "DynamicUp",
           "package": "hly",
@@ -13519,6 +14763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Dynamic_Mark",
           "package": "hly",
@@ -13528,6 +14773,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Dynamic_Mark",
           "package": "hly",
@@ -13541,6 +14787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Empty",
           "package": "hly",
@@ -13550,6 +14797,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Empty",
           "package": "hly",
@@ -13563,6 +14811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Empty_C",
           "package": "hly",
@@ -13572,6 +14821,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Empty_C",
           "package": "hly",
@@ -13585,6 +14835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "End_Beam",
           "package": "hly",
@@ -13594,6 +14845,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "End_Beam",
           "package": "hly",
@@ -13607,6 +14859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "End_PhrasingSlur",
           "package": "hly",
@@ -13616,6 +14869,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "End_PhrasingSlur",
           "package": "hly",
@@ -13629,6 +14883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "End_Slur",
           "package": "hly",
@@ -13638,6 +14893,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "End_Slur",
           "package": "hly",
@@ -13651,6 +14907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Espressivo",
           "package": "hly",
@@ -13660,6 +14917,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Espressivo",
           "package": "hly",
@@ -13673,6 +14931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Fermata",
           "package": "hly",
@@ -13682,6 +14941,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Fermata",
           "package": "hly",
@@ -13695,6 +14955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "FinalBarline",
           "package": "hly",
@@ -13704,6 +14965,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "FinalBarline",
           "package": "hly",
@@ -13717,6 +14979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Flageolet",
           "package": "hly",
@@ -13726,6 +14989,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Flageolet",
           "package": "hly",
@@ -13739,6 +15003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Fragment",
           "package": "hly",
@@ -13748,6 +15013,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Fragment",
           "package": "hly",
@@ -13761,6 +15027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Glissando",
           "package": "hly",
@@ -13770,6 +15037,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Glissando",
           "package": "hly",
@@ -13783,6 +15051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Grace",
           "package": "hly",
@@ -13792,6 +15061,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Grace",
           "package": "hly",
@@ -13805,6 +15075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Grace_C",
           "package": "hly",
@@ -13814,6 +15085,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Grace_C",
           "package": "hly",
@@ -13827,6 +15099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "GrandStaff",
           "package": "hly",
@@ -13836,6 +15109,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "GrandStaff",
           "package": "hly",
@@ -13849,6 +15123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Hairpin",
           "package": "hly",
@@ -13858,6 +15133,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Hairpin",
           "package": "hly",
@@ -13871,6 +15147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Harmonic",
           "package": "hly",
@@ -13880,6 +15157,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Harmonic",
           "package": "hly",
@@ -13893,6 +15171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Header",
           "package": "hly",
@@ -13902,6 +15181,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Header",
           "package": "hly",
@@ -13915,6 +15195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Join",
           "package": "hly",
@@ -13924,6 +15205,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Join",
           "normalized": "Join[Music]",
@@ -13939,6 +15221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Join_C",
           "package": "hly",
@@ -13948,6 +15231,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Join_C",
           "package": "hly",
@@ -13961,6 +15245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Key",
           "package": "hly",
@@ -13970,6 +15255,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Key",
           "package": "hly",
@@ -13983,6 +15269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Key_C",
           "package": "hly",
@@ -13992,6 +15279,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Key_C",
           "package": "hly",
@@ -14005,6 +15293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "LaissezVibrer",
           "package": "hly",
@@ -14014,6 +15303,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "LaissezVibrer",
           "package": "hly",
@@ -14027,6 +15317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "LeftRepeatBarline",
           "package": "hly",
@@ -14036,6 +15327,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "LeftRepeatBarline",
           "package": "hly",
@@ -14049,6 +15341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Length",
           "package": "hly",
@@ -14058,6 +15351,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Length",
           "package": "hly",
@@ -14071,6 +15365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "MM",
           "package": "hly",
@@ -14080,6 +15375,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "MM",
           "package": "hly",
@@ -14093,6 +15389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "MMRest",
           "package": "hly",
@@ -14102,6 +15399,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "MMRest",
           "normalized": "MMRest Integer Time_Signature[Annotation]",
@@ -14117,6 +15415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "MMRest_C",
           "package": "hly",
@@ -14126,6 +15425,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "MMRest_C",
           "package": "hly",
@@ -14139,6 +15439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Marcato",
           "package": "hly",
@@ -14148,6 +15449,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Marcato",
           "package": "hly",
@@ -14161,6 +15463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "MultipleParts",
           "package": "hly",
@@ -14170,6 +15473,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "MultipleParts",
           "normalized": "MultipleParts[[Music]]",
@@ -14185,6 +15489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "NoBreak",
           "package": "hly",
@@ -14194,6 +15499,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "NoBreak",
           "package": "hly",
@@ -14207,6 +15513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "NoPageBreak",
           "package": "hly",
@@ -14216,6 +15523,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "NoPageBreak",
           "package": "hly",
@@ -14229,6 +15537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "NormalBarline",
           "package": "hly",
@@ -14238,6 +15547,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "NormalBarline",
           "package": "hly",
@@ -14251,6 +15561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Normal_Staff",
           "package": "hly",
@@ -14260,6 +15571,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Normal_Staff",
           "package": "hly",
@@ -14273,6 +15585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Normal_Tuplet",
           "package": "hly",
@@ -14282,6 +15595,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Normal_Tuplet",
           "package": "hly",
@@ -14295,6 +15609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Note",
           "package": "hly",
@@ -14304,6 +15619,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Note",
           "package": "hly",
@@ -14317,6 +15633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Note_C",
           "package": "hly",
@@ -14326,6 +15643,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Note_C",
           "package": "hly",
@@ -14339,6 +15657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Octavation",
           "package": "hly",
@@ -14348,6 +15667,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Octavation",
           "package": "hly",
@@ -14361,6 +15681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Open",
           "package": "hly",
@@ -14370,6 +15691,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Open",
           "package": "hly",
@@ -14383,6 +15705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "PDF",
           "package": "hly",
@@ -14392,6 +15715,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "PDF",
           "package": "hly",
@@ -14405,6 +15729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "PNG",
           "package": "hly",
@@ -14414,6 +15739,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "PNG",
           "package": "hly",
@@ -14427,6 +15753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "PS",
           "package": "hly",
@@ -14436,6 +15763,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "PS",
           "package": "hly",
@@ -14449,6 +15777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "PageBreak",
           "package": "hly",
@@ -14458,6 +15787,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "PageBreak",
           "package": "hly",
@@ -14471,6 +15801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Paper",
           "package": "hly",
@@ -14480,6 +15811,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Paper",
           "package": "hly",
@@ -14493,6 +15825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Part",
           "package": "hly",
@@ -14502,6 +15835,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Part",
           "normalized": "Part(Maybe String)[Music]",
@@ -14517,6 +15851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Partial",
           "package": "hly",
@@ -14526,6 +15861,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Partial",
           "package": "hly",
@@ -14539,6 +15875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Phrasing",
           "package": "hly",
@@ -14548,6 +15885,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Phrasing",
           "package": "hly",
@@ -14561,6 +15899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "PianoStaff",
           "package": "hly",
@@ -14570,6 +15909,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "PianoStaff",
           "package": "hly",
@@ -14583,6 +15923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Place_Above",
           "package": "hly",
@@ -14592,6 +15933,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Place_Above",
           "package": "hly",
@@ -14605,6 +15947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Place_Below",
           "package": "hly",
@@ -14614,6 +15957,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Place_Below",
           "package": "hly",
@@ -14627,6 +15971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Polyphony",
           "package": "hly",
@@ -14636,6 +15981,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Polyphony",
           "package": "hly",
@@ -14649,6 +15995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Polyphony_C",
           "package": "hly",
@@ -14658,6 +16005,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Polyphony_C",
           "package": "hly",
@@ -14671,6 +16019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Portato",
           "package": "hly",
@@ -14680,6 +16029,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Portato",
           "package": "hly",
@@ -14693,6 +16043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "ReminderAccidental",
           "package": "hly",
@@ -14702,6 +16053,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "ReminderAccidental",
           "package": "hly",
@@ -14715,6 +16067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Repeat",
           "package": "hly",
@@ -14724,6 +16077,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Repeat",
           "package": "hly",
@@ -14737,6 +16091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Repeat_C",
           "package": "hly",
@@ -14746,6 +16101,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Repeat_C",
           "package": "hly",
@@ -14759,6 +16115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Rest",
           "package": "hly",
@@ -14768,6 +16125,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Rest",
           "normalized": "Rest Duration[Annotation]",
@@ -14783,6 +16141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Rest_C",
           "package": "hly",
@@ -14792,6 +16151,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Rest_C",
           "package": "hly",
@@ -14805,6 +16165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Rhythmic_Staff",
           "package": "hly",
@@ -14814,6 +16175,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Rhythmic_Staff",
           "package": "hly",
@@ -14827,6 +16189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "RightRepeatBarline",
           "package": "hly",
@@ -14836,6 +16199,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "RightRepeatBarline",
           "package": "hly",
@@ -14849,6 +16213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Scale_Durations",
           "package": "hly",
@@ -14858,6 +16223,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Scale_Durations",
           "package": "hly",
@@ -14871,6 +16237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Score",
           "package": "hly",
@@ -14880,6 +16247,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Score",
           "normalized": "Score Score_Settings[Staff]",
@@ -14895,6 +16263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Score_Settings",
           "package": "hly",
@@ -14904,6 +16273,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Score_Settings",
           "package": "hly",
@@ -14917,6 +16287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Skip",
           "package": "hly",
@@ -14926,6 +16297,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Skip",
           "normalized": "Skip Duration[Annotation]",
@@ -14941,6 +16313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Skip_C",
           "package": "hly",
@@ -14950,6 +16323,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Skip_C",
           "package": "hly",
@@ -14963,6 +16337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Staccato",
           "package": "hly",
@@ -14972,6 +16347,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Staccato",
           "package": "hly",
@@ -14985,6 +16361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Staff",
           "package": "hly",
@@ -14994,6 +16371,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Staff",
           "package": "hly",
@@ -15007,6 +16385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "StaffGroup",
           "package": "hly",
@@ -15016,6 +16395,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "StaffGroup",
           "package": "hly",
@@ -15029,6 +16409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "StaffGroup_SquareBracket",
           "package": "hly",
@@ -15038,6 +16419,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "StaffGroup_SquareBracket",
           "package": "hly",
@@ -15051,6 +16433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Staff_Set",
           "package": "hly",
@@ -15060,6 +16443,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Staff_Set",
           "normalized": "Staff_Set Staff_Set_T Staff_Name[Staff]",
@@ -15075,6 +16459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Staff_Settings",
           "package": "hly",
@@ -15084,6 +16469,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Staff_Settings",
           "package": "hly",
@@ -15097,6 +16483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "StemDown",
           "package": "hly",
@@ -15106,6 +16493,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "StemDown",
           "package": "hly",
@@ -15119,6 +16507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "StemNeutral",
           "package": "hly",
@@ -15128,6 +16517,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "StemNeutral",
           "package": "hly",
@@ -15141,6 +16531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "StemTremolo",
           "package": "hly",
@@ -15150,6 +16541,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "StemTremolo",
           "package": "hly",
@@ -15163,6 +16555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "StemUp",
           "package": "hly",
@@ -15172,6 +16565,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "StemUp",
           "package": "hly",
@@ -15185,6 +16579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Stopped",
           "package": "hly",
@@ -15194,6 +16589,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Stopped",
           "package": "hly",
@@ -15207,6 +16603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "SustainOff",
           "package": "hly",
@@ -15216,6 +16613,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "SustainOff",
           "package": "hly",
@@ -15229,6 +16627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "SustainOn",
           "package": "hly",
@@ -15238,6 +16637,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "SustainOn",
           "package": "hly",
@@ -15251,6 +16651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Tempo",
           "package": "hly",
@@ -15260,6 +16661,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Tempo",
           "package": "hly",
@@ -15273,6 +16675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Tempo_C",
           "package": "hly",
@@ -15282,6 +16685,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Tempo_C",
           "package": "hly",
@@ -15295,6 +16699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Tenuto",
           "package": "hly",
@@ -15304,6 +16709,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Tenuto",
           "package": "hly",
@@ -15317,6 +16723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Text",
           "package": "hly",
@@ -15326,6 +16733,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Text",
           "package": "hly",
@@ -15339,6 +16747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Text_Mark",
           "package": "hly",
@@ -15348,6 +16757,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Text_Mark",
           "package": "hly",
@@ -15361,6 +16771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Text_Markup",
           "package": "hly",
@@ -15370,6 +16781,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Text_Markup",
           "package": "hly",
@@ -15383,6 +16795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Text_Plain",
           "package": "hly",
@@ -15392,6 +16805,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Text_Plain",
           "package": "hly",
@@ -15405,6 +16819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Time",
           "package": "hly",
@@ -15414,6 +16829,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Time",
           "package": "hly",
@@ -15427,6 +16843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Time_C",
           "package": "hly",
@@ -15436,6 +16853,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Time_C",
           "package": "hly",
@@ -15449,6 +16867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Tremolo",
           "package": "hly",
@@ -15458,6 +16877,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Tremolo",
           "normalized": "Tremolo(Music,Music)Integer",
@@ -15473,6 +16893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Tremolo_C",
           "package": "hly",
@@ -15482,6 +16903,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Tremolo_C",
           "package": "hly",
@@ -15495,6 +16917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Trill",
           "package": "hly",
@@ -15504,6 +16927,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Trill",
           "package": "hly",
@@ -15517,6 +16941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Tuplet",
           "package": "hly",
@@ -15526,6 +16951,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Tuplet",
           "package": "hly",
@@ -15539,6 +16965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "TupletDown",
           "package": "hly",
@@ -15548,6 +16975,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "TupletDown",
           "package": "hly",
@@ -15561,6 +16989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "TupletNeutral",
           "package": "hly",
@@ -15570,6 +16999,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "TupletNeutral",
           "package": "hly",
@@ -15583,6 +17013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "TupletUp",
           "package": "hly",
@@ -15592,6 +17023,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "TupletUp",
           "package": "hly",
@@ -15605,6 +17037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Tuplet_C",
           "package": "hly",
@@ -15614,6 +17047,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Tuplet_C",
           "package": "hly",
@@ -15627,6 +17061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "UpBow",
           "package": "hly",
@@ -15636,6 +17071,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "UpBow",
           "package": "hly",
@@ -15649,6 +17085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "User",
           "package": "hly",
@@ -15658,6 +17095,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "User",
           "package": "hly",
@@ -15671,6 +17109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Version",
           "package": "hly",
@@ -15680,6 +17119,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Version",
           "package": "hly",
@@ -15693,6 +17133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "VoiceFour",
           "package": "hly",
@@ -15702,6 +17143,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "VoiceFour",
           "package": "hly",
@@ -15715,6 +17157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "VoiceOne",
           "package": "hly",
@@ -15724,6 +17167,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "VoiceOne",
           "package": "hly",
@@ -15737,6 +17181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "VoiceThree",
           "package": "hly",
@@ -15746,6 +17191,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "VoiceThree",
           "package": "hly",
@@ -15759,6 +17205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "VoiceTwo",
           "package": "hly",
@@ -15768,6 +17215,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "VoiceTwo",
           "package": "hly",
@@ -15781,6 +17229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "Work",
           "package": "hly",
@@ -15790,6 +17239,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "Work",
           "package": "hly",
@@ -15803,6 +17253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "binding_offset",
           "package": "hly",
@@ -15812,6 +17263,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "binding_offset",
           "package": "hly",
@@ -15824,6 +17276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "bottom_margin",
           "package": "hly",
@@ -15833,6 +17286,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "bottom_margin",
           "package": "hly",
@@ -15845,6 +17299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "chord_annotations",
           "package": "hly",
@@ -15854,6 +17309,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "chord_annotations",
           "normalized": "[Annotation]",
@@ -15868,6 +17324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "chord_duration",
           "package": "hly",
@@ -15877,6 +17334,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "chord_duration",
           "package": "hly",
@@ -15889,6 +17347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "chord_notes",
           "package": "hly",
@@ -15898,6 +17357,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "chord_notes",
           "normalized": "[Music]",
@@ -15912,6 +17372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "composer",
           "package": "hly",
@@ -15921,6 +17382,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "composer",
           "package": "hly",
@@ -15933,6 +17395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "dedication",
           "package": "hly",
@@ -15942,6 +17405,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "dedication",
           "package": "hly",
@@ -15954,6 +17418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "default_header",
           "package": "hly",
@@ -15963,6 +17428,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "default_header",
           "package": "hly",
@@ -15975,6 +17441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "default_score_settings",
           "package": "hly",
@@ -15984,6 +17451,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "default_score_settings",
           "package": "hly",
@@ -15996,6 +17464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "default_version",
           "package": "hly",
@@ -16005,6 +17474,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "default_version",
           "package": "hly",
@@ -16017,6 +17487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "fragment_music",
           "package": "hly",
@@ -16026,6 +17497,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "fragment_music",
           "package": "hly",
@@ -16038,6 +17510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "fragment_paper",
           "package": "hly",
@@ -16047,6 +17520,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "fragment_paper",
           "package": "hly",
@@ -16059,6 +17533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "fragment_version",
           "package": "hly",
@@ -16068,6 +17543,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "fragment_version",
           "package": "hly",
@@ -16080,6 +17556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "indent",
           "package": "hly",
@@ -16089,6 +17566,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "indent",
           "package": "hly",
@@ -16101,6 +17579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "independent_time_signatures",
           "package": "hly",
@@ -16110,6 +17589,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "independent_time_signatures",
           "package": "hly",
@@ -16122,6 +17602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "inner_margin",
           "package": "hly",
@@ -16131,6 +17612,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "inner_margin",
           "package": "hly",
@@ -16143,6 +17625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "left_margin",
           "package": "hly",
@@ -16152,6 +17635,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "left_margin",
           "package": "hly",
@@ -16164,6 +17648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "ly_bool",
           "package": "hly",
@@ -16173,6 +17658,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "ly_bool",
           "normalized": "Bool-\u003eString",
@@ -16188,6 +17674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCategorise \u003ccode\u003e\u003ca\u003eMusic\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "music_c",
           "package": "hly",
@@ -16198,6 +17685,7 @@
         "index": {
           "description": "Categorise Music element",
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "music_c",
           "normalized": "Music-\u003eMusic_C",
@@ -16212,6 +17700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "note_annotations",
           "package": "hly",
@@ -16221,6 +17710,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "note_annotations",
           "normalized": "[Annotation]",
@@ -16235,6 +17725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "note_duration",
           "package": "hly",
@@ -16244,6 +17735,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "note_duration",
           "package": "hly",
@@ -16256,6 +17748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "note_pitch",
           "package": "hly",
@@ -16265,6 +17758,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "note_pitch",
           "package": "hly",
@@ -16277,6 +17771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "outer_margin",
           "package": "hly",
@@ -16286,6 +17781,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "outer_margin",
           "package": "hly",
@@ -16298,6 +17794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "paper_height",
           "package": "hly",
@@ -16307,6 +17804,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "paper_height",
           "package": "hly",
@@ -16319,6 +17817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "paper_width",
           "package": "hly",
@@ -16328,6 +17827,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "paper_width",
           "package": "hly",
@@ -16340,6 +17840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "print_page_number",
           "package": "hly",
@@ -16349,6 +17850,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "print_page_number",
           "package": "hly",
@@ -16361,6 +17863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "ragged_last",
           "package": "hly",
@@ -16370,6 +17873,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "ragged_last",
           "package": "hly",
@@ -16382,6 +17886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "ragged_last_bottom",
           "package": "hly",
@@ -16391,6 +17896,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "ragged_last_bottom",
           "package": "hly",
@@ -16403,6 +17909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "ragged_right",
           "package": "hly",
@@ -16412,6 +17919,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "ragged_right",
           "package": "hly",
@@ -16424,6 +17932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "remove_empty_staves",
           "package": "hly",
@@ -16433,6 +17942,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "remove_empty_staves",
           "package": "hly",
@@ -16445,6 +17955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "remove_empty_staves_first_system",
           "package": "hly",
@@ -16454,6 +17965,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "remove_empty_staves_first_system",
           "package": "hly",
@@ -16466,6 +17978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "right_margin",
           "package": "hly",
@@ -16475,6 +17988,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "right_margin",
           "package": "hly",
@@ -16487,6 +18001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "subtitle",
           "package": "hly",
@@ -16496,6 +18011,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "subtitle",
           "package": "hly",
@@ -16508,6 +18024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "systems_per_page",
           "package": "hly",
@@ -16517,6 +18034,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "systems_per_page",
           "package": "hly",
@@ -16529,6 +18047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "tagline",
           "package": "hly",
@@ -16538,6 +18057,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "tagline",
           "package": "hly",
@@ -16550,6 +18070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "title",
           "package": "hly",
@@ -16559,6 +18080,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "title",
           "package": "hly",
@@ -16571,6 +18093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "top_margin",
           "package": "hly",
@@ -16580,6 +18103,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "top_margin",
           "package": "hly",
@@ -16592,6 +18116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "two_sided",
           "package": "hly",
@@ -16601,6 +18126,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "two_sided",
           "package": "hly",
@@ -16613,6 +18139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "work_header",
           "package": "hly",
@@ -16622,6 +18149,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "work_header",
           "package": "hly",
@@ -16634,6 +18162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "work_paper",
           "package": "hly",
@@ -16643,6 +18172,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "work_paper",
           "package": "hly",
@@ -16655,6 +18185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "work_score",
           "package": "hly",
@@ -16664,6 +18195,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "work_score",
           "package": "hly",
@@ -16676,6 +18208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Model",
           "name": "work_version",
           "package": "hly",
@@ -16685,6 +18218,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Model",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Model",
           "name": "work_version",
           "package": "hly",
@@ -16697,6 +18231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "Notation",
           "package": "hly",
@@ -16705,6 +18240,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "Notation",
           "package": "hly",
@@ -16719,6 +18255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform ascribed \u003ccode\u003e\u003ca\u003eDuration_A\u003c/a\u003e\u003c/code\u003e value to \u003ccode\u003e\u003ca\u003eMusic\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "DA_F",
           "package": "hly",
@@ -16728,6 +18265,7 @@
         "index": {
           "description": "Transform ascribed Duration value to Music",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "DA_F",
           "package": "hly",
@@ -16742,6 +18280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd \u003ccode\u003e\u003ca\u003eDuration\u003c/a\u003e\u003c/code\u003e to either a \u003ccode\u003eNote\u003c/code\u003e or \u003ccode\u003eChord\u003c/code\u003e \u003ccode\u003e\u003ca\u003eMusic\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "(#)",
           "package": "hly",
@@ -16752,6 +18291,7 @@
         "index": {
           "description": "Add Duration to either Note or Chord Music element",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "(#) #",
           "normalized": "Music-\u003eDuration-\u003eMusic",
@@ -16767,6 +18307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd \u003ccode\u003e\u003ca\u003eDuration\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003ePitch\u003c/a\u003e\u003c/code\u003e to make a \u003ccode\u003eNote\u003c/code\u003e \u003ccode\u003e\u003ca\u003eMusic\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "(##)",
           "package": "hly",
@@ -16777,6 +18318,7 @@
         "index": {
           "description": "Add Duration to Pitch to make Note Music element",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "(##) ##",
           "normalized": "Pitch-\u003eDuration-\u003eMusic",
@@ -16792,6 +18334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd \u003ccode\u003e\u003ca\u003eDuration_A\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003ePitch\u003c/a\u003e\u003c/code\u003e to make a \u003ccode\u003eNote\u003c/code\u003e \u003ccode\u003e\u003ca\u003eMusic\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "(##@)",
           "package": "hly",
@@ -16802,6 +18345,7 @@
         "index": {
           "description": "Add Duration to Pitch to make Note Music element",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "(##@) ##@",
           "normalized": "Pitch-\u003eDuration_A-\u003eMusic",
@@ -16817,6 +18361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd \u003ccode\u003e\u003ca\u003eDuration_A\u003c/a\u003e\u003c/code\u003e to either a \u003ccode\u003eNote\u003c/code\u003e or \u003ccode\u003eChord\u003c/code\u003e \u003ccode\u003e\u003ca\u003eMusic\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "(#@)",
           "package": "hly",
@@ -16827,6 +18372,7 @@
         "index": {
           "description": "Add Duration to either Note or Chord Music element",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "(#@) #@",
           "normalized": "Music-\u003eDuration_A-\u003eMusic",
@@ -16842,6 +18388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct bar number check command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "bar_number_check",
           "package": "hly",
@@ -16852,6 +18399,7 @@
         "index": {
           "description": "Construct bar number check command",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "bar_number_check",
           "normalized": "Integer-\u003eMusic",
@@ -16867,6 +18415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwitch bar numbering visibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "bar_numbering",
           "package": "hly",
@@ -16877,6 +18426,7 @@
         "index": {
           "description": "Switch bar numbering visibility",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "bar_numbering",
           "normalized": "Bool-\u003eMusic",
@@ -16892,6 +18442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange staff.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "change",
           "package": "hly",
@@ -16902,6 +18453,7 @@
         "index": {
           "description": "Change staff",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "change",
           "normalized": "String-\u003eMusic",
@@ -16916,6 +18468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "chd",
           "package": "hly",
@@ -16925,6 +18478,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "chd",
           "normalized": "[Music]-\u003eDuration-\u003eMusic",
@@ -16940,6 +18494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct chord.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "chd_p",
           "package": "hly",
@@ -16950,6 +18505,7 @@
         "index": {
           "description": "Construct chord",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "chd_p",
           "normalized": "[Pitch]-\u003eDuration-\u003eMusic",
@@ -16965,6 +18521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove any reminder or cautionary accidentals at note or chord.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "clr_acc",
           "package": "hly",
@@ -16975,6 +18532,7 @@
         "index": {
           "description": "Remove any reminder or cautionary accidentals at note or chord",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "clr_acc",
           "normalized": "Music-\u003eMusic",
@@ -16990,6 +18548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRest of  \u003ccode\u003e\u003ca\u003eDuration_A\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "da_rest",
           "package": "hly",
@@ -17000,6 +18559,7 @@
         "index": {
           "description": "Rest of Duration",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "da_rest",
           "normalized": "Duration_A-\u003eMusic",
@@ -17015,6 +18575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eda_to_music\u003c/a\u003e\u003c/code\u003e that operates on sets of measures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "da_to_measures",
           "package": "hly",
@@ -17025,6 +18586,7 @@
         "index": {
           "description": "Variant of da to music that operates on sets of measures",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "da_to_measures",
           "normalized": "DA_F a-\u003eMaybe[Time_Signature]-\u003e[[(Duration_A,a)]]-\u003e[Measure]",
@@ -17040,6 +18602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven \u003ccode\u003e\u003ca\u003eDA_F\u003c/a\u003e\u003c/code\u003e transform, transform set of ascribed \u003ccode\u003e\u003ca\u003eDuration_A\u003c/a\u003e\u003c/code\u003e\n values to \u003ccode\u003e\u003ca\u003eMusic\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e import Music.Theory.Duration.Sequence.Notate\n import Music.Theory.Duration.RQ.Tied\n import Music.Theory.Pitch.Name\n import Music.LilyPond.Light.Output.LilyPond\n\u003c/pre\u003e\u003cpre\u003e let {Just d = m_notate True [[(2/3,_f),(1/3,_t)],[(1,_t)],[(1,_f)]]\n     ;jn (i,j) = j ##@ i\n     ;n = ascribe d [c4,d4]\n     ;r = \"\\\\times 2/3 { c' 4 d' 8 ~ } d' 4 ~ d' 4\"}\n in ly_music_elem (Join (da_to_music jn n)) == r\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "da_to_music",
           "package": "hly",
@@ -17050,6 +18613,7 @@
         "index": {
           "description": "Given DA transform transform set of ascribed Duration values to Music import Music.Theory.Duration.Sequence.Notate import Music.Theory.Duration.RQ.Tied import Music.Theory.Pitch.Name import Music.LilyPond.Light.Output.LilyPond let Just notate True jn ascribe c4 d4 times in ly music elem Join da to music jn",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "da_to_music",
           "normalized": "DA_F a-\u003e[(Duration_A,a)]-\u003e[Music]",
@@ -17065,6 +18629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a \u003ccode\u003e\u003ca\u003eDuration\u003c/a\u003e\u003c/code\u003e function to a \u003ccode\u003e\u003ca\u003eMusic\u003c/a\u003e\u003c/code\u003e node, if it has a duration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "edit_dur",
           "package": "hly",
@@ -17075,6 +18640,7 @@
         "index": {
           "description": "Apply Duration function to Music node if it has duration",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "edit_dur",
           "normalized": "(Duration-\u003eDuration)-\u003eMusic-\u003eMusic",
@@ -17090,6 +18656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an empty measure for the specified time signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "empty_measure",
           "package": "hly",
@@ -17100,6 +18667,7 @@
         "index": {
           "description": "Create an empty measure for the specified time signature",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "empty_measure",
           "normalized": "Integer-\u003eInteger-\u003eMusic",
@@ -17114,6 +18682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "grand_staff",
           "package": "hly",
@@ -17123,6 +18692,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "grand_staff",
           "normalized": "Staff_Name-\u003e[[Music]]-\u003eStaff",
@@ -17138,6 +18708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant with names for each staff.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "grand_staff'",
           "package": "hly",
@@ -17148,6 +18719,7 @@
         "index": {
           "description": "Variant with names for each staff",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "grand_staff'",
           "normalized": "Staff_Name-\u003e[Staff_Name]-\u003e[[Music]]-\u003eStaff",
@@ -17163,6 +18735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet or unset the \u003ccode\u003ecircled-tip\u003c/code\u003e hairpin attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "hairpin_circled_tip",
           "package": "hly",
@@ -17173,6 +18746,7 @@
         "index": {
           "description": "Set or unset the circled-tip hairpin attribute",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "hairpin_circled_tip",
           "normalized": "Bool-\u003eMusic",
@@ -17188,6 +18762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet or unset the \u003ccode\u003eminimum-length\u003c/code\u003e hairpin attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "hairpin_minimum_length",
           "package": "hly",
@@ -17198,6 +18773,7 @@
         "index": {
           "description": "Set or unset the minimum-length hairpin attribute",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "hairpin_minimum_length",
           "normalized": "Maybe Int-\u003eMusic",
@@ -17213,6 +18789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet or unset the \u003ccode\u003eto-barline\u003c/code\u003e hairpin attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "hairpin_to_barline",
           "package": "hly",
@@ -17223,6 +18800,7 @@
         "index": {
           "description": "Set or unset the to-barline hairpin attribute",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "hairpin_to_barline",
           "normalized": "Bool-\u003eMusic",
@@ -17237,6 +18815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "instr_name",
           "package": "hly",
@@ -17246,6 +18825,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "instr_name",
           "normalized": "Staff_Name-\u003eStaff-\u003eStaff",
@@ -17260,6 +18840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_after_grace",
           "package": "hly",
@@ -17269,6 +18850,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_after_grace",
           "normalized": "Music-\u003eBool",
@@ -17283,6 +18865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_barlinecheck",
           "package": "hly",
@@ -17292,6 +18875,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_barlinecheck",
           "normalized": "Music-\u003eBool",
@@ -17306,6 +18890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_chord",
           "package": "hly",
@@ -17315,6 +18900,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_chord",
           "normalized": "Music-\u003eBool",
@@ -17329,6 +18915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_clef",
           "package": "hly",
@@ -17338,6 +18925,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_clef",
           "normalized": "Music-\u003eBool",
@@ -17352,6 +18940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_command",
           "package": "hly",
@@ -17361,6 +18950,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_command",
           "normalized": "Music-\u003eBool",
@@ -17375,6 +18965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_grace",
           "package": "hly",
@@ -17384,6 +18975,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_grace",
           "normalized": "Music-\u003eBool",
@@ -17399,6 +18991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese are required to avoid issues in lilypond (see manual)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_grace_skip",
           "package": "hly",
@@ -17409,6 +19002,7 @@
         "index": {
           "description": "These are required to avoid issues in lilypond see manual",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_grace_skip",
           "normalized": "Music-\u003eBool",
@@ -17423,6 +19017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_mm_rest",
           "package": "hly",
@@ -17432,6 +19027,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_mm_rest",
           "normalized": "Music-\u003eBool",
@@ -17446,6 +19042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_music_c",
           "package": "hly",
@@ -17455,6 +19052,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_music_c",
           "normalized": "Music_C-\u003eMusic-\u003eBool",
@@ -17469,6 +19067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_note",
           "package": "hly",
@@ -17478,6 +19077,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_note",
           "normalized": "Music-\u003eBool",
@@ -17492,6 +19092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_rest",
           "package": "hly",
@@ -17501,6 +19102,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_rest",
           "normalized": "Music-\u003eBool",
@@ -17515,6 +19117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_skip",
           "package": "hly",
@@ -17524,6 +19127,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_skip",
           "normalized": "Music-\u003eBool",
@@ -17538,6 +19142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_tempo",
           "package": "hly",
@@ -17547,6 +19152,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_tempo",
           "normalized": "Music-\u003eBool",
@@ -17561,6 +19167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_tied",
           "package": "hly",
@@ -17570,6 +19177,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_tied",
           "normalized": "Music-\u003eBool",
@@ -17584,6 +19192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_time",
           "package": "hly",
@@ -17593,6 +19202,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_time",
           "normalized": "Music-\u003eBool",
@@ -17607,6 +19217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_tuplet",
           "package": "hly",
@@ -17616,6 +19227,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "is_tuplet",
           "normalized": "Music-\u003eBool",
@@ -17631,6 +19243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoins directly adjacent rest elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "join_rests",
           "package": "hly",
@@ -17641,6 +19254,7 @@
         "index": {
           "description": "Joins directly adjacent rest elements",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "join_rests",
           "normalized": "[Music]-\u003e[Music]",
@@ -17656,6 +19270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct key signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "key",
           "package": "hly",
@@ -17666,6 +19281,7 @@
         "index": {
           "description": "Construct key signature",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "key",
           "normalized": "Music-\u003eMode_T-\u003eMusic",
@@ -17681,6 +19297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003emeasure_rest\u003c/a\u003e\u003c/code\u003e but write time signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "measure_null",
           "package": "hly",
@@ -17691,6 +19308,7 @@
         "index": {
           "description": "Like measure rest but write time signature",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "measure_null",
           "normalized": "Integer-\u003eInteger-\u003eMusic",
@@ -17706,6 +19324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eempty_measure\u003c/a\u003e\u003c/code\u003e but write time signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "measure_rest",
           "package": "hly",
@@ -17716,6 +19335,7 @@
         "index": {
           "description": "Like empty measure but write time signature",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "measure_rest",
           "normalized": "Integer-\u003eInteger-\u003eMusic",
@@ -17731,6 +19351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a fragment from a list of \u003ccode\u003e\u003ca\u003eMusic\u003c/a\u003e\u003c/code\u003e elements.  Width and\n height are in millimeters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "mk_fragment",
           "package": "hly",
@@ -17741,6 +19362,7 @@
         "index": {
           "description": "Make fragment from list of Music elements Width and height are in millimeters",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "mk_fragment",
           "normalized": "(Double,Double)-\u003e[Music]-\u003eFragment",
@@ -17756,6 +19378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMeasure\u003c/a\u003e\u003c/code\u003e variant of \u003ccode\u003e\u003ca\u003emk_fragment\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "mk_fragment_mm",
           "package": "hly",
@@ -17766,6 +19389,7 @@
         "index": {
           "description": "Measure variant of mk fragment",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "mk_fragment_mm",
           "normalized": "(Double,Double)-\u003e[Measure]-\u003eFragment",
@@ -17781,6 +19405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete redundant (repeated) time signatures.\n\u003c/p\u003e\u003cpre\u003e let mm = [Measure [Time (3,4)] [],Measure [Time (3,4)] []]\n in mm_delete_redundant_ts mm == [Measure [Time (3,4)] [],Measure [] []]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "mm_delete_redundant_ts",
           "package": "hly",
@@ -17791,6 +19416,7 @@
         "index": {
           "description": "Delete redundant repeated time signatures let mm Measure Time Measure Time in mm delete redundant ts mm Measure Time Measure",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "mm_delete_redundant_ts",
           "normalized": "[Measure]-\u003e[Measure]",
@@ -17806,6 +19432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMulti-measure variant of \u003ccode\u003er\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "mm_rest",
           "package": "hly",
@@ -17816,6 +19443,7 @@
         "index": {
           "description": "Multi-measure variant of",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "mm_rest",
           "normalized": "Time_Signature-\u003eMusic",
@@ -17830,6 +19458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "name_to_id",
           "package": "hly",
@@ -17839,6 +19468,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "name_to_id",
           "normalized": "Staff_Name-\u003eStaff_ID",
@@ -17854,6 +19484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShift the octave of a note element, else identity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "note_edit_octave",
           "package": "hly",
@@ -17864,6 +19495,7 @@
         "index": {
           "description": "Shift the octave of note element else identity",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "note_edit_octave",
           "normalized": "(Integer-\u003eInteger)-\u003eMusic-\u003eMusic",
@@ -17879,6 +19511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShift the octave of a note element, else identity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "note_shift_octave",
           "package": "hly",
@@ -17889,6 +19522,7 @@
         "index": {
           "description": "Shift the octave of note element else identity",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "note_shift_octave",
           "normalized": "Integer-\u003eMusic-\u003eMusic",
@@ -17904,6 +19538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eempty_measure\u003c/a\u003e\u003c/code\u003e, but with an invisible rest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "null_measure",
           "package": "hly",
@@ -17914,6 +19549,7 @@
         "index": {
           "description": "Like empty measure but with an invisible rest",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "null_measure",
           "normalized": "Integer-\u003eInteger-\u003eMusic",
@@ -17928,6 +19564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "numeric_time_signature",
           "package": "hly",
@@ -17937,6 +19574,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "numeric_time_signature",
           "package": "hly",
@@ -17949,6 +19587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "octpc_to_note",
           "package": "hly",
@@ -17958,6 +19597,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "octpc_to_note",
           "normalized": "(Octave,PitchClass)-\u003eMusic",
@@ -17973,6 +19613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicate initial partial measure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "partial",
           "package": "hly",
@@ -17983,6 +19624,7 @@
         "index": {
           "description": "Indicate initial partial measure",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "partial",
           "normalized": "Duration-\u003eMusic",
@@ -17998,6 +19640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct piano staff.  For two staff piano music the staffs have\n   identifiers rh and lh.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "piano_staff",
           "package": "hly",
@@ -18008,6 +19651,7 @@
         "index": {
           "description": "Construct piano staff For two staff piano music the staffs have identifiers rh and lh",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "piano_staff",
           "normalized": "Staff_Name-\u003e[[Music]]-\u003eStaff",
@@ -18023,6 +19667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterior polyphony.  For two part music on one staff see\n   \u003ccode\u003e\u003ca\u003etwo_part_staff\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "polyphony",
           "package": "hly",
@@ -18033,6 +19678,7 @@
         "index": {
           "description": "Interior polyphony For two part music on one staff see two part staff",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "polyphony",
           "normalized": "Music-\u003eMusic-\u003eMusic",
@@ -18047,6 +19693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "polyphony'",
           "package": "hly",
@@ -18056,6 +19703,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "polyphony'",
           "normalized": "[Music]-\u003e[Music]-\u003eMusic",
@@ -18070,6 +19718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "resize_staff",
           "package": "hly",
@@ -18079,6 +19728,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "resize_staff",
           "normalized": "Int-\u003eStaff-\u003eStaff",
@@ -18094,6 +19744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct rests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "rest",
           "package": "hly",
@@ -18104,6 +19755,7 @@
         "index": {
           "description": "Construct rests",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "rest",
           "normalized": "Duration-\u003eMusic",
@@ -18118,6 +19770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "rhythmic_grand_staff",
           "package": "hly",
@@ -18127,6 +19780,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "rhythmic_grand_staff",
           "normalized": "Staff_Name-\u003e[[Music]]-\u003eStaff",
@@ -18142,6 +19796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct rhythmic staff.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "rhythmic_staff",
           "package": "hly",
@@ -18152,6 +19807,7 @@
         "index": {
           "description": "Construct rhythmic staff",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "rhythmic_staff",
           "normalized": "Staff_Name-\u003e[Music]-\u003eStaff",
@@ -18167,6 +19823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike tuplet but does not annotate music, see also\n   \u003ccode\u003e\u003ca\u003ets_set_fraction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "scale_durations",
           "package": "hly",
@@ -18177,6 +19834,7 @@
         "index": {
           "description": "Like tuplet but does not annotate music see also ts set fraction",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "scale_durations",
           "normalized": "Tuplet_T-\u003e[Music]-\u003eMusic",
@@ -18191,6 +19849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "score",
           "package": "hly",
@@ -18200,6 +19859,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "score",
           "normalized": "[Staff]-\u003eScore",
@@ -18214,6 +19874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "set_8va_notation",
           "package": "hly",
@@ -18223,6 +19884,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "set_8va_notation",
           "package": "hly",
@@ -18236,6 +19898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-printing variant of \u003ccode\u003e\u003ca\u003erest\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "skip",
           "package": "hly",
@@ -18246,6 +19909,7 @@
         "index": {
           "description": "Non-printing variant of rest",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "skip",
           "normalized": "Duration-\u003eMusic",
@@ -18261,6 +19925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct staff.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "staff",
           "package": "hly",
@@ -18271,6 +19936,7 @@
         "index": {
           "description": "Construct staff",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "staff",
           "normalized": "Staff_Name-\u003e[Music]-\u003eStaff",
@@ -18285,6 +19951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "staff_group",
           "package": "hly",
@@ -18294,6 +19961,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "staff_group",
           "normalized": "Staff_Name-\u003e[[Music]]-\u003eStaff",
@@ -18308,6 +19976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "staff_group'",
           "package": "hly",
@@ -18317,6 +19986,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "staff_group'",
           "normalized": "Staff_Name-\u003e[Staff_Name]-\u003e[[Music]]-\u003eStaff",
@@ -18332,6 +20002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct standard (two times) repeat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "std_repeat",
           "package": "hly",
@@ -18342,6 +20013,7 @@
         "index": {
           "description": "Construct standard two times repeat",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "std_repeat",
           "normalized": "Integer-\u003e[Music]-\u003eMusic",
@@ -18356,6 +20028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "stem_transparent",
           "package": "hly",
@@ -18365,6 +20038,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "stem_transparent",
           "normalized": "Bool-\u003eMusic",
@@ -18379,6 +20053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "text_extra_spacing_width",
           "package": "hly",
@@ -18388,6 +20063,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "text_extra_spacing_width",
           "normalized": "(Double,Double)-\u003eMusic",
@@ -18402,6 +20078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "text_length_on",
           "package": "hly",
@@ -18411,6 +20088,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "text_length_on",
           "package": "hly",
@@ -18423,6 +20101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "text_outside_staff_priority",
           "package": "hly",
@@ -18432,6 +20111,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "text_outside_staff_priority",
           "normalized": "Maybe Double-\u003eMusic",
@@ -18447,6 +20127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct staff with text underlay.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "text_staff",
           "package": "hly",
@@ -18457,6 +20138,7 @@
         "index": {
           "description": "Construct staff with text underlay",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "text_staff",
           "normalized": "Staff_Name-\u003eString-\u003e[Music]-\u003eStaff",
@@ -18471,6 +20153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "tie_r_ann",
           "package": "hly",
@@ -18480,6 +20163,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "tie_r_ann",
           "normalized": "[D_Annotation]-\u003e[Annotation]",
@@ -18495,6 +20179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct time signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "time_signature",
           "package": "hly",
@@ -18505,6 +20190,7 @@
         "index": {
           "description": "Construct time signature",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "time_signature",
           "normalized": "Time_Signature-\u003eMusic",
@@ -18519,6 +20205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "ts_all_invisible",
           "package": "hly",
@@ -18528,6 +20215,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "ts_all_invisible",
           "package": "hly",
@@ -18540,6 +20228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "ts_parentheses",
           "package": "hly",
@@ -18549,6 +20238,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "ts_parentheses",
           "package": "hly",
@@ -18562,6 +20252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the printed time-signature fraction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "ts_set_fraction",
           "package": "hly",
@@ -18572,6 +20263,7 @@
         "index": {
           "description": "Set the printed time-signature fraction",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "ts_set_fraction",
           "normalized": "Integer-\u003eInteger-\u003eMusic",
@@ -18586,6 +20278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "ts_stencil",
           "package": "hly",
@@ -18595,6 +20288,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "ts_stencil",
           "normalized": "Bool-\u003eMusic",
@@ -18609,6 +20303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "ts_transparent",
           "package": "hly",
@@ -18618,6 +20313,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "ts_transparent",
           "normalized": "Bool-\u003eMusic",
@@ -18633,6 +20329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand to request that \u003ccode\u003e4/4\u003c/code\u003e and \u003ccode\u003e2/2\u003c/code\u003e etc. are typeset as\n fractions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "ts_use_fractions",
           "package": "hly",
@@ -18643,6 +20340,7 @@
         "index": {
           "description": "Command to request that and etc are typeset as fractions",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "ts_use_fractions",
           "package": "hly",
@@ -18656,6 +20354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemporal scaling of music (tuplets).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "tuplet",
           "package": "hly",
@@ -18666,6 +20365,7 @@
         "index": {
           "description": "Temporal scaling of music tuplets",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "tuplet",
           "normalized": "Tuplet_T-\u003e[Music]-\u003eMusic",
@@ -18681,6 +20381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTuplet variants that set location, and then restore to neutral.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "tuplet_above",
           "package": "hly",
@@ -18691,6 +20392,7 @@
         "index": {
           "description": "Tuplet variants that set location and then restore to neutral",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "tuplet_above",
           "normalized": "Tuplet_T-\u003e[Music]-\u003eMusic",
@@ -18706,6 +20408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTuplet variants that set location, and then restore to neutral.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "tuplet_below",
           "package": "hly",
@@ -18716,6 +20419,7 @@
         "index": {
           "description": "Tuplet variants that set location and then restore to neutral",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "tuplet_below",
           "normalized": "Tuplet_T-\u003e[Music]-\u003eMusic",
@@ -18730,6 +20434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "two_part_staff",
           "package": "hly",
@@ -18739,6 +20444,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "two_part_staff",
           "normalized": "Staff_Name-\u003e([Music],[Music])-\u003eStaff",
@@ -18754,6 +20460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow proper auto-indenting of multiple measures with the same\n   time signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Notation",
           "name": "with_time_signature",
           "package": "hly",
@@ -18764,6 +20471,7 @@
         "index": {
           "description": "Allow proper auto-indenting of multiple measures with the same time signature",
           "hierarchy": "Music LilyPond Light Notation",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Notation",
           "name": "with_time_signature",
           "normalized": "Time_Signature-\u003e[Music]-\u003eMusic",
@@ -18778,6 +20486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Output.LilyPond",
           "name": "LilyPond",
           "package": "hly",
@@ -18786,6 +20495,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Output LilyPond",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Output.LilyPond",
           "name": "LilyPond",
           "package": "hly",
@@ -18799,6 +20509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Output.LilyPond",
           "name": "Lilypond",
           "package": "hly",
@@ -18807,6 +20518,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Output LilyPond",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Output.LilyPond",
           "name": "Lilypond",
           "package": "hly",
@@ -18820,6 +20532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Output.LilyPond",
           "name": "ly_fragment",
           "package": "hly",
@@ -18829,6 +20542,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Output LilyPond",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Output.LilyPond",
           "name": "ly_fragment",
           "normalized": "Fragment-\u003eString",
@@ -18844,6 +20558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate \u003ccode\u003e\u003ca\u003eMusic\u003c/a\u003e\u003c/code\u003e element to lilypond source code.\n\u003c/p\u003e\u003cpre\u003e import Music.LilyPond.Light\n import Music.Theory.Duration.Name.Abbreviation\n ly_music_elem (Join [c4#q',e4#h]) == \"c' 4. e' 2\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Output.LilyPond",
           "name": "ly_music_elem",
           "package": "hly",
@@ -18854,6 +20569,7 @@
         "index": {
           "description": "Translate Music element to lilypond source code import Music.LilyPond.Light import Music.Theory.Duration.Name.Abbreviation ly music elem Join c4 e4",
           "hierarchy": "Music LilyPond Light Output LilyPond",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Output.LilyPond",
           "name": "ly_music_elem",
           "normalized": "Music-\u003eString",
@@ -18868,6 +20584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Output.LilyPond",
           "name": "ly_notate",
           "package": "hly",
@@ -18877,6 +20594,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light Output LilyPond",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Output.LilyPond",
           "name": "ly_notate",
           "normalized": "a-\u003eString",
@@ -18892,6 +20610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNotate \u003ccode\u003e\u003ca\u003eLilypond\u003c/a\u003e\u003c/code\u003e value, write to file, and run \u003ccode\u003elilypond\u003c/code\u003e to\n generate output in \u003ccode\u003e\u003ca\u003eFormat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Output.LilyPond",
           "name": "ly_process",
           "package": "hly",
@@ -18902,6 +20621,7 @@
         "index": {
           "description": "Notate Lilypond value write to file and run lilypond to generate output in Format",
           "hierarchy": "Music LilyPond Light Output LilyPond",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Output.LilyPond",
           "name": "ly_process",
           "normalized": "FilePath-\u003eFormat-\u003eString-\u003ea-\u003eIO ExitCode",
@@ -18917,6 +20637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003ely_process\u003c/a\u003e\u003c/code\u003e using current working directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Output.LilyPond",
           "name": "ly_process_cwd",
           "package": "hly",
@@ -18927,6 +20648,7 @@
         "index": {
           "description": "Variant of ly process using current working directory",
           "hierarchy": "Music LilyPond Light Output LilyPond",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Output.LilyPond",
           "name": "ly_process_cwd",
           "normalized": "Format-\u003eString-\u003ea-\u003eIO ExitCode",
@@ -18942,6 +20664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate \u003ccode\u003e\u003ca\u003eWork\u003c/a\u003e\u003c/code\u003e to lilypond source code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light.Output.LilyPond",
           "name": "ly_work",
           "package": "hly",
@@ -18952,6 +20675,7 @@
         "index": {
           "description": "Translate Work to lilypond source code",
           "hierarchy": "Music LilyPond Light Output LilyPond",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light.Output.LilyPond",
           "name": "ly_work",
           "normalized": "Work-\u003eString",
@@ -18966,6 +20690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:33 UTC 2014",
           "module": "Music.LilyPond.Light",
           "name": "Light",
           "package": "hly",
@@ -18974,6 +20699,7 @@
         },
         "index": {
           "hierarchy": "Music LilyPond Light",
+          "indexed": "2014-03-11T18:41:33",
           "module": "Music.LilyPond.Light",
           "name": "Light",
           "package": "hly",

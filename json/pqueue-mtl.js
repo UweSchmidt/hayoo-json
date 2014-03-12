@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pqueue-mtl"
+        "phrase": "pqueue-mtl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.Class",
           "name": "3AQKey",
           "package": "pqueue-mtl",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.Class",
           "name": "3AQKey",
           "package": "pqueue-mtl",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.Class",
           "name": "3AMonadQueue",
           "package": "pqueue-mtl",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.Class",
           "name": "3AMonadQueue",
           "package": "pqueue-mtl",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.Class",
           "name": "3AqueueDelete",
           "package": "pqueue-mtl",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.Class",
           "name": "3AqueueDelete",
           "normalized": "a()",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.Class",
           "name": "3AqueueEmpty",
           "package": "pqueue-mtl",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.Class",
           "name": "3AqueueEmpty",
           "package": "pqueue-mtl",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.Class",
           "name": "3AqueueExtract",
           "package": "pqueue-mtl",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.Class",
           "name": "3AqueueExtract",
           "package": "pqueue-mtl",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.Class",
           "name": "3AqueueInsert",
           "package": "pqueue-mtl",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.Class",
           "name": "3AqueueInsert",
           "normalized": "QKey a-\u003ea()",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.Class",
           "name": "3AqueueInsertAll",
           "package": "pqueue-mtl",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.Class",
           "name": "3AqueueInsertAll",
           "normalized": "[QKey a]-\u003ea()",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.Class",
           "name": "3AqueuePeek",
           "package": "pqueue-mtl",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.Class",
           "name": "3AqueuePeek",
           "package": "pqueue-mtl",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.Class",
           "name": "3AqueueSize",
           "package": "pqueue-mtl",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.Class",
           "name": "3AqueueSize",
           "package": "pqueue-mtl",
@@ -221,6 +239,7 @@
       "document": {
         "description": {
           "description": "Monad based on an array implementation of a standard binary heap.\n",
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.Heap",
           "name": "3AHeapM",
           "package": "pqueue-mtl",
@@ -230,6 +249,7 @@
         "index": {
           "description": "Monad based on an array implementation of standard binary heap",
           "hierarchy": "Control Monad Queue Heap",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.Heap",
           "name": "3AHeapM",
           "package": "pqueue-mtl",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.Heap",
           "name": "3AHeapT",
           "package": "pqueue-mtl",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue Heap",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.Heap",
           "name": "3AHeapT",
           "package": "pqueue-mtl",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.Heap",
           "name": "3AUHeapT",
           "package": "pqueue-mtl",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue Heap",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.Heap",
           "name": "3AUHeapT",
           "package": "pqueue-mtl",
@@ -286,6 +310,7 @@
       "document": {
         "description": {
           "description": "Runs an \u003ctt\u003e\u003ca\u003eHeapM\u003c/a\u003e\u003c/tt\u003e computation starting with an empty heap.\n",
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.Heap",
           "name": "3ArunHeapM",
           "package": "pqueue-mtl",
@@ -296,6 +321,7 @@
         "index": {
           "description": "Runs an HeapM computation starting with an empty heap",
           "hierarchy": "Control Monad Queue Heap",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.Heap",
           "name": "3ArunHeapM",
           "normalized": "(a b HeapM c d e)-\u003ee",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.Heap",
           "name": "3ArunHeapMOn",
           "package": "pqueue-mtl",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue Heap",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.Heap",
           "name": "3ArunHeapMOn",
           "normalized": "(a b HeapM c d e)-\u003eInt-\u003e[d]-\u003ee",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.Heap",
           "name": "3ArunHeapT",
           "package": "pqueue-mtl",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue Heap",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.Heap",
           "name": "3ArunHeapT",
           "normalized": "HeapT a b c-\u003eb c",
@@ -360,6 +390,7 @@
       "document": {
         "description": {
           "description": "The transformer operation.\nThe starting size of the heap (must be equal to the length of the list)\nThe initial contents of the heap\n",
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.Heap",
           "name": "3ArunHeapTOn",
           "package": "pqueue-mtl",
@@ -370,6 +401,7 @@
         "index": {
           "description": "The transformer operation The starting size of the heap must be equal to the length of the list The initial contents of the heap",
           "hierarchy": "Control Monad Queue Heap",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.Heap",
           "name": "3ArunHeapTOn",
           "normalized": "HeapT a b c-\u003eInt-\u003e[a]-\u003eb c",
@@ -385,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.Heap",
           "name": "3ArunUHeapT",
           "package": "pqueue-mtl",
@@ -394,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue Heap",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.Heap",
           "name": "3ArunUHeapT",
           "normalized": "UHeapT a b c-\u003eb c",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3AFibQueueM",
           "package": "pqueue-mtl",
@@ -417,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue QueueT",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3AFibQueueM",
           "package": "pqueue-mtl",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3AFibQueueT",
           "package": "pqueue-mtl",
@@ -438,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue QueueT",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3AFibQueueT",
           "package": "pqueue-mtl",
@@ -451,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3AIntQueueM",
           "package": "pqueue-mtl",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue QueueT",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3AIntQueueM",
           "package": "pqueue-mtl",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3AIntQueueT",
           "package": "pqueue-mtl",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue QueueT",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3AIntQueueT",
           "package": "pqueue-mtl",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3APQueueM",
           "package": "pqueue-mtl",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue QueueT",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3APQueueM",
           "package": "pqueue-mtl",
@@ -514,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3APQueueT",
           "package": "pqueue-mtl",
@@ -522,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue QueueT",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3APQueueT",
           "package": "pqueue-mtl",
@@ -535,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3AQueueM",
           "package": "pqueue-mtl",
@@ -543,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue QueueT",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3AQueueM",
           "package": "pqueue-mtl",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3AQueueT",
           "package": "pqueue-mtl",
@@ -564,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue QueueT",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3AQueueT",
           "package": "pqueue-mtl",
@@ -577,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3ASkewQueueM",
           "package": "pqueue-mtl",
@@ -585,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue QueueT",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3ASkewQueueM",
           "package": "pqueue-mtl",
@@ -598,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3ASkewQueueT",
           "package": "pqueue-mtl",
@@ -606,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Queue QueueT",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3ASkewQueueT",
           "package": "pqueue-mtl",
@@ -620,6 +674,7 @@
       "document": {
         "description": {
           "description": "Executes a computation in a queue monad, starting with an empty queue.\n",
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3ArunQueueM",
           "package": "pqueue-mtl",
@@ -630,6 +685,7 @@
         "index": {
           "description": "Executes computation in queue monad starting with an empty queue",
           "hierarchy": "Control Monad Queue QueueT",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3ArunQueueM",
           "normalized": "QueueM a b-\u003eb",
@@ -646,6 +702,7 @@
       "document": {
         "description": {
           "description": "Executes a computation in a queue monad, starting with a queue with the specified contents.\n",
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3ArunQueueMOn",
           "package": "pqueue-mtl",
@@ -656,6 +713,7 @@
         "index": {
           "description": "Executes computation in queue monad starting with queue with the specified contents",
           "hierarchy": "Control Monad Queue QueueT",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3ArunQueueMOn",
           "normalized": "QueueM a b-\u003e[QueueKey a]-\u003eb",
@@ -672,6 +730,7 @@
       "document": {
         "description": {
           "description": "Unwraps a queue transformer, initializing it with an empty queue.\n",
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3ArunQueueT",
           "package": "pqueue-mtl",
@@ -682,6 +741,7 @@
         "index": {
           "description": "Unwraps queue transformer initializing it with an empty queue",
           "hierarchy": "Control Monad Queue QueueT",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3ArunQueueT",
           "normalized": "QueueT a b c-\u003eb c",
@@ -698,6 +758,7 @@
       "document": {
         "description": {
           "description": "Unwraps a queue transformer, initializing it with a queue with the specified contents.\n",
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3ArunQueueTOn",
           "package": "pqueue-mtl",
@@ -708,6 +769,7 @@
         "index": {
           "description": "Unwraps queue transformer initializing it with queue with the specified contents",
           "hierarchy": "Control Monad Queue QueueT",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Control.Monad.Queue.QueueT",
           "name": "3ArunQueueTOn",
           "normalized": "QueueT a b c-\u003e[QueueKey a]-\u003eb c",
@@ -723,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.Class",
           "name": "3A:-\u003e",
           "package": "pqueue-mtl",
@@ -731,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Data Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.Class",
           "name": "3A:-\u003e",
           "package": "pqueue-mtl",
@@ -743,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.Class",
           "name": "3AQueueKey",
           "package": "pqueue-mtl",
@@ -751,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Data Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.Class",
           "name": "3AQueueKey",
           "package": "pqueue-mtl",
@@ -764,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.Class",
           "name": "3AQueuelike",
           "package": "pqueue-mtl",
@@ -772,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Data Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.Class",
           "name": "3AQueuelike",
           "package": "pqueue-mtl",
@@ -786,6 +854,7 @@
       "document": {
         "description": {
           "description": "Deletes an element from the queue, if the queue is nonempty.  The default implementation uses \u003ctt\u003e\u003ca\u003eextract\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.Class",
           "name": "3Adelete",
           "package": "pqueue-mtl",
@@ -796,6 +865,7 @@
         "index": {
           "description": "Deletes an element from the queue if the queue is nonempty The default implementation uses extract",
           "hierarchy": "Data Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.Class",
           "name": "3Adelete",
           "normalized": "a-\u003eMaybe a",
@@ -812,6 +882,7 @@
       "document": {
         "description": {
           "description": "Constructs an empty queue.  The default implementation uses \u003ctt\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.Class",
           "name": "3Aempty",
           "package": "pqueue-mtl",
@@ -822,6 +893,7 @@
         "index": {
           "description": "Constructs an empty queue The default implementation uses fromList",
           "hierarchy": "Data Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.Class",
           "name": "3Aempty",
           "package": "pqueue-mtl",
@@ -836,6 +908,7 @@
       "document": {
         "description": {
           "description": "Attempts to extract an element from the queue; if the queue is empty, returns Nothing.  The default implementation uses \u003ctt\u003e\u003ca\u003epeek\u003c/a\u003e\u003c/tt\u003e and \u003ctt\u003e\u003ca\u003edelete\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.Class",
           "name": "3Aextract",
           "package": "pqueue-mtl",
@@ -846,6 +919,7 @@
         "index": {
           "description": "Attempts to extract an element from the queue if the queue is empty returns Nothing The default implementation uses peek and delete",
           "hierarchy": "Data Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.Class",
           "name": "3Aextract",
           "normalized": "a-\u003eMaybe(QueueKey a,a)",
@@ -862,6 +936,7 @@
       "document": {
         "description": {
           "description": "Constructs a queue with all of the elements in the list.  The default implementation uses \u003ctt\u003e\u003ca\u003einsertAll\u003c/a\u003e\u003c/tt\u003e and \u003ctt\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.Class",
           "name": "3AfromList",
           "package": "pqueue-mtl",
@@ -872,6 +947,7 @@
         "index": {
           "description": "Constructs queue with all of the elements in the list The default implementation uses insertAll and empty",
           "hierarchy": "Data Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.Class",
           "name": "3AfromList",
           "normalized": "[QueueKey a]-\u003ea",
@@ -888,6 +964,7 @@
       "document": {
         "description": {
           "description": "Inserts a single element into the queue.  The default implementation uses \u003ctt\u003e\u003ca\u003emerge\u003c/a\u003e\u003c/tt\u003e and \u003ctt\u003e\u003ca\u003esingleton\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.Class",
           "name": "3Ainsert",
           "package": "pqueue-mtl",
@@ -898,6 +975,7 @@
         "index": {
           "description": "Inserts single element into the queue The default implementation uses merge and singleton",
           "hierarchy": "Data Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.Class",
           "name": "3Ainsert",
           "normalized": "QueueKey a-\u003ea-\u003ea",
@@ -914,6 +992,7 @@
       "document": {
         "description": {
           "description": "Inserts several elements into the queue.  The default implementation uses \u003ctt\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/tt\u003e.  (In some cases, it may be advantageous to override this implementation with \u003ctt\u003exs `\u003ctt\u003e\u003ca\u003einsertAll\u003c/a\u003e\u003c/tt\u003e` q = q `\u003ctt\u003e\u003ca\u003emerge\u003c/a\u003e\u003c/tt\u003e` \u003ctt\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/tt\u003e xs\u003c/tt\u003e.)\n",
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.Class",
           "name": "3AinsertAll",
           "package": "pqueue-mtl",
@@ -924,6 +1003,7 @@
         "index": {
           "description": "Inserts several elements into the queue The default implementation uses insert In some cases it may be advantageous to override this implementation with xs insertAll merge fromList xs",
           "hierarchy": "Data Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.Class",
           "name": "3AinsertAll",
           "normalized": "[QueueKey a]-\u003ea-\u003ea",
@@ -940,6 +1020,7 @@
       "document": {
         "description": {
           "description": "Checks if the queue is empty.  The default implementation uses \u003ctt\u003e\u003ca\u003epeek\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.Class",
           "name": "3AisEmpty",
           "package": "pqueue-mtl",
@@ -950,6 +1031,7 @@
         "index": {
           "description": "Checks if the queue is empty The default implementation uses peek",
           "hierarchy": "Data Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.Class",
           "name": "3AisEmpty",
           "normalized": "a-\u003eBool",
@@ -966,6 +1048,7 @@
       "document": {
         "description": {
           "description": "Merges two queues so that the contents of the second queue are inserted into the first queue in extraction order.  The default implementation uses \u003ctt\u003e\u003ca\u003etoList\u003c/a\u003e\u003c/tt\u003e and \u003ctt\u003e\u003ca\u003einsertAll\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.Class",
           "name": "3Amerge",
           "package": "pqueue-mtl",
@@ -976,6 +1059,7 @@
         "index": {
           "description": "Merges two queues so that the contents of the second queue are inserted into the first queue in extraction order The default implementation uses toList and insertAll",
           "hierarchy": "Data Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.Class",
           "name": "3Amerge",
           "normalized": "a-\u003ea-\u003ea",
@@ -991,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.Class",
           "name": "3AmergeAll",
           "package": "pqueue-mtl",
@@ -1000,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Data Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.Class",
           "name": "3AmergeAll",
           "normalized": "[a]-\u003ea",
@@ -1016,6 +1102,7 @@
       "document": {
         "description": {
           "description": "Gets the element that will next be extracted from the queue, if there is an element available.  The default implementation uses \u003ctt\u003e\u003ca\u003eextract\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.Class",
           "name": "3Apeek",
           "package": "pqueue-mtl",
@@ -1026,6 +1113,7 @@
         "index": {
           "description": "Gets the element that will next be extracted from the queue if there is an element available The default implementation uses extract",
           "hierarchy": "Data Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.Class",
           "name": "3Apeek",
           "normalized": "a-\u003eMaybe(QueueKey a)",
@@ -1042,6 +1130,7 @@
       "document": {
         "description": {
           "description": "Constructs a queue with a single element.  The default implementation uses \u003ctt\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/tt\u003e and \u003ctt\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.Class",
           "name": "3Asingleton",
           "package": "pqueue-mtl",
@@ -1052,6 +1141,7 @@
         "index": {
           "description": "Constructs queue with single element The default implementation uses insert and empty",
           "hierarchy": "Data Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.Class",
           "name": "3Asingleton",
           "normalized": "QueueKey a-\u003ea",
@@ -1068,6 +1158,7 @@
       "document": {
         "description": {
           "description": "Gets the size of the queue.  The default implementation uses \u003ctt\u003e\u003ca\u003etoList_\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.Class",
           "name": "3Asize",
           "package": "pqueue-mtl",
@@ -1078,6 +1169,7 @@
         "index": {
           "description": "Gets the size of the queue The default implementation uses toList",
           "hierarchy": "Data Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.Class",
           "name": "3Asize",
           "normalized": "a-\u003eInt",
@@ -1094,6 +1186,7 @@
       "document": {
         "description": {
           "description": "Extracts every element from the queue.  The default implementation uses \u003ctt\u003e\u003ca\u003eextract\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.Class",
           "name": "3AtoList",
           "package": "pqueue-mtl",
@@ -1104,6 +1197,7 @@
         "index": {
           "description": "Extracts every element from the queue The default implementation uses extract",
           "hierarchy": "Data Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.Class",
           "name": "3AtoList",
           "normalized": "a-\u003e[QueueKey a]",
@@ -1120,6 +1214,7 @@
       "document": {
         "description": {
           "description": "Extracts every element from the queue, with no guarantees upon order.  The default implementation uses \u003ctt\u003e\u003ca\u003etoList\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.Class",
           "name": "3AtoList_",
           "package": "pqueue-mtl",
@@ -1130,6 +1225,7 @@
         "index": {
           "description": "Extracts every element from the queue with no guarantees upon order The default implementation uses toList",
           "hierarchy": "Data Queue Class",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.Class",
           "name": "3AtoList_",
           "normalized": "a-\u003e[QueueKey a]",
@@ -1145,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.FibQueue",
           "name": "3AFQueue",
           "package": "pqueue-mtl",
@@ -1153,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Data Queue FibQueue",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.FibQueue",
           "name": "3AFQueue",
           "package": "pqueue-mtl",
@@ -1166,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.IntQueue",
           "name": "3AIntAssocQueue",
           "package": "pqueue-mtl",
@@ -1174,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "Data Queue IntQueue",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.IntQueue",
           "name": "3AIntAssocQueue",
           "package": "pqueue-mtl",
@@ -1187,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.IntQueue",
           "name": "3AIntQueue",
           "package": "pqueue-mtl",
@@ -1195,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "Data Queue IntQueue",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.IntQueue",
           "name": "3AIntQueue",
           "package": "pqueue-mtl",
@@ -1208,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.PQueue",
           "name": "3APQueue",
           "package": "pqueue-mtl",
@@ -1216,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Data Queue PQueue",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.PQueue",
           "name": "3APQueue",
           "package": "pqueue-mtl",
@@ -1229,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.Queue",
           "name": "3AQueue",
           "package": "pqueue-mtl",
@@ -1237,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Data Queue Queue",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.Queue",
           "name": "3AQueue",
           "package": "pqueue-mtl",
@@ -1250,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.ReverseQueue",
           "name": "3ADown",
           "package": "pqueue-mtl",
@@ -1258,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Data Queue ReverseQueue",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.ReverseQueue",
           "name": "3ADown",
           "package": "pqueue-mtl",
@@ -1271,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.ReverseQueue",
           "name": "3AReverseQueue",
           "package": "pqueue-mtl",
@@ -1279,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Data Queue ReverseQueue",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.ReverseQueue",
           "name": "3AReverseQueue",
           "package": "pqueue-mtl",
@@ -1292,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.SkewQueue",
           "name": "3ASkewQueue",
           "package": "pqueue-mtl",
@@ -1300,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "Data Queue SkewQueue",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.SkewQueue",
           "name": "3ASkewQueue",
           "package": "pqueue-mtl",
@@ -1313,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:51 UTC 2014",
           "module": "Data.Queue.Stack",
           "name": "3AStack",
           "package": "pqueue-mtl",
@@ -1321,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "Data Queue Stack",
+          "indexed": "2014-03-11T19:42:51",
           "module": "Data.Queue.Stack",
           "name": "3AStack",
           "package": "pqueue-mtl",

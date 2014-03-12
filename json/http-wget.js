@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "http-wget"
+        "phrase": "http-wget",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvide a simple HTTP client interface by wrapping the wget command line tool.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:53:07 UTC 2014",
           "module": "Network.HTTP.Wget",
           "name": "Wget",
           "package": "http-wget",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provide simple HTTP client interface by wrapping the wget command line tool",
           "hierarchy": "Network HTTP Wget",
+          "indexed": "2014-03-11T18:53:07",
           "module": "Network.HTTP.Wget",
           "name": "Wget",
           "package": "http-wget",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:07 UTC 2014",
           "module": "Network.HTTP.Wget",
           "name": "WgetException",
           "package": "http-wget",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Wget",
+          "indexed": "2014-03-11T18:53:07",
           "module": "Network.HTTP.Wget",
           "name": "WgetException",
           "package": "http-wget",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:07 UTC 2014",
           "module": "Network.HTTP.Wget",
           "name": "WgetException",
           "package": "http-wget",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Wget",
+          "indexed": "2014-03-11T18:53:07",
           "module": "Network.HTTP.Wget",
           "name": "WgetException",
           "package": "http-wget",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a response from the given URL with the given parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:07 UTC 2014",
           "module": "Network.HTTP.Wget",
           "name": "wget",
           "package": "http-wget",
@@ -94,6 +101,7 @@
         "index": {
           "description": "Get response from the given URL with the given parameters",
           "hierarchy": "Network HTTP Wget",
+          "indexed": "2014-03-11T18:53:07",
           "module": "Network.HTTP.Wget",
           "name": "wget",
           "normalized": "String-\u003e[(String,String)]-\u003e[(String,String)]-\u003ea String",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a response from the given URL with the given parameters, including headers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:07 UTC 2014",
           "module": "Network.HTTP.Wget",
           "name": "wget'",
           "package": "http-wget",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Get response from the given URL with the given parameters including headers",
           "hierarchy": "Network HTTP Wget",
+          "indexed": "2014-03-11T18:53:07",
           "module": "Network.HTTP.Wget",
           "name": "wget'",
           "normalized": "String-\u003e[(String,String)]-\u003e[(String,String)]-\u003ea([(String,String)],String)",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ewget\u003c/a\u003e\u003c/code\u003e, but easier to access the exception on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:07 UTC 2014",
           "module": "Network.HTTP.Wget",
           "name": "wgetSplit",
           "package": "http-wget",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Same as wget but easier to access the exception on failure",
           "hierarchy": "Network HTTP Wget",
+          "indexed": "2014-03-11T18:53:07",
           "module": "Network.HTTP.Wget",
           "name": "wgetSplit",
           "normalized": "String-\u003e[(String,String)]-\u003e[(String,String)]-\u003eIO(a String)",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as wget', but easier to access the exception on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:53:07 UTC 2014",
           "module": "Network.HTTP.Wget",
           "name": "wgetSplit'",
           "package": "http-wget",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Same as wget but easier to access the exception on failure",
           "hierarchy": "Network HTTP Wget",
+          "indexed": "2014-03-11T18:53:07",
           "module": "Network.HTTP.Wget",
           "name": "wgetSplit'",
           "normalized": "String-\u003e[(String,String)]-\u003e[(String,String)]-\u003eIO(a([(String,String)],String))",

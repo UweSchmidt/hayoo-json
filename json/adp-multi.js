@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "adp-multi"
+        "phrase": "adp-multi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDebugging is enabled via the cabal flag \u003cem\u003eDEBUG\u003c/em\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Debug",
           "name": "Debug",
           "package": "adp-multi",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Debugging is enabled via the cabal flag DEBUG",
           "hierarchy": "ADP Debug",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Debug",
           "name": "Debug",
           "package": "adp-multi",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Debug",
           "name": "trace",
           "package": "adp-multi",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "ADP Debug",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Debug",
           "name": "trace",
           "normalized": "String-\u003ea-\u003ea",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience module to import everything except a specific\n   rewriting combinator implementation. See \u003ca\u003eADP.Multi.Rewriting.All\u003c/a\u003e\n   for that.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.All",
           "name": "All",
           "package": "adp-multi",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Convenience module to import everything except specific rewriting combinator implementation See ADP.Multi.Rewriting.All for that",
           "hierarchy": "ADP Multi All",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.All",
           "name": "All",
           "package": "adp-multi",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParser combinators for use in grammars\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Combinators",
           "name": "Combinators",
           "package": "adp-multi",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Parser combinators for use in grammars",
           "hierarchy": "ADP Multi Combinators",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Combinators",
           "name": "Combinators",
           "package": "adp-multi",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilters are not part of ADP-MCFL, but are sometimes used in RNA folding\nto skip parses where subwords are too long, e.g. restricting loop size\nto 30. It is included here for convenience.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Combinators",
           "name": "Filter",
           "package": "adp-multi",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Filters are not part of ADP-MCFL but are sometimes used in RNA folding to skip parses where subwords are too long e.g restricting loop size to It is included here for convenience",
           "hierarchy": "ADP Multi Combinators",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Combinators",
           "name": "Filter",
           "package": "adp-multi",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Combinators",
           "name": "Rewritable",
           "package": "adp-multi",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Combinators",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Combinators",
           "name": "Rewritable",
           "package": "adp-multi",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Combinators",
           "name": "(|||)",
           "package": "adp-multi",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Combinators",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Combinators",
           "name": "(|||) |||",
           "normalized": "RichParser a b-\u003eRichParser a b-\u003eRichParser a b",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Combinators",
           "name": "(~~~)",
           "package": "adp-multi",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Combinators",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Combinators",
           "name": "(~~~) ~~~",
           "normalized": "([ParserInfo],[SubwordTree]-\u003eParser a(b-\u003ec))-\u003ed-\u003e([ParserInfo],[SubwordTree]-\u003eParser a c)",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Combinators",
           "name": "(\u003c\u003c\u003c)",
           "package": "adp-multi",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Combinators",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Combinators",
           "name": "(\u003c\u003c\u003c) \u003c\u003c\u003c",
           "normalized": "(a-\u003eb)-\u003ec-\u003e([ParserInfo],[SubwordTree]-\u003eParser d b)",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Combinators",
           "name": "(\u003e\u003e\u003e)",
           "package": "adp-multi",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Combinators",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Combinators",
           "name": "(\u003e\u003e\u003e) \u003e\u003e\u003e",
           "normalized": "([ParserInfo],[SubwordTree]-\u003eParser a b)-\u003ec-\u003eRichParser a b",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Combinators",
           "name": "(...)",
           "package": "adp-multi",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Combinators",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Combinators",
           "name": "(...) ...",
           "normalized": "RichParser a b-\u003e([b]-\u003e[b])-\u003eRichParser a b",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Combinators",
           "name": "rewrite",
           "package": "adp-multi",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Combinators",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Combinators",
           "name": "rewrite",
           "normalized": "SubwordConstructionAlgorithm a-\u003e([ParserInfo],[SubwordTree]-\u003eParser b c)-\u003ea-\u003eParser b c",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Combinators",
           "name": "with",
           "package": "adp-multi",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Combinators",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Combinators",
           "name": "with",
           "normalized": "RichParser a b-\u003eFilter a-\u003eRichParser a b",
@@ -315,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExplicitly specify yield size of a 1-dim parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Combinators",
           "name": "yieldSize1",
           "package": "adp-multi",
@@ -325,6 +352,7 @@
         "index": {
           "description": "Explicitly specify yield size of dim parser",
           "hierarchy": "ADP Multi Combinators",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Combinators",
           "name": "yieldSize1",
           "normalized": "(Int,Maybe Int)-\u003eRichParser a b-\u003eRichParser a b",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExplicitly specify yield size of a 2-dim parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Combinators",
           "name": "yieldSize2",
           "package": "adp-multi",
@@ -351,6 +380,7 @@
         "index": {
           "description": "Explicitly specify yield size of dim parser",
           "hierarchy": "ADP Multi Combinators",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Combinators",
           "name": "yieldSize2",
           "normalized": "(Int,Maybe Int)-\u003e(Int,Maybe Int)-\u003eRichParser a b-\u003eRichParser a b",
@@ -367,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eElementary parsers for dimensions 1 and 2\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "ElementaryParsers",
           "package": "adp-multi",
@@ -376,6 +407,7 @@
         "index": {
           "description": "Elementary parsers for dimensions and",
           "hierarchy": "ADP Multi ElementaryParsers",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "ElementaryParsers",
           "package": "adp-multi",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "EPS",
           "package": "adp-multi",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi ElementaryParsers",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "EPS",
           "package": "adp-multi",
@@ -410,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "EPS",
           "package": "adp-multi",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi ElementaryParsers",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "EPS",
           "package": "adp-multi",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "anychar",
           "package": "adp-multi",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi ElementaryParsers",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "anychar",
           "package": "adp-multi",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "anychar2",
           "package": "adp-multi",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi ElementaryParsers",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "anychar2",
           "normalized": "RichParser a(a,a)",
@@ -476,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "anycharExcept",
           "package": "adp-multi",
@@ -485,6 +526,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi ElementaryParsers",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "anycharExcept",
           "normalized": "[a]-\u003eRichParser a a",
@@ -500,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "char",
           "package": "adp-multi",
@@ -509,6 +552,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi ElementaryParsers",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "char",
           "normalized": "a-\u003eRichParser a a",
@@ -523,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "char2",
           "package": "adp-multi",
@@ -532,6 +577,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi ElementaryParsers",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "char2",
           "normalized": "a-\u003ea-\u003eRichParser a(a,a)",
@@ -546,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "charLeftOnly",
           "package": "adp-multi",
@@ -555,6 +602,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi ElementaryParsers",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "charLeftOnly",
           "normalized": "a-\u003eRichParser a(a,EPS)",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "charRightOnly",
           "package": "adp-multi",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi ElementaryParsers",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "charRightOnly",
           "normalized": "a-\u003eRichParser a(EPS,a)",
@@ -594,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "empty1",
           "package": "adp-multi",
@@ -603,6 +654,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi ElementaryParsers",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "empty1",
           "package": "adp-multi",
@@ -615,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "empty2",
           "package": "adp-multi",
@@ -624,6 +677,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi ElementaryParsers",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "empty2",
           "normalized": "RichParser a(EPS,EPS)",
@@ -638,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "string",
           "package": "adp-multi",
@@ -647,6 +702,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi ElementaryParsers",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "string",
           "normalized": "[a]-\u003eRichParser a[a]",
@@ -661,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "string2",
           "package": "adp-multi",
@@ -670,6 +727,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi ElementaryParsers",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.ElementaryParsers",
           "name": "string2",
           "normalized": "[a]-\u003e[a]-\u003eRichParser a([a],[a])",
@@ -685,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides several convenience functions to ease parsing setup.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Helpers",
           "name": "Helpers",
           "package": "adp-multi",
@@ -694,6 +753,7 @@
         "index": {
           "description": "Provides several convenience functions to ease parsing setup",
           "hierarchy": "ADP Multi Helpers",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Helpers",
           "name": "Helpers",
           "package": "adp-multi",
@@ -708,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function for parsing a given input\n   using a 1-dim parser, usually the start nonterminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Helpers",
           "name": "axiom",
           "package": "adp-multi",
@@ -718,6 +779,7 @@
         "index": {
           "description": "Convenience function for parsing given input using dim parser usually the start nonterminal",
           "hierarchy": "ADP Multi Helpers",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Helpers",
           "name": "axiom",
           "normalized": "Array Int a-\u003eRichParser a b-\u003e[b]",
@@ -733,6 +795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function for parsing a given input pair\n   using a 2-dim parser, usually the start nonterminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Helpers",
           "name": "axiomTwoTrack",
           "package": "adp-multi",
@@ -743,6 +806,7 @@
         "index": {
           "description": "Convenience function for parsing given input pair using dim parser usually the start nonterminal",
           "hierarchy": "ADP Multi Helpers",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Helpers",
           "name": "axiomTwoTrack",
           "normalized": "Array Int a-\u003e[a]-\u003e[a]-\u003eRichParser a b-\u003e[b]",
@@ -759,6 +823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns an input sequence into an array for use with a 1-dim parser.\n   Typically, this prepares the input for the \u003ccode\u003e\u003ca\u003eaxiom\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Helpers",
           "name": "mk",
           "package": "adp-multi",
@@ -769,6 +834,7 @@
         "index": {
           "description": "Turns an input sequence into an array for use with dim parser Typically this prepares the input for the axiom function",
           "hierarchy": "ADP Multi Helpers",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Helpers",
           "name": "mk",
           "normalized": "[a]-\u003eArray Int a",
@@ -784,6 +850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns two input sequences into an array for use with a 2-dim parser.\n   Typically, this prepares the input for the \u003ccode\u003e\u003ca\u003eaxiomTwoTrack\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Helpers",
           "name": "mkTwoTrack",
           "package": "adp-multi",
@@ -794,6 +861,7 @@
         "index": {
           "description": "Turns two input sequences into an array for use with dim parser Typically this prepares the input for the axiomTwoTrack function",
           "hierarchy": "ADP Multi Helpers",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Helpers",
           "name": "mkTwoTrack",
           "normalized": "[a]-\u003e[a]-\u003eArray Int a",
@@ -810,6 +878,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome common types for parsers. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Parser",
           "name": "Parser",
           "package": "adp-multi",
@@ -819,6 +888,7 @@
         "index": {
           "description": "Some common types for parsers",
           "hierarchy": "ADP Multi Parser",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Parser",
           "name": "Parser",
           "package": "adp-multi",
@@ -832,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Parser",
           "name": "Parseable",
           "package": "adp-multi",
@@ -840,6 +911,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Parser",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Parser",
           "name": "Parseable",
           "package": "adp-multi",
@@ -853,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Parser",
           "name": "Parser",
           "package": "adp-multi",
@@ -861,6 +934,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Parser",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Parser",
           "name": "Parser",
           "package": "adp-multi",
@@ -875,6 +949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatic information about yield sizes of a parser.\n   For supporting dimensions \u003e 2, this type has to be\n   expanded with more constructors, or redesigned to be generic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Parser",
           "name": "ParserInfo",
           "package": "adp-multi",
@@ -884,6 +959,7 @@
         "index": {
           "description": "Static information about yield sizes of parser For supporting dimensions this type has to be expanded with more constructors or redesigned to be generic",
           "hierarchy": "ADP Multi Parser",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Parser",
           "name": "ParserInfo",
           "package": "adp-multi",
@@ -897,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Parser",
           "name": "RichParser",
           "package": "adp-multi",
@@ -905,6 +982,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Parser",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Parser",
           "name": "RichParser",
           "package": "adp-multi",
@@ -919,6 +997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo support higher dimensions, a subword is a list\n   of indices. Valid list lengths are 2n with n\u003e0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Parser",
           "name": "Subword",
           "package": "adp-multi",
@@ -928,6 +1007,7 @@
         "index": {
           "description": "To support higher dimensions subword is list of indices Valid list lengths are with",
           "hierarchy": "ADP Multi Parser",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Parser",
           "name": "Subword",
           "package": "adp-multi",
@@ -941,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Parser",
           "name": "ParserInfo1",
           "package": "adp-multi",
@@ -950,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Parser",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Parser",
           "name": "ParserInfo1",
           "package": "adp-multi",
@@ -963,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Parser",
           "name": "ParserInfo2",
           "package": "adp-multi",
@@ -972,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Parser",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Parser",
           "name": "ParserInfo2",
           "package": "adp-multi",
@@ -985,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Parser",
           "name": "maxYield",
           "package": "adp-multi",
@@ -994,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Parser",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Parser",
           "name": "maxYield",
           "package": "adp-multi",
@@ -1007,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Parser",
           "name": "maxYield2",
           "package": "adp-multi",
@@ -1016,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Parser",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Parser",
           "name": "maxYield2",
           "normalized": "(Maybe Int,Maybe Int)",
@@ -1031,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Parser",
           "name": "minYield",
           "package": "adp-multi",
@@ -1040,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Parser",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Parser",
           "name": "minYield",
           "package": "adp-multi",
@@ -1053,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Parser",
           "name": "minYield2",
           "package": "adp-multi",
@@ -1062,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Parser",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Parser",
           "name": "minYield2",
           "normalized": "(Int,Int)",
@@ -1077,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Parser",
           "name": "toParser",
           "package": "adp-multi",
@@ -1086,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Parser",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Parser",
           "name": "toParser",
           "normalized": "a-\u003eRichParser b c",
@@ -1102,6 +1196,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience module to import the specific rewriting function model\n   and combinator implementation known as \u003cem\u003eexplicit\u003c/em\u003e.\n   In package adp-multi-monadiccp, there is another\n   combinator implementation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting.All",
           "name": "All",
           "package": "adp-multi",
@@ -1111,6 +1206,7 @@
         "index": {
           "description": "Convenience module to import the specific rewriting function model and combinator implementation known as explicit In package adp-multi-monadiccp there is another combinator implementation",
           "hierarchy": "ADP Multi Rewriting All",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting.All",
           "name": "All",
           "package": "adp-multi",
@@ -1125,6 +1221,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides instance implementations for the \u003e\u003e\u003e combinator\n   using the \u003cem\u003eexplicit\u003c/em\u003e subword construction algorithm.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting.Combinators",
           "name": "Combinators",
           "package": "adp-multi",
@@ -1134,6 +1231,7 @@
         "index": {
           "description": "Provides instance implementations for the combinator using the explicit subword construction algorithm",
           "hierarchy": "ADP Multi Rewriting Combinators",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting.Combinators",
           "name": "Combinators",
           "package": "adp-multi",
@@ -1147,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting.Explicit",
           "name": "Explicit",
           "package": "adp-multi",
@@ -1155,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Rewriting Explicit",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting.Explicit",
           "name": "Explicit",
           "package": "adp-multi",
@@ -1168,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting.Explicit",
           "name": "constructSubwords1",
           "package": "adp-multi",
@@ -1177,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Rewriting Explicit",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting.Explicit",
           "name": "constructSubwords1",
           "package": "adp-multi",
@@ -1190,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting.Explicit",
           "name": "constructSubwords2",
           "package": "adp-multi",
@@ -1199,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Rewriting Explicit",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting.Explicit",
           "name": "constructSubwords2",
           "package": "adp-multi",
@@ -1213,6 +1317,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefault model of rewriting functions used in adp-multi.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting.Model",
           "name": "Model",
           "package": "adp-multi",
@@ -1222,6 +1327,7 @@
         "index": {
           "description": "Default model of rewriting functions used in adp-multi",
           "hierarchy": "ADP Multi Rewriting Model",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting.Model",
           "name": "Model",
           "package": "adp-multi",
@@ -1236,6 +1342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1-dimensional rewriting function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting.Model",
           "name": "Dim1",
           "package": "adp-multi",
@@ -1245,6 +1352,7 @@
         "index": {
           "description": "dimensional rewriting function",
           "hierarchy": "ADP Multi Rewriting Model",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting.Model",
           "name": "Dim1",
           "package": "adp-multi",
@@ -1259,6 +1367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2-dimensional rewriting function\n   Note: every dimension must contain at least one element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting.Model",
           "name": "Dim2",
           "package": "adp-multi",
@@ -1268,6 +1377,7 @@
         "index": {
           "description": "dimensional rewriting function Note every dimension must contain at least one element",
           "hierarchy": "ADP Multi Rewriting Model",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting.Model",
           "name": "Dim2",
           "package": "adp-multi",
@@ -1282,6 +1392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery 1-dim parser has one symbol, every 2-dim parser two symbols.\nIn a production with parsers p1 to pn, each parser has a number,\n1 to n. Each symbol of a parser also has a number, 1 or 2, as only\ntwo dimensions are supported now. Both numbers form a unique identifier\nfor each symbol in a production.\n\u003c/p\u003e\u003cp\u003eExample:\nf \u003cimg src=\"\u003c a ~~~ b ~~~ c \"/\u003e\u003e r\n\u003c/p\u003e\u003cp\u003ea and c shall have dimension 1, b dimension 2.\nThen a has id (1,1), b has ids (2,1) and (2,2), and\nc has (3,1). Applying a rewriting function of type \u003ccode\u003e\u003ca\u003eDim1\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eDim2\u003c/a\u003e\u003c/code\u003e\nto the list of ids produces a permutation of those, possibly\nsplit up in two dimensions.\n\u003c/p\u003e\u003cp\u003eE.g., [(1,1),(2,1),(2,2),(3,1)] gets ([(2,1),(3,1)],[(2,2),(1,1)])\nif the rewriting function is: r [a,b1,b2,c] = ([b1,c],[b2,a]).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting.Model",
           "name": "SymbolID",
           "package": "adp-multi",
@@ -1291,6 +1402,7 @@
         "index": {
           "description": "Every dim parser has one symbol every dim parser two symbols In production with parsers p1 to pn each parser has number to Each symbol of parser also has number or as only two dimensions are supported now Both numbers form unique identifier for each symbol in production Example and shall have dimension dimension Then has id has ids and and has Applying rewriting function of type Dim1 or Dim2 to the list of ids produces permutation of those possibly split up in two dimensions E.g gets if the rewriting function is b1 b2 b1 b2",
           "hierarchy": "ADP Multi Rewriting Model",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting.Model",
           "name": "SymbolID",
           "package": "adp-multi",
@@ -1305,6 +1417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience rewriting function for one or more dim1 parsers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting.Model",
           "name": "id1",
           "package": "adp-multi",
@@ -1315,6 +1428,7 @@
         "index": {
           "description": "Convenience rewriting function for one or more dim1 parsers",
           "hierarchy": "ADP Multi Rewriting Model",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting.Model",
           "name": "id1",
           "package": "adp-multi",
@@ -1328,6 +1442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience rewriting function for one dim2 parser\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting.Model",
           "name": "id2",
           "package": "adp-multi",
@@ -1338,6 +1453,7 @@
         "index": {
           "description": "Convenience rewriting function for one dim2 parser",
           "hierarchy": "ADP Multi Rewriting Model",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting.Model",
           "name": "id2",
           "package": "adp-multi",
@@ -1351,6 +1467,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCalculates yield sizes using rewriting functions. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting.YieldSize",
           "name": "YieldSize",
           "package": "adp-multi",
@@ -1360,6 +1477,7 @@
         "index": {
           "description": "Calculates yield sizes using rewriting functions",
           "hierarchy": "ADP Multi Rewriting YieldSize",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting.YieldSize",
           "name": "YieldSize",
           "package": "adp-multi",
@@ -1373,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting.YieldSize",
           "name": "YieldAnalysisAlgorithm",
           "package": "adp-multi",
@@ -1381,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Rewriting YieldSize",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting.YieldSize",
           "name": "YieldAnalysisAlgorithm",
           "package": "adp-multi",
@@ -1395,6 +1515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emin and max yield size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting.YieldSize",
           "name": "YieldSize",
           "package": "adp-multi",
@@ -1404,6 +1525,7 @@
         "index": {
           "description": "min and max yield size",
           "hierarchy": "ADP Multi Rewriting YieldSize",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting.YieldSize",
           "name": "YieldSize",
           "package": "adp-multi",
@@ -1418,6 +1540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps each parser symbol to its yield size\n   (remember: a 2-dim parser has 2 symbols in a rewriting function)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting.YieldSize",
           "name": "YieldSizeMap",
           "package": "adp-multi",
@@ -1427,6 +1550,7 @@
         "index": {
           "description": "Maps each parser symbol to its yield size remember dim parser has symbols in rewriting function",
           "hierarchy": "ADP Multi Rewriting YieldSize",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting.YieldSize",
           "name": "YieldSizeMap",
           "package": "adp-multi",
@@ -1440,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting.YieldSize",
           "name": "buildYieldSizeMap",
           "package": "adp-multi",
@@ -1449,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Rewriting YieldSize",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting.YieldSize",
           "name": "buildYieldSizeMap",
           "normalized": "[ParserInfo]-\u003eYieldSizeMap",
@@ -1464,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting.YieldSize",
           "name": "combineYields",
           "package": "adp-multi",
@@ -1473,6 +1600,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Rewriting YieldSize",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting.YieldSize",
           "name": "combineYields",
           "normalized": "[YieldSize]-\u003eYieldSize",
@@ -1488,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting.YieldSize",
           "name": "determineYieldSize1",
           "package": "adp-multi",
@@ -1497,6 +1626,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Rewriting YieldSize",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting.YieldSize",
           "name": "determineYieldSize1",
           "package": "adp-multi",
@@ -1510,6 +1640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting.YieldSize",
           "name": "determineYieldSize2",
           "package": "adp-multi",
@@ -1519,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Rewriting YieldSize",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting.YieldSize",
           "name": "determineYieldSize2",
           "package": "adp-multi",
@@ -1533,6 +1665,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes for the rewriting combinator\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting",
           "name": "Rewriting",
           "package": "adp-multi",
@@ -1542,6 +1675,7 @@
         "index": {
           "description": "Types for the rewriting combinator",
           "hierarchy": "ADP Multi Rewriting",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting",
           "name": "Rewriting",
           "package": "adp-multi",
@@ -1555,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting",
           "name": "SubwordConstructionAlgorithm",
           "package": "adp-multi",
@@ -1563,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Rewriting",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting",
           "name": "SubwordConstructionAlgorithm",
           "package": "adp-multi",
@@ -1577,6 +1713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTree of subwords. Every path in a tree represents\n   a sequence of subwords for a corresponding sequence of parsers\n   in a production. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting",
           "name": "SubwordTree",
           "package": "adp-multi",
@@ -1586,6 +1723,7 @@
         "index": {
           "description": "Tree of subwords Every path in tree represents sequence of subwords for corresponding sequence of parsers in production",
           "hierarchy": "ADP Multi Rewriting",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting",
           "name": "SubwordTree",
           "package": "adp-multi",
@@ -1599,6 +1737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Rewriting",
           "name": "SubwordTree",
           "package": "adp-multi",
@@ -1608,6 +1747,7 @@
         },
         "index": {
           "hierarchy": "ADP Multi Rewriting",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Rewriting",
           "name": "SubwordTree",
           "normalized": "SubwordTree Subword[SubwordTree]",
@@ -1624,6 +1764,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCombinators for two- and four-dimensional tabulation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Tabulation",
           "name": "Tabulation",
           "package": "adp-multi",
@@ -1633,6 +1774,7 @@
         "index": {
           "description": "Combinators for two and four-dimensional tabulation",
           "hierarchy": "ADP Multi Tabulation",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Tabulation",
           "name": "Tabulation",
           "package": "adp-multi",
@@ -1647,6 +1789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo-dimensional tabulation for one-dim. parsers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Tabulation",
           "name": "table1",
           "package": "adp-multi",
@@ -1657,6 +1800,7 @@
         "index": {
           "description": "Two-dimensional tabulation for one-dim parsers",
           "hierarchy": "ADP Multi Tabulation",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Tabulation",
           "name": "table1",
           "normalized": "Array Int a-\u003eRichParser a b-\u003eRichParser a b",
@@ -1672,6 +1816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo-dimensional tabulation for one-dim. parsers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Tabulation",
           "name": "table1'",
           "package": "adp-multi",
@@ -1682,6 +1827,7 @@
         "index": {
           "description": "Two-dimensional tabulation for one-dim parsers",
           "hierarchy": "ADP Multi Tabulation",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Tabulation",
           "name": "table1'",
           "normalized": "Array Int a-\u003eParser a b-\u003eParser a b",
@@ -1697,6 +1843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFour-dimensional tabulation for two-dim. parsers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Tabulation",
           "name": "table2",
           "package": "adp-multi",
@@ -1707,6 +1854,7 @@
         "index": {
           "description": "Four-dimensional tabulation for two-dim parsers",
           "hierarchy": "ADP Multi Tabulation",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Tabulation",
           "name": "table2",
           "normalized": "Array Int a-\u003eRichParser a b-\u003eRichParser a b",
@@ -1722,6 +1870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFour-dimensional tabulation for two-dim. parsers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:26 UTC 2014",
           "module": "ADP.Multi.Tabulation",
           "name": "table2'",
           "package": "adp-multi",
@@ -1732,6 +1881,7 @@
         "index": {
           "description": "Four-dimensional tabulation for two-dim parsers",
           "hierarchy": "ADP Multi Tabulation",
+          "indexed": "2014-03-11T17:08:26",
           "module": "ADP.Multi.Tabulation",
           "name": "table2'",
           "normalized": "Array Int a-\u003eParser a b-\u003eParser a b",

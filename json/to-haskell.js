@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "to-haskell"
+        "phrase": "to-haskell",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion to Haskell code, plus utilities\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "ToHaskell",
           "package": "to-haskell",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Conversion to Haskell code plus utilities",
           "hierarchy": "Language Haskell Exts ToHaskell",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "ToHaskell",
           "package": "to-haskell",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "HDoc",
           "package": "to-haskell",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts ToHaskell",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "HDoc",
           "package": "to-haskell",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "Prec",
           "package": "to-haskell",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts ToHaskell",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "Prec",
           "package": "to-haskell",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "ToHS",
           "package": "to-haskell",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts ToHaskell",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "ToHS",
           "package": "to-haskell",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "ToHSPat",
           "package": "to-haskell",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts ToHaskell",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "ToHSPat",
           "package": "to-haskell",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "appHS",
           "package": "to-haskell",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts ToHaskell",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "appHS",
           "package": "to-haskell",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "hsName",
           "package": "to-haskell",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts ToHaskell",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "hsName",
           "normalized": "String-\u003eHDoc",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "hsShow",
           "package": "to-haskell",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts ToHaskell",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "hsShow",
           "normalized": "a-\u003eHDoc",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "ifHS",
           "package": "to-haskell",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts ToHaskell",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "ifHS",
           "package": "to-haskell",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "infixHS",
           "package": "to-haskell",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts ToHaskell",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "infixHS",
           "normalized": "String-\u003eMaybe(Binop HDoc)",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "lamHS",
           "package": "to-haskell",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts ToHaskell",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "lamHS",
           "normalized": "Pat-\u003eUnop HDoc",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "letHS",
           "package": "to-haskell",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts ToHaskell",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "letHS",
           "normalized": "Pat-\u003eBinop HDoc",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "showsPrecHS",
           "package": "to-haskell",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts ToHaskell",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "showsPrecHS",
           "normalized": "Prec-\u003ea-\u003eShowS",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "toHS",
           "package": "to-haskell",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts ToHaskell",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "toHS",
           "normalized": "a-\u003eHDoc",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "toHSPat",
           "package": "to-haskell",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts ToHaskell",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "toHSPat",
           "normalized": "a-\u003ePat",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "tupleHS",
           "package": "to-haskell",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Exts ToHaskell",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.Haskell.Exts.ToHaskell",
           "name": "tupleHS",
           "normalized": "[HDoc]-\u003eHDoc",
@@ -386,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupply monad\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.NameSupply",
           "name": "NameSupply",
           "package": "to-haskell",
@@ -395,6 +428,7 @@
         "index": {
           "description": "Supply monad",
           "hierarchy": "Language NameSupply",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.NameSupply",
           "name": "NameSupply",
           "package": "to-haskell",
@@ -408,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.NameSupply",
           "name": "Name",
           "package": "to-haskell",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Language NameSupply",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.NameSupply",
           "name": "Name",
           "package": "to-haskell",
@@ -429,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.NameSupply",
           "name": "NameM",
           "package": "to-haskell",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Language NameSupply",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.NameSupply",
           "name": "NameM",
           "package": "to-haskell",
@@ -450,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.NameSupply",
           "name": "Supply",
           "package": "to-haskell",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Language NameSupply",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.NameSupply",
           "name": "Supply",
           "package": "to-haskell",
@@ -472,6 +512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll names made purely of lower-case alphabetic characters, ordered by\n increasing size (starting with one) and alphabetically within each size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.NameSupply",
           "name": "allNames",
           "package": "to-haskell",
@@ -482,6 +523,7 @@
         "index": {
           "description": "All names made purely of lower-case alphabetic characters ordered by increasing size starting with one and alphabetically within each size",
           "hierarchy": "Language NameSupply",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.NameSupply",
           "name": "allNames",
           "normalized": "[Name]",
@@ -498,6 +540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a new variable name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.NameSupply",
           "name": "supplyNew",
           "package": "to-haskell",
@@ -508,6 +551,7 @@
         "index": {
           "description": "Generate new variable name",
           "hierarchy": "Language NameSupply",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.NameSupply",
           "name": "supplyNew",
           "package": "to-haskell",
@@ -521,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.NameSupply",
           "name": "withAllNames",
           "package": "to-haskell",
@@ -530,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Language NameSupply",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.NameSupply",
           "name": "withAllNames",
           "normalized": "NameM a-\u003ea",
@@ -545,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:43 UTC 2014",
           "module": "Language.NameSupply",
           "name": "withNames",
           "package": "to-haskell",
@@ -554,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Language NameSupply",
+          "indexed": "2014-03-11T20:23:43",
           "module": "Language.NameSupply",
           "name": "withNames",
           "normalized": "[Name]-\u003eNameM a-\u003ea",

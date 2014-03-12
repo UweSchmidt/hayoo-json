@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "billeksah-forms"
+        "phrase": "billeksah-forms",
+        "type": "phrase"
       },
       "type": "context"
     }

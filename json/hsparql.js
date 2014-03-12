@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsparql"
+        "phrase": "hsparql",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.Connection",
           "name": "Connection",
           "package": "hsparql",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql Connection",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.Connection",
           "name": "Connection",
           "package": "hsparql",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal representations of incoming XML results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.Connection",
           "name": "BindingValue",
           "package": "hsparql",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Local representations of incoming XML results",
           "hierarchy": "Database HSparql Connection",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.Connection",
           "name": "BindingValue",
           "package": "hsparql",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURI of the SPARQL endpoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.Connection",
           "name": "EndPoint",
           "package": "hsparql",
@@ -72,6 +77,7 @@
         "index": {
           "description": "URI of the SPARQL endpoint",
           "hierarchy": "Database HSparql Connection",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.Connection",
           "name": "EndPoint",
           "package": "hsparql",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRDF Node (UNode, BNode, LNode)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.Connection",
           "name": "Bound",
           "package": "hsparql",
@@ -96,6 +103,7 @@
         "index": {
           "description": "RDF Node UNode BNode LNode",
           "hierarchy": "Database HSparql Connection",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.Connection",
           "name": "Bound",
           "package": "hsparql",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnbound result value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.Connection",
           "name": "Unbound",
           "package": "hsparql",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Unbound result value",
           "hierarchy": "Database HSparql Connection",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.Connection",
           "name": "Unbound",
           "package": "hsparql",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to remote \u003ccode\u003e\u003ca\u003eEndPoint\u003c/a\u003e\u003c/code\u003e and find all possible bindings for the\n  \u003ccode\u003e\u003ca\u003eVariable\u003c/a\u003e\u003c/code\u003es in the \u003ccode\u003e\u003ca\u003eSelectQuery\u003c/a\u003e\u003c/code\u003e action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.Connection",
           "name": "askQuery",
           "package": "hsparql",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Connect to remote EndPoint and find all possible bindings for the Variable in the SelectQuery action",
           "hierarchy": "Database HSparql Connection",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.Connection",
           "name": "askQuery",
           "normalized": "EndPoint-\u003eQuery AskQuery-\u003eIO Bool",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to remote \u003ccode\u003e\u003ca\u003eEndPoint\u003c/a\u003e\u003c/code\u003e and construct \u003ccode\u003e\u003ca\u003eTriplesGraph\u003c/a\u003e\u003c/code\u003e from given\n  \u003ccode\u003e\u003ca\u003eConstructQuery\u003c/a\u003e\u003c/code\u003e action. \u003cem\u003eProvisional implementation\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.Connection",
           "name": "constructQuery",
           "package": "hsparql",
@@ -170,6 +183,7 @@
         "index": {
           "description": "Connect to remote EndPoint and construct TriplesGraph from given ConstructQuery action Provisional implementation",
           "hierarchy": "Database HSparql Connection",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.Connection",
           "name": "constructQuery",
           "normalized": "EndPoint-\u003eQuery ConstructQuery-\u003eIO a",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to remote \u003ccode\u003e\u003ca\u003eEndPoint\u003c/a\u003e\u003c/code\u003e and construct \u003ccode\u003e\u003ca\u003eTriplesGraph\u003c/a\u003e\u003c/code\u003e from given\n  \u003ccode\u003e\u003ca\u003eConstructQuery\u003c/a\u003e\u003c/code\u003e action. \u003cem\u003eProvisional implementation\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.Connection",
           "name": "describeQuery",
           "package": "hsparql",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Connect to remote EndPoint and construct TriplesGraph from given ConstructQuery action Provisional implementation",
           "hierarchy": "Database HSparql Connection",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.Connection",
           "name": "describeQuery",
           "normalized": "EndPoint-\u003eQuery DescribeQuery-\u003eIO a",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to remote \u003ccode\u003e\u003ca\u003eEndPoint\u003c/a\u003e\u003c/code\u003e and find all possible bindings for the\n  \u003ccode\u003e\u003ca\u003eVariable\u003c/a\u003e\u003c/code\u003es in the \u003ccode\u003e\u003ca\u003eSelectQuery\u003c/a\u003e\u003c/code\u003e action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.Connection",
           "name": "selectQuery",
           "package": "hsparql",
@@ -222,6 +239,7 @@
         "index": {
           "description": "Connect to remote EndPoint and find all possible bindings for the Variable in the SelectQuery action",
           "hierarchy": "Database HSparql Connection",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.Connection",
           "name": "selectQuery",
           "normalized": "EndPoint-\u003eQuery SelectQuery-\u003eIO(Maybe[[BindingValue]])",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to remote \u003ccode\u003e\u003ca\u003eEndPoint\u003c/a\u003e\u003c/code\u003e and find all possible bindings for the\n  \u003ccode\u003e\u003ca\u003eVariable\u003c/a\u003e\u003c/code\u003es in the \u003ccode\u003e\u003ca\u003eSelectQuery\u003c/a\u003e\u003c/code\u003e action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.Connection",
           "name": "updateQuery",
           "package": "hsparql",
@@ -248,6 +267,7 @@
         "index": {
           "description": "Connect to remote EndPoint and find all possible bindings for the Variable in the SelectQuery action",
           "hierarchy": "Database HSparql Connection",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.Connection",
           "name": "updateQuery",
           "normalized": "EndPoint-\u003eQuery UpdateQuery-\u003eIO Bool",
@@ -264,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe query generator DSL for SPARQL, used when connecting to remote\n  endpoints.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "QueryGenerator",
           "package": "hsparql",
@@ -273,6 +294,7 @@
         "index": {
           "description": "The query generator DSL for SPARQL used when connecting to remote endpoints",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "QueryGenerator",
           "package": "hsparql",
@@ -286,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "AskQuery",
           "package": "hsparql",
@@ -294,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "AskQuery",
           "package": "hsparql",
@@ -307,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "ConstructQuery",
           "package": "hsparql",
@@ -315,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "ConstructQuery",
           "package": "hsparql",
@@ -328,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "DescribeQuery",
           "package": "hsparql",
@@ -336,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "DescribeQuery",
           "package": "hsparql",
@@ -349,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "Pattern",
           "package": "hsparql",
@@ -357,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "Pattern",
           "package": "hsparql",
@@ -371,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eState\u003c/a\u003e\u003c/code\u003e monad applied to \u003ccode\u003eQueryData\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "Query",
           "package": "hsparql",
@@ -380,6 +411,7 @@
         "index": {
           "description": "The State monad applied to QueryData",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "Query",
           "package": "hsparql",
@@ -393,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "SelectQuery",
           "package": "hsparql",
@@ -401,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "SelectQuery",
           "package": "hsparql",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "UpdateQuery",
           "package": "hsparql",
@@ -422,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "UpdateQuery",
           "package": "hsparql",
@@ -435,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "Variable",
           "package": "hsparql",
@@ -443,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "Variable",
           "package": "hsparql",
@@ -457,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an expression which tests the relationship of the two operands,\n  evaluating their equivalence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "(.!=.)",
           "package": "hsparql",
@@ -467,6 +506,7 @@
         "index": {
           "description": "Create an expression which tests the relationship of the two operands evaluating their equivalence",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "(.!=.) .!=.",
           "normalized": "a-\u003eb-\u003eExpr",
@@ -482,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply two terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "(.*.)",
           "package": "hsparql",
@@ -492,6 +533,7 @@
         "index": {
           "description": "Multiply two terms",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "(.*.) .*.",
           "normalized": "a-\u003eb-\u003eExpr",
@@ -507,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd two terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "(.+.)",
           "package": "hsparql",
@@ -517,6 +560,7 @@
         "index": {
           "description": "Add two terms",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "(.+.) .+.",
           "normalized": "a-\u003eb-\u003eExpr",
@@ -532,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the difference between two terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "(.-.)",
           "package": "hsparql",
@@ -542,6 +587,7 @@
         "index": {
           "description": "Find the difference between two terms",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "(.-.) .-.",
           "normalized": "a-\u003eb-\u003eExpr",
@@ -557,6 +603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivide two terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "(./.)",
           "package": "hsparql",
@@ -567,6 +614,7 @@
         "index": {
           "description": "Divide two terms",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "(./.) ./.",
           "normalized": "a-\u003eb-\u003eExpr",
@@ -582,6 +630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an expression which tests the relationship of the two operands,\n  evaluating their relative value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "(.\u003c=.)",
           "package": "hsparql",
@@ -592,6 +641,7 @@
         "index": {
           "description": "Create an expression which tests the relationship of the two operands evaluating their relative value",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "(.\u003c=.) .\u003c=.",
           "normalized": "a-\u003eb-\u003eExpr",
@@ -607,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an expression which tests the relationship of the two operands,\n  evaluating their relative value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "(.\u003c.)",
           "package": "hsparql",
@@ -617,6 +668,7 @@
         "index": {
           "description": "Create an expression which tests the relationship of the two operands evaluating their relative value",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "(.\u003c.) .\u003c.",
           "normalized": "a-\u003eb-\u003eExpr",
@@ -632,6 +684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an expression which tests the relationship of the two operands,\n  evaluating their equivalence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "(.==.)",
           "package": "hsparql",
@@ -642,6 +695,7 @@
         "index": {
           "description": "Create an expression which tests the relationship of the two operands evaluating their equivalence",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "(.==.) .==.",
           "normalized": "a-\u003eb-\u003eExpr",
@@ -657,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an expression which tests the relationship of the two operands,\n  evaluating their relative value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "(.\u003e=.)",
           "package": "hsparql",
@@ -667,6 +722,7 @@
         "index": {
           "description": "Create an expression which tests the relationship of the two operands evaluating their relative value",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "(.\u003e=.) .\u003e=.",
           "normalized": "a-\u003eb-\u003eExpr",
@@ -682,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an expression which tests the relationship of the two operands,\n  evaluating their relative value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "(.\u003e.)",
           "package": "hsparql",
@@ -692,6 +749,7 @@
         "index": {
           "description": "Create an expression which tests the relationship of the two operands evaluating their relative value",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "(.\u003e.) .\u003e.",
           "normalized": "a-\u003eb-\u003eExpr",
@@ -707,6 +765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForm a \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e, with the \u003ccode\u003ePrefix\u003c/code\u003e and reference name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "(.:.)",
           "package": "hsparql",
@@ -717,6 +776,7 @@
         "index": {
           "description": "Form Node with the Prefix and reference name",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "(.:.) .:.",
           "normalized": "Prefix-\u003eText-\u003eIRIRef",
@@ -731,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "AskQuery",
           "package": "hsparql",
@@ -740,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "AskQuery",
           "package": "hsparql",
@@ -753,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "ConstructQuery",
           "package": "hsparql",
@@ -762,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "ConstructQuery",
           "package": "hsparql",
@@ -775,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "DescribeQuery",
           "package": "hsparql",
@@ -784,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "DescribeQuery",
           "package": "hsparql",
@@ -797,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "SelectQuery",
           "package": "hsparql",
@@ -806,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "SelectQuery",
           "package": "hsparql",
@@ -819,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "UpdateQuery",
           "package": "hsparql",
@@ -828,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "UpdateQuery",
           "package": "hsparql",
@@ -841,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "askTriple",
           "package": "hsparql",
@@ -850,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "askTriple",
           "normalized": "a-\u003eb-\u003ec-\u003eQuery Pattern",
@@ -865,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "bound",
           "package": "hsparql",
@@ -874,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "bound",
           "normalized": "Variable-\u003eExpr",
@@ -888,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "constructTriple",
           "package": "hsparql",
@@ -897,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "constructTriple",
           "normalized": "a-\u003eb-\u003ec-\u003eQuery Pattern",
@@ -913,6 +989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a 'Ask Query' action, returning the \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e representation of the query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "createAskQuery",
           "package": "hsparql",
@@ -923,6 +1000,7 @@
         "index": {
           "description": "Execute Ask Query action returning the String representation of the query",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "createAskQuery",
           "normalized": "Query AskQuery-\u003eString",
@@ -939,6 +1017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a 'Construct Query' action, returning the \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e representation of the query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "createConstructQuery",
           "package": "hsparql",
@@ -949,6 +1028,7 @@
         "index": {
           "description": "Execute Construct Query action returning the String representation of the query",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "createConstructQuery",
           "normalized": "Query ConstructQuery-\u003eString",
@@ -965,6 +1045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a 'Describe Query' action, returning the \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e representation of the query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "createDescribeQuery",
           "package": "hsparql",
@@ -975,6 +1056,7 @@
         "index": {
           "description": "Execute Describe Query action returning the String representation of the query",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "createDescribeQuery",
           "normalized": "Query DescribeQuery-\u003eString",
@@ -991,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a 'Select Query' action, returning the \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e representation of the query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "createSelectQuery",
           "package": "hsparql",
@@ -1001,6 +1084,7 @@
         "index": {
           "description": "Execute Select Query action returning the String representation of the query",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "createSelectQuery",
           "normalized": "Query SelectQuery-\u003eString",
@@ -1017,6 +1101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a 'Update Query' action, returning the \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e representation of the query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "createUpdateQuery",
           "package": "hsparql",
@@ -1027,6 +1112,7 @@
         "index": {
           "description": "Execute Update Query action returning the String representation of the query",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "createUpdateQuery",
           "normalized": "Query UpdateQuery-\u003eString",
@@ -1042,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "datatype",
           "package": "hsparql",
@@ -1051,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "datatype",
           "package": "hsparql",
@@ -1063,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "describeIRI",
           "package": "hsparql",
@@ -1072,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "describeIRI",
           "normalized": "IRIRef-\u003eQuery IRIRef",
@@ -1088,6 +1178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet duplicate handling to \u003ccode\u003eDistinct\u003c/code\u003e. By default, there are no reductions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "distinct",
           "package": "hsparql",
@@ -1098,6 +1189,7 @@
         "index": {
           "description": "Set duplicate handling to Distinct By default there are no reductions",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "distinct",
           "package": "hsparql",
@@ -1111,6 +1203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestrict results to only those for which the given expression is true.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "filterExpr",
           "package": "hsparql",
@@ -1121,6 +1214,7 @@
         "index": {
           "description": "Restrict results to only those for which the given expression is true",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "filterExpr",
           "normalized": "a-\u003eQuery Pattern",
@@ -1136,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "iriRef",
           "package": "hsparql",
@@ -1145,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "iriRef",
           "normalized": "Text-\u003eIRIRef",
@@ -1160,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "isBlank",
           "package": "hsparql",
@@ -1169,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "isBlank",
           "package": "hsparql",
@@ -1182,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "isIRI",
           "package": "hsparql",
@@ -1191,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "isIRI",
           "package": "hsparql",
@@ -1204,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "isLiteral",
           "package": "hsparql",
@@ -1213,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "isLiteral",
           "package": "hsparql",
@@ -1226,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "isURI",
           "package": "hsparql",
@@ -1235,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "isURI",
           "package": "hsparql",
@@ -1248,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "lang",
           "package": "hsparql",
@@ -1257,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "lang",
           "package": "hsparql",
@@ -1269,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "langMatches",
           "package": "hsparql",
@@ -1278,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "langMatches",
           "package": "hsparql",
@@ -1292,6 +1400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegate any term-like expression, for use, e.g., in filtering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "notExpr",
           "package": "hsparql",
@@ -1302,6 +1411,7 @@
         "index": {
           "description": "Negate any term-like expression for use e.g in filtering",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "notExpr",
           "normalized": "a-\u003eExpr",
@@ -1318,6 +1428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd optional constraints on matches. Variable bindings within the optional\n  action are lost, so variables must always be defined prior to opening the\n  optional block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "optional",
           "package": "hsparql",
@@ -1328,6 +1439,7 @@
         "index": {
           "description": "Add optional constraints on matches Variable bindings within the optional action are lost so variables must always be defined prior to opening the optional block",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "optional",
           "normalized": "Query a-\u003eQuery Pattern",
@@ -1343,6 +1455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias of \u003ccode\u003e\u003ca\u003eorderNextAsc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "orderNext",
           "package": "hsparql",
@@ -1353,6 +1466,7 @@
         "index": {
           "description": "Alias of orderNextAsc",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "orderNext",
           "normalized": "a-\u003eQuery()",
@@ -1369,6 +1483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrder the results, after any previous ordering, based on the term, in\n  ascending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "orderNextAsc",
           "package": "hsparql",
@@ -1379,6 +1494,7 @@
         "index": {
           "description": "Order the results after any previous ordering based on the term in ascending order",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "orderNextAsc",
           "normalized": "a-\u003eQuery()",
@@ -1395,6 +1511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrder the results, after any previous ordering, based on the term, in\n  descending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "orderNextDesc",
           "package": "hsparql",
@@ -1405,6 +1522,7 @@
         "index": {
           "description": "Order the results after any previous ordering based on the term in descending order",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "orderNextDesc",
           "normalized": "a-\u003eQuery()",
@@ -1421,6 +1539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a prefix to the query, given an IRI reference, and return it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "prefix",
           "package": "hsparql",
@@ -1431,6 +1550,7 @@
         "index": {
           "description": "Add prefix to the query given an IRI reference and return it",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "prefix",
           "normalized": "Text-\u003eIRIRef-\u003eQuery Prefix",
@@ -1446,6 +1566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert most query-related types to a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, most importantly\n  \u003ccode\u003eQueryData\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "qshow",
           "package": "hsparql",
@@ -1456,6 +1577,7 @@
         "index": {
           "description": "Convert most query-related types to String most importantly QueryData",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "qshow",
           "normalized": "a-\u003eString",
@@ -1470,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "queryAsk",
           "package": "hsparql",
@@ -1479,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "queryAsk",
           "normalized": "[Pattern]",
@@ -1494,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "queryConstructs",
           "package": "hsparql",
@@ -1503,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "queryConstructs",
           "normalized": "[Pattern]",
@@ -1518,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "queryDescribe",
           "package": "hsparql",
@@ -1527,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "queryDescribe",
           "package": "hsparql",
@@ -1540,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "queryUpdate",
           "package": "hsparql",
@@ -1549,6 +1678,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "queryUpdate",
           "normalized": "[Pattern]",
@@ -1564,6 +1694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "queryVars",
           "package": "hsparql",
@@ -1573,6 +1704,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "queryVars",
           "normalized": "[Variable]",
@@ -1589,6 +1721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet duplicate handling to \u003ccode\u003eReduced\u003c/code\u003e. By default, there are no reductions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "reduced",
           "package": "hsparql",
@@ -1599,6 +1732,7 @@
         "index": {
           "description": "Set duplicate handling to Reduced By default there are no reductions",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "reduced",
           "package": "hsparql",
@@ -1611,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "regex",
           "package": "hsparql",
@@ -1620,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "regex",
           "package": "hsparql",
@@ -1632,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "sameTerm",
           "package": "hsparql",
@@ -1641,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "sameTerm",
           "package": "hsparql",
@@ -1654,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "str",
           "package": "hsparql",
@@ -1663,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "str",
           "package": "hsparql",
@@ -1676,6 +1816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestrict the query to only results for which values match constants in this\n  triple, or for which the variables can be bound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "triple",
           "package": "hsparql",
@@ -1686,6 +1827,7 @@
         "index": {
           "description": "Restrict the query to only results for which values match constants in this triple or for which the variables can be bound",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "triple",
           "normalized": "a-\u003eb-\u003ec-\u003eQuery Pattern",
@@ -1701,6 +1843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a union structure to the query pattern. As with \u003ccode\u003e\u003ca\u003eoptional\u003c/a\u003e\u003c/code\u003e blocks,\n  variables must be defined prior to the opening of any block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "union",
           "package": "hsparql",
@@ -1711,6 +1854,7 @@
         "index": {
           "description": "Add union structure to the query pattern As with optional blocks variables must be defined prior to the opening of any block",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "union",
           "normalized": "Query a-\u003eQuery b-\u003eQuery Pattern",
@@ -1725,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "updateTriple",
           "package": "hsparql",
@@ -1734,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "updateTriple",
           "normalized": "a-\u003eb-\u003ec-\u003eQuery Pattern",
@@ -1750,6 +1896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate and return a variable to the query, usable in later expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:38 UTC 2014",
           "module": "Database.HSparql.QueryGenerator",
           "name": "var",
           "package": "hsparql",
@@ -1760,6 +1907,7 @@
         "index": {
           "description": "Create and return variable to the query usable in later expressions",
           "hierarchy": "Database HSparql QueryGenerator",
+          "indexed": "2014-03-11T18:49:38",
           "module": "Database.HSparql.QueryGenerator",
           "name": "var",
           "package": "hsparql",

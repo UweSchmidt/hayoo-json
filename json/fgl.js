@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fgl"
+        "phrase": "fgl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic Graph Algorithms\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Basic",
           "name": "Basic",
           "package": "fgl",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Basic Graph Algorithms",
           "hierarchy": "Data Graph Inductive Basic",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Basic",
           "name": "Basic",
           "package": "fgl",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter based on edge property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Basic",
           "name": "efilter",
           "package": "fgl",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Filter based on edge property",
           "hierarchy": "Data Graph Inductive Basic",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Basic",
           "name": "efilter",
           "normalized": "(LEdge a-\u003eBool)-\u003eb c a-\u003eb c a",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter based on edge label property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Basic",
           "name": "elfilter",
           "package": "fgl",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Filter based on edge label property",
           "hierarchy": "Data Graph Inductive Basic",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Basic",
           "name": "elfilter",
           "normalized": "(a-\u003eBool)-\u003eb c a-\u003eb c a",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirected graph fold.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Basic",
           "name": "gfold",
           "package": "fgl",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Directed graph fold",
           "hierarchy": "Data Graph Inductive Basic",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Basic",
           "name": "gfold",
           "normalized": "(Context a b-\u003e[Node])-\u003e(Context a b-\u003ec-\u003ed)-\u003e(Maybe d-\u003ec-\u003ec,c)-\u003e[Node]-\u003ee a b-\u003ec",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse the direction of all edges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Basic",
           "name": "grev",
           "package": "fgl",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Reverse the direction of all edges",
           "hierarchy": "Data Graph Inductive Basic",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Basic",
           "name": "grev",
           "normalized": "a b c-\u003ea b c",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003es for which the given function returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Basic",
           "name": "gsel",
           "package": "fgl",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Return all Context for which the given function returns True",
           "hierarchy": "Data Graph Inductive Basic",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Basic",
           "name": "gsel",
           "normalized": "(Context a b-\u003eBool)-\u003ec a b-\u003e[Context a b]",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the graph has any edges of the form (A, A).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Basic",
           "name": "hasLoop",
           "package": "fgl",
@@ -176,6 +189,7 @@
         "index": {
           "description": "True if the graph has any edges of the form",
           "hierarchy": "Data Graph Inductive Basic",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Basic",
           "name": "hasLoop",
           "normalized": "a b c-\u003eBool",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe inverse of \u003ccode\u003e\u003ca\u003ehasLoop\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Basic",
           "name": "isSimple",
           "package": "fgl",
@@ -202,6 +217,7 @@
         "index": {
           "description": "The inverse of hasLoop",
           "hierarchy": "Data Graph Inductive Basic",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Basic",
           "name": "isSimple",
           "normalized": "a b c-\u003eBool",
@@ -218,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten a \u003ccode\u003e\u003ca\u003eTree\u003c/a\u003e\u003c/code\u003e, returning the elements in post-order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Basic",
           "name": "postorder",
           "package": "fgl",
@@ -228,6 +245,7 @@
         "index": {
           "description": "Flatten Tree returning the elements in post-order",
           "hierarchy": "Data Graph Inductive Basic",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Basic",
           "name": "postorder",
           "normalized": "Tree a-\u003e[a]",
@@ -243,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten multiple \u003ccode\u003e\u003ca\u003eTree\u003c/a\u003e\u003c/code\u003es in post-order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Basic",
           "name": "postorderF",
           "package": "fgl",
@@ -253,6 +272,7 @@
         "index": {
           "description": "Flatten multiple Tree in post-order",
           "hierarchy": "Data Graph Inductive Basic",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Basic",
           "name": "postorderF",
           "normalized": "[Tree a]-\u003e[a]",
@@ -268,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten a \u003ccode\u003e\u003ca\u003eTree\u003c/a\u003e\u003c/code\u003e, returning the elements in pre-order.  Equivalent to\n\u003ccode\u003e\u003ca\u003eflatten\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003eData.Tree\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Basic",
           "name": "preorder",
           "package": "fgl",
@@ -278,6 +299,7 @@
         "index": {
           "description": "Flatten Tree returning the elements in pre-order Equivalent to flatten in Data.Tree",
           "hierarchy": "Data Graph Inductive Basic",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Basic",
           "name": "preorder",
           "normalized": "Tree a-\u003e[a]",
@@ -293,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten multiple \u003ccode\u003e\u003ca\u003eTree\u003c/a\u003e\u003c/code\u003es in pre-order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Basic",
           "name": "preorderF",
           "package": "fgl",
@@ -303,6 +326,7 @@
         "index": {
           "description": "Flatten multiple Tree in pre-order",
           "hierarchy": "Data Graph Inductive Basic",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Basic",
           "name": "preorderF",
           "normalized": "[Tree a]-\u003e[a]",
@@ -318,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake the graph undirected, i.e. for every edge from A to B, there\n exists an edge from B to A.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Basic",
           "name": "undir",
           "package": "fgl",
@@ -328,6 +353,7 @@
         "index": {
           "description": "Make the graph undirected i.e for every edge from to there exists an edge from to",
           "hierarchy": "Data Graph Inductive Basic",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Basic",
           "name": "undir",
           "normalized": "a b c-\u003ea b c",
@@ -343,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Basic",
           "name": "unlab",
           "package": "fgl",
@@ -353,6 +380,7 @@
         "index": {
           "description": "Remove all labels",
           "hierarchy": "Data Graph Inductive Basic",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Basic",
           "name": "unlab",
           "normalized": "a b c-\u003ea()()",
@@ -368,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExample Graphs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "Example",
           "package": "fgl",
@@ -377,6 +406,7 @@
         "index": {
           "description": "Example Graphs",
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "Example",
           "package": "fgl",
@@ -390,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "a",
           "package": "fgl",
@@ -399,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "a",
           "normalized": "Gr Char()",
@@ -413,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "a'",
           "package": "fgl",
@@ -422,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "a'",
           "normalized": "IO(SGr Char())",
@@ -436,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "ab",
           "package": "fgl",
@@ -445,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "ab",
           "normalized": "Gr Char()",
@@ -459,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "ab'",
           "package": "fgl",
@@ -468,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "ab'",
           "normalized": "IO(SGr Char())",
@@ -482,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "abb",
           "package": "fgl",
@@ -491,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "abb",
           "normalized": "Gr Char()",
@@ -505,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "abb'",
           "package": "fgl",
@@ -514,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "abb'",
           "normalized": "IO(SGr Char())",
@@ -528,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "b",
           "package": "fgl",
@@ -537,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "b",
           "normalized": "Gr Char()",
@@ -551,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "b'",
           "package": "fgl",
@@ -560,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "b'",
           "normalized": "IO(SGr Char())",
@@ -574,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "c",
           "package": "fgl",
@@ -583,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "c",
           "normalized": "Gr Char()",
@@ -597,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "c'",
           "package": "fgl",
@@ -606,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "c'",
           "normalized": "IO(SGr Char())",
@@ -620,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "clr479",
           "package": "fgl",
@@ -629,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "clr479",
           "normalized": "Gr Char()",
@@ -643,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "clr479'",
           "package": "fgl",
@@ -652,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "clr479'",
           "normalized": "IO(SGr Char())",
@@ -666,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "clr486",
           "package": "fgl",
@@ -675,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "clr486",
           "normalized": "Gr String()",
@@ -689,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "clr486'",
           "package": "fgl",
@@ -698,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "clr486'",
           "normalized": "IO(SGr String())",
@@ -712,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "clr489",
           "package": "fgl",
@@ -721,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "clr489",
           "normalized": "Gr Char()",
@@ -735,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "clr489'",
           "package": "fgl",
@@ -744,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "clr489'",
           "normalized": "IO(SGr Char())",
@@ -758,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "clr508",
           "package": "fgl",
@@ -767,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "clr508",
           "package": "fgl",
@@ -779,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "clr508'",
           "package": "fgl",
@@ -788,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "clr508'",
           "package": "fgl",
@@ -800,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "clr528",
           "package": "fgl",
@@ -809,6 +876,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "clr528",
           "package": "fgl",
@@ -821,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "clr528'",
           "package": "fgl",
@@ -830,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "clr528'",
           "package": "fgl",
@@ -842,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "clr595",
           "package": "fgl",
@@ -851,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "clr595",
           "package": "fgl",
@@ -863,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "cyc3",
           "package": "fgl",
@@ -872,6 +945,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "cyc3",
           "package": "fgl",
@@ -884,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "d1",
           "package": "fgl",
@@ -893,6 +968,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "d1",
           "package": "fgl",
@@ -905,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "d1'",
           "package": "fgl",
@@ -914,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "d1'",
           "package": "fgl",
@@ -926,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "d3",
           "package": "fgl",
@@ -935,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "d3",
           "package": "fgl",
@@ -947,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "d3'",
           "package": "fgl",
@@ -956,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "d3'",
           "package": "fgl",
@@ -968,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "dag3",
           "package": "fgl",
@@ -977,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "dag3",
           "normalized": "Gr Char()",
@@ -991,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "dag3'",
           "package": "fgl",
@@ -1000,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "dag3'",
           "normalized": "IO(SGr Char())",
@@ -1014,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "dag4",
           "package": "fgl",
@@ -1023,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "dag4",
           "normalized": "Gr Int()",
@@ -1037,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "dag4'",
           "package": "fgl",
@@ -1046,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "dag4'",
           "normalized": "IO(SGr Int())",
@@ -1060,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "e",
           "package": "fgl",
@@ -1069,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "e",
           "normalized": "Gr Char()",
@@ -1083,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "e'",
           "package": "fgl",
@@ -1092,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "e'",
           "normalized": "IO(SGr Char())",
@@ -1106,6 +1200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "e3",
           "package": "fgl",
@@ -1115,6 +1210,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "e3",
           "normalized": "Gr()String",
@@ -1129,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "e3'",
           "package": "fgl",
@@ -1138,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "e3'",
           "normalized": "IO(SGr()String)",
@@ -1152,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "g3",
           "package": "fgl",
@@ -1161,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "g3",
           "package": "fgl",
@@ -1173,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "g3b",
           "package": "fgl",
@@ -1182,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "g3b",
           "package": "fgl",
@@ -1195,6 +1297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate list of labeled nodes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "genLNodes",
           "package": "fgl",
@@ -1205,6 +1308,7 @@
         "index": {
           "description": "generate list of labeled nodes",
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "genLNodes",
           "normalized": "a-\u003eInt-\u003e[LNode a]",
@@ -1221,6 +1325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egenerate list of unlabeled nodes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "genUNodes",
           "package": "fgl",
@@ -1231,6 +1336,7 @@
         "index": {
           "description": "generate list of unlabeled nodes",
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "genUNodes",
           "normalized": "Int-\u003e[UNode]",
@@ -1246,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "gr1",
           "package": "fgl",
@@ -1255,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "gr1",
           "package": "fgl",
@@ -1267,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "kin248",
           "package": "fgl",
@@ -1276,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "kin248",
           "normalized": "Gr Int()",
@@ -1290,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "kin248'",
           "package": "fgl",
@@ -1299,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "kin248'",
           "normalized": "IO(SGr Int())",
@@ -1314,6 +1426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edenote unlabeled edges\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "labUEdges",
           "package": "fgl",
@@ -1324,6 +1437,7 @@
         "index": {
           "description": "denote unlabeled edges",
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "labUEdges",
           "normalized": "[Edge]-\u003e[UEdge]",
@@ -1339,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "loop",
           "package": "fgl",
@@ -1348,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "loop",
           "normalized": "Gr Char()",
@@ -1362,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "loop'",
           "package": "fgl",
@@ -1371,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "loop'",
           "normalized": "IO(SGr Char())",
@@ -1386,6 +1504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eempty (unlabeled) edge list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "noEdges",
           "package": "fgl",
@@ -1396,6 +1515,7 @@
         "index": {
           "description": "empty unlabeled edge list",
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "noEdges",
           "normalized": "[UEdge]",
@@ -1411,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "star",
           "package": "fgl",
@@ -1420,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "star",
           "normalized": "Int-\u003ea()()",
@@ -1434,6 +1556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "starM",
           "package": "fgl",
@@ -1443,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "starM",
           "normalized": "Int-\u003ea(b()())",
@@ -1457,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "ucycle",
           "package": "fgl",
@@ -1466,6 +1591,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "ucycle",
           "normalized": "Int-\u003ea()()",
@@ -1480,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "ucycleM",
           "package": "fgl",
@@ -1489,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "ucycleM",
           "normalized": "Int-\u003ea(b()())",
@@ -1503,6 +1631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "vor",
           "package": "fgl",
@@ -1512,6 +1641,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "vor",
           "package": "fgl",
@@ -1524,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Example",
           "name": "vor'",
           "package": "fgl",
@@ -1533,6 +1664,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Example",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Example",
           "name": "vor'",
           "package": "fgl",
@@ -1546,6 +1678,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStatic and Dynamic Inductive Graphs  \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "Graph",
           "package": "fgl",
@@ -1555,6 +1688,7 @@
         "index": {
           "description": "Static and Dynamic Inductive Graphs",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "Graph",
           "package": "fgl",
@@ -1569,6 +1703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabeled links to or from a \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "Adj",
           "package": "fgl",
@@ -1578,6 +1713,7 @@
         "index": {
           "description": "Labeled links to or from Node",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "Adj",
           "package": "fgl",
@@ -1592,6 +1728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinks to the \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e, the \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e itself, a label, links from the \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "Context",
           "package": "fgl",
@@ -1601,6 +1738,7 @@
         "index": {
           "description": "Links to the Node the Node itself label links from the Node",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "Context",
           "package": "fgl",
@@ -1615,6 +1753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e decomposition - the context removed from a \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e, and the rest\n of the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "Decomp",
           "package": "fgl",
@@ -1624,6 +1763,7 @@
         "index": {
           "description": "Graph decomposition the context removed from Graph and the rest of the Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "Decomp",
           "package": "fgl",
@@ -1637,6 +1777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "DynGraph",
           "package": "fgl",
@@ -1645,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "DynGraph",
           "package": "fgl",
@@ -1659,6 +1801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnlabeled edge\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "Edge",
           "package": "fgl",
@@ -1668,6 +1811,7 @@
         "index": {
           "description": "Unlabeled edge",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "Edge",
           "package": "fgl",
@@ -1682,6 +1826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003eDecomp\u003c/a\u003e\u003c/code\u003e, only more sure of itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "GDecomp",
           "package": "fgl",
@@ -1691,6 +1836,7 @@
         "index": {
           "description": "The same as Decomp only more sure of itself",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "GDecomp",
           "package": "fgl",
@@ -1705,6 +1851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimum implementation: \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eisEmpty\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ematch\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003emkGraph\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003elabNodes\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "Graph",
           "package": "fgl",
@@ -1714,6 +1861,7 @@
         "index": {
           "description": "Minimum implementation empty isEmpty match mkGraph labNodes",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "Graph",
           "package": "fgl",
@@ -1728,6 +1876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabeled edge\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "LEdge",
           "package": "fgl",
@@ -1737,6 +1886,7 @@
         "index": {
           "description": "Labeled edge",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "LEdge",
           "package": "fgl",
@@ -1751,6 +1901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabeled node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "LNode",
           "package": "fgl",
@@ -1760,6 +1911,7 @@
         "index": {
           "description": "Labeled node",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "LNode",
           "package": "fgl",
@@ -1774,6 +1926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabeled path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "LPath",
           "package": "fgl",
@@ -1783,6 +1936,7 @@
         "index": {
           "description": "Labeled path",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "LPath",
           "package": "fgl",
@@ -1796,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "MContext",
           "package": "fgl",
@@ -1804,6 +1959,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "MContext",
           "package": "fgl",
@@ -1818,6 +1974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnlabeled node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "Node",
           "package": "fgl",
@@ -1827,6 +1984,7 @@
         "index": {
           "description": "Unlabeled node",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "Node",
           "package": "fgl",
@@ -1841,6 +1999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnlabeled path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "Path",
           "package": "fgl",
@@ -1850,6 +2009,7 @@
         "index": {
           "description": "Unlabeled path",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "Path",
           "package": "fgl",
@@ -1864,6 +2024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnlabeled context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "UContext",
           "package": "fgl",
@@ -1873,6 +2034,7 @@
         "index": {
           "description": "Unlabeled context",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "UContext",
           "package": "fgl",
@@ -1887,6 +2049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnlabeled decomposition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "UDecomp",
           "package": "fgl",
@@ -1896,6 +2059,7 @@
         "index": {
           "description": "Unlabeled decomposition",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "UDecomp",
           "package": "fgl",
@@ -1910,6 +2074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuasi-unlabeled edge\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "UEdge",
           "package": "fgl",
@@ -1919,6 +2084,7 @@
         "index": {
           "description": "Quasi-unlabeled edge",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "UEdge",
           "package": "fgl",
@@ -1933,6 +2099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuasi-unlabeled node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "UNode",
           "package": "fgl",
@@ -1942,6 +2109,7 @@
         "index": {
           "description": "Quasi-unlabeled node",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "UNode",
           "package": "fgl",
@@ -1956,6 +2124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuasi-unlabeled path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "UPath",
           "package": "fgl",
@@ -1965,6 +2134,7 @@
         "index": {
           "description": "Quasi-unlabeled path",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "UPath",
           "package": "fgl",
@@ -1979,6 +2149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge the \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e into the \u003ccode\u003e\u003ca\u003eDynGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "(&)",
           "package": "fgl",
@@ -1989,6 +2160,7 @@
         "index": {
           "description": "Merge the Context into the DynGraph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "(&) &",
           "normalized": "Context a b-\u003ec a b-\u003ec a b",
@@ -2003,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "LP",
           "package": "fgl",
@@ -2012,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "LP",
           "normalized": "LP[LNode a]",
@@ -2028,6 +2202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e from a list of \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "buildGr",
           "package": "fgl",
@@ -2038,6 +2213,7 @@
         "index": {
           "description": "Build Graph from list of Context",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "buildGr",
           "normalized": "[Context a b]-\u003ec a b",
@@ -2054,6 +2230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the context for the given \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e.  Causes an error if the \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e is\n not present in the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "context",
           "package": "fgl",
@@ -2064,6 +2241,7 @@
         "index": {
           "description": "Find the context for the given Node Causes an error if the Node is not present in the Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "context",
           "normalized": "a b c-\u003eNode-\u003eContext b c",
@@ -2079,6 +2257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe degree of the \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "deg",
           "package": "fgl",
@@ -2089,6 +2268,7 @@
         "index": {
           "description": "The degree of the Node",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "deg",
           "normalized": "a b c-\u003eNode-\u003eInt",
@@ -2104,6 +2284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe degree of a \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "deg'",
           "package": "fgl",
@@ -2114,6 +2295,7 @@
         "index": {
           "description": "The degree of Context",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "deg'",
           "normalized": "Context a b-\u003eInt",
@@ -2129,6 +2311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove an \u003ccode\u003e\u003ca\u003eEdge\u003c/a\u003e\u003c/code\u003e from the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "delEdge",
           "package": "fgl",
@@ -2139,6 +2322,7 @@
         "index": {
           "description": "Remove an Edge from the Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "delEdge",
           "normalized": "Edge-\u003ea b c-\u003ea b c",
@@ -2155,6 +2339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove multiple \u003ccode\u003e\u003ca\u003eEdge\u003c/a\u003e\u003c/code\u003es from the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "delEdges",
           "package": "fgl",
@@ -2165,6 +2350,7 @@
         "index": {
           "description": "Remove multiple Edge from the Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "delEdges",
           "normalized": "[Edge]-\u003ea b c-\u003ea b c",
@@ -2181,6 +2367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove an \u003ccode\u003e\u003ca\u003eLEdge\u003c/a\u003e\u003c/code\u003e from the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "delLEdge",
           "package": "fgl",
@@ -2191,6 +2378,7 @@
         "index": {
           "description": "Remove an LEdge from the Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "delLEdge",
           "normalized": "LEdge a-\u003eb c a-\u003eb c a",
@@ -2207,6 +2395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e from the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "delNode",
           "package": "fgl",
@@ -2217,6 +2406,7 @@
         "index": {
           "description": "Remove Node from the Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "delNode",
           "normalized": "Node-\u003ea b c-\u003ea b c",
@@ -2233,6 +2423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove multiple \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003es from the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "delNodes",
           "package": "fgl",
@@ -2243,6 +2434,7 @@
         "index": {
           "description": "Remove multiple Node from the Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "delNodes",
           "normalized": "[Node]-\u003ea b c-\u003ea b c",
@@ -2259,6 +2451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all \u003ccode\u003e\u003ca\u003eEdge\u003c/a\u003e\u003c/code\u003es in the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "edges",
           "package": "fgl",
@@ -2269,6 +2462,7 @@
         "index": {
           "description": "List all Edge in the Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "edges",
           "normalized": "a b c-\u003e[Edge]",
@@ -2284,6 +2478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over the \u003ccode\u003e\u003ca\u003eEdge\u003c/a\u003e\u003c/code\u003e labels in a graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "emap",
           "package": "fgl",
@@ -2294,6 +2489,7 @@
         "index": {
           "description": "Map function over the Edge labels in graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "emap",
           "normalized": "(a-\u003eb)-\u003ec d a-\u003ec d b",
@@ -2309,6 +2505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "empty",
           "package": "fgl",
@@ -2319,6 +2516,7 @@
         "index": {
           "description": "An empty Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "empty",
           "package": "fgl",
@@ -2331,6 +2529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "equal",
           "package": "fgl",
@@ -2340,6 +2539,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "equal",
           "normalized": "a b c-\u003ea b c-\u003eBool",
@@ -2355,6 +2555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e is present in the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "gelem",
           "package": "fgl",
@@ -2365,6 +2566,7 @@
         "index": {
           "description": "True if the Node is present in the Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "gelem",
           "normalized": "Node-\u003ea b c-\u003eBool",
@@ -2380,6 +2582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "gmap",
           "package": "fgl",
@@ -2390,6 +2593,7 @@
         "index": {
           "description": "Map function over the graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "gmap",
           "normalized": "(Context a b-\u003eContext c d)-\u003ee a b-\u003ee c d",
@@ -2405,6 +2609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe inward-bound degree of the \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "indeg",
           "package": "fgl",
@@ -2415,6 +2620,7 @@
         "index": {
           "description": "The inward-bound degree of the Node",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "indeg",
           "normalized": "a b c-\u003eNode-\u003eInt",
@@ -2430,6 +2636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe inward degree of a \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "indeg'",
           "package": "fgl",
@@ -2440,6 +2647,7 @@
         "index": {
           "description": "The inward degree of Context",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "indeg'",
           "normalized": "Context a b-\u003eInt",
@@ -2455,6 +2663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all inward-bound \u003ccode\u003e\u003ca\u003eLEdge\u003c/a\u003e\u003c/code\u003es for the given \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "inn",
           "package": "fgl",
@@ -2465,6 +2674,7 @@
         "index": {
           "description": "Find all inward-bound LEdge for the given Node",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "inn",
           "normalized": "a b c-\u003eNode-\u003e[LEdge c]",
@@ -2480,6 +2690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll inward-directed \u003ccode\u003e\u003ca\u003eLEdge\u003c/a\u003e\u003c/code\u003es in a \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "inn'",
           "package": "fgl",
@@ -2490,6 +2701,7 @@
         "index": {
           "description": "All inward-directed LEdge in Context",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "inn'",
           "normalized": "Context a b-\u003e[LEdge b]",
@@ -2505,6 +2717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a \u003ccode\u003e\u003ca\u003eLEdge\u003c/a\u003e\u003c/code\u003e into the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "insEdge",
           "package": "fgl",
@@ -2515,6 +2728,7 @@
         "index": {
           "description": "Insert LEdge into the Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "insEdge",
           "normalized": "LEdge a-\u003eb c a-\u003eb c a",
@@ -2531,6 +2745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert multiple \u003ccode\u003e\u003ca\u003eLEdge\u003c/a\u003e\u003c/code\u003es into the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "insEdges",
           "package": "fgl",
@@ -2541,6 +2756,7 @@
         "index": {
           "description": "Insert multiple LEdge into the Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "insEdges",
           "normalized": "[LEdge a]-\u003eb c a-\u003eb c a",
@@ -2557,6 +2773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a \u003ccode\u003e\u003ca\u003eLNode\u003c/a\u003e\u003c/code\u003e into the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "insNode",
           "package": "fgl",
@@ -2567,6 +2784,7 @@
         "index": {
           "description": "Insert LNode into the Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "insNode",
           "normalized": "LNode a-\u003eb a c-\u003eb a c",
@@ -2583,6 +2801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert multiple \u003ccode\u003e\u003ca\u003eLNode\u003c/a\u003e\u003c/code\u003es into the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "insNodes",
           "package": "fgl",
@@ -2593,6 +2812,7 @@
         "index": {
           "description": "Insert multiple LNode into the Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "insNodes",
           "normalized": "[LNode a]-\u003eb a c-\u003eb a c",
@@ -2609,6 +2829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the given \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "isEmpty",
           "package": "fgl",
@@ -2619,6 +2840,7 @@
         "index": {
           "description": "True if the given Graph is empty",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "isEmpty",
           "normalized": "a b c-\u003eBool",
@@ -2635,6 +2857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the label for a \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "lab",
           "package": "fgl",
@@ -2645,6 +2868,7 @@
         "index": {
           "description": "Find the label for Node",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "lab",
           "normalized": "a b c-\u003eNode-\u003eMaybe b",
@@ -2660,6 +2884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe label in a \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "lab'",
           "package": "fgl",
@@ -2670,6 +2895,7 @@
         "index": {
           "description": "The label in Context",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "lab'",
           "normalized": "Context a b-\u003ea",
@@ -2685,6 +2911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of all \u003ccode\u003e\u003ca\u003eLEdge\u003c/a\u003e\u003c/code\u003es in the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "labEdges",
           "package": "fgl",
@@ -2695,6 +2922,7 @@
         "index": {
           "description": "list of all LEdge in the Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "labEdges",
           "normalized": "a b c-\u003e[LEdge c]",
@@ -2711,6 +2939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eLNode\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "labNode'",
           "package": "fgl",
@@ -2721,6 +2950,7 @@
         "index": {
           "description": "The LNode from Context",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "labNode'",
           "normalized": "Context a b-\u003eLNode a",
@@ -2737,6 +2967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of all \u003ccode\u003e\u003ca\u003eLNode\u003c/a\u003e\u003c/code\u003es in the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "labNodes",
           "package": "fgl",
@@ -2747,6 +2978,7 @@
         "index": {
           "description": "list of all LNode in the Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "labNodes",
           "normalized": "a b c-\u003e[LNode b]",
@@ -2763,6 +2995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003es that link to the given \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e and the label of each link.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "lpre",
           "package": "fgl",
@@ -2773,6 +3006,7 @@
         "index": {
           "description": "Find all Node that link to the given Node and the label of each link",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "lpre",
           "normalized": "a b c-\u003eNode-\u003e[(Node,c)]",
@@ -2788,6 +3022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003es linked from in a \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e, and the label of the links.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "lpre'",
           "package": "fgl",
@@ -2798,6 +3033,7 @@
         "index": {
           "description": "All Node linked from in Context and the label of the links",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "lpre'",
           "normalized": "Context a b-\u003e[(Node,b)]",
@@ -2813,6 +3049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003es that are linked from the given \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e and the label of\n each link.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "lsuc",
           "package": "fgl",
@@ -2823,6 +3060,7 @@
         "index": {
           "description": "Find all Node that are linked from the given Node and the label of each link",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "lsuc",
           "normalized": "a b c-\u003eNode-\u003e[(Node,c)]",
@@ -2838,6 +3076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003es linked from in a \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e, and the label of the links.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "lsuc'",
           "package": "fgl",
@@ -2848,6 +3087,7 @@
         "index": {
           "description": "All Node linked from in Context and the label of the links",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "lsuc'",
           "normalized": "Context a b-\u003e[(Node,b)]",
@@ -2863,6 +3103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompose a \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e into the \u003ccode\u003e\u003ca\u003eMContext\u003c/a\u003e\u003c/code\u003e found for the given node and the\n remaining \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "match",
           "package": "fgl",
@@ -2873,6 +3114,7 @@
         "index": {
           "description": "Decompose Graph into the MContext found for the given node and the remaining Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "match",
           "normalized": "Node-\u003ea b c-\u003eDecomp a b c",
@@ -2888,6 +3130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompose a graph into the \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e for an arbitrarily-chosen \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e\n and the remaining \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "matchAny",
           "package": "fgl",
@@ -2898,6 +3141,7 @@
         "index": {
           "description": "Decompose graph into the Context for an arbitrarily-chosen Node and the remaining Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "matchAny",
           "normalized": "a b c-\u003eGDecomp a b c",
@@ -2914,6 +3158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e from the list of \u003ccode\u003e\u003ca\u003eLNode\u003c/a\u003e\u003c/code\u003es and \u003ccode\u003e\u003ca\u003eLEdge\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "mkGraph",
           "package": "fgl",
@@ -2924,6 +3169,7 @@
         "index": {
           "description": "Create Graph from the list of LNode and LEdge",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "mkGraph",
           "normalized": "[LNode a]-\u003e[LEdge b]-\u003ec a b",
@@ -2940,6 +3186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a quasi-unlabeled \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "mkUGraph",
           "package": "fgl",
@@ -2950,6 +3197,7 @@
         "index": {
           "description": "Build quasi-unlabeled Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "mkUGraph",
           "normalized": "[Node]-\u003e[Edge]-\u003ea()()",
@@ -2966,6 +3214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the neighbors for a \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "neighbors",
           "package": "fgl",
@@ -2976,6 +3225,7 @@
         "index": {
           "description": "Find the neighbors for Node",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "neighbors",
           "normalized": "a b c-\u003eNode-\u003e[Node]",
@@ -2991,6 +3241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003es linked to or from in a \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "neighbors'",
           "package": "fgl",
@@ -3001,6 +3252,7 @@
         "index": {
           "description": "All Node linked to or from in Context",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "neighbors'",
           "normalized": "Context a b-\u003e[Node]",
@@ -3016,6 +3268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList N available \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003es, i.e. \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003es that are not used in the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "newNodes",
           "package": "fgl",
@@ -3026,6 +3279,7 @@
         "index": {
           "description": "List available Node i.e Node that are not used in the Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "newNodes",
           "normalized": "Int-\u003ea b c-\u003e[Node]",
@@ -3042,6 +3296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over the \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e labels in a graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "nmap",
           "package": "fgl",
@@ -3052,6 +3307,7 @@
         "index": {
           "description": "Map function over the Node labels in graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "nmap",
           "normalized": "(a-\u003eb)-\u003ec a d-\u003ec b d",
@@ -3067,6 +3323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003es in a \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "noNodes",
           "package": "fgl",
@@ -3077,6 +3334,7 @@
         "index": {
           "description": "The number of Node in Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "noNodes",
           "normalized": "a b c-\u003eInt",
@@ -3093,6 +3351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e in a \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "node'",
           "package": "fgl",
@@ -3103,6 +3362,7 @@
         "index": {
           "description": "The Node in Context",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "node'",
           "normalized": "Context a b-\u003eNode",
@@ -3118,6 +3378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe minimum and maximum \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e in a \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "nodeRange",
           "package": "fgl",
@@ -3128,6 +3389,7 @@
         "index": {
           "description": "The minimum and maximum Node in Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "nodeRange",
           "normalized": "a b c-\u003e(Node,Node)",
@@ -3144,6 +3406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003es in the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "nodes",
           "package": "fgl",
@@ -3154,6 +3417,7 @@
         "index": {
           "description": "List all Node in the Graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "nodes",
           "normalized": "a b c-\u003e[Node]",
@@ -3169,6 +3433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all outward-bound \u003ccode\u003e\u003ca\u003eLEdge\u003c/a\u003e\u003c/code\u003es for the given \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "out",
           "package": "fgl",
@@ -3179,6 +3444,7 @@
         "index": {
           "description": "Find all outward-bound LEdge for the given Node",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "out",
           "normalized": "a b c-\u003eNode-\u003e[LEdge c]",
@@ -3194,6 +3460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll outward-directed \u003ccode\u003e\u003ca\u003eLEdge\u003c/a\u003e\u003c/code\u003es in a \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "out'",
           "package": "fgl",
@@ -3204,6 +3471,7 @@
         "index": {
           "description": "All outward-directed LEdge in Context",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "out'",
           "normalized": "Context a b-\u003e[LEdge b]",
@@ -3219,6 +3487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe outward-bound degree of the \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "outdeg",
           "package": "fgl",
@@ -3229,6 +3498,7 @@
         "index": {
           "description": "The outward-bound degree of the Node",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "outdeg",
           "normalized": "a b c-\u003eNode-\u003eInt",
@@ -3244,6 +3514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe outward degree of a \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "outdeg'",
           "package": "fgl",
@@ -3254,6 +3525,7 @@
         "index": {
           "description": "The outward degree of Context",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "outdeg'",
           "normalized": "Context a b-\u003eInt",
@@ -3269,6 +3541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003es that link to to the given \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "pre",
           "package": "fgl",
@@ -3279,6 +3552,7 @@
         "index": {
           "description": "Find all Node that link to to the given Node",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "pre",
           "normalized": "a b c-\u003eNode-\u003e[Node]",
@@ -3294,6 +3568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003es linked from in a \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "pre'",
           "package": "fgl",
@@ -3304,6 +3579,7 @@
         "index": {
           "description": "All Node linked from in Context",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "pre'",
           "normalized": "Context a b-\u003e[Node]",
@@ -3319,6 +3595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003es that have a link from the given \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "suc",
           "package": "fgl",
@@ -3329,6 +3606,7 @@
         "index": {
           "description": "Find all Node that have link from the given Node",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "suc",
           "normalized": "a b c-\u003eNode-\u003e[Node]",
@@ -3344,6 +3622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003es linked to in a \u003ccode\u003e\u003ca\u003eContext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "suc'",
           "package": "fgl",
@@ -3354,6 +3633,7 @@
         "index": {
           "description": "All Node linked to in Context",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "suc'",
           "normalized": "Context a b-\u003e[Node]",
@@ -3369,6 +3649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a function over the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graph",
           "name": "ufold",
           "package": "fgl",
@@ -3379,6 +3660,7 @@
         "index": {
           "description": "Fold function over the graph",
           "hierarchy": "Data Graph Inductive Graph",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graph",
           "name": "ufold",
           "normalized": "(Context a b-\u003ec-\u003ec)-\u003ec-\u003ed a b-\u003ec",
@@ -3394,6 +3676,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple graphviz output.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graphviz",
           "name": "Graphviz",
           "package": "fgl",
@@ -3403,6 +3686,7 @@
         "index": {
           "description": "Simple graphviz output",
           "hierarchy": "Data Graph Inductive Graphviz",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graphviz",
           "name": "Graphviz",
           "package": "fgl",
@@ -3416,6 +3700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graphviz",
           "name": "Orient",
           "package": "fgl",
@@ -3424,6 +3709,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Graphviz",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graphviz",
           "name": "Orient",
           "package": "fgl",
@@ -3437,6 +3723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graphviz",
           "name": "Landscape",
           "package": "fgl",
@@ -3446,6 +3733,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Graphviz",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graphviz",
           "name": "Landscape",
           "package": "fgl",
@@ -3459,6 +3747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graphviz",
           "name": "Portrait",
           "package": "fgl",
@@ -3468,6 +3757,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Graphviz",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graphviz",
           "name": "Portrait",
           "package": "fgl",
@@ -3482,6 +3772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormats a graph for use in graphviz.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graphviz",
           "name": "graphviz",
           "package": "fgl",
@@ -3491,6 +3782,7 @@
         "index": {
           "description": "Formats graph for use in graphviz",
           "hierarchy": "Data Graph Inductive Graphviz",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graphviz",
           "name": "graphviz",
           "normalized": "a b c-\u003eString-\u003e(Double,Double)-\u003e(Int,Int)-\u003eOrient-\u003eString",
@@ -3506,6 +3798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat a graph for graphviz with reasonable defaults: title of \"fgl\",\n 8.5x11 pages, one page, landscape orientation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Graphviz",
           "name": "graphviz'",
           "package": "fgl",
@@ -3516,6 +3809,7 @@
         "index": {
           "description": "Format graph for graphviz with reasonable defaults title of fgl x11 pages one page landscape orientation",
           "hierarchy": "Data Graph Inductive Graphviz",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Graphviz",
           "name": "graphviz'",
           "normalized": "a b c-\u003eString",
@@ -3531,6 +3825,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple Finite Maps.\n This implementation provides several useful methods that Data.FiniteMap\n does not.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "FiniteMap",
           "package": "fgl",
@@ -3540,6 +3835,7 @@
         "index": {
           "description": "Simple Finite Maps This implementation provides several useful methods that Data.FiniteMap does not",
           "hierarchy": "Data Graph Inductive Internal FiniteMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "FiniteMap",
           "package": "fgl",
@@ -3553,6 +3849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "FiniteMap",
           "package": "fgl",
@@ -3561,6 +3858,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal FiniteMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "FiniteMap",
           "package": "fgl",
@@ -3574,6 +3872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "Empty",
           "package": "fgl",
@@ -3583,6 +3882,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal FiniteMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "Empty",
           "package": "fgl",
@@ -3596,6 +3896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "Node",
           "package": "fgl",
@@ -3605,6 +3906,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal FiniteMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "Node",
           "normalized": "Node Int(FiniteMap a b)(a,b)(FiniteMap a b)",
@@ -3621,6 +3923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefines or aggregates entries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "accumFM",
           "package": "fgl",
@@ -3631,6 +3934,7 @@
         "index": {
           "description": "defines or aggregates entries",
           "hierarchy": "Data Graph Inductive Internal FiniteMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "accumFM",
           "normalized": "FiniteMap a b-\u003ea-\u003e(b-\u003eb-\u003eb)-\u003eb-\u003eFiniteMap a b",
@@ -3646,6 +3950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "addToFM",
           "package": "fgl",
@@ -3655,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal FiniteMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "addToFM",
           "normalized": "FiniteMap a b-\u003ea-\u003eb-\u003eFiniteMap a b",
@@ -3670,6 +3976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "delFromFM",
           "package": "fgl",
@@ -3679,6 +3986,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal FiniteMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "delFromFM",
           "normalized": "FiniteMap a b-\u003ea-\u003eFiniteMap a b",
@@ -3694,6 +4002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "elemFM",
           "package": "fgl",
@@ -3703,6 +4012,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal FiniteMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "elemFM",
           "normalized": "FiniteMap a b-\u003ea-\u003eBool",
@@ -3718,6 +4028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "emptyFM",
           "package": "fgl",
@@ -3727,6 +4038,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal FiniteMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "emptyFM",
           "package": "fgl",
@@ -3740,6 +4052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "fmToList",
           "package": "fgl",
@@ -3749,6 +4062,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal FiniteMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "fmToList",
           "normalized": "FiniteMap a b-\u003e[(a,b)]",
@@ -3764,6 +4078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "isEmptyFM",
           "package": "fgl",
@@ -3773,6 +4088,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal FiniteMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "isEmptyFM",
           "normalized": "FiniteMap a b-\u003eBool",
@@ -3788,6 +4104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "lookupFM",
           "package": "fgl",
@@ -3797,6 +4114,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal FiniteMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "lookupFM",
           "normalized": "FiniteMap a b-\u003ea-\u003eMaybe b",
@@ -3812,6 +4130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "maxFM",
           "package": "fgl",
@@ -3821,6 +4140,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal FiniteMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "maxFM",
           "normalized": "FiniteMap a b-\u003eMaybe(a,b)",
@@ -3836,6 +4156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "minFM",
           "package": "fgl",
@@ -3845,6 +4166,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal FiniteMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "minFM",
           "normalized": "FiniteMap a b-\u003eMaybe(a,b)",
@@ -3860,6 +4182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "predFM",
           "package": "fgl",
@@ -3869,6 +4192,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal FiniteMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "predFM",
           "normalized": "FiniteMap a b-\u003ea-\u003eMaybe(a,b)",
@@ -3885,6 +4209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapplies lookup to an interval\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "rangeFM",
           "package": "fgl",
@@ -3895,6 +4220,7 @@
         "index": {
           "description": "applies lookup to an interval",
           "hierarchy": "Data Graph Inductive Internal FiniteMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "rangeFM",
           "normalized": "FiniteMap a b-\u003ea-\u003ea-\u003e[b]",
@@ -3910,6 +4236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "sizeFM",
           "package": "fgl",
@@ -3919,6 +4246,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal FiniteMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "sizeFM",
           "normalized": "FiniteMap a b-\u003eInt",
@@ -3935,6 +4263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecombines delFrom and lookup\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "splitFM",
           "package": "fgl",
@@ -3945,6 +4274,7 @@
         "index": {
           "description": "combines delFrom and lookup",
           "hierarchy": "Data Graph Inductive Internal FiniteMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "splitFM",
           "normalized": "FiniteMap a b-\u003ea-\u003eMaybe(FiniteMap a b,(a,b))",
@@ -3961,6 +4291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecombines splitFM and minFM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "splitMinFM",
           "package": "fgl",
@@ -3971,6 +4302,7 @@
         "index": {
           "description": "combines splitFM and minFM",
           "hierarchy": "Data Graph Inductive Internal FiniteMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "splitMinFM",
           "normalized": "FiniteMap a b-\u003eMaybe(FiniteMap a b,(a,b))",
@@ -3986,6 +4318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "succFM",
           "package": "fgl",
@@ -3995,6 +4328,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal FiniteMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "succFM",
           "normalized": "FiniteMap a b-\u003ea-\u003eMaybe(a,b)",
@@ -4011,6 +4345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapplies function to stored entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "updFM",
           "package": "fgl",
@@ -4021,6 +4356,7 @@
         "index": {
           "description": "applies function to stored entry",
           "hierarchy": "Data Graph Inductive Internal FiniteMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.FiniteMap",
           "name": "updFM",
           "normalized": "FiniteMap a b-\u003ea-\u003e(b-\u003eb)-\u003eFiniteMap a b",
@@ -4037,6 +4373,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePairing heap implementation of dictionary\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "Heap",
           "package": "fgl",
@@ -4046,6 +4383,7 @@
         "index": {
           "description": "Pairing heap implementation of dictionary",
           "hierarchy": "Data Graph Inductive Internal Heap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "Heap",
           "package": "fgl",
@@ -4059,6 +4397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "Heap",
           "package": "fgl",
@@ -4067,6 +4406,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Heap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "Heap",
           "package": "fgl",
@@ -4080,6 +4420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "Empty",
           "package": "fgl",
@@ -4089,6 +4430,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Heap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "Empty",
           "package": "fgl",
@@ -4102,6 +4444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "Node",
           "package": "fgl",
@@ -4111,6 +4454,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Heap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "Node",
           "normalized": "Node a b[Heap a b]",
@@ -4126,6 +4470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "build",
           "package": "fgl",
@@ -4135,6 +4480,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Heap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "build",
           "normalized": "[(a,b)]-\u003eHeap a b",
@@ -4149,6 +4495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "deleteMin",
           "package": "fgl",
@@ -4158,6 +4505,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Heap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "deleteMin",
           "normalized": "Heap a b-\u003eHeap a b",
@@ -4173,6 +4521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "empty",
           "package": "fgl",
@@ -4182,6 +4531,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Heap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "empty",
           "package": "fgl",
@@ -4194,6 +4544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "findMin",
           "package": "fgl",
@@ -4203,6 +4554,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Heap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "findMin",
           "normalized": "Heap a b-\u003e(a,b)",
@@ -4218,6 +4570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "heapsort",
           "package": "fgl",
@@ -4227,6 +4580,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Heap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "heapsort",
           "normalized": "[a]-\u003e[a]",
@@ -4241,6 +4595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "insert",
           "package": "fgl",
@@ -4250,6 +4605,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Heap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "insert",
           "normalized": "(a,b)-\u003eHeap a b-\u003eHeap a b",
@@ -4264,6 +4620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "isEmpty",
           "package": "fgl",
@@ -4273,6 +4630,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Heap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "isEmpty",
           "normalized": "Heap a b-\u003eBool",
@@ -4288,6 +4646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "merge",
           "package": "fgl",
@@ -4297,6 +4656,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Heap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "merge",
           "normalized": "Heap a b-\u003eHeap a b-\u003eHeap a b",
@@ -4311,6 +4671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "mergeAll",
           "package": "fgl",
@@ -4320,6 +4681,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Heap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "mergeAll",
           "normalized": "[Heap a b]-\u003eHeap a b",
@@ -4335,6 +4697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "splitMin",
           "package": "fgl",
@@ -4344,6 +4707,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Heap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "splitMin",
           "normalized": "Heap a b-\u003e(a,b,Heap a b)",
@@ -4359,6 +4723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "toList",
           "package": "fgl",
@@ -4368,6 +4733,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Heap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "toList",
           "normalized": "Heap a b-\u003e[(a,b)]",
@@ -4383,6 +4749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "unit",
           "package": "fgl",
@@ -4392,6 +4759,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Heap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Heap",
           "name": "unit",
           "normalized": "a-\u003eb-\u003eHeap a b",
@@ -4406,6 +4774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Queue",
           "name": "Queue",
           "package": "fgl",
@@ -4414,6 +4783,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Queue",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Queue",
           "name": "Queue",
           "package": "fgl",
@@ -4427,6 +4797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Queue",
           "name": "Queue",
           "package": "fgl",
@@ -4435,6 +4806,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Queue",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Queue",
           "name": "Queue",
           "package": "fgl",
@@ -4448,6 +4820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Queue",
           "name": "MkQueue",
           "package": "fgl",
@@ -4457,6 +4830,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Queue",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Queue",
           "name": "MkQueue",
           "normalized": "MkQueue[a][a]",
@@ -4472,6 +4846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Queue",
           "name": "mkQueue",
           "package": "fgl",
@@ -4481,6 +4856,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Queue",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Queue",
           "name": "mkQueue",
           "package": "fgl",
@@ -4494,6 +4870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Queue",
           "name": "queueEmpty",
           "package": "fgl",
@@ -4503,6 +4880,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Queue",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Queue",
           "name": "queueEmpty",
           "normalized": "Queue a-\u003eBool",
@@ -4518,6 +4896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Queue",
           "name": "queueGet",
           "package": "fgl",
@@ -4527,6 +4906,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Queue",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Queue",
           "name": "queueGet",
           "normalized": "Queue a-\u003e(a,Queue a)",
@@ -4542,6 +4922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Queue",
           "name": "queuePut",
           "package": "fgl",
@@ -4551,6 +4932,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Queue",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Queue",
           "name": "queuePut",
           "normalized": "a-\u003eQueue a-\u003eQueue a",
@@ -4566,6 +4948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Queue",
           "name": "queuePutList",
           "package": "fgl",
@@ -4575,6 +4958,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Queue",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Queue",
           "name": "queuePutList",
           "normalized": "[a]-\u003eQueue a-\u003eQueue a",
@@ -4591,6 +4975,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInward directed trees as lists of paths.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.RootPath",
           "name": "RootPath",
           "package": "fgl",
@@ -4600,6 +4985,7 @@
         "index": {
           "description": "Inward directed trees as lists of paths",
           "hierarchy": "Data Graph Inductive Internal RootPath",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.RootPath",
           "name": "RootPath",
           "package": "fgl",
@@ -4613,6 +4999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.RootPath",
           "name": "LRTree",
           "package": "fgl",
@@ -4621,6 +5008,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal RootPath",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.RootPath",
           "name": "LRTree",
           "package": "fgl",
@@ -4634,6 +5022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.RootPath",
           "name": "RTree",
           "package": "fgl",
@@ -4642,6 +5031,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal RootPath",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.RootPath",
           "name": "RTree",
           "package": "fgl",
@@ -4655,6 +5045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.RootPath",
           "name": "getDistance",
           "package": "fgl",
@@ -4664,6 +5055,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal RootPath",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.RootPath",
           "name": "getDistance",
           "normalized": "Node-\u003eLRTree a-\u003ea",
@@ -4679,6 +5071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.RootPath",
           "name": "getLPath",
           "package": "fgl",
@@ -4688,6 +5081,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal RootPath",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.RootPath",
           "name": "getLPath",
           "normalized": "Node-\u003eLRTree a-\u003eLPath a",
@@ -4703,6 +5097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.RootPath",
           "name": "getLPathNodes",
           "package": "fgl",
@@ -4712,6 +5107,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal RootPath",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.RootPath",
           "name": "getLPathNodes",
           "normalized": "Node-\u003eLRTree a-\u003ePath",
@@ -4727,6 +5123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.RootPath",
           "name": "getPath",
           "package": "fgl",
@@ -4736,6 +5133,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal RootPath",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.RootPath",
           "name": "getPath",
           "normalized": "Node-\u003eRTree-\u003ePath",
@@ -4752,6 +5150,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThreading Combinators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Thread",
           "name": "Thread",
           "package": "fgl",
@@ -4761,6 +5160,7 @@
         "index": {
           "description": "Threading Combinators",
           "hierarchy": "Data Graph Inductive Internal Thread",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Thread",
           "name": "Thread",
           "package": "fgl",
@@ -4774,6 +5174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Thread",
           "name": "Collect",
           "package": "fgl",
@@ -4782,6 +5183,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Thread",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Thread",
           "name": "Collect",
           "package": "fgl",
@@ -4795,6 +5197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Thread",
           "name": "Split",
           "package": "fgl",
@@ -4803,6 +5206,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Thread",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Thread",
           "name": "Split",
           "package": "fgl",
@@ -4816,6 +5220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Thread",
           "name": "SplitM",
           "package": "fgl",
@@ -4824,6 +5229,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Thread",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Thread",
           "name": "SplitM",
           "package": "fgl",
@@ -4837,6 +5243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Thread",
           "name": "Thread",
           "package": "fgl",
@@ -4845,6 +5252,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Thread",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Thread",
           "name": "Thread",
           "package": "fgl",
@@ -4858,6 +5266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Thread",
           "name": "splitPar",
           "package": "fgl",
@@ -4867,6 +5276,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Thread",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Thread",
           "name": "splitPar",
           "normalized": "Split a b c-\u003eSplit d e f-\u003eSplit(a,d)(b,e)(c,f)",
@@ -4882,6 +5292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Thread",
           "name": "splitParM",
           "package": "fgl",
@@ -4891,6 +5302,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Thread",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Thread",
           "name": "splitParM",
           "normalized": "SplitM a b c-\u003eSplit d e f-\u003eSplitM(a,d)(b,e)(c,f)",
@@ -4906,6 +5318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Thread",
           "name": "threadList",
           "package": "fgl",
@@ -4915,6 +5328,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Thread",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Thread",
           "name": "threadList",
           "normalized": "Collect a b-\u003eSplit c d a-\u003e[d]-\u003ec-\u003e(b,c)",
@@ -4930,6 +5344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Thread",
           "name": "threadList'",
           "package": "fgl",
@@ -4939,6 +5354,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Thread",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Thread",
           "name": "threadList'",
           "normalized": "Collect a b-\u003eSplit c d a-\u003e[d]-\u003ec-\u003e(b,c)",
@@ -4954,6 +5370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Thread",
           "name": "threadMaybe",
           "package": "fgl",
@@ -4963,6 +5380,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Thread",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Thread",
           "name": "threadMaybe",
           "normalized": "(a-\u003eb-\u003ec)-\u003eSplit d a b-\u003eSplitM d e a-\u003eSplitM d e c",
@@ -4978,6 +5396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Internal.Thread",
           "name": "threadMaybe'",
           "package": "fgl",
@@ -4987,6 +5406,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Internal Thread",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Internal.Thread",
           "name": "threadMaybe'",
           "normalized": "(a-\u003eb)-\u003eSplit c d a-\u003eSplit c e(Maybe d)-\u003eSplit c e(Maybe b)",
@@ -5003,6 +5423,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStatic IOArray-based Graphs  \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad.IOArray",
           "name": "IOArray",
           "package": "fgl",
@@ -5012,6 +5433,7 @@
         "index": {
           "description": "Static IOArray-based Graphs",
           "hierarchy": "Data Graph Inductive Monad IOArray",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad.IOArray",
           "name": "IOArray",
           "package": "fgl",
@@ -5025,6 +5447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad.IOArray",
           "name": "Context'",
           "package": "fgl",
@@ -5033,6 +5456,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad IOArray",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad.IOArray",
           "name": "Context'",
           "package": "fgl",
@@ -5046,6 +5470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad.IOArray",
           "name": "GraphRep",
           "package": "fgl",
@@ -5054,6 +5479,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad IOArray",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad.IOArray",
           "name": "GraphRep",
           "package": "fgl",
@@ -5067,6 +5493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad.IOArray",
           "name": "SGr",
           "package": "fgl",
@@ -5075,6 +5502,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad IOArray",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad.IOArray",
           "name": "SGr",
           "package": "fgl",
@@ -5088,6 +5516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad.IOArray",
           "name": "USGr",
           "package": "fgl",
@@ -5096,6 +5525,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad IOArray",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad.IOArray",
           "name": "USGr",
           "package": "fgl",
@@ -5109,6 +5539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad.IOArray",
           "name": "SGr",
           "package": "fgl",
@@ -5118,6 +5549,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad IOArray",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad.IOArray",
           "name": "SGr",
           "package": "fgl",
@@ -5131,6 +5563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad.IOArray",
           "name": "defaultGraphSize",
           "package": "fgl",
@@ -5140,6 +5573,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad IOArray",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad.IOArray",
           "name": "defaultGraphSize",
           "package": "fgl",
@@ -5153,6 +5587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad.IOArray",
           "name": "emptyN",
           "package": "fgl",
@@ -5162,6 +5597,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad IOArray",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad.IOArray",
           "name": "emptyN",
           "normalized": "Int-\u003eIO(SGr a b)",
@@ -5177,6 +5613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efilter list (of successors/predecessors) through a boolean ST array\n representing deleted marks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad.IOArray",
           "name": "removeDel",
           "package": "fgl",
@@ -5187,6 +5624,7 @@
         "index": {
           "description": "filter list of successors predecessors through boolean ST array representing deleted marks",
           "hierarchy": "Data Graph Inductive Monad IOArray",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad.IOArray",
           "name": "removeDel",
           "normalized": "IOArray Node Bool-\u003eAdj a-\u003eIO(Adj a)",
@@ -5203,6 +5641,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonadic Graphs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad",
           "name": "Monad",
           "package": "fgl",
@@ -5212,6 +5651,7 @@
         "index": {
           "description": "Monadic Graphs",
           "hierarchy": "Data Graph Inductive Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad",
           "name": "Monad",
           "package": "fgl",
@@ -5225,6 +5665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad",
           "name": "GraphM",
           "package": "fgl",
@@ -5233,6 +5674,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad",
           "name": "GraphM",
           "package": "fgl",
@@ -5246,6 +5688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad",
           "name": "contextM",
           "package": "fgl",
@@ -5255,6 +5698,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad",
           "name": "contextM",
           "normalized": "a(b c d)-\u003eNode-\u003ea(Context c d)",
@@ -5269,6 +5713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad",
           "name": "delNodeM",
           "package": "fgl",
@@ -5278,6 +5723,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad",
           "name": "delNodeM",
           "normalized": "Node-\u003ea(b c d)-\u003ea(b c d)",
@@ -5293,6 +5739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad",
           "name": "delNodesM",
           "package": "fgl",
@@ -5302,6 +5749,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad",
           "name": "delNodesM",
           "normalized": "[Node]-\u003ea(b c d)-\u003ea(b c d)",
@@ -5317,6 +5765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad",
           "name": "edgesM",
           "package": "fgl",
@@ -5326,6 +5775,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad",
           "name": "edgesM",
           "normalized": "a(b c d)-\u003ea[Edge]",
@@ -5340,6 +5790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad",
           "name": "emptyM",
           "package": "fgl",
@@ -5349,6 +5800,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad",
           "name": "emptyM",
           "package": "fgl",
@@ -5361,6 +5813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad",
           "name": "isEmptyM",
           "package": "fgl",
@@ -5370,6 +5823,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad",
           "name": "isEmptyM",
           "normalized": "a(b c d)-\u003ea Bool",
@@ -5385,6 +5839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad",
           "name": "labEdgesM",
           "package": "fgl",
@@ -5394,6 +5849,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad",
           "name": "labEdgesM",
           "normalized": "a(b c d)-\u003ea[LEdge d]",
@@ -5409,6 +5865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad",
           "name": "labM",
           "package": "fgl",
@@ -5418,6 +5875,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad",
           "name": "labM",
           "normalized": "a(b c d)-\u003eNode-\u003ea(Maybe c)",
@@ -5432,6 +5890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad",
           "name": "labNodesM",
           "package": "fgl",
@@ -5441,6 +5900,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad",
           "name": "labNodesM",
           "normalized": "a(b c d)-\u003ea[LNode c]",
@@ -5456,6 +5916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad",
           "name": "matchAnyM",
           "package": "fgl",
@@ -5465,6 +5926,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad",
           "name": "matchAnyM",
           "normalized": "a(b c d)-\u003ea(GDecomp b c d)",
@@ -5480,6 +5942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad",
           "name": "matchM",
           "package": "fgl",
@@ -5489,6 +5952,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad",
           "name": "matchM",
           "normalized": "Node-\u003ea(b c d)-\u003ea(Decomp b c d)",
@@ -5503,6 +5967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad",
           "name": "mkGraphM",
           "package": "fgl",
@@ -5512,6 +5977,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad",
           "name": "mkGraphM",
           "normalized": "[LNode a]-\u003e[LEdge b]-\u003ec(d a b)",
@@ -5527,6 +5993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad",
           "name": "mkUGraphM",
           "package": "fgl",
@@ -5536,6 +6003,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad",
           "name": "mkUGraphM",
           "normalized": "[Node]-\u003e[Edge]-\u003ea(b()())",
@@ -5551,6 +6019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad",
           "name": "newNodesM",
           "package": "fgl",
@@ -5560,6 +6029,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad",
           "name": "newNodesM",
           "normalized": "Int-\u003ea(b c d)-\u003ea[Node]",
@@ -5575,6 +6045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad",
           "name": "noNodesM",
           "package": "fgl",
@@ -5584,6 +6055,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad",
           "name": "noNodesM",
           "normalized": "a(b c d)-\u003ea Int",
@@ -5599,6 +6071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad",
           "name": "nodeRangeM",
           "package": "fgl",
@@ -5608,6 +6081,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad",
           "name": "nodeRangeM",
           "normalized": "a(b c d)-\u003ea(Node,Node)",
@@ -5623,6 +6097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad",
           "name": "nodesM",
           "package": "fgl",
@@ -5632,6 +6107,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad",
           "name": "nodesM",
           "normalized": "a(b c d)-\u003ea[Node]",
@@ -5647,6 +6123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egraph fold\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Monad",
           "name": "ufoldM",
           "package": "fgl",
@@ -5657,6 +6134,7 @@
         "index": {
           "description": "graph fold",
           "hierarchy": "Data Graph Inductive Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Monad",
           "name": "ufoldM",
           "normalized": "(Context a b-\u003ec-\u003ec)-\u003ec-\u003ed(e a b)-\u003ed c",
@@ -5672,6 +6150,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtility methods to automatically generate and keep track of a mapping\n between node labels and \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "NodeMap",
           "package": "fgl",
@@ -5681,6 +6160,7 @@
         "index": {
           "description": "Utility methods to automatically generate and keep track of mapping between node labels and Node",
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "NodeMap",
           "package": "fgl",
@@ -5694,6 +6174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "NodeMap",
           "package": "fgl",
@@ -5702,6 +6183,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "NodeMap",
           "package": "fgl",
@@ -5716,6 +6198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGraph construction monad; handles passing both the \u003ccode\u003e\u003ca\u003eNodeMap\u003c/a\u003e\u003c/code\u003e and the\n \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "NodeMapM",
           "package": "fgl",
@@ -5725,6 +6208,7 @@
         "index": {
           "description": "Graph construction monad handles passing both the NodeMap and the Graph",
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "NodeMapM",
           "package": "fgl",
@@ -5738,6 +6222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "delMapEdge",
           "package": "fgl",
@@ -5747,6 +6232,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "delMapEdge",
           "normalized": "NodeMap a-\u003e(a,a)-\u003eb a c-\u003eb a c",
@@ -5762,6 +6248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "delMapEdgeM",
           "package": "fgl",
@@ -5771,6 +6258,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "delMapEdgeM",
           "normalized": "(a,a)-\u003eNodeMapM a b c()",
@@ -5786,6 +6274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "delMapEdges",
           "package": "fgl",
@@ -5795,6 +6284,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "delMapEdges",
           "normalized": "NodeMap a-\u003e[(a,a)]-\u003eb a c-\u003eb a c",
@@ -5810,6 +6300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "delMapEdgesM",
           "package": "fgl",
@@ -5819,6 +6310,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "delMapEdgesM",
           "normalized": "[(a,a)]-\u003eNodeMapM a b c()",
@@ -5834,6 +6326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "delMapNode",
           "package": "fgl",
@@ -5843,6 +6336,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "delMapNode",
           "normalized": "NodeMap a-\u003ea-\u003eb a c-\u003eb a c",
@@ -5858,6 +6352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "delMapNodeM",
           "package": "fgl",
@@ -5867,6 +6362,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "delMapNodeM",
           "normalized": "a-\u003eNodeMapM a b c()",
@@ -5882,6 +6378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "delMapNodes",
           "package": "fgl",
@@ -5891,6 +6388,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "delMapNodes",
           "normalized": "NodeMap a-\u003e[a]-\u003eb a c-\u003eb a c",
@@ -5906,6 +6404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "delMapNodesM",
           "package": "fgl",
@@ -5915,6 +6414,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "delMapNodesM",
           "normalized": "[a]-\u003eNodeMapM a b c()",
@@ -5931,6 +6431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a mapping containing the nodes in the given graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "fromGraph",
           "package": "fgl",
@@ -5941,6 +6442,7 @@
         "index": {
           "description": "Generate mapping containing the nodes in the given graph",
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "fromGraph",
           "normalized": "a b c-\u003eNodeMap b",
@@ -5956,6 +6458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "insMapEdge",
           "package": "fgl",
@@ -5965,6 +6468,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "insMapEdge",
           "normalized": "NodeMap a-\u003e(a,a,b)-\u003ec a b-\u003ec a b",
@@ -5980,6 +6484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "insMapEdgeM",
           "package": "fgl",
@@ -5989,6 +6494,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "insMapEdgeM",
           "normalized": "(a,a,b)-\u003eNodeMapM a b c()",
@@ -6004,6 +6510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "insMapEdges",
           "package": "fgl",
@@ -6013,6 +6520,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "insMapEdges",
           "normalized": "NodeMap a-\u003e[(a,a,b)]-\u003ec a b-\u003ec a b",
@@ -6028,6 +6536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "insMapEdgesM",
           "package": "fgl",
@@ -6037,6 +6546,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "insMapEdgesM",
           "normalized": "[(a,a,b)]-\u003eNodeMapM a b c()",
@@ -6052,6 +6562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "insMapNode",
           "package": "fgl",
@@ -6061,6 +6572,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "insMapNode",
           "normalized": "NodeMap a-\u003ea-\u003eb a c-\u003e(b a c,NodeMap a,LNode a)",
@@ -6076,6 +6588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "insMapNodeM",
           "package": "fgl",
@@ -6085,6 +6598,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "insMapNodeM",
           "normalized": "a-\u003eNodeMapM a b c(LNode a)",
@@ -6100,6 +6614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "insMapNode_",
           "package": "fgl",
@@ -6109,6 +6624,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "insMapNode_",
           "normalized": "NodeMap a-\u003ea-\u003eb a c-\u003eb a c",
@@ -6124,6 +6640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "insMapNodes",
           "package": "fgl",
@@ -6133,6 +6650,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "insMapNodes",
           "normalized": "NodeMap a-\u003e[a]-\u003eb a c-\u003e(b a c,NodeMap a,[LNode a])",
@@ -6148,6 +6666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "insMapNodesM",
           "package": "fgl",
@@ -6157,6 +6676,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "insMapNodesM",
           "normalized": "[a]-\u003eNodeMapM a b c[LNode a]",
@@ -6172,6 +6692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "insMapNodes_",
           "package": "fgl",
@@ -6181,6 +6702,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "insMapNodes_",
           "normalized": "NodeMap a-\u003e[a]-\u003eb a c-\u003eb a c",
@@ -6197,6 +6719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a \u003ccode\u003e\u003ca\u003eLEdge\u003c/a\u003e\u003c/code\u003e from the node labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "mkEdge",
           "package": "fgl",
@@ -6207,6 +6730,7 @@
         "index": {
           "description": "Generate LEdge from the node labels",
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "mkEdge",
           "normalized": "NodeMap a-\u003e(a,a,b)-\u003eMaybe(LEdge b)",
@@ -6222,6 +6746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "mkEdgeM",
           "package": "fgl",
@@ -6231,6 +6756,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "mkEdgeM",
           "normalized": "(a,a,b)-\u003eNodeMapM a b c(Maybe(LEdge b))",
@@ -6247,6 +6773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a list of \u003ccode\u003e\u003ca\u003eLEdge\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "mkEdges",
           "package": "fgl",
@@ -6257,6 +6784,7 @@
         "index": {
           "description": "Generates list of LEdge",
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "mkEdges",
           "normalized": "NodeMap a-\u003e[(a,a,b)]-\u003eMaybe[LEdge b]",
@@ -6272,6 +6800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "mkEdgesM",
           "package": "fgl",
@@ -6281,6 +6810,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "mkEdgesM",
           "normalized": "[(a,a,b)]-\u003eNodeMapM a b c(Maybe[LEdge b])",
@@ -6296,6 +6826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "mkMapGraph",
           "package": "fgl",
@@ -6305,6 +6836,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "mkMapGraph",
           "normalized": "[a]-\u003e[(a,a,b)]-\u003e(c a b,NodeMap a)",
@@ -6321,6 +6853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a labelled node from the given label.  Will return the same node\n for the same label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "mkNode",
           "package": "fgl",
@@ -6331,6 +6864,7 @@
         "index": {
           "description": "Generate labelled node from the given label Will return the same node for the same label",
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "mkNode",
           "normalized": "NodeMap a-\u003ea-\u003e(LNode a,NodeMap a)",
@@ -6347,6 +6881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic node construction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "mkNodeM",
           "package": "fgl",
@@ -6357,6 +6892,7 @@
         "index": {
           "description": "Monadic node construction",
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "mkNodeM",
           "normalized": "a-\u003eNodeMapM a b c(LNode a)",
@@ -6373,6 +6909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a labelled node and throw away the modified \u003ccode\u003e\u003ca\u003eNodeMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "mkNode_",
           "package": "fgl",
@@ -6383,6 +6920,7 @@
         "index": {
           "description": "Generate labelled node and throw away the modified NodeMap",
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "mkNode_",
           "normalized": "NodeMap a-\u003ea-\u003eLNode a",
@@ -6399,6 +6937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a list of nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "mkNodes",
           "package": "fgl",
@@ -6409,6 +6948,7 @@
         "index": {
           "description": "Construct list of nodes",
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "mkNodes",
           "normalized": "NodeMap a-\u003e[a]-\u003e([LNode a],NodeMap a)",
@@ -6424,6 +6964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "mkNodesM",
           "package": "fgl",
@@ -6433,6 +6974,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "mkNodesM",
           "normalized": "[a]-\u003eNodeMapM a b c[LNode a]",
@@ -6449,6 +6991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a list of nodes and throw away the modified \u003ccode\u003e\u003ca\u003eNodeMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "mkNodes_",
           "package": "fgl",
@@ -6459,6 +7002,7 @@
         "index": {
           "description": "Construct list of nodes and throw away the modified NodeMap",
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "mkNodes_",
           "normalized": "NodeMap a-\u003e[a]-\u003e[LNode a]",
@@ -6475,6 +7019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new, empty mapping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "new",
           "package": "fgl",
@@ -6485,6 +7030,7 @@
         "index": {
           "description": "Create new empty mapping",
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "new",
           "package": "fgl",
@@ -6498,6 +7044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a construction; return the value of the computation, the modified\n \u003ccode\u003e\u003ca\u003eNodeMap\u003c/a\u003e\u003c/code\u003e, and the modified \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "run",
           "package": "fgl",
@@ -6508,6 +7055,7 @@
         "index": {
           "description": "Run construction return the value of the computation the modified NodeMap and the modified Graph",
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "run",
           "normalized": "a b c-\u003eNodeMapM b c a d-\u003e(d,(NodeMap b,a b c))",
@@ -6523,6 +7071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a construction and only return the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "run_",
           "package": "fgl",
@@ -6533,6 +7082,7 @@
         "index": {
           "description": "Run construction and only return the Graph",
           "hierarchy": "Data Graph Inductive NodeMap",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.NodeMap",
           "name": "run_",
           "normalized": "a b c-\u003eNodeMapM b c a d-\u003ea b c",
@@ -6548,6 +7098,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn efficient implementation of \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e\n using big-endian patricia tree (i.e. \u003ca\u003eData.IntMap\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eThis module provides the following specialised functions to gain\n more performance, using GHC's RULES pragma:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003einsNode\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003einsEdge\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003egmap\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003enmap\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eemap\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.PatriciaTree",
           "name": "PatriciaTree",
           "package": "fgl",
@@ -6557,6 +7108,7 @@
         "index": {
           "description": "An efficient implementation of Graph using big-endian patricia tree i.e Data.IntMap This module provides the following specialised functions to gain more performance using GHC RULES pragma insNode insEdge gmap nmap emap",
           "hierarchy": "Data Graph Inductive PatriciaTree",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.PatriciaTree",
           "name": "PatriciaTree",
           "package": "fgl",
@@ -6570,6 +7122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.PatriciaTree",
           "name": "Gr",
           "package": "fgl",
@@ -6578,6 +7131,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive PatriciaTree",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.PatriciaTree",
           "name": "Gr",
           "package": "fgl",
@@ -6591,6 +7145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.PatriciaTree",
           "name": "UGr",
           "package": "fgl",
@@ -6599,6 +7154,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive PatriciaTree",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.PatriciaTree",
           "name": "UGr",
           "package": "fgl",
@@ -6612,6 +7168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.ArtPoint",
           "name": "ArtPoint",
           "package": "fgl",
@@ -6620,6 +7177,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query ArtPoint",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.ArtPoint",
           "name": "ArtPoint",
           "package": "fgl",
@@ -6634,6 +7192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds the articulation points for a connected undirected graph,\n   by using the low numbers criteria:\n\u003c/p\u003e\u003cp\u003ea) The root node is an articulation point iff it has two or more children.\n\u003c/p\u003e\u003cp\u003eb) An non-root node v is an articulation point iff there exists at least\n      one child w of v such that lowNumber(w) \u003e= dfsNumber(v).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.ArtPoint",
           "name": "ap",
           "package": "fgl",
@@ -6644,6 +7203,7 @@
         "index": {
           "description": "Finds the articulation points for connected undirected graph by using the low numbers criteria The root node is an articulation point iff it has two or more children An non-root node is an articulation point iff there exists at least one child of such that lowNumber dfsNumber",
           "hierarchy": "Data Graph Inductive Query ArtPoint",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.ArtPoint",
           "name": "ap",
           "normalized": "a b c-\u003e[Node]",
@@ -6658,6 +7218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.BCC",
           "name": "BCC",
           "package": "fgl",
@@ -6666,6 +7227,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query BCC",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.BCC",
           "name": "BCC",
           "package": "fgl",
@@ -6680,6 +7242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds the bi-connected components of an undirected connected graph.\nIt first finds the articulation points of the graph. Then it disconnects the\ngraph on each articulation point and computes the connected components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.BCC",
           "name": "bcc",
           "package": "fgl",
@@ -6690,6 +7253,7 @@
         "index": {
           "description": "Finds the bi-connected components of an undirected connected graph It first finds the articulation points of the graph Then it disconnects the graph on each articulation point and computes the connected components",
           "hierarchy": "Data Graph Inductive Query BCC",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.BCC",
           "name": "bcc",
           "normalized": "a b c-\u003e[a b c]",
@@ -6705,6 +7269,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBreadth-First Search Algorithms\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "BFS",
           "package": "fgl",
@@ -6714,6 +7279,7 @@
         "index": {
           "description": "Breadth-First Search Algorithms",
           "hierarchy": "Data Graph Inductive Query BFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "BFS",
           "package": "fgl",
@@ -6727,6 +7293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "bfe",
           "package": "fgl",
@@ -6736,6 +7303,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query BFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "bfe",
           "normalized": "Node-\u003ea b c-\u003e[Edge]",
@@ -6750,6 +7318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "bfen",
           "package": "fgl",
@@ -6759,6 +7328,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query BFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "bfen",
           "normalized": "[Edge]-\u003ea b c-\u003e[Edge]",
@@ -6773,6 +7343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "bfs",
           "package": "fgl",
@@ -6782,6 +7353,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query BFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "bfs",
           "normalized": "Node-\u003ea b c-\u003e[Node]",
@@ -6796,6 +7368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "bfsWith",
           "package": "fgl",
@@ -6805,6 +7378,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query BFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "bfsWith",
           "normalized": "(Context a b-\u003ec)-\u003eNode-\u003ed a b-\u003e[c]",
@@ -6820,6 +7394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "bfsn",
           "package": "fgl",
@@ -6829,6 +7404,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query BFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "bfsn",
           "normalized": "[Node]-\u003ea b c-\u003e[Node]",
@@ -6843,6 +7419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "bfsnWith",
           "package": "fgl",
@@ -6852,6 +7429,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query BFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "bfsnWith",
           "normalized": "(Context a b-\u003ec)-\u003e[Node]-\u003ed a b-\u003e[c]",
@@ -6867,6 +7445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "bft",
           "package": "fgl",
@@ -6876,6 +7455,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query BFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "bft",
           "normalized": "Node-\u003ea b c-\u003eRTree",
@@ -6890,6 +7470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "esp",
           "package": "fgl",
@@ -6899,6 +7480,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query BFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "esp",
           "normalized": "Node-\u003eNode-\u003ea b c-\u003ePath",
@@ -6913,6 +7495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "lbft",
           "package": "fgl",
@@ -6922,6 +7505,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query BFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "lbft",
           "normalized": "Node-\u003ea b c-\u003eLRTree c",
@@ -6936,6 +7520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "lesp",
           "package": "fgl",
@@ -6945,6 +7530,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query BFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "lesp",
           "normalized": "Node-\u003eNode-\u003ea b c-\u003eLPath c",
@@ -6959,6 +7545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "level",
           "package": "fgl",
@@ -6968,6 +7555,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query BFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "level",
           "normalized": "Node-\u003ea b c-\u003e[(Node,Int)]",
@@ -6982,6 +7570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "leveln",
           "package": "fgl",
@@ -6991,6 +7580,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query BFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.BFS",
           "name": "leveln",
           "normalized": "[(Node,Int)]-\u003ea b c-\u003e[(Node,Int)]",
@@ -7006,6 +7596,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDepth-First Search  \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "DFS",
           "package": "fgl",
@@ -7015,6 +7606,7 @@
         "index": {
           "description": "Depth-First Search",
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "DFS",
           "package": "fgl",
@@ -7028,6 +7620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "CFun",
           "package": "fgl",
@@ -7036,6 +7629,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "CFun",
           "package": "fgl",
@@ -7049,6 +7643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "components",
           "package": "fgl",
@@ -7058,6 +7653,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "components",
           "normalized": "a b c-\u003e[[Node]]",
@@ -7072,6 +7668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "dff",
           "package": "fgl",
@@ -7081,6 +7678,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "dff",
           "normalized": "[Node]-\u003ea b c-\u003e[Tree Node]",
@@ -7095,6 +7693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "dff'",
           "package": "fgl",
@@ -7104,6 +7703,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "dff'",
           "normalized": "a b c-\u003e[Tree Node]",
@@ -7118,6 +7718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "dffWith",
           "package": "fgl",
@@ -7127,6 +7728,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "dffWith",
           "normalized": "CFun a b c-\u003e[Node]-\u003ed a b-\u003e[Tree c]",
@@ -7142,6 +7744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "dffWith'",
           "package": "fgl",
@@ -7151,6 +7754,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "dffWith'",
           "normalized": "CFun a b c-\u003ed a b-\u003e[Tree c]",
@@ -7166,6 +7770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "dfs",
           "package": "fgl",
@@ -7175,6 +7780,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "dfs",
           "normalized": "[Node]-\u003ea b c-\u003e[Node]",
@@ -7189,6 +7795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "dfs'",
           "package": "fgl",
@@ -7198,6 +7805,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "dfs'",
           "normalized": "a b c-\u003e[Node]",
@@ -7212,6 +7820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "dfsWith",
           "package": "fgl",
@@ -7221,6 +7830,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "dfsWith",
           "normalized": "CFun a b c-\u003e[Node]-\u003ed a b-\u003e[c]",
@@ -7236,6 +7846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "dfsWith'",
           "package": "fgl",
@@ -7245,6 +7856,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "dfsWith'",
           "normalized": "CFun a b c-\u003ed a b-\u003e[c]",
@@ -7260,6 +7872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "isConnected",
           "package": "fgl",
@@ -7269,6 +7882,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "isConnected",
           "normalized": "a b c-\u003eBool",
@@ -7284,6 +7898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "noComponents",
           "package": "fgl",
@@ -7293,6 +7908,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "noComponents",
           "normalized": "a b c-\u003eInt",
@@ -7308,6 +7924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "rdff",
           "package": "fgl",
@@ -7317,6 +7934,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "rdff",
           "normalized": "[Node]-\u003ea b c-\u003e[Tree Node]",
@@ -7331,6 +7949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "rdff'",
           "package": "fgl",
@@ -7340,6 +7959,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "rdff'",
           "normalized": "a b c-\u003e[Tree Node]",
@@ -7354,6 +7974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "rdfs",
           "package": "fgl",
@@ -7363,6 +7984,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "rdfs",
           "normalized": "[Node]-\u003ea b c-\u003e[Node]",
@@ -7377,6 +7999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "rdfs'",
           "package": "fgl",
@@ -7386,6 +8009,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "rdfs'",
           "normalized": "a b c-\u003e[Node]",
@@ -7400,6 +8024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "reachable",
           "package": "fgl",
@@ -7409,6 +8034,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "reachable",
           "normalized": "Node-\u003ea b c-\u003e[Node]",
@@ -7423,6 +8049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "scc",
           "package": "fgl",
@@ -7432,6 +8059,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "scc",
           "normalized": "a b c-\u003e[[Node]]",
@@ -7446,6 +8074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "topsort",
           "package": "fgl",
@@ -7455,6 +8084,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "topsort",
           "normalized": "a b c-\u003e[Node]",
@@ -7469,6 +8099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "topsort'",
           "package": "fgl",
@@ -7478,6 +8109,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "topsort'",
           "normalized": "a b c-\u003e[b]",
@@ -7492,6 +8124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "udff",
           "package": "fgl",
@@ -7501,6 +8134,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "udff",
           "normalized": "[Node]-\u003ea b c-\u003e[Tree Node]",
@@ -7515,6 +8149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "udff'",
           "package": "fgl",
@@ -7524,6 +8159,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "udff'",
           "normalized": "a b c-\u003e[Tree Node]",
@@ -7538,6 +8174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "udfs",
           "package": "fgl",
@@ -7547,6 +8184,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "udfs",
           "normalized": "[Node]-\u003ea b c-\u003e[Node]",
@@ -7561,6 +8199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "udfs'",
           "package": "fgl",
@@ -7570,6 +8209,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "udfs'",
           "normalized": "a b c-\u003e[Node]",
@@ -7584,6 +8224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "xdfWith",
           "package": "fgl",
@@ -7593,6 +8234,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "xdfWith",
           "normalized": "CFun a b[Node]-\u003eCFun a b c-\u003e[Node]-\u003ed a b-\u003e([Tree c],d a b)",
@@ -7608,6 +8250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "xdffWith",
           "package": "fgl",
@@ -7617,6 +8260,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "xdffWith",
           "normalized": "CFun a b[Node]-\u003eCFun a b c-\u003e[Node]-\u003ed a b-\u003e[Tree c]",
@@ -7632,6 +8276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "xdfsWith",
           "package": "fgl",
@@ -7641,6 +8286,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query DFS",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.DFS",
           "name": "xdfsWith",
           "normalized": "CFun a b[Node]-\u003eCFun a b c-\u003e[Node]-\u003ed a b-\u003e[c]",
@@ -7656,6 +8302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Dominators",
           "name": "Dominators",
           "package": "fgl",
@@ -7664,6 +8311,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Dominators",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Dominators",
           "name": "Dominators",
           "package": "fgl",
@@ -7678,6 +8326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the set of dominators of the nodes of a graph, given a root\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Dominators",
           "name": "dom",
           "package": "fgl",
@@ -7688,6 +8337,7 @@
         "index": {
           "description": "return the set of dominators of the nodes of graph given root",
           "hierarchy": "Data Graph Inductive Query Dominators",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Dominators",
           "name": "dom",
           "normalized": "a b c-\u003eNode-\u003e[(Node,[Node])]",
@@ -7703,6 +8353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn immediate dominators for each node of a graph, given a root\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Dominators",
           "name": "iDom",
           "package": "fgl",
@@ -7713,6 +8364,7 @@
         "index": {
           "description": "return immediate dominators for each node of graph given root",
           "hierarchy": "Data Graph Inductive Query Dominators",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Dominators",
           "name": "iDom",
           "normalized": "a b c-\u003eNode-\u003e[(Node,Node)]",
@@ -7729,6 +8381,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGraph Voronoi Diagram \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.GVD",
           "name": "GVD",
           "package": "fgl",
@@ -7738,6 +8391,7 @@
         "index": {
           "description": "Graph Voronoi Diagram",
           "hierarchy": "Data Graph Inductive Query GVD",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.GVD",
           "name": "GVD",
           "package": "fgl",
@@ -7751,6 +8405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.GVD",
           "name": "Voronoi",
           "package": "fgl",
@@ -7759,6 +8414,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query GVD",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.GVD",
           "name": "Voronoi",
           "package": "fgl",
@@ -7772,6 +8428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.GVD",
           "name": "gvdIn",
           "package": "fgl",
@@ -7781,6 +8438,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query GVD",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.GVD",
           "name": "gvdIn",
           "normalized": "[Node]-\u003ea b c-\u003eVoronoi c",
@@ -7796,6 +8454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.GVD",
           "name": "gvdOut",
           "package": "fgl",
@@ -7805,6 +8464,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query GVD",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.GVD",
           "name": "gvdOut",
           "normalized": "[Node]-\u003ea b c-\u003eVoronoi c",
@@ -7820,6 +8480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.GVD",
           "name": "nearestDist",
           "package": "fgl",
@@ -7829,6 +8490,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query GVD",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.GVD",
           "name": "nearestDist",
           "normalized": "Node-\u003eVoronoi a-\u003eMaybe a",
@@ -7844,6 +8506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.GVD",
           "name": "nearestNode",
           "package": "fgl",
@@ -7853,6 +8516,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query GVD",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.GVD",
           "name": "nearestNode",
           "normalized": "Node-\u003eVoronoi a-\u003eMaybe Node",
@@ -7868,6 +8532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.GVD",
           "name": "nearestPath",
           "package": "fgl",
@@ -7877,6 +8542,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query GVD",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.GVD",
           "name": "nearestPath",
           "normalized": "Node-\u003eVoronoi a-\u003eMaybe Path",
@@ -7892,6 +8558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.GVD",
           "name": "voronoiSet",
           "package": "fgl",
@@ -7901,6 +8568,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query GVD",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.GVD",
           "name": "voronoiSet",
           "normalized": "Node-\u003eVoronoi a-\u003e[Node]",
@@ -7917,6 +8585,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaximum Independent Node Sets\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Indep",
           "name": "Indep",
           "package": "fgl",
@@ -7926,6 +8595,7 @@
         "index": {
           "description": "Maximum Independent Node Sets",
           "hierarchy": "Data Graph Inductive Query Indep",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Indep",
           "name": "Indep",
           "package": "fgl",
@@ -7939,6 +8609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Indep",
           "name": "indep",
           "package": "fgl",
@@ -7948,6 +8619,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Indep",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Indep",
           "name": "indep",
           "normalized": "a b c-\u003e[Node]",
@@ -7963,6 +8635,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMinimum-Spanning-Tree Algorithms \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.MST",
           "name": "MST",
           "package": "fgl",
@@ -7972,6 +8645,7 @@
         "index": {
           "description": "Minimum-Spanning-Tree Algorithms",
           "hierarchy": "Data Graph Inductive Query MST",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.MST",
           "name": "MST",
           "package": "fgl",
@@ -7985,6 +8659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.MST",
           "name": "msPath",
           "package": "fgl",
@@ -7994,6 +8669,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query MST",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.MST",
           "name": "msPath",
           "normalized": "LRTree a-\u003eNode-\u003eNode-\u003ePath",
@@ -8009,6 +8685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.MST",
           "name": "msTree",
           "package": "fgl",
@@ -8018,6 +8695,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query MST",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.MST",
           "name": "msTree",
           "normalized": "a b c-\u003eLRTree c",
@@ -8033,6 +8711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.MST",
           "name": "msTreeAt",
           "package": "fgl",
@@ -8042,6 +8721,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query MST",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.MST",
           "name": "msTreeAt",
           "normalized": "Node-\u003ea b c-\u003eLRTree c",
@@ -8058,6 +8738,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaximum Flow algorithm\n We are given a flow network G=(V,E) with source s and sink t where each\n edge (u,v) in E has a nonnegative capacity c(u,v)\u003e=0, and we wish to\n find a flow of maximum value from s to t.\n\u003c/p\u003e\u003cp\u003eA flow in G=(V,E) is a real-valued function f:VxV-\u003eR that satisfies:\n\u003c/p\u003e\u003cpre\u003e\n For all u,v in V, f(u,v)\u003c=c(u,v)\n For all u,v in V, f(u,v)=-f(v,u)\n For all u in V-{s,t}, Sum{f(u,v):v in V } = 0\n\u003c/pre\u003e\u003cp\u003eThe value of a flow f is defined as |f|=Sum {f(s,v)|v in V}, i.e.,\n the total net flow out of the source.\n\u003c/p\u003e\u003cp\u003eIn this module we implement the Edmonds-Karp algorithm, which is the\n Ford-Fulkerson method but using the shortest path from s to t as the\n augmenting path along which the flow is incremented.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.MaxFlow",
           "name": "MaxFlow",
           "package": "fgl",
@@ -8067,6 +8748,7 @@
         "index": {
           "description": "Maximum Flow algorithm We are given flow network with source and sink where each edge in has nonnegative capacity and we wish to find flow of maximum value from to flow in is real-valued function VxV that satisfies For all in For all in For all in Sum in The value of flow is defined as Sum in i.e the total net flow out of the source In this module we implement the Edmonds-Karp algorithm which is the Ford-Fulkerson method but using the shortest path from to as the augmenting path along which the flow is incremented",
           "hierarchy": "Data Graph Inductive Query MaxFlow",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.MaxFlow",
           "name": "MaxFlow",
           "package": "fgl",
@@ -8081,6 +8763,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\n                 i                                  0\n For each edge a---\u003eb insert into graph the edge a\u003c---b . Then change the\n                            i         (i,0,i)\n label of every edge from a----\u003eb to a-------\u003eb\n\u003c/pre\u003e\u003cp\u003ewhere label (x,y,z)=(Max Capacity, Current flow, Residual capacity)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.MaxFlow",
           "name": "augmentGraph",
           "package": "fgl",
@@ -8091,6 +8774,7 @@
         "index": {
           "description": "For each edge insert into graph the edge Then change the label of every edge from to where label Max Capacity Current flow Residual capacity",
           "hierarchy": "Data Graph Inductive Query MaxFlow",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.MaxFlow",
           "name": "augmentGraph",
           "normalized": "a b c-\u003ea b(c,c,c)",
@@ -8107,6 +8791,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\n                 i                                 0\n For each edge a---\u003eb this function returns edge b---\u003ea .\n          i\n Edges a\u003c---\u003eb are ignored\n          j\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.MaxFlow",
           "name": "getRevEdges",
           "package": "fgl",
@@ -8117,6 +8802,7 @@
         "index": {
           "description": "For each edge this function returns edge Edges are ignored",
           "hierarchy": "Data Graph Inductive Query MaxFlow",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.MaxFlow",
           "name": "getRevEdges",
           "normalized": "[(Node,Node)]-\u003e[(Node,Node,a)]",
@@ -8133,6 +8819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the value of a maximumflow\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.MaxFlow",
           "name": "maxFlow",
           "package": "fgl",
@@ -8143,6 +8830,7 @@
         "index": {
           "description": "Compute the value of maximumflow",
           "hierarchy": "Data Graph Inductive Query MaxFlow",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.MaxFlow",
           "name": "maxFlow",
           "normalized": "a b c-\u003eNode-\u003eNode-\u003ec",
@@ -8159,6 +8847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the maximum flow from s to t on a graph whose edges are labeled\n with x, which is the max capacity and where not all edges need to be of\n the form a\u003c----\u003eb. Return the flow as a grap whose edges are labeled with\n (y,x) = (current flow, max capacity).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.MaxFlow",
           "name": "maxFlowgraph",
           "package": "fgl",
@@ -8169,6 +8858,7 @@
         "index": {
           "description": "Compute the maximum flow from to on graph whose edges are labeled with which is the max capacity and where not all edges need to be of the form Return the flow as grap whose edges are labeled with current flow max capacity",
           "hierarchy": "Data Graph Inductive Query MaxFlow",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.MaxFlow",
           "name": "maxFlowgraph",
           "normalized": "a b c-\u003eNode-\u003eNode-\u003ea b(c,c)",
@@ -8185,6 +8875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the flow from s to t on a graph whose edges are labeled with\n x, which is the max capacity and where not all edges need to be of the\n form a\u003c----\u003eb. Return the flow as a grap whose edges are labeled with\n (x,y,z)=(max capacity,current flow,residual capacity) and all edges\n are of the form a\u003c----\u003eb\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.MaxFlow",
           "name": "mf",
           "package": "fgl",
@@ -8195,6 +8886,7 @@
         "index": {
           "description": "Compute the flow from to on graph whose edges are labeled with which is the max capacity and where not all edges need to be of the form Return the flow as grap whose edges are labeled with max capacity current flow residual capacity and all edges are of the form",
           "hierarchy": "Data Graph Inductive Query MaxFlow",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.MaxFlow",
           "name": "mf",
           "normalized": "a b c-\u003eNode-\u003eNode-\u003ea b(c,c,c)",
@@ -8210,6 +8902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the flow from s to t on a graph whose edges are labeled with\n (x,y,z)=(max capacity,current flow,residual capacity) and all edges\n are of the form a\u003c----\u003eb. First compute the residual graph, that is,\n delete those edges whose residual capacity is zero. Then compute the\n shortest augmenting path from s to t, and finally update the flow and\n residual capacity along that path by using the minimum capacity of\n that path. Repeat this process until no shortest path from s to t exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.MaxFlow",
           "name": "mfmg",
           "package": "fgl",
@@ -8220,6 +8913,7 @@
         "index": {
           "description": "Compute the flow from to on graph whose edges are labeled with max capacity current flow residual capacity and all edges are of the form First compute the residual graph that is delete those edges whose residual capacity is zero Then compute the shortest augmenting path from to and finally update the flow and residual capacity along that path by using the minimum capacity of that path Repeat this process until no shortest path from to exist",
           "hierarchy": "Data Graph Inductive Query MaxFlow",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.MaxFlow",
           "name": "mfmg",
           "normalized": "a b(c,c,c)-\u003eNode-\u003eNode-\u003ea b(c,c,c)",
@@ -8235,6 +8929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a successor or predecessor list for node u and given node v, find\n the label corresponding to edge (u,v) and update the flow and residual\n capacity of that edge's label. Then return the updated list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.MaxFlow",
           "name": "updAdjList",
           "package": "fgl",
@@ -8245,6 +8940,7 @@
         "index": {
           "description": "Given successor or predecessor list for node and given node find the label corresponding to edge and update the flow and residual capacity of that edge label Then return the updated list",
           "hierarchy": "Data Graph Inductive Query MaxFlow",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.MaxFlow",
           "name": "updAdjList",
           "normalized": "[((a,a,a),Node)]-\u003eNode-\u003ea-\u003eBool-\u003e[((a,a,a),Node)]",
@@ -8261,6 +8957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate flow and residual capacity along augmenting path from s to t in\n graph G. For a path [u,v,w,...] find the node u in G and its successor and\n predecessor list, then update the corresponding edges (u,v) and (v,u) on\n those lists by using the minimum residual capacity of the path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.MaxFlow",
           "name": "updateFlow",
           "package": "fgl",
@@ -8271,6 +8968,7 @@
         "index": {
           "description": "Update flow and residual capacity along augmenting path from to in graph For path find the node in and its successor and predecessor list then update the corresponding edges and on those lists by using the minimum residual capacity of the path",
           "hierarchy": "Data Graph Inductive Query MaxFlow",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.MaxFlow",
           "name": "updateFlow",
           "normalized": "Path-\u003ea-\u003eb c(a,a,a)-\u003eb c(a,a,a)",
@@ -8287,6 +8985,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAlternative Maximum Flow\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.MaxFlow2",
           "name": "MaxFlow2",
           "package": "fgl",
@@ -8296,6 +8995,7 @@
         "index": {
           "description": "Alternative Maximum Flow",
           "hierarchy": "Data Graph Inductive Query MaxFlow2",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.MaxFlow2",
           "name": "MaxFlow2",
           "package": "fgl",
@@ -8309,6 +9009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.MaxFlow2",
           "name": "Network",
           "package": "fgl",
@@ -8317,6 +9018,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query MaxFlow2",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.MaxFlow2",
           "name": "Network",
           "package": "fgl",
@@ -8330,6 +9032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.MaxFlow2",
           "name": "ekFused",
           "package": "fgl",
@@ -8339,6 +9042,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query MaxFlow2",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.MaxFlow2",
           "name": "ekFused",
           "normalized": "Network-\u003eNode-\u003eNode-\u003e(Network,Double)",
@@ -8354,6 +9058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.MaxFlow2",
           "name": "ekList",
           "package": "fgl",
@@ -8363,6 +9068,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query MaxFlow2",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.MaxFlow2",
           "name": "ekList",
           "normalized": "Network-\u003eNode-\u003eNode-\u003e(Network,Double)",
@@ -8378,6 +9084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.MaxFlow2",
           "name": "ekSimple",
           "package": "fgl",
@@ -8387,6 +9094,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query MaxFlow2",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.MaxFlow2",
           "name": "ekSimple",
           "normalized": "Network-\u003eNode-\u003eNode-\u003e(Network,Double)",
@@ -8403,6 +9111,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonadic Graph Algorithms\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "Monad",
           "package": "fgl",
@@ -8412,6 +9121,7 @@
         "index": {
           "description": "Monadic Graph Algorithms",
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "Monad",
           "package": "fgl",
@@ -8425,6 +9135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "GT",
           "package": "fgl",
@@ -8433,6 +9144,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "GT",
           "package": "fgl",
@@ -8446,6 +9158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "(\u003e\u003c)",
           "package": "fgl",
@@ -8455,6 +9168,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003e(a,c)-\u003e(b,d)",
@@ -8469,6 +9183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "MGT",
           "package": "fgl",
@@ -8478,6 +9193,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "MGT",
           "normalized": "MGT(a b-\u003ea(c,b))",
@@ -8493,6 +9209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "apply",
           "package": "fgl",
@@ -8502,6 +9219,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "apply",
           "normalized": "GT a b c-\u003ea b-\u003ea(c,b)",
@@ -8516,6 +9234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "apply'",
           "package": "fgl",
@@ -8525,6 +9244,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "apply'",
           "normalized": "GT a b c-\u003eb-\u003ea(c,b)",
@@ -8539,6 +9259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "applyWith",
           "package": "fgl",
@@ -8548,6 +9269,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "applyWith",
           "normalized": "(a-\u003eb)-\u003eGT c d a-\u003ec d-\u003ec(b,d)",
@@ -8563,6 +9285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "applyWith'",
           "package": "fgl",
@@ -8572,6 +9295,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "applyWith'",
           "normalized": "(a-\u003eb)-\u003eGT c d a-\u003ed-\u003ec(b,d)",
@@ -8587,6 +9311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "condMGT",
           "package": "fgl",
@@ -8596,6 +9321,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "condMGT",
           "normalized": "(a b-\u003ea Bool)-\u003eGT a b c-\u003eGT a b c-\u003eGT a b c",
@@ -8611,6 +9337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "condMGT'",
           "package": "fgl",
@@ -8620,6 +9347,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "condMGT'",
           "normalized": "(a-\u003eBool)-\u003eGT b a c-\u003eGT b a c-\u003eGT b a c",
@@ -8636,6 +9364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edepth-first search yielding dfs forest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "dffM",
           "package": "fgl",
@@ -8646,6 +9375,7 @@
         "index": {
           "description": "depth-first search yielding dfs forest",
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "dffM",
           "normalized": "[Node]-\u003eGT a(b c d)[Tree Node]",
@@ -8661,6 +9391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic graph algorithms are defined in two steps:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e define the (possibly parameterized) graph transformer (e.g., dfsGT)\n  (2) run the graph transformer (applied to arguments) (e.g., dfsM)\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "dfsGT",
           "package": "fgl",
@@ -8671,6 +9402,7 @@
         "index": {
           "description": "Monadic graph algorithms are defined in two steps define the possibly parameterized graph transformer e.g dfsGT run the graph transformer applied to arguments e.g dfsM",
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "dfsGT",
           "normalized": "[Node]-\u003eGT a(b c d)[Node]",
@@ -8687,6 +9419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edepth-first search yielding number of nodes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "dfsM",
           "package": "fgl",
@@ -8697,6 +9430,7 @@
         "index": {
           "description": "depth-first search yielding number of nodes",
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "dfsM",
           "normalized": "[Node]-\u003ea(b c d)-\u003ea[Node]",
@@ -8711,6 +9445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "dfsM'",
           "package": "fgl",
@@ -8720,6 +9455,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "dfsM'",
           "normalized": "a(b c d)-\u003ea[Node]",
@@ -8735,6 +9471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "getContext",
           "package": "fgl",
@@ -8744,6 +9481,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "getContext",
           "package": "fgl",
@@ -8757,6 +9495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "getNode",
           "package": "fgl",
@@ -8766,6 +9505,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "getNode",
           "package": "fgl",
@@ -8779,6 +9519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "getNodes",
           "package": "fgl",
@@ -8788,6 +9529,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "getNodes",
           "normalized": "GT a(b c d)[Node]",
@@ -8803,6 +9545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "getNodes'",
           "package": "fgl",
@@ -8812,6 +9555,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "getNodes'",
           "normalized": "GT a(b c d)[Node]",
@@ -8827,6 +9571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "graphDff",
           "package": "fgl",
@@ -8836,6 +9581,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "graphDff",
           "normalized": "[Node]-\u003ea(b c d)-\u003ea[Tree Node]",
@@ -8851,6 +9597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "graphDff'",
           "package": "fgl",
@@ -8860,6 +9607,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "graphDff'",
           "normalized": "a(b c d)-\u003ea[Tree Node]",
@@ -8875,6 +9623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "graphFilter",
           "package": "fgl",
@@ -8884,6 +9633,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "graphFilter",
           "normalized": "(Context a b-\u003eBool)-\u003ec(d a b)-\u003ec[Context a b]",
@@ -8899,6 +9649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "graphFilterM",
           "package": "fgl",
@@ -8908,6 +9659,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "graphFilterM",
           "normalized": "(Context a b-\u003eBool)-\u003eGT c(d a b)[Context a b]",
@@ -8923,6 +9675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "graphNodes",
           "package": "fgl",
@@ -8932,6 +9685,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "graphNodes",
           "normalized": "a(b c d)-\u003ea[Node]",
@@ -8947,6 +9701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "graphNodesM",
           "package": "fgl",
@@ -8956,6 +9711,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "graphNodesM",
           "normalized": "GT a(b c d)[Node]",
@@ -8971,6 +9727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "graphNodesM0",
           "package": "fgl",
@@ -8980,6 +9737,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "graphNodesM0",
           "normalized": "GT a(b c d)[Node]",
@@ -8996,6 +9754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eencapsulates a simple recursion schema on graphs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "graphRec",
           "package": "fgl",
@@ -9006,6 +9765,7 @@
         "index": {
           "description": "encapsulates simple recursion schema on graphs",
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "graphRec",
           "normalized": "GT a(b c d)e-\u003e(e-\u003ef-\u003ef)-\u003ef-\u003eGT a(b c d)f",
@@ -9021,6 +9781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "graphRec'",
           "package": "fgl",
@@ -9030,6 +9791,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "graphRec'",
           "normalized": "GT a(b c d)e-\u003e(e-\u003ef-\u003ef)-\u003ef-\u003eGT a(b c d)f",
@@ -9045,6 +9807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "graphUFold",
           "package": "fgl",
@@ -9054,6 +9817,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "graphUFold",
           "normalized": "(Context a b-\u003ec-\u003ec)-\u003ec-\u003eGT d(e a b)c",
@@ -9069,6 +9833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "mapFst",
           "package": "fgl",
@@ -9078,6 +9843,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "mapFst",
           "normalized": "(a-\u003eb)-\u003e(a,c)-\u003e(b,c)",
@@ -9093,6 +9859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "mapSnd",
           "package": "fgl",
@@ -9102,6 +9869,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "mapSnd",
           "normalized": "(a-\u003eb)-\u003e(c,a)-\u003e(c,b)",
@@ -9117,6 +9885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "orP",
           "package": "fgl",
@@ -9126,6 +9895,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "orP",
           "normalized": "(a-\u003eBool)-\u003e(b-\u003eBool)-\u003e(a,b)-\u003eBool",
@@ -9140,6 +9910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "recMGT",
           "package": "fgl",
@@ -9149,6 +9920,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "recMGT",
           "normalized": "(a b-\u003ea Bool)-\u003eGT a b c-\u003e(c-\u003ed-\u003ed)-\u003ed-\u003eGT a b d",
@@ -9164,6 +9936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "recMGT'",
           "package": "fgl",
@@ -9173,6 +9946,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "recMGT'",
           "normalized": "(a-\u003eBool)-\u003eGT b a c-\u003e(c-\u003ed-\u003ed)-\u003ed-\u003eGT b a d",
@@ -9188,6 +9962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "runGT",
           "package": "fgl",
@@ -9197,6 +9972,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "runGT",
           "normalized": "GT a b c-\u003ea b-\u003ea c",
@@ -9212,6 +9988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "sucGT",
           "package": "fgl",
@@ -9221,6 +9998,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "sucGT",
           "normalized": "Node-\u003eGT a(b c d)(Maybe[Node])",
@@ -9236,6 +10014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "sucM",
           "package": "fgl",
@@ -9245,6 +10024,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query Monad",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.Monad",
           "name": "sucM",
           "normalized": "Node-\u003ea(b c d)-\u003ea(Maybe[Node])",
@@ -9259,6 +10039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.SP",
           "name": "SP",
           "package": "fgl",
@@ -9267,6 +10048,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query SP",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.SP",
           "name": "SP",
           "package": "fgl",
@@ -9281,6 +10063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementation of Dijkstra's shortest path algorithm  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.SP",
           "name": "dijkstra",
           "package": "fgl",
@@ -9291,6 +10074,7 @@
         "index": {
           "description": "Implementation of Dijkstra shortest path algorithm",
           "hierarchy": "Data Graph Inductive Query SP",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.SP",
           "name": "dijkstra",
           "normalized": "Heap a(LPath a)-\u003eb c a-\u003eLRTree a",
@@ -9305,6 +10089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.SP",
           "name": "sp",
           "package": "fgl",
@@ -9314,6 +10099,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query SP",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.SP",
           "name": "sp",
           "normalized": "Node-\u003eNode-\u003ea b c-\u003ePath",
@@ -9328,6 +10114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.SP",
           "name": "spLength",
           "package": "fgl",
@@ -9337,6 +10124,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query SP",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.SP",
           "name": "spLength",
           "normalized": "Node-\u003eNode-\u003ea b c-\u003ec",
@@ -9352,6 +10140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.SP",
           "name": "spTree",
           "package": "fgl",
@@ -9361,6 +10150,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query SP",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.SP",
           "name": "spTree",
           "normalized": "Node-\u003ea b c-\u003eLRTree c",
@@ -9376,6 +10166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.TransClos",
           "name": "TransClos",
           "package": "fgl",
@@ -9384,6 +10175,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query TransClos",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.TransClos",
           "name": "TransClos",
           "package": "fgl",
@@ -9398,6 +10190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds the transitive closure of a directed graph.\nGiven a graph G=(V,E), its transitive closure is the graph:\nG* = (V,E*) where E*={(i,j): i,j in V and there is a path from i to j in G}\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query.TransClos",
           "name": "trc",
           "package": "fgl",
@@ -9408,6 +10201,7 @@
         "index": {
           "description": "Finds the transitive closure of directed graph Given graph its transitive closure is the graph where in and there is path from to in",
           "hierarchy": "Data Graph Inductive Query TransClos",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query.TransClos",
           "name": "trc",
           "normalized": "a b c-\u003ea b()",
@@ -9422,6 +10216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Query",
           "name": "Query",
           "package": "fgl",
@@ -9430,6 +10225,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Query",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Query",
           "name": "Query",
           "package": "fgl",
@@ -9444,6 +10240,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTree-based implementation of \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eDynGraph\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Tree",
           "name": "Tree",
           "package": "fgl",
@@ -9453,6 +10250,7 @@
         "index": {
           "description": "Tree-based implementation of Graph and DynGraph",
           "hierarchy": "Data Graph Inductive Tree",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Tree",
           "name": "Tree",
           "package": "fgl",
@@ -9466,6 +10264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Tree",
           "name": "Gr",
           "package": "fgl",
@@ -9474,6 +10273,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Tree",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Tree",
           "name": "Gr",
           "package": "fgl",
@@ -9487,6 +10287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive.Tree",
           "name": "UGr",
           "package": "fgl",
@@ -9495,6 +10296,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive Tree",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive.Tree",
           "name": "UGr",
           "package": "fgl",
@@ -9508,6 +10310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive",
           "name": "Inductive",
           "package": "fgl",
@@ -9516,6 +10319,7 @@
         },
         "index": {
           "hierarchy": "Data Graph Inductive",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive",
           "name": "Inductive",
           "package": "fgl",
@@ -9530,6 +10334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:31 UTC 2014",
           "module": "Data.Graph.Inductive",
           "name": "version",
           "package": "fgl",
@@ -9540,6 +10345,7 @@
         "index": {
           "description": "Version info",
           "hierarchy": "Data Graph Inductive",
+          "indexed": "2014-03-11T18:08:31",
           "module": "Data.Graph.Inductive",
           "name": "version",
           "normalized": "IO()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "atomic-primops"
+        "phrase": "atomic-primops",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis version uses a boxed IORef representation, but it can be somewhat cheaper\n than the Refence version because it uses raw CAS rather than full\n atomicModifyIORef.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.IORef",
           "name": "IORef",
           "package": "atomic-primops",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This version uses boxed IORef representation but it can be somewhat cheaper than the Refence version because it uses raw CAS rather than full atomicModifyIORef",
           "hierarchy": "Data Atomics Counter IORef",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.IORef",
           "name": "IORef",
           "package": "atomic-primops",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.IORef",
           "name": "AtomicCounter",
           "package": "atomic-primops",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Atomics Counter IORef",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.IORef",
           "name": "AtomicCounter",
           "package": "atomic-primops",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.IORef",
           "name": "CTicket",
           "package": "atomic-primops",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Atomics Counter IORef",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.IORef",
           "name": "CTicket",
           "package": "atomic-primops",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare and swap for the counter ADT.  Similar behavior to \u003ccode\u003e\u003ca\u003ecasIORef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.IORef",
           "name": "casCounter",
           "package": "atomic-primops",
@@ -94,6 +101,7 @@
         "index": {
           "description": "Compare and swap for the counter ADT Similar behavior to casIORef",
           "hierarchy": "Data Atomics Counter IORef",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.IORef",
           "name": "casCounter",
           "normalized": "AtomicCounter-\u003eCTicket-\u003eInt-\u003eIO(Bool,CTicket)",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry repeatedly until we successfully increment the counter by a given amount.\n Returns the original value of the counter (pre-increment).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.IORef",
           "name": "incrCounter",
           "package": "atomic-primops",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Try repeatedly until we successfully increment the counter by given amount Returns the original value of the counter pre-increment",
           "hierarchy": "Data Atomics Counter IORef",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.IORef",
           "name": "incrCounter",
           "normalized": "Int-\u003eAtomicCounter-\u003eIO Int",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.IORef",
           "name": "incrCounter_",
           "package": "atomic-primops",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Data Atomics Counter IORef",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.IORef",
           "name": "incrCounter_",
           "normalized": "Int-\u003eAtomicCounter-\u003eIO()",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new counter initialized to the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.IORef",
           "name": "newCounter",
           "package": "atomic-primops",
@@ -170,6 +183,7 @@
         "index": {
           "description": "Create new counter initialized to the given value",
           "hierarchy": "Data Atomics Counter IORef",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.IORef",
           "name": "newCounter",
           "normalized": "Int-\u003eIO AtomicCounter",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpaque tickets cannot be constructed, but they can be destructed into values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.IORef",
           "name": "peekCTicket",
           "package": "atomic-primops",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Opaque tickets cannot be constructed but they can be destructed into values",
           "hierarchy": "Data Atomics Counter IORef",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.IORef",
           "name": "peekCTicket",
           "normalized": "CTicket-\u003eInt",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003ereadCounterForCAS\u003c/a\u003e\u003c/code\u003e followed by \u003ccode\u003e\u003ca\u003epeekCTicket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.IORef",
           "name": "readCounter",
           "package": "atomic-primops",
@@ -222,6 +239,7 @@
         "index": {
           "description": "Equivalent to readCounterForCAS followed by peekCTicket",
           "hierarchy": "Data Atomics Counter IORef",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.IORef",
           "name": "readCounter",
           "normalized": "AtomicCounter-\u003eIO Int",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust like the \u003ca\u003eData.Atomics\u003c/a\u003e CAS interface, this routine returns an opaque\n ticket that can be used in CAS operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.IORef",
           "name": "readCounterForCAS",
           "package": "atomic-primops",
@@ -248,6 +267,7 @@
         "index": {
           "description": "Just like the Data.Atomics CAS interface this routine returns an opaque ticket that can be used in CAS operations",
           "hierarchy": "Data Atomics Counter IORef",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.IORef",
           "name": "readCounterForCAS",
           "normalized": "AtomicCounter-\u003eIO CTicket",
@@ -264,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a non-atomic write to the counter.  No memory-barrier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.IORef",
           "name": "writeCounter",
           "package": "atomic-primops",
@@ -274,6 +295,7 @@
         "index": {
           "description": "Make non-atomic write to the counter No memory-barrier",
           "hierarchy": "Data Atomics Counter IORef",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.IORef",
           "name": "writeCounter",
           "normalized": "AtomicCounter-\u003eInt-\u003eIO()",
@@ -290,6 +312,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis reference version is implemented with atomicModifyIORef and can be a useful\n fallback if one of the other implementations needs to be debugged for a given\n architecture.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.Reference",
           "name": "Reference",
           "package": "atomic-primops",
@@ -299,6 +322,7 @@
         "index": {
           "description": "This reference version is implemented with atomicModifyIORef and can be useful fallback if one of the other implementations needs to be debugged for given architecture",
           "hierarchy": "Data Atomics Counter Reference",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.Reference",
           "name": "Reference",
           "package": "atomic-primops",
@@ -312,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.Reference",
           "name": "AtomicCounter",
           "package": "atomic-primops",
@@ -320,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Data Atomics Counter Reference",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.Reference",
           "name": "AtomicCounter",
           "package": "atomic-primops",
@@ -333,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.Reference",
           "name": "CTicket",
           "package": "atomic-primops",
@@ -341,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Data Atomics Counter Reference",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.Reference",
           "name": "CTicket",
           "package": "atomic-primops",
@@ -355,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare and swap for the counter ADT.  Similar behavior to \u003ccode\u003ecasIORef\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.Reference",
           "name": "casCounter",
           "package": "atomic-primops",
@@ -365,6 +394,7 @@
         "index": {
           "description": "Compare and swap for the counter ADT Similar behavior to casIORef",
           "hierarchy": "Data Atomics Counter Reference",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.Reference",
           "name": "casCounter",
           "normalized": "AtomicCounter-\u003eCTicket-\u003eInt-\u003eIO(Bool,CTicket)",
@@ -381,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry repeatedly until we successfully increment the counter by a given amount.\n Returns the original value of the counter (pre-increment).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.Reference",
           "name": "incrCounter",
           "package": "atomic-primops",
@@ -391,6 +422,7 @@
         "index": {
           "description": "Try repeatedly until we successfully increment the counter by given amount Returns the original value of the counter pre-increment",
           "hierarchy": "Data Atomics Counter Reference",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.Reference",
           "name": "incrCounter",
           "normalized": "Int-\u003eAtomicCounter-\u003eIO Int",
@@ -406,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.Reference",
           "name": "incrCounter_",
           "package": "atomic-primops",
@@ -415,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Data Atomics Counter Reference",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.Reference",
           "name": "incrCounter_",
           "normalized": "Int-\u003eAtomicCounter-\u003eIO()",
@@ -431,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new counter initialized to the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.Reference",
           "name": "newCounter",
           "package": "atomic-primops",
@@ -441,6 +476,7 @@
         "index": {
           "description": "Create new counter initialized to the given value",
           "hierarchy": "Data Atomics Counter Reference",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.Reference",
           "name": "newCounter",
           "normalized": "Int-\u003eIO AtomicCounter",
@@ -457,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpaque tickets cannot be constructed, but they can be destructed into values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.Reference",
           "name": "peekCTicket",
           "package": "atomic-primops",
@@ -467,6 +504,7 @@
         "index": {
           "description": "Opaque tickets cannot be constructed but they can be destructed into values",
           "hierarchy": "Data Atomics Counter Reference",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.Reference",
           "name": "peekCTicket",
           "normalized": "CTicket-\u003eInt",
@@ -483,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003ereadCounterForCAS\u003c/a\u003e\u003c/code\u003e followed by \u003ccode\u003e\u003ca\u003epeekCTicket\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.Reference",
           "name": "readCounter",
           "package": "atomic-primops",
@@ -493,6 +532,7 @@
         "index": {
           "description": "Equivalent to readCounterForCAS followed by peekCTicket",
           "hierarchy": "Data Atomics Counter Reference",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.Reference",
           "name": "readCounter",
           "normalized": "AtomicCounter-\u003eIO Int",
@@ -509,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust like the \u003ca\u003eData.Atomics\u003c/a\u003e CAS interface, this routine returns an opaque\n ticket that can be used in CAS operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.Reference",
           "name": "readCounterForCAS",
           "package": "atomic-primops",
@@ -519,6 +560,7 @@
         "index": {
           "description": "Just like the Data.Atomics CAS interface this routine returns an opaque ticket that can be used in CAS operations",
           "hierarchy": "Data Atomics Counter Reference",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.Reference",
           "name": "readCounterForCAS",
           "normalized": "AtomicCounter-\u003eIO CTicket",
@@ -535,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a non-atomic write to the counter.  No memory-barrier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.Reference",
           "name": "writeCounter",
           "package": "atomic-primops",
@@ -545,6 +588,7 @@
         "index": {
           "description": "Make non-atomic write to the counter No memory-barrier",
           "hierarchy": "Data Atomics Counter Reference",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.Reference",
           "name": "writeCounter",
           "normalized": "AtomicCounter-\u003eInt-\u003eIO()",
@@ -561,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis should be the most efficient implementation of atomic counters.\n   You probably don't need the others!  (Except for testing/debugging.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.Unboxed",
           "name": "Unboxed",
           "package": "atomic-primops",
@@ -570,6 +615,7 @@
         "index": {
           "description": "This should be the most efficient implementation of atomic counters You probably don need the others Except for testing debugging",
           "hierarchy": "Data Atomics Counter Unboxed",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.Unboxed",
           "name": "Unboxed",
           "package": "atomic-primops",
@@ -584,6 +630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of mutable atomic counters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.Unboxed",
           "name": "AtomicCounter",
           "package": "atomic-primops",
@@ -593,6 +640,7 @@
         "index": {
           "description": "The type of mutable atomic counters",
           "hierarchy": "Data Atomics Counter Unboxed",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.Unboxed",
           "name": "AtomicCounter",
           "package": "atomic-primops",
@@ -607,6 +655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou should not depend on this type.  It varies between different implementations\n of atomic counters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter.Unboxed",
           "name": "CTicket",
           "package": "atomic-primops",
@@ -616,6 +665,7 @@
         "index": {
           "description": "You should not depend on this type It varies between different implementations of atomic counters",
           "hierarchy": "Data Atomics Counter Unboxed",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter.Unboxed",
           "name": "CTicket",
           "package": "atomic-primops",
@@ -846,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInteger counters providing thread-safe, lock-free mutation functions.\n\u003c/p\u003e\u003cp\u003eWhile this package provides multiple implementations, this module will always\n   expose the default (best) implementation.  Atomic counters are represented by a\n   single memory location, such that built-in processor instructions are sufficient\n   to perform fetch-and-add or compare-and-swap.\n\u003c/p\u003e\u003cp\u003eRemember, contention on such counters should still be minimized!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter",
           "name": "Counter",
           "package": "atomic-primops",
@@ -855,6 +906,7 @@
         "index": {
           "description": "Integer counters providing thread-safe lock-free mutation functions While this package provides multiple implementations this module will always expose the default best implementation Atomic counters are represented by single memory location such that built-in processor instructions are sufficient to perform fetch-and-add or compare-and-swap Remember contention on such counters should still be minimized",
           "hierarchy": "Data Atomics Counter",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter",
           "name": "Counter",
           "package": "atomic-primops",
@@ -869,6 +921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of mutable atomic counters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter",
           "name": "AtomicCounter",
           "package": "atomic-primops",
@@ -878,6 +931,7 @@
         "index": {
           "description": "The type of mutable atomic counters",
           "hierarchy": "Data Atomics Counter",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter",
           "name": "AtomicCounter",
           "package": "atomic-primops",
@@ -892,6 +946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou should not depend on this type.  It varies between different implementations\n of atomic counters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Counter",
           "name": "CTicket",
           "package": "atomic-primops",
@@ -901,6 +956,7 @@
         "index": {
           "description": "You should not depend on this type It varies between different implementations of atomic counters",
           "hierarchy": "Data Atomics Counter",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Counter",
           "name": "CTicket",
           "package": "atomic-primops",
@@ -915,6 +971,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides only the raw primops (and necessary types) for atomic\n operations.  \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Internal",
           "name": "Internal",
           "package": "atomic-primops",
@@ -924,6 +981,7 @@
         "index": {
           "description": "This module provides only the raw primops and necessary types for atomic operations",
           "hierarchy": "Data Atomics Internal",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Internal",
           "name": "Internal",
           "package": "atomic-primops",
@@ -938,6 +996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen performing compare-and-swaps, the \u003cem\u003eticket\u003c/em\u003e encapsulates proof\n that a thread observed a specific previous value of a mutable\n variable.  It is provided in lieu of the \u003ca\u003eold\u003c/a\u003e value to\n compare-and-swap.\n\u003c/p\u003e\u003cp\u003eDesign note: \u003ccode\u003e\u003ca\u003eTicket\u003c/a\u003e\u003c/code\u003es exist to hide objects from the GHC compiler, which\n can normally perform many optimizations that change pointer equality.  A Ticket,\n on the other hand, is a first-class object that can be handled by the user,\n but will not have its pointer identity changed by compiler optimizations\n (but will of course, change addresses during garbage collection).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Internal",
           "name": "Ticket",
           "package": "atomic-primops",
@@ -947,6 +1006,7 @@
         "index": {
           "description": "When performing compare-and-swaps the ticket encapsulates proof that thread observed specific previous value of mutable variable It is provided in lieu of the old value to compare-and-swap Design note Ticket exist to hide objects from the GHC compiler which can normally perform many optimizations that change pointer equality Ticket on the other hand is first-class object that can be handled by the user but will not have its pointer identity changed by compiler optimizations but will of course change addresses during garbage collection",
           "hierarchy": "Data Atomics Internal",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Internal",
           "name": "Ticket",
           "package": "atomic-primops",
@@ -961,6 +1021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafe, machine-level atomic compare and swap on an element within an Array.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Internal",
           "name": "casArrayTicketed#",
           "package": "atomic-primops",
@@ -971,6 +1032,7 @@
         "index": {
           "description": "Unsafe machine-level atomic compare and swap on an element within an Array",
           "hierarchy": "Data Atomics Internal",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Internal",
           "name": "casArrayTicketed#",
           "normalized": "MutableArray # RealWorld a-\u003eInt #-\u003eTicket a-\u003eTicket a-\u003eState # RealWorld-\u003e(#State # RealWorld,Int #,Ticket a #)",
@@ -986,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Internal",
           "name": "casIntArray#",
           "package": "atomic-primops",
@@ -995,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Data Atomics Internal",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Internal",
           "name": "casIntArray#",
           "normalized": "MutableByteArray # a-\u003eInt #-\u003eInt #-\u003eInt #-\u003eState # a-\u003e(#State # a,Int # #)",
@@ -1010,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Internal",
           "name": "casMutVarTicketed#",
           "package": "atomic-primops",
@@ -1019,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Data Atomics Internal",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Internal",
           "name": "casMutVarTicketed#",
           "normalized": "MutVar # RealWorld a-\u003eTicket a-\u003eTicket a-\u003eState # RealWorld-\u003e(#State # RealWorld,Int #,Ticket a #)",
@@ -1034,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Internal",
           "name": "fetchAddIntArray#",
           "package": "atomic-primops",
@@ -1043,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Data Atomics Internal",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Internal",
           "name": "fetchAddIntArray#",
           "normalized": "MutableByteArray # a-\u003eInt #-\u003eInt #-\u003eState # a-\u003e(#State # a,Int # #)",
@@ -1058,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics.Internal",
           "name": "readForCAS#",
           "package": "atomic-primops",
@@ -1067,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Data Atomics Internal",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics.Internal",
           "name": "readForCAS#",
           "normalized": "MutVar # RealWorld a-\u003eState # RealWorld-\u003e(#State # RealWorld,Ticket a #)",
@@ -1083,6 +1153,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides atomic memory operations on IORefs and Mutable Arrays.\n\u003c/p\u003e\u003cp\u003ePointer equality need not be maintained by a Haskell compiler.  For example, Int\n   values will frequently be boxed and unboxed, changing the pointer identity of\n   the thunk.  To deal with this, the compare-and-swap (CAS) approach used in this\n   module is uses a \u003cem\u003esealed\u003c/em\u003e representation of pointers into the Haskell heap\n   (\u003ccode\u003eTickets\u003c/code\u003e).  Currently, the user cannot coin new tickets, rather a \u003ccode\u003e\u003ca\u003eTicket\u003c/a\u003e\u003c/code\u003e\n   provides evidence of a past observation, and grants permission to make a future\n   change.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics",
           "name": "Atomics",
           "package": "atomic-primops",
@@ -1092,6 +1163,7 @@
         "index": {
           "description": "Provides atomic memory operations on IORefs and Mutable Arrays Pointer equality need not be maintained by Haskell compiler For example Int values will frequently be boxed and unboxed changing the pointer identity of the thunk To deal with this the compare-and-swap CAS approach used in this module is uses sealed representation of pointers into the Haskell heap Tickets Currently the user cannot coin new tickets rather Ticket provides evidence of past observation and grants permission to make future change",
           "hierarchy": "Data Atomics",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics",
           "name": "Atomics",
           "package": "atomic-primops",
@@ -1106,6 +1178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen performing compare-and-swaps, the \u003cem\u003eticket\u003c/em\u003e encapsulates proof\n that a thread observed a specific previous value of a mutable\n variable.  It is provided in lieu of the \u003ca\u003eold\u003c/a\u003e value to\n compare-and-swap.\n\u003c/p\u003e\u003cp\u003eDesign note: \u003ccode\u003e\u003ca\u003eTicket\u003c/a\u003e\u003c/code\u003es exist to hide objects from the GHC compiler, which\n can normally perform many optimizations that change pointer equality.  A Ticket,\n on the other hand, is a first-class object that can be handled by the user,\n but will not have its pointer identity changed by compiler optimizations\n (but will of course, change addresses during garbage collection).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics",
           "name": "Ticket",
           "package": "atomic-primops",
@@ -1115,6 +1188,7 @@
         "index": {
           "description": "When performing compare-and-swaps the ticket encapsulates proof that thread observed specific previous value of mutable variable It is provided in lieu of the old value to compare-and-swap Design note Ticket exist to hide objects from the GHC compiler which can normally perform many optimizations that change pointer equality Ticket on the other hand is first-class object that can be handled by the user but will not have its pointer identity changed by compiler optimizations but will of course change addresses during garbage collection",
           "hierarchy": "Data Atomics",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics",
           "name": "Ticket",
           "package": "atomic-primops",
@@ -1129,6 +1203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA drop-in replacement for \u003ccode\u003e\u003ca\u003eatomicModifyIORefCAS\u003c/a\u003e\u003c/code\u003e that\n   optimistically attempts to compute the new value and CAS it into\n   place without introducing new thunks or locking anything.  Note\n   that this is more STRICT than its standard counterpart and will only\n   place evaluated (WHNF) values in the IORef.\n\u003c/p\u003e\u003cp\u003eThe upside is that sometimes we see a performance benefit.  \n   The downside is that this version is speculative -- when it \n   retries, it must reexecute the compution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics",
           "name": "atomicModifyIORefCAS",
           "package": "atomic-primops",
@@ -1138,6 +1213,7 @@
         "index": {
           "description": "drop-in replacement for atomicModifyIORefCAS that optimistically attempts to compute the new value and CAS it into place without introducing new thunks or locking anything Note that this is more STRICT than its standard counterpart and will only place evaluated WHNF values in the IORef The upside is that sometimes we see performance benefit The downside is that this version is speculative when it retries it must reexecute the compution",
           "hierarchy": "Data Atomics",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics",
           "name": "atomicModifyIORefCAS",
           "normalized": "IORef a-\u003e(a-\u003e(a,b))-\u003eIO b",
@@ -1154,6 +1230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simpler version that modifies the state but does not return anything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics",
           "name": "atomicModifyIORefCAS_",
           "package": "atomic-primops",
@@ -1164,6 +1241,7 @@
         "index": {
           "description": "simpler version that modifies the state but does not return anything",
           "hierarchy": "Data Atomics",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics",
           "name": "atomicModifyIORefCAS_",
           "normalized": "IORef a-\u003e(a-\u003ea)-\u003eIO()",
@@ -1180,6 +1258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare-and-swap.  Follows the same rules as \u003ccode\u003e\u003ca\u003ecasIORef\u003c/a\u003e\u003c/code\u003e, returning the ticket for\n   then next operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics",
           "name": "casArrayElem",
           "package": "atomic-primops",
@@ -1190,6 +1269,7 @@
         "index": {
           "description": "Compare-and-swap Follows the same rules as casIORef returning the ticket for then next operation",
           "hierarchy": "Data Atomics",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics",
           "name": "casArrayElem",
           "normalized": "MutableArray RealWorld a-\u003eInt-\u003eTicket a-\u003ea-\u003eIO(Bool,Ticket a)",
@@ -1206,6 +1286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis variant takes two tickets: the \u003ccode\u003enew\u003c/code\u003e value is a ticket rather than an\n arbitrary, lifted, Haskell value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics",
           "name": "casArrayElem2",
           "package": "atomic-primops",
@@ -1216,6 +1297,7 @@
         "index": {
           "description": "This variant takes two tickets the new value is ticket rather than an arbitrary lifted Haskell value",
           "hierarchy": "Data Atomics",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics",
           "name": "casArrayElem2",
           "normalized": "MutableArray RealWorld a-\u003eInt-\u003eTicket a-\u003eTicket a-\u003eIO(Bool,Ticket a)",
@@ -1232,6 +1314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare and swap on word-sized chunks of a byte-array.  For indexing purposes\n the bytearray is treated as an array of words (\u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es).  Note that UNLIKE\n \u003ccode\u003e\u003ca\u003ecasIORef\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003ecasArrayTicketed\u003c/code\u003e, this does not need to operate on tickets.\n\u003c/p\u003e\u003cp\u003eFurther, this version always returns the \u003cem\u003eold value\u003c/em\u003e, that was read from the array during\n the CAS operation.  That is, it follows the normal protocol for CAS operations\n (and matches the underlying instruction on most architectures).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics",
           "name": "casByteArrayInt",
           "package": "atomic-primops",
@@ -1242,6 +1325,7 @@
         "index": {
           "description": "Compare and swap on word-sized chunks of byte-array For indexing purposes the bytearray is treated as an array of words Int Note that UNLIKE casIORef and casArrayTicketed this does not need to operate on tickets Further this version always returns the old value that was read from the array during the CAS operation That is it follows the normal protocol for CAS operations and matches the underlying instruction on most architectures",
           "hierarchy": "Data Atomics",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics",
           "name": "casByteArrayInt",
           "normalized": "MutableByteArray RealWorld-\u003eInt-\u003eInt-\u003eInt-\u003eIO Int",
@@ -1258,6 +1342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms a machine-level compare and swap (CAS) operation on an\n \u003ccode\u003e\u003ca\u003eIORef\u003c/a\u003e\u003c/code\u003e. Returns a tuple containing a \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e which is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e when a\n swap is performed, along with the most \u003ccode\u003ecurrent\u003c/code\u003e value from the \u003ccode\u003e\u003ca\u003eIORef\u003c/a\u003e\u003c/code\u003e.\n Note that this differs from the more common CAS behavior, which is to\n return the \u003cem\u003eold\u003c/em\u003e value before the CAS occured.\n\u003c/p\u003e\u003cp\u003eThe reason for the difference is the ticket API.  This function always returns the\n ticket that you should use in your next CAS attempt.  In case of success, this ticket\n corresponds to the \u003ccode\u003enew\u003c/code\u003e value which you yourself installed in the \u003ccode\u003e\u003ca\u003eIORef\u003c/a\u003e\u003c/code\u003e, whereas\n in the case of failure it represents the preexisting value currently in the IORef. \n\u003c/p\u003e\u003cp\u003eNote \"compare\" here means pointer equality in the sense of\n \u003ccode\u003e\u003ca\u003ereallyUnsafePtrEquality#\u003c/a\u003e\u003c/code\u003e.  However, the ticket API absolves\n the user of this module from needing to worry about the pointer equality of their\n values, which in general requires reasoning about the details of the Haskell\n implementation (GHC).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics",
           "name": "casIORef",
           "package": "atomic-primops",
@@ -1267,6 +1352,7 @@
         "index": {
           "description": "Performs machine-level compare and swap CAS operation on an IORef Returns tuple containing Bool which is True when swap is performed along with the most current value from the IORef Note that this differs from the more common CAS behavior which is to return the old value before the CAS occured The reason for the difference is the ticket API This function always returns the ticket that you should use in your next CAS attempt In case of success this ticket corresponds to the new value which you yourself installed in the IORef whereas in the case of failure it represents the preexisting value currently in the IORef Note compare here means pointer equality in the sense of reallyUnsafePtrEquality However the ticket API absolves the user of this module from needing to worry about the pointer equality of their values which in general requires reasoning about the details of the Haskell implementation GHC",
           "hierarchy": "Data Atomics",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics",
           "name": "casIORef",
           "normalized": "IORef a-\u003eTicket a-\u003ea-\u003eIO(Bool,Ticket a)",
@@ -1283,6 +1369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis variant takes two tickets, i.e. the \u003ccode\u003enew\u003c/code\u003e value is a ticket rather than an\n arbitrary, lifted, Haskell value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics",
           "name": "casIORef2",
           "package": "atomic-primops",
@@ -1292,6 +1379,7 @@
         "index": {
           "description": "This variant takes two tickets i.e the new value is ticket rather than an arbitrary lifted Haskell value",
           "hierarchy": "Data Atomics",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics",
           "name": "casIORef2",
           "normalized": "IORef a-\u003eTicket a-\u003eTicket a-\u003eIO(Bool,Ticket a)",
@@ -1308,6 +1396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutVar counterpart of \u003ccode\u003e\u003ca\u003ecasIORef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics",
           "name": "casMutVar",
           "package": "atomic-primops",
@@ -1318,6 +1407,7 @@
         "index": {
           "description": "MutVar counterpart of casIORef",
           "hierarchy": "Data Atomics",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics",
           "name": "casMutVar",
           "normalized": "MutVar # RealWorld a-\u003eTicket a-\u003ea-\u003eIO(Bool,Ticket a)",
@@ -1334,6 +1424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis variant takes two tickets, i.e. the \u003ccode\u003enew\u003c/code\u003e value is a ticket rather than an\n arbitrary, lifted, Haskell value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics",
           "name": "casMutVar2",
           "package": "atomic-primops",
@@ -1344,6 +1435,7 @@
         "index": {
           "description": "This variant takes two tickets i.e the new value is ticket rather than an arbitrary lifted Haskell value",
           "hierarchy": "Data Atomics",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics",
           "name": "casMutVar2",
           "normalized": "MutVar # RealWorld a-\u003eTicket a-\u003eTicket a-\u003eIO(Bool,Ticket a)",
@@ -1360,6 +1452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomically add to a word of memory within a \u003ccode\u003e\u003ca\u003eMutableByteArray\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis function returns the NEW value of the location after the increment.\n   Thus, it is a bit misnamed, and in other contexts might be called \u003ca\u003eadd-and-fetch\u003c/a\u003e,\n   such as in GCC's \u003ccode\u003e__sync_add_and_fetch\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics",
           "name": "fetchAddByteArrayInt",
           "package": "atomic-primops",
@@ -1370,6 +1463,7 @@
         "index": {
           "description": "Atomically add to word of memory within MutableByteArray This function returns the NEW value of the location after the increment Thus it is bit misnamed and in other contexts might be called add-and-fetch such as in GCC sync add and fetch",
           "hierarchy": "Data Atomics",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics",
           "name": "fetchAddByteArrayInt",
           "normalized": "MutableByteArray RealWorld-\u003eInt-\u003eInt-\u003eIO Int",
@@ -1386,6 +1480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemory barrier implemented by the GHC rts (see SMP.h).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics",
           "name": "loadLoadBarrier",
           "package": "atomic-primops",
@@ -1396,6 +1491,7 @@
         "index": {
           "description": "Memory barrier implemented by the GHC rts see SMP.h",
           "hierarchy": "Data Atomics",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics",
           "name": "loadLoadBarrier",
           "normalized": "IO()",
@@ -1412,6 +1508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ticket contains or can get the usable Haskell value.\n   This function does just that.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics",
           "name": "peekTicket",
           "package": "atomic-primops",
@@ -1422,6 +1519,7 @@
         "index": {
           "description": "ticket contains or can get the usable Haskell value This function does just that",
           "hierarchy": "Data Atomics",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics",
           "name": "peekTicket",
           "normalized": "Ticket a-\u003ea",
@@ -1438,6 +1536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdinary processor load instruction (non-atomic, not implying any memory barriers).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics",
           "name": "readArrayElem",
           "package": "atomic-primops",
@@ -1448,6 +1547,7 @@
         "index": {
           "description": "Ordinary processor load instruction non-atomic not implying any memory barriers",
           "hierarchy": "Data Atomics",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics",
           "name": "readArrayElem",
           "normalized": "a b MutableArray RealWorld c-\u003eInt-\u003eIO(Ticket c)",
@@ -1464,6 +1564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrdinary processor load instruction (non-atomic, not implying any memory barriers).\n\u003c/p\u003e\u003cp\u003eThe difference between this function and \u003ccode\u003e\u003ca\u003ereadIORef\u003c/a\u003e\u003c/code\u003e, is that it returns a \u003cem\u003eticket\u003c/em\u003e,\n   for use in future compare-and-swap operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics",
           "name": "readForCAS",
           "package": "atomic-primops",
@@ -1474,6 +1575,7 @@
         "index": {
           "description": "Ordinary processor load instruction non-atomic not implying any memory barriers The difference between this function and readIORef is that it returns ticket for use in future compare-and-swap operations",
           "hierarchy": "Data Atomics",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics",
           "name": "readForCAS",
           "normalized": "IORef a-\u003eIO(Ticket a)",
@@ -1490,6 +1592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ereadForCAS\u003c/a\u003e\u003c/code\u003e, but for \u003ccode\u003e\u003ca\u003eMutVar#\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics",
           "name": "readMutVarForCAS",
           "package": "atomic-primops",
@@ -1500,6 +1603,7 @@
         "index": {
           "description": "Like readForCAS but for MutVar",
           "hierarchy": "Data Atomics",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics",
           "name": "readMutVarForCAS",
           "normalized": "MutVar # RealWorld a-\u003eIO(Ticket a)",
@@ -1516,6 +1620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemory barrier implemented by the GHC rts (see SMP.h).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics",
           "name": "storeLoadBarrier",
           "package": "atomic-primops",
@@ -1526,6 +1631,7 @@
         "index": {
           "description": "Memory barrier implemented by the GHC rts see SMP.h",
           "hierarchy": "Data Atomics",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics",
           "name": "storeLoadBarrier",
           "normalized": "IO()",
@@ -1542,6 +1648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemory barrier implemented by the GHC rts (see SMP.h).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:14:15 UTC 2014",
           "module": "Data.Atomics",
           "name": "writeBarrier",
           "package": "atomic-primops",
@@ -1552,6 +1659,7 @@
         "index": {
           "description": "Memory barrier implemented by the GHC rts see SMP.h",
           "hierarchy": "Data Atomics",
+          "indexed": "2014-03-11T17:14:15",
           "module": "Data.Atomics",
           "name": "writeBarrier",
           "normalized": "IO()",

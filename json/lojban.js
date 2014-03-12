@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lojban"
+        "phrase": "lojban",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.CLL",
           "name": "CLL",
           "package": "lojban",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban CLL",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.CLL",
           "name": "CLL",
           "package": "lojban",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQueries the CLL page on jbotcan.org using Google.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.CLL",
           "name": "cll",
           "package": "lojban",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Queries the CLL page on jbotcan.org using Google",
           "hierarchy": "Language Lojban CLL",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.CLL",
           "name": "cll",
           "normalized": "String-\u003eIO(Maybe[(String,String)])",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Camxes.Parse",
           "name": "Parse",
           "package": "lojban",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Camxes Parse",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Camxes.Parse",
           "name": "Parse",
           "package": "lojban",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Camxes.Parse",
           "name": "Expr",
           "package": "lojban",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Camxes Parse",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Camxes.Parse",
           "name": "Expr",
           "package": "lojban",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Camxes.Parse",
           "name": "LojbanTree",
           "package": "lojban",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Camxes Parse",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Camxes.Parse",
           "name": "LojbanTree",
           "package": "lojban",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Camxes.Parse",
           "name": "Type",
           "package": "lojban",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Camxes Parse",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Camxes.Parse",
           "name": "Type",
           "package": "lojban",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Camxes.Parse",
           "name": "Value",
           "package": "lojban",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Camxes Parse",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Camxes.Parse",
           "name": "Value",
           "package": "lojban",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Camxes.Parse",
           "name": "parse",
           "package": "lojban",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Camxes Parse",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Camxes.Parse",
           "name": "parse",
           "normalized": "String-\u003eEither ParseError LojbanTree",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbobau",
           "name": "Jbobau",
           "package": "lojban",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Jbobau",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbobau",
           "name": "Jbobau",
           "package": "lojban",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbobau",
           "name": "Jbobau",
           "package": "lojban",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Jbobau",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbobau",
           "name": "Jbobau",
           "package": "lojban",
@@ -235,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a random, grammatical, lojbanic sentence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbobau",
           "name": "jbobauLine",
           "package": "lojban",
@@ -245,6 +266,7 @@
         "index": {
           "description": "Returns random grammatical lojbanic sentence",
           "hierarchy": "Language Lojban Jbobau",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbobau",
           "name": "jbobauLine",
           "normalized": "Jbobau-\u003eIO String",
@@ -261,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new jbobau handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbobau",
           "name": "newJbobau",
           "package": "lojban",
@@ -271,6 +294,7 @@
         "index": {
           "description": "Creates new jbobau handle",
           "hierarchy": "Language Lojban Jbobau",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbobau",
           "name": "newJbobau",
           "normalized": "FilePath-\u003eIO(Either String Jbobau)",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "Jbovlaste",
           "package": "lojban",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "Jbovlaste",
           "package": "lojban",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "JboDB",
           "package": "lojban",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "JboDB",
           "package": "lojban",
@@ -329,6 +357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque data type on which accessors can be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "JboValsi",
           "package": "lojban",
@@ -338,6 +367,7 @@
         "index": {
           "description": "An opaque data type on which accessors can be used",
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "JboValsi",
           "package": "lojban",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "JboValsiType",
           "package": "lojban",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "JboValsiType",
           "package": "lojban",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "CmavoType",
           "package": "lojban",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "CmavoType",
           "package": "lojban",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "Fu'ivlaType",
           "package": "lojban",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "Fu'ivlaType",
           "package": "lojban",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "GismuType",
           "package": "lojban",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "GismuType",
           "package": "lojban",
@@ -438,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "LujvoType",
           "package": "lojban",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "LujvoType",
           "package": "lojban",
@@ -461,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind valsi(s) by definition substring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "defSub",
           "package": "lojban",
@@ -471,6 +512,7 @@
         "index": {
           "description": "Find valsi by definition substring",
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "defSub",
           "normalized": "JboDB-\u003eString-\u003e[JboValsi]",
@@ -487,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind valsi(s) by definition wild card string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "defWildCard",
           "package": "lojban",
@@ -497,6 +540,7 @@
         "index": {
           "description": "Find valsi by definition wild card string",
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "defWildCard",
           "normalized": "JboDB-\u003eString-\u003e[JboValsi]",
@@ -513,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter valsi(s) by a predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "filterValsi",
           "package": "lojban",
@@ -523,6 +568,7 @@
         "index": {
           "description": "Filter valsi by predicate",
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "filterValsi",
           "normalized": "JboDB-\u003e(JboValsi-\u003eBool)-\u003e[JboValsi]",
@@ -539,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind valsi(s) by a predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "findValsi",
           "package": "lojban",
@@ -549,6 +596,7 @@
         "index": {
           "description": "Find valsi by predicate",
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "findValsi",
           "normalized": "JboDB-\u003e(JboValsi-\u003eBool)-\u003eMaybe JboValsi",
@@ -565,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a database from the Jbovlaste XML export file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "genDB",
           "package": "lojban",
@@ -575,6 +624,7 @@
         "index": {
           "description": "Generate database from the Jbovlaste XML export file",
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "genDB",
           "normalized": "FilePath-\u003eIO JboDB",
@@ -591,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a database from the Jbovlaste XML export.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "genDBString",
           "package": "lojban",
@@ -601,6 +652,7 @@
         "index": {
           "description": "Generate database from the Jbovlaste XML export",
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "genDBString",
           "normalized": "String-\u003eJboDB",
@@ -617,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead in a database from file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "readDB",
           "package": "lojban",
@@ -627,6 +680,7 @@
         "index": {
           "description": "Read in database from file",
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "readDB",
           "normalized": "FilePath-\u003eIO JboDB",
@@ -642,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "showType",
           "package": "lojban",
@@ -651,6 +706,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "showType",
           "normalized": "JboValsi-\u003e[Char]",
@@ -666,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "showValsi",
           "package": "lojban",
@@ -675,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "showValsi",
           "normalized": "JboValsi-\u003eString",
@@ -691,6 +749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind valsi(s) by word or gloss or rafsi.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "valsi",
           "package": "lojban",
@@ -701,6 +760,7 @@
         "index": {
           "description": "Find valsi by word or gloss or rafsi",
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "valsi",
           "normalized": "JboDB-\u003eString-\u003e[JboValsi]",
@@ -716,6 +776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the definition of a valsi.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "valsiDef",
           "package": "lojban",
@@ -726,6 +787,7 @@
         "index": {
           "description": "Get the definition of valsi",
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "valsiDef",
           "normalized": "JboValsi-\u003eString",
@@ -742,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the gloss(es) of a valsi.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "valsiGloss",
           "package": "lojban",
@@ -752,6 +815,7 @@
         "index": {
           "description": "Get the gloss es of valsi",
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "valsiGloss",
           "normalized": "JboValsi-\u003e[String]",
@@ -768,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the notes of a valsi.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "valsiNotes",
           "package": "lojban",
@@ -778,6 +843,7 @@
         "index": {
           "description": "Get the notes of valsi",
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "valsiNotes",
           "normalized": "JboValsi-\u003eString",
@@ -794,6 +860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet any rafsis of a valsi.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "valsiRafsis",
           "package": "lojban",
@@ -804,6 +871,7 @@
         "index": {
           "description": "Get any rafsis of valsi",
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "valsiRafsis",
           "normalized": "JboValsi-\u003e[String]",
@@ -820,6 +888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the selma'o of a cmavo (Nothing for non-cmavo).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "valsiSelma'o",
           "package": "lojban",
@@ -830,6 +899,7 @@
         "index": {
           "description": "Get the selma of cmavo Nothing for non-cmavo",
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "valsiSelma'o",
           "normalized": "JboValsi-\u003eMaybe String",
@@ -846,6 +916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the selrafsis of a lujvo (empty list for non-lujvo).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "valsiSelrafsis",
           "package": "lojban",
@@ -856,6 +927,7 @@
         "index": {
           "description": "Get the selrafsis of lujvo empty list for non-lujvo",
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "valsiSelrafsis",
           "normalized": "JboValsi-\u003e[JboValsi]",
@@ -872,6 +944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the type of a valsi.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "valsiType",
           "package": "lojban",
@@ -882,6 +955,7 @@
         "index": {
           "description": "Get the type of valsi",
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "valsiType",
           "normalized": "JboValsi-\u003eJboValsiType",
@@ -898,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the word of a valsi.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Jbovlaste",
           "name": "valsiWord",
           "package": "lojban",
@@ -908,6 +983,7 @@
         "index": {
           "description": "Get the word of valsi",
           "hierarchy": "Language Lojban Jbovlaste",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Jbovlaste",
           "name": "valsiWord",
           "normalized": "JboValsi-\u003eString",
@@ -923,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Lujvo",
           "name": "Lujvo",
           "package": "lojban",
@@ -931,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Lujvo",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Lujvo",
           "name": "Lujvo",
           "package": "lojban",
@@ -945,6 +1023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFix clusters in lojbanic words, consonants, vowels, hyphens, etc. Might not be accurate sometimes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Lujvo",
           "name": "fixClusters",
           "package": "lojban",
@@ -955,6 +1034,7 @@
         "index": {
           "description": "Fix clusters in lojbanic words consonants vowels hyphens etc Might not be accurate sometimes",
           "hierarchy": "Language Lojban Lujvo",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Lujvo",
           "name": "fixClusters",
           "normalized": "String-\u003eString",
@@ -971,6 +1051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe rafsis of a lujvo. (Empty list for invalid parse.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Lujvo",
           "name": "rafsis",
           "package": "lojban",
@@ -981,6 +1062,7 @@
         "index": {
           "description": "The rafsis of lujvo Empty list for invalid parse",
           "hierarchy": "Language Lojban Lujvo",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Lujvo",
           "name": "rafsis",
           "normalized": "String-\u003e[String]",
@@ -995,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Mlismu",
           "name": "Mlismu",
           "package": "lojban",
@@ -1003,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Mlismu",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Mlismu",
           "name": "Mlismu",
           "package": "lojban",
@@ -1016,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Mlismu",
           "name": "Mlismu",
           "package": "lojban",
@@ -1024,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Mlismu",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Mlismu",
           "name": "Mlismu",
           "package": "lojban",
@@ -1038,6 +1124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new fatci.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Mlismu",
           "name": "addFatci",
           "package": "lojban",
@@ -1048,6 +1135,7 @@
         "index": {
           "description": "Add new fatci",
           "hierarchy": "Language Lojban Mlismu",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Mlismu",
           "name": "addFatci",
           "normalized": "Mlismu-\u003eString-\u003eIO Bool",
@@ -1064,6 +1152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs a fatci valid?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Mlismu",
           "name": "isValidFatci",
           "package": "lojban",
@@ -1074,6 +1163,7 @@
         "index": {
           "description": "Is fatci valid",
           "hierarchy": "Language Lojban Mlismu",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Mlismu",
           "name": "isValidFatci",
           "normalized": "String-\u003eIO Bool",
@@ -1090,6 +1180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new mlismu handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Mlismu",
           "name": "newMlismu",
           "package": "lojban",
@@ -1100,6 +1191,7 @@
         "index": {
           "description": "Create new mlismu handle",
           "hierarchy": "Language Lojban Mlismu",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Mlismu",
           "name": "newMlismu",
           "normalized": "FilePath-\u003eIO(Either String Mlismu)",
@@ -1116,6 +1208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a random bridi for a (maybe) given selbri.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Mlismu",
           "name": "randomBridi",
           "package": "lojban",
@@ -1126,6 +1219,7 @@
         "index": {
           "description": "Return random bridi for maybe given selbri",
           "hierarchy": "Language Lojban Mlismu",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Mlismu",
           "name": "randomBridi",
           "normalized": "Mlismu-\u003eMaybe String-\u003eIO(Maybe String)",
@@ -1142,6 +1236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to return a random bridi for one of the given selbri.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Mlismu",
           "name": "randomBridiRel",
           "package": "lojban",
@@ -1152,6 +1247,7 @@
         "index": {
           "description": "Try to return random bridi for one of the given selbri",
           "hierarchy": "Language Lojban Mlismu",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Mlismu",
           "name": "randomBridiRel",
           "normalized": "Mlismu-\u003e[String]-\u003eIO(Maybe String)",
@@ -1168,6 +1264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd any valid fatci from a set of utterances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Mlismu",
           "name": "readFatci",
           "package": "lojban",
@@ -1178,6 +1275,7 @@
         "index": {
           "description": "Add any valid fatci from set of utterances",
           "hierarchy": "Language Lojban Mlismu",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Mlismu",
           "name": "readFatci",
           "normalized": "Mlismu-\u003eString-\u003eIO()",
@@ -1193,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Util",
           "name": "Util",
           "package": "lojban",
@@ -1201,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Language Lojban Util",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Util",
           "name": "Util",
           "package": "lojban",
@@ -1215,6 +1315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all cmavo which belong to the given selma'o.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Util",
           "name": "filterSelma'o",
           "package": "lojban",
@@ -1225,6 +1326,7 @@
         "index": {
           "description": "Returns all cmavo which belong to the given selma",
           "hierarchy": "Language Lojban Util",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Util",
           "name": "filterSelma'o",
           "normalized": "JboDB-\u003eString-\u003e[JboValsi]",
@@ -1241,6 +1343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a cmavo valsi matching the given word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Util",
           "name": "findCmavo",
           "package": "lojban",
@@ -1251,6 +1354,7 @@
         "index": {
           "description": "Find cmavo valsi matching the given word",
           "hierarchy": "Language Lojban Util",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Util",
           "name": "findCmavo",
           "normalized": "JboDB-\u003eString-\u003eMaybe JboValsi",
@@ -1267,6 +1371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a gismu valsi matching the given word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Util",
           "name": "findGismu",
           "package": "lojban",
@@ -1277,6 +1382,7 @@
         "index": {
           "description": "Find gismu valsi matching the given word",
           "hierarchy": "Language Lojban Util",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Util",
           "name": "findGismu",
           "normalized": "JboDB-\u003eString-\u003eMaybe JboValsi",
@@ -1293,6 +1399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a selrafsi matching the given rafsi.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Util",
           "name": "findSelrafsi",
           "package": "lojban",
@@ -1303,6 +1410,7 @@
         "index": {
           "description": "Find selrafsi matching the given rafsi",
           "hierarchy": "Language Lojban Util",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Util",
           "name": "findSelrafsi",
           "normalized": "JboDB-\u003eString-\u003eMaybe JboValsi",
@@ -1319,6 +1427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows the grammar of a lojban utterance using jbofihe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Util",
           "name": "grammar",
           "package": "lojban",
@@ -1328,6 +1437,7 @@
         "index": {
           "description": "Shows the grammar of lojban utterance using jbofihe",
           "hierarchy": "Language Lojban Util",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Util",
           "name": "grammar",
           "normalized": "String-\u003eIO(Either String(String,String))",
@@ -1343,6 +1453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust checks with jbofihe if some lojban is grammatically valid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Util",
           "name": "isValidLojban",
           "package": "lojban",
@@ -1353,6 +1464,7 @@
         "index": {
           "description": "Just checks with jbofihe if some lojban is grammatically valid",
           "hierarchy": "Language Lojban Util",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Util",
           "name": "isValidLojban",
           "normalized": "String-\u003eIO Bool",
@@ -1369,6 +1481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to construct and rate lujvo from selfrasis, using jvocuhadju.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Util",
           "name": "lujvoAndRate",
           "package": "lojban",
@@ -1378,6 +1491,7 @@
         "index": {
           "description": "Tries to construct and rate lujvo from selfrasis using jvocuhadju",
           "hierarchy": "Language Lojban Util",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Util",
           "name": "lujvoAndRate",
           "normalized": "[String]-\u003eIO(Either String[(Int,String)])",
@@ -1394,6 +1508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the selrafsis of a lujvo (string).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Util",
           "name": "lujvoSelrafsis",
           "package": "lojban",
@@ -1404,6 +1519,7 @@
         "index": {
           "description": "Return the selrafsis of lujvo string",
           "hierarchy": "Language Lojban Util",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Util",
           "name": "lujvoSelrafsis",
           "normalized": "JboDB-\u003eString-\u003eMaybe[JboValsi]",
@@ -1420,6 +1536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all lujvos which contain the given selrafsi.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Util",
           "name": "lujvosSelrafsi",
           "package": "lojban",
@@ -1429,6 +1546,7 @@
         "index": {
           "description": "Returns all lujvos which contain the given selrafsi",
           "hierarchy": "Language Lojban Util",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Util",
           "name": "lujvosSelrafsi",
           "normalized": "JboDB-\u003eString-\u003e[JboValsi]",
@@ -1445,6 +1563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all lujvos which contain any of the given selrafsis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Util",
           "name": "lujvosSelrafsis",
           "package": "lojban",
@@ -1454,6 +1573,7 @@
         "index": {
           "description": "Returns all lujvos which contain any of the given selrafsis",
           "hierarchy": "Language Lojban Util",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Util",
           "name": "lujvosSelrafsis",
           "normalized": "JboDB-\u003e[String]-\u003e[JboValsi]",
@@ -1470,6 +1590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all lujvos which contain all of the given selrafsis (in order).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Util",
           "name": "lujvosSelrafsis'",
           "package": "lojban",
@@ -1479,6 +1600,7 @@
         "index": {
           "description": "Returns all lujvos which contain all of the given selrafsis in order",
           "hierarchy": "Language Lojban Util",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Util",
           "name": "lujvosSelrafsis'",
           "normalized": "JboDB-\u003e[String]-\u003e[JboValsi]",
@@ -1495,6 +1617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns information about a selma'o, using mahotic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Util",
           "name": "selma'oInfo",
           "package": "lojban",
@@ -1505,6 +1628,7 @@
         "index": {
           "description": "Returns information about selma using mahotic",
           "hierarchy": "Language Lojban Util",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Util",
           "name": "selma'oInfo",
           "normalized": "String-\u003eIO(Either String String)",
@@ -1521,6 +1645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslates a lojban utterance to English using jbofihe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Util",
           "name": "translate",
           "package": "lojban",
@@ -1530,6 +1655,7 @@
         "index": {
           "description": "Translates lojban utterance to English using jbofihe",
           "hierarchy": "Language Lojban Util",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Util",
           "name": "translate",
           "normalized": "String-\u003eIO(Either String(String,String))",
@@ -1545,6 +1671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind valsi(s) by gloss, more detailed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Util",
           "name": "valsiByGloss",
           "package": "lojban",
@@ -1555,6 +1682,7 @@
         "index": {
           "description": "Find valsi by gloss more detailed",
           "hierarchy": "Language Lojban Util",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Util",
           "name": "valsiByGloss",
           "normalized": "JboDB-\u003eString-\u003e[JboValsi]",
@@ -1571,6 +1699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows the type of a word using vlatai.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:13 UTC 2014",
           "module": "Language.Lojban.Util",
           "name": "wordType",
           "package": "lojban",
@@ -1580,6 +1709,7 @@
         "index": {
           "description": "Shows the type of word using vlatai",
           "hierarchy": "Language Lojban Util",
+          "indexed": "2014-03-11T19:12:13",
           "module": "Language.Lojban.Util",
           "name": "wordType",
           "normalized": "String-\u003eIO(Either String String)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GLFW-b-demo"
+        "phrase": "GLFW-b-demo",
+        "type": "phrase"
       },
       "type": "context"
     }

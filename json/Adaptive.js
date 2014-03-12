@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Adaptive"
+        "phrase": "Adaptive",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.CircularList",
           "name": "CircularList",
           "package": "Adaptive",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive CircularList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.CircularList",
           "name": "CircularList",
           "package": "Adaptive",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.CircularList",
           "name": "CircularList",
           "package": "Adaptive",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive CircularList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.CircularList",
           "name": "CircularList",
           "package": "Adaptive",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.CircularList",
           "name": "circularList",
           "package": "Adaptive",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive CircularList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.CircularList",
           "name": "circularList",
           "normalized": "a-\u003eb(CircularList b c a)",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.CircularList",
           "name": "delete",
           "package": "Adaptive",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive CircularList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.CircularList",
           "name": "delete",
           "normalized": "CircularList a b c-\u003ea()",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.CircularList",
           "name": "insert",
           "package": "Adaptive",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive CircularList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.CircularList",
           "name": "insert",
           "normalized": "CircularList a b c-\u003ec-\u003ea(CircularList a b c)",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.CircularList",
           "name": "next",
           "package": "Adaptive",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive CircularList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.CircularList",
           "name": "next",
           "normalized": "CircularList a b c-\u003ea(CircularList a b c)",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.CircularList",
           "name": "previous",
           "package": "Adaptive",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive CircularList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.CircularList",
           "name": "previous",
           "normalized": "CircularList a b c-\u003ea(CircularList a b c)",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.CircularList",
           "name": "update",
           "package": "Adaptive",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive CircularList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.CircularList",
           "name": "update",
           "normalized": "CircularList a b c-\u003ec-\u003ea()",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.CircularList",
           "name": "val",
           "package": "Adaptive",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive CircularList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.CircularList",
           "name": "val",
           "normalized": "CircularList a b c-\u003ea c",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.MonadUtil",
           "name": "MonadUtil",
           "package": "Adaptive",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive MonadUtil",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.MonadUtil",
           "name": "MonadUtil",
           "package": "Adaptive",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.MonadUtil",
           "name": "ifM",
           "package": "Adaptive",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive MonadUtil",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.MonadUtil",
           "name": "ifM",
           "normalized": "a Bool-\u003ea b-\u003ea b-\u003ea b",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.MonadUtil",
           "name": "unlessM",
           "package": "Adaptive",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive MonadUtil",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.MonadUtil",
           "name": "unlessM",
           "normalized": "a Bool-\u003ea()-\u003ea()",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.MonadUtil",
           "name": "whenM",
           "package": "Adaptive",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive MonadUtil",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.MonadUtil",
           "name": "whenM",
           "normalized": "a Bool-\u003ea()-\u003ea()",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "OrderedList",
           "package": "Adaptive",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive OrderedList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "OrderedList",
           "package": "Adaptive",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "OrderedList",
           "package": "Adaptive",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive OrderedList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "OrderedList",
           "package": "Adaptive",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "Record",
           "package": "Adaptive",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive OrderedList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "Record",
           "package": "Adaptive",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "base",
           "package": "Adaptive",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive OrderedList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "base",
           "package": "Adaptive",
@@ -396,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "delete",
           "package": "Adaptive",
@@ -405,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive OrderedList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "delete",
           "normalized": "Record a b c-\u003eOrderedList a b c()",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "deleted",
           "package": "Adaptive",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive OrderedList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "deleted",
           "normalized": "Record a b c-\u003eOrderedList a b c Bool",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "inM",
           "package": "Adaptive",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive OrderedList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "inM",
           "normalized": "a b-\u003eOrderedList a c d b",
@@ -465,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "insert",
           "package": "Adaptive",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive OrderedList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "insert",
           "normalized": "Record a b c-\u003ec-\u003eOrderedList a b c(Record a b c)",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "next",
           "package": "Adaptive",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive OrderedList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "next",
           "normalized": "Record a b c-\u003eOrderedList a b c(Record a b c)",
@@ -511,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "order",
           "package": "Adaptive",
@@ -520,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive OrderedList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "order",
           "normalized": "Record a b c-\u003eRecord a b c-\u003eOrderedList a b c Ordering",
@@ -534,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "record",
           "package": "Adaptive",
@@ -543,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive OrderedList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "record",
           "normalized": "Record a b c-\u003eOrderedList a b c(Bool,Integer,c)",
@@ -557,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "run",
           "package": "Adaptive",
@@ -566,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive OrderedList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "run",
           "normalized": "OrderedList a b c d-\u003ea d",
@@ -580,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "rval",
           "package": "Adaptive",
@@ -589,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive OrderedList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "rval",
           "normalized": "Record a b c-\u003eOrderedList a b c c",
@@ -603,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "spliceOut",
           "package": "Adaptive",
@@ -612,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive OrderedList",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.OrderedList",
           "name": "spliceOut",
           "normalized": "Record a b c-\u003eRecord a b c-\u003eOrderedList a b c()",
@@ -627,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.PriorityQueue",
           "name": "PriorityQueue",
           "package": "Adaptive",
@@ -635,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive PriorityQueue",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.PriorityQueue",
           "name": "PriorityQueue",
           "package": "Adaptive",
@@ -648,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.PriorityQueue",
           "name": "PriorityQueue",
           "package": "Adaptive",
@@ -656,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive PriorityQueue",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.PriorityQueue",
           "name": "PriorityQueue",
           "package": "Adaptive",
@@ -669,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.PriorityQueue",
           "name": "empty",
           "package": "Adaptive",
@@ -678,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive PriorityQueue",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.PriorityQueue",
           "name": "empty",
           "package": "Adaptive",
@@ -690,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.PriorityQueue",
           "name": "insert",
           "package": "Adaptive",
@@ -699,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive PriorityQueue",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.PriorityQueue",
           "name": "insert",
           "normalized": "a-\u003ePriorityQueue a-\u003ePriorityQueue a",
@@ -713,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.PriorityQueue",
           "name": "insertM",
           "package": "Adaptive",
@@ -722,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive PriorityQueue",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.PriorityQueue",
           "name": "insertM",
           "normalized": "(a-\u003ea-\u003eb Ordering)-\u003ea-\u003ePriorityQueue a-\u003eb(PriorityQueue a)",
@@ -736,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.PriorityQueue",
           "name": "min",
           "package": "Adaptive",
@@ -745,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive PriorityQueue",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.PriorityQueue",
           "name": "min",
           "normalized": "PriorityQueue a-\u003eMaybe(a,PriorityQueue a)",
@@ -759,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.Ref",
           "name": "Ref",
           "package": "Adaptive",
@@ -767,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive Ref",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.Ref",
           "name": "Ref",
           "package": "Adaptive",
@@ -780,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.Ref",
           "name": "EqRef",
           "package": "Adaptive",
@@ -788,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive Ref",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.Ref",
           "name": "EqRef",
           "package": "Adaptive",
@@ -801,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.Ref",
           "name": "Ref",
           "package": "Adaptive",
@@ -809,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive Ref",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.Ref",
           "name": "Ref",
           "package": "Adaptive",
@@ -822,6 +894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.Ref",
           "name": "eqRef",
           "package": "Adaptive",
@@ -831,6 +904,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive Ref",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.Ref",
           "name": "eqRef",
           "normalized": "a b-\u003ea b-\u003eBool",
@@ -846,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.Ref",
           "name": "mapRef",
           "package": "Adaptive",
@@ -855,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive Ref",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.Ref",
           "name": "mapRef",
           "normalized": "(a-\u003ea)-\u003eb a-\u003ec()",
@@ -870,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.Ref",
           "name": "newRef",
           "package": "Adaptive",
@@ -879,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive Ref",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.Ref",
           "name": "newRef",
           "normalized": "a-\u003eb(c a)",
@@ -894,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.Ref",
           "name": "readRef",
           "package": "Adaptive",
@@ -903,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive Ref",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.Ref",
           "name": "readRef",
           "normalized": "a b-\u003ec b",
@@ -918,6 +998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive.Ref",
           "name": "writeRef",
           "package": "Adaptive",
@@ -927,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive Ref",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive.Ref",
           "name": "writeRef",
           "normalized": "a b-\u003eb-\u003ec()",
@@ -942,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive",
           "name": "Adaptive",
           "package": "Adaptive",
@@ -950,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive",
           "name": "Adaptive",
           "package": "Adaptive",
@@ -963,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive",
           "name": "Adaptive",
           "package": "Adaptive",
@@ -971,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive",
           "name": "Adaptive",
           "package": "Adaptive",
@@ -984,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive",
           "name": "Changeable",
           "package": "Adaptive",
@@ -992,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive",
           "name": "Changeable",
           "package": "Adaptive",
@@ -1005,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive",
           "name": "InM",
           "package": "Adaptive",
@@ -1013,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive",
           "name": "InM",
           "package": "Adaptive",
@@ -1026,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive",
           "name": "Modifiable",
           "package": "Adaptive",
@@ -1034,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive",
           "name": "Modifiable",
           "package": "Adaptive",
@@ -1047,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive",
           "name": "NewMod",
           "package": "Adaptive",
@@ -1055,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive",
           "name": "NewMod",
           "package": "Adaptive",
@@ -1068,6 +1162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive",
           "name": "change",
           "package": "Adaptive",
@@ -1077,6 +1172,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive",
           "name": "change",
           "normalized": "Modifiable a b c-\u003ec-\u003eAdaptive a b()",
@@ -1091,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive",
           "name": "inCh",
           "package": "Adaptive",
@@ -1100,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive",
           "name": "inCh",
           "normalized": "Changeable a b c-\u003eAdaptive a b c",
@@ -1115,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive",
           "name": "inM",
           "package": "Adaptive",
@@ -1124,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive",
           "name": "inM",
           "normalized": "a b-\u003ec a d b",
@@ -1138,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive",
           "name": "newMod",
           "package": "Adaptive",
@@ -1147,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive",
           "name": "newMod",
           "normalized": "Changeable a b c-\u003ed a b(Modifiable a b c)",
@@ -1162,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive",
           "name": "newModBy",
           "package": "Adaptive",
@@ -1171,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive",
           "name": "newModBy",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eChangeable b c a-\u003ed b c(Modifiable b c a)",
@@ -1186,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive",
           "name": "propagate",
           "package": "Adaptive",
@@ -1195,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive",
           "name": "propagate",
           "normalized": "Adaptive a b()",
@@ -1209,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive",
           "name": "readMod",
           "package": "Adaptive",
@@ -1218,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive",
           "name": "readMod",
           "normalized": "Modifiable a b c-\u003eChangeable a b c",
@@ -1233,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:49 UTC 2014",
           "module": "Control.Monad.Adaptive",
           "name": "run",
           "package": "Adaptive",
@@ -1242,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Adaptive",
+          "indexed": "2014-03-11T16:32:49",
           "module": "Control.Monad.Adaptive",
           "name": "run",
           "normalized": "Adaptive a b c-\u003ea c",

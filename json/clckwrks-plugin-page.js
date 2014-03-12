@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "clckwrks-plugin-page"
+        "phrase": "clckwrks-plugin-page",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.API",
           "name": "API",
           "package": "clckwrks-plugin-page",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page API",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.API",
           "name": "API",
           "package": "clckwrks-plugin-page",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.API",
           "name": "PageId",
           "package": "clckwrks-plugin-page",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page API",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.API",
           "name": "PageId",
           "package": "clckwrks-plugin-page",
@@ -83,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.API",
           "name": "extractExcerpt",
           "package": "clckwrks-plugin-page",
@@ -92,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page API",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.API",
           "name": "extractExcerpt",
           "normalized": "Page-\u003eClckT a b Content",
@@ -107,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.API",
           "name": "getBlogTitle",
           "package": "clckwrks-plugin-page",
@@ -116,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page API",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.API",
           "name": "getBlogTitle",
           "package": "clckwrks-plugin-page",
@@ -129,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.API",
           "name": "getPageMenu",
           "package": "clckwrks-plugin-page",
@@ -138,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page API",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.API",
           "name": "getPageMenu",
           "package": "clckwrks-plugin-page",
@@ -151,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.API",
           "name": "getPageSummary",
           "package": "clckwrks-plugin-page",
@@ -160,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page API",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.API",
           "name": "getPageSummary",
           "normalized": "PageId-\u003ePageM Content",
@@ -175,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.API",
           "name": "getPagesSummary",
           "package": "clckwrks-plugin-page",
@@ -184,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page API",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.API",
           "name": "getPagesSummary",
           "normalized": "PageM[(PageId,Text,Maybe Slug,UTCTime,UserId,PublishStatus)]",
@@ -199,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.API",
           "name": "getPosts",
           "package": "clckwrks-plugin-page",
@@ -208,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page API",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.API",
           "name": "getPosts",
           "normalized": "XMLGenT PageM[Page]",
@@ -223,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.API",
           "name": "googleAnalytics",
           "package": "clckwrks-plugin-page",
@@ -232,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page API",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.API",
           "name": "googleAnalytics",
           "package": "clckwrks-plugin-page",
@@ -268,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "Acid",
           "package": "clckwrks-plugin-page",
@@ -276,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "Acid",
           "package": "clckwrks-plugin-page",
@@ -289,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "AllPosts",
           "package": "clckwrks-plugin-page",
@@ -297,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "AllPosts",
           "package": "clckwrks-plugin-page",
@@ -310,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "AllPublishedPages",
           "package": "clckwrks-plugin-page",
@@ -318,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "AllPublishedPages",
           "package": "clckwrks-plugin-page",
@@ -331,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "ClearOldUACCT",
           "package": "clckwrks-plugin-page",
@@ -339,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "ClearOldUACCT",
           "package": "clckwrks-plugin-page",
@@ -352,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "GetBlogTitle",
           "package": "clckwrks-plugin-page",
@@ -360,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "GetBlogTitle",
           "package": "clckwrks-plugin-page",
@@ -373,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "GetFeedConfig",
           "package": "clckwrks-plugin-page",
@@ -381,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "GetFeedConfig",
           "package": "clckwrks-plugin-page",
@@ -394,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "GetOldUACCT",
           "package": "clckwrks-plugin-page",
@@ -402,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "GetOldUACCT",
           "package": "clckwrks-plugin-page",
@@ -415,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "GetPageTitle",
           "package": "clckwrks-plugin-page",
@@ -423,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "GetPageTitle",
           "package": "clckwrks-plugin-page",
@@ -436,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "IsPublishedPage",
           "package": "clckwrks-plugin-page",
@@ -444,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "IsPublishedPage",
           "package": "clckwrks-plugin-page",
@@ -457,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "NewPage",
           "package": "clckwrks-plugin-page",
@@ -465,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "NewPage",
           "package": "clckwrks-plugin-page",
@@ -478,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "PageById",
           "package": "clckwrks-plugin-page",
@@ -486,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "PageById",
           "package": "clckwrks-plugin-page",
@@ -499,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "PageState",
           "package": "clckwrks-plugin-page",
@@ -507,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "PageState",
           "package": "clckwrks-plugin-page",
@@ -520,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "PagesSummary",
           "package": "clckwrks-plugin-page",
@@ -528,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "PagesSummary",
           "package": "clckwrks-plugin-page",
@@ -541,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "SetFeedConfig",
           "package": "clckwrks-plugin-page",
@@ -549,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "SetFeedConfig",
           "package": "clckwrks-plugin-page",
@@ -562,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "UpdatePage",
           "package": "clckwrks-plugin-page",
@@ -570,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "UpdatePage",
           "package": "clckwrks-plugin-page",
@@ -583,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "AllPosts",
           "package": "clckwrks-plugin-page",
@@ -592,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "AllPosts",
           "package": "clckwrks-plugin-page",
@@ -605,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "AllPublishedPages",
           "package": "clckwrks-plugin-page",
@@ -614,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "AllPublishedPages",
           "package": "clckwrks-plugin-page",
@@ -627,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "ClearOldUACCT",
           "package": "clckwrks-plugin-page",
@@ -636,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "ClearOldUACCT",
           "package": "clckwrks-plugin-page",
@@ -649,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "GetBlogTitle",
           "package": "clckwrks-plugin-page",
@@ -658,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "GetBlogTitle",
           "package": "clckwrks-plugin-page",
@@ -671,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "GetFeedConfig",
           "package": "clckwrks-plugin-page",
@@ -680,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "GetFeedConfig",
           "package": "clckwrks-plugin-page",
@@ -693,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "GetOldUACCT",
           "package": "clckwrks-plugin-page",
@@ -702,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "GetOldUACCT",
           "package": "clckwrks-plugin-page",
@@ -715,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "GetPageTitle",
           "package": "clckwrks-plugin-page",
@@ -724,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "GetPageTitle",
           "package": "clckwrks-plugin-page",
@@ -737,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "IsPublishedPage",
           "package": "clckwrks-plugin-page",
@@ -746,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "IsPublishedPage",
           "package": "clckwrks-plugin-page",
@@ -759,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "NewPage",
           "package": "clckwrks-plugin-page",
@@ -768,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "NewPage",
           "package": "clckwrks-plugin-page",
@@ -781,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "PageById",
           "package": "clckwrks-plugin-page",
@@ -790,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "PageById",
           "package": "clckwrks-plugin-page",
@@ -803,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "PagesSummary",
           "package": "clckwrks-plugin-page",
@@ -812,6 +881,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "PagesSummary",
           "package": "clckwrks-plugin-page",
@@ -825,6 +895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "SetFeedConfig",
           "package": "clckwrks-plugin-page",
@@ -834,6 +905,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "SetFeedConfig",
           "package": "clckwrks-plugin-page",
@@ -847,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "UpdatePage",
           "package": "clckwrks-plugin-page",
@@ -856,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "UpdatePage",
           "package": "clckwrks-plugin-page",
@@ -869,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Acid",
           "name": "initialPageState",
           "package": "clckwrks-plugin-page",
@@ -878,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Acid",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Acid",
           "name": "initialPageState",
           "package": "clckwrks-plugin-page",
@@ -891,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Admin.EditFeedConfig",
           "name": "EditFeedConfig",
           "package": "clckwrks-plugin-page",
@@ -899,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Admin EditFeedConfig",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Admin.EditFeedConfig",
           "name": "EditFeedConfig",
           "package": "clckwrks-plugin-page",
@@ -912,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Admin.EditFeedConfig",
           "name": "editFeedConfig",
           "package": "clckwrks-plugin-page",
@@ -921,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Admin EditFeedConfig",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Admin.EditFeedConfig",
           "name": "editFeedConfig",
           "normalized": "PageURL-\u003ePageM Response",
@@ -936,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Admin.EditFeedConfig",
           "name": "feedConfigForm",
           "package": "clckwrks-plugin-page",
@@ -945,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Admin EditFeedConfig",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Admin.EditFeedConfig",
           "name": "feedConfigForm",
           "normalized": "FeedConfig-\u003ePageForm FeedConfig",
@@ -960,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Admin.EditPage",
           "name": "EditPage",
           "package": "clckwrks-plugin-page",
@@ -968,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Admin EditPage",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Admin.EditPage",
           "name": "EditPage",
           "package": "clckwrks-plugin-page",
@@ -981,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Admin.EditPage",
           "name": "editPage",
           "package": "clckwrks-plugin-page",
@@ -990,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Admin EditPage",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Admin.EditPage",
           "name": "editPage",
           "normalized": "PageURL-\u003ePageId-\u003ePageM Response",
@@ -1005,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Admin.NewPage",
           "name": "NewPage",
           "package": "clckwrks-plugin-page",
@@ -1013,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Admin NewPage",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Admin.NewPage",
           "name": "NewPage",
           "package": "clckwrks-plugin-page",
@@ -1026,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Admin.NewPage",
           "name": "newPage",
           "package": "clckwrks-plugin-page",
@@ -1035,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Admin NewPage",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Admin.NewPage",
           "name": "newPage",
           "normalized": "PageKind-\u003ePageM Response",
@@ -1050,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Admin.Pages",
           "name": "Pages",
           "package": "clckwrks-plugin-page",
@@ -1058,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Admin Pages",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Admin.Pages",
           "name": "Pages",
           "package": "clckwrks-plugin-page",
@@ -1071,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Admin.Pages",
           "name": "editList",
           "package": "clckwrks-plugin-page",
@@ -1080,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Admin Pages",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Admin.Pages",
           "name": "editList",
           "normalized": "[(PageId,Text,Maybe Slug,UTCTime,UserId,PublishStatus)]-\u003eGenChildList PageM",
@@ -1095,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Admin.Pages",
           "name": "pages",
           "package": "clckwrks-plugin-page",
@@ -1104,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Admin Pages",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Admin.Pages",
           "name": "pages",
           "package": "clckwrks-plugin-page",
@@ -1116,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Admin.PreviewPage",
           "name": "PreviewPage",
           "package": "clckwrks-plugin-page",
@@ -1124,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Admin PreviewPage",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Admin.PreviewPage",
           "name": "PreviewPage",
           "package": "clckwrks-plugin-page",
@@ -1137,6 +1235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Admin.PreviewPage",
           "name": "previewPage",
           "package": "clckwrks-plugin-page",
@@ -1146,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Admin PreviewPage",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Admin.PreviewPage",
           "name": "previewPage",
           "normalized": "PageId-\u003ePageM Response",
@@ -1161,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Atom",
           "name": "Atom",
           "package": "clckwrks-plugin-page",
@@ -1169,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Atom",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Atom",
           "name": "Atom",
           "package": "clckwrks-plugin-page",
@@ -1182,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Atom",
           "name": "atom",
           "package": "clckwrks-plugin-page",
@@ -1191,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Atom",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Atom",
           "name": "atom",
           "normalized": "FeedConfig-\u003e[Page]-\u003ePageM XML",
@@ -1205,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Atom",
           "name": "atomContent",
           "package": "clckwrks-plugin-page",
@@ -1214,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Atom",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Atom",
           "name": "atomContent",
           "normalized": "Markup-\u003ePageM XML",
@@ -1229,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Atom",
           "name": "atomDate",
           "package": "clckwrks-plugin-page",
@@ -1238,6 +1345,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Atom",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Atom",
           "name": "atomDate",
           "normalized": "UTCTime-\u003eString",
@@ -1253,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Atom",
           "name": "entry",
           "package": "clckwrks-plugin-page",
@@ -1262,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Atom",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Atom",
           "name": "entry",
           "normalized": "Page-\u003ePageM XML",
@@ -1276,6 +1386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Atom",
           "name": "handleAtomFeed",
           "package": "clckwrks-plugin-page",
@@ -1285,6 +1396,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Atom",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Atom",
           "name": "handleAtomFeed",
           "package": "clckwrks-plugin-page",
@@ -1298,6 +1410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Atom",
           "name": "mostRecentUpdate",
           "package": "clckwrks-plugin-page",
@@ -1307,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Atom",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Atom",
           "name": "mostRecentUpdate",
           "normalized": "[Page]-\u003eUTCTime",
@@ -1322,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.BlogPage",
           "name": "BlogPage",
           "package": "clckwrks-plugin-page",
@@ -1330,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page BlogPage",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.BlogPage",
           "name": "BlogPage",
           "package": "clckwrks-plugin-page",
@@ -1343,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.BlogPage",
           "name": "blog",
           "package": "clckwrks-plugin-page",
@@ -1352,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page BlogPage",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.BlogPage",
           "name": "blog",
           "package": "clckwrks-plugin-page",
@@ -1364,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.BlogPage",
           "name": "postHTML",
           "package": "clckwrks-plugin-page",
@@ -1373,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page BlogPage",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.BlogPage",
           "name": "postHTML",
           "normalized": "Page-\u003eXMLGenT PageM XML",
@@ -1388,6 +1508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.BlogPage",
           "name": "postsHTML",
           "package": "clckwrks-plugin-page",
@@ -1397,6 +1518,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page BlogPage",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.BlogPage",
           "name": "postsHTML",
           "package": "clckwrks-plugin-page",
@@ -1410,6 +1532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Monad",
           "name": "Monad",
           "package": "clckwrks-plugin-page",
@@ -1418,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Monad",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Monad",
           "name": "Monad",
           "package": "clckwrks-plugin-page",
@@ -1431,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Monad",
           "name": "PageAdminM",
           "package": "clckwrks-plugin-page",
@@ -1439,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Monad",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Monad",
           "name": "PageAdminM",
           "package": "clckwrks-plugin-page",
@@ -1452,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Monad",
           "name": "PageConfig",
           "package": "clckwrks-plugin-page",
@@ -1460,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Monad",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Monad",
           "name": "PageConfig",
           "package": "clckwrks-plugin-page",
@@ -1473,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Monad",
           "name": "PageForm",
           "package": "clckwrks-plugin-page",
@@ -1481,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Monad",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Monad",
           "name": "PageForm",
           "package": "clckwrks-plugin-page",
@@ -1494,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Monad",
           "name": "PageFormError",
           "package": "clckwrks-plugin-page",
@@ -1502,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Monad",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Monad",
           "name": "PageFormError",
           "package": "clckwrks-plugin-page",
@@ -1515,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Monad",
           "name": "PageM",
           "package": "clckwrks-plugin-page",
@@ -1523,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Monad",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Monad",
           "name": "PageM",
           "package": "clckwrks-plugin-page",
@@ -1536,6 +1670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Monad",
           "name": "PageT",
           "package": "clckwrks-plugin-page",
@@ -1544,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Monad",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Monad",
           "name": "PageT",
           "package": "clckwrks-plugin-page",
@@ -1557,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Monad",
           "name": "PageT'",
           "package": "clckwrks-plugin-page",
@@ -1565,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Monad",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Monad",
           "name": "PageT'",
           "package": "clckwrks-plugin-page",
@@ -1578,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Monad",
           "name": "PageCFE",
           "package": "clckwrks-plugin-page",
@@ -1587,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Monad",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Monad",
           "name": "PageCFE",
           "normalized": "PageCFE(CommonFormError[Input])",
@@ -1602,6 +1742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Monad",
           "name": "PageConfig",
           "package": "clckwrks-plugin-page",
@@ -1611,6 +1752,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Monad",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Monad",
           "name": "PageConfig",
           "package": "clckwrks-plugin-page",
@@ -1624,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Monad",
           "name": "PageErrorInternal",
           "package": "clckwrks-plugin-page",
@@ -1633,6 +1776,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Monad",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Monad",
           "name": "PageErrorInternal",
           "package": "clckwrks-plugin-page",
@@ -1646,6 +1790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Monad",
           "name": "clckT2PageT",
           "package": "clckwrks-plugin-page",
@@ -1655,6 +1800,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Monad",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Monad",
           "name": "clckT2PageT",
           "normalized": "ClckT a b c-\u003ePageT b c",
@@ -1670,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Monad",
           "name": "flattenURLClckT",
           "package": "clckwrks-plugin-page",
@@ -1679,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Monad",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Monad",
           "name": "flattenURLClckT",
           "normalized": "(a-\u003e[(Text,Maybe Text)]-\u003eText)-\u003eClckT a b c-\u003eClckT a b c",
@@ -1695,6 +1843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert \u003ccode\u003e\u003ca\u003eMarkup\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eContent\u003c/a\u003e\u003c/code\u003e that can be embedded. Generally by running the pre-processors needed.\n markupToContent :: (Functor m, MonadIO m, Happstack m) =\u003e Markup -\u003e ClckT url m Content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Monad",
           "name": "markupToContent",
           "package": "clckwrks-plugin-page",
@@ -1705,6 +1854,7 @@
         "index": {
           "description": "convert Markup to Content that can be embedded Generally by running the pre-processors needed markupToContent Functor MonadIO Happstack Markup ClckT url Content",
           "hierarchy": "Clckwrks Page Monad",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Monad",
           "name": "markupToContent",
           "normalized": "Markup-\u003eClckT a b Content",
@@ -1720,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Monad",
           "name": "pageClckURL",
           "package": "clckwrks-plugin-page",
@@ -1729,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Monad",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Monad",
           "name": "pageClckURL",
           "normalized": "ClckURL-\u003e[(Text,Maybe Text)]-\u003eText",
@@ -1744,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Monad",
           "name": "pageState",
           "package": "clckwrks-plugin-page",
@@ -1753,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Monad",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Monad",
           "name": "pageState",
           "package": "clckwrks-plugin-page",
@@ -1766,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Monad",
           "name": "runPageT",
           "package": "clckwrks-plugin-page",
@@ -1775,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Monad",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Monad",
           "name": "runPageT",
           "normalized": "PageConfig-\u003ePageT a b-\u003eClckT PageURL a b",
@@ -1790,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Monad",
           "name": "runPageT''",
           "package": "clckwrks-plugin-page",
@@ -1799,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Monad",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Monad",
           "name": "runPageT''",
           "normalized": "(PageURL-\u003e[(Text,Maybe Text)]-\u003eText)-\u003ePageConfig-\u003ePageT a b-\u003eClckT c a b",
@@ -1814,6 +1972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.NavBarCallback",
           "name": "NavBarCallback",
           "package": "clckwrks-plugin-page",
@@ -1822,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page NavBarCallback",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.NavBarCallback",
           "name": "NavBarCallback",
           "package": "clckwrks-plugin-page",
@@ -1835,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.NavBarCallback",
           "name": "navBarCallback",
           "package": "clckwrks-plugin-page",
@@ -1844,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page NavBarCallback",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.NavBarCallback",
           "name": "navBarCallback",
           "normalized": "AcidState PageState-\u003e(PageURL-\u003e[(Text,Maybe Text)]-\u003eText)-\u003eClckT ClckURL IO(String,[NamedLink])",
@@ -1859,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Plugin",
           "name": "Plugin",
           "package": "clckwrks-plugin-page",
@@ -1867,6 +2030,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Plugin",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Plugin",
           "name": "Plugin",
           "package": "clckwrks-plugin-page",
@@ -1880,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Plugin",
           "name": "addPageAdminMenu",
           "package": "clckwrks-plugin-page",
@@ -1889,6 +2054,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Plugin",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Plugin",
           "name": "addPageAdminMenu",
           "normalized": "ClckT a IO()",
@@ -1904,6 +2070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Plugin",
           "name": "migrateUACCT",
           "package": "clckwrks-plugin-page",
@@ -1913,6 +2080,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Plugin",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Plugin",
           "name": "migrateUACCT",
           "normalized": "AcidState PageState-\u003eClckT a IO()",
@@ -1928,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Plugin",
           "name": "pageHandler",
           "package": "clckwrks-plugin-page",
@@ -1937,6 +2106,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Plugin",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Plugin",
           "name": "pageHandler",
           "normalized": "(PageURL-\u003e[(Text,Maybe Text)]-\u003eText)-\u003ePageConfig-\u003eClckPlugins-\u003e[Text]-\u003eClckT ClckURL(ServerPartT IO)Response",
@@ -1952,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Plugin",
           "name": "pageInit",
           "package": "clckwrks-plugin-page",
@@ -1961,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Plugin",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Plugin",
           "name": "pageInit",
           "normalized": "ClckPlugins-\u003eIO(Maybe Text)",
@@ -1976,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Plugin",
           "name": "pagePlugin",
           "package": "clckwrks-plugin-page",
@@ -1985,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Plugin",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Plugin",
           "name": "pagePlugin",
           "normalized": "Plugin PageURL Theme(ClckT ClckURL(ServerPartT IO)Response)(ClckT ClckURL IO())ClckwrksConfig ClckPluginsSt",
@@ -2000,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Plugin",
           "name": "plugin",
           "package": "clckwrks-plugin-page",
@@ -2008,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Plugin",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Plugin",
           "name": "plugin",
           "normalized": "ClckPlugins-\u003eText-\u003eIO(Maybe Text)",
@@ -2022,6 +2198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.PreProcess",
           "name": "PreProcess",
           "package": "clckwrks-plugin-page",
@@ -2030,6 +2207,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page PreProcess",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.PreProcess",
           "name": "PreProcess",
           "package": "clckwrks-plugin-page",
@@ -2043,6 +2221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.PreProcess",
           "name": "PageCmd",
           "package": "clckwrks-plugin-page",
@@ -2051,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page PreProcess",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.PreProcess",
           "name": "PageCmd",
           "package": "clckwrks-plugin-page",
@@ -2064,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.PreProcess",
           "name": "PageLink",
           "package": "clckwrks-plugin-page",
@@ -2073,6 +2254,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page PreProcess",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.PreProcess",
           "name": "PageLink",
           "package": "clckwrks-plugin-page",
@@ -2086,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.PreProcess",
           "name": "PageTitle",
           "package": "clckwrks-plugin-page",
@@ -2095,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page PreProcess",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.PreProcess",
           "name": "PageTitle",
           "package": "clckwrks-plugin-page",
@@ -2108,6 +2292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.PreProcess",
           "name": "applyCmd",
           "package": "clckwrks-plugin-page",
@@ -2117,6 +2302,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page PreProcess",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.PreProcess",
           "name": "applyCmd",
           "normalized": "AcidState(EventState GetPageTitle)-\u003e(PageURL-\u003e[a]-\u003eText)-\u003ePageCmd-\u003eb Builder",
@@ -2132,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.PreProcess",
           "name": "pageCmd",
           "package": "clckwrks-plugin-page",
@@ -2141,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page PreProcess",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.PreProcess",
           "name": "pageCmd",
           "normalized": "AcidState PageState-\u003e(PageURL-\u003e[(Text,Maybe Text)]-\u003eText)-\u003eText-\u003eClckT a b Text",
@@ -2156,6 +2344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.PreProcess",
           "name": "parseAttr",
           "package": "clckwrks-plugin-page",
@@ -2165,6 +2354,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page PreProcess",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.PreProcess",
           "name": "parseAttr",
           "normalized": "Text-\u003eParser()",
@@ -2180,6 +2370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.PreProcess",
           "name": "parseCmd",
           "package": "clckwrks-plugin-page",
@@ -2189,6 +2380,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page PreProcess",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.PreProcess",
           "name": "parseCmd",
           "package": "clckwrks-plugin-page",
@@ -2202,6 +2394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.PreProcess",
           "name": "qchar",
           "package": "clckwrks-plugin-page",
@@ -2211,6 +2404,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page PreProcess",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.PreProcess",
           "name": "qchar",
           "package": "clckwrks-plugin-page",
@@ -2223,6 +2417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.PreProcess",
           "name": "qtext",
           "package": "clckwrks-plugin-page",
@@ -2232,6 +2427,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page PreProcess",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.PreProcess",
           "name": "qtext",
           "package": "clckwrks-plugin-page",
@@ -2244,6 +2440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.PreProcess",
           "name": "text",
           "package": "clckwrks-plugin-page",
@@ -2253,6 +2450,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page PreProcess",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.PreProcess",
           "name": "text",
           "package": "clckwrks-plugin-page",
@@ -2265,6 +2463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Route",
           "name": "Route",
           "package": "clckwrks-plugin-page",
@@ -2273,6 +2472,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Route",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Route",
           "name": "Route",
           "package": "clckwrks-plugin-page",
@@ -2286,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Route",
           "name": "checkAuth",
           "package": "clckwrks-plugin-page",
@@ -2295,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Route",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Route",
           "name": "checkAuth",
           "normalized": "PageURL-\u003ePageM PageURL",
@@ -2310,6 +2512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Route",
           "name": "routePage",
           "package": "clckwrks-plugin-page",
@@ -2319,6 +2522,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Route",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Route",
           "name": "routePage",
           "normalized": "PageURL-\u003ePageM Response",
@@ -2335,6 +2539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eroutes for \u003ccode\u003eAdminURL\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Route",
           "name": "routePageAdmin",
           "package": "clckwrks-plugin-page",
@@ -2345,6 +2550,7 @@
         "index": {
           "description": "routes for AdminURL",
           "hierarchy": "Clckwrks Page Route",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Route",
           "name": "routePageAdmin",
           "normalized": "PageAdminURL-\u003ePageM Response",
@@ -2360,6 +2566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "Types",
           "package": "clckwrks-plugin-page",
@@ -2368,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "Types",
           "package": "clckwrks-plugin-page",
@@ -2381,6 +2589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "FeedConfig",
           "package": "clckwrks-plugin-page",
@@ -2389,6 +2598,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "FeedConfig",
           "package": "clckwrks-plugin-page",
@@ -2402,6 +2612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "Markup",
           "package": "clckwrks-plugin-page",
@@ -2410,6 +2621,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "Markup",
           "package": "clckwrks-plugin-page",
@@ -2423,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "Markup_001",
           "package": "clckwrks-plugin-page",
@@ -2431,6 +2644,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "Markup_001",
           "package": "clckwrks-plugin-page",
@@ -2444,6 +2658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "Page",
           "package": "clckwrks-plugin-page",
@@ -2452,6 +2667,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "Page",
           "package": "clckwrks-plugin-page",
@@ -2465,6 +2681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "PageId",
           "package": "clckwrks-plugin-page",
@@ -2473,6 +2690,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "PageId",
           "package": "clckwrks-plugin-page",
@@ -2486,6 +2704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "PageKind",
           "package": "clckwrks-plugin-page",
@@ -2494,6 +2713,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "PageKind",
           "package": "clckwrks-plugin-page",
@@ -2507,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "Page_001",
           "package": "clckwrks-plugin-page",
@@ -2515,6 +2736,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "Page_001",
           "package": "clckwrks-plugin-page",
@@ -2528,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "Page_002",
           "package": "clckwrks-plugin-page",
@@ -2536,6 +2759,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "Page_002",
           "package": "clckwrks-plugin-page",
@@ -2549,6 +2773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "Page_3",
           "package": "clckwrks-plugin-page",
@@ -2557,6 +2782,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "Page_3",
           "package": "clckwrks-plugin-page",
@@ -2570,6 +2796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "Pages",
           "package": "clckwrks-plugin-page",
@@ -2578,6 +2805,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "Pages",
           "package": "clckwrks-plugin-page",
@@ -2591,6 +2819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "PreProcessor",
           "package": "clckwrks-plugin-page",
@@ -2599,6 +2828,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "PreProcessor",
           "package": "clckwrks-plugin-page",
@@ -2612,6 +2842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "PublishStatus",
           "package": "clckwrks-plugin-page",
@@ -2620,6 +2851,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "PublishStatus",
           "package": "clckwrks-plugin-page",
@@ -2633,6 +2865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "Slug",
           "package": "clckwrks-plugin-page",
@@ -2641,6 +2874,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "Slug",
           "package": "clckwrks-plugin-page",
@@ -2654,6 +2888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "Draft",
           "package": "clckwrks-plugin-page",
@@ -2663,6 +2898,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "Draft",
           "package": "clckwrks-plugin-page",
@@ -2676,6 +2912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "FeedConfig",
           "package": "clckwrks-plugin-page",
@@ -2685,6 +2922,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "FeedConfig",
           "package": "clckwrks-plugin-page",
@@ -2698,6 +2936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "HsColour",
           "package": "clckwrks-plugin-page",
@@ -2707,6 +2946,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "HsColour",
           "package": "clckwrks-plugin-page",
@@ -2720,6 +2960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "Markdown",
           "package": "clckwrks-plugin-page",
@@ -2729,6 +2970,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "Markdown",
           "package": "clckwrks-plugin-page",
@@ -2742,6 +2984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "Markup",
           "package": "clckwrks-plugin-page",
@@ -2751,6 +2994,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "Markup",
           "package": "clckwrks-plugin-page",
@@ -2764,6 +3008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "Markup_001",
           "package": "clckwrks-plugin-page",
@@ -2773,6 +3018,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "Markup_001",
           "package": "clckwrks-plugin-page",
@@ -2786,6 +3032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "Page",
           "package": "clckwrks-plugin-page",
@@ -2795,6 +3042,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "Page",
           "package": "clckwrks-plugin-page",
@@ -2808,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "Page_001",
           "package": "clckwrks-plugin-page",
@@ -2817,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "Page_001",
           "package": "clckwrks-plugin-page",
@@ -2830,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "Page_002",
           "package": "clckwrks-plugin-page",
@@ -2839,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "Page_002",
           "package": "clckwrks-plugin-page",
@@ -2852,6 +3104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "Page_3",
           "package": "clckwrks-plugin-page",
@@ -2861,6 +3114,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "Page_3",
           "package": "clckwrks-plugin-page",
@@ -2874,6 +3128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "PlainPage",
           "package": "clckwrks-plugin-page",
@@ -2883,6 +3138,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "PlainPage",
           "package": "clckwrks-plugin-page",
@@ -2896,6 +3152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "Post",
           "package": "clckwrks-plugin-page",
@@ -2905,6 +3162,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "Post",
           "package": "clckwrks-plugin-page",
@@ -2918,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "Published",
           "package": "clckwrks-plugin-page",
@@ -2927,6 +3186,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "Published",
           "package": "clckwrks-plugin-page",
@@ -2940,6 +3200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "Revoked",
           "package": "clckwrks-plugin-page",
@@ -2949,6 +3210,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "Revoked",
           "package": "clckwrks-plugin-page",
@@ -2962,6 +3224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "Scheduled",
           "package": "clckwrks-plugin-page",
@@ -2971,6 +3234,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "Scheduled",
           "package": "clckwrks-plugin-page",
@@ -2984,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "Slug",
           "package": "clckwrks-plugin-page",
@@ -2993,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "Slug",
           "package": "clckwrks-plugin-page",
@@ -3006,6 +3272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "feedAuthorName",
           "package": "clckwrks-plugin-page",
@@ -3015,6 +3282,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "feedAuthorName",
           "package": "clckwrks-plugin-page",
@@ -3028,6 +3296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "feedLink",
           "package": "clckwrks-plugin-page",
@@ -3037,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "feedLink",
           "package": "clckwrks-plugin-page",
@@ -3050,6 +3320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "feedTitle",
           "package": "clckwrks-plugin-page",
@@ -3059,6 +3330,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "feedTitle",
           "package": "clckwrks-plugin-page",
@@ -3073,6 +3345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUUID which identifies this feed. Should probably never change\n    , feedCategory :: Set Text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "feedUUID",
           "package": "clckwrks-plugin-page",
@@ -3083,6 +3356,7 @@
         "index": {
           "description": "UUID which identifies this feed Should probably never change feedCategory Set Text",
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "feedUUID",
           "package": "clckwrks-plugin-page",
@@ -3096,6 +3370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "initialFeedConfig",
           "package": "clckwrks-plugin-page",
@@ -3105,6 +3380,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "initialFeedConfig",
           "package": "clckwrks-plugin-page",
@@ -3118,6 +3394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "markup",
           "package": "clckwrks-plugin-page",
@@ -3127,6 +3404,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "markup",
           "package": "clckwrks-plugin-page",
@@ -3139,6 +3417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "markup_001",
           "package": "clckwrks-plugin-page",
@@ -3148,6 +3427,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "markup_001",
           "package": "clckwrks-plugin-page",
@@ -3160,6 +3440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageAuthor",
           "package": "clckwrks-plugin-page",
@@ -3169,6 +3450,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageAuthor",
           "package": "clckwrks-plugin-page",
@@ -3182,6 +3464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageAuthor_002",
           "package": "clckwrks-plugin-page",
@@ -3191,6 +3474,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageAuthor_002",
           "package": "clckwrks-plugin-page",
@@ -3204,6 +3488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageAuthor_3",
           "package": "clckwrks-plugin-page",
@@ -3213,6 +3498,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageAuthor_3",
           "package": "clckwrks-plugin-page",
@@ -3226,6 +3512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageDate",
           "package": "clckwrks-plugin-page",
@@ -3235,6 +3522,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageDate",
           "package": "clckwrks-plugin-page",
@@ -3248,6 +3536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageDate_001",
           "package": "clckwrks-plugin-page",
@@ -3257,6 +3546,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageDate_001",
           "package": "clckwrks-plugin-page",
@@ -3270,6 +3560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageDate_002",
           "package": "clckwrks-plugin-page",
@@ -3279,6 +3570,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageDate_002",
           "package": "clckwrks-plugin-page",
@@ -3292,6 +3584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageDate_3",
           "package": "clckwrks-plugin-page",
@@ -3301,6 +3594,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageDate_3",
           "package": "clckwrks-plugin-page",
@@ -3314,6 +3608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageExcerpt",
           "package": "clckwrks-plugin-page",
@@ -3323,6 +3618,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageExcerpt",
           "package": "clckwrks-plugin-page",
@@ -3336,6 +3632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageExcerpt_001",
           "package": "clckwrks-plugin-page",
@@ -3345,6 +3642,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageExcerpt_001",
           "package": "clckwrks-plugin-page",
@@ -3358,6 +3656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageExcerpt_002",
           "package": "clckwrks-plugin-page",
@@ -3367,6 +3666,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageExcerpt_002",
           "package": "clckwrks-plugin-page",
@@ -3380,6 +3680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageExcerpt_3",
           "package": "clckwrks-plugin-page",
@@ -3389,6 +3690,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageExcerpt_3",
           "package": "clckwrks-plugin-page",
@@ -3402,6 +3704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageId",
           "package": "clckwrks-plugin-page",
@@ -3411,6 +3714,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageId",
           "package": "clckwrks-plugin-page",
@@ -3424,6 +3728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageId_001",
           "package": "clckwrks-plugin-page",
@@ -3433,6 +3738,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageId_001",
           "package": "clckwrks-plugin-page",
@@ -3446,6 +3752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageId_002",
           "package": "clckwrks-plugin-page",
@@ -3455,6 +3762,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageId_002",
           "package": "clckwrks-plugin-page",
@@ -3468,6 +3776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageId_3",
           "package": "clckwrks-plugin-page",
@@ -3477,6 +3786,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageId_3",
           "package": "clckwrks-plugin-page",
@@ -3490,6 +3800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageKind",
           "package": "clckwrks-plugin-page",
@@ -3499,6 +3810,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageKind",
           "package": "clckwrks-plugin-page",
@@ -3512,6 +3824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageKind_001",
           "package": "clckwrks-plugin-page",
@@ -3521,6 +3834,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageKind_001",
           "package": "clckwrks-plugin-page",
@@ -3534,6 +3848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageKind_002",
           "package": "clckwrks-plugin-page",
@@ -3543,6 +3858,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageKind_002",
           "package": "clckwrks-plugin-page",
@@ -3556,6 +3872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageKind_3",
           "package": "clckwrks-plugin-page",
@@ -3565,6 +3882,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageKind_3",
           "package": "clckwrks-plugin-page",
@@ -3578,6 +3896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageSlug",
           "package": "clckwrks-plugin-page",
@@ -3587,6 +3906,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageSlug",
           "package": "clckwrks-plugin-page",
@@ -3600,6 +3920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageSlug_3",
           "package": "clckwrks-plugin-page",
@@ -3609,6 +3930,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageSlug_3",
           "package": "clckwrks-plugin-page",
@@ -3622,6 +3944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageSrc",
           "package": "clckwrks-plugin-page",
@@ -3631,6 +3954,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageSrc",
           "package": "clckwrks-plugin-page",
@@ -3644,6 +3968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageSrc_001",
           "package": "clckwrks-plugin-page",
@@ -3653,6 +3978,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageSrc_001",
           "package": "clckwrks-plugin-page",
@@ -3666,6 +3992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageSrc_002",
           "package": "clckwrks-plugin-page",
@@ -3675,6 +4002,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageSrc_002",
           "package": "clckwrks-plugin-page",
@@ -3688,6 +4016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageSrc_3",
           "package": "clckwrks-plugin-page",
@@ -3697,6 +4026,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageSrc_3",
           "package": "clckwrks-plugin-page",
@@ -3710,6 +4040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageStatus",
           "package": "clckwrks-plugin-page",
@@ -3719,6 +4050,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageStatus",
           "package": "clckwrks-plugin-page",
@@ -3732,6 +4064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageStatus_001",
           "package": "clckwrks-plugin-page",
@@ -3741,6 +4074,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageStatus_001",
           "package": "clckwrks-plugin-page",
@@ -3754,6 +4088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageStatus_002",
           "package": "clckwrks-plugin-page",
@@ -3763,6 +4098,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageStatus_002",
           "package": "clckwrks-plugin-page",
@@ -3776,6 +4112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageStatus_3",
           "package": "clckwrks-plugin-page",
@@ -3785,6 +4122,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageStatus_3",
           "package": "clckwrks-plugin-page",
@@ -3798,6 +4136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageThemeStyleId",
           "package": "clckwrks-plugin-page",
@@ -3807,6 +4146,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageThemeStyleId",
           "package": "clckwrks-plugin-page",
@@ -3820,6 +4160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageTitle",
           "package": "clckwrks-plugin-page",
@@ -3829,6 +4170,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageTitle",
           "package": "clckwrks-plugin-page",
@@ -3842,6 +4184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageTitle_001",
           "package": "clckwrks-plugin-page",
@@ -3851,6 +4194,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageTitle_001",
           "package": "clckwrks-plugin-page",
@@ -3864,6 +4208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageTitle_002",
           "package": "clckwrks-plugin-page",
@@ -3873,6 +4218,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageTitle_002",
           "package": "clckwrks-plugin-page",
@@ -3886,6 +4232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageTitle_3",
           "package": "clckwrks-plugin-page",
@@ -3895,6 +4242,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageTitle_3",
           "package": "clckwrks-plugin-page",
@@ -3908,6 +4256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageUUID",
           "package": "clckwrks-plugin-page",
@@ -3917,6 +4266,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageUUID",
           "package": "clckwrks-plugin-page",
@@ -3930,6 +4280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageUUID_002",
           "package": "clckwrks-plugin-page",
@@ -3939,6 +4290,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageUUID_002",
           "package": "clckwrks-plugin-page",
@@ -3952,6 +4304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageUUID_3",
           "package": "clckwrks-plugin-page",
@@ -3961,6 +4314,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageUUID_3",
           "package": "clckwrks-plugin-page",
@@ -3974,6 +4328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageUpdated",
           "package": "clckwrks-plugin-page",
@@ -3983,6 +4338,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageUpdated",
           "package": "clckwrks-plugin-page",
@@ -3996,6 +4352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageUpdated_002",
           "package": "clckwrks-plugin-page",
@@ -4005,6 +4362,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageUpdated_002",
           "package": "clckwrks-plugin-page",
@@ -4018,6 +4376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "pageUpdated_3",
           "package": "clckwrks-plugin-page",
@@ -4027,6 +4386,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "pageUpdated_3",
           "package": "clckwrks-plugin-page",
@@ -4040,6 +4400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "preProcessors",
           "package": "clckwrks-plugin-page",
@@ -4049,6 +4410,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "preProcessors",
           "normalized": "[PreProcessor]",
@@ -4064,6 +4426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "preProcessors_001",
           "package": "clckwrks-plugin-page",
@@ -4073,6 +4436,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "preProcessors_001",
           "normalized": "[PreProcessor]",
@@ -4088,6 +4452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "publishStatusString",
           "package": "clckwrks-plugin-page",
@@ -4097,6 +4462,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "publishStatusString",
           "normalized": "PublishStatus-\u003eString",
@@ -4112,6 +4478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "runPreProcessor",
           "package": "clckwrks-plugin-page",
@@ -4121,6 +4488,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "runPreProcessor",
           "normalized": "PreProcessor-\u003eTrust-\u003eText-\u003ea(Either Text Text)",
@@ -4136,6 +4504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "runPreProcessors",
           "package": "clckwrks-plugin-page",
@@ -4145,6 +4514,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "runPreProcessors",
           "normalized": "[PreProcessor]-\u003eTrust-\u003eText-\u003ea(Either Text Text)",
@@ -4160,6 +4530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "slugify",
           "package": "clckwrks-plugin-page",
@@ -4169,6 +4540,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "slugify",
           "normalized": "Text-\u003eSlug",
@@ -4183,6 +4555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "toSlug",
           "package": "clckwrks-plugin-page",
@@ -4192,6 +4565,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "toSlug",
           "normalized": "Text-\u003eMaybe Slug-\u003eSlug",
@@ -4207,6 +4581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "trust",
           "package": "clckwrks-plugin-page",
@@ -4216,6 +4591,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "trust",
           "package": "clckwrks-plugin-page",
@@ -4228,6 +4604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.Types",
           "name": "unSlug",
           "package": "clckwrks-plugin-page",
@@ -4237,6 +4614,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page Types",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.Types",
           "name": "unSlug",
           "package": "clckwrks-plugin-page",
@@ -4250,6 +4628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.URL",
           "name": "URL",
           "package": "clckwrks-plugin-page",
@@ -4258,6 +4637,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page URL",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.URL",
           "name": "URL",
           "package": "clckwrks-plugin-page",
@@ -4271,6 +4651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.URL",
           "name": "PageAdminURL",
           "package": "clckwrks-plugin-page",
@@ -4279,6 +4660,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page URL",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.URL",
           "name": "PageAdminURL",
           "package": "clckwrks-plugin-page",
@@ -4292,6 +4674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.URL",
           "name": "PageURL",
           "package": "clckwrks-plugin-page",
@@ -4300,6 +4683,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page URL",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.URL",
           "name": "PageURL",
           "package": "clckwrks-plugin-page",
@@ -4313,6 +4697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.URL",
           "name": "AtomFeed",
           "package": "clckwrks-plugin-page",
@@ -4322,6 +4707,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page URL",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.URL",
           "name": "AtomFeed",
           "package": "clckwrks-plugin-page",
@@ -4335,6 +4721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.URL",
           "name": "Blog",
           "package": "clckwrks-plugin-page",
@@ -4344,6 +4731,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page URL",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.URL",
           "name": "Blog",
           "package": "clckwrks-plugin-page",
@@ -4357,6 +4745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.URL",
           "name": "EditFeedConfig",
           "package": "clckwrks-plugin-page",
@@ -4366,6 +4755,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page URL",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.URL",
           "name": "EditFeedConfig",
           "package": "clckwrks-plugin-page",
@@ -4379,6 +4769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.URL",
           "name": "EditPage",
           "package": "clckwrks-plugin-page",
@@ -4388,6 +4779,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page URL",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.URL",
           "name": "EditPage",
           "package": "clckwrks-plugin-page",
@@ -4401,6 +4793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.URL",
           "name": "NewPage",
           "package": "clckwrks-plugin-page",
@@ -4410,6 +4803,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page URL",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.URL",
           "name": "NewPage",
           "package": "clckwrks-plugin-page",
@@ -4423,6 +4817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.URL",
           "name": "NewPost",
           "package": "clckwrks-plugin-page",
@@ -4432,6 +4827,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page URL",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.URL",
           "name": "NewPost",
           "package": "clckwrks-plugin-page",
@@ -4445,6 +4841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.URL",
           "name": "PageAdmin",
           "package": "clckwrks-plugin-page",
@@ -4454,6 +4851,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page URL",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.URL",
           "name": "PageAdmin",
           "package": "clckwrks-plugin-page",
@@ -4467,6 +4865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.URL",
           "name": "Pages",
           "package": "clckwrks-plugin-page",
@@ -4476,6 +4875,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page URL",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.URL",
           "name": "Pages",
           "package": "clckwrks-plugin-page",
@@ -4489,6 +4889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.URL",
           "name": "PreviewPage",
           "package": "clckwrks-plugin-page",
@@ -4498,6 +4899,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page URL",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.URL",
           "name": "PreviewPage",
           "package": "clckwrks-plugin-page",
@@ -4511,6 +4913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.URL",
           "name": "ViewPage",
           "package": "clckwrks-plugin-page",
@@ -4520,6 +4923,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page URL",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.URL",
           "name": "ViewPage",
           "package": "clckwrks-plugin-page",
@@ -4533,6 +4937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:34:03 UTC 2014",
           "module": "Clckwrks.Page.URL",
           "name": "ViewPageSlug",
           "package": "clckwrks-plugin-page",
@@ -4542,6 +4947,7 @@
         },
         "index": {
           "hierarchy": "Clckwrks Page URL",
+          "indexed": "2014-03-11T17:34:03",
           "module": "Clckwrks.Page.URL",
           "name": "ViewPageSlug",
           "package": "clckwrks-plugin-page",

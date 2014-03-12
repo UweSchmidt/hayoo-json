@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-pprint"
+        "phrase": "data-pprint",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCatch exceptions produced in pure code\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Control.Exception.Pure",
           "name": "Pure",
           "package": "data-pprint",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Catch exceptions produced in pure code",
           "hierarchy": "Control Exception Pure",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Control.Exception.Pure",
           "name": "Pure",
           "package": "data-pprint",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate to weak head normal form and catch \n exceptions which can be raised by errors in pure computation.\n See also the \u003ca\u003eTest.ChasingBottoms.IsBottom\u003c/a\u003e module in ChasingBottoms package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Control.Exception.Pure",
           "name": "catchPureErrors",
           "package": "data-pprint",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Evaluate to weak head normal form and catch exceptions which can be raised by errors in pure computation See also the Test.ChasingBottoms.IsBottom module in ChasingBottoms package",
           "hierarchy": "Control Exception Pure",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Control.Exception.Pure",
           "name": "catchPureErrors",
           "normalized": "a-\u003eIO(Either String a)",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake sure that the error message is a concrete String.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Control.Exception.Pure",
           "name": "catchPureErrorsSafe",
           "package": "data-pprint",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Make sure that the error message is concrete String",
           "hierarchy": "Control Exception Pure",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Control.Exception.Pure",
           "name": "catchPureErrorsSafe",
           "normalized": "a-\u003eIO(Either String a)",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompare two \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e value with time and size limit\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.Compare",
           "name": "Compare",
           "package": "data-pprint",
@@ -103,6 +110,7 @@
         "index": {
           "description": "Compare two Data value with time and size limit",
           "hierarchy": "Data Data Compare",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.Compare",
           "name": "Compare",
           "package": "data-pprint",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswer with possibility\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eNo\u003c/a\u003e\u003c/code\u003e: no\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e d\u003c/code\u003e: maybe with d possibility (0-1, 1 denotes yes)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eYes\u003c/a\u003e\u003c/code\u003e: yes\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.Compare",
           "name": "Answer",
           "package": "data-pprint",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Answer with possibility No no Maybe maybe with possibility denotes yes Yes yes",
           "hierarchy": "Data Data Compare",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.Compare",
           "name": "Answer",
           "package": "data-pprint",
@@ -139,6 +149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.Compare",
           "name": "Maybe",
           "package": "data-pprint",
@@ -148,6 +159,7 @@
         },
         "index": {
           "hierarchy": "Data Data Compare",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.Compare",
           "name": "Maybe",
           "package": "data-pprint",
@@ -161,6 +173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.Compare",
           "name": "No",
           "package": "data-pprint",
@@ -170,6 +183,7 @@
         },
         "index": {
           "hierarchy": "Data Data Compare",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.Compare",
           "name": "No",
           "package": "data-pprint",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.Compare",
           "name": "Yes",
           "package": "data-pprint",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Data Data Compare",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.Compare",
           "name": "Yes",
           "package": "data-pprint",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare two \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e value with time and size limit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.Compare",
           "name": "compareData",
           "package": "data-pprint",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Compare two Data value with time and size limit",
           "hierarchy": "Data Data Compare",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.Compare",
           "name": "compareData",
           "normalized": "TimeLimit-\u003eTimeLimit-\u003eSizeLimit-\u003ea-\u003ea-\u003eIO(Answer,GenericData,GenericData)",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow an \u003ccode\u003e\u003ca\u003eAnswer\u003c/a\u003e\u003c/code\u003e as an equality operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.Compare",
           "name": "showAnswer",
           "package": "data-pprint",
@@ -241,6 +260,7 @@
         "index": {
           "description": "Show an Answer as an equality operator",
           "hierarchy": "Data Data Compare",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.Compare",
           "name": "showAnswer",
           "normalized": "Answer-\u003eString",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion to \u003ccode\u003e\u003ca\u003eGenericData\u003c/a\u003e\u003c/code\u003e with time and space limit.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.Eval",
           "name": "Eval",
           "package": "data-pprint",
@@ -266,6 +287,7 @@
         "index": {
           "description": "Conversion to GenericData with time and space limit",
           "hierarchy": "Data Data Eval",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.Eval",
           "name": "Eval",
           "package": "data-pprint",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluation with time an size limit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.Eval",
           "name": "eval",
           "package": "data-pprint",
@@ -290,6 +313,7 @@
         "index": {
           "description": "Evaluation with time an size limit",
           "hierarchy": "Data Data Eval",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.Eval",
           "name": "eval",
           "normalized": "TimeLimit-\u003eSizeLimit-\u003ea-\u003eIO GenericData",
@@ -305,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGives more control over the resources\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.Eval",
           "name": "evalWithBudget",
           "package": "data-pprint",
@@ -315,6 +340,7 @@
         "index": {
           "description": "Gives more control over the resources",
           "hierarchy": "Data Data Eval",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.Eval",
           "name": "evalWithBudget",
           "normalized": "Budget-\u003ea-\u003eIO GenericData",
@@ -331,6 +357,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConversion from \u003ccode\u003e\u003ca\u003eGenericData\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep.Doc",
           "name": "Doc",
           "package": "data-pprint",
@@ -340,6 +367,7 @@
         "index": {
           "description": "Conversion from GenericData to Doc",
           "hierarchy": "Data Data GenRep Doc",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep.Doc",
           "name": "Doc",
           "package": "data-pprint",
@@ -354,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract type of documents.\n A Doc represents a *set* of layouts. A Doc with\n no occurrences of Union or NoDoc represents just one layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep.Doc",
           "name": "Doc",
           "package": "data-pprint",
@@ -362,6 +391,7 @@
         "index": {
           "description": "The abstract type of documents Doc represents set of layouts Doc with no occurrences of Union or NoDoc represents just one layout",
           "hierarchy": "Data Data GenRep Doc",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep.Doc",
           "name": "Doc",
           "package": "data-pprint",
@@ -376,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eIsString\u003c/code\u003e instance for \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e\n instance IsString Doc where fromString = text\n\u003c/p\u003e\u003cp\u003eShow a character literal. Unicode characters are not escaped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep.Doc",
           "name": "showLitCharInChar",
           "package": "data-pprint",
@@ -386,6 +417,7 @@
         "index": {
           "description": "IsString instance for Doc instance IsString Doc where fromString text Show character literal Unicode characters are not escaped",
           "hierarchy": "Data Data GenRep Doc",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep.Doc",
           "name": "showLitCharInChar",
           "normalized": "Char-\u003eString",
@@ -402,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a character in a string literal. Unicode characters are not escaped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep.Doc",
           "name": "showLitCharInString",
           "package": "data-pprint",
@@ -412,6 +445,7 @@
         "index": {
           "description": "Show character in string literal Unicode characters are not escaped",
           "hierarchy": "Data Data GenRep Doc",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep.Doc",
           "name": "showLitCharInString",
           "normalized": "Char-\u003eString",
@@ -428,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert \u003ccode\u003e\u003ca\u003eGenericData\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep.Doc",
           "name": "toDoc",
           "package": "data-pprint",
@@ -438,6 +473,7 @@
         "index": {
           "description": "Convert GenericData to Doc",
           "hierarchy": "Data Data GenRep Doc",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep.Doc",
           "name": "toDoc",
           "normalized": "GenericData-\u003eDoc",
@@ -454,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIntended for internal use: Generic representation of \u003ccode\u003eData\u003c/code\u003e vales.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep.Functions",
           "name": "Functions",
           "package": "data-pprint",
@@ -463,6 +500,7 @@
         "index": {
           "description": "Intended for internal use Generic representation of Data vales",
           "hierarchy": "Data Data GenRep Functions",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep.Functions",
           "name": "Functions",
           "package": "data-pprint",
@@ -476,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep.Functions",
           "name": "getErrorIndex",
           "package": "data-pprint",
@@ -485,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Data Data GenRep Functions",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep.Functions",
           "name": "getErrorIndex",
           "normalized": "String-\u003eState(Int,[(String,String)])String",
@@ -501,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to hide some part of the value.\n\u003c/p\u003e\u003cp\u003eThis is used in the evaluation of exercises, when the result\n is wrong. We would like to show the erroneous part but not the whole result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep.Functions",
           "name": "mistify",
           "package": "data-pprint",
@@ -511,6 +552,7 @@
         "index": {
           "description": "Try to hide some part of the value This is used in the evaluation of exercises when the result is wrong We would like to show the erroneous part but not the whole result",
           "hierarchy": "Data Data GenRep Functions",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep.Functions",
           "name": "mistify",
           "normalized": "GenericData-\u003eGenericData",
@@ -526,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect and number \u003ccode\u003e\u003ca\u003eError\u003c/a\u003e\u003c/code\u003e values and replace them\n by an indexed bottom sign.\n Repeated errors will get the same number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep.Functions",
           "name": "numberErrors",
           "package": "data-pprint",
@@ -536,6 +579,7 @@
         "index": {
           "description": "Collect and number Error values and replace them by an indexed bottom sign Repeated errors will get the same number",
           "hierarchy": "Data Data GenRep Functions",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep.Functions",
           "name": "numberErrors",
           "normalized": "[GenericData]-\u003e([GenericData],[(String,String)])",
@@ -552,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIntended for internal use: Generic representation of \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e vales.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep",
           "name": "GenRep",
           "package": "data-pprint",
@@ -561,6 +606,7 @@
         "index": {
           "description": "Intended for internal use Generic representation of Data vales",
           "hierarchy": "Data Data GenRep",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep",
           "name": "GenRep",
           "package": "data-pprint",
@@ -575,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName and precedence of constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep",
           "name": "ConstructorName",
           "package": "data-pprint",
@@ -584,6 +631,7 @@
         "index": {
           "description": "Name and precedence of constructors",
           "hierarchy": "Data Data GenRep",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep",
           "name": "ConstructorName",
           "package": "data-pprint",
@@ -598,6 +646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep",
           "name": "GenericData",
           "package": "data-pprint",
@@ -607,6 +656,7 @@
         "index": {
           "description": "Representation of Data values",
           "hierarchy": "Data Data GenRep",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep",
           "name": "GenericData",
           "package": "data-pprint",
@@ -621,6 +671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echaracter literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep",
           "name": "Char",
           "package": "data-pprint",
@@ -631,6 +682,7 @@
         "index": {
           "description": "character literal",
           "hierarchy": "Data Data GenRep",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep",
           "name": "Char",
           "package": "data-pprint",
@@ -645,6 +697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enonempty list constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep",
           "name": "Cons",
           "package": "data-pprint",
@@ -655,6 +708,7 @@
         "index": {
           "description": "nonempty list constructor",
           "hierarchy": "Data Data GenRep",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep",
           "name": "Cons",
           "package": "data-pprint",
@@ -668,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep",
           "name": "Constructor",
           "package": "data-pprint",
@@ -677,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Data Data GenRep",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep",
           "name": "Constructor",
           "normalized": "Constructor ConstructorName[GenericData]",
@@ -693,6 +749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealso caused by space shortage but this omission a relevant part\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep",
           "name": "Detail",
           "package": "data-pprint",
@@ -703,6 +760,7 @@
         "index": {
           "description": "also caused by space shortage but this omission relevant part",
           "hierarchy": "Data Data GenRep",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep",
           "name": "Detail",
           "package": "data-pprint",
@@ -717,6 +775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexception error message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep",
           "name": "Error",
           "package": "data-pprint",
@@ -727,6 +786,7 @@
         "index": {
           "description": "exception error message",
           "hierarchy": "Data Data GenRep",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep",
           "name": "Error",
           "package": "data-pprint",
@@ -741,6 +801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis is caused space shortage, shown as three dots\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep",
           "name": "Hole",
           "package": "data-pprint",
@@ -751,6 +812,7 @@
         "index": {
           "description": "this is caused space shortage shown as three dots",
           "hierarchy": "Data Data GenRep",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep",
           "name": "Hole",
           "package": "data-pprint",
@@ -764,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep",
           "name": "Infix",
           "package": "data-pprint",
@@ -773,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Data Data GenRep",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep",
           "name": "Infix",
           "package": "data-pprint",
@@ -786,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep",
           "name": "Infixl",
           "package": "data-pprint",
@@ -795,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Data Data GenRep",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep",
           "name": "Infixl",
           "package": "data-pprint",
@@ -808,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep",
           "name": "Infixr",
           "package": "data-pprint",
@@ -817,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Data Data GenRep",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep",
           "name": "Infixr",
           "package": "data-pprint",
@@ -831,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused during show\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep",
           "name": "ListHole",
           "package": "data-pprint",
@@ -841,6 +910,7 @@
         "index": {
           "description": "used during show",
           "hierarchy": "Data Data GenRep",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep",
           "name": "ListHole",
           "package": "data-pprint",
@@ -855,6 +925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eerror message which may contain further errors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep",
           "name": "NestedError",
           "package": "data-pprint",
@@ -865,6 +936,7 @@
         "index": {
           "description": "error message which may contain further errors",
           "hierarchy": "Data Data GenRep",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep",
           "name": "NestedError",
           "package": "data-pprint",
@@ -879,6 +951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eempty list constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep",
           "name": "Nil",
           "package": "data-pprint",
@@ -889,6 +962,7 @@
         "index": {
           "description": "empty list constructor",
           "hierarchy": "Data Data GenRep",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep",
           "name": "Nil",
           "package": "data-pprint",
@@ -903,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused also for literals except characters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep",
           "name": "Prefix",
           "package": "data-pprint",
@@ -913,6 +988,7 @@
         "index": {
           "description": "used also for literals except characters",
           "hierarchy": "Data Data GenRep",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep",
           "name": "Prefix",
           "package": "data-pprint",
@@ -927,6 +1003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etimeout, the \u003ccode\u003eDouble\u003c/code\u003e is between 0 and 1. \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 0: evaluation of subexpression started at the beginning\n\u003c/li\u003e\u003cli\u003e towards 1: evaluation of subexpression started near the end of time limit\n\u003c/li\u003e\u003cli\u003e 1: evaluation of subexpression started after time limit (rare)\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep",
           "name": "Timeout",
           "package": "data-pprint",
@@ -937,6 +1014,7 @@
         "index": {
           "description": "timeout the Double is between and evaluation of subexpression started at the beginning towards evaluation of subexpression started near the end of time limit evaluation of subexpression started after time limit rare",
           "hierarchy": "Data Data GenRep",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep",
           "name": "Timeout",
           "package": "data-pprint",
@@ -951,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etuple with n elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep",
           "name": "Tuple",
           "package": "data-pprint",
@@ -961,6 +1040,7 @@
         "index": {
           "description": "tuple with elements",
           "hierarchy": "Data Data GenRep",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep",
           "name": "Tuple",
           "package": "data-pprint",
@@ -975,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArity of the toplevel constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep",
           "name": "arity",
           "package": "data-pprint",
@@ -985,6 +1066,7 @@
         "index": {
           "description": "Arity of the toplevel constructor",
           "hierarchy": "Data Data GenRep",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep",
           "name": "arity",
           "normalized": "a-\u003eInt",
@@ -1000,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e value to \u003ccode\u003e\u003ca\u003eGenericData\u003c/a\u003e\u003c/code\u003e given the\n \u003ccode\u003e\u003ca\u003eGenericData\u003c/a\u003e\u003c/code\u003e representations of the value's children.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.Data.GenRep",
           "name": "constructor",
           "package": "data-pprint",
@@ -1010,6 +1093,7 @@
         "index": {
           "description": "Convert Data value to GenericData given the GenericData representations of the value children",
           "hierarchy": "Data Data GenRep",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.Data.GenRep",
           "name": "constructor",
           "normalized": "Budget-\u003ea-\u003eIO[GenericData]-\u003eIO GenericData",
@@ -1025,6 +1109,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrettyprint and compare \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.PPrint",
           "name": "PPrint",
           "package": "data-pprint",
@@ -1034,6 +1119,7 @@
         "index": {
           "description": "Prettyprint and compare Data values",
           "hierarchy": "Data PPrint",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.PPrint",
           "name": "PPrint",
           "package": "data-pprint",
@@ -1048,6 +1134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare two \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e\u003cp\u003eThe can be yes, no or maybe.\n The differences are highlighted.\n\u003c/p\u003e\u003cp\u003eThere is a 1 second time limit and the output\n contains at most approximately 500 characters.\n\u003c/p\u003e\u003cp\u003eThe exceptions are shown as bottom signs\n followed by explanations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.PPrint",
           "name": "(===)",
           "package": "data-pprint",
@@ -1058,6 +1145,7 @@
         "index": {
           "description": "Compare two Data values The can be yes no or maybe The differences are highlighted There is second time limit and the output contains at most approximately characters The exceptions are shown as bottom signs followed by explanations",
           "hierarchy": "Data PPrint",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.PPrint",
           "name": "(===) ===",
           "normalized": "a-\u003ea-\u003eIO Doc",
@@ -1073,6 +1161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrettyprint a \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e\u003cp\u003eThere is a 1 second time limit and the output\n contains at most approximately 500 characters.\n\u003c/p\u003e\u003cp\u003eThe exceptions are shown as bottom signs\n followed by explanations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "Data.PPrint",
           "name": "pprint",
           "package": "data-pprint",
@@ -1083,6 +1172,7 @@
         "index": {
           "description": "Prettyprint Data value There is second time limit and the output contains at most approximately characters The exceptions are shown as bottom signs followed by explanations",
           "hierarchy": "Data PPrint",
+          "indexed": "2014-03-11T17:49:29",
           "module": "Data.PPrint",
           "name": "pprint",
           "normalized": "a-\u003eIO Doc",
@@ -1098,6 +1188,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIntended for internal use: Parallel evaluation of \u003ccode\u003eIO\u003c/code\u003e values\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "System.IO.Parallel",
           "name": "Parallel",
           "package": "data-pprint",
@@ -1107,6 +1198,7 @@
         "index": {
           "description": "Intended for internal use Parallel evaluation of IO values",
           "hierarchy": "System IO Parallel",
+          "indexed": "2014-03-11T17:49:29",
           "module": "System.IO.Parallel",
           "name": "Parallel",
           "package": "data-pprint",
@@ -1121,6 +1213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun four \u003ccode\u003eIO\u003c/code\u003e computations in parallel and wait for the results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "System.IO.Parallel",
           "name": "fourParallel",
           "package": "data-pprint",
@@ -1131,6 +1224,7 @@
         "index": {
           "description": "Run four IO computations in parallel and wait for the results",
           "hierarchy": "System IO Parallel",
+          "indexed": "2014-03-11T17:49:29",
           "module": "System.IO.Parallel",
           "name": "fourParallel",
           "normalized": "IO a-\u003eIO b-\u003eIO c-\u003eIO d-\u003eIO(a,b,c,d)",
@@ -1147,6 +1241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun computations in parallel and wait for the results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "System.IO.Parallel",
           "name": "manyParallel",
           "package": "data-pprint",
@@ -1157,6 +1252,7 @@
         "index": {
           "description": "Run computations in parallel and wait for the results",
           "hierarchy": "System IO Parallel",
+          "indexed": "2014-03-11T17:49:29",
           "module": "System.IO.Parallel",
           "name": "manyParallel",
           "normalized": "[IO a]-\u003eIO[a]",
@@ -1173,6 +1269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun three \u003ccode\u003eIO\u003c/code\u003e computations in parallel and wait for the results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "System.IO.Parallel",
           "name": "threeParallel",
           "package": "data-pprint",
@@ -1183,6 +1280,7 @@
         "index": {
           "description": "Run three IO computations in parallel and wait for the results",
           "hierarchy": "System IO Parallel",
+          "indexed": "2014-03-11T17:49:29",
           "module": "System.IO.Parallel",
           "name": "threeParallel",
           "normalized": "IO a-\u003eIO b-\u003eIO c-\u003eIO(a,b,c)",
@@ -1199,6 +1297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun two \u003ccode\u003eIO\u003c/code\u003e computations in parallel and wait for the results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "System.IO.Parallel",
           "name": "twoParallel",
           "package": "data-pprint",
@@ -1209,6 +1308,7 @@
         "index": {
           "description": "Run two IO computations in parallel and wait for the results",
           "hierarchy": "System IO Parallel",
+          "indexed": "2014-03-11T17:49:29",
           "module": "System.IO.Parallel",
           "name": "twoParallel",
           "normalized": "IO a-\u003eIO b-\u003eIO(a,b)",
@@ -1225,6 +1325,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTime and size limits\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "System.SimpleTimeout.Limits",
           "name": "Limits",
           "package": "data-pprint",
@@ -1234,6 +1335,7 @@
         "index": {
           "description": "Time and size limits",
           "hierarchy": "System SimpleTimeout Limits",
+          "indexed": "2014-03-11T17:49:29",
           "module": "System.SimpleTimeout.Limits",
           "name": "Limits",
           "package": "data-pprint",
@@ -1248,6 +1350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBudget\u003c/a\u003e\u003c/code\u003e contains a time and size limit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "System.SimpleTimeout.Limits",
           "name": "Budget",
           "package": "data-pprint",
@@ -1257,6 +1360,7 @@
         "index": {
           "description": "Budget contains time and size limit",
           "hierarchy": "System SimpleTimeout Limits",
+          "indexed": "2014-03-11T17:49:29",
           "module": "System.SimpleTimeout.Limits",
           "name": "Budget",
           "package": "data-pprint",
@@ -1271,6 +1375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize limit is an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e which meaning is given by \u003ccode\u003e\u003ca\u003echeckBudget\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edecSizeBudget\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "System.SimpleTimeout.Limits",
           "name": "SizeLimit",
           "package": "data-pprint",
@@ -1280,6 +1385,7 @@
         "index": {
           "description": "Size limit is an Int which meaning is given by checkBudget and decSizeBudget",
           "hierarchy": "System SimpleTimeout Limits",
+          "indexed": "2014-03-11T17:49:29",
           "module": "System.SimpleTimeout.Limits",
           "name": "SizeLimit",
           "package": "data-pprint",
@@ -1294,6 +1400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime limit is a \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e which is the allowed time in seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "System.SimpleTimeout.Limits",
           "name": "TimeLimit",
           "package": "data-pprint",
@@ -1303,6 +1410,7 @@
         "index": {
           "description": "Time limit is Double which is the allowed time in seconds",
           "hierarchy": "System SimpleTimeout Limits",
+          "indexed": "2014-03-11T17:49:29",
           "module": "System.SimpleTimeout.Limits",
           "name": "TimeLimit",
           "package": "data-pprint",
@@ -1317,6 +1425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck budget and take another action if there is no more resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "System.SimpleTimeout.Limits",
           "name": "checkBudget",
           "package": "data-pprint",
@@ -1326,6 +1435,7 @@
         "index": {
           "description": "Check budget and take another action if there is no more resource",
           "hierarchy": "System SimpleTimeout Limits",
+          "indexed": "2014-03-11T17:49:29",
           "module": "System.SimpleTimeout.Limits",
           "name": "checkBudget",
           "normalized": "Budget-\u003eInt-\u003e(Double-\u003eIO a)-\u003eIO a-\u003eIO a-\u003eIO a",
@@ -1342,6 +1452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrement free size in a budget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "System.SimpleTimeout.Limits",
           "name": "decSizeBudget",
           "package": "data-pprint",
@@ -1351,6 +1462,7 @@
         "index": {
           "description": "Decrement free size in budget",
           "hierarchy": "System SimpleTimeout Limits",
+          "indexed": "2014-03-11T17:49:29",
           "module": "System.SimpleTimeout.Limits",
           "name": "decSizeBudget",
           "normalized": "Budget-\u003e(SizeLimit-\u003e(SizeLimit,a))-\u003eIO a",
@@ -1367,6 +1479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new budget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "System.SimpleTimeout.Limits",
           "name": "newBudget",
           "package": "data-pprint",
@@ -1377,6 +1490,7 @@
         "index": {
           "description": "Create new budget",
           "hierarchy": "System SimpleTimeout Limits",
+          "indexed": "2014-03-11T17:49:29",
           "module": "System.SimpleTimeout.Limits",
           "name": "newBudget",
           "normalized": "TimeLimit-\u003eSizeLimit-\u003eIO Budget",
@@ -1392,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "System.SimpleTimeout.Limits",
           "name": "showTimeout",
           "package": "data-pprint",
@@ -1401,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "System SimpleTimeout Limits",
+          "indexed": "2014-03-11T17:49:29",
           "module": "System.SimpleTimeout.Limits",
           "name": "showTimeout",
           "normalized": "Double-\u003eString",
@@ -1417,6 +1533,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIntended for internal use: Simple timeout mechanism\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "System.SimpleTimeout",
           "name": "SimpleTimeout",
           "package": "data-pprint",
@@ -1426,6 +1543,7 @@
         "index": {
           "description": "Intended for internal use Simple timeout mechanism",
           "hierarchy": "System SimpleTimeout",
+          "indexed": "2014-03-11T17:49:29",
           "module": "System.SimpleTimeout",
           "name": "SimpleTimeout",
           "package": "data-pprint",
@@ -1440,6 +1558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract data structure used by \u003ccode\u003e\u003ca\u003eTimeoutHandle\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etimeout\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "System.SimpleTimeout",
           "name": "TimeoutHandle",
           "package": "data-pprint",
@@ -1449,6 +1568,7 @@
         "index": {
           "description": "Abstract data structure used by TimeoutHandle and timeout",
           "hierarchy": "System SimpleTimeout",
+          "indexed": "2014-03-11T17:49:29",
           "module": "System.SimpleTimeout",
           "name": "TimeoutHandle",
           "package": "data-pprint",
@@ -1463,6 +1583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStop an operation at a time given by \u003ccode\u003e\u003ca\u003etimeoutHandle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eDouble\u003c/code\u003e parameter is a percent between 0 and 1.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 0: \u003ccode\u003e\u003ca\u003etimeout\u003c/a\u003e\u003c/code\u003e was called right after the \u003ccode\u003e\u003ca\u003eTimeoutHandle\u003c/a\u003e\u003c/code\u003e was created.\n\u003c/li\u003e\u003cli\u003e 1: \u003ccode\u003e\u003ca\u003etimeout\u003c/a\u003e\u003c/code\u003e was called after the time of the timeout.\n\u003c/li\u003e\u003cli\u003e near to 1: \u003ccode\u003e\u003ca\u003etimeout\u003c/a\u003e\u003c/code\u003e was called right before the time of the timeout.\n\u003c/li\u003e\u003cli\u003e Other values: proportional to the time spend by the operation.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "System.SimpleTimeout",
           "name": "timeout",
           "package": "data-pprint",
@@ -1472,6 +1593,7 @@
         "index": {
           "description": "Stop an operation at time given by timeoutHandle The Double parameter is percent between and timeout was called right after the TimeoutHandle was created timeout was called after the time of the timeout near to timeout was called right before the time of the timeout Other values proportional to the time spend by the operation",
           "hierarchy": "System SimpleTimeout",
+          "indexed": "2014-03-11T17:49:29",
           "module": "System.SimpleTimeout",
           "name": "timeout",
           "normalized": "TimeoutHandle-\u003e(Double-\u003eIO a)-\u003eIO a-\u003eIO a",
@@ -1487,6 +1609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eTimeoutHandle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eDouble\u003c/code\u003e parameter is the time limit in seconds.\n All operations behind \u003ccode\u003e\u003ca\u003etimeout\u003c/a\u003e\u003c/code\u003e will be stopped \n at the current time plus the time limit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:29 UTC 2014",
           "module": "System.SimpleTimeout",
           "name": "timeoutHandle",
           "package": "data-pprint",
@@ -1497,6 +1620,7 @@
         "index": {
           "description": "Creates TimeoutHandle The Double parameter is the time limit in seconds All operations behind timeout will be stopped at the current time plus the time limit",
           "hierarchy": "System SimpleTimeout",
+          "indexed": "2014-03-11T17:49:29",
           "module": "System.SimpleTimeout",
           "name": "timeoutHandle",
           "normalized": "Double-\u003eIO TimeoutHandle",

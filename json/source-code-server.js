@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "source-code-server"
+        "phrase": "source-code-server",
+        "type": "phrase"
       },
       "type": "context"
     }

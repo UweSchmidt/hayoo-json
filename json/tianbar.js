@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tianbar"
+        "phrase": "tianbar",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA hook for XMonad window manager to send updates to the\n corresponding Tianbar widget.\n\u003c/p\u003e\u003cp\u003eYou must include tianbar:scripts/xmonad.js in Tianbar configuration to\n receive the updates.\n\u003c/p\u003e\u003cp\u003eA \u003ca\u003eRenderer\u003c/a\u003e can be used to fully customize the output. A renderer is a\n function receiving all the status information and returning HTML\n which will be displayed in the corresponding element of the status bar.\n\u003c/p\u003e\u003cp\u003eFor convenience, a renderer returning \u003ccode\u003e\u003ca\u003eMarkup\u003c/a\u003e\u003c/code\u003e can be used as well.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:14 UTC 2014",
           "module": "System.Tianbar.XMonadLog",
           "name": "XMonadLog",
           "package": "tianbar",
@@ -28,6 +29,7 @@
         "index": {
           "description": "hook for XMonad window manager to send updates to the corresponding Tianbar widget You must include tianbar scripts xmonad.js in Tianbar configuration to receive the updates Renderer can be used to fully customize the output renderer is function receiving all the status information and returning HTML which will be displayed in the corresponding element of the status bar For convenience renderer returning Markup can be used as well",
           "hierarchy": "System Tianbar XMonadLog",
+          "indexed": "2014-03-11T20:22:14",
           "module": "System.Tianbar.XMonadLog",
           "name": "XMonadLog",
           "package": "tianbar",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:14 UTC 2014",
           "module": "System.Tianbar.XMonadLog",
           "name": "MarkupRenderer",
           "package": "tianbar",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "System Tianbar XMonadLog",
+          "indexed": "2014-03-11T20:22:14",
           "module": "System.Tianbar.XMonadLog",
           "name": "MarkupRenderer",
           "package": "tianbar",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function to format the status information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:14 UTC 2014",
           "module": "System.Tianbar.XMonadLog",
           "name": "Renderer",
           "package": "tianbar",
@@ -72,6 +77,7 @@
         "index": {
           "description": "function to format the status information",
           "hierarchy": "System Tianbar XMonadLog",
+          "indexed": "2014-03-11T20:22:14",
           "module": "System.Tianbar.XMonadLog",
           "name": "Renderer",
           "package": "tianbar",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWorkspace information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:14 UTC 2014",
           "module": "System.Tianbar.XMonadLog",
           "name": "WindowSpaceInfo",
           "package": "tianbar",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Workspace information",
           "hierarchy": "System Tianbar XMonadLog",
+          "indexed": "2014-03-11T20:22:14",
           "module": "System.Tianbar.XMonadLog",
           "name": "WindowSpaceInfo",
           "package": "tianbar",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:14 UTC 2014",
           "module": "System.Tianbar.XMonadLog",
           "name": "WindowSpaceInfo",
           "package": "tianbar",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "System Tianbar XMonadLog",
+          "indexed": "2014-03-11T20:22:14",
           "module": "System.Tianbar.XMonadLog",
           "name": "WindowSpaceInfo",
           "package": "tianbar",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTianbar logger with a default renderer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:14 UTC 2014",
           "module": "System.Tianbar.XMonadLog",
           "name": "dbusLog",
           "package": "tianbar",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Tianbar logger with default renderer",
           "hierarchy": "System Tianbar XMonadLog",
+          "indexed": "2014-03-11T20:22:14",
           "module": "System.Tianbar.XMonadLog",
           "name": "dbusLog",
           "normalized": "Client-\u003eX()",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTianbar logger with a Blaze renderer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:14 UTC 2014",
           "module": "System.Tianbar.XMonadLog",
           "name": "dbusLogWithMarkup",
           "package": "tianbar",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Tianbar logger with Blaze renderer",
           "hierarchy": "System Tianbar XMonadLog",
+          "indexed": "2014-03-11T20:22:14",
           "module": "System.Tianbar.XMonadLog",
           "name": "dbusLogWithMarkup",
           "normalized": "Client-\u003eMarkupRenderer-\u003eX()",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTianbar logger with a renderer emitting a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:14 UTC 2014",
           "module": "System.Tianbar.XMonadLog",
           "name": "dbusLogWithRenderer",
           "package": "tianbar",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Tianbar logger with renderer emitting string",
           "hierarchy": "System Tianbar XMonadLog",
+          "indexed": "2014-03-11T20:22:14",
           "module": "System.Tianbar.XMonadLog",
           "name": "dbusLogWithRenderer",
           "normalized": "Client-\u003eRenderer String-\u003eX()",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault Tianbar renderer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:14 UTC 2014",
           "module": "System.Tianbar.XMonadLog",
           "name": "tianbarMarkup",
           "package": "tianbar",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Default Tianbar renderer",
           "hierarchy": "System Tianbar XMonadLog",
+          "indexed": "2014-03-11T20:22:14",
           "module": "System.Tianbar.XMonadLog",
           "name": "tianbarMarkup",
           "package": "tianbar",
@@ -233,6 +251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhether the workspace is current\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:14 UTC 2014",
           "module": "System.Tianbar.XMonadLog",
           "name": "wsCurrent",
           "package": "tianbar",
@@ -243,6 +262,7 @@
         "index": {
           "description": "whether the workspace is current",
           "hierarchy": "System Tianbar XMonadLog",
+          "indexed": "2014-03-11T20:22:14",
           "module": "System.Tianbar.XMonadLog",
           "name": "wsCurrent",
           "package": "tianbar",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhether the workspace is empty\n (has no windows)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:14 UTC 2014",
           "module": "System.Tianbar.XMonadLog",
           "name": "wsEmpty",
           "package": "tianbar",
@@ -267,6 +288,7 @@
         "index": {
           "description": "whether the workspace is empty has no windows",
           "hierarchy": "System Tianbar XMonadLog",
+          "indexed": "2014-03-11T20:22:14",
           "module": "System.Tianbar.XMonadLog",
           "name": "wsEmpty",
           "package": "tianbar",
@@ -281,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhether the workspace is hidden\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:14 UTC 2014",
           "module": "System.Tianbar.XMonadLog",
           "name": "wsHidden",
           "package": "tianbar",
@@ -291,6 +314,7 @@
         "index": {
           "description": "whether the workspace is hidden",
           "hierarchy": "System Tianbar XMonadLog",
+          "indexed": "2014-03-11T20:22:14",
           "module": "System.Tianbar.XMonadLog",
           "name": "wsHidden",
           "package": "tianbar",
@@ -305,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eworkspace tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:14 UTC 2014",
           "module": "System.Tianbar.XMonadLog",
           "name": "wsTag",
           "package": "tianbar",
@@ -315,6 +340,7 @@
         "index": {
           "description": "workspace tag",
           "hierarchy": "System Tianbar XMonadLog",
+          "indexed": "2014-03-11T20:22:14",
           "module": "System.Tianbar.XMonadLog",
           "name": "wsTag",
           "package": "tianbar",
@@ -329,6 +355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhether the workspace has any\n urgent windows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:14 UTC 2014",
           "module": "System.Tianbar.XMonadLog",
           "name": "wsUrgent",
           "package": "tianbar",
@@ -339,6 +366,7 @@
         "index": {
           "description": "whether the workspace has any urgent windows",
           "hierarchy": "System Tianbar XMonadLog",
+          "indexed": "2014-03-11T20:22:14",
           "module": "System.Tianbar.XMonadLog",
           "name": "wsUrgent",
           "package": "tianbar",

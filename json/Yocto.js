@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Yocto"
+        "phrase": "Yocto",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:59 UTC 2014",
           "module": "Text.JSON.Yocto",
           "name": "Yocto",
           "package": "Yocto",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Yocto",
+          "indexed": "2014-03-11T17:05:59",
           "module": "Text.JSON.Yocto",
           "name": "Yocto",
           "package": "Yocto",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:59 UTC 2014",
           "module": "Text.JSON.Yocto",
           "name": "Value",
           "package": "Yocto",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Yocto",
+          "indexed": "2014-03-11T17:05:59",
           "module": "Text.JSON.Yocto",
           "name": "Value",
           "package": "Yocto",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:59 UTC 2014",
           "module": "Text.JSON.Yocto",
           "name": "Array",
           "package": "Yocto",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Yocto",
+          "indexed": "2014-03-11T17:05:59",
           "module": "Text.JSON.Yocto",
           "name": "Array",
           "normalized": "Array[Value]",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:59 UTC 2014",
           "module": "Text.JSON.Yocto",
           "name": "Boolean",
           "package": "Yocto",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Yocto",
+          "indexed": "2014-03-11T17:05:59",
           "module": "Text.JSON.Yocto",
           "name": "Boolean",
           "package": "Yocto",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:59 UTC 2014",
           "module": "Text.JSON.Yocto",
           "name": "Null",
           "package": "Yocto",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Yocto",
+          "indexed": "2014-03-11T17:05:59",
           "module": "Text.JSON.Yocto",
           "name": "Null",
           "package": "Yocto",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:59 UTC 2014",
           "module": "Text.JSON.Yocto",
           "name": "Number",
           "package": "Yocto",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Yocto",
+          "indexed": "2014-03-11T17:05:59",
           "module": "Text.JSON.Yocto",
           "name": "Number",
           "package": "Yocto",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:59 UTC 2014",
           "module": "Text.JSON.Yocto",
           "name": "Object",
           "package": "Yocto",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Yocto",
+          "indexed": "2014-03-11T17:05:59",
           "module": "Text.JSON.Yocto",
           "name": "Object",
           "package": "Yocto",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:59 UTC 2014",
           "module": "Text.JSON.Yocto",
           "name": "String",
           "package": "Yocto",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Yocto",
+          "indexed": "2014-03-11T17:05:59",
           "module": "Text.JSON.Yocto",
           "name": "String",
           "package": "Yocto",

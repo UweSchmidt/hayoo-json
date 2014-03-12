@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tkyprof"
+        "phrase": "tkyprof",
+        "type": "phrase"
       },
       "type": "context"
     }

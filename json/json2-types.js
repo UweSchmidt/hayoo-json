@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "json2-types"
+        "phrase": "json2-types",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBase data types and function for escape JSON string\n   and renders \u003ccode\u003e\u003ca\u003eJson\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:02:18 UTC 2014",
           "module": "Data.JSON2.Types",
           "name": "Types",
           "package": "json2-types",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Base data types and function for escape JSON string and renders Json to String",
           "hierarchy": "Data JSON2 Types",
+          "indexed": "2014-03-11T19:02:18",
           "module": "Data.JSON2.Types",
           "name": "Types",
           "package": "json2-types",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:18 UTC 2014",
           "module": "Data.JSON2.Types",
           "name": "Json",
           "package": "json2-types",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data JSON2 Types",
+          "indexed": "2014-03-11T19:02:18",
           "module": "Data.JSON2.Types",
           "name": "Json",
           "package": "json2-types",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:18 UTC 2014",
           "module": "Data.JSON2.Types",
           "name": "Jsons",
           "package": "json2-types",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data JSON2 Types",
+          "indexed": "2014-03-11T19:02:18",
           "module": "Data.JSON2.Types",
           "name": "Jsons",
           "package": "json2-types",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:18 UTC 2014",
           "module": "Data.JSON2.Types",
           "name": "JArray",
           "package": "json2-types",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data JSON2 Types",
+          "indexed": "2014-03-11T19:02:18",
           "module": "Data.JSON2.Types",
           "name": "JArray",
           "normalized": "JArray[Json]",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:18 UTC 2014",
           "module": "Data.JSON2.Types",
           "name": "JBool",
           "package": "json2-types",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data JSON2 Types",
+          "indexed": "2014-03-11T19:02:18",
           "module": "Data.JSON2.Types",
           "name": "JBool",
           "package": "json2-types",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:18 UTC 2014",
           "module": "Data.JSON2.Types",
           "name": "JNull",
           "package": "json2-types",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Data JSON2 Types",
+          "indexed": "2014-03-11T19:02:18",
           "module": "Data.JSON2.Types",
           "name": "JNull",
           "package": "json2-types",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:18 UTC 2014",
           "module": "Data.JSON2.Types",
           "name": "JNumber",
           "package": "json2-types",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Data JSON2 Types",
+          "indexed": "2014-03-11T19:02:18",
           "module": "Data.JSON2.Types",
           "name": "JNumber",
           "package": "json2-types",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:18 UTC 2014",
           "module": "Data.JSON2.Types",
           "name": "JObject",
           "package": "json2-types",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Data JSON2 Types",
+          "indexed": "2014-03-11T19:02:18",
           "module": "Data.JSON2.Types",
           "name": "JObject",
           "package": "json2-types",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:18 UTC 2014",
           "module": "Data.JSON2.Types",
           "name": "JString",
           "package": "json2-types",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Data JSON2 Types",
+          "indexed": "2014-03-11T19:02:18",
           "module": "Data.JSON2.Types",
           "name": "JString",
           "package": "json2-types",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape JSON string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:18 UTC 2014",
           "module": "Data.JSON2.Types",
           "name": "escJString",
           "package": "json2-types",
@@ -228,6 +247,7 @@
         "index": {
           "description": "Escape JSON string",
           "hierarchy": "Data JSON2 Types",
+          "indexed": "2014-03-11T19:02:18",
           "module": "Data.JSON2.Types",
           "name": "escJString",
           "normalized": "String-\u003eString",
@@ -244,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenders \u003ccode\u003e\u003ca\u003eJson\u003c/a\u003e\u003c/code\u003e to String.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:18 UTC 2014",
           "module": "Data.JSON2.Types",
           "name": "toString",
           "package": "json2-types",
@@ -254,6 +275,7 @@
         "index": {
           "description": "Renders Json to String",
           "hierarchy": "Data JSON2 Types",
+          "indexed": "2014-03-11T19:02:18",
           "module": "Data.JSON2.Types",
           "name": "toString",
           "normalized": "Json-\u003eString",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hxthelper"
+        "phrase": "hxthelper",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "Helper",
           "package": "hxthelper",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "Helper",
           "package": "hxthelper",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "PUCase",
           "package": "hxthelper",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "PUCase",
           "package": "hxthelper",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "ParseXmlConfig",
           "package": "hxthelper",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "ParseXmlConfig",
           "package": "hxthelper",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "XmlEncoding",
           "package": "hxthelper",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "XmlEncoding",
           "package": "hxthelper",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "XmlValidator",
           "package": "hxthelper",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "XmlValidator",
           "package": "hxthelper",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "ParseXmlConfig",
           "package": "hxthelper",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "ParseXmlConfig",
           "package": "hxthelper",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_10_",
           "package": "hxthelper",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_10_",
           "package": "hxthelper",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_11_",
           "package": "hxthelper",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_11_",
           "package": "hxthelper",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_13_",
           "package": "hxthelper",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_13_",
           "package": "hxthelper",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_14_",
           "package": "hxthelper",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_14_",
           "package": "hxthelper",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_15_",
           "package": "hxthelper",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_15_",
           "package": "hxthelper",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_16_",
           "package": "hxthelper",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_16_",
           "package": "hxthelper",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_1_",
           "package": "hxthelper",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_1_",
           "package": "hxthelper",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_2_",
           "package": "hxthelper",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_2_",
           "package": "hxthelper",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_3_",
           "package": "hxthelper",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_3_",
           "package": "hxthelper",
@@ -343,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_4_",
           "package": "hxthelper",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_4_",
           "package": "hxthelper",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_5_",
           "package": "hxthelper",
@@ -374,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_5_",
           "package": "hxthelper",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_6_",
           "package": "hxthelper",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_6_",
           "package": "hxthelper",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_7_",
           "package": "hxthelper",
@@ -418,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_7_",
           "package": "hxthelper",
@@ -431,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_8_",
           "package": "hxthelper",
@@ -440,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_8_",
           "package": "hxthelper",
@@ -453,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_9_",
           "package": "hxthelper",
@@ -462,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISO8859_9_",
           "package": "hxthelper",
@@ -475,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISOLATIN1_",
           "package": "hxthelper",
@@ -484,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_ISOLATIN1_",
           "package": "hxthelper",
@@ -497,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_UCS2_",
           "package": "hxthelper",
@@ -506,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_UCS2_",
           "package": "hxthelper",
@@ -519,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_UNICODE_",
           "package": "hxthelper",
@@ -528,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_UNICODE_",
           "package": "hxthelper",
@@ -541,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_USASCII_",
           "package": "hxthelper",
@@ -550,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_USASCII_",
           "package": "hxthelper",
@@ -563,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_UTF16BE_",
           "package": "hxthelper",
@@ -572,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_UTF16BE_",
           "package": "hxthelper",
@@ -585,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_UTF16LE_",
           "package": "hxthelper",
@@ -594,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_UTF16LE_",
           "package": "hxthelper",
@@ -607,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_UTF16_",
           "package": "hxthelper",
@@ -616,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_UTF16_",
           "package": "hxthelper",
@@ -629,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "_UTF8_",
           "package": "hxthelper",
@@ -638,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "_UTF8_",
           "package": "hxthelper",
@@ -651,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "defaultParseXmlConfig",
           "package": "hxthelper",
@@ -660,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "defaultParseXmlConfig",
           "package": "hxthelper",
@@ -673,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "parseXml",
           "package": "hxthelper",
@@ -682,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "parseXml",
           "normalized": "ParseXmlConfig-\u003eByteString-\u003ea XmlTree",
@@ -697,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "pickle",
           "package": "hxthelper",
@@ -706,6 +769,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "pickle",
           "normalized": "PU a-\u003ea-\u003eByteString",
@@ -720,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "pickleStr",
           "package": "hxthelper",
@@ -729,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "pickleStr",
           "normalized": "PU a-\u003ea-\u003eString",
@@ -744,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "pickleWithEnc",
           "package": "hxthelper",
@@ -753,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "pickleWithEnc",
           "normalized": "XmlEncoding-\u003ePU a-\u003ea-\u003eByteString",
@@ -768,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "pxml_removeComments",
           "package": "hxthelper",
@@ -777,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "pxml_removeComments",
           "package": "hxthelper",
@@ -790,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "pxml_removeNonSignificantWhitespace",
           "package": "hxthelper",
@@ -799,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "pxml_removeNonSignificantWhitespace",
           "package": "hxthelper",
@@ -812,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "pxml_removeProcessingInstructions",
           "package": "hxthelper",
@@ -821,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "pxml_removeProcessingInstructions",
           "package": "hxthelper",
@@ -834,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "serializeXml",
           "package": "hxthelper",
@@ -843,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "serializeXml",
           "normalized": "XmlEncoding-\u003eXmlTree-\u003eByteString",
@@ -858,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "unpickle",
           "package": "hxthelper",
@@ -867,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "unpickle",
           "normalized": "PU a-\u003eByteString-\u003eb a",
@@ -881,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "unpickleDocM",
           "package": "hxthelper",
@@ -890,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "unpickleDocM",
           "normalized": "PU a-\u003eXmlTree-\u003eb a",
@@ -905,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "unpickleStr",
           "package": "hxthelper",
@@ -914,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "unpickleStr",
           "normalized": "PU a-\u003e[Char]-\u003eb a",
@@ -929,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "validateAndUnpickle",
           "package": "hxthelper",
@@ -938,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "validateAndUnpickle",
           "normalized": "XmlValidator-\u003ePU a-\u003eByteString-\u003eEither String a",
@@ -953,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "xmlEncoding",
           "package": "hxthelper",
@@ -962,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "xmlEncoding",
           "normalized": "ByteString-\u003ea DynEncoding",
@@ -977,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "xmlEncodingFromString",
           "package": "hxthelper",
@@ -986,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "xmlEncodingFromString",
           "normalized": "String-\u003eEither String XmlEncoding",
@@ -1001,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "xmlEncodingToString",
           "package": "hxthelper",
@@ -1010,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "xmlEncodingToString",
           "normalized": "XmlEncoding-\u003eString",
@@ -1025,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "xpByteString",
           "package": "hxthelper",
@@ -1034,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "xpByteString",
           "package": "hxthelper",
@@ -1047,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "xpCase",
           "package": "hxthelper",
@@ -1056,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "xpCase",
           "normalized": "(a-\u003eb,b-\u003ea)-\u003ePU a-\u003ePUCase b",
@@ -1071,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "xpCaseConst",
           "package": "hxthelper",
@@ -1080,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "xpCaseConst",
           "normalized": "a-\u003ePU()-\u003ePUCase a",
@@ -1095,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "xpConsumeAll",
           "package": "hxthelper",
@@ -1104,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "xpConsumeAll",
           "normalized": "PU a-\u003ePU a",
@@ -1119,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "xpEither",
           "package": "hxthelper",
@@ -1128,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "xpEither",
           "normalized": "PU a-\u003ePU b-\u003ePU(Either a b)",
@@ -1143,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "xpExhaustiveList",
           "package": "hxthelper",
@@ -1152,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "xpExhaustiveList",
           "normalized": "PU a-\u003ePU[a]",
@@ -1167,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "xpIgnoreOnUnpickle",
           "package": "hxthelper",
@@ -1176,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "xpIgnoreOnUnpickle",
           "normalized": "(PU a-\u003ePU a)-\u003ePU a-\u003ePU a",
@@ -1191,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "xpMany",
           "package": "hxthelper",
@@ -1200,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "xpMany",
           "normalized": "String-\u003ePU a-\u003ePU[a]",
@@ -1215,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "xpOne",
           "package": "hxthelper",
@@ -1224,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "xpOne",
           "normalized": "PU a-\u003ePU a",
@@ -1239,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "xpSwitch",
           "package": "hxthelper",
@@ -1248,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "xpSwitch",
           "normalized": "[PUCase a]-\u003ePU a",
@@ -1263,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "xpTagSwitch",
           "package": "hxthelper",
@@ -1272,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "xpTagSwitch",
           "normalized": "(a-\u003eb)-\u003e[PUCase a]-\u003ePU a",
@@ -1287,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:48 UTC 2014",
           "module": "Text.XML.HXT.Helper",
           "name": "xpTextFixed",
           "package": "hxthelper",
@@ -1296,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT Helper",
+          "indexed": "2014-03-11T18:54:48",
           "module": "Text.XML.HXT.Helper",
           "name": "xpTextFixed",
           "normalized": "String-\u003ePU()",

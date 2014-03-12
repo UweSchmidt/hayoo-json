@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "log-effect"
+        "phrase": "log-effect",
+        "type": "phrase"
       },
       "type": "context"
     }

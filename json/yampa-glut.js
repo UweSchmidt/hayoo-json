@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yampa-glut"
+        "phrase": "yampa-glut",
+        "type": "phrase"
       },
       "type": "context"
     }

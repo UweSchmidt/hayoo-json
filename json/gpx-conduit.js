@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gpx-conduit"
+        "phrase": "gpx-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a partial parsing of the GPX 1.0 and 1.0 exchange types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:19:35 UTC 2014",
           "module": "Geo.GPX.Conduit",
           "name": "Conduit",
           "package": "gpx-conduit",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This is partial parsing of the GPX and exchange types",
           "hierarchy": "Geo GPX Conduit",
+          "indexed": "2014-03-11T18:19:35",
           "module": "Geo.GPX.Conduit",
           "name": "Conduit",
           "package": "gpx-conduit",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA GPX file usually is a single track (but can be many)\n with one or more segments and many points in each segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:35 UTC 2014",
           "module": "Geo.GPX.Conduit",
           "name": "GPX",
           "package": "gpx-conduit",
@@ -51,6 +54,7 @@
         "index": {
           "description": "GPX file usually is single track but can be many with one or more segments and many points in each segment",
           "hierarchy": "Geo GPX Conduit",
+          "indexed": "2014-03-11T18:19:35",
           "module": "Geo.GPX.Conduit",
           "name": "GPX",
           "package": "gpx-conduit",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrack point is a full-fledged representation of all the data\n available in most GPS loggers.  It is possible you don't want\n all this data and can just made do with coordinates (via \u003ccode\u003ePnt\u003c/code\u003e)\n or a custom derivative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:35 UTC 2014",
           "module": "Geo.GPX.Conduit",
           "name": "Point",
           "package": "gpx-conduit",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Track point is full-fledged representation of all the data available in most GPS loggers It is possible you don want all this data and can just made do with coordinates via Pnt or custom derivative",
           "hierarchy": "Geo GPX Conduit",
+          "indexed": "2014-03-11T18:19:35",
           "module": "Geo.GPX.Conduit",
           "name": "Point",
           "package": "gpx-conduit",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA GPX segments is just a bundle of points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:35 UTC 2014",
           "module": "Geo.GPX.Conduit",
           "name": "Segment",
           "package": "gpx-conduit",
@@ -97,6 +104,7 @@
         "index": {
           "description": "GPX segments is just bundle of points",
           "hierarchy": "Geo GPX Conduit",
+          "indexed": "2014-03-11T18:19:35",
           "module": "Geo.GPX.Conduit",
           "name": "Segment",
           "package": "gpx-conduit",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:35 UTC 2014",
           "module": "Geo.GPX.Conduit",
           "name": "Track",
           "package": "gpx-conduit",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Geo GPX Conduit",
+          "indexed": "2014-03-11T18:19:35",
           "module": "Geo.GPX.Conduit",
           "name": "Track",
           "package": "gpx-conduit",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:35 UTC 2014",
           "module": "Geo.GPX.Conduit",
           "name": "GPX",
           "package": "gpx-conduit",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Geo GPX Conduit",
+          "indexed": "2014-03-11T18:19:35",
           "module": "Geo.GPX.Conduit",
           "name": "GPX",
           "package": "gpx-conduit",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:35 UTC 2014",
           "module": "Geo.GPX.Conduit",
           "name": "Point",
           "package": "gpx-conduit",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Geo GPX Conduit",
+          "indexed": "2014-03-11T18:19:35",
           "module": "Geo.GPX.Conduit",
           "name": "Point",
           "package": "gpx-conduit",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:35 UTC 2014",
           "module": "Geo.GPX.Conduit",
           "name": "Segment",
           "package": "gpx-conduit",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Geo GPX Conduit",
+          "indexed": "2014-03-11T18:19:35",
           "module": "Geo.GPX.Conduit",
           "name": "Segment",
           "package": "gpx-conduit",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:35 UTC 2014",
           "module": "Geo.GPX.Conduit",
           "name": "Track",
           "package": "gpx-conduit",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Geo GPX Conduit",
+          "indexed": "2014-03-11T18:19:35",
           "module": "Geo.GPX.Conduit",
           "name": "Track",
           "package": "gpx-conduit",
@@ -220,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn meters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:35 UTC 2014",
           "module": "Geo.GPX.Conduit",
           "name": "pntEle",
           "package": "gpx-conduit",
@@ -230,6 +249,7 @@
         "index": {
           "description": "In meters",
           "hierarchy": "Geo GPX Conduit",
+          "indexed": "2014-03-11T18:19:35",
           "module": "Geo.GPX.Conduit",
           "name": "pntEle",
           "package": "gpx-conduit",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:35 UTC 2014",
           "module": "Geo.GPX.Conduit",
           "name": "pntLat",
           "package": "gpx-conduit",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Geo GPX Conduit",
+          "indexed": "2014-03-11T18:19:35",
           "module": "Geo.GPX.Conduit",
           "name": "pntLat",
           "package": "gpx-conduit",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:35 UTC 2014",
           "module": "Geo.GPX.Conduit",
           "name": "pntLon",
           "package": "gpx-conduit",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Geo GPX Conduit",
+          "indexed": "2014-03-11T18:19:35",
           "module": "Geo.GPX.Conduit",
           "name": "pntLon",
           "package": "gpx-conduit",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:35 UTC 2014",
           "module": "Geo.GPX.Conduit",
           "name": "pntTime",
           "package": "gpx-conduit",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Geo GPX Conduit",
+          "indexed": "2014-03-11T18:19:35",
           "module": "Geo.GPX.Conduit",
           "name": "pntTime",
           "package": "gpx-conduit",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:35 UTC 2014",
           "module": "Geo.GPX.Conduit",
           "name": "points",
           "package": "gpx-conduit",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Geo GPX Conduit",
+          "indexed": "2014-03-11T18:19:35",
           "module": "Geo.GPX.Conduit",
           "name": "points",
           "normalized": "[Point]",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:35 UTC 2014",
           "module": "Geo.GPX.Conduit",
           "name": "pt",
           "package": "gpx-conduit",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Geo GPX Conduit",
+          "indexed": "2014-03-11T18:19:35",
           "module": "Geo.GPX.Conduit",
           "name": "pt",
           "normalized": "Latitude-\u003eLongitude-\u003eMaybe Double-\u003eMaybe UTCTime-\u003ePoint",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:35 UTC 2014",
           "module": "Geo.GPX.Conduit",
           "name": "readGPXFile",
           "package": "gpx-conduit",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Geo GPX Conduit",
+          "indexed": "2014-03-11T18:19:35",
           "module": "Geo.GPX.Conduit",
           "name": "readGPXFile",
           "normalized": "FilePath-\u003eIO(Maybe GPX)",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:35 UTC 2014",
           "module": "Geo.GPX.Conduit",
           "name": "segments",
           "package": "gpx-conduit",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Geo GPX Conduit",
+          "indexed": "2014-03-11T18:19:35",
           "module": "Geo.GPX.Conduit",
           "name": "segments",
           "normalized": "[Segment]",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:35 UTC 2014",
           "module": "Geo.GPX.Conduit",
           "name": "tracks",
           "package": "gpx-conduit",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Geo GPX Conduit",
+          "indexed": "2014-03-11T18:19:35",
           "module": "Geo.GPX.Conduit",
           "name": "tracks",
           "normalized": "[Track]",
@@ -425,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:35 UTC 2014",
           "module": "Geo.GPX.Conduit",
           "name": "trkDescription",
           "package": "gpx-conduit",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Geo GPX Conduit",
+          "indexed": "2014-03-11T18:19:35",
           "module": "Geo.GPX.Conduit",
           "name": "trkDescription",
           "package": "gpx-conduit",
@@ -447,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:35 UTC 2014",
           "module": "Geo.GPX.Conduit",
           "name": "trkName",
           "package": "gpx-conduit",
@@ -456,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Geo GPX Conduit",
+          "indexed": "2014-03-11T18:19:35",
           "module": "Geo.GPX.Conduit",
           "name": "trkName",
           "package": "gpx-conduit",

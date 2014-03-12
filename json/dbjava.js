@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dbjava"
+        "phrase": "dbjava",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "BinaryClass",
           "package": "dbjava",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "BinaryClass",
           "package": "dbjava",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "Attributes_Count",
           "package": "dbjava",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "Attributes_Count",
           "package": "dbjava",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "ConstantPool_Count",
           "package": "dbjava",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "ConstantPool_Count",
           "package": "dbjava",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "Fields_Count",
           "package": "dbjava",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "Fields_Count",
           "package": "dbjava",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "Index_Constant_Pool",
           "package": "dbjava",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "Index_Constant_Pool",
           "package": "dbjava",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "Interfaces_Count",
           "package": "dbjava",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "Interfaces_Count",
           "package": "dbjava",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "ListaInt",
           "package": "dbjava",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "ListaInt",
           "package": "dbjava",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "Methods_Count",
           "package": "dbjava",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "Methods_Count",
           "package": "dbjava",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "Tupla2Int",
           "package": "dbjava",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "Tupla2Int",
           "package": "dbjava",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "Tupla4Int",
           "package": "dbjava",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "Tupla4Int",
           "package": "dbjava",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "Tupla5Int",
           "package": "dbjava",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "Tupla5Int",
           "package": "dbjava",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "(.+.)",
           "package": "dbjava",
@@ -258,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "(.+.) .+.",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "bitsSet",
           "package": "dbjava",
@@ -281,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "bitsSet",
           "normalized": "Int-\u003eInt-\u003eBool",
@@ -296,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "chgAttrG_ClassFile",
           "package": "dbjava",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "chgAttrG_ClassFile",
           "normalized": "ClassFile-\u003eClassFile",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "chgAttrG_Fields",
           "package": "dbjava",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "chgAttrG_Fields",
           "normalized": "ClassFile-\u003eClassFile",
@@ -344,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "chgAttrG_Methods",
           "package": "dbjava",
@@ -353,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "chgAttrG_Methods",
           "normalized": "ClassFile-\u003eClassFile",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "decodeClassFile",
           "package": "dbjava",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "decodeClassFile",
           "normalized": "FilePath-\u003eIO ClassFile",
@@ -392,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "encodeClassFile",
           "package": "dbjava",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "encodeClassFile",
           "normalized": "FilePath-\u003eClassFile-\u003eIO()",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "fChgAttr",
           "package": "dbjava",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "fChgAttr",
           "normalized": "CP_Infos-\u003eAttribute_Info-\u003eAttribute_Info",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "fromFloat2Word32",
           "package": "dbjava",
@@ -449,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "fromFloat2Word32",
           "normalized": "Float-\u003eWord",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "fromInt2Word16",
           "package": "dbjava",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "fromInt2Word16",
           "normalized": "Int-\u003eWord",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "fromInt2Word32",
           "package": "dbjava",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "fromInt2Word32",
           "normalized": "Int-\u003eWord",
@@ -512,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "fromInt2Word8",
           "package": "dbjava",
@@ -521,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "fromInt2Word8",
           "normalized": "Int-\u003eWord",
@@ -536,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "fromWord162Int",
           "package": "dbjava",
@@ -545,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "fromWord162Int",
           "normalized": "Word-\u003eInt",
@@ -560,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "fromWord322Float",
           "package": "dbjava",
@@ -569,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "fromWord322Float",
           "normalized": "Word-\u003eFloat",
@@ -584,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "fromWord322Int",
           "package": "dbjava",
@@ -593,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "fromWord322Int",
           "normalized": "Word-\u003eInt",
@@ -608,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "fromWord82Int",
           "package": "dbjava",
@@ -617,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "fromWord82Int",
           "normalized": "Word-\u003eInt",
@@ -632,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "getMany",
           "package": "dbjava",
@@ -641,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "getMany",
           "normalized": "Int-\u003eGet[a]",
@@ -656,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "getNameCP_Utf8",
           "package": "dbjava",
@@ -665,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "getNameCP_Utf8",
           "normalized": "Int-\u003eCP_Infos-\u003eString",
@@ -680,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.BinaryClass",
           "name": "toInt64",
           "package": "dbjava",
@@ -689,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Jvm BinaryClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.BinaryClass",
           "name": "toInt64",
           "normalized": "Int-\u003eInt",
@@ -704,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "ClassFormat",
           "package": "dbjava",
@@ -712,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "ClassFormat",
           "package": "dbjava",
@@ -725,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "AccessFlags",
           "package": "dbjava",
@@ -733,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "AccessFlags",
           "package": "dbjava",
@@ -746,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Attribute_Info",
           "package": "dbjava",
@@ -754,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Attribute_Info",
           "package": "dbjava",
@@ -767,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Attribute_Infos",
           "package": "dbjava",
@@ -775,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Attribute_Infos",
           "package": "dbjava",
@@ -788,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Attributes_Count",
           "package": "dbjava",
@@ -796,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Attributes_Count",
           "package": "dbjava",
@@ -809,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "CP_Info",
           "package": "dbjava",
@@ -817,6 +888,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "CP_Info",
           "package": "dbjava",
@@ -830,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "CP_Infos",
           "package": "dbjava",
@@ -838,6 +911,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "CP_Infos",
           "package": "dbjava",
@@ -851,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "ClassFile",
           "package": "dbjava",
@@ -859,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "ClassFile",
           "package": "dbjava",
@@ -872,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "ConstantPool_Count",
           "package": "dbjava",
@@ -880,6 +957,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "ConstantPool_Count",
           "package": "dbjava",
@@ -893,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Field_Info",
           "package": "dbjava",
@@ -901,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Field_Info",
           "package": "dbjava",
@@ -914,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Field_Infos",
           "package": "dbjava",
@@ -922,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Field_Infos",
           "package": "dbjava",
@@ -935,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Fields_Count",
           "package": "dbjava",
@@ -943,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Fields_Count",
           "package": "dbjava",
@@ -956,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Index_Constant_Pool",
           "package": "dbjava",
@@ -964,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Index_Constant_Pool",
           "package": "dbjava",
@@ -977,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Interface",
           "package": "dbjava",
@@ -985,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Interface",
           "package": "dbjava",
@@ -998,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Interfaces",
           "package": "dbjava",
@@ -1006,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Interfaces",
           "package": "dbjava",
@@ -1019,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Interfaces_Count",
           "package": "dbjava",
@@ -1027,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Interfaces_Count",
           "package": "dbjava",
@@ -1040,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "ListaInt",
           "package": "dbjava",
@@ -1048,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "ListaInt",
           "package": "dbjava",
@@ -1061,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Magic",
           "package": "dbjava",
@@ -1069,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Magic",
           "package": "dbjava",
@@ -1082,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "MajorVersion",
           "package": "dbjava",
@@ -1090,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "MajorVersion",
           "package": "dbjava",
@@ -1103,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Method_Info",
           "package": "dbjava",
@@ -1111,6 +1210,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Method_Info",
           "package": "dbjava",
@@ -1124,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Method_Infos",
           "package": "dbjava",
@@ -1132,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Method_Infos",
           "package": "dbjava",
@@ -1145,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Methods_Count",
           "package": "dbjava",
@@ -1153,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Methods_Count",
           "package": "dbjava",
@@ -1166,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "MinorVersion",
           "package": "dbjava",
@@ -1174,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "MinorVersion",
           "package": "dbjava",
@@ -1187,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "SuperClass",
           "package": "dbjava",
@@ -1195,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "SuperClass",
           "package": "dbjava",
@@ -1208,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Tag",
           "package": "dbjava",
@@ -1216,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Tag",
           "package": "dbjava",
@@ -1229,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "ThisClass",
           "package": "dbjava",
@@ -1237,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "ThisClass",
           "package": "dbjava",
@@ -1250,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Tupla2Int",
           "package": "dbjava",
@@ -1258,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Tupla2Int",
           "package": "dbjava",
@@ -1271,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Tupla4Int",
           "package": "dbjava",
@@ -1279,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Tupla4Int",
           "package": "dbjava",
@@ -1292,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Tupla5Int",
           "package": "dbjava",
@@ -1300,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Tupla5Int",
           "package": "dbjava",
@@ -1313,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "AccessFlags",
           "package": "dbjava",
@@ -1322,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "AccessFlags",
           "normalized": "AccessFlags[Int]",
@@ -1337,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "AttributeCode",
           "package": "dbjava",
@@ -1346,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "AttributeCode",
           "package": "dbjava",
@@ -1359,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "AttributeConstantValue",
           "package": "dbjava",
@@ -1368,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "AttributeConstantValue",
           "package": "dbjava",
@@ -1381,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "AttributeDeprecated",
           "package": "dbjava",
@@ -1390,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "AttributeDeprecated",
           "package": "dbjava",
@@ -1403,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "AttributeExceptions",
           "package": "dbjava",
@@ -1412,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "AttributeExceptions",
           "package": "dbjava",
@@ -1425,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "AttributeGeneric",
           "package": "dbjava",
@@ -1434,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "AttributeGeneric",
           "package": "dbjava",
@@ -1447,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "AttributeInnerClasses",
           "package": "dbjava",
@@ -1456,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "AttributeInnerClasses",
           "package": "dbjava",
@@ -1469,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "AttributeLineNumberTable",
           "package": "dbjava",
@@ -1478,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "AttributeLineNumberTable",
           "package": "dbjava",
@@ -1491,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "AttributeLocalVariableTable",
           "package": "dbjava",
@@ -1500,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "AttributeLocalVariableTable",
           "package": "dbjava",
@@ -1513,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "AttributeSourceFile",
           "package": "dbjava",
@@ -1522,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "AttributeSourceFile",
           "package": "dbjava",
@@ -1535,6 +1673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "AttributeSynthetic",
           "package": "dbjava",
@@ -1544,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "AttributeSynthetic",
           "package": "dbjava",
@@ -1557,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "ClassFile",
           "package": "dbjava",
@@ -1566,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "ClassFile",
           "package": "dbjava",
@@ -1579,6 +1721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Class_Info",
           "package": "dbjava",
@@ -1588,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Class_Info",
           "package": "dbjava",
@@ -1601,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Double_Info",
           "package": "dbjava",
@@ -1610,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Double_Info",
           "package": "dbjava",
@@ -1623,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "FieldRef_Info",
           "package": "dbjava",
@@ -1632,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "FieldRef_Info",
           "package": "dbjava",
@@ -1645,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Field_Info",
           "package": "dbjava",
@@ -1654,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Field_Info",
           "package": "dbjava",
@@ -1667,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Float_Info",
           "package": "dbjava",
@@ -1676,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Float_Info",
           "package": "dbjava",
@@ -1689,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Integer_Info",
           "package": "dbjava",
@@ -1698,6 +1851,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Integer_Info",
           "package": "dbjava",
@@ -1711,6 +1865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Interface",
           "package": "dbjava",
@@ -1720,6 +1875,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Interface",
           "package": "dbjava",
@@ -1733,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "InterfaceMethodRef_Info",
           "package": "dbjava",
@@ -1742,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "InterfaceMethodRef_Info",
           "package": "dbjava",
@@ -1755,6 +1913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Long_Info",
           "package": "dbjava",
@@ -1764,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Long_Info",
           "package": "dbjava",
@@ -1777,6 +1937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Magic",
           "package": "dbjava",
@@ -1786,6 +1947,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Magic",
           "package": "dbjava",
@@ -1799,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "MajorVersion",
           "package": "dbjava",
@@ -1808,6 +1971,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "MajorVersion",
           "package": "dbjava",
@@ -1821,6 +1985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "MethodRef_Info",
           "package": "dbjava",
@@ -1830,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "MethodRef_Info",
           "package": "dbjava",
@@ -1843,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Method_Info",
           "package": "dbjava",
@@ -1852,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Method_Info",
           "package": "dbjava",
@@ -1865,6 +2033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "MinorVersion",
           "package": "dbjava",
@@ -1874,6 +2043,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "MinorVersion",
           "package": "dbjava",
@@ -1887,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "NameAndType_Info",
           "package": "dbjava",
@@ -1896,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "NameAndType_Info",
           "package": "dbjava",
@@ -1909,6 +2081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "String_Info",
           "package": "dbjava",
@@ -1918,6 +2091,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "String_Info",
           "package": "dbjava",
@@ -1931,6 +2105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "SuperClass",
           "package": "dbjava",
@@ -1940,6 +2115,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "SuperClass",
           "package": "dbjava",
@@ -1953,6 +2129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "TagClass",
           "package": "dbjava",
@@ -1962,6 +2139,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "TagClass",
           "package": "dbjava",
@@ -1975,6 +2153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "TagDouble",
           "package": "dbjava",
@@ -1984,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "TagDouble",
           "package": "dbjava",
@@ -1997,6 +2177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "TagFieldRef",
           "package": "dbjava",
@@ -2006,6 +2187,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "TagFieldRef",
           "package": "dbjava",
@@ -2019,6 +2201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "TagFloat",
           "package": "dbjava",
@@ -2028,6 +2211,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "TagFloat",
           "package": "dbjava",
@@ -2041,6 +2225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "TagInteger",
           "package": "dbjava",
@@ -2050,6 +2235,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "TagInteger",
           "package": "dbjava",
@@ -2063,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "TagInterfaceMethodRef",
           "package": "dbjava",
@@ -2072,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "TagInterfaceMethodRef",
           "package": "dbjava",
@@ -2085,6 +2273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "TagLong",
           "package": "dbjava",
@@ -2094,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "TagLong",
           "package": "dbjava",
@@ -2107,6 +2297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "TagMethodRef",
           "package": "dbjava",
@@ -2116,6 +2307,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "TagMethodRef",
           "package": "dbjava",
@@ -2129,6 +2321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "TagNameAndType",
           "package": "dbjava",
@@ -2138,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "TagNameAndType",
           "package": "dbjava",
@@ -2151,6 +2345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "TagString",
           "package": "dbjava",
@@ -2160,6 +2355,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "TagString",
           "package": "dbjava",
@@ -2173,6 +2369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "TagUtf8",
           "package": "dbjava",
@@ -2182,6 +2379,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "TagUtf8",
           "package": "dbjava",
@@ -2195,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "ThisClass",
           "package": "dbjava",
@@ -2204,6 +2403,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "ThisClass",
           "package": "dbjava",
@@ -2217,6 +2417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "Utf8_Info",
           "package": "dbjava",
@@ -2226,6 +2427,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "Utf8_Info",
           "package": "dbjava",
@@ -2239,6 +2441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Abstract",
           "package": "dbjava",
@@ -2248,6 +2451,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Abstract",
           "package": "dbjava",
@@ -2261,6 +2465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Annotation",
           "package": "dbjava",
@@ -2270,6 +2475,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Annotation",
           "package": "dbjava",
@@ -2283,6 +2489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Enum",
           "package": "dbjava",
@@ -2292,6 +2499,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Enum",
           "package": "dbjava",
@@ -2305,6 +2513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Final",
           "package": "dbjava",
@@ -2314,6 +2523,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Final",
           "package": "dbjava",
@@ -2327,6 +2537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Interface",
           "package": "dbjava",
@@ -2336,6 +2547,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Interface",
           "package": "dbjava",
@@ -2349,6 +2561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Native",
           "package": "dbjava",
@@ -2358,6 +2571,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Native",
           "package": "dbjava",
@@ -2371,6 +2585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Private",
           "package": "dbjava",
@@ -2380,6 +2595,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Private",
           "package": "dbjava",
@@ -2393,6 +2609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Protected",
           "package": "dbjava",
@@ -2402,6 +2619,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Protected",
           "package": "dbjava",
@@ -2415,6 +2633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Public",
           "package": "dbjava",
@@ -2424,6 +2643,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Public",
           "package": "dbjava",
@@ -2437,6 +2657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Static",
           "package": "dbjava",
@@ -2446,6 +2667,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Static",
           "package": "dbjava",
@@ -2459,6 +2681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Strict",
           "package": "dbjava",
@@ -2468,6 +2691,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Strict",
           "package": "dbjava",
@@ -2481,6 +2705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Super_Synchronized",
           "package": "dbjava",
@@ -2490,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Super_Synchronized",
           "package": "dbjava",
@@ -2503,6 +2729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Synthetic",
           "package": "dbjava",
@@ -2512,6 +2739,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Synthetic",
           "package": "dbjava",
@@ -2525,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Transient_Varargs",
           "package": "dbjava",
@@ -2534,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Transient_Varargs",
           "package": "dbjava",
@@ -2547,6 +2777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Volatile_Bridge",
           "package": "dbjava",
@@ -2556,6 +2787,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "acc_Volatile_Bridge",
           "package": "dbjava",
@@ -2569,6 +2801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "acfg",
           "package": "dbjava",
@@ -2578,6 +2811,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "acfg",
           "package": "dbjava",
@@ -2590,6 +2824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "af_fi",
           "package": "dbjava",
@@ -2599,6 +2834,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "af_fi",
           "package": "dbjava",
@@ -2611,6 +2847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "af_mi",
           "package": "dbjava",
@@ -2620,6 +2857,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "af_mi",
           "package": "dbjava",
@@ -2632,6 +2870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_attr_attr",
           "package": "dbjava",
@@ -2641,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_attr_attr",
           "package": "dbjava",
@@ -2653,6 +2893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_attr_fi",
           "package": "dbjava",
@@ -2662,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_attr_fi",
           "package": "dbjava",
@@ -2674,6 +2916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_attr_mi",
           "package": "dbjava",
@@ -2683,6 +2926,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_attr_mi",
           "package": "dbjava",
@@ -2695,6 +2939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_attributes",
           "package": "dbjava",
@@ -2704,6 +2949,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_attributes",
           "package": "dbjava",
@@ -2716,6 +2962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_classes",
           "package": "dbjava",
@@ -2725,6 +2972,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_classes",
           "normalized": "[(Int,Int,Int,AccessFlags)]",
@@ -2739,6 +2987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_code_attr",
           "package": "dbjava",
@@ -2748,6 +2997,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_code_attr",
           "package": "dbjava",
@@ -2760,6 +3010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_cp",
           "package": "dbjava",
@@ -2769,6 +3020,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_cp",
           "package": "dbjava",
@@ -2781,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_ex_attr",
           "package": "dbjava",
@@ -2790,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_ex_attr",
           "package": "dbjava",
@@ -2802,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_fields",
           "package": "dbjava",
@@ -2811,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_fields",
           "package": "dbjava",
@@ -2823,6 +3079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_interfaces",
           "package": "dbjava",
@@ -2832,6 +3089,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_interfaces",
           "package": "dbjava",
@@ -2844,6 +3102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_line_attr",
           "package": "dbjava",
@@ -2853,6 +3112,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_line_attr",
           "package": "dbjava",
@@ -2865,6 +3125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_methods",
           "package": "dbjava",
@@ -2874,6 +3135,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_methods",
           "package": "dbjava",
@@ -2886,6 +3148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_var_attr",
           "package": "dbjava",
@@ -2895,6 +3158,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "array_var_attr",
           "package": "dbjava",
@@ -2907,6 +3171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "cad_cp",
           "package": "dbjava",
@@ -2916,6 +3181,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "cad_cp",
           "package": "dbjava",
@@ -2928,6 +3194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "count_attributes",
           "package": "dbjava",
@@ -2937,6 +3204,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "count_attributes",
           "package": "dbjava",
@@ -2949,6 +3217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "count_cp",
           "package": "dbjava",
@@ -2958,6 +3227,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "count_cp",
           "package": "dbjava",
@@ -2970,6 +3240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "count_fields",
           "package": "dbjava",
@@ -2979,6 +3250,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "count_fields",
           "package": "dbjava",
@@ -2991,6 +3263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "count_interfaces",
           "package": "dbjava",
@@ -3000,6 +3273,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "count_interfaces",
           "package": "dbjava",
@@ -3012,6 +3286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "count_methods",
           "package": "dbjava",
@@ -3021,6 +3296,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "count_methods",
           "package": "dbjava",
@@ -3033,6 +3309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "desc",
           "package": "dbjava",
@@ -3042,6 +3319,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "desc",
           "package": "dbjava",
@@ -3054,6 +3332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "exception_index_table",
           "package": "dbjava",
@@ -3063,6 +3342,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "exception_index_table",
           "normalized": "[Int]",
@@ -3077,6 +3357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_cp",
           "package": "dbjava",
@@ -3086,6 +3367,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_cp",
           "package": "dbjava",
@@ -3098,6 +3380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_descr_cp",
           "package": "dbjava",
@@ -3107,6 +3390,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_descr_cp",
           "package": "dbjava",
@@ -3119,6 +3403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_descr_fi",
           "package": "dbjava",
@@ -3128,6 +3413,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_descr_fi",
           "package": "dbjava",
@@ -3140,6 +3426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_descr_mi",
           "package": "dbjava",
@@ -3149,6 +3436,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_descr_mi",
           "package": "dbjava",
@@ -3161,6 +3449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_if",
           "package": "dbjava",
@@ -3170,6 +3459,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_if",
           "package": "dbjava",
@@ -3182,6 +3472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_name_attr",
           "package": "dbjava",
@@ -3191,6 +3482,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_name_attr",
           "package": "dbjava",
@@ -3203,6 +3495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_name_cp",
           "package": "dbjava",
@@ -3212,6 +3505,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_name_cp",
           "package": "dbjava",
@@ -3224,6 +3518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_name_fi",
           "package": "dbjava",
@@ -3233,6 +3528,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_name_fi",
           "package": "dbjava",
@@ -3245,6 +3541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_name_mi",
           "package": "dbjava",
@@ -3254,6 +3551,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_name_mi",
           "package": "dbjava",
@@ -3266,6 +3564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_nameandtype_cp",
           "package": "dbjava",
@@ -3275,6 +3574,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_nameandtype_cp",
           "package": "dbjava",
@@ -3287,6 +3587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_sp",
           "package": "dbjava",
@@ -3296,6 +3597,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_sp",
           "package": "dbjava",
@@ -3308,6 +3610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_src_attr",
           "package": "dbjava",
@@ -3317,6 +3620,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_src_attr",
           "package": "dbjava",
@@ -3329,6 +3633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_th",
           "package": "dbjava",
@@ -3338,6 +3643,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_th",
           "package": "dbjava",
@@ -3350,6 +3656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_value_attr",
           "package": "dbjava",
@@ -3359,6 +3666,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "index_value_attr",
           "package": "dbjava",
@@ -3371,6 +3679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "len_local_attr",
           "package": "dbjava",
@@ -3380,6 +3689,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "len_local_attr",
           "package": "dbjava",
@@ -3392,6 +3702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "len_stack_attr",
           "package": "dbjava",
@@ -3401,6 +3712,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "len_stack_attr",
           "package": "dbjava",
@@ -3413,6 +3725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "magic",
           "package": "dbjava",
@@ -3422,6 +3735,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "magic",
           "package": "dbjava",
@@ -3434,6 +3748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "maxver",
           "package": "dbjava",
@@ -3443,6 +3758,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "maxver",
           "package": "dbjava",
@@ -3455,6 +3771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "minver",
           "package": "dbjava",
@@ -3464,6 +3781,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "minver",
           "package": "dbjava",
@@ -3476,6 +3794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "numMaxVer",
           "package": "dbjava",
@@ -3485,6 +3804,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "numMaxVer",
           "package": "dbjava",
@@ -3498,6 +3818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "numMinVer",
           "package": "dbjava",
@@ -3507,6 +3828,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "numMinVer",
           "package": "dbjava",
@@ -3520,6 +3842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "numf_cp",
           "package": "dbjava",
@@ -3529,6 +3852,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "numf_cp",
           "package": "dbjava",
@@ -3541,6 +3865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "numi_cp",
           "package": "dbjava",
@@ -3550,6 +3875,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "numi_cp",
           "package": "dbjava",
@@ -3562,6 +3888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "numi_d1_cp",
           "package": "dbjava",
@@ -3571,6 +3898,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "numi_d1_cp",
           "package": "dbjava",
@@ -3583,6 +3911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "numi_d2_cp",
           "package": "dbjava",
@@ -3592,6 +3921,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "numi_d2_cp",
           "package": "dbjava",
@@ -3604,6 +3934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "numi_l1_cp",
           "package": "dbjava",
@@ -3613,6 +3944,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "numi_l1_cp",
           "package": "dbjava",
@@ -3625,6 +3957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "numi_l2_cp",
           "package": "dbjava",
@@ -3634,6 +3967,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "numi_l2_cp",
           "package": "dbjava",
@@ -3646,6 +3980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "rest_attr",
           "package": "dbjava",
@@ -3655,6 +3990,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "rest_attr",
           "package": "dbjava",
@@ -3667,6 +4003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "super",
           "package": "dbjava",
@@ -3676,6 +4013,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "super",
           "package": "dbjava",
@@ -3688,6 +4026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "tag_cp",
           "package": "dbjava",
@@ -3697,6 +4036,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "tag_cp",
           "package": "dbjava",
@@ -3709,6 +4049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam__table_attr",
           "package": "dbjava",
@@ -3718,6 +4059,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam__table_attr",
           "package": "dbjava",
@@ -3730,6 +4072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam_atrr_attr",
           "package": "dbjava",
@@ -3739,6 +4082,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam_atrr_attr",
           "package": "dbjava",
@@ -3751,6 +4095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam_attr",
           "package": "dbjava",
@@ -3760,6 +4105,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam_attr",
           "package": "dbjava",
@@ -3772,6 +4118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam_classes",
           "package": "dbjava",
@@ -3781,6 +4128,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam_classes",
           "package": "dbjava",
@@ -3793,6 +4141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam_code_attr",
           "package": "dbjava",
@@ -3802,6 +4151,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam_code_attr",
           "package": "dbjava",
@@ -3814,6 +4164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam_cp",
           "package": "dbjava",
@@ -3823,6 +4174,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam_cp",
           "package": "dbjava",
@@ -3835,6 +4187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam_ex_attr",
           "package": "dbjava",
@@ -3844,6 +4197,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam_ex_attr",
           "package": "dbjava",
@@ -3856,6 +4210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam_fi",
           "package": "dbjava",
@@ -3865,6 +4220,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam_fi",
           "package": "dbjava",
@@ -3877,6 +4233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam_len_attr",
           "package": "dbjava",
@@ -3886,6 +4243,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam_len_attr",
           "package": "dbjava",
@@ -3898,6 +4256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam_mi",
           "package": "dbjava",
@@ -3907,6 +4266,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam_mi",
           "package": "dbjava",
@@ -3919,6 +4279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam_num_ex_attr",
           "package": "dbjava",
@@ -3928,6 +4289,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam_num_ex_attr",
           "package": "dbjava",
@@ -3940,6 +4302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam_table_attr",
           "package": "dbjava",
@@ -3949,6 +4312,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "tam_table_attr",
           "package": "dbjava",
@@ -3961,6 +4325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.Data.ClassFormat",
           "name": "this",
           "package": "dbjava",
@@ -3970,6 +4335,7 @@
         },
         "index": {
           "hierarchy": "Jvm Data ClassFormat",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.Data.ClassFormat",
           "name": "this",
           "package": "dbjava",
@@ -3982,6 +4348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.PrettyClass",
           "name": "PrettyClass",
           "package": "dbjava",
@@ -3990,6 +4357,7 @@
         },
         "index": {
           "hierarchy": "Jvm PrettyClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.PrettyClass",
           "name": "PrettyClass",
           "package": "dbjava",
@@ -4003,6 +4371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.PrettyClass",
           "name": "(=|=)",
           "package": "dbjava",
@@ -4012,6 +4381,7 @@
         },
         "index": {
           "hierarchy": "Jvm PrettyClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.PrettyClass",
           "name": "(=|=) =|=",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -4026,6 +4396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.PrettyClass",
           "name": "(=\u003c\u003c=)",
           "package": "dbjava",
@@ -4035,6 +4406,7 @@
         },
         "index": {
           "hierarchy": "Jvm PrettyClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.PrettyClass",
           "name": "(=\u003c\u003c=) =\u003c\u003c=",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -4049,6 +4421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.PrettyClass",
           "name": "fromBytes2Int",
           "package": "dbjava",
@@ -4058,6 +4431,7 @@
         },
         "index": {
           "hierarchy": "Jvm PrettyClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.PrettyClass",
           "name": "fromBytes2Int",
           "normalized": "[Int]-\u003eInt",
@@ -4073,6 +4447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.PrettyClass",
           "name": "fromBytes2Tupla",
           "package": "dbjava",
@@ -4082,6 +4457,7 @@
         },
         "index": {
           "hierarchy": "Jvm PrettyClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.PrettyClass",
           "name": "fromBytes2Tupla",
           "normalized": "[Int]-\u003e[(Int,Int)]",
@@ -4097,6 +4473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.PrettyClass",
           "name": "getSignedInt",
           "package": "dbjava",
@@ -4106,6 +4483,7 @@
         },
         "index": {
           "hierarchy": "Jvm PrettyClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.PrettyClass",
           "name": "getSignedInt",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -4121,6 +4499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.PrettyClass",
           "name": "instruction2pp",
           "package": "dbjava",
@@ -4130,6 +4509,7 @@
         },
         "index": {
           "hierarchy": "Jvm PrettyClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.PrettyClass",
           "name": "instruction2pp",
           "normalized": "[Int]-\u003eInt-\u003e[PP_Doc]",
@@ -4144,6 +4524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.PrettyClass",
           "name": "toInts",
           "package": "dbjava",
@@ -4153,6 +4534,7 @@
         },
         "index": {
           "hierarchy": "Jvm PrettyClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.PrettyClass",
           "name": "toInts",
           "normalized": "[Int]-\u003e[Int]",
@@ -4168,6 +4550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:44 UTC 2014",
           "module": "Jvm.PrettyClass",
           "name": "toPP",
           "package": "dbjava",
@@ -4177,6 +4560,7 @@
         },
         "index": {
           "hierarchy": "Jvm PrettyClass",
+          "indexed": "2014-03-11T17:50:44",
           "module": "Jvm.PrettyClass",
           "name": "toPP",
           "normalized": "Int-\u003ePP_Doc",

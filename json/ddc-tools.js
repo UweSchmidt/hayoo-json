@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ddc-tools"
+        "phrase": "ddc-tools",
+        "type": "phrase"
       },
       "type": "context"
     }

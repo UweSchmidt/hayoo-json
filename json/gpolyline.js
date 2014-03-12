@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gpolyline"
+        "phrase": "gpolyline",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePure module for encoding and decoding Google Polyline format as specified in\n https:\u003cem/\u003edevelopers.google.com\u003cem\u003emaps\u003c/em\u003edocumentation\u003cem\u003eutilities\u003c/em\u003epolylinealgorithm\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:19:28 UTC 2014",
           "module": "GPolyline",
           "name": "GPolyline",
           "package": "gpolyline",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Pure module for encoding and decoding Google Polyline format as specified in https developers.google.com maps documentation utilities polylinealgorithm",
           "hierarchy": "GPolyline",
+          "indexed": "2014-03-11T18:19:28",
           "module": "GPolyline",
           "name": "GPolyline",
           "package": "gpolyline",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:28 UTC 2014",
           "module": "GPolyline",
           "name": "decodeline",
           "package": "gpolyline",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "GPolyline",
+          "indexed": "2014-03-11T18:19:28",
           "module": "GPolyline",
           "name": "decodeline",
           "normalized": "String-\u003e[Point]",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:28 UTC 2014",
           "module": "GPolyline",
           "name": "decodeunsigned",
           "package": "gpolyline",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "GPolyline",
+          "indexed": "2014-03-11T18:19:28",
           "module": "GPolyline",
           "name": "decodeunsigned",
           "normalized": "String-\u003eInt",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:28 UTC 2014",
           "module": "GPolyline",
           "name": "encodeline",
           "package": "gpolyline",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "GPolyline",
+          "indexed": "2014-03-11T18:19:28",
           "module": "GPolyline",
           "name": "encodeline",
           "normalized": "[Point]-\u003eString",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:28 UTC 2014",
           "module": "GPolyline",
           "name": "encodeunsigned",
           "package": "gpolyline",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "GPolyline",
+          "indexed": "2014-03-11T18:19:28",
           "module": "GPolyline",
           "name": "encodeunsigned",
           "normalized": "Int-\u003eString",

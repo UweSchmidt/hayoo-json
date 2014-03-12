@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "jonathanscard"
+        "phrase": "jonathanscard",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:37 UTC 2014",
           "module": "Web.JonathansCard",
           "name": "JonathansCard",
           "package": "jonathanscard",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web JonathansCard",
+          "indexed": "2014-03-11T19:01:37",
           "module": "Web.JonathansCard",
           "name": "JonathansCard",
           "package": "jonathanscard",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a Balance on Jonathan's Card\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:37 UTC 2014",
           "module": "Web.JonathansCard",
           "name": "Balance",
           "package": "jonathanscard",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Represents Balance on Jonathan Card",
           "hierarchy": "Web JonathansCard",
+          "indexed": "2014-03-11T19:01:37",
           "module": "Web.JonathansCard",
           "name": "Balance",
           "package": "jonathanscard",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the changes over time on Jonathan's Card\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:37 UTC 2014",
           "module": "Web.JonathansCard",
           "name": "Change",
           "package": "jonathanscard",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Represents the changes over time on Jonathan Card",
           "hierarchy": "Web JonathansCard",
+          "indexed": "2014-03-11T19:01:37",
           "module": "Web.JonathansCard",
           "name": "Change",
           "package": "jonathanscard",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the simplest representation of UTC.\n It consists of the day number, and a time offset from midnight.\n Note that if a day has a leap second added to it, it will have 86401 seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:37 UTC 2014",
           "module": "Web.JonathansCard",
           "name": "UTCTime",
           "package": "jonathanscard",
@@ -94,6 +101,7 @@
         "index": {
           "description": "This is the simplest representation of UTC It consists of the day number and time offset from midnight Note that if day has leap second added to it it will have seconds",
           "hierarchy": "Web JonathansCard",
+          "indexed": "2014-03-11T19:01:37",
           "module": "Web.JonathansCard",
           "name": "UTCTime",
           "package": "jonathanscard",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:37 UTC 2014",
           "module": "Web.JonathansCard",
           "name": "Balance",
           "package": "jonathanscard",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Web JonathansCard",
+          "indexed": "2014-03-11T19:01:37",
           "module": "Web.JonathansCard",
           "name": "Balance",
           "package": "jonathanscard",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:37 UTC 2014",
           "module": "Web.JonathansCard",
           "name": "Change",
           "package": "jonathanscard",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Web JonathansCard",
+          "indexed": "2014-03-11T19:01:37",
           "module": "Web.JonathansCard",
           "name": "Change",
           "package": "jonathanscard",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:37 UTC 2014",
           "module": "Web.JonathansCard",
           "name": "balAmount",
           "package": "jonathanscard",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Web JonathansCard",
+          "indexed": "2014-03-11T19:01:37",
           "module": "Web.JonathansCard",
           "name": "balAmount",
           "package": "jonathanscard",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:37 UTC 2014",
           "module": "Web.JonathansCard",
           "name": "balBalanceId",
           "package": "jonathanscard",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Web JonathansCard",
+          "indexed": "2014-03-11T19:01:37",
           "module": "Web.JonathansCard",
           "name": "balBalanceId",
           "package": "jonathanscard",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:37 UTC 2014",
           "module": "Web.JonathansCard",
           "name": "balCreated",
           "package": "jonathanscard",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Web JonathansCard",
+          "indexed": "2014-03-11T19:01:37",
           "module": "Web.JonathansCard",
           "name": "balCreated",
           "package": "jonathanscard",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:37 UTC 2014",
           "module": "Web.JonathansCard",
           "name": "balMessage",
           "package": "jonathanscard",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Web JonathansCard",
+          "indexed": "2014-03-11T19:01:37",
           "module": "Web.JonathansCard",
           "name": "balMessage",
           "package": "jonathanscard",
@@ -240,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a list of balances on Jonathan's Card\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:37 UTC 2014",
           "module": "Web.JonathansCard",
           "name": "balances",
           "package": "jonathanscard",
@@ -250,6 +271,7 @@
         "index": {
           "description": "Retrieve list of balances on Jonathan Card",
           "hierarchy": "Web JonathansCard",
+          "indexed": "2014-03-11T19:01:37",
           "module": "Web.JonathansCard",
           "name": "balances",
           "normalized": "IO(Either String[Balance])",
@@ -265,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the changes in amounts on Jonathan's Card\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:37 UTC 2014",
           "module": "Web.JonathansCard",
           "name": "changes",
           "package": "jonathanscard",
@@ -275,6 +298,7 @@
         "index": {
           "description": "Retrieve the changes in amounts on Jonathan Card",
           "hierarchy": "Web JonathansCard",
+          "indexed": "2014-03-11T19:01:37",
           "module": "Web.JonathansCard",
           "name": "changes",
           "normalized": "IO(Either String[Change])",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:37 UTC 2014",
           "module": "Web.JonathansCard",
           "name": "chgBalance",
           "package": "jonathanscard",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Web JonathansCard",
+          "indexed": "2014-03-11T19:01:37",
           "module": "Web.JonathansCard",
           "name": "chgBalance",
           "package": "jonathanscard",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:37 UTC 2014",
           "module": "Web.JonathansCard",
           "name": "chgCreated",
           "package": "jonathanscard",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Web JonathansCard",
+          "indexed": "2014-03-11T19:01:37",
           "module": "Web.JonathansCard",
           "name": "chgCreated",
           "package": "jonathanscard",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:01:37 UTC 2014",
           "module": "Web.JonathansCard",
           "name": "chgDelta",
           "package": "jonathanscard",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Web JonathansCard",
+          "indexed": "2014-03-11T19:01:37",
           "module": "Web.JonathansCard",
           "name": "chgDelta",
           "package": "jonathanscard",
@@ -356,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the latest balance on Jonathan's Card\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:01:37 UTC 2014",
           "module": "Web.JonathansCard",
           "name": "latest",
           "package": "jonathanscard",
@@ -366,6 +397,7 @@
         "index": {
           "description": "Retrieve the latest balance on Jonathan Card",
           "hierarchy": "Web JonathansCard",
+          "indexed": "2014-03-11T19:01:37",
           "module": "Web.JonathansCard",
           "name": "latest",
           "package": "jonathanscard",

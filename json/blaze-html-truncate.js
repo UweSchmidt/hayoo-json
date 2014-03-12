@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "blaze-html-truncate"
+        "phrase": "blaze-html-truncate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:08 UTC 2014",
           "module": "Text.Blaze.Truncate",
           "name": "Truncate",
           "package": "blaze-html-truncate",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Truncate",
+          "indexed": "2014-03-11T17:24:08",
           "module": "Text.Blaze.Truncate",
           "name": "Truncate",
           "package": "blaze-html-truncate",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTruncate the given HTML to a certain length, preserving tags. Returns the truncated Html or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if no truncation occured.\n   Words are preserved, so if the truncated text ends within some word, that whole word is cut.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:08 UTC 2014",
           "module": "Text.Blaze.Truncate",
           "name": "truncateHtml",
           "package": "blaze-html-truncate",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Truncate the given HTML to certain length preserving tags Returns the truncated Html or Nothing if no truncation occured Words are preserved so if the truncated text ends within some word that whole word is cut",
           "hierarchy": "Text Blaze Truncate",
+          "indexed": "2014-03-11T17:24:08",
           "module": "Text.Blaze.Truncate",
           "name": "truncateHtml",
           "normalized": "Int-\u003eMarkup-\u003eMaybe Markup",

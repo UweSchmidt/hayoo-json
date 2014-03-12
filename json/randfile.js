@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "randfile"
+        "phrase": "randfile",
+        "type": "phrase"
       },
       "type": "context"
     }

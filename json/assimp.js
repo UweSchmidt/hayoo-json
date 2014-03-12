@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "assimp"
+        "phrase": "assimp",
+        "type": "phrase"
       },
       "type": "context"
     }

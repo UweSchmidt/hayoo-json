@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "stylish-haskell"
+        "phrase": "stylish-haskell",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "Stylish",
           "package": "stylish-haskell",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "Stylish",
           "package": "stylish-haskell",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "Align",
           "package": "stylish-haskell",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "Align",
           "package": "stylish-haskell",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "Config",
           "package": "stylish-haskell",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "Config",
           "package": "stylish-haskell",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "Extensions",
           "package": "stylish-haskell",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "Extensions",
           "package": "stylish-haskell",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "Lines",
           "package": "stylish-haskell",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "Lines",
           "package": "stylish-haskell",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "Step",
           "package": "stylish-haskell",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "Step",
           "package": "stylish-haskell",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "Style",
           "package": "stylish-haskell",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "Style",
           "package": "stylish-haskell",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "Verbose",
           "package": "stylish-haskell",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "Verbose",
           "package": "stylish-haskell",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "Compact",
           "package": "stylish-haskell",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "Compact",
           "package": "stylish-haskell",
@@ -208,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "CompactLine",
           "package": "stylish-haskell",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "CompactLine",
           "package": "stylish-haskell",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "Config",
           "package": "stylish-haskell",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "Config",
           "package": "stylish-haskell",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "File",
           "package": "stylish-haskell",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "File",
           "package": "stylish-haskell",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "Global",
           "package": "stylish-haskell",
@@ -283,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "Global",
           "package": "stylish-haskell",
@@ -296,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "Group",
           "package": "stylish-haskell",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "Group",
           "package": "stylish-haskell",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "None",
           "package": "stylish-haskell",
@@ -327,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "None",
           "package": "stylish-haskell",
@@ -340,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "Vertical",
           "package": "stylish-haskell",
@@ -349,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "Vertical",
           "package": "stylish-haskell",
@@ -362,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "configColumns",
           "package": "stylish-haskell",
@@ -371,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "configColumns",
           "package": "stylish-haskell",
@@ -384,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "configFilePath",
           "package": "stylish-haskell",
@@ -393,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "configFilePath",
           "normalized": "Verbose-\u003eMaybe FilePath-\u003eIO(Maybe FilePath)",
@@ -408,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "configLanguageExtensions",
           "package": "stylish-haskell",
@@ -417,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "configLanguageExtensions",
           "normalized": "[String]",
@@ -432,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "configSteps",
           "package": "stylish-haskell",
@@ -441,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "configSteps",
           "normalized": "[Step]",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "defaultConfigFilePath",
           "package": "stylish-haskell",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "defaultConfigFilePath",
           "package": "stylish-haskell",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "imports",
           "package": "stylish-haskell",
@@ -486,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "imports",
           "normalized": "Int-\u003eAlign-\u003eStep",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "languagePragmas",
           "package": "stylish-haskell",
@@ -508,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "languagePragmas",
           "normalized": "Int-\u003eStyle-\u003eBool-\u003eStep",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "loadConfig",
           "package": "stylish-haskell",
@@ -532,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "loadConfig",
           "normalized": "Verbose-\u003eMaybe FilePath-\u003eIO Config",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "makeVerbose",
           "package": "stylish-haskell",
@@ -556,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "makeVerbose",
           "normalized": "Bool-\u003eVerbose",
@@ -571,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "records",
           "package": "stylish-haskell",
@@ -580,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "records",
           "package": "stylish-haskell",
@@ -592,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "runSteps",
           "package": "stylish-haskell",
@@ -601,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "runSteps",
           "normalized": "Extensions-\u003eMaybe FilePath-\u003e[Step]-\u003eLines-\u003eEither String Lines",
@@ -616,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "stepName",
           "package": "stylish-haskell",
@@ -625,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "stepName",
           "normalized": "Step-\u003eString",
@@ -640,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "tabs",
           "package": "stylish-haskell",
@@ -648,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "tabs",
           "normalized": "Int-\u003eStep",
@@ -662,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "trailingWhitespace",
           "package": "stylish-haskell",
@@ -671,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "trailingWhitespace",
           "package": "stylish-haskell",
@@ -684,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "unicodeSyntax",
           "package": "stylish-haskell",
@@ -692,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "unicodeSyntax",
           "normalized": "Bool-\u003eStep",
@@ -707,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:24 UTC 2014",
           "module": "Language.Haskell.Stylish",
           "name": "version",
           "package": "stylish-haskell",
@@ -716,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Stylish",
+          "indexed": "2014-03-11T20:13:24",
           "module": "Language.Haskell.Stylish",
           "name": "version",
           "package": "stylish-haskell",

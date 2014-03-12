@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "llvm-tools"
+        "phrase": "llvm-tools",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:33 UTC 2014",
           "module": "LLVM.VisualizeGraph",
           "name": "VisualizeGraph",
           "package": "llvm-tools",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "LLVM VisualizeGraph",
+          "indexed": "2014-03-11T19:11:33",
           "module": "LLVM.VisualizeGraph",
           "name": "VisualizeGraph",
           "package": "llvm-tools",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:33 UTC 2014",
           "module": "LLVM.VisualizeGraph",
           "name": "OutputType",
           "package": "llvm-tools",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "LLVM VisualizeGraph",
+          "indexed": "2014-03-11T19:11:33",
           "module": "LLVM.VisualizeGraph",
           "name": "OutputType",
           "package": "llvm-tools",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:33 UTC 2014",
           "module": "LLVM.VisualizeGraph",
           "name": "CanvasOutput",
           "package": "llvm-tools",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "LLVM VisualizeGraph",
+          "indexed": "2014-03-11T19:11:33",
           "module": "LLVM.VisualizeGraph",
           "name": "CanvasOutput",
           "package": "llvm-tools",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:33 UTC 2014",
           "module": "LLVM.VisualizeGraph",
           "name": "FileOutput",
           "package": "llvm-tools",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "LLVM VisualizeGraph",
+          "indexed": "2014-03-11T19:11:33",
           "module": "LLVM.VisualizeGraph",
           "name": "FileOutput",
           "package": "llvm-tools",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:33 UTC 2014",
           "module": "LLVM.VisualizeGraph",
           "name": "HtmlOutput",
           "package": "llvm-tools",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "LLVM VisualizeGraph",
+          "indexed": "2014-03-11T19:11:33",
           "module": "LLVM.VisualizeGraph",
           "name": "HtmlOutput",
           "package": "llvm-tools",
@@ -127,6 +137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVisualize a graph-based analysis with graphviz.  It handles many\n common options including both file and canvas output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:33 UTC 2014",
           "module": "LLVM.VisualizeGraph",
           "name": "visualizeGraph",
           "package": "llvm-tools",
@@ -136,6 +147,7 @@
         "index": {
           "description": "Visualize graph-based analysis with graphviz It handles many common options including both file and canvas output",
           "hierarchy": "LLVM VisualizeGraph",
+          "indexed": "2014-03-11T19:11:33",
           "module": "LLVM.VisualizeGraph",
           "name": "visualizeGraph",
           "normalized": "FilePath-\u003eMaybe FilePath-\u003eOutputType-\u003e[String]-\u003e(Module-\u003e[(String,a)])-\u003eIO()",

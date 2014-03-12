@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scotty-session"
+        "phrase": "scotty-session",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:32 UTC 2014",
           "module": "Web.Scotty.Session",
           "name": "Session",
           "package": "scotty-session",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty Session",
+          "indexed": "2014-03-11T19:58:32",
           "module": "Web.Scotty.Session",
           "name": "Session",
           "package": "scotty-session",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:32 UTC 2014",
           "module": "Web.Scotty.Session",
           "name": "ScottySM",
           "package": "scotty-session",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty Session",
+          "indexed": "2014-03-11T19:58:32",
           "module": "Web.Scotty.Session",
           "name": "ScottySM",
           "package": "scotty-session",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new session manager\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:32 UTC 2014",
           "module": "Web.Scotty.Session",
           "name": "createSessionManager",
           "package": "scotty-session",
@@ -71,6 +76,7 @@
         "index": {
           "description": "Create new session manager",
           "hierarchy": "Web Scotty Session",
+          "indexed": "2014-03-11T19:58:32",
           "module": "Web.Scotty.Session",
           "name": "createSessionManager",
           "package": "scotty-session",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the current users session\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:32 UTC 2014",
           "module": "Web.Scotty.Session",
           "name": "modifySession",
           "package": "scotty-session",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Modify the current users session",
           "hierarchy": "Web Scotty Session",
+          "indexed": "2014-03-11T19:58:32",
           "module": "Web.Scotty.Session",
           "name": "modifySession",
           "normalized": "ScottySM a-\u003e(Maybe a-\u003eMaybe a)-\u003eActionT b c()",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the current users session\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:32 UTC 2014",
           "module": "Web.Scotty.Session",
           "name": "readSession",
           "package": "scotty-session",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Read the current users session",
           "hierarchy": "Web Scotty Session",
+          "indexed": "2014-03-11T19:58:32",
           "module": "Web.Scotty.Session",
           "name": "readSession",
           "normalized": "ScottySM a-\u003eActionT b c(Maybe a)",

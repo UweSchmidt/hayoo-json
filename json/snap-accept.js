@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "snap-accept"
+        "phrase": "snap-accept",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides a simple interface for routing based on the value of the Accept\n header in the client's request.  The functions \u003ccode\u003e\u003ca\u003eaccept\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eaccepts\u003c/a\u003e\u003c/code\u003e\n mirror Snap's standard \u003ccode\u003e\u003ca\u003emethod\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emethods\u003c/a\u003e\u003c/code\u003e functions.\n\u003c/p\u003e\u003cp\u003eThe most convenient way of building \u003ccode\u003e\u003ca\u003eMediaType\u003c/a\u003e\u003c/code\u003e values is to use the\n \u003ccode\u003eIsString\u003c/code\u003e instance with OverloadedStrings.\n\u003c/p\u003e\u003cpre\u003e accept \"application/json\" serveJson\n\u003c/pre\u003e\u003cp\u003eSimple constructor operators are also supplied if you prefer.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:04:51 UTC 2014",
           "module": "Snap.Accept",
           "name": "Accept",
           "package": "snap-accept",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides simple interface for routing based on the value of the Accept header in the client request The functions accept and accepts mirror Snap standard method and methods functions The most convenient way of building MediaType values is to use the IsString instance with OverloadedStrings accept application json serveJson Simple constructor operators are also supplied if you prefer",
           "hierarchy": "Snap Accept",
+          "indexed": "2014-03-11T20:04:51",
           "module": "Snap.Accept",
           "name": "Accept",
           "package": "snap-accept",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn HTTP media type, consisting of the type, subtype, and parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:51 UTC 2014",
           "module": "Snap.Accept",
           "name": "MediaType",
           "package": "snap-accept",
@@ -50,6 +53,7 @@
         "index": {
           "description": "An HTTP media type consisting of the type subtype and parameters",
           "hierarchy": "Snap Accept",
+          "indexed": "2014-03-11T20:04:51",
           "module": "Snap.Accept",
           "name": "MediaType",
           "package": "snap-accept",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilds a \u003ccode\u003e\u003ca\u003eMediaType\u003c/a\u003e\u003c/code\u003e without parameters. Can produce an error if\n either type is invalid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:51 UTC 2014",
           "module": "Snap.Accept",
           "name": "(//)",
           "package": "snap-accept",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Builds MediaType without parameters Can produce an error if either type is invalid",
           "hierarchy": "Snap Accept",
+          "indexed": "2014-03-11T20:04:51",
           "module": "Snap.Accept",
           "name": "(//) //",
           "normalized": "ByteString-\u003eByteString-\u003eMediaType",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a parameter to a \u003ccode\u003e\u003ca\u003eMediaType\u003c/a\u003e\u003c/code\u003e. Can produce an error if either\n string is invalid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:51 UTC 2014",
           "module": "Snap.Accept",
           "name": "(/:)",
           "package": "snap-accept",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Adds parameter to MediaType Can produce an error if either string is invalid",
           "hierarchy": "Snap Accept",
+          "indexed": "2014-03-11T20:04:51",
           "module": "Snap.Accept",
           "name": "(/:) /:",
           "normalized": "MediaType-\u003e(ByteString,ByteString)-\u003eMediaType",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a Snap monad only if the request's Accept header allows for the\n given media type.  If accepted, the response's Content-Type header is\n automatically filled in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:51 UTC 2014",
           "module": "Snap.Accept",
           "name": "accept",
           "package": "snap-accept",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Runs Snap monad only if the request Accept header allows for the given media type If accepted the response Content-Type header is automatically filled in",
           "hierarchy": "Snap Accept",
+          "indexed": "2014-03-11T20:04:51",
           "module": "Snap.Accept",
           "name": "accept",
           "normalized": "MediaType-\u003ea b-\u003ea b",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a Snap monad only if the request's Accept header allows for one of\n the given media types.  If accepted, the expected type is passed to the\n given function and the response's Content-Type header is automatically\n filled in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:51 UTC 2014",
           "module": "Snap.Accept",
           "name": "accepts",
           "package": "snap-accept",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Runs Snap monad only if the request Accept header allows for one of the given media types If accepted the expected type is passed to the given function and the response Content-Type header is automatically filled in",
           "hierarchy": "Snap Accept",
+          "indexed": "2014-03-11T20:04:51",
           "module": "Snap.Accept",
           "name": "accepts",
           "normalized": "[(MediaType,a b)]-\u003ea b",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "language-eiffel"
+        "phrase": "language-eiffel",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Parser",
           "name": "Parser",
           "package": "language-eiffel",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Parser",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Parser",
           "name": "Parser",
           "package": "language-eiffel",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Parser",
           "name": "classNameFile",
           "package": "language-eiffel",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Parser",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Parser",
           "name": "classNameFile",
           "normalized": "ClassName-\u003eString",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Parser",
           "name": "countTokens",
           "package": "language-eiffel",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Parser",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Parser",
           "name": "countTokens",
           "normalized": "String-\u003eIO Int",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Parser",
           "name": "lexThenParse",
           "package": "language-eiffel",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Parser",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Parser",
           "name": "lexThenParse",
           "normalized": "Parser a-\u003eString-\u003eText-\u003eEither ParseError a",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Parser",
           "name": "lexThenParseFromFile",
           "package": "language-eiffel",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Parser",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Parser",
           "name": "lexThenParseFromFile",
           "normalized": "Parser a-\u003eString-\u003eIO(Either ParseError a)",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Parser",
           "name": "newError",
           "package": "language-eiffel",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Parser",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Parser",
           "name": "newError",
           "normalized": "SourceName-\u003eString-\u003eParseError",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Parser",
           "name": "parseClass",
           "package": "language-eiffel",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Parser",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Parser",
           "name": "parseClass",
           "normalized": "Text-\u003eEither ParseError Clas",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Parser",
           "name": "parseClass'",
           "package": "language-eiffel",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Parser",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Parser",
           "name": "parseClass'",
           "normalized": "Text-\u003eClas",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Parser",
           "name": "parseClassFile",
           "package": "language-eiffel",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Parser",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Parser",
           "name": "parseClassFile",
           "normalized": "String-\u003eIO(Either ParseError Clas)",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Parser",
           "name": "parseFromName",
           "package": "language-eiffel",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Parser",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Parser",
           "name": "parseFromName",
           "normalized": "ClassName-\u003eIO Clas",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Parser",
           "name": "parseInterface",
           "package": "language-eiffel",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Parser",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Parser",
           "name": "parseInterface",
           "normalized": "Text-\u003eEither ParseError ClasInterface",
@@ -279,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Parser",
           "name": "parseStmt",
           "package": "language-eiffel",
@@ -288,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Parser",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Parser",
           "name": "parseStmt",
           "normalized": "Text-\u003eEither ParseError Stmt",
@@ -303,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Position",
           "name": "Position",
           "package": "language-eiffel",
@@ -311,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Position",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Position",
           "name": "Position",
           "package": "language-eiffel",
@@ -324,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Position",
           "name": "Column",
           "package": "language-eiffel",
@@ -331,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Position",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Position",
           "name": "Column",
           "package": "language-eiffel",
@@ -344,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Position",
           "name": "Line",
           "package": "language-eiffel",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Position",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Position",
           "name": "Line",
           "package": "language-eiffel",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Position",
           "name": "Pos",
           "package": "language-eiffel",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Position",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Position",
           "name": "Pos",
           "package": "language-eiffel",
@@ -386,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract data type \u003ccode\u003eSourcePos\u003c/code\u003e represents source positions. It\n contains the name of the source (i.e. file name), a line number and\n a column number. \u003ccode\u003eSourcePos\u003c/code\u003e is an instance of the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e class. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Position",
           "name": "SourcePos",
           "package": "language-eiffel",
@@ -394,6 +427,7 @@
         "index": {
           "description": "The abstract data type SourcePos represents source positions It contains the name of the source i.e file name line number and column number SourcePos is an instance of the Show Eq and Ord class",
           "hierarchy": "Language Eiffel Position",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Position",
           "name": "SourcePos",
           "package": "language-eiffel",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Position",
           "name": "Pos",
           "package": "language-eiffel",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Position",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Position",
           "name": "Pos",
           "package": "language-eiffel",
@@ -429,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Position",
           "name": "attachEmptyPos",
           "package": "language-eiffel",
@@ -438,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Position",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Position",
           "name": "attachEmptyPos",
           "normalized": "a-\u003ePos a",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Position",
           "name": "attachPos",
           "package": "language-eiffel",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Position",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Position",
           "name": "attachPos",
           "normalized": "SourcePos-\u003ea-\u003ePos a",
@@ -477,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Position",
           "name": "attachPosBefore",
           "package": "language-eiffel",
@@ -486,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Position",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Position",
           "name": "attachPosBefore",
           "normalized": "Parser a-\u003eParser(Pos a)",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Position",
           "name": "attachPosHere",
           "package": "language-eiffel",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Position",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Position",
           "name": "attachPosHere",
           "normalized": "a-\u003eParser(Pos a)",
@@ -525,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Position",
           "name": "attachPosM",
           "package": "language-eiffel",
@@ -534,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Position",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Position",
           "name": "attachPosM",
           "normalized": "a SourcePos-\u003ea b-\u003ea(Pos b)",
@@ -549,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Position",
           "name": "contents",
           "package": "language-eiffel",
@@ -558,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Position",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Position",
           "name": "contents",
           "normalized": "Pos a-\u003ea",
@@ -572,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Position",
           "name": "inheritPos",
           "package": "language-eiffel",
@@ -581,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Position",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Position",
           "name": "inheritPos",
           "normalized": "(Pos a-\u003eb)-\u003ePos a-\u003ePos b",
@@ -596,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Position",
           "name": "position",
           "package": "language-eiffel",
@@ -605,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Position",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Position",
           "name": "position",
           "normalized": "Pos a-\u003eSourcePos",
@@ -620,6 +672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the column number from a source position. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Position",
           "name": "sourceColumn",
           "package": "language-eiffel",
@@ -629,6 +682,7 @@
         "index": {
           "description": "Extracts the column number from source position",
           "hierarchy": "Language Eiffel Position",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Position",
           "name": "sourceColumn",
           "normalized": "SourcePos-\u003eColumn",
@@ -645,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the line number from a source position. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Position",
           "name": "sourceLine",
           "package": "language-eiffel",
@@ -654,6 +709,7 @@
         "index": {
           "description": "Extracts the line number from source position",
           "hierarchy": "Language Eiffel Position",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Position",
           "name": "sourceLine",
           "normalized": "SourcePos-\u003eLine",
@@ -670,6 +726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the name of the source from a source position. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Position",
           "name": "sourceName",
           "package": "language-eiffel",
@@ -679,6 +736,7 @@
         "index": {
           "description": "Extracts the name of the source from source position",
           "hierarchy": "Language Eiffel Position",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Position",
           "name": "sourceName",
           "normalized": "SourcePos-\u003eSourceName",
@@ -694,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Position",
           "name": "takePos",
           "package": "language-eiffel",
@@ -703,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Position",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Position",
           "name": "takePos",
           "normalized": "Pos a-\u003eb-\u003ePos b",
@@ -718,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "PrettyPrint",
           "package": "language-eiffel",
@@ -726,6 +787,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "PrettyPrint",
           "package": "language-eiffel",
@@ -739,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "($?$)",
           "package": "language-eiffel",
@@ -748,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "($?$) $?$",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -762,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "(\u003c?\u003e)",
           "package": "language-eiffel",
@@ -771,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "(\u003c?\u003e) \u003c?\u003e",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -785,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "actArgs",
           "package": "language-eiffel",
@@ -794,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "actArgs",
           "normalized": "[Expr]-\u003eDoc",
@@ -809,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "angles",
           "package": "language-eiffel",
@@ -818,6 +887,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "angles",
           "normalized": "Doc-\u003eDoc",
@@ -832,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "anyStringLiteral",
           "package": "language-eiffel",
@@ -841,6 +912,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "anyStringLiteral",
           "normalized": "Text-\u003eDoc",
@@ -856,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "attrDoc",
           "package": "language-eiffel",
@@ -865,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "attrDoc",
           "normalized": "Bool-\u003eAttribute Expr-\u003eDoc",
@@ -880,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "binop",
           "package": "language-eiffel",
@@ -889,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "binop",
           "normalized": "BinOp-\u003e(Text,Int)",
@@ -903,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "clause",
           "package": "language-eiffel",
@@ -912,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "clause",
           "normalized": "Clause Expr-\u003eDoc",
@@ -926,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "clausesDoc",
           "package": "language-eiffel",
@@ -935,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "clausesDoc",
           "normalized": "[Clause Expr]-\u003eDoc",
@@ -950,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "commaSep",
           "package": "language-eiffel",
@@ -959,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "commaSep",
           "normalized": "[Doc]-\u003eDoc",
@@ -974,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "condParens",
           "package": "language-eiffel",
@@ -983,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "condParens",
           "normalized": "Bool-\u003eDoc-\u003eDoc",
@@ -998,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "constDoc",
           "package": "language-eiffel",
@@ -1007,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "constDoc",
           "normalized": "Constant Expr-\u003eDoc",
@@ -1022,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "convertClause",
           "package": "language-eiffel",
@@ -1031,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "convertClause",
           "normalized": "[ConvertClause]-\u003eDoc",
@@ -1046,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "createClause",
           "package": "language-eiffel",
@@ -1055,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "createClause",
           "normalized": "CreateClause-\u003eDoc",
@@ -1070,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "decl",
           "package": "language-eiffel",
@@ -1079,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "decl",
           "normalized": "Decl-\u003eDoc",
@@ -1093,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "defaultIndent",
           "package": "language-eiffel",
@@ -1102,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "defaultIndent",
           "package": "language-eiffel",
@@ -1115,6 +1209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "emptyLine",
           "package": "language-eiffel",
@@ -1124,6 +1219,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "emptyLine",
           "package": "language-eiffel",
@@ -1137,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "ensure",
           "package": "language-eiffel",
@@ -1146,6 +1243,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "ensure",
           "normalized": "Contract Expr-\u003eDoc",
@@ -1160,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "expr",
           "package": "language-eiffel",
@@ -1169,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "expr",
           "normalized": "Expr-\u003eDoc",
@@ -1183,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "expr'",
           "package": "language-eiffel",
@@ -1192,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "expr'",
           "normalized": "Int-\u003eUnPosExpr-\u003eDoc",
@@ -1206,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "exprPrec",
           "package": "language-eiffel",
@@ -1215,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "exprPrec",
           "normalized": "Int-\u003eExpr-\u003eDoc",
@@ -1230,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "featureClauses",
           "package": "language-eiffel",
@@ -1239,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "featureClauses",
           "normalized": "Bool-\u003e(a-\u003eDoc)-\u003eFeatureMap a Expr-\u003e[Doc]",
@@ -1254,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "formArgs",
           "package": "language-eiffel",
@@ -1263,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "formArgs",
           "normalized": "[Decl]-\u003eDoc",
@@ -1278,6 +1386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "frozen",
           "package": "language-eiffel",
@@ -1287,6 +1396,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "frozen",
           "normalized": "Bool-\u003eDoc",
@@ -1301,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "genDoc",
           "package": "language-eiffel",
@@ -1310,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "genDoc",
           "normalized": "[Typ]-\u003eDoc",
@@ -1325,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "genericsDoc",
           "package": "language-eiffel",
@@ -1334,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "genericsDoc",
           "normalized": "[Generic]-\u003eDoc",
@@ -1349,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "inheritClause",
           "package": "language-eiffel",
@@ -1358,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "inheritClause",
           "normalized": "InheritClause-\u003eDoc",
@@ -1373,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "inheritance",
           "package": "language-eiffel",
@@ -1382,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "inheritance",
           "normalized": "[Inheritance]-\u003eDoc",
@@ -1396,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "inheritanceClauses",
           "package": "language-eiffel",
@@ -1405,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "inheritanceClauses",
           "normalized": "Inheritance-\u003eDoc",
@@ -1420,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "interfaceBodyDoc",
           "package": "language-eiffel",
@@ -1429,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "interfaceBodyDoc",
           "normalized": "EmptyBody-\u003eDoc",
@@ -1444,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "invars",
           "package": "language-eiffel",
@@ -1453,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "invars",
           "normalized": "[Clause Expr]-\u003eDoc",
@@ -1467,6 +1591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "langle",
           "package": "language-eiffel",
@@ -1476,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "langle",
           "package": "language-eiffel",
@@ -1488,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "locals",
           "package": "language-eiffel",
@@ -1497,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "locals",
           "normalized": "RoutineBody a-\u003eDoc",
@@ -1511,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "locks",
           "package": "language-eiffel",
@@ -1520,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "locks",
           "normalized": "[Proc]-\u003eDoc",
@@ -1534,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "nestDef",
           "package": "language-eiffel",
@@ -1543,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "nestDef",
           "normalized": "Doc-\u003eDoc",
@@ -1558,6 +1690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "newline",
           "package": "language-eiffel",
@@ -1567,6 +1700,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "newline",
           "package": "language-eiffel",
@@ -1579,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "note",
           "package": "language-eiffel",
@@ -1588,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "note",
           "normalized": "Note-\u003eDoc",
@@ -1602,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "notes",
           "package": "language-eiffel",
@@ -1611,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "notes",
           "normalized": "[Note]-\u003eDoc",
@@ -1625,6 +1763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "opList",
           "package": "language-eiffel",
@@ -1634,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "opList",
           "normalized": "[(BinOp,(Text,Int))]",
@@ -1649,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "proc",
           "package": "language-eiffel",
@@ -1658,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "proc",
           "normalized": "Proc-\u003eDoc",
@@ -1672,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "procDoc",
           "package": "language-eiffel",
@@ -1681,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "procDoc",
           "normalized": "Proc-\u003eDoc",
@@ -1696,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "procExprD",
           "package": "language-eiffel",
@@ -1705,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "procExprD",
           "normalized": "ProcExpr-\u003eDoc",
@@ -1720,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "procExprs",
           "package": "language-eiffel",
@@ -1729,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "procExprs",
           "normalized": "AbsRoutine a b-\u003eDoc",
@@ -1744,6 +1892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "procGenDoc",
           "package": "language-eiffel",
@@ -1753,6 +1902,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "procGenDoc",
           "normalized": "[Proc]-\u003eDoc",
@@ -1768,6 +1918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "procM",
           "package": "language-eiffel",
@@ -1777,6 +1928,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "procM",
           "normalized": "Maybe Proc-\u003eDoc",
@@ -1791,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "procs",
           "package": "language-eiffel",
@@ -1800,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "procs",
           "normalized": "[Proc]-\u003eDoc",
@@ -1814,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "quant",
           "package": "language-eiffel",
@@ -1823,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "quant",
           "normalized": "Quant-\u003eDoc",
@@ -1837,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "rangle",
           "package": "language-eiffel",
@@ -1846,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "rangle",
           "package": "language-eiffel",
@@ -1858,6 +2016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "relop",
           "package": "language-eiffel",
@@ -1867,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "relop",
           "normalized": "ROp-\u003ea",
@@ -1881,6 +2041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "renderWithTabs",
           "package": "language-eiffel",
@@ -1890,6 +2051,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "renderWithTabs",
           "normalized": "Doc-\u003eString",
@@ -1905,6 +2067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "require",
           "package": "language-eiffel",
@@ -1914,6 +2077,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "require",
           "normalized": "Contract Expr-\u003eDoc",
@@ -1928,6 +2092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "routineBodyDoc",
           "package": "language-eiffel",
@@ -1937,6 +2102,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "routineBodyDoc",
           "normalized": "RoutineBody Expr-\u003eDoc",
@@ -1952,6 +2118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "routineDoc",
           "package": "language-eiffel",
@@ -1961,6 +2128,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "routineDoc",
           "normalized": "(a-\u003eDoc)-\u003eAbsRoutine a Expr-\u003eDoc",
@@ -1976,6 +2144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "sepDoc",
           "package": "language-eiffel",
@@ -1985,6 +2154,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "sepDoc",
           "package": "language-eiffel",
@@ -1998,6 +2168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "squareQuotes",
           "package": "language-eiffel",
@@ -2007,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "squareQuotes",
           "normalized": "Doc-\u003eDoc",
@@ -2022,6 +2194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "stmt",
           "package": "language-eiffel",
@@ -2031,6 +2204,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "stmt",
           "normalized": "Stmt-\u003eDoc",
@@ -2045,6 +2219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "stmt'",
           "package": "language-eiffel",
@@ -2054,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "stmt'",
           "normalized": "AbsStmt Expr-\u003eDoc",
@@ -2068,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "stringLiteral",
           "package": "language-eiffel",
@@ -2077,6 +2254,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "stringLiteral",
           "normalized": "Text-\u003eDoc",
@@ -2092,6 +2270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "toDoc",
           "package": "language-eiffel",
@@ -2101,6 +2280,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "toDoc",
           "normalized": "Clas-\u003eDoc",
@@ -2116,6 +2296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "toDocWith",
           "package": "language-eiffel",
@@ -2125,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "toDocWith",
           "normalized": "Bool-\u003e(a-\u003eDoc)-\u003eAbsClas a Expr-\u003eDoc",
@@ -2140,6 +2322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "toInterfaceDoc",
           "package": "language-eiffel",
@@ -2149,6 +2332,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "toInterfaceDoc",
           "normalized": "ClasInterface-\u003eDoc",
@@ -2164,6 +2348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "ttext",
           "package": "language-eiffel",
@@ -2173,6 +2358,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "ttext",
           "normalized": "Text-\u003eDoc",
@@ -2187,6 +2373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "type'",
           "package": "language-eiffel",
@@ -2196,6 +2383,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "type'",
           "normalized": "Typ-\u003eDoc",
@@ -2210,6 +2398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "typeDoc",
           "package": "language-eiffel",
@@ -2219,6 +2408,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "typeDoc",
           "normalized": "Typ-\u003eDoc",
@@ -2234,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "unop",
           "package": "language-eiffel",
@@ -2243,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "unop",
           "normalized": "UnOp-\u003ea",
@@ -2257,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "ups",
           "package": "language-eiffel",
@@ -2266,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "ups",
           "normalized": "Text-\u003eText",
@@ -2280,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "vCommaSep",
           "package": "language-eiffel",
@@ -2289,6 +2484,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "vCommaSep",
           "normalized": "[Doc]-\u003eDoc",
@@ -2304,6 +2500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "vsep",
           "package": "language-eiffel",
@@ -2313,6 +2510,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel PrettyPrint",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.PrettyPrint",
           "name": "vsep",
           "normalized": "[Doc]-\u003eDoc",
@@ -2327,6 +2525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Summary",
           "name": "Summary",
           "package": "language-eiffel",
@@ -2335,6 +2534,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Summary",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Summary",
           "name": "Summary",
           "package": "language-eiffel",
@@ -2348,6 +2548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Summary",
           "name": "parseSummary",
           "package": "language-eiffel",
@@ -2357,6 +2558,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Summary",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Summary",
           "name": "parseSummary",
           "normalized": "String-\u003eIO(Either ParseError[ClasInterface])",
@@ -2372,6 +2574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Summary",
           "name": "readBinarySummary",
           "package": "language-eiffel",
@@ -2381,6 +2584,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Summary",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Summary",
           "name": "readBinarySummary",
           "normalized": "String-\u003eIO[ClasInterface]",
@@ -2396,6 +2600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Summary",
           "name": "summaryP",
           "package": "language-eiffel",
@@ -2405,6 +2610,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Summary",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Summary",
           "name": "summaryP",
           "normalized": "Parser[ClasInterface]",
@@ -2419,6 +2625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Summary",
           "name": "writeBinarySummary",
           "package": "language-eiffel",
@@ -2428,6 +2635,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Summary",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Summary",
           "name": "writeBinarySummary",
           "normalized": "String-\u003e[ClasInterface]-\u003eIO()",
@@ -2443,6 +2651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Summary",
           "name": "writeSummary",
           "package": "language-eiffel",
@@ -2452,6 +2661,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Summary",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Summary",
           "name": "writeSummary",
           "normalized": "FilePath-\u003e[ClasInterface]-\u003eIO()",
@@ -2467,6 +2677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Syntax",
           "package": "language-eiffel",
@@ -2475,6 +2686,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Syntax",
           "package": "language-eiffel",
@@ -2488,6 +2700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "AbsClas",
           "package": "language-eiffel",
@@ -2496,6 +2709,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "AbsClas",
           "package": "language-eiffel",
@@ -2509,6 +2723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "AbsRoutine",
           "package": "language-eiffel",
@@ -2517,6 +2732,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "AbsRoutine",
           "package": "language-eiffel",
@@ -2530,6 +2746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "AbsStmt",
           "package": "language-eiffel",
@@ -2538,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "AbsStmt",
           "package": "language-eiffel",
@@ -2551,6 +2769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Attribute",
           "package": "language-eiffel",
@@ -2559,6 +2778,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Attribute",
           "package": "language-eiffel",
@@ -2572,6 +2792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "BinOp",
           "package": "language-eiffel",
@@ -2580,6 +2801,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "BinOp",
           "package": "language-eiffel",
@@ -2593,6 +2815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Clas",
           "package": "language-eiffel",
@@ -2601,6 +2824,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Clas",
           "package": "language-eiffel",
@@ -2614,6 +2838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "ClasBody",
           "package": "language-eiffel",
@@ -2622,6 +2847,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "ClasBody",
           "package": "language-eiffel",
@@ -2635,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "ClasI",
           "package": "language-eiffel",
@@ -2643,6 +2870,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "ClasI",
           "package": "language-eiffel",
@@ -2656,6 +2884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "ClasInterface",
           "package": "language-eiffel",
@@ -2664,6 +2893,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "ClasInterface",
           "package": "language-eiffel",
@@ -2677,6 +2907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "ClassName",
           "package": "language-eiffel",
@@ -2685,6 +2916,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "ClassName",
           "package": "language-eiffel",
@@ -2698,6 +2930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Clause",
           "package": "language-eiffel",
@@ -2706,6 +2939,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Clause",
           "package": "language-eiffel",
@@ -2719,6 +2953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Constant",
           "package": "language-eiffel",
@@ -2727,6 +2962,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Constant",
           "package": "language-eiffel",
@@ -2740,6 +2976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Contract",
           "package": "language-eiffel",
@@ -2748,6 +2985,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Contract",
           "package": "language-eiffel",
@@ -2761,6 +2999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "ConvertClause",
           "package": "language-eiffel",
@@ -2769,6 +3008,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "ConvertClause",
           "package": "language-eiffel",
@@ -2782,6 +3022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "CreateClause",
           "package": "language-eiffel",
@@ -2790,6 +3031,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "CreateClause",
           "package": "language-eiffel",
@@ -2803,6 +3045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Decl",
           "package": "language-eiffel",
@@ -2811,6 +3054,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Decl",
           "package": "language-eiffel",
@@ -2824,6 +3068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "ElseIfPart",
           "package": "language-eiffel",
@@ -2832,6 +3077,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "ElseIfPart",
           "package": "language-eiffel",
@@ -2845,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "EmptyBody",
           "package": "language-eiffel",
@@ -2853,6 +3100,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "EmptyBody",
           "package": "language-eiffel",
@@ -2866,6 +3114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "ExportClause",
           "package": "language-eiffel",
@@ -2874,6 +3123,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "ExportClause",
           "package": "language-eiffel",
@@ -2887,6 +3137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "ExportList",
           "package": "language-eiffel",
@@ -2895,6 +3146,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "ExportList",
           "package": "language-eiffel",
@@ -2908,6 +3160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "ExportedFeature",
           "package": "language-eiffel",
@@ -2916,6 +3169,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "ExportedFeature",
           "package": "language-eiffel",
@@ -2929,6 +3183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Expr",
           "package": "language-eiffel",
@@ -2937,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Expr",
           "package": "language-eiffel",
@@ -2950,6 +3206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "FeatureClause",
           "package": "language-eiffel",
@@ -2958,6 +3215,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "FeatureClause",
           "package": "language-eiffel",
@@ -2971,6 +3229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "FeatureMap",
           "package": "language-eiffel",
@@ -2979,6 +3238,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "FeatureMap",
           "package": "language-eiffel",
@@ -2992,6 +3252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Generic",
           "package": "language-eiffel",
@@ -3000,6 +3261,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Generic",
           "package": "language-eiffel",
@@ -3013,6 +3275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "InheritClause",
           "package": "language-eiffel",
@@ -3021,6 +3284,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "InheritClause",
           "package": "language-eiffel",
@@ -3034,6 +3298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Inheritance",
           "package": "language-eiffel",
@@ -3042,6 +3307,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Inheritance",
           "package": "language-eiffel",
@@ -3055,6 +3321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Map",
           "package": "language-eiffel",
@@ -3063,6 +3330,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Map",
           "package": "language-eiffel",
@@ -3076,6 +3344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Note",
           "package": "language-eiffel",
@@ -3084,6 +3353,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Note",
           "package": "language-eiffel",
@@ -3097,6 +3367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "PosAbsStmt",
           "package": "language-eiffel",
@@ -3105,6 +3376,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "PosAbsStmt",
           "package": "language-eiffel",
@@ -3118,6 +3390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Proc",
           "package": "language-eiffel",
@@ -3126,6 +3399,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Proc",
           "package": "language-eiffel",
@@ -3139,6 +3413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "ProcDecl",
           "package": "language-eiffel",
@@ -3147,6 +3422,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "ProcDecl",
           "package": "language-eiffel",
@@ -3160,6 +3436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "ProcExpr",
           "package": "language-eiffel",
@@ -3168,6 +3445,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "ProcExpr",
           "package": "language-eiffel",
@@ -3181,6 +3459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Quant",
           "package": "language-eiffel",
@@ -3189,6 +3468,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Quant",
           "package": "language-eiffel",
@@ -3202,6 +3482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "ROp",
           "package": "language-eiffel",
@@ -3210,6 +3491,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "ROp",
           "package": "language-eiffel",
@@ -3223,6 +3505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "RenameClause",
           "package": "language-eiffel",
@@ -3231,6 +3514,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "RenameClause",
           "package": "language-eiffel",
@@ -3244,6 +3528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Routine",
           "package": "language-eiffel",
@@ -3252,6 +3537,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Routine",
           "package": "language-eiffel",
@@ -3265,6 +3551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "RoutineBody",
           "package": "language-eiffel",
@@ -3273,6 +3560,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "RoutineBody",
           "package": "language-eiffel",
@@ -3286,6 +3574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "RoutineI",
           "package": "language-eiffel",
@@ -3294,6 +3583,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "RoutineI",
           "package": "language-eiffel",
@@ -3307,6 +3597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "RoutineWithBody",
           "package": "language-eiffel",
@@ -3315,6 +3606,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "RoutineWithBody",
           "package": "language-eiffel",
@@ -3328,6 +3620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "SomeFeature",
           "package": "language-eiffel",
@@ -3336,6 +3629,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "SomeFeature",
           "package": "language-eiffel",
@@ -3349,6 +3643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Stmt",
           "package": "language-eiffel",
@@ -3357,6 +3652,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Stmt",
           "package": "language-eiffel",
@@ -3370,6 +3666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Typ",
           "package": "language-eiffel",
@@ -3378,6 +3675,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Typ",
           "package": "language-eiffel",
@@ -3391,6 +3689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "UnOp",
           "package": "language-eiffel",
@@ -3399,6 +3698,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "UnOp",
           "package": "language-eiffel",
@@ -3412,6 +3712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "UnPosExpr",
           "package": "language-eiffel",
@@ -3420,6 +3721,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "UnPosExpr",
           "package": "language-eiffel",
@@ -3433,6 +3735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "UnPosStmt",
           "package": "language-eiffel",
@@ -3441,6 +3744,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "UnPosStmt",
           "package": "language-eiffel",
@@ -3454,6 +3758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "AbsClas",
           "package": "language-eiffel",
@@ -3463,6 +3768,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "AbsClas",
           "package": "language-eiffel",
@@ -3476,6 +3782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "AbsRoutine",
           "package": "language-eiffel",
@@ -3485,6 +3792,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "AbsRoutine",
           "package": "language-eiffel",
@@ -3498,6 +3806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Across",
           "package": "language-eiffel",
@@ -3507,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Across",
           "package": "language-eiffel",
@@ -3520,6 +3830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "AcrossExpr",
           "package": "language-eiffel",
@@ -3529,6 +3840,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "AcrossExpr",
           "package": "language-eiffel",
@@ -3542,6 +3854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Add",
           "package": "language-eiffel",
@@ -3551,6 +3864,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Add",
           "package": "language-eiffel",
@@ -3564,6 +3878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Address",
           "package": "language-eiffel",
@@ -3573,6 +3888,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Address",
           "package": "language-eiffel",
@@ -3586,6 +3902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Agent",
           "package": "language-eiffel",
@@ -3595,6 +3912,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Agent",
           "package": "language-eiffel",
@@ -3608,6 +3926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "All",
           "package": "language-eiffel",
@@ -3617,6 +3936,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "All",
           "package": "language-eiffel",
@@ -3630,6 +3950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "And",
           "package": "language-eiffel",
@@ -3639,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "And",
           "package": "language-eiffel",
@@ -3652,6 +3974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "AndThen",
           "package": "language-eiffel",
@@ -3661,6 +3984,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "AndThen",
           "package": "language-eiffel",
@@ -3674,6 +3998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Assign",
           "package": "language-eiffel",
@@ -3683,6 +4008,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Assign",
           "package": "language-eiffel",
@@ -3696,6 +4022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "AssignAttempt",
           "package": "language-eiffel",
@@ -3705,6 +4032,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "AssignAttempt",
           "package": "language-eiffel",
@@ -3718,6 +4046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Attached",
           "package": "language-eiffel",
@@ -3727,6 +4056,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Attached",
           "package": "language-eiffel",
@@ -3740,6 +4070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Attribute",
           "package": "language-eiffel",
@@ -3749,6 +4080,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Attribute",
           "package": "language-eiffel",
@@ -3762,6 +4094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "BinOpExpr",
           "package": "language-eiffel",
@@ -3771,6 +4104,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "BinOpExpr",
           "package": "language-eiffel",
@@ -3784,6 +4118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Block",
           "package": "language-eiffel",
@@ -3793,6 +4128,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Block",
           "normalized": "Block[PosAbsStmt a]",
@@ -3808,6 +4144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "BuiltIn",
           "package": "language-eiffel",
@@ -3817,6 +4154,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "BuiltIn",
           "package": "language-eiffel",
@@ -3830,6 +4168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "CallStmt",
           "package": "language-eiffel",
@@ -3839,6 +4178,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "CallStmt",
           "package": "language-eiffel",
@@ -3852,6 +4192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Check",
           "package": "language-eiffel",
@@ -3861,6 +4202,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Check",
           "normalized": "Check[Clause a]",
@@ -3876,6 +4218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "CheckBlock",
           "package": "language-eiffel",
@@ -3885,6 +4228,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "CheckBlock",
           "normalized": "CheckBlock[Clause a](PosAbsStmt a)",
@@ -3900,6 +4244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "ClassType",
           "package": "language-eiffel",
@@ -3909,6 +4254,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "ClassType",
           "normalized": "ClassType ClassName[Typ]",
@@ -3924,6 +4270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Clause",
           "package": "language-eiffel",
@@ -3933,6 +4280,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Clause",
           "package": "language-eiffel",
@@ -3946,6 +4294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Constant",
           "package": "language-eiffel",
@@ -3955,6 +4304,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Constant",
           "package": "language-eiffel",
@@ -3968,6 +4318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Contract",
           "package": "language-eiffel",
@@ -3977,6 +4328,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Contract",
           "package": "language-eiffel",
@@ -3990,6 +4342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "ConvertFrom",
           "package": "language-eiffel",
@@ -3999,6 +4352,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "ConvertFrom",
           "normalized": "ConvertFrom Text[Typ]",
@@ -4014,6 +4368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "ConvertTo",
           "package": "language-eiffel",
@@ -4023,6 +4378,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "ConvertTo",
           "normalized": "ConvertTo Text[Typ]",
@@ -4038,6 +4394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Create",
           "package": "language-eiffel",
@@ -4047,6 +4404,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Create",
           "normalized": "Create(Maybe Typ)a Text[a]",
@@ -4062,6 +4420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "CreateClause",
           "package": "language-eiffel",
@@ -4071,6 +4430,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "CreateClause",
           "package": "language-eiffel",
@@ -4084,6 +4444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "CreateExpr",
           "package": "language-eiffel",
@@ -4093,6 +4454,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "CreateExpr",
           "normalized": "CreateExpr Typ Text[Expr]",
@@ -4108,6 +4470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "CreateLessThan",
           "package": "language-eiffel",
@@ -4117,6 +4480,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "CreateLessThan",
           "package": "language-eiffel",
@@ -4130,6 +4494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "CurrentVar",
           "package": "language-eiffel",
@@ -4139,6 +4504,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "CurrentVar",
           "package": "language-eiffel",
@@ -4152,6 +4518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Debug",
           "package": "language-eiffel",
@@ -4161,6 +4528,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Debug",
           "package": "language-eiffel",
@@ -4174,6 +4542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Decl",
           "package": "language-eiffel",
@@ -4183,6 +4552,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Decl",
           "package": "language-eiffel",
@@ -4196,6 +4566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Div",
           "package": "language-eiffel",
@@ -4205,6 +4576,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Div",
           "package": "language-eiffel",
@@ -4218,6 +4590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Dot",
           "package": "language-eiffel",
@@ -4227,6 +4600,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Dot",
           "package": "language-eiffel",
@@ -4240,6 +4614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "ElseIfPart",
           "package": "language-eiffel",
@@ -4249,6 +4624,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "ElseIfPart",
           "package": "language-eiffel",
@@ -4262,6 +4638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "EmptyBody",
           "package": "language-eiffel",
@@ -4271,6 +4648,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "EmptyBody",
           "package": "language-eiffel",
@@ -4284,6 +4662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Eq",
           "package": "language-eiffel",
@@ -4293,6 +4672,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Eq",
           "package": "language-eiffel",
@@ -4306,6 +4686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Export",
           "package": "language-eiffel",
@@ -4315,6 +4696,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Export",
           "package": "language-eiffel",
@@ -4328,6 +4710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "ExportAll",
           "package": "language-eiffel",
@@ -4337,6 +4720,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "ExportAll",
           "package": "language-eiffel",
@@ -4350,6 +4734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "ExportFeatureNames",
           "package": "language-eiffel",
@@ -4359,6 +4744,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "ExportFeatureNames",
           "normalized": "ExportFeatureNames[Text]",
@@ -4374,6 +4760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "ExportedFeature",
           "package": "language-eiffel",
@@ -4383,6 +4770,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "ExportedFeature",
           "package": "language-eiffel",
@@ -4396,6 +4784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "FeatureClause",
           "package": "language-eiffel",
@@ -4405,6 +4794,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "FeatureClause",
           "package": "language-eiffel",
@@ -4418,6 +4808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "FeatureMap",
           "package": "language-eiffel",
@@ -4427,6 +4818,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "FeatureMap",
           "package": "language-eiffel",
@@ -4440,6 +4832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Generic",
           "package": "language-eiffel",
@@ -4449,6 +4842,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Generic",
           "package": "language-eiffel",
@@ -4462,6 +4856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Gt",
           "package": "language-eiffel",
@@ -4471,6 +4866,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Gt",
           "package": "language-eiffel",
@@ -4484,6 +4880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Gte",
           "package": "language-eiffel",
@@ -4493,6 +4890,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Gte",
           "package": "language-eiffel",
@@ -4506,6 +4904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "If",
           "package": "language-eiffel",
@@ -4515,6 +4914,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "If",
           "normalized": "If a(PosAbsStmt a)[ElseIfPart a](Maybe(PosAbsStmt a))",
@@ -4530,6 +4930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Implies",
           "package": "language-eiffel",
@@ -4539,6 +4940,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Implies",
           "package": "language-eiffel",
@@ -4552,6 +4954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "InheritClause",
           "package": "language-eiffel",
@@ -4561,6 +4964,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "InheritClause",
           "package": "language-eiffel",
@@ -4574,6 +4978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Inheritance",
           "package": "language-eiffel",
@@ -4583,6 +4988,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Inheritance",
           "package": "language-eiffel",
@@ -4596,6 +5002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "InlineAgent",
           "package": "language-eiffel",
@@ -4605,6 +5012,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "InlineAgent",
           "normalized": "InlineAgent[Decl](Maybe Typ)[Stmt][Expr]",
@@ -4620,6 +5028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Inspect",
           "package": "language-eiffel",
@@ -4629,6 +5038,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Inspect",
           "normalized": "Inspect a[([a],PosAbsStmt a)](Maybe(PosAbsStmt a))",
@@ -4644,6 +5054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "LessThan",
           "package": "language-eiffel",
@@ -4653,6 +5064,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "LessThan",
           "package": "language-eiffel",
@@ -4666,6 +5078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Like",
           "package": "language-eiffel",
@@ -4675,6 +5088,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Like",
           "package": "language-eiffel",
@@ -4688,6 +5102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "LitArray",
           "package": "language-eiffel",
@@ -4697,6 +5112,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "LitArray",
           "normalized": "LitArray[Expr]",
@@ -4712,6 +5128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "LitBool",
           "package": "language-eiffel",
@@ -4721,6 +5138,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "LitBool",
           "package": "language-eiffel",
@@ -4734,6 +5152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "LitChar",
           "package": "language-eiffel",
@@ -4743,6 +5162,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "LitChar",
           "package": "language-eiffel",
@@ -4756,6 +5176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "LitDouble",
           "package": "language-eiffel",
@@ -4765,6 +5186,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "LitDouble",
           "package": "language-eiffel",
@@ -4778,6 +5200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "LitInt",
           "package": "language-eiffel",
@@ -4787,6 +5210,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "LitInt",
           "package": "language-eiffel",
@@ -4800,6 +5224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "LitString",
           "package": "language-eiffel",
@@ -4809,6 +5234,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "LitString",
           "package": "language-eiffel",
@@ -4822,6 +5248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "LitType",
           "package": "language-eiffel",
@@ -4831,6 +5258,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "LitType",
           "package": "language-eiffel",
@@ -4844,6 +5272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "LitVoid",
           "package": "language-eiffel",
@@ -4853,6 +5282,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "LitVoid",
           "package": "language-eiffel",
@@ -4866,6 +5296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Lookup",
           "package": "language-eiffel",
@@ -4875,6 +5306,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Lookup",
           "normalized": "Lookup Expr[Expr]",
@@ -4890,6 +5322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Loop",
           "package": "language-eiffel",
@@ -4899,6 +5332,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Loop",
           "normalized": "Loop(PosAbsStmt a)[Clause a]a(PosAbsStmt a)(Maybe a)",
@@ -4914,6 +5348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Lt",
           "package": "language-eiffel",
@@ -4923,6 +5358,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Lt",
           "package": "language-eiffel",
@@ -4936,6 +5372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Lte",
           "package": "language-eiffel",
@@ -4945,6 +5382,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Lte",
           "package": "language-eiffel",
@@ -4958,6 +5396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Malloc",
           "package": "language-eiffel",
@@ -4967,6 +5406,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Malloc",
           "package": "language-eiffel",
@@ -4980,6 +5420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "ManifestCast",
           "package": "language-eiffel",
@@ -4989,6 +5430,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "ManifestCast",
           "package": "language-eiffel",
@@ -5002,6 +5444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Mul",
           "package": "language-eiffel",
@@ -5011,6 +5454,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Mul",
           "package": "language-eiffel",
@@ -5024,6 +5468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Neg",
           "package": "language-eiffel",
@@ -5033,6 +5478,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Neg",
           "package": "language-eiffel",
@@ -5046,6 +5492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Neq",
           "package": "language-eiffel",
@@ -5055,6 +5502,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Neq",
           "package": "language-eiffel",
@@ -5068,6 +5516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "NoType",
           "package": "language-eiffel",
@@ -5077,6 +5526,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "NoType",
           "package": "language-eiffel",
@@ -5090,6 +5540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Not",
           "package": "language-eiffel",
@@ -5099,6 +5550,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Not",
           "package": "language-eiffel",
@@ -5112,6 +5564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Note",
           "package": "language-eiffel",
@@ -5121,6 +5574,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Note",
           "package": "language-eiffel",
@@ -5134,6 +5588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Old",
           "package": "language-eiffel",
@@ -5143,6 +5598,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Old",
           "package": "language-eiffel",
@@ -5156,6 +5612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "OnceStr",
           "package": "language-eiffel",
@@ -5165,6 +5622,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "OnceStr",
           "package": "language-eiffel",
@@ -5178,6 +5636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Or",
           "package": "language-eiffel",
@@ -5187,6 +5646,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Or",
           "package": "language-eiffel",
@@ -5200,6 +5660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "OrElse",
           "package": "language-eiffel",
@@ -5209,6 +5670,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "OrElse",
           "package": "language-eiffel",
@@ -5222,6 +5684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Pow",
           "package": "language-eiffel",
@@ -5231,6 +5694,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Pow",
           "package": "language-eiffel",
@@ -5244,6 +5708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "PrecursorCall",
           "package": "language-eiffel",
@@ -5253,6 +5718,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "PrecursorCall",
           "normalized": "PrecursorCall(Maybe Text)[Expr]",
@@ -5268,6 +5734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Print",
           "package": "language-eiffel",
@@ -5277,6 +5744,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Print",
           "package": "language-eiffel",
@@ -5290,6 +5758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "PrintD",
           "package": "language-eiffel",
@@ -5299,6 +5768,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "PrintD",
           "package": "language-eiffel",
@@ -5312,6 +5782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Proc",
           "package": "language-eiffel",
@@ -5321,6 +5792,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Proc",
           "package": "language-eiffel",
@@ -5334,6 +5806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "QualCall",
           "package": "language-eiffel",
@@ -5343,6 +5816,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "QualCall",
           "normalized": "QualCall Expr Text[Expr]",
@@ -5358,6 +5832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Quot",
           "package": "language-eiffel",
@@ -5367,6 +5842,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Quot",
           "package": "language-eiffel",
@@ -5380,6 +5856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "RelOp",
           "package": "language-eiffel",
@@ -5389,6 +5866,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "RelOp",
           "package": "language-eiffel",
@@ -5402,6 +5880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Rem",
           "package": "language-eiffel",
@@ -5411,6 +5890,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Rem",
           "package": "language-eiffel",
@@ -5424,6 +5904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Rename",
           "package": "language-eiffel",
@@ -5433,6 +5914,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Rename",
           "package": "language-eiffel",
@@ -5446,6 +5928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "ResultVar",
           "package": "language-eiffel",
@@ -5455,6 +5938,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "ResultVar",
           "package": "language-eiffel",
@@ -5468,6 +5952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Retry",
           "package": "language-eiffel",
@@ -5477,6 +5962,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Retry",
           "package": "language-eiffel",
@@ -5490,6 +5976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "RoutineBody",
           "package": "language-eiffel",
@@ -5499,6 +5986,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "RoutineBody",
           "package": "language-eiffel",
@@ -5512,6 +6000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "RoutineDefer",
           "package": "language-eiffel",
@@ -5521,6 +6010,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "RoutineDefer",
           "package": "language-eiffel",
@@ -5534,6 +6024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "RoutineExternal",
           "package": "language-eiffel",
@@ -5543,6 +6034,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "RoutineExternal",
           "package": "language-eiffel",
@@ -5556,6 +6048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Sep",
           "package": "language-eiffel",
@@ -5565,6 +6058,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Sep",
           "normalized": "Sep(Maybe Proc)[Proc]Text",
@@ -5580,6 +6074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Some",
           "package": "language-eiffel",
@@ -5589,6 +6084,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Some",
           "package": "language-eiffel",
@@ -5602,6 +6098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "SomeAttr",
           "package": "language-eiffel",
@@ -5611,6 +6108,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "SomeAttr",
           "package": "language-eiffel",
@@ -5624,6 +6122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "SomeConst",
           "package": "language-eiffel",
@@ -5633,6 +6132,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "SomeConst",
           "package": "language-eiffel",
@@ -5646,6 +6146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "SomeRoutine",
           "package": "language-eiffel",
@@ -5655,6 +6156,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "SomeRoutine",
           "package": "language-eiffel",
@@ -5668,6 +6170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "StaticCall",
           "package": "language-eiffel",
@@ -5677,6 +6180,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "StaticCall",
           "normalized": "StaticCall Typ Text[Expr]",
@@ -5692,6 +6196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Sub",
           "package": "language-eiffel",
@@ -5701,6 +6206,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Sub",
           "package": "language-eiffel",
@@ -5714,6 +6220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "SubTop",
           "package": "language-eiffel",
@@ -5723,6 +6230,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "SubTop",
           "package": "language-eiffel",
@@ -5736,6 +6244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "SymbolOp",
           "package": "language-eiffel",
@@ -5745,6 +6254,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "SymbolOp",
           "package": "language-eiffel",
@@ -5758,6 +6268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "TildeEq",
           "package": "language-eiffel",
@@ -5767,6 +6278,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "TildeEq",
           "package": "language-eiffel",
@@ -5780,6 +6292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "TildeNeq",
           "package": "language-eiffel",
@@ -5789,6 +6302,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "TildeNeq",
           "package": "language-eiffel",
@@ -5802,6 +6316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Tuple",
           "package": "language-eiffel",
@@ -5811,6 +6326,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Tuple",
           "normalized": "Tuple[Expr]",
@@ -5826,6 +6342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "TupleType",
           "package": "language-eiffel",
@@ -5835,6 +6352,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "TupleType",
           "normalized": "TupleType(Either[Typ][Decl])",
@@ -5850,6 +6368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "TypedVar",
           "package": "language-eiffel",
@@ -5859,6 +6378,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "TypedVar",
           "package": "language-eiffel",
@@ -5872,6 +6392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "UnOpExpr",
           "package": "language-eiffel",
@@ -5881,6 +6402,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "UnOpExpr",
           "package": "language-eiffel",
@@ -5894,6 +6416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "UnqualCall",
           "package": "language-eiffel",
@@ -5903,6 +6426,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "UnqualCall",
           "normalized": "UnqualCall Text[Expr]",
@@ -5918,6 +6442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "VarOrCall",
           "package": "language-eiffel",
@@ -5927,6 +6452,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "VarOrCall",
           "package": "language-eiffel",
@@ -5940,6 +6466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "VoidType",
           "package": "language-eiffel",
@@ -5949,6 +6476,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "VoidType",
           "package": "language-eiffel",
@@ -5962,6 +6490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "Xor",
           "package": "language-eiffel",
@@ -5971,6 +6500,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "Xor",
           "package": "language-eiffel",
@@ -5984,6 +6514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "_exportClass",
           "package": "language-eiffel",
@@ -5993,6 +6524,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "_exportClass",
           "package": "language-eiffel",
@@ -6006,6 +6538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "_exportFeat",
           "package": "language-eiffel",
@@ -6015,6 +6548,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "_exportFeat",
           "package": "language-eiffel",
@@ -6028,6 +6562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "_fmAttrs",
           "package": "language-eiffel",
@@ -6037,6 +6572,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "_fmAttrs",
           "package": "language-eiffel",
@@ -6050,6 +6586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "_fmConsts",
           "package": "language-eiffel",
@@ -6059,6 +6596,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "_fmConsts",
           "package": "language-eiffel",
@@ -6072,6 +6610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "_fmRoutines",
           "package": "language-eiffel",
@@ -6081,6 +6620,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "_fmRoutines",
           "package": "language-eiffel",
@@ -6094,6 +6634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "argsShow",
           "package": "language-eiffel",
@@ -6103,6 +6644,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "argsShow",
           "normalized": "[a]-\u003e[Char]",
@@ -6118,6 +6660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "attrAssign",
           "package": "language-eiffel",
@@ -6127,6 +6670,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "attrAssign",
           "package": "language-eiffel",
@@ -6140,6 +6684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "attrDecl",
           "package": "language-eiffel",
@@ -6149,6 +6694,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "attrDecl",
           "package": "language-eiffel",
@@ -6162,6 +6708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "attrEns",
           "package": "language-eiffel",
@@ -6171,6 +6718,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "attrEns",
           "package": "language-eiffel",
@@ -6184,6 +6732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "attrFroz",
           "package": "language-eiffel",
@@ -6193,6 +6742,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "attrFroz",
           "package": "language-eiffel",
@@ -6206,6 +6756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "attrNotes",
           "package": "language-eiffel",
@@ -6215,6 +6766,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "attrNotes",
           "normalized": "[Note]",
@@ -6230,6 +6782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "attrReq",
           "package": "language-eiffel",
@@ -6239,6 +6792,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "attrReq",
           "package": "language-eiffel",
@@ -6252,6 +6806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "attributes",
           "package": "language-eiffel",
@@ -6261,6 +6816,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "attributes",
           "normalized": "[Attribute a]",
@@ -6275,6 +6831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "braced",
           "package": "language-eiffel",
@@ -6284,6 +6841,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "braced",
           "normalized": "Maybe a-\u003e[Char]",
@@ -6298,6 +6856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "className",
           "package": "language-eiffel",
@@ -6307,6 +6866,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "className",
           "package": "language-eiffel",
@@ -6320,6 +6880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "classNote",
           "package": "language-eiffel",
@@ -6329,6 +6890,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "classNote",
           "normalized": "[Note]",
@@ -6344,6 +6906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "clauseExpr",
           "package": "language-eiffel",
@@ -6353,6 +6916,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "clauseExpr",
           "package": "language-eiffel",
@@ -6366,6 +6930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "clauseName",
           "package": "language-eiffel",
@@ -6375,6 +6940,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "clauseName",
           "package": "language-eiffel",
@@ -6388,6 +6954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "commaSepShow",
           "package": "language-eiffel",
@@ -6397,6 +6964,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "commaSepShow",
           "normalized": "[a]-\u003e[Char]",
@@ -6412,6 +6980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "constDecl",
           "package": "language-eiffel",
@@ -6421,6 +6990,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "constDecl",
           "package": "language-eiffel",
@@ -6434,6 +7004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "constFroz",
           "package": "language-eiffel",
@@ -6443,6 +7014,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "constFroz",
           "package": "language-eiffel",
@@ -6456,6 +7028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "constVal",
           "package": "language-eiffel",
@@ -6465,6 +7038,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "constVal",
           "package": "language-eiffel",
@@ -6478,6 +7052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "constants",
           "package": "language-eiffel",
@@ -6487,6 +7062,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "constants",
           "normalized": "[Constant a]",
@@ -6501,6 +7077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "contractClauses",
           "package": "language-eiffel",
@@ -6510,6 +7087,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "contractClauses",
           "normalized": "[Clause a]",
@@ -6525,6 +7103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "contractInherited",
           "package": "language-eiffel",
@@ -6534,6 +7113,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "contractInherited",
           "package": "language-eiffel",
@@ -6547,6 +7127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "converts",
           "package": "language-eiffel",
@@ -6556,6 +7137,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "converts",
           "normalized": "[ConvertClause]",
@@ -6570,6 +7152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "createExportNames",
           "package": "language-eiffel",
@@ -6579,6 +7162,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "createExportNames",
           "normalized": "[ClassName]",
@@ -6594,6 +7178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "createNames",
           "package": "language-eiffel",
@@ -6603,6 +7188,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "createNames",
           "normalized": "[Text]",
@@ -6618,6 +7204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "creates",
           "package": "language-eiffel",
@@ -6627,6 +7214,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "creates",
           "normalized": "[CreateClause]",
@@ -6641,6 +7229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "currProc",
           "package": "language-eiffel",
@@ -6650,6 +7239,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "currProc",
           "package": "language-eiffel",
@@ -6663,6 +7253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "declName",
           "package": "language-eiffel",
@@ -6672,6 +7263,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "declName",
           "package": "language-eiffel",
@@ -6685,6 +7277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "declType",
           "package": "language-eiffel",
@@ -6694,6 +7287,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "declType",
           "package": "language-eiffel",
@@ -6707,6 +7301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "defaultCreate",
           "package": "language-eiffel",
@@ -6716,6 +7311,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "defaultCreate",
           "package": "language-eiffel",
@@ -6729,6 +7325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "deferredClass",
           "package": "language-eiffel",
@@ -6738,6 +7335,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "deferredClass",
           "package": "language-eiffel",
@@ -6751,6 +7349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "expandedClass",
           "package": "language-eiffel",
@@ -6760,6 +7359,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "expandedClass",
           "package": "language-eiffel",
@@ -6773,6 +7373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "export",
           "package": "language-eiffel",
@@ -6782,6 +7383,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "export",
           "normalized": "[ExportClause]",
@@ -6796,6 +7398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "exportClass",
           "package": "language-eiffel",
@@ -6805,6 +7408,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "exportClass",
           "package": "language-eiffel",
@@ -6818,6 +7422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "exportFeat",
           "package": "language-eiffel",
@@ -6827,6 +7432,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "exportFeat",
           "package": "language-eiffel",
@@ -6840,6 +7446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "exportNames",
           "package": "language-eiffel",
@@ -6849,6 +7456,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "exportNames",
           "normalized": "[ClassName]",
@@ -6864,6 +7472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "exportTo",
           "package": "language-eiffel",
@@ -6873,6 +7482,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "exportTo",
           "normalized": "[ClassName]",
@@ -6888,6 +7498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "exportWhat",
           "package": "language-eiffel",
@@ -6897,6 +7508,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "exportWhat",
           "package": "language-eiffel",
@@ -6910,6 +7522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "featureMap",
           "package": "language-eiffel",
@@ -6919,6 +7532,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "featureMap",
           "package": "language-eiffel",
@@ -6932,6 +7546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "fmAttrs",
           "package": "language-eiffel",
@@ -6941,6 +7556,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "fmAttrs",
           "package": "language-eiffel",
@@ -6954,6 +7570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "fmConsts",
           "package": "language-eiffel",
@@ -6963,6 +7580,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "fmConsts",
           "package": "language-eiffel",
@@ -6976,6 +7594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "fmRoutines",
           "package": "language-eiffel",
@@ -6985,6 +7604,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "fmRoutines",
           "package": "language-eiffel",
@@ -6998,6 +7618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "frozenClass",
           "package": "language-eiffel",
@@ -7007,6 +7628,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "frozenClass",
           "package": "language-eiffel",
@@ -7020,6 +7642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "genericConstType",
           "package": "language-eiffel",
@@ -7029,6 +7652,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "genericConstType",
           "normalized": "[Typ]",
@@ -7044,6 +7668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "genericCreate",
           "package": "language-eiffel",
@@ -7053,6 +7678,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "genericCreate",
           "normalized": "Maybe[Text]",
@@ -7068,6 +7694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "genericName",
           "package": "language-eiffel",
@@ -7077,6 +7704,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "genericName",
           "package": "language-eiffel",
@@ -7090,6 +7718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "generics",
           "package": "language-eiffel",
@@ -7099,6 +7728,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "generics",
           "normalized": "[Generic]",
@@ -7113,6 +7743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "inherit",
           "package": "language-eiffel",
@@ -7122,6 +7753,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "inherit",
           "normalized": "[Inheritance]",
@@ -7136,6 +7768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "inheritClass",
           "package": "language-eiffel",
@@ -7145,6 +7778,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "inheritClass",
           "package": "language-eiffel",
@@ -7158,6 +7792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "inheritClauses",
           "package": "language-eiffel",
@@ -7167,6 +7802,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "inheritClauses",
           "normalized": "[InheritClause]",
@@ -7182,6 +7818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "inheritNonConform",
           "package": "language-eiffel",
@@ -7191,6 +7828,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "inheritNonConform",
           "package": "language-eiffel",
@@ -7204,6 +7842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "invnts",
           "package": "language-eiffel",
@@ -7213,6 +7852,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "invnts",
           "normalized": "[Clause a]",
@@ -7227,6 +7867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "noteContent",
           "package": "language-eiffel",
@@ -7236,6 +7877,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "noteContent",
           "normalized": "[UnPosExpr]",
@@ -7251,6 +7893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "noteTag",
           "package": "language-eiffel",
@@ -7260,6 +7903,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "noteTag",
           "package": "language-eiffel",
@@ -7273,6 +7917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "obsoleteClass",
           "package": "language-eiffel",
@@ -7282,6 +7927,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "obsoleteClass",
           "package": "language-eiffel",
@@ -7295,6 +7941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "procExpr",
           "package": "language-eiffel",
@@ -7304,6 +7951,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "procExpr",
           "normalized": "[ProcDecl]",
@@ -7319,6 +7967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "procGeneric",
           "package": "language-eiffel",
@@ -7328,6 +7977,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "procGeneric",
           "normalized": "[Proc]",
@@ -7343,6 +7993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "redefine",
           "package": "language-eiffel",
@@ -7352,6 +8003,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "redefine",
           "normalized": "[Text]",
@@ -7366,6 +8018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "rename",
           "package": "language-eiffel",
@@ -7375,6 +8028,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "rename",
           "normalized": "[RenameClause]",
@@ -7389,6 +8043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "renameAlias",
           "package": "language-eiffel",
@@ -7398,6 +8053,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "renameAlias",
           "package": "language-eiffel",
@@ -7411,6 +8067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "renameNew",
           "package": "language-eiffel",
@@ -7420,6 +8077,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "renameNew",
           "package": "language-eiffel",
@@ -7433,6 +8091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "renameOrig",
           "package": "language-eiffel",
@@ -7442,6 +8101,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "renameOrig",
           "package": "language-eiffel",
@@ -7455,6 +8115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "routineAlias",
           "package": "language-eiffel",
@@ -7464,6 +8125,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "routineAlias",
           "package": "language-eiffel",
@@ -7477,6 +8139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "routineArgs",
           "package": "language-eiffel",
@@ -7486,6 +8149,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "routineArgs",
           "normalized": "[Decl]",
@@ -7501,6 +8165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "routineAssigner",
           "package": "language-eiffel",
@@ -7510,6 +8175,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "routineAssigner",
           "package": "language-eiffel",
@@ -7523,6 +8189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "routineBody",
           "package": "language-eiffel",
@@ -7532,6 +8199,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "routineBody",
           "package": "language-eiffel",
@@ -7545,6 +8213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "routineEns",
           "package": "language-eiffel",
@@ -7554,6 +8223,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "routineEns",
           "package": "language-eiffel",
@@ -7567,6 +8237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "routineEnsLk",
           "package": "language-eiffel",
@@ -7576,6 +8247,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "routineEnsLk",
           "normalized": "[Proc]",
@@ -7591,6 +8263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "routineFroz",
           "package": "language-eiffel",
@@ -7600,6 +8273,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "routineFroz",
           "package": "language-eiffel",
@@ -7613,6 +8287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "routineImpl",
           "package": "language-eiffel",
@@ -7622,6 +8297,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "routineImpl",
           "package": "language-eiffel",
@@ -7635,6 +8311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "routineLocal",
           "package": "language-eiffel",
@@ -7644,6 +8321,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "routineLocal",
           "normalized": "[Decl]",
@@ -7659,6 +8337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "routineLocalProcs",
           "package": "language-eiffel",
@@ -7668,6 +8347,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "routineLocalProcs",
           "normalized": "[ProcDecl]",
@@ -7683,6 +8363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "routineName",
           "package": "language-eiffel",
@@ -7692,6 +8373,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "routineName",
           "package": "language-eiffel",
@@ -7705,6 +8387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "routineNote",
           "package": "language-eiffel",
@@ -7714,6 +8397,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "routineNote",
           "normalized": "[Note]",
@@ -7729,6 +8413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "routineProcs",
           "package": "language-eiffel",
@@ -7738,6 +8423,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "routineProcs",
           "normalized": "[Proc]",
@@ -7753,6 +8439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "routineReq",
           "package": "language-eiffel",
@@ -7762,6 +8449,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "routineReq",
           "package": "language-eiffel",
@@ -7775,6 +8463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "routineReqLk",
           "package": "language-eiffel",
@@ -7784,6 +8473,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "routineReqLk",
           "normalized": "[ProcExpr]",
@@ -7799,6 +8489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "routineRescue",
           "package": "language-eiffel",
@@ -7808,6 +8499,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "routineRescue",
           "normalized": "Maybe[PosAbsStmt a]",
@@ -7823,6 +8515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "routineResult",
           "package": "language-eiffel",
@@ -7832,6 +8525,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "routineResult",
           "package": "language-eiffel",
@@ -7845,6 +8539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "routines",
           "package": "language-eiffel",
@@ -7854,6 +8549,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "routines",
           "normalized": "[AbsRoutine a b]",
@@ -7868,6 +8564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "select",
           "package": "language-eiffel",
@@ -7877,6 +8574,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "select",
           "normalized": "[Text]",
@@ -7891,6 +8589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "showCase",
           "package": "language-eiffel",
@@ -7900,6 +8599,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "showCase",
           "normalized": "(a,a)-\u003e[Char]",
@@ -7915,6 +8615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "showDefault",
           "package": "language-eiffel",
@@ -7924,6 +8625,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "showDefault",
           "normalized": "Maybe a-\u003e[Char]",
@@ -7939,6 +8641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "unProcGen",
           "package": "language-eiffel",
@@ -7948,6 +8651,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "unProcGen",
           "package": "language-eiffel",
@@ -7961,6 +8665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Syntax",
           "name": "undefine",
           "package": "language-eiffel",
@@ -7970,6 +8675,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Syntax",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Syntax",
           "name": "undefine",
           "normalized": "[Text]",
@@ -7984,6 +8690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "Util",
           "package": "language-eiffel",
@@ -7992,6 +8699,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "Util",
           "package": "language-eiffel",
@@ -8006,6 +8714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA way to extract each type of feature from a class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "ClassFeature",
           "package": "language-eiffel",
@@ -8015,6 +8724,7 @@
         "index": {
           "description": "way to extract each type of feature from class",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "ClassFeature",
           "package": "language-eiffel",
@@ -8029,6 +8739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eFeature\u003c/a\u003e\u003c/code\u003e can provide its name, arguments, contract, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "Feature",
           "package": "language-eiffel",
@@ -8038,6 +8749,7 @@
         "index": {
           "description": "Feature can provide its name arguments contract etc",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "Feature",
           "package": "language-eiffel",
@@ -8052,6 +8764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn existential type to aggregate \n all features (routines, attributes, constants) together.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "FeatureEx",
           "package": "language-eiffel",
@@ -8061,6 +8774,7 @@
         "index": {
           "description": "An existential type to aggregate all features routines attributes constants together",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "FeatureEx",
           "package": "language-eiffel",
@@ -8075,6 +8789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap the \u003ccode\u003e\u003ca\u003eFeature\u003c/a\u003e\u003c/code\u003e in the existential type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "FeatureEx",
           "package": "language-eiffel",
@@ -8085,6 +8800,7 @@
         "index": {
           "description": "Wrap the Feature in the existential type",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "FeatureEx",
           "package": "language-eiffel",
@@ -8099,6 +8815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch attribute declarations from all feature clauses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "allAttributeDecls",
           "package": "language-eiffel",
@@ -8109,6 +8826,7 @@
         "index": {
           "description": "Fetch attribute declarations from all feature clauses",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "allAttributeDecls",
           "normalized": "AbsClas a b-\u003e[Decl]",
@@ -8125,6 +8843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch attributes from all feature clauses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "allAttributes",
           "package": "language-eiffel",
@@ -8135,6 +8854,7 @@
         "index": {
           "description": "Fetch attributes from all feature clauses",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "allAttributes",
           "normalized": "AbsClas a b-\u003e[Attribute b]",
@@ -8151,6 +8871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch constant declarations from all feature clauses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "allConstantDecls",
           "package": "language-eiffel",
@@ -8161,6 +8882,7 @@
         "index": {
           "description": "Fetch constant declarations from all feature clauses",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "allConstantDecls",
           "normalized": "AbsClas a b-\u003e[Decl]",
@@ -8177,6 +8899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch contants from all feature clauses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "allConstants",
           "package": "language-eiffel",
@@ -8187,6 +8910,7 @@
         "index": {
           "description": "Fetch contants from all feature clauses",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "allConstants",
           "normalized": "AbsClas a b-\u003e[Constant b]",
@@ -8203,6 +8927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch creation routines from all feature clauses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "allCreates",
           "package": "language-eiffel",
@@ -8213,6 +8938,7 @@
         "index": {
           "description": "Fetch creation routines from all feature clauses",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "allCreates",
           "normalized": "AbsClas a b-\u003e[Text]",
@@ -8229,6 +8955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of all this class' features of the given type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "allFeatures",
           "package": "language-eiffel",
@@ -8239,6 +8966,7 @@
         "index": {
           "description": "list of all this class features of the given type",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "allFeatures",
           "normalized": "AbsClas a b-\u003e[c]",
@@ -8254,6 +8982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "allHelper",
           "package": "language-eiffel",
@@ -8263,6 +8992,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "allHelper",
           "normalized": "Getting(HashMap a(ExportedFeature b))(FeatureMap c d)e(HashMap a(ExportedFeature b))f-\u003eAbsClas c d-\u003e[b]",
@@ -8279,6 +9009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll inheritance clauses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "allInherited",
           "package": "language-eiffel",
@@ -8289,6 +9020,7 @@
         "index": {
           "description": "All inheritance clauses",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "allInherited",
           "normalized": "AbsClas a b-\u003e[InheritClause]",
@@ -8305,6 +9037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll inherited classes, as types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "allInheritedTypes",
           "package": "language-eiffel",
@@ -8315,6 +9048,7 @@
         "index": {
           "description": "All inherited classes as types",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "allInheritedTypes",
           "normalized": "AbsClas a b-\u003e[Typ]",
@@ -8331,6 +9065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch routines from all feature clauses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "allRoutines",
           "package": "language-eiffel",
@@ -8341,6 +9076,7 @@
         "index": {
           "description": "Fetch routines from all feature clauses",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "allRoutines",
           "normalized": "AbsClas a b-\u003e[AbsRoutine a b]",
@@ -8357,6 +9093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe top type, ANY.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "anyType",
           "package": "language-eiffel",
@@ -8367,6 +9104,7 @@
         "index": {
           "description": "The top type ANY",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "anyType",
           "package": "language-eiffel",
@@ -8381,6 +9119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a map from a routine's arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "argMap",
           "package": "language-eiffel",
@@ -8391,6 +9130,7 @@
         "index": {
           "description": "Construct map from routine arguments",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "argMap",
           "normalized": "RoutineWithBody a-\u003eMap Text Typ",
@@ -8407,6 +9147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a map of attribute names to types given a class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "attrMap",
           "package": "language-eiffel",
@@ -8417,6 +9158,7 @@
         "index": {
           "description": "Extract map of attribute names to types given class",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "attrMap",
           "normalized": "AbsClas a b-\u003eMap Text Typ",
@@ -8433,6 +9175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default boolean type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "boolType",
           "package": "language-eiffel",
@@ -8443,6 +9186,7 @@
         "index": {
           "description": "The default boolean type",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "boolType",
           "package": "language-eiffel",
@@ -8457,6 +9201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default character type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "charType",
           "package": "language-eiffel",
@@ -8467,6 +9212,7 @@
         "index": {
           "description": "The default character type",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "charType",
           "package": "language-eiffel",
@@ -8481,6 +9227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of integer type names (ie, CHARACTER_8).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "charTypeNames",
           "package": "language-eiffel",
@@ -8491,6 +9238,7 @@
         "index": {
           "description": "List of integer type names ie CHARACTER",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "charTypeNames",
           "normalized": "[Text]",
@@ -8507,6 +9255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip the bodies from all features.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "clasInterface",
           "package": "language-eiffel",
@@ -8517,6 +9266,7 @@
         "index": {
           "description": "Strip the bodies from all features",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "clasInterface",
           "normalized": "AbsClas a Expr-\u003eClasInterface",
@@ -8533,6 +9283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a list of classes into a map indexed by the class names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "clasMap",
           "package": "language-eiffel",
@@ -8543,6 +9294,7 @@
         "index": {
           "description": "Turn list of classes into map indexed by the class names",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "clasMap",
           "normalized": "[AbsClas a b]-\u003eMap ClassName(AbsClas a b)",
@@ -8559,6 +9311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a transformation function over the attributes in a class, replacing the\n old attributes with the transformed versions within a class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "classMapAttributes",
           "package": "language-eiffel",
@@ -8569,6 +9322,7 @@
         "index": {
           "description": "Map transformation function over the attributes in class replacing the old attributes with the transformed versions within class",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "classMapAttributes",
           "normalized": "(Attribute a-\u003eAttribute a)-\u003eAbsClas b a-\u003eAbsClas b a",
@@ -8585,6 +9339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic version of \u003ccode\u003e\u003ca\u003eclassMapAttributes\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "classMapAttributesM",
           "package": "language-eiffel",
@@ -8595,6 +9350,7 @@
         "index": {
           "description": "Monadic version of classMapAttributes",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "classMapAttributesM",
           "normalized": "(Attribute a-\u003eb(Attribute a))-\u003eAbsClas c a-\u003eb(AbsClas c a)",
@@ -8611,6 +9367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a transformation function over the constants in a class, replacing the\n old constants with the transformed versions within a class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "classMapConstants",
           "package": "language-eiffel",
@@ -8621,6 +9378,7 @@
         "index": {
           "description": "Map transformation function over the constants in class replacing the old constants with the transformed versions within class",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "classMapConstants",
           "normalized": "(Constant a-\u003eConstant a)-\u003eAbsClas b a-\u003eAbsClas b a",
@@ -8637,6 +9395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a transformation function over all expressions in a class. \n A transformation for features, constants, and attributes must be given\n as if the type of expressions changes (ie, with a typecheck) then\n all expressions types must change together. This is performed on every\n feature clause in a class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "classMapExprs",
           "package": "language-eiffel",
@@ -8647,6 +9406,7 @@
         "index": {
           "description": "Map transformation function over all expressions in class transformation for features constants and attributes must be given as if the type of expressions changes ie with typecheck then all expressions types must change together This is performed on every feature clause in class",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "classMapExprs",
           "normalized": "(AbsRoutine a b-\u003eAbsRoutine c d)-\u003e(Clause b-\u003eClause d)-\u003e(Constant b-\u003eConstant d)-\u003eAbsClas a b-\u003eAbsClas c d",
@@ -8663,6 +9423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a transformation function over the routines in a class, replacing the\n old routines with the transformed versions within a class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "classMapRoutines",
           "package": "language-eiffel",
@@ -8673,6 +9434,7 @@
         "index": {
           "description": "Map transformation function over the routines in class replacing the old routines with the transformed versions within class",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "classMapRoutines",
           "normalized": "(AbsRoutine a b-\u003eAbsRoutine a b)-\u003eAbsClas a b-\u003eAbsClas a b",
@@ -8689,6 +9451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic version of \u003ccode\u003e\u003ca\u003eclassMapRoutines\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "classMapRoutinesM",
           "package": "language-eiffel",
@@ -8699,6 +9462,7 @@
         "index": {
           "description": "Monadic version of classMapRoutines",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "classMapRoutinesM",
           "normalized": "(AbsRoutine a b-\u003ec(AbsRoutine a b))-\u003eAbsClas a b-\u003ec(AbsClas a b)",
@@ -8715,6 +9479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a type give the name of the class as a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "classNameType",
           "package": "language-eiffel",
@@ -8725,6 +9490,7 @@
         "index": {
           "description": "Given type give the name of the class as string",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "classNameType",
           "normalized": "Typ-\u003eText",
@@ -8741,6 +9507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a class into its type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "classToType",
           "package": "language-eiffel",
@@ -8751,6 +9518,7 @@
         "index": {
           "description": "Convert class into its type",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "classToType",
           "normalized": "AbsClas a b-\u003eTyp",
@@ -8767,6 +9535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a constant into an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "constToAttr",
           "package": "language-eiffel",
@@ -8777,6 +9546,7 @@
         "index": {
           "description": "Convert constant into an attribute",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "constToAttr",
           "normalized": "Constant a-\u003eAttribute Expr",
@@ -8793,6 +9563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a list of declarations into a string-type map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "declsToMap",
           "package": "language-eiffel",
@@ -8803,6 +9574,7 @@
         "index": {
           "description": "Turn list of declarations into string-type map",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "declsToMap",
           "normalized": "[Decl]-\u003eMap Text Typ",
@@ -8819,6 +9591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if the binary operator is an equality operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "equalityOp",
           "package": "language-eiffel",
@@ -8829,6 +9602,7 @@
         "index": {
           "description": "Test if the binary operator is an equality operator",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "equalityOp",
           "normalized": "BinOp-\u003eBool",
@@ -8845,6 +9619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument declarations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "featureArgs",
           "package": "language-eiffel",
@@ -8855,6 +9630,7 @@
         "index": {
           "description": "Argument declarations",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "featureArgs",
           "normalized": "a-\u003e[Decl]",
@@ -8871,6 +9647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether the feature is frozen (can't be redefined).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "featureIsFrozen",
           "package": "language-eiffel",
@@ -8881,6 +9658,7 @@
         "index": {
           "description": "Whether the feature is frozen can be redefined",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "featureIsFrozen",
           "normalized": "a-\u003eBool",
@@ -8897,6 +9675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the feature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "featureName",
           "package": "language-eiffel",
@@ -8907,6 +9686,7 @@
         "index": {
           "description": "The name of the feature",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "featureName",
           "normalized": "a-\u003eText",
@@ -8923,6 +9703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePostconditions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "featurePost",
           "package": "language-eiffel",
@@ -8933,6 +9714,7 @@
         "index": {
           "description": "Postconditions",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "featurePost",
           "normalized": "a-\u003e[Clause b]",
@@ -8949,6 +9731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrecondition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "featurePre",
           "package": "language-eiffel",
@@ -8959,6 +9742,7 @@
         "index": {
           "description": "Precondition",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "featurePre",
           "normalized": "a-\u003e[Clause b]",
@@ -8975,6 +9759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform the feature given a renaming clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "featureRename",
           "package": "language-eiffel",
@@ -8985,6 +9770,7 @@
         "index": {
           "description": "Transform the feature given renaming clause",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "featureRename",
           "normalized": "a-\u003eRenameClause-\u003ea",
@@ -9001,6 +9787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "featureResult",
           "package": "language-eiffel",
@@ -9011,6 +9798,7 @@
         "index": {
           "description": "Result type",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "featureResult",
           "normalized": "a-\u003eTyp",
@@ -9027,6 +9815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind an attribute in a class by name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "findAttrInt",
           "package": "language-eiffel",
@@ -9037,6 +9826,7 @@
         "index": {
           "description": "Find an attribute in class by name",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "findAttrInt",
           "normalized": "AbsClas a b-\u003eText-\u003eMaybe(Attribute b)",
@@ -9053,6 +9843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a constant by name in a class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "findConstantInt",
           "package": "language-eiffel",
@@ -9063,6 +9854,7 @@
         "index": {
           "description": "Find constant by name in class",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "findConstantInt",
           "normalized": "AbsClas a Expr-\u003eText-\u003eMaybe(Constant Expr)",
@@ -9079,6 +9871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind this kind of feature in a class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "findFeature",
           "package": "language-eiffel",
@@ -9089,6 +9882,7 @@
         "index": {
           "description": "Find this kind of feature in class",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "findFeature",
           "normalized": "AbsClas a b-\u003eText-\u003eMaybe c",
@@ -9104,6 +9898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "findFeature'",
           "package": "language-eiffel",
@@ -9113,6 +9908,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "findFeature'",
           "normalized": "(SomeFeature a b-\u003eMaybe c)-\u003eAbsClas a b-\u003eText-\u003eMaybe c",
@@ -9129,6 +9925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind an existential \u003ccode\u003e\u003ca\u003eFeatureEx\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "findFeatureEx",
           "package": "language-eiffel",
@@ -9139,6 +9936,7 @@
         "index": {
           "description": "Find an existential FeatureEx",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "findFeatureEx",
           "normalized": "AbsClas a b-\u003eText-\u003eMaybe(FeatureEx b)",
@@ -9155,6 +9953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind an operator (symbol sequence) in a class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "findOperator",
           "package": "language-eiffel",
@@ -9165,6 +9964,7 @@
         "index": {
           "description": "Find an operator symbol sequence in class",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "findOperator",
           "normalized": "AbsClas a Expr-\u003eText-\u003eInt-\u003eMaybe(AbsRoutine a Expr)",
@@ -9181,6 +9981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a routine in a class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "findRoutine",
           "package": "language-eiffel",
@@ -9191,6 +9992,7 @@
         "index": {
           "description": "Find routine in class",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "findRoutine",
           "normalized": "Clas-\u003eText-\u003eMaybe Routine",
@@ -9207,6 +10009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a routine by name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "findRoutineInt",
           "package": "language-eiffel",
@@ -9217,6 +10020,7 @@
         "index": {
           "description": "Find routine by name",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "findRoutineInt",
           "normalized": "ClasInterface-\u003eText-\u003eMaybe RoutineI",
@@ -9233,6 +10037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the sum-type for all features.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "findSomeFeature",
           "package": "language-eiffel",
@@ -9243,6 +10048,7 @@
         "index": {
           "description": "Find the sum-type for all features",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "findSomeFeature",
           "normalized": "AbsClas a b-\u003eText-\u003eMaybe(SomeFeature a b)",
@@ -9258,6 +10064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "fmEmpty",
           "package": "language-eiffel",
@@ -9267,6 +10074,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "fmEmpty",
           "package": "language-eiffel",
@@ -9280,6 +10088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "fmKeyFilter",
           "package": "language-eiffel",
@@ -9289,6 +10098,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "fmKeyFilter",
           "normalized": "(Text-\u003eBool)-\u003eFeatureMap a b-\u003eFeatureMap a b",
@@ -9304,6 +10114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "fmMapKeys",
           "package": "language-eiffel",
@@ -9313,6 +10124,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "fmMapKeys",
           "normalized": "(Text-\u003eText)-\u003eFeatureMap a b-\u003eFeatureMap a b",
@@ -9328,6 +10140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "fmUnion",
           "package": "language-eiffel",
@@ -9337,6 +10150,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "fmUnion",
           "normalized": "FeatureMap a b-\u003eFeatureMap a b-\u003eFeatureMap a b",
@@ -9352,6 +10166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "fmUnions",
           "package": "language-eiffel",
@@ -9361,6 +10176,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "fmUnions",
           "normalized": "[FeatureMap a b]-\u003eFeatureMap a b",
@@ -9377,6 +10193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a class and a routine, given a unique name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "fullName",
           "package": "language-eiffel",
@@ -9387,6 +10204,7 @@
         "index": {
           "description": "Given class and routine given unique name",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "fullName",
           "normalized": "AbsClas a b-\u003eRoutineI-\u003eText",
@@ -9403,6 +10221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven to string construct a unique combination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "fullNameStr",
           "package": "language-eiffel",
@@ -9413,6 +10232,7 @@
         "index": {
           "description": "Given to string construct unique combination",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "fullNameStr",
           "normalized": "Text-\u003eText-\u003eText",
@@ -9429,6 +10249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a class, create a list of generic classes for the formal generic  \n parameters of the class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "genericStubs",
           "package": "language-eiffel",
@@ -9439,6 +10260,7 @@
         "index": {
           "description": "Given class create list of generic classes for the formal generic parameters of the class",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "genericStubs",
           "normalized": "AbsClas a b-\u003e[AbsClas c d]",
@@ -9455,6 +10277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a declaration into a string-type map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "insertDecl",
           "package": "language-eiffel",
@@ -9465,6 +10288,7 @@
         "index": {
           "description": "Insert declaration into string-type map",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "insertDecl",
           "normalized": "Decl-\u003eMap Text Typ-\u003eMap Text Typ",
@@ -9481,6 +10305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of the number of integer bits (8, 16, ...)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "intBits",
           "package": "language-eiffel",
@@ -9491,6 +10316,7 @@
         "index": {
           "description": "list of the number of integer bits",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "intBits",
           "normalized": "[Integer]",
@@ -9507,6 +10333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default integer type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "intType",
           "package": "language-eiffel",
@@ -9517,6 +10344,7 @@
         "index": {
           "description": "The default integer type",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "intType",
           "package": "language-eiffel",
@@ -9531,6 +10359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of integer type names (ie, INTEGER_32).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "integerTypeNames",
           "package": "language-eiffel",
@@ -9541,6 +10370,7 @@
         "index": {
           "description": "List of integer type names ie INTEGER",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "integerTypeNames",
           "normalized": "[Text]",
@@ -9557,6 +10387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether a type is basic (where basic meaning its an integer, natural, real or boolean).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "isBasic",
           "package": "language-eiffel",
@@ -9567,6 +10398,7 @@
         "index": {
           "description": "Whether type is basic where basic meaning its an integer natural real or boolean",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "isBasic",
           "normalized": "Typ-\u003eBool",
@@ -9583,6 +10415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean type test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "isBooleanType",
           "package": "language-eiffel",
@@ -9593,6 +10426,7 @@
         "index": {
           "description": "Boolean type test",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "isBooleanType",
           "normalized": "Typ-\u003eBool",
@@ -9609,6 +10443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter type test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "isCharType",
           "package": "language-eiffel",
@@ -9619,6 +10454,7 @@
         "index": {
           "description": "Character type test",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "isCharType",
           "normalized": "Typ-\u003eBool",
@@ -9635,6 +10471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if a name is in the creation clause of a class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "isCreateName",
           "package": "language-eiffel",
@@ -9645,6 +10482,7 @@
         "index": {
           "description": "Determine if name is in the creation clause of class",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "isCreateName",
           "normalized": "Text-\u003eAbsClas a b-\u003eBool",
@@ -9660,6 +10498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "isInTypeNames",
           "package": "language-eiffel",
@@ -9669,6 +10508,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "isInTypeNames",
           "normalized": "[ClassName]-\u003eTyp-\u003eBool",
@@ -9685,6 +10525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInteger type test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "isIntegerType",
           "package": "language-eiffel",
@@ -9695,6 +10536,7 @@
         "index": {
           "description": "Integer type test",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "isIntegerType",
           "normalized": "Typ-\u003eBool",
@@ -9711,6 +10553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNatural number type test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "isNaturalType",
           "package": "language-eiffel",
@@ -9721,6 +10564,7 @@
         "index": {
           "description": "Natural number type test",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "isNaturalType",
           "normalized": "Typ-\u003eBool",
@@ -9737,6 +10581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReal number type test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "isRealType",
           "package": "language-eiffel",
@@ -9747,6 +10592,7 @@
         "index": {
           "description": "Real number type test",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "isRealType",
           "normalized": "Typ-\u003eBool",
@@ -9763,6 +10609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a map from a routine's declarations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "localMap",
           "package": "language-eiffel",
@@ -9773,6 +10620,7 @@
         "index": {
           "description": "Construct map from routine declarations",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "localMap",
           "normalized": "RoutineWithBody a-\u003eMap Text Typ",
@@ -9789,6 +10637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip the contracts from an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "makeAttributeI",
           "package": "language-eiffel",
@@ -9799,6 +10648,7 @@
         "index": {
           "description": "Strip the contracts from an attribute",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "makeAttributeI",
           "normalized": "Attribute a-\u003eAttribute Expr",
@@ -9815,6 +10665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a generic, construct a class for the generic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "makeGenericStub",
           "package": "language-eiffel",
@@ -9825,6 +10676,7 @@
         "index": {
           "description": "Given generic construct class for the generic",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "makeGenericStub",
           "normalized": "Generic-\u003eAbsClas a b",
@@ -9841,6 +10693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip the bodies and rescue clause from a routine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "makeRoutineI",
           "package": "language-eiffel",
@@ -9851,6 +10704,7 @@
         "index": {
           "description": "Strip the bodies and rescue clause from routine",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "makeRoutineI",
           "normalized": "AbsRoutine a Expr-\u003eRoutineI",
@@ -9867,6 +10721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip the body from a routine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "makeRoutineIs",
           "package": "language-eiffel",
@@ -9877,6 +10732,7 @@
         "index": {
           "description": "Strip the body from routine",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "makeRoutineIs",
           "normalized": "SomeFeature a Expr-\u003eSomeFeature EmptyBody Expr",
@@ -9893,6 +10749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a transformation function over the attributes in a class, \n replacing the old attributes with the transformed versions within a feature clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "mapAttributes",
           "package": "language-eiffel",
@@ -9903,6 +10760,7 @@
         "index": {
           "description": "Map transformation function over the attributes in class replacing the old attributes with the transformed versions within feature clause",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "mapAttributes",
           "normalized": "(Attribute a-\u003eAttribute a)-\u003eFeatureMap b a-\u003eFeatureMap b a",
@@ -9919,6 +10777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic version of \u003ccode\u003e\u003ca\u003emapAttributes\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "mapAttributesM",
           "package": "language-eiffel",
@@ -9929,6 +10788,7 @@
         "index": {
           "description": "Monadic version of mapAttributes",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "mapAttributesM",
           "normalized": "(Attribute a-\u003eb(Attribute a))-\u003eFeatureMap c a-\u003eb(FeatureMap c a)",
@@ -9945,6 +10805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a transformation function over the constants in a class, replacing the\n old constants with the transformed versions within a feature clause.\n mapConstants f = Map.map (over exportFeat (onlyConst f))\n\u003c/p\u003e\u003cp\u003eMap a transformation function over the contracts in a class, replacing the\n old contracts with the transformed versions within a feature clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "mapContract",
           "package": "language-eiffel",
@@ -9955,6 +10816,7 @@
         "index": {
           "description": "Map transformation function over the constants in class replacing the old constants with the transformed versions within feature clause mapConstants Map.map over exportFeat onlyConst Map transformation function over the contracts in class replacing the old contracts with the transformed versions within feature clause",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "mapContract",
           "normalized": "(Clause a-\u003eClause a)-\u003eContract a-\u003eContract a",
@@ -9971,6 +10833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a transformation function over all expressions in a class. \n A transformation for features, constants, and attributes must be given\n as if the type of expressions changes (ie, with a typecheck) then\n all expressions types must change together.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "mapExprs",
           "package": "language-eiffel",
@@ -9981,6 +10844,7 @@
         "index": {
           "description": "Map transformation function over all expressions in class transformation for features constants and attributes must be given as if the type of expressions changes ie with typecheck then all expressions types must change together",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "mapExprs",
           "normalized": "(AbsRoutine a b-\u003eAbsRoutine c d)-\u003e(Constant b-\u003eConstant d)-\u003e(Clause b-\u003eClause d)-\u003eFeatureMap a b-\u003eFeatureMap c d",
@@ -9997,6 +10861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese functions will update a class or feature clause with a transformation\n function.\n\u003c/p\u003e\u003cp\u003eMap a transformation function over the routines in a class, replacing the \n old routines with the transformed versions within a feature clause.\n mapRoutines f  = Map.map (over exportFeat (onlyRoutine f))\n\u003c/p\u003e\u003cp\u003eMonadic version of \u003ccode\u003emapRoutines\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "mapRoutinesM",
           "package": "language-eiffel",
@@ -10007,6 +10872,7 @@
         "index": {
           "description": "These functions will update class or feature clause with transformation function Map transformation function over the routines in class replacing the old routines with the transformed versions within feature clause mapRoutines Map.map over exportFeat onlyRoutine Monadic version of mapRoutines",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "mapRoutinesM",
           "normalized": "(AbsRoutine a b-\u003ec(AbsRoutine a b))-\u003eFeatureMap a b-\u003ec(FeatureMap a b)",
@@ -10023,6 +10889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two classes, combining invariants and feature clauses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "mergeClass",
           "package": "language-eiffel",
@@ -10033,6 +10900,7 @@
         "index": {
           "description": "Merge two classes combining invariants and feature clauses",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "mergeClass",
           "normalized": "AbsClas a b-\u003eAbsClas a b-\u003eAbsClas a b",
@@ -10049,6 +10917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge a list of classes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "mergeClasses",
           "package": "language-eiffel",
@@ -10059,6 +10928,7 @@
         "index": {
           "description": "Merge list of classes",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "mergeClasses",
           "normalized": "[AbsClas a b]-\u003eAbsClas a b",
@@ -10075,6 +10945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies whether a class can be merged with another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "mergeableClass",
           "package": "language-eiffel",
@@ -10085,6 +10956,7 @@
         "index": {
           "description": "Specifies whether class can be merged with another",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "mergeableClass",
           "normalized": "AbsClas a b-\u003eBool",
@@ -10101,6 +10973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a simple type from a classname.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "namedType",
           "package": "language-eiffel",
@@ -10111,6 +10984,7 @@
         "index": {
           "description": "Construct simple type from classname",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "namedType",
           "normalized": "ClassName-\u003eTyp",
@@ -10127,6 +11001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of integer type names (ie, NATURAL_32).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "naturalTypeNames",
           "package": "language-eiffel",
@@ -10137,6 +11012,7 @@
         "index": {
           "description": "List of integer type names ie NATURAL",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "naturalTypeNames",
           "normalized": "[Text]",
@@ -10153,6 +11029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a processor declaration, extract the processor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "newVar",
           "package": "language-eiffel",
@@ -10163,6 +11040,7 @@
         "index": {
           "description": "Given processor declaration extract the processor",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "newVar",
           "normalized": "ProcDecl-\u003eProc",
@@ -10179,6 +11057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator aliases for user-level operators, ie, not including\n =, \u003cem\u003e=, ~, and \u003c/em\u003e~\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "opAlias",
           "package": "language-eiffel",
@@ -10189,6 +11068,7 @@
         "index": {
           "description": "Operator aliases for user-level operators ie not including and",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "opAlias",
           "normalized": "BinOp-\u003eText",
@@ -10205,6 +11085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default real number type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "realType",
           "package": "language-eiffel",
@@ -10215,6 +11096,7 @@
         "index": {
           "description": "The default real number type",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "realType",
           "package": "language-eiffel",
@@ -10229,6 +11111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of integer type names (ie, REAL_64).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "realTypeNames",
           "package": "language-eiffel",
@@ -10239,6 +11122,7 @@
         "index": {
           "description": "List of integer type names ie REAL",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "realTypeNames",
           "normalized": "[Text]",
@@ -10255,6 +11139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename everything in a class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "renameAll",
           "package": "language-eiffel",
@@ -10265,6 +11150,7 @@
         "index": {
           "description": "Rename everything in class",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "renameAll",
           "normalized": "[RenameClause]-\u003eAbsClas a b-\u003eAbsClas a b",
@@ -10281,6 +11167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename a declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "renameDecl",
           "package": "language-eiffel",
@@ -10291,6 +11178,7 @@
         "index": {
           "description": "Rename declaration",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "renameDecl",
           "normalized": "RenameClause-\u003eDecl-\u003eDecl",
@@ -10307,6 +11195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename a type, in the case of a like-type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "renameType",
           "package": "language-eiffel",
@@ -10317,6 +11206,7 @@
         "index": {
           "description": "Rename type in the case of like-type",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "renameType",
           "normalized": "RenameClause-\u003eTyp-\u003eTyp",
@@ -10333,6 +11223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGive the declarations of a routine's locals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "routineDecls",
           "package": "language-eiffel",
@@ -10343,6 +11234,7 @@
         "index": {
           "description": "Give the declarations of routine locals",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "routineDecls",
           "normalized": "AbsRoutine(RoutineBody a)a-\u003e[Decl]",
@@ -10359,6 +11251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default string type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "stringType",
           "package": "language-eiffel",
@@ -10369,6 +11262,7 @@
         "index": {
           "description": "The default string type",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "stringType",
           "package": "language-eiffel",
@@ -10382,6 +11276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "toAttrMb",
           "package": "language-eiffel",
@@ -10391,6 +11286,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "toAttrMb",
           "normalized": "SomeFeature a a-\u003eMaybe(Attribute a)",
@@ -10406,6 +11302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "toConstMb",
           "package": "language-eiffel",
@@ -10415,6 +11312,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "toConstMb",
           "normalized": "SomeFeature a a-\u003eMaybe(Constant a)",
@@ -10430,6 +11328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "toRoutineMb",
           "package": "language-eiffel",
@@ -10439,6 +11338,7 @@
         },
         "index": {
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "toRoutineMb",
           "normalized": "SomeFeature a a-\u003eMaybe(AbsRoutine a a)",
@@ -10455,6 +11355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe bounds on the range of values a integer or natural type can take.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "typeBounds",
           "package": "language-eiffel",
@@ -10465,6 +11366,7 @@
         "index": {
           "description": "The bounds on the range of values integer or natural type can take",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "typeBounds",
           "normalized": "Typ-\u003e(Integer,Integer)",
@@ -10481,6 +11383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnary operator aliases for everything except \u003ccode\u003eold\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "unOpAlias",
           "package": "language-eiffel",
@@ -10491,6 +11394,7 @@
         "index": {
           "description": "Unary operator aliases for everything except old",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "unOpAlias",
           "normalized": "UnOp-\u003ea",
@@ -10507,6 +11411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUndefine every specified name for a class. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "undefineAll",
           "package": "language-eiffel",
@@ -10517,6 +11422,7 @@
         "index": {
           "description": "Undefine every specified name for class",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "undefineAll",
           "normalized": "InheritClause-\u003eAbsClas a b-\u003eAbsClas a b",
@@ -10533,6 +11439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUndefine a single feature in a class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "undefineName",
           "package": "language-eiffel",
@@ -10543,6 +11450,7 @@
         "index": {
           "description": "Undefine single feature in class",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "undefineName",
           "normalized": "Text-\u003eAbsClas a b-\u003eAbsClas a b",
@@ -10559,6 +11467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate a routine body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "updFeatBody",
           "package": "language-eiffel",
@@ -10569,6 +11478,7 @@
         "index": {
           "description": "Update routine body",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "updFeatBody",
           "normalized": "RoutineBody a-\u003ePosAbsStmt b-\u003eRoutineBody b",
@@ -10585,6 +11495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the feature clause of a class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "updFeatureMap",
           "package": "language-eiffel",
@@ -10595,6 +11506,7 @@
         "index": {
           "description": "Set the feature clause of class",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "updFeatureMap",
           "normalized": "AbsClas a b-\u003eFeatureMap a b-\u003eAbsClas a b",
@@ -10611,6 +11523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap up SomeFeature \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:05:24 UTC 2014",
           "module": "Language.Eiffel.Util",
           "name": "wrapSomeFeature",
           "package": "language-eiffel",
@@ -10621,6 +11534,7 @@
         "index": {
           "description": "Wrap up SomeFeature",
           "hierarchy": "Language Eiffel Util",
+          "indexed": "2014-03-11T19:05:24",
           "module": "Language.Eiffel.Util",
           "name": "wrapSomeFeature",
           "normalized": "a-\u003eb)-\u003eSomeFeature c d-\u003eb",

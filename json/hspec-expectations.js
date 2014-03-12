@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hspec-expectations"
+        "phrase": "hspec-expectations",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExperimental combinators, that may become part of the main distribution, if\n they turn out to be useful for a wider audience.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:48 UTC 2014",
           "module": "Test.Hspec.Expectations.Contrib",
           "name": "Contrib",
           "package": "hspec-expectations",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Experimental combinators that may become part of the main distribution if they turn out to be useful for wider audience",
           "hierarchy": "Test Hspec Expectations Contrib",
+          "indexed": "2014-03-11T18:49:48",
           "module": "Test.Hspec.Expectations.Contrib",
           "name": "Contrib",
           "package": "hspec-expectations",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:48 UTC 2014",
           "module": "Test.Hspec.Expectations.Contrib",
           "name": "isLeft",
           "package": "hspec-expectations",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Expectations Contrib",
+          "indexed": "2014-03-11T18:49:48",
           "module": "Test.Hspec.Expectations.Contrib",
           "name": "isLeft",
           "normalized": "Either a b-\u003eBool",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:48 UTC 2014",
           "module": "Test.Hspec.Expectations.Contrib",
           "name": "isRight",
           "package": "hspec-expectations",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Expectations Contrib",
+          "indexed": "2014-03-11T18:49:48",
           "module": "Test.Hspec.Expectations.Contrib",
           "name": "isRight",
           "normalized": "Either a b-\u003eBool",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIntroductory documentation: \u003ca\u003ehttps://github.com/sol/hspec-expectations#readme\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:48 UTC 2014",
           "module": "Test.Hspec.Expectations",
           "name": "Expectations",
           "package": "hspec-expectations",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Introductory documentation https github.com sol hspec-expectations readme",
           "hierarchy": "Test Hspec Expectations",
+          "indexed": "2014-03-11T18:49:48",
           "module": "Test.Hspec.Expectations",
           "name": "Expectations",
           "package": "hspec-expectations",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:48 UTC 2014",
           "module": "Test.Hspec.Expectations",
           "name": "Expectation",
           "package": "hspec-expectations",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Expectations",
+          "indexed": "2014-03-11T18:49:48",
           "module": "Test.Hspec.Expectations",
           "name": "Expectation",
           "package": "hspec-expectations",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eSelector\u003c/code\u003e is a predicate; it can simultaneously constrain the type and\n value of an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:48 UTC 2014",
           "module": "Test.Hspec.Expectations",
           "name": "Selector",
           "package": "hspec-expectations",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Selector is predicate it can simultaneously constrain the type and value of an exception",
           "hierarchy": "Test Hspec Expectations",
+          "indexed": "2014-03-11T18:49:48",
           "module": "Test.Hspec.Expectations",
           "name": "Selector",
           "package": "hspec-expectations",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:48 UTC 2014",
           "module": "Test.Hspec.Expectations",
           "name": "anyArithException",
           "package": "hspec-expectations",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Expectations",
+          "indexed": "2014-03-11T18:49:48",
           "module": "Test.Hspec.Expectations",
           "name": "anyArithException",
           "package": "hspec-expectations",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:48 UTC 2014",
           "module": "Test.Hspec.Expectations",
           "name": "anyErrorCall",
           "package": "hspec-expectations",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Expectations",
+          "indexed": "2014-03-11T18:49:48",
           "module": "Test.Hspec.Expectations",
           "name": "anyErrorCall",
           "package": "hspec-expectations",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:48 UTC 2014",
           "module": "Test.Hspec.Expectations",
           "name": "anyException",
           "package": "hspec-expectations",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Expectations",
+          "indexed": "2014-03-11T18:49:48",
           "module": "Test.Hspec.Expectations",
           "name": "anyException",
           "package": "hspec-expectations",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:48 UTC 2014",
           "module": "Test.Hspec.Expectations",
           "name": "anyIOException",
           "package": "hspec-expectations",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Expectations",
+          "indexed": "2014-03-11T18:49:48",
           "module": "Test.Hspec.Expectations",
           "name": "anyIOException",
           "package": "hspec-expectations",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:48 UTC 2014",
           "module": "Test.Hspec.Expectations",
           "name": "errorCall",
           "package": "hspec-expectations",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec Expectations",
+          "indexed": "2014-03-11T18:49:48",
           "module": "Test.Hspec.Expectations",
           "name": "errorCall",
           "normalized": "String-\u003eSelector ErrorCall",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is just an alias for HUnit's \u003ccode\u003e\u003ca\u003eassertFailure\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:48 UTC 2014",
           "module": "Test.Hspec.Expectations",
           "name": "expectationFailure",
           "package": "hspec-expectations",
@@ -279,6 +302,7 @@
         "index": {
           "description": "This is just an alias for HUnit assertFailure",
           "hierarchy": "Test Hspec Expectations",
+          "indexed": "2014-03-11T18:49:48",
           "module": "Test.Hspec.Expectations",
           "name": "expectationFailure",
           "normalized": "String-\u003eExpectation",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eactual `shouldBe` expected\u003c/code\u003e sets the expectation that \u003ccode\u003eactual\u003c/code\u003e is equal\n to \u003ccode\u003eexpected\u003c/code\u003e (this is just an alias for \u003ccode\u003e\u003ca\u003e@?=\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:48 UTC 2014",
           "module": "Test.Hspec.Expectations",
           "name": "shouldBe",
           "package": "hspec-expectations",
@@ -305,6 +330,7 @@
         "index": {
           "description": "actual shouldBe expected sets the expectation that actual is equal to expected this is just an alias for",
           "hierarchy": "Test Hspec Expectations",
+          "indexed": "2014-03-11T18:49:48",
           "module": "Test.Hspec.Expectations",
           "name": "shouldBe",
           "normalized": "a-\u003ea-\u003eExpectation",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elist `shouldContain` sublist\u003c/code\u003e sets the expectation that \u003ccode\u003esublist\u003c/code\u003e is contained,\n wholly and intact, anywhere in the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:48 UTC 2014",
           "module": "Test.Hspec.Expectations",
           "name": "shouldContain",
           "package": "hspec-expectations",
@@ -331,6 +358,7 @@
         "index": {
           "description": "list shouldContain sublist sets the expectation that sublist is contained wholly and intact anywhere in the second",
           "hierarchy": "Test Hspec Expectations",
+          "indexed": "2014-03-11T18:49:48",
           "module": "Test.Hspec.Expectations",
           "name": "shouldContain",
           "normalized": "[a]-\u003e[a]-\u003eExpectation",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exs `shouldMatchList` ys\u003c/code\u003e sets the expectation that \u003ccode\u003exs\u003c/code\u003e has the same\n elements that \u003ccode\u003eys\u003c/code\u003e has, possibly in another order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:48 UTC 2014",
           "module": "Test.Hspec.Expectations",
           "name": "shouldMatchList",
           "package": "hspec-expectations",
@@ -357,6 +386,7 @@
         "index": {
           "description": "xs shouldMatchList ys sets the expectation that xs has the same elements that ys has possibly in another order",
           "hierarchy": "Test Hspec Expectations",
+          "indexed": "2014-03-11T18:49:48",
           "module": "Test.Hspec.Expectations",
           "name": "shouldMatchList",
           "normalized": "[a]-\u003e[a]-\u003eExpectation",
@@ -373,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eaction `shouldReturn` expected\u003c/code\u003e sets the expectation that \u003ccode\u003eaction\u003c/code\u003e\n returns \u003ccode\u003eexpected\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:48 UTC 2014",
           "module": "Test.Hspec.Expectations",
           "name": "shouldReturn",
           "package": "hspec-expectations",
@@ -383,6 +414,7 @@
         "index": {
           "description": "action shouldReturn expected sets the expectation that action returns expected",
           "hierarchy": "Test Hspec Expectations",
+          "indexed": "2014-03-11T18:49:48",
           "module": "Test.Hspec.Expectations",
           "name": "shouldReturn",
           "normalized": "IO a-\u003ea-\u003eExpectation",
@@ -399,6 +431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ev `shouldSatisfy` p\u003c/code\u003e sets the expectation that \u003ccode\u003ep v\u003c/code\u003e is \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:48 UTC 2014",
           "module": "Test.Hspec.Expectations",
           "name": "shouldSatisfy",
           "package": "hspec-expectations",
@@ -409,6 +442,7 @@
         "index": {
           "description": "shouldSatisfy sets the expectation that is True",
           "hierarchy": "Test Hspec Expectations",
+          "indexed": "2014-03-11T18:49:48",
           "module": "Test.Hspec.Expectations",
           "name": "shouldSatisfy",
           "normalized": "a-\u003e(a-\u003eBool)-\u003eExpectation",
@@ -425,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eaction `shouldThrow` selector\u003c/code\u003e sets the expectation that \u003ccode\u003eaction\u003c/code\u003e throws\n an exception.  The precise nature of the expected exception is described\n with a \u003ccode\u003e\u003ca\u003eSelector\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:48 UTC 2014",
           "module": "Test.Hspec.Expectations",
           "name": "shouldThrow",
           "package": "hspec-expectations",
@@ -435,6 +470,7 @@
         "index": {
           "description": "action shouldThrow selector sets the expectation that action throws an exception The precise nature of the expected exception is described with Selector",
           "hierarchy": "Test Hspec Expectations",
+          "indexed": "2014-03-11T18:49:48",
           "module": "Test.Hspec.Expectations",
           "name": "shouldThrow",
           "normalized": "IO a-\u003eSelector b-\u003eExpectation",

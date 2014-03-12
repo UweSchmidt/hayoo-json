@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "puppetresources"
+        "phrase": "puppetresources",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "erf-native"
+        "phrase": "erf-native",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:44 UTC 2014",
           "module": "Data.Number.Erf",
           "name": "Erf",
           "package": "erf-native",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Number Erf",
+          "indexed": "2014-03-11T18:03:44",
           "module": "Data.Number.Erf",
           "name": "Erf",
           "package": "erf-native",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError function related functions.\n\u003c/p\u003e\u003cp\u003eThe derivative of \u003ccode\u003e\u003ca\u003eerf\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e x -\u003e 2 / sqrt pi * exp (x^2)\u003c/code\u003e,\n and this uniquely determines \u003ccode\u003e\u003ca\u003eerf\u003c/a\u003e\u003c/code\u003e by \u003ccode\u003eerf 0 = 0\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition is \u003ccode\u003e\u003ca\u003eerfc\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003enormcdf\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:44 UTC 2014",
           "module": "Data.Number.Erf",
           "name": "Erf",
           "package": "erf-native",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Error function related functions The derivative of erf is sqrt pi exp and this uniquely determines erf by erf Minimal complete definition is erfc or normcdf",
           "hierarchy": "Data Number Erf",
+          "indexed": "2014-03-11T18:03:44",
           "module": "Data.Number.Erf",
           "name": "Erf",
           "package": "erf-native",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:44 UTC 2014",
           "module": "Data.Number.Erf",
           "name": "erf",
           "package": "erf-native",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Number Erf",
+          "indexed": "2014-03-11T18:03:44",
           "module": "Data.Number.Erf",
           "name": "erf",
           "normalized": "a-\u003ea",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:44 UTC 2014",
           "module": "Data.Number.Erf",
           "name": "erfc",
           "package": "erf-native",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Number Erf",
+          "indexed": "2014-03-11T18:03:44",
           "module": "Data.Number.Erf",
           "name": "erfc",
           "package": "erf-native",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:44 UTC 2014",
           "module": "Data.Number.Erf",
           "name": "erfcx",
           "package": "erf-native",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Data Number Erf",
+          "indexed": "2014-03-11T18:03:44",
           "module": "Data.Number.Erf",
           "name": "erfcx",
           "package": "erf-native",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:44 UTC 2014",
           "module": "Data.Number.Erf",
           "name": "normcdf",
           "package": "erf-native",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data Number Erf",
+          "indexed": "2014-03-11T18:03:44",
           "module": "Data.Number.Erf",
           "name": "normcdf",
           "package": "erf-native",

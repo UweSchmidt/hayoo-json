@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "syb"
+        "phrase": "syb",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\"Scrap your boilerplate\" --- Generic programming in Haskell \n See \u003ca\u003ehttp://www.cs.uu.nl/wiki/GenericProgramming/SYB\u003c/a\u003e.\n The present module provides a number of declarations for typical generic\n function types, corresponding type case, and others.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "Aliases",
           "package": "syb",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Scrap your boilerplate Generic programming in Haskell See http www.cs.uu.nl wiki GenericProgramming SYB The present module provides number of declarations for typical generic function types corresponding type case and others",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "Aliases",
           "package": "syb",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe general scheme underlying generic functions\n   assumed by gfoldl; there are isomorphisms such as\n   GenericT = Generic T.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "Generic",
           "package": "syb",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The general scheme underlying generic functions assumed by gfoldl there are isomorphisms such as GenericT Generic",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "Generic",
           "package": "syb",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapped generic functions;\n   recall: [Generic c] would be legal but [Generic' c] not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "Generic'",
           "package": "syb",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Wrapped generic functions recall Generic would be legal but Generic not",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "Generic'",
           "package": "syb",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric builders\n   i.e., produce an \"a\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "GenericB",
           "package": "syb",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Generic builders i.e produce an",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "GenericB",
           "package": "syb",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric monadic transformations,\n   i.e., take an \"a\" and compute an \"a\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "GenericM",
           "package": "syb",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Generic monadic transformations i.e take an and compute an",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "GenericM",
           "package": "syb",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "GenericM'",
           "package": "syb",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "GenericM'",
           "package": "syb",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric queries of type \"r\",\n   i.e., take any \"a\" and return an \"r\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "GenericQ",
           "package": "syb",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Generic queries of type i.e take any and return an",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "GenericQ",
           "package": "syb",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "GenericQ'",
           "package": "syb",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "GenericQ'",
           "package": "syb",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric readers, say monadic builders,\n   i.e., produce an \"a\" with the help of a monad \"m\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "GenericR",
           "package": "syb",
@@ -208,6 +225,7 @@
         "index": {
           "description": "Generic readers say monadic builders i.e produce an with the help of monad",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "GenericR",
           "package": "syb",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric transformations,\n   i.e., take an \"a\" and return an \"a\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "GenericT",
           "package": "syb",
@@ -231,6 +250,7 @@
         "index": {
           "description": "Generic transformations i.e take an and return an",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "GenericT",
           "package": "syb",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOther first-class polymorphic wrappers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "GenericT'",
           "package": "syb",
@@ -254,6 +275,7 @@
         "index": {
           "description": "Other first-class polymorphic wrappers",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "GenericT'",
           "package": "syb",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "GM",
           "package": "syb",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "GM",
           "package": "syb",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "GQ",
           "package": "syb",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "GQ",
           "package": "syb",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "GT",
           "package": "syb",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "GT",
           "package": "syb",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "Generic'",
           "package": "syb",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "Generic'",
           "package": "syb",
@@ -356,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoice for monadic transformations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "choiceMp",
           "package": "syb",
@@ -366,6 +397,7 @@
         "index": {
           "description": "Choice for monadic transformations",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "choiceMp",
           "normalized": "GenericM a-\u003eGenericM a-\u003eGenericM a",
@@ -382,6 +414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoice for monadic queries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "choiceQ",
           "package": "syb",
@@ -392,6 +425,7 @@
         "index": {
           "description": "Choice for monadic queries",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "choiceQ",
           "normalized": "GenericQ(a b)-\u003eGenericQ(a b)-\u003eGenericQ(a b)",
@@ -407,6 +441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlexible type extension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "ext0",
           "package": "syb",
@@ -417,6 +452,7 @@
         "index": {
           "description": "Flexible type extension",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "ext0",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -432,6 +468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlexible type extension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "ext1",
           "package": "syb",
@@ -442,6 +479,7 @@
         "index": {
           "description": "Flexible type extension",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "ext1",
           "normalized": "a(b c))-\u003ea d",
@@ -457,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType extension of builders for type constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "ext1B",
           "package": "syb",
@@ -467,6 +506,7 @@
         "index": {
           "description": "Type extension of builders for type constructors",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "ext1B",
           "normalized": "a b)-\u003ec",
@@ -482,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType extension of monadic transformations for type constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "ext1M",
           "package": "syb",
@@ -492,6 +533,7 @@
         "index": {
           "description": "Type extension of monadic transformations for type constructors",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "ext1M",
           "normalized": "a b-\u003ec(a b))-\u003ed-\u003ec d",
@@ -507,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType extension of queries for type constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "ext1Q",
           "package": "syb",
@@ -517,6 +560,7 @@
         "index": {
           "description": "Type extension of queries for type constructors",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "ext1Q",
           "normalized": "a b-\u003ec)-\u003ed-\u003ec",
@@ -532,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType extension of readers for type constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "ext1R",
           "package": "syb",
@@ -542,6 +587,7 @@
         "index": {
           "description": "Type extension of readers for type constructors",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "ext1R",
           "normalized": "a(b c))-\u003ea d",
@@ -557,6 +603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType extension of transformations for unary type constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "ext1T",
           "package": "syb",
@@ -567,6 +614,7 @@
         "index": {
           "description": "Type extension of transformations for unary type constructors",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "ext1T",
           "normalized": "a b-\u003ea b)-\u003ec-\u003ec",
@@ -582,6 +630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType extension of builders for type constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "ext2B",
           "package": "syb",
@@ -592,6 +641,7 @@
         "index": {
           "description": "Type extension of builders for type constructors",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "ext2B",
           "normalized": "a b b)-\u003ec",
@@ -607,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType extension of monadic transformations for type constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "ext2M",
           "package": "syb",
@@ -617,6 +668,7 @@
         "index": {
           "description": "Type extension of monadic transformations for type constructors",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "ext2M",
           "normalized": "a b b-\u003ec(a b b))-\u003eb-\u003ec b",
@@ -632,6 +684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType extension of queries for type constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "ext2Q",
           "package": "syb",
@@ -642,6 +695,7 @@
         "index": {
           "description": "Type extension of queries for type constructors",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "ext2Q",
           "normalized": "a b b-\u003ec)-\u003eb-\u003ec",
@@ -657,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType extension of readers for type constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "ext2R",
           "package": "syb",
@@ -667,6 +722,7 @@
         "index": {
           "description": "Type extension of readers for type constructors",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "ext2R",
           "normalized": "a(b c c))-\u003ea c",
@@ -682,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType extension of transformations for unary type constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "ext2T",
           "package": "syb",
@@ -692,6 +749,7 @@
         "index": {
           "description": "Type extension of transformations for unary type constructors",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "ext2T",
           "normalized": "a b b-\u003ea b b)-\u003eb-\u003eb",
@@ -707,6 +765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend a generic builder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "extB",
           "package": "syb",
@@ -717,6 +776,7 @@
         "index": {
           "description": "Extend generic builder",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "extB",
           "normalized": "a-\u003eb-\u003ea",
@@ -732,6 +792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend a generic monadic transformation by a type-specific case\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "extM",
           "package": "syb",
@@ -742,6 +803,7 @@
         "index": {
           "description": "Extend generic monadic transformation by type-specific case",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "extM",
           "normalized": "(a-\u003eb a)-\u003e(c-\u003eb c)-\u003ea-\u003eb a",
@@ -757,6 +819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend a generic MonadPlus transformation by a type-specific case\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "extMp",
           "package": "syb",
@@ -767,6 +830,7 @@
         "index": {
           "description": "Extend generic MonadPlus transformation by type-specific case",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "extMp",
           "normalized": "(a-\u003eb a)-\u003e(c-\u003eb c)-\u003ea-\u003eb a",
@@ -783,6 +847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend a generic query by a type-specific case\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "extQ",
           "package": "syb",
@@ -793,6 +858,7 @@
         "index": {
           "description": "Extend generic query by type-specific case",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "extQ",
           "normalized": "(a-\u003eb)-\u003e(c-\u003eb)-\u003ea-\u003eb",
@@ -808,6 +874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend a generic reader\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "extR",
           "package": "syb",
@@ -818,6 +885,7 @@
         "index": {
           "description": "Extend generic reader",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "extR",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -833,6 +901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend a generic transformation by a type-specific case\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "extT",
           "package": "syb",
@@ -843,6 +912,7 @@
         "index": {
           "description": "Extend generic transformation by type-specific case",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "extT",
           "normalized": "(a-\u003ea)-\u003e(b-\u003eb)-\u003ea-\u003ea",
@@ -858,6 +928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a generic monadic transformation;\n   start from a type-specific case;\n   resort to return otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "mkM",
           "package": "syb",
@@ -868,6 +939,7 @@
         "index": {
           "description": "Make generic monadic transformation start from type-specific case resort to return otherwise",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "mkM",
           "normalized": "(a-\u003eb a)-\u003ec-\u003eb c",
@@ -883,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a generic monadic transformation for MonadPlus;\n   use \"const mzero\" (i.e., failure) instead of return as default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "mkMp",
           "package": "syb",
@@ -893,6 +966,7 @@
         "index": {
           "description": "Make generic monadic transformation for MonadPlus use const mzero i.e failure instead of return as default",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "mkMp",
           "normalized": "(a-\u003eb a)-\u003ec-\u003eb c",
@@ -909,6 +983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a generic query;\n   start from a type-specific case;\n   return a constant otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "mkQ",
           "package": "syb",
@@ -919,6 +994,7 @@
         "index": {
           "description": "Make generic query start from type-specific case return constant otherwise",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "mkQ",
           "normalized": "a-\u003e(b-\u003ea)-\u003ec-\u003ea",
@@ -934,6 +1010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a generic builder;\n   start from a type-specific ase;\n   resort to no build (i.e., mzero) otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "mkR",
           "package": "syb",
@@ -944,6 +1021,7 @@
         "index": {
           "description": "Make generic builder start from type-specific ase resort to no build i.e mzero otherwise",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "mkR",
           "normalized": "a b-\u003ea c",
@@ -959,6 +1037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a generic transformation;\n   start from a type-specific case;\n   preserve the term otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "mkT",
           "package": "syb",
@@ -969,6 +1048,7 @@
         "index": {
           "description": "Make generic transformation start from type-specific case preserve the term otherwise",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "mkT",
           "normalized": "(a-\u003ea)-\u003eb-\u003eb",
@@ -984,6 +1064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-biased choice on maybes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "orElse",
           "package": "syb",
@@ -994,6 +1075,7 @@
         "index": {
           "description": "Left-biased choice on maybes",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "orElse",
           "normalized": "Maybe a-\u003eMaybe a-\u003eMaybe a",
@@ -1010,6 +1092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecover from the failure of monadic transformation by identity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "recoverMp",
           "package": "syb",
@@ -1020,6 +1103,7 @@
         "index": {
           "description": "Recover from the failure of monadic transformation by identity",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "recoverMp",
           "normalized": "GenericM a-\u003eGenericM a",
@@ -1036,6 +1120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecover from the failure of monadic query by a constant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "recoverQ",
           "package": "syb",
@@ -1046,6 +1131,7 @@
         "index": {
           "description": "Recover from the failure of monadic query by constant",
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "recoverQ",
           "normalized": "a-\u003eGenericQ(b a)-\u003eGenericQ(b a)",
@@ -1060,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "unGM",
           "package": "syb",
@@ -1069,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "unGM",
           "normalized": "a-\u003eb a",
@@ -1084,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "unGQ",
           "package": "syb",
@@ -1093,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "unGQ",
           "package": "syb",
@@ -1106,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "unGT",
           "package": "syb",
@@ -1115,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "unGT",
           "normalized": "a-\u003ea",
@@ -1130,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Aliases",
           "name": "unGeneric'",
           "package": "syb",
@@ -1139,6 +1232,7 @@
         },
         "index": {
           "hierarchy": "Data Generics Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Aliases",
           "name": "unGeneric'",
           "package": "syb",
@@ -1153,6 +1247,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\"Scrap your boilerplate\" --- Generic programming in Haskell.\n See \u003ca\u003ehttp://www.cs.uu.nl/wiki/GenericProgramming/SYB\u003c/a\u003e. This module provides\n the \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e class with its primitives for generic programming,\n which is now defined in \u003ccode\u003eData.Data\u003c/code\u003e. Therefore this module simply\n re-exports \u003ccode\u003eData.Data\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Basics",
           "name": "Basics",
           "package": "syb",
@@ -1162,6 +1257,7 @@
         "index": {
           "description": "Scrap your boilerplate Generic programming in Haskell See http www.cs.uu.nl wiki GenericProgramming SYB This module provides the Data class with its primitives for generic programming which is now defined in Data.Data Therefore this module simply re-exports Data.Data",
           "hierarchy": "Data Generics Basics",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Basics",
           "name": "Basics",
           "package": "syb",
@@ -1176,6 +1272,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides generic builder functions. These functions construct\n values of a given type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Builders",
           "name": "Builders",
           "package": "syb",
@@ -1185,6 +1282,7 @@
         "index": {
           "description": "This module provides generic builder functions These functions construct values of given type",
           "hierarchy": "Data Generics Builders",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Builders",
           "name": "Builders",
           "package": "syb",
@@ -1199,6 +1297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of values of a datatype. Each value is one of the possible\n constructors of the datatype, populated with \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Builders",
           "name": "constrs",
           "package": "syb",
@@ -1209,6 +1308,7 @@
         "index": {
           "description": "Return list of values of datatype Each value is one of the possible constructors of the datatype populated with empty values",
           "hierarchy": "Data Generics Builders",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Builders",
           "name": "constrs",
           "normalized": "[a]",
@@ -1224,6 +1324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct the empty value for a datatype. For algebraic datatypes, the\n leftmost constructor is chosen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Builders",
           "name": "empty",
           "package": "syb",
@@ -1234,6 +1335,7 @@
         "index": {
           "description": "Construct the empty value for datatype For algebraic datatypes the leftmost constructor is chosen",
           "hierarchy": "Data Generics Builders",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Builders",
           "name": "empty",
           "package": "syb",
@@ -1247,6 +1349,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\"Scrap your boilerplate\" --- Generic programming in Haskell \n See \u003ca\u003ehttp://www.cs.uu.nl/wiki/GenericProgramming/SYB\u003c/a\u003e. The present module\n contains thirteen \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e instances which are considered dubious (either\n because the types are abstract or just not meant to be traversed).\n Instances in this module might change or disappear in future releases\n of this package. \n\u003c/p\u003e\u003cp\u003e(This module does not export anything. It really just defines instances.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Instances",
           "name": "Instances",
           "package": "syb",
@@ -1256,6 +1359,7 @@
         "index": {
           "description": "Scrap your boilerplate Generic programming in Haskell See http www.cs.uu.nl wiki GenericProgramming SYB The present module contains thirteen Data instances which are considered dubious either because the types are abstract or just not meant to be traversed Instances in this module might change or disappear in future releases of this package This module does not export anything It really just defines instances",
           "hierarchy": "Data Generics Instances",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Instances",
           "name": "Instances",
           "package": "syb",
@@ -1270,6 +1374,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\"Scrap your boilerplate\" --- Generic programming in Haskell \n See \u003ca\u003ehttp://www.cs.uu.nl/wiki/GenericProgramming/SYB\u003c/a\u003e. The present module\n provides frequently used generic traversal schemes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Schemes",
           "name": "Schemes",
           "package": "syb",
@@ -1279,6 +1384,7 @@
         "index": {
           "description": "Scrap your boilerplate Generic programming in Haskell See http www.cs.uu.nl wiki GenericProgramming SYB The present module provides frequently used generic traversal schemes",
           "hierarchy": "Data Generics Schemes",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Schemes",
           "name": "Schemes",
           "package": "syb",
@@ -1293,6 +1399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSummarise all nodes in top-down, left-to-right order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Schemes",
           "name": "everything",
           "package": "syb",
@@ -1303,6 +1410,7 @@
         "index": {
           "description": "Summarise all nodes in top-down left-to-right order",
           "hierarchy": "Data Generics Schemes",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Schemes",
           "name": "everything",
           "normalized": "(a-\u003ea-\u003ea)-\u003eGenericQ a-\u003eGenericQ a",
@@ -1318,6 +1426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariation of \u003ca\u003eeverything\u003c/a\u003e with an added stop condition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Schemes",
           "name": "everythingBut",
           "package": "syb",
@@ -1328,6 +1437,7 @@
         "index": {
           "description": "Variation of everything with an added stop condition",
           "hierarchy": "Data Generics Schemes",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Schemes",
           "name": "everythingBut",
           "normalized": "(a-\u003ea-\u003ea)-\u003eGenericQ(a,Bool)-\u003eGenericQ a",
@@ -1344,6 +1454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSummarise all nodes in top-down, left-to-right order, carrying some state\n down the tree during the computation, but not left-to-right to siblings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Schemes",
           "name": "everythingWithContext",
           "package": "syb",
@@ -1354,6 +1465,7 @@
         "index": {
           "description": "Summarise all nodes in top-down left-to-right order carrying some state down the tree during the computation but not left-to-right to siblings",
           "hierarchy": "Data Generics Schemes",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Schemes",
           "name": "everythingWithContext",
           "normalized": "a-\u003e(b-\u003eb-\u003eb)-\u003eGenericQ(a-\u003e(b,a))-\u003eGenericQ b",
@@ -1370,6 +1482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a transformation everywhere in bottom-up manner\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Schemes",
           "name": "everywhere",
           "package": "syb",
@@ -1380,6 +1493,7 @@
         "index": {
           "description": "Apply transformation everywhere in bottom-up manner",
           "hierarchy": "Data Generics Schemes",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Schemes",
           "name": "everywhere",
           "normalized": "a-\u003ea",
@@ -1395,6 +1509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a transformation everywhere in top-down manner\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Schemes",
           "name": "everywhere'",
           "package": "syb",
@@ -1405,6 +1520,7 @@
         "index": {
           "description": "Apply transformation everywhere in top-down manner",
           "hierarchy": "Data Generics Schemes",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Schemes",
           "name": "everywhere'",
           "normalized": "a-\u003ea",
@@ -1420,6 +1536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariation on everywhere with an extra stop condition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Schemes",
           "name": "everywhereBut",
           "package": "syb",
@@ -1430,6 +1547,7 @@
         "index": {
           "description": "Variation on everywhere with an extra stop condition",
           "hierarchy": "Data Generics Schemes",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Schemes",
           "name": "everywhereBut",
           "normalized": "GenericQ Bool-\u003eGenericT-\u003eGenericT",
@@ -1446,6 +1564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic variation on everywhere\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Schemes",
           "name": "everywhereM",
           "package": "syb",
@@ -1456,6 +1575,7 @@
         "index": {
           "description": "Monadic variation on everywhere",
           "hierarchy": "Data Generics Schemes",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Schemes",
           "name": "everywhereM",
           "normalized": "GenericM a-\u003eGenericM a",
@@ -1471,6 +1591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the number of all suitable nodes in a given term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Schemes",
           "name": "gcount",
           "package": "syb",
@@ -1481,6 +1602,7 @@
         "index": {
           "description": "Determine the number of all suitable nodes in given term",
           "hierarchy": "Data Generics Schemes",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Schemes",
           "name": "gcount",
           "normalized": "GenericQ Bool-\u003eGenericQ Int",
@@ -1496,6 +1618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine depth of the given term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Schemes",
           "name": "gdepth",
           "package": "syb",
@@ -1506,6 +1629,7 @@
         "index": {
           "description": "Determine depth of the given term",
           "hierarchy": "Data Generics Schemes",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Schemes",
           "name": "gdepth",
           "package": "syb",
@@ -1519,6 +1643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind (unambiguously) an immediate subterm of a given type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Schemes",
           "name": "gfindtype",
           "package": "syb",
@@ -1529,6 +1654,7 @@
         "index": {
           "description": "Find unambiguously an immediate subterm of given type",
           "hierarchy": "Data Generics Schemes",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Schemes",
           "name": "gfindtype",
           "normalized": "a-\u003eMaybe b",
@@ -1544,6 +1670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount the number of immediate subterms of the given term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Schemes",
           "name": "glength",
           "package": "syb",
@@ -1554,6 +1681,7 @@
         "index": {
           "description": "Count the number of immediate subterms of the given term",
           "hierarchy": "Data Generics Schemes",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Schemes",
           "name": "glength",
           "package": "syb",
@@ -1567,6 +1695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the number of all nodes in a given term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Schemes",
           "name": "gnodecount",
           "package": "syb",
@@ -1577,6 +1706,7 @@
         "index": {
           "description": "Determine the number of all nodes in given term",
           "hierarchy": "Data Generics Schemes",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Schemes",
           "name": "gnodecount",
           "package": "syb",
@@ -1590,6 +1720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute size of an arbitrary data structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Schemes",
           "name": "gsize",
           "package": "syb",
@@ -1600,6 +1731,7 @@
         "index": {
           "description": "Compute size of an arbitrary data structure",
           "hierarchy": "Data Generics Schemes",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Schemes",
           "name": "gsize",
           "normalized": "a-\u003eInt",
@@ -1615,6 +1747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the number of nodes of a given type in a given term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Schemes",
           "name": "gtypecount",
           "package": "syb",
@@ -1625,6 +1758,7 @@
         "index": {
           "description": "Determine the number of nodes of given type in given term",
           "hierarchy": "Data Generics Schemes",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Schemes",
           "name": "gtypecount",
           "normalized": "a-\u003eGenericQ Int",
@@ -1640,6 +1774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of all entities that meet a predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Schemes",
           "name": "listify",
           "package": "syb",
@@ -1650,6 +1785,7 @@
         "index": {
           "description": "Get list of all entities that meet predicate",
           "hierarchy": "Data Generics Schemes",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Schemes",
           "name": "listify",
           "normalized": "(a-\u003eBool)-\u003eGenericQ[a]",
@@ -1665,6 +1801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up a subterm by means of a maybe-typed filter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Schemes",
           "name": "something",
           "package": "syb",
@@ -1675,6 +1812,7 @@
         "index": {
           "description": "Look up subterm by means of maybe-typed filter",
           "hierarchy": "Data Generics Schemes",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Schemes",
           "name": "something",
           "normalized": "GenericQ(Maybe a)-\u003eGenericQ(Maybe a)",
@@ -1690,6 +1828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a monadic transformation at least somewhere\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Schemes",
           "name": "somewhere",
           "package": "syb",
@@ -1700,6 +1839,7 @@
         "index": {
           "description": "Apply monadic transformation at least somewhere",
           "hierarchy": "Data Generics Schemes",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Schemes",
           "name": "somewhere",
           "normalized": "GenericM a-\u003eGenericM a",
@@ -1715,6 +1855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBottom-up synthesis of a data structure;\n   1st argument z is the initial element for the synthesis;\n   2nd argument o is for reduction of results from subterms;\n   3rd argument f updates the synthesised data according to the given term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Schemes",
           "name": "synthesize",
           "package": "syb",
@@ -1725,6 +1866,7 @@
         "index": {
           "description": "Bottom-up synthesis of data structure st argument is the initial element for the synthesis nd argument is for reduction of results from subterms rd argument updates the synthesised data according to the given term",
           "hierarchy": "Data Generics Schemes",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Schemes",
           "name": "synthesize",
           "normalized": "a-\u003e(b-\u003ea-\u003ea)-\u003eGenericQ(a-\u003eb)-\u003eGenericQ b",
@@ -1740,6 +1882,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\"Scrap your boilerplate\" --- Generic programming in Haskell \n See \u003ca\u003ehttp://www.cs.uu.nl/wiki/GenericProgramming/SYB\u003c/a\u003e. The present module\n provides generic operations for text serialisation of terms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Text",
           "name": "Text",
           "package": "syb",
@@ -1749,6 +1892,7 @@
         "index": {
           "description": "Scrap your boilerplate Generic programming in Haskell See http www.cs.uu.nl wiki GenericProgramming SYB The present module provides generic operations for text serialisation of terms",
           "hierarchy": "Data Generics Text",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Text",
           "name": "Text",
           "package": "syb",
@@ -1763,6 +1907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric read: an alternative to \"deriving Read\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Text",
           "name": "gread",
           "package": "syb",
@@ -1773,6 +1918,7 @@
         "index": {
           "description": "Generic read an alternative to deriving Read",
           "hierarchy": "Data Generics Text",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Text",
           "name": "gread",
           "package": "syb",
@@ -1786,6 +1932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric show: an alternative to \"deriving Show\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Text",
           "name": "gshow",
           "package": "syb",
@@ -1796,6 +1943,7 @@
         "index": {
           "description": "Generic show an alternative to deriving Show",
           "hierarchy": "Data Generics Text",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Text",
           "name": "gshow",
           "normalized": "a-\u003eString",
@@ -1811,6 +1959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric shows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Text",
           "name": "gshows",
           "package": "syb",
@@ -1821,6 +1970,7 @@
         "index": {
           "description": "Generic shows",
           "hierarchy": "Data Generics Text",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Text",
           "name": "gshows",
           "normalized": "a-\u003eShowS",
@@ -1836,6 +1986,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\"Scrap your boilerplate\" --- Generic programming in Haskell \n See \u003ca\u003ehttp://www.cs.uu.nl/wiki/GenericProgramming/SYB\u003c/a\u003e. The present module \n provides support for multi-parameter traversal, which is also \n demonstrated with generic operations like equality.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Twins",
           "name": "Twins",
           "package": "syb",
@@ -1845,6 +1996,7 @@
         "index": {
           "description": "Scrap your boilerplate Generic programming in Haskell See http www.cs.uu.nl wiki GenericProgramming SYB The present module provides support for multi-parameter traversal which is also demonstrated with generic operations like equality",
           "hierarchy": "Data Generics Twins",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Twins",
           "name": "Twins",
           "package": "syb",
@@ -1859,6 +2011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric equality: an alternative to \"deriving Eq\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Twins",
           "name": "geq",
           "package": "syb",
@@ -1869,6 +2022,7 @@
         "index": {
           "description": "Generic equality an alternative to deriving Eq",
           "hierarchy": "Data Generics Twins",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Twins",
           "name": "geq",
           "normalized": "a-\u003ea-\u003eBool",
@@ -1884,6 +2038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egfoldl with accumulation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Twins",
           "name": "gfoldlAccum",
           "package": "syb",
@@ -1894,6 +2049,7 @@
         "index": {
           "description": "gfoldl with accumulation",
           "hierarchy": "Data Generics Twins",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Twins",
           "name": "gfoldlAccum",
           "normalized": "a-\u003eb(c-\u003ed)-\u003ec-\u003e(a,b d))-\u003e(e f a-\u003eg-\u003e(a,b g))-\u003ea-\u003eh-\u003e(a,b h)",
@@ -1910,6 +2066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplicative version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Twins",
           "name": "gmapAccumA",
           "package": "syb",
@@ -1920,6 +2077,7 @@
         "index": {
           "description": "Applicative version",
           "hierarchy": "Data Generics Twins",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Twins",
           "name": "gmapAccumA",
           "normalized": "a-\u003eb-\u003e(a,c b))-\u003ea-\u003ed-\u003e(a,c d)",
@@ -1936,6 +2094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egmapM with accumulation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Twins",
           "name": "gmapAccumM",
           "package": "syb",
@@ -1946,6 +2105,7 @@
         "index": {
           "description": "gmapM with accumulation",
           "hierarchy": "Data Generics Twins",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Twins",
           "name": "gmapAccumM",
           "normalized": "a-\u003eb-\u003e(a,c b))-\u003ea-\u003ed-\u003e(a,c d)",
@@ -1962,6 +2122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egmapQ with accumulation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Twins",
           "name": "gmapAccumQ",
           "package": "syb",
@@ -1972,6 +2133,7 @@
         "index": {
           "description": "gmapQ with accumulation",
           "hierarchy": "Data Generics Twins",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Twins",
           "name": "gmapAccumQ",
           "normalized": "a-\u003eb-\u003e(a,c))-\u003ea-\u003ed-\u003e(a,[c])",
@@ -1988,6 +2150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egmapQl with accumulation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Twins",
           "name": "gmapAccumQl",
           "package": "syb",
@@ -1998,6 +2161,7 @@
         "index": {
           "description": "gmapQl with accumulation",
           "hierarchy": "Data Generics Twins",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Twins",
           "name": "gmapAccumQl",
           "normalized": "a-\u003eb-\u003e(a,c))-\u003ea-\u003ed-\u003e(a,e)",
@@ -2014,6 +2178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egmapQr with accumulation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Twins",
           "name": "gmapAccumQr",
           "package": "syb",
@@ -2024,6 +2189,7 @@
         "index": {
           "description": "gmapQr with accumulation",
           "hierarchy": "Data Generics Twins",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Twins",
           "name": "gmapAccumQr",
           "normalized": "a-\u003eb-\u003e(a,c))-\u003ea-\u003ed-\u003e(a,e)",
@@ -2040,6 +2206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egmapT with accumulation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Twins",
           "name": "gmapAccumT",
           "package": "syb",
@@ -2050,6 +2217,7 @@
         "index": {
           "description": "gmapT with accumulation",
           "hierarchy": "Data Generics Twins",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Twins",
           "name": "gmapAccumT",
           "normalized": "a-\u003eb-\u003e(a,b))-\u003ea-\u003ec-\u003e(a,c)",
@@ -2066,6 +2234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric zip controlled by a function with type-specific branches\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Twins",
           "name": "gzip",
           "package": "syb",
@@ -2076,6 +2245,7 @@
         "index": {
           "description": "Generic zip controlled by function with type-specific branches",
           "hierarchy": "Data Generics Twins",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Twins",
           "name": "gzip",
           "normalized": "GenericQ(GenericM Maybe)-\u003eGenericQ(GenericM Maybe)",
@@ -2091,6 +2261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwin map for monadic transformation \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Twins",
           "name": "gzipWithM",
           "package": "syb",
@@ -2101,6 +2272,7 @@
         "index": {
           "description": "Twin map for monadic transformation",
           "hierarchy": "Data Generics Twins",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Twins",
           "name": "gzipWithM",
           "normalized": "GenericQ(GenericM a)-\u003eGenericQ(GenericM a)",
@@ -2117,6 +2289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwin map for queries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Twins",
           "name": "gzipWithQ",
           "package": "syb",
@@ -2127,6 +2300,7 @@
         "index": {
           "description": "Twin map for queries",
           "hierarchy": "Data Generics Twins",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Twins",
           "name": "gzipWithQ",
           "normalized": "GenericQ(GenericQ a)-\u003eGenericQ(GenericQ[a])",
@@ -2143,6 +2317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwin map for transformation \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics.Twins",
           "name": "gzipWithT",
           "package": "syb",
@@ -2153,6 +2328,7 @@
         "index": {
           "description": "Twin map for transformation",
           "hierarchy": "Data Generics Twins",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics.Twins",
           "name": "gzipWithT",
           "normalized": "GenericQ GenericT-\u003eGenericQ GenericT",
@@ -2169,6 +2345,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\"Scrap your boilerplate\" --- Generic programming in Haskell \n See \u003ca\u003ehttp://www.cs.uu.nl/wiki/GenericProgramming/SYB\u003c/a\u003e. To scrap your\n boilerplate it is sufficient to import the present module, which simply\n re-exports all themes of the Data.Generics library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Data.Generics",
           "name": "Generics",
           "package": "syb",
@@ -2178,6 +2355,7 @@
         "index": {
           "description": "Scrap your boilerplate Generic programming in Haskell See http www.cs.uu.nl wiki GenericProgramming SYB To scrap your boilerplate it is sufficient to import the present module which simply re-exports all themes of the Data.Generics library",
           "hierarchy": "Data Generics",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Data.Generics",
           "name": "Generics",
           "package": "syb",
@@ -2192,6 +2370,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience alias for \u003ca\u003eData.Generics.Aliases\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Generics.SYB.Aliases",
           "name": "Aliases",
           "package": "syb",
@@ -2201,6 +2380,7 @@
         "index": {
           "description": "Convenience alias for Data.Generics.Aliases",
           "hierarchy": "Generics SYB Aliases",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Generics.SYB.Aliases",
           "name": "Aliases",
           "package": "syb",
@@ -2215,6 +2395,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience alias for \u003ca\u003eData.Generics.Basics\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Generics.SYB.Basics",
           "name": "Basics",
           "package": "syb",
@@ -2224,6 +2405,7 @@
         "index": {
           "description": "Convenience alias for Data.Generics.Basics",
           "hierarchy": "Generics SYB Basics",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Generics.SYB.Basics",
           "name": "Basics",
           "package": "syb",
@@ -2238,6 +2420,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience alias for \u003ca\u003eData.Generics.Builders\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Generics.SYB.Builders",
           "name": "Builders",
           "package": "syb",
@@ -2247,6 +2430,7 @@
         "index": {
           "description": "Convenience alias for Data.Generics.Builders",
           "hierarchy": "Generics SYB Builders",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Generics.SYB.Builders",
           "name": "Builders",
           "package": "syb",
@@ -2261,6 +2445,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience alias for \u003ca\u003eData.Generics.Instances\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Generics.SYB.Instances",
           "name": "Instances",
           "package": "syb",
@@ -2270,6 +2455,7 @@
         "index": {
           "description": "Convenience alias for Data.Generics.Instances",
           "hierarchy": "Generics SYB Instances",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Generics.SYB.Instances",
           "name": "Instances",
           "package": "syb",
@@ -2284,6 +2470,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience alias for \u003ca\u003eData.Generics.Schemes\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Generics.SYB.Schemes",
           "name": "Schemes",
           "package": "syb",
@@ -2293,6 +2480,7 @@
         "index": {
           "description": "Convenience alias for Data.Generics.Schemes",
           "hierarchy": "Generics SYB Schemes",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Generics.SYB.Schemes",
           "name": "Schemes",
           "package": "syb",
@@ -2307,6 +2495,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience alias for \u003ca\u003eData.Generics.Text\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Generics.SYB.Text",
           "name": "Text",
           "package": "syb",
@@ -2316,6 +2505,7 @@
         "index": {
           "description": "Convenience alias for Data.Generics.Text",
           "hierarchy": "Generics SYB Text",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Generics.SYB.Text",
           "name": "Text",
           "package": "syb",
@@ -2330,6 +2520,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience alias for \u003ca\u003eData.Generics.Twins\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Generics.SYB.Twins",
           "name": "Twins",
           "package": "syb",
@@ -2339,6 +2530,7 @@
         "index": {
           "description": "Convenience alias for Data.Generics.Twins",
           "hierarchy": "Generics SYB Twins",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Generics.SYB.Twins",
           "name": "Twins",
           "package": "syb",
@@ -2353,6 +2545,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience alias for \u003ca\u003eData.Generics\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:33 UTC 2014",
           "module": "Generics.SYB",
           "name": "SYB",
           "package": "syb",
@@ -2362,6 +2555,7 @@
         "index": {
           "description": "Convenience alias for Data.Generics",
           "hierarchy": "Generics SYB",
+          "indexed": "2014-03-11T20:14:33",
           "module": "Generics.SYB",
           "name": "SYB",
           "package": "syb",

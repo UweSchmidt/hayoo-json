@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Fungi"
+        "phrase": "Fungi",
+        "type": "phrase"
       },
       "type": "context"
     }

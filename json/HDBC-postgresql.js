@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HDBC-postgresql"
+        "phrase": "HDBC-postgresql",
+        "type": "phrase"
       },
       "type": "context"
     }

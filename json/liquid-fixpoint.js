@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "liquid-fixpoint"
+        "phrase": "liquid-fixpoint",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Config",
           "name": "Config",
           "package": "liquid-fixpoint",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Config",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Config",
           "name": "Config",
           "package": "liquid-fixpoint",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Config",
           "name": "Command",
           "package": "liquid-fixpoint",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Config",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Config",
           "name": "Command",
           "package": "liquid-fixpoint",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Config",
           "name": "Config",
           "package": "liquid-fixpoint",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Config",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Config",
           "name": "Config",
           "package": "liquid-fixpoint",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Config",
           "name": "GenQualifierSort",
           "package": "liquid-fixpoint",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Config",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Config",
           "name": "GenQualifierSort",
           "package": "liquid-fixpoint",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Config",
           "name": "SMTSolver",
           "package": "liquid-fixpoint",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Config",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Config",
           "name": "SMTSolver",
           "package": "liquid-fixpoint",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Config",
           "name": "Config",
           "package": "liquid-fixpoint",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Config",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Config",
           "name": "Config",
           "package": "liquid-fixpoint",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Config",
           "name": "Cvc4",
           "package": "liquid-fixpoint",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Config",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Config",
           "name": "Cvc4",
           "package": "liquid-fixpoint",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Config",
           "name": "GQS",
           "package": "liquid-fixpoint",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Config",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Config",
           "name": "GQS",
           "package": "liquid-fixpoint",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Config",
           "name": "Mathsat",
           "package": "liquid-fixpoint",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Config",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Config",
           "name": "Mathsat",
           "package": "liquid-fixpoint",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Config",
           "name": "Z3",
           "package": "liquid-fixpoint",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Config",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Config",
           "name": "Z3",
           "package": "liquid-fixpoint",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Config",
           "name": "Z3mem",
           "package": "liquid-fixpoint",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Config",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Config",
           "name": "Z3mem",
           "package": "liquid-fixpoint",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Config",
           "name": "command",
           "package": "liquid-fixpoint",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Config",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Config",
           "name": "command",
           "normalized": "a-\u003eString",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Config",
           "name": "genSorts",
           "package": "liquid-fixpoint",
@@ -285,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Config",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Config",
           "name": "genSorts",
           "package": "liquid-fixpoint",
@@ -298,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Config",
           "name": "inFile",
           "package": "liquid-fixpoint",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Config",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Config",
           "name": "inFile",
           "package": "liquid-fixpoint",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Config",
           "name": "outFile",
           "package": "liquid-fixpoint",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Config",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Config",
           "name": "outFile",
           "package": "liquid-fixpoint",
@@ -342,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Config",
           "name": "solver",
           "package": "liquid-fixpoint",
@@ -351,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Config",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Config",
           "name": "solver",
           "package": "liquid-fixpoint",
@@ -363,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Config",
           "name": "withTarget",
           "package": "liquid-fixpoint",
@@ -372,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Config",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Config",
           "name": "withTarget",
           "normalized": "Config-\u003eFilePath-\u003eConfig",
@@ -388,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains Haskell variables representing globally visible \n names for files, paths, extensions.\n\u003c/p\u003e\u003cp\u003eRather than have strings floating around the system, all constant names\n should be defined here, and the (exported) variables should be used and\n manipulated elsewhere.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "Files",
           "package": "liquid-fixpoint",
@@ -397,6 +432,7 @@
         "index": {
           "description": "This module contains Haskell variables representing globally visible names for files paths extensions Rather than have strings floating around the system all constant names should be defined here and the exported variables should be used and manipulated elsewhere",
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "Files",
           "package": "liquid-fixpoint",
@@ -410,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "Ext",
           "package": "liquid-fixpoint",
@@ -418,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "Ext",
           "package": "liquid-fixpoint",
@@ -432,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText file with inferred types \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "Annot",
           "package": "liquid-fixpoint",
@@ -442,6 +481,7 @@
         "index": {
           "description": "Text file with inferred types",
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "Annot",
           "package": "liquid-fixpoint",
@@ -456,6 +496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstraint Generation Information \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "Cgi",
           "package": "liquid-fixpoint",
@@ -466,6 +507,7 @@
         "index": {
           "description": "Constraint Generation Information",
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "Cgi",
           "package": "liquid-fixpoint",
@@ -480,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTML file with templates?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "Cst",
           "package": "liquid-fixpoint",
@@ -490,6 +533,7 @@
         "index": {
           "description": "HTML file with templates",
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "Cst",
           "package": "liquid-fixpoint",
@@ -503,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "Dat",
           "package": "liquid-fixpoint",
@@ -512,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "Dat",
           "package": "liquid-fixpoint",
@@ -526,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput to constraint solving (fixpoint)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "Fq",
           "package": "liquid-fixpoint",
@@ -536,6 +583,7 @@
         "index": {
           "description": "Input to constraint solving fixpoint",
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "Fq",
           "package": "liquid-fixpoint",
@@ -550,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQualifiers file (e.g. include/Prelude.hquals)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "Hquals",
           "package": "liquid-fixpoint",
@@ -560,6 +609,7 @@
         "index": {
           "description": "Qualifiers file e.g include Prelude.hquals",
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "Hquals",
           "package": "liquid-fixpoint",
@@ -574,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTarget source \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "Hs",
           "package": "liquid-fixpoint",
@@ -584,6 +635,7 @@
         "index": {
           "description": "Target source",
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "Hs",
           "package": "liquid-fixpoint",
@@ -598,6 +650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTML file with inferred type annotations \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "Html",
           "package": "liquid-fixpoint",
@@ -608,6 +661,7 @@
         "index": {
           "description": "HTML file with inferred type annotations",
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "Html",
           "package": "liquid-fixpoint",
@@ -622,6 +676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJSON file containing result (annots + errors)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "Json",
           "package": "liquid-fixpoint",
@@ -632,6 +687,7 @@
         "index": {
           "description": "JSON file containing result annots errors",
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "Json",
           "package": "liquid-fixpoint",
@@ -646,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLiterate Haskell target source file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "LHs",
           "package": "liquid-fixpoint",
@@ -656,6 +713,7 @@
         "index": {
           "description": "Literate Haskell target source file",
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "LHs",
           "package": "liquid-fixpoint",
@@ -670,6 +728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarkdown file (temporarily generated from .Lhs + annots) \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "Mkdn",
           "package": "liquid-fixpoint",
@@ -680,6 +739,7 @@
         "index": {
           "description": "Markdown file temporarily generated from Lhs annots",
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "Mkdn",
           "package": "liquid-fixpoint",
@@ -694,6 +754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput from constraint solving (fixpoint)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "Out",
           "package": "liquid-fixpoint",
@@ -704,6 +765,7 @@
         "index": {
           "description": "Output from constraint solving fixpoint",
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "Out",
           "package": "liquid-fixpoint",
@@ -717,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "PAss",
           "package": "liquid-fixpoint",
@@ -726,6 +789,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "PAss",
           "package": "liquid-fixpoint",
@@ -739,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "Pred",
           "package": "liquid-fixpoint",
@@ -748,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "Pred",
           "package": "liquid-fixpoint",
@@ -762,6 +828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinal result: SAFE/UNSAFE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "Result",
           "package": "liquid-fixpoint",
@@ -772,6 +839,7 @@
         "index": {
           "description": "Final result SAFE UNSAFE",
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "Result",
           "package": "liquid-fixpoint",
@@ -786,6 +854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrevious version of source (for incremental checking)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "Saved",
           "package": "liquid-fixpoint",
@@ -796,6 +865,7 @@
         "index": {
           "description": "Previous version of source for incremental checking",
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "Saved",
           "package": "liquid-fixpoint",
@@ -810,6 +880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpec file (e.g. include/Prelude.spec) \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "Spec",
           "package": "liquid-fixpoint",
@@ -820,6 +891,7 @@
         "index": {
           "description": "Spec file e.g include Prelude.spec",
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "Spec",
           "package": "liquid-fixpoint",
@@ -833,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "copyFiles",
           "package": "liquid-fixpoint",
@@ -842,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "copyFiles",
           "normalized": "[FilePath]-\u003eFilePath-\u003eIO()",
@@ -857,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "extFileName",
           "package": "liquid-fixpoint",
@@ -866,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "extFileName",
           "normalized": "Ext-\u003eFilePath-\u003eFilePath",
@@ -881,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "extModuleName",
           "package": "liquid-fixpoint",
@@ -890,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "extModuleName",
           "normalized": "String-\u003eExt-\u003eFilePath",
@@ -905,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "findFileInDirs",
           "package": "liquid-fixpoint",
@@ -914,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "findFileInDirs",
           "normalized": "FilePath-\u003e[FilePath]-\u003eIO FilePath",
@@ -929,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "getFileInDirs",
           "package": "liquid-fixpoint",
@@ -938,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "getFileInDirs",
           "normalized": "FilePath-\u003e[FilePath]-\u003eIO(Maybe FilePath)",
@@ -954,6 +1036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHardwired Paths and Files -----------------------------\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "getFixpointPath",
           "package": "liquid-fixpoint",
@@ -964,6 +1047,7 @@
         "index": {
           "description": "Hardwired Paths and Files",
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "getFixpointPath",
           "package": "liquid-fixpoint",
@@ -977,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "getHsTargets",
           "package": "liquid-fixpoint",
@@ -986,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "getHsTargets",
           "normalized": "FilePath-\u003eIO[FilePath]",
@@ -1001,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "getZ3LibPath",
           "package": "liquid-fixpoint",
@@ -1010,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "getZ3LibPath",
           "package": "liquid-fixpoint",
@@ -1023,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "isExtFile",
           "package": "liquid-fixpoint",
@@ -1032,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "isExtFile",
           "normalized": "Ext-\u003eFilePath-\u003eBool",
@@ -1047,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Files",
           "name": "withExt",
           "package": "liquid-fixpoint",
@@ -1056,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Files",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Files",
           "name": "withExt",
           "normalized": "FilePath-\u003eExt-\u003eFilePath",
@@ -1071,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Interface",
           "name": "Interface",
           "package": "liquid-fixpoint",
@@ -1079,6 +1172,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Interface",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Interface",
           "name": "Interface",
           "package": "liquid-fixpoint",
@@ -1092,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Interface",
           "name": "FInfo",
           "package": "liquid-fixpoint",
@@ -1100,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Interface",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Interface",
           "name": "FInfo",
           "package": "liquid-fixpoint",
@@ -1113,6 +1209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Interface",
           "name": "FI",
           "package": "liquid-fixpoint",
@@ -1122,6 +1219,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Interface",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Interface",
           "name": "FI",
           "normalized": "FI(HashMap Integer(SubC a))[WfC a]BindEnv FEnv[(Symbol,Sort)]Kuts[Qualifier]",
@@ -1138,6 +1236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne Shot validity query ----------------------------------------------\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Interface",
           "name": "checkValid",
           "package": "liquid-fixpoint",
@@ -1148,6 +1247,7 @@
         "index": {
           "description": "One Shot validity query",
           "hierarchy": "Language Fixpoint Interface",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Interface",
           "name": "checkValid",
           "normalized": "a-\u003e[(Symbol,Sort)]-\u003ePred-\u003eIO(FixResult a)",
@@ -1163,6 +1263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Interface",
           "name": "resultExit",
           "package": "liquid-fixpoint",
@@ -1172,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Interface",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Interface",
           "name": "resultExit",
           "normalized": "FixResult a-\u003eExitCode",
@@ -1188,6 +1290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolve a system of horn-clause constraints ----------------------------\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Interface",
           "name": "solve",
           "package": "liquid-fixpoint",
@@ -1198,6 +1301,7 @@
         "index": {
           "description": "Solve system of horn-clause constraints",
           "hierarchy": "Language Fixpoint Interface",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Interface",
           "name": "solve",
           "normalized": "Config-\u003eFilePath-\u003e[FilePath]-\u003eFInfo a-\u003eIO(FixResult(SubC a),HashMap Symbol Pred)",
@@ -1212,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Interface",
           "name": "solveFile",
           "package": "liquid-fixpoint",
@@ -1221,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Interface",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Interface",
           "name": "solveFile",
           "normalized": "Config-\u003eIO ExitCode",
@@ -1236,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "Misc",
           "package": "liquid-fixpoint",
@@ -1244,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "Misc",
           "package": "liquid-fixpoint",
@@ -1257,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "Empty",
           "package": "liquid-fixpoint",
@@ -1265,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "Empty",
           "package": "liquid-fixpoint",
@@ -1278,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "Moods",
           "package": "liquid-fixpoint",
@@ -1286,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "Moods",
           "package": "liquid-fixpoint",
@@ -1299,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "(=\u003e\u003e)",
           "package": "liquid-fixpoint",
@@ -1308,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "(=\u003e\u003e) =\u003e\u003e",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003ea b",
@@ -1322,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "Angry",
           "package": "liquid-fixpoint",
@@ -1331,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "Angry",
           "package": "liquid-fixpoint",
@@ -1344,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "Emp",
           "package": "liquid-fixpoint",
@@ -1353,6 +1470,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "Emp",
           "package": "liquid-fixpoint",
@@ -1366,6 +1484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "Happy",
           "package": "liquid-fixpoint",
@@ -1375,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "Happy",
           "package": "liquid-fixpoint",
@@ -1388,6 +1508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "Loud",
           "package": "liquid-fixpoint",
@@ -1397,6 +1518,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "Loud",
           "package": "liquid-fixpoint",
@@ -1410,6 +1532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "Ok",
           "package": "liquid-fixpoint",
@@ -1419,6 +1542,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "Ok",
           "package": "liquid-fixpoint",
@@ -1432,6 +1556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "Sad",
           "package": "liquid-fixpoint",
@@ -1441,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "Sad",
           "package": "liquid-fixpoint",
@@ -1454,6 +1580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "angleBrackets",
           "package": "liquid-fixpoint",
@@ -1463,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "angleBrackets",
           "normalized": "Doc-\u003eDoc",
@@ -1478,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "applyNonNull",
           "package": "liquid-fixpoint",
@@ -1487,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "applyNonNull",
           "normalized": "a-\u003e([a]-\u003ea)-\u003e[a]-\u003ea",
@@ -1502,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "arrow",
           "package": "liquid-fixpoint",
@@ -1511,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "arrow",
           "package": "liquid-fixpoint",
@@ -1523,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "assertstar",
           "package": "liquid-fixpoint",
@@ -1532,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "assertstar",
           "normalized": "[Char]-\u003eBool-\u003ea-\u003ea",
@@ -1546,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "bchopAlts",
           "package": "liquid-fixpoint",
@@ -1555,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "bchopAlts",
           "normalized": "[(ByteString,ByteString)]-\u003eByteString-\u003e[ByteString]",
@@ -1570,6 +1706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "boxStrCat",
           "package": "liquid-fixpoint",
@@ -1579,6 +1716,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "boxStrCat",
           "normalized": "String-\u003e[String]-\u003eString",
@@ -1594,6 +1732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "checkExitCode",
           "package": "liquid-fixpoint",
@@ -1603,6 +1742,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "checkExitCode",
           "normalized": "[Char]-\u003eExitCode-\u003ea()",
@@ -1618,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "checkFail",
           "package": "liquid-fixpoint",
@@ -1627,6 +1768,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "checkFail",
           "normalized": "[Char]-\u003e(a-\u003eBool)-\u003ea-\u003ea",
@@ -1642,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "chopAfter",
           "package": "liquid-fixpoint",
@@ -1651,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "chopAfter",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -1666,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "chopAlt",
           "package": "liquid-fixpoint",
@@ -1675,6 +1820,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "chopAlt",
           "normalized": "[(a,a)]-\u003e[a]-\u003e[[a]]",
@@ -1690,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "chopAlts",
           "package": "liquid-fixpoint",
@@ -1699,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "chopAlts",
           "normalized": "[(String,String)]-\u003eString-\u003e[[Char]]",
@@ -1714,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "chopPrefix",
           "package": "liquid-fixpoint",
@@ -1723,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "chopPrefix",
           "normalized": "[a]-\u003e[a]-\u003eMaybe[a]",
@@ -1738,6 +1888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "colorPhaseLn",
           "package": "liquid-fixpoint",
@@ -1747,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "colorPhaseLn",
           "normalized": "Moods-\u003e[Char]-\u003e[Char]-\u003eIO()",
@@ -1762,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "colorStrLn",
           "package": "liquid-fixpoint",
@@ -1771,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "colorStrLn",
           "normalized": "Moods-\u003eString-\u003eIO()",
@@ -1786,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "concatMapM",
           "package": "liquid-fixpoint",
@@ -1795,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "concatMapM",
           "normalized": "(a-\u003eb[a])-\u003e[a]-\u003eb[a]",
@@ -1810,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "dcolon",
           "package": "liquid-fixpoint",
@@ -1819,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "dcolon",
           "package": "liquid-fixpoint",
@@ -1831,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "distinct",
           "package": "liquid-fixpoint",
@@ -1840,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "distinct",
           "normalized": "[a]-\u003eBool",
@@ -1854,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "doneLine",
           "package": "liquid-fixpoint",
@@ -1863,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "doneLine",
           "normalized": "Moods-\u003e[Char]-\u003eIO()",
@@ -1878,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "donePhase",
           "package": "liquid-fixpoint",
@@ -1887,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "donePhase",
           "normalized": "Moods-\u003eString-\u003eIO()",
@@ -1902,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "dot",
           "package": "liquid-fixpoint",
@@ -1911,6 +2076,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "dot",
           "package": "liquid-fixpoint",
@@ -1923,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "errorstar",
           "package": "liquid-fixpoint",
@@ -1932,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "errorstar",
           "normalized": "[Char]-\u003ea",
@@ -1946,6 +2114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "errortext",
           "package": "liquid-fixpoint",
@@ -1955,6 +2124,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "errortext",
           "normalized": "Doc-\u003ea",
@@ -1969,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "executeShellCommand",
           "package": "liquid-fixpoint",
@@ -1978,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "executeShellCommand",
           "normalized": "[Char]-\u003e[Char]-\u003eIO ExitCode",
@@ -1993,6 +2165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "expandSnd",
           "package": "liquid-fixpoint",
@@ -2002,6 +2175,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "expandSnd",
           "normalized": "[([a],b)]-\u003e[(a,b)]",
@@ -2017,6 +2191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "findFirst",
           "package": "liquid-fixpoint",
@@ -2026,6 +2201,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "findFirst",
           "normalized": "(a-\u003eb[c])-\u003e[a]-\u003eb(Maybe c)",
@@ -2041,6 +2217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "findWithDefaultL",
           "package": "liquid-fixpoint",
@@ -2050,6 +2227,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "findWithDefaultL",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003ea-\u003ea",
@@ -2065,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "firstElem",
           "package": "liquid-fixpoint",
@@ -2074,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "firstElem",
           "normalized": "[(a,b)]-\u003e[a]-\u003eMaybe Int",
@@ -2089,6 +2269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "firstElems",
           "package": "liquid-fixpoint",
@@ -2098,6 +2279,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "firstElems",
           "normalized": "[(ByteString,ByteString)]-\u003eByteString-\u003eMaybe(Int,ByteString,(ByteString,ByteString))",
@@ -2113,6 +2295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "foldlMap",
           "package": "liquid-fixpoint",
@@ -2122,6 +2305,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "foldlMap",
           "normalized": "(a-\u003eb-\u003e(c,a))-\u003ea-\u003e[b]-\u003e([c],a)",
@@ -2137,6 +2321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "fst3",
           "package": "liquid-fixpoint",
@@ -2146,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "fst3",
           "normalized": "(a,b,c)-\u003ea",
@@ -2160,6 +2346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "group",
           "package": "liquid-fixpoint",
@@ -2169,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "group",
           "normalized": "[(a,b)]-\u003eHashMap a[b]",
@@ -2183,6 +2371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "groupList",
           "package": "liquid-fixpoint",
@@ -2192,6 +2381,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "groupList",
           "normalized": "[(a,b)]-\u003e[(a,[b])]",
@@ -2207,6 +2397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "groupMap",
           "package": "liquid-fixpoint",
@@ -2216,6 +2407,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "groupMap",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003eHashMap b[a]",
@@ -2231,6 +2423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "hashMapMapKeys",
           "package": "liquid-fixpoint",
@@ -2240,6 +2433,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "hashMapMapKeys",
           "normalized": "(a-\u003eb)-\u003eHashMap a c-\u003eHashMap b c",
@@ -2255,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "hashMapMapWithKey",
           "package": "liquid-fixpoint",
@@ -2264,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "hashMapMapWithKey",
           "normalized": "(a-\u003eb-\u003eb)-\u003eHashMap a b-\u003eHashMap a b",
@@ -2279,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "hashMapToAscList",
           "package": "liquid-fixpoint",
@@ -2288,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "hashMapToAscList",
           "normalized": "HashMap a b-\u003e[(a,b)]",
@@ -2303,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "ifM",
           "package": "liquid-fixpoint",
@@ -2312,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "ifM",
           "normalized": "a Bool-\u003ea b-\u003ea b-\u003ea b",
@@ -2326,6 +2526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "inserts",
           "package": "liquid-fixpoint",
@@ -2335,6 +2536,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "inserts",
           "normalized": "a-\u003eb-\u003eHashMap a[b]-\u003eHashMap a[b]",
@@ -2349,6 +2551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "intersperse",
           "package": "liquid-fixpoint",
@@ -2358,6 +2561,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "intersperse",
           "normalized": "Doc-\u003e[Doc]-\u003eDoc",
@@ -2372,6 +2576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "mapFst",
           "package": "liquid-fixpoint",
@@ -2381,6 +2586,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "mapFst",
           "normalized": "(a-\u003ea)-\u003e(a,a)-\u003e(a,a)",
@@ -2396,6 +2602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "mapFst3",
           "package": "liquid-fixpoint",
@@ -2405,6 +2612,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "mapFst3",
           "normalized": "(a-\u003ea)-\u003e(a,a,a)-\u003e(a,a,a)",
@@ -2420,6 +2628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "mapPair",
           "package": "liquid-fixpoint",
@@ -2429,6 +2638,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "mapPair",
           "normalized": "(a-\u003eb)-\u003e(a,a)-\u003e(b,b)",
@@ -2444,6 +2654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "mapSnd",
           "package": "liquid-fixpoint",
@@ -2453,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "mapSnd",
           "normalized": "(a-\u003ea)-\u003e(a,a)-\u003e(a,a)",
@@ -2468,6 +2680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "mapSnd3",
           "package": "liquid-fixpoint",
@@ -2477,6 +2690,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "mapSnd3",
           "normalized": "(a-\u003ea)-\u003e(a,a,a)-\u003e(a,a,a)",
@@ -2492,6 +2706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "mapThd3",
           "package": "liquid-fixpoint",
@@ -2501,6 +2716,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "mapThd3",
           "normalized": "(a-\u003ea)-\u003e(a,a,a)-\u003e(a,a,a)",
@@ -2516,6 +2732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "memoIndex",
           "package": "liquid-fixpoint",
@@ -2525,6 +2742,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "memoIndex",
           "normalized": "(a-\u003eMaybe b)-\u003e[a]-\u003e[Maybe Int]",
@@ -2540,6 +2758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "mfromJust",
           "package": "liquid-fixpoint",
@@ -2549,6 +2768,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "mfromJust",
           "normalized": "String-\u003eMaybe a-\u003ea",
@@ -2564,6 +2784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "mlookup",
           "package": "liquid-fixpoint",
@@ -2573,6 +2794,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "mlookup",
           "normalized": "HashMap a b-\u003ea-\u003eb",
@@ -2587,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "moodColor",
           "package": "liquid-fixpoint",
@@ -2596,6 +2819,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "moodColor",
           "normalized": "Moods-\u003eColor",
@@ -2611,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "putDocLn",
           "package": "liquid-fixpoint",
@@ -2620,6 +2845,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "putDocLn",
           "normalized": "Doc-\u003eIO()",
@@ -2635,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "repeats",
           "package": "liquid-fixpoint",
@@ -2644,6 +2871,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "repeats",
           "normalized": "Int-\u003e[a]-\u003e[a]",
@@ -2658,6 +2886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "safeFromList",
           "package": "liquid-fixpoint",
@@ -2667,6 +2896,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "safeFromList",
           "normalized": "[Char]-\u003e[(a,b)]-\u003eHashMap a b",
@@ -2682,6 +2912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "safeHead",
           "package": "liquid-fixpoint",
@@ -2691,6 +2922,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "safeHead",
           "normalized": "[Char]-\u003e[a]-\u003ea",
@@ -2706,6 +2938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "safeInit",
           "package": "liquid-fixpoint",
@@ -2715,6 +2948,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "safeInit",
           "normalized": "[Char]-\u003e[a]-\u003e[a]",
@@ -2730,6 +2964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "safeLast",
           "package": "liquid-fixpoint",
@@ -2739,6 +2974,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "safeLast",
           "normalized": "[Char]-\u003e[a]-\u003ea",
@@ -2754,6 +2990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "safeUnion",
           "package": "liquid-fixpoint",
@@ -2763,6 +3000,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "safeUnion",
           "normalized": "[Char]-\u003eHashMap a b-\u003eHashMap a b-\u003eHashMap a b",
@@ -2778,6 +3016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "safeZip",
           "package": "liquid-fixpoint",
@@ -2787,6 +3026,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "safeZip",
           "normalized": "[Char]-\u003e[a]-\u003e[b]-\u003e[(a,b)]",
@@ -2802,6 +3042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "safeZipWith",
           "package": "liquid-fixpoint",
@@ -2811,6 +3052,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "safeZipWith",
           "normalized": "[Char]-\u003e(a-\u003eb-\u003ec)-\u003e[a]-\u003e[b]-\u003e[c]",
@@ -2826,6 +3068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "single",
           "package": "liquid-fixpoint",
@@ -2835,6 +3078,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "single",
           "normalized": "a-\u003e[a]",
@@ -2849,6 +3093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "snd3",
           "package": "liquid-fixpoint",
@@ -2858,6 +3103,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "snd3",
           "normalized": "(a,b,c)-\u003eb",
@@ -2872,6 +3118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "sortDiff",
           "package": "liquid-fixpoint",
@@ -2881,6 +3128,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "sortDiff",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -2896,6 +3144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "sortNub",
           "package": "liquid-fixpoint",
@@ -2905,6 +3154,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "sortNub",
           "normalized": "[a]-\u003e[a]",
@@ -2920,6 +3170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "splitters",
           "package": "liquid-fixpoint",
@@ -2929,6 +3180,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "splitters",
           "normalized": "[(ByteString,a)]-\u003eByteString-\u003e[(Int,a,(ByteString,ByteString))]",
@@ -2943,6 +3195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "startPhase",
           "package": "liquid-fixpoint",
@@ -2952,6 +3205,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "startPhase",
           "normalized": "Moods-\u003e[Char]-\u003eIO()",
@@ -2967,6 +3221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "stripParens",
           "package": "liquid-fixpoint",
@@ -2976,6 +3231,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "stripParens",
           "normalized": "[Char]-\u003e[Char]",
@@ -2991,6 +3247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "stripParens'",
           "package": "liquid-fixpoint",
@@ -3000,6 +3257,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "stripParens'",
           "normalized": "[Char]-\u003e[Char]",
@@ -3015,6 +3273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "testM",
           "package": "liquid-fixpoint",
@@ -3024,6 +3283,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "testM",
           "normalized": "(a-\u003eb Bool)-\u003ea-\u003eb[a]",
@@ -3038,6 +3298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "thd3",
           "package": "liquid-fixpoint",
@@ -3047,6 +3308,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "thd3",
           "normalized": "(a,b,c)-\u003ec",
@@ -3061,6 +3323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "tr_foldr'",
           "package": "liquid-fixpoint",
@@ -3070,6 +3333,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "tr_foldr'",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003e[a]-\u003eb",
@@ -3084,6 +3348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "tr_reverse",
           "package": "liquid-fixpoint",
@@ -3093,6 +3358,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "tr_reverse",
           "normalized": "[a]-\u003e[a]",
@@ -3107,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "traceShow",
           "package": "liquid-fixpoint",
@@ -3116,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "traceShow",
           "normalized": "String-\u003ea-\u003ea",
@@ -3131,6 +3399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "tryIgnore",
           "package": "liquid-fixpoint",
@@ -3140,6 +3409,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "tryIgnore",
           "normalized": "String-\u003eIO()-\u003eIO()",
@@ -3155,6 +3425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "tshow",
           "package": "liquid-fixpoint",
@@ -3164,6 +3435,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "tshow",
           "normalized": "a-\u003eDoc",
@@ -3178,6 +3450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "unIntersperse",
           "package": "liquid-fixpoint",
@@ -3187,6 +3460,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "unIntersperse",
           "normalized": "a-\u003e[a]-\u003e[[a]]",
@@ -3202,6 +3476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "warnShow",
           "package": "liquid-fixpoint",
@@ -3211,6 +3486,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "warnShow",
           "normalized": "String-\u003ea-\u003ea",
@@ -3226,6 +3502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "withColor",
           "package": "liquid-fixpoint",
@@ -3235,6 +3512,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "withColor",
           "normalized": "Color-\u003eIO a-\u003eIO()",
@@ -3250,6 +3528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "wrap",
           "package": "liquid-fixpoint",
@@ -3259,6 +3538,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "wrap",
           "normalized": "[a]-\u003e[a]-\u003e[a]-\u003e[a]",
@@ -3273,6 +3553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Misc",
           "name": "wrapStars",
           "package": "liquid-fixpoint",
@@ -3282,6 +3563,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Misc",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Misc",
           "name": "wrapStars",
           "normalized": "[Char]-\u003e[Char]",
@@ -3298,6 +3580,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains Haskell variables representing globally visible names.\n   Rather than have strings floating around the system, all constant names\n   should be defined here, and the (exported) variables should be used and\n   manipulated elsewhere.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Names",
           "name": "Names",
           "package": "liquid-fixpoint",
@@ -3307,6 +3590,7 @@
         "index": {
           "description": "This module contains Haskell variables representing globally visible names Rather than have strings floating around the system all constant names should be defined here and the exported variables should be used and manipulated elsewhere",
           "hierarchy": "Language Fixpoint Names",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Names",
           "name": "Names",
           "package": "liquid-fixpoint",
@@ -3320,6 +3604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Names",
           "name": "boolConName",
           "package": "liquid-fixpoint",
@@ -3329,6 +3614,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Names",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Names",
           "name": "boolConName",
           "normalized": "[Char]",
@@ -3344,6 +3630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Names",
           "name": "dropModuleNames",
           "package": "liquid-fixpoint",
@@ -3353,6 +3640,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Names",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Names",
           "name": "dropModuleNames",
           "normalized": "[Char]-\u003e[Char]",
@@ -3368,6 +3656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Names",
           "name": "dummyName",
           "package": "liquid-fixpoint",
@@ -3377,6 +3666,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Names",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Names",
           "name": "dummyName",
           "normalized": "[Char]",
@@ -3392,6 +3682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Names",
           "name": "funConName",
           "package": "liquid-fixpoint",
@@ -3401,6 +3692,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Names",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Names",
           "name": "funConName",
           "normalized": "[Char]",
@@ -3416,6 +3708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Names",
           "name": "listConName",
           "package": "liquid-fixpoint",
@@ -3425,6 +3718,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Names",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Names",
           "name": "listConName",
           "normalized": "[Char]",
@@ -3440,6 +3734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Names",
           "name": "preludeName",
           "package": "liquid-fixpoint",
@@ -3449,6 +3744,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Names",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Names",
           "name": "preludeName",
           "normalized": "[Char]",
@@ -3464,6 +3760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Names",
           "name": "propConName",
           "package": "liquid-fixpoint",
@@ -3473,6 +3770,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Names",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Names",
           "name": "propConName",
           "normalized": "[Char]",
@@ -3488,6 +3786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Names",
           "name": "strConName",
           "package": "liquid-fixpoint",
@@ -3497,6 +3796,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Names",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Names",
           "name": "strConName",
           "normalized": "[Char]",
@@ -3512,6 +3812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Names",
           "name": "symSepName",
           "package": "liquid-fixpoint",
@@ -3521,6 +3822,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Names",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Names",
           "name": "symSepName",
           "package": "liquid-fixpoint",
@@ -3534,6 +3836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Names",
           "name": "takeModuleNames",
           "package": "liquid-fixpoint",
@@ -3543,6 +3846,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Names",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Names",
           "name": "takeModuleNames",
           "normalized": "[Char]-\u003e[Char]",
@@ -3558,6 +3862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Names",
           "name": "tupConName",
           "package": "liquid-fixpoint",
@@ -3567,6 +3872,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Names",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Names",
           "name": "tupConName",
           "normalized": "[Char]",
@@ -3582,6 +3888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Names",
           "name": "vvName",
           "package": "liquid-fixpoint",
@@ -3591,6 +3898,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Names",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Names",
           "name": "vvName",
           "normalized": "[Char]",
@@ -3606,6 +3914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "Parse",
           "package": "liquid-fixpoint",
@@ -3614,6 +3923,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "Parse",
           "package": "liquid-fixpoint",
@@ -3627,6 +3937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "Inputable",
           "package": "liquid-fixpoint",
@@ -3635,6 +3946,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "Inputable",
           "package": "liquid-fixpoint",
@@ -3648,6 +3960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "Parser",
           "package": "liquid-fixpoint",
@@ -3656,6 +3969,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "Parser",
           "package": "liquid-fixpoint",
@@ -3669,6 +3983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "blanks",
           "package": "liquid-fixpoint",
@@ -3678,6 +3993,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "blanks",
           "normalized": "ParsecT a b c[Char]",
@@ -3692,6 +4008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "brackets",
           "package": "liquid-fixpoint",
@@ -3701,6 +4018,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "brackets",
           "normalized": "ParsecT String a Identity b-\u003eParsecT String a Identity b",
@@ -3715,6 +4033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "colon",
           "package": "liquid-fixpoint",
@@ -3724,6 +4043,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "colon",
           "package": "liquid-fixpoint",
@@ -3736,6 +4056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "comma",
           "package": "liquid-fixpoint",
@@ -3745,6 +4066,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "comma",
           "package": "liquid-fixpoint",
@@ -3757,6 +4079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "condIdP",
           "package": "liquid-fixpoint",
@@ -3766,6 +4089,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "condIdP",
           "normalized": "[Char]-\u003e(String-\u003eBool)-\u003eParser String",
@@ -3781,6 +4105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "constantP",
           "package": "liquid-fixpoint",
@@ -3790,6 +4115,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "constantP",
           "package": "liquid-fixpoint",
@@ -3802,6 +4128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "dcolon",
           "package": "liquid-fixpoint",
@@ -3811,6 +4138,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "dcolon",
           "package": "liquid-fixpoint",
@@ -3823,6 +4151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "doParse'",
           "package": "liquid-fixpoint",
@@ -3832,6 +4161,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "doParse'",
           "normalized": "ParsecT String a Identity b-\u003eSourceName-\u003eString-\u003eb",
@@ -3847,6 +4177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "exprP",
           "package": "liquid-fixpoint",
@@ -3856,6 +4187,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "exprP",
           "package": "liquid-fixpoint",
@@ -3868,6 +4200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "fTyConP",
           "package": "liquid-fixpoint",
@@ -3877,6 +4210,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "fTyConP",
           "package": "liquid-fixpoint",
@@ -3890,6 +4224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "freshIntP",
           "package": "liquid-fixpoint",
@@ -3899,6 +4234,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "freshIntP",
           "package": "liquid-fixpoint",
@@ -3912,6 +4248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "integer",
           "package": "liquid-fixpoint",
@@ -3921,6 +4258,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "integer",
           "package": "liquid-fixpoint",
@@ -3933,6 +4271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "lexer",
           "package": "liquid-fixpoint",
@@ -3942,6 +4281,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "lexer",
           "package": "liquid-fixpoint",
@@ -3954,6 +4294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "lowerIdP",
           "package": "liquid-fixpoint",
@@ -3963,6 +4304,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "lowerIdP",
           "package": "liquid-fixpoint",
@@ -3976,6 +4318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "parens",
           "package": "liquid-fixpoint",
@@ -3985,6 +4328,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "parens",
           "normalized": "ParsecT String a Identity b-\u003eParsecT String a Identity b",
@@ -3999,6 +4343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "parseFromFile",
           "package": "liquid-fixpoint",
@@ -4008,6 +4353,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "parseFromFile",
           "normalized": "Parser a-\u003eSourceName-\u003eIO a",
@@ -4023,6 +4369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "predP",
           "package": "liquid-fixpoint",
@@ -4032,6 +4379,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "predP",
           "package": "liquid-fixpoint",
@@ -4045,6 +4393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing Qualifiers ---------------------------------------------\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "qualifierP",
           "package": "liquid-fixpoint",
@@ -4055,6 +4404,7 @@
         "index": {
           "description": "Parsing Qualifiers",
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "qualifierP",
           "package": "liquid-fixpoint",
@@ -4067,6 +4417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "remainderP",
           "package": "liquid-fixpoint",
@@ -4076,6 +4427,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "remainderP",
           "normalized": "ParsecT a b c a-\u003eParsecT a b c(a,a)",
@@ -4090,6 +4442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "reserved",
           "package": "liquid-fixpoint",
@@ -4099,6 +4452,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "reserved",
           "normalized": "String-\u003eParsecT String a Identity()",
@@ -4113,6 +4467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "reservedOp",
           "package": "liquid-fixpoint",
@@ -4122,6 +4477,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "reservedOp",
           "normalized": "String-\u003eParsecT String a Identity()",
@@ -4137,6 +4493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "rr",
           "package": "liquid-fixpoint",
@@ -4146,6 +4503,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "rr",
           "normalized": "String-\u003ea",
@@ -4160,6 +4518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "rr'",
           "package": "liquid-fixpoint",
@@ -4169,6 +4528,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "rr'",
           "normalized": "String-\u003eString-\u003ea",
@@ -4183,6 +4543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "semi",
           "package": "liquid-fixpoint",
@@ -4192,6 +4553,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "semi",
           "package": "liquid-fixpoint",
@@ -4204,6 +4566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "symbolP",
           "package": "liquid-fixpoint",
@@ -4213,6 +4576,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "symbolP",
           "package": "liquid-fixpoint",
@@ -4225,6 +4589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "upperIdP",
           "package": "liquid-fixpoint",
@@ -4234,6 +4599,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "upperIdP",
           "package": "liquid-fixpoint",
@@ -4247,6 +4613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Parse",
           "name": "whiteSpace",
           "package": "liquid-fixpoint",
@@ -4256,6 +4623,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Parse",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Parse",
           "name": "whiteSpace",
           "normalized": "ParsecT String a Identity()",
@@ -4271,6 +4639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.PrettyPrint",
           "name": "PrettyPrint",
           "package": "liquid-fixpoint",
@@ -4279,6 +4648,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint PrettyPrint",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.PrettyPrint",
           "name": "PrettyPrint",
           "package": "liquid-fixpoint",
@@ -4292,6 +4662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.PrettyPrint",
           "name": "PPrint",
           "package": "liquid-fixpoint",
@@ -4300,6 +4671,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint PrettyPrint",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.PrettyPrint",
           "name": "PPrint",
           "package": "liquid-fixpoint",
@@ -4313,6 +4685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.PrettyPrint",
           "name": "andD",
           "package": "liquid-fixpoint",
@@ -4322,6 +4695,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint PrettyPrint",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.PrettyPrint",
           "name": "andD",
           "package": "liquid-fixpoint",
@@ -4334,6 +4708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.PrettyPrint",
           "name": "falseD",
           "package": "liquid-fixpoint",
@@ -4343,6 +4718,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint PrettyPrint",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.PrettyPrint",
           "name": "falseD",
           "package": "liquid-fixpoint",
@@ -4355,6 +4731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.PrettyPrint",
           "name": "orD",
           "package": "liquid-fixpoint",
@@ -4364,6 +4741,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint PrettyPrint",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.PrettyPrint",
           "name": "orD",
           "package": "liquid-fixpoint",
@@ -4376,6 +4754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.PrettyPrint",
           "name": "pprint",
           "package": "liquid-fixpoint",
@@ -4385,6 +4764,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint PrettyPrint",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.PrettyPrint",
           "name": "pprint",
           "normalized": "a-\u003eDoc",
@@ -4399,6 +4779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.PrettyPrint",
           "name": "pprintBin",
           "package": "liquid-fixpoint",
@@ -4408,6 +4789,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint PrettyPrint",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.PrettyPrint",
           "name": "pprintBin",
           "normalized": "Doc-\u003eDoc-\u003e[a]-\u003eDoc",
@@ -4423,6 +4805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.PrettyPrint",
           "name": "showpp",
           "package": "liquid-fixpoint",
@@ -4432,6 +4815,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint PrettyPrint",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.PrettyPrint",
           "name": "showpp",
           "normalized": "a-\u003eString",
@@ -4446,6 +4830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.PrettyPrint",
           "name": "trueD",
           "package": "liquid-fixpoint",
@@ -4455,6 +4840,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint PrettyPrint",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.PrettyPrint",
           "name": "trueD",
           "package": "liquid-fixpoint",
@@ -4468,6 +4854,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module has the functions that perform sort-checking, and related\n operations on Fixpoint expressions and predicates.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Sort",
           "name": "Sort",
           "package": "liquid-fixpoint",
@@ -4477,6 +4864,7 @@
         "index": {
           "description": "This module has the functions that perform sort-checking and related operations on Fixpoint expressions and predicates",
           "hierarchy": "Language Fixpoint Sort",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Sort",
           "name": "Sort",
           "package": "liquid-fixpoint",
@@ -4490,6 +4878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Sort",
           "name": "checkSorted",
           "package": "liquid-fixpoint",
@@ -4499,6 +4888,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Sort",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Sort",
           "name": "checkSorted",
           "normalized": "SEnv Sort-\u003ea-\u003eMaybe Doc",
@@ -4515,6 +4905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecking Refinements -----------------------------------------------\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Sort",
           "name": "checkSortedReft",
           "package": "liquid-fixpoint",
@@ -4525,6 +4916,7 @@
         "index": {
           "description": "Checking Refinements",
           "hierarchy": "Language Fixpoint Sort",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Sort",
           "name": "checkSortedReft",
           "normalized": "SEnv SortedReft-\u003e[Symbol]-\u003eSortedReft-\u003eMaybe Doc",
@@ -4540,6 +4932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Sort",
           "name": "checkSortedReftFull",
           "package": "liquid-fixpoint",
@@ -4549,6 +4942,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Sort",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Sort",
           "name": "checkSortedReftFull",
           "normalized": "SEnv SortedReft-\u003ea-\u003eMaybe Doc",
@@ -4564,6 +4958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Sort",
           "name": "pruneUnsortedReft",
           "package": "liquid-fixpoint",
@@ -4573,6 +4968,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Sort",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Sort",
           "name": "pruneUnsortedReft",
           "normalized": "SEnv Sort-\u003eSortedReft-\u003eSortedReft",
@@ -4589,6 +4985,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the data types, operations and serialization functions \n for representing Fixpoint's implication (i.e. subtyping) and well-formedness \n constraints in Haskell. The actual constraint solving is done by the\n `fixpoint.native` which is written in Ocaml.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Types",
           "package": "liquid-fixpoint",
@@ -4598,6 +4995,7 @@
         "index": {
           "description": "This module contains the data types operations and serialization functions for representing Fixpoint implication i.e subtyping and well-formedness constraints in Haskell The actual constraint solving is done by the fixpoint.native which is written in Ocaml",
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Types",
           "package": "liquid-fixpoint",
@@ -4611,6 +5009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "BindEnv",
           "package": "liquid-fixpoint",
@@ -4619,6 +5018,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "BindEnv",
           "package": "liquid-fixpoint",
@@ -4632,6 +5032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "BindId",
           "package": "liquid-fixpoint",
@@ -4640,6 +5041,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "BindId",
           "package": "liquid-fixpoint",
@@ -4653,6 +5055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Bop",
           "package": "liquid-fixpoint",
@@ -4661,6 +5064,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Bop",
           "package": "liquid-fixpoint",
@@ -4674,6 +5078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Brel",
           "package": "liquid-fixpoint",
@@ -4682,6 +5087,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Brel",
           "package": "liquid-fixpoint",
@@ -4695,6 +5101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Constant",
           "package": "liquid-fixpoint",
@@ -4703,6 +5110,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Constant",
           "package": "liquid-fixpoint",
@@ -4716,6 +5124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Expr",
           "package": "liquid-fixpoint",
@@ -4724,6 +5133,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Expr",
           "package": "liquid-fixpoint",
@@ -4738,6 +5148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues that can be viewed as Expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Expression",
           "package": "liquid-fixpoint",
@@ -4747,6 +5158,7 @@
         "index": {
           "description": "Values that can be viewed as Expressions",
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Expression",
           "package": "liquid-fixpoint",
@@ -4760,6 +5172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "FEnv",
           "package": "liquid-fixpoint",
@@ -4768,6 +5181,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "FEnv",
           "package": "liquid-fixpoint",
@@ -4781,6 +5195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "FInfo",
           "package": "liquid-fixpoint",
@@ -4789,6 +5204,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "FInfo",
           "package": "liquid-fixpoint",
@@ -4802,6 +5218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "FTycon",
           "package": "liquid-fixpoint",
@@ -4810,6 +5227,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "FTycon",
           "package": "liquid-fixpoint",
@@ -4823,6 +5241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "FixResult",
           "package": "liquid-fixpoint",
@@ -4831,6 +5250,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "FixResult",
           "package": "liquid-fixpoint",
@@ -4844,6 +5264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "FixSolution",
           "package": "liquid-fixpoint",
@@ -4852,6 +5273,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "FixSolution",
           "package": "liquid-fixpoint",
@@ -4865,6 +5287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Fixpoint",
           "package": "liquid-fixpoint",
@@ -4873,6 +5296,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Fixpoint",
           "package": "liquid-fixpoint",
@@ -4886,6 +5310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "IBindEnv",
           "package": "liquid-fixpoint",
@@ -4894,6 +5319,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "IBindEnv",
           "package": "liquid-fixpoint",
@@ -4907,6 +5333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Kuts",
           "package": "liquid-fixpoint",
@@ -4915,6 +5342,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Kuts",
           "package": "liquid-fixpoint",
@@ -4928,6 +5356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Pred",
           "package": "liquid-fixpoint",
@@ -4936,6 +5365,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Pred",
           "package": "liquid-fixpoint",
@@ -4950,6 +5380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues that can be viewed as Predicates\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Predicate",
           "package": "liquid-fixpoint",
@@ -4959,6 +5390,7 @@
         "index": {
           "description": "Values that can be viewed as Predicates",
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Predicate",
           "package": "liquid-fixpoint",
@@ -4972,6 +5404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Qualifier",
           "package": "liquid-fixpoint",
@@ -4980,6 +5413,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Qualifier",
           "package": "liquid-fixpoint",
@@ -4993,6 +5427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Refa",
           "package": "liquid-fixpoint",
@@ -5001,6 +5436,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Refa",
           "package": "liquid-fixpoint",
@@ -5014,6 +5450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Reft",
           "package": "liquid-fixpoint",
@@ -5022,6 +5459,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Reft",
           "package": "liquid-fixpoint",
@@ -5036,6 +5474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Class Predicates for Valid Refinements Types ---------------------\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Reftable",
           "package": "liquid-fixpoint",
@@ -5045,6 +5484,7 @@
         "index": {
           "description": "Class Predicates for Valid Refinements Types",
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Reftable",
           "package": "liquid-fixpoint",
@@ -5058,6 +5498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "SESearch",
           "package": "liquid-fixpoint",
@@ -5066,6 +5507,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "SESearch",
           "package": "liquid-fixpoint",
@@ -5079,6 +5521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "SEnv",
           "package": "liquid-fixpoint",
@@ -5087,6 +5530,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "SEnv",
           "package": "liquid-fixpoint",
@@ -5100,6 +5544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Sort",
           "package": "liquid-fixpoint",
@@ -5108,6 +5553,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Sort",
           "package": "liquid-fixpoint",
@@ -5121,6 +5567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "SortedReft",
           "package": "liquid-fixpoint",
@@ -5129,6 +5576,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "SortedReft",
           "package": "liquid-fixpoint",
@@ -5142,6 +5590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "SubC",
           "package": "liquid-fixpoint",
@@ -5150,6 +5599,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "SubC",
           "package": "liquid-fixpoint",
@@ -5163,6 +5613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Subable",
           "package": "liquid-fixpoint",
@@ -5171,6 +5622,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Subable",
           "package": "liquid-fixpoint",
@@ -5184,6 +5636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Subst",
           "package": "liquid-fixpoint",
@@ -5192,6 +5645,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Subst",
           "package": "liquid-fixpoint",
@@ -5206,6 +5660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUninterpreted constants that are embedded as  \u003ca\u003econstant symbol : Str\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "SymConst",
           "package": "liquid-fixpoint",
@@ -5215,6 +5670,7 @@
         "index": {
           "description": "Uninterpreted constants that are embedded as constant symbol Str",
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "SymConst",
           "package": "liquid-fixpoint",
@@ -5228,6 +5684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Symbol",
           "package": "liquid-fixpoint",
@@ -5236,6 +5693,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Symbol",
           "package": "liquid-fixpoint",
@@ -5250,6 +5708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralizing Symbol, Expression, Predicate into Classes -----------\n\u003c/p\u003e\u003cp\u003eValues that can be viewed as Symbols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Symbolic",
           "package": "liquid-fixpoint",
@@ -5259,6 +5718,7 @@
         "index": {
           "description": "Generalizing Symbol Expression Predicate into Classes Values that can be viewed as Symbols",
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Symbolic",
           "package": "liquid-fixpoint",
@@ -5272,6 +5732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "TCEmb",
           "package": "liquid-fixpoint",
@@ -5280,6 +5741,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "TCEmb",
           "package": "liquid-fixpoint",
@@ -5293,6 +5755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Tag",
           "package": "liquid-fixpoint",
@@ -5301,6 +5764,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Tag",
           "package": "liquid-fixpoint",
@@ -5314,6 +5778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "WfC",
           "package": "liquid-fixpoint",
@@ -5322,6 +5787,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "WfC",
           "package": "liquid-fixpoint",
@@ -5335,6 +5801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Alts",
           "package": "liquid-fixpoint",
@@ -5344,6 +5811,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Alts",
           "normalized": "Alts[Symbol]",
@@ -5359,6 +5827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Crash",
           "package": "liquid-fixpoint",
@@ -5368,6 +5837,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Crash",
           "normalized": "Crash[a]String",
@@ -5383,6 +5853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Div",
           "package": "liquid-fixpoint",
@@ -5392,6 +5863,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Div",
           "package": "liquid-fixpoint",
@@ -5405,6 +5877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "EApp",
           "package": "liquid-fixpoint",
@@ -5414,6 +5887,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "EApp",
           "normalized": "EApp Symbol[Expr]",
@@ -5429,6 +5903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "EBin",
           "package": "liquid-fixpoint",
@@ -5438,6 +5913,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "EBin",
           "package": "liquid-fixpoint",
@@ -5451,6 +5927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "EBot",
           "package": "liquid-fixpoint",
@@ -5460,6 +5937,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "EBot",
           "package": "liquid-fixpoint",
@@ -5473,6 +5951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "ECon",
           "package": "liquid-fixpoint",
@@ -5482,6 +5961,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "ECon",
           "package": "liquid-fixpoint",
@@ -5495,6 +5975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "ECst",
           "package": "liquid-fixpoint",
@@ -5504,6 +5985,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "ECst",
           "package": "liquid-fixpoint",
@@ -5517,6 +5999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "EIte",
           "package": "liquid-fixpoint",
@@ -5526,6 +6009,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "EIte",
           "package": "liquid-fixpoint",
@@ -5539,6 +6023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "ELit",
           "package": "liquid-fixpoint",
@@ -5548,6 +6033,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "ELit",
           "package": "liquid-fixpoint",
@@ -5561,6 +6047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "ESym",
           "package": "liquid-fixpoint",
@@ -5570,6 +6057,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "ESym",
           "package": "liquid-fixpoint",
@@ -5583,6 +6071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "EVar",
           "package": "liquid-fixpoint",
@@ -5592,6 +6081,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "EVar",
           "package": "liquid-fixpoint",
@@ -5605,6 +6095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Eq",
           "package": "liquid-fixpoint",
@@ -5614,6 +6105,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Eq",
           "package": "liquid-fixpoint",
@@ -5628,6 +6120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstructed type \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "FApp",
           "package": "liquid-fixpoint",
@@ -5638,6 +6131,7 @@
         "index": {
           "description": "constructed type",
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "FApp",
           "normalized": "FApp FTycon[Sort]",
@@ -5654,6 +6148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype-var arity, in-ts ++ [out-t]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "FFunc",
           "package": "liquid-fixpoint",
@@ -5664,6 +6159,7 @@
         "index": {
           "description": "type-var arity in-ts out-t",
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "FFunc",
           "normalized": "FFunc Int[Sort]",
@@ -5679,6 +6175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "FI",
           "package": "liquid-fixpoint",
@@ -5688,6 +6185,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "FI",
           "package": "liquid-fixpoint",
@@ -5701,6 +6199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "FInt",
           "package": "liquid-fixpoint",
@@ -5710,6 +6209,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "FInt",
           "package": "liquid-fixpoint",
@@ -5724,6 +6224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumeric kind for Num tyvars\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "FNum",
           "package": "liquid-fixpoint",
@@ -5734,6 +6235,7 @@
         "index": {
           "description": "numeric kind for Num tyvars",
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "FNum",
           "package": "liquid-fixpoint",
@@ -5748,6 +6250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euninterpreted type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "FObj",
           "package": "liquid-fixpoint",
@@ -5758,6 +6261,7 @@
         "index": {
           "description": "uninterpreted type",
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "FObj",
           "package": "liquid-fixpoint",
@@ -5772,6 +6276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efixpoint type variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "FVar",
           "package": "liquid-fixpoint",
@@ -5782,6 +6287,7 @@
         "index": {
           "description": "fixpoint type variable",
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "FVar",
           "package": "liquid-fixpoint",
@@ -5795,6 +6301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Found",
           "package": "liquid-fixpoint",
@@ -5804,6 +6311,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Found",
           "package": "liquid-fixpoint",
@@ -5817,6 +6325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Ge",
           "package": "liquid-fixpoint",
@@ -5826,6 +6335,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Ge",
           "package": "liquid-fixpoint",
@@ -5839,6 +6349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Gt",
           "package": "liquid-fixpoint",
@@ -5848,6 +6359,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Gt",
           "package": "liquid-fixpoint",
@@ -5861,6 +6373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "I",
           "package": "liquid-fixpoint",
@@ -5870,6 +6383,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "I",
           "package": "liquid-fixpoint",
@@ -5882,6 +6396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "KS",
           "package": "liquid-fixpoint",
@@ -5891,6 +6406,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "KS",
           "package": "liquid-fixpoint",
@@ -5904,6 +6420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Le",
           "package": "liquid-fixpoint",
@@ -5913,6 +6430,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Le",
           "package": "liquid-fixpoint",
@@ -5926,6 +6444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Lt",
           "package": "liquid-fixpoint",
@@ -5935,6 +6454,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Lt",
           "package": "liquid-fixpoint",
@@ -5948,6 +6468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Minus",
           "package": "liquid-fixpoint",
@@ -5957,6 +6478,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Minus",
           "package": "liquid-fixpoint",
@@ -5970,6 +6492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Mod",
           "package": "liquid-fixpoint",
@@ -5979,6 +6502,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Mod",
           "package": "liquid-fixpoint",
@@ -5992,6 +6516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Ne",
           "package": "liquid-fixpoint",
@@ -6001,6 +6526,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Ne",
           "package": "liquid-fixpoint",
@@ -6014,6 +6540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "PAll",
           "package": "liquid-fixpoint",
@@ -6023,6 +6550,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "PAll",
           "normalized": "PAll[(Symbol,Sort)]Pred",
@@ -6038,6 +6566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "PAnd",
           "package": "liquid-fixpoint",
@@ -6047,6 +6576,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "PAnd",
           "normalized": "PAnd[Pred]",
@@ -6062,6 +6592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "PAtom",
           "package": "liquid-fixpoint",
@@ -6071,6 +6602,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "PAtom",
           "package": "liquid-fixpoint",
@@ -6084,6 +6616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "PBexp",
           "package": "liquid-fixpoint",
@@ -6093,6 +6626,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "PBexp",
           "package": "liquid-fixpoint",
@@ -6106,6 +6640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "PFalse",
           "package": "liquid-fixpoint",
@@ -6115,6 +6650,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "PFalse",
           "package": "liquid-fixpoint",
@@ -6128,6 +6664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "PIff",
           "package": "liquid-fixpoint",
@@ -6137,6 +6674,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "PIff",
           "package": "liquid-fixpoint",
@@ -6150,6 +6688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "PImp",
           "package": "liquid-fixpoint",
@@ -6159,6 +6698,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "PImp",
           "package": "liquid-fixpoint",
@@ -6172,6 +6712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "PNot",
           "package": "liquid-fixpoint",
@@ -6181,6 +6722,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "PNot",
           "package": "liquid-fixpoint",
@@ -6194,6 +6736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "POr",
           "package": "liquid-fixpoint",
@@ -6203,6 +6746,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "POr",
           "normalized": "POr[Pred]",
@@ -6218,6 +6762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "PTop",
           "package": "liquid-fixpoint",
@@ -6227,6 +6772,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "PTop",
           "package": "liquid-fixpoint",
@@ -6240,6 +6786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "PTrue",
           "package": "liquid-fixpoint",
@@ -6249,6 +6796,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "PTrue",
           "package": "liquid-fixpoint",
@@ -6262,6 +6810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Plus",
           "package": "liquid-fixpoint",
@@ -6271,6 +6820,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Plus",
           "package": "liquid-fixpoint",
@@ -6284,6 +6834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Q",
           "package": "liquid-fixpoint",
@@ -6293,6 +6844,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Q",
           "package": "liquid-fixpoint",
@@ -6305,6 +6857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "RConc",
           "package": "liquid-fixpoint",
@@ -6314,6 +6867,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "RConc",
           "package": "liquid-fixpoint",
@@ -6327,6 +6881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "RKvar",
           "package": "liquid-fixpoint",
@@ -6336,6 +6891,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "RKvar",
           "package": "liquid-fixpoint",
@@ -6349,6 +6905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "RR",
           "package": "liquid-fixpoint",
@@ -6358,6 +6915,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "RR",
           "package": "liquid-fixpoint",
@@ -6371,6 +6929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Reft",
           "package": "liquid-fixpoint",
@@ -6380,6 +6939,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Reft",
           "normalized": "Reft(Symbol,[Refa])",
@@ -6395,6 +6955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "S",
           "package": "liquid-fixpoint",
@@ -6404,6 +6965,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "S",
           "package": "liquid-fixpoint",
@@ -6416,6 +6978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "SL",
           "package": "liquid-fixpoint",
@@ -6425,6 +6988,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "SL",
           "package": "liquid-fixpoint",
@@ -6438,6 +7002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Safe",
           "package": "liquid-fixpoint",
@@ -6447,6 +7012,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Safe",
           "package": "liquid-fixpoint",
@@ -6460,6 +7026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Times",
           "package": "liquid-fixpoint",
@@ -6469,6 +7036,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Times",
           "package": "liquid-fixpoint",
@@ -6482,6 +7050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "UnknownError",
           "package": "liquid-fixpoint",
@@ -6491,6 +7060,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "UnknownError",
           "package": "liquid-fixpoint",
@@ -6504,6 +7074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "Unsafe",
           "package": "liquid-fixpoint",
@@ -6513,6 +7084,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "Unsafe",
           "normalized": "Unsafe[a]",
@@ -6528,6 +7100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "addIds",
           "package": "liquid-fixpoint",
@@ -6537,6 +7110,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "addIds",
           "normalized": "[SubC a]-\u003e[(Integer,SubC a)]",
@@ -6552,6 +7126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "anfPrefix",
           "package": "liquid-fixpoint",
@@ -6561,6 +7136,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "anfPrefix",
           "normalized": "[Char]",
@@ -6576,6 +7152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "boolFTyCon",
           "package": "liquid-fixpoint",
@@ -6585,6 +7162,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "boolFTyCon",
           "package": "liquid-fixpoint",
@@ -6599,6 +7177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshould also refactor \u003ccode\u003e\u003ca\u003etop\u003c/a\u003e\u003c/code\u003e so it takes a parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "bot",
           "package": "liquid-fixpoint",
@@ -6609,6 +7188,7 @@
         "index": {
           "description": "should also refactor top so it takes parameter",
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "bot",
           "normalized": "a-\u003ea",
@@ -6623,6 +7203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "bs",
           "package": "liquid-fixpoint",
@@ -6632,6 +7213,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "bs",
           "package": "liquid-fixpoint",
@@ -6644,6 +7226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "catSubst",
           "package": "liquid-fixpoint",
@@ -6653,6 +7236,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "catSubst",
           "normalized": "Subst-\u003eSubst-\u003eSubst",
@@ -6668,6 +7252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "cm",
           "package": "liquid-fixpoint",
@@ -6677,6 +7262,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "cm",
           "package": "liquid-fixpoint",
@@ -6689,6 +7275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "colorResult",
           "package": "liquid-fixpoint",
@@ -6698,6 +7285,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "colorResult",
           "normalized": "FixResult a-\u003eMoods",
@@ -6713,6 +7301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "deleteIBindEnv",
           "package": "liquid-fixpoint",
@@ -6722,6 +7311,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "deleteIBindEnv",
           "normalized": "BindId-\u003eIBindEnv-\u003eIBindEnv",
@@ -6737,6 +7327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "deleteSEnv",
           "package": "liquid-fixpoint",
@@ -6746,6 +7337,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "deleteSEnv",
           "normalized": "Symbol-\u003eSEnv a-\u003eSEnv a",
@@ -6761,6 +7353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "dummySymbol",
           "package": "liquid-fixpoint",
@@ -6770,6 +7363,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "dummySymbol",
           "package": "liquid-fixpoint",
@@ -6783,6 +7377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "eProp",
           "package": "liquid-fixpoint",
@@ -6792,6 +7387,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "eProp",
           "normalized": "a-\u003ePred",
@@ -6807,6 +7403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "eVar",
           "package": "liquid-fixpoint",
@@ -6816,6 +7413,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "eVar",
           "normalized": "a-\u003eExpr",
@@ -6831,6 +7429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "emptyBindEnv",
           "package": "liquid-fixpoint",
@@ -6840,6 +7439,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "emptyBindEnv",
           "package": "liquid-fixpoint",
@@ -6854,6 +7454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctions for Indexed Bind Environment \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "emptyIBindEnv",
           "package": "liquid-fixpoint",
@@ -6864,6 +7465,7 @@
         "index": {
           "description": "Functions for Indexed Bind Environment",
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "emptyIBindEnv",
           "package": "liquid-fixpoint",
@@ -6877,6 +7479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "emptySEnv",
           "package": "liquid-fixpoint",
@@ -6886,6 +7489,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "emptySEnv",
           "package": "liquid-fixpoint",
@@ -6899,6 +7503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "emptySubst",
           "package": "liquid-fixpoint",
@@ -6908,6 +7513,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "emptySubst",
           "package": "liquid-fixpoint",
@@ -6921,6 +7527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "expr",
           "package": "liquid-fixpoint",
@@ -6930,6 +7537,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "expr",
           "normalized": "a-\u003eExpr",
@@ -6944,6 +7552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "exprReft",
           "package": "liquid-fixpoint",
@@ -6953,6 +7562,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "exprReft",
           "normalized": "a-\u003eReft",
@@ -6968,6 +7578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "fTyconString",
           "package": "liquid-fixpoint",
@@ -6977,6 +7588,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "fTyconString",
           "normalized": "FTycon-\u003eString",
@@ -6992,6 +7604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "filterSEnv",
           "package": "liquid-fixpoint",
@@ -7001,6 +7614,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "filterSEnv",
           "normalized": "(a-\u003eBool)-\u003eSEnv a-\u003eSEnv a",
@@ -7016,6 +7630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "flattenRefas",
           "package": "liquid-fixpoint",
@@ -7025,6 +7640,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "flattenRefas",
           "normalized": "[Refa]-\u003e[Refa]",
@@ -7040,6 +7656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "fromListSEnv",
           "package": "liquid-fixpoint",
@@ -7049,6 +7666,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "fromListSEnv",
           "normalized": "[(Symbol,a)]-\u003eSEnv a",
@@ -7064,6 +7682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "gs",
           "package": "liquid-fixpoint",
@@ -7073,6 +7692,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "gs",
           "package": "liquid-fixpoint",
@@ -7086,6 +7706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctions for Global Binder Environment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "insertBindEnv",
           "package": "liquid-fixpoint",
@@ -7096,6 +7717,7 @@
         "index": {
           "description": "Functions for Global Binder Environment",
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "insertBindEnv",
           "normalized": "Symbol-\u003eSortedReft-\u003eBindEnv-\u003e(BindId,BindEnv)",
@@ -7111,6 +7733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "insertFEnv",
           "package": "liquid-fixpoint",
@@ -7120,6 +7743,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "insertFEnv",
           "normalized": "Symbol-\u003ea-\u003eSEnv a-\u003eSEnv a",
@@ -7135,6 +7759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "insertSEnv",
           "package": "liquid-fixpoint",
@@ -7144,6 +7769,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "insertSEnv",
           "normalized": "Symbol-\u003ea-\u003eSEnv a-\u003eSEnv a",
@@ -7159,6 +7785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "insertsIBindEnv",
           "package": "liquid-fixpoint",
@@ -7168,6 +7795,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "insertsIBindEnv",
           "normalized": "[BindId]-\u003eIBindEnv-\u003eIBindEnv",
@@ -7183,6 +7811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "intFTyCon",
           "package": "liquid-fixpoint",
@@ -7192,6 +7821,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "intFTyCon",
           "package": "liquid-fixpoint",
@@ -7205,6 +7835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "intKvar",
           "package": "liquid-fixpoint",
@@ -7214,6 +7845,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "intKvar",
           "normalized": "Integer-\u003eSymbol",
@@ -7229,6 +7861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "intSymbol",
           "package": "liquid-fixpoint",
@@ -7238,6 +7871,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "intSymbol",
           "normalized": "[Char]-\u003ea-\u003eSymbol",
@@ -7253,6 +7887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "intersectWithSEnv",
           "package": "liquid-fixpoint",
@@ -7262,6 +7897,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "intersectWithSEnv",
           "normalized": "(a-\u003ea-\u003eb)-\u003eSEnv a-\u003eSEnv a-\u003eSEnv b",
@@ -7277,6 +7913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "isEVar",
           "package": "liquid-fixpoint",
@@ -7286,6 +7923,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "isEVar",
           "normalized": "Expr-\u003eBool",
@@ -7301,6 +7939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "isFalse",
           "package": "liquid-fixpoint",
@@ -7310,6 +7949,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "isFalse",
           "normalized": "a-\u003eBool",
@@ -7325,6 +7965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "isFunctionSortedReft",
           "package": "liquid-fixpoint",
@@ -7334,6 +7975,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "isFunctionSortedReft",
           "normalized": "SortedReft-\u003eBool",
@@ -7349,6 +7991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "isNonSymbol",
           "package": "liquid-fixpoint",
@@ -7358,6 +8001,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "isNonSymbol",
           "normalized": "Symbol-\u003eBool",
@@ -7373,6 +8017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "isNonTrivialSortedReft",
           "package": "liquid-fixpoint",
@@ -7382,6 +8027,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "isNonTrivialSortedReft",
           "normalized": "SortedReft-\u003eBool",
@@ -7397,6 +8043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "isNontrivialVV",
           "package": "liquid-fixpoint",
@@ -7406,6 +8053,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "isNontrivialVV",
           "normalized": "Symbol-\u003eBool",
@@ -7421,6 +8069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "isSingletonReft",
           "package": "liquid-fixpoint",
@@ -7430,6 +8079,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "isSingletonReft",
           "normalized": "Reft-\u003eMaybe Expr",
@@ -7445,6 +8095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "isTauto",
           "package": "liquid-fixpoint",
@@ -7454,6 +8105,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "isTauto",
           "normalized": "a-\u003eBool",
@@ -7469,6 +8121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "isTautoPred",
           "package": "liquid-fixpoint",
@@ -7478,6 +8131,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "isTautoPred",
           "normalized": "Pred-\u003eBool",
@@ -7493,6 +8147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "isTautoReft",
           "package": "liquid-fixpoint",
@@ -7502,6 +8157,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "isTautoReft",
           "normalized": "Reft-\u003eBool",
@@ -7517,6 +8173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "ksEmpty",
           "package": "liquid-fixpoint",
@@ -7526,6 +8183,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "ksEmpty",
           "package": "liquid-fixpoint",
@@ -7539,6 +8197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "ksUnion",
           "package": "liquid-fixpoint",
@@ -7548,6 +8207,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "ksUnion",
           "normalized": "[Symbol]-\u003eKuts-\u003eKuts",
@@ -7563,6 +8223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "kuts",
           "package": "liquid-fixpoint",
@@ -7572,6 +8233,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "kuts",
           "package": "liquid-fixpoint",
@@ -7584,6 +8246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "lhsCs",
           "package": "liquid-fixpoint",
@@ -7593,6 +8256,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "lhsCs",
           "normalized": "SubC a-\u003eReft",
@@ -7608,6 +8272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "lits",
           "package": "liquid-fixpoint",
@@ -7617,6 +8282,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "lits",
           "normalized": "[(Symbol,Sort)]",
@@ -7631,6 +8297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "lookupSEnv",
           "package": "liquid-fixpoint",
@@ -7640,6 +8307,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "lookupSEnv",
           "normalized": "Symbol-\u003eSEnv a-\u003eMaybe a",
@@ -7655,6 +8323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "lookupSEnvWithDistance",
           "package": "liquid-fixpoint",
@@ -7664,6 +8333,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "lookupSEnvWithDistance",
           "normalized": "Symbol-\u003eSEnv a-\u003eSESearch a",
@@ -7679,6 +8349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "mapSEnv",
           "package": "liquid-fixpoint",
@@ -7688,6 +8359,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "mapSEnv",
           "normalized": "(a-\u003ea)-\u003eSEnv a-\u003eSEnv a",
@@ -7703,6 +8375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "meet",
           "package": "liquid-fixpoint",
@@ -7712,6 +8385,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "meet",
           "normalized": "a-\u003ea-\u003ea",
@@ -7726,6 +8400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "memberSEnv",
           "package": "liquid-fixpoint",
@@ -7735,6 +8410,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "memberSEnv",
           "normalized": "Symbol-\u003eSEnv a-\u003eBool",
@@ -7750,6 +8426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "mkSubst",
           "package": "liquid-fixpoint",
@@ -7759,6 +8436,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "mkSubst",
           "normalized": "[(Symbol,Expr)]-\u003eSubst",
@@ -7774,6 +8452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "nonSymbol",
           "package": "liquid-fixpoint",
@@ -7783,6 +8462,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "nonSymbol",
           "package": "liquid-fixpoint",
@@ -7796,6 +8476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "notExprReft",
           "package": "liquid-fixpoint",
@@ -7805,6 +8486,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "notExprReft",
           "normalized": "a-\u003eReft",
@@ -7820,6 +8502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "pAnd",
           "package": "liquid-fixpoint",
@@ -7829,6 +8512,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "pAnd",
           "normalized": "[Pred]-\u003ePred",
@@ -7844,6 +8528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "pIte",
           "package": "liquid-fixpoint",
@@ -7853,6 +8538,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "pIte",
           "normalized": "Pred-\u003ePred-\u003ePred-\u003ePred",
@@ -7868,6 +8554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "pOr",
           "package": "liquid-fixpoint",
@@ -7877,6 +8564,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "pOr",
           "normalized": "[Pred]-\u003ePred",
@@ -7892,6 +8580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "params",
           "package": "liquid-fixpoint",
@@ -7901,6 +8590,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "params",
           "package": "liquid-fixpoint",
@@ -7913,6 +8603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "ppTy",
           "package": "liquid-fixpoint",
@@ -7922,6 +8613,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "ppTy",
           "normalized": "a-\u003eDoc-\u003eDoc",
@@ -7937,6 +8629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "predReft",
           "package": "liquid-fixpoint",
@@ -7946,6 +8639,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "predReft",
           "normalized": "a-\u003eReft",
@@ -7961,6 +8655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "prop",
           "package": "liquid-fixpoint",
@@ -7970,6 +8665,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "prop",
           "normalized": "a-\u003ePred",
@@ -7984,6 +8680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "propFTyCon",
           "package": "liquid-fixpoint",
@@ -7993,6 +8690,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "propFTyCon",
           "package": "liquid-fixpoint",
@@ -8006,6 +8704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "propReft",
           "package": "liquid-fixpoint",
@@ -8015,6 +8714,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "propReft",
           "normalized": "a-\u003eReft",
@@ -8031,6 +8731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "q_body",
           "package": "liquid-fixpoint",
@@ -8041,6 +8742,7 @@
         "index": {
           "description": "Predicate",
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "q_body",
           "package": "liquid-fixpoint",
@@ -8054,6 +8756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "q_name",
           "package": "liquid-fixpoint",
@@ -8064,6 +8767,7 @@
         "index": {
           "description": "Name",
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "q_name",
           "package": "liquid-fixpoint",
@@ -8077,6 +8781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "q_params",
           "package": "liquid-fixpoint",
@@ -8087,6 +8792,7 @@
         "index": {
           "description": "Parameters",
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "q_params",
           "normalized": "[(Symbol,Sort)]",
@@ -8101,6 +8807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "qualifySymbol",
           "package": "liquid-fixpoint",
@@ -8110,6 +8817,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "qualifySymbol",
           "normalized": "[Char]-\u003eSymbol-\u003eSymbol",
@@ -8125,6 +8833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "quals",
           "package": "liquid-fixpoint",
@@ -8134,6 +8843,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "quals",
           "normalized": "[Qualifier]",
@@ -8148,6 +8858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "reftKVars",
           "package": "liquid-fixpoint",
@@ -8157,6 +8868,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "reftKVars",
           "normalized": "Reft-\u003e[Symbol]",
@@ -8172,6 +8884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "removeLhsKvars",
           "package": "liquid-fixpoint",
@@ -8181,6 +8894,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "removeLhsKvars",
           "normalized": "SubC a-\u003e[Symbol]-\u003eSubC a",
@@ -8196,6 +8910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "resultDoc",
           "package": "liquid-fixpoint",
@@ -8205,6 +8920,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "resultDoc",
           "normalized": "FixResult a-\u003eDoc",
@@ -8220,6 +8936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "rhsCs",
           "package": "liquid-fixpoint",
@@ -8229,6 +8946,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "rhsCs",
           "normalized": "SubC a-\u003eReft",
@@ -8244,6 +8962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "shiftVV",
           "package": "liquid-fixpoint",
@@ -8253,6 +8972,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "shiftVV",
           "normalized": "Reft-\u003eSymbol-\u003eReft",
@@ -8268,6 +8988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "showFix",
           "package": "liquid-fixpoint",
@@ -8277,6 +8998,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "showFix",
           "normalized": "a-\u003eString",
@@ -8292,6 +9014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "simplify",
           "package": "liquid-fixpoint",
@@ -8301,6 +9024,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "simplify",
           "normalized": "a-\u003ea",
@@ -8315,6 +9039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "sinfo",
           "package": "liquid-fixpoint",
@@ -8324,6 +9049,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "sinfo",
           "normalized": "SubC a-\u003ea",
@@ -8338,6 +9064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "sortSubst",
           "package": "liquid-fixpoint",
@@ -8347,6 +9074,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "sortSubst",
           "normalized": "HashMap Symbol Sort-\u003eSort-\u003eSort",
@@ -8362,6 +9090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "squishRefas",
           "package": "liquid-fixpoint",
@@ -8371,6 +9100,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "squishRefas",
           "normalized": "[Refa]-\u003e[Refa]",
@@ -8386,6 +9116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "sr_reft",
           "package": "liquid-fixpoint",
@@ -8395,6 +9126,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "sr_reft",
           "package": "liquid-fixpoint",
@@ -8407,6 +9139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "sr_sort",
           "package": "liquid-fixpoint",
@@ -8416,6 +9149,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "sr_sort",
           "package": "liquid-fixpoint",
@@ -8428,6 +9162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "strFTyCon",
           "package": "liquid-fixpoint",
@@ -8437,6 +9172,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "strFTyCon",
           "package": "liquid-fixpoint",
@@ -8450,6 +9186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "stringFTycon",
           "package": "liquid-fixpoint",
@@ -8459,6 +9196,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "stringFTycon",
           "normalized": "String-\u003eFTycon",
@@ -8474,6 +9212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "stringSymbol",
           "package": "liquid-fixpoint",
@@ -8483,6 +9222,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "stringSymbol",
           "normalized": "String-\u003eSymbol",
@@ -8498,6 +9238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "stringSymbolRaw",
           "package": "liquid-fixpoint",
@@ -8507,6 +9248,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "stringSymbolRaw",
           "normalized": "String-\u003eSymbol",
@@ -8522,6 +9264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "subC",
           "package": "liquid-fixpoint",
@@ -8531,6 +9274,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "subC",
           "normalized": "IBindEnv-\u003ePred-\u003eSortedReft-\u003eSortedReft-\u003eMaybe Integer-\u003eTag-\u003ea-\u003eSubC a",
@@ -8545,6 +9289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "subst",
           "package": "liquid-fixpoint",
@@ -8554,6 +9299,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "subst",
           "normalized": "Subst-\u003ea-\u003ea",
@@ -8568,6 +9314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "subst1",
           "package": "liquid-fixpoint",
@@ -8577,6 +9324,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "subst1",
           "normalized": "a-\u003e(Symbol,Expr)-\u003ea",
@@ -8591,6 +9339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "subst1Except",
           "package": "liquid-fixpoint",
@@ -8600,6 +9349,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "subst1Except",
           "normalized": "[Symbol]-\u003ea-\u003e(Symbol,Expr)-\u003ea",
@@ -8615,6 +9365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "substExcept",
           "package": "liquid-fixpoint",
@@ -8624,6 +9375,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "substExcept",
           "normalized": "Subst-\u003e[Symbol]-\u003eSubst",
@@ -8639,6 +9391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "substa",
           "package": "liquid-fixpoint",
@@ -8648,6 +9401,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "substa",
           "normalized": "(Symbol-\u003eSymbol)-\u003ea-\u003ea",
@@ -8662,6 +9416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "substf",
           "package": "liquid-fixpoint",
@@ -8671,6 +9426,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "substf",
           "normalized": "(Symbol-\u003eExpr)-\u003ea-\u003ea",
@@ -8685,6 +9441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "substfExcept",
           "package": "liquid-fixpoint",
@@ -8694,6 +9451,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "substfExcept",
           "normalized": "(Symbol-\u003eExpr)-\u003e[Symbol]-\u003eSymbol-\u003eExpr",
@@ -8709,6 +9467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "suffixSymbol",
           "package": "liquid-fixpoint",
@@ -8718,6 +9477,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "suffixSymbol",
           "normalized": "Symbol-\u003e[Char]-\u003eSymbol",
@@ -8733,6 +9493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "symChars",
           "package": "liquid-fixpoint",
@@ -8742,6 +9503,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "symChars",
           "normalized": "[Char]",
@@ -8757,6 +9519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "symbol",
           "package": "liquid-fixpoint",
@@ -8766,6 +9529,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "symbol",
           "normalized": "a-\u003eSymbol",
@@ -8780,6 +9544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "symbolReft",
           "package": "liquid-fixpoint",
@@ -8789,6 +9554,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "symbolReft",
           "normalized": "a-\u003eReft",
@@ -8804,6 +9570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "symbolString",
           "package": "liquid-fixpoint",
@@ -8813,6 +9580,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "symbolString",
           "normalized": "Symbol-\u003eString",
@@ -8828,6 +9596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "syms",
           "package": "liquid-fixpoint",
@@ -8837,6 +9606,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "syms",
           "normalized": "a-\u003e[Symbol]",
@@ -8851,6 +9621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "tempPrefix",
           "package": "liquid-fixpoint",
@@ -8860,6 +9631,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "tempPrefix",
           "normalized": "[Char]",
@@ -8875,6 +9647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "tempSymbol",
           "package": "liquid-fixpoint",
@@ -8884,6 +9657,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "tempSymbol",
           "normalized": "String-\u003eInteger-\u003eSymbol",
@@ -8899,6 +9673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "toFix",
           "package": "liquid-fixpoint",
@@ -8908,6 +9683,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "toFix",
           "normalized": "a-\u003eDoc",
@@ -8923,6 +9699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "toFixpoint",
           "package": "liquid-fixpoint",
@@ -8932,6 +9709,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "toFixpoint",
           "normalized": "FInfo a-\u003eDoc",
@@ -8947,6 +9725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "toListSEnv",
           "package": "liquid-fixpoint",
@@ -8956,6 +9735,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "toListSEnv",
           "normalized": "SEnv a-\u003e[(Symbol,a)]",
@@ -8971,6 +9751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "toReft",
           "package": "liquid-fixpoint",
@@ -8980,6 +9761,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "toReft",
           "normalized": "a-\u003eReft",
@@ -8995,6 +9777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "top",
           "package": "liquid-fixpoint",
@@ -9004,6 +9787,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "top",
           "package": "liquid-fixpoint",
@@ -9016,6 +9800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "traceFix",
           "package": "liquid-fixpoint",
@@ -9025,6 +9810,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "traceFix",
           "normalized": "String-\u003ea-\u003ea",
@@ -9040,6 +9826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "trueRefa",
           "package": "liquid-fixpoint",
@@ -9049,6 +9836,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "trueRefa",
           "package": "liquid-fixpoint",
@@ -9062,6 +9850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "trueSortedReft",
           "package": "liquid-fixpoint",
@@ -9071,6 +9860,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "trueSortedReft",
           "normalized": "Sort-\u003eSortedReft",
@@ -9086,6 +9876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "trueSubCKvar",
           "package": "liquid-fixpoint",
@@ -9095,6 +9886,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "trueSubCKvar",
           "normalized": "Symbol-\u003ea-\u003eSubC a",
@@ -9110,6 +9902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "vv",
           "package": "liquid-fixpoint",
@@ -9119,6 +9912,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "vv",
           "normalized": "Maybe Integer-\u003eSymbol",
@@ -9133,6 +9927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "wfC",
           "package": "liquid-fixpoint",
@@ -9142,6 +9937,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "wfC",
           "normalized": "IBindEnv-\u003eSortedReft-\u003eMaybe Integer-\u003ea-\u003eWfC a",
@@ -9156,6 +9952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:10:33 UTC 2014",
           "module": "Language.Fixpoint.Types",
           "name": "ws",
           "package": "liquid-fixpoint",
@@ -9165,6 +9962,7 @@
         },
         "index": {
           "hierarchy": "Language Fixpoint Types",
+          "indexed": "2014-03-11T19:10:33",
           "module": "Language.Fixpoint.Types",
           "name": "ws",
           "normalized": "[WfC a]",

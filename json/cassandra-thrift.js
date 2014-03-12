@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cassandra-thrift"
+        "phrase": "cassandra-thrift",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Cassandra",
           "package": "cassandra-thrift",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Cassandra",
           "package": "cassandra-thrift",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Add_args",
           "package": "cassandra-thrift",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Add_args",
           "package": "cassandra-thrift",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Add_result",
           "package": "cassandra-thrift",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Add_result",
           "package": "cassandra-thrift",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Batch_mutate_args",
           "package": "cassandra-thrift",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Batch_mutate_args",
           "package": "cassandra-thrift",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Batch_mutate_result",
           "package": "cassandra-thrift",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Batch_mutate_result",
           "package": "cassandra-thrift",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_cluster_name_args",
           "package": "cassandra-thrift",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_cluster_name_args",
           "package": "cassandra-thrift",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_cluster_name_result",
           "package": "cassandra-thrift",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_cluster_name_result",
           "package": "cassandra-thrift",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_keyspace_args",
           "package": "cassandra-thrift",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_keyspace_args",
           "package": "cassandra-thrift",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_keyspace_result",
           "package": "cassandra-thrift",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_keyspace_result",
           "package": "cassandra-thrift",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_keyspaces_args",
           "package": "cassandra-thrift",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_keyspaces_args",
           "package": "cassandra-thrift",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_keyspaces_result",
           "package": "cassandra-thrift",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_keyspaces_result",
           "package": "cassandra-thrift",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_partitioner_args",
           "package": "cassandra-thrift",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_partitioner_args",
           "package": "cassandra-thrift",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_partitioner_result",
           "package": "cassandra-thrift",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_partitioner_result",
           "package": "cassandra-thrift",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_ring_args",
           "package": "cassandra-thrift",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_ring_args",
           "package": "cassandra-thrift",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_ring_result",
           "package": "cassandra-thrift",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_ring_result",
           "package": "cassandra-thrift",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_schema_versions_args",
           "package": "cassandra-thrift",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_schema_versions_args",
           "package": "cassandra-thrift",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_schema_versions_result",
           "package": "cassandra-thrift",
@@ -362,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_schema_versions_result",
           "package": "cassandra-thrift",
@@ -375,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_snitch_args",
           "package": "cassandra-thrift",
@@ -383,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_snitch_args",
           "package": "cassandra-thrift",
@@ -396,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_snitch_result",
           "package": "cassandra-thrift",
@@ -404,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_snitch_result",
           "package": "cassandra-thrift",
@@ -417,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_splits_args",
           "package": "cassandra-thrift",
@@ -425,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_splits_args",
           "package": "cassandra-thrift",
@@ -438,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_splits_result",
           "package": "cassandra-thrift",
@@ -446,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_splits_result",
           "package": "cassandra-thrift",
@@ -459,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_version_args",
           "package": "cassandra-thrift",
@@ -467,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_version_args",
           "package": "cassandra-thrift",
@@ -480,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_version_result",
           "package": "cassandra-thrift",
@@ -488,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_version_result",
           "package": "cassandra-thrift",
@@ -501,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Execute_cql_query_args",
           "package": "cassandra-thrift",
@@ -509,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Execute_cql_query_args",
           "package": "cassandra-thrift",
@@ -522,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Execute_cql_query_result",
           "package": "cassandra-thrift",
@@ -530,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Execute_cql_query_result",
           "package": "cassandra-thrift",
@@ -543,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_args",
           "package": "cassandra-thrift",
@@ -551,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_args",
           "package": "cassandra-thrift",
@@ -564,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_count_args",
           "package": "cassandra-thrift",
@@ -572,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_count_args",
           "package": "cassandra-thrift",
@@ -585,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_count_result",
           "package": "cassandra-thrift",
@@ -593,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_count_result",
           "package": "cassandra-thrift",
@@ -606,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_indexed_slices_args",
           "package": "cassandra-thrift",
@@ -614,6 +671,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_indexed_slices_args",
           "package": "cassandra-thrift",
@@ -627,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_indexed_slices_result",
           "package": "cassandra-thrift",
@@ -635,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_indexed_slices_result",
           "package": "cassandra-thrift",
@@ -648,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_range_slices_args",
           "package": "cassandra-thrift",
@@ -656,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_range_slices_args",
           "package": "cassandra-thrift",
@@ -669,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_range_slices_result",
           "package": "cassandra-thrift",
@@ -677,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_range_slices_result",
           "package": "cassandra-thrift",
@@ -690,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_result",
           "package": "cassandra-thrift",
@@ -698,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_result",
           "package": "cassandra-thrift",
@@ -711,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_slice_args",
           "package": "cassandra-thrift",
@@ -719,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_slice_args",
           "package": "cassandra-thrift",
@@ -732,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_slice_result",
           "package": "cassandra-thrift",
@@ -740,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_slice_result",
           "package": "cassandra-thrift",
@@ -753,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Insert_args",
           "package": "cassandra-thrift",
@@ -761,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Insert_args",
           "package": "cassandra-thrift",
@@ -774,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Insert_result",
           "package": "cassandra-thrift",
@@ -782,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Insert_result",
           "package": "cassandra-thrift",
@@ -795,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Login_args",
           "package": "cassandra-thrift",
@@ -803,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Login_args",
           "package": "cassandra-thrift",
@@ -816,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Login_result",
           "package": "cassandra-thrift",
@@ -824,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Login_result",
           "package": "cassandra-thrift",
@@ -837,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Multiget_count_args",
           "package": "cassandra-thrift",
@@ -845,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Multiget_count_args",
           "package": "cassandra-thrift",
@@ -858,6 +938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Multiget_count_result",
           "package": "cassandra-thrift",
@@ -866,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Multiget_count_result",
           "package": "cassandra-thrift",
@@ -879,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Multiget_slice_args",
           "package": "cassandra-thrift",
@@ -887,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Multiget_slice_args",
           "package": "cassandra-thrift",
@@ -900,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Multiget_slice_result",
           "package": "cassandra-thrift",
@@ -908,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Multiget_slice_result",
           "package": "cassandra-thrift",
@@ -921,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Remove_args",
           "package": "cassandra-thrift",
@@ -929,6 +1016,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Remove_args",
           "package": "cassandra-thrift",
@@ -942,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Remove_counter_args",
           "package": "cassandra-thrift",
@@ -950,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Remove_counter_args",
           "package": "cassandra-thrift",
@@ -963,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Remove_counter_result",
           "package": "cassandra-thrift",
@@ -971,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Remove_counter_result",
           "package": "cassandra-thrift",
@@ -984,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Remove_result",
           "package": "cassandra-thrift",
@@ -992,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Remove_result",
           "package": "cassandra-thrift",
@@ -1005,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Set_keyspace_args",
           "package": "cassandra-thrift",
@@ -1013,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Set_keyspace_args",
           "package": "cassandra-thrift",
@@ -1026,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Set_keyspace_result",
           "package": "cassandra-thrift",
@@ -1034,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Set_keyspace_result",
           "package": "cassandra-thrift",
@@ -1047,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_add_column_family_args",
           "package": "cassandra-thrift",
@@ -1055,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_add_column_family_args",
           "package": "cassandra-thrift",
@@ -1068,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_add_column_family_result",
           "package": "cassandra-thrift",
@@ -1076,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_add_column_family_result",
           "package": "cassandra-thrift",
@@ -1089,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_add_keyspace_args",
           "package": "cassandra-thrift",
@@ -1097,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_add_keyspace_args",
           "package": "cassandra-thrift",
@@ -1110,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_add_keyspace_result",
           "package": "cassandra-thrift",
@@ -1118,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_add_keyspace_result",
           "package": "cassandra-thrift",
@@ -1131,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_drop_column_family_args",
           "package": "cassandra-thrift",
@@ -1139,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_drop_column_family_args",
           "package": "cassandra-thrift",
@@ -1152,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_drop_column_family_result",
           "package": "cassandra-thrift",
@@ -1160,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_drop_column_family_result",
           "package": "cassandra-thrift",
@@ -1173,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_drop_keyspace_args",
           "package": "cassandra-thrift",
@@ -1181,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_drop_keyspace_args",
           "package": "cassandra-thrift",
@@ -1194,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_drop_keyspace_result",
           "package": "cassandra-thrift",
@@ -1202,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_drop_keyspace_result",
           "package": "cassandra-thrift",
@@ -1215,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_update_column_family_args",
           "package": "cassandra-thrift",
@@ -1223,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_update_column_family_args",
           "package": "cassandra-thrift",
@@ -1236,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_update_column_family_result",
           "package": "cassandra-thrift",
@@ -1244,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_update_column_family_result",
           "package": "cassandra-thrift",
@@ -1257,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_update_keyspace_args",
           "package": "cassandra-thrift",
@@ -1265,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_update_keyspace_args",
           "package": "cassandra-thrift",
@@ -1278,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_update_keyspace_result",
           "package": "cassandra-thrift",
@@ -1286,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_update_keyspace_result",
           "package": "cassandra-thrift",
@@ -1299,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Truncate_args",
           "package": "cassandra-thrift",
@@ -1307,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Truncate_args",
           "package": "cassandra-thrift",
@@ -1320,6 +1444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Truncate_result",
           "package": "cassandra-thrift",
@@ -1328,6 +1453,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Truncate_result",
           "package": "cassandra-thrift",
@@ -1341,6 +1467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Add_args",
           "package": "cassandra-thrift",
@@ -1350,6 +1477,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Add_args",
           "package": "cassandra-thrift",
@@ -1363,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Add_result",
           "package": "cassandra-thrift",
@@ -1372,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Add_result",
           "package": "cassandra-thrift",
@@ -1385,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Batch_mutate_args",
           "package": "cassandra-thrift",
@@ -1394,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Batch_mutate_args",
           "package": "cassandra-thrift",
@@ -1407,6 +1539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Batch_mutate_result",
           "package": "cassandra-thrift",
@@ -1416,6 +1549,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Batch_mutate_result",
           "package": "cassandra-thrift",
@@ -1429,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_cluster_name_args",
           "package": "cassandra-thrift",
@@ -1438,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_cluster_name_args",
           "package": "cassandra-thrift",
@@ -1451,6 +1587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_cluster_name_result",
           "package": "cassandra-thrift",
@@ -1460,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_cluster_name_result",
           "package": "cassandra-thrift",
@@ -1473,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_keyspace_args",
           "package": "cassandra-thrift",
@@ -1482,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_keyspace_args",
           "package": "cassandra-thrift",
@@ -1495,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_keyspace_result",
           "package": "cassandra-thrift",
@@ -1504,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_keyspace_result",
           "package": "cassandra-thrift",
@@ -1517,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_keyspaces_args",
           "package": "cassandra-thrift",
@@ -1526,6 +1669,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_keyspaces_args",
           "package": "cassandra-thrift",
@@ -1539,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_keyspaces_result",
           "package": "cassandra-thrift",
@@ -1548,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_keyspaces_result",
           "package": "cassandra-thrift",
@@ -1561,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_partitioner_args",
           "package": "cassandra-thrift",
@@ -1570,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_partitioner_args",
           "package": "cassandra-thrift",
@@ -1583,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_partitioner_result",
           "package": "cassandra-thrift",
@@ -1592,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_partitioner_result",
           "package": "cassandra-thrift",
@@ -1605,6 +1755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_ring_args",
           "package": "cassandra-thrift",
@@ -1614,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_ring_args",
           "package": "cassandra-thrift",
@@ -1627,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_ring_result",
           "package": "cassandra-thrift",
@@ -1636,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_ring_result",
           "package": "cassandra-thrift",
@@ -1649,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_schema_versions_args",
           "package": "cassandra-thrift",
@@ -1658,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_schema_versions_args",
           "package": "cassandra-thrift",
@@ -1671,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_schema_versions_result",
           "package": "cassandra-thrift",
@@ -1680,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_schema_versions_result",
           "package": "cassandra-thrift",
@@ -1693,6 +1851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_snitch_args",
           "package": "cassandra-thrift",
@@ -1702,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_snitch_args",
           "package": "cassandra-thrift",
@@ -1715,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_snitch_result",
           "package": "cassandra-thrift",
@@ -1724,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_snitch_result",
           "package": "cassandra-thrift",
@@ -1737,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_splits_args",
           "package": "cassandra-thrift",
@@ -1746,6 +1909,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_splits_args",
           "package": "cassandra-thrift",
@@ -1759,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_splits_result",
           "package": "cassandra-thrift",
@@ -1768,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_splits_result",
           "package": "cassandra-thrift",
@@ -1781,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_version_args",
           "package": "cassandra-thrift",
@@ -1790,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_version_args",
           "package": "cassandra-thrift",
@@ -1803,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_version_result",
           "package": "cassandra-thrift",
@@ -1812,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Describe_version_result",
           "package": "cassandra-thrift",
@@ -1825,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Execute_cql_query_args",
           "package": "cassandra-thrift",
@@ -1834,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Execute_cql_query_args",
           "package": "cassandra-thrift",
@@ -1847,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Execute_cql_query_result",
           "package": "cassandra-thrift",
@@ -1856,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Execute_cql_query_result",
           "package": "cassandra-thrift",
@@ -1869,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_args",
           "package": "cassandra-thrift",
@@ -1878,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_args",
           "package": "cassandra-thrift",
@@ -1891,6 +2067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_count_args",
           "package": "cassandra-thrift",
@@ -1900,6 +2077,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_count_args",
           "package": "cassandra-thrift",
@@ -1913,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_count_result",
           "package": "cassandra-thrift",
@@ -1922,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_count_result",
           "package": "cassandra-thrift",
@@ -1935,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_indexed_slices_args",
           "package": "cassandra-thrift",
@@ -1944,6 +2125,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_indexed_slices_args",
           "package": "cassandra-thrift",
@@ -1957,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_indexed_slices_result",
           "package": "cassandra-thrift",
@@ -1966,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_indexed_slices_result",
           "package": "cassandra-thrift",
@@ -1979,6 +2163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_range_slices_args",
           "package": "cassandra-thrift",
@@ -1988,6 +2173,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_range_slices_args",
           "package": "cassandra-thrift",
@@ -2001,6 +2187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_range_slices_result",
           "package": "cassandra-thrift",
@@ -2010,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_range_slices_result",
           "package": "cassandra-thrift",
@@ -2023,6 +2211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_result",
           "package": "cassandra-thrift",
@@ -2032,6 +2221,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_result",
           "package": "cassandra-thrift",
@@ -2045,6 +2235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_slice_args",
           "package": "cassandra-thrift",
@@ -2054,6 +2245,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_slice_args",
           "package": "cassandra-thrift",
@@ -2067,6 +2259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_slice_result",
           "package": "cassandra-thrift",
@@ -2076,6 +2269,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Get_slice_result",
           "package": "cassandra-thrift",
@@ -2089,6 +2283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Insert_args",
           "package": "cassandra-thrift",
@@ -2098,6 +2293,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Insert_args",
           "package": "cassandra-thrift",
@@ -2111,6 +2307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Insert_result",
           "package": "cassandra-thrift",
@@ -2120,6 +2317,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Insert_result",
           "package": "cassandra-thrift",
@@ -2133,6 +2331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Login_args",
           "package": "cassandra-thrift",
@@ -2142,6 +2341,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Login_args",
           "package": "cassandra-thrift",
@@ -2155,6 +2355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Login_result",
           "package": "cassandra-thrift",
@@ -2164,6 +2365,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Login_result",
           "package": "cassandra-thrift",
@@ -2177,6 +2379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Multiget_count_args",
           "package": "cassandra-thrift",
@@ -2186,6 +2389,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Multiget_count_args",
           "package": "cassandra-thrift",
@@ -2199,6 +2403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Multiget_count_result",
           "package": "cassandra-thrift",
@@ -2208,6 +2413,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Multiget_count_result",
           "package": "cassandra-thrift",
@@ -2221,6 +2427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Multiget_slice_args",
           "package": "cassandra-thrift",
@@ -2230,6 +2437,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Multiget_slice_args",
           "package": "cassandra-thrift",
@@ -2243,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Multiget_slice_result",
           "package": "cassandra-thrift",
@@ -2252,6 +2461,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Multiget_slice_result",
           "package": "cassandra-thrift",
@@ -2265,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Remove_args",
           "package": "cassandra-thrift",
@@ -2274,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Remove_args",
           "package": "cassandra-thrift",
@@ -2287,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Remove_counter_args",
           "package": "cassandra-thrift",
@@ -2296,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Remove_counter_args",
           "package": "cassandra-thrift",
@@ -2309,6 +2523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Remove_counter_result",
           "package": "cassandra-thrift",
@@ -2318,6 +2533,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Remove_counter_result",
           "package": "cassandra-thrift",
@@ -2331,6 +2547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Remove_result",
           "package": "cassandra-thrift",
@@ -2340,6 +2557,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Remove_result",
           "package": "cassandra-thrift",
@@ -2353,6 +2571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Set_keyspace_args",
           "package": "cassandra-thrift",
@@ -2362,6 +2581,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Set_keyspace_args",
           "package": "cassandra-thrift",
@@ -2375,6 +2595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Set_keyspace_result",
           "package": "cassandra-thrift",
@@ -2384,6 +2605,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Set_keyspace_result",
           "package": "cassandra-thrift",
@@ -2397,6 +2619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_add_column_family_args",
           "package": "cassandra-thrift",
@@ -2406,6 +2629,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_add_column_family_args",
           "package": "cassandra-thrift",
@@ -2419,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_add_column_family_result",
           "package": "cassandra-thrift",
@@ -2428,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_add_column_family_result",
           "package": "cassandra-thrift",
@@ -2441,6 +2667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_add_keyspace_args",
           "package": "cassandra-thrift",
@@ -2450,6 +2677,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_add_keyspace_args",
           "package": "cassandra-thrift",
@@ -2463,6 +2691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_add_keyspace_result",
           "package": "cassandra-thrift",
@@ -2472,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_add_keyspace_result",
           "package": "cassandra-thrift",
@@ -2485,6 +2715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_drop_column_family_args",
           "package": "cassandra-thrift",
@@ -2494,6 +2725,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_drop_column_family_args",
           "package": "cassandra-thrift",
@@ -2507,6 +2739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_drop_column_family_result",
           "package": "cassandra-thrift",
@@ -2516,6 +2749,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_drop_column_family_result",
           "package": "cassandra-thrift",
@@ -2529,6 +2763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_drop_keyspace_args",
           "package": "cassandra-thrift",
@@ -2538,6 +2773,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_drop_keyspace_args",
           "package": "cassandra-thrift",
@@ -2551,6 +2787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_drop_keyspace_result",
           "package": "cassandra-thrift",
@@ -2560,6 +2797,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_drop_keyspace_result",
           "package": "cassandra-thrift",
@@ -2573,6 +2811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_update_column_family_args",
           "package": "cassandra-thrift",
@@ -2582,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_update_column_family_args",
           "package": "cassandra-thrift",
@@ -2595,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_update_column_family_result",
           "package": "cassandra-thrift",
@@ -2604,6 +2845,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_update_column_family_result",
           "package": "cassandra-thrift",
@@ -2617,6 +2859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_update_keyspace_args",
           "package": "cassandra-thrift",
@@ -2626,6 +2869,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_update_keyspace_args",
           "package": "cassandra-thrift",
@@ -2639,6 +2883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_update_keyspace_result",
           "package": "cassandra-thrift",
@@ -2648,6 +2893,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "System_update_keyspace_result",
           "package": "cassandra-thrift",
@@ -2661,6 +2907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Truncate_args",
           "package": "cassandra-thrift",
@@ -2670,6 +2917,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Truncate_args",
           "package": "cassandra-thrift",
@@ -2683,6 +2931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Truncate_result",
           "package": "cassandra-thrift",
@@ -2692,6 +2941,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "Truncate_result",
           "package": "cassandra-thrift",
@@ -2705,6 +2955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Add_args_column",
           "package": "cassandra-thrift",
@@ -2714,6 +2965,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Add_args_column",
           "package": "cassandra-thrift",
@@ -2727,6 +2979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Add_args_column_parent",
           "package": "cassandra-thrift",
@@ -2736,6 +2989,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Add_args_column_parent",
           "package": "cassandra-thrift",
@@ -2749,6 +3003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Add_args_consistency_level",
           "package": "cassandra-thrift",
@@ -2758,6 +3013,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Add_args_consistency_level",
           "package": "cassandra-thrift",
@@ -2771,6 +3027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Add_args_key",
           "package": "cassandra-thrift",
@@ -2780,6 +3037,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Add_args_key",
           "package": "cassandra-thrift",
@@ -2793,6 +3051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Add_result_ire",
           "package": "cassandra-thrift",
@@ -2802,6 +3061,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Add_result_ire",
           "package": "cassandra-thrift",
@@ -2815,6 +3075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Add_result_te",
           "package": "cassandra-thrift",
@@ -2824,6 +3085,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Add_result_te",
           "package": "cassandra-thrift",
@@ -2837,6 +3099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Add_result_ue",
           "package": "cassandra-thrift",
@@ -2846,6 +3109,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Add_result_ue",
           "package": "cassandra-thrift",
@@ -2859,6 +3123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Batch_mutate_args_consistency_level",
           "package": "cassandra-thrift",
@@ -2868,6 +3133,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Batch_mutate_args_consistency_level",
           "package": "cassandra-thrift",
@@ -2881,6 +3147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Batch_mutate_args_mutation_map",
           "package": "cassandra-thrift",
@@ -2890,6 +3157,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Batch_mutate_args_mutation_map",
           "normalized": "Maybe(Map ByteString(Map String[Mutation]))",
@@ -2905,6 +3173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Batch_mutate_result_ire",
           "package": "cassandra-thrift",
@@ -2914,6 +3183,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Batch_mutate_result_ire",
           "package": "cassandra-thrift",
@@ -2927,6 +3197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Batch_mutate_result_te",
           "package": "cassandra-thrift",
@@ -2936,6 +3207,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Batch_mutate_result_te",
           "package": "cassandra-thrift",
@@ -2949,6 +3221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Batch_mutate_result_ue",
           "package": "cassandra-thrift",
@@ -2958,6 +3231,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Batch_mutate_result_ue",
           "package": "cassandra-thrift",
@@ -2971,6 +3245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_cluster_name_result_success",
           "package": "cassandra-thrift",
@@ -2980,6 +3255,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_cluster_name_result_success",
           "package": "cassandra-thrift",
@@ -2993,6 +3269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_keyspace_args_keyspace",
           "package": "cassandra-thrift",
@@ -3002,6 +3279,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_keyspace_args_keyspace",
           "package": "cassandra-thrift",
@@ -3015,6 +3293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_keyspace_result_ire",
           "package": "cassandra-thrift",
@@ -3024,6 +3303,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_keyspace_result_ire",
           "package": "cassandra-thrift",
@@ -3037,6 +3317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_keyspace_result_nfe",
           "package": "cassandra-thrift",
@@ -3046,6 +3327,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_keyspace_result_nfe",
           "package": "cassandra-thrift",
@@ -3059,6 +3341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_keyspace_result_success",
           "package": "cassandra-thrift",
@@ -3068,6 +3351,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_keyspace_result_success",
           "package": "cassandra-thrift",
@@ -3081,6 +3365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_keyspaces_result_ire",
           "package": "cassandra-thrift",
@@ -3090,6 +3375,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_keyspaces_result_ire",
           "package": "cassandra-thrift",
@@ -3103,6 +3389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_keyspaces_result_success",
           "package": "cassandra-thrift",
@@ -3112,6 +3399,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_keyspaces_result_success",
           "normalized": "Maybe[KsDef]",
@@ -3127,6 +3415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_partitioner_result_success",
           "package": "cassandra-thrift",
@@ -3136,6 +3425,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_partitioner_result_success",
           "package": "cassandra-thrift",
@@ -3149,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_ring_args_keyspace",
           "package": "cassandra-thrift",
@@ -3158,6 +3449,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_ring_args_keyspace",
           "package": "cassandra-thrift",
@@ -3171,6 +3463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_ring_result_ire",
           "package": "cassandra-thrift",
@@ -3180,6 +3473,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_ring_result_ire",
           "package": "cassandra-thrift",
@@ -3193,6 +3487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_ring_result_success",
           "package": "cassandra-thrift",
@@ -3202,6 +3497,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_ring_result_success",
           "normalized": "Maybe[TokenRange]",
@@ -3217,6 +3513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_schema_versions_result_ire",
           "package": "cassandra-thrift",
@@ -3226,6 +3523,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_schema_versions_result_ire",
           "package": "cassandra-thrift",
@@ -3239,6 +3537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_schema_versions_result_success",
           "package": "cassandra-thrift",
@@ -3248,6 +3547,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_schema_versions_result_success",
           "normalized": "Maybe(Map String[String])",
@@ -3263,6 +3563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_snitch_result_success",
           "package": "cassandra-thrift",
@@ -3272,6 +3573,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_snitch_result_success",
           "package": "cassandra-thrift",
@@ -3285,6 +3587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_splits_args_cfName",
           "package": "cassandra-thrift",
@@ -3294,6 +3597,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_splits_args_cfName",
           "package": "cassandra-thrift",
@@ -3307,6 +3611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_splits_args_end_token",
           "package": "cassandra-thrift",
@@ -3316,6 +3621,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_splits_args_end_token",
           "package": "cassandra-thrift",
@@ -3329,6 +3635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_splits_args_keys_per_split",
           "package": "cassandra-thrift",
@@ -3338,6 +3645,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_splits_args_keys_per_split",
           "package": "cassandra-thrift",
@@ -3351,6 +3659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_splits_args_start_token",
           "package": "cassandra-thrift",
@@ -3360,6 +3669,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_splits_args_start_token",
           "package": "cassandra-thrift",
@@ -3373,6 +3683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_splits_result_ire",
           "package": "cassandra-thrift",
@@ -3382,6 +3693,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_splits_result_ire",
           "package": "cassandra-thrift",
@@ -3395,6 +3707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_splits_result_success",
           "package": "cassandra-thrift",
@@ -3404,6 +3717,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_splits_result_success",
           "normalized": "Maybe[String]",
@@ -3419,6 +3733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_version_result_success",
           "package": "cassandra-thrift",
@@ -3428,6 +3743,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Describe_version_result_success",
           "package": "cassandra-thrift",
@@ -3441,6 +3757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Execute_cql_query_args_compression",
           "package": "cassandra-thrift",
@@ -3450,6 +3767,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Execute_cql_query_args_compression",
           "package": "cassandra-thrift",
@@ -3463,6 +3781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Execute_cql_query_args_query",
           "package": "cassandra-thrift",
@@ -3472,6 +3791,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Execute_cql_query_args_query",
           "package": "cassandra-thrift",
@@ -3485,6 +3805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Execute_cql_query_result_ire",
           "package": "cassandra-thrift",
@@ -3494,6 +3815,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Execute_cql_query_result_ire",
           "package": "cassandra-thrift",
@@ -3507,6 +3829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Execute_cql_query_result_sde",
           "package": "cassandra-thrift",
@@ -3516,6 +3839,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Execute_cql_query_result_sde",
           "package": "cassandra-thrift",
@@ -3529,6 +3853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Execute_cql_query_result_success",
           "package": "cassandra-thrift",
@@ -3538,6 +3863,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Execute_cql_query_result_success",
           "package": "cassandra-thrift",
@@ -3551,6 +3877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Execute_cql_query_result_te",
           "package": "cassandra-thrift",
@@ -3560,6 +3887,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Execute_cql_query_result_te",
           "package": "cassandra-thrift",
@@ -3573,6 +3901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Execute_cql_query_result_ue",
           "package": "cassandra-thrift",
@@ -3582,6 +3911,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Execute_cql_query_result_ue",
           "package": "cassandra-thrift",
@@ -3595,6 +3925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_args_column_path",
           "package": "cassandra-thrift",
@@ -3604,6 +3935,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_args_column_path",
           "package": "cassandra-thrift",
@@ -3617,6 +3949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_args_consistency_level",
           "package": "cassandra-thrift",
@@ -3626,6 +3959,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_args_consistency_level",
           "package": "cassandra-thrift",
@@ -3639,6 +3973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_args_key",
           "package": "cassandra-thrift",
@@ -3648,6 +3983,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_args_key",
           "package": "cassandra-thrift",
@@ -3661,6 +3997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_count_args_column_parent",
           "package": "cassandra-thrift",
@@ -3670,6 +4007,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_count_args_column_parent",
           "package": "cassandra-thrift",
@@ -3683,6 +4021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_count_args_consistency_level",
           "package": "cassandra-thrift",
@@ -3692,6 +4031,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_count_args_consistency_level",
           "package": "cassandra-thrift",
@@ -3705,6 +4045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_count_args_key",
           "package": "cassandra-thrift",
@@ -3714,6 +4055,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_count_args_key",
           "package": "cassandra-thrift",
@@ -3727,6 +4069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_count_args_predicate",
           "package": "cassandra-thrift",
@@ -3736,6 +4079,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_count_args_predicate",
           "package": "cassandra-thrift",
@@ -3749,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_count_result_ire",
           "package": "cassandra-thrift",
@@ -3758,6 +4103,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_count_result_ire",
           "package": "cassandra-thrift",
@@ -3771,6 +4117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_count_result_success",
           "package": "cassandra-thrift",
@@ -3780,6 +4127,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_count_result_success",
           "package": "cassandra-thrift",
@@ -3793,6 +4141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_count_result_te",
           "package": "cassandra-thrift",
@@ -3802,6 +4151,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_count_result_te",
           "package": "cassandra-thrift",
@@ -3815,6 +4165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_count_result_ue",
           "package": "cassandra-thrift",
@@ -3824,6 +4175,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_count_result_ue",
           "package": "cassandra-thrift",
@@ -3837,6 +4189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_indexed_slices_args_column_parent",
           "package": "cassandra-thrift",
@@ -3846,6 +4199,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_indexed_slices_args_column_parent",
           "package": "cassandra-thrift",
@@ -3859,6 +4213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_indexed_slices_args_column_predicate",
           "package": "cassandra-thrift",
@@ -3868,6 +4223,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_indexed_slices_args_column_predicate",
           "package": "cassandra-thrift",
@@ -3881,6 +4237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_indexed_slices_args_consistency_level",
           "package": "cassandra-thrift",
@@ -3890,6 +4247,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_indexed_slices_args_consistency_level",
           "package": "cassandra-thrift",
@@ -3903,6 +4261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_indexed_slices_args_index_clause",
           "package": "cassandra-thrift",
@@ -3912,6 +4271,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_indexed_slices_args_index_clause",
           "package": "cassandra-thrift",
@@ -3925,6 +4285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_indexed_slices_result_ire",
           "package": "cassandra-thrift",
@@ -3934,6 +4295,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_indexed_slices_result_ire",
           "package": "cassandra-thrift",
@@ -3947,6 +4309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_indexed_slices_result_success",
           "package": "cassandra-thrift",
@@ -3956,6 +4319,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_indexed_slices_result_success",
           "normalized": "Maybe[KeySlice]",
@@ -3971,6 +4335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_indexed_slices_result_te",
           "package": "cassandra-thrift",
@@ -3980,6 +4345,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_indexed_slices_result_te",
           "package": "cassandra-thrift",
@@ -3993,6 +4359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_indexed_slices_result_ue",
           "package": "cassandra-thrift",
@@ -4002,6 +4369,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_indexed_slices_result_ue",
           "package": "cassandra-thrift",
@@ -4015,6 +4383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_range_slices_args_column_parent",
           "package": "cassandra-thrift",
@@ -4024,6 +4393,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_range_slices_args_column_parent",
           "package": "cassandra-thrift",
@@ -4037,6 +4407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_range_slices_args_consistency_level",
           "package": "cassandra-thrift",
@@ -4046,6 +4417,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_range_slices_args_consistency_level",
           "package": "cassandra-thrift",
@@ -4059,6 +4431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_range_slices_args_predicate",
           "package": "cassandra-thrift",
@@ -4068,6 +4441,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_range_slices_args_predicate",
           "package": "cassandra-thrift",
@@ -4081,6 +4455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_range_slices_args_range",
           "package": "cassandra-thrift",
@@ -4090,6 +4465,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_range_slices_args_range",
           "package": "cassandra-thrift",
@@ -4103,6 +4479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_range_slices_result_ire",
           "package": "cassandra-thrift",
@@ -4112,6 +4489,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_range_slices_result_ire",
           "package": "cassandra-thrift",
@@ -4125,6 +4503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_range_slices_result_success",
           "package": "cassandra-thrift",
@@ -4134,6 +4513,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_range_slices_result_success",
           "normalized": "Maybe[KeySlice]",
@@ -4149,6 +4529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_range_slices_result_te",
           "package": "cassandra-thrift",
@@ -4158,6 +4539,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_range_slices_result_te",
           "package": "cassandra-thrift",
@@ -4171,6 +4553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_range_slices_result_ue",
           "package": "cassandra-thrift",
@@ -4180,6 +4563,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_range_slices_result_ue",
           "package": "cassandra-thrift",
@@ -4193,6 +4577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_result_ire",
           "package": "cassandra-thrift",
@@ -4202,6 +4587,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_result_ire",
           "package": "cassandra-thrift",
@@ -4215,6 +4601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_result_nfe",
           "package": "cassandra-thrift",
@@ -4224,6 +4611,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_result_nfe",
           "package": "cassandra-thrift",
@@ -4237,6 +4625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_result_success",
           "package": "cassandra-thrift",
@@ -4246,6 +4635,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_result_success",
           "package": "cassandra-thrift",
@@ -4259,6 +4649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_result_te",
           "package": "cassandra-thrift",
@@ -4268,6 +4659,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_result_te",
           "package": "cassandra-thrift",
@@ -4281,6 +4673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_result_ue",
           "package": "cassandra-thrift",
@@ -4290,6 +4683,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_result_ue",
           "package": "cassandra-thrift",
@@ -4303,6 +4697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_slice_args_column_parent",
           "package": "cassandra-thrift",
@@ -4312,6 +4707,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_slice_args_column_parent",
           "package": "cassandra-thrift",
@@ -4325,6 +4721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_slice_args_consistency_level",
           "package": "cassandra-thrift",
@@ -4334,6 +4731,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_slice_args_consistency_level",
           "package": "cassandra-thrift",
@@ -4347,6 +4745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_slice_args_key",
           "package": "cassandra-thrift",
@@ -4356,6 +4755,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_slice_args_key",
           "package": "cassandra-thrift",
@@ -4369,6 +4769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_slice_args_predicate",
           "package": "cassandra-thrift",
@@ -4378,6 +4779,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_slice_args_predicate",
           "package": "cassandra-thrift",
@@ -4391,6 +4793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_slice_result_ire",
           "package": "cassandra-thrift",
@@ -4400,6 +4803,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_slice_result_ire",
           "package": "cassandra-thrift",
@@ -4413,6 +4817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_slice_result_success",
           "package": "cassandra-thrift",
@@ -4422,6 +4827,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_slice_result_success",
           "normalized": "Maybe[ColumnOrSuperColumn]",
@@ -4437,6 +4843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_slice_result_te",
           "package": "cassandra-thrift",
@@ -4446,6 +4853,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_slice_result_te",
           "package": "cassandra-thrift",
@@ -4459,6 +4867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_slice_result_ue",
           "package": "cassandra-thrift",
@@ -4468,6 +4877,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Get_slice_result_ue",
           "package": "cassandra-thrift",
@@ -4481,6 +4891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Insert_args_column",
           "package": "cassandra-thrift",
@@ -4490,6 +4901,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Insert_args_column",
           "package": "cassandra-thrift",
@@ -4503,6 +4915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Insert_args_column_parent",
           "package": "cassandra-thrift",
@@ -4512,6 +4925,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Insert_args_column_parent",
           "package": "cassandra-thrift",
@@ -4525,6 +4939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Insert_args_consistency_level",
           "package": "cassandra-thrift",
@@ -4534,6 +4949,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Insert_args_consistency_level",
           "package": "cassandra-thrift",
@@ -4547,6 +4963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Insert_args_key",
           "package": "cassandra-thrift",
@@ -4556,6 +4973,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Insert_args_key",
           "package": "cassandra-thrift",
@@ -4569,6 +4987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Insert_result_ire",
           "package": "cassandra-thrift",
@@ -4578,6 +4997,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Insert_result_ire",
           "package": "cassandra-thrift",
@@ -4591,6 +5011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Insert_result_te",
           "package": "cassandra-thrift",
@@ -4600,6 +5021,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Insert_result_te",
           "package": "cassandra-thrift",
@@ -4613,6 +5035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Insert_result_ue",
           "package": "cassandra-thrift",
@@ -4622,6 +5045,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Insert_result_ue",
           "package": "cassandra-thrift",
@@ -4635,6 +5059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Login_args_auth_request",
           "package": "cassandra-thrift",
@@ -4644,6 +5069,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Login_args_auth_request",
           "package": "cassandra-thrift",
@@ -4657,6 +5083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Login_result_authnx",
           "package": "cassandra-thrift",
@@ -4666,6 +5093,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Login_result_authnx",
           "package": "cassandra-thrift",
@@ -4679,6 +5107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Login_result_authzx",
           "package": "cassandra-thrift",
@@ -4688,6 +5117,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Login_result_authzx",
           "package": "cassandra-thrift",
@@ -4701,6 +5131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_count_args_column_parent",
           "package": "cassandra-thrift",
@@ -4710,6 +5141,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_count_args_column_parent",
           "package": "cassandra-thrift",
@@ -4723,6 +5155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_count_args_consistency_level",
           "package": "cassandra-thrift",
@@ -4732,6 +5165,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_count_args_consistency_level",
           "package": "cassandra-thrift",
@@ -4745,6 +5179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_count_args_keys",
           "package": "cassandra-thrift",
@@ -4754,6 +5189,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_count_args_keys",
           "normalized": "Maybe[ByteString]",
@@ -4769,6 +5205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_count_args_predicate",
           "package": "cassandra-thrift",
@@ -4778,6 +5215,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_count_args_predicate",
           "package": "cassandra-thrift",
@@ -4791,6 +5229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_count_result_ire",
           "package": "cassandra-thrift",
@@ -4800,6 +5239,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_count_result_ire",
           "package": "cassandra-thrift",
@@ -4813,6 +5253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_count_result_success",
           "package": "cassandra-thrift",
@@ -4822,6 +5263,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_count_result_success",
           "package": "cassandra-thrift",
@@ -4835,6 +5277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_count_result_te",
           "package": "cassandra-thrift",
@@ -4844,6 +5287,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_count_result_te",
           "package": "cassandra-thrift",
@@ -4857,6 +5301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_count_result_ue",
           "package": "cassandra-thrift",
@@ -4866,6 +5311,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_count_result_ue",
           "package": "cassandra-thrift",
@@ -4879,6 +5325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_slice_args_column_parent",
           "package": "cassandra-thrift",
@@ -4888,6 +5335,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_slice_args_column_parent",
           "package": "cassandra-thrift",
@@ -4901,6 +5349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_slice_args_consistency_level",
           "package": "cassandra-thrift",
@@ -4910,6 +5359,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_slice_args_consistency_level",
           "package": "cassandra-thrift",
@@ -4923,6 +5373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_slice_args_keys",
           "package": "cassandra-thrift",
@@ -4932,6 +5383,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_slice_args_keys",
           "normalized": "Maybe[ByteString]",
@@ -4947,6 +5399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_slice_args_predicate",
           "package": "cassandra-thrift",
@@ -4956,6 +5409,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_slice_args_predicate",
           "package": "cassandra-thrift",
@@ -4969,6 +5423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_slice_result_ire",
           "package": "cassandra-thrift",
@@ -4978,6 +5433,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_slice_result_ire",
           "package": "cassandra-thrift",
@@ -4991,6 +5447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_slice_result_success",
           "package": "cassandra-thrift",
@@ -5000,6 +5457,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_slice_result_success",
           "normalized": "Maybe(Map ByteString[ColumnOrSuperColumn])",
@@ -5015,6 +5473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_slice_result_te",
           "package": "cassandra-thrift",
@@ -5024,6 +5483,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_slice_result_te",
           "package": "cassandra-thrift",
@@ -5037,6 +5497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_slice_result_ue",
           "package": "cassandra-thrift",
@@ -5046,6 +5507,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Multiget_slice_result_ue",
           "package": "cassandra-thrift",
@@ -5059,6 +5521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_args_column_path",
           "package": "cassandra-thrift",
@@ -5068,6 +5531,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_args_column_path",
           "package": "cassandra-thrift",
@@ -5081,6 +5545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_args_consistency_level",
           "package": "cassandra-thrift",
@@ -5090,6 +5555,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_args_consistency_level",
           "package": "cassandra-thrift",
@@ -5103,6 +5569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_args_key",
           "package": "cassandra-thrift",
@@ -5112,6 +5579,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_args_key",
           "package": "cassandra-thrift",
@@ -5125,6 +5593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_args_timestamp",
           "package": "cassandra-thrift",
@@ -5134,6 +5603,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_args_timestamp",
           "package": "cassandra-thrift",
@@ -5147,6 +5617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_counter_args_consistency_level",
           "package": "cassandra-thrift",
@@ -5156,6 +5627,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_counter_args_consistency_level",
           "package": "cassandra-thrift",
@@ -5169,6 +5641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_counter_args_key",
           "package": "cassandra-thrift",
@@ -5178,6 +5651,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_counter_args_key",
           "package": "cassandra-thrift",
@@ -5191,6 +5665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_counter_args_path",
           "package": "cassandra-thrift",
@@ -5200,6 +5675,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_counter_args_path",
           "package": "cassandra-thrift",
@@ -5213,6 +5689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_counter_result_ire",
           "package": "cassandra-thrift",
@@ -5222,6 +5699,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_counter_result_ire",
           "package": "cassandra-thrift",
@@ -5235,6 +5713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_counter_result_te",
           "package": "cassandra-thrift",
@@ -5244,6 +5723,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_counter_result_te",
           "package": "cassandra-thrift",
@@ -5257,6 +5737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_counter_result_ue",
           "package": "cassandra-thrift",
@@ -5266,6 +5747,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_counter_result_ue",
           "package": "cassandra-thrift",
@@ -5279,6 +5761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_result_ire",
           "package": "cassandra-thrift",
@@ -5288,6 +5771,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_result_ire",
           "package": "cassandra-thrift",
@@ -5301,6 +5785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_result_te",
           "package": "cassandra-thrift",
@@ -5310,6 +5795,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_result_te",
           "package": "cassandra-thrift",
@@ -5323,6 +5809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_result_ue",
           "package": "cassandra-thrift",
@@ -5332,6 +5819,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Remove_result_ue",
           "package": "cassandra-thrift",
@@ -5345,6 +5833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Set_keyspace_args_keyspace",
           "package": "cassandra-thrift",
@@ -5354,6 +5843,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Set_keyspace_args_keyspace",
           "package": "cassandra-thrift",
@@ -5367,6 +5857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Set_keyspace_result_ire",
           "package": "cassandra-thrift",
@@ -5376,6 +5867,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Set_keyspace_result_ire",
           "package": "cassandra-thrift",
@@ -5389,6 +5881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_add_column_family_args_cf_def",
           "package": "cassandra-thrift",
@@ -5398,6 +5891,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_add_column_family_args_cf_def",
           "package": "cassandra-thrift",
@@ -5411,6 +5905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_add_column_family_result_ire",
           "package": "cassandra-thrift",
@@ -5420,6 +5915,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_add_column_family_result_ire",
           "package": "cassandra-thrift",
@@ -5433,6 +5929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_add_column_family_result_sde",
           "package": "cassandra-thrift",
@@ -5442,6 +5939,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_add_column_family_result_sde",
           "package": "cassandra-thrift",
@@ -5455,6 +5953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_add_column_family_result_success",
           "package": "cassandra-thrift",
@@ -5464,6 +5963,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_add_column_family_result_success",
           "package": "cassandra-thrift",
@@ -5477,6 +5977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_add_keyspace_args_ks_def",
           "package": "cassandra-thrift",
@@ -5486,6 +5987,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_add_keyspace_args_ks_def",
           "package": "cassandra-thrift",
@@ -5499,6 +6001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_add_keyspace_result_ire",
           "package": "cassandra-thrift",
@@ -5508,6 +6011,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_add_keyspace_result_ire",
           "package": "cassandra-thrift",
@@ -5521,6 +6025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_add_keyspace_result_sde",
           "package": "cassandra-thrift",
@@ -5530,6 +6035,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_add_keyspace_result_sde",
           "package": "cassandra-thrift",
@@ -5543,6 +6049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_add_keyspace_result_success",
           "package": "cassandra-thrift",
@@ -5552,6 +6059,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_add_keyspace_result_success",
           "package": "cassandra-thrift",
@@ -5565,6 +6073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_drop_column_family_args_column_family",
           "package": "cassandra-thrift",
@@ -5574,6 +6083,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_drop_column_family_args_column_family",
           "package": "cassandra-thrift",
@@ -5587,6 +6097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_drop_column_family_result_ire",
           "package": "cassandra-thrift",
@@ -5596,6 +6107,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_drop_column_family_result_ire",
           "package": "cassandra-thrift",
@@ -5609,6 +6121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_drop_column_family_result_sde",
           "package": "cassandra-thrift",
@@ -5618,6 +6131,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_drop_column_family_result_sde",
           "package": "cassandra-thrift",
@@ -5631,6 +6145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_drop_column_family_result_success",
           "package": "cassandra-thrift",
@@ -5640,6 +6155,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_drop_column_family_result_success",
           "package": "cassandra-thrift",
@@ -5653,6 +6169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_drop_keyspace_args_keyspace",
           "package": "cassandra-thrift",
@@ -5662,6 +6179,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_drop_keyspace_args_keyspace",
           "package": "cassandra-thrift",
@@ -5675,6 +6193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_drop_keyspace_result_ire",
           "package": "cassandra-thrift",
@@ -5684,6 +6203,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_drop_keyspace_result_ire",
           "package": "cassandra-thrift",
@@ -5697,6 +6217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_drop_keyspace_result_sde",
           "package": "cassandra-thrift",
@@ -5706,6 +6227,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_drop_keyspace_result_sde",
           "package": "cassandra-thrift",
@@ -5719,6 +6241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_drop_keyspace_result_success",
           "package": "cassandra-thrift",
@@ -5728,6 +6251,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_drop_keyspace_result_success",
           "package": "cassandra-thrift",
@@ -5741,6 +6265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_update_column_family_args_cf_def",
           "package": "cassandra-thrift",
@@ -5750,6 +6275,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_update_column_family_args_cf_def",
           "package": "cassandra-thrift",
@@ -5763,6 +6289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_update_column_family_result_ire",
           "package": "cassandra-thrift",
@@ -5772,6 +6299,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_update_column_family_result_ire",
           "package": "cassandra-thrift",
@@ -5785,6 +6313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_update_column_family_result_sde",
           "package": "cassandra-thrift",
@@ -5794,6 +6323,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_update_column_family_result_sde",
           "package": "cassandra-thrift",
@@ -5807,6 +6337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_update_column_family_result_success",
           "package": "cassandra-thrift",
@@ -5816,6 +6347,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_update_column_family_result_success",
           "package": "cassandra-thrift",
@@ -5829,6 +6361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_update_keyspace_args_ks_def",
           "package": "cassandra-thrift",
@@ -5838,6 +6371,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_update_keyspace_args_ks_def",
           "package": "cassandra-thrift",
@@ -5851,6 +6385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_update_keyspace_result_ire",
           "package": "cassandra-thrift",
@@ -5860,6 +6395,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_update_keyspace_result_ire",
           "package": "cassandra-thrift",
@@ -5873,6 +6409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_update_keyspace_result_sde",
           "package": "cassandra-thrift",
@@ -5882,6 +6419,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_update_keyspace_result_sde",
           "package": "cassandra-thrift",
@@ -5895,6 +6433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_update_keyspace_result_success",
           "package": "cassandra-thrift",
@@ -5904,6 +6443,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_System_update_keyspace_result_success",
           "package": "cassandra-thrift",
@@ -5917,6 +6457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Truncate_args_cfname",
           "package": "cassandra-thrift",
@@ -5926,6 +6467,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Truncate_args_cfname",
           "package": "cassandra-thrift",
@@ -5939,6 +6481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Truncate_result_ire",
           "package": "cassandra-thrift",
@@ -5948,6 +6491,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Truncate_result_ire",
           "package": "cassandra-thrift",
@@ -5961,6 +6505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Truncate_result_ue",
           "package": "cassandra-thrift",
@@ -5970,6 +6515,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "f_Truncate_result_ue",
           "package": "cassandra-thrift",
@@ -5983,6 +6529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "proc_",
           "package": "cassandra-thrift",
@@ -5992,6 +6539,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "proc_",
           "normalized": "a-\u003e(a b,a a)-\u003e([Char],b,Int)-\u003eIO()",
@@ -6006,6 +6554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process",
           "package": "cassandra-thrift",
@@ -6015,6 +6564,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process",
           "normalized": "a-\u003e(a b,a a)-\u003eIO Bool",
@@ -6029,6 +6579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_add",
           "package": "cassandra-thrift",
@@ -6038,6 +6589,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_add",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6052,6 +6604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_batch_mutate",
           "package": "cassandra-thrift",
@@ -6061,6 +6614,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_batch_mutate",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6075,6 +6629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_describe_cluster_name",
           "package": "cassandra-thrift",
@@ -6084,6 +6639,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_describe_cluster_name",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6098,6 +6654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_describe_keyspace",
           "package": "cassandra-thrift",
@@ -6107,6 +6664,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_describe_keyspace",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6121,6 +6679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_describe_keyspaces",
           "package": "cassandra-thrift",
@@ -6130,6 +6689,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_describe_keyspaces",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6144,6 +6704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_describe_partitioner",
           "package": "cassandra-thrift",
@@ -6153,6 +6714,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_describe_partitioner",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6167,6 +6729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_describe_ring",
           "package": "cassandra-thrift",
@@ -6176,6 +6739,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_describe_ring",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6190,6 +6754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_describe_schema_versions",
           "package": "cassandra-thrift",
@@ -6199,6 +6764,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_describe_schema_versions",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6213,6 +6779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_describe_snitch",
           "package": "cassandra-thrift",
@@ -6222,6 +6789,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_describe_snitch",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6236,6 +6804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_describe_splits",
           "package": "cassandra-thrift",
@@ -6245,6 +6814,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_describe_splits",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6259,6 +6829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_describe_version",
           "package": "cassandra-thrift",
@@ -6268,6 +6839,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_describe_version",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6282,6 +6854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_execute_cql_query",
           "package": "cassandra-thrift",
@@ -6291,6 +6864,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_execute_cql_query",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6305,6 +6879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_get",
           "package": "cassandra-thrift",
@@ -6314,6 +6889,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_get",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6328,6 +6904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_get_count",
           "package": "cassandra-thrift",
@@ -6337,6 +6914,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_get_count",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6351,6 +6929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_get_indexed_slices",
           "package": "cassandra-thrift",
@@ -6360,6 +6939,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_get_indexed_slices",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6374,6 +6954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_get_range_slices",
           "package": "cassandra-thrift",
@@ -6383,6 +6964,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_get_range_slices",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6397,6 +6979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_get_slice",
           "package": "cassandra-thrift",
@@ -6406,6 +6989,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_get_slice",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6420,6 +7004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_insert",
           "package": "cassandra-thrift",
@@ -6429,6 +7014,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_insert",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6443,6 +7029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_login",
           "package": "cassandra-thrift",
@@ -6452,6 +7039,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_login",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6466,6 +7054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_multiget_count",
           "package": "cassandra-thrift",
@@ -6475,6 +7064,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_multiget_count",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6489,6 +7079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_multiget_slice",
           "package": "cassandra-thrift",
@@ -6498,6 +7089,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_multiget_slice",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6512,6 +7104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_remove",
           "package": "cassandra-thrift",
@@ -6521,6 +7114,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_remove",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6535,6 +7129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_remove_counter",
           "package": "cassandra-thrift",
@@ -6544,6 +7139,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_remove_counter",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6558,6 +7154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_set_keyspace",
           "package": "cassandra-thrift",
@@ -6567,6 +7164,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_set_keyspace",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6581,6 +7179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_system_add_column_family",
           "package": "cassandra-thrift",
@@ -6590,6 +7189,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_system_add_column_family",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6604,6 +7204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_system_add_keyspace",
           "package": "cassandra-thrift",
@@ -6613,6 +7214,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_system_add_keyspace",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6627,6 +7229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_system_drop_column_family",
           "package": "cassandra-thrift",
@@ -6636,6 +7239,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_system_drop_column_family",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6650,6 +7254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_system_drop_keyspace",
           "package": "cassandra-thrift",
@@ -6659,6 +7264,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_system_drop_keyspace",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6673,6 +7279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_system_update_column_family",
           "package": "cassandra-thrift",
@@ -6682,6 +7289,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_system_update_column_family",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6696,6 +7304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_system_update_keyspace",
           "package": "cassandra-thrift",
@@ -6705,6 +7314,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_system_update_keyspace",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6719,6 +7329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_truncate",
           "package": "cassandra-thrift",
@@ -6728,6 +7339,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "process_truncate",
           "normalized": "(Int,a b,a a,a)-\u003eIO()",
@@ -6742,6 +7354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Add_args",
           "package": "cassandra-thrift",
@@ -6751,6 +7364,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Add_args",
           "normalized": "a b-\u003eIO Add_args",
@@ -6766,6 +7380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Add_args_fields",
           "package": "cassandra-thrift",
@@ -6775,6 +7390,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Add_args_fields",
           "normalized": "a b-\u003eAdd_args-\u003eIO Add_args",
@@ -6790,6 +7406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Add_result",
           "package": "cassandra-thrift",
@@ -6799,6 +7416,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Add_result",
           "normalized": "a b-\u003eIO Add_result",
@@ -6814,6 +7432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Add_result_fields",
           "package": "cassandra-thrift",
@@ -6823,6 +7442,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Add_result_fields",
           "normalized": "a b-\u003eAdd_result-\u003eIO Add_result",
@@ -6838,6 +7458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Batch_mutate_args",
           "package": "cassandra-thrift",
@@ -6847,6 +7468,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Batch_mutate_args",
           "normalized": "a b-\u003eIO Batch_mutate_args",
@@ -6862,6 +7484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Batch_mutate_args_fields",
           "package": "cassandra-thrift",
@@ -6871,6 +7494,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Batch_mutate_args_fields",
           "normalized": "a b-\u003eBatch_mutate_args-\u003eIO Batch_mutate_args",
@@ -6886,6 +7510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Batch_mutate_result",
           "package": "cassandra-thrift",
@@ -6895,6 +7520,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Batch_mutate_result",
           "normalized": "a b-\u003eIO Batch_mutate_result",
@@ -6910,6 +7536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Batch_mutate_result_fields",
           "package": "cassandra-thrift",
@@ -6919,6 +7546,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Batch_mutate_result_fields",
           "normalized": "a b-\u003eBatch_mutate_result-\u003eIO Batch_mutate_result",
@@ -6934,6 +7562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_cluster_name_args",
           "package": "cassandra-thrift",
@@ -6943,6 +7572,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_cluster_name_args",
           "normalized": "a b-\u003eIO Describe_cluster_name_args",
@@ -6958,6 +7588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_cluster_name_args_fields",
           "package": "cassandra-thrift",
@@ -6967,6 +7598,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_cluster_name_args_fields",
           "normalized": "a b-\u003ec-\u003eIO c",
@@ -6982,6 +7614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_cluster_name_result",
           "package": "cassandra-thrift",
@@ -6991,6 +7624,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_cluster_name_result",
           "normalized": "a b-\u003eIO Describe_cluster_name_result",
@@ -7006,6 +7640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_cluster_name_result_fields",
           "package": "cassandra-thrift",
@@ -7015,6 +7650,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_cluster_name_result_fields",
           "normalized": "a b-\u003eDescribe_cluster_name_result-\u003eIO Describe_cluster_name_result",
@@ -7030,6 +7666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_keyspace_args",
           "package": "cassandra-thrift",
@@ -7039,6 +7676,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_keyspace_args",
           "normalized": "a b-\u003eIO Describe_keyspace_args",
@@ -7054,6 +7692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_keyspace_args_fields",
           "package": "cassandra-thrift",
@@ -7063,6 +7702,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_keyspace_args_fields",
           "normalized": "a b-\u003eDescribe_keyspace_args-\u003eIO Describe_keyspace_args",
@@ -7078,6 +7718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_keyspace_result",
           "package": "cassandra-thrift",
@@ -7087,6 +7728,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_keyspace_result",
           "normalized": "a b-\u003eIO Describe_keyspace_result",
@@ -7102,6 +7744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_keyspace_result_fields",
           "package": "cassandra-thrift",
@@ -7111,6 +7754,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_keyspace_result_fields",
           "normalized": "a b-\u003eDescribe_keyspace_result-\u003eIO Describe_keyspace_result",
@@ -7126,6 +7770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_keyspaces_args",
           "package": "cassandra-thrift",
@@ -7135,6 +7780,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_keyspaces_args",
           "normalized": "a b-\u003eIO Describe_keyspaces_args",
@@ -7150,6 +7796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_keyspaces_args_fields",
           "package": "cassandra-thrift",
@@ -7159,6 +7806,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_keyspaces_args_fields",
           "normalized": "a b-\u003ec-\u003eIO c",
@@ -7174,6 +7822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_keyspaces_result",
           "package": "cassandra-thrift",
@@ -7183,6 +7832,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_keyspaces_result",
           "normalized": "a b-\u003eIO Describe_keyspaces_result",
@@ -7198,6 +7848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_keyspaces_result_fields",
           "package": "cassandra-thrift",
@@ -7207,6 +7858,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_keyspaces_result_fields",
           "normalized": "a b-\u003eDescribe_keyspaces_result-\u003eIO Describe_keyspaces_result",
@@ -7222,6 +7874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_partitioner_args",
           "package": "cassandra-thrift",
@@ -7231,6 +7884,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_partitioner_args",
           "normalized": "a b-\u003eIO Describe_partitioner_args",
@@ -7246,6 +7900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_partitioner_args_fields",
           "package": "cassandra-thrift",
@@ -7255,6 +7910,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_partitioner_args_fields",
           "normalized": "a b-\u003ec-\u003eIO c",
@@ -7270,6 +7926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_partitioner_result",
           "package": "cassandra-thrift",
@@ -7279,6 +7936,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_partitioner_result",
           "normalized": "a b-\u003eIO Describe_partitioner_result",
@@ -7294,6 +7952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_partitioner_result_fields",
           "package": "cassandra-thrift",
@@ -7303,6 +7962,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_partitioner_result_fields",
           "normalized": "a b-\u003eDescribe_partitioner_result-\u003eIO Describe_partitioner_result",
@@ -7318,6 +7978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_ring_args",
           "package": "cassandra-thrift",
@@ -7327,6 +7988,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_ring_args",
           "normalized": "a b-\u003eIO Describe_ring_args",
@@ -7342,6 +8004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_ring_args_fields",
           "package": "cassandra-thrift",
@@ -7351,6 +8014,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_ring_args_fields",
           "normalized": "a b-\u003eDescribe_ring_args-\u003eIO Describe_ring_args",
@@ -7366,6 +8030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_ring_result",
           "package": "cassandra-thrift",
@@ -7375,6 +8040,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_ring_result",
           "normalized": "a b-\u003eIO Describe_ring_result",
@@ -7390,6 +8056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_ring_result_fields",
           "package": "cassandra-thrift",
@@ -7399,6 +8066,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_ring_result_fields",
           "normalized": "a b-\u003eDescribe_ring_result-\u003eIO Describe_ring_result",
@@ -7414,6 +8082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_schema_versions_args",
           "package": "cassandra-thrift",
@@ -7423,6 +8092,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_schema_versions_args",
           "normalized": "a b-\u003eIO Describe_schema_versions_args",
@@ -7438,6 +8108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_schema_versions_args_fields",
           "package": "cassandra-thrift",
@@ -7447,6 +8118,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_schema_versions_args_fields",
           "normalized": "a b-\u003ec-\u003eIO c",
@@ -7462,6 +8134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_schema_versions_result",
           "package": "cassandra-thrift",
@@ -7471,6 +8144,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_schema_versions_result",
           "normalized": "a b-\u003eIO Describe_schema_versions_result",
@@ -7486,6 +8160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_schema_versions_result_fields",
           "package": "cassandra-thrift",
@@ -7495,6 +8170,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_schema_versions_result_fields",
           "normalized": "a b-\u003eDescribe_schema_versions_result-\u003eIO Describe_schema_versions_result",
@@ -7510,6 +8186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_snitch_args",
           "package": "cassandra-thrift",
@@ -7519,6 +8196,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_snitch_args",
           "normalized": "a b-\u003eIO Describe_snitch_args",
@@ -7534,6 +8212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_snitch_args_fields",
           "package": "cassandra-thrift",
@@ -7543,6 +8222,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_snitch_args_fields",
           "normalized": "a b-\u003ec-\u003eIO c",
@@ -7558,6 +8238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_snitch_result",
           "package": "cassandra-thrift",
@@ -7567,6 +8248,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_snitch_result",
           "normalized": "a b-\u003eIO Describe_snitch_result",
@@ -7582,6 +8264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_snitch_result_fields",
           "package": "cassandra-thrift",
@@ -7591,6 +8274,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_snitch_result_fields",
           "normalized": "a b-\u003eDescribe_snitch_result-\u003eIO Describe_snitch_result",
@@ -7606,6 +8290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_splits_args",
           "package": "cassandra-thrift",
@@ -7615,6 +8300,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_splits_args",
           "normalized": "a b-\u003eIO Describe_splits_args",
@@ -7630,6 +8316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_splits_args_fields",
           "package": "cassandra-thrift",
@@ -7639,6 +8326,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_splits_args_fields",
           "normalized": "a b-\u003eDescribe_splits_args-\u003eIO Describe_splits_args",
@@ -7654,6 +8342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_splits_result",
           "package": "cassandra-thrift",
@@ -7663,6 +8352,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_splits_result",
           "normalized": "a b-\u003eIO Describe_splits_result",
@@ -7678,6 +8368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_splits_result_fields",
           "package": "cassandra-thrift",
@@ -7687,6 +8378,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_splits_result_fields",
           "normalized": "a b-\u003eDescribe_splits_result-\u003eIO Describe_splits_result",
@@ -7702,6 +8394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_version_args",
           "package": "cassandra-thrift",
@@ -7711,6 +8404,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_version_args",
           "normalized": "a b-\u003eIO Describe_version_args",
@@ -7726,6 +8420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_version_args_fields",
           "package": "cassandra-thrift",
@@ -7735,6 +8430,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_version_args_fields",
           "normalized": "a b-\u003ec-\u003eIO c",
@@ -7750,6 +8446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_version_result",
           "package": "cassandra-thrift",
@@ -7759,6 +8456,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_version_result",
           "normalized": "a b-\u003eIO Describe_version_result",
@@ -7774,6 +8472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_version_result_fields",
           "package": "cassandra-thrift",
@@ -7783,6 +8482,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Describe_version_result_fields",
           "normalized": "a b-\u003eDescribe_version_result-\u003eIO Describe_version_result",
@@ -7798,6 +8498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Execute_cql_query_args",
           "package": "cassandra-thrift",
@@ -7807,6 +8508,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Execute_cql_query_args",
           "normalized": "a b-\u003eIO Execute_cql_query_args",
@@ -7822,6 +8524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Execute_cql_query_args_fields",
           "package": "cassandra-thrift",
@@ -7831,6 +8534,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Execute_cql_query_args_fields",
           "normalized": "a b-\u003eExecute_cql_query_args-\u003eIO Execute_cql_query_args",
@@ -7846,6 +8550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Execute_cql_query_result",
           "package": "cassandra-thrift",
@@ -7855,6 +8560,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Execute_cql_query_result",
           "normalized": "a b-\u003eIO Execute_cql_query_result",
@@ -7870,6 +8576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Execute_cql_query_result_fields",
           "package": "cassandra-thrift",
@@ -7879,6 +8586,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Execute_cql_query_result_fields",
           "normalized": "a b-\u003eExecute_cql_query_result-\u003eIO Execute_cql_query_result",
@@ -7894,6 +8602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_args",
           "package": "cassandra-thrift",
@@ -7903,6 +8612,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_args",
           "normalized": "a b-\u003eIO Get_args",
@@ -7918,6 +8628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_args_fields",
           "package": "cassandra-thrift",
@@ -7927,6 +8638,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_args_fields",
           "normalized": "a b-\u003eGet_args-\u003eIO Get_args",
@@ -7942,6 +8654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_count_args",
           "package": "cassandra-thrift",
@@ -7951,6 +8664,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_count_args",
           "normalized": "a b-\u003eIO Get_count_args",
@@ -7966,6 +8680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_count_args_fields",
           "package": "cassandra-thrift",
@@ -7975,6 +8690,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_count_args_fields",
           "normalized": "a b-\u003eGet_count_args-\u003eIO Get_count_args",
@@ -7990,6 +8706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_count_result",
           "package": "cassandra-thrift",
@@ -7999,6 +8716,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_count_result",
           "normalized": "a b-\u003eIO Get_count_result",
@@ -8014,6 +8732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_count_result_fields",
           "package": "cassandra-thrift",
@@ -8023,6 +8742,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_count_result_fields",
           "normalized": "a b-\u003eGet_count_result-\u003eIO Get_count_result",
@@ -8038,6 +8758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_indexed_slices_args",
           "package": "cassandra-thrift",
@@ -8047,6 +8768,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_indexed_slices_args",
           "normalized": "a b-\u003eIO Get_indexed_slices_args",
@@ -8062,6 +8784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_indexed_slices_args_fields",
           "package": "cassandra-thrift",
@@ -8071,6 +8794,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_indexed_slices_args_fields",
           "normalized": "a b-\u003eGet_indexed_slices_args-\u003eIO Get_indexed_slices_args",
@@ -8086,6 +8810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_indexed_slices_result",
           "package": "cassandra-thrift",
@@ -8095,6 +8820,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_indexed_slices_result",
           "normalized": "a b-\u003eIO Get_indexed_slices_result",
@@ -8110,6 +8836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_indexed_slices_result_fields",
           "package": "cassandra-thrift",
@@ -8119,6 +8846,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_indexed_slices_result_fields",
           "normalized": "a b-\u003eGet_indexed_slices_result-\u003eIO Get_indexed_slices_result",
@@ -8134,6 +8862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_range_slices_args",
           "package": "cassandra-thrift",
@@ -8143,6 +8872,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_range_slices_args",
           "normalized": "a b-\u003eIO Get_range_slices_args",
@@ -8158,6 +8888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_range_slices_args_fields",
           "package": "cassandra-thrift",
@@ -8167,6 +8898,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_range_slices_args_fields",
           "normalized": "a b-\u003eGet_range_slices_args-\u003eIO Get_range_slices_args",
@@ -8182,6 +8914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_range_slices_result",
           "package": "cassandra-thrift",
@@ -8191,6 +8924,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_range_slices_result",
           "normalized": "a b-\u003eIO Get_range_slices_result",
@@ -8206,6 +8940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_range_slices_result_fields",
           "package": "cassandra-thrift",
@@ -8215,6 +8950,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_range_slices_result_fields",
           "normalized": "a b-\u003eGet_range_slices_result-\u003eIO Get_range_slices_result",
@@ -8230,6 +8966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_result",
           "package": "cassandra-thrift",
@@ -8239,6 +8976,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_result",
           "normalized": "a b-\u003eIO Get_result",
@@ -8254,6 +8992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_result_fields",
           "package": "cassandra-thrift",
@@ -8263,6 +9002,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_result_fields",
           "normalized": "a b-\u003eGet_result-\u003eIO Get_result",
@@ -8278,6 +9018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_slice_args",
           "package": "cassandra-thrift",
@@ -8287,6 +9028,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_slice_args",
           "normalized": "a b-\u003eIO Get_slice_args",
@@ -8302,6 +9044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_slice_args_fields",
           "package": "cassandra-thrift",
@@ -8311,6 +9054,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_slice_args_fields",
           "normalized": "a b-\u003eGet_slice_args-\u003eIO Get_slice_args",
@@ -8326,6 +9070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_slice_result",
           "package": "cassandra-thrift",
@@ -8335,6 +9080,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_slice_result",
           "normalized": "a b-\u003eIO Get_slice_result",
@@ -8350,6 +9096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_slice_result_fields",
           "package": "cassandra-thrift",
@@ -8359,6 +9106,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Get_slice_result_fields",
           "normalized": "a b-\u003eGet_slice_result-\u003eIO Get_slice_result",
@@ -8374,6 +9122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Insert_args",
           "package": "cassandra-thrift",
@@ -8383,6 +9132,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Insert_args",
           "normalized": "a b-\u003eIO Insert_args",
@@ -8398,6 +9148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Insert_args_fields",
           "package": "cassandra-thrift",
@@ -8407,6 +9158,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Insert_args_fields",
           "normalized": "a b-\u003eInsert_args-\u003eIO Insert_args",
@@ -8422,6 +9174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Insert_result",
           "package": "cassandra-thrift",
@@ -8431,6 +9184,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Insert_result",
           "normalized": "a b-\u003eIO Insert_result",
@@ -8446,6 +9200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Insert_result_fields",
           "package": "cassandra-thrift",
@@ -8455,6 +9210,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Insert_result_fields",
           "normalized": "a b-\u003eInsert_result-\u003eIO Insert_result",
@@ -8470,6 +9226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Login_args",
           "package": "cassandra-thrift",
@@ -8479,6 +9236,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Login_args",
           "normalized": "a b-\u003eIO Login_args",
@@ -8494,6 +9252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Login_args_fields",
           "package": "cassandra-thrift",
@@ -8503,6 +9262,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Login_args_fields",
           "normalized": "a b-\u003eLogin_args-\u003eIO Login_args",
@@ -8518,6 +9278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Login_result",
           "package": "cassandra-thrift",
@@ -8527,6 +9288,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Login_result",
           "normalized": "a b-\u003eIO Login_result",
@@ -8542,6 +9304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Login_result_fields",
           "package": "cassandra-thrift",
@@ -8551,6 +9314,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Login_result_fields",
           "normalized": "a b-\u003eLogin_result-\u003eIO Login_result",
@@ -8566,6 +9330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Multiget_count_args",
           "package": "cassandra-thrift",
@@ -8575,6 +9340,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Multiget_count_args",
           "normalized": "a b-\u003eIO Multiget_count_args",
@@ -8590,6 +9356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Multiget_count_args_fields",
           "package": "cassandra-thrift",
@@ -8599,6 +9366,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Multiget_count_args_fields",
           "normalized": "a b-\u003eMultiget_count_args-\u003eIO Multiget_count_args",
@@ -8614,6 +9382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Multiget_count_result",
           "package": "cassandra-thrift",
@@ -8623,6 +9392,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Multiget_count_result",
           "normalized": "a b-\u003eIO Multiget_count_result",
@@ -8638,6 +9408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Multiget_count_result_fields",
           "package": "cassandra-thrift",
@@ -8647,6 +9418,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Multiget_count_result_fields",
           "normalized": "a b-\u003eMultiget_count_result-\u003eIO Multiget_count_result",
@@ -8662,6 +9434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Multiget_slice_args",
           "package": "cassandra-thrift",
@@ -8671,6 +9444,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Multiget_slice_args",
           "normalized": "a b-\u003eIO Multiget_slice_args",
@@ -8686,6 +9460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Multiget_slice_args_fields",
           "package": "cassandra-thrift",
@@ -8695,6 +9470,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Multiget_slice_args_fields",
           "normalized": "a b-\u003eMultiget_slice_args-\u003eIO Multiget_slice_args",
@@ -8710,6 +9486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Multiget_slice_result",
           "package": "cassandra-thrift",
@@ -8719,6 +9496,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Multiget_slice_result",
           "normalized": "a b-\u003eIO Multiget_slice_result",
@@ -8734,6 +9512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Multiget_slice_result_fields",
           "package": "cassandra-thrift",
@@ -8743,6 +9522,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Multiget_slice_result_fields",
           "normalized": "a b-\u003eMultiget_slice_result-\u003eIO Multiget_slice_result",
@@ -8758,6 +9538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Remove_args",
           "package": "cassandra-thrift",
@@ -8767,6 +9548,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Remove_args",
           "normalized": "a b-\u003eIO Remove_args",
@@ -8782,6 +9564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Remove_args_fields",
           "package": "cassandra-thrift",
@@ -8791,6 +9574,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Remove_args_fields",
           "normalized": "a b-\u003eRemove_args-\u003eIO Remove_args",
@@ -8806,6 +9590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Remove_counter_args",
           "package": "cassandra-thrift",
@@ -8815,6 +9600,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Remove_counter_args",
           "normalized": "a b-\u003eIO Remove_counter_args",
@@ -8830,6 +9616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Remove_counter_args_fields",
           "package": "cassandra-thrift",
@@ -8839,6 +9626,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Remove_counter_args_fields",
           "normalized": "a b-\u003eRemove_counter_args-\u003eIO Remove_counter_args",
@@ -8854,6 +9642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Remove_counter_result",
           "package": "cassandra-thrift",
@@ -8863,6 +9652,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Remove_counter_result",
           "normalized": "a b-\u003eIO Remove_counter_result",
@@ -8878,6 +9668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Remove_counter_result_fields",
           "package": "cassandra-thrift",
@@ -8887,6 +9678,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Remove_counter_result_fields",
           "normalized": "a b-\u003eRemove_counter_result-\u003eIO Remove_counter_result",
@@ -8902,6 +9694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Remove_result",
           "package": "cassandra-thrift",
@@ -8911,6 +9704,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Remove_result",
           "normalized": "a b-\u003eIO Remove_result",
@@ -8926,6 +9720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Remove_result_fields",
           "package": "cassandra-thrift",
@@ -8935,6 +9730,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Remove_result_fields",
           "normalized": "a b-\u003eRemove_result-\u003eIO Remove_result",
@@ -8950,6 +9746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Set_keyspace_args",
           "package": "cassandra-thrift",
@@ -8959,6 +9756,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Set_keyspace_args",
           "normalized": "a b-\u003eIO Set_keyspace_args",
@@ -8974,6 +9772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Set_keyspace_args_fields",
           "package": "cassandra-thrift",
@@ -8983,6 +9782,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Set_keyspace_args_fields",
           "normalized": "a b-\u003eSet_keyspace_args-\u003eIO Set_keyspace_args",
@@ -8998,6 +9798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Set_keyspace_result",
           "package": "cassandra-thrift",
@@ -9007,6 +9808,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Set_keyspace_result",
           "normalized": "a b-\u003eIO Set_keyspace_result",
@@ -9022,6 +9824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Set_keyspace_result_fields",
           "package": "cassandra-thrift",
@@ -9031,6 +9834,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Set_keyspace_result_fields",
           "normalized": "a b-\u003eSet_keyspace_result-\u003eIO Set_keyspace_result",
@@ -9046,6 +9850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_add_column_family_args",
           "package": "cassandra-thrift",
@@ -9055,6 +9860,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_add_column_family_args",
           "normalized": "a b-\u003eIO System_add_column_family_args",
@@ -9070,6 +9876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_add_column_family_args_fields",
           "package": "cassandra-thrift",
@@ -9079,6 +9886,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_add_column_family_args_fields",
           "normalized": "a b-\u003eSystem_add_column_family_args-\u003eIO System_add_column_family_args",
@@ -9094,6 +9902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_add_column_family_result",
           "package": "cassandra-thrift",
@@ -9103,6 +9912,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_add_column_family_result",
           "normalized": "a b-\u003eIO System_add_column_family_result",
@@ -9118,6 +9928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_add_column_family_result_fields",
           "package": "cassandra-thrift",
@@ -9127,6 +9938,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_add_column_family_result_fields",
           "normalized": "a b-\u003eSystem_add_column_family_result-\u003eIO System_add_column_family_result",
@@ -9142,6 +9954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_add_keyspace_args",
           "package": "cassandra-thrift",
@@ -9151,6 +9964,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_add_keyspace_args",
           "normalized": "a b-\u003eIO System_add_keyspace_args",
@@ -9166,6 +9980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_add_keyspace_args_fields",
           "package": "cassandra-thrift",
@@ -9175,6 +9990,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_add_keyspace_args_fields",
           "normalized": "a b-\u003eSystem_add_keyspace_args-\u003eIO System_add_keyspace_args",
@@ -9190,6 +10006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_add_keyspace_result",
           "package": "cassandra-thrift",
@@ -9199,6 +10016,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_add_keyspace_result",
           "normalized": "a b-\u003eIO System_add_keyspace_result",
@@ -9214,6 +10032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_add_keyspace_result_fields",
           "package": "cassandra-thrift",
@@ -9223,6 +10042,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_add_keyspace_result_fields",
           "normalized": "a b-\u003eSystem_add_keyspace_result-\u003eIO System_add_keyspace_result",
@@ -9238,6 +10058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_drop_column_family_args",
           "package": "cassandra-thrift",
@@ -9247,6 +10068,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_drop_column_family_args",
           "normalized": "a b-\u003eIO System_drop_column_family_args",
@@ -9262,6 +10084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_drop_column_family_args_fields",
           "package": "cassandra-thrift",
@@ -9271,6 +10094,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_drop_column_family_args_fields",
           "normalized": "a b-\u003eSystem_drop_column_family_args-\u003eIO System_drop_column_family_args",
@@ -9286,6 +10110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_drop_column_family_result",
           "package": "cassandra-thrift",
@@ -9295,6 +10120,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_drop_column_family_result",
           "normalized": "a b-\u003eIO System_drop_column_family_result",
@@ -9310,6 +10136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_drop_column_family_result_fields",
           "package": "cassandra-thrift",
@@ -9319,6 +10146,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_drop_column_family_result_fields",
           "normalized": "a b-\u003eSystem_drop_column_family_result-\u003eIO System_drop_column_family_result",
@@ -9334,6 +10162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_drop_keyspace_args",
           "package": "cassandra-thrift",
@@ -9343,6 +10172,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_drop_keyspace_args",
           "normalized": "a b-\u003eIO System_drop_keyspace_args",
@@ -9358,6 +10188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_drop_keyspace_args_fields",
           "package": "cassandra-thrift",
@@ -9367,6 +10198,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_drop_keyspace_args_fields",
           "normalized": "a b-\u003eSystem_drop_keyspace_args-\u003eIO System_drop_keyspace_args",
@@ -9382,6 +10214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_drop_keyspace_result",
           "package": "cassandra-thrift",
@@ -9391,6 +10224,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_drop_keyspace_result",
           "normalized": "a b-\u003eIO System_drop_keyspace_result",
@@ -9406,6 +10240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_drop_keyspace_result_fields",
           "package": "cassandra-thrift",
@@ -9415,6 +10250,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_drop_keyspace_result_fields",
           "normalized": "a b-\u003eSystem_drop_keyspace_result-\u003eIO System_drop_keyspace_result",
@@ -9430,6 +10266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_update_column_family_args",
           "package": "cassandra-thrift",
@@ -9439,6 +10276,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_update_column_family_args",
           "normalized": "a b-\u003eIO System_update_column_family_args",
@@ -9454,6 +10292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_update_column_family_args_fields",
           "package": "cassandra-thrift",
@@ -9463,6 +10302,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_update_column_family_args_fields",
           "normalized": "a b-\u003eSystem_update_column_family_args-\u003eIO System_update_column_family_args",
@@ -9478,6 +10318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_update_column_family_result",
           "package": "cassandra-thrift",
@@ -9487,6 +10328,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_update_column_family_result",
           "normalized": "a b-\u003eIO System_update_column_family_result",
@@ -9502,6 +10344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_update_column_family_result_fields",
           "package": "cassandra-thrift",
@@ -9511,6 +10354,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_update_column_family_result_fields",
           "normalized": "a b-\u003eSystem_update_column_family_result-\u003eIO System_update_column_family_result",
@@ -9526,6 +10370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_update_keyspace_args",
           "package": "cassandra-thrift",
@@ -9535,6 +10380,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_update_keyspace_args",
           "normalized": "a b-\u003eIO System_update_keyspace_args",
@@ -9550,6 +10396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_update_keyspace_args_fields",
           "package": "cassandra-thrift",
@@ -9559,6 +10406,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_update_keyspace_args_fields",
           "normalized": "a b-\u003eSystem_update_keyspace_args-\u003eIO System_update_keyspace_args",
@@ -9574,6 +10422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_update_keyspace_result",
           "package": "cassandra-thrift",
@@ -9583,6 +10432,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_update_keyspace_result",
           "normalized": "a b-\u003eIO System_update_keyspace_result",
@@ -9598,6 +10448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_update_keyspace_result_fields",
           "package": "cassandra-thrift",
@@ -9607,6 +10458,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_System_update_keyspace_result_fields",
           "normalized": "a b-\u003eSystem_update_keyspace_result-\u003eIO System_update_keyspace_result",
@@ -9622,6 +10474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Truncate_args",
           "package": "cassandra-thrift",
@@ -9631,6 +10484,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Truncate_args",
           "normalized": "a b-\u003eIO Truncate_args",
@@ -9646,6 +10500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Truncate_args_fields",
           "package": "cassandra-thrift",
@@ -9655,6 +10510,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Truncate_args_fields",
           "normalized": "a b-\u003eTruncate_args-\u003eIO Truncate_args",
@@ -9670,6 +10526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Truncate_result",
           "package": "cassandra-thrift",
@@ -9679,6 +10536,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Truncate_result",
           "normalized": "a b-\u003eIO Truncate_result",
@@ -9694,6 +10552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Truncate_result_fields",
           "package": "cassandra-thrift",
@@ -9703,6 +10562,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "read_Truncate_result_fields",
           "normalized": "a b-\u003eTruncate_result-\u003eIO Truncate_result",
@@ -9718,6 +10578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Add_args",
           "package": "cassandra-thrift",
@@ -9727,6 +10588,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Add_args",
           "normalized": "a b-\u003eAdd_args-\u003eIO()",
@@ -9742,6 +10604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Add_result",
           "package": "cassandra-thrift",
@@ -9751,6 +10614,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Add_result",
           "normalized": "a b-\u003eAdd_result-\u003eIO()",
@@ -9766,6 +10630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Batch_mutate_args",
           "package": "cassandra-thrift",
@@ -9775,6 +10640,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Batch_mutate_args",
           "normalized": "a b-\u003eBatch_mutate_args-\u003eIO()",
@@ -9790,6 +10656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Batch_mutate_result",
           "package": "cassandra-thrift",
@@ -9799,6 +10666,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Batch_mutate_result",
           "normalized": "a b-\u003eBatch_mutate_result-\u003eIO()",
@@ -9814,6 +10682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_cluster_name_args",
           "package": "cassandra-thrift",
@@ -9823,6 +10692,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_cluster_name_args",
           "normalized": "a b-\u003eb-\u003eIO()",
@@ -9838,6 +10708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_cluster_name_result",
           "package": "cassandra-thrift",
@@ -9847,6 +10718,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_cluster_name_result",
           "normalized": "a b-\u003eDescribe_cluster_name_result-\u003eIO()",
@@ -9862,6 +10734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_keyspace_args",
           "package": "cassandra-thrift",
@@ -9871,6 +10744,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_keyspace_args",
           "normalized": "a b-\u003eDescribe_keyspace_args-\u003eIO()",
@@ -9886,6 +10760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_keyspace_result",
           "package": "cassandra-thrift",
@@ -9895,6 +10770,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_keyspace_result",
           "normalized": "a b-\u003eDescribe_keyspace_result-\u003eIO()",
@@ -9910,6 +10786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_keyspaces_args",
           "package": "cassandra-thrift",
@@ -9919,6 +10796,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_keyspaces_args",
           "normalized": "a b-\u003eb-\u003eIO()",
@@ -9934,6 +10812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_keyspaces_result",
           "package": "cassandra-thrift",
@@ -9943,6 +10822,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_keyspaces_result",
           "normalized": "a b-\u003eDescribe_keyspaces_result-\u003eIO()",
@@ -9958,6 +10838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_partitioner_args",
           "package": "cassandra-thrift",
@@ -9967,6 +10848,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_partitioner_args",
           "normalized": "a b-\u003eb-\u003eIO()",
@@ -9982,6 +10864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_partitioner_result",
           "package": "cassandra-thrift",
@@ -9991,6 +10874,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_partitioner_result",
           "normalized": "a b-\u003eDescribe_partitioner_result-\u003eIO()",
@@ -10006,6 +10890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_ring_args",
           "package": "cassandra-thrift",
@@ -10015,6 +10900,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_ring_args",
           "normalized": "a b-\u003eDescribe_ring_args-\u003eIO()",
@@ -10030,6 +10916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_ring_result",
           "package": "cassandra-thrift",
@@ -10039,6 +10926,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_ring_result",
           "normalized": "a b-\u003eDescribe_ring_result-\u003eIO()",
@@ -10054,6 +10942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_schema_versions_args",
           "package": "cassandra-thrift",
@@ -10063,6 +10952,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_schema_versions_args",
           "normalized": "a b-\u003eb-\u003eIO()",
@@ -10078,6 +10968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_schema_versions_result",
           "package": "cassandra-thrift",
@@ -10087,6 +10978,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_schema_versions_result",
           "normalized": "a b-\u003eDescribe_schema_versions_result-\u003eIO()",
@@ -10102,6 +10994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_snitch_args",
           "package": "cassandra-thrift",
@@ -10111,6 +11004,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_snitch_args",
           "normalized": "a b-\u003eb-\u003eIO()",
@@ -10126,6 +11020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_snitch_result",
           "package": "cassandra-thrift",
@@ -10135,6 +11030,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_snitch_result",
           "normalized": "a b-\u003eDescribe_snitch_result-\u003eIO()",
@@ -10150,6 +11046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_splits_args",
           "package": "cassandra-thrift",
@@ -10159,6 +11056,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_splits_args",
           "normalized": "a b-\u003eDescribe_splits_args-\u003eIO()",
@@ -10174,6 +11072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_splits_result",
           "package": "cassandra-thrift",
@@ -10183,6 +11082,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_splits_result",
           "normalized": "a b-\u003eDescribe_splits_result-\u003eIO()",
@@ -10198,6 +11098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_version_args",
           "package": "cassandra-thrift",
@@ -10207,6 +11108,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_version_args",
           "normalized": "a b-\u003eb-\u003eIO()",
@@ -10222,6 +11124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_version_result",
           "package": "cassandra-thrift",
@@ -10231,6 +11134,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Describe_version_result",
           "normalized": "a b-\u003eDescribe_version_result-\u003eIO()",
@@ -10246,6 +11150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Execute_cql_query_args",
           "package": "cassandra-thrift",
@@ -10255,6 +11160,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Execute_cql_query_args",
           "normalized": "a b-\u003eExecute_cql_query_args-\u003eIO()",
@@ -10270,6 +11176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Execute_cql_query_result",
           "package": "cassandra-thrift",
@@ -10279,6 +11186,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Execute_cql_query_result",
           "normalized": "a b-\u003eExecute_cql_query_result-\u003eIO()",
@@ -10294,6 +11202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Get_args",
           "package": "cassandra-thrift",
@@ -10303,6 +11212,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Get_args",
           "normalized": "a b-\u003eGet_args-\u003eIO()",
@@ -10318,6 +11228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Get_count_args",
           "package": "cassandra-thrift",
@@ -10327,6 +11238,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Get_count_args",
           "normalized": "a b-\u003eGet_count_args-\u003eIO()",
@@ -10342,6 +11254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Get_count_result",
           "package": "cassandra-thrift",
@@ -10351,6 +11264,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Get_count_result",
           "normalized": "a b-\u003eGet_count_result-\u003eIO()",
@@ -10366,6 +11280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Get_indexed_slices_args",
           "package": "cassandra-thrift",
@@ -10375,6 +11290,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Get_indexed_slices_args",
           "normalized": "a b-\u003eGet_indexed_slices_args-\u003eIO()",
@@ -10390,6 +11306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Get_indexed_slices_result",
           "package": "cassandra-thrift",
@@ -10399,6 +11316,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Get_indexed_slices_result",
           "normalized": "a b-\u003eGet_indexed_slices_result-\u003eIO()",
@@ -10414,6 +11332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Get_range_slices_args",
           "package": "cassandra-thrift",
@@ -10423,6 +11342,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Get_range_slices_args",
           "normalized": "a b-\u003eGet_range_slices_args-\u003eIO()",
@@ -10438,6 +11358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Get_range_slices_result",
           "package": "cassandra-thrift",
@@ -10447,6 +11368,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Get_range_slices_result",
           "normalized": "a b-\u003eGet_range_slices_result-\u003eIO()",
@@ -10462,6 +11384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Get_result",
           "package": "cassandra-thrift",
@@ -10471,6 +11394,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Get_result",
           "normalized": "a b-\u003eGet_result-\u003eIO()",
@@ -10486,6 +11410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Get_slice_args",
           "package": "cassandra-thrift",
@@ -10495,6 +11420,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Get_slice_args",
           "normalized": "a b-\u003eGet_slice_args-\u003eIO()",
@@ -10510,6 +11436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Get_slice_result",
           "package": "cassandra-thrift",
@@ -10519,6 +11446,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Get_slice_result",
           "normalized": "a b-\u003eGet_slice_result-\u003eIO()",
@@ -10534,6 +11462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Insert_args",
           "package": "cassandra-thrift",
@@ -10543,6 +11472,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Insert_args",
           "normalized": "a b-\u003eInsert_args-\u003eIO()",
@@ -10558,6 +11488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Insert_result",
           "package": "cassandra-thrift",
@@ -10567,6 +11498,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Insert_result",
           "normalized": "a b-\u003eInsert_result-\u003eIO()",
@@ -10582,6 +11514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Login_args",
           "package": "cassandra-thrift",
@@ -10591,6 +11524,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Login_args",
           "normalized": "a b-\u003eLogin_args-\u003eIO()",
@@ -10606,6 +11540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Login_result",
           "package": "cassandra-thrift",
@@ -10615,6 +11550,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Login_result",
           "normalized": "a b-\u003eLogin_result-\u003eIO()",
@@ -10630,6 +11566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Multiget_count_args",
           "package": "cassandra-thrift",
@@ -10639,6 +11576,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Multiget_count_args",
           "normalized": "a b-\u003eMultiget_count_args-\u003eIO()",
@@ -10654,6 +11592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Multiget_count_result",
           "package": "cassandra-thrift",
@@ -10663,6 +11602,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Multiget_count_result",
           "normalized": "a b-\u003eMultiget_count_result-\u003eIO()",
@@ -10678,6 +11618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Multiget_slice_args",
           "package": "cassandra-thrift",
@@ -10687,6 +11628,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Multiget_slice_args",
           "normalized": "a b-\u003eMultiget_slice_args-\u003eIO()",
@@ -10702,6 +11644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Multiget_slice_result",
           "package": "cassandra-thrift",
@@ -10711,6 +11654,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Multiget_slice_result",
           "normalized": "a b-\u003eMultiget_slice_result-\u003eIO()",
@@ -10726,6 +11670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Remove_args",
           "package": "cassandra-thrift",
@@ -10735,6 +11680,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Remove_args",
           "normalized": "a b-\u003eRemove_args-\u003eIO()",
@@ -10750,6 +11696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Remove_counter_args",
           "package": "cassandra-thrift",
@@ -10759,6 +11706,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Remove_counter_args",
           "normalized": "a b-\u003eRemove_counter_args-\u003eIO()",
@@ -10774,6 +11722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Remove_counter_result",
           "package": "cassandra-thrift",
@@ -10783,6 +11732,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Remove_counter_result",
           "normalized": "a b-\u003eRemove_counter_result-\u003eIO()",
@@ -10798,6 +11748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Remove_result",
           "package": "cassandra-thrift",
@@ -10807,6 +11758,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Remove_result",
           "normalized": "a b-\u003eRemove_result-\u003eIO()",
@@ -10822,6 +11774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Set_keyspace_args",
           "package": "cassandra-thrift",
@@ -10831,6 +11784,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Set_keyspace_args",
           "normalized": "a b-\u003eSet_keyspace_args-\u003eIO()",
@@ -10846,6 +11800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Set_keyspace_result",
           "package": "cassandra-thrift",
@@ -10855,6 +11810,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Set_keyspace_result",
           "normalized": "a b-\u003eSet_keyspace_result-\u003eIO()",
@@ -10870,6 +11826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_add_column_family_args",
           "package": "cassandra-thrift",
@@ -10879,6 +11836,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_add_column_family_args",
           "normalized": "a b-\u003eSystem_add_column_family_args-\u003eIO()",
@@ -10894,6 +11852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_add_column_family_result",
           "package": "cassandra-thrift",
@@ -10903,6 +11862,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_add_column_family_result",
           "normalized": "a b-\u003eSystem_add_column_family_result-\u003eIO()",
@@ -10918,6 +11878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_add_keyspace_args",
           "package": "cassandra-thrift",
@@ -10927,6 +11888,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_add_keyspace_args",
           "normalized": "a b-\u003eSystem_add_keyspace_args-\u003eIO()",
@@ -10942,6 +11904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_add_keyspace_result",
           "package": "cassandra-thrift",
@@ -10951,6 +11914,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_add_keyspace_result",
           "normalized": "a b-\u003eSystem_add_keyspace_result-\u003eIO()",
@@ -10966,6 +11930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_drop_column_family_args",
           "package": "cassandra-thrift",
@@ -10975,6 +11940,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_drop_column_family_args",
           "normalized": "a b-\u003eSystem_drop_column_family_args-\u003eIO()",
@@ -10990,6 +11956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_drop_column_family_result",
           "package": "cassandra-thrift",
@@ -10999,6 +11966,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_drop_column_family_result",
           "normalized": "a b-\u003eSystem_drop_column_family_result-\u003eIO()",
@@ -11014,6 +11982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_drop_keyspace_args",
           "package": "cassandra-thrift",
@@ -11023,6 +11992,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_drop_keyspace_args",
           "normalized": "a b-\u003eSystem_drop_keyspace_args-\u003eIO()",
@@ -11038,6 +12008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_drop_keyspace_result",
           "package": "cassandra-thrift",
@@ -11047,6 +12018,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_drop_keyspace_result",
           "normalized": "a b-\u003eSystem_drop_keyspace_result-\u003eIO()",
@@ -11062,6 +12034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_update_column_family_args",
           "package": "cassandra-thrift",
@@ -11071,6 +12044,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_update_column_family_args",
           "normalized": "a b-\u003eSystem_update_column_family_args-\u003eIO()",
@@ -11086,6 +12060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_update_column_family_result",
           "package": "cassandra-thrift",
@@ -11095,6 +12070,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_update_column_family_result",
           "normalized": "a b-\u003eSystem_update_column_family_result-\u003eIO()",
@@ -11110,6 +12086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_update_keyspace_args",
           "package": "cassandra-thrift",
@@ -11119,6 +12096,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_update_keyspace_args",
           "normalized": "a b-\u003eSystem_update_keyspace_args-\u003eIO()",
@@ -11134,6 +12112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_update_keyspace_result",
           "package": "cassandra-thrift",
@@ -11143,6 +12122,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_System_update_keyspace_result",
           "normalized": "a b-\u003eSystem_update_keyspace_result-\u003eIO()",
@@ -11158,6 +12138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Truncate_args",
           "package": "cassandra-thrift",
@@ -11167,6 +12148,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Truncate_args",
           "normalized": "a b-\u003eTruncate_args-\u003eIO()",
@@ -11182,6 +12164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Truncate_result",
           "package": "cassandra-thrift",
@@ -11191,6 +12174,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra",
           "name": "write_Truncate_result",
           "normalized": "a b-\u003eTruncate_result-\u003eIO()",
@@ -11206,6 +12190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "Cassandra_Client",
           "package": "cassandra-thrift",
@@ -11214,6 +12199,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "Cassandra_Client",
           "package": "cassandra-thrift",
@@ -11227,6 +12213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "add",
           "package": "cassandra-thrift",
@@ -11236,6 +12223,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "add",
           "normalized": "(a b,a a)-\u003eByteString-\u003eColumnParent-\u003eCounterColumn-\u003eConsistencyLevel-\u003eIO()",
@@ -11250,6 +12238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "batch_mutate",
           "package": "cassandra-thrift",
@@ -11259,6 +12248,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "batch_mutate",
           "normalized": "(a b,a a)-\u003eMap ByteString(Map String[Mutation])-\u003eConsistencyLevel-\u003eIO()",
@@ -11273,6 +12263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "describe_cluster_name",
           "package": "cassandra-thrift",
@@ -11282,6 +12273,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "describe_cluster_name",
           "normalized": "(a b,a a)-\u003eIO String",
@@ -11296,6 +12288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "describe_keyspace",
           "package": "cassandra-thrift",
@@ -11305,6 +12298,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "describe_keyspace",
           "normalized": "(a b,a a)-\u003eString-\u003eIO KsDef",
@@ -11319,6 +12313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "describe_keyspaces",
           "package": "cassandra-thrift",
@@ -11328,6 +12323,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "describe_keyspaces",
           "normalized": "(a b,a a)-\u003eIO[KsDef]",
@@ -11342,6 +12338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "describe_partitioner",
           "package": "cassandra-thrift",
@@ -11351,6 +12348,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "describe_partitioner",
           "normalized": "(a b,a a)-\u003eIO String",
@@ -11365,6 +12363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "describe_ring",
           "package": "cassandra-thrift",
@@ -11374,6 +12373,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "describe_ring",
           "normalized": "(a b,a a)-\u003eString-\u003eIO[TokenRange]",
@@ -11388,6 +12388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "describe_schema_versions",
           "package": "cassandra-thrift",
@@ -11397,6 +12398,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "describe_schema_versions",
           "normalized": "(a b,a a)-\u003eIO(Map String[String])",
@@ -11411,6 +12413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "describe_snitch",
           "package": "cassandra-thrift",
@@ -11420,6 +12423,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "describe_snitch",
           "normalized": "(a b,a a)-\u003eIO String",
@@ -11434,6 +12438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "describe_splits",
           "package": "cassandra-thrift",
@@ -11443,6 +12448,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "describe_splits",
           "normalized": "(a b,a a)-\u003eString-\u003eString-\u003eString-\u003eInt-\u003eIO[String]",
@@ -11457,6 +12463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "describe_version",
           "package": "cassandra-thrift",
@@ -11466,6 +12473,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "describe_version",
           "normalized": "(a b,a a)-\u003eIO String",
@@ -11480,6 +12488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "execute_cql_query",
           "package": "cassandra-thrift",
@@ -11489,6 +12498,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "execute_cql_query",
           "normalized": "(a b,a a)-\u003eByteString-\u003eCompression-\u003eIO CqlResult",
@@ -11503,6 +12513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "get",
           "package": "cassandra-thrift",
@@ -11512,6 +12523,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "get",
           "normalized": "(a b,a a)-\u003eByteString-\u003eColumnPath-\u003eConsistencyLevel-\u003eIO ColumnOrSuperColumn",
@@ -11526,6 +12538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "get_count",
           "package": "cassandra-thrift",
@@ -11535,6 +12548,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "get_count",
           "normalized": "(a b,a a)-\u003eByteString-\u003eColumnParent-\u003eSlicePredicate-\u003eConsistencyLevel-\u003eIO Int",
@@ -11549,6 +12563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "get_indexed_slices",
           "package": "cassandra-thrift",
@@ -11558,6 +12573,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "get_indexed_slices",
           "normalized": "(a b,a a)-\u003eColumnParent-\u003eIndexClause-\u003eSlicePredicate-\u003eConsistencyLevel-\u003eIO[KeySlice]",
@@ -11572,6 +12588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "get_range_slices",
           "package": "cassandra-thrift",
@@ -11581,6 +12598,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "get_range_slices",
           "normalized": "(a b,a a)-\u003eColumnParent-\u003eSlicePredicate-\u003eKeyRange-\u003eConsistencyLevel-\u003eIO[KeySlice]",
@@ -11595,6 +12613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "get_slice",
           "package": "cassandra-thrift",
@@ -11604,6 +12623,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "get_slice",
           "normalized": "(a b,a a)-\u003eByteString-\u003eColumnParent-\u003eSlicePredicate-\u003eConsistencyLevel-\u003eIO[ColumnOrSuperColumn]",
@@ -11618,6 +12638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "insert",
           "package": "cassandra-thrift",
@@ -11627,6 +12648,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "insert",
           "normalized": "(a b,a a)-\u003eByteString-\u003eColumnParent-\u003eColumn-\u003eConsistencyLevel-\u003eIO()",
@@ -11641,6 +12663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "login",
           "package": "cassandra-thrift",
@@ -11650,6 +12673,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "login",
           "normalized": "(a b,a a)-\u003eAuthenticationRequest-\u003eIO()",
@@ -11664,6 +12688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "multiget_count",
           "package": "cassandra-thrift",
@@ -11673,6 +12698,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "multiget_count",
           "normalized": "(a b,a a)-\u003e[ByteString]-\u003eColumnParent-\u003eSlicePredicate-\u003eConsistencyLevel-\u003eIO(Map ByteString Int)",
@@ -11687,6 +12713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "multiget_slice",
           "package": "cassandra-thrift",
@@ -11696,6 +12723,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "multiget_slice",
           "normalized": "(a b,a a)-\u003e[ByteString]-\u003eColumnParent-\u003eSlicePredicate-\u003eConsistencyLevel-\u003eIO(Map ByteString[ColumnOrSuperColumn])",
@@ -11710,6 +12738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "remove",
           "package": "cassandra-thrift",
@@ -11719,6 +12748,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "remove",
           "normalized": "(a b,a a)-\u003eByteString-\u003eColumnPath-\u003eInt-\u003eConsistencyLevel-\u003eIO()",
@@ -11733,6 +12763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "remove_counter",
           "package": "cassandra-thrift",
@@ -11742,6 +12773,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "remove_counter",
           "normalized": "(a b,a a)-\u003eByteString-\u003eColumnPath-\u003eConsistencyLevel-\u003eIO()",
@@ -11756,6 +12788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "set_keyspace",
           "package": "cassandra-thrift",
@@ -11765,6 +12798,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "set_keyspace",
           "normalized": "(a b,a a)-\u003eString-\u003eIO()",
@@ -11779,6 +12813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "system_add_column_family",
           "package": "cassandra-thrift",
@@ -11788,6 +12823,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "system_add_column_family",
           "normalized": "(a b,a a)-\u003eCfDef-\u003eIO String",
@@ -11802,6 +12838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "system_add_keyspace",
           "package": "cassandra-thrift",
@@ -11811,6 +12848,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "system_add_keyspace",
           "normalized": "(a b,a a)-\u003eKsDef-\u003eIO String",
@@ -11825,6 +12863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "system_drop_column_family",
           "package": "cassandra-thrift",
@@ -11834,6 +12873,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "system_drop_column_family",
           "normalized": "(a b,a a)-\u003eString-\u003eIO String",
@@ -11848,6 +12888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "system_drop_keyspace",
           "package": "cassandra-thrift",
@@ -11857,6 +12898,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "system_drop_keyspace",
           "normalized": "(a b,a a)-\u003eString-\u003eIO String",
@@ -11871,6 +12913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "system_update_column_family",
           "package": "cassandra-thrift",
@@ -11880,6 +12923,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "system_update_column_family",
           "normalized": "(a b,a a)-\u003eCfDef-\u003eIO String",
@@ -11894,6 +12938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "system_update_keyspace",
           "package": "cassandra-thrift",
@@ -11903,6 +12948,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "system_update_keyspace",
           "normalized": "(a b,a a)-\u003eKsDef-\u003eIO String",
@@ -11917,6 +12963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "truncate",
           "package": "cassandra-thrift",
@@ -11926,6 +12973,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Client",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Client",
           "name": "truncate",
           "normalized": "(a b,a a)-\u003eString-\u003eIO()",
@@ -11940,6 +12988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Consts",
           "name": "Cassandra_Consts",
           "package": "cassandra-thrift",
@@ -11948,6 +12997,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Consts",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Consts",
           "name": "Cassandra_Consts",
           "package": "cassandra-thrift",
@@ -11961,6 +13011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Consts",
           "name": "vERSION",
           "package": "cassandra-thrift",
@@ -11970,6 +13021,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Consts",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Consts",
           "name": "vERSION",
           "package": "cassandra-thrift",
@@ -11983,6 +13035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "Cassandra_Iface",
           "package": "cassandra-thrift",
@@ -11991,6 +13044,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "Cassandra_Iface",
           "package": "cassandra-thrift",
@@ -12004,6 +13058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "Cassandra_Iface",
           "package": "cassandra-thrift",
@@ -12012,6 +13067,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "Cassandra_Iface",
           "package": "cassandra-thrift",
@@ -12025,6 +13081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "add",
           "package": "cassandra-thrift",
@@ -12034,6 +13091,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "add",
           "normalized": "a-\u003eMaybe ByteString-\u003eMaybe ColumnParent-\u003eMaybe CounterColumn-\u003eMaybe ConsistencyLevel-\u003eIO()",
@@ -12048,6 +13106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "batch_mutate",
           "package": "cassandra-thrift",
@@ -12057,6 +13116,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "batch_mutate",
           "normalized": "a-\u003eMaybe(Map ByteString(Map String[Mutation]))-\u003eMaybe ConsistencyLevel-\u003eIO()",
@@ -12071,6 +13131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "describe_cluster_name",
           "package": "cassandra-thrift",
@@ -12080,6 +13141,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "describe_cluster_name",
           "normalized": "a-\u003eIO String",
@@ -12094,6 +13156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "describe_keyspace",
           "package": "cassandra-thrift",
@@ -12103,6 +13166,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "describe_keyspace",
           "normalized": "a-\u003eMaybe String-\u003eIO KsDef",
@@ -12117,6 +13181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "describe_keyspaces",
           "package": "cassandra-thrift",
@@ -12126,6 +13191,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "describe_keyspaces",
           "normalized": "a-\u003eIO[KsDef]",
@@ -12140,6 +13206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "describe_partitioner",
           "package": "cassandra-thrift",
@@ -12149,6 +13216,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "describe_partitioner",
           "normalized": "a-\u003eIO String",
@@ -12163,6 +13231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "describe_ring",
           "package": "cassandra-thrift",
@@ -12172,6 +13241,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "describe_ring",
           "normalized": "a-\u003eMaybe String-\u003eIO[TokenRange]",
@@ -12186,6 +13256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "describe_schema_versions",
           "package": "cassandra-thrift",
@@ -12195,6 +13266,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "describe_schema_versions",
           "normalized": "a-\u003eIO(Map String[String])",
@@ -12209,6 +13281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "describe_snitch",
           "package": "cassandra-thrift",
@@ -12218,6 +13291,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "describe_snitch",
           "normalized": "a-\u003eIO String",
@@ -12232,6 +13306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "describe_splits",
           "package": "cassandra-thrift",
@@ -12241,6 +13316,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "describe_splits",
           "normalized": "a-\u003eMaybe String-\u003eMaybe String-\u003eMaybe String-\u003eMaybe Int-\u003eIO[String]",
@@ -12255,6 +13331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "describe_version",
           "package": "cassandra-thrift",
@@ -12264,6 +13341,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "describe_version",
           "normalized": "a-\u003eIO String",
@@ -12278,6 +13356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "execute_cql_query",
           "package": "cassandra-thrift",
@@ -12287,6 +13366,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "execute_cql_query",
           "normalized": "a-\u003eMaybe ByteString-\u003eMaybe Compression-\u003eIO CqlResult",
@@ -12301,6 +13381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "get",
           "package": "cassandra-thrift",
@@ -12310,6 +13391,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "get",
           "normalized": "a-\u003eMaybe ByteString-\u003eMaybe ColumnPath-\u003eMaybe ConsistencyLevel-\u003eIO ColumnOrSuperColumn",
@@ -12324,6 +13406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "get_count",
           "package": "cassandra-thrift",
@@ -12333,6 +13416,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "get_count",
           "normalized": "a-\u003eMaybe ByteString-\u003eMaybe ColumnParent-\u003eMaybe SlicePredicate-\u003eMaybe ConsistencyLevel-\u003eIO Int",
@@ -12347,6 +13431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "get_indexed_slices",
           "package": "cassandra-thrift",
@@ -12356,6 +13441,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "get_indexed_slices",
           "normalized": "a-\u003eMaybe ColumnParent-\u003eMaybe IndexClause-\u003eMaybe SlicePredicate-\u003eMaybe ConsistencyLevel-\u003eIO[KeySlice]",
@@ -12370,6 +13456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "get_range_slices",
           "package": "cassandra-thrift",
@@ -12379,6 +13466,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "get_range_slices",
           "normalized": "a-\u003eMaybe ColumnParent-\u003eMaybe SlicePredicate-\u003eMaybe KeyRange-\u003eMaybe ConsistencyLevel-\u003eIO[KeySlice]",
@@ -12393,6 +13481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "get_slice",
           "package": "cassandra-thrift",
@@ -12402,6 +13491,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "get_slice",
           "normalized": "a-\u003eMaybe ByteString-\u003eMaybe ColumnParent-\u003eMaybe SlicePredicate-\u003eMaybe ConsistencyLevel-\u003eIO[ColumnOrSuperColumn]",
@@ -12416,6 +13506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "insert",
           "package": "cassandra-thrift",
@@ -12425,6 +13516,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "insert",
           "normalized": "a-\u003eMaybe ByteString-\u003eMaybe ColumnParent-\u003eMaybe Column-\u003eMaybe ConsistencyLevel-\u003eIO()",
@@ -12439,6 +13531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "login",
           "package": "cassandra-thrift",
@@ -12448,6 +13541,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "login",
           "normalized": "a-\u003eMaybe AuthenticationRequest-\u003eIO()",
@@ -12462,6 +13556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "multiget_count",
           "package": "cassandra-thrift",
@@ -12471,6 +13566,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "multiget_count",
           "normalized": "a-\u003eMaybe[ByteString]-\u003eMaybe ColumnParent-\u003eMaybe SlicePredicate-\u003eMaybe ConsistencyLevel-\u003eIO(Map ByteString Int)",
@@ -12485,6 +13581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "multiget_slice",
           "package": "cassandra-thrift",
@@ -12494,6 +13591,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "multiget_slice",
           "normalized": "a-\u003eMaybe[ByteString]-\u003eMaybe ColumnParent-\u003eMaybe SlicePredicate-\u003eMaybe ConsistencyLevel-\u003eIO(Map ByteString[ColumnOrSuperColumn])",
@@ -12508,6 +13606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "remove",
           "package": "cassandra-thrift",
@@ -12517,6 +13616,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "remove",
           "normalized": "a-\u003eMaybe ByteString-\u003eMaybe ColumnPath-\u003eMaybe Int-\u003eMaybe ConsistencyLevel-\u003eIO()",
@@ -12531,6 +13631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "remove_counter",
           "package": "cassandra-thrift",
@@ -12540,6 +13641,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "remove_counter",
           "normalized": "a-\u003eMaybe ByteString-\u003eMaybe ColumnPath-\u003eMaybe ConsistencyLevel-\u003eIO()",
@@ -12554,6 +13656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "set_keyspace",
           "package": "cassandra-thrift",
@@ -12563,6 +13666,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "set_keyspace",
           "normalized": "a-\u003eMaybe String-\u003eIO()",
@@ -12577,6 +13681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "system_add_column_family",
           "package": "cassandra-thrift",
@@ -12586,6 +13691,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "system_add_column_family",
           "normalized": "a-\u003eMaybe CfDef-\u003eIO String",
@@ -12600,6 +13706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "system_add_keyspace",
           "package": "cassandra-thrift",
@@ -12609,6 +13716,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "system_add_keyspace",
           "normalized": "a-\u003eMaybe KsDef-\u003eIO String",
@@ -12623,6 +13731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "system_drop_column_family",
           "package": "cassandra-thrift",
@@ -12632,6 +13741,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "system_drop_column_family",
           "normalized": "a-\u003eMaybe String-\u003eIO String",
@@ -12646,6 +13756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "system_drop_keyspace",
           "package": "cassandra-thrift",
@@ -12655,6 +13766,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "system_drop_keyspace",
           "normalized": "a-\u003eMaybe String-\u003eIO String",
@@ -12669,6 +13781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "system_update_column_family",
           "package": "cassandra-thrift",
@@ -12678,6 +13791,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "system_update_column_family",
           "normalized": "a-\u003eMaybe CfDef-\u003eIO String",
@@ -12692,6 +13806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "system_update_keyspace",
           "package": "cassandra-thrift",
@@ -12701,6 +13816,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "system_update_keyspace",
           "normalized": "a-\u003eMaybe KsDef-\u003eIO String",
@@ -12715,6 +13831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "truncate",
           "package": "cassandra-thrift",
@@ -12724,6 +13841,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Iface",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Iface",
           "name": "truncate",
           "normalized": "a-\u003eMaybe String-\u003eIO()",
@@ -12738,6 +13856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "Cassandra_Types",
           "package": "cassandra-thrift",
@@ -12746,6 +13865,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "Cassandra_Types",
           "package": "cassandra-thrift",
@@ -12759,6 +13879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "AuthenticationException",
           "package": "cassandra-thrift",
@@ -12767,6 +13888,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "AuthenticationException",
           "package": "cassandra-thrift",
@@ -12780,6 +13902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "AuthenticationRequest",
           "package": "cassandra-thrift",
@@ -12788,6 +13911,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "AuthenticationRequest",
           "package": "cassandra-thrift",
@@ -12801,6 +13925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "AuthorizationException",
           "package": "cassandra-thrift",
@@ -12809,6 +13934,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "AuthorizationException",
           "package": "cassandra-thrift",
@@ -12822,6 +13948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "CfDef",
           "package": "cassandra-thrift",
@@ -12830,6 +13957,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "CfDef",
           "package": "cassandra-thrift",
@@ -12843,6 +13971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "Column",
           "package": "cassandra-thrift",
@@ -12851,6 +13980,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "Column",
           "package": "cassandra-thrift",
@@ -12864,6 +13994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ColumnDef",
           "package": "cassandra-thrift",
@@ -12872,6 +14003,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ColumnDef",
           "package": "cassandra-thrift",
@@ -12885,6 +14017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ColumnOrSuperColumn",
           "package": "cassandra-thrift",
@@ -12893,6 +14026,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ColumnOrSuperColumn",
           "package": "cassandra-thrift",
@@ -12906,6 +14040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ColumnParent",
           "package": "cassandra-thrift",
@@ -12914,6 +14049,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ColumnParent",
           "package": "cassandra-thrift",
@@ -12927,6 +14063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ColumnPath",
           "package": "cassandra-thrift",
@@ -12935,6 +14072,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ColumnPath",
           "package": "cassandra-thrift",
@@ -12948,6 +14086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "Compression",
           "package": "cassandra-thrift",
@@ -12956,6 +14095,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "Compression",
           "package": "cassandra-thrift",
@@ -12969,6 +14109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ConsistencyLevel",
           "package": "cassandra-thrift",
@@ -12977,6 +14118,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ConsistencyLevel",
           "package": "cassandra-thrift",
@@ -12990,6 +14132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "CounterColumn",
           "package": "cassandra-thrift",
@@ -12998,6 +14141,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "CounterColumn",
           "package": "cassandra-thrift",
@@ -13011,6 +14155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "CounterSuperColumn",
           "package": "cassandra-thrift",
@@ -13019,6 +14164,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "CounterSuperColumn",
           "package": "cassandra-thrift",
@@ -13032,6 +14178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "CqlResult",
           "package": "cassandra-thrift",
@@ -13040,6 +14187,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "CqlResult",
           "package": "cassandra-thrift",
@@ -13053,6 +14201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "CqlResultType",
           "package": "cassandra-thrift",
@@ -13061,6 +14210,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "CqlResultType",
           "package": "cassandra-thrift",
@@ -13074,6 +14224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "CqlRow",
           "package": "cassandra-thrift",
@@ -13082,6 +14233,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "CqlRow",
           "package": "cassandra-thrift",
@@ -13095,6 +14247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "Deletion",
           "package": "cassandra-thrift",
@@ -13103,6 +14256,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "Deletion",
           "package": "cassandra-thrift",
@@ -13116,6 +14270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "IndexClause",
           "package": "cassandra-thrift",
@@ -13124,6 +14279,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "IndexClause",
           "package": "cassandra-thrift",
@@ -13137,6 +14293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "IndexExpression",
           "package": "cassandra-thrift",
@@ -13145,6 +14302,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "IndexExpression",
           "package": "cassandra-thrift",
@@ -13158,6 +14316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "IndexOperator",
           "package": "cassandra-thrift",
@@ -13166,6 +14325,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "IndexOperator",
           "package": "cassandra-thrift",
@@ -13179,6 +14339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "IndexType",
           "package": "cassandra-thrift",
@@ -13187,6 +14348,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "IndexType",
           "package": "cassandra-thrift",
@@ -13200,6 +14362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "InvalidRequestException",
           "package": "cassandra-thrift",
@@ -13208,6 +14371,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "InvalidRequestException",
           "package": "cassandra-thrift",
@@ -13221,6 +14385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "KeyCount",
           "package": "cassandra-thrift",
@@ -13229,6 +14394,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "KeyCount",
           "package": "cassandra-thrift",
@@ -13242,6 +14408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "KeyRange",
           "package": "cassandra-thrift",
@@ -13250,6 +14417,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "KeyRange",
           "package": "cassandra-thrift",
@@ -13263,6 +14431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "KeySlice",
           "package": "cassandra-thrift",
@@ -13271,6 +14440,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "KeySlice",
           "package": "cassandra-thrift",
@@ -13284,6 +14454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "KsDef",
           "package": "cassandra-thrift",
@@ -13292,6 +14463,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "KsDef",
           "package": "cassandra-thrift",
@@ -13305,6 +14477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "Mutation",
           "package": "cassandra-thrift",
@@ -13313,6 +14486,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "Mutation",
           "package": "cassandra-thrift",
@@ -13326,6 +14500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "NotFoundException",
           "package": "cassandra-thrift",
@@ -13334,6 +14509,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "NotFoundException",
           "package": "cassandra-thrift",
@@ -13347,6 +14523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "SchemaDisagreementException",
           "package": "cassandra-thrift",
@@ -13355,6 +14532,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "SchemaDisagreementException",
           "package": "cassandra-thrift",
@@ -13368,6 +14546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "SlicePredicate",
           "package": "cassandra-thrift",
@@ -13376,6 +14555,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "SlicePredicate",
           "package": "cassandra-thrift",
@@ -13389,6 +14569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "SliceRange",
           "package": "cassandra-thrift",
@@ -13397,6 +14578,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "SliceRange",
           "package": "cassandra-thrift",
@@ -13410,6 +14592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "SuperColumn",
           "package": "cassandra-thrift",
@@ -13418,6 +14601,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "SuperColumn",
           "package": "cassandra-thrift",
@@ -13431,6 +14615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "TimedOutException",
           "package": "cassandra-thrift",
@@ -13439,6 +14624,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "TimedOutException",
           "package": "cassandra-thrift",
@@ -13452,6 +14638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "TokenRange",
           "package": "cassandra-thrift",
@@ -13460,6 +14647,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "TokenRange",
           "package": "cassandra-thrift",
@@ -13473,6 +14661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "UnavailableException",
           "package": "cassandra-thrift",
@@ -13481,6 +14670,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "UnavailableException",
           "package": "cassandra-thrift",
@@ -13494,6 +14684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ALL",
           "package": "cassandra-thrift",
@@ -13503,6 +14694,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ALL",
           "package": "cassandra-thrift",
@@ -13516,6 +14708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ANY",
           "package": "cassandra-thrift",
@@ -13525,6 +14718,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ANY",
           "package": "cassandra-thrift",
@@ -13538,6 +14732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "AuthenticationException",
           "package": "cassandra-thrift",
@@ -13547,6 +14742,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "AuthenticationException",
           "package": "cassandra-thrift",
@@ -13560,6 +14756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "AuthenticationRequest",
           "package": "cassandra-thrift",
@@ -13569,6 +14766,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "AuthenticationRequest",
           "package": "cassandra-thrift",
@@ -13582,6 +14780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "AuthorizationException",
           "package": "cassandra-thrift",
@@ -13591,6 +14790,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "AuthorizationException",
           "package": "cassandra-thrift",
@@ -13604,6 +14804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "CfDef",
           "package": "cassandra-thrift",
@@ -13613,6 +14814,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "CfDef",
           "package": "cassandra-thrift",
@@ -13626,6 +14828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "Column",
           "package": "cassandra-thrift",
@@ -13635,6 +14838,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "Column",
           "package": "cassandra-thrift",
@@ -13648,6 +14852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ColumnDef",
           "package": "cassandra-thrift",
@@ -13657,6 +14862,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ColumnDef",
           "package": "cassandra-thrift",
@@ -13670,6 +14876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ColumnOrSuperColumn",
           "package": "cassandra-thrift",
@@ -13679,6 +14886,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ColumnOrSuperColumn",
           "package": "cassandra-thrift",
@@ -13692,6 +14900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ColumnParent",
           "package": "cassandra-thrift",
@@ -13701,6 +14910,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ColumnParent",
           "package": "cassandra-thrift",
@@ -13714,6 +14924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ColumnPath",
           "package": "cassandra-thrift",
@@ -13723,6 +14934,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ColumnPath",
           "package": "cassandra-thrift",
@@ -13736,6 +14948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "CounterColumn",
           "package": "cassandra-thrift",
@@ -13745,6 +14958,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "CounterColumn",
           "package": "cassandra-thrift",
@@ -13758,6 +14972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "CounterSuperColumn",
           "package": "cassandra-thrift",
@@ -13767,6 +14982,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "CounterSuperColumn",
           "package": "cassandra-thrift",
@@ -13780,6 +14996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "CqlResult",
           "package": "cassandra-thrift",
@@ -13789,6 +15006,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "CqlResult",
           "package": "cassandra-thrift",
@@ -13802,6 +15020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "CqlRow",
           "package": "cassandra-thrift",
@@ -13811,6 +15030,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "CqlRow",
           "package": "cassandra-thrift",
@@ -13824,6 +15044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "Deletion",
           "package": "cassandra-thrift",
@@ -13833,6 +15054,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "Deletion",
           "package": "cassandra-thrift",
@@ -13846,6 +15068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "EACH_QUORUM",
           "package": "cassandra-thrift",
@@ -13855,6 +15078,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "EACH_QUORUM",
           "package": "cassandra-thrift",
@@ -13868,6 +15092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "EQ",
           "package": "cassandra-thrift",
@@ -13877,6 +15102,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "EQ",
           "package": "cassandra-thrift",
@@ -13890,6 +15116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "GT",
           "package": "cassandra-thrift",
@@ -13899,6 +15126,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "GT",
           "package": "cassandra-thrift",
@@ -13912,6 +15140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "GTE",
           "package": "cassandra-thrift",
@@ -13921,6 +15150,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "GTE",
           "package": "cassandra-thrift",
@@ -13934,6 +15164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "GZIP",
           "package": "cassandra-thrift",
@@ -13943,6 +15174,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "GZIP",
           "package": "cassandra-thrift",
@@ -13956,6 +15188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "INT",
           "package": "cassandra-thrift",
@@ -13965,6 +15198,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "INT",
           "package": "cassandra-thrift",
@@ -13978,6 +15212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "IndexClause",
           "package": "cassandra-thrift",
@@ -13987,6 +15222,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "IndexClause",
           "package": "cassandra-thrift",
@@ -14000,6 +15236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "IndexExpression",
           "package": "cassandra-thrift",
@@ -14009,6 +15246,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "IndexExpression",
           "package": "cassandra-thrift",
@@ -14022,6 +15260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "InvalidRequestException",
           "package": "cassandra-thrift",
@@ -14031,6 +15270,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "InvalidRequestException",
           "package": "cassandra-thrift",
@@ -14044,6 +15284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "KEYS",
           "package": "cassandra-thrift",
@@ -14053,6 +15294,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "KEYS",
           "package": "cassandra-thrift",
@@ -14066,6 +15308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "KeyCount",
           "package": "cassandra-thrift",
@@ -14075,6 +15318,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "KeyCount",
           "package": "cassandra-thrift",
@@ -14088,6 +15332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "KeyRange",
           "package": "cassandra-thrift",
@@ -14097,6 +15342,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "KeyRange",
           "package": "cassandra-thrift",
@@ -14110,6 +15356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "KeySlice",
           "package": "cassandra-thrift",
@@ -14119,6 +15366,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "KeySlice",
           "package": "cassandra-thrift",
@@ -14132,6 +15380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "KsDef",
           "package": "cassandra-thrift",
@@ -14141,6 +15390,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "KsDef",
           "package": "cassandra-thrift",
@@ -14154,6 +15404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "LOCAL_QUORUM",
           "package": "cassandra-thrift",
@@ -14163,6 +15414,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "LOCAL_QUORUM",
           "package": "cassandra-thrift",
@@ -14176,6 +15428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "LT",
           "package": "cassandra-thrift",
@@ -14185,6 +15438,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "LT",
           "package": "cassandra-thrift",
@@ -14198,6 +15452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "LTE",
           "package": "cassandra-thrift",
@@ -14207,6 +15462,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "LTE",
           "package": "cassandra-thrift",
@@ -14220,6 +15476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "Mutation",
           "package": "cassandra-thrift",
@@ -14229,6 +15486,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "Mutation",
           "package": "cassandra-thrift",
@@ -14242,6 +15500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "NONE",
           "package": "cassandra-thrift",
@@ -14251,6 +15510,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "NONE",
           "package": "cassandra-thrift",
@@ -14264,6 +15524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "NotFoundException",
           "package": "cassandra-thrift",
@@ -14273,6 +15534,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "NotFoundException",
           "package": "cassandra-thrift",
@@ -14286,6 +15548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ONE",
           "package": "cassandra-thrift",
@@ -14295,6 +15558,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ONE",
           "package": "cassandra-thrift",
@@ -14308,6 +15572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "QUORUM",
           "package": "cassandra-thrift",
@@ -14317,6 +15582,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "QUORUM",
           "package": "cassandra-thrift",
@@ -14330,6 +15596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ROWS",
           "package": "cassandra-thrift",
@@ -14339,6 +15606,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "ROWS",
           "package": "cassandra-thrift",
@@ -14352,6 +15620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "SchemaDisagreementException",
           "package": "cassandra-thrift",
@@ -14361,6 +15630,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "SchemaDisagreementException",
           "package": "cassandra-thrift",
@@ -14374,6 +15644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "SlicePredicate",
           "package": "cassandra-thrift",
@@ -14383,6 +15654,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "SlicePredicate",
           "package": "cassandra-thrift",
@@ -14396,6 +15668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "SliceRange",
           "package": "cassandra-thrift",
@@ -14405,6 +15678,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "SliceRange",
           "package": "cassandra-thrift",
@@ -14418,6 +15692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "SuperColumn",
           "package": "cassandra-thrift",
@@ -14427,6 +15702,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "SuperColumn",
           "package": "cassandra-thrift",
@@ -14440,6 +15716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "THREE",
           "package": "cassandra-thrift",
@@ -14449,6 +15726,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "THREE",
           "package": "cassandra-thrift",
@@ -14462,6 +15740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "TWO",
           "package": "cassandra-thrift",
@@ -14471,6 +15750,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "TWO",
           "package": "cassandra-thrift",
@@ -14484,6 +15764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "TimedOutException",
           "package": "cassandra-thrift",
@@ -14493,6 +15774,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "TimedOutException",
           "package": "cassandra-thrift",
@@ -14506,6 +15788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "TokenRange",
           "package": "cassandra-thrift",
@@ -14515,6 +15798,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "TokenRange",
           "package": "cassandra-thrift",
@@ -14528,6 +15812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "UnavailableException",
           "package": "cassandra-thrift",
@@ -14537,6 +15822,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "UnavailableException",
           "package": "cassandra-thrift",
@@ -14550,6 +15836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "VOID",
           "package": "cassandra-thrift",
@@ -14559,6 +15846,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "VOID",
           "package": "cassandra-thrift",
@@ -14572,6 +15860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_AuthenticationException_why",
           "package": "cassandra-thrift",
@@ -14581,6 +15870,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_AuthenticationException_why",
           "package": "cassandra-thrift",
@@ -14594,6 +15884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_AuthenticationRequest_credentials",
           "package": "cassandra-thrift",
@@ -14603,6 +15894,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_AuthenticationRequest_credentials",
           "package": "cassandra-thrift",
@@ -14616,6 +15908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_AuthorizationException_why",
           "package": "cassandra-thrift",
@@ -14625,6 +15918,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_AuthorizationException_why",
           "package": "cassandra-thrift",
@@ -14638,6 +15932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_column_metadata",
           "package": "cassandra-thrift",
@@ -14647,6 +15942,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_column_metadata",
           "normalized": "Maybe[ColumnDef]",
@@ -14662,6 +15958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_column_type",
           "package": "cassandra-thrift",
@@ -14671,6 +15968,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_column_type",
           "package": "cassandra-thrift",
@@ -14684,6 +15982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_comment",
           "package": "cassandra-thrift",
@@ -14693,6 +15992,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_comment",
           "package": "cassandra-thrift",
@@ -14706,6 +16006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_comparator_type",
           "package": "cassandra-thrift",
@@ -14715,6 +16016,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_comparator_type",
           "package": "cassandra-thrift",
@@ -14728,6 +16030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_default_validation_class",
           "package": "cassandra-thrift",
@@ -14737,6 +16040,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_default_validation_class",
           "package": "cassandra-thrift",
@@ -14750,6 +16054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_gc_grace_seconds",
           "package": "cassandra-thrift",
@@ -14759,6 +16064,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_gc_grace_seconds",
           "package": "cassandra-thrift",
@@ -14772,6 +16078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_id",
           "package": "cassandra-thrift",
@@ -14781,6 +16088,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_id",
           "package": "cassandra-thrift",
@@ -14794,6 +16102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_key_alias",
           "package": "cassandra-thrift",
@@ -14803,6 +16112,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_key_alias",
           "package": "cassandra-thrift",
@@ -14816,6 +16126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_key_cache_save_period_in_seconds",
           "package": "cassandra-thrift",
@@ -14825,6 +16136,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_key_cache_save_period_in_seconds",
           "package": "cassandra-thrift",
@@ -14838,6 +16150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_key_cache_size",
           "package": "cassandra-thrift",
@@ -14847,6 +16160,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_key_cache_size",
           "package": "cassandra-thrift",
@@ -14860,6 +16174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_key_validation_class",
           "package": "cassandra-thrift",
@@ -14869,6 +16184,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_key_validation_class",
           "package": "cassandra-thrift",
@@ -14882,6 +16198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_keyspace",
           "package": "cassandra-thrift",
@@ -14891,6 +16208,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_keyspace",
           "package": "cassandra-thrift",
@@ -14904,6 +16222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_max_compaction_threshold",
           "package": "cassandra-thrift",
@@ -14913,6 +16232,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_max_compaction_threshold",
           "package": "cassandra-thrift",
@@ -14926,6 +16246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_memtable_flush_after_mins",
           "package": "cassandra-thrift",
@@ -14935,6 +16256,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_memtable_flush_after_mins",
           "package": "cassandra-thrift",
@@ -14948,6 +16270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_memtable_operations_in_millions",
           "package": "cassandra-thrift",
@@ -14957,6 +16280,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_memtable_operations_in_millions",
           "package": "cassandra-thrift",
@@ -14970,6 +16294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_memtable_throughput_in_mb",
           "package": "cassandra-thrift",
@@ -14979,6 +16304,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_memtable_throughput_in_mb",
           "package": "cassandra-thrift",
@@ -14992,6 +16318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_merge_shards_chance",
           "package": "cassandra-thrift",
@@ -15001,6 +16328,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_merge_shards_chance",
           "package": "cassandra-thrift",
@@ -15014,6 +16342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_min_compaction_threshold",
           "package": "cassandra-thrift",
@@ -15023,6 +16352,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_min_compaction_threshold",
           "package": "cassandra-thrift",
@@ -15036,6 +16366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_name",
           "package": "cassandra-thrift",
@@ -15045,6 +16376,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_name",
           "package": "cassandra-thrift",
@@ -15058,6 +16390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_read_repair_chance",
           "package": "cassandra-thrift",
@@ -15067,6 +16400,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_read_repair_chance",
           "package": "cassandra-thrift",
@@ -15080,6 +16414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_replicate_on_write",
           "package": "cassandra-thrift",
@@ -15089,6 +16424,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_replicate_on_write",
           "package": "cassandra-thrift",
@@ -15102,6 +16438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_row_cache_provider",
           "package": "cassandra-thrift",
@@ -15111,6 +16448,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_row_cache_provider",
           "package": "cassandra-thrift",
@@ -15124,6 +16462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_row_cache_save_period_in_seconds",
           "package": "cassandra-thrift",
@@ -15133,6 +16472,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_row_cache_save_period_in_seconds",
           "package": "cassandra-thrift",
@@ -15146,6 +16486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_row_cache_size",
           "package": "cassandra-thrift",
@@ -15155,6 +16496,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_row_cache_size",
           "package": "cassandra-thrift",
@@ -15168,6 +16510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_subcomparator_type",
           "package": "cassandra-thrift",
@@ -15177,6 +16520,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CfDef_subcomparator_type",
           "package": "cassandra-thrift",
@@ -15190,6 +16534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnDef_index_name",
           "package": "cassandra-thrift",
@@ -15199,6 +16544,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnDef_index_name",
           "package": "cassandra-thrift",
@@ -15212,6 +16558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnDef_index_type",
           "package": "cassandra-thrift",
@@ -15221,6 +16568,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnDef_index_type",
           "package": "cassandra-thrift",
@@ -15234,6 +16582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnDef_name",
           "package": "cassandra-thrift",
@@ -15243,6 +16592,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnDef_name",
           "package": "cassandra-thrift",
@@ -15256,6 +16606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnDef_validation_class",
           "package": "cassandra-thrift",
@@ -15265,6 +16616,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnDef_validation_class",
           "package": "cassandra-thrift",
@@ -15278,6 +16630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnOrSuperColumn_column",
           "package": "cassandra-thrift",
@@ -15287,6 +16640,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnOrSuperColumn_column",
           "package": "cassandra-thrift",
@@ -15300,6 +16654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnOrSuperColumn_counter_column",
           "package": "cassandra-thrift",
@@ -15309,6 +16664,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnOrSuperColumn_counter_column",
           "package": "cassandra-thrift",
@@ -15322,6 +16678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnOrSuperColumn_counter_super_column",
           "package": "cassandra-thrift",
@@ -15331,6 +16688,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnOrSuperColumn_counter_super_column",
           "package": "cassandra-thrift",
@@ -15344,6 +16702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnOrSuperColumn_super_column",
           "package": "cassandra-thrift",
@@ -15353,6 +16712,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnOrSuperColumn_super_column",
           "package": "cassandra-thrift",
@@ -15366,6 +16726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnParent_column_family",
           "package": "cassandra-thrift",
@@ -15375,6 +16736,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnParent_column_family",
           "package": "cassandra-thrift",
@@ -15388,6 +16750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnParent_super_column",
           "package": "cassandra-thrift",
@@ -15397,6 +16760,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnParent_super_column",
           "package": "cassandra-thrift",
@@ -15410,6 +16774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnPath_column",
           "package": "cassandra-thrift",
@@ -15419,6 +16784,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnPath_column",
           "package": "cassandra-thrift",
@@ -15432,6 +16798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnPath_column_family",
           "package": "cassandra-thrift",
@@ -15441,6 +16808,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnPath_column_family",
           "package": "cassandra-thrift",
@@ -15454,6 +16822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnPath_super_column",
           "package": "cassandra-thrift",
@@ -15463,6 +16832,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_ColumnPath_super_column",
           "package": "cassandra-thrift",
@@ -15476,6 +16846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_Column_name",
           "package": "cassandra-thrift",
@@ -15485,6 +16856,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_Column_name",
           "package": "cassandra-thrift",
@@ -15498,6 +16870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_Column_timestamp",
           "package": "cassandra-thrift",
@@ -15507,6 +16880,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_Column_timestamp",
           "package": "cassandra-thrift",
@@ -15520,6 +16894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_Column_ttl",
           "package": "cassandra-thrift",
@@ -15529,6 +16904,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_Column_ttl",
           "package": "cassandra-thrift",
@@ -15542,6 +16918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_Column_value",
           "package": "cassandra-thrift",
@@ -15551,6 +16928,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_Column_value",
           "package": "cassandra-thrift",
@@ -15564,6 +16942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CounterColumn_name",
           "package": "cassandra-thrift",
@@ -15573,6 +16952,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CounterColumn_name",
           "package": "cassandra-thrift",
@@ -15586,6 +16966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CounterColumn_value",
           "package": "cassandra-thrift",
@@ -15595,6 +16976,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CounterColumn_value",
           "package": "cassandra-thrift",
@@ -15608,6 +16990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CounterSuperColumn_columns",
           "package": "cassandra-thrift",
@@ -15617,6 +17000,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CounterSuperColumn_columns",
           "normalized": "Maybe[CounterColumn]",
@@ -15632,6 +17016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CounterSuperColumn_name",
           "package": "cassandra-thrift",
@@ -15641,6 +17026,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CounterSuperColumn_name",
           "package": "cassandra-thrift",
@@ -15654,6 +17040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CqlResult_num",
           "package": "cassandra-thrift",
@@ -15663,6 +17050,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CqlResult_num",
           "package": "cassandra-thrift",
@@ -15676,6 +17064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CqlResult_rows",
           "package": "cassandra-thrift",
@@ -15685,6 +17074,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CqlResult_rows",
           "normalized": "Maybe[CqlRow]",
@@ -15700,6 +17090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CqlResult_type",
           "package": "cassandra-thrift",
@@ -15709,6 +17100,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CqlResult_type",
           "package": "cassandra-thrift",
@@ -15722,6 +17114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CqlRow_columns",
           "package": "cassandra-thrift",
@@ -15731,6 +17124,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CqlRow_columns",
           "normalized": "Maybe[Column]",
@@ -15746,6 +17140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CqlRow_key",
           "package": "cassandra-thrift",
@@ -15755,6 +17150,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_CqlRow_key",
           "package": "cassandra-thrift",
@@ -15768,6 +17164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_Deletion_predicate",
           "package": "cassandra-thrift",
@@ -15777,6 +17174,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_Deletion_predicate",
           "package": "cassandra-thrift",
@@ -15790,6 +17188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_Deletion_super_column",
           "package": "cassandra-thrift",
@@ -15799,6 +17198,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_Deletion_super_column",
           "package": "cassandra-thrift",
@@ -15812,6 +17212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_Deletion_timestamp",
           "package": "cassandra-thrift",
@@ -15821,6 +17222,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_Deletion_timestamp",
           "package": "cassandra-thrift",
@@ -15834,6 +17236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_IndexClause_count",
           "package": "cassandra-thrift",
@@ -15843,6 +17246,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_IndexClause_count",
           "package": "cassandra-thrift",
@@ -15856,6 +17260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_IndexClause_expressions",
           "package": "cassandra-thrift",
@@ -15865,6 +17270,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_IndexClause_expressions",
           "normalized": "Maybe[IndexExpression]",
@@ -15880,6 +17286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_IndexClause_start_key",
           "package": "cassandra-thrift",
@@ -15889,6 +17296,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_IndexClause_start_key",
           "package": "cassandra-thrift",
@@ -15902,6 +17310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_IndexExpression_column_name",
           "package": "cassandra-thrift",
@@ -15911,6 +17320,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_IndexExpression_column_name",
           "package": "cassandra-thrift",
@@ -15924,6 +17334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_IndexExpression_op",
           "package": "cassandra-thrift",
@@ -15933,6 +17344,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_IndexExpression_op",
           "package": "cassandra-thrift",
@@ -15946,6 +17358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_IndexExpression_value",
           "package": "cassandra-thrift",
@@ -15955,6 +17368,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_IndexExpression_value",
           "package": "cassandra-thrift",
@@ -15968,6 +17382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_InvalidRequestException_why",
           "package": "cassandra-thrift",
@@ -15977,6 +17392,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_InvalidRequestException_why",
           "package": "cassandra-thrift",
@@ -15990,6 +17406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KeyCount_count",
           "package": "cassandra-thrift",
@@ -15999,6 +17416,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KeyCount_count",
           "package": "cassandra-thrift",
@@ -16012,6 +17430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KeyCount_key",
           "package": "cassandra-thrift",
@@ -16021,6 +17440,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KeyCount_key",
           "package": "cassandra-thrift",
@@ -16034,6 +17454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KeyRange_count",
           "package": "cassandra-thrift",
@@ -16043,6 +17464,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KeyRange_count",
           "package": "cassandra-thrift",
@@ -16056,6 +17478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KeyRange_end_key",
           "package": "cassandra-thrift",
@@ -16065,6 +17488,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KeyRange_end_key",
           "package": "cassandra-thrift",
@@ -16078,6 +17502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KeyRange_end_token",
           "package": "cassandra-thrift",
@@ -16087,6 +17512,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KeyRange_end_token",
           "package": "cassandra-thrift",
@@ -16100,6 +17526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KeyRange_start_key",
           "package": "cassandra-thrift",
@@ -16109,6 +17536,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KeyRange_start_key",
           "package": "cassandra-thrift",
@@ -16122,6 +17550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KeyRange_start_token",
           "package": "cassandra-thrift",
@@ -16131,6 +17560,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KeyRange_start_token",
           "package": "cassandra-thrift",
@@ -16144,6 +17574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KeySlice_columns",
           "package": "cassandra-thrift",
@@ -16153,6 +17584,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KeySlice_columns",
           "normalized": "Maybe[ColumnOrSuperColumn]",
@@ -16168,6 +17600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KeySlice_key",
           "package": "cassandra-thrift",
@@ -16177,6 +17610,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KeySlice_key",
           "package": "cassandra-thrift",
@@ -16190,6 +17624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KsDef_cf_defs",
           "package": "cassandra-thrift",
@@ -16199,6 +17634,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KsDef_cf_defs",
           "normalized": "Maybe[CfDef]",
@@ -16214,6 +17650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KsDef_durable_writes",
           "package": "cassandra-thrift",
@@ -16223,6 +17660,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KsDef_durable_writes",
           "package": "cassandra-thrift",
@@ -16236,6 +17674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KsDef_name",
           "package": "cassandra-thrift",
@@ -16245,6 +17684,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KsDef_name",
           "package": "cassandra-thrift",
@@ -16258,6 +17698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KsDef_replication_factor",
           "package": "cassandra-thrift",
@@ -16267,6 +17708,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KsDef_replication_factor",
           "package": "cassandra-thrift",
@@ -16280,6 +17722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KsDef_strategy_class",
           "package": "cassandra-thrift",
@@ -16289,6 +17732,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KsDef_strategy_class",
           "package": "cassandra-thrift",
@@ -16302,6 +17746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KsDef_strategy_options",
           "package": "cassandra-thrift",
@@ -16311,6 +17756,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_KsDef_strategy_options",
           "package": "cassandra-thrift",
@@ -16324,6 +17770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_Mutation_column_or_supercolumn",
           "package": "cassandra-thrift",
@@ -16333,6 +17780,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_Mutation_column_or_supercolumn",
           "package": "cassandra-thrift",
@@ -16346,6 +17794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_Mutation_deletion",
           "package": "cassandra-thrift",
@@ -16355,6 +17804,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_Mutation_deletion",
           "package": "cassandra-thrift",
@@ -16368,6 +17818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_SlicePredicate_column_names",
           "package": "cassandra-thrift",
@@ -16377,6 +17828,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_SlicePredicate_column_names",
           "normalized": "Maybe[ByteString]",
@@ -16392,6 +17844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_SlicePredicate_slice_range",
           "package": "cassandra-thrift",
@@ -16401,6 +17854,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_SlicePredicate_slice_range",
           "package": "cassandra-thrift",
@@ -16414,6 +17868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_SliceRange_count",
           "package": "cassandra-thrift",
@@ -16423,6 +17878,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_SliceRange_count",
           "package": "cassandra-thrift",
@@ -16436,6 +17892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_SliceRange_finish",
           "package": "cassandra-thrift",
@@ -16445,6 +17902,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_SliceRange_finish",
           "package": "cassandra-thrift",
@@ -16458,6 +17916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_SliceRange_reversed",
           "package": "cassandra-thrift",
@@ -16467,6 +17926,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_SliceRange_reversed",
           "package": "cassandra-thrift",
@@ -16480,6 +17940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_SliceRange_start",
           "package": "cassandra-thrift",
@@ -16489,6 +17950,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_SliceRange_start",
           "package": "cassandra-thrift",
@@ -16502,6 +17964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_SuperColumn_columns",
           "package": "cassandra-thrift",
@@ -16511,6 +17974,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_SuperColumn_columns",
           "normalized": "Maybe[Column]",
@@ -16526,6 +17990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_SuperColumn_name",
           "package": "cassandra-thrift",
@@ -16535,6 +18000,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_SuperColumn_name",
           "package": "cassandra-thrift",
@@ -16548,6 +18014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_TokenRange_end_token",
           "package": "cassandra-thrift",
@@ -16557,6 +18024,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_TokenRange_end_token",
           "package": "cassandra-thrift",
@@ -16570,6 +18038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_TokenRange_endpoints",
           "package": "cassandra-thrift",
@@ -16579,6 +18048,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_TokenRange_endpoints",
           "normalized": "Maybe[String]",
@@ -16594,6 +18064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_TokenRange_start_token",
           "package": "cassandra-thrift",
@@ -16603,6 +18074,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "f_TokenRange_start_token",
           "package": "cassandra-thrift",
@@ -16616,6 +18088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_AuthenticationException",
           "package": "cassandra-thrift",
@@ -16625,6 +18098,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_AuthenticationException",
           "normalized": "a b-\u003eIO AuthenticationException",
@@ -16640,6 +18114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_AuthenticationException_fields",
           "package": "cassandra-thrift",
@@ -16649,6 +18124,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_AuthenticationException_fields",
           "normalized": "a b-\u003eAuthenticationException-\u003eIO AuthenticationException",
@@ -16664,6 +18140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_AuthenticationRequest",
           "package": "cassandra-thrift",
@@ -16673,6 +18150,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_AuthenticationRequest",
           "normalized": "a b-\u003eIO AuthenticationRequest",
@@ -16688,6 +18166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_AuthenticationRequest_fields",
           "package": "cassandra-thrift",
@@ -16697,6 +18176,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_AuthenticationRequest_fields",
           "normalized": "a b-\u003eAuthenticationRequest-\u003eIO AuthenticationRequest",
@@ -16712,6 +18192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_AuthorizationException",
           "package": "cassandra-thrift",
@@ -16721,6 +18202,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_AuthorizationException",
           "normalized": "a b-\u003eIO AuthorizationException",
@@ -16736,6 +18218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_AuthorizationException_fields",
           "package": "cassandra-thrift",
@@ -16745,6 +18228,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_AuthorizationException_fields",
           "normalized": "a b-\u003eAuthorizationException-\u003eIO AuthorizationException",
@@ -16760,6 +18244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_CfDef",
           "package": "cassandra-thrift",
@@ -16769,6 +18254,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_CfDef",
           "normalized": "a b-\u003eIO CfDef",
@@ -16784,6 +18270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_CfDef_fields",
           "package": "cassandra-thrift",
@@ -16793,6 +18280,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_CfDef_fields",
           "normalized": "a b-\u003eCfDef-\u003eIO CfDef",
@@ -16808,6 +18296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_Column",
           "package": "cassandra-thrift",
@@ -16817,6 +18306,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_Column",
           "normalized": "a b-\u003eIO Column",
@@ -16832,6 +18322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_ColumnDef",
           "package": "cassandra-thrift",
@@ -16841,6 +18332,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_ColumnDef",
           "normalized": "a b-\u003eIO ColumnDef",
@@ -16856,6 +18348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_ColumnDef_fields",
           "package": "cassandra-thrift",
@@ -16865,6 +18358,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_ColumnDef_fields",
           "normalized": "a b-\u003eColumnDef-\u003eIO ColumnDef",
@@ -16880,6 +18374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_ColumnOrSuperColumn",
           "package": "cassandra-thrift",
@@ -16889,6 +18384,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_ColumnOrSuperColumn",
           "normalized": "a b-\u003eIO ColumnOrSuperColumn",
@@ -16904,6 +18400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_ColumnOrSuperColumn_fields",
           "package": "cassandra-thrift",
@@ -16913,6 +18410,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_ColumnOrSuperColumn_fields",
           "normalized": "a b-\u003eColumnOrSuperColumn-\u003eIO ColumnOrSuperColumn",
@@ -16928,6 +18426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_ColumnParent",
           "package": "cassandra-thrift",
@@ -16937,6 +18436,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_ColumnParent",
           "normalized": "a b-\u003eIO ColumnParent",
@@ -16952,6 +18452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_ColumnParent_fields",
           "package": "cassandra-thrift",
@@ -16961,6 +18462,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_ColumnParent_fields",
           "normalized": "a b-\u003eColumnParent-\u003eIO ColumnParent",
@@ -16976,6 +18478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_ColumnPath",
           "package": "cassandra-thrift",
@@ -16985,6 +18488,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_ColumnPath",
           "normalized": "a b-\u003eIO ColumnPath",
@@ -17000,6 +18504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_ColumnPath_fields",
           "package": "cassandra-thrift",
@@ -17009,6 +18514,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_ColumnPath_fields",
           "normalized": "a b-\u003eColumnPath-\u003eIO ColumnPath",
@@ -17024,6 +18530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_Column_fields",
           "package": "cassandra-thrift",
@@ -17033,6 +18540,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_Column_fields",
           "normalized": "a b-\u003eColumn-\u003eIO Column",
@@ -17048,6 +18556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_CounterColumn",
           "package": "cassandra-thrift",
@@ -17057,6 +18566,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_CounterColumn",
           "normalized": "a b-\u003eIO CounterColumn",
@@ -17072,6 +18582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_CounterColumn_fields",
           "package": "cassandra-thrift",
@@ -17081,6 +18592,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_CounterColumn_fields",
           "normalized": "a b-\u003eCounterColumn-\u003eIO CounterColumn",
@@ -17096,6 +18608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_CounterSuperColumn",
           "package": "cassandra-thrift",
@@ -17105,6 +18618,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_CounterSuperColumn",
           "normalized": "a b-\u003eIO CounterSuperColumn",
@@ -17120,6 +18634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_CounterSuperColumn_fields",
           "package": "cassandra-thrift",
@@ -17129,6 +18644,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_CounterSuperColumn_fields",
           "normalized": "a b-\u003eCounterSuperColumn-\u003eIO CounterSuperColumn",
@@ -17144,6 +18660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_CqlResult",
           "package": "cassandra-thrift",
@@ -17153,6 +18670,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_CqlResult",
           "normalized": "a b-\u003eIO CqlResult",
@@ -17168,6 +18686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_CqlResult_fields",
           "package": "cassandra-thrift",
@@ -17177,6 +18696,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_CqlResult_fields",
           "normalized": "a b-\u003eCqlResult-\u003eIO CqlResult",
@@ -17192,6 +18712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_CqlRow",
           "package": "cassandra-thrift",
@@ -17201,6 +18722,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_CqlRow",
           "normalized": "a b-\u003eIO CqlRow",
@@ -17216,6 +18738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_CqlRow_fields",
           "package": "cassandra-thrift",
@@ -17225,6 +18748,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_CqlRow_fields",
           "normalized": "a b-\u003eCqlRow-\u003eIO CqlRow",
@@ -17240,6 +18764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_Deletion",
           "package": "cassandra-thrift",
@@ -17249,6 +18774,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_Deletion",
           "normalized": "a b-\u003eIO Deletion",
@@ -17264,6 +18790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_Deletion_fields",
           "package": "cassandra-thrift",
@@ -17273,6 +18800,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_Deletion_fields",
           "normalized": "a b-\u003eDeletion-\u003eIO Deletion",
@@ -17288,6 +18816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_IndexClause",
           "package": "cassandra-thrift",
@@ -17297,6 +18826,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_IndexClause",
           "normalized": "a b-\u003eIO IndexClause",
@@ -17312,6 +18842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_IndexClause_fields",
           "package": "cassandra-thrift",
@@ -17321,6 +18852,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_IndexClause_fields",
           "normalized": "a b-\u003eIndexClause-\u003eIO IndexClause",
@@ -17336,6 +18868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_IndexExpression",
           "package": "cassandra-thrift",
@@ -17345,6 +18878,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_IndexExpression",
           "normalized": "a b-\u003eIO IndexExpression",
@@ -17360,6 +18894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_IndexExpression_fields",
           "package": "cassandra-thrift",
@@ -17369,6 +18904,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_IndexExpression_fields",
           "normalized": "a b-\u003eIndexExpression-\u003eIO IndexExpression",
@@ -17384,6 +18920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_InvalidRequestException",
           "package": "cassandra-thrift",
@@ -17393,6 +18930,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_InvalidRequestException",
           "normalized": "a b-\u003eIO InvalidRequestException",
@@ -17408,6 +18946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_InvalidRequestException_fields",
           "package": "cassandra-thrift",
@@ -17417,6 +18956,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_InvalidRequestException_fields",
           "normalized": "a b-\u003eInvalidRequestException-\u003eIO InvalidRequestException",
@@ -17432,6 +18972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_KeyCount",
           "package": "cassandra-thrift",
@@ -17441,6 +18982,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_KeyCount",
           "normalized": "a b-\u003eIO KeyCount",
@@ -17456,6 +18998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_KeyCount_fields",
           "package": "cassandra-thrift",
@@ -17465,6 +19008,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_KeyCount_fields",
           "normalized": "a b-\u003eKeyCount-\u003eIO KeyCount",
@@ -17480,6 +19024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_KeyRange",
           "package": "cassandra-thrift",
@@ -17489,6 +19034,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_KeyRange",
           "normalized": "a b-\u003eIO KeyRange",
@@ -17504,6 +19050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_KeyRange_fields",
           "package": "cassandra-thrift",
@@ -17513,6 +19060,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_KeyRange_fields",
           "normalized": "a b-\u003eKeyRange-\u003eIO KeyRange",
@@ -17528,6 +19076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_KeySlice",
           "package": "cassandra-thrift",
@@ -17537,6 +19086,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_KeySlice",
           "normalized": "a b-\u003eIO KeySlice",
@@ -17552,6 +19102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_KeySlice_fields",
           "package": "cassandra-thrift",
@@ -17561,6 +19112,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_KeySlice_fields",
           "normalized": "a b-\u003eKeySlice-\u003eIO KeySlice",
@@ -17576,6 +19128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_KsDef",
           "package": "cassandra-thrift",
@@ -17585,6 +19138,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_KsDef",
           "normalized": "a b-\u003eIO KsDef",
@@ -17600,6 +19154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_KsDef_fields",
           "package": "cassandra-thrift",
@@ -17609,6 +19164,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_KsDef_fields",
           "normalized": "a b-\u003eKsDef-\u003eIO KsDef",
@@ -17624,6 +19180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_Mutation",
           "package": "cassandra-thrift",
@@ -17633,6 +19190,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_Mutation",
           "normalized": "a b-\u003eIO Mutation",
@@ -17648,6 +19206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_Mutation_fields",
           "package": "cassandra-thrift",
@@ -17657,6 +19216,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_Mutation_fields",
           "normalized": "a b-\u003eMutation-\u003eIO Mutation",
@@ -17672,6 +19232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_NotFoundException",
           "package": "cassandra-thrift",
@@ -17681,6 +19242,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_NotFoundException",
           "normalized": "a b-\u003eIO NotFoundException",
@@ -17696,6 +19258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_NotFoundException_fields",
           "package": "cassandra-thrift",
@@ -17705,6 +19268,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_NotFoundException_fields",
           "normalized": "a b-\u003ec-\u003eIO c",
@@ -17720,6 +19284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_SchemaDisagreementException",
           "package": "cassandra-thrift",
@@ -17729,6 +19294,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_SchemaDisagreementException",
           "normalized": "a b-\u003eIO SchemaDisagreementException",
@@ -17744,6 +19310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_SchemaDisagreementException_fields",
           "package": "cassandra-thrift",
@@ -17753,6 +19320,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_SchemaDisagreementException_fields",
           "normalized": "a b-\u003ec-\u003eIO c",
@@ -17768,6 +19336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_SlicePredicate",
           "package": "cassandra-thrift",
@@ -17777,6 +19346,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_SlicePredicate",
           "normalized": "a b-\u003eIO SlicePredicate",
@@ -17792,6 +19362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_SlicePredicate_fields",
           "package": "cassandra-thrift",
@@ -17801,6 +19372,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_SlicePredicate_fields",
           "normalized": "a b-\u003eSlicePredicate-\u003eIO SlicePredicate",
@@ -17816,6 +19388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_SliceRange",
           "package": "cassandra-thrift",
@@ -17825,6 +19398,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_SliceRange",
           "normalized": "a b-\u003eIO SliceRange",
@@ -17840,6 +19414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_SliceRange_fields",
           "package": "cassandra-thrift",
@@ -17849,6 +19424,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_SliceRange_fields",
           "normalized": "a b-\u003eSliceRange-\u003eIO SliceRange",
@@ -17864,6 +19440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_SuperColumn",
           "package": "cassandra-thrift",
@@ -17873,6 +19450,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_SuperColumn",
           "normalized": "a b-\u003eIO SuperColumn",
@@ -17888,6 +19466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_SuperColumn_fields",
           "package": "cassandra-thrift",
@@ -17897,6 +19476,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_SuperColumn_fields",
           "normalized": "a b-\u003eSuperColumn-\u003eIO SuperColumn",
@@ -17912,6 +19492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_TimedOutException",
           "package": "cassandra-thrift",
@@ -17921,6 +19502,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_TimedOutException",
           "normalized": "a b-\u003eIO TimedOutException",
@@ -17936,6 +19518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_TimedOutException_fields",
           "package": "cassandra-thrift",
@@ -17945,6 +19528,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_TimedOutException_fields",
           "normalized": "a b-\u003ec-\u003eIO c",
@@ -17960,6 +19544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_TokenRange",
           "package": "cassandra-thrift",
@@ -17969,6 +19554,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_TokenRange",
           "normalized": "a b-\u003eIO TokenRange",
@@ -17984,6 +19570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_TokenRange_fields",
           "package": "cassandra-thrift",
@@ -17993,6 +19580,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_TokenRange_fields",
           "normalized": "a b-\u003eTokenRange-\u003eIO TokenRange",
@@ -18008,6 +19596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_UnavailableException",
           "package": "cassandra-thrift",
@@ -18017,6 +19606,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_UnavailableException",
           "normalized": "a b-\u003eIO UnavailableException",
@@ -18032,6 +19622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_UnavailableException_fields",
           "package": "cassandra-thrift",
@@ -18041,6 +19632,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "read_UnavailableException_fields",
           "normalized": "a b-\u003ec-\u003eIO c",
@@ -18056,6 +19648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_AuthenticationException",
           "package": "cassandra-thrift",
@@ -18065,6 +19658,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_AuthenticationException",
           "normalized": "a b-\u003eAuthenticationException-\u003eIO()",
@@ -18080,6 +19674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_AuthenticationRequest",
           "package": "cassandra-thrift",
@@ -18089,6 +19684,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_AuthenticationRequest",
           "normalized": "a b-\u003eAuthenticationRequest-\u003eIO()",
@@ -18104,6 +19700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_AuthorizationException",
           "package": "cassandra-thrift",
@@ -18113,6 +19710,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_AuthorizationException",
           "normalized": "a b-\u003eAuthorizationException-\u003eIO()",
@@ -18128,6 +19726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_CfDef",
           "package": "cassandra-thrift",
@@ -18137,6 +19736,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_CfDef",
           "normalized": "a b-\u003eCfDef-\u003eIO()",
@@ -18152,6 +19752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_Column",
           "package": "cassandra-thrift",
@@ -18161,6 +19762,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_Column",
           "normalized": "a b-\u003eColumn-\u003eIO()",
@@ -18176,6 +19778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_ColumnDef",
           "package": "cassandra-thrift",
@@ -18185,6 +19788,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_ColumnDef",
           "normalized": "a b-\u003eColumnDef-\u003eIO()",
@@ -18200,6 +19804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_ColumnOrSuperColumn",
           "package": "cassandra-thrift",
@@ -18209,6 +19814,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_ColumnOrSuperColumn",
           "normalized": "a b-\u003eColumnOrSuperColumn-\u003eIO()",
@@ -18224,6 +19830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_ColumnParent",
           "package": "cassandra-thrift",
@@ -18233,6 +19840,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_ColumnParent",
           "normalized": "a b-\u003eColumnParent-\u003eIO()",
@@ -18248,6 +19856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_ColumnPath",
           "package": "cassandra-thrift",
@@ -18257,6 +19866,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_ColumnPath",
           "normalized": "a b-\u003eColumnPath-\u003eIO()",
@@ -18272,6 +19882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_CounterColumn",
           "package": "cassandra-thrift",
@@ -18281,6 +19892,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_CounterColumn",
           "normalized": "a b-\u003eCounterColumn-\u003eIO()",
@@ -18296,6 +19908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_CounterSuperColumn",
           "package": "cassandra-thrift",
@@ -18305,6 +19918,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_CounterSuperColumn",
           "normalized": "a b-\u003eCounterSuperColumn-\u003eIO()",
@@ -18320,6 +19934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_CqlResult",
           "package": "cassandra-thrift",
@@ -18329,6 +19944,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_CqlResult",
           "normalized": "a b-\u003eCqlResult-\u003eIO()",
@@ -18344,6 +19960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_CqlRow",
           "package": "cassandra-thrift",
@@ -18353,6 +19970,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_CqlRow",
           "normalized": "a b-\u003eCqlRow-\u003eIO()",
@@ -18368,6 +19986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_Deletion",
           "package": "cassandra-thrift",
@@ -18377,6 +19996,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_Deletion",
           "normalized": "a b-\u003eDeletion-\u003eIO()",
@@ -18392,6 +20012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_IndexClause",
           "package": "cassandra-thrift",
@@ -18401,6 +20022,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_IndexClause",
           "normalized": "a b-\u003eIndexClause-\u003eIO()",
@@ -18416,6 +20038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_IndexExpression",
           "package": "cassandra-thrift",
@@ -18425,6 +20048,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_IndexExpression",
           "normalized": "a b-\u003eIndexExpression-\u003eIO()",
@@ -18440,6 +20064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_InvalidRequestException",
           "package": "cassandra-thrift",
@@ -18449,6 +20074,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_InvalidRequestException",
           "normalized": "a b-\u003eInvalidRequestException-\u003eIO()",
@@ -18464,6 +20090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_KeyCount",
           "package": "cassandra-thrift",
@@ -18473,6 +20100,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_KeyCount",
           "normalized": "a b-\u003eKeyCount-\u003eIO()",
@@ -18488,6 +20116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_KeyRange",
           "package": "cassandra-thrift",
@@ -18497,6 +20126,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_KeyRange",
           "normalized": "a b-\u003eKeyRange-\u003eIO()",
@@ -18512,6 +20142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_KeySlice",
           "package": "cassandra-thrift",
@@ -18521,6 +20152,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_KeySlice",
           "normalized": "a b-\u003eKeySlice-\u003eIO()",
@@ -18536,6 +20168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_KsDef",
           "package": "cassandra-thrift",
@@ -18545,6 +20178,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_KsDef",
           "normalized": "a b-\u003eKsDef-\u003eIO()",
@@ -18560,6 +20194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_Mutation",
           "package": "cassandra-thrift",
@@ -18569,6 +20204,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_Mutation",
           "normalized": "a b-\u003eMutation-\u003eIO()",
@@ -18584,6 +20220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_NotFoundException",
           "package": "cassandra-thrift",
@@ -18593,6 +20230,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_NotFoundException",
           "normalized": "a b-\u003eb-\u003eIO()",
@@ -18608,6 +20246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_SchemaDisagreementException",
           "package": "cassandra-thrift",
@@ -18617,6 +20256,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_SchemaDisagreementException",
           "normalized": "a b-\u003eb-\u003eIO()",
@@ -18632,6 +20272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_SlicePredicate",
           "package": "cassandra-thrift",
@@ -18641,6 +20282,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_SlicePredicate",
           "normalized": "a b-\u003eSlicePredicate-\u003eIO()",
@@ -18656,6 +20298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_SliceRange",
           "package": "cassandra-thrift",
@@ -18665,6 +20308,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_SliceRange",
           "normalized": "a b-\u003eSliceRange-\u003eIO()",
@@ -18680,6 +20324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_SuperColumn",
           "package": "cassandra-thrift",
@@ -18689,6 +20334,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_SuperColumn",
           "normalized": "a b-\u003eSuperColumn-\u003eIO()",
@@ -18704,6 +20350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_TimedOutException",
           "package": "cassandra-thrift",
@@ -18713,6 +20360,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_TimedOutException",
           "normalized": "a b-\u003eb-\u003eIO()",
@@ -18728,6 +20376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_TokenRange",
           "package": "cassandra-thrift",
@@ -18737,6 +20386,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_TokenRange",
           "normalized": "a b-\u003eTokenRange-\u003eIO()",
@@ -18752,6 +20402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:11 UTC 2014",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_UnavailableException",
           "package": "cassandra-thrift",
@@ -18761,6 +20412,7 @@
         },
         "index": {
           "hierarchy": "Database Cassandra Thrift Cassandra_Types",
+          "indexed": "2014-03-11T17:30:11",
           "module": "Database.Cassandra.Thrift.Cassandra_Types",
           "name": "write_UnavailableException",
           "normalized": "a b-\u003eb-\u003eIO()",

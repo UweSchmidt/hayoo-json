@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tuntap"
+        "phrase": "tuntap",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:53 UTC 2014",
           "module": "Network.TUNTAP",
           "name": "TUNTAP",
           "package": "tuntap",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network TUNTAP",
+          "indexed": "2014-03-11T20:25:53",
           "module": "Network.TUNTAP",
           "name": "TUNTAP",
           "package": "tuntap",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA DevMAC is a hardware address 48 bits long.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:53 UTC 2014",
           "module": "Network.TUNTAP",
           "name": "DevMAC",
           "package": "tuntap",
@@ -49,6 +52,7 @@
         "index": {
           "description": "DevMAC is hardware address bits long",
           "hierarchy": "Network TUNTAP",
+          "indexed": "2014-03-11T20:25:53",
           "module": "Network.TUNTAP",
           "name": "DevMAC",
           "package": "tuntap",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead\u003cem\u003eWritten to the TUN\u003c/em\u003eTAP device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:53 UTC 2014",
           "module": "Network.TUNTAP",
           "name": "Packet",
           "package": "tuntap",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Read Written to the TUN TAP device",
           "hierarchy": "Network TUNTAP",
+          "indexed": "2014-03-11T20:25:53",
           "module": "Network.TUNTAP",
           "name": "Packet",
           "package": "tuntap",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:53 UTC 2014",
           "module": "Network.TUNTAP",
           "name": "TAP",
           "package": "tuntap",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Network TUNTAP",
+          "indexed": "2014-03-11T20:25:53",
           "module": "Network.TUNTAP",
           "name": "TAP",
           "package": "tuntap",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBring up the TAP device\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:53 UTC 2014",
           "module": "Network.TUNTAP",
           "name": "bringUp",
           "package": "tuntap",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Bring up the TAP device",
           "hierarchy": "Network TUNTAP",
+          "indexed": "2014-03-11T20:25:53",
           "module": "Network.TUNTAP",
           "name": "bringUp",
           "normalized": "TAP-\u003eIO CInt",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the TAP device\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:53 UTC 2014",
           "module": "Network.TUNTAP",
           "name": "closeTAP",
           "package": "tuntap",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Close the TAP device",
           "hierarchy": "Network TUNTAP",
+          "indexed": "2014-03-11T20:25:53",
           "module": "Network.TUNTAP",
           "name": "closeTAP",
           "normalized": "TAP-\u003eIO CInt",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeallocate a TAP resource\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:53 UTC 2014",
           "module": "Network.TUNTAP",
           "name": "finish",
           "package": "tuntap",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Deallocate TAP resource",
           "hierarchy": "Network TUNTAP",
+          "indexed": "2014-03-11T20:25:53",
           "module": "Network.TUNTAP",
           "name": "finish",
           "normalized": "TAP-\u003eIO CInt",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the MAC address assigned to the TAP device\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:53 UTC 2014",
           "module": "Network.TUNTAP",
           "name": "getMAC",
           "package": "tuntap",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Get the MAC address assigned to the TAP device",
           "hierarchy": "Network TUNTAP",
+          "indexed": "2014-03-11T20:25:53",
           "module": "Network.TUNTAP",
           "name": "getMAC",
           "normalized": "TAP-\u003eIO DevMAC",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen the TAP device\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:53 UTC 2014",
           "module": "Network.TUNTAP",
           "name": "openTAP",
           "package": "tuntap",
@@ -220,6 +237,7 @@
         "index": {
           "description": "Open the TAP device",
           "hierarchy": "Network TUNTAP",
+          "indexed": "2014-03-11T20:25:53",
           "module": "Network.TUNTAP",
           "name": "openTAP",
           "normalized": "TAP-\u003eString-\u003eIO CInt",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a packet from the TAP device\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:53 UTC 2014",
           "module": "Network.TUNTAP",
           "name": "readTAP",
           "package": "tuntap",
@@ -246,6 +265,7 @@
         "index": {
           "description": "Read packet from the TAP device",
           "hierarchy": "Network TUNTAP",
+          "indexed": "2014-03-11T20:25:53",
           "module": "Network.TUNTAP",
           "name": "readTAP",
           "normalized": "TAP-\u003eIO Packet",
@@ -262,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the IPv4 address of the TAP device\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:53 UTC 2014",
           "module": "Network.TUNTAP",
           "name": "setIP",
           "package": "tuntap",
@@ -272,6 +293,7 @@
         "index": {
           "description": "Set the IPv4 address of the TAP device",
           "hierarchy": "Network TUNTAP",
+          "indexed": "2014-03-11T20:25:53",
           "module": "Network.TUNTAP",
           "name": "setIP",
           "normalized": "TAP-\u003eWord-\u003eIO CInt",
@@ -288,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the MTU of the TAP device\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:53 UTC 2014",
           "module": "Network.TUNTAP",
           "name": "setMTU",
           "package": "tuntap",
@@ -298,6 +321,7 @@
         "index": {
           "description": "Set the MTU of the TAP device",
           "hierarchy": "Network TUNTAP",
+          "indexed": "2014-03-11T20:25:53",
           "module": "Network.TUNTAP",
           "name": "setMTU",
           "normalized": "TAP-\u003eInt-\u003eIO CInt",
@@ -314,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the network mask of the TAP device\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:53 UTC 2014",
           "module": "Network.TUNTAP",
           "name": "setMask",
           "package": "tuntap",
@@ -324,6 +349,7 @@
         "index": {
           "description": "Set the network mask of the TAP device",
           "hierarchy": "Network TUNTAP",
+          "indexed": "2014-03-11T20:25:53",
           "module": "Network.TUNTAP",
           "name": "setMask",
           "normalized": "TAP-\u003eWord-\u003eIO CInt",
@@ -340,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate a TAP resource\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:53 UTC 2014",
           "module": "Network.TUNTAP",
           "name": "start",
           "package": "tuntap",
@@ -350,6 +377,7 @@
         "index": {
           "description": "Allocate TAP resource",
           "hierarchy": "Network TUNTAP",
+          "indexed": "2014-03-11T20:25:53",
           "module": "Network.TUNTAP",
           "name": "start",
           "package": "tuntap",
@@ -363,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccept an action and an MTU. Allocate a TAP and\n pass it to the action. Clean up when finished with\n the action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:53 UTC 2014",
           "module": "Network.TUNTAP",
           "name": "withTAP",
           "package": "tuntap",
@@ -373,6 +402,7 @@
         "index": {
           "description": "Accept an action and an MTU Allocate TAP and pass it to the action Clean up when finished with the action",
           "hierarchy": "Network TUNTAP",
+          "indexed": "2014-03-11T20:25:53",
           "module": "Network.TUNTAP",
           "name": "withTAP",
           "normalized": "Int-\u003e(TAP-\u003eIO a)-\u003eIO()",
@@ -389,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a packet to the TAP device\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:53 UTC 2014",
           "module": "Network.TUNTAP",
           "name": "writeTAP",
           "package": "tuntap",
@@ -399,6 +430,7 @@
         "index": {
           "description": "Write packet to the TAP device",
           "hierarchy": "Network TUNTAP",
+          "indexed": "2014-03-11T20:25:53",
           "module": "Network.TUNTAP",
           "name": "writeTAP",
           "normalized": "TAP-\u003ePacket-\u003eIO CInt",

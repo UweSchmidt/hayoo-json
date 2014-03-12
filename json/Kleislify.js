@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Kleislify"
+        "phrase": "Kleislify",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrecomposition and postcomposition of functors and monads.\n\u003c/p\u003e\u003cp\u003eVariants of Control.Arrow functions, specialised to kleislis.\n Avoids boxing into Kleisli values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:55 UTC 2014",
           "module": "Control.Kleislify",
           "name": "Kleislify",
           "package": "Kleislify",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Precomposition and postcomposition of functors and monads Variants of Control.Arrow functions specialised to kleislis Avoids boxing into Kleisli values",
           "hierarchy": "Control Kleislify",
+          "indexed": "2014-03-11T16:50:55",
           "module": "Control.Kleislify",
           "name": "Kleislify",
           "package": "Kleislify",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epostcomposition of a functor with a pure function.\n   Equivalent to \u003ccode\u003e\u003ca\u003e\u003e\u003e^\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:55 UTC 2014",
           "module": "Control.Kleislify",
           "name": "(-\u003e^)",
           "package": "Kleislify",
@@ -52,6 +55,7 @@
         "index": {
           "description": "postcomposition of functor with pure function Equivalent to",
           "hierarchy": "Control Kleislify",
+          "indexed": "2014-03-11T16:50:55",
           "module": "Control.Kleislify",
           "name": "(-\u003e^) -\u003e^",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003ed)-\u003ea-\u003eb d",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprecomposition of a functor with a pure function (right-to-left variant).\n   Equivalent to \u003ccode\u003e\u003ca\u003e\u003c\u003c^\u003c/a\u003e\u003c/code\u003e\n   Equivalent to \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:55 UTC 2014",
           "module": "Control.Kleislify",
           "name": "(\u003c-^)",
           "package": "Kleislify",
@@ -77,6 +82,7 @@
         "index": {
           "description": "precomposition of functor with pure function right-to-left variant Equivalent to Equivalent to",
           "hierarchy": "Control Kleislify",
+          "indexed": "2014-03-11T16:50:55",
           "module": "Control.Kleislify",
           "name": "(\u003c-^) \u003c-^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ea)-\u003ed-\u003eb c",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprecomposition of a monad with a pure function (right-to-left variant).\n   Equivalent to \u003ccode\u003e\u003ca\u003e\u003c\u003c^\u003c/a\u003e\u003c/code\u003e\n   Equivalent to \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:55 UTC 2014",
           "module": "Control.Kleislify",
           "name": "(\u003c=^)",
           "package": "Kleislify",
@@ -102,6 +109,7 @@
         "index": {
           "description": "precomposition of monad with pure function right-to-left variant Equivalent to Equivalent to",
           "hierarchy": "Control Kleislify",
+          "indexed": "2014-03-11T16:50:55",
           "module": "Control.Kleislify",
           "name": "(\u003c=^) \u003c=^",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003ea)-\u003ed-\u003eb c",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epostcomposition of a monad with a pure function.\n   Equivalent to \u003ccode\u003e\u003ca\u003e\u003e\u003e^\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:55 UTC 2014",
           "module": "Control.Kleislify",
           "name": "(=\u003e^)",
           "package": "Kleislify",
@@ -127,6 +136,7 @@
         "index": {
           "description": "postcomposition of monad with pure function Equivalent to",
           "hierarchy": "Control Kleislify",
+          "indexed": "2014-03-11T16:50:55",
           "module": "Control.Kleislify",
           "name": "(=\u003e^) =\u003e^",
           "normalized": "(a-\u003eb c)-\u003e(c-\u003ed)-\u003ea-\u003eb d",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprecomposition of a functor with a pure function.\n   Equivalent to 'flip (.)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:55 UTC 2014",
           "module": "Control.Kleislify",
           "name": "(^-\u003e)",
           "package": "Kleislify",
@@ -152,6 +163,7 @@
         "index": {
           "description": "precomposition of functor with pure function Equivalent to flip",
           "hierarchy": "Control Kleislify",
+          "indexed": "2014-03-11T16:50:55",
           "module": "Control.Kleislify",
           "name": "(^-\u003e) ^-\u003e",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ec d)-\u003ea-\u003ec d",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epostcomposition of a functor with a pure function (right-to-left variant).\n   Equivalent to \u003ccode\u003e\u003ca\u003e^\u003c\u003c\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:55 UTC 2014",
           "module": "Control.Kleislify",
           "name": "(^\u003c-)",
           "package": "Kleislify",
@@ -177,6 +190,7 @@
         "index": {
           "description": "postcomposition of functor with pure function right-to-left variant Equivalent to",
           "hierarchy": "Control Kleislify",
+          "indexed": "2014-03-11T16:50:55",
           "module": "Control.Kleislify",
           "name": "(^\u003c-) ^\u003c-",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed a)-\u003ec-\u003ed b",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epostcomposition of a monad with a pure function (right-to-left variant).\n   Equivalent to \u003ccode\u003e\u003ca\u003e^\u003c\u003c\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:55 UTC 2014",
           "module": "Control.Kleislify",
           "name": "(^\u003c=)",
           "package": "Kleislify",
@@ -202,6 +217,7 @@
         "index": {
           "description": "postcomposition of monad with pure function right-to-left variant Equivalent to",
           "hierarchy": "Control Kleislify",
+          "indexed": "2014-03-11T16:50:55",
           "module": "Control.Kleislify",
           "name": "(^\u003c=) ^\u003c=",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed a)-\u003ec-\u003ed b",
@@ -217,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprecomposition of a monad with a pure function.\n   Equivalent to \u003ccode\u003e\u003ca\u003e^\u003e\u003e\u003c/a\u003e\u003c/code\u003e\n   Equivalent to 'flip (.)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:55 UTC 2014",
           "module": "Control.Kleislify",
           "name": "(^=\u003e)",
           "package": "Kleislify",
@@ -227,6 +244,7 @@
         "index": {
           "description": "precomposition of monad with pure function Equivalent to Equivalent to flip",
           "hierarchy": "Control Kleislify",
+          "indexed": "2014-03-11T16:50:55",
           "module": "Control.Kleislify",
           "name": "(^=\u003e) ^=\u003e",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ec d)-\u003ea-\u003ec d",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Webrexp"
+        "phrase": "Webrexp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Eval",
           "name": "Eval",
           "package": "Webrexp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Eval",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Eval",
           "name": "Eval",
           "package": "Webrexp",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate embedded action in WebRexp\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Eval",
           "name": "evalAction",
           "package": "Webrexp",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Evaluate embedded action in WebRexp",
           "hierarchy": "Text Webrexp Eval",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Eval",
           "name": "evalAction",
           "normalized": "ActionExpr-\u003eMaybe(EvalState a b)-\u003eWebContextT c a b d(ActionValue,Maybe(EvalState a b))",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate the leaf nodes of a webrexp, this way the code\n can be shared between the Breadth first evaluator and the\n Depth first one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Eval",
           "name": "evalWebRexpFor",
           "package": "Webrexp",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Evaluate the leaf nodes of webrexp this way the code can be shared between the Breadth first evaluator and the Depth first one",
           "hierarchy": "Text Webrexp Eval",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Eval",
           "name": "evalWebRexpFor",
           "normalized": "WebRexp-\u003eEvalState a b-\u003eWebContextT c a b d(Bool,[EvalState a b])",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDatatypes used to describe webrexps, and some helper functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Exprtypes",
           "package": "Webrexp",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Datatypes used to describe webrexps and some helper functions",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Exprtypes",
           "package": "Webrexp",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent an action Each production\n of the grammar more or less map to a\n data constructor of this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "ActionExpr",
           "package": "Webrexp",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Represent an action Each production of the grammar more or less map to data constructor of this type",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "ActionExpr",
           "package": "Webrexp",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType used to index built-in functions \n in actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "BuiltinFunc",
           "package": "Webrexp",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Type used to index built-in functions in actions",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "BuiltinFunc",
           "package": "Webrexp",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRanges to be able to filter nodes by position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "NodeRange",
           "package": "Webrexp",
@@ -170,6 +183,7 @@
         "index": {
           "description": "Ranges to be able to filter nodes by position",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "NodeRange",
           "package": "Webrexp",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinitions of the operators available in\n the actions of the webrexp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Op",
           "package": "Webrexp",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Definitions of the operators available in the actions of the webrexp",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Op",
           "package": "Webrexp",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "RepeatCount",
           "package": "Webrexp",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "RepeatCount",
           "package": "Webrexp",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresent an element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "WebRef",
           "package": "Webrexp",
@@ -237,6 +256,7 @@
         "index": {
           "description": "represent an element",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "WebRef",
           "package": "Webrexp",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType representation of web-regexp,\n main type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "WebRexp",
           "package": "Webrexp",
@@ -260,6 +281,7 @@
         "index": {
           "description": "Type representation of web-regexp main type",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "WebRexp",
           "package": "Webrexp",
@@ -274,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a value of a given attribute for\n the current element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "ARef",
           "package": "Webrexp",
@@ -284,6 +307,7 @@
         "index": {
           "description": "Find value of given attribute for the current element",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "ARef",
           "package": "Webrexp",
@@ -298,6 +322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"{ ... }\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Action",
           "package": "Webrexp",
@@ -307,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Action",
           "package": "Webrexp",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e{ ... ; ... ; ... ; ... }\n A list of action to execute, each\n one must return a \u003ccode\u003evalid\u003c/code\u003e value to\n continue the evaluation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "ActionExprs",
           "package": "Webrexp",
@@ -331,6 +358,7 @@
         "index": {
           "description": "list of action to execute each one must return valid value to continue the evaluation",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "ActionExprs",
           "normalized": "ActionExprs[ActionExpr]",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'|' Represent two alternative path, if\n the first fail, the second one is taken\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Alternative",
           "package": "Webrexp",
@@ -357,6 +386,7 @@
         "index": {
           "description": "Represent two alternative path if the first fail the second one is taken",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Alternative",
           "package": "Webrexp",
@@ -371,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e@... Check for the presence of an attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Attrib",
           "package": "Webrexp",
@@ -381,6 +412,7 @@
         "index": {
           "description": "Check for the presence of an attribute",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Attrib",
           "package": "Webrexp",
@@ -395,6 +427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic binary opertor application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "BinOp",
           "package": "Webrexp",
@@ -405,6 +438,7 @@
         "index": {
           "description": "Basic binary opertor application",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "BinOp",
           "package": "Webrexp",
@@ -419,6 +453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e( ... ; ... ; ... )\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Branch",
           "package": "Webrexp",
@@ -428,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Branch",
           "normalized": "Branch[WebRexp]",
@@ -443,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "BuiltinFormat",
           "package": "Webrexp",
@@ -452,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "BuiltinFormat",
           "package": "Webrexp",
@@ -465,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "BuiltinSubsitute",
           "package": "Webrexp",
@@ -474,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "BuiltinSubsitute",
           "package": "Webrexp",
@@ -487,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "BuiltinSystem",
           "package": "Webrexp",
@@ -496,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "BuiltinSystem",
           "package": "Webrexp",
@@ -509,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "BuiltinToNum",
           "package": "Webrexp",
@@ -518,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "BuiltinToNum",
           "package": "Webrexp",
@@ -531,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "BuiltinToString",
           "package": "Webrexp",
@@ -540,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "BuiltinToString",
           "package": "Webrexp",
@@ -553,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "BuiltinTrim",
           "package": "Webrexp",
@@ -562,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "BuiltinTrim",
           "package": "Webrexp",
@@ -576,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efuncName(..., ...)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Call",
           "package": "Webrexp",
@@ -586,6 +635,7 @@
         "index": {
           "description": "funcName",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Call",
           "normalized": "Call BuiltinFunc[ActionExpr]",
@@ -602,6 +652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis constructor is an optimisation, it\n combine an Ref followed by an action, where\n every action is a predicate. Help pruning\n quickly the evaluation tree in DFS evaluation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "ConstrainedRef",
           "package": "Webrexp",
@@ -612,6 +663,7 @@
         "index": {
           "description": "This constructor is an optimisation it combine an Ref followed by an action where every action is predicate Help pruning quickly the evaluation tree in DFS evaluation",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "ConstrainedRef",
           "package": "Webrexp",
@@ -626,6 +678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn integer constant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "CstI",
           "package": "Webrexp",
@@ -636,6 +689,7 @@
         "index": {
           "description": "An integer constant",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "CstI",
           "package": "Webrexp",
@@ -650,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA string constant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "CstS",
           "package": "Webrexp",
@@ -660,6 +715,7 @@
         "index": {
           "description": "string constant",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "CstS",
           "package": "Webrexp",
@@ -674,6 +730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a node and all it's children into text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "DeepOutputAction",
           "package": "Webrexp",
@@ -684,6 +741,7 @@
         "index": {
           "description": "Translate node and all it children into text",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "DeepOutputAction",
           "package": "Webrexp",
@@ -698,6 +756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'\u003e\u003e' operator in the language, used\n to follow hyper link\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "DiggLink",
           "package": "Webrexp",
@@ -708,6 +767,7 @@
         "index": {
           "description": "operator in the language used to follow hyper link",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "DiggLink",
           "package": "Webrexp",
@@ -722,6 +782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind children who are the different descendent of\n the current nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "DirectChild",
           "package": "Webrexp",
@@ -732,6 +793,7 @@
         "index": {
           "description": "Find children who are the different descendent of the current nodes",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "DirectChild",
           "package": "Webrexp",
@@ -746,6 +808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'-\u003e' operator in the language, used to\n follow hyper link and dump the resulting\n content on hard drive (if permited).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "DumpLink",
           "package": "Webrexp",
@@ -756,6 +819,7 @@
         "index": {
           "description": "operator in the language used to follow hyper link and dump the resulting content on hard drive if permited",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "DumpLink",
           "package": "Webrexp",
@@ -770,6 +834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e... Search for a named element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Elem",
           "package": "Webrexp",
@@ -780,6 +845,7 @@
         "index": {
           "description": "Search for named element",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Elem",
           "package": "Webrexp",
@@ -794,6 +860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Index",
           "package": "Webrexp",
@@ -803,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Index",
           "package": "Webrexp",
@@ -817,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emin-max\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Interval",
           "package": "Webrexp",
@@ -827,6 +896,7 @@
         "index": {
           "description": "min-max",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Interval",
           "package": "Webrexp",
@@ -841,6 +911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e... ... (each action followed, no rollback)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "List",
           "package": "Webrexp",
@@ -851,6 +922,7 @@
         "index": {
           "description": "each action followed no rollback",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "List",
           "normalized": "List[WebRexp]",
@@ -867,6 +939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'+' operator in the language, used\n to select the next sibling node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "NextSibling",
           "package": "Webrexp",
@@ -877,6 +950,7 @@
         "index": {
           "description": "operator in the language used to select the next sibling node",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "NextSibling",
           "package": "Webrexp",
@@ -891,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a node name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "NodeNameOutputAction",
           "package": "Webrexp",
@@ -901,6 +976,7 @@
         "index": {
           "description": "Retrieve node name",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "NodeNameOutputAction",
           "package": "Webrexp",
@@ -915,6 +991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'$'... operator\n Used to put the action value back into\n the evaluation pipeline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "NodeReplace",
           "package": "Webrexp",
@@ -925,6 +1002,7 @@
         "index": {
           "description": "operator Used to put the action value back into the evaluation pipeline",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "NodeReplace",
           "package": "Webrexp",
@@ -939,6 +1017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e... . ...  Check the value of the 'class' attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OfClass",
           "package": "Webrexp",
@@ -949,6 +1028,7 @@
         "index": {
           "description": "Check the value of the class attribute",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OfClass",
           "package": "Webrexp",
@@ -963,6 +1043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e#...  Check the value of the 'id' attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OfName",
           "package": "Webrexp",
@@ -973,6 +1054,7 @@
         "index": {
           "description": "Check the value of the id attribute",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OfName",
           "package": "Webrexp",
@@ -987,6 +1069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e+\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpAdd",
           "package": "Webrexp",
@@ -996,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpAdd",
           "package": "Webrexp",
@@ -1010,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'&' (\u003ccode\u003e\u003ca\u003e&&\u003c/a\u003e\u003c/code\u003e in Haksell)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpAnd",
           "package": "Webrexp",
@@ -1020,6 +1105,7 @@
         "index": {
           "description": "in Haksell",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpAnd",
           "package": "Webrexp",
@@ -1034,6 +1120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'^=' op beginning, as the CSS3 operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpBegin",
           "package": "Webrexp",
@@ -1044,6 +1131,7 @@
         "index": {
           "description": "op beginning as the CSS3 operator",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpBegin",
           "package": "Webrexp",
@@ -1058,6 +1146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e':' concatenate two strings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpConcat",
           "package": "Webrexp",
@@ -1068,6 +1157,7 @@
         "index": {
           "description": "concatenate two strings",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpConcat",
           "package": "Webrexp",
@@ -1082,6 +1172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'~=' op contain, as the CSS3 operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpContain",
           "package": "Webrexp",
@@ -1092,6 +1183,7 @@
         "index": {
           "description": "op contain as the CSS3 operator",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpContain",
           "package": "Webrexp",
@@ -1106,6 +1198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ediv\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpDiv",
           "package": "Webrexp",
@@ -1116,6 +1209,7 @@
         "index": {
           "description": "div",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpDiv",
           "package": "Webrexp",
@@ -1130,6 +1224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'$=' op beginning, as the CSS3 operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpEnd",
           "package": "Webrexp",
@@ -1140,6 +1235,7 @@
         "index": {
           "description": "op beginning as the CSS3 operator",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpEnd",
           "package": "Webrexp",
@@ -1154,6 +1250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'=' in webrexp (\u003ccode\u003e\u003ca\u003e==\u003c/a\u003e\u003c/code\u003e in Haskell)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpEq",
           "package": "Webrexp",
@@ -1164,6 +1261,7 @@
         "index": {
           "description": "in webrexp in Haskell",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpEq",
           "package": "Webrexp",
@@ -1178,6 +1276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e\u003e=\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpGe",
           "package": "Webrexp",
@@ -1187,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpGe",
           "package": "Webrexp",
@@ -1201,6 +1301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e\u003e\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpGt",
           "package": "Webrexp",
@@ -1210,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpGt",
           "package": "Webrexp",
@@ -1224,6 +1326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'|=' op beginning, as the CSS3 operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpHyphenBegin",
           "package": "Webrexp",
@@ -1234,6 +1337,7 @@
         "index": {
           "description": "op beginning as the CSS3 operator",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpHyphenBegin",
           "package": "Webrexp",
@@ -1248,6 +1352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e\u003c=\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpLe",
           "package": "Webrexp",
@@ -1257,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpLe",
           "package": "Webrexp",
@@ -1271,6 +1377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e\u003c\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpLt",
           "package": "Webrexp",
@@ -1280,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpLt",
           "package": "Webrexp",
@@ -1294,6 +1402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'=~' regexp matching\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpMatch",
           "package": "Webrexp",
@@ -1304,6 +1413,7 @@
         "index": {
           "description": "regexp matching",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpMatch",
           "package": "Webrexp",
@@ -1318,6 +1428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e*\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpMul",
           "package": "Webrexp",
@@ -1327,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpMul",
           "package": "Webrexp",
@@ -1341,6 +1453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'!=' (\u003ccode\u003e\u003ca\u003e/=\u003c/a\u003e\u003c/code\u003e in Haskell)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpNe",
           "package": "Webrexp",
@@ -1351,6 +1464,7 @@
         "index": {
           "description": "in Haskell",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpNe",
           "package": "Webrexp",
@@ -1365,6 +1479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'|' (\u003ccode\u003e\u003ca\u003e||\u003c/a\u003e\u003c/code\u003e in Haskell)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpOr",
           "package": "Webrexp",
@@ -1375,6 +1490,7 @@
         "index": {
           "description": "in Haskell",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpOr",
           "package": "Webrexp",
@@ -1389,6 +1505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpSub",
           "package": "Webrexp",
@@ -1398,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpSub",
           "package": "Webrexp",
@@ -1412,6 +1530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'^=' op beginning, as the CSS3 operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpSubstring",
           "package": "Webrexp",
@@ -1422,6 +1541,7 @@
         "index": {
           "description": "op beginning as the CSS3 operator",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OpSubstring",
           "package": "Webrexp",
@@ -1436,6 +1556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e action. Dump the content of\n the current element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OutputAction",
           "package": "Webrexp",
@@ -1446,6 +1567,7 @@
         "index": {
           "description": "the action Dump the content of the current element",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "OutputAction",
           "package": "Webrexp",
@@ -1460,6 +1582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'\u003c' operator in the language. \n Select the parent node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Parent",
           "package": "Webrexp",
@@ -1470,6 +1593,7 @@
         "index": {
           "description": "operator in the language Select the parent node",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Parent",
           "package": "Webrexp",
@@ -1484,6 +1608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'~' operator in the language, used\n to select the previous sibling node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "PreviousSibling",
           "package": "Webrexp",
@@ -1494,6 +1619,7 @@
         "index": {
           "description": "operator in the language used to select the previous sibling node",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "PreviousSibling",
           "package": "Webrexp",
@@ -1508,6 +1634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'[ ... ]' Filtering Range\n The Int is used as an index for a counter \n in the DFS evaluator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Range",
           "package": "Webrexp",
@@ -1518,6 +1645,7 @@
         "index": {
           "description": "Filtering Range The Int is used as an index for counter in the DFS evaluator",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Range",
           "normalized": "Range Int[NodeRange]",
@@ -1534,6 +1662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eevery tag/class name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Ref",
           "package": "Webrexp",
@@ -1544,6 +1673,7 @@
         "index": {
           "description": "every tag class name",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Ref",
           "package": "Webrexp",
@@ -1558,6 +1688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e... #{  }\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Repeat",
           "package": "Webrexp",
@@ -1567,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Repeat",
           "package": "Webrexp",
@@ -1580,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "RepeatAtLeast",
           "package": "Webrexp",
@@ -1589,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "RepeatAtLeast",
           "package": "Webrexp",
@@ -1602,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "RepeatBetween",
           "package": "Webrexp",
@@ -1611,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "RepeatBetween",
           "package": "Webrexp",
@@ -1624,6 +1760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "RepeatTimes",
           "package": "Webrexp",
@@ -1633,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "RepeatTimes",
           "package": "Webrexp",
@@ -1647,6 +1785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e... *\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Star",
           "package": "Webrexp",
@@ -1656,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Star",
           "package": "Webrexp",
@@ -1670,6 +1810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"...\" A string constant in the source expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Str",
           "package": "Webrexp",
@@ -1680,6 +1821,7 @@
         "index": {
           "description": "string constant in the source expression",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Str",
           "package": "Webrexp",
@@ -1694,6 +1836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e( ... , ... , ... )\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Unions",
           "package": "Webrexp",
@@ -1703,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Unions",
           "normalized": "Unions[WebRexp]",
@@ -1719,6 +1863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'!'\n Possess an unique index to differentiate all the differents\n uniques. Negative value are considered invalid, all positive or\n null one are accepted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Unique",
           "package": "Webrexp",
@@ -1729,6 +1874,7 @@
         "index": {
           "description": "Possess an unique index to differentiate all the differents uniques Negative value are considered invalid all positive or null one are accepted",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Unique",
           "package": "Webrexp",
@@ -1743,6 +1889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'*' Any subelement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Wildcard",
           "package": "Webrexp",
@@ -1753,6 +1900,7 @@
         "index": {
           "description": "Any subelement",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "Wildcard",
           "package": "Webrexp",
@@ -1767,6 +1915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePreparation function for webrexp, assign all indices\n used for evaluation as an automata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "assignWebrexpIndices",
           "package": "Webrexp",
@@ -1777,6 +1926,7 @@
         "index": {
           "description": "Preparation function for webrexp assign all indices used for evaluation as an automata",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "assignWebrexpIndices",
           "normalized": "WebRexp-\u003e(Int,Int,WebRexp)",
@@ -1793,6 +1943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function permit the rewriting of a wabrexp in a depth-first\n fashion while carying out an accumulator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "foldWebRexp",
           "package": "Webrexp",
@@ -1803,6 +1954,7 @@
         "index": {
           "description": "This function permit the rewriting of wabrexp in depth-first fashion while carying out an accumulator",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "foldWebRexp",
           "normalized": "(a-\u003eWebRexp-\u003e(a,WebRexp))-\u003ea-\u003eWebRexp-\u003e(a,WebRexp)",
@@ -1819,6 +1971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTell if an action is a predicate and is only\n used to filter nodes. Expression can be modified\n with this information to help prunning as soon\n as possible with the DFS evaluator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "isActionPredicate",
           "package": "Webrexp",
@@ -1829,6 +1982,7 @@
         "index": {
           "description": "Tell if an action is predicate and is only used to filter nodes Expression can be modified with this information to help prunning as soon as possible with the DFS evaluator",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "isActionPredicate",
           "normalized": "ActionExpr-\u003eBool",
@@ -1845,6 +1999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to check if a given in dex is within\n all the ranges\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "isInNodeRange",
           "package": "Webrexp",
@@ -1855,6 +2010,7 @@
         "index": {
           "description": "Helper function to check if given in dex is within all the ranges",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "isInNodeRange",
           "normalized": "Int-\u003e[NodeRange]-\u003eBool",
@@ -1871,6 +2027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTell if an action operator return a boolean\n operation. Useful to tell if an action is a\n predicate. See \u003ccode\u003e\u003ca\u003eisActionPredicate\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "isOperatorBoolean",
           "package": "Webrexp",
@@ -1881,6 +2038,7 @@
         "index": {
           "description": "Tell if an action operator return boolean operation Useful to tell if an action is predicate See isActionPredicate",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "isOperatorBoolean",
           "normalized": "Op-\u003eBool",
@@ -1896,6 +2054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "packRefFiltering",
           "package": "Webrexp",
@@ -1905,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "packRefFiltering",
           "normalized": "WebRexp-\u003eWebRexp",
@@ -1921,6 +2081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty printing for \u003ccode\u003e\u003ca\u003eWebRef\u003c/a\u003e\u003c/code\u003e. It's should be reparsable\n by the WebRexp parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "prettyShowWebRef",
           "package": "Webrexp",
@@ -1931,6 +2092,7 @@
         "index": {
           "description": "Pretty printing for WebRef It should be reparsable by the WebRexp parser",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "prettyShowWebRef",
           "normalized": "WebRef-\u003eString",
@@ -1947,6 +2109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is an helper function to simplify\n the handling the node range. After simplification,\n the ranges are sorted in ascending order and no\n node range overlap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Exprtypes",
           "name": "simplifyNodeRanges",
           "package": "Webrexp",
@@ -1957,6 +2120,7 @@
         "index": {
           "description": "This function is an helper function to simplify the handling the node range After simplification the ranges are sorted in ascending order and no node range overlap",
           "hierarchy": "Text Webrexp Exprtypes",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Exprtypes",
           "name": "simplifyNodeRanges",
           "normalized": "[NodeRange]-\u003e[NodeRange]",
@@ -1973,6 +2137,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module store the interface between the evaluator\n and the manipulated graph.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "GraphWalker",
           "package": "Webrexp",
@@ -1982,6 +2147,7 @@
         "index": {
           "description": "This module store the interface between the evaluator and the manipulated graph",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "GraphWalker",
           "package": "Webrexp",
@@ -1996,6 +2162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of indirect access demand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "AccessResult",
           "package": "Webrexp",
@@ -2005,6 +2172,7 @@
         "index": {
           "description": "Result of indirect access demand",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "AccessResult",
           "package": "Webrexp",
@@ -2019,6 +2187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent indirect links or links which\n necessitate the use of the IO monad to walk\n around the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "GraphPath",
           "package": "Webrexp",
@@ -2028,6 +2197,7 @@
         "index": {
           "description": "Represent indirect links or links which necessitate the use of the IO monad to walk around the graph",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "GraphPath",
           "package": "Webrexp",
@@ -2042,6 +2212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe aim of this typeclass is to permit\n the use of different html/xml parser if\n if the first one is found to be bad. All\n the logic should use this interface.\n\u003c/p\u003e\u003cp\u003eMinimal implementation : everything but deepValueOf.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "GraphWalker",
           "package": "Webrexp",
@@ -2051,6 +2222,7 @@
         "index": {
           "description": "The aim of this typeclass is to permit the use of different html xml parser if if the first one is found to be bad All the logic should use this interface Minimal implementation everything but deepValueOf",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "GraphWalker",
           "package": "Webrexp",
@@ -2065,6 +2237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType used to propagate different logging\n level across the software.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "Logger",
           "package": "Webrexp",
@@ -2074,6 +2247,7 @@
         "index": {
           "description": "Type used to propagate different logging level across the software",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "Logger",
           "package": "Webrexp",
@@ -2088,6 +2262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormal\u003cem\u003eErr\u003c/em\u003everbose loggers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "Loggers",
           "package": "Webrexp",
@@ -2097,6 +2272,7 @@
         "index": {
           "description": "Normal Err verbose loggers",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "Loggers",
           "package": "Webrexp",
@@ -2111,6 +2287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent the path used to find the node\n from the starting point of the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "NodePath",
           "package": "Webrexp",
@@ -2120,6 +2297,7 @@
         "index": {
           "description": "Represent the path used to find the node from the starting point of the graph",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "NodePath",
           "package": "Webrexp",
@@ -2134,6 +2312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two path togethers, you can think\n of the \u003ca\u003e/\u003c/a\u003e operator for an equivalence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "(\u003c//\u003e)",
           "package": "Webrexp",
@@ -2144,6 +2323,7 @@
         "index": {
           "description": "Combine two path togethers you can think of the operator for an equivalence",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "(\u003c//\u003e) \u003c//\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -2159,6 +2339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCannot access the resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "AccessError",
           "package": "Webrexp",
@@ -2169,6 +2350,7 @@
         "index": {
           "description": "Cannot access the resource",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "AccessError",
           "package": "Webrexp",
@@ -2183,6 +2365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe got something, but we can't interpret\n it, so we return a binary blob.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "DataBlob",
           "package": "Webrexp",
@@ -2193,6 +2376,7 @@
         "index": {
           "description": "We got something but we can interpret it so we return binary blob",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "DataBlob",
           "package": "Webrexp",
@@ -2207,6 +2391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe got a result and parsed it, maybe\n it has changed of location, so we give\n back the location\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "Result",
           "package": "Webrexp",
@@ -2217,6 +2402,7 @@
         "index": {
           "description": "We got result and parsed it maybe it has changed of location so we give back the location",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "Result",
           "package": "Webrexp",
@@ -2231,6 +2417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe idea behind link following.\n The graph engine may have another name for the\n resource, so an updated name can be given.\n The given function is there to log information,\n the second is to log errors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "accessGraph",
           "package": "Webrexp",
@@ -2241,6 +2428,7 @@
         "index": {
           "description": "The idea behind link following The graph engine may have another name for the resource so an updated name can be given The given function is there to log information the second is to log errors",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "accessGraph",
           "normalized": "Loggers a-\u003eb-\u003ea(AccessResult c b)",
@@ -2257,6 +2445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet back an attribute of the node\n if it exists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "attribOf",
           "package": "Webrexp",
@@ -2267,6 +2456,7 @@
         "index": {
           "description": "Get back an attribute of the node if it exists",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "attribOf",
           "normalized": "String-\u003ea-\u003eMaybe String",
@@ -2283,6 +2473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all the children of the current\n node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "childrenOf",
           "package": "Webrexp",
@@ -2293,6 +2484,7 @@
         "index": {
           "description": "Get all the children of the current node",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "childrenOf",
           "normalized": "a-\u003eb[a]",
@@ -2309,6 +2501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike value of, but force the node to collect the\n value of all it's children in the process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "deepValueOf",
           "package": "Webrexp",
@@ -2319,6 +2512,7 @@
         "index": {
           "description": "Like value of but force the node to collect the value of all it children in the process",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "deepValueOf",
           "normalized": "a-\u003eb String",
@@ -2335,6 +2529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of all the \u003ca\u003echildren\u003c/a\u003e/linked node of a given node.\n The given node is not included in the list.\n A list of node with the taken path is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "descendants",
           "package": "Webrexp",
@@ -2345,6 +2540,7 @@
         "index": {
           "description": "Return list of all the children linked node of given node The given node is not included in the list list of node with the taken path is returned",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "descendants",
           "normalized": "a-\u003eb[(a,[(a,Int)])]",
@@ -2360,6 +2556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove semantic, try to dump the pointed\n resource to the current folder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "dumpDataAtPath",
           "package": "Webrexp",
@@ -2370,6 +2567,7 @@
         "index": {
           "description": "Move semantic try to dump the pointed resource to the current folder",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "dumpDataAtPath",
           "normalized": "Loggers a-\u003eb-\u003ea()",
@@ -2386,6 +2584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the first found node if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "findFirstNamed",
           "package": "Webrexp",
@@ -2396,6 +2595,7 @@
         "index": {
           "description": "Return the first found node if any",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "findFirstNamed",
           "normalized": "String-\u003e[a]-\u003eb(Maybe(a,[(a,Int)]))",
@@ -2412,6 +2612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003efindFirstNamed\u003c/a\u003e\u003c/code\u003e, but without the monadic interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "findFirstNamedPure",
           "package": "Webrexp",
@@ -2422,6 +2623,7 @@
         "index": {
           "description": "Like findFirstNamed but without the monadic interface",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "findFirstNamedPure",
           "normalized": "(a-\u003e[a])-\u003eString-\u003e[a]-\u003eMaybe(a,[(a,Int)])",
@@ -2438,6 +2640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a tag and a name, retrieve\n the first matching tags in the hierarchy.\n It must return the list of ancestors permitting\n the acess to the path used to find children\n\u003c/p\u003e\u003cp\u003ethe returned list must contain : the node itself if\n it match the name, and all the children containing the\n good name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "findNamed",
           "package": "Webrexp",
@@ -2448,6 +2651,7 @@
         "index": {
           "description": "Given tag and name retrieve the first matching tags in the hierarchy It must return the list of ancestors permitting the acess to the path used to find children the returned list must contain the node itself if it match the name and all the children containing the good name",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "findNamed",
           "normalized": "String-\u003ea-\u003eb[(a,[(a,Int)])]",
@@ -2464,6 +2668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003efindNamed\u003c/a\u003e\u003c/code\u003e but without the monadic interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "findNamedPure",
           "package": "Webrexp",
@@ -2474,6 +2679,7 @@
         "index": {
           "description": "Like findNamed but without the monadic interface",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "findNamedPure",
           "normalized": "(a-\u003e[a])-\u003eString-\u003ea-\u003e[(a,[(a,Int)])]",
@@ -2490,6 +2696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econversion to be used to import path\n from attributes/document (not really\n well specified).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "importPath",
           "package": "Webrexp",
@@ -2500,6 +2707,7 @@
         "index": {
           "description": "conversion to be used to import path from attributes document not really well specified",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "importPath",
           "normalized": "String-\u003eMaybe a",
@@ -2516,6 +2724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve all the indirectly linked content\n of a node, can be used for element like an\n HTML link or an linked image/obj\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "indirectLinks",
           "package": "Webrexp",
@@ -2526,6 +2735,7 @@
         "index": {
           "description": "Retrieve all the indirectly linked content of node can be used for element like an HTML link or an linked image obj",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "indirectLinks",
           "normalized": "a-\u003e[b]",
@@ -2542,6 +2752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTell if the history associated is fixed or not.\n If the history is not fixed and can change (if you\n are querying the filesystem for example, it should\n return False)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "isHistoryMutable",
           "package": "Webrexp",
@@ -2552,6 +2763,7 @@
         "index": {
           "description": "Tell if the history associated is fixed or not If the history is not fixed and can change if you are querying the filesystem for example it should return False",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "isHistoryMutable",
           "normalized": "a-\u003eBool",
@@ -2568,6 +2780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a graphpath, transform it to\n a filepath which can be used to store\n a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "localizePath",
           "package": "Webrexp",
@@ -2578,6 +2791,7 @@
         "index": {
           "description": "Given graphpath transform it to filepath which can be used to store node",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "localizePath",
           "normalized": "a-\u003eFilePath",
@@ -2594,6 +2808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the current node is named, return\n it's name, otherwise return Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "nameOf",
           "package": "Webrexp",
@@ -2604,6 +2819,7 @@
         "index": {
           "description": "If the current node is named return it name otherwise return Nothing",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "nameOf",
           "normalized": "a-\u003eMaybe String",
@@ -2620,6 +2836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike \u003ccode\u003e\u003ca\u003edescendants\u003c/a\u003e\u003c/code\u003e, but without the monadic interface.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "pureDescendants",
           "package": "Webrexp",
@@ -2630,6 +2847,7 @@
         "index": {
           "description": "like descendants but without the monadic interface",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "pureDescendants",
           "normalized": "(a-\u003e[a])-\u003ea-\u003e[(a,[(a,Int)])]",
@@ -2646,6 +2864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as accessGraph, but don't try to return\n a structured result, only blobs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "rawAccess",
           "package": "Webrexp",
@@ -2656,6 +2875,7 @@
         "index": {
           "description": "Same as accessGraph but don try to return structured result only blobs",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "rawAccess",
           "normalized": "Loggers a-\u003eb-\u003ea(AccessResult c b)",
@@ -2672,6 +2892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the value of the tag (textual)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.GraphWalker",
           "name": "valueOf",
           "package": "Webrexp",
@@ -2682,6 +2903,7 @@
         "index": {
           "description": "Retrieve the value of the tag textual",
           "hierarchy": "Text Webrexp GraphWalker",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.GraphWalker",
           "name": "valueOf",
           "normalized": "a-\u003eString",
@@ -2698,6 +2920,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule implementing the parsing of webrexp.\n It shouldn't be used directly.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Parser",
           "name": "Parser",
           "package": "Webrexp",
@@ -2707,6 +2930,7 @@
         "index": {
           "description": "Module implementing the parsing of webrexp It shouldn be used directly",
           "hierarchy": "Text Webrexp Parser",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Parser",
           "name": "Parser",
           "package": "Webrexp",
@@ -2721,6 +2945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser used to parse a webrexp.\n Use just like any \u003ccode\u003e\u003ca\u003eParsec\u003c/a\u003e\u003c/code\u003e 3.0 parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Parser",
           "name": "webRexpParser",
           "package": "Webrexp",
@@ -2731,6 +2956,7 @@
         "index": {
           "description": "Parser used to parse webrexp Use just like any Parsec parser",
           "hierarchy": "Text Webrexp Parser",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Parser",
           "name": "webRexpParser",
           "package": "Webrexp",
@@ -2744,6 +2970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Quote",
           "name": "Quote",
           "package": "Webrexp",
@@ -2752,6 +2979,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp Quote",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Quote",
           "name": "Quote",
           "package": "Webrexp",
@@ -2766,6 +2994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuasi quote to transform a webrexp into it's compiled representation.\n You can use it the following way :\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE QuasiQuotes #-}\n import Text.Webrexp.Quote\n\n [webrexpCompile| some webrexp [.] |]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Quote",
           "name": "webrexpCompile",
           "package": "Webrexp",
@@ -2776,6 +3005,7 @@
         "index": {
           "description": "Quasi quote to transform webrexp into it compiled representation You can use it the following way LANGUAGE QuasiQuotes import Text.Webrexp.Quote webrexpCompile some webrexp",
           "hierarchy": "Text Webrexp Quote",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Quote",
           "name": "webrexpCompile",
           "package": "Webrexp",
@@ -2790,6 +3020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuasiQuotation to transform a webrexp to\n it's AST representation, resulting type is :: Webrexp.\n You can use it the following way :\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE QuasiQuotes #-}\n import Text.Webrexp.Quote\n\n [webrexpParse| some webrexp [.] |]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.Quote",
           "name": "webrexpParse",
           "package": "Webrexp",
@@ -2800,6 +3031,7 @@
         "index": {
           "description": "QuasiQuotation to transform webrexp to it AST representation resulting type is Webrexp You can use it the following way LANGUAGE QuasiQuotes import Text.Webrexp.Quote webrexpParse some webrexp",
           "hierarchy": "Text Webrexp Quote",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.Quote",
           "name": "webrexpParse",
           "package": "Webrexp",
@@ -2814,6 +3046,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule implementing plumbing to get a unified path locator,\n handling URI & local path. Implement the \u003ccode\u003e\u003ca\u003eGraphPath\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eGraphWalker\u003c/a\u003e\u003c/code\u003e\n typeclass with \u003ccode\u003eHxtNode\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.ResourcePath",
           "name": "ResourcePath",
           "package": "Webrexp",
@@ -2823,6 +3056,7 @@
         "index": {
           "description": "Module implementing plumbing to get unified path locator handling URI local path Implement the GraphPath and GraphWalker typeclass with HxtNode",
           "hierarchy": "Text Webrexp ResourcePath",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.ResourcePath",
           "name": "ResourcePath",
           "package": "Webrexp",
@@ -2837,6 +3071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMain data type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.ResourcePath",
           "name": "ResourcePath",
           "package": "Webrexp",
@@ -2846,6 +3081,7 @@
         "index": {
           "description": "Main data type",
           "hierarchy": "Text Webrexp ResourcePath",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.ResourcePath",
           "name": "ResourcePath",
           "package": "Webrexp",
@@ -2860,6 +3096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a file stored on the hard-drive of this\n machine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.ResourcePath",
           "name": "Local",
           "package": "Webrexp",
@@ -2870,6 +3107,7 @@
         "index": {
           "description": "Represent file stored on the hard-drive of this machine",
           "hierarchy": "Text Webrexp ResourcePath",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.ResourcePath",
           "name": "Local",
           "package": "Webrexp",
@@ -2884,6 +3122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a ressource spread on internet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.ResourcePath",
           "name": "Remote",
           "package": "Webrexp",
@@ -2894,6 +3133,7 @@
         "index": {
           "description": "Represent ressource spread on internet",
           "hierarchy": "Text Webrexp ResourcePath",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.ResourcePath",
           "name": "Remote",
           "package": "Webrexp",
@@ -2907,6 +3147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.ResourcePath",
           "name": "accessResourcePath",
           "package": "Webrexp",
@@ -2916,6 +3157,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp ResourcePath",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.ResourcePath",
           "name": "accessResourcePath",
           "normalized": "Loggers a-\u003eResourcePath-\u003ea(AccessResult b ResourcePath)",
@@ -2932,6 +3174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to grab a resource on internet and returning\n it's binary representation, and it's real place if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.ResourcePath",
           "name": "downloadBinary",
           "package": "Webrexp",
@@ -2942,6 +3185,7 @@
         "index": {
           "description": "Helper function to grab resource on internet and returning it binary representation and it real place if any",
           "hierarchy": "Text Webrexp ResourcePath",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.ResourcePath",
           "name": "downloadBinary",
           "normalized": "Loggers a-\u003eURI-\u003ea(URI,Response ByteString)",
@@ -2958,6 +3202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a blob of data from a resourcepath and return\n the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.ResourcePath",
           "name": "rawLoadData",
           "package": "Webrexp",
@@ -2968,6 +3213,7 @@
         "index": {
           "description": "Extract blob of data from resourcepath and return the result",
           "hierarchy": "Text Webrexp ResourcePath",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.ResourcePath",
           "name": "rawLoadData",
           "normalized": "Loggers a-\u003eResourcePath-\u003ea(Maybe ByteString)",
@@ -2984,6 +3230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a ressource, transforme it to a string\n representation. This function should be used instead\n of the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance, which is aimed at debugging\n only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp.ResourcePath",
           "name": "rezPathToString",
           "package": "Webrexp",
@@ -2994,6 +3241,7 @@
         "index": {
           "description": "Given ressource transforme it to string representation This function should be used instead of the Show instance which is aimed at debugging only",
           "hierarchy": "Text Webrexp ResourcePath",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp.ResourcePath",
           "name": "rezPathToString",
           "normalized": "ResourcePath-\u003eString",
@@ -3010,6 +3258,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric module for using Webrexp as a user.\n the main functions for the user are queryDocument to perform an in-memory\n evaluation, and evalWebRexpDepthFirst\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "Webrexp",
           "package": "Webrexp",
@@ -3019,6 +3268,7 @@
         "index": {
           "description": "Generic module for using Webrexp as user the main functions for the user are queryDocument to perform an in-memory evaluation and evalWebRexpDepthFirst",
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "Webrexp",
           "package": "Webrexp",
@@ -3032,6 +3282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "Conf",
           "package": "Webrexp",
@@ -3040,6 +3291,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "Conf",
           "package": "Webrexp",
@@ -3054,6 +3306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribe different kind of content parser usable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "ParseableType",
           "package": "Webrexp",
@@ -3063,6 +3316,7 @@
         "index": {
           "description": "Describe different kind of content parser usable",
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "ParseableType",
           "package": "Webrexp",
@@ -3076,6 +3330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "Conf",
           "package": "Webrexp",
@@ -3085,6 +3340,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "Conf",
           "package": "Webrexp",
@@ -3099,6 +3355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicate a parser which must be tolerant enough\n to parse HTML\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "ParseableHTML",
           "package": "Webrexp",
@@ -3109,6 +3366,7 @@
         "index": {
           "description": "Indicate parser which must be tolerant enough to parse HTML",
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "ParseableHTML",
           "package": "Webrexp",
@@ -3123,6 +3381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo what you want with it for now.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "ParseableJson",
           "package": "Webrexp",
@@ -3133,6 +3392,7 @@
         "index": {
           "description": "Do what you want with it for now",
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "ParseableJson",
           "package": "Webrexp",
@@ -3147,6 +3407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou can go ahead and use a rather strict parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "ParseableXML",
           "package": "Webrexp",
@@ -3157,6 +3418,7 @@
         "index": {
           "description": "You can go ahead and use rather strict parser",
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "ParseableXML",
           "package": "Webrexp",
@@ -3170,6 +3432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "defaultConf",
           "package": "Webrexp",
@@ -3179,6 +3442,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "defaultConf",
           "package": "Webrexp",
@@ -3192,6 +3456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "depthEvaluation",
           "package": "Webrexp",
@@ -3201,6 +3466,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "depthEvaluation",
           "package": "Webrexp",
@@ -3215,6 +3481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluation for pre-parsed webrexp.\n Best method if a webrexp has to be evaluated\n many times. Evaluated using breadth first method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "evalParsedWebRexp",
           "package": "Webrexp",
@@ -3225,6 +3492,7 @@
         "index": {
           "description": "Evaluation for pre-parsed webrexp Best method if webrexp has to be evaluated many times Evaluated using breadth first method",
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "evalParsedWebRexp",
           "normalized": "WebRexp-\u003eIO Bool",
@@ -3241,6 +3509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple evaluation function, evaluation is\n the breadth first type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "evalWebRexp",
           "package": "Webrexp",
@@ -3251,6 +3520,7 @@
         "index": {
           "description": "Simple evaluation function evaluation is the breadth first type",
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "evalWebRexp",
           "normalized": "String-\u003eIO Bool",
@@ -3267,6 +3537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a webrexp in depth first fashion, returning a success\n status telling if the evaluation got up to the end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "evalWebRexpDepthFirst",
           "package": "Webrexp",
@@ -3277,6 +3548,7 @@
         "index": {
           "description": "Evaluate webrexp in depth first fashion returning success status telling if the evaluation got up to the end",
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "evalWebRexpDepthFirst",
           "normalized": "String-\u003eIO Bool",
@@ -3293,6 +3565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction used in the command line program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "evalWebRexpWithConf",
           "package": "Webrexp",
@@ -3303,6 +3576,7 @@
         "index": {
           "description": "Function used in the command line program",
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "evalWebRexpWithConf",
           "normalized": "Conf-\u003eIO Bool",
@@ -3319,6 +3593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a webrexp and return all the dumped text as \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e\n and all errors as \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e. Evaluated using depth first method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "executeParsedWebRexp",
           "package": "Webrexp",
@@ -3329,6 +3604,7 @@
         "index": {
           "description": "Evaluate webrexp and return all the dumped text as Right and all errors as Left Evaluated using depth first method",
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "executeParsedWebRexp",
           "normalized": "WebRexp-\u003eIO[Either String String]",
@@ -3344,6 +3620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "expr",
           "package": "Webrexp",
@@ -3353,6 +3630,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "expr",
           "package": "Webrexp",
@@ -3365,6 +3643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "hammeringDelay",
           "package": "Webrexp",
@@ -3374,6 +3653,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "hammeringDelay",
           "package": "Webrexp",
@@ -3387,6 +3667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "output",
           "package": "Webrexp",
@@ -3396,6 +3677,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "output",
           "package": "Webrexp",
@@ -3408,6 +3690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "outputGraphViz",
           "package": "Webrexp",
@@ -3417,6 +3700,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "outputGraphViz",
           "package": "Webrexp",
@@ -3431,6 +3715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepare a webrexp.\n This function is useful if the expression has\n to be applied many times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "parseWebRexp",
           "package": "Webrexp",
@@ -3441,6 +3726,7 @@
         "index": {
           "description": "Prepare webrexp This function is useful if the expression has to be applied many times",
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "parseWebRexp",
           "normalized": "String-\u003eMaybe WebRexp",
@@ -3457,6 +3743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery a document in memory and retrieve the results, you can use it in combination\n to the quasiquoting facility to embed the webrexp in haskell :\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE QuasiQuotes #-}\n import Text.Webrexp\n import Text.Webrexp.Quote\n import qualified Data.ByteString.Char8 as B\n\n main :: IO ()\n main = print $ queryDocument ParseableJson document [webrexpParse| some things [.] |]\n     where document = B.pack \"{ \\\"some\\\": { \\\"things\\\": \\\"a phrase\\\" } }\"\n\u003c/pre\u003e\u003cp\u003eThe returned values contain possible errors as \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e and real value as 'Right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "queryDocument",
           "package": "Webrexp",
@@ -3467,6 +3754,7 @@
         "index": {
           "description": "Query document in memory and retrieve the results you can use it in combination to the quasiquoting facility to embed the webrexp in haskell LANGUAGE QuasiQuotes import Text.Webrexp import Text.Webrexp.Quote import qualified Data.ByteString.Char8 as main IO main print queryDocument ParseableJson document webrexpParse some things where document B.pack some things phrase The returned values contain possible errors as Left and real value as Right",
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "queryDocument",
           "normalized": "ParseableType-\u003eByteString-\u003eWebRexp-\u003e[Either String String]",
@@ -3483,6 +3771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExactly same thing as \u003ccode\u003e\u003ca\u003equeryDocument\u003c/a\u003e\u003c/code\u003e, but in ST\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "queryDocumentM",
           "package": "Webrexp",
@@ -3493,6 +3782,7 @@
         "index": {
           "description": "Exactly same thing as queryDocument but in ST",
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "queryDocumentM",
           "normalized": "a b ParseableType-\u003eByteString-\u003eWebRexp-\u003eST c[Either String String]",
@@ -3508,6 +3798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "quiet",
           "package": "Webrexp",
@@ -3517,6 +3808,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "quiet",
           "package": "Webrexp",
@@ -3529,6 +3821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "showHelp",
           "package": "Webrexp",
@@ -3538,6 +3831,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "showHelp",
           "package": "Webrexp",
@@ -3551,6 +3845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "userAgent",
           "package": "Webrexp",
@@ -3560,6 +3855,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "userAgent",
           "package": "Webrexp",
@@ -3573,6 +3869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:04:26 UTC 2014",
           "module": "Text.Webrexp",
           "name": "verbose",
           "package": "Webrexp",
@@ -3582,6 +3879,7 @@
         },
         "index": {
           "hierarchy": "Text Webrexp",
+          "indexed": "2014-03-11T17:04:26",
           "module": "Text.Webrexp",
           "name": "verbose",
           "package": "Webrexp",

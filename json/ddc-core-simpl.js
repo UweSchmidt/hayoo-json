@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ddc-core-simpl"
+        "phrase": "ddc-core-simpl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSlurp out arities of function bindings.\n   and infer arities for primitives based on their types.\n\u003c/p\u003e\u003cp\u003eFor function bindings the arity is the number of outer-most lambdas\n   in the definition. \n\u003c/p\u003e\u003cp\u003eFor primitives, the arity is the number of function\n   constructors in its type. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Analysis.Arity",
           "name": "Arity",
           "package": "ddc-core-simpl",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Slurp out arities of function bindings and infer arities for primitives based on their types For function bindings the arity is the number of outer-most lambdas in the definition For primitives the arity is the number of function constructors in its type",
           "hierarchy": "DDC Core Analysis Arity",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Analysis.Arity",
           "name": "Arity",
           "package": "ddc-core-simpl",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArities of named and anonymous bindings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Analysis.Arity",
           "name": "Arities",
           "package": "ddc-core-simpl",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Arities of named and anonymous bindings",
           "hierarchy": "DDC Core Analysis Arity",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Analysis.Arity",
           "name": "Arities",
           "package": "ddc-core-simpl",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the arities of a \u003ccode\u003e\u003ca\u003eLets\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Analysis.Arity",
           "name": "aritiesOfLets",
           "package": "ddc-core-simpl",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Get the arities of Lets",
           "hierarchy": "DDC Core Analysis Arity",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Analysis.Arity",
           "name": "aritiesOfLets",
           "normalized": "Lets a b-\u003eMaybe[(Bind b,Int)]",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSlurp out arities of imports and top-level bindings from a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Analysis.Arity",
           "name": "aritiesOfModule",
           "package": "ddc-core-simpl",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Slurp out arities of imports and top-level bindings from module",
           "hierarchy": "DDC Core Analysis Arity",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Analysis.Arity",
           "name": "aritiesOfModule",
           "normalized": "Module a b-\u003eArities b",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve binders from case pattern, so we can extend the arity context.\n   We don't know anything about their values, so record as 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Analysis.Arity",
           "name": "aritiesOfPat",
           "package": "ddc-core-simpl",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Retrieve binders from case pattern so we can extend the arity context We don know anything about their values so record as",
           "hierarchy": "DDC Core Analysis Arity",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Analysis.Arity",
           "name": "aritiesOfPat",
           "normalized": "Pat a-\u003e[(Bind a,Int)]",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the arity of an expression by looking at its type.\n   Count all the function arrows, and foralls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Analysis.Arity",
           "name": "arityFromType",
           "package": "ddc-core-simpl",
@@ -153,6 +164,7 @@
         "index": {
           "description": "Determine the arity of an expression by looking at its type Count all the function arrows and foralls",
           "hierarchy": "DDC Core Analysis Arity",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Analysis.Arity",
           "name": "arityFromType",
           "normalized": "Type a-\u003eMaybe Int",
@@ -169,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the arity of an expression. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Analysis.Arity",
           "name": "arityOfExp",
           "package": "ddc-core-simpl",
@@ -179,6 +192,7 @@
         "index": {
           "description": "Get the arity of an expression",
           "hierarchy": "DDC Core Analysis Arity",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Analysis.Arity",
           "name": "arityOfExp",
           "normalized": "Exp a b-\u003eMaybe Int",
@@ -195,6 +209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty arities context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Analysis.Arity",
           "name": "emptyArities",
           "package": "ddc-core-simpl",
@@ -205,6 +220,7 @@
         "index": {
           "description": "Empty arities context",
           "hierarchy": "DDC Core Analysis Arity",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Analysis.Arity",
           "name": "emptyArities",
           "package": "ddc-core-simpl",
@@ -219,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend map with some binders and their arities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Analysis.Arity",
           "name": "extendsArities",
           "package": "ddc-core-simpl",
@@ -229,6 +246,7 @@
         "index": {
           "description": "Extend map with some binders and their arities",
           "hierarchy": "DDC Core Analysis Arity",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Analysis.Arity",
           "name": "extendsArities",
           "normalized": "Arities a-\u003e[(Bind a,Int)]-\u003eArities a",
@@ -245,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up a binder's arity from the arity map\n   or determine it from its type in the case of primops.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Analysis.Arity",
           "name": "getArity",
           "package": "ddc-core-simpl",
@@ -255,6 +274,7 @@
         "index": {
           "description": "Look up binder arity from the arity map or determine it from its type in the case of primops",
           "hierarchy": "DDC Core Analysis Arity",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Analysis.Arity",
           "name": "getArity",
           "normalized": "Arities a-\u003eBound a-\u003eMaybe Int",
@@ -271,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAnnotate let bindings with how their bound variables are used.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Analysis.Usage",
           "name": "Usage",
           "package": "ddc-core-simpl",
@@ -280,6 +301,7 @@
         "index": {
           "description": "Annotate let bindings with how their bound variables are used",
           "hierarchy": "DDC Core Analysis Usage",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Analysis.Usage",
           "name": "Usage",
           "package": "ddc-core-simpl",
@@ -294,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTracks how a bound variable is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Analysis.Usage",
           "name": "Used",
           "package": "ddc-core-simpl",
@@ -303,6 +326,7 @@
         "index": {
           "description": "Tracks how bound variable is used",
           "hierarchy": "DDC Core Analysis Usage",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Analysis.Usage",
           "name": "Used",
           "package": "ddc-core-simpl",
@@ -317,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap of bound name to how the variable is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Analysis.Usage",
           "name": "UsedMap",
           "package": "ddc-core-simpl",
@@ -326,6 +351,7 @@
         "index": {
           "description": "Map of bound name to how the variable is used",
           "hierarchy": "DDC Core Analysis Usage",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Analysis.Usage",
           "name": "UsedMap",
           "package": "ddc-core-simpl",
@@ -340,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBound variable is destructed by a case-expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Analysis.Usage",
           "name": "UsedDestruct",
           "package": "ddc-core-simpl",
@@ -350,6 +377,7 @@
         "index": {
           "description": "Bound variable is destructed by case-expression",
           "hierarchy": "DDC Core Analysis Usage",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Analysis.Usage",
           "name": "UsedDestruct",
           "package": "ddc-core-simpl",
@@ -364,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBound variable is used as the function in an application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Analysis.Usage",
           "name": "UsedFunction",
           "package": "ddc-core-simpl",
@@ -374,6 +403,7 @@
         "index": {
           "description": "Bound variable is used as the function in an application",
           "hierarchy": "DDC Core Analysis Usage",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Analysis.Usage",
           "name": "UsedFunction",
           "package": "ddc-core-simpl",
@@ -388,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsage is inside a case alternative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Analysis.Usage",
           "name": "UsedInAlt",
           "package": "ddc-core-simpl",
@@ -398,6 +429,7 @@
         "index": {
           "description": "Usage is inside case alternative",
           "hierarchy": "DDC Core Analysis Usage",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Analysis.Usage",
           "name": "UsedInAlt",
           "package": "ddc-core-simpl",
@@ -412,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBound variable is used inside a \u003ccode\u003eweakclo\u003c/code\u003e cast.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Analysis.Usage",
           "name": "UsedInCast",
           "package": "ddc-core-simpl",
@@ -422,6 +455,7 @@
         "index": {
           "description": "Bound variable is used inside weakclo cast",
           "hierarchy": "DDC Core Analysis Usage",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Analysis.Usage",
           "name": "UsedInCast",
           "package": "ddc-core-simpl",
@@ -436,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsage is inside a Lambda abstraction (either type or value)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Analysis.Usage",
           "name": "UsedInLambda",
           "package": "ddc-core-simpl",
@@ -446,6 +481,7 @@
         "index": {
           "description": "Usage is inside Lambda abstraction either type or value",
           "hierarchy": "DDC Core Analysis Usage",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Analysis.Usage",
           "name": "UsedInLambda",
           "package": "ddc-core-simpl",
@@ -459,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Analysis.Usage",
           "name": "UsedMap",
           "package": "ddc-core-simpl",
@@ -468,6 +505,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Analysis Usage",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Analysis.Usage",
           "name": "UsedMap",
           "normalized": "UsedMap(Map a[Used])",
@@ -484,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBound variable has an occurrence that is not one of the above.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Analysis.Usage",
           "name": "UsedOcc",
           "package": "ddc-core-simpl",
@@ -494,6 +533,7 @@
         "index": {
           "description": "Bound variable has an occurrence that is not one of the above",
           "hierarchy": "DDC Core Analysis Usage",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Analysis.Usage",
           "name": "UsedOcc",
           "package": "ddc-core-simpl",
@@ -508,6 +548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotate all binding occurrences of variables in an expression\n   with how they are used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Analysis.Usage",
           "name": "usageModule",
           "package": "ddc-core-simpl",
@@ -518,6 +559,7 @@
         "index": {
           "description": "Annotate all binding occurrences of variables in an expression with how they are used",
           "hierarchy": "DDC Core Analysis Usage",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Analysis.Usage",
           "name": "usageModule",
           "normalized": "Module a b-\u003eModule(UsedMap b,a)b",
@@ -534,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotate all binding occurrences of variables in an expression\n   with how they are used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Analysis.Usage",
           "name": "usageX",
           "package": "ddc-core-simpl",
@@ -544,6 +587,7 @@
         "index": {
           "description": "Annotate all binding occurrences of variables in an expression with how they are used",
           "hierarchy": "DDC Core Analysis Usage",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Analysis.Usage",
           "name": "usageX",
           "normalized": "Exp a b-\u003eExp(UsedMap b,a)b",
@@ -558,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Parser",
           "name": "Parser",
           "package": "ddc-core-simpl",
@@ -566,6 +611,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Simplifier Parser",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Parser",
           "name": "Parser",
           "package": "ddc-core-simpl",
@@ -580,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuxilliary information that may be used by a simplifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Parser",
           "name": "SimplifierDetails",
           "package": "ddc-core-simpl",
@@ -589,6 +636,7 @@
         "index": {
           "description": "Auxilliary information that may be used by simplifier",
           "hierarchy": "DDC Core Simplifier Parser",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Parser",
           "name": "SimplifierDetails",
           "package": "ddc-core-simpl",
@@ -602,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Parser",
           "name": "SimplifierDetails",
           "package": "ddc-core-simpl",
@@ -611,6 +660,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Simplifier Parser",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Parser",
           "name": "SimplifierDetails",
           "package": "ddc-core-simpl",
@@ -625,6 +675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a simplifier from a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Parser",
           "name": "parseSimplifier",
           "package": "ddc-core-simpl",
@@ -635,6 +686,7 @@
         "index": {
           "description": "Parse simplifier from string",
           "hierarchy": "DDC Core Simplifier Parser",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Parser",
           "name": "parseSimplifier",
           "normalized": "(String-\u003eMaybe a)-\u003eSimplifierDetails b c a-\u003eString-\u003eEither ParseError(Simplifier b c a)",
@@ -651,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a namifier to make fresh type (level-1) \n   names that don't conflict with any already in this environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Parser",
           "name": "simplifierMkNamifierT",
           "package": "ddc-core-simpl",
@@ -661,6 +714,7 @@
         "index": {
           "description": "Create namifier to make fresh type level-1 names that don conflict with any already in this environment",
           "hierarchy": "DDC Core Simplifier Parser",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Parser",
           "name": "simplifierMkNamifierT",
           "normalized": "Env a-\u003eNamifier b a",
@@ -677,6 +731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a namifier to make fresh value or witness (level-0) \n   names that don't conflict with any already in this environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Parser",
           "name": "simplifierMkNamifierX",
           "package": "ddc-core-simpl",
@@ -687,6 +742,7 @@
         "index": {
           "description": "Create namifier to make fresh value or witness level-0 names that don conflict with any already in this environment",
           "hierarchy": "DDC Core Simplifier Parser",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Parser",
           "name": "simplifierMkNamifierX",
           "normalized": "Env a-\u003eNamifier b a",
@@ -703,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite rules along with their names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Parser",
           "name": "simplifierRules",
           "package": "ddc-core-simpl",
@@ -713,6 +770,7 @@
         "index": {
           "description": "Rewrite rules along with their names",
           "hierarchy": "DDC Core Simplifier Parser",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Parser",
           "name": "simplifierRules",
           "package": "ddc-core-simpl",
@@ -727,6 +785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModules available for inlining.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Parser",
           "name": "simplifierTemplates",
           "package": "ddc-core-simpl",
@@ -737,6 +796,7 @@
         "index": {
           "description": "Modules available for inlining",
           "hierarchy": "DDC Core Simplifier Parser",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Parser",
           "name": "simplifierTemplates",
           "normalized": "[Module a b]",
@@ -753,6 +813,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon simplifier recipes that combine multiple transforms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "Recipe",
           "package": "ddc-core-simpl",
@@ -762,6 +823,7 @@
         "index": {
           "description": "Common simplifier recipes that combine multiple transforms",
           "hierarchy": "DDC Core Simplifier Recipe",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "Recipe",
           "package": "ddc-core-simpl",
@@ -776,6 +838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite named binders to anonymous debruijn binders.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "anonymize",
           "package": "ddc-core-simpl",
@@ -786,6 +849,7 @@
         "index": {
           "description": "Rewrite named binders to anonymous debruijn binders",
           "hierarchy": "DDC Core Simplifier Recipe",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "anonymize",
           "package": "ddc-core-simpl",
@@ -799,6 +863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion to administrative normal-form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "anormalize",
           "package": "ddc-core-simpl",
@@ -808,6 +873,7 @@
         "index": {
           "description": "Conversion to administrative normal-form",
           "hierarchy": "DDC Core Simplifier Recipe",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "anormalize",
           "normalized": "(KindEnv a-\u003eNamifier b a)-\u003e(TypeEnv a-\u003eNamifier b a)-\u003eSimplifier b c a",
@@ -823,6 +889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform beta reduction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "beta",
           "package": "ddc-core-simpl",
@@ -833,6 +900,7 @@
         "index": {
           "description": "Perform beta reduction",
           "hierarchy": "DDC Core Simplifier Recipe",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "beta",
           "package": "ddc-core-simpl",
@@ -846,6 +914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform beta reduction, introducing let-expressions for compound arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "betaLets",
           "package": "ddc-core-simpl",
@@ -856,6 +925,7 @@
         "index": {
           "description": "Perform beta reduction introducing let-expressions for compound arguments",
           "hierarchy": "DDC Core Simplifier Recipe",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "betaLets",
           "package": "ddc-core-simpl",
@@ -870,6 +940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloat casts outwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "bubble",
           "package": "ddc-core-simpl",
@@ -880,6 +951,7 @@
         "index": {
           "description": "Float casts outwards",
           "hierarchy": "DDC Core Simplifier Recipe",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "bubble",
           "package": "ddc-core-simpl",
@@ -893,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElaborate possible Const and Distinct witnesses that aren't\n   otherwise in the program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "elaborate",
           "package": "ddc-core-simpl",
@@ -903,6 +976,7 @@
         "index": {
           "description": "Elaborate possible Const and Distinct witnesses that aren otherwise in the program",
           "hierarchy": "DDC Core Simplifier Recipe",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "elaborate",
           "package": "ddc-core-simpl",
@@ -916,6 +990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten nested let and case expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "flatten",
           "package": "ddc-core-simpl",
@@ -926,6 +1001,7 @@
         "index": {
           "description": "Flatten nested let and case expressions",
           "hierarchy": "DDC Core Simplifier Recipe",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "flatten",
           "package": "ddc-core-simpl",
@@ -939,6 +1015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloat single-use bindings forward into their use sites.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "forward",
           "package": "ddc-core-simpl",
@@ -949,6 +1026,7 @@
         "index": {
           "description": "Float single-use bindings forward into their use sites",
           "hierarchy": "DDC Core Simplifier Recipe",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "forward",
           "package": "ddc-core-simpl",
@@ -962,6 +1040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe identity simplifier returns the code unharmed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "idsimp",
           "package": "ddc-core-simpl",
@@ -972,6 +1051,7 @@
         "index": {
           "description": "The identity simplifier returns the code unharmed",
           "hierarchy": "DDC Core Simplifier Recipe",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "idsimp",
           "package": "ddc-core-simpl",
@@ -985,6 +1065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove unused, pure let bindings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "prune",
           "package": "ddc-core-simpl",
@@ -995,6 +1076,7 @@
         "index": {
           "description": "Remove unused pure let bindings",
           "hierarchy": "DDC Core Simplifier Recipe",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "prune",
           "package": "ddc-core-simpl",
@@ -1008,6 +1090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntersperse rewrites and beta reduction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "rewriteSimp",
           "package": "ddc-core-simpl",
@@ -1017,6 +1100,7 @@
         "index": {
           "description": "Intersperse rewrites and beta reduction",
           "hierarchy": "DDC Core Simplifier Recipe",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "rewriteSimp",
           "normalized": "Int-\u003eNamedRewriteRules a b-\u003eSimplifier c a b",
@@ -1033,6 +1117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntroduce let-bindings for nested applications.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "snip",
           "package": "ddc-core-simpl",
@@ -1043,6 +1128,7 @@
         "index": {
           "description": "Introduce let-bindings for nested applications",
           "hierarchy": "DDC Core Simplifier Recipe",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "snip",
           "package": "ddc-core-simpl",
@@ -1056,6 +1142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntroduce let-bindings for nested applications.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "snipOver",
           "package": "ddc-core-simpl",
@@ -1066,6 +1153,7 @@
         "index": {
           "description": "Introduce let-bindings for nested applications",
           "hierarchy": "DDC Core Simplifier Recipe",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Recipe",
           "name": "snipOver",
           "package": "ddc-core-simpl",
@@ -1079,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Result",
           "name": "Result",
           "package": "ddc-core-simpl",
@@ -1087,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Simplifier Result",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Result",
           "name": "Result",
           "package": "ddc-core-simpl",
@@ -1101,6 +1191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlace-holder type to use when there is no real \u003ccode\u003e\u003ca\u003eTransformResult\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Result",
           "name": "NoInformation",
           "package": "ddc-core-simpl",
@@ -1110,6 +1201,7 @@
         "index": {
           "description": "Place-holder type to use when there is no real TransformResult",
           "hierarchy": "DDC Core Simplifier Result",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Result",
           "name": "NoInformation",
           "package": "ddc-core-simpl",
@@ -1124,6 +1216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExistential package for a typeable thing,\n   used in \u003ccode\u003e\u003ca\u003eTransformResult\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Result",
           "name": "TransformInfo",
           "package": "ddc-core-simpl",
@@ -1133,6 +1226,7 @@
         "index": {
           "description": "Existential package for typeable thing used in TransformResult",
           "hierarchy": "DDC Core Simplifier Result",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Result",
           "name": "TransformInfo",
           "package": "ddc-core-simpl",
@@ -1147,6 +1241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePackage up the result of applying a single transform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier.Result",
           "name": "TransformResult",
           "package": "ddc-core-simpl",
@@ -1156,6 +1251,7 @@
         "index": {
           "description": "Package up the result of applying single transform",
           "hierarchy": "DDC Core Simplifier Result",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier.Result",
           "name": "TransformResult",
           "package": "ddc-core-simpl",
@@ -1341,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "Simplifier",
           "package": "ddc-core-simpl",
@@ -1349,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "Simplifier",
           "package": "ddc-core-simpl",
@@ -1363,6 +1461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to get the inliner template (unfolding) for the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "InlinerTemplates",
           "package": "ddc-core-simpl",
@@ -1372,6 +1471,7 @@
         "index": {
           "description": "Function to get the inliner template unfolding for the given name",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "InlinerTemplates",
           "package": "ddc-core-simpl",
@@ -1386,6 +1486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite rules along with their names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "NamedRewriteRules",
           "package": "ddc-core-simpl",
@@ -1395,6 +1496,7 @@
         "index": {
           "description": "Rewrite rules along with their names",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "NamedRewriteRules",
           "package": "ddc-core-simpl",
@@ -1409,6 +1511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecification of how to simplify a core program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "Simplifier",
           "package": "ddc-core-simpl",
@@ -1418,6 +1521,7 @@
         "index": {
           "description": "Specification of how to simplify core program",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "Simplifier",
           "package": "ddc-core-simpl",
@@ -1432,6 +1536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndividual transforms to apply during simplification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "Transform",
           "package": "ddc-core-simpl",
@@ -1441,6 +1546,7 @@
         "index": {
           "description": "Individual transforms to apply during simplification",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "Transform",
           "package": "ddc-core-simpl",
@@ -1455,6 +1561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExistential package for a typeable thing,\n   used in \u003ccode\u003e\u003ca\u003eTransformResult\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "TransformInfo",
           "package": "ddc-core-simpl",
@@ -1464,6 +1571,7 @@
         "index": {
           "description": "Existential package for typeable thing used in TransformResult",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "TransformInfo",
           "package": "ddc-core-simpl",
@@ -1478,6 +1586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePackage up the result of applying a single transform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "TransformResult",
           "package": "ddc-core-simpl",
@@ -1487,6 +1596,7 @@
         "index": {
           "description": "Package up the result of applying single transform",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "TransformResult",
           "package": "ddc-core-simpl",
@@ -1501,6 +1611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite named binders to anonymous deBruijn binders.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "Anonymize",
           "package": "ddc-core-simpl",
@@ -1511,6 +1622,7 @@
         "index": {
           "description": "Rewrite named binders to anonymous deBruijn binders",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "Anonymize",
           "package": "ddc-core-simpl",
@@ -1525,6 +1637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform beta reduction when the argument is not a redex.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "Beta",
           "package": "ddc-core-simpl",
@@ -1535,6 +1648,7 @@
         "index": {
           "description": "Perform beta reduction when the argument is not redex",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "Beta",
           "package": "ddc-core-simpl",
@@ -1549,6 +1663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloat casts outwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "Bubble",
           "package": "ddc-core-simpl",
@@ -1559,6 +1674,7 @@
         "index": {
           "description": "Float casts outwards",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "Bubble",
           "package": "ddc-core-simpl",
@@ -1573,6 +1689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElaborate possible Const and Distinct witnesses that aren't\n   otherwise in the program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "Elaborate",
           "package": "ddc-core-simpl",
@@ -1583,6 +1700,7 @@
         "index": {
           "description": "Elaborate possible Const and Distinct witnesses that aren otherwise in the program",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "Elaborate",
           "package": "ddc-core-simpl",
@@ -1597,6 +1715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform eta expansion and reduction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "Eta",
           "package": "ddc-core-simpl",
@@ -1607,6 +1726,7 @@
         "index": {
           "description": "Perform eta expansion and reduction",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "Eta",
           "package": "ddc-core-simpl",
@@ -1621,6 +1741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeep applying a transform until it reports that further\n   applications won't be helpful, bailing out after a maximum number\n   of applications.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "Fix",
           "package": "ddc-core-simpl",
@@ -1631,6 +1752,7 @@
         "index": {
           "description": "Keep applying transform until it reports that further applications won be helpful bailing out after maximum number of applications",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "Fix",
           "package": "ddc-core-simpl",
@@ -1645,6 +1767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten nested let and case expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "Flatten",
           "package": "ddc-core-simpl",
@@ -1655,6 +1778,7 @@
         "index": {
           "description": "Flatten nested let and case expressions",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "Flatten",
           "package": "ddc-core-simpl",
@@ -1669,6 +1793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloat single-use bindings forward into their use sites.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "Forward",
           "package": "ddc-core-simpl",
@@ -1679,6 +1804,7 @@
         "index": {
           "description": "Float single-use bindings forward into their use sites",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "Forward",
           "package": "ddc-core-simpl",
@@ -1693,6 +1819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Identity transform returns the original program unharmed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "Id",
           "package": "ddc-core-simpl",
@@ -1703,6 +1830,7 @@
         "index": {
           "description": "The Identity transform returns the original program unharmed",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "Id",
           "package": "ddc-core-simpl",
@@ -1717,6 +1845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInline definitions into their use sites.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "Inline",
           "package": "ddc-core-simpl",
@@ -1727,6 +1856,7 @@
         "index": {
           "description": "Inline definitions into their use sites",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "Inline",
           "package": "ddc-core-simpl",
@@ -1741,6 +1871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite anonymous binders to fresh named binders.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "Namify",
           "package": "ddc-core-simpl",
@@ -1751,6 +1882,7 @@
         "index": {
           "description": "Rewrite anonymous binders to fresh named binders",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "Namify",
           "package": "ddc-core-simpl",
@@ -1765,6 +1897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove unused, pure let bindings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "Prune",
           "package": "ddc-core-simpl",
@@ -1775,6 +1908,7 @@
         "index": {
           "description": "Remove unused pure let bindings",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "Prune",
           "package": "ddc-core-simpl",
@@ -1789,6 +1923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply general rule-based rewrites.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "Rewrite",
           "package": "ddc-core-simpl",
@@ -1799,6 +1934,7 @@
         "index": {
           "description": "Apply general rule-based rewrites",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "Rewrite",
           "package": "ddc-core-simpl",
@@ -1813,6 +1949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply two simplifiers in sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "Seq",
           "package": "ddc-core-simpl",
@@ -1823,6 +1960,7 @@
         "index": {
           "description": "Apply two simplifiers in sequence",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "Seq",
           "package": "ddc-core-simpl",
@@ -1837,6 +1975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntroduce let-bindings for nested applications.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "Snip",
           "package": "ddc-core-simpl",
@@ -1847,6 +1986,7 @@
         "index": {
           "description": "Introduce let-bindings for nested applications",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "Snip",
           "package": "ddc-core-simpl",
@@ -1861,6 +2001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a single transform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "Trans",
           "package": "ddc-core-simpl",
@@ -1871,6 +2012,7 @@
         "index": {
           "description": "Apply single transform",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "Trans",
           "package": "ddc-core-simpl",
@@ -1885,6 +2027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a simplifier to a module.\n\u003c/p\u003e\u003cp\u003eThe state monad can be used by \u003ccode\u003e\u003ca\u003eNamifier\u003c/a\u003e\u003c/code\u003e functions to generate fresh names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "applySimplifier",
           "package": "ddc-core-simpl",
@@ -1894,6 +2037,7 @@
         "index": {
           "description": "Apply simplifier to module The state monad can be used by Namifier functions to generate fresh names",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "applySimplifier",
           "normalized": "Profile a-\u003eKindEnv a-\u003eTypeEnv a-\u003eSimplifier b c a-\u003eModule c a-\u003eState b(Module c a)",
@@ -1910,6 +2054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a simplifier to an expression.\n\u003c/p\u003e\u003cp\u003eThe state monad can be used by \u003ccode\u003e\u003ca\u003eNamifier\u003c/a\u003e\u003c/code\u003e functions to generate fresh names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "applySimplifierX",
           "package": "ddc-core-simpl",
@@ -1919,6 +2064,7 @@
         "index": {
           "description": "Apply simplifier to an expression The state monad can be used by Namifier functions to generate fresh names",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "applySimplifierX",
           "normalized": "Profile a-\u003eKindEnv a-\u003eTypeEnv a-\u003eSimplifier b c a-\u003eExp c a-\u003eState b(TransformResult(Exp c a))",
@@ -1935,6 +2081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the unfolding for a named variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "transInlineDef",
           "package": "ddc-core-simpl",
@@ -1945,6 +2092,7 @@
         "index": {
           "description": "Get the unfolding for named variable",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "transInlineDef",
           "package": "ddc-core-simpl",
@@ -1959,6 +2107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a namifier to make fresh type (level-1) \n   names that don't conflict with any already in this\n   environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "transMkNamifierT",
           "package": "ddc-core-simpl",
@@ -1969,6 +2118,7 @@
         "index": {
           "description": "Create namifier to make fresh type level-1 names that don conflict with any already in this environment",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "transMkNamifierT",
           "normalized": "Env a-\u003eNamifier b a",
@@ -1985,6 +2135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a namifier to make fresh value or witness (level-0) \n   names that don't conflict with any already in this\n   environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "transMkNamifierX",
           "package": "ddc-core-simpl",
@@ -1995,6 +2146,7 @@
         "index": {
           "description": "Create namifier to make fresh value or witness level-0 names that don conflict with any already in this environment",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "transMkNamifierX",
           "normalized": "Env a-\u003eNamifier b a",
@@ -2011,6 +2163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of rewrite rules along with their names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Simplifier",
           "name": "transRules",
           "package": "ddc-core-simpl",
@@ -2021,6 +2174,7 @@
         "index": {
           "description": "List of rewrite rules along with their names",
           "hierarchy": "DDC Core Simplifier",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Simplifier",
           "name": "transRules",
           "package": "ddc-core-simpl",
@@ -2035,6 +2189,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRewrite all binders to anonymous deBruijn form.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.AnonymizeX",
           "name": "AnonymizeX",
           "package": "ddc-core-simpl",
@@ -2044,6 +2199,7 @@
         "index": {
           "description": "Rewrite all binders to anonymous deBruijn form",
           "hierarchy": "DDC Core Transform AnonymizeX",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.AnonymizeX",
           "name": "AnonymizeX",
           "package": "ddc-core-simpl",
@@ -2057,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.AnonymizeX",
           "name": "AnonymizeX",
           "package": "ddc-core-simpl",
@@ -2065,6 +2222,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform AnonymizeX",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.AnonymizeX",
           "name": "AnonymizeX",
           "package": "ddc-core-simpl",
@@ -2079,6 +2237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all binders in a thing to be anonymous.\n   The stacks contains existing anonymous binders that we have entered into,\n   and named binders that we have rewritten. All bound occurrences of variables\n   will be replaced by references into these stacks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.AnonymizeX",
           "name": "anonymizeWithX",
           "package": "ddc-core-simpl",
@@ -2089,6 +2248,7 @@
         "index": {
           "description": "Rewrite all binders in thing to be anonymous The stacks contains existing anonymous binders that we have entered into and named binders that we have rewritten All bound occurrences of variables will be replaced by references into these stacks",
           "hierarchy": "DDC Core Transform AnonymizeX",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.AnonymizeX",
           "name": "anonymizeWithX",
           "package": "ddc-core-simpl",
@@ -2103,6 +2263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all binders in a thing to anonymous form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.AnonymizeX",
           "name": "anonymizeX",
           "package": "ddc-core-simpl",
@@ -2113,6 +2274,7 @@
         "index": {
           "description": "Rewrite all binders in thing to anonymous form",
           "hierarchy": "DDC Core Transform AnonymizeX",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.AnonymizeX",
           "name": "anonymizeX",
           "normalized": "a b-\u003ea b",
@@ -2128,6 +2290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePush a binding occurrence of a level-0 on the stack, \n   returning the anonyized binding occurrence and the new stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.AnonymizeX",
           "name": "pushAnonymizeBindX",
           "package": "ddc-core-simpl",
@@ -2137,6 +2300,7 @@
         "index": {
           "description": "Push binding occurrence of level-0 on the stack returning the anonyized binding occurrence and the new stack",
           "hierarchy": "DDC Core Transform AnonymizeX",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.AnonymizeX",
           "name": "pushAnonymizeBindX",
           "normalized": "Set a-\u003e[Bind a]-\u003e[Bind a]-\u003eBind a-\u003e([Bind a],Bind a)",
@@ -2153,6 +2317,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBeta-reduce applications of a explicit lambda abstractions \n   to variables and values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Beta",
           "name": "Beta",
           "package": "ddc-core-simpl",
@@ -2162,6 +2327,7 @@
         "index": {
           "description": "Beta-reduce applications of explicit lambda abstractions to variables and values",
           "hierarchy": "DDC Core Transform Beta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Beta",
           "name": "Beta",
           "package": "ddc-core-simpl",
@@ -2175,6 +2341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Beta",
           "name": "Config",
           "package": "ddc-core-simpl",
@@ -2183,6 +2350,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Beta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Beta",
           "name": "Config",
           "package": "ddc-core-simpl",
@@ -2197,6 +2365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA summary of what the beta reduction transform did.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Beta",
           "name": "Info",
           "package": "ddc-core-simpl",
@@ -2206,6 +2375,7 @@
         "index": {
           "description": "summary of what the beta reduction transform did",
           "hierarchy": "DDC Core Transform Beta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Beta",
           "name": "Info",
           "package": "ddc-core-simpl",
@@ -2219,6 +2389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Beta",
           "name": "Config",
           "package": "ddc-core-simpl",
@@ -2228,6 +2399,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Beta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Beta",
           "name": "Config",
           "package": "ddc-core-simpl",
@@ -2241,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Beta",
           "name": "Info",
           "package": "ddc-core-simpl",
@@ -2250,6 +2423,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Beta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Beta",
           "name": "Info",
           "package": "ddc-core-simpl",
@@ -2264,6 +2438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBeta-reduce applications of a explicit lambda abstractions \n   to variables and values.\n\u003c/p\u003e\u003cp\u003eIf the flag is set then if we find a lambda abstraction that is applied\n   to a redex then let-bind the redex and substitute the new variable\n   instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Beta",
           "name": "betaReduce",
           "package": "ddc-core-simpl",
@@ -2274,6 +2449,7 @@
         "index": {
           "description": "Beta-reduce applications of explicit lambda abstractions to variables and values If the flag is set then if we find lambda abstraction that is applied to redex then let-bind the redex and substitute the new variable instead",
           "hierarchy": "DDC Core Transform Beta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Beta",
           "name": "betaReduce",
           "normalized": "Config-\u003ea b c-\u003eTransformResult(a b c)",
@@ -2290,6 +2466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf we find a lambda abstraction applied to a redex then let-bind\n   the redex and substitute the new variable instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Beta",
           "name": "configBindRedexes",
           "package": "ddc-core-simpl",
@@ -2300,6 +2477,7 @@
         "index": {
           "description": "If we find lambda abstraction applied to redex then let-bind the redex and substitute the new variable instead",
           "hierarchy": "DDC Core Transform Beta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Beta",
           "name": "configBindRedexes",
           "package": "ddc-core-simpl",
@@ -2314,6 +2492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty beta configuration with all flags set to False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Beta",
           "name": "configZero",
           "package": "ddc-core-simpl",
@@ -2324,6 +2503,7 @@
         "index": {
           "description": "Empty beta configuration with all flags set to False",
           "hierarchy": "DDC Core Transform Beta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Beta",
           "name": "configZero",
           "package": "ddc-core-simpl",
@@ -2338,6 +2518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of type applications reduced.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Beta",
           "name": "infoTypes",
           "package": "ddc-core-simpl",
@@ -2348,6 +2529,7 @@
         "index": {
           "description": "Number of type applications reduced",
           "hierarchy": "DDC Core Transform Beta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Beta",
           "name": "infoTypes",
           "package": "ddc-core-simpl",
@@ -2362,6 +2544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of value applications reduced.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Beta",
           "name": "infoValues",
           "package": "ddc-core-simpl",
@@ -2372,6 +2555,7 @@
         "index": {
           "description": "Number of value applications reduced",
           "hierarchy": "DDC Core Transform Beta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Beta",
           "name": "infoValues",
           "package": "ddc-core-simpl",
@@ -2386,6 +2570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of redexes let-bound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Beta",
           "name": "infoValuesLetted",
           "package": "ddc-core-simpl",
@@ -2396,6 +2581,7 @@
         "index": {
           "description": "Number of redexes let-bound",
           "hierarchy": "DDC Core Transform Beta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Beta",
           "name": "infoValuesLetted",
           "package": "ddc-core-simpl",
@@ -2410,6 +2596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of applications that we couldn't reduce.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Beta",
           "name": "infoValuesSkipped",
           "package": "ddc-core-simpl",
@@ -2420,6 +2607,7 @@
         "index": {
           "description": "Number of applications that we couldn reduce",
           "hierarchy": "DDC Core Transform Beta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Beta",
           "name": "infoValuesSkipped",
           "package": "ddc-core-simpl",
@@ -2434,6 +2622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of witness applications reduced.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Beta",
           "name": "infoWits",
           "package": "ddc-core-simpl",
@@ -2444,6 +2633,7 @@
         "index": {
           "description": "Number of witness applications reduced",
           "hierarchy": "DDC Core Transform Beta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Beta",
           "name": "infoWits",
           "package": "ddc-core-simpl",
@@ -2458,6 +2648,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBubble casts outwards.\n   We float casts up and outwards so they are just inside the inner-most\n   enclosing let. This way the functions still have the same effect and\n   closure, but the casts don't get in the way of subsequent transforms.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Bubble",
           "name": "Bubble",
           "package": "ddc-core-simpl",
@@ -2467,6 +2658,7 @@
         "index": {
           "description": "Bubble casts outwards We float casts up and outwards so they are just inside the inner-most enclosing let This way the functions still have the same effect and closure but the casts don get in the way of subsequent transforms",
           "hierarchy": "DDC Core Transform Bubble",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Bubble",
           "name": "Bubble",
           "package": "ddc-core-simpl",
@@ -2481,6 +2673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBubble casts outwards in a \u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Bubble",
           "name": "bubbleModule",
           "package": "ddc-core-simpl",
@@ -2491,6 +2684,7 @@
         "index": {
           "description": "Bubble casts outwards in Module",
           "hierarchy": "DDC Core Transform Bubble",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Bubble",
           "name": "bubbleModule",
           "normalized": "Module a b-\u003eModule a b",
@@ -2507,6 +2701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBubble casts outwards in an \u003ccode\u003e\u003ca\u003eExp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Bubble",
           "name": "bubbleX",
           "package": "ddc-core-simpl",
@@ -2517,6 +2712,7 @@
         "index": {
           "description": "Bubble casts outwards in an Exp",
           "hierarchy": "DDC Core Transform Bubble",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Bubble",
           "name": "bubbleX",
           "normalized": "KindEnv a-\u003eTypeEnv a-\u003eExp b a-\u003eExp b a",
@@ -2532,6 +2728,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAdd possible Const and Distinct witnesses that aren't\n   otherwise in the program.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Elaborate",
           "name": "Elaborate",
           "package": "ddc-core-simpl",
@@ -2541,6 +2738,7 @@
         "index": {
           "description": "Add possible Const and Distinct witnesses that aren otherwise in the program",
           "hierarchy": "DDC Core Transform Elaborate",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Elaborate",
           "name": "Elaborate",
           "package": "ddc-core-simpl",
@@ -2555,6 +2753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElaborate witnesses in a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Elaborate",
           "name": "elaborateModule",
           "package": "ddc-core-simpl",
@@ -2565,6 +2764,7 @@
         "index": {
           "description": "Elaborate witnesses in module",
           "hierarchy": "DDC Core Transform Elaborate",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Elaborate",
           "name": "elaborateModule",
           "normalized": "Module a b-\u003eModule a b",
@@ -2581,6 +2781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElaborate witnesses in an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Elaborate",
           "name": "elaborateX",
           "package": "ddc-core-simpl",
@@ -2591,6 +2792,7 @@
         "index": {
           "description": "Elaborate witnesses in an expression",
           "hierarchy": "DDC Core Transform Elaborate",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Elaborate",
           "name": "elaborateX",
           "normalized": "Exp a b-\u003eExp a b",
@@ -2605,6 +2807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Eta",
           "name": "Eta",
           "package": "ddc-core-simpl",
@@ -2613,6 +2816,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Eta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Eta",
           "name": "Eta",
           "package": "ddc-core-simpl",
@@ -2626,6 +2830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Eta",
           "name": "Config",
           "package": "ddc-core-simpl",
@@ -2634,6 +2839,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Eta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Eta",
           "name": "Config",
           "package": "ddc-core-simpl",
@@ -2647,6 +2853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Eta",
           "name": "Info",
           "package": "ddc-core-simpl",
@@ -2655,6 +2862,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Eta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Eta",
           "name": "Info",
           "package": "ddc-core-simpl",
@@ -2668,6 +2876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Eta",
           "name": "Config",
           "package": "ddc-core-simpl",
@@ -2677,6 +2886,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Eta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Eta",
           "name": "Config",
           "package": "ddc-core-simpl",
@@ -2690,6 +2900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Eta",
           "name": "Info",
           "package": "ddc-core-simpl",
@@ -2699,6 +2910,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Eta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Eta",
           "name": "Info",
           "package": "ddc-core-simpl",
@@ -2712,6 +2924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Eta",
           "name": "configExpand",
           "package": "ddc-core-simpl",
@@ -2721,6 +2934,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Eta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Eta",
           "name": "configExpand",
           "package": "ddc-core-simpl",
@@ -2735,6 +2949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty eta configuration with all flags set to False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Eta",
           "name": "configZero",
           "package": "ddc-core-simpl",
@@ -2745,6 +2960,7 @@
         "index": {
           "description": "Empty eta configuration with all flags set to False",
           "hierarchy": "DDC Core Transform Eta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Eta",
           "name": "configZero",
           "package": "ddc-core-simpl",
@@ -2759,6 +2975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEta-transform expressions in a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Eta",
           "name": "etaModule",
           "package": "ddc-core-simpl",
@@ -2769,6 +2986,7 @@
         "index": {
           "description": "Eta-transform expressions in module",
           "hierarchy": "DDC Core Transform Eta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Eta",
           "name": "etaModule",
           "normalized": "Config-\u003eProfile a-\u003eModule b a-\u003eTransformResult(Module b a)",
@@ -2785,6 +3003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEta-transform an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Eta",
           "name": "etaX",
           "package": "ddc-core-simpl",
@@ -2794,6 +3013,7 @@
         "index": {
           "description": "Eta-transform an expression",
           "hierarchy": "DDC Core Transform Eta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Eta",
           "name": "etaX",
           "normalized": "Config-\u003eProfile a-\u003eKindEnv a-\u003eTypeEnv a-\u003eExp b a-\u003eTransformResult(Exp b a)",
@@ -2809,6 +3029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of level-1 lambdas added.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Eta",
           "name": "infoExpandedXLAMs",
           "package": "ddc-core-simpl",
@@ -2819,6 +3040,7 @@
         "index": {
           "description": "Number of level-1 lambdas added",
           "hierarchy": "DDC Core Transform Eta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Eta",
           "name": "infoExpandedXLAMs",
           "package": "ddc-core-simpl",
@@ -2833,6 +3055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of level-0 lambdas added. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Eta",
           "name": "infoExpandedXLams",
           "package": "ddc-core-simpl",
@@ -2843,6 +3066,7 @@
         "index": {
           "description": "Number of level-0 lambdas added",
           "hierarchy": "DDC Core Transform Eta",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Eta",
           "name": "infoExpandedXLams",
           "package": "ddc-core-simpl",
@@ -2857,6 +3081,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFlattening nested let and case expressions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Flatten",
           "name": "Flatten",
           "package": "ddc-core-simpl",
@@ -2866,6 +3091,7 @@
         "index": {
           "description": "Flattening nested let and case expressions",
           "hierarchy": "DDC Core Transform Flatten",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Flatten",
           "name": "Flatten",
           "package": "ddc-core-simpl",
@@ -2880,6 +3106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten binding structure in a thing.\n\u003c/p\u003e\u003cp\u003eFlattens nested let-expressions, \n   and single alternative let-case expressions. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Flatten",
           "name": "flatten",
           "package": "ddc-core-simpl",
@@ -2890,6 +3117,7 @@
         "index": {
           "description": "Flatten binding structure in thing Flattens nested let-expressions and single alternative let-case expressions",
           "hierarchy": "DDC Core Transform Flatten",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Flatten",
           "name": "flatten",
           "normalized": "a b c-\u003ea b c",
@@ -2905,6 +3133,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFloat let-bindings with a single use forward into their use-sites.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Forward",
           "name": "Forward",
           "package": "ddc-core-simpl",
@@ -2914,6 +3143,7 @@
         "index": {
           "description": "Float let-bindings with single use forward into their use-sites",
           "hierarchy": "DDC Core Transform Forward",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Forward",
           "name": "Forward",
           "package": "ddc-core-simpl",
@@ -2927,6 +3157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Forward",
           "name": "Config",
           "package": "ddc-core-simpl",
@@ -2935,6 +3166,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Forward",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Forward",
           "name": "Config",
           "package": "ddc-core-simpl",
@@ -2949,6 +3181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFine control over what should be floated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Forward",
           "name": "FloatControl",
           "package": "ddc-core-simpl",
@@ -2958,6 +3191,7 @@
         "index": {
           "description": "Fine control over what should be floated",
           "hierarchy": "DDC Core Transform Forward",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Forward",
           "name": "FloatControl",
           "package": "ddc-core-simpl",
@@ -2972,6 +3206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSummary of number of bindings floated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Forward",
           "name": "ForwardInfo",
           "package": "ddc-core-simpl",
@@ -2981,6 +3216,7 @@
         "index": {
           "description": "Summary of number of bindings floated",
           "hierarchy": "DDC Core Transform Forward",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Forward",
           "name": "ForwardInfo",
           "package": "ddc-core-simpl",
@@ -2994,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Forward",
           "name": "Config",
           "package": "ddc-core-simpl",
@@ -3003,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Forward",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Forward",
           "name": "Config",
           "package": "ddc-core-simpl",
@@ -3017,6 +3255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow binding to be floated, but don't require it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Forward",
           "name": "FloatAllow",
           "package": "ddc-core-simpl",
@@ -3027,6 +3266,7 @@
         "index": {
           "description": "Allow binding to be floated but don require it",
           "hierarchy": "DDC Core Transform Forward",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Forward",
           "name": "FloatAllow",
           "package": "ddc-core-simpl",
@@ -3041,6 +3281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrevent a binding being floated, at all times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Forward",
           "name": "FloatDeny",
           "package": "ddc-core-simpl",
@@ -3051,6 +3292,7 @@
         "index": {
           "description": "Prevent binding being floated at all times",
           "hierarchy": "DDC Core Transform Forward",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Forward",
           "name": "FloatDeny",
           "package": "ddc-core-simpl",
@@ -3065,6 +3307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForce   a binding to be floated, at all times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Forward",
           "name": "FloatForce",
           "package": "ddc-core-simpl",
@@ -3075,6 +3318,7 @@
         "index": {
           "description": "Force binding to be floated at all times",
           "hierarchy": "DDC Core Transform Forward",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Forward",
           "name": "FloatForce",
           "package": "ddc-core-simpl",
@@ -3088,6 +3332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Forward",
           "name": "ForwardInfo",
           "package": "ddc-core-simpl",
@@ -3097,6 +3342,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Forward",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Forward",
           "name": "ForwardInfo",
           "package": "ddc-core-simpl",
@@ -3110,6 +3356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Forward",
           "name": "configFloatControl",
           "package": "ddc-core-simpl",
@@ -3119,6 +3366,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Forward",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Forward",
           "name": "configFloatControl",
           "normalized": "Lets a b-\u003eFloatControl",
@@ -3134,6 +3382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Forward",
           "name": "configFloatLetBody",
           "package": "ddc-core-simpl",
@@ -3143,6 +3392,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Forward",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Forward",
           "name": "configFloatLetBody",
           "package": "ddc-core-simpl",
@@ -3157,6 +3407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloat let-bindings in a module with a single use forward into\n   their use sites.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Forward",
           "name": "forwardModule",
           "package": "ddc-core-simpl",
@@ -3166,6 +3417,7 @@
         "index": {
           "description": "Float let-bindings in module with single use forward into their use sites",
           "hierarchy": "DDC Core Transform Forward",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Forward",
           "name": "forwardModule",
           "normalized": "Profile a-\u003eConfig b a-\u003eModule b a-\u003eTransformResult(Module b a)",
@@ -3182,6 +3434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloat let-bindings in an expression with a single use forward into\n   their use-sites.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Forward",
           "name": "forwardX",
           "package": "ddc-core-simpl",
@@ -3191,6 +3444,7 @@
         "index": {
           "description": "Float let-bindings in an expression with single use forward into their use-sites",
           "hierarchy": "DDC Core Transform Forward",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Forward",
           "name": "forwardX",
           "normalized": "Profile a-\u003eConfig b a-\u003eExp b a-\u003eTransformResult(Exp b a)",
@@ -3206,6 +3460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of bindings floated forwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Forward",
           "name": "infoBindings",
           "package": "ddc-core-simpl",
@@ -3216,6 +3471,7 @@
         "index": {
           "description": "Number of bindings floated forwards",
           "hierarchy": "DDC Core Transform Forward",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Forward",
           "name": "infoBindings",
           "package": "ddc-core-simpl",
@@ -3230,6 +3486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of bindings inspected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Forward",
           "name": "infoInspected",
           "package": "ddc-core-simpl",
@@ -3240,6 +3497,7 @@
         "index": {
           "description": "Number of bindings inspected",
           "hierarchy": "DDC Core Transform Forward",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Forward",
           "name": "infoInspected",
           "package": "ddc-core-simpl",
@@ -3254,6 +3512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of trivial \u003ccode\u003ev1 = v2\u003c/code\u003e bindings inlined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Forward",
           "name": "infoSubsts",
           "package": "ddc-core-simpl",
@@ -3264,6 +3523,7 @@
         "index": {
           "description": "Number of trivial v1 v2 bindings inlined",
           "hierarchy": "DDC Core Transform Forward",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Forward",
           "name": "infoSubsts",
           "package": "ddc-core-simpl",
@@ -3278,6 +3538,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInlining definitions into their use sites.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Inline",
           "name": "Inline",
           "package": "ddc-core-simpl",
@@ -3287,6 +3548,7 @@
         "index": {
           "description": "Inlining definitions into their use sites",
           "hierarchy": "DDC Core Transform Inline",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Inline",
           "name": "Inline",
           "package": "ddc-core-simpl",
@@ -3301,6 +3563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInlining specification says what bindings we should inline\n   from a particular module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Inline",
           "name": "InlineSpec",
           "package": "ddc-core-simpl",
@@ -3310,6 +3573,7 @@
         "index": {
           "description": "Inlining specification says what bindings we should inline from particular module",
           "hierarchy": "DDC Core Transform Inline",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Inline",
           "name": "InlineSpec",
           "package": "ddc-core-simpl",
@@ -3324,6 +3588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInline all bindings from a module,\n   but exclude some particulars.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Inline",
           "name": "InlineSpecAll",
           "package": "ddc-core-simpl",
@@ -3334,6 +3599,7 @@
         "index": {
           "description": "Inline all bindings from module but exclude some particulars",
           "hierarchy": "DDC Core Transform Inline",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Inline",
           "name": "InlineSpecAll",
           "package": "ddc-core-simpl",
@@ -3348,6 +3614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInline no bindings from a module,\n   but include some particulars.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Inline",
           "name": "InlineSpecNone",
           "package": "ddc-core-simpl",
@@ -3358,6 +3625,7 @@
         "index": {
           "description": "Inline no bindings from module but include some particulars",
           "hierarchy": "DDC Core Transform Inline",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Inline",
           "name": "InlineSpecNone",
           "package": "ddc-core-simpl",
@@ -3371,6 +3639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Inline",
           "name": "inline",
           "package": "ddc-core-simpl",
@@ -3379,6 +3648,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Inline",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Inline",
           "name": "inline",
           "normalized": "(a-\u003eMaybe(Exp b a))-\u003eSet a-\u003ec b a-\u003ec b a",
@@ -3393,6 +3663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Inline",
           "name": "inlineSpecExclude",
           "package": "ddc-core-simpl",
@@ -3402,6 +3673,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Inline",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Inline",
           "name": "inlineSpecExclude",
           "package": "ddc-core-simpl",
@@ -3415,6 +3687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Inline",
           "name": "inlineSpecInclude",
           "package": "ddc-core-simpl",
@@ -3424,6 +3697,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Inline",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Inline",
           "name": "inlineSpecInclude",
           "package": "ddc-core-simpl",
@@ -3437,6 +3711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Inline",
           "name": "inlineSpecModuleName",
           "package": "ddc-core-simpl",
@@ -3446,6 +3721,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Inline",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Inline",
           "name": "inlineSpecModuleName",
           "package": "ddc-core-simpl",
@@ -3460,6 +3736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup an inliner template from a list of modules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Inline",
           "name": "lookupTemplateFromModules",
           "package": "ddc-core-simpl",
@@ -3469,6 +3746,7 @@
         "index": {
           "description": "Lookup an inliner template from list of modules",
           "hierarchy": "DDC Core Transform Inline",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Inline",
           "name": "lookupTemplateFromModules",
           "normalized": "Map ModuleName(InlineSpec a)-\u003e[Module b a]-\u003ea-\u003eMaybe(Exp b a)",
@@ -3485,6 +3763,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRewriting of anonymous binders to named binders.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Namify",
           "name": "Namify",
           "package": "ddc-core-simpl",
@@ -3494,6 +3773,7 @@
         "index": {
           "description": "Rewriting of anonymous binders to named binders",
           "hierarchy": "DDC Core Transform Namify",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Namify",
           "name": "Namify",
           "package": "ddc-core-simpl",
@@ -3508,6 +3788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHolds a function to rename binders, \n   and the state of the renamer as we decend into the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Namify",
           "name": "Namifier",
           "package": "ddc-core-simpl",
@@ -3517,6 +3798,7 @@
         "index": {
           "description": "Holds function to rename binders and the state of the renamer as we decend into the tree",
           "hierarchy": "DDC Core Transform Namify",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Namify",
           "name": "Namifier",
           "package": "ddc-core-simpl",
@@ -3530,6 +3812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Namify",
           "name": "Namify",
           "package": "ddc-core-simpl",
@@ -3538,6 +3821,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Namify",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Namify",
           "name": "Namify",
           "package": "ddc-core-simpl",
@@ -3551,6 +3835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Namify",
           "name": "Namifier",
           "package": "ddc-core-simpl",
@@ -3560,6 +3845,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Namify",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Namify",
           "name": "Namifier",
           "package": "ddc-core-simpl",
@@ -3574,6 +3860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new namifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Namify",
           "name": "makeNamifier",
           "package": "ddc-core-simpl",
@@ -3583,6 +3870,7 @@
         "index": {
           "description": "Construct new namifier",
           "hierarchy": "DDC Core Transform Namify",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Namify",
           "name": "makeNamifier",
           "normalized": "(Env a-\u003eBind a-\u003eState b a)-\u003eEnv a-\u003eNamifier b a",
@@ -3599,6 +3887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHolds the current environment during namification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Namify",
           "name": "namifierEnv",
           "package": "ddc-core-simpl",
@@ -3609,6 +3898,7 @@
         "index": {
           "description": "Holds the current environment during namification",
           "hierarchy": "DDC Core Transform Namify",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Namify",
           "name": "namifierEnv",
           "package": "ddc-core-simpl",
@@ -3623,6 +3913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new name for this bind that is not in the given\n   environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Namify",
           "name": "namifierNew",
           "package": "ddc-core-simpl",
@@ -3633,6 +3924,7 @@
         "index": {
           "description": "Create new name for this bind that is not in the given environment",
           "hierarchy": "DDC Core Transform Namify",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Namify",
           "name": "namifierNew",
           "normalized": "Env a-\u003eBind a-\u003eState b a",
@@ -3649,6 +3941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStack of debruijn binders that have been rewritten during\n   namification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Namify",
           "name": "namifierStack",
           "package": "ddc-core-simpl",
@@ -3659,6 +3952,7 @@
         "index": {
           "description": "Stack of debruijn binders that have been rewritten during namification",
           "hierarchy": "DDC Core Transform Namify",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Namify",
           "name": "namifierStack",
           "normalized": "[Bind a]",
@@ -3675,6 +3969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite anonymous binders to named binders in a thing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Namify",
           "name": "namify",
           "package": "ddc-core-simpl",
@@ -3685,6 +3980,7 @@
         "index": {
           "description": "Rewrite anonymous binders to named binders in thing",
           "hierarchy": "DDC Core Transform Namify",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Namify",
           "name": "namify",
           "package": "ddc-core-simpl",
@@ -3698,6 +3994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamify a thing, \n   not reusing names already in the program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Namify",
           "name": "namifyUnique",
           "package": "ddc-core-simpl",
@@ -3707,6 +4004,7 @@
         "index": {
           "description": "Namify thing not reusing names already in the program",
           "hierarchy": "DDC Core Transform Namify",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Namify",
           "name": "namifyUnique",
           "normalized": "(KindEnv a-\u003eNamifier b a)-\u003e(TypeEnv a-\u003eNamifier b a)-\u003ec a-\u003eState b(c a)",
@@ -3723,6 +4021,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eErase contained let-bindings that have no uses.\n\u003c/p\u003e\u003cp\u003eContained bindings are ones that do not perform effects that are\n   visible to anything in the calling context. This includes allocation\n   and read effects, but not writes or any globally visible effects.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Prune",
           "name": "Prune",
           "package": "ddc-core-simpl",
@@ -3732,6 +4031,7 @@
         "index": {
           "description": "Erase contained let-bindings that have no uses Contained bindings are ones that do not perform effects that are visible to anything in the calling context This includes allocation and read effects but not writes or any globally visible effects",
           "hierarchy": "DDC Core Transform Prune",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Prune",
           "name": "Prune",
           "package": "ddc-core-simpl",
@@ -3746,6 +4046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA summary of what the prune transform did.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Prune",
           "name": "PruneInfo",
           "package": "ddc-core-simpl",
@@ -3755,6 +4056,7 @@
         "index": {
           "description": "summary of what the prune transform did",
           "hierarchy": "DDC Core Transform Prune",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Prune",
           "name": "PruneInfo",
           "package": "ddc-core-simpl",
@@ -3768,6 +4070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Prune",
           "name": "PruneInfo",
           "package": "ddc-core-simpl",
@@ -3777,6 +4080,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Prune",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Prune",
           "name": "PruneInfo",
           "package": "ddc-core-simpl",
@@ -3791,6 +4095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow many let-bindings we erased.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Prune",
           "name": "infoBindingsErased",
           "package": "ddc-core-simpl",
@@ -3801,6 +4106,7 @@
         "index": {
           "description": "How many let-bindings we erased",
           "hierarchy": "DDC Core Transform Prune",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Prune",
           "name": "infoBindingsErased",
           "package": "ddc-core-simpl",
@@ -3815,6 +4121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eErase pure let-bindings in a module that have no uses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Prune",
           "name": "pruneModule",
           "package": "ddc-core-simpl",
@@ -3824,6 +4131,7 @@
         "index": {
           "description": "Erase pure let-bindings in module that have no uses",
           "hierarchy": "DDC Core Transform Prune",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Prune",
           "name": "pruneModule",
           "normalized": "Profile a-\u003eModule b a-\u003eModule b a",
@@ -3840,6 +4148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eErase pure let-bindings in an expression that have no uses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Prune",
           "name": "pruneX",
           "package": "ddc-core-simpl",
@@ -3849,6 +4158,7 @@
         "index": {
           "description": "Erase pure let-bindings in an expression that have no uses",
           "hierarchy": "DDC Core Transform Prune",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Prune",
           "name": "pruneX",
           "normalized": "Profile a-\u003eKindEnv a-\u003eTypeEnv a-\u003eExp b a-\u003eTransformResult(Exp b a)",
@@ -3864,6 +4174,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCheck whether two effects are non-interfering\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Disjoint",
           "name": "Disjoint",
           "package": "ddc-core-simpl",
@@ -3873,6 +4184,7 @@
         "index": {
           "description": "Check whether two effects are non-interfering",
           "hierarchy": "DDC Core Transform Rewrite Disjoint",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Disjoint",
           "name": "Disjoint",
           "package": "ddc-core-simpl",
@@ -3887,6 +4199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a disjointness property is true in the given\n   rewrite environment.\n\u003c/p\u003e\u003cp\u003eDisjointness means that two effects do not interfere.\n\u003c/p\u003e\u003cp\u003eContext is important because if two regions are known to be\n   distinct, reading from one and writing to another is valid.\n   If they have different names they may not be distinct.\n\u003c/p\u003e\u003cp\u003eAll read effects are disjoint with other reads.\n\u003c/p\u003e\u003cpre\u003e Disjoint (Read r1) (Read r2)\n Disjoint (Read r1) (DeepRead a)\n\u003c/pre\u003e\u003cp\u003eAllocation effects are disjoint with everything.\n\u003c/p\u003e\u003cpre\u003e Disjoint (Alloc r) (_)\n\u003c/pre\u003e\u003cp\u003eAtomic reads and write effects are disjoint if they are to distinct regions.\n\u003c/p\u003e\u003cpre\u003e         Distinct r1 r2\n -----------------------------\n Disjoint (Read r1) (Write r2)\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003eDeepWrite\u003c/code\u003e effects are only disjoint with allocation effects, because\n   we don't know what regions it will write to.\n\u003c/p\u003e\u003cp\u003eAn effect sum is disjoint from some other effect if all its components are.\n\u003c/p\u003e\u003cpre\u003e Disjoint f1 g /\\ Disjoint f2 g\n -----------------------------\n      Disjoint (f1 + f2) g\n\u003c/pre\u003e\u003cp\u003eDisjointness is commutative.\n\u003c/p\u003e\u003cpre\u003e Disjoint f g\n ------------\n Disjoint g f\n\u003c/pre\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e  checkDisjoint\n\t(Disjoint (Read r1 + Read r2) (Write r3))\n\t[Distinct r1 r3, Distinct r2 r3]\n  = True\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Disjoint",
           "name": "checkDisjoint",
           "package": "ddc-core-simpl",
@@ -3896,6 +4209,7 @@
         "index": {
           "description": "Check whether disjointness property is true in the given rewrite environment Disjointness means that two effects do not interfere Context is important because if two regions are known to be distinct reading from one and writing to another is valid If they have different names they may not be distinct All read effects are disjoint with other reads Disjoint Read r1 Read r2 Disjoint Read r1 DeepRead Allocation effects are disjoint with everything Disjoint Alloc Atomic reads and write effects are disjoint if they are to distinct regions Distinct r1 r2 Disjoint Read r1 Write r2 DeepWrite effects are only disjoint with allocation effects because we don know what regions it will write to An effect sum is disjoint from some other effect if all its components are Disjoint f1 Disjoint f2 Disjoint f1 f2 Disjointness is commutative Disjoint Disjoint Example checkDisjoint Disjoint Read r1 Read r2 Write r3 Distinct r1 r3 Distinct r2 r3 True",
           "hierarchy": "DDC Core Transform Rewrite Disjoint",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Disjoint",
           "name": "checkDisjoint",
           "normalized": "Type a-\u003eRewriteEnv b a-\u003eBool",
@@ -3912,6 +4226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a distintness property is true in the given \n   rewrite environment.\n\u003c/p\u003e\u003cp\u003eDistinctness means that two regions do not alias.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Disjoint",
           "name": "checkDistinct",
           "package": "ddc-core-simpl",
@@ -3921,6 +4236,7 @@
         "index": {
           "description": "Check whether distintness property is true in the given rewrite environment Distinctness means that two regions do not alias",
           "hierarchy": "DDC Core Transform Rewrite Disjoint",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Disjoint",
           "name": "checkDistinct",
           "normalized": "Type a-\u003eRewriteEnv b a-\u003eBool",
@@ -3936,6 +4252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "Env",
           "package": "ddc-core-simpl",
@@ -3944,6 +4261,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Rewrite Env",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "Env",
           "package": "ddc-core-simpl",
@@ -3958,6 +4276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA summary of the environment that we perform a rewrite in.\n\u003c/p\u003e\u003cp\u003eAs we decend into the program looking for expressions to rewrite, \n   we keep track of what information as been defined in the environment\n   in a \u003ccode\u003e\u003ca\u003eRewriteEnv\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWhen we go under an anonymous binder then we push a new outermost\n   list instead of lifting every element on the environment eagerly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "RewriteEnv",
           "package": "ddc-core-simpl",
@@ -3967,6 +4286,7 @@
         "index": {
           "description": "summary of the environment that we perform rewrite in As we decend into the program looking for expressions to rewrite we keep track of what information as been defined in the environment in RewriteEnv When we go under an anonymous binder then we push new outermost list instead of lifting every element on the environment eagerly",
           "hierarchy": "DDC Core Transform Rewrite Env",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "RewriteEnv",
           "package": "ddc-core-simpl",
@@ -3981,6 +4301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether an environment contains the given region, \n   bound by a letregion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "containsRegion",
           "package": "ddc-core-simpl",
@@ -3991,6 +4312,7 @@
         "index": {
           "description": "Check whether an environment contains the given region bound by letregion",
           "hierarchy": "DDC Core Transform Rewrite Env",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "containsRegion",
           "normalized": "Bound a-\u003eRewriteEnv b a-\u003eBool",
@@ -4007,6 +4329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if the witness map in the given environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "containsWitness",
           "package": "ddc-core-simpl",
@@ -4017,6 +4340,7 @@
         "index": {
           "description": "Check if the witness map in the given environment",
           "hierarchy": "DDC Core Transform Rewrite Env",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "containsWitness",
           "normalized": "Type a-\u003eRewriteEnv b a-\u003eBool",
@@ -4033,6 +4357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "empty",
           "package": "ddc-core-simpl",
@@ -4043,6 +4368,7 @@
         "index": {
           "description": "An empty environment",
           "hierarchy": "DDC Core Transform Rewrite Env",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "empty",
           "package": "ddc-core-simpl",
@@ -4056,6 +4382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend an environment with some lambda-bound binder (XLam)\n   Might be a witness. Don't count if it's a region.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "extend",
           "package": "ddc-core-simpl",
@@ -4066,6 +4393,7 @@
         "index": {
           "description": "Extend an environment with some lambda-bound binder XLam Might be witness Don count if it region",
           "hierarchy": "DDC Core Transform Rewrite Env",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "extend",
           "normalized": "Bind a-\u003eRewriteEnv b a-\u003eRewriteEnv b a",
@@ -4081,6 +4409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend an environment with the variables bount by these let-bindings.\n\u003c/p\u003e\u003cp\u003eIf it's a letregion, remember the region's name and any witnesses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "extendLets",
           "package": "ddc-core-simpl",
@@ -4091,6 +4420,7 @@
         "index": {
           "description": "Extend an environment with the variables bount by these let-bindings If it letregion remember the region name and any witnesses",
           "hierarchy": "DDC Core Transform Rewrite Env",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "extendLets",
           "normalized": "Lets a b-\u003eRewriteEnv a b-\u003eRewriteEnv a b",
@@ -4107,6 +4437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup the definition of some let-bound variable from the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "getDef",
           "package": "ddc-core-simpl",
@@ -4117,6 +4448,7 @@
         "index": {
           "description": "Lookup the definition of some let-bound variable from the environment",
           "hierarchy": "DDC Core Transform Rewrite Env",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "getDef",
           "normalized": "Bound a-\u003eRewriteEnv b a-\u003eMaybe(Exp b a)",
@@ -4133,6 +4465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of all the witness types in an environment, \n   normalising their indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "getWitnesses",
           "package": "ddc-core-simpl",
@@ -4143,6 +4476,7 @@
         "index": {
           "description": "Get list of all the witness types in an environment normalising their indices",
           "hierarchy": "DDC Core Transform Rewrite Env",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "getWitnesses",
           "normalized": "RewriteEnv a b-\u003e[Type b]",
@@ -4158,6 +4492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "hasDef",
           "package": "ddc-core-simpl",
@@ -4167,6 +4502,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Rewrite Env",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "hasDef",
           "normalized": "Bound a-\u003eRewriteEnv b a-\u003eBool",
@@ -4183,6 +4519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a rewrite definition into the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "insertDef",
           "package": "ddc-core-simpl",
@@ -4193,6 +4530,7 @@
         "index": {
           "description": "Insert rewrite definition into the environment",
           "hierarchy": "DDC Core Transform Rewrite Env",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "insertDef",
           "normalized": "Bind a-\u003eMaybe(Exp b a)-\u003eRewriteEnv b a-\u003eRewriteEnv b a",
@@ -4209,6 +4547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaise all elements in witness map if binder is anonymous.\n   Only call with type binders: ie XLAM, not XLam\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "lift",
           "package": "ddc-core-simpl",
@@ -4219,6 +4558,7 @@
         "index": {
           "description": "Raise all elements in witness map if binder is anonymous Only call with type binders ie XLAM not XLam",
           "hierarchy": "DDC Core Transform Rewrite Env",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "lift",
           "normalized": "Bind a-\u003eRewriteEnv b a-\u003eRewriteEnv b a",
@@ -4234,6 +4574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaise all elements in definitions map if binder is anonymous\n   Use for *value* binders, not type binders.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "liftValue",
           "package": "ddc-core-simpl",
@@ -4244,6 +4585,7 @@
         "index": {
           "description": "Raise all elements in definitions map if binder is anonymous Use for value binders not type binders",
           "hierarchy": "DDC Core Transform Rewrite Env",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Env",
           "name": "liftValue",
           "normalized": "Bind a-\u003eRewriteEnv b a-\u003eRewriteEnv b a",
@@ -4260,6 +4602,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCreate substitution to make (subst template) == target\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Match",
           "name": "Match",
           "package": "ddc-core-simpl",
@@ -4269,6 +4612,7 @@
         "index": {
           "description": "Create substitution to make subst template target",
           "hierarchy": "DDC Core Transform Rewrite Match",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Match",
           "name": "Match",
           "package": "ddc-core-simpl",
@@ -4283,6 +4627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue and type substition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Match",
           "name": "SubstInfo",
           "package": "ddc-core-simpl",
@@ -4292,6 +4637,7 @@
         "index": {
           "description": "Value and type substition",
           "hierarchy": "DDC Core Transform Rewrite Match",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Match",
           "name": "SubstInfo",
           "package": "ddc-core-simpl",
@@ -4306,6 +4652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty substition info.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Match",
           "name": "emptySubstInfo",
           "package": "ddc-core-simpl",
@@ -4316,6 +4663,7 @@
         "index": {
           "description": "An empty substition info",
           "hierarchy": "DDC Core Transform Rewrite Match",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Match",
           "name": "emptySubstInfo",
           "package": "ddc-core-simpl",
@@ -4330,6 +4678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate substitution to make (subst template) == target\n   Does not handle higher-order templates (ie ones with binders)\n\u003c/p\u003e\u003cpre\u003e match emptySubstInfo (Set.fromList [r1, r2, s])\n   (stream [r1]  (unstream [r2]  s))\n   (stream [R0\u003ca name=\"] (unstream [R1\"/\u003e] (someStream 23))\n\n=\u003e { r1 |-\u003e R0#, r2 |-\u003e R1, s |-\u003e someStream 23 }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Match",
           "name": "match",
           "package": "ddc-core-simpl",
@@ -4339,6 +4688,7 @@
         "index": {
           "description": "Create substitution to make subst template target Does not handle higher-order templates ie ones with binders match emptySubstInfo Set.fromList r1 r2 stream r1 unstream r2 stream R0 someStream r1 R0 r2 R1 someStream",
           "hierarchy": "DDC Core Transform Rewrite Match",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Match",
           "name": "match",
           "normalized": "SubstInfo a b-\u003eSet b-\u003eExp a b-\u003eExp a b-\u003eMaybe(SubstInfo a b)",
@@ -4354,6 +4704,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCore language parser.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Parser",
           "name": "Parser",
           "package": "ddc-core-simpl",
@@ -4363,6 +4714,7 @@
         "index": {
           "description": "Core language parser",
           "hierarchy": "DDC Core Transform Rewrite Parser",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Parser",
           "name": "Parser",
           "package": "ddc-core-simpl",
@@ -4377,6 +4729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a rewrite rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Parser",
           "name": "pRule",
           "package": "ddc-core-simpl",
@@ -4387,6 +4740,7 @@
         "index": {
           "description": "Parse rewrite rule",
           "hierarchy": "DDC Core Transform Rewrite Parser",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Parser",
           "name": "pRule",
           "normalized": "Context-\u003eParser a(RewriteRule SourcePos a)",
@@ -4403,6 +4757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse many rewrite rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Parser",
           "name": "pRuleMany",
           "package": "ddc-core-simpl",
@@ -4413,6 +4768,7 @@
         "index": {
           "description": "Parse many rewrite rules",
           "hierarchy": "DDC Core Transform Rewrite Parser",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Parser",
           "name": "pRuleMany",
           "normalized": "Context-\u003eParser a[(a,RewriteRule SourcePos a)]",
@@ -4429,6 +4785,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConstructing and checking whether rewrite rules are valid\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "Rule",
           "package": "ddc-core-simpl",
@@ -4438,6 +4795,7 @@
         "index": {
           "description": "Constructing and checking whether rewrite rules are valid",
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "Rule",
           "package": "ddc-core-simpl",
@@ -4452,6 +4810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinding level for the binders in a rewrite rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "BindMode",
           "package": "ddc-core-simpl",
@@ -4461,6 +4820,7 @@
         "index": {
           "description": "Binding level for the binders in rewrite rule",
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "BindMode",
           "package": "ddc-core-simpl",
@@ -4475,6 +4835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat can go wrong when checking a rewrite rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "Error",
           "package": "ddc-core-simpl",
@@ -4484,6 +4845,7 @@
         "index": {
           "description": "What can go wrong when checking rewrite rule",
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "Error",
           "package": "ddc-core-simpl",
@@ -4497,6 +4859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "NamedRewriteRule",
           "package": "ddc-core-simpl",
@@ -4505,6 +4868,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "NamedRewriteRule",
           "package": "ddc-core-simpl",
@@ -4519,6 +4883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rewrite rule. For example:\n\u003c/p\u003e\u003cpre\u003e RULE [r1 r2 r3 : %] (x : Int r1)\n      . addInt  [:r1 r2 r3:] x (0 [r2] ()\n      = copyInt [:r1 r3:]    x\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "RewriteRule",
           "package": "ddc-core-simpl",
@@ -4528,6 +4893,7 @@
         "index": {
           "description": "rewrite rule For example RULE r1 r2 r3 Int r1 addInt r1 r2 r3 r2 copyInt r1 r3",
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "RewriteRule",
           "package": "ddc-core-simpl",
@@ -4542,6 +4908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat side of a rewrite rule we're talking about.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "Side",
           "package": "ddc-core-simpl",
@@ -4551,6 +4918,7 @@
         "index": {
           "description": "What side of rewrite rule we re talking about",
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "Side",
           "package": "ddc-core-simpl",
@@ -4565,6 +4933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLevel-1 binder (specs)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "BMSpec",
           "package": "ddc-core-simpl",
@@ -4575,6 +4944,7 @@
         "index": {
           "description": "Level-1 binder specs",
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "BMSpec",
           "package": "ddc-core-simpl",
@@ -4589,6 +4959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumber of usages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "BMValue",
           "package": "ddc-core-simpl",
@@ -4599,6 +4970,7 @@
         "index": {
           "description": "number of usages",
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "BMValue",
           "package": "ddc-core-simpl",
@@ -4613,6 +4985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eI don't want to deal with anonymous variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "ErrorAnonymousBinder",
           "package": "ddc-core-simpl",
@@ -4623,6 +4996,7 @@
         "index": {
           "description": "don want to deal with anonymous variables",
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "ErrorAnonymousBinder",
           "package": "ddc-core-simpl",
@@ -4637,6 +5011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError typechecking one of the expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "ErrorBadConstraint",
           "package": "ddc-core-simpl",
@@ -4647,6 +5022,7 @@
         "index": {
           "description": "Error typechecking one of the expressions",
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "ErrorBadConstraint",
           "package": "ddc-core-simpl",
@@ -4661,6 +5037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo binders allowed in left-hand side (right is fine, eg \u003ccode\u003elet\u003c/code\u003es)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "ErrorNotFirstOrder",
           "package": "ddc-core-simpl",
@@ -4671,6 +5048,7 @@
         "index": {
           "description": "No binders allowed in left-hand side right is fine eg let",
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "ErrorNotFirstOrder",
           "package": "ddc-core-simpl",
@@ -4685,6 +5063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError typechecking one of the expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "ErrorTypeCheck",
           "package": "ddc-core-simpl",
@@ -4695,6 +5074,7 @@
         "index": {
           "description": "Error typechecking one of the expressions",
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "ErrorTypeCheck",
           "package": "ddc-core-simpl",
@@ -4709,6 +5089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes don't match...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "ErrorTypeConflict",
           "package": "ddc-core-simpl",
@@ -4719,6 +5100,7 @@
         "index": {
           "description": "Types don match",
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "ErrorTypeConflict",
           "package": "ddc-core-simpl",
@@ -4733,6 +5115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll variables must be mentioned in left-hand side,\n   otherwise they won't get bound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "ErrorVarUnmentioned",
           "package": "ddc-core-simpl",
@@ -4743,6 +5126,7 @@
         "index": {
           "description": "All variables must be mentioned in left-hand side otherwise they won get bound",
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "ErrorVarUnmentioned",
           "package": "ddc-core-simpl",
@@ -4756,6 +5140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "Lhs",
           "package": "ddc-core-simpl",
@@ -4765,6 +5150,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "Lhs",
           "package": "ddc-core-simpl",
@@ -4801,6 +5187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "Rhs",
           "package": "ddc-core-simpl",
@@ -4810,6 +5197,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "Rhs",
           "package": "ddc-core-simpl",
@@ -4824,6 +5212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a rule, make sure it's valid and fill in type, closure and effect\n   information.\n\u003c/p\u003e\u003cp\u003eThe left-hand side of rule can't have any binders (lambdas, lets etc).\n\u003c/p\u003e\u003cp\u003eAll binders must appear in the left-hand side, otherwise they would match\n   with no value.\n\u003c/p\u003e\u003cp\u003eBoth sides must have the same types, but the right can have fewer effects\n   and smaller closure.\n\u003c/p\u003e\u003cp\u003eWe don't handle anonymous binders on either the left or right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "checkRewriteRule",
           "package": "ddc-core-simpl",
@@ -4833,6 +5222,7 @@
         "index": {
           "description": "Take rule make sure it valid and fill in type closure and effect information The left-hand side of rule can have any binders lambdas lets etc All binders must appear in the left-hand side otherwise they would match with no value Both sides must have the same types but the right can have fewer effects and smaller closure We don handle anonymous binders on either the left or right",
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "checkRewriteRule",
           "normalized": "Config a-\u003eEnv a-\u003eEnv a-\u003eRewriteRule b a-\u003eEither(Error b a)(RewriteRule(AnTEC b a)a)",
@@ -4848,6 +5238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "errorBinder",
           "package": "ddc-core-simpl",
@@ -4857,6 +5248,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "errorBinder",
           "package": "ddc-core-simpl",
@@ -4870,6 +5262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "errorCheckError",
           "package": "ddc-core-simpl",
@@ -4879,6 +5272,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "errorCheckError",
           "package": "ddc-core-simpl",
@@ -4892,6 +5286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "errorConstraint",
           "package": "ddc-core-simpl",
@@ -4901,6 +5296,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "errorConstraint",
           "package": "ddc-core-simpl",
@@ -4914,6 +5310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "errorExp",
           "package": "ddc-core-simpl",
@@ -4923,6 +5320,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "errorExp",
           "package": "ddc-core-simpl",
@@ -4937,6 +5335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat side of the rule the error was on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "errorSide",
           "package": "ddc-core-simpl",
@@ -4947,6 +5346,7 @@
         "index": {
           "description": "What side of the rule the error was on",
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "errorSide",
           "package": "ddc-core-simpl",
@@ -4960,6 +5360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "errorTypeLhs",
           "package": "ddc-core-simpl",
@@ -4969,6 +5370,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "errorTypeLhs",
           "normalized": "(Type a,Effect a,Closure a)",
@@ -4984,6 +5386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "errorTypeRhs",
           "package": "ddc-core-simpl",
@@ -4993,6 +5396,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "errorTypeRhs",
           "normalized": "(Type a,Effect a,Closure a)",
@@ -5009,6 +5413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if a \u003ccode\u003e\u003ca\u003eBindMode\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eBMSpec\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "isBMSpec",
           "package": "ddc-core-simpl",
@@ -5019,6 +5424,7 @@
         "index": {
           "description": "Check if BindMode is BMSpec",
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "isBMSpec",
           "normalized": "BindMode-\u003eBool",
@@ -5035,6 +5441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if a \u003ccode\u003e\u003ca\u003eBindMode\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eBMValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "isBMValue",
           "package": "ddc-core-simpl",
@@ -5045,6 +5452,7 @@
         "index": {
           "description": "Check if BindMode is BMValue",
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "isBMValue",
           "normalized": "BindMode-\u003eBool",
@@ -5061,6 +5469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a rewrite rule, but do not check if it's valid.\n\u003c/p\u003e\u003cp\u003eYou then need to apply \u003ccode\u003e\u003ca\u003echeckRewriteRule\u003c/a\u003e\u003c/code\u003e to check it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "mkRewriteRule",
           "package": "ddc-core-simpl",
@@ -5070,6 +5479,7 @@
         "index": {
           "description": "Construct rewrite rule but do not check if it valid You then need to apply checkRewriteRule to check it",
           "hierarchy": "DDC Core Transform Rewrite Rule",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite.Rule",
           "name": "mkRewriteRule",
           "normalized": "[(BindMode,Bind a)]-\u003e[Type a]-\u003eExp b a-\u003eMaybe(Exp b a)-\u003eExp b a-\u003eRewriteRule b a",
@@ -5294,6 +5704,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eApply rewrite rules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite",
           "name": "Rewrite",
           "package": "ddc-core-simpl",
@@ -5303,6 +5714,7 @@
         "index": {
           "description": "Apply rewrite rules",
           "hierarchy": "DDC Core Transform Rewrite",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite",
           "name": "Rewrite",
           "package": "ddc-core-simpl",
@@ -5317,6 +5729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rewrite rule. For example:\n\u003c/p\u003e\u003cpre\u003e RULE [r1 r2 r3 : %] (x : Int r1)\n      . addInt  [:r1 r2 r3:] x (0 [r2] ()\n      = copyInt [:r1 r3:]    x\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite",
           "name": "RewriteRule",
           "package": "ddc-core-simpl",
@@ -5326,6 +5739,7 @@
         "index": {
           "description": "rewrite rule For example RULE r1 r2 r3 Int r1 addInt r1 r2 r3 r2 copyInt r1 r3",
           "hierarchy": "DDC Core Transform Rewrite",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite",
           "name": "RewriteRule",
           "package": "ddc-core-simpl",
@@ -5340,6 +5754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply rewrite rules to a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite",
           "name": "rewriteModule",
           "package": "ddc-core-simpl",
@@ -5349,6 +5764,7 @@
         "index": {
           "description": "Apply rewrite rules to module",
           "hierarchy": "DDC Core Transform Rewrite",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite",
           "name": "rewriteModule",
           "normalized": "[NamedRewriteRule a b]-\u003eModule a b-\u003eModule a b",
@@ -5365,6 +5781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform rewrites top-down, repeatedly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Rewrite",
           "name": "rewriteX",
           "package": "ddc-core-simpl",
@@ -5374,6 +5791,7 @@
         "index": {
           "description": "Perform rewrites top-down repeatedly",
           "hierarchy": "DDC Core Transform Rewrite",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Rewrite",
           "name": "rewriteX",
           "normalized": "[NamedRewriteRule a b]-\u003eExp a b-\u003eTransformResult(Exp a b)",
@@ -5389,6 +5807,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSnip out nested applications.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Snip",
           "name": "Snip",
           "package": "ddc-core-simpl",
@@ -5398,6 +5817,7 @@
         "index": {
           "description": "Snip out nested applications",
           "hierarchy": "DDC Core Transform Snip",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Snip",
           "name": "Snip",
           "package": "ddc-core-simpl",
@@ -5412,6 +5832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSnipper configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Snip",
           "name": "Config",
           "package": "ddc-core-simpl",
@@ -5421,6 +5842,7 @@
         "index": {
           "description": "Snipper configuration",
           "hierarchy": "DDC Core Transform Snip",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Snip",
           "name": "Config",
           "package": "ddc-core-simpl",
@@ -5435,6 +5857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of things that can have things snipped out of them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Snip",
           "name": "Snip",
           "package": "ddc-core-simpl",
@@ -5444,6 +5867,7 @@
         "index": {
           "description": "Class of things that can have things snipped out of them",
           "hierarchy": "DDC Core Transform Snip",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Snip",
           "name": "Snip",
           "package": "ddc-core-simpl",
@@ -5457,6 +5881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Snip",
           "name": "Config",
           "package": "ddc-core-simpl",
@@ -5466,6 +5891,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Snip",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Snip",
           "name": "Config",
           "package": "ddc-core-simpl",
@@ -5480,6 +5906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure the body of a let-expression is a variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Snip",
           "name": "configSnipLetBody",
           "package": "ddc-core-simpl",
@@ -5490,6 +5917,7 @@
         "index": {
           "description": "Ensure the body of let-expression is variable",
           "hierarchy": "DDC Core Transform Snip",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Snip",
           "name": "configSnipLetBody",
           "package": "ddc-core-simpl",
@@ -5504,6 +5932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntroduce new bindings for over-applied functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Snip",
           "name": "configSnipOverApplied",
           "package": "ddc-core-simpl",
@@ -5514,6 +5943,7 @@
         "index": {
           "description": "Introduce new bindings for over-applied functions",
           "hierarchy": "DDC Core Transform Snip",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Snip",
           "name": "configSnipOverApplied",
           "package": "ddc-core-simpl",
@@ -5528,6 +5958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSnipper configuration with all flags set to False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Snip",
           "name": "configZero",
           "package": "ddc-core-simpl",
@@ -5538,6 +5969,7 @@
         "index": {
           "description": "Snipper configuration with all flags set to False",
           "hierarchy": "DDC Core Transform Snip",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Snip",
           "name": "configZero",
           "package": "ddc-core-simpl",
@@ -5552,6 +5984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSnip out nested applications as anonymous bindings.\n\u003c/p\u003e\u003cpre\u003e\n      f (g x) (h y)\n  ==\u003e let ^ = g x in ^ = h y in f ^1 ^0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Snip",
           "name": "snip",
           "package": "ddc-core-simpl",
@@ -5562,6 +5995,7 @@
         "index": {
           "description": "Snip out nested applications as anonymous bindings let in in",
           "hierarchy": "DDC Core Transform Snip",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Snip",
           "name": "snip",
           "normalized": "Config-\u003ea b-\u003ea b",
@@ -5577,6 +6011,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThread a state token through calls to given functions.\n\u003c/p\u003e\u003cp\u003eASSUMPTIONS:\n   * Program is a-normalized and fully named.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Thread",
           "name": "Thread",
           "package": "ddc-core-simpl",
@@ -5586,6 +6021,7 @@
         "index": {
           "description": "Thread state token through calls to given functions ASSUMPTIONS Program is a-normalized and fully named",
           "hierarchy": "DDC Core Transform Thread",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Thread",
           "name": "Thread",
           "package": "ddc-core-simpl",
@@ -5600,6 +6036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration for the Thread transform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Thread",
           "name": "Config",
           "package": "ddc-core-simpl",
@@ -5609,6 +6046,7 @@
         "index": {
           "description": "Configuration for the Thread transform",
           "hierarchy": "DDC Core Transform Thread",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Thread",
           "name": "Config",
           "package": "ddc-core-simpl",
@@ -5623,6 +6061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of things that can have a state token threaded through them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Thread",
           "name": "Thread",
           "package": "ddc-core-simpl",
@@ -5632,6 +6071,7 @@
         "index": {
           "description": "Class of things that can have state token threaded through them",
           "hierarchy": "DDC Core Transform Thread",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Thread",
           "name": "Thread",
           "package": "ddc-core-simpl",
@@ -5645,6 +6085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Thread",
           "name": "Config",
           "package": "ddc-core-simpl",
@@ -5654,6 +6095,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Thread",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Thread",
           "name": "Config",
           "package": "ddc-core-simpl",
@@ -5668,6 +6110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfig for the type checker.\n   We need to reconstruct the type of the result of stateful\n   functions when bundling them into the tuple that holds the \n   state token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Thread",
           "name": "configCheckConfig",
           "package": "ddc-core-simpl",
@@ -5678,6 +6121,7 @@
         "index": {
           "description": "Config for the type checker We need to reconstruct the type of the result of stateful functions when bundling them into the tuple that holds the state token",
           "hierarchy": "DDC Core Transform Thread",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Thread",
           "name": "configCheckConfig",
           "package": "ddc-core-simpl",
@@ -5692,6 +6136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to decide which top-level bindings are stateful and\n   need the state token threaded through them. If the binding with\n   the given name is stateful then the function should return the\n   new type for the binding that accepts and returns the state token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Thread",
           "name": "configThreadMe",
           "package": "ddc-core-simpl",
@@ -5702,6 +6147,7 @@
         "index": {
           "description": "Function to decide which top-level bindings are stateful and need the state token threaded through them If the binding with the given name is stateful then the function should return the new type for the binding that accepts and returns the state token",
           "hierarchy": "DDC Core Transform Thread",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Thread",
           "name": "configThreadMe",
           "normalized": "a-\u003eType a-\u003eMaybe(Type a)",
@@ -5718,6 +6164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a pattern which binds the world argument\n   from a threaded primop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Thread",
           "name": "configThreadPat",
           "package": "ddc-core-simpl",
@@ -5728,6 +6175,7 @@
         "index": {
           "description": "Make pattern which binds the world argument from threaded primop",
           "hierarchy": "DDC Core Transform Thread",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Thread",
           "name": "configThreadPat",
           "normalized": "a-\u003eMaybe(Bind a-\u003e[Bind a]-\u003ePat a)",
@@ -5744,6 +6192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of the state token to use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Thread",
           "name": "configTokenType",
           "package": "ddc-core-simpl",
@@ -5754,6 +6203,7 @@
         "index": {
           "description": "Type of the state token to use",
           "hierarchy": "DDC Core Transform Thread",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Thread",
           "name": "configTokenType",
           "package": "ddc-core-simpl",
@@ -5768,6 +6218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType that represents a missing value.\n   If a stateful function returns a void then our thread transform\n   rewrites it to return the state token, instead of a tuple\n   that contains the token as well as a void value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Thread",
           "name": "configVoidType",
           "package": "ddc-core-simpl",
@@ -5778,6 +6229,7 @@
         "index": {
           "description": "Type that represents missing value If stateful function returns void then our thread transform rewrites it to return the state token instead of tuple that contains the token as well as void value",
           "hierarchy": "DDC Core Transform Thread",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Thread",
           "name": "configVoidType",
           "package": "ddc-core-simpl",
@@ -5792,6 +6244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a result expression with the state token.\n   The function is given the types of the world token and result,\n   then the expressions for the same.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Thread",
           "name": "configWrapResultExp",
           "package": "ddc-core-simpl",
@@ -5802,6 +6255,7 @@
         "index": {
           "description": "Wrap result expression with the state token The function is given the types of the world token and result then the expressions for the same",
           "hierarchy": "DDC Core Transform Thread",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Thread",
           "name": "configWrapResultExp",
           "normalized": "Exp(AnTEC a b)b-\u003eExp(AnTEC a b)b-\u003eExp a b",
@@ -5818,6 +6272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap a type with the world token.\n   eg change Int to (World#, Int)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Thread",
           "name": "configWrapResultType",
           "package": "ddc-core-simpl",
@@ -5828,6 +6283,7 @@
         "index": {
           "description": "Wrap type with the world token eg change Int to World Int",
           "hierarchy": "DDC Core Transform Thread",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Thread",
           "name": "configWrapResultType",
           "normalized": "Type a-\u003eType a",
@@ -5844,6 +6300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInject the state token into the type of an effectful function.\n   Eg, change  ([a b : Data]. a -\u003e b -\u003e Int) \n          to   ([a b : Data]. a -\u003e b -\u003e World -\u003e (World, Int)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Thread",
           "name": "injectStateType",
           "package": "ddc-core-simpl",
@@ -5854,6 +6311,7 @@
         "index": {
           "description": "Inject the state token into the type of an effectful function Eg change Data Int to Data World World Int",
           "hierarchy": "DDC Core Transform Thread",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Thread",
           "name": "injectStateType",
           "normalized": "Config a b-\u003eType b-\u003eType b",
@@ -5869,6 +6327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.Thread",
           "name": "thread",
           "package": "ddc-core-simpl",
@@ -5878,6 +6337,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform Thread",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.Thread",
           "name": "thread",
           "normalized": "Config a b-\u003eKindEnv b-\u003eTypeEnv b-\u003ec(AnTEC a b)b-\u003ec a b",
@@ -5893,6 +6353,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneral purpose tree walking boilerplate.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.TransformDownX",
           "name": "TransformDownX",
           "package": "ddc-core-simpl",
@@ -5902,6 +6363,7 @@
         "index": {
           "description": "General purpose tree walking boilerplate",
           "hierarchy": "DDC Core Transform TransformDownX",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.TransformDownX",
           "name": "TransformDownX",
           "package": "ddc-core-simpl",
@@ -5915,6 +6377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.TransformDownX",
           "name": "TransformDownMX",
           "package": "ddc-core-simpl",
@@ -5923,6 +6386,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform TransformDownX",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.TransformDownX",
           "name": "TransformDownMX",
           "package": "ddc-core-simpl",
@@ -5937,6 +6401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop-down monadic rewrite of all core expressions in a thing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.TransformDownX",
           "name": "transformDownMX",
           "package": "ddc-core-simpl",
@@ -5947,6 +6412,7 @@
         "index": {
           "description": "Top-down monadic rewrite of all core expressions in thing",
           "hierarchy": "DDC Core Transform TransformDownX",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.TransformDownX",
           "name": "transformDownMX",
           "package": "ddc-core-simpl",
@@ -5961,6 +6427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop-down rewrite of all core expressions in a thing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.TransformDownX",
           "name": "transformDownX",
           "package": "ddc-core-simpl",
@@ -5970,6 +6437,7 @@
         "index": {
           "description": "Top-down rewrite of all core expressions in thing",
           "hierarchy": "DDC Core Transform TransformDownX",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.TransformDownX",
           "name": "transformDownX",
           "normalized": "(KindEnv a-\u003eTypeEnv a-\u003eExp b a-\u003eExp b a)-\u003eKindEnv a-\u003eTypeEnv a-\u003ec b a-\u003ec b a",
@@ -5986,6 +6454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike transformDownX, but without using environments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.TransformDownX",
           "name": "transformDownX'",
           "package": "ddc-core-simpl",
@@ -5995,6 +6464,7 @@
         "index": {
           "description": "Like transformDownX but without using environments",
           "hierarchy": "DDC Core Transform TransformDownX",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.TransformDownX",
           "name": "transformDownX'",
           "normalized": "(Exp a b-\u003eExp a b)-\u003ec a b-\u003ec a b",
@@ -6011,6 +6481,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneral purpose tree walking boilerplate.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.TransformUpX",
           "name": "TransformUpX",
           "package": "ddc-core-simpl",
@@ -6020,6 +6491,7 @@
         "index": {
           "description": "General purpose tree walking boilerplate",
           "hierarchy": "DDC Core Transform TransformUpX",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.TransformUpX",
           "name": "TransformUpX",
           "package": "ddc-core-simpl",
@@ -6033,6 +6505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.TransformUpX",
           "name": "TransformUpMX",
           "package": "ddc-core-simpl",
@@ -6041,6 +6514,7 @@
         },
         "index": {
           "hierarchy": "DDC Core Transform TransformUpX",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.TransformUpX",
           "name": "TransformUpMX",
           "package": "ddc-core-simpl",
@@ -6055,6 +6529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003etransformUpMX\u003c/a\u003e\u003c/code\u003e, but the worker takes the Simple version of the AST.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e To avoid repeated conversions between the different versions of the AST,\n     the worker should return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the provided expression is unchanged.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.TransformUpX",
           "name": "transformSimpleUpMX",
           "package": "ddc-core-simpl",
@@ -6064,6 +6539,7 @@
         "index": {
           "description": "Like transformUpMX but the worker takes the Simple version of the AST To avoid repeated conversions between the different versions of the AST the worker should return Nothing if the provided expression is unchanged",
           "hierarchy": "DDC Core Transform TransformUpX",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.TransformUpX",
           "name": "transformSimpleUpMX",
           "normalized": "(KindEnv a-\u003eTypeEnv a-\u003eExp b a-\u003ec(Maybe(Exp b a)))-\u003eKindEnv a-\u003eTypeEnv a-\u003ed b a-\u003ec(d b a)",
@@ -6080,6 +6556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003etransformUpX\u003c/a\u003e\u003c/code\u003e, but the worker takes the Simple version of the AST.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e To avoid repeated conversions between the different versions of the AST,\n     the worker should return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the provided expression is unchanged.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.TransformUpX",
           "name": "transformSimpleUpX",
           "package": "ddc-core-simpl",
@@ -6089,6 +6566,7 @@
         "index": {
           "description": "Like transformUpX but the worker takes the Simple version of the AST To avoid repeated conversions between the different versions of the AST the worker should return Nothing if the provided expression is unchanged",
           "hierarchy": "DDC Core Transform TransformUpX",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.TransformUpX",
           "name": "transformSimpleUpX",
           "normalized": "(KindEnv a-\u003eTypeEnv a-\u003eExp b a-\u003eMaybe(Exp b a))-\u003eKindEnv a-\u003eTypeEnv a-\u003ec b a-\u003ec b a",
@@ -6105,6 +6583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003etransformUpX'\u003c/a\u003e\u003c/code\u003e, but the worker takes the Simple version of the AST.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e To avoid repeated conversions between the different versions of the AST,\n     the worker should return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the provided expression is unchanged.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.TransformUpX",
           "name": "transformSimpleUpX'",
           "package": "ddc-core-simpl",
@@ -6114,6 +6593,7 @@
         "index": {
           "description": "Like transformUpX but the worker takes the Simple version of the AST To avoid repeated conversions between the different versions of the AST the worker should return Nothing if the provided expression is unchanged",
           "hierarchy": "DDC Core Transform TransformUpX",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.TransformUpX",
           "name": "transformSimpleUpX'",
           "normalized": "(Exp a b-\u003eMaybe(Exp a b))-\u003ec a b-\u003ec a b",
@@ -6130,6 +6610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBottom-up monadic rewrite of all core expressions in a thing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.TransformUpX",
           "name": "transformUpMX",
           "package": "ddc-core-simpl",
@@ -6140,6 +6621,7 @@
         "index": {
           "description": "Bottom-up monadic rewrite of all core expressions in thing",
           "hierarchy": "DDC Core Transform TransformUpX",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.TransformUpX",
           "name": "transformUpMX",
           "package": "ddc-core-simpl",
@@ -6154,6 +6636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBottom up rewrite of all core expressions in a thing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.TransformUpX",
           "name": "transformUpX",
           "package": "ddc-core-simpl",
@@ -6163,6 +6646,7 @@
         "index": {
           "description": "Bottom up rewrite of all core expressions in thing",
           "hierarchy": "DDC Core Transform TransformUpX",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.TransformUpX",
           "name": "transformUpX",
           "normalized": "(KindEnv a-\u003eTypeEnv a-\u003eExp b a-\u003eExp b a)-\u003eKindEnv a-\u003eTypeEnv a-\u003ec b a-\u003ec b a",
@@ -6179,6 +6663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike transformUpX, but without using environments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Core.Transform.TransformUpX",
           "name": "transformUpX'",
           "package": "ddc-core-simpl",
@@ -6188,6 +6673,7 @@
         "index": {
           "description": "Like transformUpX but without using environments",
           "hierarchy": "DDC Core Transform TransformUpX",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Core.Transform.TransformUpX",
           "name": "transformUpX'",
           "normalized": "(Exp a b-\u003eExp a b)-\u003ec a b-\u003ec a b",
@@ -6203,6 +6689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Type.Transform.Alpha",
           "name": "Alpha",
           "package": "ddc-core-simpl",
@@ -6211,6 +6698,7 @@
         },
         "index": {
           "hierarchy": "DDC Type Transform Alpha",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Type.Transform.Alpha",
           "name": "Alpha",
           "package": "ddc-core-simpl",
@@ -6224,6 +6712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Type.Transform.Alpha",
           "name": "Alpha",
           "package": "ddc-core-simpl",
@@ -6232,6 +6721,7 @@
         },
         "index": {
           "hierarchy": "DDC Type Transform Alpha",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Type.Transform.Alpha",
           "name": "Alpha",
           "package": "ddc-core-simpl",
@@ -6246,6 +6736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to all the names in a thing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Type.Transform.Alpha",
           "name": "alpha",
           "package": "ddc-core-simpl",
@@ -6256,6 +6747,7 @@
         "index": {
           "description": "Apply function to all the names in thing",
           "hierarchy": "DDC Type Transform Alpha",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Type.Transform.Alpha",
           "name": "alpha",
           "normalized": "(a-\u003ea)-\u003eb a-\u003eb a",
@@ -6270,6 +6762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Type.Transform.AnonymizeT",
           "name": "AnonymizeT",
           "package": "ddc-core-simpl",
@@ -6278,6 +6771,7 @@
         },
         "index": {
           "hierarchy": "DDC Type Transform AnonymizeT",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Type.Transform.AnonymizeT",
           "name": "AnonymizeT",
           "package": "ddc-core-simpl",
@@ -6291,6 +6785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Type.Transform.AnonymizeT",
           "name": "AnonymizeT",
           "package": "ddc-core-simpl",
@@ -6299,6 +6794,7 @@
         },
         "index": {
           "hierarchy": "DDC Type Transform AnonymizeT",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Type.Transform.AnonymizeT",
           "name": "AnonymizeT",
           "package": "ddc-core-simpl",
@@ -6313,6 +6809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all binders in a thing to be of anonymous form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Type.Transform.AnonymizeT",
           "name": "anonymizeT",
           "package": "ddc-core-simpl",
@@ -6323,6 +6820,7 @@
         "index": {
           "description": "Rewrite all binders in thing to be of anonymous form",
           "hierarchy": "DDC Type Transform AnonymizeT",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Type.Transform.AnonymizeT",
           "name": "anonymizeT",
           "normalized": "a b-\u003ea b",
@@ -6338,6 +6836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite all binders in a thing to be of anonymous form.\n\u003c/p\u003e\u003cp\u003eThe stack contains existing anonymous binders that we have entered into,\n   and named binders that we have rewritten. All bound occurrences of variables\n   will be replaced by references into this stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Type.Transform.AnonymizeT",
           "name": "anonymizeWithT",
           "package": "ddc-core-simpl",
@@ -6348,6 +6847,7 @@
         "index": {
           "description": "Rewrite all binders in thing to be of anonymous form The stack contains existing anonymous binders that we have entered into and named binders that we have rewritten All bound occurrences of variables will be replaced by references into this stack",
           "hierarchy": "DDC Type Transform AnonymizeT",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Type.Transform.AnonymizeT",
           "name": "anonymizeWithT",
           "normalized": "[Bind a]-\u003eb a-\u003eb a",
@@ -6364,6 +6864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePush a binding occurrence of a level-1 variable on the stack, \n   returning the anonyized binding occurrence and the new stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:47 UTC 2014",
           "module": "DDC.Type.Transform.AnonymizeT",
           "name": "pushAnonymizeBindT",
           "package": "ddc-core-simpl",
@@ -6373,6 +6874,7 @@
         "index": {
           "description": "Push binding occurrence of level-1 variable on the stack returning the anonyized binding occurrence and the new stack",
           "hierarchy": "DDC Type Transform AnonymizeT",
+          "indexed": "2014-03-11T17:51:47",
           "module": "DDC.Type.Transform.AnonymizeT",
           "name": "pushAnonymizeBindT",
           "normalized": "[Bind a]-\u003eBind a-\u003e([Bind a],Bind a)",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "revdectime"
+        "phrase": "revdectime",
+        "type": "phrase"
       },
       "type": "context"
     }

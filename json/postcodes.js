@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "postcodes"
+        "phrase": "postcodes",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:20 UTC 2014",
           "module": "Data.Locations.Postcodes",
           "name": "Postcodes",
           "package": "postcodes",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Locations Postcodes",
+          "indexed": "2014-03-11T19:42:20",
           "module": "Data.Locations.Postcodes",
           "name": "Postcodes",
           "package": "postcodes",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:20 UTC 2014",
           "module": "Data.Locations.Postcodes",
           "name": "Postcode",
           "package": "postcodes",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Locations Postcodes",
+          "indexed": "2014-03-11T19:42:20",
           "module": "Data.Locations.Postcodes",
           "name": "Postcode",
           "package": "postcodes",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:20 UTC 2014",
           "module": "Data.Locations.Postcodes",
           "name": "Postcode",
           "package": "postcodes",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Locations Postcodes",
+          "indexed": "2014-03-11T19:42:20",
           "module": "Data.Locations.Postcodes",
           "name": "Postcode",
           "package": "postcodes",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:20 UTC 2014",
           "module": "Data.Locations.Postcodes",
           "name": "_constituency",
           "package": "postcodes",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Locations Postcodes",
+          "indexed": "2014-03-11T19:42:20",
           "module": "Data.Locations.Postcodes",
           "name": "_constituency",
           "package": "postcodes",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:20 UTC 2014",
           "module": "Data.Locations.Postcodes",
           "name": "_district",
           "package": "postcodes",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Locations Postcodes",
+          "indexed": "2014-03-11T19:42:20",
           "module": "Data.Locations.Postcodes",
           "name": "_district",
           "package": "postcodes",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:20 UTC 2014",
           "module": "Data.Locations.Postcodes",
           "name": "_latitude",
           "package": "postcodes",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data Locations Postcodes",
+          "indexed": "2014-03-11T19:42:20",
           "module": "Data.Locations.Postcodes",
           "name": "_latitude",
           "package": "postcodes",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:20 UTC 2014",
           "module": "Data.Locations.Postcodes",
           "name": "_longitude",
           "package": "postcodes",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Data Locations Postcodes",
+          "indexed": "2014-03-11T19:42:20",
           "module": "Data.Locations.Postcodes",
           "name": "_longitude",
           "package": "postcodes",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:20 UTC 2014",
           "module": "Data.Locations.Postcodes",
           "name": "_postcode",
           "package": "postcodes",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Data Locations Postcodes",
+          "indexed": "2014-03-11T19:42:20",
           "module": "Data.Locations.Postcodes",
           "name": "_postcode",
           "package": "postcodes",
@@ -188,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a Postcode for the postcode string. This uses the network\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:20 UTC 2014",
           "module": "Data.Locations.Postcodes",
           "name": "getPostcode",
           "package": "postcodes",
@@ -197,6 +214,7 @@
         "index": {
           "description": "Return Postcode for the postcode string This uses the network",
           "hierarchy": "Data Locations Postcodes",
+          "indexed": "2014-03-11T19:42:20",
           "module": "Data.Locations.Postcodes",
           "name": "getPostcode",
           "normalized": "String-\u003eIO(Maybe Postcode)",
@@ -213,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the postcode at the given latitude and longitude\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:20 UTC 2014",
           "module": "Data.Locations.Postcodes",
           "name": "getPostcodeAtLocation",
           "package": "postcodes",
@@ -222,6 +241,7 @@
         "index": {
           "description": "Find the postcode at the given latitude and longitude",
           "hierarchy": "Data Locations Postcodes",
+          "indexed": "2014-03-11T19:42:20",
           "module": "Data.Locations.Postcodes",
           "name": "getPostcodeAtLocation",
           "normalized": "Float-\u003eFloat-\u003eIO(Maybe Postcode)",
@@ -238,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all the postcodes within a given range and return a postcode and the distance for each. This uses the network\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:20 UTC 2014",
           "module": "Data.Locations.Postcodes",
           "name": "getPostcodesInRange",
           "package": "postcodes",
@@ -247,6 +268,7 @@
         "index": {
           "description": "Find all the postcodes within given range and return postcode and the distance for each This uses the network",
           "hierarchy": "Data Locations Postcodes",
+          "indexed": "2014-03-11T19:42:20",
           "module": "Data.Locations.Postcodes",
           "name": "getPostcodesInRange",
           "normalized": "String-\u003eFloat-\u003eIO(Maybe[(Float,Postcode)])",

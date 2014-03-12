@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "beamable"
+        "phrase": "beamable",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable.Internal",
           "name": "Internal",
           "package": "beamable",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Beamable Internal",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable.Internal",
           "name": "Internal",
           "package": "beamable",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable.Internal",
           "name": "Beamable",
           "package": "beamable",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Beamable Internal",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable.Internal",
           "name": "Beamable",
           "package": "beamable",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable.Internal",
           "name": "TypeSign",
           "package": "beamable",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Beamable Internal",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable.Internal",
           "name": "TypeSign",
           "package": "beamable",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable.Internal",
           "name": "TypeSign",
           "package": "beamable",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Beamable Internal",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable.Internal",
           "name": "TypeSign",
           "package": "beamable",
@@ -104,6 +112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize value into \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable.Internal",
           "name": "beam",
           "package": "beamable",
@@ -114,6 +123,7 @@
         "index": {
           "description": "Serialize value into Builder",
           "hierarchy": "Data Beamable Internal",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable.Internal",
           "name": "beam",
           "normalized": "a-\u003eBuilder",
@@ -156,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet value's type signature, should work fine on \u003ccode\u003e\u003ca\u003eundefined\u003c/a\u003e\u003c/code\u003e values\n takes list of strings with datatypes which already been traversed\n workaround to support recursive datatypes. In most cases you should be\n passing empty list in there.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable.Internal",
           "name": "typeSignR",
           "package": "beamable",
@@ -166,6 +177,7 @@
         "index": {
           "description": "Get value type signature should work fine on undefined values takes list of strings with datatypes which already been traversed workaround to support recursive datatypes In most cases you should be passing empty list in there",
           "hierarchy": "Data Beamable Internal",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable.Internal",
           "name": "typeSignR",
           "normalized": "[String]-\u003ea-\u003eWord",
@@ -181,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable.Internal",
           "name": "unTypeSign",
           "package": "beamable",
@@ -190,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Data Beamable Internal",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable.Internal",
           "name": "unTypeSign",
           "package": "beamable",
@@ -204,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeserialize next value from \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e, also returns leftovers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable.Internal",
           "name": "unbeam",
           "package": "beamable",
@@ -214,6 +229,7 @@
         "index": {
           "description": "Deserialize next value from ByteString also returns leftovers",
           "hierarchy": "Data Beamable Internal",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable.Internal",
           "name": "unbeam",
           "normalized": "ByteString-\u003e(a,ByteString)",
@@ -228,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable.Util",
           "name": "Util",
           "package": "beamable",
@@ -236,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Data Beamable Util",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable.Util",
           "name": "Util",
           "package": "beamable",
@@ -249,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable.Util",
           "name": "peekBS",
           "package": "beamable",
@@ -258,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Data Beamable Util",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable.Util",
           "name": "peekBS",
           "normalized": "ByteString-\u003ea",
@@ -273,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable.Util",
           "name": "unL",
           "package": "beamable",
@@ -282,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Data Beamable Util",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable.Util",
           "name": "unL",
           "normalized": "(a b)c-\u003ea c",
@@ -296,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable.Util",
           "name": "unR",
           "package": "beamable",
@@ -305,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Data Beamable Util",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable.Util",
           "name": "unR",
           "normalized": "(a b)c-\u003eb c",
@@ -320,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTo serialize your own datatype first you need to add DeriveGeneric pragma to the module\n where your data is declared, derive Generic instance for that datatype and add empty\n instance declaration for Beamable class\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE DeriveGeneric #-}\n\u003c/pre\u003e\u003cpre\u003e data Foo = Foo1 Int | Foo2 String deriving (Generic}\n instance Beamable Foo\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable",
           "name": "Beamable",
           "package": "beamable",
@@ -329,6 +354,7 @@
         "index": {
           "description": "To serialize your own datatype first you need to add DeriveGeneric pragma to the module where your data is declared derive Generic instance for that datatype and add empty instance declaration for Beamable class LANGUAGE DeriveGeneric data Foo Foo1 Int Foo2 String deriving Generic instance Beamable Foo",
           "hierarchy": "Data Beamable",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable",
           "name": "Beamable",
           "package": "beamable",
@@ -342,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable",
           "name": "Beamable",
           "package": "beamable",
@@ -350,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Data Beamable",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable",
           "name": "Beamable",
           "package": "beamable",
@@ -363,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable",
           "name": "Builder",
           "package": "beamable",
@@ -370,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Data Beamable",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable",
           "name": "Builder",
           "package": "beamable",
@@ -383,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable",
           "name": "Decoder",
           "package": "beamable",
@@ -391,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Data Beamable",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable",
           "name": "Decoder",
           "package": "beamable",
@@ -405,6 +437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize value into \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable",
           "name": "beam",
           "package": "beamable",
@@ -415,6 +448,7 @@
         "index": {
           "description": "Serialize value into Builder",
           "hierarchy": "Data Beamable",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable",
           "name": "beam",
           "normalized": "a-\u003eBuilder",
@@ -430,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode single value from bytestring. ByteString must be exactly correct size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable",
           "name": "decode",
           "package": "beamable",
@@ -440,6 +475,7 @@
         "index": {
           "description": "Decode single value from bytestring ByteString must be exactly correct size",
           "hierarchy": "Data Beamable",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable",
           "name": "decode",
           "normalized": "ByteString-\u003ea",
@@ -454,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable",
           "name": "decodeLive",
           "package": "beamable",
@@ -463,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Data Beamable",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable",
           "name": "decodeLive",
           "package": "beamable",
@@ -477,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode single value encoded with encodeSigned\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable",
           "name": "decodeSigned",
           "package": "beamable",
@@ -487,6 +526,7 @@
         "index": {
           "description": "Decode single value encoded with encodeSigned",
           "hierarchy": "Data Beamable",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable",
           "name": "decodeSigned",
           "normalized": "ByteString-\u003ea",
@@ -503,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode single value into compact bytestring, for encoding large number of values\n use beam and toByteString from Blaze.ByteString.Builder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable",
           "name": "encode",
           "package": "beamable",
@@ -513,6 +554,7 @@
         "index": {
           "description": "Encode single value into compact bytestring for encoding large number of values use beam and toByteString from Blaze.ByteString.Builder",
           "hierarchy": "Data Beamable",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable",
           "name": "encode",
           "normalized": "a-\u003eByteString",
@@ -527,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable",
           "name": "encodeLive",
           "package": "beamable",
@@ -536,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Data Beamable",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable",
           "name": "encodeLive",
           "normalized": "a-\u003eByteString",
@@ -552,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode single value with extra type singature added, this adds 8 bytes to\n binary representation, but will prevent decoding using invalid data instances\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable",
           "name": "encodeSigned",
           "package": "beamable",
@@ -562,6 +607,7 @@
         "index": {
           "description": "Encode single value with extra type singature added this adds bytes to binary representation but will prevent decoding using invalid data instances",
           "hierarchy": "Data Beamable",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable",
           "name": "encodeSigned",
           "normalized": "a-\u003eByteString",
@@ -577,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable",
           "name": "feed",
           "package": "beamable",
@@ -586,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Data Beamable",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable",
           "name": "feed",
           "normalized": "Decoder a-\u003eByteString-\u003eEither(Decoder a)(a,ByteString)",
@@ -601,6 +649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the builder to construct a strict bytestring containing the sequence\n of bytes denoted by the builder. This is done by first serializing to a lazy bytestring and then packing its\n chunks to a appropriately sized strict bytestring.\n\u003c/p\u003e\u003cpre\u003e toByteString = packChunks . toLazyByteString\n\u003c/pre\u003e\u003cp\u003eNote that \u003ccode\u003e\u003ccode\u003e\u003ca\u003etoByteString\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e is a \u003ccode\u003eMonoid\u003c/code\u003e homomorphism.\n\u003c/p\u003e\u003cpre\u003e toByteString mempty          == mempty\n toByteString (x `mappend` y) == toByteString x `mappend` toByteString y\n\u003c/pre\u003e\u003cp\u003eHowever, in the second equation, the left-hand-side is generally faster to\n execute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable",
           "name": "toByteString",
           "package": "beamable",
@@ -610,6 +659,7 @@
         "index": {
           "description": "Run the builder to construct strict bytestring containing the sequence of bytes denoted by the builder This is done by first serializing to lazy bytestring and then packing its chunks to appropriately sized strict bytestring toByteString packChunks toLazyByteString Note that toByteString is Monoid homomorphism toByteString mempty mempty toByteString mappend toByteString mappend toByteString However in the second equation the left-hand-side is generally faster to execute",
           "hierarchy": "Data Beamable",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable",
           "name": "toByteString",
           "normalized": "Builder-\u003eByteString",
@@ -626,6 +676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeserialize next value from \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e, also returns leftovers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:36 UTC 2014",
           "module": "Data.Beamable",
           "name": "unbeam",
           "package": "beamable",
@@ -636,6 +687,7 @@
         "index": {
           "description": "Deserialize next value from ByteString also returns leftovers",
           "hierarchy": "Data Beamable",
+          "indexed": "2014-03-11T17:17:36",
           "module": "Data.Beamable",
           "name": "unbeam",
           "normalized": "ByteString-\u003e(a,ByteString)",

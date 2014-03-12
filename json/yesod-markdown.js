@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-markdown"
+        "phrase": "yesod-markdown",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRewrite/simplification of yesod-markdown written by ajdunlap.\n\u003c/p\u003e\u003cp\u003eForked from \u003ca\u003ehttps://github.com/ajdunlap/yesod-markdown\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:46:03 UTC 2014",
           "module": "Yesod.Markdown",
           "name": "Markdown",
           "package": "yesod-markdown",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Rewrite simplification of yesod-markdown written by ajdunlap Forked from https github.com ajdunlap yesod-markdown",
           "hierarchy": "Yesod Markdown",
+          "indexed": "2014-03-11T20:46:03",
           "module": "Yesod.Markdown",
           "name": "Markdown",
           "package": "yesod-markdown",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:03 UTC 2014",
           "module": "Yesod.Markdown",
           "name": "Markdown",
           "package": "yesod-markdown",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Yesod Markdown",
+          "indexed": "2014-03-11T20:46:03",
           "module": "Yesod.Markdown",
           "name": "Markdown",
           "package": "yesod-markdown",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:03 UTC 2014",
           "module": "Yesod.Markdown",
           "name": "Markdown",
           "package": "yesod-markdown",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Yesod Markdown",
+          "indexed": "2014-03-11T20:46:03",
           "module": "Yesod.Markdown",
           "name": "Markdown",
           "package": "yesod-markdown",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:03 UTC 2014",
           "module": "Yesod.Markdown",
           "name": "markdownField",
           "package": "yesod-markdown",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Yesod Markdown",
+          "indexed": "2014-03-11T20:46:03",
           "module": "Yesod.Markdown",
           "name": "markdownField",
           "package": "yesod-markdown",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the empty string if the file does not exist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:03 UTC 2014",
           "module": "Yesod.Markdown",
           "name": "markdownFromFile",
           "package": "yesod-markdown",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Returns the empty string if the file does not exist",
           "hierarchy": "Yesod Markdown",
+          "indexed": "2014-03-11T20:46:03",
           "module": "Yesod.Markdown",
           "name": "markdownFromFile",
           "normalized": "FilePath-\u003eIO Markdown",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:03 UTC 2014",
           "module": "Yesod.Markdown",
           "name": "markdownToHtml",
           "package": "yesod-markdown",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Yesod Markdown",
+          "indexed": "2014-03-11T20:46:03",
           "module": "Yesod.Markdown",
           "name": "markdownToHtml",
           "normalized": "Markdown-\u003eHtml",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo HTML sanitization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:03 UTC 2014",
           "module": "Yesod.Markdown",
           "name": "markdownToHtmlTrusted",
           "package": "yesod-markdown",
@@ -167,6 +180,7 @@
         "index": {
           "description": "No HTML sanitization",
           "hierarchy": "Yesod Markdown",
+          "indexed": "2014-03-11T20:46:03",
           "module": "Yesod.Markdown",
           "name": "markdownToHtmlTrusted",
           "normalized": "Markdown-\u003eHtml",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:03 UTC 2014",
           "module": "Yesod.Markdown",
           "name": "parseMarkdown",
           "package": "yesod-markdown",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Yesod Markdown",
+          "indexed": "2014-03-11T20:46:03",
           "module": "Yesod.Markdown",
           "name": "parseMarkdown",
           "normalized": "ReaderOptions-\u003eMarkdown-\u003ePandoc",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:03 UTC 2014",
           "module": "Yesod.Markdown",
           "name": "unMarkdown",
           "package": "yesod-markdown",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Yesod Markdown",
+          "indexed": "2014-03-11T20:46:03",
           "module": "Yesod.Markdown",
           "name": "unMarkdown",
           "package": "yesod-markdown",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:03 UTC 2014",
           "module": "Yesod.Markdown",
           "name": "writePandoc",
           "package": "yesod-markdown",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Yesod Markdown",
+          "indexed": "2014-03-11T20:46:03",
           "module": "Yesod.Markdown",
           "name": "writePandoc",
           "normalized": "WriterOptions-\u003ePandoc-\u003eHtml",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:03 UTC 2014",
           "module": "Yesod.Markdown",
           "name": "writePandocTrusted",
           "package": "yesod-markdown",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Yesod Markdown",
+          "indexed": "2014-03-11T20:46:03",
           "module": "Yesod.Markdown",
           "name": "writePandocTrusted",
           "normalized": "WriterOptions-\u003ePandoc-\u003eHtml",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefaults plus Smart and ParseRaw\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:03 UTC 2014",
           "module": "Yesod.Markdown",
           "name": "yesodDefaultReaderOptions",
           "package": "yesod-markdown",
@@ -287,6 +310,7 @@
         "index": {
           "description": "Defaults plus Smart and ParseRaw",
           "hierarchy": "Yesod Markdown",
+          "indexed": "2014-03-11T20:46:03",
           "module": "Yesod.Markdown",
           "name": "yesodDefaultReaderOptions",
           "package": "yesod-markdown",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefaults plus Html5, minus WrapText\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:03 UTC 2014",
           "module": "Yesod.Markdown",
           "name": "yesodDefaultWriterOptions",
           "package": "yesod-markdown",
@@ -311,6 +336,7 @@
         "index": {
           "description": "Defaults plus Html5 minus WrapText",
           "hierarchy": "Yesod Markdown",
+          "indexed": "2014-03-11T20:46:03",
           "module": "Yesod.Markdown",
           "name": "yesodDefaultWriterOptions",
           "package": "yesod-markdown",

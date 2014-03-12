@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "spoonutil"
+        "phrase": "spoonutil",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNice looking errors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Error.Report",
           "name": "Report",
           "package": "spoonutil",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Nice looking errors",
           "hierarchy": "Error Report",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Error.Report",
           "name": "Report",
           "package": "spoonutil",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA nice looking error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Error.Report",
           "name": "Error",
           "package": "spoonutil",
@@ -51,6 +54,7 @@
         "index": {
           "description": "nice looking error",
           "hierarchy": "Error Report",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Error.Report",
           "name": "Error",
           "package": "spoonutil",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for things which can be turned into error reports\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Error.Report",
           "name": "ErrorReport",
           "package": "spoonutil",
@@ -74,6 +79,7 @@
         "index": {
           "description": "class for things which can be turned into error reports",
           "hierarchy": "Error Report",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Error.Report",
           "name": "ErrorReport",
           "package": "spoonutil",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Error.Report",
           "name": "ErrorMessage",
           "package": "spoonutil",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Error Report",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Error.Report",
           "name": "ErrorMessage",
           "normalized": "ErrorMessage[Error]",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Error.Report",
           "name": "NoRaise",
           "package": "spoonutil",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Error Report",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Error.Report",
           "name": "NoRaise",
           "normalized": "NoRaise[Error]",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Error.Report",
           "name": "PrettyError",
           "package": "spoonutil",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Error text",
           "hierarchy": "Error Report",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Error.Report",
           "name": "PrettyError",
           "package": "spoonutil",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere was an error because the software was broken\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Error.Report",
           "name": "broken",
           "package": "spoonutil",
@@ -169,6 +182,7 @@
         "index": {
           "description": "There was an error because the software was broken",
           "hierarchy": "Error Report",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Error.Report",
           "name": "broken",
           "normalized": "String-\u003eString-\u003eString-\u003e[String]-\u003eError-\u003ea",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Error.Report",
           "name": "empty_error",
           "package": "spoonutil",
@@ -194,6 +209,7 @@
         "index": {
           "description": "An empty error",
           "hierarchy": "Error Report",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Error.Report",
           "name": "empty_error",
           "package": "spoonutil",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine multiple errors into one report\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Error.Report",
           "name": "error_join",
           "package": "spoonutil",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Combine multiple errors into one report",
           "hierarchy": "Error Report",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Error.Report",
           "name": "error_join",
           "normalized": "[Error]-\u003eError",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a line to the start of the error (This appears further up the error report)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Error.Report",
           "name": "error_line",
           "package": "spoonutil",
@@ -242,6 +261,7 @@
         "index": {
           "description": "Add line to the start of the error This appears further up the error report",
           "hierarchy": "Error Report",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Error.Report",
           "name": "error_line",
           "normalized": "a-\u003eError-\u003eError",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a number of lines to the start of the error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Error.Report",
           "name": "error_lines",
           "package": "spoonutil",
@@ -267,6 +288,7 @@
         "index": {
           "description": "Add number of lines to the start of the error",
           "hierarchy": "Error Report",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Error.Report",
           "name": "error_lines",
           "normalized": "[a]-\u003eError-\u003eError",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new error section (This appears further up, and with fewer tabs than the rest of the report)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Error.Report",
           "name": "error_section",
           "package": "spoonutil",
@@ -292,6 +315,7 @@
         "index": {
           "description": "Create new error section This appears further up and with fewer tabs than the rest of the report",
           "hierarchy": "Error Report",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Error.Report",
           "name": "error_section",
           "normalized": "Error-\u003eError",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Error.Report",
           "name": "new_error",
           "package": "spoonutil",
@@ -317,6 +342,7 @@
         "index": {
           "description": "Create new error",
           "hierarchy": "Error Report",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Error.Report",
           "name": "new_error",
           "normalized": "a-\u003eError",
@@ -331,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Error.Report",
           "name": "report",
           "package": "spoonutil",
@@ -340,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Error Report",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Error.Report",
           "name": "report",
           "normalized": "a-\u003eError",
@@ -355,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSpoon's test utility!  Simple testing for spoons.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Test.Simple",
           "name": "Simple",
           "package": "spoonutil",
@@ -364,6 +393,7 @@
         "index": {
           "description": "Spoon test utility Simple testing for spoons",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Test.Simple",
           "name": "Simple",
           "package": "spoonutil",
@@ -378,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest a source file.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Test.Simple",
           "name": "test",
           "package": "spoonutil",
@@ -387,6 +418,7 @@
         "index": {
           "description": "Test source file",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Test.Simple",
           "name": "test",
           "normalized": "String-\u003e(FilePath-\u003eString-\u003eEither a b)-\u003eBool-\u003eFilePath-\u003eIO()",
@@ -402,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest a source file.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Test.Simple",
           "name": "test_IO",
           "package": "spoonutil",
@@ -411,6 +444,7 @@
         "index": {
           "description": "Test source file",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Test.Simple",
           "name": "test_IO",
           "normalized": "String-\u003e(FilePath-\u003eString-\u003eIO(Either a b))-\u003eBool-\u003eFilePath-\u003eIO()",
@@ -427,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest all source files in a stage of the testing process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Test.Simple",
           "name": "test_all",
           "package": "spoonutil",
@@ -436,6 +471,7 @@
         "index": {
           "description": "Test all source files in stage of the testing process",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Test.Simple",
           "name": "test_all",
           "normalized": "String-\u003e(FilePath-\u003eString-\u003eEither a b)-\u003eIO()",
@@ -451,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest all source files in a stage of the testing process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Test.Simple",
           "name": "test_all_IO",
           "package": "spoonutil",
@@ -460,6 +497,7 @@
         "index": {
           "description": "Test all source files in stage of the testing process",
           "hierarchy": "Test Simple",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Test.Simple",
           "name": "test_all_IO",
           "normalized": "String-\u003e(FilePath-\u003eString-\u003eIO(Either a b))-\u003eIO()",
@@ -476,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty printing for spoons.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Text.Pretty",
           "name": "Pretty",
           "package": "spoonutil",
@@ -485,6 +524,7 @@
         "index": {
           "description": "Pretty printing for spoons",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Text.Pretty",
           "name": "Pretty",
           "package": "spoonutil",
@@ -499,6 +539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty printer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Text.Pretty",
           "name": "Pretty",
           "package": "spoonutil",
@@ -508,6 +549,7 @@
         "index": {
           "description": "Pretty printer",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Text.Pretty",
           "name": "Pretty",
           "package": "spoonutil",
@@ -521,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Text.Pretty",
           "name": "nl",
           "package": "spoonutil",
@@ -530,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Text.Pretty",
           "name": "nl",
           "package": "spoonutil",
@@ -543,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Text.Pretty",
           "name": "pretty",
           "package": "spoonutil",
@@ -553,6 +598,7 @@
         "index": {
           "description": "Pretty print",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Text.Pretty",
           "name": "pretty",
           "normalized": "a-\u003eString",
@@ -567,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Text.Pretty",
           "name": "pretty'",
           "package": "spoonutil",
@@ -576,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Text.Pretty",
           "name": "pretty'",
           "package": "spoonutil",
@@ -589,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Text.Pretty",
           "name": "pretty_list'",
           "package": "spoonutil",
@@ -599,6 +648,7 @@
         "index": {
           "description": "Pretty print list",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Text.Pretty",
           "name": "pretty_list'",
           "normalized": "[a]-\u003eInt-\u003eShowS",
@@ -614,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a list, putting two newlines between each element. (Paragraph layout)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Text.Pretty",
           "name": "pretty_list_nl'",
           "package": "spoonutil",
@@ -624,6 +675,7 @@
         "index": {
           "description": "Pretty print list putting two newlines between each element Paragraph layout",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Text.Pretty",
           "name": "pretty_list_nl'",
           "normalized": "[a]-\u003eInt-\u003eShowS",
@@ -639,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a list, putting spaces between each element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Text.Pretty",
           "name": "pretty_list_sp'",
           "package": "spoonutil",
@@ -649,6 +702,7 @@
         "index": {
           "description": "Pretty print list putting spaces between each element",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Text.Pretty",
           "name": "pretty_list_sp'",
           "normalized": "[a]-\u003eInt-\u003eShowS",
@@ -664,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpace before a pretty printed line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:51 UTC 2014",
           "module": "Text.Pretty",
           "name": "pspace",
           "package": "spoonutil",
@@ -674,6 +729,7 @@
         "index": {
           "description": "Space before pretty printed line",
           "hierarchy": "Text Pretty",
+          "indexed": "2014-03-11T20:08:51",
           "module": "Text.Pretty",
           "name": "pspace",
           "normalized": "Int-\u003eShowS",

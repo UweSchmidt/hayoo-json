@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xlsx-templater"
+        "phrase": "xlsx-templater",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:55 UTC 2014",
           "module": "Codec.Xlsx.Templater",
           "name": "Templater",
           "package": "xlsx-templater",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx Templater",
+          "indexed": "2014-03-11T20:41:55",
           "module": "Codec.Xlsx.Templater",
           "name": "Templater",
           "package": "xlsx-templater",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:55 UTC 2014",
           "module": "Codec.Xlsx.Templater",
           "name": "Orientation",
           "package": "xlsx-templater",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx Templater",
+          "indexed": "2014-03-11T20:41:55",
           "module": "Codec.Xlsx.Templater",
           "name": "Orientation",
           "package": "xlsx-templater",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata row as a map from template variable name to a \u003ccode\u003e\u003ca\u003eTemplateValue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:55 UTC 2014",
           "module": "Codec.Xlsx.Templater",
           "name": "TemplateDataRow",
           "package": "xlsx-templater",
@@ -70,6 +75,7 @@
         "index": {
           "description": "data row as map from template variable name to TemplateValue",
           "hierarchy": "Codec Xlsx Templater",
+          "indexed": "2014-03-11T20:41:55",
           "module": "Codec.Xlsx.Templater",
           "name": "TemplateDataRow",
           "package": "xlsx-templater",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:55 UTC 2014",
           "module": "Codec.Xlsx.Templater",
           "name": "TemplateSettings",
           "package": "xlsx-templater",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx Templater",
+          "indexed": "2014-03-11T20:41:55",
           "module": "Codec.Xlsx.Templater",
           "name": "TemplateSettings",
           "package": "xlsx-templater",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:55 UTC 2014",
           "module": "Codec.Xlsx.Templater",
           "name": "TemplateValue",
           "package": "xlsx-templater",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx Templater",
+          "indexed": "2014-03-11T20:41:55",
           "module": "Codec.Xlsx.Templater",
           "name": "TemplateValue",
           "package": "xlsx-templater",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:55 UTC 2014",
           "module": "Codec.Xlsx.Templater",
           "name": "Columns",
           "package": "xlsx-templater",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx Templater",
+          "indexed": "2014-03-11T20:41:55",
           "module": "Codec.Xlsx.Templater",
           "name": "Columns",
           "package": "xlsx-templater",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:55 UTC 2014",
           "module": "Codec.Xlsx.Templater",
           "name": "Rows",
           "package": "xlsx-templater",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx Templater",
+          "indexed": "2014-03-11T20:41:55",
           "module": "Codec.Xlsx.Templater",
           "name": "Rows",
           "package": "xlsx-templater",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:55 UTC 2014",
           "module": "Codec.Xlsx.Templater",
           "name": "TemplateSettings",
           "package": "xlsx-templater",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx Templater",
+          "indexed": "2014-03-11T20:41:55",
           "module": "Codec.Xlsx.Templater",
           "name": "TemplateSettings",
           "package": "xlsx-templater",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:55 UTC 2014",
           "module": "Codec.Xlsx.Templater",
           "name": "TplDouble",
           "package": "xlsx-templater",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx Templater",
+          "indexed": "2014-03-11T20:41:55",
           "module": "Codec.Xlsx.Templater",
           "name": "TplDouble",
           "package": "xlsx-templater",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:55 UTC 2014",
           "module": "Codec.Xlsx.Templater",
           "name": "TplLocalTime",
           "package": "xlsx-templater",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx Templater",
+          "indexed": "2014-03-11T20:41:55",
           "module": "Codec.Xlsx.Templater",
           "name": "TplLocalTime",
           "package": "xlsx-templater",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:55 UTC 2014",
           "module": "Codec.Xlsx.Templater",
           "name": "TplText",
           "package": "xlsx-templater",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx Templater",
+          "indexed": "2014-03-11T20:41:55",
           "module": "Codec.Xlsx.Templater",
           "name": "TplText",
           "package": "xlsx-templater",
@@ -258,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etemplate runner: reads template, constructs new xlsx file based on template data and template settings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:55 UTC 2014",
           "module": "Codec.Xlsx.Templater",
           "name": "run",
           "package": "xlsx-templater",
@@ -268,6 +291,7 @@
         "index": {
           "description": "template runner reads template constructs new xlsx file based on template data and template settings",
           "hierarchy": "Codec Xlsx Templater",
+          "indexed": "2014-03-11T20:41:55",
           "module": "Codec.Xlsx.Templater",
           "name": "run",
           "normalized": "FilePath-\u003eFilePath-\u003e[(TemplateDataRow,TemplateSettings,[TemplateDataRow])]-\u003eIO()",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:55 UTC 2014",
           "module": "Codec.Xlsx.Templater",
           "name": "tsOrientation",
           "package": "xlsx-templater",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Codec Xlsx Templater",
+          "indexed": "2014-03-11T20:41:55",
           "module": "Codec.Xlsx.Templater",
           "name": "tsOrientation",
           "package": "xlsx-templater",
@@ -305,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepeated row/column (depending on \u003ccode\u003e\u003ca\u003etsOrientation\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:55 UTC 2014",
           "module": "Codec.Xlsx.Templater",
           "name": "tsRepeated",
           "package": "xlsx-templater",
@@ -315,6 +342,7 @@
         "index": {
           "description": "repeated row column depending on tsOrientation",
           "hierarchy": "Codec Xlsx Templater",
+          "indexed": "2014-03-11T20:41:55",
           "module": "Codec.Xlsx.Templater",
           "name": "tsRepeated",
           "package": "xlsx-templater",

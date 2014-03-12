@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "graphmod"
+        "phrase": "graphmod",
+        "type": "phrase"
       },
       "type": "context"
     }

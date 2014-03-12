@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hastache"
+        "phrase": "hastache",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHastache context helpers\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache.Context",
           "name": "Context",
           "package": "hastache",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Hastache context helpers",
           "hierarchy": "Text Hastache Context",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache.Context",
           "name": "Context",
           "package": "hastache",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake Hastache context from Data.Data deriving type\n\u003c/p\u003e\u003cp\u003eSupported field types:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e String\n\u003c/li\u003e\u003cli\u003e Char\n\u003c/li\u003e\u003cli\u003e Double\n\u003c/li\u003e\u003cli\u003e Float\n\u003c/li\u003e\u003cli\u003e Int\n\u003c/li\u003e\u003cli\u003e Int8\n\u003c/li\u003e\u003cli\u003e Int16\n\u003c/li\u003e\u003cli\u003e Int32\n\u003c/li\u003e\u003cli\u003e Int64\n\u003c/li\u003e\u003cli\u003e Integer\n\u003c/li\u003e\u003cli\u003e Word\n\u003c/li\u003e\u003cli\u003e Word8\n\u003c/li\u003e\u003cli\u003e Word16\n\u003c/li\u003e\u003cli\u003e Word32\n\u003c/li\u003e\u003cli\u003e Word64\n\u003c/li\u003e\u003cli\u003e Data.ByteString.ByteString\n\u003c/li\u003e\u003cli\u003e Data.ByteString.Lazy.ByteString\n\u003c/li\u003e\u003cli\u003e Data.Text.Text\n\u003c/li\u003e\u003cli\u003e Data.Text.Lazy.Text\n\u003c/li\u003e\u003cli\u003e Bool\n\u003c/li\u003e\u003cli\u003e Data.ByteString.ByteString -\u003e Data.ByteString.ByteString\n\u003c/li\u003e\u003cli\u003e String -\u003e String\n\u003c/li\u003e\u003cli\u003e Data.ByteString.ByteString -\u003e Data.ByteString.Lazy.ByteString\n\u003c/li\u003e\u003cli\u003e MonadIO m =\u003e Data.ByteString.ByteString -\u003e m Data.ByteString.ByteString\n\u003c/li\u003e\u003cli\u003e MonadIO m =\u003e String -\u003e m String\n\u003c/li\u003e\u003cli\u003e MonadIO m =\u003e Data.ByteString.ByteString -\u003e m Data.ByteString.Lazy.ByteString\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e\nimport Text.Hastache \nimport Text.Hastache.Context \nimport qualified Data.ByteString as B\nimport qualified Data.ByteString.Lazy as LZ \nimport Data.Data \nimport Data.Generics \nimport Data.Char\n\ndata InternalData = InternalData {\n    someField       :: String,\n    anotherField    :: Int\n    } deriving (Data, Typeable, Show)\n\ndata Example = Example {\n    stringField             :: String,\n    intField                :: Int,\n    dataField               :: InternalData,\n    simpleListField         :: [String],\n    dataListField           :: [InternalData],\n    stringFunc              :: String -\u003e String,\n    byteStringFunc          :: B.ByteString -\u003e B.ByteString,\n    monadicStringFunc       :: String -\u003e IO String,\n    monadicByteStringFunc   :: B.ByteString -\u003e IO B.ByteString\n    } deriving (Data, Typeable)\n\nexample = hastacheStr defaultConfig (encodeStr template) \n    (mkGenericContext context)\n    where\n    template = concat $ map (++ \"\\n\") [\n        \"string: {{stringField}}\",\n        \"int: {{intField}}\",\n        \"data: {{dataField.someField}}, {{dataField.anotherField}}\",\n        \"data: {{#dataField}}{{someField}}, {{anotherField}}{{/dataField}}\",\n        \"simple list: {{#simpleListField}}{{.}} {{/simpleListField}}\",\n        \"data list:\",\n        \"{{#dataListField}}\",\n        \" * {{someField}}, {{anotherField}}. top level var: {{intField}}\",\n        \"{{/dataListField}}\",\n        \"{{#stringFunc}}upper{{/stringFunc}}\",\n        \"{{#byteStringFunc}}reverse{{/byteStringFunc}}\",\n        \"{{#monadicStringFunc}}upper (monadic){{/monadicStringFunc}}\",\n        \"{{#monadicByteStringFunc}}reverse (monadic){{/monadicByteStringFunc}}\"]\n    context = Example { stringField = \"string value\", intField = 1, \n        dataField = InternalData \"val\" 123, simpleListField = [\"a\",\"b\",\"c\"],\n        dataListField = [InternalData \"aaa\" 1, InternalData \"bbb\" 2],\n        stringFunc = map toUpper,\n        byteStringFunc = B.reverse,\n        monadicStringFunc = return . map toUpper,\n        monadicByteStringFunc = return . B.reverse }\n\nmain = example \u003e\u003e= LZ.putStrLn\n\u003c/pre\u003e\u003cp\u003eResult:\n\u003c/p\u003e\u003cpre\u003e\nstring: string value \nint: 1 \ndata: val, 123 \ndata: val, 123 \nsimple list: a b c  \ndata list: \n * aaa, 1. top level var: 1 \n * bbb, 2. top level var: 1 \nUPPER \nesrever \nUPPER (MONADIC)\n)cidanom( esrever\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache.Context",
           "name": "mkGenericContext",
           "package": "hastache",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Make Hastache context from Data.Data deriving type Supported field types String Char Double Float Int Int8 Int16 Int32 Int64 Integer Word Word8 Word16 Word32 Word64 Data.ByteString.ByteString Data.ByteString.Lazy.ByteString Data.Text.Text Data.Text.Lazy.Text Bool Data.ByteString.ByteString Data.ByteString.ByteString String String Data.ByteString.ByteString Data.ByteString.Lazy.ByteString MonadIO Data.ByteString.ByteString Data.ByteString.ByteString MonadIO String String MonadIO Data.ByteString.ByteString Data.ByteString.Lazy.ByteString Example import Text.Hastache import Text.Hastache.Context import qualified Data.ByteString as import qualified Data.ByteString.Lazy as LZ import Data.Data import Data.Generics import Data.Char data InternalData InternalData someField String anotherField Int deriving Data Typeable Show data Example Example stringField String intField Int dataField InternalData simpleListField String dataListField InternalData stringFunc String String byteStringFunc B.ByteString B.ByteString monadicStringFunc String IO String monadicByteStringFunc B.ByteString IO B.ByteString deriving Data Typeable example hastacheStr defaultConfig encodeStr template mkGenericContext context where template concat map string stringField int intField data dataField.someField dataField.anotherField data dataField someField anotherField dataField simple list simpleListField simpleListField data list dataListField someField anotherField top level var intField dataListField stringFunc upper stringFunc byteStringFunc reverse byteStringFunc monadicStringFunc upper monadic monadicStringFunc monadicByteStringFunc reverse monadic monadicByteStringFunc context Example stringField string value intField dataField InternalData val simpleListField dataListField InternalData aaa InternalData bbb stringFunc map toUpper byteStringFunc B.reverse monadicStringFunc return map toUpper monadicByteStringFunc return B.reverse main example LZ.putStrLn Result string string value int data val data val simple list data list aaa top level var bbb top level var UPPER esrever UPPER MONADIC cidanom esrever",
           "hierarchy": "Text Hastache Context",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache.Context",
           "name": "mkGenericContext",
           "normalized": "a-\u003eMuContext b",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake Hastache context from String -\u003e MuType function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache.Context",
           "name": "mkStrContext",
           "package": "hastache",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Make Hastache context from String MuType function",
           "hierarchy": "Text Hastache Context",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache.Context",
           "name": "mkStrContext",
           "normalized": "(String-\u003eMuType a)-\u003eMuContext a",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake Hastache context from monadic String -\u003e MuType function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache.Context",
           "name": "mkStrContextM",
           "package": "hastache",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Make Hastache context from monadic String MuType function",
           "hierarchy": "Text Hastache Context",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache.Context",
           "name": "mkStrContextM",
           "normalized": "(String-\u003ea(MuType a))-\u003eMuContext a",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHaskell implementation of Mustache templates\n\u003c/p\u003e\u003cp\u003eSee homepage for examples of usage: \u003ca\u003ehttp://github.com/lymar/hastache\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eSimplest example:\n\u003c/p\u003e\u003cpre\u003e\nimport Text.Hastache \nimport Text.Hastache.Context \nimport qualified Data.ByteString.Lazy.Char8 as LZ \n\nmain = do \n    res \u003c- hastacheStr defaultConfig (encodeStr template)  \n        (mkStrContext context) \n    LZ.putStrLn res \n  where \n    template = \"Hello, {{name}}!\\n\\nYou have {{unread}} unread messages.\" \n    context \"name\" = MuVariable \"Haskell\"\n    context \"unread\" = MuVariable (100 :: Int)\n\u003c/pre\u003e\u003cp\u003eResult:\n\u003c/p\u003e\u003cpre\u003e\nHello, Haskell!\n\nYou have 100 unread messages.\n\u003c/pre\u003e\u003cp\u003eUsing Generics:\n\u003c/p\u003e\u003cpre\u003e\nimport Text.Hastache \nimport Text.Hastache.Context \nimport qualified Data.ByteString.Lazy.Char8 as LZ \nimport Data.Data \nimport Data.Generics \n\ndata Info = Info { \n    name    :: String, \n    unread  :: Int \n    } deriving (Data, Typeable)\n\nmain = do \n    res \u003c- hastacheStr defaultConfig (encodeStr template) \n        (mkGenericContext inf) \n    LZ.putStrLn res \n  where \n    template = \"Hello, {{name}}!\\n\\nYou have {{unread}} unread messages.\"\n    inf = Info \"Haskell\" 100\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "Hastache",
           "package": "hastache",
@@ -129,6 +138,7 @@
         "index": {
           "description": "Haskell implementation of Mustache templates See homepage for examples of usage http github.com lymar hastache Simplest example import Text.Hastache import Text.Hastache.Context import qualified Data.ByteString.Lazy.Char8 as LZ main do res hastacheStr defaultConfig encodeStr template mkStrContext context LZ.putStrLn res where template Hello name nYou have unread unread messages context name MuVariable Haskell context unread MuVariable Int Result Hello Haskell You have unread messages Using Generics import Text.Hastache import Text.Hastache.Context import qualified Data.ByteString.Lazy.Char8 as LZ import Data.Data import Data.Generics data Info Info name String unread Int deriving Data Typeable main do res hastacheStr defaultConfig encodeStr template mkGenericContext inf LZ.putStrLn res where template Hello name nYou have unread unread messages inf Info Haskell",
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "Hastache",
           "package": "hastache",
@@ -142,6 +152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "MuConfig",
           "package": "hastache",
@@ -150,6 +161,7 @@
         },
         "index": {
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "MuConfig",
           "package": "hastache",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData for Hastache variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "MuContext",
           "package": "hastache",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Data for Hastache variable",
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "MuContext",
           "package": "hastache",
@@ -186,6 +200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "MuType",
           "package": "hastache",
@@ -194,6 +209,7 @@
         },
         "index": {
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "MuType",
           "package": "hastache",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "MuVar",
           "package": "hastache",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "MuVar",
           "package": "hastache",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "MuBool",
           "package": "hastache",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "MuBool",
           "package": "hastache",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "MuConfig",
           "package": "hastache",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "MuConfig",
           "package": "hastache",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "MuLambda",
           "package": "hastache",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "MuLambda",
           "normalized": "MuLambda(ByteString-\u003ea)",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "MuLambdaM",
           "package": "hastache",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "MuLambdaM",
           "normalized": "MuLambdaM(ByteString-\u003ea b)",
@@ -320,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "MuList",
           "package": "hastache",
@@ -329,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "MuList",
           "normalized": "MuList[MuContext a]",
@@ -344,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "MuNothing",
           "package": "hastache",
@@ -353,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "MuNothing",
           "package": "hastache",
@@ -366,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "MuVariable",
           "package": "hastache",
@@ -375,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "MuVariable",
           "package": "hastache",
@@ -389,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert UTF-8 Bytestring to String\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "decodeStr",
           "package": "hastache",
@@ -399,6 +432,7 @@
         "index": {
           "description": "Convert UTF-8 Bytestring to String",
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "decodeStr",
           "normalized": "ByteString-\u003eString",
@@ -415,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert UTF-8 Lazy Bytestring to String\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "decodeStrLBS",
           "package": "hastache",
@@ -425,6 +460,7 @@
         "index": {
           "description": "Convert UTF-8 Lazy Bytestring to String",
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "decodeStrLBS",
           "normalized": "ByteString-\u003eString",
@@ -441,6 +477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault config: HTML escape function, current directory as \n     template directory, template file extension not specified \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "defaultConfig",
           "package": "hastache",
@@ -451,6 +488,7 @@
         "index": {
           "description": "Default config HTML escape function current directory as template directory template file extension not specified",
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "defaultConfig",
           "package": "hastache",
@@ -465,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo escape\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "emptyEscape",
           "package": "hastache",
@@ -475,6 +514,7 @@
         "index": {
           "description": "No escape",
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "emptyEscape",
           "normalized": "ByteString-\u003eByteString",
@@ -491,6 +531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert String to UTF-8 Bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "encodeStr",
           "package": "hastache",
@@ -501,6 +542,7 @@
         "index": {
           "description": "Convert String to UTF-8 Bytestring",
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "encodeStr",
           "normalized": "String-\u003eByteString",
@@ -517,6 +559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert String to UTF-8 Lazy Bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "encodeStrLBS",
           "package": "hastache",
@@ -527,6 +570,7 @@
         "index": {
           "description": "Convert String to UTF-8 Lazy Bytestring",
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "encodeStrLBS",
           "normalized": "String-\u003eByteString",
@@ -543,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender Hastache template from file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "hastacheFile",
           "package": "hastache",
@@ -552,6 +597,7 @@
         "index": {
           "description": "Render Hastache template from file",
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "hastacheFile",
           "normalized": "MuConfig a-\u003eFilePath-\u003eMuContext a-\u003ea ByteString",
@@ -568,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender Hastache template from file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "hastacheFileBuilder",
           "package": "hastache",
@@ -577,6 +624,7 @@
         "index": {
           "description": "Render Hastache template from file",
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "hastacheFileBuilder",
           "normalized": "MuConfig a-\u003eFilePath-\u003eMuContext a-\u003ea Builder",
@@ -593,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender Hastache template from ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "hastacheStr",
           "package": "hastache",
@@ -602,6 +651,7 @@
         "index": {
           "description": "Render Hastache template from ByteString",
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "hastacheStr",
           "normalized": "MuConfig a-\u003eByteString-\u003eMuContext a-\u003ea ByteString",
@@ -618,6 +668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender Hastache template from ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "hastacheStrBuilder",
           "package": "hastache",
@@ -627,6 +678,7 @@
         "index": {
           "description": "Render Hastache template from ByteString",
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "hastacheStrBuilder",
           "normalized": "MuConfig a-\u003eByteString-\u003eMuContext a-\u003ea Builder",
@@ -643,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape HTML symbols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "htmlEscape",
           "package": "hastache",
@@ -653,6 +706,7 @@
         "index": {
           "description": "Escape HTML symbols",
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "htmlEscape",
           "normalized": "ByteString-\u003eByteString",
@@ -669,6 +723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs empty variable (empty string, zero number etc.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "isEmpty",
           "package": "hastache",
@@ -679,6 +734,7 @@
         "index": {
           "description": "Is empty variable empty string zero number etc",
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "isEmpty",
           "normalized": "a-\u003eBool",
@@ -695,6 +751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape function (\u003ccode\u003e\u003ca\u003ehtmlEscape\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eemptyEscape\u003c/a\u003e\u003c/code\u003e etc.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "muEscapeFunc",
           "package": "hastache",
@@ -705,6 +762,7 @@
         "index": {
           "description": "Escape function htmlEscape emptyEscape etc",
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "muEscapeFunc",
           "normalized": "ByteString-\u003eByteString",
@@ -721,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirectory for search partial templates ({{\u003e templateName}})\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "muTemplateFileDir",
           "package": "hastache",
@@ -731,6 +790,7 @@
         "index": {
           "description": "Directory for search partial templates templateName",
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "muTemplateFileDir",
           "package": "hastache",
@@ -745,6 +805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartial template files extension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "muTemplateFileExt",
           "package": "hastache",
@@ -755,6 +816,7 @@
         "index": {
           "description": "Partial template files extension",
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "muTemplateFileExt",
           "package": "hastache",
@@ -769,6 +831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemplate retrieval function. \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e indicates that the\n   template could not be found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "muTemplateRead",
           "package": "hastache",
@@ -779,6 +842,7 @@
         "index": {
           "description": "Template retrieval function Nothing indicates that the template could not be found",
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "muTemplateRead",
           "normalized": "FilePath-\u003ea(Maybe ByteString)",
@@ -795,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to Lazy ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:09 UTC 2014",
           "module": "Text.Hastache",
           "name": "toLByteString",
           "package": "hastache",
@@ -805,6 +870,7 @@
         "index": {
           "description": "Convert to Lazy ByteString",
           "hierarchy": "Text Hastache",
+          "indexed": "2014-03-11T18:34:09",
           "module": "Text.Hastache",
           "name": "toLByteString",
           "normalized": "a-\u003eByteString",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pattern-arrows"
+        "phrase": "pattern-arrows",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eArrows for Pretty Printing\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:35:58 UTC 2014",
           "module": "Control.PatternArrows",
           "name": "PatternArrows",
           "package": "pattern-arrows",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Arrows for Pretty Printing",
           "hierarchy": "Control PatternArrows",
+          "indexed": "2014-03-11T19:35:58",
           "module": "Control.PatternArrows",
           "name": "PatternArrows",
           "package": "pattern-arrows",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn operator:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eAssocL\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e A left-associative operator\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eAssocR\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e A right-associative operator\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eWrap\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e A prefix-like or postfix-like operator\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eSplit\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e A prefix-like or postfix-like operator which does not recurse into its operand\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 19:35:58 UTC 2014",
           "module": "Control.PatternArrows",
           "name": "Operator",
           "package": "pattern-arrows",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An operator AssocL left-associative operator AssocR right-associative operator Wrap prefix-like or postfix-like operator Split prefix-like or postfix-like operator which does not recurse into its operand",
           "hierarchy": "Control PatternArrows",
+          "indexed": "2014-03-11T19:35:58",
           "module": "Control.PatternArrows",
           "name": "Operator",
           "package": "pattern-arrows",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA table of operators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:58 UTC 2014",
           "module": "Control.PatternArrows",
           "name": "OperatorTable",
           "package": "pattern-arrows",
@@ -74,6 +79,7 @@
         "index": {
           "description": "table of operators",
           "hierarchy": "Control PatternArrows",
+          "indexed": "2014-03-11T19:35:58",
           "module": "Control.PatternArrows",
           "name": "OperatorTable",
           "package": "pattern-arrows",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA first-order pattern match\n\u003c/p\u003e\u003cp\u003eA pattern is a Kleisli arrow for the \u003ccode\u003eStateT Maybe\u003c/code\u003e monad. That is, patterns can fail, and can carry user-defined state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:58 UTC 2014",
           "module": "Control.PatternArrows",
           "name": "Pattern",
           "package": "pattern-arrows",
@@ -97,6 +104,7 @@
         "index": {
           "description": "first-order pattern match pattern is Kleisli arrow for the StateT Maybe monad That is patterns can fail and can carry user-defined state",
           "hierarchy": "Control PatternArrows",
+          "indexed": "2014-03-11T19:35:58",
           "module": "Control.PatternArrows",
           "name": "Pattern",
           "package": "pattern-arrows",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:58 UTC 2014",
           "module": "Control.PatternArrows",
           "name": "AssocL",
           "package": "pattern-arrows",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Control PatternArrows",
+          "indexed": "2014-03-11T19:35:58",
           "module": "Control.PatternArrows",
           "name": "AssocL",
           "normalized": "Pattern a b(b,b)-\u003e(c-\u003ec-\u003ec)-\u003eOperator a b c",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:58 UTC 2014",
           "module": "Control.PatternArrows",
           "name": "AssocR",
           "package": "pattern-arrows",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Control PatternArrows",
+          "indexed": "2014-03-11T19:35:58",
           "module": "Control.PatternArrows",
           "name": "AssocR",
           "normalized": "Pattern a b(b,b)-\u003e(c-\u003ec-\u003ec)-\u003eOperator a b c",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:58 UTC 2014",
           "module": "Control.PatternArrows",
           "name": "OperatorTable",
           "package": "pattern-arrows",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Control PatternArrows",
+          "indexed": "2014-03-11T19:35:58",
           "module": "Control.PatternArrows",
           "name": "OperatorTable",
           "package": "pattern-arrows",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:58 UTC 2014",
           "module": "Control.PatternArrows",
           "name": "Pattern",
           "package": "pattern-arrows",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Control PatternArrows",
+          "indexed": "2014-03-11T19:35:58",
           "module": "Control.PatternArrows",
           "name": "Pattern",
           "package": "pattern-arrows",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:58 UTC 2014",
           "module": "Control.PatternArrows",
           "name": "Split",
           "package": "pattern-arrows",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Control PatternArrows",
+          "indexed": "2014-03-11T19:35:58",
           "module": "Control.PatternArrows",
           "name": "Split",
           "normalized": "Pattern a b(c,d)-\u003e(c-\u003ed-\u003ee)-\u003eOperator a b e",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:58 UTC 2014",
           "module": "Control.PatternArrows",
           "name": "Wrap",
           "package": "pattern-arrows",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Control PatternArrows",
+          "indexed": "2014-03-11T19:35:58",
           "module": "Control.PatternArrows",
           "name": "Wrap",
           "normalized": "Pattern a b(c,b)-\u003e(c-\u003ed-\u003ed)-\u003eOperator a b d",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a pretty printer from an operator table and an indecomposable pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:58 UTC 2014",
           "module": "Control.PatternArrows",
           "name": "buildPrettyPrinter",
           "package": "pattern-arrows",
@@ -261,6 +282,7 @@
         "index": {
           "description": "Build pretty printer from an operator table and an indecomposable pattern",
           "hierarchy": "Control PatternArrows",
+          "indexed": "2014-03-11T19:35:58",
           "module": "Control.PatternArrows",
           "name": "buildPrettyPrinter",
           "normalized": "OperatorTable a b c-\u003ePattern a b c-\u003ePattern a b c",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a pattern which recursively matches on the left-hand-side\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:58 UTC 2014",
           "module": "Control.PatternArrows",
           "name": "chainl",
           "package": "pattern-arrows",
@@ -287,6 +310,7 @@
         "index": {
           "description": "Construct pattern which recursively matches on the left-hand-side",
           "hierarchy": "Control PatternArrows",
+          "indexed": "2014-03-11T19:35:58",
           "module": "Control.PatternArrows",
           "name": "chainl",
           "normalized": "Pattern a b(b,b)-\u003e(c-\u003ec-\u003ec)-\u003ePattern a b c-\u003ePattern a b c",
@@ -302,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a pattern which recursively matches on the right-hand side\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:58 UTC 2014",
           "module": "Control.PatternArrows",
           "name": "chainr",
           "package": "pattern-arrows",
@@ -312,6 +337,7 @@
         "index": {
           "description": "Construct pattern which recursively matches on the right-hand side",
           "hierarchy": "Control PatternArrows",
+          "indexed": "2014-03-11T19:35:58",
           "module": "Control.PatternArrows",
           "name": "chainr",
           "normalized": "Pattern a b(b,b)-\u003e(c-\u003ec-\u003ec)-\u003ePattern a b c-\u003ePattern a b c",
@@ -327,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a pattern from a function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:58 UTC 2014",
           "module": "Control.PatternArrows",
           "name": "mkPattern",
           "package": "pattern-arrows",
@@ -337,6 +364,7 @@
         "index": {
           "description": "Construct pattern from function",
           "hierarchy": "Control PatternArrows",
+          "indexed": "2014-03-11T19:35:58",
           "module": "Control.PatternArrows",
           "name": "mkPattern",
           "normalized": "(a-\u003eMaybe b)-\u003ePattern c a b",
@@ -353,6 +381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a pattern from a stateful function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:58 UTC 2014",
           "module": "Control.PatternArrows",
           "name": "mkPattern'",
           "package": "pattern-arrows",
@@ -363,6 +392,7 @@
         "index": {
           "description": "Construct pattern from stateful function",
           "hierarchy": "Control PatternArrows",
+          "indexed": "2014-03-11T19:35:58",
           "module": "Control.PatternArrows",
           "name": "mkPattern'",
           "normalized": "(a-\u003eStateT b Maybe c)-\u003ePattern b a c",
@@ -379,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a pattern with an input and initial user state\n\u003c/p\u003e\u003cp\u003eReturns Nothing if the pattern fails to match\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:58 UTC 2014",
           "module": "Control.PatternArrows",
           "name": "pattern",
           "package": "pattern-arrows",
@@ -389,6 +420,7 @@
         "index": {
           "description": "Run pattern with an input and initial user state Returns Nothing if the pattern fails to match",
           "hierarchy": "Control PatternArrows",
+          "indexed": "2014-03-11T19:35:58",
           "module": "Control.PatternArrows",
           "name": "pattern",
           "normalized": "Pattern a b c-\u003ea-\u003eb-\u003eMaybe c",
@@ -403,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:58 UTC 2014",
           "module": "Control.PatternArrows",
           "name": "runOperatorTable",
           "package": "pattern-arrows",
@@ -412,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Control PatternArrows",
+          "indexed": "2014-03-11T19:35:58",
           "module": "Control.PatternArrows",
           "name": "runOperatorTable",
           "normalized": "[[Operator a b c]]",
@@ -427,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:58 UTC 2014",
           "module": "Control.PatternArrows",
           "name": "runPattern",
           "package": "pattern-arrows",
@@ -436,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Control PatternArrows",
+          "indexed": "2014-03-11T19:35:58",
           "module": "Control.PatternArrows",
           "name": "runPattern",
           "package": "pattern-arrows",
@@ -450,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a pattern which matches a part of a tuple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:58 UTC 2014",
           "module": "Control.PatternArrows",
           "name": "split",
           "package": "pattern-arrows",
@@ -460,6 +497,7 @@
         "index": {
           "description": "Construct pattern which matches part of tuple",
           "hierarchy": "Control PatternArrows",
+          "indexed": "2014-03-11T19:35:58",
           "module": "Control.PatternArrows",
           "name": "split",
           "normalized": "Pattern a b(c,d)-\u003e(c-\u003ed-\u003ee)-\u003ePattern a b e",
@@ -475,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a pattern which recursively matches on one-side of a tuple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:58 UTC 2014",
           "module": "Control.PatternArrows",
           "name": "wrap",
           "package": "pattern-arrows",
@@ -485,6 +524,7 @@
         "index": {
           "description": "Construct pattern which recursively matches on one-side of tuple",
           "hierarchy": "Control PatternArrows",
+          "indexed": "2014-03-11T19:35:58",
           "module": "Control.PatternArrows",
           "name": "wrap",
           "normalized": "Pattern a b(c,b)-\u003e(c-\u003ed-\u003ed)-\u003ePattern a b d-\u003ePattern a b d",

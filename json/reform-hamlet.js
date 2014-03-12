@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "reform-hamlet"
+        "phrase": "reform-hamlet",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "Common",
           "package": "reform-hamlet",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "Common",
           "package": "reform-hamlet",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "br",
           "package": "reform-hamlet",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "br",
           "normalized": "Form a b c(HtmlUrl d)()()",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "button",
           "package": "reform-hamlet",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "button",
           "normalized": "a-\u003eForm b c d(HtmlUrl e)()()",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "buttonReset",
           "package": "reform-hamlet",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "buttonReset",
           "normalized": "a-\u003eForm b c d(HtmlUrl e)()()",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003cbutton type=\"submit\"\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "buttonSubmit",
           "package": "reform-hamlet",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Create button type submit element",
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "buttonSubmit",
           "normalized": "(a-\u003eEither b c)-\u003ec-\u003ed-\u003eForm e a b(HtmlUrl f)()(Maybe c)",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "childErrorList",
           "package": "reform-hamlet",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "childErrorList",
           "normalized": "Form a b c(HtmlUrl d)()()",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "errorList",
           "package": "reform-hamlet",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "errorList",
           "normalized": "Form a b c(HtmlUrl d)()()",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "fieldset",
           "package": "reform-hamlet",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "fieldset",
           "normalized": "Form a b c d e f-\u003eForm a b c(HtmlUrl g)e f",
@@ -231,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "inputButton",
           "package": "reform-hamlet",
@@ -240,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "inputButton",
           "normalized": "a-\u003eForm b c d(HtmlUrl e)()()",
@@ -255,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "inputCheckbox",
           "package": "reform-hamlet",
@@ -263,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "inputCheckbox",
           "normalized": "Bool-\u003eForm a b c(HtmlUrl d)()Bool",
@@ -278,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "inputCheckboxes",
           "package": "reform-hamlet",
@@ -286,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "inputCheckboxes",
           "normalized": "[(a,b)]-\u003e(a-\u003eBool)-\u003eForm c d e(HtmlUrl f)()[a]",
@@ -301,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "inputFile",
           "package": "reform-hamlet",
@@ -310,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "inputFile",
           "normalized": "Form a b c(HtmlUrl d)()(FileType b)",
@@ -325,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "inputHidden",
           "package": "reform-hamlet",
@@ -334,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "inputHidden",
           "normalized": "(a-\u003eEither b c)-\u003ec-\u003eForm d a b(HtmlUrl e)()c",
@@ -349,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "inputPassword",
           "package": "reform-hamlet",
@@ -358,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "inputPassword",
           "normalized": "(a-\u003eEither b c)-\u003ec-\u003eForm d a b(HtmlUrl e)()c",
@@ -373,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "inputRadio",
           "package": "reform-hamlet",
@@ -381,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "inputRadio",
           "normalized": "[(a,b)]-\u003e(a-\u003eBool)-\u003eForm c d e(HtmlUrl f)()a",
@@ -396,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "inputReset",
           "package": "reform-hamlet",
@@ -405,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "inputReset",
           "normalized": "a-\u003eForm b c d(HtmlUrl e)()()",
@@ -420,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "inputSubmit",
           "package": "reform-hamlet",
@@ -429,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "inputSubmit",
           "normalized": "(a-\u003eEither b c)-\u003ec-\u003eForm d a b(HtmlUrl e)()(Maybe c)",
@@ -444,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "inputText",
           "package": "reform-hamlet",
@@ -453,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "inputText",
           "normalized": "(a-\u003eEither b c)-\u003ec-\u003eForm d a b(HtmlUrl e)()c",
@@ -468,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "label",
           "package": "reform-hamlet",
@@ -477,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "label",
           "normalized": "a-\u003eForm b c d(HtmlUrl e)()()",
@@ -491,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "li",
           "package": "reform-hamlet",
@@ -500,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "li",
           "normalized": "Form a b c d e f-\u003eForm a b c(HtmlUrl g)e f",
@@ -514,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "ol",
           "package": "reform-hamlet",
@@ -523,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "ol",
           "normalized": "Form a b c d e f-\u003eForm a b c(HtmlUrl g)e f",
@@ -537,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "select",
           "package": "reform-hamlet",
@@ -545,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "select",
           "normalized": "[(a,b)]-\u003e(a-\u003eBool)-\u003eForm c d e(HtmlUrl f)()a",
@@ -559,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "selectMultiple",
           "package": "reform-hamlet",
@@ -567,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "selectMultiple",
           "normalized": "[(a,b)]-\u003e(a-\u003eBool)-\u003eForm c d e(HtmlUrl f)()[a]",
@@ -582,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "textarea",
           "package": "reform-hamlet",
@@ -590,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "textarea",
           "normalized": "(a-\u003eEither b c)-\u003eInt-\u003eInt-\u003ec-\u003eForm d a b(HtmlUrl e)()c",
@@ -604,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Common",
           "name": "ul",
           "package": "reform-hamlet",
@@ -613,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Hamlet Common",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Common",
           "name": "ul",
           "normalized": "Form a b c d e f-\u003eForm a b c(HtmlUrl g)e f",
@@ -628,6 +678,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions creating Reform using Hamlet markup.\n\u003c/p\u003e\u003cp\u003eThis module assumes that you wish for text based controls such as \u003ccode\u003e\u003ca\u003einputText\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etextarea\u003c/a\u003e\u003c/code\u003e to using \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e values. If you prefer \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e see \u003ca\u003eText.Reform.Hamlet.Text\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.String",
           "name": "String",
           "package": "reform-hamlet",
@@ -637,6 +688,7 @@
         "index": {
           "description": "This module provides functions creating Reform using Hamlet markup This module assumes that you wish for text based controls such as inputText and textarea to using String values If you prefer Text see Text.Reform.Hamlet.Text",
           "hierarchy": "Text Reform Hamlet String",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.String",
           "name": "String",
           "package": "reform-hamlet",
@@ -651,6 +703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a \u003ccode\u003e\u003cbr\u003e\u003c/code\u003e tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.String",
           "name": "br",
           "package": "reform-hamlet",
@@ -661,6 +714,7 @@
         "index": {
           "description": "create br tag",
           "hierarchy": "Text Reform Hamlet String",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.String",
           "name": "br",
           "normalized": "Form a b c(HtmlUrl d)()()",
@@ -727,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a  \u003ccode\u003e\u003cbutton type=\"submit\"\u003e\u003c/button\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.String",
           "name": "buttonSubmit",
           "package": "reform-hamlet",
@@ -736,6 +791,7 @@
         "index": {
           "description": "create button type submit button element",
           "hierarchy": "Text Reform Hamlet String",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.String",
           "name": "buttonSubmit",
           "normalized": "String-\u003ea-\u003eForm b c d(HtmlUrl e)()(Maybe String)",
@@ -752,6 +808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a \u003ccode\u003e\u003cul\u003e\u003c/code\u003e which contains all the errors related to the \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIncludes errors from children of the current form.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003e\\ul\\\u003c/a\u003e\u003c/code\u003e will have the attribute \u003ccode\u003eclass=\"reform-error-list\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.String",
           "name": "childErrorList",
           "package": "reform-hamlet",
@@ -762,6 +819,7 @@
         "index": {
           "description": "create ul which contains all the errors related to the Form Includes errors from children of the current form The ul will have the attribute class reform-error-list",
           "hierarchy": "Text Reform Hamlet String",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.String",
           "name": "childErrorList",
           "normalized": "Form a b c(HtmlUrl d)()()",
@@ -778,6 +836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a \u003ccode\u003e\u003cul\u003e\u003c/code\u003e which contains all the errors related to the \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003e\\ul\\\u003c/a\u003e\u003c/code\u003e will have the attribute \u003ccode\u003eclass=\"reform-error-list\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.String",
           "name": "errorList",
           "package": "reform-hamlet",
@@ -788,6 +847,7 @@
         "index": {
           "description": "create ul which contains all the errors related to the Form The ul will have the attribute class reform-error-list",
           "hierarchy": "Text Reform Hamlet String",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.String",
           "name": "errorList",
           "normalized": "Form a b c(HtmlUrl d)()()",
@@ -804,6 +864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrap a \u003ccode\u003e\u003cfieldset class=\"reform\"\u003e\u003c/code\u003e around a \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.String",
           "name": "fieldset",
           "package": "reform-hamlet",
@@ -814,6 +875,7 @@
         "index": {
           "description": "wrap fieldset class reform around Form",
           "hierarchy": "Text Reform Hamlet String",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.String",
           "name": "fieldset",
           "normalized": "Form a b c d e f-\u003eForm a b c(HtmlUrl g)e f",
@@ -829,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"button\"\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003eThe element is a push button with a text label. The button does nothing by default, but actions can be added using javascript. This element does not add any data to the form data set.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003ebutton\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.String",
           "name": "inputButton",
           "package": "reform-hamlet",
@@ -838,6 +901,7 @@
         "index": {
           "description": "Create an input type button element The element is push button with text label The button does nothing by default but actions can be added using javascript This element does not add any data to the form data set see also button",
           "hierarchy": "Text Reform Hamlet String",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.String",
           "name": "inputButton",
           "normalized": "String-\u003eForm a b c(HtmlUrl d)()()",
@@ -906,6 +970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"file\"\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003eThis control may succeed even if the user does not actually select a file to upload. In that case the uploaded name will likely be \"\" and the file contents will be empty as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.String",
           "name": "inputFile",
           "package": "reform-hamlet",
@@ -916,6 +981,7 @@
         "index": {
           "description": "Create an input type file element This control may succeed even if the user does not actually select file to upload In that case the uploaded name will likely be and the file contents will be empty as well",
           "hierarchy": "Text Reform Hamlet String",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.String",
           "name": "inputFile",
           "normalized": "Form a b c(HtmlUrl d)()(FileType b)",
@@ -932,6 +998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"hidden\"\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.String",
           "name": "inputHidden",
           "package": "reform-hamlet",
@@ -941,6 +1008,7 @@
         "index": {
           "description": "Create an input type hidden element",
           "hierarchy": "Text Reform Hamlet String",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.String",
           "name": "inputHidden",
           "normalized": "String-\u003eForm a b c(HtmlUrl d)()String",
@@ -957,6 +1025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"password\"\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.String",
           "name": "inputPassword",
           "package": "reform-hamlet",
@@ -967,6 +1036,7 @@
         "index": {
           "description": "Create an input type password element",
           "hierarchy": "Text Reform Hamlet String",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.String",
           "name": "inputPassword",
           "normalized": "Form a b c(HtmlUrl d)()String",
@@ -1009,6 +1079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"reset\"\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003eThis element does not add any data to the form data set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.String",
           "name": "inputReset",
           "package": "reform-hamlet",
@@ -1018,6 +1089,7 @@
         "index": {
           "description": "Create an input type reset element This element does not add any data to the form data set",
           "hierarchy": "Text Reform Hamlet String",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.String",
           "name": "inputReset",
           "normalized": "String-\u003eForm a b c(HtmlUrl d)()()",
@@ -1034,6 +1106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"submit\"\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003ereturns:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eJust\u003c/code\u003e \u003cem\u003evalue\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e if this button was used to submit the form.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNothing\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    if this button was not used to submit the form.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.String",
           "name": "inputSubmit",
           "package": "reform-hamlet",
@@ -1043,6 +1116,7 @@
         "index": {
           "description": "Create an input type submit element returns Just value if this button was used to submit the form Nothing if this button was not used to submit the form",
           "hierarchy": "Text Reform Hamlet String",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.String",
           "name": "inputSubmit",
           "normalized": "String-\u003eForm a b c(HtmlUrl d)()(Maybe String)",
@@ -1059,6 +1133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"text\"\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.String",
           "name": "inputText",
           "package": "reform-hamlet",
@@ -1068,6 +1143,7 @@
         "index": {
           "description": "Create an input type text element",
           "hierarchy": "Text Reform Hamlet String",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.String",
           "name": "inputText",
           "normalized": "String-\u003eForm a b c(HtmlUrl d)()String",
@@ -1084,6 +1160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a \u003ccode\u003e\u003clabel\u003e\u003c/code\u003e element.\n\u003c/p\u003e\u003cp\u003eUse this with \u003ca\u003eor ++\u003c/a\u003e to ensure that the \u003ccode\u003efor\u003c/code\u003e attribute references the correct \u003ccode\u003eid\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e label \"some input field: \" ++\u003e inputText \"\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.String",
           "name": "label",
           "package": "reform-hamlet",
@@ -1094,6 +1171,7 @@
         "index": {
           "description": "create label element Use this with or to ensure that the for attribute references the correct id label some input field inputText",
           "hierarchy": "Text Reform Hamlet String",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.String",
           "name": "label",
           "normalized": "a-\u003eForm b c d(HtmlUrl e)()()",
@@ -1109,6 +1187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrap a \u003ccode\u003e\u003cli class=\"reform\"\u003e\u003c/code\u003e around a \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.String",
           "name": "li",
           "package": "reform-hamlet",
@@ -1119,6 +1198,7 @@
         "index": {
           "description": "wrap li class reform around Form",
           "hierarchy": "Text Reform Hamlet String",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.String",
           "name": "li",
           "normalized": "Form a b c d e f-\u003eForm a b c(HtmlUrl g)e f",
@@ -1134,6 +1214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrap an \u003ccode\u003e\u003col class=\"reform\"\u003e\u003c/code\u003e around a \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.String",
           "name": "ol",
           "package": "reform-hamlet",
@@ -1144,6 +1225,7 @@
         "index": {
           "description": "wrap an ol class reform around Form",
           "hierarchy": "Text Reform Hamlet String",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.String",
           "name": "ol",
           "normalized": "Form a b c d e f-\u003eForm a b c(HtmlUrl g)e f",
@@ -1210,6 +1292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ctextarea\u003e\u003c/textarea\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.String",
           "name": "textarea",
           "package": "reform-hamlet",
@@ -1219,6 +1302,7 @@
         "index": {
           "description": "Create textarea textarea element",
           "hierarchy": "Text Reform Hamlet String",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.String",
           "name": "textarea",
           "normalized": "Int-\u003eInt-\u003eString-\u003eForm a b c(HtmlUrl d)()String",
@@ -1234,6 +1318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrap a \u003ccode\u003e\u003cul class=\"reform\"\u003e\u003c/code\u003e around a \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.String",
           "name": "ul",
           "package": "reform-hamlet",
@@ -1244,6 +1329,7 @@
         "index": {
           "description": "wrap ul class reform around Form",
           "hierarchy": "Text Reform Hamlet String",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.String",
           "name": "ul",
           "normalized": "Form a b c d e f-\u003eForm a b c(HtmlUrl g)e f",
@@ -1259,6 +1345,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions creating Reform using Hamlet markup.\n\u003c/p\u003e\u003cp\u003eThis module assumes that you wish for text based controls such as \u003ccode\u003e\u003ca\u003einputText\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etextarea\u003c/a\u003e\u003c/code\u003e to using \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e values. If you prefer \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e see \u003ca\u003eText.Reform.Hamlet.String\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Text",
           "name": "Text",
           "package": "reform-hamlet",
@@ -1268,6 +1355,7 @@
         "index": {
           "description": "This module provides functions creating Reform using Hamlet markup This module assumes that you wish for text based controls such as inputText and textarea to using Text values If you prefer String see Text.Reform.Hamlet.String",
           "hierarchy": "Text Reform Hamlet Text",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Text",
           "name": "Text",
           "package": "reform-hamlet",
@@ -1282,6 +1370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a \u003ccode\u003e\u003cbr\u003e\u003c/code\u003e tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Text",
           "name": "br",
           "package": "reform-hamlet",
@@ -1292,6 +1381,7 @@
         "index": {
           "description": "create br tag",
           "hierarchy": "Text Reform Hamlet Text",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Text",
           "name": "br",
           "normalized": "Form a b c(HtmlUrl d)()()",
@@ -1307,6 +1397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a  \u003ccode\u003e\u003cbutton type=\"submit\"\u003e\u003c/button\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Text",
           "name": "buttonSubmit",
           "package": "reform-hamlet",
@@ -1316,6 +1407,7 @@
         "index": {
           "description": "create button type submit button element",
           "hierarchy": "Text Reform Hamlet Text",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Text",
           "name": "buttonSubmit",
           "normalized": "Text-\u003ea-\u003eForm b c d(HtmlUrl e)()(Maybe Text)",
@@ -1332,6 +1424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a \u003ccode\u003e\u003cul\u003e\u003c/code\u003e which contains all the errors related to the \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIncludes errors from children of the current form.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003e\\ul\\\u003c/a\u003e\u003c/code\u003e will have the attribute \u003ccode\u003eclass=\"reform-error-list\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Text",
           "name": "childErrorList",
           "package": "reform-hamlet",
@@ -1342,6 +1435,7 @@
         "index": {
           "description": "create ul which contains all the errors related to the Form Includes errors from children of the current form The ul will have the attribute class reform-error-list",
           "hierarchy": "Text Reform Hamlet Text",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Text",
           "name": "childErrorList",
           "normalized": "Form a b c(HtmlUrl d)()()",
@@ -1358,6 +1452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a \u003ccode\u003e\u003cul\u003e\u003c/code\u003e which contains all the errors related to the \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003e\\ul\\\u003c/a\u003e\u003c/code\u003e will have the attribute \u003ccode\u003eclass=\"reform-error-list\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Text",
           "name": "errorList",
           "package": "reform-hamlet",
@@ -1368,6 +1463,7 @@
         "index": {
           "description": "create ul which contains all the errors related to the Form The ul will have the attribute class reform-error-list",
           "hierarchy": "Text Reform Hamlet Text",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Text",
           "name": "errorList",
           "normalized": "Form a b c(HtmlUrl d)()()",
@@ -1384,6 +1480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrap a \u003ccode\u003e\u003cfieldset class=\"reform\"\u003e\u003c/code\u003e around a \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Text",
           "name": "fieldset",
           "package": "reform-hamlet",
@@ -1394,6 +1491,7 @@
         "index": {
           "description": "wrap fieldset class reform around Form",
           "hierarchy": "Text Reform Hamlet Text",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Text",
           "name": "fieldset",
           "normalized": "Form a b c d e f-\u003eForm a b c(HtmlUrl g)e f",
@@ -1409,6 +1507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"button\"\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003eThe element is a push button with a text label. The button does nothing by default, but actions can be added using javascript. This element does not add any data to the form data set.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003ebutton\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Text",
           "name": "inputButton",
           "package": "reform-hamlet",
@@ -1418,6 +1517,7 @@
         "index": {
           "description": "Create an input type button element The element is push button with text label The button does nothing by default but actions can be added using javascript This element does not add any data to the form data set see also button",
           "hierarchy": "Text Reform Hamlet Text",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Text",
           "name": "inputButton",
           "normalized": "Text-\u003eForm a b c(HtmlUrl d)()()",
@@ -1434,6 +1534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"file\"\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003eThis control may succeed even if the user does not actually select a file to upload. In that case the uploaded name will likely be \"\" and the file contents will be empty as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Text",
           "name": "inputFile",
           "package": "reform-hamlet",
@@ -1444,6 +1545,7 @@
         "index": {
           "description": "Create an input type file element This control may succeed even if the user does not actually select file to upload In that case the uploaded name will likely be and the file contents will be empty as well",
           "hierarchy": "Text Reform Hamlet Text",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Text",
           "name": "inputFile",
           "normalized": "Form a b c(HtmlUrl d)()(FileType b)",
@@ -1460,6 +1562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"hidden\"\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Text",
           "name": "inputHidden",
           "package": "reform-hamlet",
@@ -1469,6 +1572,7 @@
         "index": {
           "description": "Create an input type hidden element",
           "hierarchy": "Text Reform Hamlet Text",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Text",
           "name": "inputHidden",
           "normalized": "Text-\u003eForm a b c(HtmlUrl d)()Text",
@@ -1485,6 +1589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"password\"\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Text",
           "name": "inputPassword",
           "package": "reform-hamlet",
@@ -1495,6 +1600,7 @@
         "index": {
           "description": "Create an input type password element",
           "hierarchy": "Text Reform Hamlet Text",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Text",
           "name": "inputPassword",
           "normalized": "Form a b c(HtmlUrl d)()Text",
@@ -1511,6 +1617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"reset\"\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003eThis element does not add any data to the form data set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Text",
           "name": "inputReset",
           "package": "reform-hamlet",
@@ -1520,6 +1627,7 @@
         "index": {
           "description": "Create an input type reset element This element does not add any data to the form data set",
           "hierarchy": "Text Reform Hamlet Text",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Text",
           "name": "inputReset",
           "normalized": "Text-\u003eForm a b c(HtmlUrl d)()()",
@@ -1536,6 +1644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"submit\"\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003ereturns:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eJust\u003c/code\u003e \u003cem\u003evalue\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e if this button was used to submit the form.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNothing\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    if this button was not used to submit the form.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Text",
           "name": "inputSubmit",
           "package": "reform-hamlet",
@@ -1545,6 +1654,7 @@
         "index": {
           "description": "Create an input type submit element returns Just value if this button was used to submit the form Nothing if this button was not used to submit the form",
           "hierarchy": "Text Reform Hamlet Text",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Text",
           "name": "inputSubmit",
           "normalized": "Text-\u003eForm a b c(HtmlUrl d)()(Maybe Text)",
@@ -1561,6 +1671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"text\"\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Text",
           "name": "inputText",
           "package": "reform-hamlet",
@@ -1570,6 +1681,7 @@
         "index": {
           "description": "Create an input type text element",
           "hierarchy": "Text Reform Hamlet Text",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Text",
           "name": "inputText",
           "normalized": "Text-\u003eForm a b c(HtmlUrl d)()Text",
@@ -1586,6 +1698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a \u003ccode\u003e\u003clabel\u003e\u003c/code\u003e element.\n\u003c/p\u003e\u003cp\u003eUse this with \u003ca\u003eor ++\u003c/a\u003e to ensure that the \u003ccode\u003efor\u003c/code\u003e attribute references the correct \u003ccode\u003eid\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e label \"some input field: \" ++\u003e inputText \"\"\n\u003c/pre\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003elabelText\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Text",
           "name": "label",
           "package": "reform-hamlet",
@@ -1596,6 +1709,7 @@
         "index": {
           "description": "create label element Use this with or to ensure that the for attribute references the correct id label some input field inputText see also labelText",
           "hierarchy": "Text Reform Hamlet Text",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Text",
           "name": "label",
           "normalized": "a-\u003eForm b c d(HtmlUrl e)()()",
@@ -1611,6 +1725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a \u003ccode\u003e\u003clabel\u003e\u003c/code\u003e element.\n\u003c/p\u003e\u003cp\u003eUse this with \u003ca\u003eor ++\u003c/a\u003e to ensure that the \u003ccode\u003efor\u003c/code\u003e attribute references the correct \u003ccode\u003eid\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e labelText \"some input field: \" ++\u003e inputText \"\"\n\u003c/pre\u003e\u003cp\u003eThis function is provided as an alternative to \u003ccode\u003e\u003ca\u003elabel\u003c/a\u003e\u003c/code\u003e because when\n the \u003ccode\u003eOverloadedStrings\u003c/code\u003e extension is enabled, you will get\n ambiguous type errors when attempting to apply \u003ccode\u003e\u003ca\u003elabel\u003c/a\u003e\u003c/code\u003e to a string\n literal. While the type error can be fixed using an explicit type\n signature, calling \u003ccode\u003e\u003ca\u003elabelText\u003c/a\u003e\u003c/code\u003e looks nicer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Text",
           "name": "labelText",
           "package": "reform-hamlet",
@@ -1621,6 +1736,7 @@
         "index": {
           "description": "create label element Use this with or to ensure that the for attribute references the correct id labelText some input field inputText This function is provided as an alternative to label because when the OverloadedStrings extension is enabled you will get ambiguous type errors when attempting to apply label to string literal While the type error can be fixed using an explicit type signature calling labelText looks nicer",
           "hierarchy": "Text Reform Hamlet Text",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Text",
           "name": "labelText",
           "normalized": "Text-\u003eForm a b c(HtmlUrl d)()()",
@@ -1637,6 +1753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrap a \u003ccode\u003e\u003cli class=\"reform\"\u003e\u003c/code\u003e around a \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Text",
           "name": "li",
           "package": "reform-hamlet",
@@ -1647,6 +1764,7 @@
         "index": {
           "description": "wrap li class reform around Form",
           "hierarchy": "Text Reform Hamlet Text",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Text",
           "name": "li",
           "normalized": "Form a b c d e f-\u003eForm a b c(HtmlUrl g)e f",
@@ -1662,6 +1780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrap an \u003ccode\u003e\u003col class=\"reform\"\u003e\u003c/code\u003e around a \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Text",
           "name": "ol",
           "package": "reform-hamlet",
@@ -1672,6 +1791,7 @@
         "index": {
           "description": "wrap an ol class reform around Form",
           "hierarchy": "Text Reform Hamlet Text",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Text",
           "name": "ol",
           "normalized": "Form a b c d e f-\u003eForm a b c(HtmlUrl g)e f",
@@ -1687,6 +1807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ctextarea\u003e\u003c/textarea\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Text",
           "name": "textarea",
           "package": "reform-hamlet",
@@ -1696,6 +1817,7 @@
         "index": {
           "description": "Create textarea textarea element",
           "hierarchy": "Text Reform Hamlet Text",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Text",
           "name": "textarea",
           "normalized": "Int-\u003eInt-\u003eText-\u003eForm a b c(HtmlUrl d)()Text",
@@ -1711,6 +1833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrap a \u003ccode\u003e\u003cul class=\"reform\"\u003e\u003c/code\u003e around a \u003ccode\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:46 UTC 2014",
           "module": "Text.Reform.Hamlet.Text",
           "name": "ul",
           "package": "reform-hamlet",
@@ -1721,6 +1844,7 @@
         "index": {
           "description": "wrap ul class reform around Form",
           "hierarchy": "Text Reform Hamlet Text",
+          "indexed": "2014-03-11T19:50:46",
           "module": "Text.Reform.Hamlet.Text",
           "name": "ul",
           "normalized": "Form a b c d e f-\u003eForm a b c(HtmlUrl g)e f",

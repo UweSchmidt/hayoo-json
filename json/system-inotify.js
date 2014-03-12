@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "system-inotify"
+        "phrase": "system-inotify",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module wraps Linux's inotify interface for directory change\n   notification. This Haddock doesn't provide full documentation about the\n   semantics of this system. For that you should read the manual pages for\n   inotify which can be found at \u003ca\u003ehttp://linux.die.net/man/7/inotify\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "Inotify",
           "package": "system-inotify",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module wraps Linux inotify interface for directory change notification This Haddock doesn provide full documentation about the semantics of this system For that you should read the manual pages for inotify which can be found at http linux.die.net man inotify",
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "Inotify",
           "package": "system-inotify",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe kernel can also report one of these alerts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "Alert",
           "package": "system-inotify",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The kernel can also report one of these alerts",
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "Alert",
           "package": "system-inotify",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese are the events which can be observed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "ChangeEvent",
           "package": "system-inotify",
@@ -74,6 +79,7 @@
         "index": {
           "description": "These are the events which can be observed",
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "ChangeEvent",
           "package": "system-inotify",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese are the events which the kernel reports back to us.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "Event",
           "package": "system-inotify",
@@ -97,6 +104,7 @@
         "index": {
           "description": "These are the events which the kernel reports back to us",
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "Event",
           "package": "system-inotify",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "Inotify",
           "package": "system-inotify",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "Inotify",
           "package": "system-inotify",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen registering a watch, you can also give a number of options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "Option",
           "package": "system-inotify",
@@ -141,6 +152,7 @@
         "index": {
           "description": "When registering watch you can also give number of options",
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "Option",
           "package": "system-inotify",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "Watch",
           "package": "system-inotify",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "Watch",
           "package": "system-inotify",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "Accessed",
           "package": "system-inotify",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "Accessed",
           "package": "system-inotify",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "AttributeModified",
           "package": "system-inotify",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "AttributeModified",
           "package": "system-inotify",
@@ -220,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enon writable file was closed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "Closed",
           "package": "system-inotify",
@@ -230,6 +249,7 @@
         "index": {
           "description": "non writable file was closed",
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "Closed",
           "package": "system-inotify",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "Created",
           "package": "system-inotify",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "Created",
           "package": "system-inotify",
@@ -266,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esubfile was deleted\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "Deleted",
           "package": "system-inotify",
@@ -276,6 +299,7 @@
         "index": {
           "description": "subfile was deleted",
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "Deleted",
           "package": "system-inotify",
@@ -290,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edon't dereference target if it's a symbolic link\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "DontFollow",
           "package": "system-inotify",
@@ -300,6 +325,7 @@
         "index": {
           "description": "don dereference target if it symbolic link",
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "DontFollow",
           "package": "system-inotify",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "Event",
           "package": "system-inotify",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "Event",
           "package": "system-inotify",
@@ -336,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewatch was implicitly removed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "Ignored",
           "package": "system-inotify",
@@ -346,6 +375,7 @@
         "index": {
           "description": "watch was implicitly removed",
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "Ignored",
           "package": "system-inotify",
@@ -360,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd events to a watch if that given path is already being watched\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "MaskAdd",
           "package": "system-inotify",
@@ -370,6 +401,7 @@
         "index": {
           "description": "Add events to watch if that given path is already being watched",
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "MaskAdd",
           "package": "system-inotify",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "Modified",
           "package": "system-inotify",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "Modified",
           "package": "system-inotify",
@@ -405,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "MovedFrom",
           "package": "system-inotify",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "MovedFrom",
           "package": "system-inotify",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "MovedTo",
           "package": "system-inotify",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "MovedTo",
           "package": "system-inotify",
@@ -450,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonitor for one event only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "Oneshot",
           "package": "system-inotify",
@@ -460,6 +499,7 @@
         "index": {
           "description": "Monitor for one event only",
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "Oneshot",
           "package": "system-inotify",
@@ -474,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly watch if the target is a directory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "OnlyDir",
           "package": "system-inotify",
@@ -484,6 +525,7 @@
         "index": {
           "description": "Only watch if the target is directory",
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "OnlyDir",
           "package": "system-inotify",
@@ -497,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "Opened",
           "package": "system-inotify",
@@ -506,6 +549,7 @@
         },
         "index": {
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "Opened",
           "package": "system-inotify",
@@ -519,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "QueueOverflowed",
           "package": "system-inotify",
@@ -528,6 +573,7 @@
         },
         "index": {
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "QueueOverflowed",
           "package": "system-inotify",
@@ -542,6 +588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe watch directory/file was deleted\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "SelfDeleted",
           "package": "system-inotify",
@@ -552,6 +599,7 @@
         "index": {
           "description": "the watch directory file was deleted",
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "SelfDeleted",
           "package": "system-inotify",
@@ -566,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe watched directory/file was moved\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "SelfMoved",
           "package": "system-inotify",
@@ -576,6 +625,7 @@
         "index": {
           "description": "the watched directory file was moved",
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "SelfMoved",
           "package": "system-inotify",
@@ -589,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "Unmounted",
           "package": "system-inotify",
@@ -598,6 +649,7 @@
         },
         "index": {
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "Unmounted",
           "package": "system-inotify",
@@ -612,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewritable file was closed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "WritableClosed",
           "package": "system-inotify",
@@ -622,6 +675,7 @@
         "index": {
           "description": "writable file was closed",
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "WritableClosed",
           "package": "system-inotify",
@@ -636,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a watch on a file or directory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "addWatch",
           "package": "system-inotify",
@@ -646,6 +701,7 @@
         "index": {
           "description": "Add watch on file or directory",
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "addWatch",
           "normalized": "Inotify-\u003eFilePath-\u003e[ChangeEvent]-\u003e[Option]-\u003eIO Watch",
@@ -662,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list containing all change events\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "allChangeEvents",
           "package": "system-inotify",
@@ -672,6 +729,7 @@
         "index": {
           "description": "list containing all change events",
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "allChangeEvents",
           "normalized": "[ChangeEvent]",
@@ -687,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "evalerts",
           "package": "system-inotify",
@@ -696,6 +755,7 @@
         },
         "index": {
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "evalerts",
           "normalized": "[Alert]",
@@ -710,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "evcookie",
           "package": "system-inotify",
@@ -719,6 +780,7 @@
         },
         "index": {
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "evcookie",
           "package": "system-inotify",
@@ -731,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "evevents",
           "package": "system-inotify",
@@ -740,6 +803,7 @@
         },
         "index": {
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "evevents",
           "normalized": "[ChangeEvent]",
@@ -754,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "evname",
           "package": "system-inotify",
@@ -763,6 +828,7 @@
         },
         "index": {
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "evname",
           "package": "system-inotify",
@@ -775,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "evwatch",
           "package": "system-inotify",
@@ -784,6 +851,7 @@
         },
         "index": {
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "evwatch",
           "package": "system-inotify",
@@ -797,6 +865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new Inotify object. Each inotify object has its own stream of\n   events which can be read and it's own Watch namespace (so n.b. that\n   \u003ccode\u003e\u003ca\u003eWatch\u003c/a\u003e\u003c/code\u003e objects from different Inotify's can compare equal).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "inotify",
           "package": "system-inotify",
@@ -807,6 +876,7 @@
         "index": {
           "description": "Create new Inotify object Each inotify object has its own stream of events which can be read and it own Watch namespace so n.b that Watch objects from different Inotify can compare equal",
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "inotify",
           "package": "system-inotify",
@@ -820,6 +890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the next event from an \u003ccode\u003e\u003ca\u003eInotify\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:15:49 UTC 2014",
           "module": "System.Inotify",
           "name": "next",
           "package": "system-inotify",
@@ -830,6 +901,7 @@
         "index": {
           "description": "Read the next event from an Inotify",
           "hierarchy": "System Inotify",
+          "indexed": "2014-03-11T20:15:49",
           "module": "System.Inotify",
           "name": "next",
           "normalized": "Inotify-\u003eIO Event",

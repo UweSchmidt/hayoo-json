@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "webdriver-angular"
+        "phrase": "webdriver-angular",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exposes \u003ca\u003ewebdriver\u003c/a\u003e actions that can\n be used to interact with a page which uses \u003ca\u003eAngularJs\u003c/a\u003e.  This provides\n similar functionality as \u003ca\u003eprotractor\u003c/a\u003e and in fact we share\n some code with protractor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "Angular",
           "package": "webdriver-angular",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module exposes webdriver actions that can be used to interact with page which uses AngularJs This provides similar functionality as protractor and in fact we share some code with protractor",
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "Angular",
           "package": "webdriver-angular",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExceptions of this type will be thrown when an element is unable to be located.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "NgException",
           "package": "webdriver-angular",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Exceptions of this type will be thrown when an element is unable to be located",
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "NgException",
           "package": "webdriver-angular",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "NgRepeater",
           "package": "webdriver-angular",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "NgRepeater",
           "package": "webdriver-angular",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "NgSelector",
           "package": "webdriver-angular",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "NgSelector",
           "package": "webdriver-angular",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument is the binding, e.g. {{dog.name}}\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "ByBinding",
           "package": "webdriver-angular",
@@ -117,6 +126,7 @@
         "index": {
           "description": "Argument is the binding e.g dog.name",
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "ByBinding",
           "package": "webdriver-angular",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single column matching the text of the repeater (e.g. 'dog in dogs') and the\n column binding (e.g '{{dog.name}}').\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "ByColumn",
           "package": "webdriver-angular",
@@ -141,6 +152,7 @@
         "index": {
           "description": "single column matching the text of the repeater e.g dog in dogs and the column binding e.g dog.name",
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "ByColumn",
           "package": "webdriver-angular",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument is the model name.  Searches for elements with the \u003ccode\u003eng-model=\"name\"\u003c/code\u003e attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "ByModel",
           "package": "webdriver-angular",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Argument is the model name Searches for elements with the ng-model name attribute",
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "ByModel",
           "package": "webdriver-angular",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single row specified by the text of the repeater (e.g. 'dog in dogs') and the row index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "ByRow",
           "package": "webdriver-angular",
@@ -189,6 +204,7 @@
         "index": {
           "description": "single row specified by the text of the repeater e.g dog in dogs and the row index",
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "ByRow",
           "package": "webdriver-angular",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single row and column, given (repeater, row index, column binding).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "ByRowAndCol",
           "package": "webdriver-angular",
@@ -213,6 +230,7 @@
         "index": {
           "description": "single row and column given repeater row index column binding",
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "ByRowAndCol",
           "package": "webdriver-angular",
@@ -227,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the rows matching the repeater (e.g. 'dog in dogs')\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "ByRows",
           "package": "webdriver-angular",
@@ -237,6 +256,7 @@
         "index": {
           "description": "All the rows matching the repeater e.g dog in dogs",
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "ByRows",
           "package": "webdriver-angular",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument is a model name. Searches for selected options within a select element\n   matching the modelname.  That is, the \u003ccode\u003e\u003coption:checked\u003e\u003c/code\u003e elements within a \n   \u003ccode\u003e\u003cselect ng-model=\"name\" ... \u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "BySelectedOption",
           "package": "webdriver-angular",
@@ -261,6 +282,7 @@
         "index": {
           "description": "Argument is model name Searches for selected options within select element matching the modelname That is the option checked elements within select ng-model name",
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "BySelectedOption",
           "package": "webdriver-angular",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "NgException",
           "package": "webdriver-angular",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "NgException",
           "package": "webdriver-angular",
@@ -297,6 +321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a single element from the document matching the given Angular selector.  If zero or more\n than one element is returned, an exception of type \u003ccode\u003e\u003ca\u003eNgException\u003c/a\u003e\u003c/code\u003e is thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "findNg",
           "package": "webdriver-angular",
@@ -307,6 +332,7 @@
         "index": {
           "description": "Find single element from the document matching the given Angular selector If zero or more than one element is returned an exception of type NgException is thrown",
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "findNg",
           "normalized": "NgSelector-\u003ea Element",
@@ -323,6 +349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a single element from within the given element which matches the given Angular selector. If\n zero or more than one element is returned, an exception of type \u003ccode\u003e\u003ca\u003eNgException\u003c/a\u003e\u003c/code\u003e is thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "findNgFrom",
           "package": "webdriver-angular",
@@ -333,6 +360,7 @@
         "index": {
           "description": "Find single element from within the given element which matches the given Angular selector If zero or more than one element is returned an exception of type NgException is thrown",
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "findNgFrom",
           "normalized": "Element-\u003eNgSelector-\u003ea Element",
@@ -349,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind elements from the document matching the given Angular selector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "findNgs",
           "package": "webdriver-angular",
@@ -359,6 +388,7 @@
         "index": {
           "description": "Find elements from the document matching the given Angular selector",
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "findNgs",
           "normalized": "NgSelector-\u003ea[Element]",
@@ -375,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind elements from within the given element which match the given Angular selector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "findNgsFrom",
           "package": "webdriver-angular",
@@ -385,6 +416,7 @@
         "index": {
           "description": "Find elements from within the given element which match the given Angular selector",
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "findNgsFrom",
           "normalized": "Element-\u003eNgSelector-\u003ea[Element]",
@@ -401,6 +433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind an element from the document which matches the Angular repeater.  If zero or more than one\n element are returned, an exception of type \u003ccode\u003e\u003ca\u003eNgException\u003c/a\u003e\u003c/code\u003e is thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "findRepeater",
           "package": "webdriver-angular",
@@ -411,6 +444,7 @@
         "index": {
           "description": "Find an element from the document which matches the Angular repeater If zero or more than one element are returned an exception of type NgException is thrown",
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "findRepeater",
           "normalized": "NgRepeater-\u003ea Element",
@@ -427,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind an element from the given element which matches the Angular repeater.  If zero or more than\n one are returned, an exception of type \u003ccode\u003e\u003ca\u003eNgException\u003c/a\u003e\u003c/code\u003e is thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "findRepeaterFrom",
           "package": "webdriver-angular",
@@ -437,6 +472,7 @@
         "index": {
           "description": "Find an element from the given element which matches the Angular repeater If zero or more than one are returned an exception of type NgException is thrown",
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "findRepeaterFrom",
           "normalized": "Element-\u003eNgRepeater-\u003ea Element",
@@ -453,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind elements from the document which match the Angular repeater.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "findRepeaters",
           "package": "webdriver-angular",
@@ -463,6 +500,7 @@
         "index": {
           "description": "Find elements from the document which match the Angular repeater",
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "findRepeaters",
           "normalized": "NgRepeater-\u003ea[Element]",
@@ -479,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind elements from the given element which match the Angular repeater.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "findRepeatersFrom",
           "package": "webdriver-angular",
@@ -489,6 +528,7 @@
         "index": {
           "description": "Find elements from the given element which match the Angular repeater",
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "findRepeatersFrom",
           "normalized": "Element-\u003eNgRepeater-\u003ea[Element]",
@@ -505,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the current absolute url according to Angular (using \u003ccode\u003e$location.absUrl()\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "getLocationAbsUrl",
           "package": "webdriver-angular",
@@ -514,6 +555,7 @@
         "index": {
           "description": "Return the current absolute url according to Angular using location.absUrl",
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "getLocationAbsUrl",
           "normalized": "Text-\u003ea Text",
@@ -530,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate an angular expression, using the scope attached to the given element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "ngEvaluate",
           "package": "webdriver-angular",
@@ -539,6 +582,7 @@
         "index": {
           "description": "Evaluate an angular expression using the scope attached to the given element",
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "ngEvaluate",
           "normalized": "Element-\u003eText-\u003ea b",
@@ -555,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait until Angular has finished rendering before continuing.  \u003ccode\u003eFalse\u003c/code\u003e indicates the timeout\n was hit (see \u003ccode\u003esetScriptTimeout\u003c/code\u003e) and we stopped waiting and \u003ccode\u003eTrue\u003c/code\u003e means that angular has\n finished rendering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:13 UTC 2014",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "waitForAngular",
           "package": "webdriver-angular",
@@ -564,6 +609,7 @@
         "index": {
           "description": "Wait until Angular has finished rendering before continuing False indicates the timeout was hit see setScriptTimeout and we stopped waiting and True means that angular has finished rendering",
           "hierarchy": "Test WebDriver Commands Angular",
+          "indexed": "2014-03-11T20:38:13",
           "module": "Test.WebDriver.Commands.Angular",
           "name": "waitForAngular",
           "normalized": "Text-\u003ea Bool",

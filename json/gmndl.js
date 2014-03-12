@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gmndl"
+        "phrase": "gmndl",
+        "type": "phrase"
       },
       "type": "context"
     }

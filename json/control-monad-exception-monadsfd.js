@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "control-monad-exception-monadsfd"
+        "phrase": "control-monad-exception-monadsfd",
+        "type": "phrase"
       },
       "type": "context"
     }

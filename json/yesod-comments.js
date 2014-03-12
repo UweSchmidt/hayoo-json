@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-comments"
+        "phrase": "yesod-comments",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "Core",
           "package": "yesod-comments",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "Core",
           "package": "yesod-comments",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe core data type, a Comment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "Comment",
           "package": "yesod-comments",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The core data type Comment",
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "Comment",
           "package": "yesod-comments",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "CommentId",
           "package": "yesod-comments",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "CommentId",
           "package": "yesod-comments",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to save and restore comments from persistent storage. All\n   necessary actions are accomplished through these 5 functions.\n   Currently, only \u003ccode\u003epersistStorage\u003c/code\u003e is available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "CommentStorage",
           "package": "yesod-comments",
@@ -93,6 +100,7 @@
         "index": {
           "description": "How to save and restore comments from persistent storage All necessary actions are accomplished through these functions Currently only persistStorage is available",
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "CommentStorage",
           "package": "yesod-comments",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "ThreadId",
           "package": "yesod-comments",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "ThreadId",
           "package": "yesod-comments",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about the User needed to store comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "UserDetails",
           "package": "yesod-comments",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Information about the User needed to store comments",
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "UserDetails",
           "package": "yesod-comments",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "YesodComments",
           "package": "yesod-comments",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "YesodComments",
           "package": "yesod-comments",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "Comment",
           "package": "yesod-comments",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "Comment",
           "package": "yesod-comments",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "CommentStorage",
           "package": "yesod-comments",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "CommentStorage",
           "package": "yesod-comments",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "UserDetails",
           "package": "yesod-comments",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "UserDetails",
           "package": "yesod-comments",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "cContent",
           "package": "yesod-comments",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "cContent",
           "package": "yesod-comments",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "cIpAddress",
           "package": "yesod-comments",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "cIpAddress",
           "package": "yesod-comments",
@@ -282,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecompatability field, always true\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "cIsAuth",
           "package": "yesod-comments",
@@ -292,6 +317,7 @@
         "index": {
           "description": "compatability field always true",
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "cIsAuth",
           "package": "yesod-comments",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "cThreadId",
           "package": "yesod-comments",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "cThreadId",
           "package": "yesod-comments",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "cTimeStamp",
           "package": "yesod-comments",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "cTimeStamp",
           "package": "yesod-comments",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "cUserEmail",
           "package": "yesod-comments",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "cUserEmail",
           "package": "yesod-comments",
@@ -371,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "cUserName",
           "package": "yesod-comments",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "cUserName",
           "package": "yesod-comments",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "commentId",
           "package": "yesod-comments",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "commentId",
           "package": "yesod-comments",
@@ -416,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to store and load comments from persistent storage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "commentStorage",
           "package": "yesod-comments",
@@ -426,6 +463,7 @@
         "index": {
           "description": "How to store and load comments from persistent storage",
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "commentStorage",
           "package": "yesod-comments",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "csDelete",
           "package": "yesod-comments",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "csDelete",
           "normalized": "Comment-\u003eHandlerT a IO()",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "csGet",
           "package": "yesod-comments",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "csGet",
           "normalized": "ThreadId-\u003eCommentId-\u003eHandlerT a IO(Maybe Comment)",
@@ -488,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass \u003ccode\u003eNothing\u003c/code\u003e to get all comments site-wide.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "csLoad",
           "package": "yesod-comments",
@@ -498,6 +541,7 @@
         "index": {
           "description": "Pass Nothing to get all comments site-wide",
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "csLoad",
           "normalized": "Maybe ThreadId-\u003eHandlerT a IO[Comment]",
@@ -513,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "csStore",
           "package": "yesod-comments",
@@ -522,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "csStore",
           "normalized": "Comment-\u003eHandlerT a IO()",
@@ -537,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "csUpdate",
           "package": "yesod-comments",
@@ -546,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "csUpdate",
           "normalized": "Comment-\u003eComment-\u003eHandlerT a IO()",
@@ -562,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA route to the admin subsite's DeleteCommentR action. If\n   \u003ccode\u003eNothing\u003c/code\u003e, the Delete link will not be shown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "deleteRoute",
           "package": "yesod-comments",
@@ -572,6 +621,7 @@
         "index": {
           "description": "route to the admin subsite DeleteCommentR action If Nothing the Delete link will not be shown",
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "deleteRoute",
           "normalized": "Maybe(ThreadId-\u003eCommentId-\u003eRoute a)",
@@ -588,6 +638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA route to the admin subsite's EditCommentR action. If \u003ccode\u003eNothing\u003c/code\u003e,\n   the Edit link will not be shown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "editRoute",
           "package": "yesod-comments",
@@ -598,6 +649,7 @@
         "index": {
           "description": "route to the admin subsite EditCommentR action If Nothing the Edit link will not be shown",
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "editRoute",
           "normalized": "Maybe(ThreadId-\u003eCommentId-\u003eRoute a)",
@@ -614,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot shown but stored\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "emailAddress",
           "package": "yesod-comments",
@@ -624,6 +677,7 @@
         "index": {
           "description": "Not shown but stored",
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "emailAddress",
           "package": "yesod-comments",
@@ -638,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name that's actually displayed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "friendlyName",
           "package": "yesod-comments",
@@ -648,6 +703,7 @@
         "index": {
           "description": "The name that actually displayed",
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "friendlyName",
           "package": "yesod-comments",
@@ -662,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText version of a user id, \u003ccode\u003etoPathPiece\n   userId\u003c/code\u003e is recommended. Comments are stored\n   using this value so users can freely change\n   names without losing comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "textUserId",
           "package": "yesod-comments",
@@ -672,6 +729,7 @@
         "index": {
           "description": "Text version of user id toPathPiece userId is recommended Comments are stored using this value so users can freely change names without losing comments",
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "textUserId",
           "package": "yesod-comments",
@@ -686,6 +744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA thread's route. Currently, only used for linking back from the\n   admin subsite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "threadRoute",
           "package": "yesod-comments",
@@ -696,6 +755,7 @@
         "index": {
           "description": "thread route Currently only used for linking back from the admin subsite",
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "threadRoute",
           "normalized": "ThreadId-\u003eRoute a",
@@ -712,6 +772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003eNothing\u003c/code\u003e is returned, the user cannot add a comment. This can\n   be used to blacklist users. Note that comments left by them will\n   still appear until manually deleted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Core",
           "name": "userDetails",
           "package": "yesod-comments",
@@ -722,6 +783,7 @@
         "index": {
           "description": "If Nothing is returned the user cannot add comment This can be used to blacklist users Note that comments left by them will still appear until manually deleted",
           "hierarchy": "Yesod Comments Core",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Core",
           "name": "userDetails",
           "normalized": "AuthId a-\u003eHandlerT a IO(Maybe UserDetails)",
@@ -737,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Form",
           "name": "Form",
           "package": "yesod-comments",
@@ -745,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Form",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Form",
           "name": "Form",
           "package": "yesod-comments",
@@ -758,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Form",
           "name": "CommentForm",
           "package": "yesod-comments",
@@ -766,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Form",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Form",
           "name": "CommentForm",
           "package": "yesod-comments",
@@ -779,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Form",
           "name": "CommentForm",
           "package": "yesod-comments",
@@ -788,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Form",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Form",
           "name": "CommentForm",
           "package": "yesod-comments",
@@ -801,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Form",
           "name": "commentForm",
           "package": "yesod-comments",
@@ -810,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Form",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Form",
           "name": "commentForm",
           "normalized": "ThreadId-\u003eUserDetails-\u003eMaybe Comment-\u003eForm a CommentForm",
@@ -825,6 +895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Form",
           "name": "commentFromForm",
           "package": "yesod-comments",
@@ -834,6 +905,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Form",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Form",
           "name": "commentFromForm",
           "normalized": "CommentForm-\u003eHandlerT a IO Comment",
@@ -849,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Form",
           "name": "formComment",
           "package": "yesod-comments",
@@ -858,6 +931,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Form",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Form",
           "name": "formComment",
           "package": "yesod-comments",
@@ -871,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Form",
           "name": "formThread",
           "package": "yesod-comments",
@@ -880,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Form",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Form",
           "name": "formThread",
           "package": "yesod-comments",
@@ -893,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Form",
           "name": "formUser",
           "package": "yesod-comments",
@@ -902,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Form",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Form",
           "name": "formUser",
           "package": "yesod-comments",
@@ -916,6 +994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the form and stores the comment on successful submission\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Form",
           "name": "runForm",
           "package": "yesod-comments",
@@ -926,6 +1005,7 @@
         "index": {
           "description": "Run the form and stores the comment on successful submission",
           "hierarchy": "Yesod Comments Form",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Form",
           "name": "runForm",
           "normalized": "ThreadId-\u003eMaybe UserDetails-\u003eWidgetT a IO()",
@@ -942,6 +1022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoth handle form submission and present form HTML. On \u003ccode\u003eFormSuccess\u003c/code\u003e,\n   run the given function on the submitted value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Form",
           "name": "runFormWith",
           "package": "yesod-comments",
@@ -952,6 +1033,7 @@
         "index": {
           "description": "Both handle form submission and present form HTML On FormSuccess run the given function on the submitted value",
           "hierarchy": "Yesod Comments Form",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Form",
           "name": "runFormWith",
           "normalized": "Maybe Comment-\u003e(CommentForm-\u003eHandlerT a IO())-\u003eThreadId-\u003eMaybe UserDetails-\u003eWidgetT a IO()",
@@ -967,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Management.Routes",
           "name": "Routes",
           "package": "yesod-comments",
@@ -975,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Management Routes",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Management.Routes",
           "name": "Routes",
           "package": "yesod-comments",
@@ -988,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Management.Routes",
           "name": "CommentsAdmin",
           "package": "yesod-comments",
@@ -996,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Management Routes",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Management.Routes",
           "name": "CommentsAdmin",
           "package": "yesod-comments",
@@ -1009,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Management.Routes",
           "name": "CommentsAdmin",
           "package": "yesod-comments",
@@ -1018,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Management Routes",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Management.Routes",
           "name": "CommentsAdmin",
           "package": "yesod-comments",
@@ -1031,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Management.Routes",
           "name": "resourcesCommentsAdmin",
           "package": "yesod-comments",
@@ -1040,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Management Routes",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Management.Routes",
           "name": "resourcesCommentsAdmin",
           "normalized": "[ResourceTree String]",
@@ -1056,6 +1146,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cpre\u003e /comments CommentsAdminR CommentsAdmin getCommentsAdmin\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Management",
           "name": "Management",
           "package": "yesod-comments",
@@ -1065,6 +1156,7 @@
         "index": {
           "description": "comments CommentsAdminR CommentsAdmin getCommentsAdmin",
           "hierarchy": "Yesod Comments Management",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Management",
           "name": "Management",
           "package": "yesod-comments",
@@ -1078,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Management",
           "name": "getCommentsAdmin",
           "package": "yesod-comments",
@@ -1087,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Management",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Management",
           "name": "getCommentsAdmin",
           "normalized": "a-\u003eCommentsAdmin",
@@ -1102,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Storage",
           "name": "Storage",
           "package": "yesod-comments",
@@ -1110,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Storage",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Storage",
           "name": "Storage",
           "package": "yesod-comments",
@@ -1123,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Storage",
           "name": "migrateComments",
           "package": "yesod-comments",
@@ -1132,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Storage",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Storage",
           "name": "migrateComments",
           "package": "yesod-comments",
@@ -1146,6 +1244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore comments in an instance of YesodPersit with a SQL backend\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Storage",
           "name": "persistStorage",
           "package": "yesod-comments",
@@ -1156,6 +1255,7 @@
         "index": {
           "description": "Store comments in an instance of YesodPersit with SQL backend",
           "hierarchy": "Yesod Comments Storage",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Storage",
           "name": "persistStorage",
           "package": "yesod-comments",
@@ -1169,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Utils",
           "name": "Utils",
           "package": "yesod-comments",
@@ -1177,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Utils",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Utils",
           "name": "Utils",
           "package": "yesod-comments",
@@ -1191,6 +1293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap the commenter's id to user details or return defaults.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Utils",
           "name": "commentUserDetails",
           "package": "yesod-comments",
@@ -1201,6 +1304,7 @@
         "index": {
           "description": "Map the commenter id to user details or return defaults",
           "hierarchy": "Yesod Comments Utils",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Utils",
           "name": "commentUserDetails",
           "normalized": "Comment-\u003eHandlerT a IO UserDetails",
@@ -1217,6 +1321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003eNothing\u003c/code\u003e if user is not authenticated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Utils",
           "name": "currentUserDetails",
           "package": "yesod-comments",
@@ -1227,6 +1332,7 @@
         "index": {
           "description": "Returns Nothing if user is not authenticated",
           "hierarchy": "Yesod Comments Utils",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Utils",
           "name": "currentUserDetails",
           "package": "yesod-comments",
@@ -1241,6 +1347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a comment that was not authenticated or cannot be mapped, the\n   default details are the id and email stored directly on the comment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Utils",
           "name": "defaultUserDetails",
           "package": "yesod-comments",
@@ -1251,6 +1358,7 @@
         "index": {
           "description": "For comment that was not authenticated or cannot be mapped the default details are the id and email stored directly on the comment",
           "hierarchy": "Yesod Comments Utils",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Utils",
           "name": "defaultUserDetails",
           "normalized": "Comment-\u003eUserDetails",
@@ -1267,6 +1375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven pixel size and email, return the gravatar url\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Utils",
           "name": "gravatar",
           "package": "yesod-comments",
@@ -1277,6 +1386,7 @@
         "index": {
           "description": "Given pixel size and email return the gravatar url",
           "hierarchy": "Yesod Comments Utils",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Utils",
           "name": "gravatar",
           "normalized": "Int-\u003eText-\u003eString",
@@ -1291,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Utils",
           "name": "isCommentingUser",
           "package": "yesod-comments",
@@ -1300,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments Utils",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Utils",
           "name": "isCommentingUser",
           "normalized": "Comment-\u003eHandlerT a IO Bool",
@@ -1316,6 +1428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHalts with \u003ccode\u003epermissionDenied\u003c/code\u003e if user is not authenticated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.Utils",
           "name": "requireUserDetails",
           "package": "yesod-comments",
@@ -1326,6 +1439,7 @@
         "index": {
           "description": "Halts with permissionDenied if user is not authenticated",
           "hierarchy": "Yesod Comments Utils",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.Utils",
           "name": "requireUserDetails",
           "package": "yesod-comments",
@@ -1339,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.View",
           "name": "View",
           "package": "yesod-comments",
@@ -1347,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments View",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.View",
           "name": "View",
           "package": "yesod-comments",
@@ -1360,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.View",
           "name": "showComment",
           "package": "yesod-comments",
@@ -1369,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments View",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.View",
           "name": "showComment",
           "normalized": "Comment-\u003eWidgetT a IO()",
@@ -1384,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments.View",
           "name": "showComments",
           "package": "yesod-comments",
@@ -1393,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments View",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments.View",
           "name": "showComments",
           "normalized": "[Comment]-\u003eWidgetT a IO()",
@@ -1409,6 +1529,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA generic Comments interface for a Yesod application.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments",
           "name": "Comments",
           "package": "yesod-comments",
@@ -1418,6 +1539,7 @@
         "index": {
           "description": "generic Comments interface for Yesod application",
           "hierarchy": "Yesod Comments",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments",
           "name": "Comments",
           "package": "yesod-comments",
@@ -1431,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:28 UTC 2014",
           "module": "Yesod.Comments",
           "name": "addComments",
           "package": "yesod-comments",
@@ -1440,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "Yesod Comments",
+          "indexed": "2014-03-11T20:45:28",
           "module": "Yesod.Comments",
           "name": "addComments",
           "normalized": "ThreadId-\u003eWidgetT a IO()",

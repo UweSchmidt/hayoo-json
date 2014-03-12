@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mount"
+        "phrase": "mount",
+        "type": "phrase"
       },
       "type": "context"
     }

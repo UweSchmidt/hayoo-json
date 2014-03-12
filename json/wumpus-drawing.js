@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wumpus-drawing"
+        "phrase": "wumpus-drawing",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDatatype for cubic Bezier curve.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.BezierCurve",
           "name": "BezierCurve",
           "package": "wumpus-drawing",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Datatype for cubic Bezier curve",
           "hierarchy": "Wumpus Drawing Basis BezierCurve",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.BezierCurve",
           "name": "BezierCurve",
           "package": "wumpus-drawing",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Strict cubic Bezier curve.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.BezierCurve",
           "name": "BezierCurve",
           "package": "wumpus-drawing",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Strict cubic Bezier curve",
           "hierarchy": "Wumpus Drawing Basis BezierCurve",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.BezierCurve",
           "name": "BezierCurve",
           "package": "wumpus-drawing",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.BezierCurve",
           "name": "BezierCurve",
           "package": "wumpus-drawing",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis BezierCurve",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.BezierCurve",
           "name": "BezierCurve",
           "package": "wumpus-drawing",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ebezierLength\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e start_point * control_1 * control_2 * \n        end_point -\u003e Length \u003c/code\u003e \n\u003c/p\u003e\u003cp\u003eFind the length of a Bezier curve. The result is an \n approximation, with the \u003cem\u003etolerance\u003c/em\u003e is 0.1 of a point. This\n seems good enough for drawing (potentially the tolerance could \n be larger still). \n\u003c/p\u003e\u003cp\u003eThe result is found through repeated subdivision so the \n calculation is potentially costly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.BezierCurve",
           "name": "bezierLength",
           "package": "wumpus-drawing",
@@ -97,6 +104,7 @@
         "index": {
           "description": "bezierLength start point control control end point Length Find the length of Bezier curve The result is an approximation with the tolerance is of point This seems good enough for drawing potentially the tolerance could be larger still The result is found through repeated subdivision so the calculation is potentially costly",
           "hierarchy": "Wumpus Drawing Basis BezierCurve",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.BezierCurve",
           "name": "bezierLength",
           "normalized": "BezierCurve a-\u003ea",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurve subdivision via de Casteljau's algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.BezierCurve",
           "name": "subdivide",
           "package": "wumpus-drawing",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Curve subdivision via de Casteljau algorithm",
           "hierarchy": "Wumpus Drawing Basis BezierCurve",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.BezierCurve",
           "name": "subdivide",
           "normalized": "BezierCurve a-\u003e(BezierCurve a,BezierCurve a)",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esubdivide with an affine weight along the line...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.BezierCurve",
           "name": "subdividet",
           "package": "wumpus-drawing",
@@ -148,6 +159,7 @@
         "index": {
           "description": "subdivide with an affine weight along the line",
           "hierarchy": "Wumpus Drawing Basis BezierCurve",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.BezierCurve",
           "name": "subdividet",
           "normalized": "a-\u003eBezierCurve a-\u003e(BezierCurve a,BezierCurve a)",
@@ -162,6 +174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.BezierCurve",
           "name": "vbezierCurve",
           "package": "wumpus-drawing",
@@ -171,6 +184,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis BezierCurve",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.BezierCurve",
           "name": "vbezierCurve",
           "normalized": "Vec a-\u003eVec a-\u003eVec a-\u003ePoint a-\u003eBezierCurve a",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAlternative to the \u003ccode\u003eDrawingPrimitives\u003c/code\u003e module in Wumpus-Basic.\n\u003c/p\u003e\u003cp\u003eThe drawing primitives here are either slightly higher level or\n less general (more quirky).\n\u003c/p\u003e\u003cp\u003eThis module is expected to be imported qualified - other modules\n (e.g. shapes and paths) are likely to export conflicting names.\n\u003c/p\u003e\u003cp\u003e** WARNING ** - much of this module is probably obsolete \n (except wedge).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.DrawingPrimitives",
           "name": "DrawingPrimitives",
           "package": "wumpus-drawing",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Alternative to the DrawingPrimitives module in Wumpus-Basic The drawing primitives here are either slightly higher level or less general more quirky This module is expected to be imported qualified other modules e.g shapes and paths are likely to export conflicting names WARNING much of this module is probably obsolete except wedge",
           "hierarchy": "Wumpus Drawing Basis DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.DrawingPrimitives",
           "name": "DrawingPrimitives",
           "package": "wumpus-drawing",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a rectangle, start point is bottom left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.DrawingPrimitives",
           "name": "blRectangle",
           "package": "wumpus-drawing",
@@ -220,6 +237,7 @@
         "index": {
           "description": "Draw rectangle start point is bottom left",
           "hierarchy": "Wumpus Drawing Basis DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.DrawingPrimitives",
           "name": "blRectangle",
           "normalized": "DrawMode-\u003ea-\u003ea-\u003eLocGraphic a",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a rectangle, start point is bottom left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.DrawingPrimitives",
           "name": "ctrRectangle",
           "package": "wumpus-drawing",
@@ -246,6 +265,7 @@
         "index": {
           "description": "Draw rectangle start point is bottom left",
           "hierarchy": "Wumpus Drawing Basis DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.DrawingPrimitives",
           "name": "ctrRectangle",
           "normalized": "DrawMode-\u003ea-\u003ea-\u003eLocGraphic a",
@@ -262,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a horizontal line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.DrawingPrimitives",
           "name": "horizontalLine",
           "package": "wumpus-drawing",
@@ -272,6 +293,7 @@
         "index": {
           "description": "Draw horizontal line",
           "hierarchy": "Wumpus Drawing Basis DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.DrawingPrimitives",
           "name": "horizontalLine",
           "normalized": "a-\u003eLocGraphic a",
@@ -288,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epivotLine\u003c/code\u003e : \u003ccode\u003e left_length * right_length * incline -\u003e LocGraphic \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eDraw a \u003cem\u003epivot\u003c/em\u003e line. The start point is a pivot along the line, \n not the end. The left and right distances are the extension of\n the line from the pivot. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.DrawingPrimitives",
           "name": "pivotLine",
           "package": "wumpus-drawing",
@@ -298,6 +321,7 @@
         "index": {
           "description": "pivotLine left length right length incline LocGraphic Draw pivot line The start point is pivot along the line not the end The left and right distances are the extension of the line from the pivot",
           "hierarchy": "Wumpus Drawing Basis DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.DrawingPrimitives",
           "name": "pivotLine",
           "normalized": "a-\u003ea-\u003eRadian-\u003eLocGraphic a",
@@ -314,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a vertical line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.DrawingPrimitives",
           "name": "verticalLine",
           "package": "wumpus-drawing",
@@ -324,6 +349,7 @@
         "index": {
           "description": "Draw vertical line",
           "hierarchy": "Wumpus Drawing Basis DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.DrawingPrimitives",
           "name": "verticalLine",
           "normalized": "a-\u003eLocGraphic a",
@@ -340,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewedge : mode * radius * apex_angle\n\u003c/p\u003e\u003cp\u003eWedge is drawn at the apex.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.DrawingPrimitives",
           "name": "wedge",
           "package": "wumpus-drawing",
@@ -350,6 +377,7 @@
         "index": {
           "description": "wedge mode radius apex angle Wedge is drawn at the apex",
           "hierarchy": "Wumpus Drawing Basis DrawingPrimitives",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.DrawingPrimitives",
           "name": "wedge",
           "normalized": "DrawMode-\u003ea-\u003eRadian-\u003eLocThetaGraphic a",
@@ -365,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMisc geometric operations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Geometry",
           "name": "Geometry",
           "package": "wumpus-drawing",
@@ -374,6 +403,7 @@
         "index": {
           "description": "Misc geometric operations",
           "hierarchy": "Wumpus Drawing Basis Geometry",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Geometry",
           "name": "Geometry",
           "package": "wumpus-drawing",
@@ -388,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAffine combination...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Geometry",
           "name": "affineComb",
           "package": "wumpus-drawing",
@@ -398,6 +429,7 @@
         "index": {
           "description": "Affine combination",
           "hierarchy": "Wumpus Drawing Basis Geometry",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Geometry",
           "name": "affineComb",
           "normalized": "a-\u003ePoint a-\u003ePoint a-\u003ePoint a",
@@ -414,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emidpoint\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e start_point * end_point -\u003e Midpoint \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eMid-point on the line formed between the two supplied points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Geometry",
           "name": "midpoint",
           "package": "wumpus-drawing",
@@ -424,6 +457,7 @@
         "index": {
           "description": "midpoint start point end point Midpoint Mid-point on the line formed between the two supplied points",
           "hierarchy": "Wumpus Drawing Basis Geometry",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Geometry",
           "name": "midpoint",
           "normalized": "Point a-\u003ePoint a-\u003ePoint a",
@@ -438,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "InclineTrails",
           "package": "wumpus-drawing",
@@ -446,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "InclineTrails",
           "package": "wumpus-drawing",
@@ -460,6 +496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote - vector represents midpoint of the baseline to the \n tip. Angle is the ang of the tip.\n\u003c/p\u003e\u003cp\u003eThis trail is primarily for drawing arrowheads. The resulting \n path is \u003cem\u003eopen\u003c/em\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "incline_barb",
           "package": "wumpus-drawing",
@@ -470,6 +507,7 @@
         "index": {
           "description": "Note vector represents midpoint of the baseline to the tip Angle is the ang of the tip This trail is primarily for drawing arrowheads The resulting path is open",
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "incline_barb",
           "normalized": "Radian-\u003eVec a-\u003eAnaTrail a",
@@ -484,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "incline_chamf_rect",
           "package": "wumpus-drawing",
@@ -493,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "incline_chamf_rect",
           "normalized": "a-\u003eVec a-\u003eAnaTrail a",
@@ -507,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "incline_circle",
           "package": "wumpus-drawing",
@@ -516,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "incline_circle",
           "normalized": "Vec a-\u003eAnaTrail a",
@@ -530,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "incline_diamond",
           "package": "wumpus-drawing",
@@ -539,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "incline_diamond",
           "normalized": "a-\u003eVec a-\u003eAnaTrail a",
@@ -553,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "incline_ellipse",
           "package": "wumpus-drawing",
@@ -562,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "incline_ellipse",
           "normalized": "a-\u003eVec a-\u003eAnaTrail a",
@@ -576,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "incline_rect",
           "package": "wumpus-drawing",
@@ -585,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "incline_rect",
           "normalized": "a-\u003eVec a-\u003eAnaTrail a",
@@ -599,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "incline_square",
           "package": "wumpus-drawing",
@@ -608,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "incline_square",
           "normalized": "Vec a-\u003eAnaTrail a",
@@ -623,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote - vector represents midpoint of the baseline to the \n tip. Angle is the ang of the tip.\n\u003c/p\u003e\u003cp\u003eThis trail is primarily for drawing arrowheads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "incline_triangle",
           "package": "wumpus-drawing",
@@ -633,6 +684,7 @@
         "index": {
           "description": "Note vector represents midpoint of the baseline to the tip Angle is the ang of the tip This trail is primarily for drawing arrowheads",
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "incline_triangle",
           "normalized": "Radian-\u003eVec a-\u003eAnaTrail a",
@@ -648,6 +700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ev1\u003c/code\u003e is the \u003cem\u003einterior\u003c/em\u003e vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "incline_tube",
           "package": "wumpus-drawing",
@@ -658,6 +711,7 @@
         "index": {
           "description": "v1 is the interior vector",
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "incline_tube",
           "normalized": "a-\u003eVec a-\u003eAnaTrail a",
@@ -673,6 +727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiagonal-horizontal trail.\n\u003c/p\u003e\u003cpre\u003e    --@\n   /\n  o\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_diagh",
           "package": "wumpus-drawing",
@@ -683,6 +738,7 @@
         "index": {
           "description": "Diagonal-horizontal trail",
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_diagh",
           "normalized": "a-\u003eVec a-\u003eCatTrail a",
@@ -697,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_diagv",
           "package": "wumpus-drawing",
@@ -706,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_diagv",
           "normalized": "a-\u003eVec a-\u003eCatTrail a",
@@ -720,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_hdiag",
           "package": "wumpus-drawing",
@@ -729,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_hdiag",
           "normalized": "a-\u003eVec a-\u003eCatTrail a",
@@ -744,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontal-diagonal-horizontal trail.\n\u003c/p\u003e\u003cpre\u003e      --@\n     /\n  o--\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_hdiagh",
           "package": "wumpus-drawing",
@@ -754,6 +815,7 @@
         "index": {
           "description": "Horizontal-diagonal-horizontal trail",
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_hdiagh",
           "normalized": "a-\u003ea-\u003eVec a-\u003eCatTrail a",
@@ -768,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_hright",
           "package": "wumpus-drawing",
@@ -777,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_hright",
           "normalized": "Vec a-\u003eCatTrail a",
@@ -791,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_hrr",
           "package": "wumpus-drawing",
@@ -800,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_hrr",
           "normalized": "a-\u003eVec a-\u003eCatTrail a",
@@ -815,6 +881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeight is minimum leg height. Ortho bar is horizontal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_ortho_hbar",
           "package": "wumpus-drawing",
@@ -825,6 +892,7 @@
         "index": {
           "description": "Height is minimum leg height Ortho bar is horizontal",
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_ortho_hbar",
           "normalized": "ClockDirection-\u003ea-\u003eVec a-\u003eCatTrail a",
@@ -840,6 +908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidth is minimum leg width. Ortho bar is vertical.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_ortho_vbar",
           "package": "wumpus-drawing",
@@ -850,6 +919,7 @@
         "index": {
           "description": "Width is minimum leg width Ortho bar is vertical",
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_ortho_vbar",
           "normalized": "ClockDirection-\u003ea-\u003eVec a-\u003eCatTrail a",
@@ -865,6 +935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniform leg size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_perp_bar",
           "package": "wumpus-drawing",
@@ -875,6 +946,7 @@
         "index": {
           "description": "Uniform leg size",
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_perp_bar",
           "normalized": "ClockDirection-\u003ea-\u003eVec a-\u003eCatTrail a",
@@ -890,6 +962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBar connector - independent leg size, legs perpendicular.\n\u003c/p\u003e\u003cpre\u003e  o    @ \n  |    |\n  '----'  \n\u003c/pre\u003e\u003cp\u003eThe bar is drawn \u003cem\u003ebelow\u003c/em\u003e the points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_perp_bar2",
           "package": "wumpus-drawing",
@@ -900,6 +973,7 @@
         "index": {
           "description": "Bar connector independent leg size legs perpendicular The bar is drawn below the points",
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_perp_bar2",
           "normalized": "ClockDirection-\u003ea-\u003ea-\u003eVec a-\u003eCatTrail a",
@@ -914,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_rect_loop",
           "package": "wumpus-drawing",
@@ -923,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_rect_loop",
           "normalized": "ClockDirection-\u003ea-\u003ea-\u003ea-\u003eVec a-\u003eCatTrail a",
@@ -937,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_rrh",
           "package": "wumpus-drawing",
@@ -946,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_rrh",
           "normalized": "a-\u003eVec a-\u003eCatTrail a",
@@ -960,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_rrv",
           "package": "wumpus-drawing",
@@ -969,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_rrv",
           "normalized": "a-\u003eVec a-\u003eCatTrail a",
@@ -983,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_vdiag",
           "package": "wumpus-drawing",
@@ -992,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_vdiag",
           "normalized": "a-\u003eVec a-\u003eCatTrail a",
@@ -1006,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_vdiagv",
           "package": "wumpus-drawing",
@@ -1015,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_vdiagv",
           "normalized": "a-\u003ea-\u003eVec a-\u003eCatTrail a",
@@ -1030,6 +1114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndependent leg size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_vflam",
           "package": "wumpus-drawing",
@@ -1040,6 +1125,7 @@
         "index": {
           "description": "Independent leg size",
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_vflam",
           "normalized": "ClockDirection-\u003ea-\u003ea-\u003eVec a-\u003eCatTrail a",
@@ -1054,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_vright",
           "package": "wumpus-drawing",
@@ -1063,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_vright",
           "normalized": "Vec a-\u003eCatTrail a",
@@ -1077,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_vrr",
           "package": "wumpus-drawing",
@@ -1086,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "trail_vrr",
           "normalized": "a-\u003eVec a-\u003eCatTrail a",
@@ -1101,6 +1191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ebowCurve\u003c/a\u003e\u003c/code\u003e formulated with a \u003cem\u003ebase vector\u003c/em\u003e rather than \n base-width and angle of inclination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "vbowCurve",
           "package": "wumpus-drawing",
@@ -1111,6 +1202,7 @@
         "index": {
           "description": "bowCurve formulated with base vector rather than base-width and angle of inclination",
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "vbowCurve",
           "normalized": "ClockDirection-\u003ea-\u003eVec a-\u003eCatTrail a",
@@ -1127,6 +1219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erectCurve\u003c/a\u003e\u003c/code\u003e formulated with a \u003cem\u003ebase vector\u003c/em\u003e rather than \n base-width and angle of inclination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "vrectCurve",
           "package": "wumpus-drawing",
@@ -1137,6 +1230,7 @@
         "index": {
           "description": "rectCurve formulated with base vector rather than base-width and angle of inclination",
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "vrectCurve",
           "normalized": "ClockDirection-\u003ea-\u003eVec a-\u003eCatTrail a",
@@ -1153,6 +1247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etrapCurve\u003c/a\u003e\u003c/code\u003e formulated with a \u003cem\u003ebase vector\u003c/em\u003e rather than \n base-width and angle of inclination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "vtrapCurve",
           "package": "wumpus-drawing",
@@ -1163,6 +1258,7 @@
         "index": {
           "description": "trapCurve formulated with base vector rather than base-width and angle of inclination",
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "vtrapCurve",
           "normalized": "ClockDirection-\u003ea-\u003eRadian-\u003eVec a-\u003eCatTrail a",
@@ -1179,6 +1275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etriCurve\u003c/a\u003e\u003c/code\u003e formulated with a \u003cem\u003ebase vector\u003c/em\u003e rather than \n base-width and angle of inclination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "vtriCurve",
           "package": "wumpus-drawing",
@@ -1189,6 +1286,7 @@
         "index": {
           "description": "triCurve formulated with base vector rather than base-width and angle of inclination",
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "vtriCurve",
           "normalized": "ClockDirection-\u003ea-\u003eVec a-\u003eCatTrail a",
@@ -1205,6 +1303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ewedgeCurve\u003c/a\u003e\u003c/code\u003e formulated with a \u003cem\u003ebase vector\u003c/em\u003e rather than \n base-width and angle of inclination.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "vwedgeCurve",
           "package": "wumpus-drawing",
@@ -1215,6 +1314,7 @@
         "index": {
           "description": "wedgeCurve formulated with base vector rather than base-width and angle of inclination",
           "hierarchy": "Wumpus Drawing Basis InclineTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.InclineTrails",
           "name": "vwedgeCurve",
           "normalized": "ClockDirection-\u003ea-\u003eVec a-\u003eCatTrail a",
@@ -1230,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "ShapeTrails",
           "package": "wumpus-drawing",
@@ -1238,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis ShapeTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "ShapeTrails",
           "package": "wumpus-drawing",
@@ -1251,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "circle_trail",
           "package": "wumpus-drawing",
@@ -1260,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis ShapeTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "circle_trail",
           "normalized": "a-\u003eAnaTrail a",
@@ -1274,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "diamond_trail",
           "package": "wumpus-drawing",
@@ -1283,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis ShapeTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "diamond_trail",
           "normalized": "a-\u003ea-\u003eAnaTrail a",
@@ -1297,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "ellipse_trail",
           "package": "wumpus-drawing",
@@ -1306,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis ShapeTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "ellipse_trail",
           "normalized": "a-\u003ea-\u003eAnaTrail a",
@@ -1320,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "isosceles_triangle_trail",
           "package": "wumpus-drawing",
@@ -1329,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis ShapeTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "isosceles_triangle_trail",
           "normalized": "a-\u003ea-\u003eAnaTrail a",
@@ -1344,6 +1454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote - bottom left angle must be smaller than 180deg, \n otherwise a runtime error is thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "parallelogram_trail",
           "package": "wumpus-drawing",
@@ -1354,6 +1465,7 @@
         "index": {
           "description": "Note bottom left angle must be smaller than deg otherwise runtime error is thrown",
           "hierarchy": "Wumpus Drawing Basis ShapeTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "parallelogram_trail",
           "normalized": "a-\u003ea-\u003eRadian-\u003eAnaTrail a",
@@ -1368,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "rcircle_trail",
           "package": "wumpus-drawing",
@@ -1377,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis ShapeTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "rcircle_trail",
           "normalized": "a-\u003eRadian-\u003eAnaTrail a",
@@ -1391,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "rdiamond_trail",
           "package": "wumpus-drawing",
@@ -1400,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis ShapeTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "rdiamond_trail",
           "normalized": "a-\u003ea-\u003eRadian-\u003eAnaTrail a",
@@ -1414,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "rectangle_trail",
           "package": "wumpus-drawing",
@@ -1423,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis ShapeTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "rectangle_trail",
           "normalized": "a-\u003ea-\u003eAnaTrail a",
@@ -1437,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "rellipse_trail",
           "package": "wumpus-drawing",
@@ -1446,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis ShapeTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "rellipse_trail",
           "normalized": "a-\u003ea-\u003eRadian-\u003eAnaTrail a",
@@ -1461,6 +1581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrawn at the centroid (1/3 * h).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "risosceles_triangle_trail",
           "package": "wumpus-drawing",
@@ -1471,6 +1592,7 @@
         "index": {
           "description": "Drawn at the centroid",
           "hierarchy": "Wumpus Drawing Basis ShapeTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "risosceles_triangle_trail",
           "normalized": "a-\u003ea-\u003eRadian-\u003eAnaTrail a",
@@ -1486,6 +1608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote - bottom left angle must be smaller than 180deg, \n otherwise a runtime error is thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "rparallelogram_trail",
           "package": "wumpus-drawing",
@@ -1496,6 +1619,7 @@
         "index": {
           "description": "Note bottom left angle must be smaller than deg otherwise runtime error is thrown",
           "hierarchy": "Wumpus Drawing Basis ShapeTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "rparallelogram_trail",
           "normalized": "a-\u003ea-\u003eRadian-\u003eRadian-\u003eAnaTrail a",
@@ -1510,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "rrectangle_trail",
           "package": "wumpus-drawing",
@@ -1519,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis ShapeTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "rrectangle_trail",
           "normalized": "a-\u003ea-\u003eRadian-\u003eAnaTrail a",
@@ -1533,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "rsemicircle_trail",
           "package": "wumpus-drawing",
@@ -1542,6 +1669,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis ShapeTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "rsemicircle_trail",
           "normalized": "a-\u003eRadian-\u003eAnaTrail a",
@@ -1556,6 +1684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "rsemiellipse_trail",
           "package": "wumpus-drawing",
@@ -1565,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis ShapeTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "rsemiellipse_trail",
           "normalized": "a-\u003ea-\u003eRadian-\u003eAnaTrail a",
@@ -1580,6 +1710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote - bottom left angle must be smaller than 180deg, \n otherwise a runtime error is thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "rtrapezium_trail",
           "package": "wumpus-drawing",
@@ -1590,6 +1721,7 @@
         "index": {
           "description": "Note bottom left angle must be smaller than deg otherwise runtime error is thrown",
           "hierarchy": "Wumpus Drawing Basis ShapeTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "rtrapezium_trail",
           "normalized": "a-\u003ea-\u003eRadian-\u003eRadian-\u003eAnaTrail a",
@@ -1604,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "semicircle_trail",
           "package": "wumpus-drawing",
@@ -1613,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis ShapeTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "semicircle_trail",
           "normalized": "a-\u003eAnaTrail a",
@@ -1627,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "semiellipse_trail",
           "package": "wumpus-drawing",
@@ -1636,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis ShapeTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "semiellipse_trail",
           "normalized": "a-\u003ea-\u003eAnaTrail a",
@@ -1651,6 +1787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote - bottom left angle must be smaller than 180deg, \n otherwise a runtime error is thrown.\n\u003c/p\u003e\u003cp\u003eAlso, no checking is perfomed on the relation between height\n and bottom_left ang. Out of range values will draw \"twisted\"\n trapezoids.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "trapezium_trail",
           "package": "wumpus-drawing",
@@ -1661,6 +1798,7 @@
         "index": {
           "description": "Note bottom left angle must be smaller than deg otherwise runtime error is thrown Also no checking is perfomed on the relation between height and bottom left ang Out of range values will draw twisted trapezoids",
           "hierarchy": "Wumpus Drawing Basis ShapeTrails",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.ShapeTrails",
           "name": "trapezium_trail",
           "normalized": "a-\u003ea-\u003eRadian-\u003eAnaTrail a",
@@ -1676,6 +1814,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSymbols - many symbols expected to be re-defined as Dots or\n character size PosObjects for DocText.\n\u003c/p\u003e\u003cp\u003e** WARNING ** - naming conventention is to be determined...\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "Symbols",
           "package": "wumpus-drawing",
@@ -1685,6 +1824,7 @@
         "index": {
           "description": "Symbols many symbols expected to be re-defined as Dots or character size PosObjects for DocText WARNING naming conventention is to be determined",
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "Symbols",
           "package": "wumpus-drawing",
@@ -1698,6 +1838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "dbl_hbar",
           "package": "wumpus-drawing",
@@ -1707,6 +1848,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "dbl_hbar",
           "normalized": "a-\u003eLocGraphic a",
@@ -1721,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "dbl_vbar",
           "package": "wumpus-drawing",
@@ -1730,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "dbl_vbar",
           "normalized": "a-\u003eLocGraphic a",
@@ -1744,6 +1888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "empty_box",
           "package": "wumpus-drawing",
@@ -1753,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "empty_box",
           "normalized": "a-\u003eLocGraphic a",
@@ -1768,6 +1914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilled circle.\n\u003c/p\u003e\u003cp\u003eStart pos - center.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fcircle",
           "package": "wumpus-drawing",
@@ -1778,6 +1925,7 @@
         "index": {
           "description": "Filled circle Start pos center",
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fcircle",
           "normalized": "a-\u003eLocGraphic a",
@@ -1793,6 +1941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilled left slice (wedge).\n\u003c/p\u003e\u003cp\u003eStart pos - ....\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fleft_slice",
           "package": "wumpus-drawing",
@@ -1803,6 +1952,7 @@
         "index": {
           "description": "Filled left slice wedge Start pos",
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fleft_slice",
           "normalized": "a-\u003eLocGraphic a",
@@ -1818,6 +1968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilled left triangle.\n\u003c/p\u003e\u003cp\u003eStart pos - ....\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fleft_triangle",
           "package": "wumpus-drawing",
@@ -1828,6 +1979,7 @@
         "index": {
           "description": "Filled left triangle Start pos",
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fleft_triangle",
           "normalized": "a-\u003eLocGraphic a",
@@ -1843,6 +1995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilled right slice (wedge).\n\u003c/p\u003e\u003cp\u003eStart pos - ....\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fright_slice",
           "package": "wumpus-drawing",
@@ -1853,6 +2006,7 @@
         "index": {
           "description": "Filled right slice wedge Start pos",
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fright_slice",
           "normalized": "a-\u003eLocGraphic a",
@@ -1868,6 +2022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilled right triangle.\n\u003c/p\u003e\u003cp\u003eStart pos - ....\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fright_triangle",
           "package": "wumpus-drawing",
@@ -1878,6 +2033,7 @@
         "index": {
           "description": "Filled right triangle Start pos",
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fright_triangle",
           "normalized": "a-\u003eLocGraphic a",
@@ -1893,6 +2049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilled-stroked circle.\n\u003c/p\u003e\u003cp\u003eStart pos - center.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fscircle",
           "package": "wumpus-drawing",
@@ -1903,6 +2060,7 @@
         "index": {
           "description": "Filled-stroked circle Start pos center",
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fscircle",
           "normalized": "a-\u003eLocGraphic a",
@@ -1918,6 +2076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilled-stroked left slice (wedge).\n\u003c/p\u003e\u003cp\u003eStart pos - ....\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fsleft_slice",
           "package": "wumpus-drawing",
@@ -1928,6 +2087,7 @@
         "index": {
           "description": "Filled-stroked left slice wedge Start pos",
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fsleft_slice",
           "normalized": "a-\u003eLocGraphic a",
@@ -1943,6 +2103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilled-stroked left triangle.\n\u003c/p\u003e\u003cp\u003eStart pos - ....\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fsleft_triangle",
           "package": "wumpus-drawing",
@@ -1953,6 +2114,7 @@
         "index": {
           "description": "Filled-stroked left triangle Start pos",
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fsleft_triangle",
           "normalized": "a-\u003eLocGraphic a",
@@ -1968,6 +2130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilled square.\n\u003c/p\u003e\u003cp\u003eStart pos - center.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fsquare",
           "package": "wumpus-drawing",
@@ -1978,6 +2141,7 @@
         "index": {
           "description": "Filled square Start pos center",
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fsquare",
           "normalized": "a-\u003eLocGraphic a",
@@ -1993,6 +2157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilled-stroked right slice (wedge).\n\u003c/p\u003e\u003cp\u003eStart pos - ....\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fsright_slice",
           "package": "wumpus-drawing",
@@ -2003,6 +2168,7 @@
         "index": {
           "description": "Filled-stroked right slice wedge Start pos",
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fsright_slice",
           "normalized": "a-\u003eLocGraphic a",
@@ -2018,6 +2184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilled-stroked right triangle.\n\u003c/p\u003e\u003cp\u003eStart pos - ....\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fsright_triangle",
           "package": "wumpus-drawing",
@@ -2028,6 +2195,7 @@
         "index": {
           "description": "Filled-stroked right triangle Start pos",
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fsright_triangle",
           "normalized": "a-\u003eLocGraphic a",
@@ -2043,6 +2211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilled-stroked square.\n\u003c/p\u003e\u003cp\u003eStart pos - center.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fssquare",
           "package": "wumpus-drawing",
@@ -2053,6 +2222,7 @@
         "index": {
           "description": "Filled-stroked square Start pos center",
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "fssquare",
           "normalized": "a-\u003eLocGraphic a",
@@ -2067,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "hbar",
           "package": "wumpus-drawing",
@@ -2076,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "hbar",
           "normalized": "a-\u003eLocGraphic a",
@@ -2091,6 +2263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote this looks horrible for chars with descenders.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "ochar",
           "package": "wumpus-drawing",
@@ -2101,6 +2274,7 @@
         "index": {
           "description": "Note this looks horrible for chars with descenders",
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "ochar",
           "normalized": "EscapedChar-\u003eLocGraphic a",
@@ -2115,6 +2289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "ocharDescender",
           "package": "wumpus-drawing",
@@ -2124,6 +2299,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "ocharDescender",
           "normalized": "EscapedChar-\u003eLocGraphic a",
@@ -2139,6 +2315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "ocharUpright",
           "package": "wumpus-drawing",
@@ -2148,6 +2325,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "ocharUpright",
           "normalized": "EscapedChar-\u003eLocGraphic a",
@@ -2163,6 +2341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "ocurrency",
           "package": "wumpus-drawing",
@@ -2172,6 +2351,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "ocurrency",
           "normalized": "a-\u003eLocGraphic a",
@@ -2187,6 +2367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStroked circle.\n\u003c/p\u003e\u003cp\u003eStart pos - center.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "scircle",
           "package": "wumpus-drawing",
@@ -2197,6 +2378,7 @@
         "index": {
           "description": "Stroked circle Start pos center",
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "scircle",
           "normalized": "a-\u003eLocGraphic a",
@@ -2212,6 +2394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStroked left slice (wedge).\n\u003c/p\u003e\u003cp\u003eStart pos - ....\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "sleft_slice",
           "package": "wumpus-drawing",
@@ -2222,6 +2405,7 @@
         "index": {
           "description": "Stroked left slice wedge Start pos",
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "sleft_slice",
           "normalized": "a-\u003eLocGraphic a",
@@ -2237,6 +2421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStroked left triangle.\n\u003c/p\u003e\u003cp\u003eStart pos - ....\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "sleft_triangle",
           "package": "wumpus-drawing",
@@ -2247,6 +2432,7 @@
         "index": {
           "description": "Stroked left triangle Start pos",
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "sleft_triangle",
           "normalized": "a-\u003eLocGraphic a",
@@ -2262,6 +2448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStroked right slice (wedge).\n\u003c/p\u003e\u003cp\u003eStart pos - ....\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "sright_slice",
           "package": "wumpus-drawing",
@@ -2272,6 +2459,7 @@
         "index": {
           "description": "Stroked right slice wedge Start pos",
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "sright_slice",
           "normalized": "a-\u003eLocGraphic a",
@@ -2287,6 +2475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStroked right triangle.\n\u003c/p\u003e\u003cp\u003eStart pos - ....\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "sright_triangle",
           "package": "wumpus-drawing",
@@ -2297,6 +2486,7 @@
         "index": {
           "description": "Stroked right triangle Start pos",
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "sright_triangle",
           "normalized": "a-\u003eLocGraphic a",
@@ -2312,6 +2502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStroked square.\n\u003c/p\u003e\u003cp\u003eStart pos - center.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "ssquare",
           "package": "wumpus-drawing",
@@ -2322,6 +2513,7 @@
         "index": {
           "description": "Stroked square Start pos center",
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "ssquare",
           "normalized": "a-\u003eLocGraphic a",
@@ -2336,6 +2528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "vbar",
           "package": "wumpus-drawing",
@@ -2345,6 +2538,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Basis Symbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Basis.Symbols",
           "name": "vbar",
           "normalized": "a-\u003eLocGraphic a",
@@ -2360,6 +2554,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe SVG 'named colours', as rgb [0,1] values \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "SVGColours",
           "package": "wumpus-drawing",
@@ -2369,6 +2564,7 @@
         "index": {
           "description": "The SVG named colours as rgb values",
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "SVGColours",
           "package": "wumpus-drawing",
@@ -2382,6 +2578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "alice_blue",
           "package": "wumpus-drawing",
@@ -2391,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "alice_blue",
           "package": "wumpus-drawing",
@@ -2403,6 +2601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "antique_white",
           "package": "wumpus-drawing",
@@ -2412,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "antique_white",
           "package": "wumpus-drawing",
@@ -2424,6 +2624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "aqua",
           "package": "wumpus-drawing",
@@ -2433,6 +2634,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "aqua",
           "package": "wumpus-drawing",
@@ -2445,6 +2647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "aquamarine",
           "package": "wumpus-drawing",
@@ -2454,6 +2657,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "aquamarine",
           "package": "wumpus-drawing",
@@ -2466,6 +2670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "azure",
           "package": "wumpus-drawing",
@@ -2475,6 +2680,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "azure",
           "package": "wumpus-drawing",
@@ -2487,6 +2693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "beige",
           "package": "wumpus-drawing",
@@ -2496,6 +2703,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "beige",
           "package": "wumpus-drawing",
@@ -2508,6 +2716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "bisque",
           "package": "wumpus-drawing",
@@ -2517,6 +2726,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "bisque",
           "package": "wumpus-drawing",
@@ -2529,6 +2739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "black",
           "package": "wumpus-drawing",
@@ -2538,6 +2749,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "black",
           "package": "wumpus-drawing",
@@ -2550,6 +2762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "blanched_almond",
           "package": "wumpus-drawing",
@@ -2559,6 +2772,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "blanched_almond",
           "package": "wumpus-drawing",
@@ -2571,6 +2785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "blue",
           "package": "wumpus-drawing",
@@ -2580,6 +2795,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "blue",
           "package": "wumpus-drawing",
@@ -2592,6 +2808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "blue_violet",
           "package": "wumpus-drawing",
@@ -2601,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "blue_violet",
           "package": "wumpus-drawing",
@@ -2613,6 +2831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "brown",
           "package": "wumpus-drawing",
@@ -2622,6 +2841,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "brown",
           "package": "wumpus-drawing",
@@ -2634,6 +2854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "burlywood",
           "package": "wumpus-drawing",
@@ -2643,6 +2864,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "burlywood",
           "package": "wumpus-drawing",
@@ -2655,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "cadet_blue",
           "package": "wumpus-drawing",
@@ -2664,6 +2887,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "cadet_blue",
           "package": "wumpus-drawing",
@@ -2676,6 +2900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "chartreuse",
           "package": "wumpus-drawing",
@@ -2685,6 +2910,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "chartreuse",
           "package": "wumpus-drawing",
@@ -2697,6 +2923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "chocolate",
           "package": "wumpus-drawing",
@@ -2706,6 +2933,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "chocolate",
           "package": "wumpus-drawing",
@@ -2718,6 +2946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "coral",
           "package": "wumpus-drawing",
@@ -2727,6 +2956,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "coral",
           "package": "wumpus-drawing",
@@ -2739,6 +2969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "cornflower_blue",
           "package": "wumpus-drawing",
@@ -2748,6 +2979,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "cornflower_blue",
           "package": "wumpus-drawing",
@@ -2760,6 +2992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "cornsilk",
           "package": "wumpus-drawing",
@@ -2769,6 +3002,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "cornsilk",
           "package": "wumpus-drawing",
@@ -2781,6 +3015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "crimson",
           "package": "wumpus-drawing",
@@ -2790,6 +3025,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "crimson",
           "package": "wumpus-drawing",
@@ -2802,6 +3038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "cyan",
           "package": "wumpus-drawing",
@@ -2811,6 +3048,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "cyan",
           "package": "wumpus-drawing",
@@ -2823,6 +3061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_blue",
           "package": "wumpus-drawing",
@@ -2832,6 +3071,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_blue",
           "package": "wumpus-drawing",
@@ -2844,6 +3084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_cyan",
           "package": "wumpus-drawing",
@@ -2853,6 +3094,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_cyan",
           "package": "wumpus-drawing",
@@ -2865,6 +3107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_goldenrod",
           "package": "wumpus-drawing",
@@ -2874,6 +3117,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_goldenrod",
           "package": "wumpus-drawing",
@@ -2886,6 +3130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_gray",
           "package": "wumpus-drawing",
@@ -2895,6 +3140,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_gray",
           "package": "wumpus-drawing",
@@ -2907,6 +3153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_green",
           "package": "wumpus-drawing",
@@ -2916,6 +3163,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_green",
           "package": "wumpus-drawing",
@@ -2928,6 +3176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_grey",
           "package": "wumpus-drawing",
@@ -2937,6 +3186,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_grey",
           "package": "wumpus-drawing",
@@ -2949,6 +3199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_khaki",
           "package": "wumpus-drawing",
@@ -2958,6 +3209,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_khaki",
           "package": "wumpus-drawing",
@@ -2970,6 +3222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_magenta",
           "package": "wumpus-drawing",
@@ -2979,6 +3232,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_magenta",
           "package": "wumpus-drawing",
@@ -2991,6 +3245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_olive_green",
           "package": "wumpus-drawing",
@@ -3000,6 +3255,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_olive_green",
           "package": "wumpus-drawing",
@@ -3012,6 +3268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_orange",
           "package": "wumpus-drawing",
@@ -3021,6 +3278,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_orange",
           "package": "wumpus-drawing",
@@ -3033,6 +3291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_orchid",
           "package": "wumpus-drawing",
@@ -3042,6 +3301,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_orchid",
           "package": "wumpus-drawing",
@@ -3054,6 +3314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_red",
           "package": "wumpus-drawing",
@@ -3063,6 +3324,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_red",
           "package": "wumpus-drawing",
@@ -3075,6 +3337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_salmon",
           "package": "wumpus-drawing",
@@ -3084,6 +3347,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_salmon",
           "package": "wumpus-drawing",
@@ -3096,6 +3360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_sea_green",
           "package": "wumpus-drawing",
@@ -3105,6 +3370,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_sea_green",
           "package": "wumpus-drawing",
@@ -3117,6 +3383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_slate_blue",
           "package": "wumpus-drawing",
@@ -3126,6 +3393,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_slate_blue",
           "package": "wumpus-drawing",
@@ -3138,6 +3406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_slate_gray",
           "package": "wumpus-drawing",
@@ -3147,6 +3416,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_slate_gray",
           "package": "wumpus-drawing",
@@ -3159,6 +3429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_slate_grey",
           "package": "wumpus-drawing",
@@ -3168,6 +3439,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_slate_grey",
           "package": "wumpus-drawing",
@@ -3180,6 +3452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_turquoise",
           "package": "wumpus-drawing",
@@ -3189,6 +3462,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_turquoise",
           "package": "wumpus-drawing",
@@ -3201,6 +3475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_violet",
           "package": "wumpus-drawing",
@@ -3210,6 +3485,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dark_violet",
           "package": "wumpus-drawing",
@@ -3222,6 +3498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "deep_pink",
           "package": "wumpus-drawing",
@@ -3231,6 +3508,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "deep_pink",
           "package": "wumpus-drawing",
@@ -3243,6 +3521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "deep_sky_blue",
           "package": "wumpus-drawing",
@@ -3252,6 +3531,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "deep_sky_blue",
           "package": "wumpus-drawing",
@@ -3264,6 +3544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dim_gray",
           "package": "wumpus-drawing",
@@ -3273,6 +3554,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dim_gray",
           "package": "wumpus-drawing",
@@ -3285,6 +3567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dim_grey",
           "package": "wumpus-drawing",
@@ -3294,6 +3577,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dim_grey",
           "package": "wumpus-drawing",
@@ -3306,6 +3590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dodger_blue",
           "package": "wumpus-drawing",
@@ -3315,6 +3600,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "dodger_blue",
           "package": "wumpus-drawing",
@@ -3327,6 +3613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "firebrick",
           "package": "wumpus-drawing",
@@ -3336,6 +3623,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "firebrick",
           "package": "wumpus-drawing",
@@ -3348,6 +3636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "floral_white",
           "package": "wumpus-drawing",
@@ -3357,6 +3646,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "floral_white",
           "package": "wumpus-drawing",
@@ -3369,6 +3659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "forest_green",
           "package": "wumpus-drawing",
@@ -3378,6 +3669,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "forest_green",
           "package": "wumpus-drawing",
@@ -3390,6 +3682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "fuchsia",
           "package": "wumpus-drawing",
@@ -3399,6 +3692,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "fuchsia",
           "package": "wumpus-drawing",
@@ -3411,6 +3705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "gainsboro",
           "package": "wumpus-drawing",
@@ -3420,6 +3715,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "gainsboro",
           "package": "wumpus-drawing",
@@ -3432,6 +3728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "ghost_white",
           "package": "wumpus-drawing",
@@ -3441,6 +3738,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "ghost_white",
           "package": "wumpus-drawing",
@@ -3453,6 +3751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "gold",
           "package": "wumpus-drawing",
@@ -3462,6 +3761,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "gold",
           "package": "wumpus-drawing",
@@ -3474,6 +3774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "goldenrod",
           "package": "wumpus-drawing",
@@ -3483,6 +3784,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "goldenrod",
           "package": "wumpus-drawing",
@@ -3495,6 +3797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "gray",
           "package": "wumpus-drawing",
@@ -3504,6 +3807,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "gray",
           "package": "wumpus-drawing",
@@ -3516,6 +3820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "green",
           "package": "wumpus-drawing",
@@ -3525,6 +3830,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "green",
           "package": "wumpus-drawing",
@@ -3537,6 +3843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "green_yellow",
           "package": "wumpus-drawing",
@@ -3546,6 +3853,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "green_yellow",
           "package": "wumpus-drawing",
@@ -3558,6 +3866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "grey",
           "package": "wumpus-drawing",
@@ -3567,6 +3876,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "grey",
           "package": "wumpus-drawing",
@@ -3579,6 +3889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "honeydew",
           "package": "wumpus-drawing",
@@ -3588,6 +3899,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "honeydew",
           "package": "wumpus-drawing",
@@ -3600,6 +3912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "hot_pink",
           "package": "wumpus-drawing",
@@ -3609,6 +3922,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "hot_pink",
           "package": "wumpus-drawing",
@@ -3621,6 +3935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "indian_red",
           "package": "wumpus-drawing",
@@ -3630,6 +3945,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "indian_red",
           "package": "wumpus-drawing",
@@ -3642,6 +3958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "indigo",
           "package": "wumpus-drawing",
@@ -3651,6 +3968,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "indigo",
           "package": "wumpus-drawing",
@@ -3663,6 +3981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "ivory",
           "package": "wumpus-drawing",
@@ -3672,6 +3991,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "ivory",
           "package": "wumpus-drawing",
@@ -3684,6 +4004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "khaki",
           "package": "wumpus-drawing",
@@ -3693,6 +4014,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "khaki",
           "package": "wumpus-drawing",
@@ -3705,6 +4027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "lavender",
           "package": "wumpus-drawing",
@@ -3714,6 +4037,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "lavender",
           "package": "wumpus-drawing",
@@ -3726,6 +4050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "lavender_blush",
           "package": "wumpus-drawing",
@@ -3735,6 +4060,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "lavender_blush",
           "package": "wumpus-drawing",
@@ -3747,6 +4073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "lawn_green",
           "package": "wumpus-drawing",
@@ -3756,6 +4083,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "lawn_green",
           "package": "wumpus-drawing",
@@ -3768,6 +4096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "lemon_chiffon",
           "package": "wumpus-drawing",
@@ -3777,6 +4106,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "lemon_chiffon",
           "package": "wumpus-drawing",
@@ -3789,6 +4119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_blue",
           "package": "wumpus-drawing",
@@ -3798,6 +4129,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_blue",
           "package": "wumpus-drawing",
@@ -3810,6 +4142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_coral",
           "package": "wumpus-drawing",
@@ -3819,6 +4152,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_coral",
           "package": "wumpus-drawing",
@@ -3831,6 +4165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_cyan",
           "package": "wumpus-drawing",
@@ -3840,6 +4175,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_cyan",
           "package": "wumpus-drawing",
@@ -3852,6 +4188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_goldenrod_yellow",
           "package": "wumpus-drawing",
@@ -3861,6 +4198,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_goldenrod_yellow",
           "package": "wumpus-drawing",
@@ -3873,6 +4211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_gray",
           "package": "wumpus-drawing",
@@ -3882,6 +4221,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_gray",
           "package": "wumpus-drawing",
@@ -3894,6 +4234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_green",
           "package": "wumpus-drawing",
@@ -3903,6 +4244,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_green",
           "package": "wumpus-drawing",
@@ -3915,6 +4257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_grey",
           "package": "wumpus-drawing",
@@ -3924,6 +4267,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_grey",
           "package": "wumpus-drawing",
@@ -3936,6 +4280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_pink",
           "package": "wumpus-drawing",
@@ -3945,6 +4290,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_pink",
           "package": "wumpus-drawing",
@@ -3957,6 +4303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_salmon",
           "package": "wumpus-drawing",
@@ -3966,6 +4313,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_salmon",
           "package": "wumpus-drawing",
@@ -3978,6 +4326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_sea_green",
           "package": "wumpus-drawing",
@@ -3987,6 +4336,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_sea_green",
           "package": "wumpus-drawing",
@@ -3999,6 +4349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_sky_blue",
           "package": "wumpus-drawing",
@@ -4008,6 +4359,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_sky_blue",
           "package": "wumpus-drawing",
@@ -4020,6 +4372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_slate_gray",
           "package": "wumpus-drawing",
@@ -4029,6 +4382,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_slate_gray",
           "package": "wumpus-drawing",
@@ -4041,6 +4395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_slate_grey",
           "package": "wumpus-drawing",
@@ -4050,6 +4405,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_slate_grey",
           "package": "wumpus-drawing",
@@ -4062,6 +4418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_steel_blue",
           "package": "wumpus-drawing",
@@ -4071,6 +4428,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_steel_blue",
           "package": "wumpus-drawing",
@@ -4083,6 +4441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_yellow",
           "package": "wumpus-drawing",
@@ -4092,6 +4451,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "light_yellow",
           "package": "wumpus-drawing",
@@ -4104,6 +4464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "lime",
           "package": "wumpus-drawing",
@@ -4113,6 +4474,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "lime",
           "package": "wumpus-drawing",
@@ -4125,6 +4487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "lime_green",
           "package": "wumpus-drawing",
@@ -4134,6 +4497,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "lime_green",
           "package": "wumpus-drawing",
@@ -4146,6 +4510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "linen",
           "package": "wumpus-drawing",
@@ -4155,6 +4520,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "linen",
           "package": "wumpus-drawing",
@@ -4167,6 +4533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "magenta",
           "package": "wumpus-drawing",
@@ -4176,6 +4543,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "magenta",
           "package": "wumpus-drawing",
@@ -4188,6 +4556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "maroon",
           "package": "wumpus-drawing",
@@ -4197,6 +4566,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "maroon",
           "package": "wumpus-drawing",
@@ -4209,6 +4579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "medium_aquamarine",
           "package": "wumpus-drawing",
@@ -4218,6 +4589,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "medium_aquamarine",
           "package": "wumpus-drawing",
@@ -4230,6 +4602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "medium_blue",
           "package": "wumpus-drawing",
@@ -4239,6 +4612,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "medium_blue",
           "package": "wumpus-drawing",
@@ -4251,6 +4625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "medium_orchid",
           "package": "wumpus-drawing",
@@ -4260,6 +4635,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "medium_orchid",
           "package": "wumpus-drawing",
@@ -4272,6 +4648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "medium_purple",
           "package": "wumpus-drawing",
@@ -4281,6 +4658,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "medium_purple",
           "package": "wumpus-drawing",
@@ -4293,6 +4671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "medium_sea_green",
           "package": "wumpus-drawing",
@@ -4302,6 +4681,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "medium_sea_green",
           "package": "wumpus-drawing",
@@ -4314,6 +4694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "medium_slate_blue",
           "package": "wumpus-drawing",
@@ -4323,6 +4704,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "medium_slate_blue",
           "package": "wumpus-drawing",
@@ -4335,6 +4717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "medium_spring_green",
           "package": "wumpus-drawing",
@@ -4344,6 +4727,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "medium_spring_green",
           "package": "wumpus-drawing",
@@ -4356,6 +4740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "medium_turquoise",
           "package": "wumpus-drawing",
@@ -4365,6 +4750,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "medium_turquoise",
           "package": "wumpus-drawing",
@@ -4377,6 +4763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "medium_violet_red",
           "package": "wumpus-drawing",
@@ -4386,6 +4773,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "medium_violet_red",
           "package": "wumpus-drawing",
@@ -4398,6 +4786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "midnight_blue",
           "package": "wumpus-drawing",
@@ -4407,6 +4796,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "midnight_blue",
           "package": "wumpus-drawing",
@@ -4419,6 +4809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "mintcream",
           "package": "wumpus-drawing",
@@ -4428,6 +4819,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "mintcream",
           "package": "wumpus-drawing",
@@ -4440,6 +4832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "mistyrose",
           "package": "wumpus-drawing",
@@ -4449,6 +4842,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "mistyrose",
           "package": "wumpus-drawing",
@@ -4461,6 +4855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "moccasin",
           "package": "wumpus-drawing",
@@ -4470,6 +4865,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "moccasin",
           "package": "wumpus-drawing",
@@ -4482,6 +4878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "navajo_white",
           "package": "wumpus-drawing",
@@ -4491,6 +4888,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "navajo_white",
           "package": "wumpus-drawing",
@@ -4503,6 +4901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "navy",
           "package": "wumpus-drawing",
@@ -4512,6 +4911,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "navy",
           "package": "wumpus-drawing",
@@ -4524,6 +4924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "old_lace",
           "package": "wumpus-drawing",
@@ -4533,6 +4934,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "old_lace",
           "package": "wumpus-drawing",
@@ -4545,6 +4947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "olive",
           "package": "wumpus-drawing",
@@ -4554,6 +4957,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "olive",
           "package": "wumpus-drawing",
@@ -4566,6 +4970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "olive_drab",
           "package": "wumpus-drawing",
@@ -4575,6 +4980,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "olive_drab",
           "package": "wumpus-drawing",
@@ -4587,6 +4993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "orange",
           "package": "wumpus-drawing",
@@ -4596,6 +5003,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "orange",
           "package": "wumpus-drawing",
@@ -4608,6 +5016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "orange_red",
           "package": "wumpus-drawing",
@@ -4617,6 +5026,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "orange_red",
           "package": "wumpus-drawing",
@@ -4629,6 +5039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "orchid",
           "package": "wumpus-drawing",
@@ -4638,6 +5049,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "orchid",
           "package": "wumpus-drawing",
@@ -4650,6 +5062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "pale_goldenrod",
           "package": "wumpus-drawing",
@@ -4659,6 +5072,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "pale_goldenrod",
           "package": "wumpus-drawing",
@@ -4671,6 +5085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "pale_green",
           "package": "wumpus-drawing",
@@ -4680,6 +5095,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "pale_green",
           "package": "wumpus-drawing",
@@ -4692,6 +5108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "pale_turquoise",
           "package": "wumpus-drawing",
@@ -4701,6 +5118,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "pale_turquoise",
           "package": "wumpus-drawing",
@@ -4713,6 +5131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "pale_violet_red",
           "package": "wumpus-drawing",
@@ -4722,6 +5141,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "pale_violet_red",
           "package": "wumpus-drawing",
@@ -4734,6 +5154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "papaya_whip",
           "package": "wumpus-drawing",
@@ -4743,6 +5164,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "papaya_whip",
           "package": "wumpus-drawing",
@@ -4755,6 +5177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "peach_puff",
           "package": "wumpus-drawing",
@@ -4764,6 +5187,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "peach_puff",
           "package": "wumpus-drawing",
@@ -4776,6 +5200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "peru",
           "package": "wumpus-drawing",
@@ -4785,6 +5210,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "peru",
           "package": "wumpus-drawing",
@@ -4797,6 +5223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "pink",
           "package": "wumpus-drawing",
@@ -4806,6 +5233,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "pink",
           "package": "wumpus-drawing",
@@ -4818,6 +5246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "plum",
           "package": "wumpus-drawing",
@@ -4827,6 +5256,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "plum",
           "package": "wumpus-drawing",
@@ -4839,6 +5269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "powder_blue",
           "package": "wumpus-drawing",
@@ -4848,6 +5279,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "powder_blue",
           "package": "wumpus-drawing",
@@ -4860,6 +5292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "purple",
           "package": "wumpus-drawing",
@@ -4869,6 +5302,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "purple",
           "package": "wumpus-drawing",
@@ -4881,6 +5315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "red",
           "package": "wumpus-drawing",
@@ -4890,6 +5325,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "red",
           "package": "wumpus-drawing",
@@ -4902,6 +5338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "rosy_brown",
           "package": "wumpus-drawing",
@@ -4911,6 +5348,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "rosy_brown",
           "package": "wumpus-drawing",
@@ -4923,6 +5361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "royal_blue",
           "package": "wumpus-drawing",
@@ -4932,6 +5371,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "royal_blue",
           "package": "wumpus-drawing",
@@ -4944,6 +5384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "saddle_brown",
           "package": "wumpus-drawing",
@@ -4953,6 +5394,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "saddle_brown",
           "package": "wumpus-drawing",
@@ -4965,6 +5407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "salmon",
           "package": "wumpus-drawing",
@@ -4974,6 +5417,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "salmon",
           "package": "wumpus-drawing",
@@ -4986,6 +5430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "sandy_brown",
           "package": "wumpus-drawing",
@@ -4995,6 +5440,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "sandy_brown",
           "package": "wumpus-drawing",
@@ -5007,6 +5453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "sea_green",
           "package": "wumpus-drawing",
@@ -5016,6 +5463,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "sea_green",
           "package": "wumpus-drawing",
@@ -5028,6 +5476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "seashell",
           "package": "wumpus-drawing",
@@ -5037,6 +5486,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "seashell",
           "package": "wumpus-drawing",
@@ -5049,6 +5499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "sienna",
           "package": "wumpus-drawing",
@@ -5058,6 +5509,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "sienna",
           "package": "wumpus-drawing",
@@ -5070,6 +5522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "silver",
           "package": "wumpus-drawing",
@@ -5079,6 +5532,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "silver",
           "package": "wumpus-drawing",
@@ -5091,6 +5545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "sky_blue",
           "package": "wumpus-drawing",
@@ -5100,6 +5555,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "sky_blue",
           "package": "wumpus-drawing",
@@ -5112,6 +5568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "slate_blue",
           "package": "wumpus-drawing",
@@ -5121,6 +5578,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "slate_blue",
           "package": "wumpus-drawing",
@@ -5133,6 +5591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "slate_gray",
           "package": "wumpus-drawing",
@@ -5142,6 +5601,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "slate_gray",
           "package": "wumpus-drawing",
@@ -5154,6 +5614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "slate_grey",
           "package": "wumpus-drawing",
@@ -5163,6 +5624,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "slate_grey",
           "package": "wumpus-drawing",
@@ -5175,6 +5637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "snow",
           "package": "wumpus-drawing",
@@ -5184,6 +5647,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "snow",
           "package": "wumpus-drawing",
@@ -5196,6 +5660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "spring_green",
           "package": "wumpus-drawing",
@@ -5205,6 +5670,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "spring_green",
           "package": "wumpus-drawing",
@@ -5217,6 +5683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "steel_blue",
           "package": "wumpus-drawing",
@@ -5226,6 +5693,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "steel_blue",
           "package": "wumpus-drawing",
@@ -5238,6 +5706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "tan",
           "package": "wumpus-drawing",
@@ -5247,6 +5716,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "tan",
           "package": "wumpus-drawing",
@@ -5259,6 +5729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "teal",
           "package": "wumpus-drawing",
@@ -5268,6 +5739,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "teal",
           "package": "wumpus-drawing",
@@ -5280,6 +5752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "thistle",
           "package": "wumpus-drawing",
@@ -5289,6 +5762,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "thistle",
           "package": "wumpus-drawing",
@@ -5301,6 +5775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "tomato",
           "package": "wumpus-drawing",
@@ -5310,6 +5785,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "tomato",
           "package": "wumpus-drawing",
@@ -5322,6 +5798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "turquoise",
           "package": "wumpus-drawing",
@@ -5331,6 +5808,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "turquoise",
           "package": "wumpus-drawing",
@@ -5343,6 +5821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "violet",
           "package": "wumpus-drawing",
@@ -5352,6 +5831,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "violet",
           "package": "wumpus-drawing",
@@ -5364,6 +5844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "wheat",
           "package": "wumpus-drawing",
@@ -5373,6 +5854,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "wheat",
           "package": "wumpus-drawing",
@@ -5385,6 +5867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "white",
           "package": "wumpus-drawing",
@@ -5394,6 +5877,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "white",
           "package": "wumpus-drawing",
@@ -5406,6 +5890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "whitesmoke",
           "package": "wumpus-drawing",
@@ -5415,6 +5900,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "whitesmoke",
           "package": "wumpus-drawing",
@@ -5427,6 +5913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "yellow",
           "package": "wumpus-drawing",
@@ -5436,6 +5923,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "yellow",
           "package": "wumpus-drawing",
@@ -5448,6 +5936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "yellow_green",
           "package": "wumpus-drawing",
@@ -5457,6 +5946,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour SVGColours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.SVGColours",
           "name": "yellow_green",
           "package": "wumpus-drawing",
@@ -5470,6 +5960,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe X11 'named colours', as rgb [0,1] values \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "X11Colours",
           "package": "wumpus-drawing",
@@ -5479,6 +5970,7 @@
         "index": {
           "description": "The X11 named colours as rgb values",
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "X11Colours",
           "package": "wumpus-drawing",
@@ -5492,6 +5984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "antique_white1",
           "package": "wumpus-drawing",
@@ -5501,6 +5994,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "antique_white1",
           "package": "wumpus-drawing",
@@ -5513,6 +6007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "antique_white2",
           "package": "wumpus-drawing",
@@ -5522,6 +6017,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "antique_white2",
           "package": "wumpus-drawing",
@@ -5534,6 +6030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "antique_white3",
           "package": "wumpus-drawing",
@@ -5543,6 +6040,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "antique_white3",
           "package": "wumpus-drawing",
@@ -5555,6 +6053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "antique_white4",
           "package": "wumpus-drawing",
@@ -5564,6 +6063,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "antique_white4",
           "package": "wumpus-drawing",
@@ -5576,6 +6076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "aquamarine1",
           "package": "wumpus-drawing",
@@ -5585,6 +6086,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "aquamarine1",
           "package": "wumpus-drawing",
@@ -5597,6 +6099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "aquamarine2",
           "package": "wumpus-drawing",
@@ -5606,6 +6109,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "aquamarine2",
           "package": "wumpus-drawing",
@@ -5618,6 +6122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "aquamarine3",
           "package": "wumpus-drawing",
@@ -5627,6 +6132,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "aquamarine3",
           "package": "wumpus-drawing",
@@ -5639,6 +6145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "aquamarine4",
           "package": "wumpus-drawing",
@@ -5648,6 +6155,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "aquamarine4",
           "package": "wumpus-drawing",
@@ -5660,6 +6168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "azure1",
           "package": "wumpus-drawing",
@@ -5669,6 +6178,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "azure1",
           "package": "wumpus-drawing",
@@ -5681,6 +6191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "azure2",
           "package": "wumpus-drawing",
@@ -5690,6 +6201,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "azure2",
           "package": "wumpus-drawing",
@@ -5702,6 +6214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "azure3",
           "package": "wumpus-drawing",
@@ -5711,6 +6224,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "azure3",
           "package": "wumpus-drawing",
@@ -5723,6 +6237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "azure4",
           "package": "wumpus-drawing",
@@ -5732,6 +6247,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "azure4",
           "package": "wumpus-drawing",
@@ -5744,6 +6260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "bisque1",
           "package": "wumpus-drawing",
@@ -5753,6 +6270,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "bisque1",
           "package": "wumpus-drawing",
@@ -5765,6 +6283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "bisque2",
           "package": "wumpus-drawing",
@@ -5774,6 +6293,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "bisque2",
           "package": "wumpus-drawing",
@@ -5786,6 +6306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "bisque3",
           "package": "wumpus-drawing",
@@ -5795,6 +6316,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "bisque3",
           "package": "wumpus-drawing",
@@ -5807,6 +6329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "bisque4",
           "package": "wumpus-drawing",
@@ -5816,6 +6339,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "bisque4",
           "package": "wumpus-drawing",
@@ -5828,6 +6352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "blue1",
           "package": "wumpus-drawing",
@@ -5837,6 +6362,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "blue1",
           "package": "wumpus-drawing",
@@ -5849,6 +6375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "blue2",
           "package": "wumpus-drawing",
@@ -5858,6 +6385,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "blue2",
           "package": "wumpus-drawing",
@@ -5870,6 +6398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "blue3",
           "package": "wumpus-drawing",
@@ -5879,6 +6408,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "blue3",
           "package": "wumpus-drawing",
@@ -5891,6 +6421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "blue4",
           "package": "wumpus-drawing",
@@ -5900,6 +6431,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "blue4",
           "package": "wumpus-drawing",
@@ -5912,6 +6444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "brown1",
           "package": "wumpus-drawing",
@@ -5921,6 +6454,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "brown1",
           "package": "wumpus-drawing",
@@ -5933,6 +6467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "brown2",
           "package": "wumpus-drawing",
@@ -5942,6 +6477,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "brown2",
           "package": "wumpus-drawing",
@@ -5954,6 +6490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "brown3",
           "package": "wumpus-drawing",
@@ -5963,6 +6500,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "brown3",
           "package": "wumpus-drawing",
@@ -5975,6 +6513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "brown4",
           "package": "wumpus-drawing",
@@ -5984,6 +6523,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "brown4",
           "package": "wumpus-drawing",
@@ -5996,6 +6536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "burlywood1",
           "package": "wumpus-drawing",
@@ -6005,6 +6546,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "burlywood1",
           "package": "wumpus-drawing",
@@ -6017,6 +6559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "burlywood2",
           "package": "wumpus-drawing",
@@ -6026,6 +6569,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "burlywood2",
           "package": "wumpus-drawing",
@@ -6038,6 +6582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "burlywood3",
           "package": "wumpus-drawing",
@@ -6047,6 +6592,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "burlywood3",
           "package": "wumpus-drawing",
@@ -6059,6 +6605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "burlywood4",
           "package": "wumpus-drawing",
@@ -6068,6 +6615,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "burlywood4",
           "package": "wumpus-drawing",
@@ -6080,6 +6628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cadet_blue1",
           "package": "wumpus-drawing",
@@ -6089,6 +6638,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cadet_blue1",
           "package": "wumpus-drawing",
@@ -6101,6 +6651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cadet_blue2",
           "package": "wumpus-drawing",
@@ -6110,6 +6661,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cadet_blue2",
           "package": "wumpus-drawing",
@@ -6122,6 +6674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cadet_blue3",
           "package": "wumpus-drawing",
@@ -6131,6 +6684,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cadet_blue3",
           "package": "wumpus-drawing",
@@ -6143,6 +6697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cadet_blue4",
           "package": "wumpus-drawing",
@@ -6152,6 +6707,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cadet_blue4",
           "package": "wumpus-drawing",
@@ -6164,6 +6720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "chartreuse1",
           "package": "wumpus-drawing",
@@ -6173,6 +6730,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "chartreuse1",
           "package": "wumpus-drawing",
@@ -6185,6 +6743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "chartreuse2",
           "package": "wumpus-drawing",
@@ -6194,6 +6753,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "chartreuse2",
           "package": "wumpus-drawing",
@@ -6206,6 +6766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "chartreuse3",
           "package": "wumpus-drawing",
@@ -6215,6 +6776,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "chartreuse3",
           "package": "wumpus-drawing",
@@ -6227,6 +6789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "chartreuse4",
           "package": "wumpus-drawing",
@@ -6236,6 +6799,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "chartreuse4",
           "package": "wumpus-drawing",
@@ -6248,6 +6812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "chocolate1",
           "package": "wumpus-drawing",
@@ -6257,6 +6822,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "chocolate1",
           "package": "wumpus-drawing",
@@ -6269,6 +6835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "chocolate2",
           "package": "wumpus-drawing",
@@ -6278,6 +6845,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "chocolate2",
           "package": "wumpus-drawing",
@@ -6290,6 +6858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "chocolate3",
           "package": "wumpus-drawing",
@@ -6299,6 +6868,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "chocolate3",
           "package": "wumpus-drawing",
@@ -6311,6 +6881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "chocolate4",
           "package": "wumpus-drawing",
@@ -6320,6 +6891,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "chocolate4",
           "package": "wumpus-drawing",
@@ -6332,6 +6904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "coral1",
           "package": "wumpus-drawing",
@@ -6341,6 +6914,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "coral1",
           "package": "wumpus-drawing",
@@ -6353,6 +6927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "coral2",
           "package": "wumpus-drawing",
@@ -6362,6 +6937,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "coral2",
           "package": "wumpus-drawing",
@@ -6374,6 +6950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "coral3",
           "package": "wumpus-drawing",
@@ -6383,6 +6960,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "coral3",
           "package": "wumpus-drawing",
@@ -6395,6 +6973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "coral4",
           "package": "wumpus-drawing",
@@ -6404,6 +6983,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "coral4",
           "package": "wumpus-drawing",
@@ -6416,6 +6996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cornsilk1",
           "package": "wumpus-drawing",
@@ -6425,6 +7006,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cornsilk1",
           "package": "wumpus-drawing",
@@ -6437,6 +7019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cornsilk2",
           "package": "wumpus-drawing",
@@ -6446,6 +7029,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cornsilk2",
           "package": "wumpus-drawing",
@@ -6458,6 +7042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cornsilk3",
           "package": "wumpus-drawing",
@@ -6467,6 +7052,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cornsilk3",
           "package": "wumpus-drawing",
@@ -6479,6 +7065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cornsilk4",
           "package": "wumpus-drawing",
@@ -6488,6 +7075,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cornsilk4",
           "package": "wumpus-drawing",
@@ -6500,6 +7088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cyan1",
           "package": "wumpus-drawing",
@@ -6509,6 +7098,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cyan1",
           "package": "wumpus-drawing",
@@ -6521,6 +7111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cyan2",
           "package": "wumpus-drawing",
@@ -6530,6 +7121,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cyan2",
           "package": "wumpus-drawing",
@@ -6542,6 +7134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cyan3",
           "package": "wumpus-drawing",
@@ -6551,6 +7144,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cyan3",
           "package": "wumpus-drawing",
@@ -6563,6 +7157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cyan4",
           "package": "wumpus-drawing",
@@ -6572,6 +7167,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "cyan4",
           "package": "wumpus-drawing",
@@ -6584,6 +7180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_goldenrod1",
           "package": "wumpus-drawing",
@@ -6593,6 +7190,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_goldenrod1",
           "package": "wumpus-drawing",
@@ -6605,6 +7203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_goldenrod2",
           "package": "wumpus-drawing",
@@ -6614,6 +7213,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_goldenrod2",
           "package": "wumpus-drawing",
@@ -6626,6 +7226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_goldenrod3",
           "package": "wumpus-drawing",
@@ -6635,6 +7236,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_goldenrod3",
           "package": "wumpus-drawing",
@@ -6647,6 +7249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_goldenrod4",
           "package": "wumpus-drawing",
@@ -6656,6 +7259,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_goldenrod4",
           "package": "wumpus-drawing",
@@ -6668,6 +7272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_olive_green1",
           "package": "wumpus-drawing",
@@ -6677,6 +7282,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_olive_green1",
           "package": "wumpus-drawing",
@@ -6689,6 +7295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_olive_green2",
           "package": "wumpus-drawing",
@@ -6698,6 +7305,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_olive_green2",
           "package": "wumpus-drawing",
@@ -6710,6 +7318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_olive_green3",
           "package": "wumpus-drawing",
@@ -6719,6 +7328,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_olive_green3",
           "package": "wumpus-drawing",
@@ -6731,6 +7341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_olive_green4",
           "package": "wumpus-drawing",
@@ -6740,6 +7351,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_olive_green4",
           "package": "wumpus-drawing",
@@ -6752,6 +7364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_orange1",
           "package": "wumpus-drawing",
@@ -6761,6 +7374,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_orange1",
           "package": "wumpus-drawing",
@@ -6773,6 +7387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_orange2",
           "package": "wumpus-drawing",
@@ -6782,6 +7397,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_orange2",
           "package": "wumpus-drawing",
@@ -6794,6 +7410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_orange3",
           "package": "wumpus-drawing",
@@ -6803,6 +7420,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_orange3",
           "package": "wumpus-drawing",
@@ -6815,6 +7433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_orange4",
           "package": "wumpus-drawing",
@@ -6824,6 +7443,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_orange4",
           "package": "wumpus-drawing",
@@ -6836,6 +7456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_orchid1",
           "package": "wumpus-drawing",
@@ -6845,6 +7466,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_orchid1",
           "package": "wumpus-drawing",
@@ -6857,6 +7479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_orchid2",
           "package": "wumpus-drawing",
@@ -6866,6 +7489,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_orchid2",
           "package": "wumpus-drawing",
@@ -6878,6 +7502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_orchid3",
           "package": "wumpus-drawing",
@@ -6887,6 +7512,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_orchid3",
           "package": "wumpus-drawing",
@@ -6899,6 +7525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_orchid4",
           "package": "wumpus-drawing",
@@ -6908,6 +7535,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_orchid4",
           "package": "wumpus-drawing",
@@ -6920,6 +7548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_sea_green1",
           "package": "wumpus-drawing",
@@ -6929,6 +7558,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_sea_green1",
           "package": "wumpus-drawing",
@@ -6941,6 +7571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_sea_green2",
           "package": "wumpus-drawing",
@@ -6950,6 +7581,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_sea_green2",
           "package": "wumpus-drawing",
@@ -6962,6 +7594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_sea_green3",
           "package": "wumpus-drawing",
@@ -6971,6 +7604,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_sea_green3",
           "package": "wumpus-drawing",
@@ -6983,6 +7617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_sea_green4",
           "package": "wumpus-drawing",
@@ -6992,6 +7627,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_sea_green4",
           "package": "wumpus-drawing",
@@ -7004,6 +7640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_slate_gray1",
           "package": "wumpus-drawing",
@@ -7013,6 +7650,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_slate_gray1",
           "package": "wumpus-drawing",
@@ -7025,6 +7663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_slate_gray2",
           "package": "wumpus-drawing",
@@ -7034,6 +7673,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_slate_gray2",
           "package": "wumpus-drawing",
@@ -7046,6 +7686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_slate_gray3",
           "package": "wumpus-drawing",
@@ -7055,6 +7696,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_slate_gray3",
           "package": "wumpus-drawing",
@@ -7067,6 +7709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_slate_gray4",
           "package": "wumpus-drawing",
@@ -7076,6 +7719,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dark_slate_gray4",
           "package": "wumpus-drawing",
@@ -7088,6 +7732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "deep_pink1",
           "package": "wumpus-drawing",
@@ -7097,6 +7742,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "deep_pink1",
           "package": "wumpus-drawing",
@@ -7109,6 +7755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "deep_pink2",
           "package": "wumpus-drawing",
@@ -7118,6 +7765,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "deep_pink2",
           "package": "wumpus-drawing",
@@ -7130,6 +7778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "deep_pink3",
           "package": "wumpus-drawing",
@@ -7139,6 +7788,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "deep_pink3",
           "package": "wumpus-drawing",
@@ -7151,6 +7801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "deep_pink4",
           "package": "wumpus-drawing",
@@ -7160,6 +7811,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "deep_pink4",
           "package": "wumpus-drawing",
@@ -7172,6 +7824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "deep_sky_blue1",
           "package": "wumpus-drawing",
@@ -7181,6 +7834,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "deep_sky_blue1",
           "package": "wumpus-drawing",
@@ -7193,6 +7847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "deep_sky_blue2",
           "package": "wumpus-drawing",
@@ -7202,6 +7857,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "deep_sky_blue2",
           "package": "wumpus-drawing",
@@ -7214,6 +7870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "deep_sky_blue3",
           "package": "wumpus-drawing",
@@ -7223,6 +7880,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "deep_sky_blue3",
           "package": "wumpus-drawing",
@@ -7235,6 +7893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "deep_sky_blue4",
           "package": "wumpus-drawing",
@@ -7244,6 +7903,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "deep_sky_blue4",
           "package": "wumpus-drawing",
@@ -7256,6 +7916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dodger_blue1",
           "package": "wumpus-drawing",
@@ -7265,6 +7926,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dodger_blue1",
           "package": "wumpus-drawing",
@@ -7277,6 +7939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dodger_blue2",
           "package": "wumpus-drawing",
@@ -7286,6 +7949,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dodger_blue2",
           "package": "wumpus-drawing",
@@ -7298,6 +7962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dodger_blue3",
           "package": "wumpus-drawing",
@@ -7307,6 +7972,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dodger_blue3",
           "package": "wumpus-drawing",
@@ -7319,6 +7985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dodger_blue4",
           "package": "wumpus-drawing",
@@ -7328,6 +7995,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "dodger_blue4",
           "package": "wumpus-drawing",
@@ -7340,6 +8008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "firebrick1",
           "package": "wumpus-drawing",
@@ -7349,6 +8018,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "firebrick1",
           "package": "wumpus-drawing",
@@ -7361,6 +8031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "firebrick2",
           "package": "wumpus-drawing",
@@ -7370,6 +8041,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "firebrick2",
           "package": "wumpus-drawing",
@@ -7382,6 +8054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "firebrick3",
           "package": "wumpus-drawing",
@@ -7391,6 +8064,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "firebrick3",
           "package": "wumpus-drawing",
@@ -7403,6 +8077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "firebrick4",
           "package": "wumpus-drawing",
@@ -7412,6 +8087,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "firebrick4",
           "package": "wumpus-drawing",
@@ -7424,6 +8100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "gold1",
           "package": "wumpus-drawing",
@@ -7433,6 +8110,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "gold1",
           "package": "wumpus-drawing",
@@ -7445,6 +8123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "gold2",
           "package": "wumpus-drawing",
@@ -7454,6 +8133,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "gold2",
           "package": "wumpus-drawing",
@@ -7466,6 +8146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "gold3",
           "package": "wumpus-drawing",
@@ -7475,6 +8156,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "gold3",
           "package": "wumpus-drawing",
@@ -7487,6 +8169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "gold4",
           "package": "wumpus-drawing",
@@ -7496,6 +8179,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "gold4",
           "package": "wumpus-drawing",
@@ -7508,6 +8192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "goldenrod1",
           "package": "wumpus-drawing",
@@ -7517,6 +8202,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "goldenrod1",
           "package": "wumpus-drawing",
@@ -7529,6 +8215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "goldenrod2",
           "package": "wumpus-drawing",
@@ -7538,6 +8225,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "goldenrod2",
           "package": "wumpus-drawing",
@@ -7550,6 +8238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "goldenrod3",
           "package": "wumpus-drawing",
@@ -7559,6 +8248,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "goldenrod3",
           "package": "wumpus-drawing",
@@ -7571,6 +8261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "goldenrod4",
           "package": "wumpus-drawing",
@@ -7580,6 +8271,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "goldenrod4",
           "package": "wumpus-drawing",
@@ -7592,6 +8284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "green1",
           "package": "wumpus-drawing",
@@ -7601,6 +8294,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "green1",
           "package": "wumpus-drawing",
@@ -7613,6 +8307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "green2",
           "package": "wumpus-drawing",
@@ -7622,6 +8317,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "green2",
           "package": "wumpus-drawing",
@@ -7634,6 +8330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "green3",
           "package": "wumpus-drawing",
@@ -7643,6 +8340,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "green3",
           "package": "wumpus-drawing",
@@ -7655,6 +8353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "green4",
           "package": "wumpus-drawing",
@@ -7664,6 +8363,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "green4",
           "package": "wumpus-drawing",
@@ -7676,6 +8376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "honeydew1",
           "package": "wumpus-drawing",
@@ -7685,6 +8386,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "honeydew1",
           "package": "wumpus-drawing",
@@ -7697,6 +8399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "honeydew2",
           "package": "wumpus-drawing",
@@ -7706,6 +8409,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "honeydew2",
           "package": "wumpus-drawing",
@@ -7718,6 +8422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "honeydew3",
           "package": "wumpus-drawing",
@@ -7727,6 +8432,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "honeydew3",
           "package": "wumpus-drawing",
@@ -7739,6 +8445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "honeydew4",
           "package": "wumpus-drawing",
@@ -7748,6 +8455,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "honeydew4",
           "package": "wumpus-drawing",
@@ -7760,6 +8468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "hot_pink1",
           "package": "wumpus-drawing",
@@ -7769,6 +8478,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "hot_pink1",
           "package": "wumpus-drawing",
@@ -7781,6 +8491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "hot_pink2",
           "package": "wumpus-drawing",
@@ -7790,6 +8501,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "hot_pink2",
           "package": "wumpus-drawing",
@@ -7802,6 +8514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "hot_pink3",
           "package": "wumpus-drawing",
@@ -7811,6 +8524,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "hot_pink3",
           "package": "wumpus-drawing",
@@ -7823,6 +8537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "hot_pink4",
           "package": "wumpus-drawing",
@@ -7832,6 +8547,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "hot_pink4",
           "package": "wumpus-drawing",
@@ -7844,6 +8560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "indian_red1",
           "package": "wumpus-drawing",
@@ -7853,6 +8570,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "indian_red1",
           "package": "wumpus-drawing",
@@ -7865,6 +8583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "indian_red2",
           "package": "wumpus-drawing",
@@ -7874,6 +8593,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "indian_red2",
           "package": "wumpus-drawing",
@@ -7886,6 +8606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "indian_red3",
           "package": "wumpus-drawing",
@@ -7895,6 +8616,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "indian_red3",
           "package": "wumpus-drawing",
@@ -7907,6 +8629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "indian_red4",
           "package": "wumpus-drawing",
@@ -7916,6 +8639,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "indian_red4",
           "package": "wumpus-drawing",
@@ -7928,6 +8652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "ivory1",
           "package": "wumpus-drawing",
@@ -7937,6 +8662,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "ivory1",
           "package": "wumpus-drawing",
@@ -7949,6 +8675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "ivory2",
           "package": "wumpus-drawing",
@@ -7958,6 +8685,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "ivory2",
           "package": "wumpus-drawing",
@@ -7970,6 +8698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "ivory3",
           "package": "wumpus-drawing",
@@ -7979,6 +8708,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "ivory3",
           "package": "wumpus-drawing",
@@ -7991,6 +8721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "ivory4",
           "package": "wumpus-drawing",
@@ -8000,6 +8731,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "ivory4",
           "package": "wumpus-drawing",
@@ -8012,6 +8744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "khaki1",
           "package": "wumpus-drawing",
@@ -8021,6 +8754,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "khaki1",
           "package": "wumpus-drawing",
@@ -8033,6 +8767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "khaki2",
           "package": "wumpus-drawing",
@@ -8042,6 +8777,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "khaki2",
           "package": "wumpus-drawing",
@@ -8054,6 +8790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "khaki3",
           "package": "wumpus-drawing",
@@ -8063,6 +8800,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "khaki3",
           "package": "wumpus-drawing",
@@ -8075,6 +8813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "khaki4",
           "package": "wumpus-drawing",
@@ -8084,6 +8823,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "khaki4",
           "package": "wumpus-drawing",
@@ -8096,6 +8836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "lavender_blush1",
           "package": "wumpus-drawing",
@@ -8105,6 +8846,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "lavender_blush1",
           "package": "wumpus-drawing",
@@ -8117,6 +8859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "lavender_blush2",
           "package": "wumpus-drawing",
@@ -8126,6 +8869,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "lavender_blush2",
           "package": "wumpus-drawing",
@@ -8138,6 +8882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "lavender_blush3",
           "package": "wumpus-drawing",
@@ -8147,6 +8892,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "lavender_blush3",
           "package": "wumpus-drawing",
@@ -8159,6 +8905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "lavender_blush4",
           "package": "wumpus-drawing",
@@ -8168,6 +8915,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "lavender_blush4",
           "package": "wumpus-drawing",
@@ -8180,6 +8928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "lemon_chiffon1",
           "package": "wumpus-drawing",
@@ -8189,6 +8938,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "lemon_chiffon1",
           "package": "wumpus-drawing",
@@ -8201,6 +8951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "lemon_chiffon2",
           "package": "wumpus-drawing",
@@ -8210,6 +8961,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "lemon_chiffon2",
           "package": "wumpus-drawing",
@@ -8222,6 +8974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "lemon_chiffon3",
           "package": "wumpus-drawing",
@@ -8231,6 +8984,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "lemon_chiffon3",
           "package": "wumpus-drawing",
@@ -8243,6 +8997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "lemon_chiffon4",
           "package": "wumpus-drawing",
@@ -8252,6 +9007,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "lemon_chiffon4",
           "package": "wumpus-drawing",
@@ -8264,6 +9020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_blue1",
           "package": "wumpus-drawing",
@@ -8273,6 +9030,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_blue1",
           "package": "wumpus-drawing",
@@ -8285,6 +9043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_blue2",
           "package": "wumpus-drawing",
@@ -8294,6 +9053,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_blue2",
           "package": "wumpus-drawing",
@@ -8306,6 +9066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_blue3",
           "package": "wumpus-drawing",
@@ -8315,6 +9076,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_blue3",
           "package": "wumpus-drawing",
@@ -8327,6 +9089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_blue4",
           "package": "wumpus-drawing",
@@ -8336,6 +9099,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_blue4",
           "package": "wumpus-drawing",
@@ -8348,6 +9112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_cyan1",
           "package": "wumpus-drawing",
@@ -8357,6 +9122,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_cyan1",
           "package": "wumpus-drawing",
@@ -8369,6 +9135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_cyan2",
           "package": "wumpus-drawing",
@@ -8378,6 +9145,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_cyan2",
           "package": "wumpus-drawing",
@@ -8390,6 +9158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_cyan3",
           "package": "wumpus-drawing",
@@ -8399,6 +9168,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_cyan3",
           "package": "wumpus-drawing",
@@ -8411,6 +9181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_cyan4",
           "package": "wumpus-drawing",
@@ -8420,6 +9191,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_cyan4",
           "package": "wumpus-drawing",
@@ -8432,6 +9204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_goldenrod1",
           "package": "wumpus-drawing",
@@ -8441,6 +9214,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_goldenrod1",
           "package": "wumpus-drawing",
@@ -8453,6 +9227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_goldenrod2",
           "package": "wumpus-drawing",
@@ -8462,6 +9237,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_goldenrod2",
           "package": "wumpus-drawing",
@@ -8474,6 +9250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_goldenrod3",
           "package": "wumpus-drawing",
@@ -8483,6 +9260,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_goldenrod3",
           "package": "wumpus-drawing",
@@ -8495,6 +9273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_goldenrod4",
           "package": "wumpus-drawing",
@@ -8504,6 +9283,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_goldenrod4",
           "package": "wumpus-drawing",
@@ -8516,6 +9296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_pink1",
           "package": "wumpus-drawing",
@@ -8525,6 +9306,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_pink1",
           "package": "wumpus-drawing",
@@ -8537,6 +9319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_pink2",
           "package": "wumpus-drawing",
@@ -8546,6 +9329,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_pink2",
           "package": "wumpus-drawing",
@@ -8558,6 +9342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_pink3",
           "package": "wumpus-drawing",
@@ -8567,6 +9352,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_pink3",
           "package": "wumpus-drawing",
@@ -8579,6 +9365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_pink4",
           "package": "wumpus-drawing",
@@ -8588,6 +9375,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_pink4",
           "package": "wumpus-drawing",
@@ -8600,6 +9388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_salmon1",
           "package": "wumpus-drawing",
@@ -8609,6 +9398,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_salmon1",
           "package": "wumpus-drawing",
@@ -8621,6 +9411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_salmon2",
           "package": "wumpus-drawing",
@@ -8630,6 +9421,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_salmon2",
           "package": "wumpus-drawing",
@@ -8642,6 +9434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_salmon3",
           "package": "wumpus-drawing",
@@ -8651,6 +9444,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_salmon3",
           "package": "wumpus-drawing",
@@ -8663,6 +9457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_salmon4",
           "package": "wumpus-drawing",
@@ -8672,6 +9467,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_salmon4",
           "package": "wumpus-drawing",
@@ -8684,6 +9480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_sky_blue1",
           "package": "wumpus-drawing",
@@ -8693,6 +9490,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_sky_blue1",
           "package": "wumpus-drawing",
@@ -8705,6 +9503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_sky_blue2",
           "package": "wumpus-drawing",
@@ -8714,6 +9513,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_sky_blue2",
           "package": "wumpus-drawing",
@@ -8726,6 +9526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_sky_blue3",
           "package": "wumpus-drawing",
@@ -8735,6 +9536,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_sky_blue3",
           "package": "wumpus-drawing",
@@ -8747,6 +9549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_sky_blue4",
           "package": "wumpus-drawing",
@@ -8756,6 +9559,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_sky_blue4",
           "package": "wumpus-drawing",
@@ -8768,6 +9572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_steel_blue1",
           "package": "wumpus-drawing",
@@ -8777,6 +9582,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_steel_blue1",
           "package": "wumpus-drawing",
@@ -8789,6 +9595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_steel_blue2",
           "package": "wumpus-drawing",
@@ -8798,6 +9605,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_steel_blue2",
           "package": "wumpus-drawing",
@@ -8810,6 +9618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_steel_blue3",
           "package": "wumpus-drawing",
@@ -8819,6 +9628,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_steel_blue3",
           "package": "wumpus-drawing",
@@ -8831,6 +9641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_steel_blue4",
           "package": "wumpus-drawing",
@@ -8840,6 +9651,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_steel_blue4",
           "package": "wumpus-drawing",
@@ -8852,6 +9664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_yellow1",
           "package": "wumpus-drawing",
@@ -8861,6 +9674,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_yellow1",
           "package": "wumpus-drawing",
@@ -8873,6 +9687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_yellow2",
           "package": "wumpus-drawing",
@@ -8882,6 +9697,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_yellow2",
           "package": "wumpus-drawing",
@@ -8894,6 +9710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_yellow3",
           "package": "wumpus-drawing",
@@ -8903,6 +9720,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_yellow3",
           "package": "wumpus-drawing",
@@ -8915,6 +9733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_yellow4",
           "package": "wumpus-drawing",
@@ -8924,6 +9743,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "light_yellow4",
           "package": "wumpus-drawing",
@@ -8936,6 +9756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "magenta1",
           "package": "wumpus-drawing",
@@ -8945,6 +9766,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "magenta1",
           "package": "wumpus-drawing",
@@ -8957,6 +9779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "magenta2",
           "package": "wumpus-drawing",
@@ -8966,6 +9789,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "magenta2",
           "package": "wumpus-drawing",
@@ -8978,6 +9802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "magenta3",
           "package": "wumpus-drawing",
@@ -8987,6 +9812,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "magenta3",
           "package": "wumpus-drawing",
@@ -8999,6 +9825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "magenta4",
           "package": "wumpus-drawing",
@@ -9008,6 +9835,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "magenta4",
           "package": "wumpus-drawing",
@@ -9020,6 +9848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "maroon1",
           "package": "wumpus-drawing",
@@ -9029,6 +9858,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "maroon1",
           "package": "wumpus-drawing",
@@ -9041,6 +9871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "maroon2",
           "package": "wumpus-drawing",
@@ -9050,6 +9881,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "maroon2",
           "package": "wumpus-drawing",
@@ -9062,6 +9894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "maroon3",
           "package": "wumpus-drawing",
@@ -9071,6 +9904,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "maroon3",
           "package": "wumpus-drawing",
@@ -9083,6 +9917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "maroon4",
           "package": "wumpus-drawing",
@@ -9092,6 +9927,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "maroon4",
           "package": "wumpus-drawing",
@@ -9104,6 +9940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "medium_orchid1",
           "package": "wumpus-drawing",
@@ -9113,6 +9950,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "medium_orchid1",
           "package": "wumpus-drawing",
@@ -9125,6 +9963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "medium_orchid2",
           "package": "wumpus-drawing",
@@ -9134,6 +9973,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "medium_orchid2",
           "package": "wumpus-drawing",
@@ -9146,6 +9986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "medium_orchid3",
           "package": "wumpus-drawing",
@@ -9155,6 +9996,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "medium_orchid3",
           "package": "wumpus-drawing",
@@ -9167,6 +10009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "medium_orchid4",
           "package": "wumpus-drawing",
@@ -9176,6 +10019,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "medium_orchid4",
           "package": "wumpus-drawing",
@@ -9188,6 +10032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "medium_purple1",
           "package": "wumpus-drawing",
@@ -9197,6 +10042,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "medium_purple1",
           "package": "wumpus-drawing",
@@ -9209,6 +10055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "medium_purple2",
           "package": "wumpus-drawing",
@@ -9218,6 +10065,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "medium_purple2",
           "package": "wumpus-drawing",
@@ -9230,6 +10078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "medium_purple3",
           "package": "wumpus-drawing",
@@ -9239,6 +10088,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "medium_purple3",
           "package": "wumpus-drawing",
@@ -9251,6 +10101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "medium_purple4",
           "package": "wumpus-drawing",
@@ -9260,6 +10111,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "medium_purple4",
           "package": "wumpus-drawing",
@@ -9272,6 +10124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "misty_rose1",
           "package": "wumpus-drawing",
@@ -9281,6 +10134,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "misty_rose1",
           "package": "wumpus-drawing",
@@ -9293,6 +10147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "misty_rose2",
           "package": "wumpus-drawing",
@@ -9302,6 +10157,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "misty_rose2",
           "package": "wumpus-drawing",
@@ -9314,6 +10170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "misty_rose3",
           "package": "wumpus-drawing",
@@ -9323,6 +10180,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "misty_rose3",
           "package": "wumpus-drawing",
@@ -9335,6 +10193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "misty_rose4",
           "package": "wumpus-drawing",
@@ -9344,6 +10203,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "misty_rose4",
           "package": "wumpus-drawing",
@@ -9356,6 +10216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "navajo_white1",
           "package": "wumpus-drawing",
@@ -9365,6 +10226,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "navajo_white1",
           "package": "wumpus-drawing",
@@ -9377,6 +10239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "navajo_white2",
           "package": "wumpus-drawing",
@@ -9386,6 +10249,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "navajo_white2",
           "package": "wumpus-drawing",
@@ -9398,6 +10262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "navajo_white3",
           "package": "wumpus-drawing",
@@ -9407,6 +10272,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "navajo_white3",
           "package": "wumpus-drawing",
@@ -9419,6 +10285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "navajo_white4",
           "package": "wumpus-drawing",
@@ -9428,6 +10295,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "navajo_white4",
           "package": "wumpus-drawing",
@@ -9440,6 +10308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "olive_drab1",
           "package": "wumpus-drawing",
@@ -9449,6 +10318,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "olive_drab1",
           "package": "wumpus-drawing",
@@ -9461,6 +10331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "olive_drab2",
           "package": "wumpus-drawing",
@@ -9470,6 +10341,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "olive_drab2",
           "package": "wumpus-drawing",
@@ -9482,6 +10354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "olive_drab3",
           "package": "wumpus-drawing",
@@ -9491,6 +10364,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "olive_drab3",
           "package": "wumpus-drawing",
@@ -9503,6 +10377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "olive_drab4",
           "package": "wumpus-drawing",
@@ -9512,6 +10387,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "olive_drab4",
           "package": "wumpus-drawing",
@@ -9524,6 +10400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orange1",
           "package": "wumpus-drawing",
@@ -9533,6 +10410,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orange1",
           "package": "wumpus-drawing",
@@ -9545,6 +10423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orange2",
           "package": "wumpus-drawing",
@@ -9554,6 +10433,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orange2",
           "package": "wumpus-drawing",
@@ -9566,6 +10446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orange3",
           "package": "wumpus-drawing",
@@ -9575,6 +10456,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orange3",
           "package": "wumpus-drawing",
@@ -9587,6 +10469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orange4",
           "package": "wumpus-drawing",
@@ -9596,6 +10479,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orange4",
           "package": "wumpus-drawing",
@@ -9608,6 +10492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orange_red1",
           "package": "wumpus-drawing",
@@ -9617,6 +10502,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orange_red1",
           "package": "wumpus-drawing",
@@ -9629,6 +10515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orange_red2",
           "package": "wumpus-drawing",
@@ -9638,6 +10525,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orange_red2",
           "package": "wumpus-drawing",
@@ -9650,6 +10538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orange_red3",
           "package": "wumpus-drawing",
@@ -9659,6 +10548,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orange_red3",
           "package": "wumpus-drawing",
@@ -9671,6 +10561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orange_red4",
           "package": "wumpus-drawing",
@@ -9680,6 +10571,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orange_red4",
           "package": "wumpus-drawing",
@@ -9692,6 +10584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orchid1",
           "package": "wumpus-drawing",
@@ -9701,6 +10594,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orchid1",
           "package": "wumpus-drawing",
@@ -9713,6 +10607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orchid2",
           "package": "wumpus-drawing",
@@ -9722,6 +10617,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orchid2",
           "package": "wumpus-drawing",
@@ -9734,6 +10630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orchid3",
           "package": "wumpus-drawing",
@@ -9743,6 +10640,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orchid3",
           "package": "wumpus-drawing",
@@ -9755,6 +10653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orchid4",
           "package": "wumpus-drawing",
@@ -9764,6 +10663,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "orchid4",
           "package": "wumpus-drawing",
@@ -9776,6 +10676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_green1",
           "package": "wumpus-drawing",
@@ -9785,6 +10686,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_green1",
           "package": "wumpus-drawing",
@@ -9797,6 +10699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_green2",
           "package": "wumpus-drawing",
@@ -9806,6 +10709,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_green2",
           "package": "wumpus-drawing",
@@ -9818,6 +10722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_green3",
           "package": "wumpus-drawing",
@@ -9827,6 +10732,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_green3",
           "package": "wumpus-drawing",
@@ -9839,6 +10745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_green4",
           "package": "wumpus-drawing",
@@ -9848,6 +10755,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_green4",
           "package": "wumpus-drawing",
@@ -9860,6 +10768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_turquoise1",
           "package": "wumpus-drawing",
@@ -9869,6 +10778,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_turquoise1",
           "package": "wumpus-drawing",
@@ -9881,6 +10791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_turquoise2",
           "package": "wumpus-drawing",
@@ -9890,6 +10801,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_turquoise2",
           "package": "wumpus-drawing",
@@ -9902,6 +10814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_turquoise3",
           "package": "wumpus-drawing",
@@ -9911,6 +10824,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_turquoise3",
           "package": "wumpus-drawing",
@@ -9923,6 +10837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_turquoise4",
           "package": "wumpus-drawing",
@@ -9932,6 +10847,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_turquoise4",
           "package": "wumpus-drawing",
@@ -9944,6 +10860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_violet_red1",
           "package": "wumpus-drawing",
@@ -9953,6 +10870,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_violet_red1",
           "package": "wumpus-drawing",
@@ -9965,6 +10883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_violet_red2",
           "package": "wumpus-drawing",
@@ -9974,6 +10893,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_violet_red2",
           "package": "wumpus-drawing",
@@ -9986,6 +10906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_violet_red3",
           "package": "wumpus-drawing",
@@ -9995,6 +10916,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_violet_red3",
           "package": "wumpus-drawing",
@@ -10007,6 +10929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_violet_red4",
           "package": "wumpus-drawing",
@@ -10016,6 +10939,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pale_violet_red4",
           "package": "wumpus-drawing",
@@ -10028,6 +10952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "peach_puff1",
           "package": "wumpus-drawing",
@@ -10037,6 +10962,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "peach_puff1",
           "package": "wumpus-drawing",
@@ -10049,6 +10975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "peach_puff2",
           "package": "wumpus-drawing",
@@ -10058,6 +10985,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "peach_puff2",
           "package": "wumpus-drawing",
@@ -10070,6 +10998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "peach_puff3",
           "package": "wumpus-drawing",
@@ -10079,6 +11008,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "peach_puff3",
           "package": "wumpus-drawing",
@@ -10091,6 +11021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "peach_puff4",
           "package": "wumpus-drawing",
@@ -10100,6 +11031,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "peach_puff4",
           "package": "wumpus-drawing",
@@ -10112,6 +11044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pink1",
           "package": "wumpus-drawing",
@@ -10121,6 +11054,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pink1",
           "package": "wumpus-drawing",
@@ -10133,6 +11067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pink2",
           "package": "wumpus-drawing",
@@ -10142,6 +11077,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pink2",
           "package": "wumpus-drawing",
@@ -10154,6 +11090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pink3",
           "package": "wumpus-drawing",
@@ -10163,6 +11100,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pink3",
           "package": "wumpus-drawing",
@@ -10175,6 +11113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pink4",
           "package": "wumpus-drawing",
@@ -10184,6 +11123,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "pink4",
           "package": "wumpus-drawing",
@@ -10196,6 +11136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "plum1",
           "package": "wumpus-drawing",
@@ -10205,6 +11146,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "plum1",
           "package": "wumpus-drawing",
@@ -10217,6 +11159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "plum2",
           "package": "wumpus-drawing",
@@ -10226,6 +11169,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "plum2",
           "package": "wumpus-drawing",
@@ -10238,6 +11182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "plum3",
           "package": "wumpus-drawing",
@@ -10247,6 +11192,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "plum3",
           "package": "wumpus-drawing",
@@ -10259,6 +11205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "plum4",
           "package": "wumpus-drawing",
@@ -10268,6 +11215,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "plum4",
           "package": "wumpus-drawing",
@@ -10280,6 +11228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "purple1",
           "package": "wumpus-drawing",
@@ -10289,6 +11238,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "purple1",
           "package": "wumpus-drawing",
@@ -10301,6 +11251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "purple2",
           "package": "wumpus-drawing",
@@ -10310,6 +11261,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "purple2",
           "package": "wumpus-drawing",
@@ -10322,6 +11274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "purple3",
           "package": "wumpus-drawing",
@@ -10331,6 +11284,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "purple3",
           "package": "wumpus-drawing",
@@ -10343,6 +11297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "purple4",
           "package": "wumpus-drawing",
@@ -10352,6 +11307,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "purple4",
           "package": "wumpus-drawing",
@@ -10364,6 +11320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "red1",
           "package": "wumpus-drawing",
@@ -10373,6 +11330,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "red1",
           "package": "wumpus-drawing",
@@ -10385,6 +11343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "red2",
           "package": "wumpus-drawing",
@@ -10394,6 +11353,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "red2",
           "package": "wumpus-drawing",
@@ -10406,6 +11366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "red3",
           "package": "wumpus-drawing",
@@ -10415,6 +11376,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "red3",
           "package": "wumpus-drawing",
@@ -10427,6 +11389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "red4",
           "package": "wumpus-drawing",
@@ -10436,6 +11399,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "red4",
           "package": "wumpus-drawing",
@@ -10448,6 +11412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "rosy_brown1",
           "package": "wumpus-drawing",
@@ -10457,6 +11422,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "rosy_brown1",
           "package": "wumpus-drawing",
@@ -10469,6 +11435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "rosy_brown2",
           "package": "wumpus-drawing",
@@ -10478,6 +11445,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "rosy_brown2",
           "package": "wumpus-drawing",
@@ -10490,6 +11458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "rosy_brown3",
           "package": "wumpus-drawing",
@@ -10499,6 +11468,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "rosy_brown3",
           "package": "wumpus-drawing",
@@ -10511,6 +11481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "rosy_brown4",
           "package": "wumpus-drawing",
@@ -10520,6 +11491,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "rosy_brown4",
           "package": "wumpus-drawing",
@@ -10532,6 +11504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "royal_blue1",
           "package": "wumpus-drawing",
@@ -10541,6 +11514,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "royal_blue1",
           "package": "wumpus-drawing",
@@ -10553,6 +11527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "royal_blue2",
           "package": "wumpus-drawing",
@@ -10562,6 +11537,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "royal_blue2",
           "package": "wumpus-drawing",
@@ -10574,6 +11550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "royal_blue3",
           "package": "wumpus-drawing",
@@ -10583,6 +11560,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "royal_blue3",
           "package": "wumpus-drawing",
@@ -10595,6 +11573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "royal_blue4",
           "package": "wumpus-drawing",
@@ -10604,6 +11583,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "royal_blue4",
           "package": "wumpus-drawing",
@@ -10616,6 +11596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "salmon1",
           "package": "wumpus-drawing",
@@ -10625,6 +11606,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "salmon1",
           "package": "wumpus-drawing",
@@ -10637,6 +11619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "salmon2",
           "package": "wumpus-drawing",
@@ -10646,6 +11629,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "salmon2",
           "package": "wumpus-drawing",
@@ -10658,6 +11642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "salmon3",
           "package": "wumpus-drawing",
@@ -10667,6 +11652,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "salmon3",
           "package": "wumpus-drawing",
@@ -10679,6 +11665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "salmon4",
           "package": "wumpus-drawing",
@@ -10688,6 +11675,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "salmon4",
           "package": "wumpus-drawing",
@@ -10700,6 +11688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sea_green1",
           "package": "wumpus-drawing",
@@ -10709,6 +11698,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sea_green1",
           "package": "wumpus-drawing",
@@ -10721,6 +11711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sea_green2",
           "package": "wumpus-drawing",
@@ -10730,6 +11721,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sea_green2",
           "package": "wumpus-drawing",
@@ -10742,6 +11734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sea_green3",
           "package": "wumpus-drawing",
@@ -10751,6 +11744,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sea_green3",
           "package": "wumpus-drawing",
@@ -10763,6 +11757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sea_green4",
           "package": "wumpus-drawing",
@@ -10772,6 +11767,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sea_green4",
           "package": "wumpus-drawing",
@@ -10784,6 +11780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "seashell1",
           "package": "wumpus-drawing",
@@ -10793,6 +11790,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "seashell1",
           "package": "wumpus-drawing",
@@ -10805,6 +11803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "seashell2",
           "package": "wumpus-drawing",
@@ -10814,6 +11813,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "seashell2",
           "package": "wumpus-drawing",
@@ -10826,6 +11826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "seashell3",
           "package": "wumpus-drawing",
@@ -10835,6 +11836,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "seashell3",
           "package": "wumpus-drawing",
@@ -10847,6 +11849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "seashell4",
           "package": "wumpus-drawing",
@@ -10856,6 +11859,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "seashell4",
           "package": "wumpus-drawing",
@@ -10868,6 +11872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sienna1",
           "package": "wumpus-drawing",
@@ -10877,6 +11882,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sienna1",
           "package": "wumpus-drawing",
@@ -10889,6 +11895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sienna2",
           "package": "wumpus-drawing",
@@ -10898,6 +11905,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sienna2",
           "package": "wumpus-drawing",
@@ -10910,6 +11918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sienna3",
           "package": "wumpus-drawing",
@@ -10919,6 +11928,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sienna3",
           "package": "wumpus-drawing",
@@ -10931,6 +11941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sienna4",
           "package": "wumpus-drawing",
@@ -10940,6 +11951,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sienna4",
           "package": "wumpus-drawing",
@@ -10952,6 +11964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sky_blue1",
           "package": "wumpus-drawing",
@@ -10961,6 +11974,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sky_blue1",
           "package": "wumpus-drawing",
@@ -10973,6 +11987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sky_blue2",
           "package": "wumpus-drawing",
@@ -10982,6 +11997,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sky_blue2",
           "package": "wumpus-drawing",
@@ -10994,6 +12010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sky_blue3",
           "package": "wumpus-drawing",
@@ -11003,6 +12020,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sky_blue3",
           "package": "wumpus-drawing",
@@ -11015,6 +12033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sky_blue4",
           "package": "wumpus-drawing",
@@ -11024,6 +12043,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "sky_blue4",
           "package": "wumpus-drawing",
@@ -11036,6 +12056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "slate_blue1",
           "package": "wumpus-drawing",
@@ -11045,6 +12066,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "slate_blue1",
           "package": "wumpus-drawing",
@@ -11057,6 +12079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "slate_blue2",
           "package": "wumpus-drawing",
@@ -11066,6 +12089,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "slate_blue2",
           "package": "wumpus-drawing",
@@ -11078,6 +12102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "slate_blue3",
           "package": "wumpus-drawing",
@@ -11087,6 +12112,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "slate_blue3",
           "package": "wumpus-drawing",
@@ -11099,6 +12125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "slate_blue4",
           "package": "wumpus-drawing",
@@ -11108,6 +12135,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "slate_blue4",
           "package": "wumpus-drawing",
@@ -11120,6 +12148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "slate_gray1",
           "package": "wumpus-drawing",
@@ -11129,6 +12158,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "slate_gray1",
           "package": "wumpus-drawing",
@@ -11141,6 +12171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "slate_gray2",
           "package": "wumpus-drawing",
@@ -11150,6 +12181,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "slate_gray2",
           "package": "wumpus-drawing",
@@ -11162,6 +12194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "slate_gray3",
           "package": "wumpus-drawing",
@@ -11171,6 +12204,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "slate_gray3",
           "package": "wumpus-drawing",
@@ -11183,6 +12217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "slate_gray4",
           "package": "wumpus-drawing",
@@ -11192,6 +12227,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "slate_gray4",
           "package": "wumpus-drawing",
@@ -11204,6 +12240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "snow1",
           "package": "wumpus-drawing",
@@ -11213,6 +12250,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "snow1",
           "package": "wumpus-drawing",
@@ -11225,6 +12263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "snow2",
           "package": "wumpus-drawing",
@@ -11234,6 +12273,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "snow2",
           "package": "wumpus-drawing",
@@ -11246,6 +12286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "snow3",
           "package": "wumpus-drawing",
@@ -11255,6 +12296,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "snow3",
           "package": "wumpus-drawing",
@@ -11267,6 +12309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "snow4",
           "package": "wumpus-drawing",
@@ -11276,6 +12319,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "snow4",
           "package": "wumpus-drawing",
@@ -11288,6 +12332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "spring_green1",
           "package": "wumpus-drawing",
@@ -11297,6 +12342,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "spring_green1",
           "package": "wumpus-drawing",
@@ -11309,6 +12355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "spring_green2",
           "package": "wumpus-drawing",
@@ -11318,6 +12365,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "spring_green2",
           "package": "wumpus-drawing",
@@ -11330,6 +12378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "spring_green3",
           "package": "wumpus-drawing",
@@ -11339,6 +12388,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "spring_green3",
           "package": "wumpus-drawing",
@@ -11351,6 +12401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "spring_green4",
           "package": "wumpus-drawing",
@@ -11360,6 +12411,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "spring_green4",
           "package": "wumpus-drawing",
@@ -11372,6 +12424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "steel_blue1",
           "package": "wumpus-drawing",
@@ -11381,6 +12434,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "steel_blue1",
           "package": "wumpus-drawing",
@@ -11393,6 +12447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "steel_blue2",
           "package": "wumpus-drawing",
@@ -11402,6 +12457,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "steel_blue2",
           "package": "wumpus-drawing",
@@ -11414,6 +12470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "steel_blue3",
           "package": "wumpus-drawing",
@@ -11423,6 +12480,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "steel_blue3",
           "package": "wumpus-drawing",
@@ -11435,6 +12493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "steel_blue4",
           "package": "wumpus-drawing",
@@ -11444,6 +12503,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "steel_blue4",
           "package": "wumpus-drawing",
@@ -11456,6 +12516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "tan1",
           "package": "wumpus-drawing",
@@ -11465,6 +12526,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "tan1",
           "package": "wumpus-drawing",
@@ -11477,6 +12539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "tan2",
           "package": "wumpus-drawing",
@@ -11486,6 +12549,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "tan2",
           "package": "wumpus-drawing",
@@ -11498,6 +12562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "tan3",
           "package": "wumpus-drawing",
@@ -11507,6 +12572,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "tan3",
           "package": "wumpus-drawing",
@@ -11519,6 +12585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "tan4",
           "package": "wumpus-drawing",
@@ -11528,6 +12595,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "tan4",
           "package": "wumpus-drawing",
@@ -11540,6 +12608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "thistle1",
           "package": "wumpus-drawing",
@@ -11549,6 +12618,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "thistle1",
           "package": "wumpus-drawing",
@@ -11561,6 +12631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "thistle2",
           "package": "wumpus-drawing",
@@ -11570,6 +12641,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "thistle2",
           "package": "wumpus-drawing",
@@ -11582,6 +12654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "thistle3",
           "package": "wumpus-drawing",
@@ -11591,6 +12664,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "thistle3",
           "package": "wumpus-drawing",
@@ -11603,6 +12677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "thistle4",
           "package": "wumpus-drawing",
@@ -11612,6 +12687,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "thistle4",
           "package": "wumpus-drawing",
@@ -11624,6 +12700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "tomato1",
           "package": "wumpus-drawing",
@@ -11633,6 +12710,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "tomato1",
           "package": "wumpus-drawing",
@@ -11645,6 +12723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "tomato2",
           "package": "wumpus-drawing",
@@ -11654,6 +12733,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "tomato2",
           "package": "wumpus-drawing",
@@ -11666,6 +12746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "tomato3",
           "package": "wumpus-drawing",
@@ -11675,6 +12756,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "tomato3",
           "package": "wumpus-drawing",
@@ -11687,6 +12769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "tomato4",
           "package": "wumpus-drawing",
@@ -11696,6 +12779,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "tomato4",
           "package": "wumpus-drawing",
@@ -11708,6 +12792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "turquoise1",
           "package": "wumpus-drawing",
@@ -11717,6 +12802,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "turquoise1",
           "package": "wumpus-drawing",
@@ -11729,6 +12815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "turquoise2",
           "package": "wumpus-drawing",
@@ -11738,6 +12825,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "turquoise2",
           "package": "wumpus-drawing",
@@ -11750,6 +12838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "turquoise3",
           "package": "wumpus-drawing",
@@ -11759,6 +12848,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "turquoise3",
           "package": "wumpus-drawing",
@@ -11771,6 +12861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "turquoise4",
           "package": "wumpus-drawing",
@@ -11780,6 +12871,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "turquoise4",
           "package": "wumpus-drawing",
@@ -11792,6 +12884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "violet_red1",
           "package": "wumpus-drawing",
@@ -11801,6 +12894,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "violet_red1",
           "package": "wumpus-drawing",
@@ -11813,6 +12907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "violet_red2",
           "package": "wumpus-drawing",
@@ -11822,6 +12917,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "violet_red2",
           "package": "wumpus-drawing",
@@ -11834,6 +12930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "violet_red3",
           "package": "wumpus-drawing",
@@ -11843,6 +12940,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "violet_red3",
           "package": "wumpus-drawing",
@@ -11855,6 +12953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "violet_red4",
           "package": "wumpus-drawing",
@@ -11864,6 +12963,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "violet_red4",
           "package": "wumpus-drawing",
@@ -11876,6 +12976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "wheat1",
           "package": "wumpus-drawing",
@@ -11885,6 +12986,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "wheat1",
           "package": "wumpus-drawing",
@@ -11897,6 +12999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "wheat2",
           "package": "wumpus-drawing",
@@ -11906,6 +13009,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "wheat2",
           "package": "wumpus-drawing",
@@ -11918,6 +13022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "wheat3",
           "package": "wumpus-drawing",
@@ -11927,6 +13032,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "wheat3",
           "package": "wumpus-drawing",
@@ -11939,6 +13045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "wheat4",
           "package": "wumpus-drawing",
@@ -11948,6 +13055,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "wheat4",
           "package": "wumpus-drawing",
@@ -11960,6 +13068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "yellow1",
           "package": "wumpus-drawing",
@@ -11969,6 +13078,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "yellow1",
           "package": "wumpus-drawing",
@@ -11981,6 +13091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "yellow2",
           "package": "wumpus-drawing",
@@ -11990,6 +13101,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "yellow2",
           "package": "wumpus-drawing",
@@ -12002,6 +13114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "yellow3",
           "package": "wumpus-drawing",
@@ -12011,6 +13124,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "yellow3",
           "package": "wumpus-drawing",
@@ -12023,6 +13137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "yellow4",
           "package": "wumpus-drawing",
@@ -12032,6 +13147,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Colour X11Colours",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Colour.X11Colours",
           "name": "yellow4",
           "package": "wumpus-drawing",
@@ -12045,6 +13161,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eArrowheads.\n\u003c/p\u003e\u003cp\u003e** WARNING ** - naming scheme due to change.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "Arrowheads",
           "package": "wumpus-drawing",
@@ -12054,6 +13171,7 @@
         "index": {
           "description": "Arrowheads WARNING naming scheme due to change",
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "Arrowheads",
           "package": "wumpus-drawing",
@@ -12067,6 +13185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "barb45",
           "package": "wumpus-drawing",
@@ -12076,6 +13195,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "barb45",
           "package": "wumpus-drawing",
@@ -12088,6 +13208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "barb60",
           "package": "wumpus-drawing",
@@ -12097,6 +13218,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "barb60",
           "package": "wumpus-drawing",
@@ -12109,6 +13231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "barb90",
           "package": "wumpus-drawing",
@@ -12118,6 +13241,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "barb90",
           "package": "wumpus-drawing",
@@ -12130,6 +13254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "bracket",
           "package": "wumpus-drawing",
@@ -12139,6 +13264,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "bracket",
           "package": "wumpus-drawing",
@@ -12151,6 +13277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "curveTip",
           "package": "wumpus-drawing",
@@ -12160,6 +13287,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "curveTip",
           "package": "wumpus-drawing",
@@ -12173,6 +13301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "diamondTip",
           "package": "wumpus-drawing",
@@ -12182,6 +13311,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "diamondTip",
           "package": "wumpus-drawing",
@@ -12195,6 +13325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "diamondWideTip",
           "package": "wumpus-drawing",
@@ -12204,6 +13335,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "diamondWideTip",
           "package": "wumpus-drawing",
@@ -12217,6 +13349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "diskTip",
           "package": "wumpus-drawing",
@@ -12226,6 +13359,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "diskTip",
           "package": "wumpus-drawing",
@@ -12239,6 +13373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "odiamondTip",
           "package": "wumpus-drawing",
@@ -12248,6 +13383,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "odiamondTip",
           "package": "wumpus-drawing",
@@ -12261,6 +13397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "odiamondWideTip",
           "package": "wumpus-drawing",
@@ -12270,6 +13407,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "odiamondWideTip",
           "package": "wumpus-drawing",
@@ -12283,6 +13421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "odiskTip",
           "package": "wumpus-drawing",
@@ -12292,6 +13431,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "odiskTip",
           "package": "wumpus-drawing",
@@ -12305,6 +13445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "orevtri45",
           "package": "wumpus-drawing",
@@ -12314,6 +13455,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "orevtri45",
           "package": "wumpus-drawing",
@@ -12326,6 +13468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "orevtri60",
           "package": "wumpus-drawing",
@@ -12335,6 +13478,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "orevtri60",
           "package": "wumpus-drawing",
@@ -12347,6 +13491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "orevtri90",
           "package": "wumpus-drawing",
@@ -12356,6 +13501,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "orevtri90",
           "package": "wumpus-drawing",
@@ -12368,6 +13514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "osquareTip",
           "package": "wumpus-drawing",
@@ -12377,6 +13524,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "osquareTip",
           "package": "wumpus-drawing",
@@ -12390,6 +13538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "otri45",
           "package": "wumpus-drawing",
@@ -12399,6 +13548,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "otri45",
           "package": "wumpus-drawing",
@@ -12411,6 +13561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "otri60",
           "package": "wumpus-drawing",
@@ -12420,6 +13571,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "otri60",
           "package": "wumpus-drawing",
@@ -12432,6 +13584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "otri90",
           "package": "wumpus-drawing",
@@ -12441,6 +13594,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "otri90",
           "package": "wumpus-drawing",
@@ -12453,6 +13607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "perp",
           "package": "wumpus-drawing",
@@ -12462,6 +13617,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "perp",
           "package": "wumpus-drawing",
@@ -12474,6 +13630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "revbarb45",
           "package": "wumpus-drawing",
@@ -12483,6 +13640,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "revbarb45",
           "package": "wumpus-drawing",
@@ -12495,6 +13653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "revbarb60",
           "package": "wumpus-drawing",
@@ -12504,6 +13663,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "revbarb60",
           "package": "wumpus-drawing",
@@ -12516,6 +13676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "revbarb90",
           "package": "wumpus-drawing",
@@ -12525,6 +13686,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "revbarb90",
           "package": "wumpus-drawing",
@@ -12537,6 +13699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "revcurveTip",
           "package": "wumpus-drawing",
@@ -12546,6 +13709,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "revcurveTip",
           "package": "wumpus-drawing",
@@ -12559,6 +13723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "revtri45",
           "package": "wumpus-drawing",
@@ -12568,6 +13733,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "revtri45",
           "package": "wumpus-drawing",
@@ -12580,6 +13746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "revtri60",
           "package": "wumpus-drawing",
@@ -12589,6 +13756,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "revtri60",
           "package": "wumpus-drawing",
@@ -12601,6 +13769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "revtri90",
           "package": "wumpus-drawing",
@@ -12610,6 +13779,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "revtri90",
           "package": "wumpus-drawing",
@@ -12622,6 +13792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "squareTip",
           "package": "wumpus-drawing",
@@ -12631,6 +13802,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "squareTip",
           "package": "wumpus-drawing",
@@ -12645,6 +13817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilled triangle - apex is 45 deg.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "tri45",
           "package": "wumpus-drawing",
@@ -12655,6 +13828,7 @@
         "index": {
           "description": "Filled triangle apex is deg",
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "tri45",
           "package": "wumpus-drawing",
@@ -12668,6 +13842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilled triangle - apex is 60 deg.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "tri60",
           "package": "wumpus-drawing",
@@ -12678,6 +13853,7 @@
         "index": {
           "description": "Filled triangle apex is deg",
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "tri60",
           "package": "wumpus-drawing",
@@ -12691,6 +13867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilled triangle - apex is 90 deg.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "tri90",
           "package": "wumpus-drawing",
@@ -12701,6 +13878,7 @@
         "index": {
           "description": "Filled triangle apex is deg",
           "hierarchy": "Wumpus Drawing Connectors Arrowheads",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Arrowheads",
           "name": "tri90",
           "package": "wumpus-drawing",
@@ -12714,6 +13892,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConnectors...\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "Base",
           "package": "wumpus-drawing",
@@ -12723,6 +13902,7 @@
         "index": {
           "description": "Connectors",
           "hierarchy": "Wumpus Drawing Connectors Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "Base",
           "package": "wumpus-drawing",
@@ -12736,6 +13916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "ArrowConnector",
           "package": "wumpus-drawing",
@@ -12744,6 +13925,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "ArrowConnector",
           "package": "wumpus-drawing",
@@ -12758,6 +13940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArrowhead \u003cem\u003ealgorithm\u003c/em\u003e - the components of an arrowhead.\n\u003c/p\u003e\u003cp\u003eRetract distance is rather vague - depending on the arrowhead\n it may represent a flush join between the path and the tip\n or a join that uses the z-order (tip over path) to create the \n join.\n\u003c/p\u003e\u003cp\u003e** WARNING ** - pending revision...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "ArrowTip",
           "package": "wumpus-drawing",
@@ -12767,6 +13950,7 @@
         "index": {
           "description": "Arrowhead algorithm the components of an arrowhead Retract distance is rather vague depending on the arrowhead it may represent flush join between the path and the tip or join that uses the z-order tip over path to create the join WARNING pending revision",
           "hierarchy": "Wumpus Drawing Connectors Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "ArrowTip",
           "package": "wumpus-drawing",
@@ -12781,6 +13965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etotal_path is the path before accounting for arrow \n retract distances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "ConnectorConfig",
           "package": "wumpus-drawing",
@@ -12790,6 +13975,7 @@
         "index": {
           "description": "total path is the path before accounting for arrow retract distances",
           "hierarchy": "Wumpus Drawing Connectors Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "ConnectorConfig",
           "package": "wumpus-drawing",
@@ -12804,6 +13990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of Connectors - a query from start and end point \n returning an AbsPath.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "ConnectorPathQuery",
           "package": "wumpus-drawing",
@@ -12813,6 +14000,7 @@
         "index": {
           "description": "The type of Connectors query from start and end point returning an AbsPath",
           "hierarchy": "Wumpus Drawing Connectors Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "ConnectorPathQuery",
           "package": "wumpus-drawing",
@@ -12826,6 +14014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "ConnectorPathSpec",
           "package": "wumpus-drawing",
@@ -12834,6 +14023,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "ConnectorPathSpec",
           "package": "wumpus-drawing",
@@ -12847,6 +14037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "SpacingProjection",
           "package": "wumpus-drawing",
@@ -12855,6 +14046,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "SpacingProjection",
           "package": "wumpus-drawing",
@@ -12868,6 +14060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "ArrowTip",
           "package": "wumpus-drawing",
@@ -12877,6 +14070,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "ArrowTip",
           "package": "wumpus-drawing",
@@ -12890,6 +14084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "ConnectorConfig",
           "package": "wumpus-drawing",
@@ -12899,6 +14094,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "ConnectorConfig",
           "package": "wumpus-drawing",
@@ -12912,6 +14108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "ConnectorPathSpec",
           "package": "wumpus-drawing",
@@ -12921,6 +14118,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "ConnectorPathSpec",
           "package": "wumpus-drawing",
@@ -12934,6 +14132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "arrowDecoratePath",
           "package": "wumpus-drawing",
@@ -12943,6 +14142,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "arrowDecoratePath",
           "normalized": "Maybe ArrowTip-\u003eMaybe ArrowTip-\u003eAbsPath a-\u003eImage a(AbsPath a)",
@@ -12958,6 +14158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "conn_arrowl",
           "package": "wumpus-drawing",
@@ -12967,6 +14168,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "conn_arrowl",
           "package": "wumpus-drawing",
@@ -12979,6 +14181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "conn_arrowr",
           "package": "wumpus-drawing",
@@ -12988,6 +14191,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "conn_arrowr",
           "package": "wumpus-drawing",
@@ -13000,6 +14204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "conn_path_spec",
           "package": "wumpus-drawing",
@@ -13009,6 +14214,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "conn_path_spec",
           "package": "wumpus-drawing",
@@ -13021,6 +14227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "getConnectorPathSpec",
           "package": "wumpus-drawing",
@@ -13030,6 +14237,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "getConnectorPathSpec",
           "normalized": "ConnectorProps-\u003eConnectorPathQuery a",
@@ -13046,6 +14254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "leftArrowConnector",
           "package": "wumpus-drawing",
@@ -13056,6 +14265,7 @@
         "index": {
           "description": "Shorthand",
           "hierarchy": "Wumpus Drawing Connectors Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "leftArrowConnector",
           "normalized": "ConnectorProps-\u003eConnectorPathSpec a-\u003eArrowTip-\u003eConnectorImage a(AbsPath a)",
@@ -13072,6 +14282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNOTE - the prefix \u003cem\u003erender\u003c/em\u003e needs (re-) consideration...\n\u003c/p\u003e\u003cp\u003eIf it is a good prefix other functions e.g. drawPath should \n use render rather than draw.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "renderConnectorConfig",
           "package": "wumpus-drawing",
@@ -13082,6 +14293,7 @@
         "index": {
           "description": "NOTE the prefix render needs re consideration If it is good prefix other functions e.g drawPath should use render rather than draw",
           "hierarchy": "Wumpus Drawing Connectors Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "renderConnectorConfig",
           "normalized": "ConnectorProps-\u003eConnectorConfig a-\u003eConnectorImage a(AbsPath a)",
@@ -13097,6 +14309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "retract_distance",
           "package": "wumpus-drawing",
@@ -13106,6 +14319,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "retract_distance",
           "package": "wumpus-drawing",
@@ -13118,6 +14332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "rightArrowConnector",
           "package": "wumpus-drawing",
@@ -13127,6 +14342,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "rightArrowConnector",
           "normalized": "ConnectorProps-\u003eConnectorPathSpec a-\u003eArrowTip-\u003eConnectorImage a(AbsPath a)",
@@ -13142,6 +14358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "tip_deco",
           "package": "wumpus-drawing",
@@ -13151,6 +14368,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "tip_deco",
           "package": "wumpus-drawing",
@@ -13163,6 +14381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "tip_half_len",
           "package": "wumpus-drawing",
@@ -13172,6 +14391,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "tip_half_len",
           "package": "wumpus-drawing",
@@ -13184,6 +14404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "uniformArrowConnector",
           "package": "wumpus-drawing",
@@ -13193,6 +14414,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.Base",
           "name": "uniformArrowConnector",
           "normalized": "ConnectorProps-\u003eConnectorPathSpec a-\u003eArrowTip-\u003eConnectorImage a(AbsPath a)",
@@ -13209,6 +14431,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBox connectors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.BoxConnectors",
           "name": "BoxConnectors",
           "package": "wumpus-drawing",
@@ -13218,6 +14441,7 @@
         "index": {
           "description": "Box connectors",
           "hierarchy": "Wumpus Drawing Connectors BoxConnectors",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.BoxConnectors",
           "name": "BoxConnectors",
           "package": "wumpus-drawing",
@@ -13232,6 +14456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of BoxConnectors - a query from start and end point \n to a Path. \n\u003c/p\u003e\u003cp\u003eNote - unlike a \u003ccode\u003eConnector\u003c/code\u003e, a BoxConnnector is expected to be \n closed, then filled, stroked or bordered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.BoxConnectors",
           "name": "ConnectorBox",
           "package": "wumpus-drawing",
@@ -13241,6 +14466,7 @@
         "index": {
           "description": "The type of BoxConnectors query from start and end point to Path Note unlike Connector BoxConnnector is expected to be closed then filled stroked or bordered",
           "hierarchy": "Wumpus Drawing Connectors BoxConnectors",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.BoxConnectors",
           "name": "ConnectorBox",
           "package": "wumpus-drawing",
@@ -13254,6 +14480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.BoxConnectors",
           "name": "ConnectorBoxSpec",
           "package": "wumpus-drawing",
@@ -13262,6 +14489,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors BoxConnectors",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.BoxConnectors",
           "name": "ConnectorBoxSpec",
           "package": "wumpus-drawing",
@@ -13275,6 +14503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.BoxConnectors",
           "name": "ConnectorBoxSpec",
           "package": "wumpus-drawing",
@@ -13284,6 +14513,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors BoxConnectors",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.BoxConnectors",
           "name": "ConnectorBoxSpec",
           "package": "wumpus-drawing",
@@ -13298,6 +14528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a stroked, rectangular box around the connector points.\n\u003c/p\u003e\u003cp\u003eThe rectangle will be inclined to the line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.BoxConnectors",
           "name": "conn_box",
           "package": "wumpus-drawing",
@@ -13308,6 +14539,7 @@
         "index": {
           "description": "Draw stroked rectangular box around the connector points The rectangle will be inclined to the line",
           "hierarchy": "Wumpus Drawing Connectors BoxConnectors",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.BoxConnectors",
           "name": "conn_box",
           "package": "wumpus-drawing",
@@ -13321,6 +14553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a stroked, chamfered box around the connector points.\n\u003c/p\u003e\u003cp\u003eThe tube will be inclined to the line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.BoxConnectors",
           "name": "conn_chamf_box",
           "package": "wumpus-drawing",
@@ -13331,6 +14564,7 @@
         "index": {
           "description": "Draw stroked chamfered box around the connector points The tube will be inclined to the line",
           "hierarchy": "Wumpus Drawing Connectors BoxConnectors",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.BoxConnectors",
           "name": "conn_chamf_box",
           "package": "wumpus-drawing",
@@ -13344,6 +14578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a stroked, tube around the connector points.\n\u003c/p\u003e\u003cp\u003eThe tube will be inclined to the line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.BoxConnectors",
           "name": "conn_tube",
           "package": "wumpus-drawing",
@@ -13354,6 +14589,7 @@
         "index": {
           "description": "Draw stroked tube around the connector points The tube will be inclined to the line",
           "hierarchy": "Wumpus Drawing Connectors BoxConnectors",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.BoxConnectors",
           "name": "conn_tube",
           "package": "wumpus-drawing",
@@ -13366,6 +14602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.BoxConnectors",
           "name": "getConnectorBoxSpec",
           "package": "wumpus-drawing",
@@ -13375,6 +14612,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors BoxConnectors",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.BoxConnectors",
           "name": "getConnectorBoxSpec",
           "normalized": "ConnectorProps-\u003eConnectorBox a",
@@ -13390,6 +14628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.BoxConnectors",
           "name": "renderConnectorBoxSpec",
           "package": "wumpus-drawing",
@@ -13399,6 +14638,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors BoxConnectors",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.BoxConnectors",
           "name": "renderConnectorBoxSpec",
           "normalized": "ConnectorProps-\u003eConnectorBoxSpec a-\u003eConnectorBox a",
@@ -13415,6 +14655,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrimitive connectors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "ConnectorPaths",
           "package": "wumpus-drawing",
@@ -13424,6 +14665,7 @@
         "index": {
           "description": "Primitive connectors",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "ConnectorPaths",
           "package": "wumpus-drawing",
@@ -13438,6 +14680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiagonal-horizontal connector.\n\u003c/p\u003e\u003cpre\u003e    --@\n   /\n  o\n\u003c/pre\u003e\u003cp\u003eRestricted variant of \u003ccode\u003ehconndiag\u003c/code\u003e - a diagonal segment is drawn \n from the start point joining a horizontal arm drawn from the \n end point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_diagh",
           "package": "wumpus-drawing",
@@ -13448,6 +14691,7 @@
         "index": {
           "description": "Diagonal-horizontal connector Restricted variant of hconndiag diagonal segment is drawn from the start point joining horizontal arm drawn from the end point",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_diagh",
           "package": "wumpus-drawing",
@@ -13461,6 +14705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiagonal-vertical connector.\n\u003c/p\u003e\u003cpre\u003e    @\n    |\n   /\n  o\n\u003c/pre\u003e\u003cp\u003eRestricted variant of \u003ccode\u003evconndiag\u003c/code\u003e - a diagonal segment is drawn \n from the start point joining a vertical arm drawn from the end \n point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_diagv",
           "package": "wumpus-drawing",
@@ -13471,6 +14716,7 @@
         "index": {
           "description": "Diagonal-vertical connector Restricted variant of vconndiag diagonal segment is drawn from the start point joining vertical arm drawn from the end point",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_diagv",
           "package": "wumpus-drawing",
@@ -13484,6 +14730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBezier curve connector - the control points are positioned \n horizontally respective to the source and dest.\n\u003c/p\u003e\u003cpre\u003e  *--@ \n    .  \n   . \n  o--*  \n\u003c/pre\u003e\u003cp\u003eNote - the source and dest arm lengths are doubled, generally \n this produces nicer curves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_hbezier",
           "package": "wumpus-drawing",
@@ -13494,6 +14741,7 @@
         "index": {
           "description": "Bezier curve connector the control points are positioned horizontally respective to the source and dest Note the source and dest arm lengths are doubled generally this produces nicer curves",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_hbezier",
           "package": "wumpus-drawing",
@@ -13507,6 +14755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontal-diagonal connector.\n\u003c/p\u003e\u003cpre\u003e      @\n     /\n  o--\n\u003c/pre\u003e\u003cp\u003eRestricted variant of \u003ccode\u003ehconndiag\u003c/code\u003e - a horizontal arm is drawn\n from the start point joining a diagonal segment drawn from the \n end point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_hdiag",
           "package": "wumpus-drawing",
@@ -13517,6 +14766,7 @@
         "index": {
           "description": "Horizontal-diagonal connector Restricted variant of hconndiag horizontal arm is drawn from the start point joining diagonal segment drawn from the end point",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_hdiag",
           "package": "wumpus-drawing",
@@ -13530,6 +14780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontal-diagonal-horizontal connector.\n\u003c/p\u003e\u003cpre\u003e      --@\n     /\n  o--\n\u003c/pre\u003e\u003cp\u003eHorizontal \u003cem\u003earms\u003c/em\u003e are drawn from the start and end points, a\n diagonal segment joins the arms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_hdiagh",
           "package": "wumpus-drawing",
@@ -13540,6 +14791,7 @@
         "index": {
           "description": "Horizontal-diagonal-horizontal connector Horizontal arms are drawn from the start and end points diagonal segment joins the arms",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_hdiagh",
           "package": "wumpus-drawing",
@@ -13553,6 +14805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnector with two horizontal segments and a joining \n vertical segment.\n\u003c/p\u003e\u003cpre\u003e       ,--@\n       |\n  o----'  \n\u003c/pre\u003e\u003cp\u003eThe length of the first horizontal segment is the source arm \n length. The length of the final segment is the remaining \n horizontal distance. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_hrr",
           "package": "wumpus-drawing",
@@ -13563,6 +14816,7 @@
         "index": {
           "description": "Connector with two horizontal segments and joining vertical segment The length of the first horizontal segment is the source arm length The length of the final segment is the remaining horizontal distance",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_hrr",
           "package": "wumpus-drawing",
@@ -13576,6 +14830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStraight line connector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_line",
           "package": "wumpus-drawing",
@@ -13586,6 +14841,7 @@
         "index": {
           "description": "Straight line connector",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_line",
           "package": "wumpus-drawing",
@@ -13599,6 +14855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnector with two horizontal segements and a joining \n vertical segment.\n\u003c/p\u003e\u003cpre\u003e     ,----@\n     |\n  o--'  \n\u003c/pre\u003e\u003cp\u003eThe length of the final horizontal segment is the destination \n arm length. The length of the initial segment is the remaining\n horizontal distance. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_rrh",
           "package": "wumpus-drawing",
@@ -13609,6 +14866,7 @@
         "index": {
           "description": "Connector with two horizontal segements and joining vertical segment The length of the final horizontal segment is the destination arm length The length of the initial segment is the remaining horizontal distance",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_rrh",
           "package": "wumpus-drawing",
@@ -13622,6 +14880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnector with two right angles...\n\u003c/p\u003e\u003cpre\u003e       @\n       |\n  ,----'\n  |\n  o  \n\u003c/pre\u003e\u003cp\u003eThe length of the final vertical segment is the destination \n arm length. The length of the initial segment is the remaining\n vertical distance. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_rrv",
           "package": "wumpus-drawing",
@@ -13632,6 +14891,7 @@
         "index": {
           "description": "Connector with two right angles The length of the final vertical segment is the destination arm length The length of the initial segment is the remaining vertical distance",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_rrv",
           "package": "wumpus-drawing",
@@ -13645,6 +14905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBezier curve connector - the control points are positioned \n vertically respective to the source and dest.\n\u003c/p\u003e\u003cpre\u003e        @ \n       .|  \n  *  .  *\n  |.\n  o\n\u003c/pre\u003e\u003cp\u003eNote - the source and dest arm lengths are doubled, generally \n this produces nicer curves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_vbezier",
           "package": "wumpus-drawing",
@@ -13655,6 +14916,7 @@
         "index": {
           "description": "Bezier curve connector the control points are positioned vertically respective to the source and dest Note the source and dest arm lengths are doubled generally this produces nicer curves",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_vbezier",
           "package": "wumpus-drawing",
@@ -13668,6 +14930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertical-diagonal connector.\n\u003c/p\u003e\u003cpre\u003e    @\n   /\n  |\n  o\n\u003c/pre\u003e\u003cp\u003eRestricted variant of \u003ccode\u003evconndiag\u003c/code\u003e - a horizontal arm is drawn\n from the start point joining a vertical segment drawn from the \n end point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_vdiag",
           "package": "wumpus-drawing",
@@ -13678,6 +14941,7 @@
         "index": {
           "description": "Vertical-diagonal connector Restricted variant of vconndiag horizontal arm is drawn from the start point joining vertical segment drawn from the end point",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_vdiag",
           "package": "wumpus-drawing",
@@ -13691,6 +14955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertical-diagonal-vertical connector.\n\u003c/p\u003e\u003cpre\u003e  @\n  |\n   \\\n    |\n    o\n\u003c/pre\u003e\u003cp\u003eVertical \u003cem\u003earms\u003c/em\u003e are drawn from the start and end points, a\n diagonal segment joins the arms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_vdiagv",
           "package": "wumpus-drawing",
@@ -13701,6 +14966,7 @@
         "index": {
           "description": "Vertical-diagonal-vertical connector Vertical arms are drawn from the start and end points diagonal segment joins the arms",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_vdiagv",
           "package": "wumpus-drawing",
@@ -13714,6 +14980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnector with two right angles...\n\u003c/p\u003e\u003cpre\u003e       @\n       |\n  ,----'\n  |\n  o  \n\u003c/pre\u003e\u003cp\u003eThe length of the first vertical segment is the source arm \n length. The length of the final segment is the remaining \n vertical distance. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_vrr",
           "package": "wumpus-drawing",
@@ -13724,6 +14991,7 @@
         "index": {
           "description": "Connector with two right angles The length of the first vertical segment is the source arm length The length of the final segment is the remaining vertical distance",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conn_vrr",
           "package": "wumpus-drawing",
@@ -13737,6 +15005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForm an arc connector.\n\u003c/p\u003e\u003cp\u003eIf the conn_arc_angle in the Drawing context is positive the arc\n will be formed \u003cem\u003eabove\u003c/em\u003e the straight line joining the points. \n If the angle is negative it will be drawn below. \n\u003c/p\u003e\u003cp\u003eThe notion of \u003cem\u003eabove\u003c/em\u003e is respective to the line direction, of \n course.\n\u003c/p\u003e\u003cp\u003eTODO - above and below versions...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conna_arc",
           "package": "wumpus-drawing",
@@ -13747,6 +15016,7 @@
         "index": {
           "description": "Form an arc connector If the conn arc angle in the Drawing context is positive the arc will be formed above the straight line joining the points If the angle is negative it will be drawn below The notion of above is respective to the line direction of course TODO above and below versions",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conna_arc",
           "package": "wumpus-drawing",
@@ -13760,6 +15030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBar connector.\n\u003c/p\u003e\u003cpre\u003e  ,----, \n  |    |\n  o    @  \n\u003c/pre\u003e\u003cp\u003eThe bar is drawn \u003cem\u003eabove\u003c/em\u003e the points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conna_bar",
           "package": "wumpus-drawing",
@@ -13770,6 +15041,7 @@
         "index": {
           "description": "Bar connector The bar is drawn above the points",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conna_bar",
           "package": "wumpus-drawing",
@@ -13783,6 +15055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eFlam\u003c/em\u003e connector.\n\u003c/p\u003e\u003cpre\u003e    ,- '\n  ,-   | \n  |    |\n  o    @  \n\u003c/pre\u003e\u003cp\u003eThe bar is drawn \u003cem\u003eabove\u003c/em\u003e the points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conna_flam",
           "package": "wumpus-drawing",
@@ -13793,6 +15066,7 @@
         "index": {
           "description": "Flam connector The bar is drawn above the points",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conna_flam",
           "package": "wumpus-drawing",
@@ -13806,6 +15080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoop connector.\n\u003c/p\u003e\u003cpre\u003e  ,---------, \n  |         |\n  '-o    @--'\n\u003c/pre\u003e\u003cp\u003eThe loop is drawn \u003cem\u003eabove\u003c/em\u003e the points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conna_loop",
           "package": "wumpus-drawing",
@@ -13816,6 +15091,7 @@
         "index": {
           "description": "Loop connector The loop is drawn above the points",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conna_loop",
           "package": "wumpus-drawing",
@@ -13829,6 +15105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBar connector - always orthonormal .\n\u003c/p\u003e\u003cpre\u003e  \n  ,----, \n  |    |\n  o    @  \n\u003c/pre\u003e\u003cp\u003eThe bar is drawn \u003cem\u003eabove\u003c/em\u003e the points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conna_orthohbar",
           "package": "wumpus-drawing",
@@ -13839,6 +15116,7 @@
         "index": {
           "description": "Bar connector always orthonormal The bar is drawn above the points",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conna_orthohbar",
           "package": "wumpus-drawing",
@@ -13852,6 +15130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBar connector - always orthonormal.\n\u003c/p\u003e\u003cpre\u003e  \n  ,--- o \n  |   \n  '--- @  \n \n\u003c/pre\u003e\u003cp\u003eThe bar is drawn \u003cem\u003eleft\u003c/em\u003e of the points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conna_orthovbar",
           "package": "wumpus-drawing",
@@ -13862,6 +15141,7 @@
         "index": {
           "description": "Bar connector always orthonormal The bar is drawn left of the points",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conna_orthovbar",
           "package": "wumpus-drawing",
@@ -13875,6 +15155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight angle connector.\n\u003c/p\u003e\u003cpre\u003e  ,----@ \n  | \n  o   \n\u003c/pre\u003e\u003cp\u003eThe bar is drawn \u003cem\u003eabove\u003c/em\u003e the points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conna_right",
           "package": "wumpus-drawing",
@@ -13885,6 +15166,7 @@
         "index": {
           "description": "Right angle connector The bar is drawn above the points",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "conna_right",
           "package": "wumpus-drawing",
@@ -13898,6 +15180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBelow version of \u003ccode\u003e\u003ca\u003econna_arc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "connb_arc",
           "package": "wumpus-drawing",
@@ -13908,6 +15191,7 @@
         "index": {
           "description": "Below version of conna arc",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "connb_arc",
           "package": "wumpus-drawing",
@@ -13921,6 +15205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBar connector.\n\u003c/p\u003e\u003cpre\u003e  o    @ \n  |    |\n  '----'  \n\u003c/pre\u003e\u003cp\u003eThe bar is drawn \u003cem\u003ebelow\u003c/em\u003e the points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "connb_bar",
           "package": "wumpus-drawing",
@@ -13931,6 +15216,7 @@
         "index": {
           "description": "Bar connector The bar is drawn below the points",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "connb_bar",
           "package": "wumpus-drawing",
@@ -13944,6 +15230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eFlam\u003c/em\u003e connector - bleow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "connb_flam",
           "package": "wumpus-drawing",
@@ -13954,6 +15241,7 @@
         "index": {
           "description": "Flam connector bleow",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "connb_flam",
           "package": "wumpus-drawing",
@@ -13967,6 +15255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoop connector.\n\u003c/p\u003e\u003cpre\u003e  ,-o    @--, \n  |         |\n  '---------'\n\u003c/pre\u003e\u003cp\u003eThe loop is drawn \u003cem\u003ebelow\u003c/em\u003e the points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "connb_loop",
           "package": "wumpus-drawing",
@@ -13977,6 +15266,7 @@
         "index": {
           "description": "Loop connector The loop is drawn below the points",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "connb_loop",
           "package": "wumpus-drawing",
@@ -13990,6 +15280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBar connector orthonormal - below.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "connb_orthohbar",
           "package": "wumpus-drawing",
@@ -14000,6 +15291,7 @@
         "index": {
           "description": "Bar connector orthonormal below",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "connb_orthohbar",
           "package": "wumpus-drawing",
@@ -14013,6 +15305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBar connector orthonormal - right of the points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "connb_orthovbar",
           "package": "wumpus-drawing",
@@ -14023,6 +15316,7 @@
         "index": {
           "description": "Bar connector orthonormal right of the points",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "connb_orthovbar",
           "package": "wumpus-drawing",
@@ -14036,6 +15330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight angle connector.\n\u003c/p\u003e\u003cpre\u003e       @ \n       |\n  o----'  \n\u003c/pre\u003e\u003cp\u003eThe bar is drawn \u003cem\u003ebelow\u003c/em\u003e the points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "connb_right",
           "package": "wumpus-drawing",
@@ -14046,6 +15341,7 @@
         "index": {
           "description": "Right angle connector The bar is drawn below the points",
           "hierarchy": "Wumpus Drawing Connectors ConnectorPaths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorPaths",
           "name": "connb_right",
           "package": "wumpus-drawing",
@@ -14059,6 +15355,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConnectors...\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "ConnectorProps",
           "package": "wumpus-drawing",
@@ -14068,6 +15365,7 @@
         "index": {
           "description": "Connectors",
           "hierarchy": "Wumpus Drawing Connectors ConnectorProps",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "ConnectorProps",
           "package": "wumpus-drawing",
@@ -14082,6 +15380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnectorProps control the drawing of connectors in \n Wumpus-Drawing.\n\u003c/p\u003e\u003cpre\u003e conn_src_space     :: Em\n conn_dst_space     :: Em\n\u003c/pre\u003e\u003cp\u003eSource and destination offsets - these offset the drawing of\n the connector perpendicular to the direction of line formed \n between the connector points (a positive offset is drawn above, \n a negative offset below). The main use of offsets is to draw\n parallel line connectors.\n\u003c/p\u003e\u003cpre\u003e conn_arc_ang       :: Radian \n\u003c/pre\u003e\u003cp\u003eControl the \u003cem\u003ebend\u003c/em\u003e of an arc connector.\n\u003c/p\u003e\u003cpre\u003e conn_src_arm       :: Em\n conn_dst_arm       :: Em \n\u003c/pre\u003e\u003cp\u003eControl the \u003cem\u003earm\u003c/em\u003e length of a jointed connector - arms are the \n initial segments of the connector. \n\u003c/p\u003e\u003cpre\u003e conn_loop_size     :: Em\n\u003c/pre\u003e\u003cp\u003eControl the \u003cem\u003eheight\u003c/em\u003e of a loop connector. \n\u003c/p\u003e\u003cpre\u003e conn_box_halfsize  :: Em\n\u003c/pre\u003e\u003cp\u003eControl the size of a connector box. Connector boxes are \n drawn with the exterior lines projected out from the connector\n points a halfsize above and below.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "ConnectorProps",
           "package": "wumpus-drawing",
@@ -14091,6 +15390,7 @@
         "index": {
           "description": "ConnectorProps control the drawing of connectors in Wumpus-Drawing conn src space Em conn dst space Em Source and destination offsets these offset the drawing of the connector perpendicular to the direction of line formed between the connector points positive offset is drawn above negative offset below The main use of offsets is to draw parallel line connectors conn arc ang Radian Control the bend of an arc connector conn src arm Em conn dst arm Em Control the arm length of jointed connector arms are the initial segments of the connector conn loop size Em Control the height of loop connector conn box halfsize Em Control the size of connector box Connector boxes are drawn with the exterior lines projected out from the connector points halfsize above and below",
           "hierarchy": "Wumpus Drawing Connectors ConnectorProps",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "ConnectorProps",
           "package": "wumpus-drawing",
@@ -14104,6 +15404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "ConnectorProps",
           "package": "wumpus-drawing",
@@ -14113,6 +15414,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors ConnectorProps",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "ConnectorProps",
           "package": "wumpus-drawing",
@@ -14126,6 +15428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "conn_arc_ang",
           "package": "wumpus-drawing",
@@ -14135,6 +15438,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors ConnectorProps",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "conn_arc_ang",
           "package": "wumpus-drawing",
@@ -14147,6 +15451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "conn_box_halfsize",
           "package": "wumpus-drawing",
@@ -14156,6 +15461,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors ConnectorProps",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "conn_box_halfsize",
           "package": "wumpus-drawing",
@@ -14168,6 +15474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "conn_dst_arm",
           "package": "wumpus-drawing",
@@ -14177,6 +15484,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors ConnectorProps",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "conn_dst_arm",
           "package": "wumpus-drawing",
@@ -14189,6 +15497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "conn_dst_space",
           "package": "wumpus-drawing",
@@ -14198,6 +15507,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors ConnectorProps",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "conn_dst_space",
           "package": "wumpus-drawing",
@@ -14210,6 +15520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "conn_loop_size",
           "package": "wumpus-drawing",
@@ -14219,6 +15530,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors ConnectorProps",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "conn_loop_size",
           "package": "wumpus-drawing",
@@ -14231,6 +15543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "conn_src_arm",
           "package": "wumpus-drawing",
@@ -14240,6 +15553,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors ConnectorProps",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "conn_src_arm",
           "package": "wumpus-drawing",
@@ -14252,6 +15566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "conn_src_space",
           "package": "wumpus-drawing",
@@ -14261,6 +15576,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors ConnectorProps",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "conn_src_space",
           "package": "wumpus-drawing",
@@ -14273,6 +15589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "connectorArms",
           "package": "wumpus-drawing",
@@ -14282,6 +15599,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors ConnectorProps",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "connectorArms",
           "normalized": "ConnectorProps-\u003ea(b,b)",
@@ -14297,6 +15615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "connectorBoxHalfSize",
           "package": "wumpus-drawing",
@@ -14306,6 +15625,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors ConnectorProps",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "connectorBoxHalfSize",
           "normalized": "ConnectorProps-\u003ea b",
@@ -14321,6 +15641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "connectorDstSpace",
           "package": "wumpus-drawing",
@@ -14330,6 +15651,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors ConnectorProps",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "connectorDstSpace",
           "normalized": "ConnectorProps-\u003ea b",
@@ -14346,6 +15668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003elegs\u003c/em\u003e are Arms + spacing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "connectorLegs",
           "package": "wumpus-drawing",
@@ -14356,6 +15679,7 @@
         "index": {
           "description": "legs are Arms spacing",
           "hierarchy": "Wumpus Drawing Connectors ConnectorProps",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "connectorLegs",
           "normalized": "ConnectorProps-\u003ea(b,b)",
@@ -14371,6 +15695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "connectorLoopSize",
           "package": "wumpus-drawing",
@@ -14380,6 +15705,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors ConnectorProps",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "connectorLoopSize",
           "normalized": "ConnectorProps-\u003ea b",
@@ -14395,6 +15721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "connectorSrcSpace",
           "package": "wumpus-drawing",
@@ -14404,6 +15731,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Connectors ConnectorProps",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "connectorSrcSpace",
           "normalized": "ConnectorProps-\u003ea b",
@@ -14420,6 +15748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault connector properties.\n\u003c/p\u003e\u003cpre\u003e conn_src_sep:        0\n conn_dst_sep:        0\n conn_arc_ang:        pi / 12\n conn_src_arm:        1\n conn_dst_arm:        1\n conn_loop_size:      2 \n conn_box_half_size:  2\n\u003c/pre\u003e\u003cp\u003eArc angle is 15deg - quite shallow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "default_connector_props",
           "package": "wumpus-drawing",
@@ -14430,6 +15759,7 @@
         "index": {
           "description": "Default connector properties conn src sep conn dst sep conn arc ang pi conn src arm conn dst arm conn loop size conn box half size Arc angle is deg quite shallow",
           "hierarchy": "Wumpus Drawing Connectors ConnectorProps",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors.ConnectorProps",
           "name": "default_connector_props",
           "package": "wumpus-drawing",
@@ -14443,6 +15773,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eShim module for Connectors.\n\u003c/p\u003e\u003cp\u003e** WARNING ** - this is due to change...\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Connectors",
           "name": "Connectors",
           "package": "wumpus-drawing",
@@ -14452,6 +15783,7 @@
         "index": {
           "description": "Shim module for Connectors WARNING this is due to change",
           "hierarchy": "Wumpus Drawing Connectors",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Connectors",
           "name": "Connectors",
           "package": "wumpus-drawing",
@@ -14466,6 +15798,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDots with anchors.\n\u003c/p\u003e\u003cp\u003eIn many cases a surrounding circle is used to locate anchor\n points - this could be improved to use the actual dot border \n at some point.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "AnchorDots",
           "package": "wumpus-drawing",
@@ -14475,6 +15808,7 @@
         "index": {
           "description": "Dots with anchors In many cases surrounding circle is used to locate anchor points this could be improved to use the actual dot border at some point",
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "AnchorDots",
           "package": "wumpus-drawing",
@@ -14488,6 +15822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "DDotLocImage",
           "package": "wumpus-drawing",
@@ -14496,6 +15831,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "DDotLocImage",
           "package": "wumpus-drawing",
@@ -14510,6 +15846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll dots return the same thing a \u003ccode\u003e\u003ca\u003eDotAnchor\u003c/a\u003e\u003c/code\u003e which supports \n the same (limited) see of anchors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "DotAnchor",
           "package": "wumpus-drawing",
@@ -14519,6 +15856,7 @@
         "index": {
           "description": "All dots return the same thing DotAnchor which supports the same limited see of anchors",
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "DotAnchor",
           "package": "wumpus-drawing",
@@ -14532,6 +15870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "DotLocImage",
           "package": "wumpus-drawing",
@@ -14540,6 +15879,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "DotLocImage",
           "package": "wumpus-drawing",
@@ -14553,6 +15893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotAsterisk",
           "package": "wumpus-drawing",
@@ -14562,6 +15903,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotAsterisk",
           "package": "wumpus-drawing",
@@ -14575,6 +15917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotChar",
           "package": "wumpus-drawing",
@@ -14584,6 +15927,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotChar",
           "normalized": "Char-\u003eDotLocImage a",
@@ -14599,6 +15943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotCircle",
           "package": "wumpus-drawing",
@@ -14608,6 +15953,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotCircle",
           "package": "wumpus-drawing",
@@ -14621,6 +15967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotCross",
           "package": "wumpus-drawing",
@@ -14630,6 +15977,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotCross",
           "package": "wumpus-drawing",
@@ -14643,6 +15991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotDiamond",
           "package": "wumpus-drawing",
@@ -14652,6 +16001,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotDiamond",
           "package": "wumpus-drawing",
@@ -14665,6 +16015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotDisk",
           "package": "wumpus-drawing",
@@ -14674,6 +16025,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotDisk",
           "package": "wumpus-drawing",
@@ -14687,6 +16039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotFDiamond",
           "package": "wumpus-drawing",
@@ -14696,6 +16049,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotFDiamond",
           "package": "wumpus-drawing",
@@ -14709,6 +16063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotFOCross",
           "package": "wumpus-drawing",
@@ -14718,6 +16073,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotFOCross",
           "package": "wumpus-drawing",
@@ -14731,6 +16087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotHBar",
           "package": "wumpus-drawing",
@@ -14740,6 +16097,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotHBar",
           "package": "wumpus-drawing",
@@ -14753,6 +16111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotNone",
           "package": "wumpus-drawing",
@@ -14762,6 +16121,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotNone",
           "package": "wumpus-drawing",
@@ -14775,6 +16135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotOCross",
           "package": "wumpus-drawing",
@@ -14784,6 +16145,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotOCross",
           "package": "wumpus-drawing",
@@ -14797,6 +16159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotOPlus",
           "package": "wumpus-drawing",
@@ -14806,6 +16169,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotOPlus",
           "package": "wumpus-drawing",
@@ -14819,6 +16183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotPentagon",
           "package": "wumpus-drawing",
@@ -14828,6 +16193,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotPentagon",
           "package": "wumpus-drawing",
@@ -14841,6 +16207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotPlus",
           "package": "wumpus-drawing",
@@ -14850,6 +16217,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotPlus",
           "package": "wumpus-drawing",
@@ -14863,6 +16231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotSquare",
           "package": "wumpus-drawing",
@@ -14872,6 +16241,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotSquare",
           "package": "wumpus-drawing",
@@ -14885,6 +16255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotStar",
           "package": "wumpus-drawing",
@@ -14894,6 +16265,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotStar",
           "package": "wumpus-drawing",
@@ -14907,6 +16279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotText",
           "package": "wumpus-drawing",
@@ -14916,6 +16289,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotText",
           "normalized": "String-\u003eDotLocImage a",
@@ -14931,6 +16305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotTriangle",
           "package": "wumpus-drawing",
@@ -14940,6 +16315,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotTriangle",
           "package": "wumpus-drawing",
@@ -14953,6 +16329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotVBar",
           "package": "wumpus-drawing",
@@ -14962,6 +16339,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotVBar",
           "package": "wumpus-drawing",
@@ -14975,6 +16353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotX",
           "package": "wumpus-drawing",
@@ -14984,6 +16363,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "dotX",
           "package": "wumpus-drawing",
@@ -14996,6 +16376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "largeCirc",
           "package": "wumpus-drawing",
@@ -15005,6 +16386,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "largeCirc",
           "package": "wumpus-drawing",
@@ -15018,6 +16400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "largeDisk",
           "package": "wumpus-drawing",
@@ -15027,6 +16410,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "largeDisk",
           "package": "wumpus-drawing",
@@ -15040,6 +16424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "smallCirc",
           "package": "wumpus-drawing",
@@ -15049,6 +16434,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "smallCirc",
           "package": "wumpus-drawing",
@@ -15062,6 +16448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "smallDisk",
           "package": "wumpus-drawing",
@@ -15071,6 +16458,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots AnchorDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.AnchorDots",
           "name": "smallDisk",
           "package": "wumpus-drawing",
@@ -15085,6 +16473,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple dots - no anchor handles.\n\u003c/p\u003e\u003cp\u003eUse these where you just want to draw Dots, and do not need\n connectors between them. \n\u003c/p\u003e\u003cp\u003eThe text and char marks need loaded glyph metrics for proper \n centering. \n\u003c/p\u003e\u003cp\u003e** WARNING ** - names are expected to change - filled and\n background-filled marks need a naming convention.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "SimpleDots",
           "package": "wumpus-drawing",
@@ -15094,6 +16483,7 @@
         "index": {
           "description": "Simple dots no anchor handles Use these where you just want to draw Dots and do not need connectors between them The text and char marks need loaded glyph metrics for proper centering WARNING names are expected to change filled and background-filled marks need naming convention",
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "SimpleDots",
           "package": "wumpus-drawing",
@@ -15108,6 +16498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarkUnit is a contextual unit like \u003ccode\u003e\u003ca\u003eEm\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eEn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIt is 3/4 of the current font size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "MarkSize",
           "package": "wumpus-drawing",
@@ -15117,6 +16508,7 @@
         "index": {
           "description": "MarkUnit is contextual unit like Em and En It is of the current font size",
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "MarkSize",
           "package": "wumpus-drawing",
@@ -15130,6 +16522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotAsterisk",
           "package": "wumpus-drawing",
@@ -15139,6 +16532,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotAsterisk",
           "package": "wumpus-drawing",
@@ -15152,6 +16546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotBDiamond",
           "package": "wumpus-drawing",
@@ -15161,6 +16556,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotBDiamond",
           "package": "wumpus-drawing",
@@ -15174,6 +16570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotChar",
           "package": "wumpus-drawing",
@@ -15183,6 +16580,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotChar",
           "normalized": "Char-\u003eLocGraphic a",
@@ -15198,6 +16596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotCircle",
           "package": "wumpus-drawing",
@@ -15207,6 +16606,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotCircle",
           "package": "wumpus-drawing",
@@ -15220,6 +16620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotCross",
           "package": "wumpus-drawing",
@@ -15229,6 +16630,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotCross",
           "package": "wumpus-drawing",
@@ -15242,6 +16644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotDiamond",
           "package": "wumpus-drawing",
@@ -15251,6 +16654,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotDiamond",
           "package": "wumpus-drawing",
@@ -15265,6 +16669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote disk is filled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotDisk",
           "package": "wumpus-drawing",
@@ -15275,6 +16680,7 @@
         "index": {
           "description": "Note disk is filled",
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotDisk",
           "package": "wumpus-drawing",
@@ -15288,6 +16694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotEscChar",
           "package": "wumpus-drawing",
@@ -15297,6 +16704,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotEscChar",
           "normalized": "EscapedChar-\u003eLocGraphic a",
@@ -15312,6 +16720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotEscText",
           "package": "wumpus-drawing",
@@ -15321,6 +16730,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotEscText",
           "normalized": "EscapedText-\u003eLocGraphic a",
@@ -15336,6 +16746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotFDiamond",
           "package": "wumpus-drawing",
@@ -15345,6 +16756,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotFDiamond",
           "package": "wumpus-drawing",
@@ -15358,6 +16770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotFOCross",
           "package": "wumpus-drawing",
@@ -15367,6 +16780,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotFOCross",
           "package": "wumpus-drawing",
@@ -15380,6 +16794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotHBar",
           "package": "wumpus-drawing",
@@ -15389,6 +16804,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotHBar",
           "package": "wumpus-drawing",
@@ -15402,6 +16818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotNone",
           "package": "wumpus-drawing",
@@ -15411,6 +16828,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotNone",
           "package": "wumpus-drawing",
@@ -15424,6 +16842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotOCross",
           "package": "wumpus-drawing",
@@ -15433,6 +16852,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotOCross",
           "package": "wumpus-drawing",
@@ -15446,6 +16866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotOPlus",
           "package": "wumpus-drawing",
@@ -15455,6 +16876,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotOPlus",
           "package": "wumpus-drawing",
@@ -15468,6 +16890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotPentagon",
           "package": "wumpus-drawing",
@@ -15477,6 +16900,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotPentagon",
           "package": "wumpus-drawing",
@@ -15490,6 +16914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotPlus",
           "package": "wumpus-drawing",
@@ -15499,6 +16924,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotPlus",
           "package": "wumpus-drawing",
@@ -15512,6 +16938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotSquare",
           "package": "wumpus-drawing",
@@ -15521,6 +16948,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotSquare",
           "package": "wumpus-drawing",
@@ -15534,6 +16962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotStar",
           "package": "wumpus-drawing",
@@ -15543,6 +16972,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotStar",
           "package": "wumpus-drawing",
@@ -15556,6 +16986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotText",
           "package": "wumpus-drawing",
@@ -15565,6 +16996,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotText",
           "normalized": "String-\u003eLocGraphic a",
@@ -15580,6 +17012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotTriangle",
           "package": "wumpus-drawing",
@@ -15589,6 +17022,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotTriangle",
           "package": "wumpus-drawing",
@@ -15602,6 +17036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotVBar",
           "package": "wumpus-drawing",
@@ -15611,6 +17046,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotVBar",
           "package": "wumpus-drawing",
@@ -15624,6 +17060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotX",
           "package": "wumpus-drawing",
@@ -15633,6 +17070,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "dotX",
           "package": "wumpus-drawing",
@@ -15646,6 +17084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStroked disk (circle) - radius 1.0 MarkSize.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "largeCirc",
           "package": "wumpus-drawing",
@@ -15656,6 +17095,7 @@
         "index": {
           "description": "Stroked disk circle radius MarkSize",
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "largeCirc",
           "package": "wumpus-drawing",
@@ -15670,6 +17110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilled disk - radius 1.0 MarkSize.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "largeDisk",
           "package": "wumpus-drawing",
@@ -15680,6 +17121,7 @@
         "index": {
           "description": "Filled disk radius MarkSize",
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "largeDisk",
           "package": "wumpus-drawing",
@@ -15694,6 +17136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStroked disk (circle) - radius 0.25 MarkSize.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "smallCirc",
           "package": "wumpus-drawing",
@@ -15704,6 +17147,7 @@
         "index": {
           "description": "Stroked disk circle radius MarkSize",
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "smallCirc",
           "package": "wumpus-drawing",
@@ -15718,6 +17162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilled disk - radius 0.25 MarkSize.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "smallDisk",
           "package": "wumpus-drawing",
@@ -15728,6 +17173,7 @@
         "index": {
           "description": "Filled disk radius MarkSize",
           "hierarchy": "Wumpus Drawing Dots SimpleDots",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Dots.SimpleDots",
           "name": "smallDisk",
           "package": "wumpus-drawing",
@@ -15742,6 +17188,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDrawing grids\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Axes",
           "name": "Axes",
           "package": "wumpus-drawing",
@@ -15751,6 +17198,7 @@
         "index": {
           "description": "Drawing grids",
           "hierarchy": "Wumpus Drawing Extras Axes",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Axes",
           "name": "Axes",
           "package": "wumpus-drawing",
@@ -15764,6 +17212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Axes",
           "name": "horizontalLabels",
           "package": "wumpus-drawing",
@@ -15773,6 +17222,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Extras Axes",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Axes",
           "name": "horizontalLabels",
           "normalized": "RectAddress-\u003e[a]-\u003eLocGraphic b",
@@ -15789,6 +17239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple orthonormal axes using snap grid units.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Axes",
           "name": "orthontAxes",
           "package": "wumpus-drawing",
@@ -15799,6 +17250,7 @@
         "index": {
           "description": "Simple orthonormal axes using snap grid units",
           "hierarchy": "Wumpus Drawing Extras Axes",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Axes",
           "name": "orthontAxes",
           "normalized": "(Int,Int)-\u003e(Int,Int)-\u003eLocGraphic a",
@@ -15814,6 +17266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Axes",
           "name": "verticalLabels",
           "package": "wumpus-drawing",
@@ -15823,6 +17276,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Extras Axes",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Axes",
           "name": "verticalLabels",
           "normalized": "RectAddress-\u003e[a]-\u003eLocGraphic b",
@@ -15839,6 +17293,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eClipping paths.\n\u003c/p\u003e\u003cp\u003eNote - at the moment there is nothing much to this module.\n Ideally, clipping would be defined in Wumpus-Basic, but clipping\n needs a higher level path object than Wumpus-Basic provides.\n\u003c/p\u003e\u003cp\u003e** WARNING ** names need improving.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Clip",
           "name": "Clip",
           "package": "wumpus-drawing",
@@ -15848,6 +17303,7 @@
         "index": {
           "description": "Clipping paths Note at the moment there is nothing much to this module Ideally clipping would be defined in Wumpus-Basic but clipping needs higher level path object than Wumpus-Basic provides WARNING names need improving",
           "hierarchy": "Wumpus Drawing Extras Clip",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Clip",
           "name": "Clip",
           "package": "wumpus-drawing",
@@ -15862,6 +17318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClip a LocGraphic.\n\u003c/p\u003e\u003cp\u003e** WARNING ** - AbsPath (coordinate-specific) is the wrong \n object to clip a LocGraphic (coordinate-free). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Clip",
           "name": "locClip",
           "package": "wumpus-drawing",
@@ -15872,6 +17329,7 @@
         "index": {
           "description": "Clip LocGraphic WARNING AbsPath coordinate-specific is the wrong object to clip LocGraphic coordinate-free",
           "hierarchy": "Wumpus Drawing Extras Clip",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Clip",
           "name": "locClip",
           "normalized": "AbsPath a-\u003eLocGraphic a-\u003eLocGraphic a",
@@ -15888,6 +17346,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDrawing grids\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "Grids",
           "package": "wumpus-drawing",
@@ -15897,6 +17356,7 @@
         "index": {
           "description": "Drawing grids",
           "hierarchy": "Wumpus Drawing Extras Grids",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "Grids",
           "package": "wumpus-drawing",
@@ -15910,6 +17370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "GridContextF",
           "package": "wumpus-drawing",
@@ -15918,6 +17379,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Extras Grids",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "GridContextF",
           "package": "wumpus-drawing",
@@ -15931,6 +17393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "dotted_major_grid",
           "package": "wumpus-drawing",
@@ -15940,6 +17403,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Extras Grids",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "dotted_major_grid",
           "package": "wumpus-drawing",
@@ -15952,6 +17416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "grid",
           "package": "wumpus-drawing",
@@ -15961,6 +17426,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Extras Grids",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "grid",
           "normalized": "GridContextF-\u003eInt-\u003eInt-\u003eLocGraphic a",
@@ -15975,6 +17441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "grid_label_colour",
           "package": "wumpus-drawing",
@@ -15984,6 +17451,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Extras Grids",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "grid_label_colour",
           "normalized": "RGBi-\u003eGridContextF",
@@ -15998,6 +17466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "grid_major_colour",
           "package": "wumpus-drawing",
@@ -16007,6 +17476,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Extras Grids",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "grid_major_colour",
           "normalized": "RGBi-\u003eGridContextF",
@@ -16021,6 +17491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "grid_major_dotnum",
           "package": "wumpus-drawing",
@@ -16030,6 +17501,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Extras Grids",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "grid_major_dotnum",
           "normalized": "Int-\u003eGridContextF",
@@ -16044,6 +17516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "grid_major_line_width",
           "package": "wumpus-drawing",
@@ -16053,6 +17526,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Extras Grids",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "grid_major_line_width",
           "normalized": "Double-\u003eGridContextF",
@@ -16067,6 +17541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "grid_minor_colour",
           "package": "wumpus-drawing",
@@ -16076,6 +17551,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Extras Grids",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "grid_minor_colour",
           "normalized": "RGBi-\u003eGridContextF",
@@ -16090,6 +17566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "grid_minor_dotnum",
           "package": "wumpus-drawing",
@@ -16099,6 +17576,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Extras Grids",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "grid_minor_dotnum",
           "normalized": "Int-\u003eGridContextF",
@@ -16113,6 +17591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "grid_minor_line_width",
           "package": "wumpus-drawing",
@@ -16122,6 +17601,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Extras Grids",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "grid_minor_line_width",
           "normalized": "Double-\u003eGridContextF",
@@ -16136,6 +17616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "grid_minor_subdivisions",
           "package": "wumpus-drawing",
@@ -16145,6 +17626,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Extras Grids",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "grid_minor_subdivisions",
           "normalized": "Int-\u003eGridContextF",
@@ -16159,6 +17641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "grid_point_size",
           "package": "wumpus-drawing",
@@ -16168,6 +17651,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Extras Grids",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "grid_point_size",
           "normalized": "FontSize-\u003eGridContextF",
@@ -16182,6 +17666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "standard_grid",
           "package": "wumpus-drawing",
@@ -16191,6 +17676,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Extras Grids",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Grids",
           "name": "standard_grid",
           "package": "wumpus-drawing",
@@ -16204,6 +17690,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOpen loop for a circle (useful for automata diagrams).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Loop",
           "name": "Loop",
           "package": "wumpus-drawing",
@@ -16213,6 +17700,7 @@
         "index": {
           "description": "Open loop for circle useful for automata diagrams",
           "hierarchy": "Wumpus Drawing Extras Loop",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Loop",
           "name": "Loop",
           "package": "wumpus-drawing",
@@ -16226,6 +17714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Loop",
           "name": "loopPath",
           "package": "wumpus-drawing",
@@ -16235,6 +17724,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Extras Loop",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Loop",
           "name": "loopPath",
           "normalized": "a-\u003ePoint a-\u003eRadian-\u003eAbsPath a",
@@ -16250,6 +17740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Extras.Loop",
           "name": "loopTrail",
           "package": "wumpus-drawing",
@@ -16259,6 +17750,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Extras Loop",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Extras.Loop",
           "name": "loopTrail",
           "normalized": "a-\u003eRadian-\u003eAnaTrail a",
@@ -16275,6 +17767,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAbsolute path type - this should be more amenable for building \n complex drawings than the PrimPath type in Wumpus-Core.\n\u003c/p\u003e\u003cp\u003eNote - there is no concatenation (i.e. no Monoid instance),\n this is because concatenating ** absolute ** paths has no \n obvious interpretation - draw a join between the paths, move\n the second path to start where the first ends...\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003eCatTrail\u003c/code\u003e from Wumpus-Basic if you need a relative-path \n like object that supports concatenation, then convert it in a \n final step to an \u003ccode\u003eAbsPath\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "Base",
           "package": "wumpus-drawing",
@@ -16284,6 +17777,7 @@
         "index": {
           "description": "Absolute path type this should be more amenable for building complex drawings than the PrimPath type in Wumpus-Core Note there is no concatenation i.e no Monoid instance this is because concatenating absolute paths has no obvious interpretation draw join between the paths move the second path to start where the first ends Use CatTrail from Wumpus-Basic if you need relative-path like object that supports concatenation then convert it in final step to an AbsPath",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "Base",
           "package": "wumpus-drawing",
@@ -16298,6 +17792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbsolute path data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "AbsPath",
           "package": "wumpus-drawing",
@@ -16307,6 +17802,7 @@
         "index": {
           "description": "Absolute path data type",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "AbsPath",
           "package": "wumpus-drawing",
@@ -16320,6 +17816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "DAbsPath",
           "package": "wumpus-drawing",
@@ -16328,6 +17825,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "DAbsPath",
           "package": "wumpus-drawing",
@@ -16341,6 +17839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "DPathSegment",
           "package": "wumpus-drawing",
@@ -16349,6 +17848,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "DPathSegment",
           "package": "wumpus-drawing",
@@ -16362,6 +17862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "DPathViewL",
           "package": "wumpus-drawing",
@@ -16370,6 +17871,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "DPathViewL",
           "package": "wumpus-drawing",
@@ -16383,6 +17885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "DPathViewR",
           "package": "wumpus-drawing",
@@ -16391,6 +17894,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "DPathViewR",
           "package": "wumpus-drawing",
@@ -16405,6 +17909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePathSegments are annotated with length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "PathSegment",
           "package": "wumpus-drawing",
@@ -16414,6 +17919,7 @@
         "index": {
           "description": "PathSegments are annotated with length",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "PathSegment",
           "package": "wumpus-drawing",
@@ -16427,6 +17933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "PathViewL",
           "package": "wumpus-drawing",
@@ -16435,6 +17942,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "PathViewL",
           "package": "wumpus-drawing",
@@ -16448,6 +17956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "PathViewR",
           "package": "wumpus-drawing",
@@ -16456,6 +17965,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "PathViewR",
           "package": "wumpus-drawing",
@@ -16469,6 +17979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": ":\u003c\u003c",
           "package": "wumpus-drawing",
@@ -16478,6 +17989,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": ":\u003c\u003c",
           "package": "wumpus-drawing",
@@ -16490,6 +18002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": ":\u003e\u003e",
           "package": "wumpus-drawing",
@@ -16499,6 +18012,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": ":\u003e\u003e",
           "package": "wumpus-drawing",
@@ -16511,6 +18025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "CurveSeg",
           "package": "wumpus-drawing",
@@ -16520,6 +18035,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "CurveSeg",
           "package": "wumpus-drawing",
@@ -16533,6 +18049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "EmptyPathL",
           "package": "wumpus-drawing",
@@ -16542,6 +18059,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "EmptyPathL",
           "package": "wumpus-drawing",
@@ -16555,6 +18073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "EmptyPathR",
           "package": "wumpus-drawing",
@@ -16564,6 +18083,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "EmptyPathR",
           "package": "wumpus-drawing",
@@ -16577,6 +18097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "LineSeg",
           "package": "wumpus-drawing",
@@ -16586,6 +18107,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "LineSeg",
           "package": "wumpus-drawing",
@@ -16599,6 +18121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "anaTrailPath",
           "package": "wumpus-drawing",
@@ -16608,6 +18131,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "anaTrailPath",
           "normalized": "Point a-\u003eAnaTrail a-\u003eAbsPath a",
@@ -16623,6 +18147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "atend",
           "package": "wumpus-drawing",
@@ -16632,6 +18157,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "atend",
           "normalized": "AbsPath a-\u003e(Point a,Radian)",
@@ -16646,6 +18172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "atend_",
           "package": "wumpus-drawing",
@@ -16655,6 +18182,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "atend_",
           "normalized": "AbsPath a-\u003ePoint a",
@@ -16669,6 +18197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "atstart",
           "package": "wumpus-drawing",
@@ -16678,6 +18207,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "atstart",
           "normalized": "AbsPath a-\u003e(Point a,Radian)",
@@ -16692,6 +18222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "atstart_",
           "package": "wumpus-drawing",
@@ -16701,6 +18232,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "atstart_",
           "normalized": "AbsPath a-\u003ePoint a",
@@ -16715,6 +18247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "catTrailPath",
           "package": "wumpus-drawing",
@@ -16724,6 +18257,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "catTrailPath",
           "normalized": "Point a-\u003eCatTrail a-\u003eAbsPath a",
@@ -16740,6 +18274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is not an arc...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "controlCurve",
           "package": "wumpus-drawing",
@@ -16750,6 +18285,7 @@
         "index": {
           "description": "This is not an arc",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "controlCurve",
           "normalized": "Point a-\u003eRadian-\u003eRadian-\u003ePoint a-\u003eAbsPath a",
@@ -16766,6 +18302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an absolute path from a single cubic Bezier curve.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "curve1",
           "package": "wumpus-drawing",
@@ -16776,6 +18313,7 @@
         "index": {
           "description": "Create an absolute path from single cubic Bezier curve",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "curve1",
           "normalized": "Point a-\u003ePoint a-\u003ePoint a-\u003ePoint a-\u003eAbsPath a",
@@ -16791,6 +18329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecurvePath\u003c/a\u003e\u003c/code\u003e consumes 4 points from the list on the \n intial step (start, control1, control2, end) then steps \n through the list taking 3 points at a time thereafter\n (control1,control2, end). Leftover points are discarded.    \n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003ecurvePath\u003c/a\u003e\u003c/code\u003e throws a runtime error if the supplied list\n is has less than 4 elements (start, control1, control2, end). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "curvePath",
           "package": "wumpus-drawing",
@@ -16801,6 +18340,7 @@
         "index": {
           "description": "curvePath consumes points from the list on the intial step start control1 control2 end then steps through the list taking points at time thereafter control1 control2 end Leftover points are discarded curvePath throws runtime error if the supplied list is has less than elements start control1 control2 end",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "curvePath",
           "normalized": "[Point a]-\u003eAbsPath a",
@@ -16817,6 +18357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedraw an \u003ccode\u003e\u003ca\u003eAbsPath\u003c/a\u003e\u003c/code\u003e replacing the Bezier curves with three \n lines along the control vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "deBezier",
           "package": "wumpus-drawing",
@@ -16827,6 +18368,7 @@
         "index": {
           "description": "Redraw an AbsPath replacing the Bezier curves with three lines along the control vectors",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "deBezier",
           "normalized": "AbsPath a-\u003eAbsPath a",
@@ -16843,6 +18385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate the empty path.\n\u003c/p\u003e\u003cp\u003eNote - an absolute path needs \u003cem\u003elocating\u003c/em\u003e and cannot be built \n without a start point. Figuratively, the empty path is a path\n from the start point to the end point.\n\u003c/p\u003e\u003cp\u003eThus AbsPath operates as a semigroup but not a monoid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "emptyPath",
           "package": "wumpus-drawing",
@@ -16853,6 +18396,7 @@
         "index": {
           "description": "Create the empty path Note an absolute path needs locating and cannot be built without start point Figuratively the empty path is path from the start point to the end point Thus AbsPath operates as semigroup but not monoid",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "emptyPath",
           "normalized": "Point a-\u003eAbsPath a",
@@ -16869,6 +18413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirection of empty path is considered to be 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "inclinationL",
           "package": "wumpus-drawing",
@@ -16879,6 +18424,7 @@
         "index": {
           "description": "Direction of empty path is considered to be",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "inclinationL",
           "normalized": "AbsPath a-\u003eRadian",
@@ -16894,6 +18440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirection of empty path is considered to be 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "inclinationR",
           "package": "wumpus-drawing",
@@ -16904,6 +18451,7 @@
         "index": {
           "description": "Direction of empty path is considered to be",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "inclinationR",
           "normalized": "AbsPath a-\u003eRadian",
@@ -16919,6 +18467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the left tip a Bezier curve?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "isBezierL",
           "package": "wumpus-drawing",
@@ -16929,6 +18478,7 @@
         "index": {
           "description": "Is the left tip Bezier curve",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "isBezierL",
           "normalized": "AbsPath a-\u003eBool",
@@ -16945,6 +18495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the right tip a Bezier curve?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "isBezierR",
           "package": "wumpus-drawing",
@@ -16955,6 +18506,7 @@
         "index": {
           "description": "Is the right tip Bezier curve",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "isBezierR",
           "normalized": "AbsPath a-\u003eBool",
@@ -16971,6 +18523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength of the Path.\n\u003c/p\u003e\u003cp\u003eLength is the length of the path as it is drawn, it is not a \n count of the number or path segments.\n\u003c/p\u003e\u003cp\u003eLength is cached so this operation is cheap - though this puts\n a tax on the build operations. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "length",
           "package": "wumpus-drawing",
@@ -16981,6 +18534,7 @@
         "index": {
           "description": "Length of the Path Length is the length of the path as it is drawn it is not count of the number or path segments Length is cached so this operation is cheap though this puts tax on the build operations",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "length",
           "normalized": "AbsPath a-\u003ea",
@@ -16996,6 +18550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an absolute path as a straight line between the \n supplied points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "line1",
           "package": "wumpus-drawing",
@@ -17006,6 +18561,7 @@
         "index": {
           "description": "Create an absolute path as straight line between the supplied points",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "line1",
           "normalized": "Point a-\u003ePoint a-\u003eAbsPath a",
@@ -17020,6 +18576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "midway",
           "package": "wumpus-drawing",
@@ -17029,6 +18586,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "midway",
           "normalized": "AbsPath a-\u003e(Point a,Radian)",
@@ -17043,6 +18601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "midway_",
           "package": "wumpus-drawing",
@@ -17052,6 +18611,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "midway_",
           "normalized": "AbsPath a-\u003ePoint a",
@@ -17067,6 +18627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the path empty?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "null",
           "package": "wumpus-drawing",
@@ -17077,6 +18638,7 @@
         "index": {
           "description": "Is the path empty",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "null",
           "normalized": "AbsPath a-\u003eBool",
@@ -17091,6 +18653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "optimizeLines",
           "package": "wumpus-drawing",
@@ -17100,6 +18663,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "optimizeLines",
           "normalized": "AbsPath a-\u003eAbsPath a",
@@ -17116,6 +18680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis extracts the control points of Bezier curves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "pathAllPoints",
           "package": "wumpus-drawing",
@@ -17126,6 +18691,7 @@
         "index": {
           "description": "This extracts the control points of Bezier curves",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "pathAllPoints",
           "normalized": "AbsPath a-\u003e[Point a]",
@@ -17142,6 +18708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis does not extract the control points of Bezier curves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "pathMajorPoints",
           "package": "wumpus-drawing",
@@ -17152,6 +18719,7 @@
         "index": {
           "description": "This does not extract the control points of Bezier curves",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "pathMajorPoints",
           "normalized": "AbsPath a-\u003e[Point a]",
@@ -17167,6 +18735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "pathViewL",
           "package": "wumpus-drawing",
@@ -17176,6 +18745,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "pathViewL",
           "normalized": "AbsPath a-\u003ePathViewL a",
@@ -17191,6 +18761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "pathViewR",
           "package": "wumpus-drawing",
@@ -17200,6 +18771,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "pathViewR",
           "normalized": "AbsPath a-\u003ePathViewR a",
@@ -17216,6 +18788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivide a path returning intermediate points and direction\n\u003c/p\u003e\u003cp\u003eArgs are initial-prefix, division size, trailing size.\n\u003c/p\u003e\u003cp\u003eGeneration is stopped if the remainder of the path is shorter\n than the trailing size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "pathdiv",
           "package": "wumpus-drawing",
@@ -17226,6 +18799,7 @@
         "index": {
           "description": "Divide path returning intermediate points and direction Args are initial-prefix division size trailing size Generation is stopped if the remainder of the path is shorter than the trailing size",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "pathdiv",
           "normalized": "a-\u003ea-\u003ea-\u003eAbsPath a-\u003e[(Point a,Radian)]",
@@ -17240,6 +18814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "renderPath",
           "package": "wumpus-drawing",
@@ -17249,6 +18824,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "renderPath",
           "normalized": "PathMode-\u003eAbsPath a-\u003eImage a(AbsPath a)",
@@ -17264,6 +18840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "renderPath_",
           "package": "wumpus-drawing",
@@ -17273,6 +18850,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "renderPath_",
           "normalized": "PathMode-\u003eAbsPath a-\u003eGraphic a",
@@ -17289,6 +18867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRound a \"closed\" path. \n\u003c/p\u003e\u003cp\u003eCaution - all path sgements are expected to be longer than\n 2x the round corner length, though this is not checked..\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "roundExterior",
           "package": "wumpus-drawing",
@@ -17299,6 +18878,7 @@
         "index": {
           "description": "Round closed path Caution all path sgements are expected to be longer than the round corner length though this is not checked",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "roundExterior",
           "normalized": "a-\u003eAbsPath a-\u003eAbsPath a",
@@ -17315,6 +18895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRound interior corners of a Path.\n\u003c/p\u003e\u003cp\u003eThe path is treated as open - the start of the initial and end\n of the final segments are not rounded. Only straight line to \n straight line joins are rounded, joins to or from Bezier \n curves are not rounded.\n\u003c/p\u003e\u003cp\u003eCaution - all path segments are expected to be longer than\n 2x the round corner length, though this is not checked..\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "roundInterior",
           "package": "wumpus-drawing",
@@ -17325,6 +18906,7 @@
         "index": {
           "description": "Round interior corners of Path The path is treated as open the start of the initial and end of the final segments are not rounded Only straight line to straight line joins are rounded joins to or from Bezier curves are not rounded Caution all path segments are expected to be longer than the round corner length though this is not checked",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "roundInterior",
           "normalized": "a-\u003eAbsPath a-\u003eAbsPath a",
@@ -17341,6 +18923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote - shortening a line from the left by \n greater-than-or-equal its length is operationally equivalent \n to making a zero-length line at the end point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "shortenL",
           "package": "wumpus-drawing",
@@ -17351,6 +18934,7 @@
         "index": {
           "description": "Note shortening line from the left by greater-than-or-equal its length is operationally equivalent to making zero-length line at the end point",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "shortenL",
           "normalized": "a-\u003eAbsPath a-\u003eAbsPath a",
@@ -17366,6 +18950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esortenPath\u003c/code\u003e : \u003ccode\u003e left_dist * right_dist * path -\u003e Path \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "shortenPath",
           "package": "wumpus-drawing",
@@ -17376,6 +18961,7 @@
         "index": {
           "description": "sortenPath left dist right dist path Path",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "shortenPath",
           "normalized": "a-\u003ea-\u003eAbsPath a-\u003eAbsPath a",
@@ -17392,6 +18978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote - shortening a line from the right by \n greater-than-or-equal its length is operationally equivalent \n to making a zero-length line at the start point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "shortenR",
           "package": "wumpus-drawing",
@@ -17402,6 +18989,7 @@
         "index": {
           "description": "Note shortening line from the right by greater-than-or-equal its length is operationally equivalent to making zero-length line at the start point",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "shortenR",
           "normalized": "a-\u003eAbsPath a-\u003eAbsPath a",
@@ -17417,6 +19005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend the path from the end-point with a Bezier curve \n segment formed by the supplied points.\n\u003c/p\u003e\u003cpre\u003e infixl 5 `snocCurve`\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "snocCurve",
           "package": "wumpus-drawing",
@@ -17427,6 +19016,7 @@
         "index": {
           "description": "Extend the path from the end-point with Bezier curve segment formed by the supplied points infixl snocCurve",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "snocCurve",
           "normalized": "AbsPath a-\u003e(Vec a,Vec a,Vec a)-\u003eAbsPath a",
@@ -17443,6 +19033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend the path from the end-point with a Bezier curve \n segment formed by the supplied points.\n\u003c/p\u003e\u003cpre\u003e infixl 5 `snocCurveTo`\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "snocCurveTo",
           "package": "wumpus-drawing",
@@ -17453,6 +19044,7 @@
         "index": {
           "description": "Extend the path from the end-point with Bezier curve segment formed by the supplied points infixl snocCurveTo",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "snocCurveTo",
           "normalized": "AbsPath a-\u003e(Point a,Point a,Point a)-\u003eAbsPath a",
@@ -17469,6 +19061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend the path with a straight line segment from the \n end-point defined by the supplied vector.\n\u003c/p\u003e\u003cpre\u003e infixl 5 `snocLine`\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "snocLine",
           "package": "wumpus-drawing",
@@ -17479,6 +19072,7 @@
         "index": {
           "description": "Extend the path with straight line segment from the end-point defined by the supplied vector infixl snocLine",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "snocLine",
           "normalized": "AbsPath a-\u003eVec a-\u003eAbsPath a",
@@ -17495,6 +19089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend the path with a straight line segment from the \n end-point to the supplied point.\n\u003c/p\u003e\u003cpre\u003e infixl 5 `snocLineTo`\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "snocLineTo",
           "package": "wumpus-drawing",
@@ -17505,6 +19100,7 @@
         "index": {
           "description": "Extend the path with straight line segment from the end-point to the supplied point infixl snocLineTo",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "snocLineTo",
           "normalized": "AbsPath a-\u003ePoint a-\u003eAbsPath a",
@@ -17520,6 +19116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "tipL",
           "package": "wumpus-drawing",
@@ -17529,6 +19126,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "tipL",
           "normalized": "AbsPath a-\u003ePoint a",
@@ -17543,6 +19141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "tipR",
           "package": "wumpus-drawing",
@@ -17552,6 +19151,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "tipR",
           "normalized": "AbsPath a-\u003ePoint a",
@@ -17567,6 +19167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a Path into an ordinary PrimPath.\n\u003c/p\u003e\u003cp\u003eAssumes path is properly formed - i.e. end point of one \n segment is the same point as the start point of the next\n segment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "toPrimPath",
           "package": "wumpus-drawing",
@@ -17577,6 +19178,7 @@
         "index": {
           "description": "Turn Path into an ordinary PrimPath Assumes path is properly formed i.e end point of one segment is the same point as the start point of the next segment",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "toPrimPath",
           "normalized": "AbsPath a-\u003eQuery a PrimPath",
@@ -17592,6 +19194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "vectorPath",
           "package": "wumpus-drawing",
@@ -17601,6 +19204,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "vectorPath",
           "normalized": "[Vec a]-\u003ePoint a-\u003eAbsPath a",
@@ -17616,6 +19220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "vectorPathTheta",
           "package": "wumpus-drawing",
@@ -17625,6 +19230,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "vectorPathTheta",
           "normalized": "[Vec a]-\u003eRadian-\u003ePoint a-\u003eAbsPath a",
@@ -17641,6 +19247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003evertexPath\u003c/a\u003e\u003c/code\u003e throws a runtime error if the supplied list\n is empty. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "vertexPath",
           "package": "wumpus-drawing",
@@ -17651,6 +19258,7 @@
         "index": {
           "description": "vertexPath throws runtime error if the supplied list is empty",
           "hierarchy": "Wumpus Drawing Paths Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Base",
           "name": "vertexPath",
           "normalized": "[Point a]-\u003eAbsPath a",
@@ -17667,6 +19275,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIllustrate a path - show the construction of its Bezier curves.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Illustrate",
           "name": "Illustrate",
           "package": "wumpus-drawing",
@@ -17676,6 +19285,7 @@
         "index": {
           "description": "Illustrate path show the construction of its Bezier curves",
           "hierarchy": "Wumpus Drawing Paths Illustrate",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Illustrate",
           "name": "Illustrate",
           "package": "wumpus-drawing",
@@ -17690,6 +19300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIllustrate the control points as a \u003cem\u003eboxed\u003c/em\u003e path - Bezier \n curves are replaced with straight lines spanning the \n control points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Illustrate",
           "name": "path_as_control_box",
           "package": "wumpus-drawing",
@@ -17700,6 +19311,7 @@
         "index": {
           "description": "Illustrate the control points as boxed path Bezier curves are replaced with straight lines spanning the control points",
           "hierarchy": "Wumpus Drawing Paths Illustrate",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Illustrate",
           "name": "path_as_control_box",
           "normalized": "AbsPath a-\u003eGraphic a",
@@ -17714,6 +19326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Illustrate",
           "name": "path_with_control_points",
           "package": "wumpus-drawing",
@@ -17723,6 +19336,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Illustrate",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Illustrate",
           "name": "path_with_control_points",
           "normalized": "AbsPath a-\u003eGraphic a",
@@ -17738,6 +19352,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIntersection of Paths with (infinite) lines.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "Intersection",
           "package": "wumpus-drawing",
@@ -17747,6 +19362,7 @@
         "index": {
           "description": "Intersection of Paths with infinite lines",
           "hierarchy": "Wumpus Drawing Paths Intersection",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "Intersection",
           "package": "wumpus-drawing",
@@ -17761,6 +19377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfinite line represented by two points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "Line",
           "package": "wumpus-drawing",
@@ -17770,6 +19387,7 @@
         "index": {
           "description": "Infinite line represented by two points",
           "hierarchy": "Wumpus Drawing Paths Intersection",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "Line",
           "package": "wumpus-drawing",
@@ -17784,6 +19402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eRay\u003c/a\u003e\u003c/code\u003e extends from the first point, through the second to\n infinity.\n\u003c/p\u003e\u003cp\u003e(\u003ccode\u003e\u003ca\u003eLine\u003c/a\u003e\u003c/code\u003e extends to infinity in both directions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "Ray",
           "package": "wumpus-drawing",
@@ -17793,6 +19412,7 @@
         "index": {
           "description": "Ray extends from the first point through the second to infinity Line extends to infinity in both directions",
           "hierarchy": "Wumpus Drawing Paths Intersection",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "Ray",
           "package": "wumpus-drawing",
@@ -17806,6 +19426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "Line",
           "package": "wumpus-drawing",
@@ -17815,6 +19436,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Intersection",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "Line",
           "package": "wumpus-drawing",
@@ -17828,6 +19450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "Ray",
           "package": "wumpus-drawing",
@@ -17837,6 +19460,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Intersection",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "Ray",
           "package": "wumpus-drawing",
@@ -17851,6 +19475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003einclinedLine\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e point * ang -\u003e Line \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eMake an infinite line passing through the supplied point \n inclined by \u003ccode\u003eang\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "inclinedLine",
           "package": "wumpus-drawing",
@@ -17861,6 +19486,7 @@
         "index": {
           "description": "inclinedLine point ang Line Make an infinite line passing through the supplied point inclined by ang",
           "hierarchy": "Wumpus Drawing Paths Intersection",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "inclinedLine",
           "normalized": "Point a-\u003eRadian-\u003eLine a",
@@ -17877,6 +19503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an infinite ray starting from the supplied point \n inclined by \u003ccode\u003eang\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "inclinedRay",
           "package": "wumpus-drawing",
@@ -17887,6 +19514,7 @@
         "index": {
           "description": "Make an infinite ray starting from the supplied point inclined by ang",
           "hierarchy": "Wumpus Drawing Paths Intersection",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "inclinedRay",
           "normalized": "Point a-\u003eRadian-\u003eRay a",
@@ -17903,6 +19531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswer is vector from centroid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "isoscelesTriangleRadialIntersect",
           "package": "wumpus-drawing",
@@ -17913,6 +19542,7 @@
         "index": {
           "description": "Answer is vector from centroid",
           "hierarchy": "Wumpus Drawing Paths Intersection",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "isoscelesTriangleRadialIntersect",
           "normalized": "a-\u003ea-\u003eRadian-\u003eMaybe(Vec a)",
@@ -17929,6 +19559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003einterLineLine\u003c/code\u003e : \u003ccode\u003e line1 * line2 -\u003e Maybe Point \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eFind the intersection of two lines, if there is one. \n\u003c/p\u003e\u003cp\u003eLines are infinite they are represented by points on them, \n they are not line segments.\n\u003c/p\u003e\u003cp\u003eAn answer of \u003ccode\u003eNothing\u003c/code\u003e may indicate either the lines coincide\n or the are parallel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "lineLineIntersection",
           "package": "wumpus-drawing",
@@ -17939,6 +19570,7 @@
         "index": {
           "description": "interLineLine line1 line2 Maybe Point Find the intersection of two lines if there is one Lines are infinite they are represented by points on them they are not line segments An answer of Nothing may indicate either the lines coincide or the are parallel",
           "hierarchy": "Wumpus Drawing Paths Intersection",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "lineLineIntersection",
           "normalized": "Line a-\u003eLine a-\u003eMaybe(Point a)",
@@ -17954,6 +19586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "linePathIntersection",
           "package": "wumpus-drawing",
@@ -17963,6 +19596,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Intersection",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "linePathIntersection",
           "normalized": "Line a-\u003eAbsPath a-\u003eMaybe(Point a)",
@@ -17978,6 +19612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "linePathSegmentIntersection",
           "package": "wumpus-drawing",
@@ -17987,6 +19622,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Intersection",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "linePathSegmentIntersection",
           "normalized": "Line a-\u003ePathSegment a-\u003eMaybe(Point a)",
@@ -18002,6 +19638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "rayPathIntersection",
           "package": "wumpus-drawing",
@@ -18011,6 +19648,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Intersection",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "rayPathIntersection",
           "normalized": "Ray a-\u003eAbsPath a-\u003eMaybe(Point a)",
@@ -18026,6 +19664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "rayPathSegmentIntersection",
           "package": "wumpus-drawing",
@@ -18035,6 +19674,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Intersection",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "rayPathSegmentIntersection",
           "normalized": "Ray a-\u003ePathSegment a-\u003eMaybe(Point a)",
@@ -18051,6 +19691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswer is vector from center.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "rectangleRadialIntersect",
           "package": "wumpus-drawing",
@@ -18061,6 +19702,7 @@
         "index": {
           "description": "Answer is vector from center",
           "hierarchy": "Wumpus Drawing Paths Intersection",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "rectangleRadialIntersect",
           "normalized": "a-\u003ea-\u003eRadian-\u003eMaybe(Vec a)",
@@ -18076,6 +19718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "vectorLine",
           "package": "wumpus-drawing",
@@ -18085,6 +19728,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Intersection",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Intersection",
           "name": "vectorLine",
           "normalized": "Vec a-\u003ePoint a-\u003eLine a",
@@ -18101,6 +19745,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBuild relative paths monadically.\n\u003c/p\u003e\u003cp\u003e** WARNING ** this module is an experiment, and may \n change significantly or even be dropped from future revisions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "PathBuilder",
           "package": "wumpus-drawing",
@@ -18110,6 +19755,7 @@
         "index": {
           "description": "Build relative paths monadically WARNING this module is an experiment and may change significantly or even be dropped from future revisions",
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "PathBuilder",
           "package": "wumpus-drawing",
@@ -18124,6 +19770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote - a path spec has an immutable start point like \n \u003ccode\u003eLocDrawing\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eEffectively a path is draw in a local coordinate system with \n \u003ccode\u003e(0,0)\u003c/code\u003e as the origin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "GenPathSpec",
           "package": "wumpus-drawing",
@@ -18133,6 +19780,7 @@
         "index": {
           "description": "Note path spec has an immutable start point like LocDrawing Effectively path is draw in local coordinate system with as the origin",
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "GenPathSpec",
           "package": "wumpus-drawing",
@@ -18146,6 +19794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "PathSpec",
           "package": "wumpus-drawing",
@@ -18154,6 +19803,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "PathSpec",
           "package": "wumpus-drawing",
@@ -18167,6 +19817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "Vamp",
           "package": "wumpus-drawing",
@@ -18175,6 +19826,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "Vamp",
           "package": "wumpus-drawing",
@@ -18188,6 +19840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "Vamp",
           "package": "wumpus-drawing",
@@ -18197,6 +19850,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "Vamp",
           "package": "wumpus-drawing",
@@ -18210,6 +19864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "apenline",
           "package": "wumpus-drawing",
@@ -18219,6 +19874,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "apenline",
           "normalized": "Radian-\u003ea-\u003eGenPathSpec b a()",
@@ -18233,6 +19889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "breakPath",
           "package": "wumpus-drawing",
@@ -18242,6 +19899,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "breakPath",
           "normalized": "GenPathSpec a b()",
@@ -18257,6 +19915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "cycleSubPath",
           "package": "wumpus-drawing",
@@ -18266,6 +19925,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "cycleSubPath",
           "normalized": "DrawMode-\u003eGenPathSpec a b()",
@@ -18281,6 +19941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "evalGenPathSpec",
           "package": "wumpus-drawing",
@@ -18290,6 +19951,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "evalGenPathSpec",
           "normalized": "a-\u003ePathMode-\u003eGenPathSpec a b c-\u003eLocImage b(c,AbsPath b)",
@@ -18305,6 +19967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "execGenPathSpec",
           "package": "wumpus-drawing",
@@ -18314,6 +19977,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "execGenPathSpec",
           "normalized": "a-\u003ePathMode-\u003eGenPathSpec a b c-\u003eLocImage b(a,AbsPath b)",
@@ -18329,6 +19993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "hpenline",
           "package": "wumpus-drawing",
@@ -18338,6 +20003,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "hpenline",
           "normalized": "a-\u003eGenPathSpec b a()",
@@ -18352,6 +20018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "pathmoves",
           "package": "wumpus-drawing",
@@ -18361,6 +20028,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "pathmoves",
           "normalized": "[Vec a]-\u003eGenPathSpec b a()",
@@ -18376,6 +20044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend the path with a curve, drawn by the pen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "pencurve",
           "package": "wumpus-drawing",
@@ -18386,6 +20055,7 @@
         "index": {
           "description": "Extend the path with curve drawn by the pen",
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "pencurve",
           "normalized": "Vec a-\u003eVec a-\u003eVec a-\u003eGenPathSpec b a()",
@@ -18401,6 +20071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend the path with a line, drawn by the pen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "penline",
           "package": "wumpus-drawing",
@@ -18411,6 +20082,7 @@
         "index": {
           "description": "Extend the path with line drawn by the pen",
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "penline",
           "normalized": "Vec a-\u003eGenPathSpec b a()",
@@ -18425,6 +20097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "penlines",
           "package": "wumpus-drawing",
@@ -18434,6 +20107,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "penlines",
           "normalized": "[Vec a]-\u003eGenPathSpec b a()",
@@ -18448,6 +20122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "runGenPathSpec",
           "package": "wumpus-drawing",
@@ -18457,6 +20132,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "runGenPathSpec",
           "normalized": "a-\u003ePathMode-\u003eGenPathSpec a b c-\u003eLocImage b(c,a,AbsPath b)",
@@ -18472,6 +20148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "runPathSpec",
           "package": "wumpus-drawing",
@@ -18481,6 +20158,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "runPathSpec",
           "normalized": "PathMode-\u003ePathSpec a b-\u003eLocImage a(b,AbsPath a)",
@@ -18496,6 +20174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "runPathSpec_",
           "package": "wumpus-drawing",
@@ -18505,6 +20184,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "runPathSpec_",
           "normalized": "PathMode-\u003ePathSpec a b-\u003eLocGraphic a",
@@ -18521,6 +20201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForm a \"pivot path\" drawing from two path specifications.\n The start point of the drawing is the pivot formed by joining\n the paths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "runPivot",
           "package": "wumpus-drawing",
@@ -18531,6 +20212,7 @@
         "index": {
           "description": "Form pivot path drawing from two path specifications The start point of the drawing is the pivot formed by joining the paths",
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "runPivot",
           "normalized": "PathSpec a b-\u003ePathSpec a b-\u003eLocGraphic a",
@@ -18546,6 +20228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "stripGenPathSpec",
           "package": "wumpus-drawing",
@@ -18555,6 +20238,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "stripGenPathSpec",
           "normalized": "a-\u003ePathMode-\u003eGenPathSpec a b c-\u003eLocQuery b(c,a,AbsPath b)",
@@ -18571,6 +20255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote - updates the pen but doesn't draw, the final path\n will be drawing with the last updated context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "updatePen",
           "package": "wumpus-drawing",
@@ -18581,6 +20266,7 @@
         "index": {
           "description": "Note updates the pen but doesn draw the final path will be drawing with the last updated context",
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "updatePen",
           "normalized": "DrawingContextF-\u003eGenPathSpec a b()",
@@ -18596,6 +20282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "vamp",
           "package": "wumpus-drawing",
@@ -18605,6 +20292,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "vamp",
           "normalized": "Vamp a-\u003eGenPathSpec b a()",
@@ -18619,6 +20307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "vamp_conn",
           "package": "wumpus-drawing",
@@ -18628,6 +20317,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "vamp_conn",
           "package": "wumpus-drawing",
@@ -18640,6 +20330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "vamp_move",
           "package": "wumpus-drawing",
@@ -18649,6 +20340,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "vamp_move",
           "package": "wumpus-drawing",
@@ -18661,6 +20353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "vpenline",
           "package": "wumpus-drawing",
@@ -18670,6 +20363,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths PathBuilder",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.PathBuilder",
           "name": "vpenline",
           "normalized": "a-\u003eGenPathSpec b a()",
@@ -18685,6 +20379,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLibrary of vamps (currently small).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Vamps",
           "name": "Vamps",
           "package": "wumpus-drawing",
@@ -18694,6 +20389,7 @@
         "index": {
           "description": "Library of vamps currently small",
           "hierarchy": "Wumpus Drawing Paths Vamps",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Vamps",
           "name": "Vamps",
           "package": "wumpus-drawing",
@@ -18707,6 +20403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths.Vamps",
           "name": "squareWE",
           "package": "wumpus-drawing",
@@ -18716,6 +20413,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Paths Vamps",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths.Vamps",
           "name": "squareWE",
           "normalized": "a-\u003eVamp a",
@@ -18732,6 +20430,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eShim import module for the Absolute Path modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Paths",
           "name": "Paths",
           "package": "wumpus-drawing",
@@ -18741,6 +20440,7 @@
         "index": {
           "description": "Shim import module for the Absolute Path modules",
           "hierarchy": "Wumpus Drawing Paths",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Paths",
           "name": "Paths",
           "package": "wumpus-drawing",
@@ -18755,6 +20455,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon core for shapes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "Base",
           "package": "wumpus-drawing",
@@ -18764,6 +20465,7 @@
         "index": {
           "description": "Common core for shapes",
           "hierarchy": "Wumpus Drawing Shapes Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "Base",
           "package": "wumpus-drawing",
@@ -18777,6 +20479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "DShape",
           "package": "wumpus-drawing",
@@ -18785,6 +20488,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "DShape",
           "package": "wumpus-drawing",
@@ -18799,6 +20503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShape is a record of three \u003cem\u003eLocTheta\u003c/em\u003e functions - \n functions \u003cem\u003efrom Point and Angle to answer\u003c/em\u003e. \n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eshape_path_fun\u003c/code\u003e returns a path. When the Shape is drawn, \n the rendering function (\u003ccode\u003estrokedShape\u003c/code\u003e, etc.) uses the path for \n drawing and returns the polymorphic answer \u003ccode\u003ea\u003c/code\u003e of the \n \u003ccode\u003eshape_ans_fun\u003c/code\u003e. Lastly the \u003ccode\u003eshape_decoration\u003c/code\u003e function can \n instantiated to add decoration (e.g. text) to the Shape as it \n is rendered.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003ea\u003c/code\u003e of the \u003ccode\u003eshape_ans_fun\u003c/code\u003e represents some concrete shape \n object (e.g. a Rectangle, Triangle etc.). Crucial for shape \n objects is that they support Anchors - this allows connectors \n to address specific locations on the Shape border so \n \"node and link\" diagrams can be made easily.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "Shape",
           "package": "wumpus-drawing",
@@ -18808,6 +20513,7 @@
         "index": {
           "description": "Shape is record of three LocTheta functions functions from Point and Angle to answer The shape path fun returns path When the Shape is drawn the rendering function strokedShape etc uses the path for drawing and returns the polymorphic answer of the shape ans fun Lastly the shape decoration function can instantiated to add decoration e.g text to the Shape as it is rendered The of the shape ans fun represents some concrete shape object e.g Rectangle Triangle etc Crucial for shape objects is that they support Anchors this allows connectors to address specific locations on the Shape border so node and link diagrams can be made easily",
           "hierarchy": "Wumpus Drawing Shapes Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "Shape",
           "package": "wumpus-drawing",
@@ -18821,6 +20527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "ShapeCTM",
           "package": "wumpus-drawing",
@@ -18829,6 +20536,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "ShapeCTM",
           "package": "wumpus-drawing",
@@ -18842,6 +20550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "borderedShape",
           "package": "wumpus-drawing",
@@ -18851,6 +20560,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "borderedShape",
           "normalized": "Shape a b-\u003eLocImage b(a b)",
@@ -18866,6 +20576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "ctmAngle",
           "package": "wumpus-drawing",
@@ -18875,6 +20586,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "ctmAngle",
           "normalized": "ShapeCTM a-\u003eRadian",
@@ -18890,6 +20602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "ctmCenter",
           "package": "wumpus-drawing",
@@ -18899,6 +20612,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "ctmCenter",
           "normalized": "ShapeCTM a-\u003ePoint a",
@@ -18914,6 +20628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "ctmLocale",
           "package": "wumpus-drawing",
@@ -18923,6 +20638,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "ctmLocale",
           "normalized": "ShapeCTM a-\u003e(Point a,Radian)",
@@ -18939,6 +20655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote - this is simplistic double stroking - draw a background \n line with triple thickness and draw a white line on top.\n\u003c/p\u003e\u003cp\u003eI think this is what TikZ does, but it works better for TikZ \n where the extra thickness seems to be accounted for by the \n anchors. For Wumpus, arrows cut into the outside black line.\n\u003c/p\u003e\u003cp\u003eProbably Wumpus should calculate two paths instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "dblStrokedShape",
           "package": "wumpus-drawing",
@@ -18949,6 +20666,7 @@
         "index": {
           "description": "Note this is simplistic double stroking draw background line with triple thickness and draw white line on top think this is what TikZ does but it works better for TikZ where the extra thickness seems to be accounted for by the anchors For Wumpus arrows cut into the outside black line Probably Wumpus should calculate two paths instead",
           "hierarchy": "Wumpus Drawing Shapes Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "dblStrokedShape",
           "normalized": "Shape a b-\u003eLocImage b(a b)",
@@ -18964,6 +20682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "filledShape",
           "package": "wumpus-drawing",
@@ -18973,6 +20692,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "filledShape",
           "normalized": "Shape a b-\u003eLocImage b(a b)",
@@ -18988,6 +20708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "makeShape",
           "package": "wumpus-drawing",
@@ -18997,6 +20718,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "makeShape",
           "normalized": "LocThetaQuery a(b a)-\u003eLocThetaQuery a(AbsPath a)-\u003eShape b a",
@@ -19012,6 +20734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "makeShapeCTM",
           "package": "wumpus-drawing",
@@ -19021,6 +20744,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "makeShapeCTM",
           "normalized": "Point a-\u003eRadian-\u003eShapeCTM a",
@@ -19036,6 +20760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "projectFromCtr",
           "package": "wumpus-drawing",
@@ -19045,6 +20770,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "projectFromCtr",
           "normalized": "Vec a-\u003eShapeCTM a-\u003eAnchor a",
@@ -19060,6 +20786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "rborderedShape",
           "package": "wumpus-drawing",
@@ -19069,6 +20796,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "rborderedShape",
           "normalized": "Shape a b-\u003eLocThetaImage b(a b)",
@@ -19084,6 +20812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "rfilledShape",
           "package": "wumpus-drawing",
@@ -19093,6 +20822,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "rfilledShape",
           "normalized": "Shape a b-\u003eLocThetaImage b(a b)",
@@ -19109,6 +20839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw the shape path with round corners.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "roundCornerShapePath",
           "package": "wumpus-drawing",
@@ -19119,6 +20850,7 @@
         "index": {
           "description": "Draw the shape path with round corners",
           "hierarchy": "Wumpus Drawing Shapes Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "roundCornerShapePath",
           "normalized": "a-\u003e[Point a]-\u003eQuery a(AbsPath a)",
@@ -19134,6 +20866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "rstrokedShape",
           "package": "wumpus-drawing",
@@ -19143,6 +20876,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "rstrokedShape",
           "normalized": "Shape a b-\u003eLocThetaImage b(a b)",
@@ -19158,6 +20892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "setDecoration",
           "package": "wumpus-drawing",
@@ -19167,6 +20902,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "setDecoration",
           "normalized": "LocThetaGraphic a-\u003eShape b a-\u003eShape b a",
@@ -19182,6 +20918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "shapeMap",
           "package": "wumpus-drawing",
@@ -19191,6 +20928,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "shapeMap",
           "normalized": "(a b-\u003ec b)-\u003eShape a b-\u003eShape c b",
@@ -19206,6 +20944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "strokedShape",
           "package": "wumpus-drawing",
@@ -19215,6 +20954,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "strokedShape",
           "normalized": "Shape a b-\u003eLocImage b(a b)",
@@ -19231,6 +20971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe path angle can be modified. This allows \u003cem\u003einverse\u003c/em\u003e \n versions of shapes (e.g. InvTriangle) to be made by\n wrapping a base Shape but rotating the path prior to drawing \n it.\n\u003c/p\u003e\u003cp\u003eOnly the Path needs rotating, the decoration takes the original \n angle. The anchors are typically implemented by rotating the \n correspoding anchor of the wrapped Shape about its center.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "updatePathAngle",
           "package": "wumpus-drawing",
@@ -19241,6 +20982,7 @@
         "index": {
           "description": "The path angle can be modified This allows inverse versions of shapes e.g InvTriangle to be made by wrapping base Shape but rotating the path prior to drawing it Only the Path needs rotating the decoration takes the original angle The anchors are typically implemented by rotating the correspoding anchor of the wrapped Shape about its center",
           "hierarchy": "Wumpus Drawing Shapes Base",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Base",
           "name": "updatePathAngle",
           "normalized": "(Radian-\u003eRadian)-\u003eShape a b-\u003eShape a b",
@@ -19257,6 +20999,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple shapes - rectangle, circle diamond, ellipse.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Circle",
           "name": "Circle",
           "package": "wumpus-drawing",
@@ -19266,6 +21009,7 @@
         "index": {
           "description": "Simple shapes rectangle circle diamond ellipse",
           "hierarchy": "Wumpus Drawing Shapes Circle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Circle",
           "name": "Circle",
           "package": "wumpus-drawing",
@@ -19279,6 +21023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Circle",
           "name": "Circle",
           "package": "wumpus-drawing",
@@ -19287,6 +21032,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Circle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Circle",
           "name": "Circle",
           "package": "wumpus-drawing",
@@ -19300,6 +21046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Circle",
           "name": "DCircle",
           "package": "wumpus-drawing",
@@ -19308,6 +21055,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Circle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Circle",
           "name": "DCircle",
           "package": "wumpus-drawing",
@@ -19322,6 +21070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecircle\u003c/a\u003e\u003c/code\u003e  : \u003ccode\u003e radius -\u003e Shape \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Circle",
           "name": "circle",
           "package": "wumpus-drawing",
@@ -19332,6 +21081,7 @@
         "index": {
           "description": "circle radius Shape",
           "hierarchy": "Wumpus Drawing Shapes Circle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Circle",
           "name": "circle",
           "normalized": "a-\u003eShape Circle a",
@@ -19347,6 +21097,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDiamond (rhombus).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Diamond",
           "name": "Diamond",
           "package": "wumpus-drawing",
@@ -19356,6 +21107,7 @@
         "index": {
           "description": "Diamond rhombus",
           "hierarchy": "Wumpus Drawing Shapes Diamond",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Diamond",
           "name": "Diamond",
           "package": "wumpus-drawing",
@@ -19369,6 +21121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Diamond",
           "name": "DDiamond",
           "package": "wumpus-drawing",
@@ -19377,6 +21130,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Diamond",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Diamond",
           "name": "DDiamond",
           "package": "wumpus-drawing",
@@ -19390,6 +21144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Diamond",
           "name": "Diamond",
           "package": "wumpus-drawing",
@@ -19398,6 +21153,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Diamond",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Diamond",
           "name": "Diamond",
           "package": "wumpus-drawing",
@@ -19412,6 +21168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ediamond\u003c/a\u003e\u003c/code\u003e  : \u003ccode\u003e half_width * half_height -\u003e shape \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eNote - args might change to tull_width and full_height...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Diamond",
           "name": "diamond",
           "package": "wumpus-drawing",
@@ -19422,6 +21179,7 @@
         "index": {
           "description": "diamond half width half height shape Note args might change to tull width and full height",
           "hierarchy": "Wumpus Drawing Shapes Diamond",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Diamond",
           "name": "diamond",
           "normalized": "a-\u003ea-\u003eShape Diamond a",
@@ -19437,6 +21195,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEllipse shape.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Ellipse",
           "name": "Ellipse",
           "package": "wumpus-drawing",
@@ -19446,6 +21205,7 @@
         "index": {
           "description": "Ellipse shape",
           "hierarchy": "Wumpus Drawing Shapes Ellipse",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Ellipse",
           "name": "Ellipse",
           "package": "wumpus-drawing",
@@ -19459,6 +21219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Ellipse",
           "name": "DEllipse",
           "package": "wumpus-drawing",
@@ -19467,6 +21228,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Ellipse",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Ellipse",
           "name": "DEllipse",
           "package": "wumpus-drawing",
@@ -19480,6 +21242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Ellipse",
           "name": "Ellipse",
           "package": "wumpus-drawing",
@@ -19488,6 +21251,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Ellipse",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Ellipse",
           "name": "Ellipse",
           "package": "wumpus-drawing",
@@ -19502,6 +21266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eellipse\u003c/a\u003e\u003c/code\u003e  : \u003ccode\u003e x_radii * y_radii -\u003e shape \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Ellipse",
           "name": "ellipse",
           "package": "wumpus-drawing",
@@ -19512,6 +21277,7 @@
         "index": {
           "description": "ellipse radii radii shape",
           "hierarchy": "Wumpus Drawing Shapes Ellipse",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Ellipse",
           "name": "ellipse",
           "normalized": "a-\u003ea-\u003eShape Ellipse a",
@@ -19527,6 +21293,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInverse semicircle. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.InvSemicircle",
           "name": "InvSemicircle",
           "package": "wumpus-drawing",
@@ -19536,6 +21303,7 @@
         "index": {
           "description": "Inverse semicircle",
           "hierarchy": "Wumpus Drawing Shapes InvSemicircle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.InvSemicircle",
           "name": "InvSemicircle",
           "package": "wumpus-drawing",
@@ -19549,6 +21317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.InvSemicircle",
           "name": "DInvSemicircle",
           "package": "wumpus-drawing",
@@ -19557,6 +21326,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes InvSemicircle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.InvSemicircle",
           "name": "DInvSemicircle",
           "package": "wumpus-drawing",
@@ -19570,6 +21340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.InvSemicircle",
           "name": "InvSemicircle",
           "package": "wumpus-drawing",
@@ -19578,6 +21349,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes InvSemicircle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.InvSemicircle",
           "name": "InvSemicircle",
           "package": "wumpus-drawing",
@@ -19592,6 +21364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003einvsemicircle\u003c/a\u003e\u003c/code\u003e  : \u003ccode\u003e radius -\u003e Shape \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.InvSemicircle",
           "name": "invsemicircle",
           "package": "wumpus-drawing",
@@ -19602,6 +21375,7 @@
         "index": {
           "description": "invsemicircle radius Shape",
           "hierarchy": "Wumpus Drawing Shapes InvSemicircle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.InvSemicircle",
           "name": "invsemicircle",
           "normalized": "a-\u003eShape InvSemicircle a",
@@ -19617,6 +21391,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInverse semiellipse. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.InvSemiellipse",
           "name": "InvSemiellipse",
           "package": "wumpus-drawing",
@@ -19626,6 +21401,7 @@
         "index": {
           "description": "Inverse semiellipse",
           "hierarchy": "Wumpus Drawing Shapes InvSemiellipse",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.InvSemiellipse",
           "name": "InvSemiellipse",
           "package": "wumpus-drawing",
@@ -19639,6 +21415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.InvSemiellipse",
           "name": "DInvSemiellipse",
           "package": "wumpus-drawing",
@@ -19647,6 +21424,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes InvSemiellipse",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.InvSemiellipse",
           "name": "DInvSemiellipse",
           "package": "wumpus-drawing",
@@ -19660,6 +21438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.InvSemiellipse",
           "name": "InvSemiellipse",
           "package": "wumpus-drawing",
@@ -19668,6 +21447,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes InvSemiellipse",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.InvSemiellipse",
           "name": "InvSemiellipse",
           "package": "wumpus-drawing",
@@ -19682,6 +21462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003einvsemiellipse\u003c/a\u003e\u003c/code\u003e  : \u003ccode\u003e rx * ry -\u003e Shape \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.InvSemiellipse",
           "name": "invsemiellipse",
           "package": "wumpus-drawing",
@@ -19692,6 +21473,7 @@
         "index": {
           "description": "invsemiellipse rx ry Shape",
           "hierarchy": "Wumpus Drawing Shapes InvSemiellipse",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.InvSemiellipse",
           "name": "invsemiellipse",
           "normalized": "a-\u003ea-\u003eShape InvSemiellipse a",
@@ -19707,6 +21489,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInverse version of the Triangle shape.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.InvTriangle",
           "name": "InvTriangle",
           "package": "wumpus-drawing",
@@ -19716,6 +21499,7 @@
         "index": {
           "description": "Inverse version of the Triangle shape",
           "hierarchy": "Wumpus Drawing Shapes InvTriangle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.InvTriangle",
           "name": "InvTriangle",
           "package": "wumpus-drawing",
@@ -19729,6 +21513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.InvTriangle",
           "name": "DInvTriangle",
           "package": "wumpus-drawing",
@@ -19737,6 +21522,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes InvTriangle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.InvTriangle",
           "name": "DInvTriangle",
           "package": "wumpus-drawing",
@@ -19750,6 +21536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.InvTriangle",
           "name": "InvTriangle",
           "package": "wumpus-drawing",
@@ -19758,6 +21545,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes InvTriangle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.InvTriangle",
           "name": "InvTriangle",
           "package": "wumpus-drawing",
@@ -19772,6 +21560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003einvtriangle\u003c/a\u003e\u003c/code\u003e  : \u003ccode\u003e top_base_width * height -\u003e Triangle \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.InvTriangle",
           "name": "invtriangle",
           "package": "wumpus-drawing",
@@ -19782,6 +21571,7 @@
         "index": {
           "description": "invtriangle top base width height Triangle",
           "hierarchy": "Wumpus Drawing Shapes InvTriangle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.InvTriangle",
           "name": "invtriangle",
           "normalized": "a-\u003ea-\u003eShape InvTriangle a",
@@ -19797,6 +21587,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParallelogram.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Parallelogram",
           "name": "Parallelogram",
           "package": "wumpus-drawing",
@@ -19806,6 +21597,7 @@
         "index": {
           "description": "Parallelogram",
           "hierarchy": "Wumpus Drawing Shapes Parallelogram",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Parallelogram",
           "name": "Parallelogram",
           "package": "wumpus-drawing",
@@ -19819,6 +21611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Parallelogram",
           "name": "DParallelogram",
           "package": "wumpus-drawing",
@@ -19827,6 +21620,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Parallelogram",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Parallelogram",
           "name": "DParallelogram",
           "package": "wumpus-drawing",
@@ -19841,6 +21635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Paralleogram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Parallelogram",
           "name": "Parallelogram",
           "package": "wumpus-drawing",
@@ -19850,6 +21645,7 @@
         "index": {
           "description": "Paralleogram",
           "hierarchy": "Wumpus Drawing Shapes Parallelogram",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Parallelogram",
           "name": "Parallelogram",
           "package": "wumpus-drawing",
@@ -19864,6 +21660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eparallelogram\u003c/a\u003e\u003c/code\u003e  : \u003ccode\u003e width * height * bottom_left_ang -\u003e Parallelogram \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Parallelogram",
           "name": "parallelogram",
           "package": "wumpus-drawing",
@@ -19874,6 +21671,7 @@
         "index": {
           "description": "parallelogram width height bottom left ang Parallelogram",
           "hierarchy": "Wumpus Drawing Shapes Parallelogram",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Parallelogram",
           "name": "parallelogram",
           "normalized": "a-\u003ea-\u003eRadian-\u003eShape Parallelogram a",
@@ -19889,6 +21687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ezparallelogram\u003c/a\u003e\u003c/code\u003e  : \u003ccode\u003e base_width * height -\u003e Parallelogram \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Parallelogram",
           "name": "zparallelogram",
           "package": "wumpus-drawing",
@@ -19899,6 +21698,7 @@
         "index": {
           "description": "zparallelogram base width height Parallelogram",
           "hierarchy": "Wumpus Drawing Shapes Parallelogram",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Parallelogram",
           "name": "zparallelogram",
           "normalized": "a-\u003ea-\u003eShape Parallelogram a",
@@ -19914,6 +21714,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRectangle shape.\n\u003c/p\u003e\u003cp\u003eNote - CardinalAnchor2 (northeast etc.) point to their radial \n positions (this is a change since earlier versions).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Rectangle",
           "name": "Rectangle",
           "package": "wumpus-drawing",
@@ -19923,6 +21724,7 @@
         "index": {
           "description": "Rectangle shape Note CardinalAnchor2 northeast etc point to their radial positions this is change since earlier versions",
           "hierarchy": "Wumpus Drawing Shapes Rectangle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Rectangle",
           "name": "Rectangle",
           "package": "wumpus-drawing",
@@ -19936,6 +21738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Rectangle",
           "name": "DRectangle",
           "package": "wumpus-drawing",
@@ -19944,6 +21747,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Rectangle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Rectangle",
           "name": "DRectangle",
           "package": "wumpus-drawing",
@@ -19957,6 +21761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Rectangle",
           "name": "Rectangle",
           "package": "wumpus-drawing",
@@ -19965,6 +21770,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Rectangle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Rectangle",
           "name": "Rectangle",
           "package": "wumpus-drawing",
@@ -19979,6 +21785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003erectangle\u003c/a\u003e\u003c/code\u003e  : \u003ccode\u003e width * height -\u003e shape \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Rectangle",
           "name": "rectangle",
           "package": "wumpus-drawing",
@@ -19989,6 +21796,7 @@
         "index": {
           "description": "rectangle width height shape",
           "hierarchy": "Wumpus Drawing Shapes Rectangle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Rectangle",
           "name": "rectangle",
           "normalized": "a-\u003ea-\u003eShape Rectangle a",
@@ -20004,6 +21812,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSemicircle. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Semicircle",
           "name": "Semicircle",
           "package": "wumpus-drawing",
@@ -20013,6 +21822,7 @@
         "index": {
           "description": "Semicircle",
           "hierarchy": "Wumpus Drawing Shapes Semicircle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Semicircle",
           "name": "Semicircle",
           "package": "wumpus-drawing",
@@ -20026,6 +21836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Semicircle",
           "name": "DSemicircle",
           "package": "wumpus-drawing",
@@ -20034,6 +21845,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Semicircle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Semicircle",
           "name": "DSemicircle",
           "package": "wumpus-drawing",
@@ -20047,6 +21859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Semicircle",
           "name": "Semicircle",
           "package": "wumpus-drawing",
@@ -20055,6 +21868,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Semicircle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Semicircle",
           "name": "Semicircle",
           "package": "wumpus-drawing",
@@ -20069,6 +21883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esemicircle\u003c/a\u003e\u003c/code\u003e  : \u003ccode\u003e radius -\u003e Shape \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Semicircle",
           "name": "semicircle",
           "package": "wumpus-drawing",
@@ -20079,6 +21894,7 @@
         "index": {
           "description": "semicircle radius Shape",
           "hierarchy": "Wumpus Drawing Shapes Semicircle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Semicircle",
           "name": "semicircle",
           "normalized": "a-\u003eShape Semicircle a",
@@ -20094,6 +21910,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSemiellipse.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Semiellipse",
           "name": "Semiellipse",
           "package": "wumpus-drawing",
@@ -20103,6 +21920,7 @@
         "index": {
           "description": "Semiellipse",
           "hierarchy": "Wumpus Drawing Shapes Semiellipse",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Semiellipse",
           "name": "Semiellipse",
           "package": "wumpus-drawing",
@@ -20116,6 +21934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Semiellipse",
           "name": "DSemiellipse",
           "package": "wumpus-drawing",
@@ -20124,6 +21943,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Semiellipse",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Semiellipse",
           "name": "DSemiellipse",
           "package": "wumpus-drawing",
@@ -20137,6 +21957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Semiellipse",
           "name": "Semiellipse",
           "package": "wumpus-drawing",
@@ -20145,6 +21966,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Semiellipse",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Semiellipse",
           "name": "Semiellipse",
           "package": "wumpus-drawing",
@@ -20159,6 +21981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esemiellipse\u003c/a\u003e\u003c/code\u003e  : \u003ccode\u003e x_radius * y_radius -\u003e Shape \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Semiellipse",
           "name": "semiellipse",
           "package": "wumpus-drawing",
@@ -20169,6 +21992,7 @@
         "index": {
           "description": "semiellipse radius radius Shape",
           "hierarchy": "Wumpus Drawing Shapes Semiellipse",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Semiellipse",
           "name": "semiellipse",
           "normalized": "a-\u003ea-\u003eShape Semiellipse a",
@@ -20184,6 +22008,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIsoceles Trapezium.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Trapezium",
           "name": "Trapezium",
           "package": "wumpus-drawing",
@@ -20193,6 +22018,7 @@
         "index": {
           "description": "Isoceles Trapezium",
           "hierarchy": "Wumpus Drawing Shapes Trapezium",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Trapezium",
           "name": "Trapezium",
           "package": "wumpus-drawing",
@@ -20206,6 +22032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Trapezium",
           "name": "DTrapezium",
           "package": "wumpus-drawing",
@@ -20214,6 +22041,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Trapezium",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Trapezium",
           "name": "DTrapezium",
           "package": "wumpus-drawing",
@@ -20228,6 +22056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA trapezium.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Trapezium",
           "name": "Trapezium",
           "package": "wumpus-drawing",
@@ -20237,6 +22066,7 @@
         "index": {
           "description": "trapezium",
           "hierarchy": "Wumpus Drawing Shapes Trapezium",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Trapezium",
           "name": "Trapezium",
           "package": "wumpus-drawing",
@@ -20251,6 +22081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etrapezium\u003c/a\u003e\u003c/code\u003e  : \u003ccode\u003e base_width * height * bottom_left_ang * \n     bottom_right_ang -\u003e Shape \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Trapezium",
           "name": "trapezium",
           "package": "wumpus-drawing",
@@ -20261,6 +22092,7 @@
         "index": {
           "description": "trapezium base width height bottom left ang bottom right ang Shape",
           "hierarchy": "Wumpus Drawing Shapes Trapezium",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Trapezium",
           "name": "trapezium",
           "normalized": "a-\u003ea-\u003eRadian-\u003eShape Trapezium a",
@@ -20276,6 +22108,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIsosceles triangle.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Triangle",
           "name": "Triangle",
           "package": "wumpus-drawing",
@@ -20285,6 +22118,7 @@
         "index": {
           "description": "Isosceles triangle",
           "hierarchy": "Wumpus Drawing Shapes Triangle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Triangle",
           "name": "Triangle",
           "package": "wumpus-drawing",
@@ -20298,6 +22132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Triangle",
           "name": "DTriangle",
           "package": "wumpus-drawing",
@@ -20306,6 +22141,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Shapes Triangle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Triangle",
           "name": "DTriangle",
           "package": "wumpus-drawing",
@@ -20320,6 +22156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn isosceles triangle, oriented \u003cem\u003eupwards\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Triangle",
           "name": "Triangle",
           "package": "wumpus-drawing",
@@ -20329,6 +22166,7 @@
         "index": {
           "description": "An isosceles triangle oriented upwards",
           "hierarchy": "Wumpus Drawing Shapes Triangle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Triangle",
           "name": "Triangle",
           "package": "wumpus-drawing",
@@ -20343,6 +22181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etriangle\u003c/a\u003e\u003c/code\u003e  : \u003ccode\u003e base_width * height -\u003e Shape \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes.Triangle",
           "name": "triangle",
           "package": "wumpus-drawing",
@@ -20353,6 +22192,7 @@
         "index": {
           "description": "triangle base width height Shape",
           "hierarchy": "Wumpus Drawing Shapes Triangle",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes.Triangle",
           "name": "triangle",
           "normalized": "a-\u003ea-\u003eShape Triangle a",
@@ -20368,6 +22208,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eShim module for Shapes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Shapes",
           "name": "Shapes",
           "package": "wumpus-drawing",
@@ -20377,6 +22218,7 @@
         "index": {
           "description": "Shim module for Shapes",
           "hierarchy": "Wumpus Drawing Shapes",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Shapes",
           "name": "Shapes",
           "package": "wumpus-drawing",
@@ -20391,6 +22233,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFlexible text type, composable with \u003ccode\u003epretty-print\u003c/code\u003e style \n operators.\n\u003c/p\u003e\u003cp\u003eDirection zero (left-to-right) only.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "DocTextZero",
           "package": "wumpus-drawing",
@@ -20400,6 +22243,7 @@
         "index": {
           "description": "Flexible text type composable with pretty-print style operators Direction zero left-to-right only",
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "DocTextZero",
           "package": "wumpus-drawing",
@@ -20413,6 +22257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "Doc",
           "package": "wumpus-drawing",
@@ -20421,6 +22266,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "Doc",
           "package": "wumpus-drawing",
@@ -20434,6 +22280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "DocGraphic",
           "package": "wumpus-drawing",
@@ -20442,6 +22289,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "DocGraphic",
           "package": "wumpus-drawing",
@@ -20456,6 +22304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoc type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "GenDoc",
           "package": "wumpus-drawing",
@@ -20465,6 +22314,7 @@
         "index": {
           "description": "Doc type",
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "GenDoc",
           "package": "wumpus-drawing",
@@ -20478,6 +22328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "GenDocGraphic",
           "package": "wumpus-drawing",
@@ -20486,6 +22337,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "GenDocGraphic",
           "package": "wumpus-drawing",
@@ -20500,6 +22352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate two Docs separated with a space.\n\u003c/p\u003e\u003cp\u003e(infixr 6)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "(\u003c+\u003e)",
           "package": "wumpus-drawing",
@@ -20510,6 +22363,7 @@
         "index": {
           "description": "Concatenate two Docs separated with space infixr",
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "GenDocGraphic a b-\u003eGenDocGraphic a b-\u003eGenDocGraphic a b",
@@ -20524,6 +22378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "blank",
           "package": "wumpus-drawing",
@@ -20533,6 +22388,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "blank",
           "package": "wumpus-drawing",
@@ -20545,6 +22401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "bold",
           "package": "wumpus-drawing",
@@ -20554,6 +22411,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "bold",
           "normalized": "GenDoc a b c-\u003eGenDoc a b c",
@@ -20568,6 +22426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "boldItalic",
           "package": "wumpus-drawing",
@@ -20577,6 +22436,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "boldItalic",
           "normalized": "GenDoc a b c-\u003eGenDoc a b c",
@@ -20592,6 +22452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "embedPosObject",
           "package": "wumpus-drawing",
@@ -20601,6 +22462,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "embedPosObject",
           "normalized": "GenPosObject a b c-\u003eGenDoc a b c",
@@ -20616,6 +22478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "escaped",
           "package": "wumpus-drawing",
@@ -20625,6 +22488,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "escaped",
           "normalized": "EscapedText-\u003eGenDocGraphic a b",
@@ -20640,6 +22504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is equivalent to \u003ccode\u003e\u003ca\u003eshowFFloat\u003c/a\u003e\u003c/code\u003e in the Numeric module.\n\u003c/p\u003e\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eshowFFloat\u003c/a\u003e\u003c/code\u003e, the answer is rendered to supplied \n precision. \u003ccode\u003eNothing\u003c/code\u003e indicated full precision.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "ffloat",
           "package": "wumpus-drawing",
@@ -20650,6 +22515,7 @@
         "index": {
           "description": "This is equivalent to showFFloat in the Numeric module Like showFFloat the answer is rendered to supplied precision Nothing indicated full precision",
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "ffloat",
           "normalized": "Maybe Int-\u003ea-\u003eGenDocGraphic b c",
@@ -20665,6 +22531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialized version of \u003ccode\u003e\u003ca\u003effloat\u003c/a\u003e\u003c/code\u003e - the answer is always \n rendered at \"full precision\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "float",
           "package": "wumpus-drawing",
@@ -20675,6 +22542,7 @@
         "index": {
           "description": "Specialized version of ffloat the answer is always rendered at full precision",
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "float",
           "normalized": "a-\u003eGenDocGraphic b c",
@@ -20689,6 +22557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "highlight",
           "package": "wumpus-drawing",
@@ -20698,6 +22567,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "highlight",
           "normalized": "RGBi-\u003eGenDoc a b c-\u003eGenDoc a b c",
@@ -20712,6 +22582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "int",
           "package": "wumpus-drawing",
@@ -20721,6 +22592,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "int",
           "normalized": "Int-\u003eGenDocGraphic a b",
@@ -20735,6 +22607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "integer",
           "package": "wumpus-drawing",
@@ -20744,6 +22617,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "integer",
           "normalized": "Integer-\u003eGenDocGraphic a b",
@@ -20758,6 +22632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "italic",
           "package": "wumpus-drawing",
@@ -20767,6 +22642,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "italic",
           "normalized": "GenDoc a b c-\u003eGenDoc a b c",
@@ -20781,6 +22657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "monospace",
           "package": "wumpus-drawing",
@@ -20790,6 +22667,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "monospace",
           "normalized": "EscapedChar-\u003eEscapedText-\u003eGenDocGraphic a b",
@@ -20804,6 +22682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "runGenDoc",
           "package": "wumpus-drawing",
@@ -20813,6 +22692,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "runGenDoc",
           "normalized": "VAlign-\u003eFontFamily-\u003eGenDoc a b c-\u003eGenPosObject a b c",
@@ -20828,6 +22708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "space",
           "package": "wumpus-drawing",
@@ -20837,6 +22718,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "space",
           "package": "wumpus-drawing",
@@ -20849,6 +22731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "strikethrough",
           "package": "wumpus-drawing",
@@ -20858,6 +22741,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "strikethrough",
           "normalized": "GenDoc a b c-\u003eGenDoc a b c",
@@ -20872,6 +22756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "string",
           "package": "wumpus-drawing",
@@ -20881,6 +22766,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "string",
           "normalized": "String-\u003eGenDocGraphic a b",
@@ -20895,6 +22781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "underline",
           "package": "wumpus-drawing",
@@ -20904,6 +22791,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base DocTextZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.DocTextZero",
           "name": "underline",
           "normalized": "GenDoc a b c-\u003eGenDoc a b c",
@@ -20919,6 +22807,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAnnotation labels.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "Label",
           "package": "wumpus-drawing",
@@ -20928,6 +22817,7 @@
         "index": {
           "description": "Annotation labels",
           "hierarchy": "Wumpus Drawing Text Base Label",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "Label",
           "package": "wumpus-drawing",
@@ -20942,6 +22832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue is 1 snap move up, 1 snap move left.\n\u003c/p\u003e\u003cp\u003eThis function should be considered obsolete, pending a \n re-think.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "above_left_of",
           "package": "wumpus-drawing",
@@ -20952,6 +22843,7 @@
         "index": {
           "description": "Value is snap move up snap move left This function should be considered obsolete pending re-think",
           "hierarchy": "Wumpus Drawing Text Base Label",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "above_left_of",
           "normalized": "a-\u003eQuery b(Anchor b)",
@@ -20967,6 +22859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue is 1 snap move up, 1 snap move right.\n\u003c/p\u003e\u003cp\u003eThis function should be considered obsolete, pending a \n re-think.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "above_right_of",
           "package": "wumpus-drawing",
@@ -20977,6 +22870,7 @@
         "index": {
           "description": "Value is snap move up snap move right This function should be considered obsolete pending re-think",
           "hierarchy": "Wumpus Drawing Text Base Label",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "above_right_of",
           "normalized": "a-\u003eQuery b(Anchor b)",
@@ -20992,6 +22886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue is 1 snap move down, 1 snap move left.\n\u003c/p\u003e\u003cp\u003eThis function should be considered obsolete, pending a \n re-think.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "below_left_of",
           "package": "wumpus-drawing",
@@ -21002,6 +22897,7 @@
         "index": {
           "description": "Value is snap move down snap move left This function should be considered obsolete pending re-think",
           "hierarchy": "Wumpus Drawing Text Base Label",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "below_left_of",
           "normalized": "a-\u003eQuery b(Anchor b)",
@@ -21017,6 +22913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue is 1 snap move below, 1 snap move right.\n\u003c/p\u003e\u003cp\u003eThis function should be considered obsolete, pending a \n re-think.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "below_right_of",
           "package": "wumpus-drawing",
@@ -21027,6 +22924,7 @@
         "index": {
           "description": "Value is snap move below snap move right This function should be considered obsolete pending re-think",
           "hierarchy": "Wumpus Drawing Text Base Label",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "below_right_of",
           "normalized": "a-\u003eQuery b(Anchor b)",
@@ -21042,6 +22940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbsolute units.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "centerRelative",
           "package": "wumpus-drawing",
@@ -21052,6 +22951,7 @@
         "index": {
           "description": "Absolute units",
           "hierarchy": "Wumpus Drawing Text Base Label",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "centerRelative",
           "normalized": "(Int,Int)-\u003ea-\u003eQuery b(Anchor b)",
@@ -21067,6 +22967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "connectorPathLabel",
           "package": "wumpus-drawing",
@@ -21076,6 +22977,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base Label",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "connectorPathLabel",
           "normalized": "(AbsPath a-\u003ePoint a)-\u003eRectAddress-\u003eBoundedLocRectGraphic a-\u003eImage a(AbsPath a)-\u003eImage a(AbsPath a)",
@@ -21091,6 +22993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "label_above",
           "package": "wumpus-drawing",
@@ -21100,6 +23003,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base Label",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "label_above",
           "normalized": "BoundedLocRectGraphic a-\u003eLocImage a b-\u003eLocImage a b",
@@ -21114,6 +23018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "label_atend_of",
           "package": "wumpus-drawing",
@@ -21123,6 +23028,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base Label",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "label_atend_of",
           "normalized": "RectAddress-\u003eBoundedLocRectGraphic a-\u003eImage a(AbsPath a)-\u003eImage a(AbsPath a)",
@@ -21137,6 +23043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "label_atstart_of",
           "package": "wumpus-drawing",
@@ -21146,6 +23053,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base Label",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "label_atstart_of",
           "normalized": "RectAddress-\u003eBoundedLocRectGraphic a-\u003eImage a(AbsPath a)-\u003eImage a(AbsPath a)",
@@ -21160,6 +23068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "label_below",
           "package": "wumpus-drawing",
@@ -21169,6 +23078,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base Label",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "label_below",
           "normalized": "BoundedLocRectGraphic a-\u003eLocImage a b-\u003eLocImage a b",
@@ -21183,6 +23093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "label_center_of",
           "package": "wumpus-drawing",
@@ -21192,6 +23103,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base Label",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "label_center_of",
           "normalized": "BoundedLocRectGraphic a-\u003eLocImage a b-\u003eLocImage a b",
@@ -21206,6 +23118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "label_left_of",
           "package": "wumpus-drawing",
@@ -21215,6 +23128,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base Label",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "label_left_of",
           "normalized": "BoundedLocRectGraphic a-\u003eLocImage a b-\u003eLocImage a b",
@@ -21229,6 +23143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "label_midway_of",
           "package": "wumpus-drawing",
@@ -21238,6 +23153,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base Label",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "label_midway_of",
           "normalized": "RectAddress-\u003eBoundedLocRectGraphic a-\u003eImage a(AbsPath a)-\u003eImage a(AbsPath a)",
@@ -21252,6 +23168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "label_right_of",
           "package": "wumpus-drawing",
@@ -21261,6 +23178,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base Label",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "label_right_of",
           "normalized": "BoundedLocRectGraphic a-\u003eLocImage a b-\u003eLocImage a b",
@@ -21276,6 +23194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue is 1 snap move left.\n\u003c/p\u003e\u003cp\u003eThis function should be considered obsolete, pending a \n re-think.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "left_of",
           "package": "wumpus-drawing",
@@ -21286,6 +23205,7 @@
         "index": {
           "description": "Value is snap move left This function should be considered obsolete pending re-think",
           "hierarchy": "Wumpus Drawing Text Base Label",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "left_of",
           "normalized": "a-\u003eQuery b(Anchor b)",
@@ -21300,6 +23220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "locImageLabel",
           "package": "wumpus-drawing",
@@ -21309,6 +23230,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text Base Label",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "locImageLabel",
           "normalized": "(a-\u003eAnchor b)-\u003eRectAddress-\u003e(RectAddress-\u003eLocImage b(BoundingBox b))-\u003eLocImage b a-\u003eLocImage b a",
@@ -21325,6 +23247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue is 1 snap unit right.\n\u003c/p\u003e\u003cp\u003eThis function should be considered obsolete, pending a \n re-think.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "right_of",
           "package": "wumpus-drawing",
@@ -21335,6 +23258,7 @@
         "index": {
           "description": "Value is snap unit right This function should be considered obsolete pending re-think",
           "hierarchy": "Wumpus Drawing Text Base Label",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.Base.Label",
           "name": "right_of",
           "normalized": "a-\u003eQuery b(Anchor b)",
@@ -21350,6 +23274,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon import module for the Writing Direction 0 modules\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.DirectionZero",
           "name": "DirectionZero",
           "package": "wumpus-drawing",
@@ -21359,6 +23284,7 @@
         "index": {
           "description": "Common import module for the Writing Direction modules",
           "hierarchy": "Wumpus Drawing Text DirectionZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.DirectionZero",
           "name": "DirectionZero",
           "package": "wumpus-drawing",
@@ -21372,6 +23298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.DirectionZero",
           "name": "multilineText",
           "package": "wumpus-drawing",
@@ -21381,6 +23308,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text DirectionZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.DirectionZero",
           "name": "multilineText",
           "normalized": "VAlign-\u003eRectAddress-\u003eString-\u003eBoundedLocGraphic a",
@@ -21397,6 +23325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote - this is likely to be moved too...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.DirectionZero",
           "name": "rtextline",
           "package": "wumpus-drawing",
@@ -21407,6 +23336,7 @@
         "index": {
           "description": "Note this is likely to be moved too",
           "hierarchy": "Wumpus Drawing Text DirectionZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.DirectionZero",
           "name": "rtextline",
           "normalized": "Radian-\u003eRectAddress-\u003eString-\u003eBoundedLocGraphic a",
@@ -21422,6 +23352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote - this is likely to be moved...\n\u003c/p\u003e\u003cp\u003eAlso, reversed argument order would be more convenient as \n RectAddress always short but String could be long. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.DirectionZero",
           "name": "textline",
           "package": "wumpus-drawing",
@@ -21432,6 +23363,7 @@
         "index": {
           "description": "Note this is likely to be moved Also reversed argument order would be more convenient as RectAddress always short but String could be long",
           "hierarchy": "Wumpus Drawing Text DirectionZero",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.DirectionZero",
           "name": "textline",
           "normalized": "RectAddress-\u003eString-\u003eBoundedLocGraphic a",
@@ -21447,6 +23379,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSymbols - redefined Basis.Symbols.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.DocSymbols",
           "name": "DocSymbols",
           "package": "wumpus-drawing",
@@ -21456,6 +23389,7 @@
         "index": {
           "description": "Symbols redefined Basis.Symbols",
           "hierarchy": "Wumpus Drawing Text DocSymbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.DocSymbols",
           "name": "DocSymbols",
           "package": "wumpus-drawing",
@@ -21469,6 +23403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.DocSymbols",
           "name": "empty_box",
           "package": "wumpus-drawing",
@@ -21478,6 +23413,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text DocSymbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.DocSymbols",
           "name": "empty_box",
           "package": "wumpus-drawing",
@@ -21490,6 +23426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.DocSymbols",
           "name": "left_slice",
           "package": "wumpus-drawing",
@@ -21499,6 +23436,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text DocSymbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.DocSymbols",
           "name": "left_slice",
           "package": "wumpus-drawing",
@@ -21511,6 +23449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.DocSymbols",
           "name": "ocircle",
           "package": "wumpus-drawing",
@@ -21520,6 +23459,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text DocSymbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.DocSymbols",
           "name": "ocircle",
           "package": "wumpus-drawing",
@@ -21532,6 +23472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.DocSymbols",
           "name": "right_slice",
           "package": "wumpus-drawing",
@@ -21541,6 +23482,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text DocSymbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.DocSymbols",
           "name": "right_slice",
           "package": "wumpus-drawing",
@@ -21553,6 +23495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.DocSymbols",
           "name": "small_ocircle",
           "package": "wumpus-drawing",
@@ -21562,6 +23505,7 @@
         },
         "index": {
           "hierarchy": "Wumpus Drawing Text DocSymbols",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.DocSymbols",
           "name": "small_ocircle",
           "package": "wumpus-drawing",
@@ -21575,6 +23519,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSafe to use \"Core 13\" fonts that are expected to be present\n for any PostScript interpreter.\n\u003c/p\u003e\u003cp\u003eNote - regrettably Symbol is not safe to use for SVG.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "StandardFontDefs",
           "package": "wumpus-drawing",
@@ -21584,6 +23529,7 @@
         "index": {
           "description": "Safe to use Core fonts that are expected to be present for any PostScript interpreter Note regrettably Symbol is not safe to use for SVG",
           "hierarchy": "Wumpus Drawing Text StandardFontDefs",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "StandardFontDefs",
           "package": "wumpus-drawing",
@@ -21598,6 +23544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCourier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "courier",
           "package": "wumpus-drawing",
@@ -21608,6 +23555,7 @@
         "index": {
           "description": "Courier",
           "hierarchy": "Wumpus Drawing Text StandardFontDefs",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "courier",
           "package": "wumpus-drawing",
@@ -21621,6 +23569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCourier Bold\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "courier_bold",
           "package": "wumpus-drawing",
@@ -21631,6 +23580,7 @@
         "index": {
           "description": "Courier Bold",
           "hierarchy": "Wumpus Drawing Text StandardFontDefs",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "courier_bold",
           "package": "wumpus-drawing",
@@ -21644,6 +23594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCourier Bold Oblique\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "courier_bold_oblique",
           "package": "wumpus-drawing",
@@ -21654,6 +23605,7 @@
         "index": {
           "description": "Courier Bold Oblique",
           "hierarchy": "Wumpus Drawing Text StandardFontDefs",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "courier_bold_oblique",
           "package": "wumpus-drawing",
@@ -21667,6 +23619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFontFamily\u003c/a\u003e\u003c/code\u003e definition for Courier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "courier_family",
           "package": "wumpus-drawing",
@@ -21677,6 +23630,7 @@
         "index": {
           "description": "FontFamily definition for Courier",
           "hierarchy": "Wumpus Drawing Text StandardFontDefs",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "courier_family",
           "package": "wumpus-drawing",
@@ -21690,6 +23644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCourier Oblique\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "courier_oblique",
           "package": "wumpus-drawing",
@@ -21700,6 +23655,7 @@
         "index": {
           "description": "Courier Oblique",
           "hierarchy": "Wumpus Drawing Text StandardFontDefs",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "courier_oblique",
           "package": "wumpus-drawing",
@@ -21713,6 +23669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelvetica regular weight.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "helvetica",
           "package": "wumpus-drawing",
@@ -21723,6 +23680,7 @@
         "index": {
           "description": "Helvetica regular weight",
           "hierarchy": "Wumpus Drawing Text StandardFontDefs",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "helvetica",
           "package": "wumpus-drawing",
@@ -21736,6 +23694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelvetica Bold\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "helvetica_bold",
           "package": "wumpus-drawing",
@@ -21746,6 +23705,7 @@
         "index": {
           "description": "Helvetica Bold",
           "hierarchy": "Wumpus Drawing Text StandardFontDefs",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "helvetica_bold",
           "package": "wumpus-drawing",
@@ -21759,6 +23719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelvetica Bold Oblique\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "helvetica_bold_oblique",
           "package": "wumpus-drawing",
@@ -21769,6 +23730,7 @@
         "index": {
           "description": "Helvetica Bold Oblique",
           "hierarchy": "Wumpus Drawing Text StandardFontDefs",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "helvetica_bold_oblique",
           "package": "wumpus-drawing",
@@ -21782,6 +23744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFontFamily\u003c/a\u003e\u003c/code\u003e definition for Helvetica.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "helvetica_family",
           "package": "wumpus-drawing",
@@ -21792,6 +23755,7 @@
         "index": {
           "description": "FontFamily definition for Helvetica",
           "hierarchy": "Wumpus Drawing Text StandardFontDefs",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "helvetica_family",
           "package": "wumpus-drawing",
@@ -21805,6 +23769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelvetica Oblique\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "helvetica_oblique",
           "package": "wumpus-drawing",
@@ -21815,6 +23780,7 @@
         "index": {
           "description": "Helvetica Oblique",
           "hierarchy": "Wumpus Drawing Text StandardFontDefs",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "helvetica_oblique",
           "package": "wumpus-drawing",
@@ -21828,6 +23794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymbol\n\u003c/p\u003e\u003cp\u003eNote - Symbol is intentionally not supported for SVG by some \n renderers (Firefox). Chrome is fine, but the use of symbol \n should be still be avoided for web graphics.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "symbol",
           "package": "wumpus-drawing",
@@ -21838,6 +23805,7 @@
         "index": {
           "description": "Symbol Note Symbol is intentionally not supported for SVG by some renderers Firefox Chrome is fine but the use of symbol should be still be avoided for web graphics",
           "hierarchy": "Wumpus Drawing Text StandardFontDefs",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "symbol",
           "package": "wumpus-drawing",
@@ -21851,6 +23819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTimes Bold\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "times_bold",
           "package": "wumpus-drawing",
@@ -21861,6 +23830,7 @@
         "index": {
           "description": "Times Bold",
           "hierarchy": "Wumpus Drawing Text StandardFontDefs",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "times_bold",
           "package": "wumpus-drawing",
@@ -21874,6 +23844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTimes Bold Italic\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "times_bold_italic",
           "package": "wumpus-drawing",
@@ -21884,6 +23855,7 @@
         "index": {
           "description": "Times Bold Italic",
           "hierarchy": "Wumpus Drawing Text StandardFontDefs",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "times_bold_italic",
           "package": "wumpus-drawing",
@@ -21897,6 +23869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTimes Italic\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "times_italic",
           "package": "wumpus-drawing",
@@ -21907,6 +23880,7 @@
         "index": {
           "description": "Times Italic",
           "hierarchy": "Wumpus Drawing Text StandardFontDefs",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "times_italic",
           "package": "wumpus-drawing",
@@ -21920,6 +23894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTimes-Roman\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "times_roman",
           "package": "wumpus-drawing",
@@ -21930,6 +23905,7 @@
         "index": {
           "description": "Times-Roman",
           "hierarchy": "Wumpus Drawing Text StandardFontDefs",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "times_roman",
           "package": "wumpus-drawing",
@@ -21943,6 +23919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFontFamily\u003c/a\u003e\u003c/code\u003e definition for Times-Roman.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "times_roman_family",
           "package": "wumpus-drawing",
@@ -21953,6 +23930,7 @@
         "index": {
           "description": "FontFamily definition for Times-Roman",
           "hierarchy": "Wumpus Drawing Text StandardFontDefs",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.Text.StandardFontDefs",
           "name": "times_roman_family",
           "package": "wumpus-drawing",
@@ -21966,6 +23944,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion number\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.VersionNumber",
           "name": "VersionNumber",
           "package": "wumpus-drawing",
@@ -21975,6 +23954,7 @@
         "index": {
           "description": "Version number",
           "hierarchy": "Wumpus Drawing VersionNumber",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.VersionNumber",
           "name": "VersionNumber",
           "package": "wumpus-drawing",
@@ -21989,6 +23969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion number\n\u003c/p\u003e\u003cpre\u003e (0,9,0)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:40:12 UTC 2014",
           "module": "Wumpus.Drawing.VersionNumber",
           "name": "wumpus_drawing_version",
           "package": "wumpus-drawing",
@@ -21999,6 +23980,7 @@
         "index": {
           "description": "Version number",
           "hierarchy": "Wumpus Drawing VersionNumber",
+          "indexed": "2014-03-11T20:40:12",
           "module": "Wumpus.Drawing.VersionNumber",
           "name": "wumpus_drawing_version",
           "normalized": "(Int,Int,Int)",

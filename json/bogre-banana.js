@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bogre-banana"
+        "phrase": "bogre-banana",
+        "type": "phrase"
       },
       "type": "context"
     }

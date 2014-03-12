@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "notmuch-web"
+        "phrase": "notmuch-web",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Application",
           "name": "Application",
           "package": "notmuch-web",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Application",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Application",
           "name": "Application",
           "package": "notmuch-web",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Application",
           "name": "getApplicationDev",
           "package": "notmuch-web",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Application",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Application",
           "name": "getApplicationDev",
           "normalized": "IO(Int,Application)",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Application",
           "name": "makeApplication",
           "package": "notmuch-web",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Application",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Application",
           "name": "makeApplication",
           "normalized": "AppConfig DefaultEnv Extra-\u003eIO Application",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Application",
           "name": "makeFoundation",
           "package": "notmuch-web",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Application",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Application",
           "name": "makeFoundation",
           "normalized": "AppConfig DefaultEnv Extra-\u003eIO App",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "FilterHtml",
           "name": "FilterHtml",
           "package": "notmuch-web",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "FilterHtml",
+          "indexed": "2014-03-11T19:30:06",
           "module": "FilterHtml",
           "name": "FilterHtml",
           "package": "notmuch-web",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter Html\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "FilterHtml",
           "name": "filterHtml",
           "package": "notmuch-web",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Filter Html",
           "hierarchy": "FilterHtml",
+          "indexed": "2014-03-11T19:30:06",
           "module": "FilterHtml",
           "name": "filterHtml",
           "normalized": "Text-\u003eText",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "Foundation",
           "package": "notmuch-web",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "Foundation",
           "package": "notmuch-web",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "App",
           "package": "notmuch-web",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "App",
           "package": "notmuch-web",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "AppMessage",
           "package": "notmuch-web",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "AppMessage",
           "package": "notmuch-web",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "Form",
           "package": "notmuch-web",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "Form",
           "package": "notmuch-web",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "Handler",
           "package": "notmuch-web",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "Handler",
           "package": "notmuch-web",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "Widget",
           "package": "notmuch-web",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "Widget",
           "package": "notmuch-web",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "App",
           "package": "notmuch-web",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "App",
           "package": "notmuch-web",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgAbook",
           "package": "notmuch-web",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgAbook",
           "package": "notmuch-web",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgAddrBookType",
           "package": "notmuch-web",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgAddrBookType",
           "package": "notmuch-web",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgAddrHelp",
           "package": "notmuch-web",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgAddrHelp",
           "package": "notmuch-web",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgAddrHelpTitle",
           "package": "notmuch-web",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgAddrHelpTitle",
           "package": "notmuch-web",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgAttach",
           "package": "notmuch-web",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgAttach",
           "package": "notmuch-web",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgAuthors",
           "package": "notmuch-web",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgAuthors",
           "package": "notmuch-web",
@@ -438,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgBody",
           "package": "notmuch-web",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgBody",
           "package": "notmuch-web",
@@ -460,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgBodyFormat",
           "package": "notmuch-web",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgBodyFormat",
           "package": "notmuch-web",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgCheckNew",
           "package": "notmuch-web",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgCheckNew",
           "package": "notmuch-web",
@@ -504,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgClose",
           "package": "notmuch-web",
@@ -513,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgClose",
           "package": "notmuch-web",
@@ -526,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgCompose",
           "package": "notmuch-web",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgCompose",
           "package": "notmuch-web",
@@ -548,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgDate",
           "package": "notmuch-web",
@@ -557,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgDate",
           "package": "notmuch-web",
@@ -570,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgExitCode",
           "package": "notmuch-web",
@@ -579,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgExitCode",
           "package": "notmuch-web",
@@ -592,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgExtraHeader",
           "package": "notmuch-web",
@@ -601,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgExtraHeader",
           "package": "notmuch-web",
@@ -614,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgFolders",
           "package": "notmuch-web",
@@ -623,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgFolders",
           "package": "notmuch-web",
@@ -636,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgGoogle",
           "package": "notmuch-web",
@@ -645,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgGoogle",
           "package": "notmuch-web",
@@ -658,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgGoogleAuth",
           "package": "notmuch-web",
@@ -667,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgGoogleAuth",
           "package": "notmuch-web",
@@ -680,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgInPager",
           "package": "notmuch-web",
@@ -689,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgInPager",
           "package": "notmuch-web",
@@ -702,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgLogin",
           "package": "notmuch-web",
@@ -711,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgLogin",
           "package": "notmuch-web",
@@ -724,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgLogout",
           "package": "notmuch-web",
@@ -733,6 +798,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgLogout",
           "package": "notmuch-web",
@@ -746,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgMessageRetagging",
           "package": "notmuch-web",
@@ -755,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgMessageRetagging",
           "package": "notmuch-web",
@@ -768,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgNoAddressBook",
           "package": "notmuch-web",
@@ -777,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgNoAddressBook",
           "package": "notmuch-web",
@@ -790,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgNum",
           "package": "notmuch-web",
@@ -799,6 +870,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgNum",
           "package": "notmuch-web",
@@ -812,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgPassword",
           "package": "notmuch-web",
@@ -821,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgPassword",
           "package": "notmuch-web",
@@ -834,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgPreview",
           "package": "notmuch-web",
@@ -843,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgPreview",
           "package": "notmuch-web",
@@ -856,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgRaw",
           "package": "notmuch-web",
@@ -865,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgRaw",
           "package": "notmuch-web",
@@ -878,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgRawWarning",
           "package": "notmuch-web",
@@ -887,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgRawWarning",
           "package": "notmuch-web",
@@ -900,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgRetag",
           "package": "notmuch-web",
@@ -909,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgRetag",
           "package": "notmuch-web",
@@ -922,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgRunCmd",
           "package": "notmuch-web",
@@ -931,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgRunCmd",
           "package": "notmuch-web",
@@ -944,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgSend",
           "package": "notmuch-web",
@@ -953,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgSend",
           "package": "notmuch-web",
@@ -966,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgSent",
           "package": "notmuch-web",
@@ -975,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgSent",
           "package": "notmuch-web",
@@ -988,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgSepTagsBySpace",
           "package": "notmuch-web",
@@ -997,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgSepTagsBySpace",
           "package": "notmuch-web",
@@ -1010,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgStdErr",
           "package": "notmuch-web",
@@ -1019,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgStdErr",
           "package": "notmuch-web",
@@ -1032,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgStdOut",
           "package": "notmuch-web",
@@ -1041,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgStdOut",
           "package": "notmuch-web",
@@ -1054,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgSubject",
           "package": "notmuch-web",
@@ -1063,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgSubject",
           "package": "notmuch-web",
@@ -1076,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgTags",
           "package": "notmuch-web",
@@ -1085,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgTags",
           "package": "notmuch-web",
@@ -1098,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgTagsToAdd",
           "package": "notmuch-web",
@@ -1107,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgTagsToAdd",
           "package": "notmuch-web",
@@ -1120,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgTagsToRemove",
           "package": "notmuch-web",
@@ -1129,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgTagsToRemove",
           "package": "notmuch-web",
@@ -1142,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "MsgViewInPager",
           "package": "notmuch-web",
@@ -1151,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "MsgViewInPager",
           "package": "notmuch-web",
@@ -1164,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "appMessageFolder",
           "package": "notmuch-web",
@@ -1173,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "appMessageFolder",
           "package": "notmuch-web",
@@ -1187,6 +1293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the \u003ccode\u003e\u003ca\u003eExtra\u003c/a\u003e\u003c/code\u003e value, used to hold data from the settings.yml file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "getExtra",
           "package": "notmuch-web",
@@ -1197,6 +1304,7 @@
         "index": {
           "description": "Get the Extra value used to hold data from the settings.yml file",
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "getExtra",
           "package": "notmuch-web",
@@ -1210,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "getStatic",
           "package": "notmuch-web",
@@ -1219,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "getStatic",
           "package": "notmuch-web",
@@ -1232,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "httpManager",
           "package": "notmuch-web",
@@ -1241,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "httpManager",
           "package": "notmuch-web",
@@ -1255,6 +1367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if the request comes from pjax\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "isPjax",
           "package": "notmuch-web",
@@ -1265,6 +1378,7 @@
         "index": {
           "description": "Checks if the request comes from pjax",
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "isPjax",
           "package": "notmuch-web",
@@ -1278,6 +1392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "loginForm",
           "package": "notmuch-web",
@@ -1287,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "loginForm",
           "package": "notmuch-web",
@@ -1301,6 +1417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehashed password from \u003ca\u003eCrypto.PasswordStore\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "passwordHash",
           "package": "notmuch-web",
@@ -1311,6 +1428,7 @@
         "index": {
           "description": "hashed password from Crypto.PasswordStore",
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "passwordHash",
           "package": "notmuch-web",
@@ -1324,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "passwordPlugin",
           "package": "notmuch-web",
@@ -1333,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "passwordPlugin",
           "package": "notmuch-web",
@@ -1346,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "resourcesApp",
           "package": "notmuch-web",
@@ -1355,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "resourcesApp",
           "normalized": "[ResourceTree String]",
@@ -1370,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Foundation",
           "name": "settings",
           "package": "notmuch-web",
@@ -1379,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Foundation",
           "name": "settings",
           "package": "notmuch-web",
@@ -1391,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Abook",
           "name": "Abook",
           "package": "notmuch-web",
@@ -1399,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Handler Abook",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Abook",
           "name": "Abook",
           "package": "notmuch-web",
@@ -1413,6 +1539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery abook for the given string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Abook",
           "name": "getAbookQueryR",
           "package": "notmuch-web",
@@ -1423,6 +1550,7 @@
         "index": {
           "description": "Query abook for the given string",
           "hierarchy": "Handler Abook",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Abook",
           "name": "getAbookQueryR",
           "package": "notmuch-web",
@@ -1436,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Compose",
           "name": "Compose",
           "package": "notmuch-web",
@@ -1444,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Handler Compose",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Compose",
           "name": "Compose",
           "package": "notmuch-web",
@@ -1457,6 +1587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Compose",
           "name": "getComposeR",
           "package": "notmuch-web",
@@ -1466,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "Handler Compose",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Compose",
           "name": "getComposeR",
           "package": "notmuch-web",
@@ -1479,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Compose",
           "name": "getReplyAllR",
           "package": "notmuch-web",
@@ -1488,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Handler Compose",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Compose",
           "name": "getReplyAllR",
           "normalized": "MessageID-\u003eHandler Html",
@@ -1503,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Compose",
           "name": "getReplyR",
           "package": "notmuch-web",
@@ -1512,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "Handler Compose",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Compose",
           "name": "getReplyR",
           "normalized": "MessageID-\u003eHandler Html",
@@ -1527,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Compose",
           "name": "postComposeR",
           "package": "notmuch-web",
@@ -1536,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Handler Compose",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Compose",
           "name": "postComposeR",
           "package": "notmuch-web",
@@ -1549,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Compose",
           "name": "postPreviewMessageR",
           "package": "notmuch-web",
@@ -1558,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Handler Compose",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Compose",
           "name": "postPreviewMessageR",
           "package": "notmuch-web",
@@ -1571,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.ComposeFields",
           "name": "ComposeFields",
           "package": "notmuch-web",
@@ -1579,6 +1720,7 @@
         },
         "index": {
           "hierarchy": "Handler ComposeFields",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.ComposeFields",
           "name": "ComposeFields",
           "package": "notmuch-web",
@@ -1592,6 +1734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.ComposeFields",
           "name": "addressField",
           "package": "notmuch-web",
@@ -1601,6 +1744,7 @@
         },
         "index": {
           "hierarchy": "Handler ComposeFields",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.ComposeFields",
           "name": "addressField",
           "normalized": "Field(HandlerT App IO)[Address]",
@@ -1616,6 +1760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.ComposeFields",
           "name": "headerField",
           "package": "notmuch-web",
@@ -1625,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "Handler ComposeFields",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.ComposeFields",
           "name": "headerField",
           "normalized": "Field(HandlerT App IO)[(ByteString,Text)]",
@@ -1640,6 +1786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.ComposeFields",
           "name": "multiFile",
           "package": "notmuch-web",
@@ -1649,6 +1796,7 @@
         },
         "index": {
           "hierarchy": "Handler ComposeFields",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.ComposeFields",
           "name": "multiFile",
           "normalized": "Field(HandlerT a IO)[FileInfo]",
@@ -1665,6 +1813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a single address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.ComposeFields",
           "name": "parseAddress",
           "package": "notmuch-web",
@@ -1675,6 +1824,7 @@
         "index": {
           "description": "Parse single address",
           "hierarchy": "Handler ComposeFields",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.ComposeFields",
           "name": "parseAddress",
           "normalized": "Text-\u003eEither(SomeMessage App)Address",
@@ -1691,6 +1841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a list of addresses separated by commas\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.ComposeFields",
           "name": "parseAddresses",
           "package": "notmuch-web",
@@ -1701,6 +1852,7 @@
         "index": {
           "description": "Parse list of addresses separated by commas",
           "hierarchy": "Handler ComposeFields",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.ComposeFields",
           "name": "parseAddresses",
           "normalized": "Text-\u003eEither(SomeMessage App)[Address]",
@@ -1716,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.ComposeFields",
           "name": "showAddress",
           "package": "notmuch-web",
@@ -1725,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "Handler ComposeFields",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.ComposeFields",
           "name": "showAddress",
           "normalized": "Address-\u003eText",
@@ -1740,6 +1894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Home",
           "name": "Home",
           "package": "notmuch-web",
@@ -1748,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Handler Home",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Home",
           "name": "Home",
           "package": "notmuch-web",
@@ -1762,6 +1918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe GET handler for the home page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Home",
           "name": "getHomeR",
           "package": "notmuch-web",
@@ -1772,6 +1929,7 @@
         "index": {
           "description": "The GET handler for the home page",
           "hierarchy": "Handler Home",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Home",
           "name": "getHomeR",
           "package": "notmuch-web",
@@ -1785,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Home",
           "name": "getOpenSearchR",
           "package": "notmuch-web",
@@ -1794,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Handler Home",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Home",
           "name": "getOpenSearchR",
           "package": "notmuch-web",
@@ -1808,6 +1968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe GET handler for the search page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Home",
           "name": "getSearchR",
           "package": "notmuch-web",
@@ -1818,6 +1979,7 @@
         "index": {
           "description": "The GET handler for the search page",
           "hierarchy": "Handler Home",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Home",
           "name": "getSearchR",
           "normalized": "String-\u003eHandler Html",
@@ -1834,6 +1996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe POST handler for the search box on the navbar, just redirects to the search route.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Home",
           "name": "postSearchPostR",
           "package": "notmuch-web",
@@ -1844,6 +2007,7 @@
         "index": {
           "description": "The POST handler for the search box on the navbar just redirects to the search route",
           "hierarchy": "Handler Home",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Home",
           "name": "postSearchPostR",
           "normalized": "Handler()",
@@ -1859,6 +2023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Pager",
           "name": "Pager",
           "package": "notmuch-web",
@@ -1867,6 +2032,7 @@
         },
         "index": {
           "hierarchy": "Handler Pager",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Pager",
           "name": "Pager",
           "package": "notmuch-web",
@@ -1880,6 +2046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Pager",
           "name": "getThreadPagerR",
           "package": "notmuch-web",
@@ -1889,6 +2056,7 @@
         },
         "index": {
           "hierarchy": "Handler Pager",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Pager",
           "name": "getThreadPagerR",
           "normalized": "String-\u003eHandler Html",
@@ -1904,6 +2072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Raw",
           "name": "Raw",
           "package": "notmuch-web",
@@ -1912,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Handler Raw",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Raw",
           "name": "Raw",
           "package": "notmuch-web",
@@ -1925,6 +2095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Raw",
           "name": "getRawCommandR",
           "package": "notmuch-web",
@@ -1934,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "Handler Raw",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Raw",
           "name": "getRawCommandR",
           "package": "notmuch-web",
@@ -1947,6 +2119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Raw",
           "name": "postRawCommandR",
           "package": "notmuch-web",
@@ -1956,6 +2129,7 @@
         },
         "index": {
           "hierarchy": "Handler Raw",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Raw",
           "name": "postRawCommandR",
           "package": "notmuch-web",
@@ -1969,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Tags",
           "name": "Tags",
           "package": "notmuch-web",
@@ -1977,6 +2152,7 @@
         },
         "index": {
           "hierarchy": "Handler Tags",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Tags",
           "name": "Tags",
           "package": "notmuch-web",
@@ -1990,6 +2166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Tags",
           "name": "postCustomRetagMessageR",
           "package": "notmuch-web",
@@ -1999,6 +2176,7 @@
         },
         "index": {
           "hierarchy": "Handler Tags",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Tags",
           "name": "postCustomRetagMessageR",
           "normalized": "MessageID-\u003eHandler Value",
@@ -2014,6 +2192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Tags",
           "name": "postCustomRetagThreadR",
           "package": "notmuch-web",
@@ -2023,6 +2202,7 @@
         },
         "index": {
           "hierarchy": "Handler Tags",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Tags",
           "name": "postCustomRetagThreadR",
           "normalized": "ThreadID-\u003eHandler Value",
@@ -2038,6 +2218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Tags",
           "name": "postRetagMessageR",
           "package": "notmuch-web",
@@ -2047,6 +2228,7 @@
         },
         "index": {
           "hierarchy": "Handler Tags",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Tags",
           "name": "postRetagMessageR",
           "normalized": "MessageID-\u003eText-\u003eHandler Value",
@@ -2062,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Tags",
           "name": "postRetagThreadR",
           "package": "notmuch-web",
@@ -2071,6 +2254,7 @@
         },
         "index": {
           "hierarchy": "Handler Tags",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Tags",
           "name": "postRetagThreadR",
           "normalized": "ThreadID-\u003eText-\u003eHandler Value",
@@ -2087,6 +2271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA widget that contains the support elements for retagging, including the forms\n and javascript.  This widget must be included only ONCE in the page.  A notmuch:retag\n event is raised after a successful retag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Tags",
           "name": "tagHeader",
           "package": "notmuch-web",
@@ -2097,6 +2282,7 @@
         "index": {
           "description": "widget that contains the support elements for retagging including the forms and javascript This widget must be included only ONCE in the page notmuch retag event is raised after successful retag",
           "hierarchy": "Handler Tags",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Tags",
           "name": "tagHeader",
           "package": "notmuch-web",
@@ -2111,6 +2297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA widget consisting of the retag buttons followed by the current tag list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.Tags",
           "name": "tagWidget",
           "package": "notmuch-web",
@@ -2121,6 +2308,7 @@
         "index": {
           "description": "widget consisting of the retag buttons followed by the current tag list",
           "hierarchy": "Handler Tags",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.Tags",
           "name": "tagWidget",
           "normalized": "Either SearchResult Message-\u003eWidgetT App IO()",
@@ -2136,6 +2324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.View",
           "name": "View",
           "package": "notmuch-web",
@@ -2144,6 +2333,7 @@
         },
         "index": {
           "hierarchy": "Handler View",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.View",
           "name": "View",
           "package": "notmuch-web",
@@ -2157,6 +2347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.View",
           "name": "getMessagePartR",
           "package": "notmuch-web",
@@ -2166,6 +2357,7 @@
         },
         "index": {
           "hierarchy": "Handler View",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.View",
           "name": "getMessagePartR",
           "normalized": "MessageID-\u003eInt-\u003eHandler TypedContent",
@@ -2181,6 +2373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.View",
           "name": "getThreadR",
           "package": "notmuch-web",
@@ -2190,6 +2383,7 @@
         },
         "index": {
           "hierarchy": "Handler View",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.View",
           "name": "getThreadR",
           "normalized": "ThreadID-\u003eHandler Html",
@@ -2206,6 +2400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe header code for displaying threads, should only be included once in the page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.View",
           "name": "threadHeader",
           "package": "notmuch-web",
@@ -2216,6 +2411,7 @@
         "index": {
           "description": "The header code for displaying threads should only be included once in the page",
           "hierarchy": "Handler View",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.View",
           "name": "threadHeader",
           "package": "notmuch-web",
@@ -2229,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Handler.View",
           "name": "threadWidget",
           "package": "notmuch-web",
@@ -2238,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Handler View",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Handler.View",
           "name": "threadWidget",
           "normalized": "ThreadID-\u003eWidget",
@@ -2253,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Import",
           "name": "Import",
           "package": "notmuch-web",
@@ -2261,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "Import",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Import",
           "name": "Import",
           "package": "notmuch-web",
@@ -2274,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "NotmuchCmd",
           "package": "notmuch-web",
@@ -2282,6 +2483,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "NotmuchCmd",
           "package": "notmuch-web",
@@ -2295,6 +2497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "Message",
           "package": "notmuch-web",
@@ -2303,6 +2506,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "Message",
           "package": "notmuch-web",
@@ -2316,6 +2520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "MessageContent",
           "package": "notmuch-web",
@@ -2324,6 +2529,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "MessageContent",
           "package": "notmuch-web",
@@ -2337,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "MessageHeaders",
           "package": "notmuch-web",
@@ -2345,6 +2552,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "MessageHeaders",
           "package": "notmuch-web",
@@ -2358,6 +2566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "MessageID",
           "package": "notmuch-web",
@@ -2366,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "MessageID",
           "package": "notmuch-web",
@@ -2379,6 +2589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "MessagePart",
           "package": "notmuch-web",
@@ -2387,6 +2598,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "MessagePart",
           "package": "notmuch-web",
@@ -2400,6 +2612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "Reply",
           "package": "notmuch-web",
@@ -2408,6 +2621,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "Reply",
           "package": "notmuch-web",
@@ -2421,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "ReplyTo",
           "package": "notmuch-web",
@@ -2429,6 +2644,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "ReplyTo",
           "package": "notmuch-web",
@@ -2443,6 +2659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single entry returned from the notmuch search command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "SearchResult",
           "package": "notmuch-web",
@@ -2452,6 +2669,7 @@
         "index": {
           "description": "single entry returned from the notmuch search command",
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "SearchResult",
           "package": "notmuch-web",
@@ -2465,6 +2683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "Thread",
           "package": "notmuch-web",
@@ -2473,6 +2692,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "Thread",
           "package": "notmuch-web",
@@ -2486,6 +2706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "ThreadID",
           "package": "notmuch-web",
@@ -2494,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "ThreadID",
           "package": "notmuch-web",
@@ -2507,6 +2729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "ContentMsgRFC822",
           "package": "notmuch-web",
@@ -2516,6 +2739,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "ContentMsgRFC822",
           "normalized": "ContentMsgRFC[(MessageHeaders,[MessagePart])]",
@@ -2531,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "ContentMultipart",
           "package": "notmuch-web",
@@ -2540,6 +2765,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "ContentMultipart",
           "normalized": "ContentMultipart[MessagePart]",
@@ -2555,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "ContentText",
           "package": "notmuch-web",
@@ -2564,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "ContentText",
           "package": "notmuch-web",
@@ -2577,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "Message",
           "package": "notmuch-web",
@@ -2586,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "Message",
           "package": "notmuch-web",
@@ -2599,6 +2829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "MessageID",
           "package": "notmuch-web",
@@ -2608,6 +2839,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "MessageID",
           "package": "notmuch-web",
@@ -2621,6 +2853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "MessagePart",
           "package": "notmuch-web",
@@ -2630,6 +2863,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "MessagePart",
           "package": "notmuch-web",
@@ -2643,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "Reply",
           "package": "notmuch-web",
@@ -2652,6 +2887,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "Reply",
           "package": "notmuch-web",
@@ -2665,6 +2901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "ReplyAll",
           "package": "notmuch-web",
@@ -2674,6 +2911,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "ReplyAll",
           "package": "notmuch-web",
@@ -2687,6 +2925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "ReplySender",
           "package": "notmuch-web",
@@ -2696,6 +2935,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "ReplySender",
           "package": "notmuch-web",
@@ -2709,6 +2949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "SearchResult",
           "package": "notmuch-web",
@@ -2718,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "SearchResult",
           "package": "notmuch-web",
@@ -2731,6 +2973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "Thread",
           "package": "notmuch-web",
@@ -2740,6 +2983,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "Thread",
           "package": "notmuch-web",
@@ -2753,6 +2997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "ThreadID",
           "package": "notmuch-web",
@@ -2762,6 +3007,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "ThreadID",
           "package": "notmuch-web",
@@ -2775,6 +3021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "messageBody",
           "package": "notmuch-web",
@@ -2784,6 +3031,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "messageBody",
           "normalized": "[MessagePart]",
@@ -2799,6 +3047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "messageDateRel",
           "package": "notmuch-web",
@@ -2808,6 +3057,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "messageDateRel",
           "package": "notmuch-web",
@@ -2821,6 +3071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "messageExcluded",
           "package": "notmuch-web",
@@ -2830,6 +3081,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "messageExcluded",
           "package": "notmuch-web",
@@ -2843,6 +3095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "messageFilename",
           "package": "notmuch-web",
@@ -2852,6 +3105,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "messageFilename",
           "package": "notmuch-web",
@@ -2865,6 +3119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "messageFrom",
           "package": "notmuch-web",
@@ -2874,6 +3129,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "messageFrom",
           "normalized": "Message-\u003eText",
@@ -2889,6 +3145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "messageHeaders",
           "package": "notmuch-web",
@@ -2898,6 +3155,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "messageHeaders",
           "package": "notmuch-web",
@@ -2911,6 +3169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "messageId",
           "package": "notmuch-web",
@@ -2920,6 +3179,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "messageId",
           "package": "notmuch-web",
@@ -2933,6 +3193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "messageMatch",
           "package": "notmuch-web",
@@ -2942,6 +3203,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "messageMatch",
           "package": "notmuch-web",
@@ -2955,6 +3217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "messageSubject",
           "package": "notmuch-web",
@@ -2964,6 +3227,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "messageSubject",
           "normalized": "Message-\u003eText",
@@ -2979,6 +3243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "messageTags",
           "package": "notmuch-web",
@@ -2988,6 +3253,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "messageTags",
           "normalized": "[Text]",
@@ -3003,6 +3269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "messageTime",
           "package": "notmuch-web",
@@ -3012,6 +3279,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "messageTime",
           "package": "notmuch-web",
@@ -3026,6 +3294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA helper function to run notmuch and parse the result from json.  For this\n to work, the arguments must include '--format=json'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "notmuchJson",
           "package": "notmuch-web",
@@ -3035,6 +3304,7 @@
         "index": {
           "description": "helper function to run notmuch and parse the result from json For this to work the arguments must include format json",
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "notmuchJson",
           "normalized": "[String]-\u003ea b",
@@ -3050,6 +3320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "notmuchMessagePart",
           "package": "notmuch-web",
@@ -3059,6 +3330,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "notmuchMessagePart",
           "normalized": "MessageID-\u003eInt-\u003e(a MessagePart,Source b ByteString)",
@@ -3075,6 +3347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a raw notmuch command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "notmuchRaw",
           "package": "notmuch-web",
@@ -3084,6 +3357,7 @@
         "index": {
           "description": "Run raw notmuch command",
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "notmuchRaw",
           "normalized": "[String]-\u003ea(ExitCode,String,String)",
@@ -3099,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "notmuchReply",
           "package": "notmuch-web",
@@ -3108,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "notmuchReply",
           "normalized": "MessageID-\u003eReplyTo-\u003ea Reply",
@@ -3124,6 +3400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe notmuch search command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "notmuchSearch",
           "package": "notmuch-web",
@@ -3134,6 +3411,7 @@
         "index": {
           "description": "The notmuch search command",
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "notmuchSearch",
           "normalized": "String-\u003ea[SearchResult]",
@@ -3150,6 +3428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe notmuch show command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "notmuchShow",
           "package": "notmuch-web",
@@ -3160,6 +3439,7 @@
         "index": {
           "description": "The notmuch show command",
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "notmuchShow",
           "normalized": "ThreadID-\u003ea Thread",
@@ -3175,6 +3455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "notmuchTagMessage",
           "package": "notmuch-web",
@@ -3183,6 +3464,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "notmuchTagMessage",
           "normalized": "[String]-\u003e[String]-\u003eMessageID-\u003ea()",
@@ -3198,6 +3480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "notmuchTagThread",
           "package": "notmuch-web",
@@ -3206,6 +3489,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "notmuchTagThread",
           "normalized": "[String]-\u003e[String]-\u003eThreadID-\u003ea()",
@@ -3222,6 +3506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe version of notmuch\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "notmuchVersion",
           "package": "notmuch-web",
@@ -3232,6 +3517,7 @@
         "index": {
           "description": "The version of notmuch",
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "notmuchVersion",
           "package": "notmuch-web",
@@ -3245,6 +3531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "partContent",
           "package": "notmuch-web",
@@ -3254,6 +3541,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "partContent",
           "package": "notmuch-web",
@@ -3267,6 +3555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "partContentCharset",
           "package": "notmuch-web",
@@ -3276,6 +3565,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "partContentCharset",
           "package": "notmuch-web",
@@ -3289,6 +3579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "partContentFilename",
           "package": "notmuch-web",
@@ -3298,6 +3589,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "partContentFilename",
           "package": "notmuch-web",
@@ -3311,6 +3603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "partContentType",
           "package": "notmuch-web",
@@ -3320,6 +3613,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "partContentType",
           "package": "notmuch-web",
@@ -3333,6 +3627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "partID",
           "package": "notmuch-web",
@@ -3342,6 +3637,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "partID",
           "package": "notmuch-web",
@@ -3355,6 +3651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "replyHeaders",
           "package": "notmuch-web",
@@ -3364,6 +3661,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "replyHeaders",
           "package": "notmuch-web",
@@ -3377,6 +3675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "replyOriginal",
           "package": "notmuch-web",
@@ -3386,6 +3685,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "replyOriginal",
           "package": "notmuch-web",
@@ -3399,6 +3699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "searchAuthors",
           "package": "notmuch-web",
@@ -3408,6 +3709,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "searchAuthors",
           "package": "notmuch-web",
@@ -3421,6 +3723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "searchDateRel",
           "package": "notmuch-web",
@@ -3430,6 +3733,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "searchDateRel",
           "package": "notmuch-web",
@@ -3443,6 +3747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "searchMatched",
           "package": "notmuch-web",
@@ -3452,6 +3757,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "searchMatched",
           "package": "notmuch-web",
@@ -3465,6 +3771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "searchSubject",
           "package": "notmuch-web",
@@ -3474,6 +3781,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "searchSubject",
           "package": "notmuch-web",
@@ -3487,6 +3795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "searchTags",
           "package": "notmuch-web",
@@ -3496,6 +3805,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "searchTags",
           "normalized": "[Text]",
@@ -3511,6 +3821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "searchThread",
           "package": "notmuch-web",
@@ -3520,6 +3831,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "searchThread",
           "package": "notmuch-web",
@@ -3533,6 +3845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "searchTime",
           "package": "notmuch-web",
@@ -3542,6 +3855,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "searchTime",
           "package": "notmuch-web",
@@ -3555,6 +3869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "searchTotal",
           "package": "notmuch-web",
@@ -3564,6 +3879,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "searchTotal",
           "package": "notmuch-web",
@@ -3577,6 +3893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "threadForest",
           "package": "notmuch-web",
@@ -3586,6 +3903,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "threadForest",
           "package": "notmuch-web",
@@ -3599,6 +3917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "NotmuchCmd",
           "name": "unMessageID",
           "package": "notmuch-web",
@@ -3608,6 +3927,7 @@
         },
         "index": {
           "hierarchy": "NotmuchCmd",
+          "indexed": "2014-03-11T19:30:06",
           "module": "NotmuchCmd",
           "name": "unMessageID",
           "package": "notmuch-web",
@@ -3621,6 +3941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "Settings",
           "package": "notmuch-web",
@@ -3629,6 +3950,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "Settings",
           "package": "notmuch-web",
@@ -3642,6 +3964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "Extra",
           "package": "notmuch-web",
@@ -3650,6 +3973,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "Extra",
           "package": "notmuch-web",
@@ -3663,6 +3987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "RetagEntry",
           "package": "notmuch-web",
@@ -3671,6 +3996,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "RetagEntry",
           "package": "notmuch-web",
@@ -3684,6 +4010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "Extra",
           "package": "notmuch-web",
@@ -3693,6 +4020,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "Extra",
           "package": "notmuch-web",
@@ -3706,6 +4034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "RetagEntry",
           "package": "notmuch-web",
@@ -3715,6 +4044,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "RetagEntry",
           "package": "notmuch-web",
@@ -3728,6 +4058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "development",
           "package": "notmuch-web",
@@ -3737,6 +4068,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "development",
           "package": "notmuch-web",
@@ -3749,6 +4081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "extraFolders",
           "package": "notmuch-web",
@@ -3758,6 +4091,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "extraFolders",
           "normalized": "[(Text,String)]",
@@ -3773,6 +4107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "extraFromAddresses",
           "package": "notmuch-web",
@@ -3782,6 +4117,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "extraFromAddresses",
           "normalized": "[Text]",
@@ -3797,6 +4133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "extraGoogleClientId",
           "package": "notmuch-web",
@@ -3806,6 +4143,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "extraGoogleClientId",
           "package": "notmuch-web",
@@ -3819,6 +4157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "extraHashedPwd",
           "package": "notmuch-web",
@@ -3828,6 +4167,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "extraHashedPwd",
           "package": "notmuch-web",
@@ -3841,6 +4181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "extraMessageIDDomain",
           "package": "notmuch-web",
@@ -3850,6 +4191,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "extraMessageIDDomain",
           "package": "notmuch-web",
@@ -3863,6 +4205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "extraRetag",
           "package": "notmuch-web",
@@ -3872,6 +4215,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "extraRetag",
           "normalized": "[RetagEntry]",
@@ -3887,6 +4231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "extraSendmailPaths",
           "package": "notmuch-web",
@@ -3896,6 +4241,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "extraSendmailPaths",
           "normalized": "[FilePath]",
@@ -3911,6 +4257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "extraSentBox",
           "package": "notmuch-web",
@@ -3920,6 +4267,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "extraSentBox",
           "package": "notmuch-web",
@@ -3933,6 +4281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "extraSourceLink",
           "package": "notmuch-web",
@@ -3942,6 +4291,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "extraSourceLink",
           "package": "notmuch-web",
@@ -3955,6 +4305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "parseExtra",
           "package": "notmuch-web",
@@ -3964,6 +4315,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "parseExtra",
           "normalized": "DefaultEnv-\u003eObject-\u003eParser Extra",
@@ -3979,6 +4331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "parseFolder",
           "package": "notmuch-web",
@@ -3988,6 +4341,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "parseFolder",
           "normalized": "Object-\u003eParser(Text,String)",
@@ -4003,6 +4357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "production",
           "package": "notmuch-web",
@@ -4012,6 +4367,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "production",
           "package": "notmuch-web",
@@ -4024,6 +4380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "retagAdd",
           "package": "notmuch-web",
@@ -4033,6 +4390,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "retagAdd",
           "normalized": "[String]",
@@ -4048,6 +4406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "retagIcon",
           "package": "notmuch-web",
@@ -4057,6 +4416,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "retagIcon",
           "package": "notmuch-web",
@@ -4070,6 +4430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "retagName",
           "package": "notmuch-web",
@@ -4079,6 +4440,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "retagName",
           "package": "notmuch-web",
@@ -4092,6 +4454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "retagRemove",
           "package": "notmuch-web",
@@ -4101,6 +4464,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "retagRemove",
           "normalized": "[String]",
@@ -4116,6 +4480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "widgetFile",
           "package": "notmuch-web",
@@ -4125,6 +4490,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "widgetFile",
           "normalized": "String-\u003eQ Exp",
@@ -4140,6 +4506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "Settings",
           "name": "widgetFileSettings",
           "package": "notmuch-web",
@@ -4149,6 +4516,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T19:30:06",
           "module": "Settings",
           "name": "widgetFileSettings",
           "package": "notmuch-web",
@@ -4162,6 +4530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "StaticFileGenerators",
           "name": "StaticFileGenerators",
           "package": "notmuch-web",
@@ -4170,6 +4539,7 @@
         },
         "index": {
           "hierarchy": "StaticFileGenerators",
+          "indexed": "2014-03-11T19:30:06",
           "module": "StaticFileGenerators",
           "name": "StaticFileGenerators",
           "package": "notmuch-web",
@@ -4184,6 +4554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompress javascript\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "StaticFileGenerators",
           "name": "compressJs",
           "package": "notmuch-web",
@@ -4193,6 +4564,7 @@
         "index": {
           "description": "Compress javascript",
           "hierarchy": "StaticFileGenerators",
+          "indexed": "2014-03-11T19:30:06",
           "module": "StaticFileGenerators",
           "name": "compressJs",
           "normalized": "Bool-\u003eByteString-\u003eIO ByteString",
@@ -4208,6 +4580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "StaticFileGenerators",
           "name": "compressPjax",
           "package": "notmuch-web",
@@ -4217,6 +4590,7 @@
         },
         "index": {
           "hierarchy": "StaticFileGenerators",
+          "indexed": "2014-03-11T19:30:06",
           "module": "StaticFileGenerators",
           "name": "compressPjax",
           "normalized": "ByteString-\u003eIO ByteString",
@@ -4232,6 +4606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "StaticFiles",
           "name": "StaticFiles",
           "package": "notmuch-web",
@@ -4240,6 +4615,7 @@
         },
         "index": {
           "hierarchy": "StaticFiles",
+          "indexed": "2014-03-11T19:30:06",
           "module": "StaticFiles",
           "name": "StaticFiles",
           "package": "notmuch-web",
@@ -4253,6 +4629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "StaticFiles",
           "name": "css_bootstrap_min_css",
           "package": "notmuch-web",
@@ -4262,6 +4639,7 @@
         },
         "index": {
           "hierarchy": "StaticFiles",
+          "indexed": "2014-03-11T19:30:06",
           "module": "StaticFiles",
           "name": "css_bootstrap_min_css",
           "package": "notmuch-web",
@@ -4274,6 +4652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "StaticFiles",
           "name": "css_bootstrap_responsive_min_css",
           "package": "notmuch-web",
@@ -4283,6 +4662,7 @@
         },
         "index": {
           "hierarchy": "StaticFiles",
+          "indexed": "2014-03-11T19:30:06",
           "module": "StaticFiles",
           "name": "css_bootstrap_responsive_min_css",
           "package": "notmuch-web",
@@ -4295,6 +4675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "StaticFiles",
           "name": "css_select2_css",
           "package": "notmuch-web",
@@ -4304,6 +4685,7 @@
         },
         "index": {
           "hierarchy": "StaticFiles",
+          "indexed": "2014-03-11T19:30:06",
           "module": "StaticFiles",
           "name": "css_select2_css",
           "package": "notmuch-web",
@@ -4316,6 +4698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "StaticFiles",
           "name": "css_select2_png",
           "package": "notmuch-web",
@@ -4325,6 +4708,7 @@
         },
         "index": {
           "hierarchy": "StaticFiles",
+          "indexed": "2014-03-11T19:30:06",
           "module": "StaticFiles",
           "name": "css_select2_png",
           "package": "notmuch-web",
@@ -4337,6 +4721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "StaticFiles",
           "name": "css_select2_spinner_gif",
           "package": "notmuch-web",
@@ -4346,6 +4731,7 @@
         },
         "index": {
           "hierarchy": "StaticFiles",
+          "indexed": "2014-03-11T19:30:06",
           "module": "StaticFiles",
           "name": "css_select2_spinner_gif",
           "package": "notmuch-web",
@@ -4358,6 +4744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "StaticFiles",
           "name": "css_select2x2_png",
           "package": "notmuch-web",
@@ -4367,6 +4754,7 @@
         },
         "index": {
           "hierarchy": "StaticFiles",
+          "indexed": "2014-03-11T19:30:06",
           "module": "StaticFiles",
           "name": "css_select2x2_png",
           "package": "notmuch-web",
@@ -4379,6 +4767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "StaticFiles",
           "name": "embStatic",
           "package": "notmuch-web",
@@ -4388,6 +4777,7 @@
         },
         "index": {
           "hierarchy": "StaticFiles",
+          "indexed": "2014-03-11T19:30:06",
           "module": "StaticFiles",
           "name": "embStatic",
           "package": "notmuch-web",
@@ -4401,6 +4791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "StaticFiles",
           "name": "img_glyphicons_halflings_png",
           "package": "notmuch-web",
@@ -4410,6 +4801,7 @@
         },
         "index": {
           "hierarchy": "StaticFiles",
+          "indexed": "2014-03-11T19:30:06",
           "module": "StaticFiles",
           "name": "img_glyphicons_halflings_png",
           "package": "notmuch-web",
@@ -4422,6 +4814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "StaticFiles",
           "name": "img_glyphicons_halflings_white_png",
           "package": "notmuch-web",
@@ -4431,6 +4824,7 @@
         },
         "index": {
           "hierarchy": "StaticFiles",
+          "indexed": "2014-03-11T19:30:06",
           "module": "StaticFiles",
           "name": "img_glyphicons_halflings_white_png",
           "package": "notmuch-web",
@@ -4443,6 +4837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "StaticFiles",
           "name": "img_lastnode_png",
           "package": "notmuch-web",
@@ -4452,6 +4847,7 @@
         },
         "index": {
           "hierarchy": "StaticFiles",
+          "indexed": "2014-03-11T19:30:06",
           "module": "StaticFiles",
           "name": "img_lastnode_png",
           "package": "notmuch-web",
@@ -4464,6 +4860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "StaticFiles",
           "name": "img_node_png",
           "package": "notmuch-web",
@@ -4473,6 +4870,7 @@
         },
         "index": {
           "hierarchy": "StaticFiles",
+          "indexed": "2014-03-11T19:30:06",
           "module": "StaticFiles",
           "name": "img_node_png",
           "package": "notmuch-web",
@@ -4485,6 +4883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "StaticFiles",
           "name": "img_vline_png",
           "package": "notmuch-web",
@@ -4494,6 +4893,7 @@
         },
         "index": {
           "hierarchy": "StaticFiles",
+          "indexed": "2014-03-11T19:30:06",
           "module": "StaticFiles",
           "name": "img_vline_png",
           "package": "notmuch-web",
@@ -4506,6 +4906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "StaticFiles",
           "name": "js_bootstrap_js",
           "package": "notmuch-web",
@@ -4515,6 +4916,7 @@
         },
         "index": {
           "hierarchy": "StaticFiles",
+          "indexed": "2014-03-11T19:30:06",
           "module": "StaticFiles",
           "name": "js_bootstrap_js",
           "package": "notmuch-web",
@@ -4527,6 +4929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "StaticFiles",
           "name": "js_jquery_js",
           "package": "notmuch-web",
@@ -4536,6 +4939,7 @@
         },
         "index": {
           "hierarchy": "StaticFiles",
+          "indexed": "2014-03-11T19:30:06",
           "module": "StaticFiles",
           "name": "js_jquery_js",
           "package": "notmuch-web",
@@ -4548,6 +4952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "StaticFiles",
           "name": "js_jquery_pjax_js",
           "package": "notmuch-web",
@@ -4557,6 +4962,7 @@
         },
         "index": {
           "hierarchy": "StaticFiles",
+          "indexed": "2014-03-11T19:30:06",
           "module": "StaticFiles",
           "name": "js_jquery_pjax_js",
           "package": "notmuch-web",
@@ -4569,6 +4975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:06 UTC 2014",
           "module": "StaticFiles",
           "name": "js_select2_js",
           "package": "notmuch-web",
@@ -4578,6 +4985,7 @@
         },
         "index": {
           "hierarchy": "StaticFiles",
+          "indexed": "2014-03-11T19:30:06",
           "module": "StaticFiles",
           "name": "js_select2_js",
           "package": "notmuch-web",

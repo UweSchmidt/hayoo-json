@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "natural-number"
+        "phrase": "natural-number",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:12 UTC 2014",
           "module": "Data.NaturalNumber",
           "name": "NaturalNumber",
           "package": "natural-number",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data NaturalNumber",
+          "indexed": "2014-03-11T19:26:12",
           "module": "Data.NaturalNumber",
           "name": "NaturalNumber",
           "package": "natural-number",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:12 UTC 2014",
           "module": "Data.NaturalNumber",
           "name": "N",
           "package": "natural-number",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data NaturalNumber",
+          "indexed": "2014-03-11T19:26:12",
           "module": "Data.NaturalNumber",
           "name": "N",
           "package": "natural-number",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:12 UTC 2014",
           "module": "Data.NaturalNumber",
           "name": "NaturalNumber",
           "package": "natural-number",
@@ -67,6 +72,7 @@
         },
         "index": {
           "hierarchy": "Data NaturalNumber",
+          "indexed": "2014-03-11T19:26:12",
           "module": "Data.NaturalNumber",
           "name": "NaturalNumber",
           "package": "natural-number",
@@ -80,6 +86,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:12 UTC 2014",
           "module": "Data.NaturalNumber",
           "name": "UnknownN",
           "package": "natural-number",
@@ -88,6 +95,7 @@
         },
         "index": {
           "hierarchy": "Data NaturalNumber",
+          "indexed": "2014-03-11T19:26:12",
           "module": "Data.NaturalNumber",
           "name": "UnknownN",
           "package": "natural-number",
@@ -101,6 +109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:12 UTC 2014",
           "module": "Data.NaturalNumber",
           "name": "NSuccessorTo",
           "package": "natural-number",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Data NaturalNumber",
+          "indexed": "2014-03-11T19:26:12",
           "module": "Data.NaturalNumber",
           "name": "NSuccessorTo",
           "normalized": "N a-\u003eN(SuccessorTo a)",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:12 UTC 2014",
           "module": "Data.NaturalNumber",
           "name": "NZero",
           "package": "natural-number",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Data NaturalNumber",
+          "indexed": "2014-03-11T19:26:12",
           "module": "Data.NaturalNumber",
           "name": "NZero",
           "package": "natural-number",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:12 UTC 2014",
           "module": "Data.NaturalNumber",
           "name": "UnknownN",
           "package": "natural-number",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Data NaturalNumber",
+          "indexed": "2014-03-11T19:26:12",
           "module": "Data.NaturalNumber",
           "name": "UnknownN",
           "normalized": "N a-\u003eUnknownN",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:12 UTC 2014",
           "module": "Data.NaturalNumber",
           "name": "asN",
           "package": "natural-number",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Data NaturalNumber",
+          "indexed": "2014-03-11T19:26:12",
           "module": "Data.NaturalNumber",
           "name": "asN",
           "package": "natural-number",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:12 UTC 2014",
           "module": "Data.NaturalNumber",
           "name": "fromN",
           "package": "natural-number",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Data NaturalNumber",
+          "indexed": "2014-03-11T19:26:12",
           "module": "Data.NaturalNumber",
           "name": "fromN",
           "normalized": "N a-\u003ea",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:12 UTC 2014",
           "module": "Data.NaturalNumber",
           "name": "intToN",
           "package": "natural-number",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Data NaturalNumber",
+          "indexed": "2014-03-11T19:26:12",
           "module": "Data.NaturalNumber",
           "name": "intToN",
           "normalized": "Int-\u003eN a",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:12 UTC 2014",
           "module": "Data.NaturalNumber",
           "name": "intToUnknownN",
           "package": "natural-number",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Data NaturalNumber",
+          "indexed": "2014-03-11T19:26:12",
           "module": "Data.NaturalNumber",
           "name": "intToUnknownN",
           "normalized": "Int-\u003eUnknownN",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:12 UTC 2014",
           "module": "Data.NaturalNumber",
           "name": "nToInt",
           "package": "natural-number",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Data NaturalNumber",
+          "indexed": "2014-03-11T19:26:12",
           "module": "Data.NaturalNumber",
           "name": "nToInt",
           "normalized": "N a-\u003eInt",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:12 UTC 2014",
           "module": "Data.NaturalNumber",
           "name": "unknownNToInt",
           "package": "natural-number",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Data NaturalNumber",
+          "indexed": "2014-03-11T19:26:12",
           "module": "Data.NaturalNumber",
           "name": "unknownNToInt",
           "normalized": "UnknownN-\u003eInt",

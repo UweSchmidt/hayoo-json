@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "happs-hsp-template"
+        "phrase": "happs-hsp-template",
+        "type": "phrase"
       },
       "type": "context"
     }

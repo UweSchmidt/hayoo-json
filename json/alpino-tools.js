@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "alpino-tools"
+        "phrase": "alpino-tools",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePickling and unpickling of Alpino dependency structures from XML.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct.Pickle",
           "name": "Pickle",
           "package": "alpino-tools",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Pickling and unpickling of Alpino dependency structures from XML",
           "hierarchy": "Data Alpino DepStruct Pickle",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct.Pickle",
           "name": "Pickle",
           "package": "alpino-tools",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePickler for Alpino dependency structures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct.Pickle",
           "name": "xpAlpinoDS",
           "package": "alpino-tools",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Pickler for Alpino dependency structures",
           "hierarchy": "Data Alpino DepStruct Pickle",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct.Pickle",
           "name": "xpAlpinoDS",
           "normalized": "PU[UNode String]AlpinoDS",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefinition and extraction of Alpino dependency triples.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "Triples",
           "package": "alpino-tools",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Definition and extraction of Alpino dependency triples",
           "hierarchy": "Data Alpino DepStruct Triples",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "Triples",
           "package": "alpino-tools",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eDepTriple\u003c/a\u003e\u003c/code\u003e type represents a dependency that occurs in\n   a dependency structure. The triple consists of the head, a dependent, and\n   the relation between the head and the dependeny. For convenience, the\n   triple is composed of two \u003ccode\u003e\u003ca\u003eDepTripleComponent\u003c/a\u003e\u003c/code\u003e instances: the first\n   representing the head and its role in the relation, the second\n   representing the dependant and its role in the relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "DepTriple",
           "package": "alpino-tools",
@@ -100,6 +107,7 @@
         "index": {
           "description": "The DepTriple type represents dependency that occurs in dependency structure The triple consists of the head dependent and the relation between the head and the dependeny For convenience the triple is composed of two DepTripleComponent instances the first representing the head and its role in the relation the second representing the dependant and its role in the relation",
           "hierarchy": "Data Alpino DepStruct Triples",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "DepTriple",
           "package": "alpino-tools",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eDepTripleComponent\u003c/a\u003e\u003c/code\u003e type represents a head or a dependant in a\n   dependency relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "DepTripleComponent",
           "package": "alpino-tools",
@@ -123,6 +132,7 @@
         "index": {
           "description": "The DepTripleComponent type represents head or dependant in dependency relation",
           "hierarchy": "Data Alpino DepStruct Triples",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "DepTripleComponent",
           "package": "alpino-tools",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "DepTriple",
           "package": "alpino-tools",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct Triples",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "DepTriple",
           "package": "alpino-tools",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "DepTripleComponent",
           "package": "alpino-tools",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct Triples",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "DepTripleComponent",
           "package": "alpino-tools",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract \u003ccode\u003eDepTriples\u003c/code\u003e from the tree starting at the node represented by\n   the \u003ccode\u003e\u003ca\u003eTreePos\u003c/a\u003e\u003c/code\u003e zipper.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "depTriples",
           "package": "alpino-tools",
@@ -191,6 +206,7 @@
         "index": {
           "description": "Extract DepTriples from the tree starting at the node represented by the TreePos zipper",
           "hierarchy": "Data Alpino DepStruct Triples",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "depTriples",
           "normalized": "TreePos Full DSLabel-\u003eSet DepTriple",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "tripleDep",
           "package": "alpino-tools",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct Triples",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "tripleDep",
           "package": "alpino-tools",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "tripleHead",
           "package": "alpino-tools",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct Triples",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "tripleHead",
           "package": "alpino-tools",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "triplePos",
           "package": "alpino-tools",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct Triples",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "triplePos",
           "package": "alpino-tools",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "tripleRel",
           "package": "alpino-tools",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct Triples",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "tripleRel",
           "package": "alpino-tools",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "tripleRoot",
           "package": "alpino-tools",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct Triples",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "tripleRoot",
           "package": "alpino-tools",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold over a tree depth-first, starting at the node wrapped in the\n   \u003ccode\u003e\u003ca\u003eTreePos\u003c/a\u003e\u003c/code\u003e zipper.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "tzFold",
           "package": "alpino-tools",
@@ -327,6 +354,7 @@
         "index": {
           "description": "Fold over tree depth-first starting at the node wrapped in the TreePos zipper",
           "hierarchy": "Data Alpino DepStruct Triples",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct.Triples",
           "name": "tzFold",
           "normalized": "(a-\u003eTreePos Full b-\u003ea)-\u003ea-\u003eTreePos Full b-\u003ea",
@@ -343,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefinitions for Alpino dependency structures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "DepStruct",
           "package": "alpino-tools",
@@ -352,6 +381,7 @@
         "index": {
           "description": "Definitions for Alpino dependency structures",
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "DepStruct",
           "package": "alpino-tools",
@@ -366,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlpino dependency structures define syntactic relations between\n   words. For convenience, the dependency structure is represented\n   as a rose tree. Additionally, the dependency structure contains\n   the sentence corresponding to the dependency structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "AlpinoDS",
           "package": "alpino-tools",
@@ -375,6 +406,7 @@
         "index": {
           "description": "Alpino dependency structures define syntactic relations between words For convenience the dependency structure is represented as rose tree Additionally the dependency structure contains the sentence corresponding to the dependency structure",
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "AlpinoDS",
           "package": "alpino-tools",
@@ -388,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Cat",
           "package": "alpino-tools",
@@ -396,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Cat",
           "package": "alpino-tools",
@@ -410,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel containing syntactic or lexical information of a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "DSLabel",
           "package": "alpino-tools",
@@ -419,6 +454,7 @@
         "index": {
           "description": "Label containing syntactic or lexical information of node",
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "DSLabel",
           "package": "alpino-tools",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Rel",
           "package": "alpino-tools",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Rel",
           "package": "alpino-tools",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "AdvP",
           "package": "alpino-tools",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "AdvP",
           "package": "alpino-tools",
@@ -475,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Ahi",
           "package": "alpino-tools",
@@ -484,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Ahi",
           "package": "alpino-tools",
@@ -497,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "AlpinoDS",
           "package": "alpino-tools",
@@ -506,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "AlpinoDS",
           "package": "alpino-tools",
@@ -519,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Ap",
           "package": "alpino-tools",
@@ -528,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Ap",
           "package": "alpino-tools",
@@ -541,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "App",
           "package": "alpino-tools",
@@ -550,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "App",
           "package": "alpino-tools",
@@ -563,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Body",
           "package": "alpino-tools",
@@ -572,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Body",
           "package": "alpino-tools",
@@ -585,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "CatLabel",
           "package": "alpino-tools",
@@ -594,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "CatLabel",
           "package": "alpino-tools",
@@ -607,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Cmp",
           "package": "alpino-tools",
@@ -616,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Cmp",
           "package": "alpino-tools",
@@ -629,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Cnj",
           "package": "alpino-tools",
@@ -638,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Cnj",
           "package": "alpino-tools",
@@ -651,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Conj",
           "package": "alpino-tools",
@@ -660,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Conj",
           "package": "alpino-tools",
@@ -673,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Cp",
           "package": "alpino-tools",
@@ -682,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Cp",
           "package": "alpino-tools",
@@ -695,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Crd",
           "package": "alpino-tools",
@@ -704,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Crd",
           "package": "alpino-tools",
@@ -717,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "DLink",
           "package": "alpino-tools",
@@ -726,6 +789,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "DLink",
           "package": "alpino-tools",
@@ -739,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "DP",
           "package": "alpino-tools",
@@ -748,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "DP",
           "package": "alpino-tools",
@@ -761,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "DU",
           "package": "alpino-tools",
@@ -770,6 +837,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "DU",
           "package": "alpino-tools",
@@ -783,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "DashDash",
           "package": "alpino-tools",
@@ -792,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "DashDash",
           "package": "alpino-tools",
@@ -805,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Det",
           "package": "alpino-tools",
@@ -814,6 +885,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Det",
           "package": "alpino-tools",
@@ -827,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "DetP",
           "package": "alpino-tools",
@@ -836,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "DetP",
           "package": "alpino-tools",
@@ -849,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Hd",
           "package": "alpino-tools",
@@ -858,6 +933,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Hd",
           "package": "alpino-tools",
@@ -871,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Hdf",
           "package": "alpino-tools",
@@ -880,6 +957,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Hdf",
           "package": "alpino-tools",
@@ -893,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Inf",
           "package": "alpino-tools",
@@ -902,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Inf",
           "package": "alpino-tools",
@@ -915,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Ld",
           "package": "alpino-tools",
@@ -924,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Ld",
           "package": "alpino-tools",
@@ -937,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "LexLabel",
           "package": "alpino-tools",
@@ -946,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "LexLabel",
           "package": "alpino-tools",
@@ -959,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "MWP",
           "package": "alpino-tools",
@@ -968,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "MWP",
           "package": "alpino-tools",
@@ -981,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "MWU",
           "package": "alpino-tools",
@@ -990,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "MWU",
           "package": "alpino-tools",
@@ -1003,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Me",
           "package": "alpino-tools",
@@ -1012,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Me",
           "package": "alpino-tools",
@@ -1025,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Mod",
           "package": "alpino-tools",
@@ -1034,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Mod",
           "package": "alpino-tools",
@@ -1047,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "NP",
           "package": "alpino-tools",
@@ -1056,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "NP",
           "package": "alpino-tools",
@@ -1069,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Nucl",
           "package": "alpino-tools",
@@ -1078,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Nucl",
           "package": "alpino-tools",
@@ -1091,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "ObComp",
           "package": "alpino-tools",
@@ -1100,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "ObComp",
           "package": "alpino-tools",
@@ -1113,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Obj1",
           "package": "alpino-tools",
@@ -1122,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Obj1",
           "package": "alpino-tools",
@@ -1135,6 +1235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Obj2",
           "package": "alpino-tools",
@@ -1144,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Obj2",
           "package": "alpino-tools",
@@ -1157,6 +1259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Oti",
           "package": "alpino-tools",
@@ -1166,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Oti",
           "package": "alpino-tools",
@@ -1179,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "PC",
           "package": "alpino-tools",
@@ -1188,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "PC",
           "package": "alpino-tools",
@@ -1201,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "PObj1",
           "package": "alpino-tools",
@@ -1210,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "PObj1",
           "package": "alpino-tools",
@@ -1223,6 +1331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "PP",
           "package": "alpino-tools",
@@ -1232,6 +1341,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "PP",
           "package": "alpino-tools",
@@ -1245,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "PPart",
           "package": "alpino-tools",
@@ -1254,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "PPart",
           "package": "alpino-tools",
@@ -1267,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "PPres",
           "package": "alpino-tools",
@@ -1276,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "PPres",
           "package": "alpino-tools",
@@ -1289,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "PredC",
           "package": "alpino-tools",
@@ -1298,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "PredC",
           "package": "alpino-tools",
@@ -1311,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "PredM",
           "package": "alpino-tools",
@@ -1320,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "PredM",
           "package": "alpino-tools",
@@ -1333,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Rel",
           "package": "alpino-tools",
@@ -1342,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Rel",
           "package": "alpino-tools",
@@ -1355,6 +1475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Rhd",
           "package": "alpino-tools",
@@ -1364,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Rhd",
           "package": "alpino-tools",
@@ -1377,6 +1499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "SMain",
           "package": "alpino-tools",
@@ -1386,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "SMain",
           "package": "alpino-tools",
@@ -1399,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "SSub",
           "package": "alpino-tools",
@@ -1408,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "SSub",
           "package": "alpino-tools",
@@ -1421,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "SV1",
           "package": "alpino-tools",
@@ -1430,6 +1557,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "SV1",
           "package": "alpino-tools",
@@ -1443,6 +1571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "SVP",
           "package": "alpino-tools",
@@ -1452,6 +1581,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "SVP",
           "package": "alpino-tools",
@@ -1465,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "SVan",
           "package": "alpino-tools",
@@ -1474,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "SVan",
           "package": "alpino-tools",
@@ -1487,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Sat",
           "package": "alpino-tools",
@@ -1496,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Sat",
           "package": "alpino-tools",
@@ -1509,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Se",
           "package": "alpino-tools",
@@ -1518,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Se",
           "package": "alpino-tools",
@@ -1531,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Su",
           "package": "alpino-tools",
@@ -1540,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Su",
           "package": "alpino-tools",
@@ -1553,6 +1691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Sup",
           "package": "alpino-tools",
@@ -1562,6 +1701,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Sup",
           "package": "alpino-tools",
@@ -1575,6 +1715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "TI",
           "package": "alpino-tools",
@@ -1584,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "TI",
           "package": "alpino-tools",
@@ -1597,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Tag",
           "package": "alpino-tools",
@@ -1606,6 +1749,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Tag",
           "package": "alpino-tools",
@@ -1619,6 +1763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Top",
           "package": "alpino-tools",
@@ -1628,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Top",
           "package": "alpino-tools",
@@ -1641,6 +1787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "TopCat",
           "package": "alpino-tools",
@@ -1650,6 +1797,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "TopCat",
           "package": "alpino-tools",
@@ -1663,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "VC",
           "package": "alpino-tools",
@@ -1672,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "VC",
           "package": "alpino-tools",
@@ -1685,6 +1835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "WhQ",
           "package": "alpino-tools",
@@ -1694,6 +1845,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "WhQ",
           "package": "alpino-tools",
@@ -1707,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "WhRel",
           "package": "alpino-tools",
@@ -1716,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "WhRel",
           "package": "alpino-tools",
@@ -1729,6 +1883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "WhSub",
           "package": "alpino-tools",
@@ -1738,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "WhSub",
           "package": "alpino-tools",
@@ -1751,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "Whd",
           "package": "alpino-tools",
@@ -1760,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "Whd",
           "package": "alpino-tools",
@@ -1774,6 +1932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoot of the dependency tree. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "dsRoot",
           "package": "alpino-tools",
@@ -1784,6 +1943,7 @@
         "index": {
           "description": "Root of the dependency tree",
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "dsRoot",
           "package": "alpino-tools",
@@ -1798,6 +1958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSentence corresponding to the dependency tree. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "dsSentence",
           "package": "alpino-tools",
@@ -1808,6 +1969,7 @@
         "index": {
           "description": "Sentence corresponding to the dependency tree",
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "dsSentence",
           "package": "alpino-tools",
@@ -1822,6 +1984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart position\n\u003c/p\u003e\u003cp\u003eStart position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "labelBegin",
           "package": "alpino-tools",
@@ -1832,6 +1995,7 @@
         "index": {
           "description": "Start position Start position",
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "labelBegin",
           "package": "alpino-tools",
@@ -1846,6 +2010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDependency relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "labelCat",
           "package": "alpino-tools",
@@ -1856,6 +2021,7 @@
         "index": {
           "description": "Dependency relation",
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "labelCat",
           "package": "alpino-tools",
@@ -1870,6 +2036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnd position\n\u003c/p\u003e\u003cp\u003eEnd position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "labelEnd",
           "package": "alpino-tools",
@@ -1880,6 +2047,7 @@
         "index": {
           "description": "End position End position",
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "labelEnd",
           "package": "alpino-tools",
@@ -1894,6 +2062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoindexation\n\u003c/p\u003e\u003cp\u003eCoindexation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "labelIdx",
           "package": "alpino-tools",
@@ -1904,6 +2073,7 @@
         "index": {
           "description": "Coindexation Coindexation",
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "labelIdx",
           "package": "alpino-tools",
@@ -1918,6 +2088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePart of speech tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "labelPos",
           "package": "alpino-tools",
@@ -1928,6 +2099,7 @@
         "index": {
           "description": "Part of speech tag",
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "labelPos",
           "package": "alpino-tools",
@@ -1942,6 +2114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDependency relation\n\u003c/p\u003e\u003cp\u003eCategory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "labelRel",
           "package": "alpino-tools",
@@ -1952,6 +2125,7 @@
         "index": {
           "description": "Dependency relation Category",
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "labelRel",
           "package": "alpino-tools",
@@ -1966,6 +2140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoot/stem\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.DepStruct",
           "name": "labelRoot",
           "package": "alpino-tools",
@@ -1976,6 +2151,7 @@
         "index": {
           "description": "Root stem",
           "hierarchy": "Data Alpino DepStruct",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.DepStruct",
           "name": "labelRoot",
           "package": "alpino-tools",
@@ -1989,6 +2165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model.Conduit",
           "name": "Conduit",
           "package": "alpino-tools",
@@ -1997,6 +2174,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino Model Conduit",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model.Conduit",
           "name": "Conduit",
           "package": "alpino-tools",
@@ -2010,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model.Conduit",
           "name": "addNewLine",
           "package": "alpino-tools",
@@ -2019,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino Model Conduit",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model.Conduit",
           "name": "addNewLine",
           "package": "alpino-tools",
@@ -2033,6 +2213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the best score from a list of training instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model.Conduit",
           "name": "bestScore",
           "package": "alpino-tools",
@@ -2043,6 +2224,7 @@
         "index": {
           "description": "Retrieve the best score from list of training instances",
           "hierarchy": "Data Alpino Model Conduit",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model.Conduit",
           "name": "bestScore",
           "normalized": "Conduit[TrainingInstance]a Double",
@@ -2058,6 +2240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model.Conduit",
           "name": "bsToTrainingInstance",
           "package": "alpino-tools",
@@ -2067,6 +2250,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino Model Conduit",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model.Conduit",
           "name": "bsToTrainingInstance",
           "package": "alpino-tools",
@@ -2080,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model.Conduit",
           "name": "concat",
           "package": "alpino-tools",
@@ -2089,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino Model Conduit",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model.Conduit",
           "name": "concat",
           "normalized": "Conduit[a]b a",
@@ -2104,6 +2290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter features by exact names. A modifier function can be applied,\n for instance, the \u003ccode\u003e\u003ca\u003enot\u003c/a\u003e\u003c/code\u003e function would exclude the specified features.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model.Conduit",
           "name": "filterFeatures",
           "package": "alpino-tools",
@@ -2114,6 +2301,7 @@
         "index": {
           "description": "Filter features by exact names modifier function can be applied for instance the not function would exclude the specified features",
           "hierarchy": "Data Alpino Model Conduit",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model.Conduit",
           "name": "filterFeatures",
           "normalized": "(Bool-\u003eBool)-\u003eSet ByteString-\u003eConduit TrainingInstance a TrainingInstance",
@@ -2130,6 +2318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter features by their functor. A modifier function can be applied,\n for instance, the \u003ccode\u003e\u003ca\u003enot\u003c/a\u003e\u003c/code\u003e function would exclude the specified features.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model.Conduit",
           "name": "filterFeaturesFunctor",
           "package": "alpino-tools",
@@ -2140,6 +2329,7 @@
         "index": {
           "description": "Filter features by their functor modifier function can be applied for instance the not function would exclude the specified features",
           "hierarchy": "Data Alpino Model Conduit",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model.Conduit",
           "name": "filterFeaturesFunctor",
           "normalized": "(Bool-\u003eBool)-\u003eSet ByteString-\u003eConduit TrainingInstance a TrainingInstance",
@@ -2156,6 +2346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroup training instances by key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model.Conduit",
           "name": "groupByKey",
           "package": "alpino-tools",
@@ -2166,6 +2357,7 @@
         "index": {
           "description": "Group training instances by key",
           "hierarchy": "Data Alpino Model Conduit",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model.Conduit",
           "name": "groupByKey",
           "normalized": "Conduit TrainingInstance a[TrainingInstance]",
@@ -2181,6 +2373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model.Conduit",
           "name": "randomSample",
           "package": "alpino-tools",
@@ -2190,6 +2383,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino Model Conduit",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model.Conduit",
           "name": "randomSample",
           "normalized": "Int-\u003eConduit[TrainingInstance]a[TrainingInstance]",
@@ -2206,6 +2400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConduit recaculating scores to binary scores (\u003cem\u003e1.0\u003c/em\u003e for best,\n \u003cem\u003e0.0\u003c/em\u003e for the rest).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model.Conduit",
           "name": "scoreToBinary",
           "package": "alpino-tools",
@@ -2216,6 +2411,7 @@
         "index": {
           "description": "Conduit recaculating scores to binary scores for best for the rest",
           "hierarchy": "Data Alpino Model Conduit",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model.Conduit",
           "name": "scoreToBinary",
           "normalized": "Conduit[TrainingInstance]a[TrainingInstance]",
@@ -2232,6 +2428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConduit recalculating scores, dividing a score of \u003cem\u003e1.0\u003c/em\u003e uniformly\n over instances with the highest quality score.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model.Conduit",
           "name": "scoreToBinaryNorm",
           "package": "alpino-tools",
@@ -2242,6 +2439,7 @@
         "index": {
           "description": "Conduit recalculating scores dividing score of uniformly over instances with the highest quality score",
           "hierarchy": "Data Alpino Model Conduit",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model.Conduit",
           "name": "scoreToBinaryNorm",
           "normalized": "Conduit[TrainingInstance]a[TrainingInstance]",
@@ -2258,6 +2456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConduit that normalized instance scores over all instances\n in the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model.Conduit",
           "name": "scoreToNorm",
           "package": "alpino-tools",
@@ -2268,6 +2467,7 @@
         "index": {
           "description": "Conduit that normalized instance scores over all instances in the list",
           "hierarchy": "Data Alpino Model Conduit",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model.Conduit",
           "name": "scoreToNorm",
           "normalized": "Conduit[TrainingInstance]a[TrainingInstance]",
@@ -2284,6 +2484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert \u003ccode\u003eTrainingInstance\u003c/code\u003es to \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model.Conduit",
           "name": "trainingInstanceToBS",
           "package": "alpino-tools",
@@ -2294,6 +2495,7 @@
         "index": {
           "description": "Convert TrainingInstance to ByteString",
           "hierarchy": "Data Alpino Model Conduit",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model.Conduit",
           "name": "trainingInstanceToBS",
           "package": "alpino-tools",
@@ -2308,6 +2510,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData structures and functions to modify and process training data for\n the Alpino parse disambiguation and fluency ranking components.\n\u003c/p\u003e\u003cp\u003eSince the training data follows a very general format, this module and\n submodules should also be usable for other parsers and generators.\n Please refer to the description of \u003ccode\u003e\u003ca\u003ebsToTrainingInstance\u003c/a\u003e\u003c/code\u003e for more\n information about the format that is used.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "Model",
           "package": "alpino-tools",
@@ -2317,6 +2520,7 @@
         "index": {
           "description": "Data structures and functions to modify and process training data for the Alpino parse disambiguation and fluency ranking components Since the training data follows very general format this module and submodules should also be usable for other parsers and generators Please refer to the description of bsToTrainingInstance for more information about the format that is used",
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "Model",
           "package": "alpino-tools",
@@ -2331,6 +2535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA feature and its corresponding value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "FeatureValue",
           "package": "alpino-tools",
@@ -2340,6 +2545,7 @@
         "index": {
           "description": "feature and its corresponding value",
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "FeatureValue",
           "package": "alpino-tools",
@@ -2354,6 +2560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA training instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "TrainingInstance",
           "package": "alpino-tools",
@@ -2363,6 +2570,7 @@
         "index": {
           "description": "training instance",
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "TrainingInstance",
           "package": "alpino-tools",
@@ -2377,6 +2585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of training instance (parsing or generation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "TrainingInstanceType",
           "package": "alpino-tools",
@@ -2386,6 +2595,7 @@
         "index": {
           "description": "Type of training instance parsing or generation",
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "TrainingInstanceType",
           "package": "alpino-tools",
@@ -2399,6 +2609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "FeatureValue",
           "package": "alpino-tools",
@@ -2408,6 +2619,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "FeatureValue",
           "package": "alpino-tools",
@@ -2421,6 +2633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "GenerationInstance",
           "package": "alpino-tools",
@@ -2430,6 +2643,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "GenerationInstance",
           "package": "alpino-tools",
@@ -2443,6 +2657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "ParsingInstance",
           "package": "alpino-tools",
@@ -2452,6 +2667,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "ParsingInstance",
           "package": "alpino-tools",
@@ -2465,6 +2681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "TrainingInstance",
           "package": "alpino-tools",
@@ -2474,6 +2691,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "TrainingInstance",
           "package": "alpino-tools",
@@ -2488,6 +2706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the highest score of a context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "bestScore",
           "package": "alpino-tools",
@@ -2498,6 +2717,7 @@
         "index": {
           "description": "Find the highest score of context",
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "bestScore",
           "normalized": "[TrainingInstance]-\u003eDouble",
@@ -2514,6 +2734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the highest score of a context (strict).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "bestScore'",
           "package": "alpino-tools",
@@ -2524,6 +2745,7 @@
         "index": {
           "description": "Find the highest score of context strict",
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "bestScore'",
           "normalized": "[TrainingInstance]-\u003eDouble",
@@ -2540,6 +2762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a training instance from a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe bytestring is assumed to contain five fields separated by\n the hash (\u003cem\u003e#\u003c/em\u003e) character:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e An indicator for the type of training instance (\u003cem\u003eP\u003c/em\u003e for parse\n   disambiguation, \u003cem\u003eG\u003c/em\u003e for fluency ranking).\n\u003c/li\u003e\u003cli\u003e The identifier of the context (usually the identifier of a\n   sentence of logircal form).\n\u003c/li\u003e\u003cli\u003e Parse/generation number.\n\u003c/li\u003e\u003cli\u003e A quality score for this training instance.\n\u003c/li\u003e\u003cli\u003e A list of features and values. List elements are separated by\n   the vertical bar (\u003cem\u003e|\u003c/em\u003e), and have the following form: \u003cem\u003evalue@feature\u003c/em\u003e\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "bsToTrainingInstance",
           "package": "alpino-tools",
@@ -2550,6 +2773,7 @@
         "index": {
           "description": "Read training instance from ByteString The bytestring is assumed to contain five fields separated by the hash character An indicator for the type of training instance for parse disambiguation for fluency ranking The identifier of the context usually the identifier of sentence of logircal form Parse generation number quality score for this training instance list of features and values List elements are separated by the vertical bar and have the following form value@feature",
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "bsToTrainingInstance",
           "normalized": "ByteString-\u003eMaybe TrainingInstance",
@@ -2565,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "feature",
           "package": "alpino-tools",
@@ -2574,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "feature",
           "package": "alpino-tools",
@@ -2587,6 +2813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter features by exact names. A modifier function can be applied,\n for instance, the \u003ccode\u003e\u003ca\u003enot\u003c/a\u003e\u003c/code\u003e function would exclude the specified features.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "filterFeatures",
           "package": "alpino-tools",
@@ -2597,6 +2824,7 @@
         "index": {
           "description": "Filter features by exact names modifier function can be applied for instance the not function would exclude the specified features",
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "filterFeatures",
           "normalized": "(Bool-\u003eBool)-\u003eSet ByteString-\u003eTrainingInstance-\u003eTrainingInstance",
@@ -2613,6 +2841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter features by their functor. A modifier function can be applied,\n for instance, the \u003ccode\u003e\u003ca\u003enot\u003c/a\u003e\u003c/code\u003e function would exclude the specified features.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "filterFeaturesFunctor",
           "package": "alpino-tools",
@@ -2623,6 +2852,7 @@
         "index": {
           "description": "Filter features by their functor modifier function can be applied for instance the not function would exclude the specified features",
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "filterFeaturesFunctor",
           "normalized": "(Bool-\u003eBool)-\u003eSet ByteString-\u003eTrainingInstance-\u003eTrainingInstance",
@@ -2639,6 +2869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeatures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "instanceFeatures",
           "package": "alpino-tools",
@@ -2649,6 +2880,7 @@
         "index": {
           "description": "Features",
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "instanceFeatures",
           "package": "alpino-tools",
@@ -2663,6 +2895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraining instance identifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "instanceKey",
           "package": "alpino-tools",
@@ -2673,6 +2906,7 @@
         "index": {
           "description": "Training instance identifier",
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "instanceKey",
           "package": "alpino-tools",
@@ -2686,6 +2920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "instanceN",
           "package": "alpino-tools",
@@ -2695,6 +2930,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "instanceN",
           "package": "alpino-tools",
@@ -2708,6 +2944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuality score\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "instanceScore",
           "package": "alpino-tools",
@@ -2718,6 +2955,7 @@
         "index": {
           "description": "Quality score",
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "instanceScore",
           "package": "alpino-tools",
@@ -2732,6 +2970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of training instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "instanceType",
           "package": "alpino-tools",
@@ -2742,6 +2981,7 @@
         "index": {
           "description": "Type of training instance",
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "instanceType",
           "package": "alpino-tools",
@@ -2756,6 +2996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a random sample from a list of instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "randomSample",
           "package": "alpino-tools",
@@ -2766,6 +3007,7 @@
         "index": {
           "description": "Extract random sample from list of instances",
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "randomSample",
           "normalized": "Int-\u003e[TrainingInstance]-\u003ea[TrainingInstance]",
@@ -2782,6 +3024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the quality scores to binary scores. The instances\n with the highest quality score get score \u003cem\u003e1.0\u003c/em\u003e, other instances\n get score \u003cem\u003e0.0\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "scoreToBinary",
           "package": "alpino-tools",
@@ -2792,6 +3035,7 @@
         "index": {
           "description": "Convert the quality scores to binary scores The instances with the highest quality score get score other instances get score",
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "scoreToBinary",
           "normalized": "[TrainingInstance]-\u003e[TrainingInstance]",
@@ -2808,6 +3052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivide a score of \u003cem\u003e1.0\u003c/em\u003e uniformly over instances with the highest\n quality scores.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "scoreToBinaryNorm",
           "package": "alpino-tools",
@@ -2818,6 +3063,7 @@
         "index": {
           "description": "Divide score of uniformly over instances with the highest quality scores",
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "scoreToBinaryNorm",
           "normalized": "[TrainingInstance]-\u003e[TrainingInstance]",
@@ -2834,6 +3080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalize scores over all training instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "scoreToNorm",
           "package": "alpino-tools",
@@ -2844,6 +3091,7 @@
         "index": {
           "description": "Normalize scores over all training instances",
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "scoreToNorm",
           "normalized": "[TrainingInstance]-\u003e[TrainingInstance]",
@@ -2860,6 +3108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a training instance to a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "trainingInstanceToBs",
           "package": "alpino-tools",
@@ -2870,6 +3119,7 @@
         "index": {
           "description": "Convert training instance to ByteString",
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "trainingInstanceToBs",
           "normalized": "TrainingInstance-\u003eByteString",
@@ -2885,6 +3135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:10:06 UTC 2014",
           "module": "Data.Alpino.Model",
           "name": "value",
           "package": "alpino-tools",
@@ -2894,6 +3145,7 @@
         },
         "index": {
           "hierarchy": "Data Alpino Model",
+          "indexed": "2014-03-11T17:10:06",
           "module": "Data.Alpino.Model",
           "name": "value",
           "package": "alpino-tools",

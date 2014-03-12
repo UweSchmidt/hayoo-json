@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xmobar"
+        "phrase": "xmobar",
+        "type": "phrase"
       },
       "type": "context"
     }

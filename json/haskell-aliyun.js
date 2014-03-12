@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-aliyun"
+        "phrase": "haskell-aliyun",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DAG-Tournament"
+        "phrase": "DAG-Tournament",
+        "type": "phrase"
       },
       "type": "context"
     }

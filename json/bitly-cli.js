@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bitly-cli"
+        "phrase": "bitly-cli",
+        "type": "phrase"
       },
       "type": "context"
     }

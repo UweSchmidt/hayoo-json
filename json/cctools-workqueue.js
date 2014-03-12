@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cctools-workqueue"
+        "phrase": "cctools-workqueue",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mysnapsession"
+        "phrase": "mysnapsession",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Dialogues",
           "name": "Dialogues",
           "package": "mysnapsession",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Snap Dialogues",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Dialogues",
           "name": "Dialogues",
           "package": "mysnapsession",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value of a \u003ccode\u003e\u003ca\u003eDlg\u003c/a\u003e\u003c/code\u003e type represents a dialogue between the user and the\n    application, after which the application builds a value of type \u003ccode\u003ea\u003c/code\u003e.  The\n    trivial case is that the value is already known.  Alternatively, it may be\n    that there is some action to be performed, or else that the user needs to\n    be asked or told something.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Dialogues",
           "name": "Dlg",
           "package": "mysnapsession",
@@ -49,6 +52,7 @@
         "index": {
           "description": "value of Dlg type represents dialogue between the user and the application after which the application builds value of type The trivial case is that the value is already known Alternatively it may be that there is some action to be performed or else that the user needs to be asked or told something",
           "hierarchy": "Snap Dialogues",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Dialogues",
           "name": "Dlg",
           "package": "mysnapsession",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Dialogues",
           "name": "DlgManager",
           "package": "mysnapsession",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Snap Dialogues",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Dialogues",
           "name": "DlgManager",
           "package": "mysnapsession",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Dialogues",
           "name": "HasDlgManager",
           "package": "mysnapsession",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Snap Dialogues",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Dialogues",
           "name": "HasDlgManager",
           "package": "mysnapsession",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value of \u003ccode\u003e\u003ca\u003ePage\u003c/a\u003e\u003c/code\u003e type represents a way of rendering a page, given a request URI\n    that should be used for subsequent requests in order to reassociate them with the\n    current dialogue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Dialogues",
           "name": "Page",
           "package": "mysnapsession",
@@ -114,6 +123,7 @@
         "index": {
           "description": "value of Page type represents way of rendering page given request URI that should be used for subsequent requests in order to reassociate them with the current dialogue",
           "hierarchy": "Snap Dialogues",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Dialogues",
           "name": "Page",
           "package": "mysnapsession",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Dialogues",
           "name": "dialogue",
           "package": "mysnapsession",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Snap Dialogues",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Dialogues",
           "name": "dialogue",
           "normalized": "ByteString-\u003eDlg a()-\u003ea()",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Dialogues",
           "name": "getDlgManager",
           "package": "mysnapsession",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Snap Dialogues",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Dialogues",
           "name": "getDlgManager",
           "normalized": "a-\u003eDlgManager b",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Dialogues",
           "name": "makeDlgManager",
           "package": "mysnapsession",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Snap Dialogues",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Dialogues",
           "name": "makeDlgManager",
           "package": "mysnapsession",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts methods for rendering and parsing the result of a page into a\n    \u003ccode\u003e\u003ca\u003eDlg\u003c/a\u003e\u003c/code\u003e step.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Dialogues",
           "name": "showPage",
           "package": "mysnapsession",
@@ -207,6 +224,7 @@
         "index": {
           "description": "Converts methods for rendering and parsing the result of page into Dlg step",
           "hierarchy": "Snap Dialogues",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Dialogues",
           "name": "showPage",
           "normalized": "Page a-\u003ea b-\u003eDlg a b",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Extension.Session.Client",
           "name": "Client",
           "package": "mysnapsession",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Snap Extension Session Client",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Extension.Session.Client",
           "name": "Client",
           "package": "mysnapsession",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Extension.Session.Client",
           "name": "ClientSessionManager",
           "package": "mysnapsession",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Snap Extension Session Client",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Extension.Session.Client",
           "name": "ClientSessionManager",
           "package": "mysnapsession",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Extension.Session.Client",
           "name": "HasClientSessionManager",
           "package": "mysnapsession",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Snap Extension Session Client",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Extension.Session.Client",
           "name": "HasClientSessionManager",
           "package": "mysnapsession",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Extension.Session.Client",
           "name": "clientSessionInitializer",
           "package": "mysnapsession",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Snap Extension Session Client",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Extension.Session.Client",
           "name": "clientSessionInitializer",
           "normalized": "Key-\u003eMaybe NominalDiffTime-\u003eIO a-\u003eInitializer(ClientSessionManager a)",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Extension.Session.Client",
           "name": "clientSessionMgr",
           "package": "mysnapsession",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Snap Extension Session Client",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Extension.Session.Client",
           "name": "clientSessionMgr",
           "normalized": "a-\u003eClientSessionManager(ClientSession a)",
@@ -334,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003eSnap.Extension.Session.Memory\u003c/code\u003e exports the \u003ccode\u003eMonadSessionMemory\u003c/code\u003e interface\n    which allows you to keep an in-memory session object for each client session\n    of a web application.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Extension.Session.Memory",
           "name": "Memory",
           "package": "mysnapsession",
@@ -343,6 +372,7 @@
         "index": {
           "description": "Snap.Extension.Session.Memory exports the MonadSessionMemory interface which allows you to keep an in-memory session object for each client session of web application",
           "hierarchy": "Snap Extension Session Memory",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Extension.Session.Memory",
           "name": "Memory",
           "package": "mysnapsession",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Extension.Session.Memory",
           "name": "HasMemorySessionManager",
           "package": "mysnapsession",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Snap Extension Session Memory",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Extension.Session.Memory",
           "name": "HasMemorySessionManager",
           "package": "mysnapsession",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Extension.Session.Memory",
           "name": "MemorySessionManager",
           "package": "mysnapsession",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Snap Extension Session Memory",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Extension.Session.Memory",
           "name": "MemorySessionManager",
           "package": "mysnapsession",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Extension.Session.Memory",
           "name": "memorySessionInitializer",
           "package": "mysnapsession",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Snap Extension Session Memory",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Extension.Session.Memory",
           "name": "memorySessionInitializer",
           "normalized": "NominalDiffTime-\u003eIO a-\u003eInitializer(MemorySessionManager a)",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Extension.Session.Memory",
           "name": "memorySessionMgr",
           "package": "mysnapsession",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Snap Extension Session Memory",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Extension.Session.Memory",
           "name": "memorySessionMgr",
           "normalized": "a-\u003eMemorySessionManager(MemorySession a)",
@@ -447,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003eSnap.Extension.Session\u003c/code\u003e exports the \u003ccode\u003e\u003ca\u003eMonadSession\u003c/a\u003e\u003c/code\u003e type class, which allows\n    you to keep a session object for each client session of a web application.\n    Convenience functions are provided for those cases where the session type\n    is a \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Extension.Session",
           "name": "Session",
           "package": "mysnapsession",
@@ -456,6 +495,7 @@
         "index": {
           "description": "Snap.Extension.Session exports the MonadSession type class which allows you to keep session object for each client session of web application Convenience functions are provided for those cases where the session type is Map",
           "hierarchy": "Snap Extension Session",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Extension.Session",
           "name": "Session",
           "package": "mysnapsession",
@@ -470,6 +510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type class captures all Snap-related monads that contain a session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Extension.Session",
           "name": "MonadSession",
           "package": "mysnapsession",
@@ -479,6 +520,7 @@
         "index": {
           "description": "This type class captures all Snap-related monads that contain session",
           "hierarchy": "Snap Extension Session",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Extension.Session",
           "name": "MonadSession",
           "package": "mysnapsession",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Extension.Session",
           "name": "clearSession",
           "package": "mysnapsession",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Snap Extension Session",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Extension.Session",
           "name": "clearSession",
           "normalized": "a()",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Extension.Session",
           "name": "deleteFromSession",
           "package": "mysnapsession",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Snap Extension Session",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Extension.Session",
           "name": "deleteFromSession",
           "normalized": "a-\u003eb()",
@@ -540,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Extension.Session",
           "name": "getFromSession",
           "package": "mysnapsession",
@@ -549,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Snap Extension Session",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Extension.Session",
           "name": "getFromSession",
           "normalized": "a-\u003eb(Maybe c)",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Extension.Session",
           "name": "getSession",
           "package": "mysnapsession",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Snap Extension Session",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Extension.Session",
           "name": "getSession",
           "package": "mysnapsession",
@@ -587,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert this into your routes to renew sessions on each request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Extension.Session",
           "name": "inSession",
           "package": "mysnapsession",
@@ -597,6 +648,7 @@
         "index": {
           "description": "Insert this into your routes to renew sessions on each request",
           "hierarchy": "Snap Extension Session",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Extension.Session",
           "name": "inSession",
           "normalized": "a b-\u003ea b",
@@ -612,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Extension.Session",
           "name": "setInSession",
           "package": "mysnapsession",
@@ -621,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Snap Extension Session",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Extension.Session",
           "name": "setInSession",
           "normalized": "a-\u003eb-\u003ec()",
@@ -636,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Extension.Session",
           "name": "setSession",
           "package": "mysnapsession",
@@ -645,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Snap Extension Session",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Extension.Session",
           "name": "setSession",
           "normalized": "Session a-\u003ea()",
@@ -660,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Extension.Session",
           "name": "touchSession",
           "package": "mysnapsession",
@@ -669,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Snap Extension Session",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Extension.Session",
           "name": "touchSession",
           "normalized": "a()",
@@ -684,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.Extension.Session",
           "name": "withSession",
           "package": "mysnapsession",
@@ -693,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Snap Extension Session",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.Extension.Session",
           "name": "withSession",
           "normalized": "(Session a-\u003ea b)-\u003ea b",
@@ -708,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.SessionUtil",
           "name": "SessionUtil",
           "package": "mysnapsession",
@@ -716,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Snap SessionUtil",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.SessionUtil",
           "name": "SessionUtil",
           "package": "mysnapsession",
@@ -730,6 +792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSession keys are 64-bit integers with standard numeric type classes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.SessionUtil",
           "name": "SessionKey",
           "package": "mysnapsession",
@@ -739,6 +802,7 @@
         "index": {
           "description": "Session keys are bit integers with standard numeric type classes",
           "hierarchy": "Snap SessionUtil",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.SessionUtil",
           "name": "SessionKey",
           "package": "mysnapsession",
@@ -752,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.SessionUtil",
           "name": "K",
           "package": "mysnapsession",
@@ -761,6 +826,7 @@
         },
         "index": {
           "hierarchy": "Snap SessionUtil",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.SessionUtil",
           "name": "K",
           "package": "mysnapsession",
@@ -774,6 +840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClears a cookie.  This involves setting the cookie to the empty string,\n    with an expiration time in the past.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.SessionUtil",
           "name": "clearCookie",
           "package": "mysnapsession",
@@ -784,6 +851,7 @@
         "index": {
           "description": "Clears cookie This involves setting the cookie to the empty string with an expiration time in the past",
           "hierarchy": "Snap SessionUtil",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.SessionUtil",
           "name": "clearCookie",
           "normalized": "ByteString-\u003ea()",
@@ -800,6 +868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure that we're at the top level of a request, and expect that it be a\n    directory.  As with standard HTTP behavior, if a path to a directory is\n    given and the request URI doesn't end in a slash, then the user is\n    redirected to a path ending in a slash.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.SessionUtil",
           "name": "ifTopDir",
           "package": "mysnapsession",
@@ -810,6 +879,7 @@
         "index": {
           "description": "Ensure that we re at the top level of request and expect that it be directory As with standard HTTP behavior if path to directory is given and the request URI doesn end in slash then the user is redirected to path ending in slash",
           "hierarchy": "Snap SessionUtil",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.SessionUtil",
           "name": "ifTopDir",
           "normalized": "a b-\u003ea b",
@@ -826,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure that we're at the top level of a request, and expect that it be a\n    file.  If a trailing slash is given, we pass on the request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.SessionUtil",
           "name": "ifTopFile",
           "package": "mysnapsession",
@@ -836,6 +907,7 @@
         "index": {
           "description": "Ensure that we re at the top level of request and expect that it be file If trailing slash is given we pass on the request",
           "hierarchy": "Snap SessionUtil",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.SessionUtil",
           "name": "ifTopFile",
           "normalized": "a b-\u003ea b",
@@ -852,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves a cookie, looking first in the response map, and if not there,\n    then in the request.  This ensures that the most recently set cookie is\n    retrieved.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.SessionUtil",
           "name": "lookupCookie",
           "package": "mysnapsession",
@@ -862,6 +935,7 @@
         "index": {
           "description": "Retrieves cookie looking first in the response map and if not there then in the request This ensures that the most recently set cookie is retrieved",
           "hierarchy": "Snap SessionUtil",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.SessionUtil",
           "name": "lookupCookie",
           "normalized": "ByteString-\u003ea(Maybe Cookie)",
@@ -878,6 +952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf there is another path component in the request path, pop it off, and\n    pass it as a parameter to the handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.SessionUtil",
           "name": "popPathTo",
           "package": "mysnapsession",
@@ -888,6 +963,7 @@
         "index": {
           "description": "If there is another path component in the request path pop it off and pass it as parameter to the handler",
           "hierarchy": "Snap SessionUtil",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.SessionUtil",
           "name": "popPathTo",
           "normalized": "(ByteString-\u003ea b)-\u003ea b",
@@ -904,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a cookie in both the request and the response.  This modifies the\n    list of cookies in the request, so that later attempts to get cookies will\n    find this one even within the same request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.SessionUtil",
           "name": "setCookie",
           "package": "mysnapsession",
@@ -914,6 +991,7 @@
         "index": {
           "description": "Sets cookie in both the request and the response This modifies the list of cookies in the request so that later attempts to get cookies will find this one even within the same request",
           "hierarchy": "Snap SessionUtil",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.SessionUtil",
           "name": "setCookie",
           "normalized": "Cookie-\u003ea()",
@@ -930,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a random key that is not already used in the given map.  Though\n    not technically speaking guaranteed to terminate, this should be fast in\n    practice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:18 UTC 2014",
           "module": "Snap.SessionUtil",
           "name": "uniqueKey",
           "package": "mysnapsession",
@@ -940,6 +1019,7 @@
         "index": {
           "description": "Generates random key that is not already used in the given map Though not technically speaking guaranteed to terminate this should be fast in practice",
           "hierarchy": "Snap SessionUtil",
+          "indexed": "2014-03-11T19:25:18",
           "module": "Snap.SessionUtil",
           "name": "uniqueKey",
           "normalized": "Map a b-\u003eIO a",

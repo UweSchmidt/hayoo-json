@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cabal-audit"
+        "phrase": "cabal-audit",
+        "type": "phrase"
       },
       "type": "context"
     }

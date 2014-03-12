@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "numeric-limits"
+        "phrase": "numeric-limits",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious floating point limit related numerical constants.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:35 UTC 2014",
           "module": "Numeric.Limits",
           "name": "Limits",
           "package": "numeric-limits",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Various floating point limit related numerical constants",
           "hierarchy": "Numeric Limits",
+          "indexed": "2014-03-11T19:30:35",
           "module": "Numeric.Limits",
           "name": "Limits",
           "package": "numeric-limits",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of decimal digits that the type can represent without loss of precision.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:35 UTC 2014",
           "module": "Numeric.Limits",
           "name": "digits10",
           "package": "numeric-limits",
@@ -52,6 +55,7 @@
         "index": {
           "description": "The number of decimal digits that the type can represent without loss of precision",
           "hierarchy": "Numeric Limits",
+          "indexed": "2014-03-11T19:30:35",
           "module": "Numeric.Limits",
           "name": "digits10",
           "normalized": "a-\u003eInt",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe difference between 1 and the smallest value greater than 1 that is representable for the type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:35 UTC 2014",
           "module": "Numeric.Limits",
           "name": "epsilon",
           "package": "numeric-limits",
@@ -77,6 +82,7 @@
         "index": {
           "description": "The difference between and the smallest value greater than that is representable for the type",
           "hierarchy": "Numeric Limits",
+          "indexed": "2014-03-11T19:30:35",
           "module": "Numeric.Limits",
           "name": "epsilon",
           "package": "numeric-limits",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfinity value if the type supports it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:35 UTC 2014",
           "module": "Numeric.Limits",
           "name": "infinity",
           "package": "numeric-limits",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Infinity value if the type supports it",
           "hierarchy": "Numeric Limits",
+          "indexed": "2014-03-11T19:30:35",
           "module": "Numeric.Limits",
           "name": "infinity",
           "package": "numeric-limits",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maximum finite value for the type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:35 UTC 2014",
           "module": "Numeric.Limits",
           "name": "maxValue",
           "package": "numeric-limits",
@@ -123,6 +132,7 @@
         "index": {
           "description": "The maximum finite value for the type",
           "hierarchy": "Numeric Limits",
+          "indexed": "2014-03-11T19:30:35",
           "module": "Numeric.Limits",
           "name": "maxValue",
           "package": "numeric-limits",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe minimum (positive) normalized value for the type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:35 UTC 2014",
           "module": "Numeric.Limits",
           "name": "minValue",
           "package": "numeric-limits",
@@ -147,6 +158,7 @@
         "index": {
           "description": "The minimum positive normalized value for the type",
           "hierarchy": "Numeric Limits",
+          "indexed": "2014-03-11T19:30:35",
           "module": "Numeric.Limits",
           "name": "minValue",
           "package": "numeric-limits",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot-a-number value if the type supports it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:35 UTC 2014",
           "module": "Numeric.Limits",
           "name": "nan",
           "package": "numeric-limits",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Not-a-number value if the type supports it",
           "hierarchy": "Numeric Limits",
+          "indexed": "2014-03-11T19:30:35",
           "module": "Numeric.Limits",
           "name": "nan",
           "package": "numeric-limits",

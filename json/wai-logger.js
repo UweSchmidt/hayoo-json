@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wai-logger"
+        "phrase": "wai-logger",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eApache style logger for WAI applications.\n\u003c/p\u003e\u003cp\u003eAn example:\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n module Main where\n\n import Blaze.ByteString.Builder (fromByteString)\n import Control.Monad.IO.Class (liftIO)\n import qualified Data.ByteString.Char8 as BS\n import Network.HTTP.Types (status200)\n import Network.Wai (Application, responseBuilder)\n import Network.Wai.Handler.Warp (run)\n import Network.Wai.Logger (withStdoutLogger, ApacheLogger)\n\n main :: IO ()\n main = withStdoutLogger $ \\aplogger -\u003e\n     run 3000 $ logApp aplogger\n\n logApp :: ApacheLogger -\u003e Application\n logApp aplogger req = do\n     liftIO $ aplogger req status (Just len)\n     return $ responseBuilder status hdr msg\n   where\n     status = status200\n     hdr = [(\"Content-Type\", \"text/plain\")\n           ,(\"Content-Length\", BS.pack (show len))]\n     pong = \"PONG\"\n     len = fromIntegral $ BS.length pong\n     msg = toLogStr pong\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "Logger",
           "package": "wai-logger",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Apache style logger for WAI applications An example LANGUAGE OverloadedStrings module Main where import Blaze.ByteString.Builder fromByteString import Control.Monad.IO.Class liftIO import qualified Data.ByteString.Char8 as BS import Network.HTTP.Types status200 import Network.Wai Application responseBuilder import Network.Wai.Handler.Warp run import Network.Wai.Logger withStdoutLogger ApacheLogger main IO main withStdoutLogger aplogger run logApp aplogger logApp ApacheLogger Application logApp aplogger req do liftIO aplogger req status Just len return responseBuilder status hdr msg where status status200 hdr Content-Type text plain Content-Length BS.pack show len pong PONG len fromIntegral BS.length pong msg toLogStr pong",
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "Logger",
           "package": "wai-logger",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApache style logger.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "ApacheLogger",
           "package": "wai-logger",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Apache style logger",
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "ApacheLogger",
           "package": "wai-logger",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "ApacheLoggerActions",
           "package": "wai-logger",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "ApacheLoggerActions",
           "package": "wai-logger",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetting cached \u003ccode\u003e\u003ca\u003eZonedDate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "DateCacheGetter",
           "package": "wai-logger",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Getting cached ZonedDate",
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "DateCacheGetter",
           "package": "wai-logger",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdateing cached \u003ccode\u003e\u003ca\u003eZonedDate\u003c/a\u003e\u003c/code\u003e. This should be called every second.\n   See the source code of \u003ccode\u003ewithStdoutLogger\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "DateCacheUpdater",
           "package": "wai-logger",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Updateing cached ZonedDate This should be called every second See the source code of withStdoutLogger",
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "DateCacheUpdater",
           "package": "wai-logger",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe spec for logging files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "FileLogSpec",
           "package": "wai-logger",
@@ -140,6 +151,7 @@
         "index": {
           "description": "The spec for logging files",
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "FileLogSpec",
           "package": "wai-logger",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource from which the IP source address of the client is obtained.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "IPAddrSource",
           "package": "wai-logger",
@@ -163,6 +176,7 @@
         "index": {
           "description": "Source from which the IP source address of the client is obtained",
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "IPAddrSource",
           "package": "wai-logger",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogger Type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "LogType",
           "package": "wai-logger",
@@ -186,6 +201,7 @@
         "index": {
           "description": "Logger Type",
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "LogType",
           "package": "wai-logger",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type for zoned date.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "ZonedDate",
           "package": "wai-logger",
@@ -209,6 +226,7 @@
         "index": {
           "description": "type for zoned date",
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "ZonedDate",
           "package": "wai-logger",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "ApacheLoggerActions",
           "package": "wai-logger",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "ApacheLoggerActions",
           "package": "wai-logger",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "FileLogSpec",
           "package": "wai-logger",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "FileLogSpec",
           "package": "wai-logger",
@@ -266,6 +288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom the peer address if header is not found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "FromFallback",
           "package": "wai-logger",
@@ -276,6 +299,7 @@
         "index": {
           "description": "From the peer address if header is not found",
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "FromFallback",
           "package": "wai-logger",
@@ -290,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom X-Real-IP: or X-Forwarded-For: in the HTTP header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "FromHeader",
           "package": "wai-logger",
@@ -300,6 +325,7 @@
         "index": {
           "description": "From X-Real-IP or X-Forwarded-For in the HTTP header",
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "FromHeader",
           "package": "wai-logger",
@@ -314,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom the peer address of the HTTP connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "FromSocket",
           "package": "wai-logger",
@@ -324,6 +351,7 @@
         "index": {
           "description": "From the peer address of the HTTP connection",
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "FromSocket",
           "package": "wai-logger",
@@ -337,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "LogCallback",
           "package": "wai-logger",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "LogCallback",
           "normalized": "LogCallback(LogStr-\u003eIO())(IO())",
@@ -362,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogging to a file.\n   \u003ccode\u003e\u003ca\u003eBufSize\u003c/a\u003e\u003c/code\u003e is a buffer size\n   for each capability.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "LogFile",
           "package": "wai-logger",
@@ -372,6 +403,7 @@
         "index": {
           "description": "Logging to file BufSize is buffer size for each capability",
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "LogFile",
           "package": "wai-logger",
@@ -386,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo logging.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "LogNone",
           "package": "wai-logger",
@@ -396,6 +429,7 @@
         "index": {
           "description": "No logging",
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "LogNone",
           "package": "wai-logger",
@@ -410,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogging to stdout.\n   \u003ccode\u003e\u003ca\u003eBufSize\u003c/a\u003e\u003c/code\u003e is a buffer size\n   for each capability.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "LogStdout",
           "package": "wai-logger",
@@ -420,6 +455,7 @@
         "index": {
           "description": "Logging to stdout BufSize is buffer size for each capability",
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "LogStdout",
           "package": "wai-logger",
@@ -433,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "apacheLogger",
           "package": "wai-logger",
@@ -442,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "apacheLogger",
           "package": "wai-logger",
@@ -456,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturning \u003ccode\u003e\u003ca\u003eDateCacheGetter\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eDateCacheUpdater\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "clockDateCacher",
           "package": "wai-logger",
@@ -466,6 +505,7 @@
         "index": {
           "description": "Returning DateCacheGetter and DateCacheUpdater",
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "clockDateCacher",
           "normalized": "IO(DateCacheGetter,DateCacheUpdater)",
@@ -482,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreating \u003ccode\u003e\u003ca\u003eApacheLogger\u003c/a\u003e\u003c/code\u003e according to \u003ccode\u003e\u003ca\u003eLogType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "initLogger",
           "package": "wai-logger",
@@ -492,6 +533,7 @@
         "index": {
           "description": "Creating ApacheLogger according to LogType",
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "initLogger",
           "normalized": "IPAddrSource-\u003eLogType-\u003eDateCacheGetter-\u003eIO ApacheLoggerActions",
@@ -508,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecking if a log file can be written if \u003ccode\u003e\u003ca\u003eLogType\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eLogFile\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "logCheck",
           "package": "wai-logger",
@@ -518,6 +561,7 @@
         "index": {
           "description": "Checking if log file can be written if LogType is LogFile",
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "logCheck",
           "normalized": "LogType-\u003eIO()",
@@ -534,6 +578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlushing log messages in the buffers.\n   This is explicitly called from your program.\n   Probably, one second and 10 seconds is proper to stdout and\n   log files, respectively.\n   See the source code of \u003ccode\u003e\u003ca\u003ewithStdoutLogger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "logFlusher",
           "package": "wai-logger",
@@ -544,6 +589,7 @@
         "index": {
           "description": "Flushing log messages in the buffers This is explicitly called from your program Probably one second and seconds is proper to stdout and log files respectively See the source code of withStdoutLogger",
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "logFlusher",
           "normalized": "IO()",
@@ -560,6 +606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoving resources relating Apache logger.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "logRemover",
           "package": "wai-logger",
@@ -570,6 +617,7 @@
         "index": {
           "description": "Removing resources relating Apache logger",
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "logRemover",
           "normalized": "IO()",
@@ -586,6 +634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotating log files.\n   This is explicitly called from your program.\n   Probably, 10 seconds is proper.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "logRotator",
           "package": "wai-logger",
@@ -596,6 +645,7 @@
         "index": {
           "description": "Rotating log files This is explicitly called from your program Probably seconds is proper",
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "logRotator",
           "normalized": "IO()",
@@ -611,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "log_backup_number",
           "package": "wai-logger",
@@ -619,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "log_backup_number",
           "package": "wai-logger",
@@ -631,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "log_file",
           "package": "wai-logger",
@@ -639,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "log_file",
           "package": "wai-logger",
@@ -651,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "log_file_size",
           "package": "wai-logger",
@@ -659,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "log_file_size",
           "package": "wai-logger",
@@ -672,6 +728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert \u003ccode\u003e\u003ca\u003eSockAddr\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003eNumericAddress\u003c/code\u003e. If the address is\n   IPv4-embedded IPv6 address, the IPv4 is extracted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "showSockAddr",
           "package": "wai-logger",
@@ -682,6 +739,7 @@
         "index": {
           "description": "Convert SockAddr to NumericAddress If the address is IPv4-embedded IPv6 address the IPv4 is extracted",
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "showSockAddr",
           "normalized": "SockAddr-\u003eNumericAddress",
@@ -698,6 +756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecuting a function which takes \u003ccode\u003e\u003ca\u003eApacheLogger\u003c/a\u003e\u003c/code\u003e.\n   This \u003ccode\u003e\u003ca\u003eApacheLogger\u003c/a\u003e\u003c/code\u003e writes log message to stdout.\n   Each buffer (4K bytes) is flushed every second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:26 UTC 2014",
           "module": "Network.Wai.Logger",
           "name": "withStdoutLogger",
           "package": "wai-logger",
@@ -708,6 +767,7 @@
         "index": {
           "description": "Executing function which takes ApacheLogger This ApacheLogger writes log message to stdout Each buffer bytes is flushed every second",
           "hierarchy": "Network Wai Logger",
+          "indexed": "2014-03-11T20:36:26",
           "module": "Network.Wai.Logger",
           "name": "withStdoutLogger",
           "normalized": "(ApacheLogger-\u003eIO a)-\u003eIO a",

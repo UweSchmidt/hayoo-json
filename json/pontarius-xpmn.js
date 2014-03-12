@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pontarius-xpmn"
+        "phrase": "pontarius-xpmn",
+        "type": "phrase"
       },
       "type": "context"
     }

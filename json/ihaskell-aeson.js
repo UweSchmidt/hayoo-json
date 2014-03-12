@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ihaskell-aeson"
+        "phrase": "ihaskell-aeson",
+        "type": "phrase"
       },
       "type": "context"
     }

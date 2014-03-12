@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ligature"
+        "phrase": "ligature",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for expanding ligatures in unicode text.\n\u003c/p\u003e\u003cp\u003eCurrently this module expands the following ligatures:&#64256;,&#64257;,&#64258;,&#64259;,&#64260;,&#64261;,&#64262;\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:31 UTC 2014",
           "module": "Data.Char.Ligature",
           "name": "Ligature",
           "package": "ligature",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Utilities for expanding ligatures in unicode text Currently this module expands the following ligatures",
           "hierarchy": "Data Char Ligature",
+          "indexed": "2014-03-11T19:09:31",
           "module": "Data.Char.Ligature",
           "name": "Ligature",
           "package": "ligature",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpand all ligatures in the text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:31 UTC 2014",
           "module": "Data.Char.Ligature",
           "name": "expand",
           "package": "ligature",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Expand all ligatures in the text",
           "hierarchy": "Data Char Ligature",
+          "indexed": "2014-03-11T19:09:31",
           "module": "Data.Char.Ligature",
           "name": "expand",
           "normalized": "Text-\u003eText",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a character is a ligature, expand it to several characters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:31 UTC 2014",
           "module": "Data.Char.Ligature",
           "name": "expandLigature",
           "package": "ligature",
@@ -77,6 +82,7 @@
         "index": {
           "description": "If character is ligature expand it to several characters",
           "hierarchy": "Data Char Ligature",
+          "indexed": "2014-03-11T19:09:31",
           "module": "Data.Char.Ligature",
           "name": "expandLigature",
           "normalized": "Char-\u003eText",

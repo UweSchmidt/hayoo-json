@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lucienne"
+        "phrase": "lucienne",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "core"
+        "phrase": "core",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Parser",
           "name": "Parser",
           "package": "core",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Core Parser",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Parser",
           "name": "Parser",
           "package": "core",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Parser",
           "name": "parseModule",
           "package": "core",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Language Core Parser",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Parser",
           "name": "parseModule",
           "normalized": "SourceName-\u003eByteString-\u003eEither ParseError Module",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Pretty",
           "name": "Pretty",
           "package": "core",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Language Core Pretty",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Pretty",
           "name": "Pretty",
           "package": "core",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Pretty",
           "name": "ppModule",
           "package": "core",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Language Core Pretty",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Pretty",
           "name": "ppModule",
           "normalized": "Module-\u003eDoc",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Syntax",
           "package": "core",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Syntax",
           "package": "core",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Alt",
           "package": "core",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Alt",
           "package": "core",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Cdef",
           "package": "core",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Cdef",
           "package": "core",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Dcon",
           "package": "core",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Dcon",
           "package": "core",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Exp",
           "package": "core",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Exp",
           "package": "core",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Id",
           "package": "core",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Id",
           "package": "core",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Kind",
           "package": "core",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Kind",
           "package": "core",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Lit",
           "package": "core",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Lit",
           "package": "core",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Mname",
           "package": "core",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Mname",
           "package": "core",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Module",
           "package": "core",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Module",
           "package": "core",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Pkgname",
           "package": "core",
@@ -326,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Pkgname",
           "package": "core",
@@ -339,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Qual",
           "package": "core",
@@ -347,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Qual",
           "package": "core",
@@ -360,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Tbind",
           "package": "core",
@@ -368,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Tbind",
           "package": "core",
@@ -381,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Tcon",
           "package": "core",
@@ -389,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Tcon",
           "package": "core",
@@ -402,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Tdef",
           "package": "core",
@@ -410,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Tdef",
           "package": "core",
@@ -423,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Tvar",
           "package": "core",
@@ -431,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Tvar",
           "package": "core",
@@ -444,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Ty",
           "package": "core",
@@ -452,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Ty",
           "package": "core",
@@ -465,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Var",
           "package": "core",
@@ -473,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Var",
           "package": "core",
@@ -486,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Vbind",
           "package": "core",
@@ -494,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Vbind",
           "package": "core",
@@ -507,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Vdef",
           "package": "core",
@@ -515,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Vdef",
           "package": "core",
@@ -528,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Vdefg",
           "package": "core",
@@ -536,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Vdefg",
           "package": "core",
@@ -549,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Acon",
           "package": "core",
@@ -558,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Acon",
           "normalized": "Acon(Qual Dcon)[Tbind][Vbind]Exp",
@@ -573,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Adefault",
           "package": "core",
@@ -582,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Adefault",
           "package": "core",
@@ -595,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Alit",
           "package": "core",
@@ -604,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Alit",
           "package": "core",
@@ -617,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "App",
           "package": "core",
@@ -626,6 +683,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "App",
           "package": "core",
@@ -639,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Appt",
           "package": "core",
@@ -648,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Appt",
           "package": "core",
@@ -661,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Case",
           "package": "core",
@@ -670,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Case",
           "normalized": "Case Exp Vbind Ty[Alt]",
@@ -685,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Cast",
           "package": "core",
@@ -694,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Cast",
           "package": "core",
@@ -707,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Constr",
           "package": "core",
@@ -716,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Constr",
           "normalized": "Constr(Qual Dcon)[Tbind][Ty]",
@@ -731,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Data",
           "package": "core",
@@ -740,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Data",
           "normalized": "Data(Qual Tcon)[Tbind][Cdef]",
@@ -755,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Dcon",
           "package": "core",
@@ -764,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Dcon",
           "package": "core",
@@ -777,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "DynExternal",
           "package": "core",
@@ -786,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "DynExternal",
           "package": "core",
@@ -799,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "External",
           "package": "core",
@@ -808,6 +881,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "External",
           "package": "core",
@@ -821,6 +895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "GadtConstr",
           "package": "core",
@@ -830,6 +905,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "GadtConstr",
           "package": "core",
@@ -843,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "InstCoercion",
           "package": "core",
@@ -852,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "InstCoercion",
           "package": "core",
@@ -865,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Karrow",
           "package": "core",
@@ -874,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Karrow",
           "package": "core",
@@ -887,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Keq",
           "package": "core",
@@ -896,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Keq",
           "package": "core",
@@ -909,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Klifted",
           "package": "core",
@@ -918,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Klifted",
           "package": "core",
@@ -931,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Kopen",
           "package": "core",
@@ -940,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Kopen",
           "package": "core",
@@ -953,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Kunboxed",
           "package": "core",
@@ -962,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Kunboxed",
           "package": "core",
@@ -975,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Kunlifted",
           "package": "core",
@@ -984,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Kunlifted",
           "package": "core",
@@ -997,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Label",
           "package": "core",
@@ -1006,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Label",
           "package": "core",
@@ -1019,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Lam",
           "package": "core",
@@ -1028,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Lam",
           "package": "core",
@@ -1041,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Lamt",
           "package": "core",
@@ -1050,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Lamt",
           "package": "core",
@@ -1063,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Lchar",
           "package": "core",
@@ -1072,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Lchar",
           "package": "core",
@@ -1085,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "LeftCoercion",
           "package": "core",
@@ -1094,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "LeftCoercion",
           "package": "core",
@@ -1107,6 +1207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Let",
           "package": "core",
@@ -1116,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Let",
           "package": "core",
@@ -1129,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Lint",
           "package": "core",
@@ -1138,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Lint",
           "package": "core",
@@ -1151,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Lit",
           "package": "core",
@@ -1160,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Lit",
           "package": "core",
@@ -1173,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Lrational",
           "package": "core",
@@ -1182,6 +1289,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Lrational",
           "package": "core",
@@ -1195,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Lstring",
           "package": "core",
@@ -1204,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Lstring",
           "package": "core",
@@ -1217,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Module",
           "package": "core",
@@ -1226,6 +1337,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Module",
           "normalized": "Module(Pkgname,Mname)[Tdef][Vdefg]",
@@ -1241,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Newtype",
           "package": "core",
@@ -1250,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Newtype",
           "normalized": "Newtype(Qual Tcon)(Qual Tcon)[Tbind]Ty",
@@ -1265,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Nonrec",
           "package": "core",
@@ -1274,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Nonrec",
           "package": "core",
@@ -1287,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Note",
           "package": "core",
@@ -1296,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Note",
           "package": "core",
@@ -1309,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Rec",
           "package": "core",
@@ -1318,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Rec",
           "normalized": "Rec[Vdef]",
@@ -1333,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "RightCoercion",
           "package": "core",
@@ -1342,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "RightCoercion",
           "package": "core",
@@ -1355,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "SymCoercion",
           "package": "core",
@@ -1364,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "SymCoercion",
           "package": "core",
@@ -1377,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Tapp",
           "package": "core",
@@ -1386,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Tapp",
           "package": "core",
@@ -1399,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Tarrow",
           "package": "core",
@@ -1408,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Tarrow",
           "package": "core",
@@ -1421,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Tcon",
           "package": "core",
@@ -1430,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Tcon",
           "package": "core",
@@ -1443,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Tforall",
           "package": "core",
@@ -1452,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Tforall",
           "package": "core",
@@ -1465,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "TransCoercion",
           "package": "core",
@@ -1474,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "TransCoercion",
           "package": "core",
@@ -1487,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Tvar",
           "package": "core",
@@ -1496,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Tvar",
           "package": "core",
@@ -1509,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "UnsafeCoercion",
           "package": "core",
@@ -1518,6 +1655,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "UnsafeCoercion",
           "package": "core",
@@ -1531,6 +1669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Var",
           "package": "core",
@@ -1540,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Var",
           "package": "core",
@@ -1553,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "Vdef",
           "package": "core",
@@ -1562,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "Vdef",
           "package": "core",
@@ -1575,6 +1717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "vdefExp",
           "package": "core",
@@ -1584,6 +1727,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "vdefExp",
           "package": "core",
@@ -1597,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "vdefLocal",
           "package": "core",
@@ -1606,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "vdefLocal",
           "package": "core",
@@ -1619,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "vdefName",
           "package": "core",
@@ -1628,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "vdefName",
           "package": "core",
@@ -1641,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core.Syntax",
           "name": "vdefType",
           "package": "core",
@@ -1650,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "Language Core Syntax",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core.Syntax",
           "name": "vdefType",
           "package": "core",
@@ -1663,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:41:22 UTC 2014",
           "module": "Language.Core",
           "name": "Core",
           "package": "core",
@@ -1671,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "Language Core",
+          "indexed": "2014-03-11T17:41:22",
           "module": "Language.Core",
           "name": "Core",
           "package": "core",

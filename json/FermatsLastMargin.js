@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "FermatsLastMargin"
+        "phrase": "FermatsLastMargin",
+        "type": "phrase"
       },
       "type": "context"
     }

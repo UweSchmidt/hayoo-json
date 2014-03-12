@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "posix-waitpid"
+        "phrase": "posix-waitpid",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:18 UTC 2014",
           "module": "System.Posix.Waitpid",
           "name": "Waitpid",
           "package": "posix-waitpid",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Posix Waitpid",
+          "indexed": "2014-03-11T19:42:18",
           "module": "System.Posix.Waitpid",
           "name": "Waitpid",
           "package": "posix-waitpid",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:18 UTC 2014",
           "module": "System.Posix.Waitpid",
           "name": "Flag",
           "package": "posix-waitpid",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Posix Waitpid",
+          "indexed": "2014-03-11T19:42:18",
           "module": "System.Posix.Waitpid",
           "name": "Flag",
           "package": "posix-waitpid",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:18 UTC 2014",
           "module": "System.Posix.Waitpid",
           "name": "Status",
           "package": "posix-waitpid",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "System Posix Waitpid",
+          "indexed": "2014-03-11T19:42:18",
           "module": "System.Posix.Waitpid",
           "name": "Status",
           "package": "posix-waitpid",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:18 UTC 2014",
           "module": "System.Posix.Waitpid",
           "name": "Continued",
           "package": "posix-waitpid",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "System Posix Waitpid",
+          "indexed": "2014-03-11T19:42:18",
           "module": "System.Posix.Waitpid",
           "name": "Continued",
           "package": "posix-waitpid",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:18 UTC 2014",
           "module": "System.Posix.Waitpid",
           "name": "Exited",
           "package": "posix-waitpid",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "System Posix Waitpid",
+          "indexed": "2014-03-11T19:42:18",
           "module": "System.Posix.Waitpid",
           "name": "Exited",
           "package": "posix-waitpid",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:18 UTC 2014",
           "module": "System.Posix.Waitpid",
           "name": "IncludeContinued",
           "package": "posix-waitpid",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "System Posix Waitpid",
+          "indexed": "2014-03-11T19:42:18",
           "module": "System.Posix.Waitpid",
           "name": "IncludeContinued",
           "package": "posix-waitpid",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:18 UTC 2014",
           "module": "System.Posix.Waitpid",
           "name": "IncludeUntraced",
           "package": "posix-waitpid",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "System Posix Waitpid",
+          "indexed": "2014-03-11T19:42:18",
           "module": "System.Posix.Waitpid",
           "name": "IncludeUntraced",
           "package": "posix-waitpid",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:18 UTC 2014",
           "module": "System.Posix.Waitpid",
           "name": "NoHang",
           "package": "posix-waitpid",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "System Posix Waitpid",
+          "indexed": "2014-03-11T19:42:18",
           "module": "System.Posix.Waitpid",
           "name": "NoHang",
           "package": "posix-waitpid",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:18 UTC 2014",
           "module": "System.Posix.Waitpid",
           "name": "Signaled",
           "package": "posix-waitpid",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "System Posix Waitpid",
+          "indexed": "2014-03-11T19:42:18",
           "module": "System.Posix.Waitpid",
           "name": "Signaled",
           "package": "posix-waitpid",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:18 UTC 2014",
           "module": "System.Posix.Waitpid",
           "name": "Stopped",
           "package": "posix-waitpid",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "System Posix Waitpid",
+          "indexed": "2014-03-11T19:42:18",
           "module": "System.Posix.Waitpid",
           "name": "Stopped",
           "package": "posix-waitpid",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:18 UTC 2014",
           "module": "System.Posix.Waitpid",
           "name": "c_waitpid",
           "package": "posix-waitpid",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "System Posix Waitpid",
+          "indexed": "2014-03-11T19:42:18",
           "module": "System.Posix.Waitpid",
           "name": "c_waitpid",
           "normalized": "CPid-\u003ePtr CInt-\u003eCInt-\u003eIO CPid",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:18 UTC 2014",
           "module": "System.Posix.Waitpid",
           "name": "waitpid",
           "package": "posix-waitpid",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "System Posix Waitpid",
+          "indexed": "2014-03-11T19:42:18",
           "module": "System.Posix.Waitpid",
           "name": "waitpid",
           "normalized": "CPid-\u003e[Flag]-\u003eIO(Maybe(CPid,Status))",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GHood"
+        "phrase": "GHood",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGHood:\n A graphical viewer for Hood\n\u003c/p\u003e\u003cp\u003eCreated a cabal library package.\n Improved the search for the GHood.jar file, that is bundled with the library.\n Changed from Literate Haskell to plain Haskell for better haddock documentation support.\n\u003c/p\u003e\u003cp\u003eHugo Pacheco, November 2008\n\u003c/p\u003e\u003cp\u003eAdded ObserveM.\n Adapted imports to use GHC's hierarchical libraries.\n\u003c/p\u003e\u003cp\u003eAlcino Cunha, February 2004\n\u003c/p\u003e\u003cp\u003eModified version of Hood/Observe.lhs to match GHood, \n the Graphical Haskell Object Observation Debugger, which\n is distributed as a Java class file archive GHood.jar.\n [Apart from two new hooks, modifications are at the end]\n\u003c/p\u003e\u003cp\u003eClaus Reinke, December 2000\n\u003c/p\u003e\u003cp\u003eThe file is part of the Haskell Object Observation Debugger,\n (HOOD) July 2000 release. Actually this is all of this version\n of HOOD, apart from the documentation and examples...\n\u003c/p\u003e\u003cp\u003eHOOD is a small post-mortem debugger for the lazy functional\n language Haskell. It is based on the concept of observation of\n intermediate data structures, rather than the more traditional\n stepping and variable examination paradigm used by imperative\n language debuggers.\n\u003c/p\u003e\u003cp\u003eCopyright (c) Andy Gill, 1992-2000\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "Observe",
           "package": "GHood",
@@ -28,6 +29,7 @@
         "index": {
           "description": "GHood graphical viewer for Hood Created cabal library package Improved the search for the GHood.jar file that is bundled with the library Changed from Literate Haskell to plain Haskell for better haddock documentation support Hugo Pacheco November Added ObserveM Adapted imports to use GHC hierarchical libraries Alcino Cunha February Modified version of Hood Observe.lhs to match GHood the Graphical Haskell Object Observation Debugger which is distributed as Java class file archive GHood.jar Apart from two new hooks modifications are at the end Claus Reinke December The file is part of the Haskell Object Observation Debugger HOOD July release Actually this is all of this version of HOOD apart from the documentation and examples HOOD is small post-mortem debugger for the lazy functional language Haskell It is based on the concept of observation of intermediate data structures rather than the more traditional stepping and variable examination paradigm used by imperative language debuggers Copyright Andy Gill",
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "Observe",
           "package": "GHood",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "CDS",
           "package": "GHood",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "CDS",
           "package": "GHood",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "CDSSet",
           "package": "GHood",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "CDSSet",
           "package": "GHood",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "Observable",
           "package": "GHood",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "Observable",
           "package": "GHood",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains a \u003ccode\u003eforall\u003c/code\u003e typed observe (if supported).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "Observer",
           "package": "GHood",
@@ -114,6 +123,7 @@
         "index": {
           "description": "Contains forall typed observe if supported",
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "Observer",
           "package": "GHood",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple state monad for placing numbers on sub-observations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "ObserverM",
           "package": "GHood",
@@ -137,6 +148,7 @@
         "index": {
           "description": "simple state monad for placing numbers on sub-observations",
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "ObserverM",
           "package": "GHood",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "Observing",
           "package": "GHood",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "Observing",
           "package": "GHood",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParent book-keeping information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "Parent",
           "package": "GHood",
@@ -181,6 +196,7 @@
         "index": {
           "description": "Parent book-keeping information",
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "Parent",
           "package": "GHood",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe infix (\u003c\u003c) is a shortcut for constructor arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "(\u003c\u003c)",
           "package": "GHood",
@@ -205,6 +222,7 @@
         "index": {
           "description": "the infix is shortcut for constructor arguments",
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "(\u003c\u003c) \u003c\u003c",
           "normalized": "ObserverM(a-\u003eb)-\u003ea-\u003eObserverM b",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "CDSCons",
           "package": "GHood",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "CDSCons",
           "normalized": "CDSCons Int String[CDSSet]",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "CDSEntered",
           "package": "GHood",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "CDSEntered",
           "package": "GHood",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "CDSFun",
           "package": "GHood",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "CDSFun",
           "package": "GHood",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "CDSNamed",
           "package": "GHood",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "CDSNamed",
           "package": "GHood",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "O",
           "package": "GHood",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "O",
           "normalized": "String-\u003ea-\u003ea)",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "ObserverM",
           "package": "GHood",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "ObserverM",
           "package": "GHood",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "Parent",
           "package": "GHood",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "Parent",
           "package": "GHood",
@@ -377,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDebugs observe ridden code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "debugO",
           "package": "GHood",
@@ -387,6 +420,7 @@
         "index": {
           "description": "Debugs observe ridden code",
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "debugO",
           "normalized": "IO a-\u003eIO[CDS]",
@@ -402,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOur principle function and class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "observe",
           "package": "GHood",
@@ -412,6 +447,7 @@
         "index": {
           "description": "Our principle function and class",
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "observe",
           "normalized": "String-\u003ea-\u003ea",
@@ -427,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObserve a base type\n\u003c/p\u003e\u003cp\u003eThe strictness (by using seq) is the same as the pattern matching done on other constructors.\n We evaluate to WHNF, and not further.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "observeBase",
           "package": "GHood",
@@ -437,6 +474,7 @@
         "index": {
           "description": "Observe base type The strictness by using seq is the same as the pattern matching done on other constructors We evaluate to WHNF and not further",
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "observeBase",
           "normalized": "a-\u003eParent-\u003ea",
@@ -453,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObserve a base type as an \u003ccode\u003eopaque\u003c/code\u003e string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "observeOpaque",
           "package": "GHood",
@@ -463,6 +502,7 @@
         "index": {
           "description": "Observe base type as an opaque string",
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "observeOpaque",
           "normalized": "String-\u003ea-\u003eParent-\u003ea",
@@ -479,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emy parent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "observeParent",
           "package": "GHood",
@@ -489,6 +530,7 @@
         "index": {
           "description": "my parent",
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "observeParent",
           "package": "GHood",
@@ -503,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emy branch number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "observePort",
           "package": "GHood",
@@ -513,6 +556,7 @@
         "index": {
           "description": "my branch number",
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "observePort",
           "package": "GHood",
@@ -527,6 +571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis reveals the name of a specific constructor.\n\t and gets ready to explain the sub-components.\n    We put the context second so we can do eta-reduction\n\t with some of our definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "observer",
           "package": "GHood",
@@ -537,6 +582,7 @@
         "index": {
           "description": "This reveals the name of specific constructor and gets ready to explain the sub-components We put the context second so we can do eta-reduction with some of our definitions",
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "observer",
           "normalized": "a-\u003eParent-\u003ea",
@@ -552,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis used used to group several observer instances together.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "observers",
           "package": "GHood",
@@ -562,6 +609,7 @@
         "index": {
           "description": "This used used to group several observer instances together",
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "observers",
           "normalized": "String-\u003e(Observer-\u003ea)-\u003ea",
@@ -577,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns and prints observe ridden code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "printO",
           "package": "GHood",
@@ -587,6 +636,7 @@
         "index": {
           "description": "Runs and prints observe ridden code",
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "printO",
           "normalized": "a-\u003eIO()",
@@ -602,6 +652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrints a string during observation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "putStrO",
           "package": "GHood",
@@ -612,6 +663,7 @@
         "index": {
           "description": "Prints string during observation",
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "putStrO",
           "normalized": "String-\u003eIO()",
@@ -627,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "runMO",
           "package": "GHood",
@@ -636,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "runMO",
           "normalized": "Int-\u003eInt-\u003e(a,Int)",
@@ -652,6 +706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns observe ridden code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "runO",
           "package": "GHood",
@@ -662,6 +717,7 @@
         "index": {
           "description": "Runs observe ridden code",
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "runO",
           "normalized": "IO a-\u003eIO()",
@@ -677,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a packet to the observation agent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "send",
           "package": "GHood",
@@ -687,6 +744,7 @@
         "index": {
           "description": "Sends packet to the observation agent",
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "send",
           "normalized": "String-\u003eObserverM a-\u003eParent-\u003ea",
@@ -702,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethunk is for marking suspensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:42:09 UTC 2014",
           "module": "Debug.Observe",
           "name": "thunk",
           "package": "GHood",
@@ -712,6 +771,7 @@
         "index": {
           "description": "thunk is for marking suspensions",
           "hierarchy": "Debug Observe",
+          "indexed": "2014-03-11T16:42:09",
           "module": "Debug.Observe",
           "name": "thunk",
           "normalized": "a-\u003eObserverM a",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "git-annex"
+        "phrase": "git-annex",
+        "type": "phrase"
       },
       "type": "context"
     }

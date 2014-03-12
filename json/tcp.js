@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tcp"
+        "phrase": "tcp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.HostMonad",
           "name": "HostMonad",
           "package": "tcp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux HostMonad",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.HostMonad",
           "name": "HostMonad",
           "package": "tcp",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.HostMonad",
           "name": "HMonad",
           "package": "tcp",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux HostMonad",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.HostMonad",
           "name": "HMonad",
           "package": "tcp",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.HostMonad",
           "name": "HMonad",
           "package": "tcp",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux HostMonad",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.HostMonad",
           "name": "HMonad",
           "normalized": "HMonad(Host a-\u003e(b,Host a))",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.HostMonad",
           "name": "bindHMonad",
           "package": "tcp",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux HostMonad",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.HostMonad",
           "name": "bindHMonad",
           "normalized": "HMonad a b-\u003e(b-\u003eHMonad a c)-\u003eHMonad a c",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.HostMonad",
           "name": "delete_sock",
           "package": "tcp",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux HostMonad",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.HostMonad",
           "name": "delete_sock",
           "normalized": "SocketID-\u003eHMonad a()",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.HostMonad",
           "name": "get_host",
           "package": "tcp",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux HostMonad",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.HostMonad",
           "name": "get_host",
           "package": "tcp",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.HostMonad",
           "name": "has_sock",
           "package": "tcp",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux HostMonad",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.HostMonad",
           "name": "has_sock",
           "normalized": "SocketID-\u003eHMonad a Bool",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.HostMonad",
           "name": "insert_sock",
           "package": "tcp",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux HostMonad",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.HostMonad",
           "name": "insert_sock",
           "normalized": "SocketID-\u003eTCPSocket a-\u003eHMonad a()",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.HostMonad",
           "name": "runHMonad",
           "package": "tcp",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux HostMonad",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.HostMonad",
           "name": "runHMonad",
           "normalized": "HMonad a b-\u003eHost a-\u003eHost a",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.HostMonad",
           "name": "runHMonad_",
           "package": "tcp",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux HostMonad",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.HostMonad",
           "name": "runHMonad_",
           "normalized": "HMonad a b-\u003eHost a-\u003e(Host a,b)",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.Misc",
           "name": "Misc",
           "package": "tcp",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux Misc",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.Misc",
           "name": "Misc",
           "package": "tcp",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.Misc",
           "name": "accept_incoming_q0",
           "package": "tcp",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux Misc",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.Misc",
           "name": "accept_incoming_q0",
           "normalized": "SocketListen-\u003eBool",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.Misc",
           "name": "bound_ports",
           "package": "tcp",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux Misc",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.Misc",
           "name": "bound_ports",
           "normalized": "Map SocketID(TCPSocket a)-\u003e[Port]",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.Misc",
           "name": "calculate_bsd_rcv_wnd",
           "package": "tcp",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux Misc",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.Misc",
           "name": "calculate_bsd_rcv_wnd",
           "normalized": "TCPSocket a-\u003eInt",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.Misc",
           "name": "computed_rto",
           "package": "tcp",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux Misc",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.Misc",
           "name": "computed_rto",
           "normalized": "[Int]-\u003eInt-\u003eRttinf-\u003eTime",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.Misc",
           "name": "debug",
           "package": "tcp",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux Misc",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.Misc",
           "name": "debug",
           "normalized": "String-\u003ea b",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.Misc",
           "name": "do_tcp_options",
           "package": "tcp",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux Misc",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.Misc",
           "name": "do_tcp_options",
           "normalized": "Time-\u003eBool-\u003eTimeWindow Timestamp-\u003eTimestamp-\u003eMaybe(Timestamp,Timestamp)",
@@ -405,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.Misc",
           "name": "empty_sid",
           "package": "tcp",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux Misc",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.Misc",
           "name": "empty_sid",
           "package": "tcp",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.Misc",
           "name": "mode_of",
           "package": "tcp",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux Misc",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.Misc",
           "name": "mode_of",
           "normalized": "Maybe(Timed(RexmtMode,Int))-\u003eMaybe RexmtMode",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.Misc",
           "name": "next_smaller",
           "package": "tcp",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux Misc",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.Misc",
           "name": "next_smaller",
           "normalized": "[Int]-\u003eInt-\u003eInt",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.Misc",
           "name": "shift_of",
           "package": "tcp",
@@ -481,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux Misc",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.Misc",
           "name": "shift_of",
           "normalized": "Maybe(Timed(RexmtMode,Int))-\u003eInt",
@@ -495,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.Misc",
           "name": "tcp_reass",
           "package": "tcp",
@@ -504,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux Misc",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.Misc",
           "name": "tcp_reass",
           "normalized": "SeqForeign-\u003e[TCPReassSegment]-\u003e(BufferChain,SeqForeign,Bool,[TCPReassSegment])",
@@ -518,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.Misc",
           "name": "tcp_reass_prune",
           "package": "tcp",
@@ -527,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux Misc",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.Misc",
           "name": "tcp_reass_prune",
           "normalized": "SeqForeign-\u003e[TCPReassSegment]-\u003e[TCPReassSegment]",
@@ -541,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.Misc",
           "name": "update_rtt",
           "package": "tcp",
@@ -550,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux Misc",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.Misc",
           "name": "update_rtt",
           "normalized": "Time-\u003eRttinf-\u003eRttinf",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.Output",
           "name": "Output",
           "package": "tcp",
@@ -572,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux Output",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.Output",
           "name": "Output",
           "package": "tcp",
@@ -585,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.Output",
           "name": "alloc_local_port",
           "package": "tcp",
@@ -594,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux Output",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.Output",
           "name": "alloc_local_port",
           "package": "tcp",
@@ -606,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.Output",
           "name": "make_syn_segment",
           "package": "tcp",
@@ -615,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux Output",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.Output",
           "name": "make_syn_segment",
           "normalized": "Time-\u003eTCPSocket a-\u003eTimestamp-\u003eTCPSegment",
@@ -677,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.Param",
           "name": "Param",
           "package": "tcp",
@@ -685,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux Param",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.Param",
           "name": "Param",
           "package": "tcp",
@@ -698,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.Param",
           "name": "backlog_fudge",
           "package": "tcp",
@@ -707,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux Param",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.Param",
           "name": "backlog_fudge",
           "normalized": "Int-\u003eInt",
@@ -721,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.SockMonad",
           "name": "SockMonad",
           "package": "tcp",
@@ -729,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux SockMonad",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.SockMonad",
           "name": "SockMonad",
           "package": "tcp",
@@ -742,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.SockMonad",
           "name": "HState",
           "package": "tcp",
@@ -750,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux SockMonad",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.SockMonad",
           "name": "HState",
           "package": "tcp",
@@ -763,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.SockMonad",
           "name": "SMonad",
           "package": "tcp",
@@ -771,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux SockMonad",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.SockMonad",
           "name": "SMonad",
           "package": "tcp",
@@ -784,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.SockMonad",
           "name": "HState",
           "package": "tcp",
@@ -793,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux SockMonad",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.SockMonad",
           "name": "HState",
           "package": "tcp",
@@ -806,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.SockMonad",
           "name": "SMonad",
           "package": "tcp",
@@ -815,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux SockMonad",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.SockMonad",
           "name": "SMonad",
           "normalized": "SMonad(HState a-\u003e(b,HState a))",
@@ -830,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.SockMonad",
           "name": "bindSMonad",
           "package": "tcp",
@@ -839,6 +908,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux SockMonad",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.SockMonad",
           "name": "bindSMonad",
           "normalized": "SMonad a b-\u003e(b-\u003eSMonad a c)-\u003eSMonad a c",
@@ -854,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.SockMonad",
           "name": "get_host_",
           "package": "tcp",
@@ -863,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux SockMonad",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.SockMonad",
           "name": "get_host_",
           "package": "tcp",
@@ -875,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.SockMonad",
           "name": "hs_host",
           "package": "tcp",
@@ -884,6 +957,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux SockMonad",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.SockMonad",
           "name": "hs_host",
           "package": "tcp",
@@ -896,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.SockMonad",
           "name": "hs_sock",
           "package": "tcp",
@@ -905,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux SockMonad",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.SockMonad",
           "name": "hs_sock",
           "package": "tcp",
@@ -917,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Aux.SockMonad",
           "name": "runSMonad",
           "package": "tcp",
@@ -926,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Aux SockMonad",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Aux.SockMonad",
           "name": "runSMonad",
           "normalized": "SocketID-\u003eSMonad a b-\u003eHMonad a b",
@@ -941,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.LTS.In",
           "name": "In",
           "package": "tcp",
@@ -949,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Network TCP LTS In",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.LTS.In",
           "name": "In",
           "package": "tcp",
@@ -962,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.LTS.In",
           "name": "tcp_deliver_in_packet",
           "package": "tcp",
@@ -971,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "Network TCP LTS In",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.LTS.In",
           "name": "tcp_deliver_in_packet",
           "normalized": "TCPSegment-\u003eHMonad a()",
@@ -985,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.LTS.InActive",
           "name": "InActive",
           "package": "tcp",
@@ -993,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Network TCP LTS InActive",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.LTS.InActive",
           "name": "InActive",
           "package": "tcp",
@@ -1006,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.LTS.InData",
           "name": "InData",
           "package": "tcp",
@@ -1014,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Network TCP LTS InData",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.LTS.InData",
           "name": "InData",
           "package": "tcp",
@@ -1027,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.LTS.InMisc",
           "name": "InMisc",
           "package": "tcp",
@@ -1035,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Network TCP LTS InMisc",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.LTS.InMisc",
           "name": "InMisc",
           "package": "tcp",
@@ -1048,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.LTS.InPassive",
           "name": "InPassive",
           "package": "tcp",
@@ -1056,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Network TCP LTS InPassive",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.LTS.InPassive",
           "name": "InPassive",
           "package": "tcp",
@@ -1069,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.LTS.Out",
           "name": "Out",
           "package": "tcp",
@@ -1077,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Network TCP LTS Out",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.LTS.Out",
           "name": "Out",
           "package": "tcp",
@@ -1090,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.LTS.Out",
           "name": "tcp_output",
           "package": "tcp",
@@ -1099,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Network TCP LTS Out",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.LTS.Out",
           "name": "tcp_output",
           "normalized": "Bool-\u003eSMonad a()",
@@ -1113,6 +1207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.LTS.Out",
           "name": "tcp_output_all",
           "package": "tcp",
@@ -1122,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "Network TCP LTS Out",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.LTS.Out",
           "name": "tcp_output_all",
           "normalized": "SMonad a()",
@@ -1136,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.LTS.Time",
           "name": "Time",
           "package": "tcp",
@@ -1144,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Network TCP LTS Time",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.LTS.Time",
           "name": "Time",
           "package": "tcp",
@@ -1157,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.LTS.Time",
           "name": "tcp_update_timers",
           "package": "tcp",
@@ -1166,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Network TCP LTS Time",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.LTS.Time",
           "name": "tcp_update_timers",
           "normalized": "HMonad a()",
@@ -1180,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.LTS.User",
           "name": "User",
           "package": "tcp",
@@ -1188,6 +1289,7 @@
         },
         "index": {
           "hierarchy": "Network TCP LTS User",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.LTS.User",
           "name": "User",
           "package": "tcp",
@@ -1201,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.LTS.User",
           "name": "tcp_process_user_request",
           "package": "tcp",
@@ -1210,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "Network TCP LTS User",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.LTS.User",
           "name": "tcp_process_user_request",
           "normalized": "(SockReq,SockRsp-\u003ea)-\u003eHMonad a(Maybe a)",
@@ -1224,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.LTS.User",
           "name": "tcp_wakeup",
           "package": "tcp",
@@ -1233,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Network TCP LTS User",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.LTS.User",
           "name": "tcp_wakeup",
           "normalized": "SMonad a()",
@@ -1247,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Pure",
           "name": "Pure",
           "package": "tcp",
@@ -1255,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Pure",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Pure",
           "name": "Pure",
           "package": "tcp",
@@ -1268,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Pure",
           "name": "Host",
           "package": "tcp",
@@ -1276,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Pure",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Pure",
           "name": "Host",
           "package": "tcp",
@@ -1289,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Pure",
           "name": "IPMessage",
           "package": "tcp",
@@ -1297,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Pure",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Pure",
           "name": "IPMessage",
           "package": "tcp",
@@ -1310,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Pure",
           "name": "Time",
           "package": "tcp",
@@ -1318,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Pure",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Pure",
           "name": "Time",
           "package": "tcp",
@@ -1331,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Pure",
           "name": "tcp_init_host",
           "package": "tcp",
@@ -1340,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Pure",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Pure",
           "name": "tcp_init_host",
           "normalized": "Time-\u003e[Port]-\u003eHost a",
@@ -1354,6 +1470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Pure",
           "name": "tcp_packet_in",
           "package": "tcp",
@@ -1363,6 +1480,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Pure",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Pure",
           "name": "tcp_packet_in",
           "normalized": "IPMessage-\u003eHost a-\u003eHost a",
@@ -1377,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Pure",
           "name": "tcp_packet_out",
           "package": "tcp",
@@ -1386,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Pure",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Pure",
           "name": "tcp_packet_out",
           "normalized": "Host a-\u003e(Host a,[IPMessage])",
@@ -1400,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Pure",
           "name": "tcp_timer",
           "package": "tcp",
@@ -1409,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Pure",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Pure",
           "name": "tcp_timer",
           "normalized": "Time-\u003eHost a-\u003eHost a",
@@ -1423,6 +1545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Pure",
           "name": "tcp_timer_check",
           "package": "tcp",
@@ -1432,6 +1555,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Pure",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Pure",
           "name": "tcp_timer_check",
           "normalized": "Time-\u003eHost a-\u003eIO(Host a)",
@@ -1446,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Pure",
           "name": "tcp_user_req",
           "package": "tcp",
@@ -1455,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Pure",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Pure",
           "name": "tcp_user_req",
           "normalized": "(SockReq,SockRsp-\u003ea)-\u003eHost a-\u003e(Host a,Maybe a)",
@@ -1469,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Pure",
           "name": "tcp_user_rsp",
           "package": "tcp",
@@ -1478,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Pure",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Pure",
           "name": "tcp_user_rsp",
           "normalized": "Host a-\u003e(Host a,[a])",
@@ -1492,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "Base",
           "package": "tcp",
@@ -1500,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "Base",
           "package": "tcp",
@@ -1513,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "Buffer",
           "package": "tcp",
@@ -1521,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "Buffer",
           "package": "tcp",
@@ -1534,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "BufferChain",
           "package": "tcp",
@@ -1542,6 +1675,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "BufferChain",
           "package": "tcp",
@@ -1555,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "IPAddr",
           "package": "tcp",
@@ -1563,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "IPAddr",
           "package": "tcp",
@@ -1576,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "Port",
           "package": "tcp",
@@ -1584,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "Port",
           "package": "tcp",
@@ -1597,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "Seq32",
           "package": "tcp",
@@ -1605,6 +1744,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "Seq32",
           "package": "tcp",
@@ -1618,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "SeqForeign",
           "package": "tcp",
@@ -1626,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "SeqForeign",
           "package": "tcp",
@@ -1639,6 +1781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "SeqLocal",
           "package": "tcp",
@@ -1647,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "SeqLocal",
           "package": "tcp",
@@ -1660,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "SocketID",
           "package": "tcp",
@@ -1668,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "SocketID",
           "package": "tcp",
@@ -1681,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "TCPAddr",
           "package": "tcp",
@@ -1689,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "TCPAddr",
           "package": "tcp",
@@ -1702,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "Time",
           "package": "tcp",
@@ -1710,6 +1859,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "Time",
           "package": "tcp",
@@ -1723,6 +1873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "Timestamp",
           "package": "tcp",
@@ -1731,6 +1882,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "Timestamp",
           "package": "tcp",
@@ -1767,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "BufferChain",
           "package": "tcp",
@@ -1776,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "BufferChain",
           "package": "tcp",
@@ -1789,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "IPAddr",
           "package": "tcp",
@@ -1798,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "IPAddr",
           "package": "tcp",
@@ -1811,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "SeqForeign",
           "package": "tcp",
@@ -1820,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "SeqForeign",
           "package": "tcp",
@@ -1833,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "SeqLocal",
           "package": "tcp",
@@ -1842,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "SeqLocal",
           "package": "tcp",
@@ -1855,6 +2015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "SocketID",
           "package": "tcp",
@@ -1864,6 +2025,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "SocketID",
           "normalized": "SocketID(Port,TCPAddr)",
@@ -1879,6 +2041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "TCPAddr",
           "package": "tcp",
@@ -1888,6 +2051,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "TCPAddr",
           "normalized": "TCPAddr(IPAddr,Port)",
@@ -1903,6 +2067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "Timestamp",
           "package": "tcp",
@@ -1912,6 +2077,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "Timestamp",
           "package": "tcp",
@@ -2013,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "bufc_length",
           "package": "tcp",
@@ -2022,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "bufc_length",
           "package": "tcp",
@@ -2034,6 +2202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "bufc_list",
           "package": "tcp",
@@ -2043,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "bufc_list",
           "normalized": "[Buffer]",
@@ -2057,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "buffer_empty",
           "package": "tcp",
@@ -2066,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "buffer_empty",
           "package": "tcp",
@@ -2078,6 +2250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "buffer_merge",
           "package": "tcp",
@@ -2087,6 +2260,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "buffer_merge",
           "normalized": "Buffer-\u003eBuffer-\u003e[Buffer]",
@@ -2101,6 +2275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "buffer_ok",
           "package": "tcp",
@@ -2110,6 +2285,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "buffer_ok",
           "normalized": "Buffer-\u003eBool",
@@ -2124,6 +2300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "buffer_split",
           "package": "tcp",
@@ -2133,6 +2310,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "buffer_split",
           "normalized": "Int-\u003eBuffer-\u003e(Buffer,Buffer)",
@@ -2147,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "buffer_to_string",
           "package": "tcp",
@@ -2156,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "buffer_to_string",
           "normalized": "Buffer-\u003eIO String",
@@ -2170,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "bufferchain_collapse",
           "package": "tcp",
@@ -2179,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "bufferchain_collapse",
           "normalized": "BufferChain-\u003eIO Buffer",
@@ -2193,6 +2375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "bufferchain_drop",
           "package": "tcp",
@@ -2202,6 +2385,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "bufferchain_drop",
           "normalized": "Int-\u003eBufferChain-\u003eBufferChain",
@@ -2216,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "bufferchain_head",
           "package": "tcp",
@@ -2225,6 +2410,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "bufferchain_head",
           "normalized": "BufferChain-\u003eBuffer",
@@ -2239,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "bufferchain_ok",
           "package": "tcp",
@@ -2248,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "bufferchain_ok",
           "normalized": "BufferChain-\u003eBool",
@@ -2262,6 +2450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "bufferchain_split_at",
           "package": "tcp",
@@ -2271,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "bufferchain_split_at",
           "normalized": "Int-\u003eBufferChain-\u003e(BufferChain,BufferChain)",
@@ -2285,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "bufferchain_tail",
           "package": "tcp",
@@ -2294,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "bufferchain_tail",
           "normalized": "BufferChain-\u003eBufferChain",
@@ -2308,6 +2500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "bufferchain_take",
           "package": "tcp",
@@ -2317,6 +2510,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "bufferchain_take",
           "normalized": "Int-\u003eBufferChain-\u003eBufferChain",
@@ -2331,6 +2525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "get_ip",
           "package": "tcp",
@@ -2340,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "get_ip",
           "normalized": "TCPAddr-\u003eIPAddr",
@@ -2354,6 +2550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "get_local_port",
           "package": "tcp",
@@ -2363,6 +2560,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "get_local_port",
           "normalized": "SocketID-\u003ePort",
@@ -2377,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "get_port",
           "package": "tcp",
@@ -2386,6 +2585,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "get_port",
           "normalized": "TCPAddr-\u003ePort",
@@ -2400,6 +2600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "get_remote_addr",
           "package": "tcp",
@@ -2409,6 +2610,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "get_remote_addr",
           "normalized": "SocketID-\u003eTCPAddr",
@@ -2423,6 +2625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "new_buffer",
           "package": "tcp",
@@ -2432,6 +2635,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "new_buffer",
           "normalized": "Int-\u003eIO Buffer",
@@ -2446,6 +2650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "seconds_to_time",
           "package": "tcp",
@@ -2455,6 +2660,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "seconds_to_time",
           "normalized": "Float-\u003eTime",
@@ -2469,6 +2675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "seq_diff",
           "package": "tcp",
@@ -2478,6 +2685,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "seq_diff",
           "normalized": "a-\u003ea-\u003eb",
@@ -2492,6 +2700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "seq_geq",
           "package": "tcp",
@@ -2501,6 +2710,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "seq_geq",
           "normalized": "a-\u003ea-\u003eBool",
@@ -2515,6 +2725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "seq_gt",
           "package": "tcp",
@@ -2524,6 +2735,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "seq_gt",
           "normalized": "a-\u003ea-\u003eBool",
@@ -2538,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "seq_leq",
           "package": "tcp",
@@ -2547,6 +2760,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "seq_leq",
           "normalized": "a-\u003ea-\u003eBool",
@@ -2561,6 +2775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "seq_lt",
           "package": "tcp",
@@ -2570,6 +2785,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "seq_lt",
           "normalized": "a-\u003ea-\u003eBool",
@@ -2584,6 +2800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "seq_minus",
           "package": "tcp",
@@ -2593,6 +2810,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "seq_minus",
           "normalized": "a-\u003eb-\u003ea",
@@ -2607,6 +2825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "seq_plus",
           "package": "tcp",
@@ -2616,6 +2835,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "seq_plus",
           "normalized": "a-\u003eb-\u003ea",
@@ -2630,6 +2850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "seq_val",
           "package": "tcp",
@@ -2639,6 +2860,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "seq_val",
           "normalized": "a-\u003eWord",
@@ -2653,6 +2875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Base",
           "name": "string_to_buffer",
           "package": "tcp",
@@ -2662,6 +2885,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Base",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Base",
           "name": "string_to_buffer",
           "normalized": "String-\u003eIO Buffer",
@@ -2676,6 +2900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "Datagram",
           "package": "tcp",
@@ -2684,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "Datagram",
           "package": "tcp",
@@ -2697,6 +2923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "ICMPDatagram",
           "package": "tcp",
@@ -2705,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "ICMPDatagram",
           "package": "tcp",
@@ -2718,6 +2946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "ICMPType",
           "package": "tcp",
@@ -2726,6 +2955,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "ICMPType",
           "package": "tcp",
@@ -2739,6 +2969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "IPMessage",
           "package": "tcp",
@@ -2747,6 +2978,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "IPMessage",
           "package": "tcp",
@@ -2760,6 +2992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "Protocol",
           "package": "tcp",
@@ -2768,6 +3001,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "Protocol",
           "package": "tcp",
@@ -2781,6 +3015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "TCPSegment",
           "package": "tcp",
@@ -2789,6 +3024,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "TCPSegment",
           "package": "tcp",
@@ -2802,6 +3038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "UDPDatagram",
           "package": "tcp",
@@ -2810,6 +3047,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "UDPDatagram",
           "package": "tcp",
@@ -2823,6 +3061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "ICMPDatagram",
           "package": "tcp",
@@ -2832,6 +3071,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "ICMPDatagram",
           "package": "tcp",
@@ -2845,6 +3085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "ICMPMessage",
           "package": "tcp",
@@ -2854,6 +3095,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "ICMPMessage",
           "package": "tcp",
@@ -2867,6 +3109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "ICMP_PARAMPROB",
           "package": "tcp",
@@ -2876,6 +3119,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "ICMP_PARAMPROB",
           "package": "tcp",
@@ -2889,6 +3133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "ICMP_REDIRECT",
           "package": "tcp",
@@ -2898,6 +3143,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "ICMP_REDIRECT",
           "package": "tcp",
@@ -2911,6 +3157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "ICMP_SOURCE_QUENCE",
           "package": "tcp",
@@ -2920,6 +3167,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "ICMP_SOURCE_QUENCE",
           "package": "tcp",
@@ -2933,6 +3181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "ICMP_TIME_EXCEEDED",
           "package": "tcp",
@@ -2942,6 +3191,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "ICMP_TIME_EXCEEDED",
           "package": "tcp",
@@ -2955,6 +3205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "ICMP_UNREACH",
           "package": "tcp",
@@ -2964,6 +3215,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "ICMP_UNREACH",
           "package": "tcp",
@@ -2977,6 +3229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "PROTO_TCP",
           "package": "tcp",
@@ -2986,6 +3239,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "PROTO_TCP",
           "package": "tcp",
@@ -2999,6 +3253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "PROTO_UDP",
           "package": "tcp",
@@ -3008,6 +3263,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "PROTO_UDP",
           "package": "tcp",
@@ -3021,6 +3277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "TCPMessage",
           "package": "tcp",
@@ -3030,6 +3287,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "TCPMessage",
           "package": "tcp",
@@ -3043,6 +3301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "TCPSegment",
           "package": "tcp",
@@ -3052,6 +3311,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "TCPSegment",
           "package": "tcp",
@@ -3065,6 +3325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "UDPDatagram",
           "package": "tcp",
@@ -3074,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "UDPDatagram",
           "package": "tcp",
@@ -3087,6 +3349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "UDPMessage",
           "package": "tcp",
@@ -3096,6 +3359,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "UDPMessage",
           "package": "tcp",
@@ -3109,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "icmp_dst",
           "package": "tcp",
@@ -3118,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "icmp_dst",
           "package": "tcp",
@@ -3130,6 +3396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "icmp_proto",
           "package": "tcp",
@@ -3139,6 +3406,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "icmp_proto",
           "package": "tcp",
@@ -3151,6 +3419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "icmp_recv",
           "package": "tcp",
@@ -3160,6 +3429,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "icmp_recv",
           "package": "tcp",
@@ -3172,6 +3442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "icmp_send",
           "package": "tcp",
@@ -3181,6 +3452,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "icmp_send",
           "package": "tcp",
@@ -3193,6 +3465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "icmp_seq",
           "package": "tcp",
@@ -3202,6 +3475,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "icmp_seq",
           "package": "tcp",
@@ -3214,6 +3488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "icmp_src",
           "package": "tcp",
@@ -3223,6 +3498,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "icmp_src",
           "package": "tcp",
@@ -3235,6 +3511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "icmp_t",
           "package": "tcp",
@@ -3244,6 +3521,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "icmp_t",
           "package": "tcp",
@@ -3256,6 +3534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_ACK",
           "package": "tcp",
@@ -3265,6 +3544,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_ACK",
           "package": "tcp",
@@ -3278,6 +3558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_FIN",
           "package": "tcp",
@@ -3287,6 +3568,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_FIN",
           "package": "tcp",
@@ -3300,6 +3582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_PSH",
           "package": "tcp",
@@ -3309,6 +3592,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_PSH",
           "package": "tcp",
@@ -3322,6 +3606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_RST",
           "package": "tcp",
@@ -3331,6 +3616,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_RST",
           "package": "tcp",
@@ -3344,6 +3630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_SYN",
           "package": "tcp",
@@ -3353,6 +3640,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_SYN",
           "package": "tcp",
@@ -3366,6 +3654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_URG",
           "package": "tcp",
@@ -3375,6 +3664,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_URG",
           "package": "tcp",
@@ -3388,6 +3678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_ack",
           "package": "tcp",
@@ -3397,6 +3688,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_ack",
           "package": "tcp",
@@ -3409,6 +3701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_data",
           "package": "tcp",
@@ -3418,6 +3711,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_data",
           "package": "tcp",
@@ -3430,6 +3724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_dst",
           "package": "tcp",
@@ -3439,6 +3734,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_dst",
           "package": "tcp",
@@ -3451,6 +3747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_mss",
           "package": "tcp",
@@ -3460,6 +3757,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_mss",
           "package": "tcp",
@@ -3472,6 +3770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_seq",
           "package": "tcp",
@@ -3481,6 +3780,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_seq",
           "package": "tcp",
@@ -3493,6 +3793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_src",
           "package": "tcp",
@@ -3502,6 +3803,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_src",
           "package": "tcp",
@@ -3514,6 +3816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_ts",
           "package": "tcp",
@@ -3523,6 +3826,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_ts",
           "normalized": "(Maybe(Timestamp,Timestamp))",
@@ -3537,6 +3841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_urp",
           "package": "tcp",
@@ -3546,6 +3851,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_urp",
           "package": "tcp",
@@ -3558,6 +3864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_win",
           "package": "tcp",
@@ -3567,6 +3874,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_win",
           "package": "tcp",
@@ -3579,6 +3887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_ws",
           "package": "tcp",
@@ -3588,6 +3897,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "tcp_ws",
           "package": "tcp",
@@ -3600,6 +3910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "udp_data",
           "package": "tcp",
@@ -3609,6 +3920,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "udp_data",
           "normalized": "[Char]",
@@ -3623,6 +3935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "udp_dst",
           "package": "tcp",
@@ -3632,6 +3945,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "udp_dst",
           "package": "tcp",
@@ -3644,6 +3958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Datagram",
           "name": "udp_src",
           "package": "tcp",
@@ -3653,6 +3968,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Datagram",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Datagram",
           "name": "udp_src",
           "package": "tcp",
@@ -3665,6 +3981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "Socket",
           "package": "tcp",
@@ -3673,6 +3990,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "Socket",
           "package": "tcp",
@@ -3686,6 +4004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "Host",
           "package": "tcp",
@@ -3694,6 +4013,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "Host",
           "package": "tcp",
@@ -3707,6 +4027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "IOBC",
           "package": "tcp",
@@ -3715,6 +4036,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "IOBC",
           "package": "tcp",
@@ -3728,6 +4050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "RexmtMode",
           "package": "tcp",
@@ -3736,6 +4059,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "RexmtMode",
           "package": "tcp",
@@ -3749,6 +4073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "Rttinf",
           "package": "tcp",
@@ -3757,6 +4082,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "Rttinf",
           "package": "tcp",
@@ -3770,6 +4096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "SocketListen",
           "package": "tcp",
@@ -3778,6 +4105,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "SocketListen",
           "package": "tcp",
@@ -3791,6 +4119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "TCBMisc",
           "package": "tcp",
@@ -3799,6 +4128,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "TCBMisc",
           "package": "tcp",
@@ -3812,6 +4142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "TCBReceiving",
           "package": "tcp",
@@ -3820,6 +4151,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "TCBReceiving",
           "package": "tcp",
@@ -3833,6 +4165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "TCBSending",
           "package": "tcp",
@@ -3841,6 +4174,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "TCBSending",
           "package": "tcp",
@@ -3854,6 +4188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "TCBTiming",
           "package": "tcp",
@@ -3862,6 +4197,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "TCBTiming",
           "package": "tcp",
@@ -3875,6 +4211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "TCPReassSegment",
           "package": "tcp",
@@ -3883,6 +4220,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "TCPReassSegment",
           "package": "tcp",
@@ -3896,6 +4234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "TCPSocket",
           "package": "tcp",
@@ -3904,6 +4243,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "TCPSocket",
           "package": "tcp",
@@ -3917,6 +4257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "TCPState",
           "package": "tcp",
@@ -3925,6 +4266,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "TCPState",
           "package": "tcp",
@@ -3938,6 +4280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "CLOSED",
           "package": "tcp",
@@ -3947,6 +4290,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "CLOSED",
           "package": "tcp",
@@ -3960,6 +4304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "CLOSE_WAIT",
           "package": "tcp",
@@ -3969,6 +4314,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "CLOSE_WAIT",
           "package": "tcp",
@@ -3982,6 +4328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "CLOSING",
           "package": "tcp",
@@ -3991,6 +4338,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "CLOSING",
           "package": "tcp",
@@ -4004,6 +4352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "ESTABLISHED",
           "package": "tcp",
@@ -4013,6 +4362,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "ESTABLISHED",
           "package": "tcp",
@@ -4026,6 +4376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "FIN_WAIT_1",
           "package": "tcp",
@@ -4035,6 +4386,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "FIN_WAIT_1",
           "package": "tcp",
@@ -4048,6 +4400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "FIN_WAIT_2",
           "package": "tcp",
@@ -4057,6 +4410,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "FIN_WAIT_2",
           "package": "tcp",
@@ -4070,6 +4424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "HAD_OOBDATA",
           "package": "tcp",
@@ -4079,6 +4434,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "HAD_OOBDATA",
           "package": "tcp",
@@ -4092,6 +4448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "Host",
           "package": "tcp",
@@ -4101,6 +4458,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "Host",
           "package": "tcp",
@@ -4114,6 +4472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "LAST_ACK",
           "package": "tcp",
@@ -4123,6 +4482,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "LAST_ACK",
           "package": "tcp",
@@ -4136,6 +4496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "LISTEN",
           "package": "tcp",
@@ -4145,6 +4506,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "LISTEN",
           "package": "tcp",
@@ -4158,6 +4520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "NO_OOBDATA",
           "package": "tcp",
@@ -4167,6 +4530,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "NO_OOBDATA",
           "package": "tcp",
@@ -4180,6 +4544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "OOBDATA",
           "package": "tcp",
@@ -4189,6 +4554,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "OOBDATA",
           "package": "tcp",
@@ -4202,6 +4568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "Persist",
           "package": "tcp",
@@ -4211,6 +4578,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "Persist",
           "package": "tcp",
@@ -4224,6 +4592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "Rexmt",
           "package": "tcp",
@@ -4233,6 +4602,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "Rexmt",
           "package": "tcp",
@@ -4246,6 +4616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "RexmtSyn",
           "package": "tcp",
@@ -4255,6 +4626,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "RexmtSyn",
           "package": "tcp",
@@ -4268,6 +4640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "Rttinf",
           "package": "tcp",
@@ -4277,6 +4650,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "Rttinf",
           "package": "tcp",
@@ -4290,6 +4664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "SYN_RECEIVED",
           "package": "tcp",
@@ -4299,6 +4674,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "SYN_RECEIVED",
           "package": "tcp",
@@ -4312,6 +4688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "SYN_SENT",
           "package": "tcp",
@@ -4321,6 +4698,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "SYN_SENT",
           "package": "tcp",
@@ -4334,6 +4712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "SocketListen",
           "package": "tcp",
@@ -4343,6 +4722,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "SocketListen",
           "package": "tcp",
@@ -4356,6 +4736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "TCBMisc",
           "package": "tcp",
@@ -4365,6 +4746,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "TCBMisc",
           "package": "tcp",
@@ -4378,6 +4760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "TCBReceiving",
           "package": "tcp",
@@ -4387,6 +4770,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "TCBReceiving",
           "package": "tcp",
@@ -4400,6 +4784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "TCBSending",
           "package": "tcp",
@@ -4409,6 +4794,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "TCBSending",
           "package": "tcp",
@@ -4422,6 +4808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "TCBTiming",
           "package": "tcp",
@@ -4431,6 +4818,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "TCBTiming",
           "package": "tcp",
@@ -4444,6 +4832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "TCPReassSegment",
           "package": "tcp",
@@ -4453,6 +4842,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "TCPReassSegment",
           "package": "tcp",
@@ -4466,6 +4856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "TCPSocket",
           "package": "tcp",
@@ -4475,6 +4866,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "TCPSocket",
           "package": "tcp",
@@ -4488,6 +4880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "TIME_WAIT",
           "package": "tcp",
@@ -4497,6 +4890,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "TIME_WAIT",
           "package": "tcp",
@@ -4510,6 +4904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "bsd_cantconnect",
           "package": "tcp",
@@ -4519,6 +4914,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "bsd_cantconnect",
           "package": "tcp",
@@ -4531,6 +4927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "cantrcvmore",
           "package": "tcp",
@@ -4540,6 +4937,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "cantrcvmore",
           "package": "tcp",
@@ -4552,6 +4950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "cantsndmore",
           "package": "tcp",
@@ -4561,6 +4960,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "cantsndmore",
           "package": "tcp",
@@ -4573,6 +4973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "cb",
           "package": "tcp",
@@ -4582,6 +4983,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "cb",
           "package": "tcp",
@@ -4594,6 +4996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "cb_rcv",
           "package": "tcp",
@@ -4603,6 +5006,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "cb_rcv",
           "package": "tcp",
@@ -4615,6 +5019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "cb_snd",
           "package": "tcp",
@@ -4624,6 +5029,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "cb_snd",
           "package": "tcp",
@@ -4636,6 +5042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "cb_time",
           "package": "tcp",
@@ -4645,6 +5052,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "cb_time",
           "package": "tcp",
@@ -4657,6 +5065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "clock",
           "package": "tcp",
@@ -4666,6 +5075,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "clock",
           "package": "tcp",
@@ -4678,6 +5088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "iobc",
           "package": "tcp",
@@ -4687,6 +5098,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "iobc",
           "package": "tcp",
@@ -4699,6 +5111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "irs",
           "package": "tcp",
@@ -4708,6 +5121,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "irs",
           "package": "tcp",
@@ -4720,6 +5134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "iss",
           "package": "tcp",
@@ -4729,6 +5144,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "iss",
           "package": "tcp",
@@ -4741,6 +5157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "last_ack_sent",
           "package": "tcp",
@@ -4750,6 +5167,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "last_ack_sent",
           "package": "tcp",
@@ -4762,6 +5180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "lis_q",
           "package": "tcp",
@@ -4771,6 +5190,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "lis_q",
           "normalized": "[SocketID]",
@@ -4785,6 +5205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "lis_q0",
           "package": "tcp",
@@ -4794,6 +5215,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "lis_q0",
           "normalized": "[SocketID]",
@@ -4808,6 +5230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "lis_qlimit",
           "package": "tcp",
@@ -4817,6 +5240,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "lis_qlimit",
           "package": "tcp",
@@ -4829,6 +5253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "local_addr",
           "package": "tcp",
@@ -4838,6 +5263,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "local_addr",
           "package": "tcp",
@@ -4850,6 +5276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "local_ports",
           "package": "tcp",
@@ -4859,6 +5286,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "local_ports",
           "normalized": "[Port]",
@@ -4873,6 +5301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "next_timers",
           "package": "tcp",
@@ -4882,6 +5311,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "next_timers",
           "normalized": "(Time,Time)",
@@ -4896,6 +5326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "output_queue",
           "package": "tcp",
@@ -4905,6 +5336,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "output_queue",
           "normalized": "[IPMessage]",
@@ -4919,6 +5351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "parent_id",
           "package": "tcp",
@@ -4928,6 +5361,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "parent_id",
           "package": "tcp",
@@ -4940,6 +5374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "rcv_adv",
           "package": "tcp",
@@ -4949,6 +5384,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "rcv_adv",
           "package": "tcp",
@@ -4961,6 +5397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "rcv_nxt",
           "package": "tcp",
@@ -4970,6 +5407,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "rcv_nxt",
           "package": "tcp",
@@ -4982,6 +5420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "rcv_scale",
           "package": "tcp",
@@ -4991,6 +5430,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "rcv_scale",
           "package": "tcp",
@@ -5003,6 +5443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "rcv_up",
           "package": "tcp",
@@ -5012,6 +5453,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "rcv_up",
           "package": "tcp",
@@ -5024,6 +5466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "rcv_wnd",
           "package": "tcp",
@@ -5033,6 +5476,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "rcv_wnd",
           "package": "tcp",
@@ -5045,6 +5489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "rcvq",
           "package": "tcp",
@@ -5054,6 +5499,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "rcvq",
           "package": "tcp",
@@ -5066,6 +5512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "rcvurp",
           "package": "tcp",
@@ -5075,6 +5522,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "rcvurp",
           "package": "tcp",
@@ -5087,6 +5535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "ready_list",
           "package": "tcp",
@@ -5096,6 +5545,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "ready_list",
           "normalized": "[a]",
@@ -5110,6 +5560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "remote_addr",
           "package": "tcp",
@@ -5119,6 +5570,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "remote_addr",
           "package": "tcp",
@@ -5131,6 +5583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "request_r_scale",
           "package": "tcp",
@@ -5140,6 +5593,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "request_r_scale",
           "package": "tcp",
@@ -5152,6 +5606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "self_id",
           "package": "tcp",
@@ -5161,6 +5616,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "self_id",
           "package": "tcp",
@@ -5173,6 +5629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_cwnd",
           "package": "tcp",
@@ -5182,6 +5639,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_cwnd",
           "package": "tcp",
@@ -5194,6 +5652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_cwnd_prev",
           "package": "tcp",
@@ -5203,6 +5662,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_cwnd_prev",
           "package": "tcp",
@@ -5215,6 +5675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_max",
           "package": "tcp",
@@ -5224,6 +5685,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_max",
           "package": "tcp",
@@ -5236,6 +5698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_nxt",
           "package": "tcp",
@@ -5245,6 +5708,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_nxt",
           "package": "tcp",
@@ -5257,6 +5721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_recover",
           "package": "tcp",
@@ -5266,6 +5731,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_recover",
           "package": "tcp",
@@ -5278,6 +5744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_scale",
           "package": "tcp",
@@ -5287,6 +5754,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_scale",
           "package": "tcp",
@@ -5299,6 +5767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_ssthresh",
           "package": "tcp",
@@ -5308,6 +5777,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_ssthresh",
           "package": "tcp",
@@ -5320,6 +5790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_ssthresh_prev",
           "package": "tcp",
@@ -5329,6 +5800,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_ssthresh_prev",
           "package": "tcp",
@@ -5341,6 +5813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_una",
           "package": "tcp",
@@ -5350,6 +5823,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_una",
           "package": "tcp",
@@ -5362,6 +5836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_wl1",
           "package": "tcp",
@@ -5371,6 +5846,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_wl1",
           "package": "tcp",
@@ -5383,6 +5859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_wl2",
           "package": "tcp",
@@ -5392,6 +5869,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_wl2",
           "package": "tcp",
@@ -5404,6 +5882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_wnd",
           "package": "tcp",
@@ -5413,6 +5892,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "snd_wnd",
           "package": "tcp",
@@ -5425,6 +5905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "sndq",
           "package": "tcp",
@@ -5434,6 +5915,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "sndq",
           "package": "tcp",
@@ -5446,6 +5928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "sndurp",
           "package": "tcp",
@@ -5455,6 +5938,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "sndurp",
           "package": "tcp",
@@ -5467,6 +5951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "sock_listen",
           "package": "tcp",
@@ -5476,6 +5961,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "sock_listen",
           "package": "tcp",
@@ -5488,6 +5974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "sock_map",
           "package": "tcp",
@@ -5497,6 +5984,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "sock_map",
           "package": "tcp",
@@ -5509,6 +5997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "st",
           "package": "tcp",
@@ -5518,6 +6007,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "st",
           "package": "tcp",
@@ -5530,6 +6020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "t_advmss",
           "package": "tcp",
@@ -5539,6 +6030,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "t_advmss",
           "package": "tcp",
@@ -5551,6 +6043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "t_badrxtwin",
           "package": "tcp",
@@ -5560,6 +6053,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "t_badrxtwin",
           "normalized": "(TimeWindow())",
@@ -5574,6 +6068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "t_dupacks",
           "package": "tcp",
@@ -5583,6 +6078,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "t_dupacks",
           "package": "tcp",
@@ -5595,6 +6091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "t_idletime",
           "package": "tcp",
@@ -5604,6 +6101,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "t_idletime",
           "package": "tcp",
@@ -5616,6 +6114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "t_lastrtt",
           "package": "tcp",
@@ -5625,6 +6124,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "t_lastrtt",
           "package": "tcp",
@@ -5637,6 +6137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "t_lastshift",
           "package": "tcp",
@@ -5646,6 +6147,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "t_lastshift",
           "package": "tcp",
@@ -5658,6 +6160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "t_maxseg",
           "package": "tcp",
@@ -5667,6 +6170,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "t_maxseg",
           "package": "tcp",
@@ -5679,6 +6183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "t_rttinf",
           "package": "tcp",
@@ -5688,6 +6193,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "t_rttinf",
           "package": "tcp",
@@ -5700,6 +6206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "t_rttmin",
           "package": "tcp",
@@ -5709,6 +6216,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "t_rttmin",
           "package": "tcp",
@@ -5721,6 +6229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "t_rttseg",
           "package": "tcp",
@@ -5730,6 +6239,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "t_rttseg",
           "normalized": "(Maybe(Timestamp,SeqLocal))",
@@ -5744,6 +6254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "t_rttupdated",
           "package": "tcp",
@@ -5753,6 +6264,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "t_rttupdated",
           "package": "tcp",
@@ -5765,6 +6277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "t_rttvar",
           "package": "tcp",
@@ -5774,6 +6287,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "t_rttvar",
           "package": "tcp",
@@ -5786,6 +6300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "t_segq",
           "package": "tcp",
@@ -5795,6 +6310,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "t_segq",
           "normalized": "[TCPReassSegment]",
@@ -5809,6 +6325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "t_srtt",
           "package": "tcp",
@@ -5818,6 +6335,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "t_srtt",
           "package": "tcp",
@@ -5830,6 +6348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "t_wassyn",
           "package": "tcp",
@@ -5839,6 +6358,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "t_wassyn",
           "package": "tcp",
@@ -5851,6 +6371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "tf_doing_tstmp",
           "package": "tcp",
@@ -5860,6 +6381,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "tf_doing_tstmp",
           "package": "tcp",
@@ -5872,6 +6394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "tf_doing_ws",
           "package": "tcp",
@@ -5881,6 +6404,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "tf_doing_ws",
           "package": "tcp",
@@ -5893,6 +6417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "tf_needfin",
           "package": "tcp",
@@ -5902,6 +6427,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "tf_needfin",
           "package": "tcp",
@@ -5914,6 +6440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "tf_req_tstmp",
           "package": "tcp",
@@ -5923,6 +6450,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "tf_req_tstmp",
           "package": "tcp",
@@ -5935,6 +6463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "tf_rxwin0sent",
           "package": "tcp",
@@ -5944,6 +6473,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "tf_rxwin0sent",
           "package": "tcp",
@@ -5956,6 +6486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "tf_shouldacknow",
           "package": "tcp",
@@ -5965,6 +6496,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "tf_shouldacknow",
           "package": "tcp",
@@ -5977,6 +6509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "tf_srtt_valid",
           "package": "tcp",
@@ -5986,6 +6519,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "tf_srtt_valid",
           "package": "tcp",
@@ -5998,6 +6532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "ticks",
           "package": "tcp",
@@ -6007,6 +6542,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "ticks",
           "package": "tcp",
@@ -6019,6 +6555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "trs_FIN",
           "package": "tcp",
@@ -6028,6 +6565,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "trs_FIN",
           "package": "tcp",
@@ -6041,6 +6579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "trs_data",
           "package": "tcp",
@@ -6050,6 +6589,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "trs_data",
           "package": "tcp",
@@ -6062,6 +6602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "trs_seq",
           "package": "tcp",
@@ -6071,6 +6612,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "trs_seq",
           "package": "tcp",
@@ -6083,6 +6625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "ts_recent",
           "package": "tcp",
@@ -6092,6 +6635,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "ts_recent",
           "package": "tcp",
@@ -6104,6 +6648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "tt_2msl",
           "package": "tcp",
@@ -6113,6 +6658,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "tt_2msl",
           "package": "tcp",
@@ -6125,6 +6671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "tt_conn_est",
           "package": "tcp",
@@ -6134,6 +6681,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "tt_conn_est",
           "package": "tcp",
@@ -6146,6 +6694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "tt_delack",
           "package": "tcp",
@@ -6155,6 +6704,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "tt_delack",
           "package": "tcp",
@@ -6167,6 +6717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "tt_fin_wait_2",
           "package": "tcp",
@@ -6176,6 +6727,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "tt_fin_wait_2",
           "package": "tcp",
@@ -6188,6 +6740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "tt_keep",
           "package": "tcp",
@@ -6197,6 +6750,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "tt_keep",
           "package": "tcp",
@@ -6209,6 +6763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "tt_rexmt",
           "package": "tcp",
@@ -6218,6 +6773,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "tt_rexmt",
           "normalized": "(Maybe(Timed(RexmtMode,Int)))",
@@ -6232,6 +6788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Socket",
           "name": "waiting_list",
           "package": "tcp",
@@ -6241,6 +6798,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Socket",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Socket",
           "name": "waiting_list",
           "normalized": "[(SockReq,SockRsp-\u003ea)]",
@@ -6255,6 +6813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Syscall",
           "name": "Syscall",
           "package": "tcp",
@@ -6263,6 +6822,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Syscall",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Syscall",
           "name": "Syscall",
           "package": "tcp",
@@ -6276,6 +6836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Syscall",
           "name": "Buffer",
           "package": "tcp",
@@ -6284,6 +6845,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Syscall",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Syscall",
           "name": "Buffer",
           "package": "tcp",
@@ -6297,6 +6859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockReq",
           "package": "tcp",
@@ -6305,6 +6868,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Syscall",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockReq",
           "package": "tcp",
@@ -6318,6 +6882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockRsp",
           "package": "tcp",
@@ -6326,6 +6891,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Syscall",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockRsp",
           "package": "tcp",
@@ -6339,6 +6905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Syscall",
           "name": "SocketID",
           "package": "tcp",
@@ -6347,6 +6914,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Syscall",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Syscall",
           "name": "SocketID",
           "package": "tcp",
@@ -6360,6 +6928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Syscall",
           "name": "TCPAddr",
           "package": "tcp",
@@ -6368,6 +6937,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Syscall",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Syscall",
           "name": "TCPAddr",
           "package": "tcp",
@@ -6381,6 +6951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockAccept",
           "package": "tcp",
@@ -6390,6 +6961,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Syscall",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockAccept",
           "package": "tcp",
@@ -6403,6 +6975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockClose",
           "package": "tcp",
@@ -6412,6 +6985,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Syscall",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockClose",
           "package": "tcp",
@@ -6425,6 +6999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockConnect",
           "package": "tcp",
@@ -6434,6 +7009,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Syscall",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockConnect",
           "package": "tcp",
@@ -6447,6 +7023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockData",
           "package": "tcp",
@@ -6456,6 +7033,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Syscall",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockData",
           "package": "tcp",
@@ -6469,6 +7047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockError",
           "package": "tcp",
@@ -6478,6 +7057,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Syscall",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockError",
           "package": "tcp",
@@ -6491,6 +7071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockListen",
           "package": "tcp",
@@ -6500,6 +7081,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Syscall",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockListen",
           "package": "tcp",
@@ -6513,6 +7095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockNew",
           "package": "tcp",
@@ -6522,6 +7105,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Syscall",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockNew",
           "package": "tcp",
@@ -6535,6 +7119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockOK",
           "package": "tcp",
@@ -6544,6 +7129,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Syscall",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockOK",
           "package": "tcp",
@@ -6557,6 +7143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockRecv",
           "package": "tcp",
@@ -6566,6 +7153,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Syscall",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockRecv",
           "package": "tcp",
@@ -6579,6 +7167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockSend",
           "package": "tcp",
@@ -6588,6 +7177,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Syscall",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Syscall",
           "name": "SockSend",
           "package": "tcp",
@@ -6601,6 +7191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Timer",
           "name": "Timer",
           "package": "tcp",
@@ -6609,6 +7200,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Timer",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Timer",
           "name": "Timer",
           "package": "tcp",
@@ -6622,6 +7214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Timer",
           "name": "TimeWindow",
           "package": "tcp",
@@ -6630,6 +7223,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Timer",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Timer",
           "name": "TimeWindow",
           "package": "tcp",
@@ -6643,6 +7237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Timer",
           "name": "Timed",
           "package": "tcp",
@@ -6651,6 +7246,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Timer",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Timer",
           "name": "Timed",
           "package": "tcp",
@@ -6664,6 +7260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Timer",
           "name": "Timed",
           "package": "tcp",
@@ -6673,6 +7270,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Timer",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Timer",
           "name": "Timed",
           "package": "tcp",
@@ -6686,6 +7284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Timer",
           "name": "maybe_timed_expires",
           "package": "tcp",
@@ -6695,6 +7294,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Timer",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Timer",
           "name": "maybe_timed_expires",
           "normalized": "Time-\u003eMaybe(Timed a)-\u003eBool",
@@ -6709,6 +7309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Timer",
           "name": "maybe_timer_expires",
           "package": "tcp",
@@ -6718,6 +7319,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Timer",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Timer",
           "name": "maybe_timer_expires",
           "normalized": "Time-\u003eMaybe Time-\u003eBool",
@@ -6732,6 +7334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Timer",
           "name": "timed_exp",
           "package": "tcp",
@@ -6741,6 +7344,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Timer",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Timer",
           "name": "timed_exp",
           "package": "tcp",
@@ -6753,6 +7357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Timer",
           "name": "timed_expires",
           "package": "tcp",
@@ -6762,6 +7367,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Timer",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Timer",
           "name": "timed_expires",
           "normalized": "Time-\u003eTimed a-\u003eBool",
@@ -6776,6 +7382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Timer",
           "name": "timed_val",
           "package": "tcp",
@@ -6785,6 +7392,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Timer",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Timer",
           "name": "timed_val",
           "package": "tcp",
@@ -6797,6 +7405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Timer",
           "name": "timer_expires",
           "package": "tcp",
@@ -6806,6 +7415,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Timer",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Timer",
           "name": "timer_expires",
           "normalized": "Time-\u003eTime-\u003eBool",
@@ -6820,6 +7430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Timer",
           "name": "timewindow_open",
           "package": "tcp",
@@ -6829,6 +7440,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Timer",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Timer",
           "name": "timewindow_open",
           "normalized": "Time-\u003eTimeWindow a-\u003eBool",
@@ -6843,6 +7455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:58 UTC 2014",
           "module": "Network.TCP.Type.Timer",
           "name": "timewindow_val",
           "package": "tcp",
@@ -6852,6 +7465,7 @@
         },
         "index": {
           "hierarchy": "Network TCP Type Timer",
+          "indexed": "2014-03-11T20:17:58",
           "module": "Network.TCP.Type.Timer",
           "name": "timewindow_val",
           "normalized": "Time-\u003eTimeWindow a-\u003eMaybe a",

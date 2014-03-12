@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hmatrix-syntax"
+        "phrase": "hmatrix-syntax",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal parsers. Most users should not need to use this module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:07 UTC 2014",
           "module": "Data.Packed.Syntax.Internal",
           "name": "Internal",
           "package": "hmatrix-syntax",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Internal parsers Most users should not need to use this module",
           "hierarchy": "Data Packed Syntax Internal",
+          "indexed": "2014-03-11T18:42:07",
           "module": "Data.Packed.Syntax.Internal",
           "name": "Internal",
           "package": "hmatrix-syntax",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for list expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:07 UTC 2014",
           "module": "Data.Packed.Syntax.Internal",
           "name": "listExp",
           "package": "hmatrix-syntax",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Parser for list expressions",
           "hierarchy": "Data Packed Syntax Internal",
+          "indexed": "2014-03-11T18:42:07",
           "module": "Data.Packed.Syntax.Internal",
           "name": "listExp",
           "normalized": "String-\u003eEither String[Exp]",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for list patterns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:07 UTC 2014",
           "module": "Data.Packed.Syntax.Internal",
           "name": "listPat",
           "package": "hmatrix-syntax",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Parser for list patterns",
           "hierarchy": "Data Packed Syntax Internal",
+          "indexed": "2014-03-11T18:42:07",
           "module": "Data.Packed.Syntax.Internal",
           "name": "listPat",
           "normalized": "String-\u003eEither String[Pat]",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for matrix expressions. Returns (outer length, inner length, matrix)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:07 UTC 2014",
           "module": "Data.Packed.Syntax.Internal",
           "name": "matListExp",
           "package": "hmatrix-syntax",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Parser for matrix expressions Returns outer length inner length matrix",
           "hierarchy": "Data Packed Syntax Internal",
+          "indexed": "2014-03-11T18:42:07",
           "module": "Data.Packed.Syntax.Internal",
           "name": "matListExp",
           "normalized": "String-\u003eEither String(Int,Int,[[Exp]])",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for matrix patterns. Returns (outer length, inner length, matrix)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:07 UTC 2014",
           "module": "Data.Packed.Syntax.Internal",
           "name": "matListPat",
           "package": "hmatrix-syntax",
@@ -130,6 +139,7 @@
         "index": {
           "description": "Parser for matrix patterns Returns outer length inner length matrix",
           "hierarchy": "Data Packed Syntax Internal",
+          "indexed": "2014-03-11T18:42:07",
           "module": "Data.Packed.Syntax.Internal",
           "name": "matListPat",
           "normalized": "String-\u003eEither String(Int,Int,[[Pat]])",
@@ -146,6 +156,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe main import. Modules using these quasiquoters need the following language pragma:\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE QuasiQuotes, ViewPatterns #-}\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:07 UTC 2014",
           "module": "Data.Packed.Syntax",
           "name": "Syntax",
           "package": "hmatrix-syntax",
@@ -155,6 +166,7 @@
         "index": {
           "description": "The main import Modules using these quasiquoters need the following language pragma LANGUAGE QuasiQuotes ViewPatterns",
           "hierarchy": "Data Packed Syntax",
+          "indexed": "2014-03-11T18:42:07",
           "module": "Data.Packed.Syntax",
           "name": "Syntax",
           "package": "hmatrix-syntax",
@@ -169,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuasiquoter for matrices. For example, use as an expression:\n\u003c/p\u003e\u003cpre\u003e buildMat x y = [mat| x,     y;\n                      x + y, sin y |]\n\u003c/pre\u003e\u003cp\u003eor use as a pattern:\n\u003c/p\u003e\u003cpre\u003e adjugateMat2 [mat| a, b; c, d |] = [mat| d, -b; -c, a |]\n\u003c/pre\u003e\u003cp\u003eIf row sizes don't match, this will be caught at compile time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:07 UTC 2014",
           "module": "Data.Packed.Syntax",
           "name": "mat",
           "package": "hmatrix-syntax",
@@ -179,6 +192,7 @@
         "index": {
           "description": "Quasiquoter for matrices For example use as an expression buildMat mat sin or use as pattern adjugateMat2 mat mat If row sizes don match this will be caught at compile time",
           "hierarchy": "Data Packed Syntax",
+          "indexed": "2014-03-11T18:42:07",
           "module": "Data.Packed.Syntax",
           "name": "mat",
           "package": "hmatrix-syntax",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuasiquoter for vectors. For example, use as an expression:\n\u003c/p\u003e\u003cpre\u003e buildVec x = [vec| x, sin x |]\n\u003c/pre\u003e\u003cp\u003eor use as a pattern:\n\u003c/p\u003e\u003cpre\u003e swap [vec| x, y |] = [vec| y, x |]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:07 UTC 2014",
           "module": "Data.Packed.Syntax",
           "name": "vec",
           "package": "hmatrix-syntax",
@@ -202,6 +217,7 @@
         "index": {
           "description": "Quasiquoter for vectors For example use as an expression buildVec vec sin or use as pattern swap vec vec",
           "hierarchy": "Data Packed Syntax",
+          "indexed": "2014-03-11T18:42:07",
           "module": "Data.Packed.Syntax",
           "name": "vec",
           "package": "hmatrix-syntax",

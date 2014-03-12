@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hspear"
+        "phrase": "hspear",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVariants for handling \u003ccode\u003eGZIP\u003c/code\u003e compressed data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF.GZ",
           "name": "GZ",
           "package": "hspear",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Variants for handling GZIP compressed data",
           "hierarchy": "Sound Analysis Spear PTPF GZ",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF.GZ",
           "name": "GZ",
           "package": "hspear",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply \u003cem\u003ef\u003c/em\u003e at \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e, else \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF.GZ",
           "name": "at_right",
           "package": "hspear",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Apply at Right else id",
           "hierarchy": "Sound Analysis Spear PTPF GZ",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF.GZ",
           "name": "at_right",
           "normalized": "(a-\u003eb)-\u003eEither c a-\u003eEither c b",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad compressed spear data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF.GZ",
           "name": "load_ptpf_gz",
           "package": "hspear",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Load compressed spear data",
           "hierarchy": "Sound Analysis Spear PTPF GZ",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF.GZ",
           "name": "load_ptpf_gz",
           "normalized": "FilePath-\u003eIO(Either String PTPF)",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eload_ptpf_gz\u003c/a\u003e\u003c/code\u003e transforming with \u003ccode\u003e\u003ca\u003eptpf_time_asc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF.GZ",
           "name": "load_ptpf_gz_time_asc",
           "package": "hspear",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Variant of load ptpf gz transforming with ptpf time asc",
           "hierarchy": "Sound Analysis Spear PTPF GZ",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF.GZ",
           "name": "load_ptpf_gz_time_asc",
           "normalized": "FilePath-\u003eIO(Either String[(N_Time,[Node])])",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eparse_ptpf\u003c/a\u003e\u003c/code\u003e running \u003ccode\u003e\u003ca\u003edecompress\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF.GZ",
           "name": "parse_ptpf_gz",
           "package": "hspear",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Variant of parse ptpf running decompress",
           "hierarchy": "Sound Analysis Spear PTPF GZ",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF.GZ",
           "name": "parse_ptpf_gz",
           "normalized": "ByteString-\u003eEither String PTPF",
@@ -141,6 +151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF.Reduce",
           "name": "Reduce",
           "package": "hspear",
@@ -149,6 +160,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF Reduce",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF.Reduce",
           "name": "Reduce",
           "package": "hspear",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if (n1,n2,n3) can be reduced to (n1,n3).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF.Reduce",
           "name": "N_Reduction_F",
           "package": "hspear",
@@ -172,6 +185,7 @@
         "index": {
           "description": "True if n1 n2 n3 can be reduced to n1 n3",
           "hierarchy": "Sound Analysis Spear PTPF Reduce",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF.Reduce",
           "name": "N_Reduction_F",
           "package": "hspear",
@@ -185,6 +199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF.Reduce",
           "name": "ampDb",
           "package": "hspear",
@@ -194,6 +209,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF Reduce",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF.Reduce",
           "name": "ampDb",
           "normalized": "a-\u003ea",
@@ -209,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF.Reduce",
           "name": "cps_to_fmidi",
           "package": "hspear",
@@ -218,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF Reduce",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF.Reduce",
           "name": "cps_to_fmidi",
           "normalized": "a-\u003ea",
@@ -233,6 +251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrequency (FMIDI) and amplitude (DB) gradient from \u003cem\u003en1\u003c/em\u003e to \u003cem\u003en2\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF.Reduce",
           "name": "n_gradient",
           "package": "hspear",
@@ -243,6 +262,7 @@
         "index": {
           "description": "Frequency FMIDI and amplitude DB gradient from n1 to n2",
           "hierarchy": "Sound Analysis Spear PTPF Reduce",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF.Reduce",
           "name": "n_gradient",
           "normalized": "Node-\u003eNode-\u003e(N_Data,N_Data)",
@@ -257,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF.Reduce",
           "name": "n_reduction",
           "package": "hspear",
@@ -266,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF Reduce",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF.Reduce",
           "name": "n_reduction",
           "normalized": "N_Reduction_F-\u003e[Node]-\u003e[Node]",
@@ -280,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF.Reduce",
           "name": "p_reduction_gradient",
           "package": "hspear",
@@ -289,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF Reduce",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF.Reduce",
           "name": "p_reduction_gradient",
           "normalized": "(N_Data,N_Data)-\u003ePTPF-\u003ePTPF",
@@ -303,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF.Reduce",
           "name": "s_reduction",
           "package": "hspear",
@@ -312,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF Reduce",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF.Reduce",
           "name": "s_reduction",
           "normalized": "N_Reduction_F-\u003eSeq-\u003eSeq",
@@ -326,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF.Reduce",
           "name": "s_reduction_gradient",
           "package": "hspear",
@@ -335,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF Reduce",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF.Reduce",
           "name": "s_reduction_gradient",
           "normalized": "(N_Data,N_Data)-\u003eSeq-\u003eSeq",
@@ -350,6 +378,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e variant of parser.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF.String",
           "name": "String",
           "package": "hspear",
@@ -359,6 +388,7 @@
         "index": {
           "description": "String variant of parser",
           "hierarchy": "Sound Analysis Spear PTPF String",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF.String",
           "name": "String",
           "package": "hspear",
@@ -373,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse \u003ccode\u003e\u003ca\u003ePTPF\u003c/a\u003e\u003c/code\u003e at \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF.String",
           "name": "parse_ptpf",
           "package": "hspear",
@@ -383,6 +414,7 @@
         "index": {
           "description": "Parse PTPF at String",
           "hierarchy": "Sound Analysis Spear PTPF String",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF.String",
           "name": "parse_ptpf",
           "normalized": "String-\u003eEither String PTPF",
@@ -398,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse header section, result is number of partials.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF.String",
           "name": "ptpf_header",
           "package": "hspear",
@@ -408,6 +441,7 @@
         "index": {
           "description": "Parse header section result is number of partials",
           "hierarchy": "Sound Analysis Spear PTPF String",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF.String",
           "name": "ptpf_header",
           "normalized": "[String]-\u003eMaybe Int",
@@ -423,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF.String",
           "name": "ptpf_node",
           "package": "hspear",
@@ -433,6 +468,7 @@
         "index": {
           "description": "Parse Node",
           "hierarchy": "Sound Analysis Spear PTPF String",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF.String",
           "name": "ptpf_node",
           "normalized": "Int-\u003e(String,String,String)-\u003eNode",
@@ -448,6 +484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse \u003ccode\u003e\u003ca\u003eSeq\u003c/a\u003e\u003c/code\u003e from pair of input lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF.String",
           "name": "ptpf_seq",
           "package": "hspear",
@@ -458,6 +495,7 @@
         "index": {
           "description": "Parse Seq from pair of input lines",
           "hierarchy": "Sound Analysis Spear PTPF String",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF.String",
           "name": "ptpf_seq",
           "normalized": "(String,String)-\u003eSeq",
@@ -473,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eSpear\u003c/em\u003e \u003ccode\u003ePTPF\u003c/code\u003e (par-text-partials-format) files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "PTPF",
           "package": "hspear",
@@ -482,6 +521,7 @@
         "index": {
           "description": "Spear PTPF par-text-partials-format files",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "PTPF",
           "package": "hspear",
@@ -495,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "N_Data",
           "package": "hspear",
@@ -503,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "N_Data",
           "package": "hspear",
@@ -516,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "N_Time",
           "package": "hspear",
@@ -524,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "N_Time",
           "package": "hspear",
@@ -538,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecord to hold data for single node of a partial track.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "Node",
           "package": "hspear",
@@ -547,6 +592,7 @@
         "index": {
           "description": "Record to hold data for single node of partial track",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "Node",
           "package": "hspear",
@@ -561,6 +607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003ePTPF\u003c/a\u003e\u003c/code\u003e is a set of \u003ccode\u003e\u003ca\u003eSeq\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "PTPF",
           "package": "hspear",
@@ -570,6 +617,7 @@
         "index": {
           "description": "PTPF is set of Seq",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "PTPF",
           "package": "hspear",
@@ -583,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "STR",
           "package": "hspear",
@@ -591,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "STR",
           "package": "hspear",
@@ -605,6 +655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sequence of partial \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "Seq",
           "package": "hspear",
@@ -614,6 +665,7 @@
         "index": {
           "description": "sequence of partial Node data",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "Seq",
           "package": "hspear",
@@ -627,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "Node",
           "package": "hspear",
@@ -636,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "Node",
           "package": "hspear",
@@ -649,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "PTPF",
           "package": "hspear",
@@ -658,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "PTPF",
           "package": "hspear",
@@ -671,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "Seq",
           "package": "hspear",
@@ -680,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "Seq",
           "package": "hspear",
@@ -694,6 +752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply \u003cem\u003ef\u003c/em\u003e at last element.\n\u003c/p\u003e\u003cpre\u003e at_last negate [1..3] == [1,2,-3]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "at_last",
           "package": "hspear",
@@ -704,6 +763,7 @@
         "index": {
           "description": "Apply at last element at last negate",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "at_last",
           "normalized": "(a-\u003ea)-\u003e[a]-\u003e[a]",
@@ -719,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdjacent duples.\n\u003c/p\u003e\u003cpre\u003e duples [1..6] == [(1,2),(3,4),(5,6)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "duples",
           "package": "hspear",
@@ -729,6 +790,7 @@
         "index": {
           "description": "Adjacent duples duples",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "duples",
           "normalized": "[a]-\u003e[(a,a)]",
@@ -744,6 +806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumerically stable mean\n\u003c/p\u003e\u003cpre\u003e map mean [[1..5],[3,5,7],[7,7],[3,9,10,11,12]] == [3,5,7,9]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "mean",
           "package": "hspear",
@@ -754,6 +817,7 @@
         "index": {
           "description": "Numerically stable mean map mean",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "mean",
           "normalized": "[a]-\u003ea",
@@ -769,6 +833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eminimum\u003c/a\u003e\u003c/code\u003e & \u003ccode\u003e\u003ca\u003emaximum\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e minmax [0..5] == (0,5)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "minmax",
           "package": "hspear",
@@ -779,6 +844,7 @@
         "index": {
           "description": "minimum maximum minmax",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "minmax",
           "normalized": "[a]-\u003e(a,a)",
@@ -793,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "n_amplitude",
           "package": "hspear",
@@ -802,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "n_amplitude",
           "package": "hspear",
@@ -814,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "n_frequency",
           "package": "hspear",
@@ -823,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "n_frequency",
           "package": "hspear",
@@ -836,6 +906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartial identifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "n_partial_id",
           "package": "hspear",
@@ -846,6 +917,7 @@
         "index": {
           "description": "Partial identifier",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "n_partial_id",
           "package": "hspear",
@@ -859,6 +931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet \u003ccode\u003e\u003ca\u003en_partial_id\u003c/a\u003e\u003c/code\u003e at \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "n_set_partial_id",
           "package": "hspear",
@@ -869,6 +942,7 @@
         "index": {
           "description": "Set partial id at Node",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "n_set_partial_id",
           "normalized": "Int-\u003eNode-\u003eNode",
@@ -884,6 +958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply transform \u003cem\u003ef\u003c/em\u003e at \u003ccode\u003e\u003ca\u003en_time\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "n_temporal_f",
           "package": "hspear",
@@ -894,6 +969,7 @@
         "index": {
           "description": "Apply transform at time",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "n_temporal_f",
           "normalized": "(N_Time-\u003eN_Time)-\u003eNode-\u003eNode",
@@ -908,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "n_time",
           "package": "hspear",
@@ -917,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "n_time",
           "package": "hspear",
@@ -930,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet \u003ccode\u003e\u003ca\u003en_amplitude\u003c/a\u003e\u003c/code\u003e at \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "n_zero_amplitude",
           "package": "hspear",
@@ -940,6 +1019,7 @@
         "index": {
           "description": "Set amplitude at Node to",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "n_zero_amplitude",
           "normalized": "Node-\u003eNode",
@@ -955,6 +1035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emaximum\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003es_end_time\u003c/a\u003e\u003c/code\u003e at \u003ccode\u003e\u003ca\u003ep_seq\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "p_end_time",
           "package": "hspear",
@@ -965,6 +1046,7 @@
         "index": {
           "description": "maximum end time at seq",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "p_end_time",
           "normalized": "PTPF-\u003eN_Time",
@@ -979,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "p_filter",
           "package": "hspear",
@@ -988,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "p_filter",
           "normalized": "(Seq-\u003eBool)-\u003ePTPF-\u003ePTPF",
@@ -1003,6 +1087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate \u003ccode\u003e\u003ca\u003ePTPF\u003c/a\u003e\u003c/code\u003e from set of \u003ccode\u003e\u003ca\u003eSeq\u003c/a\u003e\u003c/code\u003e.  Re-assigns partial identifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "p_from_seq",
           "package": "hspear",
@@ -1013,6 +1098,7 @@
         "index": {
           "description": "Generate PTPF from set of Seq Re-assigns partial identifiers",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "p_from_seq",
           "normalized": "[Seq]-\u003ePTPF",
@@ -1027,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "p_map",
           "package": "hspear",
@@ -1036,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "p_map",
           "normalized": "(Seq-\u003eSeq)-\u003ePTPF-\u003ePTPF",
@@ -1050,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "p_node_map",
           "package": "hspear",
@@ -1059,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "p_node_map",
           "normalized": "(Node-\u003eNode)-\u003ePTPF-\u003ePTPF",
@@ -1074,6 +1164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esum\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003es_nodes\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003ep_seq\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "p_nodes",
           "package": "hspear",
@@ -1084,6 +1175,7 @@
         "index": {
           "description": "sum of nodes of seq",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "p_nodes",
           "normalized": "PTPF-\u003eInt",
@@ -1098,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "p_partials",
           "package": "hspear",
@@ -1107,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "p_partials",
           "package": "hspear",
@@ -1119,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "p_seq",
           "package": "hspear",
@@ -1128,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "p_seq",
           "normalized": "[Seq]",
@@ -1143,6 +1239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eminimum\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003es_start_time\u003c/a\u003e\u003c/code\u003e at \u003ccode\u003e\u003ca\u003ep_seq\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "p_start_time",
           "package": "hspear",
@@ -1153,6 +1250,7 @@
         "index": {
           "description": "minimum start time at seq",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "p_start_time",
           "normalized": "PTPF-\u003eN_Time",
@@ -1167,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "p_temporal_f",
           "package": "hspear",
@@ -1176,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "p_temporal_f",
           "normalized": "(N_Time-\u003eN_Time)-\u003ePTPF-\u003ePTPF",
@@ -1191,6 +1291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse \u003ccode\u003e\u003ca\u003ePTPF\u003c/a\u003e\u003c/code\u003e at \u003ccode\u003e\u003ca\u003eSTR\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "parse_ptpf",
           "package": "hspear",
@@ -1201,6 +1302,7 @@
         "index": {
           "description": "Parse PTPF at STR",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "parse_ptpf",
           "normalized": "STR-\u003eEither String PTPF",
@@ -1216,6 +1318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse header section, result is number of partials.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "ptpf_header",
           "package": "hspear",
@@ -1226,6 +1329,7 @@
         "index": {
           "description": "Parse header section result is number of partials",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "ptpf_header",
           "normalized": "[STR]-\u003eMaybe Int",
@@ -1241,6 +1345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "ptpf_node",
           "package": "hspear",
@@ -1251,6 +1356,7 @@
         "index": {
           "description": "Parse Node",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "ptpf_node",
           "normalized": "Int-\u003e(STR,STR,STR)-\u003eNode",
@@ -1266,6 +1372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse \u003ccode\u003e\u003ca\u003eSeq\u003c/a\u003e\u003c/code\u003e from pair of input lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "ptpf_seq",
           "package": "hspear",
@@ -1276,6 +1383,7 @@
         "index": {
           "description": "Parse Seq from pair of input lines",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "ptpf_seq",
           "normalized": "(STR,STR)-\u003eSeq",
@@ -1291,6 +1399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003es grouped into sets with equal start times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "ptpf_time_asc",
           "package": "hspear",
@@ -1301,6 +1410,7 @@
         "index": {
           "description": "All Node grouped into sets with equal start times",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "ptpf_time_asc",
           "normalized": "PTPF-\u003e[(N_Time,[Node])]",
@@ -1315,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_data",
           "package": "hspear",
@@ -1324,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_data",
           "normalized": "[Node]",
@@ -1339,6 +1451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003es_end_time\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003es_start_time\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_duration",
           "package": "hspear",
@@ -1349,6 +1462,7 @@
         "index": {
           "description": "end time start time",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_duration",
           "normalized": "Seq-\u003eN_Time",
@@ -1364,6 +1478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emaximum\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003en_time\u003c/a\u003e\u003c/code\u003e at \u003ccode\u003e\u003ca\u003es_data\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_end_time",
           "package": "hspear",
@@ -1374,6 +1489,7 @@
         "index": {
           "description": "maximum time at data",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_end_time",
           "package": "hspear",
@@ -1387,6 +1503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e==\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eon\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003es_identifier\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_eq_identifier",
           "package": "hspear",
@@ -1397,6 +1514,7 @@
         "index": {
           "description": "on identifier",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_eq_identifier",
           "normalized": "Seq-\u003eSeq-\u003eBool",
@@ -1412,6 +1530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e==\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003en_partial_id\u003c/a\u003e\u003c/code\u003e at \u003ccode\u003e\u003ca\u003es_data\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_identifier",
           "package": "hspear",
@@ -1422,6 +1541,7 @@
         "index": {
           "description": "to partial id at data",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_identifier",
           "package": "hspear",
@@ -1435,6 +1555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply \u003cem\u003ef\u003c/em\u003e at \u003ccode\u003e\u003ca\u003es_data\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eSeq\u003c/a\u003e\u003c/code\u003e and re-calculate temporal bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_map",
           "package": "hspear",
@@ -1445,6 +1566,7 @@
         "index": {
           "description": "Apply at data of Seq and re-calculate temporal bounds",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_map",
           "normalized": "(Node-\u003eNode)-\u003eSeq-\u003eSeq",
@@ -1460,6 +1582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emaximum\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003en_amplitude\u003c/a\u003e\u003c/code\u003e at \u003ccode\u003e\u003ca\u003es_data\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_max_amplitude",
           "package": "hspear",
@@ -1470,6 +1593,7 @@
         "index": {
           "description": "maximum amplitude at data",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_max_amplitude",
           "normalized": "Seq-\u003eN_Data",
@@ -1485,6 +1609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emean\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003en_amplitude\u003c/a\u003e\u003c/code\u003e at \u003ccode\u003e\u003ca\u003es_data\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_mean_amplitude",
           "package": "hspear",
@@ -1495,6 +1620,7 @@
         "index": {
           "description": "mean amplitude at data",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_mean_amplitude",
           "normalized": "Seq-\u003eN_Data",
@@ -1510,6 +1636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emean\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003en_frequency\u003c/a\u003e\u003c/code\u003e at \u003ccode\u003e\u003ca\u003es_data\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_mean_frequency",
           "package": "hspear",
@@ -1520,6 +1647,7 @@
         "index": {
           "description": "mean frequency at data",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_mean_frequency",
           "normalized": "Seq-\u003eN_Data",
@@ -1535,6 +1663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eminimum\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003en_amplitude\u003c/a\u003e\u003c/code\u003e at \u003ccode\u003e\u003ca\u003es_data\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_min_amplitude",
           "package": "hspear",
@@ -1545,6 +1674,7 @@
         "index": {
           "description": "minimum amplitude at data",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_min_amplitude",
           "normalized": "Seq-\u003eN_Data",
@@ -1560,6 +1690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e==\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003es_data\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_nodes",
           "package": "hspear",
@@ -1570,6 +1701,7 @@
         "index": {
           "description": "to length data",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_nodes",
           "package": "hspear",
@@ -1583,6 +1715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet \u003ccode\u003e\u003ca\u003es_identifier\u003c/a\u003e\u003c/code\u003e and associated \u003ccode\u003e\u003ca\u003en_partial_id\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_set_identifier",
           "package": "hspear",
@@ -1593,6 +1726,7 @@
         "index": {
           "description": "Set identifier and associated partial id",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_set_identifier",
           "normalized": "Int-\u003eSeq-\u003eSeq",
@@ -1608,6 +1742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eminimum\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003en_time\u003c/a\u003e\u003c/code\u003e at \u003ccode\u003e\u003ca\u003es_data\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_start_time",
           "package": "hspear",
@@ -1618,6 +1753,7 @@
         "index": {
           "description": "minimum time at data",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_start_time",
           "package": "hspear",
@@ -1630,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_summarise",
           "package": "hspear",
@@ -1639,6 +1776,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_summarise",
           "normalized": "([a]-\u003eb)-\u003e(Node-\u003ea)-\u003eSeq-\u003eb",
@@ -1654,6 +1792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply transform \u003cem\u003ef\u003c/em\u003e at \u003ccode\u003e\u003ca\u003en_time\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_temporal_f",
           "package": "hspear",
@@ -1664,6 +1803,7 @@
         "index": {
           "description": "Apply transform at time",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_temporal_f",
           "normalized": "(N_Time-\u003eN_Time)-\u003eSeq-\u003eSeq",
@@ -1679,6 +1819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eunionBy\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003es_eq_identifier\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_union",
           "package": "hspear",
@@ -1689,6 +1830,7 @@
         "index": {
           "description": "unionBy eq identifier",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "s_union",
           "normalized": "[Seq]-\u003e[Seq]-\u003e[Seq]",
@@ -1703,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "str_double",
           "package": "hspear",
@@ -1712,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "str_double",
           "normalized": "ByteString-\u003ea",
@@ -1726,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "str_int",
           "package": "hspear",
@@ -1735,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "str_int",
           "normalized": "ByteString-\u003eInt",
@@ -1749,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "str_lines",
           "package": "hspear",
@@ -1758,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "str_lines",
           "normalized": "ByteString-\u003e[ByteString]",
@@ -1772,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "str_words",
           "package": "hspear",
@@ -1781,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "str_words",
           "normalized": "ByteString-\u003e[ByteString]",
@@ -1796,6 +1946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdjacent triples.\n\u003c/p\u003e\u003cpre\u003e triples [1..6] == [(1,2,3),(4,5,6)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:49:40 UTC 2014",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "triples",
           "package": "hspear",
@@ -1806,6 +1957,7 @@
         "index": {
           "description": "Adjacent triples triples",
           "hierarchy": "Sound Analysis Spear PTPF",
+          "indexed": "2014-03-11T18:49:40",
           "module": "Sound.Analysis.Spear.PTPF",
           "name": "triples",
           "normalized": "[a]-\u003e[(a,a,a)]",

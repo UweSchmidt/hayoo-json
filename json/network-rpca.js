@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-rpca"
+        "phrase": "network-rpca",
+        "type": "phrase"
       },
       "type": "context"
     }

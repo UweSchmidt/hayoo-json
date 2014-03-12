@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "subtitleParser"
+        "phrase": "subtitleParser",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eADT for .srt files. Also serves as a place to  provide instance\n declarations for the ADTs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "Datatypes",
           "package": "subtitleParser",
@@ -28,6 +29,7 @@
         "index": {
           "description": "ADT for srt files Also serves as place to provide instance declarations for the ADTs",
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "Datatypes",
           "package": "subtitleParser",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe core of the parser. each one of the constructor representing one part\n of the Line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "Line",
           "package": "subtitleParser",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The core of the parser each one of the constructor representing one part of the Line",
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "Line",
           "package": "subtitleParser",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "Range",
           "package": "subtitleParser",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "Range",
           "package": "subtitleParser",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis represent the position on screen of the Line. Is usually optional in\n the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "Rectangle",
           "package": "subtitleParser",
@@ -95,6 +102,7 @@
         "index": {
           "description": "This represent the position on screen of the Line Is usually optional in the file",
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "Rectangle",
           "package": "subtitleParser",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA subtitle is just a List of independent Lines that appear on screen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "Subtitles",
           "package": "subtitleParser",
@@ -118,6 +127,7 @@
         "index": {
           "description": "subtitle is just List of independent Lines that appear on screen",
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "Subtitles",
           "package": "subtitleParser",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "Time",
           "package": "subtitleParser",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "Time",
           "package": "subtitleParser",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "Line",
           "package": "subtitleParser",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "Line",
           "package": "subtitleParser",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "R",
           "package": "subtitleParser",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "R",
           "package": "subtitleParser",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "Range",
           "package": "subtitleParser",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "Range",
           "package": "subtitleParser",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "Time",
           "package": "subtitleParser",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "Time",
           "package": "subtitleParser",
@@ -240,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhat to show in screen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "dialog",
           "package": "subtitleParser",
@@ -250,6 +271,7 @@
         "index": {
           "description": "what to show in screen",
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "dialog",
           "package": "subtitleParser",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "frame",
           "package": "subtitleParser",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "frame",
           "package": "subtitleParser",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "from",
           "package": "subtitleParser",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "from",
           "package": "subtitleParser",
@@ -305,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSometimes text shouldn't be on the lower center.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "geometry",
           "package": "subtitleParser",
@@ -315,6 +342,7 @@
         "index": {
           "description": "Sometimes text shouldn be on the lower center",
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "geometry",
           "package": "subtitleParser",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "hour",
           "package": "subtitleParser",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "hour",
           "package": "subtitleParser",
@@ -349,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe absolute order of this line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "index",
           "package": "subtitleParser",
@@ -359,6 +390,7 @@
         "index": {
           "description": "The absolute order of this line",
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "index",
           "package": "subtitleParser",
@@ -371,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "minutes",
           "package": "subtitleParser",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "minutes",
           "package": "subtitleParser",
@@ -393,6 +427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe interval of time that the line is shown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "range",
           "package": "subtitleParser",
@@ -403,6 +438,7 @@
         "index": {
           "description": "The interval of time that the line is shown",
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "range",
           "package": "subtitleParser",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "seconds",
           "package": "subtitleParser",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "seconds",
           "package": "subtitleParser",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "to",
           "package": "subtitleParser",
@@ -445,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "to",
           "package": "subtitleParser",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "x1",
           "package": "subtitleParser",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "x1",
           "package": "subtitleParser",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "x2",
           "package": "subtitleParser",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "x2",
           "package": "subtitleParser",
@@ -499,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "y1",
           "package": "subtitleParser",
@@ -508,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "y1",
           "package": "subtitleParser",
@@ -520,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "y2",
           "package": "subtitleParser",
@@ -529,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SRT Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT.Datatypes",
           "name": "y2",
           "package": "subtitleParser",
@@ -542,6 +590,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA basic parser for .srt files (subtitles) based on \u003ccode\u003eAttoparsec\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT",
           "name": "SRT",
           "package": "subtitleParser",
@@ -551,6 +600,7 @@
         "index": {
           "description": "basic parser for srt files subtitles based on Attoparsec and Text",
           "hierarchy": "Text Subtitles SRT",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT",
           "name": "SRT",
           "package": "subtitleParser",
@@ -565,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: AttoParsec's parseOnly was broken before v0.10.2.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT",
           "name": "parseOnly'",
           "package": "subtitleParser",
@@ -575,6 +626,7 @@
         "index": {
           "description": "Deprecated AttoParsec parseOnly was broken before v0.10.2.1",
           "hierarchy": "Text Subtitles SRT",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT",
           "name": "parseOnly'",
           "normalized": "Parser a-\u003eText-\u003eEither String a",
@@ -591,6 +643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMain Parser, gives you a list of all the Lines of the subtitle. It fails if\n  the subtitle doesn't have any Lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT",
           "name": "parseSRT",
           "package": "subtitleParser",
@@ -601,6 +654,7 @@
         "index": {
           "description": "Main Parser gives you list of all the Lines of the subtitle It fails if the subtitle doesn have any Lines",
           "hierarchy": "Text Subtitles SRT",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT",
           "name": "parseSRT",
           "package": "subtitleParser",
@@ -615,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe individual Line parser. Given the upper example return the\n corresponding Line representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SRT",
           "name": "parseSingleLine",
           "package": "subtitleParser",
@@ -625,6 +680,7 @@
         "index": {
           "description": "The individual Line parser Given the upper example return the corresponding Line representation",
           "hierarchy": "Text Subtitles SRT",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SRT",
           "name": "parseSingleLine",
           "package": "subtitleParser",
@@ -639,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eADT for .sub files. Also serves as a place to  provide instance \n declarations for the ADTs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "Datatypes",
           "package": "subtitleParser",
@@ -648,6 +705,7 @@
         "index": {
           "description": "ADT for sub files Also serves as place to provide instance declarations for the ADTs",
           "hierarchy": "Text Subtitles SUB Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "Datatypes",
           "package": "subtitleParser",
@@ -661,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "Color",
           "package": "subtitleParser",
@@ -669,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SUB Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "Color",
           "package": "subtitleParser",
@@ -682,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "Frame",
           "package": "subtitleParser",
@@ -690,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SUB Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "Frame",
           "package": "subtitleParser",
@@ -703,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "Line",
           "package": "subtitleParser",
@@ -711,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SUB Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "Line",
           "package": "subtitleParser",
@@ -724,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "Subtitles",
           "package": "subtitleParser",
@@ -732,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SUB Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "Subtitles",
           "package": "subtitleParser",
@@ -746,6 +812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional property of text, the constructor should be clear.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "TextProperty",
           "package": "subtitleParser",
@@ -755,6 +822,7 @@
         "index": {
           "description": "Optional property of text the constructor should be clear",
           "hierarchy": "Text Subtitles SUB Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "TextProperty",
           "package": "subtitleParser",
@@ -768,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "Bold",
           "package": "subtitleParser",
@@ -777,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SUB Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "Bold",
           "package": "subtitleParser",
@@ -791,6 +861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is just text because is non-standard RGB\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "C",
           "package": "subtitleParser",
@@ -801,6 +872,7 @@
         "index": {
           "description": "This is just text because is non-standard RGB",
           "hierarchy": "Text Subtitles SUB Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "C",
           "package": "subtitleParser",
@@ -813,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "Italic",
           "package": "subtitleParser",
@@ -822,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SUB Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "Italic",
           "package": "subtitleParser",
@@ -835,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "Line",
           "package": "subtitleParser",
@@ -844,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SUB Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "Line",
           "package": "subtitleParser",
@@ -857,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "Stroked",
           "package": "subtitleParser",
@@ -866,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SUB Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "Stroked",
           "package": "subtitleParser",
@@ -879,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "UnderLine",
           "package": "subtitleParser",
@@ -888,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SUB Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "UnderLine",
           "package": "subtitleParser",
@@ -901,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "dialog",
           "package": "subtitleParser",
@@ -910,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SUB Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "dialog",
           "package": "subtitleParser",
@@ -922,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "finalFrame",
           "package": "subtitleParser",
@@ -931,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SUB Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "finalFrame",
           "package": "subtitleParser",
@@ -944,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "property",
           "package": "subtitleParser",
@@ -953,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SUB Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "property",
           "package": "subtitleParser",
@@ -965,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "startFrame",
           "package": "subtitleParser",
@@ -974,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "Text Subtitles SUB Datatypes",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SUB.Datatypes",
           "name": "startFrame",
           "package": "subtitleParser",
@@ -988,6 +1076,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA basic parser for .sub files (microDVD) based on \u003ccode\u003eAttoparsec\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SUB",
           "name": "SUB",
           "package": "subtitleParser",
@@ -997,6 +1086,7 @@
         "index": {
           "description": "basic parser for sub files microDVD based on Attoparsec and Text",
           "hierarchy": "Text Subtitles SUB",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SUB",
           "name": "SUB",
           "package": "subtitleParser",
@@ -1011,6 +1101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMain parser of .sub files, given a .sub file it return a list of the dialog\n lines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SUB",
           "name": "parseSUB",
           "package": "subtitleParser",
@@ -1021,6 +1112,7 @@
         "index": {
           "description": "Main parser of sub files given sub file it return list of the dialog lines",
           "hierarchy": "Text Subtitles SUB",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SUB",
           "name": "parseSUB",
           "package": "subtitleParser",
@@ -1035,6 +1127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the example return the corresponding Line representation. At the\n moment this not handles modifiers as underlines or bold text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:29 UTC 2014",
           "module": "Text.Subtitles.SUB",
           "name": "parseSingleLine",
           "package": "subtitleParser",
@@ -1045,6 +1138,7 @@
         "index": {
           "description": "Given the example return the corresponding Line representation At the moment this not handles modifiers as underlines or bold text",
           "hierarchy": "Text Subtitles SUB",
+          "indexed": "2014-03-11T20:13:29",
           "module": "Text.Subtitles.SUB",
           "name": "parseSingleLine",
           "package": "subtitleParser",

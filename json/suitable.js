@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "suitable"
+        "phrase": "suitable",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:40 UTC 2014",
           "module": "Data.Suitable",
           "name": "Suitable",
           "package": "suitable",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Suitable",
+          "indexed": "2014-03-11T20:13:40",
           "module": "Data.Suitable",
           "name": "Suitable",
           "package": "suitable",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:40 UTC 2014",
           "module": "Data.Suitable",
           "name": "Constraints",
           "package": "suitable",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Suitable",
+          "indexed": "2014-03-11T20:13:40",
           "module": "Data.Suitable",
           "name": "Constraints",
           "package": "suitable",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:40 UTC 2014",
           "module": "Data.Suitable",
           "name": "Suitable",
           "package": "suitable",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Suitable",
+          "indexed": "2014-03-11T20:13:40",
           "module": "Data.Suitable",
           "name": "Suitable",
           "package": "suitable",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:40 UTC 2014",
           "module": "Data.Suitable",
           "name": "constraints",
           "package": "suitable",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Suitable",
+          "indexed": "2014-03-11T20:13:40",
           "module": "Data.Suitable",
           "name": "constraints",
           "package": "suitable",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:40 UTC 2014",
           "module": "Data.Suitable",
           "name": "withConstraintsOf",
           "package": "suitable",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Data Suitable",
+          "indexed": "2014-03-11T20:13:40",
           "module": "Data.Suitable",
           "name": "withConstraintsOf",
           "normalized": "a b-\u003e(Constraints a b-\u003ec)-\u003ec",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:40 UTC 2014",
           "module": "Data.Suitable",
           "name": "withResConstraints",
           "package": "suitable",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Suitable",
+          "indexed": "2014-03-11T20:13:40",
           "module": "Data.Suitable",
           "name": "withResConstraints",
           "normalized": "(Constraints a b-\u003ea b)-\u003ea b",

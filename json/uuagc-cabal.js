@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uuagc-cabal"
+        "phrase": "uuagc-cabal",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:35 UTC 2014",
           "module": "Distribution.Simple.UUAGC",
           "name": "UUAGC",
           "package": "uuagc-cabal",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Distribution Simple UUAGC",
+          "indexed": "2014-03-11T20:32:35",
           "module": "Distribution.Simple.UUAGC",
           "name": "UUAGC",
           "package": "uuagc-cabal",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use uuagcLibUserHook instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:32:35 UTC 2014",
           "module": "Distribution.Simple.UUAGC",
           "name": "uuagc",
           "package": "uuagc-cabal",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Deprecated Use uuagcLibUserHook instead",
           "hierarchy": "Distribution Simple UUAGC",
+          "indexed": "2014-03-11T20:32:35",
           "module": "Distribution.Simple.UUAGC",
           "name": "uuagc",
           "normalized": "BuildInfo-\u003eLocalBuildInfo-\u003ePreProcessor",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate uuagc function using shell (old method)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:35 UTC 2014",
           "module": "Distribution.Simple.UUAGC",
           "name": "uuagcFromString",
           "package": "uuagc-cabal",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Create uuagc function using shell old method",
           "hierarchy": "Distribution Simple UUAGC",
+          "indexed": "2014-03-11T20:32:35",
           "module": "Distribution.Simple.UUAGC",
           "name": "uuagcFromString",
           "normalized": "String-\u003e[String]-\u003eFilePath-\u003eIO(ExitCode,[FilePath])",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMain hook, argument should be uuagc function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:35 UTC 2014",
           "module": "Distribution.Simple.UUAGC",
           "name": "uuagcLibUserHook",
           "package": "uuagc-cabal",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Main hook argument should be uuagc function",
           "hierarchy": "Distribution Simple UUAGC",
+          "indexed": "2014-03-11T20:32:35",
           "module": "Distribution.Simple.UUAGC",
           "name": "uuagcLibUserHook",
           "normalized": "([String]-\u003eFilePath-\u003eIO(ExitCode,[FilePath]))-\u003eUserHooks",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use uuagcLibUserHook instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated userhook\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:35 UTC 2014",
           "module": "Distribution.Simple.UUAGC",
           "name": "uuagcUserHook",
           "package": "uuagc-cabal",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Deprecated Use uuagcLibUserHook instead Deprecated userhook",
           "hierarchy": "Distribution Simple UUAGC",
+          "indexed": "2014-03-11T20:32:35",
           "module": "Distribution.Simple.UUAGC",
           "name": "uuagcUserHook",
           "package": "uuagc-cabal",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use uuagcLibUserHook instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated userhook\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:35 UTC 2014",
           "module": "Distribution.Simple.UUAGC",
           "name": "uuagcUserHook'",
           "package": "uuagc-cabal",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Deprecated Use uuagcLibUserHook instead Deprecated userhook",
           "hierarchy": "Distribution Simple UUAGC",
+          "indexed": "2014-03-11T20:32:35",
           "module": "Distribution.Simple.UUAGC",
           "name": "uuagcUserHook'",
           "normalized": "String-\u003eUserHooks",

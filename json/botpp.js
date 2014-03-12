@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "botpp"
+        "phrase": "botpp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:08 UTC 2014",
           "module": "BotLib",
           "name": "BotLib",
           "package": "botpp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "BotLib",
+          "indexed": "2014-03-11T17:25:08",
           "module": "BotLib",
           "name": "BotLib",
           "package": "botpp",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:08 UTC 2014",
           "module": "BotLib",
           "name": "baseName",
           "package": "botpp",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "BotLib",
+          "indexed": "2014-03-11T17:25:08",
           "module": "BotLib",
           "name": "baseName",
           "normalized": "FilePath-\u003eFilePath",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:08 UTC 2014",
           "module": "BotLib",
           "name": "expand",
           "package": "botpp",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "BotLib",
+          "indexed": "2014-03-11T17:25:08",
           "module": "BotLib",
           "name": "expand",
           "normalized": "Int-\u003eInt-\u003eString-\u003eByteString-\u003eByteString",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:08 UTC 2014",
           "module": "BotLib",
           "name": "modules",
           "package": "botpp",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "BotLib",
+          "indexed": "2014-03-11T17:25:08",
           "module": "BotLib",
           "name": "modules",
           "normalized": "String-\u003eByteString-\u003e[ByteString]",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:08 UTC 2014",
           "module": "BotLib",
           "name": "render",
           "package": "botpp",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "BotLib",
+          "indexed": "2014-03-11T17:25:08",
           "module": "BotLib",
           "name": "render",
           "normalized": "ByteString-\u003e[ByteString]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "MazesOfMonad"
+        "phrase": "MazesOfMonad",
+        "type": "phrase"
       },
       "type": "context"
     }

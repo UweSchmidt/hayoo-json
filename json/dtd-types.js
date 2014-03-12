@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dtd-types"
+        "phrase": "dtd-types",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides types to represent an XML Document Type\n Declaration (DTD) as defined in W3C specifications\n (\u003ca\u003ehttp://www.w3.org/XML/Core/#Publications\u003c/a\u003e). It is intended to be\n compatible with and extend the set of types in \u003ca\u003eData.XML.Types\u003c/a\u003e\n provided by the xml-types package.\n\u003c/p\u003e\u003cp\u003eFollowing the philosophy of \u003ccode\u003eData.XML.Types\u003c/code\u003e, the types in this\n module are not intended to be a strict and complete representation\n of the model in the W3C specifications; rather, they are intended\n to be convenient and type-safe for the kinds of processing of DTDs\n that are commonly done in practice. As such, this model is\n compatible with both Version 1.0 and Version 1.1 of the XML\n specification.\n\u003c/p\u003e\u003cp\u003eTherefore, these types are not suitable for type-level validation\n of the syntax of a DTD. For example: these types are more\n lenient than the specs about the characters that are allowed in\n various locations in a DTD; entities of various kinds only appear\n as distinct syntactic elements in places where they are commonly\n needed when processing DTDs; etc.\n\u003c/p\u003e\u003cp\u003eConditional sections are not represented in these types. They\n should be handled directly by parsers and renderers, if needed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "Types",
           "package": "dtd-types",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides types to represent an XML Document Type Declaration DTD as defined in W3C specifications http www.w3.org XML Core Publications It is intended to be compatible with and extend the set of types in Data.XML.Types provided by the xml-types package Following the philosophy of Data.XML.Types the types in this module are not intended to be strict and complete representation of the model in the W3C specifications rather they are intended to be convenient and type-safe for the kinds of processing of DTDs that are commonly done in practice As such this model is compatible with both Version and Version of the XML specification Therefore these types are not suitable for type-level validation of the syntax of DTD For example these types are more lenient than the specs about the characters that are allowed in various locations in DTD entities of various kinds only appear as distinct syntactic elements in places where they are commonly needed when processing DTDs etc Conditional sections are not represented in these types They should be handled directly by parsers and renderers if needed",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "Types",
           "package": "dtd-types",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA declaration of an attribute that can occur in an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "AttDecl",
           "package": "dtd-types",
@@ -51,6 +54,7 @@
         "index": {
           "description": "declaration of an attribute that can occur in an element",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "AttDecl",
           "package": "dtd-types",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default value specification for an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "AttDefault",
           "package": "dtd-types",
@@ -74,6 +79,7 @@
         "index": {
           "description": "default value specification for an attribute",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "AttDefault",
           "package": "dtd-types",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of attribute declarations for an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "AttList",
           "package": "dtd-types",
@@ -97,6 +104,7 @@
         "index": {
           "description": "list of attribute declarations for an element",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "AttList",
           "package": "dtd-types",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of value that an attribute can take.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "AttType",
           "package": "dtd-types",
@@ -120,6 +129,7 @@
         "index": {
           "description": "The type of value that an attribute can take",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "AttType",
           "package": "dtd-types",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe content that can occur in an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "ContentDecl",
           "package": "dtd-types",
@@ -143,6 +154,7 @@
         "index": {
           "description": "The content that can occur in an element",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "ContentDecl",
           "package": "dtd-types",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA model of structured content for an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "ContentModel",
           "package": "dtd-types",
@@ -166,6 +179,7 @@
         "index": {
           "description": "model of structured content for an element",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "ContentModel",
           "package": "dtd-types",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eDTD\u003c/a\u003e\u003c/code\u003e is a sequence components in any order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "DTD",
           "package": "dtd-types",
@@ -189,6 +204,7 @@
         "index": {
           "description": "DTD is sequence components in any order",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "DTD",
           "package": "dtd-types",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe kinds of components that can appear in a \u003ccode\u003e\u003ca\u003eDTD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "DTDComponent",
           "package": "dtd-types",
@@ -212,6 +229,7 @@
         "index": {
           "description": "The kinds of components that can appear in DTD",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "DTDComponent",
           "package": "dtd-types",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e?xml\u003c/code\u003e text declaration at the beginning of a DTD.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "DTDTextDecl",
           "package": "dtd-types",
@@ -235,6 +254,7 @@
         "index": {
           "description": "The xml text declaration at the beginning of DTD",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "DTDTextDecl",
           "package": "dtd-types",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA declaration of an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "ElementDecl",
           "package": "dtd-types",
@@ -258,6 +279,7 @@
         "index": {
           "description": "declaration of an element",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "ElementDecl",
           "package": "dtd-types",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA declaration of an entity. An entity is a textual substitution\n variable. General entities can be referenced in an XML document\n conforming to the DTD, and parameter entities can be referenced in\n the DTD itself. The value of an unparsed entity is not specified in\n the DTD; it is specified by external syntax declared as a notation\n elsewhere in the DTD.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "EntityDecl",
           "package": "dtd-types",
@@ -281,6 +304,7 @@
         "index": {
           "description": "declaration of an entity An entity is textual substitution variable General entities can be referenced in an XML document conforming to the DTD and parameter entities can be referenced in the DTD itself The value of an unparsed entity is not specified in the DTD it is specified by external syntax declared as notation elsewhere in the DTD",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "EntityDecl",
           "package": "dtd-types",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe value of an internal entity may contain references to\n parameter entities; these references need to be resolved to obtain\n the actual replacement value of the entity. So we represent the\n value as a mixture of parameter entity references and free text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "EntityValue",
           "package": "dtd-types",
@@ -304,6 +329,7 @@
         "index": {
           "description": "The value of an internal entity may contain references to parameter entities these references need to be resolved to obtain the actual replacement value of the entity So we represent the value as mixture of parameter entity references and free text",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "EntityValue",
           "package": "dtd-types",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA declaration of a notation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "Notation",
           "package": "dtd-types",
@@ -327,6 +354,7 @@
         "index": {
           "description": "declaration of notation",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "Notation",
           "package": "dtd-types",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA source for a notation. We do not use the usual \u003ccode\u003e\u003ca\u003eExternalID\u003c/a\u003e\u003c/code\u003e\n type here, because for notations it is only optional, not required,\n for a public ID to be accompanied also by a system ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "NotationSource",
           "package": "dtd-types",
@@ -350,6 +379,7 @@
         "index": {
           "description": "source for notation We do not use the usual ExternalID type here because for notations it is only optional not required for public ID to be accompanied also by system ID",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "NotationSource",
           "package": "dtd-types",
@@ -364,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parameter entity reference. It contains the name of the\n parameter entity that is being referenced.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "PERef",
           "package": "dtd-types",
@@ -373,6 +404,7 @@
         "index": {
           "description": "parameter entity reference It contains the name of the parameter entity that is being referenced",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "PERef",
           "package": "dtd-types",
@@ -387,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of times a production of content model syntax can\n repeat.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "Repeat",
           "package": "dtd-types",
@@ -396,6 +429,7 @@
         "index": {
           "description": "The number of times production of content model syntax can repeat",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "Repeat",
           "package": "dtd-types",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "AttDecl",
           "package": "dtd-types",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "AttDecl",
           "package": "dtd-types",
@@ -432,6 +468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe attribute has the given default value\n when not supplied\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "AttDefaultValue",
           "package": "dtd-types",
@@ -442,6 +479,7 @@
         "index": {
           "description": "The attribute has the given default value when not supplied",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "AttDefaultValue",
           "package": "dtd-types",
@@ -456,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne or more unparsed external entities\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "AttEntitiesType",
           "package": "dtd-types",
@@ -466,6 +505,7 @@
         "index": {
           "description": "One or more unparsed external entities",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "AttEntitiesType",
           "package": "dtd-types",
@@ -480,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unparsed external entity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "AttEntityType",
           "package": "dtd-types",
@@ -490,6 +531,7 @@
         "index": {
           "description": "An unparsed external entity",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "AttEntityType",
           "package": "dtd-types",
@@ -504,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne of the given values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "AttEnumType",
           "package": "dtd-types",
@@ -514,6 +557,7 @@
         "index": {
           "description": "One of the given values",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "AttEnumType",
           "normalized": "AttEnumType[Text]",
@@ -530,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen supplied, the attribute must have the\n given value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "AttFixed",
           "package": "dtd-types",
@@ -540,6 +585,7 @@
         "index": {
           "description": "When supplied the attribute must have the given value",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "AttFixed",
           "package": "dtd-types",
@@ -554,6 +600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reference to an ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "AttIDRefType",
           "package": "dtd-types",
@@ -564,6 +611,7 @@
         "index": {
           "description": "reference to an ID",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "AttIDRefType",
           "package": "dtd-types",
@@ -578,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne or more references to IDs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "AttIDRefsType",
           "package": "dtd-types",
@@ -588,6 +637,7 @@
         "index": {
           "description": "One or more references to IDs",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "AttIDRefsType",
           "package": "dtd-types",
@@ -602,6 +652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA unique ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "AttIDType",
           "package": "dtd-types",
@@ -612,6 +663,7 @@
         "index": {
           "description": "unique ID",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "AttIDType",
           "package": "dtd-types",
@@ -626,6 +678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo default value; the attribute is optional\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "AttImplied",
           "package": "dtd-types",
@@ -636,6 +689,7 @@
         "index": {
           "description": "No default value the attribute is optional",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "AttImplied",
           "package": "dtd-types",
@@ -649,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "AttList",
           "package": "dtd-types",
@@ -658,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "AttList",
           "package": "dtd-types",
@@ -672,6 +728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA name-like token\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "AttNmTokenType",
           "package": "dtd-types",
@@ -682,6 +739,7 @@
         "index": {
           "description": "name-like token",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "AttNmTokenType",
           "package": "dtd-types",
@@ -696,6 +754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne or more name-like tokens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "AttNmTokensType",
           "package": "dtd-types",
@@ -706,6 +765,7 @@
         "index": {
           "description": "One or more name-like tokens",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "AttNmTokensType",
           "package": "dtd-types",
@@ -720,6 +780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecified by external syntax\n declared as a notation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "AttNotationType",
           "package": "dtd-types",
@@ -730,6 +791,7 @@
         "index": {
           "description": "Specified by external syntax declared as notation",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "AttNotationType",
           "normalized": "AttNotationType[Text]",
@@ -746,6 +808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo default value; the attribute must always\n be supplied\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "AttRequired",
           "package": "dtd-types",
@@ -756,6 +819,7 @@
         "index": {
           "description": "No default value the attribute must always be supplied",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "AttRequired",
           "package": "dtd-types",
@@ -770,6 +834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "AttStringType",
           "package": "dtd-types",
@@ -780,6 +845,7 @@
         "index": {
           "description": "Any text",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "AttStringType",
           "package": "dtd-types",
@@ -794,6 +860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoice, delimited by \u003ccode\u003e\"|\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "CMChoice",
           "package": "dtd-types",
@@ -804,6 +871,7 @@
         "index": {
           "description": "Choice delimited by",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "CMChoice",
           "normalized": "CMChoice[ContentModel]Repeat",
@@ -820,6 +888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "CMName",
           "package": "dtd-types",
@@ -830,6 +899,7 @@
         "index": {
           "description": "Element name",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "CMName",
           "package": "dtd-types",
@@ -844,6 +914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence, delimited by \u003ccode\u003e\",\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "CMSeq",
           "package": "dtd-types",
@@ -854,6 +925,7 @@
         "index": {
           "description": "Sequence delimited by",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "CMSeq",
           "normalized": "CMSeq[ContentModel]Repeat",
@@ -870,6 +942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnrestricted content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "ContentAny",
           "package": "dtd-types",
@@ -880,6 +953,7 @@
         "index": {
           "description": "Unrestricted content",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "ContentAny",
           "package": "dtd-types",
@@ -894,6 +968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStructured element content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "ContentElement",
           "package": "dtd-types",
@@ -904,6 +979,7 @@
         "index": {
           "description": "Structured element content",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "ContentElement",
           "package": "dtd-types",
@@ -918,6 +994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "ContentEmpty",
           "package": "dtd-types",
@@ -928,6 +1005,7 @@
         "index": {
           "description": "No content",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "ContentEmpty",
           "package": "dtd-types",
@@ -942,6 +1020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mixture of text and elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "ContentMixed",
           "package": "dtd-types",
@@ -952,6 +1031,7 @@
         "index": {
           "description": "mixture of text and elements",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "ContentMixed",
           "normalized": "ContentMixed[Text]",
@@ -967,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "DTD",
           "package": "dtd-types",
@@ -976,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "DTD",
           "package": "dtd-types",
@@ -990,6 +1072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of attribute declarions for\n an element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "DTDAttList",
           "package": "dtd-types",
@@ -1000,6 +1083,7 @@
         "index": {
           "description": "List of attribute declarions for an element",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "DTDAttList",
           "package": "dtd-types",
@@ -1014,6 +1098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA comment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "DTDComment",
           "package": "dtd-types",
@@ -1024,6 +1109,7 @@
         "index": {
           "description": "comment",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "DTDComment",
           "package": "dtd-types",
@@ -1038,6 +1124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "DTDElementDecl",
           "package": "dtd-types",
@@ -1048,6 +1135,7 @@
         "index": {
           "description": "Element declaration",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "DTDElementDecl",
           "package": "dtd-types",
@@ -1062,6 +1150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntity declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "DTDEntityDecl",
           "package": "dtd-types",
@@ -1072,6 +1161,7 @@
         "index": {
           "description": "Entity declaration",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "DTDEntityDecl",
           "package": "dtd-types",
@@ -1086,6 +1176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA processing instruction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "DTDInstruction",
           "package": "dtd-types",
@@ -1096,6 +1187,7 @@
         "index": {
           "description": "processing instruction",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "DTDInstruction",
           "package": "dtd-types",
@@ -1110,6 +1202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA notation declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "DTDNotation",
           "package": "dtd-types",
@@ -1120,6 +1213,7 @@
         "index": {
           "description": "notation declaration",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "DTDNotation",
           "package": "dtd-types",
@@ -1134,6 +1228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parameter entity reference in\n the top-level flow of the DTD\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "DTDPERef",
           "package": "dtd-types",
@@ -1144,6 +1239,7 @@
         "index": {
           "description": "parameter entity reference in the top-level flow of the DTD",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "DTDPERef",
           "package": "dtd-types",
@@ -1157,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "DTDTextDecl",
           "package": "dtd-types",
@@ -1166,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "DTDTextDecl",
           "package": "dtd-types",
@@ -1179,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "ElementDecl",
           "package": "dtd-types",
@@ -1188,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "ElementDecl",
           "package": "dtd-types",
@@ -1201,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "EntityPERef",
           "package": "dtd-types",
@@ -1210,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "EntityPERef",
           "package": "dtd-types",
@@ -1223,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "EntityText",
           "package": "dtd-types",
@@ -1232,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "EntityText",
           "package": "dtd-types",
@@ -1246,6 +1350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn external general\n entity is unparsed if a\n notation is specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "ExternalGeneralEntityDecl",
           "package": "dtd-types",
@@ -1256,6 +1361,7 @@
         "index": {
           "description": "An external general entity is unparsed if notation is specified",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "ExternalGeneralEntityDecl",
           "package": "dtd-types",
@@ -1269,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "ExternalParameterEntityDecl",
           "package": "dtd-types",
@@ -1278,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "ExternalParameterEntityDecl",
           "package": "dtd-types",
@@ -1291,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "InternalGeneralEntityDecl",
           "package": "dtd-types",
@@ -1300,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "InternalGeneralEntityDecl",
           "package": "dtd-types",
@@ -1313,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "InternalParameterEntityDecl",
           "package": "dtd-types",
@@ -1322,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "InternalParameterEntityDecl",
           "package": "dtd-types",
@@ -1335,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "Notation",
           "package": "dtd-types",
@@ -1344,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "Notation",
           "package": "dtd-types",
@@ -1358,6 +1472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA public ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "NotationPubID",
           "package": "dtd-types",
@@ -1368,6 +1483,7 @@
         "index": {
           "description": "public ID",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "NotationPubID",
           "package": "dtd-types",
@@ -1382,6 +1498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA public ID with a system ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "NotationPubSysID",
           "package": "dtd-types",
@@ -1392,6 +1509,7 @@
         "index": {
           "description": "public ID with system ID",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "NotationPubSysID",
           "package": "dtd-types",
@@ -1406,6 +1524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA system ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "NotationSysID",
           "package": "dtd-types",
@@ -1416,6 +1535,7 @@
         "index": {
           "description": "system ID",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "NotationSysID",
           "package": "dtd-types",
@@ -1429,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "One",
           "package": "dtd-types",
@@ -1438,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "One",
           "package": "dtd-types",
@@ -1451,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "OneOrMore",
           "package": "dtd-types",
@@ -1460,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "OneOrMore",
           "package": "dtd-types",
@@ -1473,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "ZeroOrMore",
           "package": "dtd-types",
@@ -1482,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "ZeroOrMore",
           "package": "dtd-types",
@@ -1495,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "ZeroOrOne",
           "package": "dtd-types",
@@ -1504,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "ZeroOrOne",
           "package": "dtd-types",
@@ -1518,6 +1646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default value specification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "attDeclDefault",
           "package": "dtd-types",
@@ -1528,6 +1657,7 @@
         "index": {
           "description": "The default value specification",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "attDeclDefault",
           "package": "dtd-types",
@@ -1542,6 +1672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "attDeclName",
           "package": "dtd-types",
@@ -1552,6 +1683,7 @@
         "index": {
           "description": "The name of the attribute",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "attDeclName",
           "package": "dtd-types",
@@ -1566,6 +1698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of the attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "attDeclType",
           "package": "dtd-types",
@@ -1576,6 +1709,7 @@
         "index": {
           "description": "The type of the attribute",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "attDeclType",
           "package": "dtd-types",
@@ -1589,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "attListDecls",
           "package": "dtd-types",
@@ -1598,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "attListDecls",
           "normalized": "[AttDecl]",
@@ -1614,6 +1750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the element to\n which the attribute\n declarations apply\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "attListElementName",
           "package": "dtd-types",
@@ -1624,6 +1761,7 @@
         "index": {
           "description": "The name of the element to which the attribute declarations apply",
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "attListElementName",
           "package": "dtd-types",
@@ -1637,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "dtdComponents",
           "package": "dtd-types",
@@ -1646,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "dtdComponents",
           "normalized": "[DTDComponent]",
@@ -1661,6 +1801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "dtdEncoding",
           "package": "dtd-types",
@@ -1670,6 +1811,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "dtdEncoding",
           "package": "dtd-types",
@@ -1683,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "dtdTextDecl",
           "package": "dtd-types",
@@ -1692,6 +1835,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "dtdTextDecl",
           "package": "dtd-types",
@@ -1705,6 +1849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "dtdXMLVersion",
           "package": "dtd-types",
@@ -1714,6 +1859,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "dtdXMLVersion",
           "package": "dtd-types",
@@ -1727,6 +1873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "eltDeclContent",
           "package": "dtd-types",
@@ -1736,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "eltDeclContent",
           "package": "dtd-types",
@@ -1749,6 +1897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "eltDeclName",
           "package": "dtd-types",
@@ -1758,6 +1907,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "eltDeclName",
           "package": "dtd-types",
@@ -1771,6 +1921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "entityDeclID",
           "package": "dtd-types",
@@ -1780,6 +1931,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "entityDeclID",
           "package": "dtd-types",
@@ -1793,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "entityDeclName",
           "package": "dtd-types",
@@ -1802,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "entityDeclName",
           "package": "dtd-types",
@@ -1815,6 +1969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "entityDeclNotation",
           "package": "dtd-types",
@@ -1824,6 +1979,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "entityDeclNotation",
           "package": "dtd-types",
@@ -1837,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "entityDeclValue",
           "package": "dtd-types",
@@ -1846,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "entityDeclValue",
           "normalized": "[EntityValue]",
@@ -1861,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "notationName",
           "package": "dtd-types",
@@ -1870,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "notationName",
           "package": "dtd-types",
@@ -1883,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:23 UTC 2014",
           "module": "Data.XML.DTD.Types",
           "name": "notationSource",
           "package": "dtd-types",
@@ -1892,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "Data XML DTD Types",
+          "indexed": "2014-03-11T17:59:23",
           "module": "Data.XML.DTD.Types",
           "name": "notationSource",
           "package": "dtd-types",

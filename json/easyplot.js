@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "easyplot"
+        "phrase": "easyplot",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple wrapper to the gnuplot command line utility.\n\u003c/p\u003e\u003cp\u003eTypically you will invoke a plot like so:\n\u003c/p\u003e\u003cpre\u003e plot X11 $ Data2D [Title \"Sample Data\"] [] [(1, 2), (2, 4), ...]\n\u003c/pre\u003e\u003cp\u003eTo plot a function, use the following:\n\u003c/p\u003e\u003cpre\u003e plot X11 $ Function2D [Title \"Sine and Cosine\"] [] (\\x -\u003e sin x * cos x)\n\u003c/pre\u003e\u003cp\u003eThere is also a shortcut available - the following plots the sine function:\n\u003c/p\u003e\u003cpre\u003e plot X11 sin\n\u003c/pre\u003e\u003cp\u003eOutput can go into a file, too (See \u003ccode\u003e\u003ca\u003eTerminalType\u003c/a\u003e\u003c/code\u003e):\n\u003c/p\u003e\u003cpre\u003e plot (PNG \"plot.png\") (sin . cos)\n\u003c/pre\u003e\u003cp\u003eHaskell functions are plotted via a set of tuples obtained form the function.\n If you want to make use of gnuplots mighty function plotting functions you can\n pass a \u003ccode\u003e\u003ca\u003eGnuplot2D\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eGnuplot3D\u003c/a\u003e\u003c/code\u003e object to plot.\n\u003c/p\u003e\u003cpre\u003e plot X11 $ Gnuplot2D [Color Blue] [] \"2**cos(x)\"\n\u003c/pre\u003e\u003cp\u003eFor 3D-Plots there is a shortcut available by directly passing a String:\n\u003c/p\u003e\u003cpre\u003e plot X11 \"x*y\"\n\u003c/pre\u003e\u003cp\u003eMultiple graphs can be shown simply by passing a list of these:\n\u003c/p\u003e\u003cpre\u003e plot X11 [ Data2D [Title \"Graph 1\", Color Red] [] [(x, x ** 3) | x \u003c- [-4,-3.9..4]]\n          , Function2D [Title \"Function 2\", Color Blue] [] (\\x -\u003e negate $ x ** 2) ]\n\u003c/pre\u003e\u003cp\u003eFor 3D Graphs it is useful to be able to interact with the graph (See \u003ccode\u003e\u003ca\u003eplot'\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eGnuplotOption\u003c/a\u003e\u003c/code\u003e):\n\u003c/p\u003e\u003cpre\u003e plot' [Interactive] X11 $ Gnuplot3D [Color Magenta] [] \"x ** 2 + y ** 3\"\n\u003c/pre\u003e\u003cp\u003eIf you want to know the command that SimplePlot uses to plot your graph,\n turn on debugging:\n\u003c/p\u003e\u003cpre\u003e plot' [Debug] X11 $ Gnuplot3D [Color Magenta] [] \"x ** 4 + y ** 3\"\n \u003e set term x11 persist; splot x ** 4 + y ** 3 lc rgb \"magenta\"\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "EasyPlot",
           "package": "easyplot",
@@ -28,6 +29,7 @@
         "index": {
           "description": "simple wrapper to the gnuplot command line utility Typically you will invoke plot like so plot X11 Data2D Title Sample Data To plot function use the following plot X11 Function2D Title Sine and Cosine sin cos There is also shortcut available the following plots the sine function plot X11 sin Output can go into file too See TerminalType plot PNG plot.png sin cos Haskell functions are plotted via set of tuples obtained form the function If you want to make use of gnuplots mighty function plotting functions you can pass Gnuplot2D or Gnuplot3D object to plot plot X11 Gnuplot2D Color Blue cos For D-Plots there is shortcut available by directly passing String plot X11 Multiple graphs can be shown simply by passing list of these plot X11 Data2D Title Graph Color Red Function2D Title Function Color Blue negate For Graphs it is useful to be able to interact with the graph See plot and GnuplotOption plot Interactive X11 Gnuplot3D Color Magenta If you want to know the command that SimplePlot uses to plot your graph turn on debugging plot Debug X11 Gnuplot3D Color Magenta set term x11 persist splot lc rgb magenta",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "EasyPlot",
           "package": "easyplot",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Color of a graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Color",
           "package": "easyplot",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The Color of graph",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Color",
           "package": "easyplot",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions which can be used with \u003ccode\u003e\u003ca\u003eplot'\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "GnuplotOption",
           "package": "easyplot",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Options which can be used with plot",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "GnuplotOption",
           "package": "easyplot",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA two dimensional set of data to plot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Graph2D",
           "package": "easyplot",
@@ -97,6 +104,7 @@
         "index": {
           "description": "two dimensional set of data to plot",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Graph2D",
           "package": "easyplot",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA three dimensional set of data to plot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Graph3D",
           "package": "easyplot",
@@ -120,6 +129,7 @@
         "index": {
           "description": "three dimensional set of data to plot",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Graph3D",
           "package": "easyplot",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions on how to render a graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Option",
           "package": "easyplot",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Options on how to render graph",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Option",
           "package": "easyplot",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions which are exclusively available for 2D plots.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Option2D",
           "package": "easyplot",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Options which are exclusively available for plots",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Option2D",
           "package": "easyplot",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions which are exclusively available for 3D plots.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Option3D",
           "package": "easyplot",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Options which are exclusively available for plots",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Option3D",
           "package": "easyplot",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvides the plot function for different kinds of graphs (2D and 3D)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Plot",
           "package": "easyplot",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Provides the plot function for different kinds of graphs and",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Plot",
           "package": "easyplot",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Style of a graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Style",
           "package": "easyplot",
@@ -235,6 +254,7 @@
         "index": {
           "description": "The Style of graph",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Style",
           "package": "easyplot",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTerminalType determines where the output of gnuplot should go.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "TerminalType",
           "package": "easyplot",
@@ -258,6 +279,7 @@
         "index": {
           "description": "TerminalType determines where the output of gnuplot should go",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "TerminalType",
           "package": "easyplot",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput on Mac OS X (Aqua Terminal).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Aqua",
           "package": "easyplot",
@@ -282,6 +305,7 @@
         "index": {
           "description": "Output on Mac OS Aqua Terminal",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Aqua",
           "package": "easyplot",
@@ -295,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Black",
           "package": "easyplot",
@@ -304,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Black",
           "package": "easyplot",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Blue",
           "package": "easyplot",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Blue",
           "package": "easyplot",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Brown",
           "package": "easyplot",
@@ -348,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Brown",
           "package": "easyplot",
@@ -362,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe line-color for the graph (or if it consist of \u003ccode\u003e\u003ca\u003eDots\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003ePoints\u003c/a\u003e\u003c/code\u003e the color of these)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Color",
           "package": "easyplot",
@@ -372,6 +403,7 @@
         "index": {
           "description": "The line-color for the graph or if it consist of Dots or Points the color of these",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Color",
           "package": "easyplot",
@@ -385,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Cyan",
           "package": "easyplot",
@@ -394,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Cyan",
           "package": "easyplot",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "DarkBlue",
           "package": "easyplot",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "DarkBlue",
           "package": "easyplot",
@@ -429,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "DarkCyan",
           "package": "easyplot",
@@ -438,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "DarkCyan",
           "package": "easyplot",
@@ -451,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "DarkGreen",
           "package": "easyplot",
@@ -460,6 +499,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "DarkGreen",
           "package": "easyplot",
@@ -473,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "DarkGrey",
           "package": "easyplot",
@@ -482,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "DarkGrey",
           "package": "easyplot",
@@ -495,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "DarkMagenta",
           "package": "easyplot",
@@ -504,6 +547,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "DarkMagenta",
           "package": "easyplot",
@@ -517,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "DarkOrange",
           "package": "easyplot",
@@ -526,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "DarkOrange",
           "package": "easyplot",
@@ -539,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "DarkRed",
           "package": "easyplot",
@@ -548,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "DarkRed",
           "package": "easyplot",
@@ -561,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "DarkYellow",
           "package": "easyplot",
@@ -570,6 +619,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "DarkYellow",
           "package": "easyplot",
@@ -584,6 +634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplots a set of tuples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Data2D",
           "package": "easyplot",
@@ -594,6 +645,7 @@
         "index": {
           "description": "plots set of tuples",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Data2D",
           "normalized": "Data D[Option][Option D a b][(a,b)]",
@@ -610,6 +662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplots a set of triples.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Data3D",
           "package": "easyplot",
@@ -620,6 +673,7 @@
         "index": {
           "description": "plots set of triples",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Data3D",
           "normalized": "Data D[Option][Option D a b c][(a,b,c)]",
@@ -636,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprints the command used for running gnuplot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Debug",
           "package": "easyplot",
@@ -646,6 +701,7 @@
         "index": {
           "description": "prints the command used for running gnuplot",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Debug",
           "package": "easyplot",
@@ -660,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata points are real dots (approx the size of a pixel).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Dots",
           "package": "easyplot",
@@ -670,6 +727,7 @@
         "index": {
           "description": "data points are real dots approx the size of pixel",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Dots",
           "package": "easyplot",
@@ -684,6 +742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput into an EPS file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "EPS",
           "package": "easyplot",
@@ -694,6 +753,7 @@
         "index": {
           "description": "Output into an EPS file",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "EPS",
           "package": "easyplot",
@@ -708,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlots the function only for the given x values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "For",
           "package": "easyplot",
@@ -718,6 +779,7 @@
         "index": {
           "description": "Plots the function only for the given values",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "For",
           "normalized": "For[a]",
@@ -734,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlots the function only for the given x values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "ForX",
           "package": "easyplot",
@@ -744,6 +807,7 @@
         "index": {
           "description": "Plots the function only for the given values",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "ForX",
           "normalized": "ForX[a]",
@@ -760,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlots the function only for the given y values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "ForY",
           "package": "easyplot",
@@ -770,6 +835,7 @@
         "index": {
           "description": "Plots the function only for the given values",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "ForY",
           "normalized": "ForY[a]",
@@ -786,6 +852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplots a Haskell function \u003ccode\u003ex -\u003e y\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Function2D",
           "package": "easyplot",
@@ -796,6 +863,7 @@
         "index": {
           "description": "plots Haskell function",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Function2D",
           "normalized": "Function D[Option][Option D a b](a-\u003eb)",
@@ -812,6 +880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplots a Haskell function \u003ccode\u003ex -\u003e y -\u003e z\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Function3D",
           "package": "easyplot",
@@ -822,6 +891,7 @@
         "index": {
           "description": "plots Haskell function",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Function3D",
           "normalized": "Function D[Option][Option D a b c](a-\u003eb-\u003ec)",
@@ -838,6 +908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput as Graphics Interchange Format into a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "GIF",
           "package": "easyplot",
@@ -848,6 +919,7 @@
         "index": {
           "description": "Output as Graphics Interchange Format into file",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "GIF",
           "package": "easyplot",
@@ -862,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplots a custom function passed to Gnuplot (like \u003ccode\u003ex**2 + 10\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Gnuplot2D",
           "package": "easyplot",
@@ -872,6 +945,7 @@
         "index": {
           "description": "plots custom function passed to Gnuplot like",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Gnuplot2D",
           "normalized": "Gnuplot D[Option][Option D a b]String",
@@ -888,6 +962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplots a custom function passed to Gnuplot (like \u003ccode\u003ex*y\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Gnuplot3D",
           "package": "easyplot",
@@ -898,6 +973,7 @@
         "index": {
           "description": "plots custom function passed to Gnuplot like",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Gnuplot3D",
           "normalized": "Gnuplot D[Option][Option D a b c]String",
@@ -913,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Green",
           "package": "easyplot",
@@ -922,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Green",
           "package": "easyplot",
@@ -935,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Grey",
           "package": "easyplot",
@@ -944,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Grey",
           "package": "easyplot",
@@ -957,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Impulses",
           "package": "easyplot",
@@ -966,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Impulses",
           "package": "easyplot",
@@ -980,6 +1062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ekeeps gnuplot open, so that you can interact with the plot (only usefull with \u003ccode\u003e\u003ca\u003eX11\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Interactive",
           "package": "easyplot",
@@ -990,6 +1073,7 @@
         "index": {
           "description": "keeps gnuplot open so that you can interact with the plot only usefull with X11",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Interactive",
           "package": "easyplot",
@@ -1004,6 +1088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput into a JPEG file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "JPEG",
           "package": "easyplot",
@@ -1014,6 +1099,7 @@
         "index": {
           "description": "Output into JPEG file",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "JPEG",
           "package": "easyplot",
@@ -1028,6 +1114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput as LaTeX.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Latex",
           "package": "easyplot",
@@ -1038,6 +1125,7 @@
         "index": {
           "description": "Output as LaTeX",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Latex",
           "package": "easyplot",
@@ -1051,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "LightBlue",
           "package": "easyplot",
@@ -1060,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "LightBlue",
           "package": "easyplot",
@@ -1073,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "LightGreen",
           "package": "easyplot",
@@ -1082,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "LightGreen",
           "package": "easyplot",
@@ -1095,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "LightMagenta",
           "package": "easyplot",
@@ -1104,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "LightMagenta",
           "package": "easyplot",
@@ -1117,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "LightRed",
           "package": "easyplot",
@@ -1126,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "LightRed",
           "package": "easyplot",
@@ -1140,6 +1236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epoints in the plot are interconnected by lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Lines",
           "package": "easyplot",
@@ -1150,6 +1247,7 @@
         "index": {
           "description": "points in the plot are interconnected by lines",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Lines",
           "package": "easyplot",
@@ -1163,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Linespoints",
           "package": "easyplot",
@@ -1172,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Linespoints",
           "package": "easyplot",
@@ -1185,6 +1285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Magenta",
           "package": "easyplot",
@@ -1194,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Magenta",
           "package": "easyplot",
@@ -1207,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Orange",
           "package": "easyplot",
@@ -1216,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Orange",
           "package": "easyplot",
@@ -1230,6 +1334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput as Portable Document Format into a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "PDF",
           "package": "easyplot",
@@ -1240,6 +1345,7 @@
         "index": {
           "description": "Output as Portable Document Format into file",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "PDF",
           "package": "easyplot",
@@ -1254,6 +1360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput as Portable Network Graphic into file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "PNG",
           "package": "easyplot",
@@ -1264,6 +1371,7 @@
         "index": {
           "description": "Output as Portable Network Graphic into file",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "PNG",
           "package": "easyplot",
@@ -1278,6 +1386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput into a Postscript file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "PS",
           "package": "easyplot",
@@ -1288,6 +1397,7 @@
         "index": {
           "description": "Output into Postscript file",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "PS",
           "package": "easyplot",
@@ -1302,6 +1412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata points are little cross symbols.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Points",
           "package": "easyplot",
@@ -1312,6 +1423,7 @@
         "index": {
           "description": "data points are little cross symbols",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Points",
           "package": "easyplot",
@@ -1326,6 +1438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea custom color\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "RGB",
           "package": "easyplot",
@@ -1336,6 +1449,7 @@
         "index": {
           "description": "custom color",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "RGB",
           "package": "easyplot",
@@ -1350,6 +1464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlots the function for the specified x range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Range",
           "package": "easyplot",
@@ -1360,6 +1475,7 @@
         "index": {
           "description": "Plots the function for the specified range",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Range",
           "package": "easyplot",
@@ -1374,6 +1490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlots the function for the specified x range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "RangeX",
           "package": "easyplot",
@@ -1384,6 +1501,7 @@
         "index": {
           "description": "Plots the function for the specified range",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "RangeX",
           "package": "easyplot",
@@ -1398,6 +1516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlots the function for the specified y range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "RangeY",
           "package": "easyplot",
@@ -1408,6 +1527,7 @@
         "index": {
           "description": "Plots the function for the specified range",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "RangeY",
           "package": "easyplot",
@@ -1421,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Red",
           "package": "easyplot",
@@ -1430,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Red",
           "package": "easyplot",
@@ -1444,6 +1566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput as Scalable Vector Graphic into a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "SVG",
           "package": "easyplot",
@@ -1454,6 +1577,7 @@
         "index": {
           "description": "Output as Scalable Vector Graphic into file",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "SVG",
           "package": "easyplot",
@@ -1468,6 +1592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses the given step-size for plotting along the x-axis\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Step",
           "package": "easyplot",
@@ -1478,6 +1603,7 @@
         "index": {
           "description": "Uses the given step-size for plotting along the x-axis",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Step",
           "package": "easyplot",
@@ -1492,6 +1618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses the given step-size for plotting along the x-axis\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "StepX",
           "package": "easyplot",
@@ -1502,6 +1629,7 @@
         "index": {
           "description": "Uses the given step-size for plotting along the x-axis",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "StepX",
           "package": "easyplot",
@@ -1516,6 +1644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses the given step-size for plotting along the y-axis\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "StepY",
           "package": "easyplot",
@@ -1526,6 +1655,7 @@
         "index": {
           "description": "Uses the given step-size for plotting along the y-axis",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "StepY",
           "package": "easyplot",
@@ -1540,6 +1670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe style for a graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Style",
           "package": "easyplot",
@@ -1550,6 +1681,7 @@
         "index": {
           "description": "The style for graph",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Style",
           "package": "easyplot",
@@ -1564,6 +1696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe title for a graph in a plot (or a filename like \u003ccode\u003eplot1.dat\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Title",
           "package": "easyplot",
@@ -1574,6 +1707,7 @@
         "index": {
           "description": "The title for graph in plot or filename like plot1.dat",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Title",
           "package": "easyplot",
@@ -1587,6 +1721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Violet",
           "package": "easyplot",
@@ -1596,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Violet",
           "package": "easyplot",
@@ -1609,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "White",
           "package": "easyplot",
@@ -1618,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "White",
           "package": "easyplot",
@@ -1632,6 +1770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput for MS Windows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Windows",
           "package": "easyplot",
@@ -1642,6 +1781,7 @@
         "index": {
           "description": "Output for MS Windows",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Windows",
           "package": "easyplot",
@@ -1656,6 +1796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput to the X Window System.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "X11",
           "package": "easyplot",
@@ -1666,6 +1807,7 @@
         "index": {
           "description": "Output to the Window System",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "X11",
           "package": "easyplot",
@@ -1678,6 +1820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "Yellow",
           "package": "easyplot",
@@ -1687,6 +1830,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "Yellow",
           "package": "easyplot",
@@ -1701,6 +1845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo a plot to the terminal (i.e. a window will open and your plot can be seen)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "plot",
           "package": "easyplot",
@@ -1711,6 +1856,7 @@
         "index": {
           "description": "Do plot to the terminal i.e window will open and your plot can be seen",
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "plot",
           "package": "easyplot",
@@ -1723,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:00:19 UTC 2014",
           "module": "Graphics.EasyPlot",
           "name": "plot'",
           "package": "easyplot",
@@ -1732,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Graphics EasyPlot",
+          "indexed": "2014-03-11T18:00:19",
           "module": "Graphics.EasyPlot",
           "name": "plot'",
           "normalized": "[GnuplotOption]-\u003eTerminalType-\u003ea-\u003eIO Bool",

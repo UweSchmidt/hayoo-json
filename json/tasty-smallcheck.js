@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tasty-smallcheck"
+        "phrase": "tasty-smallcheck",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module allows to use SmallCheck properties in tasty.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:17:43 UTC 2014",
           "module": "Test.Tasty.SmallCheck",
           "name": "SmallCheck",
           "package": "tasty-smallcheck",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module allows to use SmallCheck properties in tasty",
           "hierarchy": "Test Tasty SmallCheck",
+          "indexed": "2014-03-11T20:17:43",
           "module": "Test.Tasty.SmallCheck",
           "name": "SmallCheck",
           "package": "tasty-smallcheck",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \"depth\" parameter for SmallCheck\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:43 UTC 2014",
           "module": "Test.Tasty.SmallCheck",
           "name": "SmallCheckDepth",
           "package": "tasty-smallcheck",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The depth parameter for SmallCheck",
           "hierarchy": "Test Tasty SmallCheck",
+          "indexed": "2014-03-11T20:17:43",
           "module": "Test.Tasty.SmallCheck",
           "name": "SmallCheckDepth",
           "package": "tasty-smallcheck",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:17:43 UTC 2014",
           "module": "Test.Tasty.SmallCheck",
           "name": "SmallCheckDepth",
           "package": "tasty-smallcheck",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Test Tasty SmallCheck",
+          "indexed": "2014-03-11T20:17:43",
           "module": "Test.Tasty.SmallCheck",
           "name": "SmallCheckDepth",
           "package": "tasty-smallcheck",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003eTest\u003c/code\u003e for a SmallCheck \u003ccode\u003e\u003ca\u003eTestable\u003c/a\u003e\u003c/code\u003e property\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:17:43 UTC 2014",
           "module": "Test.Tasty.SmallCheck",
           "name": "testProperty",
           "package": "tasty-smallcheck",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Create Test for SmallCheck Testable property",
           "hierarchy": "Test Tasty SmallCheck",
+          "indexed": "2014-03-11T20:17:43",
           "module": "Test.Tasty.SmallCheck",
           "name": "testProperty",
           "normalized": "TestName-\u003ea-\u003eTestTree",

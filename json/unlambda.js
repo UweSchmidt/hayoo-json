@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "unlambda"
+        "phrase": "unlambda",
+        "type": "phrase"
       },
       "type": "context"
     }

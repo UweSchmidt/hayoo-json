@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "push-notify-general"
+        "phrase": "push-notify-general",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "General",
           "package": "push-notify-general",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "General",
           "package": "push-notify-general",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique identifier of an app/device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "Device",
           "package": "push-notify-general",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Unique identifier of an app device",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "Device",
           "package": "push-notify-general",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSettings for GCM service.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "GCMConfig",
           "package": "push-notify-general",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Settings for GCM service",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "GCMConfig",
           "package": "push-notify-general",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMain settings for the different Push Services. \u003ccode\u003eNothing\u003c/code\u003e means the service won't be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "PushConfig",
           "package": "push-notify-general",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Main settings for the different Push Services Nothing means the service won be used",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "PushConfig",
           "package": "push-notify-general",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMain manager for the Push Service.\n\u003c/p\u003e\u003cp\u003eThis \u003ccode\u003e\u003ca\u003ePushManager\u003c/a\u003e\u003c/code\u003e will be used to send notifications and also can be added as a subsite to a Yesod app\n in order to receive registrations and messages from devices as HTTP POST requests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "PushManager",
           "package": "push-notify-general",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Main manager for the Push Service This PushManager will be used to send notifications and also can be added as subsite to Yesod app in order to receive registrations and messages from devices as HTTP POST requests",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "PushManager",
           "package": "push-notify-general",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral notification to be sent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "PushNotification",
           "package": "push-notify-general",
@@ -141,6 +152,7 @@
         "index": {
           "description": "General notification to be sent",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "PushNotification",
           "package": "push-notify-general",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePushResult represents a general result after communicating with a Push Server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "PushResult",
           "package": "push-notify-general",
@@ -164,6 +177,7 @@
         "index": {
           "description": "PushResult represents general result after communicating with Push Server",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "PushResult",
           "package": "push-notify-general",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMain settings for the Push Service.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "PushServiceConfig",
           "package": "push-notify-general",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Main settings for the Push Service",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "PushServiceConfig",
           "package": "push-notify-general",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRegisterResult\u003c/a\u003e\u003c/code\u003e represents the result of a device attempting to register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "RegisterResult",
           "package": "push-notify-general",
@@ -210,6 +227,7 @@
         "index": {
           "description": "RegisterResult represents the result of device attempting to register",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "RegisterResult",
           "package": "push-notify-general",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn iOS app.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "APNS",
           "package": "push-notify-general",
@@ -234,6 +253,7 @@
         "index": {
           "description": "An iOS app",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "APNS",
           "package": "push-notify-general",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "Ccs",
           "package": "push-notify-general",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "Ccs",
           "package": "push-notify-general",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "ErrorReg",
           "package": "push-notify-general",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "ErrorReg",
           "package": "push-notify-general",
@@ -292,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Android app.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "GCM",
           "package": "push-notify-general",
@@ -302,6 +327,7 @@
         "index": {
           "description": "An Android app",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "GCM",
           "package": "push-notify-general",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "Http",
           "package": "push-notify-general",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "Http",
           "package": "push-notify-general",
@@ -338,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA WPhone app.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "MPNS",
           "package": "push-notify-general",
@@ -348,6 +377,7 @@
         "index": {
           "description": "WPhone app",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "MPNS",
           "package": "push-notify-general",
@@ -361,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "PushConfig",
           "package": "push-notify-general",
@@ -370,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "PushConfig",
           "package": "push-notify-general",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "PushNotification",
           "package": "push-notify-general",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "PushNotification",
           "package": "push-notify-general",
@@ -405,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "PushResult",
           "package": "push-notify-general",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "PushResult",
           "package": "push-notify-general",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "PushServiceConfig",
           "package": "push-notify-general",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "PushServiceConfig",
           "package": "push-notify-general",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "SuccessfulReg",
           "package": "push-notify-general",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "SuccessfulReg",
           "package": "push-notify-general",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "apnsConfig",
           "package": "push-notify-general",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "apnsConfig",
           "package": "push-notify-general",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "apnsNotif",
           "package": "push-notify-general",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "apnsNotif",
           "package": "push-notify-general",
@@ -516,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eclosePushService\u003c/a\u003e\u003c/code\u003e stops the Push service.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "closePushService",
           "package": "push-notify-general",
@@ -526,6 +571,7 @@
         "index": {
           "description": "closePushService stops the Push service",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "closePushService",
           "normalized": "PushManager-\u003eIO()",
@@ -542,6 +588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNotifications that were not successfully sent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "failed",
           "package": "push-notify-general",
@@ -552,6 +599,7 @@
         "index": {
           "description": "Notifications that were not successfully sent",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "failed",
           "package": "push-notify-general",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "gcmConfig",
           "package": "push-notify-general",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "gcmConfig",
           "package": "push-notify-general",
@@ -586,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "gcmNotif",
           "package": "push-notify-general",
@@ -595,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "gcmNotif",
           "package": "push-notify-general",
@@ -609,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egeneralNotif\u003c/a\u003e\u003c/code\u003e builds a general notification from JSON data.\n\u003c/p\u003e\u003cp\u003eIf data length exceeds 256 bytes (max payload limit for APNS) it will fails.\n\u003c/p\u003e\u003cp\u003eFor MPNS, data will be XML-labeled as \"jsonData\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "generalNotif",
           "package": "push-notify-general",
@@ -619,6 +672,7 @@
         "index": {
           "description": "generalNotif builds general notification from JSON data If data length exceeds bytes max payload limit for APNS it will fails For MPNS data will be XML-labeled as jsonData",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "generalNotif",
           "normalized": "Object-\u003eIO PushNotification",
@@ -634,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "mpnsConfig",
           "package": "push-notify-general",
@@ -643,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "mpnsConfig",
           "package": "push-notify-general",
@@ -656,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "mpnsNotif",
           "package": "push-notify-general",
@@ -665,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "mpnsNotif",
           "package": "push-notify-general",
@@ -679,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe callback function to be called when\n a new device try to register on server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "newDeviceCallback",
           "package": "push-notify-general",
@@ -689,6 +748,7 @@
         "index": {
           "description": "The callback function to be called when new device try to register on server",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "newDeviceCallback",
           "normalized": "Device-\u003eValue-\u003eIO RegisterResult",
@@ -705,6 +765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe callback function to be called when a device's identifier changes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "newIdCallback",
           "package": "push-notify-general",
@@ -715,6 +776,7 @@
         "index": {
           "description": "The callback function to be called when device identifier changes",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "newIdCallback",
           "normalized": "(Device,Device)-\u003eIO()",
@@ -731,6 +793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap of devices which have changed their identifiers. (old -\u003e new)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "newIds",
           "package": "push-notify-general",
@@ -741,6 +804,7 @@
         "index": {
           "description": "Map of devices which have changed their identifiers old new",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "newIds",
           "package": "push-notify-general",
@@ -755,6 +819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe callback function to be called when receiving messages from devices\n (This means through the CCS connection or as POST requests\n to the Yesod subsite).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "newMessageCallback",
           "package": "push-notify-general",
@@ -765,6 +830,7 @@
         "index": {
           "description": "The callback function to be called when receiving messages from devices This means through the CCS connection or as POST requests to the Yesod subsite",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "newMessageCallback",
           "normalized": "Device-\u003eValue-\u003eIO()",
@@ -781,6 +847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMain configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "pushConfig",
           "package": "push-notify-general",
@@ -791,6 +858,7 @@
         "index": {
           "description": "Main configuration",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "pushConfig",
           "package": "push-notify-general",
@@ -805,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esendPush\u003c/a\u003e\u003c/code\u003e sends messages to the appropiate Push Servers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "sendPush",
           "package": "push-notify-general",
@@ -815,6 +884,7 @@
         "index": {
           "description": "sendPush sends messages to the appropiate Push Servers",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "sendPush",
           "normalized": "PushManager-\u003ePushNotification-\u003eHashSet Device-\u003eIO PushResult",
@@ -831,6 +901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003estartPushService\u003c/a\u003e\u003c/code\u003e starts the PushService creating a PushManager.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "startPushService",
           "package": "push-notify-general",
@@ -841,6 +912,7 @@
         "index": {
           "description": "startPushService starts the PushService creating PushManager",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "startPushService",
           "normalized": "PushServiceConfig-\u003eIO PushManager",
@@ -857,6 +929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNotifications that were successfully sent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "successful",
           "package": "push-notify-general",
@@ -867,6 +940,7 @@
         "index": {
           "description": "Notifications that were successfully sent",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "successful",
           "package": "push-notify-general",
@@ -880,6 +954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFailed notifications that you need to resend,\n because servers were not available or there was a problem with the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "toResend",
           "package": "push-notify-general",
@@ -890,6 +965,7 @@
         "index": {
           "description": "Failed notifications that you need to resend because servers were not available or there was problem with the connection",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "toResend",
           "package": "push-notify-general",
@@ -904,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of unregistered devices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "unRegistered",
           "package": "push-notify-general",
@@ -914,6 +991,7 @@
         "index": {
           "description": "Set of unregistered devices",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "unRegistered",
           "package": "push-notify-general",
@@ -928,6 +1006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe callback function to be called when a device unregisters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "unRegisteredCallback",
           "package": "push-notify-general",
@@ -938,6 +1017,7 @@
         "index": {
           "description": "The callback function to be called when device unregisters",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "unRegisteredCallback",
           "normalized": "Device-\u003eIO()",
@@ -954,6 +1034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ewithPushManager\u003c/a\u003e\u003c/code\u003e creates a new manager, uses it in the provided function, and then releases it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:32 UTC 2014",
           "module": "Network.PushNotify.General",
           "name": "withPushManager",
           "package": "push-notify-general",
@@ -964,6 +1045,7 @@
         "index": {
           "description": "withPushManager creates new manager uses it in the provided function and then releases it",
           "hierarchy": "Network PushNotify General",
+          "indexed": "2014-03-11T19:46:32",
           "module": "Network.PushNotify.General",
           "name": "withPushManager",
           "normalized": "PushServiceConfig-\u003e(PushManager-\u003eIO a)-\u003eIO a",

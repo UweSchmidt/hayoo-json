@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hgeometry"
+        "phrase": "hgeometry",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.BoundingBox",
           "name": "BoundingBox",
           "package": "hgeometry",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry BoundingBox",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.BoundingBox",
           "name": "BoundingBox",
           "package": "hgeometry",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBounding boxes\n\u003c/p\u003e\u003cp\u003eNote that a bounding box is always axis parallel, so rotating may have not\n | the expected effect\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.BoundingBox",
           "name": "BoundingBox2'",
           "package": "hgeometry",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Bounding boxes Note that bounding box is always axis parallel so rotating may have not the expected effect",
           "hierarchy": "Data Geometry BoundingBox",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.BoundingBox",
           "name": "BoundingBox2'",
           "package": "hgeometry",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of objects for which we can compute a boundingbox\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.BoundingBox",
           "name": "IsBoxable",
           "package": "hgeometry",
@@ -72,6 +77,7 @@
         "index": {
           "description": "class of objects for which we can compute boundingbox",
           "hierarchy": "Data Geometry BoundingBox",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.BoundingBox",
           "name": "IsBoxable",
           "package": "hgeometry",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.BoundingBox",
           "name": "BoundingBox2",
           "package": "hgeometry",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry BoundingBox",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.BoundingBox",
           "name": "BoundingBox2",
           "package": "hgeometry",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.BoundingBox",
           "name": "bbBottom",
           "package": "hgeometry",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry BoundingBox",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.BoundingBox",
           "name": "bbBottom",
           "normalized": "BoundingBox a-\u003ea",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.BoundingBox",
           "name": "bbFromList",
           "package": "hgeometry",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry BoundingBox",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.BoundingBox",
           "name": "bbFromList",
           "normalized": "[a b]-\u003eBoundingBox b",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.BoundingBox",
           "name": "bbFromPoints",
           "package": "hgeometry",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry BoundingBox",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.BoundingBox",
           "name": "bbFromPoints",
           "normalized": "[Point a]-\u003eBoundingBox a",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.BoundingBox",
           "name": "bbLeft",
           "package": "hgeometry",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry BoundingBox",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.BoundingBox",
           "name": "bbLeft",
           "normalized": "BoundingBox a-\u003ea",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.BoundingBox",
           "name": "bbRight",
           "package": "hgeometry",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry BoundingBox",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.BoundingBox",
           "name": "bbRight",
           "normalized": "BoundingBox a-\u003ea",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.BoundingBox",
           "name": "bbTop",
           "package": "hgeometry",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry BoundingBox",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.BoundingBox",
           "name": "bbTop",
           "normalized": "BoundingBox a-\u003ea",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.BoundingBox",
           "name": "boundingBox",
           "package": "hgeometry",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry BoundingBox",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.BoundingBox",
           "name": "boundingBox",
           "normalized": "a b-\u003eBoundingBox b",
@@ -275,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.BoundingBox",
           "name": "height",
           "package": "hgeometry",
@@ -284,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry BoundingBox",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.BoundingBox",
           "name": "height",
           "normalized": "BoundingBox a-\u003ea",
@@ -298,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.BoundingBox",
           "name": "lowerLeft",
           "package": "hgeometry",
@@ -307,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry BoundingBox",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.BoundingBox",
           "name": "lowerLeft",
           "package": "hgeometry",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the bounding box of a list of things\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.BoundingBox",
           "name": "mergeBoxes",
           "package": "hgeometry",
@@ -331,6 +358,7 @@
         "index": {
           "description": "get the bounding box of list of things",
           "hierarchy": "Data Geometry BoundingBox",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.BoundingBox",
           "name": "mergeBoxes",
           "normalized": "[BoundingBox a]-\u003eBoundingBox a",
@@ -346,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.BoundingBox",
           "name": "upperRight",
           "package": "hgeometry",
@@ -355,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry BoundingBox",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.BoundingBox",
           "name": "upperRight",
           "package": "hgeometry",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.BoundingBox",
           "name": "width",
           "package": "hgeometry",
@@ -377,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry BoundingBox",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.BoundingBox",
           "name": "width",
           "normalized": "BoundingBox a-\u003ea",
@@ -391,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Circle",
           "name": "Circle",
           "package": "hgeometry",
@@ -399,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Circle",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Circle",
           "name": "Circle",
           "package": "hgeometry",
@@ -413,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA circle in the plane\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Circle",
           "name": "Circle2'",
           "package": "hgeometry",
@@ -422,6 +457,7 @@
         "index": {
           "description": "circle in the plane",
           "hierarchy": "Data Geometry Circle",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Circle",
           "name": "Circle2'",
           "package": "hgeometry",
@@ -436,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA disc in the plane (i.e. a circle inclusiding its contents)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Circle",
           "name": "Disc2'",
           "package": "hgeometry",
@@ -445,6 +482,7 @@
         "index": {
           "description": "disc in the plane i.e circle inclusiding its contents",
           "hierarchy": "Data Geometry Circle",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Circle",
           "name": "Disc2'",
           "package": "hgeometry",
@@ -459,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunctions on circles\n\u003c/p\u003e\u003cp\u003eClass expressing functions that circlelike objects all have. Like a center\n and a radius. Minimal implementation is either getCircle or center and radius\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Circle",
           "name": "IsCircleLike",
           "package": "hgeometry",
@@ -468,6 +507,7 @@
         "index": {
           "description": "functions on circles Class expressing functions that circlelike objects all have Like center and radius Minimal implementation is either getCircle or center and radius",
           "hierarchy": "Data Geometry Circle",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Circle",
           "name": "IsCircleLike",
           "package": "hgeometry",
@@ -481,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Circle",
           "name": "Circle2",
           "package": "hgeometry",
@@ -490,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Circle",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Circle",
           "name": "Circle2",
           "package": "hgeometry",
@@ -503,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Circle",
           "name": "Disc2",
           "package": "hgeometry",
@@ -512,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Circle",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Circle",
           "name": "Disc2",
           "package": "hgeometry",
@@ -525,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Circle",
           "name": "border",
           "package": "hgeometry",
@@ -534,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Circle",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Circle",
           "name": "border",
           "package": "hgeometry",
@@ -546,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Circle",
           "name": "center",
           "package": "hgeometry",
@@ -555,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Circle",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Circle",
           "name": "center",
           "normalized": "a b-\u003ePoint b",
@@ -569,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Circle",
           "name": "distance",
           "package": "hgeometry",
@@ -578,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Circle",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Circle",
           "name": "distance",
           "normalized": "Point a-\u003eb a-\u003ea",
@@ -592,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Circle",
           "name": "distanceToCenter",
           "package": "hgeometry",
@@ -601,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Circle",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Circle",
           "name": "distanceToCenter",
           "normalized": "Point a-\u003eb a-\u003ea",
@@ -616,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Circle",
           "name": "getCircle",
           "package": "hgeometry",
@@ -625,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Circle",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Circle",
           "name": "getCircle",
           "normalized": "a b-\u003eCircle b",
@@ -641,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhether or not p lies in OR on the circle c\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Circle",
           "name": "inCircle",
           "package": "hgeometry",
@@ -651,6 +706,7 @@
         "index": {
           "description": "whether or not lies in OR on the circle",
           "hierarchy": "Data Geometry Circle",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Circle",
           "name": "inCircle",
           "normalized": "Point a-\u003eCircle a-\u003eBool",
@@ -667,6 +723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhether or not a point lies in a disc: this includes its border\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Circle",
           "name": "inDisc",
           "package": "hgeometry",
@@ -677,6 +734,7 @@
         "index": {
           "description": "whether or not point lies in disc this includes its border",
           "hierarchy": "Data Geometry Circle",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Circle",
           "name": "inDisc",
           "normalized": "Point a-\u003eDisc a-\u003eBool",
@@ -693,6 +751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhether or not p lies strictly inside the circle c\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Circle",
           "name": "insideCircle",
           "package": "hgeometry",
@@ -703,6 +762,7 @@
         "index": {
           "description": "whether or not lies strictly inside the circle",
           "hierarchy": "Data Geometry Circle",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Circle",
           "name": "insideCircle",
           "normalized": "Point a-\u003eCircle a-\u003eBool",
@@ -719,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhether or not a point lies strictly inside a disc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Circle",
           "name": "insideDisc",
           "package": "hgeometry",
@@ -729,6 +790,7 @@
         "index": {
           "description": "whether or not point lies strictly inside disc",
           "hierarchy": "Data Geometry Circle",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Circle",
           "name": "insideDisc",
           "normalized": "Point a-\u003eDisc a-\u003eBool",
@@ -745,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhether or not p lies on the circle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Circle",
           "name": "onCircle",
           "package": "hgeometry",
@@ -755,6 +818,7 @@
         "index": {
           "description": "whether or not lies on the circle",
           "hierarchy": "Data Geometry Circle",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Circle",
           "name": "onCircle",
           "normalized": "Point a-\u003eCircle a-\u003eBool",
@@ -770,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Circle",
           "name": "radius",
           "package": "hgeometry",
@@ -779,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Circle",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Circle",
           "name": "radius",
           "normalized": "a b-\u003eb",
@@ -793,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Geometry",
           "name": "Geometry",
           "package": "hgeometry",
@@ -801,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Geometry",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Geometry",
           "name": "Geometry",
           "package": "hgeometry",
@@ -814,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Geometry",
           "name": "HasPoints",
           "package": "hgeometry",
@@ -822,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Geometry",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Geometry",
           "name": "HasPoints",
           "package": "hgeometry",
@@ -836,6 +906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoint based geometries\n\u003c/p\u003e\u003cp\u003eA class that defines a point2 functor. This defines that every operation that\n we can do on a point we can also do on instances of this class. i.e. by\n applying the operation on the underlying points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Geometry",
           "name": "IsPoint2Functor",
           "package": "hgeometry",
@@ -845,6 +916,7 @@
         "index": {
           "description": "Point based geometries class that defines point2 functor This defines that every operation that we can do on point we can also do on instances of this class i.e by applying the operation on the underlying points",
           "hierarchy": "Data Geometry Geometry",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Geometry",
           "name": "IsPoint2Functor",
           "package": "hgeometry",
@@ -859,6 +931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass that indicates that something can be transformable using\n an affine transformation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Geometry",
           "name": "IsTransformable",
           "package": "hgeometry",
@@ -868,6 +941,7 @@
         "index": {
           "description": "Class that indicates that something can be transformable using an affine transformation",
           "hierarchy": "Data Geometry Geometry",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Geometry",
           "name": "IsTransformable",
           "package": "hgeometry",
@@ -881,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Geometry",
           "name": "Matrix3",
           "package": "hgeometry",
@@ -889,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Geometry",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Geometry",
           "name": "Matrix3",
           "package": "hgeometry",
@@ -903,6 +979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic linear algebra to support affine transformations in 2D\n\u003c/p\u003e\u003cp\u003eType to represent a matrix, form is:\n [ [ a11, a12, a13 ]\n   [ a21, a22, a23 ]\n   [ a31, a32, a33 ] ]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Geometry",
           "name": "Vec3",
           "package": "hgeometry",
@@ -912,6 +989,7 @@
         "index": {
           "description": "Basic linear algebra to support affine transformations in Type to represent matrix form is a11 a12 a13 a21 a22 a23 a31 a32 a33",
           "hierarchy": "Data Geometry Geometry",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Geometry",
           "name": "Vec3",
           "package": "hgeometry",
@@ -925,6 +1003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Geometry",
           "name": "Matrix3",
           "package": "hgeometry",
@@ -934,6 +1013,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Geometry",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Geometry",
           "name": "Matrix3",
           "package": "hgeometry",
@@ -947,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Geometry",
           "name": "Vec3",
           "package": "hgeometry",
@@ -956,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Geometry",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Geometry",
           "name": "Vec3",
           "normalized": "Vec(a,a,a)",
@@ -971,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Geometry",
           "name": "identityMatrix3",
           "package": "hgeometry",
@@ -980,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Geometry",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Geometry",
           "name": "identityMatrix3",
           "package": "hgeometry",
@@ -994,6 +1078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egiven a single list of 9 elements, construct a Matrix3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Geometry",
           "name": "matrix3FromList",
           "package": "hgeometry",
@@ -1004,6 +1089,7 @@
         "index": {
           "description": "given single list of elements construct Matrix3",
           "hierarchy": "Data Geometry Geometry",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Geometry",
           "name": "matrix3FromList",
           "normalized": "[a]-\u003eMatrix a",
@@ -1020,6 +1106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a 3x3 matrix as a list of lists, convert it to a Matrix3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Geometry",
           "name": "matrix3FromLists",
           "package": "hgeometry",
@@ -1030,6 +1117,7 @@
         "index": {
           "description": "Given x3 matrix as list of lists convert it to Matrix3",
           "hierarchy": "Data Geometry Geometry",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Geometry",
           "name": "matrix3FromLists",
           "normalized": "[[a]]-\u003eMatrix a",
@@ -1046,6 +1134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGather the elements of the matrix in one long list (in row by row order)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Geometry",
           "name": "matrix3ToList",
           "package": "hgeometry",
@@ -1056,6 +1145,7 @@
         "index": {
           "description": "Gather the elements of the matrix in one long list in row by row order",
           "hierarchy": "Data Geometry Geometry",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Geometry",
           "name": "matrix3ToList",
           "normalized": "Matrix a-\u003e[a]",
@@ -1071,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Geometry",
           "name": "matrix3ToLists",
           "package": "hgeometry",
@@ -1080,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Geometry",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Geometry",
           "name": "matrix3ToLists",
           "normalized": "Matrix a-\u003e[[a]]",
@@ -1095,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Geometry",
           "name": "p2fmap",
           "package": "hgeometry",
@@ -1104,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Geometry",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Geometry",
           "name": "p2fmap",
           "normalized": "(Point a-\u003ePoint b)-\u003ec a-\u003ec b",
@@ -1118,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Geometry",
           "name": "points",
           "package": "hgeometry",
@@ -1127,6 +1222,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Geometry",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Geometry",
           "name": "points",
           "normalized": "a b-\u003e[Point b]",
@@ -1141,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Geometry",
           "name": "transformWith",
           "package": "hgeometry",
@@ -1150,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Geometry",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Geometry",
           "name": "transformWith",
           "normalized": "Matrix a-\u003eb a-\u003eb a",
@@ -1165,6 +1263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Line",
           "name": "Line",
           "package": "hgeometry",
@@ -1173,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Line",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Line",
           "name": "Line",
           "package": "hgeometry",
@@ -1186,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Line",
           "name": "HasLength",
           "package": "hgeometry",
@@ -1194,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Line",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Line",
           "name": "HasLength",
           "package": "hgeometry",
@@ -1208,6 +1310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infinite line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Line",
           "name": "Line2'",
           "package": "hgeometry",
@@ -1217,6 +1320,7 @@
         "index": {
           "description": "An infinite line",
           "hierarchy": "Data Geometry Line",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Line",
           "name": "Line2'",
           "package": "hgeometry",
@@ -1230,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Line",
           "name": "LineLike",
           "package": "hgeometry",
@@ -1238,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Line",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Line",
           "name": "LineLike",
           "package": "hgeometry",
@@ -1252,6 +1358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple line segment in 2D consisint of a start and an end-point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Line",
           "name": "LineSegment2'",
           "package": "hgeometry",
@@ -1261,6 +1368,7 @@
         "index": {
           "description": "simple line segment in consisint of start and an end-point",
           "hierarchy": "Data Geometry Line",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Line",
           "name": "LineSegment2'",
           "package": "hgeometry",
@@ -1275,6 +1383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolylines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Line",
           "name": "Polyline2'",
           "package": "hgeometry",
@@ -1284,6 +1393,7 @@
         "index": {
           "description": "Polylines",
           "hierarchy": "Data Geometry Line",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Line",
           "name": "Polyline2'",
           "package": "hgeometry",
@@ -1297,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Line",
           "name": "Line2",
           "package": "hgeometry",
@@ -1306,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Line",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Line",
           "name": "Line2",
           "package": "hgeometry",
@@ -1319,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Line",
           "name": "LineSegment2",
           "package": "hgeometry",
@@ -1328,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Line",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Line",
           "name": "LineSegment2",
           "package": "hgeometry",
@@ -1341,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Line",
           "name": "Polyline2",
           "package": "hgeometry",
@@ -1350,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Line",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Line",
           "name": "Polyline2",
           "normalized": "Polyline[LineSegment a]",
@@ -1365,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Line",
           "name": "endPoint",
           "package": "hgeometry",
@@ -1374,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Line",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Line",
           "name": "endPoint",
           "package": "hgeometry",
@@ -1387,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Line",
           "name": "inRange",
           "package": "hgeometry",
@@ -1396,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Line",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Line",
           "name": "inRange",
           "normalized": "a-\u003e(a,a)-\u003eBool",
@@ -1412,6 +1532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunctions on Linesegments and Polylines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Line",
           "name": "isSimpleLine",
           "package": "hgeometry",
@@ -1422,6 +1543,7 @@
         "index": {
           "description": "functions on Linesegments and Polylines",
           "hierarchy": "Data Geometry Line",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Line",
           "name": "isSimpleLine",
           "normalized": "Polyline a-\u003eBool",
@@ -1438,6 +1560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe length of the line-like segment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Line",
           "name": "length",
           "package": "hgeometry",
@@ -1448,6 +1571,7 @@
         "index": {
           "description": "The length of the line-like segment",
           "hierarchy": "Data Geometry Line",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Line",
           "name": "length",
           "normalized": "a-\u003ePM a",
@@ -1463,6 +1587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear interpolation / points on line segments etc.\n\u003c/p\u003e\u003cp\u003esimple linear interpolation, assuming t in [0,1]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Line",
           "name": "linear",
           "package": "hgeometry",
@@ -1473,6 +1598,7 @@
         "index": {
           "description": "Linear interpolation points on line segments etc simple linear interpolation assuming in",
           "hierarchy": "Data Geometry Line",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Line",
           "name": "linear",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -1487,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Line",
           "name": "onLineSegment",
           "package": "hgeometry",
@@ -1496,6 +1623,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Line",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Line",
           "name": "onLineSegment",
           "normalized": "Point a-\u003eLineSegment a-\u003eBool",
@@ -1512,6 +1640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the point at \u003ccode\u003etime\u003c/code\u003e t (t in [0,1])\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Line",
           "name": "pointAt",
           "package": "hgeometry",
@@ -1522,6 +1651,7 @@
         "index": {
           "description": "get the point at time in",
           "hierarchy": "Data Geometry Line",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Line",
           "name": "pointAt",
           "normalized": "a-\u003eb a-\u003ePoint a",
@@ -1538,6 +1668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructing polylines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Line",
           "name": "polyLine",
           "package": "hgeometry",
@@ -1548,6 +1679,7 @@
         "index": {
           "description": "Constructing polylines",
           "hierarchy": "Data Geometry Line",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Line",
           "name": "polyLine",
           "normalized": "[Point a]-\u003ePolyline a",
@@ -1563,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Line",
           "name": "startPoint",
           "package": "hgeometry",
@@ -1572,6 +1705,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Line",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Line",
           "name": "startPoint",
           "package": "hgeometry",
@@ -1585,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Line",
           "name": "toSimpleLine",
           "package": "hgeometry",
@@ -1594,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Line",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Line",
           "name": "toSimpleLine",
           "normalized": "Polyline a-\u003eLineSegment a",
@@ -1609,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Line",
           "name": "toSimpleLineOption",
           "package": "hgeometry",
@@ -1618,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Line",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Line",
           "name": "toSimpleLineOption",
           "normalized": "Polyline a-\u003eMaybe(LineSegment a)",
@@ -1633,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Point",
           "name": "Point",
           "package": "hgeometry",
@@ -1641,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Point",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Point",
           "name": "Point",
           "package": "hgeometry",
@@ -1654,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Point",
           "name": "Point2'",
           "package": "hgeometry",
@@ -1662,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Point",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Point",
           "name": "Point2'",
           "package": "hgeometry",
@@ -1676,6 +1818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003escalar multiplication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Point",
           "name": "(|*|)",
           "package": "hgeometry",
@@ -1686,6 +1829,7 @@
         "index": {
           "description": "scalar multiplication",
           "hierarchy": "Data Geometry Point",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Point",
           "name": "(|*|) |*|",
           "normalized": "a-\u003ePoint a-\u003ePoint a",
@@ -1700,6 +1844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Point",
           "name": "(|+|)",
           "package": "hgeometry",
@@ -1709,6 +1854,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Point",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Point",
           "name": "(|+|) |+|",
           "normalized": "Point a-\u003ePoint a-\u003ePoint a",
@@ -1723,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Point",
           "name": "(|-|)",
           "package": "hgeometry",
@@ -1732,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Point",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Point",
           "name": "(|-|) |-|",
           "normalized": "Point a-\u003ePoint a-\u003ePoint a",
@@ -1747,6 +1895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edot product\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Point",
           "name": "(|@|)",
           "package": "hgeometry",
@@ -1757,6 +1906,7 @@
         "index": {
           "description": "dot product",
           "hierarchy": "Data Geometry Point",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Point",
           "name": "(|@|) |@|",
           "normalized": "Point a-\u003ePoint a-\u003ea",
@@ -1771,6 +1921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Point",
           "name": "Point2",
           "package": "hgeometry",
@@ -1780,6 +1931,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Point",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Point",
           "name": "Point2",
           "normalized": "Point(a,a)",
@@ -1796,6 +1948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeuclidean distance between p and q\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Point",
           "name": "dist",
           "package": "hgeometry",
@@ -1806,6 +1959,7 @@
         "index": {
           "description": "euclidean distance between and",
           "hierarchy": "Data Geometry Point",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Point",
           "name": "dist",
           "normalized": "Point a-\u003ePoint a-\u003ea",
@@ -1820,6 +1974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Point",
           "name": "getX",
           "package": "hgeometry",
@@ -1829,6 +1984,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Point",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Point",
           "name": "getX",
           "normalized": "Point a-\u003ea",
@@ -1843,6 +1999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Point",
           "name": "getY",
           "package": "hgeometry",
@@ -1852,6 +2009,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Point",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Point",
           "name": "getY",
           "normalized": "Point a-\u003ea",
@@ -1867,6 +2025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSquared euclidean distance between p and q\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Point",
           "name": "l22dist",
           "package": "hgeometry",
@@ -1877,6 +2036,7 @@
         "index": {
           "description": "Squared euclidean distance between and",
           "hierarchy": "Data Geometry Point",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Point",
           "name": "l22dist",
           "normalized": "Point a-\u003ePoint a-\u003ea",
@@ -1891,6 +2051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Polygon",
           "name": "Polygon",
           "package": "hgeometry",
@@ -1899,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Polygon",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Polygon",
           "name": "Polygon",
           "package": "hgeometry",
@@ -1913,6 +2075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolygons\n\u003c/p\u003e\u003cp\u003eClass that defines what a polygon is. Note that it is assumed that the\n first and the last point are *NOT* the same point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Polygon",
           "name": "IsPolygon",
           "package": "hgeometry",
@@ -1922,6 +2085,7 @@
         "index": {
           "description": "Polygons Class that defines what polygon is Note that it is assumed that the first and the last point are NOT the same point",
           "hierarchy": "Data Geometry Polygon",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Polygon",
           "name": "IsPolygon",
           "package": "hgeometry",
@@ -1936,6 +2100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA multipolygon consists of several simple polygons\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Polygon",
           "name": "MultiPolygon'",
           "package": "hgeometry",
@@ -1945,6 +2110,7 @@
         "index": {
           "description": "multipolygon consists of several simple polygons",
           "hierarchy": "Data Geometry Polygon",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Polygon",
           "name": "MultiPolygon'",
           "package": "hgeometry",
@@ -1959,6 +2125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple polygons, i.e. polygons consisting of a sequence of points (vertices)\n | such that the edges do not intersect. Simple polygons do not contain holes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Polygon",
           "name": "SimplePolygon'",
           "package": "hgeometry",
@@ -1968,6 +2135,7 @@
         "index": {
           "description": "Simple polygons i.e polygons consisting of sequence of points vertices such that the edges do not intersect Simple polygons do not contain holes",
           "hierarchy": "Data Geometry Polygon",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Polygon",
           "name": "SimplePolygon'",
           "package": "hgeometry",
@@ -1981,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Polygon",
           "name": "MultiPolygon",
           "package": "hgeometry",
@@ -1990,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Polygon",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Polygon",
           "name": "MultiPolygon",
           "normalized": "MultiPolygon[SimplePolygon' a]",
@@ -2005,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Polygon",
           "name": "SimplePolygon",
           "package": "hgeometry",
@@ -2014,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Polygon",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Polygon",
           "name": "SimplePolygon",
           "normalized": "SimplePolygon[Point a]",
@@ -2029,6 +2201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Polygon",
           "name": "containsHoles",
           "package": "hgeometry",
@@ -2038,6 +2211,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Polygon",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Polygon",
           "name": "containsHoles",
           "normalized": "a b-\u003eBool",
@@ -2054,6 +2228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault implementation assumes points are in order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Polygon",
           "name": "edges",
           "package": "hgeometry",
@@ -2064,6 +2239,7 @@
         "index": {
           "description": "default implementation assumes points are in order",
           "hierarchy": "Data Geometry Polygon",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Polygon",
           "name": "edges",
           "normalized": "a b-\u003e[(Point b,Point b)]",
@@ -2078,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Polygon",
           "name": "isSimple",
           "package": "hgeometry",
@@ -2087,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Polygon",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Polygon",
           "name": "isSimple",
           "normalized": "a b-\u003eBool",
@@ -2102,6 +2280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.Polygon",
           "name": "vertices",
           "package": "hgeometry",
@@ -2111,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry Polygon",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.Polygon",
           "name": "vertices",
           "normalized": "a b-\u003e[Point b]",
@@ -2125,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.SetOperations",
           "name": "SetOperations",
           "package": "hgeometry",
@@ -2133,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry SetOperations",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.SetOperations",
           "name": "SetOperations",
           "package": "hgeometry",
@@ -2147,6 +2329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class to represent that a pair of geometry objects (both parameterized\n over a) can be intersected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.SetOperations",
           "name": "AreIntersectable",
           "package": "hgeometry",
@@ -2156,6 +2339,7 @@
         "index": {
           "description": "class to represent that pair of geometry objects both parameterized over can be intersected",
           "hierarchy": "Data Geometry SetOperations",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.SetOperations",
           "name": "AreIntersectable",
           "package": "hgeometry",
@@ -2169,6 +2353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:31 UTC 2014",
           "module": "Data.Geometry.SetOperations",
           "name": "intersectionPoints",
           "package": "hgeometry",
@@ -2178,6 +2363,7 @@
         },
         "index": {
           "hierarchy": "Data Geometry SetOperations",
+          "indexed": "2014-03-11T18:38:31",
           "module": "Data.Geometry.SetOperations",
           "name": "intersectionPoints",
           "normalized": "a b-\u003ec b-\u003e[Point b]",

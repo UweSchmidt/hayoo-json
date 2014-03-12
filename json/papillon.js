@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "papillon"
+        "phrase": "papillon",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon.Core",
           "name": "Core",
           "package": "papillon",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon Core",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon.Core",
           "name": "Core",
           "package": "papillon",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon.Core",
           "name": "Code",
           "package": "papillon",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon Core",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon.Core",
           "name": "Code",
           "package": "papillon",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon.Core",
           "name": "Exports",
           "package": "papillon",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon Core",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon.Core",
           "name": "Exports",
           "package": "papillon",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon.Core",
           "name": "ModuleName",
           "package": "papillon",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon Core",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon.Core",
           "name": "ModuleName",
           "package": "papillon",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon.Core",
           "name": "PPragma",
           "package": "papillon",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon Core",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon.Core",
           "name": "PPragma",
           "package": "papillon",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon.Core",
           "name": "ParseError",
           "package": "papillon",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon Core",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon.Core",
           "name": "ParseError",
           "package": "papillon",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon.Core",
           "name": "Source",
           "package": "papillon",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon Core",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon.Core",
           "name": "Source",
           "package": "papillon",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon.Core",
           "name": "SourceList",
           "package": "papillon",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon Core",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon.Core",
           "name": "SourceList",
           "package": "papillon",
@@ -236,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon.Core",
           "name": "LanguagePragma",
           "package": "papillon",
@@ -245,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon Core",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon.Core",
           "name": "LanguagePragma",
           "normalized": "LanguagePragma[String]",
@@ -260,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon.Core",
           "name": "OtherPragma",
           "package": "papillon",
@@ -269,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon Core",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon.Core",
           "name": "OtherPragma",
           "package": "papillon",
@@ -282,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon.Core",
           "name": "getToken",
           "package": "papillon",
@@ -291,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon Core",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon.Core",
           "name": "getToken",
           "normalized": "a-\u003eMaybe(Token a,a)",
@@ -306,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon.Core",
           "name": "initialPos",
           "package": "papillon",
@@ -315,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon Core",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon.Core",
           "name": "initialPos",
           "package": "papillon",
@@ -328,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon.Core",
           "name": "listInitialPos",
           "package": "papillon",
@@ -337,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon Core",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon.Core",
           "name": "listInitialPos",
           "package": "papillon",
@@ -350,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon.Core",
           "name": "listToken",
           "package": "papillon",
@@ -359,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon Core",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon.Core",
           "name": "listToken",
           "normalized": "[a]-\u003eMaybe(a,[a])",
@@ -374,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon.Core",
           "name": "listUpdatePos",
           "package": "papillon",
@@ -383,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon Core",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon.Core",
           "name": "listUpdatePos",
           "normalized": "a-\u003eListPos a-\u003eListPos a",
@@ -423,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon.Core",
           "name": "papillonCore",
           "package": "papillon",
@@ -432,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon Core",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon.Core",
           "name": "papillonCore",
           "normalized": "String-\u003eDecsQ",
@@ -447,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon.Core",
           "name": "papillonFile",
           "package": "papillon",
@@ -456,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon Core",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon.Core",
           "name": "papillonFile",
           "normalized": "String-\u003eQ([PPragma],ModuleName,Maybe Exports,Code,DecsQ,Code)",
@@ -671,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon.Core",
           "name": "updatePos",
           "package": "papillon",
@@ -680,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon Core",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon.Core",
           "name": "updatePos",
           "normalized": "Token a-\u003ePos a-\u003ePos a",
@@ -695,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon",
           "name": "Papillon",
           "package": "papillon",
@@ -703,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon",
           "name": "Papillon",
           "package": "papillon",
@@ -716,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon",
           "name": "ParseError",
           "package": "papillon",
@@ -724,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon",
           "name": "ParseError",
           "package": "papillon",
@@ -737,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon",
           "name": "Source",
           "package": "papillon",
@@ -745,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon",
           "name": "Source",
           "package": "papillon",
@@ -758,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon",
           "name": "SourceList",
           "package": "papillon",
@@ -766,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon",
           "name": "SourceList",
           "package": "papillon",
@@ -779,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon",
           "name": "getToken",
           "package": "papillon",
@@ -788,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon",
           "name": "getToken",
           "normalized": "a-\u003eMaybe(Token a,a)",
@@ -803,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon",
           "name": "initialPos",
           "package": "papillon",
@@ -812,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon",
           "name": "initialPos",
           "package": "papillon",
@@ -825,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon",
           "name": "listInitialPos",
           "package": "papillon",
@@ -834,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon",
           "name": "listInitialPos",
           "package": "papillon",
@@ -847,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon",
           "name": "listToken",
           "package": "papillon",
@@ -856,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon",
           "name": "listToken",
           "normalized": "[a]-\u003eMaybe(a,[a])",
@@ -871,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon",
           "name": "listUpdatePos",
           "package": "papillon",
@@ -880,6 +933,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon",
           "name": "listUpdatePos",
           "normalized": "a-\u003eListPos a-\u003eListPos a",
@@ -895,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon",
           "name": "papillon",
           "package": "papillon",
@@ -904,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon",
           "name": "papillon",
           "package": "papillon",
@@ -916,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:04 UTC 2014",
           "module": "Text.Papillon",
           "name": "updatePos",
           "package": "papillon",
@@ -925,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Text Papillon",
+          "indexed": "2014-03-11T19:34:04",
           "module": "Text.Papillon",
           "name": "updatePos",
           "normalized": "Token a-\u003ePos a-\u003ePos a",

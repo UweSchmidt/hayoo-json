@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "special-keys"
+        "phrase": "special-keys",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Constraints",
           "name": "Constraints",
           "package": "special-keys",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Keys Constraints",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Constraints",
           "name": "Constraints",
           "package": "special-keys",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Constraints",
           "name": "Text1024",
           "package": "special-keys",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Keys Constraints",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Constraints",
           "name": "Text1024",
           "package": "special-keys",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText with a maximum of 128 characters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Constraints",
           "name": "Text128",
           "package": "special-keys",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Text with maximum of characters",
           "hierarchy": "Keys Constraints",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Constraints",
           "name": "Text128",
           "package": "special-keys",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Constraints",
           "name": "Text2048",
           "package": "special-keys",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Keys Constraints",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Constraints",
           "name": "Text2048",
           "package": "special-keys",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Constraints",
           "name": "Text256",
           "package": "special-keys",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Keys Constraints",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Constraints",
           "name": "Text256",
           "package": "special-keys",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Constraints",
           "name": "Text4096",
           "package": "special-keys",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Keys Constraints",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Constraints",
           "name": "Text4096",
           "package": "special-keys",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Constraints",
           "name": "Text512",
           "package": "special-keys",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Keys Constraints",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Constraints",
           "name": "Text512",
           "package": "special-keys",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Constraints",
           "name": "TextConstraint",
           "package": "special-keys",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Keys Constraints",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Constraints",
           "name": "TextConstraint",
           "package": "special-keys",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Constraints",
           "name": "getTxt",
           "package": "special-keys",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Keys Constraints",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Constraints",
           "name": "getTxt",
           "normalized": "a-\u003eText",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Constraints",
           "name": "t1024",
           "package": "special-keys",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Keys Constraints",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Constraints",
           "name": "t1024",
           "normalized": "Text-\u003eText",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Constraints",
           "name": "t128",
           "package": "special-keys",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Keys Constraints",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Constraints",
           "name": "t128",
           "normalized": "Text-\u003eText",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Constraints",
           "name": "t2048",
           "package": "special-keys",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Keys Constraints",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Constraints",
           "name": "t2048",
           "normalized": "Text-\u003eText",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Constraints",
           "name": "t256",
           "package": "special-keys",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Keys Constraints",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Constraints",
           "name": "t256",
           "normalized": "Text-\u003eText",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Constraints",
           "name": "t4096",
           "package": "special-keys",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Keys Constraints",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Constraints",
           "name": "t4096",
           "normalized": "Text-\u003eText",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Constraints",
           "name": "t512",
           "package": "special-keys",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Keys Constraints",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Constraints",
           "name": "t512",
           "normalized": "Text-\u003eText",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Constraints",
           "name": "txtConstraint",
           "package": "special-keys",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Keys Constraints",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Constraints",
           "name": "txtConstraint",
           "normalized": "Text-\u003ea",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Random",
           "name": "Random",
           "package": "special-keys",
@@ -382,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Keys Random",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Random",
           "name": "Random",
           "package": "special-keys",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Random",
           "name": "HasRandom",
           "package": "special-keys",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Keys Random",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Random",
           "name": "HasRandom",
           "package": "special-keys",
@@ -417,6 +453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a Char to a Word8. Took from MissingH \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Random",
           "name": "c2w8",
           "package": "special-keys",
@@ -427,6 +464,7 @@
         "index": {
           "description": "Converts Char to Word8 Took from MissingH",
           "hierarchy": "Keys Random",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Random",
           "name": "c2w8",
           "normalized": "Char-\u003eWord",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Random",
           "name": "charRangeEnd",
           "package": "special-keys",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Keys Random",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Random",
           "name": "charRangeEnd",
           "package": "special-keys",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Random",
           "name": "charRangeStart",
           "package": "special-keys",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Keys Random",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Random",
           "name": "charRangeStart",
           "package": "special-keys",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Random",
           "name": "genInt",
           "package": "special-keys",
@@ -494,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Keys Random",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Random",
           "name": "genInt",
           "normalized": "Gen(PrimState IO)-\u003eIO Int",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Random",
           "name": "genIntRange",
           "package": "special-keys",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Keys Random",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Random",
           "name": "genIntRange",
           "normalized": "(Int,Int)-\u003eGen(PrimState IO)-\u003eIO Int",
@@ -533,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Random",
           "name": "genString",
           "package": "special-keys",
@@ -542,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Keys Random",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Random",
           "name": "genString",
           "normalized": "Gen(PrimState IO)-\u003eIO ByteString",
@@ -557,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Random",
           "name": "rnd",
           "package": "special-keys",
@@ -566,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Keys Random",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Random",
           "name": "rnd",
           "package": "special-keys",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Random",
           "name": "rndInt",
           "package": "special-keys",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Keys Random",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Random",
           "name": "rndInt",
           "package": "special-keys",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Random",
           "name": "rndIntRange",
           "package": "special-keys",
@@ -609,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Keys Random",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Random",
           "name": "rndIntRange",
           "normalized": "(Int,Int)-\u003eIO Int",
@@ -624,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.Random",
           "name": "rndTxt",
           "package": "special-keys",
@@ -633,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Keys Random",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.Random",
           "name": "rndTxt",
           "package": "special-keys",
@@ -646,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.UUID",
           "name": "UUID",
           "package": "special-keys",
@@ -654,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Keys UUID",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.UUID",
           "name": "UUID",
           "package": "special-keys",
@@ -667,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.UUID",
           "name": "UUID",
           "package": "special-keys",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Keys UUID",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.UUID",
           "name": "UUID",
           "package": "special-keys",
@@ -688,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.UUID",
           "name": "UUID",
           "package": "special-keys",
@@ -697,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Keys UUID",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.UUID",
           "name": "UUID",
           "package": "special-keys",
@@ -710,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.UUID",
           "name": "nil",
           "package": "special-keys",
@@ -719,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Keys UUID",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.UUID",
           "name": "nil",
           "package": "special-keys",
@@ -731,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.UUID",
           "name": "strUUID",
           "package": "special-keys",
@@ -740,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Keys UUID",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.UUID",
           "name": "strUUID",
           "normalized": "UUID-\u003eString",
@@ -755,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.UUID",
           "name": "txtUUID",
           "package": "special-keys",
@@ -764,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Keys UUID",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.UUID",
           "name": "txtUUID",
           "normalized": "UUID-\u003eText",
@@ -779,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:00 UTC 2014",
           "module": "Keys.UUID",
           "name": "unUUID",
           "package": "special-keys",
@@ -788,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Keys UUID",
+          "indexed": "2014-03-11T20:08:00",
           "module": "Keys.UUID",
           "name": "unUUID",
           "normalized": "UUID-\u003eUUID",

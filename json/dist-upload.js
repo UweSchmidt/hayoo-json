@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dist-upload"
+        "phrase": "dist-upload",
+        "type": "phrase"
       },
       "type": "context"
     }

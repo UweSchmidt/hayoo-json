@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskelldb-hdbc-sqlite3"
+        "phrase": "haskelldb-hdbc-sqlite3",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface to the HDBC sqlite3 back-end.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:42 UTC 2014",
           "module": "Database.HaskellDB.HDBC.SQLite3",
           "name": "SQLite3",
           "package": "haskelldb-hdbc-sqlite3",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Interface to the HDBC sqlite3 back-end",
           "hierarchy": "Database HaskellDB HDBC SQLite3",
+          "indexed": "2014-03-11T18:32:42",
           "module": "Database.HaskellDB.HDBC.SQLite3",
           "name": "SQLite3",
           "package": "haskelldb-hdbc-sqlite3",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface which drivers should implement.\n   The \u003ccode\u003e\u003ca\u003econnect\u003c/a\u003e\u003c/code\u003e function takes some driver specific name, value pairs\n   use to setup the database connection, and a database action to run.\n   \u003ccode\u003e\u003ca\u003erequiredOptions\u003c/a\u003e\u003c/code\u003e lists all required options with a short description,\n   that is printed as help in the DBDirect program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:42 UTC 2014",
           "module": "Database.HaskellDB.HDBC.SQLite3",
           "name": "DriverInterface",
           "package": "haskelldb-hdbc-sqlite3",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Interface which drivers should implement The connect function takes some driver specific name value pairs use to setup the database connection and database action to run requiredOptions lists all required options with short description that is printed as help in the DBDirect program",
           "hierarchy": "Database HaskellDB HDBC SQLite3",
+          "indexed": "2014-03-11T18:32:42",
           "module": "Database.HaskellDB.HDBC.SQLite3",
           "name": "DriverInterface",
           "package": "haskelldb-hdbc-sqlite3",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:42 UTC 2014",
           "module": "Database.HaskellDB.HDBC.SQLite3",
           "name": "SQLiteOptions",
           "package": "haskelldb-hdbc-sqlite3",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBC SQLite3",
+          "indexed": "2014-03-11T18:32:42",
           "module": "Database.HaskellDB.HDBC.SQLite3",
           "name": "SQLiteOptions",
           "package": "haskelldb-hdbc-sqlite3",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:42 UTC 2014",
           "module": "Database.HaskellDB.HDBC.SQLite3",
           "name": "DriverInterface",
           "package": "haskelldb-hdbc-sqlite3",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBC SQLite3",
+          "indexed": "2014-03-11T18:32:42",
           "module": "Database.HaskellDB.HDBC.SQLite3",
           "name": "DriverInterface",
           "package": "haskelldb-hdbc-sqlite3",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:42 UTC 2014",
           "module": "Database.HaskellDB.HDBC.SQLite3",
           "name": "SQLiteOptions",
           "package": "haskelldb-hdbc-sqlite3",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBC SQLite3",
+          "indexed": "2014-03-11T18:32:42",
           "module": "Database.HaskellDB.HDBC.SQLite3",
           "name": "SQLiteOptions",
           "package": "haskelldb-hdbc-sqlite3",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:42 UTC 2014",
           "module": "Database.HaskellDB.HDBC.SQLite3",
           "name": "connect",
           "package": "haskelldb-hdbc-sqlite3",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBC SQLite3",
+          "indexed": "2014-03-11T18:32:42",
           "module": "Database.HaskellDB.HDBC.SQLite3",
           "name": "connect",
           "normalized": "[(String,String)]-\u003e(Database-\u003ea b)-\u003ea b",
@@ -150,6 +162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis driver requires the following options: \n   \u003ca\u003efilepath\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:42 UTC 2014",
           "module": "Database.HaskellDB.HDBC.SQLite3",
           "name": "driver",
           "package": "haskelldb-hdbc-sqlite3",
@@ -160,6 +173,7 @@
         "index": {
           "description": "This driver requires the following options filepath",
           "hierarchy": "Database HaskellDB HDBC SQLite3",
+          "indexed": "2014-03-11T18:32:42",
           "module": "Database.HaskellDB.HDBC.SQLite3",
           "name": "driver",
           "package": "haskelldb-hdbc-sqlite3",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:42 UTC 2014",
           "module": "Database.HaskellDB.HDBC.SQLite3",
           "name": "filepath",
           "package": "haskelldb-hdbc-sqlite3",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBC SQLite3",
+          "indexed": "2014-03-11T18:32:42",
           "module": "Database.HaskellDB.HDBC.SQLite3",
           "name": "filepath",
           "package": "haskelldb-hdbc-sqlite3",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:42 UTC 2014",
           "module": "Database.HaskellDB.HDBC.SQLite3",
           "name": "requiredOptions",
           "package": "haskelldb-hdbc-sqlite3",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBC SQLite3",
+          "indexed": "2014-03-11T18:32:42",
           "module": "Database.HaskellDB.HDBC.SQLite3",
           "name": "requiredOptions",
           "normalized": "[(String,String)]",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:42 UTC 2014",
           "module": "Database.HaskellDB.HDBC.SQLite3",
           "name": "sqliteConnect",
           "package": "haskelldb-hdbc-sqlite3",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBC SQLite3",
+          "indexed": "2014-03-11T18:32:42",
           "module": "Database.HaskellDB.HDBC.SQLite3",
           "name": "sqliteConnect",
           "normalized": "FilePath-\u003e(Database-\u003ea b)-\u003ea b",

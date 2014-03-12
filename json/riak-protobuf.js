@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "riak-protobuf"
+        "phrase": "riak-protobuf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.BucketProps",
           "name": "BucketProps",
           "package": "riak-protobuf",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol BucketProps",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.BucketProps",
           "name": "BucketProps",
           "package": "riak-protobuf",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.BucketProps",
           "name": "BucketProps",
           "package": "riak-protobuf",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol BucketProps",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.BucketProps",
           "name": "BucketProps",
           "package": "riak-protobuf",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.BucketProps",
           "name": "BucketProps",
           "package": "riak-protobuf",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol BucketProps",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.BucketProps",
           "name": "BucketProps",
           "package": "riak-protobuf",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.BucketProps",
           "name": "allow_mult",
           "package": "riak-protobuf",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol BucketProps",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.BucketProps",
           "name": "allow_mult",
           "package": "riak-protobuf",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.BucketProps",
           "name": "n_val",
           "package": "riak-protobuf",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol BucketProps",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.BucketProps",
           "name": "n_val",
           "package": "riak-protobuf",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Content",
           "name": "Content",
           "package": "riak-protobuf",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Content",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Content",
           "name": "Content",
           "package": "riak-protobuf",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Content",
           "name": "Content",
           "package": "riak-protobuf",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Content",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Content",
           "name": "Content",
           "package": "riak-protobuf",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Content",
           "name": "Content",
           "package": "riak-protobuf",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Content",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Content",
           "name": "Content",
           "package": "riak-protobuf",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Content",
           "name": "charset",
           "package": "riak-protobuf",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Content",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Content",
           "name": "charset",
           "package": "riak-protobuf",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Content",
           "name": "content_encoding",
           "package": "riak-protobuf",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Content",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Content",
           "name": "content_encoding",
           "package": "riak-protobuf",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Content",
           "name": "content_type",
           "package": "riak-protobuf",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Content",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Content",
           "name": "content_type",
           "package": "riak-protobuf",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Content",
           "name": "indexes",
           "package": "riak-protobuf",
@@ -260,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Content",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Content",
           "name": "indexes",
           "package": "riak-protobuf",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Content",
           "name": "last_mod",
           "package": "riak-protobuf",
@@ -281,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Content",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Content",
           "name": "last_mod",
           "package": "riak-protobuf",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Content",
           "name": "last_mod_usecs",
           "package": "riak-protobuf",
@@ -302,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Content",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Content",
           "name": "last_mod_usecs",
           "package": "riak-protobuf",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Content",
           "name": "links",
           "package": "riak-protobuf",
@@ -323,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Content",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Content",
           "name": "links",
           "package": "riak-protobuf",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Content",
           "name": "usermeta",
           "package": "riak-protobuf",
@@ -344,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Content",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Content",
           "name": "usermeta",
           "package": "riak-protobuf",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Content",
           "name": "value",
           "package": "riak-protobuf",
@@ -365,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Content",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Content",
           "name": "value",
           "package": "riak-protobuf",
@@ -377,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Content",
           "name": "vtag",
           "package": "riak-protobuf",
@@ -386,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Content",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Content",
           "name": "vtag",
           "package": "riak-protobuf",
@@ -398,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "DeleteRequest",
           "package": "riak-protobuf",
@@ -406,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol DeleteRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "DeleteRequest",
           "package": "riak-protobuf",
@@ -419,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "DeleteRequest",
           "package": "riak-protobuf",
@@ -427,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol DeleteRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "DeleteRequest",
           "package": "riak-protobuf",
@@ -440,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "DeleteRequest",
           "package": "riak-protobuf",
@@ -449,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol DeleteRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "DeleteRequest",
           "package": "riak-protobuf",
@@ -462,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "bucket",
           "package": "riak-protobuf",
@@ -471,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol DeleteRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "bucket",
           "package": "riak-protobuf",
@@ -483,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "dw",
           "package": "riak-protobuf",
@@ -492,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol DeleteRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "dw",
           "package": "riak-protobuf",
@@ -504,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "key",
           "package": "riak-protobuf",
@@ -513,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol DeleteRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "key",
           "package": "riak-protobuf",
@@ -525,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "pr",
           "package": "riak-protobuf",
@@ -534,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol DeleteRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "pr",
           "package": "riak-protobuf",
@@ -546,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "pw",
           "package": "riak-protobuf",
@@ -555,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol DeleteRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "pw",
           "package": "riak-protobuf",
@@ -567,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "r",
           "package": "riak-protobuf",
@@ -576,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol DeleteRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "r",
           "package": "riak-protobuf",
@@ -588,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "rw",
           "package": "riak-protobuf",
@@ -597,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol DeleteRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "rw",
           "package": "riak-protobuf",
@@ -609,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "vclock",
           "package": "riak-protobuf",
@@ -618,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol DeleteRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "vclock",
           "package": "riak-protobuf",
@@ -630,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "w",
           "package": "riak-protobuf",
@@ -639,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol DeleteRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.DeleteRequest",
           "name": "w",
           "package": "riak-protobuf",
@@ -651,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ErrorResponse",
           "name": "ErrorResponse",
           "package": "riak-protobuf",
@@ -659,6 +720,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ErrorResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ErrorResponse",
           "name": "ErrorResponse",
           "package": "riak-protobuf",
@@ -672,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ErrorResponse",
           "name": "ErrorResponse",
           "package": "riak-protobuf",
@@ -680,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ErrorResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ErrorResponse",
           "name": "ErrorResponse",
           "package": "riak-protobuf",
@@ -693,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ErrorResponse",
           "name": "ErrorResponse",
           "package": "riak-protobuf",
@@ -702,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ErrorResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ErrorResponse",
           "name": "ErrorResponse",
           "package": "riak-protobuf",
@@ -715,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ErrorResponse",
           "name": "errcode",
           "package": "riak-protobuf",
@@ -724,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ErrorResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ErrorResponse",
           "name": "errcode",
           "package": "riak-protobuf",
@@ -736,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ErrorResponse",
           "name": "errmsg",
           "package": "riak-protobuf",
@@ -745,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ErrorResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ErrorResponse",
           "name": "errmsg",
           "package": "riak-protobuf",
@@ -757,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetBucketRequest",
           "name": "GetBucketRequest",
           "package": "riak-protobuf",
@@ -765,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetBucketRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetBucketRequest",
           "name": "GetBucketRequest",
           "package": "riak-protobuf",
@@ -778,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetBucketRequest",
           "name": "GetBucketRequest",
           "package": "riak-protobuf",
@@ -786,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetBucketRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetBucketRequest",
           "name": "GetBucketRequest",
           "package": "riak-protobuf",
@@ -799,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetBucketRequest",
           "name": "GetBucketRequest",
           "package": "riak-protobuf",
@@ -808,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetBucketRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetBucketRequest",
           "name": "GetBucketRequest",
           "package": "riak-protobuf",
@@ -821,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetBucketRequest",
           "name": "bucket",
           "package": "riak-protobuf",
@@ -830,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetBucketRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetBucketRequest",
           "name": "bucket",
           "package": "riak-protobuf",
@@ -842,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetBucketResponse",
           "name": "GetBucketResponse",
           "package": "riak-protobuf",
@@ -850,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetBucketResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetBucketResponse",
           "name": "GetBucketResponse",
           "package": "riak-protobuf",
@@ -863,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetBucketResponse",
           "name": "GetBucketResponse",
           "package": "riak-protobuf",
@@ -871,6 +952,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetBucketResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetBucketResponse",
           "name": "GetBucketResponse",
           "package": "riak-protobuf",
@@ -884,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetBucketResponse",
           "name": "GetBucketResponse",
           "package": "riak-protobuf",
@@ -893,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetBucketResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetBucketResponse",
           "name": "GetBucketResponse",
           "package": "riak-protobuf",
@@ -906,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetBucketResponse",
           "name": "props",
           "package": "riak-protobuf",
@@ -915,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetBucketResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetBucketResponse",
           "name": "props",
           "package": "riak-protobuf",
@@ -927,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetClientIDRequest",
           "name": "GetClientIDRequest",
           "package": "riak-protobuf",
@@ -935,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetClientIDRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetClientIDRequest",
           "name": "GetClientIDRequest",
           "package": "riak-protobuf",
@@ -948,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetClientIDRequest",
           "name": "GetClientIDRequest",
           "package": "riak-protobuf",
@@ -956,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetClientIDRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetClientIDRequest",
           "name": "GetClientIDRequest",
           "package": "riak-protobuf",
@@ -969,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetClientIDRequest",
           "name": "GetClientIDRequest",
           "package": "riak-protobuf",
@@ -978,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetClientIDRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetClientIDRequest",
           "name": "GetClientIDRequest",
           "package": "riak-protobuf",
@@ -991,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetClientIDResponse",
           "name": "GetClientIDResponse",
           "package": "riak-protobuf",
@@ -999,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetClientIDResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetClientIDResponse",
           "name": "GetClientIDResponse",
           "package": "riak-protobuf",
@@ -1012,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetClientIDResponse",
           "name": "GetClientIDResponse",
           "package": "riak-protobuf",
@@ -1020,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetClientIDResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetClientIDResponse",
           "name": "GetClientIDResponse",
           "package": "riak-protobuf",
@@ -1033,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetClientIDResponse",
           "name": "GetClientIDResponse",
           "package": "riak-protobuf",
@@ -1042,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetClientIDResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetClientIDResponse",
           "name": "GetClientIDResponse",
           "package": "riak-protobuf",
@@ -1055,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetClientIDResponse",
           "name": "client_id",
           "package": "riak-protobuf",
@@ -1064,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetClientIDResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetClientIDResponse",
           "name": "client_id",
           "package": "riak-protobuf",
@@ -1076,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "GetRequest",
           "package": "riak-protobuf",
@@ -1084,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "GetRequest",
           "package": "riak-protobuf",
@@ -1097,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "GetRequest",
           "package": "riak-protobuf",
@@ -1105,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "GetRequest",
           "package": "riak-protobuf",
@@ -1118,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "GetRequest",
           "package": "riak-protobuf",
@@ -1127,6 +1232,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "GetRequest",
           "package": "riak-protobuf",
@@ -1140,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "basic_quorum",
           "package": "riak-protobuf",
@@ -1149,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "basic_quorum",
           "package": "riak-protobuf",
@@ -1161,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "bucket",
           "package": "riak-protobuf",
@@ -1170,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "bucket",
           "package": "riak-protobuf",
@@ -1182,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "deletedvclock",
           "package": "riak-protobuf",
@@ -1191,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "deletedvclock",
           "package": "riak-protobuf",
@@ -1203,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "head",
           "package": "riak-protobuf",
@@ -1212,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "head",
           "package": "riak-protobuf",
@@ -1224,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "if_modified",
           "package": "riak-protobuf",
@@ -1233,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "if_modified",
           "package": "riak-protobuf",
@@ -1245,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "key",
           "package": "riak-protobuf",
@@ -1254,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "key",
           "package": "riak-protobuf",
@@ -1266,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "notfound_ok",
           "package": "riak-protobuf",
@@ -1275,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "notfound_ok",
           "package": "riak-protobuf",
@@ -1287,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "pr",
           "package": "riak-protobuf",
@@ -1296,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "pr",
           "package": "riak-protobuf",
@@ -1308,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "r",
           "package": "riak-protobuf",
@@ -1317,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetRequest",
           "name": "r",
           "package": "riak-protobuf",
@@ -1329,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetResponse",
           "name": "GetResponse",
           "package": "riak-protobuf",
@@ -1337,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetResponse",
           "name": "GetResponse",
           "package": "riak-protobuf",
@@ -1350,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetResponse",
           "name": "GetResponse",
           "package": "riak-protobuf",
@@ -1358,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetResponse",
           "name": "GetResponse",
           "package": "riak-protobuf",
@@ -1371,6 +1499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetResponse",
           "name": "GetResponse",
           "package": "riak-protobuf",
@@ -1380,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetResponse",
           "name": "GetResponse",
           "package": "riak-protobuf",
@@ -1393,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetResponse",
           "name": "content",
           "package": "riak-protobuf",
@@ -1402,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetResponse",
           "name": "content",
           "package": "riak-protobuf",
@@ -1414,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetResponse",
           "name": "unchanged",
           "package": "riak-protobuf",
@@ -1423,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetResponse",
           "name": "unchanged",
           "package": "riak-protobuf",
@@ -1435,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetResponse",
           "name": "vclock",
           "package": "riak-protobuf",
@@ -1444,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetResponse",
           "name": "vclock",
           "package": "riak-protobuf",
@@ -1456,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetServerInfoRequest",
           "name": "GetServerInfoRequest",
           "package": "riak-protobuf",
@@ -1464,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetServerInfoRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetServerInfoRequest",
           "name": "GetServerInfoRequest",
           "package": "riak-protobuf",
@@ -1477,6 +1615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetServerInfoRequest",
           "name": "GetServerInfoRequest",
           "package": "riak-protobuf",
@@ -1485,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetServerInfoRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetServerInfoRequest",
           "name": "GetServerInfoRequest",
           "package": "riak-protobuf",
@@ -1498,6 +1638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.GetServerInfoRequest",
           "name": "GetServerInfoRequest",
           "package": "riak-protobuf",
@@ -1507,6 +1648,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol GetServerInfoRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.GetServerInfoRequest",
           "name": "GetServerInfoRequest",
           "package": "riak-protobuf",
@@ -1520,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Link",
           "name": "Link",
           "package": "riak-protobuf",
@@ -1528,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Link",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Link",
           "name": "Link",
           "package": "riak-protobuf",
@@ -1541,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Link",
           "name": "Link",
           "package": "riak-protobuf",
@@ -1549,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Link",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Link",
           "name": "Link",
           "package": "riak-protobuf",
@@ -1562,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Link",
           "name": "Link",
           "package": "riak-protobuf",
@@ -1571,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Link",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Link",
           "name": "Link",
           "package": "riak-protobuf",
@@ -1584,6 +1732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Link",
           "name": "bucket",
           "package": "riak-protobuf",
@@ -1593,6 +1742,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Link",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Link",
           "name": "bucket",
           "package": "riak-protobuf",
@@ -1605,6 +1755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Link",
           "name": "key",
           "package": "riak-protobuf",
@@ -1614,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Link",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Link",
           "name": "key",
           "package": "riak-protobuf",
@@ -1626,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Link",
           "name": "tag",
           "package": "riak-protobuf",
@@ -1635,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Link",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Link",
           "name": "tag",
           "package": "riak-protobuf",
@@ -1647,6 +1801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ListBucketsRequest",
           "name": "ListBucketsRequest",
           "package": "riak-protobuf",
@@ -1655,6 +1810,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ListBucketsRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ListBucketsRequest",
           "name": "ListBucketsRequest",
           "package": "riak-protobuf",
@@ -1668,6 +1824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ListBucketsRequest",
           "name": "ListBucketsRequest",
           "package": "riak-protobuf",
@@ -1676,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ListBucketsRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ListBucketsRequest",
           "name": "ListBucketsRequest",
           "package": "riak-protobuf",
@@ -1689,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ListBucketsRequest",
           "name": "ListBucketsRequest",
           "package": "riak-protobuf",
@@ -1698,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ListBucketsRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ListBucketsRequest",
           "name": "ListBucketsRequest",
           "package": "riak-protobuf",
@@ -1711,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ListBucketsResponse",
           "name": "ListBucketsResponse",
           "package": "riak-protobuf",
@@ -1719,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ListBucketsResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ListBucketsResponse",
           "name": "ListBucketsResponse",
           "package": "riak-protobuf",
@@ -1732,6 +1894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ListBucketsResponse",
           "name": "ListBucketsResponse",
           "package": "riak-protobuf",
@@ -1740,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ListBucketsResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ListBucketsResponse",
           "name": "ListBucketsResponse",
           "package": "riak-protobuf",
@@ -1753,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ListBucketsResponse",
           "name": "ListBucketsResponse",
           "package": "riak-protobuf",
@@ -1762,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ListBucketsResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ListBucketsResponse",
           "name": "ListBucketsResponse",
           "package": "riak-protobuf",
@@ -1775,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ListBucketsResponse",
           "name": "buckets",
           "package": "riak-protobuf",
@@ -1784,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ListBucketsResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ListBucketsResponse",
           "name": "buckets",
           "package": "riak-protobuf",
@@ -1796,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ListKeysRequest",
           "name": "ListKeysRequest",
           "package": "riak-protobuf",
@@ -1804,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ListKeysRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ListKeysRequest",
           "name": "ListKeysRequest",
           "package": "riak-protobuf",
@@ -1817,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ListKeysRequest",
           "name": "ListKeysRequest",
           "package": "riak-protobuf",
@@ -1825,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ListKeysRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ListKeysRequest",
           "name": "ListKeysRequest",
           "package": "riak-protobuf",
@@ -1838,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ListKeysRequest",
           "name": "ListKeysRequest",
           "package": "riak-protobuf",
@@ -1847,6 +2020,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ListKeysRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ListKeysRequest",
           "name": "ListKeysRequest",
           "package": "riak-protobuf",
@@ -1860,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ListKeysRequest",
           "name": "bucket",
           "package": "riak-protobuf",
@@ -1869,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ListKeysRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ListKeysRequest",
           "name": "bucket",
           "package": "riak-protobuf",
@@ -1881,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ListKeysResponse",
           "name": "ListKeysResponse",
           "package": "riak-protobuf",
@@ -1889,6 +2066,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ListKeysResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ListKeysResponse",
           "name": "ListKeysResponse",
           "package": "riak-protobuf",
@@ -1902,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ListKeysResponse",
           "name": "ListKeysResponse",
           "package": "riak-protobuf",
@@ -1910,6 +2089,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ListKeysResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ListKeysResponse",
           "name": "ListKeysResponse",
           "package": "riak-protobuf",
@@ -1923,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ListKeysResponse",
           "name": "ListKeysResponse",
           "package": "riak-protobuf",
@@ -1932,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ListKeysResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ListKeysResponse",
           "name": "ListKeysResponse",
           "package": "riak-protobuf",
@@ -1945,6 +2127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ListKeysResponse",
           "name": "done",
           "package": "riak-protobuf",
@@ -1954,6 +2137,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ListKeysResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ListKeysResponse",
           "name": "done",
           "package": "riak-protobuf",
@@ -1966,6 +2150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ListKeysResponse",
           "name": "keys",
           "package": "riak-protobuf",
@@ -1975,6 +2160,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ListKeysResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ListKeysResponse",
           "name": "keys",
           "package": "riak-protobuf",
@@ -1987,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.MapReduce",
           "name": "MapReduce",
           "package": "riak-protobuf",
@@ -1995,6 +2182,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol MapReduce",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.MapReduce",
           "name": "MapReduce",
           "package": "riak-protobuf",
@@ -2008,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.MapReduce",
           "name": "MapReduce",
           "package": "riak-protobuf",
@@ -2016,6 +2205,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol MapReduce",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.MapReduce",
           "name": "MapReduce",
           "package": "riak-protobuf",
@@ -2029,6 +2219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.MapReduce",
           "name": "MapReduce",
           "package": "riak-protobuf",
@@ -2038,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol MapReduce",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.MapReduce",
           "name": "MapReduce",
           "package": "riak-protobuf",
@@ -2051,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.MapReduce",
           "name": "done",
           "package": "riak-protobuf",
@@ -2060,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol MapReduce",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.MapReduce",
           "name": "done",
           "package": "riak-protobuf",
@@ -2072,6 +2266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.MapReduce",
           "name": "phase",
           "package": "riak-protobuf",
@@ -2081,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol MapReduce",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.MapReduce",
           "name": "phase",
           "package": "riak-protobuf",
@@ -2093,6 +2289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.MapReduce",
           "name": "response",
           "package": "riak-protobuf",
@@ -2102,6 +2299,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol MapReduce",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.MapReduce",
           "name": "response",
           "package": "riak-protobuf",
@@ -2114,6 +2312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.MapReduceRequest",
           "name": "MapReduceRequest",
           "package": "riak-protobuf",
@@ -2122,6 +2321,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol MapReduceRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.MapReduceRequest",
           "name": "MapReduceRequest",
           "package": "riak-protobuf",
@@ -2135,6 +2335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.MapReduceRequest",
           "name": "MapReduceRequest",
           "package": "riak-protobuf",
@@ -2143,6 +2344,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol MapReduceRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.MapReduceRequest",
           "name": "MapReduceRequest",
           "package": "riak-protobuf",
@@ -2156,6 +2358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.MapReduceRequest",
           "name": "MapReduceRequest",
           "package": "riak-protobuf",
@@ -2165,6 +2368,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol MapReduceRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.MapReduceRequest",
           "name": "MapReduceRequest",
           "package": "riak-protobuf",
@@ -2178,6 +2382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.MapReduceRequest",
           "name": "content_type",
           "package": "riak-protobuf",
@@ -2187,6 +2392,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol MapReduceRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.MapReduceRequest",
           "name": "content_type",
           "package": "riak-protobuf",
@@ -2199,6 +2405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.MapReduceRequest",
           "name": "request",
           "package": "riak-protobuf",
@@ -2208,6 +2415,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol MapReduceRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.MapReduceRequest",
           "name": "request",
           "package": "riak-protobuf",
@@ -2220,6 +2428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Pair",
           "name": "Pair",
           "package": "riak-protobuf",
@@ -2228,6 +2437,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Pair",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Pair",
           "name": "Pair",
           "package": "riak-protobuf",
@@ -2241,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Pair",
           "name": "Pair",
           "package": "riak-protobuf",
@@ -2249,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Pair",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Pair",
           "name": "Pair",
           "package": "riak-protobuf",
@@ -2262,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Pair",
           "name": "Pair",
           "package": "riak-protobuf",
@@ -2271,6 +2484,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Pair",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Pair",
           "name": "Pair",
           "package": "riak-protobuf",
@@ -2284,6 +2498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Pair",
           "name": "key",
           "package": "riak-protobuf",
@@ -2293,6 +2508,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Pair",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Pair",
           "name": "key",
           "package": "riak-protobuf",
@@ -2305,6 +2521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.Pair",
           "name": "value",
           "package": "riak-protobuf",
@@ -2314,6 +2531,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol Pair",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.Pair",
           "name": "value",
           "package": "riak-protobuf",
@@ -2326,6 +2544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PingRequest",
           "name": "PingRequest",
           "package": "riak-protobuf",
@@ -2334,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PingRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PingRequest",
           "name": "PingRequest",
           "package": "riak-protobuf",
@@ -2347,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PingRequest",
           "name": "PingRequest",
           "package": "riak-protobuf",
@@ -2355,6 +2576,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PingRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PingRequest",
           "name": "PingRequest",
           "package": "riak-protobuf",
@@ -2368,6 +2590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PingRequest",
           "name": "PingRequest",
           "package": "riak-protobuf",
@@ -2377,6 +2600,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PingRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PingRequest",
           "name": "PingRequest",
           "package": "riak-protobuf",
@@ -2390,6 +2614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "PutRequest",
           "package": "riak-protobuf",
@@ -2398,6 +2623,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PutRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "PutRequest",
           "package": "riak-protobuf",
@@ -2411,6 +2637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "PutRequest",
           "package": "riak-protobuf",
@@ -2419,6 +2646,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PutRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "PutRequest",
           "package": "riak-protobuf",
@@ -2432,6 +2660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "PutRequest",
           "package": "riak-protobuf",
@@ -2441,6 +2670,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PutRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "PutRequest",
           "package": "riak-protobuf",
@@ -2454,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "bucket",
           "package": "riak-protobuf",
@@ -2463,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PutRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "bucket",
           "package": "riak-protobuf",
@@ -2475,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "content",
           "package": "riak-protobuf",
@@ -2484,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PutRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "content",
           "package": "riak-protobuf",
@@ -2496,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "dw",
           "package": "riak-protobuf",
@@ -2505,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PutRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "dw",
           "package": "riak-protobuf",
@@ -2517,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "if_none_match",
           "package": "riak-protobuf",
@@ -2526,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PutRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "if_none_match",
           "package": "riak-protobuf",
@@ -2538,6 +2776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "if_not_modified",
           "package": "riak-protobuf",
@@ -2547,6 +2786,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PutRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "if_not_modified",
           "package": "riak-protobuf",
@@ -2559,6 +2799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "key",
           "package": "riak-protobuf",
@@ -2568,6 +2809,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PutRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "key",
           "package": "riak-protobuf",
@@ -2580,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "pw",
           "package": "riak-protobuf",
@@ -2589,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PutRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "pw",
           "package": "riak-protobuf",
@@ -2601,6 +2845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "return_body",
           "package": "riak-protobuf",
@@ -2610,6 +2855,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PutRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "return_body",
           "package": "riak-protobuf",
@@ -2622,6 +2868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "return_head",
           "package": "riak-protobuf",
@@ -2631,6 +2878,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PutRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "return_head",
           "package": "riak-protobuf",
@@ -2643,6 +2891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "vclock",
           "package": "riak-protobuf",
@@ -2652,6 +2901,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PutRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "vclock",
           "package": "riak-protobuf",
@@ -2664,6 +2914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "w",
           "package": "riak-protobuf",
@@ -2673,6 +2924,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PutRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PutRequest",
           "name": "w",
           "package": "riak-protobuf",
@@ -2685,6 +2937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PutResponse",
           "name": "PutResponse",
           "package": "riak-protobuf",
@@ -2693,6 +2946,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PutResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PutResponse",
           "name": "PutResponse",
           "package": "riak-protobuf",
@@ -2706,6 +2960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PutResponse",
           "name": "PutResponse",
           "package": "riak-protobuf",
@@ -2714,6 +2969,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PutResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PutResponse",
           "name": "PutResponse",
           "package": "riak-protobuf",
@@ -2727,6 +2983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PutResponse",
           "name": "PutResponse",
           "package": "riak-protobuf",
@@ -2736,6 +2993,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PutResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PutResponse",
           "name": "PutResponse",
           "package": "riak-protobuf",
@@ -2749,6 +3007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PutResponse",
           "name": "content",
           "package": "riak-protobuf",
@@ -2758,6 +3017,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PutResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PutResponse",
           "name": "content",
           "package": "riak-protobuf",
@@ -2770,6 +3030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PutResponse",
           "name": "key",
           "package": "riak-protobuf",
@@ -2779,6 +3040,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PutResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PutResponse",
           "name": "key",
           "package": "riak-protobuf",
@@ -2791,6 +3053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.PutResponse",
           "name": "vclock",
           "package": "riak-protobuf",
@@ -2800,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol PutResponse",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.PutResponse",
           "name": "vclock",
           "package": "riak-protobuf",
@@ -2812,6 +3076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ServerInfo",
           "name": "ServerInfo",
           "package": "riak-protobuf",
@@ -2820,6 +3085,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ServerInfo",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ServerInfo",
           "name": "ServerInfo",
           "package": "riak-protobuf",
@@ -2833,6 +3099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ServerInfo",
           "name": "ServerInfo",
           "package": "riak-protobuf",
@@ -2841,6 +3108,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ServerInfo",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ServerInfo",
           "name": "ServerInfo",
           "package": "riak-protobuf",
@@ -2854,6 +3122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ServerInfo",
           "name": "ServerInfo",
           "package": "riak-protobuf",
@@ -2863,6 +3132,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ServerInfo",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ServerInfo",
           "name": "ServerInfo",
           "package": "riak-protobuf",
@@ -2876,6 +3146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ServerInfo",
           "name": "node",
           "package": "riak-protobuf",
@@ -2885,6 +3156,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ServerInfo",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ServerInfo",
           "name": "node",
           "package": "riak-protobuf",
@@ -2897,6 +3169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.ServerInfo",
           "name": "server_version",
           "package": "riak-protobuf",
@@ -2906,6 +3179,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol ServerInfo",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.ServerInfo",
           "name": "server_version",
           "package": "riak-protobuf",
@@ -2918,6 +3192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.SetBucketRequest",
           "name": "SetBucketRequest",
           "package": "riak-protobuf",
@@ -2926,6 +3201,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol SetBucketRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.SetBucketRequest",
           "name": "SetBucketRequest",
           "package": "riak-protobuf",
@@ -2939,6 +3215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.SetBucketRequest",
           "name": "SetBucketRequest",
           "package": "riak-protobuf",
@@ -2947,6 +3224,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol SetBucketRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.SetBucketRequest",
           "name": "SetBucketRequest",
           "package": "riak-protobuf",
@@ -2960,6 +3238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.SetBucketRequest",
           "name": "SetBucketRequest",
           "package": "riak-protobuf",
@@ -2969,6 +3248,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol SetBucketRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.SetBucketRequest",
           "name": "SetBucketRequest",
           "package": "riak-protobuf",
@@ -2982,6 +3262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.SetBucketRequest",
           "name": "bucket",
           "package": "riak-protobuf",
@@ -2991,6 +3272,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol SetBucketRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.SetBucketRequest",
           "name": "bucket",
           "package": "riak-protobuf",
@@ -3003,6 +3285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.SetBucketRequest",
           "name": "props",
           "package": "riak-protobuf",
@@ -3012,6 +3295,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol SetBucketRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.SetBucketRequest",
           "name": "props",
           "package": "riak-protobuf",
@@ -3024,6 +3308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.SetClientIDRequest",
           "name": "SetClientIDRequest",
           "package": "riak-protobuf",
@@ -3032,6 +3317,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol SetClientIDRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.SetClientIDRequest",
           "name": "SetClientIDRequest",
           "package": "riak-protobuf",
@@ -3045,6 +3331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.SetClientIDRequest",
           "name": "SetClientIDRequest",
           "package": "riak-protobuf",
@@ -3053,6 +3340,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol SetClientIDRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.SetClientIDRequest",
           "name": "SetClientIDRequest",
           "package": "riak-protobuf",
@@ -3066,6 +3354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.SetClientIDRequest",
           "name": "SetClientIDRequest",
           "package": "riak-protobuf",
@@ -3075,6 +3364,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol SetClientIDRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.SetClientIDRequest",
           "name": "SetClientIDRequest",
           "package": "riak-protobuf",
@@ -3088,6 +3378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:29 UTC 2014",
           "module": "Network.Riak.Protocol.SetClientIDRequest",
           "name": "client_id",
           "package": "riak-protobuf",
@@ -3097,6 +3388,7 @@
         },
         "index": {
           "hierarchy": "Network Riak Protocol SetClientIDRequest",
+          "indexed": "2014-03-11T19:54:29",
           "module": "Network.Riak.Protocol.SetClientIDRequest",
           "name": "client_id",
           "package": "riak-protobuf",

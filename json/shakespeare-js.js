@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "shakespeare-js"
+        "phrase": "shakespeare-js",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Shakespearean module for CoffeeScript, introducing type-safe,\n compile-time variable and url interpolation. It is exactly the same as\n \u003ca\u003eText.Julius\u003c/a\u003e, except that the template is first compiled to Javascript with\n the system tool \u003ccode\u003ecoffee\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTo use this module, \u003ccode\u003ecoffee\u003c/code\u003e must be installed on your system.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e#{...}\u003c/code\u003e is the Shakespearean standard for variable interpolation, but\n CoffeeScript already uses that sequence for string interpolation. Therefore,\n Shakespearean interpolation is introduced with \u003ccode\u003e%{...}\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf you interpolate variables,\n the template is first wrapped with a function containing javascript variables representing shakespeare variables,\n then compiled with \u003ccode\u003ecoffee\u003c/code\u003e,\n and then the value of the variables are applied to the function.\n This means that in production the template can be compiled\n once at compile time and there will be no dependency in your production\n system on \u003ccode\u003ecoffee\u003c/code\u003e. \n\u003c/p\u003e\u003cp\u003eYour code:\n\u003c/p\u003e\u003cpre\u003e   b = 1\n   console.log(#{a} + b)\n\u003c/pre\u003e\u003cp\u003eFunction wrapper added to your coffeescript code:\n\u003c/p\u003e\u003cpre\u003e ((shakespeare_var_a) =\u003e\n   b = 1\n   console.log(shakespeare_var_a + b)\n )\n\u003c/pre\u003e\u003cp\u003eThis is then compiled down to javascript, and the variables are applied:\n\u003c/p\u003e\u003cpre\u003e ;(function(shakespeare_var_a){\n   var b = 1;\n   console.log(shakespeare_var_a + b);\n })(#{a});\n\u003c/pre\u003e\u003cp\u003eFurther reading:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e Shakespearean templates: \u003ca\u003ehttp://www.yesodweb.com/book/templates\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e CoffeeScript: \u003ca\u003ehttp://coffeescript.org/\u003c/a\u003e\n\u003c/li\u003e\u003c/ol\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Coffee",
           "name": "Coffee",
           "package": "shakespeare-js",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Shakespearean module for CoffeeScript introducing type-safe compile-time variable and url interpolation It is exactly the same as Text.Julius except that the template is first compiled to Javascript with the system tool coffee To use this module coffee must be installed on your system is the Shakespearean standard for variable interpolation but CoffeeScript already uses that sequence for string interpolation Therefore Shakespearean interpolation is introduced with If you interpolate variables the template is first wrapped with function containing javascript variables representing shakespeare variables then compiled with coffee and then the value of the variables are applied to the function This means that in production the template can be compiled once at compile time and there will be no dependency in your production system on coffee Your code console.log Function wrapper added to your coffeescript code shakespeare var console.log shakespeare var This is then compiled down to javascript and the variables are applied function shakespeare var var console.log shakespeare var Further reading Shakespearean templates http www.yesodweb.com book templates CoffeeScript http coffeescript.org",
           "hierarchy": "Text Coffee",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Coffee",
           "name": "Coffee",
           "package": "shakespeare-js",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead inline, quasiquoted CoffeeScript.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Coffee",
           "name": "coffee",
           "package": "shakespeare-js",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Read inline quasiquoted CoffeeScript",
           "hierarchy": "Text Coffee",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Coffee",
           "name": "coffee",
           "package": "shakespeare-js",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead in a CoffeeScript template file. This function reads the file once, at\n compile time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Coffee",
           "name": "coffeeFile",
           "package": "shakespeare-js",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Read in CoffeeScript template file This function reads the file once at compile time",
           "hierarchy": "Text Coffee",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Coffee",
           "name": "coffeeFile",
           "normalized": "FilePath-\u003eQ Exp",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Please use coffeeFileReload instead.\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eDeprecated synonym for \u003ccode\u003e\u003ca\u003ecoffeeFileReload\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Coffee",
           "name": "coffeeFileDebug",
           "package": "shakespeare-js",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Deprecated Please use coffeeFileReload instead Deprecated synonym for coffeeFileReload",
           "hierarchy": "Text Coffee",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Coffee",
           "name": "coffeeFileDebug",
           "normalized": "FilePath-\u003eQ Exp",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead in a CoffeeScript template file. This impure function uses\n unsafePerformIO to re-read the file on every call, allowing for rapid\n iteration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Coffee",
           "name": "coffeeFileReload",
           "package": "shakespeare-js",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Read in CoffeeScript template file This impure function uses unsafePerformIO to re-read the file on every call allowing for rapid iteration",
           "hierarchy": "Text Coffee",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Coffee",
           "name": "coffeeFileReload",
           "normalized": "FilePath-\u003eQ Exp",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Shakespearean module for Javascript templates, introducing type-safe,\n compile-time variable and url interpolation.--\n\u003c/p\u003e\u003cp\u003eYou might consider trying \u003ccode\u003e\u003ca\u003eTypescript\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eCoffee\u003c/a\u003e\u003c/code\u003e which compile down to Javascript.\n\u003c/p\u003e\u003cp\u003eFurther reading: \u003ca\u003ehttp://www.yesodweb.com/book/templates\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "Julius",
           "package": "shakespeare-js",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Shakespearean module for Javascript templates introducing type-safe compile-time variable and url interpolation You might consider trying Typescript or Coffee which compile down to Javascript Further reading http www.yesodweb.com book templates",
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "Julius",
           "package": "shakespeare-js",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype wrapper of \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "Javascript",
           "package": "shakespeare-js",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Newtype wrapper of Builder",
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "Javascript",
           "package": "shakespeare-js",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn type of template-reading functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "JavascriptUrl",
           "package": "shakespeare-js",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Return type of template-reading functions",
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "JavascriptUrl",
           "package": "shakespeare-js",
@@ -211,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "RawJS",
           "package": "shakespeare-js",
@@ -219,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "RawJS",
           "package": "shakespeare-js",
@@ -232,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "RawJavascript",
           "package": "shakespeare-js",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "RawJavascript",
           "package": "shakespeare-js",
@@ -254,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA typeclass for types that can be interpolated in CoffeeScript templates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "ToJavascript",
           "package": "shakespeare-js",
@@ -263,6 +284,7 @@
         "index": {
           "description": "typeclass for types that can be interpolated in CoffeeScript templates",
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "ToJavascript",
           "package": "shakespeare-js",
@@ -276,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "Javascript",
           "package": "shakespeare-js",
@@ -285,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "Javascript",
           "package": "shakespeare-js",
@@ -298,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "RawJavascript",
           "package": "shakespeare-js",
@@ -307,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "RawJavascript",
           "package": "shakespeare-js",
@@ -320,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "asJavascriptUrl",
           "package": "shakespeare-js",
@@ -329,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "asJavascriptUrl",
           "normalized": "JavascriptUrl a-\u003eJavascriptUrl a",
@@ -344,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "javascriptSettings",
           "package": "shakespeare-js",
@@ -353,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "javascriptSettings",
           "package": "shakespeare-js",
@@ -366,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "js",
           "package": "shakespeare-js",
@@ -375,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "js",
           "package": "shakespeare-js",
@@ -387,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "jsFile",
           "package": "shakespeare-js",
@@ -396,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "jsFile",
           "normalized": "FilePath-\u003eQ Exp",
@@ -412,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Please use jsFileReload instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "jsFileDebug",
           "package": "shakespeare-js",
@@ -422,6 +457,7 @@
         "index": {
           "description": "Deprecated Please use jsFileReload instead",
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "jsFileDebug",
           "normalized": "FilePath-\u003eQ Exp",
@@ -437,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "jsFileReload",
           "package": "shakespeare-js",
@@ -446,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "jsFileReload",
           "normalized": "FilePath-\u003eQ Exp",
@@ -461,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "julius",
           "package": "shakespeare-js",
@@ -470,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "julius",
           "package": "shakespeare-js",
@@ -482,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "juliusFile",
           "package": "shakespeare-js",
@@ -491,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "juliusFile",
           "normalized": "FilePath-\u003eQ Exp",
@@ -507,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Please use juliusFileReload instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "juliusFileDebug",
           "package": "shakespeare-js",
@@ -517,6 +560,7 @@
         "index": {
           "description": "Deprecated Please use juliusFileReload instead",
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "juliusFileDebug",
           "normalized": "FilePath-\u003eQ Exp",
@@ -532,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "juliusFileReload",
           "package": "shakespeare-js",
@@ -541,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "juliusFileReload",
           "normalized": "FilePath-\u003eQ Exp",
@@ -557,6 +603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine which identifiers are used by the given template, useful for\n creating systems like yesod devel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "juliusUsedIdentifiers",
           "package": "shakespeare-js",
@@ -567,6 +614,7 @@
         "index": {
           "description": "Determine which identifiers are used by the given template useful for creating systems like yesod devel",
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "juliusUsedIdentifiers",
           "normalized": "String-\u003e[(Deref,VarType)]",
@@ -582,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "rawJS",
           "package": "shakespeare-js",
@@ -591,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "rawJS",
           "normalized": "a-\u003eRawJavascript",
@@ -606,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "renderJavascript",
           "package": "shakespeare-js",
@@ -615,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "renderJavascript",
           "normalized": "Javascript-\u003eText",
@@ -631,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erender with route interpolation. If using this module standalone, apart\n from type-safe routes, a dummy renderer can be used:\n\u003c/p\u003e\u003cpre\u003e renderJavascriptUrl (\\_ _ -\u003e undefined) javascriptUrl\n\u003c/pre\u003e\u003cp\u003eWhen using Yesod, a renderer is generated for you, which can be accessed\n within the GHandler monad: \u003ccode\u003e\u003ca\u003egetUrlRenderParams\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "renderJavascriptUrl",
           "package": "shakespeare-js",
@@ -641,6 +694,7 @@
         "index": {
           "description": "render with route interpolation If using this module standalone apart from type-safe routes dummy renderer can be used renderJavascriptUrl undefined javascriptUrl When using Yesod renderer is generated for you which can be accessed within the GHandler monad getUrlRenderParams",
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "renderJavascriptUrl",
           "normalized": "(a-\u003e[(Text,Text)]-\u003eText)-\u003eJavascriptUrl a-\u003eText",
@@ -656,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "toJavascript",
           "package": "shakespeare-js",
@@ -665,6 +720,7 @@
         },
         "index": {
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "toJavascript",
           "normalized": "a-\u003eJavascript",
@@ -680,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Julius",
           "name": "unJavascript",
           "package": "shakespeare-js",
@@ -689,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Text Julius",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Julius",
           "name": "unJavascript",
           "package": "shakespeare-js",
@@ -703,6 +761,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Shakespearean module for Roy, introducing type-safe,\n compile-time variable and url interpolation. It is exactly the same as\n \u003ca\u003eText.Julius\u003c/a\u003e, except that the template is first compiled to Javascript with\n the system tool \u003ccode\u003eroy\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTo use this module, \u003ccode\u003eroy\u003c/code\u003e must be installed on your system.\n\u003c/p\u003e\u003cp\u003eIf you interpolate variables,\n the template is first wrapped with a function containing javascript variables representing shakespeare variables,\n then compiled with \u003ccode\u003eroy\u003c/code\u003e,\n and then the value of the variables are applied to the function.\n This means that in production the template can be compiled\n once at compile time and there will be no dependency in your production\n system on \u003ccode\u003eroy\u003c/code\u003e. \n\u003c/p\u003e\u003cp\u003eYour code:\n\u003c/p\u003e\u003cpre\u003e let b = 1\n console.log(#{a} + b)\n\u003c/pre\u003e\u003cp\u003eFinal Result:\n\u003c/p\u003e\u003cpre\u003e ;(function(shakespeare_var_a){\n   var b = 1;\n   console.log(shakespeare_var_a + b);\n })(#{a});\n\u003c/pre\u003e\u003cp\u003eFurther reading:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e Shakespearean templates: \u003ca\u003ehttp://www.yesodweb.com/book/templates\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Roy: \u003ca\u003ehttp://roy.brianmckenna.org/\u003c/a\u003e\n\u003c/li\u003e\u003c/ol\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Roy",
           "name": "Roy",
           "package": "shakespeare-js",
@@ -712,6 +771,7 @@
         "index": {
           "description": "Shakespearean module for Roy introducing type-safe compile-time variable and url interpolation It is exactly the same as Text.Julius except that the template is first compiled to Javascript with the system tool roy To use this module roy must be installed on your system If you interpolate variables the template is first wrapped with function containing javascript variables representing shakespeare variables then compiled with roy and then the value of the variables are applied to the function This means that in production the template can be compiled once at compile time and there will be no dependency in your production system on roy Your code let console.log Final Result function shakespeare var var console.log shakespeare var Further reading Shakespearean templates http www.yesodweb.com book templates Roy http roy.brianmckenna.org",
           "hierarchy": "Text Roy",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Roy",
           "name": "Roy",
           "package": "shakespeare-js",
@@ -726,6 +786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead inline, quasiquoted Roy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Roy",
           "name": "roy",
           "package": "shakespeare-js",
@@ -736,6 +797,7 @@
         "index": {
           "description": "Read inline quasiquoted Roy",
           "hierarchy": "Text Roy",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Roy",
           "name": "roy",
           "package": "shakespeare-js",
@@ -749,6 +811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead in a Roy template file. This function reads the file once, at\n compile time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Roy",
           "name": "royFile",
           "package": "shakespeare-js",
@@ -759,6 +822,7 @@
         "index": {
           "description": "Read in Roy template file This function reads the file once at compile time",
           "hierarchy": "Text Roy",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Roy",
           "name": "royFile",
           "normalized": "FilePath-\u003eQ Exp",
@@ -775,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead in a Roy template file. This impure function uses\n unsafePerformIO to re-read the file on every call, allowing for rapid\n iteration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.Roy",
           "name": "royFileReload",
           "package": "shakespeare-js",
@@ -785,6 +850,7 @@
         "index": {
           "description": "Read in Roy template file This impure function uses unsafePerformIO to re-read the file on every call allowing for rapid iteration",
           "hierarchy": "Text Roy",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.Roy",
           "name": "royFileReload",
           "normalized": "FilePath-\u003eQ Exp",
@@ -801,6 +867,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Shakespearean module for TypeScript, introducing type-safe,\n compile-time variable and url interpolation. It is exactly the same as\n \u003ca\u003eText.Julius\u003c/a\u003e, except that the template is first compiled to Javascript with\n the system tool \u003ccode\u003etsc\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTo use this module, \u003ccode\u003etsc\u003c/code\u003e must be installed on your system.\n\u003c/p\u003e\u003cp\u003eIf you interpolate variables,\n the template is first wrapped with a function containing javascript variables representing shakespeare variables,\n then compiled with \u003ccode\u003etsc\u003c/code\u003e,\n and then the value of the variables are applied to the function.\n This means that in production the template can be compiled\n once at compile time and there will be no dependency in your production\n system on \u003ccode\u003etsc\u003c/code\u003e. \n\u003c/p\u003e\u003cp\u003eYour code:\n\u003c/p\u003e\u003cpre\u003e var b = 1\n console.log(#{a} + b)\n\u003c/pre\u003e\u003cp\u003eFinal Result:\n\u003c/p\u003e\u003cpre\u003e ;(function(shakespeare_var_a){\n   var b = 1;\n   console.log(shakespeare_var_a + b);\n })(#{a});\n\u003c/pre\u003e\u003cp\u003eImportant Warnings! This integration is not ideal.\n\u003c/p\u003e\u003cp\u003eDue to the function wrapper, all type declarations must be in separate .d.ts files.\n However, if you don't interpolate variables, no function wrapper will be\n created, and you can make type declarations in the same file.\n\u003c/p\u003e\u003cp\u003eThis does not work cross-platform!\n\u003c/p\u003e\u003cp\u003eUnfortunately tsc does not support stdin and stdout.\n So a hack of writing to temporary files using the mktemp\n command is used. This works on my version of Linux, but not for windows\n unless perhaps you install a mktemp utility, which I have not tested.\n Please vote up this bug: \u003ca\u003ehttp://typescript.codeplex.com/workitem/600\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eMaking this work on Windows would not be very difficult, it will just require a new\n package with a dependency on a package like temporary.\n\u003c/p\u003e\u003cp\u003eFurther reading:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e Shakespearean templates: \u003ca\u003ehttp://www.yesodweb.com/book/templates\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e TypeScript: \u003ca\u003ehttp://typescript.codeplex.com/\u003c/a\u003e\n\u003c/li\u003e\u003c/ol\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.TypeScript",
           "name": "TypeScript",
           "package": "shakespeare-js",
@@ -810,6 +877,7 @@
         "index": {
           "description": "Shakespearean module for TypeScript introducing type-safe compile-time variable and url interpolation It is exactly the same as Text.Julius except that the template is first compiled to Javascript with the system tool tsc To use this module tsc must be installed on your system If you interpolate variables the template is first wrapped with function containing javascript variables representing shakespeare variables then compiled with tsc and then the value of the variables are applied to the function This means that in production the template can be compiled once at compile time and there will be no dependency in your production system on tsc Your code var console.log Final Result function shakespeare var var console.log shakespeare var Important Warnings This integration is not ideal Due to the function wrapper all type declarations must be in separate d.ts files However if you don interpolate variables no function wrapper will be created and you can make type declarations in the same file This does not work cross-platform Unfortunately tsc does not support stdin and stdout So hack of writing to temporary files using the mktemp command is used This works on my version of Linux but not for windows unless perhaps you install mktemp utility which have not tested Please vote up this bug http typescript.codeplex.com workitem Making this work on Windows would not be very difficult it will just require new package with dependency on package like temporary Further reading Shakespearean templates http www.yesodweb.com book templates TypeScript http typescript.codeplex.com",
           "hierarchy": "Text TypeScript",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.TypeScript",
           "name": "TypeScript",
           "package": "shakespeare-js",
@@ -824,6 +892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead inline, quasiquoted TypeScript\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.TypeScript",
           "name": "tsc",
           "package": "shakespeare-js",
@@ -834,6 +903,7 @@
         "index": {
           "description": "Read inline quasiquoted TypeScript",
           "hierarchy": "Text TypeScript",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.TypeScript",
           "name": "tsc",
           "package": "shakespeare-js",
@@ -847,6 +917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead in a TypeScript template file. This function reads the file once, at\n compile time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.TypeScript",
           "name": "typeScriptFile",
           "package": "shakespeare-js",
@@ -857,6 +928,7 @@
         "index": {
           "description": "Read in TypeScript template file This function reads the file once at compile time",
           "hierarchy": "Text TypeScript",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.TypeScript",
           "name": "typeScriptFile",
           "normalized": "FilePath-\u003eQ Exp",
@@ -873,6 +945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead in a Roy template file. This impure function uses\n unsafePerformIO to re-read the file on every call, allowing for rapid\n iteration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:11 UTC 2014",
           "module": "Text.TypeScript",
           "name": "typeScriptFileReload",
           "package": "shakespeare-js",
@@ -883,6 +956,7 @@
         "index": {
           "description": "Read in Roy template file This impure function uses unsafePerformIO to re-read the file on every call allowing for rapid iteration",
           "hierarchy": "Text TypeScript",
+          "indexed": "2014-03-11T20:01:11",
           "module": "Text.TypeScript",
           "name": "typeScriptFileReload",
           "normalized": "FilePath-\u003eQ Exp",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "intel-aes"
+        "phrase": "intel-aes",
+        "type": "phrase"
       },
       "type": "context"
     }

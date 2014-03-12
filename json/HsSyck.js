@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HsSyck"
+        "phrase": "HsSyck",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "Syck",
           "package": "HsSyck",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "Syck",
           "package": "HsSyck",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "SYMID",
           "package": "HsSyck",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "SYMID",
           "package": "HsSyck",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "YamlAnchor",
           "package": "HsSyck",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "YamlAnchor",
           "package": "HsSyck",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "YamlElem",
           "package": "HsSyck",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "YamlElem",
           "package": "HsSyck",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "YamlNode",
           "package": "HsSyck",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "YamlNode",
           "package": "HsSyck",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "AAnchor",
           "package": "HsSyck",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "AAnchor",
           "package": "HsSyck",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "AReference",
           "package": "HsSyck",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "AReference",
           "package": "HsSyck",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "ASingleton",
           "package": "HsSyck",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "ASingleton",
           "package": "HsSyck",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "EMap",
           "package": "HsSyck",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "EMap",
           "normalized": "EMap[(YamlNode,YamlNode)]",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "ENil",
           "package": "HsSyck",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "ENil",
           "package": "HsSyck",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "ESeq",
           "package": "HsSyck",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "ESeq",
           "normalized": "ESeq[YamlNode]",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "EStr",
           "package": "HsSyck",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "EStr",
           "package": "HsSyck",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "MkNode",
           "package": "HsSyck",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "MkNode",
           "package": "HsSyck",
@@ -304,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump a YAML node into a regular Haskell string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "emitYaml",
           "package": "HsSyck",
@@ -314,6 +341,7 @@
         "index": {
           "description": "Dump YAML node into regular Haskell string",
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "emitYaml",
           "normalized": "YamlNode-\u003eIO String",
@@ -329,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "emitYamlBytes",
           "package": "HsSyck",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "emitYamlBytes",
           "normalized": "YamlNode-\u003eIO Buf",
@@ -354,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a file name, dump a YAML node into that file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "emitYamlFile",
           "package": "HsSyck",
@@ -364,6 +395,7 @@
         "index": {
           "description": "Given file name dump YAML node into that file",
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "emitYamlFile",
           "normalized": "FilePath-\u003eYamlNode-\u003eIO()",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "mkNode",
           "package": "HsSyck",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "mkNode",
           "normalized": "YamlElem-\u003eYamlNode",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "mkTagNode",
           "package": "HsSyck",
@@ -412,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "mkTagNode",
           "normalized": "String-\u003eYamlElem-\u003eYamlNode",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "mkTagStrNode",
           "package": "HsSyck",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "mkTagStrNode",
           "normalized": "String-\u003eString-\u003eYamlNode",
@@ -451,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "n_anchor",
           "package": "HsSyck",
@@ -460,6 +499,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "n_anchor",
           "package": "HsSyck",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "n_elem",
           "package": "HsSyck",
@@ -481,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "n_elem",
           "package": "HsSyck",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "n_id",
           "package": "HsSyck",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "n_id",
           "package": "HsSyck",
@@ -514,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "n_tag",
           "package": "HsSyck",
@@ -523,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "n_tag",
           "package": "HsSyck",
@@ -535,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "nilNode",
           "package": "HsSyck",
@@ -544,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "nilNode",
           "package": "HsSyck",
@@ -558,6 +606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a regular Haskell string into a ByteString buffer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "packBuf",
           "package": "HsSyck",
@@ -568,6 +617,7 @@
         "index": {
           "description": "Convert regular Haskell string into ByteString buffer",
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "packBuf",
           "normalized": "String-\u003eBuf",
@@ -584,6 +634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a regular Haskell string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "parseYaml",
           "package": "HsSyck",
@@ -594,6 +645,7 @@
         "index": {
           "description": "Parse regular Haskell string",
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "parseYaml",
           "normalized": "String-\u003eIO YamlNode",
@@ -610,6 +662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a ByteString buffer (this is faster)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "parseYamlBytes",
           "package": "HsSyck",
@@ -620,6 +673,7 @@
         "index": {
           "description": "Parse ByteString buffer this is faster",
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "parseYamlBytes",
           "normalized": "Buf-\u003eIO YamlNode",
@@ -636,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a file name, parse contents of file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "parseYamlFile",
           "package": "HsSyck",
@@ -646,6 +701,7 @@
         "index": {
           "description": "Given file name parse contents of file",
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "parseYamlFile",
           "normalized": "String-\u003eIO YamlNode",
@@ -661,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "tagNode",
           "package": "HsSyck",
@@ -670,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "tagNode",
           "normalized": "YamlTag-\u003eYamlNode-\u003eYamlNode",
@@ -686,6 +744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a ByteString buffer into a regular Haskell string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:19 UTC 2014",
           "module": "Data.Yaml.Syck",
           "name": "unpackBuf",
           "package": "HsSyck",
@@ -696,6 +755,7 @@
         "index": {
           "description": "Convert ByteString buffer into regular Haskell string",
           "hierarchy": "Data Yaml Syck",
+          "indexed": "2014-03-11T16:49:19",
           "module": "Data.Yaml.Syck",
           "name": "unpackBuf",
           "normalized": "Buf-\u003eString",

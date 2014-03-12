@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hs-cdb"
+        "phrase": "hs-cdb",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:44 UTC 2014",
           "module": "Database.CDB.Packable",
           "name": "Packable",
           "package": "hs-cdb",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database CDB Packable",
+          "indexed": "2014-03-11T18:45:44",
           "module": "Database.CDB.Packable",
           "name": "Packable",
           "package": "hs-cdb",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn instance of \u003ccode\u003e\u003ca\u003ePackable\u003c/a\u003e\u003c/code\u003e can be losslessly transformed into a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:44 UTC 2014",
           "module": "Database.CDB.Packable",
           "name": "Packable",
           "package": "hs-cdb",
@@ -49,6 +52,7 @@
         "index": {
           "description": "An instance of Packable can be losslessly transformed into ByteString",
           "hierarchy": "Database CDB Packable",
+          "indexed": "2014-03-11T18:45:44",
           "module": "Database.CDB.Packable",
           "name": "Packable",
           "package": "hs-cdb",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn instance of \u003ccode\u003e\u003ca\u003eUnpackable\u003c/a\u003e\u003c/code\u003e can be losslessly transformed from a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:44 UTC 2014",
           "module": "Database.CDB.Packable",
           "name": "Unpackable",
           "package": "hs-cdb",
@@ -72,6 +77,7 @@
         "index": {
           "description": "An instance of Unpackable can be losslessly transformed from ByteString",
           "hierarchy": "Database CDB Packable",
+          "indexed": "2014-03-11T18:45:44",
           "module": "Database.CDB.Packable",
           "name": "Unpackable",
           "package": "hs-cdb",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:44 UTC 2014",
           "module": "Database.CDB.Packable",
           "name": "pack",
           "package": "hs-cdb",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Database CDB Packable",
+          "indexed": "2014-03-11T18:45:44",
           "module": "Database.CDB.Packable",
           "name": "pack",
           "normalized": "a-\u003eByteString",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:44 UTC 2014",
           "module": "Database.CDB.Packable",
           "name": "unpack",
           "package": "hs-cdb",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Database CDB Packable",
+          "indexed": "2014-03-11T18:45:44",
           "module": "Database.CDB.Packable",
           "name": "unpack",
           "normalized": "ByteString-\u003ea",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:44 UTC 2014",
           "module": "Database.CDB.Read",
           "name": "Read",
           "package": "hs-cdb",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Database CDB Read",
+          "indexed": "2014-03-11T18:45:44",
           "module": "Database.CDB.Read",
           "name": "Read",
           "package": "hs-cdb",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal representation of a CDB file on disk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:44 UTC 2014",
           "module": "Database.CDB.Read",
           "name": "CDB",
           "package": "hs-cdb",
@@ -162,6 +175,7 @@
         "index": {
           "description": "Internal representation of CDB file on disk",
           "hierarchy": "Database CDB Read",
+          "indexed": "2014-03-11T18:45:44",
           "module": "Database.CDB.Read",
           "name": "CDB",
           "package": "hs-cdb",
@@ -310,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:44 UTC 2014",
           "module": "Database.CDB.Util",
           "name": "Util",
           "package": "hs-cdb",
@@ -318,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Database CDB Util",
+          "indexed": "2014-03-11T18:45:44",
           "module": "Database.CDB.Util",
           "name": "Util",
           "package": "hs-cdb",
@@ -331,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:44 UTC 2014",
           "module": "Database.CDB.Util",
           "name": "cdbHash",
           "package": "hs-cdb",
@@ -340,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Database CDB Util",
+          "indexed": "2014-03-11T18:45:44",
           "module": "Database.CDB.Util",
           "name": "cdbHash",
           "normalized": "ByteString-\u003eWord",
@@ -355,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:44 UTC 2014",
           "module": "Database.CDB.Write",
           "name": "Write",
           "package": "hs-cdb",
@@ -363,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Database CDB Write",
+          "indexed": "2014-03-11T18:45:44",
           "module": "Database.CDB.Write",
           "name": "Write",
           "package": "hs-cdb",
@@ -376,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:44 UTC 2014",
           "module": "Database.CDB.Write",
           "name": "CDBMake",
           "package": "hs-cdb",
@@ -384,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Database CDB Write",
+          "indexed": "2014-03-11T18:45:44",
           "module": "Database.CDB.Write",
           "name": "CDBMake",
           "package": "hs-cdb",
@@ -479,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA library for reading and writing CDB (Constant Database) files.\n\u003c/p\u003e\u003cp\u003eCDB files are immutable key-value stores, designed for extremely fast and\n memory-efficient construction and lookup. They can be as large as 4GB, and\n at no point in their construction or use must all data be loaded into\n memory. CDB files can contain multiple values for a given key.\n\u003c/p\u003e\u003cp\u003eFor more information on the CDB file format, please see:\n     \u003ca\u003ehttp://cr.yp.to/cdb.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eUsing \u003ccode\u003ehs-cdb\u003c/code\u003e should be fairly straightforward. Here's a simple example:\n\u003c/p\u003e\u003cpre\u003e    printStuff :: IO ()\n    printStuff = do\n      cdb \u003c- cdbInit \"my.cdb\"\n      let foo = cdbGet cdb \"foo\"\n      let bars = cdbGetAll cdb \"bar\"\n      maybe (putStrLn \"Not found\") putStrLn foo\n      mapM_ putStrLn bars\n\u003c/pre\u003e\u003cp\u003eThe CDB will be automatically cleaned up by the garbage collector after use.\n\u003c/p\u003e\u003cp\u003eThe only sticking point may be the use of the \u003ccode\u003e\u003ca\u003ePackable\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eUnpackable\u003c/a\u003e\u003c/code\u003e\n classes. This allows the \u003ccode\u003ehs-cdb\u003c/code\u003e interface to be both generic (so your CDB\n can store effectively any kind of data) but also convenient in the common\n case of plaintext data. Internally, \u003ccode\u003ehs-cdb\u003c/code\u003e uses \u003ccode\u003eByteString\u003c/code\u003es, but it will\n automatically pack and unpack keys and values to suit the types you're using\n in your program. In particular, in an instance is provided for \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, so\n \u003ccode\u003ehs-cdb\u003c/code\u003e can use \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es as keys and values transparently.\n\u003c/p\u003e\u003cp\u003eWriting a CDB is just as straightforward:\n\u003c/p\u003e\u003cpre\u003e    makeCDB :: IO ()\n    makeCDB = cdbMake \"my.cdb\" $ do\n      cdbAdd \"foo\" \"this is the data associated with foo\"\n      cdbAddMany [(\"bar1\", \"bar1data\"), (\"bar2\", \"bar2data\")]\n\u003c/pre\u003e\u003cp\u003eAgain, \u003ccode\u003ehs-cdb\u003c/code\u003e automatically closes the files after use. Moreover, in CDB\n tradition, \u003ccode\u003ehs-cdb\u003c/code\u003e actually creates a CDB named \u003ccode\u003efile.cdb\u003c/code\u003e by first writing \n it to \u003ccode\u003efile.cdb.tmp\u003c/code\u003e, and then atomically renaming it over \u003ccode\u003efile.cdb\u003c/code\u003e. This\n means that readers never need to pause when you're regenerating a CDB.\n\u003c/p\u003e\u003cp\u003eNote that the CDBMake monad is nothing more than a State wrapper around the\n IO monad, so you can use IO commands with liftIO from Control.Monad.State.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:44 UTC 2014",
           "module": "Database.CDB",
           "name": "CDB",
           "package": "hs-cdb",
@@ -488,6 +511,7 @@
         "index": {
           "description": "library for reading and writing CDB Constant Database files CDB files are immutable key-value stores designed for extremely fast and memory-efficient construction and lookup They can be as large as GB and at no point in their construction or use must all data be loaded into memory CDB files can contain multiple values for given key For more information on the CDB file format please see http cr.yp.to cdb.html Using hs-cdb should be fairly straightforward Here simple example printStuff IO printStuff do cdb cdbInit my.cdb let foo cdbGet cdb foo let bars cdbGetAll cdb bar maybe putStrLn Not found putStrLn foo mapM putStrLn bars The CDB will be automatically cleaned up by the garbage collector after use The only sticking point may be the use of the Packable and Unpackable classes This allows the hs-cdb interface to be both generic so your CDB can store effectively any kind of data but also convenient in the common case of plaintext data Internally hs-cdb uses ByteString but it will automatically pack and unpack keys and values to suit the types you re using in your program In particular in an instance is provided for String so hs-cdb can use String as keys and values transparently Writing CDB is just as straightforward makeCDB IO makeCDB cdbMake my.cdb do cdbAdd foo this is the data associated with foo cdbAddMany bar1 bar1data bar2 bar2data Again hs-cdb automatically closes the files after use Moreover in CDB tradition hs-cdb actually creates CDB named file.cdb by first writing it to file.cdb.tmp and then atomically renaming it over file.cdb This means that readers never need to pause when you re regenerating CDB Note that the CDBMake monad is nothing more than State wrapper around the IO monad so you can use IO commands with liftIO from Control.Monad.State",
           "hierarchy": "Database CDB",
+          "indexed": "2014-03-11T18:45:44",
           "module": "Database.CDB",
           "name": "CDB",
           "package": "hs-cdb",
@@ -502,6 +526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal representation of a CDB file on disk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:44 UTC 2014",
           "module": "Database.CDB",
           "name": "CDB",
           "package": "hs-cdb",
@@ -511,6 +536,7 @@
         "index": {
           "description": "Internal representation of CDB file on disk",
           "hierarchy": "Database CDB",
+          "indexed": "2014-03-11T18:45:44",
           "module": "Database.CDB",
           "name": "CDB",
           "package": "hs-cdb",
@@ -525,6 +551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn instance of \u003ccode\u003e\u003ca\u003ePackable\u003c/a\u003e\u003c/code\u003e can be losslessly transformed into a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:44 UTC 2014",
           "module": "Database.CDB",
           "name": "Packable",
           "package": "hs-cdb",
@@ -534,6 +561,7 @@
         "index": {
           "description": "An instance of Packable can be losslessly transformed into ByteString",
           "hierarchy": "Database CDB",
+          "indexed": "2014-03-11T18:45:44",
           "module": "Database.CDB",
           "name": "Packable",
           "package": "hs-cdb",
@@ -548,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn instance of \u003ccode\u003e\u003ca\u003eUnpackable\u003c/a\u003e\u003c/code\u003e can be losslessly transformed from a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:44 UTC 2014",
           "module": "Database.CDB",
           "name": "Unpackable",
           "package": "hs-cdb",
@@ -557,6 +586,7 @@
         "index": {
           "description": "An instance of Unpackable can be losslessly transformed from ByteString",
           "hierarchy": "Database CDB",
+          "indexed": "2014-03-11T18:45:44",
           "module": "Database.CDB",
           "name": "Unpackable",
           "package": "hs-cdb",
@@ -570,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:44 UTC 2014",
           "module": "Database.CDB",
           "name": "pack",
           "package": "hs-cdb",
@@ -579,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Database CDB",
+          "indexed": "2014-03-11T18:45:44",
           "module": "Database.CDB",
           "name": "pack",
           "normalized": "a-\u003eByteString",
@@ -593,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:44 UTC 2014",
           "module": "Database.CDB",
           "name": "unpack",
           "package": "hs-cdb",
@@ -602,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Database CDB",
+          "indexed": "2014-03-11T18:45:44",
           "module": "Database.CDB",
           "name": "unpack",
           "normalized": "ByteString-\u003ea",

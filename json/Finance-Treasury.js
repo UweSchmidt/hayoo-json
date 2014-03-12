@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Finance-Treasury"
+        "phrase": "Finance-Treasury",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "a Map storing the assoc array of maturity to interest rate (in percent)\n",
+          "indexed": "Tue Mar 11 16:41:18 UTC 2014",
           "module": "Finance.Treasury",
           "name": "3ADailyYieldCurve",
           "package": "Finance-Treasury",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Map storing the assoc array of maturity to interest rate in percent",
           "hierarchy": "Finance Treasury",
+          "indexed": "2014-03-11T16:41:18",
           "module": "Finance.Treasury",
           "name": "3ADailyYieldCurve",
           "package": "Finance-Treasury",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "a List storing the tuple of maturity and interest rate (in percent)\n",
+          "indexed": "Tue Mar 11 16:41:18 UTC 2014",
           "module": "Finance.Treasury",
           "name": "3ADailyYieldCurveList",
           "package": "Finance-Treasury",
@@ -51,6 +54,7 @@
         "index": {
           "description": "List storing the tuple of maturity and interest rate in percent",
           "hierarchy": "Finance Treasury",
+          "indexed": "2014-03-11T16:41:18",
           "module": "Finance.Treasury",
           "name": "3ADailyYieldCurveList",
           "package": "Finance-Treasury",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "a Map storing all the daily yield curves\n",
+          "indexed": "Tue Mar 11 16:41:18 UTC 2014",
           "module": "Finance.Treasury",
           "name": "3AYieldCurveMap",
           "package": "Finance-Treasury",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Map storing all the daily yield curves",
           "hierarchy": "Finance Treasury",
+          "indexed": "2014-03-11T16:41:18",
           "module": "Finance.Treasury",
           "name": "3AYieldCurveMap",
           "package": "Finance-Treasury",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "fetch the latest daily yield curve from the monthly data.\n",
+          "indexed": "Tue Mar 11 16:41:18 UTC 2014",
           "module": "Finance.Treasury",
           "name": "3AgetLatestYieldCurve",
           "package": "Finance-Treasury",
@@ -98,6 +105,7 @@
         "index": {
           "description": "fetch the latest daily yield curve from the monthly data",
           "hierarchy": "Finance Treasury",
+          "indexed": "2014-03-11T16:41:18",
           "module": "Finance.Treasury",
           "name": "3AgetLatestYieldCurve",
           "normalized": "IO(Day,DailyYieldCurve)",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "fetch the latest yearly data (excluding current month).\n There is no reason to fail, so it is an error if there is no XML returned\n",
+          "indexed": "Tue Mar 11 16:41:18 UTC 2014",
           "module": "Finance.Treasury",
           "name": "3AgetYieldCurveHist",
           "package": "Finance-Treasury",
@@ -124,6 +133,7 @@
         "index": {
           "description": "fetch the latest yearly data excluding current month There is no reason to fail so it is an error if there is no XML returned",
           "hierarchy": "Finance Treasury",
+          "indexed": "2014-03-11T16:41:18",
           "module": "Finance.Treasury",
           "name": "3AgetYieldCurveHist",
           "package": "Finance-Treasury",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "fetch the latest monthly data.\n There is no reason to fail, so it is an error if there is no XML returned\n",
+          "indexed": "Tue Mar 11 16:41:18 UTC 2014",
           "module": "Finance.Treasury",
           "name": "3AgetYieldCurveThisMonth",
           "package": "Finance-Treasury",
@@ -148,6 +159,7 @@
         "index": {
           "description": "fetch the latest monthly data There is no reason to fail so it is an error if there is no XML returned",
           "hierarchy": "Finance Treasury",
+          "indexed": "2014-03-11T16:41:18",
           "module": "Finance.Treasury",
           "name": "3AgetYieldCurveThisMonth",
           "package": "Finance-Treasury",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "fetch the historical yearly data (excluding current year).\n If YYYY is not in range (since 1992), this call may fail.\n Otherwise, there is no reason to fail.\n",
+          "indexed": "Tue Mar 11 16:41:18 UTC 2014",
           "module": "Finance.Treasury",
           "name": "3AgetYieldCurveYyyy",
           "package": "Finance-Treasury",
@@ -172,6 +185,7 @@
         "index": {
           "description": "fetch the historical yearly data excluding current year If YYYY is not in range since this call may fail Otherwise there is no reason to fail",
           "hierarchy": "Finance Treasury",
+          "indexed": "2014-03-11T16:41:18",
           "module": "Finance.Treasury",
           "name": "3AgetYieldCurveYyyy",
           "normalized": "Int-\u003eIO YieldCurveMap",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "print yield curve data in a csv format for storage or testing.\n",
+          "indexed": "Tue Mar 11 16:41:18 UTC 2014",
           "module": "Finance.Treasury",
           "name": "3AprettyYieldCurve",
           "package": "Finance-Treasury",
@@ -198,6 +213,7 @@
         "index": {
           "description": "print yield curve data in csv format for storage or testing",
           "hierarchy": "Finance Treasury",
+          "indexed": "2014-03-11T16:41:18",
           "module": "Finance.Treasury",
           "name": "3AprettyYieldCurve",
           "normalized": "YieldCurveMap-\u003eMaybe String-\u003eIO()",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "translates maturity from XML names to abbreviations.\n E.g. BC_1MONTH becomes 1m.\n List of all maturities: 1m 3m 6m 1y 2y 3y 5y 7y 10y 20y 30y.\n However, 30y data may be lacking for some years when the bond was not in circulation. \n",
+          "indexed": "Tue Mar 11 16:41:18 UTC 2014",
           "module": "Finance.Treasury",
           "name": "3AyieldCurveHash",
           "package": "Finance-Treasury",
@@ -224,6 +241,7 @@
         "index": {
           "description": "translates maturity from XML names to abbreviations E.g BC MONTH becomes List of all maturities However data may be lacking for some years when the bond was not in circulation",
           "hierarchy": "Finance Treasury",
+          "indexed": "2014-03-11T16:41:18",
           "module": "Finance.Treasury",
           "name": "3AyieldCurveHash",
           "package": "Finance-Treasury",

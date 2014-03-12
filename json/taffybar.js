@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "taffybar"
+        "phrase": "taffybar",
+        "type": "phrase"
       },
       "type": "context"
     }

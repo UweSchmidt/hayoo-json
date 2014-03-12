@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Win32-extras"
+        "phrase": "Win32-extras",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uuagc"
+        "phrase": "uuagc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGet current version of UUAGC\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC.Version",
           "name": "Version",
           "package": "uuagc",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Get current version of UUAGC",
           "hierarchy": "UU UUAGC Version",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC.Version",
           "name": "Version",
           "package": "uuagc",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC.Version",
           "name": "version",
           "package": "uuagc",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC Version",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC.Version",
           "name": "version",
           "package": "uuagc",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "UUAGC",
           "package": "uuagc",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "UUAGC",
           "package": "uuagc",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "Identifier",
           "package": "uuagc",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "Identifier",
           "package": "uuagc",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "ModuleHeader",
           "package": "uuagc",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "ModuleHeader",
           "package": "uuagc",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "MyOptDescr",
           "package": "uuagc",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "MyOptDescr",
           "package": "uuagc",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "NontermIdent",
           "package": "uuagc",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "NontermIdent",
           "package": "uuagc",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "Options",
           "package": "uuagc",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "Options",
           "package": "uuagc",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "Default",
           "package": "uuagc",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "Default",
           "package": "uuagc",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "Ident",
           "package": "uuagc",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "Ident",
           "package": "uuagc",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "MyOpt",
           "package": "uuagc",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "MyOpt",
           "normalized": "MyOpt[Char][String](ArgDescr(Options-\u003eOptions))(Options-\u003eString-\u003e[String])String",
@@ -256,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "Name",
           "package": "uuagc",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "Name",
           "package": "uuagc",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "NoName",
           "package": "uuagc",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "NoName",
           "package": "uuagc",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "Options",
           "package": "uuagc",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "Options",
           "package": "uuagc",
@@ -322,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "aggressiveInlinePragmas",
           "package": "uuagc",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "aggressiveInlinePragmas",
           "package": "uuagc",
@@ -344,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "aggressiveInlinePragmasOpt",
           "package": "uuagc",
@@ -353,6 +384,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "aggressiveInlinePragmasOpt",
           "normalized": "Options-\u003eOptions",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "allOpt",
           "package": "uuagc",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "allOpt",
           "normalized": "Options-\u003eOptions",
@@ -392,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "allOptions",
           "package": "uuagc",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "allOptions",
           "normalized": "[MyOptDescr]",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "allc",
           "package": "uuagc",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "allc",
           "package": "uuagc",
@@ -437,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "allowSepSemMods",
           "package": "uuagc",
@@ -446,6 +485,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "allowSepSemMods",
           "package": "uuagc",
@@ -459,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "attrInfo",
           "package": "uuagc",
@@ -468,6 +509,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "attrInfo",
           "package": "uuagc",
@@ -481,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "bangpats",
           "package": "uuagc",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "bangpats",
           "package": "uuagc",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "bangpatsOpt",
           "package": "uuagc",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "bangpatsOpt",
           "normalized": "Options-\u003eOptions",
@@ -526,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "beQuiet",
           "package": "uuagc",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "beQuiet",
           "package": "uuagc",
@@ -548,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "beQuietOpt",
           "package": "uuagc",
@@ -557,6 +606,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "beQuietOpt",
           "normalized": "Options-\u003eOptions",
@@ -572,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "boolOpt",
           "package": "uuagc",
@@ -581,6 +632,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "boolOpt",
           "normalized": "(Options-\u003eBool)-\u003eOptions-\u003eString-\u003e[String]",
@@ -596,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "breadthFirst",
           "package": "uuagc",
@@ -605,6 +658,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "breadthFirst",
           "package": "uuagc",
@@ -618,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "breadthFirstStrict",
           "package": "uuagc",
@@ -627,6 +682,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "breadthFirstStrict",
           "package": "uuagc",
@@ -640,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "breadthfirstOpt",
           "package": "uuagc",
@@ -649,6 +706,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "breadthfirstOpt",
           "normalized": "Options-\u003eOptions",
@@ -664,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "breadthfirstStrictOpt",
           "package": "uuagc",
@@ -673,6 +732,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "breadthfirstStrictOpt",
           "normalized": "Options-\u003eOptions",
@@ -688,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "cases",
           "package": "uuagc",
@@ -697,6 +758,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "cases",
           "package": "uuagc",
@@ -709,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "casesOpt",
           "package": "uuagc",
@@ -718,6 +781,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "casesOpt",
           "normalized": "Options-\u003eOptions",
@@ -733,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "cataOpt",
           "package": "uuagc",
@@ -742,6 +807,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "cataOpt",
           "normalized": "Options-\u003eOptions",
@@ -757,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "checkParseBlock",
           "package": "uuagc",
@@ -766,6 +833,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "checkParseBlock",
           "package": "uuagc",
@@ -779,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "checkParseRhs",
           "package": "uuagc",
@@ -788,6 +857,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "checkParseRhs",
           "package": "uuagc",
@@ -801,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "checkParseTy",
           "package": "uuagc",
@@ -810,6 +881,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "checkParseTy",
           "package": "uuagc",
@@ -823,6 +895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "clean",
           "package": "uuagc",
@@ -832,6 +905,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "clean",
           "package": "uuagc",
@@ -844,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "cleanOpt",
           "package": "uuagc",
@@ -853,6 +928,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "cleanOpt",
           "normalized": "Options-\u003eOptions",
@@ -869,6 +945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine 2 sets of options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "combineOptions",
           "package": "uuagc",
@@ -879,6 +956,7 @@
         "index": {
           "description": "Combine sets of options",
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "combineOptions",
           "normalized": "Options-\u003eOptions-\u003eOptions",
@@ -894,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "compile",
           "package": "uuagc",
@@ -903,6 +982,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "compile",
           "normalized": "Options-\u003eFilePath-\u003eFilePath-\u003eIO()",
@@ -917,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "condDisableOptimizations",
           "package": "uuagc",
@@ -926,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "condDisableOptimizations",
           "normalized": "Options-\u003eOptions",
@@ -942,6 +1024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse all parsed options to generate real options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "constructOptions",
           "package": "uuagc",
@@ -952,6 +1035,7 @@
         "index": {
           "description": "Use all parsed options to generate real options",
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "constructOptions",
           "normalized": "[Options-\u003eOptions]-\u003eOptions",
@@ -967,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "cycleOpt",
           "package": "uuagc",
@@ -976,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "cycleOpt",
           "normalized": "Options-\u003eOptions",
@@ -991,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "dataOpt",
           "package": "uuagc",
@@ -1000,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "dataOpt",
           "normalized": "Options-\u003eOptions",
@@ -1015,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "dataRecOpt",
           "package": "uuagc",
@@ -1024,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "dataRecOpt",
           "normalized": "Options-\u003eOptions",
@@ -1039,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "dataRecords",
           "package": "uuagc",
@@ -1048,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "dataRecords",
           "package": "uuagc",
@@ -1061,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "dataTypes",
           "package": "uuagc",
@@ -1070,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "dataTypes",
           "package": "uuagc",
@@ -1083,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "doubleColons",
           "package": "uuagc",
@@ -1092,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "doubleColons",
           "package": "uuagc",
@@ -1105,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "doubleColonsOpt",
           "package": "uuagc",
@@ -1114,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "doubleColonsOpt",
           "normalized": "Options-\u003eOptions",
@@ -1129,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "dummyTokenVisit",
           "package": "uuagc",
@@ -1138,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "dummyTokenVisit",
           "package": "uuagc",
@@ -1151,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "dummyTokenVisitOpt",
           "package": "uuagc",
@@ -1160,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "dummyTokenVisitOpt",
           "normalized": "Options-\u003eOptions",
@@ -1175,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "dumpcgrammar",
           "package": "uuagc",
@@ -1184,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "dumpcgrammar",
           "package": "uuagc",
@@ -1196,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "dumpcgrammarOpt",
           "package": "uuagc",
@@ -1205,6 +1310,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "dumpcgrammarOpt",
           "normalized": "Options-\u003eOptions",
@@ -1220,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "dumpgrammar",
           "package": "uuagc",
@@ -1229,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "dumpgrammar",
           "package": "uuagc",
@@ -1241,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "dumpgrammarOpt",
           "package": "uuagc",
@@ -1250,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "dumpgrammarOpt",
           "normalized": "Options-\u003eOptions",
@@ -1265,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "extends",
           "package": "uuagc",
@@ -1274,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "extends",
           "package": "uuagc",
@@ -1286,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "extendsOpt",
           "package": "uuagc",
@@ -1295,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "extendsOpt",
           "normalized": "String-\u003eOptions-\u003eOptions",
@@ -1310,6 +1424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "failWithCode",
           "package": "uuagc",
@@ -1319,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "failWithCode",
           "normalized": "Int-\u003eIO()",
@@ -1334,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "folds",
           "package": "uuagc",
@@ -1343,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "folds",
           "package": "uuagc",
@@ -1355,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "forceIrrefutableOpt",
           "package": "uuagc",
@@ -1364,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "forceIrrefutableOpt",
           "normalized": "Maybe String-\u003eOptions-\u003eOptions",
@@ -1379,6 +1499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "forceIrrefutables",
           "package": "uuagc",
@@ -1388,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "forceIrrefutables",
           "package": "uuagc",
@@ -1401,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "fromMyOpt",
           "package": "uuagc",
@@ -1410,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "fromMyOpt",
           "normalized": "MyOptDescr-\u003eOptDescr(Options-\u003eOptions)",
@@ -1425,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "genAspectAG",
           "package": "uuagc",
@@ -1434,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "genAspectAG",
           "package": "uuagc",
@@ -1447,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "genAspectAGOpt",
           "package": "uuagc",
@@ -1456,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "genAspectAGOpt",
           "normalized": "Options-\u003eOptions",
@@ -1471,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "genAttrListOpt",
           "package": "uuagc",
@@ -1480,6 +1609,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "genAttrListOpt",
           "normalized": "Options-\u003eOptions",
@@ -1495,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "genAttributeList",
           "package": "uuagc",
@@ -1504,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "genAttributeList",
           "package": "uuagc",
@@ -1517,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "genCostCentres",
           "package": "uuagc",
@@ -1526,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "genCostCentres",
           "package": "uuagc",
@@ -1539,6 +1673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "genCostCentresOpt",
           "package": "uuagc",
@@ -1548,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "genCostCentresOpt",
           "normalized": "Options-\u003eOptions",
@@ -1563,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "genFileDeps",
           "package": "uuagc",
@@ -1572,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "genFileDeps",
           "package": "uuagc",
@@ -1585,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "genFileDepsOpt",
           "package": "uuagc",
@@ -1594,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "genFileDepsOpt",
           "normalized": "Options-\u003eOptions",
@@ -1609,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "genLinePragmas",
           "package": "uuagc",
@@ -1618,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "genLinePragmas",
           "package": "uuagc",
@@ -1631,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "genLinePragmasOpt",
           "package": "uuagc",
@@ -1640,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "genLinePragmasOpt",
           "normalized": "Options-\u003eOptions",
@@ -1655,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "genTraces",
           "package": "uuagc",
@@ -1664,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "genTraces",
           "package": "uuagc",
@@ -1677,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "genTracesOpt",
           "package": "uuagc",
@@ -1686,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "genTracesOpt",
           "normalized": "Options-\u003eOptions",
@@ -1701,6 +1849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "genUseTraces",
           "package": "uuagc",
@@ -1710,6 +1859,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "genUseTraces",
           "package": "uuagc",
@@ -1723,6 +1873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "genUseTracesOpt",
           "package": "uuagc",
@@ -1732,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "genUseTracesOpt",
           "normalized": "Options-\u003eOptions",
@@ -1747,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "genVisageOpt",
           "package": "uuagc",
@@ -1756,6 +1909,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "genVisageOpt",
           "normalized": "Options-\u003eOptions",
@@ -1771,6 +1925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "genvisage",
           "package": "uuagc",
@@ -1780,6 +1935,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "genvisage",
           "package": "uuagc",
@@ -1792,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "getName",
           "package": "uuagc",
@@ -1801,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "getName",
           "package": "uuagc",
@@ -1815,6 +1973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate Options type from string arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "getOptions",
           "package": "uuagc",
@@ -1825,6 +1984,7 @@
         "index": {
           "description": "Create Options type from string arguments",
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "getOptions",
           "normalized": "[String]-\u003e(Options,[String],[String])",
@@ -1840,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "getPos",
           "package": "uuagc",
@@ -1849,6 +2010,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "getPos",
           "package": "uuagc",
@@ -1862,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "haskellSyntaxOpt",
           "package": "uuagc",
@@ -1871,6 +2034,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "haskellSyntaxOpt",
           "normalized": "Options-\u003eOptions",
@@ -1886,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "helpInlining",
           "package": "uuagc",
@@ -1895,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "helpInlining",
           "package": "uuagc",
@@ -1908,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "helpInliningOpt",
           "package": "uuagc",
@@ -1917,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "helpInliningOpt",
           "normalized": "Options-\u003eOptions",
@@ -1932,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "helpOpt",
           "package": "uuagc",
@@ -1941,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "helpOpt",
           "normalized": "Options-\u003eOptions",
@@ -1956,6 +2126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "identifier",
           "package": "uuagc",
@@ -1965,6 +2136,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "identifier",
           "normalized": "String-\u003eIdentifier",
@@ -1979,6 +2151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "kennedyWarren",
           "package": "uuagc",
@@ -1988,6 +2161,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "kennedyWarren",
           "package": "uuagc",
@@ -2001,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "kennedyWarrenOpt",
           "package": "uuagc",
@@ -2010,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "kennedyWarrenOpt",
           "normalized": "Options-\u003eOptions",
@@ -2025,6 +2201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "lateHigherOrderBinding",
           "package": "uuagc",
@@ -2034,6 +2211,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "lateHigherOrderBinding",
           "package": "uuagc",
@@ -2047,6 +2225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "lateHigherOrderBindingOpt",
           "package": "uuagc",
@@ -2056,6 +2235,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "lateHigherOrderBindingOpt",
           "normalized": "Options-\u003eOptions",
@@ -2071,6 +2251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "lcKeywords",
           "package": "uuagc",
@@ -2080,6 +2261,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "lcKeywords",
           "package": "uuagc",
@@ -2093,6 +2275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "lcKeywordsOpt",
           "package": "uuagc",
@@ -2102,6 +2285,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "lcKeywordsOpt",
           "normalized": "Options-\u003eOptions",
@@ -2117,6 +2301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "localCps",
           "package": "uuagc",
@@ -2126,6 +2311,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "localCps",
           "package": "uuagc",
@@ -2139,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "localCpsOpt",
           "package": "uuagc",
@@ -2148,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "localCpsOpt",
           "normalized": "Options-\u003eOptions",
@@ -2163,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "mainFilename",
           "package": "uuagc",
@@ -2172,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "mainFilename",
           "package": "uuagc",
@@ -2185,6 +2375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "mbStringOpt",
           "package": "uuagc",
@@ -2194,6 +2385,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "mbStringOpt",
           "normalized": "(Options-\u003eMaybe String)-\u003eOptions-\u003eString-\u003e[String]",
@@ -2209,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "modcopy",
           "package": "uuagc",
@@ -2218,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "modcopy",
           "package": "uuagc",
@@ -2230,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "modcopyOpt",
           "package": "uuagc",
@@ -2239,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "modcopyOpt",
           "normalized": "Options-\u003eOptions",
@@ -2254,6 +2450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "moduleName",
           "package": "uuagc",
@@ -2263,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "moduleName",
           "package": "uuagc",
@@ -2276,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "moduleOpt",
           "package": "uuagc",
@@ -2285,6 +2484,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "moduleOpt",
           "normalized": "Maybe String-\u003eOptions-\u003eOptions",
@@ -2300,6 +2500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "moduleOptGet",
           "package": "uuagc",
@@ -2309,6 +2510,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "moduleOptGet",
           "normalized": "Options-\u003eString-\u003e[String]",
@@ -2324,6 +2526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "monadic",
           "package": "uuagc",
@@ -2333,6 +2536,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "monadic",
           "package": "uuagc",
@@ -2345,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "monadicOpt",
           "package": "uuagc",
@@ -2354,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "monadicOpt",
           "normalized": "Options-\u003eOptions",
@@ -2369,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "monadicWrappers",
           "package": "uuagc",
@@ -2378,6 +2585,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "monadicWrappers",
           "package": "uuagc",
@@ -2391,6 +2599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "monadicWrappersOpt",
           "package": "uuagc",
@@ -2400,6 +2609,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "monadicWrappersOpt",
           "normalized": "Options-\u003eOptions",
@@ -2415,6 +2625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "nest",
           "package": "uuagc",
@@ -2424,6 +2635,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "nest",
           "package": "uuagc",
@@ -2436,6 +2648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "nestOpt",
           "package": "uuagc",
@@ -2445,6 +2658,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "nestOpt",
           "normalized": "Options-\u003eOptions",
@@ -2460,6 +2674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "newtypes",
           "package": "uuagc",
@@ -2469,6 +2684,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "newtypes",
           "package": "uuagc",
@@ -2481,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "newtypesOpt",
           "package": "uuagc",
@@ -2490,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "newtypesOpt",
           "normalized": "Options-\u003eOptions",
@@ -2505,6 +2723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "noEagerBlackholing",
           "package": "uuagc",
@@ -2514,6 +2733,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "noEagerBlackholing",
           "package": "uuagc",
@@ -2527,6 +2747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "noEagerBlackholingOpt",
           "package": "uuagc",
@@ -2536,6 +2757,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "noEagerBlackholingOpt",
           "normalized": "Options-\u003eOptions",
@@ -2551,6 +2773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "noGroup",
           "package": "uuagc",
@@ -2560,6 +2783,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "noGroup",
           "normalized": "[String]",
@@ -2575,6 +2799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "noGroupOpt",
           "package": "uuagc",
@@ -2584,6 +2809,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "noGroupOpt",
           "normalized": "String-\u003eOptions-\u003eOptions",
@@ -2599,6 +2825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "noGroupOptGet",
           "package": "uuagc",
@@ -2608,6 +2835,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "noGroupOptGet",
           "normalized": "Options-\u003eString-\u003e[String]",
@@ -2623,6 +2851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "noIncludes",
           "package": "uuagc",
@@ -2632,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "noIncludes",
           "package": "uuagc",
@@ -2645,6 +2875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "noIncludesOpt",
           "package": "uuagc",
@@ -2654,6 +2885,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "noIncludesOpt",
           "normalized": "Options-\u003eOptions",
@@ -2669,6 +2901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "noInlinePragmas",
           "package": "uuagc",
@@ -2678,6 +2911,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "noInlinePragmas",
           "package": "uuagc",
@@ -2691,6 +2925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "noInlinePragmasOpt",
           "package": "uuagc",
@@ -2700,6 +2935,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "noInlinePragmasOpt",
           "normalized": "Options-\u003eOptions",
@@ -2715,6 +2951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "noOpt",
           "package": "uuagc",
@@ -2724,6 +2961,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "noOpt",
           "normalized": "Options-\u003eString-\u003e[String]",
@@ -2739,6 +2977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "noOptimizations",
           "package": "uuagc",
@@ -2748,6 +2987,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "noOptimizations",
           "package": "uuagc",
@@ -2761,6 +3001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "noOptimizeOpt",
           "package": "uuagc",
@@ -2770,6 +3011,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "noOptimizeOpt",
           "normalized": "Options-\u003eOptions",
@@ -2785,6 +3027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "noOptions",
           "package": "uuagc",
@@ -2794,6 +3037,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "noOptions",
           "package": "uuagc",
@@ -2807,6 +3051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "noPerRuleCostCentres",
           "package": "uuagc",
@@ -2816,6 +3061,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "noPerRuleCostCentres",
           "package": "uuagc",
@@ -2829,6 +3075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "noPerRuleCostCentresOpt",
           "package": "uuagc",
@@ -2838,6 +3085,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "noPerRuleCostCentresOpt",
           "normalized": "Options-\u003eOptions",
@@ -2853,6 +3101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "noPerRuleTypeSigs",
           "package": "uuagc",
@@ -2862,6 +3111,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "noPerRuleTypeSigs",
           "package": "uuagc",
@@ -2875,6 +3125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "noPerRuleTypeSigsOpt",
           "package": "uuagc",
@@ -2884,6 +3135,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "noPerRuleTypeSigsOpt",
           "normalized": "Options-\u003eOptions",
@@ -2899,6 +3151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "noPerStateTypeSigs",
           "package": "uuagc",
@@ -2908,6 +3161,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "noPerStateTypeSigs",
           "package": "uuagc",
@@ -2921,6 +3175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "noPerStateTypeSigsOpt",
           "package": "uuagc",
@@ -2930,6 +3185,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "noPerStateTypeSigsOpt",
           "normalized": "Options-\u003eOptions",
@@ -2945,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "noPerVisitCostCentres",
           "package": "uuagc",
@@ -2954,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "noPerVisitCostCentres",
           "package": "uuagc",
@@ -2967,6 +3225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "noPerVisitCostCentresOpt",
           "package": "uuagc",
@@ -2976,6 +3235,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "noPerVisitCostCentresOpt",
           "normalized": "Options-\u003eOptions",
@@ -2991,6 +3251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "nocatas",
           "package": "uuagc",
@@ -3000,6 +3261,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "nocatas",
           "package": "uuagc",
@@ -3012,6 +3274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "nocatasOpt",
           "package": "uuagc",
@@ -3021,6 +3284,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "nocatasOpt",
           "normalized": "String-\u003eOptions-\u003eOptions",
@@ -3036,6 +3300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "nocatasOptGet",
           "package": "uuagc",
@@ -3045,6 +3310,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "nocatasOptGet",
           "normalized": "Options-\u003eString-\u003e[String]",
@@ -3060,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "ocaml",
           "package": "uuagc",
@@ -3069,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "ocaml",
           "package": "uuagc",
@@ -3081,6 +3349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "ocamlOpt",
           "package": "uuagc",
@@ -3090,6 +3359,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "ocamlOpt",
           "normalized": "Options-\u003eOptions",
@@ -3105,6 +3375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "optimizeOpt",
           "package": "uuagc",
@@ -3114,6 +3385,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "optimizeOpt",
           "normalized": "Options-\u003eOptions",
@@ -3129,6 +3401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "options",
           "package": "uuagc",
@@ -3138,6 +3411,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "options",
           "normalized": "[OptDescr(Options-\u003eOptions)]",
@@ -3153,6 +3427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert options back to commandline string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "optionsToString",
           "package": "uuagc",
@@ -3163,6 +3438,7 @@
         "index": {
           "description": "Convert options back to commandline string",
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "optionsToString",
           "normalized": "Options-\u003e[String]",
@@ -3178,6 +3454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "outputFiles",
           "package": "uuagc",
@@ -3187,6 +3464,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "outputFiles",
           "normalized": "[String]",
@@ -3202,6 +3480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "outputOpt",
           "package": "uuagc",
@@ -3211,6 +3490,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "outputOpt",
           "normalized": "String-\u003eOptions-\u003eOptions",
@@ -3226,6 +3506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "outputOptGet",
           "package": "uuagc",
@@ -3235,6 +3516,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "outputOptGet",
           "normalized": "Options-\u003eString-\u003e[String]",
@@ -3250,6 +3532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "outputStr",
           "package": "uuagc",
@@ -3259,6 +3542,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "outputStr",
           "normalized": "String-\u003eIO()",
@@ -3274,6 +3558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "parallelInvoke",
           "package": "uuagc",
@@ -3283,6 +3568,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "parallelInvoke",
           "package": "uuagc",
@@ -3296,6 +3582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "parallelOpt",
           "package": "uuagc",
@@ -3305,6 +3592,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "parallelOpt",
           "normalized": "Options-\u003eOptions",
@@ -3320,6 +3608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "parseHsBlockOpt",
           "package": "uuagc",
@@ -3329,6 +3618,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "parseHsBlockOpt",
           "normalized": "Options-\u003eOptions",
@@ -3344,6 +3634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "parseHsOpt",
           "package": "uuagc",
@@ -3353,6 +3644,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "parseHsOpt",
           "normalized": "Options-\u003eOptions",
@@ -3368,6 +3660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "parseHsRhsOpt",
           "package": "uuagc",
@@ -3377,6 +3670,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "parseHsRhsOpt",
           "normalized": "Options-\u003eOptions",
@@ -3392,6 +3686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "parseHsTpOpt",
           "package": "uuagc",
@@ -3401,6 +3696,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "parseHsTpOpt",
           "normalized": "Options-\u003eOptions",
@@ -3416,6 +3712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "prefix",
           "package": "uuagc",
@@ -3425,6 +3722,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "prefix",
           "package": "uuagc",
@@ -3437,6 +3735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "prefixOpt",
           "package": "uuagc",
@@ -3446,6 +3745,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "prefixOpt",
           "normalized": "String-\u003eOptions-\u003eOptions",
@@ -3461,6 +3761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "prettyOpt",
           "package": "uuagc",
@@ -3470,6 +3771,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "prettyOpt",
           "normalized": "Options-\u003eOptions",
@@ -3485,6 +3787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "reference",
           "package": "uuagc",
@@ -3494,6 +3797,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "reference",
           "package": "uuagc",
@@ -3506,6 +3810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "referenceOpt",
           "package": "uuagc",
@@ -3515,6 +3820,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "referenceOpt",
           "normalized": "Options-\u003eOptions",
@@ -3530,6 +3836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "rename",
           "package": "uuagc",
@@ -3539,6 +3846,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "rename",
           "package": "uuagc",
@@ -3551,6 +3859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "renameOpt",
           "package": "uuagc",
@@ -3560,6 +3869,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "renameOpt",
           "normalized": "Options-\u003eOptions",
@@ -3575,6 +3885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "searchPath",
           "package": "uuagc",
@@ -3584,6 +3895,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "searchPath",
           "normalized": "[String]",
@@ -3599,6 +3911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "searchPathOpt",
           "package": "uuagc",
@@ -3608,6 +3921,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "searchPathOpt",
           "normalized": "String-\u003eOptions-\u003eOptions",
@@ -3623,6 +3937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "searchPathOptGet",
           "package": "uuagc",
@@ -3632,6 +3947,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "searchPathOptGet",
           "normalized": "Options-\u003eString-\u003e[String]",
@@ -3647,6 +3963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "selfOpt",
           "package": "uuagc",
@@ -3656,6 +3973,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "selfOpt",
           "normalized": "Options-\u003eOptions",
@@ -3671,6 +3989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "semfuns",
           "package": "uuagc",
@@ -3680,6 +3999,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "semfuns",
           "package": "uuagc",
@@ -3692,6 +4012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "semfunsOpt",
           "package": "uuagc",
@@ -3701,6 +4022,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "semfunsOpt",
           "normalized": "Options-\u003eOptions",
@@ -3716,6 +4038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "sepSemMods",
           "package": "uuagc",
@@ -3725,6 +4048,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "sepSemMods",
           "package": "uuagc",
@@ -3738,6 +4062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "sepSemModsOpt",
           "package": "uuagc",
@@ -3747,6 +4072,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "sepSemModsOpt",
           "normalized": "Options-\u003eOptions",
@@ -3762,6 +4088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "seqOpt",
           "package": "uuagc",
@@ -3771,6 +4098,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "seqOpt",
           "normalized": "Options-\u003eOptions",
@@ -3786,6 +4114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "serializeOption",
           "package": "uuagc",
@@ -3795,6 +4124,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "serializeOption",
           "normalized": "Options-\u003eMyOptDescr-\u003e[String]",
@@ -3810,6 +4140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "showHelp",
           "package": "uuagc",
@@ -3819,6 +4150,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "showHelp",
           "package": "uuagc",
@@ -3832,6 +4164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "showVersion",
           "package": "uuagc",
@@ -3841,6 +4174,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "showVersion",
           "package": "uuagc",
@@ -3854,6 +4188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "signaturesOpt",
           "package": "uuagc",
@@ -3863,6 +4198,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "signaturesOpt",
           "normalized": "Options-\u003eOptions",
@@ -3878,6 +4214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "smacro",
           "package": "uuagc",
@@ -3887,6 +4224,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "smacro",
           "package": "uuagc",
@@ -3899,6 +4237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "smacroOpt",
           "package": "uuagc",
@@ -3908,6 +4247,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "smacroOpt",
           "normalized": "Options-\u003eOptions",
@@ -3923,6 +4263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "splitSems",
           "package": "uuagc",
@@ -3932,6 +4273,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "splitSems",
           "package": "uuagc",
@@ -3945,6 +4287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "splitSemsOpt",
           "package": "uuagc",
@@ -3954,6 +4297,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "splitSemsOpt",
           "normalized": "Options-\u003eOptions",
@@ -3969,6 +4313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "stateAsDummyTokenOpt",
           "package": "uuagc",
@@ -3978,6 +4323,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "stateAsDummyTokenOpt",
           "normalized": "Options-\u003eOptions",
@@ -3993,6 +4339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "statisticsOpt",
           "package": "uuagc",
@@ -4002,6 +4349,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "statisticsOpt",
           "normalized": "String-\u003eOptions-\u003eOptions",
@@ -4017,6 +4365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "statsFile",
           "package": "uuagc",
@@ -4026,6 +4375,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "statsFile",
           "package": "uuagc",
@@ -4039,6 +4389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "strictCases",
           "package": "uuagc",
@@ -4048,6 +4399,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "strictCases",
           "package": "uuagc",
@@ -4061,6 +4413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "strictCasesOpt",
           "package": "uuagc",
@@ -4070,6 +4423,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "strictCasesOpt",
           "normalized": "Options-\u003eOptions",
@@ -4085,6 +4439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "strictData",
           "package": "uuagc",
@@ -4094,6 +4449,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "strictData",
           "package": "uuagc",
@@ -4107,6 +4463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "strictDataOpt",
           "package": "uuagc",
@@ -4116,6 +4473,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "strictDataOpt",
           "normalized": "Options-\u003eOptions",
@@ -4131,6 +4489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "strictDummyToken",
           "package": "uuagc",
@@ -4140,6 +4499,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "strictDummyToken",
           "package": "uuagc",
@@ -4153,6 +4513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "strictDummyTokenOpt",
           "package": "uuagc",
@@ -4162,6 +4523,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "strictDummyTokenOpt",
           "normalized": "Options-\u003eOptions",
@@ -4177,6 +4539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "strictSemOpt",
           "package": "uuagc",
@@ -4186,6 +4549,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "strictSemOpt",
           "normalized": "Options-\u003eOptions",
@@ -4201,6 +4565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "strictSems",
           "package": "uuagc",
@@ -4210,6 +4575,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "strictSems",
           "package": "uuagc",
@@ -4223,6 +4589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "strictWrap",
           "package": "uuagc",
@@ -4232,6 +4599,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "strictWrap",
           "package": "uuagc",
@@ -4245,6 +4613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "strictWrapOpt",
           "package": "uuagc",
@@ -4254,6 +4623,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "strictWrapOpt",
           "normalized": "Options-\u003eOptions",
@@ -4269,6 +4639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "stricterCases",
           "package": "uuagc",
@@ -4278,6 +4649,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "stricterCases",
           "package": "uuagc",
@@ -4291,6 +4663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "stricterCasesOpt",
           "package": "uuagc",
@@ -4300,6 +4673,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "stricterCasesOpt",
           "normalized": "Options-\u003eOptions",
@@ -4315,6 +4689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "stringOpt",
           "package": "uuagc",
@@ -4324,6 +4699,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "stringOpt",
           "normalized": "(Options-\u003eString)-\u003eOptions-\u003eString-\u003e[String]",
@@ -4339,6 +4715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "tupleAsDummyToken",
           "package": "uuagc",
@@ -4348,6 +4725,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "tupleAsDummyToken",
           "package": "uuagc",
@@ -4361,6 +4739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "tupleAsDummyTokenOpt",
           "package": "uuagc",
@@ -4370,6 +4749,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "tupleAsDummyTokenOpt",
           "normalized": "Options-\u003eOptions",
@@ -4385,6 +4765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "typeSigs",
           "package": "uuagc",
@@ -4394,6 +4775,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "typeSigs",
           "package": "uuagc",
@@ -4407,6 +4789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "unbox",
           "package": "uuagc",
@@ -4416,6 +4799,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "unbox",
           "package": "uuagc",
@@ -4428,6 +4812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "unboxOpt",
           "package": "uuagc",
@@ -4437,6 +4822,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "unboxOpt",
           "normalized": "Options-\u003eOptions",
@@ -4452,6 +4838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "uniqueDispenser",
           "package": "uuagc",
@@ -4461,6 +4848,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "uniqueDispenser",
           "package": "uuagc",
@@ -4474,6 +4862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "uniqueDispenserOpt",
           "package": "uuagc",
@@ -4483,6 +4872,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "uniqueDispenserOpt",
           "normalized": "String-\u003eOptions-\u003eOptions",
@@ -4498,6 +4888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "uuagc",
           "package": "uuagc",
@@ -4507,6 +4898,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "uuagc",
           "normalized": "[String]-\u003eFilePath-\u003eIO(ExitCode,[FilePath])",
@@ -4521,6 +4913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "uuagcMain",
           "package": "uuagc",
@@ -4530,6 +4923,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "uuagcMain",
           "normalized": "IO()",
@@ -4545,6 +4939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "verbose",
           "package": "uuagc",
@@ -4554,6 +4949,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "verbose",
           "package": "uuagc",
@@ -4566,6 +4962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "verboseOpt",
           "package": "uuagc",
@@ -4575,6 +4972,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "verboseOpt",
           "normalized": "Options-\u003eOptions",
@@ -4590,6 +4988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "versionOpt",
           "package": "uuagc",
@@ -4599,6 +4998,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "versionOpt",
           "normalized": "Options-\u003eOptions",
@@ -4614,6 +5014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "visit",
           "package": "uuagc",
@@ -4623,6 +5024,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "visit",
           "package": "uuagc",
@@ -4635,6 +5037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "visitOpt",
           "package": "uuagc",
@@ -4644,6 +5047,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "visitOpt",
           "normalized": "Options-\u003eOptions",
@@ -4659,6 +5063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "visitorsOutput",
           "package": "uuagc",
@@ -4668,6 +5073,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "visitorsOutput",
           "package": "uuagc",
@@ -4681,6 +5087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "visitorsOutputOpt",
           "package": "uuagc",
@@ -4690,6 +5097,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "visitorsOutputOpt",
           "normalized": "Options-\u003eOptions",
@@ -4705,6 +5113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "werrors",
           "package": "uuagc",
@@ -4714,6 +5123,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "werrors",
           "package": "uuagc",
@@ -4726,6 +5136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "werrorsOpt",
           "package": "uuagc",
@@ -4735,6 +5146,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "werrorsOpt",
           "normalized": "Options-\u003eOptions",
@@ -4750,6 +5162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "wignore",
           "package": "uuagc",
@@ -4759,6 +5172,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "wignore",
           "package": "uuagc",
@@ -4771,6 +5185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "wignoreOpt",
           "package": "uuagc",
@@ -4780,6 +5195,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "wignoreOpt",
           "normalized": "Options-\u003eOptions",
@@ -4795,6 +5211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "withCycle",
           "package": "uuagc",
@@ -4804,6 +5221,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "withCycle",
           "package": "uuagc",
@@ -4817,6 +5235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "withSelf",
           "package": "uuagc",
@@ -4826,6 +5245,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "withSelf",
           "package": "uuagc",
@@ -4839,6 +5259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "withSeq",
           "package": "uuagc",
@@ -4848,6 +5269,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "withSeq",
           "package": "uuagc",
@@ -4861,6 +5283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "wmaxErrsOpt",
           "package": "uuagc",
@@ -4870,6 +5293,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "wmaxErrsOpt",
           "normalized": "String-\u003eOptions-\u003eOptions",
@@ -4885,6 +5309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "wmaxErrsOptGet",
           "package": "uuagc",
@@ -4894,6 +5319,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "wmaxErrsOptGet",
           "normalized": "Options-\u003eString-\u003e[String]",
@@ -4909,6 +5335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "wmaxerrs",
           "package": "uuagc",
@@ -4918,6 +5345,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "wmaxerrs",
           "package": "uuagc",
@@ -4931,6 +5359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of intercalate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "wordsBy",
           "package": "uuagc",
@@ -4941,6 +5370,7 @@
         "index": {
           "description": "Inverse of intercalate",
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "wordsBy",
           "normalized": "(Char-\u003eBool)-\u003eString-\u003e[String]",
@@ -4956,6 +5386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "wrappers",
           "package": "uuagc",
@@ -4965,6 +5396,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "wrappers",
           "package": "uuagc",
@@ -4977,6 +5409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:32:30 UTC 2014",
           "module": "UU.UUAGC",
           "name": "wrappersOpt",
           "package": "uuagc",
@@ -4986,6 +5419,7 @@
         },
         "index": {
           "hierarchy": "UU UUAGC",
+          "indexed": "2014-03-11T20:32:30",
           "module": "UU.UUAGC",
           "name": "wrappersOpt",
           "normalized": "Options-\u003eOptions",

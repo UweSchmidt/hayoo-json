@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "libstackexchange"
+        "phrase": "libstackexchange",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAPI methods list\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "API",
           "package": "libstackexchange",
@@ -28,6 +29,7 @@
         "index": {
           "description": "API methods list",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "API",
           "package": "libstackexchange",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/advanced-search\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "advancedSearch",
           "package": "libstackexchange",
@@ -52,6 +55,7 @@
         "index": {
           "description": "https api.stackexchange.com docs advanced-search",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "advancedSearch",
           "normalized": "Request a b[SE Question]",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/answers\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "answers",
           "package": "libstackexchange",
@@ -78,6 +83,7 @@
         "index": {
           "description": "https api.stackexchange.com docs answers",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "answers",
           "normalized": "Request a b[SE Answer]",
@@ -93,6 +99,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/answers-by-ids\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "answersByIds",
           "package": "libstackexchange",
@@ -103,6 +110,7 @@
         "index": {
           "description": "https api.stackexchange.com docs answers-by-ids",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "answersByIds",
           "normalized": "[Int]-\u003eRequest a b[SE Answer]",
@@ -119,6 +127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/answers-on-questions\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "answersOnQuestions",
           "package": "libstackexchange",
@@ -129,6 +138,7 @@
         "index": {
           "description": "https api.stackexchange.com docs answers-on-questions",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "answersOnQuestions",
           "normalized": "[Int]-\u003eRequest a b[SE Answer]",
@@ -145,6 +155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/answers-on-users\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "answersOnUsers",
           "package": "libstackexchange",
@@ -155,6 +166,7 @@
         "index": {
           "description": "https api.stackexchange.com docs answers-on-users",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "answersOnUsers",
           "normalized": "[Int]-\u003eRequest a b[SE Answer]",
@@ -171,6 +183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/application-de-authenticate\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "applicationDeAuthenticate",
           "package": "libstackexchange",
@@ -181,6 +194,7 @@
         "index": {
           "description": "https api.stackexchange.com docs application-de-authenticate",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "applicationDeAuthenticate",
           "normalized": "[Text]-\u003eRequest a b[SE AccessToken]",
@@ -197,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/associated-users\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "associatedUsers",
           "package": "libstackexchange",
@@ -207,6 +222,7 @@
         "index": {
           "description": "https api.stackexchange.com docs associated-users",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "associatedUsers",
           "normalized": "[Int]-\u003eRequest a b[SE NetworkUser]",
@@ -223,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/badge-recipients\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "badgeRecipients",
           "package": "libstackexchange",
@@ -233,6 +250,7 @@
         "index": {
           "description": "https api.stackexchange.com docs badge-recipients",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "badgeRecipients",
           "normalized": "Request a b[SE Badge]",
@@ -249,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/badge-recipients-by-ids\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "badgeRecipientsByIds",
           "package": "libstackexchange",
@@ -259,6 +278,7 @@
         "index": {
           "description": "https api.stackexchange.com docs badge-recipients-by-ids",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "badgeRecipientsByIds",
           "normalized": "[Int]-\u003eRequest a b[SE Badge]",
@@ -275,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/badges\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "badges",
           "package": "libstackexchange",
@@ -285,6 +306,7 @@
         "index": {
           "description": "https api.stackexchange.com docs badges",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "badges",
           "normalized": "Request a b[SE Badge]",
@@ -300,6 +322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/badges-by-ids\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "badgesByIds",
           "package": "libstackexchange",
@@ -310,6 +333,7 @@
         "index": {
           "description": "https api.stackexchange.com docs badges-by-ids",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "badgesByIds",
           "normalized": "[Int]-\u003eRequest a b[SE Badge]",
@@ -326,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/badges-by-name\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "badgesByName",
           "package": "libstackexchange",
@@ -336,6 +361,7 @@
         "index": {
           "description": "https api.stackexchange.com docs badges-by-name",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "badgesByName",
           "normalized": "Request a b[SE Badge]",
@@ -352,6 +378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/badges-by-tag\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "badgesByTag",
           "package": "libstackexchange",
@@ -362,6 +389,7 @@
         "index": {
           "description": "https api.stackexchange.com docs badges-by-tag",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "badgesByTag",
           "normalized": "Request a b[SE Badge]",
@@ -378,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/badges-on-users\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "badgesOnUsers",
           "package": "libstackexchange",
@@ -388,6 +417,7 @@
         "index": {
           "description": "https api.stackexchange.com docs badges-on-users",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "badgesOnUsers",
           "normalized": "[Int]-\u003eRequest a b[SE Badge]",
@@ -404,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/comments\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "comments",
           "package": "libstackexchange",
@@ -414,6 +445,7 @@
         "index": {
           "description": "https api.stackexchange.com docs comments",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "comments",
           "normalized": "Request a b[SE Comment]",
@@ -429,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/comments-by-ids\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "commentsByIds",
           "package": "libstackexchange",
@@ -439,6 +472,7 @@
         "index": {
           "description": "https api.stackexchange.com docs comments-by-ids",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "commentsByIds",
           "normalized": "[Int]-\u003eRequest a b[SE Comment]",
@@ -455,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/comments-by-users-to-user\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "commentsByUsersToUser",
           "package": "libstackexchange",
@@ -465,6 +500,7 @@
         "index": {
           "description": "https api.stackexchange.com docs comments-by-users-to-user",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "commentsByUsersToUser",
           "normalized": "[Int]-\u003eInt-\u003eRequest a b[SE Comment]",
@@ -481,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/comments-on-answers\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "commentsOnAnswers",
           "package": "libstackexchange",
@@ -491,6 +528,7 @@
         "index": {
           "description": "https api.stackexchange.com docs comments-on-answers",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "commentsOnAnswers",
           "normalized": "[Int]-\u003eRequest a b[SE Comment]",
@@ -507,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/comments-on-posts\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "commentsOnPosts",
           "package": "libstackexchange",
@@ -517,6 +556,7 @@
         "index": {
           "description": "https api.stackexchange.com docs comments-on-posts",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "commentsOnPosts",
           "normalized": "[Int]-\u003eRequest a b[SE Comment]",
@@ -533,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/comments-on-questions\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "commentsOnQuestions",
           "package": "libstackexchange",
@@ -543,6 +584,7 @@
         "index": {
           "description": "https api.stackexchange.com docs comments-on-questions",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "commentsOnQuestions",
           "normalized": "[Int]-\u003eRequest a b[SE Comment]",
@@ -559,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/comments-on-users\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "commentsOnUsers",
           "package": "libstackexchange",
@@ -569,6 +612,7 @@
         "index": {
           "description": "https api.stackexchange.com docs comments-on-users",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "commentsOnUsers",
           "normalized": "[Int]-\u003eRequest a b[SE Comment]",
@@ -585,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/create-comment\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "createComment",
           "package": "libstackexchange",
@@ -595,6 +640,7 @@
         "index": {
           "description": "https api.stackexchange.com docs create-comment",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "createComment",
           "normalized": "Int-\u003eText-\u003eRequest RequireToken a(SE Comment)",
@@ -611,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/create-filter\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "createFilter",
           "package": "libstackexchange",
@@ -621,6 +668,7 @@
         "index": {
           "description": "https api.stackexchange.com docs create-filter",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "createFilter",
           "normalized": "[Text]-\u003e[Text]-\u003eText-\u003eRequest a b(SE Filter)",
@@ -637,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/delete-comment\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "deleteComment",
           "package": "libstackexchange",
@@ -647,6 +696,7 @@
         "index": {
           "description": "https api.stackexchange.com docs delete-comment",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "deleteComment",
           "normalized": "Int-\u003eRequest RequireToken a()",
@@ -663,6 +713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/edit-comment\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "editComment",
           "package": "libstackexchange",
@@ -673,6 +724,7 @@
         "index": {
           "description": "https api.stackexchange.com docs edit-comment",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "editComment",
           "normalized": "Int-\u003eText-\u003eRequest RequireToken a(SE Comment)",
@@ -689,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/elected-moderators\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "electedModerators",
           "package": "libstackexchange",
@@ -699,6 +752,7 @@
         "index": {
           "description": "https api.stackexchange.com docs elected-moderators",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "electedModerators",
           "normalized": "Request a b[SE User]",
@@ -715,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/errors\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "errors",
           "package": "libstackexchange",
@@ -725,6 +780,7 @@
         "index": {
           "description": "https api.stackexchange.com docs errors",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "errors",
           "normalized": "Request a b[SE Error]",
@@ -740,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/events\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "events",
           "package": "libstackexchange",
@@ -750,6 +807,7 @@
         "index": {
           "description": "https api.stackexchange.com docs events",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "events",
           "normalized": "Request RequireToken a[SE Event]",
@@ -765,6 +823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/faqs-by-tags\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "faqsByTags",
           "package": "libstackexchange",
@@ -775,6 +834,7 @@
         "index": {
           "description": "https api.stackexchange.com docs faqs-by-tags",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "faqsByTags",
           "normalized": "[Text]-\u003eRequest a b[SE Question]",
@@ -791,6 +851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/favorites-on-users\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "favoritesOnUsers",
           "package": "libstackexchange",
@@ -801,6 +862,7 @@
         "index": {
           "description": "https api.stackexchange.com docs favorites-on-users",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "favoritesOnUsers",
           "normalized": "[Int]-\u003eRequest a b[SE Question]",
@@ -817,6 +879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/featured-questions\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "featuredQuestions",
           "package": "libstackexchange",
@@ -827,6 +890,7 @@
         "index": {
           "description": "https api.stackexchange.com docs featured-questions",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "featuredQuestions",
           "normalized": "Request a b[SE Question]",
@@ -843,6 +907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/featured-questions-on-users\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "featuredQuestionsOnUsers",
           "package": "libstackexchange",
@@ -853,6 +918,7 @@
         "index": {
           "description": "https api.stackexchange.com docs featured-questions-on-users",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "featuredQuestionsOnUsers",
           "normalized": "[Int]-\u003eRequest a b[SE Question]",
@@ -869,6 +935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/inbox\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "inbox",
           "package": "libstackexchange",
@@ -879,6 +946,7 @@
         "index": {
           "description": "https api.stackexchange.com docs inbox",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "inbox",
           "normalized": "Request RequireToken a[SE InboxItem]",
@@ -894,6 +962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/inbox-unread\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "inboxUnread",
           "package": "libstackexchange",
@@ -904,6 +973,7 @@
         "index": {
           "description": "https api.stackexchange.com docs inbox-unread",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "inboxUnread",
           "normalized": "Request RequireToken a[SE InboxItem]",
@@ -920,6 +990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/info\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "info",
           "package": "libstackexchange",
@@ -930,6 +1001,7 @@
         "index": {
           "description": "https api.stackexchange.com docs info",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "info",
           "package": "libstackexchange",
@@ -943,6 +1015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/invalidate-access-tokens\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "invalidateAccessTokens",
           "package": "libstackexchange",
@@ -953,6 +1026,7 @@
         "index": {
           "description": "https api.stackexchange.com docs invalidate-access-tokens",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "invalidateAccessTokens",
           "normalized": "[Text]-\u003eRequest a b[SE AccessToken]",
@@ -969,6 +1043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/linked-questions\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "linkedQuestions",
           "package": "libstackexchange",
@@ -979,6 +1054,7 @@
         "index": {
           "description": "https api.stackexchange.com docs linked-questions",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "linkedQuestions",
           "normalized": "[Int]-\u003eRequest a b[SE Question]",
@@ -995,6 +1071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "me",
           "package": "libstackexchange",
@@ -1005,6 +1082,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "me",
           "package": "libstackexchange",
@@ -1018,6 +1096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-answers\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meAnswers",
           "package": "libstackexchange",
@@ -1028,6 +1107,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-answers",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meAnswers",
           "normalized": "Request RequireToken a[SE Answer]",
@@ -1044,6 +1124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-associated-users\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meAssociatedUsers",
           "package": "libstackexchange",
@@ -1054,6 +1135,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-associated-users",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meAssociatedUsers",
           "normalized": "Request RequireToken a[SE NetworkUser]",
@@ -1070,6 +1152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-badges\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meBadges",
           "package": "libstackexchange",
@@ -1080,6 +1163,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-badges",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meBadges",
           "normalized": "Request RequireToken a[SE Badge]",
@@ -1096,6 +1180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-comments\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meComments",
           "package": "libstackexchange",
@@ -1106,6 +1191,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-comments",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meComments",
           "normalized": "Request RequireToken a[SE Comment]",
@@ -1122,6 +1208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-comments-to\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meCommentsTo",
           "package": "libstackexchange",
@@ -1132,6 +1219,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-comments-to",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meCommentsTo",
           "normalized": "Int-\u003eRequest RequireToken a[SE Comment]",
@@ -1148,6 +1236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-favorites\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meFavorites",
           "package": "libstackexchange",
@@ -1158,6 +1247,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-favorites",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meFavorites",
           "normalized": "Request RequireToken a[SE Question]",
@@ -1174,6 +1264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-featured-questions\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meFeaturedQuestions",
           "package": "libstackexchange",
@@ -1184,6 +1275,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-featured-questions",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meFeaturedQuestions",
           "normalized": "Request RequireToken a[SE Question]",
@@ -1200,6 +1292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-inbox\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meInbox",
           "package": "libstackexchange",
@@ -1210,6 +1303,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-inbox",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meInbox",
           "normalized": "Request RequireToken a[SE InboxItem]",
@@ -1226,6 +1320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-mentioned\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meMentioned",
           "package": "libstackexchange",
@@ -1236,6 +1331,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-mentioned",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meMentioned",
           "normalized": "Request RequireToken a[SE Comment]",
@@ -1252,6 +1348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-merge-history\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meMergeHistory",
           "package": "libstackexchange",
@@ -1262,6 +1359,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-merge-history",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meMergeHistory",
           "normalized": "Request RequireToken a[SE AccountMerge]",
@@ -1278,6 +1376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-no-answer-questions\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meNoAnswerQuestions",
           "package": "libstackexchange",
@@ -1288,6 +1387,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-no-answer-questions",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meNoAnswerQuestions",
           "normalized": "Request RequireToken a[SE Question]",
@@ -1304,6 +1404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-notifications\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meNotifications",
           "package": "libstackexchange",
@@ -1314,6 +1415,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-notifications",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meNotifications",
           "normalized": "Request RequireToken a[SE Notification]",
@@ -1330,6 +1432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-privileges\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "mePriviledges",
           "package": "libstackexchange",
@@ -1340,6 +1443,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-privileges",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "mePriviledges",
           "normalized": "Request RequireToken a[SE Privilege]",
@@ -1356,6 +1460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-questions\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meQuestions",
           "package": "libstackexchange",
@@ -1366,6 +1471,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-questions",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meQuestions",
           "normalized": "Request RequireToken a[SE Question]",
@@ -1382,6 +1488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-reputation\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meReputation",
           "package": "libstackexchange",
@@ -1392,6 +1499,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-reputation",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meReputation",
           "normalized": "Request RequireToken a[SE Reputation]",
@@ -1408,6 +1516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-reputation-history\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meReputationHistory",
           "package": "libstackexchange",
@@ -1418,6 +1527,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-reputation-history",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meReputationHistory",
           "normalized": "Request RequireToken a[SE ReputationHistory]",
@@ -1434,6 +1544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-full-reputation-history\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meReputationHistoryFull",
           "package": "libstackexchange",
@@ -1444,6 +1555,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-full-reputation-history",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meReputationHistoryFull",
           "normalized": "Request RequireToken a[SE ReputationHistory]",
@@ -1460,6 +1572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-suggested-edits\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meSuggestedEdits",
           "package": "libstackexchange",
@@ -1470,6 +1583,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-suggested-edits",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meSuggestedEdits",
           "normalized": "Request RequireToken a[SE SuggestedEdit]",
@@ -1486,6 +1600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-tags\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meTags",
           "package": "libstackexchange",
@@ -1496,6 +1611,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-tags",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meTags",
           "normalized": "Request RequireToken a[SE Tag]",
@@ -1512,6 +1628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-tags-top-answers\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meTagsTopAnswers",
           "package": "libstackexchange",
@@ -1522,6 +1639,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-tags-top-answers",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meTagsTopAnswers",
           "normalized": "[Text]-\u003eRequest RequireToken a[SE Answer]",
@@ -1538,6 +1656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-tags-top-questions\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meTagsTopQuestions",
           "package": "libstackexchange",
@@ -1548,6 +1667,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-tags-top-questions",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meTagsTopQuestions",
           "normalized": "[Text]-\u003eRequest RequireToken a[SE Question]",
@@ -1564,6 +1684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-timeline\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meTimeline",
           "package": "libstackexchange",
@@ -1574,6 +1695,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-timeline",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meTimeline",
           "normalized": "Request RequireToken a[SE UserTimeline]",
@@ -1590,6 +1712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-top-answer-tags\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meTopAnswerTags",
           "package": "libstackexchange",
@@ -1600,6 +1723,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-top-answer-tags",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meTopAnswerTags",
           "normalized": "Request RequireToken a[SE TopTag]",
@@ -1616,6 +1740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-top-question-tags\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meTopQuestionTags",
           "package": "libstackexchange",
@@ -1626,6 +1751,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-top-question-tags",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meTopQuestionTags",
           "normalized": "Request RequireToken a[SE TopTag]",
@@ -1642,6 +1768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-unaccepted-questions\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meUnacceptedQuestions",
           "package": "libstackexchange",
@@ -1652,6 +1779,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-unaccepted-questions",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meUnacceptedQuestions",
           "normalized": "Request RequireToken a[SE Question]",
@@ -1668,6 +1796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-unanswered-questions\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meUnansweredQuestions",
           "package": "libstackexchange",
@@ -1678,6 +1807,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-unanswered-questions",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meUnansweredQuestions",
           "normalized": "Request RequireToken a[SE Question]",
@@ -1694,6 +1824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-unread-inbox\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meUnreadInbox",
           "package": "libstackexchange",
@@ -1704,6 +1835,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-unread-inbox",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meUnreadInbox",
           "normalized": "Request RequireToken a[SE InboxItem]",
@@ -1720,6 +1852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-unread-notifications\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meUnreadNotifications",
           "package": "libstackexchange",
@@ -1730,6 +1863,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-unread-notifications",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meUnreadNotifications",
           "normalized": "Request RequireToken a[SE Notification]",
@@ -1746,6 +1880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/me-write-permissions\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "meWritePermissions",
           "package": "libstackexchange",
@@ -1756,6 +1891,7 @@
         "index": {
           "description": "https api.stackexchange.com docs me-write-permissions",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "meWritePermissions",
           "normalized": "Request RequireToken a[SE WritePermission]",
@@ -1772,6 +1908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/mentions-on-users\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "mentionsOnUsers",
           "package": "libstackexchange",
@@ -1782,6 +1919,7 @@
         "index": {
           "description": "https api.stackexchange.com docs mentions-on-users",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "mentionsOnUsers",
           "normalized": "[Int]-\u003eRequest a b[SE Comment]",
@@ -1798,6 +1936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/merge-history\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "mergeHistory",
           "package": "libstackexchange",
@@ -1808,6 +1947,7 @@
         "index": {
           "description": "https api.stackexchange.com docs merge-history",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "mergeHistory",
           "normalized": "[Int]-\u003eRequest a b[SE AccountMerge]",
@@ -1824,6 +1964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/moderator-only-tags\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "moderatorOnlyTags",
           "package": "libstackexchange",
@@ -1834,6 +1975,7 @@
         "index": {
           "description": "https api.stackexchange.com docs moderator-only-tags",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "moderatorOnlyTags",
           "normalized": "Request a b[SE Tag]",
@@ -1850,6 +1992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/moderators\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "moderators",
           "package": "libstackexchange",
@@ -1860,6 +2003,7 @@
         "index": {
           "description": "https api.stackexchange.com docs moderators",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "moderators",
           "normalized": "Request a b[SE User]",
@@ -1875,6 +2019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/no-answer-questions\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "noAnswerQuestions",
           "package": "libstackexchange",
@@ -1885,6 +2030,7 @@
         "index": {
           "description": "https api.stackexchange.com docs no-answer-questions",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "noAnswerQuestions",
           "normalized": "Request a b[SE Question]",
@@ -1901,6 +2047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/no-answer-questions-on-users\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "noAnswerQuestionsOnUsers",
           "package": "libstackexchange",
@@ -1911,6 +2058,7 @@
         "index": {
           "description": "https api.stackexchange.com docs no-answer-questions-on-users",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "noAnswerQuestionsOnUsers",
           "normalized": "[Int]-\u003eRequest a b[SE Question]",
@@ -1927,6 +2075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/notifications\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "notifications",
           "package": "libstackexchange",
@@ -1937,6 +2086,7 @@
         "index": {
           "description": "https api.stackexchange.com docs notifications",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "notifications",
           "normalized": "Request RequireToken a[SE Notification]",
@@ -1952,6 +2102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/notifications-unread\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "notificationsUnread",
           "package": "libstackexchange",
@@ -1962,6 +2113,7 @@
         "index": {
           "description": "https api.stackexchange.com docs notifications-unread",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "notificationsUnread",
           "normalized": "Request RequireToken a[SE Notification]",
@@ -1978,6 +2130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/posts\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "posts",
           "package": "libstackexchange",
@@ -1988,6 +2141,7 @@
         "index": {
           "description": "https api.stackexchange.com docs posts",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "posts",
           "normalized": "Request a b[SE Post]",
@@ -2003,6 +2157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/posts-by-ids\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "postsByIds",
           "package": "libstackexchange",
@@ -2013,6 +2168,7 @@
         "index": {
           "description": "https api.stackexchange.com docs posts-by-ids",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "postsByIds",
           "normalized": "[Int]-\u003eRequest a b[SE Post]",
@@ -2029,6 +2185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/posts-on-suggested-edits\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "postsOnSuggestedEdits",
           "package": "libstackexchange",
@@ -2039,6 +2196,7 @@
         "index": {
           "description": "https api.stackexchange.com docs posts-on-suggested-edits",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "postsOnSuggestedEdits",
           "normalized": "[Int]-\u003eRequest a b[SE SuggestedEdit]",
@@ -2055,6 +2213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/privileges\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "privileges",
           "package": "libstackexchange",
@@ -2065,6 +2224,7 @@
         "index": {
           "description": "https api.stackexchange.com docs privileges",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "privileges",
           "normalized": "Request a b[SE Privilege]",
@@ -2080,6 +2240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/privileges-on-users\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "privilegesOnUsers",
           "package": "libstackexchange",
@@ -2090,6 +2251,7 @@
         "index": {
           "description": "https api.stackexchange.com docs privileges-on-users",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "privilegesOnUsers",
           "normalized": "Int-\u003eRequest a b[SE Privilege]",
@@ -2106,6 +2268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/questions\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "questions",
           "package": "libstackexchange",
@@ -2116,6 +2279,7 @@
         "index": {
           "description": "https api.stackexchange.com docs questions",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "questions",
           "normalized": "Request a b[SE Question]",
@@ -2131,6 +2295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/questions-by-ids\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "questionsByIds",
           "package": "libstackexchange",
@@ -2141,6 +2306,7 @@
         "index": {
           "description": "https api.stackexchange.com docs questions-by-ids",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "questionsByIds",
           "normalized": "[Int]-\u003eRequest a b[SE Question]",
@@ -2157,6 +2323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/questions-on-users\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "questionsOnUsers",
           "package": "libstackexchange",
@@ -2167,6 +2334,7 @@
         "index": {
           "description": "https api.stackexchange.com docs questions-on-users",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "questionsOnUsers",
           "normalized": "[Int]-\u003eRequest a b[SE Question]",
@@ -2183,6 +2351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/questions-timeline\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "questionsTimeline",
           "package": "libstackexchange",
@@ -2193,6 +2362,7 @@
         "index": {
           "description": "https api.stackexchange.com docs questions-timeline",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "questionsTimeline",
           "normalized": "[Int]-\u003eRequest a b[SE QuestionTimeline]",
@@ -2209,6 +2379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/read-access-tokens\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "readAccessTokens",
           "package": "libstackexchange",
@@ -2219,6 +2390,7 @@
         "index": {
           "description": "https api.stackexchange.com docs read-access-tokens",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "readAccessTokens",
           "normalized": "[Text]-\u003eRequest a b[SE AccessToken]",
@@ -2235,6 +2407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/read-filter\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "readFilter",
           "package": "libstackexchange",
@@ -2245,6 +2418,7 @@
         "index": {
           "description": "https api.stackexchange.com docs read-filter",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "readFilter",
           "normalized": "[Text]-\u003eRequest a b[SE Filter]",
@@ -2261,6 +2435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/related-questions\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "relatedQuestions",
           "package": "libstackexchange",
@@ -2271,6 +2446,7 @@
         "index": {
           "description": "https api.stackexchange.com docs related-questions",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "relatedQuestions",
           "normalized": "[Int]-\u003eRequest a b[SE Question]",
@@ -2287,6 +2463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/related-tags\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "relatedTags",
           "package": "libstackexchange",
@@ -2297,6 +2474,7 @@
         "index": {
           "description": "https api.stackexchange.com docs related-tags",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "relatedTags",
           "normalized": "[Text]-\u003eRequest a b[SE Tag]",
@@ -2313,6 +2491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/reputation-history\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "reputationHistory",
           "package": "libstackexchange",
@@ -2323,6 +2502,7 @@
         "index": {
           "description": "https api.stackexchange.com docs reputation-history",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "reputationHistory",
           "normalized": "[Int]-\u003eRequest a b[SE ReputationHistory]",
@@ -2339,6 +2519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/full-reputation-history\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "reputationHistoryFull",
           "package": "libstackexchange",
@@ -2349,6 +2530,7 @@
         "index": {
           "description": "https api.stackexchange.com docs full-reputation-history",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "reputationHistoryFull",
           "normalized": "[Int]-\u003eRequest RequireToken a[SE ReputationHistory]",
@@ -2365,6 +2547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/reputation-on-users\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "reputationOnUsers",
           "package": "libstackexchange",
@@ -2375,6 +2558,7 @@
         "index": {
           "description": "https api.stackexchange.com docs reputation-on-users",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "reputationOnUsers",
           "normalized": "[Int]-\u003eRequest a b[SE Reputation]",
@@ -2391,6 +2575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/required-tags\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "requiredTags",
           "package": "libstackexchange",
@@ -2401,6 +2586,7 @@
         "index": {
           "description": "https api.stackexchange.com docs required-tags",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "requiredTags",
           "normalized": "Request a b[SE Tag]",
@@ -2417,6 +2603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/revisions-by-guids\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "revisionsByGuids",
           "package": "libstackexchange",
@@ -2427,6 +2614,7 @@
         "index": {
           "description": "https api.stackexchange.com docs revisions-by-guids",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "revisionsByGuids",
           "normalized": "[Text]-\u003eRequest a b[SE Revision]",
@@ -2443,6 +2631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/revisions-by-ids\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "revisionsByIds",
           "package": "libstackexchange",
@@ -2453,6 +2642,7 @@
         "index": {
           "description": "https api.stackexchange.com docs revisions-by-ids",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "revisionsByIds",
           "normalized": "[Int]-\u003eRequest a b[SE Revision]",
@@ -2469,6 +2659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/search\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "search",
           "package": "libstackexchange",
@@ -2479,6 +2670,7 @@
         "index": {
           "description": "https api.stackexchange.com docs search",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "search",
           "normalized": "Text-\u003e[Text]-\u003eRequest a b[SE Question]",
@@ -2494,6 +2686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/similar\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "similar",
           "package": "libstackexchange",
@@ -2504,6 +2697,7 @@
         "index": {
           "description": "https api.stackexchange.com docs similar",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "similar",
           "normalized": "Text-\u003e[Text]-\u003eRequest a b[SE Question]",
@@ -2519,6 +2713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/sites\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "sites",
           "package": "libstackexchange",
@@ -2529,6 +2724,7 @@
         "index": {
           "description": "https api.stackexchange.com docs sites",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "sites",
           "normalized": "Request a b[SE Site]",
@@ -2544,6 +2740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/suggested-edits\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "suggestedEdits",
           "package": "libstackexchange",
@@ -2554,6 +2751,7 @@
         "index": {
           "description": "https api.stackexchange.com docs suggested-edits",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "suggestedEdits",
           "normalized": "Request a b[SE SuggestedEdit]",
@@ -2570,6 +2768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/suggested-edits-by-ids\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "suggestedEditsByIds",
           "package": "libstackexchange",
@@ -2580,6 +2779,7 @@
         "index": {
           "description": "https api.stackexchange.com docs suggested-edits-by-ids",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "suggestedEditsByIds",
           "normalized": "[Int]-\u003eRequest a b[SE SuggestedEdit]",
@@ -2596,6 +2796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/suggested-edits-on-users\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "suggestedEditsOnUsers",
           "package": "libstackexchange",
@@ -2606,6 +2807,7 @@
         "index": {
           "description": "https api.stackexchange.com docs suggested-edits-on-users",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "suggestedEditsOnUsers",
           "normalized": "[Int]-\u003eRequest a b[SE SuggestedEdit]",
@@ -2622,6 +2824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/synonyms-by-tags\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "synonymsByTags",
           "package": "libstackexchange",
@@ -2632,6 +2835,7 @@
         "index": {
           "description": "https api.stackexchange.com docs synonyms-by-tags",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "synonymsByTags",
           "normalized": "[Text]-\u003eRequest a b[SE TagSynonym]",
@@ -2648,6 +2852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/tag-synonyms\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "tagSynonyms",
           "package": "libstackexchange",
@@ -2658,6 +2863,7 @@
         "index": {
           "description": "https api.stackexchange.com docs tag-synonyms",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "tagSynonyms",
           "normalized": "Request a b[SE TagSynonym]",
@@ -2674,6 +2880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/tags\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "tags",
           "package": "libstackexchange",
@@ -2684,6 +2891,7 @@
         "index": {
           "description": "https api.stackexchange.com docs tags",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "tags",
           "normalized": "Request a b[SE Tag]",
@@ -2699,6 +2907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/tags-by-name\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "tagsByName",
           "package": "libstackexchange",
@@ -2709,6 +2918,7 @@
         "index": {
           "description": "https api.stackexchange.com docs tags-by-name",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "tagsByName",
           "normalized": "[Text]-\u003eRequest a b[SE Tag]",
@@ -2725,6 +2935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/tags-on-users\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "tagsOnUsers",
           "package": "libstackexchange",
@@ -2735,6 +2946,7 @@
         "index": {
           "description": "https api.stackexchange.com docs tags-on-users",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "tagsOnUsers",
           "normalized": "[Int]-\u003eRequest a b[SE Tag]",
@@ -2751,6 +2963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/timeline-on-users\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "timelineOnUsers",
           "package": "libstackexchange",
@@ -2761,6 +2974,7 @@
         "index": {
           "description": "https api.stackexchange.com docs timeline-on-users",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "timelineOnUsers",
           "normalized": "[Int]-\u003eRequest a b[SE UserTimeline]",
@@ -2777,6 +2991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/top-answer-tags-on-users\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "topAnswerTagsOnUsers",
           "package": "libstackexchange",
@@ -2787,6 +3002,7 @@
         "index": {
           "description": "https api.stackexchange.com docs top-answer-tags-on-users",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "topAnswerTagsOnUsers",
           "normalized": "Int-\u003eRequest a b[SE TopTag]",
@@ -2803,6 +3019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/top-answerers-on-tags\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "topAnswerersOnTag",
           "package": "libstackexchange",
@@ -2813,6 +3030,7 @@
         "index": {
           "description": "https api.stackexchange.com docs top-answerers-on-tags",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "topAnswerersOnTag",
           "normalized": "Text-\u003eText-\u003eRequest a b[SE TagScore]",
@@ -2829,6 +3047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/top-askers-on-tags\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "topAskersOnTag",
           "package": "libstackexchange",
@@ -2839,6 +3058,7 @@
         "index": {
           "description": "https api.stackexchange.com docs top-askers-on-tags",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "topAskersOnTag",
           "normalized": "Text-\u003eText-\u003eRequest a b[SE TagScore]",
@@ -2855,6 +3075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/top-question-tags-on-users\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "topQuestionTagsOnUsers",
           "package": "libstackexchange",
@@ -2865,6 +3086,7 @@
         "index": {
           "description": "https api.stackexchange.com docs top-question-tags-on-users",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "topQuestionTagsOnUsers",
           "normalized": "Int-\u003eRequest a b[SE TopTag]",
@@ -2881,6 +3103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/top-user-answers-in-tags\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "topUserAnswersInTags",
           "package": "libstackexchange",
@@ -2891,6 +3114,7 @@
         "index": {
           "description": "https api.stackexchange.com docs top-user-answers-in-tags",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "topUserAnswersInTags",
           "normalized": "Int-\u003e[Text]-\u003eRequest a b[SE Answer]",
@@ -2907,6 +3131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/top-user-questions-in-tags\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "topUserQuestionsInTags",
           "package": "libstackexchange",
@@ -2917,6 +3142,7 @@
         "index": {
           "description": "https api.stackexchange.com docs top-user-questions-in-tags",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "topUserQuestionsInTags",
           "normalized": "Int-\u003e[Text]-\u003eRequest a b[SE Question]",
@@ -2932,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "unacceptedQuestionsOnUsers",
           "package": "libstackexchange",
@@ -2941,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "unacceptedQuestionsOnUsers",
           "normalized": "[Int]-\u003eRequest a b[SE Question]",
@@ -2957,6 +3185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/unanswered-questions\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "unansweredQuestions",
           "package": "libstackexchange",
@@ -2967,6 +3196,7 @@
         "index": {
           "description": "https api.stackexchange.com docs unanswered-questions",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "unansweredQuestions",
           "normalized": "Request a b[SE Question]",
@@ -2983,6 +3213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/unanswered-questions-on-users\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "unansweredQuestionsOnUsers",
           "package": "libstackexchange",
@@ -2993,6 +3224,7 @@
         "index": {
           "description": "https api.stackexchange.com docs unanswered-questions-on-users",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "unansweredQuestionsOnUsers",
           "normalized": "[Int]-\u003eRequest a b[SE Question]",
@@ -3009,6 +3241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/user-inbox\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "userInbox",
           "package": "libstackexchange",
@@ -3019,6 +3252,7 @@
         "index": {
           "description": "https api.stackexchange.com docs user-inbox",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "userInbox",
           "normalized": "Int-\u003eRequest RequireToken a[SE InboxItem]",
@@ -3035,6 +3269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/user-notifications\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "userNotifications",
           "package": "libstackexchange",
@@ -3045,6 +3280,7 @@
         "index": {
           "description": "https api.stackexchange.com docs user-notifications",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "userNotifications",
           "normalized": "Int-\u003eRequest RequireToken a[SE Notification]",
@@ -3061,6 +3297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/user-unread-inbox\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "userUnreadInbox",
           "package": "libstackexchange",
@@ -3071,6 +3308,7 @@
         "index": {
           "description": "https api.stackexchange.com docs user-unread-inbox",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "userUnreadInbox",
           "normalized": "Int-\u003eRequest RequireToken a[SE InboxItem]",
@@ -3087,6 +3325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/user-unread-notifications\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "userUnreadNotifications",
           "package": "libstackexchange",
@@ -3097,6 +3336,7 @@
         "index": {
           "description": "https api.stackexchange.com docs user-unread-notifications",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "userUnreadNotifications",
           "normalized": "Int-\u003eRequest RequireToken a[SE Notification]",
@@ -3113,6 +3353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/users\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "users",
           "package": "libstackexchange",
@@ -3123,6 +3364,7 @@
         "index": {
           "description": "https api.stackexchange.com docs users",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "users",
           "normalized": "Request a b[SE User]",
@@ -3138,6 +3380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/users-by-ids\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "usersByIds",
           "package": "libstackexchange",
@@ -3148,6 +3391,7 @@
         "index": {
           "description": "https api.stackexchange.com docs users-by-ids",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "usersByIds",
           "normalized": "[Int]-\u003eRequest a b[SE User]",
@@ -3164,6 +3408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/wikis-by-tags\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "wikisByTags",
           "package": "libstackexchange",
@@ -3174,6 +3419,7 @@
         "index": {
           "description": "https api.stackexchange.com docs wikis-by-tags",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "wikisByTags",
           "normalized": "[Text]-\u003eRequest a b[SE TagWiki]",
@@ -3190,6 +3436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/write-permissions\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.API",
           "name": "writePermissions",
           "package": "libstackexchange",
@@ -3200,6 +3447,7 @@
         "index": {
           "description": "https api.stackexchange.com docs write-permissions",
           "hierarchy": "Network StackExchange API",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.API",
           "name": "writePermissions",
           "normalized": "Int-\u003eRequest a b[SE WritePermission]",
@@ -3216,6 +3464,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStackExchange authentication helpers\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Auth",
           "name": "Auth",
           "package": "libstackexchange",
@@ -3225,6 +3474,7 @@
         "index": {
           "description": "StackExchange authentication helpers",
           "hierarchy": "Network StackExchange Auth",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Auth",
           "name": "Auth",
           "package": "libstackexchange",
@@ -3239,6 +3489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest access_token from StackExchange\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Auth",
           "name": "explicitAccessToken",
           "package": "libstackexchange",
@@ -3249,6 +3500,7 @@
         "index": {
           "description": "Request access token from StackExchange",
           "hierarchy": "Network StackExchange Auth",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Auth",
           "name": "explicitAccessToken",
           "normalized": "Int-\u003eText-\u003eText-\u003eText-\u003eRequest a b Text",
@@ -3265,6 +3517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct URI at which user should approve app\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Auth",
           "name": "explicitUserPermission",
           "package": "libstackexchange",
@@ -3275,6 +3528,7 @@
         "index": {
           "description": "Construct URI at which user should approve app",
           "hierarchy": "Network StackExchange Auth",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Auth",
           "name": "explicitUserPermission",
           "normalized": "Int-\u003eText-\u003eRequest a b c",
@@ -3291,6 +3545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct URI at which user should approve app\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Auth",
           "name": "implicitUserPermission",
           "package": "libstackexchange",
@@ -3301,6 +3556,7 @@
         "index": {
           "description": "Construct URI at which user should approve app",
           "hierarchy": "Network StackExchange Auth",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Auth",
           "name": "implicitUserPermission",
           "normalized": "Int-\u003eText-\u003eRequest a b c",
@@ -3317,6 +3573,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStackExchange API request manipulation routines\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "Request",
           "package": "libstackexchange",
@@ -3326,6 +3583,7 @@
         "index": {
           "description": "StackExchange API request manipulation routines",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "Request",
           "package": "libstackexchange",
@@ -3340,6 +3598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthentication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "Auth",
           "package": "libstackexchange",
@@ -3349,6 +3608,7 @@
         "index": {
           "description": "Authentication",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "Auth",
           "package": "libstackexchange",
@@ -3363,6 +3623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSE response type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "Object",
           "package": "libstackexchange",
@@ -3372,6 +3633,7 @@
         "index": {
           "description": "SE response type",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "Object",
           "package": "libstackexchange",
@@ -3386,6 +3648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStackExchange API Request data type.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ea\u003c/code\u003e is a phantom type showing whether authentication is enabled\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003en\u003c/code\u003e is a phantom type dissallowing combination of\n different API calls in one request\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003er\u003c/code\u003e is a type of parsed API call result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "R",
           "package": "libstackexchange",
@@ -3395,6 +3658,7 @@
         "index": {
           "description": "StackExchange API Request data type is phantom type showing whether authentication is enabled is phantom type dissallowing combination of different API calls in one request is type of parsed API call result",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "R",
           "package": "libstackexchange",
@@ -3407,6 +3671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "Request",
           "package": "libstackexchange",
@@ -3415,6 +3680,7 @@
         },
         "index": {
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "Request",
           "package": "libstackexchange",
@@ -3429,6 +3695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSE response value wrapper\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "SE",
           "package": "libstackexchange",
@@ -3438,6 +3705,7 @@
         "index": {
           "description": "SE response value wrapper",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "SE",
           "package": "libstackexchange",
@@ -3452,6 +3720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScope defines permission granted for application by user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "Scope",
           "package": "libstackexchange",
@@ -3461,6 +3730,7 @@
         "index": {
           "description": "Scope defines permission granted for application by user",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "Scope",
           "package": "libstackexchange",
@@ -3475,6 +3745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/access-token\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "AccessToken",
           "package": "libstackexchange",
@@ -3485,6 +3756,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types access-token",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "AccessToken",
           "package": "libstackexchange",
@@ -3499,6 +3771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/account-merge\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "AccountMerge",
           "package": "libstackexchange",
@@ -3509,6 +3782,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types account-merge",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "AccountMerge",
           "package": "libstackexchange",
@@ -3523,6 +3797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/answer\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "Answer",
           "package": "libstackexchange",
@@ -3533,6 +3808,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types answer",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "Answer",
           "package": "libstackexchange",
@@ -3547,6 +3823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/badge\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "Badge",
           "package": "libstackexchange",
@@ -3557,6 +3834,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types badge",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "Badge",
           "package": "libstackexchange",
@@ -3571,6 +3849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/comment\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "Comment",
           "package": "libstackexchange",
@@ -3581,6 +3860,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types comment",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "Comment",
           "package": "libstackexchange",
@@ -3595,6 +3875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/error\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "Error",
           "package": "libstackexchange",
@@ -3605,6 +3886,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types error",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "Error",
           "package": "libstackexchange",
@@ -3619,6 +3901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/event\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "Event",
           "package": "libstackexchange",
@@ -3629,6 +3912,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types event",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "Event",
           "package": "libstackexchange",
@@ -3643,6 +3927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/filter\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "Filter",
           "package": "libstackexchange",
@@ -3653,6 +3938,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types filter",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "Filter",
           "package": "libstackexchange",
@@ -3667,6 +3953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/inbox-item\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "InboxItem",
           "package": "libstackexchange",
@@ -3677,6 +3964,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types inbox-item",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "InboxItem",
           "package": "libstackexchange",
@@ -3691,6 +3979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/info\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "Info",
           "package": "libstackexchange",
@@ -3701,6 +3990,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types info",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "Info",
           "package": "libstackexchange",
@@ -3715,6 +4005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/network-user\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "NetworkUser",
           "package": "libstackexchange",
@@ -3725,6 +4016,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types network-user",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "NetworkUser",
           "package": "libstackexchange",
@@ -3738,6 +4030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "NoExpiry",
           "package": "libstackexchange",
@@ -3747,6 +4040,7 @@
         },
         "index": {
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "NoExpiry",
           "package": "libstackexchange",
@@ -3761,6 +4055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/notification\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "Notification",
           "package": "libstackexchange",
@@ -3771,6 +4066,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types notification",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "Notification",
           "package": "libstackexchange",
@@ -3785,6 +4081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/post\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "Post",
           "package": "libstackexchange",
@@ -3795,6 +4092,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types post",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "Post",
           "package": "libstackexchange",
@@ -3808,6 +4106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "PrivateInfo",
           "package": "libstackexchange",
@@ -3817,6 +4116,7 @@
         },
         "index": {
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "PrivateInfo",
           "package": "libstackexchange",
@@ -3831,6 +4131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/privilege\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "Privilege",
           "package": "libstackexchange",
@@ -3841,6 +4142,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types privilege",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "Privilege",
           "package": "libstackexchange",
@@ -3855,6 +4157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/question\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "Question",
           "package": "libstackexchange",
@@ -3865,6 +4168,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types question",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "Question",
           "package": "libstackexchange",
@@ -3879,6 +4183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/question-timeline\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "QuestionTimeline",
           "package": "libstackexchange",
@@ -3889,6 +4194,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types question-timeline",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "QuestionTimeline",
           "package": "libstackexchange",
@@ -3902,6 +4208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "R",
           "package": "libstackexchange",
@@ -3911,6 +4218,7 @@
         },
         "index": {
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "R",
           "package": "libstackexchange",
@@ -3923,6 +4231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "ReadInbox",
           "package": "libstackexchange",
@@ -3932,6 +4241,7 @@
         },
         "index": {
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "ReadInbox",
           "package": "libstackexchange",
@@ -3946,6 +4256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest may be sent without auth_token\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "Ready",
           "package": "libstackexchange",
@@ -3956,6 +4267,7 @@
         "index": {
           "description": "Request may be sent without auth token",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "Ready",
           "package": "libstackexchange",
@@ -3970,6 +4282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/reputation\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "Reputation",
           "package": "libstackexchange",
@@ -3980,6 +4293,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types reputation",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "Reputation",
           "package": "libstackexchange",
@@ -3994,6 +4308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/reputation-history\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "ReputationHistory",
           "package": "libstackexchange",
@@ -4004,6 +4319,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types reputation-history",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "ReputationHistory",
           "package": "libstackexchange",
@@ -4018,6 +4334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest requires auth_token\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "RequireToken",
           "package": "libstackexchange",
@@ -4028,6 +4345,7 @@
         "index": {
           "description": "Request requires auth token",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "RequireToken",
           "package": "libstackexchange",
@@ -4042,6 +4360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/revision\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "Revision",
           "package": "libstackexchange",
@@ -4052,6 +4371,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types revision",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "Revision",
           "package": "libstackexchange",
@@ -4065,6 +4385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "SE",
           "package": "libstackexchange",
@@ -4074,6 +4395,7 @@
         },
         "index": {
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "SE",
           "package": "libstackexchange",
@@ -4088,6 +4410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/site\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "Site",
           "package": "libstackexchange",
@@ -4098,6 +4421,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types site",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "Site",
           "package": "libstackexchange",
@@ -4112,6 +4436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/suggested-edit\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "SuggestedEdit",
           "package": "libstackexchange",
@@ -4122,6 +4447,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types suggested-edit",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "SuggestedEdit",
           "package": "libstackexchange",
@@ -4136,6 +4462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/tag\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "Tag",
           "package": "libstackexchange",
@@ -4146,6 +4473,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types tag",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "Tag",
           "package": "libstackexchange",
@@ -4160,6 +4488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/tag-score\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "TagScore",
           "package": "libstackexchange",
@@ -4170,6 +4499,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types tag-score",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "TagScore",
           "package": "libstackexchange",
@@ -4184,6 +4514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/tag-synonym\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "TagSynonym",
           "package": "libstackexchange",
@@ -4194,6 +4525,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types tag-synonym",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "TagSynonym",
           "package": "libstackexchange",
@@ -4208,6 +4540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/tag-wiki\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "TagWiki",
           "package": "libstackexchange",
@@ -4218,6 +4551,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types tag-wiki",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "TagWiki",
           "package": "libstackexchange",
@@ -4232,6 +4566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/top-tag\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "TopTag",
           "package": "libstackexchange",
@@ -4242,6 +4577,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types top-tag",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "TopTag",
           "package": "libstackexchange",
@@ -4256,6 +4592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/user\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "User",
           "package": "libstackexchange",
@@ -4266,6 +4603,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types user",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "User",
           "package": "libstackexchange",
@@ -4280,6 +4618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/user-timeline\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "UserTimeline",
           "package": "libstackexchange",
@@ -4290,6 +4629,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types user-timeline",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "UserTimeline",
           "package": "libstackexchange",
@@ -4303,6 +4643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "WriteAccess",
           "package": "libstackexchange",
@@ -4312,6 +4653,7 @@
         },
         "index": {
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "WriteAccess",
           "package": "libstackexchange",
@@ -4326,6 +4668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttps://api.stackexchange.com/docs/types/write-permission\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "WritePermission",
           "package": "libstackexchange",
@@ -4336,6 +4679,7 @@
         "index": {
           "description": "https api.stackexchange.com docs types write-permission",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "WritePermission",
           "package": "libstackexchange",
@@ -4350,6 +4694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAPI host link\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "_host",
           "package": "libstackexchange",
@@ -4360,6 +4705,7 @@
         "index": {
           "description": "API host link",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "_host",
           "package": "libstackexchange",
@@ -4373,6 +4719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAPI call method (GET/POST)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "_method",
           "package": "libstackexchange",
@@ -4383,6 +4730,7 @@
         "index": {
           "description": "API call method GET POST",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "_method",
           "package": "libstackexchange",
@@ -4396,6 +4744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAPI call result parsing function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "_parse",
           "package": "libstackexchange",
@@ -4406,6 +4755,7 @@
         "index": {
           "description": "API call result parsing function",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "_parse",
           "normalized": "Maybe(ByteString-\u003ea)",
@@ -4421,6 +4771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAPI call link\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "_path",
           "package": "libstackexchange",
@@ -4431,6 +4782,7 @@
         "index": {
           "description": "API call link",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "_path",
           "package": "libstackexchange",
@@ -4444,6 +4796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAPI call query parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "_query",
           "package": "libstackexchange",
@@ -4454,6 +4807,7 @@
         "index": {
           "description": "API call query parameters",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "_query",
           "package": "libstackexchange",
@@ -4467,6 +4821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest defining only Authentication API call application id\n\u003c/p\u003e\u003cp\u003ePrimarily used in Authentication API call wrappers, not intended for usage by library user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "client",
           "package": "libstackexchange",
@@ -4477,6 +4832,7 @@
         "index": {
           "description": "Request defining only Authentication API call application id Primarily used in Authentication API call wrappers not intended for usage by library user",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "client",
           "normalized": "Int-\u003eRequest a b c",
@@ -4492,6 +4848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest defining only Authentication API call code\n\u003c/p\u003e\u003cp\u003ePrimarily used in Authentication API call wrappers, not intended for usage by library user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "code",
           "package": "libstackexchange",
@@ -4502,6 +4859,7 @@
         "index": {
           "description": "Request defining only Authentication API call code Primarily used in Authentication API call wrappers not intended for usage by library user",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "code",
           "normalized": "Text-\u003eRequest a b c",
@@ -4517,6 +4875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest defining only API call filter query parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "filter",
           "package": "libstackexchange",
@@ -4527,6 +4886,7 @@
         "index": {
           "description": "Request defining only API call filter query parameter",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "filter",
           "normalized": "Text-\u003eRequest a b c",
@@ -4542,6 +4902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest defining only API call host\n\u003c/p\u003e\u003cp\u003ePrimarily used in Auth, not intended for usage by library user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "host",
           "package": "libstackexchange",
@@ -4552,6 +4913,7 @@
         "index": {
           "description": "Request defining only API call host Primarily used in Auth not intended for usage by library user",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "host",
           "normalized": "Text-\u003eRequest a b c",
@@ -4567,6 +4929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest defining only App key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "key",
           "package": "libstackexchange",
@@ -4577,6 +4940,7 @@
         "index": {
           "description": "Request defining only App key",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "key",
           "normalized": "Text-\u003eRequest a b c",
@@ -4592,6 +4956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest defining only call method\n\u003c/p\u003e\u003cp\u003ePrimarily used in API call wrappers, not intended for usage by library user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "method",
           "package": "libstackexchange",
@@ -4602,6 +4967,7 @@
         "index": {
           "description": "Request defining only call method Primarily used in API call wrappers not intended for usage by library user",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "method",
           "normalized": "Text-\u003eRequest a b c",
@@ -4617,6 +4983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest defining only API call result parsing function\n\u003c/p\u003e\u003cp\u003ePrimarily used in API call wrappers, not intended for usage by library user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "parse",
           "package": "libstackexchange",
@@ -4627,6 +4994,7 @@
         "index": {
           "description": "Request defining only API call result parsing function Primarily used in API call wrappers not intended for usage by library user",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "parse",
           "normalized": "(ByteString-\u003ea)-\u003eRequest b c a",
@@ -4642,6 +5010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest defining only API call path\n\u003c/p\u003e\u003cp\u003ePrimarily used in API call wrappers, not intended for usage by library user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "path",
           "package": "libstackexchange",
@@ -4652,6 +5021,7 @@
         "index": {
           "description": "Request defining only API call path Primarily used in API call wrappers not intended for usage by library user",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "path",
           "normalized": "Text-\u003eRequest a b c",
@@ -4667,6 +5037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest defining only API call query parameters\n\u003c/p\u003e\u003cp\u003eRather low level interface. For more specific usage \u003ccode\u003e\u003ca\u003esite\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003efilter\u003c/a\u003e\u003c/code\u003e, etc calls may be more convenient\n\u003c/p\u003e\u003cp\u003eTakes a list of (key, value) parameters such as \u003ccode\u003e[(\"order\", \"asc\"), (\"sort\", \"rank\")]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "query",
           "package": "libstackexchange",
@@ -4677,6 +5048,7 @@
         "index": {
           "description": "Request defining only API call query parameters Rather low level interface For more specific usage site filter etc calls may be more convenient Takes list of key value parameters such as order asc sort rank",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "query",
           "normalized": "[(Text,Text)]-\u003eRequest a b c",
@@ -4692,6 +5064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest defining only Authentication API call redirect url\n\u003c/p\u003e\u003cp\u003ePrimarily used in Authentication API call wrappers, not intended for usage by library user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "redirectURI",
           "package": "libstackexchange",
@@ -4702,6 +5075,7 @@
         "index": {
           "description": "Request defining only Authentication API call redirect url Primarily used in Authentication API call wrappers not intended for usage by library user",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "redirectURI",
           "normalized": "Text-\u003eRequest a b c",
@@ -4718,6 +5092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender \u003ccode\u003e\u003ca\u003eR\u003c/a\u003e\u003c/code\u003e as URI string for networking\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "render",
           "package": "libstackexchange",
@@ -4728,6 +5103,7 @@
         "index": {
           "description": "Render as URI string for networking",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "render",
           "normalized": "Request a b c-\u003eString",
@@ -4743,6 +5119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest defining only API call scope query parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "scope",
           "package": "libstackexchange",
@@ -4753,6 +5130,7 @@
         "index": {
           "description": "Request defining only API call scope query parameter",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "scope",
           "normalized": "[Scope]-\u003eRequest a b c",
@@ -4768,6 +5146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest defining only Authentication API call application secret\n\u003c/p\u003e\u003cp\u003ePrimarily used in Authentication API call wrappers, not intended for usage by library user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "secret",
           "package": "libstackexchange",
@@ -4778,6 +5157,7 @@
         "index": {
           "description": "Request defining only Authentication API call application secret Primarily used in Authentication API call wrappers not intended for usage by library user",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "secret",
           "normalized": "Text-\u003eRequest a b c",
@@ -4793,6 +5173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest defining only API call site query parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "site",
           "package": "libstackexchange",
@@ -4803,6 +5184,7 @@
         "index": {
           "description": "Request defining only API call site query parameter",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "site",
           "normalized": "Text-\u003eRequest a b c",
@@ -4818,6 +5200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest defining only API call state query parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "state",
           "package": "libstackexchange",
@@ -4828,6 +5211,7 @@
         "index": {
           "description": "Request defining only API call state query parameter",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "state",
           "normalized": "Text-\u003eRequest a b c",
@@ -4843,6 +5227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert token requiring Request into ready one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "token",
           "package": "libstackexchange",
@@ -4853,6 +5238,7 @@
         "index": {
           "description": "Convert token requiring Request into ready one",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "token",
           "normalized": "Text-\u003eRequest RequireToken a b-\u003eRequest Ready a b",
@@ -4867,6 +5253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "unSE",
           "package": "libstackexchange",
@@ -4876,6 +5263,7 @@
         },
         "index": {
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "unSE",
           "package": "libstackexchange",
@@ -4890,6 +5278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrapping from interesting \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eR\u003c/a\u003e\u003c/code\u003e -\u003e \u003ccode\u003e\u003ca\u003eR\u003c/a\u003e\u003c/code\u003e) instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "unwrap",
           "package": "libstackexchange",
@@ -4900,6 +5289,7 @@
         "index": {
           "description": "Unwrapping from interesting Monoid instance",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "unwrap",
           "normalized": "Request a b c-\u003eR a b c-\u003eR a b c",
@@ -4915,6 +5305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapping to interesting \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eR\u003c/a\u003e\u003c/code\u003e -\u003e \u003ccode\u003e\u003ca\u003eR\u003c/a\u003e\u003c/code\u003e) instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Request",
           "name": "wrap",
           "package": "libstackexchange",
@@ -4925,6 +5316,7 @@
         "index": {
           "description": "Wrapping to interesting Monoid instance",
           "hierarchy": "Network StackExchange Request",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Request",
           "name": "wrap",
           "normalized": "(R a b c-\u003eR a b c)-\u003eRequest a b c",
@@ -4940,6 +5332,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGet response from Request and retrieve data from it\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Response",
           "name": "Response",
           "package": "libstackexchange",
@@ -4949,6 +5342,7 @@
         "index": {
           "description": "Get response from Request and retrieve data from it",
           "hierarchy": "Network StackExchange Response",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Response",
           "name": "Response",
           "package": "libstackexchange",
@@ -4963,6 +5357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStackExchange invalid response exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Response",
           "name": "SEException",
           "package": "libstackexchange",
@@ -4972,6 +5367,7 @@
         "index": {
           "description": "StackExchange invalid response exception",
           "hierarchy": "Network StackExchange Response",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Response",
           "name": "SEException",
           "package": "libstackexchange",
@@ -4985,6 +5381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Response",
           "name": "SEException",
           "package": "libstackexchange",
@@ -4994,6 +5391,7 @@
         },
         "index": {
           "hierarchy": "Network StackExchange Response",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Response",
           "name": "SEException",
           "package": "libstackexchange",
@@ -5008,6 +5406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecieved data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Response",
           "name": "_data",
           "package": "libstackexchange",
@@ -5018,6 +5417,7 @@
         "index": {
           "description": "Recieved data",
           "hierarchy": "Network StackExchange Response",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Response",
           "name": "_data",
           "package": "libstackexchange",
@@ -5031,6 +5431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser/libstackexchange errors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Response",
           "name": "_error",
           "package": "libstackexchange",
@@ -5041,6 +5442,7 @@
         "index": {
           "description": "Parser libstackexchange errors",
           "hierarchy": "Network StackExchange Response",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Response",
           "name": "_error",
           "package": "libstackexchange",
@@ -5054,6 +5456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend Request and parse response\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Response",
           "name": "askSE",
           "package": "libstackexchange",
@@ -5064,6 +5467,7 @@
         "index": {
           "description": "Send Request and parse response",
           "hierarchy": "Network StackExchange Response",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Response",
           "name": "askSE",
           "normalized": "Request Ready a b-\u003eIO b",
@@ -5080,6 +5484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIsomorphism for the ease of interaction with aeson-lens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange.Response",
           "name": "se",
           "package": "libstackexchange",
@@ -5090,6 +5495,7 @@
         "index": {
           "description": "Isomorphism for the ease of interaction with aeson-lens",
           "hierarchy": "Network StackExchange Response",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange.Response",
           "name": "se",
           "normalized": "a(SE b)(c(SE d))-\u003ea(Maybe Value)(c(Maybe Value))",
@@ -5105,6 +5511,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience module for the ease of importing\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:01 UTC 2014",
           "module": "Network.StackExchange",
           "name": "StackExchange",
           "package": "libstackexchange",
@@ -5114,6 +5521,7 @@
         "index": {
           "description": "Convenience module for the ease of importing",
           "hierarchy": "Network StackExchange",
+          "indexed": "2014-03-11T19:09:01",
           "module": "Network.StackExchange",
           "name": "StackExchange",
           "package": "libstackexchange",

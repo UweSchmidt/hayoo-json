@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "disassembler"
+        "phrase": "disassembler",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDisassembler for x86 machine code.\n\u003c/p\u003e\u003cp\u003eThis is a disassembler for object code for the x86 architecture.\n It provides functions for disassembling byte arrays, byte lists and\n memory blocks containing raw binary code.\n\u003c/p\u003e\u003cp\u003eFeatures:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Disassembles memory blocks, lists or arrays of bytes into lists of\n   instructions.\n\u003c/li\u003e\u003cli\u003e Abstract instructions provide as much information as possible about\n   opcodes, addressing modes or operand sizes, allowing for detailed\n   output.\n\u003c/li\u003e\u003cli\u003e Provides functions for displaying instructions in Intel or AT&T\n   style (like the GNU tools)\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eDifferences to GNU tools, like gdb or objdump:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Displacements are shown in decimal, with sign if negative.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eMissing: \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e LOCK and repeat prefixes are recognized, but not contained in the\n   opcodes of instructions.\n\u003c/li\u003e\u003cli\u003e Support for 16-bit addressing modes.  Could be added when needed.\n\u003c/li\u003e\u003cli\u003e Complete disassembly of all 64-bit instructions.  I have tried to\n   disassemble them properly but have been limited to the information\n   in the docs, because I have no 64-bit machine to test on.  This will\n   probably change when I get GNU as to produce 64-bit object files.\n\u003c/li\u003e\u003cli\u003e Not all MMX and SSE\u003cem\u003eSSE2\u003c/em\u003eSSE3 instructions are decoded yet.  This is\n   just a matter of missing time.\n\u003c/li\u003e\u003cli\u003e segment override prefixes are decoded, but not appended to memory\n   references\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eOn the implementation:\n\u003c/p\u003e\u003cp\u003eThis disassembler uses the Parsec parser combinators, working on byte\n lists.  This proved to be very convenient, as the combinators keep\n track of the current position, etc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "X86Disassembler",
           "package": "disassembler",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Disassembler for x86 machine code This is disassembler for object code for the x86 architecture It provides functions for disassembling byte arrays byte lists and memory blocks containing raw binary code Features Disassembles memory blocks lists or arrays of bytes into lists of instructions Abstract instructions provide as much information as possible about opcodes addressing modes or operand sizes allowing for detailed output Provides functions for displaying instructions in Intel or AT style like the GNU tools Differences to GNU tools like gdb or objdump Displacements are shown in decimal with sign if negative Missing LOCK and repeat prefixes are recognized but not contained in the opcodes of instructions Support for bit addressing modes Could be added when needed Complete disassembly of all bit instructions have tried to disassemble them properly but have been limited to the information in the docs because have no bit machine to test on This will probably change when get GNU as to produce bit object files Not all MMX and SSE SSE2 SSE3 instructions are decoded yet This is just matter of missing time segment override prefixes are decoded but not appended to memory references On the implementation This disassembler uses the Parsec parser combinators working on byte lists This proved to be very convenient as the combinators keep track of the current position etc",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "X86Disassembler",
           "package": "disassembler",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "Config",
           "package": "disassembler",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "Config",
           "package": "disassembler",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome opcodes can operate on data of several widths.  This information\n is encoded in instructions using the following enumeration type..\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "InstrOperandSize",
           "package": "disassembler",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Some opcodes can operate on data of several widths This information is encoded in instructions using the following enumeration type",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "InstrOperandSize",
           "package": "disassembler",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe disassembly routines return lists of the following datatype.  It\n encodes both invalid byte sequences (with a useful error message, if\n possible), or a valid instruction.  Both variants contain the list of\n opcode bytes from which the instruction was decoded and the address of\n the instruction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "Instruction",
           "package": "disassembler",
@@ -95,6 +102,7 @@
         "index": {
           "description": "The disassembly routines return lists of the following datatype It encodes both invalid byte sequences with useful error message if possible or valid instruction Both variants contain the list of opcode bytes from which the instruction was decoded and the address of the instruction",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "Instruction",
           "package": "disassembler",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll opcodes are represented by this enumeration type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "Opcode",
           "package": "disassembler",
@@ -118,6 +127,7 @@
         "index": {
           "description": "All opcodes are represented by this enumeration type",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "Opcode",
           "package": "disassembler",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll operands are in one of the following locations:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Constants in the instruction stream\n\u003c/li\u003e\u003cli\u003e Memory locations\n\u003c/li\u003e\u003cli\u003e Registers\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eMemory locations are referred to by on of several addressing modes:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Absolute (address in instruction stream)\n\u003c/li\u003e\u003cli\u003e Register-indirect (address in register)\n\u003c/li\u003e\u003cli\u003e Register-indirect with displacement\n\u003c/li\u003e\u003cli\u003e Base-Index with scale\n\u003c/li\u003e\u003cli\u003e Base-Index with scale and displacement \n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eDisplacements can be encoded as 8 or 32-bit immediates in the\n instruction stream, but are encoded as Int in instructions for\n simplicity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "Operand",
           "package": "disassembler",
@@ -141,6 +152,7 @@
         "index": {
           "description": "All operands are in one of the following locations Constants in the instruction stream Memory locations Registers Memory locations are referred to by on of several addressing modes Absolute address in instruction stream Register-indirect address in register Register-indirect with displacement Base-Index with scale Base-Index with scale and displacement Displacements can be encoded as or bit immediates in the instruction stream but are encoded as Int in instructions for simplicity",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "Operand",
           "package": "disassembler",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstructions can be displayed either in Intel or AT&T style (like in\n GNU tools).\n\u003c/p\u003e\u003cp\u003eIntel style:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Destination operand comes first, source second.\n\u003c/li\u003e\u003cli\u003e No register or immediate prefixes.\n\u003c/li\u003e\u003cli\u003e Memory operands are annotated with operand size.\n\u003c/li\u003e\u003cli\u003e Hexadecimal numbers are suffixed with \u003ccode\u003eH\u003c/code\u003e and prefixed with \u003ccode\u003e0\u003c/code\u003e if\n   necessary.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eAT&T style:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Source operand comes first, destination second.\n\u003c/li\u003e\u003cli\u003e Register names are prefixes with \u003ccode\u003e%\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Immediates are prefixed with \u003ccode\u003e$\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Hexadecimal numbers are prefixes with \u003ccode\u003e0x\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e Opcodes are suffixed with operand size, when ambiguous otherwise.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "ShowStyle",
           "package": "disassembler",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Instructions can be displayed either in Intel or AT style like in GNU tools Intel style Destination operand comes first source second No register or immediate prefixes Memory operands are annotated with operand size Hexadecimal numbers are suffixed with and prefixed with if necessary AT style Source operand comes first destination second Register names are prefixes with Immediates are prefixed with Hexadecimal numbers are prefixes with Opcodes are suffixed with operand size when ambiguous otherwise",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "ShowStyle",
           "package": "disassembler",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow in AT&T style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "AttStyle",
           "package": "disassembler",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Show in AT style",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "AttStyle",
           "package": "disassembler",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvalid instruction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "BadInstruction",
           "package": "disassembler",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Invalid instruction",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "BadInstruction",
           "normalized": "BadInstruction Word String Int[Word]",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "Config",
           "package": "disassembler",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "Config",
           "package": "disassembler",
@@ -250,6 +270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid instruction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "Instruction",
           "package": "disassembler",
@@ -260,6 +281,7 @@
         "index": {
           "description": "Valid instruction",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "Instruction",
           "package": "disassembler",
@@ -274,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow in Intel style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "IntelStyle",
           "package": "disassembler",
@@ -284,6 +307,7 @@
         "index": {
           "description": "Show in Intel style",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "IntelStyle",
           "package": "disassembler",
@@ -298,6 +322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e128-bit integer operand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OP128",
           "package": "disassembler",
@@ -308,6 +333,7 @@
         "index": {
           "description": "bit integer operand",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OP128",
           "package": "disassembler",
@@ -322,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e16-bit integer operand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OP16",
           "package": "disassembler",
@@ -332,6 +359,7 @@
         "index": {
           "description": "bit integer operand",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OP16",
           "package": "disassembler",
@@ -346,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit integer operand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OP32",
           "package": "disassembler",
@@ -356,6 +385,7 @@
         "index": {
           "description": "bit integer operand",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OP32",
           "package": "disassembler",
@@ -370,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e64-bit integer operand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OP64",
           "package": "disassembler",
@@ -380,6 +411,7 @@
         "index": {
           "description": "bit integer operand",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OP64",
           "package": "disassembler",
@@ -394,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e8-bit integer operand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OP8",
           "package": "disassembler",
@@ -404,6 +437,7 @@
         "index": {
           "description": "bit integer operand",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OP8",
           "package": "disassembler",
@@ -418,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e32-bit floating point operand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OPF32",
           "package": "disassembler",
@@ -428,6 +463,7 @@
         "index": {
           "description": "bit floating point operand",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OPF32",
           "package": "disassembler",
@@ -442,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e64-bit floating point operand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OPF64",
           "package": "disassembler",
@@ -452,6 +489,7 @@
         "index": {
           "description": "bit floating point operand",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OPF64",
           "package": "disassembler",
@@ -466,6 +504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e80-bit floating point operand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OPF80",
           "package": "disassembler",
@@ -476,6 +515,7 @@
         "index": {
           "description": "bit floating point operand",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OPF80",
           "package": "disassembler",
@@ -490,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo operand size specified\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OPNONE",
           "package": "disassembler",
@@ -500,6 +541,7 @@
         "index": {
           "description": "No operand size specified",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OPNONE",
           "package": "disassembler",
@@ -514,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbsolute address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OpAddr",
           "package": "disassembler",
@@ -524,6 +567,7 @@
         "index": {
           "description": "Absolute address",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OpAddr",
           "package": "disassembler",
@@ -538,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase plus scaled index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OpBaseIndex",
           "package": "disassembler",
@@ -548,6 +593,7 @@
         "index": {
           "description": "Base plus scaled index",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OpBaseIndex",
           "package": "disassembler",
@@ -562,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase plus scaled index with displacement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OpBaseIndexDisp",
           "package": "disassembler",
@@ -572,6 +619,7 @@
         "index": {
           "description": "Base plus scaled index with displacement",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OpBaseIndexDisp",
           "package": "disassembler",
@@ -586,6 +634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloating-point register\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OpFPReg",
           "package": "disassembler",
@@ -596,6 +645,7 @@
         "index": {
           "description": "Floating-point register",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OpFPReg",
           "package": "disassembler",
@@ -610,6 +660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImmediate value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OpImm",
           "package": "disassembler",
@@ -620,6 +671,7 @@
         "index": {
           "description": "Immediate value",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OpImm",
           "package": "disassembler",
@@ -634,6 +686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister-indirect\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OpInd",
           "package": "disassembler",
@@ -644,6 +697,7 @@
         "index": {
           "description": "Register-indirect",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OpInd",
           "package": "disassembler",
@@ -658,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister-indirect with displacement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OpIndDisp",
           "package": "disassembler",
@@ -668,6 +723,7 @@
         "index": {
           "description": "Register-indirect with displacement",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OpIndDisp",
           "package": "disassembler",
@@ -682,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScaled index with displacement\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OpIndexDisp",
           "package": "disassembler",
@@ -692,6 +749,7 @@
         "index": {
           "description": "Scaled index with displacement",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OpIndexDisp",
           "package": "disassembler",
@@ -706,6 +764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OpReg",
           "package": "disassembler",
@@ -716,6 +775,7 @@
         "index": {
           "description": "Register",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "OpReg",
           "package": "disassembler",
@@ -730,6 +790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePseudo instruction, e.g. label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "PseudoInstruction",
           "package": "disassembler",
@@ -740,6 +801,7 @@
         "index": {
           "description": "Pseudo instruction e.g label",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "PseudoInstruction",
           "package": "disassembler",
@@ -754,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart address of instruction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "address",
           "package": "disassembler",
@@ -764,6 +827,7 @@
         "index": {
           "description": "Start address of instruction",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "address",
           "package": "disassembler",
@@ -777,6 +841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstruction bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "bytes",
           "package": "disassembler",
@@ -787,6 +852,7 @@
         "index": {
           "description": "Instruction bytes",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "bytes",
           "normalized": "[Word]",
@@ -801,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "confAddressBitMode",
           "package": "disassembler",
@@ -810,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "confAddressBitMode",
           "package": "disassembler",
@@ -823,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "confDefaultBitMode",
           "package": "disassembler",
@@ -832,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "confDefaultBitMode",
           "package": "disassembler",
@@ -845,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "confIn64BitMode",
           "package": "disassembler",
@@ -854,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "confIn64BitMode",
           "package": "disassembler",
@@ -867,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "confOperandBitMode",
           "package": "disassembler",
@@ -876,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "confOperandBitMode",
           "package": "disassembler",
@@ -889,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "confStartAddr",
           "package": "disassembler",
@@ -898,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "confStartAddr",
           "package": "disassembler",
@@ -911,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "defaultConfig",
           "package": "disassembler",
@@ -920,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "defaultConfig",
           "package": "disassembler",
@@ -934,6 +1012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisassemble the contents of the given array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "disassembleArray",
           "package": "disassembler",
@@ -944,6 +1023,7 @@
         "index": {
           "description": "Disassemble the contents of the given array",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "disassembleArray",
           "normalized": "a b Word-\u003ec(Either ParseError[Instruction])",
@@ -959,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "disassembleArrayWithConfig",
           "package": "disassembler",
@@ -968,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "disassembleArrayWithConfig",
           "normalized": "Config-\u003ea b Word-\u003ec(Either ParseError[Instruction])",
@@ -984,6 +1066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisassemble a block of memory.  Starting at the location\n pointed to by the given pointer, the given number of bytes are\n disassembled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "disassembleBlock",
           "package": "disassembler",
@@ -994,6 +1077,7 @@
         "index": {
           "description": "Disassemble block of memory Starting at the location pointed to by the given pointer the given number of bytes are disassembled",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "disassembleBlock",
           "normalized": "Ptr Word-\u003eInt-\u003eIO(Either ParseError[Instruction])",
@@ -1009,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "disassembleBlockWithConfig",
           "package": "disassembler",
@@ -1018,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "disassembleBlockWithConfig",
           "normalized": "Config-\u003ePtr Word-\u003eInt-\u003eIO(Either ParseError[Instruction])",
@@ -1033,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "disassembleFile",
           "package": "disassembler",
@@ -1042,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "disassembleFile",
           "normalized": "FilePath-\u003eIO(Either ParseError[Instruction])",
@@ -1057,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "disassembleFileWithConfig",
           "package": "disassembler",
@@ -1066,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "disassembleFileWithConfig",
           "normalized": "Config-\u003eFilePath-\u003eIO(Either ParseError[Instruction])",
@@ -1082,6 +1172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisassemble the contents of the given list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "disassembleList",
           "package": "disassembler",
@@ -1092,6 +1183,7 @@
         "index": {
           "description": "Disassemble the contents of the given list",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "disassembleList",
           "normalized": "[Word]-\u003ea(Either ParseError[Instruction])",
@@ -1107,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "disassembleListWithConfig",
           "package": "disassembler",
@@ -1116,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "disassembleListWithConfig",
           "normalized": "Config-\u003e[Word]-\u003ea(Either ParseError[Instruction])",
@@ -1132,6 +1226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpcode of the instruction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "opcode",
           "package": "disassembler",
@@ -1142,6 +1237,7 @@
         "index": {
           "description": "Opcode of the instruction",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "opcode",
           "package": "disassembler",
@@ -1155,6 +1251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstruction operands\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "operands",
           "package": "disassembler",
@@ -1165,6 +1262,7 @@
         "index": {
           "description": "Instruction operands",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "operands",
           "normalized": "[Operand]",
@@ -1180,6 +1278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperand size, if any\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "opsize",
           "package": "disassembler",
@@ -1190,6 +1289,7 @@
         "index": {
           "description": "Operand size if any",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "opsize",
           "package": "disassembler",
@@ -1203,6 +1303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow an instruction in AT&T style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "showAtt",
           "package": "disassembler",
@@ -1213,6 +1314,7 @@
         "index": {
           "description": "Show an instruction in AT style",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "showAtt",
           "normalized": "Instruction-\u003e[Char]",
@@ -1229,6 +1331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow an instruction in Intel style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:56:39 UTC 2014",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "showIntel",
           "package": "disassembler",
@@ -1239,6 +1342,7 @@
         "index": {
           "description": "Show an instruction in Intel style",
           "hierarchy": "Text Disassembler X86Disassembler",
+          "indexed": "2014-03-11T17:56:39",
           "module": "Text.Disassembler.X86Disassembler",
           "name": "showIntel",
           "normalized": "Instruction-\u003e[Char]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "unbound"
+        "phrase": "unbound",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "Alpha",
           "package": "unbound",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "Alpha",
           "package": "unbound",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eAlpha\u003c/code\u003e type class is for types which may contain names.  The\n   \u003ccode\u003eRep1\u003c/code\u003e constraint means that we can only make instances of this\n   class for types that have generic representations (which can be\n   automatically derived by RepLib.)\n\u003c/p\u003e\u003cp\u003eNote that the methods of \u003ccode\u003eAlpha\u003c/code\u003e should almost never be called\n   directly.  Instead, use other methods provided by this module\n   which are defined in terms of \u003ccode\u003eAlpha\u003c/code\u003e methods.\n\u003c/p\u003e\u003cp\u003eMost of the time, the default definitions of these methods will\n   suffice, so you can make an instance for your data type by simply\n   declaring\n\u003c/p\u003e\u003cpre\u003e instance Alpha MyType\n\u003c/pre\u003e\u003cp\u003eOccasionally, however, it may be useful to override the default\n   implementations of one or more \u003ccode\u003eAlpha\u003c/code\u003e methods for a particular\n   type.  For example, consider a type like\n\u003c/p\u003e\u003cpre\u003e data Term = ...\n           | Annotation Stuff Term\n\u003c/pre\u003e\u003cp\u003ewhere the \u003ccode\u003eAnnotation\u003c/code\u003e constructor of \u003ccode\u003eTerm\u003c/code\u003e associates some sort\n   of annotation with a term --- say, information obtained from a\n   parser about where in an input file the term came from.  This\n   information is needed to produce good error messages, but should\n   not be taken into consideration when, say, comparing two \u003ccode\u003eTerm\u003c/code\u003es\n   for alpha-equivalence.  In order to make \u003ccode\u003eaeq\u003c/code\u003e ignore\n   annotations, you can override the implementation of \u003ccode\u003eaeq'\u003c/code\u003e like\n   so:\n\u003c/p\u003e\u003cpre\u003e instance Alpha Term where\n   aeq' c (Annotation _ t1) t2 = aeq' c t1 t2\n   aeq' c t1 (Annotation _ t2) = aeq' c t1 t2\n   aeq' c t1 t2 = aeqR1 rep1 t1 t2\n\u003c/pre\u003e\u003cp\u003eNote how the call to \u003ccode\u003e\u003ca\u003eaeqR1\u003c/a\u003e\u003c/code\u003e handles all the other cases generically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "Alpha",
           "package": "unbound",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The Alpha type class is for types which may contain names The Rep1 constraint means that we can only make instances of this class for types that have generic representations which can be automatically derived by RepLib Note that the methods of Alpha should almost never be called directly Instead use other methods provided by this module which are defined in terms of Alpha methods Most of the time the default definitions of these methods will suffice so you can make an instance for your data type by simply declaring instance Alpha MyType Occasionally however it may be useful to override the default implementations of one or more Alpha methods for particular type For example consider type like data Term Annotation Stuff Term where the Annotation constructor of Term associates some sort of annotation with term say information obtained from parser about where in an input file the term came from This information is needed to produce good error messages but should not be taken into consideration when say comparing two Term for alpha-equivalence In order to make aeq ignore annotations you can override the implementation of aeq like so instance Alpha Term where aeq Annotation t1 t2 aeq t1 t2 aeq t1 Annotation t2 aeq t1 t2 aeq t1 t2 aeqR1 rep1 t1 t2 Note how the call to aeqR1 handles all the other cases generically",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "Alpha",
           "package": "unbound",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMany of the operations in the \u003ccode\u003e\u003ca\u003eAlpha\u003c/a\u003e\u003c/code\u003e class take an \u003ccode\u003e\u003ca\u003eAlphaCtx\u003c/a\u003e\u003c/code\u003e:\n stored information about the iteration as it progresses. This type\n is abstract, as classes that override these operations should just pass\n the context on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "AlphaCtx",
           "package": "unbound",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Many of the operations in the Alpha class take an AlphaCtx stored information about the iteration as it progresses This type is abstract as classes that override these operations should just pass the context on",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "AlphaCtx",
           "package": "unbound",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass constraint hackery to allow us to override the default\n   definitions for certain classes.  \u003ccode\u003e\u003ca\u003eAlphaD\u003c/a\u003e\u003c/code\u003e is essentially a\n   reified dictionary for the \u003ccode\u003e\u003ca\u003eAlpha\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "AlphaD",
           "package": "unbound",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Class constraint hackery to allow us to override the default definitions for certain classes AlphaD is essentially reified dictionary for the Alpha class",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "AlphaD",
           "package": "unbound",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a \u003ccode\u003e\u003ca\u003efindpatrec\u003c/a\u003e\u003c/code\u003e operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "FindResult",
           "package": "unbound",
@@ -118,6 +127,7 @@
         "index": {
           "description": "The result of findpatrec operation",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "FindResult",
           "package": "unbound",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for embedded terms (either \u003ccode\u003eEmbed\u003c/code\u003e or \u003ccode\u003eShift\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "IsEmbed",
           "package": "unbound",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Type class for embedded terms either Embed or Shift",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "IsEmbed",
           "package": "unbound",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mode is basically a flag that tells us whether we should be\n   looking at the names in the term, or if we are in a pattern and\n   should \u003cem\u003eonly\u003c/em\u003e be looking at the names in the annotations. The\n   standard mode is to use \u003ccode\u003e\u003ca\u003eTerm\u003c/a\u003e\u003c/code\u003e; many functions do this by default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "Mode",
           "package": "unbound",
@@ -164,6 +177,7 @@
         "index": {
           "description": "mode is basically flag that tells us whether we should be looking at the names in the term or if we are in pattern and should only be looking at the names in the annotations The standard mode is to use Term many functions do this by default",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "Mode",
           "package": "unbound",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA continuation which takes the remaining index and searches for\n   that location in a pattern, yielding a name or a remaining index\n   if the end of the pattern was reached too soon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "NthCont",
           "package": "unbound",
@@ -187,6 +202,7 @@
         "index": {
           "description": "continuation which takes the remaining index and searches for that location in pattern yielding name or remaining index if the end of the pattern was reached too soon",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "NthCont",
           "package": "unbound",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of an \u003ccode\u003e\u003ca\u003enthpatrec\u003c/a\u003e\u003c/code\u003e operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "NthResult",
           "package": "unbound",
@@ -210,6 +227,7 @@
         "index": {
           "description": "The result of an nthpatrec operation",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "NthResult",
           "package": "unbound",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "AC",
           "package": "unbound",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "AC",
           "package": "unbound",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "AlphaD",
           "package": "unbound",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "AlphaD",
           "package": "unbound",
@@ -268,6 +290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe haven't yet reached the\n   required index; this is the\n   index into the remainder of the\n   pattern (which decreases as we\n   traverse the pattern).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "CurIndex",
           "package": "unbound",
@@ -278,6 +301,7 @@
         "index": {
           "description": "We haven yet reached the required index this is the index into the remainder of the pattern which decreases as we traverse the pattern",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "CurIndex",
           "package": "unbound",
@@ -292,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name found at the given\n   index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "Found",
           "package": "unbound",
@@ -302,6 +327,7 @@
         "index": {
           "description": "The name found at the given index",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "Found",
           "package": "unbound",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe (first) index of the name we\n   sought\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "Index",
           "package": "unbound",
@@ -326,6 +353,7 @@
         "index": {
           "description": "The first index of the name we sought",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "Index",
           "package": "unbound",
@@ -340,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe haven't found the name\n   (yet), but have seen this many\n   others while looking for it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "NamesSeen",
           "package": "unbound",
@@ -350,6 +379,7 @@
         "index": {
           "description": "We haven found the name yet but have seen this many others while looking for it",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "NamesSeen",
           "package": "unbound",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "NthCont",
           "package": "unbound",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "NthCont",
           "package": "unbound",
@@ -385,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "Pat",
           "package": "unbound",
@@ -394,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "Pat",
           "package": "unbound",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "Term",
           "package": "unbound",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "Term",
           "package": "unbound",
@@ -430,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003eacompare\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "acompare'",
           "package": "unbound",
@@ -440,6 +477,7 @@
         "index": {
           "description": "See acompare",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "acompare'",
           "normalized": "AlphaCtx-\u003ea-\u003ea-\u003eOrdering",
@@ -454,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "acompareD",
           "package": "unbound",
@@ -463,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "acompareD",
           "normalized": "AlphaCtx-\u003ea-\u003ea-\u003eOrdering",
@@ -477,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "acompareR1",
           "package": "unbound",
@@ -486,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "acompareR1",
           "normalized": "R AlphaD a-\u003eAlphaCtx-\u003ea-\u003ea-\u003eOrdering",
@@ -501,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003eaeq\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "aeq'",
           "package": "unbound",
@@ -511,6 +554,7 @@
         "index": {
           "description": "See aeq",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "aeq'",
           "normalized": "AlphaCtx-\u003ea-\u003ea-\u003eBool",
@@ -525,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "aeq1",
           "package": "unbound",
@@ -534,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "aeq1",
           "normalized": "MTup AlphaD a-\u003eAlphaCtx-\u003ea-\u003ea-\u003eBool",
@@ -548,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "aeqD",
           "package": "unbound",
@@ -557,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "aeqD",
           "normalized": "AlphaCtx-\u003ea-\u003ea-\u003eBool",
@@ -571,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "aeqR1",
           "package": "unbound",
@@ -580,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "aeqR1",
           "normalized": "R AlphaD a-\u003eAlphaCtx-\u003ea-\u003ea-\u003eBool",
@@ -595,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace free names by bound names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "close",
           "package": "unbound",
@@ -605,6 +656,7 @@
         "index": {
           "description": "Replace free names by bound names",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "close",
           "normalized": "AlphaCtx-\u003ea-\u003eb-\u003eb",
@@ -619,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "closeD",
           "package": "unbound",
@@ -628,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "closeD",
           "normalized": "AlphaCtx-\u003ea-\u003eb-\u003eb",
@@ -643,6 +697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ecloseP p1 p2\u003c/code\u003e closes the pattern \u003ccode\u003ep2\u003c/code\u003e using the pattern \u003ccode\u003ep1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "closeP",
           "package": "unbound",
@@ -653,6 +708,7 @@
         "index": {
           "description": "closeP p1 p2 closes the pattern p2 using the pattern p1",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "closeP",
           "normalized": "a-\u003ea-\u003ea",
@@ -667,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "closeR1",
           "package": "unbound",
@@ -676,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "closeR1",
           "normalized": "R AlphaD a-\u003eAlphaCtx-\u003eb-\u003ea-\u003ea",
@@ -691,6 +749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose a term using the given pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "closeT",
           "package": "unbound",
@@ -701,6 +760,7 @@
         "index": {
           "description": "Close term using the given pattern",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "closeT",
           "normalized": "a-\u003eb-\u003eb",
@@ -715,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "combine",
           "package": "unbound",
@@ -724,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "combine",
           "normalized": "Maybe[AnyName]-\u003eMaybe[AnyName]-\u003eMaybe[AnyName]",
@@ -738,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "compareTupM",
           "package": "unbound",
@@ -747,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "compareTupM",
           "normalized": "MTup AlphaD a-\u003eAlphaCtx-\u003ea-\u003ea-\u003eOrdering",
@@ -762,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "decr",
           "package": "unbound",
@@ -771,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "decr",
           "normalized": "AlphaCtx-\u003eAlphaCtx",
@@ -786,6 +852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an embedded term, which is an instance of \u003ccode\u003e\u003ca\u003eEmbed\u003c/a\u003e\u003c/code\u003e\n   with any number of enclosing \u003ccode\u003e\u003ca\u003eShift\u003c/a\u003e\u003c/code\u003es.  That is, \u003ccode\u003eembed\u003c/code\u003e can have\n   any of the types\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003et -\u003e Embed t\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003et -\u003e Shift (Embed t)\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003et -\u003e Shift (Shift (Embed t))\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eand so on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "embed",
           "package": "unbound",
@@ -796,6 +863,7 @@
         "index": {
           "description": "Construct an embedded term which is an instance of Embed with any number of enclosing Shift That is embed can have any of the types Embed Shift Embed Shift Shift Embed and so on",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "embed",
           "normalized": "Embedded a-\u003ea",
@@ -811,6 +879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the (first) index of the name in the pattern, if it exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "findpat",
           "package": "unbound",
@@ -821,6 +890,7 @@
         "index": {
           "description": "Find the first index of the name in the pattern if it exists",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "findpat",
           "normalized": "a-\u003eAnyName-\u003eMaybe Integer",
@@ -835,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "findpatD",
           "package": "unbound",
@@ -844,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "findpatD",
           "normalized": "a-\u003eAnyName-\u003eFindResult",
@@ -858,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "findpatL",
           "package": "unbound",
@@ -867,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "findpatL",
           "normalized": "MTup AlphaD a-\u003ea-\u003eAnyName-\u003eFindResult",
@@ -881,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "findpatR1",
           "package": "unbound",
@@ -890,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "findpatR1",
           "normalized": "R AlphaD a-\u003ea-\u003eAnyName-\u003eFindResult",
@@ -905,6 +981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the (first) index of the name in the pattern if one\n   exists; otherwise, return the number of names encountered\n   instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "findpatrec",
           "package": "unbound",
@@ -915,6 +992,7 @@
         "index": {
           "description": "Find the first index of the name in the pattern if one exists otherwise return the number of names encountered instead",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "findpatrec",
           "normalized": "a-\u003eAnyName-\u003eFindResult",
@@ -930,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003efreshen\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "freshen'",
           "package": "unbound",
@@ -940,6 +1019,7 @@
         "index": {
           "description": "See freshen",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "freshen'",
           "normalized": "AlphaCtx-\u003ea-\u003eb(a,Perm AnyName)",
@@ -954,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "freshenD",
           "package": "unbound",
@@ -963,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "freshenD",
           "normalized": "AlphaCtx-\u003ea-\u003eb(a,Perm AnyName)",
@@ -977,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "freshenL",
           "package": "unbound",
@@ -986,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "freshenL",
           "normalized": "MTup AlphaD a-\u003eAlphaCtx-\u003ea-\u003eb(a,Perm AnyName)",
@@ -1000,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "freshenR1",
           "package": "unbound",
@@ -1009,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "freshenR1",
           "normalized": "R AlphaD a-\u003eAlphaCtx-\u003ea-\u003eb(a,Perm AnyName)",
@@ -1024,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003efv\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "fv'",
           "package": "unbound",
@@ -1034,6 +1121,7 @@
         "index": {
           "description": "See fv",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "fv'",
           "normalized": "AlphaCtx-\u003ea-\u003eb AnyName",
@@ -1048,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "fv1",
           "package": "unbound",
@@ -1057,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "fv1",
           "normalized": "MTup AlphaD a-\u003eAlphaCtx-\u003ea-\u003eb AnyName",
@@ -1071,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "fvD",
           "package": "unbound",
@@ -1080,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "fvD",
           "normalized": "AlphaCtx-\u003ea-\u003eb AnyName",
@@ -1094,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "fvR1",
           "package": "unbound",
@@ -1103,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "fvR1",
           "normalized": "R AlphaD a-\u003eAlphaCtx-\u003ea-\u003eb AnyName",
@@ -1117,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "incr",
           "package": "unbound",
@@ -1126,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "incr",
           "normalized": "AlphaCtx-\u003eAlphaCtx",
@@ -1140,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "initial",
           "package": "unbound",
@@ -1149,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "initial",
           "package": "unbound",
@@ -1162,6 +1260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eisEmbed\u003c/code\u003e is needed internally for the implementation of\n   \u003ccode\u003eisPat\u003c/code\u003e.  \u003ccode\u003eisEmbed\u003c/code\u003e is true for terms wrapped in \u003ccode\u003eEmbed\u003c/code\u003e and zero\n   or more occurrences of \u003ccode\u003eShift\u003c/code\u003e.  The default implementation\n   simply returns \u003ccode\u003eFalse\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "isEmbed",
           "package": "unbound",
@@ -1172,6 +1271,7 @@
         "index": {
           "description": "isEmbed is needed internally for the implementation of isPat isEmbed is true for terms wrapped in Embed and zero or more occurrences of Shift The default implementation simply returns False",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "isEmbed",
           "normalized": "a-\u003eBool",
@@ -1187,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "isEmbedD",
           "package": "unbound",
@@ -1196,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "isEmbedD",
           "normalized": "a-\u003eBool",
@@ -1212,6 +1314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eisPat x\u003c/code\u003e dynamically checks whether \u003ccode\u003ex\u003c/code\u003e can be used as a valid\n   pattern.  The default instance returns \u003ccode\u003eJust\u003c/code\u003e if at all\n   possible.  If successful, returns a list of names bound by the\n   pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "isPat",
           "package": "unbound",
@@ -1222,6 +1325,7 @@
         "index": {
           "description": "isPat dynamically checks whether can be used as valid pattern The default instance returns Just if at all possible If successful returns list of names bound by the pattern",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "isPat",
           "normalized": "a-\u003eMaybe[AnyName]",
@@ -1237,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "isPatD",
           "package": "unbound",
@@ -1246,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "isPatD",
           "normalized": "a-\u003eMaybe[AnyName]",
@@ -1261,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "isPatR1",
           "package": "unbound",
@@ -1270,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "isPatR1",
           "normalized": "R AlphaD a-\u003ea-\u003eMaybe[AnyName]",
@@ -1286,6 +1394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eisTerm x\u003c/code\u003e dynamically checks whether \u003ccode\u003ex\u003c/code\u003e can be used as a\n   valid term. The default instance returns \u003ccode\u003eTrue\u003c/code\u003e if at all\n   possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "isTerm",
           "package": "unbound",
@@ -1296,6 +1405,7 @@
         "index": {
           "description": "isTerm dynamically checks whether can be used as valid term The default instance returns True if at all possible",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "isTerm",
           "normalized": "a-\u003eBool",
@@ -1311,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "isTermD",
           "package": "unbound",
@@ -1320,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "isTermD",
           "normalized": "a-\u003eBool",
@@ -1335,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "isTermR1",
           "package": "unbound",
@@ -1344,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "isTermR1",
           "normalized": "R AlphaD a-\u003ea-\u003eBool",
@@ -1359,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "level",
           "package": "unbound",
@@ -1368,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "level",
           "package": "unbound",
@@ -1381,6 +1497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003elfreshen\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "lfreshen'",
           "package": "unbound",
@@ -1391,6 +1508,7 @@
         "index": {
           "description": "See lfreshen",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "lfreshen'",
           "normalized": "AlphaCtx-\u003ea-\u003e(a-\u003ePerm AnyName-\u003eb c)-\u003eb c",
@@ -1405,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "lfreshenD",
           "package": "unbound",
@@ -1414,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "lfreshenD",
           "normalized": "AlphaCtx-\u003ea-\u003e(a-\u003ePerm AnyName-\u003eb c)-\u003eb c",
@@ -1428,6 +1548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "lfreshenL",
           "package": "unbound",
@@ -1437,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "lfreshenL",
           "normalized": "MTup AlphaD a-\u003eAlphaCtx-\u003ea-\u003e(a-\u003ePerm AnyName-\u003eb c)-\u003eb c",
@@ -1451,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "lfreshenR1",
           "package": "unbound",
@@ -1460,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "lfreshenR1",
           "normalized": "R AlphaD a-\u003eAlphaCtx-\u003ea-\u003e(a-\u003ePerm AnyName-\u003eb c)-\u003eb c",
@@ -1474,6 +1598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "mode",
           "package": "unbound",
@@ -1483,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "mode",
           "package": "unbound",
@@ -1496,6 +1622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf we see a name, check whether the index is 0: if it is, we've\n   found the name we're looking for, otherwise continue with a\n   decremented index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "nthName",
           "package": "unbound",
@@ -1506,6 +1633,7 @@
         "index": {
           "description": "If we see name check whether the index is if it is we ve found the name we re looking for otherwise continue with decremented index",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "nthName",
           "normalized": "AnyName-\u003eNthCont",
@@ -1522,6 +1650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003enthpat\u003c/a\u003e\u003c/code\u003e b n\u003c/code\u003e looks up up the \u003ccode\u003en\u003c/code\u003eth name in the pattern \u003ccode\u003eb\u003c/code\u003e\n (zero-indexed).  PRECONDITION: the number of names in the pattern\n must be at least \u003ccode\u003en\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "nthpat",
           "package": "unbound",
@@ -1532,6 +1661,7 @@
         "index": {
           "description": "nthpat looks up up the th name in the pattern zero-indexed PRECONDITION the number of names in the pattern must be at least",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "nthpat",
           "normalized": "a-\u003eInteger-\u003eAnyName",
@@ -1546,6 +1676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "nthpatD",
           "package": "unbound",
@@ -1555,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "nthpatD",
           "normalized": "a-\u003eNthCont",
@@ -1569,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "nthpatL",
           "package": "unbound",
@@ -1578,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "nthpatL",
           "normalized": "MTup AlphaD a-\u003ea-\u003eNthCont",
@@ -1592,6 +1726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "nthpatR1",
           "package": "unbound",
@@ -1601,6 +1736,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "nthpatR1",
           "normalized": "R AlphaD a-\u003ea-\u003eNthCont",
@@ -1616,6 +1752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003enthpatrec\u003c/a\u003e\u003c/code\u003e p n\u003c/code\u003e looks up the \u003ccode\u003en\u003c/code\u003eth name in the pattern \u003ccode\u003ep\u003c/code\u003e\n (zero-indexed), returning the number of names encountered if not\n found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "nthpatrec",
           "package": "unbound",
@@ -1626,6 +1763,7 @@
         "index": {
           "description": "nthpatrec looks up the th name in the pattern zero-indexed returning the number of names encountered if not found",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "nthpatrec",
           "normalized": "a-\u003eNthCont",
@@ -1641,6 +1779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace bound names by free names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "open",
           "package": "unbound",
@@ -1651,6 +1790,7 @@
         "index": {
           "description": "Replace bound names by free names",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "open",
           "normalized": "AlphaCtx-\u003ea-\u003eb-\u003eb",
@@ -1665,6 +1805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "openD",
           "package": "unbound",
@@ -1674,6 +1815,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "openD",
           "normalized": "AlphaCtx-\u003ea-\u003eb-\u003eb",
@@ -1689,6 +1831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eopenP p1 p2\u003c/code\u003e opens the pattern \u003ccode\u003ep2\u003c/code\u003e using the pattern \u003ccode\u003ep1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "openP",
           "package": "unbound",
@@ -1699,6 +1842,7 @@
         "index": {
           "description": "openP p1 p2 opens the pattern p2 using the pattern p1",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "openP",
           "normalized": "a-\u003ea-\u003ea",
@@ -1713,6 +1857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "openR1",
           "package": "unbound",
@@ -1722,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "openR1",
           "normalized": "R AlphaD a-\u003eAlphaCtx-\u003eb-\u003ea-\u003ea",
@@ -1737,6 +1883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a term using the given pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "openT",
           "package": "unbound",
@@ -1747,6 +1894,7 @@
         "index": {
           "description": "Open term using the given pattern",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "openT",
           "normalized": "a-\u003eb-\u003eb",
@@ -1761,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "pat",
           "package": "unbound",
@@ -1770,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "pat",
           "normalized": "AlphaCtx-\u003eAlphaCtx",
@@ -1784,6 +1934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "runNthCont",
           "package": "unbound",
@@ -1793,6 +1944,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "runNthCont",
           "normalized": "Integer-\u003eNthResult",
@@ -1809,6 +1961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003eswaps\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "swaps'",
           "package": "unbound",
@@ -1819,6 +1972,7 @@
         "index": {
           "description": "See swaps",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "swaps'",
           "normalized": "AlphaCtx-\u003ePerm AnyName-\u003ea-\u003ea",
@@ -1833,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "swapsD",
           "package": "unbound",
@@ -1842,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "swapsD",
           "normalized": "AlphaCtx-\u003ePerm AnyName-\u003ea-\u003ea",
@@ -1856,6 +2012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "swapsR1",
           "package": "unbound",
@@ -1865,6 +2022,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "swapsR1",
           "normalized": "R AlphaD a-\u003eAlphaCtx-\u003ePerm AnyName-\u003ea-\u003ea",
@@ -1879,6 +2037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "term",
           "package": "unbound",
@@ -1888,6 +2047,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "term",
           "normalized": "AlphaCtx-\u003eAlphaCtx",
@@ -1903,6 +2063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestruct an embedded term.  \u003ccode\u003eunembed\u003c/code\u003e can have any of the types\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003eEmbed t -\u003e t\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003eShift (Embed t) -\u003e t\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eand so on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "unembed",
           "package": "unbound",
@@ -1913,6 +2074,7 @@
         "index": {
           "description": "Destruct an embedded term unembed can have any of the types Embed Shift Embed and so on",
           "hierarchy": "Unbound LocallyNameless Alpha",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Alpha",
           "name": "unembed",
           "normalized": "a-\u003eEmbedded a",
@@ -1928,6 +2090,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eFresh\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eLFresh\u003c/a\u003e\u003c/code\u003e classes, which govern monads with fresh\n name generation capabilities, and the FreshM(T) and LFreshM(T)\n monad (transformers) which provide useful default implementations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "Fresh",
           "package": "unbound",
@@ -1937,6 +2100,7 @@
         "index": {
           "description": "The Fresh and LFresh classes which govern monads with fresh name generation capabilities and the FreshM and LFreshM monad transformers which provide useful default implementations",
           "hierarchy": "Unbound LocallyNameless Fresh",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "Fresh",
           "package": "unbound",
@@ -1951,6 +2115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eFresh\u003c/code\u003e type class governs monads which can generate new\n   globally unique \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003es based on a given \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "Fresh",
           "package": "unbound",
@@ -1960,6 +2125,7 @@
         "index": {
           "description": "The Fresh type class governs monads which can generate new globally unique Name based on given Name",
           "hierarchy": "Unbound LocallyNameless Fresh",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "Fresh",
           "package": "unbound",
@@ -1974,6 +2140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenient monad which is an instance of \u003ccode\u003e\u003ca\u003eFresh\u003c/a\u003e\u003c/code\u003e.  It keeps\n   track of a global index used for generating fresh names, which is\n   incremented every time \u003ccode\u003e\u003ca\u003efresh\u003c/a\u003e\u003c/code\u003e is called.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "FreshM",
           "package": "unbound",
@@ -1983,6 +2150,7 @@
         "index": {
           "description": "convenient monad which is an instance of Fresh It keeps track of global index used for generating fresh names which is incremented every time fresh is called",
           "hierarchy": "Unbound LocallyNameless Fresh",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "FreshM",
           "package": "unbound",
@@ -1997,6 +2165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eFreshM\u003c/code\u003e monad transformer.  Keeps track of the lowest index\n   still globally unused, and increments the index every time it is\n   asked for a fresh name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "FreshMT",
           "package": "unbound",
@@ -2006,6 +2175,7 @@
         "index": {
           "description": "The FreshM monad transformer Keeps track of the lowest index still globally unused and increments the index every time it is asked for fresh name",
           "hierarchy": "Unbound LocallyNameless Fresh",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "FreshMT",
           "package": "unbound",
@@ -2020,6 +2190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the class of monads that support freshness in an\n   (implicit) local scope.  Generated names are fresh for the current\n   local scope, not necessarily globally fresh.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "LFresh",
           "package": "unbound",
@@ -2029,6 +2200,7 @@
         "index": {
           "description": "This is the class of monads that support freshness in an implicit local scope Generated names are fresh for the current local scope not necessarily globally fresh",
           "hierarchy": "Unbound LocallyNameless Fresh",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "LFresh",
           "package": "unbound",
@@ -2043,6 +2215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenient monad which is an instance of \u003ccode\u003e\u003ca\u003eLFresh\u003c/a\u003e\u003c/code\u003e.  It keeps\n   track of a set of names to avoid, and when asked for a fresh one\n   will choose the first unused numerical name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "LFreshM",
           "package": "unbound",
@@ -2052,6 +2225,7 @@
         "index": {
           "description": "convenient monad which is an instance of LFresh It keeps track of set of names to avoid and when asked for fresh one will choose the first unused numerical name",
           "hierarchy": "Unbound LocallyNameless Fresh",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "LFreshM",
           "package": "unbound",
@@ -2066,6 +2240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe LFresh monad transformer.  Keeps track of a set of names to\n avoid, and when asked for a fresh one will choose the first numeric\n prefix of the given name which is currently unused.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "LFreshMT",
           "package": "unbound",
@@ -2075,6 +2250,7 @@
         "index": {
           "description": "The LFresh monad transformer Keeps track of set of names to avoid and when asked for fresh one will choose the first numeric prefix of the given name which is currently unused",
           "hierarchy": "Unbound LocallyNameless Fresh",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "LFreshMT",
           "package": "unbound",
@@ -2088,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "FreshMT",
           "package": "unbound",
@@ -2097,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Fresh",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "FreshMT",
           "package": "unbound",
@@ -2110,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "LFreshMT",
           "package": "unbound",
@@ -2119,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Fresh",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "LFreshMT",
           "package": "unbound",
@@ -2133,6 +2313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAvoid the given names when freshening in the subcomputation,\n   that is, add the given names to the in-scope set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "avoid",
           "package": "unbound",
@@ -2143,6 +2324,7 @@
         "index": {
           "description": "Avoid the given names when freshening in the subcomputation that is add the given names to the in-scope set",
           "hierarchy": "Unbound LocallyNameless Fresh",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "avoid",
           "normalized": "[AnyName]-\u003ea b-\u003ea b",
@@ -2158,6 +2340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a FreshM computation given a starting index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "contFreshM",
           "package": "unbound",
@@ -2168,6 +2351,7 @@
         "index": {
           "description": "Run FreshM computation given starting index",
           "hierarchy": "Unbound LocallyNameless Fresh",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "contFreshM",
           "normalized": "FreshM a-\u003eInteger-\u003ea",
@@ -2184,6 +2368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eFreshMT\u003c/a\u003e\u003c/code\u003e computation given a starting index for fresh name\n   generation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "contFreshMT",
           "package": "unbound",
@@ -2194,6 +2379,7 @@
         "index": {
           "description": "Run FreshMT computation given starting index for fresh name generation",
           "hierarchy": "Unbound LocallyNameless Fresh",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "contFreshMT",
           "normalized": "FreshMT a b-\u003eInteger-\u003ea b",
@@ -2210,6 +2396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a LFreshM computation given a set of names to avoid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "contLFreshM",
           "package": "unbound",
@@ -2220,6 +2407,7 @@
         "index": {
           "description": "Run LFreshM computation given set of names to avoid",
           "hierarchy": "Unbound LocallyNameless Fresh",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "contLFreshM",
           "normalized": "LFreshM a-\u003eSet AnyName-\u003ea",
@@ -2236,6 +2424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an \u003ccode\u003e\u003ca\u003eLFreshMT\u003c/a\u003e\u003c/code\u003e computation given a set of names to avoid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "contLFreshMT",
           "package": "unbound",
@@ -2246,6 +2435,7 @@
         "index": {
           "description": "Run an LFreshMT computation given set of names to avoid",
           "hierarchy": "Unbound LocallyNameless Fresh",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "contLFreshMT",
           "normalized": "LFreshMT a b-\u003eSet AnyName-\u003ea b",
@@ -2262,6 +2452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a new globally unique name based on the given one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "fresh",
           "package": "unbound",
@@ -2272,6 +2463,7 @@
         "index": {
           "description": "Generate new globally unique name based on the given one",
           "hierarchy": "Unbound LocallyNameless Fresh",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "fresh",
           "normalized": "Name a-\u003eb(Name a)",
@@ -2287,6 +2479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the set of names currently being avoided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "getAvoids",
           "package": "unbound",
@@ -2297,6 +2490,7 @@
         "index": {
           "description": "Get the set of names currently being avoided",
           "hierarchy": "Unbound LocallyNameless Fresh",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "getAvoids",
           "package": "unbound",
@@ -2311,6 +2505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePick a new name that is fresh for the current (implicit) scope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "lfresh",
           "package": "unbound",
@@ -2321,6 +2516,7 @@
         "index": {
           "description": "Pick new name that is fresh for the current implicit scope",
           "hierarchy": "Unbound LocallyNameless Fresh",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "lfresh",
           "normalized": "Name a-\u003eb(Name a)",
@@ -2443,6 +2639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "unFreshMT",
           "package": "unbound",
@@ -2452,6 +2649,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Fresh",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "unFreshMT",
           "package": "unbound",
@@ -2465,6 +2663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "unLFreshMT",
           "package": "unbound",
@@ -2474,6 +2673,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Fresh",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Fresh",
           "name": "unLFreshMT",
           "package": "unbound",
@@ -2488,6 +2688,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn implementation of names in a locally nameless representation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Name",
           "name": "Name",
           "package": "unbound",
@@ -2497,6 +2698,7 @@
         "index": {
           "description": "An implementation of names in locally nameless representation",
           "hierarchy": "Unbound LocallyNameless Name",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Name",
           "name": "Name",
           "package": "unbound",
@@ -2511,6 +2713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA name with a hidden (existentially quantified) sort.  To hide\n   the sort of a name, use the \u003ccode\u003e\u003ca\u003eAnyName\u003c/a\u003e\u003c/code\u003e constructor directly; to\n   extract a name with a hidden sort, use \u003ccode\u003e\u003ca\u003etoSortedName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Name",
           "name": "AnyName",
           "package": "unbound",
@@ -2520,6 +2723,7 @@
         "index": {
           "description": "name with hidden existentially quantified sort To hide the sort of name use the AnyName constructor directly to extract name with hidden sort use toSortedName",
           "hierarchy": "Unbound LocallyNameless Name",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Name",
           "name": "AnyName",
           "package": "unbound",
@@ -2534,6 +2738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003es are things that get bound.  This type is intentionally\n   abstract; to create a \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e you can use \u003ccode\u003e\u003ca\u003estring2Name\u003c/a\u003e\u003c/code\u003e or\n   \u003ccode\u003e\u003ca\u003einteger2Name\u003c/a\u003e\u003c/code\u003e. The type parameter is a tag, or \u003cem\u003esort\u003c/em\u003e, which\n   tells us what sorts of things this name may stand for. The sort\n   must be a \u003cem\u003erepresentable\u003c/em\u003e type, \u003cem\u003ei.e.\u003c/em\u003e an instance of the \u003ccode\u003eRep\u003c/code\u003e\n   type class from the \u003ccode\u003eRepLib\u003c/code\u003e generic programming framework.\n\u003c/p\u003e\u003cp\u003eTo hide the sort of a name, use \u003ccode\u003e\u003ca\u003eAnyName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Name",
           "name": "Name",
           "package": "unbound",
@@ -2543,6 +2748,7 @@
         "index": {
           "description": "Name are things that get bound This type is intentionally abstract to create Name you can use string2Name or integer2Name The type parameter is tag or sort which tells us what sorts of things this name may stand for The sort must be representable type i.e an instance of the Rep type class from the RepLib generic programming framework To hide the sort of name use AnyName",
           "hierarchy": "Unbound LocallyNameless Name",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Name",
           "name": "Name",
           "package": "unbound",
@@ -2579,6 +2785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Name",
           "name": "Bn",
           "package": "unbound",
@@ -2588,6 +2795,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Name",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Name",
           "name": "Bn",
           "package": "unbound",
@@ -2601,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Name",
           "name": "Nm",
           "package": "unbound",
@@ -2610,6 +2819,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Name",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Name",
           "name": "Nm",
           "normalized": "Nm(R a)(String,Integer)",
@@ -2680,6 +2890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the sort of a \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Name",
           "name": "getR",
           "package": "unbound",
@@ -2690,6 +2901,7 @@
         "index": {
           "description": "Determine the sort of Name",
           "hierarchy": "Unbound LocallyNameless Name",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Name",
           "name": "getR",
           "normalized": "Name a-\u003eR a",
@@ -2732,6 +2944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether a name is a bound variable (i.e. a reference to some\n   binding site, represented as a de Bruijn index).  Normal users of\n   the library should not need this function, as it is impossible to\n   encounter a bound name when using the abstract interface provided\n   by \u003ca\u003eUnbound.LocallyNameless\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Name",
           "name": "isBound",
           "package": "unbound",
@@ -2742,6 +2955,7 @@
         "index": {
           "description": "Test whether name is bound variable i.e reference to some binding site represented as de Bruijn index Normal users of the library should not need this function as it is impossible to encounter bound name when using the abstract interface provided by Unbound.LocallyNameless",
           "hierarchy": "Unbound LocallyNameless Name",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Name",
           "name": "isBound",
           "normalized": "Name a-\u003eBool",
@@ -2758,6 +2972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether a name is a free variable. Normal users of the\n   library should not need this function, as all the names\n   encountered will be free variables when using the abstract\n   interface provided by \u003ca\u003eUnbound.LocallyNameless\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Name",
           "name": "isFree",
           "package": "unbound",
@@ -2768,6 +2983,7 @@
         "index": {
           "description": "Test whether name is free variable Normal users of the library should not need this function as all the names encountered will be free variables when using the abstract interface provided by Unbound.LocallyNameless",
           "hierarchy": "Unbound LocallyNameless Name",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Name",
           "name": "isFree",
           "normalized": "Name a-\u003eBool",
@@ -2864,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Name",
           "name": "rAnyName",
           "package": "unbound",
@@ -2873,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Name",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Name",
           "name": "rAnyName",
           "package": "unbound",
@@ -2886,6 +3104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Name",
           "name": "rAnyName1",
           "package": "unbound",
@@ -2895,6 +3114,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Name",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Name",
           "name": "rAnyName1",
           "package": "unbound",
@@ -2931,6 +3151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Name",
           "name": "rName1",
           "package": "unbound",
@@ -2940,6 +3161,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Name",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Name",
           "name": "rName1",
           "normalized": "(a(R b),a(String,Integer))-\u003e(a(R b),a Integer,a Integer)-\u003eR a(Name b)",
@@ -2955,6 +3177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Name",
           "name": "rR",
           "package": "unbound",
@@ -2964,6 +3187,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Name",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Name",
           "name": "rR",
           "package": "unbound",
@@ -2976,6 +3200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Name",
           "name": "rR1",
           "package": "unbound",
@@ -2985,6 +3210,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Name",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Name",
           "name": "rR1",
           "package": "unbound",
@@ -3104,6 +3330,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric operations defined in terms of the RepLib framework and the\n \u003ccode\u003e\u003ca\u003eAlpha\u003c/a\u003e\u003c/code\u003e type class.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Ops",
           "name": "Ops",
           "package": "unbound",
@@ -3113,6 +3340,7 @@
         "index": {
           "description": "Generic operations defined in terms of the RepLib framework and the Alpha type class",
           "hierarchy": "Unbound LocallyNameless Ops",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Ops",
           "name": "Ops",
           "package": "unbound",
@@ -3596,6 +3824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Ops",
           "name": "permClose",
           "package": "unbound",
@@ -3605,6 +3834,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Ops",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Ops",
           "name": "permClose",
           "normalized": "[Name a]-\u003eb-\u003e([Name a],b)",
@@ -3620,6 +3850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Ops",
           "name": "permCloseAny",
           "package": "unbound",
@@ -3629,6 +3860,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Ops",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Ops",
           "name": "permCloseAny",
           "normalized": "[AnyName]-\u003ea-\u003e([AnyName],a)",
@@ -3775,6 +4007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Ops",
           "name": "strength",
           "package": "unbound",
@@ -3784,6 +4017,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Ops",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Ops",
           "name": "strength",
           "normalized": "(a,b c)-\u003eb(a,c)",
@@ -4085,6 +4319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA destructor for binders that does \u003cem\u003enot\u003c/em\u003e guarantee fresh\n   names for the binders.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Ops",
           "name": "unsafeUnbind",
           "package": "unbound",
@@ -4095,6 +4330,7 @@
         "index": {
           "description": "destructor for binders that does not guarantee fresh names for the binders",
           "hierarchy": "Unbound LocallyNameless Ops",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Ops",
           "name": "unsafeUnbind",
           "normalized": "GenBind a b c d-\u003e(c,d)",
@@ -4137,6 +4373,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003eSubst\u003c/code\u003e type class for generic capture-avoiding substitution.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "Subst",
           "package": "unbound",
@@ -4146,6 +4383,7 @@
         "index": {
           "description": "The Subst type class for generic capture-avoiding substitution",
           "hierarchy": "Unbound LocallyNameless Subst",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "Subst",
           "package": "unbound",
@@ -4160,6 +4398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eSubst\u003c/code\u003e class governs capture-avoiding substitution.  To\n   derive this class, you only need to indicate where the variables\n   are in the data type, by overriding the method \u003ccode\u003e\u003ca\u003eisvar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "Subst",
           "package": "unbound",
@@ -4169,6 +4408,7 @@
         "index": {
           "description": "The Subst class governs capture-avoiding substitution To derive this class you only need to indicate where the variables are in the data type by overriding the method isvar",
           "hierarchy": "Unbound LocallyNameless Subst",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "Subst",
           "package": "unbound",
@@ -4183,6 +4423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eisCoerceVar\u003c/a\u003e\u003c/code\u003e  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "SubstCoerce",
           "package": "unbound",
@@ -4192,6 +4433,7 @@
         "index": {
           "description": "See isCoerceVar",
           "hierarchy": "Unbound LocallyNameless Subst",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "SubstCoerce",
           "package": "unbound",
@@ -4206,6 +4448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReified class dictionary for \u003ccode\u003e\u003ca\u003eSubst\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "SubstD",
           "package": "unbound",
@@ -4215,6 +4458,7 @@
         "index": {
           "description": "Reified class dictionary for Subst",
           "hierarchy": "Unbound LocallyNameless Subst",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "SubstD",
           "package": "unbound",
@@ -4229,6 +4473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eisvar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "SubstName",
           "package": "unbound",
@@ -4238,6 +4483,7 @@
         "index": {
           "description": "See isvar",
           "hierarchy": "Unbound LocallyNameless Subst",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "SubstName",
           "package": "unbound",
@@ -4251,6 +4497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "SubstCoerce",
           "package": "unbound",
@@ -4260,6 +4507,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Subst",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "SubstCoerce",
           "normalized": "Name a-\u003e(a-\u003eMaybe b)-\u003eSubstCoerce b a",
@@ -4275,6 +4523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "SubstD",
           "package": "unbound",
@@ -4284,6 +4533,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Subst",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "SubstD",
           "package": "unbound",
@@ -4323,6 +4573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is an alternative version to \u003ccode\u003e\u003ca\u003eisvar\u003c/a\u003e\u003c/code\u003e, useable in the case \n   that the substituted argument doesn't have *exactly* the same type\n   as the term it should be substituted into.\n   The default implementation always returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "isCoerceVar",
           "package": "unbound",
@@ -4333,6 +4584,7 @@
         "index": {
           "description": "This is an alternative version to isvar useable in the case that the substituted argument doesn have exactly the same type as the term it should be substituted into The default implementation always returns Nothing",
           "hierarchy": "Unbound LocallyNameless Subst",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "isCoerceVar",
           "normalized": "a-\u003eMaybe(SubstCoerce a b)",
@@ -4349,6 +4601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the only method which normally needs to be implemented\n   explicitly.  If the argument is a variable, return its name\n   wrapped in the \u003ccode\u003e\u003ca\u003eSubstName\u003c/a\u003e\u003c/code\u003e constructor.  Return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e for\n   non-variable arguments.  The default implementation always\n   returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "isvar",
           "package": "unbound",
@@ -4359,6 +4612,7 @@
         "index": {
           "description": "This is the only method which normally needs to be implemented explicitly If the argument is variable return its name wrapped in the SubstName constructor Return Nothing for non-variable arguments The default implementation always returns Nothing",
           "hierarchy": "Unbound LocallyNameless Subst",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "isvar",
           "normalized": "a-\u003eMaybe(SubstName a b)",
@@ -4373,6 +4627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "isvarD",
           "package": "unbound",
@@ -4382,6 +4637,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Subst",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "isvarD",
           "normalized": "a-\u003eMaybe(SubstName a b)",
@@ -4397,6 +4653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003esubst\u003c/a\u003e\u003c/code\u003e nm sub tm\u003c/code\u003e substitutes \u003ccode\u003esub\u003c/code\u003e for \u003ccode\u003enm\u003c/code\u003e in \u003ccode\u003etm\u003c/code\u003e.  It has\n   a default generic implementation in terms of \u003ccode\u003eisvar\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "subst",
           "package": "unbound",
@@ -4407,6 +4664,7 @@
         "index": {
           "description": "subst nm sub tm substitutes sub for nm in tm It has default generic implementation in terms of isvar",
           "hierarchy": "Unbound LocallyNameless Subst",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "subst",
           "normalized": "Name a-\u003ea-\u003eb-\u003eb",
@@ -4421,6 +4679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "substD",
           "package": "unbound",
@@ -4430,6 +4689,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Subst",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "substD",
           "normalized": "Name a-\u003ea-\u003eb-\u003eb",
@@ -4444,6 +4704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "substDefault",
           "package": "unbound",
@@ -4453,6 +4714,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Subst",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "substDefault",
           "normalized": "Name a-\u003ea-\u003eb-\u003eb",
@@ -4468,6 +4730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "substR1",
           "package": "unbound",
@@ -4477,6 +4740,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Subst",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "substR1",
           "normalized": "R(SubstD a)b-\u003eName a-\u003ea-\u003eb-\u003eb",
@@ -4492,6 +4756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform several simultaneous substitutions.  This method also\n   has a default generic implementation in terms of \u003ccode\u003eisvar\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "substs",
           "package": "unbound",
@@ -4502,6 +4767,7 @@
         "index": {
           "description": "Perform several simultaneous substitutions This method also has default generic implementation in terms of isvar",
           "hierarchy": "Unbound LocallyNameless Subst",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "substs",
           "normalized": "[(Name a,a)]-\u003eb-\u003eb",
@@ -4516,6 +4782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "substsD",
           "package": "unbound",
@@ -4525,6 +4792,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Subst",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "substsD",
           "normalized": "[(Name a,a)]-\u003eb-\u003eb",
@@ -4539,6 +4807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "substsR1",
           "package": "unbound",
@@ -4548,6 +4817,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Subst",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Subst",
           "name": "substsR1",
           "normalized": "R(SubstD a)b-\u003e[(Name a,a)]-\u003eb-\u003eb",
@@ -4563,6 +4833,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSpecial type combinators for specifying binding structure.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Types",
           "name": "Types",
           "package": "unbound",
@@ -4572,6 +4843,7 @@
         "index": {
           "description": "Special type combinators for specifying binding structure",
           "hierarchy": "Unbound LocallyNameless Types",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Types",
           "name": "Types",
           "package": "unbound",
@@ -4585,6 +4857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Types",
           "name": "Bind",
           "package": "unbound",
@@ -4593,6 +4866,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Types",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Types",
           "name": "Bind",
           "package": "unbound",
@@ -4607,6 +4881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eEmbed\u003c/code\u003e allows for terms to be \u003cem\u003eembedded\u003c/em\u003e within patterns.  Such\n   embedded terms do not bind names along with the rest of the\n   pattern.  For examples, see the tutorial or examples directories.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003et\u003c/code\u003e is a \u003cem\u003eterm type\u003c/em\u003e, then \u003ccode\u003eEmbed t\u003c/code\u003e is a \u003cem\u003epattern type\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eEmbed\u003c/code\u003e is not abstract since it involves no binding, and hence\n   it is safe to manipulate directly.  To create and destruct\n   \u003ccode\u003eEmbed\u003c/code\u003e terms, you may use the \u003ccode\u003eEmbed\u003c/code\u003e constructor directly.\n   (You may also use the functions \u003ccode\u003eembed\u003c/code\u003e and \u003ccode\u003eunembed\u003c/code\u003e, which\n   additionally can construct or destruct any number of enclosing\n   \u003ccode\u003e\u003ca\u003eShift\u003c/a\u003e\u003c/code\u003es at the same time.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Types",
           "name": "Embed",
           "package": "unbound",
@@ -4616,6 +4891,7 @@
         "index": {
           "description": "Embed allows for terms to be embedded within patterns Such embedded terms do not bind names along with the rest of the pattern For examples see the tutorial or examples directories If is term type then Embed is pattern type Embed is not abstract since it involves no binding and hence it is safe to manipulate directly To create and destruct Embed terms you may use the Embed constructor directly You may also use the functions embed and unembed which additionally can construct or destruct any number of enclosing Shift at the same time",
           "hierarchy": "Unbound LocallyNameless Types",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Types",
           "name": "Embed",
           "package": "unbound",
@@ -4630,6 +4906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most fundamental combinator for expressing binding structure\n   is \u003ccode\u003e\u003ca\u003eBind\u003c/a\u003e\u003c/code\u003e.  The \u003cem\u003eterm type\u003c/em\u003e \u003ccode\u003eBind p t\u003c/code\u003e represents a pattern \u003ccode\u003ep\u003c/code\u003e\n   paired with a term \u003ccode\u003et\u003c/code\u003e, where names in \u003ccode\u003ep\u003c/code\u003e are bound within \u003ccode\u003et\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eBind\u003c/a\u003e\u003c/code\u003e is also abstract. You can create bindings\n   using \u003ccode\u003ebind\u003c/code\u003e and take them apart with \u003ccode\u003eunbind\u003c/code\u003e and friends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Types",
           "name": "GenBind",
           "package": "unbound",
@@ -4639,6 +4916,7 @@
         "index": {
           "description": "The most fundamental combinator for expressing binding structure is Bind The term type Bind represents pattern paired with term where names in are bound within Like Name Bind is also abstract You can create bindings using bind and take them apart with unbind and friends",
           "hierarchy": "Unbound LocallyNameless Types",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Types",
           "name": "GenBind",
           "package": "unbound",
@@ -4653,6 +4931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eRebind\u003c/code\u003e allows for \u003cem\u003enested\u003c/em\u003e bindings.  If \u003ccode\u003ep1\u003c/code\u003e and \u003ccode\u003ep2\u003c/code\u003e are\n   pattern types, then \u003ccode\u003eRebind p1 p2\u003c/code\u003e is also a pattern type,\n   similar to the pattern type \u003ccode\u003e(p1,p2)\u003c/code\u003e except that \u003ccode\u003ep1\u003c/code\u003e\n   \u003cem\u003escopes over\u003c/em\u003e \u003ccode\u003ep2\u003c/code\u003e.  That is, names within terms embedded in \u003ccode\u003ep2\u003c/code\u003e\n   may refer to binders in \u003ccode\u003ep1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Types",
           "name": "Rebind",
           "package": "unbound",
@@ -4662,6 +4941,7 @@
         "index": {
           "description": "Rebind allows for nested bindings If p1 and p2 are pattern types then Rebind p1 p2 is also pattern type similar to the pattern type p1 p2 except that p1 scopes over p2 That is names within terms embedded in p2 may refer to binders in p1",
           "hierarchy": "Unbound LocallyNameless Types",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Types",
           "name": "Rebind",
           "package": "unbound",
@@ -4676,6 +4956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003ep\u003c/code\u003e is a pattern type, then \u003ccode\u003eRec p\u003c/code\u003e is also a pattern type,\n which is \u003cem\u003erecursive\u003c/em\u003e in the sense that \u003ccode\u003ep\u003c/code\u003e may bind names in terms\n embedded within itself.  Useful for encoding e.g. lectrec and\n Agda's dot notation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Types",
           "name": "Rec",
           "package": "unbound",
@@ -4685,6 +4966,7 @@
         "index": {
           "description": "If is pattern type then Rec is also pattern type which is recursive in the sense that may bind names in terms embedded within itself Useful for encoding e.g lectrec and Agda dot notation",
           "hierarchy": "Unbound LocallyNameless Types",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Types",
           "name": "Rec",
           "package": "unbound",
@@ -4698,6 +4980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Types",
           "name": "SetBind",
           "package": "unbound",
@@ -4706,6 +4989,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Types",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Types",
           "name": "SetBind",
           "package": "unbound",
@@ -4719,6 +5003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Types",
           "name": "SetPlusBind",
           "package": "unbound",
@@ -4727,6 +5012,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Types",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Types",
           "name": "SetPlusBind",
           "package": "unbound",
@@ -4741,6 +5027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShift the scope of an embedded term one level outwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Types",
           "name": "Shift",
           "package": "unbound",
@@ -4750,6 +5037,7 @@
         "index": {
           "description": "Shift the scope of an embedded term one level outwards",
           "hierarchy": "Unbound LocallyNameless Types",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Types",
           "name": "Shift",
           "package": "unbound",
@@ -4764,6 +5052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTRec\u003c/code\u003e is a standalone variant of \u003ccode\u003e\u003ca\u003eRec\u003c/a\u003e\u003c/code\u003e: the only difference is\n   that whereas \u003ccode\u003e\u003ccode\u003e\u003ca\u003eRec\u003c/a\u003e\u003c/code\u003e p\u003c/code\u003e is a pattern type, \u003ccode\u003eTRec p\u003c/code\u003e\n   is a \u003cem\u003eterm type\u003c/em\u003e.  It is isomorphic to \u003ccode\u003e\u003ccode\u003e\u003ca\u003eBind\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eRec\u003c/a\u003e\u003c/code\u003e p) ()\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003eTRec\u003c/code\u003e corresponds to Pottier's \u003cem\u003eabstraction\u003c/em\u003e construct\n   from alpha-Caml.  In this context, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEmbed\u003c/a\u003e\u003c/code\u003e t\u003c/code\u003e corresponds to\n   alpha-Caml's \u003ccode\u003einner t\u003c/code\u003e, and \u003ccode\u003e\u003ccode\u003e\u003ca\u003eShift\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eEmbed\u003c/a\u003e\u003c/code\u003e t)\u003c/code\u003e corresponds to\n   alpha-Caml's \u003ccode\u003eouter t\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Types",
           "name": "TRec",
           "package": "unbound",
@@ -4773,6 +5062,7 @@
         "index": {
           "description": "TRec is standalone variant of Rec the only difference is that whereas Rec is pattern type TRec is term type It is isomorphic to Bind Rec Note that TRec corresponds to Pottier abstraction construct from alpha-Caml In this context Embed corresponds to alpha-Caml inner and Shift Embed corresponds to alpha-Caml outer",
           "hierarchy": "Unbound LocallyNameless Types",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Types",
           "name": "TRec",
           "package": "unbound",
@@ -4786,6 +5076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Types",
           "name": "B",
           "package": "unbound",
@@ -4795,6 +5086,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Types",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Types",
           "name": "B",
           "package": "unbound",
@@ -4830,6 +5122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Types",
           "name": "R",
           "package": "unbound",
@@ -4839,6 +5132,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Types",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Types",
           "name": "R",
           "package": "unbound",
@@ -4851,6 +5145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Types",
           "name": "Rec",
           "package": "unbound",
@@ -4860,6 +5155,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Types",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Types",
           "name": "Rec",
           "package": "unbound",
@@ -4896,6 +5192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless.Types",
           "name": "TRec",
           "package": "unbound",
@@ -4905,6 +5202,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless Types",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless.Types",
           "name": "TRec",
           "normalized": "TRec(Bind(Rec a)())",
@@ -5036,6 +5334,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA generic implementation of standard functions dealing with names\n and binding structure (alpha equivalence, free variable\n calculation, capture-avoiding substitution, name permutation, ...)\n using a locally nameless representation.\n\u003c/p\u003e\u003cp\u003eNormal users of this library should only need to import this\n module.  In particular, this module is careful to export only an\n abstract interface with various safety guarantees.  Power users who\n wish to have access to the internals of the library (at the risk of\n shooting oneself in the foot) can directly import the various\n implementation modules such as \u003ca\u003eUnbound.LocallyNameless.Name\u003c/a\u003e and\n so on.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eTen-second tutorial\u003c/em\u003e: use the type combinators \u003ccode\u003e\u003ca\u003eBind\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eEmbed\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eRebind\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eRec\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eTRec\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eShift\u003c/a\u003e\u003c/code\u003e to specify the binding\n structure of your data types.  Then use Template Haskell to derive\n generic representations for your types:\n\u003c/p\u003e\u003cpre\u003e $(derive [''Your, ''Types, ''Here])\n\u003c/pre\u003e\u003cp\u003eFinally, declare \u003ccode\u003e\u003ca\u003eAlpha\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eSubst\u003c/a\u003e\u003c/code\u003e instances for your types.\n Then you can go to town using all the generically-derived\n operations like \u003ccode\u003e\u003ca\u003eaeq\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003efv\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esubst\u003c/a\u003e\u003c/code\u003e, and so on.\n\u003c/p\u003e\u003cp\u003eFor more information, see the more in-depth literate Haskell\n tutorial in the \u003ccode\u003etutorial\u003c/code\u003e directory (which can be obtained as part\n of the library source package: \u003ccode\u003ecabal unpack unbound\u003c/code\u003e) and the\n examples in the \u003ccode\u003eexample\u003c/code\u003e directory.\n\u003c/p\u003e\u003cp\u003eSee also: Stephanie Weirich, Brent A. Yorgey, and Tim Sheard.\n \u003cem\u003eBinders Unbound\u003c/em\u003e. ICFP'11, September 2011, Tokyo, Japan. \u003ca\u003ehttp://www.cis.upenn.edu/~byorgey/papers/binders-unbound.pdf\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "LocallyNameless",
           "package": "unbound",
@@ -5045,6 +5344,7 @@
         "index": {
           "description": "generic implementation of standard functions dealing with names and binding structure alpha equivalence free variable calculation capture-avoiding substitution name permutation using locally nameless representation Normal users of this library should only need to import this module In particular this module is careful to export only an abstract interface with various safety guarantees Power users who wish to have access to the internals of the library at the risk of shooting oneself in the foot can directly import the various implementation modules such as Unbound.LocallyNameless.Name and so on Ten-second tutorial use the type combinators Bind Embed Rebind Rec TRec and Shift to specify the binding structure of your data types Then use Template Haskell to derive generic representations for your types derive Your Types Here Finally declare Alpha and Subst instances for your types Then you can go to town using all the generically-derived operations like aeq fv subst and so on For more information see the more in-depth literate Haskell tutorial in the tutorial directory which can be obtained as part of the library source package cabal unpack unbound and the examples in the example directory See also Stephanie Weirich Brent Yorgey and Tim Sheard Binders Unbound ICFP September Tokyo Japan http www.cis.upenn.edu byorgey papers binders-unbound.pdf",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "LocallyNameless",
           "package": "unbound",
@@ -5059,6 +5359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eAlpha\u003c/code\u003e type class is for types which may contain names.  The\n   \u003ccode\u003eRep1\u003c/code\u003e constraint means that we can only make instances of this\n   class for types that have generic representations (which can be\n   automatically derived by RepLib.)\n\u003c/p\u003e\u003cp\u003eNote that the methods of \u003ccode\u003eAlpha\u003c/code\u003e should almost never be called\n   directly.  Instead, use other methods provided by this module\n   which are defined in terms of \u003ccode\u003eAlpha\u003c/code\u003e methods.\n\u003c/p\u003e\u003cp\u003eMost of the time, the default definitions of these methods will\n   suffice, so you can make an instance for your data type by simply\n   declaring\n\u003c/p\u003e\u003cpre\u003e instance Alpha MyType\n\u003c/pre\u003e\u003cp\u003eOccasionally, however, it may be useful to override the default\n   implementations of one or more \u003ccode\u003eAlpha\u003c/code\u003e methods for a particular\n   type.  For example, consider a type like\n\u003c/p\u003e\u003cpre\u003e data Term = ...\n           | Annotation Stuff Term\n\u003c/pre\u003e\u003cp\u003ewhere the \u003ccode\u003eAnnotation\u003c/code\u003e constructor of \u003ccode\u003eTerm\u003c/code\u003e associates some sort\n   of annotation with a term --- say, information obtained from a\n   parser about where in an input file the term came from.  This\n   information is needed to produce good error messages, but should\n   not be taken into consideration when, say, comparing two \u003ccode\u003eTerm\u003c/code\u003es\n   for alpha-equivalence.  In order to make \u003ccode\u003eaeq\u003c/code\u003e ignore\n   annotations, you can override the implementation of \u003ccode\u003eaeq'\u003c/code\u003e like\n   so:\n\u003c/p\u003e\u003cpre\u003e instance Alpha Term where\n   aeq' c (Annotation _ t1) t2 = aeq' c t1 t2\n   aeq' c t1 (Annotation _ t2) = aeq' c t1 t2\n   aeq' c t1 t2 = aeqR1 rep1 t1 t2\n\u003c/pre\u003e\u003cp\u003eNote how the call to \u003ccode\u003e\u003ca\u003eaeqR1\u003c/a\u003e\u003c/code\u003e handles all the other cases generically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "Alpha",
           "package": "unbound",
@@ -5068,6 +5369,7 @@
         "index": {
           "description": "The Alpha type class is for types which may contain names The Rep1 constraint means that we can only make instances of this class for types that have generic representations which can be automatically derived by RepLib Note that the methods of Alpha should almost never be called directly Instead use other methods provided by this module which are defined in terms of Alpha methods Most of the time the default definitions of these methods will suffice so you can make an instance for your data type by simply declaring instance Alpha MyType Occasionally however it may be useful to override the default implementations of one or more Alpha methods for particular type For example consider type like data Term Annotation Stuff Term where the Annotation constructor of Term associates some sort of annotation with term say information obtained from parser about where in an input file the term came from This information is needed to produce good error messages but should not be taken into consideration when say comparing two Term for alpha-equivalence In order to make aeq ignore annotations you can override the implementation of aeq like so instance Alpha Term where aeq Annotation t1 t2 aeq t1 t2 aeq t1 Annotation t2 aeq t1 t2 aeq t1 t2 aeqR1 rep1 t1 t2 Note how the call to aeqR1 handles all the other cases generically",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "Alpha",
           "package": "unbound",
@@ -5082,6 +5384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA name with a hidden (existentially quantified) sort.  To hide\n   the sort of a name, use the \u003ccode\u003e\u003ca\u003eAnyName\u003c/a\u003e\u003c/code\u003e constructor directly; to\n   extract a name with a hidden sort, use \u003ccode\u003e\u003ca\u003etoSortedName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "AnyName",
           "package": "unbound",
@@ -5091,6 +5394,7 @@
         "index": {
           "description": "name with hidden existentially quantified sort To hide the sort of name use the AnyName constructor directly to extract name with hidden sort use toSortedName",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "AnyName",
           "package": "unbound",
@@ -5104,6 +5408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "Bind",
           "package": "unbound",
@@ -5112,6 +5417,7 @@
         },
         "index": {
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "Bind",
           "package": "unbound",
@@ -5126,6 +5432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollections are foldable types that support empty, singleton,\n   union, and map operations.  The result of a free variable\n   calculation may be any collection.  Instances are provided for\n   lists, sets, and multisets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "Collection",
           "package": "unbound",
@@ -5135,6 +5442,7 @@
         "index": {
           "description": "Collections are foldable types that support empty singleton union and map operations The result of free variable calculation may be any collection Instances are provided for lists sets and multisets",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "Collection",
           "package": "unbound",
@@ -5149,6 +5457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eEmbed\u003c/code\u003e allows for terms to be \u003cem\u003eembedded\u003c/em\u003e within patterns.  Such\n   embedded terms do not bind names along with the rest of the\n   pattern.  For examples, see the tutorial or examples directories.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003et\u003c/code\u003e is a \u003cem\u003eterm type\u003c/em\u003e, then \u003ccode\u003eEmbed t\u003c/code\u003e is a \u003cem\u003epattern type\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eEmbed\u003c/code\u003e is not abstract since it involves no binding, and hence\n   it is safe to manipulate directly.  To create and destruct\n   \u003ccode\u003eEmbed\u003c/code\u003e terms, you may use the \u003ccode\u003eEmbed\u003c/code\u003e constructor directly.\n   (You may also use the functions \u003ccode\u003eembed\u003c/code\u003e and \u003ccode\u003eunembed\u003c/code\u003e, which\n   additionally can construct or destruct any number of enclosing\n   \u003ccode\u003e\u003ca\u003eShift\u003c/a\u003e\u003c/code\u003es at the same time.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "Embed",
           "package": "unbound",
@@ -5158,6 +5467,7 @@
         "index": {
           "description": "Embed allows for terms to be embedded within patterns Such embedded terms do not bind names along with the rest of the pattern For examples see the tutorial or examples directories If is term type then Embed is pattern type Embed is not abstract since it involves no binding and hence it is safe to manipulate directly To create and destruct Embed terms you may use the Embed constructor directly You may also use the functions embed and unembed which additionally can construct or destruct any number of enclosing Shift at the same time",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "Embed",
           "package": "unbound",
@@ -5172,6 +5482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eFresh\u003c/code\u003e type class governs monads which can generate new\n   globally unique \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003es based on a given \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "Fresh",
           "package": "unbound",
@@ -5181,6 +5492,7 @@
         "index": {
           "description": "The Fresh type class governs monads which can generate new globally unique Name based on given Name",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "Fresh",
           "package": "unbound",
@@ -5195,6 +5507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenient monad which is an instance of \u003ccode\u003e\u003ca\u003eFresh\u003c/a\u003e\u003c/code\u003e.  It keeps\n   track of a global index used for generating fresh names, which is\n   incremented every time \u003ccode\u003e\u003ca\u003efresh\u003c/a\u003e\u003c/code\u003e is called.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "FreshM",
           "package": "unbound",
@@ -5204,6 +5517,7 @@
         "index": {
           "description": "convenient monad which is an instance of Fresh It keeps track of global index used for generating fresh names which is incremented every time fresh is called",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "FreshM",
           "package": "unbound",
@@ -5218,6 +5532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eFreshM\u003c/code\u003e monad transformer.  Keeps track of the lowest index\n   still globally unused, and increments the index every time it is\n   asked for a fresh name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "FreshMT",
           "package": "unbound",
@@ -5227,6 +5542,7 @@
         "index": {
           "description": "The FreshM monad transformer Keeps track of the lowest index still globally unused and increments the index every time it is asked for fresh name",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "FreshMT",
           "package": "unbound",
@@ -5241,6 +5557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the class of monads that support freshness in an\n   (implicit) local scope.  Generated names are fresh for the current\n   local scope, not necessarily globally fresh.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "LFresh",
           "package": "unbound",
@@ -5250,6 +5567,7 @@
         "index": {
           "description": "This is the class of monads that support freshness in an implicit local scope Generated names are fresh for the current local scope not necessarily globally fresh",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "LFresh",
           "package": "unbound",
@@ -5264,6 +5582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenient monad which is an instance of \u003ccode\u003e\u003ca\u003eLFresh\u003c/a\u003e\u003c/code\u003e.  It keeps\n   track of a set of names to avoid, and when asked for a fresh one\n   will choose the first unused numerical name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "LFreshM",
           "package": "unbound",
@@ -5273,6 +5592,7 @@
         "index": {
           "description": "convenient monad which is an instance of LFresh It keeps track of set of names to avoid and when asked for fresh one will choose the first unused numerical name",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "LFreshM",
           "package": "unbound",
@@ -5287,6 +5607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe LFresh monad transformer.  Keeps track of a set of names to\n avoid, and when asked for a fresh one will choose the first numeric\n prefix of the given name which is currently unused.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "LFreshMT",
           "package": "unbound",
@@ -5296,6 +5617,7 @@
         "index": {
           "description": "The LFresh monad transformer Keeps track of set of names to avoid and when asked for fresh one will choose the first numeric prefix of the given name which is currently unused",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "LFreshMT",
           "package": "unbound",
@@ -5310,6 +5632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple representation of multisets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "Multiset",
           "package": "unbound",
@@ -5319,6 +5642,7 @@
         "index": {
           "description": "simple representation of multisets",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "Multiset",
           "package": "unbound",
@@ -5333,6 +5657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003es are things that get bound.  This type is intentionally\n   abstract; to create a \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e you can use \u003ccode\u003e\u003ca\u003estring2Name\u003c/a\u003e\u003c/code\u003e or\n   \u003ccode\u003e\u003ca\u003einteger2Name\u003c/a\u003e\u003c/code\u003e. The type parameter is a tag, or \u003cem\u003esort\u003c/em\u003e, which\n   tells us what sorts of things this name may stand for. The sort\n   must be a \u003cem\u003erepresentable\u003c/em\u003e type, \u003cem\u003ei.e.\u003c/em\u003e an instance of the \u003ccode\u003eRep\u003c/code\u003e\n   type class from the \u003ccode\u003eRepLib\u003c/code\u003e generic programming framework.\n\u003c/p\u003e\u003cp\u003eTo hide the sort of a name, use \u003ccode\u003e\u003ca\u003eAnyName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "Name",
           "package": "unbound",
@@ -5342,6 +5667,7 @@
         "index": {
           "description": "Name are things that get bound This type is intentionally abstract to create Name you can use string2Name or integer2Name The type parameter is tag or sort which tells us what sorts of things this name may stand for The sort must be representable type i.e an instance of the Rep type class from the RepLib generic programming framework To hide the sort of name use AnyName",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "Name",
           "package": "unbound",
@@ -5356,6 +5682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003cem\u003epermutation\u003c/em\u003e is a bijective function from names to names\n   which is the identity on all but a finite set of names.  They\n   form the basis for nominal approaches to binding, but can\n   also be useful in general.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "Perm",
           "package": "unbound",
@@ -5365,6 +5692,7 @@
         "index": {
           "description": "permutation is bijective function from names to names which is the identity on all but finite set of names They form the basis for nominal approaches to binding but can also be useful in general",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "Perm",
           "package": "unbound",
@@ -5379,6 +5707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eRebind\u003c/code\u003e allows for \u003cem\u003enested\u003c/em\u003e bindings.  If \u003ccode\u003ep1\u003c/code\u003e and \u003ccode\u003ep2\u003c/code\u003e are\n   pattern types, then \u003ccode\u003eRebind p1 p2\u003c/code\u003e is also a pattern type,\n   similar to the pattern type \u003ccode\u003e(p1,p2)\u003c/code\u003e except that \u003ccode\u003ep1\u003c/code\u003e\n   \u003cem\u003escopes over\u003c/em\u003e \u003ccode\u003ep2\u003c/code\u003e.  That is, names within terms embedded in \u003ccode\u003ep2\u003c/code\u003e\n   may refer to binders in \u003ccode\u003ep1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "Rebind",
           "package": "unbound",
@@ -5388,6 +5717,7 @@
         "index": {
           "description": "Rebind allows for nested bindings If p1 and p2 are pattern types then Rebind p1 p2 is also pattern type similar to the pattern type p1 p2 except that p1 scopes over p2 That is names within terms embedded in p2 may refer to binders in p1",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "Rebind",
           "package": "unbound",
@@ -5402,6 +5732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf \u003ccode\u003ep\u003c/code\u003e is a pattern type, then \u003ccode\u003eRec p\u003c/code\u003e is also a pattern type,\n which is \u003cem\u003erecursive\u003c/em\u003e in the sense that \u003ccode\u003ep\u003c/code\u003e may bind names in terms\n embedded within itself.  Useful for encoding e.g. lectrec and\n Agda's dot notation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "Rec",
           "package": "unbound",
@@ -5411,6 +5742,7 @@
         "index": {
           "description": "If is pattern type then Rec is also pattern type which is recursive in the sense that may bind names in terms embedded within itself Useful for encoding e.g lectrec and Agda dot notation",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "Rec",
           "package": "unbound",
@@ -5425,6 +5757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShift the scope of an embedded term one level outwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "Shift",
           "package": "unbound",
@@ -5434,6 +5767,7 @@
         "index": {
           "description": "Shift the scope of an embedded term one level outwards",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "Shift",
           "package": "unbound",
@@ -5448,6 +5782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eSubst\u003c/code\u003e class governs capture-avoiding substitution.  To\n   derive this class, you only need to indicate where the variables\n   are in the data type, by overriding the method \u003ccode\u003e\u003ca\u003eisvar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "Subst",
           "package": "unbound",
@@ -5457,6 +5792,7 @@
         "index": {
           "description": "The Subst class governs capture-avoiding substitution To derive this class you only need to indicate where the variables are in the data type by overriding the method isvar",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "Subst",
           "package": "unbound",
@@ -5471,6 +5807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eisvar\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "SubstName",
           "package": "unbound",
@@ -5480,6 +5817,7 @@
         "index": {
           "description": "See isvar",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "SubstName",
           "package": "unbound",
@@ -5494,6 +5832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTRec\u003c/code\u003e is a standalone variant of \u003ccode\u003e\u003ca\u003eRec\u003c/a\u003e\u003c/code\u003e: the only difference is\n   that whereas \u003ccode\u003e\u003ccode\u003e\u003ca\u003eRec\u003c/a\u003e\u003c/code\u003e p\u003c/code\u003e is a pattern type, \u003ccode\u003eTRec p\u003c/code\u003e\n   is a \u003cem\u003eterm type\u003c/em\u003e.  It is isomorphic to \u003ccode\u003e\u003ccode\u003e\u003ca\u003eBind\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eRec\u003c/a\u003e\u003c/code\u003e p) ()\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that \u003ccode\u003eTRec\u003c/code\u003e corresponds to Pottier's \u003cem\u003eabstraction\u003c/em\u003e construct\n   from alpha-Caml.  In this context, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eEmbed\u003c/a\u003e\u003c/code\u003e t\u003c/code\u003e corresponds to\n   alpha-Caml's \u003ccode\u003einner t\u003c/code\u003e, and \u003ccode\u003e\u003ccode\u003e\u003ca\u003eShift\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eEmbed\u003c/a\u003e\u003c/code\u003e t)\u003c/code\u003e corresponds to\n   alpha-Caml's \u003ccode\u003eouter t\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "TRec",
           "package": "unbound",
@@ -5503,6 +5842,7 @@
         "index": {
           "description": "TRec is standalone variant of Rec the only difference is that whereas Rec is pattern type TRec is term type It is isomorphic to Bind Rec Note that TRec corresponds to Pottier abstraction construct from alpha-Caml In this context Embed corresponds to alpha-Caml inner and Shift Embed corresponds to alpha-Caml outer",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "TRec",
           "package": "unbound",
@@ -5540,6 +5880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003eacompare\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "acompare'",
           "package": "unbound",
@@ -5550,6 +5891,7 @@
         "index": {
           "description": "See acompare",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "acompare'",
           "normalized": "AlphaCtx-\u003ea-\u003ea-\u003eOrdering",
@@ -5565,6 +5907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003eaeq\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "aeq'",
           "package": "unbound",
@@ -5575,6 +5918,7 @@
         "index": {
           "description": "See aeq",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "aeq'",
           "normalized": "AlphaCtx-\u003ea-\u003ea-\u003eBool",
@@ -5616,6 +5960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAvoid the given names when freshening in the subcomputation,\n   that is, add the given names to the in-scope set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "avoid",
           "package": "unbound",
@@ -5626,6 +5971,7 @@
         "index": {
           "description": "Avoid the given names when freshening in the subcomputation that is add the given names to the in-scope set",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "avoid",
           "normalized": "[AnyName]-\u003ea b-\u003ea b",
@@ -5641,6 +5987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace free names by bound names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "close",
           "package": "unbound",
@@ -5651,6 +5998,7 @@
         "index": {
           "description": "Replace free names by bound names",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "close",
           "normalized": "AlphaCtx-\u003ea-\u003eb-\u003eb",
@@ -5666,6 +6014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollections must be functorial.  The normal \u003ccode\u003eFunctor\u003c/code\u003e class\n   won't do because of the \u003ccode\u003eOrd\u003c/code\u003e constraint on sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "cmap",
           "package": "unbound",
@@ -5676,6 +6025,7 @@
         "index": {
           "description": "Collections must be functorial The normal Functor class won do because of the Ord constraint on sets",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "cmap",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -5717,6 +6067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an embedded term, which is an instance of \u003ccode\u003e\u003ca\u003eEmbed\u003c/a\u003e\u003c/code\u003e\n   with any number of enclosing \u003ccode\u003e\u003ca\u003eShift\u003c/a\u003e\u003c/code\u003es.  That is, \u003ccode\u003eembed\u003c/code\u003e can have\n   any of the types\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003et -\u003e Embed t\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003et -\u003e Shift (Embed t)\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003et -\u003e Shift (Shift (Embed t))\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eand so on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "embed",
           "package": "unbound",
@@ -5727,6 +6078,7 @@
         "index": {
           "description": "Construct an embedded term which is an instance of Embed with any number of enclosing Shift That is embed can have any of the types Embed Shift Embed Shift Shift Embed and so on",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "embed",
           "normalized": "Embedded a-\u003ea",
@@ -5766,6 +6118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty collection. Must be the identity for \u003ccode\u003eunion\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "emptyC",
           "package": "unbound",
@@ -5776,6 +6129,7 @@
         "index": {
           "description": "An empty collection Must be the identity for union",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "emptyC",
           "package": "unbound",
@@ -5789,6 +6143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the (first) index of the name in the pattern if one\n   exists; otherwise, return the number of names encountered\n   instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "findpatrec",
           "package": "unbound",
@@ -5799,6 +6154,7 @@
         "index": {
           "description": "Find the first index of the name in the pattern if one exists otherwise return the number of names encountered instead",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "findpatrec",
           "normalized": "a-\u003eAnyName-\u003eFindResult",
@@ -5814,6 +6170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a new globally unique name based on the given one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "fresh",
           "package": "unbound",
@@ -5824,6 +6181,7 @@
         "index": {
           "description": "Generate new globally unique name based on the given one",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "fresh",
           "normalized": "Name a-\u003eb(Name a)",
@@ -5839,6 +6197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003efreshen\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "freshen'",
           "package": "unbound",
@@ -5849,6 +6208,7 @@
         "index": {
           "description": "See freshen",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "freshen'",
           "normalized": "AlphaCtx-\u003ea-\u003eb(a,Perm AnyName)",
@@ -5864,6 +6224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003efv\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "fv'",
           "package": "unbound",
@@ -5874,6 +6235,7 @@
         "index": {
           "description": "See fv",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "fv'",
           "normalized": "AlphaCtx-\u003ea-\u003eb AnyName",
@@ -5889,6 +6251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the set of names currently being avoided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "getAvoids",
           "package": "unbound",
@@ -5899,6 +6262,7 @@
         "index": {
           "description": "Get the set of names currently being avoided",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "getAvoids",
           "package": "unbound",
@@ -5913,6 +6277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is an alternative version to \u003ccode\u003e\u003ca\u003eisvar\u003c/a\u003e\u003c/code\u003e, useable in the case \n   that the substituted argument doesn't have *exactly* the same type\n   as the term it should be substituted into.\n   The default implementation always returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "isCoerceVar",
           "package": "unbound",
@@ -5923,6 +6288,7 @@
         "index": {
           "description": "This is an alternative version to isvar useable in the case that the substituted argument doesn have exactly the same type as the term it should be substituted into The default implementation always returns Nothing",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "isCoerceVar",
           "normalized": "a-\u003eMaybe(SubstCoerce a b)",
@@ -5939,6 +6305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eisEmbed\u003c/code\u003e is needed internally for the implementation of\n   \u003ccode\u003eisPat\u003c/code\u003e.  \u003ccode\u003eisEmbed\u003c/code\u003e is true for terms wrapped in \u003ccode\u003eEmbed\u003c/code\u003e and zero\n   or more occurrences of \u003ccode\u003eShift\u003c/code\u003e.  The default implementation\n   simply returns \u003ccode\u003eFalse\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "isEmbed",
           "package": "unbound",
@@ -5949,6 +6316,7 @@
         "index": {
           "description": "isEmbed is needed internally for the implementation of isPat isEmbed is true for terms wrapped in Embed and zero or more occurrences of Shift The default implementation simply returns False",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "isEmbed",
           "normalized": "a-\u003eBool",
@@ -5965,6 +6333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eisPat x\u003c/code\u003e dynamically checks whether \u003ccode\u003ex\u003c/code\u003e can be used as a valid\n   pattern.  The default instance returns \u003ccode\u003eJust\u003c/code\u003e if at all\n   possible.  If successful, returns a list of names bound by the\n   pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "isPat",
           "package": "unbound",
@@ -5975,6 +6344,7 @@
         "index": {
           "description": "isPat dynamically checks whether can be used as valid pattern The default instance returns Just if at all possible If successful returns list of names bound by the pattern",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "isPat",
           "normalized": "a-\u003eMaybe[AnyName]",
@@ -5991,6 +6361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eisTerm x\u003c/code\u003e dynamically checks whether \u003ccode\u003ex\u003c/code\u003e can be used as a\n   valid term. The default instance returns \u003ccode\u003eTrue\u003c/code\u003e if at all\n   possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "isTerm",
           "package": "unbound",
@@ -6001,6 +6372,7 @@
         "index": {
           "description": "isTerm dynamically checks whether can be used as valid term The default instance returns True if at all possible",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "isTerm",
           "normalized": "a-\u003eBool",
@@ -6043,6 +6415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the only method which normally needs to be implemented\n   explicitly.  If the argument is a variable, return its name\n   wrapped in the \u003ccode\u003e\u003ca\u003eSubstName\u003c/a\u003e\u003c/code\u003e constructor.  Return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e for\n   non-variable arguments.  The default implementation always\n   returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "isvar",
           "package": "unbound",
@@ -6053,6 +6426,7 @@
         "index": {
           "description": "This is the only method which normally needs to be implemented explicitly If the argument is variable return its name wrapped in the SubstName constructor Return Nothing for non-variable arguments The default implementation always returns Nothing",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "isvar",
           "normalized": "a-\u003eMaybe(SubstName a b)",
@@ -6094,6 +6468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePick a new name that is fresh for the current (implicit) scope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "lfresh",
           "package": "unbound",
@@ -6104,6 +6479,7 @@
         "index": {
           "description": "Pick new name that is fresh for the current implicit scope",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "lfresh",
           "normalized": "Name a-\u003eb(Name a)",
@@ -6119,6 +6495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003elfreshen\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "lfreshen'",
           "package": "unbound",
@@ -6129,6 +6506,7 @@
         "index": {
           "description": "See lfreshen",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "lfreshen'",
           "normalized": "AlphaCtx-\u003ea-\u003e(a-\u003ePerm AnyName-\u003eb c)-\u003eb c",
@@ -6171,6 +6549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003enthpatrec\u003c/a\u003e\u003c/code\u003e p n\u003c/code\u003e looks up the \u003ccode\u003en\u003c/code\u003eth name in the pattern \u003ccode\u003ep\u003c/code\u003e\n (zero-indexed), returning the number of names encountered if not\n found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "nthpatrec",
           "package": "unbound",
@@ -6181,6 +6560,7 @@
         "index": {
           "description": "nthpatrec looks up the th name in the pattern zero-indexed returning the number of names encountered if not found",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "nthpatrec",
           "normalized": "a-\u003eNthCont",
@@ -6196,6 +6576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace bound names by free names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "open",
           "package": "unbound",
@@ -6206,6 +6587,7 @@
         "index": {
           "description": "Replace bound names by free names",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "open",
           "normalized": "AlphaCtx-\u003ea-\u003eb-\u003eb",
@@ -6273,6 +6655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a singleton collection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "singleton",
           "package": "unbound",
@@ -6283,6 +6666,7 @@
         "index": {
           "description": "Create singleton collection",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "singleton",
           "normalized": "a-\u003eb a",
@@ -6298,6 +6682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003esubst\u003c/a\u003e\u003c/code\u003e nm sub tm\u003c/code\u003e substitutes \u003ccode\u003esub\u003c/code\u003e for \u003ccode\u003enm\u003c/code\u003e in \u003ccode\u003etm\u003c/code\u003e.  It has\n   a default generic implementation in terms of \u003ccode\u003eisvar\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "subst",
           "package": "unbound",
@@ -6308,6 +6693,7 @@
         "index": {
           "description": "subst nm sub tm substitutes sub for nm in tm It has default generic implementation in terms of isvar",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "subst",
           "normalized": "Name a-\u003ea-\u003eb-\u003eb",
@@ -6323,6 +6709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform several simultaneous substitutions.  This method also\n   has a default generic implementation in terms of \u003ccode\u003eisvar\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "substs",
           "package": "unbound",
@@ -6333,6 +6720,7 @@
         "index": {
           "description": "Perform several simultaneous substitutions This method also has default generic implementation in terms of isvar",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "substs",
           "normalized": "[(Name a,a)]-\u003eb-\u003eb",
@@ -6374,6 +6762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003eswaps\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "swaps'",
           "package": "unbound",
@@ -6384,6 +6773,7 @@
         "index": {
           "description": "See swaps",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "swaps'",
           "normalized": "AlphaCtx-\u003ePerm AnyName-\u003ea-\u003ea",
@@ -6399,6 +6789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestruct an embedded term.  \u003ccode\u003eunembed\u003c/code\u003e can have any of the types\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003eEmbed t -\u003e t\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003eShift (Embed t) -\u003e t\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eand so on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "unembed",
           "package": "unbound",
@@ -6409,6 +6800,7 @@
         "index": {
           "description": "Destruct an embedded term unembed can have any of the types Embed Shift Embed and so on",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "unembed",
           "normalized": "a-\u003eEmbedded a",
@@ -6424,6 +6816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative combining operation.  The \u003ccode\u003eOrd\u003c/code\u003e constraint is in\n   order to accommodate sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.LocallyNameless",
           "name": "union",
           "package": "unbound",
@@ -6434,6 +6827,7 @@
         "index": {
           "description": "An associative combining operation The Ord constraint is in order to accommodate sets",
           "hierarchy": "Unbound LocallyNameless",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.LocallyNameless",
           "name": "union",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -6449,6 +6843,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA slow, but hopefully correct implementation of permutations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.PermM",
           "name": "PermM",
           "package": "unbound",
@@ -6458,6 +6853,7 @@
         "index": {
           "description": "slow but hopefully correct implementation of permutations",
           "hierarchy": "Unbound PermM",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.PermM",
           "name": "PermM",
           "package": "unbound",
@@ -6472,6 +6868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003cem\u003epermutation\u003c/em\u003e is a bijective function from names to names\n   which is the identity on all but a finite set of names.  They\n   form the basis for nominal approaches to binding, but can\n   also be useful in general.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.PermM",
           "name": "Perm",
           "package": "unbound",
@@ -6481,6 +6878,7 @@
         "index": {
           "description": "permutation is bijective function from names to names which is the identity on all but finite set of names They form the basis for nominal approaches to binding but can also be useful in general",
           "hierarchy": "Unbound PermM",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.PermM",
           "name": "Perm",
           "package": "unbound",
@@ -6494,6 +6892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.PermM",
           "name": "Perm",
           "package": "unbound",
@@ -6503,6 +6902,7 @@
         },
         "index": {
           "hierarchy": "Unbound PermM",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.PermM",
           "name": "Perm",
           "package": "unbound",
@@ -6516,6 +6916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.PermM",
           "name": "permValid",
           "package": "unbound",
@@ -6525,6 +6926,7 @@
         },
         "index": {
           "hierarchy": "Unbound PermM",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.PermM",
           "name": "permValid",
           "normalized": "Perm a-\u003eBool",
@@ -6541,6 +6943,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious utilities for the Unbound library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.Util",
           "name": "Util",
           "package": "unbound",
@@ -6550,6 +6953,7 @@
         "index": {
           "description": "Various utilities for the Unbound library",
           "hierarchy": "Unbound Util",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.Util",
           "name": "Util",
           "package": "unbound",
@@ -6564,6 +6968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollections are foldable types that support empty, singleton,\n   union, and map operations.  The result of a free variable\n   calculation may be any collection.  Instances are provided for\n   lists, sets, and multisets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.Util",
           "name": "Collection",
           "package": "unbound",
@@ -6573,6 +6978,7 @@
         "index": {
           "description": "Collections are foldable types that support empty singleton union and map operations The result of free variable calculation may be any collection Instances are provided for lists sets and multisets",
           "hierarchy": "Unbound Util",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.Util",
           "name": "Collection",
           "package": "unbound",
@@ -6587,6 +6993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple representation of multisets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.Util",
           "name": "Multiset",
           "package": "unbound",
@@ -6596,6 +7003,7 @@
         "index": {
           "description": "simple representation of multisets",
           "hierarchy": "Unbound Util",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.Util",
           "name": "Multiset",
           "package": "unbound",
@@ -6610,6 +7018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollections must be functorial.  The normal \u003ccode\u003eFunctor\u003c/code\u003e class\n   won't do because of the \u003ccode\u003eOrd\u003c/code\u003e constraint on sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.Util",
           "name": "cmap",
           "package": "unbound",
@@ -6620,6 +7029,7 @@
         "index": {
           "description": "Collections must be functorial The normal Functor class won do because of the Ord constraint on sets",
           "hierarchy": "Unbound Util",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.Util",
           "name": "cmap",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -6634,6 +7044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.Util",
           "name": "disjoint",
           "package": "unbound",
@@ -6643,6 +7054,7 @@
         },
         "index": {
           "hierarchy": "Unbound Util",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.Util",
           "name": "disjoint",
           "normalized": "Set a-\u003eSet a-\u003eBool",
@@ -6658,6 +7070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty collection. Must be the identity for \u003ccode\u003eunion\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.Util",
           "name": "emptyC",
           "package": "unbound",
@@ -6668,6 +7081,7 @@
         "index": {
           "description": "An empty collection Must be the identity for union",
           "hierarchy": "Unbound Util",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.Util",
           "name": "emptyC",
           "package": "unbound",
@@ -6681,6 +7095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the \u003ccode\u003eNothing\u003c/code\u003es from a collection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.Util",
           "name": "filterC",
           "package": "unbound",
@@ -6691,6 +7106,7 @@
         "index": {
           "description": "Remove the Nothing from collection",
           "hierarchy": "Unbound Util",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.Util",
           "name": "filterC",
           "normalized": "a(Maybe b)-\u003ea b",
@@ -6706,6 +7122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a collection from a list of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.Util",
           "name": "fromList",
           "package": "unbound",
@@ -6716,6 +7133,7 @@
         "index": {
           "description": "Create collection from list of elements",
           "hierarchy": "Unbound Util",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.Util",
           "name": "fromList",
           "normalized": "[a]-\u003eb a",
@@ -6732,6 +7150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a singleton collection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.Util",
           "name": "singleton",
           "package": "unbound",
@@ -6742,6 +7161,7 @@
         "index": {
           "description": "Create singleton collection",
           "hierarchy": "Unbound Util",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.Util",
           "name": "singleton",
           "normalized": "a-\u003eb a",
@@ -6757,6 +7177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative combining operation.  The \u003ccode\u003eOrd\u003c/code\u003e constraint is in\n   order to accommodate sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.Util",
           "name": "union",
           "package": "unbound",
@@ -6767,6 +7188,7 @@
         "index": {
           "description": "An associative combining operation The Ord constraint is in order to accommodate sets",
           "hierarchy": "Unbound Util",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.Util",
           "name": "union",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -6782,6 +7204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine a list of containers into one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:02 UTC 2014",
           "module": "Unbound.Util",
           "name": "unions",
           "package": "unbound",
@@ -6792,6 +7215,7 @@
         "index": {
           "description": "Combine list of containers into one",
           "hierarchy": "Unbound Util",
+          "indexed": "2014-03-11T20:29:02",
           "module": "Unbound.Util",
           "name": "unions",
           "normalized": "[a b]-\u003ea b",

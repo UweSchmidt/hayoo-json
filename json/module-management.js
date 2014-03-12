@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "module-management"
+        "phrase": "module-management",
+        "type": "phrase"
       },
       "type": "context"
     }

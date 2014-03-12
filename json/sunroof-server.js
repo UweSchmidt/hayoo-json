@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sunroof-server"
+        "phrase": "sunroof-server",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Sunroof server module provides infrastructure to use\n   Sunroof together with kansas-comet.\n\u003c/p\u003e\u003cp\u003eIt supports setting up a simple server with \u003ccode\u003e\u003ca\u003esunroofServer\u003c/a\u003e\u003c/code\u003e\n   and provides basic functions for serverside communication\n   with the connected website (\u003ccode\u003e\u003ca\u003esyncJS\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003easyncJS\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ersyncJS\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eThis module also provides the abstractions for \u003ccode\u003e\u003ca\u003eDownlink\u003c/a\u003e\u003c/code\u003e\n   and \u003ccode\u003e\u003ca\u003eUplink\u003c/a\u003e\u003c/code\u003e. They represent directed channels for sending data\n   from the server to the website and the other way aroun.\n   The sent data is queued and operations block properly if there\n   is no data available.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "Server",
           "package": "sunroof-server",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The Sunroof server module provides infrastructure to use Sunroof together with kansas-comet It supports setting up simple server with sunroofServer and provides basic functions for serverside communication with the connected website syncJS asyncJS and rsyncJS This module also provides the abstractions for Downlink and Uplink They represent directed channels for sending data from the server to the website and the other way aroun The sent data is queued and operations block properly if there is no data available",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "Server",
           "package": "sunroof-server",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDownlink\u003c/a\u003e\u003c/code\u003es are an abstraction provided for sending\n   Javascript data from the server to the website.\n   The type parameter describes the elements\n   that are transmited through the downlink.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "Downlink",
           "package": "sunroof-server",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Downlink are an abstraction provided for sending Javascript data from the server to the website The type parameter describes the elements that are transmited through the downlink",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "Downlink",
           "package": "sunroof-server",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA comet application takes the engine/document we are currently communicating\n   with and delivers the IO action to be executed as server application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "SunroofApp",
           "package": "sunroof-server",
@@ -74,6 +79,7 @@
         "index": {
           "description": "comet application takes the engine document we are currently communicating with and delivers the IO action to be executed as server application",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "SunroofApp",
           "package": "sunroof-server",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eSunroofEngine\u003c/a\u003e\u003c/code\u003e provides the verbosity level and\n   kansas comet document to the \u003ccode\u003e\u003ca\u003eSunroofApp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "SunroofEngine",
           "package": "sunroof-server",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The SunroofEngine provides the verbosity level and kansas comet document to the SunroofApp",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "SunroofEngine",
           "package": "sunroof-server",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvides correspondant Haskell types for certain Sunroof types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "SunroofResult",
           "package": "sunroof-server",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Provides correspondant Haskell types for certain Sunroof types",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "SunroofResult",
           "package": "sunroof-server",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eSunroofServerOptions\u003c/a\u003e\u003c/code\u003e specify the configuration of the\n   sunroof comet server infrastructure.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003esunroofServer\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eSunroofServerOptions\u003c/a\u003e\u003c/code\u003e for further information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "SunroofServerOptions",
           "package": "sunroof-server",
@@ -143,6 +154,7 @@
         "index": {
           "description": "The SunroofServerOptions specify the configuration of the sunroof comet server infrastructure See sunroofServer and SunroofServerOptions for further information",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "SunroofServerOptions",
           "package": "sunroof-server",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTimings for communication and compilation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "Timings",
           "package": "sunroof-server",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Timings for communication and compilation",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "Timings",
           "package": "sunroof-server",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eUplink\u003c/a\u003e\u003c/code\u003es are an abstraction provided for sending\n   Javascript data from the website back to the server.\n   Only data that can be translated back to a Haskell\n   value can be sent back.\n   The type parameter describes the elements\n   that are transmited through the uplink.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "Uplink",
           "package": "sunroof-server",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Uplink are an abstraction provided for sending Javascript data from the website back to the server Only data that can be translated back to Haskell value can be sent back The type parameter describes the elements that are transmited through the uplink",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "Uplink",
           "package": "sunroof-server",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "SunroofEngine",
           "package": "sunroof-server",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "SunroofEngine",
           "package": "sunroof-server",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "SunroofServerOptions",
           "package": "sunroof-server",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "SunroofServerOptions",
           "package": "sunroof-server",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "Timings",
           "package": "sunroof-server",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "Timings",
           "package": "sunroof-server",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes the Javascript in the browser without waiting for a result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "asyncJS",
           "package": "sunroof-server",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Executes the Javascript in the browser without waiting for result",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "asyncJS",
           "normalized": "SunroofEngine-\u003eJS a()-\u003eIO()",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe document comet uses to manage the connected website.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "cometDocument",
           "package": "sunroof-server",
@@ -305,6 +330,7 @@
         "index": {
           "description": "The document comet uses to manage the connected website",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "cometDocument",
           "package": "sunroof-server",
@@ -319,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe file to be used as index file (or landing page).\n   This path is given relative to the \u003ccode\u003e\u003ca\u003ecometResourceBaseDir\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "cometIndexFile",
           "package": "sunroof-server",
@@ -329,6 +356,7 @@
         "index": {
           "description": "The file to be used as index file or landing page This path is given relative to the cometResourceBaseDir",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "cometIndexFile",
           "package": "sunroof-server",
@@ -343,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvides the kansas comet options to use.\n   Default options are provided with the \u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "cometOptions",
           "package": "sunroof-server",
@@ -353,6 +382,7 @@
         "index": {
           "description": "Provides the kansas comet options to use Default options are provided with the def instance",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "cometOptions",
           "package": "sunroof-server",
@@ -367,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default policy is to allow the \u003ccode\u003ecss\u003c/code\u003e, \u003ccode\u003eimg\u003c/code\u003e and \u003ccode\u003ejs\u003c/code\u003e\n folders to be used by the server, as well as the noDots policy.\n  This policy can be overwritten to allow delivery of other files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "cometPolicy",
           "package": "sunroof-server",
@@ -377,6 +408,7 @@
         "index": {
           "description": "The default policy is to allow the css img and js folders to be used by the server as well as the noDots policy This policy can be overwritten to allow delivery of other files",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "cometPolicy",
           "package": "sunroof-server",
@@ -391,6 +423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe port the server is reachable from.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "cometPort",
           "package": "sunroof-server",
@@ -401,6 +434,7 @@
         "index": {
           "description": "The port the server is reachable from",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "cometPort",
           "package": "sunroof-server",
@@ -415,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWill be used as base directory to search for all static files.\n Make this path absolute to run the server from anywhere.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "cometResourceBaseDir",
           "package": "sunroof-server",
@@ -425,6 +460,7 @@
         "index": {
           "description": "Will be used as base directory to search for all static files Make this path absolute to run the server from anywhere",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "cometResourceBaseDir",
           "package": "sunroof-server",
@@ -439,6 +475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow long spent compiling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "compileTime",
           "package": "sunroof-server",
@@ -449,6 +486,7 @@
         "index": {
           "description": "How long spent compiling",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "compileTime",
           "package": "sunroof-server",
@@ -463,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe options used to setup the compiler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "compilerOpts",
           "package": "sunroof-server",
@@ -473,6 +512,7 @@
         "index": {
           "description": "The options used to setup the compiler",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "compilerOpts",
           "package": "sunroof-server",
@@ -487,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetup a \u003ccode\u003e\u003ca\u003eSunroofEngine\u003c/a\u003e\u003c/code\u003e for debugging.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "debugSunroofEngine",
           "package": "sunroof-server",
@@ -497,6 +538,7 @@
         "index": {
           "description": "Setup SunroofEngine for debugging",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "debugSunroofEngine",
           "package": "sunroof-server",
@@ -511,6 +553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e0\u003c/code\u003e for none, \u003ccode\u003e1\u003c/code\u003e for initializations,\n   \u003ccode\u003e2\u003c/code\u003e for commands done and \u003ccode\u003e3\u003c/code\u003e for a complete log.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "engineVerbose",
           "package": "sunroof-server",
@@ -521,6 +564,7 @@
         "index": {
           "description": "for none for initializations for commands done and for complete log",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "engineVerbose",
           "package": "sunroof-server",
@@ -535,6 +579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest data in the downlink. This may block until\n   data is available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "getDownlink",
           "package": "sunroof-server",
@@ -545,6 +590,7 @@
         "index": {
           "description": "Request data in the downlink This may block until data is available",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "getDownlink",
           "normalized": "Downlink a-\u003eJSB a",
@@ -561,6 +607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet timings from the \u003ccode\u003e\u003ca\u003eSunroofEngine\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "getTimings",
           "package": "sunroof-server",
@@ -571,6 +618,7 @@
         "index": {
           "description": "Get timings from the SunroofEngine",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "getTimings",
           "normalized": "SunroofEngine-\u003eIO(Timings NominalDiffTime)",
@@ -587,6 +635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest data in the uplink. This may block until\n   data is available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "getUplink",
           "package": "sunroof-server",
@@ -597,6 +646,7 @@
         "index": {
           "description": "Request data in the uplink This may block until data is available",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "getUplink",
           "normalized": "Uplink a-\u003eIO(ResultOf a)",
@@ -613,6 +663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a JSON value to a Sunroof Javascript expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "jsonToJS",
           "package": "sunroof-server",
@@ -623,6 +674,7 @@
         "index": {
           "description": "Converts JSON value to Sunroof Javascript expression",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "jsonToJS",
           "normalized": "Value-\u003eExpr",
@@ -639,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts the given JSON value to the corresponding\n   Haskell value. A error is thrown if the JSON value can\n   not be converted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "jsonToValue",
           "package": "sunroof-server",
@@ -649,6 +702,7 @@
         "index": {
           "description": "Converts the given JSON value to the corresponding Haskell value error is thrown if the JSON value can not be converted",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "jsonToValue",
           "normalized": "Proxy a-\u003eValue-\u003eResultOf a",
@@ -665,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new downlink.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "newDownlink",
           "package": "sunroof-server",
@@ -675,6 +730,7 @@
         "index": {
           "description": "Create new downlink",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "newDownlink",
           "normalized": "SunroofEngine-\u003eIO(Downlink a)",
@@ -691,6 +747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate timings in the \u003ccode\u003e\u003ca\u003eSunroofEngine\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "newTimings",
           "package": "sunroof-server",
@@ -701,6 +758,7 @@
         "index": {
           "description": "Create timings in the SunroofEngine",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "newTimings",
           "normalized": "SunroofEngine-\u003eIO SunroofEngine",
@@ -717,6 +775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new uplink.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "newUplink",
           "package": "sunroof-server",
@@ -727,6 +786,7 @@
         "index": {
           "description": "Create new uplink",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "newUplink",
           "normalized": "SunroofEngine-\u003eIO(Uplink a)",
@@ -743,6 +803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend data to the website.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "putDownlink",
           "package": "sunroof-server",
@@ -753,6 +814,7 @@
         "index": {
           "description": "Send data to the website",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "putDownlink",
           "normalized": "Downlink a-\u003eJSA a-\u003eIO()",
@@ -769,6 +831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend Javascript data back to the server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "putUplink",
           "package": "sunroof-server",
@@ -779,6 +842,7 @@
         "index": {
           "description": "Send Javascript data back to the server",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "putUplink",
           "normalized": "a-\u003eUplink a-\u003eJS b()",
@@ -795,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset all timings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "resetTimings",
           "package": "sunroof-server",
@@ -805,6 +870,7 @@
         "index": {
           "description": "Reset all timings",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "resetTimings",
           "normalized": "SunroofEngine-\u003eIO()",
@@ -821,6 +887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes the Javascript in the browser and waits for the result.\n   The returned value is just a reference to the computed value.\n   This allows to precompile values like function in the browser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "rsyncJS",
           "package": "sunroof-server",
@@ -831,6 +898,7 @@
         "index": {
           "description": "Executes the Javascript in the browser and waits for the result The returned value is just reference to the computed value This allows to precompile values like function in the browser",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "rsyncJS",
           "normalized": "SunroofEngine-\u003eJS a b-\u003eIO b",
@@ -847,6 +915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow long spent sending.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "sendTime",
           "package": "sunroof-server",
@@ -857,6 +926,7 @@
         "index": {
           "description": "How long spent sending",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "sendTime",
           "package": "sunroof-server",
@@ -871,6 +941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe set of options to configure the Sunroof compiler.\n   Default options are provided with the \u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "sunroofCompilerOpts",
           "package": "sunroof-server",
@@ -881,6 +952,7 @@
         "index": {
           "description": "The set of options to configure the Sunroof compiler Default options are provided with the def instance",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "sunroofCompilerOpts",
           "package": "sunroof-server",
@@ -895,6 +967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets up a comet server ready to use with sunroof.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003esunroofServer opts app\u003c/code\u003e:\n   The \u003ccode\u003eopts\u003c/code\u003e give various configuration for the comet server.\n   See \u003ccode\u003e\u003ca\u003eSunroofServerOptions\u003c/a\u003e\u003c/code\u003e for further information on this.\n   The application to run is given by \u003ccode\u003eapp\u003c/code\u003e. It takes the current\n   engine/document as parameter. The document is needed for calls to \u003ccode\u003e\u003ca\u003esyncJS\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003easyncJS\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ersyncJS\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe server provides the kansas comet Javascript on the path\n   \u003ccode\u003ejs/kansas-comet.js\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince \u003ccode\u003ekansas-comet.js\u003c/code\u003e is a JQuery plugin you have to also\n   load a decent version of \u003ccode\u003ejquery.js\u003c/code\u003e (or \u003ccode\u003ejquery.min.js\u003c/code\u003e)\n   and also \u003ccode\u003ejquery-json.js\u003c/code\u003e. They are available at:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://jquery.com/\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttps://code.google.com/p/jquery-json/\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eFor the index file to setup the communication correctly with the comet\n   server it has to load the \u003ccode\u003ekansas-comet.js\u003c/code\u003e after the JQuery code\n   inside the \u003ccode\u003ehead\u003c/code\u003e (assuming you placed the JQuery code under \u003ccode\u003ejs/\u003c/code\u003e):\n\u003c/p\u003e\u003cpre\u003e   \u003cscript type=\"text/javascript\" src=\"js/jquery.js\"\u003e\u003c/script\u003e\n   \u003cscript type=\"text/javascript\" src=\"js/jquery-json.js\"\u003e\u003c/script\u003e\n   \u003cscript type=\"text/javascript\" src=\"js/kansas-comet.js\"\u003e\u003c/script\u003e\n\u003c/pre\u003e\u003cp\u003eIt also has to execute the following Javascript at the end of the\n   index file to initialize the communication:\n\u003c/p\u003e\u003cpre\u003e   \u003cscript type=\"text/javascript\"\u003e\n     $(document).ready(function() {\n       $.kc.connect(\"/ajax\");\n     });\n   \u003c/script\u003e\n\u003c/pre\u003e\u003cp\u003eThe string \u003ccode\u003e/ajax\u003c/code\u003e has to be set to whatever the comet prefix\n   in the \u003ccode\u003e\u003ca\u003eOptions\u003c/a\u003e\u003c/code\u003e provided by the \u003ccode\u003e\u003ca\u003eSunroofServerOptions\u003c/a\u003e\u003c/code\u003e is.\n   These snippits will work for the \u003ccode\u003e\u003ca\u003edef\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e\u003cp\u003eAdditional debug information can be displayed in the browser when\n   adding the following element to the index file:\n\u003c/p\u003e\u003cpre\u003e   \u003cdiv id=\"debug-log\"\u003e\u003c/div\u003e\n\u003c/pre\u003e\u003cp\u003eLook into the example folder to see all of this in action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "sunroofServer",
           "package": "sunroof-server",
@@ -905,6 +978,7 @@
         "index": {
           "description": "Sets up comet server ready to use with sunroof sunroofServer opts app The opts give various configuration for the comet server See SunroofServerOptions for further information on this The application to run is given by app It takes the current engine document as parameter The document is needed for calls to syncJS asyncJS and rsyncJS The server provides the kansas comet Javascript on the path js kansas-comet.js Since kansas-comet.js is JQuery plugin you have to also load decent version of jquery.js or jquery.min.js and also jquery-json.js They are available at http jquery.com https code.google.com jquery-json For the index file to setup the communication correctly with the comet server it has to load the kansas-comet.js after the JQuery code inside the head assuming you placed the JQuery code under js script type text javascript src js jquery.js script script type text javascript src js jquery-json.js script script type text javascript src js kansas-comet.js script It also has to execute the following Javascript at the end of the index file to initialize the communication script type text javascript document ready function kc.connect ajax script The string ajax has to be set to whatever the comet prefix in the Options provided by the SunroofServerOptions is These snippits will work for the def instance Additional debug information can be displayed in the browser when adding the following element to the index file div id debug-log div Look into the example folder to see all of this in action",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "sunroofServer",
           "normalized": "SunroofServerOptions-\u003eSunroofApp-\u003eIO()",
@@ -921,6 +995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e0\u003c/code\u003e for none, \u003ccode\u003e1\u003c/code\u003e for initializations,\n   \u003ccode\u003e2\u003c/code\u003e for commands done and \u003ccode\u003e3\u003c/code\u003e for a complete log.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "sunroofVerbose",
           "package": "sunroof-server",
@@ -931,6 +1006,7 @@
         "index": {
           "description": "for none for initializations for commands done and for complete log",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "sunroofVerbose",
           "package": "sunroof-server",
@@ -945,6 +1021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes the Javascript in the browser and waits for the result value.\n   The result value is given the corresponding Haskell type,\n   if possible (see \u003ccode\u003e\u003ca\u003eSunroofResult\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "syncJS",
           "package": "sunroof-server",
@@ -955,6 +1032,7 @@
         "index": {
           "description": "Executes the Javascript in the browser and waits for the result value The result value is given the corresponding Haskell type if possible see SunroofResult",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "syncJS",
           "normalized": "SunroofEngine-\u003eJS a b-\u003eIO(ResultOf b)",
@@ -971,6 +1049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerformance timings of the compiler and communication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "timings",
           "package": "sunroof-server",
@@ -981,6 +1060,7 @@
         "index": {
           "description": "Performance timings of the compiler and communication",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "timings",
           "package": "sunroof-server",
@@ -994,6 +1074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique number supply for our engine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "uVar",
           "package": "sunroof-server",
@@ -1004,6 +1085,7 @@
         "index": {
           "description": "Unique number supply for our engine",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "uVar",
           "package": "sunroof-server",
@@ -1018,6 +1100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow long spent waiting for a response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:13:51 UTC 2014",
           "module": "Language.Sunroof.Server",
           "name": "waitTime",
           "package": "sunroof-server",
@@ -1028,6 +1111,7 @@
         "index": {
           "description": "How long spent waiting for response",
           "hierarchy": "Language Sunroof Server",
+          "indexed": "2014-03-11T20:13:51",
           "module": "Language.Sunroof.Server",
           "name": "waitTime",
           "package": "sunroof-server",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "persistent-hssqlppp"
+        "phrase": "persistent-hssqlppp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:41 UTC 2014",
           "module": "Database.Persist.HsSqlPpp",
           "name": "HsSqlPpp",
           "package": "persistent-hssqlppp",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database Persist HsSqlPpp",
+          "indexed": "2014-03-11T19:37:41",
           "module": "Database.Persist.HsSqlPpp",
           "name": "HsSqlPpp",
           "package": "persistent-hssqlppp",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(SQL query text, entity definition)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:41 UTC 2014",
           "module": "Database.Persist.HsSqlPpp",
           "name": "Query",
           "package": "persistent-hssqlppp",
@@ -49,6 +52,7 @@
         "index": {
           "description": "SQL query text entity definition",
           "hierarchy": "Database Persist HsSqlPpp",
+          "indexed": "2014-03-11T19:37:41",
           "module": "Database.Persist.HsSqlPpp",
           "name": "Query",
           "package": "persistent-hssqlppp",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if given SQL query is safe SELECT query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:41 UTC 2014",
           "module": "Database.Persist.HsSqlPpp",
           "name": "checkSQL",
           "package": "persistent-hssqlppp",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Check if given SQL query is safe SELECT query",
           "hierarchy": "Database Persist HsSqlPpp",
+          "indexed": "2014-03-11T19:37:41",
           "module": "Database.Persist.HsSqlPpp",
           "name": "checkSQL",
           "normalized": "[String]-\u003eString-\u003eEither String QueryExpr",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse SQL entity declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:41 UTC 2014",
           "module": "Database.Persist.HsSqlPpp",
           "name": "parseEntity",
           "package": "persistent-hssqlppp",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Parse SQL entity declaration",
           "hierarchy": "Database Persist HsSqlPpp",
+          "indexed": "2014-03-11T19:37:41",
           "module": "Database.Persist.HsSqlPpp",
           "name": "parseEntity",
           "normalized": "FilePath-\u003eString-\u003eEither String Query",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad entity declaration from file containing SQL query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:41 UTC 2014",
           "module": "Database.Persist.HsSqlPpp",
           "name": "parseEntityFromFile",
           "package": "persistent-hssqlppp",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Load entity declaration from file containing SQL query",
           "hierarchy": "Database Persist HsSqlPpp",
+          "indexed": "2014-03-11T19:37:41",
           "module": "Database.Persist.HsSqlPpp",
           "name": "parseEntityFromFile",
           "normalized": "FilePath-\u003eIO(Either String Query)",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuasi-quoter which parses SQL SELECT queries.\n Example input:\n\u003c/p\u003e\u003cpre\u003e\n   SELECT family, salary FROM employee;\n   --------------------\n   family String\n   salary Int\n\u003c/pre\u003e\u003cp\u003eNB: entity name will be \"Undefined\", so\n you'll need to use record update syntax to\n set name your want, e.g. entity {entityName = \"Query\"}.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:41 UTC 2014",
           "module": "Database.Persist.HsSqlPpp",
           "name": "persistSql",
           "package": "persistent-hssqlppp",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Quasi-quoter which parses SQL SELECT queries Example input SELECT family salary FROM employee family String salary Int NB entity name will be Undefined so you ll need to use record update syntax to set name your want e.g entity entityName Query",
           "hierarchy": "Database Persist HsSqlPpp",
+          "indexed": "2014-03-11T19:37:41",
           "module": "Database.Persist.HsSqlPpp",
           "name": "persistSql",
           "package": "persistent-hssqlppp",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad entity declaration from file containing SQL query.\n TH version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:41 UTC 2014",
           "module": "Database.Persist.HsSqlPpp",
           "name": "persistSqlFile",
           "package": "persistent-hssqlppp",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Load entity declaration from file containing SQL query TH version",
           "hierarchy": "Database Persist HsSqlPpp",
+          "indexed": "2014-03-11T19:37:41",
           "module": "Database.Persist.HsSqlPpp",
           "name": "persistSqlFile",
           "normalized": "FilePath-\u003eQ[Exp]",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect list of records from DB using given SQL query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:41 UTC 2014",
           "module": "Database.Persist.HsSqlPpp",
           "name": "selectFromQuery",
           "package": "persistent-hssqlppp",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Select list of records from DB using given SQL query",
           "hierarchy": "Database Persist HsSqlPpp",
+          "indexed": "2014-03-11T19:37:41",
           "module": "Database.Persist.HsSqlPpp",
           "name": "selectFromQuery",
           "normalized": "QueryExpr-\u003e[Filter a]-\u003eSqlPersist b(Either String[a])",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect list of records from DB using given SQL SELECT query.\n Query is checked for safety (arbitrary function calls,\n complex expressions, etc are not permitted).\n Each row will be represented as [PersistValue].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:41 UTC 2014",
           "module": "Database.Persist.HsSqlPpp",
           "name": "selectFromQuery'",
           "package": "persistent-hssqlppp",
@@ -223,6 +240,7 @@
         "index": {
           "description": "Select list of records from DB using given SQL SELECT query Query is checked for safety arbitrary function calls complex expressions etc are not permitted Each row will be represented as PersistValue",
           "hierarchy": "Database Persist HsSqlPpp",
+          "indexed": "2014-03-11T19:37:41",
           "module": "Database.Persist.HsSqlPpp",
           "name": "selectFromQuery'",
           "normalized": "[String]-\u003eString-\u003eSqlPersist a(Either String([ColumnName],[[PersistValue]]))",

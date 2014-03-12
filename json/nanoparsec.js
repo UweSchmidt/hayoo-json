@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nanoparsec"
+        "phrase": "nanoparsec",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUseful parser combinators, similar to those provided by Parsec.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec.Combinator",
           "name": "Combinator",
           "package": "nanoparsec",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Useful parser combinators similar to those provided by Parsec",
           "hierarchy": "Data Nanoparsec Combinator",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec.Combinator",
           "name": "Combinator",
           "package": "nanoparsec",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003echoice ps\u003c/code\u003e tries to apply the actions in the list \u003ccode\u003eps\u003c/code\u003e in order,\n until one of them succeeds. Returns the value of the succeeding\n action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec.Combinator",
           "name": "choice",
           "package": "nanoparsec",
@@ -52,6 +55,7 @@
         "index": {
           "description": "choice ps tries to apply the actions in the list ps in order until one of them succeeds Returns the value of the succeeding action",
           "hierarchy": "Data Nanoparsec Combinator",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec.Combinator",
           "name": "choice",
           "normalized": "[a b]-\u003ea b",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the given action repeatedly, returning every result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec.Combinator",
           "name": "count",
           "package": "nanoparsec",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Apply the given action repeatedly returning every result",
           "hierarchy": "Data Nanoparsec Combinator",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec.Combinator",
           "name": "count",
           "normalized": "Int-\u003ea b-\u003ea[b]",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two alternatives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec.Combinator",
           "name": "eitherP",
           "package": "nanoparsec",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Combine two alternatives",
           "hierarchy": "Data Nanoparsec Combinator",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec.Combinator",
           "name": "eitherP",
           "normalized": "a b-\u003ea c-\u003ea(Either b c)",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero or more.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec.Combinator",
           "name": "many",
           "package": "nanoparsec",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Zero or more",
           "hierarchy": "Data Nanoparsec Combinator",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec.Combinator",
           "name": "many",
           "normalized": "a b-\u003ea[b]",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emany1 p\u003c/code\u003e applies the action \u003ccode\u003ep\u003c/code\u003e \u003cem\u003eone\u003c/em\u003e or more times. Returns a\n list of the returned values of \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e  word  = many1 letter\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec.Combinator",
           "name": "many1",
           "package": "nanoparsec",
@@ -152,6 +163,7 @@
         "index": {
           "description": "many1 applies the action one or more times Returns list of the returned values of word many1 letter",
           "hierarchy": "Data Nanoparsec Combinator",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec.Combinator",
           "name": "many1",
           "normalized": "a b-\u003ea[b]",
@@ -166,6 +178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec.Combinator",
           "name": "manyTill",
           "package": "nanoparsec",
@@ -175,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Data Nanoparsec Combinator",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec.Combinator",
           "name": "manyTill",
           "normalized": "a b-\u003ea c-\u003ea[b]",
@@ -191,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eoption x p\u003c/code\u003e tries to apply action \u003ccode\u003ep\u003c/code\u003e. If \u003ccode\u003ep\u003c/code\u003e fails without\n consuming input, it returns the value \u003ccode\u003ex\u003c/code\u003e, otherwise the value\n returned by \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e priority  = option 0 (digitToInt \u003c$\u003e digit)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec.Combinator",
           "name": "option",
           "package": "nanoparsec",
@@ -201,6 +216,7 @@
         "index": {
           "description": "option tries to apply action If fails without consuming input it returns the value otherwise the value returned by priority option digitToInt digit",
           "hierarchy": "Data Nanoparsec Combinator",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec.Combinator",
           "name": "option",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -216,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esepBy p sep\u003c/code\u003e applies \u003cem\u003ezero\u003c/em\u003e or more occurrences of \u003ccode\u003ep\u003c/code\u003e, separated\n by \u003ccode\u003esep\u003c/code\u003e. Returns a list of the values returned by \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e commaSep p  = p `sepBy` (symbol \",\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec.Combinator",
           "name": "sepBy",
           "package": "nanoparsec",
@@ -226,6 +243,7 @@
         "index": {
           "description": "sepBy sep applies zero or more occurrences of separated by sep Returns list of the values returned by commaSep sepBy symbol",
           "hierarchy": "Data Nanoparsec Combinator",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec.Combinator",
           "name": "sepBy",
           "normalized": "a b-\u003ea c-\u003ea[b]",
@@ -242,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esepBy1 p sep\u003c/code\u003e applies \u003cem\u003eone\u003c/em\u003e or more occurrences of \u003ccode\u003ep\u003c/code\u003e, separated\n by \u003ccode\u003esep\u003c/code\u003e. Returns a list of the values returned by \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e commaSep p  = p `sepBy` (symbol \",\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec.Combinator",
           "name": "sepBy1",
           "package": "nanoparsec",
@@ -252,6 +271,7 @@
         "index": {
           "description": "sepBy1 sep applies one or more occurrences of separated by sep Returns list of the values returned by commaSep sepBy symbol",
           "hierarchy": "Data Nanoparsec Combinator",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec.Combinator",
           "name": "sepBy1",
           "normalized": "a b-\u003ea c-\u003ea[b]",
@@ -267,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec.Combinator",
           "name": "skipMany",
           "package": "nanoparsec",
@@ -276,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Data Nanoparsec Combinator",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec.Combinator",
           "name": "skipMany",
           "normalized": "a b-\u003ea()",
@@ -291,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec.Combinator",
           "name": "skipMany1",
           "package": "nanoparsec",
@@ -300,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Data Nanoparsec Combinator",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec.Combinator",
           "name": "skipMany1",
           "normalized": "a b-\u003ea()",
@@ -316,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple, efficient combinator parsing for \u003ccode\u003eLL.ListLike\u003c/code\u003e lists based on\nAttoparsec library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "Nanoparsec",
           "package": "nanoparsec",
@@ -325,6 +350,7 @@
         "index": {
           "description": "Simple efficient combinator parsing for LL.ListLike lists based on Attoparsec library",
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "Nanoparsec",
           "package": "nanoparsec",
@@ -338,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "Parser",
           "package": "nanoparsec",
@@ -346,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "Parser",
           "package": "nanoparsec",
@@ -359,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "Result",
           "package": "nanoparsec",
@@ -367,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "Result",
           "package": "nanoparsec",
@@ -381,6 +411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003eApplicative\u003c/code\u003e's \u003ccode\u003e\u003c*\u003c/code\u003e but specialized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "(\u003c*.)",
           "package": "nanoparsec",
@@ -391,6 +422,7 @@
         "index": {
           "description": "Same as Applicative but specialized",
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "(\u003c*.) \u003c*.",
           "normalized": "Parser a b-\u003eParser a a-\u003eParser a b",
@@ -406,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch either a single newline character \u003ccode\u003e'\\n'\u003c/code\u003e, or a carriage\n return followed by a newline character \u003ccode\u003e\"\\r\\n\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "(\u003c?\u003e)",
           "package": "nanoparsec",
@@ -416,6 +449,7 @@
         "index": {
           "description": "Match either single newline character or carriage return followed by newline character",
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "(\u003c?\u003e) \u003c?\u003e",
           "normalized": "Parser a b-\u003eString-\u003eParser a b",
@@ -431,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003eApplicative\u003c/code\u003e's \u003ccode\u003e*\u003e\u003c/code\u003e but specialized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "(.*\u003e)",
           "package": "nanoparsec",
@@ -441,6 +476,7 @@
         "index": {
           "description": "Same as Applicative but specialized",
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "(.*\u003e) .*\u003e",
           "normalized": "Parser a a-\u003eParser a b-\u003eParser a b",
@@ -455,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "Done",
           "package": "nanoparsec",
@@ -464,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "Done",
           "package": "nanoparsec",
@@ -477,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "Fail",
           "package": "nanoparsec",
@@ -486,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "Fail",
           "normalized": "Fail a[String]String",
@@ -501,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "Partial",
           "package": "nanoparsec",
@@ -510,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "Partial",
           "normalized": "Partial(a-\u003eResult a b)",
@@ -525,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "anyElem",
           "package": "nanoparsec",
@@ -534,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "anyElem",
           "package": "nanoparsec",
@@ -548,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e value to an \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e value. A \u003ccode\u003e\u003ca\u003ePartial\u003c/a\u003e\u003c/code\u003e result\n is treated as failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "eitherResult",
           "package": "nanoparsec",
@@ -558,6 +603,7 @@
         "index": {
           "description": "Convert Result value to an Either value Partial result is treated as failure",
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "eitherResult",
           "normalized": "Result a b-\u003eEither String b",
@@ -573,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "elem",
           "package": "nanoparsec",
@@ -582,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "elem",
           "normalized": "a-\u003eParser b a",
@@ -597,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch only if all input has been consumed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "endOfInput",
           "package": "nanoparsec",
@@ -607,6 +656,7 @@
         "index": {
           "description": "Match only if all input has been consumed",
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "endOfInput",
           "normalized": "Parser a()",
@@ -623,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSucceed only if at least \u003ccode\u003en\u003c/code\u003e elements of input are available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "ensure",
           "package": "nanoparsec",
@@ -633,6 +684,7 @@
         "index": {
           "description": "Succeed only if at least elements of input are available",
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "ensure",
           "normalized": "Int-\u003eParser a()",
@@ -647,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "feed",
           "package": "nanoparsec",
@@ -656,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "feed",
           "normalized": "Result a b-\u003ea-\u003eResult a b",
@@ -671,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e value to a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e value. A \u003ccode\u003e\u003ca\u003ePartial\u003c/a\u003e\u003c/code\u003e result\n is treated as failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "maybeResult",
           "package": "nanoparsec",
@@ -681,6 +736,7 @@
         "index": {
           "description": "Convert Result value to Maybe value Partial result is treated as failure",
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "maybeResult",
           "normalized": "Result a b-\u003eMaybe b",
@@ -697,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a parser and return its result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "parse",
           "package": "nanoparsec",
@@ -707,6 +764,7 @@
         "index": {
           "description": "Run parser and return its result",
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "parse",
           "normalized": "Parser a b-\u003ea-\u003eResult a b",
@@ -722,6 +780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a parser and print its result to standard output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "parseTest",
           "package": "nanoparsec",
@@ -732,6 +791,7 @@
         "index": {
           "description": "Run parser and print its result to standard output",
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "parseTest",
           "normalized": "Parser a b-\u003ea-\u003eIO()",
@@ -748,6 +808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a parser with an initial input string, and a monadic action\n that can supply more input if needed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "parseWith",
           "package": "nanoparsec",
@@ -757,6 +818,7 @@
         "index": {
           "description": "Run parser with an initial input string and monadic action that can supply more input if needed",
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "parseWith",
           "normalized": "a b-\u003eParser b c-\u003eb-\u003ea(Result b c)",
@@ -773,6 +835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parser \u003ccode\u003esatisfy p\u003c/code\u003e succeeds for any element for which the\n predicate \u003ccode\u003ep\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e. Returns the element that is actually\n parsed.\n\u003c/p\u003e\u003cpre\u003edigit = satisfy isDigit\n    where isDigit w = w \u003e= 48 && w \u003c= 57\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "satisfy",
           "package": "nanoparsec",
@@ -783,6 +846,7 @@
         "index": {
           "description": "The parser satisfy succeeds for any element for which the predicate returns True Returns the element that is actually parsed digit satisfy isDigit where isDigit",
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "satisfy",
           "normalized": "(a-\u003eBool)-\u003eParser b a",
@@ -798,6 +862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parser \u003ccode\u003esatisfyWith f p\u003c/code\u003e transforms an element, and succeeds if\n the predicate \u003ccode\u003ep\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e on the transformed value. The\n parser returns the transformed element that was parsed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "satisfyWith",
           "package": "nanoparsec",
@@ -808,6 +873,7 @@
         "index": {
           "description": "The parser satisfyWith transforms an element and succeeds if the predicate returns True on the transformed value The parser returns the transformed element that was parsed",
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "satisfyWith",
           "normalized": "(a-\u003eb)-\u003e(b-\u003eBool)-\u003eParser c b",
@@ -824,6 +890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parser \u003ccode\u003eskip p\u003c/code\u003e succeeds for any element for which the predicate\n \u003ccode\u003ep\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003espace = skip isSpace\n    where isDigit w = w == 9 || w == 10 || w == 13 || w == 32\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "skip",
           "package": "nanoparsec",
@@ -834,6 +901,7 @@
         "index": {
           "description": "The parser skip succeeds for any element for which the predicate returns True space skip isSpace where isDigit",
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "skip",
           "normalized": "(a-\u003eBool)-\u003eParser b()",
@@ -848,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "skipWhile",
           "package": "nanoparsec",
@@ -857,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "skipWhile",
           "normalized": "(a-\u003eBool)-\u003eParser b()",
@@ -873,6 +943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003estring s\u003c/code\u003e parses a sequence of elements that identically match\n \u003ccode\u003es\u003c/code\u003e. Returns the parsed string (i.e. \u003ccode\u003es\u003c/code\u003e).  This parser consumes no\n input if it fails (even if a partial match).\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: The behaviour of this parser is different to that of the\n similarly-named parser in Parsec, as this one is all-or-nothing.\n To illustrate the difference, the following parser will fail under\n Parsec given an input of \u003ccode\u003e\u003ca\u003efor\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003estring \"foo\" \u003c|\u003e string \"for\"\n\u003c/pre\u003e\u003cp\u003eThe reason for its failure is that that the first branch is a\n partial match, and will consume the letters \u003ccode\u003e'f'\u003c/code\u003e and \u003ccode\u003e'o'\u003c/code\u003e\n before failing.  In Nnaoparsec, the above parser will \u003cem\u003esucceed\u003c/em\u003e on\n that input, because the failed first branch will consume nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "string",
           "package": "nanoparsec",
@@ -883,6 +954,7 @@
         "index": {
           "description": "string parses sequence of elements that identically match Returns the parsed string i.e This parser consumes no input if it fails even if partial match Note The behaviour of this parser is different to that of the similarly-named parser in Parsec as this one is all-or-nothing To illustrate the difference the following parser will fail under Parsec given an input of for string foo string for The reason for its failure is that that the first branch is partial match and will consume the letters and before failing In Nnaoparsec the above parser will succeed on that input because the failed first branch will consume nothing",
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "string",
           "normalized": "a-\u003eParser a a",
@@ -898,6 +970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume exactly \u003ccode\u003en\u003c/code\u003e elements of input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "take",
           "package": "nanoparsec",
@@ -908,6 +981,7 @@
         "index": {
           "description": "Consume exactly elements of input",
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "take",
           "normalized": "Int-\u003eParser a a",
@@ -923,6 +997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume input as long as the predicate returns \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\n (i.e. until it returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e), and return the consumed input.\n\u003c/p\u003e\u003cp\u003eThis parser does not fail.  It will return an empty string if the\n predicate returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e on the first element of input.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: Because this parser does not fail, do not use it with\n combinators such as \u003ccode\u003e\u003ca\u003emany\u003c/a\u003e\u003c/code\u003e, because such parsers loop until a\n failure occurs.  Careless use will thus result in an infinite loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "takeTill",
           "package": "nanoparsec",
@@ -933,6 +1008,7 @@
         "index": {
           "description": "Consume input as long as the predicate returns False i.e until it returns True and return the consumed input This parser does not fail It will return an empty string if the predicate returns True on the first element of input Note Because this parser does not fail do not use it with combinators such as many because such parsers loop until failure occurs Careless use will thus result in an infinite loop",
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "takeTill",
           "normalized": "(a-\u003eBool)-\u003eParser b b",
@@ -949,6 +1025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume input as long as the predicate returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, and return\n the consumed input.\n\u003c/p\u003e\u003cp\u003eThis parser does not fail.  It will return an empty string if the\n predicate returns \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e on the first element of input.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: Because this parser does not fail, do not use it with\n combinators such as \u003ccode\u003e\u003ca\u003emany\u003c/a\u003e\u003c/code\u003e, because such parsers loop until a\n failure occurs.  Careless use will thus result in an infinite loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "takeWhile",
           "package": "nanoparsec",
@@ -959,6 +1036,7 @@
         "index": {
           "description": "Consume input as long as the predicate returns True and return the consumed input This parser does not fail It will return an empty string if the predicate returns False on the first element of input Note Because this parser does not fail do not use it with combinators such as many because such parsers loop until failure occurs Careless use will thus result in an infinite loop",
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "takeWhile",
           "normalized": "(a-\u003eBool)-\u003eParser b b",
@@ -975,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume input as long as the predicate returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, and return\n the consumed input.\n\u003c/p\u003e\u003cp\u003eThis parser requires the predicate to succeed on at least one element\n of input: it will fail if the predicate never returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e or if\n there is no input left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "takeWhile1",
           "package": "nanoparsec",
@@ -985,6 +1064,7 @@
         "index": {
           "description": "Consume input as long as the predicate returns True and return the consumed input This parser requires the predicate to succeed on at least one element of input it will fail if the predicate never returns True or if there is no input left",
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "takeWhile1",
           "normalized": "(a-\u003eBool)-\u003eParser b b",
@@ -1001,6 +1081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt a parse, and if it fails, rewind the input so that no\n input appears to have been consumed.\n\u003c/p\u003e\u003cp\u003eThis combinator is useful in cases where a parser might consume\n some input before failing, i.e. the parser needs arbitrary\n lookahead.  The downside to using this combinator is that it can\n retain input for longer than is desirable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:01 UTC 2014",
           "module": "Data.Nanoparsec",
           "name": "try",
           "package": "nanoparsec",
@@ -1011,6 +1092,7 @@
         "index": {
           "description": "Attempt parse and if it fails rewind the input so that no input appears to have been consumed This combinator is useful in cases where parser might consume some input before failing i.e the parser needs arbitrary lookahead The downside to using this combinator is that it can retain input for longer than is desirable",
           "hierarchy": "Data Nanoparsec",
+          "indexed": "2014-03-11T19:26:01",
           "module": "Data.Nanoparsec",
           "name": "try",
           "normalized": "Parser a b-\u003eParser a b",

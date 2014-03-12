@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "generic-deriving"
+        "phrase": "generic-deriving",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Base",
           "name": "Base",
           "package": "generic-deriving",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Base",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Base",
           "name": "Base",
           "package": "generic-deriving",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Return the name of all the constructors of a type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.ConNames",
           "name": "ConNames",
           "package": "generic-deriving",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Summary Return the name of all the constructors of type",
           "hierarchy": "Generics Deriving ConNames",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.ConNames",
           "name": "ConNames",
           "package": "generic-deriving",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.ConNames",
           "name": "ConNames",
           "package": "generic-deriving",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving ConNames",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.ConNames",
           "name": "ConNames",
           "package": "generic-deriving",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the name of all the constructors of the type of the given term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.ConNames",
           "name": "conNames",
           "package": "generic-deriving",
@@ -94,6 +101,7 @@
         "index": {
           "description": "Return the name of all the constructors of the type of the given term",
           "hierarchy": "Generics Deriving ConNames",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.ConNames",
           "name": "conNames",
           "normalized": "a-\u003e[String]",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.ConNames",
           "name": "gconNames",
           "package": "generic-deriving",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving ConNames",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.ConNames",
           "name": "gconNames",
           "normalized": "a b-\u003e[String]",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Copoint",
           "name": "Copoint",
           "package": "generic-deriving",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Copoint",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Copoint",
           "name": "Copoint",
           "package": "generic-deriving",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Copoint",
           "name": "GCopoint",
           "package": "generic-deriving",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Copoint",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Copoint",
           "name": "GCopoint",
           "package": "generic-deriving",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Copoint",
           "name": "gcopoint",
           "package": "generic-deriving",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Copoint",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Copoint",
           "name": "gcopoint",
           "normalized": "a b-\u003eb",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Copoint",
           "name": "gcopointdefault",
           "package": "generic-deriving",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Copoint",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Copoint",
           "name": "gcopointdefault",
           "normalized": "a b-\u003eb",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Enum",
           "name": "Enum",
           "package": "generic-deriving",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Enum",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Enum",
           "name": "Enum",
           "package": "generic-deriving",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Enum",
           "name": "GEnum",
           "package": "generic-deriving",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Enum",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Enum",
           "name": "GEnum",
           "package": "generic-deriving",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Enum",
           "name": "GIx",
           "package": "generic-deriving",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Enum",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Enum",
           "name": "GIx",
           "package": "generic-deriving",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Enum",
           "name": "fromEnumDefault",
           "package": "generic-deriving",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Enum",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Enum",
           "name": "fromEnumDefault",
           "normalized": "a-\u003eInt",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Enum",
           "name": "genum",
           "package": "generic-deriving",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Enum",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Enum",
           "name": "genum",
           "normalized": "[a]",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Enum",
           "name": "genumDefault",
           "package": "generic-deriving",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Enum",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Enum",
           "name": "genumDefault",
           "normalized": "[a]",
@@ -356,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e the given subscript lies in the range defined\n the bounding pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Enum",
           "name": "inRange",
           "package": "generic-deriving",
@@ -366,6 +397,7 @@
         "index": {
           "description": "Returns True the given subscript lies in the range defined the bounding pair",
           "hierarchy": "Generics Deriving Enum",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Enum",
           "name": "inRange",
           "normalized": "(a,a)-\u003ea-\u003eBool",
@@ -381,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Enum",
           "name": "inRangeDefault",
           "package": "generic-deriving",
@@ -390,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Enum",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Enum",
           "name": "inRangeDefault",
           "normalized": "(a,a)-\u003ea-\u003eBool",
@@ -406,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe position of a subscript in the subrange.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Enum",
           "name": "index",
           "package": "generic-deriving",
@@ -416,6 +451,7 @@
         "index": {
           "description": "The position of subscript in the subrange",
           "hierarchy": "Generics Deriving Enum",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Enum",
           "name": "index",
           "normalized": "(a,a)-\u003ea-\u003eInt",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Enum",
           "name": "indexDefault",
           "package": "generic-deriving",
@@ -439,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Enum",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Enum",
           "name": "indexDefault",
           "normalized": "(a,a)-\u003ea-\u003eInt",
@@ -455,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of values in the subrange defined by a bounding pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Enum",
           "name": "range",
           "package": "generic-deriving",
@@ -465,6 +504,7 @@
         "index": {
           "description": "The list of values in the subrange defined by bounding pair",
           "hierarchy": "Generics Deriving Enum",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Enum",
           "name": "range",
           "normalized": "(a,a)-\u003e[a]",
@@ -479,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Enum",
           "name": "rangeDefault",
           "package": "generic-deriving",
@@ -488,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Enum",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Enum",
           "name": "rangeDefault",
           "normalized": "(a,a)-\u003e[a]",
@@ -503,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Enum",
           "name": "toEnumDefault",
           "package": "generic-deriving",
@@ -512,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Enum",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Enum",
           "name": "toEnumDefault",
           "normalized": "Int-\u003ea",
@@ -527,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Eq",
           "name": "Eq",
           "package": "generic-deriving",
@@ -535,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Eq",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Eq",
           "name": "Eq",
           "package": "generic-deriving",
@@ -548,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Eq",
           "name": "GEq",
           "package": "generic-deriving",
@@ -556,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Eq",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Eq",
           "name": "GEq",
           "package": "generic-deriving",
@@ -569,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Eq",
           "name": "geq",
           "package": "generic-deriving",
@@ -578,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Eq",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Eq",
           "name": "geq",
           "normalized": "a-\u003ea-\u003eBool",
@@ -592,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "Foldable",
           "package": "generic-deriving",
@@ -600,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "Foldable",
           "package": "generic-deriving",
@@ -613,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "GFoldable",
           "package": "generic-deriving",
@@ -621,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "GFoldable",
           "package": "generic-deriving",
@@ -634,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gall",
           "package": "generic-deriving",
@@ -643,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gall",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eBool",
@@ -657,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gand",
           "package": "generic-deriving",
@@ -666,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gand",
           "normalized": "a Bool-\u003eBool",
@@ -680,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gany",
           "package": "generic-deriving",
@@ -689,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gany",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eBool",
@@ -703,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gconcat",
           "package": "generic-deriving",
@@ -712,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gconcat",
           "normalized": "a[b]-\u003e[b]",
@@ -726,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gconcatMap",
           "package": "generic-deriving",
@@ -735,6 +798,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gconcatMap",
           "normalized": "(a-\u003e[b])-\u003ec a-\u003e[b]",
@@ -750,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gelem",
           "package": "generic-deriving",
@@ -759,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gelem",
           "normalized": "a-\u003eb a-\u003eBool",
@@ -773,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gfind",
           "package": "generic-deriving",
@@ -782,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gfind",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eMaybe a",
@@ -796,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gfold",
           "package": "generic-deriving",
@@ -805,6 +874,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gfold",
           "normalized": "a b-\u003eb",
@@ -819,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gfoldMap",
           "package": "generic-deriving",
@@ -828,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gfoldMap",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -843,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gfoldMapdefault",
           "package": "generic-deriving",
@@ -852,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gfoldMapdefault",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -867,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gfoldl",
           "package": "generic-deriving",
@@ -876,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gfoldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec b-\u003ea",
@@ -890,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gfoldl'",
           "package": "generic-deriving",
@@ -899,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gfoldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec b-\u003ea",
@@ -913,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gfoldl1",
           "package": "generic-deriving",
@@ -922,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gfoldl1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003ea",
@@ -936,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gfoldr",
           "package": "generic-deriving",
@@ -945,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gfoldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec a-\u003eb",
@@ -959,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gfoldr'",
           "package": "generic-deriving",
@@ -968,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gfoldr'",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec a-\u003eb",
@@ -982,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gfoldr1",
           "package": "generic-deriving",
@@ -991,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gfoldr1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003ea",
@@ -1005,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gmaximum",
           "package": "generic-deriving",
@@ -1014,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gmaximum",
           "normalized": "a b-\u003eb",
@@ -1028,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gmaximumBy",
           "package": "generic-deriving",
@@ -1037,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gmaximumBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eb a-\u003ea",
@@ -1052,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gminimum",
           "package": "generic-deriving",
@@ -1061,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gminimum",
           "normalized": "a b-\u003eb",
@@ -1075,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gminimumBy",
           "package": "generic-deriving",
@@ -1084,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gminimumBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eb a-\u003ea",
@@ -1099,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gnotElem",
           "package": "generic-deriving",
@@ -1108,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gnotElem",
           "normalized": "a-\u003eb a-\u003eBool",
@@ -1123,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gor",
           "package": "generic-deriving",
@@ -1132,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gor",
           "normalized": "a Bool-\u003eBool",
@@ -1146,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gproduct",
           "package": "generic-deriving",
@@ -1155,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gproduct",
           "normalized": "a b-\u003eb",
@@ -1169,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gsum",
           "package": "generic-deriving",
@@ -1178,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gsum",
           "normalized": "a b-\u003eb",
@@ -1192,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Foldable",
           "name": "gtoList",
           "package": "generic-deriving",
@@ -1201,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Foldable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Foldable",
           "name": "gtoList",
           "normalized": "a b-\u003e[b]",
@@ -1216,6 +1320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Functor",
           "name": "Functor",
           "package": "generic-deriving",
@@ -1224,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Functor",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Functor",
           "name": "Functor",
           "package": "generic-deriving",
@@ -1237,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Functor",
           "name": "GFunctor",
           "package": "generic-deriving",
@@ -1245,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Functor",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Functor",
           "name": "GFunctor",
           "package": "generic-deriving",
@@ -1258,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Functor",
           "name": "gmap",
           "package": "generic-deriving",
@@ -1267,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Functor",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Functor",
           "name": "gmap",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -1281,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Functor",
           "name": "gmapdefault",
           "package": "generic-deriving",
@@ -1290,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Functor",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Functor",
           "name": "gmapdefault",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -1304,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Instances",
           "name": "Instances",
           "package": "generic-deriving",
@@ -1312,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Instances",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Instances",
           "name": "Instances",
           "package": "generic-deriving",
@@ -1326,6 +1440,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides two main features:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eGMonoid\u003c/a\u003e\u003c/code\u003e, a generic version of the \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e type class, including instances\n     of the types from \u003ca\u003eData.Monoid\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e Default generic definitions for the \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e methods \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eThe generic defaults only work for types without alternatives (i.e. they have\n only one constructor). We cannot in general know how to deal with different\n constructors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Monoid",
           "name": "Monoid",
           "package": "generic-deriving",
@@ -1335,6 +1450,7 @@
         "index": {
           "description": "This module provides two main features GMonoid generic version of the Monoid type class including instances of the types from Data.Monoid Default generic definitions for the Monoid methods mempty and mappend The generic defaults only work for types without alternatives i.e they have only one constructor We cannot in general know how to deal with different constructors",
           "hierarchy": "Generics Deriving Monoid",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Monoid",
           "name": "Monoid",
           "package": "generic-deriving",
@@ -1348,6 +1464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Monoid",
           "name": "GMonoid",
           "package": "generic-deriving",
@@ -1356,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Monoid",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Monoid",
           "name": "GMonoid",
           "package": "generic-deriving",
@@ -1370,6 +1488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Monoid",
           "name": "gmappend",
           "package": "generic-deriving",
@@ -1380,6 +1499,7 @@
         "index": {
           "description": "Generic mappend",
           "hierarchy": "Generics Deriving Monoid",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Monoid",
           "name": "gmappend",
           "normalized": "a-\u003ea-\u003ea",
@@ -1394,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Monoid",
           "name": "gmappenddefault",
           "package": "generic-deriving",
@@ -1403,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Monoid",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Monoid",
           "name": "gmappenddefault",
           "normalized": "a-\u003ea-\u003ea",
@@ -1418,6 +1540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric \u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Monoid",
           "name": "gmconcat",
           "package": "generic-deriving",
@@ -1428,6 +1551,7 @@
         "index": {
           "description": "Generic mconcat",
           "hierarchy": "Generics Deriving Monoid",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Monoid",
           "name": "gmconcat",
           "normalized": "[a]-\u003ea",
@@ -1443,6 +1567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Monoid",
           "name": "gmempty",
           "package": "generic-deriving",
@@ -1453,6 +1578,7 @@
         "index": {
           "description": "Generic mempty",
           "hierarchy": "Generics Deriving Monoid",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Monoid",
           "name": "gmempty",
           "package": "generic-deriving",
@@ -1465,6 +1591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Monoid",
           "name": "gmemptydefault",
           "package": "generic-deriving",
@@ -1474,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Monoid",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Monoid",
           "name": "gmemptydefault",
           "package": "generic-deriving",
@@ -1486,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Monoid",
           "name": "mappenddefault",
           "package": "generic-deriving",
@@ -1495,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Monoid",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Monoid",
           "name": "mappenddefault",
           "normalized": "a-\u003ea-\u003ea",
@@ -1509,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Monoid",
           "name": "memptydefault",
           "package": "generic-deriving",
@@ -1518,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Monoid",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Monoid",
           "name": "memptydefault",
           "package": "generic-deriving",
@@ -1530,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Show",
           "name": "Show",
           "package": "generic-deriving",
@@ -1538,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Show",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Show",
           "name": "Show",
           "package": "generic-deriving",
@@ -1551,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Show",
           "name": "GShow",
           "package": "generic-deriving",
@@ -1559,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Show",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Show",
           "name": "GShow",
           "package": "generic-deriving",
@@ -1572,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Show",
           "name": "gshow",
           "package": "generic-deriving",
@@ -1581,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Show",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Show",
           "name": "gshow",
           "normalized": "a-\u003eString",
@@ -1595,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Show",
           "name": "gshows",
           "package": "generic-deriving",
@@ -1604,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Show",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Show",
           "name": "gshows",
           "normalized": "a-\u003eShowS",
@@ -1618,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Show",
           "name": "gshowsPrec",
           "package": "generic-deriving",
@@ -1627,6 +1768,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Show",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Show",
           "name": "gshowsPrec",
           "normalized": "Int-\u003ea-\u003eShowS",
@@ -1642,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Show",
           "name": "gshowsPrecdefault",
           "package": "generic-deriving",
@@ -1651,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Show",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Show",
           "name": "gshowsPrecdefault",
           "normalized": "Int-\u003ea-\u003eShowS",
@@ -1667,6 +1811,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains Template Haskell code that can be used to\n automatically generate the boilerplate code for the generic deriving\n library. For now, it generates only the \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e instance.\n Empty datatypes are not yet supported.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.TH",
           "name": "TH",
           "package": "generic-deriving",
@@ -1676,6 +1821,7 @@
         "index": {
           "description": "This module contains Template Haskell code that can be used to automatically generate the boilerplate code for the generic deriving library For now it generates only the Generic instance Empty datatypes are not yet supported",
           "hierarchy": "Generics Deriving TH",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.TH",
           "name": "TH",
           "package": "generic-deriving",
@@ -1690,6 +1836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a datatype name, derive datatypes and \n instances of class \u003ccode\u003e\u003ca\u003eConstructor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.TH",
           "name": "deriveConstructors",
           "package": "generic-deriving",
@@ -1700,6 +1847,7 @@
         "index": {
           "description": "Given datatype name derive datatypes and instances of class Constructor",
           "hierarchy": "Generics Deriving TH",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.TH",
           "name": "deriveConstructors",
           "normalized": "Name-\u003eQ[Dec]",
@@ -1716,6 +1864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a datatype name, derive a datatype and instance of class \u003ccode\u003e\u003ca\u003eDatatype\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.TH",
           "name": "deriveData",
           "package": "generic-deriving",
@@ -1726,6 +1875,7 @@
         "index": {
           "description": "Given datatype name derive datatype and instance of class Datatype",
           "hierarchy": "Generics Deriving TH",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.TH",
           "name": "deriveData",
           "normalized": "Name-\u003eQ[Dec]",
@@ -1742,6 +1892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the type and the name (as string) for the type to derive,\n generate the \u003ccode\u003eData\u003c/code\u003e instance, the \u003ccode\u003e\u003ca\u003eConstructor\u003c/a\u003e\u003c/code\u003e instances, and the \u003ccode\u003e\u003ca\u003eSelector\u003c/a\u003e\u003c/code\u003e\n instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.TH",
           "name": "deriveMeta",
           "package": "generic-deriving",
@@ -1752,6 +1903,7 @@
         "index": {
           "description": "Given the type and the name as string for the type to derive generate the Data instance the Constructor instances and the Selector instances",
           "hierarchy": "Generics Deriving TH",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.TH",
           "name": "deriveMeta",
           "normalized": "Name-\u003eQ[Dec]",
@@ -1768,6 +1920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a datatype name, derive datatypes and instances of class \u003ccode\u003e\u003ca\u003eSelector\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.TH",
           "name": "deriveSelectors",
           "package": "generic-deriving",
@@ -1778,6 +1931,7 @@
         "index": {
           "description": "Given datatype name derive datatypes and instances of class Selector",
           "hierarchy": "Generics Deriving TH",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.TH",
           "name": "deriveSelectors",
           "normalized": "Name-\u003eQ[Dec]",
@@ -1793,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Traversable",
           "name": "Traversable",
           "package": "generic-deriving",
@@ -1801,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Traversable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Traversable",
           "name": "Traversable",
           "package": "generic-deriving",
@@ -1814,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Traversable",
           "name": "GTraversable",
           "package": "generic-deriving",
@@ -1822,6 +1979,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Traversable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Traversable",
           "name": "GTraversable",
           "package": "generic-deriving",
@@ -1835,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Traversable",
           "name": "gmapM",
           "package": "generic-deriving",
@@ -1844,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Traversable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Traversable",
           "name": "gmapM",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb(d c)",
@@ -1858,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Traversable",
           "name": "gsequence",
           "package": "generic-deriving",
@@ -1867,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Traversable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Traversable",
           "name": "gsequence",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -1881,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Traversable",
           "name": "gsequenceA",
           "package": "generic-deriving",
@@ -1890,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Traversable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Traversable",
           "name": "gsequenceA",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -1904,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Traversable",
           "name": "gtraverse",
           "package": "generic-deriving",
@@ -1913,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Traversable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Traversable",
           "name": "gtraverse",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb(d c)",
@@ -1927,6 +2093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Traversable",
           "name": "gtraversedefault",
           "package": "generic-deriving",
@@ -1936,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Traversable",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Traversable",
           "name": "gtraversedefault",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb(d c)",
@@ -1951,6 +2119,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSummary: Functions inspired by the Uniplate generic programming library,\n mostly implemented by Sean Leather.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Uniplate",
           "name": "Uniplate",
           "package": "generic-deriving",
@@ -1960,6 +2129,7 @@
         "index": {
           "description": "Summary Functions inspired by the Uniplate generic programming library mostly implemented by Sean Leather",
           "hierarchy": "Generics Deriving Uniplate",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Uniplate",
           "name": "Uniplate",
           "package": "generic-deriving",
@@ -1973,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Uniplate",
           "name": "Uniplate",
           "package": "generic-deriving",
@@ -1981,6 +2152,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Uniplate",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Uniplate",
           "name": "Uniplate",
           "package": "generic-deriving",
@@ -1994,6 +2166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Uniplate",
           "name": "children",
           "package": "generic-deriving",
@@ -2003,6 +2176,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Uniplate",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Uniplate",
           "name": "children",
           "normalized": "a-\u003e[a]",
@@ -2017,6 +2191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Uniplate",
           "name": "childrendefault",
           "package": "generic-deriving",
@@ -2026,6 +2201,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Uniplate",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Uniplate",
           "name": "childrendefault",
           "normalized": "a-\u003e[a]",
@@ -2040,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Uniplate",
           "name": "context",
           "package": "generic-deriving",
@@ -2049,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Uniplate",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Uniplate",
           "name": "context",
           "normalized": "a-\u003e[a]-\u003ea",
@@ -2063,6 +2241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Uniplate",
           "name": "contextdefault",
           "package": "generic-deriving",
@@ -2072,6 +2251,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Uniplate",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Uniplate",
           "name": "contextdefault",
           "normalized": "a-\u003e[a]-\u003ea",
@@ -2086,6 +2266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Uniplate",
           "name": "contexts",
           "package": "generic-deriving",
@@ -2095,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Uniplate",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Uniplate",
           "name": "contexts",
           "normalized": "a-\u003e[(a,a-\u003ea)]",
@@ -2109,6 +2291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Uniplate",
           "name": "descend",
           "package": "generic-deriving",
@@ -2118,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Uniplate",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Uniplate",
           "name": "descend",
           "normalized": "(a-\u003ea)-\u003ea-\u003ea",
@@ -2132,6 +2316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Uniplate",
           "name": "descendM",
           "package": "generic-deriving",
@@ -2141,6 +2326,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Uniplate",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Uniplate",
           "name": "descendM",
           "normalized": "(a-\u003eb a)-\u003ea-\u003eb a",
@@ -2155,6 +2341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Uniplate",
           "name": "descendMdefault",
           "package": "generic-deriving",
@@ -2164,6 +2351,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Uniplate",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Uniplate",
           "name": "descendMdefault",
           "normalized": "(a-\u003eb a)-\u003ea-\u003eb a",
@@ -2179,6 +2367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Uniplate",
           "name": "descenddefault",
           "package": "generic-deriving",
@@ -2188,6 +2377,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Uniplate",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Uniplate",
           "name": "descenddefault",
           "normalized": "(a-\u003ea)-\u003ea-\u003ea",
@@ -2202,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Uniplate",
           "name": "holes",
           "package": "generic-deriving",
@@ -2211,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Uniplate",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Uniplate",
           "name": "holes",
           "normalized": "a-\u003e[(a,a-\u003ea)]",
@@ -2225,6 +2417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Uniplate",
           "name": "para",
           "package": "generic-deriving",
@@ -2234,6 +2427,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Uniplate",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Uniplate",
           "name": "para",
           "normalized": "(a-\u003e[b]-\u003eb)-\u003ea-\u003eb",
@@ -2248,6 +2442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Uniplate",
           "name": "rewrite",
           "package": "generic-deriving",
@@ -2257,6 +2452,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Uniplate",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Uniplate",
           "name": "rewrite",
           "normalized": "(a-\u003eMaybe a)-\u003ea-\u003ea",
@@ -2271,6 +2467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Uniplate",
           "name": "rewriteM",
           "package": "generic-deriving",
@@ -2280,6 +2477,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Uniplate",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Uniplate",
           "name": "rewriteM",
           "normalized": "(a-\u003eb(Maybe a))-\u003ea-\u003eb a",
@@ -2294,6 +2492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Uniplate",
           "name": "transform",
           "package": "generic-deriving",
@@ -2303,6 +2502,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Uniplate",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Uniplate",
           "name": "transform",
           "normalized": "(a-\u003ea)-\u003ea-\u003ea",
@@ -2317,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Uniplate",
           "name": "transformM",
           "package": "generic-deriving",
@@ -2326,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Uniplate",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Uniplate",
           "name": "transformM",
           "normalized": "(a-\u003eb a)-\u003ea-\u003eb a",
@@ -2340,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Uniplate",
           "name": "transformMdefault",
           "package": "generic-deriving",
@@ -2349,6 +2552,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Uniplate",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Uniplate",
           "name": "transformMdefault",
           "normalized": "(a-\u003eb a)-\u003ea-\u003eb a",
@@ -2364,6 +2568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Uniplate",
           "name": "transformdefault",
           "package": "generic-deriving",
@@ -2373,6 +2578,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Uniplate",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Uniplate",
           "name": "transformdefault",
           "normalized": "(a-\u003ea)-\u003ea-\u003ea",
@@ -2387,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Uniplate",
           "name": "uniplate",
           "package": "generic-deriving",
@@ -2396,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Uniplate",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Uniplate",
           "name": "uniplate",
           "normalized": "a-\u003e([a],[a]-\u003ea)",
@@ -2410,6 +2618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving.Uniplate",
           "name": "universe",
           "package": "generic-deriving",
@@ -2419,6 +2628,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving Uniplate",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving.Uniplate",
           "name": "universe",
           "normalized": "a-\u003e[a]",
@@ -2433,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:56 UTC 2014",
           "module": "Generics.Deriving",
           "name": "Deriving",
           "package": "generic-deriving",
@@ -2441,6 +2652,7 @@
         },
         "index": {
           "hierarchy": "Generics Deriving",
+          "indexed": "2014-03-11T18:14:56",
           "module": "Generics.Deriving",
           "name": "Deriving",
           "package": "generic-deriving",

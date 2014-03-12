@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hledger-web"
+        "phrase": "hledger-web",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Application",
           "name": "Application",
           "package": "hledger-web",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Application",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Application",
           "name": "Application",
           "package": "hledger-web",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Application",
           "name": "getApplicationDev",
           "package": "hledger-web",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Application",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Application",
           "name": "getApplicationDev",
           "normalized": "IO(Int,Application)",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Application",
           "name": "makeApplication",
           "package": "hledger-web",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Application",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Application",
           "name": "makeApplication",
           "normalized": "WebOpts-\u003eJournal-\u003eAppConfig DefaultEnv Extra-\u003eIO Application",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Application",
           "name": "makeFoundation",
           "package": "hledger-web",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Application",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Application",
           "name": "makeFoundation",
           "normalized": "AppConfig DefaultEnv Extra-\u003eIO App",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Foundation",
           "name": "Foundation",
           "package": "hledger-web",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Foundation",
           "name": "Foundation",
           "package": "hledger-web",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe site argument for your application. This can be a good place to\n keep settings and values requiring initialization before your application\n starts running, such as database connections. Every handler will have\n access to the data present here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Foundation",
           "name": "App",
           "package": "hledger-web",
@@ -142,6 +153,7 @@
         "index": {
           "description": "The site argument for your application This can be good place to keep settings and values requiring initialization before your application starts running such as database connections Every handler will have access to the data present here",
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Foundation",
           "name": "App",
           "package": "hledger-web",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Foundation",
           "name": "AppMessage",
           "package": "hledger-web",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Foundation",
           "name": "AppMessage",
           "package": "hledger-web",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenience alias.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Foundation",
           "name": "AppRoute",
           "package": "hledger-web",
@@ -186,6 +201,7 @@
         "index": {
           "description": "convenience alias",
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Foundation",
           "name": "AppRoute",
           "package": "hledger-web",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Foundation",
           "name": "Form",
           "package": "hledger-web",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Foundation",
           "name": "Form",
           "package": "hledger-web",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Foundation",
           "name": "Handler",
           "package": "hledger-web",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Foundation",
           "name": "Handler",
           "package": "hledger-web",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Foundation",
           "name": "Widget",
           "package": "hledger-web",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Foundation",
           "name": "Widget",
           "package": "hledger-web",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Foundation",
           "name": "App",
           "package": "hledger-web",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Foundation",
           "name": "App",
           "package": "hledger-web",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Foundation",
           "name": "MsgHello",
           "package": "hledger-web",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Foundation",
           "name": "MsgHello",
           "package": "hledger-web",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Foundation",
           "name": "appJournal",
           "package": "hledger-web",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Foundation",
           "name": "appJournal",
           "package": "hledger-web",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Foundation",
           "name": "appOpts",
           "package": "hledger-web",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Foundation",
           "name": "appOpts",
           "package": "hledger-web",
@@ -351,6 +381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the \u003ccode\u003e\u003ca\u003eExtra\u003c/a\u003e\u003c/code\u003e value, used to hold data from the settings.yml file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Foundation",
           "name": "getExtra",
           "package": "hledger-web",
@@ -361,6 +392,7 @@
         "index": {
           "description": "Get the Extra value used to hold data from the settings.yml file",
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Foundation",
           "name": "getExtra",
           "package": "hledger-web",
@@ -375,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSettings for static file serving.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Foundation",
           "name": "getStatic",
           "package": "hledger-web",
@@ -385,6 +418,7 @@
         "index": {
           "description": "Settings for static file serving",
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Foundation",
           "name": "getStatic",
           "package": "hledger-web",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Foundation",
           "name": "httpManager",
           "package": "hledger-web",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Foundation",
           "name": "httpManager",
           "package": "hledger-web",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Foundation",
           "name": "resourcesApp",
           "package": "hledger-web",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Foundation",
           "name": "resourcesApp",
           "normalized": "[ResourceTree String]",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Foundation",
           "name": "settings",
           "package": "hledger-web",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Foundation",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Foundation",
           "name": "settings",
           "package": "hledger-web",
@@ -466,6 +506,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon page components and rendering helpers.\n For global page layout, see Application.hs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Common",
           "name": "Common",
           "package": "hledger-web",
@@ -475,6 +516,7 @@
         "index": {
           "description": "Common page components and rendering helpers For global page layout see Application.hs",
           "hierarchy": "Handler Common",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Common",
           "name": "Common",
           "package": "hledger-web",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Common",
           "name": "accountOnlyQuery",
           "package": "hledger-web",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Handler Common",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Common",
           "name": "accountOnlyQuery",
           "normalized": "AccountName-\u003eString",
@@ -512,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Common",
           "name": "accountQuery",
           "package": "hledger-web",
@@ -521,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Handler Common",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Common",
           "name": "accountQuery",
           "normalized": "AccountName-\u003eString",
@@ -536,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Common",
           "name": "accountUrl",
           "package": "hledger-web",
@@ -545,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Handler Common",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Common",
           "name": "accountUrl",
           "normalized": "AppRoute-\u003eAccountName-\u003e(AppRoute,[(Text,Text)])",
@@ -561,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd transaction form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Common",
           "name": "addform",
           "package": "hledger-web",
@@ -571,6 +620,7 @@
         "index": {
           "description": "Add transaction form",
           "hierarchy": "Handler Common",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Common",
           "name": "addform",
           "normalized": "Text-\u003eViewData-\u003eHtmlUrl AppRoute",
@@ -586,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an \u003ca\u003eBalanceReport\u003c/a\u003e as html.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Common",
           "name": "balanceReportAsHtml",
           "package": "hledger-web",
@@ -596,6 +647,7 @@
         "index": {
           "description": "Render an BalanceReport as html",
           "hierarchy": "Handler Common",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Common",
           "name": "balanceReportAsHtml",
           "normalized": "WebOpts-\u003eViewData-\u003eBalanceReport-\u003eHtmlUrl AppRoute",
@@ -612,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEdit journal form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Common",
           "name": "editform",
           "package": "hledger-web",
@@ -622,6 +675,7 @@
         "index": {
           "description": "Edit journal form",
           "hierarchy": "Handler Common",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Common",
           "name": "editform",
           "normalized": "ViewData-\u003eHtmlUrl AppRoute",
@@ -637,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an \u003ca\u003eEntriesReport\u003c/a\u003e as html for the journal entries view.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Common",
           "name": "entriesReportAsHtml",
           "package": "hledger-web",
@@ -647,6 +702,7 @@
         "index": {
           "description": "Render an EntriesReport as html for the journal entries view",
           "hierarchy": "Handler Common",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Common",
           "name": "entriesReportAsHtml",
           "normalized": "WebOpts-\u003eViewData-\u003eEntriesReport-\u003eHtmlUrl AppRoute",
@@ -663,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink to a topic in the manual.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Common",
           "name": "helplink",
           "package": "hledger-web",
@@ -673,6 +730,7 @@
         "index": {
           "description": "Link to topic in the manual",
           "hierarchy": "Handler Common",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Common",
           "name": "helplink",
           "normalized": "String-\u003eString-\u003eHtmlUrl AppRoute",
@@ -688,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImport journal form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Common",
           "name": "importform",
           "package": "hledger-web",
@@ -698,6 +757,7 @@
         "index": {
           "description": "Import journal form",
           "hierarchy": "Handler Common",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Common",
           "name": "importform",
           "package": "hledger-web",
@@ -711,6 +771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a \u003ca\u003eTransactionsReport\u003c/a\u003e as html for the formatted journal view.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Common",
           "name": "journalTransactionsReportAsHtml",
           "package": "hledger-web",
@@ -721,6 +782,7 @@
         "index": {
           "description": "Render TransactionsReport as html for the formatted journal view",
           "hierarchy": "Handler Common",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Common",
           "name": "journalTransactionsReportAsHtml",
           "normalized": "WebOpts-\u003eViewData-\u003eTransactionsReport-\u003eHtmlUrl AppRoute",
@@ -736,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Common",
           "name": "journalselect",
           "package": "hledger-web",
@@ -745,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Handler Common",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Common",
           "name": "journalselect",
           "normalized": "[(FilePath,String)]-\u003eHtmlUrl AppRoute",
@@ -759,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Common",
           "name": "mixedAmountAsHtml",
           "package": "hledger-web",
@@ -768,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Handler Common",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Common",
           "name": "mixedAmountAsHtml",
           "normalized": "MixedAmount-\u003eHtml",
@@ -783,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Common",
           "name": "nulltemplate",
           "package": "hledger-web",
@@ -792,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Handler Common",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Common",
           "name": "nulltemplate",
           "package": "hledger-web",
@@ -804,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Common",
           "name": "numberTransactionsReportItems",
           "package": "hledger-web",
@@ -813,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Handler Common",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Common",
           "name": "numberTransactionsReportItems",
           "normalized": "[TransactionsReportItem]-\u003e[(Int,Bool,Bool,Bool,TransactionsReportItem)]",
@@ -829,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate javascript/html for a register balance line chart based on\n the provided \u003ca\u003eTransactionsReportItem\u003c/a\u003es.\n registerChartHtml :: forall t (t1 :: * -\u003e *) t2 t3 t4 t5.\n                      Data.Foldable.Foldable t1 =\u003e\n                      t1 (Transaction, t2, t3, t4, t5, MixedAmount)\n                      -\u003e t -\u003e Text.Blaze.Internal.HtmlM ()\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Common",
           "name": "registerChartHtml",
           "package": "hledger-web",
@@ -839,6 +910,7 @@
         "index": {
           "description": "Generate javascript html for register balance line chart based on the provided TransactionsReportItem registerChartHtml forall t1 t2 t3 t4 t5 Data.Foldable.Foldable t1 t1 Transaction t2 t3 t4 t5 MixedAmount Text.Blaze.Internal.HtmlM",
           "hierarchy": "Handler Common",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Common",
           "name": "registerChartHtml",
           "normalized": "[[TransactionsReportItem]]-\u003eHtmlUrl AppRoute",
@@ -854,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Common",
           "name": "registerItemsHtml",
           "package": "hledger-web",
@@ -863,6 +936,7 @@
         },
         "index": {
           "hierarchy": "Handler Common",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Common",
           "name": "registerItemsHtml",
           "normalized": "WebOpts-\u003eViewData-\u003eTransactionsReport-\u003eHtmlUrl AppRoute",
@@ -878,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Common",
           "name": "registerReportHtml",
           "package": "hledger-web",
@@ -887,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Handler Common",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Common",
           "name": "registerReportHtml",
           "normalized": "WebOpts-\u003eViewData-\u003eTransactionsReport-\u003eHtmlUrl AppRoute",
@@ -903,6 +979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e]\n   where u' = (dest, if null q then [] else [(\u003ca\u003eq\u003c/a\u003e, pack q)])\n         style | dest == here = \u003ca\u003enavlinkcurrent\u003c/a\u003e\n               | otherwise    = \u003ca\u003enavlink\u003c/a\u003e :: Text\n\u003c/p\u003e\u003cp\u003e]\n\u003c/p\u003e\u003cp\u003eSearch form for entering custom queries to filter journal data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Common",
           "name": "searchform",
           "package": "hledger-web",
@@ -913,6 +990,7 @@
         "index": {
           "description": "where dest if null then else pack style dest here navlinkcurrent otherwise navlink Text Search form for entering custom queries to filter journal data",
           "hierarchy": "Handler Common",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Common",
           "name": "searchform",
           "normalized": "ViewData-\u003eHtmlUrl AppRoute",
@@ -928,6 +1006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sidebar used on most views.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Common",
           "name": "sidebar",
           "package": "hledger-web",
@@ -938,6 +1017,7 @@
         "index": {
           "description": "The sidebar used on most views",
           "hierarchy": "Handler Common",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Common",
           "name": "sidebar",
           "normalized": "ViewData-\u003eHtmlUrl AppRoute",
@@ -953,6 +1033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlobal toolbar/heading area.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Common",
           "name": "topbar",
           "package": "hledger-web",
@@ -963,6 +1044,7 @@
         "index": {
           "description": "Global toolbar heading area",
           "hierarchy": "Handler Common",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Common",
           "name": "topbar",
           "normalized": "ViewData-\u003eHtmlUrl AppRoute",
@@ -978,6 +1060,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003ejournal\u003c/em\u003eedit handlers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.JournalEditR",
           "name": "JournalEditR",
           "package": "hledger-web",
@@ -987,6 +1070,7 @@
         "index": {
           "description": "journal edit handlers",
           "hierarchy": "Handler JournalEditR",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.JournalEditR",
           "name": "JournalEditR",
           "package": "hledger-web",
@@ -1001,6 +1085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe journal editform, no sidebar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.JournalEditR",
           "name": "getJournalEditR",
           "package": "hledger-web",
@@ -1011,6 +1096,7 @@
         "index": {
           "description": "The journal editform no sidebar",
           "hierarchy": "Handler JournalEditR",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.JournalEditR",
           "name": "getJournalEditR",
           "package": "hledger-web",
@@ -1024,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.JournalEditR",
           "name": "postJournalEditR",
           "package": "hledger-web",
@@ -1033,6 +1120,7 @@
         },
         "index": {
           "hierarchy": "Handler JournalEditR",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.JournalEditR",
           "name": "postJournalEditR",
           "package": "hledger-web",
@@ -1047,6 +1135,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003ejournal\u003c/em\u003eentries handlers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.JournalEntriesR",
           "name": "JournalEntriesR",
           "package": "hledger-web",
@@ -1056,6 +1145,7 @@
         "index": {
           "description": "journal entries handlers",
           "hierarchy": "Handler JournalEntriesR",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.JournalEntriesR",
           "name": "JournalEntriesR",
           "package": "hledger-web",
@@ -1070,6 +1160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe journal entries view, with sidebar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.JournalEntriesR",
           "name": "getJournalEntriesR",
           "package": "hledger-web",
@@ -1080,6 +1171,7 @@
         "index": {
           "description": "The journal entries view with sidebar",
           "hierarchy": "Handler JournalEntriesR",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.JournalEntriesR",
           "name": "getJournalEntriesR",
           "package": "hledger-web",
@@ -1093,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.JournalEntriesR",
           "name": "postJournalEntriesR",
           "package": "hledger-web",
@@ -1102,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "Handler JournalEntriesR",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.JournalEntriesR",
           "name": "postJournalEntriesR",
           "package": "hledger-web",
@@ -1116,6 +1210,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e/journal handlers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.JournalR",
           "name": "JournalR",
           "package": "hledger-web",
@@ -1125,6 +1220,7 @@
         "index": {
           "description": "journal handlers",
           "hierarchy": "Handler JournalR",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.JournalR",
           "name": "JournalR",
           "package": "hledger-web",
@@ -1139,6 +1235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe formatted journal view, with sidebar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.JournalR",
           "name": "getJournalR",
           "package": "hledger-web",
@@ -1149,6 +1246,7 @@
         "index": {
           "description": "The formatted journal view with sidebar",
           "hierarchy": "Handler JournalR",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.JournalR",
           "name": "getJournalR",
           "package": "hledger-web",
@@ -1162,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.JournalR",
           "name": "postJournalR",
           "package": "hledger-web",
@@ -1171,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Handler JournalR",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.JournalR",
           "name": "postJournalR",
           "package": "hledger-web",
@@ -1185,6 +1285,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOST helpers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Post",
           "name": "Post",
           "package": "hledger-web",
@@ -1194,6 +1295,7 @@
         "index": {
           "description": "POST helpers",
           "hierarchy": "Handler Post",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Post",
           "name": "Post",
           "package": "hledger-web",
@@ -1208,6 +1310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle a post from the transaction add form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Post",
           "name": "handleAdd",
           "package": "hledger-web",
@@ -1218,6 +1321,7 @@
         "index": {
           "description": "Handle post from the transaction add form",
           "hierarchy": "Handler Post",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Post",
           "name": "handleAdd",
           "package": "hledger-web",
@@ -1232,6 +1336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle a post from the journal edit form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Post",
           "name": "handleEdit",
           "package": "hledger-web",
@@ -1242,6 +1347,7 @@
         "index": {
           "description": "Handle post from the journal edit form",
           "hierarchy": "Handler Post",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Post",
           "name": "handleEdit",
           "package": "hledger-web",
@@ -1256,6 +1362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle a post from the journal import form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Post",
           "name": "handleImport",
           "package": "hledger-web",
@@ -1266,6 +1373,7 @@
         "index": {
           "description": "Handle post from the journal import form",
           "hierarchy": "Handler Post",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Post",
           "name": "handleImport",
           "package": "hledger-web",
@@ -1280,6 +1388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle a post from any of the edit forms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Post",
           "name": "handlePost",
           "package": "hledger-web",
@@ -1290,6 +1399,7 @@
         "index": {
           "description": "Handle post from any of the edit forms",
           "hierarchy": "Handler Post",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Post",
           "name": "handlePost",
           "package": "hledger-web",
@@ -1304,6 +1414,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e/register handlers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.RegisterR",
           "name": "RegisterR",
           "package": "hledger-web",
@@ -1313,6 +1424,7 @@
         "index": {
           "description": "register handlers",
           "hierarchy": "Handler RegisterR",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.RegisterR",
           "name": "RegisterR",
           "package": "hledger-web",
@@ -1327,6 +1439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main journal/account register view, with accounts sidebar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.RegisterR",
           "name": "getRegisterR",
           "package": "hledger-web",
@@ -1337,6 +1450,7 @@
         "index": {
           "description": "The main journal account register view with accounts sidebar",
           "hierarchy": "Handler RegisterR",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.RegisterR",
           "name": "getRegisterR",
           "package": "hledger-web",
@@ -1350,6 +1464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.RegisterR",
           "name": "postRegisterR",
           "package": "hledger-web",
@@ -1359,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "Handler RegisterR",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.RegisterR",
           "name": "postRegisterR",
           "package": "hledger-web",
@@ -1373,6 +1489,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSite root and misc. handlers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.RootR",
           "name": "RootR",
           "package": "hledger-web",
@@ -1382,6 +1499,7 @@
         "index": {
           "description": "Site root and misc handlers",
           "hierarchy": "Handler RootR",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.RootR",
           "name": "RootR",
           "package": "hledger-web",
@@ -1395,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.RootR",
           "name": "getRootR",
           "package": "hledger-web",
@@ -1404,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "Handler RootR",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.RootR",
           "name": "getRootR",
           "package": "hledger-web",
@@ -1418,6 +1538,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWeb handler utilities.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Utils",
           "name": "Utils",
           "package": "hledger-web",
@@ -1427,6 +1548,7 @@
         "index": {
           "description": "Web handler utilities",
           "hierarchy": "Handler Utils",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Utils",
           "name": "Utils",
           "package": "hledger-web",
@@ -1441,6 +1563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bundle of data useful for hledger-web request handlers and templates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Utils",
           "name": "ViewData",
           "package": "hledger-web",
@@ -1450,6 +1573,7 @@
         "index": {
           "description": "bundle of data useful for hledger-web request handlers and templates",
           "hierarchy": "Handler Utils",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Utils",
           "name": "ViewData",
           "package": "hledger-web",
@@ -1463,6 +1587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Utils",
           "name": "VD",
           "package": "hledger-web",
@@ -1472,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "Handler Utils",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Utils",
           "name": "VD",
           "package": "hledger-web",
@@ -1486,6 +1612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea query parsed from the accounts sidebar query expr (\u003ca\u003ea\u003c/a\u003e parameter)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Utils",
           "name": "am",
           "package": "hledger-web",
@@ -1496,6 +1623,7 @@
         "index": {
           "description": "query parsed from the accounts sidebar query expr parameter",
           "hierarchy": "Handler Utils",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Utils",
           "name": "am",
           "package": "hledger-web",
@@ -1509,6 +1637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equery options parsed from the accounts sidebar query expr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Utils",
           "name": "aopts",
           "package": "hledger-web",
@@ -1519,6 +1648,7 @@
         "index": {
           "description": "query options parsed from the accounts sidebar query expr",
           "hierarchy": "Handler Utils",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Utils",
           "name": "aopts",
           "normalized": "[QueryOpt]",
@@ -1533,6 +1663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Utils",
           "name": "chomp",
           "package": "hledger-web",
@@ -1542,6 +1673,7 @@
         },
         "index": {
           "hierarchy": "Handler Utils",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Utils",
           "name": "chomp",
           "normalized": "String-\u003eString",
@@ -1556,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Utils",
           "name": "dayToJsTimestamp",
           "package": "hledger-web",
@@ -1565,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "Handler Utils",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Utils",
           "name": "dayToJsTimestamp",
           "normalized": "Day-\u003eInteger",
@@ -1581,6 +1715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the message set by the last request, or the newer message provided, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Utils",
           "name": "getMessageOr",
           "package": "hledger-web",
@@ -1591,6 +1726,7 @@
         "index": {
           "description": "Get the message set by the last request or the newer message provided if any",
           "hierarchy": "Handler Utils",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Utils",
           "name": "getMessageOr",
           "normalized": "Maybe String-\u003eHandler(Maybe Html)",
@@ -1607,6 +1743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGather data used by handlers and templates in the current request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Utils",
           "name": "getViewData",
           "package": "hledger-web",
@@ -1617,6 +1754,7 @@
         "index": {
           "description": "Gather data used by handlers and templates in the current request",
           "hierarchy": "Handler Utils",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Utils",
           "name": "getViewData",
           "package": "hledger-web",
@@ -1631,6 +1769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe current route\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Utils",
           "name": "here",
           "package": "hledger-web",
@@ -1641,6 +1780,7 @@
         "index": {
           "description": "the current route",
           "hierarchy": "Handler Utils",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Utils",
           "name": "here",
           "package": "hledger-web",
@@ -1654,6 +1794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe up-to-date parsed unfiltered journal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Utils",
           "name": "j",
           "package": "hledger-web",
@@ -1664,6 +1805,7 @@
         "index": {
           "description": "the up-to-date parsed unfiltered journal",
           "hierarchy": "Handler Utils",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Utils",
           "name": "j",
           "package": "hledger-web",
@@ -1677,6 +1819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea query parsed from the q parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Utils",
           "name": "m",
           "package": "hledger-web",
@@ -1687,6 +1830,7 @@
         "index": {
           "description": "query parsed from the parameter",
           "hierarchy": "Handler Utils",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Utils",
           "name": "m",
           "package": "hledger-web",
@@ -1700,6 +1844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe current UI message if any, possibly from the current request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Utils",
           "name": "msg",
           "package": "hledger-web",
@@ -1710,6 +1855,7 @@
         "index": {
           "description": "the current UI message if any possibly from the current request",
           "hierarchy": "Handler Utils",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Utils",
           "name": "msg",
           "package": "hledger-web",
@@ -1723,6 +1869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a default ViewData, using day 0 as today's date.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Utils",
           "name": "nullviewdata",
           "package": "hledger-web",
@@ -1733,6 +1880,7 @@
         "index": {
           "description": "Make default ViewData using day as today date",
           "hierarchy": "Handler Utils",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Utils",
           "name": "nullviewdata",
           "package": "hledger-web",
@@ -1745,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Utils",
           "name": "numbered",
           "package": "hledger-web",
@@ -1754,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Handler Utils",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Utils",
           "name": "numbered",
           "normalized": "[a]-\u003e[(Int,a)]",
@@ -1769,6 +1919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe command-line options at startup\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Utils",
           "name": "opts",
           "package": "hledger-web",
@@ -1779,6 +1930,7 @@
         "index": {
           "description": "the command-line options at startup",
           "hierarchy": "Handler Utils",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Utils",
           "name": "opts",
           "package": "hledger-web",
@@ -1792,6 +1944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe current q parameter, the main query expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Utils",
           "name": "q",
           "package": "hledger-web",
@@ -1802,6 +1955,7 @@
         "index": {
           "description": "the current parameter the main query expression",
           "hierarchy": "Handler Utils",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Utils",
           "name": "q",
           "package": "hledger-web",
@@ -1815,6 +1969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equery options parsed from the q parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Utils",
           "name": "qopts",
           "package": "hledger-web",
@@ -1825,6 +1980,7 @@
         "index": {
           "description": "query options parsed from the parameter",
           "hierarchy": "Handler Utils",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Utils",
           "name": "qopts",
           "normalized": "[QueryOpt]",
@@ -1840,6 +1996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecurrent p parameter, 1 or 0 shows/hides all postings where applicable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Utils",
           "name": "showpostings",
           "package": "hledger-web",
@@ -1850,6 +2007,7 @@
         "index": {
           "description": "current parameter or shows hides all postings where applicable",
           "hierarchy": "Handler Utils",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Utils",
           "name": "showpostings",
           "package": "hledger-web",
@@ -1863,6 +2021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etoday's date (for queries containing relative dates)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Utils",
           "name": "today",
           "package": "hledger-web",
@@ -1873,6 +2032,7 @@
         "index": {
           "description": "today date for queries containing relative dates",
           "hierarchy": "Handler Utils",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Utils",
           "name": "today",
           "package": "hledger-web",
@@ -1886,6 +2046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a ViewData using the given date and request parameters, and defaults elsewhere.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Handler.Utils",
           "name": "viewdataWithDateAndParams",
           "package": "hledger-web",
@@ -1896,6 +2057,7 @@
         "index": {
           "description": "Make ViewData using the given date and request parameters and defaults elsewhere",
           "hierarchy": "Handler Utils",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Handler.Utils",
           "name": "viewdataWithDateAndParams",
           "normalized": "Day-\u003eString-\u003eString-\u003eString-\u003eViewData",
@@ -1911,6 +2073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Import",
           "name": "Import",
           "package": "hledger-web",
@@ -1919,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "Import",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Import",
           "name": "Import",
           "package": "hledger-web",
@@ -1932,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.Development",
           "name": "Development",
           "package": "hledger-web",
@@ -1940,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "Settings Development",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.Development",
           "name": "Development",
           "package": "hledger-web",
@@ -1953,6 +2119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.Development",
           "name": "development",
           "package": "hledger-web",
@@ -1962,6 +2129,7 @@
         },
         "index": {
           "hierarchy": "Settings Development",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.Development",
           "name": "development",
           "package": "hledger-web",
@@ -1974,6 +2142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.Development",
           "name": "production",
           "package": "hledger-web",
@@ -1983,6 +2152,7 @@
         },
         "index": {
           "hierarchy": "Settings Development",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.Development",
           "name": "production",
           "package": "hledger-web",
@@ -1995,6 +2165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.StaticFiles",
           "name": "StaticFiles",
           "package": "hledger-web",
@@ -2003,6 +2174,7 @@
         },
         "index": {
           "hierarchy": "Settings StaticFiles",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.StaticFiles",
           "name": "StaticFiles",
           "package": "hledger-web",
@@ -2016,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.StaticFiles",
           "name": "css_bootstrap_css",
           "package": "hledger-web",
@@ -2025,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "Settings StaticFiles",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.StaticFiles",
           "name": "css_bootstrap_css",
           "package": "hledger-web",
@@ -2037,6 +2211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.StaticFiles",
           "name": "excanvas_js",
           "package": "hledger-web",
@@ -2046,6 +2221,7 @@
         },
         "index": {
           "hierarchy": "Settings StaticFiles",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.StaticFiles",
           "name": "excanvas_js",
           "package": "hledger-web",
@@ -2058,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.StaticFiles",
           "name": "excanvas_min_js",
           "package": "hledger-web",
@@ -2067,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Settings StaticFiles",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.StaticFiles",
           "name": "excanvas_min_js",
           "package": "hledger-web",
@@ -2079,6 +2257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.StaticFiles",
           "name": "favicon_ico",
           "package": "hledger-web",
@@ -2088,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "Settings StaticFiles",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.StaticFiles",
           "name": "favicon_ico",
           "package": "hledger-web",
@@ -2100,6 +2280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.StaticFiles",
           "name": "hledger_js",
           "package": "hledger-web",
@@ -2109,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "Settings StaticFiles",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.StaticFiles",
           "name": "hledger_js",
           "package": "hledger-web",
@@ -2121,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.StaticFiles",
           "name": "img_glyphicons_halflings_png",
           "package": "hledger-web",
@@ -2130,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Settings StaticFiles",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.StaticFiles",
           "name": "img_glyphicons_halflings_png",
           "package": "hledger-web",
@@ -2142,6 +2326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.StaticFiles",
           "name": "img_glyphicons_halflings_white_png",
           "package": "hledger-web",
@@ -2151,6 +2336,7 @@
         },
         "index": {
           "hierarchy": "Settings StaticFiles",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.StaticFiles",
           "name": "img_glyphicons_halflings_white_png",
           "package": "hledger-web",
@@ -2163,6 +2349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.StaticFiles",
           "name": "jquery_flot_js",
           "package": "hledger-web",
@@ -2172,6 +2359,7 @@
         },
         "index": {
           "hierarchy": "Settings StaticFiles",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.StaticFiles",
           "name": "jquery_flot_js",
           "package": "hledger-web",
@@ -2184,6 +2372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.StaticFiles",
           "name": "jquery_flot_min_js",
           "package": "hledger-web",
@@ -2193,6 +2382,7 @@
         },
         "index": {
           "hierarchy": "Settings StaticFiles",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.StaticFiles",
           "name": "jquery_flot_min_js",
           "package": "hledger-web",
@@ -2205,6 +2395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.StaticFiles",
           "name": "jquery_js",
           "package": "hledger-web",
@@ -2214,6 +2405,7 @@
         },
         "index": {
           "hierarchy": "Settings StaticFiles",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.StaticFiles",
           "name": "jquery_js",
           "package": "hledger-web",
@@ -2226,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.StaticFiles",
           "name": "jquery_min_js",
           "package": "hledger-web",
@@ -2235,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "Settings StaticFiles",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.StaticFiles",
           "name": "jquery_min_js",
           "package": "hledger-web",
@@ -2247,6 +2441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.StaticFiles",
           "name": "jquery_url_js",
           "package": "hledger-web",
@@ -2256,6 +2451,7 @@
         },
         "index": {
           "hierarchy": "Settings StaticFiles",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.StaticFiles",
           "name": "jquery_url_js",
           "package": "hledger-web",
@@ -2268,6 +2464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.StaticFiles",
           "name": "select2_css",
           "package": "hledger-web",
@@ -2277,6 +2474,7 @@
         },
         "index": {
           "hierarchy": "Settings StaticFiles",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.StaticFiles",
           "name": "select2_css",
           "package": "hledger-web",
@@ -2289,6 +2487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.StaticFiles",
           "name": "select2_js",
           "package": "hledger-web",
@@ -2298,6 +2497,7 @@
         },
         "index": {
           "hierarchy": "Settings StaticFiles",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.StaticFiles",
           "name": "select2_js",
           "package": "hledger-web",
@@ -2310,6 +2510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.StaticFiles",
           "name": "select2_min_js",
           "package": "hledger-web",
@@ -2319,6 +2520,7 @@
         },
         "index": {
           "hierarchy": "Settings StaticFiles",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.StaticFiles",
           "name": "select2_min_js",
           "package": "hledger-web",
@@ -2331,6 +2533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.StaticFiles",
           "name": "select2_png",
           "package": "hledger-web",
@@ -2340,6 +2543,7 @@
         },
         "index": {
           "hierarchy": "Settings StaticFiles",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.StaticFiles",
           "name": "select2_png",
           "package": "hledger-web",
@@ -2352,6 +2556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.StaticFiles",
           "name": "select2_spinner_gif",
           "package": "hledger-web",
@@ -2361,6 +2566,7 @@
         },
         "index": {
           "hierarchy": "Settings StaticFiles",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.StaticFiles",
           "name": "select2_spinner_gif",
           "package": "hledger-web",
@@ -2374,6 +2580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euse this to create your static file serving site\n staticSite :: IO Static.Static\n staticSite = if development then Static.staticDevel staticDir\n                             else Static.static      staticDir\n\u003c/p\u003e\u003cp\u003e| This generates easy references to files in the static directory at compile time,\n   giving you compile-time verification that referenced files exist.\n   Warning: any files added to your static directory during run-time can't be\n   accessed this way. You'll have to use their FilePath or URL to access them.\n $(staticFiles Settings.staticDir)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.StaticFiles",
           "name": "staticSite",
           "package": "hledger-web",
@@ -2384,6 +2591,7 @@
         "index": {
           "description": "use this to create your static file serving site staticSite IO Static.Static staticSite if development then Static.staticDevel staticDir else Static.static staticDir This generates easy references to files in the static directory at compile time giving you compile-time verification that referenced files exist Warning any files added to your static directory during run-time can be accessed this way You ll have to use their FilePath or URL to access them staticFiles Settings.staticDir",
           "hierarchy": "Settings StaticFiles",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.StaticFiles",
           "name": "staticSite",
           "package": "hledger-web",
@@ -2397,6 +2605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings.StaticFiles",
           "name": "style_css",
           "package": "hledger-web",
@@ -2406,6 +2615,7 @@
         },
         "index": {
           "hierarchy": "Settings StaticFiles",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings.StaticFiles",
           "name": "style_css",
           "package": "hledger-web",
@@ -2419,6 +2629,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSettings are centralized, as much as possible, into this file. This\n includes database connection settings, static file locations, etc.\n In addition, you can configure a number of different aspects of Yesod\n by overriding methods in the Yesod typeclass. That instance is\n declared in the Foundation.hs file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings",
           "name": "Settings",
           "package": "hledger-web",
@@ -2428,6 +2639,7 @@
         "index": {
           "description": "Settings are centralized as much as possible into this file This includes database connection settings static file locations etc In addition you can configure number of different aspects of Yesod by overriding methods in the Yesod typeclass That instance is declared in the Foundation.hs file",
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings",
           "name": "Settings",
           "package": "hledger-web",
@@ -2441,6 +2653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings",
           "name": "Extra",
           "package": "hledger-web",
@@ -2449,6 +2662,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings",
           "name": "Extra",
           "package": "hledger-web",
@@ -2462,6 +2676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings",
           "name": "Extra",
           "package": "hledger-web",
@@ -2471,6 +2686,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings",
           "name": "Extra",
           "package": "hledger-web",
@@ -2484,6 +2700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings",
           "name": "defbaseurl",
           "package": "hledger-web",
@@ -2493,6 +2710,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings",
           "name": "defbaseurl",
           "normalized": "Int-\u003eString",
@@ -2508,6 +2726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default TCP port to listen on. May be overridden with --port.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings",
           "name": "defport",
           "package": "hledger-web",
@@ -2518,6 +2737,7 @@
         "index": {
           "description": "The default TCP port to listen on May be overridden with port",
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings",
           "name": "defport",
           "package": "hledger-web",
@@ -2531,6 +2751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGoogle Analytics\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings",
           "name": "extraAnalytics",
           "package": "hledger-web",
@@ -2541,6 +2762,7 @@
         "index": {
           "description": "Google Analytics",
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings",
           "name": "extraAnalytics",
           "package": "hledger-web",
@@ -2554,6 +2776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings",
           "name": "extraCopyright",
           "package": "hledger-web",
@@ -2563,6 +2786,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings",
           "name": "extraCopyright",
           "package": "hledger-web",
@@ -2576,6 +2800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings",
           "name": "extraStaticRoot",
           "package": "hledger-web",
@@ -2585,6 +2810,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings",
           "name": "extraStaticRoot",
           "package": "hledger-web",
@@ -2598,6 +2824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings",
           "name": "hledgerorgurl",
           "package": "hledger-web",
@@ -2607,6 +2834,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings",
           "name": "hledgerorgurl",
           "package": "hledger-web",
@@ -2619,6 +2847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings",
           "name": "manualurl",
           "package": "hledger-web",
@@ -2628,6 +2857,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings",
           "name": "manualurl",
           "package": "hledger-web",
@@ -2640,6 +2870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings",
           "name": "parseExtra",
           "package": "hledger-web",
@@ -2649,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings",
           "name": "parseExtra",
           "normalized": "DefaultEnv-\u003eObject-\u003eParser Extra",
@@ -2665,6 +2897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe location of static files on your system. This is a file system\n path. The default value works properly with your scaffolded site.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings",
           "name": "staticDir",
           "package": "hledger-web",
@@ -2675,6 +2908,7 @@
         "index": {
           "description": "The location of static files on your system This is file system path The default value works properly with your scaffolded site",
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings",
           "name": "staticDir",
           "package": "hledger-web",
@@ -2689,6 +2923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe base URL for your static files. As you can see by the default\n value, this can simply be \u003ca\u003estatic\u003c/a\u003e appended to your application root.\n A powerful optimization can be serving static files from a separate\n domain name. This allows you to use a web server optimized for static\n files, more easily set expires and cache values, and avoid possibly\n costly transference of cookies on static files. For more information,\n please see:\n   http:\u003cem/\u003ecode.google.com\u003cem\u003espeed\u003c/em\u003epage-speed\u003cem\u003edocs\u003c/em\u003erequest.html#ServeFromCookielessDomain\n\u003c/p\u003e\u003cp\u003eIf you change the resource pattern for StaticR in Foundation.hs, you will\n have to make a corresponding change here.\n\u003c/p\u003e\u003cp\u003eTo see how this value is used, see urlRenderOverride in Foundation.hs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings",
           "name": "staticRoot",
           "package": "hledger-web",
@@ -2699,6 +2934,7 @@
         "index": {
           "description": "The base URL for your static files As you can see by the default value this can simply be static appended to your application root powerful optimization can be serving static files from separate domain name This allows you to use web server optimized for static files more easily set expires and cache values and avoid possibly costly transference of cookies on static files For more information please see http code.google.com speed page-speed docs request.html ServeFromCookielessDomain If you change the resource pattern for StaticR in Foundation.hs you will have to make corresponding change here To see how this value is used see urlRenderOverride in Foundation.hs",
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings",
           "name": "staticRoot",
           "normalized": "AppConfig DefaultEnv Extra-\u003eText",
@@ -2714,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings",
           "name": "widgetFile",
           "package": "hledger-web",
@@ -2723,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings",
           "name": "widgetFile",
           "normalized": "String-\u003eQ Exp",
@@ -2739,6 +2977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSettings for \u003ccode\u003e\u003ca\u003ewidgetFile\u003c/a\u003e\u003c/code\u003e, such as which template languages to support and\n default Hamlet settings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:10 UTC 2014",
           "module": "Settings",
           "name": "widgetFileSettings",
           "package": "hledger-web",
@@ -2749,6 +2988,7 @@
         "index": {
           "description": "Settings for widgetFile such as which template languages to support and default Hamlet settings",
           "hierarchy": "Settings",
+          "indexed": "2014-03-11T18:41:10",
           "module": "Settings",
           "name": "widgetFileSettings",
           "package": "hledger-web",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "route-generator"
+        "phrase": "route-generator",
+        "type": "phrase"
       },
       "type": "context"
     }

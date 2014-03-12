@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mime-string"
+        "phrase": "mime-string",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.Binary.EncodingQ.String",
           "name": "String",
           "package": "mime-string",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary EncodingQ String",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.Binary.EncodingQ.String",
           "name": "String",
           "package": "mime-string",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.Binary.EncodingQ.String",
           "name": "decode",
           "package": "mime-string",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary EncodingQ String",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.Binary.EncodingQ.String",
           "name": "decode",
           "normalized": "String-\u003eString",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.Binary.EncodingQ.String",
           "name": "encode",
           "package": "mime-string",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Codec Binary EncodingQ String",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.Binary.EncodingQ.String",
           "name": "encode",
           "normalized": "Int-\u003eString-\u003e[String]",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "ContentDisposition",
           "package": "mime-string",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String ContentDisposition",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "ContentDisposition",
           "package": "mime-string",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "ContentDisposition",
           "package": "mime-string",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String ContentDisposition",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "ContentDisposition",
           "package": "mime-string",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "DispositionParameter",
           "package": "mime-string",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String ContentDisposition",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "DispositionParameter",
           "package": "mime-string",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "DispositionType",
           "package": "mime-string",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String ContentDisposition",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "DispositionType",
           "package": "mime-string",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "Attachment",
           "package": "mime-string",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String ContentDisposition",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "Attachment",
           "package": "mime-string",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "ContentDisposition",
           "package": "mime-string",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String ContentDisposition",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "ContentDisposition",
           "normalized": "ContentDisposition DispositionType[DispositionParameter]",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "CreationDate",
           "package": "mime-string",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String ContentDisposition",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "CreationDate",
           "package": "mime-string",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "DispositionParameter",
           "package": "mime-string",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String ContentDisposition",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "DispositionParameter",
           "package": "mime-string",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "Filename",
           "package": "mime-string",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String ContentDisposition",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "Filename",
           "package": "mime-string",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "Inline",
           "package": "mime-string",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String ContentDisposition",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "Inline",
           "package": "mime-string",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "ModificationDate",
           "package": "mime-string",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String ContentDisposition",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "ModificationDate",
           "package": "mime-string",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "ReadDate",
           "package": "mime-string",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String ContentDisposition",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "ReadDate",
           "package": "mime-string",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "Size",
           "package": "mime-string",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String ContentDisposition",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "Size",
           "package": "mime-string",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "get_content_disposition",
           "package": "mime-string",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String ContentDisposition",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.ContentDisposition",
           "name": "get_content_disposition",
           "normalized": "String-\u003eMaybe ContentDisposition",
@@ -392,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Date",
           "package": "mime-string",
@@ -400,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Date",
           "package": "mime-string",
@@ -413,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "DOW",
           "package": "mime-string",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "DOW",
           "package": "mime-string",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Date",
           "package": "mime-string",
@@ -442,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Date",
           "package": "mime-string",
@@ -455,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Day",
           "package": "mime-string",
@@ -463,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Day",
           "package": "mime-string",
@@ -476,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "FullDate",
           "package": "mime-string",
@@ -484,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "FullDate",
           "package": "mime-string",
@@ -497,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Hour",
           "package": "mime-string",
@@ -505,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Hour",
           "package": "mime-string",
@@ -518,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Minute",
           "package": "mime-string",
@@ -526,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Minute",
           "package": "mime-string",
@@ -539,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Month",
           "package": "mime-string",
@@ -547,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Month",
           "package": "mime-string",
@@ -560,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Second",
           "package": "mime-string",
@@ -568,6 +619,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Second",
           "package": "mime-string",
@@ -581,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Time",
           "package": "mime-string",
@@ -589,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Time",
           "package": "mime-string",
@@ -602,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "TimeOfDay",
           "package": "mime-string",
@@ -610,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "TimeOfDay",
           "package": "mime-string",
@@ -623,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Year",
           "package": "mime-string",
@@ -631,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Year",
           "package": "mime-string",
@@ -644,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Zone",
           "package": "mime-string",
@@ -652,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Zone",
           "package": "mime-string",
@@ -665,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Apr",
           "package": "mime-string",
@@ -674,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Apr",
           "package": "mime-string",
@@ -687,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Aug",
           "package": "mime-string",
@@ -696,6 +759,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Aug",
           "package": "mime-string",
@@ -709,6 +773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Date",
           "package": "mime-string",
@@ -718,6 +783,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Date",
           "package": "mime-string",
@@ -731,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Dec",
           "package": "mime-string",
@@ -740,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Dec",
           "package": "mime-string",
@@ -753,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Feb",
           "package": "mime-string",
@@ -762,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Feb",
           "package": "mime-string",
@@ -775,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Fri",
           "package": "mime-string",
@@ -784,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Fri",
           "package": "mime-string",
@@ -797,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "FullDate",
           "package": "mime-string",
@@ -806,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "FullDate",
           "package": "mime-string",
@@ -819,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Jan",
           "package": "mime-string",
@@ -828,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Jan",
           "package": "mime-string",
@@ -841,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Jul",
           "package": "mime-string",
@@ -850,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Jul",
           "package": "mime-string",
@@ -863,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Jun",
           "package": "mime-string",
@@ -872,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Jun",
           "package": "mime-string",
@@ -885,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Mar",
           "package": "mime-string",
@@ -894,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Mar",
           "package": "mime-string",
@@ -907,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "May",
           "package": "mime-string",
@@ -916,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "May",
           "package": "mime-string",
@@ -929,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Mon",
           "package": "mime-string",
@@ -938,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Mon",
           "package": "mime-string",
@@ -951,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Nov",
           "package": "mime-string",
@@ -960,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Nov",
           "package": "mime-string",
@@ -973,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Oct",
           "package": "mime-string",
@@ -982,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Oct",
           "package": "mime-string",
@@ -995,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Sat",
           "package": "mime-string",
@@ -1004,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Sat",
           "package": "mime-string",
@@ -1017,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Sep",
           "package": "mime-string",
@@ -1026,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Sep",
           "package": "mime-string",
@@ -1039,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Sun",
           "package": "mime-string",
@@ -1048,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Sun",
           "package": "mime-string",
@@ -1061,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Thu",
           "package": "mime-string",
@@ -1070,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Thu",
           "package": "mime-string",
@@ -1083,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Time",
           "package": "mime-string",
@@ -1092,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Time",
           "package": "mime-string",
@@ -1105,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "TimeOfDay",
           "package": "mime-string",
@@ -1114,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "TimeOfDay",
           "package": "mime-string",
@@ -1127,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Tue",
           "package": "mime-string",
@@ -1136,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Tue",
           "package": "mime-string",
@@ -1149,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "Wed",
           "package": "mime-string",
@@ -1158,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "Wed",
           "package": "mime-string",
@@ -1171,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "epochDate",
           "package": "mime-string",
@@ -1180,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "epochDate",
           "package": "mime-string",
@@ -1193,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "get_current_date",
           "package": "mime-string",
@@ -1202,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "get_current_date",
           "package": "mime-string",
@@ -1214,6 +1324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "get_date",
           "package": "mime-string",
@@ -1223,6 +1334,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "get_date",
           "normalized": "String-\u003eMaybe FullDate",
@@ -1237,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "p_date_time",
           "package": "mime-string",
@@ -1246,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "p_date_time",
           "package": "mime-string",
@@ -1258,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "show_full_date",
           "package": "mime-string",
@@ -1267,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "show_full_date",
           "normalized": "FullDate-\u003eString",
@@ -1281,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Date",
           "name": "show_mbox_full_date",
           "package": "mime-string",
@@ -1290,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Date",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Date",
           "name": "show_mbox_full_date",
           "normalized": "FullDate-\u003eString",
@@ -1304,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.EncodedWord",
           "name": "EncodedWord",
           "package": "mime-string",
@@ -1312,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String EncodedWord",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.EncodedWord",
           "name": "EncodedWord",
           "package": "mime-string",
@@ -1325,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.EncodedWord",
           "name": "base64_encode",
           "package": "mime-string",
@@ -1334,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String EncodedWord",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.EncodedWord",
           "name": "base64_encode",
           "normalized": "String-\u003eString-\u003eString",
@@ -1348,6 +1470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Flatten",
           "name": "Flatten",
           "package": "mime-string",
@@ -1356,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Flatten",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Flatten",
           "name": "Flatten",
           "package": "mime-string",
@@ -1369,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Flatten",
           "name": "Attachment",
           "package": "mime-string",
@@ -1377,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Flatten",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Flatten",
           "name": "Attachment",
           "package": "mime-string",
@@ -1390,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Flatten",
           "name": "Attachments",
           "package": "mime-string",
@@ -1398,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Flatten",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Flatten",
           "name": "Attachments",
           "package": "mime-string",
@@ -1411,6 +1539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Flatten",
           "name": "flatten",
           "package": "mime-string",
@@ -1420,6 +1549,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Flatten",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Flatten",
           "name": "flatten",
           "normalized": "Headers-\u003eString-\u003eMaybe String-\u003eAttachments-\u003eIO String",
@@ -1434,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "Headers",
           "package": "mime-string",
@@ -1442,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "Headers",
           "package": "mime-string",
@@ -1455,6 +1587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "Address",
           "package": "mime-string",
@@ -1463,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "Address",
           "package": "mime-string",
@@ -1476,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "ContentDescription",
           "package": "mime-string",
@@ -1484,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "ContentDescription",
           "package": "mime-string",
@@ -1497,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "ContentID",
           "package": "mime-string",
@@ -1505,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "ContentID",
           "package": "mime-string",
@@ -1518,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "ContentTransferEncoding",
           "package": "mime-string",
@@ -1526,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "ContentTransferEncoding",
           "package": "mime-string",
@@ -1539,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "ContentType",
           "package": "mime-string",
@@ -1547,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "ContentType",
           "package": "mime-string",
@@ -1560,6 +1702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "Domain",
           "package": "mime-string",
@@ -1568,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "Domain",
           "package": "mime-string",
@@ -1581,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "EmailAddress",
           "package": "mime-string",
@@ -1589,6 +1734,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "EmailAddress",
           "package": "mime-string",
@@ -1602,6 +1748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "From",
           "package": "mime-string",
@@ -1610,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "From",
           "package": "mime-string",
@@ -1623,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "MIMEVersion",
           "package": "mime-string",
@@ -1631,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "MIMEVersion",
           "package": "mime-string",
@@ -1644,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "Mailbox",
           "package": "mime-string",
@@ -1652,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "Mailbox",
           "package": "mime-string",
@@ -1665,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "MessageID",
           "package": "mime-string",
@@ -1673,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "MessageID",
           "package": "mime-string",
@@ -1686,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "Parameter",
           "package": "mime-string",
@@ -1694,6 +1849,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "Parameter",
           "package": "mime-string",
@@ -1707,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "RoutedEmailAddress",
           "package": "mime-string",
@@ -1715,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "RoutedEmailAddress",
           "package": "mime-string",
@@ -1728,6 +1886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "Subject",
           "package": "mime-string",
@@ -1736,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "Subject",
           "package": "mime-string",
@@ -1749,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "To",
           "package": "mime-string",
@@ -1757,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "To",
           "package": "mime-string",
@@ -1770,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "Address",
           "package": "mime-string",
@@ -1779,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "Address",
           "package": "mime-string",
@@ -1792,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "ContentDescription",
           "package": "mime-string",
@@ -1801,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "ContentDescription",
           "package": "mime-string",
@@ -1814,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "ContentID",
           "package": "mime-string",
@@ -1823,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "ContentID",
           "package": "mime-string",
@@ -1836,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "ContentTransferEncoding",
           "package": "mime-string",
@@ -1845,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "ContentTransferEncoding",
           "package": "mime-string",
@@ -1858,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "ContentType",
           "package": "mime-string",
@@ -1867,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "ContentType",
           "normalized": "ContentType String String[Parameter]",
@@ -1882,6 +2054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "Domain",
           "package": "mime-string",
@@ -1891,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "Domain",
           "package": "mime-string",
@@ -1904,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "EmailAddress",
           "package": "mime-string",
@@ -1913,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "EmailAddress",
           "package": "mime-string",
@@ -1926,6 +2102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "From",
           "package": "mime-string",
@@ -1935,6 +2112,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "From",
           "normalized": "From[Mailbox]",
@@ -1950,6 +2128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "Group",
           "package": "mime-string",
@@ -1959,6 +2138,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "Group",
           "normalized": "Group String[Mailbox]",
@@ -1974,6 +2154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "LiteralDomain",
           "package": "mime-string",
@@ -1983,6 +2164,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "LiteralDomain",
           "package": "mime-string",
@@ -1996,6 +2178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "MIMEVersion",
           "package": "mime-string",
@@ -2005,6 +2188,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "MIMEVersion",
           "package": "mime-string",
@@ -2018,6 +2202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "Mailbox",
           "package": "mime-string",
@@ -2027,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "Mailbox",
           "package": "mime-string",
@@ -2040,6 +2226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "MessageID",
           "package": "mime-string",
@@ -2049,6 +2236,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "MessageID",
           "package": "mime-string",
@@ -2062,6 +2250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "NormalEmailAddress",
           "package": "mime-string",
@@ -2071,6 +2260,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "NormalEmailAddress",
           "package": "mime-string",
@@ -2084,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "Parameter",
           "package": "mime-string",
@@ -2093,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "Parameter",
           "package": "mime-string",
@@ -2106,6 +2298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "RoutedEmailAddress",
           "package": "mime-string",
@@ -2115,6 +2308,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "RoutedEmailAddress",
           "normalized": "RoutedEmailAddress[Domain]EmailAddress",
@@ -2130,6 +2324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "Subject",
           "package": "mime-string",
@@ -2139,6 +2334,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "Subject",
           "package": "mime-string",
@@ -2152,6 +2348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "To",
           "package": "mime-string",
@@ -2161,6 +2358,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "To",
           "normalized": "To[Address]",
@@ -2176,6 +2374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "cws",
           "package": "mime-string",
@@ -2185,6 +2384,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "cws",
           "normalized": "Parser Char()",
@@ -2199,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "get_addr_spec",
           "package": "mime-string",
@@ -2208,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "get_addr_spec",
           "normalized": "String-\u003eMaybe EmailAddress",
@@ -2222,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "get_boundary",
           "package": "mime-string",
@@ -2231,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "get_boundary",
           "normalized": "String-\u003eMaybe String",
@@ -2245,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "get_content_description",
           "package": "mime-string",
@@ -2254,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "get_content_description",
           "normalized": "String-\u003eMaybe ContentDescription",
@@ -2268,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "get_content_id",
           "package": "mime-string",
@@ -2277,6 +2484,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "get_content_id",
           "normalized": "String-\u003eMaybe ContentID",
@@ -2291,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "get_content_transfer_encoding",
           "package": "mime-string",
@@ -2300,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "get_content_transfer_encoding",
           "normalized": "String-\u003eMaybe ContentTransferEncoding",
@@ -2314,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "get_content_type",
           "package": "mime-string",
@@ -2323,6 +2534,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "get_content_type",
           "normalized": "String-\u003eMaybe ContentType",
@@ -2337,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "get_from",
           "package": "mime-string",
@@ -2346,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "get_from",
           "normalized": "String-\u003eMaybe From",
@@ -2360,6 +2574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "get_mime_version",
           "package": "mime-string",
@@ -2369,6 +2584,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "get_mime_version",
           "normalized": "String-\u003eMaybe MIMEVersion",
@@ -2383,6 +2599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "get_subject",
           "package": "mime-string",
@@ -2392,6 +2609,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "get_subject",
           "normalized": "String-\u003eMaybe Subject",
@@ -2406,6 +2624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "get_to",
           "package": "mime-string",
@@ -2415,6 +2634,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "get_to",
           "normalized": "String-\u003eMaybe To",
@@ -2429,6 +2649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "p_ci_string",
           "package": "mime-string",
@@ -2438,6 +2659,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "p_ci_string",
           "normalized": "String-\u003eParser Char String",
@@ -2452,6 +2674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "p_extension_token",
           "package": "mime-string",
@@ -2461,6 +2684,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "p_extension_token",
           "package": "mime-string",
@@ -2473,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "p_parameter",
           "package": "mime-string",
@@ -2482,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "p_parameter",
           "package": "mime-string",
@@ -2494,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "p_quoted_string",
           "package": "mime-string",
@@ -2503,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "p_quoted_string",
           "package": "mime-string",
@@ -2515,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Headers",
           "name": "p_value",
           "package": "mime-string",
@@ -2524,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Headers",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Headers",
           "name": "p_value",
           "package": "mime-string",
@@ -2536,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Parse",
           "name": "Parse",
           "package": "mime-string",
@@ -2544,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Parse",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Parse",
           "name": "Parse",
           "package": "mime-string",
@@ -2557,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Parse",
           "name": "convertAsciiToUtf8",
           "package": "mime-string",
@@ -2566,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Parse",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Parse",
           "name": "convertAsciiToUtf8",
           "normalized": "String-\u003eString",
@@ -2581,6 +2815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Parse",
           "name": "get_filename",
           "package": "mime-string",
@@ -2590,6 +2825,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Parse",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Parse",
           "name": "get_filename",
           "normalized": "ContentDisposition-\u003eContentType-\u003eFilePath",
@@ -2604,6 +2840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Parse",
           "name": "get_header",
           "package": "mime-string",
@@ -2613,6 +2850,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Parse",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Parse",
           "name": "get_header",
           "normalized": "Headers-\u003eString-\u003e(String-\u003eMaybe a)-\u003eMaybe a",
@@ -2627,6 +2865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Parse",
           "name": "get_parts",
           "package": "mime-string",
@@ -2636,6 +2875,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Parse",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Parse",
           "name": "get_parts",
           "normalized": "String-\u003eString-\u003e(String,[String],String)",
@@ -2650,6 +2890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Parse",
           "name": "lookup_param",
           "package": "mime-string",
@@ -2659,6 +2900,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Parse",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Parse",
           "name": "lookup_param",
           "normalized": "String-\u003e[Parameter]-\u003eMaybe String",
@@ -2673,6 +2915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Parse",
           "name": "make_mime_message_content",
           "package": "mime-string",
@@ -2682,6 +2925,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Parse",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Parse",
           "name": "make_mime_message_content",
           "normalized": "ContentType-\u003eHeaders-\u003eString-\u003eParseM MessageContent",
@@ -2696,6 +2940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Parse",
           "name": "make_mime_message_info",
           "package": "mime-string",
@@ -2705,6 +2950,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Parse",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Parse",
           "name": "make_mime_message_info",
           "normalized": "Headers-\u003eMessageInfo",
@@ -2719,6 +2965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Parse",
           "name": "mkMessage",
           "package": "mime-string",
@@ -2728,6 +2975,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Parse",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Parse",
           "name": "mkMessage",
           "normalized": "MessageInfo-\u003eParseM MessageContent-\u003eParseM Message",
@@ -2743,6 +2991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Parse",
           "name": "mk_header",
           "package": "mime-string",
@@ -2752,6 +3001,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Parse",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Parse",
           "name": "mk_header",
           "normalized": "[String]-\u003eHeader",
@@ -2766,6 +3016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Parse",
           "name": "mk_rev_header",
           "package": "mime-string",
@@ -2775,6 +3026,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Parse",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Parse",
           "name": "mk_rev_header",
           "normalized": "[String]-\u003eHeader",
@@ -2789,6 +3041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Parse",
           "name": "parse",
           "package": "mime-string",
@@ -2798,6 +3051,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Parse",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Parse",
           "name": "parse",
           "normalized": "String-\u003eMessage",
@@ -2812,6 +3066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Parse",
           "name": "parse_headers",
           "package": "mime-string",
@@ -2821,6 +3076,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Parse",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Parse",
           "name": "parse_headers",
           "normalized": "String-\u003e(Headers,Maybe String)",
@@ -2835,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Parse",
           "name": "parse_message",
           "package": "mime-string",
@@ -2844,6 +3101,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Parse",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Parse",
           "name": "parse_message",
           "normalized": "String-\u003eParseM Message",
@@ -2858,6 +3116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Parse",
           "name": "parse_mime_message",
           "package": "mime-string",
@@ -2867,6 +3126,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Parse",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Parse",
           "name": "parse_mime_message",
           "normalized": "ContentType-\u003eString-\u003eParseM Message",
@@ -2881,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Parse",
           "name": "tryConvertFuzzy",
           "package": "mime-string",
@@ -2890,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Parse",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Parse",
           "name": "tryConvertFuzzy",
           "normalized": "Fuzzy-\u003eEncodingName-\u003eEncodingName-\u003eByteString-\u003eMaybe ByteString",
@@ -2905,6 +3167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.QuotedPrintable",
           "name": "QuotedPrintable",
           "package": "mime-string",
@@ -2913,6 +3176,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String QuotedPrintable",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.QuotedPrintable",
           "name": "QuotedPrintable",
           "package": "mime-string",
@@ -2926,6 +3190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.QuotedPrintable",
           "name": "decode",
           "package": "mime-string",
@@ -2935,6 +3200,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String QuotedPrintable",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.QuotedPrintable",
           "name": "decode",
           "normalized": "[String]-\u003eString",
@@ -2949,6 +3215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.QuotedPrintable",
           "name": "encode",
           "package": "mime-string",
@@ -2958,6 +3225,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String QuotedPrintable",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.QuotedPrintable",
           "name": "encode",
           "normalized": "[String]-\u003eString",
@@ -2972,6 +3240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "Types",
           "package": "mime-string",
@@ -2980,6 +3249,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "Types",
           "package": "mime-string",
@@ -2993,6 +3263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "Header",
           "package": "mime-string",
@@ -3001,6 +3272,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "Header",
           "package": "mime-string",
@@ -3014,6 +3286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "Headers",
           "package": "mime-string",
@@ -3022,6 +3295,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "Headers",
           "package": "mime-string",
@@ -3035,6 +3309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "Message",
           "package": "mime-string",
@@ -3043,6 +3318,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "Message",
           "package": "mime-string",
@@ -3056,6 +3332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "MessageContent",
           "package": "mime-string",
@@ -3064,6 +3341,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "MessageContent",
           "package": "mime-string",
@@ -3077,6 +3355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "MessageInfo",
           "package": "mime-string",
@@ -3085,6 +3364,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "MessageInfo",
           "package": "mime-string",
@@ -3098,6 +3378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "Multipart",
           "package": "mime-string",
@@ -3106,6 +3387,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "Multipart",
           "package": "mime-string",
@@ -3119,6 +3401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "ParseM",
           "package": "mime-string",
@@ -3127,6 +3410,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "ParseM",
           "package": "mime-string",
@@ -3140,6 +3424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "PartNumber",
           "package": "mime-string",
@@ -3148,6 +3433,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "PartNumber",
           "package": "mime-string",
@@ -3161,6 +3447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "Alternative",
           "package": "mime-string",
@@ -3170,6 +3457,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "Alternative",
           "package": "mime-string",
@@ -3183,6 +3471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "Body",
           "package": "mime-string",
@@ -3192,6 +3481,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "Body",
           "package": "mime-string",
@@ -3205,6 +3495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "Data",
           "package": "mime-string",
@@ -3214,6 +3505,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "Data",
           "package": "mime-string",
@@ -3227,6 +3519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "Digest",
           "package": "mime-string",
@@ -3236,6 +3529,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "Digest",
           "package": "mime-string",
@@ -3249,6 +3543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "Header",
           "package": "mime-string",
@@ -3258,6 +3553,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "Header",
           "package": "mime-string",
@@ -3271,6 +3567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "Message",
           "package": "mime-string",
@@ -3280,6 +3577,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "Message",
           "package": "mime-string",
@@ -3293,6 +3591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "MessageInfo",
           "package": "mime-string",
@@ -3302,6 +3601,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "MessageInfo",
           "package": "mime-string",
@@ -3315,6 +3615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "Mixed",
           "package": "mime-string",
@@ -3324,6 +3625,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "Mixed",
           "package": "mime-string",
@@ -3337,6 +3639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "Multipart",
           "package": "mime-string",
@@ -3346,6 +3649,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "Multipart",
           "normalized": "Multipart String[Message]String",
@@ -3361,6 +3665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "NoContent",
           "package": "mime-string",
@@ -3370,6 +3675,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "NoContent",
           "package": "mime-string",
@@ -3383,6 +3689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "Parallel",
           "package": "mime-string",
@@ -3392,6 +3699,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "Parallel",
           "package": "mime-string",
@@ -3405,6 +3713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "RFC822",
           "package": "mime-string",
@@ -3414,6 +3723,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "RFC822",
           "package": "mime-string",
@@ -3427,6 +3737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "ascii_text_content_type",
           "package": "mime-string",
@@ -3436,6 +3747,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "ascii_text_content_type",
           "package": "mime-string",
@@ -3448,6 +3760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "digest_content_type",
           "package": "mime-string",
@@ -3457,6 +3770,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "digest_content_type",
           "package": "mime-string",
@@ -3469,6 +3783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "h_body",
           "package": "mime-string",
@@ -3478,6 +3793,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "h_body",
           "package": "mime-string",
@@ -3490,6 +3806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "h_name",
           "package": "mime-string",
@@ -3499,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "h_name",
           "package": "mime-string",
@@ -3511,6 +3829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "h_raw_header",
           "package": "mime-string",
@@ -3520,6 +3839,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "h_raw_header",
           "normalized": "[String]",
@@ -3534,6 +3854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "h_raw_name",
           "package": "mime-string",
@@ -3543,6 +3864,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "h_raw_name",
           "package": "mime-string",
@@ -3555,6 +3877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "m_message_content",
           "package": "mime-string",
@@ -3564,6 +3887,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "m_message_content",
           "package": "mime-string",
@@ -3576,6 +3900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "m_message_info",
           "package": "mime-string",
@@ -3585,6 +3910,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "m_message_info",
           "package": "mime-string",
@@ -3597,6 +3923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "m_part_number",
           "package": "mime-string",
@@ -3606,6 +3933,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "m_part_number",
           "package": "mime-string",
@@ -3618,6 +3946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "mi_content_description",
           "package": "mime-string",
@@ -3627,6 +3956,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "mi_content_description",
           "package": "mime-string",
@@ -3639,6 +3969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "mi_date",
           "package": "mime-string",
@@ -3648,6 +3979,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "mi_date",
           "package": "mime-string",
@@ -3660,6 +3992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "mi_from",
           "package": "mime-string",
@@ -3669,6 +4002,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "mi_from",
           "package": "mime-string",
@@ -3681,6 +4015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "mi_headers",
           "package": "mime-string",
@@ -3690,6 +4025,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "mi_headers",
           "package": "mime-string",
@@ -3702,6 +4038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "mi_subject",
           "package": "mime-string",
@@ -3711,6 +4048,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "mi_subject",
           "package": "mime-string",
@@ -3723,6 +4061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "mi_to",
           "package": "mime-string",
@@ -3732,6 +4071,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "mi_to",
           "package": "mime-string",
@@ -3744,6 +4084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "mkBody",
           "package": "mime-string",
@@ -3753,6 +4094,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "mkBody",
           "normalized": "ContentType-\u003eFilePath-\u003eString-\u003eParseM MessageContent",
@@ -3768,6 +4110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String.Types",
           "name": "mkData",
           "package": "mime-string",
@@ -3777,6 +4120,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String Types",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String.Types",
           "name": "mkData",
           "normalized": "Maybe ContentTransferEncoding-\u003eContentType-\u003eFilePath-\u003eString-\u003eParseM MessageContent",
@@ -3792,6 +4136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:56 UTC 2014",
           "module": "Codec.MIME.String",
           "name": "String",
           "package": "mime-string",
@@ -3800,6 +4145,7 @@
         },
         "index": {
           "hierarchy": "Codec MIME String",
+          "indexed": "2014-03-11T19:17:56",
           "module": "Codec.MIME.String",
           "name": "String",
           "package": "mime-string",

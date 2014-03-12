@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "egison-tutorial"
+        "phrase": "egison-tutorial",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "c-storable-deriving"
+        "phrase": "c-storable-deriving",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis primarily exports the CStorable typeclass, which may have its\n   methods automatically defaulted if it has a Generic instance.\n   Then, this instance can be transfered via the \u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003e constructor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:27:26 UTC 2014",
           "module": "Foreign.CStorable",
           "name": "CStorable",
           "package": "c-storable-deriving",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This primarily exports the CStorable typeclass which may have its methods automatically defaulted if it has Generic instance Then this instance can be transfered via the Storable constructor",
           "hierarchy": "Foreign CStorable",
+          "indexed": "2014-03-11T17:27:26",
           "module": "Foreign.CStorable",
           "name": "CStorable",
           "package": "c-storable-deriving",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis typeclass is basically just a duplicate of \u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003e. It exists\n   because I can't easily modify \u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003e, as it is part of base.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:26 UTC 2014",
           "module": "Foreign.CStorable",
           "name": "CStorable",
           "package": "c-storable-deriving",
@@ -51,6 +54,7 @@
         "index": {
           "description": "This typeclass is basically just duplicate of Storable It exists because can easily modify Storable as it is part of base",
           "hierarchy": "Foreign CStorable",
+          "indexed": "2014-03-11T17:27:26",
           "module": "Foreign.CStorable",
           "name": "CStorable",
           "package": "c-storable-deriving",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplying the \u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003e constructor to something which is Storable\n   gives it a corresponding CStorable instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:26 UTC 2014",
           "module": "Foreign.CStorable",
           "name": "StorableWrap",
           "package": "c-storable-deriving",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Applying the Storable constructor to something which is Storable gives it corresponding CStorable instance",
           "hierarchy": "Foreign CStorable",
+          "indexed": "2014-03-11T17:27:26",
           "module": "Foreign.CStorable",
           "name": "StorableWrap",
           "package": "c-storable-deriving",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:26 UTC 2014",
           "module": "Foreign.CStorable",
           "name": "Storable",
           "package": "c-storable-deriving",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Foreign CStorable",
+          "indexed": "2014-03-11T17:27:26",
           "module": "Foreign.CStorable",
           "name": "Storable",
           "package": "c-storable-deriving",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:26 UTC 2014",
           "module": "Foreign.CStorable",
           "name": "cAlignment",
           "package": "c-storable-deriving",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Foreign CStorable",
+          "indexed": "2014-03-11T17:27:26",
           "module": "Foreign.CStorable",
           "name": "cAlignment",
           "normalized": "a-\u003eInt",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:26 UTC 2014",
           "module": "Foreign.CStorable",
           "name": "cPeek",
           "package": "c-storable-deriving",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Foreign CStorable",
+          "indexed": "2014-03-11T17:27:26",
           "module": "Foreign.CStorable",
           "name": "cPeek",
           "normalized": "Ptr a-\u003eIO a",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:26 UTC 2014",
           "module": "Foreign.CStorable",
           "name": "cPoke",
           "package": "c-storable-deriving",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Foreign CStorable",
+          "indexed": "2014-03-11T17:27:26",
           "module": "Foreign.CStorable",
           "name": "cPoke",
           "normalized": "Ptr a-\u003ea-\u003eIO()",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:26 UTC 2014",
           "module": "Foreign.CStorable",
           "name": "cSizeOf",
           "package": "c-storable-deriving",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Foreign CStorable",
+          "indexed": "2014-03-11T17:27:26",
           "module": "Foreign.CStorable",
           "name": "cSizeOf",
           "normalized": "a-\u003eInt",

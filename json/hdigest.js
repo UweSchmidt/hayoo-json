@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hdigest"
+        "phrase": "hdigest",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:42 UTC 2014",
           "module": "Network.HTTP.Digest",
           "name": "Digest",
           "package": "hdigest",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Digest",
+          "indexed": "2014-03-11T18:35:42",
           "module": "Network.HTTP.Digest",
           "name": "Digest",
           "package": "hdigest",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:42 UTC 2014",
           "module": "Network.HTTP.Digest",
           "name": "DigestResult",
           "package": "hdigest",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Digest",
+          "indexed": "2014-03-11T18:35:42",
           "module": "Network.HTTP.Digest",
           "name": "DigestResult",
           "package": "hdigest",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:42 UTC 2014",
           "module": "Network.HTTP.Digest",
           "name": "DigestBadRequest",
           "package": "hdigest",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Digest",
+          "indexed": "2014-03-11T18:35:42",
           "module": "Network.HTTP.Digest",
           "name": "DigestBadRequest",
           "package": "hdigest",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:42 UTC 2014",
           "module": "Network.HTTP.Digest",
           "name": "DigestIncorrect",
           "package": "hdigest",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Digest",
+          "indexed": "2014-03-11T18:35:42",
           "module": "Network.HTTP.Digest",
           "name": "DigestIncorrect",
           "package": "hdigest",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:42 UTC 2014",
           "module": "Network.HTTP.Digest",
           "name": "DigestMissing",
           "package": "hdigest",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Digest",
+          "indexed": "2014-03-11T18:35:42",
           "module": "Network.HTTP.Digest",
           "name": "DigestMissing",
           "package": "hdigest",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:42 UTC 2014",
           "module": "Network.HTTP.Digest",
           "name": "DigestStale",
           "package": "hdigest",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Digest",
+          "indexed": "2014-03-11T18:35:42",
           "module": "Network.HTTP.Digest",
           "name": "DigestStale",
           "package": "hdigest",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:42 UTC 2014",
           "module": "Network.HTTP.Digest",
           "name": "DigestSuccess",
           "package": "hdigest",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Digest",
+          "indexed": "2014-03-11T18:35:42",
           "module": "Network.HTTP.Digest",
           "name": "DigestSuccess",
           "package": "hdigest",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:42 UTC 2014",
           "module": "Network.HTTP.Digest",
           "name": "authenticateDigest",
           "package": "hdigest",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Digest",
+          "indexed": "2014-03-11T18:35:42",
           "module": "Network.HTTP.Digest",
           "name": "authenticateDigest",
           "normalized": "String-\u003e(String-\u003ea(Maybe(b,String)))-\u003ea(DigestResult b)",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:42 UTC 2014",
           "module": "Network.HTTP.Digest",
           "name": "makeHA1",
           "package": "hdigest",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Digest",
+          "indexed": "2014-03-11T18:35:42",
           "module": "Network.HTTP.Digest",
           "name": "makeHA1",
           "normalized": "String-\u003eString-\u003eString-\u003eString",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:42 UTC 2014",
           "module": "Network.HTTP.Digest",
           "name": "setDigestRequired",
           "package": "hdigest",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Digest",
+          "indexed": "2014-03-11T18:35:42",
           "module": "Network.HTTP.Digest",
           "name": "setDigestRequired",
           "normalized": "String-\u003eBool-\u003ea()",

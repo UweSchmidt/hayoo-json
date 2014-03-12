@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "clevercss"
+        "phrase": "clevercss",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMain parsing and evaluation module for CleverCSS.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:34:16 UTC 2014",
           "module": "Text.CSS.CleverCSS",
           "name": "CleverCSS",
           "package": "clevercss",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Main parsing and evaluation module for CleverCSS",
           "hierarchy": "Text CSS CleverCSS",
+          "indexed": "2014-03-11T17:34:16",
           "module": "Text.CSS.CleverCSS",
           "name": "CleverCSS",
           "package": "clevercss",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert CleverCSS source to CSS.\n   For documentation of available syntax and command line use, see\n   \u003ca\u003ehttp://sandbox.pocoo.org/clevercss-hs/\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:34:16 UTC 2014",
           "module": "Text.CSS.CleverCSS",
           "name": "cleverCSSConvert",
           "package": "clevercss",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Convert CleverCSS source to CSS For documentation of available syntax and command line use see http sandbox.pocoo.org clevercss-hs",
           "hierarchy": "Text CSS CleverCSS",
+          "indexed": "2014-03-11T17:34:16",
           "module": "Text.CSS.CleverCSS",
           "name": "cleverCSSConvert",
           "normalized": "SourceName-\u003eString-\u003e[(String,String)]-\u003eIO(Either String String)",

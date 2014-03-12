@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "darcs-benchmark"
+        "phrase": "darcs-benchmark",
+        "type": "phrase"
       },
       "type": "context"
     }

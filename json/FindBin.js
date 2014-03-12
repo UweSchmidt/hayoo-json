@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "FindBin"
+        "phrase": "FindBin",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:20 UTC 2014",
           "module": "System.Environment.FindBin",
           "name": "FindBin",
           "package": "FindBin",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Environment FindBin",
+          "indexed": "2014-03-11T16:41:20",
           "module": "System.Environment.FindBin",
           "name": "FindBin",
           "package": "FindBin",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafe (\u003cem\u003econstant\u003c/em\u003e) version of \u003ccode\u003e\u003ca\u003egetProgPath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:20 UTC 2014",
           "module": "System.Environment.FindBin",
           "name": "__Bin__",
           "package": "FindBin",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Unsafe constant version of getProgPath",
           "hierarchy": "System Environment FindBin",
+          "indexed": "2014-03-11T16:41:20",
           "module": "System.Environment.FindBin",
           "name": "__Bin__",
           "package": "FindBin",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the full directory to the running program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:20 UTC 2014",
           "module": "System.Environment.FindBin",
           "name": "getProgPath",
           "package": "FindBin",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Get the full directory to the running program",
           "hierarchy": "System Environment FindBin",
+          "indexed": "2014-03-11T16:41:20",
           "module": "System.Environment.FindBin",
           "name": "getProgPath",
           "package": "FindBin",

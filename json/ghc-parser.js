@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghc-parser"
+        "phrase": "ghc-parser",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "HappyParser",
           "package": "ghc-parser",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC HappyParser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "HappyParser",
           "package": "ghc-parser",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "fullDeclaration",
           "package": "ghc-parser",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC HappyParser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "fullDeclaration",
           "package": "ghc-parser",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "fullExpression",
           "package": "ghc-parser",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC HappyParser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "fullExpression",
           "package": "ghc-parser",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "fullImport",
           "package": "ghc-parser",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC HappyParser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "fullImport",
           "package": "ghc-parser",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "fullModule",
           "package": "ghc-parser",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC HappyParser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "fullModule",
           "package": "ghc-parser",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "fullStatement",
           "package": "ghc-parser",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC HappyParser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "fullStatement",
           "package": "ghc-parser",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "fullTypeSignature",
           "package": "ghc-parser",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC HappyParser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "fullTypeSignature",
           "package": "ghc-parser",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "partialDeclaration",
           "package": "ghc-parser",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC HappyParser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "partialDeclaration",
           "package": "ghc-parser",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "partialExpression",
           "package": "ghc-parser",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC HappyParser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "partialExpression",
           "package": "ghc-parser",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "partialImport",
           "package": "ghc-parser",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC HappyParser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "partialImport",
           "package": "ghc-parser",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "partialModule",
           "package": "ghc-parser",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC HappyParser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "partialModule",
           "package": "ghc-parser",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "partialStatement",
           "package": "ghc-parser",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC HappyParser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "partialStatement",
           "package": "ghc-parser",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "partialTypeSignature",
           "package": "ghc-parser",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC HappyParser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.HappyParser",
           "name": "partialTypeSignature",
           "package": "ghc-parser",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "Parser",
           "package": "ghc-parser",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "Parser",
           "package": "ghc-parser",
@@ -325,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA column number in an input string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "ColumnNumber",
           "package": "ghc-parser",
@@ -334,6 +363,7 @@
         "index": {
           "description": "column number in an input string",
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "ColumnNumber",
           "package": "ghc-parser",
@@ -348,6 +378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn error message string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "ErrMsg",
           "package": "ghc-parser",
@@ -357,6 +388,7 @@
         "index": {
           "description": "An error message string",
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "ErrMsg",
           "package": "ghc-parser",
@@ -371,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA line number in an input string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "LineNumber",
           "package": "ghc-parser",
@@ -380,6 +413,7 @@
         "index": {
           "description": "line number in an input string",
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "LineNumber",
           "package": "ghc-parser",
@@ -394,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore locations along with a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "Located",
           "package": "ghc-parser",
@@ -403,6 +438,7 @@
         "index": {
           "description": "Store locations along with value",
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "Located",
           "package": "ghc-parser",
@@ -417,6 +453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput from running a parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "ParseOutput",
           "package": "ghc-parser",
@@ -426,6 +463,7 @@
         "index": {
           "description": "Output from running parser",
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "ParseOutput",
           "package": "ghc-parser",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "Parser",
           "package": "ghc-parser",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "Parser",
           "package": "ghc-parser",
@@ -461,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA location in an input string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "StringLoc",
           "package": "ghc-parser",
@@ -470,6 +511,7 @@
         "index": {
           "description": "location in an input string",
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "StringLoc",
           "package": "ghc-parser",
@@ -484,6 +526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser failed with given error message and location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "Failure",
           "package": "ghc-parser",
@@ -494,6 +537,7 @@
         "index": {
           "description": "Parser failed with given error message and location",
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "Failure",
           "package": "ghc-parser",
@@ -507,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "Loc",
           "package": "ghc-parser",
@@ -516,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "Loc",
           "package": "ghc-parser",
@@ -529,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "Located",
           "package": "ghc-parser",
@@ -538,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "Located",
           "package": "ghc-parser",
@@ -552,6 +600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser succeeded with an output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "Parsed",
           "package": "ghc-parser",
@@ -562,6 +611,7 @@
         "index": {
           "description": "Parser succeeded with an output",
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "Parsed",
           "package": "ghc-parser",
@@ -576,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartial parser succeeded with an output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "Partial",
           "package": "ghc-parser",
@@ -586,6 +637,7 @@
         "index": {
           "description": "Partial parser succeeded with an output",
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "Partial",
           "normalized": "Partial a(String,String)",
@@ -602,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit an input string into chunks based on indentation.\n A chunk is a line and all lines immediately following that are indented\n beyond the indentation of the first line. This parses Haskell layout\n rules properly, and allows using multiline expressions via indentation. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "layoutChunks",
           "package": "ghc-parser",
@@ -612,6 +665,7 @@
         "index": {
           "description": "Split an input string into chunks based on indentation chunk is line and all lines immediately following that are indented beyond the indentation of the first line This parses Haskell layout rules properly and allows using multiline expressions via indentation",
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "layoutChunks",
           "normalized": "String-\u003e[Located String]",
@@ -627,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "line",
           "package": "ghc-parser",
@@ -636,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "line",
           "package": "ghc-parser",
@@ -648,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "parserDeclaration",
           "package": "ghc-parser",
@@ -657,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "parserDeclaration",
           "package": "ghc-parser",
@@ -670,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "parserExpression",
           "package": "ghc-parser",
@@ -679,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "parserExpression",
           "package": "ghc-parser",
@@ -692,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "parserImport",
           "package": "ghc-parser",
@@ -701,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "parserImport",
           "package": "ghc-parser",
@@ -714,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "parserModule",
           "package": "ghc-parser",
@@ -723,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "parserModule",
           "package": "ghc-parser",
@@ -736,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "parserStatement",
           "package": "ghc-parser",
@@ -745,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "parserStatement",
           "package": "ghc-parser",
@@ -758,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "parserTypeSignature",
           "package": "ghc-parser",
@@ -767,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "parserTypeSignature",
           "package": "ghc-parser",
@@ -780,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "partialDeclaration",
           "package": "ghc-parser",
@@ -789,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "partialDeclaration",
           "package": "ghc-parser",
@@ -802,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "partialExpression",
           "package": "ghc-parser",
@@ -811,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "partialExpression",
           "package": "ghc-parser",
@@ -824,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "partialImport",
           "package": "ghc-parser",
@@ -833,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "partialImport",
           "package": "ghc-parser",
@@ -846,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "partialModule",
           "package": "ghc-parser",
@@ -855,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "partialModule",
           "package": "ghc-parser",
@@ -868,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "partialStatement",
           "package": "ghc-parser",
@@ -877,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "partialStatement",
           "package": "ghc-parser",
@@ -890,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "partialTypeSignature",
           "package": "ghc-parser",
@@ -899,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "partialTypeSignature",
           "package": "ghc-parser",
@@ -913,6 +993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop comments from Haskell source.\n Simply gets rid of them, does not replace them in any way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "removeComments",
           "package": "ghc-parser",
@@ -923,6 +1004,7 @@
         "index": {
           "description": "Drop comments from Haskell source Simply gets rid of them does not replace them in any way",
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "removeComments",
           "normalized": "String-\u003eString",
@@ -939,6 +1021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a GHC parser on a string. Return success or failure with\n associated information for both.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "runParser",
           "package": "ghc-parser",
@@ -949,6 +1032,7 @@
         "index": {
           "description": "Run GHC parser on string Return success or failure with associated information for both",
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "runParser",
           "normalized": "DynFlags-\u003eParser a-\u003eString-\u003eParseOutput a",
@@ -964,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:20 UTC 2014",
           "module": "Language.Haskell.GHC.Parser",
           "name": "unloc",
           "package": "ghc-parser",
@@ -973,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell GHC Parser",
+          "indexed": "2014-03-11T18:16:20",
           "module": "Language.Haskell.GHC.Parser",
           "name": "unloc",
           "package": "ghc-parser",

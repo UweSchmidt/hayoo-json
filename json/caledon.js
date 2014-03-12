@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "caledon"
+        "phrase": "caledon",
+        "type": "phrase"
       },
       "type": "context"
     }

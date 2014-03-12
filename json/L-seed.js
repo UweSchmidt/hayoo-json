@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "L-seed"
+        "phrase": "L-seed",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contians the main nobs to control the game play.\n\u003c/p\u003e\u003cp\u003eAll length data is relative to the screen width.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Constants",
           "name": "Constants",
           "package": "L-seed",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module contians the main nobs to control the game play All length data is relative to the screen width",
           "hierarchy": "Lseed Constants",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Constants",
           "name": "Constants",
           "package": "L-seed",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Constants",
           "name": "blossomSize",
           "package": "L-seed",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Lseed Constants",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Constants",
           "name": "blossomSize",
           "package": "L-seed",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Constants",
           "name": "budSize",
           "package": "L-seed",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Lseed Constants",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Constants",
           "name": "budSize",
           "package": "L-seed",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCost (in light units) per (sum for all branches (length * distance), to limit the growth of the plants\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Constants",
           "name": "costPerLength",
           "package": "L-seed",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Cost in light units per sum for all branches length distance to limit the growth of the plants",
           "hierarchy": "Lseed Constants",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Constants",
           "name": "costPerLength",
           "package": "L-seed",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength of one day, in seconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Constants",
           "name": "dayLength",
           "package": "L-seed",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Length of one day in seconds",
           "hierarchy": "Lseed Constants",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Constants",
           "name": "dayLength",
           "package": "L-seed",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Constants",
           "name": "groundLevel",
           "package": "L-seed",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Lseed Constants",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Constants",
           "name": "groundLevel",
           "package": "L-seed",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlant length growth per Day and Light\n\u003c/p\u003e\u003cp\u003e1 means: Can grow one stipeLength during one day, when catching the sunlight\n with one branch of (projected) length screenwidth\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Constants",
           "name": "growthPerDayAndLight",
           "package": "L-seed",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Plant length growth per Day and Light means Can grow one stipeLength during one day when catching the sunlight with one branch of projected length screenwidth",
           "hierarchy": "Lseed Constants",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Constants",
           "name": "growthPerDayAndLight",
           "package": "L-seed",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBranch translucency. Proportion of light that is let through by a plant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Constants",
           "name": "lightFalloff",
           "package": "L-seed",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Branch translucency Proportion of light that is let through by plant",
           "hierarchy": "Lseed Constants",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Constants",
           "name": "lightFalloff",
           "package": "L-seed",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\n\u003c/p\u003e\u003cp\u003eMinimum radial angular distance between two branches\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Constants",
           "name": "minAngle",
           "package": "L-seed",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Minimum radial angular distance between two branches",
           "hierarchy": "Lseed Constants",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Constants",
           "name": "minAngle",
           "package": "L-seed",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCost (in length growths equivalent) per seed to be grown\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Constants",
           "name": "seedGrowthCost",
           "package": "L-seed",
@@ -238,6 +257,7 @@
         "index": {
           "description": "Cost in length growths equivalent per seed to be grown",
           "hierarchy": "Lseed Constants",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Constants",
           "name": "seedGrowthCost",
           "package": "L-seed",
@@ -252,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimum growths for plants of size less then smallPlantBoostSize\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Constants",
           "name": "smallPlantBoostLength",
           "package": "L-seed",
@@ -262,6 +283,7 @@
         "index": {
           "description": "Minimum growths for plants of size less then smallPlantBoostSize",
           "hierarchy": "Lseed Constants",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Constants",
           "name": "smallPlantBoostLength",
           "package": "L-seed",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlants up to this size get an boost in growths\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Constants",
           "name": "smallPlantBoostSize",
           "package": "L-seed",
@@ -286,6 +309,7 @@
         "index": {
           "description": "Plants up to this size get an boost in growths",
           "hierarchy": "Lseed Constants",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Constants",
           "name": "smallPlantBoostSize",
           "package": "L-seed",
@@ -299,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Constants",
           "name": "stipeLength",
           "package": "L-seed",
@@ -308,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Lseed Constants",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Constants",
           "name": "stipeLength",
           "package": "L-seed",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Constants",
           "name": "stipeWidth",
           "package": "L-seed",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Lseed Constants",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Constants",
           "name": "stipeWidth",
           "package": "L-seed",
@@ -344,6 +372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLight and growths interpolation frequency\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Constants",
           "name": "ticksPerDay",
           "package": "L-seed",
@@ -354,6 +383,7 @@
         "index": {
           "description": "Light and growths interpolation frequency",
           "hierarchy": "Lseed Constants",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Constants",
           "name": "ticksPerDay",
           "package": "L-seed",
@@ -367,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data.Functions",
           "name": "Functions",
           "package": "L-seed",
@@ -375,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data Functions",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data.Functions",
           "name": "Functions",
           "package": "L-seed",
@@ -389,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to each Planted in a Garden\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data.Functions",
           "name": "mapGarden",
           "package": "L-seed",
@@ -399,6 +432,7 @@
         "index": {
           "description": "Apply function to each Planted in Garden",
           "hierarchy": "Lseed Data Functions",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data.Functions",
           "name": "mapGarden",
           "normalized": "(Planted a-\u003ePlanted b)-\u003eGarden a-\u003eGarden b",
@@ -415,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to the Plant in a Planted\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data.Functions",
           "name": "mapPlanted",
           "package": "L-seed",
@@ -425,6 +460,7 @@
         "index": {
           "description": "Apply function to the Plant in Planted",
           "hierarchy": "Lseed Data Functions",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data.Functions",
           "name": "mapPlanted",
           "normalized": "(Plant a-\u003ePlant b)-\u003ePlanted a-\u003ePlanted b",
@@ -440,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data.Functions",
           "name": "plantLength",
           "package": "L-seed",
@@ -449,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data Functions",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data.Functions",
           "name": "plantLength",
           "normalized": "Plant a-\u003eDouble",
@@ -465,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePuts the length of the current segment in the additional information field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data.Functions",
           "name": "plantPieceLengths",
           "package": "L-seed",
@@ -475,6 +514,7 @@
         "index": {
           "description": "Puts the length of the current segment in the additional information field",
           "hierarchy": "Lseed Data Functions",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data.Functions",
           "name": "plantPieceLengths",
           "normalized": "Plant a-\u003ePlant Double",
@@ -490,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data.Functions",
           "name": "plantTotalSum",
           "package": "L-seed",
@@ -499,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data Functions",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data.Functions",
           "name": "plantTotalSum",
           "normalized": "Plant Double-\u003eDouble",
@@ -514,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data.Functions",
           "name": "plantWeightedPieceLengths",
           "package": "L-seed",
@@ -523,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data Functions",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data.Functions",
           "name": "plantWeightedPieceLengths",
           "normalized": "Double-\u003ePlant a-\u003ePlant Double",
@@ -538,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data.Functions",
           "name": "subPieceAccumulate",
           "package": "L-seed",
@@ -547,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data Functions",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data.Functions",
           "name": "subPieceAccumulate",
           "normalized": "Plant a-\u003ePlant a",
@@ -562,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data.Functions",
           "name": "weightedPlantLength",
           "package": "L-seed",
@@ -571,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data Functions",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data.Functions",
           "name": "weightedPlantLength",
           "normalized": "Plant a-\u003eDouble",
@@ -587,6 +635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to each Planted in a Garden, with an extra argument from a list\n\u003c/p\u003e\u003cp\u003eYou need to make sure that the list is long enough!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data.Functions",
           "name": "zipWithGarden",
           "package": "L-seed",
@@ -597,6 +646,7 @@
         "index": {
           "description": "Apply function to each Planted in Garden with an extra argument from list You need to make sure that the list is long enough",
           "hierarchy": "Lseed Data Functions",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data.Functions",
           "name": "zipWithGarden",
           "normalized": "(Planted a-\u003eb-\u003ePlanted c)-\u003eGarden a-\u003e[b]-\u003eGarden c",
@@ -613,6 +663,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData definitions for L-seed\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "Data",
           "package": "L-seed",
@@ -622,6 +673,7 @@
         "index": {
           "description": "Data definitions for L-seed",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "Data",
           "package": "L-seed",
@@ -636,6 +688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLight angle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "Angle",
           "package": "L-seed",
@@ -645,6 +698,7 @@
         "index": {
           "description": "Light angle",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "Angle",
           "package": "L-seed",
@@ -658,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "AnnotatedGarden",
           "package": "L-seed",
@@ -666,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "AnnotatedGarden",
           "package": "L-seed",
@@ -679,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "AnnotatedPlant",
           "package": "L-seed",
@@ -687,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "AnnotatedPlant",
           "package": "L-seed",
@@ -700,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "AnnotatedPlanted",
           "package": "L-seed",
@@ -708,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "AnnotatedPlanted",
           "package": "L-seed",
@@ -721,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "Cmp",
           "package": "L-seed",
@@ -729,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "Cmp",
           "package": "L-seed",
@@ -742,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "Condition",
           "package": "L-seed",
@@ -750,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "Condition",
           "package": "L-seed",
@@ -764,6 +828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of plants, together with their position in the garden, in the interval [0,1]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "Garden",
           "package": "L-seed",
@@ -773,6 +838,7 @@
         "index": {
           "description": "list of plants together with their position in the garden in the interval",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "Garden",
           "package": "L-seed",
@@ -787,6 +853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMethods to get the initial garden and the updated code when a plant multiplies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "GardenSource",
           "package": "L-seed",
@@ -796,6 +863,7 @@
         "index": {
           "description": "Methods to get the initial garden and the updated code when plant multiplies",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "GardenSource",
           "package": "L-seed",
@@ -809,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "GrammarAction",
           "package": "L-seed",
@@ -817,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "GrammarAction",
           "package": "L-seed",
@@ -831,6 +901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA complete grammar file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "GrammarFile",
           "package": "L-seed",
@@ -840,6 +911,7 @@
         "index": {
           "description": "complete grammar file",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "GrammarFile",
           "package": "L-seed",
@@ -854,6 +926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single Rule. For now, only single branches\n   can be matched, not whole subtree structures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "GrammarRule",
           "package": "L-seed",
@@ -863,6 +936,7 @@
         "index": {
           "description": "single Rule For now only single branches can be matched not whole subtree structures",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "GrammarRule",
           "package": "L-seed",
@@ -877,6 +951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamed variants of a garden, for more expressive type signatures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "GrowingGarden",
           "package": "L-seed",
@@ -886,6 +961,7 @@
         "index": {
           "description": "Named variants of garden for more expressive type signatures",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "GrowingGarden",
           "package": "L-seed",
@@ -900,6 +976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamed variants of a Plant, for more expressive type signatures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "GrowingPlant",
           "package": "L-seed",
@@ -909,6 +986,7 @@
         "index": {
           "description": "Named variants of Plant for more expressive type signatures",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "GrowingPlant",
           "package": "L-seed",
@@ -923,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamed variants of a Planted, for more expressive type signatures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "GrowingPlanted",
           "package": "L-seed",
@@ -932,6 +1011,7 @@
         "index": {
           "description": "Named variants of Planted for more expressive type signatures",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "GrowingPlanted",
           "package": "L-seed",
@@ -946,6 +1026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA GrowingPlant can be growing in one of these three ways:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "GrowthState",
           "package": "L-seed",
@@ -955,6 +1036,7 @@
         "index": {
           "description": "GrowingPlant can be growing in one of these three ways",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "GrowthState",
           "package": "L-seed",
@@ -968,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "LengthDescr",
           "package": "L-seed",
@@ -976,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "LengthDescr",
           "package": "L-seed",
@@ -989,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "Matchable",
           "package": "L-seed",
@@ -997,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "Matchable",
           "package": "L-seed",
@@ -1011,6 +1097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMain loop observers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "Observer",
           "package": "L-seed",
@@ -1020,6 +1107,7 @@
         "index": {
           "description": "Main loop observers",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "Observer",
           "package": "L-seed",
@@ -1034,6 +1122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA plant, which is\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "Plant",
           "package": "L-seed",
@@ -1043,6 +1132,7 @@
         "index": {
           "description": "plant which is",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "Plant",
           "package": "L-seed",
@@ -1057,6 +1147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA plant with metainformatoin\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "Planted",
           "package": "L-seed",
@@ -1066,6 +1157,7 @@
         "index": {
           "description": "plant with metainformatoin",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "Planted",
           "package": "L-seed",
@@ -1079,6 +1171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "Priority",
           "package": "L-seed",
@@ -1087,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "Priority",
           "package": "L-seed",
@@ -1101,6 +1195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of what is on screen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "ScreenContent",
           "package": "L-seed",
@@ -1110,6 +1205,7 @@
         "index": {
           "description": "Representation of what is on screen",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "ScreenContent",
           "package": "L-seed",
@@ -1124,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA straight, untagged plant with length zero and no branches.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "StipeInfo",
           "package": "L-seed",
@@ -1133,6 +1230,7 @@
         "index": {
           "description": "straight untagged plant with length zero and no branches",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "StipeInfo",
           "package": "L-seed",
@@ -1147,6 +1245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser Tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "UserTag",
           "package": "L-seed",
@@ -1156,6 +1255,7 @@
         "index": {
           "description": "User Tag",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "UserTag",
           "package": "L-seed",
@@ -1169,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "Weight",
           "package": "L-seed",
@@ -1177,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "Weight",
           "package": "L-seed",
@@ -1190,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "Absolute",
           "package": "L-seed",
@@ -1199,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "Absolute",
           "package": "L-seed",
@@ -1212,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "AddBranches",
           "package": "L-seed",
@@ -1221,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "AddBranches",
           "normalized": "AddBranches(Maybe UserTag)Double[(Angle,Double,Maybe UserTag)]",
@@ -1236,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "Additional",
           "package": "L-seed",
@@ -1245,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "Additional",
           "package": "L-seed",
@@ -1259,6 +1367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ein Percent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "AdditionalRelative",
           "package": "L-seed",
@@ -1269,6 +1378,7 @@
         "index": {
           "description": "in Percent",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "AdditionalRelative",
           "package": "L-seed",
@@ -1282,6 +1392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "Always",
           "package": "L-seed",
@@ -1291,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "Always",
           "package": "L-seed",
@@ -1304,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "And",
           "package": "L-seed",
@@ -1313,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "And",
           "package": "L-seed",
@@ -1326,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "Blossom",
           "package": "L-seed",
@@ -1335,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "Blossom",
           "package": "L-seed",
@@ -1349,6 +1465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue indicates the growth target \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "EnlargingTo",
           "package": "L-seed",
@@ -1359,6 +1476,7 @@
         "index": {
           "description": "value indicates the growth target",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "EnlargingTo",
           "package": "L-seed",
@@ -1372,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "Equals",
           "package": "L-seed",
@@ -1381,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "Equals",
           "package": "L-seed",
@@ -1394,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "GE",
           "package": "L-seed",
@@ -1403,6 +1524,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "GE",
           "package": "L-seed",
@@ -1416,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "GardenSource",
           "package": "L-seed",
@@ -1425,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "GardenSource",
           "package": "L-seed",
@@ -1438,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "GrammarRule",
           "package": "L-seed",
@@ -1447,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "GrammarRule",
           "package": "L-seed",
@@ -1460,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "Greater",
           "package": "L-seed",
@@ -1469,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "Greater",
           "package": "L-seed",
@@ -1483,6 +1611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue indicates the current state [0..1]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "GrowingSeed",
           "package": "L-seed",
@@ -1493,6 +1622,7 @@
         "index": {
           "description": "value indicates the current state",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "GrowingSeed",
           "package": "L-seed",
@@ -1506,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "LE",
           "package": "L-seed",
@@ -1515,6 +1646,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "LE",
           "package": "L-seed",
@@ -1528,6 +1660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "Less",
           "package": "L-seed",
@@ -1537,6 +1670,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "Less",
           "package": "L-seed",
@@ -1550,6 +1684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "MatchAngle",
           "package": "L-seed",
@@ -1559,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "MatchAngle",
           "package": "L-seed",
@@ -1572,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "MatchDirection",
           "package": "L-seed",
@@ -1581,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "MatchDirection",
           "package": "L-seed",
@@ -1594,6 +1732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "MatchDistance",
           "package": "L-seed",
@@ -1603,6 +1742,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "MatchDistance",
           "package": "L-seed",
@@ -1616,6 +1756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "MatchLength",
           "package": "L-seed",
@@ -1625,6 +1766,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "MatchLength",
           "package": "L-seed",
@@ -1638,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "MatchLight",
           "package": "L-seed",
@@ -1647,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "MatchLight",
           "package": "L-seed",
@@ -1660,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "MatchSubLength",
           "package": "L-seed",
@@ -1669,6 +1814,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "MatchSubLength",
           "package": "L-seed",
@@ -1682,6 +1828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "MatchSubLight",
           "package": "L-seed",
@@ -1691,6 +1838,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "MatchSubLight",
           "package": "L-seed",
@@ -1704,6 +1852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "NoGrowth",
           "package": "L-seed",
@@ -1713,6 +1862,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "NoGrowth",
           "package": "L-seed",
@@ -1726,6 +1876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "NumCond",
           "package": "L-seed",
@@ -1735,6 +1886,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "NumCond",
           "package": "L-seed",
@@ -1748,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "Observer",
           "package": "L-seed",
@@ -1757,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "Observer",
           "package": "L-seed",
@@ -1770,6 +1924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "Or",
           "package": "L-seed",
@@ -1779,6 +1934,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "Or",
           "package": "L-seed",
@@ -1793,6 +1949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea stipe with a length (factor of stipeLength), an angle relative\n to the parent stipe and a list of plants sprouting at the end\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "Plant",
           "package": "L-seed",
@@ -1803,6 +1960,7 @@
         "index": {
           "description": "stipe with length factor of stipeLength an angle relative to the parent stipe and list of plants sprouting at the end",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "Plant",
           "package": "L-seed",
@@ -1816,6 +1974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "Planted",
           "package": "L-seed",
@@ -1825,6 +1984,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "Planted",
           "package": "L-seed",
@@ -1838,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "ScreenContent",
           "package": "L-seed",
@@ -1847,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "ScreenContent",
           "package": "L-seed",
@@ -1860,6 +2022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "SetLength",
           "package": "L-seed",
@@ -1869,6 +2032,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "SetLength",
           "package": "L-seed",
@@ -1882,6 +2046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "StipeInfo",
           "package": "L-seed",
@@ -1891,6 +2056,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "StipeInfo",
           "package": "L-seed",
@@ -1904,6 +2070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "UserTagIs",
           "package": "L-seed",
@@ -1913,6 +2080,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "UserTagIs",
           "package": "L-seed",
@@ -1926,6 +2094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "constGardenSource",
           "package": "L-seed",
@@ -1935,6 +2104,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "constGardenSource",
           "normalized": "Garden()-\u003eGardenSource",
@@ -1950,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "defaultPriority",
           "package": "L-seed",
@@ -1959,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "defaultPriority",
           "package": "L-seed",
@@ -1972,6 +2144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "defaultWeight",
           "package": "L-seed",
@@ -1981,6 +2154,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "defaultWeight",
           "package": "L-seed",
@@ -1995,6 +2169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLsystem in use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "genome",
           "package": "L-seed",
@@ -2005,6 +2180,7 @@
         "index": {
           "description": "Lsystem in use",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "genome",
           "package": "L-seed",
@@ -2018,6 +2194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalled at the beginning of a season, to aquire the garden\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "getGarden",
           "package": "L-seed",
@@ -2028,6 +2205,7 @@
         "index": {
           "description": "Called at the beginning of season to aquire the garden",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "getGarden",
           "normalized": "IO(Garden())",
@@ -2044,6 +2222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText to display on the screen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "getScreenMessage",
           "package": "L-seed",
@@ -2054,6 +2233,7 @@
         "index": {
           "description": "Text to display on the screen",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "getScreenMessage",
           "package": "L-seed",
@@ -2068,6 +2248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a plant, returns the genome to be used for a seedling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "getUpdatedCode",
           "package": "L-seed",
@@ -2078,6 +2259,7 @@
         "index": {
           "description": "Given plant returns the genome to be used for seedling",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "getUpdatedCode",
           "normalized": "Planted()-\u003eIO GrammarFile",
@@ -2093,6 +2275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "grAction",
           "package": "L-seed",
@@ -2102,6 +2285,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "grAction",
           "package": "L-seed",
@@ -2115,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "grCondition",
           "package": "L-seed",
@@ -2124,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "grCondition",
           "package": "L-seed",
@@ -2137,6 +2323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "grName",
           "package": "L-seed",
@@ -2146,6 +2333,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "grName",
           "package": "L-seed",
@@ -2159,6 +2347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "grPriority",
           "package": "L-seed",
@@ -2168,6 +2357,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "grPriority",
           "package": "L-seed",
@@ -2181,6 +2371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "grWeight",
           "package": "L-seed",
@@ -2190,6 +2381,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "grWeight",
           "package": "L-seed",
@@ -2204,6 +2396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalled before the main loop quits, with the last state of the garden\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "obFinished",
           "package": "L-seed",
@@ -2214,6 +2407,7 @@
         "index": {
           "description": "Called before the main loop quits with the last state of the garden",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "obFinished",
           "normalized": "GrowingGarden-\u003eIO()",
@@ -2230,6 +2424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlso called once per tick, with a function that calculates the\n information that should be displayed given a point in time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "obGrowingState",
           "package": "L-seed",
@@ -2240,6 +2435,7 @@
         "index": {
           "description": "Also called once per tick with function that calculates the information that should be displayed given point in time",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "obGrowingState",
           "normalized": "(ClockTime-\u003eScreenContent)-\u003eIO()",
@@ -2256,6 +2452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalled once per season, before the main loop starts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "obInit",
           "package": "L-seed",
@@ -2266,6 +2463,7 @@
         "index": {
           "description": "Called once per season before the main loop starts",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "obInit",
           "normalized": "IO()",
@@ -2282,6 +2480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalled once before program termination\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "obShutdown",
           "package": "L-seed",
@@ -2292,6 +2491,7 @@
         "index": {
           "description": "Called once before program termination",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "obShutdown",
           "normalized": "IO()",
@@ -2308,6 +2508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalled once per tick, with the current tick number corresponding\n light angle and the current state of the garden\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "obState",
           "package": "L-seed",
@@ -2318,6 +2519,7 @@
         "index": {
           "description": "Called once per tick with the current tick number corresponding light angle and the current state of the garden",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "obState",
           "normalized": "Integer-\u003eAngle-\u003eGrowingGarden-\u003eIO()",
@@ -2333,6 +2535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "pAngle",
           "package": "L-seed",
@@ -2342,6 +2545,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "pAngle",
           "package": "L-seed",
@@ -2355,6 +2559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "pBranches",
           "package": "L-seed",
@@ -2364,6 +2569,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "pBranches",
           "normalized": "[Plant a]",
@@ -2379,6 +2585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "pData",
           "package": "L-seed",
@@ -2388,6 +2595,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "pData",
           "package": "L-seed",
@@ -2401,6 +2609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "pLength",
           "package": "L-seed",
@@ -2410,6 +2619,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "pLength",
           "package": "L-seed",
@@ -2423,6 +2633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "pUserTag",
           "package": "L-seed",
@@ -2432,6 +2643,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "pUserTag",
           "package": "L-seed",
@@ -2446,6 +2658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActual current form of the plant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "phenotype",
           "package": "L-seed",
@@ -2456,6 +2669,7 @@
         "index": {
           "description": "Actual current form of the plant",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "phenotype",
           "package": "L-seed",
@@ -2469,6 +2683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eId of the user that owns this plant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "plantOwner",
           "package": "L-seed",
@@ -2479,6 +2694,7 @@
         "index": {
           "description": "Id of the user that owns this plant",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "plantOwner",
           "package": "L-seed",
@@ -2493,6 +2709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the owner of the plant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "plantOwnerName",
           "package": "L-seed",
@@ -2503,6 +2720,7 @@
         "index": {
           "description": "Name of the owner of the plant",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "plantOwnerName",
           "package": "L-seed",
@@ -2517,6 +2735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosition in the garden, interval [0,1]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "plantPosition",
           "package": "L-seed",
@@ -2527,6 +2746,7 @@
         "index": {
           "description": "Position in the garden interval",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "plantPosition",
           "package": "L-seed",
@@ -2540,6 +2760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "scGarden",
           "package": "L-seed",
@@ -2549,6 +2770,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "scGarden",
           "package": "L-seed",
@@ -2562,6 +2784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "scLightAngle",
           "package": "L-seed",
@@ -2571,6 +2794,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "scLightAngle",
           "package": "L-seed",
@@ -2584,6 +2808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "scMessage",
           "package": "L-seed",
@@ -2593,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "scMessage",
           "package": "L-seed",
@@ -2606,6 +2832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "scTime",
           "package": "L-seed",
@@ -2615,6 +2842,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "scTime",
           "package": "L-seed",
@@ -2628,6 +2856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "siAngle",
           "package": "L-seed",
@@ -2637,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "siAngle",
           "package": "L-seed",
@@ -2650,6 +2880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "siDirection",
           "package": "L-seed",
@@ -2659,6 +2890,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "siDirection",
           "package": "L-seed",
@@ -2673,6 +2905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistance from root\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "siDistance",
           "package": "L-seed",
@@ -2683,6 +2916,7 @@
         "index": {
           "description": "Distance from root",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "siDistance",
           "package": "L-seed",
@@ -2696,6 +2930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "siGrowth",
           "package": "L-seed",
@@ -2705,6 +2940,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "siGrowth",
           "package": "L-seed",
@@ -2719,6 +2955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertical distance from bottom\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "siHeight",
           "package": "L-seed",
@@ -2729,6 +2966,7 @@
         "index": {
           "description": "Vertical distance from bottom",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "siHeight",
           "package": "L-seed",
@@ -2743,6 +2981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea bit redundant, but what shells\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "siLength",
           "package": "L-seed",
@@ -2753,6 +2992,7 @@
         "index": {
           "description": "bit redundant but what shells",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "siLength",
           "package": "L-seed",
@@ -2766,6 +3006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "siLight",
           "package": "L-seed",
@@ -2775,6 +3016,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "siLight",
           "package": "L-seed",
@@ -2789,6 +3031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSideways position, relative to Plant origin\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "siOffset",
           "package": "L-seed",
@@ -2799,6 +3042,7 @@
         "index": {
           "description": "Sideways position relative to Plant origin",
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "siOffset",
           "package": "L-seed",
@@ -2812,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "siSubLength",
           "package": "L-seed",
@@ -2821,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "siSubLength",
           "package": "L-seed",
@@ -2834,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Data",
           "name": "siSubLight",
           "package": "L-seed",
@@ -2843,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "Lseed Data",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Data",
           "name": "siSubLight",
           "package": "L-seed",
@@ -2857,6 +3105,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHelper module providing a monad that collects lines\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Geometry.Generator",
           "name": "Generator",
           "package": "L-seed",
@@ -2866,6 +3115,7 @@
         "index": {
           "description": "Helper module providing monad that collects lines",
           "hierarchy": "Lseed Geometry Generator",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Geometry.Generator",
           "name": "Generator",
           "package": "L-seed",
@@ -2879,6 +3129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Geometry.Generator",
           "name": "GeometryGenerator",
           "package": "L-seed",
@@ -2887,6 +3138,7 @@
         },
         "index": {
           "hierarchy": "Lseed Geometry Generator",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Geometry.Generator",
           "name": "GeometryGenerator",
           "package": "L-seed",
@@ -2900,6 +3152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Geometry.Generator",
           "name": "addLine",
           "package": "L-seed",
@@ -2909,6 +3162,7 @@
         },
         "index": {
           "hierarchy": "Lseed Geometry Generator",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Geometry.Generator",
           "name": "addLine",
           "normalized": "a-\u003eLine-\u003eGeometryGenerator a()",
@@ -2924,6 +3178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Geometry.Generator",
           "name": "rotated",
           "package": "L-seed",
@@ -2933,6 +3188,7 @@
         },
         "index": {
           "hierarchy": "Lseed Geometry Generator",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Geometry.Generator",
           "name": "rotated",
           "normalized": "Double-\u003eGeometryGenerator a b-\u003eGeometryGenerator a b",
@@ -2947,6 +3203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Geometry.Generator",
           "name": "runGeometryGenerator",
           "package": "L-seed",
@@ -2956,6 +3213,7 @@
         },
         "index": {
           "hierarchy": "Lseed Geometry Generator",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Geometry.Generator",
           "name": "runGeometryGenerator",
           "normalized": "Point-\u003eDouble-\u003eGeometryGenerator a()-\u003e[(Line,a)]",
@@ -2971,6 +3229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Geometry.Generator",
           "name": "translated",
           "package": "L-seed",
@@ -2980,6 +3239,7 @@
         },
         "index": {
           "hierarchy": "Lseed Geometry Generator",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Geometry.Generator",
           "name": "translated",
           "normalized": "Point-\u003eGeometryGenerator a b-\u003eGeometryGenerator a b",
@@ -2994,6 +3254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Geometry",
           "name": "Geometry",
           "package": "L-seed",
@@ -3002,6 +3263,7 @@
         },
         "index": {
           "hierarchy": "Lseed Geometry",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Geometry",
           "name": "Geometry",
           "package": "L-seed",
@@ -3015,6 +3277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Geometry",
           "name": "Line",
           "package": "L-seed",
@@ -3023,6 +3286,7 @@
         },
         "index": {
           "hierarchy": "Lseed Geometry",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Geometry",
           "name": "Line",
           "package": "L-seed",
@@ -3036,6 +3300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Geometry",
           "name": "Point",
           "package": "L-seed",
@@ -3044,6 +3309,7 @@
         },
         "index": {
           "hierarchy": "Lseed Geometry",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Geometry",
           "name": "Point",
           "package": "L-seed",
@@ -3057,6 +3323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Geometry",
           "name": "allKindsOfStuffWithAngle",
           "package": "L-seed",
@@ -3066,6 +3333,7 @@
         },
         "index": {
           "hierarchy": "Lseed Geometry",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Geometry",
           "name": "allKindsOfStuffWithAngle",
           "normalized": "a b Double-\u003e[(Line,c)]-\u003e([(Line,c,Double)],[(Point,Point,Point,Point,Double)])",
@@ -3082,6 +3350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efrom http:\u003cem/\u003ewww.pdas.com/lineint.htm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Geometry",
           "name": "crossPoint",
           "package": "L-seed",
@@ -3092,6 +3361,7 @@
         "index": {
           "description": "from http www.pdas.com lineint.htm",
           "hierarchy": "Lseed Geometry",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Geometry",
           "name": "crossPoint",
           "normalized": "Line-\u003eLine-\u003eMaybe Point",
@@ -3108,6 +3378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSlightly shifts angles \n\u003c/p\u003e\u003cp\u003eFor a Garden, calculates the maximum size to the left, to the right, and\n maximum height\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Geometry",
           "name": "gardenOffset",
           "package": "L-seed",
@@ -3118,6 +3389,7 @@
         "index": {
           "description": "Slightly shifts angles For Garden calculates the maximum size to the left to the right and maximum height",
           "hierarchy": "Lseed Geometry",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Geometry",
           "name": "gardenOffset",
           "normalized": "AnnotatedGarden-\u003e(Double,Double,Double)",
@@ -3134,6 +3406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLines are annotated with its plant, identified by the extra data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Geometry",
           "name": "gardenToLines",
           "package": "L-seed",
@@ -3144,6 +3417,7 @@
         "index": {
           "description": "Lines are annotated with its plant identified by the extra data",
           "hierarchy": "Lseed Geometry",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Geometry",
           "name": "gardenToLines",
           "normalized": "Garden a-\u003e[(Line,a)]",
@@ -3159,6 +3433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Geometry",
           "name": "lightPolygons",
           "package": "L-seed",
@@ -3168,6 +3443,7 @@
         },
         "index": {
           "hierarchy": "Lseed Geometry",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Geometry",
           "name": "lightPolygons",
           "normalized": "Double-\u003e[(Line,a)]-\u003e[(Point,Point,Point,Point,Double)]",
@@ -3184,6 +3460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotates each piece of the garden with the amount of line it attacts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Geometry",
           "name": "lightenGarden",
           "package": "L-seed",
@@ -3194,6 +3471,7 @@
         "index": {
           "description": "Annotates each piece of the garden with the amount of line it attacts",
           "hierarchy": "Lseed Geometry",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Geometry",
           "name": "lightenGarden",
           "normalized": "Angle-\u003eGarden a-\u003eGarden(a,Double)",
@@ -3210,6 +3488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd lightning from a given angle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Geometry",
           "name": "lightenLines",
           "package": "L-seed",
@@ -3220,6 +3499,7 @@
         "index": {
           "description": "Add lightning from given angle",
           "hierarchy": "Lseed Geometry",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Geometry",
           "name": "lightenLines",
           "normalized": "Double-\u003e[(Line,a)]-\u003e[(Line,a,Double)]",
@@ -3236,6 +3516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper to apply a function that works on lines to a garden\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Geometry",
           "name": "mapLine",
           "package": "L-seed",
@@ -3246,6 +3527,7 @@
         "index": {
           "description": "Helper to apply function that works on lines to garden",
           "hierarchy": "Lseed Geometry",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Geometry",
           "name": "mapLine",
           "normalized": "(a b[(Line,c)]-\u003e[(Line,c,d)])-\u003ed-\u003e(d-\u003ed-\u003ed)-\u003eGarden e-\u003eGarden(e,d)",
@@ -3261,6 +3543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Geometry",
           "name": "plantToGeometry",
           "package": "L-seed",
@@ -3270,6 +3553,7 @@
         },
         "index": {
           "hierarchy": "Lseed Geometry",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Geometry",
           "name": "plantToGeometry",
           "normalized": "Plant a-\u003eGeometryGenerator a()",
@@ -3285,6 +3569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Geometry",
           "name": "plantedToLines",
           "package": "L-seed",
@@ -3294,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "Lseed Geometry",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Geometry",
           "name": "plantedToLines",
           "normalized": "Planted a-\u003e[(Line,a)]",
@@ -3309,6 +3595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Grammar.Parse",
           "name": "Parse",
           "package": "L-seed",
@@ -3317,6 +3604,7 @@
         },
         "index": {
           "hierarchy": "Lseed Grammar Parse",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Grammar.Parse",
           "name": "Parse",
           "package": "L-seed",
@@ -3330,6 +3618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Grammar.Parse",
           "name": "parseGrammar",
           "package": "L-seed",
@@ -3339,6 +3628,7 @@
         },
         "index": {
           "hierarchy": "Lseed Grammar Parse",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Grammar.Parse",
           "name": "parseGrammar",
           "normalized": "String-\u003eString-\u003eEither ParseError GrammarFile",
@@ -3354,6 +3644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.LSystem",
           "name": "LSystem",
           "package": "L-seed",
@@ -3362,6 +3653,7 @@
         },
         "index": {
           "hierarchy": "Lseed LSystem",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.LSystem",
           "name": "LSystem",
           "package": "L-seed",
@@ -3375,6 +3667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.LSystem",
           "name": "applyLSystem",
           "package": "L-seed",
@@ -3384,6 +3677,7 @@
         },
         "index": {
           "hierarchy": "Lseed LSystem",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.LSystem",
           "name": "applyLSystem",
           "normalized": "a-\u003eGrammarFile-\u003eAnnotatedPlant-\u003eGrowingPlant",
@@ -3400,6 +3694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength reductions are silenty turned into no-ops\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.LSystem",
           "name": "calcLengthDescr",
           "package": "L-seed",
@@ -3410,6 +3705,7 @@
         "index": {
           "description": "Length reductions are silenty turned into no-ops",
           "hierarchy": "Lseed LSystem",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.LSystem",
           "name": "calcLengthDescr",
           "normalized": "LengthDescr-\u003eDouble-\u003eDouble",
@@ -3425,6 +3721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.LSystem",
           "name": "conformsTo",
           "package": "L-seed",
@@ -3434,6 +3731,7 @@
         },
         "index": {
           "hierarchy": "Lseed LSystem",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.LSystem",
           "name": "conformsTo",
           "normalized": "AnnotatedPlant-\u003eCondition-\u003eBool",
@@ -3450,6 +3748,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is mostly a general dump...\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Logic",
           "name": "Logic",
           "package": "L-seed",
@@ -3459,6 +3758,7 @@
         "index": {
           "description": "This module is mostly general dump",
           "hierarchy": "Lseed Logic",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Logic",
           "name": "Logic",
           "package": "L-seed",
@@ -3473,6 +3773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor all Growing plants that are done, find out the next step\n If new plants are to be created, these are returned via their position, next\n to their parent plant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Logic",
           "name": "applyGenome",
           "package": "L-seed",
@@ -3483,6 +3784,7 @@
         "index": {
           "description": "For all Growing plants that are done find out the next step If new plants are to be created these are returned via their position next to their parent plant",
           "hierarchy": "Lseed Logic",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Logic",
           "name": "applyGenome",
           "normalized": "Angle-\u003ea-\u003eGrowingGarden-\u003e[(GrowingPlanted,[Double])]",
@@ -3499,6 +3801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies Growth at given fraction, leaving the target length in place\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Logic",
           "name": "applyGrowth",
           "package": "L-seed",
@@ -3509,6 +3812,7 @@
         "index": {
           "description": "Applies Growth at given fraction leaving the target length in place",
           "hierarchy": "Lseed Logic",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Logic",
           "name": "applyGrowth",
           "normalized": "Double-\u003eGrowingPlanted-\u003eGrowingPlanted",
@@ -3524,6 +3828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Logic",
           "name": "applyGrowth'",
           "package": "L-seed",
@@ -3533,6 +3838,7 @@
         },
         "index": {
           "hierarchy": "Lseed Logic",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Logic",
           "name": "applyGrowth'",
           "normalized": "(Double-\u003eDouble-\u003eDouble)-\u003eGrowingPlant-\u003eGrowingPlant",
@@ -3548,6 +3854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Logic",
           "name": "formatTimeInfo",
           "package": "L-seed",
@@ -3557,6 +3864,7 @@
         },
         "index": {
           "hierarchy": "Lseed Logic",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Logic",
           "name": "formatTimeInfo",
           "normalized": "Integer-\u003eDouble-\u003eString",
@@ -3573,6 +3881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a GrowingGarden, calculates the current amount of light and then\n advance the growth. This ought to be called after applyGenome\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Logic",
           "name": "growGarden",
           "package": "L-seed",
@@ -3583,6 +3892,7 @@
         "index": {
           "description": "For GrowingGarden calculates the current amount of light and then advance the growth This ought to be called after applyGenome",
           "hierarchy": "Lseed Logic",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Logic",
           "name": "growGarden",
           "normalized": "Angle-\u003ea-\u003eGrowingGarden-\u003eDouble-\u003eGrowingGarden",
@@ -3599,6 +3909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies an L-System to a Plant, putting the new length in the additional\n   information field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Logic",
           "name": "growPlanted",
           "package": "L-seed",
@@ -3609,6 +3920,7 @@
         "index": {
           "description": "Applies an L-System to Plant putting the new length in the additional information field",
           "hierarchy": "Lseed Logic",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Logic",
           "name": "growPlanted",
           "normalized": "GrowingPlanted-\u003eDouble-\u003eDouble-\u003eGrowingPlanted",
@@ -3625,6 +3937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the fraction of the time passed, returnes the angle of the sunlight\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Logic",
           "name": "lightAngle",
           "package": "L-seed",
@@ -3635,6 +3948,7 @@
         "index": {
           "description": "Given the fraction of the time passed returnes the angle of the sunlight",
           "hierarchy": "Lseed Logic",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Logic",
           "name": "lightAngle",
           "normalized": "Double-\u003eAngle",
@@ -3651,6 +3965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the length to be grown\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Logic",
           "name": "remainingGrowth",
           "package": "L-seed",
@@ -3661,6 +3976,7 @@
         "index": {
           "description": "Calculates the length to be grown",
           "hierarchy": "Lseed Logic",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Logic",
           "name": "remainingGrowth",
           "normalized": "(a-\u003eGrowthState)-\u003ePlanted a-\u003eDouble",
@@ -3676,6 +3992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Logic",
           "name": "timeSpanFraction",
           "package": "L-seed",
@@ -3685,6 +4002,7 @@
         },
         "index": {
           "hierarchy": "Lseed Logic",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Logic",
           "name": "timeSpanFraction",
           "normalized": "Double-\u003eClockTime-\u003eClockTime-\u003eDouble",
@@ -3701,6 +4019,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains a runner for a an Lseed garden. It can be passed an\n observer that will receive the results.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Mainloop",
           "name": "Mainloop",
           "package": "L-seed",
@@ -3710,6 +4029,7 @@
         "index": {
           "description": "This module contains runner for an Lseed garden It can be passed an observer that will receive the results",
           "hierarchy": "Lseed Mainloop",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Mainloop",
           "name": "Mainloop",
           "package": "L-seed",
@@ -3724,6 +4044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLets a garden grow for the given number of days, while keeping the\n observer informed about any changes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.Mainloop",
           "name": "lseedMainLoop",
           "package": "L-seed",
@@ -3733,6 +4054,7 @@
         "index": {
           "description": "Lets garden grow for the given number of days while keeping the observer informed about any changes",
           "hierarchy": "Lseed Mainloop",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.Mainloop",
           "name": "lseedMainLoop",
           "normalized": "Bool-\u003eObserver-\u003eGardenSource-\u003eInteger-\u003eIO()",
@@ -3748,6 +4070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.StipeInfo",
           "name": "StipeInfo",
           "package": "L-seed",
@@ -3756,6 +4079,7 @@
         },
         "index": {
           "hierarchy": "Lseed StipeInfo",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.StipeInfo",
           "name": "StipeInfo",
           "package": "L-seed",
@@ -3769,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.StipeInfo",
           "name": "annotateGarden",
           "package": "L-seed",
@@ -3778,6 +4103,7 @@
         },
         "index": {
           "hierarchy": "Lseed StipeInfo",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.StipeInfo",
           "name": "annotateGarden",
           "normalized": "Angle-\u003eGrowingGarden-\u003eAnnotatedGarden",
@@ -3793,6 +4119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:02 UTC 2014",
           "module": "Lseed.StipeInfo",
           "name": "annotatePlant",
           "package": "L-seed",
@@ -3802,6 +4129,7 @@
         },
         "index": {
           "hierarchy": "Lseed StipeInfo",
+          "indexed": "2014-03-11T16:51:02",
           "module": "Lseed.StipeInfo",
           "name": "annotatePlant",
           "normalized": "Plant(GrowthState,Double)-\u003eAnnotatedPlant",

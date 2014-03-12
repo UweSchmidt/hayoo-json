@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uacpid"
+        "phrase": "uacpid",
+        "type": "phrase"
       },
       "type": "context"
     }

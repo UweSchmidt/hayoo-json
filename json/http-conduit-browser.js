@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "http-conduit-browser"
+        "phrase": "http-conduit-browser",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is designed to work similarly to the Network.Browser module in the HTTP package.\n The idea is that there are two new types defined: \u003ccode\u003e\u003ca\u003eBrowserState\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eBrowserAction\u003c/a\u003e\u003c/code\u003e. The\n purpose of this module is to make it easy to describe a browsing session, including navigating\n to multiple pages, and have things like cookie jar updates work as expected as you browse\n around.\n\u003c/p\u003e\u003cp\u003eBrowserAction is a monad that handles all your browser-related activities. This monad is\n actually implemented as a specialization of the State monad, over the BrowserState type. The\n BrowserState type has various bits of information that a web browser keeps, such as a current\n cookie jar, the number of times to retry a request on failure, HTTP proxy information, etc. In\n the BrowserAction monad, there is one BrowserState at any given time, and you can modify it by\n using the convenience functions in this module.\n\u003c/p\u003e\u003cp\u003eA special kind of modification of the current browser state is the action of making a HTTP\n request. This will do the request according to the params in the current BrowserState, as well\n as modifying the current state with, for example, an updated cookie jar and location.\n\u003c/p\u003e\u003cp\u003eTo use this module, you would bind together a series of BrowserActions (This simulates the user\n clicking on links or using a settings dialogue etc.) to describe your browsing session. When\n you've described your session, you call \u003ccode\u003e\u003ca\u003ebrowse\u003c/a\u003e\u003c/code\u003e on your top-level BrowserAction to actually\n convert your actions into the ResourceT IO monad.\n\u003c/p\u003e\u003cp\u003eHere is an example program:\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n import qualified Data.ByteString.Lazy as LB\n import qualified Data.Text.Encoding as TE\n import qualified Data.Text.Lazy.Encoding as TLE\n import qualified Data.Text.Lazy.IO as TLIO\n import           Data.Conduit\n import           Network.HTTP.Conduit\n import           Network.HTTP.Conduit.Browser\n\n -- The web request to log in to a service\n req1 :: IO (Request (ResourceT IO))\n req1 = do\n   req \u003c- parseUrl \"http://www.myurl.com/login.php\"\n   return $ urlEncodedBody [ (TE.encodeUtf8 \"name\", TE.encodeUtf8 \"litherum\")\n                           , (TE.encodeUtf8 \"pass\", TE.encodeUtf8 \"S33kRe7\")\n                           ] req\n\n -- Once authenticated, run this request\n req2 :: IO (Request m')\n req2 = parseUrl \"http://www.myurl.com/main.php\"\n\n -- Bind two BrowserActions together\n action :: Request (ResourceT IO) -\u003e Request (ResourceT IO) -\u003e BrowserAction (Response LB.ByteString)\n action r1 r2 = do\n   _ \u003c- makeRequestLbs r1\n   makeRequestLbs r2\n\n main :: IO ()\n main = do\n   man \u003c- newManager def\n   r1 \u003c- req1\n   r2 \u003c- req2\n   out \u003c- runResourceT $ browse man $ do\n     setDefaultHeader \"User-Agent\" $ Just \"A very popular browser\"\n     action r1 r2\n   TLIO.putStrLn $ TLE.decodeUtf8 $ responseBody out\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "Browser",
           "package": "http-conduit-browser",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module is designed to work similarly to the Network.Browser module in the HTTP package The idea is that there are two new types defined BrowserState and BrowserAction The purpose of this module is to make it easy to describe browsing session including navigating to multiple pages and have things like cookie jar updates work as expected as you browse around BrowserAction is monad that handles all your browser-related activities This monad is actually implemented as specialization of the State monad over the BrowserState type The BrowserState type has various bits of information that web browser keeps such as current cookie jar the number of times to retry request on failure HTTP proxy information etc In the BrowserAction monad there is one BrowserState at any given time and you can modify it by using the convenience functions in this module special kind of modification of the current browser state is the action of making HTTP request This will do the request according to the params in the current BrowserState as well as modifying the current state with for example an updated cookie jar and location To use this module you would bind together series of BrowserActions This simulates the user clicking on links or using settings dialogue etc to describe your browsing session When you ve described your session you call browse on your top-level BrowserAction to actually convert your actions into the ResourceT IO monad Here is an example program LANGUAGE OverloadedStrings import qualified Data.ByteString.Lazy as LB import qualified Data.Text.Encoding as TE import qualified Data.Text.Lazy.Encoding as TLE import qualified Data.Text.Lazy.IO as TLIO import Data.Conduit import Network.HTTP.Conduit import Network.HTTP.Conduit.Browser The web request to log in to service req1 IO Request ResourceT IO req1 do req parseUrl http www.myurl.com login.php return urlEncodedBody TE.encodeUtf8 name TE.encodeUtf8 litherum TE.encodeUtf8 pass TE.encodeUtf8 S33kRe7 req Once authenticated run this request req2 IO Request req2 parseUrl http www.myurl.com main.php Bind two BrowserActions together action Request ResourceT IO Request ResourceT IO BrowserAction Response LB.ByteString action r1 r2 do makeRequestLbs r1 makeRequestLbs r2 main IO main do man newManager def r1 req1 r2 req2 out runResourceT browse man do setDefaultHeader User-Agent Just very popular browser action r1 r2 TLIO.putStrLn TLE.decodeUtf8 responseBody out",
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "Browser",
           "package": "http-conduit-browser",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "BrowserAction",
           "package": "http-conduit-browser",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "BrowserAction",
           "package": "http-conduit-browser",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "BrowserState",
           "package": "http-conduit-browser",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "BrowserState",
           "package": "http-conduit-browser",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "GenericBrowserAction",
           "package": "http-conduit-browser",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "GenericBrowserAction",
           "package": "http-conduit-browser",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo the browser action with the given manager\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "browse",
           "package": "http-conduit-browser",
@@ -115,6 +124,7 @@
         "index": {
           "description": "Do the browser action with the given manager",
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "browse",
           "normalized": "Manager-\u003eGenericBrowserAction a b-\u003ea b",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "defaultState",
           "package": "http-conduit-browser",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "defaultState",
           "normalized": "Manager-\u003eBrowserState",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "deleteDefaultHeader",
           "package": "http-conduit-browser",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "deleteDefaultHeader",
           "normalized": "HeaderName-\u003eGenericBrowserAction a()",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "deleteOverrideHeader",
           "package": "http-conduit-browser",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "deleteOverrideHeader",
           "normalized": "HeaderName-\u003eGenericBrowserAction a()",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a request and sink the \u003ccode\u003e\u003ca\u003eresponseBody\u003c/a\u003e\u003c/code\u003e to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "downloadFile",
           "package": "http-conduit-browser",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Make request and sink the responseBody to file",
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "downloadFile",
           "normalized": "FilePath-\u003eRequest(ResourceT IO)-\u003eGenericBrowserAction a()",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getAuthorities",
           "package": "http-conduit-browser",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getAuthorities",
           "normalized": "GenericBrowserAction a(Request(ResourceT IO)-\u003eMaybe(ByteString,ByteString))",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getBrowserState",
           "package": "http-conduit-browser",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getBrowserState",
           "package": "http-conduit-browser",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getCheckStatus",
           "package": "http-conduit-browser",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getCheckStatus",
           "normalized": "GenericBrowserAction a(Maybe(Status-\u003eResponseHeaders-\u003eCookieJar-\u003eMaybe SomeException))",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getClientCertificates",
           "package": "http-conduit-browser",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getClientCertificates",
           "normalized": "GenericBrowserAction a(Maybe[(X,Maybe PrivateKey)])",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getCookieFilter",
           "package": "http-conduit-browser",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getCookieFilter",
           "normalized": "GenericBrowserAction a(Request(ResourceT IO)-\u003eCookie-\u003eIO Bool)",
@@ -345,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getCookieJar",
           "package": "http-conduit-browser",
@@ -354,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getCookieJar",
           "package": "http-conduit-browser",
@@ -367,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getCurrentProxy",
           "package": "http-conduit-browser",
@@ -376,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getCurrentProxy",
           "package": "http-conduit-browser",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getCurrentSocksProxy",
           "package": "http-conduit-browser",
@@ -398,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getCurrentSocksProxy",
           "package": "http-conduit-browser",
@@ -411,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getDefaultHeader",
           "package": "http-conduit-browser",
@@ -420,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getDefaultHeader",
           "normalized": "HeaderName-\u003eGenericBrowserAction a(Maybe ByteString)",
@@ -435,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getDefaultHeaders",
           "package": "http-conduit-browser",
@@ -444,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getDefaultHeaders",
           "package": "http-conduit-browser",
@@ -457,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getLocation",
           "package": "http-conduit-browser",
@@ -466,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getLocation",
           "package": "http-conduit-browser",
@@ -479,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getManager",
           "package": "http-conduit-browser",
@@ -488,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getManager",
           "package": "http-conduit-browser",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getMaxRedirects",
           "package": "http-conduit-browser",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getMaxRedirects",
           "package": "http-conduit-browser",
@@ -523,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getMaxRetryCount",
           "package": "http-conduit-browser",
@@ -532,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getMaxRetryCount",
           "package": "http-conduit-browser",
@@ -545,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getOverrideHeader",
           "package": "http-conduit-browser",
@@ -554,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getOverrideHeader",
           "normalized": "HeaderName-\u003eGenericBrowserAction a(Maybe ByteString)",
@@ -569,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getOverrideHeaders",
           "package": "http-conduit-browser",
@@ -578,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getOverrideHeaders",
           "package": "http-conduit-browser",
@@ -591,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getTimeout",
           "package": "http-conduit-browser",
@@ -600,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "getTimeout",
           "package": "http-conduit-browser",
@@ -613,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "insertDefaultHeader",
           "package": "http-conduit-browser",
@@ -622,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "insertDefaultHeader",
           "normalized": "Header-\u003eGenericBrowserAction a()",
@@ -637,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "insertOverrideHeader",
           "package": "http-conduit-browser",
@@ -646,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "insertOverrideHeader",
           "normalized": "Header-\u003eGenericBrowserAction a()",
@@ -662,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a request, using all the state in the current BrowserState\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "makeRequest",
           "package": "http-conduit-browser",
@@ -672,6 +729,7 @@
         "index": {
           "description": "Make request using all the state in the current BrowserState",
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "makeRequest",
           "normalized": "Request(ResourceT IO)-\u003eGenericBrowserAction a(Response(ResumableSource(ResourceT IO)ByteString))",
@@ -688,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a request and pack the result as a lazy bytestring.\n\u003c/p\u003e\u003cp\u003eNote: Even though this function returns a lazy bytestring, it does not\n utilize lazy I/O, and therefore the entire response body will live in memory.\n If you want constant memory usage, you'll need to use the conduit package and\n \u003ccode\u003e\u003ca\u003emakeRequest\u003c/a\u003e\u003c/code\u003e directly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "makeRequestLbs",
           "package": "http-conduit-browser",
@@ -698,6 +757,7 @@
         "index": {
           "description": "Make request and pack the result as lazy bytestring Note Even though this function returns lazy bytestring it does not utilize lazy and therefore the entire response body will live in memory If you want constant memory usage you ll need to use the conduit package and makeRequest directly",
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "makeRequestLbs",
           "normalized": "Request(ResourceT IO)-\u003eGenericBrowserAction a(Response ByteString)",
@@ -714,6 +774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an URL relative to current Location into a \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eWill throw \u003ccode\u003e\u003ca\u003eInvalidUrlException\u003c/a\u003e\u003c/code\u003e on parse failures or if your Location is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e (e.g. you haven't made any requests before)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "parseRelativeUrl",
           "package": "http-conduit-browser",
@@ -724,6 +785,7 @@
         "index": {
           "description": "Convert an URL relative to current Location into Request Will throw InvalidUrlException on parse failures or if your Location is Nothing e.g you haven made any requests before",
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "parseRelativeUrl",
           "normalized": "String-\u003eGenericBrowserAction a(Request b)",
@@ -739,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setAuthorities",
           "package": "http-conduit-browser",
@@ -748,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setAuthorities",
           "normalized": "(Request(ResourceT IO)-\u003eMaybe(ByteString,ByteString))-\u003eGenericBrowserAction a()",
@@ -763,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setBrowserState",
           "package": "http-conduit-browser",
@@ -772,6 +837,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setBrowserState",
           "normalized": "BrowserState-\u003eGenericBrowserAction a()",
@@ -787,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setCheckStatus",
           "package": "http-conduit-browser",
@@ -796,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setCheckStatus",
           "normalized": "Maybe(Status-\u003eResponseHeaders-\u003eCookieJar-\u003eMaybe SomeException)-\u003eGenericBrowserAction a()",
@@ -811,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setClientCertificates",
           "package": "http-conduit-browser",
@@ -820,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setClientCertificates",
           "normalized": "Maybe[(X,Maybe PrivateKey)]-\u003eGenericBrowserAction a()",
@@ -835,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setCookieFilter",
           "package": "http-conduit-browser",
@@ -844,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setCookieFilter",
           "normalized": "(Request(ResourceT IO)-\u003eCookie-\u003eIO Bool)-\u003eGenericBrowserAction a()",
@@ -859,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setCookieJar",
           "package": "http-conduit-browser",
@@ -868,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setCookieJar",
           "normalized": "CookieJar-\u003eGenericBrowserAction a()",
@@ -883,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setCurrentProxy",
           "package": "http-conduit-browser",
@@ -892,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setCurrentProxy",
           "normalized": "Maybe Proxy-\u003eGenericBrowserAction a()",
@@ -907,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setCurrentSocksProxy",
           "package": "http-conduit-browser",
@@ -916,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setCurrentSocksProxy",
           "normalized": "Maybe SocksConf-\u003eGenericBrowserAction a()",
@@ -931,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setDefaultHeader",
           "package": "http-conduit-browser",
@@ -940,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setDefaultHeader",
           "normalized": "HeaderName-\u003eMaybe ByteString-\u003eGenericBrowserAction a()",
@@ -955,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setDefaultHeaders",
           "package": "http-conduit-browser",
@@ -964,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setDefaultHeaders",
           "normalized": "RequestHeaders-\u003eGenericBrowserAction a()",
@@ -979,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setLocation",
           "package": "http-conduit-browser",
@@ -988,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setLocation",
           "normalized": "Maybe URI-\u003eGenericBrowserAction a()",
@@ -1003,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setManager",
           "package": "http-conduit-browser",
@@ -1012,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setManager",
           "normalized": "Manager-\u003eGenericBrowserAction a()",
@@ -1027,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setMaxRedirects",
           "package": "http-conduit-browser",
@@ -1036,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setMaxRedirects",
           "normalized": "Maybe Int-\u003eGenericBrowserAction a()",
@@ -1051,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setMaxRetryCount",
           "package": "http-conduit-browser",
@@ -1060,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setMaxRetryCount",
           "normalized": "Int-\u003eGenericBrowserAction a()",
@@ -1075,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setOverrideHeader",
           "package": "http-conduit-browser",
@@ -1084,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setOverrideHeader",
           "normalized": "HeaderName-\u003eMaybe ByteString-\u003eGenericBrowserAction a()",
@@ -1099,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setOverrideHeaders",
           "package": "http-conduit-browser",
@@ -1108,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setOverrideHeaders",
           "normalized": "RequestHeaders-\u003eGenericBrowserAction a()",
@@ -1123,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setTimeout",
           "package": "http-conduit-browser",
@@ -1132,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "setTimeout",
           "normalized": "Maybe Int-\u003eGenericBrowserAction a()",
@@ -1147,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withAuthorities",
           "package": "http-conduit-browser",
@@ -1156,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withAuthorities",
           "normalized": "(Request(ResourceT IO)-\u003eMaybe(ByteString,ByteString))-\u003eGenericBrowserAction a b-\u003eGenericBrowserAction a b",
@@ -1171,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withBrowserState",
           "package": "http-conduit-browser",
@@ -1180,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withBrowserState",
           "normalized": "BrowserState-\u003eGenericBrowserAction a b-\u003eGenericBrowserAction a b",
@@ -1195,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withCheckStatus",
           "package": "http-conduit-browser",
@@ -1204,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withCheckStatus",
           "normalized": "Maybe(Status-\u003eResponseHeaders-\u003eCookieJar-\u003eMaybe SomeException)-\u003eGenericBrowserAction a b-\u003eGenericBrowserAction a b",
@@ -1219,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withClientCertificates",
           "package": "http-conduit-browser",
@@ -1228,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withClientCertificates",
           "normalized": "Maybe[(X,Maybe PrivateKey)]-\u003eGenericBrowserAction a b-\u003eGenericBrowserAction a b",
@@ -1243,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withCookieFilter",
           "package": "http-conduit-browser",
@@ -1252,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withCookieFilter",
           "normalized": "(Request(ResourceT IO)-\u003eCookie-\u003eIO Bool)-\u003eGenericBrowserAction a b-\u003eGenericBrowserAction a b",
@@ -1267,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withCookieJar",
           "package": "http-conduit-browser",
@@ -1276,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withCookieJar",
           "normalized": "CookieJar-\u003eGenericBrowserAction a b-\u003eGenericBrowserAction a b",
@@ -1291,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withCurrentProxy",
           "package": "http-conduit-browser",
@@ -1300,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withCurrentProxy",
           "normalized": "Maybe Proxy-\u003eGenericBrowserAction a b-\u003eGenericBrowserAction a b",
@@ -1315,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withCurrentSocksProxy",
           "package": "http-conduit-browser",
@@ -1324,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withCurrentSocksProxy",
           "normalized": "Maybe SocksConf-\u003eGenericBrowserAction a b-\u003eGenericBrowserAction a b",
@@ -1339,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withDefaultHeader",
           "package": "http-conduit-browser",
@@ -1348,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withDefaultHeader",
           "normalized": "Header-\u003eGenericBrowserAction a b-\u003eGenericBrowserAction a b",
@@ -1363,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withDefaultHeaders",
           "package": "http-conduit-browser",
@@ -1372,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withDefaultHeaders",
           "normalized": "RequestHeaders-\u003eGenericBrowserAction a b-\u003eGenericBrowserAction a b",
@@ -1387,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withLocation",
           "package": "http-conduit-browser",
@@ -1396,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withLocation",
           "normalized": "Maybe URI-\u003eGenericBrowserAction a b-\u003eGenericBrowserAction a b",
@@ -1411,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withMaxRedirects",
           "package": "http-conduit-browser",
@@ -1420,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withMaxRedirects",
           "normalized": "Maybe Int-\u003eGenericBrowserAction a b-\u003eGenericBrowserAction a b",
@@ -1435,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withMaxRetryCount",
           "package": "http-conduit-browser",
@@ -1444,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withMaxRetryCount",
           "normalized": "Int-\u003eGenericBrowserAction a b-\u003eGenericBrowserAction a b",
@@ -1459,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withOverrideHeader",
           "package": "http-conduit-browser",
@@ -1468,6 +1591,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withOverrideHeader",
           "normalized": "Header-\u003eGenericBrowserAction a b-\u003eGenericBrowserAction a b",
@@ -1483,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withOverrideHeaders",
           "package": "http-conduit-browser",
@@ -1492,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withOverrideHeaders",
           "normalized": "RequestHeaders-\u003eGenericBrowserAction a b-\u003eGenericBrowserAction a b",
@@ -1507,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:52:31 UTC 2014",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withTimeout",
           "package": "http-conduit-browser",
@@ -1516,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Conduit Browser",
+          "indexed": "2014-03-11T18:52:31",
           "module": "Network.HTTP.Conduit.Browser",
           "name": "withTimeout",
           "normalized": "Maybe Int-\u003eGenericBrowserAction a b-\u003eGenericBrowserAction a b",

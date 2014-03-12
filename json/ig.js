@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ig"
+        "phrase": "ig",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ethe public API for Instagram access\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Instagram",
           "package": "ig",
@@ -28,6 +29,7 @@
         "index": {
           "description": "the public API for Instagram access",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Instagram",
           "package": "ig",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe access token is simply a Text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "AccessToken",
           "package": "ig",
@@ -51,6 +54,7 @@
         "index": {
           "description": "the access token is simply Text",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "AccessToken",
           "package": "ig",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enotification aspect\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Aspect",
           "package": "ig",
@@ -74,6 +79,7 @@
         "index": {
           "description": "notification aspect",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Aspect",
           "package": "ig",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe URL to receive notifications to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "CallbackUrl",
           "package": "ig",
@@ -97,6 +104,7 @@
         "index": {
           "description": "the URL to receive notifications to",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "CallbackUrl",
           "package": "ig",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea collection of items (count + data)\n data can only be a subset\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Collection",
           "package": "ig",
@@ -120,6 +129,7 @@
         "index": {
           "description": "collection of items count data data can only be subset",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Collection",
           "package": "ig",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommenton on a medium\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Comment",
           "package": "ig",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Commenton on medium",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Comment",
           "package": "ig",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecomment id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "CommentID",
           "package": "ig",
@@ -166,6 +179,7 @@
         "index": {
           "description": "comment id",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "CommentID",
           "package": "ig",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe app credentials\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Credentials",
           "package": "ig",
@@ -189,6 +204,7 @@
         "index": {
           "description": "the app credentials",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Credentials",
           "package": "ig",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edeletion parameters \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "DeletionParams",
           "package": "ig",
@@ -212,6 +229,7 @@
         "index": {
           "description": "deletion parameters",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "DeletionParams",
           "package": "ig",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eenvelope for Instagram OK response\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Envelope",
           "package": "ig",
@@ -235,6 +254,7 @@
         "index": {
           "description": "envelope for Instagram OK response",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Envelope",
           "package": "ig",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeography ID \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "GeographyID",
           "package": "ig",
@@ -258,6 +279,7 @@
         "index": {
           "description": "geography ID",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "GeographyID",
           "package": "ig",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameters for call to recent media in geography search\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "GeographyMediaParams",
           "package": "ig",
@@ -281,6 +304,7 @@
         "index": {
           "description": "Parameters for call to recent media in geography search",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "GeographyMediaParams",
           "package": "ig",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean exception that a call to instagram may throw\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "IGException",
           "package": "ig",
@@ -304,6 +329,7 @@
         "index": {
           "description": "an exception that call to instagram may throw",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "IGException",
           "package": "ig",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata for a single image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "ImageData",
           "package": "ig",
@@ -327,6 +354,7 @@
         "index": {
           "description": "data for single image",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "ImageData",
           "package": "ig",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edifferent images for the same media\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Images",
           "package": "ig",
@@ -350,6 +379,7 @@
         "index": {
           "description": "different images for the same media",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Images",
           "package": "ig",
@@ -364,6 +394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eincoming relationship status \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "IncomingStatus",
           "package": "ig",
@@ -373,6 +404,7 @@
         "index": {
           "description": "incoming relationship status",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "IncomingStatus",
           "package": "ig",
@@ -387,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe instagram monad transformer\n this encapsulates the data necessary to pass the app credentials, etc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "InstagramT",
           "package": "ig",
@@ -396,6 +429,7 @@
         "index": {
           "description": "the instagram monad transformer this encapsulates the data necessary to pass the app credentials etc",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "InstagramT",
           "package": "ig",
@@ -410,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeographical location info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Location",
           "package": "ig",
@@ -419,6 +454,7 @@
         "index": {
           "description": "geographical location info",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Location",
           "package": "ig",
@@ -433,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elocation ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "LocationID",
           "package": "ig",
@@ -442,6 +479,7 @@
         "index": {
           "description": "location ID",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "LocationID",
           "package": "ig",
@@ -456,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameters for call to recent media in location search\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "LocationMediaParams",
           "package": "ig",
@@ -465,6 +504,7 @@
         "index": {
           "description": "Parameters for call to recent media in location search",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "LocationMediaParams",
           "package": "ig",
@@ -479,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameters for call to media search\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "LocationSearchParams",
           "package": "ig",
@@ -488,6 +529,7 @@
         "index": {
           "description": "Parameters for call to media search",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "LocationSearchParams",
           "package": "ig",
@@ -502,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einstagram media object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Media",
           "package": "ig",
@@ -511,6 +554,7 @@
         "index": {
           "description": "instagram media object",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Media",
           "package": "ig",
@@ -525,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMedia ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "MediaID",
           "package": "ig",
@@ -534,6 +579,7 @@
         "index": {
           "description": "Media ID",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "MediaID",
           "package": "ig",
@@ -548,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameters for call to media search\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "MediaSearchParams",
           "package": "ig",
@@ -557,6 +604,7 @@
         "index": {
           "description": "Parameters for call to media search",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "MediaSearchParams",
           "package": "ig",
@@ -571,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstagram returns data:null for nothing, but Aeson considers that () maps to an empty array...\n so we model the fact that we expect null via NoResult    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "NoResult",
           "package": "ig",
@@ -580,6 +629,7 @@
         "index": {
           "description": "Instagram returns data null for nothing but Aeson considers that maps to an empty array so we model the fact that we expect null via NoResult",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "NoResult",
           "package": "ig",
@@ -594,6 +644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe oauth token returned after authentication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "OAuthToken",
           "package": "ig",
@@ -603,6 +654,7 @@
         "index": {
           "description": "the oauth token returned after authentication",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "OAuthToken",
           "package": "ig",
@@ -617,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoutgoing relationship status   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "OutgoingStatus",
           "package": "ig",
@@ -626,6 +679,7 @@
         "index": {
           "description": "outgoing relationship status",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "OutgoingStatus",
           "package": "ig",
@@ -640,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epagination info for responses that can return a lot of data  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Pagination",
           "package": "ig",
@@ -649,6 +704,7 @@
         "index": {
           "description": "pagination info for responses that can return lot of data",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Pagination",
           "package": "ig",
@@ -663,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eposition in picture\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Position",
           "package": "ig",
@@ -672,6 +729,7 @@
         "index": {
           "description": "position in picture",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Position",
           "package": "ig",
@@ -686,6 +744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameters for call to recent media\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "RecentParams",
           "package": "ig",
@@ -695,6 +754,7 @@
         "index": {
           "description": "Parameters for call to recent media",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "RecentParams",
           "package": "ig",
@@ -709,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparameters for recent tag pagination   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "RecentTagParams",
           "package": "ig",
@@ -718,6 +779,7 @@
         "index": {
           "description": "parameters for recent tag pagination",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "RecentTagParams",
           "package": "ig",
@@ -732,6 +794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe URI to redirect the user after she accepts/refuses to authorize the app\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "RedirectUri",
           "package": "ig",
@@ -741,6 +804,7 @@
         "index": {
           "description": "the URI to redirect the user after she accepts refuses to authorize the app",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "RedirectUri",
           "package": "ig",
@@ -755,6 +819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erelationship action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "RelationShipAction",
           "package": "ig",
@@ -764,6 +829,7 @@
         "index": {
           "description": "relationship action",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "RelationShipAction",
           "package": "ig",
@@ -778,6 +844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea relationship between two users\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Relationship",
           "package": "ig",
@@ -787,6 +854,7 @@
         "index": {
           "description": "relationship between two users",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Relationship",
           "package": "ig",
@@ -801,6 +869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe scopes of the authentication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Scope",
           "package": "ig",
@@ -810,6 +879,7 @@
         "index": {
           "description": "the scopes of the authentication",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Scope",
           "package": "ig",
@@ -824,6 +894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameters for call to self feed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "SelfFeedParams",
           "package": "ig",
@@ -833,6 +904,7 @@
         "index": {
           "description": "Parameters for call to self feed",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "SelfFeedParams",
           "package": "ig",
@@ -847,6 +919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparameters for self liked call\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "SelfLikedParams",
           "package": "ig",
@@ -856,6 +929,7 @@
         "index": {
           "description": "parameters for self liked call",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "SelfLikedParams",
           "package": "ig",
@@ -870,6 +944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea subscription to a real time notification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Subscription",
           "package": "ig",
@@ -879,6 +954,7 @@
         "index": {
           "description": "subscription to real time notification",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Subscription",
           "package": "ig",
@@ -893,6 +969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparameters for the subscription creation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "SubscriptionParams",
           "package": "ig",
@@ -902,6 +979,7 @@
         "index": {
           "description": "parameters for the subscription creation",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "SubscriptionParams",
           "package": "ig",
@@ -916,6 +994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edetails of subscription request  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "SubscriptionRequest",
           "package": "ig",
@@ -925,6 +1004,7 @@
         "index": {
           "description": "details of subscription request",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "SubscriptionRequest",
           "package": "ig",
@@ -939,6 +1019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea Tag  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Tag",
           "package": "ig",
@@ -948,6 +1029,7 @@
         "index": {
           "description": "Tag",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Tag",
           "package": "ig",
@@ -962,6 +1044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTag Name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "TagName",
           "package": "ig",
@@ -971,6 +1054,7 @@
         "index": {
           "description": "Tag Name",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "TagName",
           "package": "ig",
@@ -985,6 +1069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean update from a subscription   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Update",
           "package": "ig",
@@ -994,6 +1079,7 @@
         "index": {
           "description": "an update from subscription",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Update",
           "package": "ig",
@@ -1008,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe User partial profile returned by the authentication        \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "User",
           "package": "ig",
@@ -1017,6 +1104,7 @@
         "index": {
           "description": "the User partial profile returned by the authentication",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "User",
           "package": "ig",
@@ -1031,6 +1119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "UserID",
           "package": "ig",
@@ -1040,6 +1129,7 @@
         "index": {
           "description": "User ID",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "UserID",
           "package": "ig",
@@ -1054,6 +1144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eposition of a user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "UserPosition",
           "package": "ig",
@@ -1063,6 +1154,7 @@
         "index": {
           "description": "position of user",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "UserPosition",
           "package": "ig",
@@ -1077,6 +1169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparameters for self liked call\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "UserSearchParams",
           "package": "ig",
@@ -1086,6 +1179,7 @@
         "index": {
           "description": "parameters for self liked call",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "UserSearchParams",
           "package": "ig",
@@ -1099,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "AccessToken",
           "package": "ig",
@@ -1108,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "AccessToken",
           "package": "ig",
@@ -1121,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Approve",
           "package": "ig",
@@ -1130,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Approve",
           "package": "ig",
@@ -1143,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Basic",
           "package": "ig",
@@ -1152,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Basic",
           "package": "ig",
@@ -1165,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Block",
           "package": "ig",
@@ -1174,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Block",
           "package": "ig",
@@ -1187,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "BlockedByYou",
           "package": "ig",
@@ -1196,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "BlockedByYou",
           "package": "ig",
@@ -1209,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Collection",
           "package": "ig",
@@ -1218,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Collection",
           "package": "ig",
@@ -1231,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Comment",
           "package": "ig",
@@ -1240,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Comment",
           "package": "ig",
@@ -1253,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Comments",
           "package": "ig",
@@ -1262,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Comments",
           "package": "ig",
@@ -1275,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Credentials",
           "package": "ig",
@@ -1284,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Credentials",
           "package": "ig",
@@ -1298,6 +1410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete all subscriptions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "DeleteAll",
           "package": "ig",
@@ -1308,6 +1421,7 @@
         "index": {
           "description": "delete all subscriptions",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "DeleteAll",
           "package": "ig",
@@ -1322,6 +1436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete all geography subscriptions  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "DeleteGeographies",
           "package": "ig",
@@ -1332,6 +1447,7 @@
         "index": {
           "description": "delete all geography subscriptions",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "DeleteGeographies",
           "package": "ig",
@@ -1346,6 +1462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete all location subscriptions  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "DeleteLocations",
           "package": "ig",
@@ -1356,6 +1473,7 @@
         "index": {
           "description": "delete all location subscriptions",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "DeleteLocations",
           "package": "ig",
@@ -1370,6 +1488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete one subscription, given its ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "DeleteOne",
           "package": "ig",
@@ -1380,6 +1499,7 @@
         "index": {
           "description": "delete one subscription given its ID",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "DeleteOne",
           "package": "ig",
@@ -1394,6 +1514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete all tag subscriptions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "DeleteTags",
           "package": "ig",
@@ -1404,6 +1525,7 @@
         "index": {
           "description": "delete all tag subscriptions",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "DeleteTags",
           "package": "ig",
@@ -1418,6 +1540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete all user subscriptions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "DeleteUsers",
           "package": "ig",
@@ -1428,6 +1551,7 @@
         "index": {
           "description": "delete all user subscriptions",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "DeleteUsers",
           "package": "ig",
@@ -1441,6 +1565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Deny",
           "package": "ig",
@@ -1450,6 +1575,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Deny",
           "package": "ig",
@@ -1463,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Envelope",
           "package": "ig",
@@ -1472,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Envelope",
           "package": "ig",
@@ -1485,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Follow",
           "package": "ig",
@@ -1494,6 +1623,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Follow",
           "package": "ig",
@@ -1507,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "FollowedBy",
           "package": "ig",
@@ -1516,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "FollowedBy",
           "package": "ig",
@@ -1529,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Follows",
           "package": "ig",
@@ -1538,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Follows",
           "package": "ig",
@@ -1551,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "GeographyMediaParams",
           "package": "ig",
@@ -1560,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "GeographyMediaParams",
           "package": "ig",
@@ -1574,6 +1710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhen a picture is tagged with a location inside the given region\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "GeographyRequest",
           "package": "ig",
@@ -1584,6 +1721,7 @@
         "index": {
           "description": "when picture is tagged with location inside the given region",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "GeographyRequest",
           "package": "ig",
@@ -1597,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "ImageData",
           "package": "ig",
@@ -1606,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "ImageData",
           "package": "ig",
@@ -1619,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Images",
           "package": "ig",
@@ -1628,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Images",
           "package": "ig",
@@ -1641,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "InNone",
           "package": "ig",
@@ -1650,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "InNone",
           "package": "ig",
@@ -1663,6 +1807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Likes",
           "package": "ig",
@@ -1672,6 +1817,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Likes",
           "package": "ig",
@@ -1685,6 +1831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Location",
           "package": "ig",
@@ -1694,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Location",
           "package": "ig",
@@ -1707,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "LocationMediaParams",
           "package": "ig",
@@ -1716,6 +1865,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "LocationMediaParams",
           "package": "ig",
@@ -1730,6 +1880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhen a picture is tagged with a specific location\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "LocationRequest",
           "package": "ig",
@@ -1740,6 +1891,7 @@
         "index": {
           "description": "when picture is tagged with specific location",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "LocationRequest",
           "package": "ig",
@@ -1753,6 +1905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "LocationSearchParams",
           "package": "ig",
@@ -1762,6 +1915,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "LocationSearchParams",
           "package": "ig",
@@ -1775,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Media",
           "package": "ig",
@@ -1784,6 +1939,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Media",
           "package": "ig",
@@ -1797,6 +1953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "MediaSearchParams",
           "package": "ig",
@@ -1806,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "MediaSearchParams",
           "package": "ig",
@@ -1819,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "OAuthToken",
           "package": "ig",
@@ -1828,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "OAuthToken",
           "package": "ig",
@@ -1841,6 +2001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "OutNone",
           "package": "ig",
@@ -1850,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "OutNone",
           "package": "ig",
@@ -1863,6 +2025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Pagination",
           "package": "ig",
@@ -1872,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Pagination",
           "package": "ig",
@@ -1885,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Position",
           "package": "ig",
@@ -1894,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Position",
           "package": "ig",
@@ -1907,6 +2073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "RecentParams",
           "package": "ig",
@@ -1916,6 +2083,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "RecentParams",
           "package": "ig",
@@ -1929,6 +2097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "RecentTagParams",
           "package": "ig",
@@ -1938,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "RecentTagParams",
           "package": "ig",
@@ -1951,6 +2121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Relationship",
           "package": "ig",
@@ -1960,6 +2131,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Relationship",
           "package": "ig",
@@ -1973,6 +2145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Relationships",
           "package": "ig",
@@ -1982,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Relationships",
           "package": "ig",
@@ -1995,6 +2169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Requested",
           "package": "ig",
@@ -2004,6 +2179,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Requested",
           "package": "ig",
@@ -2017,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "RequestedBy",
           "package": "ig",
@@ -2026,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "RequestedBy",
           "package": "ig",
@@ -2039,6 +2217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "SelfFeedParams",
           "package": "ig",
@@ -2048,6 +2227,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "SelfFeedParams",
           "package": "ig",
@@ -2061,6 +2241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "SelfLikedParams",
           "package": "ig",
@@ -2070,6 +2251,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "SelfLikedParams",
           "package": "ig",
@@ -2083,6 +2265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Subscription",
           "package": "ig",
@@ -2092,6 +2275,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Subscription",
           "package": "ig",
@@ -2105,6 +2289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "SubscriptionParams",
           "package": "ig",
@@ -2114,6 +2299,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "SubscriptionParams",
           "package": "ig",
@@ -2127,6 +2313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Tag",
           "package": "ig",
@@ -2136,6 +2323,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Tag",
           "package": "ig",
@@ -2150,6 +2338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhen a picture is tagged with the given tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "TagRequest",
           "package": "ig",
@@ -2160,6 +2349,7 @@
         "index": {
           "description": "when picture is tagged with the given tag",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "TagRequest",
           "package": "ig",
@@ -2173,6 +2363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Unblock",
           "package": "ig",
@@ -2182,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Unblock",
           "package": "ig",
@@ -2195,6 +2387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Unfollow",
           "package": "ig",
@@ -2204,6 +2397,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Unfollow",
           "package": "ig",
@@ -2217,6 +2411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "Update",
           "package": "ig",
@@ -2226,6 +2421,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "Update",
           "package": "ig",
@@ -2239,6 +2435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "User",
           "package": "ig",
@@ -2248,6 +2445,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "User",
           "package": "ig",
@@ -2261,6 +2459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "UserPosition",
           "package": "ig",
@@ -2270,6 +2469,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "UserPosition",
           "package": "ig",
@@ -2284,6 +2484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhen a user uploads a picture\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "UserRequest",
           "package": "ig",
@@ -2294,6 +2495,7 @@
         "index": {
           "description": "when user uploads picture",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "UserRequest",
           "package": "ig",
@@ -2307,6 +2509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "UserSearchParams",
           "package": "ig",
@@ -2316,6 +2519,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "UserSearchParams",
           "package": "ig",
@@ -2330,6 +2534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclient id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "cClientID",
           "package": "ig",
@@ -2340,6 +2545,7 @@
         "index": {
           "description": "client id",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "cClientID",
           "package": "ig",
@@ -2354,6 +2560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclient secret\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "cClientSecret",
           "package": "ig",
@@ -2364,6 +2571,7 @@
         "index": {
           "description": "client secret",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "cClientSecret",
           "package": "ig",
@@ -2377,6 +2585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "cCount",
           "package": "ig",
@@ -2386,6 +2595,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "cCount",
           "package": "ig",
@@ -2399,6 +2609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "cCreated",
           "package": "ig",
@@ -2408,6 +2619,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "cCreated",
           "package": "ig",
@@ -2421,6 +2633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "cData",
           "package": "ig",
@@ -2430,6 +2643,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "cData",
           "normalized": "[a]",
@@ -2445,6 +2659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "cFrom",
           "package": "ig",
@@ -2454,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "cFrom",
           "package": "ig",
@@ -2467,6 +2683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "cID",
           "package": "ig",
@@ -2476,6 +2693,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "cID",
           "package": "ig",
@@ -2489,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "cText",
           "package": "ig",
@@ -2498,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "cText",
           "package": "ig",
@@ -2512,6 +2732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a subscription \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "createSubscription",
           "package": "ig",
@@ -2521,6 +2742,7 @@
         "index": {
           "description": "create subscription",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "createSubscription",
           "normalized": "SubscriptionParams-\u003eInstagramT a(Envelope Subscription)",
@@ -2537,6 +2759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a comment either on the authenticated user's media or authored by the authenticated user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "deleteComment",
           "package": "ig",
@@ -2547,6 +2770,7 @@
         "index": {
           "description": "Remove comment either on the authenticated user media or authored by the authenticated user",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "deleteComment",
           "normalized": "MediaID-\u003eCommentID-\u003eOAuthToken-\u003eInstagramT a(Envelope NoResult)",
@@ -2563,6 +2787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete subscriptions based on criteria\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "deleteSubscriptions",
           "package": "ig",
@@ -2572,6 +2797,7 @@
         "index": {
           "description": "delete subscriptions based on criteria",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "deleteSubscriptions",
           "normalized": "DeletionParams-\u003eInstagramT a(Envelope Value)",
@@ -2587,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "doID",
           "package": "ig",
@@ -2596,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "doID",
           "package": "ig",
@@ -2610,6 +2838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata, garanteed to be present (otherwise we get an ErrEnvelope) \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "eData",
           "package": "ig",
@@ -2620,6 +2849,7 @@
         "index": {
           "description": "data garanteed to be present otherwise we get an ErrEnvelope",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "eData",
           "package": "ig",
@@ -2634,6 +2864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis should only say 200, no error, but put here for completeness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "eMeta",
           "package": "ig",
@@ -2644,6 +2875,7 @@
         "index": {
           "description": "this should only say no error but put here for completeness",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "eMeta",
           "package": "ig",
@@ -2657,6 +2889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "ePagination",
           "package": "ig",
@@ -2666,6 +2899,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "ePagination",
           "package": "ig",
@@ -2680,6 +2914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a full list of comments on a media.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "getComments",
           "package": "ig",
@@ -2690,6 +2925,7 @@
         "index": {
           "description": "Get full list of comments on media",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "getComments",
           "normalized": "MediaID-\u003eMaybe OAuthToken-\u003eInstagramT a(Envelope[Comment])",
@@ -2706,6 +2942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of users this user is followed by.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "getFollowedBy",
           "package": "ig",
@@ -2716,6 +2953,7 @@
         "index": {
           "description": "Get the list of users this user is followed by",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "getFollowedBy",
           "normalized": "UserID-\u003eMaybe OAuthToken-\u003eInstagramT a(Envelope[User])",
@@ -2732,6 +2970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of users this user follows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "getFollows",
           "package": "ig",
@@ -2742,6 +2981,7 @@
         "index": {
           "description": "Get the list of users this user follows",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "getFollows",
           "normalized": "UserID-\u003eMaybe OAuthToken-\u003eInstagramT a(Envelope[User])",
@@ -2758,6 +2998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet very recent media from a geography subscription that you created\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "getGeographyRecentMedia",
           "package": "ig",
@@ -2768,6 +3009,7 @@
         "index": {
           "description": "Get very recent media from geography subscription that you created",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "getGeographyRecentMedia",
           "normalized": "GeographyID-\u003eGeographyMediaParams-\u003eInstagramT a(Envelope[Media])",
@@ -2784,6 +3026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of users who have liked this media.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "getLikes",
           "package": "ig",
@@ -2794,6 +3037,7 @@
         "index": {
           "description": "Get list of users who have liked this media",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "getLikes",
           "normalized": "MediaID-\u003eMaybe OAuthToken-\u003eInstagramT a(Envelope[User])",
@@ -2810,6 +3054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information about a location. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "getLocation",
           "package": "ig",
@@ -2820,6 +3065,7 @@
         "index": {
           "description": "Get information about location",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "getLocation",
           "normalized": "LocationID-\u003eMaybe OAuthToken-\u003eInstagramT a(Envelope(Maybe Location))",
@@ -2836,6 +3082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of recent media objects from a given location. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "getLocationRecentMedia",
           "package": "ig",
@@ -2846,6 +3093,7 @@
         "index": {
           "description": "Get list of recent media objects from given location",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "getLocationRecentMedia",
           "normalized": "LocationID-\u003eMaybe OAuthToken-\u003eLocationMediaParams-\u003eInstagramT a(Envelope[Media])",
@@ -2862,6 +3110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information about a media object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "getMedia",
           "package": "ig",
@@ -2872,6 +3121,7 @@
         "index": {
           "description": "Get information about media object",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "getMedia",
           "normalized": "MediaID-\u003eMaybe OAuthToken-\u003eInstagramT a(Envelope(Maybe Media))",
@@ -2888,6 +3138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of what media is most popular at the moment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "getPopularMedia",
           "package": "ig",
@@ -2898,6 +3149,7 @@
         "index": {
           "description": "Get list of what media is most popular at the moment",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "getPopularMedia",
           "normalized": "Maybe OAuthToken-\u003eInstagramT a(Envelope[Media])",
@@ -2914,6 +3166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the most recent media published by a user. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "getRecent",
           "package": "ig",
@@ -2924,6 +3177,7 @@
         "index": {
           "description": "Get the most recent media published by user",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "getRecent",
           "normalized": "UserID-\u003eOAuthToken-\u003eRecentParams-\u003eInstagramT a(Envelope[Media])",
@@ -2940,6 +3194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of recently tagged media.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "getRecentTagged",
           "package": "ig",
@@ -2950,6 +3205,7 @@
         "index": {
           "description": "Get list of recently tagged media",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "getRecentTagged",
           "normalized": "TagName-\u003eMaybe OAuthToken-\u003eRecentTagParams-\u003eInstagramT a(Envelope[Media])",
@@ -2966,6 +3222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information about a relationship to another user. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "getRelationship",
           "package": "ig",
@@ -2976,6 +3233,7 @@
         "index": {
           "description": "Get information about relationship to another user",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "getRelationship",
           "normalized": "UserID-\u003eOAuthToken-\u003eInstagramT a(Envelope Relationship)",
@@ -2992,6 +3250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList the users who have requested this user's permission to follow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "getRequestedBy",
           "package": "ig",
@@ -3002,6 +3261,7 @@
         "index": {
           "description": "List the users who have requested this user permission to follow",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "getRequestedBy",
           "normalized": "OAuthToken-\u003eInstagramT a(Envelope[User])",
@@ -3018,6 +3278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee the authenticated user's feed.   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "getSelfFeed",
           "package": "ig",
@@ -3028,6 +3289,7 @@
         "index": {
           "description": "See the authenticated user feed",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "getSelfFeed",
           "normalized": "OAuthToken-\u003eSelfFeedParams-\u003eInstagramT a(Envelope[Media])",
@@ -3044,6 +3306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee the authenticated user's list of media they've liked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "getSelfLiked",
           "package": "ig",
@@ -3054,6 +3317,7 @@
         "index": {
           "description": "See the authenticated user list of media they ve liked",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "getSelfLiked",
           "normalized": "OAuthToken-\u003eSelfLikedParams-\u003eInstagramT a(Envelope[Media])",
@@ -3070,6 +3334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information about a tag object. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "getTag",
           "package": "ig",
@@ -3080,6 +3345,7 @@
         "index": {
           "description": "Get information about tag object",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "getTag",
           "normalized": "TagName-\u003eMaybe OAuthToken-\u003eInstagramT a(Envelope(Maybe Tag))",
@@ -3096,6 +3362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet basic information about a user. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "getUser",
           "package": "ig",
@@ -3106,6 +3373,7 @@
         "index": {
           "description": "Get basic information about user",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "getUser",
           "normalized": "UserID-\u003eMaybe OAuthToken-\u003eInstagramT a(Envelope(Maybe User))",
@@ -3122,6 +3390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the authorize url to redirect your user to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "getUserAccessTokenURL1",
           "package": "ig",
@@ -3131,6 +3400,7 @@
         "index": {
           "description": "get the authorize url to redirect your user to",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "getUserAccessTokenURL1",
           "normalized": "RedirectUri-\u003e[Scope]-\u003eInstagramT a Text",
@@ -3147,6 +3417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esecond step of authorization: get the access token once the user has been redirected with a code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "getUserAccessTokenURL2",
           "package": "ig",
@@ -3156,6 +3427,7 @@
         "index": {
           "description": "second step of authorization get the access token once the user has been redirected with code",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "getUserAccessTokenURL2",
           "normalized": "RedirectUri-\u003eText-\u003eInstagramT a OAuthToken",
@@ -3171,6 +3443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "gmpCount",
           "package": "ig",
@@ -3180,6 +3453,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "gmpCount",
           "package": "ig",
@@ -3193,6 +3467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "gmpMinId",
           "package": "ig",
@@ -3202,6 +3477,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "gmpMinId",
           "package": "ig",
@@ -3215,6 +3491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "grLatitude",
           "package": "ig",
@@ -3224,6 +3501,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "grLatitude",
           "package": "ig",
@@ -3237,6 +3515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "grLongitude",
           "package": "ig",
@@ -3246,6 +3525,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "grLongitude",
           "package": "ig",
@@ -3259,6 +3539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "grRadius",
           "package": "ig",
@@ -3268,6 +3549,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "grRadius",
           "package": "ig",
@@ -3281,6 +3563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "iLowRes",
           "package": "ig",
@@ -3290,6 +3573,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "iLowRes",
           "package": "ig",
@@ -3303,6 +3587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "iStandardRes",
           "package": "ig",
@@ -3312,6 +3597,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "iStandardRes",
           "package": "ig",
@@ -3325,6 +3611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "iThumbnail",
           "package": "ig",
@@ -3334,6 +3621,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "iThumbnail",
           "package": "ig",
@@ -3347,6 +3635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "idHeight",
           "package": "ig",
@@ -3356,6 +3645,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "idHeight",
           "package": "ig",
@@ -3369,6 +3659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "idURL",
           "package": "ig",
@@ -3378,6 +3669,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "idURL",
           "package": "ig",
@@ -3391,6 +3683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "idWidth",
           "package": "ig",
@@ -3400,6 +3693,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "idWidth",
           "package": "ig",
@@ -3413,6 +3707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "lID",
           "package": "ig",
@@ -3422,6 +3717,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "lID",
           "package": "ig",
@@ -3435,6 +3731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "lLatitude",
           "package": "ig",
@@ -3444,6 +3741,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "lLatitude",
           "package": "ig",
@@ -3457,6 +3755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "lLongitude",
           "package": "ig",
@@ -3466,6 +3765,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "lLongitude",
           "package": "ig",
@@ -3479,6 +3779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "lName",
           "package": "ig",
@@ -3488,6 +3789,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "lName",
           "package": "ig",
@@ -3501,6 +3803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "lStreetAddress",
           "package": "ig",
@@ -3510,6 +3813,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "lStreetAddress",
           "package": "ig",
@@ -3524,6 +3828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a like on this media by the currently authenticated user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "like",
           "package": "ig",
@@ -3534,6 +3839,7 @@
         "index": {
           "description": "Set like on this media by the currently authenticated user",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "like",
           "normalized": "MediaID-\u003eOAuthToken-\u003eInstagramT a(Envelope NoResult)",
@@ -3549,6 +3855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elist all subscriptions for the application\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "listSubscriptions",
           "package": "ig",
@@ -3558,6 +3865,7 @@
         "index": {
           "description": "list all subscriptions for the application",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "listSubscriptions",
           "normalized": "InstagramT a(Envelope[Subscription])",
@@ -3573,6 +3881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "lmspMaxID",
           "package": "ig",
@@ -3582,6 +3891,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "lmspMaxID",
           "package": "ig",
@@ -3595,6 +3905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "lmspMaxTimestamp",
           "package": "ig",
@@ -3604,6 +3915,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "lmspMaxTimestamp",
           "package": "ig",
@@ -3617,6 +3929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "lmspMinId",
           "package": "ig",
@@ -3626,6 +3939,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "lmspMinId",
           "package": "ig",
@@ -3639,6 +3953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "lmspMinTimestamp",
           "package": "ig",
@@ -3648,6 +3963,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "lmspMinTimestamp",
           "package": "ig",
@@ -3661,6 +3977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "lrID",
           "package": "ig",
@@ -3670,6 +3987,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "lrID",
           "package": "ig",
@@ -3683,6 +4001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "lspDistance",
           "package": "ig",
@@ -3692,6 +4011,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "lspDistance",
           "package": "ig",
@@ -3705,6 +4025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "lspFoursquareID",
           "package": "ig",
@@ -3714,6 +4035,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "lspFoursquareID",
           "package": "ig",
@@ -3727,6 +4049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "lspFoursquareIDv2",
           "package": "ig",
@@ -3736,6 +4059,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "lspFoursquareIDv2",
           "package": "ig",
@@ -3749,6 +4073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "lspLatitude",
           "package": "ig",
@@ -3758,6 +4083,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "lspLatitude",
           "package": "ig",
@@ -3771,6 +4097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "lspLongitude",
           "package": "ig",
@@ -3780,6 +4107,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "lspLongitude",
           "package": "ig",
@@ -3794,6 +4122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eseems to be open format https:\u003cem/\u003egroups.google.com\u003cem\u003eforum\u003c/em\u003e?fromgroups#!topic\u003cem\u003einstagram-api-developers\u003c/em\u003eKvGH1cnjljQ\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "mAttribution",
           "package": "ig",
@@ -3804,6 +4133,7 @@
         "index": {
           "description": "seems to be open format https groups.google.com forum fromgroups topic instagram-api-developers KvGH1cnjljQ",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "mAttribution",
           "package": "ig",
@@ -3817,6 +4147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "mCaption",
           "package": "ig",
@@ -3826,6 +4157,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "mCaption",
           "package": "ig",
@@ -3839,6 +4171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "mComments",
           "package": "ig",
@@ -3848,6 +4181,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "mComments",
           "package": "ig",
@@ -3861,6 +4195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "mCreated",
           "package": "ig",
@@ -3870,6 +4205,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "mCreated",
           "package": "ig",
@@ -3883,6 +4219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "mFilter",
           "package": "ig",
@@ -3892,6 +4229,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "mFilter",
           "package": "ig",
@@ -3905,6 +4243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "mID",
           "package": "ig",
@@ -3914,6 +4253,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "mID",
           "package": "ig",
@@ -3927,6 +4267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "mImages",
           "package": "ig",
@@ -3936,6 +4277,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "mImages",
           "package": "ig",
@@ -3949,6 +4291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "mLikes",
           "package": "ig",
@@ -3958,6 +4301,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "mLikes",
           "package": "ig",
@@ -3971,6 +4315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "mLink",
           "package": "ig",
@@ -3980,6 +4325,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "mLink",
           "package": "ig",
@@ -3993,6 +4339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "mLocation",
           "package": "ig",
@@ -4002,6 +4349,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "mLocation",
           "package": "ig",
@@ -4015,6 +4363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "mTags",
           "package": "ig",
@@ -4024,6 +4373,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "mTags",
           "normalized": "[Text]",
@@ -4039,6 +4389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "mType",
           "package": "ig",
@@ -4048,6 +4399,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "mType",
           "package": "ig",
@@ -4061,6 +4413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "mUser",
           "package": "ig",
@@ -4070,6 +4423,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "mUser",
           "package": "ig",
@@ -4083,6 +4437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "mUserHasLiked",
           "package": "ig",
@@ -4092,6 +4447,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "mUserHasLiked",
           "package": "ig",
@@ -4105,6 +4461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "mUsersInPhoto",
           "package": "ig",
@@ -4114,6 +4471,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "mUsersInPhoto",
           "normalized": "[UserPosition]",
@@ -4130,6 +4488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe media Aspect, the only one supported for now  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "media",
           "package": "ig",
@@ -4140,6 +4499,7 @@
         "index": {
           "description": "the media Aspect the only one supported for now",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "media",
           "package": "ig",
@@ -4152,6 +4512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "mspDistance",
           "package": "ig",
@@ -4161,6 +4522,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "mspDistance",
           "package": "ig",
@@ -4174,6 +4536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "mspLatitude",
           "package": "ig",
@@ -4183,6 +4546,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "mspLatitude",
           "package": "ig",
@@ -4196,6 +4560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "mspLongitude",
           "package": "ig",
@@ -4205,6 +4570,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "mspLongitude",
           "package": "ig",
@@ -4218,6 +4584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "mspMaxTimestamp",
           "package": "ig",
@@ -4227,6 +4594,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "mspMaxTimestamp",
           "package": "ig",
@@ -4240,6 +4608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "mspMinTimestamp",
           "package": "ig",
@@ -4249,6 +4618,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "mspMinTimestamp",
           "package": "ig",
@@ -4263,6 +4633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe access token\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "oaAccessToken",
           "package": "ig",
@@ -4273,6 +4644,7 @@
         "index": {
           "description": "the access token",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "oaAccessToken",
           "package": "ig",
@@ -4287,6 +4659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe user structure returned\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "oaUser",
           "package": "ig",
@@ -4297,6 +4670,7 @@
         "index": {
           "description": "the user structure returned",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "oaUser",
           "package": "ig",
@@ -4310,6 +4684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "pMinTagID",
           "package": "ig",
@@ -4319,6 +4694,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "pMinTagID",
           "package": "ig",
@@ -4332,6 +4708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "pNextMaxID",
           "package": "ig",
@@ -4341,6 +4718,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "pNextMaxID",
           "package": "ig",
@@ -4354,6 +4732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "pNextMaxTagID",
           "package": "ig",
@@ -4363,6 +4742,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "pNextMaxTagID",
           "package": "ig",
@@ -4376,6 +4756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "pNextMinID",
           "package": "ig",
@@ -4385,6 +4766,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "pNextMinID",
           "package": "ig",
@@ -4398,6 +4780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "pNextUrl",
           "package": "ig",
@@ -4407,6 +4790,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "pNextUrl",
           "package": "ig",
@@ -4420,6 +4804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "pX",
           "package": "ig",
@@ -4429,6 +4814,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "pX",
           "package": "ig",
@@ -4441,6 +4827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "pY",
           "package": "ig",
@@ -4450,6 +4837,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "pY",
           "package": "ig",
@@ -4463,6 +4851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a comment on a media.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "postComment",
           "package": "ig",
@@ -4473,6 +4862,7 @@
         "index": {
           "description": "Create comment on media",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "postComment",
           "normalized": "MediaID-\u003eOAuthToken-\u003eText-\u003eInstagramT a(Envelope NoResult)",
@@ -4488,6 +4878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "rIncoming",
           "package": "ig",
@@ -4497,6 +4888,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "rIncoming",
           "package": "ig",
@@ -4510,6 +4902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "rOutgoing",
           "package": "ig",
@@ -4519,6 +4912,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "rOutgoing",
           "package": "ig",
@@ -4533,6 +4927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enot present in doc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "rTargetUserPrivate",
           "package": "ig",
@@ -4543,6 +4938,7 @@
         "index": {
           "description": "not present in doc",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "rTargetUserPrivate",
           "package": "ig",
@@ -4556,6 +4952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "rpCount",
           "package": "ig",
@@ -4565,6 +4962,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "rpCount",
           "package": "ig",
@@ -4578,6 +4976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "rpMaxID",
           "package": "ig",
@@ -4587,6 +4986,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "rpMaxID",
           "package": "ig",
@@ -4600,6 +5000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "rpMaxTimestamp",
           "package": "ig",
@@ -4609,6 +5010,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "rpMaxTimestamp",
           "package": "ig",
@@ -4622,6 +5024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "rpMinId",
           "package": "ig",
@@ -4631,6 +5034,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "rpMinId",
           "package": "ig",
@@ -4644,6 +5048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "rpMinTimestamp",
           "package": "ig",
@@ -4653,6 +5058,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "rpMinTimestamp",
           "package": "ig",
@@ -4666,6 +5072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "rtpMaxID",
           "package": "ig",
@@ -4675,6 +5082,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "rtpMaxID",
           "package": "ig",
@@ -4688,6 +5096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "rtpMinID",
           "package": "ig",
@@ -4697,6 +5106,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "rtpMinID",
           "package": "ig",
@@ -4711,6 +5121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a computation in the \u003ccode\u003e\u003ca\u003eInstagramT\u003c/a\u003e\u003c/code\u003e monad transformer with\n your credentials.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "runInstagramT",
           "package": "ig",
@@ -4720,6 +5131,7 @@
         "index": {
           "description": "Run computation in the InstagramT monad transformer with your credentials",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "runInstagramT",
           "normalized": "Credentials-\u003eManager-\u003eInstagramT a b-\u003ea b",
@@ -4736,6 +5148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003eResourceT\u003c/code\u003e inside a \u003ccode\u003e\u003ca\u003eInstagramT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "runResourceInIs",
           "package": "ig",
@@ -4746,6 +5159,7 @@
         "index": {
           "description": "Run ResourceT inside InstagramT",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "runResourceInIs",
           "normalized": "InstagramT(ResourceT a)b-\u003eInstagramT a b",
@@ -4761,6 +5175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "sAspect",
           "package": "ig",
@@ -4770,6 +5185,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "sAspect",
           "package": "ig",
@@ -4783,6 +5199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "sCallbackUrl",
           "package": "ig",
@@ -4792,6 +5209,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "sCallbackUrl",
           "package": "ig",
@@ -4805,6 +5223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "sID",
           "package": "ig",
@@ -4814,6 +5233,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "sID",
           "package": "ig",
@@ -4827,6 +5247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "sLatitude",
           "package": "ig",
@@ -4836,6 +5257,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "sLatitude",
           "package": "ig",
@@ -4849,6 +5271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "sLongitude",
           "package": "ig",
@@ -4858,6 +5281,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "sLongitude",
           "package": "ig",
@@ -4871,6 +5295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "sObject",
           "package": "ig",
@@ -4880,6 +5305,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "sObject",
           "package": "ig",
@@ -4893,6 +5319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "sObjectID",
           "package": "ig",
@@ -4902,6 +5329,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "sObjectID",
           "package": "ig",
@@ -4915,6 +5343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "sRadius",
           "package": "ig",
@@ -4924,6 +5353,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "sRadius",
           "package": "ig",
@@ -4937,6 +5367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "sType",
           "package": "ig",
@@ -4946,6 +5377,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "sType",
           "package": "ig",
@@ -4960,6 +5392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch for a location by geographic coordinate. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "searchLocations",
           "package": "ig",
@@ -4970,6 +5403,7 @@
         "index": {
           "description": "Search for location by geographic coordinate",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "searchLocations",
           "normalized": "Maybe OAuthToken-\u003eLocationSearchParams-\u003eInstagramT a(Envelope[Location])",
@@ -4986,6 +5420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch for media in a given area.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "searchMedia",
           "package": "ig",
@@ -4996,6 +5431,7 @@
         "index": {
           "description": "Search for media in given area",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "searchMedia",
           "normalized": "Maybe OAuthToken-\u003eMediaSearchParams-\u003eInstagramT a(Envelope[Media])",
@@ -5012,6 +5448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch for tags by name. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "searchTags",
           "package": "ig",
@@ -5022,6 +5459,7 @@
         "index": {
           "description": "Search for tags by name",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "searchTags",
           "normalized": "TagName-\u003eMaybe OAuthToken-\u003eInstagramT a(Envelope[Tag])",
@@ -5038,6 +5476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch for a user by name. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "searchUsers",
           "package": "ig",
@@ -5048,6 +5487,7 @@
         "index": {
           "description": "Search for user by name",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "searchUsers",
           "normalized": "Maybe OAuthToken-\u003eUserSearchParams-\u003eInstagramT a(Envelope[User])",
@@ -5064,6 +5504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the relationship between the current user and the target user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "setRelationShip",
           "package": "ig",
@@ -5074,6 +5515,7 @@
         "index": {
           "description": "Modify the relationship between the current user and the target user",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "setRelationShip",
           "normalized": "UserID-\u003eOAuthToken-\u003eRelationShipAction-\u003eInstagramT a(Envelope Relationship)",
@@ -5089,6 +5531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "sfpCount",
           "package": "ig",
@@ -5098,6 +5541,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "sfpCount",
           "package": "ig",
@@ -5111,6 +5555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "sfpMaxID",
           "package": "ig",
@@ -5120,6 +5565,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "sfpMaxID",
           "package": "ig",
@@ -5133,6 +5579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "sfpMinId",
           "package": "ig",
@@ -5142,6 +5589,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "sfpMinId",
           "package": "ig",
@@ -5155,6 +5603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "slpCount",
           "package": "ig",
@@ -5164,6 +5613,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "slpCount",
           "package": "ig",
@@ -5177,6 +5627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "slpMaxLikeID",
           "package": "ig",
@@ -5186,6 +5637,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "slpMaxLikeID",
           "package": "ig",
@@ -5200,6 +5652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe subscription aspect\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "spAspect",
           "package": "ig",
@@ -5210,6 +5663,7 @@
         "index": {
           "description": "the subscription aspect",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "spAspect",
           "package": "ig",
@@ -5224,6 +5678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe url Instagram will post notifications to\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "spCallback",
           "package": "ig",
@@ -5234,6 +5689,7 @@
         "index": {
           "description": "the url Instagram will post notifications to",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "spCallback",
           "package": "ig",
@@ -5248,6 +5704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe actual subscription request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "spRequest",
           "package": "ig",
@@ -5258,6 +5715,7 @@
         "index": {
           "description": "the actual subscription request",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "spRequest",
           "package": "ig",
@@ -5272,6 +5730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe verification token\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "spVerifyToken",
           "package": "ig",
@@ -5282,6 +5741,7 @@
         "index": {
           "description": "the verification token",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "spVerifyToken",
           "package": "ig",
@@ -5295,6 +5755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "tMediaCount",
           "package": "ig",
@@ -5304,6 +5765,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "tMediaCount",
           "package": "ig",
@@ -5317,6 +5779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "tName",
           "package": "ig",
@@ -5326,6 +5789,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "tName",
           "package": "ig",
@@ -5339,6 +5803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "trTag",
           "package": "ig",
@@ -5348,6 +5813,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "trTag",
           "package": "ig",
@@ -5361,6 +5827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "uChangedAspect",
           "package": "ig",
@@ -5370,6 +5837,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "uChangedAspect",
           "package": "ig",
@@ -5383,6 +5851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "uFullName",
           "package": "ig",
@@ -5392,6 +5861,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "uFullName",
           "package": "ig",
@@ -5405,6 +5875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "uID",
           "package": "ig",
@@ -5414,6 +5885,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "uID",
           "package": "ig",
@@ -5427,6 +5899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "uObject",
           "package": "ig",
@@ -5436,6 +5909,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "uObject",
           "package": "ig",
@@ -5449,6 +5923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "uObjectID",
           "package": "ig",
@@ -5458,6 +5933,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "uObjectID",
           "package": "ig",
@@ -5471,6 +5947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "uProfilePicture",
           "package": "ig",
@@ -5480,6 +5957,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "uProfilePicture",
           "package": "ig",
@@ -5493,6 +5971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "uSubscriptionID",
           "package": "ig",
@@ -5502,6 +5981,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "uSubscriptionID",
           "package": "ig",
@@ -5515,6 +5995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "uTime",
           "package": "ig",
@@ -5524,6 +6005,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "uTime",
           "package": "ig",
@@ -5537,6 +6019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "uUsername",
           "package": "ig",
@@ -5546,6 +6029,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "uUsername",
           "package": "ig",
@@ -5559,6 +6043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "uWebsite",
           "package": "ig",
@@ -5568,6 +6053,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "uWebsite",
           "package": "ig",
@@ -5582,6 +6068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a like on this media by the currently authenticated user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "unlike",
           "package": "ig",
@@ -5592,6 +6079,7 @@
         "index": {
           "description": "Remove like on this media by the currently authenticated user",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "unlike",
           "normalized": "MediaID-\u003eOAuthToken-\u003eInstagramT a(Envelope NoResult)",
@@ -5606,6 +6094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "upPosition",
           "package": "ig",
@@ -5615,6 +6104,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "upPosition",
           "package": "ig",
@@ -5628,6 +6118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "upUser",
           "package": "ig",
@@ -5637,6 +6128,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "upUser",
           "package": "ig",
@@ -5650,6 +6142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "uspCount",
           "package": "ig",
@@ -5659,6 +6152,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "uspCount",
           "package": "ig",
@@ -5672,6 +6166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "uspQuery",
           "package": "ig",
@@ -5681,6 +6176,7 @@
         },
         "index": {
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "uspQuery",
           "package": "ig",
@@ -5695,6 +6191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003everify the signature with the content, using the secret as the key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:56:17 UTC 2014",
           "module": "Instagram",
           "name": "verifySignature",
           "package": "ig",
@@ -5704,6 +6201,7 @@
         "index": {
           "description": "verify the signature with the content using the secret as the key",
           "hierarchy": "Instagram",
+          "indexed": "2014-03-11T18:56:17",
           "module": "Instagram",
           "name": "verifySignature",
           "normalized": "ByteString-\u003eByteString-\u003eInstagramT a Bool",

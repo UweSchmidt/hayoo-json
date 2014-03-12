@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hp2any-manager"
+        "phrase": "hp2any-manager",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nemesis"
+        "phrase": "nemesis",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis.DSL",
           "name": "DSL",
           "package": "nemesis",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis DSL",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis.DSL",
           "name": "DSL",
           "package": "nemesis",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis.DSL",
           "name": "clean",
           "package": "nemesis",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis DSL",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis.DSL",
           "name": "clean",
           "normalized": "[String]-\u003eUnit",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis.DSL",
           "name": "desc",
           "package": "nemesis",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis DSL",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis.DSL",
           "name": "desc",
           "normalized": "String-\u003eUnit",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis.DSL",
           "name": "namespace",
           "package": "nemesis",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis DSL",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis.DSL",
           "name": "namespace",
           "normalized": "String-\u003eUnit-\u003eUnit",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis.DSL",
           "name": "sh",
           "package": "nemesis",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis DSL",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis.DSL",
           "name": "sh",
           "normalized": "String-\u003eIO()",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis.DSL",
           "name": "task",
           "package": "nemesis",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis DSL",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis.DSL",
           "name": "task",
           "normalized": "String-\u003eIO()-\u003eUnit",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis.Env",
           "name": "Env",
           "package": "nemesis",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis Env",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis.Env",
           "name": "Env",
           "package": "nemesis",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "Nemesis",
           "package": "nemesis",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "Nemesis",
           "package": "nemesis",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "Nemesis",
           "package": "nemesis",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "Nemesis",
           "package": "nemesis",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "ShowIO",
           "package": "nemesis",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "ShowIO",
           "package": "nemesis",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "Task",
           "package": "nemesis",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "Task",
           "package": "nemesis",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "Unit",
           "package": "nemesis",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "Unit",
           "package": "nemesis",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "Nemesis",
           "package": "nemesis",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "Nemesis",
           "package": "nemesis",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "ShowIO",
           "package": "nemesis",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "ShowIO",
           "package": "nemesis",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "Task",
           "package": "nemesis",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "Task",
           "package": "nemesis",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "action",
           "package": "nemesis",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "action",
           "package": "nemesis",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "current_desc",
           "package": "nemesis",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "current_desc",
           "package": "nemesis",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "current_namespace",
           "package": "nemesis",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "current_namespace",
           "normalized": "[String]",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "deps",
           "package": "nemesis",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "deps",
           "normalized": "[String]",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "description",
           "package": "nemesis",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "description",
           "package": "nemesis",
@@ -455,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "display_name",
           "package": "nemesis",
@@ -464,6 +505,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "display_name",
           "normalized": "Task-\u003eString",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "full_name",
           "package": "nemesis",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "full_name",
           "normalized": "Task-\u003eString",
@@ -501,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "insert_task",
           "package": "nemesis",
@@ -510,6 +555,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "insert_task",
           "normalized": "Task-\u003eUnit",
@@ -524,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "name",
           "package": "nemesis",
@@ -533,6 +580,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "name",
           "package": "nemesis",
@@ -545,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "namespace",
           "package": "nemesis",
@@ -554,6 +603,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "namespace",
           "normalized": "[String]",
@@ -568,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "run",
           "package": "nemesis",
@@ -577,6 +628,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "run",
           "normalized": "Unit-\u003eIO()",
@@ -591,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "run_nemesis",
           "package": "nemesis",
@@ -600,6 +653,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "run_nemesis",
           "normalized": "Nemesis-\u003eIO()",
@@ -614,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "show_task",
           "package": "nemesis",
@@ -623,6 +678,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "show_task",
           "normalized": "Task-\u003eString",
@@ -637,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "show_with_ljust",
           "package": "nemesis",
@@ -646,6 +703,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "show_with_ljust",
           "normalized": "Int-\u003eTask-\u003eString",
@@ -660,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "target",
           "package": "nemesis",
@@ -669,6 +728,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "target",
           "package": "nemesis",
@@ -681,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "tasks",
           "package": "nemesis",
@@ -690,6 +751,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "tasks",
           "package": "nemesis",
@@ -702,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:34 UTC 2014",
           "module": "System.Nemesis",
           "name": "unShowIO",
           "package": "nemesis",
@@ -711,6 +774,7 @@
         },
         "index": {
           "hierarchy": "System Nemesis",
+          "indexed": "2014-03-11T19:26:34",
           "module": "System.Nemesis",
           "name": "unShowIO",
           "normalized": "IO()",

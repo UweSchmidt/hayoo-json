@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "polimorf"
+        "phrase": "polimorf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe module provides functionality for manipulating PoliMorf, the\n morphological dictionary for Polish.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:41:00 UTC 2014",
           "module": "Data.PoliMorf",
           "name": "PoliMorf",
           "package": "polimorf",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The module provides functionality for manipulating PoliMorf the morphological dictionary for Polish",
           "hierarchy": "Data PoliMorf",
+          "indexed": "2014-03-11T19:41:00",
           "module": "Data.PoliMorf",
           "name": "PoliMorf",
           "package": "polimorf",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA base form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:00 UTC 2014",
           "module": "Data.PoliMorf",
           "name": "Base",
           "package": "polimorf",
@@ -51,6 +54,7 @@
         "index": {
           "description": "base form",
           "hierarchy": "Data PoliMorf",
+          "indexed": "2014-03-11T19:41:00",
           "module": "Data.PoliMorf",
           "name": "Base",
           "package": "polimorf",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:00 UTC 2014",
           "module": "Data.PoliMorf",
           "name": "Cat",
           "package": "polimorf",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data PoliMorf",
+          "indexed": "2014-03-11T19:41:00",
           "module": "Data.PoliMorf",
           "name": "Cat",
           "package": "polimorf",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn entry from the PoliMorf dictionary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:00 UTC 2014",
           "module": "Data.PoliMorf",
           "name": "Entry",
           "package": "polimorf",
@@ -95,6 +102,7 @@
         "index": {
           "description": "An entry from the PoliMorf dictionary",
           "hierarchy": "Data PoliMorf",
+          "indexed": "2014-03-11T19:41:00",
           "module": "Data.PoliMorf",
           "name": "Entry",
           "package": "polimorf",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA word form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:00 UTC 2014",
           "module": "Data.PoliMorf",
           "name": "Form",
           "package": "polimorf",
@@ -118,6 +127,7 @@
         "index": {
           "description": "word form",
           "hierarchy": "Data PoliMorf",
+          "indexed": "2014-03-11T19:41:00",
           "module": "Data.PoliMorf",
           "name": "Form",
           "package": "polimorf",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA morphosyntactic description \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:00 UTC 2014",
           "module": "Data.PoliMorf",
           "name": "MSD",
           "package": "polimorf",
@@ -141,6 +152,7 @@
         "index": {
           "description": "morphosyntactic description",
           "hierarchy": "Data PoliMorf",
+          "indexed": "2014-03-11T19:41:00",
           "module": "Data.PoliMorf",
           "name": "MSD",
           "package": "polimorf",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA part of speech.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:00 UTC 2014",
           "module": "Data.PoliMorf",
           "name": "POS",
           "package": "polimorf",
@@ -164,6 +177,7 @@
         "index": {
           "description": "part of speech",
           "hierarchy": "Data PoliMorf",
+          "indexed": "2014-03-11T19:41:00",
           "module": "Data.PoliMorf",
           "name": "POS",
           "package": "polimorf",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA morphosyntactic tag. (Tag = POS + MSD)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:00 UTC 2014",
           "module": "Data.PoliMorf",
           "name": "Tag",
           "package": "polimorf",
@@ -187,6 +202,7 @@
         "index": {
           "description": "morphosyntactic tag Tag POS MSD",
           "hierarchy": "Data PoliMorf",
+          "indexed": "2014-03-11T19:41:00",
           "module": "Data.PoliMorf",
           "name": "Tag",
           "package": "polimorf",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:00 UTC 2014",
           "module": "Data.PoliMorf",
           "name": "Entry",
           "package": "polimorf",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Data PoliMorf",
+          "indexed": "2014-03-11T19:41:00",
           "module": "Data.PoliMorf",
           "name": "Entry",
           "package": "polimorf",
@@ -223,6 +241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the entry an atomic one?  More precisely, we treat all negative\n forms starting with ''nie'' and all superlatives starting with ''naj''\n as non-atomic entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:00 UTC 2014",
           "module": "Data.PoliMorf",
           "name": "atomic",
           "package": "polimorf",
@@ -233,6 +252,7 @@
         "index": {
           "description": "Is the entry an atomic one More precisely we treat all negative forms starting with nie and all superlatives starting with naj as non-atomic entries",
           "hierarchy": "Data PoliMorf",
+          "indexed": "2014-03-11T19:41:00",
           "module": "Data.PoliMorf",
           "name": "atomic",
           "normalized": "Entry-\u003eBool",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:00 UTC 2014",
           "module": "Data.PoliMorf",
           "name": "base",
           "package": "polimorf",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Data PoliMorf",
+          "indexed": "2014-03-11T19:41:00",
           "module": "Data.PoliMorf",
           "name": "base",
           "package": "polimorf",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:00 UTC 2014",
           "module": "Data.PoliMorf",
           "name": "cat",
           "package": "polimorf",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Data PoliMorf",
+          "indexed": "2014-03-11T19:41:00",
           "module": "Data.PoliMorf",
           "name": "cat",
           "package": "polimorf",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:00 UTC 2014",
           "module": "Data.PoliMorf",
           "name": "form",
           "package": "polimorf",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Data PoliMorf",
+          "indexed": "2014-03-11T19:41:00",
           "module": "Data.PoliMorf",
           "name": "form",
           "package": "polimorf",
@@ -311,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntry MSD.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:00 UTC 2014",
           "module": "Data.PoliMorf",
           "name": "msd",
           "package": "polimorf",
@@ -321,6 +348,7 @@
         "index": {
           "description": "Entry MSD",
           "hierarchy": "Data PoliMorf",
+          "indexed": "2014-03-11T19:41:00",
           "module": "Data.PoliMorf",
           "name": "msd",
           "normalized": "Entry-\u003eMSD",
@@ -336,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the PoliMorf into a list of entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:00 UTC 2014",
           "module": "Data.PoliMorf",
           "name": "parsePoliMorf",
           "package": "polimorf",
@@ -346,6 +375,7 @@
         "index": {
           "description": "Parse the PoliMorf into list of entries",
           "hierarchy": "Data PoliMorf",
+          "indexed": "2014-03-11T19:41:00",
           "module": "Data.PoliMorf",
           "name": "parsePoliMorf",
           "normalized": "Text-\u003e[Entry]",
@@ -362,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntry POS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:00 UTC 2014",
           "module": "Data.PoliMorf",
           "name": "pos",
           "package": "polimorf",
@@ -372,6 +403,7 @@
         "index": {
           "description": "Entry POS",
           "hierarchy": "Data PoliMorf",
+          "indexed": "2014-03-11T19:41:00",
           "module": "Data.PoliMorf",
           "name": "pos",
           "normalized": "Entry-\u003ePOS",
@@ -387,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the PoliMorf from the file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:00 UTC 2014",
           "module": "Data.PoliMorf",
           "name": "readPoliMorf",
           "package": "polimorf",
@@ -397,6 +430,7 @@
         "index": {
           "description": "Read the PoliMorf from the file",
           "hierarchy": "Data PoliMorf",
+          "indexed": "2014-03-11T19:41:00",
           "module": "Data.PoliMorf",
           "name": "readPoliMorf",
           "normalized": "FilePath-\u003eIO[Entry]",
@@ -413,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:41:00 UTC 2014",
           "module": "Data.PoliMorf",
           "name": "split",
           "package": "polimorf",
@@ -423,6 +458,7 @@
         "index": {
           "description": "Split tag",
           "hierarchy": "Data PoliMorf",
+          "indexed": "2014-03-11T19:41:00",
           "module": "Data.PoliMorf",
           "name": "split",
           "normalized": "Tag-\u003e(POS,MSD)",
@@ -437,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:00 UTC 2014",
           "module": "Data.PoliMorf",
           "name": "tag",
           "package": "polimorf",
@@ -446,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Data PoliMorf",
+          "indexed": "2014-03-11T19:41:00",
           "module": "Data.PoliMorf",
           "name": "tag",
           "package": "polimorf",

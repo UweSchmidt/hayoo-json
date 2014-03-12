@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xine"
+        "phrase": "xine",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple binding to xine-lib. Low-level bindings.\n Made for xine-lib version 1.1.18.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Foreign",
           "package": "xine",
@@ -28,6 +29,7 @@
         "index": {
           "description": "simple binding to xine-lib Low-level bindings Made for xine-lib version",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Foreign",
           "package": "xine",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe affection determines which actions on the master stream\n are also to be applied to the slave stream. See \u003ccode\u003e\u003ca\u003exine_stream_master_slave\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Affection",
           "package": "xine",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The affection determines which actions on the master stream are also to be applied to the slave stream See xine stream master slave",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Affection",
           "package": "xine",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues for XINE_PARAM_VO_ASPECT_RATIO\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "AspectRatio",
           "package": "xine",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Values for XINE PARAM VO ASPECT RATIO",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "AspectRatio",
           "package": "xine",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque type, never dereferenced on the Haskell side\n XXX: document me\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "AudioPort",
           "package": "xine",
@@ -97,6 +104,7 @@
         "index": {
           "description": "An opaque type never dereferenced on the Haskell side XXX document me",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "AudioPort",
           "package": "xine",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream format detection strategies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "DemuxStrategy",
           "package": "xine",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Stream format detection strategies",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "DemuxStrategy",
           "package": "xine",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque type, never dereferenced on the Haskell side\n XXX: document me\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Engine",
           "package": "xine",
@@ -143,6 +154,7 @@
         "index": {
           "description": "An opaque type never dereferenced on the Haskell side XXX document me",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Engine",
           "package": "xine",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEngine parameter enumeration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "EngineParam",
           "package": "xine",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Engine parameter enumeration",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "EngineParam",
           "package": "xine",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEngine status codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "EngineStatus",
           "package": "xine",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Engine status codes",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "EngineStatus",
           "package": "xine",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe different kinds of stream information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoType",
           "package": "xine",
@@ -212,6 +229,7 @@
         "index": {
           "description": "The different kinds of stream information",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoType",
           "package": "xine",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMedia Resource Locator.\n Describes the media to read from. Valid MRLs may be plain file names or\n one of the following:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Filesystem:\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003efile:\u003cpath\u003e\n\u003c/p\u003e\u003cp\u003efifo:\u003cpath\u003e\n\u003c/p\u003e\u003cp\u003estdin:/\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e CD and DVD:\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003edvd:/[device_name][/title[.part]]\n\u003c/p\u003e\u003cp\u003edvd:/DVD_image_file[/title[.part]]\n\u003c/p\u003e\u003cp\u003edvd:/DVD_directory[/title[.part]]\n\u003c/p\u003e\u003cp\u003evcd://[CD_image_or_device_name][@[letter]number]\n\u003c/p\u003e\u003cp\u003evcdo://track_number\n\u003c/p\u003e\u003cp\u003ecdda:/[device][/track_number]\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Video devices:\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003ev4l://[tuner_device/frequency\n\u003c/p\u003e\u003cp\u003ev4l2://tuner_device\n\u003c/p\u003e\u003cp\u003edvb://channel_number\n\u003c/p\u003e\u003cp\u003edvb://channel_name\n\u003c/p\u003e\u003cp\u003edvbc://channel_name:tuning_parameters\n\u003c/p\u003e\u003cp\u003edvbs://channel_name:tuning_parameters\n\u003c/p\u003e\u003cp\u003edvbt://channel_name:tuning_parameters\n\u003c/p\u003e\u003cp\u003edvba://channel_name:tuning_parameters\n\u003c/p\u003e\u003cp\u003epvr:/tmp_files_path!saved_files_path!max_page_age\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Network:\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003ehttp://host\n\u003c/p\u003e\u003cp\u003etcp://host[:port]\n\u003c/p\u003e\u003cp\u003eudp://host[:port[?iface=interface]]\n\u003c/p\u003e\u003cp\u003ertp://host[:port[?iface=interface]]\n\u003c/p\u003e\u003cp\u003esmb://\n\u003c/p\u003e\u003cp\u003emms://host\n\u003c/p\u003e\u003cp\u003epnm://host\n\u003c/p\u003e\u003cp\u003ertsp://host\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "MRL",
           "package": "xine",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Media Resource Locator Describes the media to read from Valid MRLs may be plain file names or one of the following Filesystem file path fifo path stdin CD and DVD dvd device name title part dvd DVD image file title part dvd DVD directory title part vcd CD image or device name letter number vcdo track number cdda device track number Video devices v4l tuner device frequency v4l2 tuner device dvb channel number dvb channel name dvbc channel name tuning parameters dvbs channel name tuning parameters dvbt channel name tuning parameters dvba channel name tuning parameters pvr tmp files path saved files path max page age Network http host tcp host port udp host port iface interface rtp host port iface interface smb mms host pnm host rtsp host",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "MRL",
           "package": "xine",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe different kinds of metadata\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "MetaType",
           "package": "xine",
@@ -258,6 +279,7 @@
         "index": {
           "description": "The different kinds of metadata",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "MetaType",
           "package": "xine",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue for XINE_PARAM_FINE_SPEED\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "NormalSpeed",
           "package": "xine",
@@ -281,6 +304,7 @@
         "index": {
           "description": "Value for XINE PARAM FINE SPEED",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "NormalSpeed",
           "package": "xine",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues for XINE_PARAM_SPEED parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Speed",
           "package": "xine",
@@ -304,6 +329,7 @@
         "index": {
           "description": "Values for XINE PARAM SPEED parameter",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Speed",
           "package": "xine",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque type, never dereferenced on the Haskell side\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Stream",
           "package": "xine",
@@ -327,6 +354,7 @@
         "index": {
           "description": "An opaque type never dereferenced on the Haskell side",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Stream",
           "package": "xine",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream parameter enumeration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "StreamParam",
           "package": "xine",
@@ -350,6 +379,7 @@
         "index": {
           "description": "Stream parameter enumeration",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "StreamParam",
           "package": "xine",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "TrickMode",
           "package": "xine",
@@ -371,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "TrickMode",
           "package": "xine",
@@ -385,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerbosity setting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Verbosity",
           "package": "xine",
@@ -394,6 +427,7 @@
         "index": {
           "description": "Verbosity setting",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Verbosity",
           "package": "xine",
@@ -408,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque type, never dereferenced on the Haskell side\n XXX: document me\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "VideoPort",
           "package": "xine",
@@ -417,6 +452,7 @@
         "index": {
           "description": "An opaque type never dereferenced on the Haskell side XXX document me",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "VideoPort",
           "package": "xine",
@@ -431,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid visual types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "VisualType",
           "package": "xine",
@@ -440,6 +477,7 @@
         "index": {
           "description": "Valid visual types",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "VisualType",
           "package": "xine",
@@ -454,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003exine error codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "XineError",
           "package": "xine",
@@ -463,6 +502,7 @@
         "index": {
           "description": "xine error codes",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "XineError",
           "package": "xine",
@@ -477,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues for XINE_PARAM_VO_ZOOM_\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Zoom",
           "package": "xine",
@@ -486,6 +527,7 @@
         "index": {
           "description": "Values for XINE PARAM VO ZOOM",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Zoom",
           "package": "xine",
@@ -522,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "AffectionPlay",
           "package": "xine",
@@ -531,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "AffectionPlay",
           "package": "xine",
@@ -544,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "AffectionSpeed",
           "package": "xine",
@@ -553,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "AffectionSpeed",
           "package": "xine",
@@ -566,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "AffectionStop",
           "package": "xine",
@@ -575,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "AffectionStop",
           "package": "xine",
@@ -588,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "AmpMute",
           "package": "xine",
@@ -597,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "AmpMute",
           "package": "xine",
@@ -610,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Aspect43",
           "package": "xine",
@@ -619,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Aspect43",
           "package": "xine",
@@ -632,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "AspectAnamorphic",
           "package": "xine",
@@ -641,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "AspectAnamorphic",
           "package": "xine",
@@ -654,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "AspectAuto",
           "package": "xine",
@@ -663,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "AspectAuto",
           "package": "xine",
@@ -676,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "AspectDvb",
           "package": "xine",
@@ -685,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "AspectDvb",
           "package": "xine",
@@ -698,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "AspectNumRatios",
           "package": "xine",
@@ -707,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "AspectNumRatios",
           "package": "xine",
@@ -720,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "AspectRatio",
           "package": "xine",
@@ -729,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "AspectRatio",
           "package": "xine",
@@ -742,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "AspectSquare",
           "package": "xine",
@@ -751,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "AspectSquare",
           "package": "xine",
@@ -764,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "AudioChannelLogical",
           "package": "xine",
@@ -773,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "AudioChannelLogical",
           "package": "xine",
@@ -786,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "AudioCloseDevice",
           "package": "xine",
@@ -795,6 +862,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "AudioCloseDevice",
           "package": "xine",
@@ -808,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "AudioComprLevel",
           "package": "xine",
@@ -817,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "AudioComprLevel",
           "package": "xine",
@@ -830,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "AudioMute",
           "package": "xine",
@@ -839,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "AudioMute",
           "package": "xine",
@@ -852,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "AudioReportLevel",
           "package": "xine",
@@ -861,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "AudioReportLevel",
           "package": "xine",
@@ -874,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "AudioVolume",
           "package": "xine",
@@ -883,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "AudioVolume",
           "package": "xine",
@@ -896,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "AvOffset",
           "package": "xine",
@@ -905,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "AvOffset",
           "package": "xine",
@@ -918,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Brightness",
           "package": "xine",
@@ -927,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Brightness",
           "package": "xine",
@@ -940,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "BroadcasterPort",
           "package": "xine",
@@ -949,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "BroadcasterPort",
           "package": "xine",
@@ -985,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Contrast",
           "package": "xine",
@@ -994,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Contrast",
           "package": "xine",
@@ -1007,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "CropBottom",
           "package": "xine",
@@ -1016,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "CropBottom",
           "package": "xine",
@@ -1029,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "CropLeft",
           "package": "xine",
@@ -1038,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "CropLeft",
           "package": "xine",
@@ -1051,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "CropRight",
           "package": "xine",
@@ -1060,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "CropRight",
           "package": "xine",
@@ -1073,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "CropTop",
           "package": "xine",
@@ -1082,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "CropTop",
           "package": "xine",
@@ -1118,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Deinterlace",
           "package": "xine",
@@ -1127,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Deinterlace",
           "package": "xine",
@@ -1140,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "DelayFinishedEvent",
           "package": "xine",
@@ -1149,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "DelayFinishedEvent",
           "package": "xine",
@@ -1162,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "DemuxContent",
           "package": "xine",
@@ -1171,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "DemuxContent",
           "package": "xine",
@@ -1184,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "DemuxDefault",
           "package": "xine",
@@ -1193,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "DemuxDefault",
           "package": "xine",
@@ -1206,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "DemuxExtension",
           "package": "xine",
@@ -1215,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "DemuxExtension",
           "package": "xine",
@@ -1228,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "DemuxRevert",
           "package": "xine",
@@ -1237,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "DemuxRevert",
           "package": "xine",
@@ -1273,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "EarlyFinishedEvent",
           "package": "xine",
@@ -1282,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "EarlyFinishedEvent",
           "package": "xine",
@@ -1295,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "EngineVerbosity",
           "package": "xine",
@@ -1304,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "EngineVerbosity",
           "package": "xine",
@@ -1317,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Eq1000Hz",
           "package": "xine",
@@ -1326,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Eq1000Hz",
           "package": "xine",
@@ -1339,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Eq125Hz",
           "package": "xine",
@@ -1348,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Eq125Hz",
           "package": "xine",
@@ -1361,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Eq16000Hz",
           "package": "xine",
@@ -1370,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Eq16000Hz",
           "package": "xine",
@@ -1383,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Eq2000Hz",
           "package": "xine",
@@ -1392,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Eq2000Hz",
           "package": "xine",
@@ -1405,6 +1521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Eq30Hz",
           "package": "xine",
@@ -1414,6 +1531,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Eq30Hz",
           "package": "xine",
@@ -1427,6 +1545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Eq4000Hz",
           "package": "xine",
@@ -1436,6 +1555,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Eq4000Hz",
           "package": "xine",
@@ -1449,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Eq500Hz",
           "package": "xine",
@@ -1458,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Eq500Hz",
           "package": "xine",
@@ -1471,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Eq60Hz",
           "package": "xine",
@@ -1480,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Eq60Hz",
           "package": "xine",
@@ -1493,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Eq8000Hz",
           "package": "xine",
@@ -1502,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Eq8000Hz",
           "package": "xine",
@@ -1538,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Fast2",
           "package": "xine",
@@ -1547,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Fast2",
           "package": "xine",
@@ -1560,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Fast4",
           "package": "xine",
@@ -1569,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Fast4",
           "package": "xine",
@@ -1582,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "FineSpeed",
           "package": "xine",
@@ -1591,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "FineSpeed",
           "package": "xine",
@@ -1627,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "GaplessSwitch",
           "package": "xine",
@@ -1636,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "GaplessSwitch",
           "package": "xine",
@@ -1649,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Hue",
           "package": "xine",
@@ -1658,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Hue",
           "package": "xine",
@@ -1694,6 +1830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "IgnoreAudio",
           "package": "xine",
@@ -1703,6 +1840,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "IgnoreAudio",
           "package": "xine",
@@ -1716,6 +1854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "IgnoreVideo",
           "package": "xine",
@@ -1725,6 +1864,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "IgnoreVideo",
           "package": "xine",
@@ -1738,6 +1878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoAudioBitrate",
           "package": "xine",
@@ -1747,6 +1888,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoAudioBitrate",
           "package": "xine",
@@ -1760,6 +1902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoAudioBits",
           "package": "xine",
@@ -1769,6 +1912,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoAudioBits",
           "package": "xine",
@@ -1782,6 +1926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoAudioChannels",
           "package": "xine",
@@ -1791,6 +1936,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoAudioChannels",
           "package": "xine",
@@ -1804,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoAudioFourCC",
           "package": "xine",
@@ -1813,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoAudioFourCC",
           "package": "xine",
@@ -1826,6 +1974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoAudioHandled",
           "package": "xine",
@@ -1835,6 +1984,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoAudioHandled",
           "package": "xine",
@@ -1848,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoAudioMode",
           "package": "xine",
@@ -1857,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoAudioMode",
           "package": "xine",
@@ -1870,6 +2022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoAudioSamplerate",
           "package": "xine",
@@ -1879,6 +2032,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoAudioSamplerate",
           "package": "xine",
@@ -1892,6 +2046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoBitrate",
           "package": "xine",
@@ -1901,6 +2056,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoBitrate",
           "package": "xine",
@@ -1914,6 +2070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoDiscardedFrames",
           "package": "xine",
@@ -1923,6 +2080,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoDiscardedFrames",
           "package": "xine",
@@ -1936,6 +2094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoDvdAngleCount",
           "package": "xine",
@@ -1945,6 +2104,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoDvdAngleCount",
           "package": "xine",
@@ -1958,6 +2118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoDvdAngleNumber",
           "package": "xine",
@@ -1967,6 +2128,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoDvdAngleNumber",
           "package": "xine",
@@ -1980,6 +2142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoDvdChapterCount",
           "package": "xine",
@@ -1989,6 +2152,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoDvdChapterCount",
           "package": "xine",
@@ -2002,6 +2166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoDvdChapterNumber",
           "package": "xine",
@@ -2011,6 +2176,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoDvdChapterNumber",
           "package": "xine",
@@ -2024,6 +2190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoDvdTitleCount",
           "package": "xine",
@@ -2033,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoDvdTitleCount",
           "package": "xine",
@@ -2046,6 +2214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoDvdTitleNumber",
           "package": "xine",
@@ -2055,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoDvdTitleNumber",
           "package": "xine",
@@ -2068,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoFrameDuration",
           "package": "xine",
@@ -2077,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoFrameDuration",
           "package": "xine",
@@ -2090,6 +2262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoHasAudio",
           "package": "xine",
@@ -2099,6 +2272,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoHasAudio",
           "package": "xine",
@@ -2112,6 +2286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoHasChapters",
           "package": "xine",
@@ -2121,6 +2296,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoHasChapters",
           "package": "xine",
@@ -2134,6 +2310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoHasVideo",
           "package": "xine",
@@ -2143,6 +2320,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoHasVideo",
           "package": "xine",
@@ -2156,6 +2334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoIgnoreAudio",
           "package": "xine",
@@ -2165,6 +2344,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoIgnoreAudio",
           "package": "xine",
@@ -2178,6 +2358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoIgnoreSpu",
           "package": "xine",
@@ -2187,6 +2368,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoIgnoreSpu",
           "package": "xine",
@@ -2200,6 +2382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoIgnoreVideo",
           "package": "xine",
@@ -2209,6 +2392,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoIgnoreVideo",
           "package": "xine",
@@ -2222,6 +2406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoMaxAudioChannel",
           "package": "xine",
@@ -2231,6 +2416,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoMaxAudioChannel",
           "package": "xine",
@@ -2244,6 +2430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoMaxSpuChannel",
           "package": "xine",
@@ -2253,6 +2440,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoMaxSpuChannel",
           "package": "xine",
@@ -2266,6 +2454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoSeekable",
           "package": "xine",
@@ -2275,6 +2464,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoSeekable",
           "package": "xine",
@@ -2288,6 +2478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoSkippedFrames",
           "package": "xine",
@@ -2297,6 +2488,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoSkippedFrames",
           "package": "xine",
@@ -2310,6 +2502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoVideoAFD",
           "package": "xine",
@@ -2319,6 +2512,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoVideoAFD",
           "package": "xine",
@@ -2332,6 +2526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoVideoBitrate",
           "package": "xine",
@@ -2341,6 +2536,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoVideoBitrate",
           "package": "xine",
@@ -2354,6 +2550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoVideoChannels",
           "package": "xine",
@@ -2363,6 +2560,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoVideoChannels",
           "package": "xine",
@@ -2376,6 +2574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoVideoFourCC",
           "package": "xine",
@@ -2385,6 +2584,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoVideoFourCC",
           "package": "xine",
@@ -2398,6 +2598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoVideoHandled",
           "package": "xine",
@@ -2407,6 +2608,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoVideoHandled",
           "package": "xine",
@@ -2420,6 +2622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoVideoHasStill",
           "package": "xine",
@@ -2429,6 +2632,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoVideoHasStill",
           "package": "xine",
@@ -2442,6 +2646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoVideoHeight",
           "package": "xine",
@@ -2451,6 +2656,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoVideoHeight",
           "package": "xine",
@@ -2464,6 +2670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoVideoRatio",
           "package": "xine",
@@ -2473,6 +2680,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoVideoRatio",
           "package": "xine",
@@ -2486,6 +2694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoVideoStreams",
           "package": "xine",
@@ -2495,6 +2704,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoVideoStreams",
           "package": "xine",
@@ -2508,6 +2718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InfoVideoWidth",
           "package": "xine",
@@ -2517,6 +2728,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InfoVideoWidth",
           "package": "xine",
@@ -2530,6 +2742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "InputFailed",
           "package": "xine",
@@ -2539,6 +2752,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "InputFailed",
           "package": "xine",
@@ -2575,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "MalformedMrl",
           "package": "xine",
@@ -2584,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "MalformedMrl",
           "package": "xine",
@@ -3149,6 +3365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "MetronomPrebuffer",
           "package": "xine",
@@ -3158,6 +3375,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "MetronomPrebuffer",
           "package": "xine",
@@ -3171,6 +3389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "NoDemuxPlugin",
           "package": "xine",
@@ -3180,6 +3399,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "NoDemuxPlugin",
           "package": "xine",
@@ -3193,6 +3413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "NoError",
           "package": "xine",
@@ -3202,6 +3423,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "NoError",
           "package": "xine",
@@ -3215,6 +3437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "NoInputPlugin",
           "package": "xine",
@@ -3224,6 +3447,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "NoInputPlugin",
           "package": "xine",
@@ -3260,6 +3484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Normal",
           "package": "xine",
@@ -3269,6 +3494,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Normal",
           "package": "xine",
@@ -3282,6 +3508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "NormalSpeed",
           "package": "xine",
@@ -3291,6 +3518,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "NormalSpeed",
           "package": "xine",
@@ -3327,6 +3555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "PanScan",
           "package": "xine",
@@ -3336,6 +3565,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "PanScan",
           "package": "xine",
@@ -3349,6 +3579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Pause",
           "package": "xine",
@@ -3358,6 +3589,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Pause",
           "package": "xine",
@@ -3440,6 +3672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Saturation",
           "package": "xine",
@@ -3449,6 +3682,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Saturation",
           "package": "xine",
@@ -3462,6 +3696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Slow2",
           "package": "xine",
@@ -3471,6 +3706,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Slow2",
           "package": "xine",
@@ -3484,6 +3720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Slow4",
           "package": "xine",
@@ -3493,6 +3730,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Slow4",
           "package": "xine",
@@ -3506,6 +3744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Speed",
           "package": "xine",
@@ -3515,6 +3754,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Speed",
           "package": "xine",
@@ -3528,6 +3768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "SpuChannel",
           "package": "xine",
@@ -3537,6 +3778,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "SpuChannel",
           "package": "xine",
@@ -3550,6 +3792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "SpuOffset",
           "package": "xine",
@@ -3559,6 +3802,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "SpuOffset",
           "package": "xine",
@@ -3595,6 +3839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "TrickFastForward",
           "package": "xine",
@@ -3604,6 +3849,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "TrickFastForward",
           "package": "xine",
@@ -3617,6 +3863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "TrickOff",
           "package": "xine",
@@ -3626,6 +3873,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "TrickOff",
           "package": "xine",
@@ -3639,6 +3887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "TrickRewind",
           "package": "xine",
@@ -3648,6 +3897,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "TrickRewind",
           "package": "xine",
@@ -3661,6 +3911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "TrickSeekToPosition",
           "package": "xine",
@@ -3670,6 +3921,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "TrickSeekToPosition",
           "package": "xine",
@@ -3683,6 +3935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "TrickSeekToTime",
           "package": "xine",
@@ -3692,6 +3945,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "TrickSeekToTime",
           "package": "xine",
@@ -3705,6 +3959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "TvMode",
           "package": "xine",
@@ -3714,6 +3969,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "TvMode",
           "package": "xine",
@@ -3727,6 +3983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "Verbosity",
           "package": "xine",
@@ -3736,6 +3993,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "Verbosity",
           "package": "xine",
@@ -3749,6 +4007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "VerbosityDebug",
           "package": "xine",
@@ -3758,6 +4017,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "VerbosityDebug",
           "package": "xine",
@@ -3771,6 +4031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "VerbosityLog",
           "package": "xine",
@@ -3780,6 +4041,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "VerbosityLog",
           "package": "xine",
@@ -3793,6 +4055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "VerbosityNone",
           "package": "xine",
@@ -3802,6 +4065,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "VerbosityNone",
           "package": "xine",
@@ -3815,6 +4079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "WindowHeight",
           "package": "xine",
@@ -3824,6 +4089,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "WindowHeight",
           "package": "xine",
@@ -3837,6 +4103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "WindowWidth",
           "package": "xine",
@@ -3846,6 +4113,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "WindowWidth",
           "package": "xine",
@@ -3926,6 +4194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "ZoomMax",
           "package": "xine",
@@ -3935,6 +4204,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "ZoomMax",
           "package": "xine",
@@ -3948,6 +4218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "ZoomMin",
           "package": "xine",
@@ -3957,6 +4228,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "ZoomMin",
           "package": "xine",
@@ -3970,6 +4242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "ZoomStep",
           "package": "xine",
@@ -3979,6 +4252,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "ZoomStep",
           "package": "xine",
@@ -3992,6 +4266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "ZoomX",
           "package": "xine",
@@ -4001,6 +4276,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "ZoomX",
           "package": "xine",
@@ -4014,6 +4290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "ZoomY",
           "package": "xine",
@@ -4023,6 +4300,7 @@
         },
         "index": {
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "ZoomY",
           "package": "xine",
@@ -4037,6 +4315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare given version to xine-lib version (major, minor, sub).\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003eint xine_check_version (int major, int minor, int sub)\n\u003c/p\u003e\u003cp\u003ereturns 1 if compatible, 0 otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_check_version",
           "package": "xine",
@@ -4047,6 +4326,7 @@
         "index": {
           "description": "Compare given version to xine-lib version major minor sub Header declaration int xine check version int major int minor int sub returns if compatible otherwise",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_check_version",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eBool",
@@ -4062,6 +4342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree all stream-related resources.\n The stream stays valid for new \u003ccode\u003e\u003ca\u003exine_open\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003evoid xine_close (xine_stream_t *stream)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_close",
           "package": "xine",
@@ -4072,6 +4353,7 @@
         "index": {
           "description": "Free all stream-related resources The stream stays valid for new xine open Header declaration void xine close xine stream stream",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_close",
           "normalized": "Stream-\u003eIO()",
@@ -4087,6 +4369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose audio port.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003evoid xine_close_audio_driver (xine_t *self, xine_audio_port_t *driver)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_close_audio_driver",
           "package": "xine",
@@ -4097,6 +4380,7 @@
         "index": {
           "description": "Close audio port Header declaration void xine close audio driver xine self xine audio port driver",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_close_audio_driver",
           "normalized": "Engine-\u003eAudioPort-\u003eIO()",
@@ -4112,6 +4396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose video port.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003evoid xine_close_video_driver (xine_t *self, xine_video_port_t *driver)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_close_video_driver",
           "package": "xine",
@@ -4122,6 +4407,7 @@
         "index": {
           "description": "Close video port Header declaration void xine close video driver xine self xine video port driver",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_close_video_driver",
           "normalized": "Engine-\u003eVideoPort-\u003eIO()",
@@ -4137,6 +4423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStop playback, dispose all stream-related resources.\n The stream is no longer valid after this.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003evoid xine_dispose (xine_stream_t *stream)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_dispose",
           "package": "xine",
@@ -4147,6 +4434,7 @@
         "index": {
           "description": "Stop playback dispose all stream-related resources The stream is no longer valid after this Header declaration void xine dispose xine stream stream",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_dispose",
           "normalized": "Stream-\u003eIO()",
@@ -4162,6 +4450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsk current input plugin to eject media.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003eint xine_eject (xine_stream_t *stream)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_eject",
           "package": "xine",
@@ -4172,6 +4461,7 @@
         "index": {
           "description": "Ask current input plugin to eject media Header declaration int xine eject xine stream stream",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_eject",
           "normalized": "Stream-\u003eIO Int",
@@ -4187,6 +4477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet engine parameter.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003eint xine_engine_get_param(xine_t *self, int param)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_engine_get_param",
           "package": "xine",
@@ -4197,6 +4488,7 @@
         "index": {
           "description": "Get engine parameter Header declaration int xine engine get param xine self int param",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_engine_get_param",
           "normalized": "Engine-\u003eEngineParam-\u003eIO Int",
@@ -4212,6 +4504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet engine parameter.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003evoid xine_engine_set_param (xine_t *self, int param, int value)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_engine_set_param",
           "package": "xine",
@@ -4222,6 +4515,7 @@
         "index": {
           "description": "Set engine parameter Header declaration void xine engine set param xine self int param int value",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_engine_set_param",
           "normalized": "Engine-\u003eEngineParam-\u003eInt-\u003eIO()",
@@ -4237,6 +4531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree all resources, close all plugins, close engine.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003evoid xine_exit (xine_t *self)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_exit",
           "package": "xine",
@@ -4247,6 +4542,7 @@
         "index": {
           "description": "Free all resources close all plugins close engine Header declaration void xine exit xine self",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_exit",
           "normalized": "Engine-\u003eIO()",
@@ -4262,6 +4558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the audio language of the given channel (use -1 for\n current channel).\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003eint xine_get_audio_lang (xine_stream_t *stream, int channel,\n                          char *lang)\n\u003c/p\u003e\u003cp\u003elang must point to a buffer of at least XINE_LANG_MAX bytes.\n\u003c/p\u003e\u003cp\u003eReturns 1 on success, 0 on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_get_audio_lang",
           "package": "xine",
@@ -4272,6 +4569,7 @@
         "index": {
           "description": "Find the audio language of the given channel use for current channel Header declaration int xine get audio lang xine stream stream int channel char lang lang must point to buffer of at least XINE LANG MAX bytes Returns on success on failure",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_get_audio_lang",
           "normalized": "Stream-\u003eInt-\u003eIO(Int,String)",
@@ -4287,6 +4585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn last error.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003eint xine_get_error (xine_stream_t *stream)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_get_error",
           "package": "xine",
@@ -4297,6 +4596,7 @@
         "index": {
           "description": "Return last error Header declaration int xine get error xine stream stream",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_get_error",
           "normalized": "Stream-\u003eIO XineError",
@@ -4312,6 +4612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet meta information about the stream.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003econst char *xine_get_meta_info (xine_stream_t *stream, int info)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_get_meta_info",
           "package": "xine",
@@ -4322,6 +4623,7 @@
         "index": {
           "description": "Get meta information about the stream Header declaration const char xine get meta info xine stream stream int info",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_get_meta_info",
           "normalized": "Stream-\u003eMetaType-\u003eIO String",
@@ -4337,6 +4639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet stream parameter.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003eint xine_get_param (xine_stream_t *stream, int param)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_get_param",
           "package": "xine",
@@ -4347,6 +4650,7 @@
         "index": {
           "description": "Get stream parameter Header declaration int xine get param xine stream stream int param",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_get_param",
           "normalized": "Stream-\u003eStreamParam-\u003eIO a",
@@ -4362,6 +4666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet position/length information.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003eint xine_get_pos_length (xine_stream_t *stream, int *pos_stream,\n                          int *pos_time, int *length_time)\n\u003c/p\u003e\u003cp\u003eReturns 1 on success, 0 on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_get_pos_length",
           "package": "xine",
@@ -4372,6 +4677,7 @@
         "index": {
           "description": "Get position length information Header declaration int xine get pos length xine stream stream int pos stream int pos time int length time Returns on success on failure",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_get_pos_length",
           "normalized": "Stream-\u003eIO(Int,Int,Int,Int)",
@@ -4387,6 +4693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the spu language of the given channel (use -1 for\n current channel).\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003eint xine_get_spu_lang (xine_stream_t *stream, int channel,\n                          char *lang)\n\u003c/p\u003e\u003cp\u003elang must point to a buffer of at least XINE_LANG_MAX bytes.\n\u003c/p\u003e\u003cp\u003eReturns 1 on success, 0 on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_get_spu_lang",
           "package": "xine",
@@ -4397,6 +4704,7 @@
         "index": {
           "description": "Find the spu language of the given channel use for current channel Header declaration int xine get spu lang xine stream stream int channel char lang lang must point to buffer of at least XINE LANG MAX bytes Returns on success on failure",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_get_spu_lang",
           "normalized": "Stream-\u003eInt-\u003eIO(Int,String)",
@@ -4412,6 +4720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet current xine engine status.\n\u003c/p\u003e\u003cp\u003eint xine_get_status (xine_stream_t *stream)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_get_status",
           "package": "xine",
@@ -4422,6 +4731,7 @@
         "index": {
           "description": "Get current xine engine status int xine get status xine stream stream",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_get_status",
           "normalized": "Stream-\u003eIO EngineStatus",
@@ -4437,6 +4747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information about the stream.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003eint32_t xine_get_stream_info (xine_stream_t *stream, int info)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_get_stream_info",
           "package": "xine",
@@ -4447,6 +4758,7 @@
         "index": {
           "description": "Get information about the stream Header declaration int32 xine get stream info xine stream stream int info",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_get_stream_info",
           "normalized": "Stream-\u003eInfoType-\u003eIO Int",
@@ -4462,6 +4774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet version as a triple: major, minor, sub\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003evoid xine_get_version (int *major, int *minor, int *sub)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_get_version",
           "package": "xine",
@@ -4472,6 +4785,7 @@
         "index": {
           "description": "Get version as triple major minor sub Header declaration void xine get version int major int minor int sub",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_get_version",
           "normalized": "(Int,Int,Int)",
@@ -4487,6 +4801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet xine-lib version string.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003econst char *xine_get_version_string (void)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_get_version_string",
           "package": "xine",
@@ -4497,6 +4812,7 @@
         "index": {
           "description": "Get xine-lib version string Header declaration const char xine get version string void",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_get_version_string",
           "package": "xine",
@@ -4510,6 +4826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePost-init the xine engine.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003evoid xine_init (xine_t *self)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_init",
           "package": "xine",
@@ -4520,6 +4837,7 @@
         "index": {
           "description": "Post-init the xine engine Header declaration void xine init xine self",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_init",
           "normalized": "Engine-\u003eIO()",
@@ -4535,6 +4853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePre-init the xine engine.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003exine_t *xine_new (void)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_new",
           "package": "xine",
@@ -4545,6 +4864,7 @@
         "index": {
           "description": "Pre-init the xine engine Header declaration xine xine new void",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_new",
           "package": "xine",
@@ -4558,6 +4878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a stream.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003eint xine_open (xine_stream_t *stream, const char *mrl)\n\u003c/p\u003e\u003cp\u003eReturns 1 if OK, 0 on error (use \u003ccode\u003e\u003ca\u003exine_get_error\u003c/a\u003e\u003c/code\u003e for details).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_open",
           "package": "xine",
@@ -4568,6 +4889,7 @@
         "index": {
           "description": "Open stream Header declaration int xine open xine stream stream const char mrl Returns if OK on error use xine get error for details",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_open",
           "normalized": "Stream-\u003eMRL-\u003eIO Int",
@@ -4583,6 +4905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialise audio driver.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003exine_audio_port_t *xine_open_audio_driver (xine_t *self, const char *id,\n                        void *data)\n\u003c/p\u003e\u003cp\u003eid: identifier of the driver, may be NULL for auto-detection\n\u003c/p\u003e\u003cp\u003edata: special data struct for ui/driver communication\n\u003c/p\u003e\u003cp\u003eMay return NULL if the driver failed to load.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_open_audio_driver",
           "package": "xine",
@@ -4593,6 +4916,7 @@
         "index": {
           "description": "Initialise audio driver Header declaration xine audio port xine open audio driver xine self const char id void data id identifier of the driver may be NULL for auto-detection data special data struct for ui driver communication May return NULL if the driver failed to load",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_open_audio_driver",
           "normalized": "Engine-\u003eMaybe String-\u003eIO(Maybe AudioPort)",
@@ -4608,6 +4932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialise video driver.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003exine_video_port_t *xine_open_video_driver (xine_t *self, const char *id,\n                        int visual, void *data)\n\u003c/p\u003e\u003cp\u003eid: identifier of the driver, may be NULL for auto-detection\n\u003c/p\u003e\u003cp\u003edata: special data struct for ui/driver communication\n\u003c/p\u003e\u003cp\u003evisual : video driver flavor selector\n\u003c/p\u003e\u003cp\u003eMay return NULL if the driver failed to load.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_open_video_driver",
           "package": "xine",
@@ -4618,6 +4943,7 @@
         "index": {
           "description": "Initialise video driver Header declaration xine video port xine open video driver xine self const char id int visual void data id identifier of the driver may be NULL for auto-detection data special data struct for ui driver communication visual video driver flavor selector May return NULL if the driver failed to load",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_open_video_driver",
           "normalized": "Engine-\u003eMaybe String-\u003eVisualType-\u003eIO(Maybe VideoPort)",
@@ -4633,6 +4959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlay a stream from a given position.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003eint xine_play (xine_stream_t *stream, int start_pos, int start_time)\n\u003c/p\u003e\u003cp\u003eReturns 1 if OK, 0 on error (use \u003ccode\u003e\u003ca\u003exine_get_error\u003c/a\u003e\u003c/code\u003e for details).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_play",
           "package": "xine",
@@ -4643,6 +4970,7 @@
         "index": {
           "description": "Play stream from given position Header declaration int xine play xine stream stream int start pos int start time Returns if OK on error use xine get error for details",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_play",
           "normalized": "Stream-\u003eInt-\u003eInt-\u003eIO Int",
@@ -4658,6 +4986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet stream parameter.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003evoid xine_set_param (xine_stream_t *stream, int param, int value)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_set_param",
           "package": "xine",
@@ -4668,6 +4997,7 @@
         "index": {
           "description": "Set stream parameter Header declaration void xine set param xine stream stream int param int value",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_set_param",
           "normalized": "Stream-\u003eStreamParam-\u003ea-\u003eIO()",
@@ -4683,6 +5013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStop stream playback.\n The stream stays valid for new \u003ccode\u003e\u003ca\u003exine_open\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003exine_play\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003evoid xine_stop (xine_stream *stream)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_stop",
           "package": "xine",
@@ -4693,6 +5024,7 @@
         "index": {
           "description": "Stop stream playback The stream stays valid for new xine open or xine play Header declaration void xine stop xine stream stream",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_stop",
           "normalized": "Stream-\u003eIO()",
@@ -4708,6 +5040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake one stream the slave of another.\n Certain operations on the master stream are also applied to the slave\n stream.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003eint xine_stream_master_slave (xine_stream_t *master, xine_stream_t *slave,\n                               int affection)\n\u003c/p\u003e\u003cp\u003ereturns 1 on success, 0 on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_stream_master_slave",
           "package": "xine",
@@ -4718,6 +5051,7 @@
         "index": {
           "description": "Make one stream the slave of another Certain operations on the master stream are also applied to the slave stream Header declaration int xine stream master slave xine stream master xine stream slave int affection returns on success on failure",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_stream_master_slave",
           "normalized": "Stream-\u003eStream-\u003e[Affection]-\u003eIO Int",
@@ -4733,6 +5067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new stream for media playback.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003exine_stream_t *xine_stream_new (xine_t *self,\n     xine_audio_port *ao, xine_video_port_t *vo)\n\u003c/p\u003e\u003cp\u003eReturns xine_stream_t* if OK, NULL on error (use \u003ccode\u003e\u003ca\u003exine_get_error\u003c/a\u003e\u003c/code\u003e for\n details).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_stream_new",
           "package": "xine",
@@ -4743,6 +5078,7 @@
         "index": {
           "description": "Create new stream for media playback Header declaration xine stream xine stream new xine self xine audio port ao xine video port vo Returns xine stream if OK NULL on error use xine get error for details",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_stream_new",
           "normalized": "Engine-\u003eAudioPort-\u003eVideoPort-\u003eIO(Maybe Stream)",
@@ -4758,6 +5094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet xine to a trick mode for fast forward, backwards playback,\n low latency seeking.\n\u003c/p\u003e\u003cp\u003eHeader declaration:\n\u003c/p\u003e\u003cp\u003eint xine_trick_mode (xine_stream_t *stream, int mode, int value)\n\u003c/p\u003e\u003cp\u003eReturns 1 if OK, 0 on error (use \u003ccode\u003e\u003ca\u003exine_get_error\u003c/a\u003e\u003c/code\u003e for details).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine.Foreign",
           "name": "xine_trick_mode",
           "package": "xine",
@@ -4768,6 +5105,7 @@
         "index": {
           "description": "Set xine to trick mode for fast forward backwards playback low latency seeking Header declaration int xine trick mode xine stream stream int mode int value Returns if OK on error use xine get error for details",
           "hierarchy": "Xine Foreign",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine.Foreign",
           "name": "xine_trick_mode",
           "normalized": "Stream-\u003eTrickMode-\u003eInt-\u003eIO Int",
@@ -4783,6 +5121,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple binding to xine-lib.\n\u003c/p\u003e\u003cp\u003eExample usage:\n\u003c/p\u003e\u003cpre\u003e import qualified Xine\n\u003c/pre\u003e\u003cpre\u003e main = do\n\u003c/pre\u003e\u003cpre\u003e     h \u003c- Xine.open\n\u003c/pre\u003e\u003cpre\u003e     sid \u003c- Xine.openStream h \"track.mp3\"\n\u003c/pre\u003e\u003cpre\u003e     Xine.play h sid\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "Xine",
           "package": "xine",
@@ -4792,6 +5131,7 @@
         "index": {
           "description": "simple binding to xine-lib Example usage import qualified Xine main do Xine.open sid Xine.openStream track.mp3 Xine.play sid",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "Xine",
           "package": "xine",
@@ -4806,6 +5146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEngine status codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "EngineStatus",
           "package": "xine",
@@ -4815,6 +5156,7 @@
         "index": {
           "description": "Engine status codes",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "EngineStatus",
           "package": "xine",
@@ -4829,6 +5171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMedia Resource Locator.\n Describes the media to read from. Valid MRLs may be plain file names or\n one of the following:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Filesystem:\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003efile:\u003cpath\u003e\n\u003c/p\u003e\u003cp\u003efifo:\u003cpath\u003e\n\u003c/p\u003e\u003cp\u003estdin:/\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e CD and DVD:\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003edvd:/[device_name][/title[.part]]\n\u003c/p\u003e\u003cp\u003edvd:/DVD_image_file[/title[.part]]\n\u003c/p\u003e\u003cp\u003edvd:/DVD_directory[/title[.part]]\n\u003c/p\u003e\u003cp\u003evcd://[CD_image_or_device_name][@[letter]number]\n\u003c/p\u003e\u003cp\u003evcdo://track_number\n\u003c/p\u003e\u003cp\u003ecdda:/[device][/track_number]\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Video devices:\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003ev4l://[tuner_device/frequency\n\u003c/p\u003e\u003cp\u003ev4l2://tuner_device\n\u003c/p\u003e\u003cp\u003edvb://channel_number\n\u003c/p\u003e\u003cp\u003edvb://channel_name\n\u003c/p\u003e\u003cp\u003edvbc://channel_name:tuning_parameters\n\u003c/p\u003e\u003cp\u003edvbs://channel_name:tuning_parameters\n\u003c/p\u003e\u003cp\u003edvbt://channel_name:tuning_parameters\n\u003c/p\u003e\u003cp\u003edvba://channel_name:tuning_parameters\n\u003c/p\u003e\u003cp\u003epvr:/tmp_files_path!saved_files_path!max_page_age\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Network:\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003ehttp://host\n\u003c/p\u003e\u003cp\u003etcp://host[:port]\n\u003c/p\u003e\u003cp\u003eudp://host[:port[?iface=interface]]\n\u003c/p\u003e\u003cp\u003ertp://host[:port[?iface=interface]]\n\u003c/p\u003e\u003cp\u003esmb://\n\u003c/p\u003e\u003cp\u003emms://host\n\u003c/p\u003e\u003cp\u003epnm://host\n\u003c/p\u003e\u003cp\u003ertsp://host\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "MRL",
           "package": "xine",
@@ -4838,6 +5181,7 @@
         "index": {
           "description": "Media Resource Locator Describes the media to read from Valid MRLs may be plain file names or one of the following Filesystem file path fifo path stdin CD and DVD dvd device name title part dvd DVD image file title part dvd DVD directory title part vcd CD image or device name letter number vcdo track number cdda device track number Video devices v4l tuner device frequency v4l2 tuner device dvb channel number dvb channel name dvbc channel name tuning parameters dvbs channel name tuning parameters dvbt channel name tuning parameters dvba channel name tuning parameters pvr tmp files path saved files path max page age Network http host tcp host port udp host port iface interface rtp host port iface interface smb mms host pnm host rtsp host",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "MRL",
           "package": "xine",
@@ -4852,6 +5196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe different kinds of metadata\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "MetaType",
           "package": "xine",
@@ -4861,6 +5206,7 @@
         "index": {
           "description": "The different kinds of metadata",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "MetaType",
           "package": "xine",
@@ -4875,6 +5221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgument for \u003ccode\u003e\u003ca\u003eseek\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "SeekArg",
           "package": "xine",
@@ -4884,6 +5231,7 @@
         "index": {
           "description": "Argument for seek",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "SeekArg",
           "package": "xine",
@@ -4898,6 +5246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies an open stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "StreamId",
           "package": "xine",
@@ -4907,6 +5256,7 @@
         "index": {
           "description": "Identifies an open stream",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "StreamId",
           "package": "xine",
@@ -4921,6 +5271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid visual types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "VisualType",
           "package": "xine",
@@ -4930,6 +5281,7 @@
         "index": {
           "description": "Valid visual types",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "VisualType",
           "package": "xine",
@@ -4944,6 +5296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXine configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "XineConf",
           "package": "xine",
@@ -4953,6 +5306,7 @@
         "index": {
           "description": "Xine configuration",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "XineConf",
           "package": "xine",
@@ -4967,6 +5321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA xine-lib handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "XineHandle",
           "package": "xine",
@@ -4976,6 +5331,7 @@
         "index": {
           "description": "xine-lib handle",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "XineHandle",
           "package": "xine",
@@ -4989,6 +5345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "SeekPos",
           "package": "xine",
@@ -4998,6 +5355,7 @@
         },
         "index": {
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "SeekPos",
           "package": "xine",
@@ -5011,6 +5369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "SeekTime",
           "package": "xine",
@@ -5020,6 +5379,7 @@
         },
         "index": {
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "SeekTime",
           "package": "xine",
@@ -5033,6 +5393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "XineConf",
           "package": "xine",
@@ -5042,6 +5403,7 @@
         },
         "index": {
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "XineConf",
           "package": "xine",
@@ -5056,6 +5418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAudio driver. Use \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e for\n auto-detection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "audioDriver",
           "package": "xine",
@@ -5066,6 +5429,7 @@
         "index": {
           "description": "Audio driver Use Nothing for auto-detection",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "audioDriver",
           "package": "xine",
@@ -5080,6 +5444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose Xine handle. The handle is invalid after this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "close",
           "package": "xine",
@@ -5090,6 +5455,7 @@
         "index": {
           "description": "Close Xine handle The handle is invalid after this",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "close",
           "normalized": "XineHandle-\u003eIO()",
@@ -5105,6 +5471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the specified stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "closeStream",
           "package": "xine",
@@ -5115,6 +5482,7 @@
         "index": {
           "description": "Close the specified stream",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "closeStream",
           "normalized": "XineHandle-\u003eStreamId-\u003eIO()",
@@ -5131,6 +5499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault configuration. Audio only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "defaultConf",
           "package": "xine",
@@ -5141,6 +5510,7 @@
         "index": {
           "description": "Default configuration Audio only",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "defaultConf",
           "package": "xine",
@@ -5155,6 +5525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current stream, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "getCurrent",
           "package": "xine",
@@ -5165,6 +5536,7 @@
         "index": {
           "description": "Get the current stream if any",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "getCurrent",
           "normalized": "XineHandle-\u003eIO(Maybe StreamId)",
@@ -5181,6 +5553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet meta data about the given stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "getMetadata",
           "package": "xine",
@@ -5191,6 +5564,7 @@
         "index": {
           "description": "Get meta data about the given stream",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "getMetadata",
           "normalized": "XineHandle-\u003eStreamId-\u003eMetaType-\u003eIO String",
@@ -5207,6 +5581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet current engine status.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "getStatus",
           "package": "xine",
@@ -5217,6 +5592,7 @@
         "index": {
           "description": "Get current engine status",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "getStatus",
           "normalized": "XineHandle-\u003eIO EngineStatus",
@@ -5233,6 +5609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether the handle is closed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "isClosed",
           "package": "xine",
@@ -5243,6 +5620,7 @@
         "index": {
           "description": "Test whether the handle is closed",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "isClosed",
           "normalized": "XineHandle-\u003eIO Bool",
@@ -5259,6 +5637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a new Xine handle using \u003ccode\u003e\u003ca\u003edefaultConf\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "open",
           "package": "xine",
@@ -5269,6 +5648,7 @@
         "index": {
           "description": "Open new Xine handle using defaultConf",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "open",
           "package": "xine",
@@ -5282,6 +5662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a new stream for the given MRL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "openStream",
           "package": "xine",
@@ -5292,6 +5673,7 @@
         "index": {
           "description": "Open new stream for the given MRL",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "openStream",
           "normalized": "XineHandle-\u003eMRL-\u003eIO StreamId",
@@ -5308,6 +5690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a new Xine handle using the supplied \u003ccode\u003e\u003ca\u003eXineConf\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "openWith",
           "package": "xine",
@@ -5318,6 +5701,7 @@
         "index": {
           "description": "Open new Xine handle using the supplied XineConf",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "openWith",
           "normalized": "XineConf-\u003eIO XineHandle",
@@ -5334,6 +5718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToggle pause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "pause",
           "package": "xine",
@@ -5344,6 +5729,7 @@
         "index": {
           "description": "Toggle pause",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "pause",
           "normalized": "XineHandle-\u003eStreamId-\u003eIO()",
@@ -5359,6 +5745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart playback.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "play",
           "package": "xine",
@@ -5369,6 +5756,7 @@
         "index": {
           "description": "Start playback",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "play",
           "normalized": "XineHandle-\u003eStreamId-\u003eIO()",
@@ -5384,6 +5772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeek to a position or time in the stream.\n\u003c/p\u003e\u003cp\u003eWarning: this will crash if \u003ccode\u003e\u003ca\u003exine_trick_mode\u003c/a\u003e\u003c/code\u003e is not implemented.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "seek",
           "package": "xine",
@@ -5394,6 +5783,7 @@
         "index": {
           "description": "Seek to position or time in the stream Warning this will crash if xine trick mode is not implemented",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "seek",
           "normalized": "XineHandle-\u003eStreamId-\u003eSeekArg-\u003eIO()",
@@ -5409,6 +5799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStop playback.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "stop",
           "package": "xine",
@@ -5419,6 +5810,7 @@
         "index": {
           "description": "Stop playback",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "stop",
           "normalized": "XineHandle-\u003eStreamId-\u003eIO()",
@@ -5434,6 +5826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVideo driver. Use \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e for\n auto-detection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "videoDriver",
           "package": "xine",
@@ -5444,6 +5837,7 @@
         "index": {
           "description": "Video driver Use Nothing for auto-detection",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "videoDriver",
           "package": "xine",
@@ -5458,6 +5852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVideo output type. Use \u003ccode\u003e\u003ca\u003eNone\u003c/a\u003e\u003c/code\u003e to disable video output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:44 UTC 2014",
           "module": "Xine",
           "name": "visualType",
           "package": "xine",
@@ -5468,6 +5863,7 @@
         "index": {
           "description": "Video output type Use None to disable video output",
           "hierarchy": "Xine",
+          "indexed": "2014-03-11T20:41:44",
           "module": "Xine",
           "name": "visualType",
           "package": "xine",

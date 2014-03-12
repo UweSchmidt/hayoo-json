@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "FreeTypeGL"
+        "phrase": "FreeTypeGL",
+        "type": "phrase"
       },
       "type": "context"
     }

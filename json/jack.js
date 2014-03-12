@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "jack"
+        "phrase": "jack",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Audio",
           "name": "Audio",
           "package": "jack",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Audio",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Audio",
           "name": "Audio",
           "package": "jack",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Audio",
           "name": "Port",
           "package": "jack",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Audio",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Audio",
           "name": "Port",
           "package": "jack",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Audio",
           "name": "Sample",
           "package": "jack",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Audio",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Audio",
           "name": "Sample",
           "package": "jack",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Audio",
           "name": "getBufferArray",
           "package": "jack",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Audio",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Audio",
           "name": "getBufferArray",
           "normalized": "Port a-\u003eNFrames-\u003eIO(StorableArray NFrames Sample)",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Audio",
           "name": "getBufferPtr",
           "package": "jack",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Audio",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Audio",
           "name": "getBufferPtr",
           "normalized": "Port a-\u003eNFrames-\u003eIO(Ptr Sample)",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Audio",
           "name": "mainMono",
           "package": "jack",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Audio",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Audio",
           "name": "mainMono",
           "normalized": "(Sample-\u003eIO Sample)-\u003eIO()",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Audio",
           "name": "mainStereo",
           "package": "jack",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Audio",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Audio",
           "name": "mainStereo",
           "normalized": "((Sample,Sample)-\u003eIO(Sample,Sample))-\u003eIO()",
@@ -201,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Audio",
           "name": "withProcessMono",
           "package": "jack",
@@ -210,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Audio",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Audio",
           "name": "withProcessMono",
           "normalized": "Client-\u003ePort Input-\u003e(Sample-\u003eIO Sample)-\u003ePort Output-\u003eExceptionalT a IO b-\u003eExceptionalT a IO b",
@@ -225,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Audio",
           "name": "withProcessStereo",
           "package": "jack",
@@ -234,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Audio",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Audio",
           "name": "withProcessStereo",
           "normalized": "Client-\u003ePort Input-\u003ePort Input-\u003e((Sample,Sample)-\u003eIO(Sample,Sample))-\u003ePort Output-\u003ePort Output-\u003eExceptionalT a IO b-\u003eExceptionalT a IO b",
@@ -249,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "Exception",
           "package": "jack",
@@ -257,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "Exception",
           "package": "jack",
@@ -270,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "All",
           "package": "jack",
@@ -278,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "All",
           "package": "jack",
@@ -291,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "Errno",
           "package": "jack",
@@ -299,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "Errno",
           "package": "jack",
@@ -312,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "PortMismatch",
           "package": "jack",
@@ -320,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "PortMismatch",
           "package": "jack",
@@ -333,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "PortMismatchKind",
           "package": "jack",
@@ -341,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "PortMismatchKind",
           "package": "jack",
@@ -354,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "PortRegister",
           "package": "jack",
@@ -362,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "PortRegister",
           "package": "jack",
@@ -375,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "Status",
           "package": "jack",
@@ -383,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "Status",
           "package": "jack",
@@ -396,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "ThrowsErrno",
           "package": "jack",
@@ -404,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "ThrowsErrno",
           "package": "jack",
@@ -417,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "ThrowsPortMismatch",
           "package": "jack",
@@ -425,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "ThrowsPortMismatch",
           "package": "jack",
@@ -438,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "ThrowsPortRegister",
           "package": "jack",
@@ -446,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "ThrowsPortRegister",
           "package": "jack",
@@ -459,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "ThrowsStatus",
           "package": "jack",
@@ -467,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "ThrowsStatus",
           "package": "jack",
@@ -480,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "ToString",
           "package": "jack",
@@ -488,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "ToString",
           "package": "jack",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "DirectionMismatch",
           "package": "jack",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "DirectionMismatch",
           "package": "jack",
@@ -523,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "Errno",
           "package": "jack",
@@ -532,6 +577,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "Errno",
           "package": "jack",
@@ -545,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "NoErrno",
           "package": "jack",
@@ -554,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "NoErrno",
           "package": "jack",
@@ -567,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "NoPortMismatch",
           "package": "jack",
@@ -576,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "NoPortMismatch",
           "package": "jack",
@@ -589,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "NoPortRegister",
           "package": "jack",
@@ -598,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "NoPortRegister",
           "package": "jack",
@@ -611,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "NoStatus",
           "package": "jack",
@@ -620,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "NoStatus",
           "package": "jack",
@@ -633,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "PortMismatch",
           "package": "jack",
@@ -642,6 +697,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "PortMismatch",
           "package": "jack",
@@ -655,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "PortRegister",
           "package": "jack",
@@ -664,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "PortRegister",
           "package": "jack",
@@ -677,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "Status",
           "package": "jack",
@@ -686,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "Status",
           "package": "jack",
@@ -699,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "TypeMismatch",
           "package": "jack",
@@ -708,6 +769,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "TypeMismatch",
           "package": "jack",
@@ -721,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "errno",
           "package": "jack",
@@ -730,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "errno",
           "normalized": "Errno-\u003ea",
@@ -744,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "portMismatch",
           "package": "jack",
@@ -753,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "portMismatch",
           "normalized": "PortMismatchKind-\u003ea",
@@ -768,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "portRegister",
           "package": "jack",
@@ -777,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "portRegister",
           "package": "jack",
@@ -790,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "status",
           "package": "jack",
@@ -799,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "status",
           "normalized": "StatusSet-\u003ea",
@@ -813,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "toString",
           "package": "jack",
@@ -822,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "toString",
           "normalized": "a-\u003eString",
@@ -837,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.Exception",
           "name": "toStringWithHead",
           "package": "jack",
@@ -846,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK Exception",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.Exception",
           "name": "toStringWithHead",
           "normalized": "All-\u003eString",
@@ -861,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.MIDI",
           "name": "MIDI",
           "package": "jack",
@@ -869,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK MIDI",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.MIDI",
           "name": "MIDI",
           "package": "jack",
@@ -882,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.MIDI",
           "name": "Buffer",
           "package": "jack",
@@ -890,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK MIDI",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.MIDI",
           "name": "Buffer",
           "package": "jack",
@@ -903,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.MIDI",
           "name": "Port",
           "package": "jack",
@@ -911,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK MIDI",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.MIDI",
           "name": "Port",
           "package": "jack",
@@ -925,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a raw JACK MIDI event\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.MIDI",
           "name": "RawEvent",
           "package": "jack",
@@ -934,6 +1015,7 @@
         "index": {
           "description": "Represents raw JACK MIDI event",
           "hierarchy": "Sound JACK MIDI",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.MIDI",
           "name": "RawEvent",
           "package": "jack",
@@ -947,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.MIDI",
           "name": "clearBuffer",
           "package": "jack",
@@ -956,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK MIDI",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.MIDI",
           "name": "clearBuffer",
           "normalized": "Buffer Output-\u003eIO()",
@@ -971,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.MIDI",
           "name": "getBuffer",
           "package": "jack",
@@ -980,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK MIDI",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.MIDI",
           "name": "getBuffer",
           "normalized": "Port a-\u003eNFrames-\u003eIO(Buffer a)",
@@ -996,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an input and an output, and transforms all input events into output\n   events using the given function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.MIDI",
           "name": "main",
           "package": "jack",
@@ -1005,6 +1092,7 @@
         "index": {
           "description": "Creates an input and an output and transforms all input events into output events using the given function",
           "hierarchy": "Sound JACK MIDI",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.MIDI",
           "name": "main",
           "normalized": "(NFrames-\u003e(NFrames,T)-\u003eIO(NFrames,T))-\u003eIO()",
@@ -1020,6 +1108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an input and an output, and transforms all raw input events into raw output\n   events using the given function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.MIDI",
           "name": "mainRaw",
           "package": "jack",
@@ -1029,6 +1118,7 @@
         "index": {
           "description": "Creates an input and an output and transforms all raw input events into raw output events using the given function",
           "hierarchy": "Sound JACK MIDI",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.MIDI",
           "name": "mainRaw",
           "normalized": "(NFrames-\u003eRawEvent-\u003eIO RawEvent)-\u003eIO()",
@@ -1045,6 +1135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor for a raw MIDI event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.MIDI",
           "name": "rawEvent",
           "package": "jack",
@@ -1054,6 +1145,7 @@
         "index": {
           "description": "Smart constructor for raw MIDI event",
           "hierarchy": "Sound JACK MIDI",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.MIDI",
           "name": "rawEvent",
           "normalized": "NFrames-\u003eByteString-\u003eRawEvent",
@@ -1069,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.MIDI",
           "name": "rawEventBuffer",
           "package": "jack",
@@ -1078,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK MIDI",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.MIDI",
           "name": "rawEventBuffer",
           "normalized": "RawEvent-\u003eByteString",
@@ -1093,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.MIDI",
           "name": "rawEventTime",
           "package": "jack",
@@ -1102,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK MIDI",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.MIDI",
           "name": "rawEventTime",
           "normalized": "RawEvent-\u003eNFrames",
@@ -1118,6 +1214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads midi events from an input buffer\nand converts them to a high-level representation.\nMessages are simply ignored if they cannot be parsed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.MIDI",
           "name": "readEventsFromPort",
           "package": "jack",
@@ -1128,6 +1225,7 @@
         "index": {
           "description": "Reads midi events from an input buffer and converts them to high-level representation Messages are simply ignored if they cannot be parsed",
           "hierarchy": "Sound JACK MIDI",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.MIDI",
           "name": "readEventsFromPort",
           "normalized": "Port Input-\u003eNFrames-\u003eExceptionalT a IO(T NFrames T)",
@@ -1144,6 +1242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereads all available MIDI Events on the given PortBuffer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.MIDI",
           "name": "readRawEvents",
           "package": "jack",
@@ -1153,6 +1252,7 @@
         "index": {
           "description": "reads all available MIDI Events on the given PortBuffer",
           "hierarchy": "Sound JACK MIDI",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.MIDI",
           "name": "readRawEvents",
           "normalized": "Buffer Input-\u003eExceptionalT a IO[RawEvent]",
@@ -1168,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.MIDI",
           "name": "readRawEventsFromPort",
           "package": "jack",
@@ -1177,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK MIDI",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.MIDI",
           "name": "readRawEventsFromPort",
           "normalized": "Port Input-\u003eNFrames-\u003eExceptionalT a IO[RawEvent]",
@@ -1193,6 +1295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts high level MIDI Event transformation functions into raw MIDI Event transformation functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.MIDI",
           "name": "toRawEventFunction",
           "package": "jack",
@@ -1202,6 +1305,7 @@
         "index": {
           "description": "Converts high level MIDI Event transformation functions into raw MIDI Event transformation functions",
           "hierarchy": "Sound JACK MIDI",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.MIDI",
           "name": "toRawEventFunction",
           "normalized": "(NFrames-\u003e(NFrames,T)-\u003eIO(NFrames,T))-\u003eNFrames-\u003eRawEvent-\u003eIO RawEvent",
@@ -1218,6 +1322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esets the process loop of the JACK Client\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.MIDI",
           "name": "withProcess",
           "package": "jack",
@@ -1227,6 +1332,7 @@
         "index": {
           "description": "sets the process loop of the JACK Client",
           "hierarchy": "Sound JACK MIDI",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.MIDI",
           "name": "withProcess",
           "normalized": "Client-\u003ePort Input-\u003e(NFrames-\u003eRawEvent-\u003eIO RawEvent)-\u003ePort Output-\u003eExceptionalT a IO b-\u003eExceptionalT a IO b",
@@ -1242,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.MIDI",
           "name": "writeEvent",
           "package": "jack",
@@ -1251,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK MIDI",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.MIDI",
           "name": "writeEvent",
           "normalized": "Buffer Output-\u003eNFrames-\u003eT-\u003eExceptionalT a IO()",
@@ -1267,6 +1375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClears an output buffer and writes a sequence of events to it.\nThat is, you must only call this function once per callback.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.MIDI",
           "name": "writeEventsToPort",
           "package": "jack",
@@ -1277,6 +1386,7 @@
         "index": {
           "description": "Clears an output buffer and writes sequence of events to it That is you must only call this function once per callback",
           "hierarchy": "Sound JACK MIDI",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.MIDI",
           "name": "writeEventsToPort",
           "normalized": "Port Output-\u003eNFrames-\u003eT NFrames T-\u003eExceptionalT a IO()",
@@ -1293,6 +1403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrites a MIDI event to the PortBuffer of a MIDI output or throws eNOBUFS if JackMIDI.buffer is full\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.MIDI",
           "name": "writeRawEvent",
           "package": "jack",
@@ -1302,6 +1413,7 @@
         "index": {
           "description": "writes MIDI event to the PortBuffer of MIDI output or throws eNOBUFS if JackMIDI.buffer is full",
           "hierarchy": "Sound JACK MIDI",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.MIDI",
           "name": "writeRawEvent",
           "normalized": "Buffer Output-\u003eRawEvent-\u003eExceptionalT a IO()",
@@ -1318,6 +1430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClears an output buffer and writes a sequence of events to it.\nThat is, you must only call this function once per callback.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK.MIDI",
           "name": "writeRawEventsToPort",
           "package": "jack",
@@ -1328,6 +1441,7 @@
         "index": {
           "description": "Clears an output buffer and writes sequence of events to it That is you must only call this function once per callback",
           "hierarchy": "Sound JACK MIDI",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK.MIDI",
           "name": "writeRawEventsToPort",
           "normalized": "Port Output-\u003eNFrames-\u003e[RawEvent]-\u003eExceptionalT a IO()",
@@ -1344,6 +1458,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Jack module defines types and functions that allows you to\nuse the JACK Audio Connection Kit.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "JACK",
           "package": "jack",
@@ -1353,6 +1468,7 @@
         "index": {
           "description": "The Jack module defines types and functions that allows you to use the JACK Audio Connection Kit",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "JACK",
           "package": "jack",
@@ -1367,6 +1483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandles of Jack clients\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "Client",
           "package": "jack",
@@ -1376,6 +1493,7 @@
         "index": {
           "description": "Handles of Jack clients",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "Client",
           "package": "jack",
@@ -1389,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "Direction",
           "package": "jack",
@@ -1397,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "Direction",
           "package": "jack",
@@ -1411,6 +1531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType argument for Jack input ports\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "Input",
           "package": "jack",
@@ -1420,6 +1541,7 @@
         "index": {
           "description": "Type argument for Jack input ports",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "Input",
           "package": "jack",
@@ -1434,6 +1556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresents absolute frame time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "NFrames",
           "package": "jack",
@@ -1443,6 +1566,7 @@
         "index": {
           "description": "represents absolute frame time",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "NFrames",
           "package": "jack",
@@ -1457,6 +1581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType argument for Jack output ports\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "Output",
           "package": "jack",
@@ -1466,6 +1591,7 @@
         "index": {
           "description": "Type argument for Jack output ports",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "Output",
           "package": "jack",
@@ -1479,6 +1605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "Port",
           "package": "jack",
@@ -1487,6 +1614,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "Port",
           "package": "jack",
@@ -1500,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "PortId",
           "package": "jack",
@@ -1508,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "PortId",
           "package": "jack",
@@ -1522,6 +1652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA collection of mixed types of ports.\nIt is mainly needed for freeing all allocated ports.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "PortSet",
           "package": "jack",
@@ -1531,6 +1662,7 @@
         "index": {
           "description": "collection of mixed types of ports It is mainly needed for freeing all allocated ports",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "PortSet",
           "package": "jack",
@@ -1545,6 +1677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJack Port Type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "PortType",
           "package": "jack",
@@ -1554,6 +1687,7 @@
         "index": {
           "description": "Jack Port Type",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "PortType",
           "package": "jack",
@@ -1567,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "Process",
           "package": "jack",
@@ -1575,6 +1710,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "Process",
           "package": "jack",
@@ -1589,6 +1725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType argument for Jack ports\nwhere we do not know\nwhether it is an input or an output port.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "UnknownDirection",
           "package": "jack",
@@ -1598,6 +1735,7 @@
         "index": {
           "description": "Type argument for Jack ports where we do not know whether it is an input or an output port",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "UnknownDirection",
           "package": "jack",
@@ -1612,6 +1750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType argument for Jack ports where the type of samples transported by the port\nis unknown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "UnknownType",
           "package": "jack",
@@ -1621,6 +1760,7 @@
         "index": {
           "description": "Type argument for Jack ports where the type of samples transported by the port is unknown",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "UnknownType",
           "package": "jack",
@@ -1634,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "NFrames",
           "package": "jack",
@@ -1643,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "NFrames",
           "package": "jack",
@@ -1657,6 +1799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eactivates the given Jack client\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "activate",
           "package": "jack",
@@ -1667,6 +1810,7 @@
         "index": {
           "description": "activates the given Jack client",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "activate",
           "normalized": "Client-\u003eExceptionalT a IO()",
@@ -1682,6 +1826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecloses the given Jack client without causing any trouble (hopefully)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "clientClose",
           "package": "jack",
@@ -1692,6 +1837,7 @@
         "index": {
           "description": "closes the given Jack client without causing any trouble hopefully",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "clientClose",
           "normalized": "Client-\u003ePortSet-\u003eExceptionalT a IO()",
@@ -1707,6 +1853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "connect",
           "package": "jack",
@@ -1716,6 +1863,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "connect",
           "normalized": "Client-\u003eString-\u003eString-\u003eExceptionalT a IO()",
@@ -1730,6 +1878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "deactivate",
           "package": "jack",
@@ -1739,6 +1888,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "deactivate",
           "normalized": "Client-\u003eExceptionalT a IO()",
@@ -1753,6 +1903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "disposeClient",
           "package": "jack",
@@ -1762,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "disposeClient",
           "normalized": "Client-\u003eExceptionalT a IO()",
@@ -1777,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "disposePort",
           "package": "jack",
@@ -1786,6 +1939,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "disposePort",
           "normalized": "Client-\u003ePort a b-\u003eExceptionalT c IO()",
@@ -1802,6 +1956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the names of all existing ports.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "getPorts",
           "package": "jack",
@@ -1811,6 +1966,7 @@
         "index": {
           "description": "Returns the names of all existing ports",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "getPorts",
           "normalized": "Client-\u003eIO[String]",
@@ -1826,6 +1982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "getSampleRate",
           "package": "jack",
@@ -1835,6 +1992,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "getSampleRate",
           "normalized": "Client-\u003eIO Int",
@@ -1850,6 +2008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "handleExceptions",
           "package": "jack",
@@ -1859,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "handleExceptions",
           "normalized": "ExceptionalT All IO()-\u003eIO()",
@@ -1874,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "lastFrameTime",
           "package": "jack",
@@ -1883,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "lastFrameTime",
           "normalized": "Client-\u003eIO NFrames",
@@ -1899,6 +2061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a client registration callback \u003ccode\u003e\u003ca\u003eFunPtr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "makeClientRegistration",
           "package": "jack",
@@ -1909,6 +2072,7 @@
         "index": {
           "description": "Create client registration callback FunPtr",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "makeClientRegistration",
           "normalized": "ClientRegistration a-\u003eIO(FunPtr(ClientRegistration a))",
@@ -1925,6 +2089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a port connect callback \u003ccode\u003e\u003ca\u003eFunPtr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "makePortConnect",
           "package": "jack",
@@ -1935,6 +2100,7 @@
         "index": {
           "description": "Create port connect callback FunPtr",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "makePortConnect",
           "normalized": "PortConnect a-\u003eIO(FunPtr(PortConnect a))",
@@ -1951,6 +2117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a port registration callback \u003ccode\u003e\u003ca\u003eFunPtr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "makePortRegistration",
           "package": "jack",
@@ -1961,6 +2128,7 @@
         "index": {
           "description": "Create port registration callback FunPtr",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "makePortRegistration",
           "normalized": "PortRegistration a-\u003eIO(FunPtr(PortRegistration a))",
@@ -1976,6 +2144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "makeProcess",
           "package": "jack",
@@ -1985,6 +2154,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "makeProcess",
           "normalized": "Process a-\u003eIO(FunPtr(Process a))",
@@ -2000,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "narrowPort",
           "package": "jack",
@@ -2009,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "narrowPort",
           "normalized": "Port UnknownType UnknownDirection-\u003eExceptionalT a IO(Port b c)",
@@ -2024,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "narrowPortDirection",
           "package": "jack",
@@ -2033,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "narrowPortDirection",
           "normalized": "Port a UnknownDirection-\u003eExceptionalT b IO(Port a c)",
@@ -2048,6 +2222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "narrowPortType",
           "package": "jack",
@@ -2057,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "narrowPortType",
           "normalized": "Port UnknownType a-\u003eExceptionalT b IO(Port c a)",
@@ -2073,6 +2249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a new Jack client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "newClient",
           "package": "jack",
@@ -2082,6 +2259,7 @@
         "index": {
           "description": "Constructs new Jack client",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "newClient",
           "normalized": "String-\u003eString-\u003eExceptionalT a IO Client",
@@ -2098,6 +2276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new JACK client with the \u003ccode\u003edefault\u003c/code\u003e server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "newClientDefault",
           "package": "jack",
@@ -2107,6 +2286,7 @@
         "index": {
           "description": "Creates new JACK client with the default server",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "newClientDefault",
           "normalized": "String-\u003eExceptionalT a IO Client",
@@ -2123,6 +2303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBetter use \u003ccode\u003e\u003ca\u003ewithPort\u003c/a\u003e\u003c/code\u003e that also handles freeing the port.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "newPort",
           "package": "jack",
@@ -2132,6 +2313,7 @@
         "index": {
           "description": "Better use withPort that also handles freeing the port",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "newPort",
           "normalized": "Client-\u003eString-\u003eExceptionalT a IO(Port b c)",
@@ -2147,6 +2329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "nframesBounds",
           "package": "jack",
@@ -2156,6 +2339,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "nframesBounds",
           "normalized": "NFrames-\u003e(NFrames,NFrames)",
@@ -2171,6 +2355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "nframesIndices",
           "package": "jack",
@@ -2180,6 +2365,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "nframesIndices",
           "normalized": "NFrames-\u003e[NFrames]",
@@ -2195,6 +2381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "portById",
           "package": "jack",
@@ -2204,6 +2391,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "portById",
           "normalized": "Client-\u003ePortId-\u003eIO(Port UnknownType UnknownDirection)",
@@ -2219,6 +2407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "portByName",
           "package": "jack",
@@ -2228,6 +2417,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "portByName",
           "normalized": "Client-\u003eString-\u003eIO(Port UnknownType UnknownDirection)",
@@ -2244,6 +2434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all the port names a given port is connected to.\n\u003c/p\u003e\u003cp\u003eThis function must not be called from a JACK event callback.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "portGetAllConnections",
           "package": "jack",
@@ -2254,6 +2445,7 @@
         "index": {
           "description": "Return all the port names given port is connected to This function must not be called from JACK event callback",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "portGetAllConnections",
           "normalized": "Client-\u003ePort a b-\u003eIO[String]",
@@ -2270,6 +2462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the full port name, including the \u003ccode\u003eclient_name:\u003c/code\u003e prefix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "portName",
           "package": "jack",
@@ -2280,6 +2473,7 @@
         "index": {
           "description": "Return the full port name including the client name prefix",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "portName",
           "normalized": "Port a b-\u003eIO String",
@@ -2296,6 +2490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the short port name, not including the \u003ccode\u003eclient_name:\u003c/code\u003e prefix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "portShortName",
           "package": "jack",
@@ -2306,6 +2501,7 @@
         "index": {
           "description": "Return the short port name not including the client name prefix",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "portShortName",
           "normalized": "Port a b-\u003eIO String",
@@ -2321,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "quit",
           "package": "jack",
@@ -2330,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "quit",
           "normalized": "MVar()-\u003eClient-\u003ePortSet-\u003eIO()",
@@ -2345,6 +2543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the client registration callback.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "setClientRegistration",
           "package": "jack",
@@ -2355,6 +2554,7 @@
         "index": {
           "description": "Set the client registration callback",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "setClientRegistration",
           "normalized": "Client-\u003eFunPtr(ClientRegistration a)-\u003ePtr a-\u003eExceptionalT b IO()",
@@ -2370,6 +2570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "setOfPort",
           "package": "jack",
@@ -2379,6 +2580,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "setOfPort",
           "normalized": "Port a b-\u003ePortSet",
@@ -2394,6 +2596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "setOfPorts",
           "package": "jack",
@@ -2403,6 +2606,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "setOfPorts",
           "normalized": "[Port a b]-\u003ePortSet",
@@ -2419,6 +2623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the port connect callback.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "setPortConnect",
           "package": "jack",
@@ -2429,6 +2634,7 @@
         "index": {
           "description": "Set the port connect callback",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "setPortConnect",
           "normalized": "Client-\u003eFunPtr(PortConnect a)-\u003ePtr a-\u003eExceptionalT b IO()",
@@ -2445,6 +2651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the port registration callback.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "setPortRegistration",
           "package": "jack",
@@ -2455,6 +2662,7 @@
         "index": {
           "description": "Set the port registration callback",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "setPortRegistration",
           "normalized": "Client-\u003eFunPtr(PortRegistration a)-\u003ePtr a-\u003eExceptionalT b IO()",
@@ -2470,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "setProcess",
           "package": "jack",
@@ -2479,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "setProcess",
           "normalized": "Client-\u003eFunPtr(Process a)-\u003ePtr a-\u003eExceptionalT b IO()",
@@ -2494,6 +2704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "switchUnknownDirectionPort",
           "package": "jack",
@@ -2503,6 +2714,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "switchUnknownDirectionPort",
           "normalized": "Port a UnknownDirection-\u003e(Port a Input-\u003eExceptionalT b IO c)-\u003e(Port a Output-\u003eExceptionalT b IO c)-\u003eExceptionalT b IO c",
@@ -2518,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "switchUnknownTypePort",
           "package": "jack",
@@ -2527,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "switchUnknownTypePort",
           "normalized": "Port UnknownType a-\u003e(Port CFloat a-\u003eExceptionalT b IO c)-\u003e(Port EventBuffer a-\u003eExceptionalT b IO c)-\u003eExceptionalT b IO c",
@@ -2542,6 +2756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "waitForBreak",
           "package": "jack",
@@ -2551,6 +2766,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "waitForBreak",
           "normalized": "IO()",
@@ -2566,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "waitForBreakAndClose",
           "package": "jack",
@@ -2575,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "waitForBreakAndClose",
           "normalized": "Client-\u003ePortSet-\u003eIO()",
@@ -2590,6 +2808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "withActivation",
           "package": "jack",
@@ -2599,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "withActivation",
           "normalized": "Client-\u003eExceptionalT a IO()-\u003eExceptionalT a IO()",
@@ -2615,6 +2835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a block of code with a newly allocated client.\nDo not use the client outside the block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "withClient",
           "package": "jack",
@@ -2624,6 +2845,7 @@
         "index": {
           "description": "Run block of code with newly allocated client Do not use the client outside the block",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "withClient",
           "normalized": "String-\u003eString-\u003e(Client-\u003eExceptionalT a IO b)-\u003eExceptionalT a IO b",
@@ -2639,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "withClientDefault",
           "package": "jack",
@@ -2647,6 +2870,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "withClientDefault",
           "normalized": "String-\u003e(Client-\u003eExceptionalT a IO b)-\u003eExceptionalT a IO b",
@@ -2662,6 +2886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "withClientRegistration",
           "package": "jack",
@@ -2671,6 +2896,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "withClientRegistration",
           "normalized": "Client-\u003e(String-\u003eBool-\u003eIO())-\u003eExceptionalT a IO b-\u003eExceptionalT a IO b",
@@ -2687,6 +2913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new port for the given client and delete it after usage.\nThe port manages audio or MIDI data in input or output direction\ndepending on the Port type.\nUsually the required port type can be inferred from following actions\nthat use that port.\n\u003c/p\u003e\u003cp\u003eDo not use the port outside the enclosed block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "withPort",
           "package": "jack",
@@ -2696,6 +2923,7 @@
         "index": {
           "description": "Creates new port for the given client and delete it after usage The port manages audio or MIDI data in input or output direction depending on the Port type Usually the required port type can be inferred from following actions that use that port Do not use the port outside the enclosed block",
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "withPort",
           "normalized": "Client-\u003eString-\u003e(Port a b-\u003eExceptionalT c IO d)-\u003eExceptionalT c IO d",
@@ -2711,6 +2939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "withPortConnect",
           "package": "jack",
@@ -2720,6 +2949,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "withPortConnect",
           "normalized": "Client-\u003e(PortId-\u003ePortId-\u003eBool-\u003eIO())-\u003eExceptionalT a IO b-\u003eExceptionalT a IO b",
@@ -2735,6 +2965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "withPortRegistration",
           "package": "jack",
@@ -2744,6 +2975,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "withPortRegistration",
           "normalized": "Client-\u003e(PortId-\u003eBool-\u003eIO())-\u003eExceptionalT a IO b-\u003eExceptionalT a IO b",
@@ -2759,6 +2991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:00:49 UTC 2014",
           "module": "Sound.JACK",
           "name": "withProcess",
           "package": "jack",
@@ -2768,6 +3001,7 @@
         },
         "index": {
           "hierarchy": "Sound JACK",
+          "indexed": "2014-03-11T19:00:49",
           "module": "Sound.JACK",
           "name": "withProcess",
           "normalized": "Client-\u003e(NFrames-\u003eExceptionalT Errno IO())-\u003eExceptionalT a IO b-\u003eExceptionalT a IO b",

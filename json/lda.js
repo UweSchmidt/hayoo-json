@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lda"
+        "phrase": "lda",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA.UnboxedMaybeVector",
           "name": "UnboxedMaybeVector",
           "package": "lda",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "NLP LDA UnboxedMaybeVector",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA.UnboxedMaybeVector",
           "name": "UnboxedMaybeVector",
           "package": "lda",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA.Utils",
           "name": "Utils",
           "package": "lda",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "NLP LDA Utils",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA.Utils",
           "name": "Utils",
           "package": "lda",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA.Utils",
           "name": "count",
           "package": "lda",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "NLP LDA Utils",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA.Utils",
           "name": "count",
           "normalized": "Int-\u003eIntMap Double-\u003eDouble",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLatent Dirichlet Allocation\n\u003c/p\u003e\u003cp\u003eSimple implementation of a collapsed Gibbs sampler for LDA. This\n library uses the topic modeling terminology (documents, words,\n topics), even though it is generic. For example if used for word\n class induction, replace documents with word types, words with\n features and topics with word classes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "LDA",
           "package": "lda",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Latent Dirichlet Allocation Simple implementation of collapsed Gibbs sampler for LDA This library uses the topic modeling terminology documents words topics even though it is generic For example if used for word class induction replace documents with word types words with features and topics with word classes",
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "LDA",
           "package": "lda",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "D",
           "package": "lda",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "D",
           "package": "lda",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "Doc",
           "package": "lda",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "Doc",
           "package": "lda",
@@ -148,6 +160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract type holding the LDA model, and the inverse count tables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "Finalized",
           "package": "lda",
@@ -157,6 +170,7 @@
         "index": {
           "description": "Abstract type holding the LDA model and the inverse count tables",
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "Finalized",
           "package": "lda",
@@ -171,6 +185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract type holding the settings and the state of the sampler\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "LDA",
           "package": "lda",
@@ -180,6 +195,7 @@
         "index": {
           "description": "Abstract type holding the settings and the state of the sampler",
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "LDA",
           "package": "lda",
@@ -194,6 +210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCustom random variable representing the LDA Gibbs sampler\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "Sampler",
           "package": "lda",
@@ -203,6 +220,7 @@
         "index": {
           "description": "Custom random variable representing the LDA Gibbs sampler",
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "Sampler",
           "package": "lda",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "Table1D",
           "package": "lda",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "Table1D",
           "package": "lda",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "Table2D",
           "package": "lda",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "Table2D",
           "package": "lda",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "W",
           "package": "lda",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "W",
           "package": "lda",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "Z",
           "package": "lda",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "Z",
           "package": "lda",
@@ -299,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealpha * K Dirichlet parameter (topic sparseness)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "alphasum",
           "package": "lda",
@@ -309,6 +336,7 @@
         "index": {
           "description": "alpha Dirichlet parameter topic sparseness",
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "alphasum",
           "normalized": "LDA-\u003eDouble",
@@ -324,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebeta Dirichlet parameter (word sparseness)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "beta",
           "package": "lda",
@@ -334,6 +363,7 @@
         "index": {
           "description": "beta Dirichlet parameter word sparseness",
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "beta",
           "normalized": "LDA-\u003eDouble",
@@ -349,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove zero counts from the doc/topic table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "compress",
           "package": "lda",
@@ -359,6 +390,7 @@
         "index": {
           "description": "Remove zero counts from the doc topic table",
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "compress",
           "normalized": "IntMap(IntMap Double)-\u003eIntMap(IntMap Double)",
@@ -374,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edocTopicWeights m doc\u003c/code\u003e returns unnormalized topic probabilities\n for document doc given LDA model \u003ccode\u003em\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "docTopicWeights",
           "package": "lda",
@@ -384,6 +417,7 @@
         "index": {
           "description": "docTopicWeights doc returns unnormalized topic probabilities for document doc given LDA model",
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "docTopicWeights",
           "normalized": "LDA-\u003eDoc-\u003eVector Double",
@@ -400,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument-topic counts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "docTopics",
           "package": "lda",
@@ -410,6 +445,7 @@
         "index": {
           "description": "Document-topic counts",
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "docTopics",
           "normalized": "LDA-\u003eTable D",
@@ -426,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efinalize m\u003c/code\u003e creates a finalized model from LDA model \u003ccode\u003em\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "finalize",
           "package": "lda",
@@ -436,6 +473,7 @@
         "index": {
           "description": "finalize creates finalized model from LDA model",
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "finalize",
           "normalized": "LDA-\u003eFinalized",
@@ -451,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003einitial k a b\u003c/code\u003e initializes model with \u003ccode\u003ek\u003c/code\u003e topics, \u003ccode\u003ea/k\u003c/code\u003e alpha\n hyperparameter and \u003ccode\u003eb\u003c/code\u003e beta hyperparameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "initial",
           "package": "lda",
@@ -461,6 +500,7 @@
         "index": {
           "description": "initial initializes model with topics alpha hyperparameter and beta hyperparameter",
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "initial",
           "normalized": "Int-\u003eDouble-\u003eDouble-\u003eLDA",
@@ -476,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLDA model\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "model",
           "package": "lda",
@@ -486,6 +527,7 @@
         "index": {
           "description": "LDA model",
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "model",
           "normalized": "Finalized-\u003eLDA",
@@ -501,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epass batch\u003c/code\u003e runs one pass of Gibbs sampling on documents in \u003ccode\u003ebatch\u003c/code\u003e  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "pass",
           "package": "lda",
@@ -511,6 +554,7 @@
         "index": {
           "description": "pass batch runs one pass of Gibbs sampling on documents in batch",
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "pass",
           "normalized": "Vector Doc-\u003eSampler(Vector Doc)",
@@ -526,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erunLDA seed n m ds\u003c/code\u003e creates and runs an LDA sampler with \u003ccode\u003eseed\u003c/code\u003e\n for \u003ccode\u003en\u003c/code\u003e passes with initial model \u003ccode\u003em\u003c/code\u003e on the batch of documents\n \u003ccode\u003eds\u003c/code\u003e. The random number generator used is\n System.Random.Mersenne.Pure64.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "runLDA",
           "package": "lda",
@@ -536,6 +581,7 @@
         "index": {
           "description": "runLDA seed ds creates and runs an LDA sampler with seed for passes with initial model on the batch of documents ds The random number generator used is System.Random.Mersenne.Pure64",
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "runLDA",
           "normalized": "Word-\u003eInt-\u003eLDA-\u003eVector Doc-\u003e(Vector Doc,LDA)",
@@ -552,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003erunSampler seed m s\u003c/code\u003e runs sampler \u003ccode\u003es\u003c/code\u003e with \u003ccode\u003eseed\u003c/code\u003e and initial\n model \u003ccode\u003em\u003c/code\u003e. The random number generator used is\n System.Random.Mersenne.Pure64.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "runSampler",
           "package": "lda",
@@ -562,6 +609,7 @@
         "index": {
           "description": "runSampler seed runs sampler with seed and initial model The random number generator used is System.Random.Mersenne.Pure64",
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "runSampler",
           "normalized": "Word-\u003eLDA-\u003eSampler a-\u003e(a,LDA)",
@@ -578,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse document-topic counts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "topicDocs",
           "package": "lda",
@@ -588,6 +637,7 @@
         "index": {
           "description": "Inverse document-topic counts",
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "topicDocs",
           "normalized": "Finalized-\u003eTable D",
@@ -604,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of topics K\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "topicNum",
           "package": "lda",
@@ -614,6 +665,7 @@
         "index": {
           "description": "Number of topics",
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "topicNum",
           "normalized": "LDA-\u003eInt",
@@ -630,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse word-topic counts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "topicWords",
           "package": "lda",
@@ -640,6 +693,7 @@
         "index": {
           "description": "Inverse word-topic counts",
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "topicWords",
           "normalized": "Finalized-\u003eTable D",
@@ -656,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTopic counts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "topics",
           "package": "lda",
@@ -666,6 +721,7 @@
         "index": {
           "description": "Topic counts",
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "topics",
           "normalized": "LDA-\u003eTable D",
@@ -681,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of unique words\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "vSize",
           "package": "lda",
@@ -691,6 +748,7 @@
         "index": {
           "description": "Number of unique words",
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "vSize",
           "normalized": "LDA-\u003eInt",
@@ -707,6 +765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWord-topic counts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:02 UTC 2014",
           "module": "NLP.LDA",
           "name": "wordTopics",
           "package": "lda",
@@ -717,6 +776,7 @@
         "index": {
           "description": "Word-topic counts",
           "hierarchy": "NLP LDA",
+          "indexed": "2014-03-11T19:07:02",
           "module": "NLP.LDA",
           "name": "wordTopics",
           "normalized": "LDA-\u003eTable D",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HGamer3D-SFML-Binding"
+        "phrase": "HGamer3D-SFML-Binding",
+        "type": "phrase"
       },
       "type": "context"
     }

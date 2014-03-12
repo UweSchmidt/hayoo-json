@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-accessor-monadLib"
+        "phrase": "data-accessor-monadLib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAccess helper functions in State and Reader monads \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:47:15 UTC 2014",
           "module": "Data.Accessor.MonadLib",
           "name": "MonadLib",
           "package": "data-accessor-monadLib",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Access helper functions in State and Reader monads",
           "hierarchy": "Data Accessor MonadLib",
+          "indexed": "2014-03-11T17:47:15",
           "module": "Data.Accessor.MonadLib",
           "name": "MonadLib",
           "package": "data-accessor-monadLib",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix variant of \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:15 UTC 2014",
           "module": "Data.Accessor.MonadLib",
           "name": "(%=)",
           "package": "data-accessor-monadLib",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Infix variant of set",
           "hierarchy": "Data Accessor MonadLib",
+          "indexed": "2014-03-11T17:47:15",
           "module": "Data.Accessor.MonadLib",
           "name": "(%=) %=",
           "normalized": "T a b-\u003eb-\u003ec()",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix variant of \u003ccode\u003e\u003ca\u003emodify\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:15 UTC 2014",
           "module": "Data.Accessor.MonadLib",
           "name": "(%:)",
           "package": "data-accessor-monadLib",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Infix variant of modify",
           "hierarchy": "Data Accessor MonadLib",
+          "indexed": "2014-03-11T17:47:15",
           "module": "Data.Accessor.MonadLib",
           "name": "(%:) %:",
           "normalized": "T a b-\u003e(b-\u003eb)-\u003ec()",
@@ -91,6 +97,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:15 UTC 2014",
           "module": "Data.Accessor.MonadLib",
           "name": "ask",
           "package": "data-accessor-monadLib",
@@ -100,6 +107,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor MonadLib",
+          "indexed": "2014-03-11T17:47:15",
           "module": "Data.Accessor.MonadLib",
           "name": "ask",
           "normalized": "T a b-\u003ec b",
@@ -114,6 +122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:15 UTC 2014",
           "module": "Data.Accessor.MonadLib",
           "name": "focusingOn",
           "package": "data-accessor-monadLib",
@@ -123,6 +132,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor MonadLib",
+          "indexed": "2014-03-11T17:47:15",
           "module": "Data.Accessor.MonadLib",
           "name": "focusingOn",
           "normalized": "T a b-\u003eReader b c-\u003ed c",
@@ -138,6 +148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:15 UTC 2014",
           "module": "Data.Accessor.MonadLib",
           "name": "focusingOnT",
           "package": "data-accessor-monadLib",
@@ -147,6 +158,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor MonadLib",
+          "indexed": "2014-03-11T17:47:15",
           "module": "Data.Accessor.MonadLib",
           "name": "focusingOnT",
           "normalized": "T a b-\u003eReaderT b c d-\u003eReaderT a c d",
@@ -162,6 +174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:15 UTC 2014",
           "module": "Data.Accessor.MonadLib",
           "name": "get",
           "package": "data-accessor-monadLib",
@@ -171,6 +184,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor MonadLib",
+          "indexed": "2014-03-11T17:47:15",
           "module": "Data.Accessor.MonadLib",
           "name": "get",
           "normalized": "T a b-\u003ec b",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a record element and return its old value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:15 UTC 2014",
           "module": "Data.Accessor.MonadLib",
           "name": "getAndModify",
           "package": "data-accessor-monadLib",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Modify record element and return its old value",
           "hierarchy": "Data Accessor MonadLib",
+          "indexed": "2014-03-11T17:47:15",
           "module": "Data.Accessor.MonadLib",
           "name": "getAndModify",
           "normalized": "T a b-\u003e(b-\u003eb)-\u003ec b",
@@ -211,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:15 UTC 2014",
           "module": "Data.Accessor.MonadLib",
           "name": "lift",
           "package": "data-accessor-monadLib",
@@ -220,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor MonadLib",
+          "indexed": "2014-03-11T17:47:15",
           "module": "Data.Accessor.MonadLib",
           "name": "lift",
           "normalized": "T a b-\u003eState b c-\u003ed c",
@@ -234,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:15 UTC 2014",
           "module": "Data.Accessor.MonadLib",
           "name": "liftT",
           "package": "data-accessor-monadLib",
@@ -243,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor MonadLib",
+          "indexed": "2014-03-11T17:47:15",
           "module": "Data.Accessor.MonadLib",
           "name": "liftT",
           "normalized": "T a b-\u003eStateT b c d-\u003eStateT a c d",
@@ -257,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:15 UTC 2014",
           "module": "Data.Accessor.MonadLib",
           "name": "modify",
           "package": "data-accessor-monadLib",
@@ -266,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor MonadLib",
+          "indexed": "2014-03-11T17:47:15",
           "module": "Data.Accessor.MonadLib",
           "name": "modify",
           "normalized": "T a b-\u003e(b-\u003eb)-\u003ec()",
@@ -281,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a record element and return its new value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:15 UTC 2014",
           "module": "Data.Accessor.MonadLib",
           "name": "modifyAndGet",
           "package": "data-accessor-monadLib",
@@ -291,6 +314,7 @@
         "index": {
           "description": "Modify record element and return its new value",
           "hierarchy": "Data Accessor MonadLib",
+          "indexed": "2014-03-11T17:47:15",
           "module": "Data.Accessor.MonadLib",
           "name": "modifyAndGet",
           "normalized": "T a b-\u003e(b-\u003eb)-\u003ec b",
@@ -306,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:15 UTC 2014",
           "module": "Data.Accessor.MonadLib",
           "name": "set",
           "package": "data-accessor-monadLib",
@@ -315,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Data Accessor MonadLib",
+          "indexed": "2014-03-11T17:47:15",
           "module": "Data.Accessor.MonadLib",
           "name": "set",
           "normalized": "T a b-\u003eb-\u003ec()",

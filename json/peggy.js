@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "peggy"
+        "phrase": "peggy",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.CodeGen.TH",
           "name": "TH",
           "package": "peggy",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy CodeGen TH",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.CodeGen.TH",
           "name": "TH",
           "package": "peggy",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.CodeGen.TH",
           "name": "genDecs",
           "package": "peggy",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy CodeGen TH",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.CodeGen.TH",
           "name": "genDecs",
           "normalized": "Syntax-\u003eQ[Dec]",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.CodeGen.TH",
           "name": "genQQ",
           "package": "peggy",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy CodeGen TH",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.CodeGen.TH",
           "name": "genQQ",
           "normalized": "Syntax-\u003e(String,String)-\u003eQ[Dec]",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.LeftRec",
           "name": "LeftRec",
           "package": "peggy",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy LeftRec",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.LeftRec",
           "name": "LeftRec",
           "package": "peggy",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.LeftRec",
           "name": "removeLeftRecursion",
           "package": "peggy",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy LeftRec",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.LeftRec",
           "name": "removeLeftRecursion",
           "normalized": "Syntax-\u003eSyntax",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Normalize",
           "name": "Normalize",
           "package": "peggy",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Normalize",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Normalize",
           "name": "Normalize",
           "package": "peggy",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Normalize",
           "name": "normalize",
           "package": "peggy",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Normalize",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Normalize",
           "name": "normalize",
           "normalized": "Syntax-\u003eSyntax",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Normalize",
           "name": "shouldBind",
           "package": "peggy",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Normalize",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Normalize",
           "name": "shouldBind",
           "normalized": "Expr-\u003eBool",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Parser",
           "name": "Parser",
           "package": "peggy",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Parser",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Parser",
           "name": "Parser",
           "package": "peggy",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Parser",
           "name": "syntax",
           "package": "peggy",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Parser",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Parser",
           "name": "syntax",
           "package": "peggy",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe monadic parser type and combinators to construct\n packrat parsers for code generator.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "Prim",
           "package": "peggy",
@@ -252,6 +273,7 @@
         "index": {
           "description": "The monadic parser type and combinators to construct packrat parsers for code generator",
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "Prim",
           "package": "peggy",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "MemoTable",
           "package": "peggy",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "MemoTable",
           "package": "peggy",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "ParseError",
           "package": "peggy",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "ParseError",
           "package": "peggy",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "Parser",
           "package": "peggy",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "Parser",
           "package": "peggy",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "Result",
           "package": "peggy",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "Result",
           "package": "peggy",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "Failed",
           "package": "peggy",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "Failed",
           "package": "peggy",
@@ -371,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "ParseError",
           "package": "peggy",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "ParseError",
           "package": "peggy",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "Parsed",
           "package": "peggy",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "Parsed",
           "package": "peggy",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "Parser",
           "package": "peggy",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "Parser",
           "package": "peggy",
@@ -437,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "anyChar",
           "package": "peggy",
@@ -446,6 +485,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "anyChar",
           "package": "peggy",
@@ -459,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "char",
           "package": "peggy",
@@ -468,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "char",
           "normalized": "Char-\u003eParser a b c Char",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "defaultDelimiter",
           "package": "peggy",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "defaultDelimiter",
           "normalized": "Parser a b c()",
@@ -506,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "expect",
           "package": "peggy",
@@ -515,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "expect",
           "normalized": "Parser a b c d-\u003eParser a b c()",
@@ -529,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "getPos",
           "package": "peggy",
@@ -538,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "getPos",
           "package": "peggy",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "memo",
           "package": "peggy",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "memo",
           "normalized": "(a b-\u003eHashTable b Int(Result c d))-\u003eParser a c b d-\u003eParser a c b d",
@@ -574,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "newTable",
           "package": "peggy",
@@ -583,6 +634,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "newTable",
           "package": "peggy",
@@ -597,6 +649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "parse",
           "package": "peggy",
@@ -606,6 +659,7 @@
         "index": {
           "description": "Parsing function",
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "parse",
           "normalized": "(a b Parser c d e f)-\u003eSrcPos-\u003ed-\u003eEither ParseError f",
@@ -621,6 +675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse from file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "parseFile",
           "package": "peggy",
@@ -630,6 +685,7 @@
         "index": {
           "description": "Parse from file",
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "parseFile",
           "normalized": "(a b Parser c String d e)-\u003eFilePath-\u003eIO(Either ParseError e)",
@@ -646,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing function with only input name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "parseString",
           "package": "peggy",
@@ -655,6 +712,7 @@
         "index": {
           "description": "Parsing function with only input name",
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "parseString",
           "normalized": "(a b Parser c d e f)-\u003eString-\u003ed-\u003eEither ParseError f",
@@ -670,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "satisfy",
           "package": "peggy",
@@ -679,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "satisfy",
           "normalized": "(Char-\u003eBool)-\u003eParser a b c Char",
@@ -693,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "setPos",
           "package": "peggy",
@@ -702,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "setPos",
           "normalized": "SrcPos-\u003eParser a b c()",
@@ -717,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "space",
           "package": "peggy",
@@ -726,6 +789,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "space",
           "normalized": "Parser a b c()",
@@ -740,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "string",
           "package": "peggy",
@@ -749,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "string",
           "normalized": "String-\u003eParser a b c String",
@@ -763,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "token",
           "package": "peggy",
@@ -772,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "token",
           "normalized": "Parser a b c()-\u003eParser a b c()-\u003eParser a b c d-\u003eParser a b c d",
@@ -786,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "unParser",
           "package": "peggy",
@@ -795,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "unParser",
           "normalized": "a b-\u003eSrcPos-\u003eChar-\u003ec-\u003eST b(Result c d)",
@@ -810,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Prim",
           "name": "unexpect",
           "package": "peggy",
@@ -819,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Prim",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Prim",
           "name": "unexpect",
           "normalized": "Parser a b c d-\u003eParser a b c()",
@@ -834,6 +906,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe quasi-quoters of peggy syntax.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Quote",
           "name": "Quote",
           "package": "peggy",
@@ -843,6 +916,7 @@
         "index": {
           "description": "The quasi-quoters of peggy syntax",
           "hierarchy": "Text Peggy Quote",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Quote",
           "name": "Quote",
           "package": "peggy",
@@ -857,6 +931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates parsers and quasi-quoters.\n First argument is a list of names of quasi-quoter you want to define.\n For example:\n\u003c/p\u003e\u003cpre\u003e genParser [(\"fooqq\", \"foo\")] [peggy|\n foo :: [Int]\n   = num*\n num ::: Int\n   = [0-9]+ { read $1 }\n |]\n\u003c/pre\u003e\u003cp\u003ethis code defines parsers named \u003ccode\u003efoo\u003c/code\u003e, \u003ccode\u003enum\u003c/code\u003e and\n quasi-quoter named \u003ccode\u003efooqq\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIt can use it as follow:\n\u003c/p\u003e\u003cpre\u003e main :: IO ()\n main = print [fooqq| 1 2 3 4 5 |]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Quote",
           "name": "genParser",
           "package": "peggy",
@@ -866,6 +941,7 @@
         "index": {
           "description": "Generates parsers and quasi-quoters First argument is list of names of quasi-quoter you want to define For example genParser fooqq foo peggy foo Int num num Int read this code defines parsers named foo num and quasi-quoter named fooqq It can use it as follow main IO main print fooqq",
           "hierarchy": "Text Peggy Quote",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Quote",
           "name": "genParser",
           "normalized": "[(String,String)]-\u003eSyntax-\u003eQ[Dec]",
@@ -882,6 +958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equasi-quoter for peggy syntax\n When it is used at top-level of source code,\n definitions of parsers are generated.\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE TemplateHaskell, QuasiQuotes, FlexibleContexts #-}\n import Text.Peggy\n \n [peggy|\n foo :: [Int]\n   = num*\n num ::: Int\n   = [0-9]+ { read $1 }\n |]\n \n main :: IO ()\n main = print . parseString foo \"\u003cstdin\u003e\" =\u003c\u003c getContents\n\u003c/pre\u003e\u003cp\u003eWhen it is used as expression,\n the result value is \u003ccode\u003e\u003ca\u003eSyntax\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e main = print [peggy|\n num :: Int\n   = [0-9]+ { read $1 }\n |]\n\u003c/pre\u003e\u003cp\u003eThe result is:\n\u003c/p\u003e\u003cpre\u003e $ runhaskell Test.hs\n [Definition \"num\" \"Int\\n  \" (Choice [Semantic (Sequence [Some (TerminalSet [CharRange '0' '9'])]) [Snippet \"read \",Argument 1,Snippet \" \"]])]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Quote",
           "name": "peggy",
           "package": "peggy",
@@ -892,6 +969,7 @@
         "index": {
           "description": "quasi-quoter for peggy syntax When it is used at top-level of source code definitions of parsers are generated LANGUAGE TemplateHaskell QuasiQuotes FlexibleContexts import Text.Peggy peggy foo Int num num Int read main IO main print parseString foo stdin getContents When it is used as expression the result value is Syntax main print peggy num Int read The result is runhaskell Test.hs Definition num Int Choice Semantic Sequence Some TerminalSet CharRange Snippet read Argument Snippet",
           "hierarchy": "Text Peggy Quote",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Quote",
           "name": "peggy",
           "package": "peggy",
@@ -905,6 +983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse peggy syntax from File\n Parse a peggy syntax file and return a \u003ccode\u003e\u003ca\u003eSyntax\u003c/a\u003e\u003c/code\u003e as a result value.\n\u003c/p\u003e\u003cpre\u003e $ cat test.peggy\n num :: Int\n   = [0-9]+ { return $1 }\n\u003c/pre\u003e\u003cpre\u003e main = print $(peggyFile \"test.peggy\")\n\u003c/pre\u003e\u003cp\u003eThe result is:\n\u003c/p\u003e\u003cpre\u003e [Definition \"num\" \"Int\\n  \" (Choice [Semantic (Sequence [Some (TerminalSet [CharRange '0' '9'])]) [Snippet \"read \",Argument 1,Snippet \" \"]])]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Quote",
           "name": "peggyFile",
           "package": "peggy",
@@ -915,6 +994,7 @@
         "index": {
           "description": "Parse peggy syntax from File Parse peggy syntax file and return Syntax as result value cat test.peggy num Int return main print peggyFile test.peggy The result is Definition num Int Choice Semantic Sequence Some TerminalSet CharRange Snippet read Argument Snippet",
           "hierarchy": "Text Peggy Quote",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Quote",
           "name": "peggyFile",
           "normalized": "FilePath-\u003eQ Exp",
@@ -930,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.SrcLoc",
           "name": "SrcLoc",
           "package": "peggy",
@@ -938,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy SrcLoc",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.SrcLoc",
           "name": "SrcLoc",
           "package": "peggy",
@@ -951,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.SrcLoc",
           "name": "SrcLoc",
           "package": "peggy",
@@ -959,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy SrcLoc",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.SrcLoc",
           "name": "SrcLoc",
           "package": "peggy",
@@ -972,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.SrcLoc",
           "name": "SrcPos",
           "package": "peggy",
@@ -980,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy SrcLoc",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.SrcLoc",
           "name": "SrcPos",
           "package": "peggy",
@@ -993,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.SrcLoc",
           "name": "LocPos",
           "package": "peggy",
@@ -1002,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy SrcLoc",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.SrcLoc",
           "name": "LocPos",
           "package": "peggy",
@@ -1015,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.SrcLoc",
           "name": "LocSpan",
           "package": "peggy",
@@ -1024,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy SrcLoc",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.SrcLoc",
           "name": "LocSpan",
           "package": "peggy",
@@ -1037,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.SrcLoc",
           "name": "SrcPos",
           "package": "peggy",
@@ -1046,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy SrcLoc",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.SrcLoc",
           "name": "SrcPos",
           "package": "peggy",
@@ -1059,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.SrcLoc",
           "name": "advance",
           "package": "peggy",
@@ -1068,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy SrcLoc",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.SrcLoc",
           "name": "advance",
           "normalized": "SrcPos-\u003eChar-\u003eSrcPos",
@@ -1082,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.SrcLoc",
           "name": "locAbs",
           "package": "peggy",
@@ -1091,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy SrcLoc",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.SrcLoc",
           "name": "locAbs",
           "package": "peggy",
@@ -1104,6 +1200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.SrcLoc",
           "name": "locCol",
           "package": "peggy",
@@ -1113,6 +1210,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy SrcLoc",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.SrcLoc",
           "name": "locCol",
           "package": "peggy",
@@ -1126,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.SrcLoc",
           "name": "locFile",
           "package": "peggy",
@@ -1135,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy SrcLoc",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.SrcLoc",
           "name": "locFile",
           "package": "peggy",
@@ -1148,6 +1248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.SrcLoc",
           "name": "locLine",
           "package": "peggy",
@@ -1157,6 +1258,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy SrcLoc",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.SrcLoc",
           "name": "locLine",
           "package": "peggy",
@@ -1170,6 +1272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "Syntax",
           "package": "peggy",
@@ -1178,6 +1281,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "Syntax",
           "package": "peggy",
@@ -1191,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "CharRange",
           "package": "peggy",
@@ -1199,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "CharRange",
           "package": "peggy",
@@ -1212,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "CodeFragment",
           "package": "peggy",
@@ -1220,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "CodeFragment",
           "package": "peggy",
@@ -1233,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "CodePart",
           "package": "peggy",
@@ -1241,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "CodePart",
           "package": "peggy",
@@ -1254,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "Definition",
           "package": "peggy",
@@ -1262,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "Definition",
           "package": "peggy",
@@ -1275,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "Expr",
           "package": "peggy",
@@ -1283,6 +1396,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "Expr",
           "package": "peggy",
@@ -1296,6 +1410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "Identifier",
           "package": "peggy",
@@ -1304,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "Identifier",
           "package": "peggy",
@@ -1317,6 +1433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "Syntax",
           "package": "peggy",
@@ -1325,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "Syntax",
           "package": "peggy",
@@ -1338,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "TermType",
           "package": "peggy",
@@ -1346,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "TermType",
           "package": "peggy",
@@ -1359,6 +1479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "And",
           "package": "peggy",
@@ -1368,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "And",
           "package": "peggy",
@@ -1381,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "AntiArgument",
           "package": "peggy",
@@ -1390,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "AntiArgument",
           "package": "peggy",
@@ -1403,6 +1527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "ArgPos",
           "package": "peggy",
@@ -1412,6 +1537,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "ArgPos",
           "package": "peggy",
@@ -1425,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "ArgSpan",
           "package": "peggy",
@@ -1434,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "ArgSpan",
           "package": "peggy",
@@ -1447,6 +1575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "Argument",
           "package": "peggy",
@@ -1456,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "Argument",
           "package": "peggy",
@@ -1469,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "CharOne",
           "package": "peggy",
@@ -1478,6 +1609,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "CharOne",
           "package": "peggy",
@@ -1491,6 +1623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "CharRange",
           "package": "peggy",
@@ -1500,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "CharRange",
           "package": "peggy",
@@ -1513,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "Choice",
           "package": "peggy",
@@ -1522,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "Choice",
           "normalized": "Choice[Expr]",
@@ -1537,6 +1673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "Definition",
           "package": "peggy",
@@ -1546,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "Definition",
           "package": "peggy",
@@ -1559,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "Empty",
           "package": "peggy",
@@ -1568,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "Empty",
           "package": "peggy",
@@ -1581,6 +1721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "Many",
           "package": "peggy",
@@ -1590,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "Many",
           "package": "peggy",
@@ -1603,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "Named",
           "package": "peggy",
@@ -1612,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "Named",
           "package": "peggy",
@@ -1625,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "NonTerminal",
           "package": "peggy",
@@ -1634,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "NonTerminal",
           "package": "peggy",
@@ -1647,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "Not",
           "package": "peggy",
@@ -1656,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "Not",
           "package": "peggy",
@@ -1669,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "Optional",
           "package": "peggy",
@@ -1678,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "Optional",
           "package": "peggy",
@@ -1691,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "Primitive",
           "package": "peggy",
@@ -1700,6 +1851,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "Primitive",
           "package": "peggy",
@@ -1713,6 +1865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "Semantic",
           "package": "peggy",
@@ -1722,6 +1875,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "Semantic",
           "package": "peggy",
@@ -1735,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "SepBy",
           "package": "peggy",
@@ -1744,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "SepBy",
           "package": "peggy",
@@ -1757,6 +1913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "SepBy1",
           "package": "peggy",
@@ -1766,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "SepBy1",
           "package": "peggy",
@@ -1779,6 +1937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "Sequence",
           "package": "peggy",
@@ -1788,6 +1947,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "Sequence",
           "normalized": "Sequence[Expr]",
@@ -1803,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "Snippet",
           "package": "peggy",
@@ -1812,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "Snippet",
           "package": "peggy",
@@ -1825,6 +1987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "Some",
           "package": "peggy",
@@ -1834,6 +1997,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "Some",
           "package": "peggy",
@@ -1847,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "TerminalAny",
           "package": "peggy",
@@ -1856,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "TerminalAny",
           "package": "peggy",
@@ -1869,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "TerminalCmp",
           "package": "peggy",
@@ -1878,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "TerminalCmp",
           "normalized": "TerminalCmp[CharRange]",
@@ -1893,6 +2061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "TerminalSet",
           "package": "peggy",
@@ -1902,6 +2071,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "TerminalSet",
           "normalized": "TerminalSet[CharRange]",
@@ -1917,6 +2087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "Terminals",
           "package": "peggy",
@@ -1926,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "Terminals",
           "package": "peggy",
@@ -1939,6 +2111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy.Syntax",
           "name": "Token",
           "package": "peggy",
@@ -1948,6 +2121,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy Syntax",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy.Syntax",
           "name": "Token",
           "package": "peggy",
@@ -1961,6 +2135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:59 UTC 2014",
           "module": "Text.Peggy",
           "name": "Peggy",
           "package": "peggy",
@@ -1969,6 +2144,7 @@
         },
         "index": {
           "hierarchy": "Text Peggy",
+          "indexed": "2014-03-11T19:36:59",
           "module": "Text.Peggy",
           "name": "Peggy",
           "package": "peggy",

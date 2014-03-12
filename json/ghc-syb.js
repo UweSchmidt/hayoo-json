@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghc-syb"
+        "phrase": "ghc-syb",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ca\u003eGHC.Syb.Instances\u003c/a\u003e provides instances of Data/Typeable\n     for Ghc Api types, using standalone deriving.\n\u003c/p\u003e\u003cp\u003eMost instances are standard; to provide \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e instances \nabstract types, we use one of two schemes:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e no traversal: \u003ccode\u003e\u003ca\u003eSrcSpan\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eModuleName\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eOccName\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eName\u003c/a\u003e\u003c/code\u003e, \n                \u003ccode\u003e\u003ca\u003eFastString\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eDataCon\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eVar\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eTyCon\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eClass\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cpre\u003e\n    abstractConstr   n = mkConstr (abstractDataType n) (\u003ca\u003e{abstract:\u003c/a\u003e++n++\u003ca\u003e}\u003c/a\u003e) [] Prefix\n    abstractDataType n = mkDataType n [abstractConstr n]\n\u003c/pre\u003e\u003cpre\u003e\n    instance Data SrcSpan where\n      -- don't traverse?\n      toConstr _   = abstractConstr \u003ca\u003eSrcSpan\u003c/a\u003e\n      gunfold _ _  = error \u003ca\u003egunfold\u003c/a\u003e\n      dataTypeOf _ = mkNoRepType \u003ca\u003eSrcSpan\u003c/a\u003e\n\u003c/pre\u003e\u003cul\u003e\u003cli\u003e abstract traversal: \u003ccode\u003e\u003ca\u003eNameSet\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eBag\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cpre\u003e\n    instance Data NameSet where\n      gfoldl k z s = z mkNameSet \u003ccode\u003ek\u003c/code\u003e nameSetToList s -- traverse abstractly\n      toConstr _   = abstractConstr \u003ca\u003eNameSet\u003c/a\u003e\n      gunfold _ _  = error \u003ca\u003egunfold\u003c/a\u003e\n      dataTypeOf _ = mkNoRepType \u003ca\u003eNameSet\u003c/a\u003e\n\u003c/pre\u003e\u003cp\u003ePlease report any issues, either with these abstract instances or with\nthese modules going out of sync with GHC head, to the package maintainer.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:16:26 UTC 2014",
           "module": "GHC.SYB.Instances",
           "name": "Instances",
           "package": "ghc-syb",
@@ -28,6 +29,7 @@
         "index": {
           "description": "GHC.Syb.Instances provides instances of Data Typeable for Ghc Api types using standalone deriving Most instances are standard to provide Data instances abstract types we use one of two schemes no traversal SrcSpan Module ModuleName OccName Name FastString DataCon Var TyCon Class abstractConstr mkConstr abstractDataType abstract Prefix abstractDataType mkDataType abstractConstr instance Data SrcSpan where don traverse toConstr abstractConstr SrcSpan gunfold error gunfold dataTypeOf mkNoRepType SrcSpan abstract traversal NameSet Bag instance Data NameSet where gfoldl mkNameSet nameSetToList traverse abstractly toConstr abstractConstr NameSet gunfold error gunfold dataTypeOf mkNoRepType NameSet Please report any issues either with these abstract instances or with these modules going out of sync with GHC head to the package maintainer",
           "hierarchy": "GHC SYB Instances",
+          "indexed": "2014-03-11T18:16:26",
           "module": "GHC.SYB.Instances",
           "name": "Instances",
           "package": "ghc-syb",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:26 UTC 2014",
           "module": "GHC.SYB.Instances",
           "name": "bagTc",
           "package": "ghc-syb",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "GHC SYB Instances",
+          "indexed": "2014-03-11T18:16:26",
           "module": "GHC.SYB.Instances",
           "name": "bagTc",
           "package": "ghc-syb",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:26 UTC 2014",
           "module": "GHC.SYB.Instances",
           "name": "classTc",
           "package": "ghc-syb",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "GHC SYB Instances",
+          "indexed": "2014-03-11T18:16:26",
           "module": "GHC.SYB.Instances",
           "name": "classTc",
           "package": "ghc-syb",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:26 UTC 2014",
           "module": "GHC.SYB.Instances",
           "name": "dataConTc",
           "package": "ghc-syb",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "GHC SYB Instances",
+          "indexed": "2014-03-11T18:16:26",
           "module": "GHC.SYB.Instances",
           "name": "dataConTc",
           "package": "ghc-syb",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:26 UTC 2014",
           "module": "GHC.SYB.Instances",
           "name": "moduleNameTc",
           "package": "ghc-syb",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "GHC SYB Instances",
+          "indexed": "2014-03-11T18:16:26",
           "module": "GHC.SYB.Instances",
           "name": "moduleNameTc",
           "package": "ghc-syb",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:26 UTC 2014",
           "module": "GHC.SYB.Instances",
           "name": "moduleTc",
           "package": "ghc-syb",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "GHC SYB Instances",
+          "indexed": "2014-03-11T18:16:26",
           "module": "GHC.SYB.Instances",
           "name": "moduleTc",
           "package": "ghc-syb",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:26 UTC 2014",
           "module": "GHC.SYB.Instances",
           "name": "nameSetTc",
           "package": "ghc-syb",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "GHC SYB Instances",
+          "indexed": "2014-03-11T18:16:26",
           "module": "GHC.SYB.Instances",
           "name": "nameSetTc",
           "package": "ghc-syb",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:26 UTC 2014",
           "module": "GHC.SYB.Instances",
           "name": "nameTc",
           "package": "ghc-syb",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "GHC SYB Instances",
+          "indexed": "2014-03-11T18:16:26",
           "module": "GHC.SYB.Instances",
           "name": "nameTc",
           "package": "ghc-syb",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:26 UTC 2014",
           "module": "GHC.SYB.Instances",
           "name": "occNameTc",
           "package": "ghc-syb",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "GHC SYB Instances",
+          "indexed": "2014-03-11T18:16:26",
           "module": "GHC.SYB.Instances",
           "name": "occNameTc",
           "package": "ghc-syb",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:26 UTC 2014",
           "module": "GHC.SYB.Instances",
           "name": "srcSpanTc",
           "package": "ghc-syb",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "GHC SYB Instances",
+          "indexed": "2014-03-11T18:16:26",
           "module": "GHC.SYB.Instances",
           "name": "srcSpanTc",
           "package": "ghc-syb",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:26 UTC 2014",
           "module": "GHC.SYB.Instances",
           "name": "tyConTc",
           "package": "ghc-syb",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "GHC SYB Instances",
+          "indexed": "2014-03-11T18:16:26",
           "module": "GHC.SYB.Instances",
           "name": "tyConTc",
           "package": "ghc-syb",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:26 UTC 2014",
           "module": "GHC.SYB.Instances",
           "name": "varTc",
           "package": "ghc-syb",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "GHC SYB Instances",
+          "indexed": "2014-03-11T18:16:26",
           "module": "GHC.SYB.Instances",
           "name": "varTc",
           "package": "ghc-syb",

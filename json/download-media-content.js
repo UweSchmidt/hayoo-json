@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "download-media-content"
+        "phrase": "download-media-content",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "debian"
+        "phrase": "debian",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "Dependencies",
           "package": "debian",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "Dependencies",
           "package": "debian",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "CSP",
           "package": "debian",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "CSP",
           "package": "debian",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econflicting packages and relations that require non-existant packages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "ConflictSet",
           "package": "debian",
@@ -70,6 +75,7 @@
         "index": {
           "description": "conflicting packages and relations that require non-existant packages",
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "ConflictSet",
           "package": "debian",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "Labeler",
           "package": "debian",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "Labeler",
           "package": "debian",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "State",
           "package": "debian",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "State",
           "package": "debian",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "Status",
           "package": "debian",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "Status",
           "package": "debian",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "CSP",
           "package": "debian",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "CSP",
           "package": "debian",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "Complete",
           "package": "debian",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "Complete",
           "package": "debian",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "MissingDep",
           "package": "debian",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "MissingDep",
           "package": "debian",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "Remaining",
           "package": "debian",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "Remaining",
           "package": "debian",
@@ -235,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebj - backjumping labeler\n\u003c/p\u003e\u003cp\u003eIf the node already has a conflict set, then leave it alone.\n\u003c/p\u003e\u003cp\u003eOtherwise, the conflictset for the node is the combination of the\nconflict sets of its direct children.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "bj",
           "package": "debian",
@@ -245,6 +266,7 @@
         "index": {
           "description": "bj backjumping labeler If the node already has conflict set then leave it alone Otherwise the conflictset for the node is the combination of the conflict sets of its direct children",
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "bj",
           "normalized": "CSP a-\u003eTree(State a,ConflictSet)-\u003eTree(State a,ConflictSet)",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "bt",
           "package": "debian",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "bt",
           "package": "debian",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "combine",
           "package": "debian",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "combine",
           "normalized": "CSP a-\u003e[(State a,ConflictSet)]-\u003e[ConflictSet]-\u003eConflictSet",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "complete",
           "package": "debian",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "complete",
           "normalized": "State a-\u003eBool",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "conflict",
           "package": "debian",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "conflict",
           "normalized": "CSP a-\u003ea-\u003ea-\u003eBool",
@@ -350,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJAS: deal with \u003ccode\u003eProvides\u003c/code\u003e (can a package provide more than one package?)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "conflict'",
           "package": "debian",
@@ -360,6 +391,7 @@
         "index": {
           "description": "JAS deal with Provides can package provide more than one package",
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "conflict'",
           "normalized": "(BinPkgName,DebianVersion)-\u003eRelation-\u003eBool",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "conflicts",
           "package": "debian",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "conflicts",
           "normalized": "a-\u003eRelations",
@@ -398,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTODO addProvides -- see DQL.Exec\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "controlCSP",
           "package": "debian",
@@ -408,6 +443,7 @@
         "index": {
           "description": "TODO addProvides see DQL.Exec",
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "controlCSP",
           "normalized": "Control-\u003eRelations-\u003e(Paragraph-\u003eRelations)-\u003eCSP Paragraph",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "depF",
           "package": "debian",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "depF",
           "normalized": "Paragraph-\u003eRelations",
@@ -446,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "depFunction",
           "package": "debian",
@@ -455,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "depFunction",
           "normalized": "a-\u003eRelations",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "distrTree",
           "package": "debian",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "distrTree",
           "normalized": "(a-\u003e[b])-\u003eb-\u003eTree a-\u003eTree b",
@@ -495,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eearliestInconsistency does what it sounds like\n the 'reverse as' is because the vars are order high to low, but we\n want to find the lowest numbered (aka, eariest) inconsistency ??\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "earliestInconsistency",
           "package": "debian",
@@ -505,6 +548,7 @@
         "index": {
           "description": "earliestInconsistency does what it sounds like the reverse as is because the vars are order high to low but we want to find the lowest numbered aka eariest inconsistency",
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "earliestInconsistency",
           "normalized": "CSP a-\u003eState a-\u003eMaybe((BinPkgName,DebianVersion),(BinPkgName,DebianVersion))",
@@ -520,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "foldTree",
           "package": "debian",
@@ -529,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "foldTree",
           "normalized": "(a-\u003e[b]-\u003eb)-\u003eTree a-\u003eb",
@@ -544,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "gutsyPackages",
           "package": "debian",
@@ -553,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "gutsyPackages",
           "normalized": "[Char]",
@@ -568,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "inhTree",
           "package": "debian",
@@ -577,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "inhTree",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eTree b-\u003eTree a",
@@ -592,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "initTree",
           "package": "debian",
@@ -601,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "initTree",
           "normalized": "(a-\u003e[a])-\u003ea-\u003eTree a",
@@ -616,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "isConflict",
           "package": "debian",
@@ -625,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "isConflict",
           "normalized": "ConflictSet-\u003eBool",
@@ -640,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "label",
           "package": "debian",
@@ -649,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "label",
           "normalized": "Tree a-\u003ea",
@@ -663,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "leaves",
           "package": "debian",
@@ -672,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "leaves",
           "normalized": "Tree a-\u003e[a]",
@@ -686,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "mapTree",
           "package": "debian",
@@ -695,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "mapTree",
           "normalized": "(a-\u003eb)-\u003eTree a-\u003eTree b",
@@ -710,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "mkSearchTree",
           "package": "debian",
@@ -719,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "mkSearchTree",
           "normalized": "a b CSP c-\u003eTree(State c)",
@@ -734,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "mkTree",
           "package": "debian",
@@ -743,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "mkTree",
           "normalized": "a-\u003e[Tree a]-\u003eTree a",
@@ -758,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "packageVersion",
           "package": "debian",
@@ -767,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "packageVersion",
           "normalized": "a-\u003e(BinPkgName,DebianVersion)",
@@ -782,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "packageVersionParagraph",
           "package": "debian",
@@ -791,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "packageVersionParagraph",
           "normalized": "Paragraph-\u003e(BinPkgName,DebianVersion)",
@@ -806,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "pnm",
           "package": "debian",
@@ -815,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "pnm",
           "package": "debian",
@@ -827,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "prune",
           "package": "debian",
@@ -836,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "prune",
           "normalized": "(a-\u003eBool)-\u003eTree a-\u003eTree a",
@@ -850,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "relations",
           "package": "debian",
@@ -859,6 +932,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "relations",
           "package": "debian",
@@ -871,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "search",
           "package": "debian",
@@ -880,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "search",
           "normalized": "Labeler a-\u003eCSP a-\u003e[State a]",
@@ -894,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "sidPackages",
           "package": "debian",
@@ -903,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "sidPackages",
           "normalized": "[Char]",
@@ -918,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "solutions",
           "package": "debian",
@@ -927,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "solutions",
           "normalized": "Tree(State a,ConflictSet)-\u003e[State a]",
@@ -941,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "test",
           "package": "debian",
@@ -950,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "test",
           "normalized": "FilePath-\u003eString-\u003eLabeler Paragraph-\u003eIO()",
@@ -964,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "testCSP",
           "package": "debian",
@@ -973,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "testCSP",
           "normalized": "FilePath-\u003e(Paragraph-\u003eRelations)-\u003eString-\u003e(CSP Paragraph-\u003eIO a)-\u003eIO a",
@@ -988,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "unionCS",
           "package": "debian",
@@ -997,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "unionCS",
           "normalized": "[ConflictSet]-\u003eConflictSet",
@@ -1012,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Dependencies",
           "name": "zipTreesWith",
           "package": "debian",
@@ -1021,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Dependencies",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Dependencies",
           "name": "zipTreesWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eTree a-\u003eTree b-\u003eTree c",
@@ -1036,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Index",
           "name": "Index",
           "package": "debian",
@@ -1044,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Index",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Index",
           "name": "Index",
           "package": "debian",
@@ -1057,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Index",
           "name": "CheckSums",
           "package": "debian",
@@ -1065,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Index",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Index",
           "name": "CheckSums",
           "package": "debian",
@@ -1079,6 +1171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePackage indexes on the server are uncompressed or compressed with\n gzip or bzip2. We do not know what will exist on the server until we\n actually look. This type is used to mark the compression status of\n what was actually found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Index",
           "name": "Compression",
           "package": "debian",
@@ -1088,6 +1181,7 @@
         "index": {
           "description": "Package indexes on the server are uncompressed or compressed with gzip or bzip2 We do not know what will exist on the server until we actually look This type is used to mark the compression status of what was actually found",
           "hierarchy": "Debian Apt Index",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Index",
           "name": "Compression",
           "package": "debian",
@@ -1102,6 +1196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction-type for a function that downloads a file\n The timestamp is optional. If the local file is as new or newer\n than the remote copy, the download may be skipped.\n\u003c/p\u003e\u003cp\u003eA good choice might be a partially parameterized call to\n \u003ccode\u003e\u003ca\u003efetch\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Index",
           "name": "Fetcher",
           "package": "debian",
@@ -1111,6 +1206,7 @@
         "index": {
           "description": "function-type for function that downloads file The timestamp is optional If the local file is as new or newer than the remote copy the download may be skipped good choice might be partially parameterized call to fetch",
           "hierarchy": "Debian Apt Index",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Index",
           "name": "Fetcher",
           "package": "debian",
@@ -1124,6 +1220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Index",
           "name": "FileTuple",
           "package": "debian",
@@ -1132,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Index",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Index",
           "name": "FileTuple",
           "package": "debian",
@@ -1145,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Index",
           "name": "Size",
           "package": "debian",
@@ -1153,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Index",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Index",
           "name": "Size",
           "package": "debian",
@@ -1166,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Index",
           "name": "BZ2",
           "package": "debian",
@@ -1175,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Index",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Index",
           "name": "BZ2",
           "package": "debian",
@@ -1188,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Index",
           "name": "CheckSums",
           "package": "debian",
@@ -1197,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Index",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Index",
           "name": "CheckSums",
           "package": "debian",
@@ -1210,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Index",
           "name": "GZ",
           "package": "debian",
@@ -1219,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Index",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Index",
           "name": "GZ",
           "package": "debian",
@@ -1232,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Index",
           "name": "Uncompressed",
           "package": "debian",
@@ -1241,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Index",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Index",
           "name": "Uncompressed",
           "package": "debian",
@@ -1255,6 +1363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a possibly compressed index file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Index",
           "name": "controlFromIndex",
           "package": "debian",
@@ -1265,6 +1374,7 @@
         "index": {
           "description": "Parse possibly compressed index file",
           "hierarchy": "Debian Apt Index",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Index",
           "name": "controlFromIndex",
           "normalized": "Compression-\u003eFilePath-\u003eByteString-\u003eEither ParseError(Control' Text)",
@@ -1281,6 +1391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse an index possibly compressed file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Index",
           "name": "controlFromIndex'",
           "package": "debian",
@@ -1291,6 +1402,7 @@
         "index": {
           "description": "parse an index possibly compressed file",
           "hierarchy": "Debian Apt Index",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Index",
           "name": "controlFromIndex'",
           "normalized": "Compression-\u003eFilePath-\u003eIO(Either ParseError(Control' Text))",
@@ -1307,6 +1419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efind the Contents-* files. These are not listed in the Release file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Index",
           "name": "findContentsFiles",
           "package": "debian",
@@ -1317,6 +1430,7 @@
         "index": {
           "description": "find the Contents files These are not listed in the Release file",
           "hierarchy": "Debian Apt Index",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Index",
           "name": "findContentsFiles",
           "normalized": "(FilePath-\u003eBool)-\u003eFilePath-\u003eIO[FilePath]",
@@ -1332,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Index",
           "name": "findIndexes",
           "package": "debian",
@@ -1341,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Index",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Index",
           "name": "findIndexes",
           "normalized": "FilePath-\u003eString-\u003e[FileTuple]-\u003eIO[(FileTuple,Compression)]",
@@ -1356,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Index",
           "name": "indexesInRelease",
           "package": "debian",
@@ -1364,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Index",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Index",
           "name": "indexesInRelease",
           "normalized": "(FilePath-\u003eBool)-\u003eControl' Text-\u003e[(CheckSums,Integer,FilePath)]",
@@ -1379,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Index",
           "name": "md5sum",
           "package": "debian",
@@ -1388,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Index",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Index",
           "name": "md5sum",
           "package": "debian",
@@ -1400,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Index",
           "name": "sha1",
           "package": "debian",
@@ -1409,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Index",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Index",
           "name": "sha1",
           "package": "debian",
@@ -1421,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Index",
           "name": "sha256",
           "package": "debian",
@@ -1430,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Index",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Index",
           "name": "sha256",
           "package": "debian",
@@ -1443,6 +1567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a FileTuple for a file found on the local disk\n returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the file does not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Index",
           "name": "tupleFromFilePath",
           "package": "debian",
@@ -1453,6 +1578,7 @@
         "index": {
           "description": "make FileTuple for file found on the local disk returns Nothing if the file does not exist",
           "hierarchy": "Debian Apt Index",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Index",
           "name": "tupleFromFilePath",
           "normalized": "FilePath-\u003eFilePath-\u003eIO(Maybe FileTuple)",
@@ -1469,6 +1595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate - similar to apt-get update\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Index",
           "name": "update",
           "package": "debian",
@@ -1478,6 +1605,7 @@
         "index": {
           "description": "update similar to apt-get update",
           "hierarchy": "Debian Apt Index",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Index",
           "name": "update",
           "normalized": "Fetcher-\u003eFilePath-\u003eString-\u003e[DebSource]-\u003eIO[Maybe(FilePath,Compression)]",
@@ -1493,6 +1621,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ean interface for using the methods in \u003cem\u003evar\u003c/em\u003elib\u003cem\u003eapt\u003c/em\u003emethods\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "Methods",
           "package": "debian",
@@ -1502,6 +1631,7 @@
         "index": {
           "description": "an interface for using the methods in var lib apt methods",
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "Methods",
           "package": "debian",
@@ -1515,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "Command",
           "package": "debian",
@@ -1523,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "Command",
           "package": "debian",
@@ -1536,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "ConfigItem",
           "package": "debian",
@@ -1544,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "ConfigItem",
           "package": "debian",
@@ -1557,6 +1691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "Drive",
           "package": "debian",
@@ -1565,6 +1700,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "Drive",
           "package": "debian",
@@ -1578,6 +1714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "FetchCallbacks",
           "package": "debian",
@@ -1586,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "FetchCallbacks",
           "package": "debian",
@@ -1599,6 +1737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "Header",
           "package": "debian",
@@ -1607,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "Header",
           "package": "debian",
@@ -1620,6 +1760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "Media",
           "package": "debian",
@@ -1628,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "Media",
           "package": "debian",
@@ -1641,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "Message",
           "package": "debian",
@@ -1649,6 +1792,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "Message",
           "package": "debian",
@@ -1662,6 +1806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "Password",
           "package": "debian",
@@ -1670,6 +1815,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "Password",
           "package": "debian",
@@ -1683,6 +1829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "Site",
           "package": "debian",
@@ -1691,6 +1838,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "Site",
           "package": "debian",
@@ -1704,6 +1852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "Status",
           "package": "debian",
@@ -1712,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "Status",
           "package": "debian",
@@ -1725,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "User",
           "package": "debian",
@@ -1733,6 +1884,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "User",
           "package": "debian",
@@ -1746,6 +1898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "AuthorizationCredentials",
           "package": "debian",
@@ -1755,6 +1908,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "AuthorizationCredentials",
           "package": "debian",
@@ -1768,6 +1922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "AuthorizationRequired",
           "package": "debian",
@@ -1777,6 +1932,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "AuthorizationRequired",
           "package": "debian",
@@ -1790,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "Capabilities",
           "package": "debian",
@@ -1799,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "Capabilities",
           "package": "debian",
@@ -1812,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "Configuration",
           "package": "debian",
@@ -1821,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "Configuration",
           "normalized": "Configuration[ConfigItem]",
@@ -1836,6 +1996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "FetchCallbacks",
           "package": "debian",
@@ -1845,6 +2006,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "FetchCallbacks",
           "package": "debian",
@@ -1858,6 +2020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "GeneralFailure",
           "package": "debian",
@@ -1867,6 +2030,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "GeneralFailure",
           "package": "debian",
@@ -1880,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "LogMsg",
           "package": "debian",
@@ -1889,6 +2054,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "LogMsg",
           "package": "debian",
@@ -1902,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "MediaChanged",
           "package": "debian",
@@ -1911,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "MediaChanged",
           "package": "debian",
@@ -1924,6 +2092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "MediaFailure",
           "package": "debian",
@@ -1933,6 +2102,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "MediaFailure",
           "package": "debian",
@@ -1946,6 +2116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "Status",
           "package": "debian",
@@ -1955,6 +2126,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "Status",
           "package": "debian",
@@ -1968,6 +2140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "URIAcquire",
           "package": "debian",
@@ -1977,6 +2150,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "URIAcquire",
           "package": "debian",
@@ -1990,6 +2164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "URIDone",
           "package": "debian",
@@ -1999,6 +2174,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "URIDone",
           "package": "debian",
@@ -2012,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "URIFailure",
           "package": "debian",
@@ -2021,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "URIFailure",
           "package": "debian",
@@ -2034,6 +2212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "URIStart",
           "package": "debian",
@@ -2043,6 +2222,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "URIStart",
           "package": "debian",
@@ -2056,6 +2236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "authorizationRequiredCB",
           "package": "debian",
@@ -2065,6 +2246,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "authorizationRequiredCB",
           "normalized": "Site-\u003eIO(Maybe(User,Password))",
@@ -2080,6 +2262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "cliFetchCallbacks",
           "package": "debian",
@@ -2089,6 +2272,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "cliFetchCallbacks",
           "package": "debian",
@@ -2102,6 +2286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "closeMethod",
           "package": "debian",
@@ -2111,6 +2296,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "closeMethod",
           "normalized": "MethodHandle-\u003eIO ExitCode",
@@ -2126,6 +2312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "debugCB",
           "package": "debian",
@@ -2135,6 +2322,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "debugCB",
           "normalized": "String-\u003eIO()",
@@ -2151,6 +2339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset of callbacks which do nothing.\n suitable for non-interactive usage. In the case authorization is\n required, no credentials will be supplied and the download should\n abort.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "emptyFetchCallbacks",
           "package": "debian",
@@ -2161,6 +2350,7 @@
         "index": {
           "description": "set of callbacks which do nothing suitable for non-interactive usage In the case authorization is required no credentials will be supplied and the download should abort",
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "emptyFetchCallbacks",
           "package": "debian",
@@ -2175,6 +2365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efetch a single item, show console output\n see also: getLastModified\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "fetch",
           "package": "debian",
@@ -2185,6 +2376,7 @@
         "index": {
           "description": "fetch single item show console output see also getLastModified",
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "fetch",
           "normalized": "FetchCallbacks-\u003e[ConfigItem]-\u003eURI-\u003eFilePath-\u003eMaybe UTCTime-\u003eIO Bool",
@@ -2199,6 +2391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "filename",
           "package": "debian",
@@ -2208,6 +2401,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "filename",
           "package": "debian",
@@ -2220,6 +2414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "generalFailureCB",
           "package": "debian",
@@ -2229,6 +2424,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "generalFailureCB",
           "normalized": "Message-\u003eIO()",
@@ -2244,6 +2440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "getLastModified",
           "package": "debian",
@@ -2253,6 +2450,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "getLastModified",
           "normalized": "FilePath-\u003eIO(Maybe UTCTime)",
@@ -2268,6 +2466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "hashes",
           "package": "debian",
@@ -2277,6 +2476,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "hashes",
           "package": "debian",
@@ -2289,6 +2489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "imsHit",
           "package": "debian",
@@ -2298,6 +2499,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "imsHit",
           "package": "debian",
@@ -2311,6 +2513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "lastModified",
           "package": "debian",
@@ -2320,6 +2523,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "lastModified",
           "package": "debian",
@@ -2333,6 +2537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "localOnly",
           "package": "debian",
@@ -2342,6 +2547,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "localOnly",
           "package": "debian",
@@ -2355,6 +2561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "logCB",
           "package": "debian",
@@ -2364,6 +2571,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "logCB",
           "normalized": "Message-\u003eIO()",
@@ -2379,6 +2587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "mediaFailureCB",
           "package": "debian",
@@ -2388,6 +2597,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "mediaFailureCB",
           "normalized": "Media-\u003eDrive-\u003eIO()",
@@ -2403,6 +2613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "message",
           "package": "debian",
@@ -2412,6 +2623,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "message",
           "package": "debian",
@@ -2424,6 +2636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "needsCleanup",
           "package": "debian",
@@ -2433,6 +2646,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "needsCleanup",
           "package": "debian",
@@ -2446,6 +2660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "openMethod",
           "package": "debian",
@@ -2455,6 +2670,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "openMethod",
           "normalized": "FilePath-\u003eIO MethodHandle",
@@ -2470,6 +2686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "pipeline",
           "package": "debian",
@@ -2479,6 +2696,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "pipeline",
           "package": "debian",
@@ -2491,6 +2709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "preScan",
           "package": "debian",
@@ -2500,6 +2719,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "preScan",
           "package": "debian",
@@ -2513,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "recvStatus",
           "package": "debian",
@@ -2522,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "recvStatus",
           "normalized": "MethodHandle-\u003eIO Status",
@@ -2537,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "resumePoint",
           "package": "debian",
@@ -2546,6 +2769,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "resumePoint",
           "package": "debian",
@@ -2559,6 +2783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "sendCommand",
           "package": "debian",
@@ -2568,6 +2793,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "sendCommand",
           "normalized": "MethodHandle-\u003eCommand-\u003eIO()",
@@ -2583,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "sendConfig",
           "package": "debian",
@@ -2592,6 +2819,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "sendConfig",
           "package": "debian",
@@ -2605,6 +2833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "simpleFetch",
           "package": "debian",
@@ -2614,6 +2843,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "simpleFetch",
           "normalized": "[ConfigItem]-\u003eURI-\u003eFilePath-\u003eMaybe UTCTime-\u003eIO Bool",
@@ -2629,6 +2859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "singleInstance",
           "package": "debian",
@@ -2638,6 +2869,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "singleInstance",
           "package": "debian",
@@ -2651,6 +2883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "size",
           "package": "debian",
@@ -2660,6 +2893,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "size",
           "package": "debian",
@@ -2672,6 +2906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "statusCB",
           "package": "debian",
@@ -2681,6 +2916,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "statusCB",
           "normalized": "URI-\u003eMessage-\u003eIO()",
@@ -2696,6 +2932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "uri",
           "package": "debian",
@@ -2705,6 +2942,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "uri",
           "package": "debian",
@@ -2717,6 +2955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "uriDoneCB",
           "package": "debian",
@@ -2726,6 +2965,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "uriDoneCB",
           "normalized": "URI-\u003eMaybe Integer-\u003eMaybe UTCTime-\u003eMaybe Integer-\u003eMaybe FilePath-\u003eHashes-\u003eBool-\u003eIO()",
@@ -2741,6 +2981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "uriFailureCB",
           "package": "debian",
@@ -2750,6 +2991,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "uriFailureCB",
           "normalized": "URI-\u003eMessage-\u003eIO()",
@@ -2765,6 +3007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "uriStartCB",
           "package": "debian",
@@ -2774,6 +3017,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "uriStartCB",
           "normalized": "URI-\u003eMaybe Integer-\u003eMaybe UTCTime-\u003eMaybe Integer-\u003eIO()",
@@ -2789,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "version",
           "package": "debian",
@@ -2798,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "version",
           "package": "debian",
@@ -2811,6 +3057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhichMethodBinary - find the method executable associated with a URI\n throws an exception on failure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "whichMethodPath",
           "package": "debian",
@@ -2821,6 +3068,7 @@
         "index": {
           "description": "whichMethodBinary find the method executable associated with URI throws an exception on failure",
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "whichMethodPath",
           "normalized": "URI-\u003eIO(Maybe FilePath)",
@@ -2837,6 +3085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewithMethod - run |methodPath| bracketed with\n openMethod/closeMethod. |f| gets the open handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "withMethodPath",
           "package": "debian",
@@ -2847,6 +3096,7 @@
         "index": {
           "description": "withMethod run methodPath bracketed with openMethod closeMethod gets the open handle",
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "withMethodPath",
           "normalized": "FilePath-\u003e(MethodHandle-\u003eIO a)-\u003eIO a",
@@ -2862,6 +3112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Methods",
           "name": "withMethodURI",
           "package": "debian",
@@ -2871,6 +3122,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Methods",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Methods",
           "name": "withMethodURI",
           "normalized": "URI-\u003e(MethodHandle-\u003eIO a)-\u003eIO a",
@@ -2887,6 +3139,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for dealing with source and binary packages in an abstract-way\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Package",
           "name": "Package",
           "package": "debian",
@@ -2896,6 +3149,7 @@
         "index": {
           "description": "Functions for dealing with source and binary packages in an abstract-way",
           "hierarchy": "Debian Apt Package",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Package",
           "name": "Package",
           "package": "debian",
@@ -2909,6 +3163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Package",
           "name": "PackageNameMap",
           "package": "debian",
@@ -2917,6 +3172,7 @@
         },
         "index": {
           "hierarchy": "Debian Apt Package",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Package",
           "name": "PackageNameMap",
           "package": "debian",
@@ -2931,6 +3187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eaddProvides\u003c/a\u003e\u003c/code\u003e finds packages that Provide other packages and adds\n them to the PackageNameMap. They will be adde to the end of the\n list, so that real packages have 'higher priority' than virtual\n packages.\n NOTE: Does not check for duplication or multiple use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Package",
           "name": "addProvides",
           "package": "debian",
@@ -2941,6 +3198,7 @@
         "index": {
           "description": "addProvides finds packages that Provide other packages and adds them to the PackageNameMap They will be adde to the end of the list so that real packages have higher priority than virtual packages NOTE Does not check for duplication or multiple use",
           "hierarchy": "Debian Apt Package",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Package",
           "name": "addProvides",
           "normalized": "(a-\u003e[BinPkgName])-\u003e[a]-\u003ePackageNameMap a-\u003ePackageNameMap a",
@@ -2957,6 +3215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efindProvides\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Package",
           "name": "findProvides",
           "package": "debian",
@@ -2967,6 +3226,7 @@
         "index": {
           "description": "findProvides",
           "hierarchy": "Debian Apt Package",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Package",
           "name": "findProvides",
           "normalized": "a b(c-\u003e[BinPkgName])-\u003e[c]-\u003e[(BinPkgName,c)]",
@@ -2983,6 +3243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003elookupPackageByRel\u003c/a\u003e\u003c/code\u003e returns all the packages that satisfy the specified relation\n TODO: Add architecture check\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Package",
           "name": "lookupPackageByRel",
           "package": "debian",
@@ -2993,6 +3254,7 @@
         "index": {
           "description": "lookupPackageByRel returns all the packages that satisfy the specified relation TODO Add architecture check",
           "hierarchy": "Debian Apt Package",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Package",
           "name": "lookupPackageByRel",
           "normalized": "PackageNameMap a-\u003e(a-\u003e(BinPkgName,DebianVersion))-\u003eRelation-\u003e[a]",
@@ -3009,6 +3271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003epackageNameMap\u003c/a\u003e\u003c/code\u003e creates a map from a package name to all the versions of that package\n NOTE: Provides are not included in the map\n NOTE: the sort order is random -- this is perhaps a bug\n see also: \u003ccode\u003e\u003ca\u003eaddProvides\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Apt.Package",
           "name": "packageNameMap",
           "package": "debian",
@@ -3019,6 +3282,7 @@
         "index": {
           "description": "packageNameMap creates map from package name to all the versions of that package NOTE Provides are not included in the map NOTE the sort order is random this is perhaps bug see also addProvides",
           "hierarchy": "Debian Apt Package",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Apt.Package",
           "name": "packageNameMap",
           "normalized": "(a-\u003eBinPkgName)-\u003e[a]-\u003ePackageNameMap a",
@@ -3034,6 +3298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Arch",
           "name": "Arch",
           "package": "debian",
@@ -3042,6 +3307,7 @@
         },
         "index": {
           "hierarchy": "Debian Arch",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Arch",
           "name": "Arch",
           "package": "debian",
@@ -3055,6 +3321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Arch",
           "name": "Arch",
           "package": "debian",
@@ -3063,6 +3330,7 @@
         },
         "index": {
           "hierarchy": "Debian Arch",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Arch",
           "name": "Arch",
           "package": "debian",
@@ -3076,6 +3344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Arch",
           "name": "ArchCPU",
           "package": "debian",
@@ -3084,6 +3353,7 @@
         },
         "index": {
           "hierarchy": "Debian Arch",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Arch",
           "name": "ArchCPU",
           "package": "debian",
@@ -3097,6 +3367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Arch",
           "name": "ArchOS",
           "package": "debian",
@@ -3105,6 +3376,7 @@
         },
         "index": {
           "hierarchy": "Debian Arch",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Arch",
           "name": "ArchOS",
           "package": "debian",
@@ -3279,6 +3551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Arch",
           "name": "parseArch",
           "package": "debian",
@@ -3288,6 +3561,7 @@
         },
         "index": {
           "hierarchy": "Debian Arch",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Arch",
           "name": "parseArch",
           "normalized": "String-\u003eArch",
@@ -3303,6 +3577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Arch",
           "name": "prettyArch",
           "package": "debian",
@@ -3312,6 +3587,7 @@
         },
         "index": {
           "hierarchy": "Debian Arch",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Arch",
           "name": "prettyArch",
           "normalized": "Arch-\u003eDoc",
@@ -3328,6 +3604,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eChangelog and changes file support.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "Changes",
           "package": "debian",
@@ -3337,6 +3614,7 @@
         "index": {
           "description": "Changelog and changes file support",
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "Changes",
           "package": "debian",
@@ -3350,6 +3628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "ChangeLog",
           "package": "debian",
@@ -3358,6 +3637,7 @@
         },
         "index": {
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "ChangeLog",
           "package": "debian",
@@ -3372,6 +3652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA changelog is a series of ChangeLogEntries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "ChangeLogEntry",
           "package": "debian",
@@ -3381,6 +3662,7 @@
         "index": {
           "description": "changelog is series of ChangeLogEntries",
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "ChangeLogEntry",
           "package": "debian",
@@ -3395,6 +3677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn entry in the list of files generated by the build.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "ChangedFileSpec",
           "package": "debian",
@@ -3404,6 +3687,7 @@
         "index": {
           "description": "An entry in the list of files generated by the build",
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "ChangedFileSpec",
           "package": "debian",
@@ -3418,6 +3702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file generated by dpkg-buildpackage describing the result of a\n package build\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "ChangesFile",
           "package": "debian",
@@ -3427,6 +3712,7 @@
         "index": {
           "description": "file generated by dpkg-buildpackage describing the result of package build",
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "ChangesFile",
           "package": "debian",
@@ -3440,6 +3726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "ChangeLog",
           "package": "debian",
@@ -3449,6 +3736,7 @@
         },
         "index": {
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "ChangeLog",
           "normalized": "ChangeLog[ChangeLogEntry]",
@@ -3464,6 +3752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "ChangedFileSpec",
           "package": "debian",
@@ -3473,6 +3762,7 @@
         },
         "index": {
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "ChangedFileSpec",
           "package": "debian",
@@ -3486,6 +3776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "Changes",
           "package": "debian",
@@ -3495,6 +3786,7 @@
         },
         "index": {
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "Changes",
           "package": "debian",
@@ -3508,6 +3800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "Entry",
           "package": "debian",
@@ -3517,6 +3810,7 @@
         },
         "index": {
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "Entry",
           "package": "debian",
@@ -3531,6 +3825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parser here never returns this\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "WhiteSpace",
           "package": "debian",
@@ -3541,6 +3836,7 @@
         "index": {
           "description": "The parser here never returns this",
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "WhiteSpace",
           "package": "debian",
@@ -3555,6 +3851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe architecture parsed from the .changes file name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "changeArch",
           "package": "debian",
@@ -3565,6 +3862,7 @@
         "index": {
           "description": "The architecture parsed from the changes file name",
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "changeArch",
           "package": "debian",
@@ -3579,6 +3877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe full pathname of the directory holding the .changes file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "changeDir",
           "package": "debian",
@@ -3589,6 +3888,7 @@
         "index": {
           "description": "The full pathname of the directory holding the changes file",
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "changeDir",
           "package": "debian",
@@ -3603,6 +3903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe value of the Changes field of the .changes file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "changeEntry",
           "package": "debian",
@@ -3613,6 +3914,7 @@
         "index": {
           "description": "The value of the Changes field of the changes file",
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "changeEntry",
           "package": "debian",
@@ -3627,6 +3929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parsed value of the Files attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "changeFiles",
           "package": "debian",
@@ -3637,6 +3940,7 @@
         "index": {
           "description": "The parsed value of the Files attribute",
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "changeFiles",
           "normalized": "[ChangedFileSpec]",
@@ -3653,6 +3957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe contents of the .changes file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "changeInfo",
           "package": "debian",
@@ -3663,6 +3968,7 @@
         "index": {
           "description": "The contents of the changes file",
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "changeInfo",
           "package": "debian",
@@ -3677,6 +3983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe package name parsed from the .changes file name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "changePackage",
           "package": "debian",
@@ -3687,6 +3994,7 @@
         "index": {
           "description": "The package name parsed from the changes file name",
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "changePackage",
           "package": "debian",
@@ -3701,6 +4009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Distribution field of the .changes file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "changeRelease",
           "package": "debian",
@@ -3711,6 +4020,7 @@
         "index": {
           "description": "The Distribution field of the changes file",
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "changeRelease",
           "package": "debian",
@@ -3725,6 +4035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe version number parsed from the .changes file name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "changeVersion",
           "package": "debian",
@@ -3735,6 +4046,7 @@
         "index": {
           "description": "The version number parsed from the changes file name",
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "changeVersion",
           "package": "debian",
@@ -3748,6 +4060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "changedFileMD5sum",
           "package": "debian",
@@ -3757,6 +4070,7 @@
         },
         "index": {
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "changedFileMD5sum",
           "package": "debian",
@@ -3770,6 +4084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "changedFileName",
           "package": "debian",
@@ -3779,6 +4094,7 @@
         },
         "index": {
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "changedFileName",
           "package": "debian",
@@ -3792,6 +4108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "changedFilePriority",
           "package": "debian",
@@ -3801,6 +4118,7 @@
         },
         "index": {
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "changedFilePriority",
           "package": "debian",
@@ -3814,6 +4132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "changedFileSHA1sum",
           "package": "debian",
@@ -3823,6 +4142,7 @@
         },
         "index": {
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "changedFileSHA1sum",
           "package": "debian",
@@ -3836,6 +4156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "changedFileSHA256sum",
           "package": "debian",
@@ -3845,6 +4166,7 @@
         },
         "index": {
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "changedFileSHA256sum",
           "package": "debian",
@@ -3858,6 +4180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "changedFileSection",
           "package": "debian",
@@ -3867,6 +4190,7 @@
         },
         "index": {
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "changedFileSection",
           "package": "debian",
@@ -3880,6 +4204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "changedFileSize",
           "package": "debian",
@@ -3889,6 +4214,7 @@
         },
         "index": {
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "changedFileSize",
           "package": "debian",
@@ -3902,6 +4228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "changesFileName",
           "package": "debian",
@@ -3911,6 +4238,7 @@
         },
         "index": {
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "changesFileName",
           "normalized": "ChangesFile-\u003eString",
@@ -3926,6 +4254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "logComments",
           "package": "debian",
@@ -3935,6 +4264,7 @@
         },
         "index": {
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "logComments",
           "package": "debian",
@@ -3948,6 +4278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "logDate",
           "package": "debian",
@@ -3957,6 +4288,7 @@
         },
         "index": {
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "logDate",
           "package": "debian",
@@ -3970,6 +4302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "logDists",
           "package": "debian",
@@ -3979,6 +4312,7 @@
         },
         "index": {
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "logDists",
           "normalized": "[ReleaseName]",
@@ -3994,6 +4328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "logPackage",
           "package": "debian",
@@ -4003,6 +4338,7 @@
         },
         "index": {
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "logPackage",
           "package": "debian",
@@ -4016,6 +4352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "logUrgency",
           "package": "debian",
@@ -4025,6 +4362,7 @@
         },
         "index": {
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "logUrgency",
           "package": "debian",
@@ -4038,6 +4376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "logVersion",
           "package": "debian",
@@ -4047,6 +4386,7 @@
         },
         "index": {
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "logVersion",
           "package": "debian",
@@ -4060,6 +4400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "logWho",
           "package": "debian",
@@ -4069,6 +4410,7 @@
         },
         "index": {
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "logWho",
           "package": "debian",
@@ -4083,6 +4425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the entries of a debian changelog and verify they are all\n valid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "parseChangeLog",
           "package": "debian",
@@ -4093,6 +4436,7 @@
         "index": {
           "description": "Parse the entries of debian changelog and verify they are all valid",
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "parseChangeLog",
           "normalized": "String-\u003eChangeLog",
@@ -4109,6 +4453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the changelog information that shows up in the .changes\n file, i.e. a changelog entry with no signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "parseChanges",
           "package": "debian",
@@ -4119,6 +4464,7 @@
         "index": {
           "description": "Parse the changelog information that shows up in the changes file i.e changelog entry with no signature",
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "parseChanges",
           "normalized": "Text-\u003eMaybe ChangeLogEntry",
@@ -4135,6 +4481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a Debian Changelog and return a lazy list of entries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "parseEntries",
           "package": "debian",
@@ -4145,6 +4492,7 @@
         "index": {
           "description": "Parse Debian Changelog and return lazy list of entries",
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "parseEntries",
           "normalized": "String-\u003e[Either[String]ChangeLogEntry]",
@@ -4161,6 +4509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a single changelog entry, returning the entry and the remaining text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Changes",
           "name": "parseEntry",
           "package": "debian",
@@ -4171,6 +4520,7 @@
         "index": {
           "description": "Parse single changelog entry returning the entry and the remaining text",
           "hierarchy": "Debian Changes",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Changes",
           "name": "parseEntry",
           "normalized": "String-\u003eEither[String](ChangeLogEntry,String)",
@@ -4186,6 +4536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.ByteString",
           "name": "ByteString",
           "package": "debian",
@@ -4194,6 +4545,7 @@
         },
         "index": {
           "hierarchy": "Debian Control ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.ByteString",
           "name": "ByteString",
           "package": "debian",
@@ -4207,6 +4559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.ByteString",
           "name": "Control",
           "package": "debian",
@@ -4215,6 +4568,7 @@
         },
         "index": {
           "hierarchy": "Debian Control ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.ByteString",
           "name": "Control",
           "package": "debian",
@@ -4228,6 +4582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.ByteString",
           "name": "Control'",
           "package": "debian",
@@ -4236,6 +4591,7 @@
         },
         "index": {
           "hierarchy": "Debian Control ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.ByteString",
           "name": "Control'",
           "package": "debian",
@@ -4249,6 +4605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.ByteString",
           "name": "ControlFunctions",
           "package": "debian",
@@ -4257,6 +4614,7 @@
         },
         "index": {
           "hierarchy": "Debian Control ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.ByteString",
           "name": "ControlFunctions",
           "package": "debian",
@@ -4270,6 +4628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.ByteString",
           "name": "Field",
           "package": "debian",
@@ -4278,6 +4637,7 @@
         },
         "index": {
           "hierarchy": "Debian Control ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.ByteString",
           "name": "Field",
           "package": "debian",
@@ -4292,6 +4652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNOTE: we do not strip the leading or trailing whitespace in the\n name or value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.ByteString",
           "name": "Field'",
           "package": "debian",
@@ -4301,6 +4662,7 @@
         "index": {
           "description": "NOTE we do not strip the leading or trailing whitespace in the name or value",
           "hierarchy": "Debian Control ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.ByteString",
           "name": "Field'",
           "package": "debian",
@@ -4314,6 +4676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.ByteString",
           "name": "Paragraph",
           "package": "debian",
@@ -4322,6 +4685,7 @@
         },
         "index": {
           "hierarchy": "Debian Control ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.ByteString",
           "name": "Paragraph",
           "package": "debian",
@@ -4335,6 +4699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.ByteString",
           "name": "Paragraph'",
           "package": "debian",
@@ -4343,6 +4708,7 @@
         },
         "index": {
           "hierarchy": "Debian Control ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.ByteString",
           "name": "Paragraph'",
           "package": "debian",
@@ -4479,6 +4845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.ByteString",
           "name": "asString",
           "package": "debian",
@@ -4488,6 +4855,7 @@
         },
         "index": {
           "hierarchy": "Debian Control ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.ByteString",
           "name": "asString",
           "normalized": "a-\u003eString",
@@ -4529,6 +4897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003elookupP\u003c/a\u003e\u003c/code\u003e \u003ccode\u003efieldName paragraph\u003c/code\u003e looks up a \u003ccode\u003e\u003ca\u003eField\u003c/a\u003e\u003c/code\u003e in a \u003ccode\u003e\u003ca\u003eParagraph\u003c/a\u003e\u003c/code\u003e.\n \u003ccode\u003eN.B.\u003c/code\u003e trailing and leading whitespace is \u003cem\u003enot\u003c/em\u003e stripped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.ByteString",
           "name": "lookupP",
           "package": "debian",
@@ -4539,6 +4908,7 @@
         "index": {
           "description": "lookupP fieldName paragraph looks up Field in Paragraph N.B trailing and leading whitespace is not stripped",
           "hierarchy": "Debian Control ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.ByteString",
           "name": "lookupP",
           "normalized": "String-\u003eParagraph' a-\u003eMaybe(Field' a)",
@@ -4604,6 +4974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eparseControlFromString\u003c/code\u003e \u003ccode\u003esourceName\u003c/code\u003e \u003ccode\u003etext\u003c/code\u003e - \u003ccode\u003esourceName\u003c/code\u003e is only used for error reporting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.ByteString",
           "name": "parseControl",
           "package": "debian",
@@ -4614,6 +4985,7 @@
         "index": {
           "description": "parseControlFromString sourceName text sourceName is only used for error reporting",
           "hierarchy": "Debian Control ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.ByteString",
           "name": "parseControl",
           "normalized": "String-\u003ea-\u003eEither ParseError(Control' a)",
@@ -4630,6 +5002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eparseControlFromFile\u003c/a\u003e\u003c/code\u003e \u003ccode\u003efilepath\u003c/code\u003e is a simple wrapper function\n that parses \u003ccode\u003efilepath\u003c/code\u003e using \u003ccode\u003epControl\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.ByteString",
           "name": "parseControlFromFile",
           "package": "debian",
@@ -4640,6 +5013,7 @@
         "index": {
           "description": "parseControlFromFile filepath is simple wrapper function that parses filepath using pControl",
           "hierarchy": "Debian Control ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.ByteString",
           "name": "parseControlFromFile",
           "normalized": "FilePath-\u003eIO(Either ParseError(Control' a))",
@@ -4656,6 +5030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eparseControlFromHandle\u003c/a\u003e\u003c/code\u003e \u003ccode\u003esourceName\u003c/code\u003e \u003ccode\u003ehandle\u003c/code\u003e - \u003ccode\u003esourceName\u003c/code\u003e is only used for error reporting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.ByteString",
           "name": "parseControlFromHandle",
           "package": "debian",
@@ -4666,6 +5041,7 @@
         "index": {
           "description": "parseControlFromHandle sourceName handle sourceName is only used for error reporting",
           "hierarchy": "Debian Control ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.ByteString",
           "name": "parseControlFromHandle",
           "normalized": "String-\u003eHandle-\u003eIO(Either ParseError(Control' a))",
@@ -4784,6 +5160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip the trailing and leading space and tab characters from a\n string. Folded whitespace is \u003cem\u003enot\u003c/em\u003e unfolded. This should probably\n be moved to someplace more general purpose.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.ByteString",
           "name": "stripWS",
           "package": "debian",
@@ -4794,6 +5171,7 @@
         "index": {
           "description": "Strip the trailing and leading space and tab characters from string Folded whitespace is not unfolded This should probably be moved to someplace more general purpose",
           "hierarchy": "Debian Control ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.ByteString",
           "name": "stripWS",
           "normalized": "a-\u003ea",
@@ -4834,6 +5212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Common",
           "name": "Common",
           "package": "debian",
@@ -4842,6 +5221,7 @@
         },
         "index": {
           "hierarchy": "Debian Control Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Common",
           "name": "Common",
           "package": "debian",
@@ -4855,6 +5235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Common",
           "name": "Control'",
           "package": "debian",
@@ -4863,6 +5244,7 @@
         },
         "index": {
           "hierarchy": "Debian Control Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Common",
           "name": "Control'",
           "package": "debian",
@@ -4876,6 +5258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Common",
           "name": "ControlFunctions",
           "package": "debian",
@@ -4884,6 +5267,7 @@
         },
         "index": {
           "hierarchy": "Debian Control Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Common",
           "name": "ControlFunctions",
           "package": "debian",
@@ -4898,6 +5282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNOTE: we do not strip the leading or trailing whitespace in the\n name or value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Common",
           "name": "Field'",
           "package": "debian",
@@ -4907,6 +5292,7 @@
         "index": {
           "description": "NOTE we do not strip the leading or trailing whitespace in the name or value",
           "hierarchy": "Debian Control Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Common",
           "name": "Field'",
           "package": "debian",
@@ -4920,6 +5306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Common",
           "name": "Paragraph'",
           "package": "debian",
@@ -4928,6 +5315,7 @@
         },
         "index": {
           "hierarchy": "Debian Control Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Common",
           "name": "Paragraph'",
           "package": "debian",
@@ -4941,6 +5329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Common",
           "name": "asString",
           "package": "debian",
@@ -4950,6 +5339,7 @@
         },
         "index": {
           "hierarchy": "Debian Control Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Common",
           "name": "asString",
           "normalized": "a-\u003eString",
@@ -4966,6 +5356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003elookupP\u003c/a\u003e\u003c/code\u003e \u003ccode\u003efieldName paragraph\u003c/code\u003e looks up a \u003ccode\u003e\u003ca\u003eField\u003c/a\u003e\u003c/code\u003e in a \u003ccode\u003e\u003ca\u003eParagraph\u003c/a\u003e\u003c/code\u003e.\n \u003ccode\u003eN.B.\u003c/code\u003e trailing and leading whitespace is \u003cem\u003enot\u003c/em\u003e stripped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Common",
           "name": "lookupP",
           "package": "debian",
@@ -4976,6 +5367,7 @@
         "index": {
           "description": "lookupP fieldName paragraph looks up Field in Paragraph N.B trailing and leading whitespace is not stripped",
           "hierarchy": "Debian Control Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Common",
           "name": "lookupP",
           "normalized": "String-\u003eParagraph' a-\u003eMaybe(Field' a)",
@@ -4991,6 +5383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elook up the md5sum file in a paragraph\n Tries several different variations:\n  MD5Sum:\n  Md5Sum:\n  MD5sum:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Common",
           "name": "md5sumField",
           "package": "debian",
@@ -5001,6 +5394,7 @@
         "index": {
           "description": "look up the md5sum file in paragraph Tries several different variations MD5Sum Md5Sum MD5sum",
           "hierarchy": "Debian Control Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Common",
           "name": "md5sumField",
           "normalized": "Paragraph' a-\u003eMaybe a",
@@ -5017,6 +5411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eparseControlFromString\u003c/code\u003e \u003ccode\u003esourceName\u003c/code\u003e \u003ccode\u003etext\u003c/code\u003e - \u003ccode\u003esourceName\u003c/code\u003e is only used for error reporting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Common",
           "name": "parseControl",
           "package": "debian",
@@ -5027,6 +5422,7 @@
         "index": {
           "description": "parseControlFromString sourceName text sourceName is only used for error reporting",
           "hierarchy": "Debian Control Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Common",
           "name": "parseControl",
           "normalized": "String-\u003ea-\u003eEither ParseError(Control' a)",
@@ -5043,6 +5439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a command and parse its output as a control file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Common",
           "name": "parseControlFromCmd",
           "package": "debian",
@@ -5053,6 +5450,7 @@
         "index": {
           "description": "Run command and parse its output as control file",
           "hierarchy": "Debian Control Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Common",
           "name": "parseControlFromCmd",
           "normalized": "String-\u003eIO(Either String(Control' a))",
@@ -5069,6 +5467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eparseControlFromFile\u003c/a\u003e\u003c/code\u003e \u003ccode\u003efilepath\u003c/code\u003e is a simple wrapper function\n that parses \u003ccode\u003efilepath\u003c/code\u003e using \u003ccode\u003epControl\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Common",
           "name": "parseControlFromFile",
           "package": "debian",
@@ -5079,6 +5478,7 @@
         "index": {
           "description": "parseControlFromFile filepath is simple wrapper function that parses filepath using pControl",
           "hierarchy": "Debian Control Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Common",
           "name": "parseControlFromFile",
           "normalized": "FilePath-\u003eIO(Either ParseError(Control' a))",
@@ -5095,6 +5495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eparseControlFromHandle\u003c/a\u003e\u003c/code\u003e \u003ccode\u003esourceName\u003c/code\u003e \u003ccode\u003ehandle\u003c/code\u003e - \u003ccode\u003esourceName\u003c/code\u003e is only used for error reporting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Common",
           "name": "parseControlFromHandle",
           "package": "debian",
@@ -5105,6 +5506,7 @@
         "index": {
           "description": "parseControlFromHandle sourceName handle sourceName is only used for error reporting",
           "hierarchy": "Debian Control Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Common",
           "name": "parseControlFromHandle",
           "normalized": "String-\u003eHandle-\u003eIO(Either ParseError(Control' a))",
@@ -5121,6 +5523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip the trailing and leading space and tab characters from a\n string. Folded whitespace is \u003cem\u003enot\u003c/em\u003e unfolded. This should probably\n be moved to someplace more general purpose.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Common",
           "name": "stripWS",
           "package": "debian",
@@ -5131,6 +5534,7 @@
         "index": {
           "description": "Strip the trailing and leading space and tab characters from string Folded whitespace is not unfolded This should probably be moved to someplace more general purpose",
           "hierarchy": "Debian Control Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Common",
           "name": "stripWS",
           "normalized": "a-\u003ea",
@@ -5146,6 +5550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.String",
           "name": "String",
           "package": "debian",
@@ -5154,6 +5559,7 @@
         },
         "index": {
           "hierarchy": "Debian Control String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.String",
           "name": "String",
           "package": "debian",
@@ -5167,6 +5573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.String",
           "name": "Control",
           "package": "debian",
@@ -5175,6 +5582,7 @@
         },
         "index": {
           "hierarchy": "Debian Control String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.String",
           "name": "Control",
           "package": "debian",
@@ -5188,6 +5596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.String",
           "name": "Control'",
           "package": "debian",
@@ -5196,6 +5605,7 @@
         },
         "index": {
           "hierarchy": "Debian Control String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.String",
           "name": "Control'",
           "package": "debian",
@@ -5209,6 +5619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.String",
           "name": "ControlFunctions",
           "package": "debian",
@@ -5217,6 +5628,7 @@
         },
         "index": {
           "hierarchy": "Debian Control String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.String",
           "name": "ControlFunctions",
           "package": "debian",
@@ -5230,6 +5642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.String",
           "name": "ControlParser",
           "package": "debian",
@@ -5238,6 +5651,7 @@
         },
         "index": {
           "hierarchy": "Debian Control String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.String",
           "name": "ControlParser",
           "package": "debian",
@@ -5251,6 +5665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.String",
           "name": "Field",
           "package": "debian",
@@ -5259,6 +5674,7 @@
         },
         "index": {
           "hierarchy": "Debian Control String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.String",
           "name": "Field",
           "package": "debian",
@@ -5273,6 +5689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNOTE: we do not strip the leading or trailing whitespace in the\n name or value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.String",
           "name": "Field'",
           "package": "debian",
@@ -5282,6 +5699,7 @@
         "index": {
           "description": "NOTE we do not strip the leading or trailing whitespace in the name or value",
           "hierarchy": "Debian Control String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.String",
           "name": "Field'",
           "package": "debian",
@@ -5295,6 +5713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.String",
           "name": "Paragraph",
           "package": "debian",
@@ -5303,6 +5722,7 @@
         },
         "index": {
           "hierarchy": "Debian Control String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.String",
           "name": "Paragraph",
           "package": "debian",
@@ -5316,6 +5736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.String",
           "name": "Paragraph'",
           "package": "debian",
@@ -5324,6 +5745,7 @@
         },
         "index": {
           "hierarchy": "Debian Control String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.String",
           "name": "Paragraph'",
           "package": "debian",
@@ -5337,6 +5759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.String",
           "name": "Control",
           "package": "debian",
@@ -5346,6 +5769,7 @@
         },
         "index": {
           "hierarchy": "Debian Control String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.String",
           "name": "Control",
           "normalized": "Control[Paragraph' a]",
@@ -5361,6 +5785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.String",
           "name": "asString",
           "package": "debian",
@@ -5370,6 +5795,7 @@
         },
         "index": {
           "hierarchy": "Debian Control String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.String",
           "name": "asString",
           "normalized": "a-\u003eString",
@@ -5386,6 +5812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003elookupP\u003c/a\u003e\u003c/code\u003e \u003ccode\u003efieldName paragraph\u003c/code\u003e looks up a \u003ccode\u003e\u003ca\u003eField\u003c/a\u003e\u003c/code\u003e in a \u003ccode\u003e\u003ca\u003eParagraph\u003c/a\u003e\u003c/code\u003e.\n \u003ccode\u003eN.B.\u003c/code\u003e trailing and leading whitespace is \u003cem\u003enot\u003c/em\u003e stripped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.String",
           "name": "lookupP",
           "package": "debian",
@@ -5396,6 +5823,7 @@
         "index": {
           "description": "lookupP fieldName paragraph looks up Field in Paragraph N.B trailing and leading whitespace is not stripped",
           "hierarchy": "Debian Control String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.String",
           "name": "lookupP",
           "normalized": "String-\u003eParagraph' a-\u003eMaybe(Field' a)",
@@ -5436,6 +5864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eparseControlFromString\u003c/code\u003e \u003ccode\u003esourceName\u003c/code\u003e \u003ccode\u003etext\u003c/code\u003e - \u003ccode\u003esourceName\u003c/code\u003e is only used for error reporting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.String",
           "name": "parseControl",
           "package": "debian",
@@ -5446,6 +5875,7 @@
         "index": {
           "description": "parseControlFromString sourceName text sourceName is only used for error reporting",
           "hierarchy": "Debian Control String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.String",
           "name": "parseControl",
           "normalized": "String-\u003ea-\u003eEither ParseError(Control' a)",
@@ -5462,6 +5892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eparseControlFromFile\u003c/a\u003e\u003c/code\u003e \u003ccode\u003efilepath\u003c/code\u003e is a simple wrapper function\n that parses \u003ccode\u003efilepath\u003c/code\u003e using \u003ccode\u003epControl\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.String",
           "name": "parseControlFromFile",
           "package": "debian",
@@ -5472,6 +5903,7 @@
         "index": {
           "description": "parseControlFromFile filepath is simple wrapper function that parses filepath using pControl",
           "hierarchy": "Debian Control String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.String",
           "name": "parseControlFromFile",
           "normalized": "FilePath-\u003eIO(Either ParseError(Control' a))",
@@ -5488,6 +5920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eparseControlFromHandle\u003c/a\u003e\u003c/code\u003e \u003ccode\u003esourceName\u003c/code\u003e \u003ccode\u003ehandle\u003c/code\u003e - \u003ccode\u003esourceName\u003c/code\u003e is only used for error reporting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.String",
           "name": "parseControlFromHandle",
           "package": "debian",
@@ -5498,6 +5931,7 @@
         "index": {
           "description": "parseControlFromHandle sourceName handle sourceName is only used for error reporting",
           "hierarchy": "Debian Control String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.String",
           "name": "parseControlFromHandle",
           "normalized": "String-\u003eHandle-\u003eIO(Either ParseError(Control' a))",
@@ -5514,6 +5948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip the trailing and leading space and tab characters from a\n string. Folded whitespace is \u003cem\u003enot\u003c/em\u003e unfolded. This should probably\n be moved to someplace more general purpose.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.String",
           "name": "stripWS",
           "package": "debian",
@@ -5524,6 +5959,7 @@
         "index": {
           "description": "Strip the trailing and leading space and tab characters from string Folded whitespace is not unfolded This should probably be moved to someplace more general purpose",
           "hierarchy": "Debian Control String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.String",
           "name": "stripWS",
           "normalized": "a-\u003ea",
@@ -5539,6 +5975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Text",
           "name": "Text",
           "package": "debian",
@@ -5547,6 +5984,7 @@
         },
         "index": {
           "hierarchy": "Debian Control Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Text",
           "name": "Text",
           "package": "debian",
@@ -5560,6 +5998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Text",
           "name": "Control",
           "package": "debian",
@@ -5568,6 +6007,7 @@
         },
         "index": {
           "hierarchy": "Debian Control Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Text",
           "name": "Control",
           "package": "debian",
@@ -5581,6 +6021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Text",
           "name": "Control'",
           "package": "debian",
@@ -5589,6 +6030,7 @@
         },
         "index": {
           "hierarchy": "Debian Control Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Text",
           "name": "Control'",
           "package": "debian",
@@ -5602,6 +6044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Text",
           "name": "ControlFunctions",
           "package": "debian",
@@ -5610,6 +6053,7 @@
         },
         "index": {
           "hierarchy": "Debian Control Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Text",
           "name": "ControlFunctions",
           "package": "debian",
@@ -5624,6 +6068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eparseFromFile p filePath\u003c/code\u003e runs a string parser \u003ccode\u003ep\u003c/code\u003e on the\n input read from \u003ccode\u003efilePath\u003c/code\u003e using \u003ccode\u003e\u003ca\u003ereadFile\u003c/a\u003e\u003c/code\u003e. Returns either a \u003ccode\u003eParseError\u003c/code\u003e\n (\u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e) or a value of type \u003ccode\u003ea\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cpre\u003e  main    = do{ result \u003c- parseFromFile numbers \"digits.txt\"\n              ; case result of\n                  Left err  -\u003e print err\n                  Right xs  -\u003e print (sum xs)\n              }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Text",
           "name": "Field",
           "package": "debian",
@@ -5633,6 +6078,7 @@
         "index": {
           "description": "parseFromFile filePath runs string parser on the input read from filePath using readFile Returns either ParseError Left or value of type Right main do result parseFromFile numbers digits.txt case result of Left err print err Right xs print sum xs",
           "hierarchy": "Debian Control Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Text",
           "name": "Field",
           "package": "debian",
@@ -5647,6 +6093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNOTE: we do not strip the leading or trailing whitespace in the\n name or value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Text",
           "name": "Field'",
           "package": "debian",
@@ -5656,6 +6103,7 @@
         "index": {
           "description": "NOTE we do not strip the leading or trailing whitespace in the name or value",
           "hierarchy": "Debian Control Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Text",
           "name": "Field'",
           "package": "debian",
@@ -5669,6 +6117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Text",
           "name": "Paragraph",
           "package": "debian",
@@ -5677,6 +6126,7 @@
         },
         "index": {
           "hierarchy": "Debian Control Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Text",
           "name": "Paragraph",
           "package": "debian",
@@ -5690,6 +6140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Text",
           "name": "Paragraph'",
           "package": "debian",
@@ -5698,6 +6149,7 @@
         },
         "index": {
           "hierarchy": "Debian Control Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Text",
           "name": "Paragraph'",
           "package": "debian",
@@ -5711,6 +6163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Text",
           "name": "asString",
           "package": "debian",
@@ -5720,6 +6173,7 @@
         },
         "index": {
           "hierarchy": "Debian Control Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Text",
           "name": "asString",
           "normalized": "a-\u003eString",
@@ -5735,6 +6189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Text",
           "name": "decodeControl",
           "package": "debian",
@@ -5744,6 +6199,7 @@
         },
         "index": {
           "hierarchy": "Debian Control Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Text",
           "name": "decodeControl",
           "normalized": "Control-\u003eControl",
@@ -5759,6 +6215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Text",
           "name": "decodeField",
           "package": "debian",
@@ -5768,6 +6225,7 @@
         },
         "index": {
           "hierarchy": "Debian Control Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Text",
           "name": "decodeField",
           "normalized": "Field' ByteString-\u003eField' Text",
@@ -5783,6 +6241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Text",
           "name": "decodeParagraph",
           "package": "debian",
@@ -5792,6 +6251,7 @@
         },
         "index": {
           "hierarchy": "Debian Control Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Text",
           "name": "decodeParagraph",
           "normalized": "Paragraph-\u003eParagraph",
@@ -5808,6 +6268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003elookupP\u003c/a\u003e\u003c/code\u003e \u003ccode\u003efieldName paragraph\u003c/code\u003e looks up a \u003ccode\u003e\u003ca\u003eField\u003c/a\u003e\u003c/code\u003e in a \u003ccode\u003e\u003ca\u003eParagraph\u003c/a\u003e\u003c/code\u003e.\n \u003ccode\u003eN.B.\u003c/code\u003e trailing and leading whitespace is \u003cem\u003enot\u003c/em\u003e stripped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Text",
           "name": "lookupP",
           "package": "debian",
@@ -5818,6 +6279,7 @@
         "index": {
           "description": "lookupP fieldName paragraph looks up Field in Paragraph N.B trailing and leading whitespace is not stripped",
           "hierarchy": "Debian Control Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Text",
           "name": "lookupP",
           "normalized": "String-\u003eParagraph' a-\u003eMaybe(Field' a)",
@@ -5833,6 +6295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eparseControlFromString\u003c/code\u003e \u003ccode\u003esourceName\u003c/code\u003e \u003ccode\u003etext\u003c/code\u003e - \u003ccode\u003esourceName\u003c/code\u003e is only used for error reporting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Text",
           "name": "parseControl",
           "package": "debian",
@@ -5843,6 +6306,7 @@
         "index": {
           "description": "parseControlFromString sourceName text sourceName is only used for error reporting",
           "hierarchy": "Debian Control Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Text",
           "name": "parseControl",
           "normalized": "String-\u003ea-\u003eEither ParseError(Control' a)",
@@ -5859,6 +6323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eparseControlFromFile\u003c/a\u003e\u003c/code\u003e \u003ccode\u003efilepath\u003c/code\u003e is a simple wrapper function\n that parses \u003ccode\u003efilepath\u003c/code\u003e using \u003ccode\u003epControl\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Text",
           "name": "parseControlFromFile",
           "package": "debian",
@@ -5869,6 +6334,7 @@
         "index": {
           "description": "parseControlFromFile filepath is simple wrapper function that parses filepath using pControl",
           "hierarchy": "Debian Control Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Text",
           "name": "parseControlFromFile",
           "normalized": "FilePath-\u003eIO(Either ParseError(Control' a))",
@@ -5885,6 +6351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eparseControlFromHandle\u003c/a\u003e\u003c/code\u003e \u003ccode\u003esourceName\u003c/code\u003e \u003ccode\u003ehandle\u003c/code\u003e - \u003ccode\u003esourceName\u003c/code\u003e is only used for error reporting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Text",
           "name": "parseControlFromHandle",
           "package": "debian",
@@ -5895,6 +6362,7 @@
         "index": {
           "description": "parseControlFromHandle sourceName handle sourceName is only used for error reporting",
           "hierarchy": "Debian Control Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Text",
           "name": "parseControlFromHandle",
           "normalized": "String-\u003eHandle-\u003eIO(Either ParseError(Control' a))",
@@ -5911,6 +6379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip the trailing and leading space and tab characters from a\n string. Folded whitespace is \u003cem\u003enot\u003c/em\u003e unfolded. This should probably\n be moved to someplace more general purpose.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control.Text",
           "name": "stripWS",
           "package": "debian",
@@ -5921,6 +6390,7 @@
         "index": {
           "description": "Strip the trailing and leading space and tab characters from string Folded whitespace is not unfolded This should probably be moved to someplace more general purpose",
           "hierarchy": "Debian Control Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control.Text",
           "name": "stripWS",
           "normalized": "a-\u003ea",
@@ -5937,6 +6407,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module for working with Debian control files \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control",
           "name": "Control",
           "package": "debian",
@@ -5946,6 +6417,7 @@
         "index": {
           "description": "module for working with Debian control files http www.debian.org doc debian-policy ch-controlfields.html",
           "hierarchy": "Debian Control",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control",
           "name": "Control",
           "package": "debian",
@@ -5959,6 +6431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control",
           "name": "Control",
           "package": "debian",
@@ -5967,6 +6440,7 @@
         },
         "index": {
           "hierarchy": "Debian Control",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control",
           "name": "Control",
           "package": "debian",
@@ -5980,6 +6454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control",
           "name": "Control'",
           "package": "debian",
@@ -5988,6 +6463,7 @@
         },
         "index": {
           "hierarchy": "Debian Control",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control",
           "name": "Control'",
           "package": "debian",
@@ -6001,6 +6477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control",
           "name": "ControlFunctions",
           "package": "debian",
@@ -6009,6 +6486,7 @@
         },
         "index": {
           "hierarchy": "Debian Control",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control",
           "name": "ControlFunctions",
           "package": "debian",
@@ -6022,6 +6500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control",
           "name": "ControlParser",
           "package": "debian",
@@ -6030,6 +6509,7 @@
         },
         "index": {
           "hierarchy": "Debian Control",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control",
           "name": "ControlParser",
           "package": "debian",
@@ -6043,6 +6523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control",
           "name": "Field",
           "package": "debian",
@@ -6051,6 +6532,7 @@
         },
         "index": {
           "hierarchy": "Debian Control",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control",
           "name": "Field",
           "package": "debian",
@@ -6065,6 +6547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNOTE: we do not strip the leading or trailing whitespace in the\n name or value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control",
           "name": "Field'",
           "package": "debian",
@@ -6074,6 +6557,7 @@
         "index": {
           "description": "NOTE we do not strip the leading or trailing whitespace in the name or value",
           "hierarchy": "Debian Control",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control",
           "name": "Field'",
           "package": "debian",
@@ -6087,6 +6571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control",
           "name": "Paragraph",
           "package": "debian",
@@ -6095,6 +6580,7 @@
         },
         "index": {
           "hierarchy": "Debian Control",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control",
           "name": "Paragraph",
           "package": "debian",
@@ -6108,6 +6594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control",
           "name": "Paragraph'",
           "package": "debian",
@@ -6116,6 +6603,7 @@
         },
         "index": {
           "hierarchy": "Debian Control",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control",
           "name": "Paragraph'",
           "package": "debian",
@@ -6129,6 +6617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control",
           "name": "asString",
           "package": "debian",
@@ -6138,6 +6627,7 @@
         },
         "index": {
           "hierarchy": "Debian Control",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control",
           "name": "asString",
           "normalized": "a-\u003eString",
@@ -6153,6 +6643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control",
           "name": "formatControl",
           "package": "debian",
@@ -6162,6 +6653,7 @@
         },
         "index": {
           "hierarchy": "Debian Control",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control",
           "name": "formatControl",
           "normalized": "Control' Text-\u003e[Text]",
@@ -6177,6 +6669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control",
           "name": "formatField",
           "package": "debian",
@@ -6186,6 +6679,7 @@
         },
         "index": {
           "hierarchy": "Debian Control",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control",
           "name": "formatField",
           "normalized": "Field' Text-\u003eText",
@@ -6201,6 +6695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control",
           "name": "formatParagraph",
           "package": "debian",
@@ -6210,6 +6705,7 @@
         },
         "index": {
           "hierarchy": "Debian Control",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control",
           "name": "formatParagraph",
           "normalized": "Paragraph' Text-\u003eText",
@@ -6226,6 +6722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003elookupP\u003c/a\u003e\u003c/code\u003e \u003ccode\u003efieldName paragraph\u003c/code\u003e looks up a \u003ccode\u003e\u003ca\u003eField\u003c/a\u003e\u003c/code\u003e in a \u003ccode\u003e\u003ca\u003eParagraph\u003c/a\u003e\u003c/code\u003e.\n \u003ccode\u003eN.B.\u003c/code\u003e trailing and leading whitespace is \u003cem\u003enot\u003c/em\u003e stripped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control",
           "name": "lookupP",
           "package": "debian",
@@ -6236,6 +6733,7 @@
         "index": {
           "description": "lookupP fieldName paragraph looks up Field in Paragraph N.B trailing and leading whitespace is not stripped",
           "hierarchy": "Debian Control",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control",
           "name": "lookupP",
           "normalized": "String-\u003eParagraph' a-\u003eMaybe(Field' a)",
@@ -6250,6 +6748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control",
           "name": "packField",
           "package": "debian",
@@ -6259,6 +6758,7 @@
         },
         "index": {
           "hierarchy": "Debian Control",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control",
           "name": "packField",
           "normalized": "Field' String-\u003eField' Text",
@@ -6274,6 +6774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control",
           "name": "packParagraph",
           "package": "debian",
@@ -6283,6 +6784,7 @@
         },
         "index": {
           "hierarchy": "Debian Control",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control",
           "name": "packParagraph",
           "normalized": "Paragraph-\u003eParagraph",
@@ -6299,6 +6801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eparseControlFromString\u003c/code\u003e \u003ccode\u003esourceName\u003c/code\u003e \u003ccode\u003etext\u003c/code\u003e - \u003ccode\u003esourceName\u003c/code\u003e is only used for error reporting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control",
           "name": "parseControl",
           "package": "debian",
@@ -6309,6 +6812,7 @@
         "index": {
           "description": "parseControlFromString sourceName text sourceName is only used for error reporting",
           "hierarchy": "Debian Control",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control",
           "name": "parseControl",
           "normalized": "String-\u003ea-\u003eEither ParseError(Control' a)",
@@ -6325,6 +6829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eparseControlFromFile\u003c/a\u003e\u003c/code\u003e \u003ccode\u003efilepath\u003c/code\u003e is a simple wrapper function\n that parses \u003ccode\u003efilepath\u003c/code\u003e using \u003ccode\u003epControl\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control",
           "name": "parseControlFromFile",
           "package": "debian",
@@ -6335,6 +6840,7 @@
         "index": {
           "description": "parseControlFromFile filepath is simple wrapper function that parses filepath using pControl",
           "hierarchy": "Debian Control",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control",
           "name": "parseControlFromFile",
           "normalized": "FilePath-\u003eIO(Either ParseError(Control' a))",
@@ -6351,6 +6857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eparseControlFromHandle\u003c/a\u003e\u003c/code\u003e \u003ccode\u003esourceName\u003c/code\u003e \u003ccode\u003ehandle\u003c/code\u003e - \u003ccode\u003esourceName\u003c/code\u003e is only used for error reporting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control",
           "name": "parseControlFromHandle",
           "package": "debian",
@@ -6361,6 +6868,7 @@
         "index": {
           "description": "parseControlFromHandle sourceName handle sourceName is only used for error reporting",
           "hierarchy": "Debian Control",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control",
           "name": "parseControlFromHandle",
           "normalized": "String-\u003eHandle-\u003eIO(Either ParseError(Control' a))",
@@ -6377,6 +6885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip the trailing and leading space and tab characters from a\n string. Folded whitespace is \u003cem\u003enot\u003c/em\u003e unfolded. This should probably\n be moved to someplace more general purpose.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Control",
           "name": "stripWS",
           "package": "debian",
@@ -6387,6 +6896,7 @@
         "index": {
           "description": "Strip the trailing and leading space and tab characters from string Folded whitespace is not unfolded This should probably be moved to someplace more general purpose",
           "hierarchy": "Debian Control",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Control",
           "name": "stripWS",
           "normalized": "a-\u003ea",
@@ -6402,6 +6912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Deb",
           "name": "Deb",
           "package": "debian",
@@ -6410,6 +6921,7 @@
         },
         "index": {
           "hierarchy": "Debian Deb",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Deb",
           "name": "Deb",
           "package": "debian",
@@ -6423,6 +6935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Deb",
           "name": "fields",
           "package": "debian",
@@ -6432,6 +6945,7 @@
         },
         "index": {
           "hierarchy": "Debian Deb",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Deb",
           "name": "fields",
           "normalized": "FilePath-\u003eIO(Control' a)",
@@ -6447,6 +6961,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDomain independent functions used by the haskell-debian package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Extra.Files",
           "name": "Files",
           "package": "debian",
@@ -6456,6 +6971,7 @@
         "index": {
           "description": "Domain independent functions used by the haskell-debian package",
           "hierarchy": "Debian Extra Files",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Extra.Files",
           "name": "Files",
           "package": "debian",
@@ -6469,6 +6985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Extra.Files",
           "name": "withTemporaryFile",
           "package": "debian",
@@ -6477,6 +6994,7 @@
         },
         "index": {
           "hierarchy": "Debian Extra Files",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Extra.Files",
           "name": "withTemporaryFile",
           "normalized": "(FilePath-\u003ea b)-\u003eString-\u003ea b",
@@ -6493,6 +7011,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFigure out the dependency relation between debianized source\n directories.  The code to actually solve these dependency relations\n for a particular set of binary packages is in Debian.Repo.Dependency.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "GenBuildDeps",
           "package": "debian",
@@ -6502,6 +7021,7 @@
         "index": {
           "description": "Figure out the dependency relation between debianized source directories The code to actually solve these dependency relations for particular set of binary packages is in Debian.Repo.Dependency",
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "GenBuildDeps",
           "package": "debian",
@@ -6515,6 +7035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "BuildableInfo",
           "package": "debian",
@@ -6523,6 +7044,7 @@
         },
         "index": {
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "BuildableInfo",
           "package": "debian",
@@ -6537,6 +7059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type describes the build dependencies of a source package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "DepInfo",
           "package": "debian",
@@ -6546,6 +7069,7 @@
         "index": {
           "description": "This type describes the build dependencies of source package",
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "DepInfo",
           "package": "debian",
@@ -6560,6 +7084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifies build dependencies that should be ignored during the build\n decision.  If the pair is (BINARY, Nothing) it means the binary package\n BINARY should always be ignored when deciding whether to build.  If the\n pair is (BINARY, Just SOURCE) it means that binary package BINARY should\n be ignored when deiciding whether to build package SOURCE.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "OldRelaxInfo",
           "package": "debian",
@@ -6569,6 +7094,7 @@
         "index": {
           "description": "Specifies build dependencies that should be ignored during the build decision If the pair is BINARY Nothing it means the binary package BINARY should always be ignored when deciding whether to build If the pair is BINARY Just SOURCE it means that binary package BINARY should be ignored when deiciding whether to build package SOURCE",
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "OldRelaxInfo",
           "package": "debian",
@@ -6583,6 +7109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a source package name and a binary package name, return\n False if the binary package should be ignored hwen deciding whether\n to build the source package.  This is used to prevent build\n dependency cycles from triggering unnecessary rebuilds.  (This is a\n replacement for the RelaxInfo type, which we temporarily rename\n OldRelaxInfo.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "RelaxInfo",
           "package": "debian",
@@ -6592,6 +7119,7 @@
         "index": {
           "description": "Given source package name and binary package name return False if the binary package should be ignored hwen deciding whether to build the source package This is used to prevent build dependency cycles from triggering unnecessary rebuilds This is replacement for the RelaxInfo type which we temporarily rename OldRelaxInfo",
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "RelaxInfo",
           "package": "debian",
@@ -6605,6 +7133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "BuildableInfo",
           "package": "debian",
@@ -6614,6 +7143,7 @@
         },
         "index": {
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "BuildableInfo",
           "package": "debian",
@@ -6627,6 +7157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "CycleInfo",
           "package": "debian",
@@ -6636,6 +7167,7 @@
         },
         "index": {
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "CycleInfo",
           "package": "debian",
@@ -6649,6 +7181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "DepInfo",
           "package": "debian",
@@ -6658,6 +7191,7 @@
         },
         "index": {
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "DepInfo",
           "package": "debian",
@@ -6671,6 +7205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "RelaxInfo",
           "package": "debian",
@@ -6680,6 +7215,7 @@
         },
         "index": {
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "RelaxInfo",
           "normalized": "RelaxInfo[(BinPkgName,Maybe SrcPkgName)]",
@@ -6695,6 +7231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "allBlocked",
           "package": "debian",
@@ -6704,6 +7241,7 @@
         },
         "index": {
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "allBlocked",
           "normalized": "[a]",
@@ -6720,6 +7258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebinary dependency names (is this a function of relations?)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "binaryNames",
           "package": "debian",
@@ -6730,6 +7269,7 @@
         "index": {
           "description": "binary dependency names is this function of relations",
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "binaryNames",
           "normalized": "[BinPkgName]",
@@ -6746,6 +7286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the dependency info for a source package with the given dependency relaxation.\n |According to debian policy, only the first paragraph in debian/control can be a source package\n \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s-sourcecontrolfiles\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "buildDependencies",
           "package": "debian",
@@ -6756,6 +7297,7 @@
         "index": {
           "description": "Return the dependency info for source package with the given dependency relaxation According to debian policy only the first paragraph in debian control can be source package http www.debian.org doc debian-policy ch-controlfields.html s-sourcecontrolfiles",
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "buildDependencies",
           "normalized": "Control' Text-\u003eEither String DepInfo",
@@ -6772,6 +7314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an ordering function representing the dependencies on a\n list of packages, return a triple: One ready package, the packages\n that depend on the ready package directly or indirectly, and all\n the other packages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "buildable",
           "package": "debian",
@@ -6782,6 +7325,7 @@
         "index": {
           "description": "Given an ordering function representing the dependencies on list of packages return triple One ready package the packages that depend on the ready package directly or indirectly and all the other packages",
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "buildable",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003e[a]-\u003eBuildableInfo a",
@@ -6797,6 +7341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a nice start. It ignores circular build depends and takes\n a pretty simplistic approach to \u003ccode\u003e\u003ca\u003eor\u003c/a\u003e\u003c/code\u003e build depends. However, I\n think this should work pretty nicely in practice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "compareSource",
           "package": "debian",
@@ -6807,6 +7352,7 @@
         "index": {
           "description": "This is nice start It ignores circular build depends and takes pretty simplistic approach to or build depends However think this should work pretty nicely in practice",
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "compareSource",
           "normalized": "DepInfo-\u003eDepInfo-\u003eOrdering",
@@ -6822,6 +7368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "depPairs",
           "package": "debian",
@@ -6831,6 +7378,7 @@
         },
         "index": {
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "depPairs",
           "normalized": "[(a,a)]",
@@ -6847,6 +7395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove any packages which can't be built given that a package has failed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "failPackage",
           "package": "debian",
@@ -6857,6 +7406,7 @@
         "index": {
           "description": "Remove any packages which can be built given that package has failed",
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "failPackage",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003ea-\u003e[a]-\u003e([a],[a])",
@@ -6873,6 +7423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the dependency info for a list of control files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "genDeps",
           "package": "debian",
@@ -6883,6 +7434,7 @@
         "index": {
           "description": "Return the dependency info for list of control files",
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "genDeps",
           "normalized": "[FilePath]-\u003eIO(Either String[DepInfo])",
@@ -6899,6 +7451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne example of how to tie the below functions together. In this\n case \u003ccode\u003efp\u003c/code\u003e is the path to a directory that contains a bunch of\n checked out source packages. The code will automatically look for\n debian/control. It returns a list with the packages in the\n order they should be built.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "getSourceOrder",
           "package": "debian",
@@ -6909,6 +7462,7 @@
         "index": {
           "description": "One example of how to tie the below functions together In this case fp is the path to directory that contains bunch of checked out source packages The code will automatically look for debian control It returns list with the packages in the order they should be built",
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "getSourceOrder",
           "normalized": "FilePath-\u003eIO(Either String[SrcPkgName])",
@@ -6925,6 +7479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove any dependencies that are designated \"relaxed\" by relaxInfo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "oldRelaxDeps",
           "package": "debian",
@@ -6935,6 +7490,7 @@
         "index": {
           "description": "Remove any dependencies that are designated relaxed by relaxInfo",
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "oldRelaxDeps",
           "normalized": "OldRelaxInfo-\u003e[DepInfo]-\u003e[DepInfo]",
@@ -6951,6 +7507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of packages, sort them according to their apparant\n build dependencies so that the first element doesn't depend on any\n of the other packages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "orderSource",
           "package": "debian",
@@ -6961,6 +7518,7 @@
         "index": {
           "description": "Given list of packages sort them according to their apparant build dependencies so that the first element doesn depend on any of the other packages",
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "orderSource",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003e[a]-\u003e[a]",
@@ -6976,6 +7534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "readyTriples",
           "package": "debian",
@@ -6985,6 +7544,7 @@
         },
         "index": {
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "readyTriples",
           "normalized": "[(a,[a],[a])]",
@@ -7001,6 +7561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edependency relations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "relations",
           "package": "debian",
@@ -7011,6 +7572,7 @@
         "index": {
           "description": "dependency relations",
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "relations",
           "package": "debian",
@@ -7024,6 +7586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove any dependencies that are designated \"relaxed\" by relaxInfo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "relaxDeps",
           "package": "debian",
@@ -7034,6 +7597,7 @@
         "index": {
           "description": "Remove any dependencies that are designated relaxed by relaxInfo",
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "relaxDeps",
           "normalized": "RelaxInfo-\u003e[DepInfo]-\u003e[DepInfo]",
@@ -7050,6 +7614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esource package name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.GenBuildDeps",
           "name": "sourceName",
           "package": "debian",
@@ -7060,6 +7625,7 @@
         "index": {
           "description": "source package name",
           "hierarchy": "Debian GenBuildDeps",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.GenBuildDeps",
           "name": "sourceName",
           "package": "debian",
@@ -7073,6 +7639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Pretty",
           "name": "Pretty",
           "package": "debian",
@@ -7081,6 +7648,7 @@
         },
         "index": {
           "hierarchy": "Debian Pretty",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Pretty",
           "name": "Pretty",
           "package": "debian",
@@ -7094,6 +7662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Pretty",
           "name": "Doc",
           "package": "debian",
@@ -7102,6 +7671,7 @@
         },
         "index": {
           "hierarchy": "Debian Pretty",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Pretty",
           "name": "Doc",
           "package": "debian",
@@ -7115,6 +7685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Pretty",
           "name": "Pretty",
           "package": "debian",
@@ -7123,6 +7694,7 @@
         },
         "index": {
           "hierarchy": "Debian Pretty",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Pretty",
           "name": "Pretty",
           "package": "debian",
@@ -7137,6 +7709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix synonym for \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Pretty",
           "name": "(\u003c\u003e)",
           "package": "debian",
@@ -7146,6 +7719,7 @@
         "index": {
           "description": "An infix synonym for mappend",
           "hierarchy": "Debian Pretty",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Pretty",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -7160,6 +7734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Pretty",
           "name": "cat",
           "package": "debian",
@@ -7169,6 +7744,7 @@
         },
         "index": {
           "hierarchy": "Debian Pretty",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Pretty",
           "name": "cat",
           "normalized": "[Doc]-\u003eDoc",
@@ -7183,6 +7759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Pretty",
           "name": "empty",
           "package": "debian",
@@ -7192,6 +7769,7 @@
         },
         "index": {
           "hierarchy": "Debian Pretty",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Pretty",
           "name": "empty",
           "package": "debian",
@@ -7204,6 +7782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Pretty",
           "name": "pretty",
           "package": "debian",
@@ -7213,6 +7792,7 @@
         },
         "index": {
           "hierarchy": "Debian Pretty",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Pretty",
           "name": "pretty",
           "normalized": "a-\u003eDoc",
@@ -7227,6 +7807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Pretty",
           "name": "render",
           "package": "debian",
@@ -7236,6 +7817,7 @@
         },
         "index": {
           "hierarchy": "Debian Pretty",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Pretty",
           "name": "render",
           "normalized": "Doc-\u003eText",
@@ -7250,6 +7832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Pretty",
           "name": "text",
           "package": "debian",
@@ -7259,6 +7842,7 @@
         },
         "index": {
           "hierarchy": "Debian Pretty",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Pretty",
           "name": "text",
           "normalized": "Text-\u003eDoc",
@@ -7273,6 +7857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Pretty",
           "name": "vcat",
           "package": "debian",
@@ -7282,6 +7867,7 @@
         },
         "index": {
           "hierarchy": "Debian Pretty",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Pretty",
           "name": "vcat",
           "normalized": "[Doc]-\u003eDoc",
@@ -7297,6 +7883,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module for working with debian relationships \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-relationships.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.ByteString",
           "name": "ByteString",
           "package": "debian",
@@ -7306,6 +7893,7 @@
         "index": {
           "description": "module for working with debian relationships http www.debian.org doc debian-policy ch-relationships.html",
           "hierarchy": "Debian Relation ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.ByteString",
           "name": "ByteString",
           "package": "debian",
@@ -7319,6 +7907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.ByteString",
           "name": "AndRelation",
           "package": "debian",
@@ -7327,6 +7916,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.ByteString",
           "name": "AndRelation",
           "package": "debian",
@@ -7340,6 +7930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.ByteString",
           "name": "ArchitectureReq",
           "package": "debian",
@@ -7348,6 +7939,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.ByteString",
           "name": "ArchitectureReq",
           "package": "debian",
@@ -7361,6 +7953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.ByteString",
           "name": "OrRelation",
           "package": "debian",
@@ -7369,6 +7962,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.ByteString",
           "name": "OrRelation",
           "package": "debian",
@@ -7382,6 +7976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.ByteString",
           "name": "ParseRelations",
           "package": "debian",
@@ -7390,6 +7985,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.ByteString",
           "name": "ParseRelations",
           "package": "debian",
@@ -7403,6 +7999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.ByteString",
           "name": "RelParser",
           "package": "debian",
@@ -7411,6 +8008,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.ByteString",
           "name": "RelParser",
           "package": "debian",
@@ -7424,6 +8022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.ByteString",
           "name": "Relation",
           "package": "debian",
@@ -7432,6 +8031,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.ByteString",
           "name": "Relation",
           "package": "debian",
@@ -7445,6 +8045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.ByteString",
           "name": "Relations",
           "package": "debian",
@@ -7453,6 +8054,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.ByteString",
           "name": "Relations",
           "package": "debian",
@@ -7466,6 +8068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.ByteString",
           "name": "VersionReq",
           "package": "debian",
@@ -7474,6 +8077,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.ByteString",
           "name": "VersionReq",
           "package": "debian",
@@ -7699,6 +8303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eparseRelations\u003c/a\u003e\u003c/code\u003e parse a debian relation (i.e. the value of a\n Depends field). Return a parsec error or a value of type\n \u003ccode\u003e\u003ca\u003eRelations\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.ByteString",
           "name": "parseRelations",
           "package": "debian",
@@ -7709,6 +8314,7 @@
         "index": {
           "description": "parseRelations parse debian relation i.e the value of Depends field Return parsec error or value of type Relations",
           "hierarchy": "Debian Relation ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.ByteString",
           "name": "parseRelations",
           "normalized": "a-\u003eEither ParseError Relations",
@@ -7724,6 +8330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Common",
           "name": "Common",
           "package": "debian",
@@ -7732,6 +8339,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Common",
           "name": "Common",
           "package": "debian",
@@ -7745,6 +8353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Common",
           "name": "AndRelation",
           "package": "debian",
@@ -7753,6 +8362,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Common",
           "name": "AndRelation",
           "package": "debian",
@@ -7766,6 +8376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Common",
           "name": "ArchitectureReq",
           "package": "debian",
@@ -7774,6 +8385,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Common",
           "name": "ArchitectureReq",
           "package": "debian",
@@ -7787,6 +8399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Common",
           "name": "BinPkgName",
           "package": "debian",
@@ -7795,6 +8408,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Common",
           "name": "BinPkgName",
           "package": "debian",
@@ -7808,6 +8422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Common",
           "name": "OrRelation",
           "package": "debian",
@@ -7816,6 +8431,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Common",
           "name": "OrRelation",
           "package": "debian",
@@ -7829,6 +8445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Common",
           "name": "ParseRelations",
           "package": "debian",
@@ -7837,6 +8454,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Common",
           "name": "ParseRelations",
           "package": "debian",
@@ -7850,6 +8468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Common",
           "name": "PkgName",
           "package": "debian",
@@ -7858,6 +8477,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Common",
           "name": "PkgName",
           "package": "debian",
@@ -7871,6 +8491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Common",
           "name": "Relation",
           "package": "debian",
@@ -7879,6 +8500,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Common",
           "name": "Relation",
           "package": "debian",
@@ -7892,6 +8514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Common",
           "name": "Relations",
           "package": "debian",
@@ -7900,6 +8523,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Common",
           "name": "Relations",
           "package": "debian",
@@ -7913,6 +8537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Common",
           "name": "SrcPkgName",
           "package": "debian",
@@ -7921,6 +8546,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Common",
           "name": "SrcPkgName",
           "package": "debian",
@@ -7934,6 +8560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Common",
           "name": "VersionReq",
           "package": "debian",
@@ -7942,6 +8569,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Common",
           "name": "VersionReq",
           "package": "debian",
@@ -8002,6 +8630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eparseRelations\u003c/a\u003e\u003c/code\u003e parse a debian relation (i.e. the value of a\n Depends field). Return a parsec error or a value of type\n \u003ccode\u003e\u003ca\u003eRelations\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Common",
           "name": "parseRelations",
           "package": "debian",
@@ -8012,6 +8641,7 @@
         "index": {
           "description": "parseRelations parse debian relation i.e the value of Depends field Return parsec error or value of type Relations",
           "hierarchy": "Debian Relation Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Common",
           "name": "parseRelations",
           "normalized": "a-\u003eEither ParseError Relations",
@@ -8027,6 +8657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Common",
           "name": "pkgNameFromString",
           "package": "debian",
@@ -8036,6 +8667,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Common",
           "name": "pkgNameFromString",
           "normalized": "String-\u003ea",
@@ -8051,6 +8683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Common",
           "name": "prettyArchitectureReq",
           "package": "debian",
@@ -8060,6 +8693,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Common",
           "name": "prettyArchitectureReq",
           "normalized": "ArchitectureReq-\u003eDoc",
@@ -8075,6 +8709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Common",
           "name": "prettyOrRelation",
           "package": "debian",
@@ -8084,6 +8719,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Common",
           "name": "prettyOrRelation",
           "normalized": "[Relation]-\u003eDoc",
@@ -8099,6 +8735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Common",
           "name": "prettyRelation",
           "package": "debian",
@@ -8108,6 +8745,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Common",
           "name": "prettyRelation",
           "normalized": "Relation-\u003eDoc",
@@ -8124,6 +8762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis needs to be indented for use in a control file: intercalate \u003ca\u003en     \u003c/a\u003e . lines . show\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Common",
           "name": "prettyRelations",
           "package": "debian",
@@ -8134,6 +8773,7 @@
         "index": {
           "description": "This needs to be indented for use in control file intercalate lines show",
           "hierarchy": "Debian Relation Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Common",
           "name": "prettyRelations",
           "normalized": "[[Relation]]-\u003eDoc",
@@ -8149,6 +8789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Common",
           "name": "prettyVersionReq",
           "package": "debian",
@@ -8158,6 +8799,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Common",
           "name": "prettyVersionReq",
           "normalized": "VersionReq-\u003eDoc",
@@ -8220,6 +8862,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module for working with debian relationships \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-relationships.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.String",
           "name": "String",
           "package": "debian",
@@ -8229,6 +8872,7 @@
         "index": {
           "description": "module for working with debian relationships http www.debian.org doc debian-policy ch-relationships.html",
           "hierarchy": "Debian Relation String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.String",
           "name": "String",
           "package": "debian",
@@ -8242,6 +8886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.String",
           "name": "AndRelation",
           "package": "debian",
@@ -8250,6 +8895,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.String",
           "name": "AndRelation",
           "package": "debian",
@@ -8263,6 +8909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.String",
           "name": "ArchitectureReq",
           "package": "debian",
@@ -8271,6 +8918,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.String",
           "name": "ArchitectureReq",
           "package": "debian",
@@ -8284,6 +8932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.String",
           "name": "OrRelation",
           "package": "debian",
@@ -8292,6 +8941,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.String",
           "name": "OrRelation",
           "package": "debian",
@@ -8305,6 +8955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.String",
           "name": "ParseRelations",
           "package": "debian",
@@ -8313,6 +8964,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.String",
           "name": "ParseRelations",
           "package": "debian",
@@ -8326,6 +8978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.String",
           "name": "RelParser",
           "package": "debian",
@@ -8334,6 +8987,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.String",
           "name": "RelParser",
           "package": "debian",
@@ -8347,6 +9001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.String",
           "name": "Relation",
           "package": "debian",
@@ -8355,6 +9010,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.String",
           "name": "Relation",
           "package": "debian",
@@ -8368,6 +9024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.String",
           "name": "Relations",
           "package": "debian",
@@ -8376,6 +9033,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.String",
           "name": "Relations",
           "package": "debian",
@@ -8389,6 +9047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.String",
           "name": "VersionReq",
           "package": "debian",
@@ -8397,6 +9056,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.String",
           "name": "VersionReq",
           "package": "debian",
@@ -8410,6 +9070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.String",
           "name": "pRelations",
           "package": "debian",
@@ -8419,6 +9080,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.String",
           "name": "pRelations",
           "package": "debian",
@@ -8433,6 +9095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eparseRelations\u003c/a\u003e\u003c/code\u003e parse a debian relation (i.e. the value of a\n Depends field). Return a parsec error or a value of type\n \u003ccode\u003e\u003ca\u003eRelations\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.String",
           "name": "parseRelations",
           "package": "debian",
@@ -8443,6 +9106,7 @@
         "index": {
           "description": "parseRelations parse debian relation i.e the value of Depends field Return parsec error or value of type Relations",
           "hierarchy": "Debian Relation String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.String",
           "name": "parseRelations",
           "normalized": "a-\u003eEither ParseError Relations",
@@ -8459,6 +9123,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module for working with debian relationships \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-relationships.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Text",
           "name": "Text",
           "package": "debian",
@@ -8468,6 +9133,7 @@
         "index": {
           "description": "module for working with debian relationships http www.debian.org doc debian-policy ch-relationships.html",
           "hierarchy": "Debian Relation Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Text",
           "name": "Text",
           "package": "debian",
@@ -8481,6 +9147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Text",
           "name": "AndRelation",
           "package": "debian",
@@ -8489,6 +9156,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Text",
           "name": "AndRelation",
           "package": "debian",
@@ -8502,6 +9170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Text",
           "name": "ArchitectureReq",
           "package": "debian",
@@ -8510,6 +9179,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Text",
           "name": "ArchitectureReq",
           "package": "debian",
@@ -8523,6 +9193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Text",
           "name": "OrRelation",
           "package": "debian",
@@ -8531,6 +9202,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Text",
           "name": "OrRelation",
           "package": "debian",
@@ -8544,6 +9216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Text",
           "name": "ParseRelations",
           "package": "debian",
@@ -8552,6 +9225,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Text",
           "name": "ParseRelations",
           "package": "debian",
@@ -8565,6 +9239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Text",
           "name": "RelParser",
           "package": "debian",
@@ -8573,6 +9248,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Text",
           "name": "RelParser",
           "package": "debian",
@@ -8586,6 +9262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Text",
           "name": "Relation",
           "package": "debian",
@@ -8594,6 +9271,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Text",
           "name": "Relation",
           "package": "debian",
@@ -8607,6 +9285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Text",
           "name": "Relations",
           "package": "debian",
@@ -8615,6 +9294,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Text",
           "name": "Relations",
           "package": "debian",
@@ -8628,6 +9308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Text",
           "name": "VersionReq",
           "package": "debian",
@@ -8636,6 +9317,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Text",
           "name": "VersionReq",
           "package": "debian",
@@ -8650,6 +9332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eparseRelations\u003c/a\u003e\u003c/code\u003e parse a debian relation (i.e. the value of a\n Depends field). Return a parsec error or a value of type\n \u003ccode\u003e\u003ca\u003eRelations\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation.Text",
           "name": "parseRelations",
           "package": "debian",
@@ -8660,6 +9343,7 @@
         "index": {
           "description": "parseRelations parse debian relation i.e the value of Depends field Return parsec error or value of type Relations",
           "hierarchy": "Debian Relation Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation.Text",
           "name": "parseRelations",
           "normalized": "a-\u003eEither ParseError Relations",
@@ -8676,6 +9360,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module for working with debian relationships \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-relationships.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation",
           "name": "Relation",
           "package": "debian",
@@ -8685,6 +9370,7 @@
         "index": {
           "description": "module for working with debian relationships http www.debian.org doc debian-policy ch-relationships.html",
           "hierarchy": "Debian Relation",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation",
           "name": "Relation",
           "package": "debian",
@@ -8698,6 +9384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation",
           "name": "AndRelation",
           "package": "debian",
@@ -8706,6 +9393,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation",
           "name": "AndRelation",
           "package": "debian",
@@ -8719,6 +9407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation",
           "name": "Arch",
           "package": "debian",
@@ -8727,6 +9416,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation",
           "name": "Arch",
           "package": "debian",
@@ -8740,6 +9430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation",
           "name": "ArchCPU",
           "package": "debian",
@@ -8748,6 +9439,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation",
           "name": "ArchCPU",
           "package": "debian",
@@ -8761,6 +9453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation",
           "name": "ArchOS",
           "package": "debian",
@@ -8769,6 +9462,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation",
           "name": "ArchOS",
           "package": "debian",
@@ -8782,6 +9476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation",
           "name": "ArchitectureReq",
           "package": "debian",
@@ -8790,6 +9485,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation",
           "name": "ArchitectureReq",
           "package": "debian",
@@ -8803,6 +9499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation",
           "name": "BinPkgName",
           "package": "debian",
@@ -8811,6 +9508,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation",
           "name": "BinPkgName",
           "package": "debian",
@@ -8824,6 +9522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation",
           "name": "OrRelation",
           "package": "debian",
@@ -8832,6 +9531,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation",
           "name": "OrRelation",
           "package": "debian",
@@ -8845,6 +9545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation",
           "name": "ParseRelations",
           "package": "debian",
@@ -8853,6 +9554,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation",
           "name": "ParseRelations",
           "package": "debian",
@@ -8866,6 +9568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation",
           "name": "PkgName",
           "package": "debian",
@@ -8874,6 +9577,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation",
           "name": "PkgName",
           "package": "debian",
@@ -8887,6 +9591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation",
           "name": "RelParser",
           "package": "debian",
@@ -8895,6 +9600,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation",
           "name": "RelParser",
           "package": "debian",
@@ -8908,6 +9614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation",
           "name": "Relation",
           "package": "debian",
@@ -8916,6 +9623,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation",
           "name": "Relation",
           "package": "debian",
@@ -8929,6 +9637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation",
           "name": "Relations",
           "package": "debian",
@@ -8937,6 +9646,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation",
           "name": "Relations",
           "package": "debian",
@@ -8950,6 +9660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation",
           "name": "SrcPkgName",
           "package": "debian",
@@ -8958,6 +9669,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation",
           "name": "SrcPkgName",
           "package": "debian",
@@ -8971,6 +9683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation",
           "name": "VersionReq",
           "package": "debian",
@@ -8979,6 +9692,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation",
           "name": "VersionReq",
           "package": "debian",
@@ -8993,6 +9707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eparseRelations\u003c/a\u003e\u003c/code\u003e parse a debian relation (i.e. the value of a\n Depends field). Return a parsec error or a value of type\n \u003ccode\u003e\u003ca\u003eRelations\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation",
           "name": "parseRelations",
           "package": "debian",
@@ -9003,6 +9718,7 @@
         "index": {
           "description": "parseRelations parse debian relation i.e the value of Depends field Return parsec error or value of type Relations",
           "hierarchy": "Debian Relation",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation",
           "name": "parseRelations",
           "normalized": "a-\u003eEither ParseError Relations",
@@ -9018,6 +9734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Relation",
           "name": "pkgNameFromString",
           "package": "debian",
@@ -9027,6 +9744,7 @@
         },
         "index": {
           "hierarchy": "Debian Relation",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Relation",
           "name": "pkgNameFromString",
           "normalized": "String-\u003ea",
@@ -9042,6 +9760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Release",
           "name": "Release",
           "package": "debian",
@@ -9050,6 +9769,7 @@
         },
         "index": {
           "hierarchy": "Debian Release",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Release",
           "name": "Release",
           "package": "debian",
@@ -9064,6 +9784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA distribution (aka release) name.  This type is expected to refer\n to a subdirectory of the dists directory which is at the top level\n of a repository.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Release",
           "name": "ReleaseName",
           "package": "debian",
@@ -9073,6 +9794,7 @@
         "index": {
           "description": "distribution aka release name This type is expected to refer to subdirectory of the dists directory which is at the top level of repository",
           "hierarchy": "Debian Release",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Release",
           "name": "ReleaseName",
           "package": "debian",
@@ -9087,6 +9809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA section of a repository such as main, contrib, non-free,\n restricted.  The indexes for a section are located below the\n distribution directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Release",
           "name": "Section",
           "package": "debian",
@@ -9096,6 +9819,7 @@
         "index": {
           "description": "section of repository such as main contrib non-free restricted The indexes for section are located below the distribution directory",
           "hierarchy": "Debian Release",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Release",
           "name": "Section",
           "package": "debian",
@@ -9110,6 +9834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA package's subsection is only evident in its control information,\n packages from different subsections all reside in the same index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Release",
           "name": "SubSection",
           "package": "debian",
@@ -9119,6 +9844,7 @@
         "index": {
           "description": "package subsection is only evident in its control information packages from different subsections all reside in the same index",
           "hierarchy": "Debian Release",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Release",
           "name": "SubSection",
           "package": "debian",
@@ -9132,6 +9858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Release",
           "name": "ReleaseName",
           "package": "debian",
@@ -9141,6 +9868,7 @@
         },
         "index": {
           "hierarchy": "Debian Release",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Release",
           "name": "ReleaseName",
           "package": "debian",
@@ -9154,6 +9882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Release",
           "name": "Section",
           "package": "debian",
@@ -9163,6 +9892,7 @@
         },
         "index": {
           "hierarchy": "Debian Release",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Release",
           "name": "Section",
           "package": "debian",
@@ -9176,6 +9906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Release",
           "name": "SubSection",
           "package": "debian",
@@ -9185,6 +9916,7 @@
         },
         "index": {
           "hierarchy": "Debian Release",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Release",
           "name": "SubSection",
           "package": "debian",
@@ -9198,6 +9930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Release",
           "name": "parseReleaseName",
           "package": "debian",
@@ -9207,6 +9940,7 @@
         },
         "index": {
           "hierarchy": "Debian Release",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Release",
           "name": "parseReleaseName",
           "normalized": "String-\u003eReleaseName",
@@ -9223,6 +9957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the value that appears in the \u003ccode\u003eSection\u003c/code\u003e field of a .changes file.\n (Does this need to be unesacped?)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Release",
           "name": "parseSection",
           "package": "debian",
@@ -9233,6 +9968,7 @@
         "index": {
           "description": "Parse the value that appears in the Section field of changes file Does this need to be unesacped",
           "hierarchy": "Debian Release",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Release",
           "name": "parseSection",
           "normalized": "String-\u003eSubSection",
@@ -9248,6 +9984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Release",
           "name": "parseSection'",
           "package": "debian",
@@ -9257,6 +9994,7 @@
         },
         "index": {
           "hierarchy": "Debian Release",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Release",
           "name": "parseSection'",
           "normalized": "String-\u003eSection",
@@ -9272,6 +10010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Release",
           "name": "relName",
           "package": "debian",
@@ -9281,6 +10020,7 @@
         },
         "index": {
           "hierarchy": "Debian Release",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Release",
           "name": "relName",
           "package": "debian",
@@ -9294,6 +10034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Release",
           "name": "releaseName'",
           "package": "debian",
@@ -9303,6 +10044,7 @@
         },
         "index": {
           "hierarchy": "Debian Release",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Release",
           "name": "releaseName'",
           "normalized": "ReleaseName-\u003eString",
@@ -9318,6 +10060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Release",
           "name": "section",
           "package": "debian",
@@ -9327,6 +10070,7 @@
         },
         "index": {
           "hierarchy": "Debian Release",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Release",
           "name": "section",
           "package": "debian",
@@ -9339,6 +10083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Release",
           "name": "sectionName",
           "package": "debian",
@@ -9348,6 +10093,7 @@
         },
         "index": {
           "hierarchy": "Debian Release",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Release",
           "name": "sectionName",
           "normalized": "SubSection-\u003eString",
@@ -9363,6 +10109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Release",
           "name": "sectionName'",
           "package": "debian",
@@ -9372,6 +10119,7 @@
         },
         "index": {
           "hierarchy": "Debian Release",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Release",
           "name": "sectionName'",
           "normalized": "Section-\u003eString",
@@ -9387,6 +10135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Release",
           "name": "sectionNameOfSubSection",
           "package": "debian",
@@ -9396,6 +10145,7 @@
         },
         "index": {
           "hierarchy": "Debian Release",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Release",
           "name": "sectionNameOfSubSection",
           "normalized": "SubSection-\u003eString",
@@ -9411,6 +10161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Release",
           "name": "subSectionName",
           "package": "debian",
@@ -9420,6 +10171,7 @@
         },
         "index": {
           "hierarchy": "Debian Release",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Release",
           "name": "subSectionName",
           "package": "debian",
@@ -9433,6 +10185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Report",
           "name": "Report",
           "package": "debian",
@@ -9441,6 +10194,7 @@
         },
         "index": {
           "hierarchy": "Debian Report",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Report",
           "name": "Report",
           "package": "debian",
@@ -9455,6 +10209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextract the version number from a control paragraph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Report",
           "name": "extractVersion",
           "package": "debian",
@@ -9465,6 +10220,7 @@
         "index": {
           "description": "extract the version number from control paragraph",
           "hierarchy": "Debian Report",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Report",
           "name": "extractVersion",
           "normalized": "Paragraph-\u003eMaybe DebianVersion",
@@ -9481,6 +10237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a map of (package name, extracted field) from a list of index files\n\u003c/p\u003e\u003cp\u003eNOTE: we could merge all the files into a single control and then\n run packageMap over that. We currently do it one control file at a\n time to avoid having all the control files loaded in memory at\n once. However, I am not sure that property is actually occuring\n anyway. So, this should be revisited.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Report",
           "name": "makePackageMap",
           "package": "debian",
@@ -9491,6 +10248,7 @@
         "index": {
           "description": "create map of package name extracted field from list of index files NOTE we could merge all the files into single control and then run packageMap over that We currently do it one control file at time to avoid having all the control files loaded in memory at once However am not sure that property is actually occuring anyway So this should be revisited",
           "hierarchy": "Debian Report",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Report",
           "name": "makePackageMap",
           "normalized": "(Paragraph-\u003ea)-\u003e(a-\u003ea-\u003ea)-\u003e[(FilePath,Compression)]-\u003eIO(Map Text a)",
@@ -9507,6 +10265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a map of (package name, max version) from a single control file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Report",
           "name": "packageMap",
           "package": "debian",
@@ -9517,6 +10276,7 @@
         "index": {
           "description": "create map of package name max version from single control file",
           "hierarchy": "Debian Report",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Report",
           "name": "packageMap",
           "normalized": "(Paragraph-\u003ea)-\u003e(a-\u003ea-\u003ea)-\u003eControl' Text-\u003eMap Text a",
@@ -9533,6 +10293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecompare two sources.list and find all the packages in the second that trump packages in the first\n see also: |trumpedMap|\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Report",
           "name": "trumped",
           "package": "debian",
@@ -9542,6 +10303,7 @@
         "index": {
           "description": "compare two sources.list and find all the packages in the second that trump packages in the first see also trumpedMap",
           "hierarchy": "Debian Report",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Report",
           "name": "trumped",
           "normalized": "Fetcher-\u003eFilePath-\u003eString-\u003e[DebSource]-\u003e[DebSource]-\u003eIO(Map Text(DebianVersion,DebianVersion))",
@@ -9557,6 +10319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecalculate all the trumped packages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Report",
           "name": "trumpedMap",
           "package": "debian",
@@ -9566,6 +10329,7 @@
         "index": {
           "description": "calculate all the trumped packages",
           "hierarchy": "Debian Report",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Report",
           "name": "trumpedMap",
           "normalized": "Map Text DebianVersion-\u003eMap Text DebianVersion-\u003eMap Text(DebianVersion,DebianVersion)",
@@ -9582,6 +10346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate \u003ca\u003e/\u003c/a\u003e XML element and children from a trumped Map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Report",
           "name": "trumpedXML",
           "package": "debian",
@@ -9592,6 +10357,7 @@
         "index": {
           "description": "create XML element and children from trumped Map",
           "hierarchy": "Debian Report",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Report",
           "name": "trumpedXML",
           "normalized": "Map Text(DebianVersion,DebianVersion)-\u003eCFilter Posn",
@@ -9607,6 +10373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Sources",
           "name": "Sources",
           "package": "debian",
@@ -9615,6 +10382,7 @@
         },
         "index": {
           "hierarchy": "Debian Sources",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Sources",
           "name": "Sources",
           "package": "debian",
@@ -9628,6 +10396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Sources",
           "name": "DebSource",
           "package": "debian",
@@ -9636,6 +10405,7 @@
         },
         "index": {
           "hierarchy": "Debian Sources",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Sources",
           "name": "DebSource",
           "package": "debian",
@@ -9650,6 +10420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a name given to a combination of parts of one or more\n releases that can be specified by a sources.list file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Sources",
           "name": "SliceName",
           "package": "debian",
@@ -9659,6 +10430,7 @@
         "index": {
           "description": "This is name given to combination of parts of one or more releases that can be specified by sources.list file",
           "hierarchy": "Debian Sources",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Sources",
           "name": "SliceName",
           "package": "debian",
@@ -9672,6 +10444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Sources",
           "name": "SourceType",
           "package": "debian",
@@ -9680,6 +10453,7 @@
         },
         "index": {
           "hierarchy": "Debian Sources",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Sources",
           "name": "SourceType",
           "package": "debian",
@@ -9693,6 +10467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Sources",
           "name": "Deb",
           "package": "debian",
@@ -9702,6 +10477,7 @@
         },
         "index": {
           "hierarchy": "Debian Sources",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Sources",
           "name": "Deb",
           "package": "debian",
@@ -9715,6 +10491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Sources",
           "name": "DebSource",
           "package": "debian",
@@ -9724,6 +10501,7 @@
         },
         "index": {
           "hierarchy": "Debian Sources",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Sources",
           "name": "DebSource",
           "package": "debian",
@@ -9737,6 +10515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Sources",
           "name": "DebSrc",
           "package": "debian",
@@ -9746,6 +10525,7 @@
         },
         "index": {
           "hierarchy": "Debian Sources",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Sources",
           "name": "DebSrc",
           "package": "debian",
@@ -9760,6 +10540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparseSourceLine -- parses a source line\n the argument must be a non-empty, valid source line with comments stripped\n see: \u003ccode\u003e\u003ca\u003esourceLines\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Sources",
           "name": "parseSourceLine",
           "package": "debian",
@@ -9770,6 +10551,7 @@
         "index": {
           "description": "parseSourceLine parses source line the argument must be non-empty valid source line with comments stripped see sourceLines",
           "hierarchy": "Debian Sources",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Sources",
           "name": "parseSourceLine",
           "normalized": "String-\u003eDebSource",
@@ -9785,6 +10567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Sources",
           "name": "parseSourceLine'",
           "package": "debian",
@@ -9794,6 +10577,7 @@
         },
         "index": {
           "hierarchy": "Debian Sources",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Sources",
           "name": "parseSourceLine'",
           "normalized": "String-\u003eMaybe DebSource",
@@ -9809,6 +10593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Sources",
           "name": "parseSourcesList",
           "package": "debian",
@@ -9818,6 +10603,7 @@
         },
         "index": {
           "hierarchy": "Debian Sources",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Sources",
           "name": "parseSourcesList",
           "normalized": "String-\u003e[DebSource]",
@@ -9834,6 +10620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equoteWords - similar to words, but with special handling of\n double-quotes and brackets.\n\u003c/p\u003e\u003cp\u003eThe handling double quotes and [] is supposed to match:\n apt-0.6.44.2/apt-pkg/contrib/strutl.cc:ParseQuoteWord()\n\u003c/p\u003e\u003cp\u003eThe behaviour can be defined as:\n\u003c/p\u003e\u003cp\u003eBreak the string into space seperated words ignoring spaces that\n  appear between \"\" or []. Strip trailing and leading white space\n  around words. Strip out double quotes, but leave the square\n  brackets intact.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Sources",
           "name": "quoteWords",
           "package": "debian",
@@ -9844,6 +10631,7 @@
         "index": {
           "description": "quoteWords similar to words but with special handling of double-quotes and brackets The handling double quotes and is supposed to match apt-0.6.44.2 apt-pkg contrib strutl.cc ParseQuoteWord The behaviour can be defined as Break the string into space seperated words ignoring spaces that appear between or Strip trailing and leading white space around words Strip out double quotes but leave the square brackets intact",
           "hierarchy": "Debian Sources",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Sources",
           "name": "quoteWords",
           "normalized": "String-\u003e[String]",
@@ -9859,6 +10647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Sources",
           "name": "sourceDist",
           "package": "debian",
@@ -9868,6 +10657,7 @@
         },
         "index": {
           "hierarchy": "Debian Sources",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Sources",
           "name": "sourceDist",
           "normalized": "Either String(ReleaseName,[Section])",
@@ -9883,6 +10673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Sources",
           "name": "sourceLines",
           "package": "debian",
@@ -9892,6 +10683,7 @@
         },
         "index": {
           "hierarchy": "Debian Sources",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Sources",
           "name": "sourceLines",
           "normalized": "String-\u003e[String]",
@@ -9907,6 +10699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Sources",
           "name": "sourceType",
           "package": "debian",
@@ -9916,6 +10709,7 @@
         },
         "index": {
           "hierarchy": "Debian Sources",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Sources",
           "name": "sourceType",
           "package": "debian",
@@ -9929,6 +10723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Sources",
           "name": "sourceUri",
           "package": "debian",
@@ -9938,6 +10733,7 @@
         },
         "index": {
           "hierarchy": "Debian Sources",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Sources",
           "name": "sourceUri",
           "package": "debian",
@@ -9951,6 +10747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Sources",
           "name": "stripLine",
           "package": "debian",
@@ -9960,6 +10757,7 @@
         },
         "index": {
           "hierarchy": "Debian Sources",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Sources",
           "name": "stripLine",
           "normalized": "String-\u003eString",
@@ -9975,6 +10773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Time",
           "name": "Time",
           "package": "debian",
@@ -9983,6 +10782,7 @@
         },
         "index": {
           "hierarchy": "Debian Time",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Time",
           "name": "Time",
           "package": "debian",
@@ -9996,6 +10796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Time",
           "name": "epochTimeToUTCTime",
           "package": "debian",
@@ -10005,6 +10806,7 @@
         },
         "index": {
           "hierarchy": "Debian Time",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Time",
           "name": "epochTimeToUTCTime",
           "normalized": "EpochTime-\u003eUTCTime",
@@ -10020,6 +10822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Time",
           "name": "formatTimeRFC822",
           "package": "debian",
@@ -10029,6 +10832,7 @@
         },
         "index": {
           "hierarchy": "Debian Time",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Time",
           "name": "formatTimeRFC822",
           "normalized": "a-\u003eString",
@@ -10044,6 +10848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Time",
           "name": "getCurrentLocalRFC822Time",
           "package": "debian",
@@ -10053,6 +10858,7 @@
         },
         "index": {
           "hierarchy": "Debian Time",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Time",
           "name": "getCurrentLocalRFC822Time",
           "package": "debian",
@@ -10066,6 +10872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Time",
           "name": "parseTimeRFC822",
           "package": "debian",
@@ -10075,6 +10882,7 @@
         },
         "index": {
           "hierarchy": "Debian Time",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Time",
           "name": "parseTimeRFC822",
           "normalized": "String-\u003eMaybe a",
@@ -10090,6 +10898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Time",
           "name": "rfc822DateFormat",
           "package": "debian",
@@ -10099,6 +10908,7 @@
         },
         "index": {
           "hierarchy": "Debian Time",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Time",
           "name": "rfc822DateFormat",
           "package": "debian",
@@ -10112,6 +10922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.URI",
           "name": "URI",
           "package": "debian",
@@ -10120,6 +10931,7 @@
         },
         "index": {
           "hierarchy": "Debian URI",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.URI",
           "name": "URI",
           "package": "debian",
@@ -10134,6 +10946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper around a String containing a known parsable URI.  Not\n absolutely safe, because you could say read \u003ca\u003eURI' \"bogus string\"\u003c/a\u003e\n :: URI'.  But enough to save me from myself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.URI",
           "name": "URI'",
           "package": "debian",
@@ -10143,6 +10956,7 @@
         "index": {
           "description": "wrapper around String containing known parsable URI Not absolutely safe because you could say read URI bogus string URI But enough to save me from myself",
           "hierarchy": "Debian URI",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.URI",
           "name": "URI'",
           "package": "debian",
@@ -10156,6 +10970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.URI",
           "name": "dirFromURI",
           "package": "debian",
@@ -10165,6 +10980,7 @@
         },
         "index": {
           "hierarchy": "Debian URI",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.URI",
           "name": "dirFromURI",
           "normalized": "URI-\u003eIO(Either SomeException[String])",
@@ -10180,6 +10996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.URI",
           "name": "fileFromURI",
           "package": "debian",
@@ -10189,6 +11006,7 @@
         },
         "index": {
           "hierarchy": "Debian URI",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.URI",
           "name": "fileFromURI",
           "normalized": "URI-\u003eIO(Either SomeException ByteString)",
@@ -10204,6 +11022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.URI",
           "name": "fileFromURIStrict",
           "package": "debian",
@@ -10213,6 +11032,7 @@
         },
         "index": {
           "hierarchy": "Debian URI",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.URI",
           "name": "fileFromURIStrict",
           "normalized": "URI-\u003eIO(Either SomeException ByteString)",
@@ -10228,6 +11048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.URI",
           "name": "fromURI'",
           "package": "debian",
@@ -10237,6 +11058,7 @@
         },
         "index": {
           "hierarchy": "Debian URI",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.URI",
           "name": "fromURI'",
           "normalized": "URI'-\u003eURI",
@@ -10252,6 +11074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.URI",
           "name": "readURI'",
           "package": "debian",
@@ -10261,6 +11084,7 @@
         },
         "index": {
           "hierarchy": "Debian URI",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.URI",
           "name": "readURI'",
           "normalized": "String-\u003eMaybe URI'",
@@ -10277,6 +11101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsing the bogus Show instance of URI here.  If it ever gets fixed\n this will stop working.  Worth noting that show will obscure any\n password info embedded in the URI, so that's nice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.URI",
           "name": "toURI'",
           "package": "debian",
@@ -10287,6 +11112,7 @@
         "index": {
           "description": "Using the bogus Show instance of URI here If it ever gets fixed this will stop working Worth noting that show will obscure any password info embedded in the URI so that nice",
           "hierarchy": "Debian URI",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.URI",
           "name": "toURI'",
           "normalized": "URI-\u003eURI'",
@@ -10302,6 +11128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.URI",
           "name": "uriToString'",
           "package": "debian",
@@ -10311,6 +11138,7 @@
         },
         "index": {
           "hierarchy": "Debian URI",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.URI",
           "name": "uriToString'",
           "normalized": "URI-\u003eString",
@@ -10327,6 +11155,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThere are old index files that have funky characters like '&#248;'\n that are not properly UTF8 encoded.  As far as I can tell, these\n files are otherwise plain ascii, so just naivelyinsert the\n character into the output stream.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.UTF8",
           "name": "UTF8",
           "package": "debian",
@@ -10336,6 +11165,7 @@
         "index": {
           "description": "There are old index files that have funky characters like that are not properly UTF8 encoded As far as can tell these files are otherwise plain ascii so just naivelyinsert the character into the output stream",
           "hierarchy": "Debian UTF8",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.UTF8",
           "name": "UTF8",
           "package": "debian",
@@ -10349,6 +11179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.UTF8",
           "name": "decode",
           "package": "debian",
@@ -10358,6 +11189,7 @@
         },
         "index": {
           "hierarchy": "Debian UTF8",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.UTF8",
           "name": "decode",
           "normalized": "ByteString-\u003eText",
@@ -10372,6 +11204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.UTF8",
           "name": "readFile",
           "package": "debian",
@@ -10381,6 +11214,7 @@
         },
         "index": {
           "hierarchy": "Debian UTF8",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.UTF8",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO Text",
@@ -10396,6 +11230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Util.FakeChanges",
           "name": "FakeChanges",
           "package": "debian",
@@ -10404,6 +11239,7 @@
         },
         "index": {
           "hierarchy": "Debian Util FakeChanges",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Util.FakeChanges",
           "name": "FakeChanges",
           "package": "debian",
@@ -10417,6 +11253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Util.FakeChanges",
           "name": "fakeChanges",
           "package": "debian",
@@ -10426,6 +11263,7 @@
         },
         "index": {
           "hierarchy": "Debian Util FakeChanges",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Util.FakeChanges",
           "name": "fakeChanges",
           "normalized": "[FilePath]-\u003eIO(FilePath,String)",
@@ -10441,6 +11279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Version.ByteString",
           "name": "ByteString",
           "package": "debian",
@@ -10449,6 +11288,7 @@
         },
         "index": {
           "hierarchy": "Debian Version ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Version.ByteString",
           "name": "ByteString",
           "package": "debian",
@@ -10462,6 +11302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Version.ByteString",
           "name": "ParseDebianVersion",
           "package": "debian",
@@ -10470,6 +11311,7 @@
         },
         "index": {
           "hierarchy": "Debian Version ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Version.ByteString",
           "name": "ParseDebianVersion",
           "package": "debian",
@@ -10483,6 +11325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Version.ByteString",
           "name": "parseDebianVersion",
           "package": "debian",
@@ -10492,6 +11335,7 @@
         },
         "index": {
           "hierarchy": "Debian Version ByteString",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Version.ByteString",
           "name": "parseDebianVersion",
           "normalized": "a-\u003eDebianVersion",
@@ -10508,6 +11352,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module for parsing, comparing, and (eventually) modifying debian version\n numbers. \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s-f-Version\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Version.Common",
           "name": "Common",
           "package": "debian",
@@ -10517,6 +11362,7 @@
         "index": {
           "description": "module for parsing comparing and eventually modifying debian version numbers http www.debian.org doc debian-policy ch-controlfields.html s-f-Version",
           "hierarchy": "Debian Version Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Version.Common",
           "name": "Common",
           "package": "debian",
@@ -10530,6 +11376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Version.Common",
           "name": "DebianVersion",
           "package": "debian",
@@ -10538,6 +11385,7 @@
         },
         "index": {
           "hierarchy": "Debian Version Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Version.Common",
           "name": "DebianVersion",
           "package": "debian",
@@ -10551,6 +11399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Version.Common",
           "name": "ParseDebianVersion",
           "package": "debian",
@@ -10559,6 +11408,7 @@
         },
         "index": {
           "hierarchy": "Debian Version Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Version.Common",
           "name": "ParseDebianVersion",
           "package": "debian",
@@ -10648,6 +11498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a string to a debian version number. May throw an\n exception if the string is unparsable -- but I am not sure if that\n can currently happen. Are there any invalid version strings?\n Perhaps ones with underscore, or something?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Version.Common",
           "name": "parseDV",
           "package": "debian",
@@ -10658,6 +11509,7 @@
         "index": {
           "description": "Convert string to debian version number May throw an exception if the string is unparsable but am not sure if that can currently happen Are there any invalid version strings Perhaps ones with underscore or something",
           "hierarchy": "Debian Version Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Version.Common",
           "name": "parseDV",
           "normalized": "CharParser()(Found Int,NonNumeric,Found NonNumeric)",
@@ -10673,6 +11525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Version.Common",
           "name": "parseDebianVersion",
           "package": "debian",
@@ -10682,6 +11535,7 @@
         },
         "index": {
           "hierarchy": "Debian Version Common",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Version.Common",
           "name": "parseDebianVersion",
           "normalized": "a-\u003eDebianVersion",
@@ -10770,6 +11624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Version.String",
           "name": "String",
           "package": "debian",
@@ -10778,6 +11633,7 @@
         },
         "index": {
           "hierarchy": "Debian Version String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Version.String",
           "name": "String",
           "package": "debian",
@@ -10791,6 +11647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Version.String",
           "name": "ParseDebianVersion",
           "package": "debian",
@@ -10799,6 +11656,7 @@
         },
         "index": {
           "hierarchy": "Debian Version String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Version.String",
           "name": "ParseDebianVersion",
           "package": "debian",
@@ -10812,6 +11670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Version.String",
           "name": "parseDebianVersion",
           "package": "debian",
@@ -10821,6 +11680,7 @@
         },
         "index": {
           "hierarchy": "Debian Version String",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Version.String",
           "name": "parseDebianVersion",
           "normalized": "a-\u003eDebianVersion",
@@ -10836,6 +11696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Version.Text",
           "name": "Text",
           "package": "debian",
@@ -10844,6 +11705,7 @@
         },
         "index": {
           "hierarchy": "Debian Version Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Version.Text",
           "name": "Text",
           "package": "debian",
@@ -10857,6 +11719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Version.Text",
           "name": "ParseDebianVersion",
           "package": "debian",
@@ -10865,6 +11728,7 @@
         },
         "index": {
           "hierarchy": "Debian Version Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Version.Text",
           "name": "ParseDebianVersion",
           "package": "debian",
@@ -10878,6 +11742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Version.Text",
           "name": "parseDebianVersion",
           "package": "debian",
@@ -10887,6 +11752,7 @@
         },
         "index": {
           "hierarchy": "Debian Version Text",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Version.Text",
           "name": "parseDebianVersion",
           "normalized": "a-\u003eDebianVersion",
@@ -10903,6 +11769,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module for parsing, comparing, and (eventually) modifying debian version\n numbers. \u003ca\u003ehttp://www.debian.org/doc/debian-policy/ch-controlfields.html#s-f-Version\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Version",
           "name": "Version",
           "package": "debian",
@@ -10912,6 +11779,7 @@
         "index": {
           "description": "module for parsing comparing and eventually modifying debian version numbers http www.debian.org doc debian-policy ch-controlfields.html s-f-Version",
           "hierarchy": "Debian Version",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Version",
           "name": "Version",
           "package": "debian",
@@ -10925,6 +11793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Version",
           "name": "DebianVersion",
           "package": "debian",
@@ -10933,6 +11802,7 @@
         },
         "index": {
           "hierarchy": "Debian Version",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Version",
           "name": "DebianVersion",
           "package": "debian",
@@ -10946,6 +11816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:11 UTC 2014",
           "module": "Debian.Version",
           "name": "parseDebianVersion",
           "package": "debian",
@@ -10955,6 +11826,7 @@
         },
         "index": {
           "hierarchy": "Debian Version",
+          "indexed": "2014-03-11T17:52:11",
           "module": "Debian.Version",
           "name": "parseDebianVersion",
           "normalized": "a-\u003eDebianVersion",

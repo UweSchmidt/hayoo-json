@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Operads"
+        "phrase": "Operads",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "Operad",
           "package": "Operads",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "Operad",
           "package": "Operads",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the fundamental datatype of the whole project. Monomials in a free operad\n are decorated trees, and we build a type for decorated trees here. We require our \n trees to have Int labels, limiting us to at most 2 147 483 647 leaf labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "DecoratedTree",
           "package": "Operads",
@@ -49,6 +52,7 @@
         "index": {
           "description": "This is the fundamental datatype of the whole project Monomials in free operad are decorated trees and we build type for decorated trees here We require our trees to have Int labels limiting us to at most leaf labels",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "DecoratedTree",
           "package": "Operads",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type to move the results of finding an embedding point for a subtree in a larger tree\n around. The tree is guaranteed to have exactly one corolla tagged Nothing, the subtrees on top of\n that corolla sorted by minimal covering leaf in the original setting, and the shuffle carried around\n is guaranteed to restore the original leaf labels before the search.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "Embedding",
           "package": "Operads",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Data type to move the results of finding an embedding point for subtree in larger tree around The tree is guaranteed to have exactly one corolla tagged Nothing the subtrees on top of that corolla sorted by minimal covering leaf in the original setting and the shuffle carried around is guaranteed to restore the original leaf labels before the search",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "Embedding",
           "package": "Operads",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "FreeOperad",
           "package": "Operads",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "FreeOperad",
           "package": "Operads",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "MonomialMap",
           "package": "Operads",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "MonomialMap",
           "package": "Operads",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type carrying operadic elements. An element in an operad is an associative array \n with keys being labeled trees and values being their coefficients. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "OperadElement",
           "package": "Operads",
@@ -137,6 +148,7 @@
         "index": {
           "description": "The type carrying operadic elements An element in an operad is an associative array with keys being labeled trees and values being their coefficients",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "OperadElement",
           "package": "Operads",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonomial orderings on the free operad requires us to choose an ordering for the\n trees. These are parametrized by types implementing the type class \u003ccode\u003e\u003ca\u003eTreeOrdering\u003c/a\u003e\u003c/code\u003e, \n and this is a data type for a tree carrying its comparison type. We call these \n \u003cem\u003eordered trees\u003c/em\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "OrderedTree",
           "package": "Operads",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Monomial orderings on the free operad requires us to choose an ordering for the trees These are parametrized by types implementing the type class TreeOrdering and this is data type for tree carrying its comparison type We call these ordered trees",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "OrderedTree",
           "package": "Operads",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis yields user interface functions for human readable printing of objects.\n The idea is to use \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instances for marshalling of data, and \u003ccode\u003e\u003ca\u003ePPrint\u003c/a\u003e\u003c/code\u003e for\n user interaction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "PPrint",
           "package": "Operads",
@@ -183,6 +198,7 @@
         "index": {
           "description": "This yields user interface functions for human readable printing of objects The idea is to use Show instances for marshalling of data and PPrint for user interaction",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "PPrint",
           "package": "Operads",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsing the path sequence, the leaf orders and order reversal, we can get 8 different orderings\n from one paradigm. These are given by \u003ccode\u003e\u003ca\u003ePathPerm\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eRPathPerm\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ePathRPerm\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eRPathRPerm\u003c/a\u003e\u003c/code\u003e for the \n variations giving (possibly reversed) path sequence comparison precedence over (possibly reversed)\n leaf permutations; additionally, there are \u003ccode\u003e\u003ca\u003ePermPath\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eRPermPath\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ePermRPath\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRPermRPath\u003c/a\u003e\u003c/code\u003e\n for the variations with the opposite precedence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "PathPerm",
           "package": "Operads",
@@ -206,6 +223,7 @@
         "index": {
           "description": "Using the path sequence the leaf orders and order reversal we can get different orderings from one paradigm These are given by PathPerm RPathPerm PathRPerm RPathRPerm for the variations giving possibly reversed path sequence comparison precedence over possibly reversed leaf permutations additionally there are PermPath RPermPath PermRPath and RPermRPath for the variations with the opposite precedence",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "PathPerm",
           "package": "Operads",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "PathRPerm",
           "package": "Operads",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "PathRPerm",
           "package": "Operads",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "PermPath",
           "package": "Operads",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "PermPath",
           "package": "Operads",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "PermRPath",
           "package": "Operads",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "PermRPath",
           "package": "Operads",
@@ -283,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fundamental tree data type used. Leaves carry labels - most often integral -\n and these are expected to control, e.g., composition points in shuffle operad compositions.\n The vertices carry labels, used for the ordering on trees and to distinguish different\n basis corollas of the same arity. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "PreDecoratedTree",
           "package": "Operads",
@@ -292,6 +317,7 @@
         "index": {
           "description": "The fundamental tree data type used Leaves carry labels most often integral and these are expected to control e.g composition points in shuffle operad compositions The vertices carry labels used for the ordering on trees and to distinguish different basis corollas of the same arity",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "PreDecoratedTree",
           "package": "Operads",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "RPathPerm",
           "package": "Operads",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "RPathPerm",
           "package": "Operads",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "RPathRPerm",
           "package": "Operads",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "RPathRPerm",
           "package": "Operads",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "RPermPath",
           "package": "Operads",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "RPermPath",
           "package": "Operads",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "RPermRPath",
           "package": "Operads",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "RPermRPath",
           "package": "Operads",
@@ -390,6 +424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shuffle is a special kind of sequence of integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "Shuffle",
           "package": "Operads",
@@ -399,6 +434,7 @@
         "index": {
           "description": "shuffle is special kind of sequence of integers",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "Shuffle",
           "package": "Operads",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "Tree",
           "package": "Operads",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "Tree",
           "package": "Operads",
@@ -434,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type class that parametrizes types implementing tree orderings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "TreeOrdering",
           "package": "Operads",
@@ -443,6 +482,7 @@
         "index": {
           "description": "The type class that parametrizes types implementing tree orderings",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "TreeOrdering",
           "package": "Operads",
@@ -457,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScalar multiplication in the operad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "(.*.)",
           "package": "Operads",
@@ -467,6 +508,7 @@
         "index": {
           "description": "Scalar multiplication in the operad",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "(.*.) .*.",
           "normalized": "a-\u003eOperadElement b a c-\u003eOperadElement b a c",
@@ -481,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "DTLeaf",
           "package": "Operads",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "DTLeaf",
           "package": "Operads",
@@ -503,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "DTVertex",
           "package": "Operads",
@@ -512,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "DTVertex",
           "package": "Operads",
@@ -525,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "OE",
           "package": "Operads",
@@ -534,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "OE",
           "package": "Operads",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "OT",
           "package": "Operads",
@@ -556,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "OT",
           "package": "Operads",
@@ -569,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "PathPerm",
           "package": "Operads",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "PathPerm",
           "package": "Operads",
@@ -591,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "PathRPerm",
           "package": "Operads",
@@ -600,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "PathRPerm",
           "package": "Operads",
@@ -613,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "PermPath",
           "package": "Operads",
@@ -622,6 +677,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "PermPath",
           "package": "Operads",
@@ -635,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "PermRPath",
           "package": "Operads",
@@ -644,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "PermRPath",
           "package": "Operads",
@@ -657,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "RPathPerm",
           "package": "Operads",
@@ -666,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "RPathPerm",
           "package": "Operads",
@@ -679,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "RPathRPerm",
           "package": "Operads",
@@ -688,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "RPathRPerm",
           "package": "Operads",
@@ -701,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "RPermPath",
           "package": "Operads",
@@ -710,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "RPermPath",
           "package": "Operads",
@@ -723,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "RPermRPath",
           "package": "Operads",
@@ -732,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "RPermRPath",
           "package": "Operads",
@@ -746,6 +812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates shuffle permutations by filling buckets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "allShPerm",
           "package": "Operads",
@@ -756,6 +823,7 @@
         "index": {
           "description": "Generates shuffle permutations by filling buckets",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "allShPerm",
           "normalized": "Int-\u003e[Int]-\u003e[[[Int]]]",
@@ -772,6 +840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates all shuffles from Sh_i(p,q). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "allShuffles",
           "package": "Operads",
@@ -782,6 +851,7 @@
         "index": {
           "description": "Generates all shuffles from Sh",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "allShuffles",
           "normalized": "Int-\u003eInt-\u003eInt-\u003e[Shuffle]",
@@ -798,6 +868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll trees composed from the given generators of operation degree n.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "allTrees",
           "package": "Operads",
@@ -808,6 +879,7 @@
         "index": {
           "description": "All trees composed from the given generators of operation degree",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "allTrees",
           "normalized": "[DecoratedTree a]-\u003eInt-\u003e[DecoratedTree a]",
@@ -824,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies \u003ccode\u003ef\u003c/code\u003e only at the \u003ccode\u003en\u003c/code\u003eth place in a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "applyAt",
           "package": "Operads",
@@ -834,6 +907,7 @@
         "index": {
           "description": "Applies only at the th place in list",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "applyAt",
           "normalized": "(a-\u003ea)-\u003eInt-\u003e[a]-\u003e[a]",
@@ -850,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis applies the resulting permutation from a shuffle to a set of elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "applyPerm",
           "package": "Operads",
@@ -860,6 +935,7 @@
         "index": {
           "description": "This applies the resulting permutation from shuffle to set of elements",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "applyPerm",
           "normalized": "Shuffle-\u003e[a]-\u003e[a]",
@@ -876,6 +952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies the reconstruction map represented by em to all trees in the operad element op. Any operad element that \n fails the reconstruction (by having the wrong total arity, for instance) will be silently dropped. We recommend\n you apply this function only to homogenous operad elements, but will not make that check.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "applyReconstruction",
           "package": "Operads",
@@ -886,6 +963,7 @@
         "index": {
           "description": "Applies the reconstruction map represented by em to all trees in the operad element op Any operad element that fails the reconstruction by having the wrong total arity for instance will be silently dropped We recommend you apply this function only to homogenous operad elements but will not make that check",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "applyReconstruction",
           "normalized": "Embedding a-\u003eOperadElement a b c-\u003eOperadElement a b c",
@@ -902,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003earityDegree\u003c/a\u003e\u003c/code\u003e is one less than \u003ccode\u003e\u003ca\u003enLeaves\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "arityDegree",
           "package": "Operads",
@@ -912,6 +991,7 @@
         "index": {
           "description": "arityDegree is one less than nLeaves",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "arityDegree",
           "normalized": "DecoratedTree a-\u003eInt",
@@ -928,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate basis trees for a given Groebner basis for degree \u003ccode\u003emaxDegree\u003c/code\u003e. \u003ccode\u003edivisors\u003c/code\u003e is expected\n to contain the leading monomials in the Groebner basis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "basisElements",
           "package": "Operads",
@@ -938,6 +1019,7 @@
         "index": {
           "description": "Generate basis trees for given Groebner basis for degree maxDegree divisors is expected to contain the leading monomials in the Groebner basis",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "basisElements",
           "normalized": "[DecoratedTree a]-\u003e[DecoratedTree a]-\u003eInt-\u003e[DecoratedTree a]",
@@ -954,6 +1036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the monomial order used for a specific tree. Use this in conjunction with mapMonomials\n in order to change monomial order for an entire operad element. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "changeOrder",
           "package": "Operads",
@@ -964,6 +1047,7 @@
         "index": {
           "description": "Change the monomial order used for specific tree Use this in conjunction with mapMonomials in order to change monomial order for an entire operad element",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "changeOrder",
           "normalized": "a-\u003eOrderedTree b c-\u003eOrderedTree b a",
@@ -980,6 +1064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerification for a shuffle used for the g(s;t1,..,tk) style composition in the shuffle operad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "checkShuffleAll",
           "package": "Operads",
@@ -990,6 +1075,7 @@
         "index": {
           "description": "Verification for shuffle used for the t1 tk style composition in the shuffle operad",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "checkShuffleAll",
           "normalized": "Shuffle-\u003e[Int]-\u003eBool",
@@ -1005,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "comparePathSequence",
           "package": "Operads",
@@ -1014,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "comparePathSequence",
           "normalized": "a-\u003eDecoratedTree b-\u003e([[b]],Shuffle)-\u003eDecoratedTree b-\u003e([[b]],Shuffle)-\u003eOrdering",
@@ -1030,6 +1118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a single corolla in a decorated tree. Takes a list for labels for the leaves, and derives\n the arity of the corolla from those. This, and the composition functions, form the preferred method\n to construct trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "corolla",
           "package": "Operads",
@@ -1040,6 +1129,7 @@
         "index": {
           "description": "Build single corolla in decorated tree Takes list for labels for the leaves and derives the arity of the corolla from those This and the composition functions form the preferred method to construct trees",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "corolla",
           "normalized": "a-\u003e[Int]-\u003eDecoratedTree a",
@@ -1055,6 +1145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if there is a subtree of \u003ccode\u003et\u003c/code\u003e isomorphic to \u003ccode\u003es\u003c/code\u003e, respecting leaf orders. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "divides",
           "package": "Operads",
@@ -1065,6 +1156,7 @@
         "index": {
           "description": "Returns True if there is subtree of isomorphic to respecting leaf orders",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "divides",
           "normalized": "DecoratedTree a-\u003eDecoratedTree a-\u003eBool",
@@ -1080,6 +1172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if s and t divide u, with different embeddings and t sharing root with u.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "dividesDifferent",
           "package": "Operads",
@@ -1090,6 +1183,7 @@
         "index": {
           "description": "Returns True if and divide with different embeddings and sharing root with",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "dividesDifferent",
           "normalized": "DecoratedTree a-\u003eDecoratedTree a-\u003eDecoratedTree a-\u003eBool",
@@ -1106,6 +1200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if there is a subtree of \u003ccode\u003et\u003c/code\u003e isomorphic to \u003ccode\u003es\u003c/code\u003e, respecting leaf orders, and not located at the root.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "dividesHigh",
           "package": "Operads",
@@ -1116,6 +1211,7 @@
         "index": {
           "description": "Returns True if there is subtree of isomorphic to respecting leaf orders and not located at the root",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "dividesHigh",
           "normalized": "DecoratedTree a-\u003eDecoratedTree a-\u003eBool",
@@ -1132,6 +1228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if there is a rooted subtree of \u003ccode\u003et\u003c/code\u003e isomorphic to \u003ccode\u003es\u003c/code\u003e, respecting leaf orders.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "dividesRooted",
           "package": "Operads",
@@ -1142,6 +1239,7 @@
         "index": {
           "description": "Returns True if there is rooted subtree of isomorphic to respecting leaf orders",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "dividesRooted",
           "normalized": "DecoratedTree a-\u003eDecoratedTree a-\u003eBool",
@@ -1158,6 +1256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracting the underlying tree from an ordered tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "dt",
           "package": "Operads",
@@ -1168,6 +1267,7 @@
         "index": {
           "description": "Extracting the underlying tree from an ordered tree",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "dt",
           "normalized": "OrderedTree a b-\u003eDecoratedTree a",
@@ -1183,6 +1283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerifies that two integer sequences correspond to the same total ordering of the entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "equivalentOrders",
           "package": "Operads",
@@ -1193,6 +1294,7 @@
         "index": {
           "description": "Verifies that two integer sequences correspond to the same total ordering of the entries",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "equivalentOrders",
           "normalized": "[Int]-\u003e[Int]-\u003eBool",
@@ -1209,6 +1311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracting the internal structure of the an element of the free operad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "extractMap",
           "package": "Operads",
@@ -1219,6 +1322,7 @@
         "index": {
           "description": "Extracting the internal structure of the an element of the free operad",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "extractMap",
           "normalized": "OperadElement a b c-\u003eMonomialMap a c b",
@@ -1235,6 +1339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds all small common multiples of two trees, bounding the internal operation degree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "findAllBoundedSCM",
           "package": "Operads",
@@ -1245,6 +1350,7 @@
         "index": {
           "description": "Finds all small common multiples of two trees bounding the internal operation degree",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "findAllBoundedSCM",
           "normalized": "Int-\u003eDecoratedTree a-\u003eDecoratedTree a-\u003e[DecoratedTree(Either a a)]",
@@ -1261,6 +1367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds all ways to embed s into t respecting leaf orders.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "findAllEmbeddings",
           "package": "Operads",
@@ -1271,6 +1378,7 @@
         "index": {
           "description": "Finds all ways to embed into respecting leaf orders",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "findAllEmbeddings",
           "normalized": "DecoratedTree a-\u003eDecoratedTree a-\u003e[Embedding a]",
@@ -1287,6 +1395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds all small common multiples of two trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "findAllSCM",
           "package": "Operads",
@@ -1297,6 +1406,7 @@
         "index": {
           "description": "Finds all small common multiples of two trees",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "findAllSCM",
           "normalized": "DecoratedTree a-\u003eDecoratedTree a-\u003e[DecoratedTree(Either a a)]",
@@ -1313,6 +1423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds all S polynomials for a given list of operad elements. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "findAllSPolynomials",
           "package": "Operads",
@@ -1323,6 +1434,7 @@
         "index": {
           "description": "Finds all polynomials for given list of operad elements",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "findAllSPolynomials",
           "normalized": "[OperadElement a b c]-\u003e[OperadElement a b c]-\u003e[OperadElement a b c]",
@@ -1339,6 +1451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds small common multiples of two trees bounding internal operation degree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "findBoundedSCM",
           "package": "Operads",
@@ -1349,6 +1462,7 @@
         "index": {
           "description": "Finds small common multiples of two trees bounding internal operation degree",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "findBoundedSCM",
           "normalized": "Int-\u003eDecoratedTree a-\u003eDecoratedTree a-\u003e[DecoratedTree(Either a a)]",
@@ -1365,6 +1479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocates the first vertex tagged with a \u003ccode\u003eRight\u003c/code\u003e constructor in a tree labeled with \u003ccode\u003eEither a b\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "findFirstRight",
           "package": "Operads",
@@ -1375,6 +1490,7 @@
         "index": {
           "description": "Locates the first vertex tagged with Right constructor in tree labeled with Either",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "findFirstRight",
           "normalized": "DecoratedTree(Either a b)-\u003eMaybe(DecoratedTree(Either a b))",
@@ -1391,6 +1507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds all S polynomials for which the operationdegree stays bounded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "findInitialSPolynomials",
           "package": "Operads",
@@ -1401,6 +1518,7 @@
         "index": {
           "description": "Finds all polynomials for which the operationdegree stays bounded",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "findInitialSPolynomials",
           "normalized": "Int-\u003e[OperadElement a b c]-\u003e[OperadElement a b c]-\u003e[OperadElement a b c]",
@@ -1417,6 +1535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-symmetric version of \u003ccode\u003e\u003ca\u003efindInitialSPolynomials\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "findNSInitialSPolynomials",
           "package": "Operads",
@@ -1427,6 +1546,7 @@
         "index": {
           "description": "Non-symmetric version of findInitialSPolynomials",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "findNSInitialSPolynomials",
           "normalized": "Int-\u003e[OperadElement a b c]-\u003e[OperadElement a b c]-\u003e[OperadElement a b c]",
@@ -1443,6 +1563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-symmetric version of \u003ccode\u003e\u003ca\u003efindSPolynomials\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "findNSSPolynomials",
           "package": "Operads",
@@ -1453,6 +1574,7 @@
         "index": {
           "description": "Non-symmetric version of findSPolynomials",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "findNSSPolynomials",
           "normalized": "Int-\u003eOperadElement a b c-\u003eOperadElement a b c-\u003e[OperadElement a b c]",
@@ -1469,6 +1591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds structural small common multiples, disregarding leaf labels completely.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "findNonSymmetricSCM",
           "package": "Operads",
@@ -1479,6 +1602,7 @@
         "index": {
           "description": "Finds structural small common multiples disregarding leaf labels completely",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "findNonSymmetricSCM",
           "normalized": "Int-\u003eDecoratedTree(Either a a)-\u003eDecoratedTree(Either a a)-\u003e[DecoratedTree(Either a a)]",
@@ -1495,6 +1619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds all ways to embed s into t, respecting leaf orders and mapping the root of s to the root of t.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "findRootedEmbedding",
           "package": "Operads",
@@ -1505,6 +1630,7 @@
         "index": {
           "description": "Finds all ways to embed into respecting leaf orders and mapping the root of to the root of",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "findRootedEmbedding",
           "normalized": "DecoratedTree a-\u003eDecoratedTree a-\u003eMaybe(Embedding a)",
@@ -1521,6 +1647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds rooted small common multiples of two trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "findRootedSCM",
           "package": "Operads",
@@ -1531,6 +1658,7 @@
         "index": {
           "description": "Finds rooted small common multiples of two trees",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "findRootedSCM",
           "normalized": "DecoratedTree a-\u003eDecoratedTree a-\u003eMaybe(DecoratedTree a)",
@@ -1547,6 +1675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds all S polynomials for a given pair of operad elements, keeping a bound on operation degree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "findSPolynomials",
           "package": "Operads",
@@ -1557,6 +1686,7 @@
         "index": {
           "description": "Finds all polynomials for given pair of operad elements keeping bound on operation degree",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "findSPolynomials",
           "normalized": "Int-\u003eOperadElement a b c-\u003eOperadElement a b c-\u003e[OperadElement a b c]",
@@ -1573,6 +1703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function for \u003ccode\u003e\u003ca\u003efindRootedEmbedding\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "findUnsortedRootedEmbedding",
           "package": "Operads",
@@ -1583,6 +1714,7 @@
         "index": {
           "description": "Helper function for findRootedEmbedding",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "findUnsortedRootedEmbedding",
           "normalized": "DecoratedTree a-\u003eDecoratedTree a-\u003eMaybe(Embedding a)",
@@ -1599,6 +1731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterchanges \u003ccode\u003eLeft\u003c/code\u003e to \u003ccode\u003eRight\u003c/code\u003e and \u003ccode\u003eRight\u003c/code\u003e to \u003ccode\u003eLeft\u003c/code\u003e for types \u003ccode\u003eEither a a\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "flipEither",
           "package": "Operads",
@@ -1609,6 +1742,7 @@
         "index": {
           "description": "Interchanges Left to Right and Right to Left for types Either",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "flipEither",
           "normalized": "Either a a-\u003eEither a a",
@@ -1625,6 +1759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies \u003ccode\u003eflipEither\u003c/code\u003e to the root vertex label of a tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "flipEitherRoot",
           "package": "Operads",
@@ -1635,6 +1770,7 @@
         "index": {
           "description": "Applies flipEither to the root vertex label of tree",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "flipEitherRoot",
           "normalized": "PreDecoratedTree(Either a a)b-\u003ePreDecoratedTree(Either a a)b",
@@ -1651,6 +1787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a function over all monomial trees in an operad element, collating the results in a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "foldMonomials",
           "package": "Operads",
@@ -1661,6 +1798,7 @@
         "index": {
           "description": "Fold function over all monomial trees in an operad element collating the results in list",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "foldMonomials",
           "normalized": "((OrderedTree a b,c)-\u003e[d]-\u003e[d])-\u003eOperadElement a c b-\u003e[d]",
@@ -1677,6 +1815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves vertex type encapsulations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "fromJustTree",
           "package": "Operads",
@@ -1687,6 +1826,7 @@
         "index": {
           "description": "Removes vertex type encapsulations",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "fromJustTree",
           "normalized": "DecoratedTree(Maybe a)-\u003eMaybe(DecoratedTree a)",
@@ -1703,6 +1843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a list of (tree,coefficient)-pairs, reconstruct the corresponding operad element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "fromList",
           "package": "Operads",
@@ -1713,6 +1854,7 @@
         "index": {
           "description": "Given list of tree coefficient pairs reconstruct the corresponding operad element",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "fromList",
           "normalized": "[(OrderedTree a b,c)]-\u003eOperadElement a c b",
@@ -1729,6 +1871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProjects vertex labels and applies leaf labels to a tree with internal labeling in \u003ccode\u003eEither a a\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "fuseTree",
           "package": "Operads",
@@ -1739,6 +1882,7 @@
         "index": {
           "description": "Projects vertex labels and applies leaf labels to tree with internal labeling in Either",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "fuseTree",
           "normalized": "DecoratedTree(Either a a)-\u003e[Int]-\u003eDecoratedTree(Either a a)",
@@ -1755,6 +1899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract all occurring monomial trees from an operad element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "getTrees",
           "package": "Operads",
@@ -1765,6 +1910,7 @@
         "index": {
           "description": "Extract all occurring monomial trees from an operad element",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "getTrees",
           "normalized": "OperadElement a b c-\u003e[OrderedTree a c]",
@@ -1781,6 +1927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a tree has trees as labels for its leaves, we can replace the leaves with the roots of\n those label trees. Thus we may glue together trees, as required by the compositions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "glueTrees",
           "package": "Operads",
@@ -1791,6 +1938,7 @@
         "index": {
           "description": "If tree has trees as labels for its leaves we can replace the leaves with the roots of those label trees Thus we may glue together trees as required by the compositions",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "glueTrees",
           "normalized": "PreDecoratedTree a(PreDecoratedTree a b)-\u003ePreDecoratedTree a b",
@@ -1807,6 +1955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the permutation inversely to \u003ccode\u003e\u003ca\u003eapplyPerm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "invApplyPerm",
           "package": "Operads",
@@ -1817,6 +1966,7 @@
         "index": {
           "description": "Apply the permutation inversely to applyPerm",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "invApplyPerm",
           "normalized": "Shuffle-\u003e[a]-\u003e[a]",
@@ -1833,6 +1983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a given root is a corolla.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "isCorolla",
           "package": "Operads",
@@ -1843,6 +1994,7 @@
         "index": {
           "description": "Check whether given root is corolla",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "isCorolla",
           "normalized": "DecoratedTree a-\u003eBool",
@@ -1859,6 +2011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck that an element of a free operad is homogenous\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "isHomogenous",
           "package": "Operads",
@@ -1869,6 +2022,7 @@
         "index": {
           "description": "Check that an element of free operad is homogenous",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "isHomogenous",
           "normalized": "OperadElement a b c-\u003eBool",
@@ -1885,6 +2039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a given root is a leaf.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "isLeaf",
           "package": "Operads",
@@ -1895,6 +2050,7 @@
         "index": {
           "description": "Check whether given root is leaf",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "isLeaf",
           "normalized": "DecoratedTree a-\u003eBool",
@@ -1911,6 +2067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSanity check for permutations. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "isPermutation",
           "package": "Operads",
@@ -1921,6 +2078,7 @@
         "index": {
           "description": "Sanity check for permutations",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "isPermutation",
           "normalized": "Shuffle-\u003eBool",
@@ -1937,6 +2095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis tests whether a given sequence of integers really is a shuffle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "isShuffle",
           "package": "Operads",
@@ -1947,6 +2106,7 @@
         "index": {
           "description": "This tests whether given sequence of integers really is shuffle",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "isShuffle",
           "normalized": "Shuffle-\u003eBool",
@@ -1963,6 +2123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis tests whether a given sequence of integers is an (i,j)-shuffle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "isShuffleIJ",
           "package": "Operads",
@@ -1973,6 +2134,7 @@
         "index": {
           "description": "This tests whether given sequence of integers is an shuffle",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "isShuffleIJ",
           "normalized": "Shuffle-\u003eInt-\u003eInt-\u003eBool",
@@ -1989,6 +2151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis tests whether a given sequence of integers is admissible for a specific composition operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "isShuffleIPQ",
           "package": "Operads",
@@ -1999,6 +2162,7 @@
         "index": {
           "description": "This tests whether given sequence of integers is admissible for specific composition operation",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "isShuffleIPQ",
           "normalized": "Shuffle-\u003eInt-\u003eInt-\u003eBool",
@@ -2015,6 +2179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe need to recognize sorted sequences of integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "isSorted",
           "package": "Operads",
@@ -2025,6 +2190,7 @@
         "index": {
           "description": "We need to recognize sorted sequences of integers",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "isSorted",
           "normalized": "[a]-\u003eBool",
@@ -2041,6 +2207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether an element is equal to 0. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "isZero",
           "package": "Operads",
@@ -2051,6 +2218,7 @@
         "index": {
           "description": "Check whether an element is equal to",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "isZero",
           "normalized": "OperadElement a b c-\u003eBool",
@@ -2067,6 +2235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate all subsets of length k from a given list. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "kSubsets",
           "package": "Operads",
@@ -2077,6 +2246,7 @@
         "index": {
           "description": "Generate all subsets of length from given list",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "kSubsets",
           "normalized": "Int-\u003e[Int]-\u003e[[Int]]",
@@ -2093,6 +2263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePicks out the last nonzero entry in a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "lastNonzero",
           "package": "Operads",
@@ -2103,6 +2274,7 @@
         "index": {
           "description": "Picks out the last nonzero entry in list",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "lastNonzero",
           "normalized": "[a]-\u003eInt",
@@ -2119,6 +2291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the leading coefficient of an operad element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "leadingCoefficient",
           "package": "Operads",
@@ -2129,6 +2302,7 @@
         "index": {
           "description": "Extract the leading coefficient of an operad element",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "leadingCoefficient",
           "normalized": "OperadElement a b c-\u003eb",
@@ -2145,6 +2319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the tree for the leading term of an operad element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "leadingMonomial",
           "package": "Operads",
@@ -2155,6 +2330,7 @@
         "index": {
           "description": "Extract the tree for the leading term of an operad element",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "leadingMonomial",
           "normalized": "OperadElement a b c-\u003eDecoratedTree a",
@@ -2171,6 +2347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the ordered tree for the leading term of an operad element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "leadingOMonomial",
           "package": "Operads",
@@ -2181,6 +2358,7 @@
         "index": {
           "description": "Extract the ordered tree for the leading term of an operad element",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "leadingOMonomial",
           "normalized": "OperadElement a b c-\u003eOrderedTree a c",
@@ -2197,6 +2375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the leading term of an operad element as an operad element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "leadingOTerm",
           "package": "Operads",
@@ -2207,6 +2386,7 @@
         "index": {
           "description": "Extract the leading term of an operad element as an operad element",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "leadingOTerm",
           "normalized": "OperadElement a b c-\u003eOperadElement a b c",
@@ -2223,6 +2403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the leading term of an operad element. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "leadingTerm",
           "package": "Operads",
@@ -2233,6 +2414,7 @@
         "index": {
           "description": "Extract the leading term of an operad element",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "leadingTerm",
           "normalized": "OperadElement a b c-\u003e(OrderedTree a c,b)",
@@ -2249,6 +2431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a single leaf.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "leaf",
           "package": "Operads",
@@ -2259,6 +2442,7 @@
         "index": {
           "description": "Build single leaf",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "leaf",
           "normalized": "Int-\u003eDecoratedTree a",
@@ -2274,6 +2458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursive algorithm to figure out correct leaf labels for a reconstructed small common multiple of two trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "leafLabels",
           "package": "Operads",
@@ -2284,6 +2469,7 @@
         "index": {
           "description": "Recursive algorithm to figure out correct leaf labels for reconstructed small common multiple of two trees",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "leafLabels",
           "normalized": "DecoratedTree a-\u003e[Int]-\u003e[Int]-\u003e[[Int]]",
@@ -2300,6 +2486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the permutation the leaf labeling ordains for inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "leafOrder",
           "package": "Operads",
@@ -2310,6 +2497,7 @@
         "index": {
           "description": "Find the permutation the leaf labeling ordains for inputs",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "leafOrder",
           "normalized": "DecoratedTree a-\u003e[Int]",
@@ -2326,6 +2514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAcquires lists for resorting leaf labels according to the algorithm found for\n constructing small common multiples with minimal work.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "leafOrders",
           "package": "Operads",
@@ -2336,6 +2525,7 @@
         "index": {
           "description": "Acquires lists for resorting leaf labels according to the algorithm found for constructing small common multiples with minimal work",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "leafOrders",
           "normalized": "DecoratedTree a-\u003eDecoratedTree b-\u003e[(Int,Int)]",
@@ -2352,6 +2542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of operad elements consisting of 'm12_3'-'m13_2'-'m1_23'. This generates the \n ideal of relations for the operad Lie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "lgb",
           "package": "Operads",
@@ -2362,6 +2553,7 @@
         "index": {
           "description": "The list of operad elements consisting of m12 m13 m1 This generates the ideal of relations for the operad Lie",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "lgb",
           "normalized": "[OperadElement Integer Rational PathPerm]",
@@ -2377,6 +2569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe element m2(m2(1,2),3)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "m12_3",
           "package": "Operads",
@@ -2387,6 +2580,7 @@
         "index": {
           "description": "The element m2 m2",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "m12_3",
           "package": "Operads",
@@ -2400,6 +2594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe element m2(m2(1,3),2)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "m13_2",
           "package": "Operads",
@@ -2410,6 +2605,7 @@
         "index": {
           "description": "The element m2 m2",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "m13_2",
           "package": "Operads",
@@ -2423,6 +2619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe element m2(1,m2(2,3))\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "m1_23",
           "package": "Operads",
@@ -2433,6 +2630,7 @@
         "index": {
           "description": "The element m2 m2",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "m1_23",
           "package": "Operads",
@@ -2446,6 +2644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe element m2(1,2)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "m2",
           "package": "Operads",
@@ -2456,6 +2655,7 @@
         "index": {
           "description": "The element m2",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "m2",
           "package": "Operads",
@@ -2469,6 +2669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe element m3(1,2,3)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "m3",
           "package": "Operads",
@@ -2479,6 +2680,7 @@
         "index": {
           "description": "The element m3",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "m3",
           "package": "Operads",
@@ -2492,6 +2694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to each monomial tree in the operad element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "mapMonomials",
           "package": "Operads",
@@ -2502,6 +2705,7 @@
         "index": {
           "description": "Apply function to each monomial tree in the operad element",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "mapMonomials",
           "normalized": "(OrderedTree a b-\u003eOrderedTree c d)-\u003eOperadElement a e b-\u003eOperadElement c e d",
@@ -2518,6 +2722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe maximal operation degree of an operadic element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "maxOperationDegree",
           "package": "Operads",
@@ -2528,6 +2733,7 @@
         "index": {
           "description": "The maximal operation degree of an operadic element",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "maxOperationDegree",
           "normalized": "OperadElement a b c-\u003eInt",
@@ -2544,6 +2750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to listToMaybe . reverse\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "maybeLast",
           "package": "Operads",
@@ -2554,6 +2761,7 @@
         "index": {
           "description": "Equivalent to listToMaybe reverse",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "maybeLast",
           "normalized": "[a]-\u003eMaybe a",
@@ -2570,6 +2778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the minimal leaf covering any given vertex.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "minimalLeaf",
           "package": "Operads",
@@ -2580,6 +2789,7 @@
         "index": {
           "description": "Find the minimal leaf covering any given vertex",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "minimalLeaf",
           "normalized": "PreDecoratedTree a b-\u003eb",
@@ -2596,6 +2806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the number of leaves of the entire tree covering a given vertex.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "nLeaves",
           "package": "Operads",
@@ -2606,6 +2817,7 @@
         "index": {
           "description": "Compute the number of leaves of the entire tree covering given vertex",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "nLeaves",
           "normalized": "DecoratedTree a-\u003eInt",
@@ -2622,6 +2834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposition in the non-symmetric operad. We compose s o_i t. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "nsCompose",
           "package": "Operads",
@@ -2632,6 +2845,7 @@
         "index": {
           "description": "Composition in the non-symmetric operad We compose",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "nsCompose",
           "normalized": "Int-\u003eDecoratedTree a-\u003eDecoratedTree a-\u003eDecoratedTree a",
@@ -2648,6 +2862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-symmetric composition in the g(s;t1,...,tk) style. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "nsComposeAll",
           "package": "Operads",
@@ -2658,6 +2873,7 @@
         "index": {
           "description": "Non-symmetric composition in the t1 tk style",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "nsComposeAll",
           "normalized": "DecoratedTree a-\u003e[DecoratedTree a]-\u003eDecoratedTree a",
@@ -2674,6 +2890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-symmetric version of \u003ccode\u003e\u003ca\u003eoperadicBuchberger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "nsOperadicBuchberger",
           "package": "Operads",
@@ -2684,6 +2901,7 @@
         "index": {
           "description": "Non-symmetric version of operadicBuchberger",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "nsOperadicBuchberger",
           "normalized": "[OperadElement a b c]-\u003e[OperadElement a b c]",
@@ -2700,6 +2918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an element in the free operad from its internal structure. Use this instead of the constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "oe",
           "package": "Operads",
@@ -2710,6 +2929,7 @@
         "index": {
           "description": "Construct an element in the free operad from its internal structure Use this instead of the constructor",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "oe",
           "normalized": "[(OrderedTree a b,c)]-\u003eOperadElement a c b",
@@ -2725,6 +2945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a monomial in the free operad from a tree, a tree ordering and a coefficient.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "oek",
           "package": "Operads",
@@ -2735,6 +2956,7 @@
         "index": {
           "description": "Construct monomial in the free operad from tree tree ordering and coefficient",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "oek",
           "normalized": "DecoratedTree a-\u003eb-\u003eOperadElement a b c",
@@ -2750,6 +2972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a monomial in the free operad from a tree and a tree ordering. It's coefficient will be 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "oet",
           "package": "Operads",
@@ -2760,6 +2983,7 @@
         "index": {
           "description": "Construct monomial in the free operad from tree and tree ordering It coefficient will be",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "oet",
           "normalized": "DecoratedTree a-\u003eOperadElement a b c",
@@ -2775,6 +2999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform the entire Buchberger algorithm for a given list of generators. Iteratively run the single iteration\n from \u003ccode\u003e\u003ca\u003estepOperadicBuchberger\u003c/a\u003e\u003c/code\u003e until no new elements are generated.\n\u003c/p\u003e\u003cp\u003eDO NOTE: This is entirely possible to get stuck in an infinite loop. It is not difficult to write down generators\n such that the resulting Groebner basis is infinite. No checking is performed to catch this kind of condition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "operadicBuchberger",
           "package": "Operads",
@@ -2785,6 +3010,7 @@
         "index": {
           "description": "Perform the entire Buchberger algorithm for given list of generators Iteratively run the single iteration from stepOperadicBuchberger until no new elements are generated DO NOTE This is entirely possible to get stuck in an infinite loop It is not difficult to write down generators such that the resulting Groebner basis is infinite No checking is performed to catch this kind of condition",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "operadicBuchberger",
           "normalized": "[OperadElement a b c]-\u003e[OperadElement a b c]",
@@ -2801,6 +3027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of internal vertices of a tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "operationDegree",
           "package": "Operads",
@@ -2811,6 +3038,7 @@
         "index": {
           "description": "The number of internal vertices of tree",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "operationDegree",
           "normalized": "DecoratedTree a-\u003eInt",
@@ -2827,6 +3055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of operation degrees occurring in the terms of the operad element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "operationDegrees",
           "package": "Operads",
@@ -2837,6 +3066,7 @@
         "index": {
           "description": "list of operation degrees occurring in the terms of the operad element",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "operationDegrees",
           "normalized": "OperadElement a b c-\u003e[Int]",
@@ -2853,6 +3083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReordering the path sequences to mirror the actual leaf ordering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "orderedPathSequence",
           "package": "Operads",
@@ -2863,6 +3094,7 @@
         "index": {
           "description": "Reordering the path sequences to mirror the actual leaf ordering",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "orderedPathSequence",
           "normalized": "DecoratedTree a-\u003e([[a]],Shuffle)",
@@ -2878,6 +3110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "ordering",
           "package": "Operads",
@@ -2887,6 +3120,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "ordering",
           "package": "Operads",
@@ -2900,6 +3134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilding an ordered tree with \u003ccode\u003ePathLex\u003c/code\u003e ordering from a decorated tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "ot",
           "package": "Operads",
@@ -2910,6 +3145,7 @@
         "index": {
           "description": "Building an ordered tree with PathLex ordering from decorated tree",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "ot",
           "normalized": "DecoratedTree a-\u003eOrderedTree a b",
@@ -2924,6 +3160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "pP",
           "package": "Operads",
@@ -2933,6 +3170,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "pP",
           "normalized": "a-\u003eIO()",
@@ -2948,6 +3186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinding the path sequences. cf. Dotsenko-Khoroshkin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "pathSequence",
           "package": "Operads",
@@ -2958,6 +3197,7 @@
         "index": {
           "description": "Finding the path sequences cf Dotsenko-Khoroshkin",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "pathSequence",
           "normalized": "DecoratedTree a-\u003e([[a]],Shuffle)",
@@ -2974,6 +3214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks a tree for planarity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "planarTree",
           "package": "Operads",
@@ -2984,6 +3225,7 @@
         "index": {
           "description": "Checks tree for planarity",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "planarTree",
           "normalized": "DecoratedTree a-\u003eBool",
@@ -2999,6 +3241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "pp",
           "package": "Operads",
@@ -3008,6 +3251,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "pp",
           "normalized": "a-\u003eString",
@@ -3023,6 +3267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelabels a tree in the right order, but with entries from [1..]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "rePackLabels",
           "package": "Operads",
@@ -3033,6 +3278,7 @@
         "index": {
           "description": "Relabels tree in the right order but with entries from",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "rePackLabels",
           "normalized": "PreDecoratedTree a b-\u003eDecoratedTree a",
@@ -3049,6 +3295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function that mimics resubstitution of a new tree into the hole left by finding embedding,\n called m_alpha,beta in Dotsenko-Khoroshkin. This version only attempts to resubstitute the tree\n at the root, bailing out if not possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "reconstructNode",
           "package": "Operads",
@@ -3059,6 +3306,7 @@
         "index": {
           "description": "The function that mimics resubstitution of new tree into the hole left by finding embedding called alpha beta in Dotsenko-Khoroshkin This version only attempts to resubstitute the tree at the root bailing out if not possible",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "reconstructNode",
           "normalized": "DecoratedTree a-\u003eEmbedding a-\u003eMaybe(DecoratedTree a)",
@@ -3075,6 +3323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function that mimics resubstitution of a new tree into the hole left by finding embedding,\n called m_alpha,beta in Dotsenko-Khoroshkin. This version recurses down in the tree in order\n to find exactly one hole, and substitute the tree sub into it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "reconstructTree",
           "package": "Operads",
@@ -3085,6 +3334,7 @@
         "index": {
           "description": "The function that mimics resubstitution of new tree into the hole left by finding embedding called alpha beta in Dotsenko-Khoroshkin This version recurses down in the tree in order to find exactly one hole and substitute the tree sub into it",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "reconstructTree",
           "normalized": "DecoratedTree a-\u003eEmbedding a-\u003eMaybe(DecoratedTree a)",
@@ -3101,6 +3351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduces a list of elements with respect to all other elements occurring in that same list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "reduceBasis",
           "package": "Operads",
@@ -3111,6 +3362,7 @@
         "index": {
           "description": "Reduces list of elements with respect to all other elements occurring in that same list",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "reduceBasis",
           "normalized": "[OperadElement a b c]-\u003e[OperadElement a b c]-\u003e[OperadElement a b c]",
@@ -3127,6 +3379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduce all terms of \u003ccode\u003eop\u003c/code\u003e with respect to \u003ccode\u003egbn\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "reduceCompletely",
           "package": "Operads",
@@ -3137,6 +3390,7 @@
         "index": {
           "description": "Reduce all terms of op with respect to gbn",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "reduceCompletely",
           "normalized": "OperadElement a b c-\u003e[OperadElement a b c]-\u003eOperadElement a b c",
@@ -3153,6 +3407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduce the leading monomial of \u003ccode\u003eop\u003c/code\u003e with respect to \u003ccode\u003egb\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "reduceInitial",
           "package": "Operads",
@@ -3163,6 +3418,7 @@
         "index": {
           "description": "Reduce the leading monomial of op with respect to gb",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "reduceInitial",
           "normalized": "OperadElement a b c-\u003e[OperadElement a b c]-\u003eOperadElement a b c",
@@ -3179,6 +3435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduce g with respect to f and the embedding em: lt f -\u003e lt g.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "reduceOE",
           "package": "Operads",
@@ -3189,6 +3446,7 @@
         "index": {
           "description": "Reduce with respect to and the embedding em lt lt",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "reduceOE",
           "normalized": "Embedding a-\u003eOperadElement a b c-\u003eOperadElement a b c-\u003eOperadElement a b c",
@@ -3205,6 +3463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the leaves of a tree to take their values from a given list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "relabelLeaves",
           "package": "Operads",
@@ -3215,6 +3474,7 @@
         "index": {
           "description": "Change the leaves of tree to take their values from given list",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "relabelLeaves",
           "normalized": "DecoratedTree a-\u003e[b]-\u003ePreDecoratedTree a b",
@@ -3231,6 +3491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChanges direction of an ordering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "reverseOrder",
           "package": "Operads",
@@ -3241,6 +3502,7 @@
         "index": {
           "description": "Changes direction of an ordering",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "reverseOrder",
           "normalized": "Ordering-\u003eOrdering",
@@ -3257,6 +3519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs embeddings for \u003ccode\u003es\u003c/code\u003e and \u003ccode\u003et\u003c/code\u003e in \u003ccode\u003eSCM(s,t)\u003c/code\u003e and returns these.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "scmToEmbedding",
           "package": "Operads",
@@ -3267,6 +3530,7 @@
         "index": {
           "description": "Constructs embeddings for and in SCM and returns these",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "scmToEmbedding",
           "normalized": "DecoratedTree(Either a a)-\u003eDecoratedTree a-\u003eDecoratedTree a-\u003e(Embedding a,Embedding a)",
@@ -3283,6 +3547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposition in the shuffle operad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "shuffleCompose",
           "package": "Operads",
@@ -3293,6 +3558,7 @@
         "index": {
           "description": "Composition in the shuffle operad",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "shuffleCompose",
           "normalized": "Int-\u003eShuffle-\u003eDecoratedTree a-\u003eDecoratedTree a-\u003eDecoratedTree a",
@@ -3309,6 +3575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShuffle composition in the g(s;t1,...,tk) style. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "shuffleComposeAll",
           "package": "Operads",
@@ -3319,6 +3586,7 @@
         "index": {
           "description": "Shuffle composition in the t1 tk style",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "shuffleComposeAll",
           "normalized": "Shuffle-\u003eDecoratedTree a-\u003e[DecoratedTree a]-\u003eDecoratedTree a",
@@ -3335,6 +3603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform one iteration of the Buchberger algorithm: generate all S-polynomials. Reduce all S-polynomials.\n Return anything that survived the reduction. Keep the occurring operation degrees bounded. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "stepInitialOperadicBuchberger",
           "package": "Operads",
@@ -3345,6 +3614,7 @@
         "index": {
           "description": "Perform one iteration of the Buchberger algorithm generate all S-polynomials Reduce all S-polynomials Return anything that survived the reduction Keep the occurring operation degrees bounded",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "stepInitialOperadicBuchberger",
           "normalized": "Int-\u003e[OperadElement a b c]-\u003e[OperadElement a b c]-\u003e[OperadElement a b c]",
@@ -3361,6 +3631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-symmetric version of \u003ccode\u003e\u003ca\u003estepInitialOperadicBuchberger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "stepNSInitialOperadicBuchberger",
           "package": "Operads",
@@ -3371,6 +3642,7 @@
         "index": {
           "description": "Non-symmetric version of stepInitialOperadicBuchberger",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "stepNSInitialOperadicBuchberger",
           "normalized": "Int-\u003e[OperadElement a b c]-\u003e[OperadElement a b c]-\u003e[OperadElement a b c]",
@@ -3386,6 +3658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "stepNSOperadicBuchberger",
           "package": "Operads",
@@ -3395,6 +3668,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "stepNSOperadicBuchberger",
           "normalized": "[OperadElement a b c]-\u003e[OperadElement a b c]-\u003e[OperadElement a b c]",
@@ -3411,6 +3685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform one iteration of the Buchberger algorithm: generate all S-polynomials. Reduce all S-polynomials.\n Return anything that survived the reduction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "stepOperadicBuchberger",
           "package": "Operads",
@@ -3421,6 +3696,7 @@
         "index": {
           "description": "Perform one iteration of the Buchberger algorithm generate all S-polynomials Reduce all S-polynomials Return anything that survived the reduction",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "stepOperadicBuchberger",
           "normalized": "[OperadElement a b c]-\u003e[OperadElement a b c]-\u003e[OperadElement a b c]",
@@ -3437,6 +3713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-symmetric version of \u003ccode\u003e\u003ca\u003estreamOperadicBuchberger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "streamNSOperadicBuchberger",
           "package": "Operads",
@@ -3447,6 +3724,7 @@
         "index": {
           "description": "Non-symmetric version of streamOperadicBuchberger",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "streamNSOperadicBuchberger",
           "normalized": "Int-\u003e[OperadElement a b c]-\u003e[OperadElement a b c]",
@@ -3463,6 +3741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform the entire Buchberger algorithm for a given list of generators. This iteratively runs single iterations\n from \u003ccode\u003e\u003ca\u003estepOperadicBuchberger\u003c/a\u003e\u003c/code\u003e until no new elements are generated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "streamOperadicBuchberger",
           "package": "Operads",
@@ -3473,6 +3752,7 @@
         "index": {
           "description": "Perform the entire Buchberger algorithm for given list of generators This iteratively runs single iterations from stepOperadicBuchberger until no new elements are generated",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "streamOperadicBuchberger",
           "normalized": "Int-\u003e[OperadElement a b c]-\u003e[OperadElement a b c]",
@@ -3489,6 +3769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProjects the type \u003ccode\u003eEither a a\u003c/code\u003e onto the type \u003ccode\u003ea\u003c/code\u003e in the obvious manner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "stripEither",
           "package": "Operads",
@@ -3499,6 +3780,7 @@
         "index": {
           "description": "Projects the type Either onto the type in the obvious manner",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "stripEither",
           "normalized": "Either a a-\u003ea",
@@ -3515,6 +3797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrips the \u003ccode\u003eEither\u003c/code\u003e layer from internal vertex labels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "stripTree",
           "package": "Operads",
@@ -3525,6 +3808,7 @@
         "index": {
           "description": "Strips the Either layer from internal vertex labels",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "stripTree",
           "normalized": "DecoratedTree(Either a a)-\u003eDecoratedTree a",
@@ -3541,6 +3825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if any of the vertices in the given tree has been tagged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "subTreeHasNothing",
           "package": "Operads",
@@ -3551,6 +3836,7 @@
         "index": {
           "description": "Returns True if any of the vertices in the given tree has been tagged",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "subTreeHasNothing",
           "normalized": "DecoratedTree(Maybe a)-\u003eBool",
@@ -3566,6 +3852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "subTrees",
           "package": "Operads",
@@ -3575,6 +3862,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "subTrees",
           "normalized": "[PreDecoratedTree a b]",
@@ -3591,6 +3879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposition in the symmetric operad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "symmetricCompose",
           "package": "Operads",
@@ -3601,6 +3890,7 @@
         "index": {
           "description": "Composition in the symmetric operad",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "symmetricCompose",
           "normalized": "Int-\u003eShuffle-\u003eDecoratedTree a-\u003eDecoratedTree a-\u003eDecoratedTree a",
@@ -3617,6 +3907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymmetric composition in the g(s;t1,...,tk) style. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "symmetricComposeAll",
           "package": "Operads",
@@ -3627,6 +3918,7 @@
         "index": {
           "description": "Symmetric composition in the t1 tk style",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "symmetricComposeAll",
           "normalized": "Shuffle-\u003eDecoratedTree a-\u003e[DecoratedTree a]-\u003eDecoratedTree a",
@@ -3643,6 +3935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds vertex type encapsulations. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "toJustTree",
           "package": "Operads",
@@ -3653,6 +3946,7 @@
         "index": {
           "description": "Adds vertex type encapsulations",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "toJustTree",
           "normalized": "DecoratedTree a-\u003eDecoratedTree(Maybe a)",
@@ -3669,6 +3963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an operad element, extract a list of (tree, coefficient) pairs. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "toList",
           "package": "Operads",
@@ -3679,6 +3974,7 @@
         "index": {
           "description": "Given an operad element extract list of tree coefficient pairs",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "toList",
           "normalized": "OperadElement a b c-\u003e[(OrderedTree a c,b)]",
@@ -3694,6 +3990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "treeCompare",
           "package": "Operads",
@@ -3703,6 +4000,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "treeCompare",
           "normalized": "a-\u003eDecoratedTree b-\u003eDecoratedTree b-\u003eOrdering",
@@ -3719,6 +4017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe arity of a corolla\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "vertexArity",
           "package": "Operads",
@@ -3729,6 +4028,7 @@
         "index": {
           "description": "The arity of corolla",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "vertexArity",
           "normalized": "PreDecoratedTree a b-\u003eInt",
@@ -3745,6 +4045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function \u003ccode\u003ef\u003c/code\u003e to all the internal vertex labels of a PreDecoratedTree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "vertexMap",
           "package": "Operads",
@@ -3755,6 +4056,7 @@
         "index": {
           "description": "Apply function to all the internal vertex labels of PreDecoratedTree",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "vertexMap",
           "normalized": "(a-\u003eb)-\u003ePreDecoratedTree a c-\u003ePreDecoratedTree b c",
@@ -3770,6 +4072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "vertexType",
           "package": "Operads",
@@ -3779,6 +4082,7 @@
         },
         "index": {
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "vertexType",
           "package": "Operads",
@@ -3793,6 +4097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe element m2(m2(1,2),m2(3,4))\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "yTree",
           "package": "Operads",
@@ -3803,6 +4108,7 @@
         "index": {
           "description": "The element m2 m2 m2",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "yTree",
           "package": "Operads",
@@ -3817,6 +4123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the zero of the corresponding operad, with type appropriate to the given element.\n Can be given an appropriately casted undefined to construct a zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:06 UTC 2014",
           "module": "Math.Operad",
           "name": "zero",
           "package": "Operads",
@@ -3827,6 +4134,7 @@
         "index": {
           "description": "Return the zero of the corresponding operad with type appropriate to the given element Can be given an appropriately casted undefined to construct zero",
           "hierarchy": "Math Operad",
+          "indexed": "2014-03-11T16:56:06",
           "module": "Math.Operad",
           "name": "zero",
           "package": "Operads",

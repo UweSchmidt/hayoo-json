@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "historian"
+        "phrase": "historian",
+        "type": "phrase"
       },
       "type": "context"
     }

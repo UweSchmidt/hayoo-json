@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ofx"
+        "phrase": "ofx",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParser for downloaded OFX files.\n\u003c/p\u003e\u003cp\u003eThis parser was written based on the OFX version 1.03\n specification, which is available at\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.ofx.net\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eIt will probably work on earlier versions of OFX without\n incident. However, it may or may not not work on newer versions of\n OFX, which are XML based (this version of OFX is SGML based.)\n\u003c/p\u003e\u003cp\u003eIt will also parse QFX files, which are OFX files with minor\n proprietary additions by Intuit, the maker of Quicken.\n\u003c/p\u003e\u003cp\u003eAn OFX file consists of three parts: the HTTP headers (which this\n parser does NOT handle because typically they will not show up in\n files downloaded to disk), the OFX headers, and the OFX data. This\n parser handles the OFX headers and the OFX data.\n\u003c/p\u003e\u003cp\u003eThe parser in this module simply parses the tags and data into a\n tree, which you can manipulate with other functions. Some functions\n are provided to find the transactions in the tree and place them\n into a \u003ccode\u003e\u003ca\u003eTransaction\u003c/a\u003e\u003c/code\u003e type, which is the data you are most likely\n interested in. If you are interested in other data you can query\n the \u003ccode\u003e\u003ca\u003eTag\u003c/a\u003e\u003c/code\u003e tree for what you need.\n\u003c/p\u003e\u003cp\u003eFor example, to read in the filename given on the command line and\n parse it and print it nicely:\n\u003c/p\u003e\u003cpre\u003e import System.Environment\n import Text.Parsec\n import Text.PrettyPrint\n import Data.OFX\n import System.IO\n import System.Exit\n\n main :: IO ()\n main = do\n   filename:[] \u003c- getArgs\n   contents \u003c- readFile filename\n   ofx \u003c- case parse ofxFile filename contents of\n     Left e -\u003e do\n       hPutStrLn stderr . show $ e\n       exitFailure\n     Right g -\u003e return g\n   putStrLn . render . pFile $ ofx\n   putStrLn\n     . render\n     . pExceptional text (pList . map pTransaction)\n     . transactions\n     $ ofx\n   putStrLn . render . pMaybe text . fiName $ ofx\n   putStrLn . render . pMaybe text . accountNumber $ ofx\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "OFX",
           "package": "ofx",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Parser for downloaded OFX files This parser was written based on the OFX version specification which is available at http www.ofx.net It will probably work on earlier versions of OFX without incident However it may or may not not work on newer versions of OFX which are XML based this version of OFX is SGML based It will also parse QFX files which are OFX files with minor proprietary additions by Intuit the maker of Quicken An OFX file consists of three parts the HTTP headers which this parser does NOT handle because typically they will not show up in files downloaded to disk the OFX headers and the OFX data This parser handles the OFX headers and the OFX data The parser in this module simply parses the tags and data into tree which you can manipulate with other functions Some functions are provided to find the transactions in the tree and place them into Transaction type which is the data you are most likely interested in If you are interested in other data you can query the Tag tree for what you need For example to read in the filename given on the command line and parse it and print it nicely import System.Environment import Text.Parsec import Text.PrettyPrint import Data.OFX import System.IO import System.Exit main IO main do filename getArgs contents readFile filename ofx case parse ofxFile filename contents of Left do hPutStrLn stderr show exitFailure Right return putStrLn render pFile ofx putStrLn render pExceptional text pList map pTransaction transactions ofx putStrLn render pMaybe text fiName ofx putStrLn render pMaybe text accountNumber ofx",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "OFX",
           "package": "ofx",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "AcctType",
           "package": "ofx",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "AcctType",
           "package": "ofx",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "BankAcctTo",
           "package": "ofx",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "BankAcctTo",
           "package": "ofx",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "CCAcctTo",
           "package": "ofx",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "CCAcctTo",
           "package": "ofx",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan be either REPLACE or DELETE.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "CorrectAction",
           "package": "ofx",
@@ -114,6 +123,7 @@
         "index": {
           "description": "Can be either REPLACE or DELETE",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "CorrectAction",
           "package": "ofx",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "Currency",
           "package": "ofx",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "Currency",
           "package": "ofx",
@@ -149,6 +161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHolds all data both for CURRENCY and for ORIGCURRENCY.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "CurrencyData",
           "package": "ofx",
@@ -158,6 +171,7 @@
         "index": {
           "description": "Holds all data both for CURRENCY and for ORIGCURRENCY",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "CurrencyData",
           "package": "ofx",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError handling. Errors are indicated with a Left String;\n successes with a Right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "Err",
           "package": "ofx",
@@ -181,6 +196,7 @@
         "index": {
           "description": "Error handling Errors are indicated with Left String successes with Right",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "Err",
           "package": "ofx",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHeaders consists of simple \u003ccode\u003etag:value\u003c/code\u003e pairs; this represents the\n tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "HeaderTag",
           "package": "ofx",
@@ -204,6 +221,7 @@
         "index": {
           "description": "Headers consists of simple tag value pairs this represents the tag",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "HeaderTag",
           "package": "ofx",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe value in an OFX header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "HeaderValue",
           "package": "ofx",
@@ -227,6 +246,7 @@
         "index": {
           "description": "The value in an OFX header",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "HeaderValue",
           "package": "ofx",
@@ -241,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the data from an OFX file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "OFXFile",
           "package": "ofx",
@@ -250,6 +271,7 @@
         "index": {
           "description": "All the data from an OFX file",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "OFXFile",
           "package": "ofx",
@@ -264,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn OFX file starts with a number of headers, which take the form\n \u003ccode\u003etag:value\u003c/code\u003e followed by a newline. These are followed by a blank\n line.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "OFXHeader",
           "package": "ofx",
@@ -273,6 +296,7 @@
         "index": {
           "description": "An OFX file starts with number of headers which take the form tag value followed by newline These are followed by blank line",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "OFXHeader",
           "package": "ofx",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "OrigCurrency",
           "package": "ofx",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "OrigCurrency",
           "package": "ofx",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "Payee",
           "package": "ofx",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "Payee",
           "package": "ofx",
@@ -329,6 +357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main OFX data consists of a series of tags. OFX 1.03 is SGML,\n not XML. This means that opening tags need not have closing\n tags. In OFX, a tag either has data and no child elements, or it\n has no data and it has child elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "Tag",
           "package": "ofx",
@@ -338,6 +367,7 @@
         "index": {
           "description": "The main OFX data consists of series of tags OFX is SGML not XML This means that opening tags need not have closing tags In OFX tag either has data and no child elements or it has no data and it has child elements",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "Tag",
           "package": "ofx",
@@ -352,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data accompanying an OFX tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "TagData",
           "package": "ofx",
@@ -361,6 +392,7 @@
         "index": {
           "description": "The data accompanying an OFX tag",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "TagData",
           "package": "ofx",
@@ -375,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of an OFX tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "TagName",
           "package": "ofx",
@@ -384,6 +417,7 @@
         "index": {
           "description": "The name of an OFX tag",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "TagName",
           "package": "ofx",
@@ -398,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single STMTTRN, see OFX spec section 11.4.2.3.1. This is most\n likely what you are interested in after downloading a statement\n from a bank.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "Transaction",
           "package": "ofx",
@@ -407,6 +442,7 @@
         "index": {
           "description": "single STMTTRN see OFX spec section This is most likely what you are interested in after downloading statement from bank",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "Transaction",
           "package": "ofx",
@@ -421,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOFX transaction types. These are used in STMTTRN aggregates, see\n OFX spec section 11.4.2.3.1.1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "TrnType",
           "package": "ofx",
@@ -430,6 +467,7 @@
         "index": {
           "description": "OFX transaction types These are used in STMTTRN aggregates see OFX spec section",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "TrnType",
           "package": "ofx",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "ACHECKING",
           "package": "ofx",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "ACHECKING",
           "package": "ofx",
@@ -465,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "ACREDITLINE",
           "package": "ofx",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "ACREDITLINE",
           "package": "ofx",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "AMONEYMRKT",
           "package": "ofx",
@@ -496,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "AMONEYMRKT",
           "package": "ofx",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "ASAVINGS",
           "package": "ofx",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "ASAVINGS",
           "package": "ofx",
@@ -531,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "BankAcctTo",
           "package": "ofx",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "BankAcctTo",
           "package": "ofx",
@@ -553,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "CCAcctTo",
           "package": "ofx",
@@ -562,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "CCAcctTo",
           "package": "ofx",
@@ -575,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "Currency",
           "package": "ofx",
@@ -584,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "Currency",
           "package": "ofx",
@@ -597,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "CurrencyData",
           "package": "ofx",
@@ -606,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "CurrencyData",
           "package": "ofx",
@@ -620,6 +674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes the transaction referenced by the CORRECTFITID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "DELETE",
           "package": "ofx",
@@ -630,6 +685,7 @@
         "index": {
           "description": "Deletes the transaction referenced by the CORRECTFITID",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "DELETE",
           "package": "ofx",
@@ -643,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "OFXFile",
           "package": "ofx",
@@ -652,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "OFXFile",
           "package": "ofx",
@@ -665,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "OFXHeader",
           "package": "ofx",
@@ -674,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "OFXHeader",
           "package": "ofx",
@@ -687,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "OrigCurrency",
           "package": "ofx",
@@ -696,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "OrigCurrency",
           "package": "ofx",
@@ -709,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "Payee",
           "package": "ofx",
@@ -718,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "Payee",
           "package": "ofx",
@@ -732,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplaces the transaction referenced by the CORRECTFITID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "REPLACE",
           "package": "ofx",
@@ -742,6 +807,7 @@
         "index": {
           "description": "Replaces the transaction referenced by the CORRECTFITID",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "REPLACE",
           "package": "ofx",
@@ -756,6 +822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eATM debit or credit (which it is depends on sign of amount)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "TATM",
           "package": "ofx",
@@ -766,6 +833,7 @@
         "index": {
           "description": "ATM debit or credit which it is depends on sign of amount",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "TATM",
           "package": "ofx",
@@ -780,6 +848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCash withdrawal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "TCASH",
           "package": "ofx",
@@ -790,6 +859,7 @@
         "index": {
           "description": "Cash withdrawal",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "TCASH",
           "package": "ofx",
@@ -803,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "TCHECK",
           "package": "ofx",
@@ -812,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "TCHECK",
           "package": "ofx",
@@ -825,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "TCREDIT",
           "package": "ofx",
@@ -834,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "TCREDIT",
           "package": "ofx",
@@ -847,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "TDEBIT",
           "package": "ofx",
@@ -856,6 +931,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "TDEBIT",
           "package": "ofx",
@@ -870,6 +946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeposit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "TDEP",
           "package": "ofx",
@@ -880,6 +957,7 @@
         "index": {
           "description": "Deposit",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "TDEP",
           "package": "ofx",
@@ -894,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerchant initiated debit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "TDIRECTDEBIT",
           "package": "ofx",
@@ -904,6 +983,7 @@
         "index": {
           "description": "Merchant initiated debit",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "TDIRECTDEBIT",
           "package": "ofx",
@@ -918,6 +998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDirect deposit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "TDIRECTDEP",
           "package": "ofx",
@@ -928,6 +1009,7 @@
         "index": {
           "description": "Direct deposit",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "TDIRECTDEP",
           "package": "ofx",
@@ -942,6 +1024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDividend\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "TDIV",
           "package": "ofx",
@@ -952,6 +1035,7 @@
         "index": {
           "description": "Dividend",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "TDIV",
           "package": "ofx",
@@ -965,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "TFEE",
           "package": "ofx",
@@ -974,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "TFEE",
           "package": "ofx",
@@ -988,6 +1074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterest earned or paid (which it is depends on sign of amount)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "TINT",
           "package": "ofx",
@@ -998,6 +1085,7 @@
         "index": {
           "description": "Interest earned or paid which it is depends on sign of amount",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "TINT",
           "package": "ofx",
@@ -1011,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "TOTHER",
           "package": "ofx",
@@ -1020,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "TOTHER",
           "package": "ofx",
@@ -1034,6 +1124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElectronic payment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "TPAYMENT",
           "package": "ofx",
@@ -1044,6 +1135,7 @@
         "index": {
           "description": "Electronic payment",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "TPAYMENT",
           "package": "ofx",
@@ -1058,6 +1150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoint of sale debit or credit (which it is depends on sign of\n amount)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "TPOS",
           "package": "ofx",
@@ -1068,6 +1161,7 @@
         "index": {
           "description": "Point of sale debit or credit which it is depends on sign of amount",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "TPOS",
           "package": "ofx",
@@ -1082,6 +1176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeating payment / standing order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "TREPEATPMT",
           "package": "ofx",
@@ -1092,6 +1187,7 @@
         "index": {
           "description": "Repeating payment standing order",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "TREPEATPMT",
           "package": "ofx",
@@ -1105,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "TSRVCHG",
           "package": "ofx",
@@ -1114,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "TSRVCHG",
           "package": "ofx",
@@ -1128,6 +1226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransfer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "TXFER",
           "package": "ofx",
@@ -1138,6 +1237,7 @@
         "index": {
           "description": "Transfer",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "TXFER",
           "package": "ofx",
@@ -1151,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "Tag",
           "package": "ofx",
@@ -1160,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "Tag",
           "normalized": "Tag TagName(Either TagData[Tag])",
@@ -1175,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "Transaction",
           "package": "ofx",
@@ -1184,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "Transaction",
           "package": "ofx",
@@ -1198,6 +1302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets either the credit card or bank account number, if available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "accountNumber",
           "package": "ofx",
@@ -1208,6 +1313,7 @@
         "index": {
           "description": "Gets either the credit card or bank account number if available",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "accountNumber",
           "normalized": "OFXFile-\u003eMaybe TagData",
@@ -1223,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "acctType",
           "package": "ofx",
@@ -1232,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "acctType",
           "normalized": "String-\u003eErr AcctType",
@@ -1248,6 +1356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the bank account number, if available. The OFX spec does not\n require this tag to be present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "bankAccountNumber",
           "package": "ofx",
@@ -1258,6 +1367,7 @@
         "index": {
           "description": "Gets the bank account number if available The OFX spec does not require this tag to be present",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "bankAccountNumber",
           "normalized": "OFXFile-\u003eMaybe TagData",
@@ -1273,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "bankAcctTo",
           "package": "ofx",
@@ -1282,6 +1393,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "bankAcctTo",
           "normalized": "Tag-\u003eMaybe(Err BankAcctTo)",
@@ -1298,6 +1410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccount number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "btACCTID",
           "package": "ofx",
@@ -1308,6 +1421,7 @@
         "index": {
           "description": "Account number",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "btACCTID",
           "package": "ofx",
@@ -1322,6 +1436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecksum for international banks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "btACCTKEY",
           "package": "ofx",
@@ -1332,6 +1447,7 @@
         "index": {
           "description": "Checksum for international banks",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "btACCTKEY",
           "package": "ofx",
@@ -1346,6 +1462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of account\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "btACCTTYPE",
           "package": "ofx",
@@ -1356,6 +1473,7 @@
         "index": {
           "description": "Type of account",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "btACCTTYPE",
           "package": "ofx",
@@ -1370,6 +1488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRouting and transit number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "btBANKID",
           "package": "ofx",
@@ -1380,6 +1499,7 @@
         "index": {
           "description": "Routing and transit number",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "btBANKID",
           "package": "ofx",
@@ -1394,6 +1514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBank identifier for international banks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "btBRANCHID",
           "package": "ofx",
@@ -1404,6 +1525,7 @@
         "index": {
           "description": "Bank identifier for international banks",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "btBRANCHID",
           "package": "ofx",
@@ -1417,6 +1539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "ccAcctTo",
           "package": "ofx",
@@ -1426,6 +1549,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "ccAcctTo",
           "normalized": "Tag-\u003eMaybe(Err CCAcctTo)",
@@ -1442,6 +1566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRatio of CURDEF currency to CURSYM currency, in decimal form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "cdCURRATE",
           "package": "ofx",
@@ -1452,6 +1577,7 @@
         "index": {
           "description": "Ratio of CURDEF currency to CURSYM currency in decimal form",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "cdCURRATE",
           "package": "ofx",
@@ -1466,6 +1592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eISO-4217 3-letter currency identifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "cdCURSYM",
           "package": "ofx",
@@ -1476,6 +1603,7 @@
         "index": {
           "description": "ISO-4217 letter currency identifier",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "cdCURSYM",
           "package": "ofx",
@@ -1490,6 +1618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a closing tag with the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "closingTag",
           "package": "ofx",
@@ -1500,6 +1629,7 @@
         "index": {
           "description": "Parses closing tag with the given name",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "closingTag",
           "normalized": "TagName-\u003eParser()",
@@ -1516,6 +1646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the credit card number, if available. The OFX spec does not\n require this tag to be present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "creditCardNumber",
           "package": "ofx",
@@ -1526,6 +1657,7 @@
         "index": {
           "description": "Gets the credit card number if available The OFX spec does not require this tag to be present",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "creditCardNumber",
           "normalized": "OFXFile-\u003eMaybe TagData",
@@ -1542,6 +1674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccount number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "ctACCTID",
           "package": "ofx",
@@ -1552,6 +1685,7 @@
         "index": {
           "description": "Account number",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "ctACCTID",
           "package": "ofx",
@@ -1566,6 +1700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecksum for international banks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "ctACCTKEY",
           "package": "ofx",
@@ -1576,6 +1711,7 @@
         "index": {
           "description": "Checksum for international banks",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "ctACCTKEY",
           "package": "ofx",
@@ -1589,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "currency",
           "package": "ofx",
@@ -1598,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "currency",
           "normalized": "Tag-\u003eMaybe(Err Currency)",
@@ -1613,6 +1751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses currency data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "currencyData",
           "package": "ofx",
@@ -1622,6 +1761,7 @@
         "index": {
           "description": "Parses currency data",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "currencyData",
           "normalized": "Tag-\u003eErr CurrencyData",
@@ -1638,6 +1778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses an OFX date. Fails if the date is not valid or if there is\n no date to be parsed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "date",
           "package": "ofx",
@@ -1648,6 +1789,7 @@
         "index": {
           "description": "Parses an OFX date Fails if the date is not valid or if there is no date to be parsed",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "date",
           "package": "ofx",
@@ -1661,6 +1803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a character, possibly with an escape sequence. The\n greater-than sign, less-than sign, and ampersand must be entered\n with escape sequences.\n\u003c/p\u003e\u003cp\u003eAccording to OFX spec section 2.3.2.1, ampersands, less-than signs,\n and greater-than signs must appear as entities.  However some banks\n deliver broken OFX files that do not use entities for ampersands\n (and possibly for less-than or greater-than signs too, although I\n have not yet observed such behavior.) There is now an error message\n that reflects this problem.  Client code can filter the OFX data\n for known offenders before passing it to this library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "escChar",
           "package": "ofx",
@@ -1671,6 +1814,7 @@
         "index": {
           "description": "Parses character possibly with an escape sequence The greater-than sign less-than sign and ampersand must be entered with escape sequences According to OFX spec section ampersands less-than signs and greater-than signs must appear as entities However some banks deliver broken OFX files that do not use entities for ampersands and possibly for less-than or greater-than signs too although have not yet observed such behavior There is now an error message that reflects this problem Client code can filter the OFX data for known offenders before passing it to this library",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "escChar",
           "package": "ofx",
@@ -1684,6 +1828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "fHeader",
           "package": "ofx",
@@ -1693,6 +1838,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "fHeader",
           "normalized": "[OFXHeader]",
@@ -1709,6 +1855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the data will be contained in a root tag with the TagName\n \u003ccode\u003eOFX\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "fTag",
           "package": "ofx",
@@ -1719,6 +1866,7 @@
         "index": {
           "description": "All the data will be contained in root tag with the TagName OFX",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "fTag",
           "package": "ofx",
@@ -1733,6 +1881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the name of the financial institution from the FI tag, if\n available. The OFX spec does not require this tag to be present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "fiName",
           "package": "ofx",
@@ -1743,6 +1892,7 @@
         "index": {
           "description": "Gets the name of the financial institution from the FI tag if available The OFX spec does not require this tag to be present",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "fiName",
           "normalized": "OFXFile-\u003eMaybe TagData",
@@ -1759,6 +1909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds child tags with the given name. When a tag is found, that\n tag is not searched for further children with the same name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "find",
           "package": "ofx",
@@ -1769,6 +1920,7 @@
         "index": {
           "description": "Finds child tags with the given name When tag is found that tag is not searched for further children with the same name",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "find",
           "normalized": "TagName-\u003eTag-\u003e[Tag]",
@@ -1784,6 +1936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds the first tag (either this tag or any children) that has\n the given name and that is a data tag (not an aggregate tag.) If no\n data tag with the given name is found, returns Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "findData",
           "package": "ofx",
@@ -1794,6 +1947,7 @@
         "index": {
           "description": "Finds the first tag either this tag or any children that has the given name and that is data tag not an aggregate tag If no data tag with the given name is found returns Nothing",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "findData",
           "normalized": "TagName-\u003eTag-\u003eMaybe TagData",
@@ -1810,6 +1964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescends through a tree of tags to find a tag at a specific\n location in the tree. Fails if any part of the search fails. For\n example, to find the financial institution ORG tag, where \u003ccode\u003et\u003c/code\u003e is\n the root \u003ccode\u003eOFX\u003c/code\u003e tag:\n\u003c/p\u003e\u003cpre\u003e findPath [\"SIGNONMSGSRSV1\", \"SONRS\", \"FI\", \"ORG\"] t\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "findPath",
           "package": "ofx",
@@ -1820,6 +1975,7 @@
         "index": {
           "description": "Descends through tree of tags to find tag at specific location in the tree Fails if any part of the search fails For example to find the financial institution ORG tag where is the root OFX tag findPath SIGNONMSGSRSV1 SONRS FI ORG",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "findPath",
           "normalized": "[TagName]-\u003eTag-\u003eMaybe Tag",
@@ -1835,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "header",
           "package": "ofx",
@@ -1844,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "header",
           "package": "ofx",
@@ -1856,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "label",
           "package": "ofx",
@@ -1865,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "label",
           "normalized": "String-\u003eDoc-\u003eDoc",
@@ -1880,6 +2040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses either a UNIX or an MS-DOS newline. According to 1.2.2,\n OFX does not contain any white space between tags. However, since I\n have seen OFX files that do have whitespace between tags, the\n parser makes allowance for this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "newline",
           "package": "ofx",
@@ -1890,6 +2051,7 @@
         "index": {
           "description": "Parses either UNIX or an MS-DOS newline According to OFX does not contain any white space between tags However since have seen OFX files that do have whitespace between tags the parser makes allowance for this",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "newline",
           "normalized": "Parser()",
@@ -1905,6 +2067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses an entire OFX file, including headers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "ofxFile",
           "package": "ofx",
@@ -1915,6 +2078,7 @@
         "index": {
           "description": "Parses an entire OFX file including headers",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "ofxFile",
           "package": "ofx",
@@ -1929,6 +2093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses any opening tag. Returns the name of the tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "openingTag",
           "package": "ofx",
@@ -1939,6 +2104,7 @@
         "index": {
           "description": "Parses any opening tag Returns the name of the tag",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "openingTag",
           "package": "ofx",
@@ -1952,6 +2118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "origCurrency",
           "package": "ofx",
@@ -1961,6 +2128,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "origCurrency",
           "normalized": "Tag-\u003eMaybe(Err OrigCurrency)",
@@ -1976,6 +2144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "pEither",
           "package": "ofx",
@@ -1985,6 +2154,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "pEither",
           "normalized": "(a-\u003eDoc)-\u003e(b-\u003eDoc)-\u003eEither a b-\u003eDoc",
@@ -2000,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "pExceptional",
           "package": "ofx",
@@ -2009,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "pExceptional",
           "normalized": "(a-\u003eDoc)-\u003e(b-\u003eDoc)-\u003eEither a b-\u003eDoc",
@@ -2024,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "pFile",
           "package": "ofx",
@@ -2033,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "pFile",
           "normalized": "OFXFile-\u003eDoc",
@@ -2048,6 +2222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "pHeader",
           "package": "ofx",
@@ -2057,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "pHeader",
           "normalized": "OFXHeader-\u003eDoc",
@@ -2072,6 +2248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "pList",
           "package": "ofx",
@@ -2081,6 +2258,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "pList",
           "normalized": "[Doc]-\u003eDoc",
@@ -2096,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "pMaybe",
           "package": "ofx",
@@ -2105,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "pMaybe",
           "normalized": "(a-\u003eDoc)-\u003eMaybe a-\u003eDoc",
@@ -2120,6 +2300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "pPayee",
           "package": "ofx",
@@ -2129,6 +2310,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "pPayee",
           "normalized": "Payee-\u003eDoc",
@@ -2144,6 +2326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "pTag",
           "package": "ofx",
@@ -2153,6 +2336,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "pTag",
           "normalized": "Tag-\u003eDoc",
@@ -2168,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "pTransaction",
           "package": "ofx",
@@ -2177,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "pTransaction",
           "normalized": "Transaction-\u003eDoc",
@@ -2193,6 +2379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGoes to a certain path in the tag hierarchy and pulls the\n requested data, if the tag is present and it is a data tag.  For\n example, to get the name of the financial institution:\n\u003c/p\u003e\u003cpre\u003e pathData [\"SIGNONMSGSRSV1\", \"SONRS\", \"FI\", \"ORG\"] f\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "pathData",
           "package": "ofx",
@@ -2203,6 +2390,7 @@
         "index": {
           "description": "Goes to certain path in the tag hierarchy and pulls the requested data if the tag is present and it is data tag For example to get the name of the financial institution pathData SIGNONMSGSRSV1 SONRS FI ORG",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "pathData",
           "normalized": "[TagName]-\u003eOFXFile-\u003eMaybe TagData",
@@ -2219,6 +2407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a Payee record from its parent tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "payee",
           "package": "ofx",
@@ -2228,6 +2417,7 @@
         "index": {
           "description": "Parses Payee record from its parent tag",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "payee",
           "normalized": "Tag-\u003eMaybe(Err Payee)",
@@ -2242,6 +2432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "peADDR1",
           "package": "ofx",
@@ -2251,6 +2442,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "peADDR1",
           "package": "ofx",
@@ -2264,6 +2456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "peADDR2",
           "package": "ofx",
@@ -2273,6 +2466,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "peADDR2",
           "package": "ofx",
@@ -2286,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "peADDR3",
           "package": "ofx",
@@ -2295,6 +2490,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "peADDR3",
           "package": "ofx",
@@ -2308,6 +2504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "peCITY",
           "package": "ofx",
@@ -2317,6 +2514,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "peCITY",
           "package": "ofx",
@@ -2330,6 +2528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "peCOUNTRY",
           "package": "ofx",
@@ -2339,6 +2538,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "peCOUNTRY",
           "package": "ofx",
@@ -2352,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "peNAME",
           "package": "ofx",
@@ -2361,6 +2562,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "peNAME",
           "package": "ofx",
@@ -2374,6 +2576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "pePHONE",
           "package": "ofx",
@@ -2383,6 +2586,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "pePHONE",
           "package": "ofx",
@@ -2396,6 +2600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "pePOSTALCODE",
           "package": "ofx",
@@ -2405,6 +2610,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "pePOSTALCODE",
           "package": "ofx",
@@ -2418,6 +2624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "peSTATE",
           "package": "ofx",
@@ -2427,6 +2634,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "peSTATE",
           "package": "ofx",
@@ -2441,6 +2649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses any tag. The tag itself must be followed by at least one\n character: either the next tag if this is an aggregate tag, or the\n data if this is a data tag. OFX does not allow empty tags.\n\u003c/p\u003e\u003cp\u003eThe OFX spec seems to say that OFX files do not include trailing\n newlines after tags or data, but I have seen these newlines in QFX\n files, so this parses optional trailing newlines and spaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "tag",
           "package": "ofx",
@@ -2451,6 +2660,7 @@
         "index": {
           "description": "Parses any tag The tag itself must be followed by at least one character either the next tag if this is an aggregate tag or the data if this is data tag OFX does not allow empty tags The OFX spec seems to say that OFX files do not include trailing newlines after tags or data but have seen these newlines in QFX files so this parses optional trailing newlines and spaces",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "tag",
           "package": "ofx",
@@ -2464,6 +2674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the data from a tag, if it is a tag with data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "tagData",
           "package": "ofx",
@@ -2474,6 +2685,7 @@
         "index": {
           "description": "Gets the data from tag if it is tag with data",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "tagData",
           "normalized": "Tag-\u003eMaybe TagData",
@@ -2490,6 +2702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses an OFX time. Fails if the time is not valid or if there is\n no time to parse. Fails if there is no time to parse; however, if\n there is a time but no zone, returns the time and UTC for the zone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "time",
           "package": "ofx",
@@ -2500,6 +2713,7 @@
         "index": {
           "description": "Parses an OFX time Fails if the time is not valid or if there is no time to parse Fails if there is no time to parse however if there is time but no zone returns the time and UTC for the zone",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "time",
           "normalized": "Parser(TimeOfDay,TimeZone)",
@@ -2515,6 +2729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets a single Transaction from a tag. The tag should be the one\n named STMTTRN. Fails with an error message if any required field\n was not present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "transaction",
           "package": "ofx",
@@ -2525,6 +2740,7 @@
         "index": {
           "description": "Gets single Transaction from tag The tag should be the one named STMTTRN Fails with an error message if any required field was not present",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "transaction",
           "normalized": "Tag-\u003eErr Transaction",
@@ -2540,6 +2756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePulls all Transactions from a file. Might fail if the OFX file\n does not conform to the specification (or if there are bugs in this\n library.) In case of the former, you can manually parse the\n transaction information yourself using functions like\n \u003ccode\u003e\u003ca\u003epathData\u003c/a\u003e\u003c/code\u003e. In case of the latter, please send bugreports :-)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "transactions",
           "package": "ofx",
@@ -2550,6 +2767,7 @@
         "index": {
           "description": "Pulls all Transactions from file Might fail if the OFX file does not conform to the specification or if there are bugs in this library In case of the former you can manually parse the transaction information yourself using functions like pathData In case of the latter please send bugreports",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "transactions",
           "normalized": "OFXFile-\u003eErr[Transaction]",
@@ -2564,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "trnType",
           "package": "ofx",
@@ -2573,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "trnType",
           "normalized": "TagData-\u003eMaybe TrnType",
@@ -2589,6 +2809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation on a transfer. If this transaction wa sa\n transfer, this may contain information about the account being\n transferred to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "txAccountTo",
           "package": "ofx",
@@ -2599,6 +2820,7 @@
         "index": {
           "description": "Information on transfer If this transaction wa sa transfer this may contain information about the account being transferred to",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "txAccountTo",
           "package": "ofx",
@@ -2613,6 +2835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck or other reference number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "txCHECKNUM",
           "package": "ofx",
@@ -2623,6 +2846,7 @@
         "index": {
           "description": "Check or other reference number",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "txCHECKNUM",
           "package": "ofx",
@@ -2637,6 +2861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eCorrectAction\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etxCORRECTFITID\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "txCORRECTACTION",
           "package": "ofx",
@@ -2647,6 +2872,7 @@
         "index": {
           "description": "See CorrectAction and txCORRECTFITID",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "txCORRECTACTION",
           "package": "ofx",
@@ -2661,6 +2887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf present, this indicates the FITID of a previously sent\n transaction that is corrected by this record. This transaction\n replaces or deletes the transaction that it corrects, based on\n the value of CORRECTACTION below.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "txCORRECTFITID",
           "package": "ofx",
@@ -2671,6 +2898,7 @@
         "index": {
           "description": "If present this indicates the FITID of previously sent transaction that is corrected by this record This transaction replaces or deletes the transaction that it corrects based on the value of CORRECTACTION below",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "txCORRECTFITID",
           "package": "ofx",
@@ -2685,6 +2913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrency option. OFX spec says to choose either CURRENCY or\n ORIGCURRENCY.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "txCurrency",
           "package": "ofx",
@@ -2695,6 +2924,7 @@
         "index": {
           "description": "Currency option OFX spec says to choose either CURRENCY or ORIGCURRENCY",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "txCurrency",
           "package": "ofx",
@@ -2709,6 +2939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate funds are available\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "txDTAVAIL",
           "package": "ofx",
@@ -2719,6 +2950,7 @@
         "index": {
           "description": "Date funds are available",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "txDTAVAIL",
           "package": "ofx",
@@ -2733,6 +2965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate transaction was posted to account\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "txDTPOSTED",
           "package": "ofx",
@@ -2743,6 +2976,7 @@
         "index": {
           "description": "Date transaction was posted to account",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "txDTPOSTED",
           "package": "ofx",
@@ -2757,6 +2991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDate user initiated transaction, if known\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "txDTUSER",
           "package": "ofx",
@@ -2767,6 +3002,7 @@
         "index": {
           "description": "Date user initiated transaction if known",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "txDTUSER",
           "package": "ofx",
@@ -2781,6 +3017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransaction ID issued by financial institution. Used to\n detect duplicate downloads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "txFITID",
           "package": "ofx",
@@ -2791,6 +3028,7 @@
         "index": {
           "description": "Transaction ID issued by financial institution Used to detect duplicate downloads",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "txFITID",
           "package": "ofx",
@@ -2805,6 +3043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtra information not in NAME\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "txMEMO",
           "package": "ofx",
@@ -2815,6 +3054,7 @@
         "index": {
           "description": "Extra information not in NAME",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "txMEMO",
           "package": "ofx",
@@ -2829,6 +3069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePayee identifier if available\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "txPAYEEID",
           "package": "ofx",
@@ -2839,6 +3080,7 @@
         "index": {
           "description": "Payee identifier if available",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "txPAYEEID",
           "package": "ofx",
@@ -2853,6 +3095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation on the payee. The OFX spec seems to be saying\n that every transaction must have either NAME, wich is \"name of\n payee or description of transaction\", or the Payee\n aggregate. The former is indicated with a Left, the latter with\n a Right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "txPayeeInfo",
           "package": "ofx",
@@ -2863,6 +3106,7 @@
         "index": {
           "description": "Information on the payee The OFX spec seems to be saying that every transaction must have either NAME wich is name of payee or description of transaction or the Payee aggregate The former is indicated with Left the latter with Right",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "txPayeeInfo",
           "package": "ofx",
@@ -2877,6 +3121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference number that uniquely identifies the\n transaction. Can be used in addition to or instead of a\n CHECKNUM.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "txREFNUM",
           "package": "ofx",
@@ -2887,6 +3132,7 @@
         "index": {
           "description": "Reference number that uniquely identifies the transaction Can be used in addition to or instead of CHECKNUM",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "txREFNUM",
           "package": "ofx",
@@ -2901,6 +3147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard Industrial Code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "txSIC",
           "package": "ofx",
@@ -2911,6 +3158,7 @@
         "index": {
           "description": "Standard Industrial Code",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "txSIC",
           "package": "ofx",
@@ -2925,6 +3173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer assigned transaction ID; used for transactions\n initiated by client, such as payment or funds transfer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "txSRVRTID",
           "package": "ofx",
@@ -2935,6 +3184,7 @@
         "index": {
           "description": "Server assigned transaction ID used for transactions initiated by client such as payment or funds transfer",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "txSRVRTID",
           "package": "ofx",
@@ -2949,6 +3199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAmount of transaction. This is left as the string that was\n originally in the download. That means the transaction may\n include a plus or minus sign (no sign is the same as a plus\n sign.) According to section 3.2.9.2, amounts are always signed\n from the perspective of the customer.\n\u003c/p\u003e\u003cp\u003eTypically negative amounts:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Investment buy amount, investment sell quantity\n\u003c/li\u003e\u003cli\u003e Bank statement debit amounts, checks, fees\n\u003c/li\u003e\u003cli\u003e Credit card purchases\n\u003c/li\u003e\u003cli\u003e Margin balance (unless the institution owes the client money)\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eTypically positive amounts:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Investment sell amount, investment buy quantity\n\u003c/li\u003e\u003cli\u003e Bank statement credits\n\u003c/li\u003e\u003cli\u003e Credit card payments\n\u003c/li\u003e\u003cli\u003e Ledger balance (unless the account is overdrawn)\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eFormats for amounts are described in 3.2.9.1. If there is no\n decimal point, there is an implied decimal point at the end of\n the value. Trailing and leading spaces \"should\" be\n stripped. Positive or minus is indicated with a leading sign; a\n plus sign is assumed if there is no sign.\n\u003c/p\u003e\u003cp\u003eAn amount has a maximum of 32 alphanumeric characters,\n including digits and punctuation.\n\u003c/p\u003e\u003cp\u003eThe radix point is indicated with either a period or a\n comma. Amounts \"should\" not include any digit grouping\n characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "txTRNAMT",
           "package": "ofx",
@@ -2959,6 +3210,7 @@
         "index": {
           "description": "Amount of transaction This is left as the string that was originally in the download That means the transaction may include plus or minus sign no sign is the same as plus sign According to section amounts are always signed from the perspective of the customer Typically negative amounts Investment buy amount investment sell quantity Bank statement debit amounts checks fees Credit card purchases Margin balance unless the institution owes the client money Typically positive amounts Investment sell amount investment buy quantity Bank statement credits Credit card payments Ledger balance unless the account is overdrawn Formats for amounts are described in If there is no decimal point there is an implied decimal point at the end of the value Trailing and leading spaces should be stripped Positive or minus is indicated with leading sign plus sign is assumed if there is no sign An amount has maximum of alphanumeric characters including digits and punctuation The radix point is indicated with either period or comma Amounts should not include any digit grouping characters",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "txTRNAMT",
           "package": "ofx",
@@ -2973,6 +3225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransaction type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "txTRNTYPE",
           "package": "ofx",
@@ -2983,6 +3236,7 @@
         "index": {
           "description": "Transaction type",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "txTRNTYPE",
           "package": "ofx",
@@ -2997,6 +3251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a time zone offset. Fails if there is no time zone offset\n to parse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:31:17 UTC 2014",
           "module": "Data.OFX",
           "name": "tzOffset",
           "package": "ofx",
@@ -3007,6 +3262,7 @@
         "index": {
           "description": "Parses time zone offset Fails if there is no time zone offset to parse",
           "hierarchy": "Data OFX",
+          "indexed": "2014-03-11T19:31:17",
           "module": "Data.OFX",
           "name": "tzOffset",
           "package": "ofx",

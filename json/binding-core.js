@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "binding-core"
+        "phrase": "binding-core",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Binding.List",
           "name": "List",
           "package": "binding-core",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Binding List",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Binding.List",
           "name": "List",
           "package": "binding-core",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinding List\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Binding.List",
           "name": "BindingList",
           "package": "binding-core",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Binding List",
           "hierarchy": "Data Binding List",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Binding.List",
           "name": "BindingList",
           "package": "binding-core",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the data from a binding list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Binding.List",
           "name": "fromBindingList",
           "package": "binding-core",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Extract the data from binding list",
           "hierarchy": "Data Binding List",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Binding.List",
           "name": "fromBindingList",
           "normalized": "BindingList a b-\u003eIO[b]",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert an element into the list.\n The new element is inserted after the current element.\n This allows appending, but precludes prepending.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Binding.List",
           "name": "insert",
           "package": "binding-core",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Insert an element into the list The new element is inserted after the current element This allows appending but precludes prepending",
           "hierarchy": "Data Binding List",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Binding.List",
           "name": "insert",
           "normalized": "BindingList a b-\u003eb-\u003eIO Int",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert an element into a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Binding.List",
           "name": "insert'",
           "package": "binding-core",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Insert an element into list",
           "hierarchy": "Data Binding List",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Binding.List",
           "name": "insert'",
           "normalized": "[a]-\u003eInt-\u003ea-\u003e[a]",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe size of a binding list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Binding.List",
           "name": "length",
           "package": "binding-core",
@@ -149,6 +160,7 @@
         "index": {
           "description": "The size of binding list",
           "hierarchy": "Data Binding List",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Binding.List",
           "name": "length",
           "normalized": "BindingList a b-\u003eIO Int",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind to the next item in a binding list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Binding.List",
           "name": "next",
           "package": "binding-core",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Bind to the next item in binding list",
           "hierarchy": "Data Binding List",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Binding.List",
           "name": "next",
           "normalized": "BindingList a b-\u003eIO Int",
@@ -189,6 +203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Binding.List",
           "name": "position",
           "package": "binding-core",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Get the current position",
           "hierarchy": "Data Binding List",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Binding.List",
           "name": "position",
           "normalized": "BindingList a b-\u003eIO Int",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind to the previous item in a binding list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Binding.List",
           "name": "prev",
           "package": "binding-core",
@@ -224,6 +241,7 @@
         "index": {
           "description": "Bind to the previous item in binding list",
           "hierarchy": "Data Binding List",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Binding.List",
           "name": "prev",
           "normalized": "BindingList a b-\u003eIO Int",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the current element from the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Binding.List",
           "name": "remove",
           "package": "binding-core",
@@ -249,6 +268,7 @@
         "index": {
           "description": "Remove the current element from the list",
           "hierarchy": "Data Binding List",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Binding.List",
           "name": "remove",
           "normalized": "BindingList a b-\u003eIO Int",
@@ -264,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove an element from a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Binding.List",
           "name": "remove'",
           "package": "binding-core",
@@ -274,6 +295,7 @@
         "index": {
           "description": "Remove an element from list",
           "hierarchy": "Data Binding List",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Binding.List",
           "name": "remove'",
           "normalized": "[a]-\u003eInt-\u003e[a]",
@@ -289,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind to a new position in a binding list.\n Returns the new position; this is convenient for \u003ccode\u003e\u003ca\u003eseekBy\u003c/a\u003e\u003c/code\u003e and friends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Binding.List",
           "name": "seek",
           "package": "binding-core",
@@ -299,6 +322,7 @@
         "index": {
           "description": "Bind to new position in binding list Returns the new position this is convenient for seekBy and friends",
           "hierarchy": "Data Binding List",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Binding.List",
           "name": "seek",
           "normalized": "BindingList a b-\u003eInt-\u003eIO Int",
@@ -314,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind to a new position in a binding list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Binding.List",
           "name": "seekBy",
           "package": "binding-core",
@@ -324,6 +349,7 @@
         "index": {
           "description": "Bind to new position in binding list",
           "hierarchy": "Data Binding List",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Binding.List",
           "name": "seekBy",
           "normalized": "(Int-\u003eInt)-\u003eBindingList a b-\u003eIO Int",
@@ -340,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a binding list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Binding.List",
           "name": "toBindingList",
           "package": "binding-core",
@@ -350,6 +377,7 @@
         "index": {
           "description": "Create binding list",
           "hierarchy": "Data Binding List",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Binding.List",
           "name": "toBindingList",
           "normalized": "[a]-\u003eIO(BindingList b a)",
@@ -365,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Binding.Simple",
           "name": "Simple",
           "package": "binding-core",
@@ -373,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Data Binding Simple",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Binding.Simple",
           "name": "Simple",
           "package": "binding-core",
@@ -387,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSources for data binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Binding.Simple",
           "name": "Bindable",
           "package": "binding-core",
@@ -396,6 +427,7 @@
         "index": {
           "description": "Sources for data binding",
           "hierarchy": "Data Binding Simple",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Binding.Simple",
           "name": "Bindable",
           "package": "binding-core",
@@ -410,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinding Source\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Binding.Simple",
           "name": "Source",
           "package": "binding-core",
@@ -419,6 +452,7 @@
         "index": {
           "description": "Binding Source",
           "hierarchy": "Data Binding Simple",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Binding.Simple",
           "name": "Source",
           "package": "binding-core",
@@ -433,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a data binding\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Binding.Simple",
           "name": "bind",
           "package": "binding-core",
@@ -443,6 +478,7 @@
         "index": {
           "description": "Create data binding",
           "hierarchy": "Data Binding Simple",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Binding.Simple",
           "name": "bind",
           "package": "binding-core",
@@ -456,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMutable variables in the IO Monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Variable",
           "name": "Variable",
           "package": "binding-core",
@@ -465,6 +502,7 @@
         "index": {
           "description": "Mutable variables in the IO Monad",
           "hierarchy": "Data Variable",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Variable",
           "name": "Variable",
           "package": "binding-core",
@@ -478,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Variable",
           "name": "Variable",
           "package": "binding-core",
@@ -486,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Data Variable",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Variable",
           "name": "Variable",
           "package": "binding-core",
@@ -500,6 +540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Variable",
           "name": "modifyVar",
           "package": "binding-core",
@@ -510,6 +551,7 @@
         "index": {
           "description": "Modify variable",
           "hierarchy": "Data Variable",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Variable",
           "name": "modifyVar",
           "normalized": "a b-\u003e(b-\u003eb)-\u003eIO()",
@@ -526,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a variable, and return some value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Variable",
           "name": "modifyVar'",
           "package": "binding-core",
@@ -536,6 +579,7 @@
         "index": {
           "description": "Modify variable and return some value",
           "hierarchy": "Data Variable",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Variable",
           "name": "modifyVar'",
           "normalized": "a b-\u003e(b-\u003e(b,c))-\u003eIO c",
@@ -552,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Variable",
           "name": "newVar",
           "package": "binding-core",
@@ -562,6 +607,7 @@
         "index": {
           "description": "Create new variable",
           "hierarchy": "Data Variable",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Variable",
           "name": "newVar",
           "normalized": "a-\u003eIO(b a)",
@@ -578,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Variable",
           "name": "readVar",
           "package": "binding-core",
@@ -588,6 +635,7 @@
         "index": {
           "description": "Read variable",
           "hierarchy": "Data Variable",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Variable",
           "name": "readVar",
           "normalized": "a b-\u003eIO b",
@@ -604,6 +652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:20 UTC 2014",
           "module": "Data.Variable",
           "name": "writeVar",
           "package": "binding-core",
@@ -614,6 +663,7 @@
         "index": {
           "description": "Write variable",
           "hierarchy": "Data Variable",
+          "indexed": "2014-03-11T17:19:20",
           "module": "Data.Variable",
           "name": "writeVar",
           "normalized": "a b-\u003eb-\u003eIO()",

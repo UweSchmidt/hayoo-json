@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Ebnf2ps"
+        "phrase": "Ebnf2ps",
+        "type": "phrase"
       },
       "type": "context"
     }

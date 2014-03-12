@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "acme-strfry"
+        "phrase": "acme-strfry",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003eByteString\u003c/code\u003e-based interface to \u003ccode\u003estrfry\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:07:38 UTC 2014",
           "module": "Acme.Strfry.ByteString",
           "name": "ByteString",
           "package": "acme-strfry",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The ByteString based interface to strfry",
           "hierarchy": "Acme Strfry ByteString",
+          "indexed": "2014-03-11T17:07:38",
           "module": "Acme.Strfry.ByteString",
           "name": "ByteString",
           "package": "acme-strfry",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003estrfry s\u003c/code\u003e returns a pseudorandom anagram of \u003ccode\u003es\u003c/code\u003e. For more\n information, consult the glibc manual:\n \u003ca\u003ehttp://www.gnu.org/software/libc/manual/html_node/strfry.html\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:38 UTC 2014",
           "module": "Acme.Strfry.ByteString",
           "name": "strfry",
           "package": "acme-strfry",
@@ -52,6 +55,7 @@
         "index": {
           "description": "strfry returns pseudorandom anagram of For more information consult the glibc manual http www.gnu.org software libc manual html node strfry.html",
           "hierarchy": "Acme Strfry ByteString",
+          "indexed": "2014-03-11T17:07:38",
           "module": "Acme.Strfry.ByteString",
           "name": "strfry",
           "normalized": "ByteString-\u003eIO ByteString",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe raw FFI binding to \u003ccode\u003estrfry\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:07:38 UTC 2014",
           "module": "Acme.Strfry.Foreign",
           "name": "Foreign",
           "package": "acme-strfry",
@@ -76,6 +81,7 @@
         "index": {
           "description": "The raw FFI binding to strfry",
           "hierarchy": "Acme Strfry Foreign",
+          "indexed": "2014-03-11T17:07:38",
           "module": "Acme.Strfry.Foreign",
           "name": "Foreign",
           "package": "acme-strfry",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:38 UTC 2014",
           "module": "Acme.Strfry.Foreign",
           "name": "c_strfry",
           "package": "acme-strfry",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Acme Strfry Foreign",
+          "indexed": "2014-03-11T17:07:38",
           "module": "Acme.Strfry.Foreign",
           "name": "c_strfry",
           "normalized": "CString-\u003eIO CString",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003eString\u003c/code\u003e-based interface to \u003ccode\u003estrfry\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:07:38 UTC 2014",
           "module": "Acme.Strfry.String",
           "name": "String",
           "package": "acme-strfry",
@@ -122,6 +131,7 @@
         "index": {
           "description": "The String based interface to strfry",
           "hierarchy": "Acme Strfry String",
+          "indexed": "2014-03-11T17:07:38",
           "module": "Acme.Strfry.String",
           "name": "String",
           "package": "acme-strfry",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003estrfry s\u003c/code\u003e returns a pseudorandom anagram of \u003ccode\u003es\u003c/code\u003e. For more\n information, consult the glibc manual:\n \u003ca\u003ehttp://www.gnu.org/software/libc/manual/html_node/strfry.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eThis interface is based on \u003ccode\u003eString\u003c/code\u003e, and is likely to behave\n unpredictably on codepoints above 255. The \u003ccode\u003eByteString\u003c/code\u003e-based\n interface in \u003ca\u003eAcme.Strfry.ByteString\u003c/a\u003e is recommended for serious use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:38 UTC 2014",
           "module": "Acme.Strfry.String",
           "name": "strfry",
           "package": "acme-strfry",
@@ -146,6 +157,7 @@
         "index": {
           "description": "strfry returns pseudorandom anagram of For more information consult the glibc manual http www.gnu.org software libc manual html node strfry.html This interface is based on String and is likely to behave unpredictably on codepoints above The ByteString based interface in Acme.Strfry.ByteString is recommended for serious use",
           "hierarchy": "Acme Strfry String",
+          "indexed": "2014-03-11T17:07:38",
           "module": "Acme.Strfry.String",
           "name": "strfry",
           "normalized": "String-\u003eIO String",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module just re-exports the \u003ccode\u003eString\u003c/code\u003e-based interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:07:38 UTC 2014",
           "module": "Acme.Strfry",
           "name": "Strfry",
           "package": "acme-strfry",
@@ -170,6 +183,7 @@
         "index": {
           "description": "This module just re-exports the String based interface",
           "hierarchy": "Acme Strfry",
+          "indexed": "2014-03-11T17:07:38",
           "module": "Acme.Strfry",
           "name": "Strfry",
           "package": "acme-strfry",
